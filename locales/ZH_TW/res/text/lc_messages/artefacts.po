@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "actionStub/name"
+msgstr "改裝"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "立即為車輛恢復 %(immediatelyRestore)s 血量。能力作用的 %(duration)s 秒期間內，所有來自砲彈與戰鬥能力的傷害將累積並轉換為血量；此外能力作用結束時，將額外恢復相應於所受總傷害 %(restoringCoefficient)s 的血量。\n\n*轉換的血量也能讓小範圍內的隊友車輛恢復血量。"
+
+msgid "adaptationHealthRestore/descr"
+msgstr "立即為車輛恢復 %(immediatelyRestore)s 血量。能力作用的 %(duration)s 秒期間內，所有來自砲彈與戰鬥能力的傷害將累積並轉換為血量；此外能力作用結束時，將額外恢復相應於所受總傷害 %(restoringCoefficient)s 的血量。\n\n*轉換的血量也能讓小範圍內的隊友車輛恢復血量。"
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "立即為車輛{green_Open}恢復 %(immediatelyRestore)s{green_Close} 血量。能力作用的 {whiteSpanish_Open}%(duration)s 秒{whiteSpanish_Close}期間內，所有來自砲彈與戰鬥能力的傷害將累積並轉換為血量；此外能力作用結束時，將額外恢復相應於{green_Open}所受總傷害 %(restoringCoefficient)s 的血量{green_Close}。\n\n*轉換的血量也能讓小範圍內的隊友車輛恢復血量。"
+
+msgid "adaptationHealthRestore/name"
+msgstr "適應性裝甲"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "立即為車輛{green_Open}恢復 %(immediatelyRestore)s{green_Close} 血量。能力作用的 {whiteSpanish_Open}%(duration)s 秒{whiteSpanish_Close}期間內，所有來自砲彈與戰鬥能力的傷害將累積並轉換為血量；此外能力作用結束時，將額外恢復相應於{green_Open}所受總傷害 %(restoringCoefficient)s 的血量{green_Close}。\n\n*轉換的血量也能讓小範圍內的隊友車輛恢復血量。"
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s 安裝低噪音排氣系統&nbsp;(任一型)&nbsp;或戰勛排氣系統下，車輛移動時或靜止的隱蔽性。"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "提高低噪音排氣系統或戰勛排氣系統的效果，持續整場戰鬥。技術指南只有在您安裝了相應的裝備時才會有作用。"
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "排氣隔音"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "提高車輛移動時或靜止的隱蔽性"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "效率與車輛類型有關。提高車輛移動時或靜止的隱蔽性。在主動偵察與從危險位置被動偵察時相當實用。"
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "低噪音排氣系統"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "提高車輛移動時或靜止的隱蔽性。"
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "低噪音排氣系統 1 型"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "低噪音排氣系統 2 型"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "低噪音排氣系統 3 型"
+
+msgid "additional_armor_plates_1/name"
+msgstr "額外裝甲板（類型 1）"
+
+msgid "additional_armor_plates_2/name"
+msgstr "額外裝甲板（類型 2）"
+
+msgid "afterburning/descr"
+msgstr "在有限的時間內提高您車輛的速度與加速性。"
+
+msgid "afterburning/name"
+msgstr "渦輪增壓器"
+
+msgid "aimingStabilizer/long_special"
+msgstr "降低您的炮管擴散度是很重要的事：初始擴散度越小，瞄準圈就越小，而炮管完全瞄準的時間就越短。除此之外，就算毫無準備地開火 (沒有完全瞄準或移動中開火)，擊中目標的機率也會更高。"
+
+msgid "aimingStabilizer/name"
+msgstr "垂直穩定器"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s 安裝垂直穩定器、穩定設備系統或戰勛穩定器下開火後，移動與迴轉炮塔時的擴散度。"
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "提高垂直穩定器&nbsp;(任一型)、穩定設備系統或戰勛穩定器的效果，持續整場戰鬥。要裝備並啟用此技術指南，這些裝備物品應該先安裝於車輛上。"
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "穩定器潤滑"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "提高穩定器的效果"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "垂直穩定器 1 型"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "垂直穩定器 2 型"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "垂直穩定器 1 型"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "垂直穩定器 2 型"
+
+msgid "antifragmentationLining/long_special"
+msgstr "防破片內襯會吸收傷害；這意味它們能降低撞擊和高爆彈的傷害。防破片內襯對於裝甲結實的重型戰車，以及近距離戰鬥中有巨大衝撞潛力的車輛相當有用。"
+
+msgid "antifragmentationLining/name"
+msgstr "防破片內襯"
+
+msgid "antifragmentationLining/short_special"
+msgstr "保護車輛與乘員免於受傷、震盪且不受 HE 彈與衝撞傷害"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "超重型防破片內襯"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "重型防破片內襯"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "中型防破片內襯"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "輕型防破片內襯"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "排氣系統"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "穩定器"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "防破片內襯"
+
+msgid "archetype/camouflageNet/name"
+msgstr "偽裝網"
+
+msgid "archetype/coatedOptics/name"
+msgstr "望遠鏡"
+
+msgid "archetype/commandersView/name"
+msgstr "視覺系統"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "火炮控制裝置"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "車輛硬化"
+
+msgid "archetype/grousers/name"
+msgstr "履帶導齒"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "車輛配置"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "通訊設備組"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "迴轉機制"
+
+msgid "archetype/improvedSights/name"
+msgstr "瞄準鏡"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "通風裝置"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "射控系統"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "生存能力改良套件"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "準度改良系統"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "機動性改良系統"
+
+msgid "archetype/stereoscope/name"
+msgstr "雙筒望遠鏡"
+
+msgid "archetype/tankRammer/name"
+msgstr "進彈裝置"
+
+msgid "archetype/template"
+msgstr "「%(name)s」類別裝備"
+
+msgid "archetype/turbocharger/name"
+msgstr "渦輪增壓器"
+
+msgid "artillery/longDescr"
+msgstr "指揮自走炮朝一個小區域發射 HE 彈。\n位於彈著區中心的車輛會受到最多傷害。\n對重裝甲車輛特別有效。"
+
+msgid "artillery/name"
+msgstr "火炮襲擊"
+
+msgid "artillery/shortDescr"
+msgstr "在小範圍內對敵方車輛造成可觀傷害。"
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s 引擎起火機率"
+
+msgid "autoExtinguishers/descr"
+msgstr "自動撲滅您車上的火災。"
+
+msgid "autoExtinguishers/long_special"
+msgstr "自動撲滅火災並降低車輛起火機率。此消耗品適用於所有國家及類型的車輛。"
+
+msgid "autoExtinguishers/name"
+msgstr "自動滅火系統"
+
+msgid "autoExtinguishers/onUse"
+msgstr "自動撲滅您車上的火災。可在一場戰鬥中多次使用。如果有使用過至少一次，該消耗品就會在戰鬥後移除。"
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "自動滅火"
+
+msgid "berserker/battleDescr"
+msgstr "穿透力與射速提高為 %(gunPiercing)s 倍，同時也會讓瞄準效率與穩定性提升 %(gunAimingTime)s，但在能力作用的 %(duration)s 秒期間內，會削減您車輛生命值 %(healthDebuff)s 的血量。\n\n*「淌血升能」能力造成的傷害不會讓您的車輛遭摧毀。"
+
+msgid "berserker/descr"
+msgstr "穿透力與射速提高為 %(gunPiercing)s 倍，同時也會讓瞄準效率與穩定性提升 %(gunAimingTime)s，但在能力作用的 %(duration)s 秒期間內，會削減您車輛生命值 %(healthDebuff)s 的血量。\n\n*「淌血升能」能力造成的傷害不會讓您的車輛遭摧毀。"
+
+msgid "berserker/longDescr"
+msgstr "穿透力與射速提高 {green_Open}%(gunPiercing)s 倍{green_Close}，同時也會讓瞄準效率與穩定性{green_Open}提升 %(gunAimingTime)s{green_Close}，但在能力作用的 {whiteSpanish_Open}%(duration)s 秒{whiteSpanish_Close}期間，會削減您車輛生命值的 {red_Open}%(healthDebuff)s{red_Close}。\n\n*「淌血升能」能力造成的傷害不會摧毀您的車輛。"
+
+msgid "berserker/name"
+msgstr "淌血升能"
+
+msgid "berserker/shortDescr"
+msgstr "穿透力與射速提高 {green_Open}%(gunPiercing)s 倍{green_Close}，同時也會讓瞄準效率與穩定性{green_Open}提升 %(gunAimingTime)s{green_Close}，但在能力作用的 {whiteSpanish_Open}%(duration)s 秒{whiteSpanish_Close}期間，會削減您車輛生命值的 {red_Open}%(healthDebuff)s{red_Close}。\n\n*「淌血升能」能力造成的傷害不會摧毀您的車輛。"
+
+msgid "blackout_headlights_1/name"
+msgstr "車頭燈調暗（類型 1）"
+
+msgid "bomber/longDescr"
+msgstr "命令地面攻擊機前往指定區域投彈，對敵方車輛造成震盪與傷害。位於彈著區中心的車輛會受到最多傷害。對輕裝甲與裝甲一般的車輛特別有效。"
+
+msgid "bomber/name"
+msgstr "空襲行動"
+
+msgid "bomber/shortDescr"
+msgstr "震盪大範圍內的敵方車輛並對這些車輛造成中等程度的傷害。"
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "在 %(duration)s 秒內逐漸為您的車輛恢復 %(healPerTickDuration)s 的血量。遭受傷害會中斷效果。"
+
+msgid "brRegenerationKit/descr"
+msgstr "在 %(duration)s 秒內逐漸為您的車輛恢復 %(healPerTickDuration)s 的血量。遭受傷害會中斷效果。"
+
+msgid "brRegenerationKit/long_special"
+msgstr "在 {whiteSpanish_Open}%(duration)s 秒內{whiteSpanish_Close}逐漸為您的車輛恢復 {green_Open}%(healPerTickDuration)s{green_Close} 的血量。遭受傷害會中斷效果。"
+
+msgid "brRegenerationKit/name"
+msgstr "血量恢復"
+
+msgid "brRegenerationKit/short_special"
+msgstr "在 {whiteSpanish_Open}%(duration)s 秒內{whiteSpanish_Close}逐漸為您的車輛恢復 {green_Open}%(healPerTickDuration)s{green_Close} 的血量。遭受傷害會中斷效果。"
+
+msgid "brRepairkit/descr"
+msgstr "修理配件並移除負面效果。"
+
+msgid "brRepairkit/long_special"
+msgstr "修理配件並移除負面效果。"
+
+msgid "brRepairkit/name"
+msgstr "工具包"
+
+msgid "brRepairkit/short_special"
+msgstr "修理配件並移除負面效果。"
+
+msgid "br_bomber/battleDescr"
+msgstr "震盪敵方車輛並造成 %(minDamage)s 至 %(maxDamage)s 血量傷害。位於彈著區中心的車輛遭受更嚴重的傷害。\n\n*發動空襲前有 %(delay)s 秒的延遲。"
+
+msgid "br_bomber/descr"
+msgstr "震盪敵方車輛並造成 %(minDamage)s 至 %(maxDamage)s 血量傷害。位於彈著區中心的車輛遭受更嚴重的傷害。\n\n*發動空襲前有 %(delay)s 秒的延遲。"
+
+msgid "br_bomber/longDescr"
+msgstr "震盪敵方車輛並造成 {whiteSpanish_Open}%(minDamage)s 至 %(maxDamage)s 血量傷害{whiteSpanish_Close}。位於彈著區中心的車輛遭受更嚴重的傷害。\n\n*發動空襲前有 %(delay)s 秒的延遲。"
+
+msgid "br_bomber/name"
+msgstr "空襲行動"
+
+msgid "br_bomber/shortDescr"
+msgstr "震盪敵方車輛並造成 {whiteSpanish_Open}%(minDamage)s 至 %(maxDamage)s 血量傷害{whiteSpanish_Close}。位於彈著區中心的車輛遭受更嚴重的傷害。\n\n*發動空襲前有 %(delay)s 秒的延遲。"
+
+msgid "br_minefield/battleDescr"
+msgstr "在所選範圍內部署具殺傷力的地雷區，持續 %(duration)s 秒。接觸地雷的敵方車輛將受到震盪與爆炸傷害。\n\n*地雷可透過射擊摧毀。部署在敵方車輛下方的地雷將不會爆炸。"
+
+msgid "br_minefield/descr"
+msgstr "在所選範圍內部署具殺傷力的地雷區，持續 %(duration)s 秒。接觸地雷的敵方車輛將受到震盪與爆炸傷害。\n\n*地雷可透過射擊摧毀。部署在敵方車輛下方的地雷將不會爆炸。"
+
+msgid "br_minefield/longDescr"
+msgstr "在所選範圍內部署具殺傷力的地雷區，持續 {whiteSpanish_Open}%(duration)s 秒{whiteSpanish_Close}。接觸地雷的敵方車輛將受到震盪與爆炸傷害。\n\n*地雷可透過射擊摧毀。部署在敵方車輛下方的地雷將不會爆炸。"
+
+msgid "br_minefield/name"
+msgstr "地雷區"
+
+msgid "br_minefield/shortDescr"
+msgstr "在所選範圍內部署具殺傷力的地雷區，持續 {whiteSpanish_Open}%(duration)s 秒{whiteSpanish_Close}。接觸地雷的敵方車輛將受到震盪與爆炸傷害。\n\n*地雷可透過射擊摧毀。部署在敵方車輛下方的地雷將不會爆炸。"
+
+msgid "br_respawn/name"
+msgstr "重生"
+
+msgid "br_respawn/platoon/descr"
+msgstr "讓您在車輛遭摧毀後重回戰鬥。此機制在戰鬥的首 %(duration)s 分鐘內可用。\n\n若要讓隊友重生，必須持續 %(timeToResurrect)s 秒不與敵人交戰。裝甲排隊友共用重生次數。"
+
+msgid "br_respawn/solo/descr"
+msgstr "讓您在車輛遭摧毀後重回戰鬥。此機制在戰鬥的首 %(duration)s 分鐘內可用。\n\n一旦遭摧毀，您的車輛會自動重生。"
+
+msgid "br_smoke/battleDescr"
+msgstr "為消耗品範圍內的所有車輛提供 %(duration)s 秒隱蔽性加成。"
+
+msgid "br_smoke/descr"
+msgstr "為消耗品範圍內的所有車輛提供隱蔽性加成。"
+
+msgid "br_smoke/longDescr"
+msgstr "為消耗品範圍內的所有車輛提供 %(duration)s 秒隱蔽性加成。"
+
+msgid "br_smoke/name"
+msgstr "煙幕"
+
+msgid "br_smoke/shortDescr"
+msgstr "為消耗品範圍內的所有車輛提供隱蔽性加成。"
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "為消耗品範圍內的所有車輛提供隱蔽性加成，同時對範圍內的所有車輛造成每秒削減生命值 %(damagePerTick)s 的傷害。效果持續 %(duration)s 秒。\n\n*受到「腐蝕煙霧」傷害時，不會中斷物資的拾起，也不會摧毀車輛，會讓受影響的車輛保留至少 1 血量。"
+
+msgid "br_smoke_with_damage/descr"
+msgstr "為消耗品範圍內的所有車輛提供隱蔽性加成，同時對範圍內的所有車輛造成每秒削減生命值 %(damagePerTick)s 的傷害。效果持續 %(duration)s 秒。\n\n*受到「腐蝕煙霧」傷害時，不會中斷物資的拾起，也不會摧毀車輛，會讓受影響的車輛保留至少 1 血量。"
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "為消耗品範圍內的所有車輛提供隱蔽性加成，同時對範圍內的所有車輛造成每秒削減生命值 {whiteSpanish_Open}%(damagePerTick)s{whiteSpanish_Close} 的傷害。效果持續 {whiteSpanish_Open}%(duration)s 秒{whiteSpanish_Close}。\n\n*受到「腐蝕煙霧」傷害時，不會中斷物資的拾起，也不會摧毀車輛，會讓受影響的車輛保留至少 1 血量。"
+
+msgid "br_smoke_with_damage/name"
+msgstr "腐蝕煙霧"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "為消耗品範圍內的所有車輛提供隱蔽性加成，同時對範圍內的所有車輛造成每秒削減生命值 {whiteSpanish_Open}%(damagePerTick)s{whiteSpanish_Close} 的傷害。效果持續 {whiteSpanish_Open}%(duration)s 秒{whiteSpanish_Close}。\n\n*受到「腐蝕煙霧」傷害時，不會中斷物資的拾起，也不會摧毀車輛，會讓受影響的車輛保留至少 1 血量。"
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s 修理配件速度"
+
+msgid "builtinRepairkit/long_special"
+msgstr "啟用後修理所有受損的配件。被動效果會增加修理速度。此消耗品只適用於特定的車輛。"
+
+msgid "builtinRepairkit/name"
+msgstr "標準大型工具箱"
+
+msgid "builtinRepairkit/onUse"
+msgstr "修理所有受損的配件。可在一場戰鬥中多次使用。不會耗盡。\n此消耗品無法被移除，但可以被移動到其它欄位。"
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "額外提高 10% 車輛隱蔽性"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "把所有乘員的「偽裝」歷練訓練到 100%"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "「偽裝」歷練會降低靜止與移動車輛的可見性，效果持續整場戰鬥。如果歷練訓練到 100%，裝備技術指南就會增加其效果；如果沒有，技術指南會向您車輛提供已訓練到 100% 的歷練。"
+
+msgid "camouflageBattleBooster/name"
+msgstr "天然掩蔽"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "把「偽裝」歷練訓練到 100%，或提高其效果"
+
+msgid "camouflageNet/battleDescr"
+msgstr "在車輛靜止 3 秒後提高隱蔽性"
+
+msgid "camouflageNet/long_special"
+msgstr "效果與車輛類型有關。「偽裝網」主要對隱匿型車輛有用：外形低矮的自走炮與驅逐戰車。可增加乘員「偽裝」歷練的效果。結合裝備與乘員歷練可為車輛提供良好加成。「偽裝網」會在車輛靜止 3 秒後啟用。"
+
+msgid "camouflageNet/name"
+msgstr "偽裝網"
+
+msgid "camouflageNet/short_special"
+msgstr "提高靜止車輛的隱蔽性"
+
+msgid "camouflageNet_tier2/name"
+msgstr "偽裝網 2 型"
+
+msgid "camouflageNet_tier3/name"
+msgstr "偽裝網 3 型"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} 乘員熟練度加成，持續整場戰鬥。"
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 乘員熟練度加成。"
+
+msgid "chocolate/long_special"
+msgstr "戰鬥開始時會自動啟用，效果持續整場戰鬥。僅適用於德國車輛。"
+
+msgid "chocolate/name"
+msgstr "巧克力"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "僅適用於德國車輛。"
+
+msgid "chocolate/short_special"
+msgstr "提高德國乘員的表現"
+
+msgid "clingBrander/battleDescr"
+msgstr "呼叫一輛裝備有敵我識別系統的自動戰車，它會追逐並攻擊最鄰近的敵人，持續時間至多 %(botLifeTime)s 秒。\n\n*此戰車可被摧毀。"
+
+msgid "clingBrander/descr"
+msgstr "呼叫一輛裝備有敵我識別系統的自動戰車，它會追逐並攻擊最鄰近的敵人，持續時間至多 %(botLifeTime)s 秒。\n\n*此戰車可被摧毀。"
+
+msgid "clingBrander/longDescr"
+msgstr "呼叫一輛裝備有敵我識別系統的自動戰車，它會追逐並攻擊最鄰近的敵人，持續時間{whiteSpanish_Open}至多 %(botLifeTime)s 秒。{whiteSpanish_Close}\n\n*此戰車可被摧毀。"
+
+msgid "clingBrander/name"
+msgstr "戰地機器人"
+
+msgid "clingBrander/shortDescr"
+msgstr "呼叫一輛裝備有敵我識別系統的自動戰車，它會追逐並攻擊最鄰近的敵人，持續時間{whiteSpanish_Open}至多 %(botLifeTime)s 秒。{whiteSpanish_Close}\n\n*此戰車可被摧毀。"
+
+msgid "clutches_replace_1/name"
+msgstr "替代摩擦聯結器（類型 1）"
+
+msgid "clutches_replace_2/name"
+msgstr "替代摩擦聯結器（類型 2）"
+
+msgid "coatedOptics/long_special"
+msgstr "不像雙筒望遠鏡，光學鍍膜望遠鏡（任何類型）提供較少、但持續存在的加成效果，不會隨車輛移動而消失。因此，光學鍍膜望遠鏡對玩法主動的車輛 ─ 輕型與中型戰車 ─ 非常有用。"
+
+msgid "coatedOptics/name"
+msgstr "光學鍍膜望遠鏡"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s 安裝光學鍍膜望遠鏡&nbsp;(任一型)、實驗型望遠鏡或戰勛望遠鏡下的可視範圍&nbsp;(最遠 445 公尺)。"
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "提高光學鍍膜望遠鏡、實驗型望遠鏡或戰勛望遠鏡的效果，持續整場戰鬥。要裝備並啟用此技術指南，這些裝備物品應該先安裝於車輛上。"
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "光學校準"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "提高光學鍍膜望遠鏡的效果"
+
+msgid "coatedOptics_tier1/name"
+msgstr "光學鍍膜望遠鏡 1 型"
+
+msgid "coatedOptics_tier2/name"
+msgstr "光學鍍膜望遠鏡 2 型"
+
+msgid "coatedOptics_tier3/name"
+msgstr "光學鍍膜望遠鏡 3 型"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} 乘員熟練度加成，持續整場戰鬥。"
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 乘員熟練度加成。"
+
+msgid "cocacola/long_special"
+msgstr "戰鬥開始時會自動啟用，效果持續整場戰鬥。僅適用於美國車輛。"
+
+msgid "cocacola/name"
+msgstr "一箱可樂"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "僅適用於美國車輛。"
+
+msgid "cocacola/short_special"
+msgstr "提高美國乘員的表現"
+
+msgid "commandersView/long_special"
+msgstr "偵察時，降低移動中敵人的隱蔽性與樹葉對敵人的隱蔽性係數。此裝備讓您自更遠的距離偵察移動中的敵人且能更有效偵察到隱藏在灌木叢或倒下樹木後方的敵人。"
+
+msgid "commandersView/name"
+msgstr "車長視覺系統"
+
+msgid "commandersView/short_special"
+msgstr "降低移動中或躲在樹葉後敵方車輛的隱蔽性"
+
+msgid "corrodingShot/battleDescr"
+msgstr "為砲彈加入腐蝕特性，可提高穿透力與潛在傷害能力。對敵方車輛造成傷害時，砲彈會對車輛套用暫時性的效果，在 %(dotEffectDuration)s 秒內，至多會削減敵方車輛生命值 %(damagePerDotEffectDuration)s 的血量。\n\n*可用「工具包」移除此負面效果。"
+
+msgid "corrodingShot/descr"
+msgstr "為砲彈加入腐蝕特性，可提高穿透力與潛在傷害能力。對敵方車輛造成傷害時，砲彈會對車輛套用暫時性的效果，在 %(dotEffectDuration)s 秒內讓敵方車輛削減至多 %(damagePerDotEffectDuration)s 的血量。\n\n*可用「工具包」移除此負面效果。"
+
+msgid "corrodingShot/longDescr"
+msgstr "為砲彈加入腐蝕特性，可提高穿透力與潛在傷害能力。對敵方車輛造成傷害時，砲彈會對車輛套用暫時性的效果，在 {whiteSpanish_Open}%(dotEffectDuration)s 秒{whiteSpanish_Close}期間，至多會削減敵方車輛生命值 {whiteSpanish_Open}%(damagePerDotEffectDuration)s{whiteSpanish_Close} 的血量。\n\n*可用「工具包」移除此負面效果。"
+
+msgid "corrodingShot/name"
+msgstr "強酸砲彈"
+
+msgid "corrodingShot/shortDescr"
+msgstr "為砲彈加入腐蝕特性，可提高穿透力與潛在傷害能力。對敵方車輛造成傷害時，砲彈會對車輛套用暫時性的效果，在 {whiteSpanish_Open}%(dotEffectDuration)s 秒{whiteSpanish_Close}期間，至多會削減敵方車輛生命值 {whiteSpanish_Open}%(damagePerDotEffectDuration)s{whiteSpanish_Close} 的血量。\n\n*可用「工具包」移除此負面效果。"
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "改良以下"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "車長特長"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose}{skillOrPerk}「{name}」"
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "歷練："
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "給予以下"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "歷練："
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "改良版的垂直穩定器（{colorTagOpen}–20%{colorTagClose} 開火後、移動與迴轉炮塔時的炮管擴散度）提供了更強的效果：{colorTagOpen}–27.5%{colorTagClose} 開火後、移動與迴轉炮塔時的炮管擴散度。此裝備適用於所有國家及特定類型的車輛。只能用點券拆卸。"
+
+msgid "deluxAimingStabilizer/name"
+msgstr "穩定設備系統"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "改良版的光學鍍膜望遠鏡（{colorTagOpen}+10%{colorTagClose} 可視範圍）提供了更強的效果：{colorTagOpen}+13.5%{colorTagClose} 可視範圍。此裝備適用於所有國家及類型的車輛。只能用點券拆卸。"
+
+msgid "deluxCoatedOptics/name"
+msgstr "實驗型望遠鏡"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "改良版的增強型火炮控制裝置（{colorTagOpen}+10%{colorTagClose} 瞄準速度）提供了更強的效果：{colorTagOpen}+13.5%{colorTagClose} 瞄準速度。此裝備適用於所有國家及類型的車輛。只能用點券拆卸。"
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "耐磨型火炮控制裝置"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "修改型車輛配置的類似裝備，提供了更強的效果。此裝備適用於所有國家及類型的車輛。只能用點券拆卸。"
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "改良型車輛配置"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "加快修理速度、保護彈藥架、油箱與引擎"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "改良版的「通風裝置」（{colorTagOpen}+5%{colorTagClose} 乘員熟練度加成）提供了更強的效果：{colorTagOpen}+8.5%{colorTagClose}乘員熟練度。此裝備適用於所有國家及類型的車輛。只能用點券拆卸。"
+
+msgid "deluxImprovedVentilation/name"
+msgstr "通風系統"
+
+msgid "deluxRammer/long_special"
+msgstr "改良版的進彈裝置（{colorTagOpen}-10%{colorTagClose} 裝填時間）提供了更強的效果：{colorTagOpen}-13.5%{colorTagClose} 裝填時間。此裝備適用於所有國家及類型的車輛。只能用點券拆卸。"
+
+msgid "deluxRammer/name"
+msgstr "新型裝填系統"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "強化版的「低噪音排氣系統」，提供了更強的效果：提高車輛移動時或靜止的隱蔽性。在主動偵察與從危險位置被動偵察時相當實用。\n此裝備適用於所有國家及類型的車輛，但效率與車輛類型有關。只能用點券拆卸。"
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "改良型排氣系統"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "提高 {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose} 車輛移動時或靜止的隱蔽性"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "在車輛靜止 1.5 秒後提高隱蔽性"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "改良版的偽裝網，效果與車輛類型有關。「戰術偽裝網」主要對隱匿型車輛有用：外形低矮的自走炮與驅逐戰車。可增加乘員「偽裝」歷練的效果。結合裝備與乘員歷練可為車輛提供良好加成。「戰術偽裝網」會在車輛靜止 1.5 秒後啟用。"
+
+msgid "deluxeCamouflageNet/name"
+msgstr "戰術偽裝網"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17.5{colorTagClose}/{colorTagOpen}12.5{colorTagClose}/{colorTagOpen}7.5%{colorTagClose} 靜止車輛的隱蔽性"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "修理後完全恢復懸吊血量。"
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "修理後恢復懸吊。"
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "改進版的改良型車輛硬化：{colorTagOpen}+12.5%{colorTagClose} 車輛血量、{colorTagOpen}+75%{colorTagClose} 懸吊耐久性、{colorTagOpen}+30%{colorTagClose} 懸吊修理速度、{colorTagOpen}–75%{colorTagClose} 碰撞時懸吊受損所造成的車身傷害。修理後完全恢復懸吊血量。降低受損時履帶被摧毀的機率，讓車輛能盡可能保持移動力。此裝備適用於所有國家及類型的車輛（自走炮除外）。只能用點券拆卸。"
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "抗彈性強化"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "增加車輛耐久性與保護懸吊"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "改良版的改良型迴轉機制，提供了更強的效果：{colorTagOpen}+17.5% {colorTagClose} 炮管迴轉速度、{colorTagOpen}+17.5% {colorTagClose} 車身迴轉速度，以及 {colorTagOpen}-17.5% {colorTagClose} 移動與迴轉炮塔時的擴散度。此裝備適用於所有國家及類型的車輛。只能用點券拆卸。"
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "強化型迴轉機制"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "移動與迴轉時，增加迴轉速度且降低炮管擴散度"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "強化版的「改良型瞄準鏡」，提供了更強的效果：瞄準中或已瞄準炮管的瞄準圈大小縮小 {colorTagOpen}9%{colorTagClose}。您的炮管命中目標的機率因此較高。此裝備適用於所有國家及類型的車輛。只能用點券拆卸。"
+
+msgid "deluxeImprovedSights/name"
+msgstr "新型瞄準系統"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "降低炮管擴散度"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "在車輛靜止 1.5 秒後增加可視範圍（最遠 445 公尺）"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "改良版的雙筒望遠鏡。良好可視範圍可為車輛在戰場上帶來扎實優勢。此類型的裝備對外型低矮且炮管精準的驅逐戰車有用。會在車輛停止移動 1.5 秒後啟用。"
+
+msgid "deluxeStereoscope/name"
+msgstr "伸縮式觀測系統"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27.5%{colorTagClose} 靜止車輛的可視範圍（最遠 445 公尺）"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "改進版的渦輪增壓器（{colorTagOpen}+7.5% {colorTagClose} 引擎功率、最高前進速度 {colorTagOpen}+4 公里/小時{colorTagClose}、最高後退速度 {colorTagOpen}+2 公里/小時{colorTagClose}）：{colorTagOpen}+12.5%{colorTagClose} 引擎功率、最高前進速度 {colorTagOpen}+6 公里/小時{colorTagClose}、最高後退速度 {colorTagOpen}+4 公里/小時{colorTagClose}。此裝備適用於所有國家及類型的車輛（輪式車輛除外）。只能用點券拆卸。"
+
+msgid "deluxeTurbocharger/name"
+msgstr "改良型渦輪增壓器"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "增加引擎功率與最高速度"
+
+msgid "eb_minefield/descr"
+msgstr "在所選範圍內部署具殺傷力的地雷區，效果持續一段時間。"
+
+msgid "eb_minefield/long_descr"
+msgstr "在所選範圍內部署具殺傷力的地雷區，效果持續一段時間。引爆時，地雷會傷害並震盪敵方車輛。敵人可在近距離內偵測到地雷，或透過偵察飛行或哨兵戰鬥儲備偵測。可透過射擊或引爆摧毀地雷。"
+
+msgid "eb_minefield/name"
+msgstr "地雷區"
+
+msgid "eb_minefield/short_descr"
+msgstr "在所選範圍內部署具殺傷力的地雷區，效果持續一段時間。"
+
+msgid "eb_regenerationKit/descr"
+msgstr "逐漸為您的車輛恢復特定百分比的血量。"
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "逐漸為您的車輛恢復特定百分比的血量。提高補給環內的修理速度。啟用時可降低地雷造成的傷害。"
+
+msgid "eb_regenerationKit/name"
+msgstr "戰地維修"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "逐漸為您的車輛恢復特定百分比的血量。"
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "車庫車位"
+
+msgid "empty_slot/name"
+msgstr "車庫車位"
+
+msgid "empty_slot/short_descr"
+msgstr "此戰鬥儲備欄位已被使用。"
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "「聲音偵測」歷練獲得 1.5 倍效果"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "把「聲音偵測」歷練訓練到 100%"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "「聲音偵測」歷練會針對敵方自走炮射擊啟用警告，並降低震盪的負面影響。如果歷練訓練到 100%，裝備技術指南就會增加其效果；如果沒有，技術指南會向您車輛提供已訓練到 100% 的歷練。"
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "高度警戒"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "把「聲音偵測」歷練訓練到 100%，或提高其效果"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "瞄準的改善降低了瞄準時間。裝有增強型火炮控制裝置的車輛射擊更準確 (此外，它會提高射擊速率，因為有時裝填時間會比完全瞄準來得更快)。"
+
+msgid "enhancedAimDrives/name"
+msgstr "增強型火炮控制裝置"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s 安裝增強型火炮控制裝置&nbsp;(任一型)、耐磨型火炮控制裝置、戰勛火炮控制裝置或射控系統下的瞄準速度。"
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "提高戰勛火炮控制裝置、增強型火炮控制裝置或耐磨型火炮控制裝置的效果，持續整場戰鬥。要裝備並啟用此技術指南，這些裝備物品應該先安裝於車輛上。"
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "瞄準調節"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "提高火炮控制裝置的效果"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "增強型火炮控制裝置 1 型"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "增強型火炮控制裝置 2 型"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "增強型火炮控制裝置 3 型"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "增強型貝勒維爾墊圈"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "修理後完全恢復懸吊血量。"
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "修理後完全恢復懸吊血量"
+
+msgid "enhancedLevers/name"
+msgstr "增強型槓桿"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "增強型扭力桿"
+
+msgid "enhancedSprings/name"
+msgstr "增強型彈簧"
+
+msgid "enhancedTorsions1t/name"
+msgstr "增強型扭力桿 1 噸級"
+
+msgid "enhancedTorsions3t/name"
+msgstr "增強型扭力桿 3 噸級"
+
+msgid "enhancedTorsions5t/name"
+msgstr "增強型扭力桿 5 噸級"
+
+msgid "exampleAbility/descr"
+msgstr "視覺編碼的測試技能"
+
+msgid "exampleAbility/name"
+msgstr "測試技能"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s 引擎功率與炮塔迴轉速度，持續整場戰鬥。"
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 引擎功率與炮塔迴轉速度。"
+
+msgid "excellentFuel/long_special"
+msgstr "提高 {colorTagOpen}10%{colorTagClose} 引擎功率與炮塔迴轉速度，持續整場戰鬥。戰鬥開始時會自動啟用，效果持續整場戰鬥。"
+
+msgid "excellentFuel/name"
+msgstr "超優質燃油"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} 引擎功率與炮塔迴轉速度"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "修理後完全恢復懸吊血量。"
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "修理後恢復懸吊。"
+
+msgid "extraHealthReserve/long_special"
+msgstr "增加車輛耐久性與修理速度。降低碰撞時懸吊受損所造成的車身傷害。修理後完全恢復懸吊血量。降低受損時履帶被摧毀的機率，讓車輛能盡可能保持移動力。"
+
+msgid "extraHealthReserve/name"
+msgstr "改良型車輛硬化"
+
+msgid "extraHealthReserve/short_special"
+msgstr "增加車輛耐久性與保護懸吊"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "改良型車輛硬化 1 型"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "改良型車輛硬化 2 型"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "改良型車輛硬化 3 型"
+
+msgid "fireCircle/battleDescr"
+msgstr "在您車輛周圍建立火焰圈，降低作用範圍內之敵方車輛的機動性，並在能力作用的 %(timer)s 秒期間內，至多會削減這些車輛生命值 %(damagePerTickForInterval)s 的血量。\n\n*火焰圈的作用區域固定，不會隨您的車輛移動。"
+
+msgid "fireCircle/descr"
+msgstr "在您車輛周圍建立火焰圈，降低作用範圍內之敵方車輛的機動性，並在能力作用的 %(timer)s 秒期間內對這些車輛削減至多 %(damagePerTickForInterval)s 的總血量。\n\n*火焰圈的作用區域固定，不會隨您的車輛移動。"
+
+msgid "fireCircle/longDescr"
+msgstr "在您車輛周圍建立火焰圈，降低作用範圍內之敵方車輛的機動性，並在能力作用的 {whiteSpanish_Open}%(timer)s 秒{whiteSpanish_Close}期間，至多會削減這些車輛生命值 {whiteSpanish_Open}%(damagePerTickForInterval)s{whiteSpanish_Close} 的血量。\n\n*火焰圈的作用區域固定，不會隨您的車輛移動。"
+
+msgid "fireCircle/name"
+msgstr "熾熱火環"
+
+msgid "fireCircle/shortDescr"
+msgstr "在您車輛周圍建立火焰圈，降低作用範圍內之敵方車輛的機動性，並在能力作用的 {whiteSpanish_Open}%(timer)s 秒{whiteSpanish_Close}期間，至多會削減這些車輛生命值 {whiteSpanish_Open}%(damagePerTickForInterval)s{whiteSpanish_Close} 的血量。\n\n*火焰圈的作用區域固定，不會隨您的車輛移動。"
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "「滅火」歷練獲得 1.5 倍效果"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "把「滅火」歷練訓練到 100%"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "「滅火」歷練會增強您的車輛滅火能力，效果持續整場戰鬥。如果歷練訓練到 100%，裝備技術指南就會增加其效果；如果沒有，技術指南會向您車輛提供已訓練到 100% 的歷練。"
+
+msgid "fireFightingBattleBooster/name"
+msgstr "老練消防員"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "把「滅火」歷練訓練到 100%，或提高其效果"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "指揮火炮來攻擊選擇的區域，對當中的所有車輛造成傷害。"
+
+msgid "fort_aoe_artillery/name"
+msgstr "火炮襲擊"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "指揮火炮來攻擊選擇的區域，對當中的所有車輛造成傷害。"
+
+msgid "fort_inspire/longDescr"
+msgstr "為您車輛與鄰近的友軍車輛之整組乘員的熟練度與所有歷練提供加成。"
+
+msgid "fort_inspire/name"
+msgstr "鼓舞"
+
+msgid "fort_inspire/shortDescr"
+msgstr "為您車輛與鄰近的友軍車輛之整組乘員的熟練度與所有歷練提供加成。"
+
+msgid "fuel_system_revision_1/name"
+msgstr "燃油系統修改（類型 1）"
+
+msgid "grousers/long_special"
+msgstr "增加車輛迴轉速度並在穿越任何地形時維持車速。在軟地與一般軟地駕駛時效果極為顯著。結合「甩尾」與「越野達人」歷練時效果最為顯著。"
+
+msgid "grousers/name"
+msgstr "增加履帶導齒數"
+
+msgid "grousers/short_special"
+msgstr "增加車輛迴轉速度與改善加速"
+
+msgid "grousers_tier1/name"
+msgstr "增加履帶導齒數 1 型"
+
+msgid "grousers_tier2/name"
+msgstr "增加履帶導齒數 2 型"
+
+msgid "grousers_tier3/name"
+msgstr "增加履帶導齒數 3 型"
+
+msgid "gun_balancing_1/name"
+msgstr "炮管平衡（類型 1）"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "撲滅您車上的火災。"
+
+msgid "handExtinguishers/long_special"
+msgstr "啟用後撲滅您車上的火災。適用於所有國家及類型的車輛。如果有使用過至少一次，該消耗品就會在戰鬥後移除。"
+
+msgid "handExtinguishers/name"
+msgstr "手動滅火器"
+
+msgid "handExtinguishers/onUse"
+msgstr "撲滅您車上的火災。可在一場戰鬥中多次使用。如果有使用過至少一次，該消耗品就會在戰鬥後移除。"
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "撲滅火災"
+
+msgid "healPoint/battleDescr"
+msgstr "在車輛周圍建立恢復區。恢復區內，玩家與裝甲排隊友車輛每秒都會恢復生命值 %(healPerTick)s 的血量，恢復區持續 %(duration)s 秒。"
+
+msgid "healPoint/descr"
+msgstr "在車輛周圍建立恢復區。恢復區內，玩家與裝甲排隊友車輛每秒都會恢復生命值 %(healPerTick)s 的血量，恢復區持續 %(duration)s 秒。"
+
+msgid "healPoint/longDescr"
+msgstr "在車輛周圍建立恢復區。恢復區內，玩家與裝甲排隊友車輛每秒都會恢復生命值 {green_Open}%(healPerTick)s{green_Close} 的血量，恢復區持續 {whiteSpanish_Open}%(duration)s 秒{whiteSpanish_Close}。"
+
+msgid "healPoint/name"
+msgstr "血量恢復區"
+
+msgid "healPoint/shortDescr"
+msgstr "在車輛周圍建立恢復區。恢復區內，玩家與裝甲排隊友車輛每秒都會恢復生命值 {green_Open}%(healPerTick)s{green_Close} 的血量，恢復區持續 {whiteSpanish_Open}%(duration)s 秒{whiteSpanish_Close}。"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s 乘員熟練度加成，持續整場戰鬥。"
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 乘員熟練度加成。"
+
+msgid "hotCoffee/long_special"
+msgstr "戰鬥開始時會自動啟用，效果持續整場戰鬥。僅適用於法國車輛。"
+
+msgid "hotCoffee/name"
+msgstr "黑咖啡"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "僅適用於法國車輛。"
+
+msgid "hotCoffee/short_special"
+msgstr "提高法國乘員的表現"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "在一場戰鬥中有對應配件遭摧毀時，避免油箱起火、彈藥架爆炸與引擎被摧毀各一次。"
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "在一場戰鬥中有對應配件遭摧毀時，避免油箱起火、彈藥架爆炸與引擎被摧毀各一次。"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "彈藥架已受保護不會爆炸"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "已避免彈藥架爆炸"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "引擎已受保護"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "已避免引擎摧毀"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "油箱已受保護不會起火"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "已避免油箱起火"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "在一場戰鬥中有對應配件遭摧毀時，避免油箱起火、彈藥架爆炸與引擎被摧毀各一次。"
+
+msgid "improvedConfiguration/long_special"
+msgstr "加快修理速度。增加彈藥架、油箱與引擎的耐久性。降低對應配件受損時增加的裝填時間與引擎功率損失。降低引擎起火機率。在一場戰鬥中有對應配件遭摧毀時，避免油箱起火、彈藥架爆炸與引擎被摧毀各一次。結合修理、安全堆放與保養歷練時效果更為顯著。"
+
+msgid "improvedConfiguration/name"
+msgstr "修改型車輛配置"
+
+msgid "improvedConfiguration/short_special"
+msgstr "加快修理速度、保護彈藥架、油箱與引擎"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s 安裝修改型車輛配置&nbsp;(任一型)、改良型車輛配置或戰勛車輛配置下的修理速度。"
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "提高修改型車輛配置、改良型車輛配置或戰勛車輛配置的效果，持續整場戰鬥。要裝備並啟用此技術指南，這些裝備物品應該先安裝於車輛上。"
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "戰前保養"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "提高修改型車輛配置的效果"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "修改型車輛配置 1 型"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "修改型車輛配置 2 型"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "增加敵人離開您車輛可視範圍後可持續被偵察到的時間。減少您可持續被敵人偵察到的時間。結合鎖定目標與垂死掙扎歷練時效果最為顯著。"
+
+msgid "improvedRadioCommunication/name"
+msgstr "改良型通訊設備組"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "增加敵人可持續被偵察的時間並減少您可持續被偵察到的時間"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "提高具有炮塔車輛的車身與炮塔迴轉速度。提高具有固定式座艙車輛的車身與炮管迴轉速度。降低移動時、車身與炮塔迴轉時，以及開火後的炮管擴散度。結合「甩尾」歷練時效果更為顯著。"
+
+msgid "improvedRotationMechanism/name"
+msgstr "改良型迴轉機制"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "移動與迴轉時，增加迴轉速度且降低炮管擴散度"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "改良型迴轉機制 1 型"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "改良型迴轉機制 2 型"
+
+msgid "improvedSights/long_special"
+msgstr "縮小瞄準圈大小以增加瞄準中或已瞄準炮管的準確度。您的炮管命中目標的機率因此較高。"
+
+msgid "improvedSights/name"
+msgstr "改良型瞄準鏡"
+
+msgid "improvedSights/short_special"
+msgstr "降低炮管擴散度"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s 安裝改良型瞄準鏡&nbsp;(任一型)、戰勛瞄準鏡，或準度改良系統下的瞄準圈大小。"
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "提高改良型瞄準鏡或戰勛瞄準鏡的效果，持續整場戰鬥。技術指南只有在您安裝了相應的裝備時才會有作用。"
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "拋光鏡頭"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "縮小瞄準圈大小"
+
+msgid "improvedSights_tier1/name"
+msgstr "改良型瞄準鏡 1 型"
+
+msgid "improvedSights_tier2/name"
+msgstr "改良型瞄準鏡 2 型"
+
+msgid "improvedSights_tier3/name"
+msgstr "改良型瞄準鏡 3 型"
+
+msgid "improvedVentilation/long_special"
+msgstr "提高您車輛的一些特性：可視範圍、射擊速率、瞄準時間、動力特性，及其它。然而此裝備所提供的加成，只有結合情同手足歷練已訓練到 100% 的乘員才會明顯。"
+
+msgid "improvedVentilation/name"
+msgstr "改良型通風裝置"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s 安裝改良型通風裝置&nbsp;(任一型)、通風系統或戰勛通風裝置下的乘員熟練度加成。"
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "提高改良型通風裝置&nbsp;(任一型)、通風系統或戰勛通風裝置的效果，持續整場戰鬥。要裝備並啟用此技術指南，這些裝備物品應該先安裝於車輛上。"
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "淨化通風管"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "高通風裝置的效果"
+
+msgid "improvedVentilation_class1/name"
+msgstr "改良型通風裝置 1 型"
+
+msgid "improvedVentilation_class2/name"
+msgstr "改良型通風裝置 2 型"
+
+msgid "improvedVentilation_class3/name"
+msgstr "改良型通風裝置 3 型"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "改良型通風裝置 1 型"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "改良型通風裝置 2 型"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "改良型通風裝置 3 型"
+
+msgid "improved_suspension_1/name"
+msgstr "懸吊改良（類型 1）"
+
+msgid "improved_suspension_2/name"
+msgstr "懸吊改良（類型 2）"
+
+msgid "inspire/longDescr"
+msgstr "提升車輛及特定半徑內隊友的乘員表現，為每名乘員的熟練度提供 % 加成。使用此戰鬥儲備的玩家將獲得改善效果。"
+
+msgid "inspire/name"
+msgstr "鼓舞"
+
+msgid "inspire/shortDescr"
+msgstr "為玩家及隊友乘員的熟練度提供加成。"
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "大口徑火炮進彈裝置"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "大口徑戰車炮進彈裝置"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s 震盪持續時間\n%(crewHitChance)s 保護乘員免於受傷。"
+
+msgid "largeMedkit/descr"
+msgstr "治療所有受傷的乘員並移除震盪效果。"
+
+msgid "largeMedkit/long_special"
+msgstr "啟用後治療所有受傷的乘員並移除震盪效果。被動效果會保護乘員不受傷害。此消耗品適用於所有國家及類型的車輛。"
+
+msgid "largeMedkit/name"
+msgstr "大型急救箱"
+
+msgid "largeMedkit/onUse"
+msgstr "治療所有受傷的乘員。可在一場戰鬥中多次使用。如果有使用過至少一次，該消耗品就會在戰鬥後移除。"
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "治療所有受傷的乘員並移除震盪效果。可在一場戰鬥中多次使用。如果有使用過至少一次，該消耗品就會在戰鬥後移除。"
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "治療所有受傷的乘員並移除震盪效果"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s 修理配件速度"
+
+msgid "largeRepairkit/descr"
+msgstr "修復所有受損的配件。"
+
+msgid "largeRepairkit/long_special"
+msgstr "啟用後修理所有受損的配件。被動效果會增加修理速度。此消耗品適用於所有國家及類型的車輛。"
+
+msgid "largeRepairkit/name"
+msgstr "大型工具箱"
+
+msgid "largeRepairkit/onUse"
+msgstr "修理所有受損的配件。可在一場戰鬥中多次使用。如果有使用過至少一次，該消耗品就會在戰鬥後移除。"
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "修理所有受損的配件"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "增加 50% 的「垂死掙扎」歷練"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "把「垂死掙扎」歷練訓練到 100%"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "垂死掙扎歷練在車輛全毀後，會多回報敵人位置 2 秒，效果持續整場戰鬥。如果歷練訓練到 100%，裝備技術指南就會增加 1 秒持續時間（總計 3 秒）；如果沒有，技術指南會向您車輛提供已訓練到 100% 的歷練（總計 2 秒）。"
+
+msgid "lastEffortBattleBooster/name"
+msgstr "勤務優先"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "提供已訓練到 100% 的垂死掙扎歷練，或提高其效果"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "中口徑火炮進彈裝置"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "中口徑戰車炮進彈裝置"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "射控系統等級 1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "射控系統等級 1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "射控系統等級 1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "射控系統等級 2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "射控系統等級 2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "射控系統等級 2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "射控系統等級 3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "射控系統等級 3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "射控系統等級 3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "生存能力改良套件等級 1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "生存能力改良套件等級 1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "生存能力改良套件等級 1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "生存能力改良套件等級 2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "生存能力改良套件等級 2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "生存能力改良套件等級 2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "生存能力改良套件等級 3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "生存能力改良套件等級 3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "生存能力改良套件等級 3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "準度改良系統等級 1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "準度改良系統等級 1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "準度改良系統等級 1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "準度改良系統等級 2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "準度改良系統等級 2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "準度改良系統等級 2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "準度改良系統等級 3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "準度改良系統等級 3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "準度改良系統等級 3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "機動性改良系統等級 1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "機動性改良系統等級 1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "機動性改良系統等級 1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "機動性改良系統等級 2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "機動性改良系統等級 2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "機動性改良系統等級 2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "機動性改良系統等級 3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "機動性改良系統等級 3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "機動性改良系統等級 3"
+
+msgid "nitro/battleDescr"
+msgstr "暫時將車輛的引擎功率提高 %(enginePowerFactor)s，並將最高速度提高為 %(maxSpeedFactor)s 倍，持續 %(consumeSeconds)s 秒。"
+
+msgid "nitro/descr"
+msgstr "暫時將車輛的引擎功率提高 %(enginePowerFactor)s，並將最高速度提高為 %(maxSpeedFactor)s 倍，持續 %(consumeSeconds)s 秒。"
+
+msgid "nitro/long_special"
+msgstr "暫時將車輛的引擎功率提高 {green_Open}%(enginePowerFactor)s{green_Close}，並將最高速度提高為 {green_Open}%(maxSpeedFactor)s 倍{green_Close}，持續 {whiteSpanish_Open}%(consumeSeconds)s 秒{whiteSpanish_Close}。"
+
+msgid "nitro/name"
+msgstr "渦輪增壓器"
+
+msgid "nitro/short_special"
+msgstr "暫時將車輛的引擎功率提高 {green_Open}%(enginePowerFactor)s{green_Close}，並將最高速度提高為 {green_Open}%(maxSpeedFactor)s 倍{green_Close}，持續 {whiteSpanish_Open}%(consumeSeconds)s 秒{whiteSpanish_Close}。"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "替代配置：輔助武裝"
+
+msgid "passive_engineering/longDescr"
+msgstr "對佔領以及補給速度提供加成。提高補給速度，並且降低補給環刷新、佔領或重新控制關鍵點的所需時間。"
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "您無法套用此戰鬥儲備到自走炮上。"
+
+msgid "passive_engineering/name"
+msgstr "工程學"
+
+msgid "passive_engineering/shortDescr"
+msgstr "對佔領速度、佔領阻擾及補給提供加成。"
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "不適用於自走炮"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "「安全堆放」歷練獲得 3 倍效果"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "把「安全堆放」歷練訓練到 100%"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "在戰鬥過程中，安全堆放歷練會增加彈藥架耐久性。如果歷練訓練到 100%，裝備技術指南就會增加其效果；如果沒有，技術指南會向您車輛提供已訓練到 100% 的歷練。"
+
+msgid "pedantBattleBooster/name"
+msgstr "砲彈分類"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "把「安全堆放」歷練訓練到 100%，或提高其效果"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "所選區域將在 {colorTagOpen}%(delay)d 秒{colorTagClose}後遭到「火炮襲擊」攻擊。半徑 {colorTagOpen}%(radius)d 公尺{colorTagClose}內遭到傷害的任何目標將受到 {colorTagOpen}%(damage)d{colorTagClose} 血量傷害且將被震盪 {colorTagOpen}%(stunDuration)d 秒{colorTagClose}。"
+
+msgid "poi_artillery_aoe/name"
+msgstr "火炮襲擊"
+
+msgid "poi_radar/descr"
+msgstr "啟用時，所有敵方車輛將持續被偵察到，效果持續 {colorTagOpen}%(duration)d 秒{colorTagClose}。"
+
+msgid "poi_radar/name"
+msgstr "裝甲師雷達"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "加倍「熟能生巧」歷練的效果"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "把「熟能生巧」歷練訓練到 100%"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "「熟能生巧」歷練會縮短消耗品冷卻時間，效果持續整場戰鬥。如果歷練訓練到 100%，裝備技術指南就會增加其效果；如果沒有，技術指南會向您車輛提供已訓練到 100% 的歷練。"
+
+msgid "practicalityBattleBooster/name"
+msgstr "萬全準備"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "把「熟能生巧」歷練訓練到 100%，或提高其效果"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s 引擎功率與炮塔迴轉速度，持續整場戰鬥。"
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} 引擎功率與炮塔迴轉速度。"
+
+msgid "qualityFuel/long_special"
+msgstr "提高 {colorTagOpen}5%{colorTagClose} 引擎功率與炮塔迴轉速度，持續整場戰鬥。戰鬥開始時會自動啟用，效果持續整場戰鬥。"
+
+msgid "qualityFuel/name"
+msgstr "高品質燃油"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} 引擎功率與炮塔迴轉速度"
+
+msgid "radar/descr"
+msgstr "在小地圖上偵測敵方車輛與物資。"
+
+msgid "radar/name"
+msgstr "無線電偵測"
+
+msgid "rammer/long_special"
+msgstr "射擊速率是您最重要的車輛特性之一。此裝備在戰鬥中非常有用，因此是您車輛的必需品。然而，進彈裝置無法裝在使用彈匣式裝填系統的車輛上。"
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s 安裝進彈裝置&nbsp;(任何炮管類型及口徑)、新型裝填系統或戰勛進彈裝置下的裝填時間。"
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "提高進彈裝置（任何炮管類型與口徑）、戰勛進彈裝置或新型裝填系統的效果，持續整場戰鬥。要裝備並啟用此技術指南，這些裝備物品應該先安裝於車輛上。"
+
+msgid "rammerBattleBooster/name"
+msgstr "整齊的彈藥架"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "提高進彈裝置的效果"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "加倍「鎖定目標」歷練的效果"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "把「鎖定目標」歷練訓練到 100%"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "鎖定目標歷練會使瞄準的敵方車輛被多看見 2 秒，效果持續整場戰鬥。如果歷練訓練到 100%，裝備技術指南就會增加其效果；如果沒有，技術指南會向您車輛提供已訓練到 100% 的歷練。"
+
+msgid "rancorousBattleBooster/name"
+msgstr "全神貫注"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "把「鎖定目標」歷練訓練到 100%，或提高其效果"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s 乘員熟練度加成，持續整場戰鬥。"
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 乘員熟練度加成。"
+
+msgid "ration/long_special"
+msgstr "戰鬥開始時會自動啟用，效果持續整場戰鬥。僅適用於蘇聯車輛。"
+
+msgid "ration/name"
+msgstr "額外的戰鬥口糧"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "僅適用於蘇聯車輛。"
+
+msgid "ration/short_special"
+msgstr "提高蘇聯乘員的表現"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s 乘員熟練度加成，持續整場戰鬥。"
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 乘員熟練度加成。"
+
+msgid "ration_china/long_special"
+msgstr "戰鬥開始時會自動啟用，效果持續整場戰鬥。僅適用於中國車輛。"
+
+msgid "ration_china/name"
+msgstr "改良型戰鬥口糧"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "僅適用於中國車輛。"
+
+msgid "ration_china/short_special"
+msgstr "提高中國乘員的表現"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s 乘員熟練度加成，持續整場戰鬥。"
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 乘員熟練度加成。"
+
+msgid "ration_czech/long_special"
+msgstr "戰鬥開始時會自動啟用，效果持續整場戰鬥。僅適用於捷克斯洛伐克車輛。"
+
+msgid "ration_czech/name"
+msgstr "布赫騰"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "僅適用於捷克斯洛伐克車輛。"
+
+msgid "ration_czech/short_special"
+msgstr "提高捷克斯洛伐克乘員的表現"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s 乘員熟練度加成，持續整場戰鬥。"
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 乘員熟練度加成。"
+
+msgid "ration_italy/long_special"
+msgstr "戰鬥開始時會自動啟用，效果持續整場戰鬥。僅適用於義大利車輛。"
+
+msgid "ration_italy/name"
+msgstr "義大利肉醬麵"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "僅適用於義大利車輛。"
+
+msgid "ration_italy/short_special"
+msgstr "提高義大利乘員的表現"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s 乘員熟練度加成，持續整場戰鬥。"
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 乘員熟練度加成。"
+
+msgid "ration_japan/long_special"
+msgstr "戰鬥開始時會自動啟用，效果持續整場戰鬥。僅適用於日本車輛。"
+
+msgid "ration_japan/name"
+msgstr "飯糰"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "僅適用於日本車輛。"
+
+msgid "ration_japan/short_special"
+msgstr "提高日本乘員的表現"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s 乘員熟練度加成，持續整場戰鬥。"
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 乘員熟練度加成。"
+
+msgid "ration_poland/long_special"
+msgstr "戰鬥開始時會自動啟用，效果持續整場戰鬥。僅適用於波蘭車輛。"
+
+msgid "ration_poland/name"
+msgstr "豬油麵包"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "僅適用於波蘭車輛。"
+
+msgid "ration_poland/short_special"
+msgstr "提高波蘭乘員的表現"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s 乘員熟練度加成，持續整場戰鬥。"
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 乘員熟練度加成。"
+
+msgid "ration_sweden/long_special"
+msgstr "戰鬥開始時會自動啟用，效果持續整場戰鬥。僅適用於瑞典車輛。"
+
+msgid "ration_sweden/name"
+msgstr "咖啡與肉桂麵包"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "僅適用於瑞典車輛。"
+
+msgid "ration_sweden/short_special"
+msgstr "提高瑞典乘員的表現"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s 乘員熟練度加成，持續整場戰鬥。"
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 乘員熟練度加成。"
+
+msgid "ration_uk/long_special"
+msgstr "戰鬥開始時會自動啟用，效果持續整場戰鬥。僅適用於英國車輛。"
+
+msgid "ration_uk/name"
+msgstr "布丁與茶"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "僅適用於英國車輛。"
+
+msgid "ration_uk/short_special"
+msgstr "提高英國乘員的表現"
+
+msgid "recon/longDescr"
+msgstr "命令偵察機偵察航線上一大塊區域。位於飛機視線內的車輛會被發現並在一段時間內維持可見。可偵測地雷區。"
+
+msgid "recon/name"
+msgstr "偵察飛行"
+
+msgid "recon/shortDescr"
+msgstr "偵察敵方車輛與地雷區。"
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 引擎功率，但會損壞引擎。"
+
+msgid "removedRpmLimiter/long_special"
+msgstr "增加引擎功率 {colorTagOpen}10%{colorTagClose}，但開啟時會逐漸消耗引擎血量。可在戰鬥中多次開關。僅適用於中國與蘇聯車輛。"
+
+msgid "removedRpmLimiter/name"
+msgstr "移除速度調速器"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s 引擎功率，但會損壞引擎。可在一場戰鬥中多次使用。"
+
+msgid "removedRpmLimiter/restriction"
+msgstr "僅適用於蘇聯與中國車輛。"
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} 引擎功率，但會損壞引擎"
+
+msgid "repairpoint/battleDescr"
+msgstr "建立一個臨時的固定區域，為自身車輛修理所有受損的配件，移除所有負面效果，並每秒恢復車輛生命值的 %(healPerTick)s，持續 %(timer)s 秒。\n\n*作用區域內的隊友車輛也將恢復血量。"
+
+msgid "repairpoint/descr"
+msgstr "建立一個臨時的固定區域，為自身車輛修理所有受損的配件，移除所有負面效果，並每秒恢復車輛生命值的 %(healPerTick)s，持續 %(timer)s 秒。\n\n*作用區域內的隊友車輛也將恢復血量。"
+
+msgid "repairpoint/long_special"
+msgstr "建立一個臨時的固定區域，為自身車輛修理所有受損的配件，移除所有負面效果，並每秒{green_Open}恢復車輛生命值的 %(healPerTick)s{green_Close}，{whiteSpanish_Open}持續 %(timer)s 秒{whiteSpanish_Close}。\n\n*作用區域內的隊友車輛也將恢復血量。"
+
+msgid "repairpoint/name"
+msgstr "修理區"
+
+msgid "repairpoint/short_special"
+msgstr "建立一個臨時的固定區域，為自身車輛修理所有受損的配件，移除所有負面效果，並每秒{green_Open}恢復車輛生命值的 %(healPerTick)s{green_Close}，{whiteSpanish_Open}持續 %(timer)s 秒{whiteSpanish_Close}。\n\n*作用區域內的隊友車輛也將恢復血量。"
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "炮管膛線清理（類型 1）"
+
+msgid "roleSlot/name"
+msgstr "第二個裝備欄位類別"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "被動安全系統"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "被動\n安全系統"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "彈藥架重新配置"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "彈藥架\n重新配置"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "易修復履帶"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "易修復\n履帶"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "引擎室微調"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "引擎室\n微調"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "懸吊強化"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "懸吊\n強化"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "懸吊輕量化"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "懸吊\n輕量化"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "瞄準齒輪研磨"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "瞄準齒輪\n研磨"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "視差調整"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "視差\n調整"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "退彈器調節"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "退彈器\n調節"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "直角潛望鏡"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "直角\n潛望鏡"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "裝填機制調節"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "裝填機制\n調節"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "瞄準機制調節"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "瞄準機制\n調節"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "動力分導調節"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "動力分導\n調節"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "電子瞄準驅動器"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "電子\n瞄準驅動器"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "全新瞄準齒輪"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "全新\n瞄準齒輪"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "炮栓微調"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "炮栓\n微調"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "整體重量減輕"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "整體重量\n減輕"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "整體耐久性提升"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "整體耐久性\n提升"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "霧面油漆"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "霧面\n油漆"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "額外倒車檔"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "額外\n倒車檔"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "頂置凸輪軸引擎"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "頂置凸輪軸\n引擎"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "進彈裝置改良"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "進彈裝置\n改良"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "額外隔音"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "額外\n隔音"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "襯墊移除"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "襯墊\n移除"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "輔助安全系統"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "輔助\n安全系統"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "安裝點輕量化"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "安裝點\n輕量化"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "動力供應重新分配（配置 1）"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "動力供應\n重新分配（配置 1）"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "動力供應重新分配（配置 2）"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "動力供應\n重新分配（配置 2）"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "平台強化"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "平台\n強化"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "平台輕量化"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "平台\n輕量化"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "機動性優先"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "機動性\n優先"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "火力優先"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "火力\n優先"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "炮管增重"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "炮管\n增重"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "炮管輕量化"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "炮管\n輕量化"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "動力輸出調節（配置 1）"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "動力輸出\n調節（配置 1）"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "動力輸出調節（配置 2）"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "動力輸出\n調節（配置 2）"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "車身強化"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "車身\n強化"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "車身輕量化"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "車身\n輕量化"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "光學鏡防反光鍍膜"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "光學鏡\n防反光鍍膜"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "外部視覺系統"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "外部視覺\n系統"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "全景三合鏡"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "全景\n三合鏡"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "狹角觀測裝置"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "狹角\n觀測裝置"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "主要結構強化"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "主要\n結構強化"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "炮塔艙擴充"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "炮塔艙\n擴充"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "偵察工具"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "偵察\n工具"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "突擊工具"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "突擊\n工具"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "先進耐久性強化"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "先進耐久性\n強化"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "先進瞄準改良"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "先進瞄準\n改良"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "額外觀測裝置"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "額外\n觀測裝置"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "結合點強化"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "結合點\n強化"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "裝填機制調節"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "裝填機制\n調節"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "瞄準機制調節"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "瞄準機制\n調節"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "動力分導調節"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "動力分導\n調節"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "電子瞄準驅動器"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "電子\n瞄準驅動器"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "炮栓微調"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "炮栓\n微調"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "全新瞄準齒輪"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "全新\n瞄準齒輪"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "噴射系統調節"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "噴射系統\n調節"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "視域調節"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "視域\n調節"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "配件耐久性提升"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "配件耐久性\n提升"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "輕合金安裝點"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "輕合金\n安裝點"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "炮栓微調"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "炮栓\n微調"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "全新瞄準齒輪"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "全新\n瞄準齒輪"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "大口徑噴嘴"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "大口徑\n噴嘴"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "靈敏光學鏡"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "靈敏\n光學鏡"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "支撐輪強化"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "支撐輪\n強化"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "支撐輪輕量化"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "支撐輪\n輕量化"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "懸吊微調"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "懸吊\n微調"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "引擎微調"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "引擎\n微調"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "獵人 S 套件"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "獵人 S\n套件"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "獵人 C 套件"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "獵人 C\n套件"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "液壓調節（配置 1）"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "液壓調節\n（配置 1）"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "液壓調節（配置 2）"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "液壓調節\n（配置 2）"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "裝填機制調節"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "裝填機制\n調節"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "瞄準機制調節"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "瞄準機制\n調節"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "生存能力提升"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "生存能力\n提升"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "重量減輕"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "重量\n減輕"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "全地形懸吊"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "全地形\n懸吊"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "懸吊輕量化"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "懸吊\n輕量化"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "視差調整"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "視差\n調整"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "瞄準齒輪研磨"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "瞄準齒輪\n研磨"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "聲音隔絕"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "聲音\n隔絕"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "潛望鏡電驅動器"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "潛望鏡\n電驅動器"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "閥門調節（配置 1）"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "閥門調節\n（配置 1）"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "閥門調節（配置 2）"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "閥門調節\n（配置 2）"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "裝填機制調節"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "裝填機制\n調節"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "瞄準機制調節"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "瞄準機制\n調節"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "破片防護強化"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "破片防護\n強化"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "破片防護輕量化"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "破片防護\n輕量化"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "配件耐久性提升"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "配件耐久性\n提升"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "輕合金安裝點"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "輕合金\n安裝點"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "懸吊臂調節"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "懸吊臂\n調節"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "視線改良"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "視線\n改良"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "渦輪增壓器調節"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "渦輪增壓器\n調節"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "車頭燈防反光鍍膜"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "車頭燈\n防反光鍍膜"
+
+msgid "selfBuff/battleDescr"
+msgstr "炮管擴散度降低且瞄準時間縮短 %(gunAimingTime)s，同時提高射速並改善炮管穩定性，持續 %(duration)s 秒。\n\n*不會影響發射一發砲彈後，直到彈匣、炮管或短彈匣中裝填下一發砲彈之間的間隔時間。"
+
+msgid "selfBuff/descr"
+msgstr "炮管擴散度降低且瞄準時間縮短 %(gunAimingTime)s，同時提高射速並改善炮管穩定性，持續 %(duration)s 秒。\n\n*不會影響發射一發砲彈後，直到彈匣、炮管或短彈匣中裝填下一發砲彈之間的間隔時間。"
+
+msgid "selfBuff/longDescr"
+msgstr "炮管擴散度降低且{green_Open}瞄準時間縮短 %(gunAimingTime)s{green_Close}，同時提高射速並改善炮管穩定性，{whiteSpanish_Open}持續 %(duration)s 秒{whiteSpanish_Close}。\n\n*不會影響發射一發砲彈後，直到彈匣、炮管或短彈匣中裝填下一發砲彈之間的間隔時間。"
+
+msgid "selfBuff/name"
+msgstr "目標追蹤"
+
+msgid "selfBuff/shortDescr"
+msgstr "炮管擴散度降低且{green_Open}瞄準時間縮短 %(gunAimingTime)s{green_Close}，同時提高射速並改善炮管穩定性，{whiteSpanish_Open}持續 %(duration)s 秒{whiteSpanish_Close}。\n\n*不會影響發射一發砲彈後，直到彈匣、炮管或短彈匣中裝填下一發砲彈之間的間隔時間。"
+
+msgid "shells_consumables_switch/name"
+msgstr "替代配置：核心武裝"
+
+msgid "shotPassion/battleDescr"
+msgstr "炮管瞄準效率與穩定性降低 %(gunAimingTime)s，持續 %(duration)s 秒，但每次砲彈穿透命中敵方車輛，後續造成的傷害就會提高 %(damageIncreasePerShot)s。最多可疊加 5 次。命中但未造成傷害或未命中時，傷害加成的疊加次數將重置為 0。\n\n*以「電流猛擊」命中敵人也能計入傷害加成的疊加次數。"
+
+msgid "shotPassion/descr"
+msgstr "炮管瞄準效率與穩定性降低 %(gunAimingTime)s，持續 %(duration)s 秒，但每次砲彈穿透命中敵方車輛，後續造成的傷害就會提高 %(damageIncreasePerShot)s。最多可疊加 5 次。命中但未造成傷害或未命中時，傷害加成的疊加次數將重置為 0。\n\n*以「電流猛擊」命中敵人也能計入傷害加成的疊加次數。"
+
+msgid "shotPassion/longDescr"
+msgstr "炮管瞄準效率與穩定性降低 {red_Open}%(gunAimingTime)s{red_Close}，{whiteSpanish_Open}持續 %(duration)s 秒{whiteSpanish_Close}，但每次砲彈穿透命中敵方車輛，後續造成的傷害就會提高 {green_Open}%(damageIncreasePerShot)s{green_Close}。{whiteSpanish_Open}最多可疊加 5 次{whiteSpanish_Close}。命中但未造成傷害或未命中時，傷害加成的疊加次數將重置為 0。\n\n*以「電流猛擊」命中敵人也能計入傷害加成的疊加次數。"
+
+msgid "shotPassion/name"
+msgstr "鬥志漸漲"
+
+msgid "shotPassion/shortDescr"
+msgstr "炮管瞄準效率與穩定性降低 {red_Open}%(gunAimingTime)s{red_Close}，{whiteSpanish_Open}持續 %(duration)s 秒{whiteSpanish_Close}，但每次砲彈穿透命中敵方車輛，後續造成的傷害就會提高 {green_Open}%(damageIncreasePerShot)s{green_Close}。{whiteSpanish_Open}最多可疊加 5 次{whiteSpanish_Close}。命中但未造成傷害或未命中時，傷害加成的疊加次數將重置為 0。\n\n*以「電流猛擊」命中敵人也能計入傷害加成的疊加次數。"
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "「第六感」提早 1 秒啟動"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "「第六感」功能使車長能夠確定車輛是否已被敵人發現。在您車輛被偵察到 3 秒後啟用。"
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "「第六感」歷練會讓車長能夠確定車輛是否已被敵人發現，效果持續整場戰鬥。裝備的技術指南會增加其效果。"
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "提升專注力"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "提高「第六感」車長特長的效果"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "治療所有受傷的乘員並移除震盪效果。"
+
+msgid "smallMedkit/long_special"
+msgstr "啟用後治療所有受傷的乘員並移除震盪效果。適用於所有國家及類型的車輛。如果有使用過至少一次，該消耗品就會在戰鬥後移除。"
+
+msgid "smallMedkit/name"
+msgstr "小型急救包"
+
+msgid "smallMedkit/onUse"
+msgstr "治療所有受傷的乘員並移除震盪效果。"
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "治療所有受傷的乘員並移除震盪效果。"
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "治療所有受傷的乘員並移除震盪效果。"
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "修理所有受損的配件。"
+
+msgid "smallRepairkit/long_special"
+msgstr "啟用後修理所有受損的配件。適用於所有國家及類型的車輛。如果有使用過至少一次，該消耗品就會在戰鬥後移除。"
+
+msgid "smallRepairkit/name"
+msgstr "小型工具包"
+
+msgid "smallRepairkit/onUse"
+msgstr "修理所有受損的配件。適用於所有國家及類型的車輛。如果有使用過至少一次，該消耗品就會在戰鬥後移除。"
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "修理所有受損的配件。"
+
+msgid "smoke/longDescr"
+msgstr "施放煙幕隱藏位在煙幕內及煙幕後方的所有車輛。煙幕內敵方車輛的可視範圍與乘員表現會下降。"
+
+msgid "smoke/name"
+msgstr "煙幕"
+
+msgid "smoke/shortDescr"
+msgstr "煙霧可隱藏當中與後方的所有車輛。煙霧中敵方車輛的可視範圍與乘員表現會降低。"
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "加倍「平穩駕駛」歷練的效果"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "把「平穩駕駛」歷練訓練到 100%"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "「平穩駕駛」歷練會提高移動時的射擊準確度，效果持續整場戰鬥。如果歷練訓練到 100%，裝備技術指南就會增加其效果；如果沒有，技術指南會向您車輛提供已訓練到 100% 的歷練。"
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "變速箱的奧妙"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "把「平穩駕駛」歷練訓練到 100%，或提高其效果"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "加倍「猛然一擊」歷練的效果"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "把「猛然一擊」歷練訓練到 100%"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "「猛然一擊」歷練會提高炮塔迴轉時的準確度，效果持續整場戰鬥。如果歷練訓練到 100%，裝備技術指南就會增加其效果；如果沒有，技術指南會向您車輛提供已訓練到 100% 的歷練。"
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "沉穩的手法"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "把「猛然一擊」歷練訓練到 100%，或提高其效果"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "部署自走地雷戰車，其將追逐鄰近敵人且持續至多 %(botLifeTime)s 秒，並在引爆時於小範圍內造成 400 到 600 血量的傷害。\n\n*敵人可透過射擊或衝撞自爆戰車將其摧毀。自爆戰車在觸及目標時會造成額外的衝撞傷害。"
+
+msgid "spawn_kamikaze/descr"
+msgstr "部署自走地雷戰車，其將追逐鄰近敵人且持續至多 %(botLifeTime)s 秒，並在引爆時於小範圍內造成 400 到 600 血量的傷害。\n\n*敵人可透過射擊或衝撞自爆戰車將其摧毀。自爆戰車在觸及目標時會造成額外的衝撞傷害。"
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "部署自走地雷戰車，其將追逐鄰近敵人且持續至多 {whiteSpanish_Open}%(botLifeTime)s 秒{whiteSpanish_Close}，並在引爆時於小範圍內造成 {whiteSpanish_Open}400 到 600 血量的傷害{whiteSpanish_Close}。\n\n*敵人可透過射擊或衝撞自爆戰車將其摧毀。自爆戰車在觸及目標時會造成額外的衝撞傷害。"
+
+msgid "spawn_kamikaze/name"
+msgstr "自爆戰車"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "部署自走地雷戰車，其將追逐鄰近敵人且持續至多 {whiteSpanish_Open}%(botLifeTime)s 秒{whiteSpanish_Close}，並在引爆時於小範圍內造成 {whiteSpanish_Open}400 到 600 血量的傷害{whiteSpanish_Close}。\n\n*敵人可透過射擊或衝撞自爆戰車將其摧毀。自爆戰車在觸及目標時會造成額外的衝撞傷害。"
+
+msgid "stealthRadar/descr"
+msgstr "為隱蔽性與可視範圍提供加成，並降低敵方車輛的隱蔽性。"
+
+msgid "stealthRadar/long_descr"
+msgstr "在您車輛靜止 %(activationDelay)s 秒後，增加隱蔽性參數並降低敵人車輛的隱蔽性。可為可視範圍提供被動加成並偵測敵方地雷。車輛移動時無法作用。"
+
+msgid "stealthRadar/name"
+msgstr "哨兵"
+
+msgid "stealthRadar/short_descr"
+msgstr "為隱蔽性與可視範圍提供加成，並降低敵方車輛的隱蔽性。"
+
+msgid "stereoscope/battleDescr"
+msgstr "在車輛靜止 3 秒後增加可視範圍（最遠 445 公尺）"
+
+msgid "stereoscope/long_special"
+msgstr "良好可視範圍可為車輛在戰場上帶來扎實優勢。此類型的裝備對外型低矮且炮管精準的驅逐戰車有用。會在車輛停止移動 3 秒後啟用。"
+
+msgid "stereoscope/name"
+msgstr "雙筒望遠鏡"
+
+msgid "stereoscope_tier1/name"
+msgstr "雙筒望遠鏡 1 型"
+
+msgid "stereoscope_tier2/name"
+msgstr "雙筒望遠鏡 2 型"
+
+msgid "stereoscope_tier3/name"
+msgstr "雙筒望遠鏡 3 型"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "替代懸吊元件（類型 1）"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "替代懸吊元件（類型 2）"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "迴轉機制研磨（類型 1）"
+
+msgid "tankRammer/name"
+msgstr "進彈裝置"
+
+msgid "tankRammer_tier1/name"
+msgstr "進彈裝置 1 型"
+
+msgid "tankRammer_tier2/name"
+msgstr "進彈裝置 2 型"
+
+msgid "thunderStrike/battleDescr"
+msgstr "建立一個會產生 %(thunderCount)s 次高頻率電擊的區域。每次電擊會對作用範圍內的所有敵方車輛造成 %(damage)s 血量傷害，並暫時降低其機動性。\n\n*啟用能力至首次電擊間，將有 %(delay)s 秒的延遲。可用「工具包」移除此負面效果。"
+
+msgid "thunderStrike/descr"
+msgstr "建立一個會產生 %(thunderCount)s 次高頻率電擊的區域。每次電擊會對作用範圍內的所有敵方車輛造成 %(damage)s 血量傷害，並暫時降低其機動性。\n\n*啟用能力至首次電擊間，將有 %(delay)s 秒的延遲。可用「工具包」移除此負面效果。"
+
+msgid "thunderStrike/longDescr"
+msgstr "建立一個會產生 %(thunderCount)s 次高頻率電擊的區域。每次電擊會對作用範圍內的所有敵方車輛造成 {whiteSpanish_Open}%(damage)s 血量傷害{whiteSpanish_Close}，並暫時降低其機動性。\n\n*啟用能力至首次電擊間，將有 %(delay)s 秒的延遲。可用「工具包」移除此負面效果。"
+
+msgid "thunderStrike/name"
+msgstr "電流猛擊"
+
+msgid "thunderStrike/shortDescr"
+msgstr "建立一個會產生 %(thunderCount)s 次高頻率電擊的區域。每次電擊會對作用範圍內的所有敵方車輛造成 {whiteSpanish_Open}%(damage)s 血量傷害{whiteSpanish_Close}，並暫時降低其機動性。\n\n*啟用能力至首次電擊間，將有 %(delay)s 秒的延遲。可用「工具包」移除此負面效果。"
+
+msgid "trappoint/battleDescr"
+msgstr "建立一個區域，使作用範圍內所有敵方車輛的動力特性降低 %(vehicleMaxSpeed)s，且其炮管裝填與瞄準速度降低 %(gunReloadTime)s，持續 %(duration)s 秒。"
+
+msgid "trappoint/descr"
+msgstr "建立一個區域，使作用範圍內所有敵方車輛的動力特性降低 %(vehicleMaxSpeed)s，且其炮管裝填與瞄準速度降低 %(gunReloadTime)s，持續 %(duration)s 秒。"
+
+msgid "trappoint/long_special"
+msgstr "建立一個區域，使作用範圍內所有敵方車輛的動力特性降低 {whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close}，且其炮管裝填與瞄準速度降低 {whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close}，{whiteSpanish_Open}持續 %(duration)s 秒{whiteSpanish_Close}。"
+
+msgid "trappoint/name"
+msgstr "陷阱"
+
+msgid "trappoint/short_special"
+msgstr "建立一個區域，使作用範圍內所有敵方車輛的動力特性降低 {whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close}，且其炮管裝填與瞄準速度降低 {whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close}，{whiteSpanish_Open}持續 %(duration)s 秒{whiteSpanish_Close}。"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "效率與車輛類型有關。提高車輛移動時或靜止的隱蔽性。在主動偵察與從危險位置被動偵察時相當實用。"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "戰勛排氣系統"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "提高車輛移動時或靜止的隱蔽性。"
+
+msgid "trophyBasicAimDrives/name"
+msgstr "戰勛火炮控制裝置"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "增加炮管瞄準速度以更快地精準射擊。"
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "戰勛穩定器"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "降低移動時開火與車輛迴轉時的炮管擴散度。"
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "戰勛望遠鏡"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "擴大靜止與移動車輛的可視範圍。"
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "修理後完全恢復懸吊血量。"
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "修理後恢復懸吊。"
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "增加車輛耐久性與修理速度。降低碰撞時懸吊受損所造成的車身傷害。修理後完全恢復懸吊血量。降低受損時履帶被摧毀的機率，讓車輛能盡可能保持移動力。"
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "戰勛車輛硬化"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "增加車輛耐久性與保護懸吊"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "戰勛車輛配置"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "戰勛迴轉機制"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "縮小瞄準圈大小以增加瞄準中或已瞄準炮管的準確度。您的炮管命中目標的機率因此較高。"
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "戰勛瞄準鏡"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "降低炮管擴散度"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "戰勛通風裝置"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "改善乘員效率，對大多數車輛特性有正面影響。"
+
+msgid "trophyBasicTankRammer/name"
+msgstr "戰勛進彈裝置"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "加快炮管的裝填。無型號限制。"
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "增加引擎功率、提供更高加速、操控性與斜坡地形的爬坡能力。增加車輛的最高前進與後退速度，讓您更快搶佔位置並躲避敵方炮火反擊。"
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "戰勛渦輪增壓器"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "增加引擎功率與最高速度"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} 可視範圍，最遠 445 公尺"
+
+msgid "trophyOptics/name"
+msgstr "戰勛望遠鏡"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "戰勛排氣系統"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "戰勛火炮控制裝置"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "戰勛穩定器"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "戰勛望遠鏡"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "修理後完全恢復懸吊血量。"
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "修理後恢復懸吊。"
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "戰勛車輛硬化"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "戰勛車輛配置"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "戰勛迴轉機制"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "戰勛瞄準鏡"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "戰勛通風裝置"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "戰勛進彈裝置"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "戰勛渦輪增壓器"
+
+msgid "turbocharger/long_special"
+msgstr "增加引擎功率、提供更高加速、操控性與斜坡地形的爬坡能力。增加車輛的最高前進與後退速度，讓您更快搶佔位置並躲避敵方炮火反擊。"
+
+msgid "turbocharger/name"
+msgstr "渦輪增壓器"
+
+msgid "turbocharger/short_special"
+msgstr "增加引擎功率與最高速度"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s 安裝渦輪增壓器&nbsp;(任一型)、戰勛渦輪增壓器、改良型渦輪增壓器或機動性改良系統下的引擎功率。"
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "在一場戰鬥期間，提高渦輪增壓器&nbsp;(任一型)、戰勛渦輪增壓器或改良型渦輪增壓器的效果。技術指南只有在您安裝了相應的裝備時才會有作用。"
+
+msgid "turbochargerBattleBooster/name"
+msgstr "替代燃油濾清器"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "增加引擎功率"
+
+msgid "turbocharger_tier1/name"
+msgstr "渦輪增壓器 1 型"
+
+msgid "turbocharger_tier2/name"
+msgstr "渦輪增壓器 2 型"
+
+msgid "turbocharger_tier3/name"
+msgstr "渦輪增壓器 3 型"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "加倍「甩尾」歷練的效果"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "把「甩尾」歷練訓練到 100%"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "「甩尾」歷練會增加靜止和移動車輛的迴轉速度，效果持續整場戰鬥。如果歷練訓練到 100%，裝備技術指南就會增加其效果；如果沒有，技術指南會向您車輛提供已訓練到 100% 的歷練。"
+
+msgid "virtuosoBattleBooster/name"
+msgstr "戰鬥路線"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "把「甩尾」歷練訓練到 100%，或提高其效果"

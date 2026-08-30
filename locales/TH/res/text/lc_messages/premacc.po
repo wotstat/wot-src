@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} ในกองทัพ"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "ไปยังสถานะบัญชี"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "กลับ"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "คุณจะสามารถเปลี่ยนแผนที่ได้ภายใน {}"
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "แสดง/ซ่อนแผนที่ชนิดนี้"
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "แผนที่ทะเลทราย"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "แผนที่ฤดูร้อน"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "แผนที่ฤดูหนาว"
+
+msgid "mapsBlacklist/header"
+msgstr "แผนที่ถูกยกเว้น"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "ยกเว้นแผนที่ที่ไม่ต้องการจากรอบเวียนของเกมคุณ ยกเว้นอีกแผนที่ด้วยบัญชีพิเศษ WoT และ อีก %(mapCount)s แผนที่ด้วย WoT Plus ถ้าการสมัครใดหมดอายุลงแผนที่ที่ถูกยกเว้นจะกลับเข้ามาในรอบเวียนอีกครั้งโดยนับจากแผนที่ทางขวาสุด"
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "แผนที่ถูกยกเว้น"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "แผนที่เหล่านี้ถูกยกเว้นในการรบแบบสุ่มเท่านั้น"
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "คุณสามารถเปลี่ยนแผนที่ที่ยกเว้นได้ในทุกๆ %(maxCooldownTimeStr)s"
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "เนื้อหานี้มีให้สำหรับพาหนะที่มีระดับ IV และสูงกว่า"
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "ในหมวดรถถัง จะมีเพียงแผนที่ที่ผู้การหมวดรถถังเลือกเอาไว้เท่านั้นที่จะได้รับการยกเว้น"
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "แผนที่ที่แสดง: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "แผนที่ที่แสดง: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "ชนิดแผนที่:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "ยกเลิก"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "ปิด"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "แผนที่ที่เลือกไว้จะถูกแทนด้วยแผนที่ {mapNameStr} คุณสามารถเปลี่ยนการเลือกของคุณได้ภายใน {cooldownStr}"
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "แผนที่ใดที่คุณอยากจะทำการเปลี่ยน?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "ยกเว้น"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "เลือกแผนที่ที่คุณต้องการเปลี่ยน"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "ยกเลิก"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "ปิด"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "คุณสามารถเปลี่ยนการเลือกของคุณได้ภายใน {cooldownStr}"
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "ยกเว้นแผนที่ {mapNameStr} จากการรบแบบสุ่ม?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "ยกเว้น"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "ยกเว้น"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "ยกเว้นแผนที่ {mapNameStr}?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "รวม"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "รวมแผนที่ {mapNameStr} ในการรบแบบสุ่ม?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "คุณสามารถเปลี่ยนแผนที่นี้ได้ภายใน {cooldownStr}"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "ไม่มีการเปลี่ยนแผนที่ให้"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "คุณสามารถเปลี่ยนแผนที่นี้ได้ภายใน {cooldownStr}"
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "ไม่มีการเปลี่ยนแผนที่ให้"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "ไม่ได้เลือกไว้"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "คลิกเพื่อเลือกแผนที่ที่จะทำการยกเว้นจากการรบแบบสุ่ม"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "ไม่ได้เลือกแผนที่ไว้"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "แผนที่ {mapName} ที่ถูกยกเว้นสามารถถูกแทนที่ได้ด้วยแผนที่อื่น"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "มีการเปลี่ยนแผนที่ให้"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "คุณสามารถเปลี่ยนแผนที่{mapName} ได้ภายใน {cooldownStr}"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "ไม่มีการเปลี่ยนแผนที่ให้"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "ช่องเพิ่มเติมมีให้เฉพาะบัญชีพิเศษ WoT ที่ใช้งานอยู่เท่านั้น"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "ไม่มีช่องให้"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "เลือกแผนที่จากรายการด้านล่างเพื่อทำการยกเว้นจากการรบแบบสุ่ม"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "ไม่ได้เลือกแผนที่ไว้"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "เลือกแผนที่จากรายการด้านล่างเพื่อทำการยกเว้นจากการรบแบบสุ่ม"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "มีการเปลี่ยนแผนที่ให้"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "คุณสามารถเปลี่ยนแผนที่นี้ได้ภายใน {cooldownStr}"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "ไม่มีการเปลี่ยนแผนที่ให้"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "ช่องสำหรับการยกเว้นแผนที่เพิ่มเติมมีให้เฉพาะกับบัญชีพิเศษ WoT ที่ใช้งานอยู่เท่านั้น"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "ไม่มีช่องให้"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "ยกเลิก"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "คุณสามารถเปลี่ยนการเลือกของคุณได้ใน {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}"
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "เปลี่ยน"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "ยกเว้น"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "ยกเว้นแผนที่ %(mapName)s จากการรบแบบสุ่ม?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "แผนที่ที่เลือกไว้จะถูกเปลี่ยนด้วยแผนที่ {whiteSpanish_Open} %(mapName)s {whiteSpanish_Close} คุณสามารถเปลี่ยนการเลือกของคุณได้ภายใน %(cooldownTimeStr)s"
+
+msgid "mapsBlacklistReplace/title"
+msgstr "แผนที่ใดที่คุณอยากจะทำการเปลี่ยน?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "แผนที่นี้จะถูกเปลี่ยนด้วยแผนที่ {whiteSpanish_Open} %(mapName)s {whiteSpanish_Close} คุณสามารถเปลี่ยนการเลือกของคุณได้ภายใน %(cooldownTimeStr)s"
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "คุณต้องการเปลี่ยนแผนที่นี้ใช่ไหม?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "มีการเปิดการควบคุมของผู้ปกครองเอาไว้ในบัญชีนี้\nคุณสามารถอ่านเพิ่มเติมเกี่ยวกับข้อจำกัดของการควบคุมของผู้ปกครองได้{link}"
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "การควบคุมของผู้ปกครอง"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "บนเวบท่าของเกม"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "เงินทุนสำรอง"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s วัน"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s ชม"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 นาที"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s นาที"

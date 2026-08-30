@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "3dObject/showVideo"
+msgstr "เล่นวีดิโอ"
+
+msgid "reward/confirm"
+msgstr "ดูในโรงรถ"
+
+msgid "reward/confirmStyle"
+msgstr "รับทราบ!"
+
+msgid "reward/goToVehicleBtn"
+msgstr "ดูในโรงรถ"
+
+msgid "reward/nameStyle"
+msgstr "กรงเล็บพยัคฆ์"
+
+msgid "reward/nameVehicle"
+msgstr "%(type)s %(name)s %(level)s"
+
+msgid "reward/rest"
+msgstr "และอีก %(count)s"
+
+msgid "reward/secondary"
+msgstr "ไปยังโครงภายนอก"
+
+msgid "reward/stage"
+msgstr "บทที่ %(stage)s : %(text)s"
+
+msgid "reward/stageAllComplete"
+msgstr "ได้รับรางวัลของทุกด่านแล้ว"
+
+msgid "reward/stageCompleteLast"
+msgstr "คุณได้ผ่านด่านสุดท้ายแล้ว"
+
+msgid "reward/stageNotAllComplete"
+msgstr "รางวัลสำหรับด่านที่คุณยังไม่ได้ผ่าน"
+
+msgid "reward/stageStyle"
+msgstr "พยัคฆ์โผน"
+
+msgid "reward/styleTitle"
+msgstr "ได้รับรูปแบบ!"
+
+msgid "reward/title"
+msgstr "คำท้าคนนอกรีต"
+
+msgid "reward/vehicleTitle"
+msgstr "ได้รับพาหนะ!"
+
+msgid "reward/viewRewardsBtn"
+msgstr "ดููรางวัล"
+
+msgid "rewardTooltip/tankmen/header"
+msgstr "พลรถถังทุกตำแหน่งพร้อมด้วยความสามารถพี่น้องร่วมรบฝึกถึง 100%"
+
+msgid "rewardTooltip/title"
+msgstr "รางวัล:"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/label/buy"
+msgstr "ไปยังการซื้อพาหนะ"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/active/body"
+msgstr "คลิกเพื่อซื้อสินค้า"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/inactive/body"
+msgstr "พาหนะคันดังกล่าวจะมีให้ซื้อหลังจากเริ่ม %(event_name)s\n%(addInfo)s"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/inactive/header"
+msgstr "ไม่มีให้"
+
+msgid "vehiclePreview/buyingPanel/customOffer/discount"
+msgstr "ส่วนลดของคุณ:"
+
+msgid "vehiclePreview/buyingPanel/title"
+msgstr "พาหนะและรางวัลอื่นๆสำหรับด่านที่ยังไม่ผ่าน"
+
+msgid "vehiclePreview/title/tooltip/body/addInfo/announce"
+msgstr ".\n%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/body/addInfo/progress"
+msgstr "จนถึง %(endVehicleSellDate)s.\n%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/body/marathon/announce"
+msgstr "กิจกรรมจะเริ่มขึ้นใน %(marathonStartDate)s"
+
+msgid "vehiclePreview/title/tooltip/body/marathon/inprogress"
+msgstr "เมื่อทำการซื้อรถถังหนักจีนพิเศษ WZ-114 ระดับ&nbsp;IX คุณจะยังได้รับรางวัลสำหรับด่านกิจกรรมที่ยังไม่ได้ผ่านอีกด้วย"
+
+msgid "vehiclePreview/title/tooltip/header"
+msgstr "%(event_name)s"
+
+msgid "vehiclePreview/title/tooltip/info/body/announce"
+msgstr "พาหนะดังกล่าวและรางวัลที่เกี่ยวข้องจะมีให้ทำการซื้อในช่วง %(event_name)s"
+
+msgid "vehiclePreview/title/tooltip/info/body/progress"
+msgstr "พาหนะดังกล่าวและรางวัลที่เกี่ยวข้องมีให้ซื้อในช่วง %(event_name)s%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/info/body/progress/withDiscount"
+msgstr "พาหนะดังกล่าวและรางวัลที่เกี่ยวข้องมีให้ในช่วง %(event_name)s%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/rewards"
+msgstr "ชุดรางวัล"
+
+msgid "vehiclePreview/tooltip/dateTime"
+msgstr "%(day)s %(monthName)s %(year)s, %(hour)s:%(min)s"

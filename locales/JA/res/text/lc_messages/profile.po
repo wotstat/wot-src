@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "戦闘モード"
+
+msgid "profile/dropdown/existence"
+msgstr "フィルター"
+
+msgid "profile/dropdown/labels/all"
+msgstr "ランダム戦 & 戦車中隊戦"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "STEEL HUNTER (ソロ)"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "STEEL HUNTER (小隊)"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "グローバルマップ"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "オンスロート"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "グリフォン・イヤー"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "マンティコア・イヤー"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "ペガサス・イヤー"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "アジュール・ドラゴン"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "クリムゾン・ドラゴン"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "ジェイド・ドラゴン"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "グランドバトル"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "乱戦"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "拠点戦"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "進撃戦"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "前衛戦"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "ヒストリカルバトル"
+
+msgid "profile/dropdown/labels/random"
+msgstr "ランダム戦"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "ランク戦 (15対15)"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "ランク戦"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "チームバトル: ランク戦"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "チームバトル: ランク戦"
+
+msgid "profile/dropdown/labels/team"
+msgstr "チームバトル: 非ランク戦"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "戦場カテゴリで取得した勲章"
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "勲章"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "装甲で阻んだ潜在ダメージの合計を、実際に受けたダメージの合計で割った値。AP弾、HEAT弾、APCR弾による被弾のみが対象。HE弾およびHESH弾による潜在ダメージは対象外。\n• 装甲で阻んだダメージの1戦あたりの平均: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "装甲の活用効率"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "スタンによりアシストしたダメージの合計。"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "スタンアシスト"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "スタンによりアシストしたダメージの合計。"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "スタンアシスト"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "撃破アシストの合計を、戦闘に参加した回数で割った値。対象は以下の通り。\n• 発見によるアシスト\n• 履帯切断に伴う移動不能化によるアシスト"
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "平均撃破アシスト"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "撃破アシストの合計を、戦闘に参加した回数で割った値。対象は以下の通り。\n• 発見によるアシスト\n• 履帯切断に伴う移動不能化によるアシスト"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "平均撃破アシスト"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "撃破アシストの合計を、戦闘に参加した回数で割った値。対象は以下の通り。\n• 発見によるアシスト\n• 履帯切断に伴う移動不能化によるアシスト"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "撃破アシストの合計を、戦闘に参加した回数で割った値。対象は以下の通り。\n• 発見によりアシストしたダメージ （アビリティーによるダメージを含む）\n• 履帯の切断に伴う移動不能化によりアシストしたダメージ （アビリティーによるダメージを含む）\n• アビリティーによりアシストしたダメージ"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "撃破アシスト"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "平均撃破アシスト"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "スタンによりアシストしたダメージの合計を、戦闘に参加した回数で割った値。アビリティーで誘発したスタンも含まれます。"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "スタンアシスト"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "スタンによりアシストしたダメージの合計を、戦闘に参加した回数で割った値。アビリティーで誘発したスタンも含まれます。"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "スタンアシスト"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "スタンによりアシストしたダメージの合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "スタンアシスト"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "スタンによりアシストしたダメージの合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "スタンアシスト"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "敵車輌に与えたダメージの合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "平均与ダメージ"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "撃破した敵車輌数の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "撃破した敵車輌の合計を、戦闘に参加した回数で割った値。アビリティーにより撃破した敵車輌も含まれます。"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "撃破数"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "平均撃破数"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "発見した敵車輌数の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "発見した敵車輌の合計を、戦闘に参加した回数で割った値。アビリティーにより発見した敵車輌も含まれます。"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "発見数"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "平均発見数"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "敵車輌に与えたダメージの合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "平均与ダメージ"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "取得したEXPの合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "平均EXP"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "取得したEXPの合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "平均EXP"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "回復させた車輌HPの合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "回復量"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "占領に成功した「戦術サークル」の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "戦術サークルの占領数"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "取得した「プレステージ・ポイント」の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "平均プレステージ・ポイント"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "受けたダメージの合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "平均被ダメージ"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "「ロール・アビリティー」を発動した回数の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "ロール・アビリティーの発動数"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "敵車輌をスタンさせた回数の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "敵車輌をスタンさせた回数の合計を、戦闘に参加した回数で割った値。アビリティーで誘発したスタンも含まれます。"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "スタン数"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "敵車輌をスタンさせた平均回数"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "取得した勝利ポイントの合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "平均勝利ポイント"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "これまでに参加した戦闘の総数。\n• 勝利: %(value_0)s\n• 敗北: %(value_1)s\n• 引き分け: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "戦闘数"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "到達したレベルの合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "平均レベル"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "入賞した順位の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "平均順位"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "敵車輌に与えたダメージの合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "与ダメージ"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "戦闘に参加した回数。"
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "戦闘数"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "1戦中に与えたダメージの最大値。\n記録達成車輌: %(value_0)s"
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "最大与ダメージ"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "1戦中に取得したEXPの最大値 (WoTプレミアムアカウントのボーナスを含む)。\n記録達成車輌: %(value_0)s"
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "最大EXP"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "1戦中に自ら撃破した敵車輌の最大数。\n記録達成車輌: %(value_0)s"
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "最大撃破数"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "戦闘で勝利を収めた回数。"
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "勝利数"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "取得した陣地占領ポイントの合計。"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "陣地占領ポイント"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "全戦闘で与えたダメージの合計を、受けたダメージの合計で割った値。\n• 与ダメージ: %(value_0)s\n• 被ダメージ: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "ダメージ効率"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "全戦闘で与えたダメージの合計を、受けたダメージの合計で割った値。\n• 与ダメージ: %(value_0)s\n• 被ダメージ: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "ダメージ効率"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "撃破した敵車輌数の合計を、自車輌が大破した回数で割った値。\n• 撃破した敵車輌数: %(value_0)s\n• 自車輌が大破した回数: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "撃破効率"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "装甲で阻んだ潜在ダメージの合計を、実際に受けたダメージの合計で割った値。AP弾、HEAT弾、APCR弾による被弾のみが対象。HE弾およびHESH弾による潜在ダメージは対象外。\n• 装甲で阻んだダメージの1戦あたりの平均: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "装甲の活用効率"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "敵車輌に与えたダメージ（戦闘リザーブによるものを含む）の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "平均与ダメージ"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "撃破した敵車輌数（戦闘リザーブによるものを含む）の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "平均撃破数"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "撃破した敵車輌数（戦闘リザーブによるものは除く）の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "平均撃破数"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "敵車輌に与えたダメージ（戦闘リザーブによるものを含む）の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "平均与ダメージ"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "敵車輌に与えたダメージ（戦闘リザーブによるものは除く）の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "平均与ダメージ"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "受けたダメージ（戦闘リザーブによるものを含む）の合計を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "平均被ダメージ"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "これまでに参加した戦闘の総数。\n• 勝利: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "戦闘数"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "全戦闘で与えたダメージの合計を、受けたダメージの合計で割った値。\n• 自車輌が与えたダメージ: %(value_0)s\n• 戦闘リザーブにより与えたダメージ: %(value_2)s\n• 敵車輌の攻撃および戦闘リザーブにより受けたダメージ: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "ダメージ効率"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "敵車輌に与えたダメージの合計を、受けたダメージの合計で割った値。戦闘リザーブによるものは除く。\n• 与ダメージ: %(value_0)s\n• 被ダメージ: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "ダメージ効率"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "撃破した敵車輌数の合計を、自車輌が撃破された回数で割った値。戦闘リザーブによるものを含む。\n• 自車輌が撃破した敵車輌数: %(value_0)s\n• 戦闘リザーブにより撃破した敵車輌数: %(value_2)s\n• 敵車輌の攻撃および戦闘リザーブにより撃破された回数: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "撃破効率"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "撃破した敵車輌数の合計を、自車輌が撃破された回数で割った値。戦闘リザーブによるものは除く。\n• 撃破した敵車輌数: %(value_0)s\n• 撃破された回数: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "撃破効率"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "敵車輌に命中した弾数を、射撃した回数で割った値。戦闘リザーブは対象外。"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "命中率"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "戦闘リザーブによるものを含む。"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "最大与ダメージ"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "戦闘リザーブによるものは除く。"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "最大与ダメージ"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "戦闘リザーブによるものを含む。"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "最大撃破数"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "戦闘リザーブによるものは除く。"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "最大撃破数"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "戦闘で勝利を収めた回数。"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "勝利数"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "取得した陣地防衛ポイント"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "陣地防衛ポイント"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "破壊した旗の総数。"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "破壊した旗"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "自陣に運搬した旗の総数。"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "運搬した旗"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "これまでに参加した進撃戦の総数。\n• 勝利: %(value_0)s\n• 敗北: %(value_1)s\n• 引き分け: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "進撃戦"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "進撃戦で勝利した回数を、進撃戦に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "進撃戦での勝率"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "略奪に成功した敵拠点の総数。"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "拠点略奪数"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "前衛戦で取得した工業資源の合計を、前衛戦に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "前衛戦での平均鹵獲量"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "これまでに参加した前衛戦の総数。\n• 勝利: %(value_0)s\n• 敗北: %(value_1)s\n• 引き分け: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "前衛戦"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "前衛戦で勝利した回数を、前衛戦に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "前衛戦での勝率"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "敵拠点に対して攻撃を行った回数。\n攻撃中に抗争が1回以上発生した場合のみが対象。"
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "攻撃回数"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "自拠点で防衛行動を取った回数。防衛中に抗争が1回以上発生した場合のみが対象。"
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "防衛回数"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "進撃戦で勝利した回数を、進撃戦に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "進撃戦での勝率"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "前衛戦で勝利した回数を、前衛戦に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "前衛戦での勝率"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "前衛戦で取得した工業資源の合計を、前衛戦に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "工業資源の平均鹵獲量"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "前衛戦で取得した工業資源の総量。"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "前衛戦での鹵獲量"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "敵車輌に命中した弾数を、射撃した回数で割った値。"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "命中率"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "撃破した敵車輌数の合計を、自車輌が大破した回数で割った値。戦闘リザーブによるものを含む。\n• 自車輌の攻撃で撃破した敵車輌数: %(value_0)s\n• 戦闘リザーブで撃破した敵車輌数: %(value_1)s\n• 敵車輌の攻撃または戦闘リザーブで自車輌が大破した回数: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "撃破効率"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "これまでに取得した「マスターバッジ エース戦車兵」の総数。分母はランダム戦で少なくとも1度使用したことがある車輌の総数。"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "マスターバッジ エース戦車兵"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "この戦闘モードではマスターバッジは取得できません。"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "マスターバッジ エース戦車兵"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "記録達成車輌: %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "最大与ダメージ"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "1戦中に記録した敵チームへの最大与ダメージ。"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "最大与ダメージ"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "記録達成車輌: %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "最大撃破数"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "1戦中に記録した敵車輌の最大撃破数。"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "最大撃破数"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "1戦中に記録した「ロール・アビリティー」および「タクティカル・アビリティー」による最大与ダメージ。"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "アビリティーでの最大与ダメージ"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "1戦中に記録した「ロール・アビリティー」および「タクティカル・アビリティー」による最大与ダメージ。\n記録達成車輌: %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "アビリティーでの最大与ダメージ"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "記録達成車輌: %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "最大EXP"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "1戦で取得した最大EXP。プレミアムアカウント・ボーナスを含む。"
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "最大EXP"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "この戦闘モードでは最大EXPは表示されません。"
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "最大EXP"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "1戦中に回復させた車輌HPの最大値。自車輌のHPと味方車輌のHPの両方が考慮されます。"
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "最大回復量"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "1戦中に回復させた車輌HPの最大値。自車輌のHPと味方車輌のHPの両方が考慮されます。\n記録達成車輌: %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "最大回復量"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "1戦で取得した「プレステージ・ポイント」の最大値。"
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "最大プレステージ・ポイント"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "記録達成車輌: %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "最大プレステージ・ポイント"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "1戦で取得した最高勝利ポイント。"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "最高勝利ポイント"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "1戦で取得した最高勝利ポイント。"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "最高勝利ポイント"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "ソロおよび2名または7名の小隊で記録した最多連勝数。"
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "最多連勝記録 （ソロ / 小隊）"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "占領した「戦術サークル」の合計。"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "戦術サークルの占領数"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "撃破した車輌の総数を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "平均撃破数"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "ランク戦で取得したシェブロンの合計を、戦闘に参加した回数で割った値。\n• シェブロン: %(value_0)s\n• 戦闘数: %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "ランク戦での活躍"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "ランク戦で取得したポイントの合計。"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "ランクポイント"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "射撃により敵車輌をスタンさせた回数の合計。"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "敵車輌をスタンさせた回数"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "戦闘から生還した回数を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "生還率"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "使用した車輌モデルの総数"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "車輌"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "これまでに参加した進撃戦の総数。\n\n現在のアップデートでは閲覧できません。"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "進撃戦"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "進撃戦での通算勝率。\n\n現在のアップデートでは閲覧できません。"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "進撃戦での勝率"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "このパラメーターが実装されてから戦闘を行っていません。"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "データなし"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "1 戦以上のヒストリカルバトルに参加した車輌です。"
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "使用車輌"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "これまでに勝利した回数を、戦闘に参加した回数で割った値。"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "勝率"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "2021–2022　シーズン1"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "2021–2022　シーズン2"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "2021–2022　シーズン3"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "アーカイブ済みのデータ"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "全てのシーズン"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "現シーズン"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "シーズン %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "最大回復量"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "クラン・プロフィール"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "参加日:"
+
+msgid "profile/summary/clan/post"
+msgstr "役職:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "チームプロフィール"
+
+msgid "profile/summary/club/ladder"
+msgstr "リーダーボード:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "ラダー %(league)s、部門 %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "役職:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "間もなく取得できる重要な勲章が表示されます。"
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "その他の重要な勲章"
+
+msgid "profile/summary/noGroups"
+msgstr "このプレイヤーはクランに所属していません。"
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "取得済みの特に貴重な勲章が表示されます。"
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "特に貴重な勲章"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "実績パッチのカタログを確認できます。"
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "実績パッチ"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "取得可能な全勲章とその説明を確認できます。"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "勲章"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "コレクションを閲覧できます。"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "コレクション"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "所属したことがある戦術ユニットの詳細を確認できます。"
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "戦術ユニット"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "ランキング上のレーティングを確認できます。"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "ランキング"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "ランキングは現在ご利用いただけません。後で再度お試しください。"
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "注意"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "通算成績の詳細を確認できます。"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "成績"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "通算成績の概要を確認できます。"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "概要"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "車輌別の通算成績を確認できます。"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "車輌"
+
+msgid "profile/title"
+msgstr "プレイヤーの成績 %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "イヤー/シーズン:"
+
+msgid "seasons/dropdown_label"
+msgstr "シーズン"
+
+msgid "section/advancedAchievements/title"
+msgstr "実績パッチ"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "全て"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "取得済み"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "未取得"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "全勲章、取得済みの勲章、未取得の勲章をそれぞれ表示できます。"
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "フィルター"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "戦功章"
+
+msgid "section/awards/labels/epic"
+msgstr "英雄勲章"
+
+msgid "section/awards/labels/group"
+msgstr "共同戦功章"
+
+msgid "section/awards/labels/honorary"
+msgstr "名鑑章"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "優等マーク"
+
+msgid "section/awards/labels/memory"
+msgstr "記念勲章"
+
+msgid "section/awards/labels/special"
+msgstr "特別勲章"
+
+msgid "section/awards/labels/stage"
+msgstr "名誉勲章"
+
+msgid "section/awards/title"
+msgstr "勲章"
+
+msgid "section/collections/title"
+msgstr "コレクション"
+
+msgid "section/formations/clan/none"
+msgstr "クランに所属していません。"
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "クランに所属していません。"
+
+msgid "section/formations/clan/type"
+msgstr "クラン"
+
+msgid "section/formations/fort/battles"
+msgstr "進撃戦"
+
+msgid "section/formations/fort/create"
+msgstr "拠点の作成"
+
+msgid "section/formations/fort/level"
+msgstr "拠点のレベル: %s"
+
+msgid "section/formations/fort/link"
+msgstr "拠点実績"
+
+msgid "section/formations/fort/none"
+msgstr "拠点が未作成"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "所属クランには拠点がありません。"
+
+msgid "section/formations/fort/resourceRating"
+msgstr "資源ハンターレーティング"
+
+msgid "section/formations/fort/sorties"
+msgstr "前衛戦"
+
+msgid "section/formations/history/battles"
+msgstr "一員として参加した戦闘数"
+
+msgid "section/formations/history/dates"
+msgstr "加入/脱退日"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s～%(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "チーム"
+
+msgid "section/formations/history/title"
+msgstr "プレイヤーのチームのログ"
+
+msgid "section/formations/joinDate"
+msgstr "加入日: %s"
+
+msgid "section/formations/rank"
+msgstr "プレイヤーの順位: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "シーズン %s (終了済み)"
+
+msgid "section/formations/team/find"
+msgstr "クランの検索へ移動"
+
+msgid "section/formations/team/league"
+msgstr "ラダー: %(league)s、部門: %(division)s、順位: %(position)s"
+
+msgid "section/formations/team/none"
+msgstr "常設チームがありません。"
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "常設チームがありません。"
+
+msgid "section/formations/team/season"
+msgstr "シーズン %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "ランク戦"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "このシーズンの勝率"
+
+msgid "section/formations/team/title"
+msgstr "チーム %s"
+
+msgid "section/formations/team/type"
+msgstr "チーム"
+
+msgid "section/formations/title"
+msgstr "戦術ユニット"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "これまでに参加した進撃戦の総数。\n• 勝利: %(wins)s\n• 敗北: %(losses)s\n• 引き分け: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "進撃戦"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "拠点のレベルは、その司令部のレベルと同じです。"
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "拠点のレベル"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "このクランの拠点実績を確認できます。"
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "拠点実績"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "自分の順位"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "資源ハンターレーティング"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "これまでに参加した前衛戦の総数。\n• 勝利: %(wins)s\n• 敗北: %(losses)s\n• 引き分け: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "前衛戦"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "チームプロフィールを確認できます。"
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "チームプロフィール"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "このチームのメンバーとして参加したランク戦の総数。\n• 勝利: %(wins)s\n• 敗北: %(losses)s\n• 引き分け: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "ランク戦"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "ランク戦で勝利した回数を、戦闘に参加した回数で割った値。"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "勝率"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "閉じる"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "レーティングに移動"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "ランダム戦での\n通算レーティング"
+
+msgid "section/hof/betaBtn"
+msgstr "β"
+
+msgid "section/hof/betaTooltip"
+msgstr "ランキングおよび World of Tanks レーティングは\nβテスト中です"
+
+msgid "section/hof/mainDescription"
+msgstr "特定の期間における戦闘パフォーマンスとランキングでの順位を確認できます。"
+
+msgid "section/hof/mainTitle"
+msgstr "ランキング"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "ランキングは現在閲覧できません。時間をおいて再度お試しください。"
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "注意"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "結果を表示"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "結果を非表示"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "あなたのレーティング結果を非表示にする申請を送信しました。次の結果調整の際に処理されます。"
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "あなたの結果を他のプレイヤーに対し非表示にしました。"
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "申請が送信されました。次のレーティング順位調整の際に処理されます。あなたのレーティング結果は、他のプレイヤーに対し表示されるようになりました。"
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "あなたのレーティング結果は、全てのプレイヤー、フレンド、クランメンバーに対し表示中です。"
+
+msgid "section/hof/title"
+msgstr "ランキング"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "レーティングに移動"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "ランダム戦での\n車輌別レーティング"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "グラフ"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "Tier X"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "Tier VI"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "Tier VIII"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "成績"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "進撃戦の詳細"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "前衛戦の詳細"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "特別"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "1戦あたりの平均スコア"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "通算スコア"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "進撃戦"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "前衛戦"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "最高スコア"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "工業資源"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "この車輌クラスで戦闘に参加した回数。"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "車輌クラス: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "このTierの車輌で行った戦闘数。"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "車輌 Tier: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "この戦闘モードには、Tier VI–VIII の車輌のみが参加可能です。"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "車輌 Tier: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "この戦闘モードには、Tier VIII-X 車輌のみが参加可能です。"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "車輌 Tier: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "この国家の車輌で行った戦闘数。"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "車輌国籍: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "この順位に入賞した回数。"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "順位: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "このタイプの車輌で行った戦闘数。"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "車輌タイプ: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "クラス別"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "Tier 別"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "国別"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "順位別"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "タイプ別"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "スタンアシスト"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "スタンアシスト"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "与ダメージ"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "撃破数"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "発見数"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "回復量"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "戦術サークルの占領数"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "プレステージ・ポイント"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "被ダメージ"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "ロール・アビリティーの発動数"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "ダメージ効率"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "与ダメージ"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "大破回数"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "撃破効率"
+
+msgid "section/statistics/detailed/killed"
+msgstr "撃破数"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "最大撃破数"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "被ダメージ"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "敵車輌をスタンさせた回数"
+
+msgid "section/statistics/headerText/all"
+msgstr "ランダム戦 & 戦車中隊戦"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "STEEL HUNTER"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "STEEL HUNTER"
+
+msgid "section/statistics/headerText/clan"
+msgstr "グローバルマップ"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "オンスロート"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "グランドバトル"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "乱戦"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "拠点戦"
+
+msgid "section/statistics/headerText/historical"
+msgstr "ヒストリカルバトル"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "ランク戦"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "ランク戦 (15対15)"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "チームバトル: ランク戦"
+
+msgid "section/statistics/headerText/team"
+msgstr "チームバトル: 非ランク戦"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "使用した車輌のヒストグラム"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "勲章"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "装甲の活用効率"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "平均撃破アシスト"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "撃破アシスト"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "撃破アシスト"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "平均与ダメージ"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "平均EXP"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "取得EXP"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "平均プレステージ・ポイント"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "平均勝利ポイント"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "陣地占領ポイント"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "ダメージ効率"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "マスターバッジ\nエース戦車兵"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "陣地防衛ポイント"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "破壊した旗"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "運搬した旗"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "進撃戦"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "進撃戦での勝率"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "前衛戦 1 戦あたりの平均鹵獲量"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "前衛戦"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "前衛戦での勝率"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "攻撃回数"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "防衛回数"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "進撃戦での勝率"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "前衛戦"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "前衛戦での勝率"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "前衛戦 1 戦あたりの平均鹵獲量"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "前衛戦で取得した鹵獲品の総量"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "進撃戦"
+
+msgid "section/statistics/scores/hits"
+msgstr "命中率"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "撃破効率"
+
+msgid "section/statistics/scores/looting"
+msgstr "拠点略奪数"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "最大与ダメージ"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "アビリティーでの最大与ダメージ"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "最大取得EXP"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "最大プレステージ・ポイント"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "最高勝利ポイント"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "最多連勝記録 （ソロ / 小隊）"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "戦術サークルの占領数"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "平均撃破数"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "ランク戦での活躍"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "ランクポイント"
+
+msgid "section/statistics/scores/survival"
+msgstr "生還率"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "戦闘数"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "車輌"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "勝利"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "使用車輌"
+
+msgid "section/statistics/title"
+msgstr "成績"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "重要な勲章が1つもありません"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "貴重な勲章を1つも取得していません"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "その他の重要な勲章"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "取得した貴重な勲章"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "平均レベル"
+
+msgid "section/summary/scores/averageRank"
+msgstr "平均順位"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "平均与ダメージ"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "平均EXP"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "マスターバッジ\nエース戦車兵"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "与ダメージ"
+
+msgid "section/summary/scores/hits"
+msgstr "命中率"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "最大撃破数"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "最大EXP"
+
+msgid "section/summary/scores/personalScore"
+msgstr "パーソナル\nレーティング"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "戦闘数"
+
+msgid "section/summary/scores/totalWins"
+msgstr "勝率"
+
+msgid "section/summary/title"
+msgstr "概要"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "取得済みの勲章はありません"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "平均EXP"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "マスター\nバッジ"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "戦闘数"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "勝率"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "名称"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "ガレージに所有中の車輌のみを表示します。"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "ガレージに所有中"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "ランダム戦または戦車中隊戦に参加したことがある車輌がありません。"
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "「STEEL HUNTER」モードに参加したことがある車輌がありません。"
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "「STEEL HUNTER」モードに参加したことがある車輌がありません。"
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "「オンスロート」モードに参加したことがある車輌がありません。"
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "グランドバトルに参加したことがある車輌がありません。"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "乱戦に参加したことがある車輌がありません。"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "進撃戦に参加したことがある車輌がありません。"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "前衛戦に参加したことがある車輌がありません。"
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "グローバルマップで使用したことがある車輌がありません。"
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "ヒストリカルバトルに参加したことがある車輌がありません。"
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "ランク戦に参加したことがある車輌がありません。"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "ランク戦に参加したことがある車輌がありません。"
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "チームバトルに参加したことがある車輌がありません。"
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "1戦あたりの平均与ダメージで並べ替えます。"
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "平均与ダメージ"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "1戦あたりの平均撃破数で並べ替えます。"
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "平均撃破数"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "1戦あたりの平均取得EXPで並べ替えます。"
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "平均EXP"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "参加した戦闘数で並べ替えます。"
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "戦闘数"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "車輌クラスで並べ替えます。"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "車輌クラス"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "車輌Tierで並べ替えます。"
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "Tier"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "取得したマスターバッジで並べ替えます。"
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "マスターバッジ"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "車輌名で並べ替えます。"
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "名称"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "国家ごとに並べ替えます。"
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "国家"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "エリートレベルで並べ替えます。"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "エリートレベル"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "平均プレステージ・ポイントで並べ替えます。"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "平均プレステージ・ポイント"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "車輌タイプで並べ替えます。"
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "車輌タイプ"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "勝率で並べ替えます。"
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "勝率"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "勝利数で並べ替えます。"
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "勝利数"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "命中率"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "スタンアシスト"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "スタンアシスト"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "スタンアシスト"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "与ダメージ"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "撃破数"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "発見数"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "EXP"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "被ダメージ"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "撃破アシスト"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "1戦あたりの平均スコア"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "敵車輌をスタンさせた回数"
+
+msgid "section/technique/statistics/common"
+msgstr "通算スコア"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "ダメージ効率"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "撃破効率"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "最大与ダメージ"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "最大撃破数"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "最大EXP"
+
+msgid "section/technique/statistics/records"
+msgstr "最高スコア"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "敵車輌をスタンさせた回数"
+
+msgid "section/technique/statistics/survival"
+msgstr "生還率"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "装甲の活用効率"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "戦闘数"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "勝率"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "勲章"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "選択中の車輌で取得した勲章を確認できます。"
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "勲章"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "成績"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "選択した車輌の成績を閲覧できます。"
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "成績"
+
+msgid "section/technique/title"
+msgstr "車輌"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "ガレージに所有中"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "戦闘モード別に表示を切り替えます。"
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "戦闘モード"

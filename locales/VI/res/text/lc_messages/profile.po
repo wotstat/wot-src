@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "Chế độ Đánh:"
+
+msgid "profile/dropdown/existence"
+msgstr "Sẵn sàng:"
+
+msgid "profile/dropdown/labels/all"
+msgstr "Ngẫu nhiên, Đại đội"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "Săn Thiết giáp, Sô-lô"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "Săn Thiết giáp, Trung đội"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "Bản đồ Chiến sự"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "Cường kích"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "Năm Griffin"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "Year of the Manticore"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "Năm Pegasus"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "Mùa Azure Dragon"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "Mùa Crimson Dragon"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "Mùa Jade Dragon"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "Đại Chiến"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "Chiến đấu Tới cùng"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "Pháo đài: Giao chiến"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "Tiến công"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "Tranh chấp"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "Trận đánh Lịch sử"
+
+msgid "profile/dropdown/labels/random"
+msgstr "Trận đấu Ngẫu nhiên"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "Trận đánh Xếp hạng 15v15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "Trận đánh Xếp hạng"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "Đấu Đội: Xếp hạng"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "Đấu Đội: Xếp hạng"
+
+msgid "profile/dropdown/labels/team"
+msgstr "Đấu Đội: Không Xếp hạng"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "Danh hiệu đã nhận thuộc mục \"Chiến trường\""
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "Phần thưởng"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "Tỷ lệ sát thương mà giáp xe chặn được từ các phát bắn không xuyên và nảy ra của đạn AP, HEAT, APCR trên thiệt hại đã hứng chịu. Không tính sát thương lý thuyết từ đạn HE và HESH.\n• Thiệt hại trung bình giáp xe đã chặn được từ các loại đạn trên: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "Hiệu quả Sử dụng Giáp"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "Tổng thiệt hại đã gây ra cho xe địch bị choáng"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "Thiệt hại gây ra cho xe địch do người chơi làm bất động"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "Tổng thiệt hại đã gây ra cho xe địch bị choáng"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "Thiệt hại gây ra cho xe địch bị bạn bắn choáng"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "Bao gồm:\n• Thiệt hại gây ra nhờ bạn phát hiện\n• Thiệt hại gây ra nhờ bạn phá xích và làm xe địch bất động."
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "Thiệt hại Tr.bình Gây ra nhờ Bạn Hỗ trợ"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "Bao gồm:\n• Thiệt hại gây ra nhờ người chơi phát hiện\n• Thiệt hại gây ra nhờ bạn phá xích và làm xe địch bất động."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "Thiệt hại do Người chơi Hỗ trợ"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "Bao gồm:\n• Thiệt hại gây ra nhờ bạn phát hiện\n• Thiệt hại gây ra nhờ bạn phá xích và làm xe địch bất động."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "Bao gồm:\n• Thiệt hại gây ra nhờ bạn phát hiện (kể cả sát thương từ Kỹ Chiến lược)\n• Thiệt hại gây ra nhờ bạn phá xích và làm xe địch bất động (kể cả sát thương từ Kỹ Chiến lược)\n• Thiệt hại mà đồng đội gây ra nhờ Kỹ Chiến lược của bạn."
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "Thiệt Hại Gây Ra Nhờ Bạn Hỗ Trợ"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "Thiệt hại Gây ra nhờ Bạn Hỗ trợ"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "Tỷ lệ giữa tổng thiệt hại gây ra cho xe địch bị choáng (kể cả choáng do Kỹ Chiến lược) trên số trận đã đánh"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "Thiệt Hại cho Địch mà Người chơi Làm Choáng"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "Tỷ lệ giữa tổng thiệt hại gây ra cho xe địch bị choáng (kể cả choáng do Kỹ Chiến lược) trên số trận đã đánh"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "Thiệt Hại cho Địch mà Bạn Làm Choáng"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "Tỷ lệ của tổng thiệt hại đã gây ra cho xe địch bị choáng trên số trận tham chiến"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "Thiệt hại gây ra cho xe địch do người chơi làm bất động"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "Tỷ lệ của tổng thiệt hại đã gây ra cho xe địch bị choáng trên số trận tham chiến"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "Thiệt hại gây ra cho xe địch bị bạn bắn choáng"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "Tỷ lệ của tổng thiệt hại đã gây ra trên số trận tham chiến"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "Sát thương Tr.bình mỗi Trận"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "Tỷ lệ của tổng số xe địch đã tiêu diệt trên số trận tham chiến"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "Tỷ lệ giữa tổng số xe địch tiêu diệt được (kể cả bắn hạ bằng Kỹ Chiến lược) trên số trận đã đánh"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "Số Xe Địch đã Bắn Hạ"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "Xe địch đã tiêu diệt"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "Tỷ lệ của tổng số xe địch đã phát hiện trên số trận tham chiến"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "Tỷ lệ giữa tổng số xe địch phát hiện được (kể cả phát hiện bằng Kỹ Chiến lược) trên số trận đã đánh"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "Số Xe Địch đã Phát Hiện"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "Số Xe Địch đã Phát hiện"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "Tỷ lệ của tổng thiệt hại đã gây ra trên số trận tham chiến"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "Thiệt hại Gây ra"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "Tỷ lệ của tổng EXP kiếm được trên số trận tham chiến"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "Kinh nghiệm"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "Tỷ lệ của tổng EXP kiếm được trên số trận tham chiến"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "Kinh nghiệm Tr.bình mỗi Trận"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "Tỷ lệ giữa tổng số HP khôi phục được trên số trận đã đánh"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "HP đã Khôi Phục"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "Tỷ lệ giữa số Điểm Then chốt chiếm được trên số trận đã đánh"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "Điểm Then Chốt đã Chiếm"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "Tỷ lệ giữa tổng số Điểm Thanh thế ghi được trên số trận đã đánh"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "Điểm Thanh Thế Trung bình Mỗi Trận"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "Tỷ lệ của tổng thiệt hại hứng chịu trên số trận tham chiến"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "Thiệt hại Hứng chịu"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "Tỷ lệ giữa tổng số Kỹ Vai trò đã sử dụng trên số trận đã đánh"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "Kỹ Vai trò đã Dùng"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "Tỷ lệ của tổng số phát bắn trúng—làm choáng kíp lái địch trên số trận tham chiến"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "Tỷ lệ giữa tổng số phát bắn trúng (kể cả trúng bằng Kỹ Chiến lược) gây choáng kíp lái địch trên số trận đã đánh"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "Số Phát Bắn Choáng"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "Số phát bắn choáng"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "Tỷ lệ của tổng điểm chiến thắng kiếm được trên số trận đã đánh"
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "Số Điểm Chiến thắng Tr.bình"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "Tổng số trận đã tham chiến, gồm có:\n• Thắng: %(value_0)s\n• Thua: %(value_1)s\n• Hòa: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "Số trận"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "Tỷ lệ của tổng mọi cấp đạt đến trên số trận đã chơi."
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "Cấp Trung bình"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "Tỷ lệ của tổng mọi vị thứ trong kết quả chiến đấu trên số trận đã chơi."
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "Vị thứ Trung bình"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "Tỷ lệ của tổng thiệt hại gây ra trên số trận đã đánh."
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "Thiệt hại Gây ra"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "Tổng số trận đã tham chiến."
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "Số trận"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "Sát thương cao nhất đã gây ra cho xe địch trong một trận.\nKỷ lục đạt được bằng  %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "Sát thương Cao nhất một Trận"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "XP nhiều nhất đã thu về trong một trận với Tài khoản WoT Premium.\nKỷ lục đạt được bằng  %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "Kinh nghiệm Cao nhất một Trận"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "Số xe địch đã đích thân tiêu diệt nhiều nhất trong một trận.\nKỷ lục đạt được bằng %(value_0)s."
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "Số xe Diệt được Nhiều nhất một Trận"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "Tổng số thắng lợi."
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "Chiến thắng/Số trận"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "Số điểm chiếm đóng căn cứ phe địch đã kiếm được"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "Điểm Chiếm Căn cứ"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "Tỷ lệ của \"Thiệt hại gây ra\" trên \"Thiệt hại hứng chịu\" cho mọi cấp độ đánh, với:\n• Thiệt hại gây ra: %(value_0)s\n• Thiệt hại hứng chịu: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "Hệ số Sát thương Tr.bình"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "Tỷ lệ của \"Thiệt hại gây ra\" trên \"Thiệt hại hứng chịu\", với:\n• Thiệt hại gây ra: %(value_0)s\n• Thiệt hại hứng chịu: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "Hệ số Sát thương"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "Tỷ lệ của số xe địch đã tiêu diệt trên số lần xe người chơi bị phá hủy, với:\n• Số xe địch đã tiêu diệt được: %(value_0)s\n• Số xe người chơi đã bị phá hủy: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "Tỷ lệ Phá hủy"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "Tỷ lệ sát thương mà giáp xe chặn được từ các phát bắn không xuyên và nảy ra của đạn AP, HEAT, APCR trên thiệt hại đã hứng chịu. Không tính sát thương do Quân Dự bị Chiến đấu, đạn HE và HESH.\n• Thiệt hại trung bình giáp xe đã chặn được từ các loại đạn trên: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "Hiệu quả Sử dụng Giáp"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "Tỷ lệ của tổng thiệt hại đã gây ra (kể cả bằng Quân Dự bị Chiến đấu) trên số trận tham chiến."
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "Sát thương Tr.bình mỗi Trận"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "Tỷ lệ của tổng số xe địch đã bắn hạ (kể cả bằng Quân Dự bị Chiến đấu) trên số trận tham chiến"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "Xe địch đã tiêu diệt"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "Tỷ lệ của tổng số xe địch đã bắn hạ (không tính khi dùng Quân Dự bị Chiến đấu) trên số trận tham chiến"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "Xe địch đã tiêu diệt"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "Tỷ lệ của tổng thiệt hại đã gây ra (kể cả bằng Quân Dự bị Chiến đấu) trên số trận tham chiến"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "Thiệt hại đã Gây ra"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "Tỷ lệ của tổng thiệt hại đã gây ra (không tính khi dùng Quân Dự bị Chiến đấu) trên số trận tham chiến"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "Thiệt hại đã Gây ra"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "Tỷ lệ của tổng thiệt hại đã hứng chịu (kể cả từ Quân Dự bị Chiến đấu) trên số trận tham chiến"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "Thiệt hại đã Hứng chịu"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "Tổng số trận đánh đã tham chiến, trong đó: \n• Thắng lợi: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "Số trận"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "Tỷ lệ của \"Thiệt hại gây ra\" trên \"Thiệt hại hứng chịu\" (kể cả từ Quân Dự bị Chiến đấu), với:\n• Thiệt hại đã gây ra bởi xe của bạn: %(value_0)s\n• Thiệt hại đã gây ra bởi Quân Dự bị Chiến đấu: %(value_2)s\n• Thiệt hại đã hứng chịu từ xe địch và Quân Dự bị Chiến đấu của đối phương: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "Hệ số Sát thương"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "Tỷ lệ của \"Thiệt hại gây ra\" trên \"Thiệt hại hứng chịu\" (không kể Quân Dự bị Chiến đấu), với:\n• Thiệt hại đã gây ra: %(value_0)s\n• Thiệt hại đã hứng chịu: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "Hệ số Sát thương"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "Tỷ lệ của lượng xe địch đã tiêu diệt trên số lần xe người chơi bị phá hủy (kể cả Quân Dự bị Chiến đấu), với:\n• Số xe địch bị tiêu diệt bởi xe của bạn: %(value_0)s\n• Số xe địch bị tiêu diệt bởi Quân Dự bị Chiến đấu: %(value_2)s\n• Số xe của người chơi bị tiêu diệt bởi xe địch và Quân Dự bị Chiến đấu đối phương: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "Tỷ lệ Phá hủy"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "Tỷ lệ của số xe địch đã tiêu diệt trên số lần xe người chơi bị phá hủy (không kể Quân Dự bị Chiến đấu), với:\n• Số xe địch đã tiêu diệt được: %(value_0)s\n• Số xe người chơi đã bị phá hủy: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "Tỷ lệ Phá hủy"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "Độ chính xác khi bắn xe địch (không kể Quân Dự bị Chiến đấu)"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "Bắn trúng"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "Kỷ lục đã đạt được kể cả Quân Dự bị Chiến đấu."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "Sát thương Cao nhất một Trận"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "Kỷ lục đã đạt được không tính Quân Dự bị Chiến đấu."
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "Sát thương Cao nhất một Trận"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "Kỷ lục đã đạt được kể cả Quân Dự bị Chiến đấu."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "Số Xe Bắn hạ Nhiều nhất một Trận"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "Kỷ lục đã đạt được không tính Quân Dự bị Chiến đấu."
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "Số Xe Bắn hạ Nhiều nhất một Trận"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "Tổng số thắng lợi"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "Thắng lợi"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "Số điểm phòng thủ căn cứ phe ta đã kiếm được"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "Điểm Phòng thủ Căn cứ"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "Tổng số cờ đã phá hủy"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "Cờ đã Phá hủy"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "Số cờ đã được mang về căn cứ phe ta"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "Cờ đã Đưa về căn cứ"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "Tổng số trận Tiến công, bao gồm:\n• Chiến thắng: %(value_0)s\n• Thất bại: %(value_1)s\n• Hòa: %(value_2)s."
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "Tiến công"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "Tổng tỷ lệ thắng khi Tiến công"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "Số Chiến thắng khi Tiến công"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "Tổng số Pháo đài địch đã cướp phá thành công"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "Cướp phá"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "Tỷ lệ của tổng Tài nguyên Công nghiệp kiếm được trên số trận Tranh chấp đã tiến hành"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "Của cải Tr.bình mỗi trận Tranh chấp"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "Tổng số trận Tranh chấp đã tiến hành, bao gồm:\n• Chiến thắng: %(value_0)s\n• Thất bại: %(value_1)s\n• Hòa: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "Tranh chấp"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "Tổng tỷ lệ thắng khi Tranh chấp"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "Số Chiến thắng khi Tranh chấp"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "Tổng số cuộc tấn công vào Pháo đài địch.\nChỉ được tính nếu đã tham chiến ít nhất một trận đụng độ trong cuộc tấn công."
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "Cuộc Tấn công"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "Tổng số trận phòng thủ Pháo đài của bạn.\nChỉ được tính nếu đã tham chiến ít nhất một trận đụng độ trong Thời gian Phòng thủ."
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "Trận Phòng thủ"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "Tổng tỷ lệ thắng khi Tiến công"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "Số Chiến thắng khi Tiến công"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "Tổng tỷ lệ chiến thắng khi Tranh chấp"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "Số trận Thắng khi Tranh chấp"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "Tỷ lệ của tổng Tài nguyên Công nghiệp kiếm được trên số trận Tranh chấp đã tiến hành"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "Số Của cải Trung bình mỗi trận Tranh chấp"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "Tổng số Tài nguyên Công nghiệp kiếm được trong mọi trận Tranh chấp"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "Tổng số của cải kiếm được khi Tranh chấp"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "Độ chính xác khi bắn vào xe địch"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "Tỷ lệ Bắn trúng"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "Tỷ lệ của lượng xe địch đã tiêu diệt trên số lần xe người chơi bị phá hủy (kể cả Quân Dự bị Chiến đấu), với:\n• Số xe địch bị tiêu diệt bởi xe của bạn: %(value_0)s\n• Số xe địch bị tiêu diệt bởi Quân Dự bị Chiến đấu: %(value_1)s\n• Số xe của người chơi bị tiêu diệt bởi xe địch và Quân Dự bị Chiến đấu đối phương: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "Tỷ lệ Phá hủy"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "Cấp độ Master: Xuất Sắc đã nhận trong tất cả các chế độ có liên quan / Số xe đã tham chiến ít nhất một Trận đấu Ngẫu nhiên"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "Cấp độ Master: Xuất Sắc"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "Danh hiệu Cấp độ Master không áp dụng cho chế độ đánh này."
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "Cấp độ Master: Xuất Sắc"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "Kỷ lục đạt được ở %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "Số sát thương cao nhất một trận"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "Số thiệt hại gây ra cho xe địch nhiều nhất trong một trận."
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "Sát thương Cao nhất"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "Kỷ lục đạt được ở %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "Số xe diệt được nhiều nhất một trận"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "Số xe bắn hạ được nhiều nhất trong một trận."
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "Số Xe Bắn hạ Nhiều nhất"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "Sát thương cao nhất gây ra bởi cả Kỹ Vai trò và Kỹ Chiến lược trong một trận."
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "Sát Thương Cao Nhất Gây Ra bởi Kỹ thuật Một Trận"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "Bao gồm sát thương gây ra bởi cả Kỹ Vai trò và Kỹ Chiến lược.\nKỷ lục bằng %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "Sát Thương Cao Nhất Gây Ra bởi Kỹ thuật Một Trận"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "Kỷ lục đạt được ở %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "Số kinh nghiệm cao nhất một trận"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "Số kinh nghiệm kiếm được nhiều nhất trong một trận, tính cả Tài khoản Premium."
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "Kinh nghiệm Cao nhất"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "EXP tối đa không được hiển thị ở chế độ đánh này."
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "Số kinh nghiệm cao nhất một trận"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "Số HP cao nhất khôi phục được cho xe mình và đồng đội trong một trận."
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "HP Cao Nhất đã Khôi Phục Một Trận"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "Số HP cao nhất khôi phục được cho xe mình và đồng đội trong một trận.\nKỷ lục bằng %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "HP Cao Nhất đã Khôi Phục Một Trận"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "Số Điểm Thanh thế cao nhất đã ghi được trong một trận."
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "Điểm Thanh Thế Cao Nhất Một Trận"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "Kỷ lục bằng %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "Điểm Thanh Thế Cao Nhất Một Trận"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "Số điểm chiến thắng kiếm được nhiều nhất một trận trong mọi trận đã đánh"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "Điểm Chiến thắng Nhiều nhất một Trận"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "Số điểm chiến thắng kiếm được nhiều nhất một trận trong mọi trận đã đánh"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "Điểm Chiến thắng Nhiều nhất một Trận"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "Số thắng lợi liên tiếp nhiều nhất trong chế độ khi độc lập tác chiến và theo Trung đội/Trung đội 7 người."
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "Số Thắng Lợi Liên Tiếp Nhiều Nhất (Sô-lô và Trung đội/Siêu Trung đội)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "Số Điểm Then chốt đã chiếm được"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "Điểm Then Chốt đã Chiếm"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "Số xe địch bắn hạ được trung bình một trận"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "Số xe bắn hạ trung bình"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "Tỷ lệ phần trăm của số quân hàm nhận được trên tổng số trận trong chế độ Trận đánh Xếp hạng.\n• Tổng số quân hàm: %(value_0)s\n• Tổng số trận: %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "Hiệu quả Trận đánh Xếp hạng"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "Tổng số điểm đã kiếm được"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "Điểm Xếp hạng"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "Tổng số phát bắn trúng—làm choáng kíp lái địch"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "Số phát bắn choáng"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "Phần trăm số trận mà xe của người chơi không bị tiêu diệt"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "Số trận Sống sót"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "Tổng số xe khác nhau đã sử dụng"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "Xe đã Dùng"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "Tổng số trận Tiến công.\n\nThông số này không khả dụng trong bản cập nhật hiện tại."
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "Tiến công"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "Tổng phần trăm chiến thắng khi Tiến công.\n\nThông số này không khả dụng trong bản cập nhật hiện tại."
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "Số Chiến thắng khi Tiến công"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "Chưa có trận đánh nào từ khi thông số này được đưa vào"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "Dữ liệu Không khả dụng"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "Các xe đã tham chiến ít nhất một lần trong Trận đánh Lịch sử"
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "Các xe đã Sử dụng"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "Tổng tỷ lệ chiến thắng"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "Chiến thắng"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "Mùa 1, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "Mùa 2, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "Mùa 3, 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "Dữ liệu lưu trữ"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "Mọi mùa giải"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "Mùa giải hiện tại"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "Mùa giải %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "HP Cao Nhất đã Khôi Phục Một Trận"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "Hồ sơ Clan"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "Ngày Gia nhập:"
+
+msgid "profile/summary/clan/post"
+msgstr "Chức vụ:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "Hồ sơ Đội"
+
+msgid "profile/summary/club/ladder"
+msgstr "Bảng Xếp Hạng:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "Hạng %(league)s, Phân cấp %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "Chức vụ:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "Các danh hiệu sắp được trao sẽ hiển thị ở dải ruy-băng trên màn hình."
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "Danh hiệu Sắp đạt được"
+
+msgid "profile/summary/noGroups"
+msgstr "Người chơi không có đơn vị tác chiến cố định nào."
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "Những danh hiệu cao quý nhất mà người chơi có được sẽ hiển thị trên dải ruy-băng."
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "Danh hiệu Cao quý"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "Xem Catalô Thành tích."
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "Thành tích"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "Xem các danh hiệu và mô tả của chúng."
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "Phần thưởng"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "Xem Bộ Sưu tập"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "Bộ sưu tập"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "Xem chi tiết về các đơn vị tác chiến mà bạn là thành viên trực thuộc."
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "Đơn vị Tác chiến"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "Xem chỉ số trên Bảng Xếp hạng"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "Bảng Xếp hạng"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "Bảng Xếp hạng tạm thời không khả dụng. Xin vui lòng thử lại sau."
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "Chú ý"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "Xem thống kê chiến đấu của tất cả các loại xe."
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "Thống kê"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "Xem Hiệu suất Chiến đấu."
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "Sơ lược"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "Xem thống kê chiến đấu theo từng xe."
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "Xe"
+
+msgid "profile/title"
+msgstr "Thông tin của người chơi %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "Năm/Mùa:"
+
+msgid "seasons/dropdown_label"
+msgstr "Mùa:"
+
+msgid "section/advancedAchievements/title"
+msgstr "Thành tích"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "Tất cả"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "Đã nhận"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "Chưa nhận được"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "Bật chức năng lọc để xem các danh hiệu đã hoặc chưa nhận được, hay tất cả mọi danh hiệu."
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "Sắp xếp Danh hiệu"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "Anh hùng Chiến trận"
+
+msgid "section/awards/labels/epic"
+msgstr "Huy hiệu Siêu Hùng"
+
+msgid "section/awards/labels/group"
+msgstr "Danh hiệu Tập thể"
+
+msgid "section/awards/labels/honorary"
+msgstr "Huy hiệu Danh dự"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "Dấu hiệu Thiện chiến"
+
+msgid "section/awards/labels/memory"
+msgstr "Kỷ Niệm Chương"
+
+msgid "section/awards/labels/special"
+msgstr "Đặc biệt"
+
+msgid "section/awards/labels/stage"
+msgstr "Danh hiệu Cột mốc"
+
+msgid "section/awards/title"
+msgstr "Phần thưởng"
+
+msgid "section/collections/title"
+msgstr "Bộ Sưu tập"
+
+msgid "section/formations/clan/none"
+msgstr "Bạn không là thành viên của bất cứ Clan nào."
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "Người chơi không là thành viên của bất cứ Clan nào."
+
+msgid "section/formations/clan/type"
+msgstr "Clan"
+
+msgid "section/formations/fort/battles"
+msgstr "Tiến công"
+
+msgid "section/formations/fort/create"
+msgstr "Tạo Pháo đài"
+
+msgid "section/formations/fort/level"
+msgstr "Cấp Pháo đài: %s"
+
+msgid "section/formations/fort/link"
+msgstr "Thành tích Pháo đài"
+
+msgid "section/formations/fort/none"
+msgstr "Pháo đài chưa được tạo"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "Clan của người chơi không có Pháo đài."
+
+msgid "section/formations/fort/resourceRating"
+msgstr "Chỉ số Săn Tài nguyên"
+
+msgid "section/formations/fort/sorties"
+msgstr "Tranh chấp"
+
+msgid "section/formations/history/battles"
+msgstr "Số trận là Thành viên"
+
+msgid "section/formations/history/dates"
+msgstr "Ngày Gia nhập/Rời đi"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s–%(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "Đội"
+
+msgid "section/formations/history/title"
+msgstr "Nhật ký các Đội của Người chơi"
+
+msgid "section/formations/joinDate"
+msgstr "Ngày gia nhập: %s"
+
+msgid "section/formations/rank"
+msgstr "Chức vụ của người chơi: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "Mùa giải %s (đã kết thúc)"
+
+msgid "section/formations/team/find"
+msgstr "Đến mục tìm kiếm Đội Cố định"
+
+msgid "section/formations/team/league"
+msgstr "Hạng: %(league)s. Phân cấp: %(division)s. Vị trí: %(position)s."
+
+msgid "section/formations/team/none"
+msgstr "Bạn không có Đội Cố định nào."
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "Người chơi không có Đội Cố định nào."
+
+msgid "section/formations/team/season"
+msgstr "Mùa giải %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "Trận đấu Xếp hạng"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "Số thắng lợi trong mùa giải"
+
+msgid "section/formations/team/title"
+msgstr "Đội \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "Đội"
+
+msgid "section/formations/title"
+msgstr "Đơn vị Tác chiến"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "Tổng số trận Tiến công, bao gồm:\n• Thắng lợi: %(wins)s\n• Thất bại: %(losses)s\n• Hòa: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "Tiến công"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "Cấp Pháo đài bằng với cấp độ Trung tâm Chỉ huy của nó."
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "Cấp Pháo đài"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "Click để xem các thành tích Pháo đài của Clan."
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "Thành tích Pháo đài"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "Vị trí của bạn"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "Chỉ số Săn Tài nguyên"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "Tổng số trận Tranh chấp đã tiến hành, bao gồm:\n• Thắng lợi: %(wins)s\n• Thất bại: %(losses)s\n• Hòa: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "Tranh chấp"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "Click để xem hồ sơ của đội."
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "Hồ sơ Đội"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "Tổng số Trận đấu Xếp hạng đã tham chiến với tư cách là thành viên đội này, bao gồm:\n• Thắng lợi: %(wins)s\n• Thất bại: %(losses)s\n• Hòa: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "Trận đấu Xếp hạng"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "Tổng tỷ lệ chiến thắng trong các Trận đấu Xếp hạng"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "Chiến thắng"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "TẮT"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "Đến Xếp hạng"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "Xếp hạng theo thành tích\nTrận đấu Ngẫu nhiên"
+
+msgid "section/hof/betaBtn"
+msgstr "BETA"
+
+msgid "section/hof/betaTooltip"
+msgstr "Bảng Xếp hạng và Chỉ số World of Tanks\nđang trong giai đoạn thử nghiệm BETA"
+
+msgid "section/hof/mainDescription"
+msgstr "Xem hiệu suất chiến đấu và vị thứ của bạn trên bảng xếp hạng so với những người chơi khác trong khoảng thời gian đã chọn."
+
+msgid "section/hof/mainTitle"
+msgstr "Bảng Xếp hạng"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "Bảng Xếp hạng tạm thời không khả dụng. Xin vui lòng thử lại sau."
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "Chú ý"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "Hiện Kết quả"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "Ẩn Kết quả"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "Yêu cầu ẩn kết quả của bạn trên bảng xếp hạng đã được gửi đi và sẽ được xử lý trong phiên điều chỉnh tiếp theo."
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "Kết quả xếp hạng của bạn giờ đã được ẩn khỏi những người chơi khác."
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "Yêu cầu của bạn đã được gửi đi và sẽ được xử lý trong phiên điều chỉnh tiếp theo. Kết quả xếp hạng của bạn giờ đã được hiển thị cho những người chơi khác."
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "Kết quả xếp hạng của bạn được hiển thị cho tất cả người chơi, bạn bè và thành viên Clan."
+
+msgid "section/hof/title"
+msgstr "Bảng Xếp hạng"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "Đến Xếp hạng"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "Xếp hạng theo xe trong\nTrận đấu Ngẫu nhiên"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "Biểu đồ thông tin"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "Cấp X"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "Cấp VI"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "Cấp VIII"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "Thống kê"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "Chi tiết về Tiến công"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "Chi tiết về các cuộc Tranh chấp"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "Đặc biệt"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "Điểm trung bình mỗi Trận"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "Thông số Tổng quan"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "Tiến công"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "Tranh chấp"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "Điểm Kỷ lục"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "Tài nguyên Công nghiệp"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "Tổng số trận đánh bằng các xe thuộc loại này"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "Loại Xe: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "Số trận đánh của các xe ở cấp này"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "Cấp Xe: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "Chỉ các xe Cấp VI–VIII mới có thể chiến đấu ở chế độ đánh này."
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "Cấp Xe: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "Chỉ các xe Cấp VIII-X mới có thể tham chiến trong chế độ đánh này."
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "Cấp Xe: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "Số trận đánh của các xe thuộc quốc gia này"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "Quốc gia: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "Tổng số trận với vị thứ này"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "Vị thứ đã đạt: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "Số trận đánh của các xe thuộc loại này"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "Loại Xe: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "Theo loại"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "Theo cấp xe"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "Theo quốc gia"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "Theo vị thứ"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "Theo loại"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "Thiệt hại gây ra cho xe địch do người chơi làm bất động"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "Thiệt hại gây ra cho xe địch bị bạn bắn choáng"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "Thiệt hại gây ra cho xe địch"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "Xe địch đã tiêu diệt"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "Số xe địch đã phát hiện"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "HP đã Khôi Phục"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "Điểm Then Chốt đã Chiếm"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "Điểm Thanh thế"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "Thiệt hại đã hứng chịu"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "Kỹ Vai trò đã Dùng"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "Hệ số Sát thương"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "Sát thương"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "Bị tiêu diệt"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "Tỷ lệ Phá hủy"
+
+msgid "section/statistics/detailed/killed"
+msgstr "Số xe địch đã bắn hạ"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "Số xe diệt được nhiều nhất một trận"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "Thiệt hại đã hứng chịu"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "Số phát bắn choáng"
+
+msgid "section/statistics/headerText/all"
+msgstr "Ngẫu nhiên và Đại đội"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "Săn Thiết giáp"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "Săn Thiết giáp"
+
+msgid "section/statistics/headerText/clan"
+msgstr "Bản đồ Chiến sự"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "Cường kích"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "Đại Chiến"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "Chiến đấu Tới cùng"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "Pháo đài: Giao chiến"
+
+msgid "section/statistics/headerText/historical"
+msgstr "Trận đánh Lịch sử"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "Trận đánh Xếp hạng"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "Trận đánh Xếp hạng 15v15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "Đấu Đội: Xếp hạng"
+
+msgid "section/statistics/headerText/team"
+msgstr "Đấu Đội: Không Xếp hạng"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "Số Trận Tham chiến với Xe"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "Phần thưởng"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "Hiệu quả Sử dụng Giáp"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "Thiệt hại Tr.bình Gây ra nhờ Bạn Hỗ trợ"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "Thiệt hại do Người chơi Hỗ trợ"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "Thiệt hại đã gây ra nhờ bạn hỗ trợ"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "Sát thương Tr.bình mỗi Trận"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "Kinh nghiệm Tr.bình mỗi Trận"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "Kinh nghiệm"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "Điểm Thanh Thế Trung bình Mỗi Trận"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "Số điểm chiến thắng trung bình"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "Điểm chiếm căn cứ"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "Hệ số Sát thương Tr.bình"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "Cấp độ Master: Xuất Sắc"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "Điểm phòng thủ căn cứ"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "Cờ đã phá hủy"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "Cờ đã đưa về căn cứ"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "Tiến công"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "Chiến thắng"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "Số của cải trung bình mỗi trận Tranh chấp"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "Tranh chấp"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "Số trận Thắng khi Tranh chấp"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "Cuộc Tấn công"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "Trận Phòng thủ"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "Số Chiến thắng khi Tiến công"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "Tranh chấp"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "Số Chiến thắng khi Tranh chấp"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "Số của cải trung bình mỗi trận Tranh chấp"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "Tổng số của cải kiếm được khi Tranh chấp"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "Tiến công"
+
+msgid "section/statistics/scores/hits"
+msgstr "Bắn trúng"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "Tỷ lệ Phá hủy"
+
+msgid "section/statistics/scores/looting"
+msgstr "Cướp phá"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "Số sát thương cao nhất một trận"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "Sát Thương Cao Nhất Gây Ra bởi Kỹ thuật Một Trận"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "Số kinh nghiệm cao nhất một trận"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "Điểm Thanh Thế Cao Nhất Một Trận"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "Điểm Chiến thắng Nhiều nhất một Trận"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "Số Thắng Lợi Liên Tiếp Nhiều Nhất (Sô-lô và Trung đội/Siêu Trung đội)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "Điểm Then Chốt đã Chiếm"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "Số xe bắn hạ trung bình"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "Hiệu quả Trận đánh Xếp hạng"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "Điểm Xếp hạng"
+
+msgid "section/statistics/scores/survival"
+msgstr "Số trận Sống sót"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "Số trận"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "Xe đã Dùng"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "Chiến thắng"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "Các xe đã sử dụng"
+
+msgid "section/statistics/title"
+msgstr "Thống kê"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "Không có danh hiệu nào sắp được"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "Không có danh hiệu cao quý nào"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "Danh hiệu Sắp đạt được"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "Danh hiệu Cao quý"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "Cấp Trung bình"
+
+msgid "section/summary/scores/averageRank"
+msgstr "Vị thứ Trung bình"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "Sát thương Tr.bình mỗi Trận"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "Kinh nghiệm Tr.bình mỗi Trận"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "Cấp độ Master: Xuất Sắc"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "Thiệt hại đã Gây ra"
+
+msgid "section/summary/scores/hits"
+msgstr "Tỷ lệ bắn trúng"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "Số xe diệt được nhiều nhất một trận"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "Số kinh nghiệm cao nhất một trận"
+
+msgid "section/summary/scores/personalScore"
+msgstr "Chỉ số Cá nhân"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "Số trận"
+
+msgid "section/summary/scores/totalWins"
+msgstr "Chiến thắng"
+
+msgid "section/summary/title"
+msgstr "Sơ lược"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "Chưa được tặng thưởng gì"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "XP Trung bình\nmỗi Trận"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "Master"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "Số trận"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "Chiến thắng"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "Tên"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "Xem các xe trong Ga-ra."
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "Có trong Ga-ra"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "Không có xe nào trong Ga-ra đã tham dự các Trận đánh Ngẫu nhiên và Đại đội."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "Không có xe nào trong Ga-ra đã tham dự các trận Săn Thiết giáp."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "Không có xe nào trong Ga-ra đã tham dự các trận Săn Thiết giáp."
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "Không có xe nào đã đánh trong chế độ Cường kích."
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "Không có xe nào trong Ga-ra đã tham dự chế độ Đại Chiến"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "Chưa có xe nào trong Ga-ra của bạn đã tham gia các trận đánh thuộc chế độ \"Chiến đấu Tới cùng\"."
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "Không có xe nào trong Ga-ra đã tham dự các trận Tiến công"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "Không có xe nào trong Ga-ra đã tham dự các trận Tranh chấp."
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "Không có xe nào trong Ga-ra đã tham dự các trận đánh trên Bản đồ Chiến sự."
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "Không có xe nào trong Ga-ra đã tham dự các Trận đánh Lịch sử."
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "Chưa có xe nào trong Ga-ra đã tham dự các Trận đánh Xếp hạng"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "Không có xe nào trong Ga-ra đã tham dự các Trận đấu Xếp hạng."
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "Không có xe nào trong Ga-ra đã tham dự các trận Đấu Đội."
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "Sắp xếp theo sát thương trung bình mỗi trận."
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "Sát thương Trung bình"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "Sắp xếp theo số xe địch bắn hạ được trong một trận."
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "Số Xe Địch Đã Bắn Hạ"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "Sắp xếp theo EXP trung bình mỗi trận."
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "Kinh nghiệm Trung bình"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "Sắp xếp theo số trận đánh."
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "Số trận"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "Sắp xếp theo loại xe"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "Loại"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "Sắp xếp theo cấp xe."
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "Cấp"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "Sắp xếp theo Cấp độ Master."
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "Master"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "Sắp xếp theo tên xe."
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "Tên"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "Sắp xếp theo quốc gia."
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "Quốc gia"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "Sắp xếp theo Cấp độ Uy tín"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "Hệ thống Uy tín"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "Sắp xếp theo số Điểm Thanh thế trung bình mỗi trận"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "Điểm Thanh Thế Trung bình Mỗi Trận"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "Sắp xếp theo loại xe."
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "Loại"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "Sắp xếp theo tỷ lệ thắng."
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "Chiến thắng"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "Sắp xếp theo số trận thắng."
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "Chiến thắng"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "Bắn trúng"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "Thiệt hại gây ra cho xe địch do người chơi làm bất động"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "Thiệt hại gây ra cho xe địch bị bạn bắn choáng"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "Thiệt hại cho xe địch bị bắn choáng bởi bạn"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "Thiệt hại gây ra cho xe địch"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "Xe địch đã tiêu diệt"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "Số xe địch đã phát hiện"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "Kinh nghiệm"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "Thiệt hại đã hứng chịu"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "Thiệt hại do Người chơi Hỗ trợ"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "Điểm trung bình mỗi Trận"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "Số phát bắn choáng"
+
+msgid "section/technique/statistics/common"
+msgstr "Thông số chung"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "Hệ số Sát thương"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "Tỷ lệ Phá hủy"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "Số sát thương cao nhất một trận"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "Số xe diệt được nhiều nhất một trận"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "Số kinh nghiệm cao nhất một trận"
+
+msgid "section/technique/statistics/records"
+msgstr "Điểm kỷ lục"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "Số phát bắn choáng"
+
+msgid "section/technique/statistics/survival"
+msgstr "Số trận sống sót"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "Hiệu quả Sử dụng Giáp"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "Số trận"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "Chiến thắng"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "Phần thưởng"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "Xem các danh hiệu của xe đã chọn."
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "Phần thưởng"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "Thống kê"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "Xem thống kê của xe đã chọn."
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "Thống kê"
+
+msgid "section/technique/title"
+msgstr "Xe"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "Có trong Ga-ra"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "Dùng chức năng lọc để xem thống kê chỉ số của các chế độ đánh."
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "Sắp xếp theo Chế độ Đánh"

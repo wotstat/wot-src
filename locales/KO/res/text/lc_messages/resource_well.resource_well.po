@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "전차 획득"
+
+msgid "awardView/end"
+msgstr "이벤트 종료"
+
+msgid "awardView/info"
+msgstr "스타일 고유번호"
+
+msgid "awardView/toHangar"
+msgstr "차고에서 보기"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "고유번호 스타일 적용 %(vehicleInfo)"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "전차 획득"
+
+msgid "awardView/vehicleTitle"
+msgstr "전차 획득"
+
+msgid "commonTexts/aboutButton"
+msgstr "이벤트 정보"
+
+msgid "commonTexts/closeBtn"
+msgstr "닫기"
+
+msgid "commonTexts/eventTitle"
+msgstr "제작소"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "취소"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "사용"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "남은 고유번호 스타일 적용 전차가 없습니다. 고유번호가 없는 %(vehicleName)s 전차가 인계됩니다.\n자원을 사용하시겠습니까?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "고유번호가 없는 %(vehicleName)s 전차 획득"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "차고로 복귀"
+
+msgid "confirm/NoVehicles/description"
+msgstr "사용한 자원이 곧 계정에 반환됩니다."
+
+msgid "confirm/NoVehicles/title"
+msgstr "남은 전차 없음"
+
+msgid "confirm/buttonCancel/title"
+msgstr "취소"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "사용"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "사용 후 진행 상황: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "자원을 사용하시겠습니까?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "자원 회수"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "사용한 자원이 모두 계정으로 반환되며 제작 진행 상황이 초기화됩니다. 이벤트 기간이라면 언제든지 자원을 다시 사용하여 전차를 제작할 수 있습니다."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "사용한 자원을 모두 회수하시겠습니까?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "사용한 자원이 모두 계정으로 반환되며 제작 진행 상황이 초기화됩니다. %(vehicleName) 전차가 선택됩니다. 해당 전차 획득을 위해 자원을 사용할 수 있습니다."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "사용한 자원을 회수하고 %(vehicleName) 전차를 선택하시겠습니까?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "전차 선택"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "이벤트 기간에 두 전차 모두 구매할 수 있습니다."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "이벤트 기간에 전차 및 고유 번호 3D 스타일이 포함된 패키지를 구매할 수 있습니다."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "선착순 %(styleTanksCount)명만이 고유번호 3D 스타일이 적용된 전차를 획득할 수 있습니다.{{@ class $br}}{{/}}그다음 전차 %(withoutStyleTanksCount)대는 고유번호 3D 스타일 없이 인계됩니다."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "이벤트 종료"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "전차 획득"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "전차 획득"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "남은 전차"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "이미 보유 중인 전차입니다."
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "전차 획득"
+
+msgid "eventInfo/tanksOver"
+msgstr "재고 없음"
+
+msgid "eventInfo/top/styleText"
+msgstr "고유번호 적용"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "남은 고유번호 전차"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "고유번호 전차 재고가 소진되면\n일반 구성 전차 %(regularRewardVehiclesCount)대의 인계가 시작됩니다."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "일반 구성"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "남은 전차"
+
+msgid "mainView/affirmative/button"
+msgstr "확인"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "자원 회수"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "투자한 자원:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "투자한 자원:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "차고로 복귀"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "자원 선택"
+
+msgid "mainView/footer/description/text"
+msgstr "전차 재고가 소진되면 사용한 자원은 모두 반환됩니다."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "해당 이벤트에 참여할 수 없는 계정 유형입니다."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "참여 불가"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "두 전차 모두 구매할 수 있지만, 자원은 한 번에 한 전차에만 투자할 수 있습니다."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "제작할 전차를 선택하고 필요한 자원을 투자하십시오! 서둘러야 합니다!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "서둘러 제작에 필요한 자원을 사용하여 %(vehicleName) 전차를 획득하십시오!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "사용한 자원이 곧 계정에 반환됩니다."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "남은 전차 없음"
+
+msgid "mainView/navbar/backBtn"
+msgstr "제작소로 이동"
+
+msgid "mainView/navbar/title"
+msgstr "제작소"
+
+msgid "mainView/preview/label"
+msgstr "미리 보기"
+
+msgid "mainView/timer/lastUntil"
+msgstr "마감:"
+
+msgid "mainView/timer/leftTime"
+msgstr "남은 시간:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "닫기"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "자원 사용"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s 데이터 이용 불가"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "남은 전차 없음"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "남은 고유번호 전차: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "남은 전차: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "범용"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "최대 자원 %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "최대 %(maxValue)d개 %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "자원 투자 완료 %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "설계도면 조각"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "통화"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "자원 투자"
+
+msgid "tankPreview/button"
+msgstr "자원 선택"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "이벤트 기간에 전차 및 고유 번호 3D 스타일이 포함된 패키지를 구매할 수 있습니다."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "선착순 %(topPlayers)명만이 고유번호 3D 스타일이 적용된 전차를 획득할 수 있습니다.\n그다음 전차 %(basePlayers)대는 고유번호 3D 스타일 없이 인계됩니다."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "이벤트 기간에 두 전차 모두 구매할 수 있습니다."
+
+msgid "tankPreview/title"
+msgstr "필요 자원을 100% 투자하여 %(vehicleInfo) 전차를 획득해 보십시오!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "사용한 자원은 언제든 확인할 수 있으며 필요시 자원 회수 버튼을 클릭하여 회수할 수 있습니다.\n자원을 회수하면 제작 진행 상황이 초기화되지만, 해당 자원을 다시 사용하거나 다른 자원을 사용하여 전차를 획득할 수 있습니다."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "자원 회수"
+
+msgid "tooltips/counter/error/text"
+msgstr "일시적으로 정보를 확인할 수 없습니다.\n문제를 해결 중입니다."
+
+msgid "tooltips/counter/warning/text"
+msgstr "수치 갱신 시 약간의 지연이 발생하므로 실제 전차 수와 다를 수 있습니다."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "자원을 사용하여 %(vehicleName1) 전차와 %(vehicleName2) 전차를 획득해 보십시오. 전차 수량은 제한되어 있습니다."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "자원을 사용하여 고유번호 3D 스타일이 적용된 %(vehicleName) 전차를 획득해 보십시오. 전차 수량은 제한되어 있습니다."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "이용 가능 기간: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s ~ %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "남은 시간 %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "시작까지%(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "제작소"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "이벤트 관련 세부 정보 확인"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "자원을 투자할 전차를 선택하십시오.\n다른 전차에 투자한 자원은 계정에 반환됩니다."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "남은 시간: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "전차를 제작하려면 필요한 자원을 100% 소모해야 합니다. 유형별 자원 비율은 조정 가능합니다."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "전차 재고가 소진되면 사용한 자원은 모두 반환됩니다."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "선택"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "소모"
+
+msgid "tooltips/progressbar/title"
+msgstr "자원 투자"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "일시적으로 자원을 사용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "범용 및 국가 조각"
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "설계도면 조각"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "전투에서 활약하면 지급됩니다. 현금으로 구매할 수도 있습니다."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "통화"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "소모"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "해당 자원 소모 최대치: %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "전차 획득에 필요한 자원을 투자하였습니다. 한 유형의 자원을 제거하면 다른 자원을 선택할 수 있습니다."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "자원 투자 완료"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "고유번호가 존재하며 외관이 개량된 특별 전차입니다."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "주포 양쪽과 차체 후면에 번호가 표시됩니다. 같은 전차라도 번호는 중복되지 않으며 수량이 제한되어 있습니다."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "전차 꾸미기 화면에서 고유번호 3D 스타일을 제거하면 식별 요소를 숨길 수 있습니다."
+
+msgid "tooltips/uniq_style/title"
+msgstr "고유번호 전차"

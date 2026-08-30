@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Giáp chính"
+
+msgid "armorValues/title/no_damage"
+msgstr "0 sát thương"
+
+msgid "armorValues/title/other"
+msgstr "Khác"
+
+msgid "armorValues/title/penetration"
+msgstr "Xác suất xuyên"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Nảy đạn"
+
+msgid "armorValues/title/spaced"
+msgstr "Giáp rỗng"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "Cấu hình tấn công"
+
+msgid "attackerTooltip/body"
+msgstr "Click để đổi xe tấn công"
+
+msgid "attackerTooltip/header"
+msgstr "Xe tấn công"
+
+msgid "menu/header"
+msgstr "Loại Overlay"
+
+msgid "menu/no_armor"
+msgstr "Không overlay"
+
+msgid "menu/nominal"
+msgstr "Giáp danh nghĩa"
+
+msgid "menu/penetration"
+msgstr "Xác suất xuyên"
+
+msgid "modules/current"
+msgstr "Cấu hình hiện tại"
+
+msgid "modules/custom"
+msgstr "Cấu hình tùy chỉnh"
+
+msgid "modules/standard"
+msgstr "Cấu hình chuẩn"
+
+msgid "modules/title"
+msgstr "Mô-đun xe"
+
+msgid "modules/top"
+msgstr "Cấu hình Tốt nhất"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Khung gầm"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Súng"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Mặt nạ súng"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Thân"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Giáp ảo"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Thiết bị quan sát"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Tháp pháo"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Bánh"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "0 sát thương"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Xuyên"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Nảy đạn"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Góc giữa quỹ đạo đạn và đường vuông góc với tấm giáp.\n\nQuỹ đạo đạn được tính như thể bay theo đường thẳng từ giữa màn hình."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Góc chạm"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Xác suất đâm thủng giáp địch và gây hư hại xe."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Xác suất xuyên"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Với một lớp đơn, giáp hiệu quả là giáp danh nghĩa được điều chỉnh theo góc chạm và hiện tượng thường hóa đạn.\n\nNếu tại điểm va chạm có nhiều lớp giáp, kết quả là tổng giá trị giáp hiệu quả của từng lớp."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Giáp hiệu quả"
+
+msgid "tooltip/minor/header"
+msgstr "Chú giải"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Trúng giáp rỗng thường không sao, trừ khi đạn xuyên qua rồi đâm tiếp vào giáp chính."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "0 sát thương"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Bề rộng thật của tấm giáp chính hoặc giáp rỗng."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Giáp danh nghĩa"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Đạn trúng giáp đối phương ở góc sượt sẽ bị nảy ra. Tuy vậy, nó vẫn có thể văng sang xe khác, hoặc thậm chí bật vào chỗ khác trên chính chiếc đó."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Nảy đạn"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Ảnh hưởng đến việc tính toán giáp hiệu quả và xác suất xuyên.\n\nKhoảng cách 100 m được dùng cho mọi phép tính (đạn AP và APCR giảm sức xuyên theo khoảng cách).\n\nKỹ năng kíp lái cùng các nâng cấp của xe tấn công không ảnh hưởng đến phép tính."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Cấu hình tấn công"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Xác suất xuyên giáp đối phương và gây thiệt hại cho xe.\n\nTrúng giáp rỗng thường không sao, trừ khi đạn xuyên qua rồi đâm tiếp vào giáp chính."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Xác suất xuyên"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Xe chỉ chịu thiệt hại khi giáp chính bị bắn thủng. Đạn HE có thể gây sát thương nhỏ nếu không xuyên, nhưng phải chạm tới giáp chính."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Giáp chính"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Trúng giáp rỗng thường không sao, trừ khi đạn xuyên qua rồi đâm tiếp vào giáp chính.\n\nTrúng-xuyên mô-đun ngoài ảnh hưởng trực tiếp đến mô-đun đó: Bắn xích cho bất động, bắn vào súng cho khỏi khai hỏa, bắn ống ngắm cho mù tịt tầm nhìn."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "0 sát thương"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Góc nảy là 70 độ với đạn xuyên giáp AP và APCR, 85 độ cho đạn HEAT.\n\nĐạn HE không nảy, trong khi AP lẫn APCR mất 25% sức xuyên sau lúc nảy.\n\nĐạn sẽ không bật ra nếu cỡ nòng lớn hơn ba lần độ dày giáp danh nghĩa tại điểm trúng (chỉ áp dụng cho đạn AP và APCR)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Nảy đạn"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Trúng giáp rỗng thường không sao, trừ khi đạn xuyên qua rồi đâm tiếp vào giáp chính.\n\nTrúng-xuyên mô-đun ngoài ảnh hưởng trực tiếp đến mô-đun đó: Bắn xích cho bất động, bắn vào súng cho khỏi khai hỏa, bắn ống ngắm cho mù tịt tầm nhìn.\n\nGóc chạm không áp dụng với mô-đun ngoài (như xích và súng)—ở trường hợp này, giáp hiệu quả bằng giáp danh nghĩa."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Giáp rỗng"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "Xem video cơ chế xuyên giáp"

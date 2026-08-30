@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/button/changeServer"
+msgstr "更改服务器"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "详情"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "模式在当前服务器不可用%(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "此模式在所有服务器不可用。"
+
+msgid "alertMessage/modeOffline"
+msgstr "数据库错误。游戏模式不开放。"
+
+msgid "alertMessage/noVehicles"
+msgstr "您的车库中没有适合的战车%(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "了解！"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "天梯战轻装版"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "已完成最终阶段！"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "已完成阶段%(level)s！"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "所有任务已完成！"
+
+msgid "battleQuestTooltips/completed"
+msgstr "已完成"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "过期于：%(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "天梯战轻装版任务"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "新的天梯战轻装版任务开放于：%(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "奖励："
+msgstr[1] "奖励："
+msgstr[2] "奖励："
+
+msgid "battleResult/header/deserter"
+msgstr "您已受到处罚"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "天梯战轻装版进度"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "天梯战轻装版将持续%(days)d天"
+msgstr[1] "天梯战轻装版将持续%(days)d天"
+msgstr[2] "天梯战轻装版将持续%(days)d天"
+
+msgid "calendarDay/title"
+msgstr "时间表"
+
+msgid "closeButtonLabel"
+msgstr "关闭"
+
+msgid "countDown/text"
+msgstr "活动开始于：\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "主打%(levels)s级战车7v7战斗的高能快节奏模式。相较于完整版的天梯战模式，您可在无定位赛、无段位且不影响服役记录的情况下尽情享受战斗，从每日任务获取奖励。"
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "模式"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — 游戏模式。点击探索"
+
+msgid "entryPointTooltip/modeName"
+msgstr "天梯战轻装版"
+
+msgid "entryPointTooltip/status/active"
+msgstr "模式可用于%(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "停战期%(timer)s"
+
+msgid "featureName"
+msgstr "天梯战轻装版"
+
+msgid "featureNameCapitalized"
+msgstr "天梯战轻装版"
+
+msgid "intro/confirmButton"
+msgstr "了解！"
+
+msgid "intro/description/lightGameplay"
+msgstr "享受天梯战模式纯粹的玩法乐趣，没有定位赛、段位或任何服役记录。"
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "模式的变项会改变战车的特定参数：如战车血量、消耗品冷却时间、保持可见的时间等。"
+
+msgid "intro/description/pointsOfInterest"
+msgstr "一旦您占领地图上的特定区域，您就能使用战术技能。共有2种关键点位：占领炮兵总部可以向特定位置发动轰击，占领通信中心则可以侦察所有敌方战车。关键点位的数量和位置视地图而定。"
+
+msgid "intro/description/roleSkills"
+msgstr "每辆战车有一个视角色而定、有3个充能等级的特殊技能。激活时技能的充能等级越高，效果就越强。充能等级取决于威望点数的多寡，点数可通过在战斗中表现出色、占领关键点位、使用战术技能等方式获取。\n\n查看模式规则，了解关于威望点数获取方式的更多详情。"
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "模式只允许使用%(levels)s级战车（但无法使用自行火炮和一些其他战车）。在车库中准备好您的战车，然后根据地图特点选择最适合的一辆加入战斗。选择战车时，同时要考虑队友已选择的战车。"
+
+msgid "intro/title/lightGameplay"
+msgstr "车长，放轻松"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "天梯战变项"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "关键点位"
+
+msgid "intro/title/roleSkills"
+msgstr "角色技能"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "针对地图选择战车"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "胜利"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "战败/平局"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "车长，干得不错，再接再厉！"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "在天梯战轻装版中完成任务并在战斗中名列前茅，以提升您的进度等级。"
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "您获得的进度点数取决于您在战斗中的威望点数排名。"
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "模式结束于%(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "主要进度完成"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "天梯战轻装版"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "威望点数前2"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "威望点数前5"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "威望点数前7"
+
+msgid "listSeparator"
+msgstr "、"
+
+msgid "noVehicles/howTo/premium"
+msgstr "拥有《坦克世界》高级账号"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "激活个人储备"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "完成任务"
+
+msgid "noVehicles/howTo/title"
+msgstr "如何最快获得%(levels)s级战车？"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "想要参与天梯战轻装版，您的车库中需要有至少一辆适用于此模式的%(levels)s级战车。\n您可在科技树或游戏内商店购买 %(levels)s级高级战车。"
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "想要参与天梯战轻装版，您的车库中需要有至少一辆适用于此模式的%(levels)s级战车。\n您有一辆可找回的%(levels)s级战车。"
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "想要参与天梯战轻装版，您的车库中需要拥有至少一辆适用于此模式的%(levels)s级战车。"
+
+msgid "noVehicles/title"
+msgstr "您的车库中没有适合的战车"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "请参阅“关于天梯战轻装版”页面了解详情。"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "威望点数"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "造成伤害\n侦察协助\n摧毁履带\n造成致命一击\n摧毁敌方战车\n以及其他行为"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "威望点数可通过执行战斗行为来获取，包括："
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "%(server)s服务器上的赛季已结束。"
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "%(server)s服务器上的赛季已结束。"
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "%(server)s服务器上的赛季已结束。"
+
+msgid "progressionEntryPoint/complete"
+msgstr "主要进度完成！"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "阶段%(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s或%(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "新任务开放于："
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "活动结束于："
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "任务将更新于"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "已完成所有每日任务。"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "已完成进度。在天梯战轻装版进行战斗以获取更多奖励。"
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "在天梯战轻装版中完成任务并排名靠前，\n以提升您的进度等级。%(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "在天梯战轻装版中战斗和完成特殊任务的奖励。可推进您的进度。"
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "天梯战轻装版进度点数"
+
+msgid "selectorTooltip/desc"
+msgstr "无排位的模式：7v7 | %(tier)s级"
+
+msgid "selectorTooltip/title"
+msgstr "天梯战轻装版"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "关注游戏门户网站上的最新资讯，掌握新赛季的开始时间。"
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "此模式由于技术性原因暂时不可用。"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "此模式将于%(time)s开放"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "已获得进度点数"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "详情"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "天梯战轻装版"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "已获得奖励："
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "您在%(progressionName)s模式中已完成进度阶段%(stage)s。"
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "恭喜！"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "处于停战期。天梯战轻装版暂时不开放。"
+
+msgid "system_messages/primeTime/end/title"
+msgstr "停战期"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "停战期结束。天梯战轻装版再次开放。"
+
+msgid "system_messages/primeTime/start/title"
+msgstr "停战期"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "关于“天梯战轻装版”"

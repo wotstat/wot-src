@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "クランチャット"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "クリックしてクランチャットにメッセージを記入/送信します。"
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "クランチャット"
+
+msgid "clan/header/creationDate"
+msgstr "作成日: %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "加入申請と招待"
+
+msgid "clan/header/requestSent"
+msgstr "申請送信完了"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "申請の送信"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "クリックしてこのクランへの加入申請を送信します。"
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "申請の送信"
+
+msgid "clan/post/combatOfficer"
+msgstr "戦闘士官"
+
+msgid "clan/post/commander"
+msgstr "クランマスター"
+
+msgid "clan/post/executiveOfficer"
+msgstr "副司令官"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "情報将校"
+
+msgid "clan/post/juniorOfficer"
+msgstr "下級士官"
+
+msgid "clan/post/personnelOfficer"
+msgstr "人事担当官"
+
+msgid "clan/post/private"
+msgstr "上等兵"
+
+msgid "clan/post/quartermaster"
+msgstr "需品科士官"
+
+msgid "clan/post/recruit"
+msgstr "新兵"
+
+msgid "clan/post/recruiter"
+msgstr "採用担当官"
+
+msgid "clan/post/reservist"
+msgstr "予備兵"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "名前表示エラー"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "表のデータが更新されました。"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "募集条件"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "編集可能"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "このクランには保留中の加入申請はありません。"
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "このクランには期限切れの加入申請はありません。"
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "クランに招待"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "%(invite)s をクリックして新プレイヤーに\n招待を送信します。"
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "このクランは過去 28 日間、招待を送信していません。"
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "このクランには過去 28 日間、保留中の招待はありません。"
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "このクランには過去 28 日間、期限切れの招待はありません。"
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "このクランには過去 28 日間、処理済みの招待はありません。"
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "このクランには処理済みの加入申請はありません。"
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "サーバーからデータを受信できませんでした。\n後で再度お試しください。"
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "サーバーエラー"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "保留中 (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "全て (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "期限切れ (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "決定を受領 (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "処理済み (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "クランの空き: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "クランへ招待"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "クラン加入申請を 3 日以内に処理してください。加入申請と招待は 28 日間保存された後、自動削除されます。"
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "プレイヤーを招待不能: クランが満員です。"
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "プレイヤーを招待不能: クランは現在、新メンバーを募集していません。"
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "承諾済み"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "あと %(days)d 日で削除"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "拒否済み"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "エラー"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "期限切れ"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "残り %(hours)d 時間"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "残り %(min)d 分"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "送信済み"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "招待 (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "加入申請 (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "アクション"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "招待"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "送信済み"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "さらに表示"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "ステータス"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "プレイヤー"
+
+msgid "clanInvitesWindow/title"
+msgstr "加入申請と招待"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "クリックしてプレイヤーをクランへ招待します。"
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "招待送信者:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "招待が承諾されました。"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "招待が拒否されました。"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "招待の送信完了。"
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "送信者:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "このボタンは、サーバーから新しいデータを受信した際に有効になります。"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "クリックして新しい加入申請と招待を表示します。"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "リストを更新"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "決定者:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "加入申請が承諾されました。"
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "加入申請が拒否されました。"
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "申請期限切れ"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "加入申請の送信完了。"
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "プレイヤーを追加不能: クランが満員です。"
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "このプレイヤーは最近クランから脱退しました。クラン加入は、この日時以降に承諾可能になります:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "プレイヤーを招待不能: クランが満員です。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "招待送信先プレイヤーの 1 戦あたりの平均EXP(プレミアムアカウントを含む)"
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "1 戦の平均EXP"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "招待送信先プレイヤーの参加戦闘数"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "戦闘数"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "クリックしてこのプレイヤーをクランに招待します。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "クランからの招待に添えられていたメッセージ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "メッセージ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "招待送信先プレイヤーのパーソナルレーティング"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "パーソナルレーティング"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "クラン招待の送信日時"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "送信済み"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "クラン招待のステータス\n保留中、期限切れ、処理済みのいずれか"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "ステータス"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "招待送信先プレイヤー名"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "プレイヤー"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "招待送信先プレイヤーの勝率"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "勝率"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "加入申請は、承諾することも拒否することもできます。"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "アクション"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "加入申請したプレイヤーの 1 戦あたりの平均EXP(プレミアムアカウントを含む)"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "1 戦の平均EXP"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "加入申請したプレイヤーの参加戦闘数"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "戦闘数"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "加入申請に添えられていたメッセージ"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "メッセージ"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "加入申請したプレイヤーのパーソナルレーティング"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "パーソナルレーティング"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "クラン加入申請のステータス\n保留中、期限切れ、処理済みのいずれか"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "ステータス"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "加入申請したプレイヤー名"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "プレイヤー"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "加入申請したプレイヤーの勝率"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "勝率"
+
+msgid "clanLanding/notification/archived"
+msgstr "メッセージをアーカイブに移動しました。"
+
+msgid "clanLanding/notification/commonError"
+msgstr "技術的なエラーによりメッセージの操作を完了できません。"
+
+msgid "clanLanding/notification/deleted"
+msgstr "メッセージを削除しました。"
+
+msgid "clanLanding/notification/edited"
+msgstr "メッセージを投稿しました。"
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "文字数が多すぎます。"
+
+msgid "clanLanding/notification/limitReached"
+msgstr "クランに掲載中のメッセージの数が上限に達しています。"
+
+msgid "clanLanding/notification/noPermission"
+msgstr "役職が変更されたため、クランのメッセージを管理する権限がありません。"
+
+msgid "clanLanding/notification/notExist"
+msgstr "メッセージは削除されたかアーカイブに移動されています。"
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "<a href=\"event:clanRulesLink\">クランルール</a>で禁止されている表現が含まれています。"
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "保留中の招待: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "拒否を選択 (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "マイ・クラン招待"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "データ受信中..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "まだクランへの招待はありません。"
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "全ての加入申請を選択"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "アクション"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "クラン名"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "ステータス"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "クラン招待"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "このリストは、新しいデータを受信後に更新できるようになります。"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "クリックしてテーブルを更新"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "あなたは最近クランから脱退しました。クラン招待は、この日時以降に承諾可能になります:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "招待を送信したクランのメンバーの 1 戦あたりの平均EXP(ランダム戦モードでの加重平均)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "1 戦の平均EXP"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "招待を送信したクランのメンバーの平均参加戦闘数 (ランダム戦モードのみ)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "クランの戦闘数"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "招待を送信したクラン名"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "クラン名"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "招待を送信したクランからのメッセージ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "メッセージ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "招待を送信したクランの総合レーティング"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "クラン・レーティング"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "クラン招待のステータスと処理残り時間を表示"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "ステータス"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "招待を送信したクランのメンバーの平均勝率 (ランダム戦での加重平均)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "クラン勝率"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "招待は、承諾することも拒否することもできます。招待を承諾すると、他のクランからの招待は自動的に拒否されます。"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "アクション"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "クラン・プロフィール"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "閉じる"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "クランへようこそ!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "グローバルマップでの戦いに参加したり、拠点を構築/防衛したり、特別ミッションを達成したりできるようになりました。"
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "公報"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "あなたのクラン: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "申し訳ございませんが、後で再度お試しください。"
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "拠点は一時的にご利用いただけません"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "ご不便をお掛けして申し訳ございません。\n後で再度お試しください。"
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "データ読み込みエラー"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "クラン・プロフィール"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "拠点"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "グローバルマップ"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "クランメンバー"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "拠点"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "概要"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "プレイヤーをクランに招待"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "アクション利用不能。クランへの招待は、1 名ずつのみ可能です。"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "全ての連絡先を宛先リストに追加"
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "過去 28 日間の戦闘"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "過去 28 日間の進撃戦"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "クランマスター"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "未作成"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "戦闘に未参加\n保有領地なし"
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "拠点のレベル"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "金庫"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "戦闘に未参加"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "領地"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Elo レーティング X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Elo レーティング VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Elo レーティング VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "過去 28 日間の前衛戦"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "合計メンバー数"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "詳細"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "詳細"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "加入申請の送信"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "クランモットーなし"
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "グローバルマップ詳細"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "マップへ移動"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "詳細は一時的にご利用不能"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "クランに加入できません。"
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "募集条件を確認 %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "あなたは既に別の\nクランのメンバーです"
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "あなたは既にこのクランからの招待を\n受信済みです。"
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s 一時制限中"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s 一時制限中"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "このクランは加入申請を受け付けていません %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "加入申請の送信完了。"
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "データ同期中..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "進撃戦の部門 X でのクランの Elo レーティング"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Elo レーティング X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "部門 VI でのクランの Elo レーティング"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Elo レーティング VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "進撃戦の部門 VIII でのクランの Elo レーティング"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Elo レーティング VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "クランの過去 28 日間の進撃戦"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "過去 28 日間の進撃戦"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "拠点のレベルは、その司令部のレベルと同一です。"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "拠点のレベル"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "クランの過去 28 日間の前衛戦"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "過去 28 日間の前衛戦"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "グローバルマップの部門 X 戦闘でのクランの Elo レーティング"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Elo レーティング X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "グローバルマップの部門 VI 戦闘でのクランの Elo レーティング"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Elo レーティング VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "グローバルマップの部門 VIII 戦闘でのクランの Elo レーティング"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Elo レーティング VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "クランの過去 28 日間のグローバルマップでの戦闘"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "過去 28 日間の戦闘"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "クランが現在グローバルマップ上に保有中の領地"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "領地"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "加入申請を上限まで送信済みです。"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "申請送信不能"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "加入申請を上限まで送信済みです。"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "申請送信不能"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "クランは加入申請を受け付けていません。"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "申請送信不能"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "このクランのレーティングは過去 28 日間、未更新です。"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "期限切れの情報"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "総合レーティングは、クランの進撃戦およびグローバルマップでの戦績の影響を受けます。"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "総合レーティング"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "総合レーティング"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "クラン・プロフィール"
+
+msgid "globalMap/disabled"
+msgstr "グローバルマップ上での戦闘は現在\n選択したサーバーでは利用できません。"
+
+msgid "globalMapView/level10"
+msgstr "Tier X"
+
+msgid "globalMapView/level6"
+msgstr "Tier VI"
+
+msgid "globalMapView/level8"
+msgstr "Tier VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "司令部と接続されていないか、または略奪を受けた後であるため、この領地からは収入を得られません。"
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "収入を得られません"
+
+msgid "globalMapView/noProvince"
+msgstr "このクランは保有領地なし"
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "人気のプライムタイム: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "グローバルマップは、クラン同士が戦略的優勢を争う戦場です。クランの士官たちはここで戦術を練り、部隊を投入して戦略行動を実施します。"
+
+msgid "globalMapView/promo/header"
+msgstr "グローバルマップ"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "グローバルマップ詳細"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "マップへ移動"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "戦闘数"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "グローバルマップの部門 X での総戦闘数"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "戦闘数"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo レーティング"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "グローバルマップの部門 X 戦闘でのクランのレーティング"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo レーティング"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "お気に入りマップ"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "クランが過去 28 日間において最多の部門 X 戦闘を戦ったマップ"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "お気に入りマップ: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "レーティングでの順位"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "グローバルマップの部門 X 戦闘レーティングでのクランの順位"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "レーティングでの順位"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "勝利"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "グローバルマップの部門 X 戦闘での総合勝率"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "勝利"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "戦闘数"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "グローバルマップの部門 VI での総戦闘数"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "戦闘数"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo レーティング"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "グローバルマップの部門 VI 戦闘でのクランのレーティング"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo レーティング"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "お気に入りマップ"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "クランが過去 28 日間において最多の部門 VI 戦闘を戦ったマップ"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "お気に入りマップ: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "レーティングでの順位"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "グローバルマップの部門 VI 戦闘レーティングでのクランの順位"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "クラン・レーティング"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "勝利"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "グローバルマップの部門 VI 戦闘での総合勝率"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "勝利"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "戦闘数"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "グローバルマップの部門 VIII での総戦闘数"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "戦闘数"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo レーティング"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "グローバルマップの部門 VIII 戦闘でのクランのレーティング"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo レーティング"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "お気に入りマップ"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "クランが過去 28 日間において最多の部門 VIII 戦闘を戦ったマップ"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "お気に入りマップ: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "レーティングでの順位"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "グローバルマップの部門 VIII 戦闘レーティングでのクランの順位"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "クラン・レーティング"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "勝利"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "グローバルマップの部門 VIII 戦闘での総合勝率"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "勝利"
+
+msgid "globalMapView/stats/battles"
+msgstr "グローバルマップでの戦闘"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "クランのグローバルマップでの合計戦闘数"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "グローバルマップでの戦闘"
+
+msgid "globalMapView/stats/seized"
+msgstr "保有した領地数"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "クランが保有したことのある領地数。以前保有していたが現在は保有していない領地も含まれます。"
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "保有した領地数"
+
+msgid "globalMapView/stats/wins"
+msgstr "クランメンバーの勝率"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "グローバルマップでの戦闘におけるクランメンバーの総合勝率"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "クランの勝率"
+
+msgid "globalMapView/table/days"
+msgstr "日数"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "クランがグローバルマップでこの領地を保有した日数"
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "日数"
+
+msgid "globalMapView/table/front"
+msgstr "戦線"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "選択した戦線の名称"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "戦線"
+
+msgid "globalMapView/table/income"
+msgstr "収入"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "この領地からの 1 日あたりのゴールド収入"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "収入"
+
+msgid "globalMapView/table/map"
+msgstr "マップ"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "領地に対する戦闘で使用されるマップ名"
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "マップ"
+
+msgid "globalMapView/table/primeTime"
+msgstr "プライムタイム"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "進撃戦の開始予定時間"
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "プライムタイム"
+
+msgid "globalMapView/table/province"
+msgstr "領地"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "選択した領地の名称"
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "領地"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "この領地は略奪を受けた後であるため、一時的に収入が得られません。"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "再び収入が得られるようになるまで:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "領地"
+
+msgid "globalMapView/tabs/stats"
+msgstr "成績"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "このクランのレーティングは過去 28 日間、未更新です。"
+
+msgid "globalMapView/totalIncome"
+msgstr "1 日あたりの合計収入: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "平均\n戦闘数"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "ランダム戦および戦車中隊戦モードにおける参加戦闘数の全クランメンバーでの平均。クランに現在所属しているメンバーのみが対象。"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "クランメンバーの平均参加戦闘数"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "平均EXP"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "ランダム戦および戦車中隊戦モードにおけるクランメンバーの重み付けられた平均EXP。各プレイヤーの総参加戦闘数が重み付けに影響します。クランに現在所属しているメンバーのみが対象。"
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "クランメンバーの平均EXP"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "平均パーソナルレーティング"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "全クランメンバーの平均パーソナルレーティング。クランに現在所属しているメンバーのみが対象。"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "クランメンバーの平均パーソナルレーティング"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "平均勝率"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "ランダム戦および戦車中隊戦モードにおけるクランメンバーの重み付けられた平均勝率。各プレイヤーの総参加戦闘数が重み付けに影響します。クランに現在所属しているメンバーのみが対象。"
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "クランメンバーの平均勝率"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "ランダム戦および戦車中隊戦モードにおける、プレイヤーの総取得EXPと参加戦闘数との比率"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "平均EXP"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "このプレイヤーのランダム戦および戦車中隊戦における総戦闘数"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "総戦闘数"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "プレイヤーのこのクランへの所属日数"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "クラン所属日数"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "プレイヤーのパーソナルレーティング"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "パーソナルレーティング"
+
+msgid "personnelView/table/player"
+msgstr "プレイヤー (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "クランメンバーの名前"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "プレイヤー"
+
+msgid "personnelView/table/post"
+msgstr "役職"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "メンバーのクランでの役職"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "役職"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "ランダム戦および戦車中隊戦モードにおけるプレイヤーの勝率"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "勝率"
+
+msgid "personnelView/title"
+msgstr "「ランダム戦」と「戦車中隊戦」でのクランメンバーの成績"
+
+msgid "search/clansList"
+msgstr "一覧のクラン: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "クエリーへの該当なし。別のキーワードをお試しください。"
+
+msgid "search/emptyResult/button"
+msgstr "一覧に戻る"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "クリックして該当クランの一覧に戻る"
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "一覧に戻る"
+
+msgid "search/emptyResult/header"
+msgstr "検索結果なし"
+
+msgid "search/foundClans"
+msgstr "該当クラン: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "クランに加入できません。"
+
+msgid "search/info/banned/tooltip/header"
+msgstr "申請送信不能"
+
+msgid "search/info/clanProfileBtn"
+msgstr "クラン・プロフィール"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "クラン加入申請を送信できません。"
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "アクション使用不能"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "あなたは既にこのクランからの招待を受信済みです。"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "申請送信不能"
+
+msgid "search/info/ratingDescription"
+msgstr "総合レーティング"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "総合レーティングは、クランの拠点モードおよびグローバルマップでの戦績の影響を受けます。"
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "総合レーティング"
+
+msgid "search/info/ratingTitle"
+msgstr "全戦闘タイプでの戦績:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "あなたは既にこのクランへの加入申請を送信済みです。"
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "申請送信不能"
+
+msgid "search/info/requestSent"
+msgstr "加入申請の送信完了。"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "クランは加入申請を受け付けていません。"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "申請送信不能"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "加入申請を上限まで送信済みです。"
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "申請送信不能"
+
+msgid "search/info/sendRequestBtn"
+msgstr "申請の送信"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "サーバーからデータを受信できませんでした。後で再度お試しください。"
+
+msgid "search/info/serverUnavailable/header"
+msgstr "サーバーエラー"
+
+msgid "search/info/stats/avgExp"
+msgstr "平均EXP"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "全戦闘モードにおけるクランメンバーの重み付けられた平均EXP。各プレイヤーの総参加戦闘数が重み付けに影響します。クランに現在所属しているメンバーのみが対象。"
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "クランメンバーの平均EXP"
+
+msgid "search/info/stats/battles"
+msgstr "平均\n戦闘数"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "全戦闘モードにおけるクランメンバーの平均参加戦闘数。クランに現在所属しているメンバーのみが対象。"
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "クランメンバーの平均参加戦闘数"
+
+msgid "search/info/stats/wins"
+msgstr "平均勝率"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "全戦闘モードにおけるクランメンバーの重み付けられた平均勝率。各プレイヤーの総参加戦闘数が重み付けに影響します。クランに現在所属しているメンバーのみが対象。"
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "クランメンバーの平均勝率"
+
+msgid "search/nextBtn"
+msgstr "次"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "クリックしてクラン一覧の次ページを表示"
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "次"
+
+msgid "search/previousBtn"
+msgstr "前"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "クリックしてクラン一覧の前ページを表示"
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "前"
+
+msgid "search/promoText/body"
+msgstr "クランを検索するには、この欄にクラン名またはクランタグを入力して「検索」をクリック"
+
+msgid "search/promoText/header"
+msgstr "クランを検索"
+
+msgid "search/requestTooShort/body"
+msgstr "クランを検索するには、2 文字以上入力する必要があります。"
+
+msgid "search/requestTooShort/button"
+msgstr "一覧に戻る"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "一覧に戻る"
+
+msgid "search/requestTooShort/header"
+msgstr "データ不足"
+
+msgid "search/searchBtn"
+msgstr "検索"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "左の入力欄にクラン名またはタグ (2 文字以上) を入力してください。"
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "クランを検索"
+
+msgid "search/searchInputPrompt"
+msgstr "クラン名またはタグを入力"
+
+msgid "search/serverUnavailable/body"
+msgstr "サーバーからデータを受信できませんでした。後で再度お試しください。"
+
+msgid "search/serverUnavailable/header"
+msgstr "サーバーエラー"
+
+msgid "search/table/clan"
+msgstr "クラン"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "クラン属性: タグと名称"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "クラン"
+
+msgid "search/table/creationDate"
+msgstr "作成"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "クラン作成日"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "作成"
+
+msgid "search/table/players"
+msgstr "プレイヤー"
+
+msgid "search/table/players/tooltip/body"
+msgstr "クランメンバー総数"
+
+msgid "search/table/players/tooltip/header"
+msgstr "プレイヤー"
+
+msgid "search/table/rating"
+msgstr "レーティング"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "クランの総合レーティング"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "レーティング"
+
+msgid "search/title"
+msgstr "クランを検索"
+
+msgid "search/titleDescription"
+msgstr "ここでクランを検索し、詳細を確認し、クラン加入申請を\n送信することができます。クラン名またはタグで検索可能です。"
+
+msgid "search/windowTitle"
+msgstr "クランを検索"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "計画"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "成績"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "レベル %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "未設定"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "休戦日:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "防衛時間:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "ホームサーバー:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "建設した建造物:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "中立状態:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "工業資源取得量の最高記録"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "最多連勝記録"

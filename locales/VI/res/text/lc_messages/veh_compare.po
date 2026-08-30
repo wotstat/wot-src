@@ -1,0 +1,467 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "addVehPopover/btnAdd"
+msgstr "Thêm (%(count)d)"
+
+msgid "addVehPopover/btnCancel"
+msgstr "Hủy bỏ"
+
+msgid "addVehPopover/header"
+msgstr "Chọn xe để so sánh"
+
+msgid "addVehPopover/showOnlyMyVahicles"
+msgstr "Hiện các xe trong Ga-ra"
+
+msgid "addVehPopover/tooltips/addToCompare/body"
+msgstr "Thêm các xe đã chọn để so sánh"
+
+msgid "addVehPopover/tooltips/addToCompare/header"
+msgstr "Thêm"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/body"
+msgstr "Để thêm một xe vào bảng so sánh, hãy bỏ những phương tiện không cần thiết ra khỏi danh sách tương ứng."
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/header"
+msgstr "Không thể thêm"
+
+msgid "addVehPopover/tooltips/inHangar/body"
+msgstr "Sắp xếp theo các xe trong Ga-ra."
+
+msgid "addVehPopover/tooltips/inHangar/header"
+msgstr "Xe trong Ga-ra"
+
+msgid "addVehPopover/tooltips/level/body"
+msgstr "Sắp xếp theo Cấp xe."
+
+msgid "addVehPopover/tooltips/level/header"
+msgstr "Xe"
+
+msgid "addVehPopover/tooltips/nation/body"
+msgstr "Sắp xếp theo quốc gia."
+
+msgid "addVehPopover/tooltips/nation/header"
+msgstr "Quốc gia"
+
+msgid "addVehPopover/tooltips/selectVehicle/body"
+msgstr "Sắp xếp theo các xe đã chọn."
+
+msgid "addVehPopover/tooltips/selectVehicle/header"
+msgstr "Xe đã chọn"
+
+msgid "addVehPopover/tooltips/title/body"
+msgstr "Sắp xếp theo tên xe."
+
+msgid "addVehPopover/tooltips/title/header"
+msgstr "Tên"
+
+msgid "addVehPopover/tooltips/type/body"
+msgstr "Sắp xếp theo loại xe."
+
+msgid "addVehPopover/tooltips/type/header"
+msgstr "Loại"
+
+msgid "addVehPopover/vehicleName"
+msgstr "Tên"
+
+msgid "cartPopover/configurationType/basic"
+msgstr "Cơ bản"
+
+msgid "cartPopover/configurationType/current"
+msgstr "Hiện tại"
+
+msgid "cartPopover/configurationType/custom"
+msgstr "Tinh chỉnh"
+
+msgid "cartPopover/configurationType/premium"
+msgstr "Premium"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/attention"
+msgstr "Để thêm một xe vào bảng so sánh, hãy bỏ những phương tiện không cần thiết ra khỏi danh sách tương ứng."
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/header"
+msgstr "Không thể thêm"
+
+msgid "cartPopover/gotoCompareBtn/label"
+msgstr "So sánh (%(value)s) xe"
+
+msgid "cartPopover/openCmpBtn/tooltip/body"
+msgstr "Đến bảng so sánh các xe đã chọn."
+
+msgid "cartPopover/openCmpBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeAllBtn/label"
+msgstr "Xóa Danh Sách"
+
+msgid "cartPopover/removeAllBtn/tooltip/body"
+msgstr "Bỏ tất cả các xe ra khỏi danh sách so sánh."
+
+msgid "cartPopover/removeAllBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtn/tooltip/body"
+msgstr "Click để bỏ một xe ra khỏi danh sách so sánh."
+
+msgid "cartPopover/removeBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtnLocked/tooltip/body"
+msgstr "Không thể bỏ xe khỏi danh sách so sánh khi cửa sổ cấu hình đang mở."
+
+msgid "cartPopover/removeBtnLocked/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeLockedBtn/tooltip/body"
+msgstr "Không thể bỏ xe khỏi danh sách so sánh khi cửa sổ cấu hình đang mở."
+
+msgid "cartPopover/removeLockedBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/sorting/nation/body"
+msgstr "Hiển thị quốc gia của những xe đã chọn."
+
+msgid "cartPopover/sorting/nation/header"
+msgstr "Quốc gia"
+
+msgid "cartPopover/sorting/vehLvl/body"
+msgstr "Hiển thị cấp độ của những xe đã chọn."
+
+msgid "cartPopover/sorting/vehLvl/header"
+msgstr "Cấp"
+
+msgid "cartPopover/sorting/vehName"
+msgstr "Tên"
+
+msgid "cartPopover/sorting/vehName/tooltip/body"
+msgstr "Hiển thị tên của những xe đã chọn."
+
+msgid "cartPopover/sorting/vehName/tooltip/header"
+msgstr "Tên"
+
+msgid "cartPopover/sorting/vehType/body"
+msgstr "Hiển thị loại của những xe đã chọn."
+
+msgid "cartPopover/sorting/vehType/header"
+msgstr "Loại"
+
+msgid "cartPopover/title"
+msgstr "Danh sách so sánh"
+
+msgid "compareVehicleBtn/tooltips/disabledOnServer/attention"
+msgstr "Tác vụ này hiện không khả dụng."
+
+msgid "header/closeBtn/label"
+msgstr "TẮT"
+
+msgid "menu/cloneForCompare"
+msgstr "Sao chép để so sánh"
+
+msgid "modulesView/closeBtnLabel"
+msgstr "Hủy bỏ"
+
+msgid "modulesView/closeBtnLabel/tooltip/body"
+msgstr "Click để hủy bỏ hệ thống mô-đun hiện tại và quay lại cấu hình xe."
+
+msgid "modulesView/closeBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/compareBtnLabel"
+msgstr "Chấp nhận"
+
+msgid "modulesView/compareBtnLabel/tooltip/body"
+msgstr "Click để lưu các mô-đun đã chọn và quay lại cấu hình xe."
+
+msgid "modulesView/compareBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/resetBtnLabel"
+msgstr "Đặt lại"
+
+msgid "modulesView/resetBtnLabel/tooltip/body"
+msgstr "Click để đặt lại cấu hình xe về cơ bản."
+
+msgid "modulesView/resetBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/title"
+msgstr "Cấu hình Mô-đun cho %(vehName)s"
+
+msgid "modulesView/vehicleStatus/inHangar"
+msgstr "Trong Ga-ra"
+
+msgid "modulesView/vehicleStatus/readyToBuy"
+msgstr "Chưa mua"
+
+msgid "modulesView/vehicleStatus/readyToResearch"
+msgstr "Chưa nghiên cứu"
+
+msgid "skillSelect/bonusSkills"
+msgstr "Kỹ năng Bonus"
+
+msgid "skillSelect/button/addToCompare"
+msgstr "Thêm vào So sánh"
+
+msgid "skillSelect/button/cancel"
+msgstr "Hủy bỏ"
+
+msgid "skillSelect/button/restore"
+msgstr "Khôi phục"
+
+msgid "skillSelect/majorSkills"
+msgstr "Kỹ năng Chuyên môn chính"
+
+msgid "skillSelect/tooltip/additionalRoles"
+msgstr "Chuyên môn kiêm nhiệm:"
+
+msgid "skillSelect/tooltip/generalPrinciple"
+msgstr "Nguyên tắc Chung"
+
+msgid "skillSelect/tooltip/generalPrincipleDescription"
+msgstr "Màn hình cấu hình cho thấy kỹ năng ảnh hưởng ra sao đến đặc tính tương ứng nếu được đào tạo {cream_Open}100%{cream_Close} và khi hiệu quả kỹ năng ở mức {cream_Open}100%{cream_Close}."
+
+msgid "skillSelect/tooltip/heading"
+msgstr "Kỹ năng kíp lái cho %(vehicleName)s"
+
+msgid "skillSelect/tooltip/roles"
+msgstr "Chuyên môn"
+
+msgid "skillSelect/tooltipHint"
+msgstr "*Trỏ vào một kỹ năng để xem nó ảnh hưởng ra sao đến đặc tính tương ứng khi được đào tạo 100% và Hiệu quả Kỹ năng 100%."
+
+msgid "skillsConf/empty"
+msgstr "Chọn Kỹ năng Kíp lái"
+
+msgid "skillsConf/emptyTooltip/body"
+msgstr "Chọn kỹ năng để xem chúng ảnh hưởng ra sao đến đặc tính xe"
+
+msgid "skillsConf/emptyTooltip/header"
+msgstr "Kỹ năng Kíp lái"
+
+msgid "skillsConf/header"
+msgstr "Kỹ năng Kíp lái"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Thêm vào so sánh"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Bạn không thể thêm xe này vào so sánh."
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/body"
+msgstr "Để thêm một xe vào bảng so sánh, hãy bỏ những phương tiện không cần thiết ra khỏi danh sách tương ứng."
+
+msgid "store/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Không thể thêm vào so sánh"
+
+msgid "techTree/tooltips/addToCompare/body"
+msgstr "Thêm vào so sánh"
+
+msgid "techTree/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehConf/applyBtnLabel"
+msgstr "Áp dụng"
+
+msgid "vehConf/btnCleanUp"
+msgstr "Xóa"
+
+msgid "vehConf/cancelBtnLabel"
+msgstr "Hủy bỏ"
+
+msgid "vehConf/cancelBtnLabel/tooltip/body"
+msgstr "Click để hủy cấu hình đã chọn và quay lại so sánh."
+
+msgid "vehConf/cancelBtnLabel/tooltip/header"
+msgstr "Hủy bỏ"
+
+msgid "vehConf/compareBtnLabel/tooltip/body"
+msgstr "Click để lưu cấu hình đã chọn và quay lại so sánh."
+
+msgid "vehConf/compareBtnLabel/tooltip/header"
+msgstr "Áp dụng"
+
+msgid "vehConf/confAvailable"
+msgstr "CÓ THỂ\nTINH CHỈNH"
+
+msgid "vehConf/doesntAffect"
+msgstr "Không ảnh hưởng đến đặc tính kỹ thuật đơn giản hóa"
+
+msgid "vehConf/equipment"
+msgstr "Thiết bị và vật phẩm"
+
+msgid "vehConf/header"
+msgstr "Cấu hình cho %(vehName)s"
+
+msgid "vehConf/modifications/choose"
+msgstr "Chọn Biến thể"
+
+msgid "vehConf/modifications/title"
+msgstr "Biến thể"
+
+msgid "vehConf/modules"
+msgstr "Mô-đun"
+
+msgid "vehConf/resetBtnLabel"
+msgstr "Đặt lại"
+
+msgid "vehConf/resetBtnLabel/tooltip/body"
+msgstr "Click để khôi phục cấu hình xe mặc định."
+
+msgid "vehConf/resetBtnLabel/tooltip/header"
+msgstr "Đặt lại"
+
+msgid "vehConf/tooltips/btnCleanUp/body"
+msgstr "Click để bỏ thiết bị đã chọn khỏi cấu hình."
+
+msgid "vehConf/tooltips/btnCleanUp/header"
+msgstr "Xóa"
+
+msgid "vehConf/tooltips/camoInfo"
+msgstr "Tăng khả năng ẩn giấu của xe bạn trên mỗi loại bản đồ bằng cách sử dụng sơn ngụy trang mùa hè, mùa đông và sa mạc."
+
+msgid "vehConf/tooltips/camoInfoDisabled/body"
+msgstr "Ngụy trang mọi mùa, cố định là một chi tiết đã tích hợp hoàn toàn vào xe. Nó không thể bị gỡ bỏ hay thay thế."
+
+msgid "vehConf/tooltips/camoInfoDisabled/header"
+msgstr "Ngụy trang Mọi mùa"
+
+msgid "vehConf/tooltips/camoTitle"
+msgstr "Ngụy trang"
+
+msgid "vehConf/tooltips/defCamoInfo"
+msgstr "3 loại ngụy trang đã áp dụng \nmà không thể bỏ được: Mùa đông, Mùa hè, Sa mạc."
+
+msgid "vehConf/tooltips/deviceNotAffectedTTC"
+msgstr "Không ảnh hưởng đến đặc tính kỹ thuật của xe"
+
+msgid "vehConf/tooltips/modifications/description"
+msgstr "Chọn biến thể giúp bạn tinh chỉnh xe sao cho hợp vai trò cũng như thay đổi các đặc tính của nó."
+
+msgid "vehConf/tooltips/modifications/remove"
+msgstr "Hủy mọi biến thể"
+
+msgid "vehConf/tooltips/modifications/title"
+msgstr "Bảng Biến thể"
+
+msgid "vehConf/tooltips/revertBtn/body"
+msgstr "Click để khôi phục cấu hình xe mặc định."
+
+msgid "vehConf/tooltips/revertBtn/header"
+msgstr "?empty?"
+
+msgid "vehConf/tooltips/topModulesLabel/body"
+msgstr "Các mô-đun khác không khả dụng cho xe này: Cấu hình xe là cố định."
+
+msgid "vehConf/tooltips/topModulesLabel/header"
+msgstr "Cấu hình Tốt nhất"
+
+msgid "vehConf/tooltips/topModulesOff/body"
+msgstr "Click để chọn các mô-đun tốt nhất cho xe."
+
+msgid "vehConf/tooltips/topModulesOff/header"
+msgstr "Cấu hình Tốt nhất"
+
+msgid "vehConf/tooltips/topModulesOn/body"
+msgstr "Click để hủy lựa chọn cho cấu hình tốt nhất."
+
+msgid "vehConf/tooltips/topModulesOn/header"
+msgstr "Cấu hình Tốt nhất"
+
+msgid "vehConf/topModulesBtnLabel"
+msgstr "Chọn Cấu hình Tốt nhất"
+
+msgid "vehConf/topModulesLabel"
+msgstr "Cấu hình Tốt nhất"
+
+msgid "vehPreview/compareInfo/addToCompare"
+msgstr "Thêm vào so sánh—"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "Thêm vào so sánh"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "Bạn không thể thêm xe này vào so sánh."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/body"
+msgstr "Để thêm một xe vào bảng so sánh, hãy bỏ những phương tiện không cần thiết ra khỏi danh sách tương ứng."
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/header"
+msgstr "Không thể thêm"
+
+msgid "vehicleCompareView/btnAddVehicles"
+msgstr "Thêm vào so sánh"
+
+msgid "vehicleCompareView/configurationType/basic"
+msgstr "Cơ bản"
+
+msgid "vehicleCompareView/configurationType/current"
+msgstr "Hiện tại"
+
+msgid "vehicleCompareView/configurationType/custom"
+msgstr "Tinh chỉnh"
+
+msgid "vehicleCompareView/configure"
+msgstr "Điều chỉnh"
+
+msgid "vehicleCompareView/toHangar"
+msgstr "Xe trong Ga-ra"
+
+msgid "vehicleCompareView/toPreview"
+msgstr "Xem trước"
+
+msgid "vehicleCompareView/tooltips/addVehicles/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/addVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/configure/body"
+msgstr "Click để chọn các tham số có ảnh hưởng đến đặc tính kỹ thuật."
+
+msgid "vehicleCompareView/tooltips/configure/header"
+msgstr "Tinh chỉnh Tham số"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/body"
+msgstr "Click để bỏ tất cả xe khỏi so sánh."
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/body"
+msgstr "Bỏ khỏi so sánh."
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/topPanel/noVehicle"
+msgstr "Chưa chọn xe"
+
+msgid "vehicleCompareView/topPanel/premium"
+msgstr "Premium"
+
+msgid "vehicleCompareView/topPanel/vehiclesCount"
+msgstr "Xe để so sánh: %(count)s"

@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "Điểm làm tăng Tổng Tỷ số Thành tích."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "Điểm Thành tích"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "Bạn đã hoàn tất mọi nấc trong thành tích này và nhận tất cả phần thưởng khả dụng."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "Bấm %(escIcon)s để trở lại mức CATALÔ trước đó."
+
+msgid "catalog/rootLink"
+msgstr "CATALÔ"
+
+msgid "category/achievementsScore/title"
+msgstr "TỶ SỐ THÀNH TÍCH"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "Chỉ báo chính về tiến độ trong bộ sưu tập thành tích. Mỗi thành tích mới làm tăng Tổng Tỷ số Thành tích, ngoại trừ chiến tích."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "Tổng Tỷ số Thành tích: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "THÀNH TÍCH\nGẦN ĐÂY"
+
+msgid "category/title"
+msgstr "BỘ SƯU TẬP CỦA NGƯỜI CHƠI"
+
+msgid "category/upcoming/title"
+msgstr "THÀNH TÍCH\nSẮP ĐẠT"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s và hơn nữa"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "Thành tích được mở khóa!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s Thành tích được Mở khóa!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s và hơn nữa"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "Đã thu chiến tích mới!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "Đã thu %(count)s chiến tích!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "Hiển thị Tự động sẽ sắp xếp những danh hiệu từ mọi mục theo giá trị và hiện chúng trên ruy-băng cao quý. Nó ngừng tác dụng nếu bạn tái định vị các danh hiệu một cách thủ công."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "Hiển thị Tự động sẽ sắp xếp những danh hiệu từ mọi mục theo giá trị và hiện chúng trên ruy-băng cao quý. Bật thiết lập này sẽ đặt lại thứ tự thủ công mà bạn đã làm."
+
+msgid "editConfirm/description/error"
+msgstr "Chúng tôi đang tìm hiểu vấn đề. Xin vui lòng thử sửa lại sau. Trong lúc đó, bạn sẽ được chuyển hướng tới mục Sơ lược."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "Lưu"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "Hủy bỏ"
+
+msgid "editConfirm/footer/button/error"
+msgstr "Rõ!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "Hiển thị Tự động đã Tắt"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "Hiển thị Tự động đã Bật"
+
+msgid "editConfirm/title/error"
+msgstr "Đã Xảy ra Lỗi"
+
+msgid "editConfirm/title/normal"
+msgstr "Áp dụng các thay đổi ruy-băng danh hiệu cao quý?"
+
+msgid "editView/footer/button/cancel"
+msgstr "Hủy thay đổi"
+
+msgid "editView/footer/button/save"
+msgstr "Áp dụng & Thoát"
+
+msgid "editView/header/checkbox"
+msgstr "Hiển thị Tự động"
+
+msgid "editView/header/close"
+msgstr "TẮT"
+
+msgid "editView/header/title/idle"
+msgstr "Chọn Danh hiệu để Hiển thị trên Ruy-băng"
+
+msgid "editView/header/title/selecting"
+msgstr "Chọn Danh hiệu để Thay thế"
+
+msgid "editView/header/title/tutorial"
+msgstr "Chọn ô Danh hiệu"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "Hủy bỏ"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "Thay thế"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "THÀNH TÍCH CỦA BẠN\nNẰM Ở ĐÂY"
+
+msgid "hint/profile"
+msgstr "THÀNH TÍCH CỦA BẠN\nNẰM Ở ĐÂY"
+
+msgid "hint/summary/customizationButton"
+msgstr "Có thể Sửa đổi"
+
+msgid "notifications/editingEnabled/button"
+msgstr "Đến Ruy-băng"
+
+msgid "notifications/editingEnabled/title"
+msgstr "Có thể Sửa Ruy-băng Danh hiệu Cao quý"
+
+msgid "notifications/firstEntry/button"
+msgstr "Đến Bảng Thành tích"
+
+msgid "notifications/firstEntry/text"
+msgstr "Chỉ số World of Tanks,\nsửa danh hiệu."
+
+msgid "notifications/firstEntry/title"
+msgstr "Cập nhật Bảng Thành tích"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "Đến Bảng Thành tích"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "Sửa danh hiệu\nvà thiết kế trực quan."
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "Cập nhật Bảng Thành tích"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "Đến Bảng Thành tích"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "Cấp độ của bạn: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "Chỉ Số Của Bạn Đã Được Tính Xong!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "Đến Bảng Thành tích"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "Chỉ số World of Tanks của bạn đã thay đổi. Hãy đến mục Bảng Thành tích để xem mọi chi tiết."
+
+msgid "notifications/ratingUp/button"
+msgstr "Đến Bảng Thành tích"
+
+msgid "notifications/ratingUp/text"
+msgstr "Bạn đã đạt đến cấp độ sau: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "Chỉ Số Của Bạn Đã Tăng Lên!"
+
+msgid "playerInfo/clan/button"
+msgstr "Hồ sơ Clan"
+
+msgid "playerInfo/clan/date"
+msgstr "Ngày gia nhập:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "Người chơi không có đơn vị tác chiến cố định nào"
+
+msgid "playerInfo/clan/post"
+msgstr "Chức vụ:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "Thẻ Quân nhân\ntạm thời không khả dụng"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "Chưa thể tính được chỉ số của người chơi: Đánh chưa đủ %(amount)s trận."
+
+msgid "ratingWidget/status/initial"
+msgstr "Đánh %(amount)s trận để tính toán Chỉ số World of Tanks của bạn."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "Chưa thể tính được chỉ số của người chơi này"
+
+msgid "ratingWidget/status/progress"
+msgstr "Đang tính Chỉ số World of Tanks của bạn. Số trận còn lại: %(amount)s."
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "Hãy tham chiến để chúng tôi có thể tính toán chỉ số của bạn."
+
+msgid "rewardView/button/achievements"
+msgstr "Đến Thành tích"
+
+msgid "rewardView/button/dogTag"
+msgstr "Đến Thẻ Quân nhân"
+
+msgid "rewardView/button/dogTags"
+msgstr "Đến Thẻ Quân nhân"
+
+msgid "rewardView/button/moreRewards"
+msgstr "Xem Thêm %(value)s"
+
+msgid "rewardView/reward/dogTag"
+msgstr "Thẻ Quân nhân %(value)s"
+
+msgid "rewardView/title/multi"
+msgstr "ĐÃ NHẬN QUÀ THÀNH TÍCH"
+
+msgid "rewardView/title/single"
+msgstr "ĐÃ NHẬN QUÀ THÀNH TÍCH"
+
+msgid "section/action"
+msgstr "Đặc biệt"
+
+msgid "section/battle"
+msgstr "Anh hùng Chiến trận"
+
+msgid "section/class"
+msgstr "Danh hiệu Cột mốc"
+
+msgid "section/epic"
+msgstr "Danh hiệu Siêu hùng"
+
+msgid "section/group"
+msgstr "Danh hiệu Tập thể"
+
+msgid "section/memorial"
+msgstr "Kỷ niệm Chương"
+
+msgid "section/special"
+msgstr "Huy hiệu Danh dự"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "ĐẾN THÀNH TÍCH"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " Trận gần nhất: %(lastVisitDate)s lúc %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "Tài khoản được tạo: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "Nền"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "Mặc định"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "Lửa"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "Vàng"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "Huyền thoại"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "Retro"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "Nổ"
+
+msgid "summary/achievements/customization/discard"
+msgstr "Hủy thay đổi"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "Ruy-băng"
+
+msgid "summary/achievements/customization/save"
+msgstr "Áp dụng và Thoát"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "Do sự cố kỹ thuật, hiện không thể tùy chỉnh Màn hình Bảng Thành tích của bạn. Chúng tôi đang khắc phục. Hãy cập nhật màn hình hoặc quay lại sau."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "Tùy chỉnh hiện chưa sẵn sàng"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "Danh hiệu Cao quý"
+
+msgid "summary/achievements/total"
+msgstr "Tổng: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "Độc đáo: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "Trung bình: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "Thắng: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "Trung bình: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "Trung bình: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "Kỷ lục: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "Trung bình: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "Hãy tham chiến trong khi chúng tôi sửa soạn dữ liệu của bạn."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "Thông tin tạm thời không khả dụng."
+
+msgid "summary/disabled/title"
+msgstr "Nhiều Thông tin Hơn sẽ Khả dụng Sau"
+
+msgid "summary/main/assistance"
+msgstr "KỶ LỤC\nHỖ TRỢ"
+
+msgid "summary/main/battles"
+msgstr "SỐ TRẬN\nĐÃ ĐÁNH"
+
+msgid "summary/main/blocked"
+msgstr "CHẶN ĐƯỢC\nNHIỀU NHẤT"
+
+msgid "summary/main/damage"
+msgstr "KỶ LỤC\nSÁT THƯƠNG"
+
+msgid "summary/main/destroyed"
+msgstr "SỐ XE\nDIỆT ĐƯỢC"
+
+msgid "summary/main/experience"
+msgstr "KỶ LỤC\nXP"
+
+msgid "summary/statistic/title"
+msgstr "Chỉ số World of Tanks"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "Chỉ số Cá nhân"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "Thiệt hại cao nhất nhờ bạn hỗ trợ gây ra."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "Thiệt hại cao nhất nhờ bạn hỗ trợ gây ra trong trận đánh bằng %(tankName)s."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "Kỷ lục hỗ trợ: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "Tỷ lệ của tổng thiệt hại nhờ bạn hỗ trợ gây ra cho xe địch trên số trận đã đánh. Được tính là đóng góp:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• Thiệt hại gây ra nhờ bạn phát hiện\n• Thiệt hại gây ra nhờ bạn phá xích và làm xe địch bất động"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "Hỗ trợ trung bình: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "Tỷ lệ của tổng số thắng lợi trên số trận đã đánh."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "Bao gồm:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• Thắng: %(wins)s\n• Thua: %(loses)s\n• Hòa: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "Tỷ lệ thắng: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "Số trận đã đánh: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "Thiệt hại nhiều nhất đã chặn được."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "Thiệt hại nhiều nhất đã chặn được trong trận đánh bằng %(tankName)s."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "Chặn được nhiều nhất: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "Tỷ lệ của tổng thiệt hại dùng giáp chặn được trước các phát bắn không xuyên và nảy đạn AP, HEAT cũng như APCR trên số trận đã đánh."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "Thiệt hại chặn được trung bình: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "Thiệt hại nhiều nhất đã gây ra."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "Thiệt hại nhiều nhất đã gây ra trong trận đánh bằng %(tankName)s."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "Kỷ lục sát thương: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "Tỷ lệ của tổng thiệt hại gây ra trên số trận đã đánh."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "Sát thương trung bình: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "Số xe nhiều nhất đã bắn hạ được."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "Số xe nhiều nhất đã bắn hạ được trong trận đánh bằng %(tankName)s."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "Hạ được nhiều nhất: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "Tổng số xe địch diệt được trong tất cả các trận đánh."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "Số xe diệt được: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "Số kinh nghiệm nhiều nhất đã kiếm được."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "Số kinh nghiệm nhiều nhất đã kiếm được trong trận đánh bằng %(tankName)s."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "Kỷ lục XP: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "Tỷ lệ của tổng kinh nghiệm kiếm được trên số trận đã đánh."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "XP trung bình: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "Thắng hay thua không ảnh hưởng đến việc tính toán Chỉ số World of Tanks của bạn."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "Chơi bằng hàng loạt xe để xác định chiếc nào bạn đánh hiệu quả nhất theo những thông số sau:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR là một hệ thống đánh giá, tính toán chỉ số cá nhân cho từng xe rồi dùng nó để xác định hiệu suất chiến đấu tổng quan của người chơi. Hệ thống phản ứng linh hoạt theo sự thay đổi về chiến thuật đánh, cũng như so sánh thống kê của người chơi với giá trị trung bình ở khu vực máy chủ."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "Thiệt hại gây ra"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "Thiệt hại nhờ bạn hỗ trợ gây ra"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "Số xe địch bắn hạ"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "Thiệt hại chặn được và tỷ lệ sống sót"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "Tăng chỉ số WTR"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "Chỉ số World of Tanks"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "Số trận còn lại để ra chỉ số: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "Cấp: %(level)s."
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "Đã đạt giới hạn!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "Số điểm còn lại để tăng cấp của bạn: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "Đồng %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "Bạc %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "Vàng %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "Xuất chúng %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "Huyền thoại %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "Cấp"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "Số Điểm"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "Chỉ số World of Tanks"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "Khi bật thiết lập này, thứ tự mà bạn đã làm %(whiteSpanish_Open)ssẽ bị đặt lại%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "Khi tắt thiết lập này hoặc tự làm thủ công, các danh hiệu trên ruy-băng %(whiteSpanish_Open)ssẽ ngừng%(whiteSpanish_Close)s %(whiteSpanish_Open)scập nhật%(whiteSpanish_Close)s %(whiteSpanish_Open)stự động%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "Tự động sắp xếp danh hiệu %(whiteSpanish_Open)stừ mọi mục%(whiteSpanish_Close)s theo giá trị và hiển thị chúng trên ruy-băng cao quý."
+
+msgid "tooltips/autoSetting/title"
+msgstr "Hiển thị Tự động"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "Tạm thời không thể sửa ruy-băng danh hiệu cao quý. Xin vui lòng thử lại sau."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "Bạn chưa có danh hiệu nào để trưng bày lên đây. Hãy kiếm chúng từ %(whiteSpanish_Open)schiến trận%(whiteSpanish_Close)s hoặc %(whiteSpanish_Open)stham dự các%(whiteSpanish_Close)s %(whiteSpanish_Open)ssự kiện game.%(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "Sửa ruy-băng danh hiệu cao quý sẽ khả dụng sau khi nhận được ít nhất %(whiteSpanish_Open)s%(amount)s danh hiệu %(whiteSpanish_Close)s thuộc bất cứ mục nào."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "Chưa có danh hiệu nào để trưng bày lên đây."
+
+msgid "tooltips/mastery/body"
+msgstr "Cấp độ Master Xuất Sắc đã nhận trong tất cả các chế độ liên quan / Số xe đã tham chiến ít nhất một Trận đấu Ngẫu nhiên"
+
+msgid "tooltips/mastery/header"
+msgstr "Cấp độ Master: Xuất Sắc"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "Chỉ số Cá nhân là thước đo kỹ năng và kinh nghiệm của một người chơi dựa trên:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "Chỉ số Cá nhân được cập nhật sau mỗi trận đánh mới."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• Số chiến thắng\n• Thiệt hại nhờ bạn hỗ trợ gây ra\n• Sát thương trung bình mỗi trận\n• XP trung bình mỗi trận\n• Số trận đã sống sót"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "Chỉ số Cá nhân"

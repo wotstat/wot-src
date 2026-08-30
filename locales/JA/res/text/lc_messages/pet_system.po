@@ -1,0 +1,233 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2025-04-22 10:00+0300\nPO-Revision-Date: 2025-04-22 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bonus/credits/description"
+msgstr "戦闘で取得できるクレジットが増加します。"
+
+msgid "bonus/credits/title"
+msgstr "クレジット"
+
+msgid "bonus/crew/description"
+msgstr "戦闘で取得できる搭乗員EXPが増加します。"
+
+msgid "bonus/crew/title"
+msgstr "搭乗員EXP"
+
+msgid "bonus/crystal/description"
+msgstr "戦闘で取得できるボンズが増加します。"
+
+msgid "bonus/crystal/title"
+msgstr "ボンズ"
+
+msgid "bonus/events/description"
+msgstr "ストーリーを楽しみながら報酬を集めることができます。"
+
+msgid "bonus/events/title"
+msgstr "イベント"
+
+msgid "bonus/freeXP/title"
+msgstr "フリーEXP"
+
+msgid "bonus/gold/title"
+msgstr "ゴールド"
+
+msgid "bonus/showoff/description"
+msgstr "大切な相棒を自慢できます。"
+
+msgid "bonus/showoff/title"
+msgstr "ショウケース"
+
+msgid "bonus/tankmenXP/description"
+msgstr "戦闘で取得できる戦闘EXPが増加します。"
+
+msgid "bonus/tankmenXP/title"
+msgstr "戦闘EXP"
+
+msgid "breedName/dog_1"
+msgstr "ジャーマン・シェパード"
+
+msgid "breedName/dog_2"
+msgstr "ラブラドール"
+
+msgid "eventView/button"
+msgstr "了解"
+
+msgid "infoPageEntryPoint"
+msgstr "ペットと仲良くなる方法"
+
+msgid "message/petAdded/button"
+msgstr "小屋へ"
+
+msgid "message/petAdded/header"
+msgstr "新たな%(petType)sがアカウントに追加されました。"
+
+msgid "message/petAdded/text"
+msgstr "%(petBreed)sが小屋に追加されました"
+
+msgid "message/petBuy/success"
+msgstr "%(petName)sを購入しました。消費: %(price)s"
+
+msgid "message/server_error"
+msgstr "こちらの操作は一時的に実行できません。時間をおいて再度お試しください。"
+
+msgid "message/synergyLevelUp/header"
+msgstr "%(petName)sの仲良しレベルが向上!"
+
+msgid "message/synergyLevelUp/text"
+msgstr "新たなアニメーションがアンロックされました。交流を続けることでさらなるアニメーションを見られるようになります。"
+
+msgid "message/synergyMaxLevel/header"
+msgstr "%(petName)sの仲良しレベルが向上!"
+
+msgid "message/synergyMaxLevel/text"
+msgstr "新アニメーションをアンロック"
+
+msgid "petDescription/dog_1"
+msgstr "ジャーマン・シェパードは研ぎ澄まされた感覚で、戦場を音もなく進む。爆発でハンドラーが倒れると、犬はすぐに倒れた男を物陰のところまで引きずり、救助が来るまでその身で庇い続けた。傷を負ってもなおその忠誠心は揺るがず、彼のそばを決して離れなかった。まさに兵士の守護者である。"
+
+msgid "petDescription/dog_2"
+msgstr "常に冒険に出たがっているこの活発なラブラドールは、人間の笑い声を聞けばそれに賛同するように吠え、新しい友達ができると尻尾を振る忠実な仲間である。噂によると、同時に2つの場所で目撃されたことがあるそうだが、その方法は誰も解明できていない。"
+
+msgid "petEventTooltip/body"
+msgstr "留守中に%(petName)sがなにか見つけたようです。"
+
+msgid "petHouseMarker/default"
+msgstr "ペット小屋"
+
+msgid "petHouseMarker/pet"
+msgstr "{{petName}}の小屋"
+
+msgid "petSettings/cancelButton"
+msgstr "キャンセル"
+
+msgid "petSettings/naming/subtitle"
+msgstr "ペットの名前を好きに変更できます。"
+
+msgid "petSettings/naming/tip/subtitle"
+msgstr "ペットの名前を変更できます。"
+
+msgid "petSettings/naming/tip/title"
+msgstr "名前を変更"
+
+msgid "petSettings/naming/title"
+msgstr "ペットの名前"
+
+msgid "petSettings/saveButton/label"
+msgstr "保存"
+
+msgid "petSettings/uniqueName/tip/subtitle"
+msgstr "このペットには特別な名前が付いており、変更できません。"
+
+msgid "petSettings/uniqueName/tip/title"
+msgstr "変更不可"
+
+msgid "petSettings/visibility/select/always"
+msgstr "常に表示"
+
+msgid "petSettings/visibility/select/disableAnimation"
+msgstr "アニメーションを非表示"
+
+msgid "petSettings/visibility/select/onlyIntoPetPlace"
+msgstr "ガレージでのみ表示"
+
+msgid "petSettings/visibility/subtitle"
+msgstr "ペットが悪いことをしたら、反省させるためにガレージに送ることができます。"
+
+msgid "petSettings/visibility/tip/subtitle"
+msgstr "ペットの表示モードを変更"
+
+msgid "petSettings/visibility/tip/title"
+msgstr "ペットの表示"
+
+msgid "petSettings/visibility/title"
+msgstr "ペットの表示"
+
+msgid "petStorage/petBonus/title"
+msgstr "適用中のボーナス"
+
+msgid "petStorage/petBonus/tooltip/content"
+msgstr "ボーナスは戦闘結果を問わず報酬に適用されます。上限に達した時点で、ボーナスは適用されなくなります。"
+
+msgid "petStorage/petCard/promo"
+msgstr "NEW"
+
+msgid "petStorage/progressbarBonuses"
+msgstr "ボーナスは「ランダム戦」の戦闘に適用されます。"
+
+msgid "petStorage/progressbarDescription"
+msgstr "毎日、決められた回数の戦闘において獲得できる報酬が増加します。"
+
+msgid "petStorage/progressbarTitle"
+msgstr "戦闘ボーナス残り回数"
+
+msgid "petStorage/progressbarTooltip/content"
+msgstr "利用可能な戦闘ボーナスの数は明日リセットされます。1回の戦闘につきボーナスが1つ消費され、戦闘結果に関わらず報酬を取得できます。"
+
+msgid "petStorage/progressbarTooltip/title"
+msgstr "利用可能なボーナス"
+
+msgid "petStorage/progressbarWarning"
+msgstr "互換性のないモードのため、ボーナスが適用されません。"
+
+msgid "petStorage/status/select"
+msgstr "選択"
+
+msgid "petStorage/status/selected"
+msgstr "選択中"
+
+msgid "petStorage/title"
+msgstr "小屋"
+
+msgid "petStorageTooltip/bonus/caption"
+msgstr "回の戦闘にボーナスが適用 (回数は明日リセット)"
+
+msgid "petStorageTooltip/bonus/currentBonus"
+msgstr "戦闘での取得{{value}}へのボーナス"
+
+msgid "petStorageTooltip/bonus/inProgress"
+msgstr "残り戦闘数"
+
+msgid "petStorageTooltip/bonus/title"
+msgstr "ボーナス"
+
+msgid "petStorageTooltip/warning/unsuitableMode"
+msgstr "互換性のないモードのため、ボーナスが適用されません。"
+
+msgid "petType/dog"
+msgstr "犬　"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "promotion/bonuses/text_1"
+msgstr "ボーナスは「ランダム戦」の戦闘にのみ適用され、すべての戦闘で必ず適用されるわけではありません。"
+
+msgid "promotion/bonuses/text_2"
+msgstr "イベントは「ランダム戦」で挑戦できます。"
+
+msgid "promotion/button/challenge"
+msgstr "ミッション"
+
+msgid "promotion/button/purchase"
+msgstr "ショップへ"
+
+msgid "promotion/challengeInfo/text_1"
+msgstr "ミッション概要"
+
+msgid "promotion/challengeInfo/text_2"
+msgstr "ゲーム内ショップのイベント特別パックから入手できます。"
+
+msgid "promotion/challengeInfo/title_1"
+msgstr "ミッション"
+
+msgid "promotion/challengeInfo/title_2"
+msgstr "入手方法"
+
+msgid "synergyTooltip/description/done"
+msgstr "「仲良しレベル」が向上するたびにペットとの絆が深まります。傍らに「かけがえのない戦友」がいれば、これ以上に心強い味方はありません。長期間にわたってプレイしなかった場合、「仲良しレベル」は低下します。"
+
+msgid "synergyTooltip/description/inProgress"
+msgstr "ペットと交流すると「仲良しレベル」が向上します。「仲良しレベル」が最大に達すると、「かけがえのない戦友」ステータスを獲得できます。長期間にわたってプレイしなかった場合、「仲良しレベル」は低下します。"
+
+msgid "synergyTooltip/title"
+msgstr "相棒ステータス"

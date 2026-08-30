@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "階段 {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "特殊章節"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "已完成"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "檢視新進度"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "選擇章節"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "暫不可用"
+
+msgid "battle_pass_widget/title"
+msgstr "戰車遠征"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "淬鍊：{{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} 天"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} 天 {{hours}} 小時"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} 小時"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} 小時 {{minutes}} 分鐘"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} 分鐘"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "獎勵任務\n完成 3 個一般任務以解鎖"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "完成獎勵任務的剩餘時間"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "全新每日任務開放於"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "任務已完成。全新每日任務將在不久後開放。"
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "完成前一個任務來解鎖這個任務"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "加值任務暫不可用"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "購買加值帳號"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "需有《戰車世界》加值帳號"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "加值任務"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "每日任務暫不可用"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "重骰"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "每日"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "前往戰役"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "改善結果"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "前往行動"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "真正的挑戰等著老練的戰士，更有機會獲取獨特車輛作為獎勵。"
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "您已完成 {{currentOperationName}} 行動！您可繼續改善結果直到優異地完成 — 或在 {{nextOperationName}} 行動展開全新挑戰。"
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "您仍可在「{{nextOperationName}}」改善結果。"
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "您優異地完成了 {{currentOperationName}} 行動！{{nextOperationName}} 行動現可進行。"
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "完成個人任務、每日任務與每週任務，可獲取戰役點數。"
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "完成所有 {{totalProgress}} 個任務，藉此優異地完成行動並獲取額外獎勵。"
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "安裝所有零件以獲得獎勵 — {{vehicleName}}。要收集車輛零件，透過完成個人任務來獲得戰役點數，點數也能藉由每日與每週任務獲取。"
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "安裝所有零件以獲得獎勵 — {{vehicleName}}。要收集車輛零件，透過完成個人任務來獲得戰役點數，點數也能藉由每日與每週任務獲取。"
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "任務已完成：{{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "全新「第三區」戰役已可進行！"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "行動：{{nextOperationName}} 已可用！"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "行動：{{currentOperationName}} 已優異地完成！"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "行動：{{nextOperationName}} 已可用！"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "行動：{{currentOperationName}} | 階段 {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "優異地完成 {{currentOperationName}} 行動"
+
+msgid "hub/basic_missions/title"
+msgstr "常設任務"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "每週"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "每{{weekDay}}更新"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "進行中的任務"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "或"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "新任務即將開放..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "戰士"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "王牌"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "精英"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "任務分為三種類別：戰士、精英與王牌。每種類別都有獨特挑戰與珍貴獎勵。"
+
+msgid "hub/challenge_missions/header"
+msgstr "淬鍊"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "啟用"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "免費重新開始"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "重新開始"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "放棄"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "前往任務"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) 淬鍊任務已完成"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s/%(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "剩餘盾牌"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "免費重新開始次數"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "先完成進行中的淬鍊任務"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "將結束於 %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)不可用：%(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "需駕駛 VI 階或以上的車輛"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "已啟用"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "已完成"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "任務進度 {{currentMissions}}/ {{totalMissions}}"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "挑戰任務"
+
+msgid "hub/challenge_missions/new"
+msgstr "新"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "前往「淬鍊」"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "前往「淬鍊」"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "「淬鍊：{{ challengeName }}」已完成！"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "前往「淬鍊」"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "「淬鍊：{{ challenge }}」尚未完成。請重新開始並再次爭取獎勵！"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "前往「淬鍊」"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "{{ mission }}任務已完成！"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "前往「淬鍊」"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "{{ mission }}任務失敗"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "剩餘盾牌"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "前往「淬鍊」"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "進入「淬鍊」並挑戰一系列艱鉅任務，成功征服即可獲得珍貴獎勵。"
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "新的「淬鍊」任務已可進行！"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "在「淬鍊」中邁向榮耀：挑戰一系列艱鉅任務，完成即可獲得珍貴獎勵。"
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "進入「淬鍊」"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "已完成"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "3D 配飾套組"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "改良型裝備"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D 風格"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "乘員"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "車輛"
+
+msgid "hub/challenge_missions/title"
+msgstr "淬鍊任務"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "關於淬鍊"
+
+msgid "hub/common_missions/title"
+msgstr "額外任務"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "領取獎勵"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "史詩獎勵暫不可用"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "完成的每個一般、加值或獎勵任務都會計入您的進度。"
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "可用"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "完成每日任務以獲取史詩獎勵"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "領取獎勵"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "領取獎勵"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "完成的每個一般、加值或獎勵任務都會計入您的進度。"
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "可用"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "再戰沙場！完成每日任務以獲取史詩獎勵：{progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "一旦您完成 3 個一般任務，將解鎖帶來更珍貴獎勵的獎勵任務。獎勵任務必須在當天結束前完成，否則將會過期。"
+
+msgid "info_page/additional/bonus/title"
+msgstr "獎勵任務"
+
+msgid "info_page/additional/conditions/description"
+msgstr "部分任務必須在一場戰鬥中完成，而其他則為累積型，後者可在任意場數的戰鬥期間完成。累積型任務有進度條。您可在隨機戰鬥完成任務。"
+
+msgid "info_page/additional/conditions/title"
+msgstr "條件"
+
+msgid "info_page/additional/reroll/description"
+msgstr "您可重骰一個不想進行的一般任務以隨機獲得一個新任務。此後，「任務重骰」按鈕將在 {{time}}內不可用。若當下有車輛仍在戰鬥中，重骰任務可能導致您失去進度。"
+
+msgid "info_page/additional/reroll/title"
+msgstr "任務重骰"
+
+msgid "info_page/additional/reward/description"
+msgstr "史詩獎勵為馬拉松式的循環，完成的每個一般、加值或獎勵任務都會計入其進度。一旦完成循環就會重置並開啟新的一輪。史詩獎勵循環無時間限制且可隨時完成。"
+
+msgid "info_page/additional/reward/title"
+msgstr "史詩獎勵"
+
+msgid "info_page/header"
+msgstr "關於任務"
+
+msgid "info_page/main/premium/description"
+msgstr "有了《戰車世界》加值帳號，您可進行三個需依序完成的加值任務。這些任務可透過隨機戰鬥與天梯戰完成，進度會在每場戰鬥結束後更新。遊戲活動期間，加值任務會帶來活動專屬的獎勵。"
+
+msgid "info_page/main/premium/title"
+msgstr "加值任務"
+
+msgid "info_page/main/standard/description"
+msgstr "一般任務為具有隨機條件的每日任務，進度會在每場戰鬥後更新。我們建議在獲得任務當天即完成它們，任何未完成的任務將延續到下一天，導致新任務無法開放。戰車遠征期間，完成一般任務可獲取戰車遠征點數，在其他遊戲活動期間，則能透過完成一般任務來獲取活動專屬獎勵。"
+
+msgid "info_page/main/standard/title"
+msgstr "一般任務"
+
+msgid "info_page/main/weekly/description"
+msgstr "每週任務為每週開放的一組任務。進度會在每場戰鬥後更新，當新的每週循環展開後，此前已完成的任務將由新任務取代。您可透過隨機戰鬥與天梯戰模式完成每週任務，藉此獲得額外獎勵。"
+
+msgid "info_page/main/weekly/title"
+msgstr "每週任務"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "今天的所有一般任務都已完成"
+
+msgid "quests/daily_quests/completed"
+msgstr "所有每日任務已完成"
+
+msgid "tooltip/common/timer"
+msgstr "可用於 {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "所有一般任務都已完成！您可在「額外任務」分頁找到更多任務。"
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "獎勵任務"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "已完成"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "每日任務"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "到期於 {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "全新每日任務開放於 {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "加值任務"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "獎勵："
+
+msgid "tooltip/daily_reroll/description"
+msgstr "每隔 {time} 小時，您可重骰一個不想進行的任務來獲得一個新任務。"
+
+msgid "tooltip/daily_reroll/header"
+msgstr "任務重骰"
+
+msgid "tooltip/hub/card/completed"
+msgstr "已完成任務，並獲得獎勵。"
+
+msgid "tooltip/hub/card/disabled"
+msgstr "完成先前的任務才能解鎖此任務。系列中的所有任務都必須依序完成。"
+
+msgid "tooltip/hub/info_button/body"
+msgstr "點擊以查看額外資訊"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "關於任務"
+
+msgid "tooltip/hub/replay/body"
+msgstr "此系列任務可在完成後再次進行。您的進度將重置且盾牌將恢復，同時您將能夠再次獲取獎勵。"
+
+msgid "tooltip/hub/replay/header"
+msgstr "可再次進行的任務"
+
+msgid "tooltip/hub/restart/description"
+msgstr "您可在失去所有盾牌後，重新開始系列任務。您的任務進度將重置，盾牌將恢復，且您將能再次獲得獎勵。"
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "後續重新開始的費用：%(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "免費重新開始次數：%(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "每次重新開始的費用：%(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "重新開始"
+
+msgid "tooltip/hub/shields/description"
+msgstr "盾牌會保護您的進度。每次任務失敗會消耗一面盾牌，而在失去所有盾牌時，系列任務即告失敗。若您重新開始，您的盾牌將恢復。"
+
+msgid "tooltip/hub/shields/title"
+msgstr "盾牌"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "車輛限制："
+
+msgid "tooltip/weekly_mission"
+msgstr "每週任務"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "您可每隔 {{time}}重骰此每週任務。"
+
+msgid "welcome/button"
+msgstr "了解！"

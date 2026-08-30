@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "button/progression"
+msgstr "진행 상황 표시"
+
+msgid "button/select"
+msgstr "설정"
+
+msgid "event/battlePass/name"
+msgstr "배틀 패스 시즌 %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "%(eventName)s\n종료"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\n%(date)s 시작"
+
+msgid "event/paused"
+msgstr "%(eventName)s\n일시적으로 이용 불가"
+
+msgid "event/ranked/name"
+msgstr "시즌 %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "진행 상황 모드로 보기"
+
+msgid "mode/epicBattle/condition"
+msgstr "30대30 &nbsp;{par_open}I{par_close}&nbsp;%(levels)s단계&nbsp;"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30v30&nbsp;{par_open}I{par_close}&nbsp;%(levels)s단계&nbsp;"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "%(date)s\n이벤트 시작"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "모드\n곧 시작"
+
+msgid "mode/epicBattle/description"
+msgstr "진행 단계에 따라 보상을 획득할 수 있는 모드입니다."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "이벤트 종료"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "8단계 전차로 {whiteSpanish_open}전선 대격돌{whiteSpanish_close} 전투 참여 시 배틀 패스 진행 점수를 획득할 수 있습니다."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "배틀 패스 점수"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "8~10단계 전차로 {whiteSpanish_open}정찰 임무{whiteSpanish_close} 참여 시 배틀 패스 진행 점수를 획득할 수 있습니다."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "배틀 패스 점수"
+
+msgid "mode/mapbox/condition"
+msgstr "15 대 15 %(parSecondary_open)sI%(parSecondary_close)s 8~10단계"
+
+msgid "mode/mapbox/description"
+msgstr "지도에 새로운 기능이 적용됩니다."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "기상 상황의 시각적 효과는 그래픽 설정에 따라 달라집니다. 낮음 그래픽 설정에서는 시각적 효과에 문제가 발생할 수 있습니다. 컴퓨터 사양이 요구 사항을 충족한다면 쾌적하게 게임을 즐길 수 있도록 가장 높은 그래픽 설정을 선택하는 것이 좋습니다. 해당 모드를 플레이하려면 고사양 컴퓨터가 필요합니다. 전투 환경에 따라 FPS 수치가 저하될 수 있습니다."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "가장 높은 그래픽 설정 권장"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) 가장 높은 그래픽 설정 권장"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "지도 학습"
+
+msgid "mode/mapsTraining/description"
+msgstr "지도 학습"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "4단계~11단계 전차로 {whiteSpanish_open}무작위 전투{whiteSpanish_close} 참여 시 배틀 패스 진행 점수를 획득할 수 있습니다."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "배틀 패스 점수"
+
+msgid "mode/random/condition"
+msgstr "15 대 15 %(parSecondary_open)sI%(parSecondary_close)s 1단계~11단계"
+
+msgid "mode/random/description"
+msgstr "자동으로 팀이 구성되는 전투입니다."
+
+msgid "mode/random/setup"
+msgstr "설정"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "10단계 전차로 {whiteSpanish_open}랭크 전투{whiteSpanish_close} 참여 시 배틀 패스 진행 점수를 획득할 수 있습니다."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "배틀 패스 점수"
+
+msgid "mode/ranked/condition"
+msgstr "10대10 %(parSecondary_open)sI%(parSecondary_close)s 10단계"
+
+msgid "mode/ranked/description"
+msgstr "랭크에 따라 보상을 획득할 수 있는 모드입니다."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "토너먼트 참가 신청"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "다음 전투: %(date)s %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1대1~15대15 %(parSecondary_open)sI%(parSecondary_close)s 1~10단계"
+
+msgid "mode/specBattlesList/description"
+msgstr "세계 지도 및 토너먼트입니다."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "용병으로 전투 참여"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "클랜 소속으로 전투 참여"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7대7~15대15 %(parSecondary_open)sI%(parSecondary_close)s 6~10단계"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "자원 확보를 위한 클랜 전투입니다."
+
+msgid "mode/trainingsList/call/1"
+msgstr "연습방: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1대1~15대15 %(parSecondary_open)sI%(parSecondary_close)s 1~10단계"
+
+msgid "mode/trainingsList/description"
+msgstr "입문 전투입니다."
+
+msgid "novelty"
+msgstr "신규"
+
+msgid "ranked/widget/qualBattles"
+msgstr "예선 전투: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "해당 모드 플레이 시 특별 3D 부착물을 획득할 수 있습니다."
+
+msgid "reward/attachment/name"
+msgstr "3D 부착물"
+
+msgid "reward/bones/description"
+msgstr "전투 성과에 따라 보상이 지급됩니다."
+
+msgid "reward/bones/name"
+msgstr "전쟁 채권"
+
+msgid "reward/bountyEquipment/description"
+msgstr "해당 모드 플레이 시 %(name)s 보상을 획득할 수 있습니다."
+
+msgid "reward/bountyEquipment/name"
+msgstr "특별 장비"
+
+msgid "reward/credits/description"
+msgstr "전투 성과에 따라 보상이 지급됩니다."
+
+msgid "reward/credits/name"
+msgstr "크레딧"
+
+msgid "reward/crew/description"
+msgstr "해당 모드 플레이 시 특별 승무원을 획득할 수 있습니다."
+
+msgid "reward/crew/name"
+msgstr "승무원"
+
+msgid "reward/experience/description"
+msgstr "전투 성과에 따라 보상이 지급됩니다."
+
+msgid "reward/experience/name"
+msgstr "경험치"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "해당 모드 플레이 시 다양한 시제 장비를 획득할 수 있습니다."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "특별 장비"
+
+msgid "reward/improvedEquipment/description"
+msgstr "해당 모드 플레이 시 %(name)s 보상을 획득할 수 있습니다."
+
+msgid "reward/improvedEquipment/name"
+msgstr "특별 장비"
+
+msgid "reward/lootBoxes/description"
+msgstr "해당 모드 플레이 시 상자를 획득할 수 있습니다."
+
+msgid "reward/lootBoxes/name"
+msgstr "특별 상자"
+
+msgid "reward/other/description"
+msgstr "해당 모드 플레이 시 유용한 보상을 획득할 수 있습니다."
+
+msgid "reward/other/name"
+msgstr "특별 보상"
+
+msgid "reward/progressionStyle/description"
+msgstr "해당 모드 플레이 시 특별 진행 스타일을 획득할 수 있습니다."
+
+msgid "reward/progressionStyle/name"
+msgstr "진행 스타일"
+
+msgid "reward/random/description"
+msgstr "해당 모드 플레이 시 유용한 보상을 획득할 수 있습니다."
+
+msgid "reward/random/name"
+msgstr "무작위 보상"
+
+msgid "reward/style/description"
+msgstr "해당 모드 플레이 시 %(name)s 전용 특별 3D 스타일을 획득할 수 있습니다."
+
+msgid "reward/style/name"
+msgstr "3D 스타일"
+
+msgid "reward/vehicle/description"
+msgstr "해당 모드 플레이 시 %(name)s 보상을 획득할 수 있습니다."
+
+msgid "reward/vehicle/name"
+msgstr "보상 전차"
+
+msgid "selectMap"
+msgstr "무작위 전투 사전 설정"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s일"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s시간"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1분 미만"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s분"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "전투 모드 선택"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "세계 지도"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "영토를 점령하며 세계 지도 전투를 펼쳐 보십시오. 클랜 소속 플레이어만 이용할 수 있는 모드입니다."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "클랜 가입"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "세계 지도 전투"
+
+msgid "window/battleSession/title"
+msgstr "특수 전투"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "토너먼트 목록"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "현재 해당 기능은 이용할 수 없습니다. 향후 활성화될 예정이니 기대해 주십시오."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "개인 또는 팀으로 전투에 참여하고 실력을 증명하여 값진 보상을 획득해 보십시오."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "토너먼트"

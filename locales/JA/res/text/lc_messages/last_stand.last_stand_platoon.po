@@ -1,0 +1,77 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "2～5名で構成される小隊を編成して\n「〈ラスト・スタンド〉プルービング・グラウンド」で共闘できます。"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "小隊"
+
+msgid "members/header/last_stand"
+msgstr ": 〈ラスト・スタンド〉テラ・ノール"
+
+msgid "members/header/tooltip/last_stand/body"
+msgstr "指揮官が選択している難易度をアンロックしていないメンバーがいる場合は小隊として出撃できません。"
+
+msgid "members/header/tooltip/last_stand/header"
+msgstr "小隊編成ルール"
+
+msgid "platoon/commander/difficulty_body"
+msgstr "アンロック済みの難易度であればどれでも選択できます。"
+
+msgid "platoon/difficulty/error_body_1"
+msgstr "プレイできる難易度: ノーマル"
+
+msgid "platoon/difficulty/error_body_2"
+msgstr "プレイできる難易度: ノーマル、ハード"
+
+msgid "platoon/difficulty/error_header"
+msgstr "難易度がロック中"
+
+msgid "platoon/difficulty/level_1"
+msgstr "難易度「ノーマル」"
+
+msgid "platoon/difficulty/level_2"
+msgstr "難易度「ハード」"
+
+msgid "platoon/difficulty/level_3"
+msgstr "難易度「ナイトメア」"
+
+msgid "platoon/difficulty/level_4"
+msgstr "難易度「ラスト・スタンド」"
+
+msgid "platoon/difficulty/lock_header"
+msgstr "難易度がロック中"
+
+msgid "platoon/difficulty/maxAvailable"
+msgstr "アンロック済みの難易度 {%(icon)s}"
+
+msgid "platoon/difficulty/warning_body"
+msgstr "選択中の難易度をアンロックしていないメンバーがいます。"
+
+msgid "platoon/difficulty/warning_header"
+msgstr "難易度の選択に問題あり"
+
+msgid "platoon/dropdown/difficulty_1"
+msgstr "ノーマル%(icon)s"
+
+msgid "platoon/dropdown/difficulty_2"
+msgstr "ハード%(icon)s"
+
+msgid "platoon/dropdown/difficulty_3"
+msgstr "ナイトメア%(icon)s"
+
+msgid "platoon/dropdown/header/difficulty"
+msgstr "{whiteSpanish_Open}難易度{whiteSpanish_Close}「%(difficulty)s」"
+
+msgid "platoon/player/difficulty_body"
+msgstr "難易度を選択できるのは指揮官のみとなっています。"
+
+msgid "platoon/simpleState/difficultyDisabled"
+msgstr "技術的な理由により一時的に出撃できません。"
+
+msgid "platoon/simpleState/lockVehicle"
+msgstr "選択中の車輌がロックされています。"
+
+msgid "platoon/simpleState/notAvailableLevel"
+msgstr "難易度の選択に問題があります。"

@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s, thời gian đánh: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "TẮT"
+
+msgid "battleResult/continueButton"
+msgstr "Tiếp tục"
+
+msgid "battleResult/damageAssisted"
+msgstr "Thiệt hại\nđã hỗ trợ"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "Thiệt hại\nchặn được"
+
+msgid "battleResult/damageDealt"
+msgstr "Thiệt hại\nđã gây ra"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s Bằng việc hoàn tất nhiệm vụ ở độ khó Khắc nghiệt,\nbạn sẽ tự động xong luôn chúng ở độ khó Thường.\nĐiều này nghĩa là một công đôi việc, thưởng nhiều gấp bội."
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s Bằng việc hoàn tất nhiệm vụ ở độ khó Khắc nghiệt, bạn sẽ tự động xong luôn chúng ở độ khó Thường.\nĐiều này nghĩa là một công đôi việc, thưởng nhiều gấp bội."
+
+msgid "battleResult/kills"
+msgstr "Địch\nhạ được"
+
+msgid "battleResult/lose/title"
+msgstr "TRẬN ĐÃ KẾT THÚC"
+
+msgid "battleResult/missionName/1"
+msgstr "SĂN HỔ: Chiến dịch Thép lở"
+
+msgid "battleResult/missionName/2"
+msgstr "SĂN HỔ: Chiến dịch Đánh bẫy"
+
+msgid "battleResult/missionName/3"
+msgstr "SĂN HỔ: Chiến dịch Búa Đe"
+
+msgid "battleResult/missionName/4"
+msgstr "SĂN HỔ: Chiến dịch Mèo trong Bẫy Chuột"
+
+msgid "battleResult/missionName/5"
+msgstr "CHIẾN DỊCH OVERLORD"
+
+msgid "battleResult/missionName/6"
+msgstr "CHIẾN DỊCH POSTMAN"
+
+msgid "battleResult/missionName/7"
+msgstr "CHIẾN DỊCH BOILING POINT"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "Không có\nnhiệm vụ"
+
+msgid "battleResult/rewards/other"
+msgstr "Cũng nhận được:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "Nhiệm vụ\nđã hoàn tất"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}Đã sống sót{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}Không sống sót{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "CHIẾN THẮNG!"
+
+msgid "countdown/days"
+msgstr "{days} ng"
+
+msgid "countdown/daysHours"
+msgstr "{days} ng {hours} giờ"
+
+msgid "countdown/endsSoon"
+msgstr "Ít hơn {minutes} ph"
+
+msgid "countdown/hours"
+msgstr "{hours} giờ"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} giờ {minutes} ph"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} giờ {minutes} ph"
+
+msgid "countdown/lessThanMinute"
+msgstr "Ít hơn 1 ph"
+
+msgid "countdown/minutes"
+msgstr "{minutes} ph"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} ph"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "Hủy bỏ"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "Bạn sẽ không kiếm được phần thưởng gì khi hoàn tất chiến dịch này.\nChắc chắn muốn chơi?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "Xác nhận"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "Không Có Nhiệm vụ cho Chiến dịch Này"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "Làm rõ mối đe dọa, ngăn vụ phóng tên lửa, đảm bảo công nghệ mới rơi vào tay đúng người."
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "Chơi sô-lô và đánh kẻ thù do AI điều khiển trong câu chuyện tuyệt vời này cùng các chỉ huy Sector 3!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "Hoàn thành tất cả nhiệm vụ để nhận phù hiệu và huân chương kỷ niệm, kiểu mẫu 2D, cũng như nhiều phần thưởng giá trị khác."
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "A New Era Dawns"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "Câu chuyện Sô-lô"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "Phần thưởng"
+
+msgid "eventWelcomeScreen/header"
+msgstr "CHIẾN DỊCH BOILING POINT"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "Truyện"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "Khắc nghiệt"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "Thường"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "Bãi mìn\nKhắc nghiệt"
+
+msgid "missionSelection/exitButton"
+msgstr "THOÁT CHẾ ĐỘ"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "CHIẾN DỊCH\nTHÉP LỞ"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "CHIẾN DỊCH\nĐÁNH BẪY"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "CHIẾN DỊCH\nBÚA ĐE"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "CHIẾN DỊCH\nMÈO TRONG BẪY CHUỘT"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "CHIẾN DỊCH\nOVERLORD"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "CHIẾN DỊCH\nPOSTMAN"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "CHIẾN DỊCH\nBOILING POINT"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "Brooks: \"Thế ô-kê không? Kiểm tra sơ bộ chưa? Bác sĩ để sau. Bây giờ mọi khẩu súng đều quý giá. Cuộc tấn công đã bắt đầu. Vì đến muộn nên địch đã dồn hết sang cánh khác. Cơ hội đấy. Chúng tôi tấn công ngay. Đột kích vào thị trấn và siết vòng vây từ cả hai phía.\nTheo tôi — nhớ tránh \"răng rồng\". Địch đầy chông bê-tông chống tăng ngoài đồng. Nhưng không sao. Sẽ qua. Tất cả phải nghe, chấp hành mệnh lệnh nhanh, chính xác. MacLeod và tôi sẽ hỗ trợ.\nThôi không đùa nữa. Giải tỏa tâm lý đủ rồi… Tiến lên!\""
+
+msgid "missionSelection/missionDescription/2"
+msgstr "MacLeod: \"À, Tiger—ra trận gặp phải đen lắm. Cấp trên thông báo có vấn đề, nhiều khả năng là Tiger. Mất liên lạc với nhóm tấn công đầu tiên, đội hình thứ hai vừa khởi hành, còn chúng ta ở đây—được cử đi theo.\nVâng, được điều đi thế này chỉ có một nghĩa thôi: Tiger. Đó là những gì đang xôn xao ở Sở Chỉ huy: \"Gọi ngay mấy tay chuyên săn Hổ!\" Chín xe tăng cho hai. Không quá tệ trong nửa năm. Tôi đang thua 5-4. Nhưng cơ hội gỡ hòa để vượt lên đây rồi. Mãi cũng phải được cái huy chương chết tiệt đó!\nNhanh lên—Brooks không thích đợi. Cuộc săn bắt đầu.\""
+
+msgid "missionSelection/missionDescription/3"
+msgstr "MacLeod: \"Mọi người, nghe rõ, đây là Chiến dịch Búa Đe. Cái tên mạnh mẽ như việc không nhẹ chút nào. Chúng ta đang tiến vào thành phố để tiêu diệt lực lượng địch. Không phải đi tán gái đâu—xe bọc thép hạng nặng đang chờ đón. Nhưng chúng ta có trí tuệ, sức mạnh và sự tác chiến, phải không Lucky? Mọi người, nhanh lên. Tôi có hẹn uống trà hoặc cà phê lúc năm giờ, hiểu vấn đề chưa!\""
+
+msgid "missionSelection/missionDescription/4"
+msgstr "MacLeod: \"Đừng hỏi, Lucky. Tôi cũng mù tịt. Làm cái *** gì cứ úp úp mở mở. Tôi thích mọi thứ rõ ràng. Thấy địch là chiến. Nhưng cái này? Lung ta lung tung.\n\nCũng sẽ có tăng đồng minh trong thành phố. Brooks yêu cầu chúng ta hành động cẩn thận. Ý gì?\nChúng ta có việc đặc biệt. Tìm kiếm một loại Wunderwaffe—thứ gì đó to lớn chạy trên xích. Không ai khác có thể làm ngoài chúng ta, Lucky.\n\nSẵn sàng chưa? Lên nào.\""
+
+msgid "missionSelection/missionDescription/5"
+msgstr "Captain John McCormick: \"Các đồng chí, ngày ấy đã đến. Chúng ta phải chấm dứt cuộc chiến này, chính xác. Tất cả chúng ta, cùng nhau – Mỹ, Anh, Pháp, Canada, Úc, Bỉ, Tiệp Khắc, Hy Lạp, Hà Lan, New Zealand, Na Uy, Ba Lan. Đoàn kết để chấm dứt cái ác này một lần và mãi mãi.\n\nChúng ta sẽ đập tan Bức tường Đại Tây Dương, lập tiền đồn vững chắc.\n\nSẵn sàng đổ bộ!\""
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Captain Smith: \"Nghe đây. Đức đã ký giấy đầu hàng vài giờ trước. Chiến tranh sẽ kết thúc vào ngày mai. Nhưng lính của ta trên núi bị mất liên lạc vô tuyến—họ không biết mọi thứ kết thúc rồi. Họ chuẩn bị tấn công pháo đài đẫm máu này lúc bình minh, còn người Đức bên trong cũng không biết về việc đầu hàng. Sẽ là một cuộc tàn sát vô nghĩa.\n\nChúng ta là những người duy nhất có thể ngăn điều đó. Nhiệm vụ: Lẻn qua các tuyến địch và truyền lệnh ngừng bắn. Đây là một nhiệm vụ tự sát, nhưng mỗi mạng sống cứu được đều đáng giá.\n\nỞ đây có một liên lạc viên Đức bị bắt giữ—anh ta biết địa hình và cũng muốn ngăn cuộc đổ máu này.\n\nTiến lên!\""
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf: \"Tình hình nghiêm trọng. Chúng ta mất liên lạc với căn cứ tên lửa ở Biển Na Uy. Chuyến bay trinh sát không trở về, lực lượng xe tăng đổ bộ ban đầu bị tiêu diệt bởi kẻ địch không rõ.\n\nTình báo cho biết chúng chuẩn bị phóng tên lửa đạn đạo. Không rõ mục tiêu, nhưng chỉ một phát có thể gây xung đột toàn cầu.Nhiệm vụ là ngăn chặn vụ phóng bằng mọi giá. Không thể phá hủy tên lửa vì nguy cơ nổ hạt nhân. Phải chiếm giữ bãi phóng nguyên vẹn.\n\nCảm giác như ngày xưa, phải không? Xuất phát!\""
+
+msgid "missionSelection/missionName/1"
+msgstr "CHIẾN DỊCH THÉP LỞ"
+
+msgid "missionSelection/missionName/2"
+msgstr "CHIẾN DỊCH ĐÁNH BẪY"
+
+msgid "missionSelection/missionName/3"
+msgstr "CHIẾN DỊCH BÚA ĐE"
+
+msgid "missionSelection/missionName/4"
+msgstr "CHIẾN DỊCH MÈO TRONG BẪY CHUỘT"
+
+msgid "missionSelection/missionName/5"
+msgstr "CHIẾN DỊCH OVERLORD"
+
+msgid "missionSelection/missionName/6"
+msgstr "CHIẾN DỊCH POSTMAN"
+
+msgid "missionSelection/missionName/7"
+msgstr "CHIẾN DỊCH BOILING POINT"
+
+msgid "missionSelection/specialVehicle"
+msgstr "Xe Đặc biệt"
+
+msgid "missionSelection/tab/event"
+msgstr "CHIẾN DỊCH BOILING POINT"
+
+msgid "missionSelection/tab/newbies"
+msgstr "TRUYỆN HUẤN LUYỆN"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "Tấn công thị trấn và diệt xe địch."
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "Tấn công thị trấn và diệt xe địch."
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "Tấn công thị trấn và diệt xe địch."
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "Hoàn tất mục tiêu nhiệm vụ chính mà không dính thiệt hại từ mìn của địch."
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "Hoàn tất các mục tiêu nhiệm vụ chính mà không mất một xe nào."
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "Tấn công thành phố và thu giữ Wunderwaffe của địch"
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "Hoàn tất các mục tiêu nhiệm vụ chính sau ít hơn %(win_timer)s."
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "Hoàn tất các mục tiêu nhiệm vụ chính và diệt %(kill_enemies)s với sự trợ giúp từ máy bay."
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "Xuyên phá, diệt các khẩu pháo phòng thủ bờ biển và chiếm giữ bãi đổ bộ."
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "Hoàn tất các mục tiêu nhiệm vụ chính sau ít hơn %(win_timer)s."
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "Hoàn tất các mục tiêu nhiệm vụ chính mà không mất một xe nào."
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "Chuyển lệnh ngừng bắn đến các đồng minh của bạn."
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "Hoàn thành các mục tiêu nhiệm vụ chính và diệt ít hơn %(kill_enemies)s."
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "Hoàn tất các mục tiêu nhiệm vụ chính mà không mất một xe nào."
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "Tiếp cận trung tâm chỉ huy và ngăn vụ phóng tên lửa."
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "Hoàn tất các mục tiêu nhiệm vụ chính sau ít hơn %(win_timer)s."
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "Hoàn tất các mục tiêu nhiệm vụ chính mà không mất một xe nào."
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s xe địch"
+msgstr[1] "%(value)s xe địch"
+msgstr[2] "%(value)s xe địch"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "Nhiệm vụ này bị khóa: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s phút"
+msgstr[1] "%(value)s phút"
+msgstr[2] "%(value)s phút"
+
+msgid "missionSelection/taskRewards"
+msgstr "Phần thưởng:"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "Xe này chỉ khả dụng trong các Câu chuyện."
+
+msgid "missionSelection/unlockCondition"
+msgstr "Hoàn tất thêm %(numBattles)s Trận đấu Ngẫu nhiên\nđể mở khóa chiến dịch này."
+
+msgid "mode/story_mode/callToAction"
+msgstr "Kịch bản cho người mới"
+
+msgid "mode/story_mode/description"
+msgstr "Hoàn tất các chiến dịch theo kịch bản đấu với xe do AI lái"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "Chiến dịch Boiling Point khả dụng"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "Bạn có thể thấy chế độ game hiện đang chọn trên đầu menu chính ở Garage. Click vào tên chế độ để xem thêm."
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "Click &zwnbsp;{whiteSpanish_Open}Truyện{whiteSpanish_Close}&zwnbsp; để chọn chế độ game này."
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "Trong Truyện, bạn có thể khám phá những kịch bản PvE có dẫn dắt thuyết minh, đấu với địch do AI điều khiển, đắm mình vào không khí các trận đánh hào hùng và nhận thưởng giá trị!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "Vào Nơi Chọn Chế Độ Game"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "Chọn Truyện"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "Thưởng thức Chiến trận PvE"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "TRUYỆN"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "Nhiều kịch bản chờ đón"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "Khởi động lại"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "TRẬN ĐÃ KẾT THÚC"
+
+msgid "onboardingQueue/skipButton"
+msgstr "Bỏ qua"
+
+msgid "onboardingQueue/skipText"
+msgstr "Mọi máy chủ đang bận. Xin vui lòng chờ hoặc bỏ qua câu chuyện này."
+
+msgid "onboardingQueue/spinnerText"
+msgstr "Chúng tôi đang chuẩn bị máy chủ cho bạn. Xin vui lòng chờ..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "Thiệt hại chặn được bởi giáp {parSecondary_Start}(units){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "Thiệt hại chặn được"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "Những phát bắn trúng bởi đạn HE và HESH không được tính."
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "Được tính:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "Nảy đạn địch"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "Trúng-không xuyên"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "Sát thương đã hỗ trợ"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "Tính những sát thương sau đây mà đồng đội gây ra nhờ bạn hỗ trợ:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "Thiệt hại nhờ bạn phát hiện"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "Thiệt hại nhờ bạn phá xích và làm bất động xe địch"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "Tổng thiệt hại mà đồng đội gây ra\n{parSecondary_Start}(đơn vị){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "Thiệt hại gây ra"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "Được tính:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "Thiệt hại do đạn"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "Thiệt hại do đâm/húc"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "Thiệt hại do cháy"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "Thiệt hại do đẩy xe địch khỏi chướng ngại"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "Tổng thiệt hại {parSecondary_Start}(đơn vị){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "Địch bị hạ"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "Được tính:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "Phá hủy do đạn"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "Phá hủy do cháy"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "Phá hủy do đâm/húc"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "Phá hủy do chìm"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "Phá hủy do đẩy xe địch khỏi chướng ngại"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "Phá hủy do lật xe"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "Nhiệm vụ đã hoàn thành"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "Số nhiệm vụ đã làm xong và mọi nhiệm\nvụ hiện khả dụng. Nhiệm vụ được hoàn\ntất ở độ khó Khắc nghiệt tự động xong\nuôn độ khó Thường."
+
+msgid "tooltips/difficulty/available"
+msgstr "Khả dụng"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "Địch phản ứng nhanh, có độ chính xác cao và sẽ tấn công hung hãn hơn. Đổi lại, bạn sẽ nhận thêm phần thưởng khi hoàn tất nhiệm vụ."
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "Bằng cách hoàn thành nhiệm vụ ở độ khó {whiteSpanish_Open}Khắc nghiệt{whiteSpanish_Close}, bạn sẽ tự động hoàn thành chúng ở độ khó {whiteSpanish_Open}Thường{whiteSpanish_Close}. Phần thưởng sẽ được trao cho cả hai cấp độ khó."
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "Điều kiện bổ sung"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "Khắc nghiệt"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "Để mở khóa độ khó Khắc nghiệt, hãy chứng tỏ kỹ năng của bạn bằng cách hoàn thành nhiệm vụ này ở mức độ Thường."
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "Bị khóa"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "Địch chậm, kém chính xác hơn, và bạn chỉ nhận được phần thưởng thường khi hoàn thành nhiệm vụ."
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "Thường"
+
+msgid "tooltips/difficulty/selected"
+msgstr "Đã chọn"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "Một phiên bản thách thức hơn của giai đoạn Bãi mìn trong chiến dịch—bạn có dám vào mê cung chết chóc này?\nĐem lại nhiều phần thưởng hơn."
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "Khắc nghiệt, Bãi mìn"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "Làm rõ mối đe dọa, ngăn vụ phóng tên lửa, đảm bảo công nghệ mới rơi vào tay đúng người."
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "Chiến dịch Boiling Point"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "CHẾ ĐỘ"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr " — Chế độ chơi. Bấm xem"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "Chơi sô-lô và đánh kẻ thù do AI điều khiển trong câu chuyện tuyệt vời này cùng các chỉ huy Sector 3!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "Sự kiện khả dụng trong {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "TRUYỆN"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "CHẾ ĐỘ"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr " — Chế độ chơi. Bấm xem"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "Những kịch bản tình huống dựng sẵn. Khởi đầu hành trình khám phá thế giới tăng thiết giáp của bạn và chứng tỏ khả năng bản thân bằng cách đấu địch do AI điều khiển."
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "Truyện"
+
+msgid "tooltips/task/active"
+msgstr "Đang làm"
+
+msgid "tooltips/task/completed"
+msgstr "Đã hoàn tất"
+
+msgid "tooltips/task/condition/locked"
+msgstr "Điều kiện không xác định"
+
+msgid "tooltips/task/locked"
+msgstr "Bị khóa: %(timer)s"

@@ -1,0 +1,35 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "player_errors/equipment/fastRecharge/gunTemperatureLow"
+msgstr "無法使用：此車輛的炮管未升溫。"
+
+msgid "player_errors/equipment/fastRecharge/vehicleIsNotRecharged"
+msgstr "無法使用：此車輛未進行裝填。"
+
+msgid "player_errors/equipment/fastRecharge/vehicleIsOnFastRecharge"
+msgstr "無法使用：裝填時間已縮短。"
+
+msgid "player_errors/equipment/hunter/noDamagedEnemyVehicles"
+msgstr "無法使用：無敵方車輛受到射擊傷害。"
+
+msgid "player_errors/equipment/hunter/vehicleIsNotDamaged"
+msgstr "無法使用：您不需要恢復血量。"
+
+msgid "player_errors/equipment/roleSkill/alreadyActivated"
+msgstr "「%(name)s」角色技能已啟用。"
+
+msgid "player_errors/equipment/roleSkill/cooldown"
+msgstr "「%(name)s」角色技能無法使用：冷卻中。"
+
+msgid "player_errors/equipment/roleSkill/unavailable"
+msgstr "「%(name)s」角色技能無法使用：無可用次數。"
+
+msgid "player_messages/equipment/roleSkill/applied"
+msgstr "「%(name)s」角色技能已啟用！"
+
+msgid "player_messages/equipment/roleSkill/promoted"
+msgstr "「%(name)s」角色技能的充能等級已提高！"
+
+msgid "player_messages/equipment/roleSkill/ready"
+msgstr "「%(equipment)s」角色技能已準備啟用。"

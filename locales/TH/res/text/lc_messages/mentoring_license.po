@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "ในการยืนยัน ให้กรอกจำนวนประสบการณ์ของสมาชิกพลรถถังที่เลือกเอาไว้เพื่อทำการโอน"
+
+msgid "assignmentDialog/price"
+msgstr "ราคา:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "โอนประสบการณ์พลรถถังทั้งหมดระหว่างสมาชิกพลรถถัง"
+
+msgid "assignmentDialog/title"
+msgstr "ยืนยันหลักสูตรฝึกสอน"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "สมาชิกพลรถถังคนนี้จะถูกลบจาก\nบัญชีของคุณโดยไม่สามารถกู้คืนได้"
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} ประสบการณ์เพิ่มเติมจะหายไป"
+
+msgid "dialogue/description"
+msgstr "สิ่งของใช้ครั้งเดียวที่ทำให้คุณโอนประสบการณ์พลรถถังทั้งหมดระหว่างสมาชิกพลรถถังของชาติเดียวกัน"
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}ประสบการณ์เพิ่มเติมจะหายไป:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "เลือก"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "ประสบการณ์ทั้งหมด: %(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}ใบอนุญาตฝึกสอน:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "ไม่มีสมาชิกพลรถถังที่เหมาะสม"
+
+msgid "mentorAssigment/tips/info"
+msgstr "เลือกสมาชิกพลรถถังที่จะโอนประสบการณ์ของตนไ\nปยัง{cream_Open}%(name)s{cream_Close}และถูกลบไปจากบัญชีของคุณ"
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "หลังจากโอนประสบการณ์พลรถถังแล้ว {cream_Open}%(name)s{cream_Close} จะได้ถึงขีดจำกัดความสามารถและประสบการณ์ทั้งหมดที่เกินขีดจำกัดจะเสียไป"
+
+msgid "mentorAssigment/title"
+msgstr "เลือกผู้ฝึกสอน"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} จะได้ถึงขีดจำกัดความสามารถและประสบการณ์ทั้งหมดที่เกินขีดจำกัดจะเสียไป"
+
+msgid "multipleUserName"
+msgstr "ใบอนุญาตฝึกสอน"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "ใช้ใบอนุญาตฝึกสอนไป: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "โอนประสบการณ์พลรถถังแล้ว:"
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "หลักสูตรฝึกสอน"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>เสียประสบการณ์พลรถถัง: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "ทำให้คุณสามารถโอนประสบการณ์พลรถถังทั้งหมดระหว่าง\nสมาชิกพลรถถังของชาติเดียวกัน"
+
+msgid "storage/userName"
+msgstr "ใบอนุญาตฝึกสอน"
+
+msgid "userName"
+msgstr "ใบอนุญาตฝึกสอน"

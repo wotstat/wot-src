@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "名稱"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "每月"
+
+msgid "ClanListWindow/table/role"
+msgstr "位階"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "每週"
+
+msgid "battleQueue/clanPosition"
+msgstr "位階：%(position)s"
+
+msgid "battleQueue/position"
+msgstr "位階："
+
+msgid "battleQueue/searchEnemy"
+msgstr "正在搜尋敵人："
+
+msgid "battleQueue/waitBattle"
+msgstr "正在等候戰鬥："
+
+msgid "battleQueue/yourTeam"
+msgstr "您的分遣隊："
+
+msgid "disconnected/Warning"
+msgstr "注意！"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "根據地暫時無法使用。請稍後再試。"
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "無法以漫遊方式使用根據地。想要進入根據地，請前往您的地區。"
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "公會成員數"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "傭兵"
+
+msgid "fortVehPopover/btnSave"
+msgstr "儲存選擇（%(count)d）"
+
+msgid "inspire/inspired"
+msgstr "鼓舞中"
+
+msgid "inspire/inspiring"
+msgstr "鼓舞中"
+
+msgid "mainWindow/maintenance/body"
+msgstr "我們為帶來的不便感到抱歉。"
+
+msgid "mainWindow/maintenance/button"
+msgstr "更新"
+
+msgid "mainWindow/maintenance/header"
+msgstr "載入資料時發生錯誤"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "情報追加"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "戰鬥收支"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "軍事演練"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "戰術訓練"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "額外效果"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "在前哨戰與進階戰的一場戰鬥期間，指揮火炮來對選擇的區域發射砲彈"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "在前哨戰與進階戰的一場戰鬥期間，以「鼓舞」來為您車輛與鄰近的友軍車輛之整組乘員的熟練度與所有歷練提供加成"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "可在戰鬥前開啟儲備"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "可在進階戰前開啟儲備"
+
+msgid "reserves/tooltip/empty"
+msgstr "您沒有儲備可以開啟"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s 於倉庫中"
+
+msgid "reserves/tooltip/level"
+msgstr "%(level)s 階"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "使用時的效果"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "可以開啟"
+
+msgid "reserves/tooltip/selected"
+msgstr "開啟"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "點擊以檢視您可以開啟的儲備清單。"
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "儲備只有指揮官、執行官、人事官或作戰官位階的分遣隊指揮官才能開啟。"
+
+msgid "roster/clanMembersNotEnough"
+msgstr "分遣隊中的公會成員數不足：%(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "戰鬥將於 %(nextDate)s 分鐘後開始"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "開始時間將於稍後指定"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "戰鬥將於 %(nextDate)s 後結束"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "前哨戰可用"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "即將發生的戰鬥將於 %(nextDate)s 進行"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "戰鬥將於 %(nextDate)s 後開始"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "戰鬥將於今天的 %(nextDate)s 開始"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "戰鬥將於明天的 %(nextDate)s 開始"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "開始時間將於稍後指定"
+
+msgid "sortie/introView/title"
+msgstr "根據地：戰鬥"
+
+msgid "sortie/listView/enterBtn"
+msgstr "加入"
+
+msgid "sortie/listView/enterText"
+msgstr "您可以作為志願兵加入"
+
+msgid "sortie/listView/notSelected"
+msgstr "請從左邊列表中選擇一支分遣隊\n來檢視其詳細敘述。"
+
+msgid "sortie/listView/teamMembers"
+msgstr "位置：%(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "車輛："
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "傭兵"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "自動召集"
+
+msgid "sortie/room/candidates"
+msgstr "志願兵"
+
+msgid "sortie/room/chat"
+msgstr "聊天頻道"
+
+msgid "sortie/room/description"
+msgstr "建立分遣隊來與中立領土上的隨機敵方公會戰鬥。車輛階級是由所選擇的分組來決定的。"
+
+msgid "sortie/room/fight"
+msgstr "加入戰鬥!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "邀請玩家"
+
+msgid "sortie/room/leaveBtn"
+msgstr "前往分遣隊集結"
+
+msgid "sortie/room/level"
+msgstr "%(level)s 階"
+
+msgid "sortie/room/members"
+msgstr "成員：%(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "尚未準備好"
+
+msgid "sortie/room/ready"
+msgstr "已經準備好！"
+
+msgid "sortie/room/title"
+msgstr "分遣隊"
+
+msgid "sortie/slot/emptySlot"
+msgstr "空"
+
+msgid "sortie/slot/takePlace"
+msgstr "就位"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "請選擇一輛車來進入戰鬥。紅色標示的車輛代表尚未準備好戰鬥。"
+
+msgid "stronghold/teamHeader"
+msgstr "分遣隊成員"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "選擇傭兵的車輛"
+
+msgid "strongholdPopover/header"
+msgstr "選擇車輛"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "所選車輛："
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s我方橋頭堡"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "北部"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "東部"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "南部"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "西部"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "敵方橋頭堡"
+
+msgid "strongholdbuilds/mapName"
+msgstr "地圖：%(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "地圖將會在進階戰開始後選擇"
+
+msgid "strongholdbuilds/point1"
+msgstr "堡壘"
+
+msgid "strongholdbuilds/point2"
+msgstr "後線"
+
+msgid "strongholdbuilds/point3"
+msgstr "前線"
+
+msgid "strongholdbuilds/point4"
+msgstr "前線"
+
+msgid "strongholdbuilds/point5"
+msgstr "後線"
+
+msgid "strongholdbuilds/point6"
+msgstr "堡壘"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "此橋頭堡進階戰的首勝為 %(reward)s 倍"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "在失去兩條戰線下守住了堡壘"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "在失去前線下守住了後線"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "在沒有佔領到敵方戰線下守住了兩條戰線"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "只佔領了前線"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "在沒有佔領到堡壘下佔領了兩條戰線"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "佔領了敵方堡壘"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "來自徵用儲備"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "進階戰之後頒給"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "向傭兵隱藏"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "顯示分遣隊"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "向傭兵顯示"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "隱藏分遣隊"
+
+msgid "strongholddirection/A"
+msgstr "北部"
+
+msgid "strongholddirection/B"
+msgstr "東部"
+
+msgid "strongholddirection/C"
+msgstr "南部"
+
+msgid "strongholddirection/D"
+msgstr "西部"
+
+msgid "strongholdinfo/sortie"
+msgstr "分組 %(level)s 的前哨戰"
+
+msgid "strongholdinfo/stronghold"
+msgstr "%(direction)s橋頭堡的進階戰"
+
+msgid "strongholdmap/randomMap"
+msgstr "隨機地圖"
+
+msgid "strongholdreserve/boost"
+msgstr "鼓舞"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "高負重運輸"
+
+msgid "strongholdreserve/requisition"
+msgstr "徵用"
+
+msgid "strongholdreserve/support"
+msgstr "火炮襲擊"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "在前哨戰及進階戰中，進行 1 場戰鬥"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "進階戰的結果"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "在戰鬥開始時啟用"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "在進階戰開始時啟用"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "在戰鬥中使用儲備時啟用"
+
+msgid "strongholdtable/rating"
+msgstr "評價"
+
+msgid "strongholdtable/roster"
+msgstr "組成"
+
+msgid "strongholdtable/tech"
+msgstr "車輛"
+
+msgid "strongholdtitle/sortie"
+msgstr "前哨戰"
+
+msgid "strongholdtitle/stronghold"
+msgstr "%(direction)s橋頭堡的進階戰"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}邊界{/HEADER}{BODY}中立領土。贏家會在下一場戰鬥中攻擊敵方戰線。如果戰鬥以平手收場，將會隨機選擇攻擊方隊伍。{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "%(direction)s橋頭堡的進階戰"
+
+msgid "strongholdtooltips/hours"
+msgstr "小時"
+
+msgid "strongholdtooltips/minuts"
+msgstr "分鐘"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "分組 %(level)s 的前哨戰"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "在您點擊「加入戰鬥!」按鈕後，該車輛類型將自動指派給傭兵。\n\n點擊以確認或取消將選定的車輛類型給傭兵。"
+
+msgid "unit/window/willSearchPlayers"
+msgstr "傭兵將自動新增到空位"

@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "การรบ %(leftDetailedSeasonName)s จบลงแล้ว"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนทุกเซิร์ฟเวอร์ การรบจะมีให้ภายใน %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "การรบ %(leftDetailedSeasonName)s จบลงแล้ว"
+
+msgid "alertMessage/allNotSet"
+msgstr "รูปแบบนี้ไม่มีให้บนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "เลือกเซิร์ฟเวอร์อื่น"
+
+msgid "alertMessage/notAvailable"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "alertMessage/notSet"
+msgstr "รูปแบบนี้ไม่มีให้บนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนเซิร์ฟเวอร์นี้ การรบจะมีให้ภายใน %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "การรบ %(leftDetailedSeasonName)s จบลงแล้ว"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "รูปแบบนี้ไม่มีให้บนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s วัน"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s ชม. %(min)s น."
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 นาที"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s นาที"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "ไม่มีพาหนะที่เหมาะสม"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "หมายกำหนด"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "รูปแบบ"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} — กำลังเปลี่ยนเป็นรูปแบบเกมอื่น"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "รูปแบบจะมีให้"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "ช่วงหยุดยิง {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "การรบจบลงแล้ว"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "ไม่มีรูปแบบให้อีกต่อไป"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "รูปแบบจะมีให้ใน {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s ไม่สามารถต่อสู้ในการรบ %(modeName)s ได้"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "ชนิดพาหนะไม่เข้ากัน"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "เลือกพาหนะ %(levelSubStr)sเพื่อเข้าร่วมในรูปแบบ %(modeName)s"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "ระดับพาหนะไม่เข้ากัน"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "ระดับ %(levels)s"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s ไม่สามารถต่อสู้ในรูปแบบ %(modeName)s ได้"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "พาหนะไม่เข้ากัน"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "ช่วงหยุดยิงกำลังมีผลกับเซิร์ฟเวอร์นี้ โปรดเลือกเซิร์ฟเวอร์อื่น"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "ไม่สามารถออกรบได้"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "รูปแบบนี้ไม่มีให้ในเซิร์ฟเวอร์ที่เลือกไว้"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "ไม่สามารถออกรบได้"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "การรบ %(subModeName)s จบลงแล้ว"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "ไม่สามารถออกรบได้"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "เปลี่ยนรูปแบบหรือเลือกพาหนะที่ตรงกับข้อกำหนด"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "พาหนะไม่เหมาะกับรูปแบบดังกล่าว"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "สร้างหน่วยยุทธวิธีของผู้เล่น 2 หรือ 3 คนเพื่อร่วมมือกันในการรบ %(modeName)s"
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "หมวดรถถัง"
+
+msgid "invite/text/detailedTitle"
+msgstr "คำเชิญเพื่อเข้าร่วมหมวดรถถัง \"%(detailedModeName)s\""
+
+msgid "invite/tooltip/noVehicles"
+msgstr "คุณจำเป็นต้องมีพาหนะอย่างน้อยหนึ่งคันในโรงรถ"
+
+msgid "lootboxTooltip/chance"
+msgstr "โอกาสได้รับ: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "สิ่งของในเกมหนึ่งอย่างจากรายการด้านล่าง:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "ผ่านด่านทั้งหมดแล้ว"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "ผ่านด่านของภารกิจปัจจุบัน\nทั้งหมดแล้ว"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "รางวัลด่านถัดไป - ปลดล็อคด้วย %(stagePoints)s คะแนน"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "รางวัลด่านถัดไป"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s จนกว่าช่วงการเล่นจบลง"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s จนกว่าการเริ่มครั้งต่อไป"
+
+msgid "modeSelector/notStarted"
+msgstr "รูปแบบนี้จะเริ่มขึ้นในไม่ช้า"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s วัน"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s ชม"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 นาที"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s นาที"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "ไปยังรูปแบบ"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "ไม่มีให้เนื่องด้วยเหตุทางเทคนิค"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "คุณได้ผ่านทุกด่านของภารกิจปัจจุบันแล้ว"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "รางวัล: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "การรบจบลงแล้ว"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "กำลังจะมา"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "จะเริ่มใน"
+
+msgid "modeSubSelector/subtitle"
+msgstr "เลือกรูปแบบย่อย"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "ผ่านด่านการพัฒนาทั้งหมดแล้ว"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "อัพเดตความก้าวหน้าการพัฒนา"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "มาร่วมการรบ!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "เข้าการตะลุมบอน!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "กิจกรรมตู้เกมอาร์เคดเป็นกิจกรรมเวลาจำกัดเอกลักษณ์ที่มีบางอย่างแตกต่างออกไป! ออกรบในรูปแบบเฉพาะที่มีกฎเปลี่ยนการเล่นเกม, ปฏิบัติภารกิจให้สำเร็จแล้วรับรางวัลหายาก"
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "คุณผ่านความก้าวหน้าแล้ว"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "ผู้พัฒนา มาคว้ารางวัลให้มากที่สุดเท่าที่คุณจะทำได้:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "คะแนนผู้พัฒนาที่ได้รับ: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "สำเร็จแล้ว:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "ทำซ้ำได้"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "จากการสำเร็จ:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "จากการแพ้:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "จากการชนะ:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "คะแนน:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "ได้รับ:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "ภารกิจที่มีให้ทั้งหมดสำเร็จแล้ว"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "ภารกิจจะปรากฎเมื่อความก้าวหน้าเริ่มขึ้น"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "คุณผ่านภารกิจทั้งหมดที่มีให้สำหรับตอนนี้แล้ว จะมีมากกว่านี้ปรากฎให้ในรอบเวียนถัดไป"
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "มีให้สำหรับ {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "มีให้สำหรับ {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "มีภารกิจใหม่ให้ใน {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "สถานะ {{eventName}}"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "ภารกิจ {{eventName}}"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "ผ่านทุกด่านแล้ว"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "การปรับความก้าวหน้า"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "ประลองความเร็วนีออน"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "เส้นชัยรออยู่!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "พร้อมที่จะแข่งหรือยัง?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "การประลองความเร็วนีออนเป็นกิจกรรมเวลาจำกัดที่มีแนวการเล่นที่ต่างออกไป! แข่งความเร็วและตะลุมบอนในเส้นทางอันตราย, ปฏิบัติภารกิจให้สำเร็จแล้วรับรางวัล"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนเครื่องไม่เพียงพอ ให้ลองเลือกลดคุณภาพกราฟฟิคในการตั้งค่าลง"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "สมรรถนะอาจจะต่ำลง"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนเครื่องไม่เพียงพอ ให้ลองเลือกลดคุณภาพกราฟฟิคในการตั้งค่าลง"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "สมรรถนะอาจจะต่ำลง"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "รางวัลมหากาพย์แบบสุ่ม"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "รางวัลตำนานแบบสุ่ม"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "รางวัลปกติแบบสุ่ม"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "รางวัลหายากแบบสุ่ม"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "รางวัลไม่ปกติแบบสุ่ม"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "ภารกิจประลองความเร็วนีออน - ด่าน: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "จะนับความก้าวหน้าของคุณในการแข่งประลองความเร็วนีออน"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "ภารกิจประลองความเร็วนีออน"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "จะนับความก้าวหน้าของคุณในรูปแบบย่อยของตู้เกมอาร์เคดที่มี"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "จนกว่าจะมีภารกิจตู้เกมอาร์เคดใหม่ให้"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "ต่อสู้ไปตามเส้นทางในการแข่งชิงเอาตัวรอดนี้"
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} ทุกระดับ"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "มีภารกิจประลองความเร็วนีออนใหม่ให้ใน:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "รูปแบบย่อย %(subModeName)s จบลงแล้ว ความก้าวหน้าถูกตั้งใหม่"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "รูปแบบย่อย %(subModeName)s จบลงแล้ว"
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "มีรางวัลใหม่และรูปแบบย่อย %(subModeName)s ใหม่ให้"
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "มีรูปแบบย่อยใหม่ให้: %(subModeName)s"
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "ไม่มีรูปแบบย่อย %(subModeName)s ให้เนื่องจากการบำรุงรักษาระบบ"
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "มีรูปแบบย่อย %(subModeName)s ให้อีกครั้ง"
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "รายการรางวัล"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "ยินดีด้วย!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "คุณผ่านความก้าวหน้าแล้ว"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "ยินดีด้วย!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "ช่วงหลังความก้าวหน้าไม่สิ้นสุด"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "คุณผ่านความก้าวหน้าหลักแล้ว"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "ผ่านด่านนี้ได้มากเท่าที่คุณต้องการ"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "คะแนนที่ได้: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "คะแนนที่ได้:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "ภารกิจประลองความเร็วนีออน"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "สำเร็จแล้ว:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "ทำซ้ำได้"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "จากการสำเร็จ:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "จากการแพ้:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "จากการชนะ:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "คะแนน:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "ได้รับ:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "ภารกิจที่มีให้ทั้งหมดสำเร็จแล้ว"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "ภารกิจจะปรากฎเมื่อความก้าวหน้าเริ่มขึ้น"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "คุณผ่านภารกิจทั้งหมดที่มีให้สำหรับตอนนี้แล้ว จะมีมากกว่านี้ปรากฎให้ในรอบเวียนถัดไป"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "มีให้สำหรับ {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "มีให้สำหรับ {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "มีภารกิจใหม่ให้ใน {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "สถานะ {{eventName}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "ภารกิจ {{eventName}}"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "ได้รับรางวัลตำนานแล้ว"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "มี %(subModeName)s ให้อีกครั้ง"
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "จุดพัก"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s จบลงแล้ว"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "จุดพัก"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "ได้เวลาเข้าจุดพัก! การแข่ง %(subModeName)s ไม่มีให้ชั่วคราว"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "จุดพัก"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "รางวัลแบบสุ่มแต่ละอันเป็นสิ่งของจากรายการด้านล่างโดยมีโอกาสได้รับระดับหนึ่ง"
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "ข้างในมีอะไรบ้าง?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "พาหนะทั้งหมดมีให้ในการประลองความเร็วนีออน"
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "พาหนะประลองความเร็วนีออน"
+
+msgid "modes/fall_tanks/userName"
+msgstr "ประลองความเร็วนีออน"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "ผ่านด่านทั้งหมดแล้ว!"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "อัพเดตความก้าวหน้า"
+
+msgid "modes/undefined/capsUserName"
+msgstr "ตู้เกมอาร์เคด"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "มาร่วมการรบ!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "เข้าการตะลุมบอน!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "กิจกรรมตู้เกมอาร์เคดเป็นกิจกรรมเวลาจำกัดเอกลักษณ์ที่มีบางอย่างแตกต่างออกไป! ออกรบในรูปแบบเฉพาะที่มีกฎเปลี่ยนการเล่นเกม, ปฏิบัติภารกิจให้สำเร็จแล้วรับรางวัลหายาก"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนเครื่องไม่เพียงพอ ให้ลองลดคุณภาพกราฟฟิคในการตั้งค่าลง"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "สมรรถนะอาจจะต่ำลง"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนเครื่องไม่เพียงพอ ให้ลองลดคุณภาพกราฟฟิคในการตั้งค่าลง"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "สมรรถนะอาจจะต่ำลง"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "รางวัลมหากาพย์แบบสุ่ม"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "รางวัลตำนานแบบสุ่ม"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "รางวัลปกติแบบสุ่ม"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "รางวัลหายากแบบสุ่ม"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "รางวัลไม่ปกติแบบสุ่ม"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "ภารกิจตู้เกมอาร์เคด — ด่าน: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "จะนับความก้าวหน้าของคุณในรูปแบบย่อยของตู้เกมอาร์เคดที่มี"
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "ภารกิจตู้เกมอาร์เคด"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "จะนับความก้าวหน้าของคุณในรูปแบบย่อยของตู้เกมอาร์เคดที่มี"
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "จนกว่าจะมีภารกิจตู้เกมอาร์เคดใหม่ให้"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15ต่อ15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "การรบแบบทดลองที่มีกฎนอกแบบปกติ"
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} ระดับ&nbsp;%(levels)s"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "จะมีภารกิจตู้เกมอาร์เคดใหม่ให้ใน:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "รูปแบบย่อย %(subModeName)s จบลงแล้ว ความก้าวหน้าถูกตั้งใหม่"
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "รูปแบบย่อย %(subModeName)s จบลงแล้ว"
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "มีรางวัลใหม่และรูปแบบย่อย %(subModeName)s ใหม่ให้"
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "มีรูปแบบย่อยใหม่ให้: %(subModeName)s"
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "ไม่มีรูปแบบย่อย %(subModeName)s ให้เนื่องจากการบำรุงรักษาระบบ"
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "มีรูปแบบย่อย %(subModeName)s ให้อีกครั้ง"
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "รายการรางวัล"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "ยินดีด้วย!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "คุณผ่านความก้าวหน้าแล้ว"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "ยินดีด้วย!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "ด่านเล่นซ้ำได้"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "คุณผ่านความก้าวหน้าหลักแล้ว"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "มาคว้ารางวัลให้มากที่สุดเท่าที่คุณจะทำได้"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "คะแนนที่ได้: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "คะแนนที่ได้:"
+
+msgid "modes/undefined/progression/title"
+msgstr "ภารกิจตู้เกมอาร์เคด"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "สำเร็จแล้ว:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "ทำซ้ำได้"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "จากการสำเร็จ:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "จากการแพ้:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "จากการชนะ:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "คะแนน:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "ได้รับ:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "ภารกิจที่มีให้ทั้งหมดสำเร็จแล้ว"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "ภารกิจจะปรากฎเมื่อความก้าวหน้าเริ่มขึ้น"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "คุณผ่านภารกิจทั้งหมดที่มีให้สำหรับตอนนี้แล้ว จะมีมากกว่านี้ปรากฎให้ในรอบเวียนถัดไป"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "มีให้สำหรับ {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "มีให้สำหรับ {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "มีภารกิจใหม่ให้ใน {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "สถานะ {{eventName}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "ภารกิจ {{eventName}}"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "ได้รับรางวัลตำนาน"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "การรบ %(subModeName)s มีให้อีกครั้ง"
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "การหยุดยิง"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "การรบ %(subModeName)s จบลงแล้ว"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "การหยุดยิง"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "การหยุดยิงมีผลอยู่ การรบ %(subModeName)s จะไม่มีให้เป็นการชั่วคราว"
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "การหยุดยิง"
+
+msgid "modes/undefined/tierList/description"
+msgstr "รางวัลแบบสุ่มแต่ละอันเป็นสิ่งของจากรายการด้านล่างที่คุณสามารถได้รับโดยมีโอกาสได้รับระดับหนึ่ง"
+
+msgid "modes/undefined/tierList/title"
+msgstr "ข้างในมีอะไรบ้าง?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "แสดง/ซ่อนพาหนะที่เหมาะกับรูปแบบตู้เกมอาร์เคด"
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "พาหนะตู้เกมอาร์เคด"
+
+msgid "modes/undefined/userName"
+msgstr "ตู้เกมอาร์เคด"
+
+msgid "notification/congratulation"
+msgstr "ยินดีด้วย!"
+
+msgid "notification/finishSubModes"
+msgstr "กิจกรรม %(modeName)s จบลงแล้ว"
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "รูปแบบย่อย %(subModesNames)s จบลงแล้ว ความก้าวหน้าถูกตั้งใหม่"
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "รูปแบบย่อย %(subModesNames)s จบลงแล้ว"
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "รางวัลแบบสุ่ม"
+
+msgid "notification/newProgression"
+msgstr "ความก้าวหน้ากิจกรรมถูกตั้งใหม่ คุณสามารถได้รับรางวัลอีกครั้ง!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "ความก้าวหน้ากิจกรรมถูกตั้งใหม่ มีรูปแบบย่อยใหม่ให้: %(subModesNames)s"
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "มีรูปแบบย่อยใหม่ให้: %(subModesNames)s"
+
+msgid "notification/progressionComplete"
+msgstr "คุณได้ผ่านภารกิจ%(modeName)sที่มีทั้งหมดแล้ว ได้รับรางวัล:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "คุณได้ผ่านภารกิจ%(modeName)s ที่มีทั้งหมดแล้ว มีด่านเล่นซ้ำให้ ได้รับรางวัล:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "ความก้าวหน้าจะถูกตั้งใหม่ภายในเวลาน้อยกว่า 1 วัน หลังจากนั้นคุณจะสามารถปฏิบัติภารกิจให้สำเร็จได้อีกครั้ง"
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "ความก้าวหน้าจะถูกตั้งใหม่ภายใน %(days)d วัน หลังจากนั้นคุณจะสามารถปฏิบัติภารกิจให้สำเร็จได้อีกครั้ง"
+
+msgid "notification/progressionStageComplete"
+msgstr "คุณได้ผ่านภารกิจ%(modeName)s: ด่าน: %(stage)s ได้รับรางวัล:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "ไม่มีรูปแบบย่อย %(subModesNames)s ให้เนื่องจากการบำรุงรักษาระบบ"
+
+msgid "notification/switchOnSubModes"
+msgstr "มีรูปแบบย่อย %(subModesNames)s ให้อีกครั้ง"
+
+msgid "platoonView/title"
+msgstr "หมวดรถถัง: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "เซิร์ฟเวอร์ที่มีให้: %(server)s"
+
+msgid "primeTimes/availableServers"
+msgstr "เซิร์ฟเวอร์ที่มีให้:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "เซิร์ฟเวอร์ %(serverName)s\nการรบจะมีให้ภายใน %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "เซิร์ฟเวอร์ %(serverName)s\nการรบ \"%(leftDetailedSeasonName)s\" จบลงแล้ว"
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "เซิร์ฟเวอร์ %(serverName)s\nการรบจะมีให้เป็นเวลาอีก %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "เซิร์ฟเวอร์ %(serverName)s\nการรบจะมีให้ภายใน %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "เซิร์ฟเวอร์ %(serverName)s\nการรบ \"%(leftDetailedSeasonName)s\" จบลงแล้ว"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "เซิร์ฟเวอร์ %(serverName)s\nการรบจะมีให้ภายใน %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "เซิร์ฟเวอร์ %(serverName)s\nการรบ \"%(leftDetailedSeasonName)s\" จบลงแล้ว"
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s วัน"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s ชม. %(min)s น."
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 นาที"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s นาที"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนทุกเซิร์ฟเวอร\nการรบจะมีให้ภายใน %(primeDelta)s"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "การรบ \"%(leftDetailedSeasonName)s\" จบลงแล้ว"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "รูปแบบนี้ไม่มีให้บนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนเซิร์ฟเวอร์ %(serverName)s จนถึง %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "รูปแบบนี้ไม่มีให้บนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนเซิร์ฟเวอร์ %(serverName)s\nการรบจะมีให้ภายใ%(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "การรบ \"%(leftDetailedSeasonName)s\" จบลงแล้ว"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "รูปแบบนี้ไม่มีให้บนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "การรบบนเซิร์ฟเวอร์ %(serverName)s จะเริ่มขึ้นใน %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "การรบ \"%(leftDetailedSeasonName)s\" ในเซิร์ฟเวอร์ %(serverName)s จบลงแล้ว"
+
+msgid "primeTimes/timeText/available"
+msgstr "การรบบนเซิร์ฟเวอร์ %(serverName)s จะมีให้เป็นเวลาอีก %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "การรบบนเซิร์ฟเวอร์ %(serverName)s จะเริ่มขึ้นใน %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "การรบ \"%(leftDetailedSeasonName)s\" ในเซิร์ฟเวอร์ %(serverName)s จบลงแล้ว"
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "การรบบนเซิร์ฟเวอร์ %(serverName)s จะเริ่มขึ้นใน %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "การรบ \"%(leftDetailedSeasonName)s\" ในเซิร์ฟเวอร์ %(serverName)s จบลงแล้ว"
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "คะแนน"
+
+msgid "progression/complete/affirmative"
+msgstr "รับทราบ!"
+
+msgid "progression/defaultCondition/text"
+msgstr "หาคะแนนแล้วไต่ความก้าวหน้าที่มี"
+
+msgid "progression/infinite/pointsEarned"
+msgstr "คะแนนที่ได้:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "ช่วงงานจบลงแล้ว การรบสิ้นสุดแล้ว"
+
+msgid "progression/questsList/quest/completed"
+msgstr "สำเร็จแล้ว:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "ทำซ้ำได้"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "จากการสำเร็จ:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "จากการแพ้:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "จากการชนะ:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "ได้รับ:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "ช่วงการแข่งจบลงใน: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "ช่วงการแข่งจบลงใน:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "การเปิดครั้งถัดไปใน:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "รางวัลด่านถัดไป - ปลดล็อคด้วย %(count)d คะแนน"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "คุณจะยังได้รับ:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "รับทราบ!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "ผู้การหมวดรถถังได้เปลี่ยนเป็นรูปแบบย่อย %(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "การเปลี่ยนรูปแบบย่อย"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} ระดับ&nbsp;%(levels)s"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "ประลองความเร็วนีออน"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "พุ่งไปสู่เส้นชัยแล้วหยุดคนอื่นไม่ให้ไปถึง ใช้การพุ่งไปข้างหน้าและโล่เพื่อสร้างความโกลาหลเพิ่มเติม"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "ระวัง: แท่นเคลื่อนที่"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "หลบเลเซอร์และกะเวลากระโดดให้ดีเพื่อไปให้ถึงเส้นชัย!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "ระวัง: เลเซอร์และการกระโดด"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "ในการอ่านเพิ่มเติมเกี่ยวกับรูปแบบนี้"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "กด"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "ประลองความเร็วนีออน"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "สู้ไปให้\nถึงเส้นชัย"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} ทุกระดับ"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาอื่นๆและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาอื่นๆและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพของคุณนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "ประลองความเร็วนีออน"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "ประลองความเร็วนีออน"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "\"ประลองความเร็วนีออน\""
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} ระดับ&nbsp;%(levels)s"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT 翻訳者 <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "弾倉再装填"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "閉じる"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "自動走行で後退"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "自動走行で前進"
+
+msgid "battleControls/disableLockTarget"
+msgstr "自動照準 OFF"
+
+msgid "battleControls/fire"
+msgstr "射撃"
+
+msgid "battleControls/hideInterface"
+msgstr "戦闘 UI の表示/非表示"
+
+msgid "battleControls/hideMinimap"
+msgstr "ミニマップの表示/非表示"
+
+msgid "battleControls/makeScreenshort"
+msgstr "スクリーンショットをフォルダにキャプチャ"
+
+msgid "battleControls/movementBackward"
+msgstr "後退"
+
+msgid "battleControls/movementForward"
+msgstr "前進"
+
+msgid "battleControls/movementLeft"
+msgstr "左旋回"
+
+msgid "battleControls/movementRight"
+msgstr "右旋回"
+
+msgid "battleControls/pageTitle"
+msgstr "一般情報"
+
+msgid "battleControls/showCursor"
+msgstr "カーソル表示"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(ミニマップ、プレイヤーリスト等の操作)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "詳細マーカーの表示"
+
+msgid "battleControls/stopFire"
+msgstr "停止"
+
+msgid "battleControls/switchAutorotation"
+msgstr "車体ロック / モード切り替え"
+
+msgid "battleControls/title"
+msgstr "戦闘モード"
+
+msgid "battleControls/toggleAFL"
+msgstr "装甲ハイライト ON/OFF"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "スナイパーモードでのみ使用可能"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "自動照準 ON/OFF"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "（目標を照準中に）"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "チームリスト表示/非表示"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "または「いいぞ」を返す"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "スナイパーモード ON/OFF"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "または自走砲モード"
+
+msgid "battleControls/voiceChatMute"
+msgstr "音声チャットの有効化"
+
+msgid "chatControls/change"
+msgstr "チーム宛 / 小隊宛"
+
+msgid "chatControls/enterToChatMode"
+msgstr "チャットモード開始"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "チャットモード終了"
+
+msgid "chatControls/send"
+msgstr "メッセージ送信"
+
+msgid "chatControls/title"
+msgstr "チャットモード"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "残弾数"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "被弾方向"
+
+msgid "crosshairControls/dispercion"
+msgstr "散布界"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "主砲の位置"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "プレイヤー HP"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "HP インジケータ"
+
+msgid "crosshairControls/hpValues"
+msgstr "目標の残りHP (%)"
+
+msgid "crosshairControls/marker"
+msgstr "照準点"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "主砲装填"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "主砲装填時間 (秒)"
+
+msgid "crosshairControls/targetClass"
+msgstr "車輌タイプマーカー"
+
+msgid "crosshairControls/targetDistance"
+msgstr "目標までの距離"
+
+msgid "crosshairControls/targetIcon"
+msgstr "車輌アイコン"
+
+msgid "crosshairControls/targetLevel"
+msgstr "車輌 Tier"
+
+msgid "crosshairControls/targetName"
+msgstr "車輌モデル / プレイヤー名"
+
+msgid "crosshairControls/title"
+msgstr "主砲・照準インジケータ"
+
+msgid "detailsHelp/default/title"
+msgstr "ヘルプ"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "マップを変える新メカニズム"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "「ランダムイベント」の発生が確定すると、\nマップ上の発生場所にスモークが発生し、ミニマップの対応する箇所にはマーカーが表示されます。 \n設定メニューの「一般」タブを開いて対応する項目からチェックを外すと、「ランダムイベント」マップにマッチしないように設定を変更できます。"
+
+msgid "detailsHelp/devMaps/title"
+msgstr "「ランダムイベント」が発生するマップ"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "「ランダムイベント」が発生するエリアでは、飛行機の墜落などに巻き込まれて自車輌が大破することがあります。\n設定メニューの「一般」タブを開いて対応する項目からチェックを外すと、「ランダムイベント」マップにマッチしないように設定を変更できます。"
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "この射撃システムを搭載した車輌は、射撃時に砲を自動で切り替えます。最初に発射された砲は自動的に再装填が始まり、2 つ目の砲はしばらくしてから射撃可能になります。"
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "速射"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "2 連装砲を搭載した車輌は、特定のキーを長押しすることで起動する特別な斉射機能を備えています。発射された砲弾は平行に飛びます。射撃をコントロールするボタンは設定画面にて変更可能です。"
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "斉射"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "戦況に応じて、エンジンモードの切り替えが可能です。ただし、切り替えを行うと、モジュールの状態にかかわらず車輌が一時的に完全停止するため、注意が必要です。"
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "移動の新メカニズム"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "エンジンモードを「ターボ」に切り替えるとエンジン出力、最大速度、後退速度が上昇します。ただし、「ターボ」モード使用中は隠蔽率や主砲安定性が低下するほか、照準時間も延長されます。"
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "長所と短所"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "マップを変える新メカニズム"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "「ローカルウェザー」が発生しているエリア外の車輌はエリア内の車輌を発見できず、またエリア内の車輌もエリア外にいる車輌を発見したり、エリア外の敵車輌の位置の情報共有をすることができません。火災が発生しているエリア内に留まると、車輌はダメージを受けます。"
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "ローカルウェザー"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "静止、または一定の速度以下で移動している間、「精度レベル」が「アナログ弾道演算装置」に貯まっていく。\nレベルが貯まるごとに次の射撃の精度が向上し、射撃を行うと効果はリセットされる。"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "アナログ弾道演算装置"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "最大レベルまで貯まると、射撃精度が大幅に向上するほか、移動や砲塔および車体の旋回に伴う散布界の拡大が著しく抑えられる。\n射撃を行うと効果はリセットされる。"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "最大レベル"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "非常に発射速度の高い自動火器の一種です。射撃精度は照準サークル内に表示されるインジケーターで確認できます。"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "自動連射砲"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "装填を挟まずに連続で砲撃できる主砲。砲撃を行うたびに熱が発生し、連続砲撃を続けると主砲が過熱して冷えるまで射撃不能となる。"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "過熱制御式自動連射砲"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "敵に砲弾を命中させるたびに、「装填レベル」が貯まっていく。貯まったレベルに応じて、主砲の装填速度が一時的に向上する。\n射撃により敵車輌を撃破すると、追加のレベルが貯まる。"
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "セミオート装填"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "主砲の装填が完了している間、次の射撃の平均与ダメージを向上させる「ヒート・レベル」が貯まっていく。レベルが貯まるほど、平均与ダメージへのボーナスも増加する。\n次のキーを押すとレベルの蓄積を開始できる。"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "放熱弾道チャージ"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "最大レベルまで貯まると、カウントダウンが始まり、カウントが終わるまでに射撃を行わないと、数秒間にわたり射撃不能になる。"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "チャージのオーバーヒート"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "敵車輌の装甲を2回貫通すると、「バースト・モード」が発動します。発動中は砲弾が挿弾子に装填され、2連射のバースト射撃になるため、特大の瞬間ダメージを与えることができます。"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "バースト・モード"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "「油気圧式ジャイロ安定装置」が発動すると、移動中、車体および砲塔の旋回中の主砲の安定性が短い間、最大まで向上する。これにより、さらに正確な射撃が可能になるほか、敵の奇襲に対して迅速に対応できるようになる。\n次のキーを押すことで発動できます。"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "油気圧式ジャイロ安定装置"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "「砲身冷却システム」を搭載した車輌は、射撃を行ってから一定時間が経過すると、散布界が縮小し、デフォルト状態よりも小さな照準サークルが表示されるようになります。砲身冷却の効果は射撃を行うまで持続します。"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "砲身冷却システム"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "砲弾カセットが残り1発になった時点で、次のカセットの装填が開始されます。\n次のカセットの装弾中でも現在のカセット内の最後の砲弾を撃つことができるものの、その場合、装填中のカセットの装填時間に数秒が加算されます。"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "カセット式装填システム"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "システムによって主砲が冷却状態に保たれ、射撃精度が向上する。発射すると主砲は加熱するものの、装填中に冷却が始まり、パラメーターが良好な値へと戻っていく。温度が高いほど、一部パラメーターの変動が大きくなる。"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "アクティブ砲身冷却システム"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "体当たり攻撃を強化するための特殊な改良が施されており、与える体当たりダメージが増加しています。"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "ラミング特化構成"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "本車輌の主砲は、装填が完全に終わるのを待たずとも射撃できるようになっている。装填中の射撃は「単一チャージ」砲撃となり、主砲の性能が低下する。一方で、装填完了後に発射する「完全チャージ」砲撃では、諸元通りの主砲性能が発揮される。"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "マルチチャージ機構"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "静止、または一定の速度以下で移動している間、次の射撃の平均ダメージと精度を向上させる「予熱レベル」が貯まっていく。\n自車輌が一定の速度を超えた場合、ボーナスが徐々に減っていく。また、射撃したり、弾種を変更したりすると、効果が即座にリセットされる。"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "サーモ推進制御システム"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "最大レベルまで貯まった状態で、ボーナスを加味した自車輌の平均ダメージよりHPが少ない敵車輌を貫通すると、必ず弾薬庫が誘爆する。"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "決定的ダメージ"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "直結駆動モードでは、エンジン出力と最大速度が大幅に上昇します。さらに、前進すればするほど速度が上がっていくようになり、マップを高速で駆け抜け、戦場を素早く移動できます。"
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "直結駆動モード"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "時間経過とともにシステムが自動的にチャージを蓄積し、砲撃時にその一部を消費してダメージを増加させる。チャージが多いほど、与ダメージへのボーナスも大きくなる。"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "電磁誘導アフターバーナー"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "デフォルトでは、システムは一定の上限までしかチャージを蓄積できない。リミッターを解除すると、さらに多くチャージを蓄積でき、より大きなダメージへのボーナスを得られるが、主砲の取り回しは悪化する。リミッターを解除するキー: "
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "リミッター"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "「液体燃料ブースター」を使用すると、短い間、機動性が大幅に向上し、素早く戦場を移動することができる。一方で、後退速度と旋回速度が下がる。「ブースター」は、オーバーヒート状態の時を除き、オンとオフを自由に切り替えられる。\n次のキーを押す、または長押しすることで「ブースター」を使用できる。"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "液体燃料ブースター"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "使用中は熱が蓄積していくため、クールダウンを挟まずに使用し続けることはできず、オーバーヒートすると、一時的に完全に使用不能になる。大きな隙を生むことを避けるには、計画的な使用が求められる。"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "オーバーヒート"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "「ジェットブースター」を発動すると車輌の機動性が上昇します。要所を抑える際や危険から逃れる際など様々な場面で役立ちます。ただし、「ジェットブースター」は1戦中に決められた回数しか使用できず、効果の持続時間にも制限が設けられています。モジュールとは異なり大破することはありません。"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "ジェットブースター"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "「ジェットブースター」を使用すると車輌のエンジン出力と最大前進速度が上昇します。ただし、同時に旋回性能と最大後退速度が低下するため注意が必要です。"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "長所と短所"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "数秒間、車輌の加速性能、機動性、俊敏性を強化する固体燃料スラスター。通常のジェットブースターと異なり、左右スラスターを独立作動させて車体旋回速度をさらに高められ、後退性能も制限されない。"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "連続式ロケット・スラスター"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "この車輌にはターボ・モードと交戦・モードが備わっており、いつでも切り替えることができる。戦術的バッテリーパックは発動中のモードのためにエネルギーを蓄積する。\n次のキーを押すことでモードを切り替えることができる。"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "2つのモード"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "戦術的バッテリーパックが完全にチャージされると、モード専用のアビリティーを使用できるようになる。アビリティーを発動すると、蓄積されたエネルギーをすべて消耗し、短い時間の間強力なボーナスが付与される。\n次のキーを押すことでモード専用のアビリティーを発動できる。"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "モード専用アビリティー"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "「外付け給弾モジュール」により、弾倉内の装填が1発でも終わっていれば、装填を中断して射撃できるようになっています。次のキーを押すと装填を中断または再開できます。"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "外付け給弾モジュール"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "装填中は、自車輌の砲塔と外付け給弾ポッドが、モジュールによりロックされ、装填を中断しない限り、一時的に照準や射撃ができなくなります。"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "外付け給弾モジュール"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "主砲とは独立した装填サイクルを持った「補助兵装」が搭載されています。これにより、重要な場面で追加のダメージを与えることができます。次のキーを押すと「補助兵装」を発動できます。"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "補助兵装"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "「レーザー照射器」を使用すると、次弾が敵車輌に命中した際に、その敵車輌の発見ステータスに応じた効果が発動する。\n次のキーを押すことで「レーザー照射器」を発動できる。"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "レーザー照射器"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "被発見状態の敵車輌に命中した場合、その車輌はマークされ、被発見状態の持続時間が延長されるとともに、射撃による被ダメージが増加する。\n非発見状態の敵車輌に命中した場合、その車輌の位置が専用のマーカーでハイライト表示される。"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "ターゲットをマーク"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "戦況に応じて砲撃方法を単発モードから斉射モードに切り替えることができます。"
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "切り替え式砲撃モードのメカニズム"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "斉射モードでは与ダメージが2倍になる一方で、装填時間も2倍になり、100 m*での散布界も拡大します。"
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "長所と短所"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "機械的な改良により、短時間、車輌の前進および後退時の加速性能、エンジン出力、そして最大前進速度と後退速度が大幅に向上する。使用後はクールダウンが必要なものの、高い移動速度を維持すると、クールダウンが短縮される。"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "高圧ターボチャージャー・アシスト"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "主要なキーが未割当です。ゲーム設定で割り当ててください。"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "このモードでは、射撃精度、装填速度、仰俯角が大幅に向上しますが、機動性 (前進、後退速度および垂直、水平方向への車体の旋回速度) が著しく制限されます。次のキーを%(pressAndHold)sするとモードを発動できます。"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "長押し"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "要塞モード"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "このモードでは、射撃精度と照準速度が向上し、俯仰角が拡大する一方で、機動性 (前進および後退速度) が低下します。次のキーを押すとモードを発動できます。"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "射撃モード"
+
+msgid "detailsHelp/role/description"
+msgstr "以下の条件を満たすとEXPにボーナスが加算されます"
+
+msgid "detailsHelp/role/title"
+msgstr "ロールに応じた立ち回り"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "主要履帯を切断されてもすぐさま移動不能に陥ることなく一定の機動性を維持できる特殊なメカニズムです。"
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "予備履帯"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "フランスの装輪式軽戦車はゲーム内屈指の走行性能を備えているものの、視認範囲はいたって平凡なほか、装輪車輌は静止状態だとその場で旋回できない点に注意が必要です。"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "合計"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "%(key2)sと%(key1)s を同時に長押ししてください。パワーバーのレベルはブーストのレベルを表します。%(key1)s キーを離すとブーストが発動します。%(key2)s キーを離すとブーストがキャンセルされます。ブーストを使用すると急加速することができるので、不意打ちや陽動にとても有効です。ご注意: ブーストは車輌が完全に停止した後に使用することができます。また、ブーストの使用は車輌のエンジンにダメージを与えます。"
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "ブースト"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "装輪車輌の場合、車輪で着地した際にはダメージが軽減されます。車輪が 1 つ大破しても移動不能には陥りません。大破した車輪の数に応じて速力と操縦性が低下します。装輪車輌は移動不能に陥りにくく、車輪が大破したとしても、時間経過により完全に修理されます。"
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "高耐久のサスペンション"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "%(key1)s を押してモード切り替え。モードによって速力、ダイナミクス、操縦性が異なっています。"
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "2 種類の移動モード"
+
+msgid "markerColors/enemy"
+msgstr "敵"
+
+msgid "markerColors/friend"
+msgstr "味方"
+
+msgid "markerColors/squadPlayer"
+msgstr "小隊隊員"
+
+msgid "markerColors/teamKiller"
+msgstr "チームキラー"
+
+msgid "markerColors/title"
+msgstr "マーカー色:"
+
+msgid "markerMarks/attack"
+msgstr "攻撃中"
+
+msgid "markerMarks/follow"
+msgstr "我に続け!"
+
+msgid "markerMarks/help"
+msgstr "救援を請う！"
+
+msgid "markerMarks/target/sau"
+msgstr "自走砲の目標"
+
+msgid "markerMarks/target/tank"
+msgstr "車輌の目標"
+
+msgid "markerMarks/title"
+msgstr "ミニマップのショートカット:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "防衛せよ！"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "防衛する！"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "この地点を照準中！"
+
+msgid "radialMenu/attack_enemy"
+msgstr "援護射撃を要請する！"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "目標を攻撃する！"
+
+msgid "radialMenu/attacking_base"
+msgstr "占領に向かう！"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "目標を攻撃する！"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "占領せよ！"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "防衛せよ！"
+
+msgid "radialMenu/attention_to_position"
+msgstr "この地点に注意せよ！"
+
+msgid "radialMenu/cancel_reply"
+msgstr "拒否！"
+
+msgid "radialMenu/defending_base"
+msgstr "防衛する！"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "攻撃せよ！"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "攻撃する！"
+
+msgid "radialMenu/going_there"
+msgstr "この地点に移動する！"
+
+msgid "radialMenu/helpMe"
+msgstr "救援を請う！"
+
+msgid "radialMenu/helpMeEx"
+msgstr "援護を要請する！"
+
+msgid "radialMenu/overheated_gun"
+msgstr "過熱した!"
+
+msgid "radialMenu/positive"
+msgstr "了解!"
+
+msgid "radialMenu/reloadingGun"
+msgstr "装填中！"
+
+msgid "radialMenu/reply_to_player"
+msgstr "了解！"
+
+msgid "radialMenu/supporting_ally"
+msgstr "援護する！"
+
+msgid "radialMenu/thanks"
+msgstr "感謝する！"
+
+msgid "radialMenu/turn_back"
+msgstr "後退せよ！"
+
+msgid "returnToGame"
+msgstr "Esc—ゲームに戻る"
+
+msgid "roleDescription/msg"
+msgstr "以下の条件を満たすとEXPにボーナスが加算されます"
+
+msgid "settings/button"
+msgstr "設定"
+
+msgid "settings/help"
+msgstr "操作方法を閲覧・カスタマイズするには「設定」をクリック"
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "目標の指定"
+
+msgid "teamComm/highlightLocation"
+msgstr "座標の指定"
+
+msgid "teamComm/show"
+msgstr "コマンドメニューの表示"
+
+msgid "teamComm/show/ext"
+msgstr "（コマンド内容は対象に応じて変化します）"
+
+msgid "teamComm/title"
+msgstr "チームコミュニケーション"
+
+msgid "vehicleTypes/title"
+msgstr "車輌マーカー"

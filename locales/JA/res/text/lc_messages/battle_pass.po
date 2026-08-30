@@ -1,0 +1,1652 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "awardsWidget/description/award"
+msgstr "報酬を選択して入手できます。"
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "一時的に報酬の選択を行うことができません。ご不便をお掛けして申し訳ありません。"
+
+msgid "awardsWidget/description/coin"
+msgstr "「バトルパス・トークン」で入手可能なアイテムを確認できます。"
+
+msgid "awardsWidget/description/collection"
+msgstr "「バトルパス・コレクション」を閲覧できます。"
+
+msgid "awardsWidget/description/collectionCompleted"
+msgstr "おめでとうございます！「バトルパス」の「コレクション」が完成しました！"
+
+msgid "awardsWidget/description/commander"
+msgstr "イベントの全報酬搭乗員を確認できます。"
+
+msgid "awardsWidget/description/taler"
+msgstr "過去のバトルパスに登場した報酬アイテムを確認できます。これらのアイテムは「チップ」または「ゴールド」で購入できます。"
+
+msgid "awardsWidget/description/ticket"
+msgstr "「引換券」を使用して報酬を入手できます。"
+
+msgid "awardsWidget/title/awardMultiple"
+msgstr "報酬を\n入手"
+
+msgid "awardsWidget/title/awardSingle"
+msgstr "報酬を\n入手"
+
+msgid "awardsWidget/title/coin"
+msgstr "トークン用\nアイテム"
+
+msgid "awardsWidget/title/collection"
+msgstr "コレクション"
+
+msgid "awardsWidget/title/commander"
+msgstr "搭乗員"
+
+msgid "awardsWidget/title/taler"
+msgstr "バトルパス\n保管庫"
+
+msgid "awardsWidget/title/ticket"
+msgstr "引換券"
+
+msgid "battleBonusX5"
+msgstr "取得EXP5倍ミッション"
+
+msgid "battlePassAwardsView/additionalRewards/bpBuyLevelAwardsText"
+msgstr "メイン進行ステージを達成したためリッチ報酬を入手しました。引き続きポイントを集めればさらなる報酬が手に入ります。"
+
+msgid "battlePassAwardsView/additionalRewards/bpRemainLevelsAwardsText"
+msgstr "非表示の報酬: %(remainingAwardsCount)s"
+
+msgid "battlePassAwardsView/additionalRewards/button"
+msgstr "了解！"
+
+msgid "battlePassAwardsView/additionalRewards/seeMoreButtonText"
+msgstr "報酬を確認"
+
+msgid "battlePassAwardsView/additionalRewards/subText"
+msgstr "他に受け取った報酬"
+
+msgid "battlePassAwardsView/footer/acceptButton"
+msgstr "了解！"
+
+msgid "battlePassAwardsView/footer/allChaptersText"
+msgstr "全チャプターの「リッチ報酬」がアンロックされました。"
+
+msgid "battlePassAwardsView/footer/boughtChapterText"
+msgstr "購入したステージの全報酬を入手しました。"
+
+msgid "battlePassAwardsView/footer/bpButtonTitle"
+msgstr "改良パスを入手"
+
+msgid "battlePassAwardsView/footer/bpDescriptionGotStyle"
+msgstr "新たなチャプターへの挑戦を開始すると限定スタイルが1つ手に入ります。そのチャプターを進めるにつれて自動的にアップグレードされ、見た目がより豪華に変化していきます。シーズン終了後に別途アップグレードを行うこともできます。"
+
+msgid "battlePassAwardsView/footer/bpInProgressTitle"
+msgstr "選択中のチャプターの「改良パス」を購入すると、今後ステージを達成した際に対応する「リッチ報酬」を受け取れるようになるだけでなく、達成済みのステージの全「リッチ報酬」を即座に入手できます。"
+
+msgid "battlePassAwardsView/footer/bpLastStagesTitle"
+msgstr "選択中のチャプターの「改良パス」を購入すると、達成済みのステージの全「リッチ報酬」を即座に入手できます。"
+
+msgid "battlePassAwardsView/footer/bpMoreTitle"
+msgstr "まだチャンスはあります！"
+
+msgid "battlePassAwardsView/footer/bpTitle"
+msgstr "改良パス"
+
+msgid "battlePassAwardsView/footer/getRewardsButton"
+msgstr "報酬を入手"
+
+msgid "battlePassAwardsView/footer/postProgressionButton"
+msgstr "「エリート・サイクル」へ"
+
+msgid "battlePassAwardsView/footer/postProgressionText"
+msgstr "「エリート・サイクル」に挑戦できるようになりました"
+
+msgid "battlePassAwardsView/header/bpAllChapters"
+msgstr "全チャプター"
+
+msgid "battlePassAwardsView/header/bpBoughtText"
+msgstr "改良パスの購入完了！"
+
+msgid "battlePassAwardsView/header/bpFinalLevelText"
+msgstr "最終ステージを達成！"
+
+msgid "battlePassAwardsView/header/bpLevelReceivedText"
+msgstr "ステージ%(currentLevel)sを達成！"
+
+msgid "battlePassAwardsView/header/bpLevelsText"
+msgstr "報酬を獲得！"
+
+msgid "battlePassAwardsView/header/bpRewardText"
+msgstr "報酬を獲得！"
+
+msgid "battlePassAwardsView/header/bpTitle"
+msgstr "【バトルパス】チャプター『%(chapter)s』"
+
+msgid "battlePassAwardsView/header/bpTitleWithoutChapter"
+msgstr "バトルパス"
+
+msgid "battlePassAwardsView/header/styleReceivedText"
+msgstr "スタイルを入手！"
+
+msgid "battlePassAwardsView/header/styleUpgradedText"
+msgstr "スタイルのアップグレード完了"
+
+msgid "battlePassAwardsView/mainReward/battlePassNewDeviceGiftToken"
+msgstr "好きな通常拡張パーツ"
+
+msgid "battlePassAwardsView/mainReward/battlePassTrophyGiftToken"
+msgstr "好きな報酬拡張パーツ"
+
+msgid "battlePassAwardsView/mainReward/bpBuyAwardsCaption"
+msgstr "チャプター『%(chapter)s』の全「リッチ報酬」がアンロックされました。"
+
+msgid "battlePassAwardsView/mainReward/bpBuyWithLevels"
+msgstr "チャプター『%(chapter)s』の全報酬を受け取りました。"
+
+msgid "battlePassAwardsView/mainReward/commander"
+msgstr "搭乗員「%(name)s」"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonText"
+msgstr "選択画面に移動"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonTitle"
+msgstr "※倉庫の「銃後支援物資」セクション"
+
+msgid "battlePassAwardsView/mainReward/reward"
+msgstr "勲章「%(name)s」"
+
+msgid "battlePassAwardsView/mainReward/style"
+msgstr "3Dスタイル「%(name)s」"
+
+msgid "battlePassAwardsView/mainReward/styleLevel1"
+msgstr "レベル I のスタイル「%(styleName)s」"
+
+msgid "battlePassAwardsView/mainReward/styleLevel2"
+msgstr "新たなレベルのスタイル「%(styleName)s」"
+
+msgid "battlePassAwardsView/mainReward/styleLevel3"
+msgstr "最高レベルのスタイル「%(styleName)s」"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonText"
+msgstr "選択画面に移動"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonTitle"
+msgstr "※倉庫の「銃後支援物資」セクション"
+
+msgid "battlePassBuyLevels/chapter"
+msgstr "チャプター『%(name)s』"
+
+msgid "battlePassBuyLevels/levelsSelected"
+msgid_plural "plural/battlePassBuyLevels/levelsSelected"
+msgstr[0] "%(count)sステージの購入費用:"
+msgstr[1] "%(count)sステージの購入費用:"
+msgstr[2] "%(count)sステージの購入費用:"
+
+msgid "battlePassBuyView/btnCancel"
+msgstr "キャンセル"
+
+msgid "battlePassBuyView/btnRewards"
+msgstr "%(count)s個の報酬を\nすべて表示"
+
+msgid "battlePassBuyView/confirm/btnBuy"
+msgstr "購入"
+
+msgid "battlePassBuyView/confirm/checkbox/stage"
+msgid_plural "plural/battlePassBuyView/confirm/checkbox/stage"
+msgstr[0] "残りステージ: %(stagesNumber)s"
+msgstr[1] "残りステージ: %(stagesNumber)s"
+msgstr[2] "残りステージ: %(stagesNumber)s"
+
+msgid "battlePassBuyView/confirm/description"
+msgstr "「改良パス」で以下の報酬が手に入ります。"
+
+msgid "battlePassBuyView/confirm/descriptionCheckboxChecked"
+msgstr "以下のチャプター報酬が即座に手に入ります。"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/buy"
+msgstr "オファーを見る"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/description"
+msgstr "本オファーはいずれのチャプターの「改良パス」も購入していない場合に限り有効です。"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/headline"
+msgstr "《%(count)sイン1》セット"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/packsAmount"
+msgstr "x%(amount)s"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/title"
+msgstr "全シーズン・チャプターの\n改良パス"
+
+msgid "battlePassBuyView/confirm/starterPack/description"
+msgstr "ボーナス %(purchaseText)s"
+
+msgid "battlePassBuyView/confirm/starterPack/purchaseText"
+msgstr "(購入時)"
+
+msgid "battlePassBuyView/descr"
+msgstr "ステージを購入すると、そのステージに含まれるすべての報酬が即座に手に入ります。"
+
+msgid "battlePassBuyView/reward/descriptionFutureRewards"
+msgstr "ステージを達成した際に以下の報酬が追加で手に入るようになります。"
+
+msgid "battlePassBuyView/reward/descriptionNowRewards"
+msgstr "ステージ%(steps)sの報酬を入手できます"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
+msgstr "以下の報酬が即座に手に入ります。"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
+msgstr "ステージ%(steps)sの報酬を入手できます"
+
+msgid "battlePassBuyView/reward/titleFutureRewards"
+msgstr "今後獲得できる報酬"
+
+msgid "battlePassBuyView/reward/titleNowRewards"
+msgstr "今すぐ獲得できる報酬"
+
+msgid "battlePassStatus/activateChapter"
+msgstr "バトルパス・チャプターへの挑戦を開始"
+
+msgid "battlePassStatus/improve"
+msgstr "「改良パス」は引き続き購入できます。"
+
+msgid "battlePassVehicleAwardView/button"
+msgstr "了解！"
+
+msgid "battlePassVehicleAwardView/content/description"
+msgstr "ポイント上限に達しました"
+
+msgid "battlePassVehicleAwardView/content/postTitle"
+msgstr "バトルパス・エリート進行"
+
+msgid "battlePassVehicleAwardView/content/subTitle"
+msgstr "獲得した報酬"
+
+msgid "battlePassVehicleAwardView/content/title"
+msgstr "バトルパス"
+
+msgid "battlepassTab"
+msgstr "バトルパス"
+
+msgid "chapter/fullName/10021"
+msgstr "ジュブルの歌"
+
+msgid "chapter/fullName/1114"
+msgstr "ジュブルの歌"
+
+msgid "chapter/fullName/200"
+msgstr "エリート・サイクル"
+
+msgid "chapter/fullName/201"
+msgstr "覆われし刻"
+
+msgid "chapter/fullName/202"
+msgstr "我らの運命"
+
+msgid "chapter/fullName/203"
+msgstr "砂の司令塔"
+
+msgid "chapter/fullName/205"
+msgstr "Far Cry"
+
+msgid "chapter/fullNameUppercased/10021"
+msgstr "ジュブルの歌"
+
+msgid "chapter/fullNameUppercased/1114"
+msgstr "ジュブルの歌"
+
+msgid "chapter/fullNameUppercased/201"
+msgstr "覆われし刻"
+
+msgid "chapter/fullNameUppercased/202"
+msgstr "我らの運命"
+
+msgid "chapter/fullNameUppercased/203"
+msgstr "砂の司令塔"
+
+msgid "chapter/fullNameUppercased/205"
+msgstr "FAR CRY"
+
+msgid "chapter/title"
+msgstr "チャプター%(chapter)s"
+
+msgid "chapterChoice/about"
+msgstr "バトルパスの概要"
+
+msgid "chapterChoice/activeChapter/postprogression/text"
+msgstr "挑戦中"
+
+msgid "chapterChoice/activeChapter/text"
+msgstr "挑戦中のチャプター"
+
+msgid "chapterChoice/chapterCompleted"
+msgstr "チャプターは完了済み"
+
+msgid "chapterChoice/chapterInfo/buttons/toChapter"
+msgstr "チャプターへ"
+
+msgid "chapterChoice/chapterInfo/buttons/toCrewMembers"
+msgstr "搭乗員を表示"
+
+msgid "chapterChoice/chapterInfo/buttons/toPostProgression"
+msgstr "進捗画面へ"
+
+msgid "chapterChoice/chapterInfo/deadline/date"
+msgstr "挑戦期限: %(endDate)s"
+
+msgid "chapterChoice/chapterInfo/deadline/time"
+msgstr "終了まで残り%(endTime)s"
+
+msgid "chapterChoice/confirmation/button/cancel"
+msgstr "キャンセル"
+
+msgid "chapterChoice/confirmation/button/submit"
+msgstr "挑戦"
+
+msgid "chapterChoice/confirmation/button/switch"
+msgstr "変更"
+
+msgid "chapterChoice/confirmation/description/select"
+msgstr "挑戦するチャプターはいつでも変更できます。"
+
+msgid "chapterChoice/confirmation/description/switch"
+msgstr "チャプター『%(chName)s』への挑戦が停止します。"
+
+msgid "chapterChoice/confirmation/extraChapterDescription/highlightText"
+msgstr "進められなく"
+
+msgid "chapterChoice/confirmation/extraChapterDescription/text"
+msgstr "%(icon)特別チャプターへの挑戦を開始すると、チャプターの終了または全ステージを制覇するまで「エリート・サイクル」を%(highlightText)なります。"
+
+msgid "chapterChoice/confirmation/title/select"
+msgstr "チャプター『%(chName)s』への挑戦を開始しますか？"
+
+msgid "chapterChoice/confirmation/title/switch"
+msgstr "挑戦するチャプターを『%(chName)s』に変更しますか？"
+
+msgid "chapterChoice/crewMember/reward"
+msgstr "搭乗員"
+
+msgid "chapterChoice/crewMember/reward/subTitle"
+msgstr "およびその他の搭乗員"
+
+msgid "chapterChoice/eliteCircuit/reward/subTitle"
+msgstr "繰り返し挑戦可能の進捗ステージ"
+
+msgid "chapterChoice/eliteCircuit/reward/title"
+msgstr "ボンズ、チップ、引換券"
+
+msgid "chapterChoice/extraChapter/reward"
+msgstr "プレミアム車輌"
+
+msgid "chapterChoice/freePoints/text"
+msgstr "未使用の進捗ポイント"
+
+msgid "chapterChoice/freePoints/tooltip/body"
+msgstr "いずれのチャプターにも挑戦していない場合でも、「バトルパス」を進めることで進捗ポイントは蓄積されます。チャプターへの挑戦を開始すると、蓄積されたポイントはそのチャプターに追加されます。"
+
+msgid "chapterChoice/freePoints/tooltip/header"
+msgstr "未使用のバトルパス進捗ポイント"
+
+msgid "chapterChoice/postprogression/locked"
+msgstr "全3チャプター制覇で\nアンロック可能"
+
+msgid "chapterChoice/postprogression/name"
+msgstr "追加ステージ"
+
+msgid "chapterChoice/postprogression/unlocked/cycle"
+msgstr "サイクル%(cycle)s"
+
+msgid "chapterChoice/stages/additional"
+msgstr " / ステージ%(level)s"
+
+msgid "chapterChoice/stages/complete/improved"
+msgstr "達成および改良済み"
+
+msgid "chapterChoice/stages/complete/unimproved"
+msgstr "さらに%(count)s個の報酬"
+
+msgid "chapterChoice/stylePreview/reward/subTitle"
+msgstr "%(vehicleName)s用"
+
+msgid "chapterChoice/stylePreview/reward/title"
+msgstr "3Dスタイル「%(styleName)s」"
+
+msgid "chapterChoice/vehicle/reward/subTitle"
+msgstr "%(vehicleName)s"
+
+msgid "chapterChoice/vehicle/reward/title"
+msgstr "プレミアム車輌"
+
+msgid "chapterChoice/vehicleStyle/reward/subTitle"
+msgstr "3Dスタイル「%(styleName)s」が付属"
+
+msgid "chapterChoice/vehicleStyle/reward/title"
+msgstr "%(vehicleName)s"
+
+msgid "chapterStatus/notSelected"
+msgstr "チャプターが未選択"
+
+msgid "chosenBonuses/bonus/battle_booster_gift"
+msgstr "好きなディレクティブ"
+
+msgid "chosenBonuses/bonus/blueprint_gift"
+msgstr "好きな国家の国別ピース"
+
+msgid "chosenBonuses/bonus/brochure_gift"
+msgstr "好きな国家の基礎教本"
+
+msgid "chosenBonuses/bonus/crewbook_gift"
+msgstr "好きな国家の中級教本"
+
+msgid "chosenBonuses/bonus/guide_gift"
+msgstr "好きな国家の初級教本"
+
+msgid "chosenBonuses/bonus/modernized_device_gift"
+msgstr "好きな試作拡張パーツ"
+
+msgid "chosenBonuses/bonus/new_device_gift"
+msgstr "好きな通常拡張パーツ"
+
+msgid "chosenBonuses/bonus/trophy_gift"
+msgstr "好きな報酬拡張パーツ"
+
+msgid "common/collectionText"
+msgstr "(コレクション・アイテム)"
+
+msgid "common/comma"
+msgstr "、"
+
+msgid "common/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "commonProgression/body/ended"
+msgstr "バトルパスを完了済み"
+
+msgid "crewBonusX3"
+msgstr "搭乗員EXP3倍ミッション"
+
+msgid "equipCoinBonus"
+msgstr "コンポーネント: %(count)s"
+
+msgid "finalReward/tankman/roles/commander"
+msgstr "車長"
+
+msgid "finalReward/tankman/roles/driver"
+msgstr "操縦手"
+
+msgid "finalReward/tankman/roles/gunner"
+msgstr "砲手"
+
+msgid "finalReward/tankman/roles/loader"
+msgstr "装填手"
+
+msgid "finalReward/tankman/roles/radioman"
+msgstr "無線手"
+
+msgid "holidayFinalScreen/buyState/buyButton"
+msgstr "改良パスを入手"
+
+msgid "holidayFinalScreen/buyState/description"
+msgstr "「改良パス」を購入すれば、限定3Dスタイルがセットになったプレミアム車輌と「リッチ報酬」のすべてが即座に手に入ります。"
+
+msgid "holidayFinalScreen/buyState/moreRewards"
+msgstr "その他の報酬: %(count)s個"
+
+msgid "holidayFinalScreen/buyState/title"
+msgstr "「改良パス」で「リッチ報酬」をアンロック"
+
+msgid "holidayFinalScreen/chapter"
+msgstr "%(chapterName)s"
+
+msgid "holidayFinalScreen/completed"
+msgstr "チャプターを制覇済み"
+
+msgid "holidayFinalScreen/finalState/button/showHangar"
+msgstr "ガレージに戻る"
+
+msgid "holidayFinalScreen/finalState/button/showVehicle"
+msgstr "ガレージで表示"
+
+msgid "holidayFinalScreen/finalState/label"
+msgstr "全報酬を入手済み"
+
+msgid "holidayFinalScreen/selectableRewardsState/button"
+msgstr "報酬を入手"
+
+msgid "holidayFinalScreen/selectableRewardsState/label"
+msgstr "入手できる報酬がまだあります。"
+
+msgid "holidayFinalScreen/tankmenState/description"
+msgstr "イベントの開催期間中、限定搭乗員が収録された各種のパックがショップに登場します。"
+
+msgid "holidayFinalScreen/tankmenState/tankmenButton"
+msgstr "音声パックを再生"
+
+msgid "holidayFinalScreen/tankmenState/title"
+msgstr "すべての限定搭乗員をその手に！"
+
+msgid "howToEarnPoints/battleRoyal/platoon"
+msgstr "小隊"
+
+msgid "howToEarnPoints/battleRoyal/solo"
+msgstr "ソロ"
+
+msgid "howToEarnPoints/battleTypeTitle/1"
+msgstr "ランダム戦"
+
+msgid "howToEarnPoints/battleTypeTitle/27"
+msgstr "フロントライン"
+
+msgid "howToEarnPoints/battleTypeTitle/29"
+msgstr "STEEL HUNTER"
+
+msgid "howToEarnPoints/battleTypeTitle/43"
+msgstr "オンスロート"
+
+msgid "howToEarnPoints/battleTypeTitle/49"
+msgstr "オンスロート・ライト"
+
+msgid "howToEarnPoints/bonus"
+msgstr "+%(bonus)s"
+
+msgid "howToEarnPoints/card/battle/linkText"
+msgstr "ミッションに移動"
+
+msgid "howToEarnPoints/card/battle/text"
+msgstr "「STEEL HUNTER」モードでミッションを達成すると報酬として進捗ポイントを取得できます。"
+
+msgid "howToEarnPoints/card/battle/title"
+msgstr "デイリーミッション"
+
+msgid "howToEarnPoints/card/comp7/text"
+msgstr "「オンスロート」モードでミッションを達成すると報酬として追加で「進捗ポイント」を取得できます。"
+
+msgid "howToEarnPoints/card/comp7/title"
+msgstr "デイリーミッション"
+
+msgid "howToEarnPoints/card/comp7Light/text"
+msgstr "「オンスロート・ライト」モードでミッションを達成すると報酬として追加で「進捗ポイント」を取得できます。"
+
+msgid "howToEarnPoints/card/comp7Light/title"
+msgstr "デイリーミッション"
+
+msgid "howToEarnPoints/card/daily/linkText"
+msgstr "ミッションを確認"
+
+msgid "howToEarnPoints/card/daily/text"
+msgstr "デイリーミッションを達成すると、さらに多くのポイントを取得できます。"
+
+msgid "howToEarnPoints/card/daily/title"
+msgstr "デイリーミッション"
+
+msgid "howToEarnPoints/card/epicBattlePoints/text"
+msgstr "「フロントライン」モードで次のTierに到達すると報酬として進捗ポイントを取得できます。"
+
+msgid "howToEarnPoints/card/epicBattlePoints/title"
+msgstr "フロントラインでのTier"
+
+msgid "howToEarnPoints/card/limitPoints/text"
+msgstr "どの車輌にも取得できるポイントの上限が設定されています。上限に到達することで、上限到達に対するボーナス・ポイントが手に入ります。"
+
+msgid "howToEarnPoints/card/limitPoints/title"
+msgstr "上限到達ボーナス"
+
+msgid "howToEarnPoints/card/specialVehicle/text"
+msgstr "シーズンの「コア車輌」では他の車輌よりも有利な条件で「進捗ポイント」を取得できます。"
+
+msgid "howToEarnPoints/card/specialVehicle/title"
+msgstr "シーズンのコア車輌"
+
+msgid "howToEarnPoints/condition/43"
+msgstr "取得プレステージ・ポイント"
+
+msgid "howToEarnPoints/condition/49"
+msgstr "取得プレステージ・ポイント"
+
+msgid "howToEarnPoints/condition/default"
+msgstr "取得EXP"
+
+msgid "howToEarnPoints/conditions"
+msgstr "取得条件"
+
+msgid "howToEarnPoints/description"
+msgstr "チャプターを進めて報酬を獲得するには、「バトルパス進捗ポイント」と呼ばれる専用リソースが必要になります。「ポイント」は、以下のモードで取得できます。"
+
+msgid "howToEarnPoints/earned"
+msgstr "{{icon}}"
+
+msgid "howToEarnPoints/extraPoints"
+msgstr "追加ポイント"
+
+msgid "howToEarnPoints/lose/1"
+msgstr "敗北 / 分け"
+
+msgid "howToEarnPoints/lose/27"
+msgstr "敗北"
+
+msgid "howToEarnPoints/lose/43"
+msgstr "敗北 / 分け"
+
+msgid "howToEarnPoints/lose/49"
+msgstr "敗北 / 分け"
+
+msgid "howToEarnPoints/plusBanner/line1"
+msgstr "「%(link)s」加入者はすべての通常チャプターで"
+
+msgid "howToEarnPoints/plusBanner/line2"
+msgstr "より多くのポイントを獲得できます。"
+
+msgid "howToEarnPoints/plusBanner/link"
+msgstr "WoT Plus Pro"
+
+msgid "howToEarnPoints/points"
+msgstr "ポイント"
+
+msgid "howToEarnPoints/rangeLevels/29"
+msgstr "%(startLevel)d～%(endLevel)d位"
+
+msgid "howToEarnPoints/rating"
+msgstr "TOP%(place)d"
+
+msgid "howToEarnPoints/rating/1"
+msgstr "取得EXPでTOP%(level)d"
+
+msgid "howToEarnPoints/rating/27"
+msgstr "取得EXPでTOP%(level)d"
+
+msgid "howToEarnPoints/rating/29"
+msgstr "取得EXPでTOP%(level)d"
+
+msgid "howToEarnPoints/rating/43"
+msgstr "プレステージ・ポイントでTOP%(level)d"
+
+msgid "howToEarnPoints/rating/49"
+msgstr "取得ポイントでTOP%(level)d"
+
+msgid "howToEarnPoints/singleLevel/29"
+msgstr "%(level)d位"
+
+msgid "howToEarnPoints/solo/29"
+msgstr "ソロプレイ"
+
+msgid "howToEarnPoints/squad/29"
+msgstr "小隊プレイ"
+
+msgid "howToEarnPoints/text/1"
+msgstr "Tier %(startLevel)s～%(endLevel)s"
+
+msgid "howToEarnPoints/text/27"
+msgstr "Tier %(level)s"
+
+msgid "howToEarnPoints/text/29"
+msgstr "専用車輌"
+
+msgid "howToEarnPoints/text/43"
+msgstr "Tier %(level)s"
+
+msgid "howToEarnPoints/text/49"
+msgstr "Tier %(level)s"
+
+msgid "howToEarnPoints/title"
+msgstr "ポイントの取得方法"
+
+msgid "howToEarnPoints/vehicle"
+msgstr "車輌"
+
+msgid "howToEarnPoints/vehicles"
+msgstr "コア車輌"
+
+msgid "howToEarnPoints/win/1"
+msgstr "勝利"
+
+msgid "howToEarnPoints/win/27"
+msgstr "勝利"
+
+msgid "howToEarnPoints/win/43"
+msgstr "勝利"
+
+msgid "howToEarnPoints/win/49"
+msgstr "勝利"
+
+msgid "intro/affirmative/button"
+msgstr "了解!"
+
+msgid "intro/next/button"
+msgstr "次へ"
+
+msgid "intro/seasonDescription/text"
+msgstr "「バトルパス・シーズンXVIII」ではシーズンのコア車輌にあたる「Maus」、「IS-7」、「AMX&nbsp;50&nbsp;B」専用の限定3Dスタイルを手に入れることができます。"
+
+msgid "intro/seasonDescription/title"
+msgstr "テーマに沿った新たな3Dスタイル"
+
+msgid "intro/title"
+msgstr "シーズンXVIII〈理想郷への路〉"
+
+msgid "lootBoxBonus"
+msgstr "%(boxName)s: %(count)s枚"
+
+msgid "navigation/buyLevels"
+msgstr "ステージの購入"
+
+msgid "navigation/buyLevelsRewards"
+msgstr "ステージ報酬"
+
+msgid "navigation/buyPass"
+msgstr "「改良パス」の購入"
+
+msgid "navigation/buyPassConfirm"
+msgstr "「改良パス」の購入"
+
+msgid "navigation/buyPassRewards"
+msgstr "改良パス報酬"
+
+msgid "navigation/chapterChoice"
+msgstr "バトルパス・シーズン%(seasonNum)s"
+
+msgid "navigation/holidayFinal"
+msgstr "バトルパス"
+
+msgid "navigation/intro"
+msgstr "バトルパス・シーズン%(seasonNum)s"
+
+msgid "navigation/postProgression"
+msgstr "バトルパス【エリート・サイクル】"
+
+msgid "navigation/progression"
+msgstr "バトルパス・チャプター"
+
+msgid "navigation/tankmenScreen"
+msgstr "限定搭乗員"
+
+msgid "points/top"
+msgstr "%(vehicle): 取得EXPで%(top)時に%(bonus)"
+
+msgid "points/topCount"
+msgstr "TOP%(top)s"
+
+msgid "points/transfer"
+msgstr "追加されたフリーポイント:"
+
+msgid "postProgressionView/footer/button/text"
+msgstr "チャプターへ"
+
+msgid "postProgressionView/footer/description/text"
+msgstr "全チャプターを制覇すると挑戦できるようになります。達成したチャプター: %(completedChapters)/%(chaptersAmount)"
+
+msgid "postProgressionView/footer/extraChapter/description/text"
+msgstr "プレミアム車輌1輌と『Far Cry』コラボ限定カスタマイズ要素が手に入ります。"
+
+msgid "postProgressionView/footer/extraChapter/title/text"
+msgstr "バトルパス〈Far Cry〉が開幕！"
+
+msgid "postProgressionView/footer/purchaseIP/banner/text"
+msgstr "「改良パス」でさらなる報酬をアンロック"
+
+msgid "postProgressionView/footer/purchaseIP/button/text"
+msgstr "購入"
+
+msgid "postProgressionView/header/description/active"
+msgstr "戦闘でポイントを獲得することで、報酬としてボンズや「引換券」が手に入ります"
+
+msgid "postProgressionView/header/description/onPause/highlight"
+msgstr "一時停止中"
+
+msgid "postProgressionView/header/description/onPause/regular"
+msgstr "特別チャプターを制覇すると挑戦できるようになります。"
+
+msgid "postProgressionView/header/headline/deadline"
+msgstr "挑戦期限: %(endDate)s"
+
+msgid "postProgressionView/header/headline/unlocked"
+msgstr "全チャプターを制覇"
+
+msgid "postProgressionView/header/title"
+msgstr "エリート・サイクル"
+
+msgid "postProgressionView/progression/currentStep"
+msgstr "現在のステージ"
+
+msgid "postProgressionView/progression/cyclesCompleted"
+msgstr "サイクルを完了した回数:"
+
+msgid "postProgressionView/progression/cyclicalProgression"
+msgstr "繰り返し挑戦可能"
+
+msgid "postProgressionView/toolbar/aboutBattlePass"
+msgstr "バトルパスの概要"
+
+msgid "postProgressionView/toolbar/howToEarnPoints"
+msgstr "進捗ポイントの取得方法"
+
+msgid "prestige/top"
+msgstr "%(vehicle): 取得プレステージ・ポイントで%(top)を達成すると%(bonus)"
+
+msgid "progression/about"
+msgstr "バトルパスの概要"
+
+msgid "progression/aboutExtra"
+msgstr "イベント概要"
+
+msgid "progression/activateChapter"
+msgstr "挑戦を開始"
+
+msgid "progression/activateChapterDescr"
+msgstr "チャプターを選択して「進捗ポイント」を集めると様々な報酬が手に入ります。"
+
+msgid "progression/activateExtraChapterDescr"
+msgstr "チャプターを選択して「進捗ポイント」を集めると様々な報酬が手に入ります。"
+
+msgid "progression/activatePausedExtraChapterDescr"
+msgstr "「進捗ポイント」を集めて挑戦中のチャプターを進めると様々な報酬が手に入ります。"
+
+msgid "progression/backToCurrentStageArrow/descr"
+msgstr "現在のステージに移動します。"
+
+msgid "progression/backToPotentialStageArrow/descr"
+msgstr "アンロックできるステージに移動します。"
+
+msgid "progression/baseProgressionDescr"
+msgstr "ベース報酬"
+
+msgid "progression/battlePassBuyBtn"
+msgstr "改良パスを入手"
+
+msgid "progression/battlePassBuyDescr"
+msgstr "「改良パス」を購入すると対応するチャプターの全「リッチ報酬」がアンロックされます。"
+
+msgid "progression/battlePassBuyDescrStarterPack"
+msgstr "「リッチ報酬」をアンロックしてボーナスを獲得"
+
+msgid "progression/battlePassBuyHolidayDescr"
+msgstr "「改良パス」を購入すると「リッチ報酬」のルートがアンロックされます。"
+
+msgid "progression/battlePassNextChapterBuyDescr"
+msgstr "このチャプターの「改良パス」を購入するには先行するチャプターを完了する必要があります。"
+
+msgid "progression/battlePassNextChapterEpisodesDescr"
+msgstr "このチャプターのステージを購入するには先行するチャプターを完了する必要があります。"
+
+msgid "progression/btnExtras"
+msgstr "新たな追加\nマテリアル"
+
+msgid "progression/btnExtrasTooltip"
+msgstr "ステージを達成すると新たなマテリアルをアンロックできます。アンロック済み: %(opened) / %(total)"
+
+msgid "progression/btnNoExtrasTooltip"
+msgstr "ステージを達成すると新たなマテリアルをアンロックできます。"
+
+msgid "progression/btnRewardSelect"
+msgstr "報酬を入手"
+
+msgid "progression/btnRewardSelectTooltip"
+msgstr "報酬を選択して入手できます。"
+
+msgid "progression/btnRewardsSelect"
+msgstr "報酬を入手"
+
+msgid "progression/btnRewardsUnavailable"
+msgstr "技術的な理由によりこの操作は一時的にご利用いただけません。ただいま問題の解決にあたっております。"
+
+msgid "progression/btnTokensStore"
+msgstr "トークン用\nアイテム"
+
+msgid "progression/btnTokensStoreTooltip"
+msgstr "トークンと交換できるアイテムを確認できます。\n所有中のトークンは%(bpcoinCount)枚です。"
+
+msgid "progression/chapterText"
+msgstr "チャプター %(chapter)s 『%(chapterName)s』"
+
+msgid "progression/currentStep"
+msgstr "現在のステージ"
+
+msgid "progression/currentStepLocked"
+msgstr "リッチ報酬"
+
+msgid "progression/episodeBuyBtn"
+msgstr "ステージを購入"
+
+msgid "progression/episodeBuyDescr"
+msgstr "ステージを購入すると対応する全報酬が手に入ります。"
+
+msgid "progression/episodeBuyDisableDescr"
+msgstr "ステージを好きなだけ購入できるようになるまで残り%(day)"
+
+msgid "progression/error"
+msgstr "技術的な理由により「バトルパス」は一時的にご利用いただけません。\n進捗はすべて保存されます。ご不便をお掛けして申し訳ありません。"
+
+msgid "progression/errorBtn"
+msgstr "ガレージへ"
+
+msgid "progression/extraChapterWidget/commanderVoices"
+msgstr "その他"
+
+msgid "progression/extraChapterWidget/forLabel"
+msgstr "%(vehicleName)s専用"
+
+msgid "progression/extraChapterWidget/inHangarTooltip"
+msgstr "所有中"
+
+msgid "progression/extraChapterWidget/labelWithBP"
+msgstr "「改良パス」を要購入"
+
+msgid "progression/extraChapterWidget/style3DTitle"
+msgstr "3Dスタイル"
+
+msgid "progression/extraChapterWidget/styleName"
+msgstr "%(styleName)s"
+
+msgid "progression/extraChapterWidget/styleRemark"
+msgstr "「改良パス」を要購入"
+
+msgid "progression/extraChapterWidget/styleSubTitle"
+msgstr "%(vehicleName)s専用ミッション"
+
+msgid "progression/extraChapterWidget/styleTitle"
+msgstr "スタイル"
+
+msgid "progression/extraChapterWidget/tank"
+msgstr "プレミアム車輌"
+
+msgid "progression/extraChapterWidget/tank/description/14"
+msgstr "D-デイの80周年を\n記念した車輌"
+
+msgid "progression/extraChapterWidget/tankName"
+msgstr "%(vehicleName)s"
+
+msgid "progression/extraChapterWidget/tankman"
+msgstr "搭乗員"
+
+msgid "progression/extraChapterWidget/timer"
+msgstr "チャプターの終了まで残り"
+
+msgid "progression/extraChapterWidget/vehicleCaption"
+msgstr "プレミアム車輌"
+
+msgid "progression/extraChapterWidget/vehicleSubTitle"
+msgstr "3Dスタイル「%(styleName)s」付き"
+
+msgid "progression/extraChapterWidget/voiceoverTooltip"
+msgstr "限定搭乗員のオリジナル音声パックを視聴できます。"
+
+msgid "progression/footer/starter_pack/equal"
+msgstr "="
+
+msgid "progression/footer/status/inactive"
+msgstr "チャプターは未挑戦"
+
+msgid "progression/footer/status/paused"
+msgstr "チャプターは停止中。"
+
+msgid "progression/freePointsDescr"
+msgstr "未使用の進捗ポイント: "
+
+msgid "progression/header/chapter/status"
+msgstr "チャプター『%(chapterName)s』"
+
+msgid "progression/header/inactive"
+msgstr "（未挑戦）"
+
+msgid "progression/header/paused"
+msgstr "（停止中）"
+
+msgid "progression/howToEarnPoints/title"
+msgstr "ポイントの取得方法"
+
+msgid "progression/pausedStep"
+msgstr "ステージ"
+
+msgid "progression/postProgressionDescr"
+msgstr "エリート進行"
+
+msgid "progression/premiumProgressionDescr"
+msgstr "リッチ報酬"
+
+msgid "progression/progressionArrow"
+msgstr "ステージを\nすべて確認"
+
+msgid "progression/progressionChapterArrow"
+msgstr "チャプター%(chapter)"
+
+msgid "progression/progressionChapterGoTo"
+msgstr "移動"
+
+msgid "progression/season/end/normal"
+msgstr "シーズン%(seasonNum)s〈%(seasonName)s〉の終了日: %(endDate)s"
+
+msgid "progression/season/end/special"
+msgstr "終了日: %(endTime)s"
+
+msgid "progression/seasonEndingDescr"
+msgstr "イベント終了まで残り"
+
+msgid "progression/seasonEndingTooltip"
+msgstr "終了まで残り{day}日"
+
+msgid "progression/takeReward"
+msgstr "報酬を入手"
+
+msgid "progression/universalCommander"
+msgstr "特別搭乗員"
+
+msgid "progression/widget3dStyle/currentStyle"
+msgstr "スタイル「%(name)」"
+
+msgid "progression/widget3dStyle/forVehicle"
+msgstr "専用車輌: "
+
+msgid "progression/widget3dStyle/titleForClosedChapter"
+msgstr "先行するチャプターを完了すると\nスタイルを選択できます"
+
+msgid "progression/widget3dStyle/titleForLastChapter"
+msgstr "スタイルを入手すると\n即座に適用できます"
+
+msgid "progression/widget3dStyle/titleNoChapterSelected"
+msgstr "スタイルの入手にはチャプターを要選択"
+
+msgid "progression/widget3dStyle/viewStyles"
+msgstr "全スタイルを閲覧"
+
+msgid "questChainBonus"
+msgstr "一連のミッション"
+
+msgid "randomQuestBonus"
+msgstr "%(vehicle)s専用のミッション"
+
+msgid "reward/postBattle/comp7/progress"
+msgstr "取得した進捗ポイント:"
+
+msgid "reward/postBattle/comp7/progress/tooltip"
+msgstr "プレステージ・ポイントでの上位達成に対する報酬として取得したポイント: %(points)d"
+
+msgid "reward/postBattle/progress"
+msgstr "ステージ進捗:"
+
+msgid "reward/postBattle/progress/battle/tooltip"
+msgstr "順位に基づいて取得した進捗ポイント"
+
+msgid "reward/postBattle/progress/bonus/tooltip"
+msgstr "上限到達により取得した進捗ポイント"
+
+msgid "reward/postBattle/progress/points"
+msgstr "【バトルパス】取得した進捗ポイント"
+
+msgid "reward/postBattle/progress/points/battle"
+msgstr "順位に基づいて取得した進捗ポイント:"
+
+msgid "reward/postBattle/progress/points/bonus"
+msgstr "上限到達により取得した進捗ポイント:"
+
+msgid "reward/postBattle/progress/points/quest"
+msgstr "ミッション達成により取得した進捗ポイント:"
+
+msgid "reward/postBattle/progress/points/wotPlusCore"
+msgstr "「WoT Plus Pro」のボーナス"
+
+msgid "reward/postBattle/progress/points/wotPlusPro"
+msgstr "「WoT Plus Pro」のボーナス"
+
+msgid "reward/postBattle/progress/pointsAux"
+msgstr "取得した進捗ポイント:"
+
+msgid "reward/postBattle/progress/pointsAux/tooltip"
+msgstr "追加されたフリーポイント"
+
+msgid "reward/postBattle/progress/quests/tooltip"
+msgstr "ミッション達成により取得した進捗ポイント"
+
+msgid "reward/postBattle/progress/tooltip"
+msgstr "ステージ進捗"
+
+msgid "reward/postBattle/title"
+msgstr "チャプター『%(chapter)s』ステージ%(level)d"
+
+msgid "reward/postBattle/title/free"
+msgstr "【バトルパス】取得したフリーポイント"
+
+msgid "reward/postBattle/title/postProgression"
+msgstr "「エリート・サイクル」のステージ%(level)d"
+
+msgid "rewardChoice/crewBook/rewardDescription"
+msgstr "EXPを選択した%(nation)s車輌の各搭乗員に付与する。"
+
+msgid "rewardChoice/subTitle"
+msgstr "報酬を選択可能"
+
+msgid "rewardChoice/title"
+msgstr "バトルパス"
+
+msgid "rewardChoice/titleChapter"
+msgstr "【バトルパス】チャプター『%(chapter)s』"
+
+msgid "rewardChoice/titleChapterLevel"
+msgstr "【バトルパス】チャプター『%(chapter)s』ステージ%(level)s"
+
+msgid "season/fullName/1002"
+msgstr "ジュブルの歌"
+
+msgid "season/fullName/20"
+msgstr "砂上の轍を辿って"
+
+msgid "season/fullNameUppercased/1002"
+msgstr "ジュブルの歌"
+
+msgid "season/fullNameUppercased/20"
+msgstr "砂上の轍を辿って"
+
+msgid "selectBonus/battle_booster_gift"
+msgstr "好きなディレクティブ"
+
+msgid "selectBonus/blueprint_gift"
+msgstr "好きな国家の国別ピース"
+
+msgid "selectBonus/brochure_gift"
+msgstr "好きな国家の基礎教本"
+
+msgid "selectBonus/crewbook_gift"
+msgstr "好きな国家の中級教本"
+
+msgid "selectBonus/guide_gift"
+msgstr "好きな国家の初級教本"
+
+msgid "selectBonus/modernized_device_gift"
+msgstr "好きな試作拡張パーツ"
+
+msgid "selectBonus/new_device_gift"
+msgstr "好きな通常拡張パーツ"
+
+msgid "selectBonus/trophy_gift"
+msgstr "好きな報酬拡張パーツ"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s日"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s時間"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1分"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s分"
+
+msgid "styleProgressBonus"
+msgstr "スタイル「%(styleName)s」をレベル%(level)sにアップグレード"
+
+msgid "styleProgression/finalLevel"
+msgstr "最高レベルのスタイル\n「%(styleName)s」"
+
+msgid "styleProgression/newLevel"
+msgstr "新たなレベルのスタイル\n「%(styleName)s」"
+
+msgid "styleProgression/newStyle"
+msgstr "レベル I のスタイル\n「%(styleName)s」"
+
+msgid "tankmenVoiceover/chapterButton"
+msgstr "チャプターへ"
+
+msgid "tankmenVoiceover/inShop"
+msgstr "限定パックに収録"
+
+msgid "tankmenVoiceover/listen"
+msgstr "試聴"
+
+msgid "tankmenVoiceover/notFull"
+msgstr "入手済み: %(count)s / %(availableCount)s"
+
+msgid "tankmenVoiceover/progression"
+msgstr "ステージ%(progressionLevel)sで入手可能"
+
+msgid "tankmenVoiceover/received"
+msgstr "入手済み"
+
+msgid "tankmenVoiceover/shopButton"
+msgstr "ショップへ"
+
+msgid "tankmenVoiceover/title"
+msgstr "限定搭乗員"
+
+msgid "tankmenVoiceover/unavailable"
+msgstr "入手不可"
+
+msgid "title/earningPoints"
+msgstr "ポイントの取得方法"
+
+msgid "title/freePoints"
+msgstr "フリーポイント"
+
+msgid "title/stage"
+msgstr "ステージ{{level}}"
+
+msgid "tooltip/cardButton/disabled/body"
+msgstr "こちらの操作は現在実行できません。時間をおいて再度お試しください。"
+
+msgid "tooltip/freePoints/body"
+msgstr "「フリーポイント」は蓄積され、新しいバトルパス・チャプターへの挑戦を開始すると、アカウントに自動的に追加されます。"
+
+msgid "tooltip/freePoints/header"
+msgstr "フリーポイント"
+
+msgid "tooltip/lock"
+msgstr "こちらの報酬を獲得するには「改良パス」を購入する必要があります。"
+
+msgid "tooltips/RandomQuestTooltip/condition"
+msgstr "条件: %(condition)"
+
+msgid "tooltips/RandomQuestTooltip/expireTime"
+msgstr "ミッションは%(whiteSpanish_Open)s%(month)s%(day)s日まで%(whiteSpanish_Close)s挑戦可能"
+
+msgid "tooltips/RandomQuestTooltip/rewards/consumables"
+msgstr "%(whiteSpanish_Open)s消耗品%(whiteSpanish_Close)s「救急キット」、「修理キット」、「自動消火装置」"
+
+msgid "tooltips/RandomQuestTooltip/rewards/directives"
+msgstr "拡張パーツ用の%(whiteSpanish_Open)sディレクティブ%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/money"
+msgstr "%(whiteSpanish_Open)sクレジット、ボンズ、フリーEXP%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/personal_reserves"
+msgstr "%(whiteSpanish_Open)sパーソナルリザーブ%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/premium"
+msgstr "%(whiteSpanish_Open)sWoTプレミアムアカウント%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/standardEquipment"
+msgstr "%(whiteSpanish_Open)s通常拡張パーツ%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewardsTitle"
+msgstr "ミッションは毎日1回まで達成でき、その度に以下の報酬のいずれかひとつが手に入ります。"
+
+msgid "tooltips/RandomQuestTooltip/title"
+msgstr "%(vehicleName)専用のミッション"
+
+msgid "tooltips/battlePassCoins/secondaryText"
+msgstr "トークンは今年のバトルパスの全3シーズンを通して取得できます。ご利用は慎重に！"
+
+msgid "tooltips/battlePassCoins/text"
+msgstr "「バトルパス」で特定のステージを達成した際に取得できる特殊なゲーム内リソースです。ショップの「トークン用アイテム」セクションで貴重なアイテムと交換できます。"
+
+msgid "tooltips/battlePassCoins/title"
+msgstr "バトルパス・トークン"
+
+msgid "tooltips/battlePassPoints/completed"
+msgstr "すでに全チャプターを制覇しています。"
+
+msgid "tooltips/battlePassPoints/description"
+msgstr "バトルパスの進捗に自動的に追加されます。"
+
+msgid "tooltips/battlePassPoints/title"
+msgstr "バトルパス進捗ポイント"
+
+msgid "tooltips/battlePassQuestsChain/secondaryText"
+msgstr "ミッションは「グランドバトル」を含む「ランダム戦」モード限定です。"
+
+msgid "tooltips/battlePassQuestsChain/text"
+msgstr "達成すると追加報酬が手に入る一連のミッションがアンロックされます。"
+
+msgid "tooltips/battlePassQuestsChain/title"
+msgstr "一連のミッションへのアクセス"
+
+msgid "tooltips/battlePassTaler/secondaryText"
+msgstr "「チップ」はバトルパスのステージを進めることで獲得できます。"
+
+msgid "tooltips/battlePassTaler/text"
+msgstr "「チップ」は「バトルパス保管庫」でリソースや過去のバトルパスに登場したカスタマイズ要素や搭乗員などを購入する際に使用できます。"
+
+msgid "tooltips/battlePassTaler/title"
+msgstr "チップ"
+
+msgid "tooltips/claimRewards/0"
+msgstr "全ベース報酬を獲得済み"
+
+msgid "tooltips/claimRewards/1"
+msgstr "達成したステージの報酬を選択可能"
+
+msgid "tooltips/claimRewards/multiple"
+msgstr "達成したステージの報酬を選択可能"
+
+msgid "tooltips/commanders/chose"
+msgstr "または"
+
+msgid "tooltips/commanders/descr"
+msgstr "最終ステージを達成すると報酬として特別搭乗員を1名入手できます。"
+
+msgid "tooltips/commanders/title"
+msgstr "特別搭乗員1名"
+
+msgid "tooltips/completed/claimRewards"
+msgstr "全報酬を獲得済み"
+
+msgid "tooltips/completed/finalLevel"
+msgstr "全チャプターを完了済み"
+
+msgid "tooltips/completed/got"
+msgstr "報酬獲得済み"
+
+msgid "tooltips/completed/message"
+msgstr "集めた「進捗ポイント」をゲーム内ショップの「ポイント用アイテム」セクションで貴重なアイテムと交換できます。"
+
+msgid "tooltips/completed/oneChapterSubTitle"
+msgstr "チャプターを制覇済み"
+
+msgid "tooltips/completed/rewardsObtained"
+msgstr "全ベース報酬を獲得済み"
+
+msgid "tooltips/completed/subTitle"
+msgstr "全チャプターの制覇に成功"
+
+msgid "tooltips/completed/tankmenNotRecieved"
+msgstr "ショップで限定パックを購入すると、さらなる限定搭乗員を入手できます。"
+
+msgid "tooltips/completed/title"
+msgstr "バトルパス"
+
+msgid "tooltips/entryPoint/disabled/body"
+msgstr "技術的な理由により「バトルパス」は一時的にご利用いただけません。\n進捗はすべて保存されます。ご不便をお掛けして申し訳ありません。"
+
+msgid "tooltips/entryPoint/disabled/header"
+msgstr "バトルパスは一時的に利用不可"
+
+msgid "tooltips/entryPoint/disabled/mapbox"
+msgstr "技術的な理由により「先行偵察ミッション」モードでは一時的に「バトルパス」を利用できません。\n進捗はすべて保存されます。ご不便をお掛けして申し訳ありません。"
+
+msgid "tooltips/extra/daysAndHours"
+msgstr "%(D)s日%(H)s時間"
+
+msgid "tooltips/extra/min"
+msgstr "%(m)s分"
+
+msgid "tooltips/footerBuyBtn/activateChapter/descr"
+msgstr "チャプターを選択して「進捗ポイント」を集めると様々な報酬が手に入ります。"
+
+msgid "tooltips/footerBuyBtn/battlePass/descr"
+msgstr "「改良パス」はいつでも購入できます。購入が完了すると対応するチャプターのステージを達成した際に「ベース報酬」と「リッチ報酬」の両方を入手できるようになるのはもちろん、達成済みの全ステージの「リッチ報酬」を即座に受け取ることができます。"
+
+msgid "tooltips/footerBuyBtn/battlePass/nextChapter"
+msgstr "このチャプターのステージを購入するには先行するチャプターを完了する必要があります。"
+
+msgid "tooltips/footerBuyBtn/episode/descr"
+msgstr "ステージを購入すると対応する「ベース報酬」と「リッチ報酬」を即座に入手できます。なお、ステージの購入は挑戦中のチャプターでしか行うことができません。"
+
+msgid "tooltips/footerBuyBtn/episode/holidayDescr"
+msgstr "ステージを購入すると、対応する「ベース報酬」と「リッチ報酬」の両方を入手できます。"
+
+msgid "tooltips/goldMission/description"
+msgstr "%(highlight)s 戦闘を行わなかった日にはゴールドが手に入りません。"
+
+msgid "tooltips/goldMission/highlightedDescription"
+msgstr "注意！"
+
+msgid "tooltips/goldMission/text"
+msgstr "%(duration)sが経過するまで「ランダム戦」モードで1回戦闘を行うだけで毎日%(icon)s %(count)s ゴールドが手に入ります。"
+
+msgid "tooltips/goldMission/textDuration"
+msgstr "%(days)s日"
+
+msgid "tooltips/goldMission/title"
+msgstr "デイリー・ゴールド"
+
+msgid "tooltips/iconLock/descr1"
+msgstr "「改良パス」を購入すると対応するチャプターの「リッチ報酬」ルートがアンロックされ、新たなステージに到達する度に「ベース報酬」に加えて「リッチ報酬」を入手できるようになります。どのチャプターにも独自の「改良パス」が用意されています。"
+
+msgid "tooltips/iconLock/descr2"
+msgstr "「改良パス」はいつでも購入できます。購入が完了すると対応するチャプターですでに達成しているステージの全「リッチ報酬」が即座に手に入ります。購入は「バトルパス」画面の「改良パスを入手」ボタンで行うことができます。"
+
+msgid "tooltips/iconLock/holidayDescr1"
+msgstr "「改良パス」を購入すると「ベース報酬」に加えて「リッチ報酬」のルートがアンロックされるため、ステージ達成時に手に入る報酬の量が増加します。"
+
+msgid "tooltips/iconLock/holidayDescr2"
+msgstr "「改良パス」は、「バトルパス」画面の「改良パスを入手」ボタンを押すことでいつでも購入できます。購入が完了すると達成済みのステージの全「リッチ報酬」が即座に手に入ります。"
+
+msgid "tooltips/iconLock/title"
+msgstr "バトルパスのリッチ報酬"
+
+msgid "tooltips/inProgress/baseReward"
+msgstr "ベース報酬"
+
+msgid "tooltips/inProgress/battleRoyale"
+msgstr "STEEL HUNTER"
+
+msgid "tooltips/inProgress/chapter"
+msgstr "チャプター「%(name)」"
+
+msgid "tooltips/inProgress/epic"
+msgstr "フロントライン"
+
+msgid "tooltips/inProgress/getPointsFrom"
+msgstr "「%(battleType)s」でのポイント取得ルール"
+
+msgid "tooltips/inProgress/hurryUp"
+msgstr "「改良パス」を購入すると達成済みのステージの全「リッチ報酬」を即座に入手できます。"
+
+msgid "tooltips/inProgress/improvedReward"
+msgstr "リッチ報酬"
+
+msgid "tooltips/inProgress/level"
+msgstr "現在のステージ"
+
+msgid "tooltips/inProgress/playGame/comp7"
+msgstr "「%(bond_Open)sオンスロート%(bond_Close)s」モードでのポイント取得ルール"
+
+msgid "tooltips/inProgress/playGame/comp7_light"
+msgstr "Tier VIII車輌同士による「%(bond_Open)sオンスロート・ライト%(bond_Close)s」でのポイントの取得ルールは以下の通りです。"
+
+msgid "tooltips/inProgress/playGame/mapbox"
+msgstr "「%(bond_Open)s先行偵察ミッション%(bond_Close)s」モードにおけるTier VIII～X車輌での「バトルパス進捗ポイント」の取得ルールは以下の通りです。"
+
+msgid "tooltips/inProgress/playGame/randoms"
+msgstr "「%(bond_Open)sランダム戦%(bond_Close)s」でTier IV～XI車輌を使用して戦闘に参加した際のポイント取得ルールは以下の通りです。"
+
+msgid "tooltips/inProgress/playGame/ranked"
+msgstr "Tier X車輌同士による「ランク戦」でのポイントの\n取得ルールは以下の通りです。"
+
+msgid "tooltips/inProgress/playGame/winback"
+msgstr "%(bond_Open)s「ランダム戦」と「ウォームアップ」モード%(bond_Close)sでTier IV～XI車輌を使用して戦闘に参加した際のポイント取得ルールは以下の通りです。"
+
+msgid "tooltips/inProgress/postProgression/header"
+msgstr "エリート・サイクル"
+
+msgid "tooltips/inProgress/timeLeft"
+msgstr "バトルパスの残り期間"
+
+msgid "tooltips/inProgress/wotPlusProFooter"
+msgstr "「WoT Plus Pro」での獲得量"
+
+msgid "tooltips/notChosen/description"
+msgstr "「バトルパス」でステージを進めて様々な報酬を入手するには挑戦するチャプターを選択する必要があります。"
+
+msgid "tooltips/notChosen/points"
+msgstr "未使用の進捗ポイント: %(points)"
+
+msgid "tooltips/notChosen/subTitle"
+msgstr "チャプターを要選択"
+
+msgid "tooltips/notChosen/title"
+msgstr "バトルパス"
+
+msgid "tooltips/notStarted/date"
+msgstr "%(month)s%(day)s日"
+
+msgid "tooltips/plusBanner/text"
+msgstr "{{@ style (color $color1)}}【バトルパス・プラス】{{/}}「{{@ style (color $color2)}}WoT Plus Pro{{/}}」に加入すると利用できるようになります。「バトルパス進捗ポイント」をさらに多く獲得できるようになります（特別チャプターは対象外）。"
+
+msgid "tooltips/points/footer"
+msgstr "「進捗ポイントの取得方法」画面でさらに詳しい情報を確認できます。"
+
+msgid "tooltips/points/rules"
+msgstr "「ランダム戦」モードでのポイント取得ルール"
+
+msgid "tooltips/points/specialVehicles"
+msgstr "シーズンのコア車輌ではより多くの進捗ポイントを取得できます。"
+
+msgid "tooltips/points/subtitle"
+msgstr "「バトルパス」でステージを進めるには「バトルパス進捗ポイント」を集める必要があります。「進捗ポイント」は、「ランダム戦」モード (Tier IV以上の車輌限定) やその他の対応するモードで好成績を収めることで取得できるほか、デイリーミッションなど特定のミッションを達成した際や、車輌毎に設けられた「ポイント上限」に到達した際にも手に入ります。"
+
+msgid "tooltips/points/title"
+msgstr "バトルパス進捗ポイント"
+
+msgid "tooltips/pointsTable/header"
+msgstr "取得条件"
+
+msgid "tooltips/pointsTable/lose"
+msgstr "敗北/引き分け"
+
+msgid "tooltips/pointsTable/loseWithoutDraw"
+msgstr "敗北"
+
+msgid "tooltips/pointsTable/place"
+msgstr "%(place)位"
+
+msgid "tooltips/pointsTable/places"
+msgstr "%(place)位"
+
+msgid "tooltips/pointsTable/solo"
+msgstr "ソロ"
+
+msgid "tooltips/pointsTable/squad"
+msgstr "小隊"
+
+msgid "tooltips/pointsTable/topPlace"
+msgstr "取得EXPでTOP%(place)"
+
+msgid "tooltips/pointsTable/win"
+msgstr "勝利"
+
+msgid "tooltips/postProgress/body"
+msgstr "「メイン進行」のステージ%(maxLevelBase)を達成すると、「エリート進行」が始まります。「改良パス」がなくても挑戦することができ、ステージを達成する度に貴重なゲーム内通貨が手に入ります。"
+
+msgid "tooltips/postProgress/header"
+msgstr "エリート進行"
+
+msgid "tooltips/prestigePoints/lose"
+msgstr "敗北 / 引き分け"
+
+msgid "tooltips/prestigePoints/loseWithoutDraw"
+msgstr "敗北"
+
+msgid "tooltips/prestigePoints/topPlace"
+msgstr "取得プレステージ・ポイントでTOP%(place)"
+
+msgid "tooltips/prestigePoints/win"
+msgstr "勝利"
+
+msgid "tooltips/progression/freePoints/body"
+msgstr "チャプターをひとつも選択していない状態で取得した「進捗ポイント」は自動的に蓄積され、特定のチャプターへの挑戦を開始した際にその進捗に加算されます。チャプターを選択しないままシーズン終了を迎えてしまうと「進捗ポイント」が削除されてしまうため注意が必要です。"
+
+msgid "tooltips/progression/freePoints/bodyExceptExtra"
+msgstr "挑戦するチャプターを手動で選択していない状態で取得した「進捗ポイント」は自動的に蓄積され、特定のチャプターへの挑戦を開始した際にその進捗に加算されます。追加チャプターを進めるには別途「進捗ポイント」を集めなおさねばならず、またシーズンが終了すると蓄積した「進捗ポイント」がすべて削除されてしまう点には注意が必要です。"
+
+msgid "tooltips/progression/freePoints/header"
+msgstr "進捗ポイントの自動蓄積"
+
+msgid "tooltips/rewardCompensation/description/credits"
+msgstr "主要なゲーム通貨です。\n戦闘で取得できるほか、ゴールドで購入できます。"
+
+msgid "tooltips/rewardCompensation/description/gold"
+msgstr "貴重なゲーム内通貨です。プレミアム車輌やWoTプレミアムアカウントの購入に加えて、戦闘EXPの変換など幅広い用途に利用できます。"
+
+msgid "tooltips/rewardCompensation/footer"
+msgstr "所有済みアイテムに対する補償です。"
+
+msgid "tooltips/styleUpgrade/chosen/levelWord"
+msgstr "レベル"
+
+msgid "tooltips/styleUpgrade/chosen/subtitle"
+msgstr "適合車輌"
+
+msgid "tooltips/styleUpgrade/chosen/text"
+msgstr "現在のチャプターの開始時に選択したスタイルが%(levelWord)%(level)にアップグレードされます。"
+
+msgid "tooltips/styleUpgrade/chosen/title"
+msgstr "スタイル「%(styleName)」のアップグレード"
+
+msgid "tooltips/styleUpgrade/notChosen/text"
+msgstr "各チャプターの冒頭に表示される「スタイルを選択」ボタンをクリックすると、スタイルを選択できます。"
+
+msgid "tooltips/styleUpgrade/notChosen/title"
+msgstr "プログレッシブ・スタイルのアップグレード"
+
+msgid "tooltips/styleUpgrade/notChosen/warning"
+msgstr "スタイルが選択されていません。"
+
+msgid "tooltips/styleUpgrade/paragraphBottom"
+msgstr "ステージの達成によってスタイルを最高レベルまでアップグレードできなかった場合でもシーズン終了後にガレージの「塗装」画面でアップグレードを行うことができます。"
+
+msgid "tooltips/styleUpgrade/paragraphTop"
+msgstr "このステージを達成すると、選択したプログレッシブ・スタイルが自動的に次のレベルにアップグレードされます。"
+
+msgid "tooltips/styles/descr"
+msgstr "最終ステージを達成すると報酬スタイルを1つ選択できるようになります。"
+
+msgid "tooltips/styles/footer"
+msgstr "改良パスを購入するとファイナル報酬の選択時に両方のスタイルを入手できるようになります。"
+
+msgid "tooltips/styles/name"
+msgstr "%(name)に適用できます。"
+
+msgid "tooltips/styles/style"
+msgstr "スタイル「%(name)」"
+
+msgid "tooltips/styles/title"
+msgstr "3Dスタイル1種類"
+
+msgid "tooltips/unlockBattlePass"
+msgstr "「改良パス」を購入すると「リッチ報酬」のルートをアンロックできます。"
+
+msgid "tooltips/unlockBattlePassForPostProgression"
+msgstr "それぞれのチャプターに対応した「改良パス」を購入するとさらなる報酬を獲得できます。"
+
+msgid "tooltips/vehiclePoints/award"
+msgstr "ポイント上限の到達報酬"
+
+msgid "tooltips/vehiclePoints/comp7"
+msgstr "「オンスロート」モードで戦闘を行い好成績を収めると「進捗ポイント」を取得できます。一定数集めると「バトルパス」のステージを達成でき、対応する報酬が手に入ります。"
+
+msgid "tooltips/vehiclePoints/comp7_light"
+msgstr "「オンスロート・ライト」の戦闘でチームに貢献するような行動をとることで、バトルパスの進捗ステージを進めて報酬を獲得するためのポイントを手に入れることができます。"
+
+msgid "tooltips/vehiclePoints/continuePlaying"
+msgstr "「バトルパス」をさらに進めるには別の車輌で戦闘を行う必要があります。"
+
+msgid "tooltips/vehiclePoints/descr"
+msgstr "「ランダム戦」モードの戦闘で好成績を収めると、ポイントを取得できます。一定数集めることで「バトルパス」のステージを進め、報酬を手に入れることができます。"
+
+msgid "tooltips/vehiclePoints/mapbox"
+msgstr "「先行偵察ミッション」モードの戦闘で好成績を収めると、ポイントを取得できます。一定数集めることで「バトルパス」のステージを進め、報酬を手に入れることができます。"
+
+msgid "tooltips/vehiclePoints/pointsObtained"
+msgstr "ポイント上限に到達済み"
+
+msgid "tooltips/vehiclePoints/ranked"
+msgstr "「ランク戦」モードで戦闘を行い好成績を収めるとポイントを取得できます。一定数集めると「バトルパス」のステージが進み、報酬が手に入ります。"
+
+msgid "tooltips/vehiclePoints/special/descr"
+msgstr "シーズンの「コア車輌」を使用するとより効率的に「進捗ポイント」を集めることができます。"
+
+msgid "tooltips/vehiclePoints/title"
+msgstr "バトルパス進捗ポイント"
+
+msgid "trophyDeviceUpgradeConfim/cancel"
+msgstr "キャンセル"
+
+msgid "trophyDeviceUpgradeConfim/message"
+msgstr "アップグレード後の性能"
+
+msgid "trophyDeviceUpgradeConfim/submit"
+msgstr "アップグレード"
+
+msgid "trophyDeviceUpgradeConfim/submitTooltip"
+msgstr "アップグレードに必要なクレジットが不足しています"
+
+msgid "trophyDeviceUpgradeConfim/title"
+msgstr "拡張パーツ「{deviceName}」を\nアップグレードしますか？"
+
+msgid "trophyDeviceUpgradeConfim/title/template"
+msgstr "{deviceName}"
+
+msgid "universalTankmanBonus"
+msgstr "汎用搭乗員「%(name)s」"

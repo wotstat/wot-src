@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: ทีมงาน WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "รางวัลสำหรับยานพิฆาตรถถัง"
+
+msgid "awards/class/SPG"
+msgstr "รางวัลสำหรับปืนอัตตาจร"
+
+msgid "awards/class/heavyTank"
+msgstr "รางวัลสำหรับรถถังหนัก"
+
+msgid "awards/class/lightTank"
+msgstr "รางวัลสำหรับรถถังเบา"
+
+msgid "awards/class/mediumTank"
+msgstr "รางวัลสำหรับรถถังกลาง"
+
+msgid "awards/level"
+msgstr "รางวัลสำหรับพาหนะระดับ %(level)s"
+
+msgid "awards/nation/china"
+msgstr "รางวัลสำหรับพาหนะจีน"
+
+msgid "awards/nation/czech"
+msgstr "รางวัลสำหรับพาหนะเชคโกสโลวาเกีย"
+
+msgid "awards/nation/france"
+msgstr "รางวัลสำหรับพาหนะฝรั่งเศส"
+
+msgid "awards/nation/germany"
+msgstr "รางวัลสำหรับพาหนะเยอรมัน"
+
+msgid "awards/nation/japan"
+msgstr "รางวัลสำหรับพาหนะญี่ปุ่น"
+
+msgid "awards/nation/poland"
+msgstr "รางวัลสำหรับพาหนะโปแลนด์"
+
+msgid "awards/nation/sweden"
+msgstr "รางวัลสำหรับพาหนะสวีเดน"
+
+msgid "awards/nation/uk"
+msgstr "รางวัลสำหรับพาหนะสหราชอาณาจักร"
+
+msgid "awards/nation/usa"
+msgstr "รางวัลสำหรับพาหนะสหรัฐอเมริกา"
+
+msgid "awards/nation/ussr"
+msgstr "รางวัลสำหรับพาหนะสหภาพโซเวียต"
+
+msgid "awards/tooltip/class"
+msgstr "คลิกเพื่อแสดงรางวัลสำหรับพาหนะชนิดนี้"
+
+msgid "awards/tooltip/level"
+msgstr "คลิกเพื่อแสดงรางวัลสำหรับพาหนะในระดับนี้"
+
+msgid "awards/tooltip/nation"
+msgstr "คลิกเพื่อแสดงรางวัลสำหรับประเทศนี้"
+
+msgid "awards/vehicle"
+msgstr "รางวัลสำหรับพาหนะที่เลือกไว้"
+
+msgid "badge/tooltip/description"
+msgstr "ตรานั้นเป็นไอคอนที่จะแสดงถัดจากชื่อขอคุณในการรบ ตราดังกล่าวจะแสดงให้ผุ้เล่นของทั้งสองทีมเห็นเพื่อเป็นการแสดงฝีมือที่ยอดเยี่ยมของคุณในกิจกรรมสวนสนามประจำชาติ"
+
+msgid "badgesGroup/tooltip/header"
+msgstr "ตราที่ระลึก"
+
+msgid "block/award"
+msgstr "รางวัลหลัก"
+
+msgid "block/objective"
+msgstr "เงื่อนไข"
+
+msgid "block/task"
+msgstr "ภารกิจของคุณ"
+
+msgid "button/awards"
+msgstr "รางวัลทั้งหมด"
+
+msgid "button/awards/tooltip"
+msgstr "คลิกเพื่อแสดงรายชื่อรางวัลทั้งหมดของการแข่งขัน"
+
+msgid "button/regulations"
+msgstr "้ข้อกำหนด"
+
+msgid "button/regulations/tooltip"
+msgstr "คลิกเพื่อแสดงคำอธิบายเต็มของการแข่งขัน"
+
+msgid "condition/battletype/random"
+msgstr "การรบแบบสุ่ม 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "การรบจัดอันดับ"
+
+msgid "condition/battletype/squadallowed"
+msgstr "อนุญาตให้ใช้หมวดรถถังได้"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "ไม่อนุญาตให้ใช้หมวดรถถังได้"
+
+msgid "condition/primetime/any"
+msgstr "เซิร์ฟเวอร์และเวลาใดก็ได้"
+
+msgid "condition/primetime/chosen"
+msgstr "เฉพาะบนเซิร์ฟเวอร์ที่ระบุไว้เท่านั้น"
+
+msgid "condition/vehicle/chosen"
+msgstr "เฉพาะพาหนะที่ระบุไว้:"
+
+msgid "condition/vehicle/exist"
+msgstr "ในโรงรถ"
+
+msgid "condition/vehicle/missing"
+msgstr "ไม่มีในโรงรถ"
+
+msgid "condition/vehicle/single"
+msgstr "ใน %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "รางวัล"
+
+msgid "excel/btnClose"
+msgstr "ไปยังการแข่งขัน"
+
+msgid "excel/group/title"
+msgstr "กลุ่ม"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "ในการได้รับตำแหน่งในการจัดอันดับให้ทำการรบอีก: %(number)s ครั้ง"
+
+msgid "excel/noData"
+msgstr "ยังไม่มีผู้ได้อันดับได้รับรางวัล"
+
+msgid "excel/participate/join"
+msgstr "ต่อสู้"
+
+msgid "excel/participate/notParticipated"
+msgstr "คุณไม่ได้เข้าร่วมการจัดอันดับนี้"
+
+msgid "excel/subHeader"
+msgstr "การแข่งขัน: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "เข้าร่วม"
+
+msgid "header/participate/button/leave"
+msgstr "ออกจากการแข่งขัน"
+
+msgid "header/participate/finished"
+msgstr "การแข่งขันสิ้นสุดลงแล้ว"
+
+msgid "header/participate/notStarted"
+msgstr "คุณได้เข้าร่วม"
+
+msgid "header/participate/reason/byAge"
+msgstr "บัญชีถูกสร้างขึ้นหลัง %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "ไม่มีการแข่งขันให้"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "คุณได้ออกจากการแข่งขันนี้แล้ว"
+
+msgid "header/participate/started"
+msgstr "คุณกำลังเข้าร่วม"
+
+msgid "header/timer"
+msgstr "สิ้นสุดใน:"
+
+msgid "maintenance/body"
+msgstr "เราต้องขออภัยในความไม่สะดวกชั่วคราว"
+
+msgid "maintenance/title"
+msgstr "เกิดข้อผิดพลาดในการโหลดข้อมูล"
+
+msgid "maintenance/update"
+msgstr "อัพเดต"
+
+msgid "notification/buttons/details"
+msgstr "รายละเอียด"
+
+msgid "notification/eventFinished/body"
+msgstr "การแข่งขัน %(eventName)s ได้จบลงแล้ว ผู้ชนะจะถูกจัดในช่วงสองสามวันข้างหน้าและหลังจากนั้นพวกเขาจะได้รับรางวัลที่สมควรจะได้รับ"
+
+msgid "notification/eventFinished/header"
+msgstr "การปฏิบัติให้สำเร็จสิ้นสุดแล้ว"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "ผลการรบของคุณในตอนนี้จะถูกนับสำหรับการแข่งขันเพื่อที่คุณจะได้ถูกจัดตำแหน่งในการจัดอันดับและรับรางวัล"
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "คุณกลายเป็นผู้เข้าร่วมแล้ว"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "ผลการรบของคุณจะถูกนับทันทีที่การแข่งขันเริ่มขึ้น เพื่อให้คุณสามารถถูกจัดตำแหน่งในการจัดอันดับและรับรางวัลได้"
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "คุณกลายเป็นผู้เข้าร่วมแล้ว"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "ไม่สามารถเป็นผู้เข้าร่วมได้: ไม่ครบตามข้อกำหนด"
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "ไม่สามารถเป็นผู้เข้าร่วมได้: ช่วงการลงทะเบียนสิ้นสุดแล้ว"
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "สถิติของคุณในการแข่งขันจะถูกตั้งใหม่ภายหลังมีการอัพเดตการจัดอันดับ"
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "คุณได้ออกจากการแข่งขันแล้ว"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "สถิติของคุณจะไม่ถูกนับสำหรับการแข่งขันนี้"
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "คุณได้ออกจากการแข่งขันแล้ว"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "ไม่สามารถออกจากการแข่งขันได้: เวลาที่ให้ไว้หมดลงแล้ว"
+
+msgid "notification/eventStarted/body"
+msgstr "การแข่งขัน %(eventName)s ได้เริ่มขึ้นแล้ว! ผู้เล่นที่ได้รับตำแหน่งรับรางวัลเมื่อจบการแข่งขันจะได้รับรางวัลที่มีค่า"
+
+msgid "notification/eventStarted/header"
+msgstr "เริ่มการแข่งขันแล้ว"
+
+msgid "notification/unknownError/body"
+msgstr "ไม่สามารถทำปฏิบัติการให้สำเร็จได้"
+
+msgid "orders/title"
+msgstr "้ข้อกำหนด"
+
+msgid "popover/buttons/cancel"
+msgstr "ยกเลิก"
+
+msgid "popover/buttons/rating"
+msgstr "ไปยังการจัดอันดับ"
+
+msgid "popover/buttons/select"
+msgstr "เลือก"
+
+msgid "popover/noVehicles"
+msgstr "ไม่มีพาหนะตรงกับตัวกรองที่เลือกไว้"
+
+msgid "popover/resetFilter"
+msgstr "ตั้งค่าตัวกรองใหม่"
+
+msgid "popover/title"
+msgstr "รายชื่อการจัดอันดับ"
+
+msgid "popover/title/vehicle"
+msgstr "รายชื่อการจัดอันดับ"
+
+msgid "popover/tooltip/class"
+msgstr "ไปยังการจัดอันดับพาหนะชนิดที่เลือกไว้"
+
+msgid "popover/tooltip/level"
+msgstr "ไปยังการจัดอันดับพาหนะของระดับที่เลือกไว้"
+
+msgid "popover/tooltip/nation"
+msgstr "ไปยังการจัดอันดับพาหนะของประเทศที่เลือกไว้"
+
+msgid "server/list"
+msgstr "เพื่อให้มีการนับการรบของคุณสำหรับการแข่งขัน ให้โอนไปยังเซิร์ฟเวอร์ดังต่อไปนี้:"
+
+msgid "server/noSuitable/body"
+msgstr "จะนับผลการรบครั้งต่อไปใน: %(data)s กำหนดการแข่งขัน"
+
+msgid "server/noSuitable/header"
+msgstr "ผลการรบจะไม่ถูกนับสำหรับการแข่งขันในระหว่างนี้"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s บน %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "ผลงานที่ดีที่สุดของฉัน"
+
+msgid "status/bestResults/one"
+msgstr "ผลงานของฉัน"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "ไม่มีการแข่งขันให้:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "คุณไม่ได้รับอนุญาตให้เข้าร่วมการแข่งขันเนื่องจากคุณละเมิดกฎของเกม"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "บัญชีถูกสร้างภายหลัง %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "คุณยังไม่ได้เข้าร่วมการรบในจำนวนที่กำหนดในการรบแบบสุ่ม: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "อัตราชัยชนะของคุณในการรบแบบสุ่มนั้นเกิน %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "คุณมีอัตราชัยชนะในการรบแบบสุ่มไม่ถึง: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "ช่วงการลงทะเบียนสิ้นสุดแล้ว"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "คุณไม่สามารถเข้าร่วมการแข่งขันในฐานะผู้เข้าร่วมได้"
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "คุณได้ออกจากการแข่งขันนี้แล้ว"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "ผลการรบของคุณไม่ถูกนับสำหรับการแข่งขันนี้ต่อไป คุณจะไม่ได้ถูกจัดตำแหน่งในการจัดอันดับและรับรางวัล\nคุณไม่สามารถเข้าการแข่งขันนี้ได้อีกครั้ง"
+
+msgid "status/cantJoin/reason/many"
+msgstr "ไม่ตรงข้อกำหนด (%(number)s)"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "ไม่ตรงข้อกำหนด (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "คุณไม่ได้ตำแหน่งในการจัดอันดับ"
+
+msgid "status/cantJoin/reason/special"
+msgstr "คุณไม่สามารถเข้าร่วมการแข่งขันด้วยบัญชีนี้ได้"
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "ไม่มีพาหนะที่เหมาะสม"
+
+msgid "status/participate/cantJoin"
+msgstr "ไม่มีการแข่งขันให้"
+
+msgid "status/participate/needMoreBattles"
+msgstr "ผ่านข้อกำหนดที่ระบุไว้ในการรบและผลของคุณจะถูกแสดงที่นี่ภายหลังทำการอัพเดตการจัดอันดับแล้ว"
+
+msgid "status/participate/notParticipated"
+msgstr "คุณไม่ได้เข้าร่วมการจัดอันดับนี้"
+
+msgid "summary/averagedamage"
+msgstr "ความเสียหายเฉลี่ย"
+
+msgid "summary/averagedamageassisted"
+msgstr "ความเสียหายเฉลี่ยจากความช่วยเหลือของคุณ"
+
+msgid "summary/averagexp"
+msgstr "ค่าประสบการณ์เฉลี่ย"
+
+msgid "summary/battles"
+msgstr "การรบในการแข่งขัน"
+
+msgid "summary/damage"
+msgstr "ความเสียหาย"
+
+msgid "summary/damageassist"
+msgstr "ความเสียหายที่มาจากการช่วยเหลือของคุณ"
+
+msgid "summary/damageblocked"
+msgstr "ความเสียหายที่กันได้"
+
+msgid "summary/description/awards/title/award"
+msgstr "รางวัลเมื่อสิ้นสุดการแข่งขัน"
+
+msgid "summary/description/awards/title/group"
+msgstr "กลุ่ม"
+
+msgid "summary/description/awards/title/position"
+msgstr "ตำแหน่ง"
+
+msgid "summary/description/max/class"
+msgstr "คุณทำการรบที่ดีที่สุดของคุณใน %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "คุณทำการรบที่ดีที่สุดของคุณในพาหนะระดับ %(value)s"
+
+msgid "summary/description/max/nation"
+msgstr "คุณได้ทำการรบที่ดีที่สุดของคุณในพาหนะของประเทศต่อไปนี้: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "คุณทำการรบที่ดีที่สุดของคุณใน %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "สถิติการแข่งขันของคุณใน %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "สถิติการแข่งขันของคุณในพาหนะระดับ %(value)s"
+
+msgid "summary/description/sum/nation"
+msgstr "สถิติการแข่งขันของคุณในพาหนะของประเทศดังต่อไปนี้: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "สถิติการแข่งขันของคุณในพาหนะดังต่อไปนี้: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "ชุดการรบที่ดีที่สุดของคุณใน %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "ชุดการรบที่ดีที่สุดของคุณในพาหนะระดับ %(value)s"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "ชุดการรบที่ดีที่สุดของคุณในพาหนะของประเทศต่อไปนี้: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "ชุดการรบที่ดีที่สุดของคุณใน %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "การรบที่ดีที่สุดของคุณใน %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "การรบที่ดีที่สุดของคุณในพาหนะระดับ %(value)s"
+
+msgid "summary/description/sumN/nation"
+msgstr "การรบที่ดีที่สุดของคุณในพาหนะของประเทศต่อไปนี้: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "การรบที่ดีที่สุดของคุณใน %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "ชุดการรบที่ดีที่สุดของคุณใน %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "ชุดการรบที่ดีที่สุดของคุณในพาหนะระดับ %(value)s"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "ชุดการรบที่ดีที่สุดของคุณในพาหนะของประเทศต่อไปนี้: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "ชุดการรบที่ดีที่สุดของคุณใน %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "summary/fightInSquaad"
+msgstr "การรบในหมวดรถถัง"
+
+msgid "summary/fightNotInSquaad"
+msgstr "การรบไม่ได้อยู่ในหมวดรถถัง"
+
+msgid "summary/originalXP"
+msgstr "ประสบการณ์ฐาน"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "ความเสียหายจากความช่วยเหลือของผู้เล่น"
+
+msgid "summary/param/max/damageDealt"
+msgstr "ความเสียหาย"
+
+msgid "summary/param/max/originalXP"
+msgstr "ประสบการณ์ฐาน"
+
+msgid "summary/param/max/xp"
+msgstr "ประสบการณ์"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "ความเสียหายเฉลี่ยจากความช่วยเหลือของผู้เล่น"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "ความเสียหายเฉลี่ย"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "ประสบการณ์ฐานเฉลี่ย"
+
+msgid "summary/param/sumAll/wins"
+msgstr "ชัยชนะ"
+
+msgid "summary/param/sumAll/xp"
+msgstr "ค่าประสบการณ์เฉลี่ย"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "ความเสียหายเฉลี่ยจากความช่วยเหลือของผู้เล่น"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "ความเสียหายรวม"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "ประสบการณ์ฐานรวม"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "ประสบการณ์รวม"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "ความเสียหายทั้งหมดที่เกิดจากความช่วยเหลือของผู้เล่น"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "ความเสียหายรวม"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "ประสบการณ์ฐานรวม"
+
+msgid "summary/param/sumN/xp"
+msgstr "ประสบการณ์รวม"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "ความเสียหายเฉลี่ยจากความช่วยเหลือของผู้เล่น"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "ความเสียหายรวม"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "ประสบการณ์ฐานรวม"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "ประสบการณ์รวม"
+
+msgid "summary/position"
+msgstr "ตำแหน่งในการจัดอันดับ: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "เสมอ"
+
+msgid "summary/result/loss"
+msgstr "พ่ายแพ้"
+
+msgid "summary/result/win"
+msgstr "ชัยชนะ"
+
+msgid "summary/status"
+msgstr "อัพเดตในวันที่ %(day)s เมื่อเวลา %(time)s"
+
+msgid "summary/winrate"
+msgstr "ชัยชนะ"
+
+msgid "table/header/player"
+msgstr "ผู้เล่น"
+
+msgid "table/header/position"
+msgstr "อันดับ"
+
+msgid "table/selectParticipateBtn"
+msgstr "ออกจากการแข่งขัน"
+
+msgid "table/selectRatingBtn"
+msgstr "รายชื่อการจัดอันดับ"
+
+msgid "table/selectRegistrationBtn"
+msgstr "เข้าร่วมในฐานะผู้แข่งขัน"
+
+msgid "table/stripe/bronze/title"
+msgstr "กลุ่ม III (places %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "กลุ่ม I (ตำแหน่ง %(placeFrom)d-%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "กลุ่ม I"
+
+msgid "table/stripe/iron/title"
+msgstr "กลุ่ม IV (ตำแหน่ง %(placeFrom)d-%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "กลุ่ม II (ตำแหน่ง %(placeFrom)d-%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "ตำแหน่งที่ไม่ได้รางวัล"
+
+msgid "task/eventtype/all"
+msgstr "การจัดอันดับทั่วไปสำหรับผู้เข้าร่วมทุกคน"
+
+msgid "task/eventtype/class"
+msgstr "พาหนะแต่ละชนิดจะมีการจัดอันดับของตัวเอง"
+
+msgid "task/eventtype/level"
+msgstr "พาหนะแต่ละระดับจะมีการจัดอันดับของตัวเอง"
+
+msgid "task/eventtype/nation"
+msgstr "ประเทศของพาหนะแต่ละคันจะมีการจัดอันดับของตัวเอง"
+
+msgid "task/eventtype/vehicle"
+msgstr "พาหนะแต่ละคันต่างมีการจัดอันดับของตัวเอง"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "ได้รับตำแหน่งในการจัดอันดับตามความเสียหายจากการช่วยเหลือของคุณ"
+
+msgid "task/objective/max/damageDealt"
+msgstr "ได้รับตำแหน่งในการจัดอันดับตามความเสียหายที่ทำ"
+
+msgid "task/objective/max/originalXP"
+msgstr "ได้รับตำแหน่งในการจัดอันดับตามประสบการณ์ฐานที่ได้รับ"
+
+msgid "task/objective/max/xp"
+msgstr "ได้รับตำแหน่งในการจัดอันดับตามประสบการณ์ที่ได้รับ"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "ได้รับตำแหน่งในการจัดอันดับตามความเสียหายรวมที่เกิดจากการช่วยเหลือของคุณ"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "ได้รับตำแหน่งในการจัดอันดับตามความเสียหายรวมที่ทำได้"
+
+msgid "task/objective/sum/originalXP"
+msgstr "ได้รับตำแหน่งในการจัดอันดับตามประสบการณ์ฐานทั้งหมดที่ได้รับ"
+
+msgid "task/objective/sum/wins"
+msgstr "ได้รับการจัดอันดับตามจำนวนการรบที่ชนะ"
+
+msgid "task/objective/sum/xp"
+msgstr "ได้ตำแหน่งในการจัดอันดับตามประสบการณ์ที่ได้รับทั้งหมด"
+
+msgid "task/objparam/damageAssisted"
+msgstr "ความเสียหายจากการช่วยเหลือของคุณ"
+
+msgid "task/objparam/damageDealt"
+msgstr "ความเสียหายที่ทำได้"
+
+msgid "task/objparam/originalXP"
+msgstr "ประสบการณ์ฐานที่ได้รับ"
+
+msgid "task/objparam/wins"
+msgstr "จำนวนชัยชนะ"
+
+msgid "task/objparam/xp"
+msgstr "ประสบการณ์"
+
+msgid "task/selection/max"
+msgstr "นับการรบที่ดีที่สุดของคุณ"
+
+msgid "task/selection/sumAll"
+msgstr "ทำการนับการรบทั้งหมดของคุณ"
+
+msgid "task/selection/sumMSeqN"
+msgstr "จะนับเฉพาะการรบ %(cardinality)s ที่ดีที่สุดของชุดการรบ การรบในชุด: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "นับการรบที่ดีที่สุดของคุณ: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "นับชุดการรบที่ดีที่สุดของคุณ การรบในชุด: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "วันนี้"
+
+msgid "time/day/tomorrow"
+msgstr "พรุ่งนี้"
+
+msgid "time/day/yesterday"
+msgstr "เมื่อวาน"
+
+msgid "time/eventFinished"
+msgstr "การแข่งขันสิ้นสุด: %(date)s"
+
+msgid "time/period/day"
+msgstr "วัน"
+
+msgid "time/period/hour"
+msgstr "ชม."
+
+msgid "time/period/minute"
+msgstr "นาที"
+
+msgid "time/timeTo/end"
+msgstr "จบลงใน: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "การลงทะเบียนสิ้นสุดใน: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "่เริ่มใน: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "รางวัลนั้นจะมอบให้เมื่อสิ้นสุดการแข่งขันและขึ้นกับตำแหน่งที่คุณได้ในการจัดอันดับ\nในการดูรายชื่อรางวัลทั้งหมดของการแข่งขันนี้ ให้คลิกที่รางวัลทั้งหมด"
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "จำนวนประสบการณ์ที่นับไม่ได้รวมประสบการณ์เพิ่มเติมจากบัญชีพิเศษหรือพาหนะพิเศษ กำลังสำรองส่วนตัว ตัวคูณชัยชนะครั้งแรกของวันหรือช่วงพิเศษอื่นๆ"
+
+msgid "tooltip/top/amount/xp"
+msgstr "จำนวนประสบการณ์ที่นับไม่ได้รวมประสบการณ์เพิ่มเติมจากพาหนะพิเศษ กำลังสำรองส่วนตัว ตัวคูณชัยชนะครั้งแรกของวันหรือช่วงพิเศษอื่นๆ\nจะนับประสบการณ์เพิ่มเติมที่ได้รับจากบัญชีพิเศษ"
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "ความเสียหายจากความช่วยเหลือของผู้เล่นของผู้เล่นที่ได้อันดับรับรางวัลสุดท้าย: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "ความเสียหายที่ทำโดยผู้เล่นที่ได้อันดับรับรางวัลสุดท้าย: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "ประสบการณ์ฐานที่ผู้เล่นอันดับรางวัลสุดท้ายได้รับ: %(number)s\nจำนวนประสบการณ์ที่ได้รับจะไม่รวมประสบการณ์เพิ่มเติมจากบัญชีพิเศษ พาหนะพิเศษ กำลังสำรองส่วนตัว ตัวคูณชัยชนะแรกของวันหรือช่วงพิเศษอื่นๆ"
+
+msgid "tooltip/top/description/max/xp"
+msgstr "ประสบการณ์ที่ผู้เล่นอันดับรางวัลสุดท้ายได้รับ: %(number)s\nจำนวนประสบการณ์ที่ได้รับจะไม่รวมประสบการณ์เพิ่มเติมจากพาหนะพิเศษ กำลังสำรองส่วนตัว ตัวคูณชัยชนะแรกของวันหรือช่วงพิเศษอื่นๆ\nจะนับประสบการณ์เพิ่มเติมจากบัญชีพิเศษ"
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "ความเสียหายทั้งหมดจากความช่วยเหลือของผู้เล่นที่ได้อันดับรับรางวัลสุดท้าย: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "ความเสียหายทั้งหมดที่ทำโดยผู้เล่นที่ได้อันดับรับรางวัลสุดท้าย: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "จำนวนประสบการณ์ฐานทั้งหมดที่ผู้เล่นอันดับรับรางวัลสุดท้ายได้รับ: %(number)s\nจำนวนประสบการณ์ที่นับจะไม่รวมประสบการณ์ที่ได้รับเพิ่มเติมจากบัญชีพิเศษหรือพาหนะพิเศษ กำลังสำรอง ตัวคูณสำหรับชัยชนะแรกของวัน หรือช่วงพิเศษอื่นๆ"
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "จำนวนชัยชนะของผู้เล่นที่ได้อันดับรับรางวัลสุดท้าย: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "จำนวนประสบการณ์ฐานทั้งหมดที่ผู้เล่นอันดับรับรางวัลสุดท้ายได้รับ: %(number)s\nจำนวนประสบการณ์ที่นับจะไม่รวมประสบการณ์ที่ได้รับเพิ่มเติมจากพาหนะพิเศษ กำลังสำรอง ตัวคูณสำหรับชัยชนะแรกของวัน หรือช่วงพิเศษอื่นๆ\nจะนับประสบการณ์เพิ่มเติมจากบัญชีพิเศษ"
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "อันดับไม่ได้รับรางวัล"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "กลุ่ม %(group)s (ตำแหน่ง %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "ประสบการณ์เฉลี่ยที่ผู้เล่นอันดับได้รางวัลสุดท้ายทำได้:"
+
+msgid "top/participation/notParticipated"
+msgstr "คุณไม่ได้เข้าร่วมการจัดอันดับนี้"
+
+msgid "top/participation/notfull"
+msgstr "คุณไม่ได้ตำแหน่งในการจัดอันดับ"
+
+msgid "top/participation/notintop"
+msgstr "คุณยังไม่ได้อันดับที่ได้รับรางวัล"
+
+msgid "top/position"
+msgstr "ตำแหน่งของคุณ:"
+
+msgid "top/reason/notfull"
+msgstr "ในการได้รับตำแหน่งในการจัดอันดับ ให้ทำการรบอีก:"
+
+msgid "vehicles/level"
+msgstr "พาหนะระดับ %(level)s"
+
+msgid "vehicles/tooltip/class"
+msgstr "คลิกเพื่อแสดงพาหนะชนิดนี้ที่สามารถเข้าร่วมในการแข่งขันได้"
+
+msgid "vehicles/tooltip/level"
+msgstr "คลิกเพื่อแสดงพาหนะระดับนี้ที่สามารถเข้าร่วมในการแข่งขันได้"
+
+msgid "vehicles/tooltip/nation"
+msgstr "คลิกเพื่อแสดงพาหนะประเทศนี้ที่สามารถเข้าร่วมในการแข่งขันได้"
+
+msgid "vehicles/vehicle"
+msgstr "พาหนะในการแข่งขัน"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "คลิกเพื่อแสดงรายชื่อพาหนะที่อนุญาตให้เข้าร่วมการแข่งขัน"

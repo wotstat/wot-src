@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "กระสุนพลังงานพร้อมใช้แล้ว"
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "กระสุนดูดพลังพร้อมใช้แล้ว"
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "กระสุนมึนงงพร้อมใช้แล้ว"
+
+msgid "LS_damageShieldReady"
+msgstr "ม่านพลังพร้อมใช้แล้ว"
+
+msgid "LS_doubleDamageReady"
+msgstr "ความเสียหายสองเท่าพร้อมใช้งาน"
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "ความเสียหายตามสถานการณ์พร้อมแล้ว"
+
+msgid "LS_fastReloadReady"
+msgstr "การบรรจุเร็วพร้อมใช้แล้ว"
+
+msgid "LS_healSituationalReady"
+msgstr "การซ่อมตามสถานการณ์พร้อมแล้ว"
+
+msgid "LS_invisibilityReady"
+msgstr "การซ่อมล่องหนพร้อมใช้งาน"
+
+msgid "LS_nitroReady"
+msgstr "ตัวอัดอากาศเทอร์โบพร้อมใช้งาน"
+
+msgid "LS_pickupSouls"
+msgstr "คุณได้เก็บแร่ Mirium %(souls)s อัน"
+
+msgid "LS_selfRepairReady"
+msgstr "การซ่อมฉุกเฉินพร้อมใช้แล้ว"
+
+msgid "LS_situationalNitroReady"
+msgstr "ความคล่องตัวตามสถานการณ์พร้อมแล้ว"
+
+msgid "LS_teamRepairKitReady"
+msgstr "การซ่อมเป็นกลุ่มพร้อมใช้งาน"
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s เปิดใช้การซ่อมเป็นกลุ่ม"
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "เปิดใช้การซ่อมเป็นกลุ่มแล้ว"
+
+msgid "arena/marker/attention_to_camp"
+msgstr "ดูที่เขต: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "ปกป้อง ATLAS ให้ได้!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "ปกป้อง ATLAS"
+
+msgid "arena/marker/move_to_camp"
+msgstr "กำลังมุ่งไปยังเขต!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "ป้องกัน ATLAS"
+
+msgid "arena/phase"
+msgstr "ช่วง %(current)s จาก %(total)s"
+
+msgid "arena/wave"
+msgstr "ระลอก %(current)s จาก %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Hedgehog&nbsp;กำลังเข้ามา!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Alpha Hedgehog&nbsp;กำลังเข้ามา! "
+
+msgid "battleHint/clearTheArea"
+msgstr "กวาดล้างพื้นที่!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "รีบเข้า Zero กำลังเข้าใกล้ &nbsp;ATLAS!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Zero ถูกทำลาย!\nเหลือข้าศึก: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "ข้าศึกที่ต้องทำลาย: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "กลักบัตรเจาะ %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "ซ่อมพาหนะแล้ว"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "ได้รับโล่แล้ว"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "ข้าศึกมึนงง"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "%(name)s เสาหินถูกทำลาย!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "คืนสภาพ"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "ม่านป้องกัน"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "ไฟกระชาก"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "พบจุดเกิด! ข้าศึกกำลังเข้ามา!"
+
+msgid "battleHint/hunter"
+msgstr "เหล่านายพราน&nbsp;กำลังเข้ามา!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "ทำลายระลอกข้าศึกได้"
+
+msgid "battleHint/leftToDestroy"
+msgstr "เหลือข้าศึกให้ทำลาย:"
+
+msgid "battleHint/missing_squad"
+msgstr "หมวดรถถังสาบสูญกำลังเข้ามา!"
+
+msgid "battleHint/newWave"
+msgstr "ระลอกที่ {current} ของ {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "เสาหินปรากฎแล้ว!"
+
+msgid "battleHint/stopConvoy"
+msgstr "หยุด Zero ให้ได้!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "หยุด Zero\nก่อนที่มันจะไปถึง ATLAS!"
+
+msgid "battleHint/trapper"
+msgstr "ทำลายนักวางกับดักเพื่อ&nbsp;หยุดการปรากฎของเขตทำลาย"
+
+msgid "battleHint/turret"
+msgstr "Mosquitoes ตื่นขึ้นมาแล้ว!"
+
+msgid "battleHint/waveFinished"
+msgstr "ทำลายระลอกข้าศึกได้\nรวมตัวแล้วเตรียมพร้อม!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "รวมตัวแล้วเตรียมพร้อม!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "กำลังเสริมข้าศึกมาถึง&nbsp;แล้ว!"
+
+msgid "common/close"
+msgstr "ปิด"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "ระยะเวลา: %(time)s วิ"
+
+msgid "damageLog/personal_death_zone"
+msgstr "ความเสียหายจากเขต"
+
+msgid "damageLog/static_death_zone"
+msgstr "ความเสียหายจากเขต"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "ทำให้ข้าศึกไฟไหม้ด้วยพลังเพลิง"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "ความเสียหายจากพลังโจมตี"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "ความเสียหายจากการระเบิด"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "ความเสียหายจากการดูดชีวิต"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "เปิดใช้ความเสียหายตามสถานการณ์แล้ว"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "เปิดใช้การซ่อมตามสถานการณ์แล้ว"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "ความเสียหายกระสุนพลังงาน"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "ความเสียหายกระสุนดูดพลัง"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "ความเสียหายกระสุนมึนงง"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "ชิ้นส่วนอมตะ"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "เปิดใช้ความคล่องตัวตามสถานการณ์แล้ว"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "การคืนสภาพ"
+
+msgid "efficiencyRibbons/repair"
+msgstr "ซ่อมพาหนะแล้ว"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "พาหนะซ่อมโดย"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "พันธมิตรทำการซ่อมพาหนะ"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "พาหนะถูกซ่อมแล้ว"
+
+msgid "eventStats/activeWave"
+msgstr "ระลอก %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "ความยาก: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "การยืนหยัดครั้งสุดท้าย: โลกแดนเหนือ"
+
+msgid "eventStats/globalTask"
+msgstr "เป้าหมาย: ทำลายระลอกข้าศึกทั้งหมด"
+
+msgid "eventStats/mission"
+msgstr "ทำลายระลอกข้าศึกทั้งหมด"
+
+msgid "eventStats/tableCaption"
+msgstr "สมาชิกหมู่รบ"
+
+msgid "help/description_0"
+msgstr "ทำลายระลอกการโจมตีข้าศึกทั้งหมดเพื่อชนะการรบ\nข้าศึกจะมีพลังมากขึ้นในแต่ละระลอกการโจมตีถัดๆไป"
+
+msgid "help/description_1"
+msgstr "ส่วนผสมที่เหมาะสมของอุปกรณ์ยุทธวิธีนั้นจะมีพลังอย่างมาก\nโปรดจำไว้ว่า: คำสั่งและกระสุนทุกชนิดนั้นไม่มีราคาในช่วงรูปแบบการยืนหยัดสุดท้าย"
+
+msgid "help/description_2"
+msgstr "การทำความเสียหายเสาหินจะโอนส่วนหนึ่งของความเสียหายไปยังพาหนะข้าศึกในขณะที่การทำลายได้จะทำให้โบนัสแบบสุ่ม"
+
+msgid "help/description_3"
+msgstr "ปกป้อง ATLAS จากรถถังเสียงสะท้อนคันสุดท้ายชื่อ Zero ให้ได้ ถ้ามันไปถึง ATLAS มันจะถูกทำลายและคุณจะแพ้การรบ"
+
+msgid "help/title"
+msgstr "การยืนหยัดครั้งสุดท้าย: โลกแดนเหนือ"
+
+msgid "help/title_0"
+msgstr "ระลอกการโจมตีข้าศึก"
+
+msgid "help/title_1"
+msgstr "คำแนะนำเอาตัวรอด"
+
+msgid "help/title_2"
+msgstr "ใช้เสาหินในการรบ"
+
+msgid "help/title_3"
+msgstr "ปกป้อง ATLAS"
+
+msgid "helpScreen/hint/description"
+msgstr "ในการอ่านกฎของรูปแบบ"
+
+msgid "helpScreen/hint/press"
+msgstr "กด"
+
+msgid "hitMarker/useless"
+msgstr "ใช้ไม่ได้!"
+
+msgid "loading/description_0"
+msgstr "ทำลายระลอกการโจมตีข้าศึกทั้งหมดเพื่อชนะการรบ\nข้าศึกจะมีพลังมากขึ้นในแต่ละระลอกการโจมตีถัดๆไป"
+
+msgid "loading/description_1"
+msgstr "ส่วนผสมที่เหมาะสมของอุปกรณ์ยุทธวิธีนั้นจะมีพลังอย่างมาก\nโปรดจำไว้ว่า: คำสั่งและกระสุนทุกชนิดนั้นไม่มีราคาในช่วงรูปแบบการยืนหยัดสุดท้าย"
+
+msgid "loading/description_2"
+msgstr "การทำความเสียหายเสาหินจะส่งส่วนหนึ่งของความเสียหายไปยังพาหนะข้าศึกในขณะที่การทำลายได้จะทำให้โบนัสแบบสุ่ม"
+
+msgid "loading/description_3"
+msgstr "ปกป้อง ATLAS จากรถถังเสียงสะท้อนคันสุดท้ายชื่อ Zero ให้ได้ ถ้ามันไปถึง ATLAS มันจะถูกทำลายและคุณจะแพ้การรบ"
+
+msgid "loading/title"
+msgstr "กำลังโหลด..."
+
+msgid "loading/title_0"
+msgstr "ระลอกการโจมตีข้าศึก"
+
+msgid "loading/title_1"
+msgstr "คำแนะนำเอาตัวรอด"
+
+msgid "loading/title_2"
+msgstr "ใช้เสาหินในการรบ"
+
+msgid "loading/title_3"
+msgstr "ปกป้อง ATLAS"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "ไม่สามารถใช้ [%(name)s]: เครื่องยนต์ถูกทำลาย"
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "ไม่สามารถใช้ [%(name)s]: ปืนเสียหายอยู่"
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "ปืนบรรจุกระสุนไว้แล้ว"
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "ไม่สามารถใช้ [%(name)s]: มีมิเรียมไม่พอเปิดใช้อุปกรณ์"
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "พาหนะไม่ได้เสียหาย"
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "ไม่สามารถใช้ [%(name)s]: พาหนะกำลังจมน้ำ"
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "ไม่สามารถใช้ [%(name)s]: พาหนะกำลังไฟไหม้"
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "ไม่สามารถใช้ [%(name)s]: พาหนะกำลังคว่ำอยู่"
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "พันธมิตร %(target)s ถูกทำลายโดยการระเบิดของข้าศึก (%(attacker)s)"
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "พันธมิตร %(target)s ถูกชน"
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "พันธมิตร %(target)s ถูกทำลายโดยเขตทำลาย"
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "พันธมิตร %(target)s ถูกทำลาย"
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "ถ้าหมู่รบของคุณกำจัดระลอกนี้ได้"
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "คุณจะเกิดใหม่"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "การรบของคุณจบแล้ว\nคุณทำได้ดีมาก!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "พาหนะถูกทำลายโดยเขตทำลาย"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "พาหนะถูกทำลายโดยพลังโจมตี"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "พาหนะถูกทำลายโดยพลังเพลิง"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "พาหนะถูกทำลายโดยดูดชีวิต"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "พาหนะถูกทำลายโดยการระเบิด"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "พาหนะชนพัง"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "ชิ้นส่วน [%(device)s] ถูกทำลายจากการยิงของผู้เล่น"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "พาหนะถูกทำลายโดยไฟไหม้"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "พาหนะถูกทำลาย หมดเวลาแล้ว"
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "พาหนะถูกทำลายโดยกระสุนข้าศึก"
+
+msgid "prebattle/description/message"
+msgstr "เป้าหมาย: ทำลายระลอกข้าศึกทั้งหมด"
+
+msgid "prebattle/description/title"
+msgstr "การยืนหยัดครั้งสุดท้าย: ความยาก — %(difficulty)s"
+
+msgid "prebattle/difficulty/107"
+msgstr "ปกติ"
+
+msgid "prebattle/difficulty/108"
+msgstr "ก้าวหน้า"
+
+msgid "prebattle/difficulty/109"
+msgstr "โหดร้าย"
+
+msgid "prebattle/waiting/title"
+msgstr "กำลังรอผู้เล่น..."
+
+msgid "radialMenu/attention_here"
+msgstr "ขอการป้องกัน"
+
+msgid "radialMenu/cancel"
+msgstr "ยกเลิก"
+
+msgid "radialMenu/confirm"
+msgstr "รับทราบ!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "กำลังมุ่งไปยังเขต!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "การป้องกัน"
+
+msgid "radialMenu/obelisk"
+msgstr "ฉันจะจัดการเสาหินเอง!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "ทำลายเสาหินให้ได้!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "ม่านพลัง"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "กลับมารบกันต่อ..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "ออกจาก\nเขตอันตราย!"
+
+msgid "teamList/teammates"
+msgstr "พันธมิตร"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "ปิดการสนทนาเสียง"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "เปิดใช้การสนทนาเสียง"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "กดเพื่อพูด"

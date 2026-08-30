@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "%(leftDetailedSeasonName)s 전투 종료"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "모든 서버에 휴전이 적용 중입니다. %(primeDelta)s 후 전투에 참여할 수 있습니다."
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s 전투 종료"
+
+msgid "alertMessage/allNotSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "alertMessage/button/changeServer"
+msgstr "다른 서버 선택"
+
+msgid "alertMessage/notAvailable"
+msgstr "%(serverName)s 서버에 휴전 적용 중"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "%(serverName)s 서버에 휴전 적용 중"
+
+msgid "alertMessage/notSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "해당 서버에 휴전이 적용 중입니다. %(primeDelta)s 후 전투에 참여할 수 있습니다."
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s 전투 종료"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s일"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s시간 %(min)s분"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1분"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s분"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "적합한 전차 없음"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s~%(end)s"
+
+msgid "calendarDay/title"
+msgstr "일정"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "모드"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} — 다른 게임 모드로 전환"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "모드 이용 가능 기간"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "휴전 {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "전투 종료"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "모드 이용 불가"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "모드 남은 시간: {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s로 %(modeName)s 전투에 참여할 수 없습니다."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "유효하지 않은 전차 유형"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "%(modeName)s 모드에 참여하려면 %(levelSubStr)s 전차를 선택하십시오."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "유효하지 않은 전차 단계"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s단계"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s 전차로 %(modeName)s 모드에 참여할 수 없습니다."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "유효하지 않은 전차"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "해당 서버에 휴전이 적용 중입니다. 다른 서버를 선택해 주십시오."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "전투 참여 불가"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "선택한 서버에서는 해당 모드를 이용할 수 없습니다."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "전투 참여 불가"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "%(subModeName)s 전투 종료"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "전투 참여 불가"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "모드를 변경하거나 조건에 맞는 전차를 선택하십시오."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "해당 모드에서 사용 불가"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "2인 또는 3인 소대를 구성하여 %(modeName)s 전투에 참여합니다."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "소대"
+
+msgid "invite/text/detailedTitle"
+msgstr "\"%(detailedModeName)s\" 소대 초대"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "차고에 전차가 한 대 이상 있어야 합니다."
+
+msgid "lootboxTooltip/chance"
+msgstr "획득 확률: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "아래 목록 내 게임 내 아이템 1개:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "모든 스테이지 완료"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "현재 임무의 모든\n스테이지 완료"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "다음 스테이지 보상 — %(stagePoints)s점 획득 시 해제"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "다음 스테이지 보상"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s 후 활성 기간 종료"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s 후 다음 일정 시작"
+
+msgid "modeSelector/notStarted"
+msgstr "모드 곧 시작"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s일"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s시간"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1분"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s분"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "모드로 이동"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "기술적 문제로 이용 불가"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "현재 임무의 모든 스테이지 완료"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "보상: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "전투 종료"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "예정"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "시작까지"
+
+msgid "modeSubSelector/subtitle"
+msgstr "하위 모드 선택"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "개발팀용 모든 스테이지 완료"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "개발팀용 진행 상황 갱신"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "전투 참여"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "전장으로!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "아케이드 모드는 색다른 전투를 즐길 수 있는 기간 한정 특별 이벤트 모드입니다. 게임 양상을 뒤바꾸는 규칙하에 벌어지는 전투에 참여하고 임무를 완료하여 희귀한 보상을 획득해 보십시오."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "개발팀용 높은 위험 설명"
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "개발팀용 고사양 모드"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "개발팀용 중간 위험 설명"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "개발팀용 고사양 모드"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "개발팀용 높은 위험 설명"
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "개발팀용 고사양 모드"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) 개발팀용 고사양 모드"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "개발팀용 중간 위험 설명"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "개발팀용 고사양 모드"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) 개발팀용 고사양 모드"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev 진행 완료"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "개발팀용 획득한 무제한 보상:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Dev 획득한 점수: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "완료:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "반복 가능"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "완료 시:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "패배 시:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "승리 시:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "점수"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "획득:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "현재 진행 가능한 모든 임무 완료"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "진행 시작 시 임무 활성화"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "현재 이용 가능한 모든 임무를 완료했습니다. 갱신 일정에 따라 추후 새로운 임무가 활성화됩니다."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "종료까지 {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "종료까지 {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "새로운 임무 활성화까지 {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} 진행 상태"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} 임무"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "모든 스테이지 완료"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "진행 상황 갱신"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "네온빛 질주"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "결승선이 기다립니다!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "경주 준비 완료"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "네온빛 질주는 색다른 재미를 만끽할 수 있는 기간 한정 특별 이벤트입니다! 위험천만한 코스를 질주하며 난투를 벌이고 임무를 완료하여 보상을 획득해 보십시오."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "고사양 컴퓨터가 필요한 모드입니다. 지도 불러오기 시간 지연, 그래픽 왜곡, 전차 이동 문제 등을 경험할 수도 있습니다. 사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "고사양 모드"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "고사양 컴퓨터가 필요한 모드입니다. 지도 불러오기 시간 지연, 그래픽 왜곡, 전차 이동 문제 등을 경험할 수도 있습니다. 사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "고사양 모드"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "특급 무작위 보상"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "전설 무작위 보상"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "일반 무작위 보상"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "희귀 무작위 보상"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "고급 무작위 보상"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "네온빛 질주 임무 – 스테이지: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "모든 네온빛 질주 경주에서 진행 상황이 집계됩니다."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "네온빛 질주 임무"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "모든 아케이드 하위 모드에서 진행 상황이 집계됩니다."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "후 새로운 아케이드 임무 진행 가능"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15명~30명"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "모두가 경쟁 상대인 레이스에 참여해 결승선에 도달해 보십시오."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} 모든 단계"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "낮음 그래픽 설정에서는 시각적 효과에 문제가 발생할 수 있습니다. 컴퓨터 사양이 요구 사항을 충족한다면 쾌적하게 게임을 즐길 수 있도록 가장 높은 그래픽 설정을 선택하는 것이 좋습니다. 해당 모드를 플레이하려면 고사양 컴퓨터가 필요합니다. 전투 환경에 따라 FPS 수치가 저하될 수 있습니다."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "가장 높은 그래픽 설정 권장"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) 가장 높은 그래픽 설정 권장"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "낮음 그래픽 설정에서는 시각적 효과에 문제가 발생할 수 있습니다. 컴퓨터 사양이 요구 사항을 충족한다면 쾌적하게 게임을 즐길 수 있도록 가장 높은 그래픽 설정을 선택하는 것이 좋습니다. 해당 모드를 플레이하려면 고사양 컴퓨터가 필요합니다. 전투 환경에 따라 FPS 수치가 저하될 수 있습니다."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "가장 높은 그래픽 설정 권장"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) 가장 높은 그래픽 설정 권장"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "새로운 네온빛 질주 임무 해제까지:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "%(subModeName)s 모드가 종료되었습니다. 진행 상황이 초기화됩니다."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "%(subModeName)s 모드가 종료되었습니다."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "새로운 보상과 %(subModeName)s 모드를 이용할 수 있습니다."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "새로 등장한 %(subModeName)s 모드를 이용할 수 있습니다."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "점검 중이므로 %(subModeName)s 모드를 이용할 수 없습니다."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "%(subModeName)s 모드를 다시 이용할 수 있습니다."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "보상 목록"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "축하합니다!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "진행 완료"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "축하합니다!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "무제한 추가 진행"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "주요 진행 완료"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "해당 스테이지를 최대한 많이 완료해 보십시오."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "획득한 점수: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "획득한 점수:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "네온빛 질주 임무"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "완료:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "반복 가능"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "완료 시:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "패배 시:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "승리 시:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "점수"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "획득:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "현재 진행 가능한 모든 임무 완료"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "진행 시작 시 임무 활성화"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "현재 이용 가능한 모든 임무를 완료했습니다. 갱신 일정에 따라 추후 새로운 임무가 활성화됩니다."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "종료까지 {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "종료까지 {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "새로운 임무 활성화까지 {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} 진행 상태"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} 임무"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "전설 보상 획득"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s 모드를 다시 이용할 수 있습니다."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "정비소"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s 모드가 종료되었습니다."
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "정비소"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "잠시 정비할 시간입니다! 일시적으로 %(subModeName)s 모드 경주를 진행할 수 없습니다."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "피트 스톱"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "무작위 보상은 아래 목록 내 아이템으로 구성됩니다. 각 아이템은 일정 확률로 획득할 수 있습니다."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "아이템 목록"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "네온빛 질주에서는 모든 전차를 이용할 수 있습니다."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "네온빛 질주 전차"
+
+msgid "modes/fall_tanks/userName"
+msgstr "네온빛 질주"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "모든 스테이지 완료"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "진행 상황 갱신"
+
+msgid "modes/undefined/capsUserName"
+msgstr "아케이드"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "전투 참여"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "전장으로!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "아케이드 모드는 색다른 전투를 즐길 수 있는 기간 한정 특별 이벤트 모드입니다. 게임 양상을 뒤바꾸는 규칙하에 벌어지는 전투에 참여하고 임무를 완료하여 희귀한 보상을 획득해 보십시오."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "고사양 컴퓨터가 필요한 모드입니다. 지도 불러오기 시간 지연, 그래픽 왜곡, 전차 이동 문제 등을 경험할 수도 있습니다. 사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "고사양 모드"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "고사양 컴퓨터가 필요한 모드입니다. 지도 불러오기 시간 지연, 그래픽 왜곡, 전차 이동 문제 등을 경험할 수도 있습니다. 사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "고사양 모드"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "특급 무작위 보상"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "전설 무작위 보상"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "일반 무작위 보상"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "희귀 무작위 보상"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "고급 무작위 보상"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "아케이드 임무 – 스테이지: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "모든 아케이드 하위 모드에서 진행 상황이 집계됩니다."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "아케이드 임무"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "모든 아케이드 하위 모드에서 진행 상황이 집계됩니다."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "후 새로운 아케이드 임무 진행 가능"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15 대 15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "독특한 규칙으로 진행되는 실험 전투입니다."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s단계"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "낮음 그래픽 설정에서는 시각적 효과에 문제가 발생할 수 있습니다. 컴퓨터 사양이 요구 사항을 충족한다면 쾌적하게 게임을 즐길 수 있도록 가장 높은 그래픽 설정을 선택하는 것이 좋습니다. 해당 모드를 플레이하려면 고사양 컴퓨터가 필요합니다. 전투 환경에 따라 FPS 수치가 저하될 수 있습니다."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "가장 높은 그래픽 설정 권장"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) 가장 높은 그래픽 설정 권장"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "낮음 그래픽 설정에서는 시각적 효과에 문제가 발생할 수 있습니다. 컴퓨터 사양이 요구 사항을 충족한다면 쾌적하게 게임을 즐길 수 있도록 가장 높은 그래픽 설정을 선택하는 것이 좋습니다. 해당 모드를 플레이하려면 고사양 컴퓨터가 필요합니다. 전투 환경에 따라 FPS 수치가 저하될 수 있습니다."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "가장 높은 그래픽 설정 권장"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) 가장 높은 그래픽 설정 권장"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "새로운 아케이드 임무 해제까지:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "%(subModeName)s 모드가 종료되었습니다. 진행 상황이 초기화됩니다."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "%(subModeName)s 모드가 종료되었습니다."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "새로운 보상과 %(subModeName)s 모드를 이용할 수 있습니다."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "새로 등장한 %(subModeName)s 모드를 이용할 수 있습니다."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "점검 중이므로 %(subModeName)s 모드를 이용할 수 없습니다."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "%(subModeName)s 모드를 다시 이용할 수 있습니다."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "보상 목록"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "축하합니다!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "진행 완료"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "축하합니다!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "반복 가능 스테이지"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "주요 진행 완료"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "획득한 무제한 보상:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "획득한 점수: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "점수 획득:"
+
+msgid "modes/undefined/progression/title"
+msgstr "아케이드 임무"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "완료:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "반복 가능"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "완료 시:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "패배 시:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "승리 시:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "점수"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "획득:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "현재 진행 가능한 모든 임무 완료"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "진행 시작 시 임무 활성화"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "현재 이용 가능한 모든 임무를 완료했습니다. 갱신 일정에 따라 추후 새로운 임무가 활성화됩니다."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "종료까지 {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "종료까지 {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "새로운 임무 활성화까지 {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}} 진행 상태"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}} 임무"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "전설 보상 획득"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "다시 %(subModeName)s 전투에 참여할 수 있습니다."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "휴전"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s 전투 종료"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "휴전"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "휴전이 적용 중입니다. 일시적으로 %(subModeName)s 전투에 참여할 수 없습니다."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "휴전"
+
+msgid "modes/undefined/tierList/description"
+msgstr "무작위 보상은 아래 목록 내 아이템으로 구성됩니다. 각 아이템은 일정 확률로 획득할 수 있습니다."
+
+msgid "modes/undefined/tierList/title"
+msgstr "아이템 목록"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "아케이드 모드 참여 가능 전차를 표시합니다."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "아케이드 전차"
+
+msgid "modes/undefined/userName"
+msgstr "아케이드"
+
+msgid "notification/congratulation"
+msgstr "축하합니다!"
+
+msgid "notification/finishSubModes"
+msgstr "\"%(modeName)s\" 이벤트가 종료되었습니다."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "%(subModesNames)s 모드가 종료되었습니다. 진행 상황이 초기화됩니다."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "%(subModesNames)s 모드가 종료되었습니다."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "무작위 보상"
+
+msgid "notification/newProgression"
+msgstr "이벤트 진행 상황이 초기화되었습니다. 보상을 다시 획득할 수 있습니다!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "이벤트 진행 상황이 초기화되었습니다. 새로 등장한 %(subModesNames)s 모드를 이용할 수 있습니다."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "새로 등장한 %(subModesNames)s 모드를 이용할 수 있습니다."
+
+msgid "notification/progressionComplete"
+msgstr "\"%(modeName)s\" 임무를 모두 완료했습니다. 보상 획득:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "\"%(modeName)s\" 임무를 모두 완료했습니다. 반복 가능 스테이지를 진행할 수 있습니다. 보상 획득:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "진행 상황 초기화까지 남은 시간이 1일 미만입니다. 초기화 후에는 임무를 다시 완료할 수 있습니다."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "%(days)d일 후 진행 상황이 초기화됩니다. 초기화 후에는 임무를 다시 완료할 수 있습니다."
+
+msgid "notification/progressionStageComplete"
+msgstr "\"%(modeName)s\" 스테이지 %(stage)s 완료! 보상 획득:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "점검 중이므로 %(subModesNames)s 모드를 이용할 수 없습니다."
+
+msgid "notification/switchOnSubModes"
+msgstr "%(subModesNames)s 모드를 다시 이용할 수 있습니다."
+
+msgid "platoonView/title"
+msgstr "소대: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "이용 가능 서버: %(server)s"
+
+msgid "primeTimes/availableServers"
+msgstr "이용 가능 서버:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "%(serverName)s 서버\n%(primeDelta)s 후 전투 참여 가능"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "%(serverName)s 서버\n\"%(leftDetailedSeasonName)s\" 전투가 종료되었습니다."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "%(serverName)s 서버\n%(primeDelta)s 동안 전투 참여 가능"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "%(serverName)s 서버\n%(primeDelta)s 후 전투 참여 가능"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "%(serverName)s 서버\n\"%(leftDetailedSeasonName)s\" 전투가 종료되었습니다."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "%(serverName)s 서버\n%(primeDelta)s 후 전투 참여 가능"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "%(serverName)s 서버\n\"%(leftDetailedSeasonName)s\" 전투가 종료되었습니다."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s일"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s시간 %(min)s분"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1분"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s분"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "모든 서버에 휴전이 적용 중입니다.\n%(primeDelta)s 후 전투에 참여할 수 있습니다."
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" 전투 종료"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "%(primeDeltaDate)s %(primeDeltaTime)s까지 %(serverName)s 서버 휴전 적용"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "%(serverName)s 서버에 휴전 적용 중"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "%(serverName)s 서버에 휴전이 적용 중입니다.\n%(primeDelta)s 후 전투에 참여할 수 있습니다."
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "\"%(leftDetailedSeasonName)s\" 전투 종료"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "%(serverName)s 서버 %(primeDelta)s 후 전투 시작"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "%(serverName)s 서버 \"%(leftDetailedSeasonName)s\" 전투가 종료되었습니다."
+
+msgid "primeTimes/timeText/available"
+msgstr "%(serverName)s 서버 %(primeDelta)s 동안 전투 참여 가능"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "%(serverName)s 서버 %(primeDelta)s 후 전투 시작"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "%(serverName)s 서버 \"%(leftDetailedSeasonName)s\" 전투가 종료되었습니다."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "%(serverName)s 서버 %(primeDelta)s 후 전투 시작"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "%(serverName)s 서버 \"%(leftDetailedSeasonName)s\" 전투가 종료되었습니다."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "점수"
+
+msgid "progression/complete/affirmative"
+msgstr "확인"
+
+msgid "progression/defaultCondition/text"
+msgstr "점수를 획득하여 이벤트를 진행하십시오."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "점수 획득:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "활성 기간 종료: 전투 종료"
+
+msgid "progression/questsList/quest/completed"
+msgstr "완료:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "반복 가능"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "완료 시:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "패배 시:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "승리 시:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "획득:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "활성 기간 종료까지: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "활성 기간 종료까지:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "다음 일정 시작까지:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "다음 스테이지 보상 — %(count)d점 획득 시 해제"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "그 외 보상:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "확인"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "소대장이 %(subModeName)s 모드로 변경했습니다."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "하위 모드 변경"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s단계"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "개발팀용 높은 위험 설명"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "개발팀용 고사양 모드"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) 개발팀용 고사양 모드"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "개발팀용 중간 위험 설명"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "개발팀용 고사양 모드"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) 개발팀용 고사양 모드"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "네온빛 질주"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "누구보다 먼저 결승선에 도달하는 레이스가 펼쳐집니다. 질주 능력과 방어막 능력을 활용해 상대를 제치십시오!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "주의: 움직이는 구조물"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "레이저를 피하고 적절한 순간에 점프하여 결승선까지 전력으로 질주하십시오!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "주의: 레이저와 점프"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "입력 시 모드 세부 정보 표시"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "단축키"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "네온빛 질주"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15명~30명"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "결승선을 향해\n전속으로 질주"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} 모든 단계"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "낮음 그래픽 설정에서는 시각적 효과 및 기타 문제가 발생할 수 있습니다. 컴퓨터 사양이 요구 사항을 충족한다면 쾌적하게 게임을 즐길 수 있도록 가장 높은 그래픽 설정을 선택하는 것이 좋습니다. 해당 모드를 플레이하려면 고사양 컴퓨터가 필요하며, 격렬한 상황에서는 FPS 수치가 저하될 수 있습니다."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "가장 높은 그래픽 설정 권장"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) 가장 높은 그래픽 설정 권장"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "낮음 그래픽 설정에서는 시각적 효과 및 기타 문제가 발생할 수 있습니다. 컴퓨터 사양이 요구 사항을 충족한다면 쾌적하게 게임을 즐길 수 있도록 가장 높은 그래픽 설정을 선택하는 것이 좋습니다. 해당 모드를 플레이하려면 고사양 컴퓨터가 필요하며, 격렬한 상황에서는 FPS 수치가 저하될 수 있습니다."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "가장 높은 그래픽 설정 권장"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) 가장 높은 그래픽 설정 권장"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "네온빛 질주"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "네온빛 질주"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "\"네온빛 질주\""
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s단계"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "낮음 그래픽 설정에서는 시각적 효과에 문제가 발생할 수 있습니다. 컴퓨터 사양이 요구 사항을 충족한다면 쾌적하게 게임을 즐길 수 있도록 가장 높은 그래픽 설정을 선택하는 것이 좋습니다. 해당 모드를 플레이하려면 고사양 컴퓨터가 필요합니다. 전투 환경에 따라 FPS 수치가 저하될 수 있습니다."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "가장 높은 그래픽 설정 권장"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) 가장 높은 그래픽 설정 권장"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "낮음 그래픽 설정에서는 시각적 효과에 문제가 발생할 수 있습니다. 컴퓨터 사양이 요구 사항을 충족한다면 쾌적하게 게임을 즐길 수 있도록 가장 높은 그래픽 설정을 선택하는 것이 좋습니다. 해당 모드를 플레이하려면 고사양 컴퓨터가 필요합니다. 전투 환경에 따라 FPS 수치가 저하될 수 있습니다."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "가장 높은 그래픽 설정 권장"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) 가장 높은 그래픽 설정 권장"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

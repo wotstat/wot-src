@@ -1,0 +1,356 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleProgress/hint"
+msgstr "%(hintKey)sキーで挑戦中のミッションを確認"
+
+msgid "buttons/battleSession/leave"
+msgstr "終了"
+
+msgid "companyListView/filterButton/label"
+msgstr "検索"
+
+msgid "dialogs/buttons/notReady"
+msgstr "準備中"
+
+msgid "dialogs/buttons/ready"
+msgstr "準備完了!"
+
+msgid "hints/confirmDialog/confirm"
+msgstr "了解！"
+
+msgid "hints/confirmDialog/message"
+msgstr "戦車兵としての基礎を学び終えたようだな！今後は、戦闘のロード画面で初心者向けのヒントは表示されなくなり、代わりにチーム編成が表示されるようになる。ヒントはメニュー画面の設定から、再び有効化すれば、再度確認できるようになっている。"
+
+msgid "hints/confirmDialog/title"
+msgstr "戦闘のロード画面"
+
+msgid "hints/hint1/description"
+msgstr "照準サークルの中心に表示される小さい円を貫通インジケーターと呼ぶ。インジケーターの色で、敵の装甲できる場所が分かるようになっている。"
+
+msgid "hints/hint1/green/description"
+msgstr "貫通できる可能性が高い"
+
+msgid "hints/hint1/green/header"
+msgstr "インジケーターが緑"
+
+msgid "hints/hint1/header"
+msgstr "装甲貫通"
+
+msgid "hints/hint1/red/description"
+msgstr "貫通できる可能性が低い"
+
+msgid "hints/hint1/red/header"
+msgstr "インジケーターが赤"
+
+msgid "hints/hint10/description"
+msgstr "照準サークルは、自動で画面の中央に向くようになっている。ただし車輌の旋回速度によっては照準サークルが中央に移動するまで時間がかかることもある。"
+
+msgid "hints/hint10/header"
+msgstr "照準サークル"
+
+msgid "hints/hint10/penetration/description"
+msgstr "緑になる場所は高確率で貫通できる"
+
+msgid "hints/hint10/penetration/header"
+msgstr "貫通インジケーター"
+
+msgid "hints/hint10/reloading/description"
+msgstr "装填が完了すると緑になる"
+
+msgid "hints/hint10/reloading/header"
+msgstr "主砲の装填状況"
+
+msgid "hints/hint10/spread/description"
+msgstr "砲弾は範囲内のランダムな位置に飛ぶ"
+
+msgid "hints/hint10/spread/header"
+msgstr "散布界"
+
+msgid "hints/hint12/description"
+msgstr "命中した砲弾が装甲を貫通できるかどうかは、砲弾が装甲に命中した角度によって大きく左右される。装甲の角度のメカニズムを理解すれば、安定してダメージを与えられるようになる。"
+
+msgid "hints/hint12/header"
+msgstr "装甲の角度"
+
+msgid "hints/hint12/notPenetrated/description"
+msgstr "鋭角だと貫通しにくい"
+
+msgid "hints/hint12/notPenetrated/header"
+msgstr "非貫通"
+
+msgid "hints/hint12/penetrated/description"
+msgstr "垂直だと貫通しやすい"
+
+msgid "hints/hint12/penetrated/header"
+msgstr "貫通"
+
+msgid "hints/hint13/description"
+msgstr "自車輌と味方車輌は自動で無線通信を行っている。そのため自車輌の通信範囲内で味方に発見された敵車輌は自分のマップにも表示される。"
+
+msgid "hints/hint13/header"
+msgstr "コミュニケーション"
+
+msgid "hints/hint13/invisible/description"
+msgstr "遮蔽物の陰に潜伏中"
+
+msgid "hints/hint13/invisible/header"
+msgstr "未発見状態"
+
+msgid "hints/hint13/visible/description"
+msgstr "味方が発見済み"
+
+msgid "hints/hint13/visible/header"
+msgstr "発見状態"
+
+msgid "hints/hint2/description"
+msgstr "厚い装甲や巨大な主砲を搭載した車輌は強力な一方で、総重量が重くなり、機動性が低くなる。重い車輌を操縦する際は慎重なルート取りが肝心だ。"
+
+msgid "hints/hint2/firing"
+msgstr "射撃"
+
+msgid "hints/hint2/freeCam"
+msgstr "カメラ操作"
+
+msgid "hints/hint2/header"
+msgstr "車輌の操縦"
+
+msgid "hints/hint2/movement"
+msgstr "移動"
+
+msgid "hints/hint2/turret"
+msgstr "砲塔旋回"
+
+msgid "hints/hint3/description"
+msgstr "マウスホイールをスクロールするか、「Shift」キーを押すと、スナイパーモードに移行できる。"
+
+msgid "hints/hint3/header"
+msgstr "スナイパーモード"
+
+msgid "hints/hint3/orLabel"
+msgstr "or"
+
+msgid "hints/hint4/description"
+msgstr "外部モジュールに損傷を与えても車輌HPを減らすことはできない。一方で車輌の戦闘能力を削ぐことはできる。"
+
+msgid "hints/hint4/header"
+msgstr "重大な損傷"
+
+msgid "hints/hint4/immobilized/description"
+msgstr "サスペンションへの重大な損傷"
+
+msgid "hints/hint4/immobilized/header"
+msgstr "移動不能"
+
+msgid "hints/hint4/shooting/description"
+msgstr "主砲への重大な損傷"
+
+msgid "hints/hint4/shooting/header"
+msgstr "射撃不可"
+
+msgid "hints/hint4/view/description"
+msgstr "視認装置への重大な損傷"
+
+msgid "hints/hint4/view/header"
+msgstr "視認範囲縮小"
+
+msgid "hints/hint5/aid/description"
+msgstr "負傷した搭乗員を治療する"
+
+msgid "hints/hint5/aid/header"
+msgstr "救急キット"
+
+msgid "hints/hint5/description"
+msgstr "出撃する前に消耗品を搭載しておけば、モジュールへの重大な損傷や火災に対処できるほか、負傷した搭乗員を治療することもできる。"
+
+msgid "hints/hint5/fire/description"
+msgstr "発生した火災を消火する"
+
+msgid "hints/hint5/fire/header"
+msgstr "消火器"
+
+msgid "hints/hint5/header"
+msgstr "消耗品"
+
+msgid "hints/hint5/repair/description"
+msgstr "損傷したモジュールを修理する"
+
+msgid "hints/hint5/repair/header"
+msgstr "修理キット"
+
+msgid "hints/hint6/area"
+msgstr "開けた場所での移動"
+
+msgid "hints/hint6/description"
+msgstr "敵車輌の視認範囲に入ると発見状態となる。ただしマップにある茂みや稜線、オブジェクトに身を隠せば隠蔽率が向上し、視認範囲内にいても発見されない。"
+
+msgid "hints/hint6/header"
+msgstr "隠蔽率"
+
+msgid "hints/hint6/invisible"
+msgstr "未発見状態"
+
+msgid "hints/hint6/object"
+msgstr "遮蔽物の陰に潜伏中"
+
+msgid "hints/hint6/shot"
+msgstr "射撃を行うと隠蔽率が大幅に下がる"
+
+msgid "hints/hint6/vegetation"
+msgstr "茂みの陰に潜伏中"
+
+msgid "hints/hint6/visible"
+msgstr "発見状態"
+
+msgid "hints/hint7/base"
+msgstr "敵陣地を占領"
+
+msgid "hints/hint7/description"
+msgstr "戦闘に勝利する方法は複数存在する。戦況を見て勝利への最適解を導き出せるかが勝敗を分ける。"
+
+msgid "hints/hint7/header"
+msgstr "勝利条件"
+
+msgid "hints/hint7/orLabel"
+msgstr "OR"
+
+msgid "hints/hint7/vehicles"
+msgstr "敵車輌を殲滅"
+
+msgid "hints/hint7/victory"
+msgstr "勝利！"
+
+msgid "hints/hint8/description"
+msgstr "移動中は主砲の散布界が広がってしまう。敵に確実に砲弾を命中させるコツは、静止した状態で照準サークルが絞り切るのを待ってから射撃することだ。"
+
+msgid "hints/hint8/header"
+msgstr "主砲の散布界"
+
+msgid "hints/hint8/high"
+msgstr "35 km/h"
+
+msgid "hints/hint8/low"
+msgstr "0 km/h"
+
+msgid "hints/hint9/description"
+msgstr "場所や車輌によっては、主砲の俯角や仰角が足りず、敵に照準を合わせられないことがある。"
+
+msgid "hints/hint9/header"
+msgstr "主砲の俯角と仰角"
+
+msgid "hints/loading"
+msgstr "ロード中…"
+
+msgid "hints/manual"
+msgstr "詳細はメニュー画面の訓練センターで確認可能"
+
+msgid "hints/skip"
+msgstr "任意のキーを押して戦闘に参加"
+
+msgid "labels/company/queue"
+msgstr "サブ:"
+
+msgid "labels/level"
+msgstr "Tier"
+
+msgid "labels/members"
+msgstr "メンバー: %(openTag)s%(membersCount)d%(closeTag)s / %(maxMembersCount)d"
+
+msgid "labels/player"
+msgstr "プレイヤー"
+
+msgid "labels/sort/byName"
+msgstr "プレイヤー名"
+
+msgid "labels/sort/byOrder"
+msgstr "参加した時間"
+
+msgid "labels/sort/byStatus"
+msgstr "準備状況"
+
+msgid "labels/sort/byVehicles"
+msgstr "車輌タイプ"
+
+msgid "labels/stats/level"
+msgstr "レベル:"
+
+msgid "labels/stats/maxPlayers"
+msgstr "プレイヤー:"
+
+msgid "labels/stats/sumLevel"
+msgstr "総 Tier:"
+
+msgid "labels/stats/totalLevel"
+msgstr "総 Tier: %(totalLevel)s"
+
+msgid "labels/stats/vehicleLevel"
+msgstr "車輌のTier上限"
+
+msgid "labels/stats/vehicleSPGLevel"
+msgstr "自走砲のTier上限"
+
+msgid "labels/vehicle"
+msgstr "車輌"
+
+msgid "memberList/empty/label"
+msgstr "待機リストからプレイヤーを選択し、チームに加えてください。"
+
+msgid "stats/battleSession/commonLevel"
+msgstr "Tier:"
+
+msgid "stats/battleSession/required"
+msgstr "必須:"
+
+msgid "stats/battleSession/vehicleType"
+msgstr "タイプ:"
+
+msgid "switchPeripheryWindow/fort/applySwitchLabel"
+msgstr "前衛戦に参加するには、%(server)sサーバーに移動してください。"
+
+msgid "switchPeripheryWindow/fort/description"
+msgstr "%(server)sサーバーに接続中です。現在、このサーバーでは前衛戦が制限されています。"
+
+msgid "switchPeripheryWindow/fort/header"
+msgstr "注意!"
+
+msgid "switchPeripheryWindow/fort/selectServerLabel"
+msgstr "前衛戦に参加するには、別のサーバーに移動してください:"
+
+msgid "switchPeripheryWindow/ranked/applySwitchLabel"
+msgstr "ランク戦モードでプレイするには、別のサーバーを選択してください。"
+
+msgid "switchPeripheryWindow/ranked/description"
+msgstr "%(server)sサーバーは現在休戦中のため、ランク戦は利用できません。"
+
+msgid "switchPeripheryWindow/ranked/header"
+msgstr "注意!"
+
+msgid "switchPeripheryWindow/ranked/selectServerLabel"
+msgstr "ランク戦モードでプレイするには、別のサーバーを選択してください:"
+
+msgid "title/battleSession/arenaType"
+msgstr "マップ:"
+
+msgid "title/battleSession/battlesLimit"
+msgstr "戦闘数/勝利数:"
+
+msgid "title/battleSession/clanBattle/startTime"
+msgstr "%(peripheryName)s %(arenaName)s %(startTime)s"
+
+msgid "title/battleSession/comment"
+msgstr "説明:"
+
+msgid "title/battleSession/header/battleSettings"
+msgstr "戦闘の設定"
+
+msgid "title/battleSession/header/startTime"
+msgstr "戦闘開始まで:"
+
+msgid "title/battleSession/startTime"
+msgstr "開始時間:"
+
+msgid "title/battleSession/unit"
+msgstr "中隊"
+
+msgid "upButton/hint"
+msgstr "参加するにはクリックしてください。"

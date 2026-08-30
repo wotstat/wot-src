@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To:\nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "battleQuestAwards/button"
+msgstr "了解!"
+
+msgid "battleQuestAwards/stPatrick/subTitle"
+msgstr "STEEL HUNTER SHAMROCK"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "STEEL HUNTER"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "最終ステージを達成！"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ステージ%(level)sを達成!"
+
+msgid "dailyBonus/description"
+msgstr "%(dailyBonus)s ソロプレイで上位%(soloTopPlaces)s位、または小隊戦で上位%(squadTopPlaces)s位にランクインすると、「幸印」トークンにボーナスが加算されます。このボーナスは各イベント車輌で1日に1回まで受け取ることができます。"
+
+msgid "eventShop"
+msgstr "ショップ"
+
+msgid "leaveBattleView/confirmation/cancel"
+msgstr "キャンセル"
+
+msgid "leaveBattleView/confirmation/submit"
+msgstr "離脱"
+
+msgid "leaveBattleView/description"
+msgstr "まだ戦闘を行うことができます。戦闘を行えるにもかかわらず戦場から離脱すると報酬は手に入りません。それでも戦闘から離脱しますか?"
+
+msgid "leaveBattleView/title"
+msgstr "戦闘離脱に対する処罰の可能性"
+
+msgid "leaveBattleView/warning"
+msgstr "報酬は手に入りません。"
+
+msgid "progress/counter"
+msgstr "{{current}}{{divider}}{{total}}"
+
+msgid "progressionComplete"
+msgstr "メイン進捗を制覇!"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s または %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/questsTotal/text"
+msgstr "達成したミッション: "
+
+msgid "progressionView/battleQuests/timer/eventResetTime/text"
+msgstr "イベント終了まで"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "ミッションの更新まで"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/seasonRange"
+msgstr "%(startDate)s～%(endDate)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "進行を制覇しました。引き続き「STEEL HUNTER」をプレイすることで、さらなる報酬を獲得できます。"
+
+msgid "progressionView/subTitle/endEvent"
+msgstr "イベントは終了しました。ミッションや進捗システムは利用できません。"
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "ミッションを達成すると「ハンターポイント」が手に入ります。\n実際に手に入る「ハンターポイント」の量は最終的な順位に応じて変動します。%(infotip)s"
+
+msgid "proxy_currency_tooltip/earn/description/brcoin"
+msgstr "「鋼印」トークンは、戦闘で活躍するか、戦闘終了時に上位に入賞するか、あるいはモード専用ミッションを達成すると入手できます。"
+
+msgid "proxy_currency_tooltip/earn/description/stpcoin"
+msgstr "「幸印」トークンは、マップに出現する各種のアイテムから回収できるほか、専用ステージを進めたり、戦闘で上位にランキングすると入手できます。"
+
+msgid "proxy_currency_tooltip/earn/title/brcoin"
+msgstr "「鋼印」トークンの取得方法"
+
+msgid "proxy_currency_tooltip/earn/title/stpcoin"
+msgstr "「幸印」トークンの取得方法"
+
+msgid "proxy_currency_tooltip/spend/description/brcoin"
+msgstr "集めた「鋼印」トークンは本モード限定のスタイルを購入する際に必要になります。"
+
+msgid "proxy_currency_tooltip/spend/description/stpcoin"
+msgstr "集めた「幸印」トークンは、「シャムロック・ショップ」と呼ばれる専用ショップで貴重な報酬と交換できます。"
+
+msgid "proxy_currency_tooltip/spend/title/brcoin"
+msgstr "「鋼印」トークンの用途"
+
+msgid "proxy_currency_tooltip/spend/title/stpcoin"
+msgstr "「幸印」トークンの用途"
+
+msgid "proxy_currency_tooltip/title/brcoin"
+msgstr "「鋼印」トークン"
+
+msgid "proxy_currency_tooltip/title/stpcoin"
+msgstr "「幸印」トークン"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "「STEEL HUNTER」モードで専用ミッションを達成すると手に入るリソースです。モードを進める上で必要になります。"
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "ハンターポイント"
+
+msgid "rewardCurrencyTooltip/body/battlePassPoints"
+msgstr "「バトルパス進捗ポイント」は、戦闘で好成績を収めるか特定のミッションを達成することで取得でき、自動的に「バトルパス」の進捗に加算されます。"
+
+msgid "rewardCurrencyTooltip/body/brProgressionToken"
+msgstr "「STEEL HUNTER」モードでステージを進めるのに必要なリソースです。専用ミッションを達成したり、戦闘で優れた成績をおさめると手に入ります。"
+
+msgid "rewardCurrencyTooltip/body/brcoin"
+msgstr "「鋼印」トークンは、戦闘で活躍するか、上位に入賞するか、あるいは専用ミッションを達成すると手に入ります。"
+
+msgid "rewardCurrencyTooltip/body/credits"
+msgstr "主要なゲーム通貨です。戦闘で取得できるほか、ゴールドで購入できます。"
+
+msgid "rewardCurrencyTooltip/body/crystal"
+msgstr "他の方法では入手できない限定アイテムを購入する際に必要となる貴重なゲーム内通貨です。"
+
+msgid "rewardCurrencyTooltip/body/stpcoin"
+msgstr "「STEEL HUNTER SHAMROCK」の専用リソースです。集めたトークンは「シャムロック・ショップ」で限定報酬と交換できます。小隊を組んで出撃した場合、取得できるトークンは小隊メンバーで均等に分配されます。表示されている数が合計の取得枚数です。"
+
+msgid "rewardCurrencyTooltip/body/xp"
+msgstr "ハンター車輌で取得したEXPは、フリーEXPに変換できます。"
+
+msgid "rewardCurrencyTooltip/dailyBonus/stpcoin"
+msgstr "ボーナスの条件を満たしたため、取得できるトークンの枚数が%(count)s倍になりました。"
+
+msgid "rewardCurrencyTooltip/header/battlePassPoints"
+msgstr "バトルパス進捗ポイント"
+
+msgid "rewardCurrencyTooltip/header/brProgressionToken"
+msgstr "ハンターポイント"
+
+msgid "rewardCurrencyTooltip/header/brcoin"
+msgstr "「鋼印」トークン"
+
+msgid "rewardCurrencyTooltip/header/credits"
+msgstr "クレジット"
+
+msgid "rewardCurrencyTooltip/header/crystal"
+msgstr "ボンズ"
+
+msgid "rewardCurrencyTooltip/header/stpcoin"
+msgstr "「幸印」トークン"
+
+msgid "rewardCurrencyTooltip/header/xp"
+msgstr "戦闘EXP"
+
+msgid "rewardCurrencyTooltip/premiumBonus/brcoin"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できるこちらのリソースの量が50%増加します。"
+
+msgid "rewardCurrencyTooltip/premiumBonus/credits"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できるこちらのリソースの量が50%増加します。"
+
+msgid "rewardCurrencyTooltip/premiumBonus/xp"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できるEXPの量が50%増加します。"
+
+msgid "serviceChannelMessages/awards"
+msgstr "入手した報酬:"
+
+msgid "serviceChannelMessages/body"
+msgstr "「%(progressionName)s」モードの進捗ステージ%(stage)sを達成しました。"
+
+msgid "serviceChannelMessages/header"
+msgstr "おめでとうございます!"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "詳細"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "STEEL HUNTER"
+
+msgid "tab/label/platoon"
+msgstr "小隊"
+
+msgid "tab/label/solo"
+msgstr "ソロ"
+
+msgid "tab/label/team"
+msgstr "フレンドと一緒に"
+
+msgid "tooltip/banner/description"
+msgstr "荒廃した世界を舞台に最後の1人になるまで戦う《バトル・ロイヤル》形式のモードです。本モードでは、戦闘を通してTierが上がりアップグレードできるようになる8輌の特別車輌を操り戦います。限定報酬をはじめ、さまざまな魅力が待っています!"
+
+msgid "tooltip/banner/mode/description"
+msgstr "— ゲームモードの詳細を確認できます"
+
+msgid "tooltip/banner/mode/label"
+msgstr "モード"
+
+msgid "tooltip/banner/performanceRisk/description/high"
+msgstr "お使いのPCがこのモードのシステム要件を満たしていません。グラフィックや車輌の操作に不具合が生じたり、クライアントがクラッシュする可能性があります。"
+
+msgid "tooltip/banner/performanceRisk/description/medium"
+msgstr "本モードを快適にプレイいただくには高性能PCが必要です。お使いのPCではマップの読み込み、グラフィック、車輌の操作などに不具合が生じる可能性があります。パフォーマンスに問題がある場合は、「設定」画面で「グラフィック品質」を変更してください。"
+
+msgid "tooltip/banner/performanceRisk/title/high"
+msgstr "低パフォーマンス"
+
+msgid "tooltip/banner/performanceRisk/title/medium"
+msgstr "パフォーマンス低下の可能性あり"
+
+msgid "tooltip/banner/stPatrickDescription"
+msgstr "《グリーン》の色鮮やかな魔法にかけられた世界を舞台に最後の1人になるまで戦う《バトル・ロイヤル》形式のモードです。本モードでは、戦闘を通してTierが上がりアップグレードできるようになる8輌の特別車輌を操り戦います。限定報酬をはじめ、さまざまな魅力が待っています!"
+
+msgid "tooltip/banner/stPatrickTitle"
+msgstr "STEEL HUNTER SHAMROCK"
+
+msgid "tooltip/banner/timer/text/accent"
+msgstr "イベント終了まで %(timer)s"
+
+msgid "tooltip/banner/timer/text/cooldown"
+msgstr "休止時間: %(timer)s"
+
+msgid "tooltip/banner/title"
+msgstr "STEEL HUNTER"
+
+msgid "tooltip/daily_quests/header"
+msgstr "達成済み"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "新たな「STEEL HUNTER」ミッションまで: {{timeLeft}}"
+
+msgid "tooltip/daily_quests/reward"
+msgid_plural "plural/tooltip/daily_quests/reward"
+msgstr[0] "報酬"
+msgstr[1] "報酬"
+msgstr[2] "報酬"
+
+msgid "tooltip/daily_quests/text"
+msgstr "全ミッションを制覇!"
+
+msgid "tooltip/progressionWidget/description/completed"
+msgstr "すべての報酬を入手しました。"
+
+msgid "tooltip/progressionWidget/description/header"
+msgstr "メイン進捗を制覇!"
+
+msgid "tooltip/progressionWidget/description/inProgress"
+msgstr "モード専用の進捗システムです。ステージを進めるには、ミッションを達成して「STEEL HUNTER」の戦闘で上位に入賞する必要があります。"
+
+msgid "tooltip/progressionWidget/subTitle"
+msgstr "モード終了まで%(value)s"
+
+msgid "tooltip/progressionWidget/title"
+msgstr "STEEL HUNTER"
+
+msgid "tooltip/quest/header"
+msgstr "STEEL HUNTERミッション"
+
+msgid "tooltip/shop/stPatrick/subtitle"
+msgstr "{ede6d9_Open}「幸印」トークン{ede6d9_Close}を使って特別な報酬を手に入れることができます。"
+
+msgid "tooltip/shop/stPatrick/text"
+msgstr "「幸印」トークンは、マップに出現する各種のアイテムから回収するか、専用ステージを進めたり、戦闘で上位にランキングすると入手できます。"
+
+msgid "tooltip/shop/stPatrick/title"
+msgstr "シャムロック・ショップ"
+
+msgid "tooltip/shop/subtitle"
+msgstr "{ede6d9_Open}「鋼印」トークン{ede6d9_Close}を使って特別な報酬を手に入れることができます。"
+
+msgid "tooltip/shop/text"
+msgstr "戦闘で効果的に立ち回り、戦闘結果で高順位を記録し、ミッションを達成することで「鋼印」トークンを獲得できます。"
+
+msgid "tooltip/shop/title"
+msgstr "STEEL HUNTERショップ"
+
+msgid "upgrades/description"
+msgstr "マップ上で「戦利品」を回収しながら敵にダメージを与え、経験値を獲得し、さらに上のTierを目指します。新たなTierに到達するたびにアップグレード・メニューからモジュールを1つ強化でき、車輌の特性を大幅に向上させられます。"
+
+msgid "upgrades/footer"
+msgstr "モジュールをアップグレードできるのは戦闘中のみです。"
+
+msgid "upgrades/subtitle"
+msgstr "戦闘には、Tier I車輌で出撃します。"
+
+msgid "upgrades/title"
+msgstr "戦闘中の車輌強化"

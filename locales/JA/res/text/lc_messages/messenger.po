@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT 翻訳者 <<noreply@wargaming.net>\nLanguage-Team: WoT チーム <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "新しいメッセージの閲覧"
+
+msgid "battle/history/header"
+msgstr "敵"
+
+msgid "battle/history/latestMessage"
+msgstr "最後のメッセージの閲覧"
+
+msgid "battle/history/title"
+msgstr "チャット履歴:"
+
+msgid "battle/history/upMessage"
+msgstr "古いメッセージの閲覧"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sチャット OFF%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "お住まいの地域では戦闘中のチャットはご利用いただけません。"
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "お使いのアカウントでは戦闘中のチャットはご利用いただけません。"
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "ペアレンタルコントロールにより禁止されているため、戦闘中のチャットはご利用いただけません。"
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "戦闘中チャットは、ゲーム設定で有効化できます。"
+
+msgid "battle/receivers/common"
+msgstr "全員宛"
+
+msgid "battle/receivers/squad"
+msgstr "小隊宛"
+
+msgid "battle/receivers/team"
+msgstr "チーム宛"
+
+msgid "battle/toolTips/cancel"
+msgstr "キャンセル"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "宛先の変更"
+
+msgid "battle/toolTips/default"
+msgstr "以前の受信者と"
+
+msgid "battle/toolTips/duringChat"
+msgstr "チャット中:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "チャットでプレイヤーのメッセージ付近に表示されるボタンをクリックすることで、選択したプレイヤーからのメッセージをブロック可能です。"
+
+msgid "battle/toolTips/send"
+msgstr "メッセージ送信"
+
+msgid "battle/toolTips/startChat"
+msgstr "チャットの開始:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "メッセージを通報するには、そのメッセージをクリックして理由を選択してください。このオプションからは、チャットを無効化したり、チャットを味方限定に設定したりすることもできます。小隊チャットは常時ご利用可能です。"
+
+msgid "battle/toolTips/usingChat"
+msgstr "チャット"
+
+msgid "battle/toolTips/withSquad"
+msgstr "小隊と"
+
+msgid "battle/unknown/ally"
+msgstr "味方"
+
+msgid "battle/unknown/enemy"
+msgstr "敵"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "%(curfewTime)s にサーバーから切断されます。セッション終了まで %(timeLeft)s 分です。"
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "プレイ時間のデイリー制限に達しました。セッション終了まで %(timeLeft)s 分です。"
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "プレイ時間のウィークリー制限に達しました。セッション終了まで %(timeLeft)s 分です。"
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "プレイ時間の上限に到達しました。あと%(timeLeft)s分でセッションが終了します。"
+
+msgid "chat/personalMessage/warningBody"
+msgstr "知らない相手からのメッセージには、悪意のあるリンクが含まれる可能性がありますので、アクセスしないでください。パスワードは誰にも教えてはいけません。"
+
+msgid "chat/personalMessage/warningHead"
+msgstr "注意!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "戦闘結果"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "%(playerName)s さんからのメッセージはブロック中です。"
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "メッセージ送信"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "メッセージ送信"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "プレイヤーの検索"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "音声チャット設定"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "自分自身をアクセス禁止することはできません。"
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "\"%(actionName)s\" 実行エラー"
+
+msgid "chat_error/IS_BUSY"
+msgstr "サーバービジー。"
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "この操作の実行権限がありません。"
+
+msgid "chat_error/NOT_READY"
+msgstr "アクション \"%(actionName)s\" 使用不能。"
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "ユーザーが存在しません。"
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "無効なパラメータ。"
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "音声チャットは無効です。小隊メンバーと会話するには、「%(keyName)s」を押して音声チャットを有効化する必要があります。"
+
+msgid "client/COMP7/disableVOIP"
+msgstr "音声チャットが無効化されています。小隊メンバーと会話するには「%(keyName)s」キーで音声チャットを有効化する必要があります。"
+
+msgid "client/commendations/comms_mutual"
+msgstr "%(player)sと「いいぞ」を送り合いました"
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)sから「いいぞ」を受けました"
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)sに「いいぞ」を送りました"
+
+msgid "client/dynSquad/created/allies"
+msgstr "味方が小隊 %(squadNum)s を作成しました。"
+
+msgid "client/dynSquad/created/enemies"
+msgstr "敵チームが小隊 %(squadNum)s を作成しました。"
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "小隊 %(squadNum)s 作成完了。小隊チャットおよび音声チャットを使用可能です。音声チャットを無効化するには、%(keyName)s を押してください。"
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "小隊 %(squadNum)s 作成完了。小隊チャットおよび音声チャットを使用可能です。音声チャットを有効化するには、%(keyName)s を押してください。"
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "小隊 %(squadNum)s 作成完了。小隊チャットおよび音声チャットを使用可能です。音声チャットを有効化/無効化するには、キーを割り当ててください。"
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "小隊 %(squadNum)s 作成完了。小隊チャットを使用可能です。"
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "小隊 %(squadNum)s への参加完了。小隊チャットおよび音声チャットを使用可能です。音声チャットを無効化するには、%(keyName)s を押してください。"
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "小隊 %(squadNum)s への参加完了。小隊チャットおよび音声チャットを使用可能です。音声チャットを有効化するには、%(keyName)s を押してください。"
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "小隊 %(squadNum)s への参加完了。小隊チャットおよび音声チャットを使用可能です。音声チャットを有効化/無効化するには、キーを割り当ててください。"
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "小隊 %(squadNum)s への参加完了。小隊チャットを使用可能です。"
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "音声チャットは無効です。小隊メンバーとコミュニケートするには、%(keyName)s を押して音声チャットを有効化してください。"
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "音声チャットは有効です。"
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "小隊 %(squadNum)s への参加完了。小隊チャットおよび音声チャットを使用可能です。音声チャットを無効化するには、%(keyName)s を押してください。"
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "小隊 %(squadNum)s への参加完了。小隊チャットおよび音声チャットを使用可能です。音声チャットを有効化するには、%(keyName)s を押してください。"
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "小隊 %(squadNum)s への参加完了。小隊チャットおよび音声チャットを使用可能です。音声チャットを有効化/無効化するには、キーを割り当ててください。"
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "小隊 %(squadNum)s への参加完了。小隊チャットを使用可能です。"
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s さんが小隊 %(squadNum)s に参加しました。"
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s さんがあなたを小隊に招待しています。"
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s から小隊への招待が届いています。\n注意! 小隊メンバーには正式プレイヤー名とクラン・タグが表示されます。"
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s さんを小隊に招待しました。"
+
+msgid "client/error/broadcastInCooldown"
+msgstr "メッセージの送信停止: %s 秒間"
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "コマンド \"%s\" 停止: %s 秒間"
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "コマンド %s は停止中です。"
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "メッセージは一時停止中です。%s秒間お待ちください。"
+
+msgid "client/information/addToFriends/message"
+msgstr "プレイヤー %s をフレンドリストに追加するリクエストを保存しました。"
+
+msgid "client/information/addToIgnored/message"
+msgstr "プレイヤー「%s」をブラックリストに追加しました。このプレイヤーからのチャットは自動的にブロックされ、メッセージは表示されません。"
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "%s さんからのチャットはブロック中であり、メッセージは表示されません。"
+
+msgid "client/information/emptySearchResult/message"
+msgstr "該当なし。"
+
+msgid "client/information/removeFromFriends/message"
+msgstr "プレイヤー %s をフレンドリストから削除するリクエストを保存しました。"
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "プレイヤー「%s」をブラックリストから削除しました。このプレイヤーと再びチャットをすることができます。"
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "%s さんとのチャットが再度ご利用可能です。"
+
+msgid "client/information/setMuted/message"
+msgstr "%s さんはあなたに音声メッセージを送信できません。"
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s さんはあなたに音声メッセージを送信可能です。"
+
+msgid "client/warning/AFKWarning/message"
+msgstr "放置行為には罰則が科されます!\nチームワークこそが勝利の鍵です。"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "空のクエリー"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "ユーザーの検索"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "検索欄の入力文字数が無効か、または無効な文字が含まれています。有効な文字数: %d - %d 文字"
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "ユーザーの検索"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "フレンドリストに追加"
+
+msgid "client_action/ADD_GROUP"
+msgstr "グループ作成"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "ブラックリストに追加"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "フレンドリクエスト承認"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "フレンドリクエスト拒否"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "グループ編集"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "プレイヤーチャンネルを作成"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "プレイヤーの検索"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "プレイヤーチャンネルに接続"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "プレイヤーチャンネルから退出"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "フレンドリストから削除"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "ブラックリストから削除"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "ノート削除"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "フレンドリクエスト送信"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "以前のメッセージを見る"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "プレイヤーチャンネルを検索"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "メッセージ送信"
+
+msgid "client_action/SET_MUTE"
+msgstr "音声チャット無効"
+
+msgid "client_action/SET_NOTE"
+msgstr "ノートの作成/編集"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "音声チャット有効"
+
+msgid "client_error/action/in_cooldown"
+msgstr "アクション \"%(actionName)s\" は %(floatArg1)s 秒間凍結中です。"
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "アクション \"%(actionName)s\" は一時的に使用不能です。後で再試行してください。"
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "チャンネル数の上限を超過しました。不要なチャンネルを閉じてから再度お試しください。"
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "チャンネル \"%(strArg1)s\" は既に存在します。"
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "チャンネル名が未入力です。"
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "無効なチャンネル名です: \"%(strArg1)s\""
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "パスワード確認が入力されたパスワードと一致しません。"
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "チャンネルパスワードが未入力です。"
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "無効なチャンネルパスワードです。"
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "パスワード確認が未入力です。"
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "パスワード確認が無効です。"
+
+msgid "client_error/command/generic_error"
+msgstr "コマンド \"%(strArg1)s\" 実行エラー。"
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "コマンド凍結: %(floatArg1)s。"
+
+msgid "client_error/command/not_supported"
+msgstr "コマンド %(strArg1)s はクライアント側で非サポートです。"
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "無効なアクセス禁止期間: %(int64Arg1)s"
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "無効なアクセス禁止タイプ: %(int32Arg1)s"
+
+msgid "client_error/command/wrong_player_name"
+msgstr "無効なプレイヤー名: %(strArg1)s"
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "プレイヤー \"%(strArg1)s\" はブラックリストに登録されています。"
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "プレイヤー \"%(strArg1)s\" はあなたのブラックリストに登録されています。"
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "プレイヤーが見つかりません。"
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "\"%(strArg1)s\" からのフレンドリクエストは既に承認済みです。"
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "\"%(strArg1)s\" からのフレンドリクエストは既に拒否済みです。"
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "\"%(strArg1)s\" からのフレンドリクエストに対するあなたの返信を処理中です。"
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "グループ名が未指定です。"
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "グループ \"%(strArg1)s\" は既に存在しています。"
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "無効なグループ名 \"%(strArg1)s\""
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "グループ \"%(strArg1)s\" が見つかりません。"
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "プレイヤー \"%(strArg1)s\" との音声チャットを有効にしました。"
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "ノートのテキストが未指定です。"
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "プレイヤー \"%(strArg1)s\" に関するノートなし"
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "プレイヤー \"%(strArg1)s\" はあなたのフレンドです。"
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "プレイヤー \"%(strArg1)s\" はあなたのフレンドリストには見つかりません。"
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "チャンネル名は %(int32Arg1)s–%(int32Arg2)s 文字である必要があります。"
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "グループ名は最大 %(int32Arg2)s 文字です。"
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "ブラックリストの最大登録人数: %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "グループの最大作成数は %(int32Arg2)s です。"
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "申し訳ございませんが、フレンドリストへの登録人数は最大 %(int32Arg2)s 名です。一緒にプレイしないプレイヤーを削除してください。"
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "ノートのテキストは最大 %(int32Arg2)s 文字です。"
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "パスワードは %(int32Arg1)s–%(int32Arg2)s である必要があります。"
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "無効なプレイヤー ID"
+
+msgid "client_error/shared/GENERIC"
+msgstr "\"%(actionName)s\" 実行エラー"
+
+msgid "client_error/shared/LOCKED"
+msgstr "アクション \"%(actionName)s\" は一時的に使用不能です。後で再試行してください。"
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "プレイヤー名が未指定です。"
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "無効なプレイヤー名: %(strArg1)s"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "チャットサーバーに接続できません。後で再試行してください。"
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "アクション \"%(actionName)s\" は、このゲームクライアントでは非サポートです。"
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "エラー発生、後で再度お試しください"
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "カウントダウンが始まるまでは、一部機能が無効です。"
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "無効なデータが指定されています。"
+
+msgid "command/acceptInvite"
+msgstr "招待の承諾"
+
+msgid "command/addFriend"
+msgstr "フレンドリストに追加"
+
+msgid "command/addIgnored"
+msgstr "ブラックリストに追加"
+
+msgid "command/broadcast"
+msgstr "メッセージ送信"
+
+msgid "command/createChatChannel"
+msgstr "チャンネル作成"
+
+msgid "command/createInvite"
+msgstr "招待の作成"
+
+msgid "command/createPrivate"
+msgstr "個人チャット開始"
+
+msgid "command/findChatChannels"
+msgstr "チャンネルの検索"
+
+msgid "command/findUser"
+msgstr "プレイヤーの検索"
+
+msgid "command/getActiveInvites"
+msgstr "招待リストを取得"
+
+msgid "command/getArchiveInvites"
+msgstr "招待リストのアーカイブを取得"
+
+msgid "command/getMembersCount"
+msgstr "チャンネル内のプレイヤー数を取得"
+
+msgid "command/leaveChatChannel"
+msgstr "チャンネルから退出"
+
+msgid "command/rejectInvite"
+msgstr "招待を拒否"
+
+msgid "command/removeFriend"
+msgstr "フレンドリストから削除"
+
+msgid "command/removeIgnored"
+msgstr "ブラックリストから削除"
+
+msgid "command/requestChatChannelMembers"
+msgstr "クランメンバー一覧の取得"
+
+msgid "command/requestSystemChatChannels"
+msgstr "システムチャンネル一覧の取得"
+
+msgid "command/setMuted"
+msgstr "音声チャット無効"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s さんをアクセス禁止しました。"
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s さんのアクセス禁止を解除しました。"
+
+msgid "command/unsetMuted"
+msgstr "音声チャット有効"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "新たなグループを作成します。"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "作成"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "操作をキャンセルして連絡先リストに戻ります。"
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "閉じる"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "グループを削除します。"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "削除"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "操作をキャンセルして連絡先リストに戻ります。"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "キャンセル"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "グループの名称を変更します。"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "保存"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "操作をキャンセルして連絡先リストに戻ります。"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "閉じる"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "プレイヤー名は最大で%(maxChars)s文字に制限されています。"
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "プレイヤーをフレンドリストに追加します。"
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "追加"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "操作をキャンセルして連絡先リストに戻ります。"
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "閉じる"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "プレイヤーを検索します。"
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "検索"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "プレイヤー名は%(minChars)s文字以上%(maxChars)s文字以下に制限されています。"
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "クエリー送信過多のため、検索は %(time)s 秒間凍結中です。"
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "新たな設定を保存します。"
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "適用"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "変更をキャンセルして連絡先リストに戻ります。"
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "キャンセル"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "グループを作成して連絡先リストを整理できます。"
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "グループ作成"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "連絡先リストに登録されていないプレイヤーから検索します。"
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "連絡先リスト以外を検索"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "連絡先リストに追加したいプレイヤーを検索できます。"
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "プレイヤーの検索"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "連絡先リストの設定を変更できます。"
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "設定"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "プレイヤー名は最大で%(maxChars)s文字に制限されています。"
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "コマンド送信"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "チームから除外"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "閉じる"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "チャンネル作成"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "検索"
+
+msgid "dialogs/channels/title"
+msgstr "チャンネル"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "閉じる"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "参加"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "パスワードは 3 - 12 文字である必要があります。"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "無効なパスワードです。"
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "パスワード付きチャンネル %s に接続しようとしています。"
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "パスワードの入力:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "警告"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "チャンネルに接続"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "クランへ招待"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "フレンドリストに追加"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "ブラックリストに追加"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "クリップボードにコピー"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "個人チャット開始"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "ゴールドの送付"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "フレンドリストから削除"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "ブラックリストから削除"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "詳細の表示"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "名前でソート"
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "ステータスでソート"
+
+msgid "dialogs/contacts/title"
+msgstr "連絡先リスト"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "クラン"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "フレンド"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "フレンドリクエスト"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "ブラックリスト"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "音声チャット無効"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "閉じる"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "作成"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "自動で作成されます"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "パスワードの入力"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "チャンネル名"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "パスワード"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "パスワードの確認"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "要パスワード"
+
+msgid "dialogs/createChannel/title"
+msgstr "チャンネル作成"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "%(vehName)s を選択"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Tier %(level)s 車輌を選択"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "車輌を選択"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Tier %(level)s 車輌を選択"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "車輌: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "閉じる"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "参加"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "検索"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "検索結果 (最初の %d 件):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "検索"
+
+msgid "dialogs/searchChannel/title"
+msgstr "チャンネルの検索"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "フレンドに追加"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "ブラックリスト"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "閉じる"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "検索"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "プレイヤーの詳細"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "検索結果:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "検索"
+
+msgid "dialogs/searchContact/title"
+msgstr "連絡先の検索"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "サービスチャンネル"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Tier VIII 車輌を選択"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "目標は小隊として最後まで生き残ることです。"
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "フロントライン・モードは\nTier VIII 車輌限定です。"
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++イベント+++\n+++イベント+++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Tier IV 以上の車輌に対する\n各戦でのEXPボーナス"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Tier IV 以上の同一 Tier の車輌で\nプレイして追加EXPを取得"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "招待を承諾すると、戦闘の間は正式プレイヤー名とクラン・タグが表示されます。"
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "チャットチャンネル"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "実験的なモジュールを車輌に搭載しました: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "状態: 休憩中"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "状態: 戦闘中"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "状態: 準備中"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "状態: オフライン"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "状態: 準備完了"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "解任"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "招待"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "有罪"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "容疑"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "チーム キル: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "音声チャット無効"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "フレンドに追加"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "ブラックリストに追加"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "閉じる"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "個人チャット開始"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "音声チャット有効"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "合計"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "開始日時"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "前回の戦闘"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "状態:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - プレイヤー詳細"
+
+msgid "events/enterChannel"
+msgstr "[%s] がチャンネルに参加しました"
+
+msgid "events/leaveChannel"
+msgstr "[%s] がチャンネルから退出しました"
+
+msgid "keyboardChat"
+msgstr "チャット"
+
+msgid "listView/emptyList/info"
+msgstr "通知"
+
+msgid "listView/emptyList/invite"
+msgstr "招待"
+
+msgid "listView/emptyList/offer"
+msgstr "特別"
+
+msgid "listView/emptyList/template"
+msgstr "%(listType)s なし"
+
+msgid "listView/news/checkNewsBtn"
+msgstr "ニュースへ"
+
+msgid "listView/news/header"
+msgstr "要注目の変更点"
+
+msgid "listView/title"
+msgstr "通知センター"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "戦闘時間: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "送信"
+
+msgid "lobby/buttons/channels"
+msgstr "チャンネル"
+
+msgid "lobby/buttons/contacts"
+msgstr "連絡先"
+
+msgid "lobby/buttons/send"
+msgstr "送信"
+
+msgid "lobby/channels/actions/remove"
+msgstr "チャンネルを閉じる"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "メッセージに日付を表示"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "メッセージに時間を表示"
+
+msgid "lobby/faq/close"
+msgstr "閉じる"
+
+msgid "lobby/faq/title"
+msgstr "よくある質問"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "フレンドリストに追加"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "ブラックリストに追加"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "クリップボードにコピー"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "個人チャット開始"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "プレイヤー詳細の表示"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "連絡先リスト以外を検索"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "キャンセル"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "グループ編集"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "グループから削除"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "グループ削除"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "ノートの入力を中止して連絡先リストに戻ります。"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "閉じる"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "入力したノートを保存します。"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "作成"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "ここに連絡先をドラッグ"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "ノートの編集を中止して連絡先リストに戻ります。"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "閉じる"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "編集内容を保存します。"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "保存"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "クエリーへの該当はありません。"
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "無期限の戦術ユニット"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "フレンド"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "その他"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "ブラックリスト"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "フレンドリクエスト"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "リスト内のプレイヤーを検索"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "登録済みプレイヤーなし"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "連絡先リストは空です"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "現在オンラインの連絡先なし"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "連絡先リスト以外を検索してみてください。"
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "該当なし"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "プレイヤー名を入力してください。"
+
+msgid "messenger/contacts/title"
+msgstr "連絡先"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "閉じる"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "追加"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "このグループは既に存在します。"
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "プレイヤーの検索"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "閉じる"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "作成"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "ノート作成"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "閉じる"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "保存"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "ネームは最大 %(maxChars)s 文字です。"
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "ノート編集"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "対象: "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "閉じる"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "作成"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "グループ作成"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "名称を入力 (最大 %(symbols)s 文字)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "グループ内の連絡先を含む"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "キャンセル"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "削除"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "グループ削除"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "閉じる"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "保存"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "グループ編集"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "名称を入力 (最大 %(symbols)s 文字)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "説明の入力 (最大 %(symbols)s 文字)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "説明は最大 %(maxChars)s 文字です"
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "プレイヤーの検索"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "単一ウィンドウのグループとして承認"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "オフラインプレイヤーを表示"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "「その他」カテゴリを表示"
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "連絡先リストに非登録のプレイヤーからのメッセージ:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "分離ウィンドウで承認"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "キャンセル"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "適用"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "設定"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "コンポーネント追加"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "「進捗ポイント」が削除"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "消費チップ"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "機略戦トークンが削除されました"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "削除されたコンポーネント"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "削除された個人名声ポイント"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "フリーEXP消費"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "征戦ポイントが削除"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "削除されたプレイ歴トークン"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "「進捗ポイント」が追加"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "取得チップ"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "機略戦トークンが追加されました"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "コンポーネントが追加"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "追加された個人名声ポイント"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "フリーEXP取得"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "征戦ポイントが追加"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "追加されたプレイ歴トークン"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "全ての連絡先を宛先リストに追加"
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "選択した連絡先を追加"
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "宛先リストから連絡先を全て削除。"
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "宛先リストから選択した連絡先を削除"
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "アクション %(action)s 停止: %(cooldownPeriod)s 秒間"
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "オープンチャンネル数の上限に達しました。使用していないチャンネルを閉じてください。"
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "エラー"
+
+msgid "server/errors/addFriendError/message"
+msgstr "フレンドリストにユーザーを追加中にエラーが発生しました。"
+
+msgid "server/errors/addFriendError/title"
+msgstr "エラー"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "ブラックリストへのユーザー追加中にエラーが発生しました。"
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "エラー"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "この名称のチャンネルは既に存在しています。"
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "チャンネル作成エラー。"
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "チャンネル削除完了。"
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "チャンネル参加中にエラーが発生しました。"
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "チャットコマンド実行エラー: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "コマンド %(command)s 禁止: %(cooldownPeriod)s 秒間"
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "発信されたメッセージが多すぎるため、メッセージは一時停止中です。"
+
+msgid "server/errors/connectTimeout/message"
+msgstr "チャンネル接続がタイムアウトしました。"
+
+msgid "server/errors/connectTimeout/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "プライベートチャンネル作成不能: このユーザーは現在オフラインです。"
+
+msgid "server/errors/createPrivateError/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "無効な文字"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "エラー"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "無効なパラメータ: %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "エラー"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "保護チャンネル入室用パスワードが無効です。"
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "チャンネル参加中にエラーが発生しました。"
+
+msgid "server/errors/initializationFailure/message"
+msgstr "チャットの初期化に失敗しました。"
+
+msgid "server/errors/initializationFailure/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/internalError/message"
+msgstr "内部エラー。後で再試行してください。"
+
+msgid "server/errors/internalError/title"
+msgstr "チャンネル作成エラー"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "チャンネル名が無効です。"
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "招待コマンド実行エラー。"
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "エラー"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "ユーザー %(user)s は既にアクセスが禁止されています。"
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "ユーザー %(user)s は既にチャンネル・モデレータです。"
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "ユーザーの接続が切断されました"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "ユーザー %(user)s はチャンネル・モデレータではありません。"
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "このチャンネルのユーザー数の上限に達しました。"
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "チャンネル接続エラー"
+
+msgid "server/errors/notAllowed/message"
+msgstr "この操作のための権限がありません。"
+
+msgid "server/errors/notAllowed/title"
+msgstr "チャットエラー"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "このチャンネルに入室するには、パスワードを入力してください。"
+
+msgid "server/errors/passwordRequired/title"
+msgstr "チャンネル参加エラー"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "設定変更不可"
+
+msgid "server/errors/sqlError/message"
+msgstr "DB 呼び出しエラー。"
+
+msgid "server/errors/sqlError/title"
+msgstr "エラー"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "このユーザーはあなたをブラックリストに登録しています。"
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "エラー"
+
+msgid "server/errors/userNotExists/message"
+msgstr "この名前のユーザーは存在しません。"
+
+msgid "server/errors/userNotExists/title"
+msgstr "エラー"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "連絡先リスト内のユーザー数が上限に達しました。"
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "エラー"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "チャンネル数の上限を超過しました。"
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "チャンネル名の文字数が上限を超過しています。"
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "パスワードの文字数が上限を超過しています。"
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "チャンネル \"%(strArg1)s\" は、既に存在しています。"
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "チャンネル名に無効な文字が含まれています。"
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "チャンネル名に攻撃的な単語が含まれています。"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "STEEL HUNTER"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "「STEEL HUNTER」モード専用のハンター車輌です。「STEEL HUNTER」モードで各車輌の能力を確認できます。"
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "車輌大破"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "到達レベル"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "獲得ポイント"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "勝利"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "取得"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "了解！"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "オペレーションへ"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "実績"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "キャンペーン"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "このキャンペーンは終了しました。"
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "WoT PlusのEXPボーナスを適用できます"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "WoT PlusのEXPボーナスを適用できません"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "%s への消耗品の補給に失敗しました。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的にご利用可能になります。"
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "%s 用のディレクティブの補給に失敗しました。メンテナンスのため、一時的に操作できません。"
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "%s にディレクティブを補給できませんでした。残高不足です。"
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "%s にディレクティブを自動補給できませんでした。手動で搭載してください。"
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "%s 用のディレクティブの補給が完了しました。消費"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "%s への消耗品の補給に失敗しました。ゴールドで消耗品を購入することをご検討ください。"
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "%s への消耗品を補給に失敗しました。クレジット不足です。"
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "%s への消耗品の補給に失敗しました。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的にご利用可能になります。"
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "%s に消耗品を自動補給できませんでした。手動で補給してください。"
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "%s への消耗品の補給が完了しました。消費"
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "%s への砲弾の補給に失敗しました。ゴールドでの砲弾の購入をご検討ください。"
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "%s への砲弾の補給に失敗しました。クレジットが不足しています。"
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "%s への砲弾の補給に失敗しました。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的にご利用可能になります。"
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "%s への砲弾の補給に失敗しました。手動で補給を行う必要があります。"
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "%s への砲弾の補給が完了しました。消費"
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "%s 用のスタイル・レンタルを延長できませんでした。スタイルをゴールドで購入してください。"
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "%s 用のスタイル・レンタルを延長できませんでした。資金不足です。"
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "%s 用のスタイル・レンタルを延長できませんでした。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的にご利用可能になります。"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "レンタル期間の延長"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "%s レンタルスタイル (%s 車輌に適用中) の期限が迫っています: 残り 3 戦"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "スタイル「%s」のレンタル(「%s 」用)は、あと3戦プレイすると、%s戦分自動的に延長されます。"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "塗装へ"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "レンタルスタイル %s (車輌 %s に適用) の期限が切れました。塗装画面でスタイルのレンタルを延長できます。"
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "%s 用のスタイル・レンタルを自動延長できませんでした。スタイルを手動で購入してください。"
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "%s 用のスタイル・レンタルを延長しました。消費: "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "%s の修理に失敗しました。"
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "%s の修理に失敗しました。クレジット不足です。"
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "%s の修理に失敗しました。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的にご利用可能になります。"
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "%s を自動修理できませんでした。手動で修理してください。"
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "%s の修理が完了しました。消費"
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "WoT Plusのバナーを適用できます"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "WoT Plusのバナーを適用できません"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "バッジ追加"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "WoT Plusの戦闘ボーナスが適用されます"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "WoT Plusの戦闘ボーナスが適用されません"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "達成したミッション: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "一連の「タンクアカデミー・ミッション」を制覇しました。"
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "トークンを技術ツリー上の好きなTier VI車輌と交換できます。"
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "車輌の選択画面へ"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "おめでとうございます！"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "達成したタンクアカデミー・ミッション: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "入手した報酬:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "アカデミー・トークンを使用しました。"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "入手した報酬:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "ガレージスロット: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "レンタル車輌: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "訓練ミッションを達成すると車輌やリソースが手に入ります。"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "タンクアカデミーへ"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "戦車長ライフの始めに\n必要なすべて"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "アカデミー・トークン"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "蓄積した「進捗ポイント」を使用"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "「エリート・サイクル」への挑戦開始にともなって「サイクル」の進捗に加算された未使用のポイント: %(points)s"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "蓄積していた%(points)sポイントをチャプター『%(chapter)s』の進捗に加算しました。"
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "選択可能な通常拡張パーツ"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "「エリート・サイクル」への挑戦を開始しました。"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "「エリート・サイクル」は停止中です。"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "ポイント上限に達しました"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "%(vehName)sで取得できるポイントの上限に達しました。\nポイント上限達成報酬: %(bonusPoints)s。\nさらにポイントを取得するには、他の車輌を使って戦闘に参加してください。"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "おめでとうございます！"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "スタイル「%(name)s」を入手しました。 スタイルはすぐに車輌に適用でき、ステージが進むにつれてアップグレードされていきます。"
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "選択可能な報酬拡張パーツ"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "詳細"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "詳細"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "チャプター『%(chapter)s』を制覇しました。 \n入手した報酬:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "チャプター『%(chapter)s』を制覇しました。 \n入手した報酬:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "バトルパス・ステージ%(newLevel)sを達成しました。\n\n 入手した報酬:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "チャプター『%(chapter)s』で購入したステージ数: %(levelCount)s\nステージ%(currentLevel)sに到達しました。\n入手した報酬:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "達成済みのバトルパス・ステージに対して報酬を入手しました:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "「ベース報酬」と「リッチ報酬」を両方とも入手できるようになりました。"
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "蓄積していた「進捗ポイント」でステージを達成したため以下の報酬を入手しました。"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "チャプター『%(chapter)s』を完了しました。\n入手した報酬:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "さらに戦闘を重ねればまだまだポイントが手に入ります！"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "「バトルパス・シーズン%(season)s」の全チャプターを制覇しました。\n入手した報酬:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "チャプター『%(chapter)s』のステージ%(newLevel)sを達成しました。\n入手した報酬:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "詳細"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "消費したフリーEXP:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "使用ゴールド:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "チャプター『%(chapter)s』の「改良パス」と全ステージを購入しました。\n入手した報酬:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "「改良パス」の購入により、以下のボーナスを手に入れました。"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "今シーズンの全チャプターを通してベース報酬とリッチ報酬の両方を入手できるようになりました。"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "チャプター『%(chapter)s』で購入したステージ数: %(levelCount)s\nステージ%(currentLevel)sに到達しました。\n入手した報酬:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "「改良パス」の購入により、以下のボーナスを手に入れました。"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "こちらの「改良パス」はチャプター『%(chapter)s』専用です。"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "完了済みのバトルパス・ステージに対して報酬を獲得しました:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "こちらの「改良パス」はチャプター『%(chapter)s』専用です。"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "チャプター『%(chapter)s』の「ベース報酬」と「リッチ報酬」を両方とも入手できるようになりました。"
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "自動で選択された報酬:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "改良パス購入済み"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "改良パス購入済み"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "ステージ購入済み"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "おめでとうございます！"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "獲得報酬"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "「エリート・サイクル」のステージを達成しました。\n入手した報酬:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "達成した「エリート・サイクル」のステージ: %(amount)s\n入手した報酬:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "搭乗員:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "戦闘実績"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "%s をスペシャル '%s' で取得"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "%s をスペシャル '%s' で取得"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "トークン%s枚"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s クレジット"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s ボンズ"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "アニバーサリー・コイン%s枚"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s フリーEXP"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s ゴールド"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "戦闘"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "取得した進捗ポイント: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "トークンを取得しました"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "詳細"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "味方によるダメージに対する補償 (取得): %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "取得クレジット: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "ボンズ取得"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "敗北"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "今日最初の勝利 x%d"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "引き分け"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "戦闘終了"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "戦闘リザーブポイント"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "入手したコンポーネント"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "アニバーサリー・コインを獲得"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "取得EXP: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "進撃戦"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "建造物"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "工業資源取得"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "クラン"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "プレイヤー"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "フリーEXP取得"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "取得したゴールド"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "%(campaignName)sの一員となった証として、勲章「%(nameMedal)s」が授与されました。"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "おめでとうございます!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "「%(campaignName)s」キャンペーンの「%(categoryName)s」ミッションを45個達成したことに対し、勲章「%(nameMedal)s」が授与されました。"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "「%(campaignName)s」キャンペーンの「%(categoryName)s」ミッションを30個達成したことに対し、勲章「%(nameMedal)s」が授与されました。"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "「%(campaignName)s」キャンペーンの「%(categoryName)s」ミッションを15個達成したことに対し、勲章「%(nameMedal)s」が授与されました。"
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "味方へのダメージに対する補償 (支出): %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "おめでとうございます!\nパーソナルミッションの達成に対し、次の報酬を付与します"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "おめでとうございます!\n「待望の支援」キャンペーンのパーソナルミッションの達成に対し、次の報酬が付与されます"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "おめでとうございます!\n「第 2 戦線」キャンペーンのパーソナルミッションの達成に対し、次の報酬が付与されます"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "おめでとうございます!\n両キャンペーンのパーソナルミッションの達成に対し、次の報酬が付与されます"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "クレジット庫への追加額"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "ミッション達成！ 報酬"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "実績"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "取得した進捗ポイント: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "兵舎に寝台追加"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "トークンが追加されました"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "追加されたクレジット"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "ボンズ追加"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " （×%(count)s）"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "追加されたコンポーネント"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "アニバーサリー・コインが追加されました"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "フリーEXP取得"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "ゴールド取得"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "取得"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "キャンペーン・ポイント: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "ペットを入手"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "追加されたWargamingプレミアムアカウントの日数"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "追加されたWoTプレミアムアカウントの日数"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "ボーナスバトル追加: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "デイリー・ボーナスバトル%(count)s回"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "通常ボーナスバトル%(count)s回"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "追加されたスロット"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "ボーナスバトル追加"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \n達成したステージでの成績に基づき、通常ボーナスバトル %(amount)s回"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nミッション達成により %(bonusBattles)s 回"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \n予選で取得したシェブロン数に基づき、デイリー・ボーナスバトル%(amount)s回"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \n予選で取得したシェブロン数に基づき、通常ボーナスバトル %(amount)s回"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "ランク変動"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nシェブロン取得"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nシェブロン取得"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \n部門昇格: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nリーグ昇格"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nシェブロン維持"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nランク取得 %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nランク喪失 %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nランクシールド損傷"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \n変動なし"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nランクシールド大破"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nシェブロン維持"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nシェブロン取得"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nシェブロン喪失"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nシェブロン取得"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "レーティング・ポイント"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "入手したプレイ歴報酬"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "おめでとうございます！"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "採用"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "車輌"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "女性搭乗員"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "技術的敗北"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "技術的勝利"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "勝利"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "マップフィルター・スロットが 1 つ削除され、%(mapName)sマップがローテーションに戻りました。"
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "マップフィルターで除外していたマップ「%(mapNames)s」がゲームから削除されました。別のマップを除外することができます。"
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "マップフィルター・スロットが 1 つ削除され、%(mapNames)sマップがローテーションに戻りました。"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "特殊イベントが始まりました！\n10日間限定で不要な設計図のピースを別の貴重なアイテムと交換できます。"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "詳細"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "特殊イベント終了"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "設計図のピースを交換"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "メンテナンスのため設計図のピースをアイテムと交換できません。"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "設計図のピースをアイテムと交換できるようになりました。"
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "報酬の受け取りをお忘れなく！"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "選択画面に移動"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "まだ終了していない戦闘に対するボーナスは含まれません。"
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "パーソナルリザーブ \"%(boosterName)s\" は、技術的理由により無効化されました。"
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "パーソナルリザーブ: %(boosterName)sの効果が終了しました"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "失効したリザーブ: "
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "リザーブの期限が切れました"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "クレジット"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "フリーEXP"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "搭乗員EXP"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "戦闘EXP"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "ボーナスとして取得した%(resourceName)sの合計:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "閉じる"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "クランから脱退または除外されました:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "%(element_name)s"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "勲章「%(element_name)s」"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "IGNストライプ「%(element_name)s」"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "報酬を入手"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "受けた「いいぞ」"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "ライブ・タグは現在非表示になっています"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "戦闘中のライブ・タグの表示が有効になっています"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "高評価システムは現在無効になっています"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "戦闘中の「いいぞ」の表示が有効になっています"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "%(gold)s ゴールド、%(credits)s クレジットを取得しました。"
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "%(credits)s クレジットを取得しました。"
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "搭乗員パーク選択アシストを利用できます"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "搭乗員パーク選択アシストを利用できません"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x %(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "「クレジット庫」と「ゴールド庫」が開錠！"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "オークション"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "バトルパス"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "日付"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "トークンが削除されました"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "クレジット消費"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "ボンズ削除"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "削除されたコンポーネント"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "アニバーサリー・コインが削除されました"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "フリーEXP消費"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "ゴールド消費"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "ゴールドの取引"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "オークション"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "トークンを取得しました"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "取得クレジット"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "ボンズ取得"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "入手したコンポーネント"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "アニバーサリー・コインを獲得"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "フリーEXP取得"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "ゴールド取得"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "勲章「現代の英雄」"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "%(battlesCount)s回の戦闘遂行に対して勲章「%(medalName)s」を授与！\n%(battlesCount)s回の戦闘遂行に対して%(decalsCount)s枚のデカールを贈呈！"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "解除キットの操作はメンテナンスのため一時的に利用できません。"
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "解除キットの操作が利用可能になりました。ご不便をおかけして申し訳ありませんでした。"
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "ドッグタグの背景「%(name)s」がアンロックされました。"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "ドッグタグの彫刻「%(name)s」がアンロックされました。"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "ドッグタグ「%(name)s」"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "がレベルアップ: レベル"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "レベルアップ"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "アンロック"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "背景"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "彫刻"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Wargamingプレミアムアカウントの期限: %(expiryTime)s"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "アドレスを確認"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "アドレスの確認が終了していません。"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "実験的なモジュールを使用"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "実験的なモジュールが全て取り外されました"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "以下の車輌から実験的なモジュールが解除されました"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "シナリオ"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• 拡張パーツ用ディレクティブ"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• バトルパス進捗ポイント"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• 汎用基礎教本"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• ボンズ"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• 戦闘リザーブポイント"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• 好きな試作拡張パーツ"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• 引き継ぎ指令書"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• 特訓修了証"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• 汎用教本"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "アニバーサリー・コインを受け取りました: %(eventCoin)s。"
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "マップフィルターの追加枠がアンロック"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "「WoT Plus」のマップフィルターは使用不可"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "要因"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "「Boosteroid」のサブスクリプションの期限が切れました。"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "サブスクリプションの期限が切れました。"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "車輌を利用不可"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "車輌"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "車輌を利用可能"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "車輌"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "進行のリセット"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "ミッションに移動"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "注意! %(missionShortName)s ミッションの進行状況がリセットされました。条件達成に向けた進行がリスタートされます。"
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "ミッション: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "オペレーション: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)sの%(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "詳細"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "「%(mode)s」モードでの一時的なプレイ禁止処分が科されました。禁止処分は%(date)sに解除されます。"
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "禁止処分が解除されました。「%(mode)s」モードで再びプレイできます。"
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "%(reason)sが確認されたため、「%(mode)s」の戦闘で取得したクレジット、EXP、報酬の剝奪処分が科せられました。"
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "「%(mode)s」モードでの%(reason)sが確認されたため、警告を受けました。"
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "禁止処分"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "禁止処分の解除"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "ペナルティーが科されました"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "非スポーツマン行為"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "クラン %(clan)s に対し宣戦布告しました!\n進撃戦の開始日時: %(date)s %(time)s"
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "防衛が破られた!\n全ての攻撃がキャンセルされました。拠点が機能できるように司令部の耐久性バーを補充してください。"
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "クラン %(clan)s との戦闘予定はキャンセルされました。"
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "%(date)s %(time)s に予定されていた %(clan)s クランとの進撃戦はキャンセルされました: 拠点のレベル差が 1 を超えました。"
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "建造物 %(building)s が損傷しています! 建造物が機能できるように耐久性バーを補充してください。"
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "司令部が損傷しています! 拠点が機能できるように耐久性バーを補充してください。司令部がこれ以上のダメージを受けた場合、防衛が破られます。"
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "クラン %(clan)s から宣戦布告を受けました!\n進撃戦の開始日時: %(date)s %(time)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "防衛時間の設定完了: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "防衛時間の調節完了。新しい防衛時間: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "自クラン拠点の防衛は無効になりました。全ての建造物およびリザーブのレベルが IV に下げられました。"
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "おめでとうございます! 拠点をレベル VIII まで開発しました。"
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "おめでとうございます! 拠点は完全な状態となり、クランにアドバンテージをもたらします。"
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "休戦日の変更完了。新しい休戦日は設定されませんでした。"
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "休戦日の設定完了: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "建造物 %(building)s のレベルが上がりました。\n準備中のリザーブ「%(order)s」は工業資源に変換され、建造物の貯蔵庫に追加されました。"
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "リザーブ「%(orderTypeName)s」補償完了、使用準備完了。"
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "ホームサーバーを %(peripheryName)s に変更しました。"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "工業資源取得: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "工業資源減少: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "建造物 %(building)s に配属されました。"
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "リザーブ追加: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "リザーブ減少: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "リザーブ「%(order)s」を使用中。残り時間: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "リザーブ発動"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "リザーブ「%(order)s」使用完了。"
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "リザーブ「%(order)s」(%(count)s 個) の準備完了。"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "リザーブ「退避」の有効期限が切れました。\n\n%(additional)s\n自クランの合計: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "敵クランがリザーブ「徴用」の使用により追加鹵獲: %(resDec)s\n自クランによる追加防衛: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "リザーブ「徴用」の有効期限が切れました。\n\n%(additional)s\n自クランの合計: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "敵クランがリザーブ「退避」の使用により追加防衛: %(resDec)s\n自クランによる追加鹵獲: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "建造物 %(building)s の貯蔵庫がいっぱいです。\n工業資源をリザーブの準備に使用するか、別の建造物に輸送してください。"
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "あなたの拠点の中立期間が終了しました。\n他のクランによる自拠点への攻撃に備えてください!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "自拠点が中立状態を宣言しました。\n現在、他のクランはあなたの拠点を攻撃不能です。中立状態終了: %(finish)s"
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s ユニットの工業資源が司令部の貯蔵庫に追加されました。"
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "イベントに移動"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "進捗画面へ"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "%(gold)s ゴールドを取得しました。"
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "【オークション】落札指標価格が変動"
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "落札指標価格がご入札中の金額を超えたため現在のオークションで落札に成功する可能性が低下しました。"
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "イベントへ"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "落札に失敗。返還:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "落札に失敗したため間もなく入札額がアカウントに返還されます。"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "エラー"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "入札エラーが発生しました。アカウント残高に変動はありません。時間をおいて再度お試しください。"
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "入札期間の終了が迫っています。"
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "入札するなら今がチャンス！"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "アイテムの数には限りがございます。入札をお急ぎください。"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "新たな商品の入札期間が開始！"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "兵舎に追加された寝台"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "兵舎から削除された寝台"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "パーソナルリザーブ"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "パーソナルリザーブが削除されました"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "トークンが追加されました"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "トークンが削除されました"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "補償"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr " — トークン付き"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "迷彩"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "クレジット"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "ボンズで"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "徽章"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "アニバーサリー・コイン"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "ゴールド"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "銘刻"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "エフェクト"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "ペイント"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "1 桁の数値"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "2 桁の数値"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "3 桁の数値"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "デカール"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "スタイル"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "クレジット取得"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "クレジットが残高から消費されました"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "搭乗員教本追加"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "搭乗員を兵舎に送りました"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "搭乗員 %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "搭乗員スキン追加"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "搭乗員スキン削除"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "搭乗員 %d%% を兵舎に送りました"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "搭乗員を削除しました"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "ボンズ取得"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "ボンズ削除"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "個人割引"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "勲章追加"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "勲章削除"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "実験的なモジュールが追加されました"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "実験的なモジュールが取り外されました"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "追加"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "削除"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "追加されたコンポーネント"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "削除されたコンポーネント"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "消耗品"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "削除消耗品"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "アニバーサリー・コインが追加されました"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "アニバーサリー・コインが削除されました"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "期限付きパーソナルリザーブ"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "オーダー追加"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "オーダー減少"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "フリーEXP"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "フリーEXP取得"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "フリーEXP消費"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "ゴールド取得"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "ゴールド消費"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "汎用ピースが追加されました。"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "汎用ピースが削除されました。"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "取得"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "倉庫に追加"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "削除消耗品"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "搭載中"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "%(nationName)s車輌の設計図のピースが追加されました。"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "%(nationName)s車輌の設計図のピースが削除されました。"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "追加"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "削除"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "個"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "追加されたWargamingプレミアムアカウントの日数"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Wargamingプレミアムアカウントの日数減少"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Wargamingプレミアムアカウント"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "「%(vehicleName)s」が%(xpCount)sポイントのエリートポイントを取得しました。"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "「%(vehicleName)s」が%(xpCount)sポイントのエリートポイントを取得し、エリートレベル%(level)sに到達しました。"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "「%(vehicleName)s」がエリートレベル%(level)sに到達しました。"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "コンテンツ名:"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steamインベントリ"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "ボーナスバトル追加"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "ボーナスバトル削除"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "レンタル日数: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "スロット追加"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "スロット削除"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "WoTプレミアムアカウント"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "追加されたWoTプレミアムアカウントの日数"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "WoTプレミアムアカウントの日数減少"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "新兵"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "搭乗員に未分配EXPを追加"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "搭乗員から未分配EXPを削除"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "解任済み"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "全モジュールの研究が完了"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "%(vehicleName)sの車輌設計図のピースが追加されました。"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "%(vehicleName)sの車輌設計図のピースが削除されました。"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "車輌取得"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "車輌削除"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "レンタル車輌が追加されました"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "消耗品を獲得: %(typeName)s「%(itemName)s」–%(amount)d個"
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "ボックスへ"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "ボタンをクリックして内容を確認"
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "小包を取得:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "表示"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "起動した「ゲート」: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "「ゲート」の起動"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "以下のアイテムを入手しました: \n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "「ゲート」がすべて起動され、以下のアイテムがアカウントに追加されました。"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "報酬獲得"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "「ボックス」がすべて開封され、「ホリデー作戦」の報酬がアカウントに追加されました。"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "報酬を入手"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "入手したデカール: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "入手したデカール: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "アンケートへ"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "おめでとうございます！"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "「先行偵察ミッション」は終了しています。新マップの開発にご協力くださり誠にありがとうございます！"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "「先行偵察ミッション」が終了しました。\n\n新マップの開発にご協力くださり誠にありがとうございます！"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "「先行偵察ミッション」が始まっています。\n\nTier VIII～X車輌を使用して開発中のマップで戦闘を重ねれば、報酬が手に入るほか、アンケートにも回答できるようになります。"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "ファイナル報酬:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "「先行偵察ミッション」モードで%(battles)s回戦闘を行いました。"
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "獲得した報酬: "
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "「先行偵察ミッション」モードで新メカニズムに関するアンケートに回答できるようになりました。"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "アンケートに回答可能"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "「先行偵察ミッション」モードでマップ「%(mapName)s」に関するアンケートに回答できるようになりました。"
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " （×%(count)s）"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "兵舎に移動"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "搭乗員削除: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "銃後支援物資"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "拡張パーツ選択アシストを利用できます"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "拡張パーツ選択アシストを利用できません"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "新しいリザーブがあります: "
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "リリース通知"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "期限が切れるリザーブ: "
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "間もなく期限が切れるリザーブ"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "クレジット取得: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "日付: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "ゴールドの取引:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "倉庫に追加: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "入手"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "新たな蓄積サイクルが始まりました。"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "引き続き「クレジット庫」を利用するには「WoTプレミアムアカウント」を有効化する必要があります。"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "引き続き「ゴールド庫」を利用するには「WoT Plus」サブスクリプションを有効化する必要があります。"
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "「クレジット庫」へのクレジットの蓄積が停止しました。"
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "「クレジット庫」が開錠！"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "報酬を入手"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "指導員課程を修了!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "進捗画面へ"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "指導員課程"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "特別な報酬を獲得できます。"
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "クランバトル"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "戦闘結果"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "トーナメント"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "敗北"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "引き分け"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "未決の結果"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "勝利!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "所有者によって削除されました"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "技術的な障害"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "除外されました"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "技術的敗北"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "技術面での引き分け"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "未決の結果"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "技術面での勝利!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "タイムアウト期間終了"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "完了"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(戦闘 %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "結果の一部"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "結果"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Wargamingプレミアムアカウントを取得しました。期限: %(expiryTime)s"
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Wargamingプレミアムアカウントを変更しました。期限: %(expiryTime)s"
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Wargamingプレミアムアカウントの期限が切れました。"
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Wargamingプレミアムアカウントを延長しました。期限: %(expiryTime)s"
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "WoTプレミアムアカウントを取得しました。期限: %(expiryTime)s"
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "WoTプレミアムアカウントを変更しました。期限: %(expiryTime)s"
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "WoTプレミアムアカウントの期限が切れました。"
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "WoTプレミアムアカウントを延長しました。期限: %(expiryTime)s"
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "%(days)d 日間のWargamingプレミアムアカウントを取得しました。"
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "エリートシステムへ"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "エリートレベルとエリートマークを獲得しました。"
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "エリートシステム"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "車輌へ"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "エリートレベルが上昇"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "エリート報酬の獲得中にエラーが発生しました。"
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "エリートレベル%(lvl)sに到達した報酬として%(rewardName)s%(typeReward)sを入手しました。"
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "エリート報酬を入手"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "注意!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "詳細"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "迷彩"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "デカール"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "徽章"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "銘刻"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(level)sの%(typeName)s「%(name)s」"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "非表示の報酬: %(count)s"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "レベル%(level)s"
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "ペイント"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "デカール"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "取得:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "スタイル「%(name)s」"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "おめでとうございます！"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "詳細"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "支援報酬"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "参戦して報酬獲得を目指しましょう。戦闘数を重ねるほど、報酬獲得が近づきます。"
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "獲得した上級報酬:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "詳細"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)sのランクトークンが%(count)sのボンズに交換されました。"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "おめでとうございます！"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "獲得した最高報酬:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "獲得した標準報酬:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "獲得した小報酬:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "「ランク戦2021–2022」でランクトークンを合計%(points)s枚取得しました。"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "年間報酬"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "援軍が到着!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "%(event)s 用の搭乗員を取得しました。"
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "未採用の搭乗員が%(count)s名います。%(date)sになると削除されてしまうのをお忘れなく！"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "未採用の搭乗員が %(count)s 名います。"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "バッジ削除"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "補償"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "%(vehicleName)s レンタル中の未使用時間に対しクレジットが追加されました"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "%(vehicleName)s レンタル中の未使用時間に対しゴールドが追加されました"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "%(vehicleName)s のレンタル期間が終了しました。"
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "設計図のピース: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "クレジット: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "ボンズ: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "詳細"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "フリーEXP: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "ゴールド: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "汎用設計図のピース"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "現在の進捗: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "「アセンブリー・ショップ」のプロジェクトに消費したリソース:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "消費したリソース"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "リソースを消費"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "「アセンブリー・ショップ」から返却されたリソース:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "リソースの返却を依頼"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "好きな国家の基礎教本"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "好きな国家の初級教本"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "迷彩"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "%s のオペレーションはメンテナンス作業のために延長されました。"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "徽章"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "銘刻"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Wargamingプレミアムアカウント"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "WoTプレミアムアカウント"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "レンタル"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "ゲーム サーバーは %(date)s に切断されます。"
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "サーバーの切断がキャンセルされました。%(date)s に切断される予定です。"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "「実績カスタマイズ」を利用できます"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "この機能は一時停止中です。"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "「実績カスタマイズ」は現在利用不可"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "汎用ピース（x%(fragmentsCount)s）"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "国別ピース（%(nationName)sx%(fragmentsCount)s）"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "特別報酬"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "%(vehicleName)sの設計図のピース（x%(fragmentsCount)s）"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "メールアドレスの確認報酬:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "おめでとうございます！"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "研究済みの車輌の設計図のピースを入手したため、補償を受け取りました。"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "迷彩の変更完了"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "クレジット取得: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "クレジット消費: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "ボンズ: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "ボンズ: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "塗装の要素を変更しました"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "カスタマイズ要素を変更しました。購入した要素: %(count)s 個、消費: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "徽章の変更完了"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "アニバーサリー・コインが追加されました: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "アニバーサリー・コインが削除されました: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "フリーEXP取得: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "フリーEXP消費: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "ゴールド取得: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "ゴールド消費: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "銘刻の変更完了"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "汎用ピース"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "%(nationName)s車輌用の国別ピース"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "アップデートに伴い全てのデカールが解除されて倉庫の塗装セクションに移されました。"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "追加されたスロット: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "スロット削除: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "注意!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "車輌追加: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "車輌削除: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "以下のカスタマイズ要素を購入しました: \n%(items)s\n%(money)sを消費しました。"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "%(itemType)s「%(itemName)s」を購入しました。\n%(money)sを消費しました。"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "スタイル「%(name)s」のレベル%(level)sを購入しました。\n%(money)sを消費しました。"
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "車輌のカスタマイズ要素が変更されました。"
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s「%(itemName)s」（%(count)s個）"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "スタイル「%(styleName)s」のレベル%(level)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "カスタマイズ要素が車輌から解除されました。"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "おめでとうございます！\nプログレッシブ・デカールを適用することで、 %(vehicleName)s のプリセットスタイルをアレンジできます。"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "おめでとうございます！\nレベル I の%(vehicleName)s用デカール「%(itemName)s」を獲得しました。"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "おめでとうございます！\nレベル I のデカール「%(itemName)s」を獲得しました。"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "%(vehicleName)s用デカール「%(itemName)s」がレベル %(level)s になりました。"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "塗装へ"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "デカール「%(level)s」がレベル %(itemName)s になりました。"
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s、消費: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "砂漠マップ: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "夏季マップ: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "冬季マップ: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s、取得: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "拡張パーツの分解が完了"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "塗装へ"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "モジュールの置き換えに伴い、%(vehicle)s から次のカスタマイズ要素が解除されました。"
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "カスタマイズ:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "拡張パーツの分解が完了"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "解除:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "エラー:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "ゴールドの取引:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "倉庫のアイテムを売却:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "決済方法 \"%(method)s\" を追加しました"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "決済方法 \"%(method)s\" を削除しました"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "研究:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "購入:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "ガレージから削除:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "修理:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "リカバリー済み:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "売却:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "拡張パーツのアップグレード"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "%(days)d 日間のWoTプレミアムアカウントを取得しました。"
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "リザーブへ"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "%(vehicleName)s の迷彩終了。"
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "%(vehicleName)s の徽章終了。"
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "%(vehicleName)s の銘刻終了。"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "コレクションが利用可能です"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "おめでとうございます！\n%(nation)sTier %(level)s車輌の研究が完了しました。これにより、同国籍・同Tierのコレクション車輌をショップで購入可能になりました。"
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "車輌大破。%(vehicleName)s は、%(expireTime)s までクランバトルに参加不可。"
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "アンロック完了。%(vehicleName)s はクランバトルに参加可能。"
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "%(vehicle)sの二元的改修案をすべて破棄しました。"
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "二元的改修案の破棄が完了"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "OFF"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "ON"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "「%(tankName)s」で出撃した際に戦闘開始前のカウントダウン中に「補助物資」の構成を変更するためのオプションを%(state)sにしました。"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "「%(tankName)s」で出撃した際に戦闘開始前のカウントダウン中に「必須物資」の構成を変更するためのオプションを%(state)sにしました。"
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "プレミアム車輌を取得: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "車輌レンタル不可。資金不足です。"
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "車輌 %(vehicleName)s レンタル完了。レンタル期限: %(expiryTime)s"
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "ロック解除。これらの車輌はクランバトルに参加可能。"
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "プレイヤー %(srcName)s が %(srcWares)s ゴールドをあなたのアカウントに送付しました。"
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s ゴールドをプレイヤー %(dstName)s に送付しました。料金: %(fee)s"
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Tier %(level)s車輌の割引"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "「バック・イン・アクション」プログラムを完了したため以下の報酬を入手しました。"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "報酬を選択"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Tier %(level)s車輌の割引"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% & %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "取得した研究費用と購入価格の割引:"
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "おめでとうございます！"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "Tier %(level)s車輌"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "受け取る報酬を選択できます。"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "選択"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "報酬を入手！"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "「バトルパス・プラス」の特典は一時停止中です。"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "「バトルパス・プラス」は現在利用不可"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "「バトルパス・プラス」を利用できます"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "明日以降もログインを続けるとさらに報酬が手に入ります。お忘れなく！"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "「アテンダンス報酬」を入手！"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "「アテンダンス・サイクル」を完了！"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "毎日ログインを続けると様々な報酬が手に入ります。"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "サイクルが開始されました"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "アテンダンス報酬"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "明日もログインして新たな報酬を受け取るのをお忘れなく！"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "本日のアテンダンスを確認！"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "「アテンダンス報酬」の機能が停止しました。"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "「アテンダンス報酬」は停止中"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "「アテンダンス報酬」を入手可能"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "「WoT Plus」の利用者限定の%(vehicleType)s「<font color='#E9E2BF'>%(vehicleName)s</font>」を使用できるようになりました。"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "「WoT Plus」の利用者限定の%(vehicleType)s「<font color='#E9E2BF'>%(vehicleName)s</font>」を使用できなくなりました。"
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "「WoT Plus Basic」の有効期間が終了 (%(time)s)"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "「拡張パーツの無料解除」機能が停止"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "「WoT Plus Pro」の特典を継続して利用するには延長が必要です。"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "「WoT Plus」の有効期間が終了 (%(time)s)"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "「WoT Plus Pro」の有効期限が終了 (%(time)s)"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "ゴールドの蓄積が停止しました。"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "「ゴールド庫」の機能が停止"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "「ゴールド庫」の機能がアンロック"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "「ゴールド庫」が満杯になりました。これ以上はゴールドを貯めることができません。"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "「ゴールド庫」が開錠！"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "すべての特典が利用できるようになりました。\n次の更新日: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "次の更新日: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "180日プランが有効になりました。"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "360日プランが有効になりました。"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "180日プランが有効になりました。\n更新日: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "360日プランが有効になりました。\n更新日: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font>の搭乗員に対する「搭乗員教育プログラム」が停止しています。配属している搭乗員をご確認ください。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "「<font color='#E9E2BF'>%(vehicleName)s</font>」には「教育プログラム」のボーナスを取得できない搭乗員がいます。こちらの通知は搭乗員が不足している際にも表示されます。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "搭乗員教育プログラム"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "「%(vehicleName)s」の搭乗員に対して「教育プログラム」を開始しました。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "「%(vehicleName)s」の搭乗員に対する「教育プログラム」を停止しました。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "機能が停止したため搭乗員が自動的にEXPを取得できなくなりました。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "「搭乗員教育プログラム」が停止"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "「搭乗員教育プログラム」を利用可能"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "車輌を選択するだけでその搭乗員が自動的にEXPを取得できるようになります。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "「教育プログラム」の対象が「<font color='#E9E2BF'>%(oldVehName)s</font>」の搭乗員から「<font color='#E9E2BF'>%(newVehName)s</font>」の搭乗員に変更されました。「<font color='#E9E2BF'>%(oldVehName)s</font>」の搭乗員はEXPを自動取得できません。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "「教育プログラム」の対象が変更"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "搭乗員の一部または全部がEXPの自動ボーナスを取得できていません。"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "「教育プログラム」の設定に問題あり"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "%(cooldown)s時間後に再度選択を変更できます。"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "%(vehicleName)sに「プロ・ブースト」を適用しました"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "別の車輌を選択して「プロ・ブースト」を適用できます。"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "%(vehicleName)sで「プロ・ブースト」が無効になりました"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "「プロ・ブースト」によるボーナスは現在ロック中です。"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "「プロ・ブースト」は現在利用不可"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "「プロ・ブースト」を利用できます"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)sはブースト対象ではなくなりました。%(cooldown)s時間後に再度選択を変更できます。"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "「プロ・ブースト」の対象が%(vehicleNameTo)sに変更されました"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "「WoT Plus」の有効期限が変更されました"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "リストの中から1輌を選択してレンタルできます。"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "車輌が未選択"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)sは間もなくアカウントに追加されます。"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "レンタル完了！"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "以下の特典を利用できなくなりました。"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "「WoT Plus」が停止"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "「WoT Plus Basic」が有効になりました"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "拡張パーツを無料で解除可能"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "「WoT Plus」が有効になりました"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "「WoT Plus」がPro版にアップグレードされました!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "延長"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "%(freeXP)s のフリーEXPを取得しました。"
+
+msgid "status/offline"
+msgstr "オフライン"
+
+msgid "status/online"
+msgstr "オンライン"
+
+msgid "xmpp_error/action"
+msgstr "「%(actionName)s」を実行できません。後で再度お試しください。"
+
+msgid "xmpp_error/simple"
+msgstr "後で再度お試しください。"
+
+msgid "xmpp_error/user_room_creation"
+msgstr "プレイヤーチャンネル \"%(strArg1)s\" を作成できません。"

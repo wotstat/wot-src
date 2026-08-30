@@ -1,0 +1,353 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprints/buttonLabel/gotoblueprints"
+msgstr "前往藍圖"
+
+msgid "blueprints/card/additional"
+msgstr "選擇："
+
+msgid "blueprints/card/convertAvailable"
+msgstr "可製作的碎片數：%(count)s"
+
+msgid "blueprints/card/convertRequired"
+msgstr "碎片不足"
+
+msgid "blueprints/card/plus"
+msgstr "+"
+
+msgid "blueprints/carousel/title"
+msgstr "有藍圖可以組裝："
+
+msgid "blueprints/checkbox/label"
+msgstr "可以製作碎片"
+
+msgid "blueprints/nationBar/title"
+msgstr "通用及國家藍圖碎片"
+
+msgid "blueprints/noItems/discount/body"
+msgstr "每增加一個碎片到藍圖格中，都會為車輛研發帶來折扣。組裝好的藍圖將提供不用花費經驗來研發這輛車的選擇。"
+
+msgid "blueprints/noItems/discount/header"
+msgstr "獲得研發折扣"
+
+msgid "blueprints/noItems/fill/body"
+msgstr "將多個通用及國家碎片轉換成特定車輛碎片。"
+
+msgid "blueprints/noItems/fill/header"
+msgstr "組裝車輛藍圖"
+
+msgid "blueprints/noItems/receive/body"
+msgstr "您完成任務所獲得的獎勵可能含有藍圖碎片。重複的碎片已轉換成通用或國家碎片。"
+
+msgid "blueprints/noItems/receive/header"
+msgstr "收集碎片"
+
+msgid "blueprints/title"
+msgstr "未研發車輛的藍圖"
+
+msgid "buttonDeconstruct/tooltip/body"
+msgstr "點擊以將裝備拆解為部件。"
+
+msgid "buttonDeconstruct/tooltip/header"
+msgstr "拆解"
+
+msgid "buttonLabel/activate"
+msgstr "前往啟用"
+
+msgid "buttonLabel/preview"
+msgstr "預覽"
+
+msgid "buttonLabel/remove"
+msgstr "移除"
+
+msgid "buttonLabel/restore"
+msgstr "前往重新找回"
+
+msgid "buttonLabel/select"
+msgstr "選擇"
+
+msgid "buttonLabel/sell"
+msgstr "出售"
+
+msgid "buttonSell/tooltip/body"
+msgstr "點擊以出售裝備。"
+
+msgid "buttonSell/tooltip/header"
+msgstr "出售"
+
+msgid "buttonUpgrade/tooltip/body"
+msgstr "升級裝備的特性。"
+
+msgid "card/attachment/hover/partOfBundle/label"
+msgstr "「%(bundleName)s」的一部分。\n您可在外觀的「3D 配飾」區塊查看適用車輛清單。"
+
+msgid "card/cannotSellTitle"
+msgstr "無法出售"
+
+msgid "card/vehicle/hover/maxAdditionalPriceLabel"
+msgstr "+ 退還金額："
+
+msgid "card/vehicle/hover/restoreAvailableLabel"
+msgstr "有重新找回可用"
+
+msgid "card/vehicle/tradeOffPriceLabel"
+msgstr "評估費用："
+
+msgid "crewBooks/filters/nation"
+msgstr "國家"
+
+msgid "crewBooks/filters/nation/all"
+msgstr "所有國家"
+
+msgid "crewBooks/filters/title"
+msgstr "類型"
+
+msgid "crewBooks/noItems/info"
+msgstr "尚未擁有乘員書籍。可從完成任務得到的獎勵裡獲取書籍。"
+
+msgid "customization/noItems/navigationButton"
+msgstr "前往外觀"
+
+msgid "customization/noItems/title"
+msgstr "顯示與車庫中任何車輛不相容的自訂要素。"
+
+msgid "customization/sectionTitle"
+msgstr "外觀"
+
+msgid "customizationSuitable/label"
+msgstr "相容車輛： "
+
+msgid "customizationSuitableForAll/label"
+msgstr "與所有車輛相容"
+
+msgid "devices/filters/all"
+msgstr "所有裝備"
+
+msgid "devices/filters/deluxe"
+msgstr "改良型"
+
+msgid "devices/filters/modernized"
+msgstr "試驗型"
+
+msgid "devices/filters/simple"
+msgstr "標準"
+
+msgid "devices/filters/trophy"
+msgstr "戰勛"
+
+msgid "equipment/cooldown"
+msgstr "冷卻時間為 %(cooldown)s&nbsp;秒。"
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s\n%(extendedDescr)s"
+
+msgid "filter/noResultsBtn/label"
+msgstr "重置過濾"
+
+msgid "filter/someTiersOnlyMessage"
+msgstr "僅能為 II-X 階車輛製作藍圖碎片。"
+
+msgid "filter/warningMessage"
+msgstr "找不到任何東西。請變更設定或重置過濾。"
+
+msgid "forSell/noItems/title"
+msgstr "顯示與任何車輛不相容的配件和砲彈"
+
+msgid "forSell/sectionTitle"
+msgstr "出售配件與砲彈"
+
+msgid "inhangar/filterTitle"
+msgstr "顯示："
+
+msgid "inhangar/noImage"
+msgstr "圖片無法使用"
+
+msgid "inhangar/noItems/allTab/title"
+msgstr "車庫中無車輛"
+
+msgid "inhangar/noItems/rentTab/title"
+msgstr "找不到租用車輛。"
+
+msgid "inhangar/noItems/restoreTab/title"
+msgstr "您可以用銀幣重新找回已出售的加值與特殊車輛。\n您沒有車輛可以重新找回。"
+
+msgid "inhangar/sectionTitle"
+msgstr "車庫中的車輛"
+
+msgid "inhangar/tabs/all"
+msgstr "車輛"
+
+msgid "inhangar/tabs/rent"
+msgstr "租用"
+
+msgid "inhangar/tabs/restore"
+msgstr "重新找回"
+
+msgid "inventory/filterType/consumables"
+msgstr "消耗品"
+
+msgid "inventory/filterType/instructions"
+msgstr "技術指南"
+
+msgid "inventory/filterType/other"
+msgstr "其他"
+
+msgid "markEverything"
+msgstr "選擇要出售的所有東西："
+
+msgid "moduleCompatible/label"
+msgstr "與車輛相容："
+
+msgid "moduleCompatible/moreVehicles"
+msgstr "...以及更多車輛：%(vehCount)s"
+
+msgid "notAvailable/navigationButton"
+msgstr "回到車庫"
+
+msgid "notAvailable/title"
+msgstr "由於庫存而無法使用倉庫"
+
+msgid "offers/expiration"
+msgstr "直到 %(date)s %(time)s"
+
+msgid "offers/giftAmount"
+msgstr "可選獎勵：%(gifts)s"
+
+msgid "offers/giftsTitle"
+msgstr "可得獎勵：%(gifts)s"
+
+msgid "offers/noItems/title"
+msgstr "暫時無法使用服務。\n請稍後再試或前往商店。"
+
+msgid "offers/sectionTitle"
+msgstr "戰線空投補給"
+
+msgid "optDevice/hover/effect"
+msgstr "{effectTagOpen}效果：{effectTagClose}"
+
+msgid "personalreserves/activeCountLabel"
+msgstr "已啟用儲備：%(activeCount)s / %(totalCount)s"
+
+msgid "personalreserves/card/activated"
+msgstr "已啟用"
+
+msgid "personalreserves/card/notAvailable"
+msgstr "無法使用"
+
+msgid "personalreserves/durationFilter/btn/label"
+msgstr "%(durTime)s 小時"
+
+msgid "personalreserves/durationFilter/label"
+msgstr "時間："
+
+msgid "personalreserves/filterTitle"
+msgstr "顯示："
+
+msgid "personalreserves/navigateToShopLabel"
+msgstr "到商店中購買"
+
+msgid "personalreserves/noItems/title"
+msgstr "倉庫裡沒有儲備。您可以到商店中購買更多的儲備"
+
+msgid "personalreserves/sectionTitle"
+msgstr "個人儲備"
+
+msgid "personalreserves/typeFilter/label"
+msgstr "類型"
+
+msgid "restoreTimeLeft/timeless"
+msgstr "沒有限制"
+
+msgid "shellCompatible/label"
+msgstr "與炮管相容："
+
+msgid "shellCompatible/moreGuns"
+msgstr "...以及更多炮管：%(vehCount)s"
+
+msgid "storage/balanceLabel"
+msgstr "可用："
+
+msgid "storage/filterTitle"
+msgstr "顯示："
+
+msgid "storage/noItems/navigationButton"
+msgstr "前往商店"
+
+msgid "storage/noItems/title"
+msgstr "倉庫裡沒有物品。您可以到商店中購買"
+
+msgid "storage/noItems/titleShort"
+msgstr "倉庫裡沒有物品"
+
+msgid "storage/sectionTitle"
+msgstr "庫存"
+
+msgid "storage/tabs/all"
+msgstr "所有"
+
+msgid "storage/tabs/consumable"
+msgstr "消耗品"
+
+msgid "storage/tabs/crewBooks"
+msgstr "乘員書籍"
+
+msgid "storage/tabs/devices/filter/type/label"
+msgstr "類別"
+
+msgid "storage/tabs/equipment"
+msgstr "裝備"
+
+msgid "storage/tabs/modules"
+msgstr "配件"
+
+msgid "storage/tabs/modules/filter/appropriate/label"
+msgstr "適合"
+
+msgid "storage/tabs/modules/filter/type/label"
+msgstr "類型"
+
+msgid "storage/tabs/shells"
+msgstr "砲彈"
+
+msgid "storage/tabs/shells/filter/appropriate/label"
+msgstr "適合"
+
+msgid "storage/tabs/shells/filter/type/label"
+msgstr "類型"
+
+msgid "storage/vehicleSelectPopover/label"
+msgstr "從車庫中選擇車輛"
+
+msgid "stylePreview/tooltip"
+msgstr "風格預覽"
+
+msgid "vehicleSelectPopover/noVehicles"
+msgstr "找不到符合\n搜尋條件的車輛"
+
+msgid "vehicleSelectPopover/tooltips/level/body"
+msgstr "按照車階來排序。"
+
+msgid "vehicleSelectPopover/tooltips/level/header"
+msgstr "階級"
+
+msgid "vehicleSelectPopover/tooltips/nation/body"
+msgstr "按照國家來排序。"
+
+msgid "vehicleSelectPopover/tooltips/nation/header"
+msgstr "國家"
+
+msgid "vehicleSelectPopover/tooltips/title/body"
+msgstr "按照車輛名稱來排序。"
+
+msgid "vehicleSelectPopover/tooltips/title/header"
+msgstr "名稱"
+
+msgid "vehicleSelectPopover/tooltips/type/body"
+msgstr "按照車輛類型來排序。"
+
+msgid "vehicleSelectPopover/tooltips/type/header"
+msgstr "類型"
+
+msgid "vehicleSelectPopover/vehicleName"
+msgstr "名稱"

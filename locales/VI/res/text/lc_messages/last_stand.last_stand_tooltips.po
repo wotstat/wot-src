@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "Sự kiện khả dụng trong %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — Chế độ chơi. Bấm xem"
+
+msgid "bannerTooltip/description"
+msgstr "Chế độ PvE đặc biệt, đọ sức với bầy đàn kẻ thù. Chọn xe ưa thích, quét sạch tăng echo, đứng vững trước sóng địch tấn công ồ ạt. Phần thưởng xịn và nhiều thứ hay ho đang chờ bạn!"
+
+msgid "bannerTooltip/header"
+msgstr "Last Stand: Terra Nord"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "Hiệu suất máy tính của bạn không đủ mạnh cho chế độ này. Bạn có thể gặp vấn đề với đồ họa và chuyển động xe. Client trò chơi cũng có khả năng gặp sự cố."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn sẽ gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "Hiệu suất Thấp"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "Có thể Giảm Hiệu suất"
+
+msgid "battlePass/playGame"
+msgstr "Kiếm Điểm trong Last Stand bằng cách thăng tiến qua sự kiện (cần xe Cấp VIII)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "Đã là Bạn bè rồi."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "Đang đợi chấp nhận yêu cầu kết bạn."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "Xóa người chơi khỏi Sổ đen của bạn."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "Thêm vào DS Bạn bè."
+
+msgid "battleResult/interaction/menu"
+msgstr "Click để mở menu tương tác với người chơi này."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "Thêm vào Trung đội."
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "Người chơi trong Trung đội rồi."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "Đã mời rồi."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "Chỉ huy Trung đội là người duy nhất có thể mời game thủ khác gia nhập."
+
+msgid "booster/activated"
+msgstr "Đã bật"
+
+msgid "booster/howItWorks"
+msgstr "Cách Hoạt Động"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "Chờ hồi phục: %(cooldownSeconds)s s"
+
+msgid "consumables/params/usageCost"
+msgstr "Chi phí Mirium: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "Thời gian còn để làm Nhiệm vụ Mỗi ngày"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "Thời gian đến Nhiệm vụ Hàng ngày tiếp theo"
+
+msgid "dailyQuests/completed"
+msgstr "Đã hoàn tất"
+
+msgid "dailyQuests/completedAll"
+msgstr "Bạn đã hoàn thành mọi Nhiệm vụ Hàng ngày của sự kiện này."
+
+msgid "dailyQuests/completedDescr"
+msgstr "Bạn đã hoàn thành nhiệm vụ hàng ngày này. Nhiệm vụ mới sẽ có vào hôm sau."
+
+msgid "dailyQuests/rewards"
+msgstr "Phần thưởng:"
+
+msgid "dailyQuests/status"
+msgstr "Nhiệm vụ hàng ngày mới sau %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "Sự kiện khả dụng trong %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "Chọn một xe khả dụng để tham chiến."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "Bất khả dụng"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "Chiến trận ở độ khó/chế độ đã chọn tạm thời không khả dụng vì lý do kỹ thuật."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "Bất khả dụng"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "Hãy đợi Trung đội trở lại từ trận trước để vào trận mới."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "Bất khả dụng"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "Độ khó không khớp cho Trung đội."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "Bất khả dụng"
+
+msgid "points/accrued"
+msgstr "Đã nhận"
+
+msgid "points/battles"
+msgstr "• Đánh các trận sự kiện"
+
+msgid "points/body"
+msgstr "Data dùng để thăng tiến trong Last Stand và ẵm tài nguyên giá trị. Có thể kiếm được bằng cách tham dự chiến trận của sự kiện, hoàn thành nhiệm vụ hằng ngày, hoặc mua “{{bundle_name}}”."
+
+msgid "points/bottom"
+msgstr "Sự kiện kết thúc: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• Mỗi bữa, làm nhiệm vụ hằng ngày mới"
+
+msgid "points/effective"
+msgstr "• Đánh tốt trong trận:"
+
+msgid "points/gold"
+msgstr "• Mua \"{{bundle_name}}\" ở Cửa hàng"
+
+msgid "points/header"
+msgstr "Data"
+
+msgid "points/howToEarn"
+msgstr "Cách kiếm"
+
+msgid "points/missionDaily"
+msgstr "• Xong nhiệm vụ hàng ngày:"
+
+msgid "points/obelisk"
+msgstr "• Obelisk diệt được:"
+
+msgid "points/vehicleDaily"
+msgstr "• Bonus xe hằng ngày:"
+
+msgid "rewardPath/info/first"
+msgstr "Bạn có thể kiếm thêm Data bằng cách hoàn thành các nhiệm vụ hàng ngày, cập nhật mỗi hôm trong suốt sự kiện."
+
+msgid "rewardPath/info/header"
+msgstr "Thêm Data"
+
+msgid "rewardPath/info/second"
+msgstr "Một gói sự kiện đặc biệt, có trong Cửa hàng, cũng chứa Data giúp tăng tốc tiến trình của bạn."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "Bonus xe:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "Phần thưởng Khác:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}Bonus xe{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "Đã nhận tất cả Data và quà"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "Data đã nhận {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "Thu thập Data trong trận và băng qua Last Stand. Mỗi Giai đoạn sẽ thưởng đồ giá trị, cùng một Bonus xe giúp đánh bại những kẻ địch mạnh hơn."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "Giai đoạn cuối"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "Giai đoạn hiện tại"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "Sự kiện khả dụng trong {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "Tiến trình"
+
+msgid "shopWidget/body"
+msgstr "Click để mở mục đặc biệt ở Cửa hàng trong game với hàng độc của sự kiện."
+
+msgid "shopWidget/header"
+msgstr "Gói sự kiện"
+
+msgid "teamList/actions/body"
+msgstr "Lệnh nóng để tạo Trung đội và thêm/bớt bạn bè."
+
+msgid "teamList/actions/header"
+msgstr "Lệnh Nóng"
+
+msgid "teamList/damage/body"
+msgstr "Sắp xếp theo thiệt hại gây ra."
+
+msgid "teamList/damage/header"
+msgstr "Thiệt hại đã Gây ra"
+
+msgid "teamList/keys/body"
+msgstr "Xếp theo lượng Data kiếm được. Giá trị hiển thị không tính phần Data nhận thêm khi hoàn thành nhiệm vụ hằng ngày, hay Bonus xe mỗi hôm."
+
+msgid "teamList/keys/header"
+msgstr "Data"
+
+msgid "teamList/kills/body"
+msgstr "Sắp xếp theo số xe địch đã bắn hạ."
+
+msgid "teamList/kills/header"
+msgstr "Số Xe Địch đã Bắn Hạ"
+
+msgid "teamList/name/header"
+msgstr "Người chơi"
+
+msgid "teamList/place/body"
+msgstr "Sắp xếp theo vị thứ trong phe."
+
+msgid "teamList/place/header"
+msgstr "Vị thứ trong Phe"
+
+msgid "teamList/squad/header"
+msgstr "Trung đội là một đơn vị tác chiến để người chơi phối hợp hiệp đồng trong trận."
+
+msgid "teamList/vehicle/body"
+msgstr "Sắp xếp theo loại và tên xe."
+
+msgid "teamList/vehicle/header"
+msgstr "Xe"
+
+msgid "teamList/warned/body"
+msgstr "Người này đã bị phạt vì không hoạt động/bỏ trận và không nhận được bất kỳ phần thưởng nào cho trận tương ứng."
+
+msgid "teamList/warned/header"
+msgstr "Cảnh báo"
+
+msgid "teamList/warned/self/body"
+msgstr "Bạn đã bị phạt vì không hoạt động/bỏ trận và không nhận được bất kỳ phần thưởng nào cho trận này."
+
+msgid "vehicle/lowEfficiency"
+msgstr "Hiệu suất kíp lái thấp"
+
+msgid "vehicle/rentState"
+msgstr "Bị khóa"
+
+msgid "vehicleDaily/header"
+msgstr "Bonus xe hằng ngày"

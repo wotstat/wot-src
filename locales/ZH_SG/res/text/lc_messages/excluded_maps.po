@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "backButton/label"
+msgstr "返回"
+
+msgid "backButton/to"
+msgstr "前往账号状态"
+
+msgid "filteredMapsDisplayed"
+msgstr "已显示地图：%(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "显示/隐藏此类型的地图。"
+
+msgid "filtersTooltip/header/desert"
+msgstr "沙漠地图"
+
+msgid "filtersTooltip/header/summer"
+msgstr "夏季地图"
+
+msgid "filtersTooltip/header/winter"
+msgstr "冬季地图"
+
+msgid "header/cooldown"
+msgstr "您可以在%(cooldownEndTime)后再次替换地图。"
+
+msgid "header/title"
+msgstr "屏蔽地图"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "冷却时间结束后，您可以再次替换这张地图。"
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "无法替换地图"
+
+msgid "mapTile/hoverExclude"
+msgstr "屏蔽%(mapName)地图吗？"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "屏蔽"
+
+msgid "mapTile/hoverInclude"
+msgstr "在随机战中包括%(mapName)地图吗？"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "包括"
+
+msgid "mapsFilterLabel"
+msgstr "地图类型："
+
+msgid "notSelected"
+msgstr "未选择"
+
+msgid "premium"
+msgstr "《坦克世界》\n高级账号"
+
+msgid "slot/disabledTooltipBody"
+msgstr "激活《坦克世界》高级账号或坦克世界Plus订阅，即可解锁额外槽位。"
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "获得《坦克世界》高级账号以解锁。"
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "订阅“坦克世界Plus”以解锁。"
+
+msgid "slot/replaceTooltipBody"
+msgstr "从下面的列表中选择一张要在随机战中替换屏蔽的地图。"
+
+msgid "slot/selectTooltipBody"
+msgstr "从下面的列表中选择一张要在随机战中屏蔽的地图。"
+
+msgid "slot/selectTooltipHeader"
+msgstr "可用槽位"
+
+msgid "totalMapsDisplayed"
+msgstr "已显示地图：%(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "获得%(linkPremium)以额外屏蔽1张地图，订阅“%(linkWotPlus)”可再屏蔽%(mapCount)s张地图。"
+msgstr[1] "获得%(linkPremium)以额外屏蔽1张地图，订阅“%(linkWotPlus)”可再屏蔽%(mapCount)s张地图。"
+
+msgid "unlock/premium"
+msgstr "获得%(linkPremium)以额外屏蔽1张地图。"
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "订阅“%(linkWotPlus)”以再屏蔽%(mapCount)s张地图。"
+msgstr[1] "订阅“%(linkWotPlus)”以再屏蔽%(mapCount)s张地图。"
+
+msgid "wotplus"
+msgstr "坦克世界Plus"

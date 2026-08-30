@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "Đã rõ!"
+
+msgid "awardsView/subTitle"
+msgstr "SỐ TRẬN ĐÃ ĐÁNH: {number}"
+
+msgid "awardsView/title"
+msgstr "NHIỆM VỤ TRINH SÁT"
+
+msgid "buttonDisable/tooltip"
+msgstr "Bất khả dụng"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Lịch chiến đấu"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "Không thể Tham chiến"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "Chiến trận đã kết thúc"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "Không thể Tham chiến"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ này. Xin vui lòng chọn máy chủ khác."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "Bạn chỉ có thể tham chiến bằng %(levelSubStr)s."
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "Cấp Xe không phù hợp"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "xe Cấp %(levels)s"
+
+msgid "intro/button"
+msgstr "Đã rõ!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "Ý kiến của bạn giúp cải thiện chiến trường. Bình luận ngay về cơ chế bản đồ mới, chúng tôi sẽ hiện thực hóa những gì tốt nhất cho game."
+
+msgid "intro/interviewInfoTitle"
+msgstr "Góp ý Thẳng thắn"
+
+msgid "intro/modeInfoDescription"
+msgstr "Tham chiến bằng xe Cấp VIII–X trên các bản đồ có cơ chế mới, trả lời khảo sát và nhận thưởng. Sau một tuần, tiến trình sẽ được tính lại để bạn lấy quà tiếp."
+
+msgid "intro/modeInfoTitle"
+msgstr "Giúp Chúng tôi Phát triển Cơ chế Mới"
+
+msgid "intro/startEvent"
+msgstr "Sự kiện bắt đầu sau: "
+
+msgid "intro/taskInfoDescription"
+msgstr "Khi tham dự Nhiệm vụ Trinh sát, bạn có thể hoàn tất nhiệm vụ hàng ngày và Giấy phép Quân sự, cũng như thực hiện các điều kiện của đề-can cấp tiến."
+
+msgid "intro/taskInfoTitle"
+msgstr "Đánh Theo Luật Trận đấu Ngẫu nhiên"
+
+msgid "intro/time/period/day"
+msgstr "{day} ng"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} ng {hours} giờ"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} giờ {min} ph"
+
+msgid "intro/time/period/minute"
+msgstr "{min} ph"
+
+msgid "intro/title"
+msgstr "NHIỆM VỤ TRINH SÁT"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s không thể tham chiến trong Nhiệm vụ Trinh sát."
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "Loại Xe không phù hợp"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "Chọn một %(levelSubStr)s để tham dự Nhiệm vụ Trinh sát."
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "Cấp Xe không phù hợp"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Xe Cấp %(levels)s"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s không thể tham chiến trong Nhiệm vụ Trinh sát."
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "Xe không phù hợp"
+
+msgid "mapboxTab"
+msgstr "Nhiệm vụ Trinh sát"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Giai đoạn trên máy chủ %(server)s đã kết thúc"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Máy chủ %(server)s\nChiến trận sẽ khả dụng trong %(time)s nữa"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Máy chủ %(server)s\nChiến trận sẽ khả dụng sau %(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Đình chiến đang có hiệu lực trên mọi máy chủ"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Chế độ này không khả dụng trên máy chủ %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Chiến trận trên máy chủ %(server)s sẽ khả dụng thêm %(time)s nữa"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Chiến trận sẽ bắt đầu trên máy chủ %(server)s sau %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "Chiến trận ở chế độ này không khả dụng: Mùa đã kết thúc."
+
+msgid "primeTimeView/status/untill"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ %(server)s cho đến %(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "NHIỆM VỤ TRINH SÁT"
+
+msgid "primeTimes/availableServer"
+msgstr "Máy chủ khả dụng:"
+
+msgid "primeTimes/availableServers"
+msgstr "Máy chủ khả dụng:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "Chiến trận đã kết thúc"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "Đánh số trận"
+
+msgid "progression/cardTitle/rating"
+msgstr "Đứng Top {rating} người chơi theo XP kiếm được"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "Đứng Top {rating} người chơi theo XP kiếm được trên bản đồ có lửa"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "Đứng Top {rating} người chơi theo XP kiếm được trên bản đồ có sương mù"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "Đứng Top {rating} người chơi theo XP kiếm được trên bản đồ có mưa to"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "Đứng Top {rating} người chơi theo XP kiếm được trên bản đồ có bão cát"
+
+msgid "progression/changeAnswer"
+msgstr "Đổi Câu Trả lời"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Tham chiến bằng xe Cấp VIII–X trên các bản đồ có cơ chế mới, trả lời khảo sát và nhận thưởng."
+
+msgid "progression/info/restart"
+msgstr "Tiến trình với phần thưởng sẽ được bắt đầu lại sau %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "Đứng Top %(rating) người chơi theo XP kiếm được: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "CHI TIẾT VỀ SỰ KIỆN"
+
+msgid "progression/map_01_karelia"
+msgstr "KARELIA"
+
+msgid "progression/map_02_malinovka"
+msgstr "MALINOVKA"
+
+msgid "progression/map_05_prohorovka"
+msgstr "PROKHOROVKA"
+
+msgid "progression/map_18_cliff"
+msgstr "WESTFIELD"
+
+msgid "progression/map_all"
+msgstr "CƠ CHẾ\nGAME"
+
+msgid "progression/map_fire"
+msgstr "LỬA"
+
+msgid "progression/map_fog"
+msgstr "SƯƠNG MÙ"
+
+msgid "progression/map_heavy_rain"
+msgstr "MƯA TO"
+
+msgid "progression/map_sandstorm"
+msgstr "BÃO CÁT"
+
+msgid "progression/redirect"
+msgstr "Đến Chế độ"
+
+msgid "progression/startInterview"
+msgstr "Trả lời Khảo sát"
+
+msgid "progression/startInterviewTooltip"
+msgstr "Đáp ứng điều kiện trên để tham dự khảo sát."
+
+msgid "progression/startSpecialInterview"
+msgstr "Trả lời Khảo sát"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "Đáp ứng điều kiện trên để tham dự khảo sát."
+
+msgid "progression/subtitle"
+msgstr "Tại đây bạn có thể tham dự khảo sát về các cơ chế mới"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s ng"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s giờ %(min)s ph"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 ph"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s ph"
+
+msgid "progression/title"
+msgstr "NHIỆM VỤ TRINH SÁT"
+
+msgid "progressionError/description/line1"
+msgstr "Tiến trình đã được lưu. Bạn có thể tiếp tục chơi."
+
+msgid "progressionError/description/line2"
+msgstr "Bạn sẽ sớm có thể thấy tiến trình của mình và tham dự cuộc khảo sát."
+
+msgid "progressionError/title"
+msgstr "Chi tiết về Nhiệm vụ Trinh sát tạm thời không khả dụng"
+
+msgid "questFlag/complete"
+msgstr "Đã nhận tất cả phần thưởng"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "Đánh bằng %(highlightedText)s, trả lời khảo sát và nhận thưởng."
+
+msgid "questFlag/frozen/header"
+msgstr "Nhiệm vụ Trinh sát Không khả dụng"
+
+msgid "questFlag/frozen/text"
+msgstr "Các trận Nhiệm vụ Trinh sát không khả dụng do vấn đề kỹ thuật."
+
+msgid "questFlag/highlightedText"
+msgstr "xe Cấp VIII–X trên các bản đồ có cơ chế mới"
+
+msgid "questFlag/incomplete"
+msgstr "Số trận cần đánh để nhận phần thưởng tiếp theo: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "Số trận đã đánh:"
+
+msgid "questFlag/surveysTitle"
+msgstr "Số khảo sát đã làm: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "Quá trình khám phá các bản đồ có cơ chế mới sẽ bắt đầu vào %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "Quá trình khám phá các bản đồ có cơ chế mới sẽ kéo dài đến %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "Lịch chiến đấu"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Mùa sẽ kết thúc sau:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Lịch Chiến đấu"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Hôm nay"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Ngày mai"
+
+msgid "serverAlertMessage/button"
+msgstr "Chọn Máy chủ Khác"
+
+msgid "survey/backBtn"
+msgstr "Quay lại"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "P.C.tăng"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "P.T.hành"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "T.h.Nặng"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "T.h.Nhẹ"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "T.h.Trung"
+
+msgid "survey/fire/question/q1"
+msgstr "Bạn có thích chơi trên bản đồ Murovanka với (cơ chế) lửa?"
+
+msgid "survey/fire/question/q2"
+msgstr "Bạn nghĩ sao về thiết kế đồ họa của lửa trên bản đồ Murovanka?"
+
+msgid "survey/fire/question/q3"
+msgstr "Bạn có muốn điều chỉnh sự ảnh hưởng lên lối chơi của lửa trên bản đồ Murovanka?"
+
+msgid "survey/fire/question/q4"
+msgstr "Cụ thể, bạn muốn điều chỉnh sự ảnh hưởng lên lối chơi của lửa trên bản đồ Murovanka như thế nào?"
+
+msgid "survey/fire/question/q5"
+msgstr "Bạn đã chơi loại xe nào trên bản đồ Murovanka?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "Lối chơi của {value} đã thay đổi như thế nào trên bản đồ Murovanka?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "Lối chơi của {value} đã thay đổi như thế nào trên bản đồ Murovanka?"
+
+msgid "survey/fire/question/q7"
+msgstr "Bạn có muốn thấy lửa trên bản đồ chính thức áp dụng vào Trận đấu Ngẫu nhiên?"
+
+msgid "survey/fire/question/q8"
+msgstr "Tại sao bạn không thích (cơ chế) lửa trên bản đồ Murovanka?"
+
+msgid "survey/fire/question/q9"
+msgstr "Mô tả rõ bất cứ cải thiện cần thiết nào."
+
+msgid "survey/fire/response/q1_1"
+msgstr "Có"
+
+msgid "survey/fire/response/q1_2"
+msgstr "Không"
+
+msgid "survey/fire/response/q1_3"
+msgstr "Không chắc"
+
+msgid "survey/fire/response/q2_1"
+msgstr "Bản thân thích nó"
+
+msgid "survey/fire/response/q2_2"
+msgstr "Tạm được"
+
+msgid "survey/fire/response/q2_3"
+msgstr "Bản thân không thích"
+
+msgid "survey/fire/response/q2_4"
+msgstr "Không chắc"
+
+msgid "survey/fire/response/q3_1"
+msgstr "Có"
+
+msgid "survey/fire/response/q3_2"
+msgstr "Không"
+
+msgid "survey/fire/response/q3_3"
+msgstr "Không chắc"
+
+msgid "survey/fire/response/q4_1"
+msgstr "Làm nó mạnh hơn"
+
+msgid "survey/fire/response/q4_2"
+msgstr "Làm nó yếu hơn"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "P.C.tăng"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "P.T.hành"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "T.h.Nặng"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "T.h.Nhẹ"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "T.h.Trung"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "Không nhớ"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "Hay hơn"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "Tệ đi"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "Không thay đổi"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "Không chắc"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "Hay hơn"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "Tệ đi"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "Không thay đổi"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "Không chắc"
+
+msgid "survey/fire/response/q7_1"
+msgstr "Có"
+
+msgid "survey/fire/response/q7_2"
+msgstr "Không"
+
+msgid "survey/fire/response/q7_3"
+msgstr "Không chắc"
+
+msgid "survey/fire/response/q8_1"
+msgstr "Lửa làm giảm quá nhiều vị trí quan trọng"
+
+msgid "survey/fire/response/q8_10"
+msgstr "Chỉ có một phe được hưởng lợi"
+
+msgid "survey/fire/response/q8_11"
+msgstr "Vấn đề kỹ thuật"
+
+msgid "survey/fire/response/q8_12"
+msgstr "Khác"
+
+msgid "survey/fire/response/q8_2"
+msgstr "Lửa gây quá nhiều thiệt hại"
+
+msgid "survey/fire/response/q8_3"
+msgstr "Địch ngoài khu vực không thể thấy xe của tôi, nhưng tôi cũng mù như vậy"
+
+msgid "survey/fire/response/q8_4"
+msgstr "Vị trí của lửa trên bản đồ"
+
+msgid "survey/fire/response/q8_5"
+msgstr "Cách lửa trông"
+
+msgid "survey/fire/response/q8_6"
+msgstr "Ảnh hưởng quá nhiều đến lối chơi trên bản đồ"
+
+msgid "survey/fire/response/q8_7"
+msgstr "Ảnh hưởng quá ít đến lối chơi trên bản đồ"
+
+msgid "survey/fire/response/q8_8"
+msgstr "Đồ họa lửa gây cản trở giao tranh"
+
+msgid "survey/fire/response/q8_9"
+msgstr "Lửa buộc tất cả phải cận chiến"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "Outpost"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "Fjords"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "P.C.tăng"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "P.T.hành"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "T.h.Nặng"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "T.h.Nhẹ"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "T.h.Trung"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "P.C.tăng"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "P.T.hành"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "T.h.Nặng"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "T.h.Nhẹ"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "T.h.Trung"
+
+msgid "survey/fog/question/q1"
+msgstr "Bạn có thích chơi trên các bản đồ sau với (cơ chế) sương mù?"
+
+msgid "survey/fog/question/q10"
+msgstr "Bạn có muốn thấy sương mù trên bản đồ chính thức áp dụng vào Trận đấu Ngẫu nhiên?"
+
+msgid "survey/fog/question/q11"
+msgstr "Tại sao bạn không thích (cơ chế) sương mù trên bản đồ Fjords?"
+
+msgid "survey/fog/question/q12"
+msgstr "Tại sao bạn không thích (cơ chế) sương mù trên bản đồ Outpost?"
+
+msgid "survey/fog/question/q13"
+msgstr "Mô tả rõ bất cứ cải thiện cần thiết nào."
+
+msgid "survey/fog/question/q2"
+msgstr "Bạn nghĩ sao về thiết kế đồ họa của sương mù trên các bản đồ sau?"
+
+msgid "survey/fog/question/q3"
+msgstr "Bạn có muốn điều chỉnh sự ảnh hưởng lên lối chơi của sương mù trên bản đồ đang nói?"
+
+msgid "survey/fog/question/q4"
+msgstr "Cụ thể, bạn muốn điều chỉnh sự ảnh hưởng lên lối chơi của sương mù trên bản đồ Fjords như thế nào?"
+
+msgid "survey/fog/question/q5"
+msgstr "Cụ thể, bạn muốn điều chỉnh sự ảnh hưởng lên lối chơi của sương mù trên bản đồ Outpost như thế nào?"
+
+msgid "survey/fog/question/q6"
+msgstr "Bạn đã chơi loại xe nào trên bản đồ Fjords?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "Lối chơi của {value} đã thay đổi như thế nào trên bản đồ Fjords?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "Lối chơi của {value} đã thay đổi như thế nào trên bản đồ Fjords?"
+
+msgid "survey/fog/question/q8"
+msgstr "Bạn đã chơi loại xe nào trên bản đồ Outpost?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "Lối chơi của {value} đã thay đổi như thế nào trên bản đồ Outpost?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "Lối chơi của {value} đã thay đổi như thế nào trên bản đồ Outpost?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "Có"
+
+msgid "survey/fog/response/q10_2"
+msgstr "Không"
+
+msgid "survey/fog/response/q10_3"
+msgstr "Không chắc"
+
+msgid "survey/fog/response/q11_1"
+msgstr "Địch ngoài khu vực không thể thấy xe của tôi, nhưng tôi cũng mù như vậy"
+
+msgid "survey/fog/response/q11_10"
+msgstr "Khác"
+
+msgid "survey/fog/response/q11_2"
+msgstr "Vị trí của sương mù trên bản đồ"
+
+msgid "survey/fog/response/q11_3"
+msgstr "Cách sương mù trông"
+
+msgid "survey/fog/response/q11_4"
+msgstr "Ảnh hưởng quá nhiều đến lối chơi trên bản đồ"
+
+msgid "survey/fog/response/q11_5"
+msgstr "Ảnh hưởng quá ít đến lối chơi trên bản đồ"
+
+msgid "survey/fog/response/q11_6"
+msgstr "Đồ họa sương mù gây cản trở giao tranh"
+
+msgid "survey/fog/response/q11_7"
+msgstr "Sương mù buộc tất cả phải cận chiến"
+
+msgid "survey/fog/response/q11_8"
+msgstr "Chỉ có một phe được hưởng lợi"
+
+msgid "survey/fog/response/q11_9"
+msgstr "Vấn đề kỹ thuật"
+
+msgid "survey/fog/response/q12_1"
+msgstr "Địch ngoài khu vực không thể thấy xe của tôi, nhưng tôi cũng mù như vậy"
+
+msgid "survey/fog/response/q12_10"
+msgstr "Khác"
+
+msgid "survey/fog/response/q12_2"
+msgstr "Vị trí của sương mù trên bản đồ"
+
+msgid "survey/fog/response/q12_3"
+msgstr "Cách sương mù trông"
+
+msgid "survey/fog/response/q12_4"
+msgstr "Ảnh hưởng quá nhiều đến lối chơi trên bản đồ"
+
+msgid "survey/fog/response/q12_5"
+msgstr "Ảnh hưởng quá ít đến lối chơi trên bản đồ"
+
+msgid "survey/fog/response/q12_6"
+msgstr "Đồ họa sương mù gây cản trở giao tranh"
+
+msgid "survey/fog/response/q12_7"
+msgstr "Sương mù buộc tất cả phải cận chiến"
+
+msgid "survey/fog/response/q12_8"
+msgstr "Chỉ có một phe được hưởng lợi"
+
+msgid "survey/fog/response/q12_9"
+msgstr "Vấn đề kỹ thuật"
+
+msgid "survey/fog/response/q1_1"
+msgstr "Có"
+
+msgid "survey/fog/response/q1_2"
+msgstr "Không"
+
+msgid "survey/fog/response/q1_3"
+msgstr "Không chắc"
+
+msgid "survey/fog/response/q2_1"
+msgstr "Bản thân thích nó"
+
+msgid "survey/fog/response/q2_2"
+msgstr "Tạm được"
+
+msgid "survey/fog/response/q2_3"
+msgstr "Bản thân không thích"
+
+msgid "survey/fog/response/q2_4"
+msgstr "Không chắc"
+
+msgid "survey/fog/response/q3_1"
+msgstr "Có"
+
+msgid "survey/fog/response/q3_2"
+msgstr "Không"
+
+msgid "survey/fog/response/q3_3"
+msgstr "Không chắc"
+
+msgid "survey/fog/response/q4_1"
+msgstr "Làm nó mạnh hơn"
+
+msgid "survey/fog/response/q4_2"
+msgstr "Làm nó yếu hơn"
+
+msgid "survey/fog/response/q5_1"
+msgstr "Làm nó mạnh hơn"
+
+msgid "survey/fog/response/q5_2"
+msgstr "Làm nó yếu hơn"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "P.C.tăng"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "P.T.hành"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "T.h.Nặng"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "T.h.Nhẹ"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "T.h.Trung"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "Không nhớ"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "Hay hơn"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "Tệ đi"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "Không thay đổi"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "Không chắc"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "Hay hơn"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "Tệ đi"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "Không thay đổi"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "Không chắc"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "P.C.tăng"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "P.T.hành"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "T.h.Nặng"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "T.h.Nhẹ"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "T.h.Trung"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "Không nhớ"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "Hay hơn"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "Tệ đi"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "Không thay đổi"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "Không chắc"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "Hay hơn"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "Tệ đi"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "Không thay đổi"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "Không chắc"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "Westfield"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "Fisherman's Bay"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "P.C.tăng"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "P.T.hành"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "T.h.Nặng"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "T.h.Nhẹ"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "T.h.Trung"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "P.C.tăng"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "P.T.hành"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "T.h.Nặng"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "T.h.Nhẹ"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "T.h.Trung"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "Bạn có thích chơi trên các bản đồ sau với (cơ chế) mưa to?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "Bạn có muốn thấy mưa to trên bản đồ chính thức áp dụng vào Trận đấu Ngẫu nhiên?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "Tại sao bạn không thích (cơ chế) mưa to trên bản đồ Westfield?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "Tại sao bạn không thích (cơ chế) mưa to trên bản đồ Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "Mô tả rõ bất cứ cải thiện cần thiết nào."
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "Bạn nghĩ sao về thiết kế đồ họa của mưa to trên các bản đồ sau?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "Bạn có muốn điều chỉnh sự ảnh hưởng lên lối chơi của mưa to trên bản đồ đang nói?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "Cụ thể, bạn muốn điều chỉnh sự ảnh hưởng lên lối chơi của mưa to trên bản đồ Westfield như thế nào?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "Cụ thể, bạn muốn điều chỉnh sự ảnh hưởng lên lối chơi của mưa to trên bản đồ Fisherman's Bay như thế nào?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "Bạn đã chơi loại xe nào trên bản đồ Westfield?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "Lối chơi của {value} đã thay đổi như thế nào trên bản đồ Westfield?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "Lối chơi của {value} đã thay đổi như thế nào trên bản đồ Westfield?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "Bạn đã chơi loại xe nào trên bản đồ Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "Lối chơi của {value} đã thay đổi như thế nào trên bản đồ Fisherman's Bay?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "Lối chơi của {value} đã thay đổi như thế nào trên bản đồ Fisherman's Bay?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "Có"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "Không"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "Không chắc"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "Quá trơn trong khu vực mưa to"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "Vấn đề kỹ thuật"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "Khác"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "Địch ngoài khu vực không thể thấy xe của tôi, nhưng tôi cũng mù như vậy"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "Vị trí của mưa to trên bản đồ"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "Cách mưa to trông"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "Ảnh hưởng quá nhiều đến lối chơi trên bản đồ"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "Ảnh hưởng quá ít đến lối chơi trên bản đồ"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "Đồ họa mưa to gây cản trở giao tranh"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "Mưa to buộc tất cả phải cận chiến"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "Chỉ có một phe được hưởng lợi"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "Quá trơn trong khu vực mưa to"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "Vấn đề kỹ thuật"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "Khác"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "Địch ngoài khu vực không thể thấy xe của tôi, nhưng tôi cũng mù như vậy"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "Vị trí của mưa to trên bản đồ"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "Cách mưa to trông"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "Ảnh hưởng quá nhiều đến lối chơi trên bản đồ"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "Ảnh hưởng quá ít đến lối chơi trên bản đồ"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "Đồ họa mưa to gây cản trở giao tranh"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "Mưa to buộc tất cả phải cận chiến"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "Chỉ có một phe được hưởng lợi"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "Có"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "Không"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "Không chắc"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "Bản thân thích nó"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "Tạm được"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "Bản thân không thích"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "Không chắc"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "Có"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "Không"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "Không chắc"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "Làm nó mạnh hơn"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "Làm nó yếu hơn"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "Làm nó mạnh hơn"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "Làm nó yếu hơn"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "P.C.tăng"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "P.T.hành"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "T.h.Nặng"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "T.h.Nhẹ"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "T.h.Trung"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "Không nhớ"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "Hay hơn"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "Tệ đi"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "Không thay đổi"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "Không chắc"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "Hay hơn"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "Tệ đi"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "Không thay đổi"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "Không chắc"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "P.C.tăng"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "P.T.hành"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "T.h.Nặng"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "T.h.Nhẹ"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "T.h.Trung"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "Không nhớ"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "Hay hơn"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "Tệ đi"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "Không thay đổi"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "Không chắc"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "Hay hơn"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "Tệ đi"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "Không thay đổi"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "Không chắc"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "Tiếp theo"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "Đã rõ!"
+
+msgid "survey/required"
+msgstr "Trả lời câu hỏi để tiếp tục."
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "P.C.tăng"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "P.T.hành"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "T.h.Nặng"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "T.h.Nhẹ"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "T.h.Trung"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "Bạn có thích chơi trên bản đồ Sand River với (cơ chế) bão cát?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "Bạn nghĩ sao về thiết kế đồ họa của bão cát trên bản đồ Sand River?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "Bạn có muốn điều chỉnh sự ảnh hưởng lên lối chơi của bão cát trên bản đồ Sand River?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "Cụ thể, bạn muốn điều chỉnh sự ảnh hưởng lên lối chơi của bão cát trên bản đồ Sand River như thế nào?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "Bạn đã chơi loại xe nào trên bản đồ Sand River?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "Lối chơi của {value} đã thay đổi như thế nào trên bản đồ Sand River?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "Lối chơi của {value} đã thay đổi như thế nào trên bản đồ Sand River?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "Bạn có muốn thấy bão cát trên bản đồ chính thức áp dụng vào Trận đấu Ngẫu nhiên?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "Tại sao bạn không thích (cơ chế) bão cát trên bản đồ Sand River?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "Mô tả rõ bất cứ cải thiện cần thiết nào."
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "Có"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "Không"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "Không chắc"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "Bản thân thích nó"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "Tạm được"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "Bản thân không thích"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "Không chắc"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "Có"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "Không"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "Không chắc"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "Làm nó mạnh hơn"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "Làm nó yếu hơn"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "P.C.tăng"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "P.T.hành"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "T.h.Nặng"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "T.h.Nhẹ"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "T.h.Trung"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "Không nhớ"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "Hay hơn"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "Tệ đi"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "Không thay đổi"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "Không chắc"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "Hay hơn"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "Tệ đi"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "Không thay đổi"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "Không chắc"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "Có"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "Không"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "Không chắc"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "Địch ngoài khu vực không thể thấy xe của tôi, nhưng tôi cũng mù như vậy"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "Khác"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "Vị trí của bão cát trên bản đồ"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "Cách bão cát trông"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "Ảnh hưởng quá nhiều đến lối chơi trên bản đồ"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "Ảnh hưởng quá ít đến lối chơi trên bản đồ"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "Đồ họa bão cát gây cản trở giao tranh"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "Bão cát buộc tất cả phải cận chiến"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "Chỉ có một phe được hưởng lợi"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "Vấn đề kỹ thuật"
+
+msgid "survey/subTitle"
+msgstr "Xin cảm ơn bạn đã tham dự cuộc khảo sát này! Nó sẽ không tốn quá hai phút đồng hồ. Các câu trả lời sẽ chỉ dùng cho mục đích khảo sát, và bất kỳ dữ liệu cá nhân nào đều sẽ được xóa bỏ theo Chính sách Bảo mật của chúng tôi."
+
+msgid "survey/template/final/title"
+msgstr "Xin cảm ơn bạn đã tham dự cuộc khảo sát này!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "CLICK BẢN ĐỒ ĐỂ CHỌN MỘT VỊ TRÍ"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "BẠN CÓ THỂ CHỌN TỐI ĐA BA VỊ TRÍ TRÊN BẢN ĐỒ"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "Mô tả chi tiết (tối đa %(maxLength)s ký tự)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "Vị trí"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "Bỏ vị trí"
+
+msgid "survey/template/opened/description"
+msgstr "Mô tả chi tiết vấn đề (tối đa %(maxLength)s ký tự)"
+
+msgid "survey/title/common"
+msgstr "Xin vui lòng đánh giá các tính năng mới"
+
+msgid "survey/title/map"
+msgstr "Đánh giá Bản đồ %(map)s"

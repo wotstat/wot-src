@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "Energy Shot sẵn sàng sử dụng."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "Vampiric Shot sẵn sàng sử dụng."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "Stun Shot sẵn sàng sử dụng."
+
+msgid "LS_damageShieldReady"
+msgstr "Energy Shield sẵn sàng sử dụng."
+
+msgid "LS_doubleDamageReady"
+msgstr "Double Damage sẵn sàng sử dụng."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Situational Damage đã sẵn sàng."
+
+msgid "LS_fastReloadReady"
+msgstr "Fast Reload sẵn sàng sử dụng."
+
+msgid "LS_healSituationalReady"
+msgstr "Situational Repairs đã sẵn sàng."
+
+msgid "LS_invisibilityReady"
+msgstr "Shadow Heal sẵn sàng sử dụng."
+
+msgid "LS_nitroReady"
+msgstr "Turbocharger sẵn sàng sử dụng."
+
+msgid "LS_pickupSouls"
+msgstr "Bạn đã thu được %(souls)s Mirium"
+
+msgid "LS_selfRepairReady"
+msgstr "\"Sửa Gấp\" sẵn sàng sử dụng."
+
+msgid "LS_situationalNitroReady"
+msgstr "Situational Mobility đã sẵn sàng."
+
+msgid "LS_teamRepairKitReady"
+msgstr "Group Repairs sẵn sàng sử dụng."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s đã kích hoạt Group Repairs."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Group Repairs đã được kích hoạt."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Chú ý khu vực: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Bảo vệ ATLAS!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "Bảo vệ ATLAS"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Đang đến khu vực!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "Bảo vệ ATLAS"
+
+msgid "arena/phase"
+msgstr "Pha %(current)s/%(total)s"
+
+msgid "arena/wave"
+msgstr "Đợt %(current)s/%(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Hedgehog&nbsp;đang đến!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Alpha Hedgehog&nbsp;đang đến!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Dọn sạch khu này!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Nhanh! Zero đã gần&nbsp;ATLAS!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Đã diệt Zero!\nĐịch còn lại: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Địch phải diệt: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "data, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Sửa xe"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "Nhận khiên"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "Choáng địch"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "Obelisk %(name)s đã bị phá!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Regen"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Barrier"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Glitch"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Phát hiện Spawn Spot! Địch sắp đến!"
+
+msgid "battleHint/hunter"
+msgstr "Hunter&nbsp;đang đến!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Đã diệt đợt sóng tấn công!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Địch còn phải diệt:"
+
+msgid "battleHint/missing_squad"
+msgstr "Trung đội Mất tích đang đến!"
+
+msgid "battleHint/newWave"
+msgstr "Đợt {current}/{total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "1 Obelisk xuất hiện!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Chặn Zero!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Chặn Zero\ntrước khi nó đến ATLAS!"
+
+msgid "battleHint/trapper"
+msgstr "Diệt Trapper để&nbsp;ngăn Vùng Chết xuất hiện."
+
+msgid "battleHint/turret"
+msgstr "Mosquito đã tỉnh giấc!"
+
+msgid "battleHint/waveFinished"
+msgstr "Đã diệt đợt sóng tấn công!\nTập kết lại và sẵn sàng!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Tập kết lại và sẵn sàng!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Địch tăng viện đã&nbsp;đến!"
+
+msgid "common/close"
+msgstr "TẮT"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Thời lượng: %(time)s s"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Thiệt hại bởi vùng chết"
+
+msgid "damageLog/static_death_zone"
+msgstr "Thiệt hại bởi vùng chết"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Làm cháy bằng Hỏa sinh"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Sát thương từ Xả Năng lượng"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Sát thương nổ"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Sát thương từ Hút máu"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Situational Damage đã kích hoạt"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Situational Repairs đã kích hoạt"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Sát thương từ Đạn Tăng lực"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Sát thương từ Đạn Cà rồng"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Sát thương từ Đạn Choáng"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Mô-đun Bất tử"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Situational Mobility đã kích hoạt"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Phục hồi"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Xe sửa được"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Xe được sửa bởi"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Xe sửa được nhờ đồng đội"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Đồng đội sửa được"
+
+msgid "eventStats/activeWave"
+msgstr "Đợt %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "Độ khó: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Last Stand: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Mục tiêu: Diệt mọi đợt sóng địch"
+
+msgid "eventStats/mission"
+msgstr "Diệt mọi đợt sóng địch"
+
+msgid "eventStats/tableCaption"
+msgstr "Thành viên Tổ đội"
+
+msgid "help/description_0"
+msgstr "Diệt mọi đợt sóng địch để thắng.\nĐối phương mạnh dần mỗi đợt."
+
+msgid "help/description_1"
+msgstr "Kết hợp đúng các Thiết bị Chiến lược có thể đem lại sức mạnh kinh khủng.\nĐừng quên: Ứng dụng kỹ thuật và mọi loại đạn đều miễn phí trong chế độ Last Stand."
+
+msgid "help/description_2"
+msgstr "Gây thiệt hại cho Obelisk sẽ chuyển một phần sát thương đó sang xe địch, trong khi phá hủy Obelisk mang lại Bonus ngẫu nhiên."
+
+msgid "help/description_3"
+msgstr "Bảo vệ ATLAS khỏi Zero, chiếc tăng echo trùm cuối, bằng mọi giá. Nếu nó tới được ATLAS, thất bại là chắc chắn."
+
+msgid "help/title"
+msgstr "LAST STAND: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "SÓNG CÔNG CỦA ĐỊCH"
+
+msgid "help/title_1"
+msgstr "KIẾN THỨC SINH TỒN"
+
+msgid "help/title_2"
+msgstr "TẬN DỤNG OBELISK TRONG TRẬN"
+
+msgid "help/title_3"
+msgstr "BẢO VỆ ATLAS"
+
+msgid "helpScreen/hint/description"
+msgstr "để xem các nguyên tắc của chế độ"
+
+msgid "helpScreen/hint/press"
+msgstr "Bấm"
+
+msgid "hitMarker/useless"
+msgstr "Vô dụng!"
+
+msgid "loading/description_0"
+msgstr "Diệt mọi đợt sóng địch để thắng.\nĐối phương mạnh dần mỗi đợt."
+
+msgid "loading/description_1"
+msgstr "Kết hợp đúng các Thiết bị Chiến lược có thể đem lại sức mạnh kinh khủng.\nĐừng quên: Ứng dụng kỹ thuật và mọi loại đạn đều miễn phí trong chế độ Last Stand."
+
+msgid "loading/description_2"
+msgstr "Gây thiệt hại cho Obelisk sẽ truyền một phần sát thương đó sang xe địch, trong khi phá hủy Obelisk mang lại Bonus ngẫu nhiên."
+
+msgid "loading/description_3"
+msgstr "Bảo vệ ATLAS khỏi Zero, chiếc tăng echo trùm cuối, bằng mọi giá. Nếu nó tới được ATLAS, thất bại là chắc chắn."
+
+msgid "loading/title"
+msgstr "Đang tải..."
+
+msgid "loading/title_0"
+msgstr "ĐỢT SÓNG TẤN CÔNG CỦA ĐỊCH"
+
+msgid "loading/title_1"
+msgstr "KIẾN THỨC SINH TỒN"
+
+msgid "loading/title_2"
+msgstr "TẬN DỤNG OBELISK TRONG TRẬN"
+
+msgid "loading/title_3"
+msgstr "BẢO VỆ ATLAS!"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "Không thể dùng [%(name)s]: Động cơ bị hỏng."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "Không thể dùng [%(name)s]: Súng bị hư hại."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "Súng đã được nạp."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "Không thể dùng [%(name)s]: Thiếu Mirium để kích hoạt thiết bị."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "Xe chưa bị hư hại."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "Không thể dùng [%(name)s]: Xe đang chìm."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "Không thể dùng [%(name)s]: Xe đang cháy."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "Không thể dùng [%(name)s]: Xe đang lật."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Đồng đội %(target)s đã bị địch phá hủy bởi vụ nổ (%(attacker)s)."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Đồng đội %(target)s đã chết do va chạm."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Đồng đội %(target)s đã bị phá hủy bởi vùng chết."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Đồng đội %(target)s đã chết."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "nếu tổ đội của bạn chặn được Đợt sóng này."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "BẠN SẼ HỒI SINH"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Trận đánh kết thúc.\nBạn đã làm tốt!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Xe đã bị phá huỷ bởi vùng chết"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Xe đã bị phá hủy do Xả Năng lượng"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Xe đã bị phá hủy do Hỏa sinh"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Xe đã bị phá hủy do Hút máu"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Xe đã bị phá huỷ bởi vụ nổ"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Xe đã bị dập nát"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Mô-đun [%(device)s] đã nổ do trúng đạn"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Xe đã bị phá hủy do cháy"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Xe bị phá hủy. Hết giờ."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Xe bị phá huỷ bởi phát bắn của địch"
+
+msgid "prebattle/description/message"
+msgstr "Mục tiêu: Diệt mọi đợt sóng địch"
+
+msgid "prebattle/description/title"
+msgstr "Last Stand: Độ khó %(difficulty)s"
+
+msgid "prebattle/difficulty/107"
+msgstr "Thường"
+
+msgid "prebattle/difficulty/108"
+msgstr "Cao"
+
+msgid "prebattle/difficulty/109"
+msgstr "Ác"
+
+msgid "prebattle/waiting/title"
+msgstr "Đang chờ người chơi..."
+
+msgid "radialMenu/attention_here"
+msgstr "Cần bảo vệ"
+
+msgid "radialMenu/cancel"
+msgstr "Hủy bỏ"
+
+msgid "radialMenu/confirm"
+msgstr "Rõ!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Đang đến khu vực!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Đang bảo vệ"
+
+msgid "radialMenu/obelisk"
+msgstr "Tôi lấy Obelisk!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Phá Obelisk!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Energy Shield"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Dựng xe lại..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Rút khỏi\nvùng nguy hiểm!"
+
+msgid "teamList/teammates"
+msgstr "Đồng đội"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Tắt Chat Voice"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Bật Chat Voice"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Nhấn để nói"

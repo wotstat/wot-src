@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "Bản vẽ"
+
+msgid "animations/crew_close"
+msgstr "TẮT"
+
+msgid "animations/shop"
+msgstr "Đến mục Mua"
+
+msgid "battleMattersTab"
+msgstr "Học viện Thiết giáp"
+
+msgid "battleResults/descr"
+msgstr "Học viện Thiết giáp: {questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "Đến Nhiệm vụ Học viện Thiết giáp"
+
+msgid "battleResults/progress/tooltip"
+msgstr "Tiến trình trong trận này"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "Hủy bỏ"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "TẮT"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "Xác nhận"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "Bạn sẽ nhận được {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} kèm kíp lái và một chỗ để xe trong Ga-ra."
+
+msgid "bonusDelayed/dialog/title"
+msgstr "Quy đổi Giơ-tông Học viện của bạn lấy %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "MỘT CHUỖI CÁC\nNHIỆM VỤ HUẤN LUYỆN"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "Nhiệm vụ đã hoàn tất: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "Học viện Thiết giáp"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "Phần thưởng khi hoàn tất:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "Nhiệm vụ hiện không khả dụng vì lý do kỹ thuật. Tiến trình của bạn ở các nhiệm vụ đã làm xong sẽ được lưu."
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "Đã hoàn thành mọi nhiệm vụ"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "Nhiệm vụ tạm thời không khả dụng"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "Điều kiện:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "Quy đổi một giơ-tông lấy bất cứ xe Cấp VI nào có thể nghiên cứu."
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "QUAY LẠI"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "ĐẾN NHIỆM VỤ HỌC VIỆN THIẾT GIÁP"
+
+msgid "mainRewardsScreen/done"
+msgstr "Trong Ga-ra"
+
+msgid "mainRewardsScreen/preview"
+msgstr "Xem trước"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "Số ngày thuê: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "Hoàn tất một chuỗi nhiệm vụ huấn luyện để được thưởng ba xe Premium Cấp VIII thuê trong {cream_Open}14 ngày{cream_Close}."
+
+msgid "mainRewardsScreen/title"
+msgstr "HỌC VIỆN THIẾT GIÁP"
+
+msgid "mainScreen/exchangeToken"
+msgstr "Chọn"
+
+msgid "mainScreen/infoButton"
+msgstr "HƯỚNG DẪN NGƯỜI MỚI"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "HƯỚNG DẪN"
+
+msgid "mainScreen/list/arrow"
+msgstr "Click để đến nhiệm vụ hiện tại."
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "Đã nhận phần thưởng chính"
+
+msgid "mainScreen/progress"
+msgstr "Nhiệm vụ đã hoàn tất: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "Cách Hoàn tất"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "Hoàn thành nhiệm vụ trước"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "Bất khả dụng"
+
+msgid "mainScreen/showMainReward"
+msgstr "Xem Phần thưởng Chính"
+
+msgid "mainScreen/target"
+msgstr "Hoàn tất mọi nhiệm vụ để được thuê ba xe Premium Cấp VIII."
+
+msgid "mainScreen/title"
+msgstr "HỌC VIỆN THIẾT GIÁP"
+
+msgid "pausedScreen/buttonText"
+msgstr "Đến Ga-ra"
+
+msgid "pausedScreen/description"
+msgstr "Học viện Thiết giáp tạm thời không khả dụng vì lý do kỹ thuật. Tất cả tiến độ sẽ được lưu. Chúng tôi rất xin lỗi về vấn đề này."
+
+msgid "pausedScreen/title"
+msgstr "Tạm thời Không khả dụng"
+
+msgid "rewards/additionalTitle"
+msgstr "Bạn cũng sẽ nhận được:"
+
+msgid "rewards/footer/confirm"
+msgstr "Đã rõ!"
+
+msgid "rewards/footer/more"
+msgstr "Và còn: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "Đến Nhiệm vụ Kế tiếp"
+
+msgid "rewards/footer/showVehicle"
+msgstr "Xem trong Ga-ra"
+
+msgid "rewards/previouslyCompleted"
+msgstr "Điều kiện nhiệm vụ đã được đáp ứng trước"
+
+msgid "rewards/rent"
+msgstr "Số ngày thuê: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "NHIỆM VỤ CUỐI ĐÃ HOÀN TẤT"
+
+msgid "rewards/subTitle/regular"
+msgstr "ĐÃ HOÀN TẤT NHIỆM VỤ %(questNumber)s"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "ĐÃ NHẬN ĐƯỢC XE THEO GIƠ-TÔNG HỌC VIỆN"
+
+msgid "rewards/title"
+msgstr "HỌC VIỆN THIẾT GIÁP"
+
+msgid "rewards/token/action"
+msgstr "Chọn Xe"
+
+msgid "rewards/token/description"
+msgstr "Dùng một giơ-tông để nhận ngay lập tức bất cứ xe Cấp VI nào."
+
+msgid "rewards/token/title"
+msgstr "Quy đổi một Giơ-tông Học viện lấy xe"
+
+msgid "tokenTooltip/condition"
+msgstr "Giơ-tông được trao tặng khi hoàn tất một chuỗi nhiệm vụ huấn luyện và tiến bộ đạt yêu cầu trong Học viện Thiết giáp."
+
+msgid "tokenTooltip/description"
+msgstr "Giơ-tông quy đổi được bất cứ xe Cấp VI nào có thể nghiên cứu. Nó đi kèm kíp lái và một chỗ để trong Ga-ra."
+
+msgid "tokenTooltip/timer/days"
+msgstr "Giơ-tông khả dụng: {cream_open}%(days)s ng{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "Giơ-tông khả dụng cho đến: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "Giơ-tông khả dụng: {cream_open}%(hours)s giờ{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "Giơ-tông khả dụng: {cream_open}%(minutes)s ph{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "Giơ-tông Học viện"
+
+msgid "vehicleSelection/additions/base"
+msgstr "Bạn sẽ nhận được một {cream_Open}%(crewIcon)s kíp lái{cream_Close} và thêm một {cream_Open}%(hangarIcon)s chỗ để{cream_Close} {cream_Open}trong Ga-ra{cream_Close} kèm theo xe của mình."
+
+msgid "vehicleSelection/back"
+msgstr "QUAY LẠI"
+
+msgid "vehicleSelection/backTo"
+msgstr "ĐẾN NHIỆM VỤ HỌC VIỆN THIẾT GIÁP"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "Thêm vào so sánh"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "Tùy chỉnh hiển thị xe theo loại và quốc gia."
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "Lọc theo Tham số"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "Click để đặt lại thiết lập bộ lọc về mặc định."
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "Đặt theo Mặc định"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "Quốc gia"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "Lọc theo Tham số"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "Loại xe"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "Không có kết quả. Hãy thay đổi bộ lọc hoặc trả lại mặc định."
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "Đặt lại Bộ lọc"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "Bạn đã nghiên cứu mọi xe Cấp VI mà có thể dùng Giơ-tông Học viện để đổi lấy."
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "Không có Xe để Chọn"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "Tìm theo tên"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "Tên xe không thể dài quá %(maxLength)s ký tự."
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "Tìm kiếm theo Tên"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "Được hiển thị:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "Quy đổi một giơ-tông lấy bất cứ xe Cấp VI nào có thể nghiên cứu. Nó đi kèm\nkíp lái và một chỗ để trong Ga-ra."
+
+msgid "vehicleSelection/title"
+msgstr "Chọn bất cứ xe Cấp VI nào có thể nghiên cứu"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "Pháo Chống tăng"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "Pháo Tự hành"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "Tặng hạng Nặng"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "Tăng hạng Nhẹ"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "Tăng hạng Trung"

@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)s檢視%(linkEndTag)s 玩家詳情"
+
+msgid "clan/application/title"
+msgstr "來自 %(nameStartTag)s%(name)s%(nameEndTag)s 的 \n%(titleStartTag)s加入公會申請%(titleEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "檢視申請"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)s關閉%(linkEndTag)s 通知"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)s來自玩家的申請：%(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)s檢視%(linkEndTag)s 公會詳情"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)s邀請加入公會%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "檢視邀請"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)s公會邀請：%(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "玩家已獲准加入公會。"
+
+msgid "clans/state/app/declined"
+msgstr "申請已拒絕。"
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "玩家離開先前公會的一天懲罰還尚未到期。"
+
+msgid "clans/state/invite/accepted"
+msgstr "您已獲准加入該公會。"
+
+msgid "clans/state/invite/declined"
+msgstr "邀請已拒絕。"
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "離開您先前公會的一天懲罰還尚未到期。"
+
+msgid "errors/creationNotAllowed"
+msgstr "沒有足夠的權限建立邀請。"
+
+msgid "errors/invalid"
+msgstr "無效的邀請。"
+
+msgid "errors/inviteNotSupported"
+msgstr "目前不允許此類型邀請，請稍後重試。"
+
+msgid "errors/receiverIgnoreSender"
+msgstr "邀請的接收對象已將您加入到其黑名單中。"
+
+msgid "errors/selfinvite"
+msgstr "您無法邀請您自己。"
+
+msgid "errors/unknownuser"
+msgstr "這個玩家尚未在系統註冊。"
+
+msgid "errors/useroffline"
+msgstr "玩家已離線。"
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "該車輛在車庫中已受損或鎖定。請選擇其它車輛。"
+
+msgid "friendship/note/approved"
+msgstr "玩家已加入好友名單"
+
+msgid "friendship/note/canceled"
+msgstr "請求已拒絕"
+
+msgid "friendship/note/maxRoster"
+msgstr "名單的最高聯絡人數：%(rosterMaxCount)s。想要加入這名玩家到您的好友名單，請先從名單中移除掉幾個人。"
+
+msgid "friendship/note/notConnected"
+msgstr "無法連線到伺服器。請稍候。"
+
+msgid "friendship/note/process"
+msgstr "等候伺服器回覆"
+
+msgid "friendship/request/text"
+msgstr "來自 %(nameStartTag)s%(name)s%(nameEndTag)s\n 的 %(titleStartTag)s好友請求%(titleEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "接受"
+
+msgid "gui/buttons/cancel"
+msgstr "取消"
+
+msgid "gui/buttons/reject"
+msgstr "拒絕"
+
+msgid "gui/buttons/send"
+msgstr "送出"
+
+msgid "gui/labels/additionalText"
+msgstr "添加邀請訊息："
+
+msgid "gui/labels/inviteText"
+msgstr "邀請訊息："
+
+msgid "gui/labels/receiver"
+msgstr "接收對象："
+
+msgid "gui/titles/barter"
+msgstr "交易邀請"
+
+msgid "gui/titles/clan"
+msgstr "公會邀請"
+
+msgid "gui/titles/invite"
+msgstr "邀請"
+
+msgid "gui/titles/receivedInvites"
+msgstr "邀請"
+
+msgid "invites/comment"
+msgstr "「%(comment)s」"
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "一旦您接受該邀請，會自動將您從戰術單位中移除並且傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "一旦您接受該邀請，會自動將您從戰術單位中移除並且傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "一旦您接受該邀請，您將會自動從世界地圖的戰鬥中逐出並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "一旦您接受該邀請，會自動將您從戰術單位中移除並且傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "一旦您接受該邀請，會自動將您從戰術單位中移除並且傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "一旦您接受該邀請，會自動將您從戰術單位中移除並且傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "一旦您接受該邀請，您將會自動從前線模式的隊伍訓練逐出，並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "一旦您接受該邀請，會自動將您從戰術單位中移除並且傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "一旦您接受了邀請，您將會自動從隊伍戰鬥模式中逐出並且傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "一旦您接受該邀請，會自動將您從裝甲排中移除並且傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "一旦您接受該邀請，您將會離開根據地：戰鬥並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "一旦您接受該邀請，您就會離開進階戰模式並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "一旦您接受該邀請，會自動將您從偵察任務裝甲排中移除並且傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "一旦您接受該邀請，您將會自動從隊伍訓練逐出並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "一旦您接受該邀請，您將會離開根據地：戰鬥並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "一旦您接受該邀請，會自動將您從裝甲排中移除並且傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "一旦您接受該邀請，您就會離開當前的分遣隊並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "一旦您接受該邀請，您將會自動從比賽中逐出並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "一旦您接受該邀請，您將會自動從隊伍訓練逐出並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "一旦您接受該邀請，您將會自動從天梯戰模式的隊伍訓練中逐出，並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "一旦您接受了邀請，您將會自動從隊伍戰鬥模式中逐出並且傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "一旦您接受該邀請，您將會離開大逃殺並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "一旦您接受該邀請，您將會離開大狩獵並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "一旦您接受該邀請，您將會離開天梯戰並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "一旦您接受該邀請，您將會離開天梯戰輕裝版並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "一旦您接受該邀請，您將會離開前線並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "一旦您接受該邀請，您將會離開+++活動戰鬥+++並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "一旦您接受該邀請，您將會離開偵察任務並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "一旦您接受該邀請，您將會離開地圖勘查並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "一旦您接受該邀請，您將會離開隨機戰鬥並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "一旦您接受該邀請，您將會離開排名戰模式並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "一旦您接受該邀請，您將會離開熱身並且會被傳送到 %(host)s 伺服器。"
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "一旦您接受該邀請，您將會離開熱身並且會被傳送到%(host)s 伺服器。您將無法再次進入熱身。"
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "一旦您接受該邀請，會自動將您從戰術單位中移除。"
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "一旦您接受該邀請，會自動將您從戰術單位中移除。"
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "一旦您接受該邀請，您將會自動從世界地圖的戰鬥中逐出。"
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "一旦您接受該邀請，會自動將您從戰術單位中移除。"
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "一旦您接受該邀請，會自動將您從戰術單位中移除。"
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "一旦您接受該邀請，會自動將您從戰術單位中移除。"
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "一旦您接受該邀請，您將會自動從前線模式的隊伍訓練中逐出。"
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "一旦您接受該邀請，會自動將您從戰術單位中移除。"
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "一旦您接受了邀請，您將會自動從隊伍戰鬥模式中逐出。"
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "一旦您接受該邀請，會自動將您從裝甲排中移除。"
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "一旦您接受該邀請，您將會離開根據地：戰鬥。"
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "一旦您接受該邀請，您就會離開進階戰模式。"
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "一旦您接受該邀請，會自動將您從偵察任務裝甲排中移除。"
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "一旦您接受該邀請，您將會自動從隊伍訓練中逐出。"
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "一旦您接受該邀請，您將會離開根據地：戰鬥。"
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "一旦您接受該邀請，會自動將您從裝甲排中移除。"
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "一旦您接受該邀請，您就會離開當前的分遣隊。"
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "一旦您接受該邀請，您將會自動從比賽中逐出。"
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "一旦您接受該邀請，您將會自動從隊伍訓練中逐出。"
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "一旦您接受該邀請，您將會自動從天梯戰模式的隊伍訓練中逐出。"
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "一旦您接受了邀請，您將會自動從隊伍戰鬥模式中逐出。"
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "一旦您接受該邀請，您將會離開大逃殺。"
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "一旦您接受該邀請，您將會離開大狩獵。"
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "一旦您接受該邀請，您將會離開天梯戰。"
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "一旦您接受該邀請，您將會離開天梯戰輕裝版。"
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "一旦您接受該邀請，您將會離開前線。"
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "一旦您接受該邀請，您將會離開+++活動戰鬥+++。"
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "一旦您接受該邀請，您將會離開偵察任務。"
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "一旦您接受該邀請，您將會離開地圖勘查。"
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "一旦您接受該邀請，您將會離開隨機戰鬥。"
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "一旦您接受該邀請，您就會離開排名戰模式。"
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "一旦您接受該邀請，您將會離開熱身。"
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "一旦您接受該邀請，您將會離開熱身。您將無法再次進入熱身。"
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "現在將會儲存伺服器變更。"
+
+msgid "invites/note/server_change"
+msgstr "您將會被自動轉移到 %(host)s 伺服器。"
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "您無法接受邀請。要接受邀請，請先選擇 %(host)s 伺服器。"
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "您無法同意邀請。要同意邀請，請先選擇其他伺服器。"
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "您已經加入了該裝甲排。"
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "您已經加入在世界地圖上的戰鬥。"
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "您已經加入了隊伍訓練。"
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "您已經加入了該裝甲排。"
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "您已經加入了該裝甲排。"
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "您已經加入該分遣隊。"
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "您已經加入了該裝甲排。"
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "您已經加入該比賽。"
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "您已經加入了隊伍訓練。"
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "您已經加入了隊伍訓練。"
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "您已經加入該隊伍。"
+
+msgid "invites/state/ACCEPTED"
+msgstr "邀請已接受。"
+
+msgid "invites/state/DECLINED"
+msgstr "邀請已拒絕。"
+
+msgid "invites/state/ERROR"
+msgstr "無效的邀請。"
+
+msgid "invites/state/EXPIRED"
+msgstr "無效的邀請。"
+
+msgid "invites/state/REVOKED"
+msgstr "撤銷邀請。"
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "加入大逃殺裝甲排的邀請"
+
+msgid "invites/text/COMP7"
+msgstr "加入天梯戰裝甲排的邀請"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "加入天梯戰輕裝版裝甲排的邀請"
+
+msgid "invites/text/EPIC"
+msgstr "加入前線裝甲排的邀請"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "加入前線模式中隊伍訓練的邀請"
+
+msgid "invites/text/EVENT"
+msgstr "加入裝甲排的邀請"
+
+msgid "invites/text/FALLOUT"
+msgstr "加入%(battleType)s裝甲排的邀請"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "爭霸戰"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "鋼鐵獵殺"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "邀請到戰鬥"
+
+msgid "invites/text/MAPBOX"
+msgstr "加入偵察任務裝甲排的邀請"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "探索地圖的邀請"
+
+msgid "invites/text/SORTIE"
+msgstr "加入分遣隊的邀請"
+
+msgid "invites/text/SQUAD"
+msgstr "加入裝甲排的邀請"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "加入分遣隊的邀請"
+
+msgid "invites/text/TRAINING"
+msgstr "加入隊伍訓練的邀請"
+
+msgid "invites/text/UNIT"
+msgstr "加入隊伍的邀請"
+
+msgid "invites/text/creatorName"
+msgstr "來自於 %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "防禦期"
+
+msgid "invites/text/fort/direction"
+msgstr "橋頭堡"
+
+msgid "invites/text/fort/offence"
+msgstr "攻擊"
+
+msgid "invites/warning/anonymized"
+msgstr "一旦您接受邀請，您真實的暱稱與公會標籤，將會在戰鬥持續期間被戰術單位成員看見。"
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "給 %(name)s 的邀請已送出。"

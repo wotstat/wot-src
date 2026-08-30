@@ -1,0 +1,41 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/recon/startVehicle"
+msgstr "กำลังกลับไปยังพาหนะ..."
+
+msgid "abilities/recon/stopVehicle"
+msgstr "กำลังออกจากพาหนะ..."
+
+msgid "player_errors/ability/on_cooldown"
+msgstr "ไม่มีให้ [%(name)s] กำลังพักใช้อยู่"
+
+msgid "player_errors/ability/other_ability"
+msgstr "ไม่สามารถใช้ได้: [%(name)s] กำลังถูกใช้อยู่"
+
+msgid "player_errors/ability/unable_fire"
+msgstr "ไม่สามารถยิงได้: [%(name)s] กำลังถูกใช้อยู่"
+
+msgid "player_errors/ability/unable_move"
+msgstr "ไม่สามารถแล่นได้ [%(name)s] กำลังถูกใช้อยู่"
+
+msgid "player_messages/BUNKER_DESTROYED"
+msgstr "บังเกอร์ชายฝั่งถูกทำลาย"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BATTLESHIP"
+msgstr "เรือประจัญบานพร้อมทำการยิงแล้ว"
+
+msgid "player_messages/DISTRACTION_ABILITY"
+msgstr "คำสั่งปลอมพร้อมใช้งานแล้ว"
+
+msgid "player_messages/RECON_ABILITY"
+msgstr "การออกลาดตระเวนพร้อมใช้งานแล้ว"
+
+msgid "player_messages/SCC_AIRSTRIKE_ABILITY"
+msgstr "การสนับสนุนทางอากาศพร้อมใช้งานแล้ว"
+
+msgid "postmortem_messages/DEATH_FROM_BOT"
+msgstr "พาหนะถูกทำลายจากการยิงของช้าศึก"
+
+msgid "postmortem_messages/DEATH_FROM_BUNKER"
+msgstr "พาหนะถูกทำลายจากการยิงของบังเกอร์ชายฝั่ง"

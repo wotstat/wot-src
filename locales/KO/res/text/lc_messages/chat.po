@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT 번역가 <noreply@wargaming.net>\nLanguage-Team: WoT 팀 <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "일반 채널"
+
+msgid "channels/battle/team"
+msgstr "팀"
+
+msgid "channels/clan"
+msgstr "클랜"
+
+msgid "channels/common"
+msgstr "일반 채널"
+
+msgid "channels/epic_training"
+msgstr "훈련—전선 대격돌"
+
+msgid "channels/nubs"
+msgstr "신병"
+
+msgid "channels/prebattle"
+msgstr "전투 대기"
+
+msgid "channels/special_battles"
+msgstr "특수 전투"
+
+msgid "channels/squad"
+msgstr "소대"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "소대가 조직되었습니다. 준비 완료할 때까지 기다리십시오."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "소대"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "소대가 조직되었습니다. 모든 플레이어가 준비 완료되었습니다."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "소대"
+
+msgid "channels/system"
+msgstr "시스템"
+
+msgid "channels/tournament"
+msgstr "토너먼트"
+
+msgid "channels/trading"
+msgstr "거래"
+
+msgid "channels/training"
+msgstr "연습 전투"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "채널 관리자는 채널 모더레이터이기도 합니다."
+
+msgid "errors/addmoderatorowner"
+msgstr "채널 생성자는 채널 모더레이터 입니다."
+
+msgid "errors/banchannelowner"
+msgstr "채널 생성자를 추방할 수 없습니다."
+
+msgid "errors/banchatadmin"
+msgstr "채널 관리자를 추방할 수 없습니다."
+
+msgid "errors/banned"
+msgstr "%(banOwnerNick)s 님에 의해 %(banEndTime)s까지 추방되었습니다. 이유: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "%(banOwnerNick)s까지 추방되었습니다. 이유: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "%(banEndTime)s까지 추방되었습니다. 이유: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "추방되었습니다. 이유: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "%(command)s 명령어 사용이 %(cooldownPeriod)s초 동안 금지되었습니다."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "채널 관리자의 관리 권한을 회수할 수 없습니다."
+
+msgid "errors/delmoderatorowner"
+msgstr "채널 생성자의 관리 권한을 회수할 수 없습니다."
+
+msgid "errors/timeincorrect"
+msgstr "'시간' 변수는 [1-1440]분 사이 혹은 '영구적'이여야 합니다."
+
+msgid "errors/toomanyargs"
+msgstr "매개 변수가 너무 많습니다."
+
+msgid "errors/toosmallargs"
+msgstr "매개 변수의 수가 부족합니다."
+
+msgid "errors/userbanhimself"
+msgstr "자신을 추방할 수 없습니다."
+
+msgid "messages/userbanned"
+msgstr "%(banOwnerNick)s 님이 %(banedUser)s 님을 %(banEndTime)s까지 추방했습니다. 이유: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "%(banOwnerNick)s 님이 %(banedUser)s 님을 추방했습니다. 이유: %(banReason)s"

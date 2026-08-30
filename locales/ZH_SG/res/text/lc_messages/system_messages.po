@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "您的账号已成功恢复"
+
+msgid "achievements/server_error"
+msgstr "对最具价值奖勋带的更改尚未保存。"
+
+msgid "actionAchievement/title"
+msgstr "活动勋章"
+
+msgid "actionAchievements/title"
+msgstr "活动勋章"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "训练特长时出错。错误的战车。"
+
+msgid "add_tankman_skill/server_error"
+msgstr "无法训练新特长。\n服务器不可用。请稍后重试。"
+
+msgid "add_tankman_skill/success"
+msgstr "已训练新特长：%(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "训练特长时出错。战车被锁定。"
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "训练特长时出错。请修复您的战车。"
+
+msgid "add_tankman_skills/server_error"
+msgstr "无法训练新特长。\n服务器不可用。请稍后重试。"
+
+msgid "add_tankman_skills/success"
+msgstr "已训练新特长：%(skill)s"
+
+msgid "another_periphery"
+msgstr "当前账号仍登录在另一个服务器上。"
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "加入战斗错误：您已经在一个联队中。"
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "加入战斗错误：团队数量错误。"
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "加入失败，此操作被暂停，请稍后再试。"
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "此活动当前不可用。请在游戏网站上获取更多信息。"
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "加入战斗错误：邀请超时。"
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "加入失败，没有足够权限。"
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "不能加入战斗。当前队列不可用。请稍后重试。"
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "操作失败。当前队列已满。请稍后重试。"
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "加入战斗错误(联队已组建完毕）。"
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "加入战斗错误：连接超时。"
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "加入失败：此账号类型不可用。"
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "加入战斗错误。"
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "加入失败，错误参数。"
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "加入出错:选择的历史战役不可用。"
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "连接失败，请选择%s服务器。"
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "连接失败，请选择其他服务器。"
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "加入战斗错误：当前战车没有准备好。"
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "错误：该等级的战车不适用于战斗模式。"
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "不能加入战斗:战车未准备。"
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "加入战斗前必须购买战车。"
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "加入战斗失败 (战斗创建失败)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "加入战斗失败 (战斗创建失败)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "加入战斗失败 (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "加入战斗失败 (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "加入战斗失败。(CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "加入战斗失败 (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "加入战斗失败 (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "加入战斗失败 (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "加入战斗失败 (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "加入战斗失败 (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "加入战斗失败 (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "队列等待已超时。请选择其他战车再试一次。"
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\"不适用于此战车。"
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "错误的战车。%(kind)s \"%(name)s\"未安装。"
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s\"%(name)s\"已从战车上拆除。您已消耗%(money)s。"
+
+msgid "artefact_apply/server_error"
+msgstr "安装%(kind)s \"%(name)s\"时发生服务器错误。请稍后重试。"
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s“%(name)s”已安装在战车上。"
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "战车被锁定。%(kind)s \"%(name)s\"未安装。"
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "战车受损。%(kind)s \"%(name)s\"未安装。请修理后重试。"
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s“%(name)s”不适用于此战车。"
+
+msgid "artefact_buy/invalid_module"
+msgstr "无法购买%(kind)s“%(name)s”。错误的模块。"
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "错误的战车，无法购买和安装%(kind)s“%(name)s”。"
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "无法购买%(kind)s“%(name)s”。银币不足。"
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "无法购买%(kind)s“%(name)s”。点券不足。"
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "无法购买%(kind)s“%(name)s”。周年纪念币不足。"
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "无法购买 %(kind)s“%(name)s”。金币不足。"
+
+msgid "artefact_buy/server_error"
+msgstr "无法购买%(kind)s“%(name)s”。请稍后重试。"
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "无法购买%(kind)s“%(name)s”。服务器暂时不可用。"
+
+msgid "artefact_buy/success"
+msgstr "%(kind)s“%(name)s”已成功购买（%(count)s个）。花费%(money)s。"
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "战车已锁定。无法购买和安装%(kind)s“%(name)s”。"
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "无法购买和安装%(kind)s“%(name)s”。请修复战车后重试。"
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "无法拆解 %(name)s。错误的道具。"
+
+msgid "artefact_deconstructing/server_error"
+msgstr "无法拆解 %(name)s。请稍后重试。"
+
+msgid "artefact_deconstructing/success"
+msgstr "已拆解装备：%(name)s（x%(count)s）。您已获得%(money)s。"
+
+msgid "artefact_deconstructingMult/success"
+msgstr "已拆解装备：%(names)s。您已获得%(money)s。"
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "'%(equipment)s' 未被拆除。资金不足。"
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "错误的战车。%(kind)s \"%(name)s\"未销毁。"
+
+msgid "artefact_destroy/server_error"
+msgstr "破坏%(kind)s \"%(name)s\"时发生服务器错误。请稍后重试。"
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s\"%(name)s\"拆除时销毁。"
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "战车被锁定。%(kind)s \"%(name)s\"未销毁。"
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "战车受损。%(kind)s \"%(name)s\"未销毁。请修理后重试。"
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s\"%(name)s\"已从战车上拆除。您消耗了一个拆卸工具。"
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "消耗品“%s”由于与当前模块不兼容，已被放回仓库。"
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "错误的战车。%(kind)s\"%(name)s\"未被拆除。"
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s\"%(name)s\"已从战车上拆除。您已消耗%(money)s。"
+
+msgid "artefact_remove/server_error"
+msgstr "拆除%(kind)s\"%(name)s\"时发生服务器错误。请稍后重试。"
+
+msgid "artefact_remove/success"
+msgstr "已从战车拆除%(kind)s\"%(name)s\"。"
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "战车被锁定。%(kind)s\"%(name)s\"未拆除。"
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "战车受损。%(kind)s\"%(name)s\"未拆除。请修理后重试。"
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "您已使用坦克世界Plus特权，从战车上免费拆除了%(kind)s“%(name)s”。"
+
+msgid "artefact_sell/invalid_module"
+msgstr "不能出售%(kind)s“%(name)s”。 错误的模块。"
+
+msgid "artefact_sell/server_error"
+msgstr "无法出售 %(kind)s“%(name)s”。请稍后重试。"
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s \"%(name)s\"(%(count)s个)。获得%(money)s。"
+
+msgid "artefact_upgrade/server_error"
+msgstr "升级装备出错。请稍后再试。"
+
+msgid "artefact_upgrade/success"
+msgstr "%(kind)s“%(name)s”升级成功。属性已提升。花费%(money)s。"
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "已成功升级%(name)s%(kind)s，属性得到提高。已花费%(money)s。\n\n替代设置中的类似装备已发送至仓库。"
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "战车损坏。%(kind)s“%(name)s”未升级。请修复后重试。"
+
+msgid "badges/select/server_error"
+msgstr "服务器错误"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "操作失败，请等待当前操作完成。"
+
+msgid "battle/request/SEND_INVITES"
+msgstr "发送邀请"
+
+msgid "battleAbilities_apply/error"
+msgstr "战斗储备配置出错。请稍后再试。"
+
+msgid "battleBooster_buy/credits_error"
+msgstr "购买%(kind)s“%(name)s”失败。银币不足。"
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "购买%(kind)s“%(name)s”失败。点券不足。"
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\"不适合这辆战车。"
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "无法购买%(kind)s“%(name)s”。周年纪念币不足。"
+
+msgid "battleBooster_buy/gold_error"
+msgstr "购买%(kind)s“%(name)s”失败。金币不足。"
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "购买%(kind)s \"%(name)s\"失败。模块错误。"
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "购买%(kind)s \"%(name)s\"失败。战车错误。"
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "购买%(kind)s \"%(name)s\"失败。银币不足。"
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "购买%(kind)s \"%(name)s\"失败。点券数量不足。"
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "无法购买%(kind)s“%(name)s”。周年纪念币不足。"
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "购买%(kind)s \"%(name)s\"失败。金币不足。"
+
+msgid "battleBooster_buy/server_error"
+msgstr "由于维护指令行动暂时不可用。"
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "购买%(kind)s \"%(name)s\"失败。服务器暂时关闭。"
+
+msgid "battleBooster_buy/success"
+msgstr "已购买%(kind)s \"%(name)s\"(%(count)s 个)。您花去了%(money)s。"
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "战车被锁定。购买并安装%(kind)s \"%(name)s\"失败。请修理战车后重试。"
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "购买并安装%(kind)s \"%(name)s\"失败。请修理战车后重试。"
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "battleBooster_sell/server_error"
+msgstr "由于维护指令行动暂时不可用。"
+
+msgid "battleBooster_sell/success"
+msgstr "已出售%(kind)s“%(name)s”（%(count)s个）。获得：%(money)s。"
+
+msgid "battleBoosters_apply/error"
+msgstr "指令操作出错。请稍后再试。"
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "指令操作出错。完成购买所需资金不足。"
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "操作不可用。您的金币在WG钱包恢复后可用。"
+
+msgid "battlePass/activateChapter/success"
+msgstr "已激活“%(chapter)s”章节"
+
+msgid "battlePass/extraFinish/body"
+msgstr "%(name)s活动已结束。感谢您的参与！"
+
+msgid "battlePass/extraFinish/header"
+msgstr "战令：“%(name)s”章节"
+
+msgid "battlePass/extraStarted/body"
+msgstr "车长！战令内的“%(name)s”活动已开始，您有机会从中获得特殊奖励！"
+
+msgid "battlePass/extraStarted/header"
+msgstr "战令：全新章节已开放！"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "车长！“%(name)s”章节的结束时间已经不远了。抓紧时间！"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "战令：“%(name)s”章节"
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "车长们！别忘了您可以在排位战中获得战令点数！"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "车长们！别忘了您可以在前线战中获得战令点数！"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "车长们！别忘了您可以在侦察任务中获得战令点数！"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "车长们！别忘了您可以在天梯战中获得战令点数！"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "战令赛季%(seasonNum)d"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "选择奖励出错。请稍后重试。"
+
+msgid "battlePass/seasonEnd/text"
+msgstr "战令赛季已结束。您在赛季期间未选择的所有奖励已按默认选择发放："
+
+msgid "battlePass/switchChapter/error"
+msgstr "选择章节出错。请稍后重试。"
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "选择一个章节。您可以随时切换到其他章节。"
+
+msgid "battlePass/switchChapter/success"
+msgstr "您已切换到其他章节。现在已激活“%(chapter)s”章节。"
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "由于例行维护，战令在钢铁猎手中暂时无法使用。我们对造成的不便深表歉意。"
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "由于维护此刻无法在天梯战模式中获得战令点数。"
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "由于维护此刻无法在天梯战轻装版模式中获得战令点数。"
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "由于例行维护，战令在前线战中暂时不可用。"
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "由于例行维护，战令在排位战中暂时无法使用。"
+
+msgid "battlePass/switch_enabled/body"
+msgstr "战令已重新开放。我们对造成的不便深表歉意。\n赛季延长至%(expiryTime)s。"
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "您现在可以再次通过天梯战获得战令点数。我们对造成的不便深表歉意。"
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "您现在可以再次通过天梯战轻装版获得战令点数。我们对造成的不便深表歉意。"
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "战令在前线战中已恢复使用。我们对造成的不便深表歉意。"
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "战令在排位战中已恢复使用。我们对造成的不便深表歉意。"
+
+msgid "battlePass/switch_pause/body"
+msgstr "由于例行维护战令暂时不可用。"
+
+msgid "battlePass/switch_started/body"
+msgstr "车长们！又到了为独特战令奖励而战的时候了！"
+
+msgid "battlePass/switch_started/title"
+msgstr "战令赛季%(seasonNum)d"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "战令：%(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "战令已结束。您未选择的所有奖励已按默认选择发放："
+
+msgid "battlePassH/switch_disable/body"
+msgstr "章节已结束。下次见！"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "战令：%(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "战令已重新开放。我们对造成的不便深表歉意。"
+
+msgid "battlePassH/switch_started/body"
+msgstr "车长们！正如您所见，这是战令特殊活动。\n\n完成进度后，您将获得一辆高级战车（附带独特3D风格）、自定义元素等奖励！"
+
+msgid "battlePassH/switch_started/title"
+msgstr "战令：%(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "购买进度阶段出错。请稍后重试。"
+
+msgid "battlePass_buy/server_error"
+msgstr "购买进阶战令时出错。请稍后重试。"
+
+msgid "battleResults/sharing/success"
+msgstr "链接已复制到剪贴板，你现在可以在游戏聊天框中按 Ctrl+V 或在其他地方使用。"
+
+msgid "battleSession/kickedFromQueue"
+msgstr "当前特殊对战无法匹配到对手。请考虑重新组队。"
+
+msgid "battleSession/memberJoined"
+msgstr "%s已经加入战队。"
+
+msgid "battleSession/memberLeave"
+msgstr "%s已经离开战队。"
+
+msgid "battleSession/memberNotReady"
+msgstr "%s未做好战斗准备。"
+
+msgid "battleSession/memberOffline"
+msgstr "与%s的连接中断。"
+
+msgid "battleSession/memberReady"
+msgstr "%s已做好战斗准备。"
+
+msgid "battlesession/error/AddObserver"
+msgstr "团队观看者人数上限：%(numPlayers)s。"
+
+msgid "battlesession/error/AddPlayer"
+msgstr "团队玩家人数上限：%(numPlayers)s。"
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "没有足够的权限移动其他玩家。"
+
+msgid "battlesession/error/Limits"
+msgstr "已超出团队玩家人数上限。"
+
+msgid "blueprints/conversion/disable"
+msgstr "转化所需的碎片数量不足。"
+
+msgid "blueprints/conversion/error"
+msgstr "无法遣散：服务器无法使用。请稍后再试。"
+
+msgid "blueprints/switch_off"
+msgstr "战车蓝图：该功能暂时不可用。我们对给您造成的不便深表歉意。"
+
+msgid "blueprints/switch_on"
+msgstr "战车蓝图功能已重新可用。"
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "操作失败。个人储备已使用。"
+
+msgid "booster_activate/DISABLED"
+msgstr "不能激活个人储备。操作失败。"
+
+msgid "booster_activate/EXCEPTION"
+msgstr "不能激活个人储备。操作失败。"
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "操作失败，未选择或无法使用个人储备。"
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "不能激活个人储备。操作失败。"
+
+msgid "booster_activate/server_error"
+msgstr "技能个人储备失败，请重试。"
+
+msgid "booster_activate/success"
+msgstr "个人储备\"%(boosterName)s\"已激活，剩余时间:%(time)s。"
+
+msgid "booster_buy/not_enough_credits"
+msgstr "不能购买个人储备 \"%(boosterName)s\"。银币不足。"
+
+msgid "booster_buy/not_enough_gold"
+msgstr "不能购买个人储备 \"%(boosterName)s\"。金币不足。"
+
+msgid "booster_buy/server_error"
+msgstr "不能购买个人储备 \"%(boosterName)s\"。"
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "不能购买个人储备 \"%(boosterName)s\"。服务器暂时不可用。"
+
+msgid "booster_buy/success"
+msgstr "个人储备\"%(boosterName)s\" 已购买(%(count)s 个(s))。共消耗 %(money)s。"
+
+msgid "booster_buy/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "booster_sell/server_error"
+msgstr "不能出售个人储备\"%(boosterName)s\"。请稍后再试一次。"
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "不能出售个人储备\"%(boosterName)s\"。请稍后再试一次。"
+
+msgid "booster_sell/success"
+msgstr "个人储备\"%(boosterName)s\"已卖出(%(count)s 个(s))。 共得到 %(money)s。"
+
+msgid "buttons/goToPoll"
+msgstr "继续去投票"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "无法征募和转移乘员：坦克有独特永久乘员。"
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "已经达到当日免费车组乘员征募数限制。"
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "无法征募和转移乘员，错误的战车。"
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "无法征募和转移乘员。银币不足。"
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "无法征募和转移乘员。金币不足。"
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "无法征募和转移乘员。请稍后重试。"
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "无法征募和转移乘员。战车被锁定。"
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "无法征募和转移乘员：坦克有独特永久乘员。"
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "已经达到当日免费车组乘员征募数限制。"
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "无法征募和替换乘员，错误的战车。"
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "无法征募和替换乘员。银币不足。"
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "无法征募和替换乘员。金币不足。"
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "无法征募和更换乘员。您兵营中的空位不足，请在兵营中腾出一个空位或购买一个新的铺位。"
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "无法征募和替换乘员。请稍后重试。"
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "无法征募和替换乘员。战车被锁定。"
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "您已经达到购买免费战车的次数限制。请明天再尝试。"
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "扩充兵营失败。银币不足。"
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "扩充兵营失败。金币不足。"
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "无法扩充兵营。请稍后重试。"
+
+msgid "buy_tankmen_berths/success"
+msgstr "已扩充兵营。\n花费金币：%(money)s。"
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "buy_vehicle_slot_error"
+msgstr "无法购买“%s”。车库里没有可用车位。可以考虑出售战车以空出车位或购买一个新车位。"
+
+msgid "buy_vehicle_slot_error2"
+msgstr "无法购买“%s”。车库里没有可用车位。请空出一个车位。"
+
+msgid "challenges/activate/serverError"
+msgstr "无法激活“淬炼”任务。请稍后再试。"
+
+msgid "challenges/activate/success/text"
+msgstr "此系列的第一个任务已开放。进入战斗，迎接挑战！"
+
+msgid "challenges/activate/success/title"
+msgstr "“淬炼：%(challengeName)s”已激活！"
+
+msgid "challenges/challengeEnd/button"
+msgstr "前往“淬炼”"
+
+msgid "challenges/challengeEnd/text"
+msgstr "立即完成并获得奖励。"
+
+msgid "challenges/challengeEnd/title"
+msgstr "“淬炼”任务即将结束！"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "恭喜!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "您已完成“淬炼：%(challengeName)s”！奖励已获得："
+
+msgid "challenges/formatter/spent/credits"
+msgstr "已花费银币："
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "已花费点券："
+
+msgid "challenges/formatter/spent/gold"
+msgstr "已花费金币："
+
+msgid "challenges/restart/free/text"
+msgstr "已使用1次免费重新开始次数，任务进度已重置。"
+
+msgid "challenges/restart/free/title"
+msgstr "“淬炼：%(challengeName)s”已免费重新开始"
+
+msgid "challenges/restart/paid/title"
+msgstr "“淬炼：%(challengeName)s”已重新开始"
+
+msgid "challenges/restart/serverError"
+msgstr "无法重新开始“淬炼”任务。请稍后再试。"
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "操作失败，请等待当前操作完成。"
+
+msgid "challenges/surrender/serverError"
+msgstr "无法放弃“淬炼”任务。请稍后再试。"
+
+msgid "challenges/surrender/success/text"
+msgstr "您已放弃“淬炼：%(challengeName)s”。该系列任务已失败。"
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "无法更改该乘员的专精：坦克拥有独特永久乘员。"
+
+msgid "change_tankman_role/invalid_role"
+msgstr "无法更改专精：请稍后重试。"
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "无法更改专精：错误的战车。"
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "战车不在车库中。重新训练的乘员将被发送至兵营。"
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "无法更改乘员专精。银币不足。"
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "无法更改乘员专精。金币不足。"
+
+msgid "change_tankman_role/server_error"
+msgstr "无法更改专精。\n请稍后重试。"
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "战车上已有%(role)s %(vehicle)s。重新训练的乘员将被发送至兵营。"
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "无法更改专精：请稍后重试。"
+
+msgid "charge/credits_error"
+msgstr "自动装填需要%s银币和%s金币。请手动装填弹药。"
+
+msgid "charge/credits_error_credits"
+msgstr "还需要%s银币才能使用“自动补给”。请手动装填弹药。"
+
+msgid "charge/credits_error_gold"
+msgstr "还需要%s金币才能使用“自动补给”。请手动装填弹药。"
+
+msgid "charge/inventory_error"
+msgstr "%(vehicle)s的弹药未装填。请手动操作。"
+
+msgid "charge/money_spent"
+msgstr "弹药总共花费%s。"
+
+msgid "charge/server_error"
+msgstr "装填弹药错误。请稍后再试。"
+
+msgid "charge/server_error_save"
+msgstr "保存弹药设置错误。请稍后再试。"
+
+msgid "charge/success"
+msgstr "弹药已经装填。"
+
+msgid "charge/success_save"
+msgstr "弹药设置被成功保存。"
+
+msgid "checkout_error"
+msgstr "接收用户错误信息时失败。请重试。"
+
+msgid "clans/isClanProfileDisabled"
+msgstr "操作失败，请稍后重试。"
+
+msgid "clans/notifications/accept"
+msgstr "接受"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "已向%(userName)s发送军团邀请。"
+
+msgid "clans/notifications/decline"
+msgstr "拒绝"
+
+msgid "clans/notifications/from"
+msgstr "从 %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "查看军团详细信息"
+
+msgid "clans/notifications/invite"
+msgstr "邀请到军团"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "军团邀请被接受。"
+
+msgid "clans/notifications/invite/declined"
+msgstr "军团邀请被拒绝。"
+
+msgid "clans/notifications/invite/expired"
+msgstr "军团邀请失效。"
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s已接受军团邀请。"
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s已拒绝军团邀请。"
+
+msgid "clans/notifications/inviteSendError"
+msgstr "向%(userName)s发送军团邀请失败。"
+
+msgid "clans/notifications/inviteSent"
+msgstr "已向%(userName)s发送军团邀请。"
+
+msgid "clans/notifications/invites"
+msgstr "军团邀请：%(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "禁用提醒"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "查看邀请"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "向%(userCount)d个玩家发送军团邀请失败。"
+
+msgid "clans/notifications/invitesSent"
+msgstr "已向%(userCount)d个玩家发送邀请。"
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "您已获准加入军团。\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "您加入\n%(nameStartTag)s%(name)s%(nameEndTag)s的申请被拒绝。"
+
+msgid "clans/notifications/request"
+msgstr "申请加入军团"
+
+msgid "clans/notifications/request/accepted"
+msgstr "申请通过。"
+
+msgid "clans/notifications/request/declined"
+msgstr "申请被拒绝。"
+
+msgid "clans/notifications/requestSent"
+msgstr "已提交的军团申请:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "玩家邀请：%(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "查看申请"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s 已经被邀请加入你的军团了。"
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "操作失败，玩家不满足征募条件。"
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "您尚处在退出上个军团的1天惩罚期内。"
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "操作失败，账号不正确。"
+
+msgid "clans/request/errors/Account is banned"
+msgstr "操作失败，账号已被冻结。"
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "这名玩家已经加入了军团。"
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "操作可用，玩家不是军团成员。"
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "操作失败，申请不存在。"
+
+msgid "clans/request/errors/Application is not active"
+msgstr "操作失败，申请已过期。"
+
+msgid "clans/request/errors/Bad request"
+msgstr "操作失败，请稍后重试。"
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "没有足够的权限向军团发送邀请。"
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "军团停止征募。"
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "军团已满。"
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "操作失败，军团不存在。"
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "操作失败，军团已满。"
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "操作失败，军团已解散。"
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "操作失败，军团不活跃。"
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "操作失败，请稍后重试。"
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "操作失败，请稍后重试。"
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "该账号不能进行此操作。"
+
+msgid "clans/request/errors/Forbidden"
+msgstr "操作失败，您没有足够权限。"
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "操作失败，请稍后重试。"
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "操作失败，邀请不存在。"
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "操作失败，邀请已过期。"
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "操作失败，请稍后重试。"
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "操作失败，请稍后重试。"
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "操作失败，要塞不可用。"
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "操作失败。"
+
+msgid "clans/request/errors/Too many invites"
+msgstr "操作失败，已达到可发送申请的最大数量。"
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "操作失败，请稍后重试。"
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "操作失败，请稍后重试。"
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "操作失败，请稍后重试。"
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "操作失败，请稍后重试。"
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s已经加入了军团。"
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s“%s”不适用于当前战车。"
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s“%s”不适用于此炮塔。请更换炮塔。"
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s“%s”的类型不正确。"
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s“%s”的国家不正确。"
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s“%s”不适用于当前战车。"
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s“%s”的类型不正确。"
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s“%s”的国家不正确。"
+
+msgid "client_inactive"
+msgstr "客户端不活跃"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "由于例行维护收藏暂时不可用。"
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "收藏不可用"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "收藏已修复。我们对给您造成的不便深表歉意。"
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "收藏重新可用"
+
+msgid "connected"
+msgstr "欢迎进入《坦克世界》%s服务器！"
+
+msgid "consumables_apply/error"
+msgstr "消耗品配置出错。请稍后再试。"
+
+msgid "consumables_apply/not_enough_money"
+msgstr "消耗品配置出错。完成购买所需资金不足。"
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "操作不可用。您的金币在WG钱包恢复后可用。"
+
+msgid "conversion/error"
+msgstr "无法遣散：服务器无法使用。请稍后再试。"
+
+msgid "conversion/header"
+msgstr "日期：%(at)s\n已添加："
+
+msgid "conversion/success"
+msgstr "已遣散训练不足的乘员：%(number)s"
+
+msgid "conversion/title"
+msgstr "收据"
+
+msgid "conversionPerks/header"
+msgstr "日期：%(at)s\n成功转换超出乘员特长经验上限的经验。已获得："
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "您所在国家的玩家无法使用私信功能。"
+
+msgid "crewBooks/failed"
+msgstr "无法训练乘员。\n请稍后重试。"
+
+msgid "crewBooks/server_error"
+msgstr "由于服务器错误乘员训练失败。请稍后重试。"
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s"
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s（x%(count)s）"
+
+msgid "crewBooksNotification/success"
+msgstr "已训练乘员。\n花费："
+
+msgid "crewBooks_buy/server_error"
+msgstr "由于服务器错误无法购买乘员书籍。请稍后再试。"
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s （%(count)s个）。\n已花费银币：%(money)s。"
+
+msgid "crewBooks_sell/server_error"
+msgstr "由于服务器错误无法出售乘员书籍。请稍后再试。"
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s （%(count)s个）。\n已获得银币：%(money)s。"
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "已改变乘员皮肤。"
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "已添加乘员皮肤：%(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "当前战车被替换为%s。"
+
+msgid "customization/added/attachment"
+msgstr "已添加\"%s3D\"配饰"
+
+msgid "customization/added/attachmentValue"
+msgstr "已添加%s3D配饰：(x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "已添加“%s”迷彩"
+
+msgid "customization/added/camouflageValue"
+msgstr "已添加“%s”迷彩：(x%s)"
+
+msgid "customization/added/decal"
+msgstr "已添加“%s”贴花"
+
+msgid "customization/added/decalValue"
+msgstr "已添加“%s”贴花：(x%s)"
+
+msgid "customization/added/emblem"
+msgstr "已添加“%s”标志"
+
+msgid "customization/added/emblemValue"
+msgstr "已添加“%s”标志：(x%s)"
+
+msgid "customization/added/inscription"
+msgstr "已添加“%s”铭刻"
+
+msgid "customization/added/inscriptionValue"
+msgstr "已添加“%s”铭刻：(x%s)"
+
+msgid "customization/added/modification"
+msgstr "已添加“%s”特效"
+
+msgid "customization/added/modificationValue"
+msgstr "已添加“%s”特效：(x%s)"
+
+msgid "customization/added/paint"
+msgstr "已添加“%s”涂料"
+
+msgid "customization/added/paintValue"
+msgstr "已添加“%s”涂料：(x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "已添加\"%s\" 一位数"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "已添加\"%s\"一位数：(x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "已添加\"%s\" 两位数"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "已添加\"%s\"两位数：(x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "已添加\"%s\" 三位数"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "已添加\"%s\"三位数：(x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "已添加“%s”贴花"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "已添加“%s”贴花：(x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "数据追踪器：已添加“%s”"
+
+msgid "customization/added/statTrackerValue"
+msgstr "数据追踪器：已添加“%s”：(x%s)"
+
+msgid "customization/added/style"
+msgstr "已添加\"%s\"风格"
+
+msgid "customization/added/styleValue"
+msgstr "已添加\"%s\"风格：(x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "未能成功自定义，银币或金币不足。"
+
+msgid "customization/credits_not_enough"
+msgstr "未能成功自定义，银币不足。"
+
+msgid "customization/currency_not_enough"
+msgstr "货币不足，无法购买道具。"
+
+msgid "customization/gold_not_enough"
+msgstr "未能成功自定义，没有足够的金币。"
+
+msgid "customization/igr_type_changed_error"
+msgstr "IGR 状态已改变，当前操作取消。"
+
+msgid "customization/invalidVehicle"
+msgstr "无法应用：战车不符合条件"
+
+msgid "customization/personal_number_prohibited"
+msgstr "数字%(value)s不可用。\n%(itemType)s%(itemName)s已被从%(seasonName)s地图中移除。"
+
+msgid "customization/progression/down/style"
+msgstr "%s风格降为%s级"
+
+msgid "customization/progression/up/style"
+msgstr "%s风格升为%s级"
+
+msgid "customization/prohibited"
+msgstr "无法使用：%(itemName)s不在道具清单中。"
+
+msgid "customization/removed/attachment"
+msgstr "已移除\"%s3D\"配饰"
+
+msgid "customization/removed/attachmentValue"
+msgstr "已移除%s3D配饰：(x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "已移除\"%s\"迷彩"
+
+msgid "customization/removed/camouflageValue"
+msgstr "已移除\"%s\"迷彩：(x%s)"
+
+msgid "customization/removed/decal"
+msgstr "已移除\"%s\"贴花"
+
+msgid "customization/removed/decalValue"
+msgstr "已移除\"%s\"贴花：(x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "已移除\"%s\"标志"
+
+msgid "customization/removed/emblemValue"
+msgstr "已移除\"%s\"标志：(x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "已移除\"%s\"铭刻"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "已移除\"%s\"铭刻：(x%s)"
+
+msgid "customization/removed/modification"
+msgstr "已移除\"%s\"效果"
+
+msgid "customization/removed/modificationValue"
+msgstr "已移除\"%s\"效果：(x%s)"
+
+msgid "customization/removed/paint"
+msgstr "已移除\"%s\"涂料"
+
+msgid "customization/removed/paintValue"
+msgstr "已移除\"%s\"涂料：(x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "已移除\"%s\"一位数"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "已移除\"%s\"一位数：(x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "已移除\"%s\"两位数"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "已移除\"%s\"两位数：(x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "已移除\"%s\"三位数"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "已移除\"%s\"三位数：(x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "已移除\"%s\"贴花"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "已移除\"%s\"贴花：(x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "数据追踪器：已移除“%s”"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "数据追踪器：已移除“%s”：(x%s)"
+
+msgid "customization/removed/style"
+msgstr "已移除\"%s\"风格"
+
+msgid "customization/removed/styleValue"
+msgstr "已移除\"%s\"风格：(x%s)"
+
+msgid "customization/server_error"
+msgstr "无法进行自定义。"
+
+msgid "customization/unavailable"
+msgstr "由于技术原因战车自定义功能暂时无法使用。"
+
+msgid "customization/vehicle_damaged"
+msgstr "更改自定义外观失败。战车受损。需要修复。"
+
+msgid "customization/vehicle_destroyed"
+msgstr "更改自定义外观失败。战车被淘汰。需要修复。"
+
+msgid "customization/vehicle_exploded"
+msgstr "更改自定义外观失败。战车被击毁。需要修复。"
+
+msgid "customization/vehicle_locked"
+msgstr "未能成功自定义。战车已被锁定。"
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "不能重置普通任务：任务已完成。"
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "不能重置普通任务：行动已锁定。"
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "不能重置普通任务：行动已暂停。"
+
+msgid "daily_quests/reroll/success"
+msgstr "普通任务重置成功。"
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "不能重置普通任务。请稍后再试。"
+
+msgid "daily_quests/switch_off/body"
+msgstr "由于技术原因此功能暂时不可用。\n我们对给您造成的不便深表歉意。"
+
+msgid "daily_quests/switch_off/title"
+msgstr "普通任务暂时不可用"
+
+msgid "daily_quests/switch_on/body"
+msgstr "技术问题已修复。我们对给您造成的不便深表歉意。"
+
+msgid "daily_quests/switch_on/title"
+msgstr "普通任务重新开放"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "由于技术原因此功能暂时不可用。\n我们对给您造成的不便深表歉意。"
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "可管理的经验加成暂时不可用"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "技术问题已修复。我们对给您造成的不便深表歉意。"
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "可管理的经验加成已再次可用"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "由于维护拆卸工具行动暂时不可用。"
+
+msgid "demountKit_restored/switchedOn"
+msgstr "拆卸工具行动已重新开放。我们对给您造成的不便深表歉意。"
+
+msgid "denunciation/success"
+msgstr "对%(name)s发起的投诉“%(topic)s”已受理。"
+
+msgid "disconnected"
+msgstr "客户端与服务器连接中断。"
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "无法遣散乘员：坦克有独特永久乘员。"
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "遣散乘员失败，错误的战车。"
+
+msgid "dismiss_tankman/server_error"
+msgstr "无法遣散此乘员。\n请稍后重试。"
+
+msgid "dismiss_tankman/success"
+msgstr "已遣散乘员。"
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "乘员遣散失败，战车正处于锁定状态。"
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "乘员遣散失败，请先维修战车。"
+
+msgid "dog_tags/switch_off/body"
+msgstr "由于技术原因此功能暂时不可用。\n我们对给您造成的不便深表歉意。"
+
+msgid "dog_tags/switch_off/title"
+msgstr "狗牌暂时不可用"
+
+msgid "dog_tags/switch_on/body"
+msgstr "技术问题已修复。我们对给您造成的不便深表歉意。"
+
+msgid "dog_tags/switch_on/title"
+msgstr "狗牌功能已再次开放"
+
+msgid "dossiers_unavailable"
+msgstr "账户没有准备好。(数据不可用)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "已重置所有特长。\n已花费银币：%(money)s。"
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "已重置所有特长。\n已花费金币：%(money)s。"
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "重置特长时出错。错误的战车。"
+
+msgid "drop_tankman_skill/server_error"
+msgstr "无法重置特长。请稍后重试。"
+
+msgid "drop_tankman_skill/success"
+msgstr "已重置所有特长。"
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "重置特长时出错。战车被锁定。"
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "重置特长时出错。请修复您的战车。"
+
+msgid "drr_scale/step_down"
+msgstr "动态分辨率已降低至%(scale)d%%."
+
+msgid "drr_scale/step_up"
+msgstr "动态分辨率已增加至%(scale)d%%."
+
+msgid "earning/button/multiple"
+msgstr "前往成就"
+
+msgid "earning/button/single"
+msgstr "前往成就"
+
+msgid "earning/common/multiple"
+msgstr "已解锁%(value)s个成就！"
+
+msgid "earning/common/single"
+msgstr "已解锁%(value)s成就！"
+
+msgid "earning/title"
+msgstr "恭喜！"
+
+msgid "earning/trophy/multiple"
+msgstr "已获得%(value)s个战利品！"
+
+msgid "earning/trophy/single"
+msgstr "已获得%(value)s战利品！"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "快速备战功能已重新开放。我们为造成的不便深表歉意。"
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "由于例行维护快速备战功能暂时无法使用。"
+
+msgid "easyTankEquip_apply/error"
+msgstr "应用快速备战配置时出错。请稍后重试。"
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "应用快速备战配置时出错。资金不足，无法购买。"
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "快速备战操作不可用。WG钱包恢复后，您便可以使用您的金币。"
+
+msgid "epicBattles/levelUp/awards"
+msgstr "已获得奖励："
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "您已达到前线战进度的<font color='#E9E2BF'>%(tier)s</font>级。"
+
+msgid "epicBattles/levelUp/title"
+msgstr "恭喜！"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "前线战未开放。请保持关注官网上的更新。"
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "选择奖励出错。请稍后重试。"
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "已获得%(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "已获得装备指令：%(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "已获得试验型装备：%(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "前线战赛季已结束。<br/>您在赛季期间未选择的所有奖励已按默认选择发放："
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "前线战"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "无法转移乘员:坦克有独特永久乘员。坦克有独特永久乘员。"
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "移动乘员错误，错误的战车"
+
+msgid "equip_tankman/not_enough_space"
+msgstr "无法将乘员调回兵营。兵营中没有足够的床位。"
+
+msgid "equip_tankman/server_error"
+msgstr "无法转移乘员至此战车。请稍后重试。"
+
+msgid "equip_tankman/success"
+msgstr "乘员已转移至%(vehName)s。"
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "转换乘员失败，战车正处于锁定状态。"
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "转换乘员失败，请先维修战车。"
+
+msgid "exchange/not_enough_gold"
+msgstr "金币不足，无法兑换。"
+
+msgid "exchange/server_error"
+msgstr "兑换 %(gold)s 金币错误，请稍后重试。"
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "金币不足，无法转换 %(xp)s 点经验。"
+
+msgid "exchangeXP/server_error"
+msgstr "转换 %(xp)s 点经验失败，请稍后重试。"
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "filling_untrained_perks/server_error"
+msgstr "无法训练新特长。\n服务器不可用。请稍后重试。"
+
+msgid "filling_untrained_perks/success"
+msgstr "已为所有乘员训练新特长。"
+
+msgid "fortification/addOrder"
+msgstr "开始准备%(count)s个储备。剩余： %(time)s。"
+
+msgid "fortification/buildingProcess"
+msgstr "建造 %(buildingName)s 开始，需要输送资源确保工程进度。"
+
+msgid "fortification/created"
+msgstr "恭喜！\n要塞已成功建造。"
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "要塞防御将在48小时内关闭。在此期间你可以在设置中重启防御。"
+
+msgid "fortification/defenceHourSet"
+msgstr "防御时间将在14天内被调整。新的防御时间: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "停战期将在14天内被调整。新的停战期——未设定。"
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "停战期将在14天内被调整。新的停战期——%(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "建筑 %(buildingName)s 已拆除。"
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "操作失败，你已被分配到该建筑。"
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "操作失败，要塞已建造。"
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "操作失败，军团已经在收藏列表里了。"
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "操作失败，你不能攻击同一个军团多次。"
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "操作失败，攻击数据未加载。"
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "操作失败，军团被攻击后的一周后才可以进行。"
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "操作不可用。另一支分队已控制此桥头堡。"
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "操作失败，攻击未规划。"
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "操作失败，你只能规划至少15分钟后开始攻击。"
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "选择的日期不能发起攻击。"
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "操作失败，军团ID错误。"
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "操作失败，停战期值错误。"
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "操作失败，日期错误。"
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "操作失败，攻城战ID错误。"
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "操作失败，防御时间值错误。"
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "无法攻击所选军团:要塞等级相差大于一级。请另选一个军团。"
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "操作失败，储备数量错误。"
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "操作失败，工业资源输送量无效。"
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "操作失败，部队错误。"
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "操作失败，未收到突击战详情。"
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "该服务器目前禁止战斗。"
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "操作失败，无效的中立时间。"
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "操作失败，中立时间无效。"
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "操作失败，请修理指挥中心。"
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "操作失败，指挥中心已被击毁。"
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "操作失败，指挥中心未被损伤。"
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "操作失败，战斗不存在。"
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "对不起，战斗结果不可用。"
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "不能移除，要塞内包含其他建筑。"
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "操作失败，建筑损坏。"
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "操作失败，未建造建筑。"
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "操作失败，不能获取军团详细信息。"
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "操作失败，不能找到军团。"
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "操作失败，输送不可用。"
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "操作失败，不能升级建筑。"
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "操作被拒绝，服务器暂时不可用。"
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "操作失败，军团已激活停战期。"
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "操作失败，军团已激活中立日。"
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "操作失败，指定时间不能设置为防御时间。"
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "操作不可用。另一支分队已控制此桥头堡。"
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "操作失败，防御未规划。"
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "操作失败，无效的数据。"
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "操作失败，防御未开启。"
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "要塞功能暂时不可用。"
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "操作失败，建筑已建造。"
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "操作失败，请等待当前操作完成。"
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "操作失败，您在此时间正在攻击另外一个军团。"
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "在指定时间内不能攻击这个军团。"
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "发生错误。要塞暂时不可用。"
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "操作失败，要塞等级太低。"
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "操作失败，所有建造已暂停。"
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "操作失败，您没有足够权限。"
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "操作失败，不能加入作战部队。"
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "操作暂时不可用。"
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "操作失败，时间未同步。"
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "操作失败，你未被分配到该建筑。"
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "操作失败，玩家不是军团成员。"
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "操作失败，军团玩家不足。"
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "操作失败，储备资源不足。"
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "操作失败，军团未在收藏列表中。"
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "操作失败，未建造建筑。"
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "操作失败，你不是军团成员。"
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "操作失败。储备现在不能使用。"
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "操作失败，错误的建筑。"
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "操作失败，未选择或无法使用储备。"
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "操作失败，错误的储备。"
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "操作失败，错误的储备。"
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "操作失败，已经建造过此建筑。"
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "操作失败，攻击不存在。"
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "操作失败，技能已使用。"
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "操作失败，技能已在准备中。"
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "操作失败，建造已暂停。"
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "操作失败，储备技能不可用。"
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "操作失败，建造未暂停。"
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "操作失败，服务器断线。"
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "操作失败，位置已被占用。"
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "操作失败，防御已经被关闭。"
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "操作失败，防御尚未关闭。"
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "操作失败，训练未完成。"
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "操作失败，储备已满。"
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "操作失败，当日已有规划的防御。"
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "收藏的军团数量达到显示。"
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "操作失败，达到最大技能。"
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "操作失败，建筑驻军已满。"
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "操作失败，突击达到限制。"
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "操作失败，输送暂时不可用。"
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "操作失败，输送达到限制。"
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "操作失败，玩家未准备。"
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "操作失败，不能破坏指挥中心。"
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "操作失败，无效的军团。"
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "操作失败，服务器错误。"
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "操作失败，不能在这个区域建造。"
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "你被添加到%(buildingName)s."
+
+msgid "fortification/fortBattleFinished"
+msgstr "攻城战由于服务器技术问题被强制终止。"
+
+msgid "fortification/modernizationBuilding"
+msgstr "升级成功。建筑%(buildingName)s 等级提升到 %(buildingLevel)s。"
+
+msgid "fortification/notification/turnedOff"
+msgstr "要塞暂时不可用。请稍后重试。"
+
+msgid "fortification/notification/turnedOn"
+msgstr "要塞：战斗模式现在重新开放。"
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "激活技能"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "建造建筑"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "收藏军团"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "激活技能"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "添加玩家到驻军"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "重新开启防御"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "调整防御时间"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "调整停战期"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "更改服务器"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "更改设置"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "调整中立时间"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "创建要塞"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "创建分队"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "移除建筑"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "移除要塞"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "预定攻击"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "移除收藏军团"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "查看军团信息"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "查看军团详情"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "获得分队详情"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "关闭防御"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "输送"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "建筑升级"
+
+msgid "fortification/transport"
+msgstr "输送完成。%(res)s 资源已从建筑 %(fromBuilding)s 输送至 %(toBuilding)s。"
+
+msgid "fortification/vacationSet"
+msgstr "要塞调整中立时间为 %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "操作失败。"
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "训练车组乘员错误,全局经验不足。"
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "训练车组乘员出错，该乘员不存在。"
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "训练乘员错误。请稍后重试。"
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "训练乘员错误。请稍后重试。"
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "无法使用全局经验训练乘员。\n请稍后重试。"
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "已训练乘员。\n已花费全局经验：%(money)s。"
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "为了防止儿童和青少年对游戏上瘾，加入战斗将受到禁止。您将于%(blockTime)s断开服务器连接。"
+
+msgid "gameSessionControl/korea/note"
+msgstr "过度游戏会对您的日常生活造成影响。"
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "游戏剩余时间: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "游戏受限，因此您不能进入新战斗。您将在%s断开服务器连接。"
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "游戏持续时间： %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "至午夜剩余时间: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "您的游戏时间已结束。您不能进入新战斗。您将于%(kickTime)s断开服务器连接。"
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "您账号的游戏时间限制已移除"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "家长控制设置已更改。"
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "您将于%(timeLimit)s登出服务器。"
+
+msgid "graficsOptionsFail"
+msgstr "显卡不兼容。未能应用以下图形设置： %s。"
+
+msgid "graficsPresetFail"
+msgstr "显卡不兼容。未能应用选定的图形质量。"
+
+msgid "igr/customization/begin"
+msgstr "免费迷彩、铭刻和标志仅在 %(igrIcon)s 可用。"
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s 已过期。免费迷彩、标志和铭刻将从您的战车上移除。"
+
+msgid "info/noAvailable"
+msgstr "详细信息不可用。"
+
+msgid "install_component"
+msgstr "%s“%s”已安装在战车上。"
+
+msgid "install_vehicle_broken"
+msgstr "战车已损坏，无法安装模块%s“%s”。请修复战车后重试。"
+
+msgid "install_vehicle_locked"
+msgstr "战车已锁定，无法安装模块%s“%s”。"
+
+msgid "inventory/item/already_exists"
+msgstr "模块%(typeString)s“%(userString)s”已在仓库中。"
+
+msgid "inventory/item/equip_in_processing"
+msgstr "安装装备的申请已提交,正在等待服务器回应."
+
+msgid "inventory/item/not_found"
+msgstr "模块%(typeString)s“%(userString)s”未在仓库中找到。"
+
+msgid "inventory/vehicle/already_exists"
+msgstr "战车%(userString)s已在仓库中。"
+
+msgid "inventory/vehicle/not_found"
+msgstr "战车%(userString)s在仓库中未找到。"
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "给佣兵%(name)s 的邀请不能发送。"
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "给玩家%(name)s 的邀请不能发送:错误的军团。"
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "维护“%(vehName)s”失败。无法补给消耗品。请稍后重试。"
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "维护“%(vehName)s”失败。无法补给消耗品。请稍后重试。"
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "维护“%(vehName)s”失败。无法补给消耗品。请稍后重试。"
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "维护“%(vehName)s”失败。无法补给炮弹。请稍后重试。"
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "维护“%(vehName)s”失败。无法补给炮弹，炮弹数量已达到上限。"
+
+msgid "layout_apply/Component is not in shop"
+msgstr "维护“%(vehName)s”失败。无法补给消耗品。请稍后重试。"
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "维护“%(vehName)s”失败。没有足够的银币购买消耗品。请稍后重试。"
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "维护“%(vehName)s”失败。没有足够的点券购买消耗品。"
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "维护“%(vehName)s”失败。没有足够的金币购买消耗品。请稍后重试。"
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "维护“%(vehName)s”失败。无法补给消耗品。请稍后重试。"
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "维护“%(vehName)s”失败。错误的战车。"
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "维护“%(vehName)s”失败。没有足够的银币购买炮弹。"
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "维护“%(vehName)s”失败。没有足够的金币购买炮弹。"
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "维护“%(vehName)s”失败。战车被锁定。"
+
+msgid "layout_apply/error"
+msgstr "维护“%(vehName)s”失败。请稍后重试。"
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "维护“%(vehName)s”失败。错误的战车。"
+
+msgid "layout_apply/success_money_spent"
+msgstr "弹药总花费 %(money)s。"
+
+msgid "layout_apply/vehicle_locked"
+msgstr "维护“%(vehName)s”失败。战车被锁定。"
+
+msgid "layout_apply/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "limitedUI/switchOff"
+msgstr "“隐藏的界面元素的逐步显示”暂时关闭。"
+
+msgid "limitedUI/switchOn"
+msgstr "“隐藏的界面元素的逐步显示”再次开启。可在设置中关闭。"
+
+msgid "locked_vehicle_error"
+msgstr "无法对预先配置的战车进行此操作。"
+
+msgid "login_to_other_game_unknown"
+msgstr "当前游戏中断。您的Wargaming.net&nbsp;ID被用于登录另外一个游戏"
+
+msgid "login_to_other_game_web"
+msgstr "当前游戏进程中断。您通过游戏门户网站断开与服务器的连接。"
+
+msgid "login_to_other_game_wot"
+msgstr "当前游戏中断。您的Wargaming.net&nbsp;ID被用于登录《坦克世界》"
+
+msgid "login_to_other_game_wotb"
+msgstr "当前游戏中断。您的Wargaming.net&nbsp;ID被用于登录World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "当前游戏中断。您的Wargaming.net&nbsp;ID被用于登录World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "当前游戏中断。您的Wargaming.net&nbsp;ID被用于登录World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "当前游戏中断。您的Wargaming.net&nbsp;ID被用于登录《战舰世界》"
+
+msgid "lootboxes/open/server_error"
+msgstr "获得礼物时出错：服务器错误。"
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "获得礼物时出错。请等待上个操作完成。"
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "操作暂时无法使用。请稍后再试。"
+
+msgid "mapbox/notification/primeTime"
+msgstr "侦察任务在停战期结束前不可用。"
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "停战期"
+
+msgid "maps_black_list/select/server_error"
+msgstr "服务器错误"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "操作失败，请等待当前操作完成。"
+
+msgid "maps_black_list/select/success"
+msgstr "%(mapName)s已随机战中屏蔽。您可以在%(time)s后变更选择。"
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "%(mapName)s地图已从随机战中屏蔽。您可以在%(time)s小时后变更选择，也可以通过激活《坦克世界》高级账号或订阅坦克世界Plus额外解锁一个屏蔽槽位。"
+
+msgid "maps_black_list/select/success/premium"
+msgstr "%(mapName)s地图已从随机战中屏蔽。您可以在%(time)s小时后变更选择，也可以通过订阅坦克世界Plus额外解锁一个屏蔽槽位。"
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "%(mapName)s地图已从随机战中屏蔽。您可以在%(time)s小时后变更选择，也可以通过激活《坦克世界》高级账号额外解锁一个屏蔽槽位。"
+
+msgid "maps_black_list/switch_off/body"
+msgstr "由于技术原因此功能暂时不可用。\n我们对给您造成的不便深表歉意。"
+
+msgid "maps_black_list/switch_off/title"
+msgstr "屏蔽地图功能暂时不可用"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "技术问题已修复。我们对给您造成的不便深表歉意。"
+
+msgid "maps_black_list/switch_on/title"
+msgstr "屏蔽地图功能重新开放"
+
+msgid "maps_training/switch/title"
+msgstr "地图勘查"
+
+msgid "maps_training/switch_off/body"
+msgstr "模式已关闭。"
+
+msgid "maps_training/switch_on/body"
+msgstr "模式已开启。"
+
+msgid "memberRosterChangedMain"
+msgstr "%s 把 %s 转移到作战部队中。"
+
+msgid "memberRosterChangedSecond"
+msgstr "%s 把 %s 转移到预备部队中。"
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "内存不足，请重启游戏。"
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "内存不足，纹理质量下降至低级。"
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "内存不足，纹理质量下降至中级。"
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "内存不足，图形质量已改变，请重启游戏。"
+
+msgid "missingEvents/button"
+msgstr "打开"
+
+msgid "missingEvents/header"
+msgstr "活动"
+
+msgid "missingEvents/text"
+msgstr "您错过的重要活动： "
+
+msgid "module_apply/error_is_current"
+msgstr "模块%(kind)s“%(name)s”已安装。"
+
+msgid "module_apply/error_need_gun"
+msgstr "不能在使用此种火炮的战车上安装%(kind)s“%(name)s”。"
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s“%(name)s”不适用于当前炮塔。请更换炮塔。"
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s“%(name)s”未安装。仓库中没有适用的火炮。"
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s“%(name)s”不适用于当前炮塔。请更换炮塔。"
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\"不适用于此战车。"
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "模块%(kind)s“%(name)s”与消耗品“%s”不兼容。"
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s“%(name)s”的类型错误。"
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s“%(name)s”的国家错误。"
+
+msgid "module_apply/incompatibleEqs"
+msgstr "消耗品“%(items)s”与模块不兼容已放回至仓库。"
+
+msgid "module_apply/invalid_vehicle"
+msgstr "错误的战车。不能安装模块%(kind)s“%(name)s”。"
+
+msgid "module_apply/server_error"
+msgstr "安装模块%(kind)s“%(name)s”时发生服务器错误。请稍后重试。"
+
+msgid "module_apply/success"
+msgstr "%(kind)s“%(name)s”已安装在战车上了。"
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s“%(name)s”已安装在携带 “%(gun)s”的战车上了。"
+
+msgid "module_apply/vehicle_locked"
+msgstr "战车被锁定，无法安装模块%(kind)s“%(name)s”。"
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "无法安装模块%(kind)s“%(name)s”：战车受损。请修理后重试。"
+
+msgid "module_buy/error_is_current"
+msgstr "模块%(kind)s“%(name)s”已安装。"
+
+msgid "module_buy/error_need_gun"
+msgstr "无法在使用当前火炮的战车上安装%(kind)s“%(name)s”。"
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s“%(name)s”不适用于当前炮塔。请更换炮塔。"
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s“%(name)s”未安装。仓库中没有适用的火炮。"
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s“%(name)s”不适用于当前炮塔。请更换炮塔。"
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s“%(name)s”不适用于此战车。"
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "模块%(kind)s“%(name)s”与消耗品“%s”不兼容。"
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s“%(name)s”的类型错误。"
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s“%(name)s”的国家错误。"
+
+msgid "module_buy/invalid_module"
+msgstr "无法购买%(kind)s“%(name)s”。错误的模块。"
+
+msgid "module_buy/invalid_vehicle"
+msgstr "战车错误，无法购买和安装%(kind)s“%(name)s”。"
+
+msgid "module_buy/not_enough_credits"
+msgstr "无法购买 %(kind)s“%(name)s”。银币不足。"
+
+msgid "module_buy/not_enough_gold"
+msgstr "无法购买 %(kind)s“%(name)s”。金币不足。"
+
+msgid "module_buy/server_error"
+msgstr "无法购买%(kind)s“%(name)s”。请稍后重试。"
+
+msgid "module_buy/server_error_centerDown"
+msgstr "无法购买%(kind)s“%(name)s”。服务器暂时不可用。"
+
+msgid "module_buy/success"
+msgstr "模块%(kind)s“%(name)s”已成功购买（%(count)s个）。花费%(money)s。"
+
+msgid "module_buy/vehicle_locked"
+msgstr "战车已锁定，无法购买和安装%(kind)s“%(name)s”。"
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "无法购买和安装%(kind)s“%(name)s”。请修复战车后重试。"
+
+msgid "module_buy/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "module_sell/invalid_module"
+msgstr "无法出售%(kind)s“%(name)s”。错误的模块。"
+
+msgid "module_sell/server_error"
+msgstr "无法出售 %(kind)s“%(name)s”。请稍后重试。"
+
+msgid "module_sell/success"
+msgstr "模块%(kind)s“%(name)s”(%(count)s个)。获得%(money)s。"
+
+msgid "multipleSelling/success"
+msgstr "获得%(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "切换配置发生错误"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "切换配置发生错误"
+
+msgid "nation_change/error"
+msgstr "切换配置发生错误"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s：国家配置已切换"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "由于技术原因，每日任务已更新。任务进度已保存。"
+
+msgid "notrecruit_window/success"
+msgstr "已征募乘员。\n%(colorTagOpen)s%(rank)s %(fullName)s\n（%(role)s，%(vehicleName)s）%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "获得礼物时出错：请等待上个操作完成。"
+
+msgid "offers/server_error/DISABLED"
+msgstr "操作暂时无法使用。请稍后再试。"
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "获得礼物时出错：服务器错误"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "获得礼物时出错：部分奖励被延迟——请稍后再尝试领取。"
+
+msgid "offers/switch_off/body"
+msgstr "家园补给服务当前不可用。"
+
+msgid "offers/unavailable_many"
+msgstr "不可用的活动：%(count)s项。"
+
+msgid "offers/unavailable_one"
+msgstr "活动不可用。"
+
+msgid "optionalDevices_apply/error"
+msgstr "装备配置出错。请稍后再试。"
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "装备配置出错。完成购买所需资金不足。"
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "操作不可用。您的金币在WG钱包恢复后可用。"
+
+msgid "optionalDevices_remove/error"
+msgstr "装备配置出错。请稍后再试。"
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "您的账号无法向不在联系人列表中的玩家发送私信。"
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "您的账号无法使用私信功能。"
+
+msgid "parentControl/linkText"
+msgstr "指定日期"
+
+msgid "parentControl/mainText"
+msgstr "请指定您的出生日期。"
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "向不在联系人列表中的玩家发送私信的功能已被家长控制禁止。"
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "私信功能已被家长控制禁止。"
+
+msgid "parentControl/title"
+msgstr "年龄确认"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "迁移不可用，不能定义服务器。"
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "已获得奖励："
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "前往行动"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "已完成任务"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "切换战车以继续完成任务。"
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "行动：%(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "已完成：%(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "“%(campaignName)s”战役已完美完成！"
+
+msgid "personalMission/operationComplete/title"
+msgstr "%(operationName)s行动已完成！"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "%(operationName)s行动已完美完成！"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "战役由于维护暂时不可用。"
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "战役已再次可用。我们对给您造成的不便深表歉意。"
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "由于维护，“%(campaignName)s”战役暂时不可用。"
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "“%(campaignName)s”战役已再次可用。我们对给您造成的不便深表歉意。"
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "由于维护，%(operationName)s行动中的“%(missionName)s”任务暂时不可用。"
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "%(operationName)s行动中的“%(missionName)s”任务已再次可用。我们对造成的不便深表歉意。"
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "“%(campaignName)s”战役中的%(operationName)s行动因维护中而暂时不可用。"
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "“%(campaignName)s”战役中的%(operationName)s行动已再次可用。我们对造成的不便深表歉意。"
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "切换战役时发生错误。请稍后再试。"
+
+msgid "personalMissions/badge"
+msgstr "已获得徽章%(name)s。"
+
+msgid "personalMissions/camouflageGiven"
+msgstr "已获得%(vehicleName)s的独特迷彩。"
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "%(vehicleName)s的独特迷彩可用于以下国家的所有战车：%(nation)s。"
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "所有行动进度已保存。您可随时继续战役。"
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "“%(campaignName1)s”与“%(campaignName2)s”战役已暂停"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "暂停的行动与相应任务已继续。"
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "“%(campaignName1)s”与“%(campaignName2)s”战役已继续"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "所有行动进度已保存。您可随时继续战役。"
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "“%(campaignName)s”战役已暂停"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "暂停的行动已继续。"
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "“%(campaignName)s”战役已继续"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "“%(detailName)s”已成功安装。"
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "行动：%(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "无法重置任务。请稍后再试。"
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "操作失败。任务暂时关闭。"
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "当前无法重置该任务。请稍后再试。"
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "当前无法重置该任务。需要等到这种类型的战车不在战斗状态。"
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "当前无法重置该任务。需要等到这种类型的战车不在战斗状态。"
+
+msgid "personalMissions/discard/success"
+msgstr "%(quest)s任务已成功重置。"
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "已获得命令:%(count)s。"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "退回命令： %(count)s枚。\n它们可以再次使用。"
+
+msgid "personalMissions/operationActivation/body"
+msgstr "每个系列的首个任务已激活。"
+
+msgid "personalMissions/operationActivation/title"
+msgstr "%(operationName)s行动已激活！"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "奖励已获得：\n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "%(name)s行动已完成！"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "所有任务进度已保存。您可随时继续行动。"
+
+msgid "personalMissions/operationPaused/title"
+msgstr "%(operationName)s行动已暂停"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "暂停的任务已继续。"
+
+msgid "personalMissions/operationResumed/title"
+msgstr "%(operationName)s行动已继续"
+
+msgid "personalMissions/pause/server_error"
+msgstr "任务未被暂停。请稍后再试。"
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "操作失败。任务暂时关闭。"
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "当前无法暂停该任务。请稍后再试。"
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "当前无法暂停该任务。需要等到这种类型的战车不在战斗状态。"
+
+msgid "personalMissions/pause/success_pause"
+msgstr "%(quest)s任务已成功暂停。"
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "%(quest)s的任务进度已成功恢复。"
+
+msgid "personalMissions/pawn/server_error"
+msgstr "错误。现在不能交付命令。"
+
+msgid "personalMissions/pawn/success"
+msgstr "任务%(questName)s交付的命令: %(count)s。"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "获得奖励时发生错误。请稍后再试。"
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "“%(detail_name)s”已成功安装。"
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "无法领取奖励。请稍后重试。"
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "操作失败。任务暂时关闭。"
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "无法领取奖励。奖励不可用。"
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "无法领取奖励。奖励不可用。"
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "无法领取奖励。数据出错。"
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "无法领取奖励。请稍后重试。"
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "操作失败。任务暂时关闭。"
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "无法领取奖励。奖励不可用。"
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "无法领取奖励。奖励不可用。"
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "无法领取奖励。数据出错。"
+
+msgid "personalMissions/select/server_error"
+msgstr "未选择任务：%(questNames)s。请稍后重试。"
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "操作失败。任务暂时关闭。"
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "未选择任务：%(questNames)s。请稍后重试。"
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "注意！要变更任务，请等到所有战车从当前任务中返回车库。"
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "未选择任务：%(questNames)s。请完成前置行动。"
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "未选择任务：%(questNames)s。车位不足。"
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "未选择任务：%(questNames)s。请领取奖励。"
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "未选择任务：%(questNames)s。任务不可用。"
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "未选择任务：%(questNames)s。任务已完成。"
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "尚未选择任务： %(questNames)s。"
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "尚未选择任务: %(questNames)s 。已选择此分支中的任务。"
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "尚未选择任务： %(questNames)s。数据不正确。"
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "尚未选择任务： %(questNames)s。数据不正确。"
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "目前无法选择任务。请等到战车组脱离战斗。"
+
+msgid "personalMissions/select/success"
+msgstr "任务选择成功。当前任务：%(questNames)s。"
+
+msgid "personalMissions/tankmenGain"
+msgstr "已增加：女性乘员"
+
+msgid "personalMissions30/select/server_error"
+msgstr "激活行动时发生错误。请稍后再试。"
+
+msgid "piggyBank/piggyBankFull"
+msgstr "银币储备已满，但距离开启还有%(timeValue)s"
+
+msgid "piggybank/switch_off/body"
+msgstr "由于技术原因此功能暂时不可用。\n我们对给您造成的不便深表歉意。"
+
+msgid "piggybank/switch_off/title"
+msgstr "银币储备暂时不可用"
+
+msgid "piggybank/switch_on/body"
+msgstr "技术问题已修复。我们对给您造成的不便深表歉意。"
+
+msgid "piggybank/switch_on/title"
+msgstr "银币储备已再次可用"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "由于技术原因此功能暂时不可用。\n我们对给您造成的不便深表歉意。"
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "玩家订阅已不再可用！"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "技术问题已修复。我们对给您造成的不便深表歉意。"
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "玩家订阅现已可用"
+
+msgid "post_progression/server_error"
+msgstr "已获得乘员\n完训进度的奖励"
+
+msgid "post_progression/success"
+msgstr "日期：%(at)s\n已添加至仓库：%(book_name)s（x%(amount)s）。\n完训进度经验已兑换。"
+
+msgid "post_progression/success/title"
+msgstr "收据"
+
+msgid "prebattle/hasLockedState"
+msgstr "不能接受邀请，您已经在战斗队列中。退出备战大厅或结束战斗后重试。"
+
+msgid "prebattle/invites/sendInvite"
+msgstr "发送邀请"
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "已向%(name)s发送邀请。"
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "地图创建失败。"
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "创建失败。"
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "错误。 BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "错误。 CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "指挥官已离开团队。"
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "战队已被解散。"
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "模式暂不开放"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "玩家已被踢出。"
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "创建战斗失败。"
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "已超时。"
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "未知错误。"
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "战车创建失败。"
+
+msgid "prebattle/kick/type/squad"
+msgstr "您已被从战队中踢出。"
+
+msgid "prebattle/kick/type/unknown"
+msgstr "您已被从战队中踢出。"
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "您必须拥有至少3辆适用于此模式的战车。详情请参阅“关于天梯战”页面。"
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "自动搜索"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "更改语音聊天"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "更改部队"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "选择模式"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "子模式切换"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "选择模式"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "更改设置"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "编辑团队"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "改变观察模式"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "锁定空位"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "搜索"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "邀请至团队"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "确认准备"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "确认团队准备"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "选择战车"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "更改团队"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "搜索"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "团队战车数达到最低要求才能加入战斗: %(minCount)d。"
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "仅总等级在%(minTotalLevel)d 和 %(maxTotalLevel)d 的团队可以加入战斗。"
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "仅允许%(minLevel)d至%(maxLevel)d级的战车。"
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "战车不适用于此战斗。"
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "团队成员不能成为观察者。"
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "选择的战车适用于前线战模式。"
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "选择的战车只能用于乱斗模式。"
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "战车所携带的炮弹和消耗品不符合战场条件。"
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "战车等级不适用此战斗。此类型的最低等级：%s，此类型的最高等级：%s。"
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "战车车型与当前战场不符，需要： %s。"
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "所选战车装备与当前战场条件不符。"
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "战车等级不适用此战斗。最低等级：%s，最高等级：%s。"
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "该国家战车无法进入此战斗模式，允许的为:%s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "战车不匹配"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "所选战车携带炮弹与当前战场条件不符。"
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "战车不匹配"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "战车不适用与此战场"
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "所选战车还未准备好。"
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "无法操作，请先选择一辆战车。"
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "不能加入团队。"
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "战车不匹配"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "选择的战车将在战斗期间解锁。"
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "找不到合适的敌方团队，请重新组队。"
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "未能找到当前战队，考虑重新组建您的联队。"
+
+msgid "premium/buyingSuccess"
+msgstr "已购买高级账号%(period)d天，花费%(money)s"
+
+msgid "premium/continueSuccess"
+msgstr "已延期高级账号%(period)d天，花费%(money)s"
+
+msgid "premium/not_enough_gold"
+msgstr "金币不足于购买高级账号%(period)d天。"
+
+msgid "premium/post_battle_premium"
+msgstr "由于购买高级账号您将获得 %(xpDiff)d 经验以及%(creditDiff)d 银币。"
+
+msgid "premium/server_error"
+msgstr "购买高级账号%(period)d天失败，请稍后重试。"
+
+msgid "premium/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "操作失败，请稍后重试。"
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "操作失败，请等待当前操作完成。"
+
+msgid "premium_quests/switch_off/body"
+msgstr "由于技术原因此功能暂时不可用。\n我们对给您造成的不便深表歉意。"
+
+msgid "premium_quests/switch_off/title"
+msgstr "高级任务暂时不可用"
+
+msgid "premium_quests/switch_on/body"
+msgstr "技术问题已修复。我们对给您造成的不便深表歉意。"
+
+msgid "premium_quests/switch_on/title"
+msgstr "高级任务已重新开放"
+
+msgid "progressiveReward/error"
+msgstr "当前操作不可用，请稍后重试。"
+
+msgid "progressiveReward/switch_off"
+msgstr "功勋奖励：该功能暂时不可用。我们对给您造成的不便深表歉意。"
+
+msgid "progressiveReward/switch_on"
+msgstr "功勋奖励功能已重新可用。"
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "任务已过期，无法查看详情。"
+
+msgid "queue/isInQueue"
+msgstr "当前操作不可用，请稍后重试。"
+
+msgid "rally/leaveDisabled"
+msgstr "操作失败。\n你不能退出当前模式，你已经加入一个作战部队并已准备战斗。"
+
+msgid "ranked/notification/available"
+msgstr "停战期结束:排位战已重新开放。"
+
+msgid "ranked/notification/available/title"
+msgstr "排位战开放"
+
+msgid "ranked/notification/congratulations"
+msgstr "祝贺！"
+
+msgid "ranked/notification/notAvailable"
+msgstr "排位战不可用。请关注游戏官网的更新。"
+
+msgid "ranked/notification/notSet"
+msgstr "此模式在所选服务器未开放。"
+
+msgid "ranked/notification/notSet/title"
+msgstr "排位战不可用"
+
+msgid "ranked/notification/primeTime"
+msgstr "排位战在停战期结束前不可用。"
+
+msgid "ranked/notification/primeTime/title"
+msgstr "停战期"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "您在2020/2021年的排位赛季中取得了杰出的战绩，在顶级玩家中赢得了一席之地！"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "恭喜！"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "您在2020/2021年的排位赛季中取得了杰出的战绩，在顶级玩家中赢得了第%(playerPosition)s名！"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "恭喜！"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "获得徽章："
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "获得徽章："
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "已获得银币："
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "获得点券:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "已获得周年纪念币："
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "已获取金币:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "已增加可选择的改进型装备：%(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "获得风格："
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "获得风格："
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "已获得军衔代币：%(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Wargaming高级账号天数"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Wargaming高级账号天数（x%(daysCount)s）"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "《坦克世界》高级账号天数"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "《坦克世界》高级账号天数（x%(daysCount)s）"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "第%(number)s阶段结果"
+
+msgid "ranked/notifications/league"
+msgstr "联盟：%(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "黄金"
+
+msgid "ranked/notifications/league2"
+msgstr "白银"
+
+msgid "ranked/notifications/league3"
+msgstr "青铜"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "已获得黄金联盟军衔代币：%(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "最高军衔：%(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "排行榜名次：%(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "您已完成资格赛"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "已获得赛季军衔代币：%(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "排位战结果，第%(seasonNumber)s赛季"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "您获得了军衔%(rankName)s（%(divisionName)s）"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "已获得冲刺者标记。奖励品质提升。"
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "已获得冲刺者标记"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "无法征募新乘员："
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "无法征募乘员。该服务暂时不可用。"
+
+msgid "recruit_window/financial_success"
+msgstr "已为%(vehName)s征募乘员。已花费银币：%(credits)s。"
+
+msgid "recruit_window/financial_success_credits"
+msgstr "已为%(vehName)s征募乘员。\n已花费银币：%(price)s。"
+
+msgid "recruit_window/financial_success_gold"
+msgstr "已为%(vehName)s征募乘员。\n已花费金币：%(price)s。"
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "已经达到当日免费车组乘员招募数限制。"
+
+msgid "recruit_window/not_enough_credits"
+msgstr "征募乘员失败，银币不足。"
+
+msgid "recruit_window/not_enough_gold"
+msgstr "征募乘员失败，金币不足。"
+
+msgid "recruit_window/not_enough_space"
+msgstr "征募乘员错误，兵营里没有足够的空床位。请腾出床位或购买新床位。"
+
+msgid "recruit_window/server_error"
+msgstr "无法征募乘员。请稍后重试。"
+
+msgid "recruit_window/success"
+msgstr "已为%(vehName)s免费征募乘员。"
+
+msgid "recruit_window/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "无法转移乘员:坦克有独特永久乘员。坦克有独特永久乘员。"
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "替换车组乘员失败，错误的战车。"
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "无法将乘员调回兵营。兵营中没有足够的床位。"
+
+msgid "reequip_tankman/server_error"
+msgstr "不能替换车组乘员，请稍后重试。"
+
+msgid "reequip_tankman/success"
+msgstr "已替换乘员。"
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "替换车组乘员出错，战车被锁定。"
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "替换车组乘员出错，请修复您的战车。"
+
+msgid "remove_component"
+msgstr "%s“%s”已从战车上拆除。"
+
+msgid "remove_vehicle_broken"
+msgstr "无法移除%s“%s”：战车损坏。请修复战车后重试。"
+
+msgid "remove_vehicle_locked"
+msgstr "无法移除%s“%s”：战车被锁定。"
+
+msgid "repair/credits_error"
+msgstr "需要%s银币来修复‘%s’坦克。"
+
+msgid "repair/server_error"
+msgstr "修复“%s”错误。请稍后重试。"
+
+msgid "repair/success"
+msgstr "“%s”已修复。您消耗%s。"
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "无法更改乘员个人资料:坦克有独特永久乘员。"
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "更改个人信息失败，错误的战车。"
+
+msgid "replace_tankman/not_enough_money"
+msgstr "未能成功更改个人信息，银币不足。"
+
+msgid "replace_tankman/server_error"
+msgstr "未能成功更改个人信息，请稍后再试。"
+
+msgid "replace_tankman/success"
+msgstr "已成功替换外表。"
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "未能成功更改个人信息，战车正处于锁定状态。"
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "未能成更改证件信息，请先维修战车。"
+
+msgid "request/isInCoolDown"
+msgstr "操作 \"%(request)s\" 被冻结%(coolDown)s秒。"
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "无法重置特长。\n服务器不可用。请稍后重试。"
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "所有乘员的所有特长\n已免费重置。"
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "花费资源出错。请重试。"
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "退回资源时发生错误。请稍后重试。"
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "您有可找回的战车。进入商店把战车带回车库。"
+
+msgid "restore_tankman/DISABLED"
+msgstr "乘员找回功能暂时不可用。请稍后重试。"
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "无法找回乘员。"
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "找回乘员所需金币不足。"
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "无法找回乘员。操作的有效期已过。"
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "无法找回乘员。请稍后重试。"
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "无法找回乘员。恢复乘员功能暂时不可用。"
+
+msgid "restore_tankman/error"
+msgstr "无法再恢复%(tankman)s。"
+
+msgid "restore_tankman/financial_success"
+msgstr "已恢复乘员。\n已花费银币：%(money)s。"
+
+msgid "restore_tankman/not_enough_space"
+msgstr "无法找回乘员。兵营中的床位不足。"
+
+msgid "restore_tankman/server_error"
+msgstr "无法恢复这名乘员。请稍后重试。"
+
+msgid "restore_tankman/success"
+msgstr "已恢复乘员。"
+
+msgid "retraining_change_tankman_role/success"
+msgstr "已更改乘员专精。"
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "无法重训乘员:坦克有独特永久乘员。"
+
+msgid "retraining_crew/empty_list"
+msgstr "重训练乘员出错，未选择乘员。"
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "已花费银币：%(money)s。"
+
+msgid "retraining_crew/financial_success_free"
+msgstr "已为%(vehName)s免费重新训练乘员。"
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "已花费金币：%(money)s。"
+
+msgid "retraining_crew/invalid_operation"
+msgstr "重训练乘员出错，操作失败。"
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "乘员重训练失败，错误的战车。"
+
+msgid "retraining_crew/server_error"
+msgstr "无法重新训练乘员。请稍后重试。"
+
+msgid "retraining_crew/success"
+msgstr "已为%(vehName)s重新训练乘员。"
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "乘员重训练错误，战车被锁定。"
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "乘员重训练错误，请修理战车。"
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "无法重训乘员:坦克有独特永久乘员。"
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "已花费银币：%(money)s。"
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "已为%(vehName)s免费重新训练乘员。"
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "已花费金币：%(money)s。"
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "重新训练乘员出错，操作失败。"
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "乘员重训练失败，错误的战车"
+
+msgid "retraining_tankman/server_error"
+msgstr "无法重新训练乘员。\n请稍后重试。"
+
+msgid "retraining_tankman/success"
+msgstr "已为%(vehName)s重新训练乘员。"
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "再训练车组乘员失败，战车正处在锁定状态。"
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "再训练车组乘员失败，请先维修战车。"
+
+msgid "return_crew/FORBIDDEN"
+msgstr "无法遣还乘员:坦克有独特永久乘员。"
+
+msgid "return_crew/invalid_vehicle"
+msgstr "调回乘员错误，战车不正确。"
+
+msgid "return_crew/not_enough_space"
+msgstr "不能将乘员派回兵营。兵营中没有足够的床位。"
+
+msgid "return_crew/return_unavailable"
+msgstr "部分乘员无法调回战车。"
+
+msgid "return_crew/server_error"
+msgstr "不能退回乘员，请稍后重试。"
+
+msgid "return_crew/success"
+msgstr "乘员已成功转移。"
+
+msgid "return_crew/vehicle_locked"
+msgstr "调回乘员错误，战车被锁定。"
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "调回乘员错误，请修理您的战车。"
+
+msgid "rotation/lock"
+msgstr "下列小组已锁定关闭战斗： %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "下列小组已解锁现在已开放战斗: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "战车被锁定不能参加战斗。"
+
+msgid "royale/notification/congratulations"
+msgstr "恭喜！"
+
+msgid "royale/notification/primeTime"
+msgstr "钢铁猎手战斗在停战期间不可用。请在日历中查看日程表。"
+
+msgid "royale/notification/primeTime/title"
+msgstr "停战期"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "达到等级：%(level)s"
+
+msgid "rts/notification/available"
+msgstr "此服务器已重新开放战略之道活动的战斗。"
+
+msgid "rts/notification/available/title"
+msgstr "战斗开放"
+
+msgid "rts/notification/notAvailable"
+msgstr "战略之道活动不可用。请关注游戏门户网站上的新闻。"
+
+msgid "rts/notification/notSet"
+msgstr "战略之道的战斗在所选服务器上不可用。"
+
+msgid "rts/notification/notSet/title"
+msgstr "战斗不可用"
+
+msgid "rts/notification/primeTime"
+msgstr "处于停战期。战略之道的战斗暂时不可用。"
+
+msgid "rts/notification/primeTime/title"
+msgstr "停战期"
+
+msgid "securityMessage/bad_email"
+msgstr "您填写的email邮箱位于可疑的服务器上。为了您的账号安全，请尽快更换您的email。 %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "更改安全设置"
+
+msgid "securityMessage/no_phone"
+msgstr "为了账号安全，请绑定一个电话至您的账号。%(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "重置密码请先在账户管理中设置安全问题。 %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "您已30天未更改密码。为了您的账号安全请尽快更改密码。 %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "您创建账号时使用的密码安全性较低。请更改密码. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "无法出售“%s”：战车损坏。请修复战车后重试。"
+
+msgid "sell_vehicle_locked"
+msgstr "无法出售“%s”：战车被锁定。"
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "应得的奖励活动已恢复。我们对给您造成的不便深表歉意。"
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "由于维护，应得的奖励活动暂时中止。"
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "获得奖励时出错。操作暂时不可用。"
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "获得奖励时出错。请联系玩家支持。"
+
+msgid "seniority_awards/selection_timeout"
+msgstr "您的服役年限奖励延迟了。请稍后重试。"
+
+msgid "serverInstallError"
+msgstr "安装模块%s“%s”时服务器出错。请稍后重试。"
+
+msgid "serverRemoveError"
+msgstr "拆卸模块%s“%s”出错。请稍后重试。"
+
+msgid "server_shut_down"
+msgstr "游戏服务器重启。"
+
+msgid "session_tracker_kick"
+msgstr "您的Wargaming.net&nbsp;ID被用于登录另外一个游戏。当前游戏中断。"
+
+msgid "shell_buy/invalid_module"
+msgstr "不能购买 %(name)s，错误的炮弹类型。"
+
+msgid "shell_buy/not_enough_credits"
+msgstr "购买 %(name)s失败，银币不足。"
+
+msgid "shell_buy/not_enough_gold"
+msgstr "购买 %(name)s失败，金币不足。"
+
+msgid "shell_buy/server_error"
+msgstr "购买 %(name)s失败，请稍后重试。"
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "购买炮弹 %(name)s失败，服务器暂时不可用。"
+
+msgid "shell_buy/success"
+msgstr "成功购买炮弹 %(name)s  (%(count)s 发)，花费 %(money)s。"
+
+msgid "shell_buy/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "shell_sell/invalid_module"
+msgstr "无法出售“%(name)s”。错误的炮弹。"
+
+msgid "shell_sell/server_error"
+msgstr "无法出售“%(name)s”'。请稍后重试。"
+
+msgid "shell_sell/success"
+msgstr "炮弹'“%(name)s”(%(count)s个)。获得%(money)s。"
+
+msgid "shells_apply/error"
+msgstr "弹药配置出错。请稍后再试。"
+
+msgid "shells_apply/not_enough_money"
+msgstr "弹药配置出错。完成购买所需资金不足。"
+
+msgid "shells_apply/success_money_spent"
+msgstr "弹药总花费 %(money)s。"
+
+msgid "shells_apply/wallet_not_available"
+msgstr "操作不可用。您的金币在WG钱包恢复后可用。"
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "购买模块中请稍等。"
+
+msgid "shop/item/buy_server_error"
+msgstr "无法购买%(typeString)s“%(userString)s”。请稍后重试。"
+
+msgid "shop/item/buy_success"
+msgstr "模块%(typeString)s“%(userString)s”已成功购买（%(count)d个）。花费%(price)s。"
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "操作目前不可用。"
+
+msgid "shop/item/not_enough_money"
+msgstr "想要购买%(typeString)s“%(userString)s”您还需要%(price)s。"
+
+msgid "shop/item/not_found"
+msgstr "在商店中未找到模块%(typeString)s“%(userString)s”。请稍后重试。"
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "操作目前不可用。"
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "要购买%(userString)s，您还需要%(price)s。"
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "租赁%(userString)s，需要额外%(price)s。"
+
+msgid "shop/vehicle/not_found"
+msgstr "战车%(userString)s在商店中未找到。请稍后重试。"
+
+msgid "shop_resync"
+msgstr "由于服务器变动于 %(date)s 的 %(time)s 进行了界面更新。"
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>“{oldName}”</font>（{amount}）已转换为<font color='#E9E2BF'>“{newName}”</font>（{amount}）"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "日期：%(date)s\n已转换指令：%(items)s。"
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "收据"
+
+msgid "squad/createError"
+msgstr "只有拥有高级账号的用户可以创建小队。"
+
+msgid "squad/kickedFromQueue"
+msgstr "未能找到当前战队，考虑重新组建您的联队。"
+
+msgid "squad/leaveDisabled"
+msgstr "操作失败。\n你不能了离开小队，你已做好小队战斗准备。"
+
+msgid "squad/memberJoined"
+msgstr "%s已加入作战部队。"
+
+msgid "squad/memberLeave"
+msgstr "%s已退出作战部队。"
+
+msgid "squad/memberNotReady"
+msgstr "%s未准备。"
+
+msgid "squad/memberOffline"
+msgstr "与%s的连接中断。"
+
+msgid "squad/memberReady"
+msgstr "%s已准备。"
+
+msgid "squad/notSetReadyStatus"
+msgstr "不能小队加入战斗。"
+
+msgid "squad/notValidDeleted"
+msgstr "由于等级与指挥官战车不匹配，%(vehName)s已从小队中被除名。请选择等级相同的战车。"
+
+msgid "squad/notValidDeletedFilter"
+msgstr "由于指挥官更改了要求%(vehName)s已被移出小队。"
+
+msgid "squad/notValidEnqueueData"
+msgstr "由于指挥官更改了要求或您的战车不符合要求，您已被移出小队。请选择另一辆战车。"
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "由于小队中此类型战车的数量已达到上限，%(vehName)s已被移出。请选择其他战车。"
+
+msgid "squad_bonus/switch_off/body"
+msgstr "由于技术原因此功能暂时不可用。\n我们对给您造成的不便深表歉意。"
+
+msgid "squad_bonus/switch_off/title"
+msgstr "小队加成暂时不可用"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "技术问题已修复。我们对给您造成的不便深表歉意。"
+
+msgid "squad_bonus/switch_on/title"
+msgstr "小队加成已重新开放"
+
+msgid "ssr/unavailable"
+msgstr "无法下载回放"
+
+msgid "steam_login_not_allowed"
+msgstr "您不能使用此应用进行游戏：您的Steam账号已与一个Wargaming.net账号关联。在玩家支持中了解更多。"
+
+msgid "tankman/tankmanToRemove"
+msgstr "已遣散乘员。"
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s天"
+
+msgid "techtree/action/header"
+msgstr "特惠“%(actionName)s”"
+
+msgid "techtree/action/text"
+msgstr "距离特惠结束还剩 "
+
+msgid "techtree/action/text/closest"
+msgstr "活动结束于： "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "原因：这辆战车仅对Prime Gaming会员开放。请检查您的Prime Gaming订阅状态。"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "战车不可用"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "日期：%(datetime)s\n已添加战车：%(vehicles)s\n已添加：1个车位，%(crew)s3D 风格。"
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "日期：%(datetime)s\n已添加战车：%(vehicles)s\n已添加：1个车位，%(crew)s一款独家迷彩。"
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr "100%%乘员%(skills)s，"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "战车已添加"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "日期： %(datetime)s\n已移除：%(vehicles)s，1个车位。"
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "原因：这辆战车仅对Prime Gaming会员开放。请检查您的Prime Gaming订阅状态。"
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "已删除战车"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "战车已再次可用"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "已增加坦克T-44-100 Igrovoy。已移除：%(tanks)s。"
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "现在可以使用T-44-100 Igrovoy完成任务了。"
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " 和 "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s银币"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "%(tanks)s的所有乘员已为T-44-100 Igrovoy重新训练。"
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "已拆除装备并发送至仓库。\n自定义元素已发送至仓库。\n炮弹和指令已发送至仓库。"
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "%(mergedTank)s的武装、自定义元素、战斗经验、统计和奖项已转移至T-44-100 Igrovoy。"
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s点全局经验"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr "，"
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "已补偿战地升级的经验：已增加%(compensation)s。"
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "已补偿购买的渐变贴花：已增加%(value)s金币。"
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "%(mergedTank)s的游戏统计和奖项已转移至T-44-100 Igrovoy。"
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "已汇总战斗经验并转移至T-44-100 Igrovoy。"
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "祝您在战场上好运！"
+
+msgid "telecomMergeResults/title"
+msgstr "“Igrovoy”套餐的改动"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "战车选择和租用被暂停。"
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "战车租用当前不可用"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "战车租用已可用"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "恭喜！您获得了%(count)s个代币。"
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "转移金币失败，接受方拒绝了交易。"
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "金币转移未成功。"
+
+msgid "tradingError/NO_WARES"
+msgstr "无法转移金币，没有足够的金币。"
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "你今天已经达到转移数量的上限，请明天再试。"
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "转移金币失败，请稍后再试。"
+
+msgid "training/error/AddPlayer"
+msgstr "训练房间出错。团队超出玩家人数上限。"
+
+msgid "training/error/doAction"
+msgstr "训练房间出错。请稍后重试。"
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "训练房间出错。天梯战团队人数已达到上限：%(numPlayers)s。"
+
+msgid "training/error/selectObserver"
+msgstr "训练房间错误。团队玩家人数上限:%(numPlayers)s。"
+
+msgid "training/error/swapTeams"
+msgstr "变更团队失败，系统数据异常，请稍后重试。"
+
+msgid "transferXP/server_error"
+msgstr "操作暂时不可用。请稍后重试。"
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "操作失败，您没有足够权限。"
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "操作失败，你不是军团成员。"
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "出现错误：无法恢复所选战车至战备状态。"
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "出现错误：修理用零件不足，无法恢复战车至战备状态。"
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "出现错误：所选战车的恢复价格已改变。"
+
+msgid "unit/error/wgshEvent/common"
+msgstr "出现错误：无法完成操作。"
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "加入小队时出错：您的账号已暂时被禁止加入此游戏模式。"
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "操作失败，账号已恢复。"
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "玩家不能加入团队。"
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "操作失败，槽位已经被占用。"
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "玩家已经加入了一个团队。"
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "不能移交指挥官权限"
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "操作失败，无效的账号类型。"
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "操作失败，无效的军团。"
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "不能加入团队。"
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "战车等级综合超过要求限制。"
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "错做不可用，无效的分队成员列表。"
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "车位数量不正确。"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "操作不可用。小队中有错误的战车类型。"
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "加入团队错误，错误的战车等级。"
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "指定时间内禁止更改部队。"
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "未找到团队。"
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "不能发送邀请。"
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "加入小队时出错：完成定位赛前无法组队游玩。"
+
+msgid "unit/errors/COOLDOWN"
+msgstr "操作暂时不可用。"
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "支队最新操作失败。"
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "战车未准备好或车库中无战车。"
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "不能在槽位中放置战车。"
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "操作失败，仍有分队成员在战斗中。"
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "没有权限进行此操作。"
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "账户被锁定。"
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "团队在队列或搜索结果中。"
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "不能加入团队。 访问被拒绝。"
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "团队不在队列中。"
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "团队不在搜索结果中。"
+
+msgid "unit/errors/NOT_READY"
+msgstr "团队未准备。"
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "加入小队出错：您没有适用于所选游戏模式的战车。"
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "不能添加这名玩家。"
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "操作失败，未找到玩家。"
+
+msgid "unit/errors/NO_UNIT"
+msgstr "团队未找到。"
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "团队不存在。"
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "操作失败，显示战车列表出错。"
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "操作失败，玩家已离线。"
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "您被指挥官加入了黑名单。"
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "操作失败。上一场战斗还未结束。"
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "不能屏蔽团队成员。"
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "操作失败，一个或多个玩家没有接受邀请。"
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "佣兵不能进行此操作。"
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "操作失败，槽位未锁定。"
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "操作失败，槽位已经被占用。"
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "这个槽位不可用。"
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "指定时间内禁止发起突击战。"
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "不能切换到其他游戏模式。小队成员超出限制。"
+
+msgid "unit/errors/TIMEOUT"
+msgstr "操作失败，已过期。"
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "操作失败，佣兵槽位被锁定。"
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "操作失败，佣兵已达到人数上限。"
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "不能创建或加入团队。"
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "不能创建团队。"
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "操作失败，分队已恢复。"
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "操作失败，战车不符合要求。"
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "操作失败，请先选择一辆战车。"
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "团队不存在。"
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "操作不可用。战车未准备或不符合要求。"
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "您已获得战斗储备的控制权限。"
+
+msgid "unit/notification/changeDivision"
+msgstr "指挥官%(name)s 已选择%(division)s 。"
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "无限制"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "精英"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "中等"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s 被任命为指挥官。"
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s 加入了分队。"
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s已加入小队并选择了%(tierRange)s级战车。"
+
+msgid "unit/notification/playerOffline"
+msgstr "与%(userName)s的连接已丢失。"
+
+msgid "unit/notification/playerOnline"
+msgstr "与%(userName)s的连接已恢复。"
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s 离开了分队。"
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "已发送过邀请。"
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "指挥官权限已移交给另一名玩家。"
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "指挥官权限和战斗储备操控权已移交给另一名玩家。"
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "战斗储备的控制权限已移交给其他玩家。"
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "你被移出分队：分队已解散。"
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "你被移出分队。军团发生变化。"
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "您的游戏时间已结束。您不能进入新战斗。您将在%(expiredTime)s后断开服务器连接。"
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "一名玩家剩余的游戏时间不足以完成战斗。小队已回到准备状态。"
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "暂停召集佣兵。"
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "操作已过期。"
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "加入团队出错。你已被团队屏蔽。"
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "你被自动屏蔽在志愿者列表外。"
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "您已被指挥官开除。"
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "你被移出分队：分队已解散。"
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "您成为了分队指挥官。"
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "您成为了分队指挥官。\n您获得了战斗储备的操控权。"
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "已为攻城战选择另一个桥头堡。"
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "已选择另一种战斗类型。"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "搜索暂时关闭：服务器当前小队数量过多。"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "由于服务器错误无法搜索玩家。请稍后重试。"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "搜索已取消：至少一名小队成员未拥有适合所选游戏模式的战车。"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "搜索超时。未找到符合要求的玩家。"
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "玩家正在加入，请稍等。"
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "已恢复至战备状态的战车：%(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "加入团队的准备无法确认。"
+
+msgid "unload/button"
+msgstr "前往兵营"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "无法发送乘员到兵营:坦克有独特永久乘员。"
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "乘员调回兵营失败，错误的战车。"
+
+msgid "unload_crew/server_error"
+msgstr "乘员调回兵营失败，请稍后再试。"
+
+msgid "unload_crew/success"
+msgstr "乘员已调回兵营。"
+
+msgid "unload_crew/vehicle_locked"
+msgstr "乘员调回兵营出错，战车被锁定。"
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "乘员调回兵营出错，请修复您的战车。"
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "无法发送乘员到兵营:坦克有独特永久乘员。"
+
+msgid "unload_tankman/button"
+msgstr "前往兵营"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "乘员调回兵营失败。错误的战车。"
+
+msgid "unload_tankman/not_enough_space"
+msgstr "无法将这名乘员调回兵营。兵营中没有足够的床位。"
+
+msgid "unload_tankman/server_error"
+msgstr "无法将乘员调回兵营。请稍后重试。"
+
+msgid "unload_tankman/success"
+msgstr "乘员已调回兵营。"
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "车组乘员调回军营出错，请修复你的战车。"
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "车组乘员调回军营出错，请修复你的战车。"
+
+msgid "unlocks/drawFailed"
+msgstr "设置错误。科技树被锁定。"
+
+msgid "unlocks/item/already_unlocked"
+msgstr "模块%(typeString)s“%(userString)s”已研发。"
+
+msgid "unlocks/item/in_processing"
+msgstr "研发申请已提交,正在等待服务器回应."
+
+msgid "unlocks/item/server_error"
+msgstr "研发模块%(typeString)s“%(userString)s”时发生服务器错误。请稍后重试。"
+
+msgid "unlocks/item/unlock_success"
+msgstr "模块%(typeString)s“%(userString)s”研发成功。消耗经验：%(vehXP)s。消耗全局经验：%(freeXP)s。"
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "战车 %(userString)s 已被研发."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "研发申请已提交,正在等待服务器回应."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "研发战车%(userString)s失败。系统数据异常，请稍后重试。"
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "战车 %(userString)s研发成功，花费个体经验: %(vehXP)s. 全局经验: %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "乘员训练错误，请稍后再试。"
+
+msgid "upgradeTankman/success"
+msgstr "训练成功完成。"
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "赏金装备升级由于技术原因暂时不可用。请稍后重试。"
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "赏金装备升级已重新开放。我们对造成的不便深表歉意。"
+
+msgid "vehicle/restore/finished"
+msgstr "%(vehicleName)s的找回不可用：操作时间已过期。"
+
+msgid "vehicle/restoreDuration/days"
+msgstr "在商店中找回这辆战车还需要%(time)s小时。"
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "在商店中找回这辆战车还需要%(time)s小时。"
+
+msgid "vehicleCompare/disabled"
+msgstr "操作暂时无法使用。请稍后再试。"
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "%(vehicle)s 预览功能需要下载完整客户端后才能开启。"
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "装备安装申请已提交，正在等待服务器回应。"
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "无法购买%(typeString)s“%(userString)s”。请稍后重试。"
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "模块%(typeString)s“%(userString)s”已成功购买（%(count)d个）。花费%(price)s。"
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "模块%(typeString)s“%(userString)s”已在仓库中。"
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "模块%(typeString)s“%(userString)s”已研发。"
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "想要购买%(typeString)s“%(userString)s”您还需要%(price)s。"
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "模块%(typeString)s“%(userString)s”在仓库中未找到。"
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "模块%(typeString)s“%(userString)s”在商店中未找到。请稍后重试。"
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "%(typeString)s“%(userString)s”已研发。消耗经验：%(unspentXP)s。消耗全局经验：%(freeXP)s。"
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "研发申请已提交，正在等待服务器回应。"
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "战车%(userString)s已在仓库中。"
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "战车 %(userString)s 已研发。"
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "要购买%(userString)s，您还需要%(price)s。"
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "战车%(userString)s在仓库中未找到。"
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "战车%(userString)s在仓库中未找到。请稍后重试。"
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "坦克 %(userString)s 已研发，花费个人经验： %(unspentXP)s。全局经验： %(freeXP)s。"
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "已解锁%(vehicle)s的精英奖励"
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "精英奖励"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "已成功购买%(vehicle)s的%(modification)s改装。"
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "已购买改装"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "已成功为%(vehicle)s的第二个槽位分配%(category)s类别。"
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "槽位类别分配"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "已花费银币：%(value)s。"
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "已取消%(vehicle)s的所有成对改装。"
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "已取消%(vehicle)s的%(modification)s改装。"
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "已取消改装"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "已取消%(vehicle)s的%(modifications)s改装。"
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr "，"
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "已花费战斗经验：%(value)s。"
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "已花费全局经验：%(value)s。"
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "改装树出错。请稍后再试。"
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "错误"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "已成功研发并购买%(vehicle)s的标准改装%(level)s级。"
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "已成功研发并购买%(vehicle)s的标准改装%(levels)s级。"
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr "、"
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "已研发改装"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "已成功为%(vehicle)s的第二个槽位分配%(category)s类别。"
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "槽位类别分配"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "%(vehicle)s的辅助武装现已可用。"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "辅助武装"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "为%(vehicle)s分配第二个槽位类别现已可用。"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "槽位类别开放"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "%(vehicle)s的核心武装现已可用。"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "核心武装"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "%(vehicle)s的改装树现已可用。"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "战地升级"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "战车改装树开放。您可以根据角色配置您的战车，使用各种改装改变属性。"
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "升级时出错。请稍后重试。"
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "错误"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "%(vehicle)s的“%(perk)s”节点已完全研发。"
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "节点已研发"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "%(vehicle)s的“%(perk)s”节点已完全研发。"
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "节点已研发"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "操作暂时不可用。请稍后重试。"
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "无法购买%(vehName)s。错误的战车。"
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "无法购买%(vehName)s。银币不足。"
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "无法购买%(vehName)s。金币不足。"
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "操作不可用。尚未研发此国家的战车。"
+
+msgid "vehicle_buy/server_error"
+msgstr "无法购买%(vehName)s，服务器发生错误。请稍后重试。"
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "无法购买战车%(vehName)s。服务器暂时不可用。"
+
+msgid "vehicle_buy/success"
+msgstr "%(vehName)s购买成功。花费%(price)s。"
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "无法移除%(vehName)s。请稍后重试。"
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "无法移除%(vehName)s。错误的战车。"
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "无法移除%(vehName)s。银币不足。"
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "无法移除%(vehName)s。金币不足。"
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "无法移除%(vehName)s。兵营床位不足。"
+
+msgid "vehicle_remove/server_error"
+msgstr "无法出售%(vehName)s。请确定战车未加入任何作战部队或稍后重试。"
+
+msgid "vehicle_remove/success/default"
+msgstr "已成功移除%(vehName)s。\n%(money)s。"
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "已成功移除%(vehName)s。"
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "已成功移除%(vehName)s。\n%(gainMoney)s。\n%(spendMoney)s。"
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "无法移除%(vehName)s。战车将被自动移除。"
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "无法移除%(vehName)s。战车被锁定。"
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "无法移除%(vehName)s。战车需要修复。"
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "无法移除%(vehName)s。您已达到今日战车限制。"
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "vehicle_rent/buyOption"
+msgstr "注意！您可以决定稍后购买，战车将以折扣价对您开放。"
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "无法租用%(vehName)s。错误的战车。"
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "无法租用%(vehName)s。银币不足。"
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "无法租用%(vehName)s。金币不足。"
+
+msgid "vehicle_rent/server_error"
+msgstr "无法租用%(vehName)s，服务器发生错误。请稍后重试。"
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "无法租用%(vehName)s。战车租赁功能暂时不可用。"
+
+msgid "vehicle_rent/success"
+msgstr "您已租用%(vehName)s%(rentPackageName)s。花费%(price)s。%(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "%(days)d天"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "vehicle_repair/credits_error"
+msgstr "需要%(needed)s修复战车%(vehName)s。"
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "需要%(needed)s修复战车%(vehName)s。"
+
+msgid "vehicle_repair/server_error"
+msgstr "修复%(vehName)s时出错。请稍后重试。"
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)s已修复。您花费%(money)s。"
+
+msgid "vehicle_restore/DISABLED"
+msgstr "战车找回功能暂时不可用。请稍后重试。"
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "无法恢复%(vehName)s。战车找回功能暂时不可用。"
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "无法恢复%(vehName)s。错误的战车。"
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "无法恢复%(vehName)s。银币不足。"
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "无法恢复%(vehName)s。金币不足。"
+
+msgid "vehicle_restore/server_error"
+msgstr "无法恢复%(vehName)s，服务器发生错误。请稍后重试。"
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "无法恢复%(vehName)s。战车恢复功能暂时不可用。"
+
+msgid "vehicle_restore/success"
+msgstr "%(vehName)s已成功恢复。花费%(price)s。"
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "已使用拆卸工具（x%(countDK)s）"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "无法出售%(vehName)s。请稍后重试。"
+
+msgid "vehicle_sell/disabledService"
+msgstr "无法出售%(vehName)s。请稍后重试。"
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "无法出售%(vehName)s。拆卸装备所需的部件不足。"
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "无法出售%(vehName)s。错误的战车。"
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "无法出售%(vehName)s。银币不足。"
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "无法出售%(vehName)s。金币不足。"
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "无法出售%(vehName)s。兵营中的床位不足。"
+
+msgid "vehicle_sell/server_error"
+msgstr "无法出售%(vehName)s。请确定战车未加入任何作战部队或稍后重试。"
+
+msgid "vehicle_sell/success"
+msgstr "已成功出售%(vehName)s。\n%(money)s。\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "已成功出售%(vehName)s。\n%(gainMoney)s。\n%(spendMoney)s。\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "无法出售%(vehName)s。战车将被自动移除。"
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "无法出售%(vehName)s。战车被锁定。"
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "无法出售%(vehName)s。请修复您的战车。"
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "无法出售%(vehName)s。您已达到今日战车限制。"
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "购买车位时出错。银币不足。"
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "购买槽位错误，金币不足。"
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "购买车位错误。请稍后再试。"
+
+msgid "vehicle_slot_buy/success"
+msgstr "成功购买车位，花费 %(money)s。"
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "更改%(vehName)s的加速乘员训练设置出错。错误的战车。"
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "无法更改%(vehName)s的“加速乘员训练”设置。请稍后重试。"
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "%(vehName)s的“加速乘员训练”已关闭。"
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "%(vehName)s的“加速乘员训练”已开启。"
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "更改%(vehName)s的加速乘员训练设置出错。战车被锁定。"
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "更改%(vehName)s的加速乘员训练设置出错。请修复战车。"
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "%(vehName)s置换失败。选择的战车不正确。"
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "无法置换%(vehName)s。银币不足。"
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "无法置换%(vehName)s。金币不足。"
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "无法置换%(tradeOffVehName)s。兵营中的床位不足。"
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "置换优惠现已开放！"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "置换优惠已不再开放！"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "%(vehName)s置换失败。服务器发生错误。请稍后再试。"
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "%(vehName)s置换失败。购买/置换功能暂时不可用。"
+
+msgid "vehicle_trade_in/success"
+msgstr "%(tradeOffVehName)s已被移除。已购买%(vehName)s，花费%(price)s。"
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "%(tradeOffVehName)s置换失败。战车即将被自动移除。"
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "%(vehName)s置换失败。该战车不能通过置换获得。"
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "无法置换%(tradeOffVehName)s。该战车不可用于置换。"
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "无法置换%(tradeOffVehName)s。战车不可用。"
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "无法置换%(tradeOffVehName)s。请修复战车。"
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "无法置换%(tradeOffVehName)s。战车不在仓库中。"
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "操作不可用。您的金币将在WG钱包自动恢复后激活。"
+
+msgid "video/error"
+msgstr "视频回放错误。错误码：%(code)s。"
+
+msgid "w2gt/switchOff/description"
+msgstr "小地图战斗区域暂时不可用。"
+
+msgid "w2gt/switchOff/header"
+msgstr "技术问题"
+
+msgid "w2gt/switchOn/description"
+msgstr "小地图战斗区域现已可用。继续战斗！"
+
+msgid "w2gt/switchOn/header"
+msgstr "功能已恢复"
+
+msgid "wallet/available"
+msgstr "WG钱包数据同步成功。现在您所有的金币、点券、银币和全局经验都已激活。"
+
+msgid "wallet/available_freexp"
+msgstr "Wallet One钱数据同步成功。现在您所有的全局经验都已激活。"
+
+msgid "wallet/available_gold"
+msgstr "Wallet One钱数据同步成功。现在您所有的金币已激活。"
+
+msgid "wallet/not_available"
+msgstr "正在获取余额数据。您很快便可以使用您所有的金币、点券、银币和全局经验。"
+
+msgid "wallet/not_available_freexp"
+msgstr "正在获取账户数据。您的全局经验很快将解锁。"
+
+msgid "wallet/not_available_gold"
+msgstr "正在获取平衡数据。您的所有金币将在稍后被激活。"
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "无法重置每周任务：操作不可用。"
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "无法重置每周任务：任务无效。"
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "无法重置每周任务：任务已完成。"
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "无法重置每周任务：操作暂不可用。"
+
+msgid "weekly_quests/reroll/success"
+msgstr "每周任务重置成功。"
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "无法重置每周任务。请稍后再试。"
+
+msgid "weekly_quests/switch_off/body"
+msgstr "每周任务暂时不可用。我们对给您造成的不便深表歉意。"
+
+msgid "weekly_quests/switch_on/body"
+msgstr "每周任务已再次可用。我们对给您造成的不便深表歉意。"
+
+msgid "winback/turnOffBattlesError"
+msgstr "无法退出热身模式。请稍后重试。"
+
+msgid "window/buttons/close"
+msgstr "关闭"
+
+msgid "wrong_slot"
+msgstr "%s“%s”与%s不兼容。"

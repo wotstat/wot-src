@@ -1,0 +1,467 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "addVehPopover/btnAdd"
+msgstr "追加 (%(count)d)"
+
+msgid "addVehPopover/btnCancel"
+msgstr "キャンセル"
+
+msgid "addVehPopover/header"
+msgstr "比較対象車輌を選択"
+
+msgid "addVehPopover/showOnlyMyVahicles"
+msgstr "ガレージに所有中の車輌を表示"
+
+msgid "addVehPopover/tooltips/addToCompare/body"
+msgstr "選択車輌を比較対象に追加"
+
+msgid "addVehPopover/tooltips/addToCompare/header"
+msgstr "追加"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/body"
+msgstr "車輌を比較対象に追加するには、比較リストから一部車輌を削除してください"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/header"
+msgstr "追加不能"
+
+msgid "addVehPopover/tooltips/inHangar/body"
+msgstr "ガレージに所有中の車輌でソート"
+
+msgid "addVehPopover/tooltips/inHangar/header"
+msgstr "ガレージの車輌"
+
+msgid "addVehPopover/tooltips/level/body"
+msgstr "車輌 Tier でソート"
+
+msgid "addVehPopover/tooltips/level/header"
+msgstr "車輌"
+
+msgid "addVehPopover/tooltips/nation/body"
+msgstr "国でソート"
+
+msgid "addVehPopover/tooltips/nation/header"
+msgstr "国"
+
+msgid "addVehPopover/tooltips/selectVehicle/body"
+msgstr "選択車輌でソート"
+
+msgid "addVehPopover/tooltips/selectVehicle/header"
+msgstr "選択中の車輌"
+
+msgid "addVehPopover/tooltips/title/body"
+msgstr "車輌名でソート"
+
+msgid "addVehPopover/tooltips/title/header"
+msgstr "車輌名"
+
+msgid "addVehPopover/tooltips/type/body"
+msgstr "車輌タイプでソート"
+
+msgid "addVehPopover/tooltips/type/header"
+msgstr "タイプ"
+
+msgid "addVehPopover/vehicleName"
+msgstr "車輌名"
+
+msgid "cartPopover/configurationType/basic"
+msgstr "標準"
+
+msgid "cartPopover/configurationType/current"
+msgstr "現在"
+
+msgid "cartPopover/configurationType/custom"
+msgstr "構成変更済み"
+
+msgid "cartPopover/configurationType/premium"
+msgstr "プレミアム"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/attention"
+msgstr "車輌を比較対象に追加するには、比較リストから対象外の車輌を削除してください"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/header"
+msgstr "追加不能"
+
+msgid "cartPopover/gotoCompareBtn/label"
+msgstr "(%(value)s) を比較"
+
+msgid "cartPopover/openCmpBtn/tooltip/body"
+msgstr "選択した車輌の比較画面に移動します。"
+
+msgid "cartPopover/openCmpBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeAllBtn/label"
+msgstr "リストをクリア"
+
+msgid "cartPopover/removeAllBtn/tooltip/body"
+msgstr "全車輌を比較リストから削除"
+
+msgid "cartPopover/removeAllBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtn/tooltip/body"
+msgstr "比較リストから車輌を削除します。"
+
+msgid "cartPopover/removeBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtnLocked/tooltip/body"
+msgstr "構成ウィンドウが開かれている際には、車輌を比較リストから削除できません。"
+
+msgid "cartPopover/removeBtnLocked/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeLockedBtn/tooltip/body"
+msgstr "比較ウィンドウが開かれている際には、車輌を比較リストから削除できません。"
+
+msgid "cartPopover/removeLockedBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/sorting/nation/body"
+msgstr "選択車輌の国を表示"
+
+msgid "cartPopover/sorting/nation/header"
+msgstr "国"
+
+msgid "cartPopover/sorting/vehLvl/body"
+msgstr "選択車輌の Tier を表示"
+
+msgid "cartPopover/sorting/vehLvl/header"
+msgstr "Tier"
+
+msgid "cartPopover/sorting/vehName"
+msgstr "車輌名"
+
+msgid "cartPopover/sorting/vehName/tooltip/body"
+msgstr "選択車輌の名称を表示"
+
+msgid "cartPopover/sorting/vehName/tooltip/header"
+msgstr "車輌名"
+
+msgid "cartPopover/sorting/vehType/body"
+msgstr "選択車輌のタイプを表示"
+
+msgid "cartPopover/sorting/vehType/header"
+msgstr "タイプ"
+
+msgid "cartPopover/title"
+msgstr "比較リスト"
+
+msgid "compareVehicleBtn/tooltips/disabledOnServer/attention"
+msgstr "こちらの操作は現在ご利用いただけません。"
+
+msgid "header/closeBtn/label"
+msgstr "閉じる"
+
+msgid "menu/cloneForCompare"
+msgstr "比較用にコピー"
+
+msgid "modulesView/closeBtnLabel"
+msgstr "キャンセル"
+
+msgid "modulesView/closeBtnLabel/tooltip/body"
+msgstr "クリックして現在のモジュール選択をキャンセルし、車輌の構成に戻る"
+
+msgid "modulesView/closeBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/compareBtnLabel"
+msgstr "承認"
+
+msgid "modulesView/compareBtnLabel/tooltip/body"
+msgstr "クリックして選択中のモジュールを保存し、車輌の構成に戻る"
+
+msgid "modulesView/compareBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/resetBtnLabel"
+msgstr "リセット"
+
+msgid "modulesView/resetBtnLabel/tooltip/body"
+msgstr "クリックして車輌を標準構成にリセット"
+
+msgid "modulesView/resetBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/title"
+msgstr "%(vehName)s 用のモジュール構成"
+
+msgid "modulesView/vehicleStatus/inHangar"
+msgstr "ガレージに所有中"
+
+msgid "modulesView/vehicleStatus/readyToBuy"
+msgstr "未購入"
+
+msgid "modulesView/vehicleStatus/readyToResearch"
+msgstr "未研究"
+
+msgid "skillSelect/bonusSkills"
+msgstr "ボーナス・パーク"
+
+msgid "skillSelect/button/addToCompare"
+msgstr "比較対象に追加"
+
+msgid "skillSelect/button/cancel"
+msgstr "キャンセル"
+
+msgid "skillSelect/button/restore"
+msgstr "元に戻す"
+
+msgid "skillSelect/majorSkills"
+msgstr "メイン職能のパーク"
+
+msgid "skillSelect/tooltip/additionalRoles"
+msgstr "追加の職能:"
+
+msgid "skillSelect/tooltip/generalPrinciple"
+msgstr "効果の算出に関する注意"
+
+msgid "skillSelect/tooltip/generalPrincipleDescription"
+msgstr "構成画面では、パークを{cream_Open}100%{cream_Close}習得済みで、パーク適性が{cream_Open}100%{cream_Close}の場合に、対応する特性にどのような影響を与えるかを確認できます。"
+
+msgid "skillSelect/tooltip/heading"
+msgstr "%(vehicleName)sの搭乗員パーク"
+
+msgid "skillSelect/tooltip/roles"
+msgstr "職能"
+
+msgid "skillSelect/tooltipHint"
+msgstr "*パークにマウスカーソルをかざすと100%まで習得済みで、パーク適性が100%の場合の効果を確認可能"
+
+msgid "skillsConf/empty"
+msgstr "搭乗員パークを選択"
+
+msgid "skillsConf/emptyTooltip/body"
+msgstr "パークを選択すると、車輌の特性への影響を確認できます。"
+
+msgid "skillsConf/emptyTooltip/header"
+msgstr "搭乗員パーク"
+
+msgid "skillsConf/header"
+msgstr "搭乗員パーク"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "比較リストに追加します。"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "この車輌は比較対象に追加できません"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/body"
+msgstr "車輌を比較対象に追加するには、比較リストから一部車輌を削除してください"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/header"
+msgstr "比較リストに追加できません。"
+
+msgid "techTree/tooltips/addToCompare/body"
+msgstr "比較リストに追加します。"
+
+msgid "techTree/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehConf/applyBtnLabel"
+msgstr "適用"
+
+msgid "vehConf/btnCleanUp"
+msgstr "クリア"
+
+msgid "vehConf/cancelBtnLabel"
+msgstr "キャンセル"
+
+msgid "vehConf/cancelBtnLabel/tooltip/body"
+msgstr "構成の変更を中止して比較リストに戻ります。"
+
+msgid "vehConf/cancelBtnLabel/tooltip/header"
+msgstr "キャンセル"
+
+msgid "vehConf/compareBtnLabel/tooltip/body"
+msgstr "構成を保存して比較リストに戻ります。"
+
+msgid "vehConf/compareBtnLabel/tooltip/header"
+msgstr "適用"
+
+msgid "vehConf/confAvailable"
+msgstr "構成変更\n可能"
+
+msgid "vehConf/doesntAffect"
+msgstr "シンプルな技術特性には影響しない"
+
+msgid "vehConf/equipment"
+msgstr "拡張パーツと消耗品"
+
+msgid "vehConf/header"
+msgstr "%(vehName)s 用の構成"
+
+msgid "vehConf/modifications/choose"
+msgstr "改修案を選択可能"
+
+msgid "vehConf/modifications/title"
+msgstr "改修案"
+
+msgid "vehConf/modules"
+msgstr "モジュール"
+
+msgid "vehConf/resetBtnLabel"
+msgstr "リセット"
+
+msgid "vehConf/resetBtnLabel/tooltip/body"
+msgstr "実際の構成に戻します。"
+
+msgid "vehConf/resetBtnLabel/tooltip/header"
+msgstr "リセット"
+
+msgid "vehConf/tooltips/btnCleanUp/body"
+msgstr "クリックして選択した拡張パーツを構成から削除"
+
+msgid "vehConf/tooltips/btnCleanUp/header"
+msgstr "クリア"
+
+msgid "vehConf/tooltips/camoInfo"
+msgstr "夏季、冬季および砂漠迷彩を適用し、各マップタイプにおける自車輌の隠蔽率を向上"
+
+msgid "vehConf/tooltips/camoInfoDisabled/body"
+msgstr "このオールシーズン迷彩は、この車輌の基本的な要素であり、削除/変更することはできません。"
+
+msgid "vehConf/tooltips/camoInfoDisabled/header"
+msgstr "オールシーズン迷彩"
+
+msgid "vehConf/tooltips/camoTitle"
+msgstr "迷彩"
+
+msgid "vehConf/tooltips/defCamoInfo"
+msgstr "解除不能な 3 タイプの迷彩を\n搭載中: 冬季、夏季、砂漠"
+
+msgid "vehConf/tooltips/deviceNotAffectedTTC"
+msgstr "この車輌の技術特性には影響しない"
+
+msgid "vehConf/tooltips/modifications/description"
+msgstr "改修案を選択して車輌性能への影響を確認できます。"
+
+msgid "vehConf/tooltips/modifications/remove"
+msgstr "全改修案をリセットします。"
+
+msgid "vehConf/tooltips/modifications/title"
+msgstr "改修案を選択可能"
+
+msgid "vehConf/tooltips/revertBtn/body"
+msgstr "実際の構成に戻します。"
+
+msgid "vehConf/tooltips/revertBtn/header"
+msgstr "?empty?"
+
+msgid "vehConf/tooltips/topModulesLabel/body"
+msgstr "この車輌では、他のモジュールを利用不能: 本車の構成は固定です。"
+
+msgid "vehConf/tooltips/topModulesLabel/header"
+msgstr "最上位構成"
+
+msgid "vehConf/tooltips/topModulesOff/body"
+msgstr "最上位のモジュールを自動で選択します。"
+
+msgid "vehConf/tooltips/topModulesOff/header"
+msgstr "最上位構成"
+
+msgid "vehConf/tooltips/topModulesOn/body"
+msgstr "初期モジュールに戻します。"
+
+msgid "vehConf/tooltips/topModulesOn/header"
+msgstr "最上位構成"
+
+msgid "vehConf/topModulesBtnLabel"
+msgstr "最上位構成を選択"
+
+msgid "vehConf/topModulesLabel"
+msgstr "最上位構成"
+
+msgid "vehPreview/compareInfo/addToCompare"
+msgstr "比較対象に追加—"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "比較リストに追加します。"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "この車輌は比較対象に追加できません"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/body"
+msgstr "車輌を比較対象に追加するには、比較リストから一部車輌を削除してください"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/header"
+msgstr "追加不能"
+
+msgid "vehicleCompareView/btnAddVehicles"
+msgstr "比較対象に追加"
+
+msgid "vehicleCompareView/configurationType/basic"
+msgstr "標準"
+
+msgid "vehicleCompareView/configurationType/current"
+msgstr "現在"
+
+msgid "vehicleCompareView/configurationType/custom"
+msgstr "構成変更済み"
+
+msgid "vehicleCompareView/configure"
+msgstr "構成変更"
+
+msgid "vehicleCompareView/toHangar"
+msgstr "ガレージで表示"
+
+msgid "vehicleCompareView/toPreview"
+msgstr "プレビュー"
+
+msgid "vehicleCompareView/tooltips/addVehicles/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/addVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/configure/body"
+msgstr "構成を変更して車輌の性能がどう変動するか確認できます。"
+
+msgid "vehicleCompareView/tooltips/configure/header"
+msgstr "パラメータの設定変更"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/body"
+msgstr "全車輌を比較リストから削除します。"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/body"
+msgstr "比較対象から削除"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/topPanel/noVehicle"
+msgstr "車輌が未選択"
+
+msgid "vehicleCompareView/topPanel/premium"
+msgstr "プレミアム"
+
+msgid "vehicleCompareView/topPanel/vehiclesCount"
+msgstr "比較対象車輌: %(count)s"

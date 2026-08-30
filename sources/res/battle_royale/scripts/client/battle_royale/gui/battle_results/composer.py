@@ -1,0 +1,33 @@
+from gui.battle_results.composer import IBattleResultStatsCtrl
+from gui.battle_results.components import base
+from battle_royale.gui.battle_results import templates
+from battle_royale.gui.shared import event_dispatcher
+
+class BattleRoyaleStatsComposer(IBattleResultStatsCtrl):
+
+    def __init__(self, _):
+        super(BattleRoyaleStatsComposer, self).__init__()
+        self._block = base.StatsBlock(templates.BR_TOTAL_VO_META)
+        self._block.addNextComponent(templates.BR_TEAM_STATS_BLOCK.clone())
+        self._block.addNextComponent(templates.BR_COMMON_STATS_BLOCK.clone())
+        self._block.addNextComponent(templates.BR_PERSONAL_STATS_BLOCK.clone())
+        return
+
+    def clear(self):
+        self._block.clear()
+        return
+
+    def setResults(self, results, reusable):
+        self._block.setRecord(results, reusable)
+        return
+
+    def getVO(self):
+        return self._block.getVO()
+
+    def onResultsPosted(self, arenaUniqueID):
+        event_dispatcher.showBattleRoyaleResults({b'arenaUniqueID': arenaUniqueID})
+        return
+
+    @staticmethod
+    def onShowResults(arenaUniqueID):
+        return

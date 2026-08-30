@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "จัดการกำลังสำรอง"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "คลิกเพื่อเลือกกำลังสำรองรบที่มีอยู่"
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "ระเบิดทิ้งอากาศ"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "จุดกระทบ"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "ทำให้มึนงง"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "การวางกำลัง"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "จำนวนทุ่นระเบิด"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "ระยะเวลาของสนามทุ่นระเบิด"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "ทำให้มึนงง"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "รัศมีความเสียหาย"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "ระยะเวลา"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "กระสุน"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "ช่วงพัก"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "การวางกำลัง"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "ระยะเวลา"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "จำนวนความทนทานที่คืนให้"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "จำนวนความทนทานที่คืนทันทีเมื่อเปิดใช้งาน"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "ลดความเสียหายที่ได้รับจากทุ่นระเบิด"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "โบนัสให้กับความเร็วการคืนความทนทานในวงเติมเสบียง"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "สมรรถนะพลรถถัง"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "ระยะเวลา"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "ช่วงเวลาพัก"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "รัศมีผลกระทบ"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "สมรรถนะพลรถถังพาหนะคุณ"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "การป้องกันที่เพิ่มขึ้น"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "โบนัสการยึด"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "การปรับวงเติมเสบียง"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "การเร่งเติมกระสุน"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "เวลามาถึง"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "จุดกระทบ"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 ม."
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "ระยะการตรวจจับ"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "สมรรถนะพลรถถังลดลง"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "ระเบิดควัน"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "จุดกระทบ"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "ระยะเวลา"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "ลดระยะการมองเห็นของพาหนะข้าศึก"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "ลดการอำพรางของข้าศึกหลังพุ่มไม้"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "ลดการอำพรางของข้าศึกที่กำลังแล่น"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "ระยะเวลา"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "โบนัสให้กับการอำพรางของพาหนะที่กำลังอยู่นิ่ง"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "โบนัสให้กับระยะการมองเห็น"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "ขั้นกำลังสำรอง"
+
+msgid "abilityInfo/properties/static"
+msgstr "คุณลักษณะถาวร"
+
+msgid "abilityInfo/units/meter"
+msgstr "ม"
+
+msgid "abilityInfo/units/seconds"
+msgstr "วิ"
+
+msgid "advance_message_txt"
+msgstr "รุกคืบแนวรบ"
+
+msgid "advance_mission_txt"
+msgstr "รุกคืบแนวรบ"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "รายละเอียดสถานการณ์"
+
+msgid "awards/acceptButton"
+msgstr "รับทราบ!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "ได้รับรางวัล"
+
+msgid "awards/subTitle2"
+msgstr "ได้รับรางวัล"
+
+msgid "awards/title"
+msgstr "แนวรบ"
+
+msgid "base/contested_atk"
+msgstr "กำลังแย่งชิง"
+
+msgid "base/contested_def"
+msgstr "ถูกโจมตี"
+
+msgid "battleResults/armor"
+msgstr "การใช้เกราะ"
+
+msgid "battleResults/assistance"
+msgstr "ความช่วยเหลือ"
+
+msgid "battleResults/crits"
+msgstr "ความเสียหายร้ายแรง"
+
+msgid "battleResults/damage"
+msgstr "ความเสียหาย"
+
+msgid "battleResults/kill"
+msgstr "ถูกทำลาย"
+
+msgid "battleResults/spotting"
+msgstr "พบ"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1 กำลังสำรองส่วนตัว: %(effectValue)s ให้ประสบการณ์พลรถถังเป็นเวลา %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1 กำลังสำรองส่วนตัว: %(effectValue)s ให้ประสบการณ์อิสระเป็นเวลา %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1 กำลังสำรองส่วนตัว: %(effectValue)s ให้ประสบการณ์การรบเป็นเวลา %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "โจมตีเป้าหมาย %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "ปกป้องเป้าหมาย %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "ระวังตำแหน่งดังกล่าว!"
+
+msgid "command_shortcut/title"
+msgstr "คำสั่ง"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "แนวรบถูกปิดกั้น จำนวนผู้เล่นเต็มกำหนดแล้ว"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "เขตอันตราย"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "แนวรบถูกปิดกั้น เต็มจำนวนจำกัดชนิดพาหนะแล้ว"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "ซื้อ %(name)s %(type)s?"
+
+msgid "dialogs/title/buy/items"
+msgstr "ซื้อ %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "เปิดใช้ %(name)s %(type)s?"
+
+msgid "dialogs/title/install/items"
+msgstr "เปิดใช้ %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "รวมคะแนนให้ได้ตามที่กำหนดแล้วเปิดใช้งานกำลังสำรองรบ"
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "รวมคะแนนให้ได้ตามที่กำหนดแล้วเปิดใช้งานกำลังสำรองรบ"
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "คะแนนกำลังสำรองรบ"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "พาหนะระดับ %(level)s จะถูกปลดล็อคสำหรับการรบหลังจากทำการยึด/เสียจุดในแนวที่สอง (D, E หรือ F)"
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "ระดับ %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "เลือกพาหนะระดับ VIII สำหรับรูปแบบแนวรบ"
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "พาหนะไม่เข้ากัน"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "หามา"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "สูงสุด"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "กำลังสำรองรบ"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "ขั้นผู้บังคับการ"
+
+msgid "epictraining/info/otherLabel"
+msgstr "จำนวนผู้เล่นที่ยังไม่ได้แบ่ง: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "ผู้โจมตี ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "ผู้ป้องกัน ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "พาหนะข้าศึกทั้งหมดถูกทำลาย"
+
+msgid "game/all_hqs_destroyed"
+msgstr "เป้าหมายทั้งหมดถูกทำลาย"
+
+msgid "game/all_tanks_defeated"
+msgstr "พาหนะพันธมิตรทั้งหมดถูกทำลาย"
+
+msgid "game/defeat"
+msgstr "พ่ายแพ้!"
+
+msgid "game/draw"
+msgstr "เสมอ!"
+
+msgid "game/time_over"
+msgstr "เป้าหมายอยู่รอดได้"
+
+msgid "game/victory"
+msgstr "ชัยชนะ!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "ทำลายเป้าหมาย!"
+
+msgid "global_msg/atk/time_short"
+msgstr "เข้ายึดเขตให้ได้!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "ปกป้องเป้าหมายให้ได้!"
+
+msgid "global_msg/def/time_short"
+msgstr "ป้องกันเขตให้ได้!"
+
+msgid "global_msg/lane/center_short"
+msgstr "เสริมกำลัง %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "เสริมกำลัง %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "เสริมกำลัง %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "รักษารถถังของคุณ!"
+
+msgid "help_window/communication"
+msgstr "พื้นที่สื่อสาร"
+
+msgid "help_window/communication/description"
+msgstr "คุณจะได้รับคำสั่งจากพันธมิตรที่อยู่ในพื้นที่แผนที่ย่อที่คุณเห็นหรือเมื่อเป้าหมายของคำสั่งอยู่ในพื้นที่เท่านั้น"
+
+msgid "help_window/overview_map"
+msgstr "แผนที่ภาพรวม"
+
+msgid "help_window/overview_map/description"
+msgstr "แผนที่ภาพรวมนั้นถูกใช้เพื่อดูมุมมองทางยุทธวิธีและทางยุทธศาสตร์ของทั้งสนามรบ เมื่อเปิดแผนที่ภาพรวม จะสามารถทำการสื่อสารกับทั้งทีมด้วยการส่งและรับข้อความได้"
+
+msgid "help_window/recovery"
+msgstr "การกู้คืน"
+
+msgid "help_window/recovery/description"
+msgstr "การกู้คืนถูกเพิ่มมาเพื่อทำลายตัวรถถังที่ติดอยู่ในภูมิประเทศ กลไกนี้จำเป็นเนื่องจากระยะเวลาการรบที่นานขึ้นและโอกาสในการกำเนิดใหม่เพื่อให้ผู้เล่นได้ทำการรบอย่างต่อเนื่องและสม่ำเสมอ"
+
+msgid "help_window/reserves"
+msgstr "กำลังสำรองพาหนะ"
+
+msgid "help_window/reserves/description"
+msgstr "ทุกๆสองสามนาทีจะมีการเพิ่มพาหนะหนึ่งคันเข้ากำลังสำรองของคุณ กำลังสำรองสามารถมีพาหนะได้สูงสุดสองคัน เมื่อไม่มีพาหนะเหลือ คุณจะไม่สามารถวางกำลังได้และต้องรอจนกว่าพาหนะคันใหม่จะถูกส่งมา"
+
+msgid "hq/under_attack_atk"
+msgstr "กำลังถูกโจมตี"
+
+msgid "hq/under_attack_def"
+msgstr "ถูกโจมตี"
+
+msgid "in_game_rank/experience_text"
+msgstr "ประสบการณ์"
+
+msgid "lane_central_name"
+msgstr "กลาง"
+
+msgid "lane_east_name"
+msgstr "ตะวันออก"
+
+msgid "lane_west_name"
+msgstr "ตะวันตก"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "ขั้น %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "การหาไม่มีให้: คุณไม่มีคะแนนกำลังสำรองรบ"
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "กำลังสำรองรบถึงระดับสูงสุดแล้ว"
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "การยกระดับไม่มีให้: คุณไม่มีคะแนนกำลังสำรองรบ"
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "ไม่ได้ซื้อกำลังสำรองรบ"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "ขั้นกำลังสำรองรบจะเพิ่มขึ้นหลังจากที่ได้ยศร้อยเอกและพันตรีในการรบ ขั้นสูงสุดนั้นจะขึ้นกับสถานการณ์การรบ"
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "ราคาซื้อ: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "เป้าหมายหลัก"
+
+msgid "mission/title"
+msgstr "ภารกิจ"
+
+msgid "mission/zone_closing_atk"
+msgstr "เขตจะเปิดภายใน: "
+
+msgid "mission/zone_closing_def"
+msgstr "การยิงถล่มของข้าศึกภายใน: "
+
+msgid "missions/primary/atk/base"
+msgstr "ยึดเขต"
+
+msgid "missions/primary/atk/hq"
+msgstr "ทำลายเป้าหมาย"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s ของ %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "เป้าหมายที่ทำลายได้:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "ยึดเขตที่มีเพื่อเข้าสู่เป้าหมายหลัก แล้วทำลายเป้าหมายหลักให้ได้"
+
+msgid "missions/primary/def/base"
+msgstr "ป้องกันเขต"
+
+msgid "missions/primary/def/hq"
+msgstr "ปกป้องเป้าหมาย"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s ของ %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "สูญเสียเป้าหมาย:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "ปกป้องเป้าหมายหลักจนกว่าเวลาหมดลงหรือทำลายฝ่ายโจมตีให้หมด"
+
+msgid "missions/unlockTankLevel"
+msgstr "มีพาหนะระดับ IX ให้"
+
+msgid "overtime/label"
+msgstr "ช่วงทดเวลา"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "ไม่สามารถเปิดใช้กำลังสำรองที่เหมือนกันสองอันได้"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "ไม่สามารถวางสนามทุ่นระเบิดได้ สนามทุ่นระเบิดชนกัน"
+
+msgid "primeTime/applyBtn"
+msgstr "ดำเนินการ"
+
+msgid "primeTime/cancelBtn"
+msgstr "ยกเลิก"
+
+msgid "primeTime/continueBtn"
+msgstr "ดำเนินการต่อ"
+
+msgid "primeTime/endOfCycle"
+msgstr "รุูปแบบของเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+
+msgid "primeTime/manyServersAvailable"
+msgstr "เซิร์ฟเวอร์ที่มีให้:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "เซิร์ฟเวอร์ที่มีให้: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "การรบบนเซิร์ฟเวอร์ %(server)s มีให้เข้าร่วมอีกใน: %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "การรบถัดไปบน %(server)s ภายใน %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "เซิร์ฟเวอร์ %(server)s\nการรบจะมีให้ภายในอีก %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "การรบจะมีให้ภายในอีก %(time)s"
+
+msgid "primeTime/servers"
+msgstr "เซิร์ฟเวอร์ที่มี: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "การรบในเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+
+msgid "primeTime/status/disable"
+msgstr "คุณสามารถเปลี่ยนไปยังเซิร์ฟเวอร์แนวรบเพื่อทำการเตรียมตัวก่อนการรบได้"
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "รูปแบบไม่มีให้บนเซิร์ฟเวอร์ %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนเซิร์ฟเวอร์ %(server)s จนถึง %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนทุกเซิร์ฟเวอร์"
+
+msgid "primeTime/status/thisEnable"
+msgstr "บนเซิร์ฟเวอร์ %(server)s แนวรบจะมีให้เข้าร่วมเป็นเวลาอีก %(time)s"
+
+msgid "primeTime/steelhunter/title"
+msgstr "พรานเหล็ก"
+
+msgid "primeTime/title"
+msgstr "แนวรบ"
+
+msgid "primeTime/titleWelcome"
+msgstr "ยินดีต้อนรับ \n สู่แนวรบ"
+
+msgid "progress_timers/active"
+msgstr "ใช้งานอยู่"
+
+msgid "progress_timers/fully_equipped"
+msgstr "ติดตั้งเต็มพิกัด"
+
+msgid "progress_timers/resupply"
+msgstr "วงเติมเสบียง"
+
+msgid "progress_timers/unavailable"
+msgstr "ไม่มีให้"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "ภารกิจแนวรบ"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "น้อยกว่า 1 วัน"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "ไต่ถึงระดับ %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "ภารกิจใหม่จะมีให้ใน %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "ภารกิจพรานเหล็ก"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "แนวรบจบลงใน: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "ไม่มีให้: %(reason)s"
+
+msgid "rank/allReserveUpgraded"
+msgstr "ขั้นกำลังสำรองรบทั้งหมดเพิ่มขึ้น"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "โบนัสทีมให้กับสมรรถนะพลรถถังเพิ่มขึ้นเป็น +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "สมรรถนะพลรถถังเพิ่มขึ้นสูงสุดที่ +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "โบนัสทีมให้กับสมรรถนะพลรถถัง +%(percent)s %%"
+
+msgid "rank/no_name"
+msgstr "ผู้เล่น"
+
+msgid "rank/promotion"
+msgstr "เลื่อนเป็น %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "พลทหาร"
+
+msgid "rank/rank2"
+msgstr "สิบเอก"
+
+msgid "rank/rank3"
+msgstr "ร้อยโท"
+
+msgid "rank/rank4"
+msgstr "ร้อยเอก"
+
+msgid "rank/rank5"
+msgstr "พันตรี"
+
+msgid "rank/rank6"
+msgstr "นายพล"
+
+msgid "rank/recerveUnlocked"
+msgstr "ปลดล็อคกำลังสำรองรบ %(reserveName)s"
+
+msgid "rank/reserveUpgraded"
+msgstr "ปรับปรุงกำลังสำรองรบ %(reserveName)s"
+
+msgid "rank/slotUnlocked"
+msgstr "ปลดล็อคกำลังสำรองรบ %(slotNumber)s"
+
+msgid "rank/slot_2"
+msgstr "ที่สอง"
+
+msgid "rank/slot_3"
+msgstr "ที่สาม"
+
+msgid "recovery/Blocked"
+msgstr "ถูกกันไว้\nชั่วคราว"
+
+msgid "recovery/disabled"
+msgstr "ไม่สามารถกู้คืนได้"
+
+msgid "recovery_panel/base_text"
+msgstr "กด J\nเพื่อกู้คืน"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "เคลื่อนที่หรือยิงเพื่อยกเลิก"
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "การกู้คืน\nล้มเหลว"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "ทำการขอ\nการกู้คืน"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "ยึดฐานถัดไป"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "กำลังเสริมภายใน "
+
+msgid "reinforcement/unavailable"
+msgstr "ไม่มีกำลังเสริมให้"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s จนกว่าจะทำการวางกำลังอัตโนมัติ"
+
+msgid "respawn/deploy_button"
+msgstr "ออกรบ!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "ไม่สามารถซื้อยุทธปัจจัยรุ่นปรับปรุงในการรบได้"
+
+msgid "respawn/shop_title"
+msgstr "บริการ"
+
+msgid "respawn/tanks_left"
+msgstr "พาหนะคงเหลือ"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "เลือกพาหนะและเขตวางกำลัง"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "การวางกำลังในเขตนี้มีอันตราย"
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s วินาที"
+
+msgid "retreat_message_txt"
+msgstr "ถอนตัว"
+
+msgid "retreat_mission_txt"
+msgstr "ถอนตัวไปยังเขตถัดไป"
+
+msgid "rewardSelection/subTitle"
+msgstr "เลือกรางวัลของคุณ"
+
+msgid "rewardSelection/title"
+msgstr "แนวรบ"
+
+msgid "scorePanel/stage1"
+msgstr "ด่าน 1"
+
+msgid "scorePanel/stage2"
+msgstr "ด่าน 2"
+
+msgid "scorePanel/stage3"
+msgstr "ด่าน 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "สมรรถนะคอมพิวเตอร์ของคุณนั้นไม่เพียงพอสำหรับรูปแบบนี้ คุณอาจจะพบปัญหาทางเทคนิคกับกราฟฟิคและการเคลื่อนที่ของพาหนะ และเป็นไปได้ที่โปรแกรมลูกข่ายเกมจะล่ม"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "สมรรถนะต่ำ"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "ในกรณีที่สมรรถนะไม่ดีพอ โปรดลองลดคุณภาพกราฟฟิคในการตั้งค่า"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "รูปแบบนี้จำเป็นต้องใช้คอมพิวเตอร์สมรรถนะสูง"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "รูปแบบนี้จำเป็นต้องใช้คอมพิวเตอร์สมรรถนะสูงกว่าปกติ คุณอาจจะประสบปัญหากับการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนะเครื่องไม่เพียงพอ ให้ลองลดคุณภาพกราฟฟิคในการตั้งค่าของคุณลง"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "สมรรถนะต่ำ"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "การรบ 30 ต่อ 30 ใน %(bodyVehicleLevel)s ใช้กลไกเกิดใหม่, กำลังสำรองรบรวมไปถึงวงเติมเสบียง"
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "พาหนะระดับ %(level)s"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "การรบ 30 ต่อ 30 ใน %(bodyVehicleLevel)s ใช้กลไกเกิดใหม่, กำลังสำรองรบรวมไปถึงการซ่อมในการรบ"
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "รูปแบบดังกล่าวไม่มีให้เล่นชั่วคราวเนื่องจากปัญหาทางเทคนิค"
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "แนวรบ"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "การรบเริ่มขึ้นใน: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "การรบจบลงใน: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "กำหนดการรบ"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "วันนี้"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "พรุ่งนี้"
+
+msgid "skill/category/firesupport"
+msgstr "กำลังสำรองโจมตี"
+
+msgid "skill/category/reconnaissance"
+msgstr "กำลังสำรองลาดตระเวน"
+
+msgid "skill/category/tactics"
+msgstr "กำลังสำรองยุทธวิธี"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "มุมกล้องแบบผู้ชม"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "หมุนกล้องด้วยเมาส์ของคุณ"
+
+msgid "spectator_mode/camera_wasd"
+msgstr "ใช้ W,A,S,D เพื่อขยับกล้องไปรอบๆแผนที่"
+
+msgid "spectator_mode/follow_text"
+msgstr "คลิกซ้ายเพื่อเริ่มการติดตาม"
+
+msgid "spectator_mode/follow_title"
+msgstr "ติดตาม"
+
+msgid "spectator_mode/msg_text"
+msgstr "พาหนะจะมาถึงภายใน:"
+
+msgid "spectator_mode/msg_title"
+msgstr "พาหนะทั้งหมดถูกทำลาย!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "คลิกอีกครั้งเพื่อหยุดติดตาม"
+
+msgid "spectator_mode/unfollow_title"
+msgstr "หยุดติดตาม"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s วัน"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s ชม"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 นาที"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s นาที"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "ุกันไว้"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "ออกจากเขต!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "คืนความทนทาน"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "คืนความทนทาน"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "การปลุกใจ"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "การปลุกใจ"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "วงเติมเสบียง"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "อยู่ในม่านควัน: ซ่อนตัว"
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "ในม่านควัน ระยะการมองเห็นและสมรรถนะพลรถถังจะลดลง"
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "ช่วงเวลาพัก ระยะการมองเห็นและสมรรถนะพลรถถังจะลดลง"
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "เปิดใช้การเฝ้าระวัง"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "เปิดใช้ %(activationDelay)s วิหลังจากพาหนะหยุดอยู่นิ่ง"
+
+msgid "super_platoon_panel/title"
+msgstr "หมวดรถถัง"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "โบนัสทีมทั้งหมดให้กับสมรรถนะพลรถถังสำหรับการมีนายพลอยู่"
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "ทุกแนวรบ"
+
+msgid "tab_screen/show_my_lane"
+msgstr "แนวรบของฉัน"
+
+msgid "team1Name"
+msgstr "ฝ่ายจู่โจม"
+
+msgid "team2Name"
+msgstr "ฝ่ายป้องกัน"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "เลือกรางวัลสำหรับแนวรบที่ผ่านแล้วระดับ (%(number)s)"
+
+msgid "tooltips/common/disabled"
+msgstr "รูปแบบไม่มีให้"
+
+msgid "tooltips/common/title"
+msgstr "แนวรบ"
+
+msgid "tooltips/end"
+msgstr "กิจกรรมดังกล่าวจบลงแล้ว"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "ลำดับการปลดล็อคกำลังสำรองรบนั้นขึ้นกับชนิดของพาหนะที่ใช้ กำลังสำรองรบหนึ่งจะมีให้ตั้งแต่แรก ส่วนแบบอื่นจะค่อยๆปลดล็อคเมื่อถึงยศสิบเอกและร้อยโท"
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "กำลังปลดล็อค: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "ในสถานการณ์ <font color='#E9E2BF'>ชะตาพลิกผัน</font> การซื้อกำลังสำรองรบจะเพิ่มขั้นกำลังสำรองอีกหนึ่งขั้นและเปิดโอกาสให้ทำการเพิ่มขั้นได้ถึงขั้น<font color='#E9E2BF'>IV</font>"
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "กำลังสำรองรบที่วางในช่องนี้ในจะเพิ่มโอกาสที่จะมีการเสนอซ้ำในสถานการณ์ <font color='#E9E2BF'>ชะตาพลิกผัน</font> อีก<font color='#E9E2BF'>10%</font>."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "การปลดล็อคและปรับปรุงกำลังสำรองในการรบ"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "กำลังสำรองรบจะถูกปลดล็อคและปรับปรุงในการรบตามชนิดพาหนะและยศที่คุณได้รับ"
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "การปรับตั้งกำลังสำรองสำหรับยานพิฆาตรถถัง"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "การปรับตั้งกำลังสำรองสำหรับปืนอัตตาจร"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "การปรับตั้งกำลังสำรองสำหรับรถถังหนัก"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "การปรับตั้งกำลังสำรองสำหรับรถถังเบา"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "การปรับตั้งกำลังสำรองสำหรับรถถังกลาง"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "หลังจากที่ได้ปลดล็อคกำลังสำรองรบทั้งหมดเมื่อได้รับยศใหม่ กำลังสำรองรบเหล่านี้จะถูกปรับให้ดีขึ้น กำลังสำรองรบที่ปลดล็อคแต่แรกสามารถถูกเพิ่มให้ได้ถึงขั้น III และกำลังสำรองรบที่ปลดล็อคอันดับสองสามารถปลดล็อคได้ถึงขั้น II"
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "กำลังปรับปรุง: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "ช่องดังกล่าวจะถูกปลดล็อคเมื่อได้รับยศ %(rank)s"
+
+msgid "tooltips/timeToEnd"
+msgstr "มีรูปแบบให้: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "การรบจะเริ่มขึ้นใน: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "กิจกรรมดังกล่าวจบลงแล้ว"
+
+msgid "tooltips/widget/level"
+msgstr "ระดับ %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "ถึงขั้นสูงสุดแล้ว"
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "กำลังสำรองรบ"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนทุกเซิร์ฟเวอร์ การรบจะมีให้ภายใน %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "การรบกำลังดำเนินอยู่"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "เลือกเซิร์ฟเวอร์อื่น"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "รายละเอียด"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "รูปแบบแนวรบจบลงแล้ว"
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "สถานการณ์แนวรบ"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนเซิร์ฟเวอร์นี้ การรบจะมีให้ภายใน %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "ช่วงหยุดยิงกำลังมีผลบน %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "การรบจะเริ่มขึ้นใน: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "คลิกเพื่ออ่านเพิ่มเติมเกี่ยวกับสถานการณ์\nแนวรบต่างๆและความแตกต่างที่มี"
+
+msgid "zone/arrived_text"
+msgstr "มาถึงแล้ว!"
+
+msgid "zone/capture_text"
+msgstr "ยึด"
+
+msgid "zone/captured_text"
+msgstr "ยึดแล้ว"
+
+msgid "zone/defend_text"
+msgstr "ป้องกัน"
+
+msgid "zone/destroy_text"
+msgstr "ทำลาย"
+
+msgid "zone/destroyed_text"
+msgstr "ถูกทำลาย"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "กำลังเสริมข้าศึก"
+
+msgid "zone/headquarters_text"
+msgstr "เป้าหมาย"
+
+msgid "zone/leave_zone"
+msgstr "ออกจากเขต!"
+
+msgid "zone/lost_text"
+msgstr "สูญเสีย"
+
+msgid "zone/reached_text"
+msgstr "มาถึงแล้ว"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "กำลังเสริมข้าศึก:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "กำลังเสริม:"
+
+msgid "zone/reinforcements_text"
+msgstr "กำลังเสริม"
+
+msgid "zone/time_added"
+msgstr "เพิ่มนาที: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "คงเหลือ %(minutes)s นาที"
+
+msgid "zone/zone_text"
+msgstr "เขต"

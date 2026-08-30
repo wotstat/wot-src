@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s 戦闘時間: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "難易度「ノーマル」"
+
+msgid "info/difficult/2"
+msgstr "難易度「ハード」"
+
+msgid "info/difficult/3"
+msgstr "難易度「ナイトメア」"
+
+msgid "info/mapName"
+msgstr "ラスト・スタンド • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "再出撃の回数: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "味方が全滅"
+
+msgid "ls_finish/reason/10/lose"
+msgstr "「Zero」を止められなかった"
+
+msgid "ls_finish/reason/3/lose"
+msgstr "時間切れ"
+
+msgid "ls_finish/reason/5/lose"
+msgstr "全味方車輌が戦闘を離脱"
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "見事だ! だがより難しいミッションが待っているぞ"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "難易度「ノーマル」の敵車輌を殲滅"
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "素晴らしい活躍だ! ここまで来れる者はそう多くない"
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "難易度「ナイトメア」の敵車輌を殲滅"
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "見事だ! さあ ここからが本当の試練だぞ"
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "難易度「ハード」の敵車輌を殲滅"
+
+msgid "ribbon/ban"
+msgstr "違反行為が確認されました。\n報酬は授与されません。"
+
+msgid "ribbon/banRecord"
+msgstr "違反行為が確認されました。\n報酬は授与されません。ウェーブの撃破記録も更新されません。"
+
+msgid "ribbon/noReward"
+msgstr "第1ウェーブの突破に失敗しました。\n報酬は授与されません。"
+
+msgid "status/lose"
+msgstr "戦闘終了"
+
+msgid "status/win"
+msgstr "勝利"
+
+msgid "subtitle/lose"
+msgstr "襲撃の阻止に失敗"
+
+msgid "subtitle/win"
+msgstr "新たな「データ」を収集しました。"
+
+msgid "teamList/actions"
+msgstr "クイックアクション"
+
+msgid "teamList/teammates"
+msgstr "味方"
+
+msgid "time/record"
+msgstr "NEW\nRECORD!"
+
+msgid "title/lose/noWaves"
+msgstr "戦闘終了"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)sウェーブ撃破"
+msgstr[1] "%(phaseNumber)sウェーブ撃破"
+msgstr[2] "%(phaseNumber)sウェーブ撃破"
+
+msgid "title/win"
+msgstr "全ウェーブ撃破"
+
+msgid "tooltip/ban"
+msgstr "違反行為が確認されました。ウェーブの撃破記録は更新されません。"

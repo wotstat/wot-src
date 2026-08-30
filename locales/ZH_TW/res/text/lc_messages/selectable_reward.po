@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "error/button"
+msgstr "了解！"
+
+msgid "error/description"
+msgstr "資訊暫時無法使用。我們為帶來的不便感到抱歉。請稍後再試。"
+
+msgid "error/title"
+msgstr "無法開啟獎勵選擇"
+
+msgid "footer/closeBtn/label"
+msgstr "稍後選擇"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "從類別中選擇獎勵。"
+msgstr[1] "從類別中選擇獎勵。"
+msgstr[2] "從類別中選擇獎勵。"
+
+msgid "footer/okBtn/label"
+msgstr "領取"
+
+msgid "footer/rewardsSelected"
+msgstr "選擇的獎勵："
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "從類別中選擇獎勵。"
+msgstr[1] "從類別中選擇獎勵。"
+msgstr[2] "從類別中選擇獎勵。"
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "已達上限"
+
+msgid "reward/state_received"
+msgstr "已獲得"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "已達到此類別物品的選擇上限。您可取消選擇一個物品來新增另一個。"
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "已達上限"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "裝備\n技術指南"
+
+msgid "tabs/items/battle_booster"
+msgstr "裝備技術指南"
+
+msgid "tabs/items/blueprint"
+msgstr "藍圖碎片"
+
+msgid "tabs/items/brochure"
+msgstr "訓練手札"
+
+msgid "tabs/items/crewbook"
+msgstr "訓練手冊"
+
+msgid "tabs/items/deluxe"
+msgstr "改良型裝備"
+
+msgid "tabs/items/expequipments"
+msgstr "試驗型\n裝備"
+
+msgid "tabs/items/guide"
+msgstr "訓練指南"
+
+msgid "tabs/items/modernized_device"
+msgstr "試驗型裝備"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "試驗型裝備等級 1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "試驗型裝備等級 2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "試驗型裝備等級 3"
+
+msgid "tabs/items/new_device"
+msgstr "標準裝備"
+
+msgid "tabs/items/trophy"
+msgstr "戰勛裝備"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "點擊「領取」按鈕以獲得選擇的獎勵。"
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr "，"
+
+msgid "tooltips/selectedRewards/title"
+msgstr "選擇的獎勵：%(white_open)s%(count)s%(white_close)s"

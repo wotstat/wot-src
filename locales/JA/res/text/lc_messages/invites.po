@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT 翻訳者 <noreply@wargaming.net>\nLanguage-Team: WoT チーム <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "プレイヤー詳細を %(linkStartTag)s確認%(linkEndTag)s"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sクラン加入申請%(titleEndTag)s\n申請者: %(nameStartTag)s%(name)s%(nameEndTag)s さん"
+
+msgid "clan/applications/buttons/details"
+msgstr "申請を確認"
+
+msgid "clan/applications/comment"
+msgstr "通知を %(linkStartTag)s無効化%(linkEndTag)s"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sプレイヤーからの加入申請: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "クランの詳細を %(linkStartTag)s確認%(linkEndTag)s"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sクランへの招待:%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "招待を確認"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sクランへの招待: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "プレイヤーがクランに加入しました。"
+
+msgid "clans/state/app/declined"
+msgstr "加入申請が拒否されました。"
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "このプレイヤーは、前のクランから脱退したことによる1日間のペナルティ期間が完了していません。"
+
+msgid "clans/state/invite/accepted"
+msgstr "あなたのクランへの加入が認められました。"
+
+msgid "clans/state/invite/declined"
+msgstr "招待が拒否されました。"
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "前のクランから脱退したことによる1日間のペナルティ期間が完了していません。"
+
+msgid "errors/creationNotAllowed"
+msgstr "招待の作成権限がありません。"
+
+msgid "errors/invalid"
+msgstr "無効な招待です。"
+
+msgid "errors/inviteNotSupported"
+msgstr "このタイプの招待は現在ご利用頂けません。後で再試行してください。"
+
+msgid "errors/receiverIgnoreSender"
+msgstr "招待の受信者があなたをブラックリストに追加しています。"
+
+msgid "errors/selfinvite"
+msgstr "自分自身を招待することはできません。"
+
+msgid "errors/unknownuser"
+msgstr "このユーザーはまだシステムに登録されていません。"
+
+msgid "errors/useroffline"
+msgstr "ユーザーはオフラインです。"
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "ガレージ内の車輌が損傷しているか、またはロック中です。別の車輌を選択してください。"
+
+msgid "friendship/note/approved"
+msgstr "フレンドリストへの追加完了"
+
+msgid "friendship/note/canceled"
+msgstr "リクエストは拒否されました"
+
+msgid "friendship/note/maxRoster"
+msgstr "リストの最大登録人数: %(rosterMaxCount)s 名。このプレイヤーをフレンドリストに追加するには、まずはリストから 1 名を削除してください。"
+
+msgid "friendship/note/notConnected"
+msgstr "サーバーに接続できません。お待ちください。"
+
+msgid "friendship/note/process"
+msgstr "サーバーからの応答を待っています"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sフレンドリクエスト%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s さんから"
+
+msgid "gui/buttons/accept"
+msgstr "承諾"
+
+msgid "gui/buttons/cancel"
+msgstr "キャンセル"
+
+msgid "gui/buttons/reject"
+msgstr "拒否"
+
+msgid "gui/buttons/send"
+msgstr "送信"
+
+msgid "gui/labels/additionalText"
+msgstr "追加招待テキスト:"
+
+msgid "gui/labels/inviteText"
+msgstr "招待テキスト:"
+
+msgid "gui/labels/receiver"
+msgstr "受信者:"
+
+msgid "gui/titles/barter"
+msgstr "トレードへの招待"
+
+msgid "gui/titles/clan"
+msgstr "クランへの招待"
+
+msgid "gui/titles/invite"
+msgstr "招待"
+
+msgid "gui/titles/receivedInvites"
+msgstr "招待"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "招待を承諾すると、自動的に戦術ユニットから除外され、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "招待を承諾すると、自動的に小隊から除外され、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "招待を承諾した場合、あなたは自動的にグローバルマップ上での戦闘から除外され、%(host)s サーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "招待を承諾すると、自動的に小隊から除外され、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "招待を承諾すると、自動的に戦術ユニットから除外され、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "招待を承諾すると、自動的に戦術ユニットから除外され、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "招待を承諾するすると、自動的にフロントラインモードでのチームトレーニングから除外され、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "招待を承諾すると、自動的に戦術ユニットから除外され、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "招待を承諾した場合、チームバトルモードを終了し、%(host)s サーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "招待を承諾すると、自動的に小隊から除外され、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "招待を承諾すると「拠点戦」モードが終了し、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "招待を承諾した場合、進撃戦モードを終了して %(host)s サーバーに移行します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "招待を承諾すると、自動的に先行偵察小隊から除外され、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "招待を承諾すると、自動的にチームトレーニングから除外され、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "招待を承諾すると「拠点戦」モードが終了し、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "招待を承諾すると、自動的に小隊から除外され、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "招待を承諾した場合、現在の分遣隊から脱退して %(host)s サーバーに移行します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "招待を承諾した場合、あなたは自動的にトーナメントから除外され、%(host)s サーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "招待を承諾した場合、あなたは自動的にチームトレーニングから除外され、%(host)s サーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "招待を承諾すると、自動的に「オンスロート」モードでのチームトレーニングから除外され、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "招待を承諾した場合、チームバトルモードを終了し、%(host)s サーバーに移動します。"
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "招待を承諾すると「STEEL HUNTER」モードが終了し、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "招待を承諾すると「BIG HUNT」が終了し、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "招待を承諾すると、自動的に「オンスロート」モードが終了し、 %(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "招待を承諾すると、自動的に「オンスロート・ライト」モードが終了し、 %(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "招待を承諾すると「フロントライン」モードが終了し、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "招待を承諾すると+++イベント戦+++が終了し、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "招待を承諾すると「先行偵察ミッション」モードが終了し、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "招待を承諾すると「地誌学」モードが終了し、 %(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "招待を承諾すると「ランダム戦」モードが終了し、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "招待を承諾すると、ランク戦モードが終了し、%(host)sサーバーに転送されます。"
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "招待を承諾すると「ウォームアップ」モードが終了し、%(host)sサーバーに移動します。"
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "招待を承諾すると「ウォームアップ」モードが終了し、%(host)sサーバーに移動します。一度「ウォームアップ」モードを終了すると再開できない点にご注意ください。"
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "招待を承諾すると、自動的に戦術ユニットから除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "招待を承諾すると、自動的に小隊から除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "招待を承諾した場合、あなたは自動的にグローバルマップ上での戦闘から除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "招待を承諾すると、自動的に小隊から除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "招待を承諾すると、自動的に戦術ユニットから除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "招待を承諾すると、自動的に戦術ユニットから除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "招待を承諾すると、自動的にフロントラインモードでのチームトレーニングから除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "招待を承諾すると、自動的に小隊から除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "招待を承諾した場合、チームバトルモードを終了します。"
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "招待を承諾すると、自動的に小隊から除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "招待を承諾すると「拠点戦」モードが終了します。"
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "招待を承諾した場合、進撃戦モードを終了します。"
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "招待を承諾すると、自動的に先行偵察小隊から除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "招待を承諾すると、自動的にチームトレーニングから除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "招待を承諾すると「拠点戦」モードが終了します。"
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "招待を承諾すると、自動的に小隊から除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "招待を承諾した場合、現在の分遣隊から脱退します。"
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "招待を承諾した場合、あなたは自動的にトーナメントから除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "招待を承諾した場合、あなたは自動的にチームトレーニングから除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "招待を承諾すると、自動的に「オンスロート」モードでのチームトレーニングから除外されます。"
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "招待を承諾した場合、チームバトルモードを終了します。"
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "招待を承諾すると「STEEL HUNTER」モードが終了します。"
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "招待を承諾すると「BIG HUNT」が終了します。"
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "招待を承諾すると、自動的に「オンスロート」モードが終了します。"
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "招待を承諾すると、自動的に「オンスロート・ライト」モードが終了します。"
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "招待を承諾すると、「フロントライン」モードが終了します。"
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "招待を承諾すると、+++イベント戦+++が終了します。"
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "招待を承諾すると「先行偵察ミッション」モードが終了します。"
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "招待を承諾すると「地誌学」モードが終了します。"
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "招待を承諾すると、「ランダム戦」モードが終了します。"
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "招待を承諾した場合、ランク戦モードを終了します。"
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "招待を承諾すると「ウォームアップ」モードが終了します。"
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "招待を承諾すると「ウォームアップ」モードが終了します。一度「ウォームアップ」モードを終了すると再開できない点にご注意ください。"
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "サーバーを移動すると変更が保存されます。"
+
+msgid "invites/note/server_change"
+msgstr "あなたは自動的に %(host)s サーバーに移動します。"
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "招待を承諾できません。この招待を承諾するには、%(host)sサーバーを選択してください。"
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "招待を承諾できません。この招待を承諾するには、別のサーバーを選択してください。"
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "あなたは小隊に参加済みです。"
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "あなたはグローバルマップ上での戦いに参加済みです。"
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "あなたはチームトレーニングに参加済みです。"
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "あなたは小隊に参加済みです。"
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "すでに小隊に参加しています。"
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "あなたは分遣隊に参加済みです。"
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "あなたは小隊に参加済みです。"
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "あなたはトーナメントに参加済みです。"
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "あなたはチームトレーニングに参加済みです。"
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "あなたはチームトレーニングに参加済みです。"
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "あなたはチームに参加済みです。"
+
+msgid "invites/state/ACCEPTED"
+msgstr "招待を承諾しました。"
+
+msgid "invites/state/DECLINED"
+msgstr "招待が拒否されました。"
+
+msgid "invites/state/ERROR"
+msgstr "無効な招待です。"
+
+msgid "invites/state/EXPIRED"
+msgstr "無効な招待です。"
+
+msgid "invites/state/REVOKED"
+msgstr "招待が取り消されました。"
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "ハンター小隊への招待"
+
+msgid "invites/text/COMP7"
+msgstr "オンスロート小隊への招待"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "オンスロート・ライト小隊への招待"
+
+msgid "invites/text/EPIC"
+msgstr "フロントライン小隊への招待"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "「フロントライン」モードでのチームトレーニングへの招待"
+
+msgid "invites/text/EVENT"
+msgstr "小隊への招待"
+
+msgid "invites/text/FALLOUT"
+msgstr "小隊への招待 (%(battleType)s)"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "制圧戦"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "スチールハント"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "戦闘への招待"
+
+msgid "invites/text/MAPBOX"
+msgstr "先行偵察小隊への招待"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "「地誌学」モードへの招待"
+
+msgid "invites/text/SORTIE"
+msgstr "分遣隊への招待"
+
+msgid "invites/text/SQUAD"
+msgstr "小隊への招待"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "分遣隊への招待"
+
+msgid "invites/text/TRAINING"
+msgstr "チームトレーニングへの招待"
+
+msgid "invites/text/UNIT"
+msgstr "チームへの招待"
+
+msgid "invites/text/creatorName"
+msgstr "送信者: %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "防衛時間"
+
+msgid "invites/text/fort/direction"
+msgstr "橋頭堡"
+
+msgid "invites/text/fort/offence"
+msgstr "攻撃:"
+
+msgid "invites/warning/anonymized"
+msgstr "招待を承諾すると、戦闘の期間中、戦術ユニットのメンバーには実際のプレイヤー名とクラン・タグが表示されます。"
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "%(name)s さんに招待を送信しました。"

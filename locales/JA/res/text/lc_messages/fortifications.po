@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "名称"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "各月"
+
+msgid "ClanListWindow/table/role"
+msgstr "役職"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "各週"
+
+msgid "battleQueue/clanPosition"
+msgstr "位置: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "位置:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "敵を探しています:"
+
+msgid "battleQueue/waitBattle"
+msgstr "戦闘待機中:"
+
+msgid "battleQueue/yourTeam"
+msgstr "あなたの分遣隊:"
+
+msgid "disconnected/Warning"
+msgstr "注意!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "拠点は一時的にご利用いただけません。後で再度お試しください。"
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "拠点はローミング中にはご利用いただけません。拠点にアクセスするには、あなたの地域サーバーをご利用ください。"
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "クランメンバー"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "傭兵"
+
+msgid "fortVehPopover/btnSave"
+msgstr "選択を保存 (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "糧食補給中！"
+
+msgid "inspire/inspiring"
+msgstr "糧食補給中！"
+
+msgid "mainWindow/maintenance/body"
+msgstr "ご不便をおかけして申し訳ございません。"
+
+msgid "mainWindow/maintenance/button"
+msgstr "アップデート"
+
+msgid "mainWindow/maintenance/header"
+msgstr "データ読み込みエラー"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "追加ブリーフィング"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "戦闘報酬"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "軍事演習"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "戦術訓練"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "追加エフェクト"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "「進撃戦」または「前衛戦」モードでの戦闘中に砲兵に指示を出して特定のエリアに対する集中砲撃を行う。"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "「進撃戦」または「前衛戦」モードでの戦闘中に自車輌および周囲の味方車輌に糧食の補給を行うことで全搭乗員の職能レベルとパークの効果を向上させる。"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "戦闘前に有効化可能なリザーブ"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "進撃戦の前に有効化可能なリザーブ"
+
+msgid "reserves/tooltip/empty"
+msgstr "有効化可能なリザーブなし"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "倉庫での保有数: %(count)s"
+
+msgid "reserves/tooltip/level"
+msgstr "Tier %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "使用時の効果"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "有効化可能"
+
+msgid "reserves/tooltip/selected"
+msgstr "有効"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "有効化できるリザーブのリストを表示します。"
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "リザーブを有効化できるのは、クランマスター、副司令官、人事担当官、戦闘士官の役職に就いている分遣隊指揮官のみです。"
+
+msgid "roster/clanMembersNotEnough"
+msgstr "分遣隊のクランメンバー数が不足: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "戦闘開始まで %(nextDate)s 分"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "開始時間は後で決められます"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "戦闘終了まで %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "前衛戦利用可能"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "次戦は %(nextDate)s に開始されます"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "戦闘開始まで %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "今日の戦闘開始時間: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "明日の戦闘開始時間: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "開始時間は後で決められます"
+
+msgid "sortie/introView/title"
+msgstr "拠点戦"
+
+msgid "sortie/listView/enterBtn"
+msgstr "参加"
+
+msgid "sortie/listView/enterText"
+msgstr "志願兵として参加可能"
+
+msgid "sortie/listView/notSelected"
+msgstr "詳細を確認するには左の一覧から\n分遣隊を選択してください。"
+
+msgid "sortie/listView/teamMembers"
+msgstr "メンバー: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "車輌:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "傭兵"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "自動編成"
+
+msgid "sortie/room/candidates"
+msgstr "志願兵"
+
+msgid "sortie/room/chat"
+msgstr "チャットチャンネル"
+
+msgid "sortie/room/description"
+msgstr "作成した分遣隊は、中立領域においてランダムな敵クランに対する戦闘に参加できます。車輌 Tier は選択した部門により決まります。"
+
+msgid "sortie/room/fight"
+msgstr "戦闘開始!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "プレイヤーを招待"
+
+msgid "sortie/room/leaveBtn"
+msgstr "分遣隊の編成に移動"
+
+msgid "sortie/room/level"
+msgstr "Tier %(level)s"
+
+msgid "sortie/room/members"
+msgstr "メンバー: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "準備中"
+
+msgid "sortie/room/ready"
+msgstr "準備完了!"
+
+msgid "sortie/room/title"
+msgstr "分遣隊"
+
+msgid "sortie/slot/emptySlot"
+msgstr "空き"
+
+msgid "sortie/slot/takePlace"
+msgstr "スロットに参加"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "戦闘に参加する車輌を選択してください。赤印は、車輌が準備未完了であることを示します。"
+
+msgid "stronghold/teamHeader"
+msgstr "分遣隊メンバー"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "傭兵用の車輌を選択"
+
+msgid "strongholdPopover/header"
+msgstr "車輌の選択"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "選択中の車輌:"
+
+msgid "strongholdbuilds/direction"
+msgstr "味方の%(direction)s橋頭堡"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "北"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "東"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "南"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "西"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "敵の橋頭堡"
+
+msgid "strongholdbuilds/mapName"
+msgstr "マップ: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "マップは進撃戦の開始後に選択されます"
+
+msgid "strongholdbuilds/point1"
+msgstr "城塞"
+
+msgid "strongholdbuilds/point2"
+msgstr "予備戦線"
+
+msgid "strongholdbuilds/point3"
+msgstr "最前線"
+
+msgid "strongholdbuilds/point4"
+msgstr "最前線"
+
+msgid "strongholdbuilds/point5"
+msgstr "予備戦線"
+
+msgid "strongholdbuilds/point6"
+msgstr "城塞"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "この橋頭堡での進撃戦における各日初勝利に対して x%(reward)s"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "両方の戦線を喪失した上で城塞を防衛した場合"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "最前線を喪失し、予備戦線を防衛した場合"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "敵の戦線を占領せずに両方の戦線を防衛した場合"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "最前線のみを占領した場合"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "城塞を占領せずに両方の戦線を占領した場合"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "敵の城塞を占領した場合"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "(リザーブ「徴用」から)"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "進撃戦後に授与"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "傭兵に隠す"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "分遣隊が表示されます"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "傭兵に表示"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "分遣隊は表示されません"
+
+msgid "strongholddirection/A"
+msgstr "北"
+
+msgid "strongholddirection/B"
+msgstr "東"
+
+msgid "strongholddirection/C"
+msgstr "南"
+
+msgid "strongholddirection/D"
+msgstr "西"
+
+msgid "strongholdinfo/sortie"
+msgstr "部門 %(level)s 前衛戦"
+
+msgid "strongholdinfo/stronghold"
+msgstr "%(direction)s橋頭堡からの進撃戦"
+
+msgid "strongholdmap/randomMap"
+msgstr "ランダムマップ"
+
+msgid "strongholdreserve/boost"
+msgstr "糧食補給"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "大量輸送隊"
+
+msgid "strongholdreserve/requisition"
+msgstr "徴用"
+
+msgid "strongholdreserve/support"
+msgstr "砲兵射撃"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "前衛戦および進撃戦において 1 戦有効"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "進撃戦の結果に対して"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "戦闘開始時に発動"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "進撃戦の開始時に発動"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "戦闘中にリザーブを使用することで発動"
+
+msgid "strongholdtable/rating"
+msgstr "レーティング"
+
+msgid "strongholdtable/roster"
+msgstr "編成"
+
+msgid "strongholdtable/tech"
+msgstr "車輌"
+
+msgid "strongholdtitle/sortie"
+msgstr "前衛戦"
+
+msgid "strongholdtitle/stronghold"
+msgstr "%(direction)s橋頭堡からの進撃戦"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}境界線{/HEADER}{BODY}中立領域であり、勝者が次戦において敵の戦線を攻撃します。引き分けに終わった場合は、攻撃側チームはランダム選択されます。{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "%(direction)s橋頭堡からの進撃戦"
+
+msgid "strongholdtooltips/hours"
+msgstr "時間"
+
+msgid "strongholdtooltips/minuts"
+msgstr "分"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "部門 %(level)s 前衛戦"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "「戦闘開始!」ボタンを押した後、傭兵に対してこのタイプの車輌が自動的に割り当てられます。\n\nクリックして確定するか、傭兵用として選択した車輌タイプをキャンセルしてください。"
+
+msgid "unit/window/willSearchPlayers"
+msgstr "空席に傭兵が自動的に追加されます"

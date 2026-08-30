@@ -1,0 +1,353 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT翻译团队 <noreply@wargaming.net>\nLanguage-Team: WoT团队 <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprints/buttonLabel/gotoblueprints"
+msgstr "前往蓝图"
+
+msgid "blueprints/card/additional"
+msgstr "选择："
+
+msgid "blueprints/card/convertAvailable"
+msgstr "可创建碎片：%(count)s"
+
+msgid "blueprints/card/convertRequired"
+msgstr "碎片不足"
+
+msgid "blueprints/card/plus"
+msgstr "+"
+
+msgid "blueprints/carousel/title"
+msgstr "可用于拼装的蓝图："
+
+msgid "blueprints/checkbox/label"
+msgstr "可用于创建碎片"
+
+msgid "blueprints/nationBar/title"
+msgstr "通用和国家蓝图碎片"
+
+msgid "blueprints/noItems/discount/body"
+msgstr "每一个加入到蓝图槽位的碎片都会提供战车研发的折扣。拼装完成的蓝图可以让您无需花费经验就可研发这辆战车。"
+
+msgid "blueprints/noItems/discount/header"
+msgstr "获得研发折扣"
+
+msgid "blueprints/noItems/fill/body"
+msgstr "将几个通用蓝图碎片和国家蓝图碎片转换为一个特定战车的碎片。"
+
+msgid "blueprints/noItems/fill/header"
+msgstr "拼装战车蓝图"
+
+msgid "blueprints/noItems/receive/body"
+msgstr "完成任务的奖励中可能包含蓝图碎片。重复的碎片会转换为通用碎片或国家碎片。"
+
+msgid "blueprints/noItems/receive/header"
+msgstr "收集碎片"
+
+msgid "blueprints/title"
+msgstr "未研发战车的蓝图"
+
+msgid "buttonDeconstruct/tooltip/body"
+msgstr "点击将装备拆解为部件。"
+
+msgid "buttonDeconstruct/tooltip/header"
+msgstr "拆解"
+
+msgid "buttonLabel/activate"
+msgstr "前往激活"
+
+msgid "buttonLabel/preview"
+msgstr "预览"
+
+msgid "buttonLabel/remove"
+msgstr "移除"
+
+msgid "buttonLabel/restore"
+msgstr "前往找回"
+
+msgid "buttonLabel/select"
+msgstr "选择"
+
+msgid "buttonLabel/sell"
+msgstr "出售"
+
+msgid "buttonSell/tooltip/body"
+msgstr "点击出售装备。"
+
+msgid "buttonSell/tooltip/header"
+msgstr "出售"
+
+msgid "buttonUpgrade/tooltip/body"
+msgstr "升级装备属性。"
+
+msgid "card/attachment/hover/partOfBundle/label"
+msgstr "%(bundleName)s的一部分。\n您可以在外观下的3D配饰版块中查看适用战车列表。"
+
+msgid "card/cannotSellTitle"
+msgstr "无法出售"
+
+msgid "card/vehicle/hover/maxAdditionalPriceLabel"
+msgstr "+ 退还数量："
+
+msgid "card/vehicle/hover/restoreAvailableLabel"
+msgstr "找回已可用"
+
+msgid "card/vehicle/tradeOffPriceLabel"
+msgstr "预计价格："
+
+msgid "crewBooks/filters/nation"
+msgstr "国家"
+
+msgid "crewBooks/filters/nation/all"
+msgstr "全部"
+
+msgid "crewBooks/filters/title"
+msgstr "类型"
+
+msgid "crewBooks/noItems/info"
+msgstr "这里没有乘员书籍。您可以在完成任务的奖励中找到书籍。"
+
+msgid "customization/noItems/navigationButton"
+msgstr "前往外观"
+
+msgid "customization/noItems/title"
+msgstr "显示不使用于车库中任意战车的自定义元素。"
+
+msgid "customization/sectionTitle"
+msgstr "外观"
+
+msgid "customizationSuitable/label"
+msgstr "适用于战车： "
+
+msgid "customizationSuitableForAll/label"
+msgstr "适用于所有战车"
+
+msgid "devices/filters/all"
+msgstr "所有装备"
+
+msgid "devices/filters/deluxe"
+msgstr "改进型"
+
+msgid "devices/filters/modernized"
+msgstr "试验型"
+
+msgid "devices/filters/simple"
+msgstr "标准"
+
+msgid "devices/filters/trophy"
+msgstr "赏金"
+
+msgid "equipment/cooldown"
+msgstr "冷却时间为%(cooldown)s秒。"
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s\n%(extendedDescr)s"
+
+msgid "filter/noResultsBtn/label"
+msgstr "重置过滤器"
+
+msgid "filter/someTiersOnlyMessage"
+msgstr "仅能为II-X级战车制作蓝图碎片。"
+
+msgid "filter/warningMessage"
+msgstr "未找到结果。请更改设置或重置过滤器。"
+
+msgid "forSell/noItems/title"
+msgstr "显示不适用于任何战车的模块和炮弹"
+
+msgid "forSell/sectionTitle"
+msgstr "模块和炮弹出售"
+
+msgid "inhangar/filterTitle"
+msgstr "已显示:"
+
+msgid "inhangar/noImage"
+msgstr "图片不可用"
+
+msgid "inhangar/noItems/allTab/title"
+msgstr "车库中没有战车"
+
+msgid "inhangar/noItems/rentTab/title"
+msgstr "未找到租用战车。"
+
+msgid "inhangar/noItems/restoreTab/title"
+msgstr "您可以使用银币找回出售的高级战车和特殊战车。\n您没有可找回的战车。"
+
+msgid "inhangar/sectionTitle"
+msgstr "车库中的战车"
+
+msgid "inhangar/tabs/all"
+msgstr "战车"
+
+msgid "inhangar/tabs/rent"
+msgstr "租用"
+
+msgid "inhangar/tabs/restore"
+msgstr "找回"
+
+msgid "inventory/filterType/consumables"
+msgstr "消耗品"
+
+msgid "inventory/filterType/instructions"
+msgstr "指令"
+
+msgid "inventory/filterType/other"
+msgstr "其他"
+
+msgid "markEverything"
+msgstr "出售全部道具价格："
+
+msgid "moduleCompatible/label"
+msgstr "战车适用："
+
+msgid "moduleCompatible/moreVehicles"
+msgstr "...及其他%(vehCount)s辆战车"
+
+msgid "notAvailable/navigationButton"
+msgstr "返回车库"
+
+msgid "notAvailable/title"
+msgstr "正在进行盘点，仓库不可用"
+
+msgid "offers/expiration"
+msgstr "至%(date)s%(time)s"
+
+msgid "offers/giftAmount"
+msgstr "奖励选择：%(gifts)s"
+
+msgid "offers/giftsTitle"
+msgstr "可用奖励：%(gifts)s"
+
+msgid "offers/noItems/title"
+msgstr "服务暂时不可用。\n请稍后回来查看或访问商店。"
+
+msgid "offers/sectionTitle"
+msgstr "家园补给"
+
+msgid "optDevice/hover/effect"
+msgstr "{effectTagOpen}效果：{effectTagClose}"
+
+msgid "personalreserves/activeCountLabel"
+msgstr "储备已激活：%(activeCount)s / %(totalCount)s"
+
+msgid "personalreserves/card/activated"
+msgstr "已激活"
+
+msgid "personalreserves/card/notAvailable"
+msgstr "不可用"
+
+msgid "personalreserves/durationFilter/btn/label"
+msgstr "%(durTime)s时"
+
+msgid "personalreserves/durationFilter/label"
+msgstr "时间："
+
+msgid "personalreserves/filterTitle"
+msgstr "已显示:"
+
+msgid "personalreserves/navigateToShopLabel"
+msgstr "在商店中购买"
+
+msgid "personalreserves/noItems/title"
+msgstr "仓库中没有储备。您可以在商店中购买额外的储备。"
+
+msgid "personalreserves/sectionTitle"
+msgstr "个人储备"
+
+msgid "personalreserves/typeFilter/label"
+msgstr "类型"
+
+msgid "restoreTimeLeft/timeless"
+msgstr "无限期"
+
+msgid "shellCompatible/label"
+msgstr "火炮适用："
+
+msgid "shellCompatible/moreGuns"
+msgstr "...及其他%(vehCount)s门火炮"
+
+msgid "storage/balanceLabel"
+msgstr "可用："
+
+msgid "storage/filterTitle"
+msgstr "已显示:"
+
+msgid "storage/noItems/navigationButton"
+msgstr "到商店"
+
+msgid "storage/noItems/title"
+msgstr "仓库中没有道具，您可以在商店中购买。"
+
+msgid "storage/noItems/titleShort"
+msgstr "仓库中无道具"
+
+msgid "storage/sectionTitle"
+msgstr "库存"
+
+msgid "storage/tabs/all"
+msgstr "全部"
+
+msgid "storage/tabs/consumable"
+msgstr "消耗品"
+
+msgid "storage/tabs/crewBooks"
+msgstr "乘员书籍"
+
+msgid "storage/tabs/devices/filter/type/label"
+msgstr "类别"
+
+msgid "storage/tabs/equipment"
+msgstr "装备"
+
+msgid "storage/tabs/modules"
+msgstr "模块"
+
+msgid "storage/tabs/modules/filter/appropriate/label"
+msgstr "适于"
+
+msgid "storage/tabs/modules/filter/type/label"
+msgstr "类型"
+
+msgid "storage/tabs/shells"
+msgstr "炮弹"
+
+msgid "storage/tabs/shells/filter/appropriate/label"
+msgstr "适于"
+
+msgid "storage/tabs/shells/filter/type/label"
+msgstr "类型"
+
+msgid "storage/vehicleSelectPopover/label"
+msgstr "从车库选择战车"
+
+msgid "stylePreview/tooltip"
+msgstr "风格预览"
+
+msgid "vehicleSelectPopover/noVehicles"
+msgstr "未找到符合\n搜索条件的战车"
+
+msgid "vehicleSelectPopover/tooltips/level/body"
+msgstr "按战车等级排序"
+
+msgid "vehicleSelectPopover/tooltips/level/header"
+msgstr "等级"
+
+msgid "vehicleSelectPopover/tooltips/nation/body"
+msgstr "按战车国家排序。"
+
+msgid "vehicleSelectPopover/tooltips/nation/header"
+msgstr "国家"
+
+msgid "vehicleSelectPopover/tooltips/title/body"
+msgstr "按战车名称排序。"
+
+msgid "vehicleSelectPopover/tooltips/title/header"
+msgstr "名称"
+
+msgid "vehicleSelectPopover/tooltips/type/body"
+msgstr "按战车类型排序。"
+
+msgid "vehicleSelectPopover/tooltips/type/header"
+msgstr "类型"
+
+msgid "vehicleSelectPopover/vehicleName"
+msgstr "名称"

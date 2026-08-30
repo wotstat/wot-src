@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "ทำให้ชุดกระสุนสามารถยิงจากตับกระสุนทีละนัดโดยแต่ละนัดจะค่อยๆบรรจุใหม่โดยอัตโนมัติ"
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "ทำให้ชุดกระสุนสามารถยิงจากตับกระสุนทีละนัดโดยแต่ละนัดจะค่อยๆบรรจุใหม่โดยอัตโนมัติ เพิ่มโบนัสให้กับความเร็วการบรรจุนัดถัดไปในระหว่างทำการบรรจุ"
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "ทำการยิงกระสุนเป็นชุดหลายนัดเพื่อทำความเสียหายสูงในระยะเวลาสั้นๆ แต่ก็แลกกับการเจาะเกราะและความแม่นยำที่ลดลง มีประสิทธิภาพที่สุดในการรบระยะประชิด"
+
+msgid "abilities/common/description/damageMutable"
+msgstr "ยิงกระสุนดาวที่ทำความเสียหายสูงสุดในระยะ 50 เมตร ความเสียหายของกระสุนจะลดลงที่ระยะไกลขึ้นทำให้กระสุนแบบนี้มีประสิทธิภาพสูงสุดในการรบประชิด"
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "ระบบหล่อเย็นเฉพาะที่ทำให้สามารถเล็งสองระดับได้: การรอหลังจากบรรจุทำให้ปืนยิงได้อย่างแม่นยำมากขึ้น ความแม่นยำที่เพิ่มขึ้นจะแสดงเป็นวงกลงเล็งที่สองที่เล็กกว่า"
+
+msgid "abilities/common/description/dualGun"
+msgstr "ระบบปืนคู่ที่สามารถยิงทั้งสองกระบอกเป็นเอกเทศหรือยิงพร้อมกัน กระสุนคู่จะทำความเสียหายชุดที่สูงแต่ก็ต้องแลกด้วยการบรรจุที่นานขึ้น"
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "ทำให้ตัวถังพาหนะเปลี่ยนมุมการยกตัวและทำให้ยิงจากจุดยิงที่หลากหลายมากขึ้นในการรบ การเปิดใช้นั้นขึ้นกับเงื่อนไขหลายอย่าง"
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "เปลี่ยนตำแหน่งของล้อเพิ่มเติมเพื่อเพิ่มความเร็วให้มากขึ้นแต่ก็แลกกับความคล่องตัวที่ลดลง เหมาะกับการแล่นระยะไกลและพุ่งโจมตีมากที่สุด"
+
+msgid "abilities/common/description/magazineGun"
+msgstr "ทำให้สามารถยิงกระสุนเป็นชุดจากตับกระสุนก่อนต้องทำการบรรจุทั้งหมด ทำความเสียหายเป็นชุดที่สูงแต่ยานเกราะจะไม่สามารถยิงป้องกันตัวระหว่างบรรจุได้ สามารถบรรจุใหม่ทั้งตับกระสุนได้ทันที"
+
+msgid "abilities/common/description/overheatGun"
+msgstr "ปืนใหญ่สามารถยิงต่อเนื่องโดยไม่จำเป็นต้องทำการบรรจุ แต่ละนัดที่ยิงจะทำให้เกิดความร้อน ยิ่งความร้อนสูงเท่าใด ค่าคุณลักษณะของปืนบางอย่างก็จะเปลี่ยนมากขึ้น การยิงต่อเนื่องทำให้ปืนเริ่มร้อนเกินปกติและทำให้ยิงไม่ได้จนกว่าปืนจะเย็นลง"
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "เพิ่มกำลังเครื่องยนต์และความเร็วสูงสุดสำหรับการแล่นข้ามสนามรบอย่างรวดเร็ว เมื่อเปิดใช้งานแล้ว ตัวเร่งไอพ่นจะลดความคล่องตัวและไม่สามารถปิดใช้งานด้วยตัวเอง"
+
+msgid "abilities/common/description/siegeMode"
+msgstr "เมื่อเปิดใช้ รูปแบบพิเศษจะเพิ่มและ/หรือเปลี่ยนค่าการรบบางอย่าง ใช้ได้ดีที่สุดเมื่อเข้าตำแหน่งและพร้อมยิงต่อสู้ข้าศึก"
+
+msgid "abilities/common/description/stun"
+msgstr "ทำให้ข้าศึกในระยะรัศมีระเบิดมึนงง แม้ว่าจะไม่เข้าเป้าก็ตามซึ่งจะทำให้ความคล่องตัว, ความแม่นยำและเวลาบรรจุแย่ลงชั่วคราว ข้าศึกที่มึนงงจะทำเครื่องหมายมึนงงระบุเอาไว้"
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "ทำให้พาหนะยังสามารถแล่นต่อได้แต่มีความเร็วลดลงแม้ว่าตีนตะขาบหลักจะถูกทำลาย การเสียตีนตะขาบภายนอกจะลดความคล่องตัวเพิ่มขึ้นแต่ยานเกราะจะยังสามารถหมุนและแล่นได้"
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "ทำให้ยานเกราะแล่นได้เร็วขึ้นแต่ลดการควบคุมปืนลงอย่างมาก"
+
+msgid "abilities/common/description/twinGun"
+msgstr "เมื่อเปิดใช้แล้ว รูปแบบพิเศษนี้จะทำให้ทำความเสียหายสองเท่าและเพิ่มและ/หรือเปลี่ยนค่าการรบบางอย่าง เหมาะที่สุดในการรบระยะประชิด"
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "ระบบป้อนกระสุนอัตโนมัติ"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "ระบบป้อนกระสุนอัตโนมัติรุ่นปรับปรุง"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "ปืนใหญ่อัตโนมัติ"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "ปืนเกลียวลึก"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "การหล่อเย็นปืน"
+
+msgid "abilities/common/name/dualGun"
+msgstr "ปืนคู่"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "ช่วงล่างไฮโดรนิวมาติค"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "รูปแบบเร็ว"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "ระบบป้อนกระสุนอัตโนมัติ"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "ปืนใหญ่อัตโนมัติควบคุมความร้อน"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "ตัวเร่งไอพ่น"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "ยิงเร่งด่วน"
+
+msgid "abilities/common/name/stun"
+msgstr "ทำให้มึนงง"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "ตีนตะขาบสำรอง"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "ระบบเทอร์โบ"
+
+msgid "abilities/common/name/twinGun"
+msgstr "ระบบการระดมยิง"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "ในการอยู่นิ่งหรือแล่นช้า คุณจะค่อยๆเพิ่มขั้นความแม่นยำสำหรับการยิงครั้งต่อไปของคุณที่ขั้นความแม่นยำสูงสุด\nคุณจะมีการควบคุมปืนที่ค่อนข้างดีโดยมีการกระจายกระสุนลดลงแม้จะขยับหรือหันป้อมปืนและตัวถังก็ตาม"
+
+msgid "abilities/special/description/battleFury"
+msgstr "ทุกครั้งคุณยิงกระสุนเข้าข้าศึก คุณก็จะได้ขั้นประสิทธิภาพการบรรจุซึ่งเพิ่มความเร็วการบรรจุกระสุนเป็นการชั่วคราว การยิงเข้าแต่ละครั้งนั้นจะเป็นการสะสมขั้น\nการทำลายพาหนะข้าศึกได้ด้วยกระสุนจะทำให้มีขั้นประสิทธิภาพการบรรจุเพิ่มเติม"
+
+msgid "abilities/special/description/chargeShot"
+msgstr "เมื่อปืนของคุณบรรจุแล้ว คุณสามารถเริ่มเพิ่มความร้อนนัดถัดไปของคุณเพื่อให้ทำความเสียหายได้มากขึ้น ยิ่งขั้นความร้อนสูงขึ้่น ผลก็จะเพิ่มขึ้นตาม\nที่ความร้อนสูงสุด คุณจะมีเวลาหลายวินาทีให้ยิง แต่ถ้าคุณไม่ยิงจนพ้นเวลา คุณจะไม่สามารถยิงได้ชั่วคราว"
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "การยิงเจาะเกราะเข้าพาหนะข้าศึกสองครั้งจะเปิดใช้รูปแบบยิงชุดอีกทั้งทำการบรรจุตลับกระสุนยิงชุดที่ทำให้คุณยิงสองนัดอย่างต่อเนื่องในการยิงครั้งต่อไปเพื่อทำความเสียหายจำนวนมาก"
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "วงแหวนปรับเสถียรลมนั้นเพิ่มการปรับเสถียรให้สูงสุดระหว่างที่กำลังแล่น, หมุนป้อมปืนและตัวถังทำให้ทำการยิงระหว่างแล่นได้แม่นยำกว่าเดิมรวมไปถึงตอบสนองกับภัยฉับพลันได้รวดเร็วและยิงปะทะจากที่กำบังได้อย่างมีประสิทธิภาพ"
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "ระบบจะเริ่มทำการบรรจุตลับใหม่อัตโนมัติเมื่อมีกระสุนเหลือหนึ่งนัดในตลับปัจจุบันทำให้คุณพร้อมปะทะตลอด คุณยังสามารถยิงกระสุนนัดสุดท้ายในระหว่างการบรรจุได้แต่การยิงจะเพิ่มเวลาหลายวินาทีให้กับเวลาการบรรจุที่เหลือ"
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "ระบบจะทำการหล่อเย็นให้กับตัวปืนและทำให้ยิงอย่างแม่นยำได้ ปืนจะค่อยๆเพิ่มความร้อนเมือ่ทำการยิงแต่จะเริ่มเย็นลงและคืนค่าคุณลักษณะระหว่างบรรจุใหม่ ยิ่งอุณหภูมิสูงเท่าใด ค่าคุณลักษณะของปืนบางอย่างก็จะเปลี่ยนมากขึ้น "
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "แบบร่างที่มาจากประสบการณ์การออกแบบของรุ่นก่อนๆหน้า ยานเกราะนี้ถูกปรับมาเฉพาะสำหรับการพุ่งชนระดับร้ายแรง การเสริมโครงสร้างทำให้ยานเกราะสามารถทำความเสียหายมากขึ้นเมื่อพุ่งชนยานเกราะข้าศึกทำให้มีความได้เปรียบในการปะทะในระยะประชิด"
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "ปืนยานเกราะคันนี้สามารถยิงก่อนได้ในแบบกระสุนประจุเดียว, ยิงในช่วงบรรจุ, มีประสิทธิภาพลดลง ในขณะที่กระสุนประจุเต็มที่จะยิงหลังบรรจแต่มีคุณลักษณะขีปนวิถีที่เหมาะสมกว่า"
+
+msgid "abilities/special/description/overheatGun"
+msgstr "ปืนใหญ่สามารถยิงต่อเนื่องโดยไม่จำเป็นต้องทำการบรรจุ แต่ละนัดที่ยิงจะทำให้เกิดความร้อน ยิ่งความร้อนสูงเท่าใด ค่าคุณลักษณะของปืนบางอย่างก็จะเปลี่ยนมากขึ้น การยิงต่อเนื่องทำให้ปืนเริ่มร้อนเกินปกติและทำให้ยิงไม่ได้จนกว่าปืนจะเย็นลง"
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "การอยู่นิ่งหรือแล่นช้าๆเพื่อเพิ่มความร้อนล่วงหน้าซึ่งจะเพิ่มความเสียหายโดยเฉลี่ยและความแม่นยำกระสุนนัดต่อไปของคุณ ที่ขั้นเพิ่มความร้อนล่วงหน้าสูงสุด การยิงเจาะเกราะข้าศึกที่มีความทนทานเหลือน้อยกว่าความเสียหายเฉลี่ยของคุณจะทำให้ข้าศึกรางกระสุนระเบิดและทำลายพาหนะคันดังกล่าวทันที"
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "รูปแบบนี้เปลี่ยนยานเกราะของคุณเป็นฐานยิงปืนหุ้มเกราะทำให้มีความแม่นยำชั้นยอดและบรรจุกระสุนได้เร็วขึ้น แต่นี่ก็แลกด้วยความคล่องตัวพาหนะโดยที่ความเร็วเดินหน้าและถอยหลังกับการหันแนวตั้งและแนวระนาบจะถูกจำกัดอย่างมาก"
+
+msgid "abilities/special/description/powerMode"
+msgstr "รูปแบบนี้จะทำการเร่งกำลังเครื่องยนต์และความเร็วเดินหน้าอย่างมาก ยิ่งคุณแล่นเดินหน้านานเท่าใด ความเร็วก็จะเพิ่มขึ้นมากขึ้นตามทำให้คุณสามารถพุ่งข้ามสนามรบและเข้าตำแหน่งได้ง่ายขึ้น"
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "ระบบนี้จะสะสมประจุอยู่เรื่อยๆโดยประจุที่สูงขึ้นทำให้มีโบนัสความเสียหายมากขึ้น ประจุจะมีค่าสูงสุดกดเอาไว้โดยตัวจำกัดที่สามารถปิดได้เพื่อให้มีโบนัสความเสียหายมากขึ้นแต่ก็แลกด้วยการควบคุมปืนที่แย่ลง"
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "เปิดใช้จรวดเชื้อเพลิงเหลวเมื่อใดก็ได้ที่คุณต้องการความเร็วเพิ่มตามจำเป็นที่สุด จรวดเชื้อเพลิงเหลวจะเริ่มร้อนขึ้นและต้องพักให้เย็นก่อนจะใช้ได้อีกครั้งแต่ถ้าใช้จนเกินขั้นความร้อนวิกฤตจะทำให้มันปิดตัวลงโดยสิ้นเชิงเป็นเวลาชั่วคราว"
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "จรวดไอพ่นเชื้อเพลิงแข็งที่เพิ่มอัตราการเร่ง, ความคล่องตัวและความว่องไวเป็นเวลาหลายวินาที ไอพ่นซ้ายและขวาสามารถทำงานแยกจากกันได้เพื่อให้หันตัวถังได้เร็วขึ้นและไม่จำกัดการถอยหลัง"
+
+msgid "abilities/special/description/stanceDance"
+msgstr "โดยขึ้นกับรูปแบบใช้งานและขั้นการใช้ พาหนะสามารถเปิดใช้หนึ่งในสองความสามารถได้คือ:\nเครื่องเผาไหม้เสริมประจุไอออน: เพิ่มกำลังเครื่องยนต์และความเร็ว\nศูนย์เล็งกลไกไฟฟ้าภาพเหลื่อมซ้อน: ลดการกระจายกระสุนและเวลาบรรจุและทำให้แม่นยำยิ่งขึ้น"
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "ชิ้นส่วนนี้ทำให้คุณคงอยู่ในการรบได้โดยทำให้คุณหยุดการบรรจุชั่วคราวเมื่อใดก็ได้ถ้ามีกระสุนบรรจุเอาไว้แล้วอย่างน้อยหนึ่งนัด กดปุ่มลัดเพื่อให้หยุดการบรรจุ ทำการยิงโดยมีช่วงเวลาหน่วงเล็กน้อยแล้วทำการบรรจุด้วยตัวเองหรือให้โม่บรรจุอัตโนมัติเมื่อกระสุนหมด"
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "การกดปุ่มใช้งานจะทำการยิงอาวุธรองพาหนะของคุณใส่เป้าหมาย อำนาจการยิงเพิ่มเติมจะมีรอบการบรรจุของตัวเองโดยไม่ขึ้นกับปืนหลัก"
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "กระสุนนัดถัดไปของคุณจะมีผลตามสถานะถูกพบของข้าศึก การยิงเข้าข้าศึกที่ถูกพบแล้วจะเป็นการระบุเป้าข้าศึกคันดังกล่าวโดยข้าศึกจะปรากฎนานขึ้นและได้รับความเสียหายมากกว่าเดิม การยิงเข้าข้าศึกที่ยังไม่ถูกพบจะเป็นการเปิดเผยตำแหน่งด้วยเครื่องหมายพิเศษ"
+
+msgid "abilities/special/description/twinGun"
+msgstr "ทำความเสียหายเป็นสองเท่าและทำให้การปรับเสถียรดีขึ้นแต่ก็แลกด้วยความคล่องตัว, ความแม่นยำ, ความเร็วการหมุนป้อมปืนและเวลาเล็งที่แย่ลง เหมาะที่สุดกับการยิงในระยะประชิด"
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "กลไกการปรับแต่งนี้เพิ่มอัตราการเร่งของพาหนะ, กำลังเครื่องยนต์และความเร็วเดินหน้าและถอยหลังเป็นเวลาสั้นๆ ทำให้คุณสามารถตอบสนองกับการโจมตีของข้าศึกได้อย่างรวดเร็วและเดินกลยุทธ์ชิงจังหวะจากข้าศึก"
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "อุปกรณ์คำนวณขีปนวิถีอุปมาน"
+
+msgid "abilities/special/name/battleFury"
+msgstr "รางกระสุนกึ่งอัตโนมัติ"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "การเร่งพลังดินขับ"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "การยิงชุด"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "วงแหวนปรับเสถียรลม"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "ระบบบรรจุตลับ"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "การหล่อเย็นปืนต่อเนื่อง"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "การปรับการป้อนกระสุน"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "ระบบประจุหลายชุด"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "ปืนใหญ่อัตโนมัติควบคุมความร้อน"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "ระบบควบคุมความร้อนเชื้อเพลิงขับเคลื่อน"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "รูปแบบรังปืน"
+
+msgid "abilities/special/name/powerMode"
+msgstr "กำลังขับตรง"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "ไอพ่นดินขับเหนี่ยวนำ"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "จรวดเชื้อเพลิงเหลว"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "จรวดไอพ่นตามลำดับ"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "ชุดกำลังยุทธวิธี"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "ชุดเสบียงกระสุนเพิ่มเติม"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "อาวุธรอง"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "อุปกรณ์ชี้เป้าเลเซอร์"
+
+msgid "abilities/special/name/twinGun"
+msgstr "รูปแบบการระดมยิง"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "ระบบช่วยตัวอัดอากาศเทอร์โบแรงดันสูง"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "เพิ่มความแม่นยำของกระสุนนัดต่อไปที่มีการปรับเสถียรค่อนข้างดีเมื่อปรับสูงสุด"
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "ทุกครั้งที่ยิงเข้าพาหนะข้าศึกจะเพิ่มความเร็วบรรจุปืนเป็นเวลาจำกัด"
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "เพิ่มขั้นความร้อนที่ทำความเสียหายมากขึ้นต่อพาหนะข้าศึกด้วยกระสุนนัดต่อไป"
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "ตลับยิงชุดที่ทำให้คุณยิงกระสุนสองนัดติดต่อกันได้"
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "เพิ่มการปรับเสถียรสูงสุดระหว่างแล่นและการหมุนเพื่อให้ยิงได้แม่นยำมากขึ้น"
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "เริ่มทำการบรรจุเมื่อถึงกระสุนสุดท้ายซึ่งยังสามารถยิงได้ระหว่างทำการบรรจุ"
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "ระบบหล่อเย็นต่อเนื่องที่เพิ่มความแม่นยำเมื่อปืนเย็นลง"
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "เพิ่มความเสียหายพุ่งชนที่ทำต่อพาหนะข้าศึก"
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "กลไกปืนพิเศษที่ทำให้สามารถยิงก่อนแต่มีประสิทธิภาพการยิงลดลง"
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "ระบบจะทำให้ยิ่งได้อย่างต่อเนื่องโดยไม่ต้องบรรจุใหม่และควบคุมว่าปืนจะร้อนอย่างไรเมื่อทำการยิง"
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "การอยู่นิ่งหรือแล่นช้าลงจะเพิ่มความแม่นยำและความเสียหายของกระสุนนัดถัดไป"
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "เพิ่มความแม่นยำปืนและความเร็วบรรจุอย่างมากแต่จำกัดความคล่องตัวอย่างมากเช่นกัน"
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "เร่งกำลังเครื่องยนต์, เพิ่มความเร็วสูงสุดมากขึ้นขณะที่พาหนะยังคงแล่นอยู่"
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "ระบบเก็บประจุเพื่อเพิ่มความเสียหาย ยิ่งมีประจุมากเท่าใด ความเสียหายก็จะมากขึ้นตาม"
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "ตัวเร่งที่สามารถเปิดใช้เมื่อใดก็ได้เพื่อให้มีความเร็วชั่วคราวเพิ่มขึ้น"
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "จรวดไอพ่นเชื้อเพลิงแข็งที่เพิ่มอัตราการเร่ง, ความคล่องตัวและความว่องไว"
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "เพิ่มการใช้หนึ่งในสองความสามารถเฉพาะ โดยเพิ่มความเร็วหรือการเพิ่มความแม่นยำปืน"
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "ทำให้คุณหยุดการบรรจุและยิงสวนในเวลาคับขันได้"
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "อาวุธเสริมสำหรับการเพิ่มอำนาจการยิงพร้อมๆกับปืนหลัก"
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "เพิ่มเวลาที่ข้าศึกปรากฎและเพิ่มความเสียหายที่ได้รับหรือทำการระบุข้าศึกด้วยเครื่องหมายพิเศษ"
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "ทำให้สามารถยิงได้จากปืนทั้งสองกระบอกพร้อมกันแต่แลกด้วยเวลาบรรจุที่นานขึ้น"
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "กลไกพิเศษที่เร่งกำลังเครื่องยนต์, อัตราการเร่งและความเร็วสูงสุดเป็นเวลาสั้นๆ"
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "การอยู่นิ่งหรือแล่นต่ำกว่าความเร็วระดับหนึ่งเพื่อทำให้พาหนะของคุณปรับอุปกรณ์คำนวณขีปนวิถีอุปมานและเพิ่มขั้นความแม่นยำที่จะเพิ่มความแม่นของกระสุนนัดถัดไปของคุณ ถ้าคุณแล่นเกินขีดจำกัดความเร็ว ความก้าวหน้าในการเพิ่มขั้นความแม่นยำจะพักไว้จนกว่าคุณจะลดความเร็วลง ที่ขั้นความแม่นยำสูงสุด พาหนะของคุณจะมีการปรับเสถียรปืนเกือบสมบูรณ์แบบโดยมีการกระจายกระสุนต่ำสุดขณะแล่นหรือหมุนตัวถัง/ป้อมปืน ผลนี้จะหายไปเมื่อทำการยิง"
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "ทุกครั้งคุณยิงกระสุนเข้าข้าศึกที่เห็น คุณก็จะได้ขั้นประสิทธิภาพการบรรจุซึ่งเพิ่มความเร็วการบรรจุกระสุนเป็นการชั่วคราว การยิงเข้าแต่ละครั้งนั้นจะเป็นการสะสมขั้นและการทำลายพาหนะข้าศึกได้ด้วยกระสุนจะทำให้มีขั้นประสิทธิภาพการบรรจุเพิ่มเติม"
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "ถ้าปืนของคุณบรรจุกระสุนแล้ว คุณสามารถเริ่มเพิ่มความร้อนกระสุนนัดต่อไปได้ ยิ่งขั้นความร้อนสูงเท่าใด โบนัสให้ความเสียหายเฉลี่ยก็จะเพิ่มขึ้นตาม ในช่วงการเพิ่มความร้อน คุณไม่สามารถเปลี่ยนกระสุนได้ เมื่อคุณมีความร้อนขึ้นสูงสุด ช่วงเวลานับถอยหลังก็จะเริ่มขึ้น ถ้าคุณไม่ยิงก่อนเวลาหมดลง คุณก็จะไม่สามารถยิงได้เป็นเวลาหลายวินาที"
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "ทำการยิงเจาะเกราะพาหนะข้าศึกสองครั้งเพื่อเปิดใช้การยิงชุดโดยเป็นการบรรจุตลับยิงชุดเพื่อทำให้ยิงกระสุนสองนัดต่อเนื่องในการยิงครั้งต่อไป"
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "วงแหวนปรับเสถียรลมนั้นเพิ่มการปรับเสถียรให้สูงสุดระหว่างที่หมุนป้อมปืนและตัวถังเป็นเวลาสั้นๆทำให้ทำการยิงระหว่างแล่นได้แม่นยำกว่าเดิมและตอบสนองกับภัยฉับพลันได้รวดเร็ว"
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "ระบบจะเริ่มทำการบรรจุตลับใหม่เข้ามาเมื่อยังมีกระสุนอีกหนึ่งนัดเหลืออยู่ในตลับเดิม การยิงกระสุนนัดสุดท้ายระหว่างที่ตลับใหม่กำลังบรรจุจะเพิ่มเวลาอีกหลายวินาทีให้กับเวลาบรรจุที่มีอยู่ การกดปุ่มลัดเติมกระสุนในห้องกระสุนจะทำการทิ้งกระสุนที่เหลือทั้งหมดยกเว้นกระสุนนัดสุดท้าย การกดปุ่มลัดสองครั้งจะตั้งตลับกระสุนบรรจุเต็มใหม่ทั้งหมด"
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "ระบบจะทำการหล่อเย็นให้กับตัวปืนและทำให้ยิงอย่างแม่นยำได้ ปืนจะค่อยๆเพิ่มความร้อนเมือ่ทำการยิงแต่จะเริ่มเย็นลงและคืนค่าคุณลักษณะระหว่างบรรจุใหม่ ยิ่งอุณหภูมิสูงเท่าใด ค่าคุณลักษณะของปืนบางอย่างก็จะเปลี่ยนมากขึ้น "
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "พาหนะคันนี้ปรับแต่งมาเป็นการพิเศษสำหรับการพุ่งชน ด้วยการปรับแก้การออกแบบที่ช่วยให้มันทำความเสียหายได้มากขึ้นเมื่อพุ่งเข้าชนยานเกราะข้าศึก"
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "ปืนยานเกราะคันนี้สามารถยิงก่อนได้ในแบบกระสุนประจุเดียว, ยิงในช่วงบรรจุ, มีประสิทธิภาพลดลง ในขณะที่กระสุนประจุเต็มที่จะยิงหลังบรรจแต่มีคุณลักษณะขีปนวิถีที่เหมาะสมกว่า"
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "ปืนใหญ่สามารถยิงต่อเนื่องโดยไม่จำเป็นต้องทำการบรรจุ แต่ละนัดที่ยิงจะทำให้เกิดความร้อน ยิ่งความร้อนสูงเท่าใด ค่าคุณลักษณะของปืนบางอย่างก็จะเปลี่ยนมากขึ้น การยิงต่อเนื่องทำให้ปืนเริ่มร้อนเกินปกติและทำให้ยิงไม่ได้จนกว่าปืนจะเย็นลง"
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "การอยู่นิ่งหรือแล่นต่ำกว่าความเร็วจะเป็นเพิ่มความร้อนล่วงหน้าซึ่งจะเพิ่มความเสียหายโดยเฉลี่ยและความแม่นยำกระสุนนัดต่อไปของคุณ การทำความเร็วเกินกำหนดจะค่อยๆลดโบนัสลงในขณะที่การยิงหรือเปลี่ยนกระสุนจะตั้งค่านี้ใหม่ทันที ที่ขั้นเพิ่มความร้อนล่วงหน้าสูงสุด การยิงเจาะเกราะข้าศึกที่มีความทนทานเหลือน้อยกว่าความเสียหายเฉลี่ยของคุณที่รวมค่าโบนัสสะสมไว้จะทำให้ข้าศึกรางกระสุนระเบิดและทำลายพาหนะคันดังกล่าวทันที"
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "ในรูปแบบนี้ ความแม่นยำปืน, เวลาบรรจุและมุมกด/ยกจะเพิ่มขึ้นอย่างมาก แต่ความคล่องตัว (ความเร็วเดินหน้า/ถอยหลังและความเร็วการหมุนแนวตั้ง/แนวระนาบ)จะจำกัดกว่าเดิม ค่าเปอร์เซนต์ที่ให้ไว้เป็นการเปรียบเทียบในรูปแบบยิงเร็ว"
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "กำลังขับตรงจะทำการเร่งกำลังเครื่องยนต์และความเร็วเดินหน้าอย่างมาก ยิ่งคุณแล่นเดินหน้านานเท่าใด ความเร็วก็จะเพิ่มขึ้นมากขึ้นตามทำให้คุณสามารถพุ่งข้ามสนามรบและเข้าตำแหน่งได้ง่ายขึ้น"
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "เมื่อเวลาผ่านไป ระบบจะค่อยๆเก็บประจุโดยอัตโนมัติซึ่งจะถูกใช้บางส่วนเพื่อเพิ่มความเสียหายเมื่อทำการยิง ยิ่งประจุสูงขึ้นเท่าใด โบนัสความเสียหายก็จะเพิ่มขึ้นตาม โดยมาตรฐานแล้ว ระบบจะเก็บประจุจนถึงขีดจำกัดหนึ่งเท่านั้น การปิดขีดจำกัดจะทำให้สามารถเก็บประจุได้มากยิ่งขึ้นและทำความเสียหายโบนัสได้มากกว่าเดิมแต่ควบคุมปืนได้แย่ลง"
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "จรวดเชื้อเพลิงเหลวนั้นจะเพิ่มกำลังเครื่องยนต์เป็นช่วงสั้นๆทำให้คุณเข้าถึงจุดยิงที่ได้เปรียบของสนามรบเร็วขึ้นแต่ก็จำกัดความเร็วถอยหลังและเดินหน้าของคุณ จรวดเชื้อเพลิงเหลวสามารถเปิดหรือปิดเมื่อใดก็ได้ยกเว้นหลังจากเพิ่มถึงขั้นขีดจำกัดใช้งานซ้ำ จรวดเชื้อเพลิงเหลวจะเริ่มร้อนเมื่อสั่งใช้งานและจะไม่มีให้ใช้จนกว่าจะพักความร้อนหมดซึ่งหมายความว่ามันจะไม่สามารถใช้แบบต่อเนื่องใดและการใช้ถึงขั้นร้อนวิกฤตจะทำให้จรวดปิดตัวลงโดยสิ้นเชิงเป็นเวลาชั่วคราว วางแผนการเดินกลยุทธ์ของคุณให้ดีและระวังไม่ให้ใช้จรวดผิดจังหวะ"
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "จรวดเชื้อเพลิงแข็งที่เพิ่มอัตราการเร่ง, ความคล่องตัวและความว่องไวเป็นเวลาหลายวินาที และต่างจากไอพ่นปกติที่ไอพ่นซ้ายและขวาสามารถทำงานแยกจากกันได้เพื่อให้หันตัวถังได้เร็วขึ้นและไม่จำกัดการถอยหลัง ไอพ่นแบบนี้ใช้ได้หลายครั้งในการรบแต่มีเวลาพักใช้ก่อนที่จะใช้งานได้อีกครั้ง"
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "โดยขึ้นกับรูปแบบใช้งานและขั้นการใช้ พาหนะสามารถเปิดใช้หนึ่งในสองความสามารถได้คือ: เครื่องเผาไหม้เสริมประจุไอออนหรือศูนย์เล็งกลไกไฟฟ้าภาพเหลื่อมซ้อน\nเครื่องเผาไหม้เสริมประจุไอออนเพิ่มกำลังเครื่องยนต์ชั่วคราว, ความเร็วเดินหน้าและความเร็วถอยหลังสูงสุด ส่วนความเร็วศูนย์เล็งกลไกไฟฟ้าภาพเหลื่อมซ้อน: ลดการกระจายกระสุนและเวลาบรรจุและทำให้แม่นยำยิ่งขึ้น"
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "ชิ้นส่วนเสบียงกระสุนภายนอกทำให้คุณสามารถหยุดการบรรจุและเริ่มทำการยิงเมื่อใดก็ได้ ตราบเท่าที่คุณยังมีกระสุนบรรจุเอาไว้แล้วอย่างน้อยหนึ่งนัด ในระหว่างการบรรจุ ชิ้นส่วนจะล็อคป้อมปืนและกระเปาะกระสุนภายนอกของรถและทำให้คุณไม่สามารถเล็งหรือยิ่งได้ชั่วคราวจนกว่าคุณเลือกจะหยุดกระบวนการดังกล่าว"
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "ยานเกราะคันนี้ติดตั้งชุดอาวุธรองที่มีรอบการบรรจุแยกออกจากปืนหลักทำให้คุณสามารถทำความเสียหายเพิ่มเติมในจังหวะที่คุณต้องการได้"
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "อุปกรณ์ชี้เป้าเลเซอร์นั้นเพิ่มผลพิเศษให้กับกระสุนนัดตอ่ไปของคุณโดยจะมีผลกับข้าศึกที่คุณยิงโดน ผลจะแตกต่างกันไปโดยขึ้นกับว่าข้าศึกถูกพบในจังหวะที่ถูกยิงหรือไม่ การยิงเข้าข้าศึกที่ถูกพบจะทำการระบุเป้าหมายข้าศึกดังกล่าวและเพิ่มเวลาที่ข้าศึกปรากฎและเพิ่มความเสียหายที่ข้าศึกได้รับจากกระสุน ในขณะที่การยิงโดนข้าศึกที่ยังไม่ถูกพบจะเป็นการระบุตำแหน่งข้าศึกด้วยเครื่องหมายพิเศษ"
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "ทำความเสียหายเป็นสองเท่าและทำให้การปรับเสถียรดีขึ้นแต่ก็แลกด้วยความคล่องตัว, ความแม่นยำ, ความเร็วการหมุนป้อมปืนและเวลาเล็งที่แย่ลง เหมาะที่สุดกับการยิงในระยะประชิด"
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "กลไกการปรับแต่งนี้เพิ่มอัตราการเร่งของพาหนะ, กำลังเครื่องยนต์และความเร็วเดินหน้าและถอยหลังเป็นเวลาสั้นๆ ทำให้คุณสามารถตอบสนองกับการโจมตีของข้าศึกได้อย่างรวดเร็วและเดินกลยุทธ์ชิงจังหวะจากข้าศึก การรักษาความเร็วแล่นที่สูงจะลดเวลาพักใช้ของกลไกได้มากขึ้น"
+
+msgid "characteristics/abilities/special/notes"
+msgstr "ค่าทั้งหมดนั้นเป็นการแสดงค่าสูงสุดที่เป็นไปได้ของพาหนะ อุปกรณ์, คำสั่งและยุทธปัจจัยสามารถเปลี่ยนค่าเหล่านี้ได้แต่การเปลี่ยนดังกล่าวจะไม่ถูกแสดงเอาไว้ที่นี่"
+
+msgid "characteristics/templates/upTo"
+msgstr "ได้ถึง %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "ซื้อและติดตั้ง"
+
+msgid "modules/controls/button/field_modification"
+msgstr "การปรับแต่งภาคสนาม"
+
+msgid "modules/controls/button/mount"
+msgstr "ติดตั้ง"
+
+msgid "modules/controls/button/research"
+msgstr "วิจัย"
+
+msgid "modules/controls/button/sell"
+msgstr "ขายจากโรงเก็บ"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "พาหนะยังอยู่ในการรบ คุณสามารถปรับแต่งชิ้นส่วนพาหนะได้ก็ต่อเมื่อการรบจบลง"
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "พาหนะคันนี้เสียหาย ทำการซ่อมก่อนที่จะปรับชิ้นส่วนได้"
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "ไม่สามารถติตดั้งชิ้นส่วนได้ {{module}} ใช้ร่วมกันไม่ได้"
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "พาหนะคันนี้อยู่ในหน่วยยุทธวิธี"
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "ซื้อพาหนะนี้เพื่อให้สามารถปรับแต่งชิ้นส่วนได้"
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "วิจัยชิ้นส่วนก่อนหน้าเพื่อให้วิจัยชิ้นส่วนนี้ได้"
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "วิจัยพาหนะคันนี้เพื่อให้สามารถวิจัยชิ้นส่วนของพาหนะได้"
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "ชิ้นส่วนทั้งหมดถูกวิจัยแล้ว"
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "ทำการติดตั้งชิ้นส่วนนี้แล้ว"
+
+msgid "modules/controls/descriptor/researched"
+msgstr "เลือกชิ้นส่วนหรือพาหนะเพื่อทำการวิจัย"
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "พาหนะยังอยู่ในการรบ คุณสามารถปรับแต่งชิ้นส่วนพาหนะได้ก็ต่อเมื่อการรบจบลง"
+
+msgid "modules/controls/name"
+msgstr "เลือกเอาไว้: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "ตัวถัง"
+
+msgid "modules/name/vehicleEngine"
+msgstr "เครื่องยนต์"
+
+msgid "modules/name/vehicleGun"
+msgstr "ปืน"
+
+msgid "modules/name/vehicleRadio"
+msgstr "วิทยุ"
+
+msgid "modules/name/vehicleTurret"
+msgstr "ป้อมปืน"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "ล้อ"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "พาหนะนักสะสม"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "ความสามารถในการได้รับ"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "ให้กับเงินของแต่ละการรบ"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "การโอนพลรถถังโดยไม่มีข้อเสียใดๆ"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "ประสบการณ์การรบและประสบการณ์พลรถถัง"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "พันธบัตร"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "เพิ่มขึ้น"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "ฟรี"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "เพิ่มขึ้น"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "หาพันธบัตร"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "เงินเพิ่มเติม"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "การโอนฟรี"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "ประสบการณ์เพิ่มเติม"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "ชุดซ่อมแซมฟรี"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "ความสามารถในการได้รับ"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "ให้กับเงินของแต่ละการรบ"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "การโอนพลรถถังจากพาหนะชั้นใดก็ได้โดยไม่มีข้อเสียใดๆ"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "ประสบการณ์การรบและประสบการณ์พลรถถัง"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "พันธบัตร"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "เพิ่มเติม"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "ฟรี"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "เพิ่มเติม"
+
+msgid "overview/crew/name"
+msgstr "พลรถถัง {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "ดูกลไก"
+
+msgid "overview/title/generalDescription"
+msgstr "คำอธิบายพาหนะ"
+
+msgid "overview/title/historicalReference"
+msgstr "การอ้างอิงทางประวัติศาสตร์"
+
+msgid "researchPurchase/discountTimer"
+msgstr "จนถึง {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "การกู้คืนมีให้จนถึง {{date}}"
+
+msgid "tabs/armor"
+msgstr "เกราะ"
+
+msgid "tabs/modules"
+msgstr "ชิ้นส่วน"
+
+msgid "tabs/overview"
+msgstr "ภาพรวม"
+
+msgid "tabs/stats"
+msgstr "คุณสมบัติ"
+
+msgid "tabs/vehSkillTree"
+msgstr "การยกระดับ"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "ช่วงเช่าหมดลงแล้ว"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "การสมัครถูกพักเอาไว้"

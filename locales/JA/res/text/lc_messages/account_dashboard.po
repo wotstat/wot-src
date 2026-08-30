@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animatedDogTag/heading"
+msgstr "モーション・ドッグタグ"
+
+msgid "bonusXp/descriptionDailyEarning"
+msgstr "本日の合計ボーナス: %(whiteReal_Open)s%(xp)%(whiteReal_Close)s %(icon)"
+
+msgid "bonusXp/descriptionDailyRemaining"
+msgstr "(本日残り分)"
+
+msgid "bonusXp/descriptionMoreWotPlus"
+msgstr "WoT Plusでさらにアンロック"
+
+msgid "bonusXp/descriptionMoreWotPremium"
+msgstr "WoTプレミアムでさらにアンロック"
+
+msgid "bonusXp/descriptionWotPlus"
+msgstr "%(whiteReal_Open)s%(wotPlus)%(whiteReal_Close)sまたは%(whiteReal_Open)s%(wotPremium)%(whiteReal_Close)sでアンロック"
+
+msgid "bonusXp/descriptionWotPremium"
+msgstr "%(whiteReal_Open)s%(wotPremium)%(whiteReal_Close)sでアンロック"
+
+msgid "bonusXp/heading"
+msgstr "WoTプレミアムEXPボーナス"
+
+msgid "bonusXp/unavailable"
+msgstr "EXPボーナスは現在適用できません"
+
+msgid "bonusXp/wotPlusLabel"
+msgstr "WoT Plus"
+
+msgid "bonusXp/wotPremiumLabel"
+msgstr "WoTプレミアム"
+
+msgid "bonusXp/xpAddSign"
+msgstr "+"
+
+msgid "close"
+msgstr "閉じる"
+
+msgid "dailyExperience/back"
+msgstr "戻る"
+
+msgid "dailyExperience/description"
+msgstr "勝利した戦闘の%(whiteOrange_Open)s取得EXPを3倍%(whiteOrange_Close)sに増やすことができます。特に活躍した戦闘に適用すれば、荒稼ぎも夢ではありません。"
+
+msgid "dailyExperience/details"
+msgstr "詳細"
+
+msgid "dailyExperience/footer"
+msgstr "ボーナスは「ランダム戦」、「オンスロート」、「拠点戦」、トーナメントで取得したEXPに適用できます。同じ車輌で連勝した場合は、ボーナスは遡って適用することはできません。"
+
+msgid "dailyExperience/heading"
+msgstr "勝利時に適用できるEXPボーナス%(cream_Open)s%(usesLeft)%(cream_Close)s%(parSecondary_open)s/%(usesTotal)%(parSecondary_close)s"
+
+msgid "dailyExperience/subscribe"
+msgstr "アンロック"
+
+msgid "dailyExperience/toAccountStatus"
+msgstr "アカウントステータスへ"
+
+msgid "dailyExperience/unlockLabel"
+msgstr "ボーナスは%(whiteSpanish_Open)s毎日%(whiteSpanish_Close)s以下の回数適用できます。"
+
+msgid "dailyExperience/upgrade"
+msgstr "アンロック"
+
+msgid "dailyExperience/wotPlusApplications"
+msgstr "%(plusIcon)%(cream_open)s%(applications)s%(cream_close)s回"
+
+msgid "dailyExperience/wotPlusLabel"
+msgstr "WoT Plus"
+
+msgid "dailyExperience/wotPremiumApplications"
+msgstr "%(plusIcon)%(cream_open)s%(applications)s%(cream_close)s回"
+
+msgid "dailyExperience/wotPremiumLabel"
+msgstr "WoTプレミアム"
+
+msgid "dogTags/unavailable"
+msgstr "一時的に情報を取得できません。"
+
+msgid "excludedMaps/cooldownTooltipBody"
+msgstr "マップを変更するには{cooldownStr}が経過するのを待つ必要があります。"
+
+msgid "excludedMaps/cooldownTooltipHeader"
+msgstr "マップ変更不可"
+
+msgid "excludedMaps/disabledTooltipBody"
+msgstr "「WoTプレミアムアカウント」や「WoT Plus」サブスクリプションを利用すると除外できるマップの数が増加します。"
+
+msgid "excludedMaps/disabledTooltipBodyPremium"
+msgstr "追加スロットはWoTプレミアムアカウントの特典としてアンロックできます。"
+
+msgid "excludedMaps/disabledTooltipBodyWotplus"
+msgstr "追加スロットは「WoT Plus」のサブスクリプション特典としてアンロックできます。"
+
+msgid "excludedMaps/disabledTooltipHeader"
+msgstr "スロット利用不可"
+
+msgid "excludedMaps/header"
+msgstr "マップフィルター"
+
+msgid "excludedMaps/replaceTooltipBody"
+msgstr "除外対象を別のマップに変更できます。"
+
+msgid "excludedMaps/replaceTooltipHeader"
+msgstr "マップ変更可能"
+
+msgid "excludedMaps/selectTooltipBody"
+msgstr "特定のマップを除外できます。"
+
+msgid "excludedMaps/selectTooltipHeader"
+msgstr "スロット利用可能"
+
+msgid "header/badgeTooltip"
+msgstr "戦闘中に自分のプレイヤー名の隣に表示するバッジを選択できます。バッジは、パーソナルミッションを達成したり、ゲームイベントに参加すると手に入ります。"
+
+msgid "header/clanSubtitle"
+msgstr "クラン [%(clanTag)] の%(position)"
+
+msgid "parentalControl/important"
+msgstr "【重要】"
+
+msgid "parentalControl/limitEnabled"
+msgstr "プレイ時間制限中"
+
+msgid "personalDogTag/heading"
+msgstr "カスタム・ドッグタグ"
+
+msgid "premiumAccount/WGPremium"
+msgstr "Wargamingプレミアム"
+
+msgid "premiumAccount/WGPremiumAccount"
+msgstr "Wargamingプレミアムアカウント"
+
+msgid "premiumAccount/WoTPremium"
+msgstr "WoTプレミアム"
+
+msgid "premiumAccount/WoTPremiumAccount"
+msgstr "WoTプレミアムアカウント"
+
+msgid "premiumAccount/days"
+msgstr "日"
+
+msgid "premiumAccount/minimumTimeLeft"
+msgstr "1時間未満"
+
+msgid "premiumAccount/otherBenefits"
+msgstr "他にも様々な特典あり"
+
+msgid "premiumAccount/standardAccount"
+msgstr "標準アカウント"
+
+msgid "premiumAccount/tryWoTPremiumAccount"
+msgstr "WoTプレミアムアカウント\nを試す"
+
+msgid "premiumAccount/upgrade/creditReserve"
+msgstr "クレジット庫"
+
+msgid "premiumAccount/upgrade/excludeMapSlot"
+msgstr "マップフィルター・スロット +1"
+
+msgid "premiumAccount/upgrade/experience"
+msgstr "WoTプレミアムEXPボーナス"
+
+msgid "premiumAccount/upgrade/platoonBonusCredits"
+msgstr "小隊クレジットボーナス"
+
+msgid "premiumAccount/upgrade/premiumMissions"
+msgstr "プレミアムミッション"
+
+msgid "premiumAccount/upgrade/toWoTPremiumAccount"
+msgstr "WoTプレミアムアカウント\nにアップグレード"
+
+msgid "premiumQuests/heading"
+msgstr "プレミアムミッション"
+
+msgid "reserveStock/creditBlockTitle"
+msgstr "クレジット庫"
+
+msgid "reserveStock/goldBlockTitle"
+msgstr "ゴールド庫"
+
+msgid "temporarilyUnavailable"
+msgstr "一時的に利用不可"

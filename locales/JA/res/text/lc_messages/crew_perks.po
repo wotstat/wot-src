@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "パーク「装甲修復」を習得すると、「修理キット」の使用後に車輌HPが回復します。ダメージを受けると車輌HPの回復が中断されます。\n\n車輌HPの回復速度と最大回復量は、適用されているすべての効果を含んだ合計車輌HPに基づきます。"
+
+msgid "armorPatching/alt/info"
+msgstr "「集団型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "「修理キット」を使用すると、5秒かけて{yellow_Start}車輌HP{yellow_End}が%(hpRecover)s回復するようになっています。1戦あたりの最大回復量は20%です。また、モジュールに重大な損傷がない場合でも「修理キット」を使用できます。"
+
+msgid "armorPatching/hudDescription"
+msgstr "車輌HPが回復しました。"
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "全搭乗員が100%まで習得すると、「修理キット」の使用後5秒かけて{yellow_Start}車輌HP{yellow_End}が%(hpRecover)s回復します。1戦あたりの最大回復量は20%です。また、モジュールに重大な損傷がない場合でも「修理キット」を使用できます。"
+
+msgid "armorPatching/name"
+msgstr "装甲修復"
+
+msgid "armorPatching/shortDescription"
+msgstr "@隠蔽率を向上させる。"
+
+msgid "brotherhood/alt/description"
+msgstr "パーク「戦友」を全搭乗員が習得すると、全搭乗員の職能適性にボーナスが加算されます。職能適性へのボーナスは、搭乗員の戦闘における能力や習得したパークの性能を強化します。ただし、このパークの効果が向上することはありません。車輌に特定の消耗品や拡張パーツを搭載、またはディレクティブ「換気孔の清掃」を併用することで効果が向上します。また車長のパーク「緊急対応」や無線手のパーク「共鳴」および「特級通信士」を習得することでさらに効果が向上します。"
+
+msgid "brotherhood/alt/info"
+msgstr "「集団型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "全搭乗員の{greenBright_Start}職能適性{greenBright_End}に%(crewLevelIncrease)sのボーナスが加算されています&zwnbsp;。"
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "全搭乗員が100%まで習得すると、{greenBright_Start}職能適性{greenBright_End}に%(crewLevelIncrease)sのボーナスが加算されます&zwnbsp;。"
+
+msgid "brotherhood/name"
+msgstr "戦友"
+
+msgid "brotherhood/shortDescription"
+msgstr "全搭乗員の能力を向上させる。"
+
+msgid "camouflage/alt/description"
+msgstr "パーク「カモフラージュ」を習得すると、隠蔽率が向上します。ディレクティブ「擬装」を併用すれば効果をさらに引き上げることができます。\n\n車輌に迷彩パターンやスタイルを適用したり特定の拡張パーツを搭載すると隠蔽率がさらに向上します。"
+
+msgid "camouflage/alt/info"
+msgstr "「集団型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "camouflage/currentLvlDescription"
+msgstr "{greenBright_Start}隠蔽率{greenBright_End}が%(maskingFactor)s向上しています&zwnbsp;。"
+
+msgid "camouflage/maxLvlDescription"
+msgstr "全搭乗員が100%まで習得すると、{greenBright_Start}隠蔽率{greenBright_End}が%(maskingFactor)s向上します&zwnbsp;。"
+
+msgid "camouflage/name"
+msgstr "カモフラージュ"
+
+msgid "camouflage/shortDescription"
+msgstr "隠蔽率を向上させる。"
+
+msgid "commander_coordination/alt/description"
+msgstr "パーク「空間認知」を習得すると、自車輌が敵車輌を発見してから一定の間、照準速度が向上します。複数の敵車輌を立て続けに発見しても、効果は累算されません。\n\n砲手のパーク「高速照準」を習得したり、車輌に特定の拡張パーツを搭載することでさらに効果が向上します。"
+
+msgid "commander_coordination/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "自車輌が敵車輌を発見してから15秒間、{yellow_Start}照準速度{yellow_End}が%(vehicleGunAimSpeed)s向上します。"
+
+msgid "commander_coordination/hudDescription"
+msgstr "照準速度が向上しています。"
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "100%まで習得すると、自車輌が敵車輌を発見してから15秒にわたって {yellow_Start}\n照準速度{yellow_End}が%(vehicleGunAimSpeed)s向上します。"
+
+msgid "commander_coordination/name"
+msgstr "空間認知"
+
+msgid "commander_coordination/shortDescription"
+msgstr "照準速度を向上させる。"
+
+msgid "commander_eagleEye/alt/description"
+msgstr "パーク「偵察」を習得すると、視認範囲が拡大されます。無線手がパーク「状況判断力」を習得したり、車輌に特定の消耗品や拡張パーツを搭載すると視認範囲がさらに拡大されます。ディレクティブ「光学機器の調整」を併用すると拡張パーツの効果がさらに引き上げられます。"
+
+msgid "commander_eagleEye/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}視認範囲{greenBright_End}が%(circularVisionRadius)s拡大されています&zwnbsp;。{greenBright_Start}損傷した観測装置へのペナルティー{greenBright_End}が%(penaltyToDamagedSurveyingDevice)s軽減されています&zwnbsp;。"
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "損傷した観測装置へのペナルティーが軽減されています。"
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}視認範囲{greenBright_End}が%(circularVisionRadius)s拡大し&zwnbsp;、{greenBright_Start}損傷した観測装置へのペナルティー{greenBright_End}が%(penaltyToDamagedSurveyingDevice)s軽減されます&zwnbsp;。"
+
+msgid "commander_eagleEye/name"
+msgstr "偵察"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "視認範囲を拡大する。観測装置が損傷するとボーナス値が向上する。"
+
+msgid "commander_emergency/alt/description"
+msgstr "パーク「緊急対応」を習得すると、敵車輌からダメージを受けた際、一定の時間にわたって職能適性にボーナスが加算されます。ただし、ダメージを立て続けに受けても効果は累算されません。職能適性へのボーナスは、搭乗員の戦闘における能力を強化します。車輌に特定の消耗品や拡張パーツを搭載、またはディレクティブ「換気孔の清掃」を併用することで効果が向上します。加えて集団型パーク「戦友」や無線手のパーク「共鳴」および「特級通信士」を習得することでさらに効果が向上します。"
+
+msgid "commander_emergency/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "敵車輌から攻撃を受けると、15秒間にわたって{yellow_Start}職能適性{yellow_End}に%(crewLevelIncrease)sのボーナスが加算されます。"
+
+msgid "commander_emergency/hudDescription"
+msgstr "職能適性にボーナスが加算される。"
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "100%まで習得すると、敵車輌から攻撃を受けてから15秒間、{yellow_Start}職能適性{yellow_End}に%(crewLevelIncrease)sのボーナスが加算されます。"
+
+msgid "commander_emergency/name"
+msgstr "緊急対応"
+
+msgid "commander_emergency/shortDescription"
+msgstr "職能適性にボーナスが加算される。"
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "パーク「音響探知」を習得すると、敵自走砲に狙われた際に一定の遅延を挟んで砲弾の飛来方向を把握できるようになります。\n\nディレクティブ「重点警戒」を併用することで効果が向上します。"
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "敵自走砲に狙われた際に%(artNotificationDelayFactor)sの遅延を挟んで{yellow_Start}自走砲弾の飛来方向{yellow_End}を把握できるようになっています。さらに{greenBright_Start}スタンによるペナルティー{greenBright_End}が%(stunResistanceEffectFactor)s軽減されています&zwnbsp;。"
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "100%まで習得すると、敵自走砲に狙われた際に%(artNotificationDelayFactor)sの遅延を挟んで{yellow_Start}自走砲弾の飛来方向{yellow_End}を把握できるようになります。さらに{greenBright_Start}スタンによるペナルティー{greenBright_End}が%(stunResistanceEffectFactor)s軽減されます&zwnbsp;。"
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "音響探知"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "敵自走砲に狙われた際に砲弾の飛来方向を通知する。"
+
+msgid "commander_holdLine/alt/description"
+msgstr "パーク「孤軍奮闘」を習得すると、敵車輌の数が味方車輌より一定数以上多い際に職能適性にボーナスが加算されます。職能適性へのボーナスは、搭乗員の戦闘における能力を強化します。\n\n車輌に特定の消耗品や拡張パーツを搭載、またはディレクティブ「換気孔の清掃」を併用することで効果が向上します。また、他のさまざまな搭乗員パークでもこのパラメーターを向上させることができます。"
+
+msgid "commander_holdLine/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "敵車輌の数が味方車輌より3輌以上多い場合、{yellow_Start}職能適性{yellow_End}に%(crewLevelIncrease)sのボーナスが加算されるようになっています。&zwnbsp;"
+
+msgid "commander_holdLine/hudDescription"
+msgstr "敵が優勢のため、職能適性にボーナスが加算されています。"
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "100%まで習得すると、敵車輌の数が味方車輌より3輌以上多い場合、{yellow_Start}職能適性{yellow_End}に%(crewLevelIncrease)sのボーナスが加算されます。&zwnbsp;"
+
+msgid "commander_holdLine/name"
+msgstr "孤軍奮闘"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@職能適性にボーナスを加算する。"
+
+msgid "commander_practical/alt/description"
+msgstr "パーク「能率的収納」を習得すると、消耗品のクールダウン時間が短縮されます。搭載している消耗品の種類は問いません。\n\nディレクティブ「万全の準備」を併用することで効果が向上します。"
+
+msgid "commander_practical/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}消耗品のクールダウン時間{greenBright_End}が%(equipmentPreparationTime)s短縮されています&zwnbsp;。"
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "100%まで習得すると、消耗品の{greenBright_Start}クールダウン{greenBright_End}に要する時間が%(equipmentPreparationTime)s短縮されます&zwnbsp;。"
+
+msgid "commander_practical/name"
+msgstr "能率的収納"
+
+msgid "commander_practical/shortDescription"
+msgstr "消耗品のクールダウン時間を短縮する。"
+
+msgid "commander_sixthSense/alt/description"
+msgstr "車長が負傷すると「第六感」の効果が発動しなくなります。無線手のパーク「信号傍受」を習得すると、「第六感」が発動するまでの時間が短縮されます。"
+
+msgid "commander_sixthSense/alt/info"
+msgstr "「第六感」は車長限定の能力です。デフォルトで習得が完了しているため訓練は必要ありません。"
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "自車輌が敵に発見されてから%(delay)sが経過した際にそれを察知できるようにしています。"
+
+msgid "commander_sixthSense/name"
+msgstr "第六感"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "自車輌が敵に発見された際にそれを察知できるようにする。"
+
+msgid "commander_staySharp/alt/description"
+msgstr "パーク「応急強化」を習得すると、消耗品「救急キット」の使用後に職能適性にボーナスが加算されます。職能適性へのボーナスは、搭乗員の戦闘における能力を強化します。\n\n車輌に特定の消耗品や拡張パーツを搭載、またはディレクティブ「換気孔の清掃」を併用することで効果が向上します。また、他のさまざまな搭乗員パークでもこのパラメーターを向上させることができます。"
+
+msgid "commander_staySharp/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "消耗品「救急キット」を使用した後15秒間、{yellow_Start}職能適性{yellow_End}に%(crewLevelIncrease)sのボーナスが加算されるようになっています。また、搭乗員が負傷していない場合でも「救急キット」を使用できます。&nbsp;&zwnbsp;"
+
+msgid "commander_staySharp/hudDescription"
+msgstr "「救急キット」を使用したため、職能適性にボーナスが加算されています。"
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "100%まで習得すると、「救急キット」を使用した後15秒間、{yellow_Start}職能適性{yellow_End}に%(crewLevelIncrease)sのボーナスが加算されます。また、搭乗員が負傷していない場合でも「救急キット」を使用できるようになります。&zwnbsp;"
+
+msgid "commander_staySharp/name"
+msgstr "応急強化"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@職能適性にボーナスを加算する。"
+
+msgid "commander_tutor/alt/description"
+msgstr "パーク「教官」を習得すると、戦闘で取得できる搭乗員EXPの基本値にボーナスが加算されるようになります。車長が負傷した場合、他の搭乗員の代役を務めることができなくなります。\n\n搭乗員教本やフリーEXPを活用するとさらに効率的に搭乗員EXPを集めることができます。"
+
+msgid "commander_tutor/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "全搭乗員が戦闘で取得できる{greenBright_Start}EXP{greenBright_End}が%(xpBonusFactorPerLevel)s増加しています。さらに、他の搭乗員が負傷した際に車長が%(woundedCrewEfficiency)sの効率で{greenBright_Start}その代役{greenBright_End}を務めることができます。"
+
+msgid "commander_tutor/hudDescription"
+msgstr "車長が負傷した搭乗員の代役を務めています。"
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "100%まで習得すると、全搭乗員の取得{greenBright_Start}EXP{greenBright_End}が%(xpBonusFactorPerLevel)s増加します。さらに、他の搭乗員が負傷した際に車長が%(woundedCrewEfficiency)sの効率で{greenBright_Start}その代役{greenBright_End}を務められるようになります。"
+
+msgid "commander_tutor/name"
+msgstr "教官"
+
+msgid "commander_tutor/shortDescription"
+msgstr "車長が負傷した搭乗員の代役を務めるようになる。"
+
+msgid "commander_universalist/alt/description"
+msgstr "パーク「なんでも屋」を習得すると、搭乗員が負傷した際に車長がその代役を務められるようになります。ただし、補えるのは職能のみに限られ、負傷者が増えるにつれて効果が低下していきます。"
+
+msgid "commander_universalist/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "他の搭乗員が負傷した際に車長が%(woundedCrewEfficiency)sの効率でその{greenBright_Start}代役{greenBright_End}を務められるようになっています。"
+
+msgid "commander_universalist/hudDescription"
+msgstr "車長が負傷した搭乗員の代役を務めています。"
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "100%まで習得すると、他の搭乗員が負傷した際に車長が%(woundedCrewEfficiency)sの効率でその{greenBright_Start}代役{greenBright_End}を務められるようになります。"
+
+msgid "commander_universalist/name"
+msgstr "なんでも屋"
+
+msgid "commander_universalist/shortDescription"
+msgstr "他の搭乗員が負傷した際に車長がその代役を務められるようにする。"
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "パーク「オフロード走行」を習得すると、通常地盤での速度維持性能へのペナルティーが軽減されます。また軟地盤での速度維持性能へのペナルティーが大幅に軽減され、通常地盤での性能と同等になるよう改善されます。\n軟地盤および通常地盤での速度維持性能が硬地盤での速度維持性能を超えることはありません。"
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}通常地盤における速度維持性能へのペナルティー{greenBright_End}が%(mediumGroundFactor)s軽減されています&zwnbsp;。また通常地盤での性能と同等になるよう、{greenBright_Start}軟地盤における速度維持性能へのペナルティー{greenBright_End}が%(softGroundFactor)s軽減されています。"
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}通常地盤での速度維持性能へのペナルティー{greenBright_End}が%(mediumGroundFactor)s軽減されます&zwnbsp;。また通常地盤での性能と同等になるよう、{greenBright_Start}軟地盤での速度維持性能へのペナルティー{greenBright_End}が%(softGroundFactor)s軽減されます。"
+
+msgid "driver_badRoadsKing/name"
+msgstr "オフロード走行"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "パーク「ブロッカーズハイ」を習得すると、阻んだダメージが自車輌の初期HPを上回った場合、職能適性にボーナスが加算されます。職能適性へのボーナスは、搭乗員の戦闘における能力を強化します。\n\n車輌に特定の消耗品や拡張パーツを搭載、またはディレクティブ「換気孔の清掃」を併用することで効果が向上します。また、他のさまざまな搭乗員パークでもこのパラメーターを向上させることができます。"
+
+msgid "driver_bulletproof/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "阻んだダメージが自車輌の初期HPを上回った場合、{yellow_Start}職能適性{yellow_End}に%(crewLevelIncrease)sのボーナスが加算されるようになっています。"
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "阻ダメージ量の条件を達成したため、職能適性にボーナスが加算されています。 "
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "100%まで習得すると、阻んだダメージが自車輌の初期HPを上回った場合、{yellow_Start}職能適性{yellow_End}に%(crewLevelIncrease)sのボーナスが加算されます。"
+
+msgid "driver_bulletproof/name"
+msgstr "ブロッカーズハイ"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "パーク「エンジン整備」を習得すると、最大前進速度と最大後退速度が向上するほか、損傷したエンジンへのペナルティーが軽減されます。車輌に特定の拡張パーツを搭載するとパークの効果が強化されます。"
+
+msgid "driver_motorExpert/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "車輌の{greenBright_Start}最大前進速度{greenBright_End}と{greenBright_Start}最大後退速度{greenBright_End}が%(vehicleForwardMaxSpeed)sずつ向上しています。{greenBright_Start}損傷したエンジンへのペナルティー{greenBright_End}が%(vehPenaltyForDamagedEngine)s軽減されています&zwnbsp;。"
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "破損したエンジンへのペナルティーが軽減されています。"
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "100%まで習得すると、車輌の{greenBright_Start}最大前進速度{greenBright_End}と{greenBright_Start}最大後退速度{greenBright_End}が%(vehicleForwardMaxSpeed)sずつ向上し、{greenBright_Start}損傷したエンジンへのペナルティー{greenBright_End}が%(vehPenaltyForDamagedEngine)s軽減されます&zwnbsp;。"
+
+msgid "driver_motorExpert/name"
+msgstr "エンジン整備"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "破損したエンジンへのペナルティーを軽減させる。"
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "味方の車輌と衝突した場合、このパークの効果は発動しません。\n\n車輌に特定の拡張パーツを搭載すると体当たり時の被ダメージがさらに低下します。"
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}敵車輌への体当たりによる与ダメージ{greenBright_End}が%(damageEnemiesByRamming)s向上しています&zwnbsp;。{greenBright_Start}自車輌への体当たりによる被ダメージ{greenBright_End}が%(vehicleRamDamageResistance)s&zwnbsp;、ならびに{greenBright_Start}自車輌のサスペンションへのダメージ{greenBright_End}が%(vehicleRamChassisDamageResistance)s低下しています&zwnbsp;。"
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}敵車輌への体当たりによる与ダメージ{greenBright_End}が%(damageEnemiesByRamming)s向上します&zwnbsp;。また{greenBright_Start}自車輌への体当たりによる被ダメージ{greenBright_End}が%(vehicleRamDamageResistance)s&zwnbsp;、ならびに{greenBright_Start}自車輌のサスペンションへのダメージ{greenBright_End}が%(vehicleRamChassisDamageResistance)s低下します&zwnbsp;。"
+
+msgid "driver_rammingMaster/name"
+msgstr "衝突の制御"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "体当たり時の与ダメージを向上させると同時に被ダメージを低下させる。"
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "パーク「隙のない配置」を習得すると、HE弾によって受けるダメージが軽減されます。車輌に特定の拡張パーツを搭載すると、効果がさらに向上します。"
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}HE弾による被ダメージの軽減{greenBright_End}が%(vehicleHEShellDamageResistance)s&zwnbsp;向上しており、&nbsp;{greenBright_Start}エンジン火災発生率{greenBright_End}が%(vehicleFireChance)s、{greenBright_Start}サスペンションへのダメージ{greenBright_End}が%(suspensionDamageReduction)s&zwnbsp;低下しています。"
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}HE弾による被ダメージの軽減{greenBright_End}が%(vehicleHEShellDamageResistance)s&zwnbsp;向上し、{greenBright_Start}エンジン火災発生率{greenBright_End}が%(vehicleFireChance)s、{greenBright_Start}サスペンションへのダメージ{greenBright_End}が%(suspensionDamageReduction)s&zwnbsp;低下します。"
+
+msgid "driver_reliablePlacement/name"
+msgstr "隙のない配置"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "パーク「スムーズな運転」を習得すると、移動中の射撃精度が向上します。静止中や車体の旋回中には効果を発揮しません。ディレクティブ「ギアボックス調整」を併用すれば効果をさらに引き上げることができます。\n\n車輌に特定の拡張パーツを搭載、またはディレクティブ「安定装置のグリスアップ」を併用すれば移動中の射撃精度がさらに向上します。"
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "移動中の{greenBright_Start}散布界{greenBright_End}が%(vehicleGunShotDispersionChassisMovement)s縮小されています&zwnbsp;。"
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "100%まで習得すると、移動中の{greenBright_Start}散布界{greenBright_End}が%(vehicleGunShotDispersionChassisMovement)s縮小されます&zwnbsp;。"
+
+msgid "driver_smoothDriving/name"
+msgstr "スムーズな運転"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "移動中の射撃精度を向上させる。"
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "パーク「野戦修理」を習得すると、味方車輌から\n50 m以内にいる場合、履帯を大破状態から損傷状態へ修理する速度が向上します。"
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "味方車輌から50 m以内にいる場合、{yellow_Start}履帯の修理速度{yellow_End}が%(suspensionRepairSpeed)s向上するようになっています。"
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "味方車輌が近くにいるため、履帯の修理速度が向上しています。"
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "100%まで習得すると、味方車輌から50 m以内にいる場合、{yellow_Start}履帯の修理速度{yellow_End}が%(suspensionRepairSpeed)s向上します。"
+
+msgid "driver_suspensionRepair/name"
+msgstr "野戦修理"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "車輌に特定の消耗品や拡張パーツを搭載すると火災への耐性がさらに向上します。パーク「消火能力」を習得すると火災が発生しても消火に要する時間が短縮されます。"
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "{greenBright_Start}エンジンの火災発生率{greenBright_End}が%(vehicleFireChance)s低下しています&zwnbsp;。"
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}エンジンの火災発生率{greenBright_End}が%(vehicleFireChance)s低下します&zwnbsp;。"
+
+msgid "driver_tidyPerson/name"
+msgstr "こまめな手入れ"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "エンジンの火災発生率を低下させる。"
+
+msgid "driver_virtuoso/alt/description"
+msgstr "パーク「クラッチの名手」を習得すると、車体の旋回速度が向上します。車輌に特定の消耗品や拡張パーツを搭載すると車体の旋回速度がさらに向上します。"
+
+msgid "driver_virtuoso/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}車体の旋回速度{greenBright_End}が%(vehicleAllGroundRotationSpeed)s向上しています&zwnbsp;。\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}車体の旋回速度{greenBright_End}が%(vehicleAllGroundRotationSpeed)s向上します。"
+
+msgid "driver_virtuoso/name"
+msgstr "クラッチの名手"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "車体の旋回速度を向上させる。"
+
+msgid "fireFighting/alt/description"
+msgstr "パーク「消化能力」を習得すると、消火速度が向上し、火災により受けうる潜在的なダメージが低下します。\n\nこのパークを収録した無線手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。\n\nディレクティブ「消防訓練」を併用すれば効果をさらに引き上げることができます。"
+
+msgid "fireFighting/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}消火速度{greenBright_End}が%(fireExtinguishingRate)s向上しています&zwnbsp;。"
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}消火速度{greenBright_End}が%(fireExtinguishingRate)s向上します&zwnbsp;。"
+
+msgid "fireFighting/name"
+msgstr "消火能力"
+
+msgid "fireFighting/shortDescription"
+msgstr "消火速度を向上させる。"
+
+msgid "gunner_armorer/alt/description"
+msgstr "パーク「兵器工」を習得すると、与ダメージと貫通力の振れ幅が短縮されます。与ダメージと貫通力の振れ幅の基本値は+/−25%に設定されています。仮に砲弾の貫通力が100 mmで単発火力が100HPだとすると、命中時の実際の貫通力は75 mmから125 mm、装甲貫通時に実際に与えられるダメージは75HPから125HPの間でランダムに決定されます。振れ幅が短縮されると実際の数値がより平均値に近くなります。\n\nこのパークを習得した砲手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。"
+
+msgid "gunner_armorer/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "{greenBright_Start}与ダメージ{greenBright_End}と{greenBright_Start}貫通力{greenBright_End}の振れ幅が{greenBright_Start}+/−{greenBright_End}%(damageAndPiercingDistributionLowerBound)s軽減されています。さらに、{greenBright_Start}散布界{greenBright_End}が%(shotDispersionAngle)s縮小されています&zwnbsp;。"
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}与ダメージ{greenBright_End}および{greenBright_Start}貫通力{greenBright_End}の振れ幅が{greenBright_Start}+/−{greenBright_End}%(damageAndPiercingDistributionLowerBound)s短縮されます。さらに、{greenBright_Start}散布界{greenBright_End}が%(shotDispersionAngle)s縮小されます&zwnbsp;。"
+
+msgid "gunner_armorer/name"
+msgstr "兵器工"
+
+msgid "gunner_focus/alt/description"
+msgstr "パーク「極限の集中力」を習得すると、車輌が移動を停止してから3秒が経過した際に射撃精度が向上するようになります。移動を再開すると効果が停止します。\n\nこのパークを習得した砲手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。"
+
+msgid "gunner_focus/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "静止中の{yellow_Start}散布界{yellow_End}が%(shotDispersionAngle)s縮小されるようになっています&zwnbsp;。"
+
+msgid "gunner_focus/hudDescription"
+msgstr "散布界が縮小されています。"
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "100%まで習得すると、静止中の主砲の{yellow_Start}散布界{yellow_End}が%(shotDispersionAngle)s縮小されます&zwnbsp;。"
+
+msgid "gunner_focus/name"
+msgstr "極限の集中力"
+
+msgid "gunner_focus/shortDescription"
+msgstr "車輌が停止してから一定の時間が経過した際の射撃精度を向上させる。"
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "パーク「一匹狼」を習得すると、近くに味方車輌がいない場合、散布界が縮小し、照準速度が向上します。搭乗員パークを習得したり、同様の効果を持つ拡張パーツを搭載したりすることで散布界と照準速度をさらに向上させることができます。\n\nこのパークを習得した砲手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。"
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "半径300 m以内に味方車輌がいない場合、{yellow_Start}散布界{yellow_End}が%(vehicleGunAimSpeed)s縮小し、{yellow_Start}照準速度{yellow_End}が%(vehicleGunAimSpeed)s向上するようになっています。"
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "付近に味方車輌がいないため、散布界が縮小し、照準速度が向上しています。"
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "100%まで習得すると、半径300 m以内に味方車輌がいない場合、{yellow_Start}散布界{yellow_End}が縮小し、{yellow_Start}照準速度{yellow_End}が%(vehicleGunAimSpeed)s向上します。"
+
+msgid "gunner_loneWolf/name"
+msgstr "一匹狼"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@散布界が縮小し、照準速度が向上する。"
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "パーク「至近直射」を習得すると、一定の範囲内にいる敵車輌を砲撃する際、貫通力の振れ幅の上限が向上します。貫通力の振れ幅の上限の基本値は+25%に設定されています。仮に砲弾の貫通力が\n100 mmだとすると、命中時の実際の最大貫通力は\n125 mmとなります。振れ幅の上限が引き上げられると貫通させやすくなります。\n\nこのパークを習得した砲手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。"
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "50 m未満の距離にいる敵車輌を砲撃する際、砲弾の{yellow_Start}貫通力の振れ幅の上限{yellow_End}が%(piercingHEShellsDistributionUpperBound)s向上するようになっています。"
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "100%まで習得すると、50 m未満の距離にいる敵車輌を砲撃する際、{yellow_Start}貫通力の振れ幅の上限{yellow_End}が%(piercingHEShellsDistributionUpperBound)s向上します。"
+
+msgid "gunner_pointBlast/name"
+msgstr "至近直射"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@砲弾の貫通力の振れ幅の上限を向上させる。"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "パーク「高速照準」を習得すると、照準速度と砲塔の旋回速度が向上します。このパークを習得した砲手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。\n\n車長のパーク「空間認知」を習得したり、車輌に特定の拡張パーツを搭載すると照準速度がさらに向上します。\n\n車輌に特定の消耗品や拡張パーツを搭載すると砲塔の旋回速度がさらに向上します。"
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}照準速度{greenBright_End}と{greenBright_Start}砲塔の旋回速度{greenBright_End}が%(vehicleGunAimSpeed)s向上しています&zwnbsp;。"
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}照準速度{greenBright_End}と{greenBright_Start}砲塔の旋回速度{greenBright_End}が%(vehicleGunAimSpeed)s向上します&zwnbsp;。"
+
+msgid "gunner_quickAiming/name"
+msgstr "高速照準"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "照準速度を向上させる。"
+
+msgid "gunner_rancorous/alt/description"
+msgstr "パーク「指定された目標」を習得すると、砲手の視認エリア内に存在する敵車輌の発見状態の持続時間が延びるほか、一定の間照準を合わせ続けた際にモジュールの状態を識別できるようになります。\n「砲手の視認エリア」は主砲を中心に左右合計10°ずつ、合計20°の範囲と定義されており、通常視点とスナイパー視点の両方で効果を発揮します。\nこのパークを習得した砲手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。\nディレクティブ「目標注視」を併用すれば、効果をさらに引き上げることができます。車輌に特定の拡張パーツを搭載すると敵車輌の発見状態の持続時間がさらに延長されます。"
+
+msgid "gunner_rancorous/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "「砲手の視認エリア」内に存在する敵車輌の{greenBright_Start}発見状態の{greenBright_End}{greenBright_Start}持続時間{greenBright_End}が%(vehicleEnemySpottingTime)s延長されています。さらに{yellow_Start}モジュールの状態を識別{yellow_End}に要する時間が%(damageMonitoringDelay)sになっています&zwnbsp;。"
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "100%まで習得すると、「砲手の視認エリア」内に存在する敵車輌の{greenBright_Start}発見状態の{greenBright_End}{greenBright_Start}持続時間{greenBright_End}が%(vehicleEnemySpottingTime)s延長されます。さらに{yellow_Start}モジュールの状態識別{yellow_End}に要する時間が%(damageMonitoringDelay)sになります。"
+
+msgid "gunner_rancorous/name"
+msgstr "指定された目標"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "「砲手の視認エリア」内に存在する敵車輌の発見状態の持続時間を延長し、モジュールの状態識別が可能になる。"
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "パーク「速射」を習得すると、砲塔旋回に伴う散布界の拡大が軽減されます。このパークを習得した砲手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。 \n\n車輌に特定の拡張パーツを搭載、またはディレクティブ「精密射撃」を併用すれば砲塔旋回に伴う散布界の拡大がさらに軽減されます。"
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "砲塔旋回に伴う{greenBright_Start}散布界の拡大{greenBright_End}が%(turretAimingDispersion)s軽減されています&zwnbsp;。"
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "100%まで習得すると、砲塔旋回に伴う{greenBright_Start}散布界の拡大{greenBright_End}が%(turretAimingDispersion)s軽減されます&zwnbsp;。"
+
+msgid "gunner_smoothTurret/name"
+msgstr "速射"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "砲塔旋回に伴う散布界の拡大を軽減する。"
+
+msgid "gunner_sniper/alt/description"
+msgstr "パーク「射撃の名手」を習得すると、敵車輌を攻撃する際にモジュールの大破や搭乗員の負傷を誘発できる確率が向上します。砲弾の種類は問わず効果を発揮しますが、自動連射砲を搭載した車輌は対象外です。\n\nこのパークを習得した砲手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。"
+
+msgid "gunner_sniper/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "砲弾の種類は問わず、敵車輌を攻撃する際に{greenBright_Start}モジュール{greenBright_End}の大破や{greenBright_Start}搭乗員{greenBright_End}の負傷を{greenBright_Start}誘発できる確率{greenBright_End}が%(enemyModulesCrewCritChance)s向上しています&zwnbsp;。"
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "100%まで習得すると、敵車輌を攻撃する際に{greenBright_Start}モジュール{greenBright_End}の大破や{greenBright_Start}搭乗員{greenBright_End}の負傷を{greenBright_Start}誘発できる確率{greenBright_End}が%(enemyModulesCrewCritChance)s向上します&zwnbsp;。"
+
+msgid "gunner_sniper/name"
+msgstr "射撃の名手"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "パーク「砲弾鑑定」を習得すると、与ダメージと貫通力の振れ幅の下限が引き上げられます。与ダメージと貫通力の最小値は基本値の−25%に設定されています。仮に砲弾の貫通力が100 mmで単発火力が100HPだとすると、命中時の実際の最小貫通力は75 mm、装甲貫通時に実際に与えられる最小ダメージは75HPとなります。振れ幅の下限が引き上げられると砲撃の結果を予測しやすくなります。\n\nこのパークを習得した装填手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。"
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}与ダメージ{greenBright_End}と{greenBright_Start}貫通力{greenBright_End}の振れ幅の下限が%(damageAndPiercingDistributionLowerBound)s向上しています&zwnbsp;。"
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}与ダメージ{greenBright_End}と{greenBright_Start}貫通力{greenBright_End}の振れ幅の下限が%(damageAndPiercingDistributionLowerBound)s向上します&zwnbsp;。"
+
+msgid "loader_ammunitionImprove/name"
+msgstr "砲弾鑑定"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "与ダメージと貫通力の振れ幅の下限を向上させる。"
+
+msgid "loader_desperado/alt/description"
+msgstr "パーク「アドレナリン・ラッシュ」を習得すると瀕死状態に陥った際に装填時間が短縮されるようになります。このパークを習得した装填手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。\n\n装填手のパーク「近接戦闘」を習得したり、車輌に特定の拡張パーツを搭載すると主砲の装填時間がさらに短縮されます。ディレクティブ「弾薬庫の改良」を併用すると効果がさらに引き上げられます。"
+
+msgid "loader_desperado/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "車輌の残りHPが25%を切った際に{yellow_Start}装填時間{yellow_End}が%(vehicleGunReloadTime)s短縮されるようになっています。"
+
+msgid "loader_desperado/hudDescription"
+msgstr "車輌HPが残り少ないため装填時間が短縮されています。"
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "100%まで習得すると、車輌の残りHPが25%を切った際に{yellow_Start}装填時間{yellow_End}が%(vehicleGunReloadTime)s短縮されるようになります。"
+
+msgid "loader_desperado/name"
+msgstr "アドレナリン・ラッシュ"
+
+msgid "loader_desperado/shortDescription"
+msgstr "車輌の残りHPが25%を切った際に装填速度を向上させる。"
+
+msgid "loader_intuition/alt/description"
+msgstr "パーク「直感」を習得すると、弾種の切り替え時間が短縮されます。装填が完了していないと効果を発揮しません。2連装砲や自動装填砲のように連射が可能な主砲の場合は全弾の装填が完了している必要があります。弾種の切り替えに要する時間が単発砲で1秒、連射が可能な主砲で2.5秒を下回ることはありません。\n\nこのパークを習得した装填手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。"
+
+msgid "loader_intuition/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "装填が完了している状態での{greenBright_Start}弾種の切り替え時間{greenBright_End}が%(vehicleReloadTimeAfterShellChange)s短縮されています&zwnbsp;。"
+
+msgid "loader_intuition/hudDescription"
+msgstr "装填が完了している状態での弾種の切り替え時間が短縮されています。\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "100%まで習得すると、装填が完了している状態での{greenBright_Start}弾種の切り替え時間{greenBright_End}が%(vehicleReloadTimeAfterShellChange)s短縮されます&zwnbsp;。"
+
+msgid "loader_intuition/name"
+msgstr "直感"
+
+msgid "loader_intuition/shortDescription"
+msgstr "装填が完了している状態での弾種の切り替え速度を大幅に向上させる。"
+
+msgid "loader_magMastery/alt/description"
+msgstr "パーク「連射の名手」を習得すると、弾倉式の主砲の装填時間が短縮されます。ただし、それ以外の主砲には効果を発揮しません。\n\nこのパークを習得した装填手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。"
+
+msgid "loader_magMastery/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "弾倉の{greenBright_Start}装填時間{greenBright_End}が%(magazineGunReloadSpeed)s短縮されるようになっています。"
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "100%まで習得すると、弾倉の{greenBright_Start}装填時間{greenBright_End}が%(magazineGunReloadSpeed)s短縮されます。"
+
+msgid "loader_magMastery/name"
+msgstr "連射の名手"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@弾倉の装填時間を短縮させる。"
+
+msgid "loader_melee/alt/description"
+msgstr "パーク「近接戦闘」を習得すると、付近に敵車輌が存在する際に装填速度が向上します。このパークを習得した砲手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。\n\n装填手のパーク「アドレナリン・ラッシュ」を習得したり、車輌に特定の拡張パーツを搭載すると主砲の装填時間がさらに短縮されます。ディレクティブ「弾薬庫の改良」を併用すると効果がさらに引き上げられます。"
+
+msgid "loader_melee/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "敵車輌から50 m以内にいる場合の{yellow_Start}主砲の装填時間{yellow_End}が%(vehicleGunReloadTime)s短縮されています。"
+
+msgid "loader_melee/hudDescription"
+msgstr "敵車輌の近くにいる場合の主砲の装填時間が短縮されています。\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "100%まで習得すると、敵車輌から50 m以内にいる場合、{yellow_Start}主砲の装填時間{yellow_End}が%(vehicleGunReloadTime)s短縮されます。"
+
+msgid "loader_melee/name"
+msgstr "近接戦闘"
+
+msgid "loader_melee/shortDescription"
+msgstr "付近に敵車輌が存在する際に装填速度を向上させる。"
+
+msgid "loader_pedant/alt/description"
+msgstr "パーク「弾薬庫保護」を習得すると、弾薬庫の耐久性が向上します。砲手が負傷してもパークの効果が停止することはありません。\n\nこのパークを習得した砲手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。\n\nディレクティブ「砲弾の整頓」を併用すれば効果をさらに引き上げることができます。 車輌に特定の拡張パーツを搭載すると弾薬庫の耐久性がさらに向上します。"
+
+msgid "loader_pedant/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}弾薬庫の耐久性{greenBright_End}が%(vehicleAmmoBayStrength)s向上しています&zwnbsp;。\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}弾薬庫の耐久性{greenBright_End}が%(vehicleAmmoBayStrength)s向上します&zwnbsp;。"
+
+msgid "loader_pedant/name"
+msgstr "弾薬庫保護"
+
+msgid "loader_pedant/shortDescription"
+msgstr "弾薬庫の耐久性を向上させる。"
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "パーク「空力研究」を習得すると、弾速が向上します。効果は弾種を問わず適用されます。\n\n装填手が負傷しても効果が停止することはありません。\n\nこのパークを収録した装填手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。"
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}弾速{greenBright_End}が%(shellVelocity)s向上しています&zwnbsp;。"
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}弾速{greenBright_End}が%(shellVelocity)s向上します&zwnbsp;。"
+
+msgid "loader_perfectCharge/name"
+msgstr "空力研究"
+
+msgid "loader_secondChance/alt/description"
+msgstr "パーク「名誉挽回」を習得すると、直前の砲撃で敵車輌にダメージを与えられなかった場合、次弾の主砲装填時間が短縮されます。弾倉式の主砲や機関砲および自動連射砲には効果がなく、2連装砲では効果が累算されません。\n\n2連装砲で斉射を行い、どちらの砲弾もダメージを与えられなかった場合、両方の砲の装填時間に短縮効果が適用されます。\n\nこのパークを習得した装填手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。\n\n装填手のパーク「アドレナリン・ラッシュ」や「近接戦闘」を習得したり、車輌に特定の拡張パーツを搭載すると主砲の装填時間がさらに短縮されます。ディレクティブ「弾薬庫の改良」を併用すると効果がさらに引き上げられます。"
+
+msgid "loader_secondChance/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "直前の砲撃で敵車輌にダメージを与えられなかった場合、次弾の{yellow_Start}主砲装填時間{yellow_End}が%(vehicleGunReloadTime)s短縮されるようになっています。"
+
+msgid "loader_secondChance/hudDescription"
+msgstr "ダメージを与えられなかったため、主砲の装填時間が短縮しています。"
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "100%まで習得すると、直前の砲撃で敵車輌にダメージを与えられなかった場合、次弾の{yellow_Start}主砲装填時間{yellow_End}が%(vehicleGunReloadTime)s短縮されます。"
+
+msgid "loader_secondChance/name"
+msgstr "名誉挽回"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@主砲の装填時間を短縮させる。"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s秒"
+
+msgid "offspring_brotherhood/name"
+msgstr "Band of Brothers"
+
+msgid "perkRole/commander"
+msgstr "車長"
+
+msgid "perkRole/common"
+msgstr "共通"
+
+msgid "perkRole/driver"
+msgstr "操縦手"
+
+msgid "perkRole/gunner"
+msgstr "砲手"
+
+msgid "perkRole/loader"
+msgstr "装填手"
+
+msgid "perkRole/radioman"
+msgstr "無線手"
+
+msgid "popularity/tooltip/common"
+msgstr "(全プレイヤー)"
+
+msgid "popularity/tooltip/header"
+msgstr "この車輌での人気構成"
+
+msgid "popularity/tooltip/legendary"
+msgstr "(WTR「レジェンド」プレイヤー)"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "パーク「ショック耐性」を習得すると、搭乗員がスタンするたびに、スタンによるペナルティーが軽減されます。このパークを習得した無線手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。\n\n車長のパーク「音響探知」を習得するとさらに効果が向上します。"
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "搭乗員がスタンするたびに、{greenBright_Start}スタンによるペナルティー{greenBright_End}が%(stunResistanceEffectFactor)s軽減されるようになっています。軽減率は最大で30%です。"
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "100%まで習得すると、搭乗員がスタンするたびに{greenBright_Start}スタンによるペナルティー{greenBright_End}が%(stunResistanceEffectFactor)s軽減されます。軽減率は最大で30%です。&nbsp;"
+
+msgid "radioman_battleTempered/name"
+msgstr "ショック耐性"
+
+msgid "radioman_expert/alt/description"
+msgstr "パーク「特級通信士」を習得すると、戦闘中に特定の条件を達成した際、全搭乗員の職能適性にボーナスが加算されます。職能適性へのボーナスは、搭乗員の能力を強化します。このパークを収録した無線手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。特定の消耗品や拡張パーツを搭載、またはディレクティブ「換気孔の清掃」を併用することで効果が向上します。また集団型パーク「戦友」、車長のパーク「緊急対応」、無線手のパーク「共鳴」を習得することでさらに効果が向上します。"
+
+msgid "radioman_expert/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "アシストしたダメージが自車輌の初期HPを上回った場合、{yellow_Start}職能適性{yellow_End}に%(crewLevelIncrease)sのボーナスが加算されるようになっています&zwnbsp;。"
+
+msgid "radioman_expert/hudDescription"
+msgstr "十分な偵察データが得られたため、職能適性にボーナスが加算されています。"
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "100%まで習得すると、アシストしたダメージが自車輌の初期HPを上回った場合、{yellow_Start}職能適性{yellow_End}に%(crewLevelIncrease)sのボーナスが加算されます&zwnbsp;。"
+
+msgid "radioman_expert/name"
+msgstr "特級通信士"
+
+msgid "radioman_expert/shortDescription"
+msgstr "搭乗員の能力を向上させる。"
+
+msgid "radioman_finder/alt/description"
+msgstr "パーク「状況判断力」を習得すると、視認範囲が拡大されます。このパークを習得した無線手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。\nパーク「偵察」を習得したり、車輌に特定の拡張パーツを搭載すると視認範囲がさらに拡大されます。ディレクティブ「光学機器の調整」を併用すると拡張パーツの効果を強化できます。"
+
+msgid "radioman_finder/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}視認範囲{greenBright_End}が%(vehicleCircularVisionRadius)s拡大されています&zwnbsp;。"
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "100%まで習得すると、{greenBright_Start}視認範囲{greenBright_End}が%(vehicleCircularVisionRadius)s拡大されます&zwnbsp;。"
+
+msgid "radioman_finder/name"
+msgstr "状況判断力"
+
+msgid "radioman_finder/shortDescription"
+msgstr "視認範囲を拡大する。"
+
+msgid "radioman_interference/alt/description"
+msgstr "パーク「電波妨害」を習得すると、自車輌の被発見状態の持続時間が短縮されます。このパークを習得した無線手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。\n\n車輌に特定の拡張パーツを搭載すると自車輌の被発見状態の持続時間がさらに短縮されます。"
+
+msgid "radioman_interference/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "敵車輌による{greenBright_Start}自車輌の被発見状態の持続時間{greenBright_End}が%(vehicleOwnSpottingTime)s短縮しています&zwnbsp;。"
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "100%まで習得すると、敵車輌による{greenBright_Start}自車輌の被発見状態の持続時間{greenBright_End}が%(vehicleOwnSpottingTime)s短縮します&zwnbsp;。"
+
+msgid "radioman_interference/name"
+msgstr "電波妨害"
+
+msgid "radioman_interference/shortDescription"
+msgstr "自車輌の被発見状態の持続時間を短縮する。"
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "無線手が2名いる車輌の場合はパークの訓練レベルが高い方の数値をもとに効果が算出されます。自車輌が大破した際に無線手が負傷している場合は効果を発揮しません。\n\nディレクティブ「執念」を併用すれば効果をさらに引き上げることができます。"
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "「即応型パーク」は、戦闘中に対応する条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになり、訓練レベルの向上にともなって効果が強化されていく点では「通常型パーク」と変わりません。"
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "自車輌が大破した際に通常よりも%(radiomanDurationPerLevel)s長く味方に{yellow_Start}敵の位置を伝達{yellow_End}するようになっています。"
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "味方に敵車輌の位置情報を伝達しています。"
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "100%まで習得すると、自車輌が大破した際に通常よりも%(radiomanDurationPerLevel)s長く味方に{yellow_Start}敵の位置を伝達{yellow_End}できるようになります。"
+
+msgid "radioman_lastEffort/name"
+msgstr "報復要請"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "自車輌が大破した際に味方に敵車輌の位置を伝達し続けられる時間を延長する。"
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "パーク「共鳴」を習得すると、戦闘中に特定の条件を達成した際、全搭乗員の職能適性にボーナスが加算されます。職能適性へのボーナスは、搭乗員の能力を強化します。このパークを収録した無線手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。車輌に特定の消耗品や拡張パーツを搭載、またはディレクティブ「換気孔の清掃」を併用すると効果が向上します。また集団型パーク「戦友」、車長のパーク「緊急対応」、無線手のパーク「特級通信士」を習得することでさらに効果が向上します。"
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "同じ車輌タイプの味方が自車輌から50 m以内にいる場合、{yellow_Start}職能適性{yellow_End}に%(crewLevelIncrease)sのボーナスが加算されるようになっています&zwnbsp;。"
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "同じ車輌タイプの味方が近くにいるため、職能適性にボーナスが加算されています。"
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "100%まで習得すると、同じ車輌タイプの味方が自車輌から50 m以内にいる場合、{yellow_Start}職能適性{yellow_End}に%(crewLevelIncrease)sのボーナスが加算されます&zwnbsp;。"
+
+msgid "radioman_sideBySide/name"
+msgstr "共鳴"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "搭乗員の能力を向上させる。"
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "パーク「通信傍受」を習得すると、車長の特性にあたる「第六感」が強化され、敵に発見されたことをより素早く察知できるようになります。\n\nこのパークを収録した無線手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。"
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "「通常型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "敵車輌によって{greenBright_Start}自車輌が発見された{greenBright_End}ことを{greenBright_Start}把握するまでの時間{greenBright_End}が%(commanderLampDelay)s短縮されています。"
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "100%まで習得すると、敵車輌によって{greenBright_Start}自車輌が発見された{greenBright_End}ことを{greenBright_Start}把握するまでの時間{greenBright_End}が%(commanderLampDelay)s短縮されます。"
+
+msgid "radioman_signalInterception/name"
+msgstr "通信傍受"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "パーク「敵意の感知」を習得すると、視認範囲が拡大されます。このパークは自車輌が敵に発見されたことを示す「第六感」のインジケーターが表示されると発動します。\n\nこのパークを習得した無線手が2名いる場合は、算出されたパークの訓練レベルの平均値をもとに効果が適用されます。\n\nパーク「偵察」や「状況判断力」を習得したり、特定の拡張パーツを搭載したりすると、視認範囲がさらに拡大されます。ディレクティブ「光学機器の調整」を併用すると効果がさらに引き上げられます。"
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "「即応型パーク」は、戦闘中に特定の条件が満たされた場合にのみ効果を発揮します。訓練レベルが1%になると効果を発揮できるようになります。訓練レベルの向上にともなって効果が強化されていく点では「集団型パーク」と変わりません。"
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "「第六感」が発動してから5秒間、{yellow_Start}視認範囲{yellow_End}が%(vehicleCircularVisionRadius)s拡大されるようになっています。"
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "視認範囲を拡大します。"
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "100%まで習得すると、「第六感」が発動してから5秒間、{yellow_Start}視認範囲{yellow_End}が%(vehicleCircularVisionRadius)s拡大されます。"
+
+msgid "radioman_threatSearch/name"
+msgstr "敵意の感知"
+
+msgid "repair/alt/description"
+msgstr "パーク「修理」を習得すると、モジュールの修理速度が向上します。モジュールが大破して赤い状態になった際に通常よりも短い時間で黄色の損傷状態に戻すことができるようになります。内部モジュールか外部モジュールかは問いません。\n\n車輌に特定の消耗品や拡張パーツを搭載するとモジュールの修理速度がさらに向上します。"
+
+msgid "repair/alt/info"
+msgstr "「集団型パーク」は、訓練レベルが1%になると効果を発揮し、訓練レベルの向上にともなって効果が強化されていきます。"
+
+msgid "repair/currentLvlDescription"
+msgstr "損傷したモジュールの{greenBright_Start}修理速度{greenBright_End}が%(vehicleRepairSpeed)s向上しています&zwnbsp;。"
+
+msgid "repair/maxLvlDescription"
+msgstr "全搭乗員が100%まで習得すると、損傷したモジュールの{greenBright_Start}修理速度{greenBright_End}が%(vehicleRepairSpeed)s向上します&zwnbsp;。"
+
+msgid "repair/name"
+msgstr "修理"
+
+msgid "repair/shortDescription"
+msgstr "大破したモジュールの修理速度を向上させる。"
+
+msgid "sabaton_brotherhood/name"
+msgstr "Band of Brothers"
+
+msgid "sign/minus"
+msgstr "−"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "人気"
+
+msgid "sorting/fallback"
+msgstr "デフォルト"
+
+msgid "sorting/legendary"
+msgstr "レジェンド"
+
+msgid "sorting/title"
+msgstr "アシスト・フィルター"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)s【人気構成】%(whiteSpanish_Close)s『World of Tanks』の全プレイヤーの間でトレンドとなっているパークの構成をもとにした提案です。"
+
+msgid "sorting/tooltip/header"
+msgstr "「WoT Plus」の特典"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "数多くの戦闘から集計したデータをもとにおススメの搭乗員パークの構成を提案します。"
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)s【レジェンド構成】%(whiteSpanish_Close)sWTRレーティングが「レジェンド」の上級者の間でよく使用されているパークの構成をもとにした提案です。"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "パーク構成無効"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "データなし"
+
+msgid "sorting/tooltip/title"
+msgstr "搭乗員パーク選択アシスト"
+
+msgid "sorting/tooltip/types"
+msgstr "パーク構成の種類"
+
+msgid "sorting/tooltip/warning"
+msgstr "パーク構成利用不可"
+
+msgid "sorting/tooltip/warningText"
+msgstr "この車輌のパークに関する完全なデータが利用できません。そのためデフォルトのパーク構成が適用されています。"
+
+msgid "witches_brotherhood/name"
+msgstr "闇夜の契り"
+
+msgid "yha_brotherhood/name"
+msgstr "戦兎"

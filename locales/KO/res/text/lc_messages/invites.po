@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT 번역가 <noreply@wargaming.net>\nLanguage-Team: WoT 팀 <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "플레이어 상세 정보 %(linkStartTag)s보기%(linkEndTag)s"
+
+msgid "clan/application/title"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s 님의\n%(titleStartTag)s클랜 가입 신청%(titleEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "가입 신청 보기"
+
+msgid "clan/applications/comment"
+msgstr "알림 %(linkStartTag)s끄기%(linkEndTag)s"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)s가입 신청: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "클랜 상세 정보 %(linkStartTag)s보기%(linkEndTag)s"
+
+msgid "clan/invite/title"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s 님의\n%(titleStartTag)s클랜 초대%(titleEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "초대 보기"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)s클랜 초대: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "가입 신청이 수락되었습니다."
+
+msgid "clans/state/app/declined"
+msgstr "가입 신청을 거절했습니다."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "재가입 대기 시간이 아직 만료되지 않았습니다."
+
+msgid "clans/state/invite/accepted"
+msgstr "클랜 가입이 수락되었습니다."
+
+msgid "clans/state/invite/declined"
+msgstr "초대를 거절했습니다."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "재가입 대기 시간이 아직 만료되지 않았습니다."
+
+msgid "errors/creationNotAllowed"
+msgstr "초대 권한이 없습니다."
+
+msgid "errors/invalid"
+msgstr "유효하지 않은 초대입니다."
+
+msgid "errors/inviteNotSupported"
+msgstr "현재 선택한 초대 방식을 사용할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "초대자가 플레이어를 차단 목록에 추가했습니다."
+
+msgid "errors/selfinvite"
+msgstr "자기 자신을 초대할 수 없습니다."
+
+msgid "errors/unknownuser"
+msgstr "아직 등록되지 않은 사용자입니다."
+
+msgid "errors/useroffline"
+msgstr "사용자가 오프라인입니다."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "전차가 파손되었거나 잠겨 있습니다. 다른 전차를 선택하십시오."
+
+msgid "friendship/note/approved"
+msgstr "친구 목록에 추가되었습니다."
+
+msgid "friendship/note/canceled"
+msgstr "요청 거절"
+
+msgid "friendship/note/maxRoster"
+msgstr "친구 목록 한도에 도달했습니다. 현재 %(rosterMaxCount)s명이 포함되어 있습니다. 새로운 플레이어를 친구 목록에 추가하려면 목록에서 한 명을 제거하십시오."
+
+msgid "friendship/note/notConnected"
+msgstr "서버에 연결할 수 없습니다. 잠시 기다려 주십시오."
+
+msgid "friendship/note/process"
+msgstr "서버 응답 대기 중"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)s친구 요청%(titleEndTag)s\n요청한 플레이어: %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "수락"
+
+msgid "gui/buttons/cancel"
+msgstr "취소"
+
+msgid "gui/buttons/reject"
+msgstr "거절"
+
+msgid "gui/buttons/send"
+msgstr "전송"
+
+msgid "gui/labels/additionalText"
+msgstr "추가 초대 메시지:"
+
+msgid "gui/labels/inviteText"
+msgstr "초대 메시지:"
+
+msgid "gui/labels/receiver"
+msgstr "받는 사람:"
+
+msgid "gui/titles/barter"
+msgstr "거래 초대"
+
+msgid "gui/titles/clan"
+msgstr "클랜 초대"
+
+msgid "gui/titles/invite"
+msgstr "초대"
+
+msgid "gui/titles/receivedInvites"
+msgstr "초대"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "초대를 수락하면 자동으로 전투에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "초대를 수락하면 자동으로 전투에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "초대를 수락하면 자동으로 클랜전에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "초대를 수락하면 자동으로 전투에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "초대를 수락하면 자동으로 전투에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "초대를 수락하면 자동으로 전투에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "초대를 수락하면 자동으로 전선 대격돌 팀 연습 전투에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "초대를 수락하면 자동으로 전투에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "초대를 수락하면 팀 전투를 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "초대를 수락하면 자동으로 소대에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "초대를 수락하면 요새 전투를 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "초대를 수락하면 원정을 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "초대를 수락하면 자동으로 정찰 임무 소대에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "초대를 수락하면 자동으로 팀 연습 전투에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "초대를 수락하면 요새 전투를 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "초대를 수락하면 자동으로 소대에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "초대를 수락하면 현재 원정군을 탈퇴하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "초대를 수락하면 자동으로 토너먼트에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "초대를 수락하면 자동으로 팀 연습 전투에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "초대를 수락하면 자동으로 격전 팀 연습 전투에서 제외되고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "초대를 수락하면 팀 전투를 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "초대를 수락하면 배틀 로얄을 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "초대를 수락하면 배틀 로얄 격전을 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "초대를 수락하면 격전을 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "초대를 수락하면 격전 라이트를 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "초대를 수락하면 전선 대격돌을 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "초대를 수락하면 +++이벤트 전투+++를 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "초대를 수락하면 정찰 임무를 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "초대를 수락하면 지형학을 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "초대를 수락하면 무작위 전투를 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "초대를 수락하면 랭크 전투를 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "초대를 수락하면 준비 운동을 종료하고 %(host)s 서버로 이동합니다."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "초대를 수락하면 준비 운동을 종료하고 %(host)s 서버로 이동합니다. 이후 준비 운동을 다시 시작할 수 없습니다."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "초대를 수락하면 자동으로 전투에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "초대를 수락하면 자동으로 전투에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "초대를 수락하면 자동으로 클랜전에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "초대를 수락하면 자동으로 전투에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "초대를 수락하면 자동으로 전투에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "초대를 수락하면 자동으로 전투에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "초대를 수락하면 자동으로 전선 대격돌 팀 연습 전투에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "초대를 수락하면 자동으로 전투에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "초대를 수락하면 팀 전투를 종료합니다."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "초대를 수락하면 자동으로 소대에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "초대를 수락하면 요새 전투를 종료합니다."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "초대를 수락하면 원정을 종료합니다."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "초대를 수락하면 자동으로 정찰 임무 소대에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "초대를 수락하면 자동으로 팀 연습 전투에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "초대를 수락하면 요새 전투를 종료합니다."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "초대를 수락하면 자동으로 소대에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "초대를 수락하면 현재 원정군을 탈퇴합니다."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "초대를 수락하면 자동으로 토너먼트에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "초대를 수락하면 자동으로 팀 연습 전투에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "초대를 수락하면 자동으로 격전 팀 연습 전투에서 제외됩니다."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "초대를 수락하면 팀 전투를 종료합니다."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "초대를 수락하면 배틀 로얄을 종료합니다."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "초대를 수락하면 배틀 로얄 격전을 종료합니다."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "초대를 수락하면 격전을 종료합니다."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "초대를 수락하면 격전 라이트를 종료합니다."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "초대를 수락하면 전선 대격돌을 종료합니다."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "초대를 수락하면 +++이벤트 전투+++를 종료합니다."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "초대를 수락하면 정찰 임무를 종료합니다."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "초대를 수락하면 지형학을 종료합니다."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "초대를 수락하면 무작위 전투를 종료합니다."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "초대를 수락하면 랭크 전투 모드를 종료합니다."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "초대를 수락하면 준비 운동을 종료합니다."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "초대를 수락하면 준비 운동을 종료합니다. 이후 준비 운동을 다시 시작할 수 없습니다."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "이제 서버 변경 사항이 저장됩니다."
+
+msgid "invites/note/server_change"
+msgstr "자동으로 %(host)s 서버에 접속합니다."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "초대를 수락할 수 없습니다. %(host)s 지역 서버로 이동하여 초대를 수락하십시오."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "초대를 수락할 수 없습니다. 다른 서버로 이동하여 초대를 수락하십시오."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "이미 소대에 참여 중입니다."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "이미 해당 세계 지도에서 전투에 참전 중입니다."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "이미 팀 연습 전투에 참여 중입니다."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "이미 소대에 참여 중입니다."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "이미 소대에 참여 중입니다."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "이미 원정군에 참여 중입니다."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "이미 소대에 참여 중입니다."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "이미 토너먼트에 참여 중입니다."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "이미 팀 연습 전투에 참여 중입니다."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "이미 팀 연습 전투에 참여 중입니다."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "이미 팀에 참여 중입니다."
+
+msgid "invites/state/ACCEPTED"
+msgstr "초대를 수락했습니다."
+
+msgid "invites/state/DECLINED"
+msgstr "초대를 거절했습니다."
+
+msgid "invites/state/ERROR"
+msgstr "유효하지 않은 초대입니다."
+
+msgid "invites/state/EXPIRED"
+msgstr "유효하지 않은 초대입니다."
+
+msgid "invites/state/REVOKED"
+msgstr "초대가 취소되었습니다."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "배틀 로얄 소대 초대"
+
+msgid "invites/text/COMP7"
+msgstr "격전 소대 초대"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "격전 라이트 소대 초대"
+
+msgid "invites/text/EPIC"
+msgstr "전선 대격돌 소대 초대"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "전선 대격돌 팀 연습 전투 초대"
+
+msgid "invites/text/EVENT"
+msgstr "소대 초대"
+
+msgid "invites/text/FALLOUT"
+msgstr "%(battleType)s 소대 초대"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "깃발전"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "난투전"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "전투 초대"
+
+msgid "invites/text/MAPBOX"
+msgstr "정찰 임무 소대 초대"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "지도 탐험 초대"
+
+msgid "invites/text/SORTIE"
+msgstr "원정군 초대"
+
+msgid "invites/text/SQUAD"
+msgstr "소대 초대"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "원정군 초대"
+
+msgid "invites/text/TRAINING"
+msgstr "팀 연습 전투 초대"
+
+msgid "invites/text/UNIT"
+msgstr "팀 초대"
+
+msgid "invites/text/creatorName"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "방어 시간"
+
+msgid "invites/text/fort/direction"
+msgstr "교두보"
+
+msgid "invites/text/fort/offence"
+msgstr "공격"
+
+msgid "invites/warning/anonymized"
+msgstr "초대를 수락하면 전투 중 소대원에게 실제 닉네임과 클랜 태그가 표시됩니다."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "%(name)s 님에게 초대를 보냈습니다."

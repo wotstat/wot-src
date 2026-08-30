@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleInfo/all_from_battle"
+msgstr "本场战斗的所有战车"
+
+msgid "battleInfo/arena"
+msgstr "{{arenaName}}，前线战，战斗情景：{{scenario}} – {{finishReason}}"
+
+msgid "battleInfo/finishReason/10lose"
+msgstr "目标存活"
+
+msgid "battleInfo/finishReason/10win"
+msgstr "已摧毁目标"
+
+msgid "battleInfo/finishReason/1lose"
+msgstr "己方战车全部被击毁"
+
+msgid "battleInfo/finishReason/1tie"
+msgstr "所有战车被击毁"
+
+msgid "battleInfo/finishReason/1win"
+msgstr "已击毁所有敌方战车"
+
+msgid "battleInfo/finishReason/2"
+msgstr "基地占领"
+
+msgid "battleInfo/finishReason/3"
+msgstr "战斗时间结束"
+
+msgid "battleInfo/finishReason/4"
+msgstr "因系统原因战斗终止"
+
+msgid "battleInfo/finishReason/5"
+msgstr "技术性失败"
+
+msgid "battleInfo/finishReason/8"
+msgstr "队友被击毁"
+
+msgid "battleInfo/finishReason/9"
+msgstr "您的战车被击毁"
+
+msgid "battleInfo/labels_objectivesDestroyed"
+msgstr "摧毁目标"
+
+msgid "battleInfo/labels_objectivesReached"
+msgstr "抵达目标"
+
+msgid "battleInfo/labels_zoneCaptured"
+msgstr "占领区域"
+
+msgid "battleInfo/no"
+msgstr "否"
+
+msgid "battleInfo/time"
+msgstr "{{date}}，{{time}}（战斗时长：{{duration}}）"
+
+msgid "battleInfo/timeLeft/minutesAndSeconds"
+msgstr "{{minutes}}分钟{{seconds}}秒"
+
+msgid "battleInfo/timeLeft/minutesOnly"
+msgstr "{{minutes}}分钟"
+
+msgid "battleInfo/timeLeft/secondsOnly"
+msgstr "{{seconds}}秒"
+
+msgid "battleInfo/yes"
+msgstr "是"
+
+msgid "ranks/rank1"
+msgstr "“士兵”军衔"
+
+msgid "ranks/rank2"
+msgstr "“军士长”军衔"
+
+msgid "ranks/rank3"
+msgstr "“准尉”军衔"
+
+msgid "ranks/rank4"
+msgstr "“尉官”军衔"
+
+msgid "ranks/rank5"
+msgstr "“校官”军衔"
+
+msgid "ranks/rank6"
+msgstr "“将军”军衔"
+
+msgid "state/title"
+msgstr "战斗结果"

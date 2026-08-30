@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT チーム <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "承認"
+
+msgid "EULA/labels/agree"
+msgstr "承諾します"
+
+msgid "EULA/title"
+msgstr "エンドユーザー・ライセンス契約"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "このアドレスはすでにお使いのアカウントにリンク済みです。"
+
+msgid "accountCompletion/activate/button"
+msgstr "コード送信/アドレス変更"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "コードの再送信 / アドレスの変更が可能になるまで%(timer)秒"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "アドレスを再入力"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "コードの有効期限が切れました。再度アドレスをご入力ください。"
+
+msgid "accountCompletion/activate/keyError"
+msgstr "コードが無効です。"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "確認メールが届かない場合は入力したアドレスに誤りがないかご確認ください。"
+
+msgid "accountCompletion/activate/text"
+msgstr "アカウント登録を完了するには、4桁の確認コードを入力する必要があります。確認コードはWargaming.netからアドレス「{whiteSpanish_Open}%(email){whiteSpanish_Close}」宛に送信された確認メールに記載されています。"
+
+msgid "accountCompletion/activate/title"
+msgstr "メールアドレスの確認"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "誤ったコードの入力回数が上限に達しています。"
+
+msgid "accountCompletion/add"
+msgstr "追加"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "このアドレスはすでにお使いのアカウントにリンク済みです。"
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "アドレスはリンク済み"
+
+msgid "accountCompletion/cancel"
+msgstr "あとで"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "メールアドレス"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "メールアドレス"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "ゲーム内の全コンテンツにアクセスして報酬を受け取るにはメールアドレスを追加する必要があります。"
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "完全アクセス"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "報酬を受け取って新たな機能をアンロックするにはメールアドレスの登録と確認を完了する必要があります。%(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "メールアドレスの登録"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "このメールアドレスはすでに使用されています。"
+
+msgid "accountCompletion/emailForbidden"
+msgstr "このメールアドレスは禁止されています。"
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "メールアドレスは%(amount)s文字以下でなければなりません。"
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "メールアドレスは%(amount)s文字以上でなければなりません。"
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "メールアドレスはすでに確認済みです。"
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "アドレスは確認済み"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "コードの送信回数が上限に達しています。 あと%(timer)お待ちください。"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "このドメインはお住いの国ではご利用いただけません。"
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "こちらのドメインはお住いの地域ではご利用いただけません。"
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "アドレスのリンク不可"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "メールアドレスには半角アルファベット、数字、アンダーバー、@、ピリオド以外は使用できません。"
+
+msgid "accountCompletion/later"
+msgstr "あとで"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "メールアドレスの確認報酬"
+
+msgid "accountCompletion/submit"
+msgstr "確認"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "サーバー上で処理を行っています。\n少々時間がかかる場合がございます。"
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) こちらのサービスは一時的にご利用いただけません。時間をおいて再度お試しください。"
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) サーバーが一時的に停止しています。\n%(time)s後に再度お試しください。"
+
+msgid "barracksExpand/cancel"
+msgstr "キャンセル"
+
+msgid "barracksExpand/message"
+msgstr "%(price)sゴールドで寝台を%(count)s基購入して兵舎を拡大しますか？"
+
+msgid "barracksExpand/submit"
+msgstr "拡大"
+
+msgid "barracksExpand/title"
+msgstr "兵舎の拡大"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "ゴールド不足です。"
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "兵舎の拡大"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "キャンセル"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "準備が完了していないプレイヤーがいるか、人数が不足しています。"
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "戦闘開始"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "人数不足"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "ボーナス %(newBoosterName)s を使用"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "確定"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "使用を確定"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "パーソナルリザーブ %(newBoosterName)s を使用した場合、現在有効なパーソナルリザーブ %(curBoosterName)s は無効となり、破棄されます。"
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "はい"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "使用を確定"
+
+msgid "buyConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "buyConfirmation/message"
+msgstr "%(product)s を %(price)s で購入しますか?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "\"{%name}\"を{%count}個購入しますか?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "拡張パーツ「%(equipment)s」\nを購入しますか？"
+
+msgid "buyConfirmation/submit"
+msgstr "購入"
+
+msgid "buyConfirmation/title"
+msgstr "購入を確定"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "非互換"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " (現在のモジュールと)"
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "消耗品「%(conflicted)s」は、次の理由で倉庫に送られます: "
+
+msgid "buyInstallConfirmation/message"
+msgstr "現在の車輌に%(kind)s「%(name)s」を%(price)s%(creditsIcon)sで搭載しますか？ %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "現在の車輌に%(kind)s「%(name)s」を%(price)sクレジットで搭載しますか？"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "購入"
+
+msgid "buyInstallConfirmation/title"
+msgstr "購入を確定"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "%(days)s のプレミアムアカウントを %(gold)s で購入しますか?\n %(alertIcon)s %(alertColorTagOpen)s 技術的理由により、追加のEXPやクレジットは取得できません。別の戦闘を選択するか、またはプレミアムアカウントの購入メニューからプレミアムアカウントを購入してみてください。%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "購入"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "購入を確定"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "ガレージスロット"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "buySlotConfirmation/message"
+msgstr "%(goldCost)sでガレージスロットを購入しますか？"
+
+msgid "buySlotConfirmation/submit"
+msgstr "購入"
+
+msgid "buySlotConfirmation/title"
+msgstr "購入を確定"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "クレジットが不足しているためスロットを購入できません。"
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "クレジット不足"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "スロットの購入に必要なゴールドが不足しています。"
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "ゴールド不足"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "ガレージに空きスロットがありません。{%d}クレジットで新たなスロットを購入しますか？"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "購入"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "購入を確定"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "標準砲弾を搭載"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "キャンセル"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "既にこの車輌用の搭乗員を所有中"
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "車輌レンタル中には無料スロットが 1 個提供されます。"
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "砲弾搭載不可: 選択した車輌は既に砲弾が満載です。"
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "砲弾搭載不可: 選択した車輌にはまだ砲弾が残っています。"
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "価格: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "追加スロットの購入"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "購入"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "購入"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "下取り"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "搭乗員なしで購入"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "搭乗員の訓練中"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "搭乗員: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "%(vehiclename)s の購入"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "合計:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "入力された情報が間違っています。"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "「合計」欄のゴールド量を入力"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "操作を確定:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "下取り可能な\n車輌を所有していません"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "推定価値: %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "搭乗員を訓練: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "合計:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "車輌の選択"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "下取り可能な\nプレミアム車輌を選択"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "キャンセル"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "%(vehiclename)s の追加価格:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "変換"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "搭乗員なしで購入"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "下取り %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "下記の「下取り」ボタンをクリックすると、購入した拡張パーツと消耗品は、ゴールドで返還されなくなります。全ての詳細情報を慎重にご確認ください。"
+
+msgid "buyVehicleWindow/warning"
+msgstr "下の「購入」ボタンをクリックした後は、購入したアイテムを返品してゴールドに戻すことはできません。慎重に確認した上で購入してください。"
+
+msgid "challenge_missions/activation/cancel"
+msgstr "キャンセル"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "挑戦開始"
+
+msgid "challenge_missions/activation/description"
+msgstr "鍛錬のミッション・セットに挑戦すると、{{@ style (color #FFE4C0)}}達成と失敗のどちらかの結果になるほか、放棄{{/}}することもできます。ミッション・セットのうちのひとつに失敗した場合、シールドがひとつ失われます。"
+
+msgid "challenge_missions/activation/title"
+msgstr "鍛錬「{{challengeName}}」への挑戦を開始しますか?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "キャンセル"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "リスタート"
+
+msgid "challenge_missions/restart/description"
+msgstr "ミッションの進捗がリセットされるほか、シールドが回復し、再び報酬を取得できるようになります。リスタートすると、同じミッション・セットへの挑戦が再び即座に開始されます。"
+
+msgid "challenge_missions/restart/free/title"
+msgstr "鍛錬「{{challengeName}}」を無料でリスタートしますか?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "鍛錬「{{challengeName}}」を{{cost}}でリスタートしますか?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "キャンセル"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "放棄"
+
+msgid "challenge_missions/surrender/description"
+msgstr "放棄すると、この鍛錬ミッション・セットへの挑戦が終了し、すべての進捗とシールドがリセットされます。ミッションのリスタートは、いつでも行うことができます。"
+
+msgid "challenge_missions/surrender/title"
+msgstr "鍛錬「{{challengeName}}」を放棄しますか?"
+
+msgid "changeGraphics/cancel"
+msgstr "キャンセル"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s 今回のアップデートでは、グラフィックが大幅に刷新されています。自動で最適なグラフィック設定を判定するか、手動で再設定してください。"
+
+msgid "changeGraphics/submit"
+msgstr "自動判定"
+
+msgid "changeGraphics/title"
+msgstr "グラフィックス設定の自動判定"
+
+msgid "changePeriphery/cancel"
+msgstr "キャンセル"
+
+msgid "changePeriphery/message"
+msgstr "他のサーバーに移行しますか?"
+
+msgid "changePeriphery/submit"
+msgstr "移行"
+
+msgid "changePeriphery/title"
+msgstr "移行を確定"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "キャンセル"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "サーバーを移動すると変更が保存されます。自動ログインのON/OFFは設定画面で切り替えられます。"
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "続行"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "別のサーバーに移動しますか？"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "キャンセル"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "他のサーバーに移行してもよろしいですか?\n\nサーバーを変更した場合、以下の制限が生じます:\n\t• 一部の車輌が利用不能になります。\n\t• 徽章および銘刻は表示されなくなります。\n\t• ミッション、パーソナルリザーブ、戦車訓練モードは利用不能になります。\n\n接続状況によるエラーや問題が生じる場合があります。他の地域のプレイヤーに敬意を払ってください。"
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "移行"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "移行を確定"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "キャンセル"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "別のサーバーに移動しますか？\n\nサーバーを変更すると、以下の制限が生じます。\n\t• 車輌の一部が使用できなくなります。\n\t• 徽章や銘刻が表示されなくなります。\n\t• ミッション、パーソナルリザーブ、戦車訓練モードが利用できなくなります。\n\nその他、エラーや接続に関する不具合が発生する可能性があります。他のリージョンのプレイヤーと会話する際には丁寧に接しましょう。\n\nサーバーを移動すると変更が保存されます。\n\n自動ログインのON/OFFは設定画面で切り替えられます。"
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "続行"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "移行を確定"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "キャンセル"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sこのクランに加入しようとしています:\n%(clanName)s\n\nこのクランへの加入を確定した場合、クランの規則や規定に同意し、その活動や発展に積極参加するという意思を示したことになります。\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "このクランから脱退した後には、一時的に他のクランに参加できなくなります。"
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "確定"
+
+msgid "clanConfirmJoining/title"
+msgstr "クランへの加入を確定"
+
+msgid "clan_data_not_available/cancel"
+msgstr "閉じる"
+
+msgid "clan_data_not_available/message"
+msgstr "このプレイヤーのクランのプロフィールは一時的にご利用いただけません。後で再度お試しください。"
+
+msgid "clan_data_not_available/title"
+msgstr "注意!"
+
+msgid "common/cancel"
+msgstr "キャンセル"
+
+msgid "common/confirm/cancel"
+msgstr "いいえ"
+
+msgid "common/confirm/submit"
+msgstr "はい"
+
+msgid "common/cost"
+msgstr "費用:"
+
+msgid "common/error/cancel"
+msgstr "閉じる"
+
+msgid "common/submit"
+msgstr "続行"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "キャンセル"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "購入"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "ディレクティブの購入と搭載"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "キャンセル"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "注意! %(devices)s が搭載されていないため、このディレクティブは %(font_tag_open)s効果を発揮しません%(font_tag_close)s。"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "搭載"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "ディレクティブの搭載"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "キャンセル"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "注意! 選択したディレクティブと互換性のある拡張パーツを所有していないため、このディレクティブは %(font_tag_open)s効果を発揮しません%(font_tag_close)s。"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "搭載"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "ディレクティブの搭載"
+
+msgid "confirmBuy/title"
+msgstr "%(moduleName)sを購入しますか？"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "キャンセル"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "モジュールは倉庫に送られます。"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "購入に必要なリソース:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "戦闘で取得するか、倉庫の不要なアイテムを売却するか、あるいはゴールドを変換する必要があります。"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "クレジット不足"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "新モジュールの価格:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "搭載中のモジュール%(previousModuleName)を%(previousModulePrice)で売却"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "このモジュールを搭載できる車輌"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "モジュールを売却しない場合は倉庫に保管されます。後で売却したり互換性のある車輌に搭載し直すことができます。"
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "購入"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "%(moduleName)sを購入して搭載しますか？"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "拡張パーツ「%(equipment)s」\nを購入して搭載しますか？"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "搭載"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "キャンセル"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "変換不要\nクレジットは充分です。"
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "購入不能: 変換失敗\n変換するにはあと %(gold)s 必要です。"
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "不足分のクレジットを確保するために %(gold)s を変換しますか?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "必要なクレジット:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "購入に必要: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "変換"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "購入のための変換の確定"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "キャンセル"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "変換不要\nEXPは充分です。"
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "研究不可: 変換失敗\n変換するにはあと %(gold)s 必要です。"
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "%(gold)s で必要量のEXPを変換しますか?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "必要なEXP:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "研究に必要: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "車輌を選択"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "研究のための変換の確定"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "合計:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "キャンセル"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "リカバリーするために変換は不要です。\n充分なクレジットを所有しています。"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "リカバリーするために変換できません。\n変換するために %(gold)s 必要です。"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "不足分のクレジットを確保するために %(gold)s を変換しますか?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "必要なクレジット:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "リカバリーに必要: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "変換"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "リカバリーのための変換の確定"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "数:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "数"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "合計"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "価格:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "価格"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "合計:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "合計"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "合計:"
+
+msgid "confirmUnlock/cancel"
+msgstr "いいえ"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} ({{freeXP}}含む) で研究しますか?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "{{items}}を"
+
+msgid "confirmUnlock/item/message"
+msgstr "%(typeString)s %(userString)s を %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (%(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s を含む) で研究しますか?"
+
+msgid "confirmUnlock/submit"
+msgstr "はい"
+
+msgid "confirmUnlock/title"
+msgstr "研究を確定"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "%(userString)s を %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (%(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s を含む) で研究しますか?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "キャンセル"
+
+msgid "controlsWrongNotification/message"
+msgstr "1 つ以上のキーが割り当てられていません。操作設定を保存しますか?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "保存"
+
+msgid "controlsWrongNotification/title"
+msgstr "エラー"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "キャンセル"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "選択された通知音声ファイルは、壊れているか存在していません。通知音声はデフォルトに設定されます。\n1 つ以上のキーが見割り当てです。設定を保存しますか?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "保存"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "エラー"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "createOrderConfirmation/submit"
+msgstr "確定"
+
+msgid "createOrderConfirmation/title"
+msgstr "リザーブ準備を確定"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "リソース不足により購入できません。"
+
+msgid "crewBookPurchase/description/crew"
+msgstr "%(book)sを使用すると選択した車輌の各搭乗員に%(exp)sが付与されます。"
+
+msgid "crewBookPurchase/description/personal"
+msgstr "%(book)sを使用すると選択した搭乗員に%(exp)sが付与されます。"
+
+msgid "crewBookPurchase/purchase"
+msgstr "購入"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "%(book)sを購入しますか？"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "キャンセル"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "{season}マップ用のデカールが車輌からすべて{removed}されます。\nこのスロットは{this}では使用不可能です。"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "確定"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "これらのマップ"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "このマップ"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "スロットに適用したデカールを全てのマップで使用しますか？"
+
+msgid "customization/buy_install_bound/message"
+msgstr "購入すると、これらの要素が現在の車輌に適用されます。アスタリスク (*) が付いているものは他の車輌では利用できなくなります。"
+
+msgid "customization/buy_install_bound/title"
+msgstr "購入を確定"
+
+msgid "customization/change_install_bound/message"
+msgstr "選択すると、これらの要素が現在の車輌に適用されます。アスタリスク (*) が付いているものは他の車輌では利用できなくなります。"
+
+msgid "customization/change_install_bound/title"
+msgstr "変更を確定"
+
+msgid "customization/close/cancel"
+msgstr "キャンセル"
+
+msgid "customization/close/submit"
+msgstr "終了"
+
+msgid "customization/close/title"
+msgstr "変更を保存せずにガレージに戻りますか？"
+
+msgid "customization/exitToShop/cancel"
+msgstr "キャンセル"
+
+msgid "customization/exitToShop/submit"
+msgstr "続行"
+
+msgid "customization/exitToShop/title"
+msgstr "変更を保存せずにショップへ移動しますか？"
+
+msgid "customization/filter/cancel"
+msgstr "キャンセル"
+
+msgid "customization/filter/message"
+msgstr "全ての要素が解除されます。続行しますか?"
+
+msgid "customization/filter/submit"
+msgstr "全て解除"
+
+msgid "customization/filter/title"
+msgstr "要素の解除"
+
+msgid "customization/install_bound/cancel"
+msgstr "キャンセル"
+
+msgid "customization/install_bound/submit"
+msgstr "続ける"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "キャンセル"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "【注意】要素 (%(cTypeName)s %(itemName)s) を選択中の車輌に適用すると、この要素はあと %(numberLeft)s 輌にしか適用できなくなります。それでもこの要素を適用しますか?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "適用"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "要素を適用"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "キャンセル"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "注意! 要素 (%(cTypeName)s %(itemName)s) を現在の車輌に適用した場合、この要素は他の車輌には適用できなくなります。この要素を適用しますか?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "適用"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "要素を適用"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "キャンセル"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "注意! 要素 (%(cTypeName)s %(itemName)s) を現在の車輌に適用した場合、この要素は他の車輌には適用できなくなります。解除した場合、この要素は%(willBeDeleted)s。この要素を適用しますか?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "適用"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "要素を適用"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "破棄されます"
+
+msgid "customization/remove_element/cancel"
+msgstr "キャンセル"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "解除"
+
+msgid "customization/remove_element/title"
+msgstr "要素を解除"
+
+msgid "customizationConfirmSell/message"
+msgstr "%(name)s を %(price)s%(creditsIcon)s で売却しますか?"
+
+msgid "customizationConfirmSell/title"
+msgstr "売却を確定"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "%(days)s日ごと"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "%(days)s日%(hours)s時間ごと"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "%(hours)s時間に1度のみです"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "%(hours)s時間%(mins)s分に1度のみです"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "%(mins)s分に1度のみです"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "ミッションを変更できるのは{timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "変更"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "ミッションを変更しますか？"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} 戦闘中の車輌があります。ミッションを変更すると、進行が失われてしまう場合があります。ミッションを変更できるのは{timeLimitMsg}のみです。"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "変更"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "ミッションを変更しますか？"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "警告！"
+
+msgid "dedication/headline"
+msgstr "勲章「現代の英雄」取得"
+
+msgid "dedication/sub-headline"
+msgstr "{battlesNum}回の戦闘を遂行しました"
+
+msgid "dialogTemplates/cancel"
+msgstr "キャンセル"
+
+msgid "dialogTemplates/confirm"
+msgstr "確定"
+
+msgid "dialogTemplates/ok"
+msgstr "了解！"
+
+msgid "disconnect/cancel"
+msgstr "いいえ"
+
+msgid "disconnect/message"
+msgstr "サーバーから切断してもよろしいですか?"
+
+msgid "disconnect/submit"
+msgstr "はい"
+
+msgid "disconnect/title"
+msgstr "サーバーからの切断"
+
+msgid "disconnected/cancel"
+msgstr "OK"
+
+msgid "disconnected/message"
+msgstr "サーバーから切断されました。OK をクリックするともう一度接続します。"
+
+msgid "disconnected/messageBan"
+msgstr "アカウントは停止されています。%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "%(expiryTime)s までアカウントが停止されています。%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "サーバーへの接続が中断されました。%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \n理由: %s"
+
+msgid "disconnected/title"
+msgstr "接続が中断されました"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "解任"
+
+msgid "dismissTankman/description/perk"
+msgstr "この操作を確定するには、習得中のパーク「{cream_Open}%(perk)s{cream_Close}」の現在の訓練レベルにあたる{whiteOrange_Open}%(level)s{whiteOrange_Close}を以下の空欄に入力する必要があります。"
+
+msgid "dismissTankman/description/qualification"
+msgstr "この操作を確定するには、訓練中のパークの現在の訓練レベルにあたる{whiteOrange_Open}%(level)s{whiteOrange_Close}を以下の空欄に入力する必要があります。"
+
+msgid "dismissTankman/description/time"
+msgstr "表示されている搭乗員を解任します。{whiteOrange_Open}%(time)s日{whiteOrange_Close}が経過するまでであればリカバリーできます。"
+
+msgid "dismissTankman/header"
+msgstr "搭乗員の解任"
+
+msgid "dismissTankman/limited"
+msgstr "リカバリーしうる搭乗員の数が上限に達しているため、この搭乗員を解任すると、「%(vehicle)s」の%(role)s%(name)sをリカバリーできなくなります。"
+
+msgid "dismissTankman/noRecovery"
+msgstr "この搭乗員を解任するとリカバリーはできません"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "キャンセル"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "%(dismissedName)sを解任すると、%(deletedStr)sをリカバリーできなくなります。それでも解任しますか？"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "確定"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "操作を確定"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "キャンセル"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "搭乗員を解任すると、%(deletedStr)sほか%(extraCount)s名の搭乗員をリカバリーできなくなります。それでも解任しますか？"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "確定"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "リカバリーしうる搭乗員の数が上限に到達済み"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "変更"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "名前"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "苗字"
+
+msgid "documentChangeDialog/title"
+msgstr "名前と容姿の変更"
+
+msgid "dropSkill/cancel"
+msgstr "キャンセル"
+
+msgid "dropSkill/message"
+msgstr "全パークをリセットしますか？"
+
+msgid "dropSkill/submit"
+msgstr "リセット"
+
+msgid "dropSkill/title"
+msgstr "リセットを確定"
+
+msgid "elementType/chassis"
+msgstr "サスペンション"
+
+msgid "elementType/engine"
+msgstr "エンジン"
+
+msgid "elementType/gun"
+msgstr "主砲"
+
+msgid "elementType/radiostation"
+msgstr "無線機"
+
+msgid "elementType/turret"
+msgstr "砲塔"
+
+msgid "elenDisabled/cancel"
+msgstr "閉じる"
+
+msgid "elenDisabled/message"
+msgstr "定期メンテナンスのため、コンペティションは一時的にご利用いただけません。"
+
+msgid "elenDisabled/title"
+msgstr "注意!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "キャンセル"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "この警告を再度表示しない"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "このモードでは、PC の性能不足により、フレームレート (FPS) が低くなり、グラフィックが正しく表示されず、戦闘読み込み時間も長くなることが考えられ、クライアントがクラッシュする可能性もあります。戦闘を開始してもよろしいですか?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "戦闘開始!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "パフォーマンス警告"
+
+msgid "equipmentBuyInstall/price"
+msgstr "購入価格:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "%(equipment)sを分解しますか？"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "キャンセル"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "分解してアップグレード"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "分解"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "解除されたこの拡張パーツは{white_Open}破棄{white_Close}されます。\nボンズを使って、破棄せずに解除することも可能です。"
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "解除されたこの拡張パーツは{white_Open}破棄{white_Close}されます。\nゴールドまたは解除キットを使って、破棄せずに解除することも可能です。"
+
+msgid "equipmentDestroy/conformation"
+msgstr "拡張パーツ「%(equipment)s」\nを破棄しますか？"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "拡張パーツ「%(equipment)s」\nを搭載しますか？"
+
+msgid "equipmentSale/conformation/header"
+msgstr "拡張パーツ「%(equipment)s」\nを売却しますか？"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "キャンセル"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "アップグレード"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "分解画面へ"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "分解できる試作拡張パーツがありません。"
+
+msgid "eula/p1"
+msgstr "続行する前に<BR/><A HREF='event:%(eulaURL)s'><U>エンドユーザー・ライセンス契約</U></A> をご確認ください。"
+
+msgid "eula/p2"
+msgstr "「承諾」をクリックすることにより、あなたはエンドユーザー・ライセンス契約 (EULA) の諸条件を読み、理解したことを確認するとともに、本契約の諸条件を遵守することに同意したものとみなします。EULA およびその他規約は、関連するすべての当事者に効力を持つものとします。"
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "%(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s を %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s に変換しますか?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "変換"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "ゴールドの変換"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "最大 %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)sEXPをフリーEXPへと変換する際に適用される割引を使用します。次回、EXPをフリーEXPへと変換する際には、ゴールドが必要です。"
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "%(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)sEXPを %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s でフリーEXPに変換しますか?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "変換"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "フリーEXPへの変換"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "変換用の戦闘EXPが不足しています"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "変換用の戦闘EXPが不足しています"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "キャンセル"
+
+msgid "fillAllPerks/button/fill"
+msgstr "自動判定"
+
+msgid "fillAllPerks/checkbox"
+msgstr "兵舎の搭乗員のパークを自動選択"
+
+msgid "fillAllPerks/description"
+msgstr "パークのスロットに空きがある搭乗員の職能に基づいて、アルゴリズムが以下の表から1つ目のパークを選択します。搭乗員が1つ目のパークを習得済みの場合は2つ目のパークを選択します。2つ目も習得済みの場合は、パークのスロットがすべて埋まるまで選択します。この処理には少々時間がかかる場合があります。"
+
+msgid "fillAllPerks/subTitle"
+msgstr "パークが自動選択されるのは、車輌に配属している搭乗員のみです。"
+
+msgid "fillAllPerks/title"
+msgstr "全搭乗員の未習得パークを自動選択しますか？"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "キャンセル"
+
+msgid "finance_dialog/header"
+msgstr "操作を確定"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "この操作を承諾するにはゴールド処理用のパスワードを入力してください。"
+
+msgid "finance_dialog/results/invalid"
+msgstr "パスワードが無効です。"
+
+msgid "finance_dialog/results/limit"
+msgstr "間違ったパスワードの入力回数が上限を超えました。24 時間後に再試行してください。<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">パスワードを忘れましたか?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "パスワードは 6 文字以上である必要があります。使用可能な文字: 半角英数字および '_'"
+
+msgid "finance_dialog/submitBtn"
+msgstr "確定"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "%(product)sを%(price)sで入手しますか?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "入手"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "確定"
+
+msgid "fortDisabled/cancel"
+msgstr "閉じる"
+
+msgid "fortDisabled/message"
+msgstr "クランの情報は現在、定期メンテナンスに伴いご利用いただけません。"
+
+msgid "fortDisabled/title"
+msgstr "注意!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "OK"
+
+msgid "fortTurnedOff/message"
+msgstr "拠点は一時的にご利用いただけません。後で再度お試しください。"
+
+msgid "fortTurnedOff/title"
+msgstr "注意!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "いいえ"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "はい"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "キャンセル"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "あなたは現在の建造物 %(oldBuilding)s の守備隊から脱退し、建造物 %(newBuilding)s に配属されます。"
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "確定"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "建造物への配属"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "freeObtainConfirmation/message"
+msgstr "%(product)sを%(price)sで入手しますか?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "入手"
+
+msgid "freeObtainConfirmation/title"
+msgstr "確定"
+
+msgid "freeSkillsLearning/message"
+msgstr "ゼロパークの訓練にEXPは必要ありません。そのため、搭乗員の訓練に必要なEXPが大幅に抑えられるという利点があります。"
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "「%(skillName)s」をゼロパークに設定しますか？"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "「%(skillName)s」をゼロパークに設定しますか？"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "freeSlotConfirmation/message"
+msgstr "100%割引を使用してガレージスロット1個を無料で入手しますか？"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "追加"
+
+msgid "freeSlotConfirmation/title"
+msgstr "スロットの追加"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "閉じる"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "無料車輌の購入の上限に達しました。明日、もう一度お試しください。"
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "閉じる"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "購入の上限"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sEXP%(orangeText_close)s%(simpleText_open)sは、戦闘で取得できるゲーム内リソースです。\n\nいくつかの種類があり、%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)s戦闘EXP%(orangeText_close)s%(simpleText_open)sは特定の車輌のモジュールや、その後続車輌をを研究する際に必要になります。%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sフリーEXP%(orangeText_close)s%(simpleText_open)sは特定の車輌と紐付けられておらず、任意の車輌またはモジュールの研究や、搭乗員訓練の促進に利用できます。フリーEXPのご利用は慎重に。%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "続行"
+
+msgid "freeXPInfo/title"
+msgstr "EXP"
+
+msgid "gammaDialog/cancel"
+msgstr "開始"
+
+msgid "gammaDialog/message/description"
+msgstr "戦車長! モニターの設定からガンマ値を調整し、画像品質を高めましょう。\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "今すぐモニターを調整しましょう!"
+
+msgid "gammaDialog/title"
+msgstr "ガンマ設定"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "変換後:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "変換前:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "キャンセル"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "変換"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "合計:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "搭乗員"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "車輌"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "EXP"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "全車輌"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "選択中の車輌でソート"
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "車輌名でソート"
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "車輌"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "取得EXPでソート"
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "EXP"
+
+msgid "gatheringXPForm/title"
+msgstr "フリーEXPへの変換"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "EXPの変換:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "搭乗員の訓練を促進中です。"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "搭乗員の訓練は通常です。"
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "合計:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "合計:"
+
+msgid "graphics/message/alert"
+msgstr "注意!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "画面モードが変更されました。%(time)s 秒後に前の設定に戻ります。選択中の設定を保存しますか?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "保存"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "画面モード設定の保存"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "いいえ"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "注意! 全ての変更が失われます。続行しますか?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "はい"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "グラフィック品質の自動判定"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "いいえ"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "注意! 一部のグラフィックの設定を変更するには、しばらく時間がかかる場合があります。続行しますか?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "はい"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "設定変更"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "閉じる"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "パラメータを最高に設定することができません。ユーザー定義のグラフィック設定が使用されます。"
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "注意"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "閉じる"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "テクスチャ品質 [高] は 64 ビット・システムのみで利用可能です。"
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "テクスチャ品質は利用不能"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "後で再起動"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "一部の設定変更は、ゲームの再起動後に適用されます。"
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "再起動"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "設定変更"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/message"
+msgstr "ガレージに空きスロットがありません。スロットの購入もしくは車輌の売却をご検討ください。"
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "エラー"
+
+msgid "hof/excludeRating/cancel"
+msgstr "キャンセル"
+
+msgid "hof/excludeRating/message"
+msgstr "他のプレイヤーがあなたの実績を確認不能になりますが、ランキングのメインページにおいて確認可能に変更することができます。"
+
+msgid "hof/excludeRating/submit"
+msgstr "結果を非表示"
+
+msgid "hof/excludeRating/title"
+msgstr "レーティングで結果を表示"
+
+msgid "hofDisabled/cancel"
+msgstr "閉じる"
+
+msgid "hofDisabled/message"
+msgstr "ランキングは現在ご利用いただけません。後で再度お試しください。"
+
+msgid "hofDisabled/title"
+msgstr "注意!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "キャンセル"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}搭乗員が不足中{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}搭乗員の一部または全部が不適格{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "以下の理由のいずれかに該当するため選択した車輌の搭乗員は「教育プログラム」のボーナスを取得できません。"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "ボーナスを受けられる搭乗員は1組のみです。搭乗員は次の通りに転属されます: "
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "から"
+
+msgid "idleCrewBonus/submit"
+msgstr "確定"
+
+msgid "idleCrewBonus/title"
+msgstr "「搭乗員教育プログラム」を開始しますか？"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "設定メニューの「グラフィック」タブで「ハードウェア・アクセラレーション」の無効化をお試しください。"
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "データの読み込みエラー"
+
+msgid "interviewQuit/cancel"
+msgstr "戻る"
+
+msgid "interviewQuit/message"
+msgstr "アンケートは、いったん拒否した後も、通知センターの該当メッセージを開くことで回答して頂くことが可能です。このメッセージは、1 回のゲームセッション中に有効です。"
+
+msgid "interviewQuit/submit"
+msgstr "拒否"
+
+msgid "interviewQuit/title"
+msgstr "アンケートを拒否"
+
+msgid "koreaParentNotification/cancel"
+msgstr "了解!"
+
+msgid "koreaParentNotification/message"
+msgstr "未成年のプレイヤーがゲームに熱中しすぎることを防ぐため、%(preBlockTime)s 以後は戦闘への参加が制限されます。%(blockTime)s にサーバーから切断されます。"
+
+msgid "koreaParentNotification/submit"
+msgstr "了解！"
+
+msgid "koreaParentNotification/title"
+msgstr "ゲームプレイ制限"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "了解！"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "時間制限により新しい戦闘に参加できません。"
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "了解！"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "ペアレンタルコントロール"
+
+msgid "leaveEvent/cancel"
+msgstr "キャンセル"
+
+msgid "leaveEvent/message"
+msgstr "このコンペティションにおける戦闘の結果は、レーティングの更新後にリセットされます。レーティングに参加し報酬を得ることはできません。\n\nコンペティションを中断した後は、%(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "再参加できません。"
+
+msgid "leaveEvent/submit"
+msgstr "コンペティションをやめる"
+
+msgid "leaveEvent/title"
+msgstr "コンペティションをやめる"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "キャンセル"
+
+msgid "leaveStartedEvent/message"
+msgstr "このコンペティションにおいて、戦闘の結果は対象外となります。レーティングに参加し報酬を得ることはできません。\n\nコンペティションを中断した後は、%(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "コンペティションをやめる"
+
+msgid "leaveStartedEvent/title"
+msgstr "コンペティションをやめる"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "キャンセル"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "既に戦闘前ロビーにいます。退出して招待を承諾してもよろしいですか?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "招待"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "キャンセル"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "既に小隊に参加中です。現在の小隊を辞めて、この招待を承諾しますか?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "招待"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "キャンセル"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "既にトレーニング・ルームに参加中です。退出してこの招待を承諾しますか?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "招待"
+
+msgid "legalInfoWindow/title"
+msgstr "法律情報"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "キャンセル"
+
+msgid "limitedUIOffNotification/message"
+msgstr "ガレージ・インターフェースの段階的アンロック機能を無効化しますか？\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "こちらの機能を無効化すると再び有効化できなくなる点にご注意ください。"
+
+msgid "limitedUIOffNotification/submit"
+msgstr "無効化"
+
+msgid "limitedUIOffNotification/title"
+msgstr "設定変更"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "キャンセル"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "サーバーを移動すると変更が保存されます。自動ログインのON/OFFは設定画面で切り替えられます。"
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "続行"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "サーバーの変更を保存しますか？"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "「代替構成」の砲弾が不足しています。このまま出撃しますか？"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "砲弾不足"
+
+msgid "lowAmmo/cancel"
+msgstr "キャンセル"
+
+msgid "lowAmmo/message"
+msgstr "選択中の車輌の砲弾が不足しています。砲弾は戦闘開始前に自動的に補給されます。"
+
+msgid "lowAmmo/submit"
+msgstr "補給"
+
+msgid "lowAmmo/title"
+msgstr "「砲弾」自動補給"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "キャンセル"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "選択した車輌は、砲弾が不足しています。このまま戦闘に参加してもよろしいですか?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "戦闘開始！"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "砲弾不足"
+
+msgid "lowFpsWarning/cancel"
+msgstr "いいえ"
+
+msgid "lowFpsWarning/message"
+msgstr "現在のゲーム設定により、ゲームのパフォーマンスが低下しています。グラフィック設定を下げますか?"
+
+msgid "lowFpsWarning/submit"
+msgstr "はい"
+
+msgid "lowFpsWarning/title"
+msgstr "ゲームパフォーマンス低下"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "%(userName)s のプレイヤー詳細はロック中です。"
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "プレイヤー詳細はロック中"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "ユーザー %(userName)s のデータは現在ご利用頂けません。"
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "データは現在ご利用頂けません"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "キャンセル"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s この設定を有効にすると、PC のパフォーマンスが低下 (戦闘中のみ) します。"
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "注意!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "ON"
+
+msgid "minimapAlphaNotification/title"
+msgstr "ミニマップの透明度"
+
+msgid "moduleSale/conformation/header"
+msgstr "%(moduleType)s「%(moduleName)s」を売却しますか？"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "キャンセル"
+
+msgid "moneyTransfer/labelClan"
+msgstr "クラン:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "クレジット"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "ゴールド"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "料金:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "送付:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "通常:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "クレジット"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "ゴールド"
+
+msgid "moneyTransfer/labelTo"
+msgstr "宛先:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "合計:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(クランメンバーではありません)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "送信"
+
+msgid "moneyTransfer/title"
+msgstr "ゴールドの送付"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "{gold} <img src='icon_gold' /> をプレイヤー {player} に送付しますか? 手数料: {fee} <img src='icon_gold' />"
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "送付"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "送付を確定"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">ゴールド処理用のパスワード設定</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/message"
+msgstr "ゴールドの送付はできません。理由: %s"
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "送付の制限は %s に解除されます。"
+
+msgid "moneyTransferRestriction/submit"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/title"
+msgstr "ゴールドの送付ができません。"
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "いいえ"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "次の戦闘において一部設定への変更が適用されます。続行しますか?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "はい"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "設定変更"
+
+msgid "perkLearnConfirm/desc"
+msgstr "訓練後のパークのレベル: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "訓練"
+
+msgid "perkLearnConfirm/title"
+msgstr "パーク「%(skillName)s」を訓練しますか？"
+
+msgid "perksReset/after"
+msgstr "リセット後"
+
+msgid "perksReset/before"
+msgstr "リセット前"
+
+msgid "perksReset/cancel"
+msgstr "キャンセル"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "この搭乗員はすでにタンクアカデミーでパークのリセットの100%割引を受けているため、このオプションは利用できません。"
+
+msgid "perksReset/discountTooltip/header"
+msgstr "利用不可"
+
+msgid "perksReset/free/description"
+msgstr "訓練レベルが{yellow_Open}1%{yellow_Close}未満のパークは無料でリセットできます。"
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "この搭乗員は初回無料のパーク・リセットを利用できます"
+
+msgid "perksReset/graceLabel"
+msgstr "無料でパークのリセットを行える期間の終了まであと"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "搭乗員EXPの減少に伴い、習得済みのパークが減ってしまいます。"
+
+msgid "perksReset/noNewPerks"
+msgstr "パークの習得に費やしたEXPはすべて職能レベルに加算されます。"
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "搭乗員EXPから差し引かれます"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "軍士学校"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "搭乗員EXPから差し引かれます"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "速成コース"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "EXPを失うことなく\nパークをリセット"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "クレジットを使用すると、EXPを失うことなくパークをリセットできます。"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "タンクアカデミー"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "EXPを失うことなく\nパークをリセット"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp; ({xpAmount}) が"
+
+msgid "perksReset/submit"
+msgstr "リセット"
+
+msgid "perksReset/title"
+msgstr "全搭乗員のパークをリセットしますか？"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "キャンセル"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "選択されたサウンド物理品質は、ゲームクライアントが自動検出した設定と異なります。この設定を有効にすると、PCのパフォーマンスに影響する可能性があるため、設定を確定する前にパフォーマンスをテストすることを推奨します。これらの変更を適用しますか?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "確定"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "サウンド物理品質の不一致"
+
+msgid "postmortem/cancel"
+msgstr "終了"
+
+msgid "postmortem/message"
+msgstr "車輌大破。戦闘に残りますか? 終了してガレージに戻りますか?"
+
+msgid "postmortem/submit"
+msgstr "残る"
+
+msgid "postmortem/title"
+msgstr "車輌大破"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "%(days)s 日間のプレミアムアカウントを %(gold)s ゴールドで購入しますか?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "購入"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "購入を確定"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "プレミアムアカウントを %(gold)s ゴールドで %(days)s 日間延長しますか?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "延長"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "確定"
+
+msgid "priceCard/credits/title"
+msgstr "軍士学校"
+
+msgid "priceCard/free/title"
+msgstr "速成コース"
+
+msgid "priceCard/gold/title"
+msgstr "タンクアカデミー"
+
+msgid "priceCard/price/free"
+msgstr "無料"
+
+msgid "priceCard/recertification/title"
+msgstr "特訓修了証"
+
+msgid "punishmentWindow/cancel"
+msgstr "了解"
+
+msgid "punishmentWindow/header/ban"
+msgstr "%(time)s間のプレイ禁止処分が科されました"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "ペナルティーが科されました"
+
+msgid "punishmentWindow/header/warning"
+msgstr "非スポーツマン行為"
+
+msgid "punishmentWindow/info"
+msgstr "回線不調やその他の技術的問題に起因する場合は、\nお手数ですが、プレイヤーサポートにお問い合わせください。"
+
+msgid "punishmentWindow/message/ban"
+msgstr "{whiteSpanish_Open}%(time)s{whiteSpanish_Close}にマップ「{whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}」で「ゲームルール」に違反する行為が確認されました。\nそのため、一時的な「{whiteSpanish_Open}%(mode)s{whiteSpanish_Close}」モードでのプレイ禁止処分が科せられています。"
+
+msgid "punishmentWindow/message/penalty"
+msgstr "{whiteSpanish_Open}%(time)s{whiteSpanish_Close}にマップ「{whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close}」で「ゲームルール」に違反する行為が確認されました。\nそのため、戦闘で取得したクレジット、EXP、報酬の剥奪処分が科せられています。"
+
+msgid "punishmentWindow/message/warning"
+msgstr "%(time)sにマップ「%(arenaName)s」で『ゲームルール』に違反する行為「%(reason)s」が確認されました。\n違反行為がもう一度繰り返し行われた場合は戦闘で取得したクレジット、EXP、勲章、その他の報酬がすべて剥奪されます。"
+
+msgid "punishmentWindow/reason/afk"
+msgstr "戦闘中の不行動"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "戦闘終了前または車輌が大破する前に戦闘から離脱"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "戦闘中の放置行為または戦場からの途中離脱"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "故意の自爆"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s日%(hour)s時間"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s時間%(min)s分"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1分"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s分"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "キャンセル"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "再度確認しない"
+
+msgid "questsConfirmDialog/message"
+msgstr "ミッション \"%(newQuest)s\" を選択した場合、ミッション \"%(oldQuest)s\" はキャンセルされます。"
+
+msgid "questsConfirmDialog/submit"
+msgstr "確定"
+
+msgid "questsConfirmDialog/title"
+msgstr "ミッション選択を確定"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "キャンセル"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "%(curQuest)s ミッションの進行状況は全てリセットされます。\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "注意! 現在のミッションの進行状況が全て失われます。"
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "確定"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "進行をリセット"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "キャンセル"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "%(newQuest)s ミッションを選択すると、%(oldQuest)s ミッションの進行状況はリセットされます。\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "注意! 現在のミッションの進行状況が全て失われます。"
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "はい"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "ミッション選択を確定"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "キャンセル"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "%(quest)s ミッションはキャンセルされます。\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "注意! 現在のミッションの進行状況が全て失われます。"
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "はい"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "ミッションのキャンセル確認"
+
+msgid "quit/cancel"
+msgstr "留まる"
+
+msgid "quit/submit"
+msgstr "終了"
+
+msgid "quit/title"
+msgstr "ゲームを終了しますか？"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "キャンセル"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "戦闘はまだ終了していません。自車輌が大破していないにもかかわらず戦場を離脱するのは迷惑行為とみなされ、該当する戦闘で取得した全ボーナスが剥奪されるほか、制裁が科される可能性があります。"
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "戦闘離脱"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "戦闘から離脱しますか？"
+
+msgid "quitBattle/cancel"
+msgstr "キャンセル"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "キャンセル"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "戦闘はまだ終了していません。自車輌が大破していないにもかかわらず戦闘から離脱するのは迷惑行為とみなされ、制裁が科される可能性があります。"
+
+msgid "quitBattle/leaver/submit"
+msgstr "戦闘離脱"
+
+msgid "quitBattle/leaver/title"
+msgstr "戦闘から離脱しますか？"
+
+msgid "quitBattle/replay/cancel"
+msgstr "キャンセル"
+
+msgid "quitBattle/replay/submit"
+msgstr "終了"
+
+msgid "quitBattle/replay/title"
+msgstr "観戦モードを終了しますか?"
+
+msgid "quitBattle/submit"
+msgstr "離脱"
+
+msgid "quitBattle/title"
+msgstr "戦場から離脱しますか？"
+
+msgid "quitPreBattle/cancel"
+msgstr "いいえ"
+
+msgid "quitPreBattle/message"
+msgstr "戦闘前ロビーを退出してもよろしいですか?"
+
+msgid "quitPreBattle/submit"
+msgstr "はい"
+
+msgid "quitPreBattle/title"
+msgstr "戦闘前ロビーからの退出"
+
+msgid "rally/autoSearch/cancel"
+msgstr "いいえ"
+
+msgid "rally/autoSearch/message"
+msgstr "空きスロットに対して自動検索してもよろしいですか?"
+
+msgid "rally/autoSearch/submit"
+msgstr "はい"
+
+msgid "rally/autoSearch/title"
+msgstr "自動検索"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "キャンセル"
+
+msgid "rally/changePeriphery/message"
+msgstr "他のサーバー (%(host)s) に自動移行されます。続行してもよろしいですか?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "移行"
+
+msgid "rally/changePeriphery/title"
+msgstr "他のサーバーに移行"
+
+msgid "rally/goToAnother/cancel"
+msgstr "キャンセル"
+
+msgid "rally/goToAnother/message"
+msgstr "戦闘モードを変更した場合、戦術ユニットから自動的に除外されます。"
+
+msgid "rally/goToAnother/submit"
+msgstr "移行"
+
+msgid "rally/goToAnother/title"
+msgstr "モードの変更"
+
+msgid "rally/goToIntro/cancel"
+msgstr "キャンセル"
+
+msgid "rally/goToIntro/message"
+msgstr "戦術ユニットから脱退してもよろしいですか?"
+
+msgid "rally/goToIntro/submit"
+msgstr "確定"
+
+msgid "rally/goToIntro/title"
+msgstr "終了を確定"
+
+msgid "rally/goToSquad/cancel"
+msgstr "キャンセル"
+
+msgid "rally/goToSquad/message"
+msgstr "小隊を作成した場合、現在の戦闘モードを自動的に終了します。"
+
+msgid "rally/goToSquad/submit"
+msgstr "作成"
+
+msgid "rally/goToSquad/title"
+msgstr "小隊の作成"
+
+msgid "rally/leave/cancel"
+msgstr "キャンセル"
+
+msgid "rally/leave/message"
+msgstr "戦術ユニットから脱退し、このモードを終了してもよろしいですか?"
+
+msgid "rally/leave/submit"
+msgstr "確定"
+
+msgid "rally/leave/title"
+msgstr "終了を確定"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "続行"
+
+msgid "rally/leaveDisabled/message"
+msgstr "モードを終了できません。あなたの車輌が、戦闘準備が完了したスロットに含まれています。"
+
+msgid "rally/leaveDisabled/title"
+msgstr "注意"
+
+msgid "rally/startBattle/cancel"
+msgstr "いいえ"
+
+msgid "rally/startBattle/message"
+msgstr "敵を検索しますか?"
+
+msgid "rally/startBattle/submit"
+msgstr "はい"
+
+msgid "rally/startBattle/title"
+msgstr "敵を検索"
+
+msgid "recruit/cancel"
+msgstr "キャンセル"
+
+msgid "recruit/submit"
+msgstr "採用"
+
+msgid "recruit/title"
+msgstr "車輌「%(vehicleName)s」用に新しい%(role)sを採用しますか？"
+
+msgid "recruit/voiceoverText"
+msgstr "オリジナル音声パックは職能が車長の場合にしか再生されません。"
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "プレミアム車輌には車輌タイプが同じ車輌に適性を持つ搭乗員をペナルティーなしで配属することができるため、必ずしも新たに搭乗員を採用する必要はありません。"
+
+msgid "recruit/warning/slotChanged"
+msgstr "選択した車輌にこの搭乗員を配属することができないため、「兵舎」に送られます。"
+
+msgid "recruitConversionConfirm/warning"
+msgstr "この搭乗員が習得しているパークの中に現在使用できないものがあります。該当パークはEXPを失うことなく自動でリセットされます。"
+
+msgid "recruitDialog/name/title"
+msgstr "新たな搭乗員として%(name)sを採用しますか？"
+
+msgid "recruitDialog/title"
+msgstr "新たな搭乗員を採用しますか？"
+
+msgid "recruitWindow/cancel"
+msgstr "キャンセル"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "未選択"
+
+msgid "recruitWindow/nation"
+msgstr "国籍"
+
+msgid "recruitWindow/specialization"
+msgstr "職能"
+
+msgid "recruitWindow/submit"
+msgstr "採用"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "車輌タイプ"
+
+msgid "recruitWindow/vehicleType"
+msgstr "車輌"
+
+msgid "referralReward/cancel"
+msgstr "キャンセル"
+
+msgid "referralReward/message"
+msgstr "%(product)s を入手しますか?"
+
+msgid "referralReward/submit"
+msgstr "確定"
+
+msgid "referralReward/title"
+msgstr "受領の確認"
+
+msgid "refuseTraining/cancel"
+msgstr "いいえ"
+
+msgid "refuseTraining/message"
+msgstr "トレーニングを終了しますか?"
+
+msgid "refuseTraining/submit"
+msgstr "はい"
+
+msgid "refuseTraining/title"
+msgstr "確定"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "破棄"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "キャンセル"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "消耗品 \"%(name)s\" は、現在のモジュールが %(reason)s のため、倉庫に移されます。"
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "非互換"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "解除"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "解除の確定"
+
+msgid "rentConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "rentConfirmation/event"
+msgstr "「%(eventName)s」モード"
+
+msgid "rentConfirmation/message"
+msgstr "%(event)sで使用するため%(price)sで「%(name)s」をレンタルしますか？"
+
+msgid "rentConfirmation/submit"
+msgstr "確定"
+
+msgid "rentConfirmation/title"
+msgstr "レンタルの確認"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "キャンセル"
+
+msgid "rentConfirmationRenew/message"
+msgstr "%(event)sで使用するため%(price)sで「%(name)s」のレンタル期間を延長しますか？"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "確定"
+
+msgid "rentConfirmationRenew/title"
+msgstr "レンタルの確認"
+
+msgid "replacePassport/unique/cancel"
+msgstr "キャンセル"
+
+msgid "replacePassport/unique/message"
+msgstr "この搭乗員は独自であり、その個人データを後でリセットすることはできません。個人データを %(gold)s で変更してもよろしいですか?"
+
+msgid "replacePassport/unique/submit"
+msgstr "変更"
+
+msgid "replacePassport/unique/title"
+msgstr "変更を確定"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "replacePassportConfirmation/message"
+msgstr "この搭乗員の個人データを %(gold)s で変更しますか?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "変更"
+
+msgid "replacePassportConfirmation/title"
+msgstr "個人データの変更"
+
+msgid "replayNotification/cancel"
+msgstr "いいえ"
+
+msgid "replayNotification/message"
+msgstr "現在のバージョンはこの戦闘リプレイとは非互換であり、再生時に問題が生じる可能性があります。再生してもよろしいですか?"
+
+msgid "replayNotification/submit"
+msgstr "はい"
+
+msgid "replayNotification/title"
+msgstr "警告"
+
+msgid "replayStopped/cancel"
+msgstr "キャンセル"
+
+msgid "replayStopped/message"
+msgstr "再生完了。「終了」をクリックするとゲームを終了します。"
+
+msgid "replayStopped/submit"
+msgstr "終了"
+
+msgid "replayStopped/title"
+msgstr "再生完了。"
+
+msgid "reportBug/cancel"
+msgstr "キャンセル"
+
+msgid "reportBug/message"
+msgstr "お使いのPCのデフォルトのブラウザで『World of Tanks』のプレイヤーサポートに移動します。Webページに移動しますか?"
+
+msgid "reportBug/submit"
+msgstr "続行"
+
+msgid "reportBug/title"
+msgstr "プレイヤーサポートへ"
+
+msgid "resetAllPerks/cancel"
+msgstr "キャンセル"
+
+msgid "resetAllPerks/submit"
+msgstr "リセット"
+
+msgid "resetAllPerks/title"
+msgstr "全搭乗員の全パークをリセットしますか？"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}アカウント上の全搭乗員の全パークがリセットされます。{orangeEnd}\n{orangeStart}この操作は取り消すことができません。{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "続行"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s グラフィック設定は最適画質に設定されています。\nパフォーマンスを改善するには、設定で画質を下げてください。"
+
+msgid "resetGraphics/submit"
+msgstr "設定"
+
+msgid "resetGraphics/title"
+msgstr "グラフィック設定の変更"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "リカバリー"
+
+msgid "restoreTankman/description"
+msgstr "%(name)sを再び車輌に配属できるようになります。"
+
+msgid "restoreTankman/free"
+msgstr "費用: 無料"
+
+msgid "restoreTankman/header"
+msgstr "この搭乗員をリカバリーしますか？"
+
+msgid "restoreTankman/price"
+msgstr "費用:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "キャンセル"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "%(vehiclename)s をリカバリー"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "リカバリー"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "搭乗員なし"
+
+msgid "restoreVehicleDialog/title"
+msgstr "%(vehiclename)s をリカバリー"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "リカバリーをクリックすると、購入した拡張パーツおよび消耗品をゴールドと交換することはできなくなります。改めてよくご確認ください。"
+
+msgid "retrain/cancel"
+msgstr "キャンセル"
+
+msgid "retrain/changeRole"
+msgstr "職能の変更"
+
+msgid "retrain/discountLabel"
+msgstr "1つ目のパークが100%まで訓練されていないため、この割引を利用できます。"
+
+msgid "retrain/discountTooltip/body"
+msgstr "すでにタンクアカデミーで再訓練の100%割引を受けているため、このオプションは利用できません。"
+
+msgid "retrain/discountTooltip/header"
+msgstr "利用不可"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "再訓練を行う搭乗員: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "プレミアム車輌に乗せ換える場合は原則としてペナルティーが発生しません。\nただし、適性のある車輌と車輌タイプが異なる場合や、職能の変更を伴う場合は例外です。"
+
+msgid "retrain/price"
+msgstr "費用:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "パーク適性\n再訓練後: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "軍士学校"
+
+msgid "retrain/priceCard/free/description"
+msgstr "パーク適性\n再訓練後: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "速成コース"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "パーク適性\n再訓練後: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "タンクアカデミー"
+
+msgid "retrain/submit"
+msgstr "再訓練"
+
+msgid "retrain/title/massive"
+msgstr "表示中の搭乗員を再訓練して車輌適性を%(vehicleName)s&zwnbsp;に変更しますか?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "表示中の搭乗員を再訓練して車輌適性を %(vehicleName)sに変更し、\n職能を%(role)に変更しますか？"
+
+msgid "retrain/title/single/simple"
+msgstr "再訓練して車輌適性を%(vehicleName)sに変更"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "実際の職能と合致しないパークは発動しません。手動でリセットしてください。"
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "搭乗員は、同じ車輌タイプのプレミアム車輌に訓練やペナルティーなしで乗せ換えることができます。ただし、実際の職能と合致しないパークは手動でリセットする必要があります。"
+
+msgid "rudyInfo/message"
+msgstr "不朽の名作がゲームで復活！ 『4人の戦車兵と1匹の犬』は、ヤヌシュ・プリュマノフスキによる同名の小説を原作としたポーランドの白黒TVドラマシリーズです。原題を『Czterej pancerni i pies』といいます。1966年5月9日に放送が始まった同シリーズは、第二次世界大戦を題材に、《Rudy》の愛称で親しまれる《T-34-85》に配属された搭乗員と飼い犬シャーリクの冒険を描き、大きな人気を博しました。"
+
+msgid "rudyInfo/submit"
+msgstr "了解！"
+
+msgid "rudyInfo/title"
+msgstr "4人の戦車兵と1匹の犬"
+
+msgid "selectVehicle/counter"
+msgstr "表示中の車輌:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "攻撃車輌を選択"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "この車輌を選択"
+
+msgid "sellConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "sellConfirmation/submit"
+msgstr "売却"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "売却"
+
+msgid "sellModuleConfirmation/title"
+msgstr "売却を確定"
+
+msgid "sellShellConfirmation/submit"
+msgstr "砲弾「%(shellName)s」を売却しますか？"
+
+msgid "sendInvites/common/title"
+msgstr "戦術ユニットへ招待"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "キャンセル"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "セッション統計は {} 後に自動でリセットされます"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "リセット"
+
+msgid "sessionStats/confirmReset/time"
+msgstr "%(hours)s 時間 %(minutes)s 分"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "セッション統計をリセットしますか?"
+
+msgid "shopSyncError/cancel"
+msgstr "続行"
+
+msgid "shopSyncError/message"
+msgstr "アプリケーションを更新してください。エラーが繰り返す場合は、サーバーをアップデートしてください。"
+
+msgid "shopSyncError/title"
+msgstr "非同期"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "キャンセル"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "選択したパークを訓練しますか？"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "訓練"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "適用"
+
+msgid "soundModeInvalid/cancel"
+msgstr "キャンセル"
+
+msgid "soundModeInvalid/message"
+msgstr "選択された通知音声ファイルは、壊れているか存在していません。通知音声はデフォルトに設定されます。"
+
+msgid "soundModeInvalid/submit"
+msgstr "保存"
+
+msgid "soundModeInvalid/title"
+msgstr "エラー"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "キャンセル"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "選択したサウンドシステムは、ゲームクライアントが自動検出したものとは異なるため、一部のサウンドが再生されない可能性があります。サウンドの違いをテストすることを推奨します。変更を確定しますか?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "確定"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "サウンドシステムの不一致"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "いいえ"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "選択したサウンドシステムは、ゲームクライアントが自動検出したものとは異なるため、一部のサウンドが再生されない可能性があります。最適なサウンド設定を適用しますか?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "はい"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "サウンドシステムの不一致"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "了解！"
+
+msgid "squad/eventDisabled/message"
+msgstr "イベントが終了したため小隊が解散されます。"
+
+msgid "squad/eventDisabled/title"
+msgstr "イベント終了"
+
+msgid "squad/goToAnother/cancel"
+msgstr "キャンセル"
+
+msgid "squad/goToAnother/message"
+msgstr "小隊に参加中です。モードを変更した場合、小隊から除外されます。"
+
+msgid "squad/goToAnother/submit"
+msgstr "移行"
+
+msgid "squad/goToAnother/title"
+msgstr "モードの変更"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "キャンセル"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "ゲームモードを変更すると、現在の小隊が解散されます。本当にモードを変更しますか？"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "確定"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "ゲームモードを変更する"
+
+msgid "squad/goToSquad/cancel"
+msgstr "キャンセル"
+
+msgid "squad/goToSquad/message"
+msgstr "戦術ユニットから脱退してこのプレイヤーとの小隊を作成しますか?"
+
+msgid "squad/goToSquad/submit"
+msgstr "作成"
+
+msgid "squad/goToSquad/title"
+msgstr "小隊の作成"
+
+msgid "squad/leave/cancel"
+msgstr "キャンセル"
+
+msgid "squad/leave/message"
+msgstr "小隊から脱退してもよろしいですか?"
+
+msgid "squad/leave/submit"
+msgstr "確定"
+
+msgid "squad/leave/title"
+msgstr "終了を確定"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "続行"
+
+msgid "squad/leaveDisabled/message"
+msgstr "小隊から脱退できません。あなたは小隊メンバーかつ戦闘準備を完了しています。"
+
+msgid "squad/leaveDisabled/title"
+msgstr "注意"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "キャンセル"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "小隊が不完全です。もう 1 名のプレイヤーが自動追加されます。戦闘に参加しますか?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "戦闘開始!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "小隊が準備中"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "キャンセル"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "小隊に欠員がいます。戦闘に参加してもよろしいですか?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "戦闘開始!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "小隊が準備中"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "キャンセル"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "小隊が不完全です。自動的にプレイヤーを追加して戦闘に参加しますか?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "戦闘開始!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "小隊が準備中"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "キャンセル"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "小隊メンバーのうち 1 名が準備未完了です。戦闘に参加してもよろしいですか?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "戦闘開始!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "小隊が準備中"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "キャンセル"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "戦闘準備完了を確定しなかったプレイヤーは、この戦術ユニットから除外されます。もう 1 名のプレイヤーが自動追加されます。戦闘に参加しますか?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "戦闘開始!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "小隊が準備中"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "キャンセル"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "小隊メンバーが両者ともに準備未完了です。このまま戦闘を開始しますか?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "戦闘開始!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "小隊が準備中"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "キャンセル"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "小隊が不完全です。戦闘準備完了を確定しなかったプレイヤーは、この戦術ユニットから除外されます。自動的にプレイヤーを追加して戦闘に参加しますか?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "戦闘開始!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "小隊が準備中"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "新しい戦闘に参加できません。戦闘中のプレイヤーがいます。戦闘が終了するのお待ちください。"
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "了解！"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "小隊が準備中"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "OK"
+
+msgid "squadPremiumNeeded/message"
+msgstr "プレミアムアカウントのユーザーのみが小隊を作成可能です。\n小隊の作成者は、アカウント種別を問わず任意のユーザーを招待できます。"
+
+msgid "squadPremiumNeeded/title"
+msgstr "プレミアムアカウント限定"
+
+msgid "steamStartNeeded/cancel"
+msgstr "ゲームを終了"
+
+msgid "steamStartNeeded/message"
+msgstr "正常にログインするにはSteamからゲームを起動する必要があります。"
+
+msgid "steamStartNeeded/title"
+msgstr "ログイン不可"
+
+msgid "stronghold/leave/cancel"
+msgstr "キャンセル"
+
+msgid "stronghold/leave/message"
+msgstr "分遣隊から脱退してもよろしいですか?"
+
+msgid "stronghold/leave/submit"
+msgstr "確定"
+
+msgid "stronghold/leave/title"
+msgstr "終了の確認"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "あなたが脱退すると、この分遣隊は解散されます。\nクランには、戦闘不参加ペナルティが科されます。\n本当に分遣隊から脱退してもよろしいですか?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "終了の確認"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "キャンセル"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "移行"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "他のサーバーに移行"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)sを下取りに出すと、リカバリーできなくなります。%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " 加えて、%(operations)s"
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "搭乗員は兵舎に送られます"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "消耗品は倉庫に送られます"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "拡張パーツは無料で解除されます"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "適用中の「二元的改修案」はすべて破棄されますがアンロック済みの「基礎的改修案」は維持されます"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "砲弾は倉庫に送られます"
+
+msgid "tradeInConfirmation/submit"
+msgstr "交換"
+
+msgid "tradeInConfirmation/title"
+msgstr "車輌下取り"
+
+msgid "tradeInPopover/descr"
+msgstr "ガレージに所有中のプレミアム車輌"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "選択車輌の国を表示"
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "国"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "選択車輌を下取りに出した場合に割り引かれる額"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "車輌\n査定"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "車輌査定"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "選択車輌の Tier を表示"
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Tier"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "選択車輌の名称を表示"
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "車輌名"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "選択車輌のタイプを表示"
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "タイプ"
+
+msgid "tradeInPopover/title"
+msgstr "下取りに出す車輌を選択"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "車輌の選択"
+
+msgid "updateNeeded/cancel"
+msgstr "後で再起動"
+
+msgid "updateNeeded/message"
+msgstr "ゲームをアップデートしてください。"
+
+msgid "updateNeeded/submit"
+msgstr "アップデート"
+
+msgid "updateNeeded/title"
+msgstr "アップデートが必要"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "{%d} ゴールドでこの搭乗員を訓練しますか?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "訓練"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "訓練を確定"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "訓練に必要なゴールドが不足しています。"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "ゴールド不足"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "キャンセル"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "{%d} クレジットでこの搭乗員を訓練しますか?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "訓練"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "訓練を確定"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "訓練に必要なクレジットが不足しています。"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "クレジット不足です。"
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "キャンセル"
+
+msgid "vehConf/exitDialog/message"
+msgstr "変更は保存されません。車輌構成メニューを終了してもよろしいですか?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "確定"
+
+msgid "vehConf/exitDialog/title"
+msgstr "変更をキャンセル"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "ガレージから削除 %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "キャンセル"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "注意! 本車は特別車輌です。売却した場合、リカバリーできるようになるまで %(cooldown)s 日待つ必要があります。本車を売却してもよろしいですか?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "確定"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "売却を確定"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "キャンセル"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "注意! 本車は特別車輌です。しかし、売却したとしても後でリカバリーすることが可能です。本車を売却してもよろしいですか?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "確定"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "売却を確定"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "キャンセル"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "キャンセル"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "注意! この車輌は特別車輌であるため、リカバリー不能です。その搭乗員も恒久解任されます。"
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "確定"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "売却を確定"
+
+msgid "vehicleSell/unique/message"
+msgstr "ご注意! この車輌は特別車輌であり、ショップで購入することはできません。売却してもよろしいですか?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "はい"
+
+msgid "vehicleSell/unique/title"
+msgstr "売却を確定"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "売却を確定"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "確認のため、\"合計\" 欄のクレジット額を入力してください (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "入力された情報が間違っています。"
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "砲弾:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "ディレクティブ"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "キャンセル"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "計:"
+
+msgid "vehicleSellDialog/count"
+msgstr "個"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "解任"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "兵舎に送る"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "搭乗員:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "塗装:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "分解"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "消耗品:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "詳細"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "倉庫:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "消費:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "本車の国別構成を全て含みます!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "モジュール"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "拡張パーツ:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "車輌を売却した場合、「野戦改修レベル」は現在の状態が維持されますが、「二元的改修案」はすべて破棄されます。"
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "取得:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "削除"
+
+msgid "vehicleSellDialog/submit"
+msgstr "売却"
+
+msgid "vehicleSellDialog/title"
+msgstr "%(name)s を売却"
+
+msgid "vehicleSellDialog/unload"
+msgstr "倉庫に送る"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "エリート"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "価格"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Tier"
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "ロール:"
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "自走砲"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "重戦車"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "軽戦車"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "中戦車"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "了解!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "音声チャットの初期化エラー: サービスは現在、ご利用いただけません。"
+
+msgid "voiceChatInitFailed/title"
+msgstr "音声チャット初期化中"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "OK"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "音声チャット初期化完了。"
+
+msgid "voiceChatInitSucceded/title"
+msgstr "音声チャット初期化中"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "閉じる"
+
+msgid "waterQualityNotPossible/message"
+msgstr "高品質の水面は、ポストプロセスを有効にした場合のみご利用頂けます。"
+
+msgid "waterQualityNotPossible/title"
+msgstr "高品質の水面は利用不可"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "キャンセル"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "操作を行う前に車輌の所有状況をご確認ください"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "必要なパーツ: %(price)s %(icon)s (所有数: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "プレイヤー: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "選択中の車輌: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "車輌を再配備する"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "車輌を再配備しますか？"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "出撃準備アシスト"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "アテンダンス報酬"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "取得リソースへのボーナス"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "バトルパス・プラス"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "マップフィルター"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "限定車輌"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "限定車輌"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "拡張パーツの無料解除"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "ゴールド庫"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "搭乗員教育プログラム"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "勝利時に適用できるEXPボーナス"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "プロ・ブースト"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "実績カスタマイズ"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "バナー"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "「WoT Plus」が有効になりました"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "了解"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "更新日: {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "「WoT Plus Basic」が有効になりました"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "詳細"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360日プラン"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180日プラン"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}} (更新日: {{date}})"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "「WoT Plus Pro」が有効になりました"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "有効化"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}{{@ style (color #fff)}}{{boostInterval}}時間{{/}}経過するまで、ブースト対象の車輌を変更できません。{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "「プロ・ブースト」を適用すると、対象車輌で取得できるクレジットとEXPが{{@ style (color #fff)}}{{bonusPercent}}{{/}}増加します。選択できる対象は1輌のみです。"
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "{{vehicle}}に「プロ・ブースト」を適用しますか?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "変更"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}ブーストの対象に選択できる車輌は1輌のみです。{{@ style (color #fff)}}{{boostInterval}}時間{{/}}経過するまで、ブースト対象の車輌を変更できません。{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "「プロ・ブースト」を適用すると、対象車輌で取得できるクレジットとEXPが{{@ style (color #fff)}}{{bonusPercent}}{{/}}増加します。選択できる対象は1輌のみです。"
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "「プロ・ブースト」の対象を{{vehicle}}に変更しますか?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "キャンセル"
+
+msgid "wotPlusRental/description"
+msgstr "次の車輌レンタル開始日: {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "レンタル"
+
+msgid "wotPlusRental/title"
+msgstr "{cream_Open}%s{cream_Close}をレンタルしますか？"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "保存"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "実績のカスタマイズを保存しますか?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "キャンセル"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "有効にすると、この車輌で取得した車輌EXPが搭乗員の訓練のために使用されるようになります。レベルが最も低い搭乗員は2倍の速度で訓練されます。"
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "ON"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "搭乗員の訓練を促進しますか？"

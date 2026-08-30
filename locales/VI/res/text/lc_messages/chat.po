@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Kênh Chung"
+
+msgid "channels/battle/team"
+msgstr "Phe ta"
+
+msgid "channels/clan"
+msgstr "Clan"
+
+msgid "channels/common"
+msgstr "Kênh Chung"
+
+msgid "channels/epic_training"
+msgstr "Tập trận—Chiến tuyến"
+
+msgid "channels/nubs"
+msgstr "Tân binh"
+
+msgid "channels/prebattle"
+msgstr "Trước Trận"
+
+msgid "channels/special_battles"
+msgstr "Trận đánh Đặc biệt"
+
+msgid "channels/squad"
+msgstr "Trung đội"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Trung đội đã được tạo. Vui lòng đợi tới khi mọi người sẵn sàng."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Trung đội"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Trung đội đã được tạo. Mọi người chơi đều đang sẵn sàng."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Trung đội"
+
+msgid "channels/system"
+msgstr "Hệ thống"
+
+msgid "channels/tournament"
+msgstr "Tour đấu"
+
+msgid "channels/trading"
+msgstr "Thương mại"
+
+msgid "channels/training"
+msgstr "Tập trận"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "Quản lý Chat cũng là \"mod\" điều hành một kênh."
+
+msgid "errors/addmoderatorowner"
+msgstr "Chủ kênh cũng là \"mod\" quản lý kênh."
+
+msgid "errors/banchannelowner"
+msgstr "Chủ kênh không thể bị cấm."
+
+msgid "errors/banchatadmin"
+msgstr "Quản lý Chat không thể bị cấm."
+
+msgid "errors/banned"
+msgstr "Bạn đã bị cấm bởi %(banOwnerNick)s đến %(banEndTime)s. Lý do: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Bạn đã bị cấm bởi %(banOwnerNick)s. Lý do: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Bạn đã bị cấm đến %(banEndTime)s. Lý do: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Bạn đã bị cấm. Lý do: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "Lệnh %(command)s sẽ bị chặn trong %(cooldownPeriod)s giây."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "Quản lý Chat không thể bị thu hồi quyền điều phối."
+
+msgid "errors/delmoderatorowner"
+msgstr "Chủ kênh không thể bị thu hồi quyền điều phối."
+
+msgid "errors/timeincorrect"
+msgstr "Tham số 'thời gian' phải là một số dương của phút [1-1440] hoặc 'vĩnh viễn'."
+
+msgid "errors/toomanyargs"
+msgstr "Quá nhiều tham số."
+
+msgid "errors/toosmallargs"
+msgstr "Không đủ số lượng các tham số."
+
+msgid "errors/userbanhimself"
+msgstr "Bạn không thể cấm chính mình."
+
+msgid "messages/userbanned"
+msgstr "Người chơi %(banedUser)s đã bị cấm bởi %(banOwnerNick)s đến %(banEndTime)s. Lý do: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Người chơi %(banedUser)s đã bị cấm bởi %(banOwnerNick)s. Lý do: %(banReason)s"

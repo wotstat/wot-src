@@ -1,0 +1,302 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "autoOpenView/bottomLabel"
+msgstr "「ホリデー作戦」の「ボックス」がすべて開封されました。"
+
+msgid "autoOpenView/congratsLabel"
+msgstr "おめでとう!"
+
+msgid "autoOpenView/okBtnLabel"
+msgstr "了解!"
+
+msgid "buttonLabel/back"
+msgstr "ガレージに戻る"
+
+msgid "buttonLabel/buy"
+msgstr "購入"
+
+msgid "buttonLabel/buyMore"
+msgstr "ボックスを購入"
+
+msgid "buttonLabel/close"
+msgstr "閉じる"
+
+msgid "buttonLabel/open"
+msgstr "開封"
+
+msgid "buttonLabel/openBox"
+msgstr "ボックスを開封"
+
+msgid "buttonLabel/quest"
+msgstr "ミッションへ"
+
+msgid "buttonLabel/videoOff"
+msgstr "アニメーションを表示"
+
+msgid "buttonLabel/videoOn"
+msgstr "アニメーションを非表示"
+
+msgid "compensationTooltip/after/header"
+msgstr "補填:"
+
+msgid "compensationTooltip/before/header"
+msgstr "重複 (x{count}):"
+
+msgid "compensationTooltip/crewSkin/header"
+msgstr "入手済みの搭乗員スキンに対する補填"
+
+msgid "compensationTooltip/vehicle/bottomText"
+msgstr "すでにガレージに所有している車輌に対する補填として配布される報酬です。"
+
+msgid "compensationTooltip/vehicle/header"
+msgstr "ガレージに所有中の車輌に対する補填"
+
+msgid "entryDesc/boxesCount"
+msgstr "x{count}"
+
+msgid "entryDesc/buySlot"
+msgstr "大きなボックスをプレミアムショップで購入可能"
+
+msgid "entryDesc/newYear_premium"
+msgstr "大きなボックス"
+
+msgid "entryDesc/newYear_usual"
+msgstr "小さなボックス"
+
+msgid "entryDesc/questSlot"
+msgstr "ミッションを達成すると「小さなボックス」が手に入ります。"
+
+msgid "entryDesc/restrictedMode"
+msgstr "こちらの機能は一時停止中です。時間をおいて再度お試しください。"
+
+msgid "entryPoint/header"
+msgstr "ボックス"
+
+msgid "entryTooltip/body/h1"
+msgstr "大きなボックスの入手方法"
+
+msgid "entryTooltip/body/h2"
+msgstr "小さなボックスの入手方法"
+
+msgid "entryTooltip/body/p1"
+msgstr "プレミアムショップで自分やフレンド用にニューイヤーデコレーション入りのボックスを購入しましょう。"
+
+msgid "entryTooltip/body/p2"
+msgstr "「ホリデー作戦」の特別ミッションを達成すると手に入ります。"
+
+msgid "entryTooltip/header"
+msgstr "ボックス"
+
+msgid "entryView/boxesCount"
+msgstr "もう {count} 個のボックス"
+
+msgid "entryView/buyLabel"
+msgstr "ボックス購入"
+
+msgid "entryView/ended/newYear_premium"
+msgstr "倉庫内に大きなボックスがありません。\nプレミアムショップでさらに購入できます。"
+
+msgid "entryView/ended/newYear_usual"
+msgstr "小さなボックスがありません。\n戦闘を行うとさらに入手できます。"
+
+msgid "entryView/lootboxesCount"
+msgstr "x{count}"
+
+msgid "entryView/title"
+msgstr "ホリデー作戦 {year}"
+
+msgid "entryView/year"
+msgstr "2019"
+
+msgid "multiOpenView/applyLabel"
+msgstr "了解！"
+
+msgid "multiOpenView/boxesInStorage"
+msgstr "所有中のボックス: {count}"
+
+msgid "multiOpenView/boxesNotAvailable"
+msgstr "ボックスなし"
+
+msgid "multiOpenView/openBoxesLabel"
+msgstr "さらに{count}個のボックスを開封"
+
+msgid "multiOpenView/openedCount"
+msgstr "x{count}"
+
+msgid "multiOpenView/title"
+msgstr "おめでとうございます!"
+
+msgid "notification/eventFinish/text"
+msgstr "所有中のボックスがすべて開封され、ドロップしたアイテムが自動的にアカウントに追加されます。"
+
+msgid "notification/eventFinish/title"
+msgstr "イベント「スプリング・サプライボックス」が終了"
+
+msgid "notification/eventStart/button"
+msgstr "イベントへ"
+
+msgid "notification/eventStart/text"
+msgstr "プレミアム車輌や貴重なアイテムを入手できるのは%(date)sまで！"
+
+msgid "notification/eventStart/title"
+msgstr "イベント「スプリング・サプライボックス」が開幕"
+
+msgid "notification/header"
+msgstr "おめでとうございます!"
+
+msgid "notification/lootBoxesAutoOpen/boxes"
+msgstr "開封したボックス: %(boxes)s"
+
+msgid "notification/lootBoxesAutoOpen/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "notification/lootBoxesAutoOpen/rewards"
+msgstr "入手した報酬\n%(rewards)s"
+
+msgid "notification/lootBoxesAutoOpen/text"
+msgstr "イベントが終了したためボックスがすべて開封され、ドロップしたアイテムがアカウントに追加されました。"
+
+msgid "notification/lootBoxesAutoOpen/title"
+msgstr "ボックスの自動開封"
+
+msgid "notification/lootBoxesIsDisabled/text"
+msgstr "メンテナンスのため一時的にボックスに関する操作を行うことができません。"
+
+msgid "notification/lootBoxesIsDisabled/title"
+msgstr "ボックスの開封"
+
+msgid "notification/lootBoxesIsEnabled/button"
+msgstr "開封"
+
+msgid "notification/lootBoxesIsEnabled/text"
+msgstr "ボックスに関する操作を再び行えるようになりました。"
+
+msgid "notification/lootBoxesIsEnabled/title"
+msgstr "ボックスの開封"
+
+msgid "notification/lootBoxesReceived/invoice"
+msgstr "追加"
+
+msgid "notification/ny19man"
+msgstr "特別搭乗員: %(count)s"
+
+msgid "notification/rewards"
+msgstr "次の報酬を取得:"
+
+msgid "restrictedMessage/body"
+msgstr "ボックスの操作は一時停止中です。復旧しますのでご心配には及びません。"
+
+msgid "restrictedMessage/header"
+msgstr "注意!"
+
+msgid "rewardView/boxesCount"
+msgstr "所有中のボックス: {count}"
+
+msgid "rewardView/closeBtnLabel"
+msgstr "閉じる"
+
+msgid "rewardView/congratsBtnLabel/style"
+msgstr "スタイル表示"
+
+msgid "rewardView/congratsBtnLabel/tankman"
+msgstr "採用"
+
+msgid "rewardView/congratsBtnLabel/vehicle"
+msgstr "ガレージで表示"
+
+msgid "rewardView/congratsLabel/style"
+msgstr "特別スタイル: "
+
+msgid "rewardView/congratsLabel/tankman"
+msgstr "特別な搭乗員"
+
+msgid "rewardView/congratsLabel/usual"
+msgstr "おめでとうございます！"
+
+msgid "rewardView/congratsLabel/vehicle"
+msgstr "びっくりだ！"
+
+msgid "rewardView/nextOpenBtnLabel"
+msgstr "次を開封"
+
+msgid "rewardView/okOpenBtnLabel"
+msgstr "了解!"
+
+msgid "rewardView/openBtnLabel"
+msgstr "了解!"
+
+msgid "rewardView/rerollBtnLabel"
+msgstr "再開封"
+
+msgid "rewardView/zeroBoxes"
+msgstr "ボックスなし"
+
+msgid "specialReward/continueBtn"
+msgstr "続行"
+
+msgid "specialReward/style/goToBtn"
+msgstr "スタイル表示"
+
+msgid "specialReward/style/title"
+msgstr "特別スタイル: "
+
+msgid "specialReward/vehicle/goToBtn"
+msgstr "ガレージで表示"
+
+msgid "tooltip/category/header/Christmas"
+msgstr "クリスマスボックス"
+
+msgid "tooltip/category/header/Fairytale"
+msgstr "マジックボックス"
+
+msgid "tooltip/category/header/NewYear"
+msgstr "ニューイヤーボックス"
+
+msgid "tooltip/category/header/Oriental"
+msgstr "春節ボックス"
+
+msgid "tooltip/category/rewards/Christmas"
+msgstr "クリスマス・コレクション"
+
+msgid "tooltip/category/rewards/Fairytale"
+msgstr "マジック・コレクション"
+
+msgid "tooltip/category/rewards/NewYear"
+msgstr "ニューイヤーコレクション"
+
+msgid "tooltip/category/rewards/Oriental"
+msgstr "春節コレクション"
+
+msgid "tooltip/category/rewards/description"
+msgstr "「{category}」に含まれる「デコレーション」やその他の貴重な報酬がドロップする可能性のあるボックスです。"
+
+msgid "tooltip/category/rewards/header"
+msgstr "報酬:"
+
+msgid "tooltip/entryView/buyBoxes"
+msgstr "プレミアムショップで追加のボックスを購入できます。"
+
+msgid "tooltip/entryView/openBoxes"
+msgstr "複数のボックスをまとめて開封"
+
+msgid "tooltip/restrictedMode"
+msgstr "こちらの操作は一時的に実行できません。時間をおいて再度お試しください。"
+
+msgid "type/event_premium"
+msgstr "サンライズ・サプライボックス"
+
+msgid "type/newYear_premium"
+msgstr "大きなボックス"
+
+msgid "type/newYear_usual"
+msgstr "小さなボックス"
+
+msgid "type/wt_boss"
+msgstr "エンジニア・スターター"
+
+msgid "type/wt_hunter"
+msgstr "ハーリア・スターター"
+
+msgid "type/wt_special"
+msgstr "スペシャル・トランク"

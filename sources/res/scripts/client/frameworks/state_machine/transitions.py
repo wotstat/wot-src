@@ -1,0 +1,84 @@
+import weakref, typing
+from enum import IntEnum
+from .events import StringEvent
+from .node import Node
+if typing.TYPE_CHECKING:
+    from .events import StateEvent
+
+class TransitionType(IntEnum):
+    EXTERNAL = 0
+    INTERNAL = 1
+
+
+class BaseTransition(Node):
+    __slots__ = (b'__targets', b'__priority', b'__type')
+
+    def __init__(self, priority=0, transitionType=TransitionType.EXTERNAL):
+        super(BaseTransition, self).__init__()
+        self.__targets = []
+        self.__priority = priority
+        self.__type = transitionType
+        return
+
+    def __repr__(self):
+        return (b'{}({}->{}, priority={})').format(self.__class__.__name__, self.getSource(), self.getTargets(), self.getPriority())
+
+    def clear(self):
+        del self.__targets[:]
+        super(BaseTransition, self).clear()
+        return
+
+    def getPriority(self):
+        return self.__priority
+
+    def getSource(self):
+        return self.getParent()
+
+    def getTargets(self):
+        return [target() for target in self.__targets if target() is not None]
+
+    def setTarget(self, state):
+        self.__targets.append(weakref.ref(state))
+        return
+
+    def getType(self):
+        return self.__type
+
+    def execute(self, event):
+        raise NotImplementedError
+        return
+
+
+class ConditionTransition(BaseTransition):
+    __slots__ = (b'__condition', b'__invert')
+
+    def __init__(self, condition, invert=False, priority=0):
+        super(ConditionTransition, self).__init__(priority=priority)
+        self.__condition = condition
+        self.__invert = invert
+        return
+
+    def clear(self):
+        super(ConditionTransition, self).clear()
+        self.__condition = None
+        return
+
+    def execute(self, event):
+        result = self.__condition(event)
+        if self.__invert:
+            result = not result
+        return result
+
+
+class StringEventTransition(BaseTransition):
+    __slots__ = (b'__token',)
+
+    def __init__(self, token=b'', priority=0):
+        super(StringEventTransition, self).__init__(priority=priority)
+        self.__token = token
+        return
+
+    def execute(self, event):
+        if isinstance(event, StringEvent):
+            return not self.__token or event.token == self.__token
+        return False

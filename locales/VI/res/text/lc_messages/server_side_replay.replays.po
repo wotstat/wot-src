@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "closeButtonLabel"
+msgstr "TẮT"
+
+msgid "featureName"
+msgstr "REPLAY"
+
+msgid "filter/apply"
+msgstr "Áp dụng lọc"
+
+msgid "filter/group/nation/title"
+msgstr "Quốc gia"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Cấp"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Cấp"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Chuyên môn"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Loại xe"
+
+msgid "filter/reset"
+msgstr "Đặt lại bộ lọc"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Hiện/ẩn thành viên kíp lái của quốc gia này."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Hiện/ẩn nhân vật kíp lái của quốc gia này."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Hiện/ẩn các xe thuộc quốc gia này."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Hiện/ẩn các xe thuộc loại này."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Pháo Chống Tăng"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Pháo Tự hành"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tăng hạng Nặng"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Tăng hạng Nhẹ"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Tăng hạng Trung"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Không có xe khớp\ntiêu chí tìm kiếm"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sắp xếp theo tên xe."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Tên"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sắp xếp theo Cấp xe."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Cấp"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sắp xếp theo loại xe."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Loại"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Tên"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "Click để áp dụng thiết lập bộ lọc."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "Áp dụng bộ lọc đã chọn"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Click để đặt lại thiết lập bộ lọc."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Đặt lại Mọi Bộ lọc"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "Chỉ hiện replay Giờ G"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "%(count)s ngày qua"
+msgstr[1] "%(count)s ngày qua"
+msgstr[2] "%(count)s ngày qua"
+
+msgid "filterPopover/title"
+msgstr "Lọc replay"
+
+msgid "filterPopover/tooltip/body"
+msgstr "Điều chỉnh lọc replay theo loại xe, cấp, quốc gia, v.v..."
+
+msgid "filterPopover/tooltip/header"
+msgstr "Lọc theo tham số"
+
+msgid "findReplay/buttonText/find"
+msgstr "Tìm replay"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "Xóa đầu vào"
+
+msgid "findReplay/buttonText/watch"
+msgstr "Xem replay!"
+
+msgid "findReplay/errorMessage"
+msgstr "Không tìm thấy gì. Vui lòng thay đổi yêu cầu của bạn."
+
+msgid "findReplay/inputPlaceholder"
+msgstr "Vui lòng nhập ARENA_ID tại đây..."
+
+msgid "findReplay/successMessage"
+msgstr "AI đã tìm thấy replay mà bạn quan tâm! Tận hưởng đi"
+
+msgid "page/heading/bestReplays"
+msgstr "REPLAY HAY NHẤT"
+
+msgid "page/heading/findReplay"
+msgstr "TÌM REPLAY (CHO DEV)"
+
+msgid "page/heading/myReplays"
+msgstr "REPLAY CỦA BẠN"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "Phần này chứa thông tin về những Replay Hay Nhất từ tất cả người chơi WoT"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "Phần này để tìm replay theo một vài tham số"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "Phần này chứa thông tin về những Replay Hay Nhất CỦA BẠN"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "Replay hay nhất"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "Tìm replay"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "REPLAY CỦA BẠN"
+
+msgid "statsParam/damageAssisted"
+msgstr "Top 1 Hỗ trợ diệt"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "Top 1 Chặn thiệt hại"
+
+msgid "statsParam/damageDealt"
+msgstr "Top 1 Gây thiệt hại"
+
+msgid "statsParam/earnedXp"
+msgstr "Top 1 XP kiếm được"
+
+msgid "statsParam/kills"
+msgstr "Top 1 Số xe bắn hạ"
+
+msgid "table/error/buttonText"
+msgstr "Cập nhật"
+
+msgid "table/error/description"
+msgstr "Chúng tôi rất xin lỗi vì vấn đề nhất thời này. Xin vui lòng thử cập nhật trang lại sau."
+
+msgid "table/error/title"
+msgstr "Lỗi khi tải dữ liệu"
+
+msgid "table/header/damageAssisted"
+msgstr "Hỗ trợ"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "Chặn thiệt hại"
+
+msgid "table/header/damageDealt"
+msgstr "Gây thiệt hại"
+
+msgid "table/header/date"
+msgstr "Ngày"
+
+msgid "table/header/earnedXp"
+msgstr "XP kiếm được"
+
+msgid "table/header/kills"
+msgstr "Số xe bắn hạ"
+
+msgid "table/header/map"
+msgstr "Bản đồ"
+
+msgid "table/header/marksOfMastery"
+msgstr "Cấp độ Master"
+
+msgid "table/header/player"
+msgstr "Tên Người chơi"
+
+msgid "table/header/vehicle"
+msgstr "Xe"
+
+msgid "table/noRecords/buttonText"
+msgstr "Đặt lại bộ lọc"
+
+msgid "table/noRecords/title"
+msgstr "Không tìm thấy gì. Vui lòng đổi thiết lập hoặc đặt lại bộ lọc"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "Click để đặt lại thiết lập bộ lọc."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "Đặt lại mọi bộ lọc"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "Thiệt hại mà người chơi hỗ trợ gây ra trong replay này"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "Thiệt hại Hỗ trợ"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "Thiệt hại mà người chơi chặn được trong replay này"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "Thiệt hại Giáp Chặn được"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "Thiệt hại mà người chơi gây ra trong replay này"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "Thiệt hại Gây ra"
+
+msgid "table/tooltip/date/body"
+msgstr "Ngày replay được ghi lại."
+
+msgid "table/tooltip/date/header"
+msgstr "Ngày replay"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "Số XP mà người chơi kiếm được trong replay này"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "XP kiếm được"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "Huy hiệu Siêu Hùng đạt được trong replay này"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "Huy hiệu Siêu Hùng"
+
+msgid "table/tooltip/favorite/body"
+msgstr "Click để thêm replay này vào Ưa thích."
+
+msgid "table/tooltip/favorite/header"
+msgstr "Ưa thích"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "Click để bỏ replay này khỏi Ưa thích."
+
+msgid "table/tooltip/kills/body"
+msgstr "Số xe mà người chơi diệt được trong replay này"
+
+msgid "table/tooltip/kills/header"
+msgstr "Tiêu diệt"
+
+msgid "table/tooltip/map/body"
+msgstr "Bản đồ của replay."
+
+msgid "table/tooltip/map/header"
+msgstr "Bản đồ"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "Cấp độ quan trọng đạt được trong replay này"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "Cấp độ Master"
+
+msgid "table/tooltip/player/body"
+msgstr "Tên của người chơi trong replay."
+
+msgid "table/tooltip/player/header"
+msgstr "Tên Người chơi"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "Xe của người chơi trong replay được ghi."
+
+msgid "table/tooltip/vehicle/header"
+msgstr "Xe"
+
+msgid "tableInfo/amount"
+msgstr "Replay hiển thị: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "Bộ lọc"
+
+msgid "waitingSpinner/message"
+msgstr "Đang tải nội dung..."

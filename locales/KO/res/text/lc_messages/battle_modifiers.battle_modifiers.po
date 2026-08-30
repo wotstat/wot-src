@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "적 사격 시 전체적인 효율에 관련된 수치입니다."
+
+msgid "domain/accuracy/name"
+msgstr "사격 효율"
+
+msgid "domain/armorPiercing/description"
+msgstr "전차가 적 전차 장갑을 관통하는 성능과 관련된 수치입니다."
+
+msgid "domain/armorPiercing/name"
+msgstr "관통"
+
+msgid "domain/battleParams/description"
+msgstr "게임 플레이의 핵심 요소를 보여주는 수치입니다."
+
+msgid "domain/battleParams/name"
+msgstr "전투 성능"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "해당 모드에서는 전차에 특별 성능 변동이 적용됩니다."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "격전 라이트 성능 변동"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "해당 모드에서는 전차에 특별 성능 변동이 적용됩니다."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "격전 성능 변동"
+
+msgid "domain/concealment/description"
+msgstr "전차가 적에게 발각되지 않고 움직이는 성능과 관련된 수치입니다."
+
+msgid "domain/concealment/name"
+msgstr "위장"
+
+msgid "domain/damageDealing/description"
+msgstr "전차가 피해를 기록하는 성능에 관련된 수치입니다."
+
+msgid "domain/damageDealing/name"
+msgstr "피해 기록"
+
+msgid "domain/mobility/description"
+msgstr "전차의 기동성 및 속력과 관련된 수치입니다."
+
+msgid "domain/mobility/name"
+msgstr "기동 성능"
+
+msgid "domain/randomization/description"
+msgstr "기대 피해량 및 관통력의 범위와 관련된 수치입니다."
+
+msgid "domain/randomization/name"
+msgstr "무작위 변수"
+
+msgid "domain/sustaining/description"
+msgstr "손상된 부품이 복구되거나 부상을 입은 승무원이 회복하는 성능과 관련된 수치입니다."
+
+msgid "domain/sustaining/name"
+msgstr "회복력"
+
+msgid "domain/visibility/description"
+msgstr "전차가 적을 탐지하는 성능과 관련된 수치입니다."
+
+msgid "domain/visibility/name"
+msgstr "관측 범위"
+
+msgid "domain/vitality/description"
+msgstr "전차의 생존과 관련된 수치입니다."
+
+msgid "domain/vitality/name"
+msgstr "생존력"
+
+msgid "modifier/name/aimingTime"
+msgstr "조준 시간"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "탄약고 내구력"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "자동 재장전 주포 전차 재장전 시간"
+
+msgid "modifier/name/battleLength"
+msgstr "전투 시간"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "최고 후진 속력"
+
+msgid "modifier/name/burstInterval"
+msgstr "클립 포탄 재장전 시간"
+
+msgid "modifier/name/chassisHealth"
+msgstr "차대 내구력"
+
+msgid "modifier/name/clipInterval"
+msgstr "클립 내 포탄 간 재장전 시간"
+
+msgid "modifier/name/damageRandomization"
+msgstr "기대 피해 범위"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "내부 부품 피해"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "사격 후 분산도"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "기동 시 분산도"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "차체 회전 시 분산도"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "포탑 회전 시 분산도"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "주포 손상 시 분산도"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "엔진 화재 발생 확률"
+
+msgid "modifier/name/engineHealth"
+msgstr "엔진 내구력"
+
+msgid "modifier/name/enginePower"
+msgstr "엔진 출력"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "충돌 시 현가장치 피해"
+
+msgid "modifier/name/envHullDamage"
+msgstr "충돌 시 차체 피해"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "충돌 시 기타 부품 손상"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "충돌 시 승무원 부상"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "소모품 재사용 시간"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "연료 탱크 내구력"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "최고 전진 속력"
+
+msgid "modifier/name/gravityFactor"
+msgstr "전차에 적용되는 중력"
+
+msgid "modifier/name/gunHealth"
+msgstr "주포 내구력"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "주포 회전 속도"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "기동 시 위장률"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "정지 시 위장률"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "포탄 표준화"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "기대 관통력 범위"
+
+msgid "modifier/name/radioDistance"
+msgstr "통신 범위"
+
+msgid "modifier/name/reloadTime"
+msgstr "재장전 시간"
+
+msgid "modifier/name/repairSpeed"
+msgstr "수리 속도"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "포탄 도탄 각도: 예각으로 명중 시 도탄 확률 상승"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "차체 회전 속도"
+
+msgid "modifier/name/shellGravity"
+msgstr "포탄에 적용되는 중력"
+
+msgid "modifier/name/shellSpeed"
+msgstr "포탄 속도"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "100m에서의 분산도"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "관측 장치 내구력"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "떨어져 나간 포탑에 의한 압력 피해"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "떨어져 나간 포탑에 의한 피해"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "포탑 회전 속도"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "포탑 회전 장치 내구력"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "일제 사격 모드 재장전 시간"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "시야 거리"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "전차 내구도"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "압력 피해"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "충돌 피해"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "근접 관측 범위"
+
+msgid "modifier/name/visionRadius"
+msgstr "관측 범위"
+
+msgid "modifier/name/visionTime"
+msgstr "발견 유지 시간"
+
+msgid "modifier/name/zeroDamage"
+msgstr "사격 및 충돌에 의한 피해"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "모드 전투에서 소모 및 획득한 자원"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "최대&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "최소&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "({restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "({min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "변동되는 성능은 다음과 같습니다."
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "보너스에 의해 변동하는 성능:"

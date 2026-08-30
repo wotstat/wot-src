@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "Rõ!"
+
+msgid "attachments_preview/description"
+msgstr "Bộ phụ tùng 3D"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "Phụ tùng 3D Kinh điển"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "Phụ tùng 3D Huyền thoại"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "Phụ tùng 3D Hiếm"
+
+msgid "bundle/name"
+msgstr "Siêu thị Đỏ"
+
+msgid "bundle/name_uppercased"
+msgstr "SIÊU THỊ ĐỎ"
+
+msgid "confirmation/buttons/cancel"
+msgstr "Hủy bỏ"
+
+msgid "confirmation/buttons/purchase"
+msgstr "Mua"
+
+msgid "confirmation/description"
+msgstr "Xác nhận để lấy trái phiếu và phần thưởng cell mới."
+
+msgid "confirmation/purchase"
+msgstr "Mua với giá {{price}} ?"
+
+msgid "entryPoint/button"
+msgstr "Đến Sự kiện"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} đã đến. Xem ngay!"
+
+msgid "intro/cards/description/c_1"
+msgstr "Khi mua trái phiếu ở {{eventName}}, bạn sẽ được thưởng bonus thêm từ một trong các cell chưa mở. Chúng chứa vật phẩm quý giá—gồm cả phần quà chính của sự kiện: Một xe Premium."
+
+msgid "intro/cards/description/c_2"
+msgstr "Quà xuất hiện theo thứ tự ngẫu nhiên. Mỗi cell chưa mở đều có xác suất riêng, tổng tất cả luôn là 100%. Khi một cell đã được mở, nó được loại ra, xác suất nhận các phần thưởng còn lại sẽ tăng lên."
+
+msgid "intro/cards/description/c_3"
+msgstr "Mỗi bước tốn một lượng vàng cố định. Cả số trái phiếu nhận được và giá mỗi bước đều thay đổi khi tiếp tục chơi."
+
+msgid "intro/cards/link"
+msgstr "Xem điều kiện và mức giá cho từng bước trên {{@ class 'linkPart'}}cổng thông tin.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "Mua Trái phiếu"
+
+msgid "intro/cards/title/c_2"
+msgstr "Cell và xác suất"
+
+msgid "intro/cards/title/c_3"
+msgstr "Giá Bước"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "QUÀ ĐANG CHỜ BẠN"
+
+msgid "main/alt/description"
+msgstr "Xem xác suất"
+
+msgid "main/alt/tooltip/body"
+msgstr "Nhấn phím Alt để xem xác suất nhận mỗi cell."
+
+msgid "main/alt/tooltip/header"
+msgstr "Hiện xác suất"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "XIN CHÚC MỪNG! \n BẠN ĐÃ NHẬN HẾT QUÀ"
+
+msgid "main/footer/button"
+msgstr "Mua"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}Quà từ một cell"
+
+msgid "main/footer/receive"
+msgstr "Bạn nhận: {{item}}"
+
+msgid "main/header/description"
+msgstr "Tham dự sự kiện từ {{startDate}} đến {{endDate}} và ẵm quà!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "Đến Tùy biến"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "Đến Kiểu mẫu"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "Đến Xe"
+
+msgid "notifications/specialReward/title"
+msgstr "Bạn đã Nhận Phần thưởng Chính của {{eventName}}!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "Phần thưởng thêm:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "Nhận được:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "Tác vụ này tạm thời không khả dụng vì các lý do kỹ thuật. Hãy thử lại sau."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "Đến Sự kiện"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s sắp kết thúc!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "Sự kiện khả dụng đến: %(date)s."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "Đã mở cell %(eventName)s"
+
+msgid "tooltips/entry/description"
+msgstr "Phần thưởng đón chờ! Mỗi lần mua trái phiếu, bạn sẽ nhận một món quà ngẫu nhiên từ một cell. Lúc nào cũng mở cái mới vì những ô trước đó sẽ được loại bỏ."
+
+msgid "tooltips/entry/timer"
+msgstr "Sự kiện sẽ khả dụng trong {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "Chi tiết sự kiện"
+
+msgid "tooltips/steps/description"
+msgstr "Mỗi lần mua, bạn sẽ được nhiều {{currency}} hơn. Số lượng nhận sẽ tăng ở một số bước nhất định."
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} Mỗi lần Mua"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "Bước:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

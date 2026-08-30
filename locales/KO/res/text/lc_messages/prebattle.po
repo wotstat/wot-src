@@ -1,0 +1,356 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleProgress/hint"
+msgstr "%(hintKey)s 키를 눌러 활성화된 임무 확인"
+
+msgid "buttons/battleSession/leave"
+msgstr "닫기"
+
+msgid "companyListView/filterButton/label"
+msgstr "검색"
+
+msgid "dialogs/buttons/notReady"
+msgstr "준비 취소"
+
+msgid "dialogs/buttons/ready"
+msgstr "준비 완료!"
+
+msgid "hints/confirmDialog/confirm"
+msgstr "확인"
+
+msgid "hints/confirmDialog/message"
+msgstr "진정한 전차장의 여정이 시작되었습니다! 이제부터는 전투 불러오기 화면에 초보자 도움말 대신 팀 구성이 표시됩니다. 게임 메뉴 내 설정에서 언제든 도움말을 다시 활성화할 수 있습니다."
+
+msgid "hints/confirmDialog/title"
+msgstr "새로운 전투 불러오기 화면"
+
+msgid "hints/hint1/description"
+msgstr "주포 조준선 중앙에 있는 관통 표시에 주목하십시오. 관통 표시 색상을 통해 조준 중인 적 전차 장갑 부위를 관통할 수 있을지 알 수 있습니다."
+
+msgid "hints/hint1/green/description"
+msgstr "높은 관통 확률"
+
+msgid "hints/hint1/green/header"
+msgstr "초록색 표시"
+
+msgid "hints/hint1/header"
+msgstr "장갑 관통"
+
+msgid "hints/hint1/red/description"
+msgstr "낮은 관통 확률"
+
+msgid "hints/hint1/red/header"
+msgstr "빨간색 표시"
+
+msgid "hints/hint10/description"
+msgstr "전차의 주포는 항상 화면 중심을 향해 회전합니다. 하지만 주포 회전 속도는 정해져 있으므로 화면 중심에 도달하는 데 시간이 걸릴 수도 있습니다."
+
+msgid "hints/hint10/header"
+msgstr "주포 조준선"
+
+msgid "hints/hint10/penetration/description"
+msgstr "적 전차 장갑의 약점 조준 시 초록색 표시"
+
+msgid "hints/hint10/penetration/header"
+msgstr "관통 표시"
+
+msgid "hints/hint10/reloading/description"
+msgstr "장전 완료 시 조준원 초록색 표시"
+
+msgid "hints/hint10/reloading/header"
+msgstr "주포 재장전 진행 상황"
+
+msgid "hints/hint10/spread/description"
+msgstr "조준원 내 임의 지점에 포탄 타격"
+
+msgid "hints/hint10/spread/header"
+msgstr "주포 분산도"
+
+msgid "hints/hint12/description"
+msgstr "포탄이 관통해야 하는 장갑의 두께는 포탄 타격 각도에 따라 달라집니다. 타격 각도는 장갑 관통에 있어 중요한 요소입니다."
+
+msgid "hints/hint12/header"
+msgstr "장갑 활용"
+
+msgid "hints/hint12/notPenetrated/description"
+msgstr "관통해야 하는 장갑 두께 증가"
+
+msgid "hints/hint12/notPenetrated/header"
+msgstr "비관통"
+
+msgid "hints/hint12/penetrated/description"
+msgstr "관통해야 하는 장갑 두께 감소"
+
+msgid "hints/hint12/penetrated/header"
+msgstr "관통"
+
+msgid "hints/hint13/description"
+msgstr "아군과의 무전 교신은 자동으로 이루어집니다. 적 전차를 발견하면 통신 범위 내 모든 아군에게 해당 적 전차의 위치가 공유됩니다."
+
+msgid "hints/hint13/header"
+msgstr "무전 교신"
+
+msgid "hints/hint13/invisible/description"
+msgstr "장애물 뒤 엄폐"
+
+msgid "hints/hint13/invisible/header"
+msgstr "은폐"
+
+msgid "hints/hint13/visible/description"
+msgstr "아군이 발견"
+
+msgid "hints/hint13/visible/header"
+msgstr "발견"
+
+msgid "hints/hint2/description"
+msgstr "운용하는 전차가 강력하면 그만한 제약도 따릅니다. 전차 속력과 포탑 회전 속도를 고려하여 신중히 계획하고 기동하십시오."
+
+msgid "hints/hint2/firing"
+msgstr "사격"
+
+msgid "hints/hint2/freeCam"
+msgstr "자유 카메라 시점"
+
+msgid "hints/hint2/header"
+msgstr "전차 조작"
+
+msgid "hints/hint2/movement"
+msgstr "기동"
+
+msgid "hints/hint2/turret"
+msgstr "포탑 회전"
+
+msgid "hints/hint3/description"
+msgstr "마우스 휠을 스크롤하거나 Shift 키를 누르면 저격 모드로 전환할 수 있습니다."
+
+msgid "hints/hint3/header"
+msgstr "저격 모드"
+
+msgid "hints/hint3/orLabel"
+msgstr "또는"
+
+msgid "hints/hint4/description"
+msgstr "외부 부품이 손상되더라도 전차가 내구도를 잃지는 않지만, 전투 성능이 저하됩니다."
+
+msgid "hints/hint4/header"
+msgstr "전차 손상"
+
+msgid "hints/hint4/immobilized/description"
+msgstr "차대 손상"
+
+msgid "hints/hint4/immobilized/header"
+msgstr "이동 불가"
+
+msgid "hints/hint4/shooting/description"
+msgstr "주포 손상"
+
+msgid "hints/hint4/shooting/header"
+msgstr "사격 불가"
+
+msgid "hints/hint4/view/description"
+msgstr "관측 장치 손상"
+
+msgid "hints/hint4/view/header"
+msgstr "관측 범위 감소"
+
+msgid "hints/hint5/aid/description"
+msgstr "승무원 치료"
+
+msgid "hints/hint5/aid/header"
+msgstr "구급 상자"
+
+msgid "hints/hint5/description"
+msgstr "전투에 참여하기 전에 장착하면 손상된 부품을 수리하고, 승무원을 치료하고, 화재를 진압할 수 있습니다."
+
+msgid "hints/hint5/fire/description"
+msgstr "전차 화재 진압"
+
+msgid "hints/hint5/fire/header"
+msgstr "소화기"
+
+msgid "hints/hint5/header"
+msgstr "소모품"
+
+msgid "hints/hint5/repair/description"
+msgstr "손상된 부품 수리"
+
+msgid "hints/hint5/repair/header"
+msgstr "수리 도구"
+
+msgid "hints/hint6/area"
+msgstr "개활지 이동"
+
+msgid "hints/hint6/description"
+msgstr "적 전차의 관측 범위 안에 들어가면 적에게 발각될 수 있습니다. 수풀, 지형, 장애물을 활용하면 위장률을 높일 수 있습니다."
+
+msgid "hints/hint6/header"
+msgstr "위장"
+
+msgid "hints/hint6/invisible"
+msgstr "은폐"
+
+msgid "hints/hint6/object"
+msgstr "장애물 뒤 엄폐"
+
+msgid "hints/hint6/shot"
+msgstr "사격 후 발각"
+
+msgid "hints/hint6/vegetation"
+msgstr "수풀 뒤 은폐"
+
+msgid "hints/hint6/visible"
+msgstr "발각"
+
+msgid "hints/hint7/base"
+msgstr "적 기지 점령"
+
+msgid "hints/hint7/description"
+msgstr "전투는 다양한 방법으로 승리할 수 있습니다. 상황에 따라 다른 작전을 구사해 보십시오."
+
+msgid "hints/hint7/header"
+msgstr "승리 조건"
+
+msgid "hints/hint7/orLabel"
+msgstr "또는"
+
+msgid "hints/hint7/vehicles"
+msgstr "모든 적 전차 격파 완료"
+
+msgid "hints/hint7/victory"
+msgstr "승리!"
+
+msgid "hints/hint8/description"
+msgstr "전차는 기동 시 주포 분산도가 넓어집니다. 정지 후 조준선을 둘러싼 조준원을 통해 분산도를 확인하고 조준이 완료되면 사격하십시오."
+
+msgid "hints/hint8/header"
+msgstr "주포 분산도"
+
+msgid "hints/hint8/high"
+msgstr "35km/h"
+
+msgid "hints/hint8/low"
+msgstr "0km/h"
+
+msgid "hints/hint9/description"
+msgstr "주포는 상하 각도가 제한되므로 사격 위치에 따라 적을 조준하지 못할 수도 있습니다."
+
+msgid "hints/hint9/header"
+msgstr "주포 올림각 및 내림각"
+
+msgid "hints/loading"
+msgstr "불러오는 중"
+
+msgid "hints/manual"
+msgstr "게임 메뉴 내 훈련소에서 더 많은 도움말 확인"
+
+msgid "hints/skip"
+msgstr "전투에 참여하려면 아무 키나 입력"
+
+msgid "labels/company/queue"
+msgstr "대기열:"
+
+msgid "labels/level"
+msgstr "단계"
+
+msgid "labels/members"
+msgstr "구성원: %(openTag)s%(membersCount)d%(closeTag)s / %(maxMembersCount)d"
+
+msgid "labels/player"
+msgstr "플레이어"
+
+msgid "labels/sort/byName"
+msgstr "이름"
+
+msgid "labels/sort/byOrder"
+msgstr "추가된 시간"
+
+msgid "labels/sort/byStatus"
+msgstr "준비 상태"
+
+msgid "labels/sort/byVehicles"
+msgstr "전차 유형"
+
+msgid "labels/stats/level"
+msgstr "단계:"
+
+msgid "labels/stats/maxPlayers"
+msgstr "플레이어:"
+
+msgid "labels/stats/sumLevel"
+msgstr "총 단계:"
+
+msgid "labels/stats/totalLevel"
+msgstr "총 단계: %(totalLevel)s"
+
+msgid "labels/stats/vehicleLevel"
+msgstr "최대 전차 단계:"
+
+msgid "labels/stats/vehicleSPGLevel"
+msgstr "최대 자주포 단계:"
+
+msgid "labels/vehicle"
+msgstr "전차"
+
+msgid "memberList/empty/label"
+msgstr "대기열에서 플레이어를 선택하여 정규팀으로 변경하십시오."
+
+msgid "stats/battleSession/commonLevel"
+msgstr "단계:"
+
+msgid "stats/battleSession/required"
+msgstr "필요:"
+
+msgid "stats/battleSession/vehicleType"
+msgstr "유형:"
+
+msgid "switchPeripheryWindow/fort/applySwitchLabel"
+msgstr "쟁탈전을 진행하려면 %(server)s 서버로 이동하십시오."
+
+msgid "switchPeripheryWindow/fort/description"
+msgstr "현재 접속 중인 %(server)s 서버에서는 쟁탈전을 진행할 수 없습니다."
+
+msgid "switchPeripheryWindow/fort/header"
+msgstr "주의!"
+
+msgid "switchPeripheryWindow/fort/selectServerLabel"
+msgstr "쟁탈전을 진행하려면 다른 서버로 이동하십시오."
+
+msgid "switchPeripheryWindow/ranked/applySwitchLabel"
+msgstr "랭크 전투에 참여하려면 다른 서버를 선택하십시오."
+
+msgid "switchPeripheryWindow/ranked/description"
+msgstr "%(server)s 서버에 휴전이 적용 중입니다. 랭크 전투를 이용할 수 없습니다."
+
+msgid "switchPeripheryWindow/ranked/header"
+msgstr "주의!"
+
+msgid "switchPeripheryWindow/ranked/selectServerLabel"
+msgstr "랭크 전투에 참여하려면 다른 서버 선택:"
+
+msgid "title/battleSession/arenaType"
+msgstr "지도:"
+
+msgid "title/battleSession/battlesLimit"
+msgstr "전투/승리:"
+
+msgid "title/battleSession/clanBattle/startTime"
+msgstr "%(startTime)s, %(peripheryName)s, %(arenaName)s"
+
+msgid "title/battleSession/comment"
+msgstr "설명:"
+
+msgid "title/battleSession/header/battleSettings"
+msgstr "전투 설정:"
+
+msgid "title/battleSession/header/startTime"
+msgstr "전투 개시까지 남은 시간"
+
+msgid "title/battleSession/startTime"
+msgstr "시작 시간:"
+
+msgid "title/battleSession/unit"
+msgstr "중대"
+
+msgid "upButton/hint"
+msgstr "클릭하여 참여"

@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sXem%(linkEndTag)s chi tiết người chơi"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sĐơn xin vào Clan%(titleEndTag)s\ntừ %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "Xem Đơn"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sTắt%(linkEndTag)s thông báo"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sĐơn từ Người chơi: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sXem%(linkEndTag)s chi tiết Clan"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sLời mời vào Clan%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "Xem Lời mời"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sLời mời vào Clan: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "Người chơi đã được nhận vào Clan."
+
+msgid "clans/state/app/declined"
+msgstr "Đơn xin đã bị từ chối."
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "Một ngày phạt khi người chơi này rời khỏi Clan trước vẫn chưa kết thúc."
+
+msgid "clans/state/invite/accepted"
+msgstr "Bạn đã được nhận vào Clan."
+
+msgid "clans/state/invite/declined"
+msgstr "Lời mời đã bị từ chối."
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "Một ngày phạt khi bạn rời khỏi Clan trước vẫn chưa kết thúc."
+
+msgid "errors/creationNotAllowed"
+msgstr "Không đủ quyền để tạo lời mời."
+
+msgid "errors/invalid"
+msgstr "Lời mời không còn hiệu lực."
+
+msgid "errors/inviteNotSupported"
+msgstr "Lời mời không có hiệu lực tại thời điểm này. Thử lại sau."
+
+msgid "errors/receiverIgnoreSender"
+msgstr "Người được mời đã cho bạn vào Sổ đen."
+
+msgid "errors/selfinvite"
+msgstr "Bạn không thể tự mời chính mình."
+
+msgid "errors/unknownuser"
+msgstr "Người chơi chưa đăng ký trong hệ thống."
+
+msgid "errors/useroffline"
+msgstr "Người chơi offline."
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "Xe trong Ga-ra đang bị hư hại hoặc bị khóa. Hãy chọn xe khác."
+
+msgid "friendship/note/approved"
+msgstr "Người chơi đã thêm vào DS Bạn bè"
+
+msgid "friendship/note/canceled"
+msgstr "Yêu cầu bị từ chối"
+
+msgid "friendship/note/maxRoster"
+msgstr "Số liên lạc tối đa trong Danh bạ: %(rosterMaxCount)s. Để thêm người chơi này vào DS Bạn bè, đầu tiên hãy xóa bỏ một ai đó."
+
+msgid "friendship/note/notConnected"
+msgstr "Không thể kết nối tới máy chủ. Xin vui lòng chờ."
+
+msgid "friendship/note/process"
+msgstr "Đang đợi phản hồi từ máy chủ"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sYêu cầu kết bạn%(titleEndTag)s\ntừ %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "Chấp nhận"
+
+msgid "gui/buttons/cancel"
+msgstr "Hủy bỏ"
+
+msgid "gui/buttons/reject"
+msgstr "Từ chối"
+
+msgid "gui/buttons/send"
+msgstr "Gửi"
+
+msgid "gui/labels/additionalText"
+msgstr "Lời nhắn:"
+
+msgid "gui/labels/inviteText"
+msgstr "Nội dung:"
+
+msgid "gui/labels/receiver"
+msgstr "Người nhận:"
+
+msgid "gui/titles/barter"
+msgstr "Mời giao dịch"
+
+msgid "gui/titles/clan"
+msgstr "Mời vào Clan"
+
+msgid "gui/titles/invite"
+msgstr "Lời mời"
+
+msgid "gui/titles/receivedInvites"
+msgstr "Lời mời"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi đơn vị tác chiến và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi đơn vị tác chiến và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi trận đánh ở Bản đồ Chiến sự và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi đơn vị tác chiến và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi đơn vị tác chiến và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi đơn vị tác chiến và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động bị loại khỏi đội hình tập trận trong chế độ Chiến tuyến và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi đơn vị tác chiến và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi chế độ Đấu Đội và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi Trung đội và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Pháo đài: Giao chiến và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi chế độ Tiến công và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi Trung đội Nhiệm vụ Trinh sát và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động bị loại khỏi đội hình tập trận và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Pháo đài: Giao chiến và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi Trung đội và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi phân đội hiện tại và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi vòng đấu và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động bị loại khỏi đội hình tập trận và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động bị loại khỏi đội hình tập trận trong chế độ Cường kích và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi chế độ Đấu Đội và được chuyển đến máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Săn Thiết giáp và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Săn Lớn và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Cường kích và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Cường kích Giản thể và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Chiến tuyến và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi +++Event battle+++ và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi chế đội Nhiệm vụ Trinh sát và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Trắc địa và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Trận đấu Ngẫu nhiên và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "Một khi chấp nhận lời mời, bạn sẽ thoát khỏi chế độ Trận đánh Xếp hạng và được chuyển sang server %(host)s."
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi \"Khởi động\" và được chuyển sang máy chủ %(host)s."
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi \"Khởi động\" và được chuyển sang máy chủ %(host)s. Bạn sẽ không thể bắt đầu nó lại."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi đơn vị tác chiến."
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi đơn vị tác chiến."
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi trận đánh ở Bản đồ Chiến sự."
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi đơn vị tác chiến."
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi đơn vị tác chiến."
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi đơn vị tác chiến."
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động bị loại khỏi đội hình tập trận trong chế độ Chiến tuyến."
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi đơn vị tác chiến."
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi chế độ Đấu Đội."
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi Trung đội."
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Pháo đài: Giao chiến."
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi chế độ Tiến công."
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi Trung đội Nhiệm vụ Trinh sát."
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động bị loại khỏi đội hình tập trận."
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Pháo đài: Giao chiến."
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi Trung đội."
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi phân đội hiện tại."
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động thoát khỏi vòng đấu."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động bị loại khỏi đội hình tập trận."
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ tự động bị loại khỏi đội hình tập trận trong chế độ Cường kích."
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi chế độ Đấu Đội."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Săn Thiết giáp."
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Săn Lớn."
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Cường kích."
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Cường kích Giản thể."
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Chiến tuyến."
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi +++Event battle+++."
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi chế độ Nhiệm vụ Trinh sát."
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Trắc địa."
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi Trận đấu Ngẫu nhiên."
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi chế độ Trận đánh Xếp hạng."
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi \"Khởi động\"."
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "Sau khi chấp nhận lời mời, bạn sẽ thoát khỏi \"Khởi động\". Bạn sẽ không thể bắt đầu nó lại."
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "Các thay đổi về máy chủ giờ sẽ được lưu."
+
+msgid "invites/note/server_change"
+msgstr "Bạn sẽ được tự động chuyển đến máy chủ %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "Bạn không thể chấp nhận lời mời. Để làm điều đó, vui lòng chọn máy chủ %(host)s."
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "Bạn không thể chấp nhận lời mời. Để chấp nhận lời mời, xin vui lòng chọn máy chủ khác."
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "Bạn đã tham gia Trung đội rồi."
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "Bạn đã tham chiến trên Global Map rồi."
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "Bạn đã tham gia tập trận rồi."
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "Bạn đã tham gia Trung đội rồi."
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "Bạn đã tham gia Trung đội rồi."
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "Bạn đã gia nhập phân đội này rồi."
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "Bạn đã tham gia Trung đội rồi."
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "Bạn đã tham gia Giải đấu rồi."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "Bạn đã tham gia tập trận rồi."
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "Bạn đã tham gia tập trận rồi."
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "Bạn đã tham gia đội rồi."
+
+msgid "invites/state/ACCEPTED"
+msgstr "Lời mời đã được chấp nhận."
+
+msgid "invites/state/DECLINED"
+msgstr "Lời mời đã bị từ chối."
+
+msgid "invites/state/ERROR"
+msgstr "Lời mời không còn hiệu lực."
+
+msgid "invites/state/EXPIRED"
+msgstr "Lời mời không còn hiệu lực."
+
+msgid "invites/state/REVOKED"
+msgstr "Lời mời đã bị rút lại."
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "Lời mời Tham gia Trung đội Săn Thiết giáp"
+
+msgid "invites/text/COMP7"
+msgstr "Lời mời Gia nhập Trung đội Cường kích"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "Lời mời Gia nhập Trung đội Cường kích Giản thể"
+
+msgid "invites/text/EPIC"
+msgstr "Lời mời Gia nhập Trung đội Chiến tuyến"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "Lời mời Tham gia Tập Trận trong Chế độ Chiến tuyến"
+
+msgid "invites/text/EVENT"
+msgstr "Lời mời gia nhập Trung đội"
+
+msgid "invites/text/FALLOUT"
+msgstr "Lời mời Tham gia Trung đội %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "Áp đảo"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "Săn Thiết giáp"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "Lời mời Tham chiến"
+
+msgid "invites/text/MAPBOX"
+msgstr "Lời mời Tham gia Trung đội Nhiệm vụ Trinh sát"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "Lời mời Khám phá Bản đồ"
+
+msgid "invites/text/SORTIE"
+msgstr "Lời mời Tham gia Phân đội"
+
+msgid "invites/text/SQUAD"
+msgstr "Lời mời gia nhập Trung đội"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "Lời mời Tham gia Phân đội"
+
+msgid "invites/text/TRAINING"
+msgstr "Lời mời Tham gia Tập Trận"
+
+msgid "invites/text/UNIT"
+msgstr "Lời mời Vào Đội"
+
+msgid "invites/text/creatorName"
+msgstr "từ %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "Thời gian Phòng thủ"
+
+msgid "invites/text/fort/direction"
+msgstr "Tiền đồn"
+
+msgid "invites/text/fort/offence"
+msgstr "Tấn công vào"
+
+msgid "invites/warning/anonymized"
+msgstr "Sau khi chấp nhận lời mời, tên nick và Tag Clan thật của bạn sẽ được hiển thị cho các thành viên cùng đơn vị tác chiến trong thời gian diễn ra trận đánh."
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "Lời mời đã được gửi đến %(name)s."

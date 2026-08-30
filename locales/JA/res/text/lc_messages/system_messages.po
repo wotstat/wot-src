@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT チーム <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "あなたのアカウントの復旧を完了しました"
+
+msgid "achievements/server_error"
+msgstr "トップに表示する勲章の変更は保存されていません。"
+
+msgid "actionAchievement/title"
+msgstr "スペシャル勲章"
+
+msgid "actionAchievements/title"
+msgstr "スペシャル勲章"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "車輌に問題があるためパークを習得できません。"
+
+msgid "add_tankman_skill/server_error"
+msgstr "新しいパークを習得できません。\nサーバーがご利用いただけません。時間をおいて再度お試しください。"
+
+msgid "add_tankman_skill/success"
+msgstr "搭乗員がパーク「%(skill)s」を習得しました。"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "車輌がロックされているためパークを習得できません。"
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "車輌の修理が完了していないためパークを習得できません。"
+
+msgid "add_tankman_skills/server_error"
+msgstr "新しいパークを習得できません。\nサーバーがご利用いただけません。時間をおいて再度お試しください。"
+
+msgid "add_tankman_skills/success"
+msgstr "搭乗員がパーク「%(skill)s」を習得しました。"
+
+msgid "another_periphery"
+msgstr "まだ他のサーバーにログイン中です。"
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "戦闘参加エラー。既にチームに参加中です。"
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "戦闘参加エラー。チーム番号が間違っています。"
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "参加エラー。この操作は一時停止されました。後で再試行してください。"
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "このイベントは現在利用できません。ゲームポータルで最新ニュースをご確認ください。"
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "戦闘参加エラー: 招待の有効期限が切れています。"
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "参加エラー。権限不足です。"
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "待機リストが機能していないため一時的に戦闘に出撃できません。時間をおいて再度お試しください。"
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "待機リストが満杯のため操作を実行できません。時間をおいて再度お試しください。"
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "戦闘参加エラ。既にチームは結成済みです。"
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "戦闘参加エラー: 接続がタイムアウトしました。"
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "参加エラー: このアカウント・タイプではご利用頂けません。"
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "戦闘参加エラー。"
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "参加エラ: WRONG_ARGS。"
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "参加エラー: 選択したヒストリカルバトルはご利用頂けません。"
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "接続失敗。サーバー「%s」を選択してください。"
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "接続失敗。他のサーバーを選んでください。"
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "戦闘参加エラー: 現在の車輌は準備中です。"
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "エラー: この Tier の車輌はこの戦闘モードには参加できません。"
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "戦闘参加不能: 車輌が準備中です。"
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "戦闘に参加するには、車輌を購入する必要があります。"
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "戦闘参加エラー (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "戦闘参加エラー (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "戦闘参加エラー (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "戦闘参加エラー (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "戦闘参加エラー (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "戦闘参加エラー (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "戦闘参加エラー (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "戦闘参加エラー (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "戦闘参加エラー (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "戦闘参加エラー (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "戦闘参加エラー (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "戦闘待機時間切れ。他の車輌を選択するか、後で再度お試しください。"
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s「%(name)s」はこの車輌に適合しません。"
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "車輌が不正です。%(kind)s「%(name)s」は未搭載です。"
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s「%(name)s」を解除しました。消費: %(money)s"
+
+msgid "artefact_apply/server_error"
+msgstr "%(kind)s「%(name)s」の搭載中にサーバーエラーが発生しました。後ほど再度お試しください。"
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s「%(name)s」を車輌に搭載しました。"
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "車輌がロック中です。%(kind)s「%(name)s」は未搭載です。"
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "車輌が損傷しています。%(kind)s「%(name)s」は未搭載です。車輌を修理してからお試しください。"
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s「%(name)s」はこの車輌に適合しません。"
+
+msgid "artefact_buy/invalid_module"
+msgstr "%(kind)s「%(name)s」を購入できません。モジュールが不正です。"
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "不正な車輌です。モジュール%(kind)s「%(name)s」を購入・搭載できません。"
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "%(kind)s「%(name)s」を購入できません。クレジットが不足しています。"
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "%(kind)s「%(name)s」を購入できません。ボンズが不足しています。"
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "%(kind)s「%(name)s」を購入できません。アニバーサリー・コインが不足しています。"
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "%(kind)s「%(name)s」を購入できません。ゴールドが不足しています。"
+
+msgid "artefact_buy/server_error"
+msgstr "%(kind)s「%(name)s」を購入できません。後で再試行してください。"
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "%(kind)s「%(name)s」を購入できません。サーバーが一時的に利用できません。"
+
+msgid "artefact_buy/success"
+msgstr "%(kind)s「%(name)s」 (x%(count)s) を購入しました。消費した%(money)s。"
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "車輌がロック中です。モジュール%(kind)s「%(name)s」を購入・搭載できません。"
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "モジュール%(kind)s「%(name)s」を購入・搭載できません。車輌を修理してから再試行してください。"
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "アイテムが異なるため%(name)sを分解できません。"
+
+msgid "artefact_deconstructing/server_error"
+msgstr "%(name)sを分解できません。時間をおいて再度お試しください。"
+
+msgid "artefact_deconstructing/success"
+msgstr "%(count)s基の%(name)sを分解して%(money)sを入手しました。"
+
+msgid "artefact_deconstructingMult/success"
+msgstr "%(names)sを分解して%(money)sを入手しました。"
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "「%(equipment)s」は解除されませんでした。資金が不足しています。"
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "車輌が不正です。%(kind)s「%(name)s」は破棄されません。"
+
+msgid "artefact_destroy/server_error"
+msgstr "%(kind)s「%(name)s」を破棄している工程でサーバーエラーが発生しました。後ほど再度お試しください。"
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s「%(name)s」は解除により破棄されました。"
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "車輌がロック中です。%(kind)s「%(name)s」は破棄されません。"
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "車輌が損傷しています。%(kind)s「%(name)s」は破棄されません。車輌を修理してからお試しください。"
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s「%(name)s」が車輌から解除されました。解除キットを消費しました。"
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "消耗品「%s」は現在のモジュールと互換性がないため倉庫に送られました。"
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "車輌が不正です。%(kind)s「%(name)s」は解除されません。"
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s「%(name)s」を解除しました。消費: %(money)s"
+
+msgid "artefact_remove/server_error"
+msgstr "%(kind)s「%(name)s」の解除中にサーバーエラーが発生しました。後ほど再度お試しください。"
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s「%(name)s」が車輌から解除されました。"
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "車輌がロック中です。%(kind)s「%(name)s」は解除されません。"
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "車輌が損傷しています。%(kind)s「%(name)s」は解除されません。車輌を修理してからお試しください。"
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s「%(name)s」が車輌から解除されました。「WoT Plus」を利用しているため費用が無料になっています。"
+
+msgid "artefact_sell/invalid_module"
+msgstr "%(kind)s「%(name)s」を売却できません。モジュールが不正です。"
+
+msgid "artefact_sell/server_error"
+msgstr "%(kind)s「%(name)s」を売却できません。後ほど再度お試しください。"
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s「%(name)s」（%(count)s個）。%(money)s獲得。"
+
+msgid "artefact_upgrade/server_error"
+msgstr "拡張パーツのアップグレードでエラーが発生しました。後ほど再度お試しください。"
+
+msgid "artefact_upgrade/success"
+msgstr "%(kind)s「%(name)s」のアップグレードが完了しました。特性が改良されました。%(money)s消費しました。"
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "アップグレードにより%(kind)s「%(name)s」の性能が向上しました。%(money)sを消費しました。\n\n「代替構成」に含まれる類似の拡張パーツが倉庫に送られました。"
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "車輌が損傷しています。%(kind)s「%(name)s」はアップグレードされません。車輌を修理してからお試しください。"
+
+msgid "badges/select/server_error"
+msgstr "サーバーエラー"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "アクション使用不能。現在の処理が完了するまでお待ちください。"
+
+msgid "battle/request/SEND_INVITES"
+msgstr "招待の送信"
+
+msgid "battleAbilities_apply/error"
+msgstr "戦闘リザーブ構成エラー。後ほど再度お試しください。"
+
+msgid "battleBooster_buy/credits_error"
+msgstr "クレジット不足により、%(kind)s \"%(name)s\" を購入できませんでした。"
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "ボンズ不足により、%(kind)s \"%(name)s\" を購入できませんでした。"
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" はこの車輌に適合しません。"
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "%(kind)s「%(name)s」を購入できません。アニバーサリー・コインが不足しています。"
+
+msgid "battleBooster_buy/gold_error"
+msgstr "ゴールド不足により、%(kind)s \"%(name)s\" を購入できませんでした。"
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "%(kind)s \"%(name)s\" を購入できませんでした。モジュールが間違っています。"
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "%(kind)s \"%(name)s\" を購入・搭載できませんでした。車輌が間違っています。"
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "クレジット不足により、%(kind)s \"%(name)s\" を購入できませんでした。"
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "%(kind)s \"%(name)s\" を購入できませんでした。ボンズ不足です。"
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "%(kind)s「%(name)s」を購入できません。アニバーサリー・コインが不足しています。"
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "ゴールド不足により、%(kind)s \"%(name)s\" を購入できませんでした。"
+
+msgid "battleBooster_buy/server_error"
+msgstr "現在メンテナンス中のため、ディレクティブ関連の操作は一時的に利用できません。"
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "%(kind)s \"%(name)s\" を購入できませんでした。サーバーが一時的にご利用いただけません。"
+
+msgid "battleBooster_buy/success"
+msgstr "%(kind)s \"%(name)s\" 購入完了 (%(count)s 個)、消費: %(money)s"
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "この車輌はロック中です。%(kind)s \"%(name)s\" を購入・搭載できませんでした。"
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "%(kind)s \"%(name)s\" を購入・搭載できませんでした。車輌を修理して再度お試しください。"
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "battleBooster_sell/server_error"
+msgstr "現在メンテナンス中のため、ディレクティブ関連の操作は一時的に利用できません。"
+
+msgid "battleBooster_sell/success"
+msgstr "%(kind)s \"%(name)s\" を売却しました (%(count)s 個)。取得: %(money)s。"
+
+msgid "battleBoosters_apply/error"
+msgstr "ディレクティブ処理エラー。後ほど再度お試しください。"
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "ディレクティブ処理エラー。残高不足により購入できません。"
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "処理不能。ゴールドはWG Wallet機能の復旧後に利用可能になります。"
+
+msgid "battlePass/activateChapter/success"
+msgstr "チャプター『%(chapter)s』への挑戦を開始しました。"
+
+msgid "battlePass/extraFinish/body"
+msgstr "イベント「%(name)s」は終了しています。ご参加ありがとうございました！"
+
+msgid "battlePass/extraFinish/header"
+msgstr "バトルパス・チャプター『%(name)s』"
+
+msgid "battlePass/extraStarted/body"
+msgstr "バトルパスの追加チャプター『%(name)s』が開幕しました！限定報酬をお見逃しなく！"
+
+msgid "battlePass/extraStarted/header"
+msgstr "「バトルパス」の新チャプターがアンロック！"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "戦車長、追加チャプター『%(name)s』の終了が迫っているぞ！ 急ぐんだ！"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "バトルパス・チャプター『%(name)s』"
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "バトルパス進捗ポイントは「ランク戦」でも取得できます。"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "バトルパス進捗ポイントは「フロントライン」でも取得できます。"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "バトルパス進捗ポイントは「先行偵察ミッション」でも取得できます。"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "「バトルパス進捗ポイント」は「オンスロート」モードでも取得できます。"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "バトルパス・シーズン%(seasonNum)d"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "報酬の選択中にエラーが発生しました。再度お試しください。"
+
+msgid "battlePass/seasonEnd/text"
+msgstr "「バトルパス」のシーズンが終了しました。シーズン中に受け取らなかった報酬が以下の通り自動的に選択されてアカウントに追加されました。"
+
+msgid "battlePass/switchChapter/error"
+msgstr "チャプターの選択中にエラーが発生しました。再度お試しください。"
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "チャプターの選択をお忘れなく。挑戦するチャプターはいつでも変更できます。"
+
+msgid "battlePass/switchChapter/success"
+msgstr "挑戦するチャプターを『%(chapter)s』に変更しました。"
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "メンテナンスのため「STEEL HUNTER」モードでは一時的にバトルパスをご利用いただけません。ご不便をお掛けして申し訳ありません。"
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "メンテナンスのため一時的に「オンスロート」モードで「バトルパス進捗ポイント」を取得できません。"
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "メンテナンスのため一時的に「オンスロート・ライト」モードで「バトルパス進捗ポイント」を取得できません。"
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "メンテナンスのため「フロントライン」では一時的に「バトルパス」をプレイできません。"
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "メンテナンスのためランク戦では一時的にバトルパスをご利用いただけません。"
+
+msgid "battlePass/switch_enabled/body"
+msgstr "「バトルパス」が復旧しました。ご不便をお掛けして申し訳ありません。\nシーズンの終了予定日が%(expiryTime)sに延長されました。"
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "「オンスロート」モードで再び「バトルパス進捗ポイント」を取得できるようになりました。ご不便をお掛けして申し訳ありません。"
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "「オンスロート・ライト」モードで再び「バトルパス進捗ポイント」を取得できるようになりました。ご不便をお掛けして申し訳ありません。"
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "「フロントライン」で再び「バトルパス」をプレイできるようになりました。ご不便をお掛けして申し訳ありません。"
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "ランク戦で再びバトルパスをご利用いただけるようになりました。ご不便をお掛けして申し訳ありません。"
+
+msgid "battlePass/switch_pause/body"
+msgstr "メンテナンスのためバトルパスは一時的にご利用いただけません。"
+
+msgid "battlePass/switch_started/body"
+msgstr "バトルパスが再び開幕しました！限定報酬を手に入れるまたとない機会です！"
+
+msgid "battlePass/switch_started/title"
+msgstr "バトルパス・シーズン%(seasonNum)d"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "バトルパス: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "「バトルパス」が終了しました。まだ受け取っていない報酬が自動的に選択されてアカウントに追加されました。"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "チャプターは終了しました。また次回お会いしましょう！"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "バトルパス: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "「バトルパス」が復旧しました。ご不便をお掛けして申し訳ありません。"
+
+msgid "battlePassH/switch_started/body"
+msgstr "期間限定の特別なバトルパス・チャプターが開幕しました。\n\n限定3Dスタイルが付属したプレミアム車輌やカスタマイズ要素など、豪華な限定報酬が目白押しです！"
+
+msgid "battlePassH/switch_started/title"
+msgstr "バトルパス: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "ステージの購入中にエラーが発生しました。再度お試しください。"
+
+msgid "battlePass_buy/server_error"
+msgstr "「改良パス」の購入中にエラーが発生しました。再度お試しください。"
+
+msgid "battleResults/sharing/success"
+msgstr "リンクをクリップボードにコピーしました。Ctrl+V でゲーム内チャットにペーストしたり、ゲームクライアントの外で使用可能です。"
+
+msgid "battleSession/kickedFromQueue"
+msgstr "現在の戦車中隊では対戦相手を見つけることができませんでした。チームの再編成をご検討ください。"
+
+msgid "battleSession/memberJoined"
+msgstr "%s がチームに参加しました。"
+
+msgid "battleSession/memberLeave"
+msgstr "%s がチームから抜けました。"
+
+msgid "battleSession/memberNotReady"
+msgstr "%s はチームで戦う準備が整っていません。"
+
+msgid "battleSession/memberOffline"
+msgstr "%s との接続が切れました。"
+
+msgid "battleSession/memberReady"
+msgstr "%s はチームで戦う準備が完了しました。"
+
+msgid "battlesession/error/AddObserver"
+msgstr "各チームのオブザーバー数の上限: %(numPlayers)s名"
+
+msgid "battlesession/error/AddPlayer"
+msgstr "各チームのプレイヤー数の上限: %(numPlayers)s名"
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "権限がないため他のプレイヤーを移動できません。"
+
+msgid "battlesession/error/Limits"
+msgstr "チームのプレイヤー数が上限を超過しています。"
+
+msgid "blueprints/conversion/disable"
+msgstr "ピースが不足しているため変換不可"
+
+msgid "blueprints/conversion/error"
+msgstr "サーバーをご利用いただけないため、解任できませんでした。時間をおいて再度お試しください。"
+
+msgid "blueprints/switch_off"
+msgstr "車輌の設計図は一時的に利用できません。ご不便をおかけして申し訳ありません。"
+
+msgid "blueprints/switch_on"
+msgstr "車輌の設計図が再び利用できるようになりました。"
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "アクション使用不能。パーソナルリザーブは既に使用中です。"
+
+msgid "booster_activate/DISABLED"
+msgstr "パーソナルリザーブを使用できません。アクションが使用不能です。"
+
+msgid "booster_activate/EXCEPTION"
+msgstr "パーソナルリザーブを使用できません。アクションが使用不能です。"
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "アクション使用不能。パーソナルリザーブが使用不能か、または未選択です。"
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "パーソナルリザーブを使用できません。アクションが使用不能です。"
+
+msgid "booster_activate/server_error"
+msgstr "パーソナルリザーブを使用できません。後で再試行してください。"
+
+msgid "booster_activate/success"
+msgstr "パーソナルリザーブ \"%(boosterName)s\" 使用開始。残り時間: %(time)s"
+
+msgid "booster_buy/not_enough_credits"
+msgstr "パーソナルリザーブ \"%(boosterName)s\" を購入できませんでした。クレジット不足です。"
+
+msgid "booster_buy/not_enough_gold"
+msgstr "パーソナルリザーブ \"%(boosterName)s\" を購入できませんでした。ゴールド不足です。"
+
+msgid "booster_buy/server_error"
+msgstr "パーソナルリザーブ \"%(boosterName)s\" を購入できませんでした。"
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "パーソナルリザーブ \"%(boosterName)s\" を購入できませんでした。サーバーが一時的にご利用いただけません。"
+
+msgid "booster_buy/success"
+msgstr "パーソナルリザーブ \"%(boosterName)s\" 購入完了 (%(count)s 個)、消費: %(money)s。"
+
+msgid "booster_buy/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "booster_sell/server_error"
+msgstr "パーソナルリザーブ \"%(boosterName)s\" を売却できませんでした。後で再度お試しください。"
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "パーソナルリザーブ \"%(boosterName)s\" を売却できませんでした。後で再度お試しください。"
+
+msgid "booster_sell/success"
+msgstr "パーソナルリザーブ \"%(boosterName)s\" 売却完了 (%(count)s 個)、取得: %(money)s。"
+
+msgid "buttons/goToPoll"
+msgstr "投票に進む"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "搭乗員を採用・転送できません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "無料搭乗員が今日の上限に達しました。"
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "搭乗員の採用・転送不能。不正な車輌です。"
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "搭乗員の採用・転送不能。クレジット不足です。"
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "搭乗員の採用・転送不能。ゴールド不足です。"
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "搭乗員の採用・転送不能。後で再試行してください。"
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "搭乗員の採用・転送不能。車輌がロック中です。"
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "搭乗員を採用・転送できません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "無料搭乗員が今日の上限に達しました。"
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "搭乗員の採用・変更不能。不正な車輌です。"
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "搭乗員の採用・置き換え不能。クレジット不足です。"
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "搭乗員の採用・置き換え不能。ゴールド不足です。"
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "搭乗員の採用・変更不能。搭乗員を採用するには、空き寝台が必要です。寝台を空けるか、兵舎を拡張して寝台を追加してください。"
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "搭乗員の採用・置き換え不能。後で再試行してください。"
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "搭乗員の採用・変更不能。車輌がロック中です。"
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "無料車輌の購入の上限に達しました。明日、もう一度お試しください。"
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "兵舎の拡大エラー。クレジット不足です。"
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "兵舎の拡大エラー。ゴールド不足です。"
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "「兵舎」を拡大できません。時間をおいて再度お試しください。"
+
+msgid "buy_tankmen_berths/success"
+msgstr "「兵舎」の拡大が完了しました。\n消費したゴールド: %(money)s"
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "buy_vehicle_slot_error"
+msgstr "「%s」を購入できませんでした。ガレージに空きスロットがありません。スロットを解放するために、車輌の売却またはスロットの購入をご検討ください。"
+
+msgid "buy_vehicle_slot_error2"
+msgstr "「%s」を購入できませんでした。ガレージに空きスロットがありません。スロットを解放してください。"
+
+msgid "challenges/activate/serverError"
+msgstr "鍛錬ミッションへの挑戦を開始できません。時間をおいて再度お試しください。"
+
+msgid "challenges/activate/success/text"
+msgstr "このセットの最初のミッションに挑戦できます。戦闘に参加して挑戦しましょう!"
+
+msgid "challenges/activate/success/title"
+msgstr "鍛錬「%(challengeName)s」への挑戦を開始"
+
+msgid "challenges/challengeEnd/button"
+msgstr "鍛錬へ"
+
+msgid "challenges/challengeEnd/text"
+msgstr "達成して報酬を手に入れるチャンスをお見逃しなく!"
+
+msgid "challenges/challengeEnd/title"
+msgstr "鍛錬ミッションは間もなく終了します!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "おめでとうございます!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "鍛錬「%(challengeName)s」を達成しました。入手した報酬: "
+
+msgid "challenges/formatter/spent/credits"
+msgstr "消費したクレジット:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "消費したボンズ:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "消費したゴールド:"
+
+msgid "challenges/restart/free/text"
+msgstr "無料リスタートを1回使用して、ミッションの進捗をリセットしました。"
+
+msgid "challenges/restart/free/title"
+msgstr "鍛錬「%(challengeName)s」を無料でリスタートしました"
+
+msgid "challenges/restart/paid/title"
+msgstr "鍛錬「%(challengeName)s」をリスタートしました"
+
+msgid "challenges/restart/serverError"
+msgstr "鍛錬ミッションを再開できません。時間をおいて再度お試しください。"
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "アクション実行不可。現在の処理が完了するまでお待ちください。"
+
+msgid "challenges/surrender/serverError"
+msgstr "鍛錬ミッションを放棄できません。時間をおいて再度お試しください。"
+
+msgid "challenges/surrender/success/text"
+msgstr "鍛錬「%(challengeName)s」を放棄しました。ミッション・セットへの挑戦は失敗となりました。"
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "搭乗員の職能を変更できません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "change_tankman_role/invalid_role"
+msgstr "職能変更不能。後で再試行してください。"
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "職能変更不能。不正な車輌です。"
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "車輌がガレージにありません。職能を変更した搭乗員は兵舎に送られます。"
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "搭乗員の能力を変更できません。クレジット不足です。"
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "搭乗員の能力を変更できません。ゴールド不足です。"
+
+msgid "change_tankman_role/server_error"
+msgstr "職能を変更できません。\n時間をおいて再度お試しください。"
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "%(vehicle)s には既に %(role)s が搭乗中です。職能を変更した搭乗員は兵舎に送られます。"
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "職能変更不能。後で再試行してください。"
+
+msgid "charge/credits_error"
+msgstr "%s クレジットと %s ゴールドが不足しています。手動で砲弾の補給を行う必要があります。"
+
+msgid "charge/credits_error_credits"
+msgstr "%s クレジットが不足しています。手動で砲弾の補給を行う必要があります。"
+
+msgid "charge/credits_error_gold"
+msgstr "%s ゴールドが不足しています。手動で砲弾の補給を行う必要があります。"
+
+msgid "charge/inventory_error"
+msgstr "%(vehicle)s への弾薬の補給に失敗しました。手動で補給を行う必要があります。"
+
+msgid "charge/money_spent"
+msgstr "砲弾の補給に合計 %s を消費しました。"
+
+msgid "charge/server_error"
+msgstr "砲弾の補給中にエラー。時間をおいて再度お試しください。"
+
+msgid "charge/server_error_save"
+msgstr "砲弾の保存中にエラー。時間をおいて再度お試しください。"
+
+msgid "charge/success"
+msgstr "砲弾の補給が完了しました。"
+
+msgid "charge/success_save"
+msgstr "砲弾の保存が完了しました。"
+
+msgid "checkout_error"
+msgstr "プレイヤー詳細の受信エラー。後で再試行してください。"
+
+msgid "clans/isClanProfileDisabled"
+msgstr "アクション使用不能。後で再度お試しください。"
+
+msgid "clans/notifications/accept"
+msgstr "承諾"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "%(userName)sさんにはクランへの招待を送信済みです。"
+
+msgid "clans/notifications/decline"
+msgstr "拒否"
+
+msgid "clans/notifications/from"
+msgstr "%(user)s さんから"
+
+msgid "clans/notifications/info"
+msgstr "クラン詳細を確認"
+
+msgid "clans/notifications/invite"
+msgstr "クランへの招待"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "クランへの招待を承諾しました。"
+
+msgid "clans/notifications/invite/declined"
+msgstr "クランへの招待を拒否しました。"
+
+msgid "clans/notifications/invite/expired"
+msgstr "クランへの招待が無効です。"
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s さんがクランへの招待を承諾しました。"
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s さんがクランへの招待を辞退しました。"
+
+msgid "clans/notifications/inviteSendError"
+msgstr "%(userName)s さんにクラン招待を送信できません。"
+
+msgid "clans/notifications/inviteSent"
+msgstr "%(userName)s さんにクランへの招待を送信しました。"
+
+msgid "clans/notifications/invites"
+msgstr "クラン招待: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "通知を無効化"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "招待を確認"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "%(userCount)d 名のプレイヤーにクラン招待を送信できませんでした。"
+
+msgid "clans/notifications/invitesSent"
+msgstr "%(userCount)d 名のプレイヤーを招待しました。"
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "クランへの加入が承認されました:\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "クラン加入申請が拒否されました:\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clans/notifications/request"
+msgstr "クラン加入申請"
+
+msgid "clans/notifications/request/accepted"
+msgstr "加入申請が承諾されました。"
+
+msgid "clans/notifications/request/declined"
+msgstr "加入申請が拒否されました。"
+
+msgid "clans/notifications/requestSent"
+msgstr "クランに加入申請を送信しました:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "プレイヤーからの招待: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "加入申請を確認"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s さんはあなたのクランに招待済みです。"
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "アクション使用不能。このプレイヤーは募集条件を満たしていません。"
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "前のクランから脱退したことによる1日間のペナルティ期間が完了していません。"
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "アクション使用不能。アカウントが正しくありません。"
+
+msgid "clans/request/errors/Account is banned"
+msgstr "アクション使用不能。アカウントがアクセス禁止されています。"
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "このプレイヤーは既にクランに所属中です。"
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "アクション使用不能。プレイヤーはクランのメンバーではありません。"
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "アクション使用不能。加入申請が存在しません。"
+
+msgid "clans/request/errors/Application is not active"
+msgstr "アクション使用不能。申請の期限が切れました。"
+
+msgid "clans/request/errors/Bad request"
+msgstr "アクション使用不能。後で再度お試しください。"
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "権限不足のため、クランへの招待を送信できません。"
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "クランは加入申請を募集していません。"
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "クランが満員です。"
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "アクション使用不能。クランが存在しません。"
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "アクション使用不能。クランが満員です。"
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "アクション使用不能。クランが解散しました。"
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "アクション使用不能。クランが非アクティブです。"
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "アクション使用不能。後で再度お試しください。"
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "アクション使用不能。後で再度お試しください。"
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "このタイプのアカウントではアクションを使用できません。"
+
+msgid "clans/request/errors/Forbidden"
+msgstr "アクション使用不能。権限がありません。"
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "アクション使用不能。後で再度お試しください。"
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "アクション使用不能。招待がありません。"
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "アクション使用不能。招待の期限が切れました。"
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "アクション使用不能。後で再度お試しください。"
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "アクション使用不能。後で再度お試しください。"
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "アクション使用不能。拠点が使用不能です。"
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "アクション使用不能。加入申請を上限まで送信済みです。"
+
+msgid "clans/request/errors/Too many invites"
+msgstr "アクション使用不能。招待を上限まで送信済みです。"
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "アクション使用不能。後で再度お試しください。"
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "アクション使用不能。後で再度お試しください。"
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "アクション使用不能。後で再度お試しください。"
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "アクション使用不能。後で再度お試しください。"
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s さんは既にクランに所属中です。"
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s「%s」は、この車輌には適合しません。"
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s「%s」は、この砲塔には適合しません。砲塔を交換してください。"
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s「%s」はタイプが違います。"
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s「%s」は国籍が違います。"
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s「%s」は、この車輌には適合しません。"
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s「%s」はタイプが違います。"
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s「%s」は国籍が違います。"
+
+msgid "client_inactive"
+msgstr "クライアントが非アクティブ"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "定期メンテナンスのため、コレクションは一時的にご利用いただけません。"
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "コレクション利用不可"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "コレクションが修復されました。ご不便をおかけして申し訳ありませんでした。"
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "コレクションが再び利用できるようになりました"
+
+msgid "connected"
+msgstr "World of Tanksの%sサーバーへようこそ！"
+
+msgid "consumables_apply/error"
+msgstr "消耗品構成エラー。後ほど再度お試しください。"
+
+msgid "consumables_apply/not_enough_money"
+msgstr "消耗品構成エラー。残高不足により購入できません。"
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "処理不能。ゴールドはWG Wallet機能の復旧後に利用可能になります。"
+
+msgid "conversion/error"
+msgstr "サーバーをご利用いただけないため、解任できませんでした。時間をおいて再度お試しください。"
+
+msgid "conversion/header"
+msgstr "日付: %(at)s\n追加:"
+
+msgid "conversion/success"
+msgstr "%(number)s名の訓練未完了の搭乗員を解任しました。"
+
+msgid "conversion/title"
+msgstr "取得"
+
+msgid "conversionPerks/header"
+msgstr "日付:%(at)s\n制限を超過した搭乗員パークのEXPを変換しました。取得:"
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "お住まいの地域では個人メッセージはご利用いただけません。"
+
+msgid "crewBooks/failed"
+msgstr "搭乗員を訓練できません。\n時間をおいて再度お試しください。"
+
+msgid "crewBooks/server_error"
+msgstr "サーバーエラーにより搭乗員の訓練に失敗しました。時間をおいて再度お試しください。"
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s"
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (×%(count)s)"
+
+msgid "crewBooksNotification/success"
+msgstr "搭乗員の訓練が完了しました。\n消費:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "サーバーエラーにより搭乗員教本を購入できません。後で再度お試しください。"
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s ×%(count)s\n消費したクレジット: %(money)s"
+
+msgid "crewBooks_sell/server_error"
+msgstr "サーバーエラーにより搭乗員教本を売却できません。後で再度お試しください。"
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s ×%(count)s\n取得したクレジット: %(money)s"
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "搭乗員スキン変更完了"
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "搭乗員スキン追加: %(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "現在の車輌は%sと交換されます。"
+
+msgid "customization/added/attachment"
+msgstr "3D付属品「%s」追加"
+
+msgid "customization/added/attachmentValue"
+msgstr "3D付属品「%s」追加 (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "迷彩「%s」追加"
+
+msgid "customization/added/camouflageValue"
+msgstr "迷彩「%s」追加: (x%s)"
+
+msgid "customization/added/decal"
+msgstr "デカール「%s」追加"
+
+msgid "customization/added/decalValue"
+msgstr "デカール「%s」追加: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "徽章「%s」追加"
+
+msgid "customization/added/emblemValue"
+msgstr "徽章「%s」追加: (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "銘刻「%s」追加"
+
+msgid "customization/added/inscriptionValue"
+msgstr "銘刻「%s」追加: (x%s)"
+
+msgid "customization/added/modification"
+msgstr "エフェクト「%s」追加"
+
+msgid "customization/added/modificationValue"
+msgstr "エフェクト「%s」追加: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "ペイント「%s」追加"
+
+msgid "customization/added/paintValue"
+msgstr "ペイント「%s」追加: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "1 桁の数値「%s」追加"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "1 桁の数値「%s」追加: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "2 桁の数値「%s」追加"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "2 桁の数値「%s」追加: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "3桁の数値「%s」追加"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "3桁の数値「%s」追加: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "デカール「%s」追加"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "デカール「%s」追加: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "戦績カウンター: 「%s」追加"
+
+msgid "customization/added/statTrackerValue"
+msgstr "戦績カウンター: 「%s」追加 (x%s)"
+
+msgid "customization/added/style"
+msgstr "スタイル「%s」が追加"
+
+msgid "customization/added/styleValue"
+msgstr "スタイル「%s」追加: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "カスタマイズ不可。クレジット/ゴールド不足です。"
+
+msgid "customization/credits_not_enough"
+msgstr "カスタマイズ不可。クレジット不足です。"
+
+msgid "customization/currency_not_enough"
+msgstr "リソースが不足しているため購入できません。"
+
+msgid "customization/gold_not_enough"
+msgstr "カスタマイズ不可。ゴールド不足です。"
+
+msgid "customization/igr_type_changed_error"
+msgstr "IGR ステータスが変更されました。現在の操作はキャンセルされました。"
+
+msgid "customization/invalidVehicle"
+msgstr "車輌が条件を満たしていないため適用できません。"
+
+msgid "customization/personal_number_prohibited"
+msgstr "数値 %(value)s は利用不可。\nこの %(itemType)s %(itemName)s は%(seasonName)sマップから削除されました。"
+
+msgid "customization/progression/down/style"
+msgstr "スタイル「%s」をレベル%sにダウングレードしました。"
+
+msgid "customization/progression/up/style"
+msgstr "スタイル「%s」をレベル%sにアップグレードしました。"
+
+msgid "customization/prohibited"
+msgstr "適用不能: %(itemName)s がインベントリにありません。"
+
+msgid "customization/removed/attachment"
+msgstr "3D付属品「%s」削除"
+
+msgid "customization/removed/attachmentValue"
+msgstr "3D付属品「%s」削除 (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "迷彩「%s」削除"
+
+msgid "customization/removed/camouflageValue"
+msgstr "迷彩「%s」削除: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "デカー「%s」削除"
+
+msgid "customization/removed/decalValue"
+msgstr "デカール「%s」削除: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "徽章「%s」削除"
+
+msgid "customization/removed/emblemValue"
+msgstr "徽章「%s」削除: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "銘刻「%s」削除"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "銘刻「%s」除: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "エフェクト「%s」削除"
+
+msgid "customization/removed/modificationValue"
+msgstr "エフェクト「%s」削除: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "ペイント「%s」削除"
+
+msgid "customization/removed/paintValue"
+msgstr "ペイント「%s」削除: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "1 桁の数値「%s」削除"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "1 桁の数値「%s」削除: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "2 桁の数値「%s」削除"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "2 桁の数値「%s」削除: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "3桁の数値「%s」削除"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "3桁の数値「%s」削除: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "デカール「%s」削除"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "デカール「%s」削除: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "戦績カウンター: 「%s」削除"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "戦績カウンター: 「%s」削除 (x%s)"
+
+msgid "customization/removed/style"
+msgstr "スタイル「%s」削除"
+
+msgid "customization/removed/styleValue"
+msgstr "スタイル「%s」削除: (x%s)"
+
+msgid "customization/server_error"
+msgstr "カスタマイズできません。"
+
+msgid "customization/unavailable"
+msgstr "車輌カスタマイズ機能は、技術的理由により一時的に無効化されています。"
+
+msgid "customization/vehicle_damaged"
+msgstr "カスタマイズ不可。車輌が損傷しています。修理してください。"
+
+msgid "customization/vehicle_destroyed"
+msgstr "カスタマイズ不可。車輌が行動不能です。修理してください。"
+
+msgid "customization/vehicle_exploded"
+msgstr "カスタマイズ不可。車輌が大破しています。修理してください。"
+
+msgid "customization/vehicle_locked"
+msgstr "カスタマイズ不可。車輌がロック中です。"
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "標準ミッションは達成済みのため、変更できません。"
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "操作がブロックされているため、標準ミッションを変更できません。"
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "操作が停止中のため、標準ミッションを変更できません。"
+
+msgid "daily_quests/reroll/success"
+msgstr "標準ミッションを変更しました。"
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "標準ミッションを変更できません。後ほど再度お試しください。"
+
+msgid "daily_quests/switch_off/body"
+msgstr "この機能は技術的理由により一時的にご利用頂けません。\nご不便をおかけして申し訳ありません。"
+
+msgid "daily_quests/switch_off/title"
+msgstr "標準ミッションは一時的に挑戦不可"
+
+msgid "daily_quests/switch_on/body"
+msgstr "技術的な問題を解決しました。ご不便をおかけして申し訳ありません。"
+
+msgid "daily_quests/switch_on/title"
+msgstr "標準ミッションに再び挑戦可能"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "この機能は技術的理由により一時的にご利用頂けません。\nご不便をおかけして申し訳ありません。"
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "WoTプレミアムEXPボーナスは一時的に適用不可"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "技術的な問題を解決しました。ご不便をおかけして申し訳ありません。"
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "WoTプレミアムEXPボーナスを適用可能"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "解除キットの操作はメンテナンスのため一時的に利用できません。"
+
+msgid "demountKit_restored/switchedOn"
+msgstr "解除キットの操作が再び可能になりました。ご不便をおかけして申し訳ありません。"
+
+msgid "denunciation/success"
+msgstr "%(name)s に対する通報 \"%(topic)s\" が受け取られました。"
+
+msgid "disconnected"
+msgstr "クライアントがサーバーから切断されました。"
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "搭乗員を解任できません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "搭乗員の解任エラー: 不正な車輌です。"
+
+msgid "dismiss_tankman/server_error"
+msgstr "搭乗員を解任できません。\n時間をおいて再度お試しください。"
+
+msgid "dismiss_tankman/success"
+msgstr "搭乗員の解任が完了しました。"
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "搭乗員の解任エラー。車輌がロック中です。"
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "搭乗員の解任エラー。車輌を修理してください。"
+
+msgid "dog_tags/switch_off/body"
+msgstr "技術的な理由により、この機能は現在利用できません。\nご不便をおかけして申し訳ありません。"
+
+msgid "dog_tags/switch_off/title"
+msgstr "ドッグタグは一時的に利用不可"
+
+msgid "dog_tags/switch_on/body"
+msgstr "技術的な問題が解決されました。ご不便をおかけして申し訳ありません。"
+
+msgid "dog_tags/switch_on/title"
+msgstr "ドッグタグが再び利用可能"
+
+msgid "dossiers_unavailable"
+msgstr "アカウントの用意ができていません (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "パークのリセットが完了しました。\n消費したクレジット: %(money)s"
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "パークのリセットが完了しました。\n消費したゴールド: %(money)s"
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "車輌に問題があるためパークをリセットできません。"
+
+msgid "drop_tankman_skill/server_error"
+msgstr "パークをリセットできません。時間をおいて再度お試しください。"
+
+msgid "drop_tankman_skill/success"
+msgstr "全パークのリセットが完了しました。"
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "車輌がロック中のためパークをリセットできません。"
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "車輌の修理が完了していないためパークをリセットできません。"
+
+msgid "drr_scale/step_down"
+msgstr "ダイナミック解像度を %(scale)d%% に下げました。"
+
+msgid "drr_scale/step_up"
+msgstr "ダイナミック解像度を最大 %(scale)d%% に上げました。"
+
+msgid "earning/button/multiple"
+msgstr "実績パッチへ"
+
+msgid "earning/button/single"
+msgstr "実績パッチへ"
+
+msgid "earning/common/multiple"
+msgstr "%(value)s件の実績パッチをアンロック！"
+
+msgid "earning/common/single"
+msgstr "実績パッチ「%(value)s」をアンロック！"
+
+msgid "earning/title"
+msgstr "おめでとうございます!"
+
+msgid "earning/trophy/multiple"
+msgstr "%(value)s個のトロフィーを獲得！"
+
+msgid "earning/trophy/single"
+msgstr "トロフィー「%(value)s」を獲得！"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "「クイック整備」を再びご利用いただけます。ご不便をおかけして大変申し訳ございませんでした。"
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "メンテナンスのため「クイック整備」は一時的にご利用いただけません。"
+
+msgid "easyTankEquip_apply/error"
+msgstr "「クイック整備」の構成を適用できませんでした。時間をおいて再度お試しください。"
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "リソース不足により「クイック整備」の構成を適用できませんでした。"
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "「クイック整備」の操作を処理できません。ゴールドはWG Wallet機能の復旧後に利用可能になります。"
+
+msgid "epicBattles/levelUp/awards"
+msgstr "入手した報酬:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "「フロントライン」モードのTier <font color='#E9E2BF'>%(tier)s</font> に到達しました。"
+
+msgid "epicBattles/levelUp/title"
+msgstr "おめでとうございます！"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "フロントラインはご利用いただけません。ゲームポータルで最新情報をご確認ください。"
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "報酬の選択中にエラーが発生しました。再度お試しください。"
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "入手した搭乗員教本: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "入手したディレクティブ: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "入手した試作拡張パーツ: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "「フロントライン」モードが終了しました。<br/>シーズン中に受け取らなかった報酬が以下の通り自動的に選択されてアカウントに追加されました。"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "フロントライン"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "搭乗員を転送できません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "この車輌への搭乗員の移動エラー。不正な車輌です。"
+
+msgid "equip_tankman/not_enough_space"
+msgstr "寝台が不足しているため搭乗員を「兵舎」に送ることができません。"
+
+msgid "equip_tankman/server_error"
+msgstr "搭乗員を車輌に配属できません。時間をおいて再度お試しください。"
+
+msgid "equip_tankman/success"
+msgstr "搭乗員が「%(vehName)s」に配属されました。"
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "この車輌への搭乗員の移動エラー。車輌がロック中です。"
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "この車輌への搭乗員の移動エラー。車輌を修理してください。"
+
+msgid "exchange/not_enough_gold"
+msgstr "変換用のゴールド不足です。"
+
+msgid "exchange/server_error"
+msgstr "%(gold)s ゴールドの変換エラー。後で再試行してください。"
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "%(xp)sEXPの変換用のゴールド不足です。"
+
+msgid "exchangeXP/server_error"
+msgstr "%(xp)sEXPの変換エラー。後で再試行してください。"
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "filling_untrained_perks/server_error"
+msgstr "新しいパークを習得できません。\nサーバーがご利用いただけません。時間をおいて再度お試しください。"
+
+msgid "filling_untrained_perks/success"
+msgstr "全搭乗員が新しいパークを習得しました。"
+
+msgid "fortification/addOrder"
+msgstr "リザーブ %(count)s 個の準備を開始しました。残り時間: %(time)s"
+
+msgid "fortification/buildingProcess"
+msgstr "建造物 %(buildingName)s の建設を開始しました。建設を途切れること無く続けるには、必要量の工業資源を輸送してください。"
+
+msgid "fortification/created"
+msgstr "おめでとうございます!\n拠点の作成を完了しました。"
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "あなたの拠点の防衛は 48 時間で無効化されます。この間に拠点の設定で防衛を再有効化することが可能です。"
+
+msgid "fortification/defenceHourSet"
+msgstr "防衛時間の調節は 14 日後に反映されます。新しい防衛時間: %(defenceHour)s"
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "休戦日の調節は 14 日後に反映されます。新しい休戦日—未設定"
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "休戦日の調節は 14 後に反映されます。新しい休戦日—%(offDay)s"
+
+msgid "fortification/demountBuilding"
+msgstr "建造物 %(buildingName)s 解体完了。"
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "アクション使用不能。あなたはこの建造物に配属済みです。"
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "アクション使用不能。拠点を作成済みです。"
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "アクション使用不能。クランはブックマーク一覧に登録済みです。"
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "アクション使用不能。同じクランに対して複数の攻撃を計画することはできません。"
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "アクション使用不能。攻撃データが読み込まれていません。"
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "アクション使用不能。そのクランに対する最後の攻撃から 1 週間経過する必要があります。"
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "アクション使用不能。この橋頭堡は別の分遣隊が確保済みです。"
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "アクション使用不能。攻撃は予定されていません。"
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "アクション使用不能。開始時間の 15 分以上前に攻撃を計画してください。"
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "選択した日に攻撃を予定することができません。"
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "アクション使用不能。クラン ID が正しくありません。"
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "アクション使用不能。休戦日の値が正しくありません。"
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "アクション使用不能。日付が正しくありません。"
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "アクション使用不能。進撃戦の ID が正しくありません。"
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "アクション使用不能。防衛時間の値が正しくありません。"
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "選択したクランを攻撃不能: 拠点のレベル差が 1 を超えています。別のクランを選択してください。"
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "アクション使用不能。リザーブの数が正しくありません。"
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "アクション使用不能。工業資源の輸送量が無効です。"
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "アクション使用不能。部門が正しくありません。"
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "アクション使用不能。前衛戦の詳細が取得できませんでした。"
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "このサーバーでは現在、戦闘は制限されています。"
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "アクション使用不能。無効な中立期間です。"
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "アクション使用不能。中立状態の日付が無効です。"
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "アクション使用不能。司令部を修復してください。"
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "アクション使用不能。司令部が大破しています。"
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "アクション使用不能。司令部は損傷を受けていません。"
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "アクション使用不能。戦闘が存在しません。"
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "戦闘の詳細結果が不明です。"
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "削除不能。拠点に建造物があります。"
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "アクション使用不能。建造物が損傷しています。"
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "アクション使用不能。建造物は未建設です。"
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "アクション使用不能。クラン詳細を取得できません。"
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "アクション使用不能。クランが見つかりません。"
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "アクション使用不能。輸送できません。"
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "アクション使用不能。建造物をアップグレードできません。"
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "操作が取り消されました。サーバーが一時的にご利用いただけません。"
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "アクション使用不能。クランの休戦日が有効です。"
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "アクション使用不能。クランの中立状態が有効です。"
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "アクション使用不能。指定の時間に防衛時間を設定できません。"
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "アクション使用不能。この橋頭堡は別の分遣隊が確保済みです。"
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "アクション使用不能。防衛は予定されていません。"
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "アクション使用不能。無効なデータです。"
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "アクション使用不能。防衛が有効化されていません。"
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "拠点は一時的にご利用いただけません。"
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "アクション使用不能。建造物を建設済みです。"
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "アクション使用不能。現在の処理が完了するまでお待ちください。"
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "アクション使用不能。その時間には他のクランを攻撃中です。"
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "指定の時間には、このクランに対する攻撃を予定することはできません。"
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "エラー。拠点は一時的にご利用いただけません。"
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "アクション使用不能。拠点レベルが不足しています。"
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "アクション使用不能。全ての建造物の建設は一時停止中です。"
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "アクション使用不能。権限がありません。"
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "アクション使用不能。戦術ユニットに参加できません。"
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "アクションは一時的に使用不能です。"
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "アクション使用不能。時間が同期されていません。"
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "アクション使用不能。あなたは建造物に未配属です。"
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "アクション使用不能。このプレイヤーはクランメンバーではありません。"
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "アクション使用不能。クランのプレイヤー数不足です。"
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "アクション使用不能。この建造物の貯蔵庫に工業資源が不足しています。"
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "アクション使用不能。クランはブックマーク一覧に未登録です。"
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "アクション使用不能。建造物は未建設です。"
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "アクション使用不能。あなたはクランに参加していません。"
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "アクション使用不能。現在、使用可能なリザーブがありません。"
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "アクション使用不能。不正な建造物です。"
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "アクション使用不能。リザーブが使用不能か未選択です。"
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "アクション使用不能。不正なリザーブです。"
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "アクション使用不能。不正なリザーブです。"
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "アクション使用不能。建造物は既に建設中です。"
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "アクション使用不能。攻撃は存在しません。"
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "アクション使用不能。リザーブは既に使用中です。"
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "アクション使用不能。リザーブの準備は既に進行中です。"
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "アクション使用不能。建設は既に一時停止中です。"
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "アクション使用不能。リザーブが使用不能です。"
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "アクション使用不能。建設は一時停止中ではありません。"
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "アクション使用不能。サーバーがオフラインです。"
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "アクション使用不能。スロットは既に塞がっています。"
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "アクション使用不能。防衛は既に無効化済みです。"
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "アクション使用不能。防衛はまだ無効化されていません。"
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "アクション使用不能。訓練が未完了です。"
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "アクション使用不能。貯蔵庫がいっぱいです。"
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "アクション使用不能。この日には防衛を既に予定済みです。"
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "ブックマーク済みクラン数が上限に達しました。"
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "アクション使用不能。リザーブは上限まで準備済みです。"
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "アクション使用不能。建造物守備隊は満員です。"
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "アクション使用不能。前衛戦の上限を超過しました。"
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "アクション使用不能。輸送は一時的にご利用いただけません。"
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "アクション使用不能。輸送の上限を超過しました。"
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "アクション使用不能。プレイヤーが準備中です。"
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "アクション使用不能。司令部を解体できません。"
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "アクション使用不能。無効なクランです。"
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "アクション使用不能。サーバーが正しくありません。"
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "アクション使用不能。このエリアには建造物を建設できません。"
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "あなたは建造物 %(buildingName)s に配属されました。"
+
+msgid "fortification/fortBattleFinished"
+msgstr "進撃戦は、サーバーの技術的問題により強制停止しました。"
+
+msgid "fortification/modernizationBuilding"
+msgstr "アップグレード完了。建造物 %(buildingName)s のレベルが %(buildingLevel)s に上がりました。"
+
+msgid "fortification/notification/turnedOff"
+msgstr "拠点は一時的にご利用いただけません。後で再度お試しください。"
+
+msgid "fortification/notification/turnedOn"
+msgstr "拠点: 戦闘モードが再度ご利用可能になりました。"
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "リザーブの使用"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "建造物の建設"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "クランをブックマーク"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "リザーブの追加"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "守備隊にプレイヤーを追加"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "防衛時間の再有効化"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "防衛時間の調節"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "休戦日の調節"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "サーバー変更"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "設定変更"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "中立状態の調節"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "拠点の作成"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "分遣隊の作成"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "建造物の削除"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "拠点の削除"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "攻撃を計画"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "ブックマークからこのクランを削除"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "クラン詳細の確認"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "クランの詳細を確認"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "分遣隊の詳細を要請"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "防衛時間の無効化"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "輸送"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "建造物のアップグレード"
+
+msgid "fortification/transport"
+msgstr "輸送完了。%(res)s 工業資源を建造物 %(fromBuilding)s から建造物 %(toBuilding)s に輸送しました。"
+
+msgid "fortification/vacationSet"
+msgstr "拠点が中立状態を維持: %(vacationPeriod)s"
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "この操作はご利用頂けません。"
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "搭乗員の訓練エラー。フリーEXP不足です。"
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "搭乗員の訓練エラー。この搭乗員は存在しません。"
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "搭乗員の訓練エラー。後で再試行してください。"
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "搭乗員の訓練エラー。後で再試行してください。"
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "フリーEXPで搭乗員を訓練できません。\n時間をおいて再度お試しください。"
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "搭乗員の訓練が完了しました。\n消費したフリーEXP: %(money)s"
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "未成年のプレイヤーがゲームに熱中しすぎることを防ぐため、戦闘への参加が制限されます。%(blockTime)s にサーバーから切断されます。"
+
+msgid "gameSessionControl/korea/note"
+msgstr "Excessive video game playing may interfere with your daily life."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "ゲームセッション残り時間: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "ゲーム利用時間制限により新しい戦闘に参加できません。%s にサーバーから切断されます。"
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "ゲームセッション時間: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "真夜中までの残り時間: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "プレイ時間が制限されているため戦闘に出撃できません。%(kickTime)sになると自動的にサーバーから切断されます。"
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "プレイ時間の制限が解除されました。"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "ペアレンタルコントロールの設定が変更されました。"
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "%(timeLimit)sになると自動的にサーバーから切断されます。"
+
+msgid "graficsOptionsFail"
+msgstr "ビデオカードが非互換です。次のグラフィック設定を適用できませんでした: %s"
+
+msgid "graficsPresetFail"
+msgstr "ビデオカードが非互換です。選択されたグラフィック品質を適用できませんでした。"
+
+msgid "igr/customization/begin"
+msgstr "無料の迷彩、銘刻、徽章を %(igrIcon)s でご利用頂けます。"
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s が期限切れとなりました。無料の迷彩、銘刻、徽章は車輌から削除されます。"
+
+msgid "info/noAvailable"
+msgstr "詳細情報はご利用頂けません。"
+
+msgid "install_component"
+msgstr "車輌に%s「%s」を搭載完了。"
+
+msgid "install_vehicle_broken"
+msgstr "モジュール%s「%s」を搭載できません。車輌が損傷しています。車輌を修理してから再試行してください。"
+
+msgid "install_vehicle_locked"
+msgstr "車輌がロック中です。モジュール%s「%s」を搭載できません。"
+
+msgid "inventory/item/already_exists"
+msgstr "モジュール%(typeString)s「%(userString)s」は既に倉庫にあります。"
+
+msgid "inventory/item/equip_in_processing"
+msgstr "拡張パーツ搭載リクエスト送信完了。サーバーの応答を待っています。"
+
+msgid "inventory/item/not_found"
+msgstr "モジュール%(typeString)s「%(userString)s」は倉庫内にありません。"
+
+msgid "inventory/vehicle/already_exists"
+msgstr "%(userString)s は既に倉庫内にあります。"
+
+msgid "inventory/vehicle/not_found"
+msgstr "%(userString)s が倉庫内にありません。"
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "傭兵 %(name)s さんに招待を送信できません。"
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "プレイヤー %(name)s さんに招待を送信できません: クランが正しくありません。"
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "修理・補給エラー「%(vehName)s」。消耗品の補給不能。後で再試行してください。"
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "修理・補給エラー「%(vehName)s」。消耗品の補給不能。後で再試行してください。"
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "修理・補給エラー「%(vehName)s」。消耗品の補給不能。後で再試行してください。"
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "修理・補給エラー「%(vehName)s」。砲弾の補給不能。後で再試行してください。"
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "修理・補給エラー「%(vehName)s」。砲弾の補給不能。砲弾は上限まで補給済みです。"
+
+msgid "layout_apply/Component is not in shop"
+msgstr "修理・補給エラー「%(vehName)s」。消耗品の補給不能。後で再試行してください。"
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "修理・補給エラー「%(vehName)s」。消耗品を購入するのにクレジットが不足しています。後ほど再試行してください。"
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "修理・補給エラー「%(vehName)s」。消耗品を購入するのにボンズが不足しています。"
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "修理・補給エラー「%(vehName)s」。消耗品を購入するのにゴールドが不足しています。後ほど再試行してください。"
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "修理・補給エラー「%(vehName)s」。消耗品の補給不能。後で再試行してください。"
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "修理・補給エラー「%(vehName)s」。車輌が不正です。"
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "修理・補給エラー「%(vehName)s」。砲弾を購入するのにクレジットが不足しています。"
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "修理・補給エラー「%(vehName)s」。砲弾を購入するのにゴールドが不足しています。"
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "修理・補給エラー「%(vehName)s」。車輌がロックされています。"
+
+msgid "layout_apply/error"
+msgstr "修理・補給エラー「%(vehName)s」。後で再試行してください。"
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "修理・補給エラー「%(vehName)s」。車輌が不正です。"
+
+msgid "layout_apply/success_money_spent"
+msgstr "砲弾の購入費の総額: %(money)s"
+
+msgid "layout_apply/vehicle_locked"
+msgstr "修理・補給エラー「%(vehName)s」。車輌がロックされています。"
+
+msgid "layout_apply/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "limitedUI/switchOff"
+msgstr "インターフェースの段階的アンロック機能が一時的に無効化されました。"
+
+msgid "limitedUI/switchOn"
+msgstr "インターフェースの段階的アンロック機能が再び有効化されました。設定画面で無効化できます。"
+
+msgid "locked_vehicle_error"
+msgstr "プリセット車輌ではこの操作はできません。"
+
+msgid "login_to_other_game_unknown"
+msgstr "現在のゲームセッションは中断されました。あなたの Wargaming.net&nbsp;ID が別のゲームへのログインに使用されました"
+
+msgid "login_to_other_game_web"
+msgstr "現在のゲームセッションは中断されました。ゲームのポータル経由でサーバーから切断されました。"
+
+msgid "login_to_other_game_wot"
+msgstr "現在のゲームセッションは中断されました。あなたの Wargaming.net&nbsp;ID が World&nbsp;of&nbsp;Tanks へのログインに使用されました"
+
+msgid "login_to_other_game_wotb"
+msgstr "現在のゲームセッションは中断されました。あなたの Wargaming.net&nbsp;ID が World&nbsp;of&nbsp;Tanks&nbsp;Blitz へのログインに使用されました"
+
+msgid "login_to_other_game_wotg"
+msgstr "現在のゲームセッションは中断されました。あなたの Wargaming.net&nbsp;ID が World&nbsp;of&nbsp;Tanks&nbsp;Generals へのログインに使用されました"
+
+msgid "login_to_other_game_wowp"
+msgstr "現在のゲームセッションは中断されました。あなたの Wargaming.net&nbsp;ID が World&nbsp;of&nbsp;Warplanes へのログインに使用されました"
+
+msgid "login_to_other_game_wows"
+msgstr "現在のゲームセッションは中断されました。あなたの Wargaming.net&nbsp;ID が World&nbsp;of&nbsp;Warships へのログインに使用されました"
+
+msgid "lootboxes/open/server_error"
+msgstr "ギフトの受け取り中にサーバーエラーが発生しました。"
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "ギフトの受け取り中にエラーが発生しました。前の操作が完了するまでお待ちください。"
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "こちらの操作は一時的に実行できません。時間をおいて再度お試しください。"
+
+msgid "mapbox/notification/primeTime"
+msgstr "「先行偵察ミッション」モードは休止時間が終了するまでプレイできません。"
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "休止時間"
+
+msgid "maps_black_list/select/server_error"
+msgstr "サーバーエラー"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "アクション使用不能。現在の処理が完了するまでお待ちください。"
+
+msgid "maps_black_list/select/success"
+msgstr "マップ「%(mapName)s」を「ランダム戦」モードから除外しました。設定を変更するには%(time)sが経過するのを待つ必要があります。"
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "マップ「%(mapName)s」を「ランダム戦」モードから除外しました。除外するマップを変更するには%(time)sが経過するのを待つ必要があります。「WoTプレミアムアカウント」や「WoT Plus」サブスクリプションを利用すると除外できるマップの数が増加します。"
+
+msgid "maps_black_list/select/success/premium"
+msgstr "マップ「%(mapName)s」を「ランダム戦」モードから除外しました。除外するマップを変更するには%(time)sが経過するのを待つ必要があります。「WoT Plus」サブスクリプションを利用すると除外できるマップの数が増加します。"
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "マップ「%(mapName)s」を「ランダム戦」モードから除外しました。除外するマップを変更するには%(time)sが経過するのを待つ必要があります。「WoTプレミアムアカウント」を利用すると除外できるマップの数が増加します。"
+
+msgid "maps_black_list/switch_off/body"
+msgstr "この機能は技術的理由により一時的にご利用頂けません。\nご不便をおかけして申し訳ございません。"
+
+msgid "maps_black_list/switch_off/title"
+msgstr "マップフィルターは一時的に利用不可"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "技術的な問題を解決しました。ご不便をおかけして申し訳ございませんでした。"
+
+msgid "maps_black_list/switch_on/title"
+msgstr "マップフィルターを再びご利用いただけます"
+
+msgid "maps_training/switch/title"
+msgstr "地誌学"
+
+msgid "maps_training/switch_off/body"
+msgstr "こちらのモードは現在プレイできません。"
+
+msgid "maps_training/switch_on/body"
+msgstr "モードがプレイできるようになりました。"
+
+msgid "memberRosterChangedMain"
+msgstr "%s は %s を常備軍に移動しました。"
+
+msgid "memberRosterChangedSecond"
+msgstr "%s は %s をサブに移動しました。"
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "メモリ不足です。ゲームを再起動してください。"
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "メモリ不足、テクスチャ品質を [低] に変更"
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "メモリ不足、テクスチャ品質を [中] に変更"
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "メモリ不足です。グラフィックス設定を変更致しましたので、ゲームを再起動してください。"
+
+msgid "missingEvents/button"
+msgstr "開く"
+
+msgid "missingEvents/header"
+msgstr "イベント"
+
+msgid "missingEvents/text"
+msgstr "見逃した重要なイベント: "
+
+msgid "module_apply/error_is_current"
+msgstr "モジュール%(kind)s「%(name)s」は既に搭載中です。"
+
+msgid "module_apply/error_need_gun"
+msgstr "現在の主砲では、%(kind)s「%(name)s」を車輌に搭載できません。"
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s「%(name)s」は、現在の砲塔に対応していません。砲塔を交換してください。"
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s「%(name)s」は搭載されていません。倉庫に互換性のある主砲がありません。"
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s「%(name)s」は、現在の砲塔に対応していません。砲塔を交換してください。"
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s「%(name)s」はこの車輌に適合しません。"
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "モジュール%(kind)s「%(name)s」は、消耗品「%s」と互換性がありません。"
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s「%(name)s」は不正なタイプです。"
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s「%(name)s」は不正な国籍です。"
+
+msgid "module_apply/incompatibleEqs"
+msgstr "現在のモジュールと互換性がないため、消耗品「%(items)s」は倉庫に送られました。"
+
+msgid "module_apply/invalid_vehicle"
+msgstr "不正な車輌です。モジュール%(kind)s「%(name)s」は搭載されません。"
+
+msgid "module_apply/server_error"
+msgstr "モジュール%(kind)s「%(name)s」の搭載中にサーバーエラーが発生しました。後ほど再度お試しください。"
+
+msgid "module_apply/success"
+msgstr "%(kind)s「%(name)s」を車輌に搭載しました。"
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s「%(name)s」は主砲「%(gun)s」と併せて車輌に搭載されました。"
+
+msgid "module_apply/vehicle_locked"
+msgstr "車輌がロック中です。モジュール%(kind)s「%(name)s」を搭載できません。"
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "モジュール%(kind)s「%(name)s」を搭載できません: 車輌が損傷しています。車輌を修理してからお試しください。"
+
+msgid "module_buy/error_is_current"
+msgstr "モジュール%(kind)s「%(name)s」は既に搭載中です。"
+
+msgid "module_buy/error_need_gun"
+msgstr "現在の主砲では、%(kind)s「%(name)s」を車輌に搭載できません。"
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s「%(name)s」は、現在の砲塔に対応していません。砲塔を交換してください。"
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s「%(name)s」は搭載されていません。倉庫に互換性のある主砲がありません。"
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s「%(name)s」は、現在の砲塔に適合しません。砲塔を交換してください。"
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s「%(name)s」はこの車輌に適合しません。"
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "モジュール%(kind)s「%(name)s」は、消耗品「%s」と互換性がありません。"
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s「%(name)s」は不正なタイプです。"
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s「%(name)s」は不正な国籍です。"
+
+msgid "module_buy/invalid_module"
+msgstr "%(kind)s「%(name)s」を購入できません。モジュールが不正です。"
+
+msgid "module_buy/invalid_vehicle"
+msgstr "不正な車輌です。モジュール%(kind)s「%(name)s」を購入・搭載できません。"
+
+msgid "module_buy/not_enough_credits"
+msgstr "%(kind)s「%(name)s」を購入できません。クレジットが不足しています。"
+
+msgid "module_buy/not_enough_gold"
+msgstr "%(kind)s「%(name)s」を購入できません。ゴールドが不足しています。"
+
+msgid "module_buy/server_error"
+msgstr "%(kind)s「%(name)s」を購入できません。後で再試行してください。"
+
+msgid "module_buy/server_error_centerDown"
+msgstr "%(kind)s「%(name)s」を購入できません。サーバーが一時的に利用できません。"
+
+msgid "module_buy/success"
+msgstr "モジュール%(kind)s「%(name)s」を購入しました（%(count)s個）。%(money)s消費しました。"
+
+msgid "module_buy/vehicle_locked"
+msgstr "車輌がロック中です。モジュール%(kind)s「%(name)s」を購入・搭載できません。"
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "モジュール%(kind)s「%(name)s」を購入・搭載できません。車輌を修理してから再試行してください。"
+
+msgid "module_buy/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "module_sell/invalid_module"
+msgstr "%(kind)s「%(name)s」を売却できません。モジュールが不正です。"
+
+msgid "module_sell/server_error"
+msgstr "%(kind)s「%(name)s」を売却できません。後ほど再度お試しください。"
+
+msgid "module_sell/success"
+msgstr "モジュール%(kind)s「%(name)s」（%(count)s個）。%(money)s獲得。"
+
+msgid "multipleSelling/success"
+msgstr "獲得 %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "構成変更エラー"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "構成変更エラー"
+
+msgid "nation_change/error"
+msgstr "構成変更エラー"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: 国別構成の切り替え完了"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "技術的問題に伴いデイリーミッションを更新しました。ミッションの進捗は保存されています。"
+
+msgid "notrecruit_window/success"
+msgstr "搭乗員の採用が完了しました。\n%(colorTagOpen)s%(rank)s %(fullName)s\n「%(vehicleName)s」の%(role)s%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "この作業は一時的にご利用になれません。後で再度お試しください。"
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "プレゼントの受け取り中にサーバーエラーが発生しました。"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "エラーによりプレゼントの一部の受け取りに遅延が発生しています。お手数ですが時間をおいて再度お試しください。"
+
+msgid "offers/switch_off/body"
+msgstr "銃後支援物資サービスは現在利用できません。"
+
+msgid "offers/unavailable_many"
+msgstr "利用できないスペシャル: %(count)sアイテム"
+
+msgid "offers/unavailable_one"
+msgstr "スペシャルを利用できません。"
+
+msgid "optionalDevices_apply/error"
+msgstr "拡張パーツ構成エラー。後ほど再度お試しください。"
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "拡張パーツ構成エラー。残高不足により購入できません。"
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "処理不能。ゴールドはWG Wallet機能の復旧後に利用可能になります。"
+
+msgid "optionalDevices_remove/error"
+msgstr "拡張パーツ構成エラー。後ほど再度お試しください。"
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "お使いのアカウントでは連絡先リスト上のプレイヤーとの個人メッセージはご利用いただけません。"
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "お使いのアカウントでは個人メッセージはご利用いただけません。"
+
+msgid "parentControl/linkText"
+msgstr "日付を入力"
+
+msgid "parentControl/mainText"
+msgstr "生年月日を入力してください。"
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "ペアレンタルコントロールにより禁止されているため、連絡先リスト上のプレイヤーとの個人メッセージはご利用いただけません。"
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "ペアレンタルコントロールにより禁止されているため、個人メッセージはご利用いただけません。"
+
+msgid "parentControl/title"
+msgstr "年齢確認"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "移行をご利用頂けません。サーバーを定義できません。"
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "入手した報酬:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "オペレーションへ"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "ミッション達成"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "ミッションを続行するには車輌を切り替える必要があります。"
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "オペレーション %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "達成済み: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "「%(campaignName)s」キャンペーン名誉達成"
+
+msgid "personalMission/operationComplete/title"
+msgstr "オペレーション %(operationName)s達成"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "オペレーション %(operationName)s名誉達成"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "メンテナンスのため一時的にキャンペーンに挑戦できません。"
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "キャンペーンに再び挑戦できるようになりました。ご不便をおかけして申し訳ございません。"
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "メンテナンスのため一時的に「%(campaignName)s」キャンペーンに挑戦できません。"
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "「%(campaignName)s」キャンペーンに再び挑戦できるようになりました。ご不便をおかけして申し訳ございません。"
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "メンテナンスのため一時的にオペレーション %(operationName)sのミッション「%(missionName)s」に挑戦できません。"
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "オペレーション %(operationName)sのミッション「%(missionName)s」に再び挑戦できるようになりました。ご不便をおかけして申し訳ございません。"
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "メンテナンスのため一時的に「%(campaignName)s」キャンペーンの%(operationName)s オペレーションに挑戦できません。"
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "「%(campaignName)s」キャンペーンのオペレーション %(operationName)sに再び挑戦できるようになりました。ご不便をおかけして申し訳ございません。"
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "キャンペーンの切り替え中にエラーが発生しました。後ほど再度お試しください。"
+
+msgid "personalMissions/badge"
+msgstr "バッジ %(name)s を取得しました。"
+
+msgid "personalMissions/camouflageGiven"
+msgstr "%(vehicleName)s 用の特別迷彩を取得しました。"
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "%(vehicleName)s 用の特別迷彩を次の国の全車輌でご利用になれます: %(nation)s"
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "オペレーションの進捗がすべて保存されました。キャンペーンへの挑戦はいつでも再開できます。"
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "「%(campaignName1)s」および「%(campaignName2)s」キャンペーンは一時停止中"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "一時停止していたオペレーションとミッションへの挑戦を再開しました。"
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "「%(campaignName1)s」および「%(campaignName2)s」キャンペーンが再開"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "オペレーションの進捗がすべて保存されました。キャンペーンへの挑戦はいつでも再開できます。"
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "「%(campaignName)s」キャンペーンは一時停止中"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "一時停止していたオペレーションへの挑戦を再開しました。"
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "「%(campaignName)s」キャンペーンが再開"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "「%(detailName)s」を搭載しました。"
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "オペレーション %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "このミッションをリセットできません。後で再度お試しください。"
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "アクション使用不能。ミッションは一時的に無効です。"
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "現在、このミッションをリセットできません。後で再度お試しください。"
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "現在、このミッションをリセットできません。このタイプの車輌が戦闘を終えるまでお待ちください。"
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "現在、このミッションをリセットできません。車輌グループが戦闘を終えるまでお待ちください。"
+
+msgid "personalMissions/discard/success"
+msgstr "%(quest)s ミッションをリセットしました。"
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "オーダー取得: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "オーダーが返還されました: %(count)s\n再使用することが可能です。"
+
+msgid "personalMissions/operationActivation/body"
+msgstr "各シリーズの最初のミッションへの挑戦を開始しました。"
+
+msgid "personalMissions/operationActivation/title"
+msgstr "オペレーション %(operationName)sへの挑戦を開始"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "入手した報酬: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "オペレーション %(name)s達成"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "ミッションの進捗がすべて保存されました。オペレーションへの挑戦はいつでも再開できます。"
+
+msgid "personalMissions/operationPaused/title"
+msgstr "オペレーション %(operationName)s一時停止"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "一時停止していたミッションを再開しました。"
+
+msgid "personalMissions/operationResumed/title"
+msgstr "オペレーション %(operationName)s再開"
+
+msgid "personalMissions/pause/server_error"
+msgstr "このミッションを一時停止できませんでした。後で再度お試しください。"
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "アクション使用不能。ミッションは一時的に無効です。"
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "現在、このミッションを一時停止できません。後で再度お試しください。"
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "現在、このミッションを一時停止できません。このタイプの車輌が戦闘を終えるまでお待ちください。"
+
+msgid "personalMissions/pause/success_pause"
+msgstr "%(quest)s ミッションを一時停止しました。"
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "%(quest)s ミッションの進行を再開しました。"
+
+msgid "personalMissions/pawn/server_error"
+msgstr "エラー。現時点ではオーダーをコミットできません。"
+
+msgid "personalMissions/pawn/success"
+msgstr "オーダーを %(questName)s ミッションにコミットしました: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "報酬の受け取り中にエラーが発生しました。後ほど再度お試しください。"
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "「%(detail_name)s」を搭載しました。"
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "報酬を要求不能。後で再度試しください。"
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "アクション使用不能。ミッションは一時的に無効です。"
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "報酬を要求不能。報酬をご利用いただけません。"
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "報酬を要求不能。報酬をご利用いただけません。"
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "報酬を要求不能。データが正しくありません。"
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "報酬を要求不能。後で再度試しください。"
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "アクション使用不能。ミッションは一時的に無効です。"
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "報酬を要求不能。報酬をご利用いただけません。"
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "報酬を要求不能。報酬をご利用いただけません。"
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "報酬を要求不能。データが正しくありません。"
+
+msgid "personalMissions/select/server_error"
+msgstr "ミッション選択不能: %(questNames)s。後で再度お試しください。"
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "アクション使用不能。ミッションは一時的に無効です。"
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "ミッション選択不能: %(questNames)s。時間をおいて再度お試しください。"
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "注意! ミッションを変更するには、現在アクティブなミッションで使用した全車輌がガレージに戻るまでお待ちください。"
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "ミッション選択不能: %(questNames)s。先行オペレーションを達成してください。"
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "ミッション選択不能: %(questNames)s。スロット不足です。"
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "ミッション選択不能: %(questNames)s。報酬を要求してください。"
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "ミッション選択不能: %(questNames)s。ミッションが利用不能です。"
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "ミッション選択不能: %(questNames)s。ミッションは達成済みです。"
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "ミッション選択不能: %(questNames)s"
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "ミッション選択不能: %(questNames)s。このセットのミッションを選択済みです。"
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "ミッション選択不能: %(questNames)s。データが正しくありません。"
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "ミッション選択不能: %(questNames)s。データが正しくありません。"
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "現在、このミッションを選択できません。車輌グループが戦闘から戻るまでお待ちください。"
+
+msgid "personalMissions/select/success"
+msgstr "ミッション選択完了。現在選択中のミッション: %(questNames)s"
+
+msgid "personalMissions/tankmenGain"
+msgstr "追加: 女性搭乗員"
+
+msgid "personalMissions30/select/server_error"
+msgstr "オペレーションへの挑戦を開始する際にエラーが発生しました。後ほど再度お試しください。"
+
+msgid "piggyBank/piggyBankFull"
+msgstr "クレジット庫は満杯です。開錠まで残り%(timeValue)sです。"
+
+msgid "piggybank/switch_off/body"
+msgstr "この機能は技術的理由により一時的にご利用頂けません。\nご不便をおかけして申し訳ございません。"
+
+msgid "piggybank/switch_off/title"
+msgstr "クレジット庫は一時的に利用不可"
+
+msgid "piggybank/switch_on/body"
+msgstr "技術的な問題を解決しました。ご不便をおかけして申し訳ございませんでした。"
+
+msgid "piggybank/switch_on/title"
+msgstr "クレジット庫を再び利用可能"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "こちらの機能は技術的な理由により一時的にご利用いただけません。\nご不便をおかけして申し訳ありません。"
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "サブスクリプション特典が一時停止"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "技術的な問題が解決されました。ご不便をおかけして申し訳ありません。"
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "サブスクリプション特典を利用可能"
+
+msgid "post_progression/server_error"
+msgstr "搭乗員の指導員課程の報酬は\n入手済みです。"
+
+msgid "post_progression/success"
+msgstr "日付: %(at)s\n倉庫に追加: %(book_name)s (x%(amount)s).\n指導員課程のEXPを変換しました。"
+
+msgid "post_progression/success/title"
+msgstr "取得"
+
+msgid "prebattle/hasLockedState"
+msgstr "既に戦闘待機中ですので、招待を承諾できません。戦闘前ロビーから退出するか、戦闘終了後に再試行してください。"
+
+msgid "prebattle/invites/sendInvite"
+msgstr "プレイヤーに招待を送信しました。"
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "プレイヤー %(name)s さんに招待を送信しました。"
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "エラー ARENA_CREATION_FAILURE。"
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "エラー AVATAR_CREATION_FAILURE。"
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "エラー BASEAPP_CRASH。"
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "エラー CELLAPP_CRASH。"
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "指揮官がチームから脱退しました。"
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "チームが解散しました。"
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "このモードは一時的にご利用いただけません"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "動員が解除されました。"
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "エラー PREBATTLE_CREATION_FAILURE。"
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "時間が経過しました。"
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "不明なエラー。"
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "エラー VEHICLE_CREATION_FAILURE。"
+
+msgid "prebattle/kick/type/squad"
+msgstr "小隊から除外されました。"
+
+msgid "prebattle/kick/type/unknown"
+msgstr "チームから除外されました。"
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "このモードには、少なくとも3輌の適合車輌が必要です。詳細は「オンスロート」モードについてのページでご確認ください。"
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "自動検索"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "音声チャットの変更"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "部門変更"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "モード選択"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "サブモードの変更"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "モード選択"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "設定の変更"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "チーム編集"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "オブザーバーモードの変更"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "スロットのロック"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "検索"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "チームに招待"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "準備完了を確定"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "チームの準備完了を確定"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "車輌の選択"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "チームの変更"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "検索"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "最小車輌数のチームのみが戦闘に参加可能です: %(minCount)d"
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "総 Tier が %(minTotalLevel)d - %(maxTotalLevel)d のチームのみが戦闘に参加可能です。"
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Tier %(minLevel)d - %(maxLevel)d の車輌のみが参加可能です。"
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "この車輌はこの戦闘には不適合です。"
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "チームメンバー全員がオブザーバーにはなれません。"
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "選択中の車輌はフロントライン限定です。"
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "選択した車輌は、乱戦モードのみに適合します。"
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "選択した車輌に搭載中の砲弾や消耗品が、この戦闘の条件に合致していません。"
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "車輌 Tier が不適合です。この車輌タイプの Tier 制限: %s - %s"
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "この戦闘に参加不能な車輌タイプです。参加可能タイプ: %s。"
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "選択された車輌に搭載中のコンポーネントが、この戦闘の条件に適合しません。"
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "車輌 Tier が不適合です。Tier 制限: %s - %s"
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "この国の車輌はこの戦闘には参加できません。参加可能国: %s。"
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "車輌が不適合"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "選択した車輌に搭載中の砲弾や消耗品が、この戦闘の条件に合致していません。"
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "車輌が不適合"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "この車輌はこの戦闘には不適合です。"
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "選択された車輌は準備中です。"
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "操作を行うにはまず車輌を選択する必要があります。"
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "チーム参加不能。"
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "この車輌は戦術ユニットのメンバーには使用不能です。"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "選択中の車輌は戦闘中にアンロックされます。"
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "現在のチームでは対戦相手を見つけることができませんでした。チームの再編成をご検討ください。"
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "現在の小隊では対戦相手を見つけることができませんでした。チームの再編成をご検討ください。"
+
+msgid "premium/buyingSuccess"
+msgstr "%(period)d 日間のプレミアムアカウントを購入しました。消費: %(money)s"
+
+msgid "premium/continueSuccess"
+msgstr "プレミアムアカウントを %(period)d 日間延長しました。消費: %(money)s"
+
+msgid "premium/not_enough_gold"
+msgstr "ゴールド不足のため、%(period)d 日間のプレミアムアカウントを購入できません。"
+
+msgid "premium/post_battle_premium"
+msgstr "プレミアムアカウントを購入するとEXPを %(xpDiff)d、クレジットを %(creditDiff)d 取得できます。"
+
+msgid "premium/server_error"
+msgstr "%(period)d 日間のプレミアムアカウントの購入に失敗しました。後で再試行してください。"
+
+msgid "premium/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "こちらの操作は実行できません。時間をおいて再度お試しください。"
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "アクション使用不能。現在の処理が完了するまでお待ちください。"
+
+msgid "premium_quests/switch_off/body"
+msgstr "この機能は技術的理由により一時的にご利用頂けません。\nご不便をおかけして申し訳ございません。"
+
+msgid "premium_quests/switch_off/title"
+msgstr "プレミアムミッションは一時的に利用不可"
+
+msgid "premium_quests/switch_on/body"
+msgstr "技術的な問題を解決しました。ご不便をおかけして申し訳ございませんでした。"
+
+msgid "premium_quests/switch_on/title"
+msgstr "プレミアムミッションを再びご利用いただけます"
+
+msgid "progressiveReward/error"
+msgstr "操作は現在ご利用いただけません。後で再度お試しください。"
+
+msgid "progressiveReward/switch_off"
+msgstr "支援報酬: この機能は一時的に無効化されています。ご不便をおかけして申し訳ございません。"
+
+msgid "progressiveReward/switch_on"
+msgstr "支援報酬を再び利用できます。"
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "ミッションは期限切れです。詳細説明は閲覧できません。"
+
+msgid "queue/isInQueue"
+msgstr "操作は現在ご利用いただけません。後で再度お試しください。"
+
+msgid "rally/leaveDisabled"
+msgstr "アクション使用不能。\nモードを終了できません。あなたは戦術ユニットのメンバーであり、戦闘参加準備を完了しています。"
+
+msgid "ranked/notification/available"
+msgstr "休戦終了: ランク戦を再度ご利用になれます。"
+
+msgid "ranked/notification/available/title"
+msgstr "ランク戦をプレイ可能"
+
+msgid "ranked/notification/congratulations"
+msgstr "おめでとうございます！"
+
+msgid "ranked/notification/notAvailable"
+msgstr "ランク戦が利用できません。ゲームポータルで更新情報をご確認ください。"
+
+msgid "ranked/notification/notSet"
+msgstr "選択されたサーバーでは、このモードが利用できません。"
+
+msgid "ranked/notification/notSet/title"
+msgstr "ランク戦はプレイ不可"
+
+msgid "ranked/notification/primeTime"
+msgstr "帰営時間が終了するまでランク戦をご利用いただけません。"
+
+msgid "ranked/notification/primeTime/title"
+msgstr "休戦"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "ランク戦2020-2021のシーズンで目覚ましい成績を収め、トッププレイヤーを相手に高順位を達成しました！"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "おめでとうございます！"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "ランク戦2020-2021のシーズンで目覚ましい成績を収め、トッププレイヤーを相手に%(playerPosition)s位を達成しました！"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "おめでとうございます！"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "バッジ取得:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "バッジ取得:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "クレジット取得:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "ボンズ取得:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "アニバーサリー・コインを獲得:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "ゴールド取得:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "入手できるボンズ拡張パーツ: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "スタイル取得:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "スタイル取得:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "ランクトークン取得: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Wargamingプレミアムアカウントの日数"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Wargamingプレミアムアカウントの日数 (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "WoTプレミアムアカウントの日数"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "WoTプレミアムアカウントの日数 (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "ステージ %(number)s 結果"
+
+msgid "ranked/notifications/league"
+msgstr "リーグ: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "ゴールド"
+
+msgid "ranked/notifications/league2"
+msgstr "シルバー"
+
+msgid "ranked/notifications/league3"
+msgstr "ブロンズ"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "ゴールドリーグに対するランクトークンを取得: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "最高ランク: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s、%(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "リーダーボードでの順位: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "予選を完了しました"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "シーズンのランクトークンを取得: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "ランク戦シーズン %(seasonNumber)s の結果"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "ランク %(rankName)s (%(divisionName)s) を達成しました"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "スプリンターマーク取得、報酬が向上しました。"
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "スプリンターマーク取得"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "新しい搭乗員を採用できません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "搭乗員を採用できません。サービスが一時的にご利用いただけません。"
+
+msgid "recruit_window/financial_success"
+msgstr "「%(vehName)s」の搭乗員を採用しました。消費したクレジット: %(credits)s"
+
+msgid "recruit_window/financial_success_credits"
+msgstr "「%(vehName)s」の搭乗員を採用しました。\n消費したクレジット: %(price)s"
+
+msgid "recruit_window/financial_success_gold"
+msgstr "「%(vehName)s」の搭乗員を採用しました。\n消費したゴールド: %(price)s"
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "無料搭乗員が今日の上限に達しました。"
+
+msgid "recruit_window/not_enough_credits"
+msgstr "搭乗員の採用エラー。クレジット不足です。"
+
+msgid "recruit_window/not_enough_gold"
+msgstr "搭乗員の採用エラー。ゴールド不足です。"
+
+msgid "recruit_window/not_enough_space"
+msgstr "この車輌への搭乗員の採用・移動エラー。兵舎の寝台が不足しています。寝台を空けるか兵舎を拡大してください。"
+
+msgid "recruit_window/server_error"
+msgstr "搭乗員を採用できません。時間をおいて再度お試しください。"
+
+msgid "recruit_window/success"
+msgstr "「%(vehName)s」の搭乗員を無料で採用しました。"
+
+msgid "recruit_window/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "搭乗員を転送できません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "搭乗員の変更エラー。不正な車輌です。"
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "寝台が不足しているため搭乗員を「兵舎」に送ることができません。"
+
+msgid "reequip_tankman/server_error"
+msgstr "搭乗員の変更不能。後で再試行してください。"
+
+msgid "reequip_tankman/success"
+msgstr "搭乗員の変更が完了しました。"
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "搭乗員の変更エラー。車輌がロック中です。"
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "搭乗員の変更エラー。車輌を修理してください。"
+
+msgid "remove_component"
+msgstr "車輌から%s「%s」を解除完了。"
+
+msgid "remove_vehicle_broken"
+msgstr "%s「%s」を解除できません。車輌が損傷しています。車輌を修理してから再試行してください。"
+
+msgid "remove_vehicle_locked"
+msgstr "%s「%s」を解除できません。車輌がロックされています。"
+
+msgid "repair/credits_error"
+msgstr "%s クレジット不足しています: '%s' の修理"
+
+msgid "repair/server_error"
+msgstr "%sの修理中にエラーが発生しました。後で再試行してください。"
+
+msgid "repair/success"
+msgstr "%sの修理が完了しました。消費: %s"
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "搭乗員の個人データを変更できません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "個人データ変更エラー。不正な車輌です。"
+
+msgid "replace_tankman/not_enough_money"
+msgstr "個人データ変更エラー。クレジット不足です。"
+
+msgid "replace_tankman/server_error"
+msgstr "個人データ変更失敗。後で再試行してください。"
+
+msgid "replace_tankman/success"
+msgstr "容姿の変更が完了しました。"
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "個人データ変更エラー。車輌がロック中です。"
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "個人データ変更エラー。車輌を修理してください。"
+
+msgid "request/isInCoolDown"
+msgstr "操作 \"%(request)s\" は、%(coolDown)s 秒間凍結中です。"
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "パークをリセットできません。\nサーバーがご利用いただけません。時間をおいて再度お試しください。"
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "全搭乗員の全パークを\n無料でリセットしました。"
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "リソースの消費中にエラーが発生しました。もう一度お試しください。"
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "リソースの返却中にエラーが発生しました。再度お試しください。"
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "リカバリー可能な車輌がまだあります。ショップにアクセスし、該当車輌をガレージに戻しましょう。"
+
+msgid "restore_tankman/DISABLED"
+msgstr "搭乗員のリカバリーは一時的にご利用いただけません。後で再度お試しください。"
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "搭乗員をリカバリーできません。"
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "ゴールド不足のため、搭乗員をリカバリーできません。"
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "搭乗員をリカバリーできません。操作が期限切れになりました。"
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "搭乗員をリカバリーできません。後で再度お試しください。"
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "搭乗員をリカバリーできません。搭乗員のリカバリーは一時的にご利用いただけません。"
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)sはリカバリーできません。"
+
+msgid "restore_tankman/financial_success"
+msgstr "搭乗員のリカバリーが完了しました。\n消費したクレジット: %(money)s"
+
+msgid "restore_tankman/not_enough_space"
+msgstr "搭乗員をリカバリーできません。兵舎の空き寝台が不足しています。"
+
+msgid "restore_tankman/server_error"
+msgstr "搭乗員をリカバリーできません。時間をおいて再度お試しください。"
+
+msgid "restore_tankman/success"
+msgstr "搭乗員のリカバリーが完了しました。"
+
+msgid "retraining_change_tankman_role/success"
+msgstr "搭乗員の職能が変更されました。"
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "搭乗員を再訓練できません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "retraining_crew/empty_list"
+msgstr "搭乗員の再訓練エラー。搭乗員が未選択です。"
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "消費したクレジット: %(money)s"
+
+msgid "retraining_crew/financial_success_free"
+msgstr "搭乗員の車輌適性を無料で「%(vehName)s」に変更しました。"
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "消費したゴールド: %(money)s"
+
+msgid "retraining_crew/invalid_operation"
+msgstr "搭乗員の再訓練エラー。処理をご利用いただけません。"
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "搭乗員の再訓練エラー。不正な車輌です。"
+
+msgid "retraining_crew/server_error"
+msgstr "搭乗員を再訓練できません。時間をおいて再度お試しください。"
+
+msgid "retraining_crew/success"
+msgstr "搭乗員の車輌適性を「%(vehName)s」に変更しました。"
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "搭乗員の再訓練エラー。車輌がロック中です。"
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "搭乗員の再訓練エラー。車輌を修理してください。"
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "搭乗員を再訓練できません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "消費したクレジット: %(money)s"
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "搭乗員の車輌適性を無料で「%(vehName)s」に変更しました。"
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "消費したゴールド: %(money)s"
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "搭乗員の再訓練エラー。処理がご利用いただけません。"
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "搭乗員の再訓練エラー。不正な車輌です。"
+
+msgid "retraining_tankman/server_error"
+msgstr "搭乗員を再訓練できません。\n時間をおいて再度お試しください。"
+
+msgid "retraining_tankman/success"
+msgstr "搭乗員の車輌適性を「%(vehName)s」に変更しました。"
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "搭乗員の再訓練エラー。車輌がロック中です。"
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "搭乗員の再訓練エラー。車輌を修理してください。"
+
+msgid "return_crew/FORBIDDEN"
+msgstr "搭乗員を戻せません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "return_crew/invalid_vehicle"
+msgstr "搭乗員を戻す際のエラー。不正な車輌です。"
+
+msgid "return_crew/not_enough_space"
+msgstr "搭乗員を兵舎に送れません。兵舎の寝台が不足しています。"
+
+msgid "return_crew/return_unavailable"
+msgstr "一部の搭乗員を本車輌に再配属できません。"
+
+msgid "return_crew/server_error"
+msgstr "搭乗員を戻せません。後で再試行してください。"
+
+msgid "return_crew/success"
+msgstr "搭乗員の転送完了。"
+
+msgid "return_crew/vehicle_locked"
+msgstr "搭乗員を戻す際のエラー。車輌がロック中です。"
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "搭乗員を戻す際のエラー。車輌を修理してください。"
+
+msgid "rotation/lock"
+msgstr "次のグループがロックされ、戦闘で使用できなくなりました: %(groupNum)s"
+
+msgid "rotation/unlock"
+msgstr "次のグループがアンロックされ、戦闘で使用可能になりました: %(groupNum)s"
+
+msgid "rotation/vehicleIsLocked"
+msgstr "この車輌はロック中であり、戦闘で使用不能です。"
+
+msgid "royale/notification/congratulations"
+msgstr "おめでとうございます！"
+
+msgid "royale/notification/primeTime"
+msgstr "「STEEL HUNTER」モードでの戦闘は「休戦」終了まで行うことができません。カレンダーでスケジュールをご確認ください。"
+
+msgid "royale/notification/primeTime/title"
+msgstr "休戦"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "到達レベル: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "こちらのサーバーで再び「Art of Strategy」モードをプレイできるようになりました。"
+
+msgid "rts/notification/available/title"
+msgstr "モードが再開"
+
+msgid "rts/notification/notAvailable"
+msgstr "「Art of Strategy」モードは一時停止中です。公式HPの最新ニュースをご確認ください。"
+
+msgid "rts/notification/notSet"
+msgstr "ご利用中のサーバーでは「Art of Strategy」モードをプレイすることができません。"
+
+msgid "rts/notification/notSet/title"
+msgstr "モードはプレイ不可"
+
+msgid "rts/notification/primeTime"
+msgstr "休止時間のため「Art of Strategy」モードは一時的にプレイできません。"
+
+msgid "rts/notification/primeTime/title"
+msgstr "休止時間"
+
+msgid "securityMessage/bad_email"
+msgstr "あなたは、信頼性の低いサーバーの E メールアドレスを登録しました。セキュリティ向上のため、E メールアドレスを変更してください。%(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "安全性設定の変更"
+
+msgid "securityMessage/no_phone"
+msgstr "セキュリティ確保のため、あなたのアカウントに電話番号を追加してください。%(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "パスワード・リセット用に、アカウント管理において秘密の質問を設定してください。%(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "あなたは、30 日間パスワードを変更していません。セキュリティ確保のため、パスワードを変更してください。%(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "アカウント作成時にあなたが設定したパスワードは強度不足です。パスワードを変更してください。%(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "%sを売却できません。車輌が損傷しています。車輌を修理してから再試行してください。"
+
+msgid "sell_vehicle_locked"
+msgstr "%sを売却できません。車輌がロックされています。"
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "イベント「然るべき報酬」が再開しました。ご不便をお掛けして申し訳ありません。"
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "イベント「然るべき報酬」はメンテナンスのため一時的に停止しています。"
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "報酬の受け取り中にエラーが発生しました。一時的に操作を行うことができません。"
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "報酬の受け取り中にエラーが発生しました。お手数ですがプレイヤーサポートにお問合せください。"
+
+msgid "seniority_awards/selection_timeout"
+msgstr "「然るべき報酬」の配布に遅延が発生しています。時間をおいて再度お試しください。"
+
+msgid "serverInstallError"
+msgstr "モジュール%s「%s」の搭載中にサーバーエラーが発生しました。後で再試行してください。"
+
+msgid "serverRemoveError"
+msgstr "モジュール%s「%s」の解除中にサーバーエラーが発生しました。後で再試行してください。"
+
+msgid "server_shut_down"
+msgstr "ゲームサーバーを再起動中です"
+
+msgid "session_tracker_kick"
+msgstr "お客様の Wargaming.net&nbsp;ID が別のゲームへのログインに使用されたため、現在のゲームセッションは中断されました。"
+
+msgid "shell_buy/invalid_module"
+msgstr "%(name)s 購入不能。不正な砲弾です。"
+
+msgid "shell_buy/not_enough_credits"
+msgstr "%(name)s 購入不能。クレジット不足です。"
+
+msgid "shell_buy/not_enough_gold"
+msgstr "%(name)s 購入不能。ゴールド不足です。"
+
+msgid "shell_buy/server_error"
+msgstr "%(name)s 購入不能。後で再試行してください。"
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "砲弾 %(name)s 購入不能。サーバーが一時的にご利用頂けません。"
+
+msgid "shell_buy/success"
+msgstr "砲弾 %(name)s 購入完了 (%(count)s 個)。消費: %(money)s"
+
+msgid "shell_buy/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "shell_sell/invalid_module"
+msgstr "「%(name)s」を売却できません。砲弾が不正です。"
+
+msgid "shell_sell/server_error"
+msgstr "「%(name)s」を売却できません。後ほど再度お試しください。"
+
+msgid "shell_sell/success"
+msgstr "砲弾「%(name)s」（%(count)s個）。%(money)s獲得。"
+
+msgid "shells_apply/error"
+msgstr "砲弾構成エラー。時間をおいて再度お試しください。"
+
+msgid "shells_apply/not_enough_money"
+msgstr "砲弾構成エラー。残高不足により購入できません。"
+
+msgid "shells_apply/success_money_spent"
+msgstr "砲弾の購入費の総額: %(money)s"
+
+msgid "shells_apply/wallet_not_available"
+msgstr "処理不能。ゴールドはWG Wallet機能の復旧後に利用可能になります。"
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "モジュール購入・搭載リクエスト送信完了。サーバーの応答を待っています。"
+
+msgid "shop/item/buy_server_error"
+msgstr "%(typeString)s「%(userString)s」を購入できません。後で再試行してください。"
+
+msgid "shop/item/buy_success"
+msgstr "モジュール%(typeString)s「%(userString)s」を購入しました（%(count)d）。%(price)s消費しました。"
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "オペレーションは現在ご利用いただけません。"
+
+msgid "shop/item/not_enough_money"
+msgstr "%(typeString)s「%(userString)s」を購入するには、あと%(price)s必要です。"
+
+msgid "shop/item/not_found"
+msgstr "モジュール%(typeString)s「%(userString)s」がショップにありません。後で再試行してください。"
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "オペレーションは現在ご利用いただけません。"
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "%(userString)s を購入するには %(price)s 不足しています。"
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "%(userString)s をレンタルするには %(price)s 不足しています。"
+
+msgid "shop/vehicle/not_found"
+msgstr "%(userString)s がショップにありません。後で再試行してください。"
+
+msgid "shop_resync"
+msgstr "%(date)s %(time)s ゲームサーバ更新のためインタフェースが変わりました。"
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>「{oldName}」</font> ({amount}) は <font color='#E9E2BF'>「{newName}」</font> ({amount}) に変換されました。"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "日付: %(date)s\n変換したディレクティブ: %(items)s"
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "取得"
+
+msgid "squad/createError"
+msgstr "小隊を作成できるのはプレミアムアカウントのユーザーのみです。"
+
+msgid "squad/kickedFromQueue"
+msgstr "現在の小隊では対戦相手を見つけることができませんでした。チームの再編成をご検討ください。"
+
+msgid "squad/leaveDisabled"
+msgstr "アクション使用不能。\n小隊から脱退できません。あなたは小隊メンバーであり、戦闘参加準備を完了しています。"
+
+msgid "squad/memberJoined"
+msgstr "%s が戦術ユニットに参加しました。"
+
+msgid "squad/memberLeave"
+msgstr "%s が戦術ユニットから脱退しました。"
+
+msgid "squad/memberNotReady"
+msgstr "%s は戦闘準備が整っていません。"
+
+msgid "squad/memberOffline"
+msgstr "%s との接続が切れました。"
+
+msgid "squad/memberReady"
+msgstr "%s は戦闘準備が完了しました。"
+
+msgid "squad/notSetReadyStatus"
+msgstr "この小隊で戦闘に参加できません。"
+
+msgid "squad/notValidDeleted"
+msgstr "%(vehName)sは、指揮官の車輌とTierが一致していなかったため小隊から除外されました。同じTierの車輌を選択してください。"
+
+msgid "squad/notValidDeletedFilter"
+msgstr "指揮官が必要条件を変更したため、%(vehName)s は小隊に加えられませんでした。"
+
+msgid "squad/notValidEnqueueData"
+msgstr "指揮官が要件を変更したため小隊から除外されたか、あるいは選択中の車輌が要件を満たしていないため小隊に参加できません。別の車輌を選択してください。"
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "小隊に編成できるこのタイプの車輌には上限があるため、%(vehName)sが除外されました。別の車輌を選択してください。"
+
+msgid "squad_bonus/switch_off/body"
+msgstr "この機能は技術的理由により一時的にご利用頂けません。\nご不便をおかけして申し訳ございません。"
+
+msgid "squad_bonus/switch_off/title"
+msgstr "小隊ボーナスは一時的に利用不可"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "技術的な問題を解決しました。ご不便をおかけして申し訳ございませんでした。"
+
+msgid "squad_bonus/switch_on/title"
+msgstr "小隊ボーナスを再びご利用になれます"
+
+msgid "ssr/unavailable"
+msgstr "リプレイはダウンロード不可"
+
+msgid "steam_login_not_allowed"
+msgstr "Wargaming.netアカウントがSteamアカウントとリンクされているため、こちらのアプリケーションはご利用いただけません。詳しくはプレイヤーサポートまでお問い合わせください。"
+
+msgid "tankman/tankmanToRemove"
+msgstr "搭乗員を解任しました。"
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s日"
+
+msgid "techtree/action/header"
+msgstr "スペシャル「%(actionName)s」"
+
+msgid "techtree/action/text"
+msgstr "スペシャル終了まで:"
+
+msgid "techtree/action/text/closest"
+msgstr "スペシャル終了まで: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "理由: この車輌はPrime Gamingメンバー限定です。Prime Gamingの登録状態を確認してください。"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "車輌使用不能"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "日時: %(datetime)s\n車輌追加: %(vehicles)s\n追加: ガレージスロット 1 個、%(crew)s 3D スタイル"
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "日時: %(datetime)s\n車輌追加: %(vehicles)s\n追加: ガレージスロット 1 個、%(crew)s限定迷彩"
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " 訓練度100%%搭乗員%(skills)s、"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "車輌追加"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "日時: %(datetime)s\n削除: %(vehicles)s、ガレージスロット 1 個"
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "理由: この車輌はPrime Gamingメンバー限定です。Prime Gamingの登録状態を確認してください。"
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "車輌削除"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "この車輌を再びご利用可能"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "T-44-100 Igrovoyが追加されました。%(tanks)sが削除されました。"
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "T-44-100 Igrovoyでミッションに挑戦できます。"
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " および "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)sクレジット"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "%(tanks)sの全搭乗員の車輌適性がT-44-100 Igrovoyに変更されました。"
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "拡張パーツが解除され倉庫に送られました。\nカスタマイズ要素が解除され倉庫に送られました。\n砲弾とディレクティブが倉庫に送られました。"
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "%(mergedTank)sの物資、カスタマイズ要素、戦闘EXP、通算成績、勲章がT-44-100 Igrovoyに引き継がれました。"
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)sフリーEXP"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr "、"
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "「野戦改修」に費やしたEXPの補償として%(compensation)sが追加されました。"
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "購入済みのプログレッシブ・デカールの補償として%(value)sが追加されました。"
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "%(mergedTank)sの通算成績と勲章がT-44-100 Igrovoyに引き継がれました。"
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "戦闘EXPの合計がT-44-100 Igrovoyに引き継がれました。"
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "さらなる武運を祈る！"
+
+msgid "telecomMergeResults/title"
+msgstr "料金プラン「Igrovoy」に関する変更"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "車輌選択とレンタルが停止中です。"
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "車輌レンタルは現在利用できません"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "車輌レンタルを利用できます"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "おめでとうございます！ トークンを%(count)s枚入手しました！"
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "ゴールドの送付失敗。受け取り側が取引を辞退しました。"
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "ゴールドの送付はご利用頂けません。"
+
+msgid "tradingError/NO_WARES"
+msgstr "ゴールドの送付失敗。ゴールド不足です。"
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "送付の上限に達しました。明日再試行してください。"
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "ゴールドの送付ができませんでした。後で再試行してください。"
+
+msgid "training/error/AddPlayer"
+msgstr "トレーニング・ルームのエラー。チームのプレイヤー数が上限を超過しました。"
+
+msgid "training/error/doAction"
+msgstr "トレーニングルームのエラー。後で再試行してください。"
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "トレーニング・ルームのエラー。「オンスロート」モードにおけるチームのプレイヤー数の上限: %(numPlayers)s"
+
+msgid "training/error/selectObserver"
+msgstr "トレーニング・ルームのエラー。チームのプレイヤー数の上限: %(numPlayers)s"
+
+msgid "training/error/swapTeams"
+msgstr "チーム交換エラー。後で再試行してください。"
+
+msgid "transferXP/server_error"
+msgstr "この操作は実行できません。時間をおいて再度お試しください。"
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "権限がないため操作を実行できません。"
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "アクション使用不能。あなたはクランに参加していません。"
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "エラーにより選択した車輌の「再配備」に失敗しました。"
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "「修理パーツ」が不足しているため「再配備」に失敗しました。"
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "費用に変動があったため「再配備」に失敗しました。"
+
+msgid "unit/error/wgshEvent/common"
+msgstr "エラーが発生したため操作を完了できません。"
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "選択中のモードでのプレイが一時的に禁止されているため小隊に参加できません。"
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "アクション使用不能。アカウントは復旧しました。"
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "このプレイヤーはチームに参加できません。"
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "アクション使用不能。スロットは既に塞がっています。"
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "プレイヤーは既にチームに参加済みです。"
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "指揮官権限を移譲できません。"
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "アクション使用不能。無効なアカウントタイプです。"
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "アクション使用不能。無効なクランです。"
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "チームに参加できません。"
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "車輌の総 Tier が上限を超過しています。"
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "アクション使用不能。分遣隊メンバーの一覧が無効です。"
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "無効なスロット番号"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "アクション使用不能。小隊に不正な車輌タイプが含まれています。"
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "チーム参加エラー。車輌 Tier が不正です。"
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "指定の時間には、部門の変更はできません。"
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "チームが見つかりません。"
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "招待を送信できません。"
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "「測定ラウンド」では小隊を編成して出撃することができません。"
+
+msgid "unit/errors/COOLDOWN"
+msgstr "この操作は一時的にご利用頂けません。"
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "チームでの前回の処理を完了できませんでした。"
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "車輌の戦闘準備が整っていないか、ガレージに車輌がありません。"
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "スロットに車輌を設定できません。"
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "アクション使用不能。分遣隊メンバーの一部がまだ戦闘中です。"
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "この処理を行なう権限がありません。"
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "アカウントがロック中です。"
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "チームは戦闘待機中か、検索結果にあります。"
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "チームに参加できません。アクセスが拒否されました。"
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "チームは戦闘待機中ではありません。"
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "チームは検索結果にありません。"
+
+msgid "unit/errors/NOT_READY"
+msgstr "チームの準備が整っていません。"
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "選択中のモードと互換性のある車輌を1輌も所有していないため小隊に参加できません。"
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "このプレイヤーをチームメンバーとして追加できません。"
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "アクション使用不能。プレイヤーが見つかりません。"
+
+msgid "unit/errors/NO_UNIT"
+msgstr "チームが見つかりません。"
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "チームが存在しません。"
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "アクション使用不能。車輌リスト表示エラー。"
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "アクション使用不能。プレイヤーはオフラインです。"
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "あなたは指揮官のブラックリストに登録されています。"
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "アクション使用不能。前回の戦闘がまだ終了していません。"
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "このプレイヤーをチームから除外できませんでした。"
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "アクション使用不能。1 名以上のプレイヤーが招待を未承認です。"
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "傭兵にはアクション使用不能。"
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "アクション使用不能。スロットはロックされませんでした。"
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "アクション使用不能。スロットは既に塞がっています。"
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "このスロットにはアクション使用不能。"
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "指定の時間には、前衛戦はご利用頂けません。"
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "別のゲームモードに切り替えることができません。小隊メンバー数が上限を超過しています。"
+
+msgid "unit/errors/TIMEOUT"
+msgstr "アクション使用不能。時間切れです。"
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "アクション使用不能。スロットが上限までロック中です。"
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "アクション使用不能。傭兵が上限に達しています。"
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "チームの作成またはチームへの参加ができませんでした。"
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "チームを作成できませんでした。"
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "アクション使用不能。分遣隊は復旧しました。"
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "アクション使用不能。車輌が要件を満たしていません。"
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "アクション使用不能。まずは車輌を選択してください。"
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "チームが存在しません。"
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "アクション使用不能。車輌が準備未完了か、要件を満たしていません。"
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "あなたに戦闘リザーブの発動権限が付与されました。"
+
+msgid "unit/notification/changeDivision"
+msgstr "指揮官 %(name)s さんが %(division)s 部門を選択しました。"
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "無制限"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "チャンプ"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "ミディアム"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s さんがチームの指揮官に任命されました。"
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s が参加しました。"
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)sさんがTier %(tierRange)s車輌で小隊に参加しました。"
+
+msgid "unit/notification/playerOffline"
+msgstr "%(userName)s との接続が失われました。"
+
+msgid "unit/notification/playerOnline"
+msgstr "%(userName)s との接続が復旧しました。"
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s が脱退しました。"
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "招待は既に送信済みです。"
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "指揮官権限を他のプレイヤーに移行しました。"
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "指揮官権限と戦闘リザーブの発動権限が他のプレイヤーに移譲されました。"
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "戦闘リザーブの発動権限が他のプレイヤーに移されました。"
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "解散により除外されました。"
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "クランの変更により除外されました。"
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "プレイ時間の制限により新たな戦闘に参加できません。%(expiredTime)sになると自動的にサーバーから切断されます。"
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "小隊メンバーのプレイ時間が制限されているため新たな戦闘に参加できません。小隊のステータスが準備中に変更されました。"
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "傭兵の編成は停止中です。"
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "アクション使用不能。待ち時間超過です。"
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "チーム参加エラー。あなたはチームから除外されています。"
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "志願兵の一覧から自動的に除外されました。"
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "指揮官により除外されました。"
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "解散により除外されました。"
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "分遣隊指揮官になりました。"
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "分遣隊指揮官になりました。\n戦闘リザーブの発動権限が与えられました。"
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "進撃戦のために別の橋頭堡が選択されました。"
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "別の戦闘タイプが選択されました。"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "サーバー上に存在する小隊の数が多すぎるため、一時的に検索を行うことができません。"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "サーバーエラーによりプレイヤーの検索を行うことができません。時間をおいて再度お試しください。"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "選択中のモードで使用できる車輌を所有していないメンバーがいるため、検索がキャンセルされました。"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "検索時間終了。適合プレイヤーは見つかりませんでした。"
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "プレイヤーの参加が進行中です。お待ちください。"
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "「%(vehicleName)s」の「再配備」が完了しました。"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "チーム参加準備完了を確認できませんでした。"
+
+msgid "unload/button"
+msgstr "兵舎に移動"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "搭乗員を兵舎に送れません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "全搭乗員の兵舎への移動エラー。不正な車輌です。"
+
+msgid "unload_crew/server_error"
+msgstr "搭乗員の兵舎への移動エラー。"
+
+msgid "unload_crew/success"
+msgstr "搭乗員を「兵舎」に送りました。"
+
+msgid "unload_crew/vehicle_locked"
+msgstr "搭乗員の兵舎への移動エラー。車輌がロック中です。"
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "搭乗員の兵舎への移動エラー。車輌を修理してください。"
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "搭乗員を兵舎に送れません: この車輌には固有の恒久搭乗員がいます。"
+
+msgid "unload_tankman/button"
+msgstr "兵舎に移動"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "搭乗員の兵舎への移動エラー。不正な車輌です。"
+
+msgid "unload_tankman/not_enough_space"
+msgstr "寝台が不足しているため搭乗員を「兵舎」に送ることができません。"
+
+msgid "unload_tankman/server_error"
+msgstr "搭乗員を「兵舎」に送ることができません。時間をおいて再度お試しください。"
+
+msgid "unload_tankman/success"
+msgstr "搭乗員を「兵舎」に送りました。"
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "搭乗員の兵舎への移動エラー。車輌がロック中です。"
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "搭乗員の兵舎への移動エラー。車輌を修理してください。"
+
+msgid "unlocks/drawFailed"
+msgstr "設定が間違っています。技術ツリーがロックされました。"
+
+msgid "unlocks/item/already_unlocked"
+msgstr "モジュール%(typeString)s「%(userString)s」の研究が完了しました。"
+
+msgid "unlocks/item/in_processing"
+msgstr "研究リクエスト送信完了。サーバーの応答を待っています。"
+
+msgid "unlocks/item/server_error"
+msgstr "モジュール%(typeString)s「%(userString)s」の研究中にサーバーエラーが発生しました。後で再試行してください。"
+
+msgid "unlocks/item/unlock_success"
+msgstr "モジュール%(typeString)s「%(userString)s」の研究が完了しました。消費EXP: %(vehXP)s。消費フリーEXP: %(freeXP)s。"
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "%(userString)s 研究完了。"
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "研究リクエスト送信完了。サーバーの応答を待っています。"
+
+msgid "unlocks/vehicle/server_error"
+msgstr "%(userString)s 研究エラー。後で再試行してください。"
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "%(userString)s 研究完了。EXP: %(vehXP)s、フリーEXP: %(freeXP)s"
+
+msgid "upgradeTankman/server_error"
+msgstr "搭乗員の訓練エラー。後で再試行してください。"
+
+msgid "upgradeTankman/success"
+msgstr "訓練完了。"
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "技術的な問題により、報酬拡張パーツのアップグレードは一時的に利用できません。後ほど再度お試しください。"
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "報酬拡張パーツのアップグレードが再度利用できるようになりました。ご不便をおかけして申し訳ありませんでした。"
+
+msgid "vehicle/restore/finished"
+msgstr "制限期間が過ぎたため、%(vehicleName)s はリカバリー不能です。"
+
+msgid "vehicle/restoreDuration/days"
+msgstr "この車輌はショップにおいてあと %(time)s 日はリカバリー可能です。"
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "この車輌はショップにおいてあと %(time)s 時間はリカバリー可能です。"
+
+msgid "vehicleCompare/disabled"
+msgstr "この作業は一時的にご利用になれません。後で再度お試しください。"
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "%(vehicle)s プレビューは、フル版のダウンロード後にご利用可能になります。"
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "拡張パーツ搭載リクエスト送信完了。サーバーの応答を待っています。"
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "%(typeString)s「%(userString)s」を購入できません。後で再試行してください。"
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "モジュール%(typeString)s「%(userString)s」を購入しました（%(count)d）。%(price)s消費しました。"
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "モジュール%(typeString)s「%(userString)s」は既に倉庫にあります。"
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "モジュール%(typeString)s「%(userString)s」の研究が完了しました。"
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "%(typeString)s「%(userString)s」を購入するには、あと%(price)s必要です。"
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "モジュール%(typeString)s「%(userString)s」は倉庫内にありません。"
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "モジュール%(typeString)s「%(userString)s」がショップにありません。後で再試行してください。"
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "%(typeString)s「%(userString)s」の研究が完了しました。消費EXP: %(unspentXP)s。消費フリーEXP: %(freeXP)s。"
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "研究リクエスト送信完了。サーバーの応答を待っています。"
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "%(userString)s は既に倉庫内にあります。"
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "%(userString)s 研究完了。"
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "%(userString)s を購入するには %(price)s 不足しています。"
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "%(userString)s が倉庫内にありません。"
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "%(userString)s がショップにありません。後で再試行してください。"
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "%(userString)s 研究完了。EXP消費: %(unspentXP)s フリーEXP消費: %(freeXP)s"
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "%(vehicle)sの「エリート報酬システム」がアンロックされました"
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "エリート報酬"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "%(vehicle)s用の改修案「%(modification)s」の購入が完了しました。"
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "改修案の購入が完了"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "%(vehicle)sの第2スロットに「%(category)s」カテゴリーを割り当てました。"
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "カテゴリーの割り当てが完了"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "クレジット消費: %(value)s"
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "%(vehicle)sの二元的改修案をすべて破棄しました。"
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "%(vehicle)sの改修案「%(modification)s」を破棄しました。"
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "改修案の破棄が完了"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "%(vehicle)sの改修案「%(modifications)s」を破棄しました。"
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr "、"
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "戦闘EXP消費: %(value)s"
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "フリーEXP消費: %(value)s"
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "改修ツリーにエラーが発生しました。時間をおいて再度お試しください。"
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "エラー"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "%(vehicle)s用の基礎的改修案レベル%(level)sの研究と購入が完了しました。"
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "%(vehicle)s用の基礎的改修案レベル%(levels)sの研究と購入が完了しました。"
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr "、"
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "改修案の研究完了"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "%(vehicle)sの第2スロットに「%(category)s」カテゴリーが割り当てられました。"
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "カテゴリーの割り当て完了"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "%(vehicle)sの「補助物資」オプションがアンロックされました。"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "補助物資"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "%(vehicle)sの拡張パーツの第2スロットにカテゴリーを割り当てられるようになりました。"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "第2スロットのカテゴリー"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "%(vehicle)sの「必須物資」オプションがアンロックされました。"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "必須物資"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "%(vehicle)sの「改修ツリー」がアンロックされました。"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "野戦改修"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "「改修ツリー」がアンロックされています。条件を満たす車輌に「タイプ」や「ロール」に応じた改修を施すことで性能を調整できます。"
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "アップグレードエラー。時間をおいて再度お試しください。"
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "エラー"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "「%(vehicle)s」の改造ノード「%(perk)s」を研究しました。"
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "改造ノードの研究を完了"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "「%(vehicle)s」の改造ノード「%(perk)s」を研究しました。"
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "改造ノードの研究を完了"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "この操作は実行できません。時間をおいて再度お試しください。"
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "%(vehName)sを購入できません。不正な車輌です。"
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "%(vehName)sを購入できません。クレジットが不足しています。"
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "%(vehName)sを購入できません。ゴールドが不足しています。"
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "操作が利用できません。この国家の車輌は研究されていません。"
+
+msgid "vehicle_buy/server_error"
+msgstr "サーバーエラーにより%(vehName)sを購入できません。後で再試行してください。"
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "%(vehName)sを購入できません。サーバーが一時的に利用できません。"
+
+msgid "vehicle_buy/success"
+msgstr "%(vehName)sを購入しました。%(price)s消費しました。"
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "%(vehName)sを取り除けません。後ほど再試行してください。"
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "%(vehName)sを取り除けません。車輌が不正です。"
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "%(vehName)sを取り除けません。クレジットが不足しています。"
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "%(vehName)sを取り除けません。ゴールドが不足しています。"
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "%(vehName)sを取り除けません。兵舎の寝台が不足しています。"
+
+msgid "vehicle_remove/server_error"
+msgstr "%(vehName)sを売却できません。車輌が戦術ユニットに参加していないことを確認の上、後で再試行してください。"
+
+msgid "vehicle_remove/success/default"
+msgstr "「%(vehName)s」の削除が完了しました。\n%(money)s"
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "「%(vehName)s」の削除が完了しました。"
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "「%(vehName)s」の削除が完了しました。\n%(gainMoney)s\n%(spendMoney)s"
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "%(vehName)sを取り除けません。この車輌は、自動的に取り除かれます。"
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "%(vehName)sを取り除けません。車輌がブロックされています。"
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "%(vehName)sを取り除けません。車輌の修理が必要です。"
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "%(vehName)sを取り除けません。車輌数が今日の上限に達しました。"
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "vehicle_rent/buyOption"
+msgstr "注意! この車輌は割引で購入できるようになりますので、ぜひ後で購入をご検討ください。"
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "%(vehName)sをレンタルできません。車輌が不正です。"
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "%(vehName)sをレンタルできません。クレジットが不足しています。"
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "%(vehName)sをレンタルできません。ゴールドが不足しています。"
+
+msgid "vehicle_rent/server_error"
+msgstr "サーバーエラーにより%(vehName)sをレンタルできません。後で再試行してください。"
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "%(vehName)sをレンタルできません。車輌レンタルは一時的に利用できません。"
+
+msgid "vehicle_rent/success"
+msgstr "%(vehName)s %(rentPackageName)sをレンタルしました。%(price)s消費しました。%(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "(%(days)d 日間)"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "vehicle_repair/credits_error"
+msgstr "%(vehName)sを修理するには%(needed)s必要です。"
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "%(vehName)sを修理するには%(needed)s必要です。"
+
+msgid "vehicle_repair/server_error"
+msgstr "%(vehName)sの修理中にエラーが発生しました。後で再試行してください。"
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)sの修理が完了しました。消費: %(money)s"
+
+msgid "vehicle_restore/DISABLED"
+msgstr "車輌のリカバリーは一時的にご利用いただけません。後で再度お試しください。"
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "%(vehName)sをリカバリーできません。車輌のリカバリーは一時的に利用できません。"
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "%(vehName)sをリカバリーできません。車輌が不正です。"
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "%(vehName)sをリカバリーできません。クレジットが不足しています。"
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "%(vehName)sをリカバリーできません。ゴールドが不足しています。"
+
+msgid "vehicle_restore/server_error"
+msgstr "サーバーエラーにより%(vehName)sをリカバリーできません。後で再試行してください。"
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "%(vehName)sをリカバリーできません。車輌のリカバリーは一時的に利用できません。"
+
+msgid "vehicle_restore/success"
+msgstr "%(vehName)sのリカバリーが完了しました。%(price)s消費しました。"
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "使用した解除キット: %(countDK)s"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "%(vehName)sを売却できません。後ほど再試行してください。"
+
+msgid "vehicle_sell/disabledService"
+msgstr "%(vehName)sを売却できません。後ほど再試行してください。"
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "拡張パーツの解除に必要なコンポーネントが不足しているため%(vehName)sを売却できません。"
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "%(vehName)sを売却できません。車輌が不正です。"
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "%(vehName)sを売却できません。クレジットが不足しています。"
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "%(vehName)sを売却できません。ゴールドが不足しています。"
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "%(vehName)sを売却できません。兵舎の寝台が不足しています。"
+
+msgid "vehicle_sell/server_error"
+msgstr "%(vehName)sを売却できません。車輌が戦術ユニットに参加していないことを確認の上、後で再試行してください。"
+
+msgid "vehicle_sell/success"
+msgstr "「%(vehName)s」の売却が完了しました。\n%(money)s\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "「%(vehName)s」の売却が完了しました。\n%(gainMoney)s\n%(spendMoney)s\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "%(vehName)sを売却できません。この車輌は自動的に取り除かれます。"
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "%(vehName)sを売却できません。車輌がロックされています。"
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "%(vehName)sを売却できません。車輌を修理してください。"
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "%(vehName)sを売却できません。車輌数が今日の上限に達しました。"
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "クレジットが不足しているためガレージスロットを購入できません。"
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "スロット購入エラー。ゴールド不足です。"
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "スロット購入エラー。後で再試行してください。"
+
+msgid "vehicle_slot_buy/success"
+msgstr "ガレージの追加スロット購入完了。消費: %(money)s"
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "%(vehName)s搭乗員訓練の促進の設定変更中にエラーが発生しました。車輌が不正です。"
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "「%(vehName)s」の搭乗員訓練に関する設定を変更できません。時間をおいて再度お試しください。"
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "「%(vehName)s」は「搭乗員訓練の促進」機能がオフになっています。"
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "「%(vehName)s」は「搭乗員訓練の促進」機能がオンになっています。"
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "%(vehName)s搭乗員訓練の促進の設定変更中にエラーが発生しました。車輌がロックされています。"
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "%(vehName)s搭乗員訓練の促進の設定変更中にエラーが発生しました。車輌を修理してください。"
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "%(vehName)s のための下取りができませんでした。不正な車輌が選択されました。"
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "%(vehName)sのための下取りができません。クレジットが不足しています。"
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "%(vehName)sのための下取りができません。ゴールドが不足しています。"
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "%(tradeOffVehName)sを下取りに出せません。兵舎の寝台が不足しています。"
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "車輌下取り開催中！"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "車輌下取りは終了済み！"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "%(vehName)s のための下取りができませんでした。サーバーエラー。後で再度お試しください。"
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "%(vehName)s のための下取りができませんでした。購入/下取りサービスが一時的にご利用いただけません。"
+
+msgid "vehicle_trade_in/success"
+msgstr "%(tradeOffVehName)sは取り除かれました。%(vehName)sを%(price)sで購入しました。"
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "%(tradeOffVehName)s を下取りできませんでした。この車輌は自動的に削除されます。"
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "%(vehName)s のための下取りができませんでした。この車輌を下取りによって入手することはできません。"
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "%(tradeOffVehName)sを下取りに出せません。この車輌は下取りの対象外です。"
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "%(tradeOffVehName)sを下取りに出せません。車輌が利用できません。"
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "%(tradeOffVehName)sを下取りに出せません。車輌を修理してください。"
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "%(tradeOffVehName)sを下取りに出せません。車輌が倉庫にありません。"
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "処理不能。あなたの全ゴールドは、WG Wallet 機能の復旧後に自動的に利用可能になります。"
+
+msgid "video/error"
+msgstr "動画再生エラー。エラーコード: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "ミニマップの戦闘エリアは一時的に利用できません。"
+
+msgid "w2gt/switchOff/header"
+msgstr "技術的な問題"
+
+msgid "w2gt/switchOn/description"
+msgstr "ミニマップの戦闘エリアを利用できるようになりました。"
+
+msgid "w2gt/switchOn/header"
+msgstr "機能復旧"
+
+msgid "wallet/available"
+msgstr "WG Wallet 同期完了。全てのゴールド、ボンズ、クレジット、フリーEXPをご利用になれます。"
+
+msgid "wallet/available_freexp"
+msgstr "WG Wallet の同期完了。全てのフリーEXPがご利用になれます。"
+
+msgid "wallet/available_gold"
+msgstr "WG Wallet の同期完了。全てのゴールドがご利用になれます。"
+
+msgid "wallet/not_available"
+msgstr "口座データ取得中。全てのゴールド、ボンズ、クレジット、フリーEXPを間もなくご利用可能になります。"
+
+msgid "wallet/not_available_freexp"
+msgstr "口座データ取得中。全てのフリーEXPが間もなくご利用可能になります。"
+
+msgid "wallet/not_available_gold"
+msgstr "口座データ取得中。全てのゴールドが間もなくご利用可能になります。"
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "操作がブロックされているため、ウィークリーミッションを変更できません。"
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "無効なミッションのため、ウィークリーミッションを変更できません。"
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "ウィークリーミッションは達成済みのため、変更できません。"
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "操作が停止中のため、ウィークリーミッションを変更できません。"
+
+msgid "weekly_quests/reroll/success"
+msgstr "ウィークリーミッションを変更しました。"
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "ウィークリーミッションを変更できません。後ほど再度お試しください。"
+
+msgid "weekly_quests/switch_off/body"
+msgstr "一時的にウィークリーミッションをご利用いただけません。ご不便をおかけして申し訳ございません。"
+
+msgid "weekly_quests/switch_on/body"
+msgstr "ウィークリーミッションを再び利用できるようになりました。ご不便をおかけして申し訳ございません。"
+
+msgid "winback/turnOffBattlesError"
+msgstr "「ウォームアップ」モードを終了できません。時間をおいて再度お試しください。"
+
+msgid "window/buttons/close"
+msgstr "閉じる"
+
+msgid "wrong_slot"
+msgstr "%s「%s」はスロット%sに適合しません。"

@@ -1,0 +1,116 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "card/about_vehicle"
+msgstr "車輌の詳細"
+
+msgid "card/unknown"
+msgstr "不明な車輌"
+
+msgid "defaultName"
+msgstr "新しいプレイリスト{{count}}"
+
+msgid "dialogs/delete/button/cancel"
+msgstr "キャンセル"
+
+msgid "dialogs/delete/button/submit"
+msgstr "削除"
+
+msgid "dialogs/delete/title"
+msgstr "プレイリスト「{{playlistTitle}}」を削除しますか?"
+
+msgid "dialogs/import/button/submit"
+msgstr "インポート"
+
+msgid "dialogs/import/input/alert"
+msgstr "コードが正しくありません"
+
+msgid "dialogs/import/input/message"
+msgstr "プレイリストのコード"
+
+msgid "dialogs/import/title"
+msgstr "プレイリストをインポート"
+
+msgid "dialogs/save/button/cancel"
+msgstr "終了"
+
+msgid "dialogs/save/button/submit"
+msgstr "保存して終了"
+
+msgid "dialogs/save/title"
+msgstr "終了する前にプレイリストを保存しますか?"
+
+msgid "editScreen/button/exit"
+msgstr "終了"
+
+msgid "editScreen/button/save"
+msgstr "プレイリストを保存"
+
+msgid "editScreen/create/body"
+msgstr "車輌パネルの横の「+」を押す、またはこのエリアまで車輌をドラッグして車輌を追加"
+
+msgid "editScreen/create/title"
+msgstr "車輌を追加"
+
+msgid "editScreen/input/placeholder"
+msgstr "プレイリスト名を入力"
+
+msgid "edit_button/body"
+msgstr "プレイリストの編集や削除を行える編集モードを開く"
+
+msgid "edit_button/title"
+msgstr "編集モード"
+
+msgid "empty_state/empty_list/body"
+msgstr "編集モードでプレイリストに車輌を追加できます。"
+
+msgid "empty_state/empty_list/title"
+msgstr "空のプレイリスト"
+
+msgid "empty_state/not_found/body"
+msgstr "フィルター設定を調整して再度お試しください。"
+
+msgid "empty_state/not_found/title"
+msgstr "車輌が見つかりません"
+
+msgid "imports/trigger"
+msgstr "プレイリストをインポート"
+
+msgid "list/create"
+msgstr "プレイリストを作成"
+
+msgid "list/remove"
+msgstr "プレイリストを削除"
+
+msgid "managaeble_playlists/buttons/cancel/title"
+msgstr "キャンセル"
+
+msgid "managaeble_playlists/buttons/create/tooltipBody"
+msgstr "プレイリストを作成"
+
+msgid "managaeble_playlists/buttons/manage/tooltipBody"
+msgstr "プレイリスト"
+
+msgid "managaeble_playlists/buttons/save/title"
+msgstr "保存"
+
+msgid "managaeble_playlists/header/title"
+msgstr "プレイリストを選択"
+
+msgid "share/copy_button/body"
+msgstr "プレイリストのコードを使う、またはプレイリストをインポート"
+
+msgid "share/copy_button/title"
+msgstr "プレイリストのコードをコピー"
+
+msgid "trigger/explain"
+msgstr "ドロップダウンメニューを使用して、プレイリストを表示および切り替えることができます。"
+
+msgid "unnamedTemplate"
+msgstr "無名のプレイリスト{{count}}"
+
+msgid "validation/unavailable/body"
+msgstr "このプレイリストには、ガレージに所有していない車輌が含まれています。\n編集モードでこのプレイリスト内のすべての車輌を確認できます。"
+
+msgid "validation/unavailable/title"
+msgstr "車輌がありません ({{display}}/{{total}})"

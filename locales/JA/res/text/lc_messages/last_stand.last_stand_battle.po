@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "「エナジーブラスト」を使用可能"
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "「ヴァンプショット」を使用可能"
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "「スタンショット」を使用可能"
+
+msgid "LS_damageShieldReady"
+msgstr "「エナジーシールド」を使用可能"
+
+msgid "LS_doubleDamageReady"
+msgstr "「ダブルダメージ」を使用可能"
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "「フォーチュンダメージ」を使用可能"
+
+msgid "LS_fastReloadReady"
+msgstr "「ファストリロード」を使用可能"
+
+msgid "LS_healSituationalReady"
+msgstr "「フォーチュンリペア」を使用可能"
+
+msgid "LS_invisibilityReady"
+msgstr "「シャドウヒール」を使用可能"
+
+msgid "LS_nitroReady"
+msgstr "「スーパーチャージャー」を使用可能"
+
+msgid "LS_pickupSouls"
+msgstr "自車輌が%(souls)s個のミリウムを回収"
+
+msgid "LS_selfRepairReady"
+msgstr "「アージェントリペア」を使用可能"
+
+msgid "LS_situationalNitroReady"
+msgstr "「フォーチュンモビリティー」を使用可能"
+
+msgid "LS_teamRepairKitReady"
+msgstr "「ゾーンリペア」を使用可能"
+
+msgid "LS_teamRepairKitUsed"
+msgstr "味方 %(player)s が「ゾーンリペア」を発動"
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "自車輌が「ゾーンリペア」を発動"
+
+msgid "arena/marker/attention_to_camp"
+msgstr "ゾーン%(gridId)sに注意せよ！"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "《ATLAS》を防衛せよ！"
+
+msgid "arena/marker/defend_magnus"
+msgstr "《ATLAS》を防衛"
+
+msgid "arena/marker/move_to_camp"
+msgstr "ゾーンへ移動する！"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "《ATLAS》を防衛する"
+
+msgid "arena/phase"
+msgstr "フェーズ %(current)s / %(total)s"
+
+msgid "arena/wave"
+msgstr "ウェーブ %(current)s / %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "「Hedgehog」が接近中！&nbsp;"
+
+msgid "battleHint/bomber_alpha"
+msgstr "「Alpha Hedgehog」が接近中！&nbsp;"
+
+msgid "battleHint/clearTheArea"
+msgstr "エリアを一掃せよ!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "急げ!&nbsp;「Zero」が《ATLAS》に接近中!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "「Zero」を撃破!\n敵車輌残り{num}輌"
+
+msgid "battleHint/destroyEnemies"
+msgstr "敵車輌残り{num}輌"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "データ取得 + %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "車輌HPが回復"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "シールドが付与"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "敵をスタン"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "「%(name)s Obelisk」を破壊!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Regen"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Barrier"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Glitch"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "出現地点を検知! 敵の襲来に備えよ!"
+
+msgid "battleHint/hunter"
+msgstr "「Hunter」が接近中！&nbsp;"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "ウェーブ撃破！"
+
+msgid "battleHint/leftToDestroy"
+msgstr "残り敵車輌:"
+
+msgid "battleHint/missing_squad"
+msgstr "小隊《Lost》の車輌が接近中！"
+
+msgid "battleHint/newWave"
+msgstr "ウェーブ{current} / {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "「Obelisk」出現!"
+
+msgid "battleHint/stopConvoy"
+msgstr "「Zero」を食い止めろ！"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "《ATLAS》に到達される前に\n「Zero」を食い止めろ!"
+
+msgid "battleHint/trapper"
+msgstr "「Trapper」を撃破して破壊ゾーンの出現を停止させよ&nbsp;"
+
+msgid "battleHint/turret"
+msgstr "「Mosquito」が活動を開始！"
+
+msgid "battleHint/waveFinished"
+msgstr "ウェーブ撃破！\n次のウェーブに備えよ！"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "次のウェーブに備えよ！"
+
+msgid "battleHint/waveReinforcements"
+msgstr "敵の増援部隊が到着！&nbsp;"
+
+msgid "common/close"
+msgstr "閉じる"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "持続時間: %(time)s秒"
+
+msgid "damageLog/personal_death_zone"
+msgstr "ゾーンによるダメージ"
+
+msgid "damageLog/static_death_zone"
+msgstr "ゾーンによるダメージ"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "パイロキネシスで火災を誘発"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "エナジーストライクによるダメージ"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "爆発によるダメージ"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "ヴァンパイアによるダメージ"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "「フォーチュンダメージ」発動"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "「フォーチュンリペア」発動"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "エナジーブラストによるダメージ"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "ヴァンプショットによるダメージ"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "スタンショットによるダメージ"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "モジュール保護材"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "「フォーチュンモビリティー」発動"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "瞬間回復装置"
+
+msgid "efficiencyRibbons/repair"
+msgstr "車輌HPが回復"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "味方により車輌HPが回復: "
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "味方により車輌HPが回復"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "味方の車輌HPを回復"
+
+msgid "eventStats/activeWave"
+msgstr "ウェーブ%(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "難易度「%(difficulty)s」"
+
+msgid "eventStats/eventName"
+msgstr "〈ラスト・スタンド〉テラ・ノール"
+
+msgid "eventStats/globalTask"
+msgstr "【作戦目標】すべての敵のウェーブを撃破せよ"
+
+msgid "eventStats/mission"
+msgstr "すべての敵のウェーブを撃破せよ!"
+
+msgid "eventStats/tableCaption"
+msgstr "小隊メンバー"
+
+msgid "help/description_0"
+msgstr "勝利するには敵のウェーブをすべて撃破する必要があります。\nウェーブを撃破すればするほど敵は強くなっていきます。"
+
+msgid "help/description_1"
+msgstr "タクティカル・デバイスは適切に組み合わせることでより強力になります。\n「ラスト・スタンド」モードでは全弾種およびディレクティブを無料で使用できます。"
+
+msgid "help/description_2"
+msgstr "「Obelisk」にダメージを与えると、ダメージの一部が敵車輌に連鎖します。また、「Obelisk」を破壊するとランダムなボーナスを獲得できます。"
+
+msgid "help/description_3"
+msgstr "最後の《エコー車輌》である「Zero」から《ATLAS》を何としても防衛しなくてはなりません。「Zero」が《ATLAS》に到達すると、施設は破壊され戦闘に敗北します。"
+
+msgid "help/title"
+msgstr "〈ラスト・スタンド〉テラ・ノール"
+
+msgid "help/title_0"
+msgstr "敵車輌のウェーブ"
+
+msgid "help/title_1"
+msgstr "生存のヒント"
+
+msgid "help/title_2"
+msgstr "戦闘で「Obelisk」を活用"
+
+msgid "help/title_3"
+msgstr "《ATLAS》を防衛"
+
+msgid "helpScreen/hint/description"
+msgstr "でモードの詳細を確認"
+
+msgid "helpScreen/hint/press"
+msgstr "ショートカット:"
+
+msgid "hitMarker/useless"
+msgstr "効果なし!"
+
+msgid "loading/description_0"
+msgstr "勝利するには敵のウェーブをすべて撃破する必要があります。\nウェーブを撃破すればするほど敵は強くなっていきます。"
+
+msgid "loading/description_1"
+msgstr "タクティカル・デバイスは適切に組み合わせることでより強力になります。\n「ラスト・スタンド」モードでは全弾種およびディレクティブを無料で使用できます。"
+
+msgid "loading/description_2"
+msgstr "「Obelisk」にダメージを与えると、ダメージの一部が敵車輌に連鎖します。また、「Obelisk」を破壊するとランダムなボーナスを獲得できます。"
+
+msgid "loading/description_3"
+msgstr "最後の《エコー車輌》である「Zero」から《ATLAS》を何としても防衛しなくてはなりません。「Zero」が《ATLAS》に到達すると、施設は破壊され戦闘に敗北します。"
+
+msgid "loading/title"
+msgstr "読み込み中..."
+
+msgid "loading/title_0"
+msgstr "敵車輌のウェーブ"
+
+msgid "loading/title_1"
+msgstr "生存のヒント"
+
+msgid "loading/title_2"
+msgstr "戦闘で「Obelisk」を活用"
+
+msgid "loading/title_3"
+msgstr "《ATLAS》を防衛"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "エンジンが損傷しているため「%(name)s」は使用不可"
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "主砲が損傷しているため「%(name)s」は使用不可"
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "主砲が装填済みのため使用不可"
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "ミリウムが不足しているため「%(name)s」は使用不可"
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "回復や修理は不要"
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "車輌が水没しているため「%(name)s」は使用不可"
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "火災が発生しているため「%(name)s」は使用不可"
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "車輌が転覆しているため「%(name)s」は使用不可"
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "味方%(target)sが敵の爆発 (%(attacker)s) により大破"
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "味方 %(target)s がクラッシュにより大破"
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "味方 %(target)s が破壊ゾーンのダメージにより大破"
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "味方 %(target)s が大破"
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "※チームが現在のウェーブを突破した場合のみ"
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "戦線復帰の準備中"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "貴官の戦いはここまでだ。"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "破壊ゾーンのダメージにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "エナジーストライクにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "パイロキネシスにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "ヴァンパイアにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "爆発により大破"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "クラッシュにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "モジュール [%(device)s] が敵の射撃により誘爆"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "火災により大破"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "時間切れのため大破"
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "敵の砲撃により大破"
+
+msgid "prebattle/description/message"
+msgstr "【作戦目標】すべての敵のウェーブを撃破せよ"
+
+msgid "prebattle/description/title"
+msgstr "ラスト・スタンド: 難易度「%(difficulty)s」"
+
+msgid "prebattle/difficulty/107"
+msgstr "ノーマル"
+
+msgid "prebattle/difficulty/108"
+msgstr "ハード"
+
+msgid "prebattle/difficulty/109"
+msgstr "ナイトメア"
+
+msgid "prebattle/waiting/title"
+msgstr "プレイヤーを待っています..."
+
+msgid "radialMenu/attention_here"
+msgstr "防衛を要請"
+
+msgid "radialMenu/cancel"
+msgstr "キャンセル"
+
+msgid "radialMenu/confirm"
+msgstr "了解！"
+
+msgid "radialMenu/move_to_camp"
+msgstr "ゾーンへ移動する！"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "防衛中"
+
+msgid "radialMenu/obelisk"
+msgstr "「Obelisk」は任せてくれ!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "「Obelisk」を破壊せよ!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "エナジーシールド"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "横転・転覆に対処中…"
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "危険ゾーンから\n急ぎ脱出せよ！"
+
+msgid "teamList/teammates"
+msgstr "味方"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "音声チャットを無効化"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "音声チャットを有効化"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "チャット開始"

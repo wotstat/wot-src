@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "公會聊天"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "點擊以寫下並送出訊息到公會聊天。"
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "公會聊天"
+
+msgid "clan/header/creationDate"
+msgstr "建立於 %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "申請與邀請"
+
+msgid "clan/header/requestSent"
+msgstr "申請已送出"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "送出申請"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "點擊以送出您的申請給這個公會。"
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "送出申請"
+
+msgid "clan/post/combatOfficer"
+msgstr "作戰官"
+
+msgid "clan/post/commander"
+msgstr "指揮官"
+
+msgid "clan/post/executiveOfficer"
+msgstr "執行官"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "情報官"
+
+msgid "clan/post/juniorOfficer"
+msgstr "下級軍官"
+
+msgid "clan/post/personnelOfficer"
+msgstr "人事官"
+
+msgid "clan/post/private"
+msgstr "士兵"
+
+msgid "clan/post/quartermaster"
+msgstr "軍需官"
+
+msgid "clan/post/recruit"
+msgstr "新兵"
+
+msgid "clan/post/recruiter"
+msgstr "徵募官"
+
+msgid "clan/post/reservist"
+msgstr "後備軍人"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "顯示名稱時發生錯誤"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "表格中的資料已被更新。"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "招募要求"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "可以編輯"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "該公會沒有等待中的申請。"
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "該公會沒有已到期的申請。"
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "邀請加入公會"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "點擊 %(invite)s 以送出邀請\n給新的玩家。"
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "該公會在過去 28 天沒有送出任何的邀請。"
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "該公會在過去 28 天沒有任何等待中的邀請。"
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "該公會在過去 28 天沒有任何已到期的邀請。"
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "該公會在過去 28 天沒有任何已處理的邀請。"
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "該公會沒有已處理的邀請。"
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "沒有從伺服器收到資料。\n請稍後再試。"
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "伺服器錯誤"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "等待中 (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "所有 (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "已到期 (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "已收到決定 (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "已處理 (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "公會中的可用位階數：%(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "邀請加入公會"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "您有三天的時間可以處理加入公會的申請。申請與邀請都會被存放 28 天，然後就會被自動刪除。"
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "無法邀請玩家：公會已滿。"
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "無法邀請玩家：目前公會招募為已關閉。"
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "已接受"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d 天來處理"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "已拒絕"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "錯誤"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "已到期"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d 小時來處理"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d 分鐘來處理"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "已送出"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "邀請 (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "申請 (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "操作"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "邀請"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "已送出"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "顯示更多"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "狀態"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "玩家"
+
+msgid "clanInvitesWindow/title"
+msgstr "申請與邀請"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "點擊以邀請玩家加入公會。"
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "透過邀請來自："
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "邀請已接受。"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "邀請已拒絕。"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "邀請已送出。"
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "發送者："
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "這個按鈕會在從伺服器收到新的資料後開啟。"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "點擊以顯示新的申請與邀請。"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "更新名單"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "決策者："
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "申請已接受。"
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "申請已拒絕。"
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "申請已到期"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "申請已送出。"
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "無法加入新玩家：公會已滿。"
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "該玩家在最近才離開了公會。您必須再過一段時間才能接受他們加入公會："
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "無法邀請新玩家：公會已滿。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "被邀請玩家的平均每場經驗 (包含加值帳號)。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "平均每場經驗"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "被邀請玩家的參戰數。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "戰鬥"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "點擊以邀請這名玩家加入公會。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "訊息包含了來自該公會的邀請。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "訊息"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "被邀請玩家的個人評價。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "個人評價"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "該公會送出邀請的日期與時間。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "已送出"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "公會邀請狀態。\n邀請可以是等待中、已到期、或已處理。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "狀態"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "被邀請玩家的名稱。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "玩家"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "被邀請玩家的勝率。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "勝利"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "申請可以被接受或拒絕。"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "操作"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "送出申請玩家的平均每場經驗 (包含加值帳號)。"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "平均每場經驗"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "送出申請玩家的總參戰數。"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "戰鬥"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "來自該玩家的訊息，包含了他們的申請"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "訊息"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "送出申請玩家的個人評價。"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "個人評價"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "公會申請狀態。\n申請可以是等待中、已到期、或已處理。"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "狀態"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "送出申請玩家的名稱。"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "玩家"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "送出申請玩家的勝率。"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "勝利"
+
+msgid "clanLanding/notification/archived"
+msgstr "該訊息已發送至存檔資料。"
+
+msgid "clanLanding/notification/commonError"
+msgstr "技術性錯誤：無法完成針對該訊息的操作。"
+
+msgid "clanLanding/notification/deleted"
+msgstr "已移除訊息。"
+
+msgid "clanLanding/notification/edited"
+msgstr "已張貼訊息。"
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "已超過最高字元數。"
+
+msgid "clanLanding/notification/limitReached"
+msgstr "公會中張貼的訊息已達最高數量。"
+
+msgid "clanLanding/notification/noPermission"
+msgstr "沒有足夠的權限以管理公會訊息：您的位階已被修改。"
+
+msgid "clanLanding/notification/notExist"
+msgstr "該訊息已被移除或發送至存檔資料。"
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "該訊息包含違反<a href=\"event:clanRulesLink\">公會規則</a>的敘述。"
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "等待中的邀請：%(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "拒絕所選 (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "我的公會邀請"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "接收資料中..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "您尚未擁有任何公會的邀請。"
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "選擇所有的申請"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "操作"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "公會名稱"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "狀態"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "公會邀請"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "接收新的資料之後您就可以更新名單。"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "點擊以更新表格。"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "您最近才離開了公會。您必須再過一段時間才能接受公會邀請："
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "送出該邀請之公會成員的平均每場經驗 (經隨機戰鬥模式加權過的平均)。"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "平均每場經驗"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "送出該邀請之公會成員的平均參戰數 (僅隨機戰鬥模式)。"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "公會的戰鬥數"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "發送給您邀請之公會的名稱"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "公會名稱"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "發送給您邀請之公會的訊息"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "訊息"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "發送給您邀請之公會的總評價"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "公會評價"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "顯示公會邀請狀態與可處理該邀請的剩餘時間"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "狀態"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "送出該邀請之公會成員的勝率 (經隨機戰鬥模式加權過的平均)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "公會勝利數"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "您可以接受或拒絕該邀請。透過接受邀請，您會自動拒絕其它公會的邀請。"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "操作"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "公會資料"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "關閉"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "歡迎加入公會！"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "現在您可以在世界地圖上進行戰鬥、建造並防禦您的根據地、以及完成特殊任務。"
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "公告"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "您的公會：[%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "我們為帶來的不便感到抱歉。請稍後再試。"
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "根據地暫時無法使用"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "我們為帶來的不便感到抱歉。\n請稍後再試。"
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "載入資料時發生錯誤"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "公會資料"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "根據地"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "世界地圖"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "公會成員"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "根據地"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "總結"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "邀請玩家加入公會"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "無法操作。您一次只能邀請一名玩家加入公會。"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "加入所有聯絡人到收件人名單。"
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "過去 28 天的戰鬥數"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "過去 28 天的進階戰數"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "公會指揮官"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "尚未建立"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "沒有進行過戰鬥。\n沒有擁有領地。"
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "根據地等級"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "金庫"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "沒有進行過戰鬥"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "領地"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Elo 評價 X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Elo 評價 VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Elo 評價 VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "過去 28 天的前哨戰數"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "總成員數"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "詳情"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "繼續"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "送出申請"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "該公會沒有格言。"
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "世界地圖詳情"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "前往地圖"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "詳情暫時無法使用"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "無法加入該公會。"
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "查看招募要求 %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "您已經是其它公會\n的一員了。"
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "您已經收到加入這個\n公會的邀請。"
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s 暫時受到限制"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s 暫時受到限制"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "這個公會並沒有接受申請 %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "申請已送出"
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "同步資料中..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "公會在進階戰分組 X 的 Elo 評價"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Elo 評價 X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "公會在分組 VI 的 Elo 評價"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Elo 評價 VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "公會在進階戰分組 VIII 的 Elo 評價"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Elo 評價 VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "公會在過去 28 天的進階戰數"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "過去 28 天的進階戰數"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "根據地等級等同於其指揮中心的等級。"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "根據地等級"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "公會在過去 28 天的前哨戰數"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "過去 28 天的前哨戰數"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "公會在世界地圖分組 X 戰鬥的 Elo 評價"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Elo 評價 X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "公會在世界地圖分組 VI 戰鬥的 Elo 評價"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Elo 評價 VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "公會在世界地圖分組 VIII 戰鬥的 Elo 評價"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Elo 評價 VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "公會在世界地圖上過去 28 天的參戰數"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "過去 28 天的戰鬥數"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "該公會在世界地圖上目前擁有的領地數。"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "領地"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "已送出了最高的申請數。"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "無法送出申請"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "已送出了最高的申請數。"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "無法送出申請"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "公會並沒有接受申請。"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "無法送出申請"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "該公會的評價在過去 28 天都沒有更新。"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "過時的資訊"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "公會在根據地模式與世界地圖戰鬥的效率，會影響總評價如何提高。"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "總評價"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "總評價"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "公會資料"
+
+msgid "globalMap/disabled"
+msgstr "世界地圖上的戰鬥目前無法\n在您的地區進行"
+
+msgid "globalMapView/level10"
+msgstr "X 階"
+
+msgid "globalMapView/level6"
+msgstr "VI 階"
+
+msgid "globalMapView/level8"
+msgstr "VIII 階"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "這塊領地並沒有讓您獲得收入，因為與指揮中心的連結已失去、或是該領地已被掠奪。"
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "並沒有獲得收入"
+
+msgid "globalMapView/noProvince"
+msgstr "該公會並沒有擁有任何的領地。"
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "熱門黃金時段：%(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "世界地圖是種讓公會去彼此爭奪策略優勢的戰場。公會軍官會花上他們大量的時間在這裡，去策劃戰術並為戰略性部署來部署部隊。"
+
+msgid "globalMapView/promo/header"
+msgstr "世界地圖"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "世界地圖詳情"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "前往地圖"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "戰鬥"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "在世界地圖上分組 X 的總戰鬥數"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "戰鬥"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo 評價"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "公會在世界地圖上分組 X 戰鬥的評價"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo 評價"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "最愛地圖"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "公會在過去 28 天分組 X 戰鬥參與最多的地圖。"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "最愛地圖：%(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "評價排名"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "公會在世界地圖分組 X 戰鬥的評價排名"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "評價排名"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "勝利"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "在世界地圖上分組 X 戰鬥的總勝率"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "勝利"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "戰鬥"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "世界地圖分組 VI 的總戰鬥數"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "戰鬥"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo 評價"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "公會在世界地圖上分組 VI 戰鬥的評價"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo 評價"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "最愛地圖"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "公會在過去 28 天分組 VI 戰鬥參與最多的地圖。"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "最愛地圖：%(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "評價排名"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "公會在世界地圖上分組 VI 戰鬥評價的排名"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "評價排名"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "勝利"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "在世界地圖上分組 VI 戰鬥的總勝率"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "勝利"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "戰鬥"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "在世界地圖上分組 VIII 的總戰鬥數"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "戰鬥"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo 評價"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "公會在世界地圖上分組 VIII 戰鬥的評價"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo 評價"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "最愛地圖"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "公會在過去 28 天分組 VIII 戰鬥參與最多的地圖。"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "最愛地圖：%(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "評價排名"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "公會在世界地圖上分組 VIII 戰鬥評價的排名"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "評價排名"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "勝利"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "在世界地圖上分組 VIII 戰鬥的總勝率"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "勝利"
+
+msgid "globalMapView/stats/battles"
+msgstr "在世界地圖上的戰鬥數"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "該公會在世界地圖上參與的總戰鬥數"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "在世界地圖上的戰鬥數"
+
+msgid "globalMapView/stats/seized"
+msgstr "擁有的領地數"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "該公會所擁有的總領地數。先前擁有但現在已失去的領地也算。"
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "擁有的領地數"
+
+msgid "globalMapView/stats/wins"
+msgstr "整個公會成員的勝利數"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "公會成員在世界地圖戰鬥的總勝率"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "公會的勝利數"
+
+msgid "globalMapView/table/days"
+msgstr "天數"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "以天為週期，該公會在世界地圖上擁有該領地的時間。"
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "天數"
+
+msgid "globalMapView/table/front"
+msgstr "前線"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "所選前線的名稱"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "前線"
+
+msgid "globalMapView/table/income"
+msgstr "收入"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "每日從領地獲得的金幣"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "收入"
+
+msgid "globalMapView/table/map"
+msgstr "地圖"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "進行領地之戰的地圖名稱。"
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "地圖"
+
+msgid "globalMapView/table/primeTime"
+msgstr "黃金時段"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "何時領地之戰會開始的預定時間。"
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "黃金時段"
+
+msgid "globalMapView/table/province"
+msgstr "領地"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "所選領地的名稱。"
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "領地"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "領地已被掠奪且您暫時不會獲得收入。"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "您再次獲得收入的前置時間：\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "領地"
+
+msgid "globalMapView/tabs/stats"
+msgstr "統計"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "該公會的評價在過去 28 天都沒有更新。"
+
+msgid "globalMapView/totalIncome"
+msgstr "總每日收入：%(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "平均\n戰鬥數"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "取所有公會成員在隨機戰鬥與裝甲連戰鬥模式中的參戰數之平均值。只有是該公會現有成員的玩家才算。"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "整個公會成員的平均參戰數"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "平均經驗"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "公會成員在隨機戰鬥與裝甲連戰鬥模式中所獲得的加權平均經驗。每位玩家的參戰總數會影響加權。只有是該公會現有成員的玩家才算。"
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "整個公會成員的平均經驗"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "平均個人評價"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "取所有公會成員的個人評價之平均。只有是該公會現有成員的玩家才算。"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "整個公會成員的平均個人評價"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "平均勝率"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "公會成員在隨機戰鬥與裝甲連戰鬥模式中的加權平均勝率。每位玩家的參戰總數會影響加權。只有是該公會現有成員的玩家才算。"
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "整個公會成員的平均勝率"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "玩家在隨機戰鬥與裝甲連戰鬥模式中所獲得總經驗與參戰數的比"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "平均經驗"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "該玩家進行過的隨機戰鬥與裝甲連戰鬥總數"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "總戰鬥數"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "玩家待在公會的天數"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "在公會中的天數"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "玩家的個人評價"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "個人評價"
+
+msgid "personnelView/table/player"
+msgstr "玩家 (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "公會成員的名稱"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "玩家"
+
+msgid "personnelView/table/post"
+msgstr "位階"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "成員在公會中的軍階"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "位階"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "玩家在隨機戰鬥與裝甲連戰鬥模式的勝率"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "勝利"
+
+msgid "personnelView/title"
+msgstr "公會成員在隨機戰鬥與裝甲連戰鬥的統計數據："
+
+msgid "search/clansList"
+msgstr "列出的公會：%(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "找不到與您查詢相符的結果。請試著用不同的關鍵字來搜尋。"
+
+msgid "search/emptyResult/button"
+msgstr "回到名單"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "點擊以返回已找到公會的名單。"
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "回到名單"
+
+msgid "search/emptyResult/header"
+msgstr "沒有搜尋結果"
+
+msgid "search/foundClans"
+msgstr "找到的公會：%(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "無法加入該公會。"
+
+msgid "search/info/banned/tooltip/header"
+msgstr "無法送出申請"
+
+msgid "search/info/clanProfileBtn"
+msgstr "公會資料"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "無法送出申請來加入該公會。"
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "操作無法使用"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "您已經收到加入這個公會的邀請。"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "無法送出申請"
+
+msgid "search/info/ratingDescription"
+msgstr "總評價"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "公會在根據地模式與世界地圖戰鬥的效率，會影響總評價如何提高。"
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "總評價"
+
+msgid "search/info/ratingTitle"
+msgstr "所有戰鬥類型的統計："
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "您已經送出您的邀請給這個公會。"
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "無法送出申請"
+
+msgid "search/info/requestSent"
+msgstr "申請已送出"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "公會並沒有接受申請。"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "無法送出申請"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "已送出了最高的申請數。"
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "無法送出申請"
+
+msgid "search/info/sendRequestBtn"
+msgstr "送出申請"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "沒有收到伺服器資料。請稍後再試。"
+
+msgid "search/info/serverUnavailable/header"
+msgstr "伺服器錯誤"
+
+msgid "search/info/stats/avgExp"
+msgstr "平均經驗"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "公會成員在所有戰鬥模式中獲得的加權平均經驗。每位玩家的參戰總數會影響加權。只有是該公會現有成員的玩家才算。"
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "整個公會成員的平均經驗"
+
+msgid "search/info/stats/battles"
+msgstr "平均\n戰鬥數"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "公會成員在所有戰鬥模式中的平均參戰數。只有是該公會現有成員的玩家才算。"
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "整個公會成員的平均參戰數"
+
+msgid "search/info/stats/wins"
+msgstr "平均勝率"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "公會成員在所有戰鬥模式中獲得的加權平均勝率。每位玩家的參戰總數會影響加權。只有是該公會現有成員的玩家才算。"
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "整個公會成員的平均勝率"
+
+msgid "search/nextBtn"
+msgstr "下一個"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "點擊以顯示下個部分的公會名單。"
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "下一個"
+
+msgid "search/previousBtn"
+msgstr "上一個"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "點擊以顯示上個部分的公會名單。"
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "上一個"
+
+msgid "search/promoText/body"
+msgstr "想要搜尋公會，請輸入其名稱或標籤到欄位中然後點擊搜尋。"
+
+msgid "search/promoText/header"
+msgstr "公會搜尋"
+
+msgid "search/requestTooShort/body"
+msgstr "想要搜尋公會，請在欄位中輸入至少 2 個字元然後再試一次。"
+
+msgid "search/requestTooShort/button"
+msgstr "回到名單"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "回到名單"
+
+msgid "search/requestTooShort/header"
+msgstr "資料不足"
+
+msgid "search/searchBtn"
+msgstr "搜尋"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "請在左邊欄位輸入公會的名稱或標籤 (至少 2 個字元)。"
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "公會搜尋"
+
+msgid "search/searchInputPrompt"
+msgstr "輸入公會的名稱或標籤"
+
+msgid "search/serverUnavailable/body"
+msgstr "沒有收到伺服器資料。請稍後再試。"
+
+msgid "search/serverUnavailable/header"
+msgstr "伺服器錯誤"
+
+msgid "search/table/clan"
+msgstr "公會"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "公會屬性：標籤與名稱"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "公會"
+
+msgid "search/table/creationDate"
+msgstr "建立於"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "公會建立日期"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "建立於"
+
+msgid "search/table/players"
+msgstr "玩家"
+
+msgid "search/table/players/tooltip/body"
+msgstr "公會成員總數"
+
+msgid "search/table/players/tooltip/header"
+msgstr "玩家"
+
+msgid "search/table/rating"
+msgstr "評價"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "公會總評價"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "評價"
+
+msgid "search/title"
+msgstr "公會搜尋"
+
+msgid "search/titleDescription"
+msgstr "在這裡，您可以搜尋公會、查看其詳情、\n以及送出您的申請來加入。您可以透過公會名稱或標籤來搜尋。"
+
+msgid "search/windowTitle"
+msgstr "公會搜尋"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "計畫"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "統計"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "%(level)s 級\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "尚未設置"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "停火："
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "防禦期："
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "所在伺服器："
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "建造的建築："
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "中立："
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "獲得最多的工業資源"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "連續最多的勝利數"

@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "車輌は入手済み"
+
+msgid "awardView/end"
+msgstr "イベントは終了済み"
+
+msgid "awardView/info"
+msgstr "スタイルナンバー"
+
+msgid "awardView/toHangar"
+msgstr "ガレージで表示"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "ナンバリング・スタイル付き%(vehicleInfo)"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "車輌を入手!"
+
+msgid "awardView/vehicleTitle"
+msgstr "車輌を入手!"
+
+msgid "commonTexts/aboutButton"
+msgstr "イベント概要"
+
+msgid "commonTexts/closeBtn"
+msgstr "閉じる"
+
+msgid "commonTexts/eventTitle"
+msgstr "アセンブリー・ショップ"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "キャンセル"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "投入"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "スタイルナンバー付きの限定品は在庫切れです。残っているのはナンバーなしの%(vehicleName)sのみとなっています。\nそれでもリソースを投入しますか?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "入手できるのはナンバーなしの%(vehicleName)sのみ"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "ガレージに戻る"
+
+msgid "confirm/NoVehicles/description"
+msgstr "投入したリソースは間もなくアカウントに返却されます。"
+
+msgid "confirm/NoVehicles/title"
+msgstr "車輌は在庫切れです"
+
+msgid "confirm/buttonCancel/title"
+msgstr "キャンセル"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "投入"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "投入後の進捗: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "リソースを投入しますか?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "リソースの返却を依頼"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "リソースはすべて返却されますが、同時に製造工程もリセットされる点にお気をつけください。アセンブリー・ショップの期間中にまた車輌が欲しくなった際に改めてリソースを投入してください。"
+
+msgid "confirm/resourcesReturn/title"
+msgstr "全リソースの返却を依頼しますか?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "投入したリソースがすべてアカウントに返却され、同時に製造工程もリセットされます。この操作を確定すると%(vehicleName)が選択され、そちらの車輌の製造にリソースを投入できるようになります。"
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "全リソースの返却を依頼して%(vehicleName)を選択しますか?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "車輌の選択"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "イベント期間中に両方の車輌を購入することができます。"
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "イベント期間中、ナンバリング3Dスタイル付きの車輌が収録されたパックを購入することができます。"
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "先着%(styleTanksCount)名は車輌とセットでスタイルナンバー付きの3Dスタイルも入手できます。{{@ class $br}}{{/}}続く先着%(withoutStyleTanksCount)名にはナンバリング・スタイルなしの車輌を用意されています。"
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "イベントは終了済み"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "車輌の受け取りが完了"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "車輌は入手済み"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "在庫"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "この車輌はすでに所有しています。"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "車輌は入手済み"
+
+msgid "eventInfo/tanksOver"
+msgstr "在庫切れ"
+
+msgid "eventInfo/top/styleText"
+msgstr "ナンバー付き"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "シリアルナンバー付きの車輌の在庫"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "標準版の在庫は%(regularRewardVehiclesCount)輌です。\nナンバー付きの車輌の在庫がなくなると標準版の車輌が手配されます。"
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "標準構成"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "在庫"
+
+msgid "mainView/affirmative/button"
+msgstr "了解"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "リソースの返却へ"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "投入中のリソース:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "リソース投入先の車輌:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "ガレージに戻る"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "リソースを選択"
+
+msgid "mainView/footer/description/text"
+msgstr "車輌の在庫がなくなった場合は全リソースが返却されます。"
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "本イベントには参加できないアカウントです。"
+
+msgid "mainView/footer/forbidden/title"
+msgstr "イベントへの参加不可"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "両方の車輌を購入することができますが、リソースの投入は1輌ずつしか行えません。"
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "車輌を選択すると、製造に必要なリソースの投入を開始できます。数に限りがあるのでお早めに!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "%(vehicleName)を入手するには、急いで必要なリソースを集める必要があります!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "投入したリソースは間もなくアカウントに返却されます。"
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "車輌は在庫切れです"
+
+msgid "mainView/navbar/backBtn"
+msgstr "アセンブリー・ショップへ"
+
+msgid "mainView/navbar/title"
+msgstr "アセンブリー・ショップ"
+
+msgid "mainView/preview/label"
+msgstr "プレビュー"
+
+msgid "mainView/timer/lastUntil"
+msgstr "期限: "
+
+msgid "mainView/timer/leftTime"
+msgstr "残り時間: "
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "閉じる"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "リソースを投入"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)sデータは一時的に利用不可"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "車輌の在庫なし"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "ナンバー付きの車輌の在庫数: %(counter)d輌"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "車輌の在庫数: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "汎用ピース"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "上限まで投入済み %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "最大 %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "リソースが上限に到達 %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "設計図のピース"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "通貨"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "投入リソースの進捗"
+
+msgid "tankPreview/button"
+msgstr "リソースを選択"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "イベント期間中、ナンバリング3Dスタイル付きの車輌が収録されたパックを購入することができます。"
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "先着%(topPlayers)名は車輌とセットでスタイルナンバー付きの3Dスタイルも入手できます。\n続く先着%(basePlayers)名にはナンバリング・スタイルなしの車輌が用意されています。"
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "イベント期間中に両方の車輌を購入することができます。"
+
+msgid "tankPreview/title"
+msgstr "必要なリソースを100%投入すると%(vehicleInfo)を入手できます!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "投入したリソースはいつでも確認できます。返却を希望する場合は「リソースの返却を依頼」ボタンを押してください。\n製造工程がリセットされる代わりにリソースを別の車輌に投入できるようになります。"
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "リソースの返却を依頼"
+
+msgid "tooltips/counter/error/text"
+msgstr "データの閲覧は一時的に停止しています。\n問題の解決まで今しばらくお待ちください。"
+
+msgid "tooltips/counter/warning/text"
+msgstr "数値が表示されるまでには遅延があります。表示される数値と実際の数値が異なる可能性もある点にご注意ください。"
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "リソースを投資することで「%(vehicleName1)」と「%(vehicleName2)」を製造できます。ただし車輌の在庫数には限りがあるためご注意ください。"
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "リソースを投資することで、ナンバリング3Dスタイル付きの「%(vehicleName)」を入手できます。なお車輌の在庫数には限りがあります。"
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "開催期間%(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s～%(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "残り期間%(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "開始まで%(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "アセンブリー・ショップ"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "イベントの詳細を確認できます。"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "リソースの投入先となる車輌を選択してください。\n別の車輌にリソースを投入している最中だった場合は、投入したリソースがすべてアカウントに返却されます。"
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "残り時間: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "車輌を製造するには必要なリソースを100%投入する必要があります。投入するリソースのタイプと比率は好きなように変更できます。"
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "車輌の在庫がなくなった場合は全リソースが返却されます。"
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "選択中"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "投入済み"
+
+msgid "tooltips/progressbar/title"
+msgstr "投入リソースの進捗"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "リソースの投入機能は一時的に停止中です。時間をおいて再度お試しください。"
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "汎用設計図と国別設計図のピースです。"
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "設計図のピース"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "戦闘成績に応じて取得できるリソースです。リアルマネーで購入することもできます。"
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "通貨"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "投入済み:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "このリソースの投入上限: %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "車輌の入手に必要なリソースの選択が完了しました。別のタイプのリソースを選択するには、まず選択中のリソースの量を減らす必要があります。"
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "投入できるリソースの上限に到達"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "固有のシリアルナンバーと特殊な視覚効果が用意された限定車輌です。"
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "シリアルナンバーは砲身の両側と車体の後ろ側に刻印されています。シリアルナンバーが割り当てられた車輌の数には限りがあり同じナンバーはひとつとして存在しません。"
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "カスタマイズ画面で3Dスタイルを解除すればシリアルナンバーは表示されなくなります。"
+
+msgid "tooltips/uniq_style/title"
+msgstr "ナンバー付き車輌"

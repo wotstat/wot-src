@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "화력"
+
+msgid "categories/mobility"
+msgstr "기동"
+
+msgid "categories/stealth"
+msgstr "정찰"
+
+msgid "categories/survivability"
+msgstr "생존"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "확인"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "취소"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "제거한 개량은 크레딧을 사용하여 다시 구매할 수 있습니다."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "제거한 개량은 다시 구매할 수 있습니다."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "모든 집중 개량을 무료로 제거하시겠습니까?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "제거한 개량은 크레딧을 사용하여 다시 구매할 수 있습니다."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "제거한 개량은 다시 구매할 수 있습니다."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "%(modification)s 집중 개량을 무료로 제거하시겠습니까?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "개량 구매"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "슬롯 범주 선택"
+
+msgid "hint/entryPoint"
+msgstr "개량 이용 가능"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "클릭 시 보조\n보급품 전환"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "클릭 시 핵심\n보급품 전환"
+
+msgid "hint/vehiclePreview"
+msgstr "전차 성능 변경 사항"
+
+msgid "postProgressionIntro/okButton"
+msgstr "확인"
+
+msgid "postProgressionIntro/title"
+msgstr "야전 개량"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "특수 개량 %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "해당 레벨 달성 시 적용되는 전차 성능 변경 사항과 해제되는 개량 요소를 확인하려면 클릭하십시오."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "집중 개량 %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "야전 개량 레벨"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "전차 구매 후 이용 가능"
+
+msgid "researchEntry/status/notResearched"
+msgstr "정예 상태 달성 후 이용 가능"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "전차 구매 및 정예 상태 달성 후 이용 가능"
+
+msgid "researchEntry/title"
+msgstr "야전 개량"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "확인"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "취소"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} 및 {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "보조 보급품"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "슬롯"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "핵심 보급품"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "특수 개량 해제({name1}, {name2})"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "특수 개량 해제({names})"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "특수 개량 해제({name})"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "특수 개량 해제({name1}, {name2}, {name3})"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "집중 개량 해제(레벨 {numbers})"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "집중 개량 해제(레벨 {number})"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "보상: {unlockedItems}"
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "일반 개량 레벨을 {level}까지 올리시겠습니까?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "일반 개량 레벨을 올리시겠습니까?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "총합:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "지정"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "지정 가능 범주: %(roles)"
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "선택한 범주: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "해당 전차 두 번째 장비 슬롯에 범주를 지정할 수 있습니다."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "슬롯 범주 최초 지정"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "지정(%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "두 번째 슬롯 범주"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "지정"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "구매 후 재지정"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "구매"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "취소"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "%(price) 사용 시 슬롯 범주 재지정 가능"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "두 번째 장비 슬롯에 선택한 범주가 지정됩니다. %(price) 비용으로 슬롯 범주를 재지정할 수 있습니다."
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "구매 비율: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "구매 실패: %(gold) 부족"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "두 번째 장비 슬롯 범주 지정"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "두 번째 장비 슬롯 범주 재지정"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "두 번째 장비 슬롯 범주 재지정 불가: %(credits) 부족"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "총합:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "{cream_Open}장비{cream_Close} 및 {cream_Open}지휘명령{cream_Close} 구성을 추가로 준비할 수 있습니다."
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "{cream_Open}포탄{cream_Close} 및 {cream_Open}소모품{cream_Close} 구성을 추가로 준비할 수 있습니다."
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "보조 보급품"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "핵심 보급품"
+
+msgid "setupTooltipView/tip"
+msgstr "차고에서 또는 전투 시작 전 초읽기 중 주요 구성과 대체 구성 간에 전환이 가능합니다."
+
+msgid "setupTooltipView/title"
+msgstr "대체 구성: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)보조 보급품%(/accent)은 %(accent)장비 및 지휘명령%(/accent) 구성을 추가로 준비할 수 있는 기능입니다. 보조 보급품이 해제되면 전투 시작 전 초읽기 중 %(accent)주요 구성과 대체 구성 간에 전환%(/accent)이 가능합니다."
+
+msgid "slides/additionalEquipment/title"
+msgstr "보조 보급품"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "야전 개량이 특정 레벨에 도달하면 %(accent)대체 구성%(/accent) 기능이 해제되어 차고에서 %(accent)장비, 포탄, 소모품, 지휘명령 구성을 추가로 준비%(/accent)할 수 있습니다. 해당 기능이 활성화되면 전투 시작 전 초읽기 중 지도 및 팀 조합을 분석하여 전투에 유리한 방향으로 %(accent)주요 구성과 대체 구성 둘 중 하나%(/accent)를 선택할 수 있습니다."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "전차 대체 구성"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)일반 개량%(/accent) 연구 시 %(accent)한 가지 전차 성능%(/accent) 보너스가 제공되며 집중 개량이 해제됩니다. 해당 개량을 연구하려면 일반 경험치나 자유 경험치가 필요하며 연구 완료 시 무료로 적용됩니다."
+
+msgid "slides/baseModifications/title"
+msgstr "일반 개량"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)특수 개량%(/accent) 연구 시 전차 대체 구성과 두 번째 슬롯 %(accent)범주 지정%(/accent) 기능(8~10단계 전차)이 해제됩니다. 크레딧을 사용하면 슬롯 범주를 재지정할 수도 있습니다."
+
+msgid "slides/extraModification/title"
+msgstr "특수 개량: 슬롯 범주"
+
+msgid "slides/fieldModernization/description"
+msgstr "야전 개량은 역할에 따라 전차를 구성하고 다양한 %(accent)개량 요소%(/accent)를 사용하여 %(accent)성능을 조정%(/accent)할 수 있는 기능입니다. 각 개량 요소는 순차적으로 연구 및 해제할 수 있습니다."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "야전 개량"
+
+msgid "slides/fieldModernization/title"
+msgstr "전차 성능 조정"
+
+msgid "slides/modificationTree/description"
+msgstr "개량 계통도는 %(accent)정예 상태%(/accent)를 달성한 %(accent)6~10단계%(/accent) 일반 및 수집 전차로 이용할 수 있습니다. 특별, 보상, 프리미엄 전차는 구매 후 즉시 이용 가능합니다."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "개량 연구"
+
+msgid "slides/modificationTree/title"
+msgstr "개량 연구"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)집중 개량%(/accent) 적용 시 %(accent)특정 성능이 향상되는 대신 다른 성능이 감소%(/accent)합니다. 일반 경험치나 자유 경험치를 사용하여 연구할 수 있으며 구매 시에는 크레딧이 소모됩니다. 개량 %(accent)취소(전차에서 제거)%(/accent) 비용은 %(accent)무료%(/accent)입니다.\n전차를 판매하면 일반 및 특수 개량은 유지되지만, 집중 개량은 취소됩니다."
+
+msgid "slides/pairedModifications/title"
+msgstr "집중 개량"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)핵심 보급품%(/accent)은 %(accent)포탄 및 소모품%(/accent) 구성을 추가로 준비할 수 있는 기능입니다. 핵심 보급품이 해제되면 전투 시작 전 초읽기 중 %(accent)주요 구성과 대체 구성 간에 전환%(/accent)이 가능합니다."
+
+msgid "slides/requiredEquipment/title"
+msgstr "핵심 보급품"
+
+msgid "slides/roleInBattle/description"
+msgstr "전차 유형과는 다르게 전차 역할은 %(accent)운용 방식%(/accent)을 더 정확히 반영하며 %(accent)개량 계통도%(/accent) 역시 전차 역할에 따라 달라집니다."
+
+msgid "slides/roleInBattle/title"
+msgstr "전투 중 전차 역할"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "개량 연구가 진행됨에 따라 전차 성능이 조정되고 %(accent)대체 구성%(/accent)이 해제되며 %(accent)두 번째 장비 슬롯%(/accent) 범주 지정이 가능해집니다."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "대체 구성 기능을 활용하면 %(accent)장비, 포탄, 소모품, 지휘명령%(/accent) 구성을 추가로 준비할 수 있으며 전투 시작 전 초읽기 중 구성 간 전환이 가능합니다."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "%(accent)두 번째 장비 슬롯%(/accent) 범주를 지정할 수 있는 기능으로 전차의 전투 효율을 직접적으로 향상할 수 있습니다."
+
+msgid "slides/specialModifications/title"
+msgstr "개량, 대체 구성, 슬롯 범주"
+
+msgid "tooltips/entry_point/description"
+msgstr "전차 성능을 추가로 조정할 수 있는 기능입니다."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "연구한 부품 및 전차: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "연구한 부품: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "야전 개량"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "전차 구매 후 이용할 수 있습니다."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "정예 상태 달성 후 이용할 수 있습니다."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "전차 구매 및 정예 상태 달성 후 이용할 수 있습니다."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "불편을 드려 죄송합니다. 나중에 다시 시도해 주십시오."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "특수 개량 이용 불가"
+
+msgid "tooltips/feature/subTitle"
+msgstr "특수 개량 %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "크레딧은 전투에 참여하거나 사용하지 않는 전차와 부품 등을 판매하여 획득할 수 있으며 골드로 구매하는 것도 가능합니다."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "크레딧 부족"
+
+msgid "tooltips/pairModification/demount"
+msgstr "해체"
+
+msgid "tooltips/pairModification/level"
+msgstr "집중 개량 %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "전차 성능 변경 사항"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "해체(%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "구매(%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "구매"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "클릭 시 해당 개량 구매 후 적용되는 전차 성능 변경 사항을 확인할 수 있습니다."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "집중 개량 제거 시 크레딧을 사용하여 다시 구매할 수 있습니다."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "해당 개량 구매 시 같은 항목 내 이미 적용 중인 개량은 자동으로 제거됩니다."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "다른 개량 적용 중"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "야전 개량 레벨 %(level) 달성 시 해당 개량이 해제됩니다."
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "개량 이용 불가"
+
+msgid "tooltips/priceBlock/free"
+msgstr "무료"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "부족:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "대략적인 수치입니다. 정확한 수치는 성능 세부 정보에 표시됩니다."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "적용"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "취소"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "초기화"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "%(title)s 개량"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "비교에 추가"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "집중 개량 모두 제거"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "집중 개량을 모두 제거합니다."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "제거"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "미리 보기"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "재지정"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "전투 전"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "선택"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "전투 시작 전 초읽기 중 장비 및 지휘명령 구성 전환 기능을 활성화/비활성화합니다.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "전투 시작 전 초읽기 중 포탄 및 소모품 구성 전환 기능을 활성화/비활성화합니다.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "비활성화 시 차고에서 선택한 구성을 전투에서 사용합니다."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "전투 전 전환"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "전투 중인 전차입니다."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "전차가 잠겨있습니다."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "수리가 필요한 전차입니다."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "소대에 소속된 전차입니다."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "슬롯 범주 지정 불가: 차고에 없는 전차입니다."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "전차 대여가 종료되었습니다."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "전투 중인 전차입니다."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "전차가 잠겨있습니다."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "수리가 필요한 전차입니다."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "소대에 소속된 전차입니다."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "구매 불가: 차고에 없는 전차입니다."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "전차 대여가 종료되었습니다."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "집중 개량을 제거합니다."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "제거"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "또는"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "야전 개량 최고 레벨"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "{minAllowedLevel}~{maxAllowedLevel}단계 전차로 이용 가능"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "{allowedLevel}단계 전차로 이용 가능"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "성능 숨기기"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "영구 보너스: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "영구 보너스: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "영구 보너스: %(bonus1), %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "레벨 상승 시 획득 가능한 영구 보너스: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "레벨 상승 시 획득 가능한 영구 보너스: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "레벨 상승 시 획득 가능한 영구 보너스: %(bonus1), %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "개량 연구"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "개량 레벨 %(level) 연구"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "레벨 상승 시 획득 가능:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "성능 향상"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "특수 개량"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "특수 개량 {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "집중 개량"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "집중 개량 {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "부품으로 이동"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "야전 개량 이용 불가: 전차가 전투 중입니다."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "야전 개량 이용 불가: 전차가 잠겨 있습니다."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "야전 개량 이용 불가: 수리가 필요한 전차입니다."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "전차 정예 상태를 달성하면 성능을 추가로 조정할 수 있는 기능이 해제됩니다."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "야전 개량 이용 불가: 소대에 소속된 전차입니다."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "개량 연구를 하고 야전 개량 레벨을 올리려면 전차가 차고에 있어야 합니다."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "대여 전차는 야전 개량을 이용할 수 없습니다. 야전 개량을 해제하려면 전차를 구매하십시오."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "야전 개량 이용 불가: 전차 대여가 종료되었습니다. 야전 개량을 해제하려면 대여 기간을 연장하십시오."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "성능 표시"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "전차 성능을 추가로 조정할 수 있는 기능입니다. 전차 정예 상태를 달성하면 해제됩니다."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "야전 개량"

@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Back to Treasures"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Blazing Treasure"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "BLAZING TREASURE"
+
+msgid "common/getButton/lowerCase"
+msgstr "Get Treasures"
+
+msgid "common/getButton/upperCase"
+msgstr "GET TREASURES"
+
+msgid "common/loader"
+msgstr "Blazing Treasure opening..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Open Treasures to view statistics."
+
+msgid "common/statistics/header"
+msgstr "Blazing Treasures opened: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "All information on opened Blazing Treasures will be deleted."
+
+msgid "entryPoint/boxes"
+msgstr "TO TREASURES"
+
+msgid "entryPoint/tooltip/description"
+msgstr "These are special boxes containing new and unique items, including Premium vehicles, 2D styles, and more. You can get them in the in-game Store."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Blazing Treasures cannot currently be opened or purchased due to technical reasons. We apologize for the temporary inconvenience."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Blazing Treasures Temporarily Unavailable"
+
+msgid "eventName/lowerCase"
+msgstr "Lunar Bounty"
+
+msgid "eventName/upperCase"
+msgstr "LUNAR BOUNTY"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Guaranteed Reward in the next Treasure!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maximum Blazing Treasures before a Guaranteed Reward: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "If you do not open Blazing Treasures before end of event, they will be opened automatically."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "If you already own all vehicles from the list of possible Blazing Treasure contents, then all subsequent vehicles you receive from Blazing Treasures will be compensated in gold equal to their full value."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Every %(guaranteed0)s Blazing Treasures are guaranteed to contain a Tier VIII–IX vehicle. If you open them without one dropping such a vehicle, then a Tier VIII–IX vehicle you do not already own will drop when you open the %(guaranteed0)s&zwnbsp;th Blazing Treasure. When it does, the counter is reset."
+
+msgid "infoPage/header/description"
+msgstr "Open Blazing Treasures for the chance to receive valuable in-game items! See more details below."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "From the %(name) (%(boxesCount) Blazing Treasures opened)"
+
+msgid "noBoxesView/description/"
+msgstr "You do not have any Blazing Treasures.\nYou can get them in the in-game Store."
+
+msgid "preview/backLabel"
+msgstr "TO TREASURES"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Treasures available: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "No Treasures available"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "If you already own all vehicles from the list of possible Blazing Treasure contents, then all subsequent vehicles you receive from Blazing Treasures will be compensated in gold."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Blazing Treasure"
+msgstr[1] "%(remainingCount) Blazing Treasures"
+msgstr[2] "%(remainingCount) Blazing Treasures"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "The Guaranteed Reward is a vehicle from the list of possible Blazing Treasure contents.\nIf you open %(remainingCount) without one dropping such a vehicle, it will drop when you open the %(count) Blazing Treasure. When it does, the counter is reset."

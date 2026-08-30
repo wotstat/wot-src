@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "Tài khoản của bạn đã được khôi phục thành công"
+
+msgid "achievements/server_error"
+msgstr "Các thay đổi ở ruy-băng danh hiệu cao quý chưa được lưu."
+
+msgid "actionAchievement/title"
+msgstr "Huân chương Đặc biệt"
+
+msgid "actionAchievements/title"
+msgstr "Huân chương Đặc biệt"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "Lỗi khi đào tạo kỹ năng. Sai xe."
+
+msgid "add_tankman_skill/server_error"
+msgstr "Không thể học kỹ năng mới.\nMáy chủ không khả dụng. Hãy thử lại sau."
+
+msgid "add_tankman_skill/success"
+msgstr "Đã học kỹ năng mới: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "Lỗi khi đào tạo kỹ năng. Xe đang bị khóa."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "Lỗi khi đào tạo kỹ năng. Hãy sửa xe của bạn."
+
+msgid "add_tankman_skills/server_error"
+msgstr "Không thể học kỹ năng mới.\nMáy chủ không khả dụng. Hãy thử lại sau."
+
+msgid "add_tankman_skills/success"
+msgstr "Đã học kỹ năng mới: %(skill)s"
+
+msgid "another_periphery"
+msgstr "Bạn vẫn đang đăng nhập ở máy chủ khác."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "Lỗi khi tham gia trận đánh: bạn đang ở trong đội rồi."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "Lỗi khi tham gia trận đánh: sai số đội."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "Lỗi khi tham gia. Thao tác tạm thời bị hoãn. Thử lại sau."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "Sự kiện này tạm thời không khả dụng. Hãy theo dõi những tin tức mới nhất trên trang chủ game."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "Lỗi khi tham gia trận đánh: lời mời đã hết hiệu lực."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "Lỗi khi tham gia: không đủ quyền hạn."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "Không thể vào trận. Hàng đợi hiện không khả dụng. Xin vui lòng thử lại sau."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "Tác vụ không khả dụng. Hàng chờ hiện đã đầy. Xin vui lòng thử lại sau."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "Lỗi khi tham gia trận đánh: đội hình đã được thiết lập xong."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "Lỗi khi tham gia trận đánh: kết nối đã hết hiệu lực."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "Lỗi khi tham gia: không tương thích với Loại Tài khoản này."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "Lỗi khi tham gia trận đấu."
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "Lỗi khi tham gia: WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "Lỗi khi tham chiến: Trận đánh Lịch sử đã chọn không khả dụng."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "Kết nối thất bại. Xin chọn máy chủ %s."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "Kết nối thất bại. Xin vui lòng chọn máy chủ khác."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "Lỗi khi tham gia trận đánh: xe hiện tại chưa sẵn sàng."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "Lỗi: Xe cấp này không thể tham chiến ở chế độ này."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "Không thể tham chiến: Xe chưa sẵn sàng."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "Vui lòng mua một xe để tham gia chiến đấu."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "Lỗi khi tham gia trận đánh (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "Lỗi khi tham gia trận đánh (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "Lỗi khi tham gia trận đánh (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "Lỗi khi tham gia trận đánh (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "Lỗi khi tham gia trận đánh (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "Lỗi khi tham gia trận đánh (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "Lỗi khi tham gia trận đánh (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "Lỗi khi tham gia trận đánh (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "Lỗi khi tham gia trận đánh (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "Lỗi khi tham gia trận đánh (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "Lỗi khi tham gia trận đánh (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "Đã hết lượng thời gian tối đa dành cho việc xếp hàng đợi trận đánh. Hãy chọn một xe khác hoặc thử lại sau."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" không phù hợp với xe này."
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "Sai xe. %(kind)s \"%(name)s\" không thể lắp lên được."
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s \"%(name)s\" đã được gỡ khỏi xe. Chi phí %(money)s."
+
+msgid "artefact_apply/server_error"
+msgstr "Lỗi máy chủ khi lắp %(kind)s \"%(name)s\". Hãy thử lại sau."
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s \"%(name)s\" đã được lắp đặt lên xe."
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "Xe bị khóa. %(kind)s \"%(name)s\" không thể lắp lên được."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "Xe bị hư hại. %(kind)s \"%(name)s\" không thể lắp lên được. Hãy sửa xe và thử lại."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" không phù hợp với xe này."
+
+msgid "artefact_buy/invalid_module"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Mô-đun không đúng."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "Sai xe. Không thể mua và lắp đặt %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Không đủ bạc."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "Thất bại khi mua %(kind)s \"%(name)s\". Không đủ trái phiếu."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Không đủ Xu Kỷ niệm."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Không đủ Vàng."
+
+msgid "artefact_buy/server_error"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Hãy thử lại sau."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Máy chủ tạm thời không khả dụng."
+
+msgid "artefact_buy/success"
+msgstr "Mô-đun %(kind)s \"%(name)s\" đã được mua (số lượng: %(count)s). Chi phí %(money)s."
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "Xe đang bị khóa. Không thể mua và lắp đặt %(kind)s \"%(name)s\"."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "Không thể mua và lắp đặt %(kind)s \"%(name)s\". Hãy sửa chữa xe và thử lại."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "Không thể tháo rời %(name)s. Mô-đun không đúng."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "Không thể tháo rời %(name)s. Hãy thử lại sau."
+
+msgid "artefact_deconstructing/success"
+msgstr "Thiết bị đã được tháo rời: %(name)s (x%(count)s). Bạn nhận được %(money)s."
+
+msgid "artefact_deconstructingMult/success"
+msgstr "Thiết bị đã được tháo rời: %(names)s. Bạn nhận được %(money)s."
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "Không thể gỡ '%(equipment)s'. Không đủ nguồn lực."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "Sai xe. %(kind)s \"%(name)s\" không thể phá hủy được."
+
+msgid "artefact_destroy/server_error"
+msgstr "Lỗi máy chủ khi phá hủy %(kind)s \"%(name)s\". Hãy thử lại sau."
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s \"%(name)s\" đã bị phá hủy khi gỡ ra."
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "Xe bị khóa. %(kind)s \"%(name)s\" không phá bỏ được."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "Xe bị hư hại. %(kind)s \"%(name)s\" không phá bỏ được. Hãy sửa xe và thử lại."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s \"%(name)s\" đã được gỡ ra khỏi xe. Đã sử dụng một Bộ Gỡ."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "Vật phẩm \"%s\" đã được đưa vào Kho vì không tương thích với mô-đun hiện tại."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "Sai xe. %(kind)s \"%(name)s\" không thể gỡ được."
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s \"%(name)s\" đã được gỡ khỏi xe. Chi phí %(money)s."
+
+msgid "artefact_remove/server_error"
+msgstr "Lỗi máy chủ khi gỡ %(kind)s \"%(name)s\". Hãy thử lại sau."
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s \"%(name)s\" đã được gỡ khỏi xe."
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "Xe bị khóa. %(kind)s \"%(name)s\" không thể gỡ được."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "Xe bị hư hại. %(kind)s \"%(name)s\" không thể gỡ được. Hãy sửa xe và thử lại."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s \"%(name)s\" đã được gỡ miễn phí khỏi xe nhờ thuê bao WoT Plus đang có hiệu lực của bạn."
+
+msgid "artefact_sell/invalid_module"
+msgstr "Không thể bán %(kind)s \"%(name)s\". Mô-đun không đúng."
+
+msgid "artefact_sell/server_error"
+msgstr "Không thể bán %(kind)s \"%(name)s\". Hãy thử lại sau."
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s \"%(name)s\" (số lượng: %(count)s). Lợi nhuận tính theo %(money)s."
+
+msgid "artefact_upgrade/server_error"
+msgstr "Lỗi kĩ thuật khi nâng cấp thiết bị. Xin vui lòng thử lại sau."
+
+msgid "artefact_upgrade/success"
+msgstr "%(kind)s \"%(name)s\" nâng cấp thành công. Đặc tính được cải tiến. Đã dùng: %(money)s."
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "%(kind)s %(name)s đã được nâng cấp thành công, các thông số đã được cải thiện. Đã dùng hết %(money)s.\n\nThiết bị tương tự từ bộ cấu hình khác đã được gửi về Kho."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "Xe bị hư hại. %(kind)s \"%(name)s\" không thể nâng cấp. Hãy sửa xe và thử lại."
+
+msgid "badges/select/server_error"
+msgstr "Lỗi Máy chủ"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "Tác vụ không khả dụng. Vui lòng chờ tới khi tác vụ hiện tại hoàn tất."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "Gửi Lời mời"
+
+msgid "battleAbilities_apply/error"
+msgstr "Lỗi cấu hình Dự bị chiến đấu. Vui lòng thử lại sau."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "Thất bại khi mua %(kind)s \"%(name)s\". Không đủ bạc."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "Thất bại khi mua %(kind)s \"%(name)s\". Không đủ trái phiếu."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" không phù hợp với xe này."
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Không đủ Xu Kỷ niệm."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "Thất bại khi mua %(kind)s \"%(name)s\". Không đủ vàng."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "Thất bại khi mua %(kind)s \"%(name)s\". Sai mô-đun."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "Thất bại khi mua và lắp %(kind)s \"%(name)s\". Sai xe."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "Thất bại khi mua %(kind)s \"%(name)s\". Không đủ bạc."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "Thất bại khi mua %(kind)s \"%(name)s\". Không đủ trái phiếu."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Không đủ Xu Kỷ niệm."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "Thất bại khi mua %(kind)s \"%(name)s\". Không đủ vàng."
+
+msgid "battleBooster_buy/server_error"
+msgstr "Tác vụ với ứng dụng kỹ thuật tạm thời không khả dụng do công tác bảo trì."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "Thất bại khi mua %(kind)s \"%(name)s\". Máy chủ tạm thời không khả dụng."
+
+msgid "battleBooster_buy/success"
+msgstr "%(kind)s \"%(name)s\" đã được mua (%(count)s). Chi phí tính theo %(money)s."
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "Xe đang bị khóa. Thất bại khi mua và lắp %(kind)s \"%(name)s\"."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "Thất bại khi mua và lắp %(kind)s \"%(name)s\". Hãy sửa xe rồi thử lại."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "battleBooster_sell/server_error"
+msgstr "Tác vụ với ứng dụng kỹ thuật tạm thời không khả dụng do công tác bảo trì."
+
+msgid "battleBooster_sell/success"
+msgstr "Đã bán %(kind)s \"%(name)s\" (%(count)s đơn vị). Lợi nhuận: %(money)s."
+
+msgid "battleBoosters_apply/error"
+msgstr "Lỗi xử lý ứng dụng kỹ thuật. Vui lòng thử lại sau."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "Lỗi xử lý ứng dụng kỹ thuật. Không đủ nguồn lực để thực hiện mua."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet khôi phục xong."
+
+msgid "battlePass/activateChapter/success"
+msgstr "Đã kích hoạt Chương %(chapter)s"
+
+msgid "battlePass/extraFinish/body"
+msgstr "Sự kiện %(name)s đã kết thúc. Xin cảm ơn bạn đã tham dự!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Giấy phép Quân sự: Chương \"%(name)s\""
+
+msgid "battlePass/extraStarted/body"
+msgstr "Chỉ huy! Nội trong Giấy phép Quân sự, sự kiện %(name)s đã bắt đầu, với phần thưởng đặc biệt chờ đón!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "Giấy phép Quân sự: Có Chương Mới!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Chỉ huy! Không còn nhiều thời gian trước khi Chương \"%(name)s\" kết thúc. Nhanh lên!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Giấy phép Quân sự: Chương \"%(name)s\""
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "Chỉ huy! Đừng quên rằng Điểm Giấy phép Quân sự có thể kiếm được trong Trận đánh Xếp hạng!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "Chỉ huy! Đừng quên rằng Điểm Giấy phép Quân sự có thể kiếm được trong Chiến tuyến!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "Chỉ huy! Đừng quên rằng Điểm Giấy phép Quân sự có thể kiếm được trong Nhiệm vụ Trinh sát!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "Chỉ huy! Đừng quên Điểm Giấy phép Quân sự có thể kiếm được trong Cường kích!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Giấy phép Quân sự Mùa %(seasonNum)d"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "Lỗi khi chọn phần thưởng. Vui lòng thử lại."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "Mùa Giấy phép Quân sự đã kết thúc. Mọi phần thưởng chưa chọn trong Mùa đã tự động được trao cho bạn:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "Lỗi khi chọn Chương. Vui lòng thử lại."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "Chọn một Chương. Bạn có thể đổi sang Chương khác bất cứ lúc nào."
+
+msgid "battlePass/switchChapter/success"
+msgstr "Bạn đã đổi sang Chương khác. Chương %(chapter)s giờ đang được làm."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "Giấy phép Quân sự tạm thời không khả dụng trong Săn Thiết giáp do quá trình bảo trì. Chúng tôi rất tiếc vì vấn đề này."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "Điểm Giấy phép Quân sự không thể kiếm được trong chế độ Cường kích tại thời điểm này do công tác bảo trì."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "Điểm Giấy phép Quân sự không thể kiếm được trong chế độ Cường kích Giản thể tại thời điểm này do công tác bảo trì."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "Giấy phép Quân sự tạm thời không khả dụng trong Chiến tuyến do quá trình bảo trì."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "Giấy phép Quân sự tạm thời không khả dụng trong Trận đánh Xếp hạng do quá trình bảo trì."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "Giấy phép Quân sự đã khả dụng trở lại. Chúng tôi rất xin lỗi vì vấn đề này.\nMùa được kéo dài đến: %(expiryTime)s."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "Điểm Giấy phép Quân sự đã có thể tiếp tục kiếm được trong chế độ Cường kích. Chúng tôi rất xin lỗi vì sự ngắt quãng này."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "Điểm Giấy phép Quân sự đã có thể tiếp tục kiếm được trong chế độ Cường kích Giản thể. Chúng tôi rất xin lỗi vì sự ngắt quãng này."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "Giấy phép Quân sự đã khả dụng trở lại trong Chiến tuyến. Chúng tôi rất tiếc vì các vấn đề phát sinh."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "Giấy phép Quân sự đã khả dụng trở lại trong Trận đánh Xếp hạng. Chúng tôi rất tiếc vì vấn đề này."
+
+msgid "battlePass/switch_pause/body"
+msgstr "Giấy phép Quân sự tạm thời không khả dụng do quá trình bảo trì."
+
+msgid "battlePass/switch_started/body"
+msgstr "Chỉ huy! Đến hẹn lại lên, đánh giành phần thưởng Giấy phép Quân sự độc đáo!"
+
+msgid "battlePass/switch_started/title"
+msgstr "Giấy phép Quân sự Mùa %(seasonNum)d"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "Giấy phép Quân sự: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "Giấy phép Quân sự đã kết thúc. Mọi phần thưởng chưa chọn đã được trao cho bạn theo thứ tự mặc định:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "Chương đã kết thúc. Hẹn lần sau!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "Giấy phép Quân sự: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "Giấy phép Quân sự đã khả dụng trở lại. Chúng tôi rất xin lỗi vì các vấn đề phát sinh."
+
+msgid "battlePassH/switch_started/body"
+msgstr "Chỉ huy! Khám phá ngay Giấy phép Quân sự đặc biệt này.\n\nKhi hoàn tất Tiến trình, bạn sẽ nhận được một xe Premium với kiểu mẫu 3D độc đáo, chi tiết tùy biến và hơn nữa!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "Giấy phép Quân sự: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "Lỗi khi mua Giai đoạn của Tiến trình. Vui lòng thử lại sau."
+
+msgid "battlePass_buy/server_error"
+msgstr "Lỗi khi mua Giấy phép Ưu tú. Vui lòng thử lại sau."
+
+msgid "battleResults/sharing/success"
+msgstr "Liên kết đã được sao chép vào bộ nhớ tạm. Bạn có thể dán vào ô chat bằng cách bấm Ctrl+V hoặc sử dụng bên ngoài game."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "Không thể tìm được đối thủ cho Trận đánh Đặc biệt hiện tại. Hãy tổ chức lại đội hình của bạn."
+
+msgid "battleSession/memberJoined"
+msgstr "%s đã tham gia đội."
+
+msgid "battleSession/memberLeave"
+msgstr "%s đã rời khỏi đội."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s chưa sẵn sàng chiến đấu cùng đội."
+
+msgid "battleSession/memberOffline"
+msgstr "Kết nối bị gián đoạn với %s."
+
+msgid "battleSession/memberReady"
+msgstr "%s đã sẵn sàng chiến đấu cùng đội."
+
+msgid "battlesession/error/AddObserver"
+msgstr "Số người xem tối đa một phe: %(numPlayers)s."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "Số người chơi tối đa một phe: %(numPlayers)s."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "Không đủ quyền hạn để di chuyển những người chơi khác."
+
+msgid "battlesession/error/Limits"
+msgstr "Đã vượt quá số người chơi tối đa trong một phe."
+
+msgid "blueprints/conversion/disable"
+msgstr "Không đủ phân đoạn để quy đổi."
+
+msgid "blueprints/conversion/error"
+msgstr "Không thể giải ngũ: Máy chủ không khả dụng. Hãy thử lại sau."
+
+msgid "blueprints/switch_off"
+msgstr "Bản vẽ xe: Tính năng này tạm thời không khả dụng. Chúng tôi rất tiếc vì vấn đề này."
+
+msgid "blueprints/switch_on"
+msgstr "Bản vẽ xe đã khả dụng trở lại."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "Tác vụ không khả dụng. Trợ cấp Cá nhân đã được sử dụng rồi."
+
+msgid "booster_activate/DISABLED"
+msgstr "Không thể kích hoạt gói Trợ cấp Cá nhân. Tác vụ không khả dụng."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "Không thể kích hoạt gói Trợ cấp Cá nhân. Tác vụ không khả dụng."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "Tác vụ không khả dụng. Trợ cấp Cá nhân không khả dụng hoặc chưa được chọn."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "Không thể kích hoạt gói Trợ cấp Cá nhân. Tác vụ không khả dụng."
+
+msgid "booster_activate/server_error"
+msgstr "Không thể kích hoạt gói Trợ cấp Cá nhân. Hãy thử lại sau."
+
+msgid "booster_activate/success"
+msgstr "Gói Trợ cấp Cá nhân \"%(boosterName)s\" đã được kích hoạt. Thời gian còn lại: %(time)s."
+
+msgid "booster_buy/not_enough_credits"
+msgstr "Không thể mua gói Trợ cấp Cá nhân \"%(boosterName)s\". Không đủ bạc."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "Không thể mua gói Trợ cấp Cá nhân \"%(boosterName)s\". Không đủ vàng."
+
+msgid "booster_buy/server_error"
+msgstr "Không thể mua gói Trợ cấp Cá nhân \"%(boosterName)s\"."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "Không thể mua gói Trợ cấp Cá nhân \"%(boosterName)s\". Máy chủ tạm thời không khả dụng."
+
+msgid "booster_buy/success"
+msgstr "Đã mua thành công Trợ cấp Cá nhân \"%(boosterName)s\" (%(count)s gói). Chi phí tính theo %(money)s."
+
+msgid "booster_buy/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "booster_sell/server_error"
+msgstr "Không thể bán gói Trợ cấp Cá nhân \"%(boosterName)s\". Hãy thử lại sau."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "Không thể bán gói Trợ cấp Cá nhân \"%(boosterName)s\". Hãy thử lại sau."
+
+msgid "booster_sell/success"
+msgstr "Đã bán thành công Trợ cấp Cá nhân \"%(boosterName)s\" (%(count)s gói). Lợi nhuận tính theo %(money)s."
+
+msgid "buttons/goToPoll"
+msgstr "Đến cuộc Khảo sát"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "Không thể tuyển và chuyển thành viên kíp lái: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "Bạn đã đạt tới giới hạn tuyển thành viên tổ lái miễn phí trong ngày."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "Không thể tuyển và chuyển biên chế thành viên kíp lái. Sai xe."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "Không thể tuyển và chuyển biên chế thành viên kíp lái. Không đủ bạc."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "Không thể tuyển và chuyển biên chế thành viên kíp lái. Không đủ Vàng."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "Không thể tuyển và chuyển biên chế thành viên kíp lái. Vui lòng thử lại sau."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "Không thể tuyển và chuyển biên chế thành viên tổ lái. Xe đang bị khóa."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "Không thể tuyển và chuyển thành viên kíp lái: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "Bạn đã đạt tới giới hạn tuyển thành viên tổ lái miễn phí trong ngày."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "Không thể tuyển và thay thế thành viên kíp lái. Sai xe."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "Không thể tuyển và thay thế thành viên kíp lái. Không đủ bạc."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "Không thể tuyển và thay thế thành viên kíp lái. Không đủ Vàng."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "Không thể tuyển và thay thế thành viên kíp lái. Để tuyển thêm quân, bạn cần có một giường trống. Vui lòng dọn chỗ hoặc mua thêm giường trong Doanh trại."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "Không thể tuyển hay thay thế thành viên kíp lái. Vui lòng thử lại sau."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "Không thể tuyển và thay thế thành viên kíp lái. Xe đang bị khóa."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "Bạn đã đạt đến giới hạn số xe có thể mua miễn phí. Hãy thử lại vào ngày mai."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "Lỗi khi mở rộng Doanh trại. Ko đủ bạc."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "Lỗi khi mở rộng Doanh trại. Ko đủ Vàng."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "Không thể mở rộng Doanh trại. Hãy thử lại sau."
+
+msgid "buy_tankmen_berths/success"
+msgstr "Doanh trại đã được mở rộng.\nChi phí tính theo vàng: %(money)s."
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "buy_vehicle_slot_error"
+msgstr "Thất bại khi mua \"%s\". Không còn chỗ trống trong Ga-ra. Bạn có thể cân nhắc giữa việc bán một xe để chừa không gian, hoặc mua thêm chỗ để xe mới."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "Thất bại khi mua \"%s\". Không còn chỗ để trong Ga-ra. Xin vui lòng chừa ra một chỗ trống."
+
+msgid "challenges/activate/serverError"
+msgstr "Không thể kích hoạt các nhiệm vụ Crucible. Vui lòng thử lại sau."
+
+msgid "challenges/activate/success/text"
+msgstr "Nhiệm vụ đầu tiên trong chuỗi này hiện đã có thể hoàn thành. Tham chiến, vượt thử thách!"
+
+msgid "challenges/activate/success/title"
+msgstr "Crucible: %(challengeName)s đã được kích hoạt!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "Đến Crucible"
+
+msgid "challenges/challengeEnd/text"
+msgstr "Hoàn tất ngay giờ và nhận thưởng."
+
+msgid "challenges/challengeEnd/title"
+msgstr "Các nhiệm vụ Crucible sắp hết!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "Xin chúc mừng!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "Bạn đã hoàn thành Crucible: %(challengeName)s! Quà nhận được:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "Bạc đã tiêu:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "Trái phiếu đã tiêu:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "Vàng đã tiêu:"
+
+msgid "challenges/restart/free/text"
+msgstr "Một lần khởi động lại miễn phí đã được sử dụng, tiến độ nhiệm vụ về điểm xuất phát."
+
+msgid "challenges/restart/free/title"
+msgstr "Crucible: %(challengeName)s đã khởi động lại miễn phí"
+
+msgid "challenges/restart/paid/title"
+msgstr "Crucible: %(challengeName)s đã khởi động lại"
+
+msgid "challenges/restart/serverError"
+msgstr "Không thể khởi động lại các nhiệm vụ Crucible. Vui lòng thử lại sau."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "Tác vụ không khả dụng. Vui lòng chờ tới khi tác vụ hiện tại hoàn tất."
+
+msgid "challenges/surrender/serverError"
+msgstr "Không thể từ bỏ các nhiệm vụ Crucible. Vui lòng thử lại sau."
+
+msgid "challenges/surrender/success/text"
+msgstr "Bạn đã từ bỏ Crucible: %(challengeName)s. Chuỗi nhiệm vụ này thất bại."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "Không thể thay đổi chuyên môn chính của thành viên kíp lái: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "Không thể thay đổi chuyên môn. Hãy thử lại sau."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "Không thể thay đổi chuyên môn. Sai xe."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "Xe không có trong Ga-ra. Thành viên vừa tái định chuyên môn sẽ được đưa về Doanh trại."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "Không thể thay đổi chuyên môn của thành viên tổ lái. Không đủ bạc."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "Không thể thay đổi chuyên môn của thành viên tổ lái. Không đủ vàng."
+
+msgid "change_tankman_role/server_error"
+msgstr "Không thể thay đổi chức vụ.\nHãy thử lại sau."
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "Đã có một %(role)s trên %(vehicle)s. Thành viên vừa tái định chuyên môn sẽ được đưa về Doanh trại."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "Không thể thay đổi chuyên môn. Hãy thử lại sau."
+
+msgid "charge/credits_error"
+msgstr "Cần thêm %s bạc và %s vàng. Hãy tự tiếp tế đạn một cách thủ công."
+
+msgid "charge/credits_error_credits"
+msgstr "Cần thêm %s bạc. Hãy tự tiếp tế đạn một cách thủ công."
+
+msgid "charge/credits_error_gold"
+msgstr "Cần thêm %s vàng. Hãy tự tiếp tế đạn một cách thủ công."
+
+msgid "charge/inventory_error"
+msgstr "Không thể tải đạn lên %(vehicle)s. Hãy tự nạp số lượng đạn bằng tay."
+
+msgid "charge/money_spent"
+msgstr "%s đã được dùng để mua đạn."
+
+msgid "charge/server_error"
+msgstr "Lỗi khi nạp đạn. Thử lại sau."
+
+msgid "charge/server_error_save"
+msgstr "Lỗi khi cất giữ đạn. Thử lại sau."
+
+msgid "charge/success"
+msgstr "Nạp đạn thành công."
+
+msgid "charge/success_save"
+msgstr "Cất giữ đạn dược thành công."
+
+msgid "checkout_error"
+msgstr "Lỗi khi nhận thông tin người chơi. Vui lòng thử lại."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "Tác vụ không khả dụng. Hãy thử lại sau."
+
+msgid "clans/notifications/accept"
+msgstr "Chấp nhận"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "Lời mời vào Clan đã được gửi tới %(userName)s rồi."
+
+msgid "clans/notifications/decline"
+msgstr "Từ chối"
+
+msgid "clans/notifications/from"
+msgstr "từ %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "Xem chi tiết Clan"
+
+msgid "clans/notifications/invite"
+msgstr "Lời mời vào Clan"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "Đã chấp nhận lời mời vào Clan."
+
+msgid "clans/notifications/invite/declined"
+msgstr "Đã từ chối lời mời vào Clan."
+
+msgid "clans/notifications/invite/expired"
+msgstr "Lời mời vào Clan không còn giá trị."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s đã chấp nhận lời mời vào Clan."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s đã từ chối lời mời vào Clan."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "Không thể gửi lời mời vào Clan cho %(userName)s."
+
+msgid "clans/notifications/inviteSent"
+msgstr "Lời mời vào Clan đã được gửi tới %(userName)s."
+
+msgid "clans/notifications/invites"
+msgstr "Lời mời vào Clan: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "Tắt thông báo"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "Xem Lời mời"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "Lời mời vào Clan không gửi được cho %(userCount)d người chơi."
+
+msgid "clans/notifications/invitesSent"
+msgstr "Lời mời đã được gửi cho %(userCount)d người chơi."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "Bạn đã được nhận vào Clan\n%(nameStartTag)s%(name)s%(nameEndTag)s."
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "Đơn xin vào Clan\n%(nameStartTag)s%(name)s%(nameEndTag)s đã bị từ chối."
+
+msgid "clans/notifications/request"
+msgstr "Đơn xin vào Clan"
+
+msgid "clans/notifications/request/accepted"
+msgstr "Đã chấp nhận đơn xin."
+
+msgid "clans/notifications/request/declined"
+msgstr "Đã từ chối đơn xin."
+
+msgid "clans/notifications/requestSent"
+msgstr "Đã gửi đơn xin vào Clan:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "Lời mời từ người chơi: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "Xem Đơn xin"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s đã được mời vào Clan bạn rồi."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "Tác vụ không khả dụng. Người chơi không chấp thuận điều kiện kết nạp."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "Một ngày phạt khi bạn rời khỏi Clan trước vẫn chưa kết thúc."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "Tác vụ không khả dụng. Tài khoản không chính xác."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "Tác vụ không khả dụng. Tài khoản đã bị cấm chơi."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "Người chơi này đã là thành viên của một Clan rồi."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "Tác vụ không khả dụng. Người chơi không phải thành viên Clan."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "Tác vụ không khả dụng. Đơn xin không tồn tại."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "Tác vụ không khả dụng. Đơn xin đã hết hiệu lực."
+
+msgid "clans/request/errors/Bad request"
+msgstr "Tác vụ không khả dụng. Hãy thử lại sau."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "Không đủ quyền hạn để gửi lời mời vào Clan."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "Clan đã ngừng tuyển quân."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "Clan đã đủ người."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "Tác vụ không khả dụng. Clan không tồn tại."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "Tác vụ không khả dụng. Clan đã đủ thành viên."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "Tác vụ không khả dụng. Clan đã giải tán."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "Tác vụ không khả dụng. Clan không hoạt động."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "Tác vụ không khả dụng. Hãy thử lại sau."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "Tác vụ không khả dụng. Hãy thử lại sau."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "Tác vụ không khả dụng cho tài khoản loại này."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "Tác vụ không khả dụng. Bạn không có đủ quyền hạn."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "Tác vụ không khả dụng. Hãy thử lại sau."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "Tác vụ không khả dụng. Lời mời không tồn tại."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "Tác vụ không khả dụng. Lời mời đã hết hiệu lực."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "Tác vụ không khả dụng. Hãy thử lại sau."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "Tác vụ không khả dụng. Hãy thử lại sau."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "Tác vụ không khả dụng. Pháo đài không khả dụng."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "Tác vụ không khả dụng. Đã gửi đi số đơn tối đa."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "Tác vụ không khả dụng. Đã gửi đi số lời mời tối đa."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "Tác vụ không khả dụng. Hãy thử lại sau."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "Tác vụ không khả dụng. Hãy thử lại sau."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "Tác vụ không khả dụng. Hãy thử lại sau."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "Tác vụ không khả dụng. Hãy thử lại sau."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s đã là thành viên của một Clan rồi."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" không phù hợp với xe này."
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" không phù hợp với tháp pháo này. Hãy thay tháp pháo khác."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" là loại không đúng."
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" không đúng quốc gia."
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" không phù hợp với xe này."
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" là loại không đúng."
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" không đúng quốc gia."
+
+msgid "client_inactive"
+msgstr "Client không hoạt động"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "Bộ Sưu tập tạm thời không khả dụng do công tác bảo trì định kỳ."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "Bộ Sưu tập Không khả dụng"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "Bộ Sưu tập đã được sửa lỗi xong. Chúng tôi rất tiếc về vấn đề này."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "Bộ Sưu tập đã khả dụng trở lại"
+
+msgid "connected"
+msgstr "Chào mừng đến với máy chủ %s của World of Tanks!"
+
+msgid "consumables_apply/error"
+msgstr "Lỗi cấu hình vật phẩm. Vui lòng thử lại sau."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "Lỗi cấu hình vật phẩm. Không đủ nguồn lực để thực hiện mua."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet khôi phục xong."
+
+msgid "conversion/error"
+msgstr "Không thể giải ngũ: Máy chủ không khả dụng. Hãy thử lại sau."
+
+msgid "conversion/header"
+msgstr "Ngày: %(at)s\nĐã thêm:"
+
+msgid "conversion/success"
+msgstr "Lính tăng kém chuyên đã bị giải ngũ: %(number)s"
+
+msgid "conversion/title"
+msgstr "Biên nhận"
+
+msgid "conversionPerks/header"
+msgstr "Ngày: %(at)s\nQuy đổi XP từ kỹ năng kíp lái quá giới hạn. Đã nhận: "
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "Nhắn tin cá nhân không khả dụng cho người chơi đến từ quốc gia của bạn."
+
+msgid "crewBooks/failed"
+msgstr "Không thể đào tạo kíp lái này.\nHãy thử lại sau."
+
+msgid "crewBooks/server_error"
+msgstr "Thất bại trong việc đào tạo thành viên kíp lái do lỗi máy chủ. Hãy thử lại sau."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s."
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "crewBooksNotification/success"
+msgstr "Kíp lái đã được đào tạo.\nChi phí:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "Không thể mua Tài liệu Kíp lái này do lỗi máy chủ. Hãy thử lại sau."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s).\nChi phí tính theo bạc: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "Không thể bán Tài liệu Kíp lái này do lỗi máy chủ. Hãy thử lại sau."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s).\nLợi nhuận tính theo bạc: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "Nhân vật kíp lái đã được thay đổi."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "Đã thêm nhân vật kíp lái: %(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "Xe hiện tại được thay thế bằng %s."
+
+msgid "customization/added/attachment"
+msgstr "Đã thêm phụ tùng 3D %s"
+
+msgid "customization/added/attachmentValue"
+msgstr "Đã thêm phụ tùng 3D %s: (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "Đã thêm ngụy trang %s"
+
+msgid "customization/added/camouflageValue"
+msgstr "Đã thêm ngụy trang %s: (x%s)"
+
+msgid "customization/added/decal"
+msgstr "Đã thêm đề-can %s"
+
+msgid "customization/added/decalValue"
+msgstr "Đã thêm đề-can %s: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "Đã thêm biểu tượng %s"
+
+msgid "customization/added/emblemValue"
+msgstr "Đã thêm biểu tượng %s: (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "Đã thêm khẩu hiệu %s"
+
+msgid "customization/added/inscriptionValue"
+msgstr "Đã thêm khẩu hiệu %s: (x%s)"
+
+msgid "customization/added/modification"
+msgstr "Đã thêm hiệu ứng %s"
+
+msgid "customization/added/modificationValue"
+msgstr "Đã thêm hiệu ứng %s: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "Đã thêm sơn %s"
+
+msgid "customization/added/paintValue"
+msgstr "Đã thêm sơn %s: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "Đã thêm số hiệu một chữ số %s"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "Đã thêm số hiệu một chữ số %s: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "Đã thêm số hiệu hai chữ số %s"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "Đã thêm số hiệu hai chữ số %s: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "Đã thêm số hiệu %s"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "Đã thêm số hiệu %s: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "Đã thêm đề-can %s"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "Đã thêm đề-can %s: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "Stat Tracker: Đã thêm %s"
+
+msgid "customization/added/statTrackerValue"
+msgstr "Stat Tracker: Đã thêm %s: (x%s)"
+
+msgid "customization/added/style"
+msgstr "Đã thêm kiểu mẫu %s"
+
+msgid "customization/added/styleValue"
+msgstr "Đã thêm kiểu mẫu %s: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "Không thể thay đổi. Không đủ bạc và Vàng."
+
+msgid "customization/credits_not_enough"
+msgstr "Không thể thay đổi. Không đủ Bạc."
+
+msgid "customization/currency_not_enough"
+msgstr "Không đủ tiền để mua."
+
+msgid "customization/gold_not_enough"
+msgstr "Không thể thay đổi. Không đủ Vàng."
+
+msgid "customization/igr_type_changed_error"
+msgstr "Đã thay đổi trạng thái IGR. Tác vụ hiện tại bị hủy."
+
+msgid "customization/invalidVehicle"
+msgstr "Không thể áp dụng: Xe không hợp lệ"
+
+msgid "customization/personal_number_prohibited"
+msgstr "Số %(value)s không khả dụng.\nSố %(itemType)s%(itemName)s đã bị bỏ đối với bản đồ %(seasonName)s."
+
+msgid "customization/progression/down/style"
+msgstr "Kiểu mẫu %s đã giảm xuống Cấp %s"
+
+msgid "customization/progression/up/style"
+msgstr "Kiểu mẫu %s đã nâng lên Cấp %s"
+
+msgid "customization/prohibited"
+msgstr "Không thể áp dụng: %(itemName)s không có trong kho."
+
+msgid "customization/removed/attachment"
+msgstr "Đã bỏ phụ tùng 3D %s"
+
+msgid "customization/removed/attachmentValue"
+msgstr "Đã bỏ phụ tùng 3D %s: (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "Đã bỏ ngụy trang %s"
+
+msgid "customization/removed/camouflageValue"
+msgstr "Đã bỏ ngụy trang %s: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "Đã bỏ đề-can %s"
+
+msgid "customization/removed/decalValue"
+msgstr "Đã bỏ đề-can %s: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "Đã bỏ biểu tượng %s"
+
+msgid "customization/removed/emblemValue"
+msgstr "Đã bỏ biểu tượng %s: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "Đã bỏ khẩu hiệu %s"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "Đã bỏ khẩu hiệu %s: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "Đã bỏ hiệu ứng %s"
+
+msgid "customization/removed/modificationValue"
+msgstr "Đã bỏ hiệu ứng %s: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "Đã bỏ sơn %s"
+
+msgid "customization/removed/paintValue"
+msgstr "Đã bỏ sơn %s: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "Đã bỏ số hiệu một chữ số %s"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "Đã bỏ số hiệu một chữ số %s: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "Đã bỏ số hiệu hai chữ số %s"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "Đã bỏ số hiệu hai chữ số %s: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "Đã bỏ số hiệu %s"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "Đã bỏ số hiệu %s: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "Đã bỏ đề-can %s"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "Đã bỏ đề-can %s: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "Stat Tracker: Đã bỏ %s"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "Stat Tracker: Đã bỏ %s: (x%s)"
+
+msgid "customization/removed/style"
+msgstr "Đã bỏ kiểu mẫu %s"
+
+msgid "customization/removed/styleValue"
+msgstr "Đã bỏ kiểu mẫu %s: (x%s)"
+
+msgid "customization/server_error"
+msgstr "Không thể tùy biến."
+
+msgid "customization/unavailable"
+msgstr "Chức năng tùy biến xe tạm thời không hoạt động do các vấn đề kỹ thuật."
+
+msgid "customization/vehicle_damaged"
+msgstr "Không thể tùy biến. Xe đã bị hư hại. Cần sửa chữa."
+
+msgid "customization/vehicle_destroyed"
+msgstr "Không thể tùy biến. Xe đã bị phá hủy. Cần sửa chữa."
+
+msgid "customization/vehicle_exploded"
+msgstr "Không thể tùy biến. Xe đã bị phá hủy. Cần sửa chữa."
+
+msgid "customization/vehicle_locked"
+msgstr "Không thể tùy biến. Xe đã bị khóa."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "Không thể đổi mới Nhiệm vụ Tiêu chuẩn: Đã hoàn thành nhiệm vụ rồi."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "Không thể đổi mới Nhiệm vụ Tiêu chuẩn: Tác vụ đã bị khóa."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "Không thể đổi mới Nhiệm vụ Tiêu chuẩn: Tác vụ đã bị treo."
+
+msgid "daily_quests/reroll/success"
+msgstr "Đã đổi mới Nhiệm vụ Tiêu chuẩn thành công."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "Không thể đổi mới Nhiệm vụ Tiêu chuẩn: Hãy thử lại sau."
+
+msgid "daily_quests/switch_off/body"
+msgstr "Tính năng này tạm thời không khả dụng do các vấn đề kỹ thuật.\nChúng tôi rất tiếc và mong người chơi thông cảm."
+
+msgid "daily_quests/switch_off/title"
+msgstr "Nhiệm vụ Tiêu chuẩn tạm thời không khả dụng"
+
+msgid "daily_quests/switch_on/body"
+msgstr "Các vấn đề kỹ thuật đã được xử lý. Chúng tôi rất xin lỗi và mong người chơi thông cảm."
+
+msgid "daily_quests/switch_on/title"
+msgstr "Nhiệm vụ Tiêu chuẩn đã khả dụng trở lại"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "Tính năng này tạm thời không khả dụng do các vấn đề kỹ thuật.\nChúng tôi rất tiếc và mong người chơi thông cảm."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "Lợi ích linh động cấp XP tạm thời không khả dụng"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "Các vấn đề kỹ thuật đã được xử lý. Chúng tôi rất xin lỗi và mong người chơi thông cảm."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "Lợi ích linh động cấp XP đã khả dụng trở lại"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "Tác vụ với Bộ Gỡ tạm thời không khả dụng do công tác bảo trì."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "Tác vụ với Bộ Gỡ đã trở lại bình thường. Chúng tôi chân thành xin lỗi vì vấn đề này."
+
+msgid "denunciation/success"
+msgstr "Lời tố cáo %(name)s về vấn đề \"%(topic)s\" đã được chấp nhận."
+
+msgid "disconnected"
+msgstr "Game đã bị ngắt kết nối khỏi máy chủ."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "Không thể giải tán thành viên kíp lái: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "Lỗi khi giải tán thành viên kíp lái. Sai xe."
+
+msgid "dismiss_tankman/server_error"
+msgstr "Không thể giải ngũ thành viên kíp lái này.\nHãy thử lại sau."
+
+msgid "dismiss_tankman/success"
+msgstr "Thành viên kíp lái đã bị giải ngũ."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "Lỗi khi giải tán thành viên kíp lái. Xe đang bị khóa."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "Lỗi khi giải tán thành viên kíp lái. Hãy sửa chữa xe của bạn."
+
+msgid "dog_tags/switch_off/body"
+msgstr "Tính năng này tạm thời không khả dụng do các vấn đề kỹ thuật.\nChúng tôi rất tiếc và mong người chơi thông cảm."
+
+msgid "dog_tags/switch_off/title"
+msgstr "Thẻ Quân nhân tạm thời không khả dụng"
+
+msgid "dog_tags/switch_on/body"
+msgstr "Các vấn đề kỹ thuật đã được xử lý. Chúng tôi rất xin lỗi và mong người chơi thông cảm."
+
+msgid "dog_tags/switch_on/title"
+msgstr "Thẻ Quân nhân đã khả dụng trở lại"
+
+msgid "dossiers_unavailable"
+msgstr "Tài khoản không khả dụng (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "Mọi kỹ năng đã được đặt lại.\nChi phí tính theo bạc: %(money)s."
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "Mọi kỹ năng đã được đặt lại.\nChi phí tính theo vàng: %(money)s."
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "Lỗi khi học lại kỹ năng. Sai xe."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "Không thể học lại kỹ năng. Hãy thử lại sau."
+
+msgid "drop_tankman_skill/success"
+msgstr "Mọi kỹ năng đã được đặt lại."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "Lỗi khi học lại kỹ năng. Xe đang bị khóa."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "Lỗi khi học lại kỹ năng. Hãy sửa xe của bạn."
+
+msgid "drr_scale/step_down"
+msgstr "Độ phân giải linh động được giảm xuống còn %(scale)d%%."
+
+msgid "drr_scale/step_up"
+msgstr "Độ phân giải linh động được tăng lên đến %(scale)d%%."
+
+msgid "earning/button/multiple"
+msgstr "Đến Thành tích"
+
+msgid "earning/button/single"
+msgstr "Đến Thành tích"
+
+msgid "earning/common/multiple"
+msgstr "%(value)s thành tích được mở khóa!"
+
+msgid "earning/common/single"
+msgstr "%(value)s thành tích được mở khóa!"
+
+msgid "earning/title"
+msgstr "Xin chúc mừng!"
+
+msgid "earning/trophy/multiple"
+msgstr "Đã thu %(value)s chiến tích!"
+
+msgid "earning/trophy/single"
+msgstr "Đã thu %(value)s chiến tích!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "Dịch vụ nhanh đã khả dụng trở lại. Chúng tôi rất xin lỗi và mong người chơi thông cảm."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "Dịch vụ nhanh tạm thời không khả dụng do quá trình bảo trì."
+
+msgid "easyTankEquip_apply/error"
+msgstr "Lỗi khi áp dụng cấu hình Dịch vụ nhanh. Vui lòng thử lại sau."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "Lỗi khi áp dụng cấu hình Dịch vụ nhanh. Không đủ nguồn lực thanh toán."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "Dịch vụ nhanh không phản hồi. Vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet khôi phục xong."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "Đã nhận phần thưởng:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "Bạn đã đạt đến Cấp <font color='#E9E2BF'>%(tier)s</font> trong Tiến trình Chiến tuyến."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Xin chúc mừng!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "Chiến tuyến không khả dụng. Hãy đón xem tin tức trên cổng thông tin của game."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Lỗi khi chọn phần thưởng. Xin vui lòng thử lại."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "Đã nhận %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Đã nhận được ứng dụng kỹ thuật cho thiết bị: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Thiết bị Thử nghiệm nhận được: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "Mùa Chiến tuyến đã kết thúc.<br/>Mọi phần thưởng chưa chọn trong Mùa đã tự động được trao cho bạn:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Chiến tuyến"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "Không thể chuyển thành viên kíp lái: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "Lỗi khi chuyển thành viên kíp lái lên xe. Sai xe."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "Không thể gửi thành viên kíp lái về Doanh trại. Không đủ giường trong Doanh trại."
+
+msgid "equip_tankman/server_error"
+msgstr "Không thể chuyển thành viên kíp lái lên xe. Hãy thử lại sau."
+
+msgid "equip_tankman/success"
+msgstr "Thành viên kíp lái đã được chuyển đến %(vehName)s."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "Lỗi khi chuyển thành viên kíp lái lên xe. Xe đang bị khóa."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "Lỗi khi chuyển thành viên kíp lái lên xe. Hãy sửa chữa xe của bạn."
+
+msgid "exchange/not_enough_gold"
+msgstr "Không đủ Vàng để chuyển đổi."
+
+msgid "exchange/server_error"
+msgstr "Lỗi khi chuyển đổi %(gold)s Vàng.Vui lòng thử lại sau."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "Không đủ Vàng để chuyển đổi %(xp)s EXP."
+
+msgid "exchangeXP/server_error"
+msgstr "Lỗi khi quy đổi %(xp)s EXP. Thử lại sau."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "Không thể học kỹ năng mới.\nMáy chủ không khả dụng. Hãy thử lại sau."
+
+msgid "filling_untrained_perks/success"
+msgstr "Đã học kỹ năng mới cho mọi thành viên kíp lái."
+
+msgid "fortification/addOrder"
+msgstr "Đã bắt đầu Thành lập %(count)s Lực lượng Dự bị. Thời gian còn lại: %(time)s."
+
+msgid "fortification/buildingProcess"
+msgstr "Đã bắt đầu xây dựng công trình %(buildingName)s. Hãy vận chuyển số Tài nguyên Công nghiệp cần thiết để đảm bảo quá trình xây dựng không bị gián đoạn."
+
+msgid "fortification/created"
+msgstr "Xin chúc mừng!\nĐã tạo Pháo đài thành công."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "Chức năng Phòng thủ Pháo đài của bạn sẽ bị tắt trong 48 giờ. Trong thời gian này, bạn không thể tái kích hoạt phòng thủ trong thiết lập Pháo đài."
+
+msgid "fortification/defenceHourSet"
+msgstr "Thời gian Phòng thủ sẽ thay đổi được sau 14 ngày. Thời gian Phòng thủ mới: %(defenceHour)s."
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "Ngày Đình chiến sẽ thay đổi được sau 14 ngày. Ngày Đình chiến mới—chưa thiết lập."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "Ngày Đình chiến sẽ thay đổi được sau 14 ngày. Ngày Đình chiến m—%(offDay)s."
+
+msgid "fortification/demountBuilding"
+msgstr "Đã phá hủy công trình %(buildingName)s."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "Tác vụ không khả dụng. Bạn đã đảm nhận công trình này rồi."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "Tác vụ không khả dụng. Pháo đài đã được tạo rồi."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "Tác vụ không khả dụng. Clan đã ở trong danh sách đánh dấu rồi."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "Tác vụ không khả dụng. Bạn không thể thiết lập nhiều hơn 1 kế hoạch tấn công vào cùng một Clan."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "Tác vụ không khả dụng. Không tải được dữ liệu tấn công."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "Tác vụ không khả dụng. Phải qua 1 tuần kể từ đợt tấn công cuối cùng vào Clan đó."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "Tác vụ không khả dụng. Một phân đội khác đang kiểm soát tiền đồn."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "Tác vụ không khả dụng. Chưa lên lịch tấn công."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "Tác vụ không khả dụng. Bạn chỉ có thể lên kế hoạch tấn công mà sau đó 15 phút mới bắt đầu."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "Không thể lên kế hoạch tấn công vào ngày đã chọn."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "Tác vụ không khả dụng. Sai ID Clan."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "Tác vụ không khả dụng. Sai giá trị ngày Đình chiến."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "Tác vụ không khả dụng. Sai ngày tháng."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "Tác vụ không khả dụng. Sai ID Tiến công."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "Tác vụ không khả dụng. Sai giá trị Thời gian Phòng thủ."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "Không thể tấn công Clan đã chọn: Cấp độ giữa các Pháo đài chênh nhau hơn 1 mức. Hãy chọn Clan khác."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "Tác vụ không khả dụng. Sai số Quân Dự bị."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "Tác vụ không khả dụng. Số lượng Tài nguyên Công nghiệp được vận chuyển không hợp lệ."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "Tác vụ không khả dụng. Sai sư đoàn."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "Tác vụ không khả dụng. Không nhận được chi tiết về cuộc Tranh chấp."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "Chiến trận hiện bị giới hạn ở máy chủ này."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "Tác vụ không khả dụng. Thời gian Trung lập không hợp lệ."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "Tác vụ không khả dụng. Ngày Trung lập không hợp lệ."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "Tác vụ không khả dụng. Hãy sửa chữa Trung tâm Chỉ huy."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "Tác vụ không khả dụng. Trung tâm Chỉ huy đã bị phá hủy."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "Tác vụ không khả dụng. Trung tâm Chỉ huy không bị hư hại."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "Tác vụ không khả dụng. Trận chiến không tồn tại."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "Rất tiếc, kết quả chi tiết của trận đấu không khả dụng."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "Không thể xóa bỏ. Pháo đài có chứa công trình."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "Tác vụ không khả dụng. Công trình không bị hư hại."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "Tác vụ không khả dụng. Công trình chưa được xây."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "Tác vụ không khả dụng. Không thể lấy thông tin Clan."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "Tác vụ không khả dụng. Không thể tìm Clan."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "Tác vụ không khả dụng. Vận tải không khả dụng."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "Tác vụ không khả dụng. Không thể nâng cấp công trình."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "Tác vụ bị từ chối. Máy chủ tạm thời không khả dụng."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "Tác vụ không khả dụng. Clan đã kích hoạt ngày Đình chiến."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "Tác vụ không khả dụng. Clan đã kích hoạt tình trạng Trung lập."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "Tác vụ không khả dụng. Không thể thiết lập Thời gian Phòng thủ vào thời điểm đã chỉ định."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "Tác vụ không khả dụng. Một phân đội khác đang kiểm soát tiền đồn."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "Tác vụ không khả dụng. Chưa lên lịch phòng thủ."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "Tác vụ không khả dụng. Dữ liệu không hợp lệ."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "Tác vụ không khả dụng. Chưa bật chức năng Phòng thủ."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "Pháo đài tạm thời không khả dụng."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "Tác vụ không khả dụng. Công trình đã được xây rồi."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "Tác vụ không khả dụng. Vui lòng chờ tới khi tác vụ hiện tại hoàn tất."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "Tác vụ không khả dụng. Bạn đang tấn công Clan khác vào thời điểm đó."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "Không thể lên lịch tấn công Clan này tại thời điểm yêu cầu."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "Lỗi. Pháo đài tạm thời không khả dụng."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "Tác vụ không khả dụng. Cấp độ Pháo đài quá thấp."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "Tác vụ không khả dụng. Đã ngưng xây dựng mọi công trình."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "Tác vụ không khả dụng. Không được phép."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "Tác vụ không khả dụng. Không thể tham gia đơn vị tác chiến."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "Tác vụ tạm thời không khả dụng."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "Tác vụ không khả dụng. Chưa đồng bộ hóa thời gian."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "Tác vụ không khả dụng. Bạn chưa đảm nhận công trình."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "Tác vụ không khả dụng. Người chơi không phải là thành viên Clan."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "Tác vụ không khả dụng. Không đủ người chơi trong Clan."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "Tác vụ không khả dụng. Không đủ Tài nguyên Công nghiệp trong kho của công trình."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "Tác vụ không khả dụng. Clan chưa có trong danh sách đánh dấu."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "Tác vụ không khả dụng. Công trình này chưa được xây."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "Tác vụ không khả dụng. Bạn chưa là thành viên của Clan nào."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "Tác vụ không khả dụng. Quân Dự bị không thể kích hoạt được tại thời điểm này."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "Tác vụ không khả dụng. Sai công trình."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "Tác vụ không khả dụng. Quân Dự bị không khả dụng hoặc chưa được chọn."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "Tác vụ không khả dụng. Sai Quân Dự bị."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "Tác vụ không khả dụng. Sai Quân Dự bị."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "Tác vụ không khả dụng. Công trình đang được xây dựng rồi."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "Tác vụ không khả dụng. Không tồn tại cuộc tấn công nào."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "Tác vụ không khả dụng. Quân Dự bị đang được sử dụng rồi."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "Tác vụ không khả dụng. Quân Dự bị đang được thành lập rồi."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "Tác vụ không khả dụng. Đã ngừng xây dựng rồi."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "Tác vụ không khả dụng. Quân Dự bị không khả dụng."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "Tác vụ không khả dụng. Chưa ngừng xây dựng."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "Tác vụ không khả dụng. Máy chủ đang ngoại tuyến."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "Tác vụ không khả dụng. Chỗ trống đã bị chiếm."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "Tác vụ không khả dụng. Đã tắt phòng thủ rồi."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "Tác vụ không khả dụng. Chưa tắt phòng thủ."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "Tác vụ không khả dụng. Chưa hoàn thành huấn luyện."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "Tác vụ không khả dụng. Kho đã đầy."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "Tác vụ không khả dụng. Đã lên lịch phòng thủ cho ngày này rồi."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "Đã đạt tới giới hạn số Clan đánh dấu được."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "Tác vụ không khả dụng. Đã đạt tới số Quân Dự bị tối đa có thể thành lập."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "Tác vụ không khả dụng. Hết chỗ đồn trú trong công trình."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "Tác vụ không khả dụng. Đã vượt quá giới hạn số trận Tranh chấp."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "Tác vụ không khả dụng. Vận tải tạm thời không khả dụng."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "Tác vụ không khả dụng. Đã vượt quá giới hạn vận tải."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "Tác vụ không khả dụng. Người chơi chưa sẵn sàng."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "Tác vụ không khả dụng. Không thể phá hủy Trung tâm Chỉ huy."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "Tác vụ không khả dụng. Clan không hợp lệ."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "Tác vụ không khả dụng. Sai máy chủ."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "Tác vụ không khả dụng. Không thể xây công trình trong khu vực này."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "Bạn đã đảm nhận công trình %(buildingName)s."
+
+msgid "fortification/fortBattleFinished"
+msgstr "Tiến công buộc phải dừng lại do các vấn đề kỹ thuật trên máy chủ."
+
+msgid "fortification/modernizationBuilding"
+msgstr "Nâng cấp thành công. Cấp độ của công trình %(buildingName)s hiện tại là %(buildingLevel)s."
+
+msgid "fortification/notification/turnedOff"
+msgstr "Pháo đài tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "fortification/notification/turnedOn"
+msgstr "Chế độ Pháo đài: Giao chiến đã khả dụng trở lại."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "Kích hoạt Quân Dự bị"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "Xây dựng công trình"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "Đánh dấu Clan"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "Thêm Quân Dự bị"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "Thêm người chơi vào đồn trú"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "Tái kích hoạt Thời gian Phòng thủ"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "Điều chỉnh Thời gian Phòng thủ"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "Điều chỉnh Đình chiến"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "Thay đổi máy chủ"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "Thay đổi thiết lập"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "Điều chỉnh Tình trạng Trung lập"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "Tạo Pháo đài"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "Tạo phân đội"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "Xóa bỏ công trình"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "Xóa bỏ Pháo đài"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "Lên lịch tấn công"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "Xóa bỏ Clan đã đánh dấu"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "Xem chi tiết Clan"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "Xem chi tiết các Clan"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "Yêu cầu chi tiết phân đội"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "Tắt Thời gian Phòng thủ"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "Vận tải"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "Nâng cấp Công trình"
+
+msgid "fortification/transport"
+msgstr "Vận tải thành công. %(res)s Tài nguyên Công nghiệp đã được chuyển đi từ công trình %(fromBuilding)s tới công trình %(toBuilding)s."
+
+msgid "fortification/vacationSet"
+msgstr "Pháo đài duy trì Tình trạng Trung lập %(vacationPeriod)s."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "Tác vụ không khả dụng."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "Lỗi khi đào tạo thành viên kíp lái. Không đủ EXP Tự do."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "Lỗi khi đào tạo thành viên kíp lái. Thành viên này không tồn tại."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "Lỗi khi đào tạo thành viên kíp lái. Thử lại sau."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "Lỗi khi đào tạo thành viên kíp lái. Thử lại sau."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "Không thể đào tạo thành viên kíp lái bằng XP Tự do.\nHãy thử lại sau."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "Thành viên kíp lái đã được đào tạo.\nChi phí theo XP Tự do: %(money)s."
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "Để tránh việc nghiện game của trẻ em và thanh thiếu niên, hệ thống sẽ không cho phép vào game. Bạn sẽ bị ngắt kết nối khỏi máy chủ lúc %(blockTime)s."
+
+msgid "gameSessionControl/korea/note"
+msgstr "Chơi game quá nhiều sẽ ảnh hưởng đến cuộc sống thường ngày của bạn."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "Thời gian phiên chơi game còn lại: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "Đã hết thời gian chơi nên không thể vào trận mới. Bạn sẽ bị ngắt kết nối khỏi máy chủ lúc %s."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "Thời gian phiên chơi game: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "Thời gian còn lại trước khi đến nửa đêm: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "Thời gian chơi đã hết nên không thể vào trận mới. Bạn sẽ bị ngắt kết nối khỏi máy chủ lúc %(kickTime)s."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "Giới hạn thời gian chơi đã được bỏ khỏi tài khoản của bạn"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "Thiết lập kiểm soát phụ huynh đã thay đổi."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "Bạn sẽ bị đăng xuất khỏi máy chủ lúc %(timeLimit)s."
+
+msgid "graficsOptionsFail"
+msgstr "Card màn hình không tương thích. Không thể áp dụng các cài đặt đồ họa sau: %s."
+
+msgid "graficsPresetFail"
+msgstr "Card màn hình không tương thích. Không thể áp dụng chất lượng đồ họa đã chọn."
+
+msgid "igr/customization/begin"
+msgstr "Lớp Ngụy trang, Khẩu hiệu và Biểu tượng miễn phí đang khả dụng trong %(igrIcon)s."
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s đã hết hạn. Lớp Ngụy trang, Khẩu hiệu và Biểu tượng miễn phí sẽ bị gỡ khỏi xe bạn."
+
+msgid "info/noAvailable"
+msgstr "Thông tin chi tiết không khả dụng."
+
+msgid "install_component"
+msgstr "%s \"%s\" đã được lắp đặt lên xe."
+
+msgid "install_vehicle_broken"
+msgstr "Không thể lắp đặt mô-đun %s \"%s\": Xe đang bị hư hại. Hãy sửa chữa và thử lại sau."
+
+msgid "install_vehicle_locked"
+msgstr "Xe đã bị khóa; không thể lắp đặt mô-đun %s \"%s\"."
+
+msgid "inventory/item/already_exists"
+msgstr "Mô-đun %(typeString)s \"%(userString)s\" đã có sẵn trong Kho."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "Yêu cầu lắp đặt thiết bị đã được gửi đi. Đang chờ máy chủ phản hồi."
+
+msgid "inventory/item/not_found"
+msgstr "Mô-đun %(typeString)s \"%(userString)s\" không có trong Kho."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "%(userString)s đã có trong Kho."
+
+msgid "inventory/vehicle/not_found"
+msgstr "%(userString)s không có trong Kho."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "Không thể gửi lời mời tới lính lê dương %(name)s."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "Không thể gửi lời mời tới người chơi %(name)s: sai Clan."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Không thể tái tiếp tế vật phẩm. Hãy thử lại sau."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Không thể tái tiếp tế vật phẩm. Hãy thử lại sau."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Không thể tái tiếp tế vật phẩm. Hãy thử lại sau."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Không thể tái nạp đạn dược. Hãy thử lại sau."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Không thể tải thêm đạn. Đã nạp tối đa số có thể."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Không thể tái tiếp tế vật phẩm. Hãy thử lại sau."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Không đủ bạc để mua vật phẩm. Hãy thử lại sau."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "Lỗi máy chủ: \"%(vehName)s\". Không đủ trái phiếu để mua vật phẩm."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Không đủ Vàng để mua vật phẩm. Hãy thử lại sau."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Không thể tái tiếp tế vật phẩm. Hãy thử lại sau."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Sai xe."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Không đủ bạc để mua đạn."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Không đủ Vàng để mua đạn."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Xe đang bị khóa."
+
+msgid "layout_apply/error"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Hãy thử lại sau."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Sai xe."
+
+msgid "layout_apply/success_money_spent"
+msgstr "Tổng chi phí đạn dược tính theo %(money)s."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "Lỗi bảo trì \"%(vehName)s\". Xe đang bị khóa."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "limitedUI/switchOff"
+msgstr "Tính năng hiển thị dần các chi tiết giao diện ẩn đang tạm thời bị tắt."
+
+msgid "limitedUI/switchOn"
+msgstr "Tính năng hiển thị dần các chi tiết giao diện ẩn đã được bật trở lại. Bạn có thể tắt nó đi trong mục Thiết lập."
+
+msgid "locked_vehicle_error"
+msgstr "Không thể thực hiện thao tác này với các xe được cấu hình sẵn."
+
+msgid "login_to_other_game_unknown"
+msgstr "Game hiện tại bị gián đoạn. Wargaming.net&nbsp;ID của bạn đã được sử dụng để đăng nhập vào game khác."
+
+msgid "login_to_other_game_web"
+msgstr "Phiên game hiện tại bị gián đoạn. Bạn đã bị ngắt kết nối khỏi máy chủ qua cổng web (portal) của game."
+
+msgid "login_to_other_game_wot"
+msgstr "Game hiện tại bị gián đoạn. Wargaming.net&nbsp;ID của bạn đã được sử dụng để đăng nhập vào World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotb"
+msgstr "Game hiện tại bị gián đoạn. Wargaming.net&nbsp;ID của bạn đã được sử dụng để đăng nhập vào World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "Game hiện tại bị gián đoạn. Wargaming.net&nbsp;ID của bạn đã được sử dụng để đăng nhập vào World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "Game hiện tại bị gián đoạn. Wargaming.net&nbsp;ID của bạn đã được sử dụng để đăng nhập vào World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "Game hiện tại bị gián đoạn. Wargaming.net&nbsp;ID của bạn đã được sử dụng để đăng nhập vào World&nbsp;of&nbsp;Warships"
+
+msgid "lootboxes/open/server_error"
+msgstr "Lỗi khi nhận quà: Lỗi máy chủ."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "Lỗi khi nhận quà. Xin vui lòng chờ tới khi tác vụ trước được hoàn tất."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "Tác vụ tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "mapbox/notification/primeTime"
+msgstr "Nhiệm vụ Trinh sát không khả dụng cho đến khi hết đình chiến."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "Đình chiến"
+
+msgid "maps_black_list/select/server_error"
+msgstr "Lỗi Máy chủ"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "Tác vụ không khả dụng. Vui lòng chờ tới khi tác vụ hiện tại hoàn tất."
+
+msgid "maps_black_list/select/success"
+msgstr "Bản đồ %(mapName)s đã bị tẩy chay khỏi Trận đấu Ngẫu nhiên. Bạn có thể thay đổi lựa chọn của mình sau %(time)s."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "Bản đồ %(mapName)s đã được loại bỏ khỏi Trận đấu Ngẫu nhiên. Bạn có thể thay đổi sau %(time)s, hoặc mở khóa thêm một lựa chọn nữa bằng cách kích hoạt Tài khoản WoT Premium hay đăng ký thuê bao WoT Plus."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "Bản đồ %(mapName)s đã được loại bỏ khỏi Trận đấu Ngẫu nhiên. Bạn có thể thay đổi sau %(time)s, hoặc mở khóa thêm một lựa chọn nữa bằng cách đăng ký thuê bao WoT Plus."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "Bản đồ %(mapName)s đã được loại bỏ khỏi Trận đấu Ngẫu nhiên. Bạn có thể thay đổi sau %(time)s, hoặc mở khóa thêm một lựa chọn nữa bằng cách kích hoạt Tài khoản WoT Premium."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "Tính năng này tạm thời không khả dụng do các vấn đề kỹ thuật.\nChúng tôi rất tiếc và mong người chơi thông cảm."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "Tẩy chay bản đồ tạm thời không khả dụng"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "Các vấn đề kỹ thuật đã được xử lý. Chúng tôi rất xin lỗi và mong người chơi thông cảm."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "Tẩy chay bản đồ đã khả dụng trở lại"
+
+msgid "maps_training/switch/title"
+msgstr "Trắc địa"
+
+msgid "maps_training/switch_off/body"
+msgstr "Chế độ này đã bị tắt."
+
+msgid "maps_training/switch_on/body"
+msgstr "Chế độ này đã được bật."
+
+msgid "memberRosterChangedMain"
+msgstr "%s đã chuyển %s lên đội chính thức."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s đã chuyển %s xuống đội dự bị."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "Không đủ bộ nhớ. Xin vui lòng khởi động lại game."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "Không đủ bộ nhớ. Chất lượng hình ảnh bề mặt loại thấp."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "Không đủ bộ nhớ. Chất lượng hình ảnh bề mặt loại trung bình."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "Không đủ bộ nhớ. Thiết lập đồ họa đã thay đổi. Vui lòng khởi động lại game."
+
+msgid "missingEvents/button"
+msgstr "Mở"
+
+msgid "missingEvents/header"
+msgstr "Sự kiện"
+
+msgid "missingEvents/text"
+msgstr "Những sự kiện quan trọng bạn đã bỏ lỡ: "
+
+msgid "module_apply/error_is_current"
+msgstr "Mô-đun %(kind)s \"%(name)s\" đã được lắp rồi."
+
+msgid "module_apply/error_need_gun"
+msgstr "Không thể lắp đặt %(kind)s \"%(name)s\" lên xe với súng hiện tại."
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" không tương thích với tháp pháo hiện tại. Hãy thay tháp pháo khác."
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" chưa lắp được. Không có súng nào phù hợp trong Kho."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" không tương thích với tháp pháo hiện tại. Hãy thay tháp pháo khác."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" không phù hợp với xe này."
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "Mô-đun %(kind)s \"%(name)s\" không tương thích với vật phẩm \"%s\"."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" bị sai chủng loại."
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" không phù hợp với quốc gia."
+
+msgid "module_apply/incompatibleEqs"
+msgstr "Vật phẩm \"%(items)s\" đã được chuyển vào Kho do không tương thích với mô-đun hiện tại."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "Sai xe. Không thể lắp đặt mô-đun %(kind)s \"%(name)s\"."
+
+msgid "module_apply/server_error"
+msgstr "Lỗi máy chủ khi lắp mô-đun %(kind)s \"%(name)s\". Xin thử lại sau."
+
+msgid "module_apply/success"
+msgstr "%(kind)s \"%(name)s\" đã được lắp đặt lên xe."
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s \"%(name)s\" đã được lắp đặt lên xe cùng với súng \"%(gun)s\"."
+
+msgid "module_apply/vehicle_locked"
+msgstr "Xe đang bị khóa; không thể lắp đặt mô-đun %(kind)s \"%(name)s\"."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "Không thể lắp đặt mô-đun %(kind)s \"%(name)s\": Xe đang bị hư hại. Hãy sửa xe và thử lại."
+
+msgid "module_buy/error_is_current"
+msgstr "Mô-đun %(kind)s \"%(name)s\" đã được lắp rồi."
+
+msgid "module_buy/error_need_gun"
+msgstr "Không thể lắp đặt %(kind)s \"%(name)s\" lên xe với súng hiện tại."
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" không tương thích với tháp pháo hiện tại. Hãy thay tháp pháo khác."
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" chưa lắp được. Không có súng nào phù hợp trong Kho."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" không phù hợp với tháp pháo này. Hãy thay tháp pháo khác."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" không phù hợp với xe này."
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "Mô-đun %(kind)s \"%(name)s\" không tương thích với vật phẩm \"%s\"."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" bị sai chủng loại."
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" không phù hợp với quốc gia."
+
+msgid "module_buy/invalid_module"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Mô-đun không đúng."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "Sai xe. Không thể mua và lắp đặt %(kind)s \"%(name)s\"."
+
+msgid "module_buy/not_enough_credits"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Không đủ bạc."
+
+msgid "module_buy/not_enough_gold"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Không đủ Vàng."
+
+msgid "module_buy/server_error"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Hãy thử lại sau."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "Không thể mua %(kind)s \"%(name)s\". Máy chủ tạm thời không khả dụng."
+
+msgid "module_buy/success"
+msgstr "Mô-đun %(kind)s \"%(name)s\" đã được mua (số lượng: %(count)s). Chi phí %(money)s."
+
+msgid "module_buy/vehicle_locked"
+msgstr "Xe đang bị khóa. Không thể mua và lắp đặt %(kind)s \"%(name)s\"."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "Không thể mua và lắp đặt %(kind)s \"%(name)s\". Hãy sửa chữa xe và thử lại."
+
+msgid "module_buy/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "module_sell/invalid_module"
+msgstr "Không thể bán %(kind)s \"%(name)s\". Mô-đun không đúng."
+
+msgid "module_sell/server_error"
+msgstr "Không thể bán %(kind)s \"%(name)s\". Hãy thử lại sau."
+
+msgid "module_sell/success"
+msgstr "Mô-đun %(kind)s \"%(name)s\" (số lượng: %(count)s). Lợi nhuận tính theo %(money)s."
+
+msgid "multipleSelling/success"
+msgstr "Đã thu được %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "Lỗi khi chuyển cấu hình"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Lỗi khi chuyển cấu hình"
+
+msgid "nation_change/error"
+msgstr "Lỗi khi chuyển cấu hình"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: Đã chuyển cấu hình quốc gia"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "Nhiệm vụ Hàng ngày đã được cập nhật do vấn đề kỹ thuật. Tiến trình nhiệm vụ không bị mất."
+
+msgid "notrecruit_window/success"
+msgstr "Đã tuyển thành viên kíp lái.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "Tác vụ tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Lỗi khi nhận quà: Lỗi máy chủ"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "Lỗi khi nhận quà: Một số phần thưởng bị chậm trễ—hãy thử lại sau."
+
+msgid "offers/switch_off/body"
+msgstr "Dịch vụ Tiếp tế Hậu phương hiện không khả dụng."
+
+msgid "offers/unavailable_many"
+msgstr "Số Sự kiện đặc biệt Bất khả dụng: %(count)s"
+
+msgid "offers/unavailable_one"
+msgstr "Sự kiện đặc biệt không khả dụng."
+
+msgid "optionalDevices_apply/error"
+msgstr "Lỗi cấu hình thiết bị. Vui lòng thử lại sau."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "Lỗi cấu hình thiết bị. Không đủ nguồn lực để thực hiện mua."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet khôi phục xong."
+
+msgid "optionalDevices_remove/error"
+msgstr "Lỗi cấu hình thiết bị. Vui lòng thử lại sau."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "Nhắn tin cá nhân với người chơi ngoài Danh bạ không khả dụng cho tài khoản của bạn."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "Nhắn tin cá nhân không khả dụng cho tài khoản của bạn."
+
+msgid "parentControl/linkText"
+msgstr "Khai báo Ngày tháng"
+
+msgid "parentControl/mainText"
+msgstr "Xin vui lòng khai báo ngày sinh của bạn."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "Nhắn tin cá nhân với người chơi ngoài Danh bạ bị cấm do kiểm soát từ phụ huynh."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "Nhắn tin cá nhân bị cấm do kiểm soát từ phụ huynh."
+
+msgid "parentControl/title"
+msgstr "Xác nhận Tuổi"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "Chuyển vùng không khả dụng. Không thể xác định máy chủ."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "Đã nhận phần thưởng:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "Đến Hoạt động"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "Nhiệm vụ đã hoàn thành"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "Đổi xe để tiếp tục làm nhiệm vụ."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "Hoạt động: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "Đã hoàn tất: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "Đã hoàn thành xuất sắc chiến dịch %(campaignName)s!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "Đã hoàn tất hoạt động %(operationName)s!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "Đã hoàn thành xuất sắc hoạt động %(operationName)s!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "Các chiến dịch tạm thời không khả dụng do bảo trì."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "Các chiến dịch đã khả dụng trở lại. Chúng tôi xin lỗi vì sự bất tiện này."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "Chiến dịch %(campaignName)s tạm thời không khả dụng do bảo trì."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "Chiến dịch %(campaignName)s đã khả dụng trở lại. Chúng tôi rất xin lỗi và mong các bạn thông cảm."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "Nhiệm vụ %(missionName)s trong hoạt động %(operationName)s tạm thời không khả dụng do bảo trì."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "Nhiệm vụ %(missionName)s trong hoạt động %(operationName)s đã khả dụng trở lại. Chúng tôi xin lỗi."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "Hoạt động %(operationName)s trong chiến dịch %(campaignName)s tạm thời không khả dụng do bảo trì."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "Hoạt động %(operationName)s trong chiến dịch %(campaignName)s đã khả dụng trở lại. Chúng tôi xin lỗi."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "Lỗi khi đổi chiến dịch. Xin vui lòng thử lại sau."
+
+msgid "personalMissions/badge"
+msgstr "Đã nhận phù hiệu %(name)s."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "Đã nhận Ngụy trang độc đáo cho %(vehicleName)s."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "Ngụy trang độc đáo cho %(vehicleName)s khả dụng đối với tất cả xe thuộc quốc gia: %(nation)s."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "Tất cả tiến độ của hoạt động đã được lưu. Bạn có thể tiếp tục các chiến dịch bất cứ lúc nào."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "Chiến dịch %(campaignName1)s và %(campaignName2)s tạm ngưng"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "Các hoạt động và nhiệm vụ tương ứng đã tiếp tục."
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "Chiến dịch %(campaignName1)s và %(campaignName2)s tiếp tục"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "Tất cả tiến độ của hoạt động đã được lưu. Bạn có thể tiếp tục chiến dịch bất cứ lúc nào."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "Chiến dịch %(campaignName)s tạm ngưng"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "Các hoạt động tác chiến đã tiếp tục."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "Chiến dịch %(campaignName)s tiếp tục"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "%(detailName)s đã được ráp thành công."
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "Hoạt động: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "Không thể bắt đầu lại nhiệm vụ. Thử lại sau."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "Tác vụ không khả dụng. Nhiệm vụ tạm thời bị khóa."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "Hiện không thể bắt đầu lại nhiệm vụ. Thử lại sau."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Hiện không thể bắt đầu lại nhiệm vụ. Hãy chờ đến khi xe loại này khả dụng."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Hiện không thể bắt đầu lại nhiệm vụ. Hãy chờ đến khi nhóm xe khả dụng."
+
+msgid "personalMissions/discard/success"
+msgstr "Nhiệm vụ %(quest)s đã bắt đầu lại."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "Bằng khen đã nhận: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "Bằng khen đã lấy lại: %(count)s\nChúng có thể tiếp tục được sử dụng."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "Nhiệm vụ đầu tiên trong mỗi sê-ri đã được kích hoạt."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "Hoạt động %(operationName)s đã được kích hoạt!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "Phần thưởng nhận được: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "Hoạt động %(name)s hoàn tất!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "Tất cả tiến trình nhiệm vụ đã được lưu. Bạn có thể tiếp tục hoạt động bất cứ lúc nào."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "Hoạt động %(operationName)s tạm dừng"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "Các nhiệm vụ đã tiếp tục."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "Hoạt động %(operationName)s tiếp tục"
+
+msgid "personalMissions/pause/server_error"
+msgstr "Nhiệm vụ không thể tạm dừng. Thử lại sau."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "Tác vụ không khả dụng. Nhiệm vụ tạm thời bị khóa."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "Hiện tại không thể tạm dừng nhiệm vụ. Thử lại sau."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Hiện tại không thể tạm dừng nhiệm vụ. Xin chờ đến khi xe loại này khả dụng."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "Nhiệm vụ %(quest)s đã được tạm dừng."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "Tiến độ hoàn tất nhiệm vụ %(quest)s đã được tiếp tục."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "Lỗi. Không thể chuyển giao bằng khen vào thời điểm này."
+
+msgid "personalMissions/pawn/success"
+msgstr "Số Bằng khen đã được sử dụng vào nhiệm vụ %(questName)s: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "Lỗi khi nhận phần thưởng. Vui lòng thử lại sau."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s đã được ráp thành công."
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "Không thể nhận phần thưởng. Vui lòng thử lại sau."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "Tác vụ không khả dụng. Nhiệm vụ tạm thời bị khóa."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "Không thể nhận phần thưởng. Phần thưởng không khả dụng."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "Không thể nhận phần thưởng. Phần thưởng không khả dụng."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "Không thể nhận phần thưởng. Dữ liệu không chính xác."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "Không thể nhận phần thưởng. Vui lòng thử lại sau."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "Tác vụ không khả dụng. Nhiệm vụ tạm thời bị khóa."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "Không thể nhận phần thưởng. Phần thưởng không khả dụng."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "Không thể nhận phần thưởng. Phần thưởng không khả dụng."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "Không thể nhận phần thưởng. Dữ liệu không chính xác."
+
+msgid "personalMissions/select/server_error"
+msgstr "Không chọn được nhiệm vụ: %(questNames)s. Vui lòng thử lại sau."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "Tác vụ không khả dụng. Nhiệm vụ tạm thời bị khóa."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "Không chọn được nhiệm vụ: %(questNames)s. Vui lòng thử lại sau."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Chú ý! Để thay đổi nhiệm vụ, hãy đợi tới khi mọi xe dành cho nhiệm vụ này trở lại Ga-ra và không còn bị hư hỏng."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "Không chọn được nhiệm vụ: %(questNames)s. Hãy hoàn thành hoạt động tác chiến trước."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "Không chọn được nhiệm vụ: %(questNames)s. Không còn chỗ trống."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "Không chọn được nhiệm vụ: %(questNames)s. Vui lòng lấy phần thưởng."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "Không chọn được nhiệm vụ: %(questNames)s. Nhiệm vụ không khả dụng."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "Không chọn được nhiệm vụ: %(questNames)s. Nhiệm vụ đã hoàn thành rồi."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "Không chọn được nhiệm vụ: %(questNames)s."
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "Không chọn được nhiệm vụ: %(questNames)s. Đã lựa nhiệm vụ trong bộ này rồi."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "Không chọn được nhiệm vụ: %(questNames)s. Dữ liệu không chính xác."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "Không chọn được nhiệm vụ: %(questNames)s. Dữ liệu không chính xác."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "Hiện không thể chọn nhiệm vụ. Vui lòng đợi tới khi nhóm xe không còn trong trận."
+
+msgid "personalMissions/select/success"
+msgstr "Nhiệm vụ được chọn thành công. Nhiệm vụ đã chọn hiện tại: %(questNames)s."
+
+msgid "personalMissions/tankmenGain"
+msgstr "Đã thêm: Thành viên kíp lái nữ"
+
+msgid "personalMissions30/select/server_error"
+msgstr "Lỗi kích hoạt hoạt động. Vui lòng thử lại sau."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "Kho Bạc Dự trữ đã đầy, nhưng nó sẽ mở sau %(timeValue)s"
+
+msgid "piggybank/switch_off/body"
+msgstr "Tính năng này tạm thời không khả dụng do các vấn đề kỹ thuật.\nChúng tôi rất tiếc và mong người chơi thông cảm."
+
+msgid "piggybank/switch_off/title"
+msgstr "Kho Bạc Dự trữ tạm thời không khả dụng"
+
+msgid "piggybank/switch_on/body"
+msgstr "Các vấn đề kỹ thuật đã được xử lý. Chúng tôi rất xin lỗi và mong người chơi thông cảm."
+
+msgid "piggybank/switch_on/title"
+msgstr "Kho Bạc Dự trữ đã khả dụng trở lại"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "Tính năng này tạm thời không khả dụng do các vấn đề kỹ thuật.\nChúng tôi rất tiếc và mong người chơi thông cảm."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "Thuê bao người chơi không còn khả dụng nữa!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "Các vấn đề kỹ thuật đã được xử lý. Chúng tôi rất xin lỗi và mong người chơi thông cảm."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "Thuê bao người chơi đã khả dụng"
+
+msgid "post_progression/server_error"
+msgstr "Đã nhận phần thưởng cho\nHậu Tiến trình của kíp lái"
+
+msgid "post_progression/success"
+msgstr "Ngày: %(at)s\nĐã thêm vào Kho: %(book_name)s (x%(amount)s).\nQuy đổi được từ XP Hậu Tiến trình."
+
+msgid "post_progression/success/title"
+msgstr "Biên nhận"
+
+msgid "prebattle/hasLockedState"
+msgstr "Không thể nhận lời mời khi bạn đang đợi một trận khác. Thoát khỏi Phòng chờ trước Trận đấu hoặc kết thúc trận đấu và thử lại."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "Đã gửi lời mời tới người chơi."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "Đã gửi lời mời tới người chơi %(name)s."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "Lỗi ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "Lỗi AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "Lỗi BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "Lỗi CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "Chỉ huy đã rời khỏi đội."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "Đội chơi đã bị giải tán."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "Chế độ tạm thời không khả dụng"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "Giải ngũ."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "Lỗi PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "Hết thời gian."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "Lỗi không xác định."
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "Lỗi VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "Bạn đã bị loại khỏi Trung đội."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "Bạn đã bị loại khỏi đội."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "Bạn phải có ít nhất 3 xe phù hợp cho chế độ này. Xem trang Chi tiết Cường kích để biết thêm."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "Tìm kiếm Tự động"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "Thay đổi Chat Voice"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "Thay đổi Sư đoàn"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "Lựa chọn chế độ"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "Đổi Chế độ con"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "Lựa chọn chế độ"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "Thay đổi thiết lập"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "Chỉnh sửa đội"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "Thay đổi chế độ Quan sát"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "Khóa chỗ trống"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "Tìm kiếm"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "Mời vào Đội"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "Xác nhận đã sẵn sàng"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "Xác nhận đội chơi đã sẵn sàng"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "Chọn Xe"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "Đổi đội chơi"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "Tìm kiếm"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "Các đội chỉ có thể tham gia trận đánh với số xe tối thiểu là: %(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "Chỉ các đội với tổng cấp độ từ %(minTotalLevel)d đến %(maxTotalLevel)d có thể tham gia trận đánh."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "Chỉ các xe từ cấp %(minLevel)d đến %(maxLevel)d có thể tham gia."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "Xe không phù hợp với trận đánh này."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "Tất cả thành viên phe không thể cùng trở thành Người xem."
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "Xe đã chọn chỉ phù hợp với chế độ Chiến tuyến."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "Xe đã chọn chỉ phù hợp với chế độ \"Chiến đấu Tới cùng\"."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "Đạn dược và vật phẩm dự phòng trên xe đã chọn không phù hợp với điều kiện chiến đấu."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "Cấp độ xe không phù hợp cho trận đánh. Cấp độ thấp nhất cho loại này: %s. Cấp độ cao nhất: %s."
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "Sai loại xe cho trận đánh này. Các loại được phép: %s."
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "Các bộ phận lắp trên xe đã chọn không phù hợp với điều kiện chiến đấu."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "Sai cấp xe cho trận đánh này. Cấp Thấp nhất: %s. Cấp Cao nhất : %s."
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "Tăng của nước này không thể tham gia trận đấu. Quốc gia được tính: %s."
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "Xe không phù hợp"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "Đạn trên xe đã chọn không phù hợp với điều kiện chiến đấu."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "Xe không phù hợp"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "Sai xe cho trận đánh này."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "Xe đã chọn chưa sẵn sàng."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "Tác vụ không khả dụng. Hãy chọn một xe trước."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "Không thể tham gia đội."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "Xe không phù hợp"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "Xe đã chọn sẽ được mở khóa trong trận."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "Không tìm được đối thủ cho đội hiện tại. Hãy tổ chức lại đội hình."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "Không thể tìm đối thủ cho Trung đội hiện tại. Bạn nên tổ chức lại đội hình."
+
+msgid "premium/buyingSuccess"
+msgstr "Đã mua Tài khoản Premium cho %(period)d ngày. Chi phí tính theo %(money)s."
+
+msgid "premium/continueSuccess"
+msgstr "Đã gia hạn Tài khoản Premium thêm %(period)d ngày. Chi phí tính theo %(money)s."
+
+msgid "premium/not_enough_gold"
+msgstr "Không đủ Vàng để mua Tài khoản Premium %(period)d ngày."
+
+msgid "premium/post_battle_premium"
+msgstr "Với Tài khoản Premium, bạn kiếm được thêm %(xpDiff)d XP và %(creditDiff)d bạc."
+
+msgid "premium/server_error"
+msgstr "Không thể mua Tài khoản Premium cho %(period)d ngày. Vui lòng thử lại sau."
+
+msgid "premium/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "Tác vụ không khả dụng. Hãy thử lại sau."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "Tác vụ không khả dụng. Vui lòng chờ tới khi tác vụ hiện tại hoàn tất."
+
+msgid "premium_quests/switch_off/body"
+msgstr "Tính năng này tạm thời không khả dụng do các vấn đề kỹ thuật.\nChúng tôi rất tiếc và mong người chơi thông cảm."
+
+msgid "premium_quests/switch_off/title"
+msgstr "Nhiệm vụ Premium tạm thời không khả dụng"
+
+msgid "premium_quests/switch_on/body"
+msgstr "Các vấn đề kỹ thuật đã được xử lý. Chúng tôi rất xin lỗi và mong người chơi thông cảm."
+
+msgid "premium_quests/switch_on/title"
+msgstr "Nhiệm vụ Premium đã khả dụng trở lại"
+
+msgid "progressiveReward/error"
+msgstr "Tác vụ tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "progressiveReward/switch_off"
+msgstr "Phần quà Khen thưởng: Tính năng này tạm thời không khả dụng. Chúng tôi rất tiếc vì vấn đề này."
+
+msgid "progressiveReward/switch_on"
+msgstr "Phần quà Khen thưởng đã khả dụng trở lại."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "Nhiệm vụ đã kết thúc. Mô tả chi tiết không khả dụng."
+
+msgid "queue/isInQueue"
+msgstr "Tác vụ tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "rally/leaveDisabled"
+msgstr "Tác vụ không khả dụng.\nKhông thể thoát chế độ. Bạn đang là thành viên đơn vị tác chiến và đã sẵn sàng tham gia trận đánh."
+
+msgid "ranked/notification/available"
+msgstr "Kết thúc Đình chiến: Trận đánh Xếp hạng đã khả dụng trở lại."
+
+msgid "ranked/notification/available/title"
+msgstr "Trận đánh Xếp hạng Khả dụng"
+
+msgid "ranked/notification/congratulations"
+msgstr "Xin chúc mừng!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "Trận đánh Xếp hạng không khả dụng. Hãy đón xem tin tức trên cổng thông tin của game."
+
+msgid "ranked/notification/notSet"
+msgstr "Chế độ không khả dụng trên máy chủ đã chọn."
+
+msgid "ranked/notification/notSet/title"
+msgstr "Trận đánh Xếp hạng Không khả dụng"
+
+msgid "ranked/notification/primeTime"
+msgstr "Trận đánh Xếp hạng không khả dụng cho đến khi hết Đình chiến."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "Đình chiến"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "Bạn đã thể hiện nhiều thành tích nổi bật trong các Mùa của Trận đánh Xếp hạng 2020/2021, nắm giữ một vị trí trong số những người chơi đứng đầu!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "Xin chúc mừng!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "Bạn đã thể hiện nhiều thành tích nổi bật trong các Mùa của Trận đánh Xếp hạng 2020/2021, nắm giữ vị trí %(playerPosition)s trong số người chơi đứng đầu!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "Xin chúc mừng!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "Phù hiệu nhận được:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "Phù hiệu nhận được:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "Bạn kiếm được:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "Trái phiếu nhận được:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Đã nhận Xu Kỷ niệm:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "Vàng nhận được:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Đã thêm thiết bị tiên tiến để lựa chọn: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "Kiểu mẫu nhận được:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "Kiểu mẫu nhận được:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "Giơ-tông Bậc nhận được: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "Ngày Tài khoản Premium Wargaming"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "Ngày Tài khoản Premium Wargaming (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "Ngày Tài khoản Premium WoT"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "Ngày Tài khoản Premium WoT (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "Kết quả giai đoạn %(number)s"
+
+msgid "ranked/notifications/league"
+msgstr "Hạng: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "Gold"
+
+msgid "ranked/notifications/league2"
+msgstr "Silver"
+
+msgid "ranked/notifications/league3"
+msgstr "Bronze"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "Giơ-tông Bậc cho Hạng Gold đã nhận được: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "Bậc cao nhất: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "Vị thứ trên Bảng Xếp hạng: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Bạn đã hoàn tất Vòng loại"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "Giơ-tông Bậc cho Mùa giải đã nhận được: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "Kết quả Trận đánh Xếp hạng, Mùa %(seasonNumber)s"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "Bạn đã đạt đến Bậc %(rankName)s (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Đã nhận được dấu hiệu Sprinter. Phần thưởng được tăng thêm."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Đã nhận được dấu hiệu Sprinter"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "Không thể tuyển thành viên kíp lái mới: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "Không thể tuyển thành viên kíp lái. Hệ thống tạm thời không khả dụng."
+
+msgid "recruit_window/financial_success"
+msgstr "Đã tuyển thành viên kíp lái cho %(vehName)s. Chi phí tính theo bạc: %(credits)s."
+
+msgid "recruit_window/financial_success_credits"
+msgstr "Đã tuyển thành viên kíp lái cho %(vehName)s.\nChi phí tính theo bạc: %(price)s."
+
+msgid "recruit_window/financial_success_gold"
+msgstr "Đã tuyển thành viên kíp lái cho %(vehName)s.\nChi phí tính theo vàng: %(price)s."
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "Bạn đã đạt tới giới hạn tuyển thành viên tổ lái miễn phí trong ngày."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "Lỗi khi tuyển thành viên kíp lái. Không đủ bạc."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "Lỗi khi tuyển thành viên kíp lái. Không đủ Vàng."
+
+msgid "recruit_window/not_enough_space"
+msgstr "Lỗi khi tuyển và chuyển thành viên tổ lái vào biên chế xe. Không đủ chỗ trong Doanh trại. Hãy dọn một chỗ hoặc mua thêm giường cho Doanh trại."
+
+msgid "recruit_window/server_error"
+msgstr "Không thể tuyển thành viên kíp lái. Hãy thử lại sau."
+
+msgid "recruit_window/success"
+msgstr "Đã tuyển thành viên kíp lái cho %(vehName)s mà không tốn phí."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "Không thể chuyển thành viên kíp lái: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "Lỗi khi thay thế thành viên kíp lái. Sai xe."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "Không thể gửi thành viên kíp lái về Doanh trại. Không đủ giường trong Doanh trại."
+
+msgid "reequip_tankman/server_error"
+msgstr "Không thể thay thế thành viên kíp lái. Thử lại sau."
+
+msgid "reequip_tankman/success"
+msgstr "Đã thay thế thành viên kíp lái."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "Lỗi khi thay thế thành viên kíp lái. Xe đang bị khóa."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "Lỗi khi thay thế thành viên kíp lái. Hãy sửa chữa xe của bạn."
+
+msgid "remove_component"
+msgstr "%s \"%s\" đã được gỡ khỏi xe."
+
+msgid "remove_vehicle_broken"
+msgstr "Không thể tháo bỏ %s \"%s\": xe đang bị hư hại. Hãy sửa xe và thử lại."
+
+msgid "remove_vehicle_locked"
+msgstr "Không thể tháo bỏ %s \"%s\": Xe đang bị khóa."
+
+msgid "repair/credits_error"
+msgstr "Cần thêm %s bạc để sửa chữa %s."
+
+msgid "repair/server_error"
+msgstr "Lỗi khi sửa chữa %s. Thử lại sau."
+
+msgid "repair/success"
+msgstr "%s đã được sửa chữa. Chi phí %s."
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "Không thể thay đổi Dữ liệu Cá nhân của thành viên kíp lái: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "Lỗi khi thay thế Dữ liệu Cá nhân. Sai xe."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "Lỗi khi thay thế Dữ liệu Cá nhân. Không đủ bạc."
+
+msgid "replace_tankman/server_error"
+msgstr "Thất bại khi thay thế Dữ liệu Cá nhân. Thử lại sau."
+
+msgid "replace_tankman/success"
+msgstr "Đã thay thế ngoại hình thành công."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "Lỗi khi thay thế Dữ liệu Cá nhân. Xe đang bị khóa."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "Lỗi khi thay thế Dữ liệu Cá nhân. Hãy sửa xe."
+
+msgid "request/isInCoolDown"
+msgstr "Tác vụ \"%(request)s\" bị đóng băng trong %(coolDown)s giây."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "Không thể học lại kỹ năng.\nMáy chủ không khả dụng. Hãy thử lại sau."
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "Mọi kỹ năng cho tất cả thành viên kíp lái đã được\nđặt lại miễn phí."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Lỗi khi tiêu nguồn lực. Xin vui lòng thử lại."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Đã xảy ra lỗi khi trả lại tài nguyên. Vui lòng thử lại."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "Bạn vẫn có xe có thể lấy lại được. Hãy tới Cửa hàng để mang những xe đó trở về Ga-ra của mình."
+
+msgid "restore_tankman/DISABLED"
+msgstr "Tính năng lấy lại kíp lái tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "Không thể lấy lại thành viên kíp lái."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "Không đủ vàng để lấy lại thành viên kíp lái."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "Không thể lấy lại thành viên kíp lái. Thời gian dành cho tác vụ này đã hết."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "Không thể lấy lại thành viên kíp lái. Hãy thử lại sau."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "Không thể lấy lại thành viên kíp lái. Tính năng này tạm thời không khả dụng."
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)s không còn có thể phục quân được nữa."
+
+msgid "restore_tankman/financial_success"
+msgstr "Đã phục quân thành viên kíp lái.\nChi phí tính theo bạc: %(money)s."
+
+msgid "restore_tankman/not_enough_space"
+msgstr "Không thể lấy lại thành viên kíp lái. Không đủ giường trong Doanh trại."
+
+msgid "restore_tankman/server_error"
+msgstr "Không thể phục quân thành viên kíp lái này. Hãy thử lại sau."
+
+msgid "restore_tankman/success"
+msgstr "Đã phục quân thành viên kíp lái."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "Chức vụ chuyên môn của thành viên kíp lái đã thay đổi."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "Không thể đào tạo lại kíp lái: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "retraining_crew/empty_list"
+msgstr "Lỗi khi đào tạo lại tổ lái. Các thành viên kíp lái chưa được chọn."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "Chi phí tính theo bạc: %(money)s."
+
+msgid "retraining_crew/financial_success_free"
+msgstr "Đã tái đào tạo kíp lái cho %(vehName)s mà không tốn phí."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "Chi phí tính theo vàng: %(money)s."
+
+msgid "retraining_crew/invalid_operation"
+msgstr "Lỗi khi đào tạo lại kíp lái. Tác vụ không khả dụng."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "Lỗi khi đào tạo lại kíp lái. Sai xe."
+
+msgid "retraining_crew/server_error"
+msgstr "Không thể đào tạo lại kíp lái. Hãy thử lại sau."
+
+msgid "retraining_crew/success"
+msgstr "Đã tái đào tạo kíp lái cho %(vehName)s."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "Lỗi khi đào tạo lại kíp lái. Xe đang bị khóa."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "Lỗi khi đào tạo lại kíp lái. Hãy sửa xe của bạn."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "Không thể đào tạo lại thành viên kíp lái: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "Chi phí tính theo bạc: %(money)s."
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "Đã tái đào tạo thành viên kíp lái cho %(vehName)s mà không tốn phí."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "Chi phí tính theo vàng: %(money)s."
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "Lỗi khi đào tạo lại thành viên kíp lái. Tác vụ không khả dụng."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "Lỗi khi đào tạo lại thành viên kíp lái. Sai xe."
+
+msgid "retraining_tankman/server_error"
+msgstr "Không thể đào tạo lại thành viên kíp lái.\nHãy thử lại sau."
+
+msgid "retraining_tankman/success"
+msgstr "Đã tái đào tạo thành viên kíp lái cho %(vehName)s."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "Lỗi khi đào tạo lại thành viên kíp lái. Xe đang bị khóa."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "Lỗi khi đào tạo lại thành viên kíp lái. Hãy sửa xe."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "Không thể trả lại kíp lái: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "Lỗi khi trả lại kíp lái. Sai xe."
+
+msgid "return_crew/not_enough_space"
+msgstr "Không thể gửi thành viên kíp lái về Doanh trại. Không đủ chỗ trong Doanh trại."
+
+msgid "return_crew/return_unavailable"
+msgstr "Một số thành viên kíp lái không thể trở lại xe."
+
+msgid "return_crew/server_error"
+msgstr "Không thể trả lại kíp lái. Thử lại sau."
+
+msgid "return_crew/success"
+msgstr "Đã chuyển kíp lái thành công."
+
+msgid "return_crew/vehicle_locked"
+msgstr "Lỗi khi trả lại kíp lái. Xe bị khóa."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "Lỗi khi trả lại kíp lái. Hãy sửa xe của bạn."
+
+msgid "rotation/lock"
+msgstr "Các nhóm sau bị khóa và không còn khả năng tham chiến: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "Các nhóm sau đã được mở khóa và giờ có thể tham chiến: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "Xe đã bị khóa và không thể tham chiến."
+
+msgid "royale/notification/congratulations"
+msgstr "Xin chúc mừng!"
+
+msgid "royale/notification/primeTime"
+msgstr "Săn Thiết giáp không khả dụng cho tới khi thời gian Đình chiến kết thúc. Hãy xem thông tin trong lịch chiến đấu."
+
+msgid "royale/notification/primeTime/title"
+msgstr "Đình chiến"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "Cấp đã đạt được: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "Các trận đánh của sự kiện Sa bàn Chiến thuật đã khả dụng trở lại ở máy chủ này."
+
+msgid "rts/notification/available/title"
+msgstr "Chiến trận khả dụng"
+
+msgid "rts/notification/notAvailable"
+msgstr "Sự kiện Sa bàn Chiến thuật không khả dụng. Hãy dõi theo các tin tức trên trang chủ game."
+
+msgid "rts/notification/notSet"
+msgstr "Các trận Sa bàn Chiến thuật không khả dụng ở máy chủ đã chọn."
+
+msgid "rts/notification/notSet/title"
+msgstr "Chiến trận không khả dụng"
+
+msgid "rts/notification/primeTime"
+msgstr "Đình chiến đang có hiệu lực. Các trận Sa bàn Chiến thuật tạm thời không khả dụng."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Đình chiến"
+
+msgid "securityMessage/bad_email"
+msgstr "Email mà bạn đăng ký nằm ở server không tin cậy. Vui lòng đổi một email khác để tăng tính bảo mật. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "Thay đổi thiết lập bảo mật"
+
+msgid "securityMessage/no_phone"
+msgstr "Để tăng tính bảo mật, vui lòng cung cấp số điện thoại cho tài khoản của bạn. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "Để cài lại mật khẩu, vui lòng cung cấp \"Câu hỏi Bảo mật\" trong mục Quản lý Tài khoản của bạn. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "Bạn vẫn chưa đổi mật khẩu trong 30 ngày gần đây. Vui lòng thay mật khẩu để tăng tính bảo mật. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "Mật khẩu bạn đã chọn khi tạo tài khoản không đủ mạnh. Vui lòng đổi mật khẩu khác. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "Không thể bán %s: Xe đang bị hư hại. Hãy sửa xe và thử lại."
+
+msgid "sell_vehicle_locked"
+msgstr "Không thể bán %s: Xe đang bị khóa."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "Sự kiện Phần thưởng Xứng đáng đã trở lại. Chúng tôi rất xin lỗi vì sự gián đoạn này."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "Sự kiện Phần thưởng Xứng đáng tạm thời bị gián đoạn để bảo trì."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "Lỗi nhận thưởng. Tác vụ tạm thời không khả dụng."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "Lỗi khi nhận phần thưởng. Xin vui lòng liên hệ bộ phận Hỗ trợ Người chơi."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "Phần thưởng cho năm tháng cống hiến của bạn tới muộn. Hãy thử lại sau."
+
+msgid "serverInstallError"
+msgstr "Lỗi máy chủ khi trang bị mô-đun %s \"%s\". Hãy thử lại sau."
+
+msgid "serverRemoveError"
+msgstr "Lỗi khi gỡ bỏ mô-đun %s \"%s\". Hãy thử lại sau."
+
+msgid "server_shut_down"
+msgstr "Đang khởi động lại máy chủ của game"
+
+msgid "session_tracker_kick"
+msgstr "Wargaming.net&nbsp;ID của bạn đã bị sử dụng để đăng nhập vào game khác. Các tác vụ trong game hiện tại bị gián đoạn."
+
+msgid "shell_buy/invalid_module"
+msgstr "Không thể mua %(name)s. Đạn không đúng."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "Không thể mua %(name)s. Không đủ bạc."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "Không thể mua %(name)s. Không đủ Vàng."
+
+msgid "shell_buy/server_error"
+msgstr "Không thể mua %(name)s. Hãy thử lại sau."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "Không thể mua đạn %(name)s. Máy chủ tạm thời không khả dụng."
+
+msgid "shell_buy/success"
+msgstr "Đạn %(name)s đã được mua (%(count)s viên). Chi phí tính theo %(money)s."
+
+msgid "shell_buy/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "shell_sell/invalid_module"
+msgstr "Không thể bán \"%(name)s\". Đạn không đúng."
+
+msgid "shell_sell/server_error"
+msgstr "Không thể bán \"%(name)s\". Hãy thử lại sau."
+
+msgid "shell_sell/success"
+msgstr "Đạn \"%(name)s\" (%(count)s viên). Lợi nhuận tính theo %(money)s."
+
+msgid "shells_apply/error"
+msgstr "Lỗi cấu hình đạn dược. Vui lòng thử lại sau."
+
+msgid "shells_apply/not_enough_money"
+msgstr "Lỗi cấu hình đạn dược. Không đủ nguồn lực để thực hiện mua."
+
+msgid "shells_apply/success_money_spent"
+msgstr "Tổng chi phí đạn dược tính theo %(money)s."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet khôi phục xong."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "Yêu cầu đặt mua và lắp đặt mô-đun đã được gửi đi. Đang chờ phản hồi từ máy chủ."
+
+msgid "shop/item/buy_server_error"
+msgstr "Không thể mua %(typeString)s \"%(userString)s\". Vui lòng thử lại sau."
+
+msgid "shop/item/buy_success"
+msgstr "Mô-đun %(typeString)s \"%(userString)s\" đã được mua xong (số lượng: %(count)d). Đã dùng hết %(price)s."
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "Tác vụ hiện không khả dụng."
+
+msgid "shop/item/not_enough_money"
+msgstr "Để mua %(typeString)s \"%(userString)s\", bạn cần thêm %(price)s nữa."
+
+msgid "shop/item/not_found"
+msgstr "Mô-đun %(typeString)s \"%(userString)s\" không có trong Cửa hàng. Xin vui lòng thử lại sau."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "Tác vụ hiện không khả dụng."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "Để mua %(userString)s, bạn cần thêm %(price)s nữa."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "Để thuê %(userString)s, bạn cần thêm %(price)s nữa."
+
+msgid "shop/vehicle/not_found"
+msgstr "%(userString)s không có trong Cửa hàng. Xin vui lòng thử lại sau."
+
+msgid "shop_resync"
+msgstr "Giao diện đã được cập nhật vào %(date)s lúc %(time)s theo thay đổi trên máy chủ."
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) đã được quy đổi thành <font color='#E9E2BF'>\"{newName}\"</font> ({amount})"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "Ngày: %(date)s\nỨng dụng kỹ thuật đã quy đổi: %(items)s."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "Biên nhận"
+
+msgid "squad/createError"
+msgstr "Chỉ người chơi với tài khoản Premium mới có thể tạo Trung đội."
+
+msgid "squad/kickedFromQueue"
+msgstr "Không thể tìm đối thủ cho Trung đội hiện tại. Bạn nên tổ chức lại đội hình."
+
+msgid "squad/leaveDisabled"
+msgstr "Tác vụ không khả dụng.\nBạn không thể rời khỏi Trung đội. Bạn đang là thành viên 1 Trung đội và đã sẵn sàng tham chiến."
+
+msgid "squad/memberJoined"
+msgstr "%s đã tham gia đơn vị tác chiến."
+
+msgid "squad/memberLeave"
+msgstr "%s đã rời khỏi đơn vị tác chiến."
+
+msgid "squad/memberNotReady"
+msgstr "%s chưa sẵn sàng."
+
+msgid "squad/memberOffline"
+msgstr "Kết nối bị gián đoạn với %s."
+
+msgid "squad/memberReady"
+msgstr "%s đã sẵn sàng."
+
+msgid "squad/notSetReadyStatus"
+msgstr "Không thể tham dự trận đánh cùng Trung đội."
+
+msgid "squad/notValidDeleted"
+msgstr "%(vehName)s đã bị loại khỏi Trung đội vì có cấp độ không tương ứng với cấp xe của Chỉ huy. Hãy chọn một xe cùng cấp."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "%(vehName)s đã bị loại khỏi Trung đội do Chỉ huy thay đổi yêu cầu."
+
+msgid "squad/notValidEnqueueData"
+msgstr "Bạn đã bị loại khỏi Trung đội vì Chỉ huy thay đổi điều kiện hoặc không thể gia nhập do xe không đáp ứng yêu cầu. Vui lòng chọn xe khác."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "%(vehName)s đã bị loại do giới hạn số xe này mỗi Trung đội. Hãy chọn chiếc khác."
+
+msgid "squad_bonus/switch_off/body"
+msgstr "Tính năng này tạm thời không khả dụng do các vấn đề kỹ thuật.\nChúng tôi rất tiếc và mong người chơi thông cảm."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "Lợi ích Trung đội tạm thời không khả dụng"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "Các vấn đề kỹ thuật đã được xử lý. Chúng tôi rất xin lỗi và mong người chơi thông cảm."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "Lợi ích Trung đội đã khả dụng trở lại"
+
+msgid "ssr/unavailable"
+msgstr "Không thể tải bản ghi"
+
+msgid "steam_login_not_allowed"
+msgstr "Không thể dùng ứng dụng này để chơi: Tài khoản Steam của bạn đã liên kết với tài khoản Wargaming.net rồi. Tìm hiểu thêm ở hệ thống Hỗ trợ Người chơi."
+
+msgid "tankman/tankmanToRemove"
+msgstr "Thành viên kíp lái đã bị giải ngũ."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s ng"
+
+msgid "techtree/action/header"
+msgstr "\"%(actionName)s\" đặc biệt"
+
+msgid "techtree/action/text"
+msgstr "Ưu đãi kết thúc sau "
+
+msgid "techtree/action/text/closest"
+msgstr "Sự kiện đặc biệt tiếp theo kết thúc sau: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "Lý do: Xe này chỉ khả dụng cho thành viên Prime Gaming. Xin vui lòng kiểm tra trạng thái thuê bao Prime Gaming của bạn."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "Xe không khả dụng"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "Ngày: %(datetime)s\nXe được bổ sung: %(vehicles)s\nĐã thêm: 1 chỗ để xe trong Ga-ra,%(crew)s kiểu mẫu 3D."
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "Ngày: %(datetime)s\nXe được bổ sung: %(vehicles)s\nĐã thêm: 1 chỗ để xe trong Ga-ra,%(crew)s một ngụy trang độc đáo."
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " kíp lái 100%% %(skills)s,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "Xe đã được thêm"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "Ngày: %(datetime)s\nĐã bỏ: %(vehicles)s, 1 chỗ để xe trong Ga-ra"
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "Lý do: Xe này chỉ khả dụng cho thành viên Prime Gaming. Xin vui lòng kiểm tra trạng thái thuê bao Prime Gaming của bạn."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "Đã xóa bỏ xe"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "Xe này đã khả dụng trở lại"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "Đã thêm xe tăng T-44-100 Igrovoy. Đã bỏ: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "Các nhiệm vụ giờ có thể được hoàn tất bằng T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " và "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s bạc"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "Mọi thành viên kíp lái của %(tanks)s đã được tái đào tạo cho T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "Thiết bị đã được gỡ và đưa về Kho.\nChi tiết tùy biến đã được gửi vào Kho.\nĐạn và ứng dụng kỹ thuật đã được trả về Kho."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "Thiết đặt, chi tiết tùy biến, XP Chiến đấu, thống kê và danh hiệu đã được chuyển từ %(mergedTank)s sang cho T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s XP Tự do"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "Đã đền bù XP cho Biến thể Dã chiến: %(compensation)s."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "Đã đền bù cho đề-can được mua: %(value)s vàng."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "Thống kê game và danh hiệu từ %(mergedTank)s đã được chuyển sang cho T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "XP Chiến đấu đã được gộp lại và chuyển sang cho T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Chúc may mắn trên chiến trường!"
+
+msgid "telecomMergeResults/title"
+msgstr "Các thay đổi về Gói cước \"Igrovoy\""
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "Khả năng chọn và thuê xe đã bị dừng."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "Xe thuê tạm thời không khả dụng"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "Xe thuê khả dụng"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "Xin chúc mừng! Bạn đã nhận được %(count)s giơ-tông."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "Không thể chuyển Vàng. Bên nhận từ chối giao dịch."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "Chuyển Vàng không khả dụng."
+
+msgid "tradingError/NO_WARES"
+msgstr "Không thể chuyển Vàng. Không đủ Vàng."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "Bạn đã đạt số giao dịch tối đa. Hãy thử lại vào ngày mai."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "Không thể chuyển vàng. Thử lại sau."
+
+msgid "training/error/AddPlayer"
+msgstr "Lỗi phòng huấn luyện. Đã vượt quá số người chơi tối đa trong một phe."
+
+msgid "training/error/doAction"
+msgstr "Lỗi phòng huấn luyện. Hãy thử lại sau."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "Lỗi phòng tập. Số thành viên tối đa mỗi phe trong Cường kích: %(numPlayers)s."
+
+msgid "training/error/selectObserver"
+msgstr "Lỗi phòng huấn luyện. Số người chơi tối đa trong một phe: %(numPlayers)s."
+
+msgid "training/error/swapTeams"
+msgstr "Lỗi máy chủ khi đổi lại đội chơi. Hãy thử lại sau."
+
+msgid "transferXP/server_error"
+msgstr "Tác vụ không khả dụng. Xin vui lòng thử lại sau."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "Tác vụ không khả dụng. Không đủ quyền hạn."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "Tác vụ không khả dụng. Bạn chưa là thành viên của Clan nào."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "Lỗi: Không thể phục biên xe đã chọn."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "Lỗi: Không đủ Đồ Sửa để phục biên xe."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "Lỗi: Đã có sự thay đổi về giá phục biên xe được chọn."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "Lỗi: Không thể hoàn tất tác vụ."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "Lỗi khi gia nhập Trung đội: Tài khoản của bạn đang tạm thời bị cấm chơi chế độ này."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "Tác vụ không khả dụng. Tài khoản đã được khôi phục."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "Người chơi không thể tham gia vào đội."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "Tác vụ không khả dụng. Vị trí đó đã bị chiếm."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "Người chơi đã tham gia vào đội rồi."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "Không thể chuyển quyền hạn của Chỉ huy."
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "Tác vụ không khả dụng. Loại tài khoản không hợp lệ."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "Tác vụ không khả dụng. Clan không hợp lệ."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "Không thể tham gia đội."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "Tổng cấp độ tăng đã vượt quá qui định."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "Tác vụ không khả dụng. Danh sách thành viên phân đội không hợp lệ."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "Số chỗ trống không đúng"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "Tác vụ không khả dụng. Sai loại xe để tham chiến trong Trung đội."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "Lỗi khi tham gia đội. Sai cấp xe."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "Không thể thay đổi Sư đoàn tại thời gian đã định."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "Không thể tìm đội."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "Không thể gửi lời mời."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "Lỗi khi vào Trung đội: Chơi theo Trung đội không khả dụng cho tới lúc hoàn tất Vòng loại."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "Tác vụ tạm thời không thực hiện được."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "Thất bại khi hoàn thành tác vụ cuối cùng với đội."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "Xe chưa sẵn sàng cho trận đấu hoặc không có xe nào trong Ga-ra."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "Không thể đặt xe vào chỗ này."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "Tác vụ không khả dụng. Một vài thành viên phân đội vẫn đang trong trận."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "Không có quyền thực hiện thao tác này."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "Tài khoản bị khóa."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "Đội chơi đang trong hàng đợi hoặc kết quả tìm kiếm."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "Không thể tham gia đội. Truy cập bị từ chối."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "Đội không có trong hàng đợi."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "Đội không có trong kết quả tìm kiếm."
+
+msgid "unit/errors/NOT_READY"
+msgstr "Đội chơi chưa sẵn sàng."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "Lỗi khi gia nhập Trung đội: Bạn không có xe phù hợp cho chế độ game đã chọn."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "Không thể thêm người chơi làm thành viên đội."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "Tác vụ không khả dụng. Không tìm thấy người chơi."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "Không tìm thấy đội chơi."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "Đội không tồn tại."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "Tác vụ không khả dụng. Lỗi khi hiển thị danh sách xe."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "Tác vụ không khả dụng. Người chơi đang offline."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "Bạn nằm trong Sổ đen của Chỉ huy."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "Tác vụ không khả dụng. Trận đấu trước vẫn chưa kết thúc."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "Không thể trục xuất các thành viên ra khỏi đội."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "Tác vụ không khả dụng. Một hoặc nhiều người chơi vẫn chưa chấp nhận lời mời."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "Tác vụ không khả dụng cho lính lê dương."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "Tác vụ không khả dụng. Chỗ trống chưa được khóa."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "Tác vụ không khả dụng. Vị trí đó đã bị chiếm."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "Tác vụ không khả dụng cho chỗ trống này."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "Không được phép Tranh chấp tại thời gian đã định."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "Không thể chuyển sang chế độ game khác. Đã vượt giới hạn thành viên Trung đội."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "Tác vụ không khả dụng. Hết thời gian."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "Tác vụ không khả dụng. Đã khóa số chỗ trống tối đa."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "Tác vụ không khả dụng. Số lính lê dương đã đạt mức tối đa."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "Không thể tạo đội hay gia nhập một đội."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "Không thể tạo đội."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "Tác vụ không khả dụng. Phân đội đã được khôi phục."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "Tác vụ không khả dụng. Xe không phù hợp với các yêu cầu."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "Tác vụ không khả dụng. Hãy chọn một xe trước."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "Đội không tồn tại."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "Tác vụ không khả dụng. Xe chưa sẵn sàng hoặc không đạt yêu cầu."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Bạn đã được trao quyền chỉ đạo Quân Dự bị Chiến đấu."
+
+msgid "unit/notification/changeDivision"
+msgstr "Chỉ huy %(name)s đã chọn Sư đoàn %(division)s."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "\"Absolute\""
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "\"Champion\""
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "\"Medium\""
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s đã được bổ nhiệm làm Chỉ huy của đội."
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s đã vào phân đội."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s đã gia nhập Trung đội để tham chiến bằng một xe Cấp %(tierRange)s."
+
+msgid "unit/notification/playerOffline"
+msgstr "Kết nối với %(userName)s bị đứt."
+
+msgid "unit/notification/playerOnline"
+msgstr "Kết nối với %(userName)s đã được khôi phục."
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s đã rời đơn vị."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "Lời mời đã được gửi đi rồi."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "Quyền hạn Chỉ huy đã được thuyên chuyển cho một người chơi khác."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Quyền cho phép và kiểm soát của Chỉ huy đối với Quân Dự bị Chiến đấu đã được chuyển sang một người chơi khác."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "Quyền chỉ đạo Quân Dự bị Chiến đấu đã được chuyển cho một người chơi khác."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "Bạn bị loại khỏi phân đội: phân đội đã giải tán."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "Bạn đã bị trục xuất khỏi phân đội. Clan đã được thay đổi."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "Thời gian chơi đã hết nên không thể vào trận mới. Bạn sẽ bị ngắt kết nối khỏi máy chủ lúc %(expiredTime)s."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "Một trong số các thành viên không còn đủ thời gian phiên chơi game để đánh đến hết trận. Trung đội hiện đang trong trạng thái chuẩn bị."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "Tác vụ tập hợp lính lê dương đã bị khóa."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "Tác vụ không khả dụng. Đã hết thời gian chờ."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "Lỗi khi gia nhập đội. Bạn đã bị loại khỏi đội."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "Bạn bị tự động loại khỏi danh sách quân tình nguyện."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "Bạn đã bị Chỉ huy trục xuất."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "Bạn bị loại khỏi phân đội: phân đội đã giải tán."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "Bạn đã trở thành một Chỉ huy Phân đội."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "Bạn đã trở thành Chỉ huy Phân đội.\nBạn đã được trao quyền chỉ đạo Quân Dự bị Chiến đấu."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "Một tiền đồn khác đã được chọn để Tiến công."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "Một loại trận đánh khác đã được chọn."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "Tạm thời không thể tìm kiếm: Quá nhiều Trung đội trên máy chủ này."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "Không thể tìm người chơi do lỗi máy chủ. Hãy thử lại sau."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "Tìm kiếm bị hủy: Ít nhất một thành viên Trung đội không có xe phù hợp cho chế độ game đã chọn."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "Thời gian tìm kiếm đã hết. Người chơi được yêu cầu không có."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "Người chơi đang vào. Vui lòng đợi."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "Xe được phục biên: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "Không xác định được có sẵn sàng tham gia vào đội hay không."
+
+msgid "unload/button"
+msgstr "Đến Doanh trại"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "Không thể gửi kíp lái về Doanh trại: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "Lỗi khi chuyển kíp lái về Doanh trại. Sai xe."
+
+msgid "unload_crew/server_error"
+msgstr "Không thể chuyển kíp lái về Doanh trại. Thử lại sau."
+
+msgid "unload_crew/success"
+msgstr "Kíp lái đã được đưa về Doanh trại."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "Lỗi khi chuyển kíp lái về Doanh trại. Xe đang bị khóa."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "Lỗi khi chuyển kíp lái về Doanh trại. Hãy sửa xe của bạn."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "Không thể gửi thành viên kíp lái về Doanh trại: Xe tăng này có kíp lái cố định, không thay đổi được."
+
+msgid "unload_tankman/button"
+msgstr "Đến Doanh trại"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "Lỗi khi chuyển thành viên kíp lái về Doanh trại. Sai xe."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "Không thể gửi thành viên kíp lái này vào Doanh trại. Không đủ chỗ trong Doanh trại."
+
+msgid "unload_tankman/server_error"
+msgstr "Không thể đưa thành viên kíp lái về Doanh trại. Hãy thử lại sau."
+
+msgid "unload_tankman/success"
+msgstr "Thành viên kíp lái đã được gửi về Doanh trại."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "Lỗi khi chuyển thành viên kíp lái về Doanh trại. Xe đang bị khóa."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "Lỗi khi chuyển thành viên kíp lái về Doanh trại. Hãy sửa chữa xe của bạn."
+
+msgid "unlocks/drawFailed"
+msgstr "Thiết lập không đúng. Sơ đồ Công nghệ bị khóa."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "Mô-đun %(typeString)s \"%(userString)s\" đã được nghiên cứu."
+
+msgid "unlocks/item/in_processing"
+msgstr "Yêu cầu nghiên cứu đã được gửi đi. Đang chờ máy chủ phản hồi."
+
+msgid "unlocks/item/server_error"
+msgstr "Lỗi máy chủ khi nghiên cứu mô-đun %(typeString)s \"%(userString)s\". Hãy thử lại sau."
+
+msgid "unlocks/item/unlock_success"
+msgstr "Mô-đun %(typeString)s \"%(userString)s\" đã được nghiên cứu. XP đã sử dụng: %(vehXP)s. XP Tự do đã dùng hết: %(freeXP)s."
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "%(userString)s đã được nghiên cứu."
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "Yêu cầu nghiên cứu đã được gửi đi. Đang chờ máy chủ phản hồi."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "Lỗi máy chủ khi nghiên cứu %(userString)s. Hãy thử lại sau."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "%(userString)s đã được nghiên cứu. EXP đã sử dụng: %(vehXP)s. EXP Tự do đã dùng hết: %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "Lỗi khi đào tạo thành viên kíp lái. Thử lại sau."
+
+msgid "upgradeTankman/success"
+msgstr "Việc huấn luyện đã hoàn tất."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "Thiết bị bao cấp tạm thời không khả dụng vì lý do kỹ thuật. Hãy thử lại sau."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "Nâng cấp Thiết bị bao cấp đã khả dụng trở lại. Chúng tôi rất tiếc về vấn đề này."
+
+msgid "vehicle/restore/finished"
+msgstr "Không thể lấy lại %(vehicleName)s: Đã hết thời gian cho tác vụ này."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "Bạn sẽ có thể lấy lại xe từ Cửa hàng trong %(time)s ngày nữa."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "Bạn sẽ có thể lấy lại xe từ Cửa hàng trong %(time)s giờ nữa."
+
+msgid "vehicleCompare/disabled"
+msgstr "Tác vụ tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "Tính năng xem trước %(vehicle)s sẽ khả dụng sau khi tải toàn bộ trò chơi."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "Yêu cầu lắp đặt thiết bị đã được gửi đi. Đang chờ máy chủ phản hồi."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "Không thể mua %(typeString)s \"%(userString)s\". Vui lòng thử lại sau."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "Mô-đun %(typeString)s \"%(userString)s\" đã được mua xong (số lượng: %(count)d). Đã dùng hết %(price)s."
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "Mô-đun %(typeString)s \"%(userString)s\" đã có sẵn trong Kho."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "Mô-đun %(typeString)s \"%(userString)s\" đã được nghiên cứu."
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "Để mua %(typeString)s \"%(userString)s\", bạn cần thêm %(price)s nữa."
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "Mô-đun %(typeString)s \"%(userString)s\" không có trong Kho."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "Mô-đun %(typeString)s \"%(userString)s\" không có trong Cửa hàng. Xin vui lòng thử lại sau."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "%(typeString)s \"%(userString)s\" đã được nghiên cứu. XP đã sử dụng: %(unspentXP)s. XP Tự do đã dùng hết: %(freeXP)s."
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "Yêu cầu nghiên cứu đã được gửi đi. Đang chờ máy chủ phản hồi."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "%(userString)s đã có sẵn trong Kho."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "%(userString)s đã được nghiên cứu."
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "Để mua %(userString)s, bạn cần thêm %(price)s nữa."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "%(userString)s không có trong Kho."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "%(userString)s không có trong Cửa hàng. Xin vui lòng thử lại sau."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "%(userString)s đã được nghiên cứu. EXP đã sử dụng: %(unspentXP)s. EXP Tự do đã dùng hết: %(freeXP)s."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "Hệ thống Phần thưởng Elite giờ đã khả dụng cho %(vehicle)s"
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "Phần thưởng Elite"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "Đã mua thành công biến thể %(modification)s cho %(vehicle)s."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "Đã mua Biến thể"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "Danh mục %(category)s cho ô thứ hai của %(vehicle)s đã được chỉ định thành công."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "Chỉ định Danh mục Ô"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "Chi phí tính theo bạc: %(value)s."
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Mọi Sửa đổi Kép cho %(vehicle)s đã bị hủy bỏ."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "Đã hủy biến thể %(modification)s cho %(vehicle)s."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "Đã hủy Biến thể"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "Đã hủy biến thể %(modifications)s cho %(vehicle)s."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "Chi phí tính theo XP Chiến đấu: %(value)s."
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "Chi phí tính theo ​XP Tự do: %(value)s."
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "Lỗi Sơ đồ Biến thể. Xin vui lòng thử lại sau."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "Lỗi"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "Đã nghiên cứu và mua thành công Biến thể Cơ bản Cấp %(level)s cho %(vehicle)s."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "Đã nghiên cứu và mua thành công Biến thể Cơ bản Cấp %(levels)s cho %(vehicle)s."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "Đã nghiên cứu Biến thể"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "Danh mục %(category)s cho ô thứ hai của %(vehicle)s đã được chỉ định thành công."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "Chỉ định Danh mục Ô"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "Thiết đặt Phụ trợ giờ đã khả dụng cho %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "Thiết đặt Phụ trợ"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "Chỉ định danh mục ô thứ hai giờ đã khả dụng cho %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "Danh mục Ô Khả dụng"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "Thiết đặt Cốt yếu giờ đã khả dụng cho %(vehicle)s."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "Thiết đặt Cốt yếu"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "Sơ đồ Biến thể giờ đã khả dụng cho %(vehicle)s."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "Biến thể Dã chiến"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "Sơ đồ Biến thể Xe khả dụng. Bạn có thể tùy chỉnh xe mình theo vai trò cũng như thay đổi đặc tính bằng hàng loạt sửa đổi khác nhau."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "Lỗi nâng cấp. Vui lòng thử lại sau."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "Lỗi"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "Nốt \"%(perk)s\" đã được nghiên cứu thành công cho %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "Nốt được nghiên cứu"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "%(perk)s nốt đã được nghiên cứu thành công cho %(vehicle)s."
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "Nốt được nghiên cứu"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "Tác vụ không khả dụng. Xin vui lòng thử lại sau."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "Không thể mua %(vehName)s. Sai xe."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "Không thể mua %(vehName)s. Không đủ bạc."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "Không thể mua %(vehName)s. Không đủ Vàng."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "Tác vụ không khả dụng. Xe thuộc quốc gia này chưa được nghiên cứu."
+
+msgid "vehicle_buy/server_error"
+msgstr "Không thể mua %(vehName)s do lỗi máy chủ. Hãy thử lại sau."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "Không thể mua xe %(vehName)s. Máy chủ tạm thời không khả dụng."
+
+msgid "vehicle_buy/success"
+msgstr "%(vehName)s đã được mua xong. Đã dùng hết %(price)s."
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "Không thể bỏ %(vehName)s. Hãy thử lại sau."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "Không thể bỏ %(vehName)s. Sai xe."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "Không thể bỏ %(vehName)s. Không đủ bạc."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "Không thể bỏ %(vehName)s. Không đủ vàng."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "Không thể bỏ %(vehName)s. Không đủ giường trong Doanh trại."
+
+msgid "vehicle_remove/server_error"
+msgstr "Không thể bán %(vehName)s. Hãy kiểm tra xem nó có đang thuộc bất kỳ đơn vị tác chiến nào hay không, hoặc thử lại sau."
+
+msgid "vehicle_remove/success/default"
+msgstr "%(vehName)s đã được xóa thành công.\n%(money)s."
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "%(vehName)s đã được xóa thành công."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "Đã bỏ %(vehName)s thành công.\n%(gainMoney)s.\n%(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "Không thể bỏ %(vehName)s. Xe sẽ được xóa đi một cách tự động."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "Không thể bỏ %(vehName)s. Xe đã bị khóa."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "Không thể bỏ %(vehName)s. Xe cần sửa chữa."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "Không thể bỏ %(vehName)s. Bạn đã đạt tới giới hạn số xe có thể trong ngày hôm nay."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "vehicle_rent/buyOption"
+msgstr "Chú ý! Nếu sau này quyết định mua nó, bạn sẽ được giảm giá."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "Không thể thuê %(vehName)s. Sai xe."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "Không thể thuê %(vehName)s. Không đủ bạc."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "Không thể thuê %(vehName)s. Không đủ vàng."
+
+msgid "vehicle_rent/server_error"
+msgstr "Không thể thuê %(vehName)s do lỗi máy chủ. Hãy thử lại sau."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "Không thể thuê %(vehName)s. Chức năng thuê xe tạm thời không khả dụng."
+
+msgid "vehicle_rent/success"
+msgstr "Bạn đã thuê được %(vehName)s %(rentPackageName)s. Chi phí dùng hết: %(price)s. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "cho %(days)d ng"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "vehicle_repair/credits_error"
+msgstr "Cần %(needed)s để sửa chữa %(vehName)s."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "Cần %(needed)s để sửa chữa %(vehName)s."
+
+msgid "vehicle_repair/server_error"
+msgstr "Lỗi khi sửa chữa %(vehName)s. Thử lại sau."
+
+msgid "vehicle_repair/success"
+msgstr "Đã sửa chữa %(vehName)s. Chi phí %(money)s."
+
+msgid "vehicle_restore/DISABLED"
+msgstr "Tính năng lấy lại xe tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "Không thể lấy lại %(vehName)s. Tính năng này tạm thời không khả dụng."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "Không thể lấy lại %(vehName)s. Sai xe."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "Không thể lấy lại %(vehName)s. Không đủ bạc."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "Không thể lấy lại %(vehName)s. Không đủ vàng."
+
+msgid "vehicle_restore/server_error"
+msgstr "Không thể lấy lại %(vehName)s do lỗi máy chủ. Hãy thử lại sau."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "Không thể lấy lại %(vehName)s. Tính năng này tạm thời không khả dụng."
+
+msgid "vehicle_restore/success"
+msgstr "%(vehName)s đã được lấy lại thành công.Chi phí %(price)s."
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "Bộ Tháo gỡ đã dùng (x%(countDK)s)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "Không thể bán %(vehName)s. Hãy thử lại sau."
+
+msgid "vehicle_sell/disabledService"
+msgstr "Không thể bán %(vehName)s. Hãy thử lại sau."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "Không thể bán %(vehName)s. Không đủ thành phần để gỡ thiết bị."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "Không thể bán %(vehName)s. Sai xe."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "Không thể bán %(vehName)s. Không đủ bạc."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "Không thể bán %(vehName)s. Không đủ vàng."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "Không thể bán %(vehName)s. Không đủ chỗ trong Doanh trại."
+
+msgid "vehicle_sell/server_error"
+msgstr "Không thể bán %(vehName)s. Hãy kiểm tra xem nó có đang thuộc bất kỳ đơn vị tác chiến nào hay không, hoặc thử lại sau."
+
+msgid "vehicle_sell/success"
+msgstr "Đã bán %(vehName)s thành công.\n%(money)s.\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "Đã bán %(vehName)s thành công.\n%(gainMoney)s.\n%(spendMoney)s.\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "Không thể bán %(vehName)s. Xe này sẽ được tự động loại bỏ."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "Không thể bán %(vehName)s. Xe đang bị khóa."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "Không thể bán %(vehName)s. Hãy sửa xe của bạn."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "Không thể bán %(vehName)s. Bạn đã đạt tới số xe tối đa có thể bán trong ngày."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Lỗi khi mua chỗ để xe. Không đủ bạc."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "Lỗi khi mua chỗ để xe. Không đủ vàng."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "Lỗi khi mua chỗ để xe. Thử lại sau."
+
+msgid "vehicle_slot_buy/success"
+msgstr "Đã mua thêm chỗ trong Ga-ra. Chi phí tính theo %(money)s."
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "Lỗi khi thay đổi tùy chọn Tăng tốc Đào tạo Kíp lái %(vehName)s. Sai xe."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "Không thể thay đổi tùy chọn Tăng tốc Đào tạo Kíp lái %(vehName)s. Hãy thử lại sau."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "Đã tắt Tăng tốc Đào tạo Kíp lái %(vehName)s."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "Đã bật Tăng tốc Đào tạo Kíp lái %(vehName)s."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "Lỗi khi thay đổi tùy chọn Tăng tốc Đào tạo Kíp lái %(vehName)s. Xe đang bị khóa."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "Lỗi khi thay đổi tùy chọn Tăng tốc Đào tạo Kíp lái %(vehName)s. Hãy sửa lại xe."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "Thất bại khi bán-đổi lấy xe %(vehName)s. Đã chọn xe không đúng."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "Không thể bán-đổi lấy xe %(vehName)s. Không đủ bạc."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "Không thể bán-đổi lấy xe %(vehName)s. Không đủ vàng."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "Không thể bán-đổi xe %(tradeOffVehName)s. Không đủ giường trong Doanh trại."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Ưu đãi bán-đổi giờ đã khả dụng!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "Ưu đãi bán-đổi không còn nữa!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "Thất bại khi bán-đổi lấy xe %(vehName)s. Lỗi máy chủ. Vui lòng thử lại sau."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "Thất bại khi bán-đổi lấy xe %(vehName)s. Hệ thống mua/bán-đổi tạm thời không khả dụng."
+
+msgid "vehicle_trade_in/success"
+msgstr "%(tradeOffVehName)s đã bị lấy đi. %(vehName)s đã được mua với chi phí %(price)s."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "Thất bại khi bán-đổi xe %(tradeOffVehName)s. Xe này sẽ tự động bị bỏ đi."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "Thất bại khi bán-đổi lấy xe %(vehName)s. Xe này không thể lấy được bằng hệ thống bán-đổi."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "Không thể bán-đổi xe %(tradeOffVehName)s. Xe này không thể bán-đổi được."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "Không thể bán-đổi xe %(tradeOffVehName)s. Xe này không khả dụng."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "Không thể bán-đổi xe %(tradeOffVehName)s. Hãy sửa chữa nó."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "Không thể bán-đổi %(tradeOffVehName)s. Xe này không có trong Kho."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "Không thể thực hiện tác vụ. Tất cả vàng của bạn sẽ khả dụng sau khi hệ thống WG Wallet tự động khôi phục xong."
+
+msgid "video/error"
+msgstr "Lỗi khi phát lại video. Mã lỗi: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "Khu chiến sự trên bản đồ con tạm thời không khả dụng."
+
+msgid "w2gt/switchOff/header"
+msgstr "Sự cố kỹ thuật"
+
+msgid "w2gt/switchOn/description"
+msgstr "Khu chiến sự trên bản đồ con đã trở lại. Đánh nào!"
+
+msgid "w2gt/switchOn/header"
+msgstr "Chức năng khôi phục"
+
+msgid "wallet/available"
+msgstr "WG Wallet đã được đồng bộ thành công. Tất cả vàng, bạc, trái phiếu và Kinh nghiệm Tự do đã có thể sử dụng từ bây giờ."
+
+msgid "wallet/available_freexp"
+msgstr "WG Wallet đã đồng bộ thành công. Tất cả EXP tự do của bạn có thể sử dụng từ bây giờ."
+
+msgid "wallet/available_gold"
+msgstr "WG Wallet đã đồng bộ thành công. Tất cả vàng của bạn đã có thể sử dụng từ bây giờ."
+
+msgid "wallet/not_available"
+msgstr "Quá trình thu thập dữ liệu về số dư đang được tiến hành. Tất cả Vàng và EXP tự do của bạn sẽ sớm khả dụng."
+
+msgid "wallet/not_available_freexp"
+msgstr "Việc thu thập dữ liệu về các số dư đang được tiến hành. Tất cả EXP tự do của bạn sẽ sớm khả dụng."
+
+msgid "wallet/not_available_gold"
+msgstr "Việc thu thập dữ liệu về các số dư đang được tiến hành. Tất cả Vàng của bạn sẽ sớm khả dụng."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "Không thể đổi mới Nhiệm vụ Hàng tuần: Tác vụ đã bị khóa."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "Không thể đổi mới Nhiệm vụ Hàng tuần: Nhiệm vụ không hợp lệ."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "Không thể đổi mới Nhiệm vụ Hàng tuần: Đã hoàn thành nhiệm vụ rồi."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "Không thể đổi mới Nhiệm vụ Hàng tuần: Tác vụ đã bị treo."
+
+msgid "weekly_quests/reroll/success"
+msgstr "Đã đổi mới Nhiệm vụ Hàng tuần thành công."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "Không thể đổi mới Nhiệm vụ Hàng tuần: Hãy thử lại sau."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "Nhiệm vụ Hàng tuần tạm thời không khả dụng. Chúng tôi xin lỗi vì sự bất tiện này."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "Nhiệm vụ Hàng tuần đã khả dụng trở lại. Chúng tôi xin lỗi vì sự bất tiện này."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Không thể thoát khỏi \"Khởi động\". Xin thử lại sau."
+
+msgid "window/buttons/close"
+msgstr "Tắt"
+
+msgid "wrong_slot"
+msgstr "%s \"%s\" không khớp với chỗ trống %s."

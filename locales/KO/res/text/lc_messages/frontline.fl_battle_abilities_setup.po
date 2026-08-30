@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "모든 {{icon}} {{type}}에 적용"
+
+msgid "header/points"
+msgstr "보급 점수: {{value}}"
+
+msgid "header/title"
+msgstr "전시 물자"
+
+msgid "infoPanel/category/firesupport"
+msgstr "공격 물자"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "정찰 물자"
+
+msgid "infoPanel/category/tactics"
+msgstr "전술 물자"
+
+msgid "infoPanel/category/title"
+msgstr "범주: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "{{@ colorLegacy 'FFE4C0'}}운명의 장난{{/}} 시나리오에서는 전시 물자를 구매해 두면 물자 레벨이 1 오르므로 물자를 레벨 {{@ colorLegacy 'FFE4C0'}}4{{/}}까지 강화할 수 있습니다."
+
+msgid "infoPanel/description/unlocked"
+msgstr "{{@ colorLegacy 'FFE4C0'}}운명의 장난{{/}} 시나리오에서는 전투 참여 전에 슬롯에 전시 물자를 추가하면 해당 물자가 선택 목록에 등장할 확률이 {{@ colorLegacy 'FFE4C0'}}10%{{/}} 증가합니다."
+
+msgid "infoPanel/level"
+msgstr "레벨:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}}m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/초"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}}초"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "전시 물자 미구매"
+
+msgid "infoPanel/status/unlocked"
+msgstr "전시 물자 구매 완료"

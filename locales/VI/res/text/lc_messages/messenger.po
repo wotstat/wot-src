@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "xem các tin nhắn mới"
+
+msgid "battle/history/header"
+msgstr "Phe địch"
+
+msgid "battle/history/latestMessage"
+msgstr "xem tin nhắn gần nhất"
+
+msgid "battle/history/title"
+msgstr "Lịch sử Chat:"
+
+msgid "battle/history/upMessage"
+msgstr "xem các tin nhắn cũ"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sTẮT CHAT%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "Chat trong trận không khả dụng cho người chơi đến từ quốc gia của bạn."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "Chat trong trận không khả dụng cho tài khoản của bạn."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "Chat trong trận bị cấm do giới hạn kiểm soát từ phụ huynh."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "Có thể bật tính năng chat trong trận đấu tại thiết lập game."
+
+msgid "battle/receivers/common"
+msgstr "TẤT CẢ"
+
+msgid "battle/receivers/squad"
+msgstr "TRUNG ĐỘI"
+
+msgid "battle/receivers/team"
+msgstr "PHE TA"
+
+msgid "battle/toolTips/cancel"
+msgstr "hủy bỏ"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "Thay đổi người nhận"
+
+msgid "battle/toolTips/default"
+msgstr "với người nhận trước"
+
+msgid "battle/toolTips/duringChat"
+msgstr "Trong khi chat:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "Bạn có thể chặn tin nhắn từ game thủ đã chọn bằng cách click vào nút bấm gần tin nhắn của người đó trong ô Chat."
+
+msgid "battle/toolTips/send"
+msgstr "gửi"
+
+msgid "battle/toolTips/startChat"
+msgstr "Bắt đầu chat:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "Bạn có thể tố cáo một tin nhắn bằng cách click vào nó và chọn lý do phù hợp. Tùy chọn này cũng cho phép bạn tắt Chat hoặc chỉ trao đổi với đồng đội. Chat Trung đội sẽ vẫn khả dụng bất kể trường hợp nào."
+
+msgid "battle/toolTips/usingChat"
+msgstr "Chat"
+
+msgid "battle/toolTips/withSquad"
+msgstr "Với Trung đội của bạn"
+
+msgid "battle/unknown/ally"
+msgstr "Phe ta"
+
+msgid "battle/unknown/enemy"
+msgstr "Phe địch"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "Bạn sẽ bị ngắt kết nối khỏi máy chủ vào %(curfewTime)s. Phiên chơi này sẽ kết thúc sau %(timeLeft)s ph."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "Bạn đã đạt đến giới hạn thời gian chơi trong ngày. Phiên này sẽ kết thúc sau %(timeLeft)s ph."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "Bạn đã đạt đến giới hạn thời gian chơi trong tuần. Phiên này sẽ kết thúc sau %(timeLeft)s ph."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "Bạn đã đạt đến giới hạn thời gian chơi. Phiên game sẽ kết thúc sau %(timeLeft)s phút."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "Tin nhắn từ người lạ có thể chứa liên kết độc hại. Không bao giờ sử dụng các liên kết đó. Không bao giờ để lộ mật khẩu của bạn với bất kỳ ai."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "Chú ý!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "Kết quả trận đánh"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "Tin nhắn từ %(playerName)s đã bị chặn."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "Gửi thông điệp"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "Gửi thông điệp"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "Tìm người chơi"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "Thiết lập Chat Voice"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "Bạn không thể cấm chính mình."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "Lỗi khi thực hiện \"%(actionName)s\"."
+
+msgid "chat_error/IS_BUSY"
+msgstr "Máy chủ đang bận."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "không đủ quyền hạn để thực hiện tác vụ."
+
+msgid "chat_error/NOT_READY"
+msgstr "Tác vụ \"%(actionName)s\" không khả dụng."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "người dùng không tồn tại."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "tham số không hợp lệ."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "Chat Voice đã bị tắt. Để liên lạc với thành viên cùng Trung đội của bạn, hãy bật Chat Voice bằng cách bấm phím %(keyName)s."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "Chat Voice đã bị tắt. Để liên lạc với các thành viên cùng Trung đội của bạn, hãy bật Chat Voice (%(keyName)s)."
+
+msgid "client/commendations/comms_mutual"
+msgstr "Bạn và %(player)s đã khen nhau."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s đã khen bạn."
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s đã được khen."
+
+msgid "client/dynSquad/created/allies"
+msgstr "Đồng đội của bạn đã thành lập Trung đội %(squadNum)s."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "Trung đội %(squadNum)s đã được phe địch thành lập."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "Trung đội %(squadNum)s đã được thành lập. Chat Voice và chat Trung đội bắt đầu khả dụng. Để tắt Chat Voice, hãy bấm phím %(keyName)s."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "Trung đội %(squadNum)s đã được thành lập. Chat Voice và chat Trung đội bắt đầu khả dụng. Để bật Chat Voice, hãy bấm phím %(keyName)s."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "Trung đội %(squadNum)s đã được thành lập. Chat Voice và chat Trung đội bắt đầu khả dụng. Hãy chỉ định một nút bấm để bật/tắt Chat Voice."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "Trung đội %(squadNum)s đã được thành lập. Chat Trung đội bắt đầu khả dụng."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "Bạn đã gia nhập Trung đội %(squadNum)s. Chat Voice và chat Trung đội bắt đầu khả dụng. Để tắt Chat Voice, hãy bấm phím %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "Bạn đã gia nhập Trung đội %(squadNum)s. Chat Voice và chat Trung đội bắt đầu khả dụng. Để bật Chat Voice, hãy bấm phím %(keyName)s."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "Bạn đã gia nhập Trung đội %(squadNum)s. Chat Voice và chat Trung đội bắt đầu khả dụng. Hãy chỉ định một nút bấm để bật/tắt Chat Voice."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "Bạn đã gia nhập Trung đội %(squadNum)s. Chat Trung đội bắt đầu khả dụng."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "Chat Voice đã bị tắt. Để liên lạc với các thành viên cùng Trung đội của bạn, hãy bật Chat Voice bằng cách bấm phím %(keyName)s."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "Chat Voice đã được bật."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "Bạn đã gia nhập Trung đội %(squadNum)s. Chat Voice và chat Trung đội bắt đầu khả dụng. Để tắt Chat Voice, hãy bấm phím %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "Bạn đã gia nhập Trung đội %(squadNum)s. Chat Voice và chat Trung đội bắt đầu khả dụng. Để bật Chat Voice, hãy bấm phím %(keyName)s."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "Bạn đã gia nhập Trung đội %(squadNum)s. Chat Voice và chat Trung đội bắt đầu khả dụng. Hãy chỉ định một nút bấm để bật/tắt Chat Voice."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "Bạn đã gia nhập Trung đội %(squadNum)s. Chat Trung đội bắt đầu khả dụng."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s đã gia nhập Trung đội %(squadNum)s."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s đã mời bạn vào Trung đội."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s đã mời bạn tham gia Trung đội.\nChú ý! Tên nick và Tag Clan thật của bạn sẽ được hiển thị cho các thành viên Trung đội."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s đã được mời vào Trung đội."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "Bạn đã bị cấm gửi tin nhắn trong %s giây."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "Lệnh \"%s\" bị treo trong %s giây."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "Lệnh %s bị treo."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Tin nhắn đã bị khóa. Xin vui lòng chờ %s giây."
+
+msgid "client/information/addToFriends/message"
+msgstr "Yêu cầu thêm người chơi %s vào danh sách Bạn bè đã được lưu."
+
+msgid "client/information/addToIgnored/message"
+msgstr "Yêu cầu thêm người chơi %s vào Sổ đen của bạn đã được lưu. Chat với người này đã bị chặn, tin nhắn của người này đã được ẩn đi."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "Tính năng Chat với %s đã bị chặn; tin nhắn của người chơi này sẽ bị ẩn đi."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "Không có kết quả."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "Yêu cầu bỏ người chơi %s khỏi danh sách Bạn bè đã được lưu."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "Yêu cầu bỏ người chơi %s khỏi Sổ đen của bạn đã được lưu. Chat với người này đã khôi phục hoàn toàn."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "Tính năng Chat với %s đã trở lại bình thường."
+
+msgid "client/information/setMuted/message"
+msgstr "%s không được phép gửi tin nhắn thoại cho bạn."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s được phép gửi tin nhắn thoại cho bạn."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "Ngồi mát đòi ăn bát vàng à!\nLàm việc nhóm mới có cơ thắng!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "Truy vấn trống"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "Tìm kiếm Người dùng"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "Độ dài không đúng hoặc ký tự không hợp lệ trong ô Tìm kiếm. Số ký tự hợp lệ là %d tới %d."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "Tìm kiếm Người dùng"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "Thêm vào DS Bạn bè"
+
+msgid "client_action/ADD_GROUP"
+msgstr "Tạo nhóm"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "Cho vào Sổ đen"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "Chấp nhận yêu cầu kết bạn"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "Từ chối yêu cầu kết bạn"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "Sửa nhóm"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "Tạo kênh người chơi"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "Tìm người chơi"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "Kết nối tới kênh người chơi"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "Rời khỏi kênh người chơi"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "Xóa khỏi DS Bạn bè"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "Xóa khỏi Sổ đen"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "Xóa ghi chú"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "Gửi yêu cầu kết bạn"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "Xem thông điệp trước đó"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "Tìm kênh người chơi"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "Gửi thông điệp"
+
+msgid "client_action/SET_MUTE"
+msgstr "Tắt chức năng tin nhắn thoại"
+
+msgid "client_action/SET_NOTE"
+msgstr "Tạo/sửa ghi chú"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "Bật chức năng tin nhắn thoại"
+
+msgid "client_error/action/in_cooldown"
+msgstr "Tác vụ \"%(actionName)s\" bị treo trong %(floatArg1)s giây."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "Tác vụ \"%(actionName)s\" tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "Bạn đã vượt quá số kênh tối đa cho phép. Vui lòng tắt các kênh không cần thiết và thử lại."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "Kênh \"%(strArg1)s\" đã tồn tại rồi."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "Tên kênh chưa được chỉ định."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "Tên kênh không hợp lệ \"%(strArg1)s\"."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "Mật khẩu xác nhận không khớp với mật khẩu được nhập."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "Mật khẩu kênh chưa được chỉ định."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "Mật khẩu kênh không chính xác."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "Mật khẩu xác nhận chưa được chỉ định."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "Mật khẩu xác nhận không chính xác."
+
+msgid "client_error/command/generic_error"
+msgstr "Lỗi khi thi hành lệnh \"%(strArg1)s\"."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "lệnh bị đóng băng trong %(floatArg1)s."
+
+msgid "client_error/command/not_supported"
+msgstr "lệnh %(strArg1)s không được hỗ trợ bởi game."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "thời gian cấm không hợp lệ %(int64Arg1)s."
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "loại cấm không hợp lệ %(int32Arg1)s."
+
+msgid "client_error/command/wrong_player_name"
+msgstr "tên người chơi không hợp lệ %(strArg1)s."
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "Người chơi \"%(strArg1)s\" đang nằm trong Sổ đen của bạn."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "Người chơi \"%(strArg1)s\" không nằm trong Sổ đen của bạn."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "Không tìm thấy người chơi."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "Bạn đã chấp nhận yêu cầu kết bạn từ \"%(strArg1)s\" rồi."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "Bạn đã từ chối yêu cầu kết bạn từ \"%(strArg1)s\" rồi."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "Phản hồi yêu cầu kết bạn từ \"%(strArg1)s\" đang được xử lý."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "Tên nhóm chưa được chỉ định."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "Nhóm \"%(strArg1)s\" đã tồn tại rồi."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "Tên nhóm \"%(strArg1)s\" không hợp lệ"
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "Không tìm thấy nhóm \"%(strArg1)s\"."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "Cho phép tin nhắn thoại từ người chơi \"%(strArg1)s\"."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "Nội dung ghi chú chưa được chỉ định."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "Không có ghi chú nào cho người chơi \"%(strArg1)s\""
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "Người chơi \"%(strArg1)s\" đã nằm trong danh sách Bạn bè."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "Không tìm thấy người chơi \"%(strArg1)s\" trong DS Bạn bè."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "Tên kênh phải chứa %(int32Arg1)s–%(int32Arg2)s ký tự."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "Tên nhóm không được vượt quá %(int32Arg2)s ký tự."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "Số người chơi tối đa trong Sổ đen là %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "Số nhóm tối đa được tạo là %(int32Arg2)s."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "Rất tiếc, bạn không thể có hơn %(int32Arg2)s người chơi trong DS Bạn bè. Hãy xóa bỏ những ai không còn chơi chung nữa."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "Nội dung trong ghi chú không được vượt quá %(int32Arg2)s ký tự."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "Mật khẩu phải chứa %(int32Arg1)s–%(int32Arg2)s ký tự."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "ID người chơi không hợp lệ"
+
+msgid "client_error/shared/GENERIC"
+msgstr "Lỗi khi thực hiện \"%(actionName)s\"."
+
+msgid "client_error/shared/LOCKED"
+msgstr "Tác vụ \"%(actionName)s\" tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "Tên người chơi chưa được chỉ định."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "Tên người chơi %(strArg1)s không hợp lệ"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "Không thể kết nối tới máy chủ chat. Hãy thử lại sua."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "Tác vụ \"%(actionName)s\" không được hỗ trợ trong game."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "Đã xảy ra lỗi, hãy thử lại sau."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "Một số tính năng không khả dụng cho tới khi bắt đầu đếm ngược."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "Dữ liệu đã chỉ định không hợp lệ."
+
+msgid "command/acceptInvite"
+msgstr "Chấp nhận lời mời"
+
+msgid "command/addFriend"
+msgstr "Thêm vào DS Bạn bè"
+
+msgid "command/addIgnored"
+msgstr "Cho vào Sổ đen"
+
+msgid "command/broadcast"
+msgstr "Gửi thông điệp"
+
+msgid "command/createChatChannel"
+msgstr "Tạo kênh"
+
+msgid "command/createInvite"
+msgstr "Tạo lời mời"
+
+msgid "command/createPrivate"
+msgstr "Tạo kênh riêng"
+
+msgid "command/findChatChannels"
+msgstr "Tìm kiếm kênh"
+
+msgid "command/findUser"
+msgstr "Tìm người chơi"
+
+msgid "command/getActiveInvites"
+msgstr "Lấy danh sách lời mời"
+
+msgid "command/getArchiveInvites"
+msgstr "Lấy danh sách lời mời đã nhận"
+
+msgid "command/getMembersCount"
+msgstr "Lấy số lượng người chơi trên kênh"
+
+msgid "command/leaveChatChannel"
+msgstr "Rời kênh"
+
+msgid "command/rejectInvite"
+msgstr "Từ chối lời mời"
+
+msgid "command/removeFriend"
+msgstr "Xóa khỏi DS Bạn bè"
+
+msgid "command/removeIgnored"
+msgstr "Xóa khỏi Sổ đen"
+
+msgid "command/requestChatChannelMembers"
+msgstr "Lấy danh sách thành viên Clan"
+
+msgid "command/requestSystemChatChannels"
+msgstr "Lấy danh sách kênh hệ thống"
+
+msgid "command/setMuted"
+msgstr "Tắt chức năng tin nhắn thoại"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s đã bị cấm."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s không còn bị cấm."
+
+msgid "command/unsetMuted"
+msgstr "Bật chức năng tin nhắn thoại"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "Click để lưu nhóm liên lạc đã tạo."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "Tạo"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "Click để hủy bỏ quá trình tạo và quay về Danh bạ của bạn."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "Tắt"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "Click để xóa nhóm liên lạc của bạn."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "Xóa"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "Click để hủy quá trình xóa và trở về Danh bạ của bạn."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "Hủy bỏ"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "Click để lưu nhóm liên lạc với tên mới."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "Lưu"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "Click để hủy bỏ quá trình sửa đổi và quay về Danh bạ của bạn."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "Tắt"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "Tên không được vượt quá %(maxChars)s ký tự."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "Click để thêm người chơi vào danh sách Bạn bè."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "Thêm"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "Click để hủy bỏ tìm kiếm người chơi và trở về Danh bạ của bạn."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "Tắt"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "Click để tìm kiếm người chơi theo tên."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "Tìm kiếm"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "Tên phải chứa từ %(minChars)s đến %(maxChars)s ký tự hoặc số."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "Tìm kiếm bị tạm ngưng trong %(time)s giây do gửi truy vấn quá thường xuyên."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "Click để lưu các thiết lập đã chọn."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "Áp dụng"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "Click để hủy bỏ các thay đổi và trở về Danh bạ của bạn."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "Hủy bỏ"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "Click để tạo một nhóm."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "Tạo Nhóm"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "Click để tìm tên người chơi không có trong Danh bạ của bạn."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "Tìm Ngoài Danh bạ"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "Click để tìm kiếm và thêm người chơi vào Danh bạ của bạn."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "Tìm Người chơi"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "Click để thay đổi thiết lập Danh bạ."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "Thiết lập"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "Tên chứa tối đa %(maxChars)s ký tự."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "Gửi lệnh"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "Khai trừ khỏi đội"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "Tắt"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "Tạo kênh"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "Tìm kiếm và tham gia"
+
+msgid "dialogs/channels/title"
+msgstr "Kênh"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "Tắt"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "Tham gia"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "Mật khẩu phải chứa 3-12 ký tự."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "Mật khẩu không hợp lệ."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "Bạn đang cố gắng để kết nối kênh mật %s."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "Nhập mật khẩu:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "Cảnh báo"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "Kết nối tới kênh"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "Mời vào Clan"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "Thêm vào DS Bạn bè"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "Cho vào Sổ đen"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "Sao chép vào bộ nhớ tạm"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "Tạo Kênh Riêng"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "Chuyển Vàng"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "Xóa khỏi DS Bạn bè"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "Xóa khỏi Sổ đen"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "Xem chi tiết"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "Sắp xếp theo tên"
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "Sắp xếp theo trạng thái"
+
+msgid "dialogs/contacts/title"
+msgstr "Danh bạ"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "Clan"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "Bạn bè"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "Yêu cầu kết bạn"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "Sổ đen"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "Tắt Tin nhắn Thoại"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "Tắt"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "Tạo"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Sẽ được tạo một cách tự động"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "Nhập mật khẩu"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "Tên kênh"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "Mật khẩu"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "Xác nhận mật khẩu của bạn"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "Yêu cầu mật khẩu"
+
+msgid "dialogs/createChannel/title"
+msgstr "Tạo kênh"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "Hãy chọn %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "Chọn một xe Cấp %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "Chọn xe"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "Chọn một xe Cấp %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "Xe: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "Tắt"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "Tham gia"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "Tìm kiếm"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "Kết quả tìm kiếm (%d kết quả đầu tiên):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "Tìm kiếm"
+
+msgid "dialogs/searchChannel/title"
+msgstr "Tìm kiếm Kênh"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "Kết Bạn"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "Sổ đen"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "Tắt"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "Tìm kiếm"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "Chi tiết người chơi"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "Kết quả tìm kiếm:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "Tìm kiếm"
+
+msgid "dialogs/searchContact/title"
+msgstr "Tìm Bạn"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "Kênh Dịch vụ"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "Chọn một xe Cấp VIII"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "Mục tiêu chính là trở thành Trung đội cuối cùng còn trụ lại."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "Chế độ Chiến tuyến chỉ khả dụng\ncho xe Cấp VIII."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ sự kiện +++\n+++ sự kiện +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "Thêm kinh nghiệm mỗi trận\nđối với xe Cấp IV hoặc cao hơn"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "Tham chiến bằng các xe cùng cấp\ntừ IV trở lên để nhận được thêm kinh nghiệm"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "Sau khi người chơi chấp nhận lời mời, tên nick và Tag Clan thật của bạn sẽ được hiển thị đối với họ trong thời gian diễn ra trận đánh."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "Kênh Chat"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Mô-đun thử nghiệm đã gắn lên xe: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "Trạng thái: Nghỉ ngơi"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "Trạng thái: Trong trận"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "Trạng thái: Chưa sẵn sàng"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "Trạng thái: Offline"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "Trạng thái: Sẵn sàng"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "Giải tán"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "Mời"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "phạm tội"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "nghi ngờ"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "Giết Đồng đội: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "Tắt chức năng tin nhắn thoại"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "Thêm vào DS Bạn bè"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "Cho vào Sổ đen"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "Tắt"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "Tạo Kênh Riêng"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "Bật Tin nhắn Thoại"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "Tổng"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "Tạo"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "Trận đánh gần nhất"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "Trạng thái:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - Chi tiết Người chơi"
+
+msgid "events/enterChannel"
+msgstr "[%s] đã tham gia kênh"
+
+msgid "events/leaveChannel"
+msgstr "[%s] đã rời kênh"
+
+msgid "keyboardChat"
+msgstr "Chat"
+
+msgid "listView/emptyList/info"
+msgstr "Thông báo"
+
+msgid "listView/emptyList/invite"
+msgstr "Lời mời"
+
+msgid "listView/emptyList/offer"
+msgstr "Tin đặc biệt"
+
+msgid "listView/emptyList/template"
+msgstr "Chưa có %(listType)s nào."
+
+msgid "listView/news/checkNewsBtn"
+msgstr "Đến Tin tức"
+
+msgid "listView/news/header"
+msgstr "CÓ GÌ MỚI?"
+
+msgid "listView/title"
+msgstr "Trung tâm Thông báo"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "Thời gian trận đánh: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "Gửi"
+
+msgid "lobby/buttons/channels"
+msgstr "Kênh"
+
+msgid "lobby/buttons/contacts"
+msgstr "Danh bạ"
+
+msgid "lobby/buttons/send"
+msgstr "Gửi"
+
+msgid "lobby/channels/actions/remove"
+msgstr "Đóng kênh"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "Hiển thị ngày trong tin nhắn"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "Hiển thị thời gian trong tin nhắn"
+
+msgid "lobby/faq/close"
+msgstr "Tắt"
+
+msgid "lobby/faq/title"
+msgstr "Hỏi-Đáp"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "Thêm vào DS Bạn bè"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "Cho vào Sổ đen"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "Sao chép vào bộ nhớ tạm"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "Tạo kênh riêng"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "Hiện thông tin người chơi"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "Tìm Ngoài Danh bạ"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "Hủy bỏ"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "Sửa nhóm"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "Xóa khỏi nhóm"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "Xóa nhóm"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "Click để hủy bỏ quá trình tạo và quay về Danh bạ của bạn."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "Tắt"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "Click để lưu ghi chú của người chơi vừa tạo."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "Tạo"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "Kéo thả liên lạc vào đây."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "Click để hủy bỏ quá trình sửa đổi và quay về Danh bạ của bạn."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "Tắt"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "Click để lưu các thay đổi trong ghi chú của người chơi."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "Lưu"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "Không có gì khớp với truy vấn của bạn"
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "Đơn vị Tác chiến Thường trực"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "Bạn bè"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "Khác"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "Sổ đen"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "Yêu cầu kết bạn"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "Tìm người chơi trong danh sách"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "Chưa có ai được thêm vào."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "Không có ai trong Danh bạ"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "Không có ai đang online"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "Thử tìm kiếm ngoài Danh bạ."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "Không có gì Khớp"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "Nhập tên người chơi."
+
+msgid "messenger/contacts/title"
+msgstr "Danh bạ"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "Tắt"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "Thêm"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "Nhóm đã tồn tại rồi."
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "Tìm Người chơi"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "Tắt"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "Tạo"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "Tạo ghi chú"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "Tắt"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "Lưu"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "Tên không được vượt quá %(maxChars)s ký tự."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "Sửa ghi chú"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "cho "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "Tắt"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "Tạo"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "Tạo Nhóm"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "Nhập tên (tối đa %(symbols)s ký tự)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "Kể cả những người trong nhóm"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "Hủy bỏ"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "Xóa"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "Xóa nhóm"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "Tắt"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "Lưu"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "Sửa nhóm"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "Nhập tên (tối đa %(symbols)s ký tự)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "Nhập mô tả (tối đa %(symbols)s ký tự)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "Mô tả không được vượt quá %(maxChars)s ký tự."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "Tìm Người chơi"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "Chấp nhận làm nhóm trong một cửa sổ"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "Hiện người chơi offline"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "Hiện danh mục \"Khác\""
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "Thông điệp từ người chơi không có trong Danh bạ của bạn:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "Chấp nhận trong một cửa sổ riêng"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "Hủy bỏ"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "Áp dụng"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "Thiết lập"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "Bộ phận đã thêm"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Điểm Giấy phép Quân sự đã bị bỏ đi"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "Chip đã bị bỏ"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "Giơ-tông Maneuvers đã bị trừ"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "Thành phần đã bị bỏ"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Điểm Danh vọng Cá nhân đã bị trừ"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Kinh nghiệm Tự do bị trừ đi"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "Điểm Nghĩa vụ đã bị trừ"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "Giơ-tông cho năm tháng cống hiến đã bị bỏ"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Điểm Giấy phép Quân sự đã được thêm"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "Chip đã thêm"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "Giơ-tông Maneuvers đã được thêm"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "Thành phần đã được thêm"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Điểm Danh vọng Cá nhân đã được thêm"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Kinh nghiệm tự do nhận được"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "Điểm Nghĩa vụ đã được thêm"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "Giơ-tông cho năm tháng cống hiến đã được thêm"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "Thêm mọi liên lạc vào danh sách người nhận."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "Thêm liên lạc đã chọn."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "Xóa mọi liên lạc khỏi danh sách người nhận."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "Xóa liên lạc đã chọn khỏi danh sách người nhận."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "Tác vụ %(action)s bị tạm ngưng trong %(cooldownPeriod)s giây."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "Bạn đã đạt tới giới hạn khi mở kênh. Vui lòng đóng các kênh không còn sử dụng nữa."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "Lỗi"
+
+msgid "server/errors/addFriendError/message"
+msgstr "Lỗi khi thêm người dùng vào danh sách Bạn bè."
+
+msgid "server/errors/addFriendError/title"
+msgstr "Lỗi"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "Lỗi khi cho người dùng vào Sổ đen của bạn."
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "Lỗi"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "Kênh với tên này đã tồn tại."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "Lỗi khi tạo kênh."
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "Kênh đã xóa."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "Lỗi khi tham gia kênh."
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "Lỗi câu lệnh: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "Lệnh %(command)s sẽ bị chặn trong %(cooldownPeriod)s giây."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Tin nhắn đã bị khóa. Số lượng quá nhiều."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "Đã hết thời gian kết nối với kênh."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "Không thể tạo kênh riêng: người chơi đang offline."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "Biểu tượng không hợp lệ"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "Lỗi"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "Tham số không hợp lệ %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "Lỗi"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "Mật khẩu không hợp lệ cho kênh được bảo mật."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "Lỗi khi tham gia kênh."
+
+msgid "server/errors/initializationFailure/message"
+msgstr "Khởi tạo Chat thất bại."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/internalError/message"
+msgstr "Lỗi nội bộ, hãy thử lại sau."
+
+msgid "server/errors/internalError/title"
+msgstr "Lỗi khi tạo kênh"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "Tên kênh không hợp lệ."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "Lỗi chạy câu lệnh lời mời."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "Lỗi"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "%(user)s đã bị cấm chat."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "%(user)s đã là người điều hành kênh."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "Người dùng đã ngắt kết nối"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "%(user)s không phải là người điều hành kênh."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "Kênh đạt giới hạn số người tham gia."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "Lỗi kết nối tới kênh"
+
+msgid "server/errors/notAllowed/message"
+msgstr "Không đủ quyền cho thao tác này."
+
+msgid "server/errors/notAllowed/title"
+msgstr "Lỗi Chat"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "Nhập mật khẩu của bạn để kết nối với kênh an toàn."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "Lỗi khi Tham gia Kênh"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Hiện không thể thay đổi thiết lập này."
+
+msgid "server/errors/sqlError/message"
+msgstr "Lỗi khi gọi DB."
+
+msgid "server/errors/sqlError/title"
+msgstr "Lỗi"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "Người chơi này đã cho bạn vào Sổ đen."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "Lỗi"
+
+msgid "server/errors/userNotExists/message"
+msgstr "Người dùng với tên này không tồn tại."
+
+msgid "server/errors/userNotExists/title"
+msgstr "Lỗi"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "Bạn đã đạt tới giới hạn người dùng cho Danh bạ của mình."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "Lỗi"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "Bạn đã vượt quá số kênh tối đa cho phép."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "Bạn đã vượt quá số ký tự tối đa cho phép đối với một tên kênh."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "Bạn đã vượt quá số ký tự tối đa cho phép đối với một mật khẩu."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "Kênh \"%(strArg1)s\" đã tồn tại rồi."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "Ký tự không hợp lệ trong tên kênh."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "Từ ngữ không phù hợp trong tên kênh."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Săn Thiết giáp"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "Đây là những xe đặc biệt dành cho chế độ Săn Thiết giáp. Tham gia Săn Thiết giáp để tìm hiểu xem chúng có thể làm được gì."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Xe đã bị Tiêu diệt"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Cấp đạt được"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Điểm ghi được"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Chiến thắng"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Đã thêm"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "Rõ!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "Đến Hoạt động"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "Bảng Thành tích"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "Đặc biệt"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "Thời gian Đặc biệt đã Kết thúc."
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "Hệ số nhân XP linh động WoT Plus khả dụng"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "Hệ số nhân XP linh động WoT Plus không khả dụng"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "Thất bại khi tiếp tế vật phẩm cho %s. Tất cả vàng của bạn sẽ khả dụng sau khi các chức năng của WG Wallet được khôi phục tự động."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "Thất bại khi tái tiếp tế ứng dụng kỹ thuật cho %s. Tác vụ tạm thời không khả dụng do công tác bảo trì."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "Thất bại khi tái tiếp tế ứng dụng kỹ thuật cho %s. Không đủ nguồn lực."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "Thất bại khi tự động tái tiếp tế ứng dụng kỹ thuật cho %s. Vui lòng trang bị nó một cách thủ công."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "Đã tái tiếp tế xong ứng dụng kỹ thuật cho %s. Chi phí "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Thất bại khi tiếp tế vật phẩm cho %s. Xem xét lại việc mua vật phẩm bằng vàng."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Thất bại khi tiếp tế vật phẩm cho %s. Không đủ bạc."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "Thất bại khi tiếp tế vật phẩm cho %s. Tất cả vàng của bạn sẽ khả dụng sau khi các chức năng của WG Wallet được khôi phục tự động."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "Thất bại khi tiếp tế vật phẩm tự động cho %s. Hãy tải vật phẩm bằng tay."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Đã tái tiếp tế xong vật phẩm cho %s. Chi phí "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "Thất bại khi tiếp tế đạn dược cho %s. Xem xét lại việc mua đạn bằng vàng."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "Thất bại khi tiếp tế đạn cho %s. Không đủ bạc."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "Thất bại khi tiếp tế đạn dược cho %s. Tất cả vàng của bạn sẽ khả dụng sau khi các chức năng của WG Wallet được khôi phục tự động."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "Thất bại khi tiếp tế đạn tự động cho %s. Hãy tải đạn bằng tay."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "Đã tiếp tế xong đạn cho %s. Chi phí "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "Thất bại khi gia hạn thuê kiểu mẫu trong %s. Hãy mua bằng vàng."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "Thất bại khi gia hạn thuê kiểu mẫu trong %s. Không đủ nguồn lực."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "Thất bại khi gia hạn thuê kiểu mẫu trong %s. Không đủ nguồn lực. Tất cả vàng của bạn sẽ khả dụng sau khi các chức năng của WG Wallet được khôi phục tự động."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Gia hạn thời gian thuê"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "Kiểu mẫu thuê %s được áp dụng cho xe %s sắp sửa hết hạn: Còn 3 trận."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "Thời gian thuê kiểu mẫu \"%s\" cho %s sẽ được tự động gia hạn thêm %s trận sau 3 trận nữa."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "Đến Ngoại thất"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "Kiểu mẫu thuê %s trên xe %s đã hết hạn. Bạn có thể gia hạn nó trong màn hình Ngoại thất."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "Thất bại khi tự động gia hạn thuê kiểu mẫu trong %s. Hãy mua bằng cách thủ công."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "Đã gia hạn thuê kiểu mẫu cho %s. Chi phí "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "Thất bại khi sửa chữa %s."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "Thất bại khi sửa chữa %s. Không đủ bạc."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "Thất bại khi sửa chữa %s. Tất cả vàng của bạn sẽ khả dụng sau khi các chức năng của WG Wallet được khôi phục tự động."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "Thất bại khi sửa chữa tự động cho %s. Hãy sửa xe bằng cách thủ công."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "Đã sửa chữa xong %s. Chi phí "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "Banner ngọn cờ tăng thủ WoT Plus khả dụng"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "Banner ngọn cờ tăng thủ WoT Plus không khả dụng"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "Đã nhận phù hiệu"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "Lợi ích đánh WoT Plus khả dụng"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "Lợi ích đánh WoT Plus không khả dụng"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Nhiệm vụ đã hoàn tất: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Bạn đã làm xong một chuỗi nhiệm vụ Học viện Thiết giáp."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "Giơ-tông có thể quy đổi lấy bất cứ xe Cấp VI nào có thể nghiên cứu."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Đến Chọn Xe"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Xin chúc mừng!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Nhiệm vụ Học viện Thiết giáp đã hoàn tất: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Đã nhận phần thưởng:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Giơ-tông Học viện đã được tiêu."
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Đã nhận phần thưởng:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Chỗ để xe trong Ga-ra: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Xe thuê: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "Kiếm xe và tài nguyên hữu ích bằng cách hoàn tất các nhiệm vụ đào tạo."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "Đến Học viện Thiết giáp"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "MỌI THỨ BẠN CẦN\nĐỂ KHỞI ĐẦU"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Giơ-tông Học viện"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Điểm chưa dùng đã được tiêu"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "Điểm tự do (chưa dùng) đã được tiêu khi kích hoạt Elite Circuit: %(points)s."
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Điểm chưa dùng đã được tiêu: %(points)s cho Chương %(chapter)s."
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "Thiết bị tiêu chuẩn Tùy chọn"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "Đã kích hoạt Elite Circuit"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "Elite Circuit tạm dừng."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "Đã đạt Điểm Tối đa"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "Bạn đã kiếm được số Điểm tối đa bằng %(vehName)s.\nPhần thưởng cho việc đạt điểm tối đa: %(bonusPoints)s.\nTham chiến bằng xe khác để tiếp tục ghi Điểm."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Xin chúc mừng!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "Đã nhận kiểu mẫu %(name)s. Nó có thể được áp dụng ngay lập tức và nâng cấp trong tiến trình Giấy phép Quân sự."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "Thiết bị bao cấp Tùy chọn"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Chi tiết"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Chi tiết"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "Bạn đã hoàn tất Chương %(chapter)s của Giấy phép Quân sự!\nPhần thưởng nhận được:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "Bạn đã hoàn tất Chương %(chapter)s của Giấy phép Quân sự!\nPhần thưởng nhận được:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "Bạn đã hoàn tất Giai đoạn %(newLevel)s của Tiến trình Giấy phép Quân sự\n\nPhần thưởng nhận được:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "Số Giai đoạn bổ sung trong Chương %(chapter)s: %(levelCount)s\nBạn đã đạt Giai đoạn %(currentLevel)s\nPhần thưởng nhận được:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "Bạn nhận được phần thưởng cho các Giai đoạn đã hoàn tất trước đó của Giấy phép Quân sự:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "Giờ, bạn sẽ nhận được cả Phần thưởng Cơ bản và Phần thưởng Cao cấp."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Bạn đã nhận phần thưởng cho các Giai đoạn được hoàn tất bằng Điểm chưa dùng:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "Bạn đã hoàn tất Chương %(chapter)s.\nĐã nhận phần thưởng:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Tiếp tục chiến đấu và kiếm Điểm!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "Bạn đã hoàn tất mọi Chương chính của GPQS %(season)s.\nPhần thưởng nhận được:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "Bạn đã hoàn tất Tiến trình Giai đoạn %(newLevel)s của Chương %(chapter)s.\nĐã nhận phần thưởng:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "Chi tiết"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "XP Tự do đã dùng:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "Vàng đã dùng:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "Bạn đã mua Giấy phép Ưu tú và mọi Giai đoạn cho Chương %(chapter)s.\nPhần thưởng nhận được ứng với mọi Giai đoạn của Chương:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "Bạn đã nhận bonus khi mua GP Ưu tú:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "Bạn sẽ nhận được cả Phần thưởng Cơ bản và Phần thưởng Cao cấp cho mọi Chương của Mùa."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "Số Giai đoạn bổ sung trong Chương %(chapter)s: %(levelCount)s\nBạn đã đạt Giai đoạn %(currentLevel)s.\nPhần thưởng nhận được:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "Bạn đã nhận bonus khi mua GP Ưu tú:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Giấy phép Ưu tú này chỉ áp dụng cho Chương %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "Bạn nhận được phần thưởng cho các Giai đoạn đã hoàn tất trước đó của Giấy phép Quân sự:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "Giấy phép Ưu tú này chỉ có tác dụng cho Chương %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "Giờ, bạn sẽ nhận được cả Phần thưởng Cơ bản và Phần thưởng Cao cấp ở Chương %(chapter)s."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "Đã thêm Phần thưởng Mặc định:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "Đã mua Giấy phép Ưu tú"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "Đã mua Giấy phép Ưu tú"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "Đã mua Giai đoạn"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "Xin chúc mừng!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "Đã nhận phần thưởng"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "Đã hoàn tất Giai đoạn Elite Circuit.\nPhần thưởng nhận được:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "Giai đoạn Elite Circuit đã hoàn tất: %(amount)s\nPhần thưởng nhận được:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "Thành viên kíp lái:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "Thành tích chiến đấu"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "Đã nhận %s từ sự kiện '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "Đã nhận %s từ sự kiện '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s Giơ-tông"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s bạc"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s trái phiếu"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "%s Xu Kỷ niệm"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s EXP Tự do"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s vàng"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "Trận"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "Đã nhận Điểm Giấy phép Quân sự: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Giơ-tông nhận được"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "Chi tiết"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "bồi thường thiệt hại do đồng đội gây ra: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "Bạc kiếm được: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "Trái phiếu nhận được"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "Thất bại"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d cho trận thắng đầu tiên trong ngày"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "Hòa"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "Hết Trận"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "Điểm Quân Dự bị Chiến đấu"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "Thành phần đã nhận được"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "Đã nhận Xu Kỷ niệm"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "XP nhận được: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "Tiến công"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "Công trình"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "Tài nguyên Công nghiệp thu được"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "theo Clan"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "theo người chơi"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "Kinh nghiệm tự do nhận được"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "Vàng kiếm được"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "Cho thành tích gia nhập hàng ngũ %(campaignName)s, bạn đã được trao huy chương %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "Xin chúc mừng!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "Với việc hoàn tất 45 nhiệm vụ thuộc sê-ri %(categoryName)s trong chiến dịch %(campaignName)s, bạn được trao huân chương %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "Với việc hoàn tất 30 nhiệm vụ thuộc sê-ri %(categoryName)s trong chiến dịch %(campaignName)s, bạn được trao huân chương %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "Với việc hoàn tất 15 nhiệm vụ thuộc sê-ri %(categoryName)s trong chiến dịch %(campaignName)s, bạn được trao huân chương %(nameMedal)s."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "phạt vì gây thiệt hại cho đồng đội: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "Xin chúc mừng!\nVới việc hoàn thành các nhiệm vụ cá nhân, bạn nhận được phần thưởng sau"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "Xin chúc mừng!\nVới việc hoàn thành chiến dịch nhiệm vụ cá nhân Cuộc Chi Viện Kịp Thời, bạn nhận được những phần thưởng sau"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "Xin chúc mừng!\nVới việc hoàn thành chiến dịch nhiệm vụ cá nhân Mặt Trận Thứ Hai, bạn nhận được những phần thưởng sau"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "Xin chúc mừng!\nVới việc hoàn thành cả hai chiến dịch nhiệm vụ cá nhân, bạn nhận được những phần thưởng sau"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "Đã thêm vào Kho Bạc Dự trữ"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "Đã hoàn thành nhiệm vụ! Phần thưởng"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "Bảng Thành tích"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Đã nhận Điểm Giấy phép Quân sự: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "Giường được thêm vào Doanh trại"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Giơ-tông đã thêm"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "Bạc đã được cộng thêm"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "Trái phiếu được cộng thêm"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "Thành phần đã được thêm"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "Đã thêm Xu Kỷ niệm"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "XP Tự do được cộng thêm"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "Vàng được cộng thêm"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "Đã thêm"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "Điểm Chiến dịch: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "Đã nhận thú cưng"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "Ngày Tài khoản Premium Wargaming được cộng thêm"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "Ngày Tài khoản Premium WoT được cộng thêm"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Đã thêm Trận Chiến lợi: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s (hàng ngày)"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s (tiêu chuẩn)"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "Chỗ để xe được cộng thêm"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "Đã thêm Trận Chiến lợi"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nSố trận Tiêu chuẩn cho thành tích trong giai đoạn đã hoàn tất: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nCho việc hoàn thành nhiệm vụ: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nSố trận Hàng ngày cho lượng quân hàm nhận được ở Vòng loại: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nSố trận Tiêu chuẩn cho lượng quân hàm nhận được ở Vòng loại: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "Thay đổi trong Bậc"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nQuân hàm nhận được"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nQuân hàm nhận được"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nLên Phân cấp: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nLên hạng"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nQuân hàm giữ được"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nBạn đã lên Bậc %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nBạn đã xuống Bậc %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nKhiên bậc đã suy yếu"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nKhông có thay đổi gì"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nKhiên bậc đã vỡ"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nQuân hàm giữ được"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nQuân hàm nhận được"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nMất quân hàm"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nQuân hàm nhận được"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Điểm Xếp hạng"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "Bạn đã nhận được các phần thưởng sau cho những năm phục vụ biên chế của mình"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "Xin chúc mừng!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "Tuyển quân"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "Xe"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Thành viên Tổ lái Nữ"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "Thua kỹ thuật"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "Thắng kỹ thuật"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "Chiến thắng"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "Một ô bản đồ tẩy chay đã bị xóa bỏ. Bản đồ %(mapName)s đã trở lại danh sách xếp trận."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "Bản đồ tẩy chay %(mapNames)s đã bị bỏ khỏi game. Bạn có thể tẩy chay một bản đồ khác."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "Một ô bản đồ tẩy chay đã bị xóa bỏ. Bản đồ %(mapNames)s đã trở lại danh sách xếp trận."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "Sự kiện đặc biệt đã bắt đầu!\nChỉ trong 10 ngày, quy đổi bản vẽ lấy những hàng hóa giá trị khác."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Chi tiết"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Sự kiện đặc biệt đã kết thúc"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Quy đổi Bản vẽ Của Bạn"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Quy đổi Bản vẽ đã bị tắt vì đang bảo trì."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Quy đổi Bản vẽ đã khôi phục."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "Đừng quên lấy phần thưởng của bạn!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "Đến Lựa chọn"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Không tính lợi ích từ trận đang diễn ra."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "Trợ cấp Cá nhân \"%(boosterName)s\" không khả dụng vì các lý do kỹ thuật."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: Trợ cấp Cá nhân đã được dùng hết"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "Trợ cấp đã mất: "
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "Trợ cấp đã hết hạn"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "bạc"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "XP Tự do"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "XP Kíp lái"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "XP Chiến đấu"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Tổng lợi ích cho %(resourceName)s:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "Tắt"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "Bạn đã rời đi hoặc bị trục xuất khỏi Clan:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "Đã thêm %(element_name)s"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "Đã thêm huy chương \"%(element_name)s\""
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "Đã thêm lon tên \"%(element_name)s\""
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "Đã nhận thưởng"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "Khen thưởng"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "Live Tag hiện không khả dụng"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "Live Tag khả dụng trong trận"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "Hiện không thể khen"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "Khen khả dụng trong trận"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "Bạn đã được thêm %(gold)s Vàng, %(credits)s Bạc."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "Bạn đã được thêm %(credits)s Bạc."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "Trợ lý Thiết bị khả dụng"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "Trợ lý Thiết bị không khả dụng"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Kho Dự trữ Vàng Bạc đã Mở!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Đấu thầu"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Giấy phép Quân sự"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "Ngày"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Giơ-tông đã trừ"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "Bạc bị trừ đi"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "Trái phiếu đã bị trừ đi"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "Thành phần đã bị bỏ"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "Xu Kỷ niệm đã bị trừ đi"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "Kinh nghiệm Tự do bị trừ đi"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "Vàng bị trừ đi"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "Chuyển khoản"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Đấu thầu"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Giơ-tông nhận được"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "Bạc nhận được"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "Trái phiếu nhận được"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "Thành phần đã nhận được"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "Đã nhận Xu Kỷ niệm"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "Kinh nghiệm tự do nhận được"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "Vàng đã nhận được"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Danh hiệu \"Hero of Our Time\""
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "Đã nhận huân chương %(medalName)s cho %(battlesCount)s trận tham chiến\nĐã nhận đề-can cho %(battlesCount)s trận tham chiến (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "Tác vụ với Bộ Gỡ tạm thời không khả dụng do công tác bảo trì."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "Tác vụ với Bộ Gỡ đã trở lại bình thường. Chúng tôi chân thành xin lỗi vì vấn đề này."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Đã mở khóa Nền Thẻ Quân nhân: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Đã mở khóa Chế bản Thẻ Quân nhân: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "Thẻ Quân nhân %(name)s"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "đã đạt Cấp"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Cấp Mới"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Đã mở khóa"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Nền"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Chế bản"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "Tài khoản Premium Wargaming hết hạn %(expiryTime)s."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "Xác nhận Email"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "Email chưa xác nhận"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Đã sử dụng mô-đun thử nghiệm"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Đã bỏ tất cả các mô-đun thử nghiệm"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Mô-đun thử nghiệm đã được gỡ khỏi các xe sau"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "Kịch bản"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Tùy chọn ứng dụng kỹ thuật cho thiết bị"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Điểm Giấy phép Quân sự"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Sổ tay Phổ dụng"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Trái phiếu"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Điểm Quân Dự bị Chiến đấu"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Thiết bị Thử nghiệm Tùy chọn"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• Bằng cố vấn"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Bằng Đào tạo"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• Giáo trình Phổ dụng"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "Bạn đã được cấp Xu Kỷ niệm: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Đã mở khóa thêm một ô tẩy chay bản đồ"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Không thể tẩy chay bản đồ với WoT Plus"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "Lý do"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Thuê bao Boosteroid đã kết thúc."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "Thuê bao đã kết thúc."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "Xe không khả dụng"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "Xe"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "Xe khả dụng"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "Xe"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Đặt lại tiến trình"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Tới Nhiệm vụ"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "Chú ý! Tiến trình của nhiệm vụ %(missionShortName)s đã bị đặt lại. Bạn sẽ phải làm nhiệm vụ lại từ đầu."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Nhiệm vụ: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "H.động T.chiến: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "Chi tiết"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "Bạn tạm thời bị cấm chơi chế độ %(mode)s. Hình phạt sẽ kết thúc vào %(date)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "Bạn đã được \"cởi trói\" và có thể trở lại tham chiến trong chế độ %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "Bạn bị tước bỏ bạc, XP và phần thưởng kiếm được trong trận vì %(reason)s ở chế độ %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "Bạn đã phải nhận một cảnh cáo vì %(reason)s trong chế độ %(mode)s."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "Khóa"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "Khoan Hồng"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "Bạn đã bị phạt"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "Hành động phi thể thao"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "Đã tuyên chiến với Clan %(clan)s!\nTiến công bắt đầu vào %(date)s lúc %(time)s."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "Hệ thống phòng thủ đã sụp đổ!\nMọi cuộc tấn công bị hủy bỏ. Hãy làm đầy thanh sức kháng cự của Trung tâm Chỉ huy để giúp Pháo đài trở lại hoạt động."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "Trận đánh dự kiến với Clan %(clan)s đã bị hủy."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "Cuộc Tiến công được lên kế hoạch lúc %(time)s ngày %(date)s với Clan %(clan)s đã bị hủy bỏ: Cấp độ các Pháo đài chênh nhau nhiều hơn 1 mức."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "Công trình %(building)s đã bị hư hại! Hãy làm đầy thanh sức kháng cự để giúp Công trình trở lại hoạt động."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "Trung tâm Chỉ huy đã bị hư hỏng! Hãy làm đầy thanh sức kháng cự để giúp Pháo đài trở lại hoạt động. Nếu Trung tâm Chỉ huy tiếp tục hứng chịu thêm thiệt hại, hệ thống phòng thủ của bạn sẽ sụp đổ."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "Clan %(clan)s đã tuyên chiến với bạn!\nTiến công bắt đầu vào %(date)s lúc %(time)s."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "Thời gian Phòng thủ đã được thiết lập: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "Thời gian Phòng thủ đã được điều chỉnh. Thời gian Phòng thủ mới: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "Chức năng phòng thủ Pháo đài của bạn đã bị tắt. Cấp độ của mọi công trình và Quân Dự bị sẽ giảm về Cấp IV."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "Xin chúc mừng! Bạn đã phát triển Pháo đài của mình lên tới cấp VIII."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "Xin chúc mừng! Pháo đài hiện đã sẵn sàng tác chiến để đem lại lợi thế cho Clan."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "Ngày Đình chiến đã bị thay đổi. Ngày Đình chiến mới chưa được thiết lập."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "Ngày Đình chiến đã thiết lậpi: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "Công trình %(building)s đã được nâng cấp.\nQuân Dự bị %(order)s đang thành lập đã bị quy đổi thành Tài nguyên Công nghiệp và được đưa vào kho của công trình."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "Quân Dự bị %(orderTypeName)s đã được đền bù và sẵn sàng kích hoạt lại."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "Máy chủ cơ sở được chuyển sang %(peripheryName)s."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "Đã thêm Tài nguyên Công nghiệp: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "Đã trừ Tài nguyên Công nghiệp: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "Bạn đang đảm nhận công trình %(building)s."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "Đã thêm Quân Dự bị: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "Đã trừ Quân Dự bị: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "Quân Dự bị %(order)s đã được sử dụng. Thời gian còn lại: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "Quân Dự bị Kích hoạt"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "Quân Dự bị %(order)s đã được sử dụng hết."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "Thành lập %(count)s Lực lượng Dự bị %(order)s đã hoàn tất."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "Quân Dự bị \"Hỗ trợ Di tản\" đã hết hiệu lực.\n\n%(additional)s\nKết quả cuối cùng của Clan ta: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "Địch kích hoạt quân Dự bị \"Trưng dụng Khí tài\" và cướp thêm: %(resDec)s\nClan ta bảo lưu được thêm: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "Quân Dự bị \"Trưng dụng Khí tài\" đã hết hiệu lực.\n\n%(additional)s\nKết quả cuối cùng của Clan ta: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "Địch sử dụng quân Dự bị \"Hỗ trợ Di tản\" và giữ lại thêm: %(resDec)s\nClan ta cướp được thêm: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "Kho của công trình %(building)s đã đầy.\nHãy dùng Tài nguyên Công nghiệp để thành lập Quân Dự bị hoặc vận chuyển chúng sang công trình khác."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "Tình trạng Trung lập của Pháo đài đã kết thúc.\nNhững Clan khác giờ có thể tấn công bạn—hãy sẵn sàng!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "Pháo đài đã tuyên bố Trung lập.\nNhững Clan khác giờ không thể tấn công bạn. Tình trạng Trung lập kết thúc: %(finish)s."
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s đơn vị Tài nguyên Công nghiệp đã được thêm vào kho của Trung tâm Chỉ huy."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "Đến Sự kiện"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "Đến Tiến trình"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "Bạn đã được thêm %(gold)s Vàng."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Đấu giá: Giá cược của bạn thấp hơn giá cược cạnh tranh."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "Xác suất thắng cuộc đấu giá hiện tại của bạn đã giảm xuống: Giá cược của bạn hiện thấp hơn giá cược cạnh tranh."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Đến Sự kiện"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Giá cược của bạn đã thua. Sắp được hoàn trả:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "Bạn đã trả thấp hơn những người chơi khác. Giá cược của bạn sẽ sớm được hoàn lại về tài khoản."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Lỗi"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Lỗi cược. Chưa có nguồn lực nào bị trừ đi. Xin vui lòng thử lại."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Cuộc đấu giá sắp kết thúc."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Nhanh Tay Đặt Cược Ngay!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Nhanh tay đặt cược ngay. Số lượng có hạn."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Đặt Cược Lô Mới Đã Bắt đầu!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "Số giường đã thêm vào Doanh trại"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "Số giường đã xóa bỏ khỏi Doanh trại"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "Trợ cấp Cá nhân"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "Đã bỏ Trợ cấp Cá nhân"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Giơ-tông đã thêm"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Giơ-tông đã trừ"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "Đền bù"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "bằng Giơ-tông"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "Ngụy trang"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "bạc"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "trái phiếu"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "Biểu tượng"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "với Xu Kỷ niệm"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "vàng"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "Khẩu hiệu"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "Hiệu ứng"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "Sơn"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Số một chữ số"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "Số hai chữ số"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "Số ba chữ số"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "Đề-can"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "Kiểu mẫu"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "Bạc đã được cộng thêm"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "Bạc đã bị trừ vào số dư tài khoản của bạn"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "Đã thêm Tài liệu Kíp lái"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "Kíp lái được đưa về Doanh trại"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "Kíp lái %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "Đã thêm nhân vật kíp lái"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "Đã bỏ nhân vật kíp lái"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "Kíp lái %d%% được đưa về Doanh trại"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "Kíp lái bị xóa sổ"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "Trái phiếu đã cộng thêm"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "Trái phiếu đã bị trừ đi"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "Khuyến mãi cá nhân"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "Đã thêm phần thưởng"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "Đã bỏ phần thưởng"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Đã thêm mô-đun thử nghiệm"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Đã bỏ mô-đun thử nghiệm"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Đã thêm"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Đã bị bỏ"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "Thành phần đã được thêm"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "Thành phần đã bị bỏ"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Vật phẩm"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "Vật phẩm đã bị xóa bỏ"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "Đã thêm Xu Kỷ niệm"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "Xu Kỷ niệm đã bị trừ đi"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "Trợ cấp Cá nhân có thời hạn"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "Đã thêm Bằng khen"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "Đã trừ Bằng khen"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "Kinh nghiệm Tự do"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "Kinh nghiệm Tự do được cộng thêm"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "Kinh nghiệm Tự do bị trừ đi"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "Vàng được cộng thêm"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "Vàng bị trừ đi"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "Đã thêm phân đoạn phổ dụng"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "Đã bỏ phân đoạn phổ dụng"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "Biên nhận"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "Đã thêm vào Kho"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "Vật phẩm đã bị xóa bỏ"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "Trên xe"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "Đã thêm phân đoạn bản vẽ của các xe %(nationName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "Đã bỏ phân đoạn bản vẽ của các xe %(nationName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "Đã thêm"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "Đã bỏ"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "(đơn vị)"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "Ngày Tài khoản Premium Wargaming được cộng thêm"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "Ngày Tài khoản Premium Wargaming bị trừ đi"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "Tài khoản Premium Wargaming"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s đã nhận %(xpCount)s Điểm Uy tín."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s đã nhận mức Uy tín Cấp %(level)s và %(xpCount)s Điểm Uy tín."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s đã nhận mức Uy tín Cấp %(level)s."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Hàng từ"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam Inventory"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Đã thêm Trận Chiến lợi"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Đã bỏ Trận Chiến lợi"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "Số ngày thuê: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "Chỗ để xe được cộng thêm"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "Chỗ để xe bị xóa đi"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "Tài khoản Premium WoT"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "Ngày Tài khoản Premium WoT được cộng thêm"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "Ngày Tài khoản Premium WoT bị trừ đi"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "Tân binh"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "Đã thêm kinh nghiệm chưa phân bổ cho thành viên kíp lái"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "Đã bỏ kinh nghiệm chưa phân bổ khỏi thành viên kíp lái"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "Đã giải tán"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "Đã nghiên cứu mọi mô-đun"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "Đã thêm phân đoạn bản vẽ của %(vehicleName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "Đã bỏ phân đoạn bản vẽ của %(vehicleName)s"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "Đã thêm xe"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "Đã xóa bỏ xe"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "Đã thêm xe thuê"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "Bạn đã được cấp vật phẩm: %(typeName)s \"%(itemName)s\"–số lượng: %(amount)d."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Đến Hộp"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Click vào nút tương ứng để xem nội dung."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Bạn nhận được bưu kiện:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Xem"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Đã kích hoạt Cổng: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "Kích hoạt Cổng"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "Hàng đã nhận:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "Chúng tôi đã kích hoạt hết các Cổng và chuyển mọi thứ thu được vào tài khoản của bạn:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Chúng tôi đã mở tất cả các hộp của bạn và trao tặng phần thưởng cho Chiến dịch Tết"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Đã thêm đề-can: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Đã thêm đề-can: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Đến Khảo sát"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Xin chúc mừng!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "Nhiệm vụ Trinh sát đã kết thúc. Xin cảm ơn bạn đã đóng góp vào quá trình phát triển bản đồ mới!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "Nhiệm vụ Trinh sát đã kết thúc.\n\nXin cảm ơn bạn đã đóng góp vào quá trình phát triển bản đồ mới!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "Nhiệm vụ Trinh sát đã bắt đầu.\n\nTham chiến trên các bản đồ đang được phát triển bằng xe Cấp VIII–X, chia sẻ ý kiến của bạn trong cuộc khảo sát để nhận thưởng!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Phần thưởng Chung cuộc:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "Bạn đã đánh %(battles)s trận trong Nhiệm vụ Trinh sát."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Đã nhận phần thưởng:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Bạn có thể tham dự khảo sát về cơ chế tương ứng trong Nhiệm vụ Trinh sát."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Có Khảo sát"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Bạn có thể tham dự khảo sát về bản đồ %(mapName)s trong Nhiệm vụ Trinh sát."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "Đến Doanh trại"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "Thành viên kíp lái bị giải ngũ: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Tiếp tế Hậu phương"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "Trợ lý Thiết bị khả dụng"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "Trợ lý Thiết bị không khả dụng"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "Bạn có Trợ cấp mới: "
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "Thông báo phát hành"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "Trợ cấp sắp hết hạn: "
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "Trợ cấp có thời hạn sắp hết giá trị"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "Bạc đã được: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "Ngày: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "Giao dịch Tài chính:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "Đã vào Kho: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "Biên nhận"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "Chu kỳ tích lũy mới đã bắt đầu."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "Chu kỳ tích lũy mới đã bắt đầu. Để kiếm bạc, hãy kích hoạt Tài khoản WoT Premium."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "Chu kỳ tích lũy mới đã bắt đầu. Để kiếm bạc, hãy đăng ký thuê bao WoT Plus."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "Quá trình tích lũy bạc trong Kho Bạc Dự trữ đã bị tạm ngưng."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "Kho Bạc Dự trữ đã Mở!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "Lấy Phần thưởng"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "Hậu Tiến trình Hoàn tất!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "Đến Tiến trình"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "Hậu Tiến trình"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "Bạn đã truy cập được phần thưởng đặc biệt."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "Đấu Clan"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "Kết quả Trận đấu"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "Tour đấu"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "Thất bại"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "Hòa"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "Kết quả không xác định được"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "Thắng lợi!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "Bị xóa bởi chủ sở hữu"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "Lỗi kỹ thuật"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "Bạn đã bị trục xuất"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "Thua Kỹ thuật"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "Hòa Kỹ thuật"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "Kết quả không xác định được"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "Thắng Kỹ thuật!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "Hết thời gian chờ"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "Hoàn thành"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(trận %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "Một phần Kết quả"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "Kết quả"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "Đã nhận Tài khoản Premium Wargaming. Hết hạn %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Đã thay đổi Tài khoản Premium Wargaming. Hết hạn %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "Tài khoản Premium Wargaming đã hết hạn."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "Đã gia hạn Tài khoản Premium Wargaming. Hết hạn %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "Đã nhận Tài khoản Premium WoT. Hết hạn %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "Đã thay đổi Tài khoản Premium WoT. Hết hạn %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "Tài khoản Premium WoT đã hết hạn."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "Đã gia hạn Tài khoản Premium WoT. Hết hạn %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "Bạn đã được cấp Tài khoản Premium Wargaming cho %(days)d ngày."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "Đến Hệ thống Uy tín"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "Đã nhận Cấp độ Uy tín và Dấu hiệu Uy tín."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "Hệ thống Uy tín"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "Đến Xe"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "Đã nhận Cấp độ Uy tín"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "Đã xảy ra lỗi khi lấy Phần thưởng Elite."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "Đã nhận %(rewardName)s %(typeReward)s cho việc đạt Mức Uy tín %(lvl)s."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "Đã nhận Phần thưởng Elite"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "Chú ý!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Chi tiết"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Ngụy trang"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "Đề-can"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "Biểu tượng"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Khẩu hiệu"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(typeName)s \"%(name)s\" %(level)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "Và còn %(count)s"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "Cấp %(level)s"
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "Sơn"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "Đề-can"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Nhận được:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "Kiểu mẫu %(name)s"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "Xin chúc mừng!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "Chi tiết"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "Phần quà Khen thưởng"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "Tham chiến và đoạt thưởng. Đánh càng nhiều trận, phần thưởng càng đến gần."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "Đã nhận Phần thưởng Cấp cao:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "Chi tiết"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "%(surplusPoints)s Giơ-tông Bậc đã được quy đổi thành %(count)s trái phiếu."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "Xin chúc mừng!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "Đã nhận Phần thưởng Thượng đỉnh:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "Đã nhận Phần thưởng Tiêu chuẩn:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "Đã nhận Phần thưởng Nhỏ:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "Bạn đã kiếm được %(points)s Giơ-tông Bậc trong giai đoạn 2021–2022."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "Phần thưởng Hàng năm"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "Tiếp viện đã đến!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "Bạn đã nhận được một kíp lái từ sự kiện %(event)s."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "Bạn có thành viên kíp lái chưa tuyển: %(count)s. Lần giải ngũ tiếp theo sẽ rơi vào %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Bạn có thành viên kíp lái chưa tuyển: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "Đã bỏ phù hiệu"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "Đền bù"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "Đã trả lại bạc cho thời gian thuê không dùng đến của %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "Đã trả lại vàng cho thời gian thuê không dùng đến của %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "Thời gian thuê %(vehicleName)s đã kết thúc."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Phân đoạn bản vẽ: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Bạc: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Trái phiếu: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "Chi tiết"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "XP Tự do: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Vàng: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "Phân đoạn phổ dụng"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Tiến độ hiện tại: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Nguồn lực đã tiêu vào dự án Xưởng Lắp ráp:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Nguồn lực đã tiêu"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "Tiêu Nguồn lực"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Nguồn lực trả lại từ Xưởng Lắp ráp:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Hoàn trả Nguồn lực"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Sổ tay Đào tạo Tùy chọn"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Sách chuyên Đào tạo Tùy chọn"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "Lớp sơn Ngụy trang"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "Hiệu lực của %s sẽ được kéo dài thêm để bù lại thời gian bảo trì."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "Biểu tượng"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "Chữ khắc"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "Tài khoản Premium Wargaming"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "Tài khoản Premium WoT"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "Thuê mượn"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "Máy chủ sẽ bị ngắt kết nối lúc %(date)s."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "Đã hoãn việc ngắt kết nối máy chủ, dự kiến ban đầu tiến hành vào lúc %(date)s."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "Tùy biến Bảng Thành tích khả dụng"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "Tính năng này bị tạm ngưng."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "Tùy biến Bảng Thành tích hiện không khả dụng"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "Phân đoạn phổ dụng (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "Phân đoạn quốc gia (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "Phần thưởng Đặc biệt"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "Phân đoạn bản vẽ của %(vehicleName)s (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "Phần thưởng cho việc xác nhận email:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "Xin chúc mừng!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "Đền bù cho phân đoạn bản vẽ của xe đã nghiên cứu:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "Đã thay lớp Ngụy trang"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "Bạc đã nhận được: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "Bạc bị trừ đi: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "Trái phiếu: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "Trái phiếu: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "Chi tiết ngoại thất đã được thay đổi."
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "Chi tiết tùy biến đã được thay đổi. Số chi tiết đã mua: %(count)s. Chi phí %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "Đã thay Biểu tượng"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "Đã thêm Xu Kỷ niệm: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "Xu Kỷ niệm đã bị trừ đi: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "EXP Tự do đã nhận được: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "EXP Tự do bị trừ đi: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "Vàng đã nhận được: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "Vàng bị trừ đi: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "Đã thay Chữ khắc"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "Phân đoạn phổ dụng"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "Phân đoạn quốc gia %(nationName)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "Với bản cập nhật mới này, mọi đề-can đã được gỡ khỏi xe và gửi vào Kho, trong mục Ngoại thất."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "Số chỗ trống đã được cộng thêm: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "Số chỗ trống đã bị xóa bỏ: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "Chú ý!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "Đã thêm xe: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "Đã xóa bỏ xe: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "Đã mua chi tiết tùy biến sau:\n%(items)s\nĐã dùng %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "Đã mua %(itemType)s \"%(itemName)s\".\nĐã dùng %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "Đã mua kiểu mẫu %(name)s Cấp %(level)s.\nChi phí: %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Đã thay đổi chi tiết tùy biến của xe."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s \"%(itemName)s\" (số lượng: %(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "Kiểu mẫu %(styleName)s Cấp %(level)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Chi tiết tùy biến đã bị gỡ khỏi xe."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "Xin chúc mừng!\nĐề-can Cấp tiến cho phép tùy chỉnh kiểu mẫu tiền lập cho %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "Xin chúc mừng!\nBạn đã nhận được đề-can \"%(itemName)s\" Cấp I cho %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "Xin chúc mừng!\nBạn đã nhận được đề-can \"%(itemName)s\" Cấp I."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "Đề-can \"%(itemName)s\" cho %(vehicleName)s đã đạt Cấp %(level)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Đến Ngoại thất"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "Đề-can \"%(itemName)s\" đã đạt Cấp %(level)s."
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Chi phí %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Bản đồ Sa mạc: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Bản đồ Mùa hè: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Bản đồ Mùa đông: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Lợi nhuận tính theo %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "Thiết bị đã được tháo rời"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Đến mục Ngoại thất"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "Do thay thế mô-đun, các chi tiết tùy biến đã bị gỡ bỏ khỏi %(vehicle)s."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "Tùy biến:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "Thiết bị đã được tháo rời"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "Gỡ thiết bị:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "Lỗi:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "Giao dịch Tài chính:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "Bán hàng hóa từ trong Kho:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "Đã thêm phương thức thanh toán \"%(method)s\""
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "Đã bỏ phương thức thanh toán \"%(method)s\""
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "Nghiên cứu:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "Mua:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "Bỏ khỏi Ga-ra:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "Sửa chữa:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "Đã lấy lại:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "Bán:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "Nâng cấp Thiết bị"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "Bạn đã được cấp Tài khoản Premium WoT cho %(days)d ngày."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Đến Trợ cấp"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "Lớp ngụy trang trên %(vehicleName)s đã hết hạn."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "Biểu tượng trên %(vehicleName)s đã hết hạn."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "Chữ khắc trên %(vehicleName)s đã hết hạn."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "Đã mở khóa Bộ Sưu tập"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "Xin chúc mừng!\nBạn vừa nghiên cứu một xe Cấp %(level)s của %(nation)s. Giờ bạn có thể mua xe Sưu tập cùng cấp thuộc quốc gia tương ứng trong Cửa hàng."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "Xe đã bị phá hủy. %(vehicleName)s không sử dụng được trong các trận đấu Clan cho đến %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "Đã mở khóa. %(vehicleName)s đã sẵn sàng cho Clan War."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "Mọi Sửa đổi Kép cho %(vehicle)s đã bị hủy bỏ."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "Biến thể đã Bị hủy"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "Tắt"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "Bật"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "Chức năng chuyển đổi giữa các bộ thiết bị và ứng dụng kỹ thuật trong lúc chờ đếm ngược trước trận cho %(tankName)s: %(state)s."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "Chức năng chuyển đổi giữa các bộ vật phẩm và đạn trong lúc chờ đếm ngược trước trận cho %(tankName)s: %(state)s."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "Bạn đã được cấp 1 xe Premium: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Không thể thuê xe. Không đủ nguồn lực."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "Đã thuê xe %(vehicleName)s. Thời gian kết thúc thuê: %(expiryTime)s."
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "Đã mở khóa. Xe đã có thể sử dụng được cho các trận đấu Clan."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Người chơi %(srcName)s đã chuyển %(srcWares)s Vàng vào tài khoản của bạn."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s Vàng được chuyển đến người chơi %(dstName)s. Lệ phí: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Ưu đãi giảm giá một xe Cấp %(level)s"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Đã nhận phần thưởng từ việc hoàn tất Tiến trình Trở lại Khói lửa:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Chọn Phần thưởng"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Ưu đãi giảm giá một xe Cấp %(level)s"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% và %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Đã thêm ưu đãi giảm giá mua và nghiên cứu: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Xin chúc mừng!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "Xe Cấp %(level)s"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Chọn phần thưởng từ các danh mục khả dụng."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Chọn"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Đã nhận Phần thưởng!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "Quyền lợi GPQS Plus bị tạm ngưng."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "GPQS Plus hiện không khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "GPQS Plus khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "Tiếp tục đăng nhập vào game để lấy thêm quà!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "Đã nhận Phần thưởng Điểm danh Đặc biệt!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "Hoàn tất Chu kỳ"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "Đăng nhập vào game để lấy quà."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "Chu kỳ đã bắt đầu!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "Phần thưởng Điểm danh"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "Quay lại hôm sau để lấy phần thưởng mới!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "Điểm danh Có!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "Tính năng Phần thưởng Điểm danh đã bị dừng lại."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "Phần thưởng Điểm danh Không khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "Phần thưởng Điểm danh Khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "%(vehicleType)s <font color='#E9E2BF'>%(vehicleName)s</font> độc đáo khả dụng."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "%(vehicleType)s <font color='#E9E2BF'>%(vehicleName)s</font>, hàng độc của WoT Plus, hiện không khả dụng."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT Plus Core hết giá trị vào %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Gỡ thiết bị miễn phí không khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "Gia hạn WoT Plus để nhận lại mọi lợi ích trên."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT Plus hết giá trị vào %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT Plus Pro hết giá trị vào %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "Quá trình tích lũy vàng đã bị tạm ngưng."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "Kho Dự trữ Vàng hiện không khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "Kho Dự trữ Vàng đã khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "Kho Dự trữ Vàng đã đầy: Bạn không thể tích lũy vàng thêm nữa"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "Kho Vàng Dự trữ đã Mở!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "Mọi quyền lợi giờ đã khả dụng.\nGia hạn vào: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "Gia hạn lại vào: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "Plan 180-ngày của bạn đã có tác dụng. Sướng đi!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "Plan 360-ngày của bạn đã có tác dụng. Sướng đi!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "Plan 180-ngày của bạn đã có tác dụng. Sướng đi!\nGia hạn vào: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "Plan 360-ngày của bạn đã có tác dụng. Sướng đi!\nGia hạn vào: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "Đào tạo Kíp lái Cường độ Cao đã ngừng tác dụng cho <font color='#E9E2BF'>%(vehicleName)s</font>. Hãy kiểm tra kíp lái của xe."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "Ít nhất một thành viên kíp lái của <font color='#E9E2BF'>%(vehicleName)s</font> không đủ điều kiện nhận \"Đào tạo Kíp lái Cường độ Cao\" và không tích XP Kíp lái."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Đào tạo Kíp lái Cường độ Cao"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "Đào tạo Kíp lái Cường độ Cao đã được bật cho kíp lái của %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "Đào tạo Kíp lái Cường độ Cao đã bị tắt cho kíp lái của %(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "Quá trình tích lũy XP Kíp lái đã bị tạm ngưng."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "Đào tạo Kíp lái Cường độ Cao hiện không khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "Đào tạo Kíp lái Cường độ Cao hiện đang khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "Chọn một xe để nhận lợi ích XP Kíp lái miễn phí."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "\"Đào tạo Kíp lái Cường độ Cao\" đã được chuyển từ <font color='#E9E2BF'>%(oldVehName)s</font> sang <font color='#E9E2BF'>%(newVehName)s</font>. Kíp lái của <font color='#E9E2BF'>%(oldVehName)s</font> đã ngừng tích XP."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Đã Chuyển \"Đào tạo Kíp lái Cường độ Cao\""
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "Lợi ích XP Kíp lái không thể áp dụng cho ít nhất một thành viên kíp lái."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "Bạn đang bỏ phí XP Kíp lái giá trị!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "Bạn có thể thay đổi tiếp sau %(cooldown)s giờ."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "Pro Boost đã kích hoạt cho %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "Bạn có thể boost xe khác thay vào đó."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "Pro Boost đã bị tắt cho %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "Thu nhập từ Pro Boost bị tạm dừng."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "Pro Boost hiện không khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "Pro Boost khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s không còn được boost. Bạn có thể thay đổi tiếp sau %(cooldown)s giờ."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "Pro Boost đã đổi sang %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "Ngày Gia hạn WoT Plus đã Thay đổi"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "Chọn một xe từ danh sách để thuê."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "Chưa chọn xe thuê nào"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)s sẽ sớm được thêm vào tài khoản của bạn."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "Đã thuê!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Những quyền lợi sau đang bị mất."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Plus Bất khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "Đã kích hoạt WoT Plus Core"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Gỡ thiết bị miễn phí đang khả dụng"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "Đã kích hoạt WoT Plus"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT Plus đã lên Pro!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "Gia hạn"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "Bạn đã được thêm %(freeXP)s EXP Tự do."
+
+msgid "status/offline"
+msgstr "Offline"
+
+msgid "status/online"
+msgstr "Online"
+
+msgid "xmpp_error/action"
+msgstr "Không thể thực hiện \"%(actionName)s\". Hãy thử lại sau."
+
+msgid "xmpp_error/simple"
+msgstr "Hãy thử lại sau."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "Không thể tạo kênh người chơi \"%(strArg1)s\"."

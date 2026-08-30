@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "剩余的%(count)个模块"
+msgstr[1] "剩余的%(count)个模块"
+msgstr[2] "剩余的%(count)个模块"
+
+msgid "awardViews/footer/backButton/"
+msgstr "回到模块"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "这些模块可能掉落高级战车、游戏内货币与其他珍贵奖励。"
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "您可在游戏内商店或高级商店购买“悖论模块”。"
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "悖论模块"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "悖论模块"
+
+msgid "common/getButton/lowerCase"
+msgstr "获取模块"
+
+msgid "common/getButton/upperCase"
+msgstr "获取模块"
+
+msgid "common/loader"
+msgstr "模块开启中..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "开启模块后可查看统计数据。"
+
+msgid "common/statistics/header"
+msgstr "开启的模块数：%(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "已开启模块的信息将全部删除。"
+
+msgid "entryPoint/boxes"
+msgstr "前往模块"
+
+msgid "entryPoint/tooltip/description"
+msgstr "这些为可能掉落全新与独特物品的特殊模块，内容包括高级战车、自定义元素、游戏内货币与其他珍贵奖励。\n模块可在游戏内商店或高级商店获取。"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "由于技术原因，目前无法开启或获取模块。我们对造成的不便深表歉意。"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "模块暂不可用"
+
+msgid "eventName/lowerCase"
+msgstr "打破悖论"
+
+msgid "eventName/upperCase"
+msgstr "打破悖论"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "下个模块必定掉落保底奖励！"
+
+msgid "guaranteedTitle/text"
+msgstr "掉落保底奖励前需开启的模块数量不超过：%(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "如果您在活动结束前未开启模块，它们之后将自动开启。"
+
+msgid "infoPage/footer/description/compensation"
+msgstr "如果您已在车库中拥有模块掉落列表中的所有战车，补给箱后续掉落的所有战车将全额补偿与之等值的金币。"
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "每%(guaranteed0)s个模块必定包含一辆高级战车。如果您开启了指定数量的补给箱但仍未获得此类战车，您开启的第%(guaranteed0)s个模块必定掉落一辆您没有的高级车。掉落后计数器重置。"
+
+msgid "infoPage/header/description"
+msgstr "开启模块有几率获得珍贵的游戏内物品！在下方查看详情。"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "%(name)内容(已开启%(boxesCount)个模块)"
+
+msgid "noBoxesView/description/"
+msgstr "您没有模块。\n您可以在游戏内商店或高级商店中购买模块。"
+
+msgid "preview/backLabel"
+msgstr "前往模块"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "可用的模块：%(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "没有可用的模块"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "如果您已在车库中拥有模块掉落列表中的所有战车，模块后续掉落的战车将补偿您金币。"
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount)个模块"
+msgstr[1] "%(remainingCount)个模块"
+msgstr[2] "%(remainingCount)个模块"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "保底奖励为掉落列表中的一辆战车。\n如果您开启%(remainingCount)仍未掉落此类战车，那么您在开启%(count)模块时必定掉落您车库中没有的此类战车。掉落后计数器重置。"

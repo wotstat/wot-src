@@ -1,0 +1,467 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "addVehPopover/btnAdd"
+msgstr "เพิ่ม (%(count)d)"
+
+msgid "addVehPopover/btnCancel"
+msgstr "ยกเลิก"
+
+msgid "addVehPopover/header"
+msgstr "เลือกพาหนะเพื่อทำการเปรียบเทียบ"
+
+msgid "addVehPopover/showOnlyMyVahicles"
+msgstr "แสดงพาหนะจากโรงรถ"
+
+msgid "addVehPopover/tooltips/addToCompare/body"
+msgstr "เพิ่มพาหนะที่เลือกเข้าการเปรียบเทียบ"
+
+msgid "addVehPopover/tooltips/addToCompare/header"
+msgstr "เพิ่ม"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/body"
+msgstr "ในการเพิ่มพาหนะเข้าการเปรียบเทียบ ลบพาหนะที่ไม่เกี่ยวข้องจากรายการเปรียบเทียบก่อน"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/header"
+msgstr "ไม่สามารถเพิ่มได้"
+
+msgid "addVehPopover/tooltips/inHangar/body"
+msgstr "เรียงตามพาหนะในโรงรถ"
+
+msgid "addVehPopover/tooltips/inHangar/header"
+msgstr "พาหนะในโรงรถ"
+
+msgid "addVehPopover/tooltips/level/body"
+msgstr "เรียงตามระดับพาหนะ"
+
+msgid "addVehPopover/tooltips/level/header"
+msgstr "พาหนะ"
+
+msgid "addVehPopover/tooltips/nation/body"
+msgstr "เรียงตามประเทศ"
+
+msgid "addVehPopover/tooltips/nation/header"
+msgstr "ประเทศ"
+
+msgid "addVehPopover/tooltips/selectVehicle/body"
+msgstr "เรียงตามพาหนะที่เลือกไว้"
+
+msgid "addVehPopover/tooltips/selectVehicle/header"
+msgstr "พาหนะที่เลือกไว้"
+
+msgid "addVehPopover/tooltips/title/body"
+msgstr "เรียงตามชื่อพาหนะ"
+
+msgid "addVehPopover/tooltips/title/header"
+msgstr "ชื่อ"
+
+msgid "addVehPopover/tooltips/type/body"
+msgstr "เรียงตามชนิดพาหนะ"
+
+msgid "addVehPopover/tooltips/type/header"
+msgstr "ชนิด"
+
+msgid "addVehPopover/vehicleName"
+msgstr "ชื่อ"
+
+msgid "cartPopover/configurationType/basic"
+msgstr "มาตรฐาน"
+
+msgid "cartPopover/configurationType/current"
+msgstr "ปัจจุบัน"
+
+msgid "cartPopover/configurationType/custom"
+msgstr "ปรับแต่งแล้ว"
+
+msgid "cartPopover/configurationType/premium"
+msgstr "พิเศษ"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/attention"
+msgstr "ในการเพิ่มพาหนะเข้าการเปรียบเทียบ ลบพาหนะที่ไม่เกี่ยวข้องจากรายการเปรียบเทียบก่อน"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/header"
+msgstr "ไม่สามารถเพิ่มได้"
+
+msgid "cartPopover/gotoCompareBtn/label"
+msgstr "(%(value)s) ที่จะเปรียบเทียบ"
+
+msgid "cartPopover/openCmpBtn/tooltip/body"
+msgstr "ไปยังการเปรียบเทียบของพาหนะที่เลือกไว้"
+
+msgid "cartPopover/openCmpBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeAllBtn/label"
+msgstr "ล้างรายการ"
+
+msgid "cartPopover/removeAllBtn/tooltip/body"
+msgstr "ลบพาหนะทั้งหมดจากรายการเปรียบเทียบ"
+
+msgid "cartPopover/removeAllBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtn/tooltip/body"
+msgstr "คลิกเพื่อลบพาหนะจากรายชื่อการเปรียบเทียบ"
+
+msgid "cartPopover/removeBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtnLocked/tooltip/body"
+msgstr "ไม่สามารถลบพาหนะจากรายการเปรียบเทียบได้ในขณะที่หน้าจอการปรับตั้งยังเปิดอยู่"
+
+msgid "cartPopover/removeBtnLocked/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeLockedBtn/tooltip/body"
+msgstr "ไม่สามารถลบพาหนะจากรายการเปรียบเทียบได้ขณะที่หน้าจอการปรับแต่งถูกเปิดอยู่"
+
+msgid "cartPopover/removeLockedBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/sorting/nation/body"
+msgstr "แสดงประเทศของพาหนะที่เลือกไว้"
+
+msgid "cartPopover/sorting/nation/header"
+msgstr "ประเทศ"
+
+msgid "cartPopover/sorting/vehLvl/body"
+msgstr "แสดงระดับของพาหนะที่เลือกไว้"
+
+msgid "cartPopover/sorting/vehLvl/header"
+msgstr "ระดับ"
+
+msgid "cartPopover/sorting/vehName"
+msgstr "ชื่อ"
+
+msgid "cartPopover/sorting/vehName/tooltip/body"
+msgstr "แสดงชื่อของพาหนะที่เลือกไว้"
+
+msgid "cartPopover/sorting/vehName/tooltip/header"
+msgstr "ชื่อ"
+
+msgid "cartPopover/sorting/vehType/body"
+msgstr "แสดงชนิดของพาหนะที่เลือกไว้"
+
+msgid "cartPopover/sorting/vehType/header"
+msgstr "ชนิด"
+
+msgid "cartPopover/title"
+msgstr "รายการเปรียบเทียบ"
+
+msgid "compareVehicleBtn/tooltips/disabledOnServer/attention"
+msgstr "การดำเนินการไม่มีให้ในขณะนี้"
+
+msgid "header/closeBtn/label"
+msgstr "ปิด"
+
+msgid "menu/cloneForCompare"
+msgstr "คัดลอกเพื่อทำการเปรียบเทียบ"
+
+msgid "modulesView/closeBtnLabel"
+msgstr "ยกเลิก"
+
+msgid "modulesView/closeBtnLabel/tooltip/body"
+msgstr "คลิกเพื่อยกเลิกการปรับการตั้งค่าชิ้นส่วนปัจจุบันและกลับไปยังหน้าการตั้งค่าพาหนะ"
+
+msgid "modulesView/closeBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/compareBtnLabel"
+msgstr "ยอมรับ"
+
+msgid "modulesView/compareBtnLabel/tooltip/body"
+msgstr "คลิกบันทึกชิ้นส่วนที่เลือกไว้และกลับไปยังการปรับแต่งพาหนะ"
+
+msgid "modulesView/compareBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/resetBtnLabel"
+msgstr "ตั้งค่าใหม่"
+
+msgid "modulesView/resetBtnLabel/tooltip/body"
+msgstr "คลิกเพื่อตั้งพาหนะกลับไปเป็นการปรับแต่งมาตรฐาน"
+
+msgid "modulesView/resetBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/title"
+msgstr "การปรับตั้งชิ้นส่วนสำหรับ %(vehName)s"
+
+msgid "modulesView/vehicleStatus/inHangar"
+msgstr "ในโรงรถ"
+
+msgid "modulesView/vehicleStatus/readyToBuy"
+msgstr "ไม่ได้ซื้อ"
+
+msgid "modulesView/vehicleStatus/readyToResearch"
+msgstr "ไม่ได้วิจัย"
+
+msgid "skillSelect/bonusSkills"
+msgstr "ความสามารถโบนัส"
+
+msgid "skillSelect/button/addToCompare"
+msgstr "เพิ่มเข้าการเปรียบเทียบ"
+
+msgid "skillSelect/button/cancel"
+msgstr "ยกเลิก"
+
+msgid "skillSelect/button/restore"
+msgstr "ปรับคืน"
+
+msgid "skillSelect/majorSkills"
+msgstr "ความสามารถคุณสมบัติหลัก"
+
+msgid "skillSelect/tooltip/additionalRoles"
+msgstr "หน้าที่เพิ่มเติม:"
+
+msgid "skillSelect/tooltip/generalPrinciple"
+msgstr "หลักการทั่วไป"
+
+msgid "skillSelect/tooltip/generalPrincipleDescription"
+msgstr "หน้าจอการปรับแต่งจะแสดงว่าความสามารถจะมีผลกับคุณลักษณะอย่างไรเมื่อได้ฝึกถึง {cream_Open}100%{cream_Close} และเมื่อประสิทธิภาพความสามารถเพิ่มถึง {cream_Open}100%{cream_Close}"
+
+msgid "skillSelect/tooltip/heading"
+msgstr "ความสามารถพลรถถังสำหรับ %(vehicleName)s"
+
+msgid "skillSelect/tooltip/roles"
+msgstr "คุณสมบัติ"
+
+msgid "skillSelect/tooltipHint"
+msgstr "*เลื่อนไปที่ความสามารถเพื่อแสดงว่าความสามารถจะมีผลกับคุณลักษณะอย่างไรเมื่อฝึกถึง 100% และมีประสิทธิภาพความสามารถถึง 100%"
+
+msgid "skillsConf/empty"
+msgstr "เลือกความสามารถพลรถถัง"
+
+msgid "skillsConf/emptyTooltip/body"
+msgstr "เลือกความสามารถเพื่อดูว่ามันมีผลกับคุณลักษณะพาหนะอย่างไร"
+
+msgid "skillsConf/emptyTooltip/header"
+msgstr "ความสามารถพลรถถัง"
+
+msgid "skillsConf/header"
+msgstr "ความสามารถพลรถถัง"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "เพิ่มเข้าการเปรียบเทียบ"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "คุณไม่สามารถเพิ่มพาหนะนี้เข้าในการเปรียบเทียบได้"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/body"
+msgstr "ในการเพิ่มพาหนะเข้าการเปรียบเทียบ ลบพาหนะที่ไม่เกี่ยวข้องจากรายการเปรียบเทียบก่อน"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/header"
+msgstr "ไม่สามารถเพิ่มได้"
+
+msgid "techTree/tooltips/addToCompare/body"
+msgstr "เพิ่มเข้าการเปรียบเทียบ"
+
+msgid "techTree/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehConf/applyBtnLabel"
+msgstr "ใช้งาน"
+
+msgid "vehConf/btnCleanUp"
+msgstr "ล้าง"
+
+msgid "vehConf/cancelBtnLabel"
+msgstr "ยกเลิก"
+
+msgid "vehConf/cancelBtnLabel/tooltip/body"
+msgstr "คลิกเพื่อยกเลิกการปรับแต่งที่เลือกไว้และกลับไปยังการเปรียบเทียบ"
+
+msgid "vehConf/cancelBtnLabel/tooltip/header"
+msgstr "ยกเลิก"
+
+msgid "vehConf/compareBtnLabel/tooltip/body"
+msgstr "คลิกเพื่อบันทึกการปรับแต่งที่เลือกไว้และกลับไปยังการเปรียบเทียบ"
+
+msgid "vehConf/compareBtnLabel/tooltip/header"
+msgstr "ใช้งาน"
+
+msgid "vehConf/confAvailable"
+msgstr "ปรับแต่งได้"
+
+msgid "vehConf/doesntAffect"
+msgstr "ไม่มีผลต่อคุณลักษณะทางเทคนิคแบบง่าย"
+
+msgid "vehConf/equipment"
+msgstr "อุปกรณ์และยุทธปัจจัย"
+
+msgid "vehConf/header"
+msgstr "การปรับแต่งของ %(vehName)s"
+
+msgid "vehConf/modifications/choose"
+msgstr "เลือกการปรับแต่ง"
+
+msgid "vehConf/modifications/title"
+msgstr "การปรับแต่ง"
+
+msgid "vehConf/modules"
+msgstr "ชิ้นส่วน"
+
+msgid "vehConf/resetBtnLabel"
+msgstr "ตั้งค่าใหม่"
+
+msgid "vehConf/resetBtnLabel/tooltip/body"
+msgstr "คลิกเพื่อคืนการตั้งค่าพาหนะมาตรฐาน"
+
+msgid "vehConf/resetBtnLabel/tooltip/header"
+msgstr "ตั้งค่าใหม่"
+
+msgid "vehConf/tooltips/btnCleanUp/body"
+msgstr "คลิกเพื่อปลดอุปกรณ์ที่เลือกไว้จากการตั้งค่า"
+
+msgid "vehConf/tooltips/btnCleanUp/header"
+msgstr "ล้าง"
+
+msgid "vehConf/tooltips/camoInfo"
+msgstr "เพิ่มการซ่อนตัวของพาหนะคุณในแผนที่แต่ละชนิดด้วยการใช้ลายพรางฤดูร้อน ฤดูหนาว และลายพรางทะเลทราย"
+
+msgid "vehConf/tooltips/camoInfoDisabled/body"
+msgstr "ลายพรางทุกฤดูนี้เป็นองค์ประกอบร่วมของพาหนะ และจะไม่สามารถถูกเปลี่ยนหรือปลดออกได้"
+
+msgid "vehConf/tooltips/camoInfoDisabled/header"
+msgstr "ลายพรางสำหรับทุกฤดู"
+
+msgid "vehConf/tooltips/camoTitle"
+msgstr "ลายพราง"
+
+msgid "vehConf/tooltips/defCamoInfo"
+msgstr "ทำการติดตั้งลายพรางไว้ 3 ชนิด\nที่ไม่สามารถถูกปลดได้: ฤดูหนาว ฤดูร้อน ทะเลทราย"
+
+msgid "vehConf/tooltips/deviceNotAffectedTTC"
+msgstr "ไม่มีผลต่อคุณลักษณะทางเทคนิคของพาหนะ"
+
+msgid "vehConf/tooltips/modifications/description"
+msgstr "เลือกการปรับแต่งที่ทำให้คุณสามารถปรับแก้พาหนะตามบทบาทและเปลี่ยนคุณลักษณะบางส่วนได้"
+
+msgid "vehConf/tooltips/modifications/remove"
+msgstr "ยกเลิกการปรับแต่งทั้งหมด"
+
+msgid "vehConf/tooltips/modifications/title"
+msgstr "แผงการปรับแต่ง"
+
+msgid "vehConf/tooltips/revertBtn/body"
+msgstr "คลิกเพื่อคืนการตั้งค่าพาหนะมาตรฐาน"
+
+msgid "vehConf/tooltips/revertBtn/header"
+msgstr "?empty?"
+
+msgid "vehConf/tooltips/topModulesLabel/body"
+msgstr "ชิ้นส่วนอื่นไม่มีให้สำหรับพาหนะนี้: การปรับตั้งพาหนะเป็นการถาวร"
+
+msgid "vehConf/tooltips/topModulesLabel/header"
+msgstr "การปรับแต่งสูงสุด"
+
+msgid "vehConf/tooltips/topModulesOff/body"
+msgstr "คลิกเพื่อเลือกชิ้นส่วนที่ดีที่สุดสำหรับพาหนะ"
+
+msgid "vehConf/tooltips/topModulesOff/header"
+msgstr "การปรับแต่งสูงสุด"
+
+msgid "vehConf/tooltips/topModulesOn/body"
+msgstr "คลิกเพื่อยกเลิกการเลือกการตั้งค่าสูงสุด"
+
+msgid "vehConf/tooltips/topModulesOn/header"
+msgstr "การปรับแต่งสูงสุด"
+
+msgid "vehConf/topModulesBtnLabel"
+msgstr "เลือกการตังค่าสูงสุด"
+
+msgid "vehConf/topModulesLabel"
+msgstr "การปรับแต่งสูงสุด"
+
+msgid "vehPreview/compareInfo/addToCompare"
+msgstr "เพิ่มเข้าการเปรียบเทียบ -"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "เพิ่มเข้าการเปรียบเทียบ"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "คุณไม่สามารถเพิ่มพาหนะนี้เข้าในการเปรียบเทียบได้"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/body"
+msgstr "ในการเพิ่มพาหนะเข้าการเปรียบเทียบ ลบพาหนะที่ไม่เกี่ยวข้องจากรายการเปรียบเทียบก่อน"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/header"
+msgstr "ไม่สามารถเพิ่มได้"
+
+msgid "vehicleCompareView/btnAddVehicles"
+msgstr "เพิ่มเข้าการเปรียบเทียบ"
+
+msgid "vehicleCompareView/configurationType/basic"
+msgstr "มาตรฐาน"
+
+msgid "vehicleCompareView/configurationType/current"
+msgstr "ปัจจุบัน"
+
+msgid "vehicleCompareView/configurationType/custom"
+msgstr "ปรับแต่งแล้ว"
+
+msgid "vehicleCompareView/configure"
+msgstr "ปรับแก้"
+
+msgid "vehicleCompareView/toHangar"
+msgstr "ดูในโรงรถ"
+
+msgid "vehicleCompareView/toPreview"
+msgstr "ภาพตัวอย่าง"
+
+msgid "vehicleCompareView/tooltips/addVehicles/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/addVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/configure/body"
+msgstr "คลิกเพื่อเลือกค่าที่มีผลต่อคุณลักษณะทางเทคนิค"
+
+msgid "vehicleCompareView/tooltips/configure/header"
+msgstr "ปรับแก้ค่า"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/body"
+msgstr "คลิกเพื่อลบพาหนะทั้งหมดจากการเปรียบเทียบ"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/body"
+msgstr "ลบจากการเปรียบเทียบ"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/topPanel/noVehicle"
+msgstr "พาหนะที่ไม่ได้เลือก"
+
+msgid "vehicleCompareView/topPanel/premium"
+msgstr "พิเศษ"
+
+msgid "vehicleCompareView/topPanel/vehiclesCount"
+msgstr "พาหนะที่ทำการเปรียบเทียบ: %(count)s"

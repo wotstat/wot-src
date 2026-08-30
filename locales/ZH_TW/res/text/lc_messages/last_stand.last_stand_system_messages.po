@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "戰術裝置"
+
+msgid "open_artefact/server_error"
+msgstr "操作暫時無法使用。請稍後再試。"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "無法為%s補充戰術裝置。發生技術性問題。"
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "無法為%s補充戰術裝置。資金不足。"
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "已為%s補充戰術裝置。您已花費 "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "有可解碼的紀錄"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "模式 — 背水一戰：北境大地"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "背水一戰：北境大地（普通）"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "背水一戰：北境大地（硬核）"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "背水一戰：北境大地（殘忍）"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "難度"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "普通"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "硬核"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "殘忍"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "數據"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "已完成目標！"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "已完成目標！"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "車輛"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "已阻擋攻勢：%(curPhase)s / %(maxPhases)s 波"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "已花費 %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "交易"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "您可在「背水一戰」車庫的難度面板選擇此難度等級。"
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "已解鎖「硬核」難度"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "您可在「背水一戰」車庫的難度面板選擇此難度等級。"
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "已解鎖「殘忍」難度"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "您可在「背水一戰：潘朵拉行動」車庫的難度面板選擇此模式。"
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "已解鎖「背水一戰」模式"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "已獲得解碼密鑰：%(key)s 個"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "獲得明細"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "已移除密鑰：%(key)s 個"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "解碼成功"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "「背水一戰」戰鬥暫時無法進行。\n請稍後再試。"
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "%(difficulty)s難度的戰鬥暫時無法進行。請稍後再試。"
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "「背水一戰」目前無法進行。請前往遊戲入口網站查看最新消息。"
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "裝甲排指揮官已將難度變更為：%(level)s。"
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "玩家 %(userName)s 尚未解鎖其中一個難度等級。"

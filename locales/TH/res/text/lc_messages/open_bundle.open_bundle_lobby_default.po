@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "รับทราบ!"
+
+msgid "attachments_preview/description"
+msgstr "กลุ่มชุดติดตั้งสามมิติ"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "ชุดติดตั้งสามมิติมหากาพย์"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "ชุดติดตั้งสามมิติตำนาน"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "ชุดติดตั้งสามมิติหายาก"
+
+msgid "bundle/name"
+msgstr "ตลาดลึกลับ"
+
+msgid "bundle/name_uppercased"
+msgstr "ตลาดลึกลับ"
+
+msgid "confirmation/buttons/cancel"
+msgstr "ยกเลิก"
+
+msgid "confirmation/buttons/purchase"
+msgstr "ซื้อ"
+
+msgid "confirmation/description"
+msgstr "ยืนยันเพื่อรับพันธบัตรและรางวัลช่องใหม่"
+
+msgid "confirmation/purchase"
+msgstr "ซื้อด้วย {{price}}?"
+
+msgid "entryPoint/button"
+msgstr "ไปยังกิจกรรม"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}} มาแล้ว ไปดูกันเลย!"
+
+msgid "intro/cards/description/c_1"
+msgstr "เมื่อคุณซื้อพันธบัตรในช่วง {{eventName}} คุณจะได้รับรางวัลจากหนึ่งในช่องที่ยังไม่เปิดเป็นของขวัญแถถม ช่องนั้นจะมีสิ่งของมีค่าในเกมรวมไปถึงรางวัลหลักของกิจกรรมคือพาหนะพิเศษ"
+
+msgid "intro/cards/description/c_2"
+msgstr "รางวัลจะมอบให้แบบสุ่มลำดับ แต่ละช่องที่ยังไม่ได้เปิดจะมีโอกาสในการถูกเลือกและโอกาสทั้งหมดจะรวมได้ 100% เมื่อเปิดช่องไปแล้ว ก็จะไม่สามารถเปิดช่องได้อีกและโอกาสในการได้รับรางวัลที่เหลือจะเพิ่มขึ้น"
+
+msgid "intro/cards/description/c_3"
+msgstr "แต่ละขั้นจะต้องใช้ทองจำนวนหนึ่ง ทั้งจำนวนพันธบัตรที่ได้รับและราคาของแต่ละขั้นจะแตกต่างกันไป"
+
+msgid "intro/cards/link"
+msgstr "ดูเงื่อนไขและราคาของแต่ละขั้นบน{{@ class 'linkPart'}}เวบท่า{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "การซื้อพันธบัตร"
+
+msgid "intro/cards/title/c_2"
+msgstr "ช่องและความเป็นไปได้"
+
+msgid "intro/cards/title/c_3"
+msgstr "ราคาขั้น"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "รางวัลของคุณรออยู่"
+
+msgid "main/alt/description"
+msgstr "ดูความเป็นไปได้"
+
+msgid "main/alt/tooltip/body"
+msgstr "กดปุ่ม Alt เพื่อดูความเป็นไปได้ในการได้รับของแต่ละช่อง"
+
+msgid "main/alt/tooltip/header"
+msgstr "การแสดงความเป็นไปได้"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "ยินดีด้วย! \n คุณได้รับรางวัลทั้งหมดแล้ว"
+
+msgid "main/footer/button"
+msgstr "ซื้อ"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}รางวัลจากช่อง"
+
+msgid "main/footer/receive"
+msgstr "คุณได้รับ: {{item}}"
+
+msgid "main/header/description"
+msgstr "เข้าร่วมกิจกรรมตั้งแต่ {{startDate}} ถึง {{endDate}} แล้วคว้ารางวัลกัน!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "ไปยังการปรับแต่ง"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "ไปยังรูปแบบ"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "ไปยังพาหนะ"
+
+msgid "notifications/specialReward/title"
+msgstr "รางวัลหลัก {{eventName}} เป็นของคุณแล้ว!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "รางวัลเพิ่มเติม:"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "ได้รับ:"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "การดำเนินการนี้ไม่มีให้ชั่วคราวเนื่องด้วยเหตุทางเทคนิค โปรดลองใหม่ภายหลัง"
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "ไปยังกิจกรรม"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s จะจบในไม่ช้า!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "กิจกรรมนี้มีให้จนถึง: %(date)s"
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "เปิด %(eventName)s ช่องแล้ว"
+
+msgid "tooltips/entry/description"
+msgstr "รางวัลของคุณรออยู่! การซื้อพันธบัตรแต่ละครั้งจะมอบรางวัลแบบสุ่มจากช่องให้เป็นของขวัญ คุณจะเปิดช่องใหม่แต่ละครั้งเพราะช่องที่คุณเปิดไปแล้วจะถูกลบไป"
+
+msgid "tooltips/entry/timer"
+msgstr "กิจกรรมจะมีให้ตั้งแต่ {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "เกี่ยวกับกิจกรรม"
+
+msgid "tooltips/steps/description"
+msgstr "สำหรับการซื้อแต่ละครั้ง คุณจะได้รับ {{currency}} มากขึ้น จำนวนที่คุณได้รับจะเพิ่มในขั้นการซื้อบางขั้น"
+
+msgid "tooltips/steps/header"
+msgstr "{{currency}} สำหรับแต่ละการซื้อ"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "ขั้น:"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

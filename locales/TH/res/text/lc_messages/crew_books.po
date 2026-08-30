@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "ซื้อ"
+
+msgid "buttons/cancel"
+msgstr "ยกเลิก"
+
+msgid "buttons/learn"
+msgstr "ศึกษา"
+
+msgid "buttons/postProgression/claim"
+msgstr "รับ"
+
+msgid "buttons/postProgression/hint"
+msgstr "ไปยังช่วงหลังความก้าวหน้าว"
+
+msgid "buttons/postProgression/howTo"
+msgstr "วิธีการได้รับ"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}อัตราแลกเปลี่ยน:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "ใช้กับสมาชิกพลรถถังที่เลือกเอาไว้\nเร่งการฝึกความสามารถปัจจุบันด้วยการใช้ประสบการณ์อิสระ"
+
+msgid "card/freeExp/title"
+msgstr "ประสบการณ์อิสระ"
+
+msgid "card/nationBook/additionalText"
+msgstr "• ประสิทธิภาพความสามารถ: 100%\n• ความเชี่ยวชาญพิเศษ: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "ใช้กับพลรถถังทั้งหมด\nมอบ %(xp) ให้กับสมาชิกพลรถถังแต่ละคน"
+
+msgid "card/nationBook/title/brochure"
+msgstr "อนุสารการฝึก (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "คู่มือการฝึก (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "บทแนะนำการฝึก (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "ใช้ได้โดยไม่มีข้อจำกัด"
+
+msgid "card/personalBook/mainText"
+msgstr "ใช้กับสมาชิกพลรถถังที่เลือกไว้\nมอบ %(xp) ให้กับสมาชิกพลรถถังคนนี้"
+
+msgid "card/personalBook/title"
+msgstr "คู่มือการฝึกส่วนตัว"
+
+msgid "card/universalBook/additionalText"
+msgstr "• ประสิทธิภาพความสามารถ: 100%\n• ความเชี่ยวชาญพิเศษ: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "ใช้กับพลรถถังทั้งหมด\nมอบ %(xp) ให้กับสมาชิกพลรถถังแต่ละคน"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "คู่มือสากล"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "อนุสารสากล"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "บทแนะนำสากล"
+
+msgid "confirm/crewLabel"
+msgstr "สมาชิกพลรถถังแต่ละคนจะได้รับ %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "สมาชิกพลรถถังแต่ละคนจะได้รับ %(xpValue) "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) จะได้รับเพิ่มเติม %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) จะได้รับ %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "สมาชิกพลรถถังบางคนจะได้รับ %(xpValue) "
+
+msgid "items/brochure/Name"
+msgstr "อนุสารการฝึก (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "อนุสารการฝึก"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "อนุสารการฝึก"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} ประสบการณ์พลรถถังให้สมาชิกแต่ละคน"
+
+msgid "items/crewBook/Name"
+msgstr "คู่มือการฝึก (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "คู่มือการฝึก"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "คู่มือการฝึก"
+
+msgid "items/guide/Name"
+msgstr "บทแนะนำการฝึก (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "บทแนะนำการฝึก"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "บทแนะนำการฝึก"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} ประสบการณ์แก่สมาชิกพลรถถังที่เลือกไว้"
+
+msgid "items/personalBook/Name"
+msgstr "คู่มือการฝึกส่วนตัว"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} ประสบการณ์พลรถถังให้สมาชิกแต่ละคน"
+
+msgid "items/universalBook/Name"
+msgstr "คู่มือสากล"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} ประสบการณ์ให้สมาชิกแต่ละคน"
+
+msgid "items/universalBrochure/Name"
+msgstr "อนุสารสากล"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} ประสบการณ์ให้สมาชิกแต่ละคน"
+
+msgid "items/universalGuide/Name"
+msgstr "บทแนะนำสากล"
+
+msgid "page/mentoringLicense/hint"
+msgstr "ไปยังใบอนุญาตฝึกสอน"
+
+msgid "page/mentoringLicense/title"
+msgstr "ใบอนุญาตฝึกสอน"
+
+msgid "page/title"
+msgstr "การฝึกเร่งด่วน"
+
+msgid "tooltip/buyManual"
+msgstr "ซื้อคู่มือการฝึก"
+
+msgid "tooltip/mouseWheel"
+msgstr "เลื่อน {mouseIcon} เพื่อเพิ่ม/ลดจำนวนหนึ่งสือพลรถถัง"
+
+msgid "tooltip/outOfStock"
+msgstr "ไม่มีหนังสือพลรถถังเหลือ"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "ไม่มีหนังสือพลรถถังเหลือ ซื้อหนังสือพลรถถังเหล่านี้ได้ในร้านค้า"
+
+msgid "tooltip/personalBook/mainText"
+msgstr "ใช้กับสมาชิกพลรถถังคนที่เลือกไว้ มอบประสบการณ์ %(xp)s ให้กับสมาชิกพลรถถังคนนี้"
+
+msgid "tooltip/postProgression"
+msgstr "ไปยังช่วงหลังความก้าวหน้าว"
+
+msgid "tooltip/sale/header"
+msgstr "อัตราแลกเปลี่ยนที่ได้กำไร"
+
+msgid "tooltip/sale/newRate"
+msgstr "อัตราแลกเปลี่ยนใหม่: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "อัตราแลกเปลี่ยนก่อนหน้า: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "คลิก %(controlsImg) เพื่อเพิ่ม/ลดขั้นการฝึกความสามารถอีก 1%"
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "กด %(pgupImg) / %(pgdownImg) เพื่อเพิ่มขั้นการฝึกความสามารถถึง &nbsp;100% /กลับ&nbsp;ไปยังความสามารถก่อนหน้า"
+
+msgid "tooltip/universalBook/mainText"
+msgstr "ใช้กับพลรถถังทั้งหมด มอบประสบการณ์ %(xp)s ให้กับสมาชิกพลรถถังแต่ละคน"
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "ใช้กับพลรถถังทั้งหมด มอบประสบการณ์ %(xp)s ให้กับสมาชิกพลรถถังแต่ละคน"

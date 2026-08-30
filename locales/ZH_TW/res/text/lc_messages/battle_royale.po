@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "所有可用伺服器都已實施休戰。"
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "此伺服器已實施休戰。"
+
+msgid "alertMessage/changeServerButton"
+msgstr "變更伺服器"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "大逃殺已結束"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "模式不適用於此伺服器"
+
+msgid "banner/info/disabled"
+msgstr "休戰期"
+
+msgid "banner/info/seasonActive"
+msgstr "重生機會與獎勵"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "直到 %(month)s %(day)s 日"
+
+msgid "banner/subtitle"
+msgstr "有珍貴獎勵的大逃殺模式"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s 小時"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s 小時 %(minutes)s 分鐘"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s 分鐘"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "大逃殺"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "將從新的位置繼續戰鬥。"
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "您將在不久後重生"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "重生中"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "不再有重生機會。"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "再也無法重生"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "不久後將無法重生！"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "這次要更加小心。"
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "您的車輛已準備好加入戰鬥！"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "返回戰鬥"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "正在與敵人交戰。"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "無法重生"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "獲取重生機會讓隊友重回戰鬥。"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "隊友車輛已遭摧毀"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "重生中"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "兩輛戰車總比一輛好！"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "隊友車輛已重生"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "別與敵人交戰！"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "隊友重生中"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "加成已啟用！"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "第一名的獎勵"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "已在戰鬥中收集"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "勝利"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "未選擇章節。未分配的戰車遠征點數：%(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "已完成所有章節。繼續遊玩並累積戰車遠征點數。"
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "前往戰車遠征"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "戰車遠征"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "選擇章節"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "前往已啟用章節的進度"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "前往戰車遠征"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "該場戰鬥完成的任務數：{count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "任務"
+
+msgid "battleResult/battleReward/title"
+msgstr "透過戰鬥獲得"
+
+msgid "battleResult/button/hangar"
+msgstr "前往車庫"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "點數與獎勵將在所有玩家完成此戰鬥後分配。任務也會依照戰鬥結果進行評估。"
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC 鍵]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "按下 %(esc) 即可跳過動畫"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "邀請加入裝甲排"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "隊友"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "隨機隊友"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "戰鬥類型"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "單人戰鬥"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "有《戰車世界》加值帳號，您可獲得："
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "有《戰車世界》加值帳號的總數值"
+
+msgid "battleResult/progressStage"
+msgstr "階段 {stage} 進度"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "玩家真實的暱稱與公會標籤，將不會被戰鬥中其他玩家所看到。"
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "玩家的真實暱稱：{name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "玩家真實的暱稱變更為 {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "由您車輛裝甲阻擋的傷害量。"
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "由您造成的傷害量。"
+
+msgid "battleResult/stats/body/kills"
+msgstr "被您擊毀的敵方車輛數。"
+
+msgid "battleResult/stats/body/place"
+msgstr "根據您戰鬥結果的排名。"
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "被您裝甲排擊毀的敵方車輛數。"
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "阻擋傷害"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "造成傷害"
+
+msgid "battleResult/stats/header/kills"
+msgstr "被您摧毀"
+
+msgid "battleResult/stats/header/place"
+msgstr "排名"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "被裝甲排擊毀"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "阻擋傷害"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "造成傷害"
+
+msgid "battleResult/stats/title/kills"
+msgstr "被您摧毀"
+
+msgid "battleResult/stats/title/place"
+msgstr "排名"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "被裝甲排擊毀"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "排行榜"
+
+msgid "battleResult/tab/result"
+msgstr "戰鬥結果"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "裝甲排已全滅"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "車輛已全毀"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "勝利"
+
+msgid "battleResult/title/victoryOther"
+msgstr "榮譽名次"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "選擇其中一輛大逃殺的特殊車輛。"
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "不相容的車輛"
+
+msgid "button/modules"
+msgstr "科技樹"
+
+msgid "button/repair"
+msgstr "修理"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "戰鬥暫不可用"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "戰鬥暫不可用"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "模式不可用"
+
+msgid "ceasefire/header/schedule"
+msgstr "戰鬥時間表"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "所有可用伺服器都已實施休戰。您可在下方查看時間表。"
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "此伺服器已實施休戰。您可切換到其他伺服器來進行模式。"
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "大逃殺不適用於此伺服器。您可切換到其他伺服器來進行。"
+
+msgid "commanderInfo/commonRank"
+msgstr "車長"
+
+msgid "commanderInfo/description/china"
+msgstr "「我已經贏了。您很快就會明白的。」"
+
+msgid "commanderInfo/description/france"
+msgstr "「吾即律法！」"
+
+msgid "commanderInfo/description/germany"
+msgstr "「今天真是輝煌的一天，世人都將牢牢記住。」"
+
+msgid "commanderInfo/description/poland"
+msgstr "「沒時間管什麼禮儀了。」"
+
+msgid "commanderInfo/description/sweden"
+msgstr "「一切都照計畫進行。」"
+
+msgid "commanderInfo/description/uk"
+msgstr "「不管擔任什麼角色，都要成為最頂尖的能手。」"
+
+msgid "commanderInfo/description/usa"
+msgstr "「我把深仇舊恨挖出來，重新拋光，磨得尖銳無比。」"
+
+msgid "commanderInfo/description/ussr"
+msgstr "「勝者全拿！」"
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "歷練"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\n大逃殺的特殊車輛"
+
+msgid "fragPanel/squadsCount"
+msgstr "裝甲排數：%(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "排行榜"
+
+msgid "hangarResults/btns/summary"
+msgstr "戰鬥結果"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "關閉"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "配件只能在戰鬥中升級。要開啟升級選單，請在戰鬥中按下 %(key)s 鍵。"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "透過%(highlight1)s與%(highlight2)s來獲得經驗。每達到一個階級，玩家將能為升級選單中的配件選擇一項升級，大幅增加車輛的特性。"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "對敵方車輛造成傷害"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "在地圖上收集物資"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "戰鬥中的車輛升級"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "您將以 I 階車輛進入戰鬥。"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "配件升級可透過在戰鬥中開啟升級選單（預設為 %(treeKey)s 鍵），以及按下 %(leftModuleKey)s 鍵與 %(rightModuleKey)s 鍵的按鍵組合來完成。\n\n配件只能在戰鬥中進行升級。"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "戰鬥中："
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "您的大逃殺戰車可在戰鬥中透過造成傷害或收集物資來獲得經驗。一旦累積到所需經驗，您的車輛將升級至下一個階級，且可為一個配件選擇一項升級。"
+
+msgid "levelUp/severalTitles"
+msgstr "達到等級：%(firstLevel)s–%(lastLevel)s！"
+
+msgid "levelUp/title"
+msgstr "已達到等級 %(level)s！"
+
+msgid "levelUp/twoTitles"
+msgstr "達到等級：%(firstLevel)s，%(secondLevel)s！"
+
+msgid "level_up/max_level_info/description"
+msgstr "完成任務並獲得珍貴的獎勵。"
+
+msgid "level_up/max_level_info/title"
+msgstr "有全新每日任務可用"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "賽季\n即將開始"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "賽季將開始於 %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "阻擋"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "傷害"
+
+msgid "playerStats/killsStat/name"
+msgstr "擊毀"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "擊毀"
+
+msgid "playerStats/placeStat/name"
+msgstr "排名"
+
+msgid "playerStats/title"
+msgstr "個人成績"
+
+msgid "player_errors/radarInCooldown"
+msgstr "無法使用無線電偵測：正在準備"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "此車輛運作正常。無需修理。"
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "戰地機器人已被摧毀"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "敵方 %(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "自爆戰車被擊毀"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "地雷已失效"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "地雷已埋設"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "無線電偵測已準備好了"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "車輛已達到最高階級"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "已達到 %(level)s 階"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "已安裝：%(moduleType)s。已升級：%(module)s。"
+
+msgid "player_messages/moduleType/hull"
+msgstr "車身"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "懸吊"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "引擎"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "炮管"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "無線電偵測"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "炮塔"
+
+msgid "playersPanel/title"
+msgstr "隊伍"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "在裝甲排車輛之間切換。"
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "觀察者模式"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > 回到車庫。\n可用其他車輛加入新的戰鬥。"
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "回到車庫"
+
+msgid "preBattle/buttonTitle"
+msgstr "加入戰鬥!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "選擇地圖"
+
+msgid "preBattle/listTitle"
+msgstr "玩家準備狀態"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Dreamland"
+
+msgid "preBattle/mapRandom"
+msgstr "隨機地圖"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "裝甲排車輛"
+
+msgid "preBattle/title"
+msgstr "大狩獵"
+
+msgid "preBattle/userFooterTitle"
+msgstr "所選車輛"
+
+msgid "preBattle/userNotReady"
+msgstr "尚未準備好"
+
+msgid "preBattle/userReady"
+msgstr "已經準備好"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "%(server)s 伺服器上的賽季 %(cycleNo)s 已結束"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "%(server)s 伺服器上的賽季已結束。"
+
+msgid "proxyPanel/button"
+msgstr "商店"
+
+msgid "proxyPanel/label"
+msgstr "鋼鐵\n印記"
+
+msgid "proxyPanel/store"
+msgstr "商店"
+
+msgid "questsTooltip/timeLeft"
+msgstr "賽季結束於 %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "尚未指派按鍵給無線電偵測"
+
+msgid "radar/hint/press"
+msgstr "按下"
+
+msgid "radar/hint/text"
+msgstr "以啟動無線電偵測"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "出發"
+
+msgid "selectRespawn/button/land"
+msgstr "出發"
+
+msgid "selectRespawn/description"
+msgstr "選擇其中一個建議地點。如果沒有選擇任何位置，您將會在其中一個建議地點上出發。"
+
+msgid "selectRespawn/header"
+msgstr "選擇一個出發點"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "選擇其中一個建議地點。如果沒有選擇任何位置，您將會在其中一個建議地點上出發。"
+
+msgid "selectRespawn/text/startHere"
+msgstr "您的戰鬥將在此開始"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "選擇一個出發點"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s 天"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s 小時 %(min)s 分鐘"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 分鐘"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s 分鐘"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "狂暴！"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "強酸腐蝕裝甲！"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "區域已關閉！快點離開此區域，否則車輛將被摧毀！"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "區域即將變為紅色"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "機動性下降！"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "翻回車輛中..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "正在恢復血量"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "正在恢復血量"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "正在轉換傷害"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "技術特性已增強"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "砲彈與血量恢復"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "空投物資"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "工具包或能力使用次數"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "戰利品"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "戰利品組合：%(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "正在收集：%(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "修理區"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "鬥志漸漲！"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "在煙霧中"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "我們的裝甲正被腐蝕！"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "機動性下降！"
+
+msgid "techParams/type/damage"
+msgstr "傷害"
+
+msgid "techParams/type/difficulty"
+msgstr "難度"
+
+msgid "techParams/type/mobility"
+msgstr "機動性"
+
+msgid "techParams/type/spotting"
+msgstr "偵察"
+
+msgid "techParams/type/survivability"
+msgstr "生存能力"
+
+msgid "techtree/body_armor"
+msgstr "裝甲"
+
+msgid "techtree/body_health"
+msgstr "血量"
+
+msgid "techtree/body_mobility"
+msgstr "機動性"
+
+msgid "techtree/engine_acceleration"
+msgstr "動力"
+
+msgid "techtree/engine_speed"
+msgstr "最高速度"
+
+msgid "techtree/gun_alpha"
+msgstr "每發傷害"
+
+msgid "techtree/gun_auto_loader"
+msgstr "自動再裝填火炮"
+
+msgid "techtree/gun_clip"
+msgstr "彈匣式裝填"
+
+msgid "techtree/gun_dpm"
+msgstr "裝填速度"
+
+msgid "techtree/gun_dualgun"
+msgstr "雙管火炮"
+
+msgid "techtree/gun_he"
+msgstr "HE 彈傷害"
+
+msgid "techtree/gun_machinegun"
+msgstr "反戰車機炮"
+
+msgid "techtree/gun_piercing"
+msgstr "穿透力"
+
+msgid "techtree/radar_cooldown"
+msgstr "無線電偵測冷卻時間"
+
+msgid "techtree/radar_distance"
+msgstr "偵測距離"
+
+msgid "techtree/turret_armor"
+msgstr "裝甲"
+
+msgid "techtree/turret_health"
+msgstr "血量"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "迴轉速度"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "多達 {{credits}} 銀幣"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "多達 {{experience}} 經驗"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "裝甲排戰鬥加成"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "與隨機隊友組成裝甲排並進行戰鬥。以此隊伍與 9 個敵方裝甲排對抗。在此模式中，可完成裝甲排任務。戰鬥結束後，此裝甲排將自動解散。"
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "經典大逃殺戰鬥。每名玩家為己而戰。收集物資，升級車輛並使用獨特能力，藉此成為最終的存活者！"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "與好友組成裝甲排並進行戰鬥，對抗 9 個敵方裝甲排。在此模式中，可完成裝甲排任務。"
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "隨機裝甲排"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "單人模式"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "與好友組成裝甲排"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "單人"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "裝甲排"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "獲得點數的規則"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "第 %(place)s 名"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "第 %(place)s 名"
+
+msgid "tooltips/awards/achievement"
+msgstr "勳章"
+
+msgid "tooltips/awards/badge"
+msgstr "徽章"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s：「%(userName)s」"
+
+msgid "tooltips/respawn/common/description"
+msgstr "讓您在車輛遭摧毀後重回戰鬥。在此情況下，該車輛仍會維持已達到的等級。每場戰鬥中的使用次數有限。"
+
+msgid "tooltips/respawn/footer/text"
+msgstr "重生次數可從空投物資中獲得。"
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "若要讓隊友重生，必須持續 {brown_Open}%(timeToResurrect)s 秒{brown_Close}不與敵人交戰。此機制在戰鬥的首 {brown_Open}%(duration)s 分鐘{brown_Close}內可用。裝甲排隊友共用重生次數。"
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "加入裝甲排戰鬥時"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "一旦遭摧毀，您的車輛會自動重生。此機制在戰鬥的首 {brown_Open}%(duration)s 分鐘{brown_Close}內可用。"
+
+msgid "tooltips/respawn/solo/title"
+msgstr "單人戰鬥時"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "單次使用"
+
+msgid "tooltips/respawn/title"
+msgstr "重生"
+
+msgid "tooltips/vehicle/description"
+msgstr "大逃殺模式的車輛"
+
+msgid "tournament/description"
+msgstr "大狩獵"
+
+msgid "tournament/fightButton/notReady"
+msgstr "尚未準備好"
+
+msgid "tournament/fightButton/ready"
+msgstr "已經準備好！"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "無法進入比賽。錯誤代碼：%(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "大狩獵比賽錯誤。錯誤代碼：%(errorString)s"
+
+msgid "tournament/title"
+msgstr "大狩獵"
+
+msgid "tournament/type/solo"
+msgstr "類型：單人"
+
+msgid "tournament/type/squad"
+msgstr "類型：裝甲排"
+
+msgid "upgradePanel/alert/0"
+msgstr "無法升級您的車輛！"
+
+msgid "upgradePanel/alert/1"
+msgstr "您正在激戰中，無法升級您的車輛！"
+
+msgid "upgradePanel/alert/2"
+msgstr "您的車輛正淹沒中，無法升級您的車輛！"
+
+msgid "upgradePanel/alert/3"
+msgstr "您的車輛已翻覆，無法升級您的車輛！"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "按下 %(key)s 鍵以開啟升級選單"
+
+msgid "upgradePanel/title/default"
+msgstr "有新配件可用"
+
+msgid "upgradePanel/title/hull"
+msgstr "有新車身可用"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "有新懸吊可用"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "有新引擎可用"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "有新炮管可用"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "有新通訊設備可用"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "有新炮塔可用"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "或"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "裝甲"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "每發傷害"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "裝填速度"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "血量"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "穿透力"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "無線電偵測運作"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "彈匣裝填系統"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "速度"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "車輛特色"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "優勢"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "劣勢"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "所有伺服器都已實施休戰。戰鬥將於 %(time)s後可進行"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "選擇其他伺服器"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "事件 %(cycle)s 已結束"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "事件已結束"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "此伺服器已實施休戰。戰鬥將於 %(time)s後可進行"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "%(serverName)s 已實施休戰"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "事件 %(cycle)s 將開始於 %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "第一個事件將開始於 %(time)s"

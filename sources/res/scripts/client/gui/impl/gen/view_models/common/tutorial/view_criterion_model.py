@@ -1,0 +1,28 @@
+from frameworks.wulf import ViewModel
+
+class ViewCriterionModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=2, commands=0):
+        super(ViewCriterionModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getComponentId(self):
+        return self._getString(0)
+
+    def setComponentId(self, value):
+        self._setString(0, value)
+        return
+
+    def getViewUniqueId(self):
+        return self._getString(1)
+
+    def setViewUniqueId(self, value):
+        self._setString(1, value)
+        return
+
+    def _initialize(self):
+        super(ViewCriterionModel, self)._initialize()
+        self._addStringProperty(b'componentId', b'')
+        self._addStringProperty(b'viewUniqueId', b'')
+        return

@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: Ê-kíp WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "Phần thưởng Pháo Chống tăng"
+
+msgid "awards/class/SPG"
+msgstr "Phần thưởng Pháo Tự hành"
+
+msgid "awards/class/heavyTank"
+msgstr "Phần thưởng Tăng hạng Nặng"
+
+msgid "awards/class/lightTank"
+msgstr "Phần thưởng Tăng hạng Nhẹ"
+
+msgid "awards/class/mediumTank"
+msgstr "Phần thưởng Tăng hạng Trung"
+
+msgid "awards/level"
+msgstr "Phần thưởng Xe Cấp %(level)s"
+
+msgid "awards/nation/china"
+msgstr "Phần thưởng Xe Trung Quốc"
+
+msgid "awards/nation/czech"
+msgstr "Phần thưởng Xe Tiệp Khắc"
+
+msgid "awards/nation/france"
+msgstr "Phần thưởng Xe Pháp"
+
+msgid "awards/nation/germany"
+msgstr "Phần thưởng Xe Đức"
+
+msgid "awards/nation/japan"
+msgstr "Phần thưởng Xe Nhật Bản"
+
+msgid "awards/nation/poland"
+msgstr "Phần thưởng Xe Ba Lan"
+
+msgid "awards/nation/sweden"
+msgstr "Phần thưởng Xe Thụy Điển"
+
+msgid "awards/nation/uk"
+msgstr "Phần thưởng Xe Anh Quốc"
+
+msgid "awards/nation/usa"
+msgstr "Phần thưởng Xe Mỹ"
+
+msgid "awards/nation/ussr"
+msgstr "Phần thưởng Xe Liên Xô"
+
+msgid "awards/tooltip/class"
+msgstr "Click để hiển thị phần thưởng cho loại xe này."
+
+msgid "awards/tooltip/level"
+msgstr "Click để hiển thị phần thưởng cho xe thuộc cấp này."
+
+msgid "awards/tooltip/nation"
+msgstr "Click để hiển thị phần thưởng cho quốc gia này."
+
+msgid "awards/vehicle"
+msgstr "Phần thưởng cho Xe đã chọn"
+
+msgid "badge/tooltip/description"
+msgstr "Phù hiệu là một biểu tượng độc đáo được hiển thị cạnh nickname trong trận đánh. Nó thể hiện thành tích xuất sắc của bạn ở sự kiện Duyệt binh Quốc gia mà người chơi ở cả hai đội đều sẽ nhìn thấy."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "Phù hiệu Kỷ niệm"
+
+msgid "block/award"
+msgstr "Phần thưởng Chính"
+
+msgid "block/objective"
+msgstr "Điều kiện"
+
+msgid "block/task"
+msgstr "Nhiệm vụ"
+
+msgid "button/awards"
+msgstr "Tất cả Ph.thưởng"
+
+msgid "button/awards/tooltip"
+msgstr "Click để hiển thị danh sách tất cả phần thưởng trong cuộc thi này."
+
+msgid "button/regulations"
+msgstr "Yêu cầu"
+
+msgid "button/regulations/tooltip"
+msgstr "Click để hiển thị mô tả đầy đủ của cuộc thi."
+
+msgid "condition/battletype/random"
+msgstr "Trận đấu Ngẫu nhiên 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "Trận đánh Xếp hạng"
+
+msgid "condition/battletype/squadallowed"
+msgstr "Cho phép Trung đội"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "Không cho phép Trung đội"
+
+msgid "condition/primetime/any"
+msgstr "Bất kể máy chủ và thời gian"
+
+msgid "condition/primetime/chosen"
+msgstr "Chỉ trên máy chủ cụ thể"
+
+msgid "condition/vehicle/chosen"
+msgstr "Chỉ trên các xe cụ thể:"
+
+msgid "condition/vehicle/exist"
+msgstr "Trong Ga-ra"
+
+msgid "condition/vehicle/missing"
+msgstr "Không có trong Ga-ra"
+
+msgid "condition/vehicle/single"
+msgstr "Bằng %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "Phần thưởng"
+
+msgid "excel/btnClose"
+msgstr "ĐẾN CUỘC THI"
+
+msgid "excel/group/title"
+msgstr "Nhóm"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "Để vào bảng xếp hạng, hãy tham chiến thêm số trận sau: %(number)s"
+
+msgid "excel/noData"
+msgstr "Chưa đạt thứ hạng có giải."
+
+msgid "excel/participate/join"
+msgstr "Chiến đấu"
+
+msgid "excel/participate/notParticipated"
+msgstr "Bạn đã không được xếp hạng"
+
+msgid "excel/subHeader"
+msgstr "Cuộc thi: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "Tham gia"
+
+msgid "header/participate/button/leave"
+msgstr "Rời bỏ Cuộc thi"
+
+msgid "header/participate/finished"
+msgstr "Cuộc Thi Đã Kết Thúc"
+
+msgid "header/participate/notStarted"
+msgstr "Bạn Đã Tham gia"
+
+msgid "header/participate/reason/byAge"
+msgstr "Tài khoản được tạo sau %date%"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "Cuộc thi Không khả dụng"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "Bạn Đã Bỏ Cuộc thi này"
+
+msgid "header/participate/started"
+msgstr "Bạn Đang Tham gia"
+
+msgid "header/timer"
+msgstr "Kết thúc sau:"
+
+msgid "maintenance/body"
+msgstr "Chúng tôi rất tiếc vì vấn đề nhất thời này."
+
+msgid "maintenance/title"
+msgstr "Lỗi khi Tải Dữ liệu"
+
+msgid "maintenance/update"
+msgstr "Cập nhật"
+
+msgid "notification/buttons/details"
+msgstr "Chi tiết"
+
+msgid "notification/eventFinished/body"
+msgstr "Cuộc thi %(eventName)s đã kết thúc. Những người thắng sẽ được công bố trong vài ngày tới, tiếp sau đó là giai đoạn trao thưởng."
+
+msgid "notification/eventFinished/header"
+msgstr "Cuộc Thi Đã Kết thúc"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "Kết quả các trận đánh của bạn giờ sẽ tính vào cuộc thi, từ đó bạn sẽ vào bảng xếp hạng và cạnh tranh phần thưởng."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "Bạn Đã Tham gia"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "Kết quả các trận đánh của bạn sẽ được tính khi cuộc thi bắt đầu, từ đó bạn sẽ vào bảng xếp hạng và cạnh tranh phần thưởng."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "Bạn Đã Tham gia"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "Không thể tham dự: Chưa đủ điều kiện."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "Không thể tham dự: Giai đoạn đăng ký đã kết thúc."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "Thống kê của bạn trong các cuộc thi sẽ bị tính lại sau khi cập nhật xếp hạng."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "Bạn Đã Bỏ Cuộc thi"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "Thống kê của bạn sẽ không được tính vào cuộc thi này."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "Bạn Đã Bỏ Cuộc thi"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "Không thể rút khỏi cuộc thi: Thời gian cho phép đã hết."
+
+msgid "notification/eventStarted/body"
+msgstr "Cuộc thi %(eventName)s đã bắt đầu! Những người chơi xếp ở vị thứ có giải khi cuộc thi kết thúc sẽ nhận được nhiều phần thưởng rất có giá trị."
+
+msgid "notification/eventStarted/header"
+msgstr "Cuộc Thi Đã Bắt đầu"
+
+msgid "notification/unknownError/body"
+msgstr "Không thể hoàn thành tác vụ."
+
+msgid "orders/title"
+msgstr "Yêu cầu"
+
+msgid "popover/buttons/cancel"
+msgstr "Hủy bỏ"
+
+msgid "popover/buttons/rating"
+msgstr "Đến Xếp hạng"
+
+msgid "popover/buttons/select"
+msgstr "Chọn"
+
+msgid "popover/noVehicles"
+msgstr "Không có xe nào khớp với bộ lọc đã chọn."
+
+msgid "popover/resetFilter"
+msgstr "Đặt lại Bộ lọc"
+
+msgid "popover/title"
+msgstr "Danh sách Xếp hạng"
+
+msgid "popover/title/vehicle"
+msgstr "Danh sách Xếp hạng"
+
+msgid "popover/tooltip/class"
+msgstr "Đến bảng xếp hạng dành cho các xe thuộc loại đã chọn."
+
+msgid "popover/tooltip/level"
+msgstr "Đến bảng xếp hạng dành cho các xe thuộc cấp đã chọn."
+
+msgid "popover/tooltip/nation"
+msgstr "Đến bảng xếp hạng dành cho các xe thuộc quốc gia đã chọn."
+
+msgid "server/list"
+msgstr "Để tính các trận đánh của bạn vào cuộc thi, hãy chuyển sang máy chủ sau:"
+
+msgid "server/noSuitable/body"
+msgstr "Kết quả trận đánh sẽ được tính tiếp lúc %(data)s. Lịch thi đấu"
+
+msgid "server/noSuitable/header"
+msgstr "Kết quả chiến đấu không được tính vào cuộc thi tại thời điểm này"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s tại %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "Kết Quả Tốt Nhất của bạn"
+
+msgid "status/bestResults/one"
+msgstr "Kết Quả của bạn"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "Cuộc thi không khả dụng:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "Bạn không được phép tham dự cuộc thi này vì đã vi phạm các Quy định Game"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "Tài khoản được tạo sau %(date)s"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "Bạn chưa tham chiến đủ số trận trong chế độ Trận đấu Ngẫu nhiên: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "Tỷ lệ thắng của bạn trong chế độ Trận đấu Ngẫu nhiên vượt quá %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "Bạn chưa đạt đủ tỷ lệ thắng sau đây trong chế độ Trận đấu Ngẫu nhiên: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "Giai đoạn đăng ký đã kết thúc"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "Bạn không thể tham gia cuộc thi này."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "Bạn Đã Bỏ Cuộc thi này"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "Kết quả các trận đánh của bạn không còn được tính vào cuộc thi này nữa. Bạn sẽ không được xếp hạng và nhận phần thưởng.\nBạn không thể vào lại cuộc thi này."
+
+msgid "status/cantJoin/reason/many"
+msgstr "Chưa đủ điều kiện %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "Chưa đủ điều kiện (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "Bạn đã không được xếp hạng"
+
+msgid "status/cantJoin/reason/special"
+msgstr "Bạn không thể tham gia cuộc thi bằng tài khoản này."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "không có Xe đúng Yêu cầu"
+
+msgid "status/participate/cantJoin"
+msgstr "Cuộc thi Không khả dụng"
+
+msgid "status/participate/needMoreBattles"
+msgstr "Đáp ứng các điều kiện cần có trong những trận đánh để kết quả của bạn được hiển thị tại đây sau khi cập nhật bảng xếp hạng."
+
+msgid "status/participate/notParticipated"
+msgstr "Bạn đã không tham dự bảng xếp hạng này"
+
+msgid "summary/averagedamage"
+msgstr "Sát thương Trung bình"
+
+msgid "summary/averagedamageassisted"
+msgstr "Sát thương trung bình gây ra nhờ sự hỗ trợ của bạn"
+
+msgid "summary/averagexp"
+msgstr "Kinh nghiệm Trung bình"
+
+msgid "summary/battles"
+msgstr "Chiến trận trong Cuộc thi"
+
+msgid "summary/damage"
+msgstr "Gây thiệt hại"
+
+msgid "summary/damageassist"
+msgstr "Sát thương gây ra nhờ sự hỗ trợ của bạn"
+
+msgid "summary/damageblocked"
+msgstr "Thiệt hại đã chặn"
+
+msgid "summary/description/awards/title/award"
+msgstr "PHẦN THƯỞNG VÀO CUỐI CUỘC THI"
+
+msgid "summary/description/awards/title/group"
+msgstr "NHÓM"
+
+msgid "summary/description/awards/title/position"
+msgstr "VỊ THỨ"
+
+msgid "summary/description/max/class"
+msgstr "Bạn đã chiến đấu tốt nhất bằng %(value)s"
+
+msgid "summary/description/max/level"
+msgstr "Bạn đã chiến đấu tốt nhất bằng một xe Cấp %(value)s"
+
+msgid "summary/description/max/nation"
+msgstr "Bạn đã chiến đấu tốt nhất bằng một xe thuộc quốc gia sau: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "Bạn đã chiến đấu tốt nhất bằng %(value)s"
+
+msgid "summary/description/sum/class"
+msgstr "Thống kê của bạn trong cuộc thi với %(value)s"
+
+msgid "summary/description/sum/level"
+msgstr "Thống kê của bạn trong cuộc thi với xe Cấp %(value)s"
+
+msgid "summary/description/sum/nation"
+msgstr "Thống kê của bạn trong cuộc thi với xe thuộc quốc gia sau: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "Thống kê của bạn trong cuộc thi với xe sau: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "Chuỗi trận đánh tốt nhất của bạn với %(value)s"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Chuỗi trận đánh tốt nhất của bạn với xe Cấp %(value)s"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "Chuỗi trận đánh tốt nhất của bạn với xe thuộc quốc gia sau: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "Chuỗi trận đánh tốt nhất của bạn với %(value)s"
+
+msgid "summary/description/sumN/class"
+msgstr "Trận đánh tốt nhất của bạn với %(value)s"
+
+msgid "summary/description/sumN/level"
+msgstr "Trận đánh tốt nhất của bạn với xe Cấp %(value)s"
+
+msgid "summary/description/sumN/nation"
+msgstr "Trận đánh tốt nhất của bạn với xe thuộc quốc gia sau: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "Trận đánh tốt nhất của bạn với %(value)s"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "Chuỗi trận đánh tốt nhất của bạn với %(value)s"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Chuỗi trận đánh tốt nhất của bạn với xe Cấp %(value)s"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "Chuỗi trận đánh tốt nhất của bạn với xe thuộc quốc gia sau: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "Chuỗi trận đánh tốt nhất của bạn với %(value)s"
+
+msgid "summary/destroyedvehicles"
+msgstr "Xe địch đã tiêu diệt"
+
+msgid "summary/fightInSquaad"
+msgstr "Trận theo Tr.đội"
+
+msgid "summary/fightNotInSquaad"
+msgstr "Trận không theo Tr.đội"
+
+msgid "summary/originalXP"
+msgstr "Kinh nghiệm gốc"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "Thiệt hại do Người chơi Hỗ trợ"
+
+msgid "summary/param/max/damageDealt"
+msgstr "Gây thiệt hại"
+
+msgid "summary/param/max/originalXP"
+msgstr "Kinh nghiệm gốc"
+
+msgid "summary/param/max/xp"
+msgstr "Kinh nghiệm"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "Thiệt hại trung bình gây ra do người chơi hỗ trợ"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "Sát thương Trung bình"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "Kinh nghiệm gốc trung bình"
+
+msgid "summary/param/sumAll/wins"
+msgstr "Chiến thắng"
+
+msgid "summary/param/sumAll/xp"
+msgstr "Kinh nghiệm Trung bình"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "Thiệt hại trung bình gây ra nhờ người chơi hỗ trợ"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "Tổng Thiệt hại"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "Tổng Kinh nghiệm Cơ bản"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "Tổng Kinh nghiệm"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "Tổng thiệt hại gây ra nhờ người chơi hỗ trợ"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "Tổng Thiệt hại"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "Tổng Kinh nghiệm Cơ bản"
+
+msgid "summary/param/sumN/xp"
+msgstr "Tổng Kinh nghiệm"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "Thiệt hại trung bình gây ra nhờ người chơi hỗ trợ"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "Tổng Thiệt hại"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "Tổng Kinh nghiệm Cơ bản"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "Tổng Kinh nghiệm"
+
+msgid "summary/position"
+msgstr "Vị thứ xếp hạng: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "Hòa"
+
+msgid "summary/result/loss"
+msgstr "Thất bại"
+
+msgid "summary/result/win"
+msgstr "Thắng lợi"
+
+msgid "summary/status"
+msgstr "Đã cập nhật vào %(day)s lúc %(time)s"
+
+msgid "summary/winrate"
+msgstr "Chiến thắng"
+
+msgid "table/header/player"
+msgstr "Người chơi"
+
+msgid "table/header/position"
+msgstr "Thứ"
+
+msgid "table/selectParticipateBtn"
+msgstr "Thoát Cuộc thi"
+
+msgid "table/selectRatingBtn"
+msgstr "Danh sách Xếp hạng"
+
+msgid "table/selectRegistrationBtn"
+msgstr "Đăng ký Tham gia"
+
+msgid "table/stripe/bronze/title"
+msgstr "Nhóm III (vị thứ %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "Nhóm I (vị thứ %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "Nhóm I"
+
+msgid "table/stripe/iron/title"
+msgstr "Nhóm IV (vị thứ %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "Nhóm II (vị thứ %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "Vị thứ Không có giải"
+
+msgid "task/eventtype/all"
+msgstr "Bảng xếp hạng chung dành cho mọi người tham gia"
+
+msgid "task/eventtype/class"
+msgstr "Mỗi loại xe có bảng xếp hạng riêng"
+
+msgid "task/eventtype/level"
+msgstr "Mỗi cấp xe có bảng xếp hạng riêng"
+
+msgid "task/eventtype/nation"
+msgstr "Mỗi quốc gia xe có bảng xếp hạng riêng"
+
+msgid "task/eventtype/vehicle"
+msgstr "Mỗi xe có bảng xếp hạng riêng"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "Vào bảng xếp hạng theo thiệt hại gây ra nhờ bạn hỗ trợ"
+
+msgid "task/objective/max/damageDealt"
+msgstr "Vào bảng xếp hạng theo sát thương gây ra"
+
+msgid "task/objective/max/originalXP"
+msgstr "Vào bảng xếp hạng theo kinh nghiệm gốc kiếm được"
+
+msgid "task/objective/max/xp"
+msgstr "Vào bảng xếp hạng theo kinh nghiệm kiếm được"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "Vào bảng xếp hạng theo tổng sát thiệt hại gây ra nhờ bạn hỗ trợ"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "Vào bảng xếp hạng theo tổng sát thương gây ra"
+
+msgid "task/objective/sum/originalXP"
+msgstr "Vào bảng xếp hạng theo tổng kinh nghiệm gốc kiếm được"
+
+msgid "task/objective/sum/wins"
+msgstr "Vào bảng xếp hạng theo số chiến thắng"
+
+msgid "task/objective/sum/xp"
+msgstr "Vào bảng xếp hạng theo tổng kinh nghiệm kiếm được"
+
+msgid "task/objparam/damageAssisted"
+msgstr "Thiệt hại gây ra nhờ bạn hỗ trợ"
+
+msgid "task/objparam/damageDealt"
+msgstr "Sát thương gây ra"
+
+msgid "task/objparam/originalXP"
+msgstr "Kinh nghiệm gốc kiếm được"
+
+msgid "task/objparam/wins"
+msgstr "Số chiến thắng"
+
+msgid "task/objparam/xp"
+msgstr "Kinh nghiệm"
+
+msgid "task/selection/max"
+msgstr "Tính trận tốt nhất của bạn"
+
+msgid "task/selection/sumAll"
+msgstr "Tính tất cả các trận của bạn"
+
+msgid "task/selection/sumMSeqN"
+msgstr "Tính %(cardinality)s trận đánh tốt nhất trong chuỗi. Số trận trong chuỗi: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "Tính các trận tốt nhất của bạn: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "Tính chuỗi trận tốt nhất của bạn. Số trận trong chuỗi: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "hôm nay"
+
+msgid "time/day/tomorrow"
+msgstr "ngày mai"
+
+msgid "time/day/yesterday"
+msgstr "hôm qua"
+
+msgid "time/eventFinished"
+msgstr "Cuộc thi đã kết thúc: %(date)s"
+
+msgid "time/period/day"
+msgstr "ng"
+
+msgid "time/period/hour"
+msgstr "giờ"
+
+msgid "time/period/minute"
+msgstr "ph"
+
+msgid "time/timeTo/end"
+msgstr "Kết thúc sau: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "Giai đoạn đăng ký kết thúc sau: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "Bắt đầu sau: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "Phần thưởng trao vào cuối cuộc thi sẽ tùy vào vị thứ của bạn trên bảng xếp hạng.\nĐể xem danh sách tất cả phần thưởng ở cuộc thi này, hãy click Tất cả Phần thưởng."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "Số kinh nghiệm được tính không bao gồm bất cứ lượng thêm nào từ Tài khoản Premium hoặc xe Premium, Trợ cấp Cá nhân, hệ số nhân cho trận thắng đầu ngày, và mọi sự kiện đặc biệt."
+
+msgid "tooltip/top/amount/xp"
+msgstr "Số kinh nghiệm được tính không bao gồm bất cứ lượng thêm nào từ xe Premium, Trợ cấp Cá nhân, hệ số nhân cho trận thắng đầu ngày và mọi sự kiện đặc biệt.\nTuy nhiên, kinh nghiệm thêm từ Tài khoản Premium sẽ được tính."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "Thiệt hại gây ra nhờ sự hỗ trợ của người chơi ở vị thứ có giải cuối cùng: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "Thiệt hại gây ra bởi người chơi ở vị thứ có giải cuối cùng: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "Kinh nghiệm gốc kiếm được bởi người chơi ở vị thứ có giải cuối cùng: %(number)s\nSố kinh nghiệm được tính không bao gồm bất cứ lượng thêm nào từ Tài khoản Premium hoặc xe Premium, Trợ cấp Cá nhân, hệ số nhân cho trận thắng đầu ngày, và mọi sự kiện đặc biệt."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "Kinh nghiệm kiếm được bởi người chơi ở vị thứ có giải cuối cùng: %(number)s\nSố kinh nghiệm được tính không bao gồm bất cứ lượng thêm nào từ xe Premium, Trợ cấp Cá nhân, hệ số nhân cho trận thắng đầu ngày và mọi sự kiện đặc biệt.\nTuy nhiên, kinh nghiệm thêm từ Tài khoản Premium sẽ được tính."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "Tổng thiệt hại gây ra nhờ sự hỗ trợ của người chơi ở vị thứ có giải cuối cùng: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "Tổng thiệt hại gây ra của người chơi ở vị thứ có giải cuối cùng: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "Tổng kinh nghiệm gốc kiếm được bởi người chơi ở vị thứ có giải cuối cùng: %(number)s\nSố kinh nghiệm được tính không bao gồm bất cứ lượng thêm nào từ Tài khoản Premium hoặc xe Premium, Trợ cấp Cá nhân, hệ số nhân cho trận thắng đầu ngày, và mọi sự kiện đặc biệt."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "Số chiến thắng của người chơi ở vị thứ có giải cuối cùng: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "Tổng kinh nghiệm kiếm được bởi người chơi ở vị thứ có giải cuối cùng: %(number)s\nSố kinh nghiệm được tính không bao gồm bất cứ lượng thêm nào từ xe Premium, Trợ cấp Cá nhân, hệ số nhân cho trận thắng đầu ngày và mọi sự kiện đặc biệt.\nTuy nhiên, kinh nghiệm thêm từ Tài khoản Premium sẽ được tính."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "Vị thứ không có giải"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "Nhóm %(group)s (positions %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "Kinh nghiệm trung bình kiếm được bởi người chơi ở vị thứ có giải cuối cùng:"
+
+msgid "top/participation/notParticipated"
+msgstr "Bạn đã không tham dự bảng xếp hạng này"
+
+msgid "top/participation/notfull"
+msgstr "Bạn đã không được xếp hạng"
+
+msgid "top/participation/notintop"
+msgstr "Bạn hiện không nằm ở vị thứ có giải"
+
+msgid "top/position"
+msgstr "Vị thứ của bạn:"
+
+msgid "top/reason/notfull"
+msgstr "Để vào bảng xếp hạng, hãy đánh thêm số trận sau:"
+
+msgid "vehicles/level"
+msgstr "Xe Cấp %(level)s"
+
+msgid "vehicles/tooltip/class"
+msgstr "Click để hiển thị xe thuộc loại này tham dự cuộc thi."
+
+msgid "vehicles/tooltip/level"
+msgstr "Click để hiển thị xe thuộc cấp này tham dự cuộc thi."
+
+msgid "vehicles/tooltip/nation"
+msgstr "Click để hiển thị xe thuộc quốc gia này tham dự cuộc thi."
+
+msgid "vehicles/vehicle"
+msgstr "Xe tham dự Cuộc thi"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "Click để hiển thị danh sách các xe được phép tham dự cuộc thi."

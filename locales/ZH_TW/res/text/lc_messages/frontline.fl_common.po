@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "重置過濾"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "沒有車輛符合所選參數。\n需重置過濾設定以顯示相應的車輛。"
+
+msgid "battleType/description/fast"
+msgstr "在此情境中，戰鬥儲備冷卻時間縮短。"
+
+msgid "battleType/description/random"
+msgstr "在此情境中，玩家從隨機儲備組合中進行選擇，且有機會將其提升到等級 IV。"
+
+msgid "battleType/description/standard"
+msgstr "在此情境中，採用一般前線規則。"
+
+msgid "battleType/postBattle/title"
+msgstr "戰鬥情境：%(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "戰鬥儲備冷卻時間縮短。"
+
+msgid "battleType/shortDescription/random"
+msgstr "戰鬥儲備隨機出現供選擇。"
+
+msgid "battleType/shortDescription/standard"
+msgstr "採用一般規則。"
+
+msgid "battleType/title/fast"
+msgstr "作戰支援"
+
+msgid "battleType/title/random"
+msgstr "命運交錯"
+
+msgid "battleType/title/standard"
+msgstr "一般戰鬥"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "返回"
+
+msgid "button/close"
+msgstr "關閉"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} 天"
+msgstr[1] "{duration} 天"
+msgstr[2] "{duration} 天"
+
+msgid "filterPopover/note"
+msgstr "此處僅會顯示適用於模式的車輛。"
+
+msgid "levelReservesTooltip/desc"
+msgstr "戰鬥儲備等級會在達到新的軍階時提升。"
+
+msgid "levelReservesTooltip/info"
+msgstr "在{whiteSpanish_Start}命運交錯{whiteSpanish_End}情境中，購買戰鬥儲備將讓該儲備提升一個等級，並有機會將該儲備提升到等級 {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}。"
+
+msgid "levelReservesTooltip/level"
+msgstr "達到以下軍階時提升：{whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "達到以下軍階時可用：{whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "等級 {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "在{whiteSpanish_Start}命運交錯{whiteSpanish_End}情境中{whiteSpanish_Start}購買戰鬥儲備{whiteSpanish_End}。"
+
+msgid "levelReservesTooltip/title"
+msgstr "戰鬥儲備等級"
+
+msgid "loading"
+msgstr "載入中…"
+
+msgid "widget/eventStartSoon"
+msgstr "活動即將開始！"
+
+msgid "widget/maxTier"
+msgstr "您已達到最高階級！"

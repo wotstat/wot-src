@@ -1,0 +1,122 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "crewBooks/button/label"
+msgstr "열기"
+
+msgid "crewBooks/description"
+msgstr "승무원 훈련서로 이동합니다."
+
+msgid "crewBooks/error/locked"
+msgstr "작업을 수행할 수 없습니다"
+
+msgid "crewBooks/title"
+msgstr "승무원 훈련서 ({count})"
+
+msgid "crewBooks/tutorial/crewOperations"
+msgstr "승무원 훈련서\n이용 가능"
+
+msgid "crewBooks/tutorial/readBook"
+msgstr "승무원 훈련서로\n이동"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/body"
+msgstr "전투 중인 승무원입니다"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/header"
+msgstr "오류"
+
+msgid "crewOperations/btn/tooltip/body"
+msgstr "모든 승무원을 한 번에 막사로 이동, 재훈련, 복귀시키거나 승무원 훈련서를 적용할 수 있습니다."
+
+msgid "crewOperations/btn/tooltip/header"
+msgstr "승무원 관리"
+
+msgid "dropInBarrack/button/label"
+msgstr "보내기"
+
+msgid "dropInBarrack/description"
+msgstr "모든 승무원을 막사로 보냅니다."
+
+msgid "dropInBarrack/error/noCrew"
+msgstr "승무원 없음"
+
+msgid "dropInBarrack/title"
+msgstr "승무원 막사로 보내기"
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/body"
+msgstr "모든 승무원을 막사로 보낼 수 없습니다."
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/header"
+msgstr "수행 불가"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/body"
+msgstr "전투 중인 승무원"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/header"
+msgstr "오류"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/body"
+msgstr "막사에 침상이 부족합니다"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/header"
+msgstr "수행 불가"
+
+msgid "retrain/button/label"
+msgstr "재훈련"
+
+msgid "retrain/description"
+msgstr "해당 전차의 모든 승무원을 재훈련합니다."
+
+msgid "retrain/error/alreadyRetrained"
+msgstr "기본 숙련도 훈련이 이미 완료되었습니다"
+
+msgid "retrain/error/locked"
+msgstr "진행 불가"
+
+msgid "retrain/error/noCrew"
+msgstr "승무원 없음"
+
+msgid "retrain/title"
+msgstr "승무원 재훈련"
+
+msgid "return/button/label"
+msgstr "복귀"
+
+msgid "return/description"
+msgstr "지난 전투에서 해당 전차에 탑승한 승무원을 복귀시킵니다."
+
+msgid "return/error/allDemobilized"
+msgstr "이미 모든 승무원이 해산되었습니다"
+
+msgid "return/error/alreadyOnPlaces"
+msgstr "이미 전차에 탑승 중입니다"
+
+msgid "return/error/noPrevious"
+msgstr "해당 전차로\n1회 이상 전투 참여"
+
+msgid "return/error/vehicleInBattle"
+msgstr "전투 중인 전차입니다"
+
+msgid "return/title"
+msgstr "승무원 복귀"
+
+msgid "return/toggle/description"
+msgstr "아래 버튼을 활성화하면 지난 전투에서 해당 전차에 탑승한 승무원이 자동으로 복귀합니다."
+
+msgid "return/toggle/label"
+msgstr "자동 복귀"
+
+msgid "return/warning/memberDemobilized/tooltip/body"
+msgstr "기존 승무원 중 일부 인원이 퇴역 대기 상태이므로 전차에 복귀할 수 없습니다. 기간이 만료되기 전에 막사에서 해당 승무원을 복구할 수 있습니다. 기간 만료 시 해당 승무원은 계정에서 완전히 제거됩니다."
+
+msgid "return/warning/memberDemobilized/tooltip/header"
+msgstr "경고"
+
+msgid "return/warning/membersInBattle/tooltip/body"
+msgstr "기존 승무원 중 일부 인원이 전투 중입니다"
+
+msgid "return/warning/membersInBattle/tooltip/header"
+msgstr "오류"
+
+msgid "window/title"
+msgstr "승무원 관리"

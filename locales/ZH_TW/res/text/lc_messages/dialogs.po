@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "接受"
+
+msgid "EULA/labels/agree"
+msgstr "我同意"
+
+msgid "EULA/title"
+msgstr "終端使用者協議"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "此電子郵件地址已連結到您的帳號。"
+
+msgid "accountCompletion/activate/button"
+msgstr "發送代碼/變更電子郵件"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "在 %(timer) 秒內重新發送代碼或變更您的電子郵件"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "請再次輸入電子郵件"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "代碼已到期。請再次輸入電子郵件。"
+
+msgid "accountCompletion/activate/keyError"
+msgstr "無效的代碼"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "若您找不到該電子郵件，請檢查您輸入的電子郵件地址是否有錯字。"
+
+msgid "accountCompletion/activate/text"
+msgstr "來自戰遊網且內有確認代碼的電子郵件已寄到 {whiteSpanish_Open}%(email){whiteSpanish_Close}。輸入郵件中的 4 位數代碼來確認您的電子郵件地址並完成帳號開通。"
+
+msgid "accountCompletion/activate/title"
+msgstr "確認電子郵件地址"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "您輸入錯誤代碼太多次。"
+
+msgid "accountCompletion/add"
+msgstr "增加"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "此電子郵件地址已連結到您的帳號。"
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "電子郵件已連結"
+
+msgid "accountCompletion/cancel"
+msgstr "稍後"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "您的電子郵件"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "電子郵件"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "新增您的電子郵件來獲得獎勵並使用所有的遊戲活動內容。"
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "使用所有的遊戲內容"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "新增並確認您的電子郵件地址來獲得獎勵並解鎖新功能。%(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "完成帳號開通"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "此電子郵件已被其他帳號註冊。"
+
+msgid "accountCompletion/emailForbidden"
+msgstr "此電子郵件地址遭禁用。"
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "電子郵件必須含有不超過 %(amount)s 個字元。"
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "電子郵件必須含有至少 %(amount)s 個字元。"
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "已確認您的電子郵件。"
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "電子郵件已確認"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "您超過了請求次數的上限。您可變更電子郵件地址或在 %(timer)內重新發送電子郵件"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "此電子郵件服務於您所在國家遭封鎖。"
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "此電子郵件服務於您所在國家遭禁用。"
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "無法連結電子郵件"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "電子郵件僅能含有拉丁字母、數字、@ 符號、句號與下劃線。"
+
+msgid "accountCompletion/later"
+msgstr "稍後"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "完成電子郵件確認的獎勵"
+
+msgid "accountCompletion/submit"
+msgstr "確認"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "正在伺服器上的佇列中等待。\n這可能要花上一些時間。"
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) 服務暫時無法使用。請稍後再試。"
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) 該服務暫時無法使用。\n請於 %(time)s後再試一次。"
+
+msgid "barracksExpand/cancel"
+msgstr "取消"
+
+msgid "barracksExpand/message"
+msgstr "要用 %(price)s 金幣來擴充兵營以增加床位：%(count)s？"
+
+msgid "barracksExpand/submit"
+msgstr "擴充"
+
+msgid "barracksExpand/title"
+msgstr "擴充兵營"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "確定"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "金幣不足。"
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "確定"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "擴充兵營"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "取消"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "並非所有玩家都戰鬥準備就緒或玩家少於所需人數。"
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "開始戰鬥"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "不完整"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "取消"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "啟用加成 %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "確認"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "確認啟用"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "取消"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "如果已啟用個人儲備 %(newBoosterName)s，目前所啟用的個人儲備 %(curBoosterName)s 就會被取消並摧毀。"
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "是"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "確認啟用"
+
+msgid "buyConfirmation/cancel"
+msgstr "取消"
+
+msgid "buyConfirmation/message"
+msgstr "要花費 %(price)s 購買 %(product)s？"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "要購買 {%count} 個「{%name}」？"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "要購買裝備「%(equipment)s」？"
+
+msgid "buyConfirmation/submit"
+msgstr "購買"
+
+msgid "buyConfirmation/title"
+msgstr "確認購買"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "取消"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "不相容"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " 於當前的配件"
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "消耗品「%(conflicted)s」將會送回倉庫，因為"
+
+msgid "buyInstallConfirmation/message"
+msgstr "要購買和安裝 %(kind)s「%(name)s」到當前車輛上並且花費 %(price)s%(creditsIcon)s？%(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "要購買和安裝 %(kind)s「%(name)s」到當前車輛上並且花費 %(price)s 銀幣？"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "購買"
+
+msgid "buyInstallConfirmation/title"
+msgstr "確認購買"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "取消"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "要用 %(gold)s 來購買 %(days)s 加值帳號？\n %(alertIcon)s %(alertColorTagOpen)s 由於技術上的困難，您將不會獲得額外的經驗或銀幣。請試著選擇不同的戰鬥或透過購買加值帳號選單來購買加值帳號。%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "購買"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "確認購買"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "車庫車位"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "取消"
+
+msgid "buySlotConfirmation/message"
+msgstr "要花費 %(goldCost)s 購買一個額外的車庫車位？"
+
+msgid "buySlotConfirmation/submit"
+msgstr "購買"
+
+msgid "buySlotConfirmation/title"
+msgstr "確認購買"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "確定"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "銀幣不足，無法購買車位。"
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "確定"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "銀幣不足"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "確定"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "購買車位所需的金幣不足。"
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "確定"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "金幣不足"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "取消"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "車庫中無可用的車位。要花費 {%d} 銀幣額外購買一個車位？"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "購買"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "確認購買"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "裝填標準彈藥"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "取消"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "您已擁有此車輛的乘員。"
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "在車輛的租用期間您會免費獲得一個額外的車位。"
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "無法裝載彈藥：所選車輛彈藥已滿。"
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "無法裝載彈藥：所選車輛仍有彈藥。"
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "價格： %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "在車庫中增加一個車位"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "購買"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "購買"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "折價貼換"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "購買不含乘員"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "訓練乘員"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "乘員：%(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "購買 %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "總共："
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "您輸入了不正確的資訊。"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "請輸入「總共」欄位裡的金幣數量"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "確認操作："
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "您沒有適合的車輛\n用來折價貼換"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "估計值為 %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "訓練乘員：%(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "總共："
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "選擇車輛"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "選擇可用來折價貼換\n的加值車輛"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "取消"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "%(vehiclename)s 的額外價格："
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "兌換"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "購買不含乘員"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "折價貼換 %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "一旦您點擊下方的折價貼換按鈕，用金幣購買的裝備和消耗品就不會退還。請仔細檢查所有的詳細內容。"
+
+msgid "buyVehicleWindow/warning"
+msgstr "一旦您點擊下方的「購買」，所購買的物品將不會退還金幣。請仔細檢查其物品。"
+
+msgid "challenge_missions/activation/cancel"
+msgstr "取消"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "啟用"
+
+msgid "challenge_missions/activation/description"
+msgstr "啟用後，「淬鍊」系列任務可能{{@ style (color #FFE4C0)}}完成、失敗或被放棄{{/}}。若系列中有一個任務失敗，您將失去一個盾牌。"
+
+msgid "challenge_missions/activation/title"
+msgstr "要啟用「淬鍊：{{challengeName}}」？"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "取消"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "重新開始"
+
+msgid "challenge_missions/restart/description"
+msgstr "您的任務進度將重置，盾牌將恢復，且您將能再次獲得獎勵。系列任務將在重新開始後立即啟用。"
+
+msgid "challenge_missions/restart/free/title"
+msgstr "要免費重新開始「淬鍊：{{challengeName}}」？"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "要花費 {{cost}} 重新開始「淬鍊：{{challengeName}}」？"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "取消"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "放棄"
+
+msgid "challenge_missions/surrender/description"
+msgstr "放棄將結束此「淬鍊」系列任務，並重置所有進度與盾牌。您可隨時重新開始。"
+
+msgid "challenge_missions/surrender/title"
+msgstr "要放棄「淬鍊：{{challengeName}}」？"
+
+msgid "changeGraphics/cancel"
+msgstr "取消"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s畫質於此次更新中被大幅度地重置。您可以使用自動選擇畫質設定或取消自動選擇然後手動更改其設定。"
+
+msgid "changeGraphics/submit"
+msgstr "自動選擇"
+
+msgid "changeGraphics/title"
+msgstr "自動選擇的畫質設定"
+
+msgid "changePeriphery/cancel"
+msgstr "取消"
+
+msgid "changePeriphery/message"
+msgstr "要轉移到其它伺服器？"
+
+msgid "changePeriphery/submit"
+msgstr "繼續"
+
+msgid "changePeriphery/title"
+msgstr "確認轉移"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "取消"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "現在將會儲存伺服器變更。您可在設定中開啟或關閉自動登入。"
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "繼續"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "要變更為其他伺服器？"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "取消"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "要轉移到其它伺服器？\n\n如果您要變更伺服器，將會受到以下限制：\n\t• 一些車輛將無法使用。\n\t• 標誌與標語將無法顯示。\n\t• 任務、個人儲備、以及試車場模式將無法使用。\n\n您或許會有連線品質上的錯誤與問題。請尊重來自其它地區的玩家。"
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "繼續"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "確認轉移"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "取消"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "要轉移到其他伺服器？\n\n如果您要變更伺服器，將會受到以下限制：\n\t• 一些車輛將無法使用。\n\t• 標誌與標語將無法顯示。\n\t• 任務、個人儲備，以及試車場模式將無法使用。\n\n您或許會有連線品質上的錯誤與問題。請尊重來自其他地區的玩家。\n\n\n將會儲存伺服器變更。\n前往設定以開啟或關閉自動登入。"
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "繼續"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "確認轉移"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "取消"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)s您即將加入該公會：\n%(clanName)s\n\n透過確認您加入該公會的意願，您會自動接受其規則與守則、並同意積極參與該公會的活動與發展。\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "在您離開公會之後，會對您實施加入其它公會的暫時限制。"
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "確認"
+
+msgid "clanConfirmJoining/title"
+msgstr "確認加入公會"
+
+msgid "clan_data_not_available/cancel"
+msgstr "關閉"
+
+msgid "clan_data_not_available/message"
+msgstr "此玩家的公會檔案暫時無法使用。請稍後再試。"
+
+msgid "clan_data_not_available/title"
+msgstr "注意！"
+
+msgid "common/cancel"
+msgstr "取消"
+
+msgid "common/confirm/cancel"
+msgstr "否"
+
+msgid "common/confirm/submit"
+msgstr "是"
+
+msgid "common/cost"
+msgstr "費用："
+
+msgid "common/error/cancel"
+msgstr "關閉"
+
+msgid "common/submit"
+msgstr "繼續"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "取消"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "購買"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "購買並裝備技術指南"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "取消"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "注意！沒有裝備 %(devices)s。技術指南 %(font_tag_open)s將不會有作用%(font_tag_close)s。"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "安裝"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "裝備技術指南"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "取消"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "注意！您沒有相容於所選技術指南的裝備。技術指南 %(font_tag_open)s將不會有作用%(font_tag_close)s。"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "安裝"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "裝備技術指南"
+
+msgid "confirmBuy/title"
+msgstr "要購買 %(moduleName)s？"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "取消"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "配件將被送回到倉庫。"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "想要購買，還需要："
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "於戰鬥中賺取銀幣，出售您倉庫中的多餘物品，或是兌換金幣來得到更多。"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "銀幣不足"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "配件費用："
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "以 %(previousModulePrice) 出售替換掉的 %(previousModuleName) 配件"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "此配件相容於："
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "您可現在就出售配件，或將其送回倉庫並於之後再出售或重新安裝。"
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "購買"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "要購買並安裝 %(moduleName)s？"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "要購買並安裝裝備「%(equipment)s」？"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "安裝"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "取消"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "不需兌換。\n您有足夠的銀幣。"
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "無法購買：兌換失敗。\n尚需 %(gold)s 才能兌換。"
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "要為缺少的銀幣數量來兌換 %(gold)s？"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "所需銀幣："
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "想要購買，還需要：%(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "兌換"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "確認要為購買進行兌換"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "取消"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "不需轉換。\n您有足夠的經驗。"
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "無法研發：轉換失敗。\n尚需 %(gold)s 才能轉換。"
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "要轉換所需經驗並花費 %(gold)s？"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "所需經驗："
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "研發所需的數量：%(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "選擇車輛"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "確認要為研發進行兌換"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "總共："
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "取消"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "無需為重新找回進行兌換。\n您有足夠的銀幣。"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "無法為重新找回進行兌換。\n需要 %(gold)s 來兌換。"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "要為缺少的銀幣數量來兌換 %(gold)s？"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "所需銀幣："
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "重新找回所需的數量：%(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "兌換"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "確認要為重新找回進行兌換"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "總共："
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "數量"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "總共"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "價格："
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "價格"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "總共："
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "總共"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "總共："
+
+msgid "confirmUnlock/cancel"
+msgstr "否"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "並花費 {{xp}} (包括 {{freeXP}})？"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "是否要研發{{items}}"
+
+msgid "confirmUnlock/item/message"
+msgstr "要研發 %(typeString)s %(userString)s 並花費 %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (含 %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)？"
+
+msgid "confirmUnlock/submit"
+msgstr "是"
+
+msgid "confirmUnlock/title"
+msgstr "確認研發"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "要研發 %(userString)s 並花費 %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (含 %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)？"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "取消"
+
+msgid "controlsWrongNotification/message"
+msgstr "有一個或幾個按鍵沒有被指派作用。您確定要儲存控制設定？"
+
+msgid "controlsWrongNotification/submit"
+msgstr "儲存"
+
+msgid "controlsWrongNotification/title"
+msgstr "錯誤"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "取消"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "所選擇的通知語音檔案受損或遺失，通知語音將設回預設。\n一個或多個按鍵未設定。要儲存該設定？"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "儲存"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "錯誤"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "取消"
+
+msgid "createOrderConfirmation/submit"
+msgstr "確認"
+
+msgid "createOrderConfirmation/title"
+msgstr "確認軍用儲備的製備工作"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "資金不足。無法購買。"
+
+msgid "crewBookPurchase/description/crew"
+msgstr "套用到整組乘員。研讀時，%(book)s會為每名乘員提供 %(exp)s。"
+
+msgid "crewBookPurchase/description/personal"
+msgstr "套用到所選乘員。研讀時，%(book)s會為此名乘員提供 %(exp)s。"
+
+msgid "crewBookPurchase/purchase"
+msgstr "購買"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "要購買%(book)s？"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "取消"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "所有已套用的{season}地圖花樣將從您的車輛{removed}\n因為{this}沒有此欄位。"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "確認"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "這些地圖"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "這個地圖"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "在所有地圖的這個欄位套用此花樣？"
+
+msgid "customization/buy_install_bound/message"
+msgstr "購買時，要素會套用於當前車輛；標有星號的要素將無法用於其他車輛。"
+
+msgid "customization/buy_install_bound/title"
+msgstr "確認購買要素"
+
+msgid "customization/change_install_bound/message"
+msgstr "選擇時，要素會套用於當前車輛；標有星號的要素將無法用於其他車輛。"
+
+msgid "customization/change_install_bound/title"
+msgstr "確認變更要素"
+
+msgid "customization/close/cancel"
+msgstr "取消"
+
+msgid "customization/close/submit"
+msgstr "離開"
+
+msgid "customization/close/title"
+msgstr "回到車庫且不儲存變更？"
+
+msgid "customization/exitToShop/cancel"
+msgstr "取消"
+
+msgid "customization/exitToShop/submit"
+msgstr "繼續"
+
+msgid "customization/exitToShop/title"
+msgstr "前往商店且不儲存變更？"
+
+msgid "customization/filter/cancel"
+msgstr "取消"
+
+msgid "customization/filter/message"
+msgstr "所有的要素都會被移除。要繼續？"
+
+msgid "customization/filter/submit"
+msgstr "移除所有"
+
+msgid "customization/filter/title"
+msgstr "移除要素"
+
+msgid "customization/install_bound/cancel"
+msgstr "取消"
+
+msgid "customization/install_bound/submit"
+msgstr "繼續"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "取消"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "注意！在將 (%(cTypeName)s %(itemName)s) 套用到當前車輛之後，您就只能再將此要素套用到 %(numberLeft)s 輛車上。要套用要素？"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "套用"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "套用要素"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "取消"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "注意！在將 (%(cTypeName)s %(itemName)s) 套用到當前車輛之後，您就無法再將此要素套用到任何車輛上。要套用要素？"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "套用"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "套用要素"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "取消"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "注意！在將 (%(cTypeName)s %(itemName)s) 套用到當前車輛之後，您就無法再將它套用到任何車輛上。如果移除，該要素 %(willBeDeleted)s。要套用要素？"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "套用"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "套用要素"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "將會被刪除"
+
+msgid "customization/remove_element/cancel"
+msgstr "取消"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "移除"
+
+msgid "customization/remove_element/title"
+msgstr "移除要素"
+
+msgid "customizationConfirmSell/message"
+msgstr "要以 %(price)s%(creditsIcon)s 出售 %(name)s？"
+
+msgid "customizationConfirmSell/title"
+msgstr "確認出售"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "每 %(days)s 天"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "每 %(days)s 天 %(hours)s 小時"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "每 %(hours)s 小時"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "每 %(hours)s 小時 %(mins)s 分鐘"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "每 %(mins)s 分鐘"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "任務{timeLimitMsg}可以重骰"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "重骰"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "要重骰任務？"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning}您的一些車輛正在戰鬥中。您可能會在重骰任務後失去您的進度。任務{timeLimitMsg}可以重骰"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "重骰"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "要重骰任務？"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "警告！"
+
+msgid "dedication/headline"
+msgstr "已獲得 Hero of Our Time 獎項"
+
+msgid "dedication/sub-headline"
+msgstr "因參與 {battlesNum} 場戰鬥"
+
+msgid "dialogTemplates/cancel"
+msgstr "取消"
+
+msgid "dialogTemplates/confirm"
+msgstr "確認"
+
+msgid "dialogTemplates/ok"
+msgstr "了解！"
+
+msgid "disconnect/cancel"
+msgstr "否"
+
+msgid "disconnect/message"
+msgstr "您真的想要中斷與伺服器的連線？"
+
+msgid "disconnect/submit"
+msgstr "是"
+
+msgid "disconnect/title"
+msgstr "與伺服器的連線中斷"
+
+msgid "disconnected/cancel"
+msgstr "確定"
+
+msgid "disconnected/message"
+msgstr "您已經中斷與伺服器的連線，按下「確定」來重新取得連線。"
+
+msgid "disconnected/messageBan"
+msgstr "您的帳號已被停權。%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "您的帳號已被停權，直到 %(expiryTime)s。%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "與伺服器的連線已被中斷。%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \n理由：%s"
+
+msgid "disconnected/title"
+msgstr "連線中斷"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "解雇"
+
+msgid "dismissTankman/description/perk"
+msgstr "要完成此操作，輸入歷練的訓練程度：{cream_Open}%(perk)s{cream_Close}（{whiteOrange_Open}%(level)s{whiteOrange_Close}）"
+
+msgid "dismissTankman/description/qualification"
+msgstr "要完成此操作，請輸入最近一個訓練中歷練的訓練程度（{whiteOrange_Open}%(level)s{whiteOrange_Close}）"
+
+msgid "dismissTankman/description/time"
+msgstr "將解雇所選乘員。您可在 {whiteOrange_Open}%(time)s 天{whiteOrange_Close}內將他們重新找回。"
+
+msgid "dismissTankman/header"
+msgstr "乘員解雇"
+
+msgid "dismissTankman/limited"
+msgstr "已達解雇人數上限。此名被解雇的乘員將取代 %(name)s（%(role)s，%(vehicle)s）。"
+
+msgid "dismissTankman/noRecovery"
+msgstr "無法重新找回"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "取消"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "注意！當您解雇 %(dismissedName)s 時，他們將會取代 %(deletedStr)s。確認變更？"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "確認"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "確認變更"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "取消"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "注意！當您解雇乘員時，將會取代 %(deletedStr)s 與 %(extraCount)s 名乘員。確認變更？"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "確認"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "乘員的解雇緩衝空間已滿"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "替換"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "名稱"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "姓氏"
+
+msgid "documentChangeDialog/title"
+msgstr "要替換名稱與外表？"
+
+msgid "dropSkill/cancel"
+msgstr "取消"
+
+msgid "dropSkill/message"
+msgstr "要重置所有歷練？"
+
+msgid "dropSkill/submit"
+msgstr "重置"
+
+msgid "dropSkill/title"
+msgstr "確認重置"
+
+msgid "elementType/chassis"
+msgstr "懸吊"
+
+msgid "elementType/engine"
+msgstr "引擎"
+
+msgid "elementType/gun"
+msgstr "炮管"
+
+msgid "elementType/radiostation"
+msgstr "通訊設備"
+
+msgid "elementType/turret"
+msgstr "炮塔"
+
+msgid "elenDisabled/cancel"
+msgstr "關閉"
+
+msgid "elenDisabled/message"
+msgstr "競賽因為排定的維修而暫時無法使用。"
+
+msgid "elenDisabled/title"
+msgstr "注意！"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "取消"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "不要再顯示這個警告"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "由於硬體設備的關係，您在此模式中將會碰上每秒幀率變低及圖形失真的狀況。會花更長的時間來載入戰鬥，而且可能會造成客戶端當掉。無論如何都要進入戰鬥？"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "加入戰鬥!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "效能警告"
+
+msgid "equipmentBuyInstall/price"
+msgstr "購買價格："
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "要拆解%(equipment)s？"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "取消"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "拆解並升級"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "拆解"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "這個拆卸下來的裝備將會被{white_Open}摧毀{white_Close}。\n該裝備可以用點券安全地拆卸。"
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "這個拆卸下來的裝備將會被{white_Open}摧毀{white_Close}。\n該裝備可以用金幣或拆卸器安全地拆卸。"
+
+msgid "equipmentDestroy/conformation"
+msgstr "要摧毀裝備「%(equipment)s」？"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "要安裝裝備「%(equipment)s」？"
+
+msgid "equipmentSale/conformation/header"
+msgstr "要出售裝備「%(equipment)s」？"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "取消"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "升級"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "前往拆解"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "沒有可拆解的試驗型裝備。"
+
+msgid "eula/p1"
+msgstr "在您繼續之前，請詳細閱讀 <BR/><A HREF='event:%(eulaURL)s'><U>終端使用者協議</U></A>。"
+
+msgid "eula/p2"
+msgstr "透過點擊「接受」，您承認自己已閱讀、了解，並同意受其約束、和遵守終端使用者協議的條款及承擔任何違規應負的責任。終端使用者協議及其任何修訂條款皆同樣重要且所有的遊戲玩家都應該要遵守。"
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "取消"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "兌換 %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s 為 %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s？"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "兌換"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "兌換金幣"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "會使用該折扣來轉換最大 %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s 經驗為自由經驗。下一次，就會用金幣來轉換經驗。"
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "取消"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "轉換 %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s 經驗為自由經驗花費 %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "轉換"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "轉換為自由經驗"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "沒有足夠的戰鬥經驗能用來轉換"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "沒有足夠的戰鬥經驗能用來轉換"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "取消"
+
+msgid "fillAllPerks/button/fill"
+msgstr "自動選擇"
+
+msgid "fillAllPerks/checkbox"
+msgstr "為兵營中的乘員自動選擇歷練"
+
+msgid "fillAllPerks/description"
+msgstr "取決於有空歷練欄位之乘員的專長，演算法會從下表選擇首個歷練。若乘員已有首個歷練，則演算法會改為選擇第二個歷練，持續此操作直到所有空歷練欄位均填滿為止。此操作可能需要花費一段時間。"
+
+msgid "fillAllPerks/subTitle"
+msgstr "歷練自動選擇僅針對車輛中的乘員。"
+
+msgid "fillAllPerks/title"
+msgstr "要為所有乘員自動選擇未選歷練？"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "取消"
+
+msgid "finance_dialog/header"
+msgstr "操作確認"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "輸入交易密碼來確認這次操作。"
+
+msgid "finance_dialog/results/invalid"
+msgstr "密碼錯誤。"
+
+msgid "finance_dialog/results/limit"
+msgstr "您輸入了太多次的錯誤密碼，請於 24 小時候再試。<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">忘記密碼？</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "密碼至少要六位數以上可包含英文、數字和「_」。"
+
+msgid "finance_dialog/submitBtn"
+msgstr "確認"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "取消"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "要花費 %(price)s 來獲取%(product)s？"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "獲取"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "確認"
+
+msgid "fortDisabled/cancel"
+msgstr "關閉"
+
+msgid "fortDisabled/message"
+msgstr "公會資訊目前因為排定的維修而無法使用。"
+
+msgid "fortDisabled/title"
+msgstr "注意！"
+
+msgid "fortTurnedOff/cancel"
+msgstr "確定"
+
+msgid "fortTurnedOff/message"
+msgstr "根據地暫時無法使用。請稍後再試。"
+
+msgid "fortTurnedOff/title"
+msgstr "注意！"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "否"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "是"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "取消"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "您將離開建築 %(oldBuilding)s 的駐軍。您會入駐到建築 %(newBuilding)s。"
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "確認"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "入駐建築"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "取消"
+
+msgid "freeObtainConfirmation/message"
+msgstr "要花費 %(price)s 來獲取%(product)s？"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "獲取"
+
+msgid "freeObtainConfirmation/title"
+msgstr "確認"
+
+msgid "freeSkillsLearning/message"
+msgstr "訓練零歷練不需要使用經驗。零歷練可大幅減少乘員後續訓練所需的經驗，藉此帶來優勢。"
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "要選擇「%(skillName)s」作為零歷練？"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "要將「%(skillName)s」重新訓練為零歷練？"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "取消"
+
+msgid "freeSlotConfirmation/message"
+msgstr "要使用 100% 折扣來免費增加一個額外車位到車庫中？"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "增加"
+
+msgid "freeSlotConfirmation/title"
+msgstr "增加車位"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "關閉"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "您已達到購買免費車輛的次數上限，請明天再試。"
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "關閉"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "購買上限"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)s經驗%(orangeText_close)s%(simpleText_open)s是種從戰鬥中獲得的遊戲資源。\n\n經驗包含：%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)s戰鬥經驗%(orangeText_close)s%(simpleText_open)s可用來研發任一車輛的新配件，也可更進一步地發展獲得其經驗的該戰遊網世界遊戲。%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)s自由經驗%(orangeText_close)s%(simpleText_open)s可用來研發任何配件與車輛，以及加速乘員訓練。請謹慎花費自由經驗。%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "繼續"
+
+msgid "freeXPInfo/title"
+msgstr "經驗"
+
+msgid "gammaDialog/cancel"
+msgstr "開始"
+
+msgid "gammaDialog/message/description"
+msgstr "車長！請設置您的顯示器以校正色彩伽瑪值和提高畫面上的圖像品質。\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "馬上設置您的顯示器！"
+
+msgid "gammaDialog/title"
+msgstr "伽瑪值設定"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "轉換後："
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "轉換前："
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "取消"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "轉換"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "總共："
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "乘員"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "車輛"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "經驗"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "所有車輛"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "按照已選擇的車輛來排序"
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "按照車輛名稱來排序"
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "車輛"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "按照獲得的經驗來排序"
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "經驗"
+
+msgid "gatheringXPForm/title"
+msgstr "轉換為自由經驗"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "轉換戰鬥經驗："
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "乘員訓練已加速。"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "乘員訓練速度為一般。"
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "總共："
+
+msgid "gatheringXPForm/totalXP"
+msgstr "總共："
+
+msgid "graphics/message/alert"
+msgstr "注意！"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "取消"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "螢幕模式已變更。還有 %(time)s 秒回到先前的設定。要儲存所選擇的設定？"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "儲存"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "儲存螢幕模式的設定"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "否"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "注意！任何變更都會不見。無論如何要繼續？"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "是"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "自動判斷貼圖品質"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "否"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "注意！變更某些畫質設定會需要一些時間。要繼續？"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "是"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "修改設定"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "關閉"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "無法將參數設為最高。使用者定義的貼圖品質將會被設置所取代。"
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "注意"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "關閉"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "高畫質只有在 64 位元系統下才可以使用。"
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "貼圖品質無法使用"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "取消"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "稍後重開"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "部分設定上的變更將於重新啟動遊戲後套用。"
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "重新啟動"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "修改設定"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "確定"
+
+msgid "haveNoEmptySlots/message"
+msgstr "車庫裡沒有剩餘的可用車位。請考慮是否要購買一個車位或賣出一輛車來為您想購買的車輛清出一些空間？"
+
+msgid "haveNoEmptySlots/submit"
+msgstr "確定"
+
+msgid "haveNoEmptySlots/title"
+msgstr "錯誤"
+
+msgid "hof/excludeRating/cancel"
+msgstr "取消"
+
+msgid "hof/excludeRating/message"
+msgstr "其他玩家將不再能看見您的成就，但您可以讓它們出現在名人堂主頁上。"
+
+msgid "hof/excludeRating/submit"
+msgstr "隱藏結果"
+
+msgid "hof/excludeRating/title"
+msgstr "在評價中顯示結果"
+
+msgid "hofDisabled/cancel"
+msgstr "關閉"
+
+msgid "hofDisabled/message"
+msgstr "名人堂暫時無法使用。請稍後再試。"
+
+msgid "hofDisabled/title"
+msgstr "注意！"
+
+msgid "idleCrewBonus/cancel"
+msgstr "取消"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}乘員不完整{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}一或多名乘員不適合{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "所選車輛不適合，基於下列原因之一："
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "僅一組乘員可獲得此加成。加成將從"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "轉移至"
+
+msgid "idleCrewBonus/submit"
+msgstr "確認"
+
+msgid "idleCrewBonus/title"
+msgstr "開啟高強度乘員訓練？"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "請嘗試於設定中關閉瀏覽器硬體加速（畫質分頁）。"
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "載入錯誤"
+
+msgid "interviewQuit/cancel"
+msgstr "返回"
+
+msgid "interviewQuit/message"
+msgstr "您現在可以先拒絕問卷調查且稍後再透過打開通知中心的邀請訊息來重新領取。該訊息只會在一個遊戲階段內啟用。"
+
+msgid "interviewQuit/submit"
+msgstr "拒絕"
+
+msgid "interviewQuit/title"
+msgstr "拒絕問卷調查"
+
+msgid "koreaParentNotification/cancel"
+msgstr "了解！"
+
+msgid "koreaParentNotification/message"
+msgstr "為了防止兒童與青少年遊戲成癮，在 %(preBlockTime)s 後會禁止進入戰鬥。您將會在 %(blockTime)s 中斷與伺服器的連線。"
+
+msgid "koreaParentNotification/submit"
+msgstr "了解！"
+
+msgid "koreaParentNotification/title"
+msgstr "遊玩限制"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "了解！"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "已超過時間限制。您無法再加入新的戰鬥。"
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "了解！"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "家長監護"
+
+msgid "leaveEvent/cancel"
+msgstr "取消"
+
+msgid "leaveEvent/message"
+msgstr "您在競賽中的戰鬥結果會在評價更新後重置。您將無法在評價中取得名次和得到獎勵。\n\n離開競賽後%(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "您就無法再次進入。"
+
+msgid "leaveEvent/submit"
+msgstr "離開競賽"
+
+msgid "leaveEvent/title"
+msgstr "離開競賽"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "取消"
+
+msgid "leaveStartedEvent/message"
+msgstr "您的戰鬥結果不會被計入這場競賽。您將無法在評價中取得名次和得到獎勵。\n\n離開競賽後%(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "離開競賽"
+
+msgid "leaveStartedEvent/title"
+msgstr "離開競賽"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "取消"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "您已在戰鬥準備大廳。您要離開並接受邀請？"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "確定"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "邀請"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "取消"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "您已加入裝甲排。您確定要離開當前裝甲排並接受邀請？"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "確定"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "邀請"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "取消"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "您已加入訓練房。您確定要離開並接受邀請？"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "確定"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "邀請"
+
+msgid "legalInfoWindow/title"
+msgstr "法律資訊"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "取消"
+
+msgid "limitedUIOffNotification/message"
+msgstr "您確定要關閉車庫中隱藏之介面元素的逐步顯示？\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "關閉此選項後，您將再也無法將其開啟。"
+
+msgid "limitedUIOffNotification/submit"
+msgstr "關閉"
+
+msgid "limitedUIOffNotification/title"
+msgstr "修改設定"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "取消"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "現在將會儲存伺服器變更。您可在設定中開啟或關閉自動登入。"
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "繼續"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "要儲存伺服器變更？"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "替代配置的砲彈不足。無論如何都要進入戰鬥？"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "彈藥未滿"
+
+msgid "lowAmmo/cancel"
+msgstr "取消"
+
+msgid "lowAmmo/message"
+msgstr "所選車輛的砲彈不足。在戰鬥開始前將會自動補滿砲彈。"
+
+msgid "lowAmmo/submit"
+msgstr "補充"
+
+msgid "lowAmmo/title"
+msgstr "自動補充彈藥"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "取消"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "所選車輛的砲彈不足。無論如何都要進入戰鬥？"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "加入戰鬥!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "彈藥未滿"
+
+msgid "lowFpsWarning/cancel"
+msgstr "否"
+
+msgid "lowFpsWarning/message"
+msgstr "遊戲目前的設定造成遊戲效能過低。您要降低貼圖品質嗎？"
+
+msgid "lowFpsWarning/submit"
+msgstr "是"
+
+msgid "lowFpsWarning/title"
+msgstr "遊戲效能過低"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "確定"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "%(userName)s 的玩家資訊被鎖定。"
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "確定"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "玩家資訊已鎖定。"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "確定"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "%(userName)s 使用者的資料目前無法使用。"
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "確定"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "資料目前無法使用"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "取消"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s開啟這個設定將降低電腦在戰鬥中的效能。"
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "注意！"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "開啟"
+
+msgid "minimapAlphaNotification/title"
+msgstr "小地圖透明度"
+
+msgid "moduleSale/conformation/header"
+msgstr "要出售%(moduleType)s「%(moduleName)s」？"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "取消"
+
+msgid "moneyTransfer/labelClan"
+msgstr "公會："
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "銀幣"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "金幣"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "費用："
+
+msgid "moneyTransfer/labelGold"
+msgstr "轉送："
+
+msgid "moneyTransfer/labelNormal"
+msgstr "一般："
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "銀幣"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "金幣"
+
+msgid "moneyTransfer/labelTo"
+msgstr "給："
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "總共："
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "（非公會成員）"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "送出"
+
+msgid "moneyTransfer/title"
+msgstr "轉送黃金"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "取消"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "您真的想要轉送 {gold} <img src='icon_gold' /> 給玩家 {player}？將對您收取 {fee} <img src='icon_gold' /> 費用。"
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "轉送"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "確認轉送"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">設置交易密碼</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "確定"
+
+msgid "moneyTransferRestriction/message"
+msgstr "無法轉送金幣。理由：%s。"
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "轉送逾時 %s。"
+
+msgid "moneyTransferRestriction/submit"
+msgstr "確定"
+
+msgid "moneyTransferRestriction/title"
+msgstr "無法轉送金幣。"
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "否"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "對某些設定的變更將於下一次的戰鬥中套用。要繼續？"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "是"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "修改設定"
+
+msgid "perkLearnConfirm/desc"
+msgstr "訓練後的歷練程度：{yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "訓練"
+
+msgid "perkLearnConfirm/title"
+msgstr "要訓練「%(skillName)s」歷練？"
+
+msgid "perksReset/after"
+msgstr "重置後："
+
+msgid "perksReset/before"
+msgstr "重置前："
+
+msgid "perksReset/cancel"
+msgstr "取消"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "此選項無法使用，因您已使用在「裝甲兵學校」重置歷練的 100% 折扣。"
+
+msgid "perksReset/discountTooltip/header"
+msgstr "無法使用"
+
+msgid "perksReset/free/description"
+msgstr "訓練程度未達 {yellow_Open}1%{yellow_Close} 的歷練可免費重置。"
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "此名乘員首次重置歷練免費"
+
+msgid "perksReset/graceLabel"
+msgstr "免費歷練重置將結束於："
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "歷練經驗的總數量將減少。可訓練的歷練數量將減少。"
+
+msgid "perksReset/noNewPerks"
+msgstr "已訓練歷練累積的所有經驗將加入到熟練度等級。"
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "歷練經驗的總數量"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "陸軍學校"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "歷練經驗的總數量"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "快速課程"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "重置歷練\n且不會損失經驗"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "使用銀幣重置歷練且不會損失經驗"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "裝甲兵學校"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "重置歷練\n且不會損失經驗"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "重置"
+
+msgid "perksReset/title"
+msgstr "要重置乘員的所有歷練？"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "取消"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "所選的物理音效品質與遊戲客戶端自動偵測到的設定不同。開啟此選項可能會影響效能。我們建議在確認前測試效能。您是否要套用這些變更？"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "確認"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "物理音效品質不匹配"
+
+msgid "postmortem/cancel"
+msgstr "離開"
+
+msgid "postmortem/message"
+msgstr "車輛已全毀。您要繼續留在戰鬥或是離開並回到車庫？"
+
+msgid "postmortem/submit"
+msgstr "留下"
+
+msgid "postmortem/title"
+msgstr "車輛已全毀"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "取消"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "購買加值帳號 %(days)s 天花費 %(gold)s 金幣？"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "購買"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "確認購買"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "取消"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "要延長加值帳號 %(days)s 天並花費 %(gold)s 金幣？"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "延長"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "確認"
+
+msgid "priceCard/credits/title"
+msgstr "陸軍學校"
+
+msgid "priceCard/free/title"
+msgstr "快速課程"
+
+msgid "priceCard/gold/title"
+msgstr "裝甲兵學校"
+
+msgid "priceCard/price/free"
+msgstr "免費"
+
+msgid "priceCard/recertification/title"
+msgstr "重新訓練命令"
+
+msgid "punishmentWindow/cancel"
+msgstr "經證實"
+
+msgid "punishmentWindow/header/ban"
+msgstr "您已被封鎖，將持續 %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "您已被懲罰"
+
+msgid "punishmentWindow/header/warning"
+msgstr "缺乏運動精神的行為"
+
+msgid "punishmentWindow/info"
+msgstr "若您的狀況是因連線問題或其他技術性問題造成，\n請聯絡玩家服務。"
+
+msgid "punishmentWindow/message/ban"
+msgstr "您違反了遊戲規則，發生於 {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} 地圖，時間為 {whiteSpanish_Open}%(time)s{whiteSpanish_Close}。\n您暫時無法於{whiteSpanish_Open}%(mode)s{whiteSpanish_Close}模式進行戰鬥。"
+
+msgid "punishmentWindow/message/penalty"
+msgstr "您違反了遊戲規則，發生於 {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} 地圖，時間為 {whiteSpanish_Open}%(time)s{whiteSpanish_Close}。\n您在戰鬥中獲得的銀幣、經驗與獎勵已遭移除。"
+
+msgid "punishmentWindow/message/warning"
+msgstr "您違反了遊戲規則，發生於 {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} 地圖，時間為 {whiteSpanish_Open}%(time)s{whiteSpanish_Close}。\n要是再次違規，您在戰鬥中獲得的所有銀幣、經驗與獎勵將遭剝奪。"
+
+msgid "punishmentWindow/reason/afk"
+msgstr "在戰鬥中掛機"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "在戰鬥結束前或車輛被摧毀前離開戰鬥"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "在戰鬥中掛機/提前離開戰鬥"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "故意自我摧毀"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s 天 %(hour)s 小時"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s 小時 %(min)s 分鐘"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 分鐘"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s 分鐘"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "取消"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "不要再問"
+
+msgid "questsConfirmDialog/message"
+msgstr "如果您選擇任務「%(newQuest)s」，將會取消任務「%(oldQuest)s」。"
+
+msgid "questsConfirmDialog/submit"
+msgstr "確認"
+
+msgid "questsConfirmDialog/title"
+msgstr "確認任務選擇"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "取消"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "%(curQuest)s 任務的所有進度都將被重置。\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "注意！將會失去當前任務的所有進度。"
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "確認"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "重置進度"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "取消"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "如果您選擇 %(newQuest)s 任務，就會取消 %(oldQuest)s 任務的進度。\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "注意！將會失去當前任務的所有進度。"
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "是"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "確認任務選擇"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "取消"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "將取消 %(quest)s 任務。\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "注意！將會失去當前任務的所有進度。"
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "是"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "確認取消任務"
+
+msgid "quit/cancel"
+msgstr "留下"
+
+msgid "quit/submit"
+msgstr "離開"
+
+msgid "quit/title"
+msgstr "要離開遊戲嗎？"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "取消"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "您的隊伍需要您！在戰鬥結束前或車輛被摧毀前離開戰鬥會被視為擅離職守。這可能導致處罰並失去在 IGR 中進行過之戰鬥的所有獎勵。"
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "擅離職守"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "要擅離戰場嗎？"
+
+msgid "quitBattle/cancel"
+msgstr "取消"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "取消"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "您的隊伍需要您！在戰鬥結束前或車輛被摧毀前離開戰鬥會被視為擅離職守。這可能導致處罰。"
+
+msgid "quitBattle/leaver/submit"
+msgstr "擅離職守"
+
+msgid "quitBattle/leaver/title"
+msgstr "要擅離戰場嗎？"
+
+msgid "quitBattle/replay/cancel"
+msgstr "取消"
+
+msgid "quitBattle/replay/submit"
+msgstr "結束"
+
+msgid "quitBattle/replay/title"
+msgstr "要離開觀察者模式？"
+
+msgid "quitBattle/submit"
+msgstr "離開"
+
+msgid "quitBattle/title"
+msgstr "要離開戰鬥？"
+
+msgid "quitPreBattle/cancel"
+msgstr "否"
+
+msgid "quitPreBattle/message"
+msgstr "您確定要離開戰鬥準備大廳？"
+
+msgid "quitPreBattle/submit"
+msgstr "是"
+
+msgid "quitPreBattle/title"
+msgstr "離開戰鬥準備大廳"
+
+msgid "rally/autoSearch/cancel"
+msgstr "否"
+
+msgid "rally/autoSearch/message"
+msgstr "要自動搜尋可用的位置？"
+
+msgid "rally/autoSearch/submit"
+msgstr "是"
+
+msgid "rally/autoSearch/title"
+msgstr "自動搜尋"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "取消"
+
+msgid "rally/changePeriphery/message"
+msgstr "您將會自動轉移到其它伺服器 (%(host)s)。無論如何都要繼續？"
+
+msgid "rally/changePeriphery/submit"
+msgstr "繼續"
+
+msgid "rally/changePeriphery/title"
+msgstr "轉移到其它伺服器"
+
+msgid "rally/goToAnother/cancel"
+msgstr "取消"
+
+msgid "rally/goToAnother/message"
+msgstr "如果您變更戰鬥模式，您將會被戰術單位自動逐出。"
+
+msgid "rally/goToAnother/submit"
+msgstr "繼續"
+
+msgid "rally/goToAnother/title"
+msgstr "變更模式"
+
+msgid "rally/goToIntro/cancel"
+msgstr "取消"
+
+msgid "rally/goToIntro/message"
+msgstr "您確定您要離開戰術單位？"
+
+msgid "rally/goToIntro/submit"
+msgstr "確認"
+
+msgid "rally/goToIntro/title"
+msgstr "確認離開"
+
+msgid "rally/goToSquad/cancel"
+msgstr "取消"
+
+msgid "rally/goToSquad/message"
+msgstr "如果您建立裝甲排，您將會自動離開當前的戰鬥模式。"
+
+msgid "rally/goToSquad/submit"
+msgstr "建立"
+
+msgid "rally/goToSquad/title"
+msgstr "建立裝甲排"
+
+msgid "rally/leave/cancel"
+msgstr "取消"
+
+msgid "rally/leave/message"
+msgstr "您確定您要離開戰術單位並離開該模式嗎？"
+
+msgid "rally/leave/submit"
+msgstr "確認"
+
+msgid "rally/leave/title"
+msgstr "確認離開"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "繼續"
+
+msgid "rally/leaveDisabled/message"
+msgstr "無法離開該模式。您在位置中的車輛已準備好加入戰鬥。"
+
+msgid "rally/leaveDisabled/title"
+msgstr "注意"
+
+msgid "rally/startBattle/cancel"
+msgstr "否"
+
+msgid "rally/startBattle/message"
+msgstr "要搜尋敵人？"
+
+msgid "rally/startBattle/submit"
+msgstr "是"
+
+msgid "rally/startBattle/title"
+msgstr "搜尋敵人"
+
+msgid "recruit/cancel"
+msgstr "取消"
+
+msgid "recruit/submit"
+msgstr "招募"
+
+msgid "recruit/title"
+msgstr "要為 %(vehicleName)s 招募新%(role)s？"
+
+msgid "recruit/voiceoverText"
+msgstr "乘員的主要專長需為車長才會播放獨特配音。"
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "您不需要專門為加值車輛招募乘員。您可調動同類型加值車輛上的乘員，且熟練度不會降低。"
+
+msgid "recruit/warning/slotChanged"
+msgstr "此名乘員無法招募至選擇的車輛且將送回兵營。"
+
+msgid "recruitConversionConfirm/warning"
+msgstr "乘員有已從遊戲中移除的歷練，該歷練將自動重置且不會損失經驗。"
+
+msgid "recruitDialog/name/title"
+msgstr "要招募新乘員（%(name)s）？"
+
+msgid "recruitDialog/title"
+msgstr "要招募新乘員？"
+
+msgid "recruitWindow/cancel"
+msgstr "取消"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "尚未選擇"
+
+msgid "recruitWindow/nation"
+msgstr "國家"
+
+msgid "recruitWindow/specialization"
+msgstr "專長"
+
+msgid "recruitWindow/submit"
+msgstr "招募"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "車輛類型"
+
+msgid "recruitWindow/vehicleType"
+msgstr "車輛"
+
+msgid "referralReward/cancel"
+msgstr "取消"
+
+msgid "referralReward/message"
+msgstr "要領取 %(product)s？"
+
+msgid "referralReward/submit"
+msgstr "確認"
+
+msgid "referralReward/title"
+msgstr "確認收據"
+
+msgid "refuseTraining/cancel"
+msgstr "否"
+
+msgid "refuseTraining/message"
+msgstr "離開訓練？"
+
+msgid "refuseTraining/submit"
+msgstr "是"
+
+msgid "refuseTraining/title"
+msgstr "確認"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "摧毀"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "取消"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "消耗品「%(name)s」將會被送回倉庫中，因為它與當前的配件%(reason)s。"
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "不相容"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "拆卸"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "確認拆卸"
+
+msgid "rentConfirmation/cancel"
+msgstr "取消"
+
+msgid "rentConfirmation/event"
+msgstr "「%(eventName)s」模式"
+
+msgid "rentConfirmation/message"
+msgstr "要花費 %(price)s 來在%(event)s租用 %(name)s？"
+
+msgid "rentConfirmation/submit"
+msgstr "確認"
+
+msgid "rentConfirmation/title"
+msgstr "確認租用"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "取消"
+
+msgid "rentConfirmationRenew/message"
+msgstr "要花費 %(price)s 來在%(event)s延長 %(name)s 的租用期？"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "確認"
+
+msgid "rentConfirmationRenew/title"
+msgstr "確認租用"
+
+msgid "replacePassport/unique/cancel"
+msgstr "取消"
+
+msgid "replacePassport/unique/message"
+msgstr "這是一名獨特的乘員而且以後就無法重設他的個人履歷。您確定您要替換其個人履歷並花費 %(gold)s？"
+
+msgid "replacePassport/unique/submit"
+msgstr "變更"
+
+msgid "replacePassport/unique/title"
+msgstr "確認替換"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "取消"
+
+msgid "replacePassportConfirmation/message"
+msgstr "您確定要替換此乘員的個人履歷並花費 %(gold)s？"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "變更"
+
+msgid "replacePassportConfirmation/title"
+msgstr "變更個人履歷"
+
+msgid "replayNotification/cancel"
+msgstr "否"
+
+msgid "replayNotification/message"
+msgstr "戰鬥紀錄無法與當前《戰車世界》的版本相容。播放時可能會出現問題。無論如何忽略此差異並播放？"
+
+msgid "replayNotification/submit"
+msgstr "是"
+
+msgid "replayNotification/title"
+msgstr "警告"
+
+msgid "replayStopped/cancel"
+msgstr "取消"
+
+msgid "replayStopped/message"
+msgstr "重播完成。點選結束離開遊戲。"
+
+msgid "replayStopped/submit"
+msgstr "結束"
+
+msgid "replayStopped/title"
+msgstr "重播結束"
+
+msgid "reportBug/cancel"
+msgstr "取消"
+
+msgid "reportBug/message"
+msgstr "點擊此處將打開您的預設瀏覽器，並引導您前往《戰車世界》玩家服務網站來回報錯誤。要繼續？"
+
+msgid "reportBug/submit"
+msgstr "繼續"
+
+msgid "reportBug/title"
+msgstr "前往玩家服務"
+
+msgid "resetAllPerks/cancel"
+msgstr "取消"
+
+msgid "resetAllPerks/submit"
+msgstr "重置"
+
+msgid "resetAllPerks/title"
+msgstr "要為所有乘員重置所有歷練？"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}您帳號中所有乘員的所有歷練將全數重置。{orangeEnd}\n{orangeStart}此操作為不可逆。{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "繼續"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s已自動選擇其畫質設定以確保獲得最佳的影像品質。\n想要增加效能，請在設定中選擇較低的貼圖品質。"
+
+msgid "resetGraphics/submit"
+msgstr "設定"
+
+msgid "resetGraphics/title"
+msgstr "變更畫質設定"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "重新找回"
+
+msgid "restoreTankman/description"
+msgstr "將重新找回 %(name)s。"
+
+msgid "restoreTankman/free"
+msgstr "費用：免費"
+
+msgid "restoreTankman/header"
+msgstr "要重新找回此名乘員？"
+
+msgid "restoreTankman/price"
+msgstr "費用："
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "取消"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "重新找回 %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "重新找回"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "不含乘員"
+
+msgid "restoreVehicleDialog/title"
+msgstr "重新找回 %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "在您點擊重新找回之後，將無法兌換已購買的裝備及消耗品為金幣。請仔細再三檢查所有的詳細資訊。"
+
+msgid "retrain/cancel"
+msgstr "取消"
+
+msgid "retrain/changeRole"
+msgstr "變更主要專長"
+
+msgid "retrain/discountLabel"
+msgstr "首個歷練尚未訓練到 100%，可使用此折扣。"
+
+msgid "retrain/discountTooltip/body"
+msgstr "此選項無法使用，因您已使用在「裝甲兵學校」重新訓練的 100% 折扣。"
+
+msgid "retrain/discountTooltip/header"
+msgstr "無法使用"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "要重新訓練的乘員：{whiteSpanish_Open}%(count)s{whiteSpanish_Close} 名"
+
+msgid "retrain/premium/description"
+msgstr "您不需要專門為加值車輛訓練乘員。\n您可調動同類型加值車輛上的乘員，且熟練度不會降低。"
+
+msgid "retrain/price"
+msgstr "費用："
+
+msgid "retrain/priceCard/credits/description"
+msgstr "重新訓練後的\n歷練整體熟練度：%(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "陸軍學校"
+
+msgid "retrain/priceCard/free/description"
+msgstr "重新訓練後的\n歷練整體熟練度：%(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "快速課程"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "重新訓練後的\n歷練整體熟練度：%(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "裝甲兵學校"
+
+msgid "retrain/submit"
+msgstr "重新訓練"
+
+msgid "retrain/title/massive"
+msgstr "要讓乘員接受 %(vehicleName)s 的重新訓練&zwnbsp;？"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s？"
+
+msgid "retrain/title/single/complex"
+msgstr "要接受 %(vehicleName)s 的重新訓練\n並將主要專長變更為%(role)？"
+
+msgid "retrain/title/single/simple"
+msgstr "要接受 %(vehicleName)s 的重新訓練？"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "不適合主要專長的歷練將會停用。請手動重置這些歷練。"
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "乘員可調動到同類型的加值車輛，不需要重新訓練且不會遭受懲罰，但不適合的歷練必須手動重置。"
+
+msgid "rudyInfo/message"
+msgstr "不朽經典早已存在遊戲中！《四個裝甲兵與一隻狗》（波蘭劇名為《Czterej pancerni i pies》）是一齣根據 Janusz Przymanowski 所著同名小說改編的黑白電視劇。這齣電視劇於 1966 年 5 月 9 日首演，描寫一輛暱稱為 Rudy（生薑）的 T-34-85 戰車與其乘員，以及他們的狗狗 Szarik 在第二次世界大戰期間的冒險。"
+
+msgid "rudyInfo/submit"
+msgstr "了解！"
+
+msgid "rudyInfo/title"
+msgstr "四個裝甲兵與一隻狗"
+
+msgid "selectVehicle/counter"
+msgstr "顯示的車輛："
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "選擇攻擊方車輛"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "選擇此車輛"
+
+msgid "sellConfirmation/cancel"
+msgstr "取消"
+
+msgid "sellConfirmation/submit"
+msgstr "出售"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "取消"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "出售"
+
+msgid "sellModuleConfirmation/title"
+msgstr "確認出售"
+
+msgid "sellShellConfirmation/submit"
+msgstr "要出售彈藥「%(shellName)s」？"
+
+msgid "sendInvites/common/title"
+msgstr "邀請加入戰術單位"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "取消"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "階段統計將於 {} 後自動重置"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "重置"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s 小時 %(minutes)s 分鐘"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "確定重置階段統計？"
+
+msgid "shopSyncError/cancel"
+msgstr "繼續"
+
+msgid "shopSyncError/message"
+msgstr "更新應用程式。如果重複發生錯誤，請更新伺服器。"
+
+msgid "shopSyncError/title"
+msgstr "不同步"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "取消"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "要訓練選擇的歷練？"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "訓練"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "套用"
+
+msgid "soundModeInvalid/cancel"
+msgstr "取消"
+
+msgid "soundModeInvalid/message"
+msgstr "所選擇的通知語音檔案受損或遺失，通知語音將設回預設。"
+
+msgid "soundModeInvalid/submit"
+msgstr "儲存"
+
+msgid "soundModeInvalid/title"
+msgstr "錯誤"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "取消"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "所選擇的音響系統與遊戲客戶端自動確定的不同。有些聲音可能會出不來。我們建議您只單純用來測試聲音的差異性。確認要變更？"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "確認"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "音響系統不相符"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "否"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "所選擇的音響系統與遊戲客戶端自動確定的不同。有些聲音可能會出不來。要套用最佳的聲音設定？"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "是"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "音響系統不相符"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "了解！"
+
+msgid "squad/eventDisabled/message"
+msgstr "活動無法使用。裝甲排將被解散。"
+
+msgid "squad/eventDisabled/title"
+msgstr "活動已結束"
+
+msgid "squad/goToAnother/cancel"
+msgstr "取消"
+
+msgid "squad/goToAnother/message"
+msgstr "您在裝甲排中。如果您變更該模式，您將會被裝甲排自動逐出。"
+
+msgid "squad/goToAnother/submit"
+msgstr "繼續"
+
+msgid "squad/goToAnother/title"
+msgstr "變更模式"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "取消"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "變更遊戲模式時，您當前所在的裝甲排將解散。是否確定變更戰鬥類型？"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "確認"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "變更遊戲模式"
+
+msgid "squad/goToSquad/cancel"
+msgstr "取消"
+
+msgid "squad/goToSquad/message"
+msgstr "要離開該戰術單位並與該玩家一同建立裝甲排？"
+
+msgid "squad/goToSquad/submit"
+msgstr "建立"
+
+msgid "squad/goToSquad/title"
+msgstr "建立裝甲排"
+
+msgid "squad/leave/cancel"
+msgstr "取消"
+
+msgid "squad/leave/message"
+msgstr "您確定您要離開裝甲排嗎？"
+
+msgid "squad/leave/submit"
+msgstr "確認"
+
+msgid "squad/leave/title"
+msgstr "確認離開"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "繼續"
+
+msgid "squad/leaveDisabled/message"
+msgstr "您無法離開裝甲排。您是裝甲排的一員且已準備好加入戰鬥。"
+
+msgid "squad/leaveDisabled/title"
+msgstr "注意"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "取消"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "裝甲排不完整。會再自動加入一名玩家。要加入戰鬥？"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "加入戰鬥!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "裝甲排尚未準備好"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "取消"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "裝甲排未滿。無論如何都要加入戰鬥？"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "加入戰鬥!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "裝甲排尚未準備好"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "取消"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "裝甲排不完整。要自動加入玩家並加入戰鬥？"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "加入戰鬥!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "裝甲排尚未準備好"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "取消"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "有裝甲排成員尚未準備好。無論如何都要加入戰鬥？"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "加入戰鬥!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "裝甲排尚未準備好"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "取消"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "沒有確認自己已經準備好的玩家將會被逐出戰術單位。會再自動加入一名玩家。要加入戰鬥？"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "加入戰鬥!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "裝甲排尚未準備好"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "取消"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "裝甲排成員都沒有準備好。無論如何都要加入戰鬥？"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "加入戰鬥!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "裝甲排尚未準備好"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "取消"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "裝甲排不完整。沒有確認他們已經準備好的玩家會被逐出戰術單位。要自動加入玩家並加入戰鬥？"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "加入戰鬥!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "裝甲排尚未準備好"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "加入新的戰鬥失敗：部分玩家尚未回來，請等待當前戰鬥結束。"
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "了解！"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "裝甲排尚未準備好"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "確定"
+
+msgid "squadPremiumNeeded/message"
+msgstr "只有加值帳號玩家能夠建立裝甲排。\n該玩家建立的裝甲排能邀請任何帳號類型的玩家。"
+
+msgid "squadPremiumNeeded/title"
+msgstr "限加值帳號"
+
+msgid "steamStartNeeded/cancel"
+msgstr "關閉遊戲"
+
+msgid "steamStartNeeded/message"
+msgstr "遊戲必須透過 Steam 啟動才能正確地登入。"
+
+msgid "steamStartNeeded/title"
+msgstr "無法登入"
+
+msgid "stronghold/leave/cancel"
+msgstr "取消"
+
+msgid "stronghold/leave/message"
+msgstr "您確定您真的想要離開分遣隊？"
+
+msgid "stronghold/leave/submit"
+msgstr "確認"
+
+msgid "stronghold/leave/title"
+msgstr "確認離開"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "一旦您離開，分遣隊就會解散。\n公會就會因為沒有進入戰鬥而受到懲罰。\n您確定您真的想要離開分遣隊？"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "確認離開"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "取消"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "繼續"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "轉移到其它伺服器"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "取消"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)s 將被交出且無法重新找回。%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr "此外，%(operations)s。"
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "其乘員將被送回兵營"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "其消耗品將被送回到倉庫"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "其裝備將被免費拆卸"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "所有已購買的成對改裝將會被取消，但標準改裝的進度將會保留"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "其彈藥將被送回到倉庫"
+
+msgid "tradeInConfirmation/submit"
+msgstr "折價貼換"
+
+msgid "tradeInConfirmation/title"
+msgstr "車輛折價貼換"
+
+msgid "tradeInPopover/descr"
+msgstr "車庫中可用的加值車輛"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "顯示所選車輛的國家。"
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "國家"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "顯示您所選擇的車輛在進行折價貼換時能省下多少"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "車輛\n估價"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "車輛估價"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "顯示所選車輛的階級。"
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "階級"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "顯示所選車輛的名稱。"
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "名稱"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "顯示所選車輛的類型。"
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "類型"
+
+msgid "tradeInPopover/title"
+msgstr "選擇車輛來折價貼換"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "選擇車輛"
+
+msgid "updateNeeded/cancel"
+msgstr "稍後重開"
+
+msgid "updateNeeded/message"
+msgstr "請更新您的主程式。"
+
+msgid "updateNeeded/submit"
+msgstr "更新"
+
+msgid "updateNeeded/title"
+msgstr "更新請求"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "取消"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "要花費 {%d} 金幣來訓練乘員？"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "訓練"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "確認訓練"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "確定"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "訓練所需的金幣不足。"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "確定"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "金幣不足"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "取消"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "要花費 {%d} 銀幣來訓練乘員？"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "訓練"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "確認訓練"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "確定"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "訓練所需的銀幣不足。"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "確定"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "銀幣不足"
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "取消"
+
+msgid "vehConf/exitDialog/message"
+msgstr "修改將不會被儲存。要離開車輛配置選單？"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "確認"
+
+msgid "vehConf/exitDialog/title"
+msgstr "取消變更"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "從車庫中移除 %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "取消"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "注意！這是一輛特殊車輛。如果將它出售，您就需要等上 %(cooldown)s 天的時間才能重新找回它。要出售該車輛？"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "確認"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "確認出售"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "取消"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "注意！這是一輛特殊車輛。如果將它出售，您就只有重新找回才能再得到它。要出售該車輛？"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "確認"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "確認出售"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "取消"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "取消"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "注意！此戰車為獨特且無法被重新找回。其乘員也會被永久解雇。"
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "確認"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "確認出售"
+
+msgid "vehicleSell/unique/message"
+msgstr "注意！這是一輛特殊車輛。它已經無法在商店裡買到。要繼續？"
+
+msgid "vehicleSell/unique/submit"
+msgstr "是"
+
+msgid "vehicleSell/unique/title"
+msgstr "確認購買"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "確認出售"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "為了確認，請輸入「總共」欄位中顯示的出售價格 (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "您輸入了不正確的資訊。"
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "彈藥："
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "技術指南："
+
+msgid "vehicleSellDialog/cancel"
+msgstr "取消"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "總共："
+
+msgid "vehicleSellDialog/count"
+msgstr "個"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "解雇"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "送回兵營"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "乘員："
+
+msgid "vehicleSellDialog/customization"
+msgstr "外觀："
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "拆解"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "消耗品："
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "詳情"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "倉庫："
+
+msgid "vehicleSellDialog/loss"
+msgstr "花費："
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "包含此車輛所有的國籍配置！"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "配件"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "裝備："
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "一旦車輛出售，當前戰地升級等級將保持不變，但所有成對改裝將會被取消。"
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "獲得："
+
+msgid "vehicleSellDialog/remove"
+msgstr "移除"
+
+msgid "vehicleSellDialog/submit"
+msgstr "出售"
+
+msgid "vehicleSellDialog/title"
+msgstr "出售 %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "送回倉庫"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "精英"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "價格"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "階級： "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "角色："
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "驅逐戰車"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "自走炮"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "重型戰車"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "輕型戰車"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "中型戰車"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "了解！"
+
+msgid "voiceChatInitFailed/message"
+msgstr "初始化語音聊天時發生錯誤：該服務目前無法使用。"
+
+msgid "voiceChatInitFailed/title"
+msgstr "初始化語音聊天"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "確定"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "語音聊天初始化成功。"
+
+msgid "voiceChatInitSucceded/title"
+msgstr "初始化語音聊天"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "關閉"
+
+msgid "waterQualityNotPossible/message"
+msgstr "水面高畫質只有在「後處理」選項開啟時可以使用。"
+
+msgid "waterQualityNotPossible/title"
+msgstr "水面品質無法使用"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "取消"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "確認車輛是否在車庫中"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "費用：%(price)s %(icon)s（可用：%(balance)s %(icon)s）"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "玩家：%(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "選擇的車輛：%(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "恢復至戰備狀態"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "要恢復至戰備狀態？"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "助手"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "簽到獎勵"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "戰鬥收益加成"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "戰車遠征 Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "地圖排除"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "專屬車輛"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "專屬車輛"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "免費裝備拆卸"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "金幣儲備"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "高強度乘員訓練"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "可控經驗加成"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "專業版加成"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "服役紀錄外觀自訂"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "戰車兵條章"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "「戰車世界 PLUS」已啟用"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "一切就緒！"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "延長於 {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "「戰車世界 PLUS 核心版」已啟用"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "詳情"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360 天方案"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180 天方案"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}，延長於 {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "「戰車世界 PLUS 專業版」已啟用"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "啟用"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}您在 {{@ style (color #fff)}}{{boostInterval}} 小時{{/}}內將無法再次為另一輛車輛提供加成。{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "啟用專業版加成可讓此車輛額外獲得 {{@ style (color #fff)}}{{bonusPercent}} 的銀幣與經驗{{/}}。僅能套用到一輛車輛。"
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "要在 {{vehicle}} 上啟用專業版加成？"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "切換"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}僅有一輛車輛可獲得加成。您在 {{@ style (color #fff)}}{{boostInterval}} 小時{{/}}內將無法再次為另一輛車輛提供加成。{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "啟用專業版加成可讓此車輛額外獲得 {{@ style (color #fff)}}{{bonusPercent}} 的銀幣與經驗{{/}}。僅能套用到一輛車輛。"
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "要將專業版加成切換至 {{vehicle}}？"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "取消"
+
+msgid "wotPlusRental/description"
+msgstr "下一次車輛租用將可用於 {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "租用"
+
+msgid "wotPlusRental/title"
+msgstr "要租用 {cream_Open}%s{cream_Close}？"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "儲存"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "您是否要儲存服役紀錄的自訂外觀？"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "取消"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "將此車輛獲得的全部經驗用於乘員訓練，經驗最少的乘員的訓練速度將加倍。"
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "開啟"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "要加速乘員訓練？"

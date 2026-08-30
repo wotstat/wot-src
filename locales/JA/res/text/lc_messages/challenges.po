@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "awards_view/additional_reward/title"
+msgstr "他に受け取った報酬"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "このミッション・セットは再挑戦できます。"
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "了解!"
+
+msgid "awards_view/footer/title/close"
+msgstr "閉じる"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "ガレージで表示"
+
+msgid "awards_view/footer/title/replay"
+msgstr "リプレイ"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "鍛錬へ"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "WoTプレミアムアカウント"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "プレミアム車輌"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "レンタル用車輌"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "およびスタイル「{{styleName}}」"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day)日"
+msgstr[1] "%(day)日"
+msgstr[2] "%(day)日"
+
+msgid "awards_view/title"
+msgstr "鍛錬を達成!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "戦闘での取得EXP5倍ミッション"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "設計図のピース (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "汎用ピース"
+
+msgid "bonuses/bpcoin"
+msgstr "バトルパス・トークン"
+
+msgid "bonuses/crewBonusX3"
+msgstr "搭乗員EXP3倍ミッション"
+
+msgid "bonuses/description/attachments_set"
+msgstr "3D付属品のセット"
+
+msgid "bonuses/description/booster"
+msgstr "パーソナルリザーブ"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "報酬拡張パーツ"
+
+msgid "bonuses/description/crewSkin"
+msgstr "搭乗員スキン"
+
+msgid "bonuses/description/directive"
+msgstr "ディレクティブ"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "試作拡張パーツ"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "ボンズ拡張パーツ"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "およびスタイル「%(styleName)s」"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "通常拡張パーツ"
+
+msgid "bonuses/description/style"
+msgstr "2Dスタイル"
+
+msgid "bonuses/description/style_3d"
+msgstr "3Dスタイル"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "女性搭乗員"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "新兵"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "搭乗員"
+
+msgid "condition/achievement"
+msgstr "勲章「%(achievement)s」を取得する"
+
+msgid "condition/achievement/title"
+msgstr "戦功章"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "与えたダメージとアシストしたダメージの合計で%(goal)sHPを記録する"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "与ダメージ、被ダメージ、阻ダメージの合計で%(goal)sHPを記録する"
+
+msgid "condition/aggregated/title"
+msgstr "複合的な条件"
+
+msgid "condition/classes/AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "condition/classes/SPG"
+msgstr "自走砲"
+
+msgid "condition/classes/heavyTank"
+msgstr "重戦車"
+
+msgid "condition/classes/lightTank"
+msgstr "軽戦車"
+
+msgid "condition/classes/mediumTank"
+msgstr "中戦車"
+
+msgid "condition/critsCount"
+msgstr "敵車輌の内部または外部モジュールに重大な損傷を%(goal)s回与える"
+
+msgid "condition/critsCount/title"
+msgstr "移動不能化"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "%(goal)sHPのダメージを阻む"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "自車輌のHPの%(goal)s倍を超えるダメージを阻む"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "阻ダメージ"
+
+msgid "condition/damageDealt"
+msgstr "敵車輌に%(goal)sHPのダメージを与える"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "自車輌のHPの%(goal)s倍を超えるダメージを与える"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "%(distance)s m以下の距離から敵車輌に砲撃を%(goal)s発命中させる"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "%(distance)s m以上の距離から敵車輌に砲撃を%(goal)s発命中させる"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "体当たりで敵車輌に%(goal)s回ダメージを与える"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "自車輌の視認範囲内の敵車輌に砲撃を%(goal)s発命中させる"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "戦闘開始後%(timeLimit)s分以内に%(goal)sHPのダメージを与える"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "%(distance)s m以下の距離から敵車輌に%(goal)sHPのダメージを与える"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "%(distance)s m以上の距離から敵車輌に%(goal)sHPのダメージを与える"
+
+msgid "condition/damageDealt/ramming"
+msgstr "体当たりで%(goal)sHPのダメージを与える"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "体当たり"
+
+msgid "condition/damageDealt/title"
+msgstr "与ダメージ"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "非発見状態の敵車輌に%(goal)sHPのダメージを与える"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "自車輌の視認範囲内の敵車輌に%(goal)sHPのダメージを与える"
+
+msgid "condition/kills"
+msgstr "敵車輌を%(goal)s輌撃破する"
+
+msgid "condition/kills/classes"
+msgstr "敵の%(vehicleClass)sを%(goal)s輌撃破する"
+
+msgid "condition/kills/classesDiversity"
+msgstr "異なる%(classCount)sタイプの敵車輌を%(goal)s輌撃破する"
+
+msgid "condition/kills/title"
+msgstr "撃破"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "ダメージを受けずに敵車輌を%(goal)s輌撃破する"
+
+msgid "condition/kills/whileInvisible"
+msgstr "非発見状態で敵車輌を%(goal)s輌撃破する"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "味方チームの合計与ダメージの%(goal)s%%を与える"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "ダメージ"
+
+msgid "condition/piercingEnemyHits"
+msgstr "敵の装甲を%(goal)s回貫通する"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "貫通"
+
+msgid "condition/spotted"
+msgstr "敵車輌を%(goal)s輌発見する"
+
+msgid "condition/spotted/title"
+msgstr "発見"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "非発見状態で敵車輌を%(goal)s輌発見する"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "発見"
+
+msgid "condition/top/damageDealt"
+msgstr "与ダメージでチーム内TOP%(rank)sを達成する"
+
+msgid "condition/top/damageDealt/total"
+msgstr "与ダメージで両チームTOP%(rank)sを達成する"
+
+msgid "condition/top/title"
+msgstr "TOPプレイヤー"
+
+msgid "condition/top/xp"
+msgstr "取得EXPでチーム内TOP%(rank)sを達成する"
+
+msgid "condition/unknown"
+msgstr "最適なミッションを検索中…"
+
+msgid "condition/unknown/title"
+msgstr "待機中"
+
+msgid "postbattle/name"
+msgstr "【鍛錬】 "

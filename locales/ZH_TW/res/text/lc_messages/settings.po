@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "反鋸齒"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "決定遊戲物件細線及輪廓的額外處理程度。使混疊效應降到最低。\n\n• 高──FXAA\n• 最大──隨機超級採樣反鋸齒 (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "動態調整"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "根據顯示卡負載開啟或關閉 3D 渲染解析度的自動調整。\n\n開啟這個參數值可以提高遊戲的效能。車庫中的渲染解析度總是保持不變。"
+
+msgid "EFFECTS_QUALITY"
+msgstr "最大特效品質"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "決定跳彈火花、爆炸、煙霧以及其它視覺效果的顯示品質。\n\n降低這個參數值可以提高遊戲的效能。"
+
+msgid "FAR_PLANE"
+msgstr "繪製距離"
+
+msgid "FAR_PLANE/description"
+msgstr "決定立體樣貌、建築物、敵方車輛以及其它遊戲物件的顯示距離。"
+
+msgid "FLORA_QUALITY"
+msgstr "雜草密度"
+
+msgid "FLORA_QUALITY/description"
+msgstr "決定一般和狙擊模式下顯示的雜草密度。"
+
+msgid "HAVOK_ENABLED"
+msgstr "增強破壞的物理性"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "關"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "開"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "開啟更細緻且逼真的方式來處理地圖上的物件破壞效果。\n\n關閉這個參數可以提高遊戲的效能。"
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "如果當前戰鬥已關閉了該設定，要到下一場戰鬥才會套用。"
+
+msgid "LANGUAGE_CODE"
+msgstr "zh_tw"
+
+msgid "LIGHTING_QUALITY"
+msgstr "光線品質"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "決定太陽光線與光暈效果的品質與顯示方式。\n\n提高這個參數值會大幅地增加顯示卡的負載。"
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "動態模糊效果"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "決定車輛移動與鏡頭轉動時，其影像的動態模糊品質。"
+
+msgid "MSAA_QUALITY"
+msgstr "反鋸齒"
+
+msgid "MSAA_QUALITY/description"
+msgstr "決定遊戲物件細線及輪廓的額外處理程度。使混疊效應降到最低。\n\n• 低──MSAA 2x\n• 中──MSAA 4x\n• 高──MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "物件動態光"
+
+msgid "OBJECT_LOD/description"
+msgstr "決定物件的顯示數量與其品質。"
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "後處理"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "決定後處理視覺效果的品質：熱扭曲和熱浪效果、色差、暈影、電影膠捲顆粒、... 等。\n\n降低這個參數值可以提高遊戲的效能。"
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "畫質"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "增強：允許使用最高的影像品質。\n\n簡化：允許透過簡化或關閉某些視覺效果以獲得最高的效能。"
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "畫質："
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "對此參數的變更將在重新啟動遊戲後生效。"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "樹葉透明度"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "決定如何顯示靠近的樹木與樹叢。\n\n關閉此參數，會完全看不到靠近的樹木與樹叢之樹葉，同時也可以提高遊戲的效能。"
+
+msgid "SHADER_VERSION_CAP"
+msgstr "陰影版本"
+
+msgid "SHADOWS_QUALITY"
+msgstr "陰影品質"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "決定動態陰影在整體繪製距離上的處理品質。\n\n降低這個參數值可以大幅地提高遊戲的效能。"
+
+msgid "SMOKE_ENABLED"
+msgstr "煙霧"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "狙擊模式下的最大特效"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "決定在狙擊模式下跳彈火光、爆炸、煙霧以及其他真實特效的顯示品質。\n\n降低這個參數值可以提高遊戲的效能。"
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "狙擊模式下顯示雜草"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "在狙擊模式下顯示雜草。\n\n關閉這個參數可以提高遊戲的效能。"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "狙擊模式下的地形曲面細分"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "在狙擊模式下，提高距離自身車輛半徑 50 公尺內的地形品質。只有當地形曲面細分選項開啟時才能使用。\n\n關閉這個參數值可以提高遊戲的效能。"
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "植被品質"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "決定樹木、灌木叢和雜草的繪製品質。"
+
+msgid "TERRAIN_QUALITY"
+msgstr "地面品質"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "決定地圖表面立體感的繪製品質。\n\n請只在低階電腦的情況下才使用最小的景色品質。\n\n降低這個數值會造成客戶端與伺服端之間的景色顯示不同步。"
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "套用指定的參數可能要花上一些時間。"
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "地形曲面細分"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "新增三角形到多邊形網格以提高網格細緻度的硬體加速程序。\n\n此功能只適用於：\n• 已啟用「增強」畫質\n• 地面品質設定為高、最大或極高\n• 已安裝 DirectX 11\n\n此設定不適用於比 DirectX 11 舊的版本。\n\n關閉此參數可提高遊戲效能。"
+
+msgid "TEXTURE_QUALITY"
+msgstr "貼圖品質"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "遊戲物件的表面品質，特別是在近距離查看之下。\n\n降低這個參數值可以提高遊戲的效能。"
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "套用指定的參數可能要花上一些時間。"
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "履帶物理機制"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "決定運作正常與遭摧毀之履帶及履帶細節的物理模擬品質。\n\n降低或關閉此參數可以提高遊戲的效能。"
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "開啟履帶與車輪效果"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "顯示履帶與車輪後方濺起的土塊、雪片以及水花。\n\n關閉這個參數可以提高遊戲的效能。"
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "開啟履帶與車輪痕跡"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "顯示地面上的履帶與車輪痕跡。\n\n不適用於「簡化」畫質設定與較低的花樣品質。"
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "狙擊模式下隱藏 3D 配飾"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "在狙擊模式下，炮管準星中的 3D 配飾將暫時隱藏。\n\n可減少視覺干擾並改善瞄準準度。"
+
+msgid "WATER_QUALITY"
+msgstr "水面品質"
+
+msgid "WATER_QUALITY/description"
+msgstr "決定水面的繪製品質。"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "僅裝甲薄弱處"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "若啟用，解析儀僅強調目標的裝甲薄弱處。\n\n穿透機率高的裝甲部位會以填滿的綠色強調，裝甲穿透機率一般的部位，則會以半透明的綠色標示。在色盲模式下的色彩可能不同。"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "僅強調裝甲薄弱處"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "僅裝甲厚實處"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "若啟用，解析儀僅強調目標的裝甲厚實處。\n\n穿透機率趨近於零的裝甲部位會以填滿的紅色強調，裝甲穿透機率一般的部位，則會以半透明的紅色標示。在色盲模式下的色彩可能不同。"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "僅強調裝甲厚實處"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "所有裝甲"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "若啟用，解析儀會強調目標的所有裝甲。\n\n穿透機率趨近於零的裝甲部位會以紅色強調，穿透機率高的裝甲部位會以綠色強調，裝甲穿透機率一般的部位會以黃色強調。在色盲模式下的色彩可能不同。"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "強調所有裝甲"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "裝甲強調"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "在戰鬥開始時開啟"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "戰鬥一開始解析儀的預設狀態。您可隨時使用指派的快捷鍵來開啟或關閉。解析燈\n\n開啟時，解析儀僅在狙擊模式下作用。\n\n支援的遊戲模式：\n• 隨機戰鬥與隊伍訓練；\n• 前線；\n• 遊戲廳戰鬥；\n• 天梯戰；\n• 其他特定活動與模式。\n\n未來可能會支援額外的模式與活動。"
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "在戰鬥開始時開啟"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "「裝甲解析儀」紋理"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "填滿"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "鬆散"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "密集"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "透明度"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "效能警告"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "高"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "低"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "中"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "「裝甲解析儀」解析度"
+
+msgid "aim/cassette"
+msgstr "彈藥匣"
+
+msgid "aim/centralTag"
+msgstr "中間準星"
+
+msgid "aim/centralTag/type0"
+msgstr "A 形 I"
+
+msgid "aim/centralTag/type1"
+msgstr "A 形 II"
+
+msgid "aim/centralTag/type10"
+msgstr "O 形 I"
+
+msgid "aim/centralTag/type11"
+msgstr "O 形 II"
+
+msgid "aim/centralTag/type12"
+msgstr "A 形 IV"
+
+msgid "aim/centralTag/type13"
+msgstr "A 形 V"
+
+msgid "aim/centralTag/type2"
+msgstr "A 形 III"
+
+msgid "aim/centralTag/type3"
+msgstr "V 形"
+
+msgid "aim/centralTag/type4"
+msgstr "十字準星 I"
+
+msgid "aim/centralTag/type5"
+msgstr "十字準星 II"
+
+msgid "aim/centralTag/type6"
+msgstr "T 形"
+
+msgid "aim/centralTag/type7"
+msgstr "I 形"
+
+msgid "aim/centralTag/type8"
+msgstr "瞄準點 I"
+
+msgid "aim/centralTag/type9"
+msgstr "瞄準點 II"
+
+msgid "aim/condition"
+msgstr "狀態"
+
+msgid "aim/gunTag"
+msgstr "炮管準星"
+
+msgid "aim/gunTag/type0"
+msgstr "A 形 I (裝甲穿透指示)"
+
+msgid "aim/gunTag/type1"
+msgstr "A 形 II (裝填狀態指示)"
+
+msgid "aim/gunTag/type10"
+msgstr "O 形 II (裝填狀態指示)"
+
+msgid "aim/gunTag/type11"
+msgstr "O 形 III"
+
+msgid "aim/gunTag/type12"
+msgstr "A 形 IV (裝甲穿透指示)"
+
+msgid "aim/gunTag/type13"
+msgstr "A 形 V (裝填狀態指示)"
+
+msgid "aim/gunTag/type14"
+msgstr "A 形 VI"
+
+msgid "aim/gunTag/type2"
+msgstr "A 形 III"
+
+msgid "aim/gunTag/type3"
+msgstr "十字準星 I (裝甲穿透指示)"
+
+msgid "aim/gunTag/type4"
+msgstr "十字準星 II (裝填狀態指示)"
+
+msgid "aim/gunTag/type5"
+msgstr "十字準星 III"
+
+msgid "aim/gunTag/type6"
+msgstr "瞄準點 I (裝甲穿透指示)"
+
+msgid "aim/gunTag/type7"
+msgstr "瞄準點 II (裝填狀態指示)"
+
+msgid "aim/gunTag/type8"
+msgstr "瞄準點 III"
+
+msgid "aim/gunTag/type9"
+msgstr "O 形 I (裝甲穿透指示)"
+
+msgid "aim/mixing"
+msgstr "瞄準"
+
+msgid "aim/mixing/type0"
+msgstr "圓形 I (裝填狀態指示) "
+
+msgid "aim/mixing/type1"
+msgstr "圓形 II (換填狀態指示)"
+
+msgid "aim/mixing/type2"
+msgstr "圓形 III (無裝填狀態指示)"
+
+msgid "aim/mixing/type3"
+msgstr "圓形 IV (實心)"
+
+msgid "aim/mixing/type4"
+msgstr "十字 (換填狀態指示)"
+
+msgid "aim/mixing/type5"
+msgstr "十字準星 II"
+
+msgid "aim/mixing/type6"
+msgstr "測試"
+
+msgid "aim/net"
+msgstr "指示器"
+
+msgid "aim/net/type0"
+msgstr "對角式"
+
+msgid "aim/net/type1"
+msgstr "水平式"
+
+msgid "aim/net/type2"
+msgstr "輻狀式"
+
+msgid "aim/net/type3"
+msgstr "虛線"
+
+msgid "aim/reloader"
+msgstr "裝填狀態"
+
+msgid "aim/reloaderTimer"
+msgstr "裝填計時器"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "切換到火炮瞄準"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "最近一次使用的"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "俯瞰視角"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "彈道視角"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "瞄準模式自動切換"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "滾動滑鼠滾輪並達到特定縮放值時，準星將切換到「俯瞰視角」或「彈道視角」。"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "瞄準模式自動切換"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "視角平滑縮放"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "顯示射擊路徑指示"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "顯示/隱藏用來提示選擇的砲彈是否將到達瞄準點的指示。這些指示也會顯示砲彈飛行時間。"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "射擊路徑指示"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "顯示鏡頭位置指示"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "顯示/隱藏提示自走炮瞄準視角縮放倍率的指示。"
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "鏡頭位置指示"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "鏡頭操控"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "替代"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "一般"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "在一般鏡頭操控模式下，鏡頭沿上、下、左與右移動。在替代鏡頭操控模式下，鏡頭沿前、後與自走炮位置周圍移動。"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "鏡頭操控"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "縮放指示器"
+
+msgid "alternativeVoices/labels"
+msgstr "戰鬥中的語音訊息"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "戰鬥語音訊息"
+
+msgid "apply_button"
+msgstr "套用"
+
+msgid "autodetectButton"
+msgstr "推薦"
+
+msgid "autodetectButton/description"
+msgstr "為您電腦決定最理想的影像品質。\n\n這可能要花上一些時間。"
+
+msgid "battlecomm/enableCommendations"
+msgstr "在戰鬥中收到稱讚通知"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "顯示個人命令"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "在隊伍面板指出通訊"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "在地圖上顯示地點標示"
+
+msgid "battlecomm/showMarkers"
+msgstr "在隨機戰鬥顯示基本標示"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "顯示永久標示"
+
+msgid "borderlessSize"
+msgstr "視窗化 (無邊界)"
+
+msgid "borderlessSize/description"
+msgstr "視窗化 (無邊界)"
+
+msgid "cancel_button"
+msgstr "取消"
+
+msgid "chat/censorshipMessages"
+msgstr "過濾聊天訊息下的髒話"
+
+msgid "chat/chatContactsListOnly"
+msgstr "只接收來自聯絡人名單的訊息"
+
+msgid "chat/disableBattleChat"
+msgstr "關閉與隊友聊天"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "記住鏡頭與頻道視窗的位置"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "記住鏡頭與其它視窗的位置"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "在車庫裡只接受好友名單中玩家的邀請"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "接收公會通知"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "接受好友請求"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "在戰鬥中接受加入裝甲排的邀請"
+
+msgid "chat/removeSpam"
+msgstr "隱藏垃圾訊息"
+
+msgid "chat/showDateMessage"
+msgstr "訊息中顯示日期"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "當玩家上線/離線時通知"
+
+msgid "chat/showTimeMessage"
+msgstr "訊息中顯示時間"
+
+msgid "colorCorrection"
+msgstr "色彩調整"
+
+msgid "colorCorrectionBtn/label"
+msgstr "配置"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "自訂設定"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "亮度"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "對比度"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "飽和度"
+
+msgid "colorSettings/tab/default"
+msgstr "預設"
+
+msgid "colorSettings/tab/filters"
+msgstr "預設過濾"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "過濾強度"
+
+msgid "colorSettings/view/after"
+msgstr "之後"
+
+msgid "colorSettings/view/before"
+msgstr "之前"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "關閉"
+
+msgid "colorSettings/view/description"
+msgstr "選擇其中一個影像調整選項"
+
+msgid "colorSettings/view/header"
+msgstr "色彩調整"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "重置"
+
+msgid "colorSettings/view/subTitle"
+msgstr "影像調整選項"
+
+msgid "cursor/ArcadeTitle"
+msgstr "一般模式"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "裝甲解析儀"
+
+msgid "cursor/ArtyTitle"
+msgstr "自走炮"
+
+msgid "cursor/ContourTitle"
+msgstr "輪廓顯示"
+
+msgid "cursor/ServerAim"
+msgstr "開啟伺服器準星"
+
+msgid "cursor/SnipperTitle"
+msgstr "狙擊模式"
+
+msgid "cursor/contour/type0"
+msgstr "標準"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "瞄準敵方車輛時，會顯示車輛的完整輪廓，包括無法與砲彈互動的非裝甲部位。"
+
+msgid "cursor/contour/type1"
+msgstr "簡化"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "瞄準敵方車輛時，會顯示車輛的部分輪廓，僅包括可與砲彈互動的裝甲部位。"
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "不可穿透的區域"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "無"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "填充"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "紋理"
+
+msgid "cursor/contourLabel"
+msgstr "輪廓顯示類型"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "可穿透的區域"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "無"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "填充"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "紋理"
+
+msgid "cursor/overlapContour"
+msgstr "障礙物渲染"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "開啟渲染可能會降低效能。"
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "瞄準敵方車輛時，顯示會影響砲彈射擊的障礙物。\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "障礙物渲染"
+
+msgid "cursor/overlapContourLabel"
+msgstr "障礙物渲染"
+
+msgid "cursorTitle"
+msgstr "準星"
+
+msgid "defaultBtn"
+msgstr "預設"
+
+msgid "defaultNamePrefix"
+msgstr "玩家"
+
+msgid "dynamicCamera"
+msgstr "開啟動態鏡頭"
+
+msgid "dynamicFov"
+msgstr "動態 FoV"
+
+msgid "dynamicFov/description"
+msgstr "動態 FoV 可讓您設定一般瞄準下的最小與最大視角角度。\n\n當鏡頭從車輛上拉遠時，使用的是最大角度。\n\n而拉近到車輛上時，則使用的是最小角度。"
+
+msgid "dynamicRenderer"
+msgstr "3D 渲染解析度"
+
+msgid "dynamicRenderer/description"
+msgstr "決定遊戲場景的品質與細節。\n\n在單場戰鬥中的 3D 渲染解析度可透過使用 [RShift +] 與 [RShift -] 來變更。不會影響到介面。\n\n降低這個參數可以提高使用低階顯示卡電腦的遊戲效能。"
+
+msgid "edgeDetectAA"
+msgstr "邊緣反鋸齒"
+
+msgid "feedBack"
+msgstr "戰鬥通知"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "地圖邊界"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "受到您震盪後的傷害"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "基地佔領點數"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "佔領點數重置"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "阻擋傷害"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "引發敵方車輛火災"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "嚴重傷害"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "偵察"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "偵察傷害"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "射擊造成的傷害"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "摧毀敵方車輛"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "衝撞造成的傷害"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "摧毀履帶"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "事件名稱"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "重傷"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "傷害"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "在戰鬥中顯示"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "車輛資訊"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "碰撞傷害"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "所有具觸發式效果的歷練"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "戰鬥中會顯示\n最近的三個事件"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "戰鬥事件"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "通知"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "事件"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "乘員歷練"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "受到傷害"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "戰鬥表現"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "受到傷害"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "隱藏地圖邊界可能會造成戰鬥時迷失方向。"
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "按下 Alt 時"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "始終突顯"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "不要突顯"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "接近時"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "額外突顯"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "虛線"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "不要顯示"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "邊界類型"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "牆壁"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "開火方向指示器"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "友軍傷害"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "傷害量"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "擋下砲彈"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "重傷\n您的車輛"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "受到傷害"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "配件受損"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "資訊"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "顯示動畫"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "傷害量"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "動態指示器"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "車輛資訊"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "在戰鬥中顯示"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "所有"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "友軍傷害"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "重傷"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "重傷除外"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "進階"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "一般"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "類型"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "記錄"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "在您震盪下造成"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "裝甲阻擋傷害"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "在您協助下造成的傷害"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "由您造成的傷害"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "永遠顯示"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "按下 Alt 鍵來顯示"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "不要顯示"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "詳細傷害"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "所有事件在底部"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "受到傷害在頂部"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "事件的位置"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "所有事件"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "事件類型"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "受到傷害"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "戰鬥表現"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "不推薦在低解析度下\n開啟此設定"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "大致傷害"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "詳細傷害的資訊區塊。會顯示完整的戰鬥效率資訊。"
+
+msgid "feedback/tab/eventsInfo"
+msgstr "戰鬥事件"
+
+msgid "feedback/tab/questsProgress"
+msgstr "戰鬥報告與任務"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "戰績"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "任務詳情"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "依階級顯示車輛圖示"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "顯示隊伍血量條"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "顯示隊伍血量差"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "顯示隊伍血量數"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "顯示全部"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "只顯示進度"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "轉換鍵"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "不要顯示"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "一般"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "顯示任務"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "視野範圍 (FoV)"
+
+msgid "fov/description"
+msgstr "遊戲鏡頭的可視範圍。\n\n95° 是正常 FoV (視野範圍)。FoV 越小會越接近顯示的物體，同時減少周遭的視野。\n\n不會影響到遊戲的效能。"
+
+msgid "game/anonymizer"
+msgstr "在戰鬥中隱匿您的暱稱"
+
+msgid "game/battleLoadingInfo"
+msgstr "戰鬥載入畫面上的提示"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "小地圖"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "僅文字"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "圖解提示"
+
+msgid "game/battlePanelSettings"
+msgstr "戰鬥介面"
+
+msgid "game/carouselType"
+msgstr "車輛面板"
+
+msgid "game/carouselType/double"
+msgstr "雙層"
+
+msgid "game/carouselType/single"
+msgstr "單層"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "當滑鼠懸停在車庫車位上時顯示統計資料"
+
+msgid "game/commanderCamEnabled"
+msgstr "開啟戰術視角"
+
+msgid "game/customizationDisplayType"
+msgstr "在戰鬥中顯示的自訂要素"
+
+msgid "game/customizationDisplayType/all"
+msgstr "史實、非史實與虛構"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "史實"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "史實與非史實"
+
+msgid "game/displayPlatoonMembers"
+msgstr "在車庫中顯示裝甲排成員的車輛"
+
+msgid "game/doubleCarousel/label"
+msgstr "雙層車輛面板"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "自適應"
+
+msgid "game/doubleCarouselType/small"
+msgstr "簡約"
+
+msgid "game/dynamicCamera"
+msgstr "開啟動態鏡頭"
+
+msgid "game/enableBattleNotifier"
+msgstr "在聊天中顯示前一場戰鬥的結果"
+
+msgid "game/enableMortalPostEffect"
+msgstr "死亡模式下開啟後製特效"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "開啟狙擊模式下的光學效果"
+
+msgid "game/enableRepairTimer"
+msgstr "顯示受損配件的修理時間"
+
+msgid "game/enableSpeedometer"
+msgstr "顯示輪式車輛的車速表"
+
+msgid "game/enableVoIP"
+msgstr "語音聊天"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "戰鬥通訊"
+
+msgid "game/fieldset/headerChat"
+msgstr "聊天"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "小地圖"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "車輛圖示"
+
+msgid "game/hangarCamCheckbox"
+msgstr "移動滑鼠指標時的車庫鏡頭動畫效果"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "啟動車庫鏡頭旋轉的閒置時間為"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "車庫鏡頭動畫效果"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "永不"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 秒"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 秒"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 秒"
+
+msgid "game/horStabilizationSnp"
+msgstr "狙擊模式下的水平穩定度"
+
+msgid "game/hullLockEnabled"
+msgstr "開啟狙擊模式下的自動車身鎖定"
+
+msgid "game/increasedZoom/base"
+msgstr "開啟 %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " 與 "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "遊戲啟動後顯示伺服器選擇"
+
+msgid "game/minimapDrawRange"
+msgstr "顯示繪製圓圈"
+
+msgid "game/minimapGroupTitle"
+msgstr "小地圖"
+
+msgid "game/minimapMaxViewRange"
+msgstr "顯示最高可視範圍圓圈"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "顯示近發偵察圓圈"
+
+msgid "game/minimapViewRange"
+msgstr "顯示可視範圍圓圈"
+
+msgid "game/newbeeTipsTitle"
+msgstr "提示"
+
+msgid "game/newbieBattleHints"
+msgstr "開啟隨機戰鬥中的初學者提示"
+
+msgid "game/newbiePrebattleHints"
+msgstr "開啟戰鬥載入畫面的初學者提示"
+
+msgid "game/optimizeGraphics"
+msgstr "最佳化介面畫質"
+
+msgid "game/playersPanelState/large"
+msgstr "完整顯示"
+
+msgid "game/playersPanelState/medium"
+msgstr "一般"
+
+msgid "game/playersPanelState/none"
+msgstr "不顯示"
+
+msgid "game/playersPanelState/short"
+msgstr "簡單顯示"
+
+msgid "game/postmortemMode"
+msgstr "陣亡回顧模式"
+
+msgid "game/postmortemMode/analysis"
+msgstr "顯示您車輛遭摧毀當下的回顧（詳細）"
+
+msgid "game/postmortemMode/enemy"
+msgstr "顯示摧毀您車輛的敵方車輛"
+
+msgid "game/postmortemMode/self"
+msgstr "顯示您的車輛"
+
+msgid "game/postmortemMode/simple"
+msgstr "顯示您車輛遭摧毀當下的回顧（精簡）"
+
+msgid "game/ppShowLevels"
+msgstr "顯示車輛階級"
+
+msgid "game/ppShowTypes"
+msgstr "顯示車輛類型"
+
+msgid "game/ppStartStateLabel"
+msgstr "類型"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "開啟車長視角"
+
+msgid "game/replayEnabled"
+msgstr "開啟戰鬥錄影"
+
+msgid "game/replayEnabled/all"
+msgstr "所有"
+
+msgid "game/replayEnabled/last"
+msgstr "最後一場"
+
+msgid "game/replayEnabled/none"
+msgstr "否"
+
+msgid "game/showArtyHitOnMap"
+msgstr "顯示自走炮砲彈將命中的區域"
+
+msgid "game/showDamageIcon"
+msgstr "未造成傷害時顯示通知"
+
+msgid "game/showDogTag"
+msgstr "顯示兵籍牌"
+
+msgid "game/showDogTagToKiller"
+msgstr "顯示您套用的自訂兵籍牌"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "顯示全毀車輛資訊"
+
+msgid "game/showKillersDogTag"
+msgstr "顯示擊毀您車輛之玩家的兵籍牌"
+
+msgid "game/showLanguageBar"
+msgstr "顯示語系控制台"
+
+msgid "game/showMarksOnGun"
+msgstr "顯示卓越印記"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "顯示您的動態兵籍牌"
+
+msgid "game/showSectorOnMap"
+msgstr "顯示自走炮扇形射界"
+
+msgid "game/showVectorOnMap"
+msgstr "顯示鏡頭的方向束"
+
+msgid "game/showVehModelsOnMap"
+msgstr "開啟小地圖延伸功能"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "按下 Alt 時"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "永遠"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "永不"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "顯示小地圖上的車輛血量"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "按下 Alt 時"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "永遠"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "永不"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "顯示隊伍面板上的車輛血量"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "按下 Alt 時"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "永遠"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "永不"
+
+msgid "game/showVehicleIcon"
+msgstr "顯示車輛圖示"
+
+msgid "game/showVehicleLevel"
+msgstr "顯示車輛階級"
+
+msgid "game/showVehiclesCounter"
+msgstr "顯示車輛圖示於戰績面板上"
+
+msgid "game/showVictimsDogTag"
+msgstr "顯示您擊毀之敵人的兵籍牌"
+
+msgid "game/sniperModeByShift"
+msgstr "限制切換狙擊模式為 Shift 鍵"
+
+msgid "game/sniperZoom"
+msgstr "偏好的狙擊模式倍率"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "最近一次使用的"
+
+msgid "game/switchEquipment"
+msgstr "在載入頁面切換配置"
+
+msgid "game/w2gtEnable"
+msgstr "在小地圖上顯示戰鬥區域"
+
+msgid "gameTitle"
+msgstr "一般"
+
+msgid "gameplay/devMaps"
+msgstr "在具隨機事件的地圖上遊玩"
+
+msgid "gameplay/nations"
+msgstr "對抗"
+
+msgid "gamma"
+msgstr "伽瑪值"
+
+msgid "gammaBtn/label"
+msgstr "配置"
+
+msgid "gammaWizard/apply"
+msgstr "套用"
+
+msgid "gammaWizard/cancel"
+msgstr "取消"
+
+msgid "gammaWizard/closeBtn"
+msgstr "關閉"
+
+msgid "gammaWizard/default"
+msgstr "預設"
+
+msgid "gammaWizard/description"
+msgstr "移動滑動條直到背景與標誌達到同樣的亮度。閉上其中一眼或遠離您的顯示器，來使圖像細節幾乎看不見。"
+
+msgid "gammaWizard/header"
+msgstr "伽瑪值"
+
+msgid "gammaWizard/title"
+msgstr "伽瑪值設定"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "允許在遊戲中調整亮度，來達到最佳的\n畫面圖像品質。這個選項目的在於抵消\n顯示卡驅動程式影響，以及會影響到\n遊戲視覺品質的顯示設定。"
+
+msgid "gammaWizard/tooltip/header"
+msgstr "伽瑪值"
+
+msgid "graficTitle"
+msgstr "畫質"
+
+msgid "graphics/block/effects"
+msgstr "效果"
+
+msgid "graphics/block/greenery"
+msgstr "植被"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "地形與水體"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "光照與後處理"
+
+msgid "graphics/block/main"
+msgstr "主要"
+
+msgid "graphics/tabAdvanced"
+msgstr "細節"
+
+msgid "graphics/tabScreen"
+msgstr "螢幕"
+
+msgid "graphicsQuality"
+msgstr "畫面品質"
+
+msgid "graphicsQuality/description"
+msgstr "決定整體的影像品質。決定「細節」頁中的參數。\n\n降低畫面品質可以：\n• 提高遊戲的效能\n• 造成客戶端與伺服端之間的景色顯示不同步。\n\n只有當電腦效能低落的情況下才使用最低貼圖品質。"
+
+msgid "graphicsQualityHDSD"
+msgstr "客戶端類型"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD 客戶端已安裝"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "一般 (SD) 客戶端已安裝"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "一般客戶端──不含最高貼圖紋理品質的完整遊戲。\n\nHD 客戶端──含最高貼圖紋理品質的完整遊戲。需要的磁碟空間比一般客戶端多。"
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "客戶端類型"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD 客戶端──含最高貼圖紋理品質的完整遊戲。需要的磁碟空間比一般客戶端多。\n\n一般客戶端 (SD)──不含最高貼圖紋理品質的完整遊戲。"
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "最高 (SD) 和極高 (SD) 畫面品質不提供最高值的貼圖品質參數。想要設置最高畫面品質，請在遊戲啟動器中切換到 HD 客戶端。"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "非等方性 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "非等方性 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "非等方性 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "非等方性 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "雙線性"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "自訂"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "1940 年代電影底片"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "高對比"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "增強"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "遠"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "一般"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "高"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "低"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "非常低"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "最大"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "最大 (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "中"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "最低"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "柔和"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "近"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "關閉"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "關閉"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "開"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "簡化"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "增強"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "點"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "彩色相片"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "隨機"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "標準"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "深色調"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "柔軟色調"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "三線性"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "極高"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "極高 (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "非常高"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "非常高"
+
+msgid "igbHardwareAcceleration"
+msgstr "瀏覽器硬體加速"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "當此設定開啟時，將使用 GPU 渲染網頁內容，而非 CPU。\n\n若您在渲染某些視窗的內容時遭遇問題，可關閉此設定。\n\n變更將於重新啟動遊戲後套用。"
+
+msgid "interfaceScale"
+msgstr "介面縮放"
+
+msgid "interfaceScale/attention"
+msgstr "功能尚處於測試階段；\n它並不會影響到遊戲的效能。"
+
+msgid "interfaceScale/body"
+msgstr "當遊戲畫面/視窗最大化時，\n自動縮放介面元素。"
+
+msgid "interfaceScale/description"
+msgstr "當遊戲畫面/視窗最大化時，自動縮放介面元素。"
+
+msgid "interfaceScale/header"
+msgstr "介面縮放"
+
+msgid "interfaceScale/warning"
+msgstr "功能尚處於測試階段；它並不會影響到遊戲的效能。"
+
+msgid "interfaceScaleDisabled"
+msgstr "介面縮放"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "僅適用於 4K 顯示。"
+
+msgid "interfaceScaleDisabled/body"
+msgstr "當遊戲畫面/視窗最大化時，\n自動縮放介面元素。"
+
+msgid "interfaceScaleDisabled/description"
+msgstr "當遊戲畫面/視窗最大化時，自動縮放介面元素。"
+
+msgid "interfaceScaleDisabled/header"
+msgstr "介面縮放"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "僅適用於 4K 顯示。"
+
+msgid "isColorBlind"
+msgstr "色盲模式"
+
+msgid "isColorBlind/description"
+msgstr "適合色覺辨認障礙者所使用的配色。"
+
+msgid "keyboard/backDraftInvert"
+msgstr "反轉倒置"
+
+msgid "keyboard/keyboard"
+msgstr "鍵盤"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "了解！"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "切換準星模式"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "鎖定車身 / 切換模式"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "返回"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "返回"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "「手煞車」"
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "向下"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "向左"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "向右"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "向上"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "雙管齊射"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "撤退！"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "射擊"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "前進"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "前進"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "放棄車輛 (於前線)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "需要支援！"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "指出位置"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "指出活躍目標"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "消耗品 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "消耗品 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "消耗品 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "消耗品 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "消耗品 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "消耗品 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "消耗品 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "消耗品 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "消耗品 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "消耗品 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "左轉"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "自動瞄準"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "取消自動瞄準"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "不行！"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "按鍵發話"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "裝填砲管"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "裝填中！"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "右轉"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "隱藏戰鬥介面"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "個人儲備啟用"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "個人任務的進度"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "顯示命令選單/確認命令"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "縮小"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "放大"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "特殊能力"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "停下並射擊"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "謝謝您！"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "開關「裝甲解析儀」"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "彈道視角"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "設定音源訊號"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "隱藏/顯示"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "開啟/關閉動態裝甲排中的語音聊天"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "鏡頭"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "巡航控制"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "消耗品"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "射擊"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "小地圖"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "移動"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "訊息"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "隊伍通訊"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "其他"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "語音聊天"
+
+msgid "keyboard/mouse"
+msgstr "滑鼠"
+
+msgid "keyboardTitle"
+msgstr "控制"
+
+msgid "limitedUI/desc"
+msgstr "車庫中隱藏之介面元素的逐步顯示"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "關閉"
+
+msgid "marker/AllyTitle"
+msgstr "我方隊伍"
+
+msgid "marker/DeadTitle"
+msgstr "被擊毀"
+
+msgid "marker/EnemyTitle"
+msgstr "敵方隊伍"
+
+msgid "marker/aimMarker2D"
+msgstr "自動瞄準指示器"
+
+msgid "marker/alt"
+msgstr "轉換鍵"
+
+msgid "marker/base"
+msgstr "預設"
+
+msgid "marker/damage"
+msgstr "受到的傷害"
+
+msgid "marker/dead"
+msgstr "顯示全毀的車輛"
+
+msgid "marker/hp"
+msgstr "車輛血量"
+
+msgid "marker/hp/type0"
+msgstr "百分比 %"
+
+msgid "marker/hp/type1"
+msgstr "剩餘血量 / 總血量"
+
+msgid "marker/hp/type2"
+msgstr "剩餘血量"
+
+msgid "marker/hp/type3"
+msgstr "隱藏"
+
+msgid "marker/hpIndicator"
+msgstr "血量條"
+
+msgid "marker/icon"
+msgstr "車輛圖示"
+
+msgid "marker/level"
+msgstr "車輛階級"
+
+msgid "marker/level/tooltip/body"
+msgstr "當開啟此設定時，車輛上方會顯示階級。\n\n在大逃殺中，將會顯示車輛當前的等級。"
+
+msgid "marker/level/tooltip/header"
+msgstr "車輛階級"
+
+msgid "marker/name"
+msgstr "車輛名稱"
+
+msgid "marker/name/type2"
+msgstr "隱藏"
+
+msgid "marker/nickname"
+msgstr "玩家名稱"
+
+msgid "markerTitle"
+msgstr "圖示"
+
+msgid "minimap/labels/alpha"
+msgstr "小地圖透明度"
+
+msgid "minimap/labels/size"
+msgstr "最大尺寸"
+
+msgid "monitor"
+msgstr "螢幕"
+
+msgid "monitor/description"
+msgstr "請為遊戲選擇一個主要的顯示器。"
+
+msgid "mouse/sensitivity/art"
+msgstr "火炮瞄準"
+
+msgid "mouse/sensitivity/art2"
+msgstr "彈道視角"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "自由視角"
+
+msgid "mouse/sensitivity/header"
+msgstr "靈敏度"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "水平反轉"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "垂直反轉"
+
+msgid "mouse/sensitivity/main"
+msgstr "一般瞄準"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "狙擊瞄準"
+
+msgid "mouse/startDist"
+msgstr "鏡頭位置"
+
+msgid "ok_button"
+msgstr "確定"
+
+msgid "otherSettings/fieldset/header"
+msgstr "環境元素音效"
+
+msgid "otherSettings/labels/bulb"
+msgstr "第六感啟用音效"
+
+msgid "otherTitle"
+msgstr "其他"
+
+msgid "physicsQuality"
+msgstr "物理音效品質"
+
+msgid "refreshRate"
+msgstr "顯示器更新頻率"
+
+msgid "refreshRate/default"
+msgstr "預設"
+
+msgid "refreshRate/description"
+msgstr "遊戲的顯示器更新頻率。\n\n與顯示器更新頻率不匹配會造成螢幕閃爍的問題。\n\n不會影響到遊戲的效能。"
+
+msgid "resolution"
+msgstr "螢幕解析度"
+
+msgid "resolution/description"
+msgstr "全螢幕模式中的橫向與縱向螢幕解析度。解析度越高越能提高影像的品質。若全螢幕模式中的解析度設定與當前顯示器解析度不匹配，則會造成影像扭曲。\n\n提高這個參數值會增加顯示卡的負載以及降低遊戲的效能。\n\n顯示卡的負載可以透過設定 3D 渲染解析度來降低。"
+
+msgid "restartNewbieBattleHints"
+msgstr "重置初學者提示"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "重置初學者提示紀錄，可再次顯示已出現過的提示。"
+
+msgid "screenMode"
+msgstr "遊戲模式"
+
+msgid "screenMode/borderless"
+msgstr "視窗化 (無邊界)"
+
+msgid "screenMode/description"
+msgstr "可在全螢幕、視窗化及視窗化 (無邊界) 遊戲模式間切換。視窗化遊戲模式將會降低遊戲的效能。"
+
+msgid "screenMode/fullscreen"
+msgstr "全螢幕"
+
+msgid "screenMode/label"
+msgstr "模式："
+
+msgid "screenMode/windowed"
+msgstr "視窗化"
+
+msgid "smoothing/description"
+msgstr "決定遊戲場景中，遊戲物件的線條與輪廓額外處理程度。減少鋸齒效果。讓物件的輪廓看起來更為自然。"
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "一般"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "使用者音效"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "種類 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "種類 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "使用者音效"
+
+msgid "sound/dynamicRange/label"
+msgstr "動態幅度"
+
+msgid "sound/fieldset/header"
+msgstr "音量"
+
+msgid "sound/players_notifications"
+msgstr "來自其他玩家的通知"
+
+msgid "sound/presets/title"
+msgstr "預設"
+
+msgid "sound/soundModes/U01"
+msgstr "使用者 1"
+
+msgid "sound/soundModes/U02"
+msgstr "使用者 2"
+
+msgid "sound/soundModes/U03"
+msgstr "使用者 3"
+
+msgid "sound/soundModes/U04"
+msgstr "使用者 4"
+
+msgid "sound/soundModes/default"
+msgstr "標準"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "車長"
+
+msgid "sound/special/field/set"
+msgstr "遊戲事件音量"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "重新載入裝置"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "結束測試"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "開始測試"
+
+msgid "sound/vivox/fade_volume"
+msgstr "聊天時的環境音量"
+
+msgid "sound/vivox/master_volume"
+msgstr "語音聊天音量"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "麥克風靈敏度"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Vivox 測試"
+
+msgid "soundTitle"
+msgstr "聲音"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "自動選擇"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "2.0/2.1 系統"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "5.1 系統"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "7.1 系統"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "耳機"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "中置"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "左置"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "左後置"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "左前置"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "左側置"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "右置"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "右後置"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "右前置"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "右側置"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "重低音"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "膝上型電腦"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "聲音測試："
+
+msgid "sounds/acousticType/testButton"
+msgstr "測試聲音"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "語音訊息取決於車輛的國家及車長的性別"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "車長"
+
+msgid "sounds/altVoice/default/body"
+msgstr "遊戲客戶端語言的男性語音"
+
+msgid "sounds/altVoice/default/header"
+msgstr "標準"
+
+msgid "sounds/ambient"
+msgstr "環境"
+
+msgid "sounds/arena"
+msgstr "戰鬥中的音樂"
+
+msgid "sounds/artyBulbVoices"
+msgstr "聲音偵測"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "從中選擇一種聲音偵測啟用音效。想要使用自製的音效，請重新命名您的 .mp3 檔的檔名為「soundExploring」並將其移動到 res/audioww 資料夾下。"
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "聲音偵測啟用音效"
+
+msgid "sounds/bassBoost"
+msgstr "低音增強"
+
+msgid "sounds/bassBoost/description"
+msgstr "增強遊戲的低音部分並讓主要音量保持不變。依照選擇的音響系統 (揚聲器、耳機、或膝上型電腦)，該模式的實行方式可能會有所不同。"
+
+msgid "sounds/bulbVoices"
+msgstr "第六感"
+
+msgid "sounds/bulbVoices/description"
+msgstr "從中選擇一種第六感啟用音效。想要使用自製的音效，請重新命名您的 *.mp3 檔的檔名為「sixthSense」並把它移動到 ..\\res\\audioww 資料夾下。"
+
+msgid "sounds/effects"
+msgstr "效果"
+
+msgid "sounds/gui"
+msgstr "介面"
+
+msgid "sounds/hangar"
+msgstr "車庫中的音樂"
+
+msgid "sounds/masterVolume"
+msgstr "主要音量"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "開啟聲音"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "關閉遊戲音效可以提高整體遊戲效能。您必須要重新啟動遊戲客戶端來套用變更。"
+
+msgid "sounds/nightMode"
+msgstr "夜間模式"
+
+msgid "sounds/nightMode/description"
+msgstr "減少音量差異、降低尖銳的聲音、以及最小化遊戲的低音部分，為深夜遊戲提供舒適且輕柔的聲音環境。"
+
+msgid "sounds/physicsQuality/attention"
+msgstr "開啟此功能可能會影響效能。"
+
+msgid "sounds/physicsQuality/body"
+msgstr "控制物理音效的品質。\n\n模擬聲音如何繞過障礙物並在地圖表面傳遞。\n\n運用地圖幾何學生成戰車聲響在鄰近物件反彈的早期反射音。\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "物理音效品質"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "關閉"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "高"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "低"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "中"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "推薦"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "為您電腦決定最理想的物理音效品質。\n\n這可能要花上一些時間。"
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "推薦"
+
+msgid "sounds/sixthSense/body"
+msgstr "自訂聲音。請把 sixthSense.mp3 檔案放到 res/audioww 資料夾。"
+
+msgid "sounds/sixthSense/header"
+msgstr "自訂"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "2.0/2.1 音響系統"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "將遊戲音效調整為適合外置的成對全聲域揚聲器 (2.0) 或成對高音揚聲器 + 一件低音揚聲器 (2.1)。"
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "2.0/2.1 音響系統"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "5.1 系統"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "將遊戲音效的定位方式調整為適合 5.1 多聲道系統中的外置揚聲器及重低音。"
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "5.1 系統"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "7.1 系統"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "將遊戲音效調整為適合 7.1 多聲道系統中的外置揚聲器及重低音。"
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "7.1 系統"
+
+msgid "sounds/soundDevice/auto"
+msgstr "自動選擇"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "自動確定作業系統中所指定的音效配置設定。"
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "自動選擇"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "耳機"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "將遊戲音效調整為適合耳機。"
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "耳機"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "膝上型電腦"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "使用了 2.0/2.1 音響系統預設的定位方式，但會將遊戲音效調整為盡量適合讓小型膝上型電腦揚聲器以更高的音質來播放。"
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "膝上型電腦"
+
+msgid "sounds/soundQuality"
+msgstr "低品質"
+
+msgid "sounds/soundQuality/description"
+msgstr "降低聲音品質可以提高低階電腦的整體遊戲效能。開啟此模式會大幅降低同時處理的聲道數。"
+
+msgid "sounds/speakers/back/body"
+msgstr "左/右後置揚聲器的聲音測試。"
+
+msgid "sounds/speakers/back/header"
+msgstr "左/右後置揚聲器"
+
+msgid "sounds/speakers/center/body"
+msgstr "中置揚聲器的聲音測試。"
+
+msgid "sounds/speakers/center/header"
+msgstr "中置揚聲器"
+
+msgid "sounds/speakers/front/body"
+msgstr "左/右前置揚聲器的聲音測試。"
+
+msgid "sounds/speakers/front/header"
+msgstr "左/右前置揚聲器"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "在 2.0/2.1 系統中，重低音是以選擇性裝置的方式提供。沒有揚聲器就無法進行測試。"
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "選擇性重低音"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "左/右側置揚聲器的聲音測試。"
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "左/右側置揚聲器"
+
+msgid "sounds/speakers/sides/body"
+msgstr "左/右置揚聲器的聲音測試。"
+
+msgid "sounds/speakers/sides/header"
+msgstr "左/右置揚聲器"
+
+msgid "sounds/speakers/sub/body"
+msgstr "重低音的聲音測試。"
+
+msgid "sounds/speakers/sub/header"
+msgstr "重低音"
+
+msgid "sounds/subtitles"
+msgstr "字幕"
+
+msgid "sounds/tabCommon"
+msgstr "主要音效"
+
+msgid "sounds/tabSpecial"
+msgstr "遊戲事件"
+
+msgid "sounds/tabVivox"
+msgstr "語音聊天"
+
+msgid "sounds/vehicles"
+msgstr "車輛"
+
+msgid "sounds/voiceNotification"
+msgstr "語音通知"
+
+msgid "title"
+msgstr "設定"
+
+msgid "tripleBuffered"
+msgstr "三重緩衝"
+
+msgid "tripleBuffered/description"
+msgstr "減少畫面更新時的撕裂 (僅適用於開啟垂直同步時)"
+
+msgid "vertSync"
+msgstr "垂直同步"
+
+msgid "vertSync/Off"
+msgstr "關閉"
+
+msgid "vertSync/On"
+msgstr "打開"
+
+msgid "vertSync/description"
+msgstr "畫面頻率與顯示器更新頻率的同步化。\n\n每秒 60 幀就是畫面頻率的上限。在影像晃動或是螢幕下方較上方影像延遲時使用。"
+
+msgid "voice_chat/PTT"
+msgstr "按鍵發話"
+
+msgid "voice_chat/fieldset/header"
+msgstr "音量"
+
+msgid "voice_chat/header/common"
+msgstr "一般"
+
+msgid "voice_chat/header/microphone"
+msgstr "麥克風"
+
+msgid "voice_chat/header/speakers"
+msgstr "耳機"
+
+msgid "voice_chat/microphone"
+msgstr "麥克風"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "麥克風"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "開啟麥克風"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "開啟語音聊天"
+
+msgid "windowSize"
+msgstr "視窗尺寸"
+
+msgid "windowSize/description"
+msgstr "遊戲客戶端視窗的橫向和縱向螢幕解析度。切換為全螢幕模式時，該設定會變更為「螢幕解析度」。"
+
+msgid "windowTitle"
+msgstr "WoT 客戶端"

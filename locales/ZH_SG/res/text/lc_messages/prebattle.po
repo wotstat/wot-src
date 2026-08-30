@@ -1,0 +1,356 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleProgress/hint"
+msgstr "按下%(hintKey)s查看激活的任务"
+
+msgid "buttons/battleSession/leave"
+msgstr "退出"
+
+msgid "companyListView/filterButton/label"
+msgstr "搜索"
+
+msgid "dialogs/buttons/notReady"
+msgstr "未准备"
+
+msgid "dialogs/buttons/ready"
+msgstr "准备！"
+
+msgid "hints/confirmDialog/confirm"
+msgstr "收到！"
+
+msgid "hints/confirmDialog/message"
+msgstr "您已踏上专业坦克手的成长之路！从现在起，战斗加载界面将显示团队阵容，不再显示新手提示。您可以在游戏菜单的设置中重新开启提示。"
+
+msgid "hints/confirmDialog/title"
+msgstr "新的战斗加载界面"
+
+msgid "hints/hint1/description"
+msgstr "留意火炮准星中间的穿透指示器。它的颜色会告诉您敌方装甲的哪些位置可以被击穿。"
+
+msgid "hints/hint1/green/description"
+msgstr "高穿透几率"
+
+msgid "hints/hint1/green/header"
+msgstr "绿色指示器"
+
+msgid "hints/hint1/header"
+msgstr "装甲穿透"
+
+msgid "hints/hint1/red/description"
+msgstr "低穿透几率"
+
+msgid "hints/hint1/red/header"
+msgstr "红色指示器"
+
+msgid "hints/hint10/description"
+msgstr "您战车的火炮总会向屏幕中央转动，但由于转向速度有限，此过程需要一段时间。"
+
+msgid "hints/hint10/header"
+msgstr "火炮准星"
+
+msgid "hints/hint10/penetration/description"
+msgstr "绿色代表敌方装甲的弱点"
+
+msgid "hints/hint10/penetration/header"
+msgstr "穿透指示器"
+
+msgid "hints/hint10/reloading/description"
+msgstr "装填完成时圆圈会完全变成绿色"
+
+msgid "hints/hint10/reloading/header"
+msgstr "火炮装填进度"
+
+msgid "hints/hint10/spread/description"
+msgstr "炮弹会落在圈中的随机位置"
+
+msgid "hints/hint10/spread/header"
+msgstr "火炮散布圈"
+
+msgid "hints/hint12/description"
+msgstr "炮弹必须穿透的装甲厚度取决于射入角度——射入角度是影响炮弹能否击穿装甲的重要因素！"
+
+msgid "hints/hint12/header"
+msgstr "装甲角度"
+
+msgid "hints/hint12/notPenetrated/description"
+msgstr "斜角——装甲更厚"
+
+msgid "hints/hint12/notPenetrated/header"
+msgstr "未击穿"
+
+msgid "hints/hint12/penetrated/description"
+msgstr "直角——装甲更薄"
+
+msgid "hints/hint12/penetrated/header"
+msgstr "击穿"
+
+msgid "hints/hint13/description"
+msgstr "队友间将自动进行无线电通信。如果一名己方战车侦察到敌方战车，其通信范围内的所有队友都将看见那辆敌方战车。"
+
+msgid "hints/hint13/header"
+msgstr "通信"
+
+msgid "hints/hint13/invisible/description"
+msgstr "被物体隐藏"
+
+msgid "hints/hint13/invisible/header"
+msgstr "隐蔽"
+
+msgid "hints/hint13/visible/description"
+msgstr "被己方玩家侦察到"
+
+msgid "hints/hint13/visible/header"
+msgstr "被侦察到"
+
+msgid "hints/hint2/description"
+msgstr "您操控着一辆强大的战车，但其力量的代价是有限的战车和炮塔转向速度，因此请谨慎规划移动路线。"
+
+msgid "hints/hint2/firing"
+msgstr "射击"
+
+msgid "hints/hint2/freeCam"
+msgstr "使用自由视角"
+
+msgid "hints/hint2/header"
+msgstr "战车控制"
+
+msgid "hints/hint2/movement"
+msgstr "移动"
+
+msgid "hints/hint2/turret"
+msgstr "转动炮塔"
+
+msgid "hints/hint3/description"
+msgstr "您可以通过滑动鼠标滚轮或按下Shift键进入狙击模式。"
+
+msgid "hints/hint3/header"
+msgstr "狙击模式"
+
+msgid "hints/hint3/orLabel"
+msgstr "或"
+
+msgid "hints/hint4/description"
+msgstr "击损外部模块不会削减战车的血量，但会降低战车的战斗表现。"
+
+msgid "hints/hint4/header"
+msgstr "重伤"
+
+msgid "hints/hint4/immobilized/description"
+msgstr "履带重伤"
+
+msgid "hints/hint4/immobilized/header"
+msgstr "无法移动"
+
+msgid "hints/hint4/shooting/description"
+msgstr "火炮重伤"
+
+msgid "hints/hint4/shooting/header"
+msgstr "无法射击"
+
+msgid "hints/hint4/view/description"
+msgstr "观察设备重伤"
+
+msgid "hints/hint4/view/header"
+msgstr "视野范围缩小"
+
+msgid "hints/hint5/aid/description"
+msgstr "治疗乘员"
+
+msgid "hints/hint5/aid/header"
+msgstr "急救包"
+
+msgid "hints/hint5/description"
+msgstr "在战斗开始前安装消耗品，以应对模块重伤、乘员受伤和起火的情况。"
+
+msgid "hints/hint5/fire/description"
+msgstr "灭火"
+
+msgid "hints/hint5/fire/header"
+msgstr "灭火器"
+
+msgid "hints/hint5/header"
+msgstr "消耗品"
+
+msgid "hints/hint5/repair/description"
+msgstr "修理受损的模块"
+
+msgid "hints/hint5/repair/header"
+msgstr "修理箱"
+
+msgid "hints/hint6/area"
+msgstr "穿越开阔地形"
+
+msgid "hints/hint6/description"
+msgstr "战车只有在位于敌方视野范围内时才可能被侦察到。植被、地形和物体都会提供额外的隐蔽性。"
+
+msgid "hints/hint6/header"
+msgstr "隐蔽性"
+
+msgid "hints/hint6/invisible"
+msgstr "隐蔽"
+
+msgid "hints/hint6/object"
+msgstr "被物体隐藏"
+
+msgid "hints/hint6/shot"
+msgstr "射击后被侦察到"
+
+msgid "hints/hint6/vegetation"
+msgstr "被植被隐藏"
+
+msgid "hints/hint6/visible"
+msgstr "被侦察到"
+
+msgid "hints/hint7/base"
+msgstr "成功占领敌方基地"
+
+msgid "hints/hint7/description"
+msgstr "获胜的方式有很多种。根据情况采取行动。"
+
+msgid "hints/hint7/header"
+msgstr "胜利条件"
+
+msgid "hints/hint7/orLabel"
+msgstr "或"
+
+msgid "hints/hint7/vehicles"
+msgstr "摧毁所有敌方战车"
+
+msgid "hints/hint7/victory"
+msgstr "胜利！"
+
+msgid "hints/hint8/description"
+msgstr "战车移动时，火炮散布误差更高。保持静止并观察准星周围的火炮散布圈，等到完全瞄准后再射击。"
+
+msgid "hints/hint8/header"
+msgstr "散布误差"
+
+msgid "hints/hint8/high"
+msgstr "35公里/小时"
+
+msgid "hints/hint8/low"
+msgstr "0公里/小时"
+
+msgid "hints/hint9/description"
+msgstr "在某些位置，火炮的角度限制可能会使您无法瞄准敌人。"
+
+msgid "hints/hint9/header"
+msgstr "火炮俯仰角"
+
+msgid "hints/loading"
+msgstr "正在加载"
+
+msgid "hints/manual"
+msgstr "前往游戏菜单的训练中心了解更多信息"
+
+msgid "hints/skip"
+msgstr "按任意键进入战斗"
+
+msgid "labels/company/queue"
+msgstr "队列："
+
+msgid "labels/level"
+msgstr "等级"
+
+msgid "labels/members"
+msgstr "成员：%(openTag)s%(membersCount)d%(closeTag)s/%(maxMembersCount)d"
+
+msgid "labels/player"
+msgstr "玩家"
+
+msgid "labels/sort/byName"
+msgstr "按名称"
+
+msgid "labels/sort/byOrder"
+msgstr "按添加时间"
+
+msgid "labels/sort/byStatus"
+msgstr "按准备状态"
+
+msgid "labels/sort/byVehicles"
+msgstr "按战车类型"
+
+msgid "labels/stats/level"
+msgstr "等级："
+
+msgid "labels/stats/maxPlayers"
+msgstr "玩家："
+
+msgid "labels/stats/sumLevel"
+msgstr "等级总和:"
+
+msgid "labels/stats/totalLevel"
+msgstr "总等级: %(totalLevel)s"
+
+msgid "labels/stats/vehicleLevel"
+msgstr "战车最高等级："
+
+msgid "labels/stats/vehicleSPGLevel"
+msgstr "自行火炮最高等级："
+
+msgid "labels/vehicle"
+msgstr "战车"
+
+msgid "memberList/empty/label"
+msgstr "从队列中选择玩家并将它们分配至常规团队。"
+
+msgid "stats/battleSession/commonLevel"
+msgstr "等级："
+
+msgid "stats/battleSession/required"
+msgstr "需求:"
+
+msgid "stats/battleSession/vehicleType"
+msgstr "类型:"
+
+msgid "switchPeripheryWindow/fort/applySwitchLabel"
+msgstr "规划和发起突击战，需要进入服务器%(server)s。"
+
+msgid "switchPeripheryWindow/fort/description"
+msgstr "正在连接服务器%(server)s，突击战在当前服务器受到限制。"
+
+msgid "switchPeripheryWindow/fort/header"
+msgstr "注意！"
+
+msgid "switchPeripheryWindow/fort/selectServerLabel"
+msgstr "规划和发起突击战，需要进入下列服务器："
+
+msgid "switchPeripheryWindow/ranked/applySwitchLabel"
+msgstr "要进行排位战模式的游戏,请选择另一个服务器。"
+
+msgid "switchPeripheryWindow/ranked/description"
+msgstr "%(server)s服务器现在正处于停战状态。排位战暂停。"
+
+msgid "switchPeripheryWindow/ranked/header"
+msgstr "注意!"
+
+msgid "switchPeripheryWindow/ranked/selectServerLabel"
+msgstr "要进行排位战模式的游戏,请选择另一个服务器:"
+
+msgid "title/battleSession/arenaType"
+msgstr "地图："
+
+msgid "title/battleSession/battlesLimit"
+msgstr "场次/胜场:"
+
+msgid "title/battleSession/clanBattle/startTime"
+msgstr "%(startTime)s，%(peripheryName)s，%(arenaName)s"
+
+msgid "title/battleSession/comment"
+msgstr "描述："
+
+msgid "title/battleSession/header/battleSettings"
+msgstr "战斗设置："
+
+msgid "title/battleSession/header/startTime"
+msgstr "战斗开始:"
+
+msgid "title/battleSession/startTime"
+msgstr "开始时间:"
+
+msgid "title/battleSession/unit"
+msgstr "连队"
+
+msgid "upButton/hint"
+msgstr "点击以加入"

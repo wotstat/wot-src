@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT チーム <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "砲兵射撃"
+
+msgid "attackReason/artillery_sector"
+msgstr "砲兵射撃"
+
+msgid "attackReason/bombers"
+msgstr "空爆"
+
+msgid "battleCommunication/hint/description"
+msgstr "で座標を指定またはマーカーを設置"
+
+msgid "battleCommunication/hint/press"
+msgstr "ショートカット:"
+
+msgid "battleEndWarning/text"
+msgstr "戦闘終了まで残り"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "このプレイヤーからのテキスト/音声メッセージはこの戦闘中は非表示になります。"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "プレイヤーからのメッセージをブロック"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "ブラックリストのプレイヤーからのメッセージはブロックされます。"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "オプション利用不可"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "このプレイヤーからのテキスト/音声メッセージが\n再度表示されるようになります。"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "プレイヤーからのメッセージのブロックを解除"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "戦闘エリアのデータ取得で技術的な問題が発生しました。"
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "このマップでは、この車輌の戦闘エリアのデータをご利用いただけません。"
+
+msgid "battleProgress/hint/description"
+msgstr "でパーソナルミッションを表示"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "主要なキーが未割当"
+
+msgid "battleProgress/hint/press"
+msgstr "ショートカット:"
+
+msgid "battle_notifier/lose"
+msgstr "敗北！"
+
+msgid "battle_notifier/tie"
+msgstr "引き分け！"
+
+msgid "battle_notifier/win"
+msgstr "勝利！"
+
+msgid "bot/boss"
+msgstr "Boss"
+
+msgid "bot/elite"
+msgstr "Elite"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "ダメージ警告"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "エンジン損傷"
+
+msgid "chat_example/affirmative"
+msgstr "了解!"
+
+msgid "chat_example/attack_enemy"
+msgstr "<Enemy Name>への援護射撃を要請する！"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "<Enemy Name>を攻撃する！"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "陣地を占領せよ！"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "陣地を防衛せよ！"
+
+msgid "chat_example/attention_to_cell"
+msgstr "<ミニマップセクター>に注意せよ!"
+
+msgid "chat_example/attention_to_position"
+msgstr "この場所に注意せよ!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "目標群を撃破せよ"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "自車輌を守れ!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "ゾーンを占領せよ"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "目標群を防衛せよ"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "自車輌を守れ!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "ゾーンを防衛せよ"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "ゾーンに増援を送れ"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "ゾーンに増援を送れ"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "ゾーンに増援を送れ"
+
+msgid "chat_example/going_there"
+msgstr "この地点に移動する！"
+
+msgid "chat_example/help_me"
+msgstr "救援を請う！"
+
+msgid "chat_example/help_me_ex"
+msgstr "<味方>、救援を請う！"
+
+msgid "chat_example/negative"
+msgstr "拒否！"
+
+msgid "chat_example/overheated_gun"
+msgstr "主砲が過熱状態! <Reload Time>秒間砲撃できない!"
+
+msgid "chat_example/positive"
+msgstr "了解!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "砲撃準備完了まで残り<装填時間>秒！ 弾倉内の残弾数は<砲弾数>発！"
+
+msgid "chat_example/reloading_gun"
+msgstr "装填中！ 完了まで残り<装填時間>秒！"
+
+msgid "chat_example/reloading_ready"
+msgstr "砲撃準備完了!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "砲撃準備よし！ 弾倉内の残弾数は<砲弾数>発！"
+
+msgid "chat_example/reloading_unavailable"
+msgstr "弾切れ"
+
+msgid "chat_example/spg_aim_area"
+msgstr "<ミニマップセクター>を照準中！"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>、援護する！"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name>、感謝する！"
+
+msgid "chat_example/turn_back"
+msgstr "<味方>、後退せよ！"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "了解!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "%(target)sへの援護射撃を要請する！"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "砲撃準備完了！ %(target)sを攻撃する！"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "弾切れのため射撃不能！ %(target)sへの攻撃を要請する！"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "%(target)sへの砲撃を準備中！ 装填完了まで残り%(reloadTime)d秒！"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "陣地を占領する！"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "陣地%(strArg1)sを占領する！"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "%(target)sを攻撃する！"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "陣地を占領せよ！"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "陣地%(strArg1)sを占領せよ！"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "陣地を防衛せよ！"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "陣地%(strArg1)sを防衛せよ！"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "%(cellName)sに注意せよ!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "目標%(int32Arg1)sを破壊せよ"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "目標%(int32Arg1)sを攻撃する！"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "目標%(int32Arg1)sを防衛せよ！"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "目標%(int32Arg1)sを防衛する！"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "この地点に注意せよ！"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "%(gridId)sに注意せよ"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "陣地を防衛する！"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "陣地%(strArg1)sを防衛する！"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "目標群を破壊せよ!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "時間は充分にある、自車輌を守れ!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "もう時間がない、全力でゾーンを占領せよ!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "目標群を防衛せよ!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "持ちこたえるんだ、自車輌を守れ!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "もう時間がない、全力でゾーンを防衛せよ!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "ゾーン %(strArg1)sを増援せよ！"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "ゾーン %(strArg1)sを増援せよ！"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "ゾーン %(strArg1)sを増援せよ！"
+
+msgid "chat_shortcuts/going_there"
+msgstr "この地点に移動する！"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "%(gridId)sへ移動する"
+
+msgid "chat_shortcuts/help_me"
+msgstr "救援を請う！"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s、救援を請う！"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "目標%(target)sに移動せよ"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "目標%(target)sに移動中！"
+
+msgid "chat_shortcuts/negative"
+msgstr "拒否！"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "主砲が過熱状態! %(floatArg1)d秒間砲撃できない!"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s、了解！"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "砲撃準備完了まで残り%(floatArg1)d秒！ 弾倉内の残弾数は%(int32Arg1)s発！"
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "装填中！ 完了まで残り%(floatArg1)d秒！"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "砲撃準備完了!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "砲撃準備よし！ 弾倉内の残弾数は%(int32Arg1)s発！"
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "弾切れ"
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "この地点を照準中! いつでも砲撃可能!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "%(gridId)sを照準中！ 弾切れのため射撃不能！"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "%(gridId)sを照準中! いつでも砲撃可能！"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "この地点を照準中！ 装填完了まで残り%(reloadTime)d秒！"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "%(gridId)sを照準中！ 装填完了まで残り%(reloadTime)d秒！"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s、援護する！"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s、感謝する！"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s、後退せよ!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "設定に移動"
+
+msgid "commanderCam/hint/description"
+msgstr "ズームアウトで戦術俯瞰視点モードへ移行"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "クールダウン: %(cooldownSeconds)s秒"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "消耗品スロット"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/h"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "車長の負傷により車輌性能が低下"
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "車長"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "操縦手の負傷により移動速度と車体旋回速度が低下"
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "操縦手"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "砲手の負傷により射撃精度が低下"
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "砲手"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "砲手2の負傷により射撃精度が低下"
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "砲手 2"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "装填手の負傷により装填速度が低下"
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "装填手"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "装填手2の負傷により装填速度が低下"
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "装填手 2"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "無線手の負傷により通信範囲が縮小"
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "無線手"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "無線手2の負傷により通信範囲が縮小"
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "無線手 2"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "弾薬庫損傷により装填速度が低下"
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "弾薬庫が誘爆"
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "弾薬庫は正常"
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "サスペンションが損傷"
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "サスペンションの大破により移動不能"
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "サスペンションは正常"
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "エンジンの損傷により出力が低下"
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "エンジンの大破により移動不能"
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "エンジンは正常"
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "燃料タンクが損傷"
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "燃料タンクが大破"
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "燃料タンクは正常"
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "主砲の損傷により射撃精度が低下"
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "主砲の大破により射撃不能"
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "主砲は正常"
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "無線機が損傷"
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "無線機の大破により通信範囲が縮小"
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "無線機は正常"
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "観測装置が損傷"
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "観測装置の大破により視認範囲が縮小"
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "観測装置は正常"
+
+msgid "damage_panel/devices/track/critical"
+msgstr "サスペンションが損傷"
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "サスペンションの大破により移動不能"
+
+msgid "damage_panel/devices/track/normal"
+msgstr "サスペンションは正常"
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "砲塔の損傷により砲塔旋回精度が低下"
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "砲塔の大破により砲塔旋回不能"
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "砲塔は正常"
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "サスペンションが損傷"
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "サスペンションの大破により移動不能"
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "サスペンションは正常"
+
+msgid "danger_zone/indicator"
+msgstr "「危険ゾーン」から脱出して大破を回避せよ！"
+
+msgid "destroyTimer/liftOver"
+msgstr "横転・転覆に対処中…"
+
+msgid "devMaps/hint/description"
+msgstr "でマップの特徴を確認"
+
+msgid "devMaps/hint/press"
+msgstr "ショートカット:"
+
+msgid "devMaps/mapInfo/info"
+msgstr "このマップでは「ランダムイベント」が発生する可能性があります。設定メニューから「ランダムイベント」マップにマッチしないように設定を変更できます。"
+
+msgid "devMaps/mapInfo/text"
+msgstr "「ランダムイベント」が発生するマップ"
+
+msgid "devices/ammo_bay"
+msgstr "弾薬庫"
+
+msgid "devices/chassis"
+msgstr "サスペンション"
+
+msgid "devices/engine"
+msgstr "エンジン"
+
+msgid "devices/fuel_tank"
+msgstr "燃料タンク"
+
+msgid "devices/gun"
+msgstr "主砲"
+
+msgid "devices/left_track"
+msgstr "左履帯"
+
+msgid "devices/radio"
+msgstr "無線機"
+
+msgid "devices/right_track"
+msgstr "右履帯"
+
+msgid "devices/surveing_device"
+msgstr "観測装置"
+
+msgid "devices/track"
+msgstr "%(type)s履帯"
+
+msgid "devices/track/left"
+msgstr "左"
+
+msgid "devices/track/main"
+msgstr "予備"
+
+msgid "devices/track/outer"
+msgstr "主要"
+
+msgid "devices/track/right"
+msgstr "右"
+
+msgid "devices/turret_rotator"
+msgstr "砲塔旋回"
+
+msgid "devices/wheel"
+msgstr "車輪"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "このプレイヤーを小隊に招待できます。\n招待されたプレイヤーは、戦闘中または戦闘終了後に招待を承諾することができます。%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\n注意! 小隊メンバーには正式なプレイヤー名とクラン・タグが表示されます。"
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\n注意! 小隊メンバーには正式なプレイヤー名とクラン・タグが表示されます。"
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "このプレイヤーは小隊に招待することができません。"
+
+msgid "dynamicSquad/ally/received"
+msgstr "小隊への招待を承諾できます。\n小隊は戦闘中に作成されます。"
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "招待を送信しました。\nプレイヤーが招待を承諾すると、戦闘中または戦闘終了後に小隊に加わります。"
+
+msgid "dynamicSquad/enemy/add"
+msgstr "このプレイヤーを小隊に招待できます。\n招待されたプレイヤーは、戦闘中または戦闘終了後に招待を承諾することができます。%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "敵を小隊に招待することはできません。"
+
+msgid "dynamicSquad/enemy/received"
+msgstr "小隊への招待を承諾できます。\n小隊は戦闘終了後に作成されます。"
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "招待を送信しました。\nプレイヤーが招待を承諾すると、戦闘終了後に小隊に加わります。"
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "ショートカット:"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "音声チャットを有効化"
+
+msgid "dynamicSquad/invite"
+msgstr "小隊への招待"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "空爆によるダメージ"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "砲兵射撃によるダメージ"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "主目標によるダメージ"
+
+msgid "efficiencyRibbons/armor"
+msgstr "阻んだダメージ"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "戦闘リザーブによるアシスト"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "発見によるアシスト"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "スタンによるアシスト"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "履帯切断によるアシスト"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "バーサークによるダメージ"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "貢献EXPを取得"
+
+msgid "efficiencyRibbons/burn"
+msgstr "火災を誘発"
+
+msgid "efficiencyRibbons/capture"
+msgstr "陣地を占領中"
+
+msgid "efficiencyRibbons/crits"
+msgstr "重大な損傷を誘発"
+
+msgid "efficiencyRibbons/damage"
+msgstr "射撃によるダメージ"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "戦艦の斉射によるダメージ"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "USS Frankfordによるダメージ"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "地雷によるダメージ"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "自律型攻撃兵器によるダメージ"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "腐蝕弾によるダメージ"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "火炎輪によるダメージ"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "電磁エリアによるダメージ"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "ゾーンによるダメージ"
+
+msgid "efficiencyRibbons/defence"
+msgstr "占領をリセット"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "ゾーンを防衛"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "目標にダメージ"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "目標を破壊"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "目標を防衛"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "ゾーンを占領"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "火災エリアによるダメージ"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "車輌HPが回復"
+
+msgid "efficiencyRibbons/kill"
+msgstr "敵車輌を撃破"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "地雷原によるダメージ"
+
+msgid "efficiencyRibbons/ram"
+msgstr "体当たりによるダメージ"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "火災によるダメージ"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "自律型攻撃兵器によるダメージ"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "腐蝕弾によるダメージ"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "火炎輪によるダメージ"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "地雷によるダメージ"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "酸性ミストによるダメージ"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "電磁エリアによるダメージ"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "重大な損傷が発生"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "射撃によるダメージ"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "自動追尾爆弾によるダメージ"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "体当たりによるダメージ"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "衝撃によるダメージ"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "自動追尾爆弾によるダメージ"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "発見"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "破壊ゾーンによるダメージ"
+
+msgid "efficiencyRibbons/stun"
+msgstr "スタンを誘発"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "車輌を放棄"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "衝撃によるダメージ"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "吹雪"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "火災"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "霧"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "豪雨"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "砂塵嵐"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "煙霧"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "竜巻"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "チームパネルを非表示にします。"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "パネルなし"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Ctrl + Tab でモード切り替え)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "プレイヤー名、撃破数、車輌アイコンを表示します。"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "中パネル 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Ctrl + Tab でモード切り替え)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "撃破数、車輌名、車輌アイコンを表示します。"
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "中パネル 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Ctrl + Tab でモード切り替え)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "撃破数と車輌アイコンを表示します。"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "小パネル"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Ctrl + Tab でモード切り替え)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "自身の、または3つすべてのスポーン・グループの表示を切り替えます。"
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "表示欄の切り替え"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Ctrl + Tab でモード切り替え)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "旗を撃破!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "旗を奪取!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "旗の運搬完了"
+
+msgid "flagNotification/flagInbase"
+msgstr "旗を本部へと運搬せよ"
+
+msgid "flags/timer"
+msgstr "%(time)s 秒..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "秒..."
+
+msgid "grille/status/reload"
+msgstr "装填中…"
+
+msgid "grille/status/speedlimit"
+msgstr "制限速度"
+
+msgid "helpScreen/hint/description"
+msgstr "で車輌の特徴を確認"
+
+msgid "helpScreen/hint/press"
+msgstr "ショートカット:"
+
+msgid "helpScreen/mapbox/description"
+msgstr "でマップの特徴を確認"
+
+msgid "helpScreen/mapbox/press"
+msgstr "ショートカット:"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "で射撃/<font color='#F4B12C'><b>要塞</b></font>モードに切り替え"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "で射撃/<font color='#F4B12C'><b>移動</b></font>モードに切り替え"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "で移動/<font color='#F4B12C'><b>要塞</b></font>モードに切り替え"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "モード切り替え用のキーが未割当"
+
+msgid "helpScreen/pillbox/press"
+msgstr "押す/<font color='#F4B12C'><b>長押し</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "主要なキーが未割当"
+
+msgid "hitMarker/blocked"
+msgstr "主装甲の貫通に失敗"
+
+msgid "hitMarker/critical"
+msgstr "重大な損傷を誘発"
+
+msgid "hitMarker/missArmor"
+msgstr "主装甲への着弾に失敗"
+
+msgid "hitMarker/ricochet"
+msgstr "跳弾"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "追加装甲の貫通に失敗"
+
+msgid "hitMarker/trackBlocked"
+msgstr "履帯の貫通に失敗"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "車輪の貫通に失敗"
+
+msgid "levelProgress/maxLevel"
+msgstr "車輌TIER上限"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "拡張パーツ「%(device)s」により弾薬庫の誘爆を阻止"
+
+msgid "optDeviceResurrection/engine"
+msgstr "拡張パーツ「%(device)s」によりエンジンの大破を阻止"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "拡張パーツ「%(device)s」により燃料タンクの発火を阻止"
+
+msgid "penetration/high"
+msgstr "高"
+
+msgid "penetration/low"
+msgstr "低"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "副条件:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "主条件:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "この戦闘モードで挑戦可能なミッションなし"
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "この車輌タイプで挑戦可能なミッションなし"
+
+msgid "personal_reserves/hint/description"
+msgstr "でパーソナルリザーブを使用"
+
+msgid "personal_reserves/hint/press"
+msgstr "ショートカット:"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "サスペンションの大破により移動不能"
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "搭乗員の負傷により移動不能"
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "エンジンの大破により移動不能"
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "車輌大破により行動不能"
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "搭乗員の負傷により射撃不能"
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "主砲の損傷により射撃不能"
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "射撃不可"
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "主砲の過熱により射撃不能"
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "主砲が装填中"
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "装填の完了中のため使用不可"
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "弾切れにより射撃不能"
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "車輌の大破により射撃不能"
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "エンジンの大破により切り替え不能"
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "主砲の大破により切り替え不能"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "砲弾が残り1発のため切り替え不能"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "「%(name)s」はすでに使用中"
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "「%(name)s」の使用は不要"
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "「%(name)s」はクールダウン中"
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "負傷した搭乗員なし"
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "「%(entity)s」の治療は不要"
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "リザーブは準備中"
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "アビリティーを発動するには「%(name)s」を要占領"
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "車長とモジュールのHPは満タン"
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "全モジュールが正常"
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "「%(entity)s」は正常"
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "補助兵装の射撃ができません。"
+
+msgid "player_messages/ALLY_HIT"
+msgstr "味方 %(entity)s に命中!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "「%(equipment)s」を使用可能"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "砲兵中隊の射撃準備が完了"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "爆撃機の攻撃準備が完了"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "周囲の味方をインスパイアする準備が完了"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "地雷原を設置可能"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "偵察機による偵察行動の準備が完了"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "野戦修理を実行可能"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "発煙弾の発射準備が完了"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "索敵改修の効果を発動可能"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "%(player)s の砲兵中隊が射撃中"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "%(player)s の爆撃機が接近中"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s が「エリア回復」を発動"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s がインスパイアを使用"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s が地雷を設置"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s の偵察機が接近中"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s が野戦修理を実行"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s が煙幕を展開"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s が「索敵改修」の効果を発動"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s が砲兵射撃により大破"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s が砲兵射撃により大破"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s が砲兵射撃により大破"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s が砲兵射撃により大破"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s が砲兵射撃により大破"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s が砲兵射撃により大破"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "自車輌が砲兵射撃により大破"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s が砲兵射撃により大破"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s が砲兵射撃により大破"
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s が空爆により大破"
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s が空爆により大破"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "味方 %(attacker)s が味方 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s が %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "自車輌が味方 %(attacker)s の攻撃により大破"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "味方 %(target)s が大破"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s が %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "敵 %(attacker)s が敵 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "自車輌が敵 %(attacker)s の攻撃により大破"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s が大破"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "味方 %(target)s が大破"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "自車輌が ゾーンにより %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "自車輌がゾーンにより大破"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "火災により「%(device)s」が誘爆"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "%(entity)s の射撃により「%(device)s」が大破"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "味方 %(target)s が味方 %(attacker)s により水没"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(target)s が %(attacker)s により水没"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "自車輌が味方 %(attacker)s により水没"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "味方 %(target)s が水没"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(target)s が %(attacker)s により水没"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "敵 %(target)s が敵 %(attacker)s により水没"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "自車輌が %(attacker)s により水没"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "敵 %(target)s が水没"
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "味方 %(target)s が水没"
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "自車輌が %(target)s に水没を強制"
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "自車輌が水没"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "味方 %(attacker)s が味方 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s が %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "自車輌が味方 %(attacker)s の攻撃により大破"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s が %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "敵 %(attacker)s が敵 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "自車輌が %(attacker)s の攻撃により大破"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "味方 %(target)s が大破"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "自車輌が %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "搭乗員が行動不能"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "搭乗員が %(entity)s の射撃により行動不能"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "味方 %(target)s の搭乗員が味方 %(attacker)s の突き落としにより行動不能"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(target)s の搭乗員が %(attacker)s の突き落としにより行動不能"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "自車輌の搭乗員が味方 %(attacker)s の突き落としにより行動不能"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "味方 %(target)s の搭乗員が行動不能"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(target)s の搭乗員が %(attacker)s の突き落としにより行動不能"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "敵 %(target)s の搭乗員が敵 %(attacker)s の突き落としにより行動不能"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "自車輌の搭乗員が %(attacker)s の突き落としにより行動不能"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "敵 %(target)s の搭乗員が行動不能"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "味方 %(target)s の搭乗員が行動不能"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "自車輌の攻撃により %(target)s の搭乗員が行動不能"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "搭乗員が行動不能"
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "味方 %(target)s が地雷原により大破"
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s が大破"
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "味方 %(attacker)s が地雷原により敵 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "敵 %(attacker)s が地雷原により味方 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "自車輌が 地雷原により敵 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "味方 %(target)s が味方 %(attacker)s に転覆させられ大破"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s が %(target)s を転覆させ撃破"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "自車輌が味方 %(attacker)s により転覆させられ大破"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "味方 %(target)s が転覆し大破"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s が %(target)s を転覆させ撃破"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "敵 %(attacker)s が敵 %(target)s を転覆させ撃破"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "自車輌が %(attacker)s により転覆させられ大破"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "敵 %(target)s が転覆し大破"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "味方 %(target)s が転覆し大破"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "自車輌が %(target)s を転覆させ撃破"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "自車輌が転覆し大破"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "味方 %(attacker)s が体当たりにより味方 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s が体当たりにより %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "自車輌が味方 %(attacker)s の体当たりにより大破"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "味方 %(target)s が体当たり時のダメージにより大破"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s が体当たりにより %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "敵 %(attacker)s が体当たりにより敵 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "自車輌が %(attacker)s の体当たりにより大破"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "敵 %(target)s が体当たり時のダメージにより大破"
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "自車輌が体当たりにより味方 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "自車輌が体当たりにより %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "自車輌が体当たり時のダメージにより大破"
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s が車輌を放棄"
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s が車輌を放棄"
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "自車輌がゾーン爆撃により大破"
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s がゾーン爆撃により大破"
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s がゾーン爆撃により大破"
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "自車輌が砲兵射撃により大破"
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s が砲兵射撃により大破"
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s が砲兵射撃により大破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "味方 %(attacker)s が %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "味方 %(attacker)s が砲兵射撃により %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "味方 %(attacker)s が爆撃により %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s が %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "味方 %(attacker)s が砲兵射撃により敵 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "味方 %(attacker)s が空爆により敵 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s が「ファイアカバー」により %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s が「アーティーストライク」により %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "味方 %(target)s が戦闘中に喪失"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "砲兵射撃後、味方 %(target)s が喪失"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "爆撃後、味方 %(target)s が喪失"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s が %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "敵 %(attacker)s が砲兵射撃により味方 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "敵 %(attacker)s が空爆により味方 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s が「ファイアカバー」により %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s が「アーティーストライク」により %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "敵 %(attacker)s が敵 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "敵 %(attacker)s が砲兵射撃により敵 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "敵 %(attacker)s が爆撃により敵 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "敵 %(target)s が戦闘中に喪失"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "砲兵射撃後、敵 %(target)s が喪失"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "爆撃後、敵 %(target)s が喪失"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "自車輌が味方 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "自車輌が砲兵射撃により味方 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "自車輌が爆撃により味方 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "自車輌が射撃により %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "自車輌が砲兵射撃により %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "自車輌が 空爆により敵 %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "自車輌が「ファイアカバー」により %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "自車輌が「アーティーストライク」により %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "敵 (不明) が %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "味方 %(target)s が破壊ゾーンで大破"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "味方%(target)s が味方 %(attacker)s によりクラッシュ"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(target)s が %(attacker)s によりクラッシュ"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "自車輌が味方 %(attacker)s によりクラッシュ"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "味方 %(target)s がクラッシュ"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(target)s が %(attacker)s によりクラッシュ"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "敵 %(target)s が敵 %(attacker)s によりクラッシュ"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "自車輌が敵 %(attacker)s によりクラッシュ"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "敵 %(target)s がクラッシュ"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "味方 %(target)s がクラッシュ"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "自車輌が突き落としにより %(target)s を撃破"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "自車輌がクラッシュ"
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s が目標 %(target)s を破壊"
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s が目標 %(target)s を破壊"
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "自車輌が目標 %(target)s を破壊"
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "火災により「%(device)s 」が損傷"
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "%(entity)s の射撃により「%(device)s」が損傷"
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "火災により「%(device)s」が大破"
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "%(entity)s の射撃により「%(device)s」が大破"
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "「%(device)s」の修理が完了"
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "「%(device)s」が再び稼働"
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "%(entity)s の射撃により「%(device)s」が発火"
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "ブーストにより「%(device)s」が損傷"
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "速度制限装置の解除により「%(device)s」が損傷"
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "ブーストにより「%(device)s」が大破"
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "速度制限装置の解除により「%(device)s」が大破"
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "消火が完了"
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "%(entity)s の射撃により「%(device)s」が負傷"
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "「%(device)s」の治療が完了"
+
+msgid "player_messages/allied_team_name"
+msgstr "味方チーム"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "味方陣地%s 占領中 (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "敵が味方陣地%sを占領！"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "陣地の占領がブロック"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "陣地%s 占領中 (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "陣地%s 占領！"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "敵陣地%s 占領中 (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "敵陣地 %sを占領！"
+
+msgid "player_messages/enemy_team_name"
+msgstr "敵チーム"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "味方 %(name)s がアビリティー「%(equipment)s」を発動"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "敵がアビリティー「%(equipment)s」を発動"
+
+msgid "player_messages/postmortem_caption"
+msgstr "プレイヤー %(name)s (%(type)s)　残りHP: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "プレイヤー %(name)s　残りHP: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "自車輌 (%(type)s) が大破"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "弾切れにより射撃不能"
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "リプレイ操作"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "左クリックでカメラモード切り替え\nSpaceキーで一時停止"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "左矢印キーで20秒戻る (Ctrlキー同時押しで40秒)\n右矢印キーで20秒進む (Ctrlキー同時押しで40秒)\nHome/Endキーで最初/最後に移動\n上/下矢印キーで再生速度増/減"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "フリーカメラモード"
+
+msgid "player_messages/replayPaused"
+msgstr "一時停止"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "固定カメラモード"
+
+msgid "player_messages/replaySpeedChange"
+msgstr "再生速度 %(speed)s倍"
+
+msgid "player_messages/tank_in_fire"
+msgstr "火災発生!"
+
+msgid "players_panel/state/large/body"
+msgstr "プレイヤー名、撃破数、車輌名、車輌アイコンを表示します。"
+
+msgid "players_panel/state/large/header"
+msgstr "フルパネル"
+
+msgid "players_panel/state/large/note"
+msgstr "(Ctrl + Tab でモード切り替え)"
+
+msgid "players_panel/state/medium/body"
+msgstr "プレイヤー名、撃破数、車輌アイコンを表示します。"
+
+msgid "players_panel/state/medium/header"
+msgstr "中パネル 1"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Ctrl + Tab でモード切り替え)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "撃破数、車輌名、車輌アイコンを表示します。"
+
+msgid "players_panel/state/medium2/header"
+msgstr "中パネル 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Ctrl + Tab でモード切り替え)"
+
+msgid "players_panel/state/none/body"
+msgstr "チームパネルを非表示にします。"
+
+msgid "players_panel/state/none/header"
+msgstr "パネルなし"
+
+msgid "players_panel/state/none/note"
+msgstr "(Ctrl + Tab でモード切り替え)"
+
+msgid "players_panel/state/short/body"
+msgstr "撃破数と車輌アイコンを表示します。"
+
+msgid "players_panel/state/short/header"
+msgstr "小パネル"
+
+msgid "players_panel/state/short/note"
+msgstr "(Ctrl + Tab でモード切り替え)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "敵"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "ESC キーでガレージに戻る"
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "他の車輌で戦闘に参加可能"
+
+msgid "postmortem/tips/freecam/button"
+msgstr "SPACE"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "フリーカメラ"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "フリーカメラに移行する"
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "カメラ操作不可"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "このモードではカメラを操作できません。"
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "観戦モード"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "表示する味方車輌を切り替えられます。"
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "車輌をフォロー"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "味方の車輌を左クリックすると、その車輌をフォローできます。"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "主目標からの攻撃により大破"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "砲兵射撃により大破"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "主目標からの攻撃により大破"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "空爆により大破"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "「Marauder」の攻撃により大破"
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "自律型攻撃兵器により大破"
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "腐蝕弾により大破"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "自車輌が味方により禁止ゾーンで大破"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "自車輌が禁止ゾーンで大破"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "危険ゾーンからの離脱に失敗"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "火災により「%(device)s」が大破"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "モジュール [%(device)s] が敵の射撃により誘爆"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "味方により水没"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "敵により水没"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "水没"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "火災により大破"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "火炎輪により大破"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "搭乗員が敵の射撃により行動不能"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "味方の突き落としにより搭乗員が行動不能"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "衝撃により搭乗員が行動不能"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "衝撃により搭乗員が行動不能"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "自動追尾爆弾により大破"
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "地雷原により大破"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "地雷原により大破"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "味方により転覆させられ大破"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "敵により転覆させられ大破"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "転覆により大破"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "味方の体当たりにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "敵の体当たりにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "体当たり時のダメージにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "大破"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "ゾーン爆撃により大破"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "砲兵射撃により大破"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "敵の射撃により大破"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "空爆により大破"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "空爆により大破"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "砲兵射撃により大破"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "空爆により大破"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "破壊ゾーンで大破"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "電磁エリアにより大破"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "味方によりクラッシュ"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "敵によりクラッシュ"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "クラッシュにより大破"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "大破"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "物資構成の選択が終了"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "構成の変更はカウントダウン終了まで行うことができます"
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "物資構成を変更可能"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "構成を変更できる残り時間: {seconds}秒"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "物資構成を変更可能"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "窪地"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "偵察スポット"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "森林"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "小路"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "街路"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "廃墟"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "橋"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "線路"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "市街地"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "村落"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "広場"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "工場"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "丘"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "灯台"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "中央"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "城郭"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "風車"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "山脈"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "ルートA"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "ルートB"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "ルートC"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "ルートD"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "ルートE"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "渓谷"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "氷河"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "迂回路"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "丘陵地帯"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "道路"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "山"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "掩蔽壕"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "大街路"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "壁"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "岩石地帯"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "工業地帯"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "平原"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "車庫"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "炭鉱"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "軍艦"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "航空母艦"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "塹壕"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "曲路"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "北"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "南"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "西"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "東"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "尾根"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "飛行船"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "倉庫"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "海岸"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "河川"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "湖"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "湿地帯"
+
+msgid "quickReply/hint/press"
+msgstr "ショートカット:"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "を押して承諾"
+
+msgid "quickReply/hint/toCommend"
+msgstr "で「いいぞ」を返す"
+
+msgid "quickReply/hint/toHelp"
+msgstr "を押して援護"
+
+msgid "quickReply/hint/toThank"
+msgstr "を押して感謝"
+
+msgid "recovery/cooldown"
+msgstr "車輌を放棄できるようになるまで %(cooldown)s 秒"
+
+msgid "recovery/hint1"
+msgstr "ショートカット:"
+
+msgid "recovery/hint2"
+msgstr "を長押しで車輌を放棄"
+
+msgid "repairPoint/title"
+msgstr "修理"
+
+msgid "repairPoint/unavailable"
+msgstr "利用不可"
+
+msgid "respawnView/additionalTip"
+msgstr "車輌を選択して戦闘を継続してください。全車輌が修理中の場合は、最初に修理が完了した車輌で出撃します。"
+
+msgid "respawnView/additionalTipLimited"
+msgstr "車輌を選択して戦闘を継続してください。大破した車輌は、戦闘終了まで修理できません。"
+
+msgid "respawnView/classNotAvailable"
+msgstr "戦線が制限\nに到達"
+
+msgid "respawnView/cooldownLbl"
+msgstr "修理中 %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "大破"
+
+msgid "respawnView/disabledLbl"
+msgstr "車輌は使用不可"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "適合車輌が未選択"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "グループにTier X車輌が含まれていません。"
+
+msgid "respawnView/nextVehicleName"
+msgstr "再出撃まで残り"
+
+msgid "respawnView/title"
+msgstr "車輌の選択"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "了解!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "『World of Tanks』をご愛顧いただき誠にありがとうございます！本作の発展への多大なる貢献に対して深く感謝いたします！"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "感謝状"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "報酬が与えられました!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "おめでとうございます！"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "了解!"
+
+msgid "rewardWindow/base/descText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/base/headerText"
+msgstr "おめでとうございます"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "おめでとうございます！Prime Gaming 特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Care Package India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Care Package Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "ボックスへ"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "価値ある報酬入りの大きなボックスを取得しました。"
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "ボックスを取得!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "ミッションを達成したため貴重な報酬が入った「小さなボックス」を入手しました。"
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "気になるボックスの中身は！？"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "了解!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "クレジットの蓄積が停止しました。「クレジット庫」を引き続きご利用いただくにはWoTプレミアムアカウントの延長が必要です。"
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "クレジット取得"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "クレジット庫が開錠！"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "おめでとうございます！"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "YES, SIR!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "おめでとうございます、Prime Gamingに含まれる特別サプライドロップが付与されました。戦場において活用してください。"
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Care Package Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "報酬が与えられました!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "今すぐ採用!"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "おめでとうございます、Prime Gamingに含まれる特別な新兵をご利用頂けます。"
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Care Package Alpha"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "報酬が与えられました!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "YES, SIR!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Care Package Battle Pass"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "YES, SIR!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Care Package Cosmic"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "YES, SIR!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Care Package Starry Night"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "詳細"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Care Package June"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Care Package July"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "詳細"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Care Package Dime"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: スターライト・キット"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください！"
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "クイーン・メイヴキット"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください！"
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "愛のヤドリギ・コレクション"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "詳細"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "一本釣りコレクション"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "YES, SIR!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "おめでとうございます、Prime Gamingに含まれる特別サプライドロップが付与されました。戦場において活用してください。"
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Care Package Charlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "報酬が与えられました!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください！"
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "限定パック「G.I. JOE: Duke」"
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください！"
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "限定パック「G.I. JOE: Cobra」"
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "詳細"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "「Rock Out!」パック"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "おめでとうございます！ Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "「静かなる刺客」パック"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "報酬を獲得！"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "詳細"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "「衣替え」パック"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "詳細"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "「サマー・バイブス」パック"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "おめでとうございます！ Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "「ハイボルテージ」パック"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "詳細"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "「ゾワゾワ・パンプキン」パック"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "おめでとうございます！ Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "内なるヴァイキング"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "詳細"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "「肉体改造」パック"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Care Package Echo"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "詳細"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "シンセウェイヴ"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "おめでとうございます！ Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "アデプタ・ソロリタス"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "おめでとうございます！ Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "荒野のガンスリンガー"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Prime Gaming 会員限定の報酬を受け取りました。"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "eCamo"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "N-Cave エンブレム"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "ハーリア隊、出撃！"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "N-Cave 修了生"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Prime Gaming 会員限定の報酬を受け取りました。"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "ウィッチクラフト"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "フライングウィッチ"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "ダークキャット"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "イービルキャット"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Prime Gaming 会員限定の報酬を受け取りました。"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "試合開始"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "決定弾"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "オールタイム・クラシック"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Prime Gaming会員限定の特典報酬を受け取りました。"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "クリスマスリース"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "ドキドキプレゼント"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "ムキムキプレゼント"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "ダブルジングル"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "報酬を選択"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Prime Gaming 会員限定の報酬を受け取りました。"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "ディストピアの希望"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "冷たき眼差し"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "機械仕掛けの頭脳"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "機械は涙を流さない"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Care Package Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Care Package Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Care Package Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Care Package Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Care Package Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "採用"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "おめでとうございます！Prime Gaming特典の特別サプライドロップが届きました。ぜひ有効活用してください。"
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Care Package Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "報酬獲得"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "了解！"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "所属クランが征戦を進めるには\nさらなる貢献が必要不可欠です"
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "クラン報酬獲得！"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "クラン征戦へ"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "クラン征戦"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "了解！"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "所属クランが征戦を進めるには\nさらなる貢献が必要不可欠です"
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "個人報酬獲得！"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "クラン征戦へ"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "クラン征戦"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "おめでとうございます！"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "所属小隊"
+
+msgid "scorePanel/playerScore"
+msgstr "個人の貢献"
+
+msgid "scorePanel/squadLbl"
+msgstr "小隊 %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm AP弾 %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm APCR弾 %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm APHE弾 %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm HE弾 %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm HEAT弾 %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "平均ダメージ: %(value)s HP"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "秒間ダメージ: %(value)sHP/秒"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "ダメージ半径: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "完全チャージ / 単一チャージ"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "平均貫通力: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "弾速: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "スタン時間: %(minValue)s～%(maxValue)s秒"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "で射撃モードに切り替え"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "で移動モードに切り替え"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "主要なキーが未割当"
+
+msgid "siegeMode/hint/press"
+msgstr "ショートカット:"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "で液体燃料ブースターを発動"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "でジェットブースターを発動"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "で連続式ロケット・スラスターを発動"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "敵車輌に砲撃を当てると「レーザー照射器」の追加効果が発動"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "でエンジンモードを切り替え"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "で砲撃モードを切り替え"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "で走行モードを切り替え"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "で「ターボチャージャー・アシスト」を発動"
+
+msgid "spotted/indicator"
+msgstr "敵の被発見状態の延長と被ダメージが向上"
+
+msgid "spotted/seconds"
+msgstr "秒"
+
+msgid "statistics/exit"
+msgstr "Escキーを押すとガレージに戻れます"
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "%s によって撃破された"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "陣地占領: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "損傷を与えた敵:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "命中弾数: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "被弾数: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "陣地防衛: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "撃破数:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(事後分析)"
+
+msgid "statistics/final/personal/shots"
+msgstr "射撃回数: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "発見数:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "味方チームが全滅"
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "全車輌が大破！"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "敵車輌を殲滅！"
+
+msgid "statistics/final/reasons/reason2"
+msgstr "陣地を占領!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "戦闘時間終了!"
+
+msgid "statistics/final/stats/credits"
+msgstr "クレジット:"
+
+msgid "statistics/final/stats/experience"
+msgstr "EXP:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "EXP(x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "修理:"
+
+msgid "statistics/final/status/lose"
+msgstr "敗北! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "引き分け! %s"
+
+msgid "statistics/final/status/win"
+msgstr "勝利! %s"
+
+msgid "statistics/header"
+msgstr "戦闘成績"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "プレイヤー"
+
+msgid "statistics/headers/header2"
+msgstr "車輌"
+
+msgid "statistics/headers/header3"
+msgstr "状態"
+
+msgid "statistics/headers/header4"
+msgstr "撃破"
+
+msgid "statistics/playerState/0"
+msgstr "被撃破"
+
+msgid "statistics/playerState/1"
+msgstr "戦闘外"
+
+msgid "statistics/playerState/2"
+msgstr "被撃破"
+
+msgid "statistics/playerState/3"
+msgstr "戦闘中"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "編成"
+
+msgid "statistics/tab/line_up/title"
+msgstr "チーム編成"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "パーソナルリザーブ"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "パーソナルリザーブの使用"
+
+msgid "statistics/tab/quests/header"
+msgstr "ミッション"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "この戦闘モードではパーソナルミッションに挑戦不可"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "ガレージの「キャンペーン」タブを開いてミッションを選択してください。"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "この車輌で挑戦可能なミッションなし"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "主条件を達成済み"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "全ミッションを達成済み"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "挑戦中"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "結果向上"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "一時停止中"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "ミッションの進行度は表示不可"
+
+msgid "statistics/tabs/group"
+msgstr "チームの成績"
+
+msgid "statistics/tabs/heroes"
+msgstr "戦功章"
+
+msgid "statistics/tabs/personal"
+msgstr "個人の成績"
+
+msgid "statistics/team1title"
+msgstr "味方チーム"
+
+msgid "statistics/team2title"
+msgstr "敵チーム"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "破壊ゾーンから\n速やかに脱出せよ！"
+
+msgid "stun/indicator"
+msgstr "搭乗員がスタン"
+
+msgid "stun/seconds"
+msgstr "秒"
+
+msgid "tabStatsHint"
+msgstr "— 成績"
+
+msgid "tankmen/commander"
+msgstr "車長"
+
+msgid "tankmen/driver"
+msgstr "操縦手"
+
+msgid "tankmen/gunner"
+msgstr "砲手"
+
+msgid "tankmen/loader"
+msgstr "装填手"
+
+msgid "tankmen/radioman"
+msgstr "無線手"
+
+msgid "timer/battlePeriod"
+msgstr "戦闘終了まで残り"
+
+msgid "timer/started"
+msgstr "戦闘開始!"
+
+msgid "timer/starting"
+msgstr "戦闘開始まで残り"
+
+msgid "timer/waiting"
+msgstr "プレイヤーを待っています..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "ショートカット:"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "で照準モードを切り替え"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "主要なキーが未割当"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "味方 %(entity)s によりデスゾーンで大破"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "%(entity)s によりデスゾーンで大破"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "危険ゾーンで大破"
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "味方 %(entity)s により水没"
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "%(entity)s により水没"
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "水没"
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "火災により大破"
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "味方 %(entity)s の攻撃により大破"
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "%(entity)s の攻撃により大破"
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "味方 %(entity)s の突き落としにより搭乗員が行動不能"
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr " %(entity)s の突き落としにより搭乗員が行動不能"
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "搭乗員が衝撃により行動不能"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "味方 %(entity)s により転覆させられ大破"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "敵 %(entity)s により転覆させられ大破"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "転覆により大破"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "味方 %(entity)s の体当たりにより大破"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s の体当たりにより大破"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "体当たり時のダメージにより大破"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "%(entity)s の射撃により大破"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s の砲兵射撃により大破"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s の爆撃により大破"
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "味方 %(entity)s によりクラッシュ"
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "敵 %(entity)s によりクラッシュ"
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "クラッシュにより大破"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "味方 %(entity)s の体当たりにより「%(device)s」が損傷"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "味方 %(entity)s の体当たりにより「%(device)s」が損傷"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "体当たり時の衝撃により「%(device)s」が損傷"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "敵 %(entity)s の体当たりにより「%(device)s」が損傷"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "敵 %(entity)s の体当たりにより「%(device)s」が損傷"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "体当たり時の衝撃により「%(device)s」が損傷"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "味方 %(entity)s の突き落としにより「%(device)s」が損傷"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "味方 %(entity)s の突き落としにより「%(device)s」が損傷"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "衝撃により「%(device)s」が損傷"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "敵 %(entity)s の突き落としにより「%(device)s」が損傷"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "敵 %(entity)s の突き落としにより「%(device)s」が損傷"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "衝撃により「%(device)s」が損傷"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "地雷原によりモジュール「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "地雷原によりモジュール「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "味方 %(entity)s の体当たりにより「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "味方 %(entity)s の体当たりにより「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "体当たり時の衝撃により「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "敵 %(entity)s の体当たりにより「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "敵 %(entity)s の体当たりにより「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "体当たり時の衝撃により「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "味方 %(entity)s の突き落としにより「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "味方 %(entity)s の突き落としにより「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "衝撃により「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "敵 %(entity)s の突き落としにより「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "敵 %(entity)s の突き落としにより「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "衝撃により「%(device)s」が大破"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "味方 %(entity)s の体当たりにより「%(device)s」が発火"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "味方 %(entity)s の体当たりにより「%(device)s」が発火"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "体当たり時の衝撃により「%(device)s」が発火"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "敵 %(entity)s の体当たりにより「%(device)s」が発火"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "敵 %(entity)s の体当たりにより「%(device)s」が発火"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "体当たり時の衝撃により「%(device)s」が発火"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "味方 %(entity)s の突き落としにより「%(device)s」が負傷"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "味方 %(entity)s の突き落としにより「%(device)s」が負傷"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "衝撃により「%(device)s」が負傷"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "敵 %(entity)s の突き落としにより「%(device)s」が負傷"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "敵 %(entity)s の突き落としにより「%(device)s」が負傷"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "衝撃により「%(device)s」が負傷"
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "アビリティー「%(equipment)s」を発動！"
+
+msgid "warning_zone/indicator"
+msgstr "「危険ゾーン」が近い！ 注意せよ！"

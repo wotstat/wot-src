@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT 번역가 <<noreply@wargaming.net>\nLanguage-Team: WoT 팀 <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "신규 대화 보기"
+
+msgid "battle/history/header"
+msgstr "적군"
+
+msgid "battle/history/latestMessage"
+msgstr "최근 대화 보기"
+
+msgid "battle/history/title"
+msgstr "대화 기록"
+
+msgid "battle/history/upMessage"
+msgstr "이전 대화 보기"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)s대화 비활성화%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "해당 지역 플레이어는 전투 대화를 이용할 수 없습니다."
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "해당 계정으로는 전투 대화를 이용할 수 없습니다."
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "자녀 보호 설정으로 인해 전투 대화를 이용할 수 없습니다."
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "게임 설정에서 전투 대화를 활성화할 수 있습니다."
+
+msgid "battle/receivers/common"
+msgstr "모두에게"
+
+msgid "battle/receivers/squad"
+msgstr "소대에게"
+
+msgid "battle/receivers/team"
+msgstr "아군에게"
+
+msgid "battle/toolTips/cancel"
+msgstr "취소"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "수신자 변경"
+
+msgid "battle/toolTips/default"
+msgstr "이전 수신자"
+
+msgid "battle/toolTips/duringChat"
+msgstr "대화 중"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "대화 창에서 플레이어 옆에 표시되는 버튼을 클릭하여 선택한 플레이어의 대화를 차단할 수 있습니다."
+
+msgid "battle/toolTips/send"
+msgstr "전송"
+
+msgid "battle/toolTips/startChat"
+msgstr "대화 시작"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "문제가 되는 대화 내용을 클릭한 후 이유를 선택하여 신고할 수 있습니다. 대화 기능을 사용하지 않거나 아군 대화 사용 여부를 결정할 수도 있습니다. 소대 대화는 언제든지 이용할 수 있습니다."
+
+msgid "battle/toolTips/usingChat"
+msgstr "대화"
+
+msgid "battle/toolTips/withSquad"
+msgstr "소대 대화"
+
+msgid "battle/unknown/ally"
+msgstr "아군"
+
+msgid "battle/unknown/enemy"
+msgstr "적군"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "%(curfewTime)s부터 서버 연결이 종료됩니다. %(timeLeft)s분 후 세션이 종료됩니다."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "허용된 일일 접속 시간에 도달했습니다. %(timeLeft)s분 후 세션이 종료됩니다."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "허용된 주간 접속 시간에 도달했습니다. %(timeLeft)s분 후 세션이 종료됩니다."
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "접속 시간 제한에 도달했습니다. %(timeLeft)s분 후 접속이 종료됩니다."
+
+msgid "chat/personalMessage/warningBody"
+msgstr "모르는 플레이어가 보낸 메시지에는 악성 코드 링크가 포함되어 있을 수 있습니다. 링크를 클릭하거나 비밀번호를 공유하지 마십시오."
+
+msgid "chat/personalMessage/warningHead"
+msgstr "주의!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "전투 결과"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "%(playerName)s 님의 대화를 차단했습니다."
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "메시지 보내기"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "메시지 보내기"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "플레이어 검색"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "음성 대화 설정"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "자신을 차단할 수는 없습니다."
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "\"%(actionName)s\" 중 오류가 발생했습니다."
+
+msgid "chat_error/IS_BUSY"
+msgstr "서버가 혼잡합니다."
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "해당 작업을 수행할 권한이 없습니다."
+
+msgid "chat_error/NOT_READY"
+msgstr "\"%(actionName)s\" 작업을 수행할 수 없습니다."
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "존재하지 않는 사용자입니다."
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "올바르지 않은 변수입니다."
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "음성 대화를 사용하지 않습니다. 소대원과 음성 대화하려면 %(keyName)s키를 누르십시오."
+
+msgid "client/COMP7/disableVOIP"
+msgstr "음성 대화를 사용하지 않습니다. 소대원과 음성 대화하려면 %(keyName)s키를 누르십시오."
+
+msgid "client/commendations/comms_mutual"
+msgstr "%(player)s 님과 칭찬을 주고받았습니다."
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s 님이 칭찬했습니다."
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s 님을 칭찬했습니다."
+
+msgid "client/dynSquad/created/allies"
+msgstr "아군이 %(squadNum)s번 소대를 조직했습니다."
+
+msgid "client/dynSquad/created/enemies"
+msgstr "적군이 %(squadNum)s번 소대를 조직했습니다."
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "%(squadNum)s번 소대를 조직했습니다. 소대 및 음성 대화를 사용할 수 있습니다. 음성 대화를 사용하지 않으려면 %(keyName)s키를 누르십시오."
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "%(squadNum)s번 소대를 조직했습니다. 소대 및 음성 대화를 사용할 수 있습니다. 음성 대화를 사용하려면 %(keyName)s키를 누르십시오."
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "%(squadNum)s번 소대를 조직했습니다. 소대 및 음성 대화를 사용할 수 있습니다. 음성 대화 설정 키를 지정하십시오."
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "%(squadNum)s번 소대를 조직했습니다. 이제 소대 대화를 사용할 수 있습니다."
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "%(squadNum)s번 소대에 참여했습니다. 소대 및 음성 대화를 사용할 수 있습니다. 음성 대화를 사용하지 않으려면 %(keyName)s키를 누르십시오."
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "%(squadNum)s번 소대에 참여했습니다. 소대 및 음성 대화를 사용할 수 있습니다. 음성 대화를 사용하려면 %(keyName)s키를 누르십시오."
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "%(squadNum)s번 소대에 참여했습니다. 소대 및 음성 대화를 사용할 수 있습니다. 음성 대화 설정 키를 지정하십시오."
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "%(squadNum)s번 소대에 참여했습니다. 이제 소대 대화를 사용할 수 있습니다."
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "음성 대화를 사용하지 않습니다. 소대원과 음성 대화하려면 %(keyName)s키를 누르십시오."
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "음성 대화를 사용합니다."
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "%(squadNum)s번 소대에 참여했습니다. 소대 및 음성 대화를 사용할 수 있습니다. 음성 대화를 사용하지 않으려면 %(keyName)s키를 누르십시오."
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "%(squadNum)s번 소대에 참여했습니다. 소대 및 음성 대화를 사용할 수 있습니다. 음성 대화를 사용하려면 %(keyName)s키를 누르십시오."
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "%(squadNum)s번 소대에 참여했습니다. 소대 및 음성 대화를 사용할 수 있습니다. 음성 대화 설정 키를 지정하십시오."
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "%(squadNum)s번 소대에 참여했습니다. 이제 소대 대화를 사용할 수 있습니다."
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s 님이 %(squadNum)s번 소대에 참여했습니다."
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s 님이 소대에 초대했습니다."
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)s 님이 소대에 초대했습니다.\n주의! 소대원에게 실제 닉네임과 클랜 태그가 표시됩니다."
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s 님을 소대에 초대했습니다."
+
+msgid "client/error/broadcastInCooldown"
+msgstr "메시지를 보내기까지 %s초간 기다려 주시기 바랍니다."
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "\"%s\" 명령어 사용이 %s초 동안 금지되었습니다."
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "%s 기능을 사용할 수 없습니다."
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "메시지 전송이 중단되었습니다. %s초 기다려 주십시오."
+
+msgid "client/information/addToFriends/message"
+msgstr "친구 목록의 %s 님 추가 요청이 저장되었습니다."
+
+msgid "client/information/addToIgnored/message"
+msgstr "차단 목록에 %s 님 추가 요청이 저장되었습니다. 대화 기능이 차단되었으며 해당 플레이어의 메시지는 표시되지 않습니다."
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "%s 님의 대화를 차단하여 대화가 표시되지 않습니다."
+
+msgid "client/information/emptySearchResult/message"
+msgstr "결과를 찾을 수 없습니다."
+
+msgid "client/information/removeFromFriends/message"
+msgstr "친구 목록의 %s 님 제거 요청이 저장되었습니다."
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "차단 목록에서 %s 님 삭제 요청이 저장되었습니다. 해당 플레이어와의 대화 기능이 복구되었습니다."
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "%s 님의 대화 차단을 해제합니다."
+
+msgid "client/information/setMuted/message"
+msgstr "%s 님의 음성 메시지가 차단되었습니다."
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s 님이 음성 메시지를 보낼 수 있습니다."
+
+msgid "client/warning/AFKWarning/message"
+msgstr "자리를 비우면 제재가 적용됩니다!\n승리하려면 팀원과 협력해야 합니다!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "결과 없음"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "플레이어 검색"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "검색어가 너무 짧거나 올바르지 않은 검색어를 입력했습니다. 검색어는 %d자에서 %d자 이상이어야 합니다."
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "플레이어 검색"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "친구 목록에 추가"
+
+msgid "client_action/ADD_GROUP"
+msgstr "그룹 생성"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "차단 목록에 추가"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "친구 요청 수락"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "친구 요청 거절"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "그룹 편집"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "플레이어 채널 생성"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "플레이어 검색"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "플레이어 채널 연결"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "플레이어 채널 나가기"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "친구 목록에서 제거"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "차단 목록에서 제거"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "메모 삭제"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "친구 요청 보내기"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "이전 메시지 확인"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "플레이어 채널 검색"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "메시지 보내기"
+
+msgid "client_action/SET_MUTE"
+msgstr "음성 대화 끄기"
+
+msgid "client_action/SET_NOTE"
+msgstr "메모 작성/편집"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "음성 대화 켜기"
+
+msgid "client_error/action/in_cooldown"
+msgstr "\"%(actionName)s\" 작업이 %(floatArg1)s초 동안 중단됩니다."
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "\"%(actionName)s\" 작업을 잠시 사용할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "채널 허용 수를 초과했습니다. 불필요한 채널을 닫고 다시 시도하십시오."
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "\"%(strArg1)s\" 채널은 이미 존재합니다."
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "채널 이름이 설정되지 않았습니다."
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "\"%(strArg1)s\" 채널은 유효하지 않은 채널 이름입니다."
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "입력한 비밀번호와 확인용 비밀번호가 일치하지 않습니다."
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "비밀번호가 설정되지 않았습니다."
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "유효하지 않은 비밀번호입니다."
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "비밀번호 확인을 설정하지 않았습니다."
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "비밀번호 확인을 입력하십시오."
+
+msgid "client_error/command/generic_error"
+msgstr "\"%(strArg1)s\" 명령에 오류가 발생했습니다."
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "%(floatArg1)s초 동안 명령이 중단됩니다."
+
+msgid "client_error/command/not_supported"
+msgstr "%(strArg1)s 명령은 게임에서 지원하지 않습니다."
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "올바르지 않은 차단 기간입니다. %(int64Arg1)s"
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "올바르지 않은 차단 유형입니다. %(int32Arg1)s"
+
+msgid "client_error/command/wrong_player_name"
+msgstr "올바르지 않은 닉네임입니다. %(strArg1)s"
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "\"%(strArg1)s\" 님은 차단 목록에 포함되어 있습니다."
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "\"%(strArg1)s\" 님은 차단 목록에 없습니다."
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "플레이어를 찾을 수 없습니다."
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "\"%(strArg1)s\" 님의 친구 요청을 이미 수락했습니다."
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "\"%(strArg1)s\" 님의 친구 요청을 이미 거절했습니다."
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "\"%(strArg1)s\" 님의 친구 요청 답변을 처리 중입니다."
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "그룹 이름이 설정되지 않았습니다."
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "\"%(strArg1)s\" 그룹은 이미 존재합니다."
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "\"%(strArg1)s\", 사용할 수 없는 그룹 이름입니다."
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "\"%(strArg1)s\" 그룹을 찾을 수 없습니다."
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "\"%(strArg1)s\" 님과 음성 대화를 나눌 수 있습니다."
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "메모가 없습니다."
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "\"%(strArg1)s\" 님 메모 없음"
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "\"%(strArg1)s\" 님은 친구입니다."
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "친구 목록에서 \"%(strArg1)s\" 님을 찾을 수 없습니다."
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "채널 이름을 %(int32Arg1)s~%(int32Arg2)s자로 설정해 주십시오."
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "그룹 이름은 %(int32Arg2)s자를 초과할 수 없습니다."
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "차단 목록에는 최대 %(int32Arg2)s명 까지 추가할 수 있습니다."
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "그룹은 최대 %(int32Arg2)s개까지 생성할 수 있습니다."
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "친구 목록에 추가할 수 있는 플레이어는 최대 %(int32Arg2)s명입니다. 함께 게임을 즐기지 않는 플레이어를 삭제하십시오."
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "메모는 %(int32Arg2)s자까지 입력할 수 있습니다."
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "비밀번호를 %(int32Arg1)s~%(int32Arg2)s자로 설정해 주십시오."
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "올바르지 않은 플레이어 ID"
+
+msgid "client_error/shared/GENERIC"
+msgstr "\"%(actionName)s\" 중 오류"
+
+msgid "client_error/shared/LOCKED"
+msgstr "\"%(actionName)s\" 작업을 잠시 사용할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "플레이어 이름이 설정되지 않았습니다."
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "%(strArg1)s, 사용할 수 없는 닉네임입니다."
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "대화 서버에 연결할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "\"%(actionName)s\" 작업은 게임 클라이언트에서 지원하지 않습니다."
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "오류가 발생했습니다. 다시 시도해 주십시오."
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "대기 시간이 만료될 때까지 일부 기능을 이용할 수 없습니다."
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "올바르지 않은 정보입니다."
+
+msgid "command/acceptInvite"
+msgstr "초대 수락"
+
+msgid "command/addFriend"
+msgstr "친구 목록에 추가"
+
+msgid "command/addIgnored"
+msgstr "차단 목록에 추가"
+
+msgid "command/broadcast"
+msgstr "메시지 보내기"
+
+msgid "command/createChatChannel"
+msgstr "채널 생성"
+
+msgid "command/createInvite"
+msgstr "초대 생성"
+
+msgid "command/createPrivate"
+msgstr "일대일 대화"
+
+msgid "command/findChatChannels"
+msgstr "채널 검색"
+
+msgid "command/findUser"
+msgstr "플레이어 검색"
+
+msgid "command/getActiveInvites"
+msgstr "초대 목록 가져오기"
+
+msgid "command/getArchiveInvites"
+msgstr "보관된 초대 목록 가져오기"
+
+msgid "command/getMembersCount"
+msgstr "채널 내 플레이어 수 가져오기"
+
+msgid "command/leaveChatChannel"
+msgstr "채널 나가기"
+
+msgid "command/rejectInvite"
+msgstr "초대 거절"
+
+msgid "command/removeFriend"
+msgstr "친구 목록에서 삭제"
+
+msgid "command/removeIgnored"
+msgstr "차단 목록에서 삭제"
+
+msgid "command/requestChatChannelMembers"
+msgstr "클랜원 목록 가져오기"
+
+msgid "command/requestSystemChatChannels"
+msgstr "시스템 채널 목록 가져오기"
+
+msgid "command/setMuted"
+msgstr "음성 대화 끄기"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s 님이 차단되었습니다."
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s 님이 차단 해제되었습니다."
+
+msgid "command/unsetMuted"
+msgstr "음성 대화 켜기"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "그룹을 생성합니다."
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "생성"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "메모 작성을 취소하고 친구 목록으로 돌아갑니다."
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "닫기"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "그룹을 삭제합니다."
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "삭제"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "삭제를 취소하고 친구 목록으로 돌아갑니다."
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "취소"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "그룹 이름을 변경합니다."
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "확인"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "편집을 취소하고 친구 목록으로 돌아갑니다."
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "닫기"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "%(maxChars)s자를 초과할 수 없습니다."
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "친구 목록에 플레이어를 추가합니다."
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "추가"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "친구 검색을 취소하고 친구 목록으로 돌아갑니다."
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "닫기"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "닉네임으로 플레이어를 검색합니다."
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "검색"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "닉네임은 최소 %(minChars)s자에서 %(maxChars)s자 사이여야 합니다."
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "%(time)s초 동안 검색 기능을 이용할 수 없습니다."
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "설정을 저장합니다."
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "확인"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "변경 내용을 취소하고 친구 목록으로 돌아갑니다."
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "취소"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "그룹을 생성합니다."
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "그룹 생성"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "친구 목록에 포함되지 않은 플레이어를 검색합니다."
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "친구 목록 외 검색"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "플레이어 검색 후 친구 목록에 추가합니다."
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "플레이어 검색"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "친구 목록 설정을 변경합니다."
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "설정"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "닉네임은 %(maxChars)s자까지 입력할 수 있습니다."
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "명령 입력"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "팀에서 제외"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "닫기"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "채널 생성"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "검색 및 참가"
+
+msgid "dialogs/channels/title"
+msgstr "대화 채널"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "닫기"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "참가"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "비밀번호는 최소 3글자에서 최대 12글자 사이여야 합니다."
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "비밀번호가 올바르지 않습니다."
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "보안 채널 %s에 접속합니다."
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "비밀번호 입력"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "주의"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "채널에 접속"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "클랜에 초대"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "친구 목록에 추가"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "차단 목록에 추가"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "아이디 복사"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "일대일 대화"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "골드 이체"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "친구 목록에서 삭제"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "차단 목록에서 삭제"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "살펴보기"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "이름순으로 정렬"
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "상태순으로 정렬"
+
+msgid "dialogs/contacts/title"
+msgstr "친구 목록"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "소속 클랜"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "친구"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "친구 신청"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "차단"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "음성 대화 차단"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "닫기"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "생성"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "자동으로 생성됩니다."
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "비밀번호 입력"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "채널명"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "비밀번호"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "비밀번호 확인"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "비밀번호 설정"
+
+msgid "dialogs/createChannel/title"
+msgstr "채널 생성"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "%(vehName)s 선택"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "%(level)s단계 전차 선택"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "전차 선택"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "%(level)s단계 전차 선택"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "전차: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "닫기"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "참가"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "검색"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "검색 결과 (첫 %d개)"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "검색"
+
+msgid "dialogs/searchChannel/title"
+msgstr "채널 검색"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "친구 추가"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "차단"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "닫기"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "검색"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "상세 정보"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "검색 결과"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "검색"
+
+msgid "dialogs/searchContact/title"
+msgstr "플레이어 검색"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "서비스 채널"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "8단계 전차 선택"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "주요 목표는 전장에서 마지막까지 살아남는 소대가 되는 것입니다."
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "전선 대격돌 모드는\n8단계 전차로만 참여할 수 있습니다."
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ 이벤트 +++\n+++ 이벤트 +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "4단계 이상 전차를 운용하면\n추가 경험치를 획득할 수 있습니다."
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "소대원이 단계가 같은 4단계 이상 전차로\n플레이하면 추가 경험치를 획득할 수 있습니다."
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "초대를 수락하면 전투 중 소대원에게 실제 닉네임과 클랜 태그가 표시됩니다."
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "대화 채널"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "전차에 장착된 시제 부품: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "상태: 휴식 중"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "상태: 전투 중"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "상태: 준비 안 됨"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "상태: 오프라인"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "상태: 준비 완료"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "해산"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "초대"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "제재 대상"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "부정행위 의심"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "아군 파괴: "
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "음성 대화 끄기"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "친구 추가"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "차단 추가"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "닫기"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "귓속말"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "음성 대화 켜기"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "전체"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "생성 시간"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "최근 전투 일시"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "상태:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s - 플레이어 상세 정보"
+
+msgid "events/enterChannel"
+msgstr "[%s] 님 입장"
+
+msgid "events/leaveChannel"
+msgstr "[%s] 님 퇴장"
+
+msgid "keyboardChat"
+msgstr "대화"
+
+msgid "listView/emptyList/info"
+msgstr "알림"
+
+msgid "listView/emptyList/invite"
+msgstr "초대"
+
+msgid "listView/emptyList/offer"
+msgstr "이벤트"
+
+msgid "listView/emptyList/template"
+msgstr "%(listType)s 없음"
+
+msgid "listView/news/checkNewsBtn"
+msgstr "소식으로 이동"
+
+msgid "listView/news/header"
+msgstr "새로운 소식"
+
+msgid "listView/title"
+msgstr "시스템 알림창"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "전투 시간: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "전송"
+
+msgid "lobby/buttons/channels"
+msgstr "대화 채널"
+
+msgid "lobby/buttons/contacts"
+msgstr "친구 목록"
+
+msgid "lobby/buttons/send"
+msgstr "전송"
+
+msgid "lobby/channels/actions/remove"
+msgstr "채널 닫기"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "메시지에 날짜 표시"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "메시지에 시간 표시"
+
+msgid "lobby/faq/close"
+msgstr "닫기"
+
+msgid "lobby/faq/title"
+msgstr "자주 하는 질문"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "친구 목록에 추가"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "차단 목록에 추가"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "아이디 복사"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "일대일 대화"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "살펴보기"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "친구 목록 외 검색"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "취소"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "그룹 편집"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "그룹에서 삭제"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "그룹 삭제"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "메모 작성을 취소하고 친구 목록으로 돌아갑니다."
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "닫기"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "작성한 메모를 저장합니다."
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "메모 저장"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "초대할 플레이어를 끌어다 놓으십시오."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "편집을 취소하고 친구 목록으로 돌아갑니다."
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "닫기"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "편집한 메모를 저장합니다."
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "저장"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "일치하는 항목이 없습니다."
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "기본 그룹"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "친구"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "기타"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "차단"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "친구 요청"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "친구 목록에서 검색"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "플레이어가 없습니다."
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "빈 친구 목록"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "온라인 상태인 친구 없음"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "친구 목록 외에서 검색하십시오."
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "일치하는 항목 없음"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "닉네임 입력"
+
+msgid "messenger/contacts/title"
+msgstr "친구 목록"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "닫기"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "추가"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "이미 존재하는 그룹입니다."
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "플레이어 검색"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "닫기"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "확인"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "메모 작성"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "닫기"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "확인"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "%(maxChars)s자를 초과할 수 없습니다."
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "메모 편집"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "/ "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "닫기"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "생성"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "그룹 생성"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "입력(최대 %(symbols)s자)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "그룹에 포함된 플레이어"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "취소"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "삭제"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "그룹 삭제"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "닫기"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "저장"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "그룹 편집"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "입력(최대 %(symbols)s자)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "메모 편집(최대 %(symbols)s자)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "메모는 %(maxChars)s자까지 입력할 수 있습니다."
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "플레이어 검색"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "그룹으로 수락"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "오프라인 플레이어 표시"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "\"기타\" 그룹 표시"
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "친구 목록에 없는 플레이어가 보낸 메시지:"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "따로 수락"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "취소"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "확인"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "설정"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "추가된 부속품"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "배틀 패스 점수 제거"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "칩 제거"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "기동 토큰 제거"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "부속품 제거"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "개인 명예 점수 제거"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "자유 경험치 충전"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "파병 점수 제거"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "연차 토큰 제거"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "배틀 패스 점수 추가"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "칩 추가"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "기동 토큰 추가"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "부속품 추가"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "개인 명예 점수 추가"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "자유 경험치 획득"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "파병 점수 추가"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "연차 토큰 추가"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "친구 목록에 있는 모든 플레이어를 수신자에 추가합니다."
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "선택한 플레이어를 추가합니다."
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "수신자에서 친구 목록에 있는 플레이어를 모두 삭제합니다."
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "수신자에서 선택한 친구를 삭제합니다."
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "%(action)s 작업이 %(cooldownPeriod)s초 동안 정지되었습니다."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "대화 오류"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "채널을 더 열 수 없습니다. 사용하지 않는 채널은 닫으십시오."
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "오류"
+
+msgid "server/errors/addFriendError/message"
+msgstr "친구 목록 추가 오류"
+
+msgid "server/errors/addFriendError/title"
+msgstr "오류"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "차단 목록 추가 오류"
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "오류"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "동일한 채널 이름이 이미 사용 중입니다."
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "채널을 생성하는 데 오류가 발생했습니다."
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "채널이 삭제되었습니다."
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "채널 참가 오류"
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "대화 오류"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "대화 명령어 실패: %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "대화 오류"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "%(command)s 명령어 사용이 %(cooldownPeriod)s초 동안 금지되었습니다."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "대화 오류"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "메시지 전송이 중단되었습니다. 메시지를 너무 많이 전송했습니다."
+
+msgid "server/errors/connectTimeout/message"
+msgstr "채널 연결 시간이 초과되었습니다."
+
+msgid "server/errors/connectTimeout/title"
+msgstr "대화 오류"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "귓속말 불가: 해당 사용자가 현재 오프라인입니다."
+
+msgid "server/errors/createPrivateError/title"
+msgstr "대화 오류"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "잘못된 기호"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "오류"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "올바르지 않은 변수 %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "오류"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "보안 채널 비밀번호가 올바르지 않습니다."
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "채널 참가 오류"
+
+msgid "server/errors/initializationFailure/message"
+msgstr "대화 준비에 실패했습니다."
+
+msgid "server/errors/initializationFailure/title"
+msgstr "대화 오류"
+
+msgid "server/errors/internalError/message"
+msgstr "내부 오류입니다. 나중에 다시 시도하십시오."
+
+msgid "server/errors/internalError/title"
+msgstr "채널 생성 오류"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "잘못된 채널 이름입니다."
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "대화 오류"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "초대 명령 실행 오류입니다."
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "오류"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "%(user)s 님은 이미 추방되었습니다."
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "대화 오류"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "%(user)s 님은 이미 채널 모더레이터입니다."
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "대화 오류"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "대화 오류"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "사용자와 연결이 끊겼습니다."
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "대화 오류"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "%(user)s 님은 채널 모더레이터가 아닙니다."
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "대화 오류"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "채널 최대 수용 인원을 초과하였습니다."
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "채널 연결 오류"
+
+msgid "server/errors/notAllowed/message"
+msgstr "해당 명령을 수행할 권한이 충분하지 않습니다."
+
+msgid "server/errors/notAllowed/title"
+msgstr "대화 오류"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "보안 채널 비밀번호를 입력하십시오."
+
+msgid "server/errors/passwordRequired/title"
+msgstr "채널 참가 오류"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "해당 설정은 지금 변경할 수 없습니다."
+
+msgid "server/errors/sqlError/message"
+msgstr "DB 읽기 오류"
+
+msgid "server/errors/sqlError/title"
+msgstr "오류"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "해당 사용자의 차단 목록에 추가되었습니다."
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "오류"
+
+msgid "server/errors/userNotExists/message"
+msgstr "사용자가 존재하지 않습니다."
+
+msgid "server/errors/userNotExists/title"
+msgstr "오류"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "주소록의 최대치를 초과하였습니다."
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "오류"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "채널 허용 수를 초과했습니다."
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "채널 이름 허용 글자 수를 초과했습니다."
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "채널 비밀번호 허용 글자 수를 초과했습니다."
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "\"%(strArg1)s\" 채널은 이미 존재합니다."
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "채널 이름에 유효하지 않은 문자가 포함되어 있습니다."
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "채널 이름에 금지어가 포함되어 있습니다."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "배틀 로얄"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "배틀 로얄 전용 전차입니다. 배틀 로얄에 참여하여 전차 성능을 알아보십시오."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "전차 격파"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "레벨 달성"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "점수 획득"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "승리"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "추가"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "확인"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "작전으로 이동"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "전적"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "이벤트"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "무료 이벤트 종료"
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "WoT 플러스 선택식 경험치 보너스 이용 가능"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "WoT 플러스 선택식 경험치 보너스 이용 불가"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "%s의 소모품 재보급에 실패했습니다. 계정 통합 계좌가 복구되는 대로 다시 골드를 사용할 수 있습니다."
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "%s의 지휘명령 재보급에 실패했습니다. 서버 점검으로 인해 일시적으로 작업을 수행할 수 없습니다."
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "%s의 지휘명령 재보급에 실패했습니다. 보유량이 부족합니다."
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "%s의 지휘명령 자동 재보급에 실패했습니다. 직접 장착해 주십시오."
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "%s의 지휘명령 재보급을 완료했습니다. 소모: "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "%s의 소모품 재보급에 실패했습니다. 소모품을 골드로 구매해 보십시오."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "크레딧이 부족하여 %s의 소모품 재보급에 실패했습니다."
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "%s의 소모품 재보급에 실패했습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "%s의 소모품 자동 재보급에 실패했습니다. 정비창에서 수동으로 보급하여 주십시오."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "%s의 소모품 재보급을 완료했습니다. 소모: "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "%s의 포탄 재보급에 실패했습니다. 포탄을 골드로 구매해 보십시오."
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "크레딧이 부족하여 %s의 포탄 재보급에 실패했습니다."
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "%s의 포탄 자동 재보급에 실패했습니다. 정비창에서 수동으로 보급하여 주십시오."
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "%s의 포탄 자동 보급에 실패했습니다. 정비창에서 수동으로 보급하여 주십시오."
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "%s의 포탄 재보급을 완료했습니다. "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "%s 스타일 대여 기간 연장에 실패했습니다. 골드로 스타일을 구매해 보십시오."
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "%s 스타일 대여 기간 연장에 실패했습니다. 크레딧 또는 골드가 부족합니다."
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "%s 스타일 대여 기간 연장에 실패했습니다. 잠시 후 계정 통합 계좌가 복구되는 대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "대여 기간 연장"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "%s 대여 스타일(전차: %s)이 곧 만료됩니다. 전투 3회 남았습니다."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "%s 대여 스타일(전차: %s)이 전투 3회 후 자동으로 %s회 연장됩니다."
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "전차 꾸미기로 이동"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "%s 대여 스타일(전차: %s)이 만료되었습니다. 전차 꾸미기 화면에서 해당 스타일 대여 기간을 연장할 수 있습니다."
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "%s 스타일 대여 기간 자동 연장에 실패했습니다. 스타일을 수동으로 구매하십시오."
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "%s 스타일 대여 기간이 연장되었습니다. 소모: "
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "%s 수리에 실패했습니다."
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "크레딧이 부족하여 %s의 수리에 실패했습니다."
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "%s 수리에 실패했습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "%s의 자동 수리에 실패했습니다. 정비창에서 수동으로 수리하여 주십시오."
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "%s 수리를 완료했습니다. "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "WoT 플러스 깃발 이용 가능"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "WoT 플러스 깃발 이용 불가"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "증표 추가"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "WoT 플러스 전투 보너스 이용 가능"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "WoT 플러스 전투 보너스 이용 불가"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "임무 완료: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "기갑학교 연속 임무를 완료했습니다."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "토큰은 원하는 6단계 일반 전차와 교환할 수 있습니다."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "전차 선택으로 이동"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "축하합니다!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "기갑학교 임무 완료: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "획득한 보상:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "기갑학교 토큰 사용 완료"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "획득한 보상:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "차고 슬롯: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "대여 전차: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "훈련 임무를 완료하고 전차와 유용한 자원을 획득해 보십시오."
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "기갑학교로 이동"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "시작에 필요한\n모든 지식"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "기갑학교 토큰"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "잔여 점수 사용"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "정예 행로 활성화 시 사용된 잔여 점수: %(points)s"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "잔여 점수 사용: %(chapter)s 챕터에 %(points)s"
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "일반 장비(선택)"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "정예 행로 활성화"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "정예 행로 진행이 일시 중지되었습니다."
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "점수 제한 도달"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "%(vehName)s 전차로 획득 가능한 모든 점수를 획득했습니다.\n점수 제한 도달 보상: %(bonusPoints)s\n점수를 계속 획득하려면 다른 전차로 전투에 참여하십시오."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "축하합니다!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "%(name)s 스타일을 획득했습니다. 스타일을 즉시 전차에 적용할 수 있으며 배틀 패스 진행 기간에 업그레이드할 수 있습니다."
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "포상 장비(선택)"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "세부 사항"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "세부 사항"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "배틀 패스 %(chapter)s 챕터 완료!\n보상 획득:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "배틀 패스 %(chapter)s 챕터 완료!\n보상 획득:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "배틀 패스 진행 스테이지 %(newLevel)s 완료!\n\n보상 획득:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "챕터 %(chapter)s에 스테이지 추가: %(levelCount)s\n스테이지 %(currentLevel)s 달성!\n보상 획득:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "이미 완료한 배틀 패스 스테이지 보상 획득:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "이제 기본 보상과 강화 보상을 모두 획득할 수 있습니다."
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "잔여 점수를 사용하여 스테이지를 완료하고 보상 획득:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "%(chapter)s 챕터 완료\n보상 획득:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "계속 전투에 참여하여 점수를 수집하십시오!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "배틀 패스 시즌 %(season)s 주요 챕터를 모두 완료했습니다.\n보상 획득:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "%(chapter)s 챕터 진행 스테이지 %(newLevel)s 완료!\n보상 획득:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "세부 사항"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "자유 경험치 소모:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "골드 소모:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "%(chapter)s 챕터의 강화 패스와 모든 스테이지를 구매했습니다.\n해당 챕터 모든 스테이지의 보상 획득:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "강화 패스를 구매하여 다음 보너스 획득:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "이제 해당 시즌 모든 챕터의 기본 보상과 강화 보상을 획득할 수 있습니다."
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "챕터 %(chapter)s에 스테이지 추가: %(levelCount)s\n스테이지 %(currentLevel)s 달성!\n보상 획득:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "강화 패스를 구매하여 다음 보너스 획득:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "해당 강화 패스는 %(chapter)s 챕터에만 적용됩니다."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "이미 완료한 배틀 패스 스테이지 보상 획득:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "해당 강화 패스는 %(chapter)s 챕터에만 적용됩니다."
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "이제 %(chapter)s 챕터의 기본 보상과 강화 보상을 모두 획득할 수 있습니다."
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "자동 선택 보상: "
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "강화 패스 구매 완료"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "강화 패스 구매 완료"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "스테이지 구매 완료"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "축하합니다!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "보상 획득 가능"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "정예 행로 스테이지를 완료했습니다.\n보상 획득:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "정예 행로 스테이지 완료: %(amount)s\n보상 획득:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "승무원:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "전투 성과"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "%s 획득: '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "%s 획득: '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "토큰 %s개"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s 크레딧"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "%s 전쟁 채권"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "기념일 코인 %s개"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s 자유 경험치"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s 골드"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "전투"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "배틀 패스 점수 획득: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "토큰 획득"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "세부 사항"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "아군이 입힌 피해에 대한 보상 %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "크레딧 획득: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "전쟁 채권"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "패배"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "매일 첫 승리 보너스 x%d"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "무승부"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "전투 종료"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "보급 점수"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "부속품 획득"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "기념일 코인 획득"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "경험치 획득: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "원정"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "군영"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "자원 획득"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "클랜"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "플레이어"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "자유 경험치 획득"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "획득한 골드"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "%(campaignName)s에 합류하여 보상으로 %(nameMedal)s 훈장이 지급되었습니다."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "축하합니다!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "%(campaignName)s 캠페인 %(categoryName)s 임무를 45개 완료하여 보상으로 %(nameMedal)s 훈장이 지급되었습니다."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "%(campaignName)s 캠페인 %(categoryName)s 임무를 30개 완료하여 보상으로 %(nameMedal)s 훈장이 지급되었습니다."
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "%(campaignName)s 캠페인 %(categoryName)s 임무를 15개 완료하여 보상으로 %(nameMedal)s 훈장이 지급되었습니다."
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "아군에 입힌 피해에 대한 벌금: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "축하합니다!\n개인 임무 완료 보상 획득"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "축하합니다!\n개인 임무 전차 포획 작전 캠페인을 완료하여 다음 보상 지급"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "축하합니다!\n개인 임무 제2차 전선 캠페인을 완료하여 다음 보상 지급"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "축하합니다!\n개인 임무 두 캠페인을 모두 완료하여 다음 보상 지급"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "크레딧 금고에 추가"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "임무 완료! 보상"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "전적"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "배틀 패스 점수 획득: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "막사에 침상 추가 완료"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "토큰 추가"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "크레딧 획득"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "전쟁 채권 획득"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "부속품 추가"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "기념일 코인 추가"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "자유 경험치 획득"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "골드 획득"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "추가"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "캠페인 점수: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "동물 대원 획득"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "워게이밍 프리미엄 계정 추가"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "월드 오브 탱크 프리미엄 계정 추가"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "보너스 전투 추가: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "일일 %(count)s회"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "일반 %(count)s회"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "슬롯 추가"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "보너스 전투 추가"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \n일반 보너스 전투(완료한 스테이지 성적 기준): %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \n임무 완료 보상: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \n일일 보너스 전투(예선에서 획득한 계급장 수 기준): %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \n일반 보너스 전투(예선에서 획득한 계급장 수 기준): %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "랭크 변동 사항"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \n계급장 획득"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \n계급장 획득"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \n편성 이동: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \n리그로 이동"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \n계급장 유지"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \n랭크 %(rankName)s (%(divisionName)s) 달성"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \n랭크 %(rankName)s (%(divisionName)s) 강등"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \n랭크 방어 점수 감소"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \n변동 없음"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \n랭크 방어 점수 고갈"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \n계급장 유지"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \n계급장 획득"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \n계급장 잃음"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \n계급장 획득"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "레이팅 점수"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "연차에 따라 다음 보상 획득"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "축하합니다!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "승무원 충원"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "전차"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "여성 승무원"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "몰수패"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "몰수승"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "승리"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "지도 제외 슬롯 1개가 제거되었습니다. %(mapName)s 지도 전투에 투입될 수 있습니다."
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "제외한 %(mapNames)s 지도가 게임에서 제거되었습니다. 다른 지도를 제외할 수 있습니다."
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "지도 제외 슬롯 1개가 제거되었습니다. %(mapNames)s 지도 전투에 투입될 수 있습니다."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "특별 이벤트가 시작되었습니다!\n10일 동안 설계도면을 다른 아이템으로 교환할 수 있습니다."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "세부 사항"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "특별 이벤트 종료"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "설계도면 교환"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "점검 중이므로 설계도면 교환 기능을 이용할 수 없습니다."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "설계도면 교환 기능이 복구되었습니다."
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "잊지 말고 보상을 수령하십시오!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "선택 화면으로 이동"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "진행 중인 전투의 보너스는 포함되지 않습니다."
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "기술적인 문제로 \"%(boosterName)s\" 개인 물자를 사용할 수 없습니다."
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: 개인 물자 사용 완료"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "물자 제거:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "물자 만료"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "크레딧"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "자유 경험치"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "승무원 경험치"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "일반 경험치"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "%(resourceName)s 총 보너스"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "닫기"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "클랜 탈퇴 또는 제외:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "%(element_name)s 추가"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "\"%(element_name)s\" 훈장 추가"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "\"%(element_name)s\" 수장 추가"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "보상 획득"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "칭찬 받음"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "현재 라이브 태그 이용 불가"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "전투에서 라이브 태그 이용 가능"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "현재 칭찬 시스템 이용 불가"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "전투에서 칭찬 시스템 이용 가능"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "%(gold)s골드, %(credits)s크레딧을 획득했습니다."
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "%(credits)s크레딧을 획득했습니다."
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "승무원 어시스턴트 이용 가능"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "승무원 어시스턴트 이용 불가"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "크레딧 및 골드 금고 개방!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "경합"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "배틀 패스"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "날짜"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "토큰 제거"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "공제된 크레딧"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "전쟁 채권 차감"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "부속품 제거"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "기념일 코인 제거"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "자유 경험치 충전"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "골드 사용"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "내역"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "경합"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "토큰 획득"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "획득한 크레딧"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "전쟁 채권 획득"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "부속품 획득"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "기념일 코인 획득"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "자유 경험치 획득"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "골드 획득"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "우리 시대의 영웅 업적"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "전투 %(battlesCount)s회 참여에 따라 %(medalName)s 훈장 획득\n전투 %(battlesCount)s회 참여에 따라 데칼 %(decalsCount)s개 획득"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "서버 점검으로 인해 일시적으로 장비 해체 도구 관련 작업을 수행할 수 없습니다."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "장비 해체 도구 관련 작업을 다시 수행할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "인식표 바탕 해제: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "인식표 그림 해제: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "%(name)s 인식표"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "달성 레벨"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "새로운 레벨"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "해제"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "바탕"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "그림"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "워게이밍 프리미엄 계정이 %(expiryTime)s에 만료됩니다."
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "이메일 주소 인증"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "이메일 주소 미인증"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "시제 부품 소모"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "모든 시제 부품 제거"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "다음 전차에서 시제 부품 해체"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "시나리오"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• 장비 지휘명령(선택)"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• 배틀 패스 점수"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• 범용 책자"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• 전쟁 채권"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• 보급 점수"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• 시제 장비(선택)"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• 인수인계 허가증"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• 재훈련 명령서"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• 범용 교본"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "기념일 코인 %(eventCoin)s개를 획득하였습니다."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "지도 제외 추가 슬롯 해제"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "WoT 플러스로 지도 제외 불가"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "사유"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "Boosteroid 구독이 만료되었습니다."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "구독이 만료되었습니다."
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "전차 비활성화"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "전차"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "전차 이용 가능"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "전차"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "진행 상황 초기화"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "임무 확인"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "주의! %(missionShortName)s 임무 진행 상황이 초기화되었습니다. 다시 처음부터 진행합니다."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "임무: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "작전: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "세부 정보"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "일정 시간 %(mode)s 모드 전투 참여가 차단됩니다. %(date)s에 차단이 해제됩니다."
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "차단이 해제되었습니다. 다시 %(mode)s 모드를 플레이할 수 있습니다."
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "%(reason)s 사유로 %(mode)s 모드 전투에서 획득한 크레딧, 경험치, 보상이 몰수됩니다."
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "%(reason)s 사유로 %(mode)s 모드에서 경고가 주어졌습니다."
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "차단"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "차단 해제"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "제재 적용"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "비신사적인 행동"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "%(clan)s 클랜에 선전포고!\n%(date)s %(time)s에 원정이 시작됩니다."
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "방어 불가!\n모든 공격이 취소되었습니다. 요새를 정상적으로 가동하려면 사령부를 수리하십시오."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "%(clan)s 클랜과의 예정된 전투가 취소되었습니다."
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "%(date)s, %(time)s에 예정된 %(clan)s 클랜 상대 원정이 취소되었습니다. 요새가 2레벨 이상 차이 납니다."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "%(building)s 군영이 손상되었습니다! 정상적으로 가동하려면 수리하여 내구도를 채우십시오."
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "사령부가 손상되었습니다! 요새를 정상적으로 가동하려면 사령부를 수리하십시오. 사령부가 계속 공격받으면 방어 불가 상태가 됩니다."
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "%(clan)s 클랜의 선전포고!\n%(date)s %(time)s에 원정이 시작됩니다."
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "방어 시간 설정: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "방어 시간이 설정되었습니다. 새로운 방어 시간: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "요새 방어가 비활성화되었습니다. 모든 군영과 물자가 레벨 IV로 감소합니다."
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "추가합니다! 소속 클랜 요새를 8단계로 강화했습니다."
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "축하합니다! 요새가 작동합니다."
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "휴전일이 변경되었습니다. 새로운 휴전일을 설정하지 않았습니다."
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "휴전일 설정: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "%(building)s 레벨이 증가했습니다.\n비축된 %(order)s 물자를 자원으로 전환하고 군용 창고에 추가했습니다."
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "%(orderTypeName)s 물자가 회수되었습니다. 활성화할 수 있습니다."
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "홈 서버가 %(peripheryName)s 서버로 변경되었습니다."
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "자원 추가: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "자원 감소: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "%(building)s에 소속되었습니다."
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "물자 추가: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "물자 제거: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "%(order)s 물자가 활성화되었습니다. 남은 시간: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "활성화된 물자"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "%(order)s 물자 사용을 종료합니다."
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "%(order)s 물자 %(count)s개를 비축했습니다."
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "자원 후송 물자가 만료되었습니다.\n\n%(additional)s\n소속 클랜: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "적군이 자원 징발 물자 사용으로 약탈한 추가 자원: %(resDec)s\n소속 클랜 자원 손실 감소량: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "자원 징발 물자가 만료되었습니다.\n\n%(additional)s\n소속 클랜: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "적군이 자원 후손 물자 사용으로 감소한 손실 자원: %(resDec)s\n소속 클랜원 추가 자원 약탈량: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "%(building)s 창고가 가득 찼습니다.\n자원을 사용하여 물자를 비축하거나 다른 군용에 보급하십시오."
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "요새 중립 기간이 종료되었습니다!\n다른 클랜의 공격을 받을 수 있습니다. 준비하십시오!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "소속 클랜 요새가 중립을 선언했습니다.\n다른 클랜의 공격을 받지 않습니다. 중립 종료: %(finish)s"
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "사령부 창고에 자원이 %(defResCount)s 추가되었습니다."
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "이벤트로 이동"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "진행 상황으로 이동"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "%(gold)s 골드를 획득하였습니다."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "경합: 제출한 경합 비용이 경쟁 경합 비용보다 낮습니다."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "현재 경합에서 승리할 확률 감소: 제출한 경합 비용이 경쟁 경합 비용보다 낮습니다."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "이벤트로 이동"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "경합 패배! 반환:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "제출한 경합 비용이 다른 플레이어보다 낮았습니다. 경합 비용이 곧 계정에 반환됩니다."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "오류"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "경합 비용 제출 중 오류가 발생했습니다. 자금은 소모되지 않았습니다. 다시 시도해 주십시오."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "경합이 곧 마감됩니다."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "서둘러 경합 비용을 제출하십시오!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "서둘러 경합 비용을 제출하십시오! 아이템 수량이 제한되어 있습니다."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "새로운 경합이 시작되었습니다!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "막사에 침상 추가 완료"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "막사에서 침상 제거 완료"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "개인 물자"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "개인 물자 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "토큰 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "토큰 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "대체 보상"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "지급 토큰"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "위장"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "크레딧"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "전쟁 채권"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "문양"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "및 기념일 코인"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "골드"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "문자"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "효과"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "도료"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "1자리 숫자"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "2자리 숫자"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "3자리 숫자"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "데칼"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "스타일"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "크레딧 획득"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "잔액에서 크레딧이 인출되었습니다"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "승무원 훈련서 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "승무원 막사로 보내기 완료"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "%d%% 승무원"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "승무원 스킨 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "승무원 스킨 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "%d%% 승무원 막사로 보내기 완료"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "승무원 제거 완료"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "전쟁 채권 획득"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "전쟁 채권 차감"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "개인 할인"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "업적 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "업적 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "시제 부품 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "시제 부품 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "추가"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "제거"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "부속품 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "부속품 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "소모품"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "소모품 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "기념일 코인 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "기념일 코인 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "기한 개인 물자"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "명령서 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "명령서 차감"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "자유 경험치"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "자유 경험치 획득"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "자유 경험치 충전"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "골드 획득"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "골드 사용"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "범용 조각 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "범용 조각 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "획득"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "보관소에 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "소모품 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "장착 중"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "%(nationName)s 전차 설계도면 조각 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "%(nationName)s 전차 설계도면 조각 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "추가"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "제거"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "개"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "워게이밍 프리미엄 계정 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "차감된 워게이밍 프리미엄 계정"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "워게이밍 프리미엄 계정"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s 전차가 정예 점수 %(xpCount)s점을 획득했습니다."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s 전차가 정예 레벨 %(level)s에 도달하였고 정예 점수 %(xpCount)s점을 획득했습니다."
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s 전차가 정예 레벨 %(level)s에 도달하였습니다."
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "지급처:"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "Steam DLC"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Steam 보관함"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "보너스 전투 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "보너스 전투 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "대여 기간(일): "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "슬롯 추가 완료"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "슬롯 제거완료"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "월드 오브 탱크 프리미엄 계정"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "월드 오브 탱크 프리미엄 계정 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "차감된 월드 오브 탱크 프리미엄 계정"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "승무원 모집"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "승무원에 분배되지 않은 경험치 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "승무원으로부터 분배되지 않은 경험치 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "해산"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "모든 부품 연구 완료"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "%(vehicleName)s 전차 설계도면 조각 추가"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "%(vehicleName)s 전차 설계도면 조각 제거"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "전차 획득"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "전차 삭제 완료"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "특별 전차 추가 완료"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "소모품 %(typeName)s \"%(itemName)s\" - %(amount)d개를 획득하였습니다."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "상자로 이동"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "버튼을 눌러 내용물을 확인하십시오."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "상자 획득:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "표시"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "게이트 활성화: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "게이트 활성화"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "아이템 획득:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "모든 게이트 활성화 및 아이템 획득:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "보상 획득"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "모든 상자 개봉 완료, 연말연시 작전 보상 추가"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "보상 획득"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "데칼 추가:"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "데칼 추가:"
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "설문 조사로 이동"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "축하합니다!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "정찰 임무가 종료되었습니다. 새로운 지도 개발에 참여해 주셔서 감사합니다!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "정찰 임무가 종료되었습니다.\n\n새로운 지도 개발에 참여해 주셔서 감사합니다!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "정찰 임무가 시작되었습니다.\n\n개발 중인 지도에서 8단계~10단계 전차로 전투를 펼치고 설문 조사 참여 후 보상을 획득해 보십시오!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "최종 보상:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "정찰 임무 전투에 %(battles)s회 참여했습니다."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "보상 획득:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "정찰 임무 모드 기능 관련 설문 조사에 참여할 수 있습니다."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "설문 조사 참여 가능"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "정찰 임무 내 %(mapName)s 지도 관련 설문 조사에 참여할 수 있습니다."
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "막사로 이동"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "제거된 승무원: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "전방 지원 보급품"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "장비 어시스턴트 이용 가능"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "장비 어시스턴트 이용 불가"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "새로운 물자:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "획득 알림"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "물자 만료까지:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "기한 물자 곧 만료"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "크레딧 획득: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "일자: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "내역"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "보관소에 추가: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "획득"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "축적이 다시 시작되었습니다."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "축적이 다시 시작되었습니다. 크레딧을 획득하려면 월드 오브 탱크 프리미엄 계정을 활성화하십시오."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "축적이 다시 시작되었습니다. 골드를 획득하려면 WoT 플러스를 구독하십시오."
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "크레딧 금고 내 크레딧 축적이 중지되었습니다."
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "크레딧 금고 개방!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "보상 수령"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "합동 과정 완료!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "진행 상황으로 이동"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "합동 과정"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "특별 보상을 이용할 수 있습니다."
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "클랜전"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "전투결과"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "토너먼트"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "패배"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "무승부"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "결과가 확정되지 않았습니다."
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "승리!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "생성자가 삭제"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "전략 실패"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "제외되었습니다."
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "전략 패배"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "전략 무승부"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "결과가 확정되지 않았습니다."
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "전략 승리!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "시간 초과"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "완료"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(전투 %s개)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "부분 결과"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "결과"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "워게이밍 프리미엄 계정을 획득했습니다. %(expiryTime)s에 만료됩니다."
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "워게이밍 프리미엄 계정이 변경되었습니다. %(expiryTime)s에 만료됩니다."
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "워게이밍 프리미엄 계정이 만료되었습니다."
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "워게이밍 프리미엄 계정을 연장했습니다. %(expiryTime)s에 만료됩니다."
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "월드 오브 탱크 프리미엄 계정을 획득했습니다. %(expiryTime)s에 만료됩니다."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "월드 오브 탱크 프리미엄 계정이 변경되었습니다. %(expiryTime)s에 만료됩니다."
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "월드 오브 탱크 프리미엄 계정이 만료되었습니다."
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "월드 오브 탱크 프리미엄 계정을 연장했습니다. %(expiryTime)s에 만료됩니다."
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "워게이밍 프리미엄 %(days)d일이 지급되었습니다."
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "정예 시스템으로 이동"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "정예 레벨이 상승하고 정예 징표를 획득했습니다."
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "정예 시스템"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "전차로 이동"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "정예 레벨 상승"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "정예 보상 수령 중 문제가 발생했습니다."
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "정예 레벨 %(lvl)s 달성에 따라 %(rewardName)s %(typeReward)s 보상이 지급되었습니다."
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "정예 보상 획득"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "주의!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "세부 정보"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "위장"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "데칼"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "문양"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "문자"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(level)s%(name)s %(typeName)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "외 %(count)s개"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "레벨 %(level)s "
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "도료"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "데칼"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "획득:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "%(name)s 스타일"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "축하합니다!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "세부 사항"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "공로 보상"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "전투에 참여하고 보상을 획득해 보십시오. 전투에 더 많이 참여할수록 보상에 가까워집니다."
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "고급 보상 획득"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "세부 사항"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "랭크 토큰 %(surplusPoints)s개를 %(count)s전쟁 채권으로 교환했습니다."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "축하합니다!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "최고 보상 획득"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "일반 보상 획득"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "소형 보상 획득"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "2021~2022년에 획득한 랭크 토큰은 %(points)s개입니다."
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "연간 보상"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "지원군 도착!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "%(event)s 중 승무원을 획득했습니다."
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "충원하지 않은 승무원 %(count)s명이 있습니다. %(date)s에 제거되는 승무원이 있습니다!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "미충원 승무원: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "증표 제거"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "혜택"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "%(vehicleName)s 사용 중 잔여 크레딧"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "%(vehicleName)s 사용 중 잔여 골드"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "%(vehicleName)s 사용 기간이 종료되었습니다."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "설계도면 조각: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "크레딧: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "전쟁 채권: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "세부 정보"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "자유경험치: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "골드: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "범용 조각"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "현재 진행 상황: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "제작소 작업에 소모된 자원:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "자원 소모"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "자원 사용"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "제작소로부터 반환된 자원:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "자원 반환"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "훈련 책자(선택)"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "훈련 지침(선택)"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "위장"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "정기 점검으로 %s의 유지 기간이 연장되었습니다 ."
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "문양"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "문자"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "워게이밍 프리미엄 계정"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "월드 오브 탱크 프리미엄 계정"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "대여"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "게임 서버가 %(date)s에 차단될 예정입니다."
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "게임 서버가 %(date)s에 차단되는 것으로 변경됐습니다."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "전적 꾸미기 이용 가능"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "해당 기능을 이용할 수 없습니다."
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "현재 전적 꾸미기 이용 불가"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "범용 조각 (%(fragmentsCount)s개)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "국가 조각 (%(nationName)s) (%(fragmentsCount)s개)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "특별 보상"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "%(vehicleName)s 전차 설계도면 조각 (%(fragmentsCount)s개)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "이메일 인증 보상 획득:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "축하합니다!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "보상으로 이미 연구한 전차의 설계도면 조각 획득:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "위장무늬 변경 완료"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "받은 크레딧: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "공제된 크레딧: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "전쟁 채권: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "전쟁 채권: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "전차 외관이 변경되었습니다"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "전차 꾸미기 요소가 변경되었습니다. 구매한 요소: %(count)s. 소모 비용: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "문양 변경 완료"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "기념일 코인 추가: %(eventCoin)s개"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "기념일 코인 제거: %(eventCoin)s개"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "받은 보너스 경험치: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "공제된 보너스 경험치: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "받은 골드: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "공제된 골드: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "문자 변경 완료"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "범용 조각"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "%(nationName)s 국가 조각"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "업데이트 적용에 따라 모든 데칼이 제거되어 보관소 보유 항목의 전차 꾸미기로 이동했습니다."
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "슬롯 추가: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "슬롯 제거: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "주의!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "전차 추가: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "전차 삭제: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "다음 전차 꾸미기 요소 구매 완료:\n%(items)s\n%(money)s 소모"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "\"%(itemName)s\" %(itemType)s 구매 완료\n%(money)s 소모"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "%(name)s 스타일 레벨 %(level)s 구매 완료!\n%(money)s 소모"
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "전차 꾸미기 요소 변경 완료"
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "\"%(itemName)s\" %(itemType)s (%(count)s개)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "%(styleName)s 스타일 레벨 %(level)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "전차에서 전차 꾸미기 요소 제거 완료"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "축하합니다!\n진행 데칼 적용 시 %(vehicleName)s 전차 사전 설정 스타일을 변형할 수 있습니다."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "축하합니다!\n%(vehicleName)s 전차 전용 레벨 1 \"%(itemName)s\" 데칼을 획득했습니다."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "축하합니다!\n레벨 1 \"%(itemName)s\" 데칼을 획득했습니다."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "%(vehicleName)s 전차 전용 \"%(itemName)s\" 데칼이 레벨 %(level)s에 도달했습니다."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "전차 꾸미기로 이동"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "\"%(itemName)s\" 데칼 레벨 %(level)s 달성"
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. 소모 비용: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "사막 지도: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "하계 지도: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "동계 지도: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. 획득: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "장비 분해 완료"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (%(count)s개)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "전차 꾸미기로 이동"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "부품이 교체되어 %(vehicle)s 전차에서 다음 전차 꾸미기 요소가 제거되었습니다."
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "전차 꾸미기"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "장비 분해 완료"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "해체"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "오류"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "내역"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "보관소 아이템 판매:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "결제 수단 \"%(method)s\" 추가"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "결제 수단 \"%(method)s\" 제거"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "연구 완료"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "구매 완료"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "차고에서 제거:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "수리비"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "복구"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "판매"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "장비 강화"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "월드 오브 탱크 프리미엄 계정 %(days)d일이 지급되었습니다."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "물자로 이동"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "%(vehicleName)s 전차의 위장 기간이 만료되었습니다."
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "%(vehicleName)s 전차의 문장 사용 기간이 만료되었습니다."
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "%(vehicleName)s 전차의 문자 사용 기간이 만료되었습니다."
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "수집 이용 가능"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "축하합니다!\n%(nation)s %(level)s단계 전차 연구를 완료했습니다. 이제 상점에서 해당 국가의 같은 단계 수집 전차를 구매할 수 있습니다."
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "전차가 파괴되었습니다. %(vehicleName)s 전차는 %(expireTime)s까지 클랜전에서 사용할 수 없습니다."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "해제되었습니다. %(vehicleName)s 전차를 클랜전에서 사용할 수 있습니다."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "%(vehicle)s 집중 개량이 모두 제거되었습니다."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "개량 제거"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "비활성화"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "활성화"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "%(tankName)s 전차는 전투 시작 전 초읽기 중 장비 및 지휘명령 구성 전환 기능이 %(state)s되어 있습니다."
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "%(tankName)s 전차는 전투 시작 전 초읽기 중 포탄 및 소모품 구성 전환 기능이 %(state)s되어 있습니다."
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "프리미엄 전차 획득: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "전차를 대여할 수 없습니다. 크레딧 또는 골드가 부족합니다."
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "%(vehicleName)s 전차를 대여했습니다. 대여 종료일: %(expiryTime)s"
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "해제되었습니다. 전차를 클랜전에서 사용할 수 있습니다."
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "%(srcName)s 플레이어가 당신의 계정으로 %(srcWares)s 골드를 이체하였습니다."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s 골드가 플레이어 %(dstName)s 에게 이체되었습니다. 수수료: %(fee)s"
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "%(level)s단계 전차 할인"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "획득한 실전 복귀 진행 완료 보상:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "보상 선택"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "%(level)s단계 전차 할인"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% 및 %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "구매 및 연구 비용 할인 추가:"
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "축하합니다!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "%(level)s단계 전차"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "이용 가능한 범주 내에서 보상을 선택하십시오."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "선택"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "보상 획득!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "배틀 패스 플러스 혜택이 비활성화되었습니다."
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "현재 배틀 패스 플러스 이용 불가"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "배틀 패스 플러스 이용 가능"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "매일 게임에 접속하여 더 많은 보상을 획득해 보십시오!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "특별 점호 보상 획득!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "점호 주기 완료"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "게임에 접속하여 보상을 획득해 보십시오."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "점호 주기 시작!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "점호 보상"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "내일도 접속하여 새로운 보상을 획득해 보십시오!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "점호 인원 보고 완료!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "점호 보상 혜택이 비활성화되었습니다."
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "점호 보상 이용 불가"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "점호 보상 이용 가능"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "특전 전차인 <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s를 운용할 수 있습니다."
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "WoT 플러스 특전 전차인 <font color='#E9E2BF'>%(vehicleName)s</font> %(vehicleType)s를 운용할 수 없습니다."
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT 플러스 코어 만료: %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "장비 무료 해체 불가"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "다시 WoT 플러스를 구독하여 모든 혜택을 누려 보십시오."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT 플러스 만료: %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT 플러스 프로 만료: %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "골드 축적 혜택이 만료되었습니다."
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "현재 골드 금고 이용 불가"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "골드 금고 이용 가능"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "골드 금고 가득 참: 더 이상 골드 축적 불가"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "골드 금고 개방!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "이제 모든 혜택을 이용할 수 있습니다.\n연장 일자: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "연장 일자: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "180일 플랜이 활성화되었습니다. 모든 혜택을 만끽해 보십시오!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "360일 플랜이 활성화되었습니다. 모든 혜택을 만끽해 보십시오!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "180일 플랜이 활성화되었습니다. 모든 혜택을 만끽해 보십시오!\n연장 일자: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "360일 플랜이 활성화되었습니다. 모든 혜택을 만끽해 보십시오!\n연장 일자: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font> 승무원 집중 훈련이 중단되었습니다. 해당 전차의 승무원을 확인해 주십시오."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "<font color='#E9E2BF'>%(vehicleName)s</font> 승무원 중 집중 훈련 조건을 만족하지 않아 승무원 경험치를 축적할 수 없는 승무원이 1명 이상 있습니다."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "승무원 집중 훈련"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "%(vehicleName)s 승무원 집중 훈련이 활성화되었습니다."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "%(vehicleName)s 승무원 집중 훈련이 비활성화되었습니다."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "승무원 경험치 축적 혜택이 만료되었습니다."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "현재 승무원 집중 훈련 이용 불가"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "승무원 집중 훈련 이용 가능"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "승무원 경험치 무료 보너스를 획득할 전차를 선택하십시오."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "승무원 집중 훈련 전차를 <font color='#E9E2BF'>%(oldVehName)s</font> 전차에서 <font color='#E9E2BF'>%(newVehName)s</font> 전차로 변경하였습니다. <font color='#E9E2BF'>%(oldVehName)s</font> 승무원 경험치 축적이 중단됩니다."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "승무원 집중 훈련 전차 변경"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "승무원 경험치 보너스를 적용할 수 없는 승무원이 1명 이상 있습니다."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "귀중한 승무원 경험치를 놓치고 있습니다!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "%(cooldown)s시간 후에 다시 변경할 수 있습니다."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "%(vehicleName)s에 프로 부스트 활성화"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "다른 전차에 부스트를 활성화할 수 있습니다."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "%(vehicleName)s의 프로 부스트 비활성화"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "프로 부스트 혜택이 비활성화되었습니다."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "현재 프로 부스트 이용 불가"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "프로 부스트 이용 가능"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)s의 부스트가 비활성화되었습니다. %(cooldown)s시간 후에 다시 부스트 활성화 대상을 선택할 수 있습니다."
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "프로 부스트 활성화 대상을 %(vehicleNameTo)s 전차로 변경"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "WoT 플러스 연장 일자 변경"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "목록에서 대여할 전차를 선택하십시오."
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "선택한 대여 전차 없음"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)s 전차가 곧 계정에 추가됩니다."
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "대여 완료!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "해당 혜택이 비활성화되었습니다."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT 플러스 이용 불가"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "WoT 플러스 코어 활성화"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "장비 무료 해체 가능"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "WoT 플러스 활성화"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT 플러스 프로"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT 플러스를 프로로 업그레이드!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "연장"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "%(freeXP)s의 자유 경험치를 획득했습니다."
+
+msgid "status/offline"
+msgstr "오프라인"
+
+msgid "status/online"
+msgstr "온라인"
+
+msgid "xmpp_error/action"
+msgstr "\"%(actionName)s\" 작업을 수행할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "xmpp_error/simple"
+msgstr "나중에 다시 시도해 주십시오."
+
+msgid "xmpp_error/user_room_creation"
+msgstr "\"%(strArg1)s\" 채널을 생성할 수 없습니다."

@@ -1,0 +1,35 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "player_errors/equipment/fastRecharge/gunTemperatureLow"
+msgstr "사용 불가: 주포가 가열되지 않았습니다."
+
+msgid "player_errors/equipment/fastRecharge/vehicleIsNotRecharged"
+msgstr "사용 불가: 주포 재장전 중이 아닙니다."
+
+msgid "player_errors/equipment/fastRecharge/vehicleIsOnFastRecharge"
+msgstr "사용 불가: 이미 재장전 시간이 감소했습니다."
+
+msgid "player_errors/equipment/hunter/noDamagedEnemyVehicles"
+msgstr "사용 불가: 사격으로 피해를 입힌 전차가 없습니다."
+
+msgid "player_errors/equipment/hunter/vehicleIsNotDamaged"
+msgstr "사용 불가: 내구도가 꽉 차 있습니다."
+
+msgid "player_errors/equipment/roleSkill/alreadyActivated"
+msgstr "이미 %(name)s 역할 기술 활성화 상태"
+
+msgid "player_errors/equipment/roleSkill/cooldown"
+msgstr "%(name)s 역할 기술 사용 불가: 재사용 대기 중"
+
+msgid "player_errors/equipment/roleSkill/unavailable"
+msgstr "%(name)s 역할 기술 사용 불가: 충전 필요"
+
+msgid "player_messages/equipment/roleSkill/applied"
+msgstr "%(name)s 역할 기술 활성화!"
+
+msgid "player_messages/equipment/roleSkill/promoted"
+msgstr "%(name)s 역할 기술 충전 레벨 상승!"
+
+msgid "player_messages/equipment/roleSkill/ready"
+msgstr "%(equipment)s 역할 기술 활성화 가능"

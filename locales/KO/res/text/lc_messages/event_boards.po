@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "구축전차 보상"
+
+msgid "awards/class/SPG"
+msgstr "자주포 보상"
+
+msgid "awards/class/heavyTank"
+msgstr "중전차 보상"
+
+msgid "awards/class/lightTank"
+msgstr "경전차 보상"
+
+msgid "awards/class/mediumTank"
+msgstr "중형전차 보상"
+
+msgid "awards/level"
+msgstr "%(level)s 단계 전차 보상"
+
+msgid "awards/nation/china"
+msgstr "중국 전차 보상"
+
+msgid "awards/nation/czech"
+msgstr "체코 전차 보상"
+
+msgid "awards/nation/france"
+msgstr "프랑스 전차 보상"
+
+msgid "awards/nation/germany"
+msgstr "독일 전차 보상"
+
+msgid "awards/nation/japan"
+msgstr "일본 전차 보상"
+
+msgid "awards/nation/poland"
+msgstr "폴란드 전차 보상"
+
+msgid "awards/nation/sweden"
+msgstr "스웨덴 전차 보상"
+
+msgid "awards/nation/uk"
+msgstr "영국 전차 보상"
+
+msgid "awards/nation/usa"
+msgstr "미국 전차 보상"
+
+msgid "awards/nation/ussr"
+msgstr "소련 전차 보상"
+
+msgid "awards/tooltip/class"
+msgstr "해당 전차 유형 보상을 표시합니다."
+
+msgid "awards/tooltip/level"
+msgstr "해당 전차 단계 보상을 표시합니다."
+
+msgid "awards/tooltip/nation"
+msgstr "해당 전차 국가 보상을 표시합니다."
+
+msgid "awards/vehicle"
+msgstr "선택한 전차 보상"
+
+msgid "badge/tooltip/description"
+msgstr "국가의 행진 이벤트 결과에 따라 지급된 특별 증표입니다. 전투 중 닉네임 옆에 양팀 모두에 표시됩니다."
+
+msgid "badgesGroup/tooltip/header"
+msgstr "증표"
+
+msgid "block/award"
+msgstr "주요 보상"
+
+msgid "block/objective"
+msgstr "임무 조건"
+
+msgid "block/task"
+msgstr "임무"
+
+msgid "button/awards"
+msgstr "모든 보상"
+
+msgid "button/awards/tooltip"
+msgstr "해당 경쟁의 모든 보상 목록을 표시합니다."
+
+msgid "button/regulations"
+msgstr "조건"
+
+msgid "button/regulations/tooltip"
+msgstr "해당 경쟁의 세부 설명을 확인합니다."
+
+msgid "condition/battletype/random"
+msgstr "무작위 전투 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "랭크 전투"
+
+msgid "condition/battletype/squadallowed"
+msgstr "소대 가능"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "소대 불가"
+
+msgid "condition/primetime/any"
+msgstr "모든 서버 및 시간"
+
+msgid "condition/primetime/chosen"
+msgstr "특정 서버"
+
+msgid "condition/vehicle/chosen"
+msgstr "특정 전차"
+
+msgid "condition/vehicle/exist"
+msgstr "차고에 보유"
+
+msgid "condition/vehicle/missing"
+msgstr "미보유"
+
+msgid "condition/vehicle/single"
+msgstr "%(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "업적"
+
+msgid "excel/btnClose"
+msgstr "경쟁으로 이동"
+
+msgid "excel/group/title"
+msgstr "그룹"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "레이팅 진입까지 남은 전투: %(number)s"
+
+msgid "excel/noData"
+msgstr "아직 상위권에 오늘 플레이어가 없습니다."
+
+msgid "excel/participate/join"
+msgstr "참여"
+
+msgid "excel/participate/notParticipated"
+msgstr "해당 레이팅에 포함되지 않음"
+
+msgid "excel/subHeader"
+msgstr "경쟁: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "참여"
+
+msgid "header/participate/button/leave"
+msgstr "경쟁 중단"
+
+msgid "header/participate/finished"
+msgstr "경쟁 종료"
+
+msgid "header/participate/notStarted"
+msgstr "참여 완료"
+
+msgid "header/participate/reason/byAge"
+msgstr "%date% 이후에 생성한 계정"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "경쟁 이용 불가"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "해당 경쟁 중단 완료"
+
+msgid "header/participate/started"
+msgstr "참여 중"
+
+msgid "header/timer"
+msgstr "종료까지:"
+
+msgid "maintenance/body"
+msgstr "불편을 드려 죄송합니다."
+
+msgid "maintenance/title"
+msgstr "정보 불러오는 중 오류"
+
+msgid "maintenance/update"
+msgstr "업데이트"
+
+msgid "notification/buttons/details"
+msgstr "상세 정보"
+
+msgid "notification/eventFinished/body"
+msgstr "%(eventName)s 경쟁이 종료되었습니다. 곧 입상자가 선정될 예정이며 입상자 선정 후 보상이 지급됩니다."
+
+msgid "notification/eventFinished/header"
+msgstr "경쟁 종료"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "이제 전투 결과가 해당 경쟁에 반영됩니다. 레이팅에 진입하여 보상을 획득해 보십시오."
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "참여 완료"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "경쟁이 시작되면 전투 결과가 경쟁에 반영됩니다. 레이팅에 진입하여 보상을 획득해 보십시오."
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "참여 완료"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "참여 불가: 조건이 만족하지 않습니다."
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "참여 불가: 등록 기간이 종료되었습니다."
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "해당 경쟁 전적은 레이팅 갱신 후 초기화됩니다."
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "경쟁 중단 완료"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "전적이 해당 경쟁에 반영되지 않습니다."
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "경쟁 중단 완료"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "경쟁 중단 불가: 시간이 만료되었습니다."
+
+msgid "notification/eventStarted/body"
+msgstr "%(eventName)s 경쟁이 시작되었습니다! 경쟁 종료 시 상위권에 들면 값진 보상을 획득할 수 있습니다."
+
+msgid "notification/eventStarted/header"
+msgstr "경쟁 시작"
+
+msgid "notification/unknownError/body"
+msgstr "해당 작전을 완료할 수 없습니다."
+
+msgid "orders/title"
+msgstr "조건"
+
+msgid "popover/buttons/cancel"
+msgstr "취소"
+
+msgid "popover/buttons/rating"
+msgstr "레이팅으로 이동"
+
+msgid "popover/buttons/select"
+msgstr "선택"
+
+msgid "popover/noVehicles"
+msgstr "선택한 필터에 맞는 전차가 없습니다."
+
+msgid "popover/resetFilter"
+msgstr "필터 초기화"
+
+msgid "popover/title"
+msgstr "레이팅 목록"
+
+msgid "popover/title/vehicle"
+msgstr "레이팅 목록"
+
+msgid "popover/tooltip/class"
+msgstr "선택한 유형 전차 레이팅으로 이동합니다."
+
+msgid "popover/tooltip/level"
+msgstr "선택한 단계 전차 레이팅으로 이동합니다."
+
+msgid "popover/tooltip/nation"
+msgstr "선택한 국가 전차 레이팅으로 이동합니다."
+
+msgid "server/list"
+msgstr "전투 결과를 경쟁에 반영하려면 다음 서버로 이동:"
+
+msgid "server/noSuitable/body"
+msgstr "전투 결과는 %(data)s에 반영됩니다. 경쟁 일정:"
+
+msgid "server/noSuitable/header"
+msgstr "현재 전투 결과가 경쟁에 반영되지 않음"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s, %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "내 최고 기록"
+
+msgid "status/bestResults/one"
+msgstr "내 기록"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "경쟁 이용 불가:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "게임 규정 위반으로 해당 경쟁에 참여할 수 없음"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "%(date)s 이후 생성한 계정"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "무작위 전투 참여 횟수 부족: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "무작위 전투 승률 %(number)s%% 이상"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "무작위 전투 승률 %(number)s%%에 도달하지 않음"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "등록 기간 종료"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "해당 경쟁에 참여할 수 없습니다."
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "해당 경쟁 중단 완료"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "이제 전투 결과가 해당 경쟁에 반영되지 않아 레이팅에 진입하거나 보상을 획득할 수 없습니다.\n해당 경쟁에 다시 참여할 수 없습니다."
+
+msgid "status/cantJoin/reason/many"
+msgstr "만족하지 못한 조건 %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "만족하지 못한 조건 (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "레이팅에 진입하지 않음"
+
+msgid "status/cantJoin/reason/special"
+msgstr "이 계정으로는 해당 경쟁에 참여할 수 없습니다."
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "진행 가능 전차 없음"
+
+msgid "status/participate/cantJoin"
+msgstr "경쟁 이용 불가"
+
+msgid "status/participate/needMoreBattles"
+msgstr "전투를 통해 특정 조건을 만족하면 레이팅 갱신 후 결과가 표시됩니다."
+
+msgid "status/participate/notParticipated"
+msgstr "해당 레이팅에 진입하지 않음"
+
+msgid "summary/averagedamage"
+msgstr "평균 피해 기록"
+
+msgid "summary/averagedamageassisted"
+msgstr "평균 도움 피해 기록"
+
+msgid "summary/averagexp"
+msgstr "평균 경험치"
+
+msgid "summary/battles"
+msgstr "경쟁 전투"
+
+msgid "summary/damage"
+msgstr "피해 기록"
+
+msgid "summary/damageassist"
+msgstr "도움 피해 기록"
+
+msgid "summary/damageblocked"
+msgstr "장갑 활용"
+
+msgid "summary/description/awards/title/award"
+msgstr "경쟁 종료 보상"
+
+msgid "summary/description/awards/title/group"
+msgstr "그룹"
+
+msgid "summary/description/awards/title/position"
+msgstr "순위"
+
+msgid "summary/description/max/class"
+msgstr "%(value)s 최고 성적을 기록한 전투"
+
+msgid "summary/description/max/level"
+msgstr "%(value)s 단계 전차 최고 성적을 기록한 전투"
+
+msgid "summary/description/max/nation"
+msgstr "%(value)s 국가 전차 최고 성적을 기록한 전투"
+
+msgid "summary/description/max/vehicle"
+msgstr "%(value)s 최고 성적을 기록한 전투"
+
+msgid "summary/description/sum/class"
+msgstr "%(value)s 경쟁 통계"
+
+msgid "summary/description/sum/level"
+msgstr "%(value)s 단계 전차 경쟁 통계"
+
+msgid "summary/description/sum/nation"
+msgstr "%(value)s 국가 전차 경쟁 통계"
+
+msgid "summary/description/sum/vehicle"
+msgstr "%(value)s 전차 경쟁 통계"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "%(value)s 최고 성적을 기록한 연속 전투"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "%(value)s 단계 전차 최고 성적을 기록한 연속 전투"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "%(value)s 국가 전차 최고 성적을 기록한 연속 전투"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "%(value)s 최고 성적을 기록한 연속 전투"
+
+msgid "summary/description/sumN/class"
+msgstr "%(value)s 최고 성적을 기록한 전투"
+
+msgid "summary/description/sumN/level"
+msgstr "%(value)s 단계 전차 최고 성적을 기록한 전투"
+
+msgid "summary/description/sumN/nation"
+msgstr "%(value)s 국가 전차 최고 성적을 기록한 전투"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "%(value)s 최고 성적을 기록한 전투"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "%(value)s 최고 성적을 기록한 연속 전투"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "%(value)s 단계 전차 최고 성적을 기록한 연속 전투"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "%(value)s 국가 전차 최고 성적을 기록한 연속 전투"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "%(value)s 최고 성적을 기록한 연속 전투"
+
+msgid "summary/destroyedvehicles"
+msgstr "격파 기록"
+
+msgid "summary/fightInSquaad"
+msgstr "소대 전투"
+
+msgid "summary/fightNotInSquaad"
+msgstr "개인 전투"
+
+msgid "summary/originalXP"
+msgstr "기본 경험치"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "도움 피해"
+
+msgid "summary/param/max/damageDealt"
+msgstr "피해 기록"
+
+msgid "summary/param/max/originalXP"
+msgstr "기본 경험치"
+
+msgid "summary/param/max/xp"
+msgstr "경험치"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "평균 도움 피해"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "평균 피해 기록"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "평균 기본 경험치"
+
+msgid "summary/param/sumAll/wins"
+msgstr "승리"
+
+msgid "summary/param/sumAll/xp"
+msgstr "평균 경험치"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "평균 도움 피해"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "총 피해 기록"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "총 기본 경험치"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "총 경험치"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "총 도움 피해"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "총 피해 기록"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "총 기본 경험치"
+
+msgid "summary/param/sumN/xp"
+msgstr "총 경험치"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "평균 도움 피해"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "총 피해 기록"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "총 기본 경험치"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "총 경험치"
+
+msgid "summary/position"
+msgstr "레이팅 순위: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "무승부"
+
+msgid "summary/result/loss"
+msgstr "패배"
+
+msgid "summary/result/win"
+msgstr "승리"
+
+msgid "summary/status"
+msgstr "%(day)s일 %(time)s시에 갱신"
+
+msgid "summary/winrate"
+msgstr "승률"
+
+msgid "table/header/player"
+msgstr "플레이어"
+
+msgid "table/header/position"
+msgstr "#"
+
+msgid "table/selectParticipateBtn"
+msgstr "경쟁 중단"
+
+msgid "table/selectRatingBtn"
+msgstr "레이팅 목록"
+
+msgid "table/selectRegistrationBtn"
+msgstr "참여"
+
+msgid "table/stripe/bronze/title"
+msgstr "그룹 3 (%(placeFrom)d위~%(placeTo)d위):"
+
+msgid "table/stripe/gold/title"
+msgstr "그룹 1 (%(placeFrom)d위~%(placeTo)d위):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "그룹 1"
+
+msgid "table/stripe/iron/title"
+msgstr "그룹 4 (%(placeFrom)d위~%(placeTo)d위):"
+
+msgid "table/stripe/silver/title"
+msgstr "그룹 2 (%(placeFrom)d위~%(placeTo)d위):"
+
+msgid "table/stripe/wood/title"
+msgstr "하위권"
+
+msgid "task/eventtype/all"
+msgstr "모든 플레이어 일반 레이팅 적용"
+
+msgid "task/eventtype/class"
+msgstr "전차 유형별로 레이팅 산출"
+
+msgid "task/eventtype/level"
+msgstr "전차 단계별로 레이팅 산출"
+
+msgid "task/eventtype/nation"
+msgstr "전차 국가별로 레이팅 산출"
+
+msgid "task/eventtype/vehicle"
+msgstr "전차별로 레이팅 산출"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "도움 피해 레이팅 진입"
+
+msgid "task/objective/max/damageDealt"
+msgstr "피해 기록 레이팅 진입"
+
+msgid "task/objective/max/originalXP"
+msgstr "기본 경험치 레이팅 진입"
+
+msgid "task/objective/max/xp"
+msgstr "경험치 레이팅 진입"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "총 도움 피해 레이팅 진입"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "총 피해 기록 레이팅 진입"
+
+msgid "task/objective/sum/originalXP"
+msgstr "총 기본 경험치 레이팅 진입"
+
+msgid "task/objective/sum/wins"
+msgstr "승리 횟수 레이팅 진입"
+
+msgid "task/objective/sum/xp"
+msgstr "총 경험치 레이팅 진입"
+
+msgid "task/objparam/damageAssisted"
+msgstr "도움 피해"
+
+msgid "task/objparam/damageDealt"
+msgstr "피해 기록"
+
+msgid "task/objparam/originalXP"
+msgstr "기본 경험치 획득"
+
+msgid "task/objparam/wins"
+msgstr "승리 횟수"
+
+msgid "task/objparam/xp"
+msgstr "경험치"
+
+msgid "task/selection/max"
+msgstr "최고 성적을 기록한 전투 집계"
+
+msgid "task/selection/sumAll"
+msgstr "모든 전투 집계"
+
+msgid "task/selection/sumMSeqN"
+msgstr "연속 전투 중 최고 성적을 기록한 (%(cardinality)s) 전투가 반영됩니다. 연속 전투: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "최고 성적을 기록한 전투 집계: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "최고 성적을 기록한 연속 전투: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "오늘"
+
+msgid "time/day/tomorrow"
+msgstr "내일"
+
+msgid "time/day/yesterday"
+msgstr "어제"
+
+msgid "time/eventFinished"
+msgstr "경쟁 종료: %(date)s"
+
+msgid "time/period/day"
+msgstr "일"
+
+msgid "time/period/hour"
+msgstr "시간"
+
+msgid "time/period/minute"
+msgstr "분"
+
+msgid "time/timeTo/end"
+msgstr "종료까지: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "등록 종료까지: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "시작 까지: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "보상은 경쟁 종료 시 레이팅 순위에 따라 지급됩니다.\n보상 목록을 확인하려면 모든 보상을 클릭하십시오."
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "프리미엄 계정, 프리미엄 전차, 개인 물자, 첫 승리 경험치 보너스 등을 통해 추가로 획득한 경험치는 반영되지 않습니다."
+
+msgid "tooltip/top/amount/xp"
+msgstr "프리미엄 전차, 개인 물자, 첫 승리 경험치 보너스 등을 통해 추가로 획득한 경험치는 반영되지 않습니다.\n프리미엄 계정을 통해 추가로 획득한 경험치는 반영됩니다."
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "상위권 순위 마지막 플레이어의 도움 피해 기록: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "상위권 순위 마지막 플레이어의 피해 기록: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "상위권 순위 마지막 플레이어의 기본 경험치 획득량: %(number)s\n프리미엄 계정, 프리미엄 전차, 개인 물자, 첫 승리 경험치 보너스 등을 통해 추가로 획득한 경험치는 반영되지 않습니다."
+
+msgid "tooltip/top/description/max/xp"
+msgstr "상위권 순위 마지막 플레이어의 경험치 획득량: %(number)s\n프리미엄 전차, 개인 물자, 첫 승리 경험치 보너스 등을 통해 추가로 획득한 경험치는 반영되지 않습니다.\n프리미엄 계정을 통해 추가로 획득한 경험치는 반영됩니다."
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "상위권 순위 마지막 플레이어의 총 도움 피해 기록: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "상위권 순위 마지막 플레이어의 총 피해 기록: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "상위권 순위 마지막 플레이어의 총 기본 경험치 획득량: %(number)s\n프리미엄 계정, 프리미엄 전차, 개인 물자, 첫 승리 경험치 보너스 등을 통해 추가로 획득한 경험치는 반영되지 않습니다."
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "상위권 순위 마지막 플레이어의 승리 횟수: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "상위권 순위 마지막 플레이어의 총 경험치 획득량: %(number)s\n프리미엄 전차, 개인 물자, 첫 승리 경험치 보너스 등을 통해 추가로 획득한 경험치는 반영되지 않습니다.\n프리미엄 계정을 통해 추가로 획득한 경험치는 반영됩니다."
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "하위권"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "그룹 %(group)s (순위 %(min)s~%(max)s)"
+
+msgid "top/averageXP"
+msgstr "상위권 순위 마지막 플레이어의 평균 경험치 획득량:"
+
+msgid "top/participation/notParticipated"
+msgstr "해당 레이팅에 진입하지 않음"
+
+msgid "top/participation/notfull"
+msgstr "레이팅에 진입하지 않음"
+
+msgid "top/participation/notintop"
+msgstr "현재 상위권에 진입하지 않음"
+
+msgid "top/position"
+msgstr "내 순위:"
+
+msgid "top/reason/notfull"
+msgstr "레이팅에 진입하려면 전투에 더 많이 참여:"
+
+msgid "vehicles/level"
+msgstr "%(level)s 단계 전차"
+
+msgid "vehicles/tooltip/class"
+msgstr "경쟁에 참여하는 해당 유형 전차를 표시합니다."
+
+msgid "vehicles/tooltip/level"
+msgstr "경쟁에 참여하는 해당 단계 전차를 표시합니다."
+
+msgid "vehicles/tooltip/nation"
+msgstr "경쟁에 참여하는 해당 국가 전차를 표시합니다."
+
+msgid "vehicles/vehicle"
+msgstr "경쟁 참여 전차"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "경쟁에 참여할 수 있는 전차 목록을 표시합니다."

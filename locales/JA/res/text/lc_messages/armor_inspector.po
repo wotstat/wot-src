@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "主装甲"
+
+msgid "armorValues/title/no_damage"
+msgstr "ダメージなし"
+
+msgid "armorValues/title/other"
+msgstr "その他"
+
+msgid "armorValues/title/penetration"
+msgstr "貫通確率"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "跳弾"
+
+msgid "armorValues/title/spaced"
+msgstr "空間装甲"
+
+msgid "armorValues/title/values"
+msgstr "(mm)"
+
+msgid "attackerTitle"
+msgstr "攻撃側の構成"
+
+msgid "attackerTooltip/body"
+msgstr "攻撃車輌を変更します。"
+
+msgid "attackerTooltip/header"
+msgstr "攻撃車輌"
+
+msgid "menu/header"
+msgstr "オーバーレイ・タイプ"
+
+msgid "menu/no_armor"
+msgstr "オーバーレイなし"
+
+msgid "menu/nominal"
+msgstr "諸元上の装甲厚"
+
+msgid "menu/penetration"
+msgstr "貫通確率"
+
+msgid "modules/current"
+msgstr "現在の構成"
+
+msgid "modules/custom"
+msgstr "カスタム構成"
+
+msgid "modules/standard"
+msgstr "標準構成"
+
+msgid "modules/title"
+msgstr "車輌モジュール"
+
+msgid "modules/top"
+msgstr "最上位構成"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "履帯"
+
+msgid "tooltip/armor/part/gun"
+msgstr "主砲"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "主砲防盾"
+
+msgid "tooltip/armor/part/hull"
+msgstr "車体"
+
+msgid "tooltip/armor/part/screen"
+msgstr "追加装甲板"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "観測装置"
+
+msgid "tooltip/armor/part/turret"
+msgstr "砲塔"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "車輪"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}倍"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} mm"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "ダメージなし"
+
+msgid "tooltip/dcc/penetration"
+msgstr "貫通"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}%"
+
+msgid "tooltip/dcc/ricochet"
+msgstr "跳弾"
+
+msgid "tooltip/minor/angle/description"
+msgstr "砲弾の軌道と装甲板に垂直な線との間の角度のことです。\n\n砲弾の軌道は、画面の中心から直線的に進むように計算されます。"
+
+msgid "tooltip/minor/angle/header"
+msgstr "入射角"
+
+msgid "tooltip/minor/damage/description"
+msgstr "敵車輌の装甲を貫通し、ダメージを与える確率です。"
+
+msgid "tooltip/minor/damage/header"
+msgstr "貫通確率"
+
+msgid "tooltip/minor/effective/description"
+msgstr "単一の装甲層の場合、入射角と砲弾の標準化によって修正された諸元上の装甲厚が実効装甲厚となります。\n\n命中点に複数の装甲層がある場合、各層の実効装甲厚の合計が結果となります。"
+
+msgid "tooltip/minor/effective/header"
+msgstr "実効装甲厚"
+
+msgid "tooltip/minor/header"
+msgstr "アイコンの説明"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "空間装甲に命中しても、砲弾がその後に主装甲に命中し貫通しない限り、車輌はダメージを受けません。"
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "ダメージなし"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "主装甲または空間装甲板の実際の厚みです。"
+
+msgid "tooltip/minor/nominal/header"
+msgstr "諸元上の装甲厚"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "浅い角度で敵の装甲に命中した砲弾は跳弾します。ただし、跳弾した砲弾が別の車輌、あるいは同じ車輌に命中する可能性があります。"
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "跳弾"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "実効装甲厚と貫通確率の計算に影響します。\n\n算出される数値はすべて、距離100 mでの数値に基づきます (AP弾およびAPCR弾は距離に応じて貫通力が低下)。\n\n搭乗員パークや攻撃車輌のアップグレードは計算に影響しません。"
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "攻撃側の構成"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "敵の装甲を貫通して車輌にダメージを与える確率。\n\n空間装甲に命中しても、砲弾がその後に主装甲に命中し貫通しない限り、車輌はダメージを受けません。"
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "貫通確率"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "車輌は、主装甲に命中した砲弾が貫通した場合にのみダメージを受けます。HE弾は貫通しなくても車輌にダメージを与えることができますが、その場合でも主装甲に到達する必要があり、与えるダメージは軽減されます。"
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "主装甲"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "空間装甲に命中しても、砲弾がその後に主装甲に命中し貫通しない限り、車輌はダメージを受けません。\n\n外部モジュールに命中し貫通すると、そのモジュールに直接損傷を与えることができます。例えば、履帯に損傷を与えて切断すると車輌が移動不能になるほか、主砲を大破させれば射撃不能になり、観測装置を壊すと車輌の視認範囲が縮小します。"
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "ダメージなし"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "AP弾およびAPCR弾の入射角が70度、HEAT弾の入射角は85度を超えると必ず跳弾します。\n\nHE弾は跳弾しません。AP弾およびAPCR弾は跳弾後、貫通力を25%失います。\n\n砲弾の口径が着弾点の諸元装甲厚の3倍を超える場合、跳弾は発生しません (AP弾およびAPCR弾にのみ適用)。"
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "跳弾"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "空間装甲に命中しても、砲弾がその後に主装甲に命中し貫通しない限り、車輌はダメージを受けません。\n\n外部モジュールに命中し貫通すると、そのモジュールに直接損傷を与えることができます。例えば、履帯に損傷を与えて切断すると車輌が移動不能になるほか、主砲を大破させれば射撃不能になり、観測装置を壊すと車輌の視認範囲が縮小します。\n\n入射角は履帯や主砲などの外部モジュールには適用されません。外部モジュールの場合、実効装甲厚は諸元上の装甲厚と同等です。"
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "空間装甲"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} mm"
+
+msgid "videoTooltip"
+msgstr "装甲貫通メカニズムに関する動画を視聴できます。"

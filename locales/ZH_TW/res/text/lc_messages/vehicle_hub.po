@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "逐一射擊彈匣中的數發砲彈，每一發會隨著時間自動裝填。"
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "逐一射擊彈匣中的數發砲彈，每一發會隨著時間自動裝填。裝填期間，下一發砲彈會獲得裝填速度加成。"
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "快速發射完彈匣中的砲彈，藉此在短時間內造成較高傷害，但也犧牲了穿透力與準度。在近距離戰鬥時最為高效。"
+
+msgid "abilities/common/description/damageMutable"
+msgstr "發射星盤彈，在 50 公尺內造成的傷害最高。砲彈傷害隨距離降低，因此在近距離戰鬥時最為高效。"
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "獨特的降溫系統，可實現雙重瞄準：裝填後稍作等待，可提升炮管準度。準度的提升程度會以第二個、較小的瞄準圈顯示。"
+
+msgid "abilities/common/description/dualGun"
+msgstr "雙管火炮系統，可單管逐一發射，或進行雙管齊射。雙管齊射可造成較高的齊射傷害，但發射後的裝填時間較久。"
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "改變車輛車身的抬升角度，有機會在戰鬥中利用更多位置進行射擊。啟用與否取決於多種條件。"
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "變更副車輪位置來大幅提高速度，但會犧牲車輛操控性。最適合用於長距離移動並發動速攻。"
+
+msgid "abilities/common/description/magazineGun"
+msgstr "從彈匣中連續射擊數發砲彈，清空彈匣後需要進行完整裝填。清空彈匣能造成大量傷害，但裝填時車輛無法反擊。只能一次裝填整個彈匣。"
+
+msgid "abilities/common/description/overheatGun"
+msgstr "炮管可持續射擊而不需要進行裝填。每次發射砲彈都會產生熱能：炮管溫度越高，部分受影響參數的變動就越顯著。持續射擊將導致炮管過熱，直到降溫前，炮管將無法再次射擊。"
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "提高引擎功率與最高速度，來快速穿越戰場。啟用時，噴射助推器會導致操控性降低，且無法手動關閉。"
+
+msgid "abilities/common/description/siegeMode"
+msgstr "啟用時，此特殊模式能提高且/或變更特定戰鬥參數。最適合在就定位且準備與敵人交戰時啟用。"
+
+msgid "abilities/common/description/stun"
+msgstr "在特定爆炸半徑內震盪敵方車輛，未直接命中亦能震盪，會短暫降低受影響車輛的機動性、準度與裝填速度。遭震盪的敵人會以震盪指示標記。"
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "當主要履帶遭摧毀時，讓車輛維持移動能力但會降低速度。再失去一條外部履帶會進一步降低機動性，但車輛仍可轉向與移動。"
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "讓車輛大幅提高移動速度，同時也讓炮管操控性參數顯著降低。"
+
+msgid "abilities/common/description/twinGun"
+msgstr "啟用時，此特殊模式能造成雙倍傷害且/或變更特定戰鬥參數。最適合在近距離交戰時使用。"
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "自動再裝填火炮"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "改良的自動再裝填火炮"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "自動火炮"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "深膛線炮管"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "炮管降溫"
+
+msgid "abilities/common/name/dualGun"
+msgstr "雙管火炮"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "液氣壓式懸吊"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "高速模式"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "自動裝填火炮"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "過熱調控自動火炮"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "噴射助推器"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "圍城模式"
+
+msgid "abilities/common/name/stun"
+msgstr "震盪"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "備用履帶"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "渦輪模式"
+
+msgid "abilities/common/name/twinGun"
+msgstr "齊射模式"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "保持靜止或緩慢移動，可累積準度等級來提升下一發砲彈的準度。\n當達到最高準度等級時，您的車輛將具有不錯的炮管穩定性，移動時或炮塔/車身迴轉時的擴散度亦會降低。"
+
+msgid "abilities/special/description/battleFury"
+msgstr "每當您以砲彈命中一輛敵方車輛時，您會獲得一個裝填效率等級，可暫時提升您炮管的裝填速度。等級隨每次命中累積。\n藉由射擊摧毀一輛敵方車輛，可額外累積裝填效率等級。"
+
+msgid "abilities/special/description/chargeShot"
+msgstr "若您的炮管已完成裝填，您可開始加熱下一發砲彈來提高傷害。加熱等級越高，效果就越顯著。\n達到最高熱度時，您需在數秒內射擊，否則您暫時無法射擊。"
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "對敵方車輛造成兩次裝甲擊穿即可啟用點射模式，在此模式下，會裝填可進行連發的短彈匣，讓兩發砲彈能快速射出並造成大量傷害。"
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "「氣壓式陀螺穩定器」能在作用的一小段時間內，於移動時、車身與炮塔迴轉時確保最高的穩定性，讓移動時的射擊更為準確且快速因應突如其來的威脅，亦能從掩體後高效交戰。"
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "當前短彈匣內剩餘一發砲彈時，系統自動開始裝填新短彈匣，讓您隨時準備交戰。您仍可在過程中發射最後一發砲彈，然而若發射會讓剩餘的裝填時間延長數秒。"
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "此系統能讓炮管維持在較低的溫度，藉此讓其擁有極高準度。射擊時炮管會升溫，但會在裝填期間開始降溫並回到較佳的參數。炮管溫度越高，部分受影響參數的變動就越顯著。"
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "汲取過往車輛的設計經驗，此車輛專為造成致命衝撞攻擊進行配置。結構上的強化讓其可在衝撞敵方車輛時造成較高的傷害，並在近距交鋒中取得優勢。"
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "此車輛的炮管可提前射擊：裝填期間的半充能射擊射擊效率會降低，而在裝填後的一般完全充能射擊則有最佳的射擊參數。"
+
+msgid "abilities/special/description/overheatGun"
+msgstr "炮管可持續射擊而不需要進行裝填。每次發射砲彈都會產生熱能：炮管溫度越高，部分受影響參數的變動就越顯著。持續射擊將導致炮管過熱，直到降溫前，炮管將無法再次射擊。"
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "保持靜止或緩慢移動以累積預熱，藉此提高您下一次射擊的傷害與準度。當預熱達最高溫時，擊穿血量低於自身車輛平均傷害的敵方車輛，會引爆其彈藥架並將之摧毀。"
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "此模式讓您的車輛變為碉堡般的火炮平台，帶來優異的準度與較短的裝填時間。然而為獲取這樣的強化火力，車輛機動性，包括前進/後退速度，以及垂直俯仰與水平迴轉均受到嚴重限制。"
+
+msgid "abilities/special/description/powerMode"
+msgstr "此模式為引擎功率與最高前進速度帶來顯著加成。您向前移動的時間越久，累積的速度就越高，讓您快速穿越戰場並輕鬆大範圍移動。"
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "此系統會隨著時間累積充能，累積的充能越高，傷害加成就越高。充能受限制器限制，可停用以換取更高的傷害加成，但代價為炮管操控性降低。"
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "在任何時候啟用「液態燃料助推器」來獲得最需要的速度提升。助推器會升溫且再次使用前必須冷卻，要是超過臨界加熱等級將暫時完全停用。"
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "固態燃料推進器，可持續數秒提升加速度、機動性與操控性。左側與右側的推進器可獨立作業，藉此提高車身迴轉速度，同時不會限制後退能力。"
+
+msgid "abilities/special/description/stanceDance"
+msgstr "根據啟用的模式與充能程度，車輛可啟用兩種能力之一：\n離子流後燃器：暫時提高引擎功率與速度。\n重疊電機觀測鏡：降低擴散度，縮短裝填時間與提升準度。"
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "此模組讓您在至少裝填一發砲彈的情況下隨時中斷裝填，進而保有射擊機會。按下快捷鍵來停止裝填，可在一小段延遲後開火，隨後可手動接續裝填，或在清空彈匣後自動裝填。"
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "按下啟用按鈕來朝目標發射車輛的輔助武器。此額外的火力有著獨立的裝填循環，與主要炮管各自進行。"
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "根據是否偵察到敵方車輛，來決定您下一次射擊的特殊效果。命中已偵察到的車輛將會標記該車輛，延長其持續被偵察到的時間並提高砲彈對其造成的傷害，若命中尚未被偵察到的敵方車輛，將以特殊標示標記它的位置。"
+
+msgid "abilities/special/description/twinGun"
+msgstr "造成雙倍傷害並提升炮管穩定性，但會犧牲機動性、準度、炮塔迴轉速度與瞄準速度。最適合用於近距離戰鬥。"
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "此機械改裝可在一小段時間內顯著提高車輛的加速度、引擎功率，以及最高前進與後退速度，讓您迅速回應敵方攻擊，展現動態機動來讓對手措手不及。"
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "類比彈道計算裝置"
+
+msgid "abilities/special/name/battleFury"
+msgstr "半自動彈藥架"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "彈道加熱超載"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "點射模式"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "氣壓式陀螺穩定器"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "短彈匣裝填系統"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "主動炮管降溫系統"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "衝撞配置"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "分段充能系統"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "過熱調控自動火炮"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "推進劑溫控系統"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "碉堡模式"
+
+msgid "abilities/special/name/powerMode"
+msgstr "直接驅動"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "感應式彈藥推進劑助燃"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "液態燃料助推器"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "分段火箭推進器"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "戰術能量包"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "外部彈藥供應模組"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "輔助武器"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "雷射目標指示器"
+
+msgid "abilities/special/name/twinGun"
+msgstr "齊射模式"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "高壓渦輪增壓器輔助"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "提升您下一發砲彈的準度，同時具有完整校準下不錯的穩定性。"
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "每命中一輛敵方車輛，可在限定時間內加快炮管裝填速度。"
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "累積加熱等級來讓下一發砲彈對敵方車輛造成更高傷害。"
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "可進行點射的短彈匣，讓您快速清空兩發砲彈。"
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "最大化移動與迴轉時的穩定性，來提升射擊準度。"
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "剩下最後一發砲彈時自動開始裝填，裝填期間仍可發射該砲彈。"
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "主動炮管降溫系統，隨著炮管降溫提升準度。"
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "提高對敵方車輛造成的衝撞傷害。"
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "特殊炮管機制，藉由犧牲射擊效率來換取提前射擊。"
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "此系統讓炮管能持續射擊，同時調控射擊時炮管產生的熱能。"
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "保持靜止或緩慢移動，藉此提升下一發砲彈的傷害與準度。"
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "大幅提升炮管準度與裝填速度，但嚴重限制機動性。"
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "提供引擎功率加成，車輛持續移動的時間越久，累積的最高速度就越高。"
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "系統會進行充能以提高傷害。充能越高，傷害就越高。"
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "可隨時啟用助推器，來為速度帶來大幅加成。"
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "固態燃料推進器，可提升加速度、機動性與操控性。"
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "為兩種獨特能力之一進行充能，藉此提升速度或炮管準度。"
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "讓您中斷裝填並在關鍵時間點回擊。"
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "一些額外武器，來提供主炮以外的額外傷害。"
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "延長敵方車輛被偵察到的時間並提高其受到的傷害，或以特殊標示標記其位置。"
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "可在犧牲裝填時間的情況下，同時發射兩門炮管。"
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "特殊機制，可在一小段時間期間提高引擎功率、加速度與最高速度。"
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "保持靜止或以低於特定數值的速度移動，可讓您校正車輛的「類比彈道計算裝置」並累積準度等級，提高您下一發砲彈的準度。若您超過速限，您的準度等級累積進度將暫停，直到您降低速度。當達到最高準度等級時，您的車輛將具有不錯的炮管穩定性，移動時或炮塔/車身迴轉時的擴散度亦會降低。此效果會在射擊後移除。"
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "每當您以砲彈命中一輛可見的敵方車輛時，您會獲得一個裝填效率等級，可暫時提高炮管的裝填速度。等級隨每次命中累積，藉由射擊摧毀一輛敵方車輛，可額外累積裝填效率等級。"
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "若您的炮管已完成裝填，您可開始加熱下一發砲彈。您達到的加熱等級越高，平均傷害的加成也將越高。加熱過程中，您無法變更砲彈。當您達到最高加熱等級時，會開始倒數計時。若您未在倒數結束前發射砲彈，您將在數秒內無法射擊。"
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "對敵方車輛造成兩次裝甲擊穿即可啟用點射模式，在此模式下，會裝填可進行連發的短彈匣，讓兩發砲彈能快速射出。"
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "「氣壓式陀螺穩定器」能在作用的一小段時間內，於車身與炮塔迴轉時確保最高的穩定性，讓移動時的射擊更為準確且能快速因應突如其來的威脅。"
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "當前的短彈匣內剩餘一發砲彈時，系統會自動開始裝填新的短彈匣。在裝填新短彈匣的過程中發射最後一發砲彈，會讓剩餘的裝填時間延長數秒。按下「裝填砲管」的快捷鍵，將丟棄除最後一發外的所有剩餘砲彈。按下快捷鍵兩次以完全重置一個已完全裝填的短彈匣。"
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "此系統能讓炮管維持在較低的溫度，藉此讓其擁有極高準度。射擊時炮管會升溫，但會在裝填期間開始降溫並回到較佳的參數。炮管溫度越高，部分受影響參數的變動就越顯著。"
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "此車輛專為進行衝撞攻擊而配置，具備一系列設計改裝，能助其對敵方車輛造成較高的衝撞傷害。"
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "此車輛的炮管可提前射擊：裝填期間的半充能射擊射擊效率會降低，而在裝填後的一般完全充能射擊則有最佳的射擊參數。"
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "炮管可持續射擊而不需要進行裝填。每次發射砲彈都會產生熱能：炮管溫度越高，部分受影響參數的變動就越顯著。持續射擊將導致炮管過熱，直到降溫前，炮管將無法再次射擊。"
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "保持靜止或以低於特定數值的速度移動來進行預熱，可藉此提高您下一發砲彈的傷害與準度。若您超過速限將逐漸降低加成，射擊或變更砲彈將立即重置加成。達到最高預熱等級時，擊穿血量低於自身車輛平均傷害（計入您累積的預熱加成）之敵方車輛的裝甲時，將引爆其彈藥架並立即將之摧毀。"
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "在此模式下，炮管準度、裝填速度與俯角/仰角會大幅提高，但機動性（前進/後退速度與垂直俯仰/水平迴轉速度）會嚴重受限。提供的百分比數值為與圍城模式相比之用。"
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "「直接驅動」模式會顯著提高引擎功率與最高前進速度。您向前移動的時間越久，累積的速度就越高，讓您輕鬆穿越戰場。"
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "系統會隨著時間自動累積充能，在射擊時消耗部分充能來提高傷害。充能越高，傷害加成也越高。預設情況下，系統僅會儲存充能至特定上限。關閉限制器可讓其累積更高的充能，藉此提供更高的傷害加成，但炮管操控性會降低。"
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "「液態燃料助推器」會提高引擎功率，讓您在戰場上獲得搶佔位置的優勢，但也會限制車輛的後退與迴轉速度。助推器可隨時開啟或關閉，若超過重新啟用次數限制將無法操作。助推器會在啟用時升溫，同時冷卻期間將無法使用，代表無法不斷使用助推器，要是超過臨界加熱等級更會遭暫時完全停用。謹慎計劃使用時機，避免反遭對手突襲。"
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "固態燃料推進器，可持續數秒提高車輛的加速度、機動性與操控性。與一般的噴射助推器不同，左側與右側的推進器可獨立作業，藉此提高車身迴轉速度，同時不會限制後退能力。助推器可在每場戰鬥期間使用數次，但再次啟用前需要進行冷卻。"
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "根據啟用的模式與充能程度，車輛可啟用兩種能力之一：「離子流後燃器」或「重疊電機觀測鏡」。\n離子流後燃器可暫時提高引擎功率、最高前進速度與後退速度。重疊電機觀測鏡可暫時提高準度，並縮短裝填時間。"
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "「外部彈藥供應模組」讓您隨時中斷裝填並開始射擊，前提為您仍有一發砲彈剩餘。裝填期間，模組會鎖定車輛的炮塔與外部彈藥艙，在您中斷前暫時讓您無法瞄準或射擊。"
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "此車輛裝備有一組輔助武器，該武器的裝填獨立於主要炮管，讓您在關鍵時刻額外造成傷害。"
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "「雷射目標指示器」會為您的下一次射擊帶來特殊效果，並套用到您命中的任何敵方車輛。命中敵方車輛時是否已偵察到對方，將影響造成的效果。命中已偵察到的車輛將會標記該車輛，延長其持續被偵察到的時間並提高砲彈對其造成的傷害，然而若該敵方車輛尚未被偵察到，則會以特殊標示標記它的位置。"
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "造成雙倍傷害並提高炮管穩定性，但會犧牲機動性、準度、炮塔迴轉速度與瞄準速度。最適合用於近距離戰鬥。"
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "此機械改裝可在一小段時間內顯著提高車輛的加速度、引擎功率，以及最高前進與後退速度，讓您快速因應敵人攻擊，展現動態機動來讓對手措手不及。保持高速移動可加快此機制的冷卻速度。"
+
+msgid "characteristics/abilities/special/notes"
+msgstr "顯示的所有數值均為此車輛的可能最大值。可以藉由裝備、技術指南與消耗品變更這些數值，但此處未反映相關變化。"
+
+msgid "characteristics/templates/upTo"
+msgstr "最多 %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "購買並安裝"
+
+msgid "modules/controls/button/field_modification"
+msgstr "戰地升級"
+
+msgid "modules/controls/button/mount"
+msgstr "安裝"
+
+msgid "modules/controls/button/research"
+msgstr "研發"
+
+msgid "modules/controls/button/sell"
+msgstr "從倉庫中出售"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "此車輛在戰鬥中。戰鬥結束後您才能變更其配件。"
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "此車輛已受損。先修理才能變更其配件。"
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "配件無法安裝。不相容的{{module}}。"
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "此車輛在戰術單位中。"
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "購買此車輛以變更其配件。"
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "研發前一個配件以研發此配件。"
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "研發此車輛以研發其配件。"
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "所有配件已研發。"
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "此配件已安裝。"
+
+msgid "modules/controls/descriptor/researched"
+msgstr "選擇配件或車輛以進行研發。"
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "此車輛在戰鬥中。戰鬥結束後您才能變更其配件。"
+
+msgid "modules/controls/name"
+msgstr "已選擇：{{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr "、"
+
+msgid "modules/name/vehicleChassis"
+msgstr "底盤"
+
+msgid "modules/name/vehicleEngine"
+msgstr "引擎"
+
+msgid "modules/name/vehicleGun"
+msgstr "炮管"
+
+msgid "modules/name/vehicleRadio"
+msgstr "通訊設備"
+
+msgid "modules/name/vehicleTurret"
+msgstr "炮塔"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "車輪"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "收藏車輛"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "能夠獲得"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "更多銀幣收入"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "調動乘員不會受到懲罰"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "戰鬥經驗與乘員經驗"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "點券"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "每場戰鬥"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "免費"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "更多"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "獲得點券"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "更多銀幣"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "免費調動"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "更多經驗"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "免費工具包"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "能夠獲得"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "更多銀幣收入"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "從任何類型的車輛調動乘員不會受到懲罰"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "戰鬥經驗與乘員經驗"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "點券"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "更多"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "免費"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "更多"
+
+msgid "overview/crew/name"
+msgstr "乘員{{@ class $classBracket}}（{{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}）{{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "檢視機制"
+
+msgid "overview/title/generalDescription"
+msgstr "車輛描述"
+
+msgid "overview/title/historicalReference"
+msgstr "歷史參考"
+
+msgid "researchPurchase/discountTimer"
+msgstr "直到 {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "重新找回可用直到 {{date}}"
+
+msgid "tabs/armor"
+msgstr "裝甲"
+
+msgid "tabs/modules"
+msgstr "配件"
+
+msgid "tabs/overview"
+msgstr "概要"
+
+msgid "tabs/stats"
+msgstr "特性"
+
+msgid "tabs/vehSkillTree"
+msgstr "升級"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "租用期已結束"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "訂閱已暫停"

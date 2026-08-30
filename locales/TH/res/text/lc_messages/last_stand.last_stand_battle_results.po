@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, ระยะเวลา: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "ความยากปกติ"
+
+msgid "info/difficult/2"
+msgstr "ความยากก้าวหน้า"
+
+msgid "info/difficult/3"
+msgstr "ความยากโหดร้าย"
+
+msgid "info/mapName"
+msgstr "การยืนหยัดครั้งสุดท้าย • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "เวลาเกิดใหม่: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "พาหนะพันธมิตรทั้งหมดถูกทำลาย"
+
+msgid "ls_finish/reason/10/lose"
+msgstr "คุณหยุดยั้ง Zero ไม่ได้"
+
+msgid "ls_finish/reason/3/lose"
+msgstr "หมดเวลาแล้ว"
+
+msgid "ls_finish/reason/5/lose"
+msgstr "พันธมิตรทั้งหมดออกจากการรบแล้ว"
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "ทำได้ดีมาก! พร้อมสำหรับภารกิจทีี่ยากกว่าหรือยัง?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "กำจัดข้าศึกทั้งหมดในความยากปกติได้แล้ว"
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "ยอดเยี่ยมมาก! ไม่มีกี่คนที่มาถึงขั้นนี้ได้"
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "กำจัดข้าศึกทั้งหมดในความยากดุเดือดได้หมดแล้ว"
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "ทำได้ดีมาก! ตอนนี้ก็ถึงเวลาสำหรับความท้าทายจริงแล้ว"
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "กำจัดข้าศึกทั้งหมดในความยากก้าวหน้าได้แล้ว"
+
+msgid "ribbon/ban"
+msgstr "ผลงานยอมรับไม่ได้: การนิ่งเฉย/การหนีกองทัพ\nไม่ได้รับรางวัล"
+
+msgid "ribbon/banRecord"
+msgstr "ผลงานยอมรับไม่ได้: การนิ่งเฉย/การหนีกองทัพ\nไม่ได้รับรางวัล ไม่มีการปรับสถิติการทำลายระลอกของคุณ"
+
+msgid "ribbon/noReward"
+msgstr "ทีมของคุณต้านระลอกแรกไม่ได้\nไม่ได้รับรางวัล"
+
+msgid "status/lose"
+msgstr "การรบสิ้นสุด"
+
+msgid "status/win"
+msgstr "ชัยชนะ"
+
+msgid "subtitle/lose"
+msgstr "ต้านทานการโจมตีไม่ได้"
+
+msgid "subtitle/win"
+msgstr "เยี่ยมมาก! ได้รับข้อมูลใหม่แล้ว"
+
+msgid "teamList/actions"
+msgstr "การดำเนินการด่วน"
+
+msgid "teamList/teammates"
+msgstr "พันธมิตร"
+
+msgid "time/record"
+msgstr "สถิติ\nใหม่!"
+
+msgid "title/lose/noWaves"
+msgstr "การรบสิ้นสุด"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "ผ่าน %(phaseNumber)s ระลอกแล้ว"
+msgstr[1] "ผ่าน %(phaseNumber)s ระลอกแล้ว"
+msgstr[2] "ผ่าน %(phaseNumber)s ระลอกแล้ว"
+
+msgid "title/win"
+msgstr "ผ่านทุกระลอกแล้ว"
+
+msgid "tooltip/ban"
+msgstr "ผลงานยอมรับไม่ได้: การนิ่งเฉย/การหนีกองทัพ ไม่มีการปรับสถิติการทำลายระลอกส่วนตัวของคุณ"

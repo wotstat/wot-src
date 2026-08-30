@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "使用"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "購入して使用"
+
+msgid "activation/activateBonus"
+msgstr "リザーブ: %(bonusDescription)sを使用"
+
+msgid "activation/activateButton"
+msgstr "リザーブの使用"
+
+msgid "activation/activateButtonClan"
+msgstr "拠点へ"
+
+msgid "activation/battleXPDescription"
+msgstr "戦闘EXP増加 (1時間)"
+
+msgid "activation/battleXPTitle"
+msgstr "戦闘EXP"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "取得できる%(boosterTerm)sを%(boosterBonus)s増加させる改良型パーソナルリザーブを購入して使用しますか？"
+
+msgid "activation/buyGoldConfirm"
+msgstr "ゴールドを購入"
+
+msgid "activation/buyGoldTitle"
+msgstr "取得できる%(boosterTerm)sを%(boosterBonus)s増加させる改良型パーソナルリザーブの入手に必要なゴールドを購入しますか？"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}改良型パーソナルリザーブの購入に必要なゴールド:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "クレジットと戦闘EXP"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "フリーEXPと搭乗員EXP"
+
+msgid "activation/clanBoostersTitle"
+msgstr "クランリザーブ"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "拠点でリザーブを使用"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "拠点で閲覧"
+
+msgid "activation/comboXPDescription"
+msgstr "フリーEXPと搭乗員EXP増加 (1時間)"
+
+msgid "activation/comboXPTitle"
+msgstr "フリーEXPと搭乗員EXP"
+
+msgid "activation/creditsDescription"
+msgstr "クレジット増加 (1時間)"
+
+msgid "activation/creditsTitle"
+msgstr "クレジット"
+
+msgid "activation/footer"
+msgstr "未使用の期限付きリザーブ: %(expirableAmount)個 (期限まであと: %(expirableTime))"
+
+msgid "activation/frontLineXPDescription"
+msgstr "フロントラインEXP増加 (1時間)"
+
+msgid "activation/frontLineXPTitle"
+msgstr "フロントラインEXP"
+
+msgid "activation/informationButton"
+msgstr "インフォメーション"
+
+msgid "activation/price"
+msgstr "価格:"
+
+msgid "activation/subFooter/depot"
+msgstr "倉庫"
+
+msgid "activation/subFooter/main"
+msgstr "一番使用期限が近いリザーブから使用されます。所有しているリザーブは%(depot)で確認できます。"
+
+msgid "activation/subTitle/main"
+msgstr "戦闘で取得できるクレジットや各種EXPを増加させるパーソナルリザーブは{whiteSpanish_Open}最大3種類{whiteSpanish_Close}まで同時に使用できます。パーソナルリザーブがない場合は%(store)sで購入できます。"
+
+msgid "activation/subTitle/store"
+msgstr "ショップ"
+
+msgid "activation/terms/booster_credits"
+msgstr "クレジット"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "フロントラインEXP"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "フリーEXPと搭乗員EXP"
+
+msgid "activation/terms/booster_xp"
+msgstr "戦闘EXP"
+
+msgid "activation/title"
+msgstr "パーソナルリザーブ"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}現在使用中の取得できる%(previousBoosterTerm)sを%(previousBoosterBonus)s増加させる通常型パーソナルリザーブが破棄されます。{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "現在使用中の通常型パーソナルリザーブに替えて取得できる%(boosterTerm)sを%(boosterBonus)s増加させる改良型パーソナルリザーブを使用しますか？"
+
+msgid "battleView/notice"
+msgstr "パーソナルリザーブは戦闘中いつでも使用できます。戦闘の最中に有効時間が終了しても、ボーナスを受け取ることができます。"
+
+msgid "battleView/title"
+msgstr "パーソナルリザーブの使用"
+
+msgid "depot/buyButton"
+msgstr "購入"
+
+msgid "disabledReserveTooltip/text"
+msgstr "同タイプのリザーブを使用中"
+
+msgid "finishedReserveTooltip/text"
+msgstr "こちらのパーソナルリザーブは戦闘中に効果が終了しました。こちらのパーソナルリザーブのボーナスはこの戦闘にも加算されます。"
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)分"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "使用中のパーソナルリザーブの効果はこちらのモードには反映されません。"
+
+msgid "intro/buttons/close"
+msgstr "了解！"
+
+msgid "intro/buttons/details"
+msgstr "詳細"
+
+msgid "intro/description"
+msgstr "期限付きのパーソナルリザーブは、その名の通り、受け取ってから特定の期限が到来するまでの間しか使用できません。期限付きリザーブと同じ種類の無期限リザーブを所有している場合、期限付きリザーブを先に消費しないと無期限リザーブを使うことができません。"
+
+msgid "intro/title"
+msgstr "期限付きのパーソナルリザーブ"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "こちらのタイプのパーソナルリザーブが倉庫にありません。使用するにはまず購入する必要があります。"
+
+msgid "noReserveTooltip/infoText"
+msgstr "ミッションを達成したり特定のゲーム内イベントに参加するとパーソナルリザーブを入手できます。"
+
+msgid "noReserveTooltip/text"
+msgstr "こちらのタイプのパーソナルリザーブが倉庫にありません。"

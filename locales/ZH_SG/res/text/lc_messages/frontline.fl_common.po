@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "重置过滤器"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "没有符合所选参数的战车。\n需重置过滤器设置以显示相应的战车。"
+
+msgid "battleType/description/fast"
+msgstr "在此情景下，战斗储备的冷却时间缩短。"
+
+msgid "battleType/description/random"
+msgstr "在此情景下，玩家能在随机储备选项中进行选择，并有机会将储备提升至等级IV。"
+
+msgid "battleType/description/standard"
+msgstr "在此情景下，采用标准前线战规则。"
+
+msgid "battleType/postBattle/title"
+msgstr "战斗情景：%(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "战斗储备冷却时间缩短。"
+
+msgid "battleType/shortDescription/random"
+msgstr "战斗储备作为随机选项供玩家选择。"
+
+msgid "battleType/shortDescription/standard"
+msgstr "采用标准规则。"
+
+msgid "battleType/title/fast"
+msgstr "作战支援"
+
+msgid "battleType/title/random"
+msgstr "命运交错"
+
+msgid "battleType/title/standard"
+msgstr "标准战"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "返回"
+
+msgid "button/close"
+msgstr "关闭"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration}天"
+msgstr[1] "{duration}天"
+msgstr[2] "{duration}天"
+
+msgid "filterPopover/note"
+msgstr "仅显示适用于此模式的战车。"
+
+msgid "levelReservesTooltip/desc"
+msgstr "战斗储备在达到新军衔时升级。"
+
+msgid "levelReservesTooltip/info"
+msgstr "在{whiteSpanish_Start}命运交错{whiteSpanish_End}情景中， 若购买战斗储备，其初始等级提升一级，\n最高等级提升至{whiteSpanish_Start}%(lvl)s{whiteSpanish_End}。"
+
+msgid "levelReservesTooltip/level"
+msgstr "达到以下军衔时升级：{whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "达到以下军衔时解锁：{whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "等级{whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "在{whiteSpanish_Start}命运交错{whiteSpanish_End}情景中{whiteSpanish_Start}购买战斗储备{whiteSpanish_End}。"
+
+msgid "levelReservesTooltip/title"
+msgstr "战斗储备等级"
+
+msgid "loading"
+msgstr "正在加载…"
+
+msgid "widget/eventStartSoon"
+msgstr "活动即将开始！"
+
+msgid "widget/maxTier"
+msgstr "您已达到最高等级！"

@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT 번역가 <noreply@wargaming.net>\nLanguage-Team: WoT 팀 <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "actionStub/name"
+msgstr "개량"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "전차 내구도가 즉시 %(immediatelyRestore)s 회복됩니다. 능력 효과가 지속되는 %(duration)s초 동안 포탄 및 전투 능력에 의한 모든 피해가 축적되어 능력 효과 종료 시 내구도로 전환됩니다. 전환 시 축적된 피해의 %(restoringCoefficient)s만큼 내구도가 추가로 회복됩니다.\n\n*내구도 전환 회복 효과는 일정 범위 내 아군 전차에도 영향을 미칩니다."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "전차 내구도가 즉시 %(immediatelyRestore)s 회복됩니다. 능력 효과가 지속되는 %(duration)s초 동안 포탄 및 전투 능력에 의한 모든 피해가 축적되어 능력 효과 종료 시 내구도로 전환됩니다. 전환 시 축적된 피해의 %(restoringCoefficient)s만큼 내구도가 추가로 회복됩니다.\n\n*내구도 전환 회복 효과는 일정 범위 내 아군 전차에도 영향을 미칩니다."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "내구도가 즉시 {green_Open}%(immediatelyRestore)s 회복{green_Close}됩니다. 능력 효과가 지속되는 {whiteSpanish_Open}%(duration)s초{whiteSpanish_Close} 동안 포탄 및 전투 능력에 의한 모든 피해가 축적되어 능력 효과 종료 시 내구도로 전환됩니다. 전환 시 {green_Open}축적된 피해의 %(restoringCoefficient)s만큼{green_Close} 내구도가 추가로 회복됩니다.\n\n*내구도 전환 회복 효과는 일정 범위 내 아군 전차에도 영향을 미칩니다."
+
+msgid "adaptationHealthRestore/name"
+msgstr "적응형 장갑"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "내구도가 즉시 {green_Open}%(immediatelyRestore)s 회복{green_Close}됩니다. 능력 효과가 지속되는 {whiteSpanish_Open}%(duration)s초{whiteSpanish_Close} 동안 포탄 및 전투 능력에 의한 모든 피해가 축적되어 능력 효과 종료 시 내구도로 전환됩니다. 전환 시 {green_Open}축적된 피해의 %(restoringCoefficient)s만큼{green_Close} 내구도가 추가로 회복됩니다.\n\n*내구도 전환 회복 효과는 일정 범위 내 아군 전차에도 영향을 미칩니다."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s 정지 시/기동 시 위장률\n저소음 배기장치/포상 배기장치 필요"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "한 전투에서 저소음 배기장치, 포상 배기장치 효과가 향상됩니다. 해당 장비가 전차에 장착되어 있어야 본 지휘명령을 사용할 수 있습니다."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "배기관 방음 처리"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "정지 시/기동 시 위장률 증가"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "전차 유형에 따라 효율이 달라집니다. 정지 시/기동 시 전차 위장률이 증가합니다. 정찰 시 다양한 전술을 구사하기에 유용할 것입니다."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "저소음 배기장치"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "정지 시/기동 시 위장률 증가"
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "저소음 배기장치 1급"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "저소음 배기장치 2급"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "저소음 배기장치 3급"
+
+msgid "additional_armor_plates_1/name"
+msgstr "추가 장갑판(1형)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "추가 장갑판(2형)"
+
+msgid "afterburning/descr"
+msgstr "일정 시간 동안 전차의 속력 및 가속력 증가"
+
+msgid "afterburning/name"
+msgstr "터보 과급기"
+
+msgid "aimingStabilizer/long_special"
+msgstr "주포 분산도 감소는 매우 중요합니다. 기본 주포 분산도가 낮을수록 조준원 크기가 작아지며 더욱 빨리 조준할 수 있습니다. 또한, 조준을 완료하지 않고 사격한 포탄이나 기동 중 발사한 포탄이 목표물에 명중할 확률도 더 높아집니다."
+
+msgid "aimingStabilizer/name"
+msgstr "수직 안정기"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s 사격 후/기동 시/포탑 회전 시 주포 분산도\n수직 안정기/안정 장치/포상 안정기 필요"
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "한 전투에서 수직 안정기(급수 무관), 안정 장치, 포상 안정기 효과가 향상됩니다. 해당 장비가 전차에 장착되어 있어야 본 지휘명령을 사용할 수 있습니다."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "안정기 윤활"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "안정기 효과 향상"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "수직 안정기 1급"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "수직 안정기 2급"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "수직 안정기 1급"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "수직 안정기 2급"
+
+msgid "antifragmentationLining/long_special"
+msgstr "파편 방지대는 충돌이나 고폭탄 폭발으로 받는 피해를 줄여줍니다. 장갑이 단단하고 충돌 성능이 뛰어나 근접전을 주로 펼치는 중전차가 장착하면 좋습니다."
+
+msgid "antifragmentationLining/name"
+msgstr "파편 방지대"
+
+msgid "antifragmentationLining/short_special"
+msgstr "고폭탄, 부상, 폭발 충격, 충돌로부터 전차와 승무원 보호"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "초대형 파편 방지대"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "대형 파편 방지대"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "중형 파편 방지대"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "소형 파편 방지대"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "배기장치"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "안정기"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "파편 방지대"
+
+msgid "archetype/camouflageNet/name"
+msgstr "위장막"
+
+msgid "archetype/coatedOptics/name"
+msgstr "광학장비"
+
+msgid "archetype/commandersView/name"
+msgstr "비전 시스템"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "주포 구동장치"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "경화강"
+
+msgid "archetype/grousers/name"
+msgstr "그라우저"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "구성장치"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "무전기"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "회전장치"
+
+msgid "archetype/improvedSights/name"
+msgstr "조준장치"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "환기장치"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "사격 통제 시스템"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "생존 강화 시스템"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "조준 강화 시스템"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "기동 강화 시스템"
+
+msgid "archetype/stereoscope/name"
+msgstr "쌍안경"
+
+msgid "archetype/tankRammer/name"
+msgstr "장전기"
+
+msgid "archetype/template"
+msgstr "\"%(name)s\" 부문 장비"
+
+msgid "archetype/turbocharger/name"
+msgstr "터보 과급기"
+
+msgid "artillery/longDescr"
+msgstr "포병 대대를 통해 좁은 지역에 고폭탄 사격을 퍼붓습니다. 타격 지점 중심에 있는 전차는 큰 피해를 입게 됩니다. 중장갑 전차를 상대할 때 효과적입니다."
+
+msgid "artillery/name"
+msgstr "포격 지원"
+
+msgid "artillery/shortDescr"
+msgstr "좁은 범위 내 적 전차에 큰 피해 기록"
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s 화재 발생 확률"
+
+msgid "autoExtinguishers/descr"
+msgstr "전차 화재 자동 진압"
+
+msgid "autoExtinguishers/long_special"
+msgstr "자동으로 화재를 진압하며 전차에 화재가 발생할 확률도 줄여줍니다. 전차 유형이나 국가와 관계없이 모든 전차에 장착하면 좋은 소모품입니다."
+
+msgid "autoExtinguishers/name"
+msgstr "자동 소화기"
+
+msgid "autoExtinguishers/onUse"
+msgstr "전차 화재 자동 진압\n전투 중 재사용 가능 / 사용 시 재보급 필요"
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "자동 화재 진압"
+
+msgid "berserker/battleDescr"
+msgstr "관통력과 연사력이 %(gunPiercing)s배 증가하고 주포 조준 효율 및 안정성도 %(gunAimingTime)s 증가하지만, 지속 시간 %(duration)s초 동안 전차 내구도의 %(healthDebuff)s를 잃습니다.\n\n*광폭 능력에 의한 피해로 전차가 파괴되지는 않습니다."
+
+msgid "berserker/descr"
+msgstr "관통력과 연사력이 %(gunPiercing)s배 증가하고 주포 조준 효율 및 안정성도 %(gunAimingTime)s 증가하지만, 지속 시간 %(duration)s초 동안 전차 내구도의 %(healthDebuff)s를 잃습니다.\n\n*광폭 능력에 의한 피해로 전차가 파괴되지는 않습니다."
+
+msgid "berserker/longDescr"
+msgstr "관통력과 연사력이 {green_Open}%(gunPiercing)s배{green_Close} 증가하고 주포 조준 효율 및 안정성도 {green_Open}%(gunAimingTime)s{green_Close} 증가하지만, 지속 시간 {whiteSpanish_Open}%(duration)s초{whiteSpanish_Close} 동안 전차 내구도의 {red_Open}%(healthDebuff)s{red_Close}를 잃습니다.\n\n*광폭 능력에 의한 피해로 전차가 파괴되지는 않습니다."
+
+msgid "berserker/name"
+msgstr "광폭"
+
+msgid "berserker/shortDescr"
+msgstr "관통력과 연사력이 {green_Open}%(gunPiercing)s배{green_Close} 증가하고 주포 조준 효율 및 안정성도 {green_Open}%(gunAimingTime)s{green_Close} 증가하지만, 지속 시간 {whiteSpanish_Open}%(duration)s초{whiteSpanish_Close} 동안 전차 내구도의 {red_Open}%(healthDebuff)s{red_Close}를 잃습니다.\n\n*광폭 능력에 의한 피해로 전차가 파괴되지는 않습니다."
+
+msgid "blackout_headlights_1/name"
+msgstr "전조등 밝기 조절(1형)"
+
+msgid "bomber/longDescr"
+msgstr "지상 공격기가 일정 지역에 폭탄을 투하하여 적 전차에 피해를 기록하고 성능을 저하합니다. 타격 범위 중심에 있는 전차는 큰 피해를 입게 됩니다. 경량 장갑 및 중간 수준의 장갑을 갖춘 전차를 상대할 때 효과적입니다."
+
+msgid "bomber/name"
+msgstr "공습 지원"
+
+msgid "bomber/shortDescr"
+msgstr "넓은 범위 내 적 전차에 폭발 충격 및 중간 피해 기록"
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "%(duration)s초 동안 전차 내구도의 %(healPerTickDuration)s가 조금씩 회복됩니다. 피해를 입으면 효과가 중단됩니다."
+
+msgid "brRegenerationKit/descr"
+msgstr "%(duration)s초 동안 전차 내구도의 %(healPerTickDuration)s가 조금씩 회복됩니다. 피해를 입으면 효과가 중단됩니다."
+
+msgid "brRegenerationKit/long_special"
+msgstr "{whiteSpanish_Open}%(duration)s초 동안{whiteSpanish_Close} 전차 내구도의 {green_Open}%(healPerTickDuration)s가 조금씩 회복{green_Close}됩니다. 피해를 입으면 효과가 중단됩니다."
+
+msgid "brRegenerationKit/name"
+msgstr "정비 도구"
+
+msgid "brRegenerationKit/short_special"
+msgstr "{whiteSpanish_Open}%(duration)s초 동안{whiteSpanish_Close} 전차 내구도의 {green_Open}%(healPerTickDuration)s가 조금씩 회복{green_Close}됩니다. 피해를 입으면 효과가 중단됩니다."
+
+msgid "brRepairkit/descr"
+msgstr "손상된 부품이 수리되고 부정적인 효과가 제거됩니다."
+
+msgid "brRepairkit/long_special"
+msgstr "손상된 부품이 수리되고 부정적인 효과가 제거됩니다."
+
+msgid "brRepairkit/name"
+msgstr "수리 도구"
+
+msgid "brRepairkit/short_special"
+msgstr "손상된 부품이 수리되고 부정적인 효과가 제거됩니다."
+
+msgid "br_bomber/battleDescr"
+msgstr "적 전차에 폭발 충격과 %(minDamage)s~%(maxDamage)s의 피해를 입힙니다. 효과 범위 중심에 있는 전차는 더 큰 피해를 입습니다.\n\n*효과가 발동되기까지 %(delay)s초의 준비 시간이 적용됩니다."
+
+msgid "br_bomber/descr"
+msgstr "적 전차에 폭발 충격과 %(minDamage)s~%(maxDamage)s의 피해를 입힙니다. 효과 범위 중심에 있는 전차는 더 큰 피해를 입습니다.\n\n*효과가 발동되기까지 %(delay)s초의 준비 시간이 적용됩니다."
+
+msgid "br_bomber/longDescr"
+msgstr "적 전차에 폭발 충격과 {whiteSpanish_Open}%(minDamage)s ~ %(maxDamage)s의 피해{whiteSpanish_Close}를 입힙니다. 효과 범위 중심에 있는 전차는 더 큰 피해를 입습니다.\n\n*효과가 발동되기까지 %(delay)s초의 준비 시간이 적용됩니다."
+
+msgid "br_bomber/name"
+msgstr "공습 지원"
+
+msgid "br_bomber/shortDescr"
+msgstr "적 전차에 폭발 충격과 {whiteSpanish_Open}%(minDamage)s ~ %(maxDamage)s의 피해{whiteSpanish_Close}를 입힙니다. 효과 범위 중심에 있는 전차는 더 큰 피해를 입습니다.\n\n*효과가 발동되기까지 %(delay)s초의 준비 시간이 적용됩니다."
+
+msgid "br_minefield/battleDescr"
+msgstr "선택한 지역에 %(duration)s초 동안 유지되는 지뢰를 매설합니다. 지뢰에 닿은 전차는 폭발 충격과 피해를 받습니다.\n\n*지뢰는 사격에 의해 파괴될 수 있습니다. 적 전차 아래에 매설된 지뢰는 폭발하지 않습니다."
+
+msgid "br_minefield/descr"
+msgstr "선택한 지역에 %(duration)s초 동안 유지되는 지뢰를 매설합니다. 지뢰에 닿은 전차는 폭발 충격과 피해를 받습니다.\n\n*지뢰는 사격에 의해 파괴될 수 있습니다. 적 전차 아래에 매설된 지뢰는 폭발하지 않습니다."
+
+msgid "br_minefield/longDescr"
+msgstr "선택한 지역에 {whiteSpanish_Open}%(duration)s초{whiteSpanish_Close} 동안 유지되는 지뢰를 매설합니다. 지뢰에 닿은 전차는 폭발 충격과 피해를 받습니다.\n\n*지뢰는 사격에 의해 파괴될 수 있습니다. 적 전차 아래에 매설된 지뢰는 폭발하지 않습니다."
+
+msgid "br_minefield/name"
+msgstr "지뢰 매설"
+
+msgid "br_minefield/shortDescr"
+msgstr "선택한 지역에 {whiteSpanish_Open}%(duration)s초{whiteSpanish_Close} 동안 유지되는 지뢰를 매설합니다. 지뢰에 닿은 전차는 폭발 충격과 피해를 받습니다.\n\n*지뢰는 사격에 의해 파괴될 수 있습니다. 적 전차 아래에 매설된 지뢰는 폭발하지 않습니다."
+
+msgid "br_respawn/name"
+msgstr "재생성"
+
+msgid "br_respawn/platoon/descr"
+msgstr "전차가 파괴된 후에도 다시 전장으로 복귀할 수 있습니다. 해당 시스템은 전투 시작 후 %(duration)s분 동안만 적용됩니다.\n\n아군 전차를 재생성하려면 %(timeToResurrect)s초 동안 전투에서 벗어난 상태를 유지해야 합니다. 재생성 횟수는 소대원 간에 공유됩니다."
+
+msgid "br_respawn/solo/descr"
+msgstr "전차가 파괴된 후에도 다시 전장으로 복귀할 수 있습니다. 해당 시스템은 전투 시작 후 %(duration)s분 동안만 적용됩니다.\n\n전차 파괴 시 자동으로 재생성됩니다."
+
+msgid "br_smoke/battleDescr"
+msgstr "%(duration)s초 동안 소모품 범위 내 모든 전차에 보너스 위장률 적용"
+
+msgid "br_smoke/descr"
+msgstr "소모품 범위 내 모든 전차에 보너스 위장률 적용"
+
+msgid "br_smoke/longDescr"
+msgstr "%(duration)s초 동안 소모품 범위 내 모든 전차에 보너스 위장률 적용"
+
+msgid "br_smoke/name"
+msgstr "연막 살포"
+
+msgid "br_smoke/shortDescr"
+msgstr "소모품 범위 내 모든 전차에 보너스 위장률 적용"
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "소모품 범위 내 모든 전차에 위장률 보너스가 적용되고, 동시에 각 전차가 매초 총 내구도의 %(damagePerTick)s만큼 피해를 받습니다. %(duration)s초 동안 유지됩니다.\n\n*산성 안개에 의해 피해를 받더라도 전리품 수집이 중단되지 않고, 내구도를 1 이상 유지하여 전차가 파괴되지 않습니다."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "소모품 범위 내 모든 전차에 위장률 보너스가 적용되고, 동시에 각 전차가 매초 총 내구도의 %(damagePerTick)s만큼 피해를 받습니다. %(duration)s초 동안 유지됩니다.\n\n*산성 안개에 의해 피해를 받더라도 전리품 수집이 중단되지 않고, 내구도를 1 이상 유지하여 전차가 파괴되지 않습니다."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "소모품 범위 내 모든 전차에 위장률 보너스가 적용되고, 동시에 각 전차가 매초 총 내구도의 {whiteSpanish_Open}%(damagePerTick)s만큼{whiteSpanish_Close} 피해를 받습니다. {whiteSpanish_Open}%(duration)s초{whiteSpanish_Close} 동안 유지됩니다.\n\n*산성 안개에 의해 피해를 받더라도 전리품 수집이 중단되지 않고, 내구도를 1 이상 유지하여 전차가 파괴되지 않습니다."
+
+msgid "br_smoke_with_damage/name"
+msgstr "산성 안개"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "소모품 범위 내 모든 전차에 위장률 보너스가 적용되고, 동시에 각 전차가 매초 총 내구도의 {whiteSpanish_Open}%(damagePerTick)s만큼{whiteSpanish_Close} 피해를 받습니다. {whiteSpanish_Open}%(duration)s초{whiteSpanish_Close} 동안 유지됩니다.\n\n*산성 안개에 의해 피해를 받더라도 전리품 수집이 중단되지 않고, 내구도를 1 이상 유지하여 전차가 파괴되지 않습니다."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s 부품 수리 속도"
+
+msgid "builtinRepairkit/long_special"
+msgstr "활성화 시 손상된 모든 부품을 수리하며 장착 시 부품 수리 속도가 향상됩니다. 일부 전차에 장착하면 좋은 소모품입니다."
+
+msgid "builtinRepairkit/name"
+msgstr "일반 대형 수리 도구"
+
+msgid "builtinRepairkit/onUse"
+msgstr "손상된 모든 부품을 수리하며 전투 중 재사용할 수 있습니다.\n해당 소모품은 제거할 수 없지만, 슬롯은 변경할 수 있습니다."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "전차 위장률 10% 증가"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "모든 승무원에 위장 능력 훈련 수준 100% 적용"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "위장 능력을 훈련하면 정지 중인 전차는 물론 기동 중인 전차의 위장률도 향상됩니다. 이미 해당 능력을 100% 훈련했다면 능력의 효과가 향상되며 아직 훈련을 완료하지 않았다면 100% 훈련 시 기준 효과가 적용됩니다."
+
+msgid "camouflageBattleBooster/name"
+msgstr "천연 위장"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "위장 능력 훈련 수준 100% 적용 또는 효과 향상"
+
+msgid "camouflageNet/battleDescr"
+msgstr "정지 시 3초 뒤 위장률 증가"
+
+msgid "camouflageNet/long_special"
+msgstr "전차 유형에 따라 효율이 달라집니다. 위장막은 은밀하게 기동해야 하는 자주포와 차체가 낮은 구축전차가 사용하면 좋습니다. 승무원의 위장 능력과 함께 사용하면 효과가 더욱 향상되며 위장막으로 적용되는 보너스는 전차가 정지 시 3초 뒤 적용됩니다."
+
+msgid "camouflageNet/name"
+msgstr "위장막"
+
+msgid "camouflageNet/short_special"
+msgstr "정지 시 위장률 증가"
+
+msgid "camouflageNet_tier2/name"
+msgstr "위장막 2급"
+
+msgid "camouflageNet_tier3/name"
+msgstr "위장막 3급"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} 전투 중 승무원 숙련도 보너스"
+
+msgid "chocolate/descr"
+msgstr "승무원 숙련도 보너스 {colorTagOpen}+10%{colorTagClose}"
+
+msgid "chocolate/long_special"
+msgstr "전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다. 독일 전차에만 장비할 수 있습니다."
+
+msgid "chocolate/name"
+msgstr "초콜릿"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "독일 전차 전용"
+
+msgid "chocolate/short_special"
+msgstr "독일 승무원 숙련도 향상"
+
+msgid "clingBrander/battleDescr"
+msgstr "피아 식별 시스템을 탑재하여 최대 %(botLifeTime)s초 동안 스스로 가장 가까운 적을 추적하고 공격하는 전차를 호출합니다.\n\n*해당 전차는 파괴될 수 있습니다."
+
+msgid "clingBrander/descr"
+msgstr "피아 식별 시스템을 탑재하여 최대 %(botLifeTime)s초 동안 스스로 가장 가까운 적을 추적하고 공격하는 전차를 호출합니다.\n\n*해당 전차는 파괴될 수 있습니다."
+
+msgid "clingBrander/longDescr"
+msgstr "피아 식별 시스템을 탑재하여 {whiteSpanish_Open}최대 %(botLifeTime)s초{whiteSpanish_Close} 동안 스스로 가장 가까운 적을 추적하고 공격하는 전차를 호출합니다.\n\n*해당 전차는 파괴될 수 있습니다."
+
+msgid "clingBrander/name"
+msgstr "전투 로봇"
+
+msgid "clingBrander/shortDescr"
+msgstr "피아 식별 시스템을 탑재하여 {whiteSpanish_Open}최대 %(botLifeTime)s초{whiteSpanish_Close} 동안 스스로 가장 가까운 적을 추적하고 공격하는 전차를 호출합니다.\n\n*해당 전차는 파괴될 수 있습니다."
+
+msgid "clutches_replace_1/name"
+msgstr "마찰 접합부 교체(1형)"
+
+msgid "clutches_replace_2/name"
+msgstr "마찰 접합부 교체(2형)"
+
+msgid "coatedOptics/long_special"
+msgstr "모든 유형의 코팅 광학장비는 쌍안경보다 적용되는 보너스는 적지만, 전차의 움직임과 관계없이 효과가 지속됩니다. 경전차, 중형전차와 같이 역동적인 전술을 구사하는 전차에 알맞습니다."
+
+msgid "coatedOptics/name"
+msgstr "코팅 광학장비"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s 관측 범위 (최대 445m)\n코팅 광학장비(급수 무관)/개조 광학장비/포상 광학장비 필요"
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "한 전투에서 코팅 광학장비, 개조 광학장비, 포상 광학장비 효과가 향상됩니다. 해당 장비가 전차에 장착되어 있어야 본 지휘명령을 사용할 수 있습니다."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "광학장비 보정"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "광학장비 효과 향상"
+
+msgid "coatedOptics_tier1/name"
+msgstr "코팅 광학장비 1급"
+
+msgid "coatedOptics_tier2/name"
+msgstr "코팅 광학장비 2급"
+
+msgid "coatedOptics_tier3/name"
+msgstr "코팅 광학장비 3급"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} 전투 중 승무원 숙련도 보너스"
+
+msgid "cocacola/descr"
+msgstr "승무원 숙련도 보너스 {colorTagOpen}+10%{colorTagClose}"
+
+msgid "cocacola/long_special"
+msgstr "전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다. 미국 전차에만 장비할 수 있습니다."
+
+msgid "cocacola/name"
+msgstr "콜라 상자"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "미국 전차 전용"
+
+msgid "cocacola/short_special"
+msgstr "미국 승무원 숙련도 향상"
+
+msgid "commandersView/long_special"
+msgstr "기동 중인 적 전차의 위장률과 수풀에 은폐한 적 전차의 위장률 계수가 감소합니다. 원거리에서 기동 중인 적 전차와 수풀 또는 쓰러진 나무에 은폐한 적 전차를 더 효과적으로 관측할 수 있습니다."
+
+msgid "commandersView/name"
+msgstr "비전 시스템"
+
+msgid "commandersView/short_special"
+msgstr "기동 중/수풀 뒤 적 전차 위장률 감소"
+
+msgid "corrodingShot/battleDescr"
+msgstr "포탄에 부식 속성을 추가하여 관통력과 공격력을 향상합니다. 포탄에 피해를 입은 적 전차는 부가 효과에 의해 %(dotEffectDuration)s초 동안 총내구도의 최대 %(damagePerDotEffectDuration)s를 잃습니다.\n\n*부가 효과는 수리 도구에 의해 제거될 수 있습니다."
+
+msgid "corrodingShot/descr"
+msgstr "포탄에 부식 속성을 추가하여 관통력과 공격력을 향상합니다. 포탄으로 피해를 받은 적 전차는 부정적 효과에 의해 %(dotEffectDuration)s초 동안 최대 %(damagePerDotEffectDuration)s의 내구도를 잃습니다.\n\n*해당 부정적 효과는 수리 도구에 의해 제거될 수 있습니다."
+
+msgid "corrodingShot/longDescr"
+msgstr "포탄에 부식 속성을 추가하여 관통력과 공격력을 향상합니다. 포탄에 피해를 입은 적 전차는 부가 효과에 의해 {whiteSpanish_Open}%(dotEffectDuration)s초{whiteSpanish_Close} 동안 {whiteSpanish_Open}최대 %(damagePerDotEffectDuration)s{whiteSpanish_Close}의 내구도를 잃습니다.\n\n*부가 효과는 수리 도구에 의해 제거될 수 있습니다."
+
+msgid "corrodingShot/name"
+msgstr "부식 포탄"
+
+msgid "corrodingShot/shortDescr"
+msgstr "포탄에 부식 속성을 추가하여 관통력과 공격력을 향상합니다. 포탄에 피해를 입은 적 전차는 부가 효과에 의해 {whiteSpanish_Open}%(dotEffectDuration)s초{whiteSpanish_Close} 동안 {whiteSpanish_Open}최대 %(damagePerDotEffectDuration)s{whiteSpanish_Close}의 내구도를 잃습니다.\n\n*부가 효과는 수리 도구에 의해 제거될 수 있습니다."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "효과 적용"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "전차장 특성"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "능력:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "효과 적용"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "능력:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "수직 안정기(사격 후/기동 시/포탑 회전 시 주포 분산도 {colorTagOpen}20%{colorTagClose} 감소)보다 효과가 강력한 장비입니다. 사격 후/기동 시/포탑 회전 시 주포 분산도가 {colorTagOpen}27.5%{colorTagClose} 감소하며 국가와 관계없이 특정 유형의 전차에 장착할 수 있습니다. 해체하려면 전쟁 채권을 사용해야 합니다."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "안정 장치"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "코팅 광학장비(관측 범위 {colorTagOpen}10%{colorTagClose} 증가)보다 효과가 강력한 장비입니다. 관측 범위가 {colorTagOpen}13.5%{colorTagClose} 증가하며 전차 국가 및 유형과 관계없이 장착할 수 있습니다. 해체하려면 전쟁 채권을 사용해야 합니다."
+
+msgid "deluxCoatedOptics/name"
+msgstr "개조 광학장비"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "개량형 주포 구동 장치(조준 속도 {colorTagOpen}10%{colorTagClose} 증가)보다 효과가 강력한 장비입니다. 조준 속도가 {colorTagOpen}13.5%{colorTagClose} 증가하며 전차 국가 및 유형과 관계없이 장착할 수 있습니다. 해체하려면 전쟁 채권을 사용해야 합니다."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "내마모 주포 구동 장치"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "맞춤형 구성장치보다 효과가 강력한 장비로 전차 국가 및 유형과 관계없이 장착할 수 있습니다. 해체하려면 전쟁 채권을 사용해야 합니다."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "개량형 구성장치"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "수리 속도 증가 및 탄약고/연료 탱크/엔진 보호"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "일반 환기장치(승무원 숙련도 보너스 {colorTagOpen}+5%{colorTagClose})보다 효과가 강력한 장비입니다. 승무원의 숙련도가 {colorTagOpen}+8.5%{colorTagClose} 증가하며 전차 국가 및 유형과 관계없이 장착할 수 있습니다. 해체하려면 전쟁 채권을 사용해야 합니다."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "개조 환기장치"
+
+msgid "deluxRammer/long_special"
+msgstr "일반 장전기(장전 시간 {colorTagOpen}10%{colorTagClose} 감소)보다 효과가 강력한 장비입니다. 장전 시간이 {colorTagOpen}13.5%{colorTagClose} 감소하며 전차 국가 및 유형과 관계없이 장착할 수 있습니다. 해체하려면 전쟁 채권을 사용해야 합니다."
+
+msgid "deluxRammer/name"
+msgstr "개조 장전 장치"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "저소음 배기장치보다 효과가 강력한 장비입니다. 정지 시/기동 시 전차 위장률이 증가합니다. 정찰 시 다양한 전술을 구사하기에 유용할 것입니다.\n전차 국가 및 유형과 관계없이 장착할 수 있지만, 전차 유형에 따라 효율이 달라집니다. 해체하려면 전쟁 채권을 사용해야 합니다."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "개조 배기장치"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "정지 시/기동 시 위장률 {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose} 증가"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "정지 시 1.5초 뒤 위장률 증가"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "위장막보다 효과가 더 강력한 장비입니다. 전술 위장막은 전차 유형에 따라 효율이 달라지며, 은밀하게 기동해야 하는 자주포와 차체가 낮은 구축전차가 사용하면 좋습니다. 승무원의 위장 능력과 함께 사용하면 효과가 더욱 향상되며 전술 위장막으로 적용되는 보너스는 전차가 정지 시 1.5초 뒤 적용됩니다."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "전술 위장막"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "정지 시 위장률 {colorTagOpen}17.5{colorTagClose}/{colorTagOpen}12.5{colorTagClose}/{colorTagOpen}7.5%{colorTagClose} 증가"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "수리를 완료하면 현가장치의 내구력을 모두 회복합니다."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "수리 완료 시 현가장치 내구력 회복"
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "개량형 경화강보다 효과가 강력한 장비입니다. 전차 내구도 {colorTagOpen}12.5%{colorTagClose} 증가, 현가장치 내구력 {colorTagOpen}75%{colorTagClose} 증가, 현가장치 수리 속도 {colorTagOpen}30%{colorTagClose} 증가, 충돌 시 현가장치 피해를 통한 차체 피해 {colorTagOpen}75%{colorTagClose} 감소 효과가 적용되며 수리 완료 시 현가장치 내구력이 모두 회복됩니다. 피해로 인해 궤도가 파괴될 확률이 감소하여 전차를 최대한 오래 기동할 수 있습니다. 전차 국가 및 유형과 관계없이(자주포 제외) 장착할 수 있으며 해체하려면 전쟁 채권을 사용해야 합니다."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "개조 경화강"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "전차 내구도 증가 및 현가장치 보호"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "개량형 회전장치보다 효과가 강력한 장비입니다. 주포 회전 속도 {colorTagOpen}17.5% {colorTagClose}증가, 차체 회전 속도 {colorTagOpen}17.5% {colorTagClose}증가, 기동 시/포탑 회전 시 분산도 {colorTagOpen}17.5% {colorTagClose}감소 효과가 적용됩니다. 전차 국가 및 유형과 관계없이 장착할 수 있으며 해체하려면 전쟁 채권을 사용해야 합니다."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "개조 회전장치"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "회전 속도 증가 및 기동 시/회전 시 주포 분산도 감소"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "개량형 조준장치보다 효과가 강력한 장비입니다. 조준원 크기가 {colorTagOpen}9%{colorTagClose} 감소하여 표적을 더 정확히 사격할 수 있습니다. 전차 국가 및 유형과 관계없이 장착할 수 있으며 해체하려면 전쟁 채권을 사용해야 합니다."
+
+msgid "deluxeImprovedSights/name"
+msgstr "개조 조준장치"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "주포 분산도 감소"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "정지 시 1.5초 뒤 관측 범위 증가 (최대 445m)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "쌍안경보다 효과가 강력한 장비입니다. 관측 범위가 넓으면 전투를 유리하게 진행할 수 있습니다. 차체가 낮고 주포 명중률이 높은 구축전차가 사용하기 좋은 장비 유형입니다. 전차 정지 시 1.5초 뒤 효과가 활성화됩니다."
+
+msgid "deluxeStereoscope/name"
+msgstr "망원 관측 시스템"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "정지 시 관측 범위 {colorTagOpen}27.5%{colorTagClose} 증가 (최대 445m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "터보 과급기(엔진 출력 {colorTagOpen}7.5%{colorTagClose} 증가, 최고 전진 속력 {colorTagOpen}4km/h{colorTagClose} 증가, 최고 후진 속력 {colorTagOpen}2km/h{colorTagClose} 증가)보다 효과가 강력한 장비입니다. 엔진 출력 {colorTagOpen}12.5%{colorTagClose} 증가, 최고 전진 속력 {colorTagOpen}6km/h{colorTagClose} 증가, 최고 후진 속력 {colorTagOpen}4km/h{colorTagClose} 증가 효과가 적용됩니다. 전차 국가 및 유형과 관계없이(차륜 전차 제외) 장착할 수 있으며 해체하려면 전쟁 채권을 사용해야 합니다."
+
+msgid "deluxeTurbocharger/name"
+msgstr "개조 과급기"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "엔진 출력 및 최고 속력 증가"
+
+msgid "eb_minefield/descr"
+msgstr "일정 시간 동안 선택한 지역에 지뢰 매설"
+
+msgid "eb_minefield/long_descr"
+msgstr "일정 시간 동안 선택한 지역에 지뢰를 매설합니다. 유폭 시 적 전차에 피해 및 폭발 충격을 기록합니다. 적 전차가 가까이 접근하거나 공중 정찰 또는 사주 경계 전시 물자를 사용하면 탐지될 수 있습니다. 지뢰는 사격 또는 폭발에 의해 파괴될 수 있습니다."
+
+msgid "eb_minefield/name"
+msgstr "지뢰 매설"
+
+msgid "eb_minefield/short_descr"
+msgstr "일정 시간 동안 선택한 지역에 지뢰 매설"
+
+msgid "eb_regenerationKit/descr"
+msgstr "지속적으로 전차 내구도를 일정량 회복"
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "지속적으로 전차 내구도를 일정량 회복합니다. 정비 구역 내 수리 속도가 향상됩니다. 활성화 시 지뢰로 인한 피해가 감소합니다."
+
+msgid "eb_regenerationKit/name"
+msgstr "야전 수리"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "지속적으로 전차 내구도를 일정량 회복"
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "차고 슬롯"
+
+msgid "empty_slot/name"
+msgstr "차고 슬롯"
+
+msgid "empty_slot/short_descr"
+msgstr "전시 물자 슬롯이 사용되었습니다."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "음향 탐지 능력 효과 1.5배 적용"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "음향 탐지 능력 훈련 수준 100% 적용"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "음향 탐지 능력을 훈련하면 적 자주포 사격을 감지하며 폭발 충격으로 인한 성능 저하 효과가 감소합니다. 이미 해당 능력을 100% 훈련했다면 능력의 효과가 향상되며 아직 훈련을 완료하지 않았다면 숙련도 100% 효과가 적용됩니다."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "경계 강화"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "음향 탐지 능력 훈련 수준 100% 적용 또는 효과 향상"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "조준 속도가 감소합니다. 개량형 주포 구동 장치가 장착되어 있는 전차는 명중률이 더욱 뛰어나며 조준에 필요한 시간이 감소하므로 연사력도 증가합니다."
+
+msgid "enhancedAimDrives/name"
+msgstr "개량형 주포 구동 장치"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s 조준 속도\n개량형 주포 구동 장치(급수 무관)/내마모 주포 구동 장치/포상 주포 구동 장치/사격 통제 시스템 필요"
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "한 전투에서 포상 주포 구동 장치, 개량형 주포 구동 장치, 내마모 주포 구동 장치 효과가 향상됩니다. 해당 장비가 전차에 장착되어 있어야 본 지휘명령을 사용할 수 있습니다."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "조준경 개조"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "주포 구동 장치 효과 향상"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "개량형 주포 구동장치 1급"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "개량형 주포 구동장치 2급"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "개량형 주포 구동장치 3급"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "개량형 접시 스프링"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "수리를 완료하면 현가장치의 내구력을 모두 회복합니다."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "수리 완료 시 현가장치의 내구력 모두 회복"
+
+msgid "enhancedLevers/name"
+msgstr "개량형 레버"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "개량형 세로 토션 바"
+
+msgid "enhancedSprings/name"
+msgstr "개량형 스프링"
+
+msgid "enhancedTorsions1t/name"
+msgstr "개량형 토션 바 1톤급"
+
+msgid "enhancedTorsions3t/name"
+msgstr "개량형 토션 바 3톤급"
+
+msgid "enhancedTorsions5t/name"
+msgstr "개량형 토션 바 5톤급"
+
+msgid "exampleAbility/descr"
+msgstr "Test Skill for Visual Script"
+
+msgid "exampleAbility/name"
+msgstr "Test Skill"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s 전투 중 엔진 출력 및 포탑 회전 속도"
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 엔진 출력 및 포탑 회전 속도"
+
+msgid "excellentFuel/long_special"
+msgstr "전투 중 엔진 출력 및 포탑 회전 속도가 {colorTagOpen}10%{colorTagClose} 증가합니다. 전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다."
+
+msgid "excellentFuel/name"
+msgstr "최고급 연료"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "엔진 출력 및 포탑 회전 속도 {colorTagOpen}10%{colorTagClose} 증가"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "수리를 완료하면 현가장치의 내구력을 모두 회복합니다."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "수리 완료 시 현가장치 내구력 회복"
+
+msgid "extraHealthReserve/long_special"
+msgstr "전차 내구도와 수리 속도가 증가합니다. 충돌 시 현가장치 피해로 인한 차체 피해가 감소하며 수리 완료 시 현가장치 내구력이 회복됩니다. 피해로 인해 궤도가 파괴될 확률이 감소하여 전차를 최대한 오래 기동할 수 있습니다."
+
+msgid "extraHealthReserve/name"
+msgstr "개량형 경화강"
+
+msgid "extraHealthReserve/short_special"
+msgstr "전차 내구도 증가 및 현가장치 보호"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "개량형 경화강 1급"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "개량형 경화강 2급"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "개량형 경화강 3급"
+
+msgid "fireCircle/battleDescr"
+msgstr "효과 범위 내 적 전차의 기동력을 저하하고 지속 시간에 걸쳐 총내구도의 최대 %(damagePerTickForInterval)s만큼 피해를 입히는 불의 고리를 전차 주변에 생성합니다. %(timer)s초 동안 유지됩니다.\n\n*불의 고리는 생성된 위치에 고정되며 전차를 따라 움직이지 않습니다."
+
+msgid "fireCircle/descr"
+msgstr "효과 범위 내 적 전차의 기동력을 저하하고 총 내구도의 최대 %(damagePerTickForInterval)s만큼 피해를 입히며 %(timer)s초 동안 유지되는 불의 고리를 전차 주변에 생성합니다.\n\n*불의 고리는 생성된 위치에 고정되며 전차를 따라 움직이지 않습니다."
+
+msgid "fireCircle/longDescr"
+msgstr "효과 범위 내 적 전차의 기동력을 저하하고 총 내구도의 {whiteSpanish_Open}최대 %(damagePerTickForInterval)s{whiteSpanish_Close}만큼 피해를 입히며 {whiteSpanish_Open}%(timer)s초{whiteSpanish_Close} 동안 유지되는 불의 고리를 전차 주변에 생성합니다.\n\n*불의 고리는 생성된 위치에 고정되며 전차를 따라 움직이지 않습니다."
+
+msgid "fireCircle/name"
+msgstr "불의 고리"
+
+msgid "fireCircle/shortDescr"
+msgstr "효과 범위 내 적 전차의 기동력을 저하하고 총 내구도의 {whiteSpanish_Open}최대 %(damagePerTickForInterval)s{whiteSpanish_Close}만큼 피해를 입히며 {whiteSpanish_Open}%(timer)s초{whiteSpanish_Close} 동안 유지되는 불의 고리를 전차 주변에 생성합니다.\n\n*불의 고리는 생성된 위치에 고정되며 전차를 따라 움직이지 않습니다."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "소화 능력 효과 1.5배 적용"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "소화 능력 훈련 수준 100% 적용"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "소화 능력을 훈련하면 전투 중 화재 진압력이 향상됩니다. 이미 해당 능력을 100% 훈련했다면 능력의 효과가 향상되며 아직 훈련을 완료하지 않았다면 100% 훈련 시 기준 효과가 적용됩니다."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "소화 숙련"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "소화 능력 훈련 수준 100% 적용 또는 효과 향상"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "선택한 지역에 포격 지원을 요청하여 범위 내 모든 전차에 피해를 입힙니다."
+
+msgid "fort_aoe_artillery/name"
+msgstr "포격 지원"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "선택한 지역에 포격 지원을 요청하여 범위 내 모든 전차에 피해를 입힙니다."
+
+msgid "fort_inspire/longDescr"
+msgstr "플레이어 및 주변 아군 전차의 승무원 숙련도를 향상합니다."
+
+msgid "fort_inspire/name"
+msgstr "사기 강화"
+
+msgid "fort_inspire/shortDescr"
+msgstr "플레이어 및 주변 아군 전차의 승무원 숙련도를 향상합니다."
+
+msgid "fuel_system_revision_1/name"
+msgstr "연료 시스템 개량(1형)"
+
+msgid "grousers/long_special"
+msgstr "모든 지형에서 차체 회전 속도 및 속도 유지력이 증가하며 무른 지형에서 효과적입니다. 승무원의 선회 향상, 험지주파 능력과 함께 사용하면 효과가 더욱 향상됩니다."
+
+msgid "grousers/name"
+msgstr "보조 그라우저"
+
+msgid "grousers/short_special"
+msgstr "차체 회전 속도 및 가속력 증가"
+
+msgid "grousers_tier1/name"
+msgstr "보조 그라우저 1급"
+
+msgid "grousers_tier2/name"
+msgstr "보조 그라우저 2급"
+
+msgid "grousers_tier3/name"
+msgstr "보조 그라우저 3급"
+
+msgid "gun_balancing_1/name"
+msgstr "주포 조준 보정(1형)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "전차 화재 진압"
+
+msgid "handExtinguishers/long_special"
+msgstr "활성화 시 전차의 화재를 진압합니다. 전차 유형이나 국가와 관계없이 모든 전차에 장착하면 좋은 소모품입니다. 한 번 이상 사용하면 전투 후 재보급해야 합니다."
+
+msgid "handExtinguishers/name"
+msgstr "수동 소화기"
+
+msgid "handExtinguishers/onUse"
+msgstr "전차 화재 진압\n전투 중 재사용 가능 / 사용 시 재보급 필요"
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "전차 화재 진압"
+
+msgid "healPoint/battleDescr"
+msgstr "자신과 범위 내 소대원의 전차 내구도가 매초 %(healPerTick)s 회복되는 구역을 전차 주변에 생성합니다. %(duration)s초 동안 유지됩니다."
+
+msgid "healPoint/descr"
+msgstr "자신과 범위 내 소대원의 전차 내구도가 매초 %(healPerTick)s 회복되는 구역을 전차 주변에 생성합니다. %(duration)s초 동안 유지됩니다."
+
+msgid "healPoint/longDescr"
+msgstr "자신과 범위 내 소대원의 전차 내구도가 매초 {green_Open}%(healPerTick)s 회복{green_Close}되는 구역을 전차 주변에 생성합니다. {whiteSpanish_Open}%(duration)s초{whiteSpanish_Close} 동안 유지됩니다."
+
+msgid "healPoint/name"
+msgstr "정비 구역"
+
+msgid "healPoint/shortDescr"
+msgstr "자신과 범위 내 소대원의 전차 내구도가 매초 {green_Open}%(healPerTick)s 회복{green_Close}되는 구역을 전차 주변에 생성합니다. {whiteSpanish_Open}%(duration)s초{whiteSpanish_Close} 동안 유지됩니다."
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s 전투 중 승무원 숙련도 보너스"
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 승무원 숙련도 보너스"
+
+msgid "hotCoffee/long_special"
+msgstr "전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다. 프랑스 전차에만 장비할 수 있습니다."
+
+msgid "hotCoffee/name"
+msgstr "진한 커피"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "프랑스 전차 전용"
+
+msgid "hotCoffee/short_special"
+msgstr "프랑스 승무원 숙련도 향상"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "전투 중 부품 파괴로 인한 연료 탱크 화재, 탄약고 유폭, 엔진 파괴를 1회 방지합니다."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "전투 중 부품 파괴로 인한 연료 탱크 화재, 탄약고 유폭, 엔진 파괴를 1회 방지합니다."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "탄약고 보호"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "탄약고 유폭 방지"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "엔진 보호"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "엔진 파괴 방지"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "연료 탱크 보호"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "연료 탱크 화재 방지"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "전투 중 부품 파괴로 인한 연료 탱크 화재, 탄약고 유폭, 엔진 파괴를 1회 방지합니다."
+
+msgid "improvedConfiguration/long_special"
+msgstr "수리 속도가 빨라지고 탄약고/연료 탱크/엔진 내구력이 증가합니다. 부품 피해로 인한 장전 시간 및 엔진 출력 저하 효과가 감소합니다. 또한, 부품 파괴로 인한 연료 탱크 화재, 탄약고 유폭, 엔진 파괴 확률이 감소합니다. 승무원의 수리, 적재함 강화, 정밀 정비 능력과 함께 사용하면 더욱 효과적입니다."
+
+msgid "improvedConfiguration/name"
+msgstr "맞춤형 구성장치"
+
+msgid "improvedConfiguration/short_special"
+msgstr "수리 속도 증가 및 탄약고/연료 탱크/엔진 보호"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s 수리 속도\n맞춤형 구성장치(급수 무관)/개량형 구성장치/포상 방호장치 장착 필요"
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "한 전투에서 맞춤형 구성장치, 개량형 구성장치, 포상 방호장치 효과가 향상됩니다. 해당 장비가 전차에 장착되어 있어야 본 지휘명령을 사용할 수 있습니다."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "예비 정비"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "맞춤형 구성장치 효과 향상"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "맞춤형 구성장치 1급"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "맞춤형 구성장치 2급"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "관측 범위에서 벗어난 적 전차 발견 유지 시간은 증가하고 자신의 전차 발각 유지 시간은 감소합니다. 승무원의 목표 추적, 복수의 외침 능력과 함께 사용 시 더욱 효과적입니다."
+
+msgid "improvedRadioCommunication/name"
+msgstr "개량형 무전기"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "적 전차 발견 유지 시간 증가 및 자신의 전차 발각 유지 시간 감소"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "차체/포탑/주포 회전 속도가 증가하며 기동 시/차체 회전 시/포탑 회전 시/사격 후 주포 분산도가 감소합니다. 승무원의 선회 향상 능력과 함께 사용하면 더욱 효과적입니다."
+
+msgid "improvedRotationMechanism/name"
+msgstr "개량형 회전장치"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "회전 속도 증가 및 기동 시/회전 시 주포 분산도 감소"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "개량형 회전장치 1급"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "개량형 회전장치 2급"
+
+msgid "improvedSights/long_special"
+msgstr "조준원 크기가 감소하고 주포 명중률이 증가하여 목표물을 더 쉽게 명중할 수 있습니다."
+
+msgid "improvedSights/name"
+msgstr "개량형 조준장치"
+
+msgid "improvedSights/short_special"
+msgstr "주포 분산도 감소"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s 조준원 크기\n개량형 조준장치/포상 조준장치/조준 강화 시스템 필요"
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "한 전투에서 개량형 조준장치, 포상 조준장치 효과가 향상됩니다. 해당 장비가 전차에 장착되어 있어야 본 지휘명령을 사용할 수 있습니다."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "렌즈 연마"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "조준원 크기 감소"
+
+msgid "improvedSights_tier1/name"
+msgstr "개량형 조준장치 1급"
+
+msgid "improvedSights_tier2/name"
+msgstr "개량형 조준장치 2급"
+
+msgid "improvedSights_tier3/name"
+msgstr "개량형 조준장치 3급"
+
+msgid "improvedVentilation/long_special"
+msgstr "전차의 관측 범위, 연사력, 조준 시간, 기동성 등 다양한 성능이 향상되는 장비입니다. 승무원 전우애 능력을 100% 훈련해야 해당 장비로 인해 향상된 성능을 체감할 수 있습니다."
+
+msgid "improvedVentilation/name"
+msgstr "개량형 환기장치"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s 승무원 숙련도 보너스\n개량형 환기장치/개조 환기장치/포상 환기장치 필요"
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "한 전투에서 개량형 환기장치(급수 무관), 개조 환기장치, 포상 환기장치 효과가 향상됩니다. 해당 장비가 전차에 장착되어 있어야 본 지휘명령을 사용할 수 있습니다."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "환기구 청소"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "환기장치 효과 향상"
+
+msgid "improvedVentilation_class1/name"
+msgstr "개량형 환기장치 1급"
+
+msgid "improvedVentilation_class2/name"
+msgstr "개량형 환기장치 2급"
+
+msgid "improvedVentilation_class3/name"
+msgstr "개량형 환기장치 3급"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "개량형 환기장치 1급"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "개량형 환기장치 2급"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "개량형 환기장치 3급"
+
+msgid "improved_suspension_1/name"
+msgstr "개선형 현가장치(1형)"
+
+msgid "improved_suspension_2/name"
+msgstr "개선형 현가장치(2형)"
+
+msgid "inspire/longDescr"
+msgstr "일정 범위 내에 있는 모든 아군 전차 승무원에 일정 보너스가 적용됩니다. 해당 물자를 사용한 플레이어에게는 더 높은 보너스가 적용됩니다."
+
+msgid "inspire/name"
+msgstr "사기 강화"
+
+msgid "inspire/shortDescr"
+msgstr "본인 및 아군 전차 승무원 숙련도 보너스 적용"
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "자주포용 대구경 장전기"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "전차용 대구경 장전기"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s 폭발 충격 지속 시간\n%(crewHitChance)s 승무원 부상 방지 확률"
+
+msgid "largeMedkit/descr"
+msgstr "부상당한 모든 승무원을 치료하고 폭발 충격 효과 제거"
+
+msgid "largeMedkit/long_special"
+msgstr "활성화 시 부상당한 모든 승무원을 치료하고 폭발 충격 효과를 제거합니다. 장착 시 승무원 부상 확률이 감소합니다. 전차 유형이나 국가와 관계없이 모든 전차에 장착하면 좋은 소모품입니다."
+
+msgid "largeMedkit/name"
+msgstr "대형 구급 상자"
+
+msgid "largeMedkit/onUse"
+msgstr "부상당한 모든 승무원 치료\n전투 중 재사용 가능 / 사용 시 재보급 필요"
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "부상당한 모든 승무원 치료 및 폭발 충격 효과 제거\n전투 중 재사용 가능 / 사용 시 재보급 필요"
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "부상당한 모든 승무원 치료 및 폭발 충격 효과 제거"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s 부품 수리 속도"
+
+msgid "largeRepairkit/descr"
+msgstr "손상된 모든 부품 수리"
+
+msgid "largeRepairkit/long_special"
+msgstr "활성화 시 손상된 모든 부품을 수리하며 장착 시 부품 수리 속도가 향상됩니다. 전차 유형이나 국가와 관계없이 모든 전차에 장착하면 좋은 소모품입니다."
+
+msgid "largeRepairkit/name"
+msgstr "대형 수리 도구"
+
+msgid "largeRepairkit/onUse"
+msgstr "손상된 모든 부품 수리\n전투 중 재사용 가능 / 사용 시 재보급 필요"
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "손상된 모든 부품 수리"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "복수의 외침 능력 효과 50% 추가 향상"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "복수의 외침 능력 훈련 수준 100% 적용"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "복수의 외침 능력을 훈련하면 전차가 파괴 후 2초간 적의 위치를 송신합니다. 이미 해당 능력을 100% 훈련했다면 효과 지속 시간이 1초 증가(총 3초)하며 아직 훈련을 완료하지 않았다면 100% 훈련 시 기준 효과(2초)가 적용됩니다."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "의무 우선"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "복수의 외침 능력 훈련 수준 100% 적용 또는 효과 향상"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "자주포용 중구경 장전기"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "전차용 중구경 장전기"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "사격 통제 시스템 T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "사격 통제 시스템 T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "사격 통제 시스템 T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "사격 통제 시스템 T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "사격 통제 시스템 T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "사격 통제 시스템 T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "사격 통제 시스템 T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "사격 통제 시스템 T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "사격 통제 시스템 T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "생존 강화 시스템 T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "생존 강화 시스템 T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "생존 강화 시스템 T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "생존 강화 시스템 T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "생존 강화 시스템 T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "생존 강화 시스템 T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "생존 강화 시스템 T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "생존 강화 시스템 T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "생존 강화 시스템 T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "조준 강화 시스템 T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "조준 강화 시스템 T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "조준 강화 시스템 T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "조준 강화 시스템 T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "조준 강화 시스템 T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "조준 강화 시스템 T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "조준 강화 시스템 T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "조준 강화 시스템 T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "조준 강화 시스템 T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "기동 강화 시스템 T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "기동 강화 시스템 T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "기동 강화 시스템 T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "기동 강화 시스템 T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "기동 강화 시스템 T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "기동 강화 시스템 T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "기동 강화 시스템 T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "기동 강화 시스템 T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "기동 강화 시스템 T3"
+
+msgid "nitro/battleDescr"
+msgstr "%(consumeSeconds)s초 동안 전차의 엔진 출력이 %(enginePowerFactor)s, 최고 속력이 %(maxSpeedFactor)s배 증가합니다."
+
+msgid "nitro/descr"
+msgstr "%(consumeSeconds)s초 동안 전차의 엔진 출력이 %(enginePowerFactor)s, 최고 속력이 %(maxSpeedFactor)s배 증가합니다."
+
+msgid "nitro/long_special"
+msgstr "{whiteSpanish_Open}%(consumeSeconds)s초{whiteSpanish_Close} 동안 전차의 엔진 출력이 {green_Open}%(enginePowerFactor)s{green_Close}, 최고 속력이 {green_Open}%(maxSpeedFactor)s배{green_Close} 증가합니다."
+
+msgid "nitro/name"
+msgstr "터보 과급기"
+
+msgid "nitro/short_special"
+msgstr "{whiteSpanish_Open}%(consumeSeconds)s초{whiteSpanish_Close} 동안 전차의 엔진 출력이 {green_Open}%(enginePowerFactor)s{green_Close}, 최고 속력이 {green_Open}%(maxSpeedFactor)s배{green_Close} 증가합니다."
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "대체 구성: 보조 보급품"
+
+msgid "passive_engineering/longDescr"
+msgstr "점령 및 정비 속도에 보너스가 적용됩니다. 정비 속도, 정비 구역 재생성 속도, 기지 점령 및 재점령 속도가 향상됩니다."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "해당 전시 물자는 자주포에 적용할 수 없습니다."
+
+msgid "passive_engineering/name"
+msgstr "공병 지원"
+
+msgid "passive_engineering/shortDescr"
+msgstr "점령 속도, 점령 차단, 정비 속도 보너스 적용"
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "자주포 사용 불가"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "적재함 강화 능력 효과 3배 적용"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "적재함 강화 능력 훈련 수준 100% 적용"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "적재함 강화 능력을 훈련하면 전투 중 탄약고의 내구력이 향상됩니다. 이미 해당 능력을 100% 훈련했다면 능력의 효과가 향상되며 아직 훈련을 완료하지 않았다면 100% 훈련 시 기준 효과가 적용됩니다."
+
+msgid "pedantBattleBooster/name"
+msgstr "포탄 정리"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "적재함 강화 능력 훈련 수준 100% 적용 또는 효과 향상"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "{colorTagOpen}%(delay)d초{colorTagClose} 후 선택한 지역을 포격합니다. {colorTagOpen}%(radius)dm{colorTagClose} 안에 있는 전차는 {colorTagOpen}%(damage)d{colorTagClose}의 피해를 입고 {colorTagOpen}%(stunDuration)d초{colorTagClose} 동안 폭발 충격을 받습니다."
+
+msgid "poi_artillery_aoe/name"
+msgstr "포격 지원"
+
+msgid "poi_radar/descr"
+msgstr "활성화 시 모든 적 전차가 {colorTagOpen}%(duration)d초{colorTagClose} 동안 발견된 상태로 유지됩니다."
+
+msgid "poi_radar/name"
+msgstr "전파 탐지"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "효율 중시 능력 효과 2배 적용"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "효율 중시 능력 훈련 수준 100% 적용"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "효율 중시 능력을 훈련하면 전투 중 소모품 재사용 시간이 감소합니다. 이미 해당 능력을 100% 훈련했다면 능력의 효과가 향상되며 아직 훈련을 완료하지 않았다면 100% 훈련 시 기준 효과가 적용됩니다."
+
+msgid "practicalityBattleBooster/name"
+msgstr "철저한 정비"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "효율 중시 능력 훈련 수준 100% 적용 또는 효과 향상"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s 전투 중 엔진 출력 및 포탑 회전 속도"
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} 엔진 출력 및 포탑 회전 속도"
+
+msgid "qualityFuel/long_special"
+msgstr "전투 중 엔진 출력 및 포탑 회전 속도가 {colorTagOpen}5%{colorTagClose} 증가합니다. 전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다."
+
+msgid "qualityFuel/name"
+msgstr "고급 연료"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "엔진 출력 및 포탑 회전 속도 {colorTagOpen}5%{colorTagClose} 증가"
+
+msgid "radar/descr"
+msgstr "미니맵에서 적 전차와 전리품 탐지"
+
+msgid "radar/name"
+msgstr "무선 탐지"
+
+msgid "rammer/long_special"
+msgstr "연사력은 매우 중요한 수치 중 하나입니다. 전차에 장전기를 장착하면 전투를 더욱 유리하게 진행할 수 있지만, 클립식 주포에는 장착할 수 없습니다."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s 장전 속도\n장전기/개조 장전 장치/포상 장전기 필요"
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "한 전투에서 장전기(주포 및 구경 무관), 포상 장전기, 개조 장전 장치 효과가 향상됩니다. 해당 장비가 전차에 장착되어 있어야 본 지휘명령을 사용할 수 있습니다."
+
+msgid "rammerBattleBooster/name"
+msgstr "탄약고 정돈"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "장전기 효과 향상"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "목표 추적 능력 효과 2배 적용"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "목표 추적 능력 훈련 수준 100% 적용"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "목표 추적 능력을 훈련하면 조준한 적 전차를 볼 수 있는 시간이 2초 증가합니다. 이미 해당 능력을 100% 훈련했다면 능력의 효과가 향상되며 아직 훈련을 완료하지 않았다면 100% 훈련 시 기준 효과가 적용됩니다."
+
+msgid "rancorousBattleBooster/name"
+msgstr "목표 집중"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "목표 추적 능력 훈련 수준 100% 적용 또는 효과 향상"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s 전투 중 승무원 숙련도 보너스"
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 승무원 숙련도 보너스"
+
+msgid "ration/long_special"
+msgstr "전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다. 소련 전차에만 장비할 수 있습니다."
+
+msgid "ration/name"
+msgstr "추가 전투 식량"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "소련 전차 전용"
+
+msgid "ration/short_special"
+msgstr "소련 승무원 숙련도 향상"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s 전투 중 승무원 숙련도 보너스"
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 승무원 숙련도 보너스"
+
+msgid "ration_china/long_special"
+msgstr "전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다. 중국 전차에만 장비할 수 있습니다."
+
+msgid "ration_china/name"
+msgstr "신형 전투 식량"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "중국 전차 전용"
+
+msgid "ration_china/short_special"
+msgstr "중국 승무원 숙련도 향상"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s 전투 중 승무원 숙련도 보너스"
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 승무원 숙련도 보너스"
+
+msgid "ration_czech/long_special"
+msgstr "전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다. 체코 전차에만 장비할 수 있습니다."
+
+msgid "ration_czech/name"
+msgstr "부흐티"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "체코 전차 전용"
+
+msgid "ration_czech/short_special"
+msgstr "체코 승무원 숙련도 향상"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s 전투 중 승무원 숙련도 보너스"
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 승무원 숙련도 보너스"
+
+msgid "ration_italy/long_special"
+msgstr "전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다. 이탈리아 전차에만 장비할 수 있습니다."
+
+msgid "ration_italy/name"
+msgstr "스파게티"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "이탈리아 전차 전용"
+
+msgid "ration_italy/short_special"
+msgstr "이탈리아 승무원 숙련도 향상"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s 전투 중 승무원 숙련도 보너스"
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 승무원 숙련도 보너스"
+
+msgid "ration_japan/long_special"
+msgstr "전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다. 일본 전차에만 장비할 수 있습니다."
+
+msgid "ration_japan/name"
+msgstr "주먹밥"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "일본 전차 전용"
+
+msgid "ration_japan/short_special"
+msgstr "일본 승무원 숙련도 향상"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s 전투 중 승무원 숙련도 보너스"
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 승무원 숙련도 보너스"
+
+msgid "ration_poland/long_special"
+msgstr "전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다. 폴란드 전차에만 장비할 수 있습니다."
+
+msgid "ration_poland/name"
+msgstr "스말레츠 빵"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "폴란드 전차 전용"
+
+msgid "ration_poland/short_special"
+msgstr "폴란드 승무원 숙련도 향상"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s 전투 중 승무원 숙련도 보너스"
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 승무원 숙련도 보너스"
+
+msgid "ration_sweden/long_special"
+msgstr "전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다. 스웨덴 전차에만 장비할 수 있습니다."
+
+msgid "ration_sweden/name"
+msgstr "커피와 디저트"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "스웨덴 전차 전용"
+
+msgid "ration_sweden/short_special"
+msgstr "스웨덴 승무원 숙련도 향상"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s 전투 중 승무원 숙련도 보너스"
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 승무원 숙련도 보너스"
+
+msgid "ration_uk/long_special"
+msgstr "전투 시작과 함께 자동으로 활성화되며 전투 내내 효과가 지속됩니다. 영국 전차에만 장비할 수 있습니다."
+
+msgid "ration_uk/name"
+msgstr "푸딩과 홍차"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "영국 전차 전용"
+
+msgid "ration_uk/short_special"
+msgstr "영국 승무원 숙련도 향상"
+
+msgid "recon/longDescr"
+msgstr "정찰기가 출격하여 넓은 지역을 정찰합니다. 정찰기가 발견한 적 전차의 위치는 일정 시간 동안 표시됩니다. 매설된 지뢰도 탐지할 수 있습니다."
+
+msgid "recon/name"
+msgstr "공중 정찰"
+
+msgid "recon/shortDescr"
+msgstr "적 전차 및 지뢰 탐지"
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} 엔진 출력, 사용 후 엔진 손상"
+
+msgid "removedRpmLimiter/long_special"
+msgstr "엔진 출력이 {colorTagOpen}10%{colorTagClose} 향상되지만 활성화 시 엔진 내구도가 점차 감소합니다. 전투 중 여러 번 사용할 수 있으며 중국, 소련 전차에서만 사용할 수 있습니다."
+
+msgid "removedRpmLimiter/name"
+msgstr "조속기 제거"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s 엔진 출력, 사용 시 엔진 손상, 한 전투에서 여러 번 사용 가능"
+
+msgid "removedRpmLimiter/restriction"
+msgstr "소련 및 중국 전차 전용"
+
+msgid "removedRpmLimiter/short_special"
+msgstr "엔진이 손상되지만 엔진 출력 {colorTagOpen}10%{colorTagClose} 향상"
+
+msgid "repairpoint/battleDescr"
+msgstr "손상된 부품이 모두 수리되고 모든 부정적 효과가 제거되며 %(timer)s초 동안 전차 내구도가 매초 %(healPerTick)s 회복되는 임시 고정 구역을 생성합니다.\n\n*범위 내 아군 전차에도 내구도 회복 효과가 적용됩니다."
+
+msgid "repairpoint/descr"
+msgstr "손상된 부품이 모두 수리되고 모든 부정적 효과가 제거되며 %(timer)s초 동안 전차 내구도가 매초 %(healPerTick)s 회복되는 임시 고정 구역을 생성합니다.\n\n*범위 내 아군 전차에도 내구도 회복 효과가 적용됩니다."
+
+msgid "repairpoint/long_special"
+msgstr "손상된 부품이 모두 수리되고 모든 부정적 효과가 제거되며 {whiteSpanish_Open}%(timer)s초 동안{whiteSpanish_Close} 전차 내구도가 {green_Open}매초 %(healPerTick)s 회복{green_Close}되는 임시 고정 구역을 생성합니다.\n\n*범위 내 아군 전차에도 내구도 회복 효과가 적용됩니다."
+
+msgid "repairpoint/name"
+msgstr "수리 구역"
+
+msgid "repairpoint/short_special"
+msgstr "손상된 부품이 모두 수리되고 모든 부정적 효과가 제거되며 {whiteSpanish_Open}%(timer)s초 동안{whiteSpanish_Close} 전차 내구도가 {green_Open}매초 %(healPerTick)s 회복{green_Close}되는 임시 고정 구역을 생성합니다.\n\n*범위 내 아군 전차에도 내구도 회복 효과가 적용됩니다."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "포신 강선 손질(1형)"
+
+msgid "roleSlot/name"
+msgstr "두 번째 장비 슬롯 범주"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "수동 안전 시스템"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "수동\n안전 시스템"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "탄약고 구조 변경"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "탄약고\n구조 변경"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "수리 가능 궤도"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "수리 가능\n궤도"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "엔진실 미세 조정"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "엔진실\n미세 조정"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "강화형 현가장치"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "강화형\n현가장치"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "경량 현가장치"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "경량\n현가장치"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "조준 기어 래핑"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "조준 기어\n래핑"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "시차 조정"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "시차\n조정"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "배출 장치 정밀 조정"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "배출 장치\n정밀 조정"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "잠망경 각도 조정"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "잠망경\n각도 조정"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "장전 시스템 정밀 조정"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "장전 시스템\n정밀 조정"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "조준 시스템 정밀 조정"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "조준 시스템\n정밀 조정"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "동력 인출 장치 정밀 조정"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "동력 인출 장치\n정밀 조정"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "전자 조준 장치"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "전자\n조준 장치"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "신형 조준 기어"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "신형\n조준 기어"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "약실 미세 조정"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "약실\n미세 조정"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "총 중량 감축"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "총 중량\n감축"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "총 내구력 향상"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "총 내구력\n향상"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "무광 도색"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "무광\n도색"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "추가 후진 기어"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "추가\n후진 기어"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "오버헤드 캠축 엔진"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "오버헤드 캠축\n엔진"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "개선형 장전기"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "개선형\n장전기"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "추가 방음 장치"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "추가\n방음 장치"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "완충제 제거"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "완충제\n제거"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "보조 안전 시스템"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "보조 안전\n시스템"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "경량 결합 장치"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "경량\n결합 장치"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "전원 공급 배선 정렬(1안)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "전원 공급\n배선 정렬(1안)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "전원 공급 배선 정렬(2안)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "전원 공급\n배선 정렬(2안)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "강화형 플랫폼"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "강화형\n플랫폼"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "경량 플랫폼"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "경량\n플랫폼"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "기동성 정밀 개량"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "기동성\n정밀 개량"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "화력 정밀 개량"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "화력\n정밀 개량"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "중량 주포"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "중량\n주포"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "경량 주포"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "경량\n주포"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "전원 출력 정밀 조정(1안)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "전원 출력\n정밀 조정(1안)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "전원 출력 정밀 조정(2안)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "전원 출력\n정밀 조정(2안)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "강화형 차체"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "강화형\n차체"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "경량 차체"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "경량\n차체"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "광학 장비 반사 방지 코팅"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "광학 장비\n반사 방지 코팅"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "외부 비전 시스템"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "외부 비전\n시스템"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "삼중 파노라마"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "삼중\n파노라마"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "협각 관측 장치"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "협각\n관측 장치"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "강화형 주요 구조"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "강화형\n주요 구조"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "포탑 구조 확장"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "포탑 구조\n확장"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "정찰 도구"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "정찰\n도구"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "강습 도구"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "강습\n도구"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "내구력 강화"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "내구력\n강화"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "조준 성능 강화"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "조준 성능\n강화"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "추가 관측 장치"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "추가\n관측 장치"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "강화형 이음쇠"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "강화형\n이음쇠"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "장전 시스템 정밀 조정"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "장전 시스템\n정밀 조정"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "조준 시스템 정밀 조정"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "조준 시스템\n정밀 조정"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "동력 인출 장치 정밀 조정"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "동력 인출 장치\n정밀 조정"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "전자 조준 장치"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "전자\n조준 장치"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "약실 미세 조정"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "약실\n미세 조정"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "신형 조준 기어"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "신형\n조준 기어"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "연료 분사 장치 정밀 조정"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "연료 분사 장치\n정밀 조정"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "가시 범위 정밀 조정"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "가시 범위\n정밀 조정"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "부품 내구력 향상"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "부품 내구력\n향상"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "경합금 결합 장치"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "경합금\n결합 장치"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "약실 미세 조정"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "약실\n미세 조정"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "신형 조준 기어"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "신형\n조준 기어"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "중량 측정 노즐"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "중량 측정\n노즐"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "민감성 광학 장비"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "민감성\n광학 장비"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "강화형 지지 롤러"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "강화형\n지지 롤러"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "경량 지지 롤러"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "경량\n지지 롤러"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "현가장치 미세 조정"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "현가장치\n미세 조정"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "엔진 미세 조정"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "엔진\n미세 조정"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "헌터 S 스위트"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "헌터 S\n스위트"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "헌터 C 스위트"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "헌터 C\n스위트"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "유압 정밀 조정(1안)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "유압\n정밀 조정(1안)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "유압 정밀 조정(2안)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "유압\n정밀 조정(2안)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "장전 시스템 정밀 조정"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "장전 시스템\n정밀 조정"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "조준 시스템 정밀 조정"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "조준 시스템\n정밀 조정"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "생존성 향상"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "생존성\n향상"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "중량 감축"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "중량\n감축"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "전 지형용 현가장치"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "전 지형용\n현가장치"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "경량 현가장치"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "경량\n현가장치"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "시차 조정"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "시차\n조정"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "조준 기어 래핑"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "조준 기어\n래핑"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "차음 장치"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "차음\n장치"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "전기 구동 잠망경"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "전기 구동\n잠망경"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "밸브 정밀 조정(1안)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "밸브\n정밀 조정(1안)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "밸브 정밀 조정(2안)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "밸브\n정밀 조정(2안)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "장전 시스템 정밀 조정"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "장전 시스템\n정밀 조정"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "조준 시스템 정밀 조정"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "조준 시스템\n정밀 조정"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "강화형 파편 방지대"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "강화형\n파편 방지대"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "경량 파편 방지대"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "경량\n파편 방지대"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "부품 내구력 향상"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "부품 내구력\n향상"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "경합금 결합 장치"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "경합금\n결합 장치"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "현가장치 부속 정밀 조정"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "현가장치 부속\n정밀 조정"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "개선형 관측 장치"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "개선형\n관측 장치"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "터보 과급기 정밀 조정"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "터보 과급기\n정밀 조정"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "전조등 반사 방지 코팅"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "전조등\n반사 방지 코팅"
+
+msgid "selfBuff/battleDescr"
+msgstr "%(duration)s초 동안 주포 분산도가 감소하고, 조준 시간이 %(gunAimingTime)s 줄어들고, 주포 안정성 및 연사력이 향상됩니다.\n\n*클립, 주포, 탄대 재장전 시간에는 영향을 주지 않습니다."
+
+msgid "selfBuff/descr"
+msgstr "%(duration)s초 동안 주포 분산도가 감소하고, 조준 시간이 %(gunAimingTime)s 줄어들고, 주포 안정성 및 연사력이 향상됩니다.\n\n*클립, 주포, 탄대 재장전 시간에는 영향을 주지 않습니다."
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}%(duration)s초 동안{whiteSpanish_Close} 주포 분산도가 감소하고, 조준 시간이 {green_Open}%(gunAimingTime)s{green_Close} 줄어들고, 주포 안정성 및 연사력이 향상됩니다.\n\n*클립, 주포, 탄대 재장전 시간에는 영향을 주지 않습니다."
+
+msgid "selfBuff/name"
+msgstr "목표 추적"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}%(duration)s초 동안{whiteSpanish_Close} 주포 분산도가 감소하고, 조준 시간이 {green_Open}%(gunAimingTime)s{green_Close} 줄어들고, 주포 안정성 및 연사력이 향상됩니다.\n\n*클립, 주포, 탄대 재장전 시간에는 영향을 주지 않습니다."
+
+msgid "shells_consumables_switch/name"
+msgstr "대체 구성: 핵심 보급품"
+
+msgid "shotPassion/battleDescr"
+msgstr "%(duration)s초 동안 주포 조준 효율 및 안정성이 %(gunAimingTime)s 감소하지만, 관통 피해를 기록할 때마다 입히는 피해량이 %(damageIncreasePerShot)s 증가합니다. 최대 5회 누적됩니다. 명중한 포탄이 피해를 입히지 못하거나 포탄이 빗나가면 보너스 누적 횟수가 0으로 초기화됩니다.\n\n*전기 충격파 명중 시에도 피해 보너스가 누적됩니다."
+
+msgid "shotPassion/descr"
+msgstr "%(duration)s초 동안 주포 조준 효율 및 안정성이 %(gunAimingTime)s 감소하지만, 관통 피해를 기록할 때마다 입히는 피해량이 %(damageIncreasePerShot)s 증가합니다. 최대 5회 누적됩니다. 명중한 포탄이 피해를 입히지 못하거나 포탄이 빗나가면 보너스 누적 횟수가 0으로 초기화됩니다.\n\n*전기 충격파 명중 시에도 피해 보너스가 누적됩니다."
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}%(duration)s초 동안{whiteSpanish_Close} 주포 조준 효율 및 안정성이 {red_Open}%(gunAimingTime)s{red_Close} 감소하지만, 관통 피해를 기록할 때마다 입히는 피해량이 {green_Open}%(damageIncreasePerShot)s{green_Close} 증가합니다. {whiteSpanish_Open}최대 5회{whiteSpanish_Close} 누적됩니다. 명중한 포탄이 피해를 입히지 못하거나 포탄이 빗나가면 보너스 누적 횟수가 0으로 초기화됩니다.\n\n*전기 충격파 명중 시에도 피해 보너스가 누적됩니다."
+
+msgid "shotPassion/name"
+msgstr "과부하"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}%(duration)s초 동안{whiteSpanish_Close} 주포 조준 효율 및 안정성이 {red_Open}%(gunAimingTime)s{red_Close} 감소하지만, 관통 피해를 기록할 때마다 입히는 피해량이 {green_Open}%(damageIncreasePerShot)s{green_Close} 증가합니다. {whiteSpanish_Open}최대 5회{whiteSpanish_Close} 누적됩니다. 명중한 포탄이 피해를 입히지 못하거나 포탄이 빗나가면 보너스 누적 횟수가 0으로 초기화됩니다.\n\n*전기 충격파 명중 시에도 피해 보너스가 누적됩니다."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "육감 능력 1초 먼저 발동"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "전차장은 육감 특성으로 전차가 적에게 발각되었는지 알아차릴 수 있습니다. 전차가 발각되고 3초 후 활성화됩니다."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "육감은 전투 중 전차가 적에게 발견되었는지를 파악하는 전차장 특성입니다. 지휘명력 장착 시 능력의 효과가 향상됩니다."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "집중 향상"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "전차장 육감 특성 효과 향상"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "부상당한 모든 승무원을 치료하고 폭발 충격 효과 제거합니다."
+
+msgid "smallMedkit/long_special"
+msgstr "활성화 시 부상당한 모든 승무원을 치료하고 폭발 충격 효과를 제거합니다. 전차 유형이나 국가와 관계없이 모든 전차에 장착하면 좋은 소모품입니다. 한 번 이상 사용하면 전투 후 재보급해야 합니다."
+
+msgid "smallMedkit/name"
+msgstr "소형 구급 상자"
+
+msgid "smallMedkit/onUse"
+msgstr "부상당한 모든 승무원을 치료하고 폭발 충격 효과 제거합니다."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "부상당한 모든 승무원을 치료하고 폭발 충격 효과 제거합니다."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "부상당한 모든 승무원 치료 및 폭발 충격 효과 제거"
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "손상된 모든 부품을 수리합니다."
+
+msgid "smallRepairkit/long_special"
+msgstr "활성화 시 손상된 모든 부품을 수리합니다. 전차 유형이나 국가와 관계없이 모든 전차에 장착하면 좋은 소모품입니다. 한 번 이상 사용하면 전투 후 재보급해야 합니다."
+
+msgid "smallRepairkit/name"
+msgstr "소형 수리 도구"
+
+msgid "smallRepairkit/onUse"
+msgstr "손상된 모든 부품 수리\n전투 중 재사용 가능 / 사용 시 재보급 필요"
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "손상된 모든 부품 수리"
+
+msgid "smoke/longDescr"
+msgstr "연막을 살포하여 안쪽 및 뒤쪽에 있는 모든 전차를 은폐합니다. 연막 내에 있는 적 전차는 관측 범위 및 승무원 숙련도가 감소합니다."
+
+msgid "smoke/name"
+msgstr "연막 살포"
+
+msgid "smoke/shortDescr"
+msgstr "연막 안쪽 및 뒤쪽 모든 전차 은폐, 연막 내 적 전차 관측 범위 및 승무원 숙련도 감소"
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "안전 운행 능력 효과 2배 적용"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "안전운행 능력 훈련 수준 100% 적용"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "안전운행 능력을 훈련하면 전투 중 기동 간 사격 명중률이 향상됩니다. 이미 해당 능력을 100% 훈련했다면 능력의 효과가 향상되며 아직 훈련을 완료하지 않았다면 100% 훈련 시 기준 효과가 적용됩니다."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "정밀 변속"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "안전 운행 능력 훈련 수준 100% 적용 또는 효과 향상"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "조준 향상 능력 효과 2배 적용"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "조준 향상 능력 훈련 수준 100% 적용"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "조준 향상 능력을 훈련하면 포탑 회전 시 조준원 분산도가 감소합니다. 이미 해당 능력을 100% 훈련했다면 능력의 효과가 향상되며 아직 훈련을 완료하지 않았다면 100% 훈련 시 기준 효과가 적용됩니다."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "조준 안정"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "조준 향상 능력 훈련 수준 100% 적용 또는 효과 향상"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "최대 %(botLifeTime)s초 동안 가장 가까운 적 전차를 추적하고 폭발 시 좁은 범위에 400~600의 피해를 입히는 화공전차를 배치합니다.\n\n*화공전차는 사격 및 충돌에 의해 파괴될 수 있습니다. 목표물과 부딪치면 추가 충돌 피해를 입힙니다."
+
+msgid "spawn_kamikaze/descr"
+msgstr "최대 %(botLifeTime)s초 동안 가장 가까운 적 전차를 추적하고 폭발 시 좁은 범위에 400~600의 피해를 입히는 화공전차를 배치합니다.\n\n*화공전차는 사격 및 충돌에 의해 파괴될 수 있습니다. 목표물과 부딪치면 추가 충돌 피해를 입힙니다."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "최대 {whiteSpanish_Open}%(botLifeTime)s초{whiteSpanish_Close} 동안 가장 가까운 적 전차를 추적하고 폭발 시 좁은 범위에 {whiteSpanish_Open}400~600의 피해{whiteSpanish_Close}를 입히는 화공전차를 배치합니다.\n\n*화공전차는 사격 및 충돌에 의해 파괴될 수 있습니다. 목표물과 부딪치면 추가 충돌 피해를 입힙니다."
+
+msgid "spawn_kamikaze/name"
+msgstr "화공전차"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "최대 {whiteSpanish_Open}%(botLifeTime)s초{whiteSpanish_Close} 동안 가장 가까운 적 전차를 추적하고 폭발 시 좁은 범위에 {whiteSpanish_Open}400~600의 피해{whiteSpanish_Close}를 입히는 화공전차를 배치합니다.\n\n*화공전차는 사격 및 충돌에 의해 파괴될 수 있습니다. 목표물과 부딪치면 추가 충돌 피해를 입힙니다."
+
+msgid "stealthRadar/descr"
+msgstr "위장률과 관측 범위 향상 및 적 전차 위장률 저하"
+
+msgid "stealthRadar/long_descr"
+msgstr "전차 정지 후 %(activationDelay)s초 뒤에 위장률이 향상되고 적 전차의 위장률은 저하합니다. 또한, 관측 범위가 향상되며 적 지뢰를 탐지합니다. 전차 기동 중에는 작동하지 않습니다."
+
+msgid "stealthRadar/name"
+msgstr "사주 경계"
+
+msgid "stealthRadar/short_descr"
+msgstr "위장률과 관측 범위 향상 및 적 전차 위장률 저하"
+
+msgid "stereoscope/battleDescr"
+msgstr "정지 시 3초 뒤 관측 범위 증가 (최대 445m)"
+
+msgid "stereoscope/long_special"
+msgstr "관측 범위가 넓으면 전투를 유리하게 진행할 수 있습니다. 차체가 낮고 주포 명중률이 높은 구축전차가 사용하기 좋은 장비 유형입니다. 전차 정지 시 3초 뒤 효과가 활성화됩니다."
+
+msgid "stereoscope/name"
+msgstr "쌍안경"
+
+msgid "stereoscope_tier1/name"
+msgstr "쌍안경 1급"
+
+msgid "stereoscope_tier2/name"
+msgstr "쌍안경 2급"
+
+msgid "stereoscope_tier3/name"
+msgstr "쌍안경 3급"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "현가장치 부속품 교체(1형)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "현가장치 부속품 교체(2형)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "회전 장치 래핑(1형)"
+
+msgid "tankRammer/name"
+msgstr "장전기"
+
+msgid "tankRammer_tier1/name"
+msgstr "장전기 1급"
+
+msgid "tankRammer_tier2/name"
+msgstr "장전기 2급"
+
+msgid "thunderStrike/battleDescr"
+msgstr "%(thunderCount)s회의 전기 충격파가 높은 빈도로 발생하는 구역을 생성합니다. 각 충격파는 범위 내 모든 적 전차에 %(damage)s의 피해를 입히고 일시적으로 기동력을 저하합니다.\n\n*능력 활성화 후 첫 번째 충격파가 발생하기까지 %(delay)s초가 소요됩니다. 부정적 효과는 수리 도구에 의해 제거될 수 있습니다."
+
+msgid "thunderStrike/descr"
+msgstr "%(thunderCount)s회의 전기 충격파가 높은 빈도로 발생하는 구역을 생성합니다. 각 충격파는 범위 내 모든 적 전차에 %(damage)s의 피해를 입히고 일시적으로 기동력을 저하합니다.\n\n*능력 활성화 후 첫 번째 충격파가 발생하기까지 %(delay)s초가 소요됩니다. 부정적 효과는 수리 도구에 의해 제거될 수 있습니다."
+
+msgid "thunderStrike/longDescr"
+msgstr "%(thunderCount)s회의 전기 충격파가 높은 빈도로 발생하는 구역을 생성합니다. 각 충격파는 범위 내 모든 적 전차에 {whiteSpanish_Open}%(damage)s의 피해{whiteSpanish_Close}를 입히고 일시적으로 기동력을 저하합니다.\n\n*능력 활성화 후 첫 번째 충격파가 발생하기까지 %(delay)s초가 소요됩니다. 부정적 효과는 수리 도구에 의해 제거될 수 있습니다."
+
+msgid "thunderStrike/name"
+msgstr "전기 충격파"
+
+msgid "thunderStrike/shortDescr"
+msgstr "%(thunderCount)s회의 전기 충격파가 높은 빈도로 발생하는 구역을 생성합니다. 각 충격파는 범위 내 모든 적 전차에 {whiteSpanish_Open}%(damage)s의 피해{whiteSpanish_Close}를 입히고 일시적으로 기동력을 저하합니다.\n\n*능력 활성화 후 첫 번째 충격파가 발생하기까지 %(delay)s초가 소요됩니다. 부정적 효과는 수리 도구에 의해 제거될 수 있습니다."
+
+msgid "trappoint/battleDescr"
+msgstr "범위 내 모든 적 전차의 기동력이 %(vehicleMaxSpeed)s 저하되고 주포 재장전 시간 및 조준 시간이 %(gunReloadTime)s 늘어나는 구역을 생성합니다. %(duration)s초 동안 유지됩니다."
+
+msgid "trappoint/descr"
+msgstr "범위 내 모든 적 전차의 기동력을 %(vehicleMaxSpeed)s, 주포 재장전 및 조준 시간을 %(gunReloadTime)s 저하하며 %(duration)s초 동안 유지되는 구역을 생성합니다."
+
+msgid "trappoint/long_special"
+msgstr "범위 내 모든 적 전차의 기동력이 {whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close} 저하되고 주포 재장전 시간 및 조준 시간이 {whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close} 늘어나는 구역을 생성합니다. {whiteSpanish_Open}%(duration)s초{whiteSpanish_Close} 동안 유지됩니다."
+
+msgid "trappoint/name"
+msgstr "함정 지대"
+
+msgid "trappoint/short_special"
+msgstr "범위 내 모든 적 전차의 기동력이 {whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close} 저하되고 주포 재장전 시간 및 조준 시간이 {whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close} 늘어나는 구역을 생성합니다. {whiteSpanish_Open}%(duration)s초{whiteSpanish_Close} 동안 유지됩니다."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "전차 유형에 따라 효율이 달라집니다. 정지 시/기동 시 전차 위장률이 증가합니다. 정찰 시 다양한 전술을 구사하기에 유용할 것입니다."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "포상 배기장치"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "정지 시/기동 시 위장률 증가"
+
+msgid "trophyBasicAimDrives/name"
+msgstr "포상 주포 구동 장치"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "더 빠르고 정확하게 사격할 수 있도록 주포 조준 속도가 증가합니다."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "포상 안정기"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "기동 시/차체 회전 시 주포 분산도가 감소합니다."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "포상 광학장비"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "전차 정지 시/기동 시 관측 범위가 증가합니다."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "수리를 완료하면 현가장치의 내구력을 모두 회복합니다."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "수리 완료 시 현가장치 내구력 회복"
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "전차 내구도와 수리 속도가 증가합니다. 충돌 시 현가장치 피해로 인한 차체 피해가 감소하며 수리 완료 시 현가장치 내구력이 회복됩니다. 피해로 인해 궤도가 파괴될 확률이 감소하여 전차를 최대한 오래 기동할 수 있습니다."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "포상 경화강"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "전차 내구도 증가 및 현가장치 보호"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "포상 방호장치"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "포상 회전장치"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "조준원 크기가 감소하고 주포 명중률이 증가하여 목표물을 더 쉽게 명중할 수 있습니다."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "포상 조준 장치"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "주포 분산도 감소"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "포상 환기장치"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "전차 주요 성능을 향상하는 승무원 숙련도가 증가합니다."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "포상 장전기"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "주포 장전 속도가 증가합니다. 급수 제한이 없습니다."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "엔진 출력, 가속력, 조작성, 험지 주파력이 증가합니다. 또한, 최고 속력과 후진 속력도 증가하여 위치를 선점하거나 빠르게 후퇴할 수 있습니다."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "포상 터보 과급기"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "엔진 출력 및 최고 속력 증가"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} 관측 범위 (최대 445m)"
+
+msgid "trophyOptics/name"
+msgstr "포상 광학장비"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "포상 배기장치"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "포상 주포 구동 장치"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "포상 안정기"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "포상 광학장비"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "수리를 완료하면 현가장치의 내구력을 모두 회복합니다."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "수리 완료 시 현가장치 내구력 회복"
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "포상 경화강"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "포상 방호장치"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "포상 회전장치"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "포상 조준 장치"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "포상 환기장치"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "포상 장전기"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "포상 터보 과급기"
+
+msgid "turbocharger/long_special"
+msgstr "엔진 출력, 가속력, 조작성, 험지 주파력이 증가합니다. 또한, 최고 속력과 후진 속력도 증가하여 위치를 선점하거나 빠르게 후퇴할 수 있습니다."
+
+msgid "turbocharger/name"
+msgstr "터보 과급기"
+
+msgid "turbocharger/short_special"
+msgstr "엔진 출력 및 최고 속력 증가"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s 엔진 출력\n터보 과급기(급수 무관)/포상 터보 과급기/개조 과급기/기동 강화 시스템 필요"
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "한 전투에서 터보 과급기(급수 무관)/포상 터보 과급기/개조 과급기 효과가 향상됩니다. 해당 장비가 전차에 장착되어 있어야 본 지휘명령을 사용할 수 있습니다."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "연료 필터 교체"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "엔진 출력 증가"
+
+msgid "turbocharger_tier1/name"
+msgstr "터보 과급기 1급"
+
+msgid "turbocharger_tier2/name"
+msgstr "터보 과급기 2급"
+
+msgid "turbocharger_tier3/name"
+msgstr "터보 과급기 3급"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "선회 향상 능력 효과 2배 적용"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "선회 향상 능력 훈련 수준 100% 적용"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "선회 향상 능력을 훈련하면 전차 선회 속도가 향상됩니다. 이미 해당 능력을 100% 훈련했다면 능력의 효과가 향상되며 아직 훈련을 완료하지 않았다면 100% 훈련 시 기준 효과가 적용됩니다."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "실전 교육"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "선회 향상 능력 훈련 수준 100% 적용 또는 효과 향상"

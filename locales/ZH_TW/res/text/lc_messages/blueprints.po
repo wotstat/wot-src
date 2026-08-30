@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "已組裝藍圖"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "藍圖  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "藍圖 {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "前往購買"
+
+msgid "blueprintScreen/button/research"
+msgstr "前往研發"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "在車庫中檢視"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "您可以組裝藍圖來把折扣套用到欲研發的車輛上。然而，您必須先研發該分支的\n前一輛車才能使用折扣。"
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "了解！"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "無法研發"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "若要製作藍圖碎片，您需要："
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "選擇："
+
+msgid "blueprintScreen/createFragment"
+msgstr "製作碎片："
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "製作碎片"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "轉換\n碎片"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "無法\n轉換"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "無法使用：\n沒有足夠的\n資源"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "前往車輛"
+
+msgid "blueprintScreen/or"
+msgstr "或"
+
+msgid "blueprintScreen/research"
+msgstr "研發"
+
+msgid "blueprintScreen/researchFree"
+msgstr "免費研發車輛"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "無法研發"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "研發折扣："
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "已研發過這輛車因此可以購買"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "已研發及購買過這輛車"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "倉庫中："
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "當您研發出該分支的前一輛車後，就可以使用 100% 折扣來研發 {vehicleName}。"
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "已組裝藍圖"
+
+msgid "blueprintScreen/unlocked"
+msgstr "已研發\n車輛"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "聯盟："
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "集團："
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "同盟："
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "聯邦："
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "通用："
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "聯盟"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "集團"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "同盟"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "聯邦"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "（法國、捷克斯洛伐克、瑞典、義大利）"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "（德國、日本）"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "（美國、英國、波蘭）"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "（蘇聯、中國）"
+
+msgid "conversionView/topMessage/multi"
+msgstr "選擇國家碎片的數量來製作車輛藍圖碎片。\n可以使用%(allianceIcon)%(allianceName)%(allianceNations)國家碎片。"
+
+msgid "conversionView/topMessage/single"
+msgstr "選擇其中一個國家的碎片來製作車輛藍圖碎片。\n可以使用%(allianceIcon)%(allianceName)%(allianceNations)國家碎片。"
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "最終費用："
+
+msgid "conversionView/totalPrice/single"
+msgstr "藍圖碎片費用："
+
+msgid "nations/china"
+msgstr "中國"
+
+msgid "nations/czech"
+msgstr "捷克斯洛伐克"
+
+msgid "nations/france"
+msgstr "法國"
+
+msgid "nations/germany"
+msgstr "德國"
+
+msgid "nations/italy"
+msgstr "義大利"
+
+msgid "nations/japan"
+msgstr "日本"
+
+msgid "nations/poland"
+msgstr "波蘭"
+
+msgid "nations/sweden"
+msgstr "瑞典"
+
+msgid "nations/uk"
+msgstr "英國"
+
+msgid "nations/usa"
+msgstr "美國"
+
+msgid "nations/ussr"
+msgstr "蘇聯"

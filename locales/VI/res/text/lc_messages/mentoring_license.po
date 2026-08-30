@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Để xác nhận, nhập lượng XP của thành viên kíp lái được chọn chuyển."
+
+msgid "assignmentDialog/price"
+msgstr "Giá:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Chuyển hết XP Kíp lái giữa các thành viên"
+
+msgid "assignmentDialog/title"
+msgstr "Xác nhận Khóa cố vấn"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Thành viên kíp lái này sẽ bị bỏ khỏi\ntài khoản của bạn và không thể khôi phục."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} XP thừa ra sẽ bị mất."
+
+msgid "dialogue/description"
+msgstr "Một lợi-vật phẩm cho phép chuyển hết XP Kíp lái giữa các thành viên chung quốc tịch."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}XP thừa ra sẽ bị mất:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "CHỌN"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "Tổng số XP: %(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Bằng cố vấn:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Không có thành viên kíp lái phù hợp"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Chọn thành viên kíp lái sẽ chuyển XP\nsang cho {cream_Open}%(name)s{cream_Close} và bị xóa khỏi tài khoản của bạn."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Sau khi chuyển XP Kíp lái, {cream_Open}%(name)s{cream_Close} sẽ đạt giới hạn số kỹ năng và lượng XP vượt ngưỡng sẽ bị mất."
+
+msgid "mentorAssigment/title"
+msgstr "CHỌN CỐ VẤN"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} đã đạt giới hạn số kỹ năng rồi và không thể được chọn để chuyển XP."
+
+msgid "multipleUserName"
+msgstr "Bằng cố vấn"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Bằng cố vấn đã dùng: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "XP Kíp lái đã chuyển: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Khóa cố vấn"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>XP Kíp lái thừa ra đã bị mất: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Cho phép chuyển XP Kíp lái giữa\ncác thành viên chung quốc tịch."
+
+msgid "storage/userName"
+msgstr "Bằng cố vấn"
+
+msgid "userName"
+msgstr "Bằng cố vấn"

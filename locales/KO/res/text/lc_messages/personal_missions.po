@@ -1,0 +1,713 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "PersonalMissionAwardView/award/freeSheet"
+msgstr "명령서를 획득했습니다!"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/additionalAwards"
+msgstr "모든 임무 우수 등급 완료 보상"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/mainAwards"
+msgstr "주요 보상"
+
+msgid "PersonalMissionAwardView/subTitle"
+msgstr "닉네임을 클릭하여 증표를 선택하십시오."
+
+msgid "PersonalMissionAwardView/title"
+msgstr "작전을 완료하여 증표를 획득했습니다!"
+
+msgid "PersonalMissionAwardView/title/one"
+msgstr "\"%(vehicleName)s\" 작전을 완료하여 증표를 획득했습니다!"
+
+msgid "PersonalMissionAwardView/title/perfect"
+msgstr "우수 등급으로 완료하여 증표를 획득했습니다!"
+
+msgid "PersonalMissionFirstEntryView/acknowledgeBtn"
+msgstr "확인!"
+
+msgid "PersonalMissionFirstEntryView/detailedDescription/btnBack"
+msgstr "뒤로"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintChassis"
+msgstr "현가장치 설계도면"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintEngine"
+msgstr "엔진 설계도면"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintGun"
+msgstr "주포 설계도면"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHull"
+msgstr "차체 설계도면"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHullAndTurret"
+msgstr "차체/포탑 설계도면"
+
+msgid "PersonalMissionsPlanRegion/mainAward/chassis"
+msgstr "현가장치"
+
+msgid "PersonalMissionsPlanRegion/mainAward/engine"
+msgstr "엔진"
+
+msgid "PersonalMissionsPlanRegion/mainAward/gun"
+msgstr "주포"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hull"
+msgstr "차체"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hullAndTurret"
+msgstr "차체 및 포탑"
+
+msgid "PersonalMissionsPlanRegion/mainAward/radio"
+msgstr "무전기"
+
+msgid "alliance/0/details"
+msgstr "연맹 병력이 상륙 및 공격을 진행하는 작전 지역입니다."
+
+msgid "alliance/0/name"
+msgstr "연맹"
+
+msgid "alliance/1/details"
+msgstr "동맹 병력이 상륙 및 공격을 진행하는 작전 지역입니다."
+
+msgid "alliance/1/name"
+msgstr "동맹"
+
+msgid "alliance/2/details"
+msgstr "연합 병력이 상륙 및 공격을 진행하는 작전 지역입니다."
+
+msgid "alliance/2/name"
+msgstr "연합"
+
+msgid "alliance/3/details"
+msgstr "연방 병력이 상륙 및 공격을 진행하는 작전 지역입니다."
+
+msgid "alliance/3/name"
+msgstr "연방"
+
+msgid "awardsScreen/acceptBtn/label"
+msgstr "확인!"
+
+msgid "awardsScreen/closeBtn/label"
+msgstr "닫기"
+
+msgid "awardsScreen/description/emailConfirmation"
+msgstr "이메일 주소 인증 보상"
+
+msgid "awardsScreen/header"
+msgstr "%(missionName)s 작전 완료"
+
+msgid "awardsScreen/header/fullyCompleted"
+msgstr "%(missionName)s 작전 우수 등급으로 완료"
+
+msgid "awardsScreen/headerExtra"
+msgstr "보상 획득!"
+
+msgid "awardsView/closeBtn/label"
+msgstr "닫기"
+
+msgid "awardsView/description"
+msgstr "작전 주요 보상"
+
+msgid "awardsView/mainAwards/title"
+msgstr "주요 보상"
+
+msgid "awardsView/vehicleAward/mainAward"
+msgstr "주요 보상"
+
+msgid "bonus/descr/attempts/card"
+msgstr "부가 조건을 완료하여 현재 진행 상황을 %(value)s 만큼 증가해 보십시오."
+
+msgid "bonus/descr/attempts/postBattle"
+msgstr "기본 조건 임무 진행 상황이 %(value)s 만큼 증가했습니다."
+
+msgid "bonus/descr/progress/card"
+msgstr "부가 조건을 완료하여 기본 조건 진행 상황을 %(value)s배로 증가해 보십시오."
+
+msgid "bonus/descr/progress/postBattle"
+msgstr "이 전투에서 기본 조건 진행 상황이 %(value)s배로 증가했습니다."
+
+msgid "bonus/multiplier/attempts"
+msgstr "진행 가속:"
+
+msgid "bonus/multiplier/progress"
+msgstr "%(value)s배 보너스:"
+
+msgid "chainTooltipData/description/text/alliance0"
+msgstr "작전 임무는 명시된 국가 전차로만 완료할 수 있습니다."
+
+msgid "chainTooltipData/description/text/alliance1"
+msgstr "작전 임무는 명시된 국가 전차로만 완료할 수 있습니다."
+
+msgid "chainTooltipData/description/text/alliance2"
+msgstr "작전 임무는 명시된 국가 전차로만 완료할 수 있습니다."
+
+msgid "chainTooltipData/description/text/alliance3"
+msgstr "작전 임무는 명시된 국가 전차로만 완료할 수 있습니다."
+
+msgid "chainTooltipData/description/title"
+msgstr "정보"
+
+msgid "conditions/battlesLeft/bottomLabel"
+msgstr "남은 전투 횟수: %(count)s"
+
+msgid "conditions/biathlon/label/add"
+msgstr "전투 총 %(limit)s회 중 %(goal)s회에서 부가 조건 완료"
+
+msgid "conditions/biathlon/label/main"
+msgstr "전투 총 %(limit)s회 중 %(goal)s회에서 기본 조건 완료"
+
+msgid "conditions/completed/bottomLabel"
+msgstr "완료"
+
+msgid "conditions/counter/label/add"
+msgstr "부가 조건 %(count)s회 달성"
+
+msgid "conditions/counter/label/main"
+msgstr "기본 조건 %(count)s회 달성"
+
+msgid "conditions/currentProgress/bottomLabel"
+msgstr "완료: %(currentProgress)s"
+
+msgid "conditions/failed/bottomLabel"
+msgstr "실패"
+
+msgid "conditions/limited/label/add"
+msgstr "전투 %(count)s회에서 부가 조건 완료"
+
+msgid "conditions/limited/label/main"
+msgstr "전투 %(count)s회에서 기본 조건 완료"
+
+msgid "conditions/limiter/label"
+msgstr "최소 조건:"
+
+msgid "conditions/orGroup"
+msgstr "또는"
+
+msgid "conditions/series/label/add"
+msgstr "전투 %(count)s회 연속으로 조건 완료"
+
+msgid "conditions/series/label/main"
+msgstr "전투 %(count)s회 연속으로 조건 완료"
+
+msgid "conditions/unlimited/label/add"
+msgstr "전투 횟수와 관계없이 부가 조건 완료"
+
+msgid "conditions/unlimited/label/main"
+msgstr "전투 횟수와 관계없이 기본 조건 완료"
+
+msgid "detailedView/completeBtnLabel"
+msgstr "완료 %(count)d %(icon)s"
+
+msgid "detailedView/conditionLabel"
+msgstr "조건"
+
+msgid "detailedView/conditionsFullylabel"
+msgstr "우수 등급 완료"
+
+msgid "detailedView/conditionslabel"
+msgstr "기본 조건"
+
+msgid "detailedView/discardBtnLabel"
+msgstr "초기화"
+
+msgid "detailedView/infoPanel/header"
+msgstr "설명 및 도움말"
+
+msgid "detailedView/orCondition"
+msgstr "또는"
+
+msgid "detailedView/recruitBtnLabel"
+msgstr "보상 요청"
+
+msgid "detailedView/retryBtnLabel"
+msgstr "우수 등급으로 완료"
+
+msgid "detailedView/startBtnLabel"
+msgstr "시작"
+
+msgid "detailedView/status/NA"
+msgstr "이용 불가"
+
+msgid "detailedView/status/completed"
+msgstr "기본 조건 완료"
+
+msgid "detailedView/status/fullyCompleted"
+msgstr "우수 등급으로 완료"
+
+msgid "detailedView/status/inProgress"
+msgstr "시작"
+
+msgid "detailedView/status/returnSheet"
+msgstr "사용한 명령서:%(icon)sx1"
+
+msgid "detailedView/status/sheetUsed"
+msgstr "완료: %(icon)sx1"
+
+msgid "detailedView/tooltips/additionalConditions/body"
+msgstr "우수 등급으로 임무를 완료하여 추가 보상을 획득하려면 반드시 달성해야 하는 목표입니다."
+
+msgid "detailedView/tooltips/additionalConditions/header"
+msgstr "부가 조건"
+
+msgid "detailedView/tooltips/commonConditions/body"
+msgstr "임무를 완료하여 주요 보상을 획득하려면 반드시 달성해야 하는 목표입니다."
+
+msgid "detailedView/tooltips/commonConditions/header"
+msgstr "기본 조건"
+
+msgid "detailedView/tooltips/discardBtn/body"
+msgstr "해당 임무 현재 진행 상황을 모두 초기화합니다."
+
+msgid "detailedView/tooltips/discardBtn/header"
+msgstr "진행 상황 초기화"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/body"
+msgstr "명령서를 사용을 통해 기본 조건을 달성하여 임무를 완료합니다."
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/body"
+msgstr "명령서를 획득하려면 원하는 작전의 각 임무 세트 마지막 임무를 우수 등급으로 완료하십시오."
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/header"
+msgstr "명령서 부족"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/header"
+msgstr "명령서 사용"
+
+msgid "detailedView/tooltips/locked"
+msgstr "기본 조건을 먼저 완료해야 부가 조건이 완료 처리됩니다."
+
+msgid "detailedView/tooltips/recruitBtn/body"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/recruitBtn/header"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/retryBtn/body"
+msgstr "기본 조건과 부가 조건을 모두 달성하여 결과를 향상합니다."
+
+msgid "detailedView/tooltips/retryBtn/header"
+msgstr "우수 등급으로 완료"
+
+msgid "detailedView/tooltips/returnAwardListBtn/body"
+msgstr "기본 조건과 부가 조건을 달성하십시오. 임무를 우수 등급으로 완료하면 명령서를 회수할 수 있습니다."
+
+msgid "detailedView/tooltips/returnAwardListBtn/header"
+msgstr "명령서 회수"
+
+msgid "detailedView/tooltips/startBtn/body"
+msgstr "임무를 시작하십시오. 조건을 달성하면 보상을 획득할 수 있습니다."
+
+msgid "detailedView/tooltips/startBtn/header"
+msgstr "시작"
+
+msgid "fourFreeSheetsObtainedPopup/button"
+msgstr "진행"
+
+msgid "fourFreeSheetsObtainedPopup/header"
+msgstr "전차"
+
+msgid "fourFreeSheetsObtainedPopup/pm2/descr"
+msgstr "%(questName)s 임무에 명령서 3개를 사용하여 설계도면을 획득하십시오."
+
+msgid "fourFreeSheetsObtainedPopup/pm2/pawnedDescr"
+msgstr "%(questName)s 임무에 명령서 3개를 사용하여 남은 설계도면을 획득할 수 있도록 해당 임무에서 명령서 %(pawnedCount)s개를 회수하십시오."
+
+msgid "fourFreeSheetsObtainedPopup/regular/descr"
+msgstr "%(questName)s 임무에 명령서 4개를 사용하여 설계도면을 획득하십시오."
+
+msgid "fourFreeSheetsObtainedPopup/regular/pawnedDescr"
+msgstr "%(questName)s 임무에 명령서 4개를 사용하여 남은 전차 부속품을 획득할 수 있도록 해당 임무에서 명령서 %(pawnedCount)s개를 회수하십시오."
+
+msgid "freeSheetObtainedPopup/pm2/descrLeft"
+msgstr "명령서를 사용하여 제2차 전선 캠페인 임무 세트의 원하는 임무를 완료할 수 있습니다."
+
+msgid "freeSheetObtainedPopup/pm2/descrRight"
+msgstr "제2차 전선 캠페인 임무 세트의 마지막 임무를 우수 등급으로 완료하십시오."
+
+msgid "freeSheetObtainedPopup/pm2/title"
+msgstr "제2차 전선 캠페인 명령서 획득"
+
+msgid "freeSheetObtainedPopup/pm2/titleLeft"
+msgstr "사용 방법"
+
+msgid "freeSheetObtainedPopup/pm2/titleRight"
+msgstr "획득 방법"
+
+msgid "freeSheetObtainedPopup/regular/descrLeft"
+msgstr "명령서를 사용하여\n임무 세트의 원하는 임무를 완료할 수 있습니다."
+
+msgid "freeSheetObtainedPopup/regular/descrRight"
+msgstr "임무 세트의 마지막 임무를 우수 등급으로 완료하십시오."
+
+msgid "freeSheetObtainedPopup/regular/title"
+msgstr "명령서 획득"
+
+msgid "freeSheetObtainedPopup/regular/titleLeft"
+msgstr "사용 방법"
+
+msgid "freeSheetObtainedPopup/regular/titleRight"
+msgstr "획득 방법"
+
+msgid "freeSheetPopover/freeSheetsInfo/descr"
+msgstr "임무 세트의 마지막 임무를 완료하고 획득한 명령서입니다."
+
+msgid "freeSheetPopover/freeSheetsInfo/title"
+msgstr "사용 가능: %(count)d"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr"
+msgstr "사용한 명령서를 회수하려면 해당 임무에 재도전하여 우수 등급으로 완료하십시오."
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr/noOne"
+msgstr "임무 완료에 사용한 명령서입니다."
+
+msgid "freeSheetPopover/pawnedSheetsInfo/title"
+msgstr "임무에 사용: %(count)d"
+
+msgid "freeSheetPopover/title"
+msgstr "명령서"
+
+msgid "header/backBtn/descrLabel/campaign"
+msgstr "작전 지도로 이동"
+
+msgid "header/backBtn/descrLabel/hangar"
+msgstr "차고로 이동"
+
+msgid "header/backBtn/descrLabel/operation"
+msgstr "작전으로 이동"
+
+msgid "header/backBtn/label"
+msgstr "뒤로"
+
+msgid "navigation/backButton/assembling"
+msgstr "제작으로 이동"
+
+msgid "navigation/backButton/campaignSelector"
+msgstr "작전 지도로 이동"
+
+msgid "navigation/backButton/dashboard"
+msgstr "작전으로 이동"
+
+msgid "navigation/backButton/missions"
+msgstr "임무로 이동"
+
+msgid "navigation/backButton/rewards"
+msgstr "작전 보상으로 이동"
+
+msgid "operationInfo/awardsButton/label"
+msgstr "작전 보상"
+
+msgid "operationInfo/chainVehReq"
+msgstr "%(minLevel)s~%(maxLevel)s단계 %(vehs)s"
+
+msgid "operationInfo/label"
+msgstr "캠페인"
+
+msgid "operationInfo/operationBtn/postponed/days"
+msgstr "%(days)s일"
+
+msgid "operationInfo/operationBtn/postponed/lessThanDay"
+msgstr "1일 미만"
+
+msgid "operationInfo/title"
+msgstr "작전 지도"
+
+msgid "operationTitle/label/done"
+msgstr "명령서: %(icon)s%(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/excellentDone"
+msgstr "모든 임무 우수 등급으로 완료"
+
+msgid "operationTitle/label/inProgress/pm2"
+msgstr "완료 가능 전차: %(vehData)s"
+
+msgid "operationTitle/label/inProgress/regular"
+msgstr "%(vehData)s 완료 가능"
+
+msgid "operationTitle/label/locked"
+msgstr "진행 불가: 이전 작전 미완료"
+
+msgid "operationTitle/label/noVehicle/pm2"
+msgstr "진행 불가: %(vehData)s 없음"
+
+msgid "operationTitle/label/noVehicle/regular"
+msgstr "진행 불가: %(vehData)s 없음"
+
+msgid "operationTitle/label/notStarted"
+msgstr "%(currentOperation)s 작전을 이용할 수 있습니다! %(infoIcon)s"
+
+msgid "operationTitle/label/notStartedNoVehicle"
+msgstr "이용 불가: 개인 임무는 %(minLevel)s단계 이상 전차로만 완료 가능"
+
+msgid "operationTitle/label/toMaster"
+msgstr "우수 등급으로 완료한 임무: %(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/unlocked/pm2"
+msgstr "%(vehData)s 진행 임무 선택"
+
+msgid "operationTitle/label/unlocked/regular"
+msgstr "%(vehData)s 진행 임무 선택"
+
+msgid "operationTitle/title"
+msgstr "작전: %(title)s"
+
+msgid "operationUnlockedWindow/awardText"
+msgstr "축하합니다! 이제 %(title)s 작전을 진행할 수 있습니다."
+
+msgid "operationUnlockedWindow/descr"
+msgstr "%(label)s를 눌러 임무를 선택하고 새로운 보상을 획득해 보십시오."
+
+msgid "operationUnlockedWindow/header"
+msgstr "%(title)s 작전"
+
+msgid "operationUnlockedWindow/nextButton"
+msgstr "시작"
+
+msgid "operationUnlockedWindow/title"
+msgstr "작전 해제"
+
+msgid "operations/completed/desc"
+msgstr "전차 획득"
+
+msgid "operations/current/desc"
+msgstr "시작"
+
+msgid "operations/fullyCompleted/desc"
+msgstr "우수 등급으로\n완료"
+
+msgid "operations/locked/desc"
+msgstr "이용 불가"
+
+msgid "operations/title1"
+msgstr "StuG IV"
+
+msgid "operations/title10"
+msgstr "Black Rock"
+
+msgid "operations/title2"
+msgstr "T28 HTC"
+
+msgid "operations/title3"
+msgstr "T 55A"
+
+msgid "operations/title4"
+msgstr "Object 260"
+
+msgid "operations/title5"
+msgstr "Excalibur"
+
+msgid "operations/title6"
+msgstr "Chimera"
+
+msgid "operations/title7"
+msgstr "Object 279 (e)"
+
+msgid "operations/title8"
+msgstr "Windhund"
+
+msgid "operations/title9"
+msgstr "Dravec"
+
+msgid "operations/unlocked/desc"
+msgstr "진행 가능"
+
+msgid "pages/button/infopage/description"
+msgstr "개인 임무 정보"
+
+msgid "pages/button/video/description"
+msgstr "개인 임무 소개 영상을 감상합니다."
+
+msgid "personalMissions/tankgirlsPopover/recruitBtn"
+msgstr "충원"
+
+msgid "personalMissions/tankgirlsPopover/title"
+msgstr "여성 승무원"
+
+msgid "personalMissions/video/title"
+msgstr "업데이트 둘러보기 동영상"
+
+msgid "questAwardScreen/continueBtn/label"
+msgstr "계속"
+
+msgid "questAwardScreen/nextQuest/title/questAccept"
+msgstr "자동으로 다음 임무 시작:"
+
+msgid "questAwardScreen/nextQuest/title/questImprove"
+msgstr "자동으로 다음 임무 결과 향상:"
+
+msgid "questAwardScreen/nextQuestBtn/label"
+msgstr "다음 임무"
+
+msgid "questAwardScreen/okBtn/label"
+msgstr "확인!"
+
+msgid "questAwardScreen/operation"
+msgstr "%(operation)s 작전"
+
+msgid "questAwardScreen/quest"
+msgstr "\"%(quest)s\" 임무 완료!"
+
+msgid "questAwardScreen/recruitBtn/label"
+msgstr "보상 요청"
+
+msgid "questProgressTracking/status/onPause"
+msgstr "일시 중지"
+
+msgid "questProgressTracking/trackingStatus"
+msgstr "두 임무 모두 완료"
+
+msgid "questStatus/tankCondition"
+msgstr "선택한 전차로 진행 불가"
+
+msgid "sidebar/completed"
+msgstr "완료"
+
+msgid "sidebar/fullCompleted"
+msgstr "우수 등급"
+
+msgid "sidebar/notSelected"
+msgstr "비활성화"
+
+msgid "sidebar/vehicles/AT-SPG"
+msgstr "구축전차"
+
+msgid "sidebar/vehicles/SPG"
+msgstr "자주포"
+
+msgid "sidebar/vehicles/heavyTank"
+msgstr "중전차"
+
+msgid "sidebar/vehicles/lightTank"
+msgstr "경전차"
+
+msgid "sidebar/vehicles/mediumTank"
+msgstr "중형전차"
+
+msgid "statusPanel/freeSheetBtn/label"
+msgstr "완료 %(count)d %(icon)s"
+
+msgid "statusPanel/freeSheets"
+msgstr "사용 가능: %(count)s"
+
+msgid "statusPanel/pawnedSheets"
+msgstr "임무에 사용: %(count)s"
+
+msgid "statusPanel/proceedExecution/label"
+msgstr "활성화"
+
+msgid "statusPanel/resumeCompaing/label"
+msgstr "캠페인 재개"
+
+msgid "statusPanel/status/allDone"
+msgstr "%(vehicleClass)s 임무 세트의 모든 임무 완료"
+
+msgid "statusPanel/status/allExcellentDone"
+msgstr "%(vehicleClass)s 임무 세트의 모든 임무 우수 등급으로 완료"
+
+msgid "statusPanel/status/freeSheet"
+msgstr "명령서 1개 사용"
+
+msgid "statusPanel/status/improve"
+msgstr "(재도전 중)"
+
+msgid "statusPanel/status/locked"
+msgstr "진행 불가: 이전 작전 미완료"
+
+msgid "statusPanel/status/pawned"
+msgstr "(회수 %(count)d %(icon)s)"
+
+msgid "statusPanel/status/selectTask"
+msgstr "진행할 임무 선택"
+
+msgid "statusPanel/status/suspended"
+msgstr "%(campaignName)s 캠페인 진행이 일시 중지되었습니다. %(infoIcon)s"
+
+msgid "tankmoduleTooltipData/alliance/help/body"
+msgstr "%(vehType)s 임무 세트 마지막 임무의 기본 조건을 달성하면 획득할 수 있습니다."
+
+msgid "tankmoduleTooltipData/alliance/info"
+msgstr "%(vehName)s 전차 획득에 필요한 설계도면"
+
+msgid "tankmoduleTooltipData/help/body"
+msgstr "%(vehType)s 임무 세트 마지막 임무의 기본 조건을 달성하면 획득할 수 있습니다."
+
+msgid "tankmoduleTooltipData/help/title"
+msgstr "획득 방법"
+
+msgid "tankmoduleTooltipData/info"
+msgstr "%(vehName)s 전차 획득에 필요한 부속품"
+
+msgid "tankmoduleTooltipData/status/alliance/notObtained"
+msgstr "설계도면 미획득"
+
+msgid "tankmoduleTooltipData/status/alliance/obtained"
+msgstr "설계도면 획득"
+
+msgid "tankmoduleTooltipData/status/available"
+msgstr "가격: %(count)d %(img)s"
+
+msgid "tankmoduleTooltipData/status/notObtained"
+msgstr "획득하지 않은 부속품"
+
+msgid "tankmoduleTooltipData/status/obtained"
+msgstr "획득한 부속품"
+
+msgid "tankwomanTooltipData/advantages/brotherhood"
+msgstr "전우애 능력 100%"
+
+msgid "tankwomanTooltipData/advantages/newPerk"
+msgstr "한 가지 능력을 100% 훈련할 수 있는 경험치"
+
+msgid "tankwomanTooltipData/advantages/title"
+msgstr "장점"
+
+msgid "tankwomanTooltipData/desc/body"
+msgstr "각 임무 세트 마지막 임무의 기본 조건을 달성하면 획득할 수 있습니다."
+
+msgid "tankwomanTooltipData/desc/title"
+msgstr "획득 방법"
+
+msgid "tankwomanTooltipData/subTitle"
+msgstr "특별 승무원"
+
+msgid "tankwomanTooltipData/title"
+msgstr "여성 승무원"
+
+msgid "taskDetailsView/additionalConditions"
+msgstr "부가 조건"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheet"
+msgstr "명령서 회수"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheets"
+msgstr "명령서 회수"
+
+msgid "taskDetailsView/mainConditions"
+msgstr "기본 조건"
+
+msgid "useAwardSheetWindow/cancelBtn"
+msgstr "취소"
+
+msgid "useAwardSheetWindow/info"
+msgstr "해당 임무를 우수 등급으로 완료하여 명령서를 회수하십시오."
+
+msgid "useAwardSheetWindow/locked"
+msgstr "해당 임무 세트의 모든 임무를 완료하여 명령서를 회수하십시오."
+
+msgid "useAwardSheetWindow/needAmount"
+msgstr "완료에 필요한 수량:"
+
+msgid "useAwardSheetWindow/pm2/noVehicle"
+msgstr "명령서 회수에 필요한 전차: %(vehicleClass)s"
+
+msgid "useAwardSheetWindow/regular/noVehicle"
+msgstr "명령서 회수에 필요한 전차: %(vehicleClass)s"
+
+msgid "useAwardSheetWindow/sheetsTotal"
+msgstr "총합:"
+
+msgid "useAwardSheetWindow/submitBtn"
+msgstr "완료"
+
+msgid "useAwardSheetWindow/title"
+msgstr "기본 조건 완료"

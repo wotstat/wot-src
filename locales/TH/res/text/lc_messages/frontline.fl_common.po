@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "ปรับตัวกรองใหม่"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "ไม่มีพาหนะตรงกับค่าที่เลือกเอาไว้\nจำเป็นต้องปรับการตั้งค่าตัวกรองอีกครั้งเพื่อดูพาหนะที่เหมาะสม"
+
+msgid "battleType/description/fast"
+msgstr "สถานการณ์ซึ่งเวลาพักใช้กำลังสำรองรบสั้นลง"
+
+msgid "battleType/description/random"
+msgstr "สถานการณ์ที่ผู้เล่นจะเลือกระหว่างชุดกำลังสำรองแบบสุ่มซึ่งมีโอกาสในการยกระดับกำลังสำรองถึงขั้น IV"
+
+msgid "battleType/description/standard"
+msgstr "สถานการณ์ที่ใช้กฎแนวรบปกติ"
+
+msgid "battleType/postBattle/title"
+msgstr "สถานการณ์รบ: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "ลดช่วงพักกำลังสำรอง"
+
+msgid "battleType/shortDescription/random"
+msgstr "กำลังสำรองรบถูกมอบให้โดยสุ่ม"
+
+msgid "battleType/shortDescription/standard"
+msgstr "ใช้กฎการรบมาตรฐาน"
+
+msgid "battleType/title/fast"
+msgstr "การสนับสนุนปฏิบัติการ"
+
+msgid "battleType/title/random"
+msgstr "ชะตาพลิกผัน"
+
+msgid "battleType/title/standard"
+msgstr "การรบมาตรฐาน"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "กลับ"
+
+msgid "button/close"
+msgstr "ปิด"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} วัน"
+msgstr[1] "{duration} วัน"
+msgstr[2] "{duration} วัน"
+
+msgid "filterPopover/note"
+msgstr "จะแสดงเพียงพาหนะที่สามารถใช้ในรูปแบบนี้เท่านั้น"
+
+msgid "levelReservesTooltip/desc"
+msgstr "ขั้นกำลังสำรองรบที่เพิ่มขึ้นเมื่อได้รับยศใหม่"
+
+msgid "levelReservesTooltip/info"
+msgstr "ในสถานการณ์ {whiteSpanish_Start}ชะตาพลิกผัน{whiteSpanish_End} การซื้อกำลังสำรองรบจะทำให้เพิ่มขั้นของมันอีกหนึ่งขั้นและทำให้ม๊โอกาสเพิ่มขั้นเป็นขั้น {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "เพิ่มเมื่อได้ไต่ถึงยศดังต่อไปนี้: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "มีให้ในยศดังต่อไปนี้: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "ขั้น {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "สำหรับ {whiteSpanish_Start}กำลังสำรองรบที่ซื้อ{whiteSpanish_End} ในสถานการณ์ {whiteSpanish_Start}ชะตาพลิกผัน{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/title"
+msgstr "ขั้นกำลังสำรองรบ"
+
+msgid "loading"
+msgstr "กำลังโหลด..."
+
+msgid "widget/eventStartSoon"
+msgstr "กิจกรรมดังกล่าวเริ่มในไม่ช้า"
+
+msgid "widget/maxTier"
+msgstr "คุณได้มาถึงระดับสูงสุดแล้ว"

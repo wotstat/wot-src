@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy">
+	<itemGroup>
+		<name>VBR RU</name>
+		<userString>#vehicle_customization:emblem/special</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>emblems 50g notInShop</priceGroup>
+		<type>EMBLEM</type>
+		<decal>
+			<id>653</id>
+			<texture>gui/maps/vehicles/decals/player_stickers/special/sticker_436.dds</texture>
+			<userString>#vehicle_customization:emblem/special/sticker_436</userString>
+			<mirror>false</mirror>
+		</decal>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>usa:A174_T57_58_Rush_Ep1 poland:Pl15_60TP_Lewandowskiego_CFE_A</vehicles>
+			</exclude>
+		</vehicleFilter>
+	</itemGroup>
+	<itemGroup>
+		<name>WOT Classic RU</name>
+		<userString>#vehicle_customization:emblem/special</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>emblems 50g notInShop</priceGroup>
+		<type>EMBLEM</type>
+		<decal>
+			<id>701</id>
+			<texture>gui/maps/vehicles/decals/player_stickers/special/sticker_476.dds</texture>
+			<userString>#vehicle_customization:emblem/special/sticker_476</userString>
+			<mirror>false</mirror>
+		</decal>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>usa:A174_T57_58_Rush_Ep1 poland:Pl15_60TP_Lewandowskiego_CFE_A</vehicles>
+			</exclude>
+		</vehicleFilter>
+	</itemGroup>
+	<itemGroup>
+		<name>BRW RU</name>
+		<userString>#vehicle_customization:emblem/special</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>emblems 50g notInShop</priceGroup>
+		<type>EMBLEM</type>
+		<decal>
+			<id>86</id>
+			<texture>gui/maps/vehicles/decals/player_stickers/special/sticker_533.dds</texture>
+			<userString>#vehicle_customization:emblem/special/sticker_533</userString>
+			<mirror>false</mirror>
+		</decal>
+		<vehicleFilter>
+			<exclude>
+				<vehicles>usa:A174_T57_58_Rush_Ep1 poland:Pl15_60TP_Lewandowskiego_CFE_A</vehicles>
+			</exclude>
+		</vehicleFilter>
+	</itemGroup>
+</root>

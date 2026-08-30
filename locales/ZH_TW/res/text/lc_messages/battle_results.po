@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "所有"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "這場戰鬥較令人感到滿意、甚為平衡，或比平常有趣。"
+
+msgid "battleRating/tooltip/better/header"
+msgstr "比平常要好"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "戰鬥一如平常，沒什麼預料外的狀況。"
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "一如平常"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "這場戰鬥較令人感到挫折、不平衡，或比平常要不公平。"
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "比平常要糟"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "比平常要好"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "請評價您的戰鬥："
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "一如平常"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "比平常要糟"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "按照威望點數來排序。"
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "威望點數"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "概要"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "收益報告"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "任務進度"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "隊伍成績"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "按照威望點數來排序。威望點數會影響在戰鬥中獲得與失去的評價點數數量。"
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "威望點數"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}，{{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "隊友："
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "基地防禦"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "基地佔領："
+
+msgid "common/battleEfficiency/bases"
+msgstr "基地"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "基地佔領"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "中立基地"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "您在這場戰鬥中未有任何有效行為。"
+
+msgid "common/battleEfficiency/none"
+msgstr "沒有敵方車輛被擊毀或被偵察到。"
+
+msgid "common/battleEfficiency/technique"
+msgstr "車輛"
+
+msgid "common/battleEfficiency/title"
+msgstr "戰鬥表現"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "戰鬥表現"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "戰鬥表現（包括使用的技能）"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "戰鬥表現 (不包含戰鬥儲備)"
+
+msgid "common/battleType/sortie"
+msgstr "前哨戰對抗公會 "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s，%(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "新歷練"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "購買加值帳號"
+
+msgid "common/details/creditsTitle"
+msgstr "銀幣"
+
+msgid "common/details/crystal"
+msgstr "點券"
+
+msgid "common/details/getPremBtn"
+msgstr "詳情"
+
+msgid "common/details/noPremTitle"
+msgstr "一般帳號"
+
+msgid "common/details/premTitle"
+msgstr "加值帳號"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}有了《戰車世界》加值帳號，就能對所選的獲勝戰鬥套用 {{multiplier}} 倍經驗加成。{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}有了《戰車世界》加值帳號，每 {{@ style}}{{durationInDays}} 天{{/}}最高可獲得 {{bonusCredits}}。{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "有了《戰車世界》加值帳號，就能對所選的獲勝戰鬥套用 %(multiplier)d 倍經驗加成。"
+
+msgid "common/details/premiumPlus/credits"
+msgstr "有了《戰車世界》加值帳號，每 %(durationInDays)d 天最高可獲得 %(bonusCredits)s。"
+
+msgid "common/details/premiumPlus/premium"
+msgstr "有了《戰車世界》加值帳號，就能享受到額外經驗、銀幣、加值任務，以及裝甲排加成。"
+
+msgid "common/details/premiumPlus/quests"
+msgstr "有了《戰車世界》加值帳號，就能解鎖特殊任務。"
+
+msgid "common/details/premiumPlus/squad"
+msgstr "有了《戰車世界》加值帳號，就能在加入裝甲排時獲得更多的銀幣。"
+
+msgid "common/details/xpTitle"
+msgstr "經驗"
+
+msgid "common/details/xpTitleSquad"
+msgstr "經驗 %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "配件購買"
+
+msgid "common/fitting/research"
+msgstr "配件研發"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "主要戰鬥階段："
+
+msgid "common/missions/noProgress/button"
+msgstr "前往任務"
+
+msgid "common/missions/noProgress/description"
+msgstr "檢視當前任務進度"
+
+msgid "common/missions/noProgress/header"
+msgstr "任務或車輛研發沒有進展。"
+
+msgid "common/newSkillPrediction"
+msgstr "剩餘戰鬥數 (大約)：%(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "在您進行了 10 場戰鬥之後，您就不會在此模式中再獲得任何的銀幣、經驗、或獎項，而且您的戰鬥結果也不會反映在個人紀錄之中。"
+
+msgid "common/noIncome/alert/title"
+msgstr "注意！"
+
+msgid "common/noProgress"
+msgstr "任務、車輛研發、以及乘員訓練沒有進展。"
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "加時："
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "要更多需"
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "您今天已獲得："
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "您今天已獲得 %(count)s 經驗"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "以戰車世界 Plus 或加值帳號解鎖"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "戰車世界 Plus"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "加值帳號"
+
+msgid "common/plusBonus/youRock"
+msgstr "您超棒！"
+
+msgid "common/premiumBonus"
+msgstr "想要獲得更多？"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "已成功套用加成"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "套用"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "今日剩餘次數：%(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "可控經驗加成"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "想要獲得更多？"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "必須套用到以同一車輛進行的最近一場戰鬥。"
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "無法套用加成：加速乘員訓練為關閉。"
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}無法套用加成：加速乘員訓練為{{@ style}}關閉。{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "無法套用加成：加速乘員訓練為開啟。"
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}無法套用加成：加速乘員訓練為{{@ style}}開啟。{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "可控經驗加成僅能套用到勝場戰鬥。祝您下次好運！"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "無法套用可控加成：找不到車輛。"
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}無法套用可控加成：{{@ style}}找不到車輛。{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "無法套用可控加成：找不到乘員。"
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}無法套用可控加成：{{@ style}}找不到乘員。{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "此遊戲模式無法使用可控經驗加成。"
+
+msgid "common/progressTitle"
+msgstr "車輛研發與任務進度"
+
+msgid "common/quests/noprogress"
+msgstr "沒有活動任務。"
+
+msgid "common/researchPrediction"
+msgstr "剩餘戰鬥數 (大約)：%(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "取得連結"
+
+msgid "common/startTime"
+msgstr "{{0}}、{{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "列入計算：\n• 敵人射擊跳彈\n• 未穿透命中\n\n被 HE 與 HESH 命中不算。"
+
+msgid "common/tooltip/armor/header"
+msgstr "裝甲使用"
+
+msgid "common/tooltip/armor/part1"
+msgstr "跳彈"
+
+msgid "common/tooltip/armor/part2"
+msgstr "未穿透"
+
+msgid "common/tooltip/armor/part3"
+msgstr "裝甲阻擋傷害 %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "隊友對敵方車輛造成的下列傷害類型都算：\n• 在您偵察下造成的傷害\n• 在您摧毀敵方車輛履帶並使其無法移動下造成的傷害"
+
+msgid "common/tooltip/assist/header"
+msgstr "協助摧毀"
+
+msgid "common/tooltip/assist/part1"
+msgstr "在您偵察下造成的傷害 %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "在您摧毀敵方車輛履帶並使其無法移動下造成的傷害 %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "隊友對敵方車輛所造成的總傷害 %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "列入計算：\n• 敵方基地佔領點數\n• 中立基地佔領點數"
+
+msgid "common/tooltip/capture/header"
+msgstr "基地佔領"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "總基地佔領點數"
+
+msgid "common/tooltip/counter"
+msgstr "戰鬥中獲得的總徽章數：%(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "戰鬥中敵方車輛獲得的徽章：%(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "尚未在戰鬥中獲得該徽章。"
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "損傷："
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "半毀："
+
+msgid "common/tooltip/crits/critWound"
+msgstr "受傷："
+
+msgid "common/tooltip/crits/description"
+msgstr "列入計算：\n• 傷害敵方車輛的外部和內部配件\n• 摧毀敵方車輛的外部和內部配件\n• 傷害敵方車輛的乘員。"
+
+msgid "common/tooltip/crits/header"
+msgstr "嚴重傷害"
+
+msgid "common/tooltip/crits/total"
+msgstr "總共："
+
+msgid "common/tooltip/damage/description"
+msgstr "列入計算：\n• 射擊造成的傷害\n• 衝撞造成的傷害\n• 火災造成的傷害\n• 猛烈碰撞造成的傷害"
+
+msgid "common/tooltip/damage/header"
+msgstr "傷害"
+
+msgid "common/tooltip/damage/part1"
+msgstr "總傷害 %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "穿透數"
+
+msgid "common/tooltip/defence/description"
+msgstr "列入計算：\n• 我方基地防禦點數\n• 中立基地防禦點數"
+
+msgid "common/tooltip/defence/header"
+msgstr "基地防禦"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "總基地防禦點數"
+
+msgid "common/tooltip/kill/header"
+msgstr "敵人已被摧毀"
+
+msgid "common/tooltip/kill0/description"
+msgstr "被玩家所擊毀的敵方車輛"
+
+msgid "common/tooltip/kill1/description"
+msgstr "起火所造成的敵人車輛摧毀"
+
+msgid "common/tooltip/kill2/description"
+msgstr "衝撞所造成的敵方車輛摧毀"
+
+msgid "common/tooltip/kill3/description"
+msgstr "敵人車輛墜毀"
+
+msgid "common/tooltip/kill4/description"
+msgstr "死亡地帶所造成的敵人車輛摧毀"
+
+msgid "common/tooltip/kill5/description"
+msgstr "敵人車輛被淹沒"
+
+msgid "common/tooltip/kill6/description"
+msgstr "被烈焰風暴摧毀"
+
+msgid "common/tooltip/kill7/description"
+msgstr "敵方車輛翻覆。"
+
+msgid "common/tooltip/killCommon/description"
+msgstr "列入計算：\n• 透過射擊摧毀\n• 透過火災摧毀\n• 透過衝撞摧毀\n• 透過淹沒摧毀\n• 透過將敵方車輛推落障礙摧毀\n• 透過翻覆摧毀"
+
+msgid "common/tooltip/params/val"
+msgstr "(血量)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(秒)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "第一個發現敵方車輛才算。"
+
+msgid "common/tooltip/spotted/header"
+msgstr "偵察"
+
+msgid "common/tooltip/stun/description"
+msgstr "列入計算的傷害：\n• 隊友對受到您震盪的敵方車輛造成的傷害。"
+
+msgid "common/tooltip/stun/header"
+msgstr "震盪"
+
+msgid "common/tooltip/stun/part1"
+msgstr "總傷害 %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "震盪數"
+
+msgid "common/tooltip/stun/part3"
+msgstr "造成震盪的總持續時間：%(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "隊友車輛被擊毀"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "殺害隊友"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "隊友車輛被擊毀"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "隊友車輛被火災所摧毀"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "隊友車輛被衝撞所摧毀"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "隊友車輛墜毀"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "隊友車輛被死亡地帶所摧毀"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "隊友車輛被淹沒"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "您因組成裝甲排參與此戰鬥而獲得額外經驗。"
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "跳彈"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "未穿透"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "裝甲阻擋傷害"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "在您偵察下的傷害"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "在您摧毀敵方車輛履帶並使其無法移動下造成的傷害"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "隊友對敵方車輛所造成的總傷害"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "總傷害"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "穿透數"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "總傷害"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "震盪數"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "造成震盪的總持續時間"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s，%(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "車輛購買"
+
+msgid "common/vehicle/research"
+msgstr "車輛研發"
+
+msgid "common/vehicleState/alive"
+msgstr "存活"
+
+msgid "common/vehicleState/dead0"
+msgstr "被擊毀於"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "因射擊而摧毀（{{@ class $killerClass}}{{killername}}{{/}}）"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "因射擊而摧毀（{{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}}）"
+
+msgid "common/vehicleState/dead1"
+msgstr "被火災摧毀"
+
+msgid "common/vehicleState/dead12"
+msgstr "自毀"
+
+msgid "common/vehicleState/dead13"
+msgstr "被玩家技能摧毀"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "因火災而摧毀（{{@ class $killerClass}}{{killername}}{{/}}）"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "因火災而摧毀（{{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}}）"
+
+msgid "common/vehicleState/dead2"
+msgstr "被衝撞摧毀"
+
+msgid "common/vehicleState/dead27"
+msgstr "被火炮襲擊擊毀"
+
+msgid "common/vehicleState/dead29"
+msgstr "墜毀"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "因衝撞而摧毀（{{@ class $killerClass}}{{killername}}{{/}}）"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "因衝撞而摧毀（{{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}}）"
+
+msgid "common/vehicleState/dead3"
+msgstr "墜毀"
+
+msgid "common/vehicleState/dead30"
+msgstr "被擊毀於"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "因射擊而摧毀（{{@ class $killerClass}}{{killername}}{{/}}）"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "因射擊而摧毀（{{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}}）"
+
+msgid "common/vehicleState/dead35"
+msgstr "墜毀"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "墜毀（{{@ class $killerClass}}{{killername}}{{/}}）"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "墜毀（{{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}}）"
+
+msgid "common/vehicleState/dead4"
+msgstr "被死亡地帶所摧毀"
+
+msgid "common/vehicleState/dead5"
+msgstr "車輛被淹沒"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "車輛沉入水中（{{@ class $killerClass}}{{killername}}{{/}}）"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "車輛沉入水中（{{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}}）"
+
+msgid "common/vehicleState/dead6"
+msgstr "被烈焰風暴摧毀"
+
+msgid "common/vehicleState/dead7"
+msgstr "因翻覆摧毀"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "因翻覆而摧毀（{{@ class $killerClass}}{{killername}}{{/}}）"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "因翻覆而摧毀（{{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}}）"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "在戰鬥結束之前離開"
+
+msgid "common/vehicleState/victory"
+msgstr "勝利！"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "今日剩餘次數：%(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "在此戰鬥中獲得的稱讚"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "{{var}} 名隊友在這場戰鬥稱讚您。"
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "{{var}} 名隊友在這場戰鬥稱讚您。"
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "稱讚已獲得"
+
+msgid "conditions/type/and"
+msgstr "與"
+
+msgid "conditions/type/or"
+msgstr "或"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "已達到等級 %(level)s「%(name)s」花樣。"
+
+msgid "customizationProgress/award/received"
+msgstr "已獲得「%(name)s」花樣 %(count)s。"
+
+msgid "customizationProgress/descr"
+msgstr "等級 %(level)s「%(name)s」花樣"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "隊伍資料"
+
+msgid "cyberSport/points"
+msgstr "積分："
+
+msgid "cyberSport/status/lose"
+msgstr "戰敗"
+
+msgid "cyberSport/status/tie"
+msgstr "平手"
+
+msgid "cyberSport/status/win"
+msgstr "勝利！"
+
+msgid "details/calculations/additionalBonus"
+msgstr "可控經驗加成"
+
+msgid "details/calculations/aogasFactor"
+msgstr "削減係數 (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "自動補充技術指南"
+
+msgid "details/calculations/autoEquip"
+msgstr "自動補充消耗品"
+
+msgid "details/calculations/autoLoad"
+msgstr "自動補充彈藥"
+
+msgid "details/calculations/autoRepair"
+msgstr "自動修理車輛"
+
+msgid "details/calculations/autoResupply"
+msgstr "自動補充"
+
+msgid "details/calculations/base"
+msgstr "收入"
+
+msgid "details/calculations/battlePayments"
+msgstr "戰鬥收支"
+
+msgid "details/calculations/boosters"
+msgstr "個人儲備加成"
+
+msgid "details/calculations/crystal/events"
+msgstr "完成任務"
+
+msgid "details/calculations/crystal/total"
+msgstr "車輛的特殊能力"
+
+msgid "details/calculations/event"
+msgstr "完成任務與活動的獎勵"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "戰鬥中掛機的懲罰"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "擅離職守的懲罰"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "擅離職守的懲罰"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "擅離職守的懲罰"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "擅離職守的懲罰"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "戰鬥中掛機的懲罰"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "擅離職守的懲罰"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "故意自我摧毀的懲罰"
+
+msgid "details/calculations/firstWin"
+msgstr "每日首勝加成"
+
+msgid "details/calculations/fortOrder"
+msgstr "使用軍用儲備的加成"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "隊友造成傷害的補償"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "造成隊友傷害的賠償"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "震盪或傷害到隊友的賠償"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "高負重運輸"
+
+msgid "details/calculations/igrBonus"
+msgstr "遊戲獎勵 %(igrIcon)s"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "IGR 獎勵"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "戰鬥總收入："
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "可控經驗加成"
+
+msgid "details/calculations/maximum"
+msgstr "新紀錄"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "軍事演練"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "每日首勝提高的經驗加入以下車輛："
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "每日首勝加成"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "奮勇抵抗"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "寵物加成（%(bonusFactor)d%）"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "寵物加成"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "已增加到庫存儲備"
+
+msgid "details/calculations/playerRankXP"
+msgstr "軍階獎勵"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "加值車輛階級的加成"
+
+msgid "details/calculations/referralBonus"
+msgstr "推薦獎勵 (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "推薦獎勵（%(bonusFactor)d%）"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "推薦獎勵"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "以裝甲排進行遊戲 "
+
+msgid "details/calculations/squadBonus"
+msgstr "加入裝甲排的加成"
+
+msgid "details/calculations/squadXP"
+msgstr "於裝甲排中進行遊戲"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "由於不恰當的裝甲排組合之懲罰"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "戰術訓練"
+
+msgid "details/calculations/title/base"
+msgstr "收入"
+
+msgid "details/calculations/title/expenses"
+msgstr "支出"
+
+msgid "details/calculations/title/total"
+msgstr "總共"
+
+msgid "details/calculations/total"
+msgstr "總共："
+
+msgid "details/calculations/wotPlus"
+msgstr "「戰車世界 Plus」收益加成"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "「戰車世界 Plus」收益加成"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "「戰車世界 Plus 專業版」加成"
+
+msgid "details/calculations/xpRecord"
+msgstr "獲得 (%(color_tag_open)s 最高 %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "已獲得（%(maximum)s）"
+
+msgid "details/credits"
+msgstr "銀幣"
+
+msgid "details/crystal"
+msgstr "點券"
+
+msgid "details/noPrem"
+msgstr "一般帳號"
+
+msgid "details/prem"
+msgstr "戰遊網加值帳號"
+
+msgid "details/premPlus"
+msgstr "《戰車世界》加值帳號"
+
+msgid "details/resource"
+msgstr "工業資源"
+
+msgid "details/stats"
+msgstr "統計"
+
+msgid "details/time"
+msgstr "時間"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "開始時間"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "佔領的區域數"
+
+msgid "details/time/lbl_duration"
+msgstr "戰鬥持續時間"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "目標已摧毀"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "抵達的目標數"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "被擊毀時間"
+
+msgid "details/time/val_no"
+msgstr "否"
+
+msgid "details/time/val_yes"
+msgstr "是"
+
+msgid "details/time/value"
+msgstr "%(min)s 分鐘 %(sec)s 秒"
+
+msgid "details/time_epic"
+msgstr "戰鬥"
+
+msgid "details/xp"
+msgstr "經驗"
+
+msgid "details/xp_abbr"
+msgstr "經驗"
+
+msgid "exterminationVictory/allies"
+msgstr "您的隊伍摧毀了所有敵方車輛"
+
+msgid "exterminationVictory/enemies"
+msgstr "敵人摧毀了您隊伍的所有車輛"
+
+msgid "fallout/classic/lose/cap"
+msgstr "敵方隊伍比您的隊伍獲得了更多的勝利點數"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "敵人摧毀了您隊伍的所有車輛"
+
+msgid "fallout/classic/lose/points"
+msgstr "敵方隊伍比您的隊伍獲得了更多的勝利點數"
+
+msgid "fallout/classic/tie"
+msgstr "雙方隊伍獲得了同等的勝利點數"
+
+msgid "fallout/classic/win/cap"
+msgstr "您的隊比敵人伍獲得了更多的勝利點數"
+
+msgid "fallout/classic/win/extermination"
+msgstr "您的隊伍摧毀了所有敵方車輛"
+
+msgid "fallout/classic/win/points"
+msgstr "您的隊比敵人伍獲得了更多的勝利點數"
+
+msgid "fallout/multiteam/ended"
+msgstr "目標尚未滿足"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "想要檢視詳情，\n請從名單中選擇一名玩家。"
+
+msgid "fallout/multiteam/win/cap"
+msgstr "您的隊比敵人伍獲得了更多的勝利點數"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "所有敵方分遣隊都被摧毀"
+
+msgid "fallout/multiteam/win/points"
+msgstr "您的隊比敵人伍獲得了更多的勝利點數"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "%(buildingName)s 建築尚未佔領"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "%(buildingName)s 建築已佔領"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "已佔領建築：%(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "%(buildingName)s 建築被敵人佔領"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "%(buildingName)s 建築尚未佔領"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "已防禦建築：%(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "結果依隊伍相關的剩餘資訊計算"
+
+msgid "finish/overtime/lose"
+msgstr "敵人未被摧毀"
+
+msgid "finish/overtime/win"
+msgstr "敵人已被摧毀"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "原因不明"
+
+msgid "finish/reason/10lose"
+msgstr "目標存活"
+
+msgid "finish/reason/10win"
+msgstr "目標已摧毀"
+
+msgid "finish/reason/1lose"
+msgstr "所有我方車輛都被擊毀"
+
+msgid "finish/reason/1tie"
+msgstr "所有車輛都被擊毀"
+
+msgid "finish/reason/1win"
+msgstr "所有敵方車輛都被擊毀"
+
+msgid "finish/reason/2"
+msgstr "基地佔領"
+
+msgid "finish/reason/3"
+msgstr "戰鬥時間逾時"
+
+msgid "finish/reason/4"
+msgstr "由於系統問題戰鬥被中止"
+
+msgid "finish/reason/5"
+msgstr "技術性戰敗"
+
+msgid "finish/reason/8"
+msgstr "隊友被擊毀"
+
+msgid "finish/reason/9"
+msgstr "您的車輛被擊毀"
+
+msgid "garage/uniqueDamage"
+msgstr "只有唯一的重傷才算。"
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "選擇持續時間"
+
+msgid "getPremiumPopover/award"
+msgstr "+50% 銀幣與經驗收入"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "購買 %(prem)s 並讓所有後續進行的戰鬥獲得 %(award)s"
+
+msgid "getPremiumPopover/headerText"
+msgstr "這場戰鬥您可以獲得："
+
+msgid "getPremiumPopover/prem"
+msgstr "加值帳號"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "前往研發"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "可研發"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "剩餘戰鬥數（大約）：{{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "關於車輛"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "任務 #{{name}} 已完成。"
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "戰車培訓班"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "新配件已解鎖！"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "新車輛已解鎖！"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "戰車培訓班任務已完成！"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "章節已完成！"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "階段已完成！"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "「淬鍊」任務已完成！"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "任務已完成！"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "每日任務已完成！"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "最高精英等級"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "下一個精英等級"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "史詩任務已完成！"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "行動任務已完成！"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "加值任務已完成！"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "每週任務已完成！"
+
+msgid "noData"
+msgstr "很抱歉，詳細戰鬥結果無法使用。"
+
+msgid "personalQuest/bonus/descr"
+msgstr "您在這場戰鬥中獲得的主要條件進度已乘以 %(value)s。"
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "%(value)s 倍加成："
+
+msgid "personalQuest/failed/attention"
+msgstr "注意！"
+
+msgid "personalQuest/failed/descr"
+msgstr "您的任務進度已被重置。完成條件將重新開始。"
+
+msgid "players/enemy/unknown"
+msgstr "敵人"
+
+msgid "players/teammate/unknown"
+msgstr "玩家"
+
+msgid "prestige/common/description"
+msgstr "獲得的精英點數："
+
+msgid "prestige/max/description"
+msgstr "已達到最高精英等級。"
+
+msgid "prestige/maxLevelReached/description"
+msgstr "已達到最高精英等級"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "已達到下一個精英等級"
+
+msgid "prestige/title"
+msgstr "精英系統"
+
+msgid "progression/completed"
+msgstr "已完成"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}已完成：{{/}}{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "點擊以檢視詳細資訊。"
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}已完成：{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "精英系統目前不可用。請稍後再試。"
+
+msgid "progression/totalEarned"
+msgstr "獲得總數：{{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "只要參與戰鬥就能獲得獎勵。您參與的戰鬥越多，就能越快得到獎勵。"
+
+msgid "selectVehicle"
+msgstr "選擇車輛"
+
+msgid "status/lose"
+msgstr "戰敗"
+
+msgid "status/tie"
+msgstr "平手"
+
+msgid "status/win"
+msgstr "勝利"
+
+msgid "tankSelector/next"
+msgstr "下一輛車"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "按照造成的傷害來排序，\n包含來自戰鬥儲備的傷害。"
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "造成的傷害"
+
+msgid "team/damageHeader/body"
+msgstr "按照造成敵方車輛的傷害來排序。"
+
+msgid "team/damageHeader/header"
+msgstr "造成敵方車輛的傷害"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "造成的傷害"
+
+msgid "team/deaths/body"
+msgstr "按玩家車輛在戰鬥中被擊毀的數量來排序。"
+
+msgid "team/deaths/header"
+msgstr "已擊毀車輛"
+
+msgid "team/deathsNoSort/header"
+msgstr "已擊毀車輛"
+
+msgid "team/epicRankHeader/body"
+msgstr "按照在戰鬥中達成的軍階來排序。"
+
+msgid "team/epicRankHeader/header"
+msgstr "軍階"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "按照在戰鬥中部署的次數來排序。"
+
+msgid "team/epicRespawnHeader/header"
+msgstr "部署的次數"
+
+msgid "team/falloutFragHeader/body"
+msgstr "按照已擊毀敵方車輛來排序，\n包含來自戰鬥儲備的傷害。"
+
+msgid "team/falloutFragHeader/header"
+msgstr "已擊毀敵方車輛"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "按照獲得的資源數量來排序。"
+
+msgid "team/falloutResourcePoints/header"
+msgstr "資源"
+
+msgid "team/flags/body"
+msgstr "按照已帶回旗幟數來排序。"
+
+msgid "team/flags/header"
+msgstr "已帶回旗幟"
+
+msgid "team/flagsNoSort/header"
+msgstr "已帶回旗幟"
+
+msgid "team/fragHeader/body"
+msgstr "按照擊毀敵方車輛數來排序。"
+
+msgid "team/fragHeader/header"
+msgstr "擊毀敵方車輛數"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "已擊毀敵方車輛"
+
+msgid "team/healthHeader/body"
+msgstr "按照所剩生命值來排序"
+
+msgid "team/healthHeader/header"
+msgstr "生命值"
+
+msgid "team/medalHeader/body"
+msgstr "按照獲獎數量來排序"
+
+msgid "team/medalHeader/header"
+msgstr "獎項"
+
+msgid "team/playerHeader/body"
+msgstr "按照玩家名稱來排序"
+
+msgid "team/playerHeader/header"
+msgstr "玩家名稱"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "名稱"
+
+msgid "team/playerNumber/body"
+msgstr "按照玩家在隊上的編號來排序"
+
+msgid "team/playerNumber/header"
+msgstr "編號"
+
+msgid "team/rankHeader/body"
+msgstr "按照軍階來排序。"
+
+msgid "team/rankHeader/header"
+msgstr "軍階"
+
+msgid "team/resourceHeader/body"
+msgstr "按照獲得工業資源量來排序。"
+
+msgid "team/resourceHeader/header"
+msgstr "工業資源"
+
+msgid "team/squadHeader/body"
+msgstr "按照裝甲排來排序"
+
+msgid "team/squadHeader/header"
+msgstr "裝甲排"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "裝甲排"
+
+msgid "team/stats/allies"
+msgstr "我方"
+
+msgid "team/stats/close"
+msgstr "關閉"
+
+msgid "team/stats/enemies"
+msgstr "敵方"
+
+msgid "team/stats/enemyTeam"
+msgstr "敵方隊伍"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "算作協助：\n• 隊友在您偵察下、摧毀敵方車輛履帶並使其無法移動下，或震盪到敵方車輛後造成的傷害\n• 佔領基地\n• 第一個偵察到敵方車輛。"
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "協助"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "算作貢獻：\n• 由您造成的傷害\n• 由您擊毀的車輛\n• 傷害配件\n• 由您隊伍造成傷害的獎勵\n• 震盪和傷害到隊友的賠償。"
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "造成傷害與擊毀車輛"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "有效參與的額外獎勵，前面未指定的部分。"
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "符合車輛角色"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\t藉由火炮襲擊"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "佔領的區域 / 摧毀的目標"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "基地佔領/防禦點數"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "佔領的關鍵點位數"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "在玩家協助下造成的傷害"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "在您協助下造成的傷害"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "對受到此玩家震盪的敵方車輛的傷害"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "對受到您震盪的敵方車輛的傷害"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "裝甲阻擋傷害"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "總傷害："
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\t包含來自戰鬥儲備"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\t使用技能下"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\t造成敵方隊伍的傷害"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "傷害/擊毀敵方車輛數"
+
+msgid "team/stats/labels_deaths"
+msgstr "您的車輛在戰鬥中擊毀數"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "已防守區域 / 目標"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "自身車輛被擊毀 / 回收的數量"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\t對於目標"
+
+msgid "team/stats/labels_directHits"
+msgstr "\t直接命中"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "被擊中數"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\t由於戰鬥儲備效果"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\t使用戰鬥儲備"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\t高爆傷害"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "受到高爆傷害數"
+
+msgid "team/stats/labels_flags"
+msgstr "旗幟已帶回"
+
+msgid "team/stats/labels_healed"
+msgstr "恢復的血量（自身/隊友）"
+
+msgid "team/stats/labels_hits"
+msgstr "\t直接命中/穿透"
+
+msgid "team/stats/labels_killed"
+msgstr "擊毀敵方車輛數"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\t包含來自戰鬥儲備"
+
+msgid "team/stats/labels_mileage"
+msgstr "行駛距離"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\t未穿透"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\t穿透"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\t穿透"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "使用的角色技能數"
+
+msgid "team/stats/labels_shots"
+msgstr "射擊數"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\t大於 300 公尺距離下"
+
+msgid "team/stats/labels_spotted"
+msgstr "偵察敵方車輛數"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "造成震盪的總持續時間，秒"
+
+msgid "team/stats/labels_stunNum"
+msgstr "造成的震盪"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "造成隊友的傷害 (擊毀/血量)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "擊毀車輛數"
+
+msgid "team/stats/labels_xp"
+msgstr "獲得的總經驗"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\t協助"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\t造成傷害"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\t符合車輛角色"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "我方隊伍"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "藉由火炮襲擊"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "基地佔領/防禦點數"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "在玩家協助下造成的傷害"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "在您協助下造成的傷害"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "對受到此玩家震盪的敵方車輛的傷害"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "對受到您震盪的敵方車輛的傷害"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "裝甲阻擋傷害"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "總傷害"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "傷害/擊毀敵方車輛數"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "被擊中數"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "高爆傷害"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "受到高爆傷害數"
+
+msgid "team/stats/parameter/hits"
+msgstr "直接命中/穿透"
+
+msgid "team/stats/parameter/mileage"
+msgstr "行駛距離"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "未穿透"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "穿透"
+
+msgid "team/stats/parameter/shots"
+msgstr "射擊數"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "大於 300 公尺距離下"
+
+msgid "team/stats/parameter/spotted"
+msgstr "偵察敵方車輛數"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "造成震盪的總持續時間，秒"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "造成的震盪"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "造成隊友的傷害 (擊毀/血量)"
+
+msgid "team/tankHeader/body"
+msgstr "按照隊伍面板中的位置來排序"
+
+msgid "team/tankHeader/header"
+msgstr "車輛"
+
+msgid "team/teamInfluenceTotal"
+msgstr "由分遣隊所獲得的工業資源：%(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "由分遣隊所獲得的工業資源：%(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "按獲得的勝利點數來排序。"
+
+msgid "team/teamScore/header"
+msgstr "隊伍勝利點數"
+
+msgid "team/victoryScore/body"
+msgstr "按獲得的勝利點數來排序。"
+
+msgid "team/victoryScore/header"
+msgstr "玩家勝利點數"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "玩家勝利點數"
+
+msgid "team/xpHeader/body"
+msgstr "按照經驗來排序"
+
+msgid "team/xpHeader/header"
+msgstr "經驗"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "經驗"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "勝利點數已獲得"

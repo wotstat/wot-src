@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_aggressive_detection/descr/active"
+msgstr "可視範圍將擴大 {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose}，效果持續 {colorTagOpen}%(duration)s 秒{colorTagClose}。\n\n當敵方車輛在您偵察下遭摧毀時，計時將會重置。"
+
+msgid "comp7_aggressive_detection/name"
+msgstr "主動偵察"
+
+msgid "comp7_ally_support/descr/active"
+msgstr "己方隊伍每有一個不同車輛角色，您乘員的熟練度就會獲得 {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} 的加成，效果持續 {colorTagOpen}%(duration)s 秒{colorTagClose}。\n\n計算此加成時，您的車輛將總是會被列入計算。"
+
+msgid "comp7_ally_support/name"
+msgstr "我為人人"
+
+msgid "comp7_aoe_heal/descr/active"
+msgstr "在您車輛周圍建立一個半徑 {colorTagOpen}%(radius)s 公尺{colorTagClose}的區域，您與區域內隊友的車輛會恢復 {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} 血量，效果持續 {colorTagOpen}%(duration)s 秒{colorTagClose}。"
+
+msgid "comp7_aoe_heal/name"
+msgstr "戰地維修"
+
+msgid "comp7_aoe_inspire/descr/active"
+msgstr "您與隊友的乘員熟練度等級會獲得 {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} 的加成，效果持續 {colorTagOpen}%(duration)s 秒{colorTagClose}。"
+
+msgid "comp7_aoe_inspire/name"
+msgstr "鼓舞"
+
+msgid "comp7_berserk/descr/active"
+msgstr "炮管裝填時間縮短 {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}，效果持續 {colorTagOpen}%(duration)s 秒{colorTagClose}。此外，開火後、移動時、車身與炮塔迴轉時的炮管擴散度降低 {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}。\n\n當您透過衝撞或從少於 {colorTagOpen}%(damageDistance)s 公尺{colorTagClose}的距離造成傷害時，計時將會重置。"
+
+msgid "comp7_berserk/name"
+msgstr "狂怒"
+
+msgid "comp7_concentration/descr/active"
+msgstr "移動、車身迴轉與炮塔迴轉時的瞄準時間與炮管擴散度降低 {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}，效果持續 {colorTagOpen}%(duration)s 秒{colorTagClose}。\n\n在此角色技能的有效期間，每發之間的裝填時間會縮短 {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s 秒{colorTagClose}。"
+
+msgid "comp7_concentration/name"
+msgstr "聚焦目標"
+
+msgid "comp7_fast_recharge/descr/active"
+msgstr "• 彈匣裝填系統：\n彈匣裝填的剩餘時間縮短：{colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• 自動再裝填火炮系統：\n當前循環中所有已發射砲彈的裝填時間縮短：{colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n此技能僅能在裝填過程中啟用。\n\n• 過熱調控自動火炮：\n炮管熱能可降低其最大值的 {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose}。\n\n此技能僅能在炮管升溫時啟用。"
+
+msgid "comp7_fast_recharge/name"
+msgstr "得心應手"
+
+msgid "comp7_hunter/descr/active"
+msgstr "重置受到您射擊傷害的敵方車輛計數。\n\n啟用當下，每一輛受到您射擊傷害的敵方車輛（已計數量），將讓您的車輛恢復 {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} 血量，效果持續 {colorTagOpen}%(duration)s 秒{colorTagClose}。"
+
+msgid "comp7_hunter/descr/passive"
+msgstr "每對一輛敵方車輛造成射擊傷害時，炮管裝填時間會縮短 {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose}。"
+
+msgid "comp7_hunter/name"
+msgstr "賞金獵人"
+
+msgid "comp7_juggernaut/descr/active"
+msgstr "效果持續 {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s 秒{colorTagClose}：\n• 受到的傷害降低 {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• 最高前進速度提高 {colorTagOpen}%(fwMaxSpeedBonus)s 公里/小時{colorTagClose}\n• 最高後退速度提高 {colorTagOpen}%(bkMaxSpeedBonus)s 公里/小時{colorTagClose}\n• 引擎功率提高 {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• 透過衝撞對敵方車輛造成的傷害提高 {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\n當此角色技能啟用時，只要一發砲彈就能摧毀您的履帶。"
+
+msgid "comp7_juggernaut/name"
+msgstr "強力猛衝"
+
+msgid "comp7_march/descr/active"
+msgstr "您車輛的引擎功率將提高 {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}、最高前進速度將提高 {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} 公里/小時、隱蔽性數值將增加 {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}，效果持續 {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s 秒{colorTagClose}。"
+
+msgid "comp7_march/name"
+msgstr "潛行速進"
+
+msgid "comp7_recon/descr/active"
+msgstr "一架偵察飛機將在 {colorTagOpen}%(delay)s 秒{colorTagClose}後飛至所選區域。在半徑 {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s 公尺{colorTagClose}內被偵察到的敵方車輛，將在 {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;秒{colorTagClose}內持續被偵察到。在 {colorTagOpen}%(lampDelay)s 秒{colorTagClose}的延遲後，被此技能偵察到的玩家會看到一個特殊圖示。\n\n此技能在戰鬥開始 {colorTagOpen}%(startupDelay)s 秒{colorTagClose}後可用。"
+
+msgid "comp7_recon/name"
+msgstr "偵察飛行"
+
+msgid "comp7_redline/descr/active"
+msgstr "所選區域將在 {colorTagOpen}%(delay)s 秒{colorTagClose}後遭火炮攻擊。\n\n在半徑 {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s 公尺{colorTagClose}內遭傷害的目標將受到 {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} 血量傷害且將被震盪 {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s 秒{colorTagClose}。"
+
+msgid "comp7_redline/name"
+msgstr "火力掩護"
+
+msgid "comp7_risky_attack/descr/active"
+msgstr "加速\n\n引擎功率提高 {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}，最高前進速度提高 {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} 公里/小時，最高後退速度提高 {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} 公里/小時，效果持續 {colorTagOpen}%(duration)s 秒{colorTagClose}。\n\n恢復血量\n\n您車輛將恢復 {colorTagOpen}%(baseHeal)s{colorTagClose} 血量{colorTagOpen} + 在「加速」有效期間所失去血量的 %(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose}，效果持續 {colorTagOpen}%(healDuration)s 秒{colorTagClose}。"
+
+msgid "comp7_risky_attack/name"
+msgstr "重振旗鼓"
+
+msgid "comp7_role_skill/descr/startLevel"
+msgstr " \n\n在戰鬥開始時，角色技能的充能等級為{colorTagOpen}%(startLevel)s{colorTagClose}。"
+
+msgid "comp7_sniper/descr/active"
+msgstr "100 公尺處擴散度等於 {colorTagOpen}%(dispersionFactor)s 公尺{colorTagClose}，效果持續 {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s 秒{colorTagClose}。\n\n若開火當下您的車輛尚未被偵察到，您砲彈造成的傷害提高 {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}。\n\n當您從大於 {colorTagOpen}%(damageDistance)s 公尺{colorTagClose}的距離造成傷害時，計時將會重置。"
+
+msgid "comp7_sniper/name"
+msgstr "正中紅心"
+
+msgid "comp7_sure_shot/descr/active"
+msgstr "移動、車身迴轉與炮塔迴轉時的炮管擴散度降低 {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}，效果持續 {colorTagOpen}%(duration)s 秒{colorTagClose}。\n\n在此技能的有效期間，透過射擊造成傷害時會縮短炮管裝填時間，數值為敵方車輛遭受之傷害佔該車輛總血量百分比的 {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose}。\n\n摧毀一輛敵方車輛會讓炮管裝填時間縮短 {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}。"
+
+msgid "comp7_sure_shot/name"
+msgstr "俐落一擊"

@@ -1,0 +1,1652 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "awardsWidget/description/award"
+msgstr "보상을 선택하고 수령합니다."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "일시적으로 보상을 이용할 수 없습니다. 불편을 드려 죄송합니다."
+
+msgid "awardsWidget/description/coin"
+msgstr "배틀 패스 토큰 아이템을 확인합니다."
+
+msgid "awardsWidget/description/collection"
+msgstr "배틀 패스 컬렉션을 확인합니다."
+
+msgid "awardsWidget/description/collectionCompleted"
+msgstr "축하합니다! 배틀 패스 컬렉션 요소를 모두 수집하였습니다."
+
+msgid "awardsWidget/description/commander"
+msgstr "모든 이벤트 승무원을 확인합니다."
+
+msgid "awardsWidget/description/taler"
+msgstr "칩이나 골드로 구매할 수 있는 배틀 패스 지난 시즌 아이템을 확인합니다."
+
+msgid "awardsWidget/description/ticket"
+msgstr "바우처를 사용하여 보상을 획득합니다."
+
+msgid "awardsWidget/title/awardMultiple"
+msgstr "보상\n수령"
+
+msgid "awardsWidget/title/awardSingle"
+msgstr "보상\n수령"
+
+msgid "awardsWidget/title/coin"
+msgstr "토큰 아이템"
+
+msgid "awardsWidget/title/collection"
+msgstr "컬렉션"
+
+msgid "awardsWidget/title/commander"
+msgstr "승무원"
+
+msgid "awardsWidget/title/taler"
+msgstr "배틀 패스 금고"
+
+msgid "awardsWidget/title/ticket"
+msgstr "바우처\n사용"
+
+msgid "battleBonusX5"
+msgstr "경험치 5배 획득 임무"
+
+msgid "battlePassAwardsView/additionalRewards/bpBuyLevelAwardsText"
+msgstr "주요 진행 스테이지를 완료하여 강화 보상을 획득했습니다. 더 많은 보상을 획득하려면 점수를 계속 수집하십시오."
+
+msgid "battlePassAwardsView/additionalRewards/bpRemainLevelsAwardsText"
+msgstr "%(remainingAwardsCount)s개 더"
+
+msgid "battlePassAwardsView/additionalRewards/button"
+msgstr "확인"
+
+msgid "battlePassAwardsView/additionalRewards/seeMoreButtonText"
+msgstr "보상 확인"
+
+msgid "battlePassAwardsView/additionalRewards/subText"
+msgstr "그 외 보상"
+
+msgid "battlePassAwardsView/footer/acceptButton"
+msgstr "확인"
+
+msgid "battlePassAwardsView/footer/allChaptersText"
+msgstr "3개 챕터의 강화 패스 보상을 모두 해제했습니다."
+
+msgid "battlePassAwardsView/footer/boughtChapterText"
+msgstr "구매한 스테이지의 모든 보상을 이용할 수 있습니다."
+
+msgid "battlePassAwardsView/footer/bpButtonTitle"
+msgstr "강화 패스 구매"
+
+msgid "battlePassAwardsView/footer/bpDescriptionGotStyle"
+msgstr "각 챕터 시작 시 진행 상황에 따라 레벨을 올릴 수 있는 스타일이 지급됩니다. 배틀 패스 현재 시즌 종료 후에도 미완성 스타일의 레벨을 올릴 수 있습니다."
+
+msgid "battlePassAwardsView/footer/bpInProgressTitle"
+msgstr "현재 챕터 강화 패스 구매 시 이미 완료한 스테이지의 강화 보상이 지급됩니다. 또한, 이후 완료하는 스테이지의 강화 보상도 획득할 수 있습니다."
+
+msgid "battlePassAwardsView/footer/bpLastStagesTitle"
+msgstr "현재 챕터 강화 패스 구매 시 이미 완료한 스테이지의 강화 보상을 즉시 획득할 수 있습니다."
+
+msgid "battlePassAwardsView/footer/bpMoreTitle"
+msgstr "아직 기회가 남아있습니다!"
+
+msgid "battlePassAwardsView/footer/bpTitle"
+msgstr "강화 패스"
+
+msgid "battlePassAwardsView/footer/getRewardsButton"
+msgstr "보상 수령"
+
+msgid "battlePassAwardsView/footer/postProgressionButton"
+msgstr "정예 행로로 이동"
+
+msgid "battlePassAwardsView/footer/postProgressionText"
+msgstr "이제 정예 행로 진행 가능"
+
+msgid "battlePassAwardsView/header/bpAllChapters"
+msgstr "모든 챕터"
+
+msgid "battlePassAwardsView/header/bpBoughtText"
+msgstr "강화 패스 구매 완료!"
+
+msgid "battlePassAwardsView/header/bpFinalLevelText"
+msgstr "최종 스테이지 완료!"
+
+msgid "battlePassAwardsView/header/bpLevelReceivedText"
+msgstr "스테이지 %(currentLevel)s 완료!"
+
+msgid "battlePassAwardsView/header/bpLevelsText"
+msgstr "보상 획득"
+
+msgid "battlePassAwardsView/header/bpRewardText"
+msgstr "보상 획득"
+
+msgid "battlePassAwardsView/header/bpTitle"
+msgstr "배틀 패스: %(chapter)s 챕터"
+
+msgid "battlePassAwardsView/header/bpTitleWithoutChapter"
+msgstr "배틀 패스"
+
+msgid "battlePassAwardsView/header/styleReceivedText"
+msgstr "스타일 획득"
+
+msgid "battlePassAwardsView/header/styleUpgradedText"
+msgstr "스타일 업그레이드"
+
+msgid "battlePassAwardsView/mainReward/battlePassNewDeviceGiftToken"
+msgstr "일반 장비(선택)"
+
+msgid "battlePassAwardsView/mainReward/battlePassTrophyGiftToken"
+msgstr "포상 장비(선택)"
+
+msgid "battlePassAwardsView/mainReward/bpBuyAwardsCaption"
+msgstr "%(chapter)s 챕터의 강화 패스 보상이 모두 해제되었습니다."
+
+msgid "battlePassAwardsView/mainReward/bpBuyWithLevels"
+msgstr "%(chapter)s 챕터 보상을 모두 획득했습니다."
+
+msgid "battlePassAwardsView/mainReward/commander"
+msgstr "승무원: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonText"
+msgstr "선택 화면으로 이동"
+
+msgid "battlePassAwardsView/mainReward/newDeviceGiftToken/buttonTitle"
+msgstr "보관소 내 전방 지원 보급품 항목"
+
+msgid "battlePassAwardsView/mainReward/reward"
+msgstr "훈장: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/style"
+msgstr "3D 스타일: %(name)s"
+
+msgid "battlePassAwardsView/mainReward/styleLevel1"
+msgstr "%(styleName)s 스타일 첫 레벨"
+
+msgid "battlePassAwardsView/mainReward/styleLevel2"
+msgstr "%(styleName)s 스타일 새로운 레벨"
+
+msgid "battlePassAwardsView/mainReward/styleLevel3"
+msgstr "%(styleName)s 스타일 최고 레벨"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonText"
+msgstr "선택 화면으로 이동"
+
+msgid "battlePassAwardsView/mainReward/trophyGiftToken/buttonTitle"
+msgstr "보관소 내 전방 지원 보급품 항목"
+
+msgid "battlePassBuyLevels/chapter"
+msgstr "%(name)s 챕터"
+
+msgid "battlePassBuyLevels/levelsSelected"
+msgid_plural "plural/battlePassBuyLevels/levelsSelected"
+msgstr[0] "스테이지 %(count)s개 구매 비용:"
+msgstr[1] "스테이지 %(count)s개 구매 비용:"
+msgstr[2] "스테이지 %(count)s개 구매 비용:"
+
+msgid "battlePassBuyView/btnCancel"
+msgstr "취소"
+
+msgid "battlePassBuyView/btnRewards"
+msgstr "모두 보기\n보상 %(count)s개"
+
+msgid "battlePassBuyView/confirm/btnBuy"
+msgstr "구매"
+
+msgid "battlePassBuyView/confirm/checkbox/stage"
+msgid_plural "plural/battlePassBuyView/confirm/checkbox/stage"
+msgstr[0] "남은 스테이지: %(stagesNumber)s"
+msgstr[1] "남은 스테이지: %(stagesNumber)s"
+msgstr[2] "남은 스테이지: %(stagesNumber)s"
+
+msgid "battlePassBuyView/confirm/description"
+msgstr "강화 패스 해제 시 다음 아이템 지급"
+
+msgid "battlePassBuyView/confirm/descriptionCheckboxChecked"
+msgstr "챕터 보상 모두 즉시 지급:"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/buy"
+msgstr "상품 보기"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/description"
+msgstr "해당 상품은 시즌 챕터 강화 패스를\n구매하기 전에만 이용할 수 있습니다."
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/headline"
+msgstr "1석%(count)s조"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/packsAmount"
+msgstr "x%(amount)s"
+
+msgid "battlePassBuyView/confirm/shopOfferBlock/title"
+msgstr "모든 시즌 챕터\n강화 패스"
+
+msgid "battlePassBuyView/confirm/starterPack/description"
+msgstr "%(purchaseText)s 보너스"
+
+msgid "battlePassBuyView/confirm/starterPack/purchaseText"
+msgstr "구매 시"
+
+msgid "battlePassBuyView/descr"
+msgstr "진행 스테이지를 구매하면 해당 스테이지에 포함된 모든 보상이 즉시 해제 및 지급됩니다."
+
+msgid "battlePassBuyView/reward/descriptionFutureRewards"
+msgstr "남은 스테이지 완료 시 획득할 수 있는 보상입니다."
+
+msgid "battlePassBuyView/reward/descriptionNowRewards"
+msgstr "스테이지 %(steps)s 완료 보상"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsCheckbox"
+msgstr "다음 보상 즉시 지급"
+
+msgid "battlePassBuyView/reward/descriptionNowRewardsSingle"
+msgstr "스테이지 %(steps)s 완료 보상"
+
+msgid "battlePassBuyView/reward/titleFutureRewards"
+msgstr "해제되는 보상"
+
+msgid "battlePassBuyView/reward/titleNowRewards"
+msgstr "즉시 획득하는 보상"
+
+msgid "battlePassStatus/activateChapter"
+msgstr "배틀 패스 챕터 활성화"
+
+msgid "battlePassStatus/improve"
+msgstr "강화 패스 구매 가능"
+
+msgid "battlePassVehicleAwardView/button"
+msgstr "확인"
+
+msgid "battlePassVehicleAwardView/content/description"
+msgstr "점수 제한 도달"
+
+msgid "battlePassVehicleAwardView/content/postTitle"
+msgstr "배틀 패스 정예 진행"
+
+msgid "battlePassVehicleAwardView/content/subTitle"
+msgstr "보상 획득:"
+
+msgid "battlePassVehicleAwardView/content/title"
+msgstr "배틀 패스"
+
+msgid "battlepassTab"
+msgstr "배틀 패스"
+
+msgid "chapter/fullName/10021"
+msgstr "들소의 노래"
+
+msgid "chapter/fullName/1114"
+msgstr "들소의 노래"
+
+msgid "chapter/fullName/200"
+msgstr "정예 행로"
+
+msgid "chapter/fullName/201"
+msgstr "시간의 흔적"
+
+msgid "chapter/fullName/202"
+msgstr "운명의 종착지"
+
+msgid "chapter/fullName/203"
+msgstr "사막 사령부"
+
+msgid "chapter/fullName/205"
+msgstr "Far Cry"
+
+msgid "chapter/fullNameUppercased/10021"
+msgstr "들소의 노래"
+
+msgid "chapter/fullNameUppercased/1114"
+msgstr "들소의 노래"
+
+msgid "chapter/fullNameUppercased/201"
+msgstr "시간의 흔적"
+
+msgid "chapter/fullNameUppercased/202"
+msgstr "운명의 종착지"
+
+msgid "chapter/fullNameUppercased/203"
+msgstr "사막 사령부"
+
+msgid "chapter/fullNameUppercased/205"
+msgstr "FAR CRY"
+
+msgid "chapter/title"
+msgstr "챕터 %(chapter)s"
+
+msgid "chapterChoice/about"
+msgstr "배틀 패스 정보"
+
+msgid "chapterChoice/activeChapter/postprogression/text"
+msgstr "활성화"
+
+msgid "chapterChoice/activeChapter/text"
+msgstr "활성 챕터"
+
+msgid "chapterChoice/chapterCompleted"
+msgstr "챕터 완료"
+
+msgid "chapterChoice/chapterInfo/buttons/toChapter"
+msgstr "챕터로 이동"
+
+msgid "chapterChoice/chapterInfo/buttons/toCrewMembers"
+msgstr "승무원 보기"
+
+msgid "chapterChoice/chapterInfo/buttons/toPostProgression"
+msgstr "진행 상황으로 이동"
+
+msgid "chapterChoice/chapterInfo/deadline/date"
+msgstr "%(endDate)s까지 이용 가능"
+
+msgid "chapterChoice/chapterInfo/deadline/time"
+msgstr "%(endTime)s 후 종료"
+
+msgid "chapterChoice/confirmation/button/cancel"
+msgstr "취소"
+
+msgid "chapterChoice/confirmation/button/submit"
+msgstr "활성화"
+
+msgid "chapterChoice/confirmation/button/switch"
+msgstr "전환"
+
+msgid "chapterChoice/confirmation/description/select"
+msgstr "언제든 다른 챕터로 전환할 수 있습니다."
+
+msgid "chapterChoice/confirmation/description/switch"
+msgstr "\"%(chName)s\" 챕터가 활성화되어 있습니다. 기존 챕터 진행이 중단됩니다."
+
+msgid "chapterChoice/confirmation/extraChapterDescription/highlightText"
+msgstr "이용이 불가능"
+
+msgid "chapterChoice/confirmation/extraChapterDescription/text"
+msgstr "%(icon)특별 챕터를 활성화하면 해당 챕터 진행을 완료할 때까지 정예 행로는 %(highlightText)합니다."
+
+msgid "chapterChoice/confirmation/title/select"
+msgstr "\"%(chName)s\" 챕터를 활성화하시겠습니까?"
+
+msgid "chapterChoice/confirmation/title/switch"
+msgstr "\"%(chName)s\" 챕터로 전환하시겠습니까?"
+
+msgid "chapterChoice/crewMember/reward"
+msgstr "승무원"
+
+msgid "chapterChoice/crewMember/reward/subTitle"
+msgstr "및 기타 승무원"
+
+msgid "chapterChoice/eliteCircuit/reward/subTitle"
+msgstr "(반복 진행하여 획득 가능)"
+
+msgid "chapterChoice/eliteCircuit/reward/title"
+msgstr "전쟁 채권, 칩, 바우처"
+
+msgid "chapterChoice/extraChapter/reward"
+msgstr "프리미엄 전차"
+
+msgid "chapterChoice/freePoints/text"
+msgstr "잔여 점수"
+
+msgid "chapterChoice/freePoints/tooltip/body"
+msgstr "챕터를 활성화하지 않아도 배틀 패스를 진행하면 점수를 획득할 수 있습니다. 챕터를 활성화하면 누적한 점수가 관련 챕터의 진행 상황에 집계됩니다."
+
+msgid "chapterChoice/freePoints/tooltip/header"
+msgstr "잔여 배틀 패스 점수"
+
+msgid "chapterChoice/postprogression/locked"
+msgstr "시즌 챕터 {{count}}개\n모두 완료 시 해제"
+
+msgid "chapterChoice/postprogression/name"
+msgstr "정예 행로"
+
+msgid "chapterChoice/postprogression/unlocked/cycle"
+msgstr "반복 스테이지 %(cycle)s"
+
+msgid "chapterChoice/stages/additional"
+msgstr " / %(level)s 스테이지"
+
+msgid "chapterChoice/stages/complete/improved"
+msgstr "완료 및 강화"
+
+msgid "chapterChoice/stages/complete/unimproved"
+msgstr "보상 %(count)s개 추가 포함"
+
+msgid "chapterChoice/stylePreview/reward/subTitle"
+msgstr "%(vehicleName)s 전용"
+
+msgid "chapterChoice/stylePreview/reward/title"
+msgstr "%(styleName)s 3D 스타일"
+
+msgid "chapterChoice/vehicle/reward/subTitle"
+msgstr "%(vehicleName)s"
+
+msgid "chapterChoice/vehicle/reward/title"
+msgstr "프리미엄 전차"
+
+msgid "chapterChoice/vehicleStyle/reward/subTitle"
+msgstr "및 %(styleName)s 3D 스타일"
+
+msgid "chapterChoice/vehicleStyle/reward/title"
+msgstr "%(vehicleName)s"
+
+msgid "chapterStatus/notSelected"
+msgstr "선택한 챕터 없음"
+
+msgid "chosenBonuses/bonus/battle_booster_gift"
+msgstr "지휘명령(선택)"
+
+msgid "chosenBonuses/bonus/blueprint_gift"
+msgstr "국가 설계도면 조각(선택)"
+
+msgid "chosenBonuses/bonus/brochure_gift"
+msgstr "훈련 책자(선택)"
+
+msgid "chosenBonuses/bonus/crewbook_gift"
+msgstr "훈련 교본(선택)"
+
+msgid "chosenBonuses/bonus/guide_gift"
+msgstr "훈련 지침(선택)"
+
+msgid "chosenBonuses/bonus/modernized_device_gift"
+msgstr "시제 장비(선택)"
+
+msgid "chosenBonuses/bonus/new_device_gift"
+msgstr "일반 장비(선택)"
+
+msgid "chosenBonuses/bonus/trophy_gift"
+msgstr "포상 장비(선택)"
+
+msgid "common/collectionText"
+msgstr "(컬렉션 요소)"
+
+msgid "common/comma"
+msgstr ", "
+
+msgid "common/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "commonProgression/body/ended"
+msgstr "배틀 패스 시즌 종료"
+
+msgid "crewBonusX3"
+msgstr "승무원 경험치 3배 획득 임무"
+
+msgid "equipCoinBonus"
+msgstr "부속품: %(count)s"
+
+msgid "finalReward/tankman/roles/commander"
+msgstr "전차장"
+
+msgid "finalReward/tankman/roles/driver"
+msgstr "조종수"
+
+msgid "finalReward/tankman/roles/gunner"
+msgstr "포수"
+
+msgid "finalReward/tankman/roles/loader"
+msgstr "장전수"
+
+msgid "finalReward/tankman/roles/radioman"
+msgstr "무전수"
+
+msgid "holidayFinalScreen/buyState/buyButton"
+msgstr "강화 패스 구매"
+
+msgid "holidayFinalScreen/buyState/description"
+msgstr "강화 패스 구매 시 프리미엄 전차와 특별 3D 스타일 및 모든 강화 패스 보상을 즉시 획득할 수 있습니다."
+
+msgid "holidayFinalScreen/buyState/moreRewards"
+msgstr "그 외 보상: %(count)s"
+
+msgid "holidayFinalScreen/buyState/title"
+msgstr "강화 보상 획득"
+
+msgid "holidayFinalScreen/chapter"
+msgstr "%(chapterName)s"
+
+msgid "holidayFinalScreen/completed"
+msgstr "챕터 완료"
+
+msgid "holidayFinalScreen/finalState/button/showHangar"
+msgstr "차고로 이동"
+
+msgid "holidayFinalScreen/finalState/button/showVehicle"
+msgstr "차고에서 보기"
+
+msgid "holidayFinalScreen/finalState/label"
+msgstr "모든 이벤트 보상 획득 완료"
+
+msgid "holidayFinalScreen/selectableRewardsState/button"
+msgstr "보상 수령"
+
+msgid "holidayFinalScreen/selectableRewardsState/label"
+msgstr "선택 가능한 보상이 있습니다."
+
+msgid "holidayFinalScreen/tankmenState/description"
+msgstr "해당 이벤트 기간에 상점에서 특별 승무원이 포함된 패키지를 이용할 수 있습니다."
+
+msgid "holidayFinalScreen/tankmenState/tankmenButton"
+msgstr "음성 확인"
+
+msgid "holidayFinalScreen/tankmenState/title"
+msgstr "모든 승무원 획득!"
+
+msgid "howToEarnPoints/battleRoyal/platoon"
+msgstr "소대"
+
+msgid "howToEarnPoints/battleRoyal/solo"
+msgstr "개인"
+
+msgid "howToEarnPoints/battleTypeTitle/1"
+msgstr "무작위 전투"
+
+msgid "howToEarnPoints/battleTypeTitle/27"
+msgstr "전선 대격돌"
+
+msgid "howToEarnPoints/battleTypeTitle/29"
+msgstr "배틀 로얄"
+
+msgid "howToEarnPoints/battleTypeTitle/43"
+msgstr "격전"
+
+msgid "howToEarnPoints/battleTypeTitle/49"
+msgstr "격전 라이트"
+
+msgid "howToEarnPoints/bonus"
+msgstr "+%(bonus)s"
+
+msgid "howToEarnPoints/card/battle/linkText"
+msgstr "임무로 이동"
+
+msgid "howToEarnPoints/card/battle/text"
+msgstr "배틀 로얄에서 임무를 완료하면 추가 점수를 획득할 수 있습니다."
+
+msgid "howToEarnPoints/card/battle/title"
+msgstr "일일 임무"
+
+msgid "howToEarnPoints/card/comp7/text"
+msgstr "격전에서 임무를 완료하면 추가 점수를 획득할 수 있습니다."
+
+msgid "howToEarnPoints/card/comp7/title"
+msgstr "일일 임무"
+
+msgid "howToEarnPoints/card/comp7Light/text"
+msgstr "격전 라이트에서 임무를 완료하면 추가 점수를 획득할 수 있습니다."
+
+msgid "howToEarnPoints/card/comp7Light/title"
+msgstr "일일 임무"
+
+msgid "howToEarnPoints/card/daily/linkText"
+msgstr "임무 확인"
+
+msgid "howToEarnPoints/card/daily/text"
+msgstr "일일 임무를 완료하여 더 많은 점수를 획득해 보십시오."
+
+msgid "howToEarnPoints/card/daily/title"
+msgstr "일일 임무"
+
+msgid "howToEarnPoints/card/epicBattlePoints/text"
+msgstr "전선 대격돌 단계 달성 시 추가 배틀 패스 점수를 획득할 수 있습니다."
+
+msgid "howToEarnPoints/card/epicBattlePoints/title"
+msgstr "전선 대격돌 단계 보상"
+
+msgid "howToEarnPoints/card/limitPoints/text"
+msgstr "각 전차에는 점수 제한이 적용됩니다. 점수 제한에 도달하면 보상으로 추가 점수가 지급됩니다."
+
+msgid "howToEarnPoints/card/limitPoints/title"
+msgstr "점수 제한 보상"
+
+msgid "howToEarnPoints/card/specialVehicle/text"
+msgstr "시즌 핵심 전차로 전투 참여 시 추가 점수를 획득할 수 있습니다."
+
+msgid "howToEarnPoints/card/specialVehicle/title"
+msgstr "시즌 핵심 전차"
+
+msgid "howToEarnPoints/condition/43"
+msgstr "영예 점수 획득량"
+
+msgid "howToEarnPoints/condition/49"
+msgstr "영예 점수 획득량"
+
+msgid "howToEarnPoints/condition/default"
+msgstr "경험치 획득량"
+
+msgid "howToEarnPoints/conditions"
+msgstr "획득 조건"
+
+msgid "howToEarnPoints/description"
+msgstr "다양한 모드에서 배틀 패스 점수를 획득하여 챕터를 진행하고 보상을 획득해 보십시오."
+
+msgid "howToEarnPoints/earned"
+msgstr "{{icon}}"
+
+msgid "howToEarnPoints/extraPoints"
+msgstr "추가 점수"
+
+msgid "howToEarnPoints/lose/1"
+msgstr "패배 / 무승부"
+
+msgid "howToEarnPoints/lose/27"
+msgstr "패배"
+
+msgid "howToEarnPoints/lose/43"
+msgstr "패배 / 무승부"
+
+msgid "howToEarnPoints/lose/49"
+msgstr "패배 / 무승부"
+
+msgid "howToEarnPoints/plusBanner/line1"
+msgstr "%(link)s 혜택을 통해 모든 일반 챕터에서"
+
+msgid "howToEarnPoints/plusBanner/line2"
+msgstr "더 많은 점수를 획득해 보십시오."
+
+msgid "howToEarnPoints/plusBanner/link"
+msgstr "WoT 플러스 프로"
+
+msgid "howToEarnPoints/points"
+msgstr "점수"
+
+msgid "howToEarnPoints/rangeLevels/29"
+msgstr "%(startLevel)d~%(endLevel)d위"
+
+msgid "howToEarnPoints/rating"
+msgstr "상위 %(place)d위"
+
+msgid "howToEarnPoints/rating/1"
+msgstr "경험치 획득량 상위 %(level)d위"
+
+msgid "howToEarnPoints/rating/27"
+msgstr "경험치 획득량 상위 %(level)d위"
+
+msgid "howToEarnPoints/rating/29"
+msgstr "경험치 획득량 상위 %(level)d위"
+
+msgid "howToEarnPoints/rating/43"
+msgstr "영예 점수 상위 %(level)d위"
+
+msgid "howToEarnPoints/rating/49"
+msgstr "영예 점수 상위 %(level)d위"
+
+msgid "howToEarnPoints/singleLevel/29"
+msgstr "%(level)d위"
+
+msgid "howToEarnPoints/solo/29"
+msgstr "개인 전투"
+
+msgid "howToEarnPoints/squad/29"
+msgstr "소대 전투"
+
+msgid "howToEarnPoints/text/1"
+msgstr "%(startLevel)s단계~%(endLevel)s단계"
+
+msgid "howToEarnPoints/text/27"
+msgstr "%(level)s단계"
+
+msgid "howToEarnPoints/text/29"
+msgstr "특별 전차"
+
+msgid "howToEarnPoints/text/43"
+msgstr "%(level)s단계"
+
+msgid "howToEarnPoints/text/49"
+msgstr "%(level)s단계"
+
+msgid "howToEarnPoints/title"
+msgstr "점수 획득 방법"
+
+msgid "howToEarnPoints/vehicle"
+msgstr "전차"
+
+msgid "howToEarnPoints/vehicles"
+msgstr "특별 전차"
+
+msgid "howToEarnPoints/win/1"
+msgstr "승리"
+
+msgid "howToEarnPoints/win/27"
+msgstr "승리"
+
+msgid "howToEarnPoints/win/43"
+msgstr "승리"
+
+msgid "howToEarnPoints/win/49"
+msgstr "승리"
+
+msgid "intro/affirmative/button"
+msgstr "확인"
+
+msgid "intro/next/button"
+msgstr "다음"
+
+msgid "intro/seasonDescription/text"
+msgstr "배틀 패스 시즌 18에서는 시즌 핵심 전차인 Maus, IS-7, AMX&nbsp;50&nbsp;B 전용 특별 3D 스타일을 획득할 기회가 주어집니다."
+
+msgid "intro/seasonDescription/title"
+msgstr "새로운 테마 3D 스타일"
+
+msgid "intro/title"
+msgstr "시즌 18: 완벽의 길"
+
+msgid "lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "navigation/buyLevels"
+msgstr "스테이지 구매"
+
+msgid "navigation/buyLevelsRewards"
+msgstr "스테이지 보상"
+
+msgid "navigation/buyPass"
+msgstr "강화 패스 구매"
+
+msgid "navigation/buyPassConfirm"
+msgstr "강화 패스 구매"
+
+msgid "navigation/buyPassRewards"
+msgstr "강화 패스 보상"
+
+msgid "navigation/chapterChoice"
+msgstr "배틀 패스 시즌 %(seasonNum)s"
+
+msgid "navigation/holidayFinal"
+msgstr "배틀 패스"
+
+msgid "navigation/intro"
+msgstr "배틀 패스 시즌 %(seasonNum)s"
+
+msgid "navigation/postProgression"
+msgstr "배틀 패스 정예 행로"
+
+msgid "navigation/progression"
+msgstr "배틀 패스 챕터"
+
+msgid "navigation/tankmenScreen"
+msgstr "특별 승무원"
+
+msgid "points/top"
+msgstr "%(vehicle): 경험치 획득량 %(top) 이내 기록 시 %(bonus)"
+
+msgid "points/topCount"
+msgstr "상위 %(top)s위"
+
+msgid "points/transfer"
+msgstr "자유 점수 추가:"
+
+msgid "postProgressionView/footer/button/text"
+msgstr "챕터로 이동"
+
+msgid "postProgressionView/footer/description/text"
+msgstr "모든 챕터 완료 시 이용할 수 있습니다. 완료한 챕터: %(completedChapters)/%(chaptersAmount)"
+
+msgid "postProgressionView/footer/extraChapter/description/text"
+msgstr "프리미엄 전차와 특별 전차 꾸미기 요소를 획득할 기회입니다."
+
+msgid "postProgressionView/footer/extraChapter/title/text"
+msgstr "배틀 패스: Far Cry 등장!"
+
+msgid "postProgressionView/footer/purchaseIP/banner/text"
+msgstr "강화 패스를 구매하고 더 많은 보상 획득!"
+
+msgid "postProgressionView/footer/purchaseIP/button/text"
+msgstr "구매"
+
+msgid "postProgressionView/header/description/active"
+msgstr "전투에서 점수를 획득하여 전쟁 채권과 바우처를 보상으로 획득"
+
+msgid "postProgressionView/header/description/onPause/highlight"
+msgstr "일시 중지:"
+
+msgid "postProgressionView/header/description/onPause/regular"
+msgstr "특별 챕터 완료 후 이용 가능"
+
+msgid "postProgressionView/header/headline/deadline"
+msgstr "%(endDate)s까지 진행 가능"
+
+msgid "postProgressionView/header/headline/unlocked"
+msgstr "모든 챕터 완료"
+
+msgid "postProgressionView/header/title"
+msgstr "정예 행로"
+
+msgid "postProgressionView/progression/currentStep"
+msgstr "현재 스테이지"
+
+msgid "postProgressionView/progression/cyclesCompleted"
+msgstr "반복 완료 횟수:"
+
+msgid "postProgressionView/progression/cyclicalProgression"
+msgstr "반복 진행 가능"
+
+msgid "postProgressionView/toolbar/aboutBattlePass"
+msgstr "배틀 패스 정보"
+
+msgid "postProgressionView/toolbar/howToEarnPoints"
+msgstr "점수 획득 방법"
+
+msgid "prestige/top"
+msgstr "%(vehicle): 영예 점수 획득량 %(top) 이내 기록 시 %(bonus)"
+
+msgid "progression/about"
+msgstr "배틀 패스 정보"
+
+msgid "progression/aboutExtra"
+msgstr "이벤트 정보"
+
+msgid "progression/activateChapter"
+msgstr "챕터 활성화"
+
+msgid "progression/activateChapterDescr"
+msgstr "활성 챕터 완료 시 배틀 패스 점수와 여러 보상을 획득할 수 있습니다."
+
+msgid "progression/activateExtraChapterDescr"
+msgstr "활성 챕터 완료 시 배틀 패스 점수와 여러 보상을 획득할 수 있습니다."
+
+msgid "progression/activatePausedExtraChapterDescr"
+msgstr "활성 챕터 완료 시 배틀 패스 점수와 여러 보상을 획득할 수 있습니다."
+
+msgid "progression/backToCurrentStageArrow/descr"
+msgstr "현재 스테이지로 돌아갑니다."
+
+msgid "progression/backToPotentialStageArrow/descr"
+msgstr "해제 가능한 스테이지로 돌아갑니다."
+
+msgid "progression/baseProgressionDescr"
+msgstr "기본 보상"
+
+msgid "progression/battlePassBuyBtn"
+msgstr "강화 패스 구매"
+
+msgid "progression/battlePassBuyDescr"
+msgstr "강화 패스 구매 시 현재 챕터의 강화 보상이 해제됩니다."
+
+msgid "progression/battlePassBuyDescrStarterPack"
+msgstr "강화 보상 해제\n 및 보너스 획득"
+
+msgid "progression/battlePassBuyHolidayDescr"
+msgstr "강화 패스 구매 시 강화 보상을 해제할 수 있습니다."
+
+msgid "progression/battlePassNextChapterBuyDescr"
+msgstr "해당 챕터의 강화 패스를 구매하려면 이전 챕터를 완료하십시오."
+
+msgid "progression/battlePassNextChapterEpisodesDescr"
+msgstr "해당 챕터의 스테이지를 구매하려면 이전 챕터를 완료하십시오."
+
+msgid "progression/btnExtras"
+msgstr "추가\n요소"
+
+msgid "progression/btnExtrasTooltip"
+msgstr "스테이지를 완료하고 새로운 요소를 해제해 보십시오. 요소 해제: %(opened) / %(total)"
+
+msgid "progression/btnNoExtrasTooltip"
+msgstr "스테이지를 완료하고 새로운 요소를 해제해 보십시오."
+
+msgid "progression/btnRewardSelect"
+msgstr "보상 수령"
+
+msgid "progression/btnRewardSelectTooltip"
+msgstr "보상을 선택하고 수령합니다."
+
+msgid "progression/btnRewardsSelect"
+msgstr "보상 수령"
+
+msgid "progression/btnRewardsUnavailable"
+msgstr "기술적 문제로 인해 일시적으로 해당 작업을 수행할 수 없습니다. 문제를 수정하고 있습니다."
+
+msgid "progression/btnTokensStore"
+msgstr "토큰\n아이템"
+
+msgid "progression/btnTokensStoreTooltip"
+msgstr "배틀 패스 토큰 아이템을 확인하려면 클릭하십시오.\n보유 토큰: %(bpcoinCount)"
+
+msgid "progression/chapterText"
+msgstr "챕터 %(chapter)s: %(chapterName)s"
+
+msgid "progression/currentStep"
+msgstr "현재 스테이지"
+
+msgid "progression/currentStepLocked"
+msgstr "강화 보상"
+
+msgid "progression/episodeBuyBtn"
+msgstr "스테이지 구매"
+
+msgid "progression/episodeBuyDescr"
+msgstr "구매한 스테이지의 보상을 획득할 수 있습니다."
+
+msgid "progression/episodeBuyDisableDescr"
+msgstr "%(day) 후 원하는 수의 스테이지를 구매할 수 있습니다."
+
+msgid "progression/error"
+msgstr "기술적 문제가 발생하여 일시적으로 배틀 패스를 이용할 수 없습니다.\n모든 진행 상황은 저장될 것입니다. 불편을 드려 죄송합니다."
+
+msgid "progression/errorBtn"
+msgstr "차고로 이동"
+
+msgid "progression/extraChapterWidget/commanderVoices"
+msgstr "다른 승무원 확인"
+
+msgid "progression/extraChapterWidget/forLabel"
+msgstr "%(vehicleName)s 전용"
+
+msgid "progression/extraChapterWidget/inHangarTooltip"
+msgstr "보유 중"
+
+msgid "progression/extraChapterWidget/labelWithBP"
+msgstr "강화 패스 적용 시"
+
+msgid "progression/extraChapterWidget/style3DTitle"
+msgstr "3D 스타일"
+
+msgid "progression/extraChapterWidget/styleName"
+msgstr "%(styleName)s"
+
+msgid "progression/extraChapterWidget/styleRemark"
+msgstr "강화 패스 적용 시"
+
+msgid "progression/extraChapterWidget/styleSubTitle"
+msgstr "및 임무 (%(vehicleName)s 전용)"
+
+msgid "progression/extraChapterWidget/styleTitle"
+msgstr "스타일"
+
+msgid "progression/extraChapterWidget/tank"
+msgstr "프리미엄 전차"
+
+msgid "progression/extraChapterWidget/tank/description/14"
+msgstr "디데이 80주년\n기념"
+
+msgid "progression/extraChapterWidget/tankName"
+msgstr "%(vehicleName)s"
+
+msgid "progression/extraChapterWidget/tankman"
+msgstr "승무원"
+
+msgid "progression/extraChapterWidget/timer"
+msgstr "배틀 패스 챕터 종료까지 남은 시간"
+
+msgid "progression/extraChapterWidget/vehicleCaption"
+msgstr "프리미엄 전차"
+
+msgid "progression/extraChapterWidget/vehicleSubTitle"
+msgstr "및 %(styleName)s 3D 스타일"
+
+msgid "progression/extraChapterWidget/voiceoverTooltip"
+msgstr "승무원 음성을 확인합니다."
+
+msgid "progression/footer/starter_pack/equal"
+msgstr "="
+
+msgid "progression/footer/status/inactive"
+msgstr "챕터 비활성화"
+
+msgid "progression/footer/status/paused"
+msgstr "챕터 중단."
+
+msgid "progression/freePointsDescr"
+msgstr "잔여 배틀 패스 점수: "
+
+msgid "progression/header/chapter/status"
+msgstr "%(chapterName)s 챕터"
+
+msgid "progression/header/inactive"
+msgstr "비활성화"
+
+msgid "progression/header/paused"
+msgstr "중단"
+
+msgid "progression/howToEarnPoints/title"
+msgstr "점수 획득 방법"
+
+msgid "progression/pausedStep"
+msgstr "스테이지"
+
+msgid "progression/postProgressionDescr"
+msgstr "정예 진행"
+
+msgid "progression/premiumProgressionDescr"
+msgstr "강화 보상"
+
+msgid "progression/progressionArrow"
+msgstr "모든 스테이지\n표시"
+
+msgid "progression/progressionChapterArrow"
+msgstr "챕터 %(chapter)"
+
+msgid "progression/progressionChapterGoTo"
+msgstr "이동"
+
+msgid "progression/season/end/normal"
+msgstr "%(endDate)s까지 시즌 %(seasonNum)s: %(seasonName)s 진행"
+
+msgid "progression/season/end/special"
+msgstr "종료 일자: %(endTime)s"
+
+msgid "progression/seasonEndingDescr"
+msgstr "이벤트 종료까지 "
+
+msgid "progression/seasonEndingTooltip"
+msgstr "종료까지: {day}일"
+
+msgid "progression/takeReward"
+msgstr "보상 수령"
+
+msgid "progression/universalCommander"
+msgstr "특별 승무원"
+
+msgid "progression/widget3dStyle/currentStyle"
+msgstr "%(name) 스타일"
+
+msgid "progression/widget3dStyle/forVehicle"
+msgstr "전용: "
+
+msgid "progression/widget3dStyle/titleForClosedChapter"
+msgstr "스타일을 선택하려면\n이전 챕터 완료"
+
+msgid "progression/widget3dStyle/titleForLastChapter"
+msgstr "챕터 스타일을 선택하십시오.\n즉시 적용할 수 있습니다."
+
+msgid "progression/widget3dStyle/titleNoChapterSelected"
+msgstr "챕터 활성화 시 3D 스타일 획득"
+
+msgid "progression/widget3dStyle/viewStyles"
+msgstr "모든 스타일 확인"
+
+msgid "questChainBonus"
+msgstr "연속 임무"
+
+msgid "randomQuestBonus"
+msgstr "임무 (%(vehicle)s 전용)"
+
+msgid "reward/postBattle/comp7/progress"
+msgstr "영예 점수 획득량 상위권 기록으로 획득한 점수:"
+
+msgid "reward/postBattle/comp7/progress/tooltip"
+msgstr "영예 점수 획득량 상위권 기록으로 획득한 점수: %(points)d"
+
+msgid "reward/postBattle/progress"
+msgstr "스테이지 진행:"
+
+msgid "reward/postBattle/progress/battle/tooltip"
+msgstr "상위권 기록"
+
+msgid "reward/postBattle/progress/bonus/tooltip"
+msgstr "전차 점수 제한 도달"
+
+msgid "reward/postBattle/progress/points"
+msgstr "배틀 패스 점수 획득"
+
+msgid "reward/postBattle/progress/points/battle"
+msgstr "상위권 기록:"
+
+msgid "reward/postBattle/progress/points/bonus"
+msgstr "전차 점수 제한 도달:"
+
+msgid "reward/postBattle/progress/points/quest"
+msgstr "임무 완료:"
+
+msgid "reward/postBattle/progress/points/wotPlusCore"
+msgstr "WoT 플러스 프로 보너스:"
+
+msgid "reward/postBattle/progress/points/wotPlusPro"
+msgstr "WoT 플러스 프로 보너스:"
+
+msgid "reward/postBattle/progress/pointsAux"
+msgstr "점수 획득:"
+
+msgid "reward/postBattle/progress/pointsAux/tooltip"
+msgstr "자유 점수 추가"
+
+msgid "reward/postBattle/progress/quests/tooltip"
+msgstr "임무 완료"
+
+msgid "reward/postBattle/progress/tooltip"
+msgstr "스테이지 진행"
+
+msgid "reward/postBattle/title"
+msgstr "%(chapter)s 챕터 스테이지 %(level)d"
+
+msgid "reward/postBattle/title/free"
+msgstr "배틀 패스: 자유 점수 획득"
+
+msgid "reward/postBattle/title/postProgression"
+msgstr "정예 행로 스테이지 %(level)d"
+
+msgid "rewardChoice/crewBook/rewardDescription"
+msgstr "각 승무원 경험치(선택한 %(nation)s 전차)"
+
+msgid "rewardChoice/subTitle"
+msgstr "보상 선택"
+
+msgid "rewardChoice/title"
+msgstr "배틀 패스"
+
+msgid "rewardChoice/titleChapter"
+msgstr "배틀 패스: %(chapter)s 챕터"
+
+msgid "rewardChoice/titleChapterLevel"
+msgstr "배틀 패스: %(chapter)s 챕터 스테이지 %(level)s"
+
+msgid "season/fullName/1002"
+msgstr "들소의 노래"
+
+msgid "season/fullName/20"
+msgstr "사막 탐색"
+
+msgid "season/fullNameUppercased/1002"
+msgstr "들소의 노래"
+
+msgid "season/fullNameUppercased/20"
+msgstr "사막 탐색"
+
+msgid "selectBonus/battle_booster_gift"
+msgstr "지휘명령(선택)"
+
+msgid "selectBonus/blueprint_gift"
+msgstr "설계도면 조각(선택)"
+
+msgid "selectBonus/brochure_gift"
+msgstr "훈련 책자(선택)"
+
+msgid "selectBonus/crewbook_gift"
+msgstr "훈련 교본(선택)"
+
+msgid "selectBonus/guide_gift"
+msgstr "훈련 지침(선택)"
+
+msgid "selectBonus/modernized_device_gift"
+msgstr "시제 장비(선택)"
+
+msgid "selectBonus/new_device_gift"
+msgstr "일반 장비(선택)"
+
+msgid "selectBonus/trophy_gift"
+msgstr "포상 장비(선택)"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s일"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s시간"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1분"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s분"
+
+msgid "styleProgressBonus"
+msgstr "%(styleName)s 스타일 레벨 %(level)s까지 업그레이드"
+
+msgid "styleProgression/finalLevel"
+msgstr "%(styleName)s 스타일 최고 레벨"
+
+msgid "styleProgression/newLevel"
+msgstr "%(styleName)s 스타일 새로운 레벨"
+
+msgid "styleProgression/newStyle"
+msgstr "%(styleName)s 스타일 첫 레벨"
+
+msgid "tankmenVoiceover/chapterButton"
+msgstr "챕터로 이동"
+
+msgid "tankmenVoiceover/inShop"
+msgstr "특별 패키지"
+
+msgid "tankmenVoiceover/listen"
+msgstr "듣기"
+
+msgid "tankmenVoiceover/notFull"
+msgstr "이용 가능 %(availableCount)s / %(count)s"
+
+msgid "tankmenVoiceover/progression"
+msgstr "진행 스테이지 %(progressionLevel)s"
+
+msgid "tankmenVoiceover/received"
+msgstr "획득"
+
+msgid "tankmenVoiceover/shopButton"
+msgstr "상점으로 이동"
+
+msgid "tankmenVoiceover/title"
+msgstr "특별 승무원"
+
+msgid "tankmenVoiceover/unavailable"
+msgstr "이용 불가"
+
+msgid "title/earningPoints"
+msgstr "점수 획득"
+
+msgid "title/freePoints"
+msgstr "자유 점수"
+
+msgid "title/stage"
+msgstr "스테이지 {{level}}"
+
+msgid "tooltip/cardButton/disabled/body"
+msgstr "현재 해당 작업을 진행할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "tooltip/freePoints/body"
+msgstr "새로운 배틀 패스 챕터를 활성화하면 누적되는 자유 점수가 자동으로 계정에 추가됩니다."
+
+msgid "tooltip/freePoints/header"
+msgstr "자유 점수"
+
+msgid "tooltip/lock"
+msgstr "획득할 수 없는 보상입니다. 강화 패스를 구매하여 보상을 획득해 보십시오."
+
+msgid "tooltips/RandomQuestTooltip/condition"
+msgstr "조건: %(condition)"
+
+msgid "tooltips/RandomQuestTooltip/expireTime"
+msgstr "해당 임무 %(whiteSpanish_Open)s%(month)s %(day)s일까지%(whiteSpanish_Close)s 이용 가능"
+
+msgid "tooltips/RandomQuestTooltip/rewards/consumables"
+msgstr "%(whiteSpanish_Open)s소모품:%(whiteSpanish_Close)s 구급 상자, 수리 도구, 소화기"
+
+msgid "tooltips/RandomQuestTooltip/rewards/directives"
+msgstr "%(whiteSpanish_Open)s지휘명령%(whiteSpanish_Close)s (장비)"
+
+msgid "tooltips/RandomQuestTooltip/rewards/money"
+msgstr "%(whiteSpanish_Open)s크레딧, 전쟁 채권, 자유 경험치%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/personal_reserves"
+msgstr "%(whiteSpanish_Open)s개인 물자%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/premium"
+msgstr "%(whiteSpanish_Open)s월드 오브 탱크 프리미엄 계정%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewards/standardEquipment"
+msgstr "%(whiteSpanish_Open)s일반 장비%(whiteSpanish_Close)s"
+
+msgid "tooltips/RandomQuestTooltip/rewardsTitle"
+msgstr "임무 완료 시 하루에 한 번 다음 보상 중 하나 획득"
+
+msgid "tooltips/RandomQuestTooltip/title"
+msgstr "임무 (%(vehicleName) 전용)"
+
+msgid "tooltips/battlePassCoins/secondaryText"
+msgstr "올해 배틀 패스 3개 시즌에 걸쳐 토큰이 지급됩니다. 신중히 사용하십시오."
+
+msgid "tooltips/battlePassCoins/text"
+msgstr "배틀 패스 스테이지 완료 시 지급되는 값진 게임 내 통화입니다. 토큰은 상점 내 토큰 아이템 항목에서 특별 보상과 교환할 수 있습니다."
+
+msgid "tooltips/battlePassCoins/title"
+msgstr "배틀 패스 토큰"
+
+msgid "tooltips/battlePassPoints/completed"
+msgstr "배틀 패스 챕터 및 진행 스테이지 모두 완료"
+
+msgid "tooltips/battlePassPoints/description"
+msgstr "자동으로 배틀 패스 진행 상황에 추가됩니다."
+
+msgid "tooltips/battlePassPoints/title"
+msgstr "배틀 패스 점수"
+
+msgid "tooltips/battlePassQuestsChain/secondaryText"
+msgstr "임무는 무작위 전투와 대규모 전투에 참여하여 완료할 수 있습니다."
+
+msgid "tooltips/battlePassQuestsChain/text"
+msgstr "완료 시 게임 내 아이템을 추가로 획득할 수 있는 연속 임무 해제: "
+
+msgid "tooltips/battlePassQuestsChain/title"
+msgstr "연속 임무 접근 권한"
+
+msgid "tooltips/battlePassTaler/secondaryText"
+msgstr "칩은 배틀 패스를 진행하여 획득할 수 있습니다."
+
+msgid "tooltips/battlePassTaler/text"
+msgstr "칩은 배틀 패스 금고에서 게임 자원, 지난 시즌 전차 꾸미기 요소 및 승무원 등 다양한 보상 구매 시 사용할 수 있습니다."
+
+msgid "tooltips/battlePassTaler/title"
+msgstr "칩"
+
+msgid "tooltips/claimRewards/0"
+msgstr "기본 보상 획득 완료"
+
+msgid "tooltips/claimRewards/1"
+msgstr "완료한 스테이지 보상 선택"
+
+msgid "tooltips/claimRewards/multiple"
+msgstr "완료한 스테이지 보상 선택"
+
+msgid "tooltips/commanders/chose"
+msgstr "또는"
+
+msgid "tooltips/commanders/descr"
+msgstr "최종 스테이지를 완료하고 특별 승무원 1명을 보상으로 획득해 보십시오."
+
+msgid "tooltips/commanders/title"
+msgstr "특별 승무원"
+
+msgid "tooltips/completed/claimRewards"
+msgstr "모든 보상 획득 완료"
+
+msgid "tooltips/completed/finalLevel"
+msgstr "모든 챕터 및 진행 스테이지 완료"
+
+msgid "tooltips/completed/got"
+msgstr "보상 획득"
+
+msgid "tooltips/completed/message"
+msgstr "이제 수집한 배틀 패스 점수를 게임 내 상점 점수 아이템 항목에서 사용할 수 있습니다."
+
+msgid "tooltips/completed/oneChapterSubTitle"
+msgstr "챕터 완료"
+
+msgid "tooltips/completed/rewardsObtained"
+msgstr "기본 보상 획득 완료"
+
+msgid "tooltips/completed/subTitle"
+msgstr "모든 챕터 완료"
+
+msgid "tooltips/completed/tankmenNotRecieved"
+msgstr "상점에서 특별 승무원이 포함된 패키지를 이용할 수 있습니다."
+
+msgid "tooltips/completed/title"
+msgstr "배틀 패스"
+
+msgid "tooltips/entryPoint/disabled/body"
+msgstr "기술적 문제가 발생하여 일시적으로 배틀 패스를 이용할 수 없습니다.\n모든 진행 상황은 저장될 것입니다. 불편을 드려 죄송합니다."
+
+msgid "tooltips/entryPoint/disabled/header"
+msgstr "배틀 패스 이용 불가"
+
+msgid "tooltips/entryPoint/disabled/mapbox"
+msgstr "기술적 문제가 발생하여 일시적으로 정찰 임무에서 배틀 패스를 이용할 수 없습니다.\n모든 진행 상황은 그대로 유지됩니다. 불편을 드려 죄송합니다."
+
+msgid "tooltips/extra/daysAndHours"
+msgstr "%(D)s일 %(H)s시간"
+
+msgid "tooltips/extra/min"
+msgstr "%(m)s분"
+
+msgid "tooltips/footerBuyBtn/activateChapter/descr"
+msgstr "활성 챕터 완료 시 배틀 패스 점수와 여러 보상을 획득할 수 있습니다."
+
+msgid "tooltips/footerBuyBtn/battlePass/descr"
+msgstr "강화 패스는 언제든 구매할 수 있습니다. 구매 시 현재 챕터에서 이미 완료한 스테이지의 모든 강화 보상이 즉시 지급되며 이후 완료하는 각 스테이지의 기본 보상과 강화 보상도 모두 획득할 수 있습니다."
+
+msgid "tooltips/footerBuyBtn/battlePass/nextChapter"
+msgstr "해당 챕터의 스테이지를 구매하려면 이전 챕터를 완료하십시오."
+
+msgid "tooltips/footerBuyBtn/episode/descr"
+msgstr "스테이지 구매 시 해당 스테이지의 기본 보상과 강화 보상을 즉시 획득할 수 있습니다. 스테이지는 챕터마다 별도로 구매할 수 있습니다."
+
+msgid "tooltips/footerBuyBtn/episode/holidayDescr"
+msgstr "스테이지 구매 시 해당 스테이지의 기본 보상과 강화 보상이 즉시 지급됩니다."
+
+msgid "tooltips/goldMission/description"
+msgstr "%(highlight)s 게임에 접속하지 않은 날에는 골드가 지급되지 않습니다."
+
+msgid "tooltips/goldMission/highlightedDescription"
+msgstr "참고:"
+
+msgid "tooltips/goldMission/text"
+msgstr "%(duration)s 매일 무작위 전투에 참여하면 %(count)s %(icon)s 골드씩 획득할 수 있습니다."
+
+msgid "tooltips/goldMission/textDuration"
+msgstr "%(days)s일 동안"
+
+msgid "tooltips/goldMission/title"
+msgstr "일일 골드"
+
+msgid "tooltips/iconLock/descr1"
+msgstr "강화 패스 구매 시 획득 가능한 스테이지 보상이 추가됩니다. 강화 패스는 챕터마다 별도로 구매할 수 있으며 구매한 챕터에만 적용됩니다. 강화 패스를 구매하면 완료한 스테이지의 기본 보상과 강화 보상을 모두 획득할 수 있습니다."
+
+msgid "tooltips/iconLock/descr2"
+msgstr "강화 패스는 언제든 구매할 수 있습니다. 구매 시 해당 챕터에서 완료한 스테이지의 모든 강화 보상이 즉시 지급됩니다. 배틀 패스 메인 화면에서 강화 패스 구매 버튼을 클릭하여 보상을 강화할 수 있습니다."
+
+msgid "tooltips/iconLock/holidayDescr1"
+msgstr "강화 패스 구매 시 더 많은 보상을 획득할 수 있습니다. 강화 패스를 보유 중이라면 스테이지 완료 시 기본 보상과 강화 보상이 모두 지급됩니다."
+
+msgid "tooltips/iconLock/holidayDescr2"
+msgstr "강화 패스는 언제든 구매할 수 있습니다. 구매 시 완료한 스테이지의 모든 강화 보상이 즉시 지급됩니다. 배틀 패스 메인 화면에서 강화 패스 구매 버튼을 클릭하여 보상을 강화할 수 있습니다."
+
+msgid "tooltips/iconLock/title"
+msgstr "배틀 패스 강화 보상"
+
+msgid "tooltips/inProgress/baseReward"
+msgstr "기본 보상"
+
+msgid "tooltips/inProgress/battleRoyale"
+msgstr "\"배틀 로얄\""
+
+msgid "tooltips/inProgress/chapter"
+msgstr "\"%(name)\" 챕터"
+
+msgid "tooltips/inProgress/epic"
+msgstr "전선 대격돌"
+
+msgid "tooltips/inProgress/getPointsFrom"
+msgstr "%(battleType)s에서 점수를 획득하는 규칙입니다."
+
+msgid "tooltips/inProgress/hurryUp"
+msgstr "강화 패스 구매 시 완료한 스테이지의 모든 강화 보상을 획득할 수 있습니다."
+
+msgid "tooltips/inProgress/improvedReward"
+msgstr "강화 보상"
+
+msgid "tooltips/inProgress/level"
+msgstr "현재 스테이지"
+
+msgid "tooltips/inProgress/playGame/comp7"
+msgstr "%(bond_Open)s격전%(bond_Close)s에서 10단계 전차 운용 시 적용되는 점수 획득 규칙입니다."
+
+msgid "tooltips/inProgress/playGame/comp7_light"
+msgstr "%(bond_Open)s격전 라이트%(bond_Close)s에서 8단계 전차 운용 시 적용되는 점수 획득 규칙입니다."
+
+msgid "tooltips/inProgress/playGame/mapbox"
+msgstr "8단계~10단계 전차로 %(bond_Open)s정찰 임무%(bond_Close)s 참여 시 적용되는 배틀 패스 점수 획득 규칙입니다."
+
+msgid "tooltips/inProgress/playGame/randoms"
+msgstr "%(bond_Open)s무작위 전투%(bond_Close)s에서 4단계~11단계 전차 운용 시 적용되는 점수 획득 규칙입니다."
+
+msgid "tooltips/inProgress/playGame/ranked"
+msgstr "랭크 전투에서 10단계 전차 운용 시 적용되는 점수 획득 규칙입니다."
+
+msgid "tooltips/inProgress/playGame/winback"
+msgstr "%(bond_Open)s무작위 전투: 준비 운동%(bond_Close)s에서 4단계~11단계 전차 운용 시 적용되는 점수 획득 규칙입니다."
+
+msgid "tooltips/inProgress/postProgression/header"
+msgstr "정예 행로"
+
+msgid "tooltips/inProgress/timeLeft"
+msgstr "배틀 패스 종료까지"
+
+msgid "tooltips/inProgress/wotPlusProFooter"
+msgstr "WoT 플러스 프로 혜택"
+
+msgid "tooltips/notChosen/description"
+msgstr "이벤트를 진행하며 값진 보상을 획득하려면 챕터를 선택해야 합니다."
+
+msgid "tooltips/notChosen/points"
+msgstr "잔여 배틀 패스 점수: %(points)"
+
+msgid "tooltips/notChosen/subTitle"
+msgstr "챕터 선택"
+
+msgid "tooltips/notChosen/title"
+msgstr "배틀 패스"
+
+msgid "tooltips/notStarted/date"
+msgstr "%(month)s %(day)s일"
+
+msgid "tooltips/plusBanner/text"
+msgstr "{{@ style (color $color1)}}배틀 패스 플러스:{{/}} {{@ style (color $color2)}}WoT 플러스 프로{{/}}를 구매하여 이용할 수 있습니다. 특별 챕터를 제외하고, 배틀 패스 점수를 추가로 획득할 수 있습니다."
+
+msgid "tooltips/points/footer"
+msgstr "다양한 게임 모드에서 점수를 획득하는 방법은 점수 획득 방법 메뉴에서 확인할 수 있습니다."
+
+msgid "tooltips/points/rules"
+msgstr "무작위 전투에서 점수 획득 방법은 다음과 같습니다."
+
+msgid "tooltips/points/specialVehicles"
+msgstr "시즌 핵심 전차는 추가 점수를 획득할 수 있습니다."
+
+msgid "tooltips/points/subtitle"
+msgstr "배틀 패스는 점수를 수집하여 진행할 수 있습니다. 배틀 패스 점수는 4단계~11단계 전차로 무작위 전투 및 다른 게임 모드에 참여하거나, 특별 임무를 완료하거나, 전차 점수 제한에 도달하여 획득할 수 있습니다."
+
+msgid "tooltips/points/title"
+msgstr "배틀 패스 점수"
+
+msgid "tooltips/pointsTable/header"
+msgstr "획득 조건"
+
+msgid "tooltips/pointsTable/lose"
+msgstr "패배 및 무승부"
+
+msgid "tooltips/pointsTable/loseWithoutDraw"
+msgstr "패배"
+
+msgid "tooltips/pointsTable/place"
+msgstr "순위 %(place)위"
+
+msgid "tooltips/pointsTable/places"
+msgstr "순위 %(place)위"
+
+msgid "tooltips/pointsTable/solo"
+msgstr "개인"
+
+msgid "tooltips/pointsTable/squad"
+msgstr "소대"
+
+msgid "tooltips/pointsTable/topPlace"
+msgstr "경험치 획득량 %(place)위 이내"
+
+msgid "tooltips/pointsTable/win"
+msgstr "승리"
+
+msgid "tooltips/postProgress/body"
+msgstr "주요 진행 스테이지 %(maxLevelBase) 완료 시 정예 진행이 시작됩니다. 정예 진행 스테이지 완료 시 값진 게임 내 통화를 획득할 수 있으며 강화 패스가 필요하지 않습니다."
+
+msgid "tooltips/postProgress/header"
+msgstr "정예 진행"
+
+msgid "tooltips/prestigePoints/lose"
+msgstr "패배 및 무승부"
+
+msgid "tooltips/prestigePoints/loseWithoutDraw"
+msgstr "패배"
+
+msgid "tooltips/prestigePoints/topPlace"
+msgstr "영예 점수 획득량 %(place)위 이내"
+
+msgid "tooltips/prestigePoints/win"
+msgstr "승리"
+
+msgid "tooltips/progression/freePoints/body"
+msgstr "챕터를 선택하지 않으면 잔여 배틀 패스 점수가 축적되며 배틀 패스 현재 시즌이 종료되기 전에 챕터를 활성화하면 진행 상황에 집계됩니다. 챕터를 선택하지 않으면 잔여 점수는 모두 사라집니다."
+
+msgid "tooltips/progression/freePoints/bodyExceptExtra"
+msgstr "챕터를 선택하지 않으면 잔여 배틀 패스 점수가 축적되며 배틀 패스 현재 시즌이 종료되기 전에 챕터(추가 챕터 제외)를 활성화하면 진행 상황에 집계됩니다. 챕터를 선택하지 않으면 잔여 점수는 모두 사라집니다."
+
+msgid "tooltips/progression/freePoints/header"
+msgstr "잔여 배틀 패스 점수"
+
+msgid "tooltips/rewardCompensation/description/credits"
+msgstr "게임 내 주요 통화입니다.\n전투를 통해 획득하거나 골드로 구매할 수 있습니다."
+
+msgid "tooltips/rewardCompensation/description/gold"
+msgstr "골드를 사용하여 월드 오브 탱크 프리미엄 계정, 프리미엄 전차 등을 구매하거나 경험치를 전환할 수 있습니다."
+
+msgid "tooltips/rewardCompensation/footer"
+msgstr "이미 보유 중인 아이템 대신 지급되는 대체 보상입니다."
+
+msgid "tooltips/styleUpgrade/chosen/levelWord"
+msgstr "레벨"
+
+msgid "tooltips/styleUpgrade/chosen/subtitle"
+msgstr "적용 가능 전차"
+
+msgid "tooltips/styleUpgrade/chosen/text"
+msgstr "챕터 스타일 %(levelWord) %(level)로 업그레이드"
+
+msgid "tooltips/styleUpgrade/chosen/title"
+msgstr "%(styleName) 스타일 업그레이드"
+
+msgid "tooltips/styleUpgrade/notChosen/text"
+msgstr "스타일을 선택하려면 배틀 패스 챕터 진행 시작 부분에 있는 스타일 선택 버튼을 클릭하십시오."
+
+msgid "tooltips/styleUpgrade/notChosen/title"
+msgstr "챕터 진행 스타일 업그레이드"
+
+msgid "tooltips/styleUpgrade/notChosen/warning"
+msgstr "챕터 스타일을 선택하지 않았습니다."
+
+msgid "tooltips/styleUpgrade/paragraphBottom"
+msgstr "배틀 패스 진행 기간에 스타일을 최고 레벨까지 업그레이드하지 못했다면 현재 시즌 종료 후 차고 내 전차 꾸미기 화면에서 업그레이드할 수 있습니다."
+
+msgid "tooltips/styleUpgrade/paragraphTop"
+msgstr "해당 스테이지 완료 시 선택한 챕터 스타일이 자동으로 1레벨 업그레이드됩니다."
+
+msgid "tooltips/styles/descr"
+msgstr "최종 스테이지 완료 시 한 가지 보상 스타일을 선택할 수 있습니다."
+
+msgid "tooltips/styles/footer"
+msgstr "강화 패스 구매 시 최종 보상을 선택하면 두 가지 스타일을 모두 획득할 수 있습니다."
+
+msgid "tooltips/styles/name"
+msgstr "%(name) 전용"
+
+msgid "tooltips/styles/style"
+msgstr "%(name) 스타일"
+
+msgid "tooltips/styles/title"
+msgstr "특별 3D 스타일"
+
+msgid "tooltips/unlockBattlePass"
+msgstr "강화 패스 구매 시 강화 보상을 해제할 수 있습니다."
+
+msgid "tooltips/unlockBattlePassForPostProgression"
+msgstr "각 챕터의 강화 패스를 구매하고 더 많은 보상을 획득해 보십시오."
+
+msgid "tooltips/vehiclePoints/award"
+msgstr "점수 제한 도달 보상"
+
+msgid "tooltips/vehiclePoints/comp7"
+msgstr "격전에 참여하고 점수를 획득하여 배틀 패스 진행 스테이지를 완료한 후 보상을 획득하십시오."
+
+msgid "tooltips/vehiclePoints/comp7_light"
+msgstr "격전 라이트 전투에서 활약하여 점수를 획득하고 배틀 패스 스테이지를 진행하여 보상을 획득해 보십시오."
+
+msgid "tooltips/vehiclePoints/continuePlaying"
+msgstr "스테이지를 계속 진행하려면 다른 전차로 전투에 참여하십시오."
+
+msgid "tooltips/vehiclePoints/descr"
+msgstr "무작위 전투에 참여하고 점수를 획득하여 배틀 패스 진행 스테이지를 완료한 후 보상을 획득하십시오."
+
+msgid "tooltips/vehiclePoints/mapbox"
+msgstr "정찰 임무에 참여하고 점수를 획득하여 배틀 패스 진행 스테이지를 완료한 후 보상을 획득하십시오."
+
+msgid "tooltips/vehiclePoints/pointsObtained"
+msgstr "점수 제한 도달"
+
+msgid "tooltips/vehiclePoints/ranked"
+msgstr "랭크 전투에 참여하고 점수를 획득하여 배틀 패스 진행 스테이지를 완료한 다음 보상을 획득하십시오."
+
+msgid "tooltips/vehiclePoints/special/descr"
+msgstr "시즌 핵심 전차로 전투 참여 시 추가 진행 점수를 획득할 수 있습니다."
+
+msgid "tooltips/vehiclePoints/title"
+msgstr "배틀 패스 점수"
+
+msgid "trophyDeviceUpgradeConfim/cancel"
+msgstr "취소"
+
+msgid "trophyDeviceUpgradeConfim/message"
+msgstr "성능 강화:"
+
+msgid "trophyDeviceUpgradeConfim/submit"
+msgstr "강화"
+
+msgid "trophyDeviceUpgradeConfim/submitTooltip"
+msgstr "크레딧 부족"
+
+msgid "trophyDeviceUpgradeConfim/title"
+msgstr "{deviceName} 장비를\n강화하시겠습니까?"
+
+msgid "trophyDeviceUpgradeConfim/title/template"
+msgstr "{deviceName}"
+
+msgid "universalTankmanBonus"
+msgstr "범용 승무원: %(name)s"

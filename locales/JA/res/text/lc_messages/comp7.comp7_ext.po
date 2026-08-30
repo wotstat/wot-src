@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "イベントの再開まで%(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "こちらのモードはどのサーバーでもプレイできません。"
+
+msgid "alertMessage/ban"
+msgstr "こちらのモードでの戦闘参加が一時的に禁止されています。残り時間: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "サーバー変更"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "詳細"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "こちらのモードは選択中のサーバーでは休止中%(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "こちらのモードはどのサーバーでもプレイできません。"
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "このモードには、少なくとも%(count)s輌の適合車輌が必要です。詳細は「オンスロート」モードについてのページでご確認ください。"
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "適合車輌が不足しています"
+
+msgid "alertMessage/modeOffline"
+msgstr "データベース・エラーによりモードを選択できません。"
+
+msgid "alertMessage/noVehicles"
+msgstr "適合するTier %(levels)s車輌がガレージにありません%(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "こちらのモードは%(serverName)sサーバーでは休止中です。"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "こちらのモードは%(serverName)sサーバーでは休止中です。"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "適合車輌が不足しています%(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "こちらのモードは%(serverName)sサーバーではプレイできません。"
+
+msgid "alertMessage/preannounce/first"
+msgstr "シーズン「アジュール・ドラゴン」は%(date)sに開幕します。"
+
+msgid "alertMessage/preannounce/second"
+msgstr "シーズン「クリムゾン・ドラゴン」は%(date)sに開幕します。"
+
+msgid "alertMessage/preannounce/third"
+msgstr "シーズン「ジェイド・ドラゴン」は%(date)sに開幕します。"
+
+msgid "alertMessage/qualification"
+msgstr "初期ランクの決定に必要となる「測定ラウンド」の結果待ち"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "シーズン「アジュール・ドラゴン」は終了しています。"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "シーズン「クリムゾン・ドラゴン」は終了しています。"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "シーズン「ジェイド・ドラゴン」は終了しています。"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "選択中のサーバーでの再開まで%(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "こちらのモードは%(serverName)sサーバーではプレイできません。"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s日"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s時間%(min)s分"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1分"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s分"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "適合するTier %(levels)s車輌がガレージにありません。"
+
+msgid "awardsWidget/description/award"
+msgstr "報酬を選択して入手できます。"
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "一時的に最終報酬の選択を行うことができません。ご不便をお掛けして申し訳ございません。"
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "報酬を\n入手"
+msgstr[1] "報酬を\n入手"
+msgstr[2] "報酬を\n入手"
+
+msgid "banView/actionButtons/confirm"
+msgstr "投票"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "すでに%(vehicleName)sに投票しています"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "BANしない"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "BANする車輌を提案"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "投票はBAN投票ステージの\n最中にのみ行えます"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "自分が提案中の車輌\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "味方チームの誰かが\nあなたがBANしたい車輌を選択中です"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "BAN投票ステージが終了するまでお待ちください"
+
+msgid "banView/button/back"
+msgstr "戻る"
+
+msgid "banView/button/ban"
+msgstr "BAN選択画面へ"
+
+msgid "banView/button/description"
+msgstr "車輌の選択画面へ"
+
+msgid "banView/description/prepick"
+msgstr "このマップとチーム編成に最適な車輌を選択してください"
+
+msgid "banView/description/voting"
+msgstr "この戦闘で使用禁止にしたい車輌を選択してください"
+
+msgid "banView/factory/candidate"
+msgstr "BAN候補: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "チームのBAN候補"
+
+msgid "banView/factory/noCandidates"
+msgstr "BAN候補なし"
+
+msgid "banView/factory/pick"
+msgstr "自分の投票: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "BANしない"
+
+msgid "banView/title/prepick"
+msgstr "車輌事前選択ステージ"
+
+msgid "banView/title/voting"
+msgstr "BAN投票ステージ"
+
+msgid "banView/tooltip/confirmed"
+msgstr "投票完了"
+
+msgid "banView/tooltip/noAction"
+msgstr "選択なし"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "このプレイヤーはまだBAN対象車輌を提案していません。"
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "提案済み"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "駆逐戦車"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "重戦車"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "軽戦車"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "中戦車"
+
+msgid "banView/withoutBan"
+msgstr "BANしない"
+
+msgid "banWidget/allies"
+msgstr "味方チームの投票"
+
+msgid "banWidget/enemies"
+msgstr "敵チームの投票"
+
+msgid "banWidget/tooltip"
+msgstr "チーム内でBANする車輌の意見が一致しなかったため、最多票の車輌の中からランダムに1輌が選択されました。"
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "国家、車輌タイプ、ロールなど条件を指定して表示する車輌を切り替えます。"
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "車輌フィルター"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "本モードと互換性のある車輌しか表示されません。"
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "指定した条件に該当する車輌なし"
+
+msgid "battleMessages/enableVOIP"
+msgstr "チームの編成が完了！ 車輌を選択して戦闘開始に備えよ！\n※「%(keyName)s」キーを押すと音声チャットに参加可能"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "チームの編成が完了！ 車輌を選択して戦闘開始に備えよ！\n※音声チャットに素早く参加するにはキーの割り当てが必要"
+
+msgid "battleMessages/withoutVOIP"
+msgstr "チームの編成が完了！ 車輌を選択して戦闘開始に備えよ！\n※音声チャットに参加するにはオプションの有効化が必要"
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "モードの詳細 （F1）"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "視認範囲が拡大中"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "搭乗員の能力が上昇中"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "車輌HPが回復中"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "車輌HPが回復中"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "搭乗員の能力が上昇中"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "搭乗員の能力が上昇中"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "装填速度が上昇中"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "車輌性能が上昇中"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "車輌HPが回復中"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "車輌性能が上昇中"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "車輌性能が上昇中"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "機動性が上昇中"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "車輌HPが回復中"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "散布界が縮小中"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "車輌性能が上昇中"
+
+msgid "battleResult/header/deserter"
+msgstr "制裁により「レーティング・ポイント」を喪失"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "違反行為が確認されたため「測定ラウンド」の突破後にレーティングに対するペナルティーが科されます。"
+
+msgid "battleResult/label/deserter"
+msgstr "車輌大破前の戦闘離脱"
+
+msgid "battleResult/message/deserter"
+msgstr "ペナルティーが科されました。\n喪失した「レーティング・ポイント」: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "車輌大破前の戦闘離脱が確認されました。\n「測定ラウンド」の突破後にレーティングに対するペナルティーが科されます。"
+
+msgid "battleResult/message/header/deserter"
+msgstr "非スポーツマン行為"
+
+msgid "battleResult/personal/label"
+msgstr "レーティング・ポイント"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "モード内の成績に応じて増減し、モード独自の「ランク・システム」における進捗を左右します。"
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• モード内の戦闘での敗北および引き分け\n• 迷惑行為に対するペナルティー\n• 一定期間を超えるモードへの不参加"
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "レーティング・ポイントの減少条件"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "レーティング・ポイント"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "測定ラウンド"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "測定ラウンド"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "「レーティング・ポイント」を取得しました。ランク「レジェンド」を維持するにはランキングで上位%(topPercentage)d%%以内に留まる必要があります。"
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "「レーティング・ポイント」を取得しました。ランク「レジェンド」に到達するにはランキングで上位%(topPercentage)d%%入りを果たす必要があります。"
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "レーティング・ポイントを取得"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "「レーティング・ポイント」を喪失しました。ランク「レジェンド」を維持するにはランキングで上位%(topPercentage)d%%以内に留まる必要があります。"
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "「レーティング・ポイント」を喪失しました。ランク「レジェンド」に到達するにはランキングで上位%(topPercentage)d%%入りを果たす必要があります。"
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "レーティング・ポイントを喪失"
+
+msgid "battleResult/subTask/rating"
+msgstr "レーティング・ポイント: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "ランク「%(rank)s」の「%(division)s」に降格"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "ランク「%(rank)s」の「%(division)s」に残留"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "ランク「%(rank)s」の「%(division)s」に昇格！"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "戦闘数 (日): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "内訳は以下の通りです。"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "戦闘数 (シーズン): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "ソロ/小隊: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "スーパー小隊: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s～%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "シーズン「アジュール・ドラゴン」の終了まで残り%(days)d日"
+msgstr[1] "シーズン「アジュール・ドラゴン」の終了まで残り%(days)d日"
+msgstr[2] "シーズン「アジュール・ドラゴン」の終了まで残り%(days)d日"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "シーズン「クリムゾン・ドラゴン」の終了まで残り%(days)d日"
+msgstr[1] "シーズン「クリムゾン・ドラゴン」の終了まで残り%(days)d日"
+msgstr[2] "シーズン「クリムゾン・ドラゴン」の終了まで残り%(days)d日"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "シーズン「ジェイド・ドラゴン」の終了まで残り%(days)d日"
+msgstr[1] "シーズン「ジェイド・ドラゴン」の終了まで残り%(days)d日"
+msgstr[2] "シーズン「ジェイド・ドラゴン」の終了まで残り%(days)d日"
+
+msgid "calendarDay/title"
+msgstr "スケジュール"
+
+msgid "carousel/banned"
+msgstr "BAN済み"
+
+msgid "claimRewards/button"
+msgstr "報酬を入手"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "技術的な理由によりこの操作は一時的にご利用いただけません。ただいま問題の解決にあたっております。"
+
+msgid "closeButtonLabel"
+msgstr "閉じる"
+
+msgid "controls/compare"
+msgstr "比較対象に追加"
+
+msgid "controls/preview"
+msgstr "プレビュー"
+
+msgid "countDown/text"
+msgstr "イベント開始まで\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "1分未満"
+
+msgid "crewMembersTooltip/description"
+msgstr "世界各国より集められた特別な搭乗員です。どの搭乗員もゼロパーク「戦友」を習得済みで、好きなパークをさらに2つ習得できるようになっています。パークを習得すると車輌の性能が向上します。またどのパークを習得するかによって戦闘における効果も変化します。"
+
+msgid "crewMembersTooltip/perks"
+msgstr "パーク"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "オンスロート (ドラゴン・イヤー)"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "ゼロパーク"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "平均ダメージ (日): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "これまでに敵車輌に対して与えたダメージの総量を総戦闘数で割った値です。"
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "平均ダメージ (シーズン): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "1日の最大与ダメージ: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "1戦で与えたダメージの最大値です。使用車輌は「%(vehicleName)s」です。"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "シーズンの最大与ダメージ: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "ご不便をお掛けして申し訳ありません。時間をおいてページの更新をお試しください。"
+
+msgid "dataError/title"
+msgstr "データ読み込みエラー"
+
+msgid "dayTooltip/day"
+msgstr "%(index)s日目"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "%(index)s日目: 戦闘に参加していません。"
+
+msgid "dayTooltip/noBattles"
+msgstr "平和を欲さば戦の準備を整えよ"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "一定期間を超える不参加: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)sレーティング・ポイント"
+msgstr[1] "%(pointsCount)sレーティング・ポイント"
+msgstr[2] "%(pointsCount)sレーティング・ポイント"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "レーティング・ポイントの変化: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "%(index)s日目 (今日)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "%(index)s日目: 今日は戦闘に参加していません。"
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "ディビジョン"
+
+msgid "division/text"
+msgstr "ディビジョン%(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "「レーティング・ポイント」が&nbsp;{eeede9e6_Open}%(fromScore)～&nbsp;%(toScore){eeede9e6_Close}&nbsp;のプレイヤーが所属するディビジョンです。"
+
+msgid "divisionTooltip/heading"
+msgstr "ディビジョン%(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "レーティング・ポイント"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "戦闘数"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)s結果を待っています…"
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)s結果を待っています"
+
+msgid "entryPointTooltip/description"
+msgstr "Tier %(levels)s車輌のみで参加できる7対7 のコンペティティブ・モードです。ランクを駆け上がることで限定のカスタマイズ要素や車輌、ボンズのほか、さまざまな豪華報酬が手に入ります。"
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "モード"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — ゲームモードの詳細を確認できます"
+
+msgid "entryPointTooltip/status/active"
+msgstr "残り期間: %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "残り休止時間: %(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "開催期間\n%(timer)s"
+
+msgid "featureName"
+msgstr "オンスロート"
+
+msgid "featureNameCapitalized"
+msgstr "オンスロート"
+
+msgid "fifthRankTooltip/description"
+msgstr "「{eeede9e6_Open}チャンプ{eeede9e6_Close}」は「レーティング・ポイント」が{eeede9e6_Open}%(fromScore){eeede9e6_Close}以上のプレイヤーが所属するランクです。"
+
+msgid "forVehicle"
+msgstr "%(vehicleName)s専用"
+
+msgid "generalRankTooltip/body/first"
+msgstr "「{eeede9e6_Open}アイアン{eeede9e6_Close}」は「レーティング・ポイント」が{eeede9e6_Open}%(fromScore)～%(toScore){eeede9e6_Close}のプレイヤーが所属するランクです。"
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "「{eeede9e6_Open}ゴールド{eeede9e6_Close}」は「レーティング・ポイント」が{eeede9e6_Open}%(fromScore)～%(toScore){eeede9e6_Close}のプレイヤーが所属するランクです。"
+
+msgid "generalRankTooltip/body/second"
+msgstr "「{eeede9e6_Open}ブロンズ{eeede9e6_Close}」は「レーティング・ポイント」が{eeede9e6_Open}%(fromScore)～%(toScore){eeede9e6_Close}のプレイヤーが所属するランクです。"
+
+msgid "generalRankTooltip/body/third"
+msgstr "「{eeede9e6_Open}シルバー{eeede9e6_Close}」は「レーティング・ポイント」が{eeede9e6_Open}%(fromScore)～%(toScore){eeede9e6_Close}のプレイヤーが所属するランクです。"
+
+msgid "generalRankTooltip/subheading"
+msgstr "ディビジョン: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "イベント概要"
+
+msgid "intro/confirmButton"
+msgstr "了解！"
+
+msgid "intro/description/banPhase"
+msgstr "各チームが、戦闘から車輌を1輌完全にBAN (除外) できます。味方と投票を調整すれば、最も脅威となる車輌を排除したり、敵にとって予想外の陣容を編成したりすることができます。自分の車輌がBAN対象になった場合は、代わりに用意された複数のレンタル車輌の中から選択できます。"
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "本モードには専用の調整因子が導入されており、車輌HP、消耗品のクールダウン時間、被発見状態の持続時間など、車輌のパラメーターの一部が変動します。"
+
+msgid "intro/description/pointsOfInterest"
+msgstr "「オンスロート」モードでは、どのマップにも「戦術サークル」と呼ばれる特殊なエリアが登場します。「戦術サークル」を占領すると対応する「タクティカル・アビリティー」を発動できるようになります。「戦術サークル」には「砲兵センター」と「諜報センター」の2種類が存在し、前者には指定したエリアへの砲兵射撃を行う「アーティーストライク」が、後者には全敵車輌の位置を捕捉する「ディビジョンレーダー」が割り当てられています。「戦術サークル」の位置や数はマップによって異なります。"
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "「測定ラウンド」で合計%(count)s回の戦闘を行うと初期ランクが決定し、対応する報酬が手に入ります。\n\n「測定ラウンド」における引き分けおよび車輌大破前の戦闘離脱行為は《敗北》として扱われます。"
+msgstr[1] "「測定ラウンド」で合計%(count)s回の戦闘を行うと初期ランクが決定し、対応する報酬が手に入ります。\n\n「測定ラウンド」における引き分けおよび車輌大破前の戦闘離脱行為は《敗北》として扱われます。"
+msgstr[2] "「測定ラウンド」で戦闘を合計%(count)s回行うと初期ランクが決定し、対応する報酬が手に入ります。\n\n「測定ラウンド」における引き分けおよび車輌大破前の戦闘離脱行為は《敗北》として扱われます。"
+
+msgid "intro/description/ranks"
+msgstr "本モードには、プレイヤーの実力を反映する独自の進捗システムが用意されています。「アイアン」から「レジェンド」までの複数の「ランク」で構成され、昇格するたびにさまざまな報酬が手に入るほか、1年を通して優れた成績を残せばさらに豪華な「年間報酬」が手に入ります。"
+
+msgid "intro/description/roleSkills"
+msgstr "本モードでは、各車輌に「ロール」が割り当てられており、どの車輌も「ロール」に応じた独自の「ロール・アビリティー」を発動できるようになっています。「ロール・アビリティー」にはそれぞれ3段階のレベルが存在し、レベルが上がると効果も上昇します。レベルを上げるには、戦闘中に「戦術サークル」の占領や「タクティカル・アビリティー」の発動といったさまざまな条件を満たして「プレステージ・ポイント」を集める必要があります。\n\n「プレステージ・ポイント」の取得方法の詳細はイベントのレギュレーションで確認できます。"
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "本モードでは、技術ツリー上のTier %(levels)sおよびコレクション車輌、または一部の特別車輌を選択して戦闘を行います。ただし、自走砲は選択できないようになっています。戦闘開始前のカウントダウン中にマップや味方の車輌編成を確認したうえで使用する車輌や構成を変更できるため、さまざまなシチュエーションに対応できるようガレージで入念な準備を行っておくのが大切です。"
+
+msgid "intro/title/banPhase"
+msgstr "車輌BAN"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "「オンスロート」専用のパラメーター調整因子"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "戦術サークル"
+
+msgid "intro/title/qualification"
+msgstr "測定ラウンド"
+
+msgid "intro/title/ranks"
+msgstr "ランクシステム"
+
+msgid "intro/title/roleSkills"
+msgstr "ロール・アビリティー"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "マップや編成を見て車輌を変更可能"
+
+msgid "lastUpdateNote/info"
+msgstr "更新日時: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "ランク「レジェンド」の最下位に位置するプレイヤーの\n「レーティング・ポイント」は%(count)s分毎に更新されます。"
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "データを更新中..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "ランキングは%(count)s分ごとに更新されます。"
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "最終更新日時: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "現在の順位"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "ランキングに名を連ねるにはランク「チャンプ」または「レジェンド」に到達する必要があります。"
+
+msgid "leaderboard/error/buttonText"
+msgstr "更新"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "ランク「チャンプ」または「レジェンド」に到達するとランキングに名前が掲載されます。ランキング上でのトップ争いに加わるには「レーティング・ポイント」を{eeede9e6_Open}%(pointsCount)s{eeede9e6_Close}ポイント集める必要があります。"
+
+msgid "leaderboard/noRecords/title"
+msgstr "ランキング入りを果たしたプレイヤーなし"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "戦闘数"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "プレイヤー名"
+
+msgid "leaderboard/table/header/score"
+msgstr "レーティング・ポイント"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "現在のシーズンにおける総戦闘数を表します。"
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "戦闘数"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "ランキングでの順位を表します。"
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "順位"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "ランキング入りを果たしたプレイヤーの名前を表します。"
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "プレイヤー名"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "現在の「レーティング・ポイント」を表します。"
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "レーティング・ポイント"
+
+msgid "listSeparator"
+msgstr "、"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "小隊のメンバー数"
+
+msgid "noVehicles/howTo/premium"
+msgstr "WoTプレミアムアカウントの利用"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "パーソナルリザーブの活用"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "様々なミッションへの挑戦"
+
+msgid "noVehicles/howTo/title"
+msgstr "Tier %(levels)s車輌を最速で入手するには？"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "「オンスロート」モードで戦闘を行うにはモードと互換性のあるTier %(levels)s車輌が必要です。\n研究が完了しているものの未購入のTier %(levels)s車輌が存在します。"
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "「オンスロート」モードで戦闘を行うにはモードと互換性のあるTier %(levels)s車輌が必要です。\nリカバリー可能なTier %(levels)s車輌が存在します。"
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "「オンスロート」モードで戦闘を行うにはモードと互換性のあるTier %(levels)s車輌が必要です。"
+
+msgid "noVehicles/title"
+msgstr "ガレージ内に適合車輌がありません。"
+
+msgid "page/heading/leaderboard"
+msgstr "ランキング"
+
+msgid "page/heading/progression"
+msgstr "ランク・システム"
+
+msgid "page/heading/qualification"
+msgstr "測定ラウンド"
+
+msgid "page/heading/rankRewards"
+msgstr "ランク報酬"
+
+msgid "page/heading/shop"
+msgstr "「オンスロート」ショップ"
+
+msgid "page/heading/weeklyQuests"
+msgstr "ウィークリーミッション"
+
+msgid "page/heading/yearlyRewards"
+msgstr "年間報酬"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "年間成績"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "進む"
+
+msgid "pagination/prev"
+msgstr "戻る"
+
+msgid "pbs/bans/title"
+msgstr "BAN対象車輌"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "「オンスロート」2Dスタイル"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "2Dスタイル・ミッションを達成!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "ウィークリーミッション#%(count)sを達成!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "ウィークリーミッションを達成!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "オンスロート・ウィークリー"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "敗北の理由"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "引き分けの理由"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "勝利 (以下の理由によりペナルティー発生)"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "%(rank)sに昇進しました"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s、%(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "%(rank)s、%(division)sに降格しました"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "%(rank)s、%(division)sに昇格しました"
+
+msgid "pbs/overview/qualification/description"
+msgstr "戦闘数"
+
+msgid "pbs/overview/qualification/title"
+msgstr "測定ラウンド"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "制裁により「レーティング・ポイント」を喪失しました。"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "違反行為が確認されたため「測定ラウンド」の突破後にレーティングに対するペナルティーが科されます。"
+
+msgid "pbs/rankDescription/fifth"
+msgstr "ランク「レジェンド」に昇格するにはランキングで{ede6d9e5_Open}上位%(topPercentage)%{ede6d9e5_Close}入りを果たす必要があります。"
+
+msgid "pbs/rankDescription/sixth"
+msgstr "ランク「レジェンド」を維持するにはランキングで{ede6d9e5_Open}上位%(topPercentage)%{ede6d9e5_Close}以内に留まる必要があります。"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "詳細は「オンスロート」モードについてのページでご確認いただけます。"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "プレステージ・ポイント"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "ダメージを与える\n発見によりダメージをアシストする\n履帯を切断する\n重大な損害を与える\n敵車輌を撃破する\nその他の戦闘アクション"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "戦闘で取得または喪失する「レーティング・ポイント」の数に影響する特別なリソースです。「プレステージ・ポイント」は、戦闘中の以下のようなアクションを通して取得できます。"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "平均プレステージ・ポイント (日): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "取得したプレステージ・ポイントの合計を、戦闘に参加した回数で割った値。"
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "平均プレステージ・ポイント (シーズン): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "1日の最多取得プレステージ・ポイント: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "1戦で取得したプレステージ・ポイントの最大値です。使用車輌は「%(vehicleName)s」です。"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "シーズンの最多取得プレステージ・ポイント: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "%(server)sサーバーではシーズン「アジュール・ドラゴン」が終了しています。"
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "%(server)sサーバーではシーズン「クリムゾン・ドラゴン」が終了しています。"
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "%(server)sサーバーではシーズン「ジェイド・ドラゴン」が終了しています。"
+
+msgid "products/actions/buy"
+msgstr "購入"
+
+msgid "products/actions/restore"
+msgstr "倉庫へ"
+
+msgid "products/actions/toCustomization"
+msgstr "スタイルへ"
+
+msgid "products/actions/toHangar"
+msgstr "ガレージで表示"
+
+msgid "products/customizationUnavailable/body"
+msgstr "スタイルの画面に移動できません。原因として、この車輌を所有していない、車輌が戦術ユニットまたは戦闘に参加中、または車輌の修理が完了していないことが考えられます。"
+
+msgid "products/customizationUnavailable/title"
+msgstr "カスタマイズ不可"
+
+msgid "products/discount"
+msgstr "−%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "次のシーズン開始まで、{eeede9e6_Open}到達した{eeede9e6_Close}{eeede9e6_Open}最高{eeede9e6_Close}{eeede9e6_Open}ランク{eeede9e6_Close}に応じたアイテムを購入できるほか、割引を利用できます。"
+
+msgid "products/discountSectionName"
+msgstr "アクセス条件と割引"
+
+msgid "products/inProgress"
+msgstr "購入の処理が完了するまでしばらくお待ちください..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "今シーズンの残り購入可能回数: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "残高不足により購入できません。"
+
+msgid "products/message/rankAccess"
+msgstr "ランク条件\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "NEW"
+
+msgid "products/priceSectionName"
+msgstr "価格"
+
+msgid "products/productAccess"
+msgstr "アクセス\nランク"
+
+msgid "products/purchased"
+msgstr "購入完了"
+
+msgid "products/rankAccess"
+msgstr "アクセスランク %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "リカバリー可能"
+
+msgid "products/readyToRestoreDescription"
+msgstr "倉庫でリカバリー可能です"
+
+msgid "products/style3d"
+msgstr "3Dスタイル「%(name)s」"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "シーズン成績に戻る"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "シーズン成績"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "%(day)s日目の成績"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "今日の成績"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "各列は、選択した日のプライムタイムから翌日のプライムタイムまでの期間のデータを示しています。場合によっては、カレンダー上で2日分にまたがる戦闘が含まれることもあります。"
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "各列は、選択した日のプライムタイムから翌日のプライムタイムまでの期間のデータを示しています。場合によっては、カレンダー上で2日分にまたがる戦闘が含まれることもあります。"
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "このセクションは新しいデータが利用できるようになった場合にのみ更新されます。「更新」ボタンを押すことで更新を試みることができます。"
+
+msgid "progressionPage/chartHeader/update"
+msgstr "最終更新: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "おめでとうございます!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "全2Dスタイル・ミッションを制覇しました"
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "今シーズンのプログレッシブ2Dスタイルの新要素を解放するための一連のミッションです。"
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "スタイル・ミッション: %(taskNumber)s"
+msgstr[1] "スタイル・ミッション: %(taskNumber)s"
+msgstr[2] "スタイル・ミッション: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "2Dスタイル・ミッション"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "スタイルへ"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "すべてのスタイルが出撃不可の車輌に適用されています。"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "スタイルを適用できる車輌がありません。"
+
+msgid "progressionPage/error/refresh"
+msgstr "更新"
+
+msgid "progressionPage/error/refreshing"
+msgstr "更新中…"
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "平均与ダメージ"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "平均プレステージ・ポイント"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "レーティングの変化: %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "%(seasonRecordDescriptionDay)sに記録更新"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "%(day)s日目"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "成績一覧画面へ"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "対象は以下の通り。\n • 発見によりアシストしたダメージ (アビリティーによるダメージを含む)\n • 履帯の切断に伴う移動不能化によりアシストしたダメージ (アビリティーによるダメージを含む)\n • アビリティーによりアシストしたダメージ\n • スタンによりアシストしたダメージ (アビリティーによるスタンを含む)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "総参加戦闘数"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "敵車輌に与えたダメージの合計を、戦闘に参加した回数で割った値。"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "撃破した敵車輌の数を自車輌が大破した回数で割った値です。"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "与ダメージを被ダメージで割った値です。"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "取得したプレステージ・ポイントの合計を総戦闘数で割った値です。"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "戦闘数が最も多い車輌"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "総合勝率"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "平均ダメージアシスト"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "戦闘数"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "平均与ダメージ"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "撃破効率"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "ダメージ効率"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "戦闘ごとの平均プレステージ・ポイント"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "車輌名"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "勝利数"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "車輌成績"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "レーティング降格までの日数: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "「オンスロート」モードでのプレイが確認できない場合は「レーティング・ポイント」が{eeede9e6_Open}%(count)s{eeede9e6_Close}ポイント減少します。"
+msgstr[1] "「オンスロート」モードでのプレイが確認できない場合は「レーティング・ポイント」が{eeede9e6_Open}%(count)s{eeede9e6_Close}ポイント減少します。"
+msgstr[2] "「オンスロート」モードでのプレイが確認できない場合は「レーティング・ポイント」が{eeede9e6_Open}%(count)s{eeede9e6_Close}ポイント減少します。"
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1戦&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;ポイント)&nbsp;"
+msgstr[1] "(1戦&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;ポイント)&nbsp;"
+msgstr[2] "(1戦&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;ポイント)&nbsp;"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "%(rankList)sでは非プレイに対する減点が生じます。"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "一定期間を超える不参加で影響が出るランク"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "一定期間を超える不参加で影響が出ないランク"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "ランク"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "ランキングの上位%(topPercentage)s%"
+
+msgid "progressionTooltip/division"
+msgstr "ディビジョン%(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "「レーティング・ポイント」が{eeede9e6_Open}%(fromScore)～%(toScore){eeede9e6_Close}のプレイヤーが所属するディビジョンです。"
+
+msgid "progressionTooltip/info/fifth"
+msgstr "「チャンプ」は「レーティング・ポイント」が{eeede9e6_Open}%(fromScore){eeede9e6_Close}以上のプレイヤーが所属するランクです。"
+
+msgid "progressionTooltip/info/sixth"
+msgstr "「レジェンド」はランキングで{eeede9e6_Open}上位%(topPercentage)%{eeede9e6_Close}に名を連ねるプレイヤーが所属するランクです。"
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "合計%(maxBattlesCount)s回の戦闘を行うと初期ランクが決定されます。"
+msgstr[1] "合計%(maxBattlesCount)s回の戦闘を行うと初期ランクが決定されます。"
+msgstr[2] "合計%(maxBattlesCount)s回の戦闘を行うと初期ランクが決定されます。"
+
+msgid "progressionTooltip/qualificationName"
+msgstr "測定ラウンド"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "レーティング降格までの日数: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "「オンスロート」モードでのプレイが確認できない場合は「レーティング・ポイント」が{eeede9e6_Open}%(count)s{eeede9e6_Close}ポイント減少します。"
+msgstr[1] "「オンスロート」モードでのプレイが確認できない場合は「レーティング・ポイント」が{eeede9e6_Open}%(count)s{eeede9e6_Close}ポイント減少します。"
+msgstr[2] "「オンスロート」モードでのプレイが確認できない場合は「レーティング・ポイント」が{eeede9e6_Open}%(count)s{eeede9e6_Close}ポイント減少します。"
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s一定期間を超える不参加はレーティングに影響を及ぼします。"
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "今日中にプレイすることでランクを保つことができます。"
+
+msgid "progressionTooltip/ratingScore"
+msgstr "レーティング・ポイント"
+
+msgid "purchase/affirmative"
+msgstr "了解！"
+
+msgid "purchase/cancelButton"
+msgstr "戻る"
+
+msgid "purchase/confirmButton"
+msgstr "購入"
+
+msgid "purchase/error/description"
+msgstr "購入できませんでした。時間をおいて再度お試しください。"
+
+msgid "purchase/error/title"
+msgstr "エラー"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)sスタイルと互換性のある車輌がガレージにありません"
+
+msgid "purchase/price"
+msgstr "購入価格:"
+
+msgid "purchase/success/heading"
+msgstr "ご購入ありがとうございます！"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)sご購入されたアイテムは間もなくゲームアカウントに届きます"
+
+msgid "purchase/success/style3d"
+msgstr "%(vehicleName)s専用3Dスタイル「%(name)s」"
+
+msgid "purchase/title/style3d"
+msgstr "3Dスタイル「%(name)s」を購入しますか？"
+
+msgid "purchase/title/vehicle"
+msgstr "%(name)sを購入しますか？"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "合計{eeede9_Open}%(maxBattlesCount)s回{eeede9_Close}の戦闘を行うと初期ランクが決定されます。"
+msgstr[1] "合計{eeede9_Open}%(maxBattlesCount)s回{eeede9_Close}の戦闘を行うと初期ランクが決定されます。"
+msgstr[2] "合計{eeede9_Open}%(maxBattlesCount)s回{eeede9_Close}の戦闘を行うと初期ランクが決定されます。"
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "「測定ラウンド」を突破するには、合計%(maxBattlesCount)s回の戦闘を行ったうえで初期レーティングが算出されるのを待つ必要があります。「測定ラウンド」における成績に応じて最初のランクが変動します。\n「測定ラウンド」で自車輌が大破していないにもかかわらず戦闘を離脱すると、チームが大敗した場合よりも重いペナルティーが科される点にご注意ください。"
+msgstr[1] "「測定ラウンド」を突破するには、合計%(maxBattlesCount)s回の戦闘を行ったうえで初期レーティングが算出されるのを待つ必要があります。「測定ラウンド」における成績に応じて最初のランクが変動します。\n「測定ラウンド」で自車輌が大破していないにもかかわらず戦闘を離脱すると、チームが大敗した場合よりも重いペナルティーが科される点にご注意ください。"
+msgstr[2] "「測定ラウンド」を突破するには、合計%(maxBattlesCount)s回の戦闘を行ったうえで初期レーティングが算出されるのを待つ必要があります。「測定ラウンド」における成績に応じて最初のランクが変動します。\n「測定ラウンド」で自車輌が大破していないにもかかわらず戦闘を離脱すると、チームが大敗した場合よりも重いペナルティーが科される点にご注意ください。"
+
+msgid "qualification/conditionTooltip/header"
+msgstr "「測定ラウンド」の基本ルール"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "戦闘数"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s初期ランクの決定に必要となる「測定ラウンド」の結果待ち"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "初期ランクが確定していないため出撃できません。「測定ラウンド」を終了してからレーティングが算出されるまでに5分ほどの時間を要する場合があります。ご了承ください。"
+
+msgid "qualification/rewardsButton"
+msgstr "報酬へ"
+
+msgid "qualification/rewardsDescription"
+msgstr "「測定ラウンド」を突破すると初期ランクに応じた報酬が手に入ります。"
+
+msgid "quotesWrapper"
+msgstr "%(name)s"
+
+msgid "rank/achieved"
+msgstr "到達済み"
+
+msgid "rank/current"
+msgstr "現在のランク"
+
+msgid "rank/fifth"
+msgstr "チャンプ"
+
+msgid "rank/first"
+msgstr "アイアン"
+
+msgid "rank/fourth"
+msgstr "ゴールド"
+
+msgid "rank/qualification"
+msgstr "測定ラウンド"
+
+msgid "rank/second"
+msgstr "ブロンズ"
+
+msgid "rank/sixth"
+msgstr "レジェンド"
+
+msgid "rank/text"
+msgstr "ランク「%(rank)s」"
+
+msgid "rank/third"
+msgstr "シルバー"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "プレイヤーのランク"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "小隊メンバーのランク"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "小隊はランクの近いプレイヤー同士でしか組むことができません。"
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "%(count)s名小隊のランク制限"
+
+msgid "rankInactivityTooltip/description"
+msgstr "一定の期間を超えて本モードでのプレイが確認できない場合は「レーティング・ポイント」が減少します。"
+
+msgid "rankInactivityTooltip/heading"
+msgstr "一定期間を超える不参加"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "レーティング・ポイントの減少まで残り%(count)s日"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "日ごとのレーティング"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "レーティング・ポイントの変化: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "選択した日とその前日とのレーティング・ポイントの差です。"
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "日ごとの最高レーティング: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "選択した日に記録された最高レーティングです。"
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "%(day)s日目"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "%(dayOfRecord)sに記録されたシーズン最高レーティング"
+
+msgid "rankInfo/current/fifth"
+msgstr "「チャンプ」は「レーティング・ポイント」が{eeede9e6_Open}%(fromScore){eeede9e6_Close}以上のプレイヤーが所属するランクです。"
+
+msgid "rankInfo/current/sixth"
+msgstr "「レジェンド」はランキングで{eeede9e6_Open}上位%(topPercentage)%{eeede9e6_Close}に名を連ねるプレイヤーが所属するランクです。"
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "ランク「レジェンド」に昇格するにはランキングで{eeede9e6_Open}上位%(topPercentage)%{eeede9e6_Close}入りを果たす必要があります。"
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "ランク「レジェンド」を維持するにはランキングで{eeede9e6_Open}上位%(topPercentage)%{eeede9e6_Close}以内に留まる必要があります。"
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "ランク「レジェンド」に昇格するにはランキングで{eeede9e6_Open}上位%(topPercentage)%{eeede9e6_Close}入りを果たす必要があります。ランク「&nbsp;レジェンド&nbsp;」の最下位に位置するプレイヤーの「レーティング・ポイント」は{eeede9e6_Open}%(pointsCount){eeede9e6_Close}です。"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "ランク「レジェンド」を維持するにはランキングで{eeede9e6_Open}上位%(topPercentage)%{eeede9e6_Close}に留まる必要があります。ランク「&nbsp;レジェンド&nbsp;」の最下位に位置するプレイヤーの「レーティング・ポイント」は{eeede9e6_Open}%(pointsCount){eeede9e6_Close}です。"
+
+msgid "rankUpper/fifth"
+msgstr "チャンプ"
+
+msgid "rankUpper/first"
+msgstr "アイアン"
+
+msgid "rankUpper/fourth"
+msgstr "ゴールド"
+
+msgid "rankUpper/second"
+msgstr "ブロンズ"
+
+msgid "rankUpper/sixth"
+msgstr "レジェンド"
+
+msgid "rankUpper/text"
+msgstr "ランク「%(rank)s」"
+
+msgid "rankUpper/third"
+msgstr "シルバー"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "以下のリストからボンズ拡張パーツを1基選ぶことができます。\n\n• 隠密排気ユニット\n• 新型照準器\n• 高性能旋回機構\n• 高性能ターボチャージャー\n•高性能装甲材\n• 改良型モジュール構造\n• 試作型高視認性レンズ\n• 新型装填装置\n• 高性能換気装置\n• 耐摩耗射撃装置\n• 高性能安定装置\n• 望遠観測システム\n• 高性能迷彩ネット"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "以下のリストから試作拡張パーツを1基選ぶことができます。\n\n• 射撃統制システム T3\n• 生存性強化システム T3\n• 機動性強化システム T3\n• 射撃精度強化システム T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "迷彩「%(name)s」"
+
+msgid "rewards/preview"
+msgstr "プレビュー"
+
+msgid "rewards/status/achieved"
+msgstr "報酬は入手済み"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}Tier %(vehicleLevel)s車輌専用{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}スタイル「%(progressionStyleName)s」用{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "Tier %(vehicleLevel)s"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "他に受け取った報酬"
+
+msgid "rewardsScreen/button"
+msgstr "了解！"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "報酬へ"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "報酬を選択"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "購入画面に移動"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "「測定ラウンド」を突破！"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "シーズン「アジュール・ドラゴン」"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "シーズン「クリムゾン・ドラゴン」"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "シーズン「ジェイド・ドラゴン」"
+
+msgid "rewardsScreen/description/year"
+msgstr "オンスロート (ドラゴン・イヤー)"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "「Ashbringer」を表示"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "ランクなし"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "こちらのランクに到達してから一定期間を超えて本モードでのプレイが確認できない場合は「レーティング・ポイント」が減少します。"
+
+msgid "rewardsScreen/notice/title"
+msgstr "一定期間を超える不参加"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "オンスロート・フラッグ\n合計数"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "拡張パーツを選択"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "報酬を選択"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "「オンスロート」ショップで新たな割引が利用可能！"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "「オンスロート」ショップに新たなアイテムが登場！"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "次のシーズン開始まで、到達した最高ランクに応じたアイテムを購入できるほか、割引を利用できます。"
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "次のシーズン開始まで、到達した最高ランクに応じたアイテムを購入できるほか、割引を利用できます。"
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}ランク「%(rank)s」{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "「測定ラウンド」の結果に基づき{ffe4c0_Open}%(ranks)s{ffe4c0_Close}の到達報酬を入手しました。"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr "、"
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "{ffe4c0_Open}ランク「%(rank)s」{ffe4c0_Close}に昇格したため報酬を入手しました。"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "ウィークリーミッションを{ffe4c0_Open}%(tokensCount)s{ffe4c0_Close}個達成したため報酬を入手しました。"
+msgstr[1] "ウィークリーミッションを{ffe4c0_Open}%(tokensCount)s{ffe4c0_Close}個達成したため報酬を入手しました。"
+msgstr[2] "ウィークリーミッションを{ffe4c0_Open}%(tokensCount)s{ffe4c0_Close}個達成したため報酬を入手しました。"
+
+msgid "rewardsScreen/title/division"
+msgstr "ディビジョン%(division)sに昇格！"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "ランク「{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}」に昇格!"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "「測定ラウンド」の突破報酬"
+
+msgid "rewardsScreen/title/rank"
+msgstr "ランク「{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}」に昇格!"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "ランク報酬"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "報酬を入手！"
+msgstr[1] "報酬を入手！"
+msgstr[2] "報酬を入手！"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "ウィークリーミッションの達成報酬"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "年間報酬"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "以下が付属"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "オンスロート"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "報酬を選択"
+msgstr[1] "報酬を選択"
+msgstr[2] "報酬を選択"
+
+msgid "scoreTooltip/body"
+msgstr "「オンスロート」モードでの「ランク」や「ディビジョン」は戦闘で取得する「レーティング・ポイント」によって決定されます。"
+
+msgid "scoreTooltip/header"
+msgstr "レーティング・ポイント"
+
+msgid "season/daysLeft"
+msgstr "終了まで%(totalDays)s日"
+
+msgid "season/hoursLeft"
+msgstr "終了まで%(hours)s時間"
+
+msgid "season/minutesLeft"
+msgstr "終了まで%(minutes)s分"
+
+msgid "season/over"
+msgstr "シーズン「%(seasonName)s」は終了しています。"
+
+msgid "season/range"
+msgstr "%(startDate)s～%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "終了まで%(seconds)s秒"
+
+msgid "seasonName/first"
+msgstr "シーズン「アジュール・ドラゴン」"
+
+msgid "seasonName/second"
+msgstr "シーズン「クリムゾン・ドラゴン」"
+
+msgid "seasonName/third"
+msgstr "シーズン「ジェイド・ドラゴン」"
+
+msgid "seasonPointTooltip/header"
+msgstr "オンスロート・フラッグ"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "入手済み"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "未入手"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "「オンスロート・フラッグ」の入手資格あり"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "期限到来時に未使用の「オンスロート・フラッグ」は {bond_Open}1{bond_Close} : {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}のレートで自動的にボンズに変換されます。"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "各シーズンが終了すると到達したランクに応じた数の「オンスロート・フラッグ」が手に入ります。"
+
+msgid "seasonPointTooltip/text/year"
+msgstr "「オンスロート・フラッグ」を3枚集めるたびに手に入る「年間報酬」の内容が豪華になります。"
+
+msgid "seasonStatistics/button/fifth"
+msgstr "了解！"
+
+msgid "seasonStatistics/button/first"
+msgstr "了解！"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "了解！"
+
+msgid "seasonStatistics/button/second"
+msgstr "了解！"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "了解！"
+
+msgid "seasonStatistics/button/third"
+msgstr "了解！"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "シーズン終了時のレーティング"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "ランキング順位: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "オンスロート %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "%(points)s枚の「オンスロート・フラッグ」を入手"
+msgstr[1] "%(points)s枚の「オンスロート・フラッグ」を入手"
+msgstr[2] "%(points)s枚の「オンスロート・フラッグ」を入手"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "アジュール・ドラゴン (シーズンI)"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "クリムゾン・ドラゴン (シーズンII)"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "ジェイド・ドラゴン (シーズンIII)"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "勝率: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "通算\n戦闘数"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "平均: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "最大\n与ダメージ"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "撃破効率: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "最大\n撃破数"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "平均: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "最大\n取得ポイント"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "シーズン成績"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "スーパー小隊: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "連勝記録\n(ソロ/小隊)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "戦闘数"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "車輌なし"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "メイン車輌"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "勝率"
+
+msgid "seasonStatistics/title"
+msgstr "%(name)sのシーズン成績"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "シーズン終了まで残り"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s～%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "戦闘スケジュール"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "今日"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "明日"
+
+msgid "selectorTooltip/desc"
+msgstr "コンペティティブ・モード 7v7 | Tier X"
+
+msgid "selectorTooltip/title"
+msgstr "オンスロート"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "新シーズンの開幕日は公式HPのニュースでご確認ください。"
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "技術的な理由によりこちらのモードは一時的にご利用いただけません。"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "本モードは%(time)sからプレイ可能"
+
+msgid "shortSeasonName/first"
+msgstr "アジュール・ドラゴン"
+
+msgid "shortSeasonName/second"
+msgstr "クリムゾン・ドラゴン"
+
+msgid "shortSeasonName/third"
+msgstr "ジェイド・ドラゴン"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "「オンスロート」モードでランキング入りを果たしているトッププレイヤーの名前や成績を確認できます。"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "「測定ラウンド」や、「測定ラウンド」を突破したあとの「ランク」、「ディビジョン」、「レーティング・ポイント」について確認できます。"
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "「オンスロート」モードで新たな「ランク」に昇格した際に手に入る報酬を確認できます。"
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "「オンスロート」ショップで入手できるアイテムについて確認できます。"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "「オンスロート」モードで挑戦できるウィークリーミッションを確認できます。"
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "「オンスロート・フラッグ」と交換で入手できる「年間報酬」の詳細を確認できます。"
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "現在の「イヤー」におけるシーズン毎の成績を確認できます。"
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "ランキング"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "ランク・システム"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "ランク報酬"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "「オンスロート」ショップ"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "ウィークリーミッション"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "年間報酬"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "年間成績"
+
+msgid "sixthRankTooltip/description"
+msgstr "「{eeede9e6_Open}レジェンド{eeede9e6_Close}」はランキングで{eeede9e6_Open}上位%(topPercentage)%{eeede9e6_Close}に名を連ねるプレイヤーが所属するランクです。"
+
+msgid "style3dTooltip/954"
+msgstr "白銀の棘"
+
+msgid "style3dTooltip/955"
+msgstr "黄金の爪"
+
+msgid "style3dTooltip/956"
+msgstr "英雄の翼"
+
+msgid "style3dTooltip/957"
+msgstr "伝説の魔獣"
+
+msgid "style3dTooltip/description"
+msgstr "獅子の力強さと竜の獰猛さ、そしてサソリのように死を招く伝説の生き物を彷彿させる3Dスタイル。"
+
+msgid "style3dTooltip/howToReceive"
+msgstr "入手方法"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "「オンスロート」モードの「マンティコア・イヤー」で「オンスロート・フラッグ」を9枚以上集めたプレイヤーに対して授与される。"
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "「オンスロート」モードの「マンティコア・イヤー」で「オンスロート・フラッグ」を12枚以上集めたプレイヤーに対して授与される。前のスタイルと入れ替えられる。"
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "「オンスロート」モードの「マンティコア・イヤー」で「オンスロート・フラッグ」を15枚以上集めたプレイヤーに対して授与される。前のスタイルと入れ替えられる。"
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "「オンスロート」モードの「マンティコア・イヤー」で「オンスロート・フラッグ」を18枚以上集めたプレイヤーに対して授与される。前のスタイルと入れ替えられる。"
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "適合車輌"
+
+msgid "system_messages/periodicReward/body"
+msgstr "ランク「%(rank)s」を維持したためデイリー報酬を入手しました。\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "デイリー報酬"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "休止時間のため「オンスロート」モードは一時的にプレイできません。"
+
+msgid "system_messages/primeTime/end/title"
+msgstr "休止時間"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "休止時間が終了しました。「オンスロート」モードで再び戦闘を行えます。"
+
+msgid "system_messages/primeTime/start/title"
+msgstr "休止時間"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "おめでとうございます！ ランク「%(maxRank)s」に昇格しました！\n%(ranks)sの到達報酬を入手しました。\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "「測定ラウンド」を突破"
+
+msgid "system_messages/regularReward/body"
+msgstr "日付: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "取得"
+
+msgid "system_messages/shop/offer/button"
+msgstr "ショップに移動"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "「オンスロート」ショップで新たな割引が利用可能！"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "割引が増加"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "「オンスロート」ショップに新たなアイテムが登場！"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "新アイテム登場"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "支払いエラー。時間をおいて再度お試しください。"
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "日付: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "ウィークリーミッションの達成報酬"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "日付: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "ウィークリーミッションの達成報酬"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "「オンスロート」モードについて"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "今シーズンの新要素"
+
+msgid "tournament/LBFinals"
+msgstr "下位層ファイナル"
+
+msgid "tournament/LBRound1"
+msgstr "下位層1回戦"
+
+msgid "tournament/LBRound2"
+msgstr "下位層2回戦"
+
+msgid "tournament/LBSemifinals"
+msgstr "下位層セミファイナル"
+
+msgid "tournament/UBFinals"
+msgstr "上位層ファイナル"
+
+msgid "tournament/UBSemifinals"
+msgstr "上位層セミファイナル"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "トーナメントで「レーティング・ポイント」が増減することはありません。"
+
+msgid "tournament/bestOf"
+msgstr "%(number)s番勝負"
+
+msgid "tournament/cny"
+msgstr "%(amount)s人民元"
+
+msgid "tournament/cnySign"
+msgstr "%(amount)s人民元"
+
+msgid "tournament/comeBack"
+msgstr "時間をおいて再度お試しください"
+
+msgid "tournament/comingSoon"
+msgstr "今後の試合日程 %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "(開始時刻は変更の可能性あり)"
+
+msgid "tournament/completed"
+msgstr "終了済み"
+
+msgid "tournament/douyin"
+msgstr "抖音で視聴"
+
+msgid "tournament/drops/huya"
+msgstr "Huyaで視聴すると限定の\nHuya Dropsが手に入ります。"
+
+msgid "tournament/drops/twitch"
+msgstr "Twitchで視聴すると限定の\nTwitch Dropsが手に入ります。"
+
+msgid "tournament/dropsShort/huya"
+msgstr "限定Huya Drops獲得!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "限定Twitch Drops獲得!"
+
+msgid "tournament/error"
+msgstr "データ読み込みエラー"
+
+msgid "tournament/eur"
+msgstr "%(amount)sユーロ"
+
+msgid "tournament/euroSign"
+msgstr "€%(amount)s"
+
+msgid "tournament/finalResult"
+msgstr "勝者"
+
+msgid "tournament/fundDistribution"
+msgstr "賞金総額の分配"
+
+msgid "tournament/grandFinals"
+msgstr "グランド・ファイナル"
+
+msgid "tournament/huya"
+msgstr "Huyaで視聴"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "賞金総額には、プレイヤーが購入したパックの金額が反映されます。最終更新日時: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "これ以上の対戦は予定されていません"
+
+msgid "tournament/ols/roundRobin"
+msgstr "フェーズ%(phase)s %(round)s回戦"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s～%(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "高額賞金%(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "そして不朽の栄光を手にするチャンスも"
+
+msgid "tournament/refresh"
+msgstr "更新"
+
+msgid "tournament/refreshing"
+msgstr "更新中…"
+
+msgid "tournament/roundOf"
+msgstr "ベスト%(number)s"
+
+msgid "tournament/separator"
+msgstr "または"
+
+msgid "tournament/tab/overview"
+msgstr "概要"
+
+msgid "tournament/tab/schedule"
+msgstr "スケジュール"
+
+msgid "tournament/teamPlaceholder"
+msgstr "未定"
+
+msgid "tournament/toShop"
+msgstr "ショップに移動"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "交換"
+
+msgid "tournament/tokenStore/ols"
+msgstr "OLSトークン"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "開始まで:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "トーナメント概要"
+
+msgid "tournament/twitch"
+msgstr "Twitchで視聴"
+
+msgid "tournament/viewFull"
+msgstr "すべて見る"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "大会に合わせて登場するパックを購入することで、賞金総額を増額し、「オンスロート・レジェンド・シリーズ」を支援することができます。"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "eスポーツへの情熱を示すことができる限定カスタマイズ要素と限定車輌が登場!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "賞金総額に貢献"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "WCIパック"
+
+msgid "tournament/vsBestOf"
+msgstr "VS\n%(number)s番勝負"
+
+msgid "tournament/wci/roundRobin"
+msgstr "総当たり戦"
+
+msgid "tournament/winner"
+msgstr "勝者"
+
+msgid "tournament/youtube"
+msgstr "YouTubeで視聴"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "ヨーロッパのトップチームが「オンスロート・レジェンド・シリーズ」の王座を懸けて激突しています! スリリングな7対7の「オンスロート」形式の戦闘を観戦することでTwitch Dropsを獲得できるほか、限定カスタマイズ・パックの購入を通じて賞金総額の増額に貢献し、お気に入りのチームを支援できます。"
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "中国の蘇州で開催される「WCI」の激戦が幕を開けました。世界中から集まった強豪チームが「オンスロート」モードのルールで激突し、栄誉ある世界チャンピオンの称号を懸けて覇を競います。戦車戦の歴史に新たな伝説が生まれる瞬間をお見逃しなく!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "OLSシーズン6"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "配信時間: %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "次の対戦まで%(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "「オンスロート」トレーニングでは「レーティング・ポイント」を取得できません。"
+
+msgid "unit/message/modeOffline"
+msgstr "データベース・エラーにより戦闘に参加できません。"
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "ランク差の制限を超えています"
+
+msgid "voiceChat/active"
+msgstr "音声チャットを離脱"
+
+msgid "voiceChat/inactive"
+msgstr "音声チャットに参加"
+
+msgid "waitingSpinner/message"
+msgstr "コンテンツを読み込み中..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "オンスロート・ミッションは達成済み"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "ウィークリーミッションを制覇しました。忘れずに報酬をお受け取りください。来シーズンも挑戦をお待ちしています！"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "{eeede9e5_Open}%(questsList)s{eeede9e5_Close}個および{eeede9e5_Open}%(lastQuest)s{eeede9e5_Close}個のミッションを達成することで追加報酬が手に入ります。"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "オンスロート・ウィークリーミッション"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "達成済み: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s個の新たなミッションまで"
+msgstr[1] "%(value)s個の新たなミッションまで"
+msgstr[2] "%(value)s個の新たなミッションまで"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "報酬"
+msgstr[1] "報酬"
+msgstr[2] "報酬"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s個の新たなミッションまで%(countdown)s"
+msgstr[1] "%(value)s個の新たなミッションまで%(countdown)s"
+msgstr[2] "%(value)s個の新たなミッションまで%(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "今シーズンのミッションをすべて制覇しました"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "達成したミッション: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "毎週%(value)s個の新しいミッションが届きます。ミッションを達成するたびに報酬獲得に近付きます。"
+msgstr[1] "毎週%(value)s個の新しいミッションが届きます。ミッションを達成するたびに報酬獲得に近付きます。"
+msgstr[2] "毎週%(value)s個の新しいミッションが届きます。ミッションを達成するたびに報酬獲得に近付きます。"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "挑戦中"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "達成済み"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "ロック中"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "モードが停止しているため挑戦できません。"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "Tier X車輌を1輌でも購入するとアンロックされます。"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "このミッションをアンロックするには先行するミッションを達成する必要があります。"
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "ミッション挑戦不可"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "報酬を入手できます"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "達成済み: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "ミッション%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s個の新たなミッションまで"
+msgstr[1] "%(value)s個の新たなミッションまで"
+msgstr[2] "%(value)s個の新たなミッションまで"
+
+msgid "whatsNewButtonLabel"
+msgstr "今シーズンの新要素"
+
+msgid "whatsNewView/banner/description"
+msgstr "今シーズンが貴重な報酬の数々を手に入れる最後のチャンスです。報酬には限定のTier X重戦車「Ashbringer」をはじめ、特別な3Dスタイル、ゼロパーク「戦友」を習得済みの搭乗員、選べる拡張パーツや試験拡張パーツ、そして目を引く2Dスタイルなどが含まれています。高みを目指して、いざ戦場へRoll Out!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "「ドラゴン・イヤー」を締めくくる最後のシーズンが開幕しました!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "シーズン「ジェイド・ドラゴン」"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "「オンスロート」の変更点"
+
+msgid "whatsNewView/button/ok"
+msgstr "了解!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "戦闘結果画面は、アップデート2.0でデザインが刷新されました。今後はさらに、戦闘終了後にモード関連の追加情報が表示されるようになります。"
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "詳細な戦闘結果"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "お気に入りの車輌がBANされても心配無用です。レンタル車輌には、あらかじめ搭乗員、拡張パーツ、砲弾、消耗品が搭載されています。"
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "準備万端のレンタル車輌%(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "今シーズンでは、各チームが車輌を1輌、特定の戦闘において「BAN」できるようになります。味方と投票を調整すれば、最も脅威になりそうな車輌を選択できないようにしたり、敵にとって予想外の陣容を編成したりすることができます。"
+
+msgid "whatsNewView/intro/heading"
+msgstr "車輌BAN%(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "マップ"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "「オンスロート」で使用できる新たな車輌"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "レンタル車輌"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "「Ares 90」が、本モードで使用できるようになりました。なお、アビリティーに調整が加えられています。"
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "アビリティーへの変更%(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "シルバー・ランクに到達すると「オンスロート」ショップでアンロックされる報酬に「114 SP2」が追加されました。"
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "ショップの更新%(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "除外"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "調整中"
+
+msgid "whatsNewView/tag/attention"
+msgstr "注意"
+
+msgid "whatsNewView/tag/changed"
+msgstr "変更"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "試験的要素"
+
+msgid "whatsNewView/tag/new"
+msgstr "追加"
+
+msgid "whatsNewView/tag/returned"
+msgstr "復活"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "改良"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "今シーズンの新要素"
+
+msgid "whatsNewView/watchVideo"
+msgstr "動画を視聴"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "勝率 (日): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "敗北: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "引き分け: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "勝率 (シーズン): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "総勝利数を戦闘数で割った比率。\n戦闘結果別の戦闘数"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "勝利: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "報酬はシーズン3の終了時に届けられます。"
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "報酬は間もなく届けられます。しばらくお待ちください。"
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "年間報酬を受け取りました。来年もぜひご参加ください！"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "好きな拡張パーツを選んでください"
+
+msgid "yearlyRewards/claim"
+msgstr "入手"
+
+msgid "yearlyRewards/claimReward"
+msgstr "報酬を入手"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "シーズン終了時に到達したランクひとつあたり1枚の%(seasonPointIcon)sを入手しました"
+
+msgid "yearlyRewards/description/current"
+msgstr "シーズンが終了すると、到達したランクひとつあたり1枚の%(seasonPointIcon)sが手に入ります"
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\n限定3Dスタイル付き"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "年間報酬へ"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "2Dスタイルのプレビュー"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "3Dスタイルのプレビュー"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "到達したランク: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "現在のランク: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "4名の限定搭乗員"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "入手済み"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "入手確定"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "合計%(count)s枚のフラッグを集めるとステージ報酬を獲得"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "獲得できる報酬"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "本「イヤー」の終了後にこちらの報酬を入手できることが確定しています。"
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "本「イヤー」の終了後にこちらの報酬を入手するには既定数の「オンスロート・フラッグ」を集める必要があります。"
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "本「イヤー」の終了後にこちらの報酬を入手するにはシーズン閉幕まで最低でも現在の「ランク」を維持する必要があります。"
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "現在のステージ"
+
+msgid "yearlyStatistics/battles"
+msgstr "戦闘数 (ソロ/小隊)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "シーズン成績を算出中…"
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sシーズン成績へ"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "ランクなし"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "ランク「%(rank)s」"
+
+msgid "yearlyStatistics/rating"
+msgstr "レーティング・ポイント"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "2025年秋"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "2026年初頭"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "2026年春"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s～%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "シーズンI アジュール・ドラゴン"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "シーズンII クリムゾン・ドラゴン"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "シーズンIII ジェイド・ドラゴン"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "開催中"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "終了済み"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "戦闘 (スーパー小隊)"
+
+msgid "yearlyStatistics/wins"
+msgstr "勝率"

@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "모든 연구 완료"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "현재 구성"
+
+msgid "comparison/title"
+msgstr "강화 요소"
+
+msgid "comparison/tooltip/body"
+msgstr "구성 화면에는 강화 노드가 전차 성능에 미치는 영향이 표시됩니다. 모든 연구 완료를 선택하면 모든 강화 요소를 적용한 뒤의 성능을 확인할 수 있습니다."
+
+msgid "comparison/tooltip/header"
+msgstr "강화 요소"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "미연구"
+
+msgid "dialog/altConfiguration/description"
+msgstr "전투 전에 전차 구성을 전환하려면 해당 설정을 활성화해 두십시오."
+
+msgid "dialog/altConfiguration/info"
+msgstr "설정은 언제든 변경할 수 있습니다."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "보조 보급품"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "핵심 보급품"
+
+msgid "dialog/altConfiguration/title"
+msgstr "대체 구성"
+
+msgid "dialog/common/accept"
+msgstr "확인"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s 노드"
+msgstr[1] "노드 %(perks)s개"
+msgstr[2] "노드 %(perks)s개"
+
+msgid "footer/button/label"
+msgstr "연구"
+
+msgid "footer/description/text/allResearched"
+msgstr "모든 노드를 연구했습니다. 이제 정예 보상 시스템을 이용할 수 있습니다."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "일시적으로 계정 통합 계좌를 이용할 수 없습니다. 불편을 드려 죄송합니다."
+
+msgid "footer/description/text/inBattle"
+msgstr "노드를 연구할 수 없습니다. 전차가 전투 중입니다."
+
+msgid "footer/description/text/inFormation"
+msgstr "노드를 연구할 수 없습니다. 소대에 소속된 전차입니다."
+
+msgid "footer/description/text/needsRepair"
+msgstr "노드를 연구할 수 없습니다. 수리가 필요한 전차입니다."
+
+msgid "footer/description/text/notInInventory"
+msgstr "노드를 연구하려면 해당 전차를 보유해야 합니다."
+
+msgid "footer/description/text/researchAvailable"
+msgstr "연구할 노드 또는 노드 계통도를 선택하십시오."
+
+msgid "footer/text/amountItems"
+msgstr "노드 {{amount}}개"
+
+msgid "footer/text/selectedItem"
+msgstr "선택: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "일시적으로 계정 통합 계좌를 이용할 수 없습니다. 불편을 드려 죄송합니다."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "노드를 연구할 수 없습니다. 전차가 전투 중입니다."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "노드를 연구할 수 없습니다. 소대에 소속된 전차입니다."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "노드를 연구할 수 없습니다. 수리가 필요한 전차입니다."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "경험치가 부족하여 선택한 노드를 연구할 수 없습니다."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "연구 중이니 기다려 주십시오..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "이용 불가"
+
+msgid "footer/tooltip/header/info"
+msgstr "선택한 노드"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}}"
+msgstr[1] "• {{selectedPerks}}"
+msgstr[2] "• {{selectedPerks}}"
+
+msgid "intro/button"
+msgstr "확인"
+
+msgid "intro/button/tooltip"
+msgstr "강화 요소 정보"
+
+msgid "intro/improvements/description"
+msgstr "경험치를 획득하고 노드를 해제하여 전차 성능을 향상하십시오. 각 노드 보너스는 가산 및 승산 방식을 동시에 사용하여 계산되므로 최종 성능은 표시된 값보다 높거나 낮게 반영될 수 있습니다."
+
+msgid "intro/improvements/title"
+msgstr "작동 방식"
+
+msgid "intro/progression/description"
+msgstr "강화 요소는 11단계 전차 전용입니다. 강화를 이용하면 전차 성능을 추가로 향상할 수 있습니다."
+
+msgid "intro/progression/title"
+msgstr "강화 요소"
+
+msgid "intro/vanity/description"
+msgstr "모든 노드 연구를 완료하면 정예 보상을 이용할 수 있습니다. 정예 보상은 특정 정예 레벨을 달성할 때마다 지급됩니다. 보상 중에는 특별 입체 스타일, 전적 표시기, 포신 덮개가 포함되어 있습니다."
+
+msgid "intro/vanity/title"
+msgstr "정예 보상"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr " "
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr "도/초"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr "도"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/h"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/s"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr "마력"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr "초"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr " "
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "현재 해당 기능 이용 불가"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "강화 요소로 이동"
+
+msgid "notifications/perkAvailable/title"
+msgstr "전차를 강화하기에 충분한 경험치를 축적했습니다!"
+
+msgid "rewardScreen/button/accept"
+msgstr "확인"
+
+msgid "rewardScreen/button/check"
+msgstr "전차 꾸미기에서 보기"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "{{level}} {{type}} {{name}} 정예 레벨 {{prestigeLevel}} 달성 보상"
+
+msgid "rewardScreen/title"
+msgstr "정예 보상"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "강화 요소는 11단계 전차 전용입니다. 강화를 이용하면 전차 성능을 추가로 향상할 수 있습니다."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "강화 요소"
+
+msgid "tooltips/common/cost"
+msgstr "비용: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "전차의 고폭탄 피해 및 충돌 피해 흡수 능력이 향상됩니다."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "고폭탄 공격력이 향상됩니다."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "고폭탄 속도가 증가합니다."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "점사 모드 두 번째 사격 시 분산도가 {colorTagOpen}{value}%{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "점사 모드 사격 간 대기 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "재장전 효율 단계당 재장전 속도에 적용되는 보너스가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "재장전 효율 단계의 지속 시간이 {colorTagOpen}{value}초{colorTagClose} 연장됩니다."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "재장전 효율 단계의 지속 시간이 {colorTagOpen}{value}초{colorTagClose} 연장됩니다."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "재장전 효율 단계당 재장전 속도에 적용되는 보너스가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "기능 재사용 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "기능 재사용 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "기능 지속 시간이 {colorTagOpen}{value}초{colorTagClose} 연장됩니다."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "기능 지속 시간이 {colorTagOpen}{value}초{colorTagClose} 연장됩니다."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "단일 장약 사격 시 100m에서의 분산도가 {colorTagOpen}{value}%{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "단일 장약 사격으로 발사하는 일반 포탄과 특별 포탄의 공격력이 {colorTagOpen}{value}{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "단일 장약 사격의 포탄 속도가 {colorTagOpen}{value}m/s{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "단일 장약 사격의 재장전 시간이 {colorTagOpen}{value}%{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "현가장치 내구력과 수리 속도가 증가합니다."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "전차 탄약고 또는 엔진 손상 시 페널티가 감소하고, 전차가 피해를 받을 때 승무원이 부상을 당할 확률이 감소합니다."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "사격 후 조준원 크기가 감소합니다."
+
+msgid "tooltips/description/aimingTime"
+msgstr "전차의 조준 시간이 감소합니다."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "단발 사격 모드에서 전차의 조준 시간이 감소합니다."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "모든 포탄 유형의 공격력이 증가합니다."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "모든 포탄의 속도가 증가합니다."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "탄약고가 파괴되기 전까지 견딜 수 있는 피해량이 증가합니다."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "전차 탄약고 손상 시 페널티가 감소합니다."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "기본 포탄 공격력이 증가합니다."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "추진기 활성화 시 회전 속도가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "추진기 활성화 시 최고 속력이 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "추진기 재충전이 완료될 때까지의 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "추진기 최대 지속 시간이 {colorTagOpen}{value}초{colorTagClose} 연장됩니다."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "추력기 활성화 시 엔진 출력이 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "추력기 재사용 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "추력기 활성화 시 엔진 출력이 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "한 전투에서 추력기의 최대 사용 가능 횟수가 {colorTagOpen}{value}회{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/crewProtection"
+msgstr "전차가 피해를 받을 때 승무원이 부상을 당할 확률이 감소합니다."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "주포 손상 시 분산도가 감소합니다."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "기동 모드에서 전차 전진 속력이 향상됩니다."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "기동 모드에서 전차 후진 속력이 향상됩니다."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "전차 엔진 손상 페널티가 감소합니다."
+
+msgid "tooltips/description/enginePower"
+msgstr "엔진 출력이 향상되어 전차 가속력 및 경사면 위로 이동하는 속력이 빨라집니다."
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "재장전 시작 시간이 {colorTagOpen}{value}%{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "재장전이 중단된 후 사격 지연 시간이 {colorTagOpen}{value}%{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "탄통에 있는 마지막 포탄 발사 후 재장전 시간에 적용되는 페널티가 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "한도 초과 시 100m에서의 분산도에 적용되는 불이익이 {colorTagOpen}{value0}%{colorTagClose}, 주포 조준 시간에 적용되는 불이익이 {colorTagOpen}{value1}%{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "충전 속도가 {colorTagOpen}{value}%/초{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "사격 후 충전량 손실 속도가 {colorTagOpen}{value}%{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "한도 초과 시 증폭 공격력이 {colorTagOpen}{value0}{colorTagClose}, 최대 공격력 보너스가 {colorTagOpen}{value1}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "전진 주행 시 전차 속력이 증가합니다."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "명중률 단계당 분산도 보너스가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "명중률 단계가 상승할 수 있는 속력 최고치가 {colorTagOpen}{value}km/h{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "다음 명중률 단계에 도달하는 데 걸리는 시간이 {colorTagOpen}{value}초{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "명중률 최고 단계에서 적용되는 안정성 보너스가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "부포의 재장전 시간이 {colorTagOpen}{value}%{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "부포의 재장전 시간이 {colorTagOpen}{value}%{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "표식이 새겨진 적 전차를 발견한 상태로 유지하는 시간이 {colorTagOpen}{value}초{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "기능 재사용 시간이 {colorTagOpen}{value}초{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "기능 최초 대기 시간이 {colorTagOpen}{value}초{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "표식이 부여된 적 전차에 아군 포탄 명중 시 입히는 추가 피해량이 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "포탄을 예열할 수 있는 속력 최고치가 {colorTagOpen}{value}km/h{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "예열에 따른 최대 분산도 보너스가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "예열에 따른 최대 공격력 보너스가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "예열 최대치에 도달하는 데 걸리는 시간이 {colorTagOpen}{value}초{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "일제 사격 모드에서 주포 분산도가 {colorTagOpen}{value}m{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "일제 사격 모드에서 포탑 회전 속도가 {colorTagOpen}{value}도/초{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "일제 사격 모드에서 조준 시간이 {colorTagOpen}{value}초{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "일제 사격 모드에서 최고 전진 속력이 {colorTagOpen}{value}km/h{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "직결 구동 모드로 진입하는 데 걸리는 시간이 {colorTagOpen}{value}초{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "직결 구동 모드에서 최고 성능에 도달하는 데 걸리는 시간이 {colorTagOpen}{value}초{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "직결 구동 모드 엔진 출력이 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "직결 구동 모드 전진 속력이 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "터보 과급기 보조 장치의 엔진 출력 보너스가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "터보 과급기 보조 장치 활성화 시 최고 후진 속력이 {colorTagOpen}{value}km/h{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "터보 과급기 보조 장치 지속 시간이 {colorTagOpen}{value}초{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "터보 과급기 보조 장치 재사용 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/gunDepression"
+msgstr "주포 내림각이 향상됩니다."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "조준원 내 포탄 집중도가 향상됩니다."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "단발 사격 모드에서 조준원 내 포탄 집중도가 향상됩니다."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "모든 상황에서 주포 안정성이 향상됩니다."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "기동 및 차체 회전 시 주포 안정성이 향상됩니다."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "기동 중 주포 안정성이 향상됩니다."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "차체 회전 시 주포 안정성이 향상됩니다."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "단발 사격 모드에서 기동 및 차체 회전 시 주포 안정성이 향상됩니다."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "포탑 회전 시 주포 안정성이 향상됩니다."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "단발 사격 모드에서 포탑 회전 시 주포 안정성이 향상됩니다."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "주포 수평 최대 회전각이 증가합니다."
+
+msgid "tooltips/description/hitPoints"
+msgstr "전차의 생존력이 향상되어 파괴되기 전까지 더 많은 피해를 견딜 수 있습니다."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "주포 클립 내 포탄 간 재장전 시간이 단축됩니다."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "사격 시 적 전차에 발견될 확률이 감소합니다."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "주포 냉각 대기 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "사격 시 발생하는 열이 {colorTagOpen}{value}%{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "과열된 주포의 냉각 속도가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "고폭탄 이외의 포탄 공격력이 증가합니다."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "대체 장비 및 지휘명령 세트를 구성할 수 있습니다."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "주포 냉각 대기 시간이 {colorTagOpen}{value}초{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "가열 및 과열된 주포의 냉각 속도가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "사격 시 발생하는 열이 {colorTagOpen}{value}%{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "과열된 주포의 냉각 속도가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "모드 전환에 걸리는 시간이 {colorTagOpen}{value}초{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "터보 모드에서 초당 자동으로 생성되는 에너지양이 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "교전 모드에서 초당 자동으로 생성되는 에너지양이 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "터보 모드와 교전 모드의 효과 지속 시간이 {colorTagOpen}{value} 초{colorTagClose} 연장됩니다."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "적 전차에 충돌로 입히는 피해가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "적 전차의 현가장치에 충돌로 입히는 피해가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "적 전차에 충돌로 입히는 피해가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "적 전차에 충돌로 입히는 피해가 {colorTagOpen}{value}%{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "과열 후 재사격이 가능해질 때까지의 시간이 {colorTagOpen}{value}초{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "가열 최고 단계에서 사격할 수 있는 시간이 {colorTagOpen}{value}초{colorTagClose} 증가합니다."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "과열 후 재사격이 가능해질 때까지의 시간이 {colorTagOpen}{value}초{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "가열 단계당 공격력 보너스가 {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose}. 증가합니다."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "적의 충돌 공격으로 받는 피해가 감소합니다."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "일제 사격 모드 및 단일 사격 모드에서 주포 재장전 시간이 단축됩니다."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "전차 후진 속력이 증가합니다."
+
+msgid "tooltips/description/roleSlot"
+msgstr "두 번째 장비 슬롯 범주를 지정할 수 있습니다."
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "포대 모드에서 차체 회전 속도 및 주포 상승 속도가 {colorTagOpen}{value}%{colorTagClose} 향상됩니다."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "포대 모드를 해제하는 시간이 {colorTagOpen}{value}초{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "포대 모드에서 주포 분산도가 {colorTagOpen}{value}%{colorTagClose} 감소합니다."
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "포대 모드에서 주포 재장전 시간이 {colorTagOpen}{value}%{colorTagClose} 단축됩니다."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "전차 연료 탱크 및 엔진 부품 내구력이 향상됩니다."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "탄약고 및 엔진 손상에 대한 페널티가 감소합니다."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "적 전차의 부품에 포탄 명중 시 입히는 피해가 증가합니다."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "대체 포탄 및 소모품 세트를 구성할 수 있습니다."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "특별 포탄 공격력이 증가합니다."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "특별 포탄 관통력이 증가합니다."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "특별 포탄의 속도가 증가합니다."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "수풀 뒤에 숨은 적 전차의 위장률이 감소합니다."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "이동 중인 적 전차의 위장률이 감소합니다."
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "기본 포탄 공격력이 증가합니다."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "기본 포탄 관통력이 증가합니다."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "기본 포탄의 속도가 증가합니다."
+
+msgid "tooltips/description/stunDuration"
+msgstr "적의 포탄으로 인해 본인 전차에 폭발 충격이 적용되는 시간이 단축됩니다."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "포탑 수평 최대 회전각이 증가합니다."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "교전 모드에서 포탑 회전 시 주포 분산도가 감소합니다."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "전차 전진 및 후진 속력이 증가합니다."
+
+msgid "tooltips/description/viewRange"
+msgstr "적 전차를 발견할 수 있는 거리가 확대됩니다."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "연구 시 전차 정예 상태 달성"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "연구하려면 다른 노드를 모두 연구해야 합니다."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "범주: 위장"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "범주: 화력"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "기능 강화"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "범주: 기동"
+
+msgid "tooltips/perk/category/special"
+msgstr "특별 강화"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "범주: 정찰"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "범주: 생존"
+
+msgid "tooltips/special/tapToModify"
+msgstr "노드 연구 후 클릭하여 설정 가능"
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "고폭탄 피해 흡수"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "고폭탄 공격력"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "고폭탄 관통력"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "고폭탄 속도"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "반능동 질량 감쇠기"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "체인 구동식 장전기 강화"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "반자동 토션 완충기"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "고급 전투실 공기 여과 장치"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "원심 과압 팬"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "개조 탄약 고정쇠"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "고출력 압축기"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "6,000PSI 압축기 피스톤"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "6,000PSI 공기압 시스템"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "추가 고압 실린더"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "탄도 안정성 향상 장치"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "대형 단일 장약"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "압축형 단일 장약"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "경량 장약 분리기"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "추가 포탄 적재함"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "고급 현가장치 방호 요소"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "고급 부품 및 승무원 방호 요소"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "조준원 크기"
+
+msgid "tooltips/title/aimingTime"
+msgstr "조준 시간"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "조준 시간"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "모든 포탄 공격력"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "포탄 속도"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "탄약고 내구력"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "탄약고 페널티"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "기본 포탄 공격력"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "추력편향"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "고유량 추진제 펌프"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "증발식 냉각기"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "증산식 냉각 노즐"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "고에너지 추진 장치"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "반자동 추력기"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "코어 형태 최적화"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "확장형 추진기 보관 장치"
+
+msgid "tooltips/title/chassisHP"
+msgstr "현가장치 내구력"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "현가장치 수리 속도"
+
+msgid "tooltips/title/crewProtection"
+msgstr "승무원 보호"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "상황별 주포 분산도"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "기동 모드 전진 속력"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "기동 모드 후진 속력"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "엔진 화재 발생 확률"
+
+msgid "tooltips/title/engineHP"
+msgstr "엔진 내구력"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "엔진 페널티"
+
+msgid "tooltips/title/enginePower"
+msgstr "엔진 출력"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "유압 호스 최적화"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "장전 순서 최적화"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "개량형 장전 장치"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "포신 열 차폐 장치"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "고출력 교류 발전기"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "저저항 배선"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "맞춤형 출력 제어기"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "전진 속력"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "연료 탱크 내구력"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "전향력 센서"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "자이로스코프 경사 센서"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "개조 입력 단말기"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "고정밀 회전 센서"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "개량형 보조 포탄 적재함"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "부포 장전기"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "고급 추적 시스템"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "고효율 방열판"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "고출력 발전기"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "저분산 루비 레이저"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "개조 동력 인출 장치"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "이중 열 제어 센서"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "정밀 열 제어 장치"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "고출력 교류 발전기"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "사전 장전 포대"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "고급 회전 시스템"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "경사 제어 시스템"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "토크 조속기 해제"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "기어비 조정"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "터빈 구조 최적화"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "관형 다기관 최적화"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "개조 RPM 리미터"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "개선형 압력 조절기"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "신식 배기 매니폴드"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "확장형 공기 탱크"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "고효율 공기 압축기"
+
+msgid "tooltips/title/gunDepression"
+msgstr "주포 내림각"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "주포 분산도"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "주포 분산도"
+
+msgid "tooltips/title/gunElevation"
+msgstr "주포 올림각"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "주포 총안정성"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "주포 부분 안정성"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "기동 안정성"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "회전 안정성"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "주포 부분 안정성"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "주포 부분 안정성"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "주포 부분 안정성"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "주포 회전 개량"
+
+msgid "tooltips/title/hitPoints"
+msgstr "내구도"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "차체 고각 조절 속도"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "차체 회전 속도"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "내장 클립 재장전 시간"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "사격 후 위장률"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "저온 열전달 유체"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "고전도 열 하우징"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "열전달 파이프 최적화"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "고폭탄 이외의 포탄 공격력"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "장비 및 지휘명령 구성"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "크롬 라이너 코팅"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "고전도 포신"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "저연소 추진 장치"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "강제 환기장치"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "경량 터빈 회전자"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "고출력 보조 교류 발전기"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "고급 정류 제어"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "하이브리드 축전기 배열"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "부분 모서리 경화"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "고합금강 궤도"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "부분 심화 침탄 처리"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "부분 표면 침탄 처리"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "고정밀 열 센서"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "저관성 포미 가열기"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "기계식 충전 트레이"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "열 제어 과부하"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "충돌 피해 감소"
+
+msgid "tooltips/title/reloadTime"
+msgstr "재장전 시간"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "재장전 시간"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "후진 속력"
+
+msgid "tooltips/title/roleSlot"
+msgstr "두 번째 슬롯 범주"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "사축식 피스톤 유압 펌프"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "다단콘 동력함 동기화 장치"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "정밀 균형 회전자"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "유압 구동 장전기"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "선별 부품 내구력 향상"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "선별 부품 보호 장치"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "포탄 부품 피해"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "포탄 및 소모품 구성"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "특별 포탄 공격력"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "특별 포탄 관통력"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "특별 포탄 속도"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "관측 보너스: 수풀"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "관측 보너스: 기동"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "기본 포탄 공격력"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "기본 포탄 관통력"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "기본 포탄 속도"
+
+msgid "tooltips/title/stunDuration"
+msgstr "폭발 충격 지속 시간"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "포탑 회전 개선"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "포탑 회전 속도"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "포탑 회전 안정성"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "전차 속력"
+
+msgid "tooltips/title/viewRange"
+msgstr "관측 범위 증가"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "최종 노드를 연구하여 해제"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "입체 스타일, 전적 표시기, 포신 덮개 등 11단계 전차용 특별 보상을 수령할 수 있습니다."
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "정예 보상"
+
+msgid "vanity/available/subtitle"
+msgstr "전차 정예 레벨 달성 보상 획득"
+
+msgid "vanity/available/tooltip"
+msgstr "현재 정예 레벨"
+
+msgid "vanity/completed/subtitle"
+msgstr "축하합니다! 모든 보상을 획득했습니다."
+
+msgid "vanity/completed/tooltip"
+msgstr "현재 정예 레벨"
+
+msgid "vanity/disabled/subtitle"
+msgstr "최종 노드 연구 후 획득 가능"
+
+msgid "vanity/disabled/tooltip"
+msgstr "전차 정예 상태 미달성"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "보상 획득에 필요한 정예 레벨"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "전장에서 전차의 모습이 돋보이게 해줄 특별 포신 덮개입니다."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "지금까지 격파한 전차 수가 표시되는 독특한 신규 전차 꾸미기 요소입니다."
+
+msgid "vanity/rewardType/description/style"
+msgstr "독특한 시각 효과가 적용되어 외관에 3D 요소가 추가되는 특별 2D 스타일입니다. 11단계 전차에만 적용할 수 있습니다."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "포신 덮개 3D 부착물"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "전적 표시기"
+
+msgid "vanity/rewardType/title/style"
+msgstr "입체 스타일"
+
+msgid "vanity/title"
+msgstr "정예 보상"

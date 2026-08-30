@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Bản vẽ đã được Lắp ghép"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Bản vẽ {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Bản vẽ {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Đến mục Mua"
+
+msgid "blueprintScreen/button/research"
+msgstr "Đến mục Nghiên cứu"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Xem trong Ga-ra"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Bạn có thể lắp ghép một bản vẽ hoàn chỉnh để áp dụng giảm phí nhằm nghiên cứu chiếc xe mơ ước. Tuy nhiên, bạn cần phải nghiên cứu xe trước đó\ntrong nhánh công nghệ để dùng giảm phí."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Đã rõ!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Không thể Nghiên cứu"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Để tạo một phân đoạn bản vẽ, bạn cần:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "chọn:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "TẠO PHÂN ĐOẠN:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Tạo Phân đoạn"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Quy đổi\nphân đoạn"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Quy đổi\nkhông khả dụng"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "KHÔNG KHẢ DỤNG:\nKhông đủ\nnguồn lực"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Đến Xe"
+
+msgid "blueprintScreen/or"
+msgstr "hoặc"
+
+msgid "blueprintScreen/research"
+msgstr "NGHIÊN CỨU"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Nghiên cứu xe miễn phí"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Không thể Nghiên cứu"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Giảm phí nghiên cứu:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Xe này đã được nghiên cứu và có thể mua"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Xe này đã được nghiên cứu và mua"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "Trong Kho:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Bạn có thể sử dụng giảm phí 100% để nghiên cứu {vehicleName} sau khi đã nghiên cứu xe trước đó trong nhánh công nghệ."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Bản vẽ đã được Lắp ghép"
+
+msgid "blueprintScreen/unlocked"
+msgstr "ĐÃ NGHIÊN CỨU\nXE"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Liên Hiệp:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Trục:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Đồng Minh:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Xô-Viết:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Phổ dụng:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Liên Hiệp"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Trục"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Đồng Minh"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Xô-Viết"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(Pháp, Tiệp Khắc, Thụy Điển, Italia)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Đức, Nhật Bản)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(Mỹ, Anh, Ba Lan)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(Liên Xô, Trung Quốc)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Chọn số lượng phân đoạn quốc gia để tạo phân đoạn bản vẽ xe.\nPhân đoạn khối %(allianceIcon)%(allianceName) %(allianceNations) khả dụng."
+
+msgid "conversionView/topMessage/single"
+msgstr "Chọn phân đoạn của một trong các quốc gia để tạo phân đoạn bản vẽ xe.\nPhân đoạn khối %(allianceIcon)%(allianceName) %(allianceNations) khả dụng."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Chi phí cuối cùng:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Chi phí phân đoạn bản vẽ:"
+
+msgid "nations/china"
+msgstr "Trung Quốc"
+
+msgid "nations/czech"
+msgstr "Tiệp Khắc"
+
+msgid "nations/france"
+msgstr "Pháp"
+
+msgid "nations/germany"
+msgstr "Đức"
+
+msgid "nations/italy"
+msgstr "Italia"
+
+msgid "nations/japan"
+msgstr "Nhật Bản"
+
+msgid "nations/poland"
+msgstr "Ba Lan"
+
+msgid "nations/sweden"
+msgstr "Thụy Điển"
+
+msgid "nations/uk"
+msgstr "Anh"
+
+msgid "nations/usa"
+msgstr "Mỹ"
+
+msgid "nations/ussr"
+msgstr "Liên Xô"

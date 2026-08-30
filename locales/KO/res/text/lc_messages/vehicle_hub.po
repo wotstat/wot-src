@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "클립에 장전된 포탄을 한 발씩 발사합니다. 각 포탄은 일정 시간에 걸쳐 자동으로 재장전됩니다."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "클립에 장전된 포탄을 한 발씩 발사합니다. 각 포탄은 일정 시간에 걸쳐 자동으로 재장전됩니다. 재장전하는 동안 다음 포탄의 장전 속도에 보너스가 적용됩니다."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "포탄을 빠르게 연사하여 짧은 시간 동안 큰 피해를 주지만, 대신 관통력과 명중률이 낮습니다. 접근전에서 효과적입니다."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "50m 거리에서 최대 피해를 기록하는 유성탄을 발사합니다. 거리가 멀어질수록 포탄 공격력이 감소하므로 접근전에서 효과적입니다."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "독특한 냉각 시스템을 갖추고 있어 2단 조준이 가능합니다. 재장전 후 일정 시간을 기다리면 주포 사격 명중률이 향상됩니다. 향상된 명중률은 기존 조준원보다 작은 2차 조준원으로 표시됩니다."
+
+msgid "abilities/common/description/dualGun"
+msgstr "이중포신 주포 시스템을 탑재하고 있습니다. 두 주포를 따로따로 발사할 수도, 동시에 발사할 수도 있습니다. 일제 사격 시 단숨에 높은 피해를 입힐 수 있지만, 재장전 시간이 길어집니다."
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "차체의 고각을 조절하여 전투 중 다양한 위치에서 사격할 수 있습니다. 여러 조건에 따라 활성화됩니다."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "추가 차륜의 위치를 변경하여 속력을 크게 향상하지만, 대신 기동성이 저하됩니다. 먼 거리를 이동할 때나 돌격을 감행할 때 사용하는 것이 좋습니다."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "클립에 장전된 포탄을 연사할 수 있습니다. 연사한 후에는 클립을 전부 재장전해야 합니다. 폭발적인 피해를 기록할 수 있지만, 재장전하는 동안에는 전차가 취약해집니다. 클립 전체를 한 번에 재장전해야만 합니다."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "해당 주포는 재장전 없이 연속으로 사격할 수 있습니다. 사격 시마다 열이 발생하며, 포열이 높아질수록 일부 성능의 편차가 커질 수 있습니다. 연속 사격으로 주포가 과열되면 냉각될 때까지 사격할 수 없는 상태가 됩니다."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "엔진 출력을 높여 최고 속력을 향상함으로써 전장을 빠르게 가로지를 수 있습니다. 제트 추진기가 활성화된 동안은 기동성이 저하되며 수동으로 비활성화할 수 없습니다."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "특수 모드를 활성화하면 특정 전투 성능이 향상되거나 변화합니다. 위치 선정을 마치고 교전 준비가 되었을 때 활성화하는 것이 가장 좋습니다."
+
+msgid "abilities/common/description/stun"
+msgstr "폭발 범위 내 적 전차에 폭발 충격을 기록하여 기동성, 명중률, 재장전 시간 등 성능을 저하합니다. 포탄이 직격하지 않아도 효과가 적용됩니다. 폭발 충격을 받은 적에게는 별도의 표시가 부여됩니다."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "주 궤도가 파괴되었을 때 속도만 감소한 상태로 이동할 수 있습니다. 비상 궤도가 파괴되면 기동성이 더욱 저하되지만, 회전 및 기동은 여전히 가능합니다."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "전차 속력이 크게 증가하지만, 대신 주포 조작 성능이 크게 저하됩니다."
+
+msgid "abilities/common/description/twinGun"
+msgstr "특수 모드를 활성화하면 공격력이 두 배로 증가하고 특정 전투 성능이 향상되거나 변화합니다. 접근전에서 사용하는 것이 좋습니다."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "자동 재장전 주포"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "개량형 자동 재장전 주포"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "자동포"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "강선 주포"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "주포 냉각"
+
+msgid "abilities/common/name/dualGun"
+msgstr "이중포신 주포"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "공기압 현가장치"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "가속 모드"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "클립식 주포"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "과열 제어 자동포"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "제트 추진기"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "사격 모드"
+
+msgid "abilities/common/name/stun"
+msgstr "폭발 충격"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "비상 궤도"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "터보 모드"
+
+msgid "abilities/common/name/twinGun"
+msgstr "일제 사격 모드"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "정지 상태를 유지하거나 천천히 이동하면 다음 포탄의 명중률이 단계적으로 상승합니다.\n명중률 최고 단계에 도달하면 기동 또는 포탑/차체 회전 시 분산도가 감소하는 등 전차 주포 안정성이 준수한 수준으로 향상됩니다."
+
+msgid "abilities/special/description/battleFury"
+msgstr "적에게 포탄이 명중하면 재장전 효율 단계가 상승하여 일시적으로 주포의 재장전 속도가 가속됩니다. 단계는 포탄이 명중할 때마다 누적됩니다.\n적 전차를 포탄으로 격파하면 재장전 효율 단계가 추가로 상승합니다."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "주포가 장전되면 다음에 발사할 포탄을 가열하여 공격력을 강화할 수 있습니다. 가열 단계가 높을수록 효과가 커집니다.\n가열 최고 단계에 도달하면 수 초 안에 발사해야 합니다. 해당 시간이 지나면 일시적으로 포탄을 발사할 수 없습니다."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "적 전차에 장갑 관통 피해를 두 번 기록하면 점사용 탄통을 장착하여 점사 모드가 활성화됩니다. 다음 사격 시 포탄을 두 발 연속으로 빠르게 발사하여 큰 피해를 입힐 수 있습니다."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "공기압 자이로 안정기는 기동 시/차체 회전 시/포탑 회전 시 안정성을 극대화하여 움직이는 도중에도 정확히 사격할 수 있어 갑작스러운 위협에 빠르게 반응하거나 엄폐물에서 효과적으로 교전할 수 있도록 하는 기능입니다."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "현재 탄통에 포탄이 한 발만 남아있으면 시스템이 자동으로 새로운 탄통을 장전하여 교전 준비 상태를 유지합니다. 이 과정이 진행되는 중에도 마지막 포탄을 발사할 수 있지만, 남은 재장전 시간이 수 초 연장됩니다."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "주포 냉각 상태를 유지하여 높은 사격 명중률을 확보할 수 있는 시스템입니다. 주포는 사격 시 가열되지만, 재장전하는 동안 다시 냉각되어 향상된 성능을 발휘할 수 있습니다. 포열이 높아질수록 일부 성능의 편차가 커질 수 있습니다."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "해당 전차는 이전 전차 설계 경험을 바탕으로 치명적인 충돌 공격을 위한 특별 사양으로 개발되었습니다. 구조적 보강을 통해 적 전차를 들이받을 때 더 많은 피해를 입힐 수 있으므로 근접전에서 우위를 점할 수 있습니다."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "해당 전차의 주포는 재장전이 완료되기 전에도 사격할 수 있습니다. 재장전 중 가하는 단일 장약 사격은 효과가 떨어지지만, 재장전 완료 후 가하는 최대 장약 사격은 최적의 탄도 성능을 발휘합니다."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "해당 주포는 재장전 없이 연속으로 사격할 수 있습니다. 사격 시마다 열이 발생하며, 포열이 높아질수록 일부 성능의 편차가 커질 수 있습니다. 연속 사격으로 주포가 과열되면 냉각될 때까지 사격할 수 없는 상태가 됩니다."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "정지 상태를 유지하거나 천천히 이동하면 예열이 쌓여 다음 포탄의 공격력과 명중률이 향상됩니다. 예열이 최대치에 도달했을 때 본인 전차의 평균 공격력보다 내구도가 적은 적을 관통하면 탄약고가 폭발하여 해당 전차가 파괴됩니다."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "모드가 활성화되면 전차가 요새형 포대로 변신하여 명중률과 재장전 시간이 크게 향상됩니다. 화력이 강화되는 대신 전진/후진 속력, 수직/수평 회전 속도 등 기동성이 크게 제한됩니다."
+
+msgid "abilities/special/description/powerMode"
+msgstr "모드가 활성화되면 엔진 출력과 최고 전진 속력이 크게 향상됩니다. 전진 주행 상태를 오래 유지할수록 속력이 더 크게 향상되므로 전장을 활보하거나 먼 거리를 이동할 때 좋습니다."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "시간이 흐름에 따라 자동으로 충전되며, 충전량이 높을수록 공격력이 향상됩니다. 제어기에 의해 특정 한도까지만 충전됩니다. 제어기를 비활성화하여 충전 한도를 초과하면 공격력에 더 큰 보너스가 적용되지만 주포 조작성이 떨어집니다."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "필요할 때 언제든지 액체 연료 추진기를 활성화하여 속력을 높일 수 있습니다. 추진기는 가열되므로 재사용하기 전에 냉각이 필요합니다. 가열 한도를 초과하면 일시적으로 완전히 비활성화됩니다."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "일정 시간 동안 가속력, 속력, 기동력을 높일 수 있는 고체 연료 추력기입니다. 좌우 추력기는 서로 별도로 작동하여 차체를 더 신속히 선회할 수 있으며, 후진 성능에도 영향을 미치지 않습니다."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "활성화된 모드 및 충전 단계에 따라 두 가지 능력 중 하나를 활성화할 수 있습니다.\n이온 방출식 재연소 장치: 엔진 출력과 속력이 증가합니다.\n동시 회로 전기기계식 조준 장치: 분산도와 재장전 시간이 감소하고 명중률이 향상됩니다."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "포탄이 한 발 이상 장전되어 있다면 언제든지 재장전을 중단하여 전투를 지속할 수 있습니다. 단축키를 눌러 재장전을 중단하고, 짧은 지연 시간 후 사격한 뒤 수동으로 재장전을 재개할 수 있습니다. 클립이 비면 자동으로 재장전이 재개됩니다."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "활성화 버튼을 누르면 전차의 부무장이 목표를 사격합니다. 해당 추가 무장에는 주포와는 독립적인 자체 재장전 주기가 적용됩니다."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "다음 사격 시 적의 발견 상태에 따른 효과가 적용됩니다. 발견된 적에게 공격이 명중하면 표식을 부여하여 발견 상태 지속 시간을 연장하고 추가 피해를 입힙니다. 발견되지 않은 적에게 공격이 명중하면 특별 표식으로 위치를 강조합니다."
+
+msgid "abilities/special/description/twinGun"
+msgstr "공격력이 두 배로 증가하고 주포 안정성이 향상되지만, 대신 기동성, 명중률, 포탑 회전 속도, 조준 시간이 저하됩니다. 접근전에서 사용하는 것이 좋습니다."
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "해당 기계식 개조 장치를 사용하면 일정 시간 동안 전차의 가속력, 엔진 출력, 최고 전진 및 후진 속력을 크게 높여, 적의 공격에 신속하게 대응하고 역동적인 기동으로 적을 기습할 수 있습니다."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "아날로그식 탄도 계산기"
+
+msgid "abilities/special/name/battleFury"
+msgstr "반자동 탄약 적재함"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "열탄도 과충전"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "점사 모드"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "공기압 자이로 안정기"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "탄통 장전 장치"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "능동 주포 냉각 시스템"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "충돌용 사양"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "다중 장약 시스템"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "과열 제어 자동포"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "열 추진 제어 시스템"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "포대 모드"
+
+msgid "abilities/special/name/powerMode"
+msgstr "직결 구동"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "유도 추진식 재연소 장치"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "액체 연료 추진기"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "연속 로켓 추력기"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "전술 동력함"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "외장형 탄약 보급 장치"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "부무장"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "레이저 표적 지시기"
+
+msgid "abilities/special/name/twinGun"
+msgstr "일제 사격 모드"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "고압 터보 과급기 보조 장치"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "다음 포탄 명중률이 향상됩니다. 완전 보정 시 안정성이 준수한 수준으로 향상됩니다."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "적 전차에 공격이 명중할 때마다 일정 시간 동안 주포 재장전 속도가 향상됩니다."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "다음 포탄을 가열하여 적 전차에 입히는 피해량을 강화합니다."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "점사용 탄통을 탑재하여 포탄 2발을 빠르게 연속으로 발사합니다."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "기동 및 회전 시 안정성을 극대화하여 사격 명중률을 향상합니다."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "포탄이 한 발만 남게 되면 자동으로 재장전이 개시됩니다. 마지막 포탄은 재장전 도중에도 발사할 수 있습니다."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "주포를 냉각하여 명중률을 높이는 능동 주포 냉각 시스템입니다."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "적 전차에 충돌로 입히는 피해가 증가합니다."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "재장전 완료 전에 낮은 효율로 적을 사격할 수 있는 특별 주포 시스템입니다."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "재장전 없이 연속으로 사격하고 포열 발생 시 열을 제어하는 시스템입니다."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "정지 상태를 유지하거나 천천히 이동하면 다음 포탄 공격력 및 명중률이 향상됩니다."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "주포 명중률과 재장전 시간이 급격히 향상되지만, 기동성이 크게 제한됩니다."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "전차가 기동 상태를 오래 유지하면 그에 따라 엔진 출력이 향상되어 최고 속력이 향상됩니다."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "시스템 충전으로 공격력에 보너스가 적용됩니다. 충전량이 높을수록 공격력이 더 크게 증가합니다."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "언제든 추진기를 활성화하여 속력을 급격히 가속할 수 있습니다."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "가속력, 속력, 기동력을 높이는 고체 연료 추력기입니다."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "두 가지 특별 능력 중 하나를 사용할 수 있습니다. 한 능력은 사용 시 속력이 가속되고 다른 능력은 주포 명중률이 향상됩니다."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "위기의 순간에 재장전을 중단하고 즉시 반격할 수 있습니다."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "주포와 함께 공격하여 화력을 강화할 추가 무장을 탑재하고 있습니다."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "표식이 적용된 적이 발각된 상태로 유지되는 시간과 해당 적이 받는 피해량이 증가합니다. 또는 특별한 표식으로 적의 위치를 강조합니다."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "두 주포를 동시에 사격할 수 있습니다. 대신 재장전 시간이 증가합니다."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "일시적으로 엔진 출력, 가속력, 최고 속력을 향상하는 특별 시스템입니다."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "정지 상태를 유지하거나 일정 속력 이하로 이동하면 전차의 아날로그식 탄도 계산기가 보정됨에 따라 명중률 단계가 증가하여 다음 사격 명중률이 향상됩니다. 속력 제한을 초과하면 속력을 줄일 때까지 명중률 단계 상승이 중단됩니다. 명중률 최고 단계에 도달하면 기동 또는 포탑/차체 회전 시 분산도가 감소하는 등 전차 주포 안정성이 준수한 수준으로 향상됩니다. 사격 시 효과가 사라집니다."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "발견된 적에게 포탄이 명중할 때마다 재장전 효율 단계가 상승하여 일시적으로 주포 재장전이 가속됩니다. 단계는 명중 시마다 축적됩니다. 적 전차를 포탄으로 격파하면 재장전 효율 단계가 추가로 상승합니다."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "포탄이 장전되면 다음에 발사할 포탄을 가열할 수 있습니다. 가열 단계가 높을수록 평균 공격력에 더 큰 보너스가 적용됩니다. 가열 중에는 포탄을 변경할 수 없습니다. 가열 최고 단계에 도달하면 수 초 안에 발사해야 합니다. 해당 시간이 지나면 일시적으로 포탄을 발사할 수 없습니다."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "적 전차 장갑을 두 번 관통하면 점사용 탄통을 장착하여 점사 모드가 활성화됩니다. 다음 사격 시 포탄을 두 발 연속으로 빠르게 발사하여 큰 피해를 입힐 수 있습니다."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "공기압 자이로 안정기는 차체 및 포탑 회전 시 안정성을 극대화하여 이동 중에도 정확히 사격할 수 있어 갑작스러운 위협에 빠르게 반응할 수 있도록 하는 기능입니다."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "현재 탄통에 포탄이 한 발만 남아 있으면 시스템이 자동으로 새로운 탄통을 장전합니다. 새로운 탄통을 장전하는 중에 마지막 포탄을 발사하면 남은 재장전 시간이 수 초 연장됩니다. 클립 재장전 단축키를 누르면 마지막 포탄을 제외한 모든 포탄이 버려집니다. 단축키를 두 번 누르면 완전히 장전된 탄통을 초기화할 수 있습니다."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "주포 냉각 상태를 유지하여 높은 사격 명중률을 확보할 수 있는 시스템입니다. 주포는 사격 시 가열되지만, 재장전하는 동안 다시 냉각되어 향상된 성능을 발휘할 수 있습니다. 포열이 높아질수록 일부 성능의 편차가 커질 수 있습니다."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "해당 전차는 충돌 공격을 위한 특별 사양으로 설계되었습니다. 적 전차에 충돌로 입히는 피해가 증가합니다."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "해당 전차의 주포는 재장전이 완료되기 전에도 사격할 수 있습니다. 재장전 중 가하는 단일 장약 사격은 효과가 떨어지지만, 재장전 완료 후 가하는 최대 장약 사격은 최적의 탄도 성능을 발휘합니다."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "해당 주포는 재장전 없이 연속으로 사격할 수 있습니다. 사격 시마다 열이 발생하며, 포열이 높아질수록 일부 성능의 편차가 커질 수 있습니다. 연속 사격으로 주포가 과열되면 냉각될 때까지 사격할 수 없는 상태가 됩니다."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "정지 상태를 유지하거나 일정 속력 이하로 이동하면 예열이 쌓여 다음 포탄의 평균 공격력과 명중률이 향상됩니다. 보너스는 속력 제한을 초과하면 점차 감소하며, 사격하거나 포탄을 변경하면 즉시 초기화됩니다. 예열 최대치 도달 시 본인 전차의 평균 공격력(예열 보너스 적용 후 기준)보다 내구도가 적은 적을 관통하면 탄약고가 폭발하여 해당 전차가 파괴됩니다."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "모드가 활성화되면 주포 명중률, 재장전 속도, 올림각/내림각이 급격히 증가하지만, 기동성(전진/후진 속력 및 수평/수직 회전 속도)은 크게 제한됩니다. 백분율로 표시되는 수치는 공격 모드와 비교한 값입니다."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "직결 구동 모드가 활성화되면 엔진 출력과 최고 전진 속력이 크게 향상됩니다. 전진 주행 상태를 오래 유지할수록 속력이 더 크게 향상되므로 전장을 손쉽게 활보할 수 있습니다."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "시간이 흐름에 따라 자동으로 충전되며, 사격 시 충전량 일부를 소모하여 공격력을 높입니다. 충전량이 높을수록 공격력에 더 큰 보너스가 적용됩니다. 기본적으로 특정 한도까지만 충전됩니다. 제한 장치를 비활성화하면 더 높은 단계까지 충전되어 공격력 보너스가 크게 증가하지만, 주포 조작성이 감소합니다."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "액체 연료 추진기를 사용하면 엔진 출력이 향상되어 전장에서 유리한 고지를 점할 수 있지만, 대신 전차 후진 속력 및 회전 속도가 제한됩니다. 재사용 제한에 도달하였을 때를 제외하고 언제든지 활성화/비활성화할 수 있습니다. 추진기는 활성화된 동안 가열되며, 냉각할 때까지 이용 불가 상태가 되므로 연속적으로는 사용할 수 없습니다. 가열 한도를 초과하면 일시적으로 완전히 비활성화됩니다. 불의의 습격을 당하지 않도록 신중하게 움직임을 계획하십시오."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "일정 시간 동안 가속력, 기동 성능을 높일 수 있는 고체 연료 추력기입니다. 일반 제트 추진기와 달리 좌우 추력기는 서로 별도로 작동하여 차체를 더 신속히 선회할 수 있으며, 후진 성능에도 영향을 미치지 않습니다. 전투당 여러 번 사용할 수 있지만 재사용 전 재사용 대기 시간이 필요합니다."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "활성화된 모드 및 충전 단계에 따라 이온 방출식 재연소 장치 또는 동시 회로 전기기계식 조준 장치 두 가지 능력 중 하나를 활성화할 수 있습니다.\n이온 방출식 재연소 장치를 사용하면 엔진 출력, 최고 전진 속력, 후진 속력이 일시적으로 증가합니다. 동시 회로 전기기계식 조준 장치를 사용하면 일시적으로 명중률이 향상되고 재장전 시간이 감소합니다."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "탄약이 하나라도 장전되어 있는 한 언제든 재장전을 중단하고 사격할 수 있도록 하는 외장형 탄약 보급 장치를 사용할 수 있습니다. 재장전 중에는 전차의 포탑과 외장 탄약함이 장치에 의해 차단되므로, 이를 중단하지 않는 한 일시적으로 조준이나 발사를 할 수 없습니다."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "해당 전차는 주포와는 별도의 재장전 주기가 적용되는 부무장을 장착하고 있어 중요한 순간에 추가 피해를 입힐 수 있습니다."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "레이저 표적 지시기를 활성화하면 다음에 발사하는 포탄에 명중 시 적용되는 특수 효과가 부여됩니다. 포탄이 적중하는 순간에 적 전차가 발견된 상태였는지 여부에 따라 효과가 달라집니다. 발견된 적 전차에 포탄이 명중하면 해당 전차에 표식이 부여되어 발견 유지 시간이 연장되고 포탄으로 받는 피해가 증가합니다. 발견되지 않은 적 전차에 명중하면 해당 전차의 위치가 특별 표식으로 강조됩니다."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "공격력이 두 배로 증가하고 주포 안정성이 향상되지만, 대신 기동성, 명중률, 포탑 회전 속도, 조준 시간이 저하됩니다. 접근전에서 사용하는 것이 좋습니다."
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "해당 기계식 개조 장치를 사용하면 일정 시간 동안 전차의 가속력, 엔진 출력, 최고 전진 및 후진 속력을 크게 높여, 적의 공격에 신속하게 대응하고 역동적인 기동으로 적을 기습할 수 있습니다. 이동 시 높은 속력을 유지하면 해당 기능의 재사용 시간이 단축됩니다."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "표시된 수치는 해당 전차의 최대 성능치입니다. 해당 수치는 장비, 지휘명령, 소모품에 따라 변동될 수 있지만, 그와 같은 변동 사항은 이곳에 반영되지 않습니다."
+
+msgid "characteristics/templates/upTo"
+msgstr "최대 %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "구매 후 장착"
+
+msgid "modules/controls/button/field_modification"
+msgstr "야전 개량"
+
+msgid "modules/controls/button/mount"
+msgstr "장착"
+
+msgid "modules/controls/button/research"
+msgstr "연구"
+
+msgid "modules/controls/button/sell"
+msgstr "보관소에서 판매"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "전투 중인 전차입니다. 전투가 종료된 후에 부품을 변경할 수 있습니다."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "전차가 손상되었습니다. 부품을 변경하려면 수리하십시오."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "부품을 장착할 수 없습니다. 호환되지 않는 {{module}}입니다."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "소대에 소속된 전차입니다."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "부품을 변경하려면 전차를 구매하십시오."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "해당 부품을 연구하려면 먼저 이전 부품을 연구하십시오."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "부품을 연구하려면 먼저 해당 전차를 연구하십시오."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "모든 부품을 연구했습니다."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "이미 장착한 부품입니다."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "연구할 부품 또는 전차를 선택하십시오."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "전투 중인 전차입니다. 전투가 종료된 후에 부품을 변경할 수 있습니다."
+
+msgid "modules/controls/name"
+msgstr "선택: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "차대"
+
+msgid "modules/name/vehicleEngine"
+msgstr "엔진"
+
+msgid "modules/name/vehicleGun"
+msgstr "주포"
+
+msgid "modules/name/vehicleRadio"
+msgstr "무전기"
+
+msgid "modules/name/vehicleTurret"
+msgstr "포탑"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "차륜"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "수집 전차"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "획득 가능"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "크레딧 획득"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "비용이나 재훈련 없이 승무원 이동"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "일반 경험치 및 승무원 경험치"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "전쟁 채권"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "추가"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "무료"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "추가"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "전쟁 채권 획득"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "크레딧 추가 획득"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "승무원 자유 이동"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "경험치 추가 획득"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "무료 수리 도구"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "획득 가능"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "전투당 크레딧"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "불이익 없이 전차 승무원 이동"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "일반 경험치 및 승무원 경험치"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "전쟁 채권"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "추가"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "무료"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "추가"
+
+msgid "overview/crew/name"
+msgstr "승무원{{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "기능 확인"
+
+msgid "overview/title/generalDescription"
+msgstr "전차 설명"
+
+msgid "overview/title/historicalReference"
+msgstr "역사적 배경"
+
+msgid "researchPurchase/discountTimer"
+msgstr "{{date}}까지"
+
+msgid "researchPurchase/recover"
+msgstr "복구 가능 기한: {{date}}"
+
+msgid "tabs/armor"
+msgstr "장갑"
+
+msgid "tabs/modules"
+msgstr "부품"
+
+msgid "tabs/overview"
+msgstr "개요"
+
+msgid "tabs/stats"
+msgstr "성능"
+
+msgid "tabs/vehSkillTree"
+msgstr "강화 요소"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "대여 종료"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "구독 만료"

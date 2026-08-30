@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "仍要戰鬥"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "裝備!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "戰術裝置未滿"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "所選車輛缺少一個或多個戰術裝置。這可能嚴重影響您的戰鬥表現。仍要進入戰鬥？"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "您可為砲彈與戰術裝置自訂活動專用的預設熱鍵。\n此變更僅會套用於活動戰鬥且不會影響任何其他模式。\n您可修改個別熱鍵，前往「選單」—「設定」—「控制」（「消耗品」底下）。"
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "消耗品預設熱鍵變更"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "完成當前任務以獲取獨特的「背水一戰：潘朵拉行動」徽章："
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "史詩成就任務"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "研發後，所有戰術裝置的{EDCB9E_Start}迷離物質費用{EDCB9E_End}降低 {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}。"
+
+msgid "booster/booster_ability_cost/name"
+msgstr "迷離物質效率"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "研發後，{EDCB9E_Start}戰術裝置的效果持續時間{EDCB9E_End}延長 {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}。"
+
+msgid "booster/booster_ability_duration/name"
+msgstr "裝置效果持續時間"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "研發後，{EDCB9E_Start}戰術裝置的效果半徑{EDCB9E_End}擴大 {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}。"
+
+msgid "booster/booster_ability_radius/name"
+msgstr "裝置效果半徑"
+
+msgid "booster/booster_heal/description"
+msgstr "研發後，套用至車輛的所有{EDCB9E_Start}治療效果{EDCB9E_End}提高 {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}。"
+
+msgid "booster/booster_heal/name"
+msgstr "治療效果"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "研發後，{EDCB9E_Start}方尖體傳導給敵方車輛的傷害量{EDCB9E_End}提高 {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}。"
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "方尖體傳導的傷害"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "研發後，{EDCB9E_Start}迷離物質拾取半徑{EDCB9E_End}擴大 {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}。"
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "迷離物質拾取半徑"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "研發後，從被摧毀車輛{EDCB9E_Start}收集的迷離物質數量{EDCB9E_End}增加 {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}。"
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "迷離物質收集"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "研發後，摧毀一波敵人獲取的{EDCB9E_Start}迷離物質數量{EDCB9E_End}增加 {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}。"
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "每波的迷離物質"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "研發後，重生時恢復的{EDCB9E_Start}迷離物質數量{EDCB9E_End}增加 {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}。"
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "重生時的迷離物質"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "研發後，{EDCB9E_Start}車輛的迷離物質容量上限{EDCB9E_End}提高 {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}。"
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "迷離物質容量"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "防禦者組合包"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "已購買密鑰"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "獲得 5 倍經驗加成的選項，從當天任何車輛的第二場勝場戰鬥開始。"
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "5 倍經驗加成任務"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "按照類型、國家，以及其他參數來設置車輛顯示。"
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "按參數過濾"
+
+msgid "common/back"
+msgstr "返回"
+
+msgid "common/close"
+msgstr "關閉"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "前往活動"
+
+msgid "common/toRewardPath"
+msgstr "前往進度"
+
+msgid "common/yes"
+msgstr "了解!"
+
+msgid "difficult/daily"
+msgstr "每日密鑰任務已解鎖"
+
+msgid "difficult/disabled/body"
+msgstr "您在裝甲排中。僅有指揮官能變更難度等級。"
+
+msgid "difficult/disabled/header"
+msgstr "無法變更難度"
+
+msgid "difficult/level_1"
+msgstr "普通"
+
+msgid "difficult/level_2"
+msgstr "硬核"
+
+msgid "difficult/level_3"
+msgstr "殘忍"
+
+msgid "difficult/new"
+msgstr "新"
+
+msgid "difficult/searching/body"
+msgstr "在搜尋期間無法使用。"
+
+msgid "difficult/tooltip/description/level1"
+msgstr "敵人擁有較低的耐久性與較薄弱的裝甲。每場戰鬥可獲取基本數量的數據。"
+
+msgid "difficult/tooltip/description/level2"
+msgstr "敵人具有較厚實的裝甲。每場戰鬥的數據增為 {{modifier}}。"
+
+msgid "difficult/tooltip/description/level3"
+msgstr "更多敵人且其裝甲較為厚實。每場戰鬥的數據增為 {{modifier}}。"
+
+msgid "difficult/tooltip/description/reward"
+msgstr "首次摧毀最後一波敵人的獎勵："
+
+msgid "difficult/tooltip/header/level1"
+msgstr "「普通」難度"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "「硬核」難度"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "「殘忍」難度"
+
+msgid "difficult/tooltip/locked"
+msgstr "難度鎖定"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "完成「普通」難度等級以解鎖此難度。"
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "完成「硬核」難度等級以解鎖此難度。"
+
+msgid "difficult/tooltip/state/default"
+msgstr "難度已可進行"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "難度已選擇"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "摧毀的波數：{count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "普通"
+
+msgid "difficult/uppercase/level_2"
+msgstr "硬核"
+
+msgid "difficult/uppercase/level_3"
+msgstr "殘忍"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "敵人具有較厚實的裝甲。每場戰鬥更多銀幣且數據增為 {{modifier}} 倍。"
+
+msgid "difficultyWindow/description/level_3"
+msgstr "更多敵人且其裝甲較為厚實。每場戰鬥更多銀幣且數據增為 {{modifier}} 倍。"
+
+msgid "difficultyWindow/description/level_4"
+msgstr "與一波又一波敵人交戰並擊敗對方，攀上排行榜之巔來展現您的戰鬥實力。獨特獎勵與其他豐富內容等您獲取。"
+
+msgid "difficultyWindow/header/level_2"
+msgstr "「硬核」難度等級"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "「殘忍」難度等級"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "「背水一戰」模式"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "硬核"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "殘忍"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "「背水一戰」"
+
+msgid "difficultyWindow/rewards"
+msgstr "完成獎勵："
+
+msgid "difficultyWindow/title"
+msgstr "可進行"
+
+msgid "hangar/exit"
+msgstr "離開活動"
+
+msgid "hangar/narration"
+msgstr "故事"
+
+msgid "hangar/tooltip/about"
+msgstr "深入了解「背水一戰：北境大地」活動。"
+
+msgid "hangar/tooltip/narration"
+msgstr "深入了解活動故事。"
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "戰術裝置"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "武裝"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "背水一戰"
+
+msgid "iconButton/comparison/default"
+msgstr "車輛比較"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "車輛比較無法使用"
+
+msgid "iconButton/preview/default"
+msgstr "預覽車輛"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "車輛比較無法使用"
+
+msgid "keyCard/name"
+msgstr "解碼密鑰"
+
+msgid "meta/btn/decrypt"
+msgstr "解碼"
+
+msgid "meta/btn/skip"
+msgstr "跳過"
+
+msgid "meta/btn/view"
+msgstr "檢視"
+
+msgid "meta/receive/description"
+msgstr "收集 %(keys) / %(decrypt) %(icon) \n以解碼此紀錄"
+
+msgid "metaIntro/description/fight"
+msgstr "進行活動戰鬥並獲取數據來推進進度。"
+
+msgid "metaIntro/description/progress"
+msgstr "收集數據來研發車輛升級並接受更嚴峻的挑戰。"
+
+msgid "metaIntro/description/reward"
+msgstr "完成進度階段以獲得特殊活動獎勵。檢視「獎勵之路」以了解更多詳情。"
+
+msgid "metaIntro/header/fight"
+msgstr "活動戰鬥"
+
+msgid "metaIntro/header/progress"
+msgstr "升級"
+
+msgid "metaIntro/header/reward"
+msgstr "獨特獎勵"
+
+msgid "metaIntro/title"
+msgstr "進度"
+
+msgid "missionWidget/complete"
+msgstr "任務已完成。\n明天再回來繼續。"
+
+msgid "missionWidget/tooltipBody"
+msgstr "完成當前的每日任務以獲取獎勵，這些任務每 24 小時推出。今天的任務："
+
+msgid "missionWidget/tooltipHeader"
+msgstr "每日任務"
+
+msgid "narration/actions/voiceover"
+msgstr "配音"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}最高機密{{/}}{{titleParagraph}}{{@ class $highlightText}}區域：N-07（「極光」防線）{{/}}{{pargraphStart}}我們的預測正確。觀測站人員在事件開始前 11 天，就記錄到異常空間正在接近。這是我們首次預測到它的到來。{{pargraphStart}}暴風雨前的寧靜期間，阿特拉斯的生產已標準化。新模組的組裝速度更快，校準也更精確。我們進行了訓練，演練了陣型，並準備了預備小隊。全員戒備。{{pargraphStart}}然而異常空間另有盤算。{{pargraphStart}}時空漏斗並未在預測的區域開啟。卻是在此出現，一個偏遠的北部地區，遠離已部署的基礎設施。為何選擇此地點尚待釐清，既有模型並未指向該區域。我們立即緊急重新部署，但地形和距離對我們不利。部分車輛與小隊將延遲抵達。{{pargraphStart}}我們成功運送的每座阿特拉斯現在都不可或缺。{{pargraphStart}}這次，我們已為戰鬥做好準備。但卻是在不同的地點作戰。{{pargraphStart}}簽署：管理員（M 計畫）"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}分析備忘錄 27/C「入侵地點選擇」{{/}}{{titleParagraph}}僅限內部查閱。「限制查閱」戳章。{{pargraphStart}}有個我必須回答卻無法回答的問題：為何是這裡？{{pargraphStart}}此區域對時空漏斗沒有任何戰略價值。這裡什麼都沒有，沒有基礎設施，也沒有聚落。島上只有一座已關閉的軍事基地。回聲戰車無法渡海，那為何要佔領它們無法發動攻擊的地點？{{pargraphStart}}我申請調閱該區域的完整行動歷史。拿到的資料被大量塗刪，全都被塗黑了。第二次申請被退回，並附帶註記：「依 {{@ class $highlightSecondaryText}}[資料已移除]{{/}} 授權限制查閱」。身為研究部門主管，我的建議會決定這個區域的防禦策略，但我卻無法獲得有關此地的資訊！{{pargraphStart}}以下是我從戰場數據中推斷出的結論：時空漏斗的行為，與我們在 R-22 區觀察到的不符。出現了我們從未見過的新型回聲戰車。它們的功能相當於我們的遠距驅逐戰車，且在這類地形上極為高效。對手從我們的戰術中學習，並採取了反制措施。現在輪到我們做出應變了。{{pargraphStart}}也許它需要這個地方，又或者是這地底下的東西。{{pargraphStart}}我不知道答案。而令我憂心的是，有人知情，卻不肯透露。{{pargraphStart}}簽署：管理員（M 計畫）"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}管理員個人紀錄{{/}}{{pargraphStart}}我重新思考了自己的假設。總共三個。{{pargraphStart}}  1. 異常空間試圖摧毀我們。{{pargraphStart}}  2. 異常空間正在進行實驗。它研究我們的戰術，分析我們的反應，進行調整並學習。{{pargraphStart}}  3. 異常空間正在進行訓練。每波攻勢都是新戰術的演練；每場戰鬥都是實戰環境下的訓練。{{pargraphStart}}這三個假設都有一個共同的前提：我們是這次入侵的目標。{{pargraphStart}}但如果我們不是呢？{{pargraphStart}}如果異常空間別有居心，而我們只是擋了它的路呢？就像在築路時被淹沒的螞蟻窩。築路者無意與螞蟻開戰，只是根本沒注意到螞蟻而已。{{pargraphStart}}你可以阻止一個想摧毀你的敵人，也可以與之談判。但你無法嚇唬一個不承認你存在的東西；你也無法智取它。它無法被阻止，因為您從來就不在它的計算之中。{{pargraphStart}}我想我們從一開始就理解錯誤了。我們不該問它為什麼攻擊我們，而是它到底有沒有注意到我們。{{pargraphStart}}簽署：管理員（M 計畫）"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}最終報告{{/}}{{titleParagraph}}{{@ class $highlightText}}狀態：已解密（部分）{{/}}{{pargraphStart}}03:47，時空漏斗崩塌。異常空間的活動停止。該區域已肅清。{{pargraphStart}}在崩塌前的最後幾秒，阿特拉斯儀器捕捉到一股能量突波，數值超過了以往所有紀錄。乘員們觀察到實體在異常空間中心短暫出現，持續時間不超過 12 秒。之後，時空漏斗便關閉了。{{pargraphStart}}官方聲明：事件已結束。我們已成功防禦。該區域的隔離已解除。{{pargraphStart}}{{@ class $highlightText}}管理員個人筆記（僅供特殊預備隊員閱覽）{{/}}{{pargraphStart}}我們沒有贏。它已達成目的。{{pargraphStart}}這不是入侵，更像是一層掩護。在時空漏斗崩塌前幾秒，其中心顯現的物體周圍出現了一道防禦邊界。{{pargraphStart}}數十座方尖體同時出現。我們仍然不知道它們有何目的。阿特拉斯記錄了所有參數，但需要時間來解讀。我們幾乎可以肯定一件事：異常空間完成了某種程序。{{pargraphStart}}無論它在做什麼，我們都需要為下一次攻擊做準備。我們現在有足夠的數據。我們的工程師已經在檢視紀錄，老實說，我從未見過他們如此興奮。他們認為我們可以大幅強化車輛。我們必須在時空漏斗回來之前完成。{{pargraphStart}}我不禁一直在想一件事：如果這件事發生在這裡，且只持續了這麼短的時間，那麼它以前發生過多少次？在那些沒有阿特拉斯，沒有人能見到它發生的地方...{{pargraphStart}}簽署：管理員（M 計畫）"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. 萬事俱備"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. 為何是這裡？"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. 理解錯誤"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. 目的達成"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "完成「普通」難度等級以進入下一個故事段落。"
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "完成「硬核」難度等級以進入下一個故事段落。"
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "完成「殘忍」難度等級以進入最終故事段落。"
+
+msgid "narration/tooltips/nextStory"
+msgstr "下一個故事"
+
+msgid "preBattle/leave"
+msgstr "離開戰鬥"
+
+msgid "preBattle/searching"
+msgstr "搜尋隊友中..."
+
+msgid "preBattle/tip"
+msgstr "尋找行動部隊時花費太久的時間？試著變更難度等級。"
+
+msgid "preBattle/uppercase/leave"
+msgstr "離開戰鬥"
+
+msgid "promoWindow/header"
+msgstr "進行背水一戰"
+
+msgid "promoWindow/subheader"
+msgstr "{dateRange}，探索「背水一戰」PvE 遊戲模式的全新篇章。\n獲取一套{cream_open}主題 3D 配飾{cream_close}、試驗型裝備與更多獨家獎勵。"
+
+msgid "questCard/allCompleted"
+msgstr "所有每日任務已完成"
+
+msgid "questCard/completed"
+msgstr "每日任務已完成。\n明天再回來繼續。"
+
+msgid "reward/rest"
+msgstr "還有 %(count)s 個"
+
+msgid "rewardPath/about"
+msgstr "關於目標"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "深入了解活動進度。"
+
+msgid "rewardPath/boostTitle"
+msgstr "加快您的進度並獲取更多數據 {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "在商店中檢視"
+
+msgid "rewardPath/completed"
+msgstr "所有數據與獎勵已獲得"
+
+msgid "rewardPath/completedTitle"
+msgstr "前往商店入手獨特主題自訂要素"
+
+msgid "rewardPath/intro"
+msgstr "簡介"
+
+msgid "rewardPath/introTooltip"
+msgstr "觀看簡介影片。"
+
+msgid "rewardPath/progress"
+msgstr "在階段 {artefactIndex} 獲得的數據：{currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "進度"
+
+msgid "rewardPathCard/completed"
+msgstr "已完成"
+
+msgid "rewardPathCard/name"
+msgstr "獎勵之路"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "活動組合包"
+
+msgid "squad/goToAnother/cancel"
+msgstr "取消"
+
+msgid "squad/goToAnother/message"
+msgstr "裝甲排將被解散。"
+
+msgid "squad/goToAnother/submit"
+msgstr "離開"
+
+msgid "squad/goToAnother/title"
+msgstr "要離開「背水一戰：北境大地」活動？"
+
+msgid "squad/leave/cancel"
+msgstr "取消"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "裝甲排將被解散。"
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "了解！"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "「背水一戰：北境大地」活動已結束"
+
+msgid "squad/leave/message"
+msgstr "裝甲排將被解散。"
+
+msgid "squad/leave/submit"
+msgstr "離開"
+
+msgid "squad/leave/title"
+msgstr "要離開「背水一戰：北境大地」裝甲排？"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "繼續"
+
+msgid "squad/leaveDisabled/message"
+msgstr "您已加入裝甲排且戰鬥準備就緒。"
+
+msgid "squad/leaveDisabled/title"
+msgstr "您無法離開裝甲排！"
+
+msgid "stageReward/rewards/received"
+msgstr "同時獲得:"
+
+msgid "stageReward/special/header"
+msgstr "「殘忍」難度等級已完成！"
+
+msgid "stageReward/special/subheader"
+msgstr "特殊獎勵已獲得"
+
+msgid "stageReward/stage/header"
+msgstr "已獲得獎勵"
+
+msgid "stageReward/stage/subheader"
+msgstr "背水一戰：階段 {{number}} 已完成"
+
+msgid "stageReward/stageFinal/header"
+msgstr "已獲得所有獎勵"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "背水一戰：最終階段已完成"

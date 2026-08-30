@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "全て"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "今回の戦闘はいつもより満足できた、バランスが取れていた、または楽しかった。"
+
+msgid "battleRating/tooltip/better/header"
+msgstr "いつもより良い"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "いつも通りの戦闘で、特に予想外の事態は起こらなかった。"
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "いつも通り"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "今回の戦闘はいつもより苛立たしかった、バランスが取れていなかった、または公平でなかった。"
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "いつもより悪い"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "いつもより良い"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "戦闘を評価"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "いつも通り"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "いつもより悪い"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "取得プレステージ・ポイント順に並べ替えます。"
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "プレステージ・ポイント"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "概要"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "詳細レポート"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "ミッションの進捗"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "チームスコア"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "取得したプレステージ・ポイントで並べ替えます。プレステージ・ポイントは戦闘で入手できるレーティング・ポイントの量に影響を与えます。"
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "プレステージ・ポイント"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}、{{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "味方:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "陣地防衛"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "陣地占領:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "陣地"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "陣地占領"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "中立陣地"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "この戦闘で何の行動も行いませんでした。"
+
+msgid "common/battleEfficiency/none"
+msgstr "発見または撃破した車輌なし"
+
+msgid "common/battleEfficiency/technique"
+msgstr "車輌"
+
+msgid "common/battleEfficiency/title"
+msgstr "戦闘パフォーマンス"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "戦闘成績"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "戦闘パフォーマンス （アビリティーの効果を含む）"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "戦闘パフォーマンス（戦闘リザーブを除く）"
+
+msgid "common/battleType/sortie"
+msgstr "前衛戦での対戦クラン"
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "新たなパーク"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "プレミアムを購入"
+
+msgid "common/details/creditsTitle"
+msgstr "クレジット"
+
+msgid "common/details/crystal"
+msgstr "ボンズ"
+
+msgid "common/details/getPremBtn"
+msgstr "詳細"
+
+msgid "common/details/noPremTitle"
+msgstr "標準アカウント"
+
+msgid "common/details/premTitle"
+msgstr "WoTプレミアム"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}WoTプレミアムを利用すると、戦闘勝利時の取得EXPが{{multiplier}}倍になるボーナスを適用できます。{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}WoTプレミアムを利用すると、{{@ style}}{{durationInDays}}日{{/}}ごとに最大{{bonusCredits}}を追加取得できます。{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "WoTプレミアムを利用すると、戦闘勝利時の取得EXPが%(multiplier)d倍になるボーナスを適用できます。"
+
+msgid "common/details/premiumPlus/credits"
+msgstr "WoTプレミアムを利用すると、%(durationInDays)d日毎に最大%(bonusCredits)sを追加取得できます。"
+
+msgid "common/details/premiumPlus/premium"
+msgstr "WoTプレミアムを利用すると、EXPやクレジットの増加、小隊プレイ時のボーナス、特別ミッションなどの特典を得られます。"
+
+msgid "common/details/premiumPlus/quests"
+msgstr "WoTプレミアムを利用すると、特別ミッションに挑戦できます。"
+
+msgid "common/details/premiumPlus/squad"
+msgstr "WoTプレミアムを利用すると、小隊プレイ時に得られるクレジットが増加します。"
+
+msgid "common/details/xpTitle"
+msgstr "EXP"
+
+msgid "common/details/xpTitleSquad"
+msgstr "EXP%(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "新モジュールを購入可能"
+
+msgid "common/fitting/research"
+msgstr "新モジュールを研究可能"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "主戦闘フェーズ:"
+
+msgid "common/missions/noProgress/button"
+msgstr "ミッションへ"
+
+msgid "common/missions/noProgress/description"
+msgstr "現在のミッション進捗を確認"
+
+msgid "common/missions/noProgress/header"
+msgstr "ミッションおよび車輌研究の進捗なし"
+
+msgid "common/newSkillPrediction"
+msgstr "必要な戦闘数 (約): %(battles)s回"
+
+msgid "common/noIncome/alert/text"
+msgstr "10回戦闘を行うと、このモードではEXP、クレジット、報酬が取得できなくなるほか、戦闘結果も通算成績に反映されなくなります。"
+
+msgid "common/noIncome/alert/title"
+msgstr "注意!"
+
+msgid "common/noProgress"
+msgstr "ミッション、車輌研究および搭乗員訓練の進捗なし"
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "超過時間:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "次のサービスまたはアイテムを利用すればさらにアンロック可能:"
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "今日の成果"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "本日の取得EXPボーナス: %(count)s"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "WoT PlusまたはWoTプレミアムでアンロック"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT Plus"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "WoTプレミアム"
+
+msgid "common/plusBonus/youRock"
+msgstr "本日分のボーナスはすべて適用済み"
+
+msgid "common/premiumBonus"
+msgstr "効率的に稼ぐには？"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "ボーナス適用完了"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "適用"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "本日の残り回数: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "勝利時に適用できるEXPボーナス"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "効率的に稼ぐには？"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "ボーナスは最新の勝利にしか適用できません。"
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "搭乗員訓練の促進が無効なため、ボーナスを適用できません。"
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}搭乗員訓練の促進が{{@ style}}無効なため、ボーナスを適用できません。{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "搭乗員訓練の促進が有効なため、ボーナスを適用できません。"
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}搭乗員訓練の促進が{{@ style}}有効なため、ボーナスを適用できません。{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "EXPボーナスは勝利した戦闘にしか適用できません。次こそ勝利を目指しましょう。"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "車輌が見つからないため、WoTプレミアムEXPボーナスを適用できません。"
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}車輌が{{@ style}}見つからないため、WoTプレミアムEXPボーナスを適用できません。{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "搭乗員が見つからないため、WoTプレミアムEXPボーナスを適用できません。"
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}搭乗員が{{@ style}}見つからないため、WoTプレミアムEXPボーナスを適用できません。{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "このモードではEXPボーナスを適用できません。"
+
+msgid "common/progressTitle"
+msgstr "車輌研究とミッションの進捗"
+
+msgid "common/quests/noprogress"
+msgstr "ミッション進捗なし"
+
+msgid "common/researchPrediction"
+msgstr "必要な戦闘数 (約): %(battles)s回"
+
+msgid "common/resultsShareBtn"
+msgstr "リンクを取得"
+
+msgid "common/startTime"
+msgstr "{{0}}、{{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "対象\n• 跳弾\n• 非貫通弾\n\n榴弾 (HE) および粘着榴弾 (HESH) は対象外。"
+
+msgid "common/tooltip/armor/header"
+msgstr "阻んだダメージ"
+
+msgid "common/tooltip/armor/part1"
+msgstr "跳弾"
+
+msgid "common/tooltip/armor/part2"
+msgstr "非貫通弾"
+
+msgid "common/tooltip/armor/part3"
+msgstr "装甲で阻んだダメージ %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "対象\n• 発見によりアシストしたダメージ\n• 履帯切断に伴う移動不能化によりアシストしたダメージ"
+
+msgid "common/tooltip/assist/header"
+msgstr "撃破アシスト"
+
+msgid "common/tooltip/assist/part1"
+msgstr "発見によりアシストしたダメージ %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "履帯切断に伴う移動不能化によりアシストしたダメージ %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "発見または履帯切断によりアシストした総ダメージ %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "対象\n• 敵陣地占領ポイント\n• 中立陣地占領ポイント"
+
+msgid "common/tooltip/capture/header"
+msgstr "陣地占領"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "総陣地占領ポイント"
+
+msgid "common/tooltip/counter"
+msgstr "この戦闘で取得したバッジの総数: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "この戦闘においてその敵車輌に対し取得したバッジ: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "この戦闘ではバッジを取得できませんでした。"
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "損傷させたモジュール"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "破壊したモジュール"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "負傷させた搭乗員"
+
+msgid "common/tooltip/crits/description"
+msgstr "対象\n• 外部または内部モジュールに与えた損傷\n• 外部または内部モジュールの破壊\n• 搭乗員に与えた負傷"
+
+msgid "common/tooltip/crits/header"
+msgstr "重大な損傷"
+
+msgid "common/tooltip/crits/total"
+msgstr "合計"
+
+msgid "common/tooltip/damage/description"
+msgstr "対象\n• 射撃によるダメージ\n• 体当たりによるダメージ\n• 火災の誘発によるダメージ\n• 突き落としによるダメージ"
+
+msgid "common/tooltip/damage/header"
+msgstr "与ダメージ"
+
+msgid "common/tooltip/damage/part1"
+msgstr "総与ダメージ %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "総貫通弾数"
+
+msgid "common/tooltip/defence/description"
+msgstr "対象\n• 味方陣地防衛ポイント\n• 中立陣地防衛ポイント"
+
+msgid "common/tooltip/defence/header"
+msgstr "陣地防衛"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "総陣地占領ポイント"
+
+msgid "common/tooltip/kill/header"
+msgstr "撃破した敵車輌"
+
+msgid "common/tooltip/kill0/description"
+msgstr "射撃により撃破"
+
+msgid "common/tooltip/kill1/description"
+msgstr "火災の誘発により撃破"
+
+msgid "common/tooltip/kill2/description"
+msgstr "体当たりにより撃破"
+
+msgid "common/tooltip/kill3/description"
+msgstr "突き落としにより撃破"
+
+msgid "common/tooltip/kill4/description"
+msgstr "デスゾーンにより撃破"
+
+msgid "common/tooltip/kill5/description"
+msgstr "水没の強制により撃破"
+
+msgid "common/tooltip/kill6/description"
+msgstr "ファイヤーストームにより撃破"
+
+msgid "common/tooltip/kill7/description"
+msgstr "転覆の強制により撃破"
+
+msgid "common/tooltip/killCommon/description"
+msgstr "対象\n• 射撃による撃破\n• 火災の誘発による撃破\n• 体当たりによる撃破\n• 水没の強制による撃破\n• 突き落としによる撃破\n• 転覆の強制による撃破"
+
+msgid "common/tooltip/params/val"
+msgstr "(HP)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(秒)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "1度も発見されていない敵車輌を発見した場合のみが対象。"
+
+msgid "common/tooltip/spotted/header"
+msgstr "発見した敵車輌"
+
+msgid "common/tooltip/stun/description"
+msgstr "対象\n• スタンによりアシストしたダメージ"
+
+msgid "common/tooltip/stun/header"
+msgstr "スタンアシスト"
+
+msgid "common/tooltip/stun/part1"
+msgstr "スタンによりアシストした総ダメージ %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "敵車輌をスタンさせた回数"
+
+msgid "common/tooltip/stun/part3"
+msgstr "敵車輌をスタンさせた時間の合計 %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "撃破した味方車輌"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "チームキル"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "射撃により撃破"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "火災の誘発により撃破"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "体当たりにより撃破"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "突き落としにより撃破"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "デスゾーンにより撃破"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "水没の強制により撃破"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "小隊で戦闘に参加したため、EXPボーナスを取得しました。"
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "跳弾"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "非貫通弾"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "装甲で阻んだダメージ"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "発見によりアシストしたダメージ"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "履帯切断に伴う移動不能化によりアシストしたダメージ"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "発見または履帯切断によりアシストした総ダメージ"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "総与ダメージ"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "総貫通弾数"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "総与ダメージ"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "敵車輌をスタンさせた回数"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "敵車輌をスタンさせた時間の合計"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s—%(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "新車輌を購入可能"
+
+msgid "common/vehicle/research"
+msgstr "新車輌を研究可能"
+
+msgid "common/vehicleState/alive"
+msgstr "生還"
+
+msgid "common/vehicleState/dead0"
+msgstr "射撃により大破"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "射撃により大破 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "射撃により大破 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "火災により大破"
+
+msgid "common/vehicleState/dead12"
+msgstr "自爆により大破"
+
+msgid "common/vehicleState/dead13"
+msgstr "アビリティーにより大破"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "火災により大破 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "火災により大破 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "体当たりにより大破"
+
+msgid "common/vehicleState/dead27"
+msgstr "砲兵射撃により大破"
+
+msgid "common/vehicleState/dead29"
+msgstr "クラッシュにより大破"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "体当たりにより大破 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "体当たりにより大破 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "クラッシュにより大破"
+
+msgid "common/vehicleState/dead30"
+msgstr "射撃により大破"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "射撃により大破 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "射撃により大破 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "クラッシュにより大破"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "クラッシュにより大破 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "クラッシュにより大破 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "デスゾーンにより大破"
+
+msgid "common/vehicleState/dead5"
+msgstr "水没"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "水没により大破 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "水没により大破 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "ファイアストームにより大破"
+
+msgid "common/vehicleState/dead7"
+msgstr "転覆により大破"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "転覆により大破 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "転覆により大破 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "車輌大破前に戦闘を離脱"
+
+msgid "common/vehicleState/victory"
+msgstr "勝利!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "本日の残り回数: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "この戦闘で受けた「いいぞ」"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "この戦闘で{{var}}名の味方から「いいぞ」を受けました。"
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "この戦闘で{{var}}名の味方から「いいぞ」を受けました。"
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "受けた「いいぞ」"
+
+msgid "conditions/type/and"
+msgstr "および"
+
+msgid "conditions/type/or"
+msgstr "または"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "デカール「%(name)s」がレベル %(level)s になりました。"
+
+msgid "customizationProgress/award/received"
+msgstr "デカール「%(name)s」%(count)sを取得しました。"
+
+msgid "customizationProgress/descr"
+msgstr "レベル %(level)s のデカール「%(name)s」"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "チームプロフィール"
+
+msgid "cyberSport/points"
+msgstr "ポイント:"
+
+msgid "cyberSport/status/lose"
+msgstr "敗北"
+
+msgid "cyberSport/status/tie"
+msgstr "引き分け"
+
+msgid "cyberSport/status/win"
+msgstr "勝利!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "WoTプレミアムEXPボーナス"
+
+msgid "details/calculations/aogasFactor"
+msgstr "縮小倍率（AOGAS）"
+
+msgid "details/calculations/autoBoosters"
+msgstr "ディレクティブの自動補給費用"
+
+msgid "details/calculations/autoEquip"
+msgstr "消耗品の自動補給費用"
+
+msgid "details/calculations/autoLoad"
+msgstr "砲弾の自動補給費用"
+
+msgid "details/calculations/autoRepair"
+msgstr "車輌の自動修理費用"
+
+msgid "details/calculations/autoResupply"
+msgstr "自動補給"
+
+msgid "details/calculations/base"
+msgstr "基本収入"
+
+msgid "details/calculations/battlePayments"
+msgstr "クラン戦闘報酬ボーナス"
+
+msgid "details/calculations/boosters"
+msgstr "パーソナルリザーブ・ボーナス"
+
+msgid "details/calculations/crystal/events"
+msgstr "ミッション達成に対するボーナス"
+
+msgid "details/calculations/crystal/total"
+msgstr "車輌の特殊アビリティーに対する報酬"
+
+msgid "details/calculations/event"
+msgstr "ミッションやイベントの達成報酬"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "戦闘中の不行動に対する罰金"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "車輌大破前の戦闘離脱に対する罰金"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "車輌大破前の戦闘離脱に対する罰金"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "車輌大破前の戦闘離脱に対する罰金"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "車輌大破前の戦闘離脱に対する罰金"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "戦闘中の不行動に対する罰金"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "車輌大破前の戦闘離脱に対する罰金"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "故意の車輌大破に対する罰金"
+
+msgid "details/calculations/firstWin"
+msgstr "今日の初勝利に対するボーナス"
+
+msgid "details/calculations/fortOrder"
+msgstr "リザーブの使用によるボーナス"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "味方から受けたダメージに対する補償"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "味方へのダメージに対する罰金"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "味方へのスタン/ダメージに対する罰金"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "大量輸送隊"
+
+msgid "details/calculations/igrBonus"
+msgstr "%(igrIcon)s でのプレイに対する報酬"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "IGRボーナス"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "戦闘での収支"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "勝利時に適用できるEXPボーナス"
+
+msgid "details/calculations/maximum"
+msgstr "新記録"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "クラン軍事演習ボーナス"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "以下の車輌で今日最初の勝利を収めたため、EXPボーナスが追加されました:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "今日の初勝利に対するボーナス"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "勇敢な抵抗に対するボーナス"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "ペット・ボーナス (%(bonusFactor)d%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "ペット・ボーナス"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "リソース庫への追加額"
+
+msgid "details/calculations/playerRankXP"
+msgstr "階級ボーナス"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "プレミアム車輌Tierボーナス"
+
+msgid "details/calculations/referralBonus"
+msgstr "招待プログラム・ボーナス (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "招待プログラム・ボーナス (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "招待プログラム・ボーナス"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "小隊プレイに対するボーナス"
+
+msgid "details/calculations/squadBonus"
+msgstr "小隊編成ボーナス"
+
+msgid "details/calculations/squadXP"
+msgstr "小隊プレイに対するボーナス"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "不適切な小隊編成に対する罰金"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "クラン戦術訓練ボーナス"
+
+msgid "details/calculations/title/base"
+msgstr "基本収入"
+
+msgid "details/calculations/title/expenses"
+msgstr "支出"
+
+msgid "details/calculations/title/total"
+msgstr "総収支"
+
+msgid "details/calculations/total"
+msgstr "総収支"
+
+msgid "details/calculations/wotPlus"
+msgstr "WoT Plusのボーナス"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "「WoT Plus」のボーナス"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "「WoT Plus Pro」のブースト"
+
+msgid "details/calculations/xpRecord"
+msgstr "基本収入（%(color_tag_open)s車輌記録%(color_tag_close)s）"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "獲得 (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "クレジット"
+
+msgid "details/crystal"
+msgstr "ボンズ"
+
+msgid "details/noPrem"
+msgstr "標準アカウント"
+
+msgid "details/prem"
+msgstr "Wargamingプレミアム"
+
+msgid "details/premPlus"
+msgstr "WoTプレミアム"
+
+msgid "details/resource"
+msgstr "工業資源"
+
+msgid "details/stats"
+msgstr "成績"
+
+msgid "details/time"
+msgstr "時間"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "開始時刻"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "占領ゾーン"
+
+msgid "details/time/lbl_duration"
+msgstr "戦闘時間"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "壊滅した目標"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "目標群への到達"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "自車輌が大破した時間"
+
+msgid "details/time/val_no"
+msgstr "いいえ"
+
+msgid "details/time/val_yes"
+msgstr "はい"
+
+msgid "details/time/value"
+msgstr "%(min)s 分 %(sec)s 秒"
+
+msgid "details/time_epic"
+msgstr "戦闘"
+
+msgid "details/xp"
+msgstr "EXP"
+
+msgid "details/xp_abbr"
+msgstr "EXP"
+
+msgid "exterminationVictory/allies"
+msgstr "味方チームが敵車輌を殲滅"
+
+msgid "exterminationVictory/enemies"
+msgstr "味方チームが全滅"
+
+msgid "fallout/classic/lose/cap"
+msgstr "敵チームが味方チームを上回る勝利ポイントを獲得"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "味方チームが全滅"
+
+msgid "fallout/classic/lose/points"
+msgstr "敵チームが味方チームを上回る勝利ポイントを獲得"
+
+msgid "fallout/classic/tie"
+msgstr "両チームの勝利ポイントが同一"
+
+msgid "fallout/classic/win/cap"
+msgstr "味方チームが敵チームを上回る勝利ポイントを獲得"
+
+msgid "fallout/classic/win/extermination"
+msgstr "味方チームが敵車輌を殲滅"
+
+msgid "fallout/classic/win/points"
+msgstr "味方チームが敵チームを上回る勝利ポイントを獲得"
+
+msgid "fallout/multiteam/ended"
+msgstr "戦闘目標の達成に失敗"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "詳細を確認するには、\nリストからプレイヤーを選択してください。"
+
+msgid "fallout/multiteam/win/cap"
+msgstr "味方チームが敵チームを上回る勝利ポイントを獲得"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "敵の分遣隊を殲滅"
+
+msgid "fallout/multiteam/win/points"
+msgstr "味方チームが敵チームを上回る勝利ポイントを獲得"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "建造物 %(buildingName)s 占領失敗"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "建造物 %(buildingName)s 占領成功"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "建造物を占領: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "建造物 %(buildingName)s が敵に占領された"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "建造物 %(buildingName)s 占領失敗"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "建造物を防衛: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "結果はチームについて残された情報をもとに算出"
+
+msgid "finish/overtime/lose"
+msgstr "敵が残存"
+
+msgid "finish/overtime/win"
+msgstr "敵を撃破"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "理由不明"
+
+msgid "finish/reason/10lose"
+msgstr "目標群が残存"
+
+msgid "finish/reason/10win"
+msgstr "目標群を壊滅"
+
+msgid "finish/reason/1lose"
+msgstr "味方チームが全滅"
+
+msgid "finish/reason/1tie"
+msgstr "全車輌が大破"
+
+msgid "finish/reason/1win"
+msgstr "敵車輌を殲滅"
+
+msgid "finish/reason/2"
+msgstr "陣地を占領"
+
+msgid "finish/reason/3"
+msgstr "戦闘時間終了"
+
+msgid "finish/reason/4"
+msgstr "エラーにより戦闘終了"
+
+msgid "finish/reason/5"
+msgstr "技術的敗北"
+
+msgid "finish/reason/8"
+msgstr "味方を撃破"
+
+msgid "finish/reason/9"
+msgstr "自車輌が大破"
+
+msgid "garage/uniqueDamage"
+msgstr "個別の重大な損傷のみが対象。"
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "時間を選択"
+
+msgid "getPremiumPopover/award"
+msgstr "クレジットとEXPに50%のボーナス"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "%(prem)sを購入すると%(award)sが追加されます。"
+
+msgid "getPremiumPopover/headerText"
+msgstr "プレミアム利用時のボーナス"
+
+msgid "getPremiumPopover/prem"
+msgstr "プレミアムアカウント"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "研究画面へ"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "研究可能"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "必要な戦闘数 (約): {{prediction}}回"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "車輌の詳細"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "ミッション#{{name}}を達成しました。"
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "タンクアカデミー"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "新モジュールをアンロック!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "新車輌をアンロック!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "アカデミー・ミッションを達成!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "チャプターを制覇!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "ステージを達成!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "鍛錬ミッションを達成!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "ミッションを達成!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "デイリーミッションを達成!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "「エリートレベル」の上限に到達"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "次の「エリートレベル」"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "エピックミッションを達成!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "オペレーションのミッションを達成!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "プレミアムミッションを達成!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "ウィークリーミッションを達成!"
+
+msgid "noData"
+msgstr "戦闘の詳細結果が不明です。"
+
+msgid "personalQuest/bonus/descr"
+msgstr "この戦闘での主条件の進行状況が%(value)s倍になりました。"
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "%(value)s倍ボーナス"
+
+msgid "personalQuest/failed/attention"
+msgstr "注意!"
+
+msgid "personalQuest/failed/descr"
+msgstr "このミッションの進行度がリセットされました。進行度ゼロからリスタートされます。"
+
+msgid "players/enemy/unknown"
+msgstr "敵"
+
+msgid "players/teammate/unknown"
+msgstr "プレイヤー"
+
+msgid "prestige/common/description"
+msgstr "取得したエリートポイント:"
+
+msgid "prestige/max/description"
+msgstr "エリートレベルの上限に到達しました。"
+
+msgid "prestige/maxLevelReached/description"
+msgstr "エリートレベルの上限に到達しました。"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "新たなエリートレベルに到達しました。"
+
+msgid "prestige/title"
+msgstr "エリートシステム"
+
+msgid "progression/completed"
+msgstr "達成済み"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}達成済み:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "詳細情報を確認できます。"
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}達成済み:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "「エリートシステム」は現在ご利用いただけません。時間をおいて再度お試しください。"
+
+msgid "progression/totalEarned"
+msgstr "取得合計: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "参戦して報酬獲得を目指しましょう。戦闘数を重ねるほど、報酬獲得が近づきます。"
+
+msgid "selectVehicle"
+msgstr "車輌を選択"
+
+msgid "status/lose"
+msgstr "敗北"
+
+msgid "status/tie"
+msgstr "引き分け"
+
+msgid "status/win"
+msgstr "勝利"
+
+msgid "tankSelector/next"
+msgstr "次の車輌"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "与ダメージで並べ替えます。\n※戦闘リザーブによるダメージを含む"
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "与ダメージ"
+
+msgid "team/damageHeader/body"
+msgstr "敵車輌への与ダメージで並べ替えます。"
+
+msgid "team/damageHeader/header"
+msgstr "敵車輌への与ダメージ"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "与ダメージ"
+
+msgid "team/deaths/body"
+msgstr "車輌が大破した回数で並べ替えます。"
+
+msgid "team/deaths/header"
+msgstr "車輌が大破した回数"
+
+msgid "team/deathsNoSort/header"
+msgstr "車輌が大破した回数"
+
+msgid "team/epicRankHeader/body"
+msgstr "この戦闘で到達したランクで並べ替えます。"
+
+msgid "team/epicRankHeader/header"
+msgstr "ランク"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "この戦闘での出撃回数で並べ替えます。"
+
+msgid "team/epicRespawnHeader/header"
+msgstr "出撃回数"
+
+msgid "team/falloutFragHeader/body"
+msgstr "撃破した敵車輌数で並べ替えます。\n※戦闘リザーブによる撃破を含む"
+
+msgid "team/falloutFragHeader/header"
+msgstr "撃破した敵車輌数"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "取得したリソース数で並べ替えます。"
+
+msgid "team/falloutResourcePoints/header"
+msgstr "リソース"
+
+msgid "team/flags/body"
+msgstr "運搬した旗の数で並べ替えます。"
+
+msgid "team/flags/header"
+msgstr "運搬した旗"
+
+msgid "team/flagsNoSort/header"
+msgstr "運搬した旗"
+
+msgid "team/fragHeader/body"
+msgstr "撃破した敵車輌数で並べ替えます。"
+
+msgid "team/fragHeader/header"
+msgstr "撃破した敵車輌数"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "撃破した敵車輌数"
+
+msgid "team/healthHeader/body"
+msgstr "残りHPで並べ替えます。"
+
+msgid "team/healthHeader/header"
+msgstr "残りHP"
+
+msgid "team/medalHeader/body"
+msgstr "取得した勲章数で並べ替えます。"
+
+msgid "team/medalHeader/header"
+msgstr "勲章"
+
+msgid "team/playerHeader/body"
+msgstr "プレイヤー名で並べ替えます。"
+
+msgid "team/playerHeader/header"
+msgstr "プレイヤー名"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "プレイヤー名"
+
+msgid "team/playerNumber/body"
+msgstr "プレイヤー番号で並べ替えます。"
+
+msgid "team/playerNumber/header"
+msgstr "番号"
+
+msgid "team/rankHeader/body"
+msgstr "ランクで並べ替えます。"
+
+msgid "team/rankHeader/header"
+msgstr "ランク"
+
+msgid "team/resourceHeader/body"
+msgstr "取得した工業資源数で並べ替えます。"
+
+msgid "team/resourceHeader/header"
+msgstr "工業資源"
+
+msgid "team/squadHeader/body"
+msgstr "所属小隊で並べ替えます。"
+
+msgid "team/squadHeader/header"
+msgstr "小隊"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "小隊"
+
+msgid "team/stats/allies"
+msgstr "味方"
+
+msgid "team/stats/close"
+msgstr "閉じる"
+
+msgid "team/stats/enemies"
+msgstr "敵"
+
+msgid "team/stats/enemyTeam"
+msgstr "敵チーム"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "対象\n• 発見、履帯切断に伴う移動不能化、またはスタンによるアシスト\n• 陣地の占領\n• 1度も発見されていない敵車輌の発見"
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "アシストに対するボーナス"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "対象\n• 敵車輌に与えたダメージ\n• 敵車輌の撃破\n• 敵車輌のモジュールに対する損傷\n• チームが与えたダメージに対するボーナス\n• 味方へのスタン/ダメージに対する罰金"
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "貢献に対するボーナス"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "その他の活躍に対する追加ボーナス\n※上に明記されていないもの"
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "ロール遂行に対するボーナス"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\t砲兵射撃によるダメージ"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "占領したゾーン / 撃破した目標"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "陣地占領/防衛ポイント"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "占領した戦術サークル"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "撃破アシスト"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "撃破アシスト"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "スタンアシスト"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "スタンアシスト"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "装甲で阻んだダメージ"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "総与ダメージ"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\t戦闘リザーブによるダメージを含む"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tアビリティーで与えたダメージ"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\t敵チームに与えたダメージの比率"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "ダメージを与えた / 撃破した敵車輌数"
+
+msgid "team/stats/labels_deaths"
+msgstr "戦闘中に自車輌が大破した回数"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "防衛したゾーン / 目標"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "自車輌が大破 / 自車輌を放棄した回数"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\t目標群に与えたダメージ"
+
+msgid "team/stats/labels_directHits"
+msgstr "\t直撃弾数"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "被弾数"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\t戦闘リザーブの効果により与えたダメージ"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\t戦闘リザーブにより与えたダメージ"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\t爆風によりダメージを与えた回数"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "爆風によりダメージを受けた回数"
+
+msgid "team/stats/labels_flags"
+msgstr "運搬した旗"
+
+msgid "team/stats/labels_healed"
+msgstr "HPの回復量 （自車輌 / 味方車輌）"
+
+msgid "team/stats/labels_hits"
+msgstr "\t直撃弾数/貫通弾数"
+
+msgid "team/stats/labels_killed"
+msgstr "撃破した敵車輌数"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\t戦闘リザーブによる撃破を含む"
+
+msgid "team/stats/labels_mileage"
+msgstr "走行距離"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\t非貫通"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\t貫通"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\t貫通"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "ロール・アビリティーの発動回数"
+
+msgid "team/stats/labels_shots"
+msgstr "射撃回数"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\t300 m超の距離から与えたダメージ"
+
+msgid "team/stats/labels_spotted"
+msgstr "発見した敵車輌数"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "敵車輌をスタンさせた時間 (秒)"
+
+msgid "team/stats/labels_stunNum"
+msgstr "敵車輌をスタンさせた回数"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "味方に与えたダメージ (撃破数/HP)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "車輌が大破した回数"
+
+msgid "team/stats/labels_xp"
+msgstr "取得した合計EXP"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tアシストに対するボーナス"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\t貢献に対するボーナス"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\tロール遂行に対するボーナス"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "味方チーム"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "砲兵射撃によるダメージ"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "陣地占領/防衛ポイント"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "撃破アシスト"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "撃破アシスト"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "スタンアシスト"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "スタンアシスト"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "装甲で阻んだダメージ"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "総与ダメージ"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "ダメージを与えた / 撃破した敵車輌数"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "被弾数"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "爆風によるダメージ"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "爆風によりダメージを受けた回数"
+
+msgid "team/stats/parameter/hits"
+msgstr "直撃弾数/貫通弾数"
+
+msgid "team/stats/parameter/mileage"
+msgstr "走行距離"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "非貫通"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "貫通弾数"
+
+msgid "team/stats/parameter/shots"
+msgstr "射撃回数"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "300 m超の距離から与えたダメージ"
+
+msgid "team/stats/parameter/spotted"
+msgstr "発見した敵車輌数"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "敵車輌をスタンさせた時間 (秒)"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "敵車輌をスタンさせた回数"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "味方に与えたダメージ (撃破数/HP)"
+
+msgid "team/tankHeader/body"
+msgstr "チームパネルの順番に並べ替えます。"
+
+msgid "team/tankHeader/header"
+msgstr "車輌"
+
+msgid "team/teamInfluenceTotal"
+msgstr "分遣隊が取得したインフルエンス: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "分遣隊が取得した工業資源: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "獲得した勝利ポイントで並べ替えます。"
+
+msgid "team/teamScore/header"
+msgstr "チームの勝利ポイント"
+
+msgid "team/victoryScore/body"
+msgstr "獲得した勝利ポイントで並べ替えます。"
+
+msgid "team/victoryScore/header"
+msgstr "プレイヤーの勝利ポイント"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "プレイヤーの勝利ポイント"
+
+msgid "team/xpHeader/body"
+msgstr "取得した基本EXPで並べ替えます。"
+
+msgid "team/xpHeader/header"
+msgstr "EXP"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "EXP"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "獲得した勝利ポイント"

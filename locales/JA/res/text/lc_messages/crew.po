@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "拡大"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "訓練未完了の搭乗員を解任"
+
+msgid "barracks/bunks/title"
+msgstr "寝台:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "新たに購入したい寝台の数を入力してください。現在、兵舎には全%(allBunksCount)s基の寝台があり、そのうち%(freeBunksCount)s基が空いています。"
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "割引中"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "現在の費用: 寝台%(bunksCount)s基につき%(currency)s"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "通常の費用: 寝台%(bunksCount)s基につき%(currency)s"
+
+msgid "barracks/enlarge/header"
+msgstr "兵舎を拡大しますか？"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "1つ目のパークの訓練度を{whiteSpanish_Open}100%{whiteSpanish_Close}にするのに必要な{whiteSpanish_Open}210 060{whiteSpanish_Close}{icon}EXPに満たない訓練未完了の搭乗員を解任できます。"
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "訓練未完了の搭乗員"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "訓練未完了の搭乗員はいません"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "訓練未完了の搭乗員を解任しても補償はありません。一度解任するとリカバリーできず、その搭乗員が保有するすべてのEXPは失われます。"
+
+msgid "barracks/title"
+msgstr "兵舎"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "兵舎を拡大します。"
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "兵舎の拡大"
+
+msgid "common/exclamationMark"
+msgstr "！"
+
+msgid "common/filter/location"
+msgstr "所有中"
+
+msgid "common/imageNotAvailable"
+msgstr "画像なし"
+
+msgid "common/inBarracks"
+msgstr "兵舎で待機中"
+
+msgid "common/inBattle"
+msgstr "戦闘中"
+
+msgid "common/inPrebattle"
+msgstr "小隊に参加中"
+
+msgid "common/navigation/aboutCrew"
+msgstr "搭乗員について"
+
+msgid "common/navigation/toBarracks"
+msgstr "兵舎へ"
+
+msgid "common/navigation/toGarage"
+msgstr "ガレージへ"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "個人ファイルへ"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "了解！"
+
+msgid "conversionAwards/buttonNote"
+msgstr "搭乗員が搭乗員教本に変換されました。"
+
+msgid "conversionAwards/title"
+msgstr "変換完了"
+
+msgid "conversionAwards/underTitle"
+msgstr "以下がアカウントに追加されました。"
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "キャンセル"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "解任"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "解任される搭乗員: {amount}名"
+
+msgid "conversionConfirm/title"
+msgstr "訓練未完了の搭乗員を解任しますか?"
+
+msgid "conversionConfirm/warning"
+msgstr "訓練未完了の搭乗員を解任しても補償はありません。一度解任するとリカバリーできず、その搭乗員が保有するすべてのEXPは失われます。"
+
+msgid "crewBanner/button/fill/label"
+msgstr "パークを自動選択"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "未習得のパークがある搭乗員がいません。"
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "パークは自動選択不可"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "全搭乗員のプラス記号が付いている未習得のパークスロットは、すべて専用のメカニズムに基づいて自動選択されたパークと入れ替えられます。"
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "全搭乗員の未習得パークを自動選択"
+
+msgid "crewBanner/button/reset/label"
+msgstr "全搭乗員のパークをリセット"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "習得済みのパークがある搭乗員がいません。"
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "パークはリセット不可"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "アカウント上の全搭乗員の全パークがリセットされます。この操作は取り消すことができません。"
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "全搭乗員のパークをリセット"
+
+msgid "crewBanner/infoText"
+msgstr "アカウント上の全搭乗員のパークリセットまたは未習得パークの自動選択を無料で行えます"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "「搭乗員訓練の促進」が有効"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "職能適性へのボーナス: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "パーク適性"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "この車輌に適性がないため、パークが発動しません。"
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "車輌適性"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "パークが発動しません"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "ボーナス・パーク"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "メイン職能のパーク"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(中国)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(チェコスロバキア)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(フランス)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(ドイツ)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(イタリア)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(日本)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(ポーランド)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(スウェーデン)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(イギリス)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(アメリカ)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(ソ連)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "全プレミアム駆逐戦車 {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "全プレミアム自走砲{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "全プレミアム重戦車{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "全プレミアム軽戦車{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "全プレミアム中戦車\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "詳細"
+
+msgid "filter/group/details/title"
+msgstr "配属状況"
+
+msgid "filter/group/nation/title"
+msgstr "国籍"
+
+msgid "filter/group/other/title"
+msgstr "その他"
+
+msgid "filter/group/special/title"
+msgstr "その他"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "職能"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Tier"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Tier"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "車輌タイプ"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "車輌タイプ"
+
+msgid "filter/popup/button/title"
+msgstr "フィルター"
+
+msgid "filter/popup/default/title"
+msgstr "フィルター"
+
+msgid "filter/popup/skinChange/title"
+msgstr "国籍フィルター"
+
+msgid "filter/popup/tankChange/title"
+msgstr "車輌フィルター"
+
+msgid "filter/reset"
+msgstr "フィルターをリセット"
+
+msgid "filter/search/placeholder"
+msgstr "名前で検索"
+
+msgid "filter/search/tooltip/header"
+msgstr "名前で検索"
+
+msgid "filter/title"
+msgstr "表示中:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "エリート車輌に搭乗中の搭乗員のみを表示します。"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "エリート車輌"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "プレミアム車輌にしか車輌適性がない搭乗員のみを表示します。"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "プレミアム車輌"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "メイン車輌に搭乗中の搭乗員のみを表示します。"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "メイン車輌"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "この車輌タイプに適性がある搭乗員のみを表示します。"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "この国籍の搭乗員のみを表示します。"
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "この国籍の搭乗員スキンのみを表示します。"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "この国籍の車輌のみを表示します。"
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "解任済みの搭乗員のみを表示します。"
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "解任済み"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "未採用の搭乗員のみを表示します。"
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "未採用"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "採用済みの搭乗員のみを表示します。"
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "採用済み"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "この職能の搭乗員のみを表示します。"
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "プレミアム車輌のみを表示します。"
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "プレミアム車輌"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "このタイプの車輌のみを表示します。"
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "自走砲"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "重戦車"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "軽戦車"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "中戦車"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "入力した検索条件に\n該当する車輌なし"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "車輌名で並べ替えます。"
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "車輌名"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "車輌Tierで並べ替えます。"
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Tier"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "車輌タイプで並べ替えます。"
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "タイプ"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "車輌名"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "フィルター設定をリセットします。"
+
+msgid "filterPanel/counter/reset/header"
+msgstr "フィルターをリセット"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "了解！"
+
+msgid "junkTankmen/description"
+msgstr "これらの搭乗員は、1つ目のパークの訓練度を{whiteSpanish_Open}100%{whiteSpanish_Close}にするのに必要なEXP {bond_Open}210 060{bond_Close}{icon}を保有していません。\n解任した搭乗員はアカウントから削除されます。"
+
+msgid "junkTankmen/title"
+msgstr "訓練未完了の搭乗員を解任しますか?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "兼任している職能1つにつきそれぞれ{whiteSpanish_Open}3つ{whiteSpanish_Close}までパークを習得できます。ボーナス・パークをアンロックするには、メイン職能の{whiteSpanish_Open}1つ目{whiteSpanish_Close}、{whiteSpanish_Open}3つ目{whiteSpanish_Close}、{whiteSpanish_Open}5つ目{whiteSpanish_Close}のパークを習得する必要があります。"
+
+msgid "matrix/bonusTooltip/header"
+msgstr "ボーナス・パーク"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "兼任される職能の組み合わせが異なる車輌に搭乗員を再訓練した場合、新しくボーナス・パークを選ぶことができます。"
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "ボーナス・パークの習得には、メイン職能のパークの倍の時間がかかります。"
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "ボーナス・パークの習得にEXPは必要ありません。"
+
+msgid "matrix/freeResetButton"
+msgstr "無料でリセット"
+
+msgid "matrix/increaseButton"
+msgstr "訓練の促進"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "この搭乗員は訓練の限界値に達しています。"
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "訓練の促進は不可"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "フリーEXPや搭乗員教本を使ってパークを訓練します。"
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "急速訓練"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "職能に問題あり"
+
+msgid "matrix/qualification/1"
+msgstr "職能1"
+
+msgid "matrix/qualification/2"
+msgstr "職能2"
+
+msgid "matrix/qualification/3"
+msgstr "職能3"
+
+msgid "matrix/qualification/4"
+msgstr "職能4"
+
+msgid "matrix/qualification/5"
+msgstr "職能5"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "職能2の固有パークはゼロパークとして選択できません。"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "職能3の固有パークはゼロパークとして選択できません。"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "職能4の固有パークはゼロパークとして選択できません。"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "この車輌では職能2のパークは発動しません"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "この車輌では職能3のパークは発動しません"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "この車輌では職能4のパークは発動しません"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "この車輌では職能5のパークは発動しません"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "兼任している職能1つにつきそれぞれ{whiteSpanish_Open}3つ{whiteSpanish_Close}までボーナス・パークを習得することができます。なお、ボーナス・パークとして選択できるのは職能専用のパークのみです。"
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "1つの職能につき、習得できるパークはゼロパークを含め{whiteSpanish_Open}6つ{whiteSpanish_Close}に制限されています。"
+
+msgid "matrix/resetButton"
+msgstr "リセット"
+
+msgid "matrix/resetButtonHint"
+msgstr "リセット画面へ"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "パークをひとつも習得していないためリセットできません。"
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "パークはリセット不可"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "パークをリセットして再割り当てを行います。"
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "リセット"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "ボーナス・パークを習得可能"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "ボーナス・パークの習得に搭乗員EXPは必要ありません。"
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "習得不可"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "メイン職能のパークを3つ習得するとアンロックされます。EXPは必要ありません。"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "メイン職能のパークを5つ習得するとアンロックされます。EXPは必要ありません。"
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "訓練レベル"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "搭乗員がゼロパークを1つ習得しているため、必要な合計EXPが減少しています。"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "搭乗員がゼロパークを2つ習得しているため、必要な合計EXPが減少しています。"
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "パークを習得可能"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "習得不可"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "前のパークを100%まで訓練する必要があります"
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "ゼロパークを習得可能"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "複数のパークが選択されている場合でも、ゼロパークが最初に訓練されます。なお、ゼロパークの訓練に搭乗員EXPは必要ありません。"
+
+msgid "matrix/skills/allSkills"
+msgstr "現在の車輌と職能で習得できる全パークを習得済み"
+
+msgid "matrix/skills/available"
+msgstr "新たに習得できるパーク:"
+
+msgid "matrix/skills/bonus"
+msgstr "ボーナス・パーク"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "パークは発動しません"
+
+msgid "matrix/skills/locked"
+msgstr "パークは発動しません"
+
+msgid "matrix/skills/main/disabled"
+msgstr "本車輌では全パークが発動しません"
+
+msgid "matrix/skills/main/enabled"
+msgstr "メイン職能のパーク"
+
+msgid "matrix/skills/reduced"
+msgstr "パーク適性が低下"
+
+msgid "matrix/skills/roles/commander"
+msgstr "車長のパーク"
+
+msgid "matrix/skills/roles/driver"
+msgstr "操縦手のパーク"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "車長のパーク"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "操縦手のパーク"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "砲手のパーク"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "装填手のパーク"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "無線手のパーク"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "砲手のパーク"
+
+msgid "matrix/skills/roles/loader"
+msgstr "装填手のパーク"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "無線手のパーク"
+
+msgid "matrix/skills/training"
+msgstr "パークの習得状況"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "習得できるゼロパーク:"
+
+msgid "memberChange/action/recruit"
+msgstr "{role}を採用"
+
+msgid "memberChange/discount"
+msgstr "職能の変更費用の{discountAmount}%割引"
+
+msgid "memberChange/title"
+msgstr "「{vehicle}」の{role}を選択中"
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}倉庫内{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "操作を確定すると、EXPの引き継ぎ元の搭乗員はアカウントから削除されます。"
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "「引き継ぎ指令書」を使用すると、選択した搭乗員のEXPを同じ国家の搭乗員に受け渡すことができます。"
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "引き継ぎ指令書"
+
+msgid "personalData/card/edit"
+msgstr "編集"
+
+msgid "personalData/card/remove"
+msgstr "削除"
+
+msgid "personalData/card/restrictions"
+msgstr "制限: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "パネルをクリックすると搭乗員の名前を選択したうえで容姿を変更できます。"
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "名前と容姿の変更"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "選択中の搭乗員は限定仕様であるため名前と容姿を変更できません。"
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "名前とスキンを変更不可"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "該当なし。フィルター設定を変更するかリセットしてください。"
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "国籍で表示するスキンを変更します。"
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "車輌フィルター"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "通常スキンのみを表示します。"
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "デフォルトスキン"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "変更可能な限定スキンのみを表示します。"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "使用できる限定スキン"
+
+msgid "personalData/filter/type/title"
+msgstr "スキンの種類"
+
+msgid "personalData/title"
+msgstr "名前と容姿を変更中"
+
+msgid "personalFile/changeVehicle"
+msgstr "変更"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "車輌適性を変更できません。"
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "操作不可"
+
+msgid "personalFile/discount/full"
+msgstr "再訓練費用が割引中"
+
+msgid "personalFile/discount/short"
+msgstr "割引中"
+
+msgid "personalFile/inVehicle"
+msgstr "搭乗中の車輌: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "向上"
+
+msgid "personalFile/isUntrained"
+msgstr "本車輌に適性なし"
+
+msgid "personalFile/premiumVehicle"
+msgstr "全{icon}プレミアム車輌"
+
+msgid "personalFile/retrain"
+msgstr "再訓練"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "パーク適性: "
+
+msgid "personalFile/specialization"
+msgstr "車輌適性"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "車輌適性"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "オリジナル音声パックを再生します。"
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "オリジナル音声パック"
+
+msgid "postProgression/button/claim"
+msgstr "報酬を入手"
+
+msgid "postProgression/description"
+msgstr "メイン職能のパークを6つ習得済みの全搭乗員は「指導員課程」に進むことができます。「指導員課程」にある搭乗員の取得EXPは共通の進捗バーに加算され、100,000EXPが貯まるたびに、他の搭乗員の訓練に役立つ汎用初級教本に変換されます。"
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "「指導員課程」は専用の進捗バーによって構成されており、アカウント上に存在するメイン職能のパークを6つ習得済みの全搭乗員の取得EXPが加算されていきます。"
+
+msgid "postProgression/tips/2"
+msgstr "「指導員課程」に加算されるのは戦闘EXPのみです。搭乗員が取得した戦闘EXPの半分を、車輌に配属された搭乗員の合計人数で割った値が進捗バーに加算されます。"
+
+msgid "postProgression/tips/3"
+msgstr "パーク適性へのペナルティーなどによってEXPが失われた場合でも「指導員課程」の進捗バーからEXPが失われることはありません。"
+
+msgid "postProgression/title"
+msgstr "搭乗員の「指導員課程」"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "「指導員課程」に進んでいた全搭乗員のパーク適性が下がっています。"
+
+msgid "postProgression/warning/retire"
+msgstr "「指導員課程」に進んでいた全搭乗員が解任されているか、最後に習得したパークからEXPを失っています。"
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "全プレミアム駆逐戦車"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "全プレミアム自走砲"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "プレミアム駆逐戦車"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "プレミアム自走砲"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "プレミアム重戦車"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "プレミアム軽戦車"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "プレミアム中戦車"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "全プレミアム重戦車"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "全プレミアム軽戦車"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "全プレミアム中戦車"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "取得済みの勲章"
+
+msgid "serviceRecord/averageXP"
+msgstr "本車輌での\n平均取得EXP"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "本車輌での\n総戦闘数"
+
+msgid "serviceRecord/noAchievements"
+msgstr "勲章を取得していません。"
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "選択中の搭乗員がこの車輌で取得したEXPの総量を総戦闘数で割った値です。"
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "本車輌での平均取得EXP"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "搭乗員の階級はその搭乗員が取得したEXPと習得済みのパークの数が増えるにつれて上昇していきます。"
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "階級"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "本車輌で習得できる全パークを習得済み"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "新たに選択できるパーク"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "本車輌では全パークが発動しません"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "兼任している職能のパークを訓練する際、EXPは必要としません。しかし、習得にはメインの職能のパークの倍の時間がかかります。"
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "キャンセル"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "訓練"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "ボーナス・パーク"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "メイン職能"
+
+msgid "tankChange/title"
+msgstr "車輌適性を変更中"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "ガレージに所有している車輌を表示します。"
+
+msgid "tankChange/tooltip/location/header"
+msgstr "所有中"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "車輌タイプやTierなどを指定して表示する車輌を切り替えられます。"
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "車輌フィルター"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "プレミアム車輌に乗せ換える場合は原則としてペナルティーが発生しません。ただし、適性のある車輌と車輌タイプが異なる場合や、職能の変更を伴う場合は例外です。"
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "プレミアム車輌"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "車輌名は最大で半角%(maxLength)s文字しか入力できません。"
+
+msgid "tankman/action/dismiss/title"
+msgstr "解任"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "この搭乗員を解任します。"
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "この搭乗員は解任できません。"
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "操作不可"
+
+msgid "tankman/action/recruit/title"
+msgstr "採用"
+
+msgid "tankman/action/restore/title"
+msgstr "リカバリー"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "この搭乗員をリカバリーします。"
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "オリジナル音声パックを再生します。"
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "オリジナル音声パック"
+
+msgid "tankman/recruit"
+msgstr "新兵"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "容姿"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "個人ファイル"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "実績"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "採用"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "フィルターをリセット"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "該当なし。フィルター設定を変更するかリセットしてください。"
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "該当なし。搭乗員を新たに採用してください。"
+
+msgid "tankmanList/filter/title"
+msgstr "検索条件に該当する搭乗員:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "兵舎内の寝台が不足しています。"
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "解任済みの搭乗員のみを表示します。"
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "解任済み"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "車輌に搭乗しておらず、兵舎で待機中の搭乗員のみを表示します。"
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "兵舎で待機中"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "車輌に搭乗中の搭乗員のみを表示します。"
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "車輌に搭乗中"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "この国籍の搭乗員スキンのみを表示します。"
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "国籍や車輌適性などの条件を指定して表示する搭乗員を切り替えられます。"
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "搭乗員フィルター"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "新たな搭乗員を採用します。"
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "搭乗員の名前は最大で半角%(maxLength)s文字しか入力できません。"
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*パークにマウスカーソルをかざすと100%まで習得した際の効果と、現在のレベルでの効果を確認可能"
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "了解!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "すべての職能にそれぞれ2つの新たなパークが導入され、既存パーク「隙のない配置」が刷新されたほか、戦闘HUDでパークを非表示にする新オプションが追加されました。"
+
+msgid "welcomeScreen/item2/description"
+msgstr "訓練未完了の搭乗員をワンクリックで解任できる新機能が登場しました。"
+
+msgid "welcomeScreen/item3/description"
+msgstr "クレジットのみを使用して、EXPを失うことなくパークをリセットできるようになりました。"
+
+msgid "welcomeScreen/subTitle"
+msgstr "新しいパークと機能が追加されたほか、既存のパークにも変更が施されました。"
+
+msgid "welcomeScreen/title"
+msgstr "搭乗員への変更"

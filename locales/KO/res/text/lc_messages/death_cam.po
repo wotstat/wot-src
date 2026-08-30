@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)dmm~%(to)dmm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)dmm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "SPACE"
+
+msgid "hints/camera_flow/pause"
+msgstr "고급 모드 (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "정지 (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "재개 (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "전차 파괴"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "방사 피해"
+
+msgid "hints/death_reason/modernHE"
+msgstr "파편 피해"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "표면 피해"
+
+msgid "hints/death_reason/penetration"
+msgstr "직격탄"
+
+msgid "hints/follow_pt1"
+msgstr "클릭"
+
+msgid "hints/follow_pt2"
+msgstr "시 해당 전차로 시점 고정"
+
+msgid "hints/free_cam/return_previous"
+msgstr "우클릭 시 이전 전차로 시점 복귀"
+
+msgid "hints/height/label"
+msgstr "고도"
+
+msgid "hints/height/text"
+msgstr "일정 범위 내에서 시점 고도를 조정합니다."
+
+msgid "hints/movement/label"
+msgstr "이동"
+
+msgid "hints/movement/text"
+msgstr "%(forward)s, %(left)s, %(backward)s, %(right)s 키를 사용하여 시점을 이동합니다."
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "건너뛰기"
+
+msgid "hints/spectatorDown"
+msgstr "SHIFT"
+
+msgid "hints/spectatorUp"
+msgstr "SPACE"
+
+msgid "hints/speed/label"
+msgstr "속도"
+
+msgid "hints/speed/text"
+msgstr "시점 속도를 조정합니다."
+
+msgid "hints/spotted_status/spotted"
+msgstr "발견"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "맹사탄"
+
+msgid "marker/paramName/angleFailure"
+msgstr "비관통 각도"
+
+msgid "marker/paramName/angleImpact"
+msgstr "관통 각도"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "도탄 각도"
+
+msgid "marker/paramName/armorNominal"
+msgstr "제원 장갑 {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "장갑 {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "거리 보정치 {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "승무원 전투 불능!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "탄약고 폭발!"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "화재 발생!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "2구경 규칙"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "3구경 규칙"
+
+msgid "marker/paramName/nonArmored"
+msgstr "장갑 없음"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "각도에 따른 추가 장갑 {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "구경 {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "평균 피해 {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "기대 피해 {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "입은 방사 피해 {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "입은 파편 피해 {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "입은 표면 피해 {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "입은 피해 {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "거리에 따른 감소 {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "장갑으로 막은 피해 {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "장비에 따른 감소 {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "피해 난수 {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "평균 관통력 {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "관통력 {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "포탄 속도 {colorTagOpen}(m/s){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "거리 {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "적 미발견"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s도"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s도"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s도"
+
+msgid "marker/value/applied"
+msgstr "적용"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "미적용"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "미발견"

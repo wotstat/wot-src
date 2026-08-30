@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Giờ Giới nghiêm {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Sự kiện sẽ khả dụng từ"
+
+msgid "bannerTooltip/description"
+msgstr "Chiến trận 30v30 quy mô lớn bằng xe Cấp {{vehicleTier}} trên bản đồ Normandie, Kraftwerk và Fata Morgana. Phe tấn công phải phá hủy 3 trên 5 lô cốt đại pháo, phe phòng thủ phải bảo vệ chúng."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Thể hiện bản lĩnh trong chiến trận ác liệt để lấy danh tiếng, nhận thưởng giá trị và thăng chức."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "Sự kiện đã kết thúc và bạn còn phần thưởng chưa nhận cho các Cấp Chiến tuyến hoàn tất."
+
+msgid "bannerTooltip/header"
+msgstr "Chiến tuyến"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Chiến tuyến | Cấp {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} — Chế độ game. Bấm xem"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn sẽ gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Có thể Giảm Hiệu suất"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Chọn phần thưởng cho Cấp đã hoàn thành ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Không đủ nguồn lực để thực hiện thanh toán."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Các thay đổi sẽ áp dụng cho tất cả pháo chống tăng."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Các thay đổi sẽ áp dụng cho tất cả pháo tự hành."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Các thay đổi sẽ áp dụng cho tất cả tăng hạng nặng."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Các thay đổi sẽ áp dụng cho tất cả tăng hạng nhẹ."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Các thay đổi sẽ áp dụng cho tất cả tăng hạng trung."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Xe không phù hợp"
+
+msgid "battleAbilities/points/body"
+msgstr "Tích lũy đủ số Điểm cần có để kích hoạt Quân Dự bị Chiến đấu Chiến tuyến."
+
+msgid "battleAbilities/points/header"
+msgstr "Điểm Quân Dự bị Chiến đấu"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Xem Quân Dự bị Tấn công"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "QDB Tấn công"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Xem QDB Trinh sát"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "QDB Trinh sát"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Xem QDB Chiến lược"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "QDB Chiến lược"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "Cấp Quân Dự bị Chiến đấu được tăng lên sau khi đạt bậc Đại úy và Thiếu tá trong trận. Mức cao nhất tùy thuộc vào kịch bản đánh."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Thông tin thêm"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "QDB Tấn công"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Quân Dự bị Trinh sát"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "QDB Chiến lược"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Đặc tính cố định:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Quân Dự bị Chiến đấu đặt ở ô này làm tăng thêm {{@ colorLegacy 'FFE4C0'}}10%{{/}} xác suất nó được cung cấp trong kịch bản {{@ colorLegacy 'FFE4C0'}}Định Mệnh{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Cấp Quân Dự bị:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Chưa mua!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "Sự kiện đã kết thúc."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "Sự kiện sẽ sớm bắt đầu!"
+
+msgid "infoButton/body"
+msgstr "Click để biết thêm thông tin."
+
+msgid "infoButton/header"
+msgstr "Chi tiết Sự kiện"
+
+msgid "levelReserves/desc"
+msgstr "Mức Quân Dự bị Chiến đấu được tăng lên khi đạt cấp bậc mới:"
+
+msgid "levelReserves/info"
+msgstr "Trong kịch bản {{@ colorLegacy 'FFE4C0'}}Định Mệnh{{/}}, mua Quân Dự bị Chiến đấu sẽ cộng thêm một cấp độ của nó và đem lại cơ hội tăng lên Mức {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}."
+
+msgid "levelReserves/level"
+msgstr "Tăng lên khi đạt cấp bậc sau: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Khả dụng với cấp bậc sau: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Mức - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Cho {{@ colorLegacy 'FFE4C0'}}Quân Dự bị Chiến đấu được mua{{/}} trong kịch bản {{@ colorLegacy 'FFE4C0'}}Định Mệnh{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Mức Quân Dự bị chiến đấu"
+
+msgid "playlist/warning/body"
+msgstr "Playlist này chứa xe không phù hợp với chế độ game hoặc không có trong Gara của bạn."
+
+msgid "playlist/warning/header"
+msgstr "Xe không khả dụng (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Đặc tính QDB Chiến đấu đã được cải thiện"
+
+msgid "randomReserve/disable"
+msgstr "Ô Quân Dự bị Chiến đấu đã được sử dụng."
+
+msgid "randomReserve/notPurchased"
+msgstr "QDb Chiến đấu chưa được mua"
+
+msgid "randomReserve/purchased"
+msgstr "QDb Chiến đấu đã được mua"
+
+msgid "skillOrderTooltip/body"
+msgstr "Mỗi loại xe có thứ tự mở khóa Quân Dự bị riêng:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Thứ tự Mở khóa Quân Dự bị Chiến đấu"
+
+msgid "skillOrderTooltip/info"
+msgstr "Trong kịch bản {{@ colorLegacy 'whiteSpanish'}}Định Mệnh{{/}}, thứ tự mở khóa Quân Dự bị Chiến đấu không phụ thuộc vào loại xe."

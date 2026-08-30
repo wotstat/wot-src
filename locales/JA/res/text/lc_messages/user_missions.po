@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "ステージ{{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "特別チャプター"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "達成済み"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "新たなバトルパス"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "チャプターを選択"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "一時的に利用不可"
+
+msgid "battle_pass_widget/title"
+msgstr "バトルパス"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "鍛錬「{{challengeName}}」"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}}～{{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}}日"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}}日{{hours}}時間"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}}時間"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}}時間{{minutes}}分"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}}分"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "ボーナスミッション\n標準ミッション3つ達成でアンロック"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "ボーナスミッションの残り時間"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "新たなデイリーミッションまで"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "全デイリーミッションを達成しました。新たなデイリーミッションに登場まで少しお待ちください。"
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "このミッションをアンロックするには先行するミッションを達成する必要があります。"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "プレミアムミッションは一時的に利用不可"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "プレミアムを購入"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "WoTプレミアムアカウントが必要"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "プレミアムミッション"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "デイリーミッションは一時的に挑戦不可"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "変更"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "デイリー"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "キャンペーンへ"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "結果を向上"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "オペレーションへ"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "経験豊富な戦車長向けの難易度の高いコンテンツです。達成すれば、報酬として特別な車輌が手に入ります。"
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "オペレーション {{currentOperationName}}を制覇しました。名誉達成することで結果の向上を続けることができるほか、オペレーション {{nextOperationName}}に挑戦することができます。"
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "まだ{{nextOperationName}}の結果を向上させることができます。"
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "オペレーション {{currentOperationName}}を名誉達成しました。オペレーション {{nextOperationName}}に挑戦できるようになりました。"
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "パーソナルミッション、デイリーミッション、ウィークリーミッションを達成することで、キャンペーン・ポイントを獲得することができます。"
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "全{{totalProgress}}個のミッションを達成することでオペレーションを名誉達成し、追加の報酬を獲得することができます。"
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "パーツをすべて搭載することで、報酬の{{vehicleName}}を受け取ることができます。車輌のパーツはパーソナルミッションのほか、デイリーおよびウィークリーミッションを達成してキャンペーン・ポイントを集めることで手に入ります。"
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "パーツをすべて搭載することで、報酬の{{vehicleName}}を受け取ることができます。車輌のパーツはパーソナルミッションのほか、デイリーおよびウィークリーミッションを達成してキャンペーン・ポイントを集めることで手に入ります。"
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "達成したミッション: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "新登場の「セクター3」キャンペーンに挑戦可能"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "オペレーション {{nextOperationName}}に挑戦可能"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "オペレーション {{currentOperationName}}を名誉達成"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "オペレーション {{nextOperationName}}に挑戦可能"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "オペレーション: {{currentOperationName}} | ステージ {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "オペレーション {{currentOperationName}}を名誉達成する"
+
+msgid "hub/basic_missions/title"
+msgstr "レギュラー・ミッション"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "ウィークリー"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "{{weekDay}}ごとに更新"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "挑戦中のミッション"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "または"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "新たなミッションが間もなく登場します"
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "ファイター"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "エース"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "エリート"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "ミッションは「ファイター」、「エリート」、「エース」の3つのカテゴリーに分かれています。それぞれのカテゴリーで用意された厳しい試練を乗り越えることで、価値ある報酬を獲得できます。"
+
+msgid "hub/challenge_missions/header"
+msgstr "鍛錬"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "挑戦開始"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "無料でリスタート"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "リスタート"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "放棄"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "ミッションへ"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon)鍛錬ミッション達成済み"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s/%(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "残りシールド"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "無料リスタート"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "挑戦中の鍛錬ミッションを達成する必要があります。"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "終了まで%(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)【挑戦不可】%(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Tier VI以上の車輌が必要"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "挑戦中"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "達成済み"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}}ミッション"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "チャレンジ・ミッション"
+
+msgid "hub/challenge_missions/new"
+msgstr "NEW"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "鍛錬へ"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "鍛錬へ"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "鍛錬「{{ challengeName }}」を制覇!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "鍛錬へ"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "鍛錬「{{ challenge }}」に失敗しました。リスタートすると再挑戦できます。"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "鍛錬へ"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "ミッション「{{ mission }}」を達成!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "鍛錬へ"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "ミッション「{{ mission }}」失敗"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "残りシールド"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "鍛錬へ"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "鍛錬を開始して、過酷なミッション・セットを制覇すると、貴重な報酬を獲得できます。"
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "新ミッション登場"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "新ミッション「鍛錬」が登場です。過酷なミッション・セットを制覇すると貴重な報酬を入手できます。"
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "鍛錬を開始せよ"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "達成済み"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "3D付属品のセット"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "ボンズ拡張パーツ"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2Dスタイル"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "搭乗員"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "車輌"
+
+msgid "hub/challenge_missions/title"
+msgstr "鍛錬ミッション"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "鍛錬について"
+
+msgid "hub/common_missions/title"
+msgstr "エクストラ・ミッション"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "報酬を入手"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "快挙報酬は一時的にご利用いただけません"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "「標準ミッション」、「プレミアムミッション」、または「ボーナスミッション」の達成数が進捗バーに加算されます。"
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "残り時間"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "デイリーミッションを達成して快挙報酬を獲得"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "報酬を入手"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "報酬を入手"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "「標準ミッション」、「プレミアムミッション」、または「ボーナスミッション」の達成数が進捗バーに加算されます。"
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "残り時間"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "デイリーミッションを達成して快挙報酬を獲得: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "「標準ミッション」を3つすべて達成すると、さらに貴重な報酬を獲得できる「ボーナスミッション」に挑戦できるようになります。「ボーナスミッション」はその日のうちに達成する必要があります。達成できなかった場合、期限切れとなります。"
+
+msgid "info_page/additional/bonus/title"
+msgstr "ボーナスミッション"
+
+msgid "info_page/additional/conditions/description"
+msgstr "ミッションには、1戦で達成しなければならないものもあれば、複数の戦闘を通して達成できるものも存在します。成果が複数の戦闘にわたって累積するタイプのミッションには、達成状況を示す専用の進捗バーが表示されます。ミッションは「ランダム戦」で達成することができます。"
+
+msgid "info_page/additional/conditions/title"
+msgstr "条件"
+
+msgid "info_page/additional/reroll/description"
+msgstr "「標準ミッション」の条件が難しすぎると感じる場合は、ミッションを変更できます。変更すると、{{time}}時間が経過するまで再び変更できなくなります。戦闘中の車輌がある場合、変更により進行が失われてしまう可能性があります。"
+
+msgid "info_page/additional/reroll/title"
+msgstr "ミッションの変更"
+
+msgid "info_page/additional/reward/description"
+msgstr "快挙報酬はマラソンのようなサイクルです。「標準ミッション」、「プレミアムミッション」、あるいは「ボーナスミッション」の達成数が進捗に加算されます。サイクルの終わりに達すると、再びゼロから始まります。快挙報酬には時間制限がないため、いつでも達成可能です。"
+
+msgid "info_page/additional/reward/title"
+msgstr "快挙報酬"
+
+msgid "info_page/header"
+msgstr "ミッションの概要"
+
+msgid "info_page/main/premium/description"
+msgstr "アカウントを「WoTプレミアムアカウント」にアップグレードすると、「標準ミッション」に加えて3種類の「プレミアムミッション」がアンロックされます。「ランダム戦」と「オンスロート」モードのどちらでも挑戦でき、各戦闘の終了時に進捗状況が更新されます。イベントの開催中は、達成報酬にそのイベントに関連する報酬が追加されます。"
+
+msgid "info_page/main/premium/title"
+msgstr "プレミアムミッション"
+
+msgid "info_page/main/standard/description"
+msgstr "「標準ミッション」は、毎日挑戦できるミッションで、達成条件はランダムに決定されます。達成期限はないものの、未達成の状態で1日が経過すると翌日に持ち越され、新たに挑戦できるミッションの数が減ってしまいます。そのため、挑戦できるようになった日のうちに達成してしまうのがおススメです。「バトルパス」の開催期間中は、「標準ミッション」の達成報酬に「バトルパス進捗ポイント」が追加されます。その他のイベントの開催中は、そのイベントに関連する報酬が追加されます。"
+
+msgid "info_page/main/standard/title"
+msgstr "標準ミッション"
+
+msgid "info_page/main/weekly/description"
+msgstr "「ウィークリーミッション」は、毎週挑戦できるミッションのセットのことを指します。各戦闘の終了時に進捗が更新されます。達成したミッションは、次の週が始まると新しいものに置き換えられます。「ランダム戦」と「オンスロート」モードのどちらでも挑戦でき、追加報酬を入手することができます。"
+
+msgid "info_page/main/weekly/title"
+msgstr "ウィークリーミッション"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "本日の通常ミッションはすべて達成済み"
+
+msgid "quests/daily_quests/completed"
+msgstr "全デイリーミッションを達成済み"
+
+msgid "tooltip/common/timer"
+msgstr "変更可能になるまで{{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "今日の通常ミッションをすべて達成しました。「追加ミッション」のタブにさらなるミッションが用意されています。"
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "ボーナスミッション"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "達成済み"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "デイリーミッション"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "期限切れまで{{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "新たなデイリーミッションまで{{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "プレミアムミッション"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "報酬"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "ミッションの条件は\n{time}に1回変更できます。"
+
+msgid "tooltip/daily_reroll/header"
+msgstr "ミッションの変更"
+
+msgid "tooltip/hub/card/completed"
+msgstr "ミッションを達成済み"
+
+msgid "tooltip/hub/card/disabled"
+msgstr "このミッションをアンロックするには先行するミッションを達成する必要があります。ミッション・セットはすべて順番にしか達成できません。"
+
+msgid "tooltip/hub/info_button/body"
+msgstr "詳細はこちら"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "ミッションの概要"
+
+msgid "tooltip/hub/replay/body"
+msgstr "このミッション・セットは、制覇後に再挑戦できます。再挑戦を開始すると、進行状況はリセットされ、シールドが回復し、再び報酬を獲得できるようになります。"
+
+msgid "tooltip/hub/replay/header"
+msgstr "ミッションに再挑戦"
+
+msgid "tooltip/hub/restart/description"
+msgstr "シールドをすべて失うと、ミッション・セットをリスタートできます。リスタートすると、ミッションの進行状況はリセットされ、シールドが回復し、再び報酬を獲得できるようになります。"
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "それ以降のリスタートの費用: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "無料リスタートの残り回数: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "リスタート毎の費用: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "リスタート"
+
+msgid "tooltip/hub/shields/description"
+msgstr "シールドはミッションを進めるうえでの「残機」にあたります。ミッションに失敗するたびにシールドがひとつ失われ、シールドがすべて失われると、そのミッション・セットへの挑戦は失敗となります。リスタートすると、シールドは回復します。"
+
+msgid "tooltip/hub/shields/title"
+msgstr "シールド"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "使用できる車輌の制限"
+
+msgid "tooltip/weekly_mission"
+msgstr "ウィークリーミッション"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "ウィークリーミッションの条件は{{time}}に1回変更できます。"
+
+msgid "welcome/button"
+msgstr "了解!"

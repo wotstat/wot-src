@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "승무원 및 훈련"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "전차 꾸미기"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "장비 및 지휘명령"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "기타"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "전차"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "확인"
+
+msgid "autoOpenView/title"
+msgstr "획득한 보상"
+
+msgid "awardViews/footer/backButton/"
+msgstr "확인"
+
+msgid "bonuses/description/battle_booster"
+msgstr "지휘명령"
+
+msgid "bonuses/description/booster"
+msgstr "개인 물자"
+
+msgid "bonuses/description/crewSkin"
+msgstr "승무원 스킨"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "일반 장비"
+
+msgid "bonuses/description/style"
+msgstr "2D 스타일"
+
+msgid "bonuses/description/style3D"
+msgstr "3D 스타일"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "설계도면 조각 (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "범용 설계도면 조각"
+
+msgid "bonuses/label/bpcoin"
+msgstr "배틀 패스 토큰"
+
+msgid "boxTooltip/description/text/default"
+msgstr "개봉 시 전차, 자원 등 값진 아이템을 획득할 수 있습니다.\n상자는 게임 내 상점에서 구매할 수 있습니다."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "확정 보상까지 남은 개봉 횟수"
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "상자는 게임 내 상점에서 구매할 수 있습니다."
+
+msgid "common/backButton"
+msgstr "뒤로"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "전술 상자"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "전술 상자"
+
+msgid "common/closeButton"
+msgstr "닫기"
+
+msgid "common/footer/checkbox"
+msgstr "개봉 애니메이션"
+
+msgid "common/getButton/lowerCase"
+msgstr "추가 획득"
+
+msgid "common/getButton/upperCase"
+msgstr "추가 획득"
+
+msgid "common/infoButton"
+msgstr "아이템 목록"
+
+msgid "common/loader"
+msgstr "상자 개봉 중..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count)개"
+msgstr[1] "%(count)개"
+msgstr[2] "%(count)개"
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "일"
+msgstr[1] "일"
+msgstr[2] "일"
+
+msgid "common/selectTooltip"
+msgstr "상자 수량 부족으로 한 번에 {{count}}개 개봉 불가"
+
+msgid "common/statistics/emptyHeader"
+msgstr "통계를 확인하려면 상자를 개봉하십시오."
+
+msgid "common/statistics/header"
+msgstr "개봉한 상자: %(count)"
+
+msgid "common/statsButton"
+msgstr "통계"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "취소"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "보상 기록을 삭제합니다."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "초기화"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "통계를 초기화하시겠습니까?"
+
+msgid "entryPoint/boxes"
+msgstr "상자로 이동"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "신규 및 특별 아이템이 포함된 특별한 상자입니다. 게임 내 상점에서 획득할 수 있습니다."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "이벤트 종료까지"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "기술적 문제를 해결하기 위해 이벤트를 일시적으로 중단하였습니다."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "일시적으로 이용 불가"
+
+msgid "eventName/lowerCase"
+msgstr "전장 보급"
+
+msgid "eventName/upperCase"
+msgstr "전장 보급"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)번째"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)번째"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)번째"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)번째"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "%(count) 개봉 시마다"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "전차"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "%(count) %(item) 보상을 확정 획득합니다. 해당 보상을 획득하면 개봉 횟수 집계가 초기화됩니다."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "이미 모든 전차를 보유 중이라면 골드가 대신 지급됩니다."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name)까지 개봉 %(count)회 남음"
+
+msgid "guaranteedTitle/textName"
+msgstr "확정 보상"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "개봉"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "이벤트 종료까지 %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "이벤트 종료 시까지 개봉하지 않은 상자는 자동으로 개봉됩니다."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "상자에서 획득할 수 있는 아이템 목록 내 전차를 모두 보유하고 있다면 상자에서 전차 획득 시 해당 전차 가격에 상응하는 골드가 대신 지급됩니다."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "상자를 %(guaranteed0)s개 개봉할 때마다 8단계~10단계 전차를 확정 획득합니다. 상자를 개봉하였지만 전차가 나오지 않았다면 상자 유형에 따라 %(guaranteed0)s번째 상자 개봉 시 보유하지 않은 8단계~10단계 전차를 확정 획득합니다. 전차 획득 시 개봉 횟수 집계가 초기화됩니다."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "자동 개봉"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "대체 보상"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "확정 보상"
+
+msgid "infoPage/header/lootListLink"
+msgstr "게임 포털에서 아이템 목록 확인"
+
+msgid "infoPage/header/probability/description"
+msgstr "획득 확률"
+
+msgid "infoPage/header/probability/title"
+msgstr "그룹"
+
+msgid "infoPage/header/rewards/description"
+msgstr "보상은 그룹당 하나만 획득 가능"
+
+msgid "infoPage/header/rewards/title"
+msgstr "보상"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "추가 개봉"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "%(name) %(boxesCount)개 개봉 보상"
+
+msgid "multipleRewardView/header/title/"
+msgstr "획득한 보상"
+
+msgid "noBoxesView/description/"
+msgstr "게임 내 상점에서 상자 구매 가능"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "상점으로 이동"
+
+msgid "noBoxesView/goToButton/"
+msgstr "이용 가능한 상자로 이동"
+
+msgid "preview/backLabel"
+msgstr "상자로 이동"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "이용 가능: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "남은 상자 없음"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "계속"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "%(vehicleInfo) 전용"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "%(style) 3D 스타일"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "\"%(eventName)s\" 이벤트 종료"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "남은 상자가 모두 개봉됩니다. 내용물은 계정에 추가됩니다."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "보상 확인"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "보상 획득"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "이벤트 기간에 받지 않은 아이템이 추가되었습니다."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "서버 점검으로 인해 일시적으로 해당 이벤트를 이용할 수 없습니다."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "이벤트를 다시 이용할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s개)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "보상 획득"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "오류"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "이전 작업이 완료될 때까지 기다려 주십시오."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "일시적으로 작업을 수행할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "이벤트로 이동"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "\"%(eventName)s\" 이벤트 시작"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "%(date)s까지만 제공되는 프리미엄 전차 및 값진 게임 아이템 획득 기회!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "통계를 초기화할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "그 외 보상"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "추가 개봉"
+
+msgid "singleRewardView/header/title/"
+msgstr "획득한 보상"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "특별 승무원"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D 부착물"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "전투당 경험치 5배 획득 임무"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "지휘명령"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "설계도면 조각"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "책자"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "훈련 책자"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "소모품"
+
+msgid "statisticsRewards/label/credits"
+msgstr "크레딧"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "교본"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "훈련 교본"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "승무원 경험치 3배 획득 임무"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "전쟁 채권"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "전차 꾸미기"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "강화 장비"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "부속품"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "시제 장비"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "자유 경험치"
+
+msgid "statisticsRewards/label/gold"
+msgstr "골드"
+
+msgid "statisticsRewards/label/guide"
+msgstr "지침"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "훈련 지침"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "인수인계 허가증"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "일반 장비"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "개인 물자"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "월드 오브 탱크 프리미엄 계정"
+
+msgid "statisticsRewards/label/rations"
+msgstr "식량"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "재훈련 명령서"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D 스타일"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D 스타일"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "승무원"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "포상 장비"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "전차"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "통계 초기화"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "통계를 초기화합니다."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "외 %(count)개"
+msgstr[1] "외 %(count)개"
+msgstr[2] "외 %(count)개"
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "\"%(label)\""
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "국가 설계도면 조각"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). \"%(label)\"(%(vehicleInfo) 전용)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "대체된 스타일: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "대체된 전차: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "이미 보유한 전차에 대한 대체 보상입니다."

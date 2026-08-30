@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "フィルターをリセット"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "選択された条件に一致する車輌がありません。\n適切な車輌を表示するには、フィルター設定をリセットしてください。"
+
+msgid "battleType/description/fast"
+msgstr "「戦闘リザーブ」のクールダウン時間が短縮されるシナリオです。"
+
+msgid "battleType/description/random"
+msgstr "使用できる「戦闘リザーブ」がランダムに決まるほか、「リザーブ」の最大レベルがIVに設定されているシナリオです。"
+
+msgid "battleType/description/standard"
+msgstr "従来の「フロントライン」のルールが適用されるシナリオです。"
+
+msgid "battleType/postBattle/title"
+msgstr "戦闘シナリオ: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "「戦闘リザーブ」のクールダウン時間が短縮されます。"
+
+msgid "battleType/shortDescription/random"
+msgstr "使用できる「戦闘リザーブ」がランダムに決められます。"
+
+msgid "battleType/shortDescription/standard"
+msgstr "通常のルールが適用されます。"
+
+msgid "battleType/title/fast"
+msgstr "作戦支援"
+
+msgid "battleType/title/random"
+msgstr "運命の悪戯"
+
+msgid "battleType/title/standard"
+msgstr "通常戦"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "戻る"
+
+msgid "button/close"
+msgstr "閉じる"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration}日"
+msgstr[1] "{duration}日"
+msgstr[2] "{duration}日"
+
+msgid "filterPopover/note"
+msgstr "本モードと互換性のある車輌しか表示されません。"
+
+msgid "levelReservesTooltip/desc"
+msgstr "階級が上がると「戦闘リザーブ」のレベルが向上します。"
+
+msgid "levelReservesTooltip/info"
+msgstr "シナリオ「{whiteSpanish_Start}運命の悪戯{whiteSpanish_End}」では、専用ガレージで「戦闘リザーブ」を購入ておくと、その初期レベルが1段階上昇し、レベル{whiteSpanish_Start}%(lvl)s{whiteSpanish_End}までアップグレードできるようになります。"
+
+msgid "levelReservesTooltip/level"
+msgstr "強化の条件となる階級: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "アンロックの条件となるランク: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "レベル{whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "シナリオ「{whiteSpanish_Start}運命の悪戯{whiteSpanish_End}」で{whiteSpanish_Start}事前に購入{whiteSpanish_End}した「戦闘リザーブ」のみ到達可能"
+
+msgid "levelReservesTooltip/title"
+msgstr "戦闘リザーブのレベル"
+
+msgid "loading"
+msgstr "読込中…"
+
+msgid "widget/eventStartSoon"
+msgstr "イベントは間もなく開始"
+
+msgid "widget/maxTier"
+msgstr "最高Tierに到達しました"

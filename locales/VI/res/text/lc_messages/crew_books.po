@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "MUA"
+
+msgid "buttons/cancel"
+msgstr "Hủy bỏ"
+
+msgid "buttons/learn"
+msgstr "Học"
+
+msgid "buttons/postProgression/claim"
+msgstr "LẤY"
+
+msgid "buttons/postProgression/hint"
+msgstr "ĐẾN HẬU TIẾN TRÌNH"
+
+msgid "buttons/postProgression/howTo"
+msgstr "CÁCH LẤY"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Tỷ lệ quy đổi:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Áp dụng cho thành viên kíp lái được chọn.\nTăng tốc đào tạo kỹ năng hiện tại bằng cách dùng XP Tự do."
+
+msgid "card/freeExp/title"
+msgstr "XP TỰ DO"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Hiệu quả kỹ năng: 100%\n• Chuyên môn: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Áp dụng cho toàn kíp lái.\nĐem lại cho mỗi thành viên %(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "SỔ TAY ĐÀO TẠO (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "SỔ TAY HƯỚNG DẪN (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "SÁCH CHUYÊN ĐÀO TẠO (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Có thể áp dụng mà không bị giới hạn gì."
+
+msgid "card/personalBook/mainText"
+msgstr "Áp dụng cho thành viên kíp lái được chọn.\nĐem lại cho người này %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "GIÁO TRÌNH ĐÀO TẠO CÁ NHÂN"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Hiệu quả kỹ năng: 100%\n• Chuyên môn: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Áp dụng cho toàn kíp lái.\nĐem lại cho mỗi thành viên %(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "GIÁO TRÌNH PHỔ DỤNG"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "SỔ TAY PHỔ DỤNG"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "SÁCH CHUYÊN PHỔ DỤNG"
+
+msgid "confirm/crewLabel"
+msgstr "Mỗi thành viên kíp lái sẽ nhận %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Mỗi thành viên kíp lái sẽ nhận %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) sẽ nhận thêm %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) sẽ nhận %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Một số thành viên kíp lái sẽ nhận %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Sổ tay Đào tạo (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Sổ tay Đào tạo"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "SỔ TAY ĐÀO TẠO"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} XP Kíp lái cho mỗi thành viên tương ứng."
+
+msgid "items/crewBook/Name"
+msgstr "Sổ tay Hướng dẫn (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Sổ tay Hướng dẫn"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "SỔ TAY HƯỚNG DẪN"
+
+msgid "items/guide/Name"
+msgstr "Sách chuyên Đào tạo (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Sách chuyên Đào tạo"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "SÁCH CHUYÊN ĐÀO TẠO"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} XP cho thành viên tổ lái được chọn"
+
+msgid "items/personalBook/Name"
+msgstr "Giáo trình Đào tạo Cá nhân"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} XP Kíp lái cho mỗi thành viên tương ứng."
+
+msgid "items/universalBook/Name"
+msgstr "Giáo trình Phổ dụng"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} XP cho mỗi thành viên tổ lái."
+
+msgid "items/universalBrochure/Name"
+msgstr "Sổ tay Phổ dụng"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} XP cho mỗi thành viên tổ lái."
+
+msgid "items/universalGuide/Name"
+msgstr "Sách chuyên Phổ dụng"
+
+msgid "page/mentoringLicense/hint"
+msgstr "ĐẾN BẰNG CỐ VẤN"
+
+msgid "page/mentoringLicense/title"
+msgstr "BẰNG CỐ VẤN"
+
+msgid "page/title"
+msgstr "ĐÀO TẠO NHANH"
+
+msgid "tooltip/buyManual"
+msgstr "Mua Sổ tay Hướng dẫn"
+
+msgid "tooltip/mouseWheel"
+msgstr "Cuộn {mouseIcon} để tăng / giảm số lượng Tài liệu Kíp lái."
+
+msgid "tooltip/outOfStock"
+msgstr "Hết Tài liệu Kíp lái"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Hết Tài liệu Kíp lái. Hãy mua thêm ở Cửa hàng."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Áp dụng cho thành viên kíp lái được chọn. Đem lại cho người này %(xp)s XP."
+
+msgid "tooltip/postProgression"
+msgstr "Đến Hậu Tiến trình"
+
+msgid "tooltip/sale/header"
+msgstr "Tỷ giá Quy đổi có lợi"
+
+msgid "tooltip/sale/newRate"
+msgstr "Tỷ giá quy đổi mới: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Tỷ giá quy đổi cũ: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Click %(controlsImg) để tăng / giảm 1% mức độ đào tạo kỹ năng."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Bấm %(pgupImg) / %(pgdownImg) để tăng mức độ đào tạo kỹ năng lên&nbsp;100% / trở&nbsp;lại kỹ năng trước."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Áp dụng cho toàn kíp lái. Đem lại cho mỗi thành viên %(xp)s XP."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Áp dụng cho toàn kíp lái. Đem lại cho mỗi thành viên %(xp)s XP."

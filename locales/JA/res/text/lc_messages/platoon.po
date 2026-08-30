@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "検索をキャンセル"
+
+msgid "buttons/cancelSearch/description"
+msgstr "小隊メンバーの検索をキャンセルします。"
+
+msgid "buttons/createPlatoon/caption"
+msgstr "新たな小隊"
+
+msgid "buttons/createPlatoon/description"
+msgstr "自ら小隊を作成してフレンドリストに登録したプレイヤーを招待できます。"
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "新たなスーパー小隊"
+
+msgid "buttons/findPlayers/caption"
+msgstr "プレイヤーを検索"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "条件を指定して実力や経験の近いプレイヤーを検索できます。"
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "プレイヤーの検索を開始すると、送信したものの承諾されていない招待がすべてキャンセルされます。"
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "プレイヤーを検索"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "サーバー上に存在する小隊が多すぎるため、プレイヤーの検索を行うことができません。"
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "適合車輌を所有していないため、プレイヤーの検索を行うことができません。"
+
+msgid "buttons/invite/player/caption"
+msgstr "プレイヤーを招待"
+
+msgid "buttons/invite/player/description"
+msgstr "プレイヤーを小隊に招待します。"
+
+msgid "buttons/invite/players/caption"
+msgstr "プレイヤーを招待"
+
+msgid "buttons/invite/players/description"
+msgstr "プレイヤーを招待することができます。"
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "小隊から脱退"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "小隊から脱退できます。"
+
+msgid "buttons/mute/caption"
+msgstr "小隊での音声チャットを無効化"
+
+msgid "buttons/mute/description"
+msgstr "小隊での音声チャットを無効化できます。"
+
+msgid "buttons/notReady/caption"
+msgstr "準備中"
+
+msgid "buttons/notReady/description"
+msgstr "まだ準備が必要であることをメンバーに伝えます。"
+
+msgid "buttons/ready/caption"
+msgstr "準備完了!"
+
+msgid "buttons/ready/description"
+msgstr "戦闘準備が完了したことをメンバーに伝えます。"
+
+msgid "buttons/reset/caption"
+msgstr "検索フィルターをリセット"
+
+msgid "buttons/reset/description"
+msgstr "検索フィルターをリセットします。"
+
+msgid "buttons/settings/caption"
+msgstr "検索フィルター"
+
+msgid "buttons/settings/description"
+msgstr "条件に合致するプレイヤーを検索できます。プレイヤーが見つからない場合は条件が緩和され、検索範囲が拡大されます。"
+
+msgid "buttons/unMute/caption"
+msgstr "小隊での音声チャットを有効化"
+
+msgid "buttons/unMute/description"
+msgstr "小隊での音声チャットを有効化できます。"
+
+msgid "headerButton/inSquad"
+msgstr "小隊に参加中"
+
+msgid "headerButton/onboarding"
+msgstr "プレイヤーを検索して\n小隊を編成できます"
+
+msgid "headerButton/searching"
+msgstr "検索中..."
+
+msgid "headerButton/squad"
+msgstr "小隊の作成"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "フレンドと小隊を組んで出撃し、9つの敵小隊に立ち向かうことができます。"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "小隊"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "こちらのモードでの戦闘参加が一時的に禁止されているため、小隊の作成および参加ができません。"
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "こちらのモードに参加できるTier %(level)s車輌がガレージに1輌もないため、小隊の作成および参加ができません。"
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "一時的に小隊の作成を行えません。"
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "小隊は利用不可"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "自ら新たな小隊を作成するか、既存の小隊に参加して「オンスロート・ライト」モードで共闘できます。小隊は2名または7名で編成する必要があります。"
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "小隊"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "対応するTier %(level)s車輌がガレージに1輌もないため、小隊の作成および参加ができません。"
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "「測定ラウンド」終了後、2名小隊および7名小隊を利用できるようになります。"
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "小隊を作成することができません。"
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "小隊は利用不可"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "小隊を作成するか、既存の小隊に参加してください。「オンスロート」モードでは、2名または7名で小隊を構成することができます。"
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "小隊"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "2～3名編成の小隊を作成して共闘できます。\n• 戦闘モード: 乱戦\n• 戦闘タイプ: スチールハント、制圧戦"
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "小隊"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "2～3名編成の小隊を作成して「グレートレース」モードで共闘できます。"
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "グレートレース小隊"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "小隊メニューを開くことができます。"
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "先行偵察小隊"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "小隊メニューを開くことができます。"
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "小隊"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "2～3名編成の小隊を作成して「先行偵察ミッション」モードで共闘できます。"
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "先行偵察小隊"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "「ランク戦」では小隊を編成できません。"
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "小隊を作成"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "プレイヤーを検索中…"
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "検索中"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "2～3名編成の小隊を作成して「ランダム戦」モードおよび「フロントライン」モード(イベント期間中) で共闘できます。"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "小隊"
+
+msgid "members/card/connectionLost"
+msgstr "接続が中断されました"
+
+msgid "members/card/disabled"
+msgstr "このモードでは2名編成の小隊のみ作成可能"
+
+msgid "members/card/disabledVertical"
+msgstr "このモードでは利用不可"
+
+msgid "members/card/empty"
+msgstr "空きスロット"
+
+msgid "members/card/inBattle"
+msgstr "戦闘中"
+
+msgid "members/card/muted/caption"
+msgstr "音声チャット無効"
+
+msgid "members/card/muted/description"
+msgstr "プレイヤー名を右クリックすると音声チャットを有効化できます。"
+
+msgid "members/card/notReady"
+msgstr "準備中"
+
+msgid "members/card/searching"
+msgstr "プレイヤーを検索中…"
+
+msgid "members/card/selectVehicle"
+msgstr "要Tier %(level)s車輌"
+
+msgid "members/chat/chatName"
+msgstr "チャットチャンネル"
+
+msgid "members/chat/sendMessage/body"
+msgstr "小隊メンバーにチャットを送信できます。"
+
+msgid "members/chat/sendMessage/header"
+msgstr "メッセージを送信"
+
+msgid "members/footer/comp7Invite"
+msgstr "招待"
+
+msgid "members/footer/comp7Limitations"
+msgstr "最上ランク制限"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "小隊内最上のランク"
+
+msgid "members/footer/getNotReady"
+msgstr "再度準備を行うにはクリックしてください"
+
+msgid "members/footer/getReady"
+msgstr "準備完了をメンバーに伝えてください"
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "Tier不適合"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "編成ルール違反のためEXPにペナルティーが科されます！"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "車輌数の上限に到達済み"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "小隊に含まれる駆逐戦車の数が上限に到達しています"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "小隊に含まれる自走砲の数が上限に到達しています"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "小隊に含まれる重戦車の数が上限に到達しています"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "小隊に含まれる中戦車の数が上限に到達しています"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "小隊に含まれる軽戦車の数が上限に到達しています"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "小隊に含まれる装輪車輌の数が上限に到達しています"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "小隊に含まれる軽戦車の数が上限に到達しています"
+
+msgid "members/header/battle_royal"
+msgstr ": STEEL HUNTER"
+
+msgid "members/header/epic"
+msgstr ": フロントライン"
+
+msgid "members/header/event"
+msgstr ": Waffenträger Hyperion"
+
+msgid "members/header/mapbox"
+msgstr ": 先行偵察ミッション"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": ランダム戦"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "「フロントライン」モードは\nTier VIII車輌限定です。"
+
+msgid "members/header/tooltip/epic/header"
+msgstr "小隊編成ルール"
+
+msgid "members/header/tooltip/event/body"
+msgstr "小隊はモード専用車輌3輌で編成する必要があります。"
+
+msgid "members/header/tooltip/event/header"
+msgstr "小隊編成ルール"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "小隊はTierの異なる車輌では編成できません。"
+
+msgid "members/header/tooltip/standard/header"
+msgstr "小隊編成ルール"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "小隊のメンバー数"
+
+msgid "searching/estimated/caption"
+msgstr "推定所要時間"
+
+msgid "searching/estimated/lessThan"
+msgstr "%(seconds)d秒以内"
+
+msgid "searching/estimated/moreThan"
+msgstr "%(seconds)d秒以上"
+
+msgid "searching/expanded/body"
+msgstr "条件を満たすプレイヤーが見つかりません。\n検索対象のTier範囲が拡大されました。"
+
+msgid "searching/expanded/header"
+msgstr "検索範囲の拡大"
+
+msgid "searching/lookingFor"
+msgstr "検索範囲:"
+
+msgid "searching/playersInQueue"
+msgstr "待機中のプレイヤー"
+
+msgid "searching/state"
+msgstr "経過時間:"
+
+msgid "settings/tiers"
+msgstr "車輌Tier"
+
+msgid "settings/voice"
+msgstr "音声チャット可能なプレイヤーを優先"
+
+msgid "squad"
+msgstr "小隊"

@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "Chat Clan"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "Click để viết và gửi tin nhắn vào kênh Chat Clan."
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "Chat Clan"
+
+msgid "clan/header/creationDate"
+msgstr "Được tạo vào %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "Đơn xin và Lời mời"
+
+msgid "clan/header/requestSent"
+msgstr "Đã gửi đơn xin"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "Gửi Đơn"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "Click để gửi đơn xin vào Clan này."
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "Gửi Đơn"
+
+msgid "clan/post/combatOfficer"
+msgstr "Sĩ quan Chiến đấu"
+
+msgid "clan/post/commander"
+msgstr "Chỉ huy"
+
+msgid "clan/post/executiveOfficer"
+msgstr "Sĩ quan Điều hành"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "Sĩ quan Tình báo"
+
+msgid "clan/post/juniorOfficer"
+msgstr "Sĩ quan Cấp úy"
+
+msgid "clan/post/personnelOfficer"
+msgstr "Sĩ quan Biên chế"
+
+msgid "clan/post/private"
+msgstr "Binh nhì"
+
+msgid "clan/post/quartermaster"
+msgstr "Sĩ quan Hậu cần"
+
+msgid "clan/post/recruit"
+msgstr "Tân binh"
+
+msgid "clan/post/recruiter"
+msgstr "Sĩ quan Quân lực"
+
+msgid "clan/post/reservist"
+msgstr "Lính Dự bị"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "Lỗi khi hiển thị tên"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "Dữ liệu trong bảng đã được cập nhật."
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "Điều kiện Kết nạp"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "Có thể sửa được"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "Clan không có đơn đang chờ xét duyệt."
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "Clan không có đơn đã hết hạn."
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "Mời vào Clan"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "Click %(invite)s để gửi lời mời\ncho những người chơi mới."
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "Clan chưa gửi đi bất cứ lời mời nào trong vòng 28 ngày qua."
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "Clan không có bất cứ lời mời nào chưa được xử lý trong vòng 28 ngày qua."
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "Clan không có bất cứ lời mời nào đã hết hạn trong vòng 28 ngày qua."
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "Clan không có bất cứ lời mời nào đã được xử lý trong vòng 28 ngày qua."
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "Clan chưa có đơn xin nào được xử lý."
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "Không nhận được dữ liệu từ máy chủ. \nHãy thử lại sau."
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "Lỗi Máy chủ"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "Đang chờ duyệt: (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "Tất cả (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "Đã hết hạn (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "Đã có quyết định (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "Đã xử lý (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "Chức vụ trống trong Clan: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "Mời vào Clan"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "Bạn có 3 ngày để xử lý một đơn xin vào Clan. Đơn xin và lời mời được lưu trữ trong 28 ngày, sau đó sẽ tự động bị xóa."
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "Không thể mời người chơi: Clan đã đủ thành viên."
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "Không thể mời người chơi: Clan không còn tuyển thành viên tại thời điểm này."
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "Đã nhận"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d ng để xử lý"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "Đã từ chối"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "Lỗi"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "Đã hết hạn"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d giờ để xử lý"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d ph để xử lý"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "Đã gửi"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "Lời mời (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "Đơn xin (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "Tác vụ"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "Mời"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "Đã gửi"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "Hiện Thêm"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "Trạng thái"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "Người chơi"
+
+msgid "clanInvitesWindow/title"
+msgstr "Đơn xin và Lời mời"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "Click để mời người chơi vào Clan."
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "Theo lời mời từ:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "Đã chấp nhận lời mời."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "Đã từ chối lời mời."
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "Đã gửi lời mời."
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "Người gửi:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Nút này sẽ có thể bấm được sau khi nhận dữ liệu mới từ máy chủ."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Click để hiển thị lời mời và đơn xin mới."
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "Cập nhật danh sách."
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "Người ra quyết định:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "Đã chấp nhận đơn xin."
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "Đã từ chối đơn xin."
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "Đơn xin đã hết giá trị"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "Đã gửi đơn xin."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "Không thể thêm người chơi mới: Clan đã đủ thành viên."
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Gần đây, game thủ này mới rời khỏi một phe. Bạn chỉ có thể nhận người này vào Clan mình sau:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "Không thể mời người chơi mới: Clan đã đủ thành viên."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Kinh nghiệm trung bình mỗi trận của người chơi được mời (kể cả Tài khoản Premium)."
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Kinh nghiệm Tr.bình mỗi Trận"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Số trận đã tham chiến của người chơi được mời."
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Số trận"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "Click để mời người chơi này vào Clan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Tin nhắn kèm theo lời mời từ Clan."
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Nội dung"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "Chỉ số Cá nhân của người chơi được mời."
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "Chỉ số Cá nhân"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "Ngày tháng và thời gian lời mời gia nhập Clan được gửi đi."
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "Đã gửi"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Trạng thái lời mời vào Clan.\nMột lời mời có thể đang chờ xét duyệt, đã hết hạn hoặc được xử lý rồi."
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Trạng thái"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "Tên của người chơi được mời."
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "Người chơi"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Tỷ lệ chiến thắng của người chơi được mời."
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Thắng lợi"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Một đơn xin có thể được chấp thuận hoặc bị từ chối."
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Tác vụ"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "Kinh nghiệm trung bình mỗi trận của người chơi gửi đơn xin (kể cả Tài khoản Premium)."
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "Kinh nghiệm Tr.bình mỗi Trận"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "Tổng số trận đã tham chiến của người chơi gửi đơn xin."
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "Số trận"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "Tin nhắn từ người chơi, kèm theo đơn xin."
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "Nội dung"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "Chỉ số Cá nhân của người chơi gửi đơn xin."
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "Chỉ số Cá nhân"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "Trạng thái đơn xin vào Clan.\nMột đơn có thể đang chờ xét duyệt, đã hết hạn hoặc được xử lý rồi."
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "Trạng thái"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "Tên của người chơi gửi đơn xin."
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "Người chơi"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "Tỷ lệ chiến thắng của người chơi gửi đơn xin."
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "Thắng lợi"
+
+msgid "clanLanding/notification/archived"
+msgstr "Tin nhắn đã được niêm cất."
+
+msgid "clanLanding/notification/commonError"
+msgstr "Lỗi kỹ thuật: Không thể hoàn thành tác vụ với tin nhắn."
+
+msgid "clanLanding/notification/deleted"
+msgstr "Đã xóa bỏ tin nhắn."
+
+msgid "clanLanding/notification/edited"
+msgstr "Đã đăng tin nhắn."
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "Đã vượt quá số ký tự tối đa."
+
+msgid "clanLanding/notification/limitReached"
+msgstr "Đã đăng số tin nhắn tối đa trong Clan."
+
+msgid "clanLanding/notification/noPermission"
+msgstr "Không đủ quyền hạn để quản lý tin nhắn Clan: Chức vụ của bạn đã bị sửa đổi."
+
+msgid "clanLanding/notification/notExist"
+msgstr "Tin nhắn đã được xóa bỏ hoặc niêm cất."
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "Tin nhắn chứa các từ ngữ vi phạm <a href=\"event:clanRulesLink\">quy định Clan</a>."
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "Lời mời đang chờ xử lý: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "Từ chối số đã chọn (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "Lời mời của Clan tôi"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "Đang nhận dữ liệu..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "Bạn chưa có bất cứ lời mời vào Clan nào."
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "Chọn mọi đơn xin"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "Tác vụ"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "Tên Clan"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "Trạng thái"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "Lời mời vào Clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "Bạn sẽ có thể cập nhật danh sách sau khi nhận dữ liệu mới."
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "Click để cập nhật bảng."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "Gần đây, bạn mới rời khỏi một phe. Bạn chỉ có thể chấp nhận lời mời vào Clan khác sau:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "Kinh nghiệm trung bình mỗi trận của thành viên Clan gửi lời mời (trung bình trọng của chế độ Trận đấu Ngẫu nhiên)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "Kinh nghiệm Tr.bình mỗi Trận"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "Số trận trung bình đã tham chiến của thành viên Clan gửi lời mời (chỉ trong chế độ Trận đấu Ngẫu nhiên)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "Số trận của Clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "Tên của Clan đã mời bạn."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "Tên Clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "Tin nhắn từ Clan đã mời bạn."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "Nội dung"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "Chỉ số tổng của Clan đã mời bạn."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "Chỉ số Clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "Cho thấy trạng thái lời mời vào Clan và thời gian còn lại để xử lý nó"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "Trạng thái"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "Tỷ lệ chiến thắng của thành viên Clan gửi lời mời (trung bình trọng của chế độ Trận đấu Ngẫu nhiên)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "Thắng lợi của Clan"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "Bạn có thể chấp nhận hoặc từ chối lời mời. Nếu chấp nhận, bạn mặc nhiên tự động từ chối mọi lời mời từ các Clan khác."
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "Tác vụ"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "Hồ sơ Clan"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "Tắt"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "Chào mừng vào Clan!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "Giờ bạn đã có thể tham gia các trận đánh trên Bản đồ Chiến sự, xây dựng và phòng thủ Pháo đài của riêng mình, cũng như hoàn thành những nhiệm vụ đặc biệt."
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "Thông báo"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "Clan của bạn: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "Chúng tôi rất lấy làm tiếc vì sự cố này. Xin vui lòng thử lại sau."
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "Pháo đài tạm thời không khả dụng"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "Chúng tôi rất lấy làm tiếc vì sự cố này.\nHãy thử lại sau."
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "Lỗi khi Tải Dữ liệu"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "Hồ sơ Clan"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "Pháo đài"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "Bản đồ Chiến sự"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "Thành viên Clan"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "Pháo đài"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "Sơ lược"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "Mời Người chơi vào Clan"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "Tác vụ không khả dụng. Bạn chỉ có thể mời game thủ vào Clan từng người một."
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "Thêm mọi liên lạc vào danh sách người nhận."
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "Số trận trong 28 Ngày qua"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "Số trận Tiến công trong 28 Ngày qua"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "Chỉ huy Clan"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "Chưa được tạo"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "Chưa đánh trận nào.\nChưa sở hữu Lãnh thổ nào."
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "Cấp Pháo đài"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "Quân khố"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "Chưa đánh trận nào"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "Lãnh thổ"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "Chỉ số Elo X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "Chỉ số Elo VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "Chỉ số Elo VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "Số trận Tranh chấp trong 28 Ngày qua"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "Tổng thành viên"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "Chi tiết"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "Chi tiết"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "Gửi Đơn"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "Clan chưa có khẩu hiệu."
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "Chi tiết Bản đồ Chiến sự"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "Đến Bản đồ"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "Chi tiết tạm thời không khả dụng"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "Không thể gia nhập Clan."
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "Xem điều kiện kết nạp %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "Bạn đã là thành viên\ncủa một Clan khác rồi."
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "Bạn đã nhận được lời mời\nvào Clan này rồi."
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s Tạm thời bị giới hạn"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s Tạm thời bị giới hạn"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "Clan này không nhận đơn xin gia nhập %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "Đã gửi đơn xin"
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "Đang đồng bộ dữ liệu..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "Chỉ số Elo của Clan với Sư đoàn X khi Tiến công"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "Chỉ số Elo X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "Chỉ số Elo của Clan với Sư đoàn VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "Chỉ số Elo VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "Chỉ số Elo của Clan với Sư đoàn VIII khi Tiến công"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "Chỉ số Elo VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "Số trận Tiến công của Clan trong 28 Ngày qua"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "Số trận Tiến công trong 28 Ngày qua"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "Cấp Pháo đài là Cấp độ của Trung tâm Chỉ huy."
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "Cấp Pháo đài"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "Số trận Tranh chấp của Clan trong 28 Ngày qua"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "Số trận Tranh chấp trong 28 Ngày qua"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "Chỉ số Elo của Clan với Sư đoàn X khi đánh trên Bản đồ Chiến sự."
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "Chỉ số Elo X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "Chỉ số Elo của Clan với Sư đoàn VI khi đánh trên Bản đồ Chiến sự."
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "Chỉ số Elo VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "Chỉ số Elo của Clan với Sư đoàn VIII khi đánh trên Bản đồ Chiến sự."
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "Chỉ số Elo VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "Số trận đánh trên Bản đồ Chiến sự trong 28 Ngày qua của Clan"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "Số trận trong 28 Ngày qua"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "Số lãnh thổ trên Bản đồ Chiến sự hiện thuộc quyền kiểm soát của Clan."
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "Lãnh thổ"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "Đã gửi đi số đơn tối đa."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "Không thể Gửi Đơn"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "Đã gửi đi số đơn tối đa."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "Không thể Gửi Đơn"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "Clan không nhận đơn xin."
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "Không thể Gửi Đơn"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "Chỉ số của Clan chưa được cập nhật trong 28 ngày qua."
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "Thông tin Cũ"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "Chỉ số tổng phụ thuộc vào hiệu quả giao tranh của Clan trong chế độ Pháo đài và trên Bản đồ Chiến sự."
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "Chỉ số Tổng"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "Chỉ số Tổng"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "Hồ sơ Clan"
+
+msgid "globalMap/disabled"
+msgstr "Các trận đánh trên Bản đồ Chiến sự\nhiện không khả dụng cho khu vực của bạn"
+
+msgid "globalMapView/level10"
+msgstr "Cấp X"
+
+msgid "globalMapView/level6"
+msgstr "Cấp VI"
+
+msgid "globalMapView/level8"
+msgstr "Cấp VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "Lãnh thổ này không cung cấp thu nhập cho bạn vì không còn kết nối với Sở Chỉ huy; hoặc nó đã bị cướp phá."
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "Không Mang lại Thu nhập"
+
+msgid "globalMapView/noProvince"
+msgstr "Clan này không sở hữu bất kỳ Lãnh thổ nào."
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "Giờ G ưa thích: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "Bản đồ Chiến sự là trận địa nơi các Clan tranh giành quyền kiểm soát chiến lược. Những Sĩ quan chỉ huy của từng phe phái dành phần lớn thời gian tại đây, vừa xây dựng kế hoạch tác chiến, vừa triển khai lực lượng và điều động quân đội."
+
+msgid "globalMapView/promo/header"
+msgstr "Bản đồ Chiến sự"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "Chi tiết Bản đồ Chiến sự"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "Đến Bản đồ"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "Số trận"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "Tổng số trận đánh bằng Sư đoàn X trên Bản đồ Chiến sự."
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "Số trận"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Chỉ số Elo"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "Chỉ số của Clan với Sư đoàn X khi đánh trên Bản đồ Chiến sự."
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Chỉ số Elo"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "Bản đồ ưa thích"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "Bản đồ mà Clan đánh nhiều trận nhất bằng Sư đoàn X trong 28 ngày qua."
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "Bản đồ Ưa thích: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "Vị thứ xếp hạng"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "Vị thứ xếp hạng của Clan với các trận đánh bằng Sư đoàn X trên Bản đồ Chiến sự"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "Vị thứ xếp hạng"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "Chiến thắng"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "Tổng tỷ lệ chiến thắng với Sư đoàn X trên Bản đồ Chiến sự"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "Chiến thắng"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "Số trận"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "Tổng số trận đánh bằng Sư đoàn VI trên Bản đồ Chiến sự"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "Số trận"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Chỉ số Elo"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "Chỉ số của Clan với Sư đoàn VI khi đánh trên Bản đồ Chiến sự"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Chỉ số Elo"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "Bản đồ ưa thích"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "Bản đồ mà Clan đánh nhiều trận nhất bằng Sư đoàn VI trong 28 ngày qua."
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "Bản đồ Ưa thích: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "Vị thứ xếp hạng"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "Vị thứ của Clan ở bảng xếp hạng khi đánh bằng Sư đoàn VI trên Bản đồ Chiến sự."
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "Chỉ số Clan"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "Chiến thắng"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "Tổng tỷ lệ chiến thắng với Sư đoàn VI trên Bản đồ Chiến sự."
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "Chiến thắng"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "Số trận"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "Tổng số trận đánh bằng Sư đoàn VIII trên Bản đồ Chiến sự."
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "Số trận"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Chỉ số Elo"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "Chỉ số của Clan với Sư đoàn VIII khi đánh trên Bản đồ Chiến sự."
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Chỉ số Elo"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "Bản đồ ưa thích"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "Bản đồ mà Clan đánh nhiều trận nhất bằng Sư đoàn VIII trong 28 ngày qua."
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "Bản đồ Ưa thích: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "Vị thứ xếp hạng"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "Vị thứ của Clan ở bảng xếp hạng khi đánh bằng Sư đoàn VIII trên Bản đồ Chiến sự."
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "Vị thứ Xếp hạng"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "Chiến thắng"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "Tổng tỷ lệ chiến thắng với Sư đoàn VIII trên Bản đồ Chiến sự."
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "Chiến thắng"
+
+msgid "globalMapView/stats/battles"
+msgstr "Số trận trên Bản đồ Chiến sự"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "Tổng số trận đánh của Clan trên Bản đồ Chiến sự."
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "Số trận trên Bản đồ Chiến sự"
+
+msgid "globalMapView/stats/seized"
+msgstr "Lãnh thổ Sở hữu"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "Tổng số Lãnh thổ mà Clan sở hữu. Tính cả những mảnh đất từng chiếm đóng trong quá khứ (dù hiện tại không còn)."
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "Lãnh thổ Sở hữu"
+
+msgid "globalMapView/stats/wins"
+msgstr "Thắng Lợi Của Thành Viên Clan"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "Tổng tỷ lệ chiến thắng của các thành viên Clan khi đánh trên Bản đồ Chiến sự."
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "Thắng Lợi Của Clan"
+
+msgid "globalMapView/table/days"
+msgstr "Ngày"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "Khoảng thời gian mà Clan sở hữu Lãnh thổ trên Bản đồ Chiến sự, tính bằng ngày."
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "Ngày"
+
+msgid "globalMapView/table/front"
+msgstr "Mặt trận"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "Tên của Mặt trận đã chọn"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "Mặt trận"
+
+msgid "globalMapView/table/income"
+msgstr "Thu nhập"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "Lượng vàng thu được từ Lãnh thổ mỗi ngày"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "Thu nhập"
+
+msgid "globalMapView/table/map"
+msgstr "Bản đồ"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "Tên của bản đồ nơi diễn ra các trận đánh giành Lãnh thổ."
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "Bản đồ"
+
+msgid "globalMapView/table/primeTime"
+msgstr "Giờ G"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "Thời gian các trận đánh giành Lãnh thổ sẽ diễn ra theo kế hoạch."
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "Giờ G"
+
+msgid "globalMapView/table/province"
+msgstr "Lãnh thổ"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "Tên của Lãnh thổ được chọn."
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "Lãnh thổ"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "Lãnh thổ đã bị cướp phá và tạm thời không cung cấp thu nhập cho bạn."
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "Thời gian trước khi bắt đầu có thu nhập trở lại:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "Lãnh thổ"
+
+msgid "globalMapView/tabs/stats"
+msgstr "Thống kê"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "Chỉ số của Clan chưa được cập nhật trong 28 ngày qua."
+
+msgid "globalMapView/totalIncome"
+msgstr "Tổng thu nhập mỗi ngày: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "Số trận\ntrung bình"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "Trung bình trọng số trận đã đánh trong chế độ Trận đấu Ngẫu nhiên và Đại đội của mọi thành viên Clan. Chỉ tính những người chơi hiện đang thuộc biên chế Clan."
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "Số Trận Đánh Trung Bình Của Thành Viên Clan"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "Kinh nghiệm Trung bình"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "Trung bình trọng số kinh nghiệm kiếm được của thành viên Clan trong chế độ Trận đấu Ngẫu nhiên và Đại đội. Tổng lượng trận đánh bởi mỗi game thủ có ảnh hưởng lên trọng số. Chỉ tính những người chơi hiện đang thuộc biên chế Clan."
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "Kinh Nghiệm Trung Bình Của Thành Viên Clan"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "Chỉ Số Cá Nhân Trung Bình"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "Chỉ số Cá nhân trung bình của mọi thành viên Clan. Chỉ tính những người chơi hiện đang thuộc biên chế Clan."
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "Chỉ Số Cá Nhân Trung Bình Của Thành Viên Clan"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "Tỷ lệ thắng trung bình"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "Trung bình trọng tỷ lệ chiến thắng của thành viên Clan trong chế độ Trận đấu Ngẫu nhiên và Đại đội. Tổng lượng trận đánh bởi mỗi game thủ có ảnh hưởng lên trọng số. Chỉ tính những người chơi hiện đang thuộc biên chế Clan."
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "Tỷ lệ Thắng Trung Bình Của Thành Viên Clan"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "Tỷ lệ tổng lượng kinh nghiệm kiếm được trên số trận đánh của người chơi trong chế độ Trận đấu Ngẫu nhiên và Đại đội."
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "Kinh nghiệm Trung bình"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "Tổng số Trận đấu Ngẫu nhiên và Đại đội mà người chơi đã tham chiến"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "Tổng Số Trận"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "Số ngày mà người chơi thuộc biên chế Clan này."
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "Ngày trong Clan"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "Chỉ số Cá nhân của Người chơi"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "Chỉ số Cá nhân"
+
+msgid "personnelView/table/player"
+msgstr "Người chơi (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "Tên thành viên Clan"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "Người chơi"
+
+msgid "personnelView/table/post"
+msgstr "Chức vụ"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "Cấp bậc của người chơi trong Clan"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "Chức vụ"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "Tỷ lệ chiến thắng của người chơi trong chế độ Trận đấu Ngẫu nhiên và Đại đội."
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "Thắng lợi"
+
+msgid "personnelView/title"
+msgstr "Chỉ Số Thống Kê của Thành Viên Clan Trong Các Trận Đấu Ngẫu Nhiên và Đại đội:"
+
+msgid "search/clansList"
+msgstr "Số Clan được Liệt kê: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "Không có gì khớp với truy vấn của bạn. Hãy thử tìm kiếm bằng từ khóa khác."
+
+msgid "search/emptyResult/button"
+msgstr "Quay về Danh sách"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "Click để quay lại danh sách các Clan đã tìm thấy."
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "Quay về Danh sách"
+
+msgid "search/emptyResult/header"
+msgstr "Không Có Kết Quả Nào"
+
+msgid "search/foundClans"
+msgstr "Số Clan Tìm được: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "Không thể gia nhập Clan."
+
+msgid "search/info/banned/tooltip/header"
+msgstr "Không thể Gửi Đơn"
+
+msgid "search/info/clanProfileBtn"
+msgstr "Hồ sơ Clan"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "Không thể gửi đơn xin vào Clan."
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "Tác vụ Không khả dụng"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "Bạn đã nhận được lời mời gia nhập Clan này rồi."
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "Không thể Gửi Đơn"
+
+msgid "search/info/ratingDescription"
+msgstr "Chỉ số Tổng"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "Chỉ số tổng phụ thuộc vào hiệu quả giao tranh của Clan trong chế độ Pháo đài và trên Bản đồ Chiến sự."
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "Chỉ số Tổng"
+
+msgid "search/info/ratingTitle"
+msgstr "Chỉ Số Thống Kê Trong Mọi Loại Trận Đánh:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "Bạn đã gửi đơn xin vào Clan này rồi."
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "Không thể Gửi Đơn"
+
+msgid "search/info/requestSent"
+msgstr "Đã gửi đơn xin"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "Clan không nhận đơn xin."
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "Không thể Gửi Đơn"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "Đã gửi đi số đơn tối đa."
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "Không thể Gửi Đơn"
+
+msgid "search/info/sendRequestBtn"
+msgstr "Gửi Đơn"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "Không nhận được dữ liệu máy chủ. Hãy thử lại sau."
+
+msgid "search/info/serverUnavailable/header"
+msgstr "Lỗi Máy chủ"
+
+msgid "search/info/stats/avgExp"
+msgstr "Kinh nghiệm Trung bình"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "Trung bình trọng số kinh nghiệm kiếm được của thành viên Clan trong mọi chế độ đánh. Tổng lượng trận đánh bởi mỗi game thủ có ảnh hưởng lên trọng số. Chỉ tính những người chơi hiện đang thuộc biên chế Clan."
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "Kinh Nghiệm Trung Bình Của Thành Viên Clan"
+
+msgid "search/info/stats/battles"
+msgstr "Số trận\ntrung bình"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "Trung bình trọng số trận đã tham dự trong mọi chế độ đánh của thành viên Clan. Chỉ tính những người chơi hiện đang thuộc biên chế Clan."
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "Số Trận Đánh Trung Bình Của Thành Viên Clan"
+
+msgid "search/info/stats/wins"
+msgstr "Tỷ lệ thắng trung bình"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "Trung bình trọng tỷ lệ chiến thắng của thành viên Clan trong mọi chế độ đánh. Tổng lượng trận đánh bởi mỗi game thủ có ảnh hưởng lên trọng số. Chỉ tính những người chơi hiện đang thuộc biên chế Clan."
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "Tỷ lệ Thắng Trung Bình Của Thành Viên Clan"
+
+msgid "search/nextBtn"
+msgstr "Tiếp"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "Click để hiển thị phần tiếp theo của danh sách Clan."
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "Tiếp"
+
+msgid "search/previousBtn"
+msgstr "Trước"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "Click để hiển thị phần trước đó của danh sách Clan."
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "Trước"
+
+msgid "search/promoText/body"
+msgstr "Để xác định một Clan, hãy nhập tên hoặc tag của nó vào ô và click Tìm."
+
+msgid "search/promoText/header"
+msgstr "Tìm Clan"
+
+msgid "search/requestTooShort/body"
+msgstr "Để tìm Clan, hãy nhập ít nhất 2 ký tự vào ô tương ứng và thử lại."
+
+msgid "search/requestTooShort/button"
+msgstr "Quay về Danh sách"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "Quay về Danh sách"
+
+msgid "search/requestTooShort/header"
+msgstr "Không đủ Dữ liệu"
+
+msgid "search/searchBtn"
+msgstr "Tìm"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "Nhập tên hoặc tag của một Clan vào ô bên trái (ít nhất 2 ký tự)."
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "Tìm Clan"
+
+msgid "search/searchInputPrompt"
+msgstr "Nhập tên hoặc tag của Clan"
+
+msgid "search/serverUnavailable/body"
+msgstr "Không nhận được dữ liệu máy chủ. Hãy thử lại sau."
+
+msgid "search/serverUnavailable/header"
+msgstr "Lỗi Máy chủ"
+
+msgid "search/table/clan"
+msgstr "Clan"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "Thuộc tính Clan: tag và tên"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "Clan"
+
+msgid "search/table/creationDate"
+msgstr "Được tạo"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "Ngày tạo Clan"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "Được tạo"
+
+msgid "search/table/players"
+msgstr "Người chơi"
+
+msgid "search/table/players/tooltip/body"
+msgstr "Tổng số thành viên của Clan"
+
+msgid "search/table/players/tooltip/header"
+msgstr "Người chơi"
+
+msgid "search/table/rating"
+msgstr "Chỉ số"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "Chỉ số tổng của Clan"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "Chỉ số"
+
+msgid "search/title"
+msgstr "Tìm Clan"
+
+msgid "search/titleDescription"
+msgstr "Tại đây, bạn có thể tìm Clan, xem chi tiết về nó,\nvà gửi đơn xin gia nhập. Hãy kiếm theo tên hoặc tag Clan."
+
+msgid "search/windowTitle"
+msgstr "Tìm Clan"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "Kế hoạch"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "Thống kê"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "Cấp %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "chưa thiết lập"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "Đình chiến:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "Thời gian Phòng thủ:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "Máy chủ cơ sở:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "Số công trình đã xây:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "Trung lập:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "Tài nguyên Công nghiệp Thu được Nhiều nhất"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "Thắng lợi Liên tiếp Nhiều nhất"

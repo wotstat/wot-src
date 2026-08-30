@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "error/button"
+msgstr "รับทราบ!"
+
+msgid "error/description"
+msgstr "ไม่มีข้อมูลให้ชั่วคราว ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น โปรดลองใหม่ภายหลัง"
+
+msgid "error/title"
+msgstr "ไม่สามารถเปิดการเลือกรางวัลได้"
+
+msgid "footer/closeBtn/label"
+msgstr "เลือกภายหลัง"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "เลือกรางวัลจากประเภทที่มีให้"
+msgstr[1] "เลือกรางวัลจากประเภทที่มีให้"
+msgstr[2] "เลือกรางวัลจากประเภทที่มีให้"
+
+msgid "footer/okBtn/label"
+msgstr "รับ"
+
+msgid "footer/rewardsSelected"
+msgstr "รางวัลที่เลือกไว้:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "เลือกรางวัลจากประเภทที่มีให้"
+msgstr[1] "เลือกรางวัลจากประเภทที่มีให้"
+msgstr[2] "เลือกรางวัลจากประเภทที่มีให้"
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "ถึงขีดจำกัดแล้ว"
+
+msgid "reward/state_received"
+msgstr "ได้รับแล้ว"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "ถึงขีดจำกัดจำนวนสิ่งของที่เลือกไว้ในประเภทนี้แล้ว คุณสามารถยกเลิกการเลือกของสิ่งของหนึ่งชิ้นเพื่อเลือกชิ้นอื่น"
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "ถึงขีดจำกัดแล้ว"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "คำสั่ง\nสำหรับอุปกรณ์"
+
+msgid "tabs/items/battle_booster"
+msgstr "คำสั่งอุปกรณ์"
+
+msgid "tabs/items/blueprint"
+msgstr "เศษแผ่นพิมพ์เขียว"
+
+msgid "tabs/items/brochure"
+msgstr "อนุสารการฝึก"
+
+msgid "tabs/items/crewbook"
+msgstr "คู่มือการฝึก"
+
+msgid "tabs/items/deluxe"
+msgstr "อุปกรณ์รุ่นปรับปรุง"
+
+msgid "tabs/items/expequipments"
+msgstr "อุปกรณ์\nทดลอง"
+
+msgid "tabs/items/guide"
+msgstr "บทแนะนำการฝึก"
+
+msgid "tabs/items/modernized_device"
+msgstr "อุปกรณ์รุ่นทดลอง"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "อุปกรณ์ทดลองระดับ 1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "อุปกรณ์ทดลองระดับ 2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "อุปกรณ์ทดลองระดับ 3"
+
+msgid "tabs/items/new_device"
+msgstr "อุปกรณ์มาตรฐาน"
+
+msgid "tabs/items/trophy"
+msgstr "อุปกรณ์เงินรางวัล"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "คลิกที่ปุ่มรับเพื่อรับรางวัลที่ได้เลือกเอาไว้"
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "รางวัลที่เลือกเอาไว้: %(white_open)s%(count)s%(white_close)s"

@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "ได้รับพาหนะแล้ว"
+
+msgid "awardView/end"
+msgstr "กิจกรรมจบลงแล้ว"
+
+msgid "awardView/info"
+msgstr "หมายเลขรูปแบบ"
+
+msgid "awardView/toHangar"
+msgstr "ดูในโรงรถ"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) พร้อมรูปแบบมีหมายเลข"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "ได้รับพาหนะแล้ว"
+
+msgid "awardView/vehicleTitle"
+msgstr "ได้รับพาหนะแล้ว"
+
+msgid "commonTexts/aboutButton"
+msgstr "เกี่ยวกับกิจกรรม"
+
+msgid "commonTexts/closeBtn"
+msgstr "ปิด"
+
+msgid "commonTexts/eventTitle"
+msgstr "โรงประกอบ"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "ยกเลิก"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "ใช้"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "ไม่มีพาหนะมีรูปแบบเลขเหลืออยู่ คุณจะได้รับ%(vehicleName)s โดยไม่มีเลขตัวถังประดับ\nคุณแน่ใจว่าคุณต้องการที่จะใช้ทรัพยากร?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "คุณจะได้รับ %(vehicleName)s โดยไม่มีเลขตัวถัง"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "กลับไปยังโรงรถ"
+
+msgid "confirm/NoVehicles/description"
+msgstr "ทรัพยากรทั้งหมดที่ใช้ไปจะถูกส่งคืนบัญชีของคุณในไม่ช้า"
+
+msgid "confirm/NoVehicles/title"
+msgstr "ที่สุดแล้วก็ไม่มีพาหนะเหลืออยู่"
+
+msgid "confirm/buttonCancel/title"
+msgstr "ยกเลิก"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "ใช้"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "ความก้าวหน้าหลังจากการใช้: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "ใช้ทรัพยากร?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "คืนทรัพยากร"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "ทรัพยากรที่ใช้ไปทั้งหมดจะถูกส่งคืนไปยังบัญชีของคุณและความก้าวหน้าการประกอบของคุณจะถูกตั้งใหม่ ตราบเท่าที่กิจกรรมกำลังดำเนินอยู่ คุณจะสามารถใช้ทรัพยากรอีกครั้งเพื่อให้ได้รับพาหนะ"
+
+msgid "confirm/resourcesReturn/title"
+msgstr "ทำการคืนทรัพยากรที่ใช้ไปทั้งหมด?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "ทรัพยากรที่ใช้ไปทั้งหมดจะถูกส่งคืนบัญชีของคุณ และความก้าวหน้าการประกอบจะถูกตั้งใหม่ จะทำการเลือก %(vehicleName) เอาไว้และคุณสามารถใช้ทรัพยากรเพื่อรับมันได้"
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "คืนทรัพยากรที่ใช้ไปทั้งหมดแล้วเลือก %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "เลือกพาหนะ"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "คุณสามารถซื้อพาหนะได้ทั้งสองคันในช่วงกิจกรรม"
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "ในช่วงกิจกรรม คุณจะสามารถซื้อชุดสินค้าที่มีพาหนะซึ่งมีรูปแบบสามมิติมีเลขประจำตัว"
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "ผู้เล่น %(styleTanksCount) คนแรกจะได้รับพาหนะหนึ่งคันพร้อมรูปแบบสามมิติมีเลขประดับแล้ว{{@ class $br}}{{/}}พาหนะ %(withoutStyleTanksCount) คันจะถูกส่งโดยไม่มีรูปแบบมีเลขประดับ"
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "กิจกรรมจบลงแล้ว"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "ได้รับพาหนะแล้ว"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "ได้รับพาหนะแล้ว"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "พาหนะเหลืออยู่"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "มีพาหนะคันนี้ในโรงรถของคุณแล้ว"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "ได้รับพาหนะแล้ว"
+
+msgid "eventInfo/tanksOver"
+msgstr "ไม่มีเหลืออีก"
+
+msgid "eventInfo/top/styleText"
+msgstr "มีเลขประดับ"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "พาหนะมีเลขตัวถังเหลืออยู่"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "การส่งมอบพาหนะมีการปรับแต่งมาตรฐาน %(regularRewardVehiclesCount) คันจะเริ่ม\nทันทีที่ไม่มีพาหนะมีเลขตัวถังเหลืออยู่"
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "ในการปรับแต่งมาตรฐาน"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "พาหนะเหลืออยู่"
+
+msgid "mainView/affirmative/button"
+msgstr "รับทราบ"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "ไปยังการคืนทรัพยากร"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "รวบรวมทรัพยากรได้:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "รวบรวมทรัพยากรได้:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "กลับไปยังโรงรถ"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "เลือกทรัพยากร"
+
+msgid "mainView/footer/description/text"
+msgstr "ถ้าไม่มีพาหนะเหลืออยู่ ทรัพยากรที่ใช้ไปทั้งหมดจะถูกส่งคืน"
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "ชนิดบัญชีของคุณไม่สามารถเข้าร่วมกิจกรรมได้"
+
+msgid "mainView/footer/forbidden/title"
+msgstr "คุณไม่สามารถเข้าร่วม"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "คุณสามารถซื้อพาหนะได้ทั้งสองคันแต่คุณสามารถลงทรัพยากรได้เพียงหนึ่งในสองคันในเวลาใดเวลาหนึ่งเท่านั้น"
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "เลือกพาหนะและลงทรัพยากรที่กำหนดเพื่อทำการประกอบพาหนะแต่รีบเข้าล่ะ!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "รีบใช้ทรัพยากรที่กำหนดเพื่อทำการประกอบแล้วรับ %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "ทรัพยากรทั้งหมดที่ใช้ไปจะถูกส่งคืนบัญชีของคุณในไม่ช้า"
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "ที่สุดแล้วก็ไม่มีพาหนะเหลืออยู่"
+
+msgid "mainView/navbar/backBtn"
+msgstr "ไปยังโรงประกอบ"
+
+msgid "mainView/navbar/title"
+msgstr "โรงประกอบ"
+
+msgid "mainView/preview/label"
+msgstr "ภาพตัวอย่าง"
+
+msgid "mainView/timer/lastUntil"
+msgstr "จนกว่า"
+
+msgid "mainView/timer/leftTime"
+msgstr "เวลาที่เหลืออยู่:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "ปิด"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "ใช้ทรัพยากร"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s ไม่มีข้อมูลให้ชั่วคราว"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "ไม่มีพาหนะเหลืออยู่"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "เหลือพาหนะมีเลขตัวถังอยู่: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "พาหนะที่เหลืออยู่: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "สากล"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "ทรัพยากรสูงสุด %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "สูงสุด %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "รวบรวมทรัพยากรได้ %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "เศษแผ่นพิมพ์เขียว"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "สกุลเงิน"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "กำลังรวบรวมทรัพยากร"
+
+msgid "tankPreview/button"
+msgstr "เลือกทรัพยากร"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "ในช่วงกิจกรรม คุณจะสามารถซื้อชุดสินค้าที่มีพาหนะซึ่งมีรูปแบบสามมิติมีเลขประจำตัว"
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "ผู้เล่น %(topPlayers) คนแรกจะได้รับพาหนะหนึ่งคันพร้อมรูปแบบสามมิติมีเลขประดับ\nแล้วพาหนะ %(basePlayers) จะถูกส่งโดยไม่มีรูปแบบมีเลขประดับ"
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "คุณสามารถซื้อพาหนะได้ทั้งสองคันในช่วงกิจกรรม"
+
+msgid "tankPreview/title"
+msgstr "รวบรวมแล้วใช้ 100% ของทรัพยากรที่กำหนดเพื่อรับ %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "คุณสามารถดูทรัพยากรที่ใช้ไปเมื่อใดก็ได้และหากจำเป็นก็ทำการคืนทรัพยากรกลับไปยังบัญชีของคุณด้วยการคลิกที่ปุ่มคืนทรัพยากร\nความก้าวหน้าการประกอบของคุณจะถูกตั้งใหม่แต่คุณจะสามารถใช้ทรัพยากรเหล่านี้หรือทรัพยากรอื่นเพื่อให้ได้รับพาหนะ"
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "กำลังคืนทรัพยากร"
+
+msgid "tooltips/counter/error/text"
+msgstr "ไม่มีข้อมูลให้ชั่วคราว\nทางเรากำลังดำเนินการแก้ไขปัญหาดังกล่าวอยู่"
+
+msgid "tooltips/counter/warning/text"
+msgstr "ตัวเลขดังกล่าวถูกแสดงโดยมีการหน่วงและอาจจะแตกต่างจากเลขพาหนะจริง"
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "ใช้ทรัพยากรแล้วรับ %(vehicleName1) และ %(vehicleName2) จำนวนพาหนะนั้นมีจำกัด"
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "ใช้ทรัพยากรแล้วรับ %(vehicleName) มีรูปแบบสามมิติมีตัวเลขให้ จำนวนพาหนะนั้นจำกัด"
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "จะมีให้ใน: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "มีให้ %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "มีให้ใน: %(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "โรงประกอบ"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "คลิกเพื่อเรียนรู้เกี่ยวกับกิจกรรมดังกล่าว"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "เลือกพาหนะที่จะทำการลงทรัพยากร\nถ้าทรัพยากรถูกลงให้กับพาหนะคันอื่นแล้ว ทรัพยากรเหล่านั้นจะถูกส่งคืนบัญชีของคุณ"
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "เวลาที่ยังเหลือ: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "ในการประกอบพาหนะ ให้ใช้ 100% ของทรัพยากรที่กำหนด อัตราส่วนของทรัพยากรชนิดที่แตกต่างกันอาจจะเปลี่ยนแปลงได้"
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "ถ้าไม่มีพาหนะเหลืออยู่ ทรัพยากรที่ใช้ไปทั้งหมดจะถูกส่งคืน"
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "เลือกไว้"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "ใช้ไป"
+
+msgid "tooltips/progressbar/title"
+msgstr "กำลังรวบรวมทรัพยากร"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "การใช้ทรัพยากรไม่มีให้ชั่วคราว โปรดลองใหม่ในภายหลัง"
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "เศษแผ่นประจำชาติและสากล"
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "เศษแผ่นพิมพ์เขียว"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "มอบให้จากการทำการรบอย่างต่อเนื่อง ยังสามารถซื้อได้ด้วยเงินจริง"
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "สกุลเงิน"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "ใช้ไป:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "จำวนทรัพยากรสูงสุดที่จะใช้: %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "คุณได้รวบรวมทรัพยากรจำนวนที่กำหนดเพื่อให้ได้รับพาหนะแล้ว คุณสามารถลบหนึ่งในชนิดทรัพยากรเพื่อเลือกชนิดอื่นได้"
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "รวบรวมทรัพยากรได้"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "นี่คือพาหนะเฉพาะมีเลขของตัวเองและการปรับแต่งรูปทรงพิเศษ"
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "เลขที่แสดงเอาไว้บนทั้งสองด้านของปืนและที่ท้ายตัวถัง เลขบนพาหนะที่เหมือนกันนั้นจะไม่ซ้ำกันและมีจำกัด"
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "คุณลักษณะที่โดดเด่นของพาหนะคุณสามารถถูกซ่อนได้ โดยทำการลบรูปแบบสามมิติเลขตัวถังที่หน้าจอการปรับแต่งส่วนตัว"
+
+msgid "tooltips/uniq_style/title"
+msgstr "พาหนะมีเลขประดับ"

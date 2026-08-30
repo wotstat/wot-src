@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "%(leftDetailedSeasonName)s đã kết thúc"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Mọi máy chủ đang Đình chiến. Giao tranh sẽ khả dụng sau %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s đã kết thúc"
+
+msgid "alertMessage/allNotSet"
+msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Chọn Máy chủ Khác"
+
+msgid "alertMessage/notAvailable"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ %(serverName)s"
+
+msgid "alertMessage/notSet"
+msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Máy chủ này đang Đình chiến. Giao tranh sẽ khả dụng sau %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "%(leftDetailedSeasonName)s đã kết thúc"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s ng"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s giờ %(min)s ph"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 ph"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s ph"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Không có xe phù hợp"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "Lịch chiến đấu"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "CHẾ ĐỘ"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} — chuyển sang chế độ game khác"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "Chế độ sẽ khả dụng"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "Đình chiến {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "Chiến trận đã kết thúc"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "Chế độ không còn khả dụng nữa"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "Chế độ sẽ khả dụng trong {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s không thể tham chiến trong %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "Loại Xe không phù hợp"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "Chọn một xe %(levelSubStr)s để tham dự chế độ %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "Cấp Xe không phù hợp"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Cấp %(levels)s"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s không thể tham dự chế độ %(modeName)s."
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "Xe không phù hợp"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ này. Xin vui lòng chọn máy chủ khác."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "Không thể Tham chiến"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "Chế độ không khả dụng trên máy chủ đã chọn."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "Không thể Tham chiến"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "Chiến trận %(subModeName)s đã kết thúc"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "Không thể Tham chiến"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "Hãy đổi chế độ hoặc chọn xe đúng yêu cầu."
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "Xe Không Phù hợp cho Chế độ"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "Tạo một đơn vị tác chiến gồm 2 hoặc 3 người chơi để cùng tham gia %(modeName)s."
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "Trung đội"
+
+msgid "invite/text/detailedTitle"
+msgstr "Lời mời Gia nhập Trung đội \"%(detailedModeName)s\""
+
+msgid "invite/tooltip/noVehicles"
+msgstr "Bạn cần ít nhất một xe trong Ga-ra mình."
+
+msgid "lootboxTooltip/chance"
+msgstr "Xác suất xuất hiện: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "Một trong các món từ danh sách sau:"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "ĐÃ HOÀN TẤT MỌI GIAI ĐOẠN"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "ĐÃ HOÀN TẤT MỌI GIAI ĐOẠN\nCỦA NHIỆM VỤ HIỆN TẠI"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "Phần thưởng Giai đoạn Tiếp theo—Mở khóa ở Điểm %(stagePoints)s"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "Phần thưởng Giai đoạn Tiếp theo"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "%(time)s tới khi kết thúc giai đoạn chủ động"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "%(time)s tới lần phát hành tiếp theo"
+
+msgid "modeSelector/notStarted"
+msgstr "Chế độ này sẽ sớm bắt đầu"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s ng"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s giờ"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 ph"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s ph"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "ĐẾN CÁC CHẾ ĐỘ"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "Không khả dụng vì lý do kỹ thuật"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "Bạn đã hoàn tất mọi Giai đoạn của nhiệm vụ hiện tại"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "Phần thưởng: %(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "Chiến trận đã kết thúc"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "Sắp Tới"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "Nó sẽ bắt đầu sau"
+
+msgid "modeSubSelector/subtitle"
+msgstr "CHỌN CHẾ ĐỘ CON"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev Đã hoàn thành mọi Giai đoạn"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev Cập nhật tiến trình"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "Nhập cuộc chiến!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "Nhập cuộc ẩu đả!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "Sự kiện Arcade Cabinet là những hoạt động độc đáo, có thời hạn, mang đến trải nghiệm khác biệt! Giao tranh theo kiểu mới, luật chơi thay đổi cục diện, hoàn thành nhiệm vụ và nhận thưởng hiếm có."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev Bạn đã hoàn tất Tiến trình"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev Ẵm nhiều quà nhất có thể:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "Điểm Dev kiếm được: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "Đã hoàn tất:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "Lặp lại được"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Khi hoàn tất:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Khi thua:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Khi thắng:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Điểm:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Nhận được:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "Mọi nhiệm vụ hiện khả dụng đã được hoàn thành"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "Các nhiệm vụ sẽ xuất hiện khi Tiến trình bắt đầu"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "Bạn đã hoàn thành tất cả nhiệm vụ khả dụng thời điểm này. Sẽ có thêm ở đợt xoay vòng tiếp theo."
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "Khả dụng trong {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "Khả dụng trong {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "Nhiệm vụ mới khả dụng sau {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Trạng thái {{eventName}}"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "Nhiệm vụ {{eventName}}"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "Mọi giai đoạn đã được hoàn tất"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "Cập nhật Tiến trình"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "NEON DASH"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "Vạch đích vẫy gọi!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "Sẵn sàng đua xe?"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "Neon Dash là một sự kiện độc đáo, thời gian có hạn, đầy tính khác biệt! Đua xe, giao tranh trên những cung đường hiểm nguy, hoàn thành nhiệm vụ và nhận thưởng."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn sẽ gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Có thể Giảm Hiệu suất"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn sẽ gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Có thể Giảm Hiệu suất"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "Quà ngẫu nhiên kinh điển"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "Quà ngẫu nhiên huyền thoại"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "Quà ngẫu nhiên phổ biến"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "Quà ngẫu nhiên hiếm"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "Quà ngẫu nhiên hơi hiếm"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "Nhiệm vụ Neon Dash – Giai đoạn: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "Tiến trình được tính ở mọi cuộc đua Neon Dash."
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "Nhiệm vụ Neon Dash"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "Tiến trình của bạn được tính trong bất kỳ chế độ con nào của Arcade Cabinet."
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "cho tới khi nhiệm vụ Arcade Cabinet mới khả dụng"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "Mở đường cán đích trong chế độ đua xe Free-for-All này."
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Mọi Cấp"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng máy tính cao. Số khung hình trên giây (FPS) có thể bị tụt trong các trận đụng độ gay cấn."
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng máy tính cao. Số khung hình trên giây (FPS) có thể bị tụt trong các trận đụng độ gay cấn."
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "Nhiệm vụ Neon Dash mới sẽ khả dụng sau:"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "Chế độ con %(subModeName)s đã kết thúc. Tiến trình trả về mo."
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "Chế độ con %(subModeName)s đã kết thúc."
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "Phần thưởng và chế độ con %(subModeName)s mới đã khả dụng."
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "Chế độ con mới đã khả dụng: %(subModeName)s."
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "Chế độ con %(subModeName)s không khả dụng do bảo trì."
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "Chế độ con %(subModeName)s đã khả dụng trở lại."
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "Danh sách quà"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "Xin chúc mừng!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "Bạn đã hoàn tất Tiến trình"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "Xin chúc mừng!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "Hậu-Tiến-trình Vô tận"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "Bạn đã hoàn tất tiến trình chính"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "Làm giai đoạn này bao lần cũng được."
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "Điểm kiếm được: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Điểm kiếm được:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "NHIỆM VỤ NEON DASH"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "Đã hoàn tất:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "Lặp lại được"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Khi hoàn tất:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Khi thua:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Khi thắng:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Điểm:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Nhận được:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "Mọi nhiệm vụ hiện khả dụng đã được hoàn thành"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "Các nhiệm vụ sẽ xuất hiện khi Tiến trình bắt đầu"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "Bạn đã hoàn thành tất cả nhiệm vụ khả dụng thời điểm này. Sẽ có thêm ở đợt xoay vòng tiếp theo."
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "Khả dụng trong {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "Khả dụng trong {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "Nhiệm vụ mới khả dụng sau {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Trạng thái {{eventName}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "Nhiệm vụ {{eventName}}"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "ĐÃ NHẬN QUÀ HUYỀN THOẠI"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s đã khả dụng trở lại."
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "Pit Stop"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s đã hết."
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "Pit Stop"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "Đến giờ vào điểm dừng kỹ thuật! Các cuộc đua %(subModeName)s tạm thời không khả dụng."
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "Pit Stop"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "Mỗi phần thưởng ngẫu nhiên là một món từ danh sách dưới đây, có thể nhận được theo xác suất nhất định."
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "Có gì Bên trong?"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "Mọi xe khả dụng cho Neon Dash."
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "Xe Neon Dash"
+
+msgid "modes/fall_tanks/userName"
+msgstr "Neon Dash"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "Đã hoàn thành mọi Giai đoạn"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "Cập nhật tiến trình"
+
+msgid "modes/undefined/capsUserName"
+msgstr "ARCADE CABINET"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s: %(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "Nhập cuộc chiến!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "Nhập cuộc ẩu đả!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "Sự kiện Arcade Cabinet là những hoạt động độc đáo, có thời hạn, mang đến trải nghiệm khác biệt! Giao tranh theo kiểu mới, luật chơi thay đổi cục diện, hoàn thành nhiệm vụ và nhận thưởng hiếm có."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn sẽ gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Có thể Giảm Hiệu suất"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn sẽ gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Có thể Giảm Hiệu suất"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "Quà ngẫu nhiên kinh điển"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "Quà ngẫu nhiên huyền thoại"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "Quà ngẫu nhiên phổ biến"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "Quà ngẫu nhiên hiếm"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "Quà ngẫu nhiên hơi hiếm"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "Nhiệm vụ Arcade Cabinet – Giai đoạn: %(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "Tiến trình của bạn được tính trong bất kỳ chế độ con nào của Arcade Cabinet."
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "Nhiệm vụ Arcade Cabinet"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "Tiến trình của bạn được tính trong bất kỳ chế độ con nào của Arcade Cabinet."
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "cho tới khi nhiệm vụ Arcade Cabinet mới khả dụng"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15v15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "Chiến trận thí điểm với nhiều yếu tố khác thường."
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Cấp&nbsp;%(levels)s"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng máy tính cao. Số khung hình trên giây (FPS) có thể bị tụt trong các trận đụng độ gay cấn."
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng máy tính cao. Số khung hình trên giây (FPS) có thể bị tụt trong các trận đụng độ gay cấn."
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "Nhiệm vụ Arcade Cabinet mới sẽ khả dụng sau:"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "Chế độ con %(subModeName)s đã kết thúc. Tiến trình trả về mo."
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "Chế độ con %(subModeName)s đã kết thúc."
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "Phần thưởng và chế độ con %(subModeName)s mới đã khả dụng."
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "Chế độ con mới đã khả dụng: %(subModeName)s."
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "Chế độ con %(subModeName)s không khả dụng do bảo trì."
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "Chế độ con %(subModeName)s đã khả dụng trở lại."
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "DS phần thưởng"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "Xin chúc mừng!"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "Bạn đã hoàn tất Tiến trình"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "Xin chúc mừng!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "Giai đoạn Làm lại được"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "Bạn đã hoàn tất Tiến trình Chính"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "Ẵm nhiều quà nhất có thể:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "Điểm kiếm được: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "Điểm kiếm được:"
+
+msgid "modes/undefined/progression/title"
+msgstr "NHIỆM VỤ ARCADE CABINET"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "Đã hoàn tất:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "Lặp lại được"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "Khi hoàn tất:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "Khi thua:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "Khi thắng:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "Điểm:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "Nhận được:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "Mọi nhiệm vụ hiện khả dụng đã được hoàn thành"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "Các nhiệm vụ sẽ xuất hiện khi Tiến trình bắt đầu"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "Bạn đã hoàn thành tất cả nhiệm vụ khả dụng thời điểm này. Sẽ có thêm ở đợt xoay vòng tiếp theo."
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "Khả dụng trong {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "Khả dụng trong {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "Nhiệm vụ mới khả dụng sau {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "Trạng thái {{eventName}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "Nhiệm vụ {{eventName}}"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "ĐÃ NHẬN QUÀ HUYỀN THOẠI"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "Chiến trận %(subModeName)s đã khả dụng trở lại."
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "Đình chiến"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "Chiến trận %(subModeName)s đã kết thúc"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "Đình chiến"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "Đình chiến đang có hiệu lực. Chiến trận %(subModeName)s tạm thời không khả dụng."
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "Đình chiến"
+
+msgid "modes/undefined/tierList/description"
+msgstr "Mỗi phần thưởng ngẫu nhiên là một món từ danh sách dưới đây mà bạn có thể nhận được theo xác suất nhất định."
+
+msgid "modes/undefined/tierList/title"
+msgstr "Có gì Bên trong?"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "Hiện/ẩn xe phù hợp cho chế độ Arcade Cabinet."
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "Xe Arcade Cabinet"
+
+msgid "modes/undefined/userName"
+msgstr "Arcade Cabinet"
+
+msgid "notification/congratulation"
+msgstr "Xin chúc mừng!"
+
+msgid "notification/finishSubModes"
+msgstr "Sự kiện \"%(modeName)s\" đã kết thúc."
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "Chế độ con %(subModesNames)s đã kết thúc. Tiến trình trả về mo."
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "Chế độ con %(subModesNames)s đã kết thúc."
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "Phần thưởng Ngẫu nhiên"
+
+msgid "notification/newProgression"
+msgstr "Tiến trình sự kiện đã trả về mo—bạn có thể nhận tiếp phần thưởng!"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "Tiến trình sự kiện đã trả về mo. Chế độ con mới khả dụng: %(subModesNames)s."
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "Chế độ con mới đã khả dụng: %(subModesNames)s."
+
+msgid "notification/progressionComplete"
+msgstr "Bạn đã hoàn tất mọi nhiệm vụ \"%(modeName)s\" khả dụng. Phần thưởng nhận được:"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "Bạn đã hoàn tất mọi nhiệm vụ \"%(modeName)s\" khả dụng. Mở khóa Giai đoạn Lặp lại được. Phần thưởng:"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "Tiến trình sẽ trả về mo trong ít hơn 1 ngày. Sau đó, bạn sẽ có thể tiếp tục làm lại nhiệm vụ."
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "Tiến trình sẽ trả về mo trong %(days)d ngày. Sau đó, bạn sẽ có thể tiếp tục làm lại nhiệm vụ."
+
+msgid "notification/progressionStageComplete"
+msgstr "Bạn đã hoàn tất \"%(modeName)s\" giai đoạn: %(stage)s. Phần thưởng nhận được:"
+
+msgid "notification/subModesSeparator"
+msgstr ", "
+
+msgid "notification/switchOffSubModes"
+msgstr "Chế độ con %(subModesNames)s không khả dụng do bảo trì."
+
+msgid "notification/switchOnSubModes"
+msgstr "Chế độ con %(subModesNames)s đã khả dụng trở lại."
+
+msgid "platoonView/title"
+msgstr "Trung đội: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "Máy chủ khả dụng: %(server)s."
+
+msgid "primeTimes/availableServers"
+msgstr "Máy chủ khả dụng:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Máy chủ %(serverName)s\nChiến trận sẽ khả dụng sau %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Máy chủ %(serverName)s\nChiến trận \"%(leftDetailedSeasonName)s\" đã kết thúc."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Máy chủ %(serverName)s\nChiến trận sẽ khả dụng thêm %(primeDelta)s nữa"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Máy chủ %(serverName)s\nChiến trận sẽ khả dụng sau %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Máy chủ %(serverName)s\nChiến trận \"%(leftDetailedSeasonName)s\" đã kết thúc."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Máy chủ %(serverName)s\nChiến trận sẽ khả dụng sau %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Máy chủ %(serverName)s\nChiến trận \"%(leftDetailedSeasonName)s\" đã kết thúc."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s ng"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s giờ %(min)s ph"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 ph"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s ph"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Mọi máy chủ đang Đình chiến.\nGiao tranh sẽ khả dụng sau %(primeDelta)s"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Chiến trận \"%(leftDetailedSeasonName)s\" đã kết thúc"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ %(serverName)s cho đến %(primeDeltaTime)s%(primeDeltaDate)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ %(serverName)s"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ %(serverName)s.\nGiao tranh sẽ khả dụng sau %(primeDelta)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Chiến trận \"%(leftDetailedSeasonName)s\" đã kết thúc"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Chiến trận trên máy chủ %(serverName)s sẽ bắt đầu sau %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Chiến trận \"%(leftDetailedSeasonName)s\" trên máy chủ %(serverName)s đã kết thúc."
+
+msgid "primeTimes/timeText/available"
+msgstr "Chiến trận trên máy chủ %(serverName)s sẽ khả dụng thêm %(primeDelta)s nữa"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Chiến trận trên máy chủ %(serverName)s sẽ bắt đầu sau %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Chiến trận \"%(leftDetailedSeasonName)s\" trên máy chủ %(serverName)s đã kết thúc."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Chiến trận trên máy chủ %(serverName)s sẽ bắt đầu sau %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Chiến trận \"%(leftDetailedSeasonName)s\" trên máy chủ %(serverName)s đã kết thúc."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "điểm"
+
+msgid "progression/complete/affirmative"
+msgstr "Rõ!"
+
+msgid "progression/defaultCondition/text"
+msgstr "Kiếm Điểm và băng qua Tiến trình."
+
+msgid "progression/infinite/pointsEarned"
+msgstr "Điểm kiếm được:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "Giai đoạn chủ động đã kết thúc. Hết chiến trận"
+
+msgid "progression/questsList/quest/completed"
+msgstr "Đã hoàn tất:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "Lặp lại được"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "Khi hoàn tất:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "Thua:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "Thắng:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "Nhận được:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "Giai đoạn chủ động kết thúc sau: {{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "Giai đoạn chủ động kết thúc sau:"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "Đợt kế tiếp sau:"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "Phần thưởng Giai đoạn Tiếp theo—Mở khóa ở Điểm %(count)d"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "Bạn cũng sẽ nhận được:"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "Rõ!"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "Chỉ huy Trung đội đã chuyển sang chế độ con %(subModeName)s."
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "Đổi Chế độ con"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Cấp&nbsp;%(levels)s"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "NEON DASH"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "Đua đến vạch đích trong khi ngăn kẻ khác làm thế. Dùng khả năng Dash và Shield để gây thêm hỗn loạn!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "Cẩn trọng: Nền tảng di chuyển"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "Né tia laser, canh chuẩn cú nhảy để lao nhanh về đích!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "Cẩn thận: Laser và Nhảy"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "để tìm hiểu thêm về chế độ này"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "Bấm"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "Neon Dash"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "Lót đường\ntới vạch đích"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Mọi Cấp"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị khác có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng cao. Số khung hình trên giây (FPS) có thể bị tụt trong các lúc gay cấn."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "Nên dùng Thiết lập Đồ họa Cao nhất"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị khác có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng cao. Số khung hình trên giây (FPS) có thể bị tụt trong các lúc gay cấn."
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "Nên dùng Thiết lập Đồ họa Cao nhất"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "Neon Dash"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "Neon Dash"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "\"Neon Dash\""
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Cấp&nbsp;%(levels)s"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng máy tính cao. Số khung hình trên giây (FPS) có thể bị tụt trong các trận đụng độ gay cấn."
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng máy tính cao. Số khung hình trên giây (FPS) có thể bị tụt trong các trận đụng độ gay cấn."
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

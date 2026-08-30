@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "すべての{{icon}} {{type}}に適用"
+
+msgid "header/points"
+msgstr "戦闘リザーブポイント: {{value}}"
+
+msgid "header/title"
+msgstr "戦闘リザーブ"
+
+msgid "infoPanel/category/firesupport"
+msgstr "攻撃用リザーブ"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "偵察用リザーブ"
+
+msgid "infoPanel/category/tactics"
+msgstr "強化用リザーブ"
+
+msgid "infoPanel/category/title"
+msgstr "カテゴリー: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "シナリオ「{{@ colorLegacy 'FFE4C0'}}運命の悪戯{{/}}」では、専用ガレージで「戦闘リザーブ」を購入ておくと、その初期レベルが1段階上昇し、レベル {{@ colorLegacy 'FFE4C0'}}IV{{/}}までアップグレードできるようになります。"
+
+msgid "infoPanel/description/unlocked"
+msgstr "シナリオ「{{@ colorLegacy 'FFE4C0'}}運命の悪戯{{/}}」では、出撃前に特定の「戦闘リザーブ」をスロットにセットしておくと、戦闘中にその「戦闘リザーブ」が選択肢として表示される確率が{{@ colorLegacy 'FFE4C0'}}10%{{/}}上昇します。"
+
+msgid "infoPanel/level"
+msgstr "レベル:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}}m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/秒"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}}秒"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "戦闘リザーブは未購入"
+
+msgid "infoPanel/status/unlocked"
+msgstr "戦闘リザーブは購入済み"

@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Pháo kích"
+
+msgid "attackReason/artillery_sector"
+msgstr "Pháo kích"
+
+msgid "attackReason/bombers"
+msgstr "Không kích"
+
+msgid "battleCommunication/hint/description"
+msgstr "để chỉ định một vị trí hoặc đánh dấu"
+
+msgid "battleCommunication/hint/press"
+msgstr "Nhấn"
+
+msgid "battleEndWarning/text"
+msgstr "Hết trận sau:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "Tin nhắn thoại và bằng chữ từ người chơi này sẽ bị ẩn đi trong trận đánh."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Chặn Tin nhắn từ Người chơi"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Tin nhắn từ một người chơi nằm trong sổ đen sẽ bị chặn."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Tác vụ Không khả dụng"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "Tin nhắn thoại và bằng chữ từ người chơi\nnày sẽ không bị chặn nữa."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Bỏ chặn Tin nhắn từ Người chơi"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "Sự cố kỹ thuật khi truy xuất dữ liệu khu chiến sự."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "Dữ liệu khu chiến sự cho xe này không khả dụng trên bản đồ ở đây."
+
+msgid "battleProgress/hint/description"
+msgstr "để xem nhiệm vụ cá nhân"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "Chưa gán phím cụ thể"
+
+msgid "battleProgress/hint/press"
+msgstr "Bấm"
+
+msgid "battle_notifier/lose"
+msgstr "Thất bại!"
+
+msgid "battle_notifier/tie"
+msgstr "Hòa!"
+
+msgid "battle_notifier/win"
+msgstr "Chiến thắng!"
+
+msgid "bot/boss"
+msgstr "\"Boss\""
+
+msgid "bot/elite"
+msgstr "\"Elite\""
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "CẢNH BÁO THIỆT HẠI"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "ĐỘNG CƠ BỊ HƯ HẠI"
+
+msgid "chat_example/affirmative"
+msgstr "Đã rõ!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Cần hỗ trợ bắn <Tên Địch>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "Tấn công <Tên Địch>!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Chiếm căn cứ!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Bảo vệ căn cứ!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Chú ý <Khu vực trên Bản đồ con>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "Chú ý vị trí!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Tiêu diệt các mục tiêu"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Giữ xe tăng!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Chiếm đóng khu vực"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Phòng thủ các mục tiêu"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Giữ xe tăng!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Phòng thủ các khu vực"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Tăng viện khu vực"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Tăng viện khu vực"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Tăng viện khu vực"
+
+msgid "chat_example/going_there"
+msgstr "Đang đến đây!"
+
+msgid "chat_example/help_me"
+msgstr "Giúp với!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Tên Đồng đội>, giúp với!"
+
+msgid "chat_example/negative"
+msgstr "Phản đối!"
+
+msgid "chat_example/overheated_gun"
+msgstr "Súng quá nhiệt! Không thể bắn trong <Reload Time> s"
+
+msgid "chat_example/positive"
+msgstr "Đã rõ!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "Sẵn sàng khai hỏa sau <Thời gian Nạp đạn> s, số đạn trong băng: <Số Đạn> viên."
+
+msgid "chat_example/reloading_gun"
+msgstr "Đang nạp đạn! Còn <Thời gian Nạp đạn> s!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Sẵn sàng khai hỏa!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Sẵn sàng khai hỏa! Số đạn trong băng: <Số Đạn> viên."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Không có đạn."
+
+msgid "chat_example/spg_aim_area"
+msgstr "Đang ngắm <Khu vực trên Bản đồ con>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>, đang đến giúp đây!"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name>, cảm ơn!"
+
+msgid "chat_example/turn_back"
+msgstr "<Tên Đồng đội>, quay lại!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "Đã rõ!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Cần hỗ trợ bắn %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "Sẵn sàng khai hỏa! Đang tấn công %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "Hết đạn! Cần hỗ trợ bắn %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "Tấn công %(target)s! Đang nạp đạn, còn %(reloadTime)d s!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "Sẽ chiếm căn cứ!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "Đang chiếm căn cứ %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Đang tấn công %(target)s!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Chiếm căn cứ!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Chiếm căn cứ %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Bảo vệ căn cứ!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Phòng thủ căn cứ %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Chú ý %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Tiêu diệt mục tiêu %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "Đang tấn công mục tiêu %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Phòng thủ mục tiêu %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "Đang phòng thủ mục tiêu %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Chú ý vị trí!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "Chú ý %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "Sẽ phòng thủ căn cứ!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "Đang phòng thủ căn cứ %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Tiêu diệt các mục tiêu!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Ta có đủ thời gian, giữ xe tăng!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Sắp hết thời gian, chiếm ngay một khu vực bằng mọi giá!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Phòng thủ các mục tiêu!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Ta phải kháng cự, giữ xe tăng!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Sắp hết thời gian, phòng thủ các khu vực bằng mọi giá!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "Khu vực %(strArg1)s cần trợ giúp, tăng viện ngay!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "Khu vực %(strArg1)s cần trợ giúp, tăng viện ngay!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "Khu vực %(strArg1)s cần trợ giúp, tăng viện ngay!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "Đang đến vị trí!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "Đang đến %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Giúp với!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, giúp với!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "Đến mục tiêu: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "Đang đến mục tiêu: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Phản đối!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "Súng quá nhiệt! Không thể bắn trong %(floatArg1)d s"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, đã rõ!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "Sẵn sàng khai hỏa sau %(floatArg1)d s, số đạn trong băng: %(int32Arg1)s viên."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Đang nạp đạn! Còn %(floatArg1)d s!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Sẵn sàng khai hỏa!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Sẵn sàng khai hỏa! Số đạn trong băng: %(int32Arg1)s viên."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Không có đạn."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Đang nhắm vị trí. Sẵn sàng khai hỏa!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "Đang quan sát %(gridId)s! Hết đạn!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "Đang ngắm %(gridId)s. Sẵn sàng khai hỏa!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Đang nhắm vị trí. Đang nạp đạn, còn %(reloadTime)d s!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Đang ngắm %(gridId)s. Đang nạp đạn, còn%(reloadTime)d s!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, đang đến giúp đây!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, cảm ơn!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, quay lại!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "Tới Thiết lập"
+
+msgid "commanderCam/hint/description"
+msgstr "Thu nhỏ để vào Góc nhìn Chiến lược"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Chờ hồi phục: %(cooldownSeconds)s s"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Ô chứa vật phẩm"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/h"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Chỉ huy bị thương. Các đặc tính kỹ thuật bị giảm đi."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Chỉ huy"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Lái xe bị thương. Tốc độ di chuyển và quay thân xe bị giảm đi."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Lái xe"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Pháo thủ bị thương. Độ chính xác bị giảm đi."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Pháo thủ"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Pháo thủ 2 bị thương. Độ chính xác bị giảm đi."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Pháo thủ 2"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Nạp đạn viên bị thương. Tốc độ nạp đạn bị giảm đi."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Nạp đạn viên"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Nạp đạn viên 2 bị thương. Tốc độ nạp đạn bị giảm đi."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Nạp đạn viên 2"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Liên lạc viên bị thương. Tầm tín hiệu bị giảm đi."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Liên lạc viên"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Liên lạc viên 2 bị thương. Tầm tín hiệu bị giảm đi."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Liên lạc viên 2"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Gác chứa đạn bị hư hại. Tốc độ nạp đạn bị giảm đi."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Gác đạn bị nổ."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Gác đạn còn nguyên vẹn."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Hệ thống giảm xóc bị hư hại."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Không thể di chuyển: Hỏng hệ thống giảm xóc."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Hệ thống xích còn nguyên vẹn."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Động cơ bị hư hại. Công suất giảm."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Không thể di chuyển: Chết động cơ."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Động cơ còn nguyên vẹn."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Thùng nhiên liệu bị hư hại."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Thùng nhiên liệu bị phá hủy."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Thùng nhiên liệu còn nguyên vẹn."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Nòng pháo bị hư hại. Độ chính xác giảm."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Nòng pháo bị phá hủy. Không thể bắn."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Nòng pháo còn nguyên vẹn."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Radio bị hư hại."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Radio bị phá hủy. Tầm tín hiệu bị giảm đi."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Radio còn nguyên vẹn."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Thiết bị quan sát bị hư hại."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Thiết bị quan sát bị phá hủy. Tầm nhìn bị giảm đi."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Thiết bị Quan sát còn nguyên vẹn."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Hệ thống giảm xóc bị hư hại."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Không thể di chuyển: Hỏng hệ thống giảm xóc."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Hệ thống xích còn nguyên vẹn."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Tháp pháo bị hư hại. Tốc độ quay giảm."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Không thể quay: Hỏng tháp pháo."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Tháp pháo còn nguyên vẹn."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Hệ thống giảm xóc bị hư hại."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Không thể di chuyển: Hỏng hệ thống giảm xóc."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Hệ thống giảm xóc còn guyên."
+
+msgid "danger_zone/indicator"
+msgstr "Xe của bạn có thể bị phá hủy—rút khỏi vùng nguy hiểm ngay!"
+
+msgid "destroyTimer/liftOver"
+msgstr "Dựng xe lại..."
+
+msgid "devMaps/hint/description"
+msgstr "để xem các đặc điểm của bản đồ"
+
+msgid "devMaps/hint/press"
+msgstr "Bấm"
+
+msgid "devMaps/mapInfo/info"
+msgstr "Các sự kiện ngẫu nhiên có thể xảy ra trên bản đồ này. Những bản đồ như vậy tắt bỏ được trong cài đặt game."
+
+msgid "devMaps/mapInfo/text"
+msgstr "Bản đồ Có Sự kiện Ngẫu nhiên"
+
+msgid "devices/ammo_bay"
+msgstr "Gác Đạn"
+
+msgid "devices/chassis"
+msgstr "Hệ thống Xích"
+
+msgid "devices/engine"
+msgstr "Động cơ"
+
+msgid "devices/fuel_tank"
+msgstr "Thùng nhiên liệu"
+
+msgid "devices/gun"
+msgstr "Nòng pháo"
+
+msgid "devices/left_track"
+msgstr "Xích trái"
+
+msgid "devices/radio"
+msgstr "Radio"
+
+msgid "devices/right_track"
+msgstr "Xích phải"
+
+msgid "devices/surveing_device"
+msgstr "Thiết bị Quan sát"
+
+msgid "devices/track"
+msgstr "Xích %(type)s"
+
+msgid "devices/track/left"
+msgstr "Trái"
+
+msgid "devices/track/main"
+msgstr "Phụ"
+
+msgid "devices/track/outer"
+msgstr "Chính"
+
+msgid "devices/track/right"
+msgstr "Phải"
+
+msgid "devices/turret_rotator"
+msgstr "Quay Tháp pháo"
+
+msgid "devices/wheel"
+msgstr "Bánh"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "Click để mời người chơi tham gia Trung đội.\nNgười chơi có thể chấp nhận lời mời của bạn dù đang trong trận hay sau khi kết thúc tham chiến.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nChú ý! Tên nick và Tag Clan thật của bạn sẽ được hiển thị cho các thành viên Trung đội."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nChú ý! Tên nick thật của bạn sẽ được hiển thị cho các thành viên Trung đội."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "Không thể mời đồng đội đó tham dự Trung đội."
+
+msgid "dynamicSquad/ally/received"
+msgstr "Click để chấp nhận lời mời gia nhập Trung đội.\nTrung đội sẽ được tạo ngay trong trận đánh."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "Lời mời đã được gửi đến người chơi.\nNếu chấp nhận, game thủ đó sẽ gia nhập Trung đội của bạn ngay trong trận đánh hoặc sau khi kết thúc tham chiến."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "Click để mời người chơi gia nhập Trung đội.\nGame thủ có thể chấp nhận lời mời của bạn dù đang trong trận hay sau khi kết thúc tham chiến.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Không thể mời quân địch tham gia Trung đội."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "Click để chấp nhận lời mời gia nhập Trung đội.\nTrung đội sẽ chỉ được tạo sau khi trận đánh kết thúc."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "Lời mời đã được gửi đến người chơi.\nNếu chấp nhận, game thủ đó sẽ gia nhập Trung đội của bạn sau khi trận đánh kết thúc."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Nhấn"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "để kích hoạt Chat Voice"
+
+msgid "dynamicSquad/invite"
+msgstr "Lời mời gia nhập Trung đội"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Thiệt hại bởi Không kích"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Thiệt hại bởi Pháo kích"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Thiệt hại bởi Mục tiêu Chính"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Đã chặn Thiệt hại"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Hỗ trợ bằng Q.Dự bị Chiến đấu"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Phát hiện—>Hỗ trợ Gây hại"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "Thiệt hại sau đòn choáng của bạn"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Đã phá hỏng Xích"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "Thiệt hại bởi \"Berserker\""
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "XP Vai trò"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Làm cháy"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Chiếm Căn cứ Địch"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Sát thương nghiêm trọng"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Đã gây Thiệt hại"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "Loạt pháo chiến hạm sát thương"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "U.S.S. Frankford sát thương"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Thiệt hại bởi Mìn"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "Sát thương bởi Rô-bốt Chiến trường"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "Sát thương bởi Đạn Axít"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "Sát thương bởi Hỏa Xa"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "Sát thương bởi Phóng Điện"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Thiệt hại bởi Khu vực chết"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Đã phòng thủ Căn cứ"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Đã phòng thủ khu vực"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Đã gây thiệt hại"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Đã tiêu diệt mục tiêu"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Đã phòng thủ mục tiêu"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Đã chiếm khu vực"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "Thiệt hại từ khu vực cháy"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "Xe sửa được"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Đã tiêu diệt"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "Sát thương bãi mìn"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Đâm/húc"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Thiệt hại do cháy"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "Sát thương bởi Rô-bốt Chiến trường"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "Sát thương bởi Đạn Axít"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "Sát thương bởi Hỏa Xa"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Thiệt hại bởi Mìn"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Thiệt hại bởi Sương Ăn mòn"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "Sát thương bởi Phóng Điện"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Thiệt hại nghiêm trọng"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Thiệt hại do đạn bắn"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Thiệt hại bởi \"Fireball\""
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Thiệt hại do đâm/húc"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Thiệt hại do va chạm"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Thiệt hại bởi \"Fireball\""
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Đã phát hiện"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Thiệt hại Từ Vùng Chết"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Choáng"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Đã bỏ xe"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Thiệt hại do Va chạm"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "Bão tuyết"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "Lửa"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "Sương mù"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "Mưa to"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "Bão cát"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "Khói"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "Vòi rồng"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Ẩn danh sách đội"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Không hiển thị"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Nhấn Ctrl +Tab để chuyển chế độ)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Hiển thị tên người chơi, số mục tiêu đã phá hủy, và biểu tượng xe"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Danh sách cơ bản 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Nhấn Ctrl +Tab để chuyển chế độ)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Hiển thị số mục tiêu phá hủy, tên và biểu tượng xe người chơi."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Danh sách cơ bản 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Nhấn Ctrl +Tab để chuyển chế độ)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Hiển thị số mục tiêu đã phá hủy và biểu tượng xe tăng"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Danh sách thu gọn"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Nhấn Ctrl +Tab để chuyển chế độ)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Điều chỉnh để xem của riêng bạn hoặc tất cả ba nhóm xuất phát."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Bật/tắt các cột"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Nhấn Ctrl +Tab để chuyển chế độ)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Bạn đã phá hủy cờ!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Cướp cờ!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Cờ đã về đích."
+
+msgid "flagNotification/flagInbase"
+msgstr "Mang cờ về Sở Chỉ huy."
+
+msgid "flags/timer"
+msgstr "%(time)s s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "s..."
+
+msgid "grille/status/reload"
+msgstr "ĐANG TÁI NẠP..."
+
+msgid "grille/status/speedlimit"
+msgstr "GIỚI HẠN TỐC ĐỘ"
+
+msgid "helpScreen/hint/description"
+msgstr "để xem các đặc tính xe"
+
+msgid "helpScreen/hint/press"
+msgstr "Bấm"
+
+msgid "helpScreen/mapbox/description"
+msgstr "để xem các đặc điểm của bản đồ"
+
+msgid "helpScreen/mapbox/press"
+msgstr "Bấm"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "để kích hoạt cơ chế Tác xạ/<font color='#F4B12C'><b>Lô-cốt</b></font>"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "để kích hoạt cơ chế Tác xạ/<font color='#F4B12C'><b>Hành trình</b></font>"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "để kích hoạt cơ chế Hành trình/<font color='#F4B12C'><b>Lô-cốt</b></font>"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "Chưa gán phím chuyển đổi cơ chế"
+
+msgid "helpScreen/pillbox/press"
+msgstr "Nhấn/<font color='#F4B12C'><b>Giữ</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "Chưa gán phím cụ thể"
+
+msgid "hitMarker/blocked"
+msgstr "Giáp đã không bị xuyên"
+
+msgid "hitMarker/critical"
+msgstr "Sát thương nghiêm trọng"
+
+msgid "hitMarker/missArmor"
+msgstr "Không trúng giáp"
+
+msgid "hitMarker/ricochet"
+msgstr "Nảy đạn"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "Giáp rỗng đã không bị xuyên"
+
+msgid "hitMarker/trackBlocked"
+msgstr "Xích đã không bị xuyên"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "Bánh đã không bị xuyên"
+
+msgid "levelProgress/maxLevel"
+msgstr "CẤP XE TỐI ĐA"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "Thiết bị %(device)s đã ngăn nổ gác đạn"
+
+msgid "optDeviceResurrection/engine"
+msgstr "Thiết bị %(device)s đã ngăn động cơ hỏng hoàn toàn"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "Thiết bị %(device)s đã ngăn lửa"
+
+msgid "penetration/high"
+msgstr "Cao"
+
+msgid "penetration/low"
+msgstr "Thấp"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Yêu cầu Phụ:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Yêu cầu Chính:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Không có nhiệm vụ nào đã bắt đầu cho chế độ đánh này."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Không có nhiệm vụ nào đã bắt đầu cho loại xe này."
+
+msgid "personal_reserves/hint/description"
+msgstr "để kích hoạt Trợ cấp Cá nhân"
+
+msgid "personal_reserves/hint/press"
+msgstr "Bấm"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Không thể di chuyển: Hỏng hệ thống xích."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Không thể di chuyển: Chết kíp lái."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Không thể di chuyển: Hỏng động cơ."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "Bất động: Xe đã bị phá hủy."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Không thể bắn: Chết kíp lái."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Không thể bắn: Hỏng nòng pháo."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Không thể Bắn."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "Không thể bắn: Súng quá nhiệt."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Đang nạp đạn."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "Đang hoàn thành nạp."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Không thể bắn: Hết đạn."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Không thể bắn: Xe đã bị phá hủy."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Không thể chuyển đổi: Hỏng động cơ."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "Không thể chuyển: Súng bị hỏng"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "Không thể chuyển: Chỉ còn một viên"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] đang phát huy tác dụng rồi."
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "Vật phẩm [%(name)s] không phát huy tác dụng: không có cháy."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] không khả dụng trong lúc chờ hồi phục."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Không cần hỗ trợ y tế: không có lính bị thương."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] không cần trợ giúp y tế."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Quân Dự bị chưa sẵn sàng."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Chiếm %(name)s để kích hoạt Kỹ Chiến lược tương ứng."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "Mô-đun và Chỉ huy còn đầy sức kháng cự. Không cần sửa chữa hoặc trị thương."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "Không cần sửa chữa: tất cả thiết bị còn nguyên vẹn."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] vẫn hoạt động tốt, không cần sửa chữa."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "Không thể kích hoạt vũ khí đồng trục."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Bạn đã bắn trúng đồng đội %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] sẵn sàng sử dụng."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Khẩu đội pháo đã được triển khai và sẵn sàng khai hỏa."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Phi cơ đang đến và sẵn sàng thả bom."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Kíp lái của ta đã sẵn sàng tiếp lửa nhuệ khí cho đồng đội xung quanh."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "Bãi mìn sẵn sàng triển khai."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Máy bay sắp đến và sẵn sàng trinh sát."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "Sửa chữa Tại trận sẵn sàng sử dụng."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Đạn khói đã triển khai và sẵn sàng nổ súng."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "Vệ thiết sẵn sàng sử dụng."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "Khẩu đội pháo của %(player)s đang khai hỏa."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "Máy bay ném bom của %(player)s đang đến."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s tạo Khu vực Cứu hộ."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s đã kích hoạt Tiếp lửa Nhuệ khí."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s đã rải Bãi mìn."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "Không thám của %(player)s đang đến."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s đã sử dụng Sửa chữa Tại trận."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s đã triển khai một Màn khói."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s đã kích hoạt Vệ thiết."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s đã bị Pháo kích tiêu diệt."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s đã bị Pháo kích tiêu diệt."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s đã bị Pháo kích tiêu diệt."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s đã bị Pháo kích tiêu diệt."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s đã bị Pháo kích tiêu diệt."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s đã bị Pháo kích tiêu diệt."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Xe đã bị phá hủy do pháo kích."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s đã bị Pháo kích tiêu diệt."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s đã bị Pháo kích tiêu diệt."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s đã bị Không kích tiêu diệt."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s đã bị Không kích tiêu diệt."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Đồng đội %(target)s bị phá huỷ bởi đồng đội %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Xe bị phá huỷ bởi đồng đội %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Đồng đội %(target)s đã bị phá hủy do Khu vực chết."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Quân địch %(attacker)s đã hạ sát quân địch %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Xe bị phá huỷ bởi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s đã bị phá hủy do Khu vực chết."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Đồng đội %(target)s đã chết."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s đã chết."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Xe bị phá huỷ."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Thiết bị [%(device)s] đã phát nổ do bắt lửa."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Thiết bị %(device)s bị phá hủy bởi phát đạn từ %(entity)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Đồng đội %(attacker)s đã dìm chết đồng đội %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s đã dìm chết %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Xe bị chìm do đồng đội %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Đồng đội %(target)s đã chết chìm."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s đã dìm chết %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Quân địch %(attacker)s đã dìm chết quân địch %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Xe bị chìm do %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Quân địch %(target)s đã chết chìm."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Đồng đội %(target)s bị dìm chết."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s bị dìm chết."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Xe đã bị chìm."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "Đồng đội %(target)s bị phá huỷ bởi đồng đội %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Xe bị phá huỷ bởi đồng đội %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "Quân địch %(attacker)s đã hạ sát quân địch %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Xe bị phá huỷ bởi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Đồng đội %(target)s đã chết."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s đã chết."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Kíp lái đã chết."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Kíp lái bị hạ bởi phát đạn từ %(entity)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Kíp lái của đồng đội %(target)s bị giết bởi đồng đội %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "Kíp lái của %(target)s bị giết bởi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Kíp lái bị tiêu diệt bởi đồng đội %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Đồng đội %(target)s đã giết kíp lái của mình."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Kíp lái của %(target)s bị giết bởi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Kíp lái của quân địch %(target)s bị giết bởi quân địch %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Kíp lái bị giết bởi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Quân địch %(target)s đã giết kíp lái của mình."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Kíp lái của đồng đội %(target)s đã chết."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Kíp lái của %(target)s đã chết."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Kíp lái đã chết."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Đồng đội %(target)s đã chết do bãi mìn."
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s đã chết."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s đã tiêu diệt %(target)s bằng mìn."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s đã tiêu diệt %(target)s bằng mìn."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s đã chết do mìn."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "Đồng đội %(attacker)s đã húc lật đồng đội %(target)s."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s đã húc lật %(target)s."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Xe đã bị lật do đồng đội %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "Đồng đội %(target)s đã bị lật xe."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s đã húc lật %(target)s."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "Quân địch %(attacker)s đã húc lật quân địch %(target)s."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Xe đã bị lật và bị phá hủy do %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "Quân địch %(target)s đã bị lật xe"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "Đồng đội %(target)s đã bị lật"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s đã bị lật"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Xe đã bị lật và bị phá hủy"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Đồng đội %(attacker)s đã giết chết đồng đội %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Xe bị phá huỷ bởi đồng đội %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Đồng đội %(target)s đã chết do va chạm."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Quân địch %(attacker)s đã hạ sát quân địch %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Xe bị phá huỷ bởi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Quân địch %(target)s đã chết do va chạm."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Đồng đội %(target)s đã chết."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s đã chết."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Xe bị phá huỷ."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s đã bỏ xe."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s đã bỏ xe."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Xe đã bị phá hủy khi khu vực bị oanh tạc."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s đã bị tiêu diệt trong đợt bắn phá khu vực."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s đã bị tiêu diệt trong đợt bắn phá khu vực."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Xe đã bị phá hủy do pháo kích."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s đã bị Pháo kích tiêu diệt."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s đã bị Pháo kích tiêu diệt."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Đồng đội %(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "Đồng đội %(attacker)s đã tiêu diệt %(target)s bằng pháo kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "Đồng đội %(attacker)s đã tiêu diệt %(target)s bằng bom không kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s đã tiêu diệt %(target)s bằng Pháo kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s đã tiêu diệt %(target)s bằng Không kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s đã tiêu diệt %(target)s (Hỏa lực Yểm trợ)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s đã tiêu diệt %(target)s (Pháo Kích)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Đồng đội %(target)s bị loại khỏi cuộc chiến."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "Đồng đội %(target)s bị loại khỏi cuộc chiến sau cuộc pháo kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "Đồng đội %(target)s bị loại khỏi cuộc chiến sau đợt ném bom."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s đã tiêu diệt %(target)s bằng Pháo kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s đã tiêu diệt %(target)s bằng Không kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s đã tiêu diệt %(target)s (Hỏa lực Yểm trợ)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s đã tiêu diệt %(target)s (Pháo Kích)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Quân địch %(attacker)s đã hạ sát quân địch %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "Quân địch %(attacker)s đã hạ sát quân địch %(target)s bằng pháo kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "Quân địch %(attacker)s đã hạ sát quân địch %(target)s bằng bom không kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Quân địch %(target)s đã bị loại khỏi cuộc chiến."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "Quân địch %(target)s đã bị loại khỏi cuộc chiến sau cuộc pháo kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "Quân địch %(target)s đã bị loại khỏi cuộc chiến sau đợt ném bom."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Đồng đội %(target)s đã chết."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Đồng đội %(target)s đã chết do pháo kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Đồng đội %(target)s đã chết do bom không kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s đã chết."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s đã chết do pháo kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s đã chết do Không kích."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s đã chết"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s đã chết"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "Địch (Không Rõ) đã phá hủy %(target)s."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Đồng đội %(target)s đã bị phá hủy bởi vùng chết."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Đồng đội %(attacker)s đã tông chết đồng đội %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s đã tông chết %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Xe bị phá hủy do va chạm với đồng đội %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Đồng đội %(target)s đã chết do va chạm."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s đã tông chết %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Quân địch %(target)s đã tông chết quân địch %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Xe bị dập nát bởi %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Quân địch %(target)s đã chết do va chạm."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Đồng đội %(target)s đã chết do va chạm."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s đã chết do va chạm."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Xe đã bị dập nát."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s đã tiêu diệt mục tiêu %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s đã tiêu diệt mục tiêu %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Bạn đã tiêu diệt mục tiêu %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "Thiết bị [%(device)s] bị hư hỏng do cháy."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "Phát đạn từ %(entity)s đã làm hư hại [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "Bộ phận [%(device)s] bị phá hủy do cháy."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "Bộ phận [%(device)s] bị phá hủy do %(entity)s."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "Thiết bị [%(device)s] đã được sửa chữa."
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "Thiết bị [%(device)s] đã trở lại hoạt động."
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "Bộ phận [%(device)s] bị cháy do phát đạn từ %(entity)s."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "Thiết bị [%(device)s] đã bị hư hại do hoạt động quá mức."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "Bộ phận [%(device)s] đã bị hư hại do gỡ bỏ bộ điều tốc."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "Thiết bị [%(device)s] đã bị hỏng do hoạt động quá mức."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "Bộ phận [%(device)s] đã bị phá hủy do gỡ bỏ bộ điều tốc."
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Đã dập tắt lửa."
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "Phát đạn từ %(entity)s đã làm bị thương [%(device)s]."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] đã bình phục."
+
+msgid "player_messages/allied_team_name"
+msgstr "Phe Ta"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Căn cứ phe ta%s đang bị chiếm (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Căn cứ phe ta%s đã bị chiếm đóng!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Chiếm căn cứ đã bị chặn"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Đang chiếm căn cứ%s (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Đã chiếm đóng căn cứ%s!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Đang chiếm căn cứ địch%s (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Đã chiếm đóng căn cứ phe địch%s!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Phe Địch"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "Đồng đội %(name)s đã sử dụng Kỹ Chiến lược %(equipment)s"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Địch đã sử dụng Kỹ Chiến lược %(equipment)s"
+
+msgid "player_messages/postmortem_caption"
+msgstr "Người chơi %(name)s (%(type)s); HP: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Người chơi: %(name)s; Sức kháng cự: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Xe (%(type)s) của bạn đã bị tiêu diệt"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Không thể bắn: Hết đạn."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Điều khiển Replay:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "Chuột trái: chuyển đổi chế độ camera\nSpace: tạm dừng"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "Mũi tên trái: quay lại 20 giây (với Ctrl: 40 giây)\nMũi tên phải: tiến lên 20 giây (với Ctrl: 40 giây)\nHome/End: trở về lúc bắt đầu/tới lúc kết thúc\nMũi tên lên/xuống: +/- tốc độ replay"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Đã kích hoạt camera tự do."
+
+msgid "player_messages/replayPaused"
+msgstr "Dừng"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Đã kích hoạt camera cố định."
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Tốc độ Replay: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Xe bị cháy!"
+
+msgid "players_panel/state/large/body"
+msgstr "Hiển thị tên người chơi, số mục tiêu đã phá hủy, tên và biểu tượng xe"
+
+msgid "players_panel/state/large/header"
+msgstr "Danh sách đầy đủ"
+
+msgid "players_panel/state/large/note"
+msgstr "(Nhấn Ctrl +Tab để chuyển chế độ)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Hiển thị tên người chơi, số mục tiêu đã phá hủy, và biểu tượng xe"
+
+msgid "players_panel/state/medium/header"
+msgstr "Danh sách cơ bản"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Nhấn Ctrl +Tab để chuyển chế độ)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Hiển thị số mục tiêu phá hủy, tên và biểu tượng xe người chơi."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Danh sách cơ bản 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Nhấn Ctrl +Tab để chuyển chế độ)"
+
+msgid "players_panel/state/none/body"
+msgstr "Ẩn danh sách đội"
+
+msgid "players_panel/state/none/header"
+msgstr "Không hiển thị"
+
+msgid "players_panel/state/none/note"
+msgstr "(Nhấn Ctrl +Tab để chuyển chế độ)"
+
+msgid "players_panel/state/short/body"
+msgstr "Hiển thị số mục tiêu đã phá hủy và biểu tượng xe tăng"
+
+msgid "players_panel/state/short/header"
+msgstr "Danh sách thu gọn"
+
+msgid "players_panel/state/short/note"
+msgstr "(Nhấn Ctrl +Tab để chuyển chế độ)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Phe địch"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > Quay về Ga-ra."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "Tham chiến bằng xe khác."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "SPACE"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "Camera tự do"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "Kích hoạt camera tự do."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "Camera tự do không khả dụng"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "Không thể kích hoạt camera tự do trong chế độ này."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Chế độ Quan sát"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Theo dõi các xe trong đội."
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "Theo dõi xe"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "Chỉ con trỏ vào xe đồng đội rồi click chuột trái để theo dõi."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Xe đã bị phá huỷ bởi mục tiêu chính"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "Xe đã bị phá hủy do pháo kích."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Xe đã bị phá huỷ bởi mục tiêu chính"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Xe đã bị phá hủy do Không kích"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "Xe đã bị phá hủy bởi Marauder."
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "Xe đã bị phá hủy do Rô-bốt Chiến trường."
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "Xe đã bị phá hủy do Đạn Axít."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Xe đã bị phá hủy trong khu vực cấm do đồng đội"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Xe đã bị phá hủy trong khu vực cấm"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Bạn đã bị kẹt trong vùng chết"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Mô-đun [%(device)s] đã bị phá hủy do lửa cháy."
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Mô-đun [%(device)s] đã nổ do trúng đạn"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Xe đã bị chìm do đồng đội"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Xe đã bị chìm"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Xe đã bị chìm"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Xe đã bị người chơi làm bốc cháy"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "Xe đã bị phá hủy do Hỏa Xa."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Kíp lái đã bị tiêu diệt do trúng đạn"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Kíp lái đã bị tiêu diệt sau cú va chạm mạnh với một xe đồng đội"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Kíp lái đã bị tiêu diệt do một cú va chạm mạnh"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Kíp lái đã bị tiêu diệt do một cú va chạm mạnh"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Xe đã bị phá hủy do \"Fireball\"."
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Xe đã bị phá hủy do bãi mìn"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Xe đã bị phá hủy do mìn"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Xe đã bị húc lật bởi đồng đội"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Xe đã bị húc lật bởi quân địch"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Xe đã bị phá hủy do lật"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Xe đã bị phá hủy do đồng đội đâm/húc"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Xe đã bị phá hủy do đâm/húc"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Xe đã bị phá hủy do đâm/húc"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Xe của bạn đã bị phá hủy"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "Xe đã bị phá hủy khi khu vực bị oanh tạc."
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "Xe đã bị phá hủy do pháo kích."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Xe đã bị phá hủy do trúng đạn"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Xe đã bị phá hủy do Không kích."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "Xe đã bị phá hủy do Không kích."
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Xe đã bị phá hủy do pháo kích"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Xe đã bị phá hủy do Không kích"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Xe đã bị phá huỷ bởi vùng chết"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "Xe đã bị phá hủy do Phóng Điện."
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Xe bị nát do đồng đội"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Xe bị nát do địch"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Xe đã bị dập nát"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Xe của bạn đã bị phá hủy"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "Cấu hình đã chọn đang được sử dụng trong trận:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "Chọn một cấu hình sẽ sử dụng trong trận trước khi đồng hồ đếm ngược kết thúc."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "Chọn một Cấu hình"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "Chọn cấu hình: {seconds} s"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "Chọn cấu hình:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Khe xói"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Đài quan sát"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Rừng"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Lối đi"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Đường phố"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Phế tích"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Cầu"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Đường ray"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Thành phố"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Làng mạc"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Quảng trường"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Nhà máy"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Đồi"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Hải đăng"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Trung tâm"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Lâu đài"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Cối xay gió"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Núi"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Đường A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Đường B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Đường C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Đường D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Đường E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Thung lũng"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Sông băng"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Đường vòng"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Rặng đồi"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Đường đi"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Núi"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Boongke"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Đại lộ"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Tường"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Đá tảng"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Phân xưởng"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Cánh đồng"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Ga-ra"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Than đá"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Tàu thuyền"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Tàu sân bay"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Hào"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Đường uốn khúc"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Bắc"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Nam"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Tây"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Đông"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Đỉnh"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Khí cầu Zeppelin"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Nhà kho"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Bờ biển"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Sông"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Hồ"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Đầm lầy"
+
+msgid "quickReply/hint/press"
+msgstr "Nhấn"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "để xác nhận"
+
+msgid "quickReply/hint/toCommend"
+msgstr "để khen đáp lại"
+
+msgid "quickReply/hint/toHelp"
+msgstr "để trợ giúp"
+
+msgid "quickReply/hint/toThank"
+msgstr "để cảm ơn"
+
+msgid "recovery/cooldown"
+msgstr "Xe có thể được bỏ sau %(cooldown)s giây"
+
+msgid "recovery/hint1"
+msgstr "Giữ"
+
+msgid "recovery/hint2"
+msgstr "để bỏ xe."
+
+msgid "repairPoint/title"
+msgstr "Sửa chữa"
+
+msgid "repairPoint/unavailable"
+msgstr "Bất khả dụng"
+
+msgid "respawnView/additionalTip"
+msgstr "Chọn một xe để tiếp tục. Nếu tất cả đều đang được sửa chữa, bạn sẽ có thể vào trận bằng chiếc đầu tiên khả dụng."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "Chọn một xe để tiếp tục. Xe bị tiêu diệt không thể sửa chữa được trước khi trận đánh kết thúc."
+
+msgid "respawnView/classNotAvailable"
+msgstr "Đã đạt giới hạn\ncủa mặt trận"
+
+msgid "respawnView/cooldownLbl"
+msgstr "Đang sửa chữa %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Đã bị tiêu diệt"
+
+msgid "respawnView/disabledLbl"
+msgstr "Xe không khả dụng"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Chưa chọn xe phù hợp"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "Xe Cấp X không có trong nhóm."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Trận đánh tiếp tục với "
+
+msgid "respawnView/title"
+msgstr "Chọn Xe"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "ĐÃ RÕ!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "Cảm ơn bạn đã tham gia và trở thành một phần của quá trình phát triển World of Tanks! Chúng tôi đánh giá rất cao những đóng góp của riêng bạn!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "Thư ngỏ"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Bạn đã được thưởng!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Xin chúc mừng!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Đã rõ!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Đã nhận phần thưởng"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Xin chúc mừng"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Đã nhận phần thưởng"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "Gói hàng India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Gói hàng Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Đến Hộp"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Bạn đã nhận được các hộp lớn chứa nhiều phần quà giá trị."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Bạn đã nhận được hộp quà!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Bạn đã nhận được các Hộp Nhỏ chứa nhiều phần quà giá trị khi hoàn thành nhiệm vụ."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Bóc tem mở hộp xem quà nào!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "Đã rõ!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "Quá trình tích lũy bạc đã bị tạm ngưng. Gia hạn Tài khoản Premium WoT để tiếp tục làm đầy Kho Bạc Dự trữ của bạn."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "Đã nhận được bạc"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "Đã mở Kho Bạc Dự trữ"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "Xin chúc mừng!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "ĐÃ RÕ!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Gói Hàng Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Bạn đã được thưởng!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "TUYỂN NGAY!"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "Xin chúc mừng, bạn đã nhận được một tân binh đặc biệt đi kèm với Prime Gaming."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Gói Hàng Alpha"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Bạn đã được thưởng!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "ĐÃ RÕ!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Gói hàng Giấy phép Quân sự"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "ĐÃ RÕ!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Gói hàng Cosmic"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "ĐÃ RÕ!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "Gói hàng Đêm Sao"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Chi tiết"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Gói hàng June"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "Gói hàng July"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Chi tiết"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Gói hàng Dime"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: Bộ Starlight"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Bộ Queen Maeve"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Bộ Sưu tập Kissing Bough"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Chi tiết"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Bộ Sưu tập \"Trúng Lớn\""
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "ĐÃ RÕ!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "Xin chúc mừng, bạn đã nhận được hàng tiếp tế đặc biệt đi kèm với Prime Gaming. Hãy tận dụng nó ngay."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Gói Hàng Charlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Bạn đã được thưởng!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "Gói \"G.I. JOE: Duke\""
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "Gói \"G.I. JOE: Cobra\""
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Chi tiết"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Gói hàng \"Rock Out!\""
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "Gói Nữ săn Bóng tối"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "Chi tiết"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "Gói hàng Tươi mới"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Chi tiết"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Gói Không khí Mùa hè"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "Gói Điện thế Cao"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "Chi tiết"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "Gói Ghê Chết khiếp"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Viking Giữa Chúng ta"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "Chi tiết"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "Gói Khởi đầu Mới"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "Gói hàng Echo"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Chi tiết"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Synth Waves"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Tay súng Cao bồi"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Bạn đã nhận được một phần thưởng độc đáo cho thuê bao: Prime Gaming"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "Ngụy trang điện tử"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Sẵn sàng Nghênh chiến"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Tiến lên, Chó săn!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "\"Dagger\""
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Bạn đã nhận được một phần thưởng độc đáo cho thuê bao: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Phép phù thủy"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "\"Coven Time\""
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "\"You Came to the Wrong Neighborhood\""
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "\"Bite Me!\""
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Bạn đã nhận được một phần thưởng độc đáo cho thuê bao: Prime Gaming"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "Còi Bắt đầu"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "Bàn thắng Quyết định"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "Kinh điển Mọi Thời đại"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Bạn đã nhận được phần thưởng độc đáo từ chương trình: Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Bộ Cánh Tết"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Quà Quyến rũ"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Quà Nặng"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "\"Double Celebration\""
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Chọn Phần thưởng"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Bạn đã nhận được một phần thưởng độc đáo cho thuê bao: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Trật Tự Thế Giới Mới"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Mắt Giám sát"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Giải phẫu học Cyborg"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "\"You've Been Spotted\""
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Gói Hàng Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Gói Hàng Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "Gói hàng Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Gói hàng Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "Gói hàng Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Tuyển quân"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "Xin chúc mừng! Bạn đã nhận được hàng tiếp tế đặc biệt với Prime Gaming. Hãy tận dụng nó một cách tối đa!"
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Gói hàng Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Đã rõ!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "Cả Clan trông cậy vào lần góp mặt tiếp theo của bạn\nđể thăng tiến xuyên suốt Nghĩa vụ Quân sự."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Đã nhận Chiến phẩm!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Đến Nghĩa vụ Quân sự"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Nghĩa vụ Quân sự"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Đã rõ!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "Cả Clan trông cậy vào lần góp mặt tiếp theo của bạn\nđể thăng tiến xuyên suốt Nghĩa vụ Quân sự."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Đã nhận Phần thưởng!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Đến Nghĩa vụ Quân sự"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Nghĩa vụ Quân sự"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Xin chúc mừng!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Trung đội Ta"
+
+msgid "scorePanel/playerScore"
+msgstr "Đóng góp của bạn:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Trung đội %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm Đạn Xuyên Giáp (AP) %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm Đạn Xuyên Hỗn hợp Cứng (APCR) %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm Đạn Xuyên Nổ Mạnh (APHE) %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm Đạn Nổ Mạnh (HE) %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm Đạn Nổ Chống Tăng (HEAT) %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "Sát thương trung bình: %(value)s HP"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "Sát thương mỗi Giây: %(value)s HP/s"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Bán kính sát thương: %(value)s m"
+
+msgid "shells_kinds/params/header"
+msgstr "Sạc Đầy / Đơn"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "Độ xuyên trung bình: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Vận tốc đạn: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Thời gian choáng: %(minValue)s–%(maxValue)s giây"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "để chuyển sang chế độ Tác xạ"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "để chuyển sang chế độ Hành trình"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "Chưa gán phím cụ thể"
+
+msgid "siegeMode/hint/press"
+msgstr "Nhấn"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "để kích hoạt Booster nhiên liệu lỏng"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "để kích hoạt bộ áp phản lực"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "để kích hoạt Thruster Rốckét Sequential"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "Bắn trúng xe địch để nhận hiệu ứng bổ sung từ Laser Chốt Mục tiêu"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "để đổi chế độ động cơ"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "để chuyển chế độ bắn"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "để chuyển chế độ di chuyển"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "để kích hoạt Assist Áp"
+
+msgid "spotted/indicator"
+msgstr "Thời gian lộ diện và thiệt hại hứng chịu tăng thêm"
+
+msgid "spotted/seconds"
+msgstr "s"
+
+msgid "statistics/exit"
+msgstr "Nhấn Esc để quay lại Ga-ra..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Bị tiêu diệt bởi: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Chiếm căn cứ: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Gây hư hại:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Trúng mục tiêu: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Số lần bị bắn: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Phòng thủ căn cứ: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Tiêu diệt:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(đã chết)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Bắn: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Phát hiện:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Tất cả tăng phe ta đã bị tiêu diệt."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Tất cả xe đều đã bị phá hủy!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Tất cả tăng phe địch đã bị tiêu diệt."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Đã chiếm căn cứ!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Hết giờ!"
+
+msgid "statistics/final/stats/credits"
+msgstr "Bạc:"
+
+msgid "statistics/final/stats/experience"
+msgstr "EXP:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "EXP (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Sửa chữa:"
+
+msgid "statistics/final/status/lose"
+msgstr "Thất bại! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Hòa! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Chiến thắng! %s"
+
+msgid "statistics/header"
+msgstr "Thông số Trận đấu"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Người chơi"
+
+msgid "statistics/headers/header2"
+msgstr "Xe"
+
+msgid "statistics/headers/header3"
+msgstr "Tình trạng"
+
+msgid "statistics/headers/header4"
+msgstr "Phá hủy"
+
+msgid "statistics/playerState/0"
+msgstr "Phá hủy"
+
+msgid "statistics/playerState/1"
+msgstr "Thoát trận"
+
+msgid "statistics/playerState/2"
+msgstr "Phá hủy"
+
+msgid "statistics/playerState/3"
+msgstr "Trong trận"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Thành phần"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Thành phần phe"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Trợ cấp Cá nhân"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Kích hoạt Trợ cấp Cá nhân"
+
+msgid "statistics/tab/quests/header"
+msgstr "Nhiệm vụ"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Nhiệm vụ cá nhân không khả dụng trong chế độ đánh này"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Đến mục Chiến dịch trong Ga-ra để chọn một nhiệm vụ"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Bạn không có nhiệm vụ nào dành cho xe này"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Yêu cầu Chính đã Hoàn tất"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Đã hoàn tất mọi nhiệm vụ"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Đã bắt đầu"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Cải thiện kết quả"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "Tạm dừng"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "Hiển thị tiến độ nhiệm vụ hiện không khả dụng"
+
+msgid "statistics/tabs/group"
+msgstr "Thành tích của Đội"
+
+msgid "statistics/tabs/heroes"
+msgstr "Anh hùng Chiến trận"
+
+msgid "statistics/tabs/personal"
+msgstr "Thành tích Cá nhân"
+
+msgid "statistics/team1title"
+msgstr "Phe Ta"
+
+msgid "statistics/team2title"
+msgstr "Phe Địch"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "Rút khỏi\nvùng chết!"
+
+msgid "stun/indicator"
+msgstr "Kíp lái bị choáng"
+
+msgid "stun/seconds"
+msgstr "s"
+
+msgid "tabStatsHint"
+msgstr "— Thống kê"
+
+msgid "tankmen/commander"
+msgstr "Chỉ huy"
+
+msgid "tankmen/driver"
+msgstr "Lái xe"
+
+msgid "tankmen/gunner"
+msgstr "Pháo thủ"
+
+msgid "tankmen/loader"
+msgstr "Nạp đạn viên"
+
+msgid "tankmen/radioman"
+msgstr "Liên lạc viên"
+
+msgid "timer/battlePeriod"
+msgstr "Hết trận sau:"
+
+msgid "timer/started"
+msgstr "Trận đấu bắt đầu!"
+
+msgid "timer/starting"
+msgstr "Trận đấu bắt đầu sau:"
+
+msgid "timer/waiting"
+msgstr "Đang chờ người chơi..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Bấm"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "để chuyển chế độ ngắm"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "Chưa gán phím cụ thể"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Xe bị phá huỷ bởi đồng đội %(entity)s ở khu vực chết."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Xe bị phá huỷ bởi quân địch %(entity)s ở khu vực chết."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Xe đã bị phá huỷ bởi vùng chết."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Xe bị chìm do đồng đội %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Xe bị chìm do quân địch %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Xe đã bị chìm."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Xe đã bị phá hủy do cháy."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Xe đã bị phá hủy do đồng đội %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Xe đã bị phá hủy do %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Kíp lái bị thương do va chạm với đồng đội %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Kíp lai bị thương do va chạm với quân địch %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Kíp lái bị thương do va chạm."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Xe đã bị húc lật bởi đồng đội %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Xe đã bị húc lật bởi quân địch %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Xe đã bị phá hủy do lật."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Đồng đội %(entity)s bị phá huỷ do va chạm."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Quân địch %(entity)s bị phá huỷ do va chạm."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Xe bị phá huỷ do va chạm."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "Xe bị tiêu diệt do phát đạn từ %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Xe bị tiêu diệt do pháo kích của %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Xe bị tiêu diệt do bom không kích của %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Xe bị tiêu diệt do va chạm với đồng đội %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Xe bị tiêu diệt do va chạm với quân địch %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Xe đã bị dập nát."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "Đồng đội %(entity)s làm hỏng bộ phận [%(device)s] do va chạm."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "Đồng đội %(entity)s làm hỏng bộ phận [%(device)s] do va chạm."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Bộ phận [%(device)s] bị hư hỏng do va chạm."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "Quân địch %(entity)s làm hỏng bộ phận [%(device)s] do va chạm."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "Quân địch %(entity)s làm hỏng bộ phận [%(device)s] do va chạm."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "Bộ phận [%(device)s] bị hư hỏng do va chạm."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Va chạm với đồng đội %(entity)s làm hỏng thiết bị [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Va chạm với đồng đội %(entity)s làm hỏng thiết bị [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Bộ phận [%(device)s] bị hư hại do va chạm."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Va chạm với %(entity)s làm hư hại bộ phận [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Va chạm với %(entity)s làm hư hại bộ phận [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Bộ phận [%(device)s] bị hư hại do va chạm."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "Thiết bị [%(device)s] đã bị hỏng do bãi mìn."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "Thiết bị [%(device)s] đã bị hỏng do bãi mìn."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "Đồng đội %(entity)s phá hỏng [%(device)s] do va chạm."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "Đồng đội %(entity)s phá hỏng [%(device)s] do va chạm."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Bộ phận [%(device)s] bị phá hỏng do va chạm."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "Va chạm với %(entity)s làm bộ phận [%(device)s] bị phá huỷ."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "Va chạm với %(entity)s làm bộ phận [%(device)s] bị phá huỷ."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "Bộ phận [%(device)s] bị phá hỏng do va chạm."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Va chạm với %(entity)s làm bộ phận [%(device)s] bị phá huỷ."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Va chạm với %(entity)s làm bộ phận [%(device)s] bị phá huỷ."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Bộ phận [%(device)s] bị phá huỷ do va chạm."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Va chạm với %(entity)s làm bộ phận [%(device)s] bị phá huỷ."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Va chạm với %(entity)s làm bộ phận [%(device)s] bị phá huỷ."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Bộ phận [%(device)s] bị phá huỷ do va chạm."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "Bộ phận [%(device)s] bị cháy do va chạm với %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "Bộ phận [%(device)s] bị cháy do va chạm với %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Bộ phận [%(device)s] bị cháy do va chạm."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "Bộ phận [%(device)s] bị cháy do va chạm với %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "Bộ phận [%(device)s] bị cháy do va chạm với %(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "Bộ phận [%(device)s] bị cháy do va chạm."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] bị thương do va chạm với đồng đội %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] bị thương do va chạm với đồng đội %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] bị thương do va chạm."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] bị thương do va chạm với quân địch %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] bị thương do va chạm với quân địch %(entity)s."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] bị thương do va chạm."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "Kỹ Chiến lược %(equipment)s đã được kích hoạt!"
+
+msgid "warning_zone/indicator"
+msgstr "Cẩn thận! Bạn đang ở gần vùng nguy hiểm."

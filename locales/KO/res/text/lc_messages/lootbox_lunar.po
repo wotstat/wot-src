@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "보물로 돌아가기"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "찬란한 보물"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "찬란한 보물"
+
+msgid "common/getButton/lowerCase"
+msgstr "보물 획득"
+
+msgid "common/getButton/upperCase"
+msgstr "보물 획득"
+
+msgid "common/loader"
+msgstr "찬란한 보물 개봉 중..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "통계를 확인하려면 보물을 개봉하십시오."
+
+msgid "common/statistics/header"
+msgstr "개봉한 찬란한 보물: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "개봉한 찬란한 보물 정보가 모두 삭제됩니다."
+
+msgid "entryPoint/boxes"
+msgstr "보물로 이동"
+
+msgid "entryPoint/tooltip/description"
+msgstr "프리미엄 전차, 2D 스타일 등 신규 및 특별 아이템이 포함된 특별한 상자입니다. 게임 내 상점에서 구매할 수 있습니다."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "현재 기술적 문제로 찬란한 보물을 개봉하거나 구매할 수 없습니다. 불편을 드려 죄송합니다."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "일시적으로 찬란한 보물 이용 불가"
+
+msgid "eventName/lowerCase"
+msgstr "달의 은총"
+
+msgid "eventName/upperCase"
+msgstr "달의 은총"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "다음 보물에서 확정 보상 획득!"
+
+msgid "guaranteedTitle/text"
+msgstr "확정 보상 획득까지 남은 찬란한 보물: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "이벤트 종료 시까지 개봉하지 않은 찬란한 보물은 자동으로 개봉됩니다."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "찬란한 보물에서 획득할 수 있는 아이템 목록 내 전차를 차고에 모두 보유하고 있다면 찬란한 보물에서 전차 획득 시 해당 전차 가격에 상응하는 골드가 대신 지급됩니다."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "찬란한 보물을 %(guaranteed0)s개 개봉할 때마다 8단계~9단계 전차를 확정 획득합니다. 상자를 개봉하였지만 전차가 나오지 않았다면 %(guaranteed0)번째 찬란한 보물 개봉 시 차고에 보유하지 않은 8단계~9단계 전차를 확정 획득합니다. 전차 획득 시 개봉 횟수 집계가 초기화됩니다."
+
+msgid "infoPage/header/description"
+msgstr "찬란한 보물을 개봉하여 값진 게임 아이템을 획득해 보십시오! 아래에서 자세한 정보를 확인할 수 있습니다."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "%(name) %(boxesCount)개 개봉 보상"
+
+msgid "noBoxesView/description/"
+msgstr "보유 중인 찬란한 보물이 없습니다.\n게임 내 상점에서 확보할 수 있습니다."
+
+msgid "preview/backLabel"
+msgstr "보물로 이동"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "보유한 보물: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "보유한 보물 없음"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "찬란한 보물에서 획득할 수 있는 아이템 목록 내 전차를 차고에 모두 보유하고 있다면 찬란한 보물에서 전차 획득 시 골드가 대신 지급됩니다."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "찬란한 보물 %(remainingCount)개"
+msgstr[1] "찬란한 보물 %(remainingCount)개"
+msgstr[2] "찬란한 보물 %(remainingCount)개"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "확정 보상은 찬란한 보물에서 획득할 수 있는 아이템 목록 내 전차입니다.\n%(remainingCount) 개봉 후에도 전차가 나오지 않았다면 %(count) 찬란한 보물 개봉 시 차고에 보유하지 않은 전차를 확정 획득할 수 있습니다. 전차 획득 시 개봉 횟수 집계가 초기화됩니다."

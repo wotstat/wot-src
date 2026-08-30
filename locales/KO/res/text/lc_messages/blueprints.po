@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "설계도면 조합 완료"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "설계도면  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "설계도면 {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "구매로 이동"
+
+msgid "blueprintScreen/button/research"
+msgstr "연구로 이동"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "차고에서 보기"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "설계도면을 조합하여 원하는 전차 연구 시 할인 혜택을 받을 수 있습니다.\n할인을 적용하려면 해당 계통도 이전 전차를 먼저 연구해야 합니다."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "확인"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "연구 불가"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "설계도면 조각 생성 비용"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "선택:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "조각 생성:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "조각 생성"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "조각\n변환"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "변환\n불가"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "이용 불가:\n자원\n부족"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "전차로 이동"
+
+msgid "blueprintScreen/or"
+msgstr "또는"
+
+msgid "blueprintScreen/research"
+msgstr "연구"
+
+msgid "blueprintScreen/researchFree"
+msgstr "전차 무료 연구"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "연구 불가"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "연구 할인:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "연구를 완료하여 구매 가능한 전차"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "연구 및 구매 완료 전차"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "보유 중:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "해당 계통도 이전 전차 연구를 완료하면 {vehicleName} 전차 연구 시 100% 할인을 적용할 수 있습니다."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "설계도면 조합 완료"
+
+msgid "blueprintScreen/unlocked"
+msgstr "전차\n연구 완료"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "연방:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "동맹:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "연합:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "연맹:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "범용:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "연방"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "동맹"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "연합"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "연맹"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(프랑스, 체코, 스웨덴, 이탈리아)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(독일, 일본)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(미국, 영국, 폴란드)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(소련, 중국)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "전차 설계도면 조각 생성에 사용할 국가 조각 수를 선택하십시오.\n%(allianceIcon)%(allianceName) %(allianceNations) 국가 조각을 사용할 수 있습니다."
+
+msgid "conversionView/topMessage/single"
+msgstr "전차 설계도면 조각 생성에 사용할 국가 조각을 선택하십시오.\n%(allianceIcon)%(allianceName) %(allianceNations) 국가 조각을 사용할 수 있습니다."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "최종 가격:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "설계도면 조각 가격:"
+
+msgid "nations/china"
+msgstr "중국"
+
+msgid "nations/czech"
+msgstr "체코"
+
+msgid "nations/france"
+msgstr "프랑스"
+
+msgid "nations/germany"
+msgstr "독일"
+
+msgid "nations/italy"
+msgstr "이탈리아"
+
+msgid "nations/japan"
+msgstr "일본"
+
+msgid "nations/poland"
+msgstr "폴란드"
+
+msgid "nations/sweden"
+msgstr "스웨덴"
+
+msgid "nations/uk"
+msgstr "영국"
+
+msgid "nations/usa"
+msgstr "미국"
+
+msgid "nations/ussr"
+msgstr "소련"

@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "「アセンブリー・ショップ」が再びオープンしました!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "次のプロジェクトを推進中です。全行程の完了後、改めてお知らせします。今しばらくお待ちください!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "「アセンブリー・ショップ」が閉店!"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "ナンバー付きの車輌の新規の発注を締め切りました。標準構成での%(vehicle)sの製造を開始します。在庫の数は限られているため、車輌を手に入れたい方はお急ぎください!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "車輌の新規の発注を締め切りました。すべての車輌は製造を完了させたプレイヤーのもとに発送済みです。"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "アセンブリー・レポート"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "%(soldOutVehicle)sの新規の発注を締め切りました。ただし%(availableVehicle)sを手に入れるチャンスは残っています。在庫の数は限られているため、車輌を手に入れたい方はお急ぎください! 期限までに購入を完了できなかった場合は、投入したリソースがアカウントに返却されます。"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "車輌の新規の発注を締め切りました。すべての車輌は製造を完了させたプレイヤーのもとに発送済みです。投入中だったリソースは間もなくアカウントに返却されます。"
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "戦車長! スタイルナンバー付きの3Dスタイルがセットになった%(vehicle)sを手に入れるチャンスです! 用意されている車輌数には限りがあります。"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "メンテナンスに伴い「アセンブリー・ショップ」は休業中"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "スタイルナンバー: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "「アセンブリー・ショップ」から限定車輌%(vehicle)sが届きました!"
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "%(vehicle)sを入手!"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "「アセンブリー・ショップ」から%(vehicle)sが届きました!"
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "「アセンブリー・ショップ」がオープン!"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "戦車長! %(firstVehicle)sと%(secondVehicle)sを入手するチャンスがやってきました! 在庫数には限りがあるのでお急ぎください!"

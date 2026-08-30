@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT 翻訳者 <noreply@wargaming.net>\nLanguage-Team: WoT チーム <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "actionStub/name"
+msgstr "改修案"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "発動と同時に車輌HPが%(immediatelyRestore)sポイント即座に回復する。さらに効果発動中の%(duration)s秒の間、敵の砲弾やアビリティーから受けたダメージがカウントされ、車輌HPに変換される。また効果終了時に、合計被ダメージの%(restoringCoefficient)s分、自車輌のHPが回復する。\n\n*自車輌の周囲にいる味方の車輌HPの一部も回復する。"
+
+msgid "adaptationHealthRestore/descr"
+msgstr "発動と同時に車輌HPが%(immediatelyRestore)sポイント即座に回復する。さらに効果発動中の%(duration)s秒の間、敵の砲弾やアビリティーから受けたダメージがカウントされ、車輌HPに変換される。また効果終了時に、合計被ダメージの%(restoringCoefficient)s分、自車輌のHPが回復する。\n\n*自車輌の周囲にいる味方の車輌HPの一部も回復する。"
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "発動と同時に車輌HPが{green_Open}%(immediatelyRestore)s{green_Close}ポイント即座に回復する。さらに効果発動中の{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}の間、敵の砲弾やアビリティーから受けたダメージがカウントされ、車輌HPに変換される。また効果終了時に、{green_Open}合計被ダメージの%(restoringCoefficient)s{green_Close}分、自車輌のHPが回復する。\n\n*自車輌の周囲にいる味方の車輌HPの一部も回復する。"
+
+msgid "adaptationHealthRestore/name"
+msgstr "自動修復装甲"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "発動と同時に車輌HPが{green_Open}%(immediatelyRestore)s{green_Close}ポイント即座に回復する。さらに効果発動中の{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}の間、敵の砲弾やアビリティーから受けたダメージがカウントされ、車輌HPに変換される。また効果終了時に、{green_Open}合計被ダメージの%(restoringCoefficient)s{green_Close}分、自車輌のHPが回復する。\n\n*自車輌の周囲にいる味方の車輌HPの一部も回復する。"
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s 「排気システム」系の拡張パーツを搭載した際の移動中および静止中の隠蔽率"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "1回の戦闘に限り「排気システム」系の拡張パーツの効果を向上させる。対象の拡張パーツが車輌に搭載されている場合にしか効果を発揮しない。"
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "消音器の換装"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "移動中および静止中の隠蔽率を向上させる。"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "移動中および静止中の車輌の隠蔽率を向上させる。能動的偵察だけでなく、危険地帯での受動的偵察を行う際にも有用。ボーナス値は車輌タイプにより異なる。"
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "消音排気システム"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "移動中および静止中の車輌の隠蔽率を向上させる。"
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "消音排気システム クラス1"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "消音排気システム クラス2"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "消音排気システム クラス3"
+
+msgid "additional_armor_plates_1/name"
+msgstr "新型補助装甲板 (タイプ1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "新型補助装甲板 (タイプ2)"
+
+msgid "afterburning/descr"
+msgstr "自車輌の速力と加速力を一定時間ブースト"
+
+msgid "afterburning/name"
+msgstr "ターボチャージャー"
+
+msgid "aimingStabilizer/long_special"
+msgstr "射撃、移動、車体旋回、砲塔旋回に伴う散布界の拡大を軽減する。散布界が拡大しにくくなれば照準を絞り切るのに要する時間が短くなるだけでなく、移動中や砲塔旋回中でも砲弾を命中させやすくなる。"
+
+msgid "aimingStabilizer/name"
+msgstr "砲垂直安定装置"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s 「安定装置」系の拡張パーツを搭載した際の射撃、移動、車体旋回、砲塔旋回に伴う散布界の拡大率"
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "1回の戦闘に限り「換気装置」系の拡張パーツの効果を向上させる。対象の拡張パーツが車輌に搭載されている場合にしか効果を発揮しない。"
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "安定装置のグリスアップ"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "安定装置の効果を向上させる。"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "砲垂直安定装置 クラス1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "砲垂直安定装置 クラス2"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "砲垂直安定装置 クラス1"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "砲垂直安定装置 クラス2"
+
+msgid "antifragmentationLining/long_special"
+msgstr "衝撃やHE弾の爆風によるダメージを軽減する。装甲厚を活かして接近戦や体当たりを行うことが多く、自走砲などにも狙われやすい重戦車にとって特に重要になる。"
+
+msgid "antifragmentationLining/name"
+msgstr "内張り装甲"
+
+msgid "antifragmentationLining/short_special"
+msgstr "車輌および搭乗員を爆風、負傷、スタン、衝撃から保護する。"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "内張り装甲 (特大)"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "内張り装甲 (大)"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "内張り装甲 (中)"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "内張り装甲 (小)"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "排気システム"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "安定装置"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "内張り装甲"
+
+msgid "archetype/camouflageNet/name"
+msgstr "迷彩ネット"
+
+msgid "archetype/coatedOptics/name"
+msgstr "レンズ"
+
+msgid "archetype/commandersView/name"
+msgstr "視認性向上装置"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "射撃装置"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "装甲材"
+
+msgid "archetype/grousers/name"
+msgstr "グローサー"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "モジュール構造"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "無線機"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "旋回機構"
+
+msgid "archetype/improvedSights/name"
+msgstr "照準器"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "換気装置"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "射撃統制システム"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "生存性強化システム"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "射撃精度強化システム"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "機動性強化システム"
+
+msgid "archetype/stereoscope/name"
+msgstr "双眼鏡"
+
+msgid "archetype/tankRammer/name"
+msgstr "装填棒"
+
+msgid "archetype/template"
+msgstr "「%(name)s」系の拡張パーツ"
+
+msgid "archetype/turbocharger/name"
+msgstr "ターボチャージャー"
+
+msgid "artillery/longDescr"
+msgstr "砲兵に指示を出してHE弾で狭いエリアに対する集中射撃を行う。着弾範囲の中心に近いほどダメージが大きくなる。重装甲の車輌に対して特に大きな効果を発揮する。"
+
+msgid "artillery/name"
+msgstr "砲兵射撃"
+
+msgid "artillery/shortDescr"
+msgstr "狭い範囲の敵車輌に対して大ダメージを与える。"
+
+msgid "autoExtinguishers/always"
+msgstr "エンジンの火災発生率%(vehicleFireChance)s"
+
+msgid "autoExtinguishers/descr"
+msgstr "火災を自動的に消火する。"
+
+msgid "autoExtinguishers/long_special"
+msgstr "火災発生率を軽減し、火災発生時には自動的に消火する。国家および車輌タイプを問わず搭載可能。"
+
+msgid "autoExtinguishers/name"
+msgstr "自動消火装置"
+
+msgid "autoExtinguishers/onUse"
+msgstr "火災を自動的に消火する。1戦中に繰り返し使用可能。1回でも使用した場合、戦闘終了後に消費される。"
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "火災を自動的に消火する。"
+
+msgid "berserker/battleDescr"
+msgstr "貫通力と発射速度を%(gunPiercing)s倍にして、砲操作性および安定性を%(gunAimingTime)s向上させる一方で、効果時間にあたる%(duration)s秒間かけて自車輌のHPの%(healthDebuff)sが失われる。\n\n*アビリティー「バーサーク」によるダメージで自車輌が大破することはない。"
+
+msgid "berserker/descr"
+msgstr "貫通力と発射速度を%(gunPiercing)s倍にして、砲操作性および安定性を%(gunAimingTime)s向上させる一方で、効果時間にあたる%(duration)s秒間かけて自車輌のHPの%(healthDebuff)sが失われる。\n\n*アビリティー「バーサーク」によるダメージで自車輌が大破することはない。"
+
+msgid "berserker/longDescr"
+msgstr "発射速度を{green_Open}%(gunPiercing)s倍{green_Close}にして、砲操作性および安定性を{green_Open}%(gunAimingTime)s{green_Close}向上させるが、{whiteSpanish_Open}%(duration)s秒間{whiteSpanish_Close}かけて自車輌のHPの{red_Open}%(healthDebuff)s{red_Close}が失われる。\n\n*アビリティー「バーサーク」によるダメージで自車輌が大破することはない。"
+
+msgid "berserker/name"
+msgstr "バーサーク"
+
+msgid "berserker/shortDescr"
+msgstr "発射速度を{green_Open}%(gunPiercing)s倍{green_Close}にして、砲操作性および安定性を{green_Open}%(gunAimingTime)s{green_Close}向上させるが、{whiteSpanish_Open}%(duration)s秒間{whiteSpanish_Close}かけて自車輌のHPの{red_Open}%(healthDebuff)s{red_Close}が失われる。\n\n*アビリティー「バーサーク」によるダメージで自車輌が大破することはない。"
+
+msgid "blackout_headlights_1/name"
+msgstr "新型減光前照灯 (タイプ1)"
+
+msgid "bomber/longDescr"
+msgstr "攻撃機に指示を出して指定したエリアに爆撃を行う。着弾範囲内の敵車輌にはダメージとスタン効果が発生し、中心に近いほどダメージが大きくなる。軽装甲または中装甲の車輌に対して特に大きな効果を発揮する。"
+
+msgid "bomber/name"
+msgstr "空爆"
+
+msgid "bomber/shortDescr"
+msgstr "広い範囲の敵車輌に対して中程度のダメージとスタン効果を与える。"
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "%(duration)s秒かけて車輌HPを%(healPerTickDuration)s回復させる。発動中にダメージを受けると中断される。"
+
+msgid "brRegenerationKit/descr"
+msgstr "%(duration)s秒かけて車輌HPを%(healPerTickDuration)s回復させる。発動中にダメージを受けると中断される。"
+
+msgid "brRegenerationKit/long_special"
+msgstr "{whiteSpanish_Open}%(duration)s秒かけて{whiteSpanish_Close}車輌HPを{green_Open}%(healPerTickDuration)s回復させる{green_Close}。発動中にダメージを受けると中断される。"
+
+msgid "brRegenerationKit/name"
+msgstr "回復"
+
+msgid "brRegenerationKit/short_special"
+msgstr "{whiteSpanish_Open}%(duration)s秒かけて{whiteSpanish_Close}車輌HPを{green_Open}%(healPerTickDuration)s回復させる{green_Close}。発動中にダメージを受けると中断される。"
+
+msgid "brRepairkit/descr"
+msgstr "全モジュールを即座に修理してペナルティーを取り除く。"
+
+msgid "brRepairkit/long_special"
+msgstr "全モジュールを即座に修理してペナルティーを取り除く。"
+
+msgid "brRepairkit/name"
+msgstr "修理キット"
+
+msgid "brRepairkit/short_special"
+msgstr "全モジュールを即座に修理してペナルティーを取り除く。"
+
+msgid "br_bomber/battleDescr"
+msgstr "敵車輌にスタン効果と%(minDamage)s～%(maxDamage)s HPのダメージを与える。着弾範囲の中心に近いほどダメージが大きくなる。\n\n*着弾まで%(delay)s秒を要する。"
+
+msgid "br_bomber/descr"
+msgstr "敵車輌にスタン効果と%(minDamage)s～%(maxDamage)sHPのダメージを与える。着弾範囲の中心に近いほどダメージが大きくなる。\n\n*着弾まで%(delay)s秒を要する。"
+
+msgid "br_bomber/longDescr"
+msgstr "敵車輌にスタン効果と{whiteSpanish_Open}%(minDamage)s～%(maxDamage)sHPのダメージ{whiteSpanish_Close}を与える。着弾範囲の中心に近いほどダメージが大きくなる。\n\n*着弾まで%(delay)s秒を要する。"
+
+msgid "br_bomber/name"
+msgstr "空爆"
+
+msgid "br_bomber/shortDescr"
+msgstr "敵車輌にスタン効果と{whiteSpanish_Open}%(minDamage)s～%(maxDamage)sHPのダメージ{whiteSpanish_Close}を与える。着弾範囲の中心に近いほどダメージが大きくなる。\n\n*着弾まで%(delay)s秒を要する。"
+
+msgid "br_minefield/battleDescr"
+msgstr "指定したエリアに地雷を設置する。地雷は%(duration)s秒間のみ有効で、敵車輌がそのエリアを通過すると起爆してダメージとスタン効果を与える。\n\n*地雷は敵の砲撃を受けると破壊される。敵車輌の真下に設置しても地雷は爆発しない。"
+
+msgid "br_minefield/descr"
+msgstr "指定したエリアに地雷を設置する。地雷は%(duration)s秒間のみ有効で、敵車輌がそのエリアを通過すると起爆してダメージとスタン効果を与える。\n\n*地雷は敵の砲撃を受けると破壊される。敵車輌の真下に設置しても地雷は爆発しない。"
+
+msgid "br_minefield/longDescr"
+msgstr "指定したエリアに地雷を設置する。地雷は{whiteSpanish_Open}%(duration)s秒間{whiteSpanish_Close}のみ有効で、敵車輌がそのエリアを通過すると起爆してダメージとスタン効果を与える。\n\n*地雷は敵の砲撃を受けると破壊される。敵車輌の真下に設置しても地雷は爆発しない。"
+
+msgid "br_minefield/name"
+msgstr "地雷原"
+
+msgid "br_minefield/shortDescr"
+msgstr "指定したエリアに地雷を設置する。地雷は{whiteSpanish_Open}%(duration)s秒間{whiteSpanish_Close}のみ有効で、敵車輌がそのエリアを通過すると起爆してダメージとスタン効果を与える。\n\n*地雷は敵の砲撃を受けると破壊される。敵車輌の真下に設置しても地雷は爆発しない。"
+
+msgid "br_respawn/name"
+msgstr "復活"
+
+msgid "br_respawn/platoon/descr"
+msgstr "車輌が大破した際に自動的に戦線に復帰できるようにする。戦闘開始から%(duration)s分が経過すると効果を発揮しなくなる。\n\n小隊でプレイする場合はアビリティー「復活」のチャージがメンバー間で共有される。味方を復活させるには%(timeToResurrect)s秒間にわたって交戦を回避し続けなければならない。"
+
+msgid "br_respawn/solo/descr"
+msgstr "車輌が大破した際に自動的に戦線に復帰できるようにする。\n\n戦闘開始から%(duration)s分が経過すると効果を発揮しなくなる。"
+
+msgid "br_smoke/battleDescr"
+msgstr "%(duration)s秒間、効果範囲内の全車輌に隠蔽率ボーナスを付与する。"
+
+msgid "br_smoke/descr"
+msgstr "一定時間、効果範囲内の全車輌に隠蔽率ボーナスを付与する。"
+
+msgid "br_smoke/longDescr"
+msgstr "%(duration)s秒間、効果範囲内の全車輌に隠蔽率ボーナスを付与する。"
+
+msgid "br_smoke/name"
+msgstr "煙幕"
+
+msgid "br_smoke/shortDescr"
+msgstr "一定時間、効果範囲内の全車輌に隠蔽率ボーナスを付与する。"
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "効果範囲内の全車輌に隠蔽率ボーナスを付与すると同時に、毎秒総HPの%(damagePerTick)sのダメージを与える。効果は%(duration)s秒間持続する。\n\n*「酸性ミスト」によるダメージを受けてもアイテムの回収の進捗はリセットされず、必ず1HP以上残るため車輌が大破することはない。"
+
+msgid "br_smoke_with_damage/descr"
+msgstr "効果範囲内の全車輌に隠蔽率ボーナスを付与すると同時に、毎秒総HPの%(damagePerTick)sのダメージを与える。効果は%(duration)s秒間持続する。\n\n*「酸性ミスト」によるダメージを受けてもアイテムの回収の進捗はリセットされず、必ず1HP以上残るため車輌が大破することはない。"
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "効果範囲内の全車輌に隠蔽率ボーナスを付与すると同時に、毎秒総HPの{whiteSpanish_Open}%(damagePerTick)s{whiteSpanish_Close}のダメージを与える。効果は{whiteSpanish_Open}%(duration)s秒間{whiteSpanish_Close}持続する。\n\n*「酸性ミスト」によるダメージを受けてもアイテムの回収の進捗はリセットされず、必ず1HP以上残るため車輌が大破することはない。"
+
+msgid "br_smoke_with_damage/name"
+msgstr "酸性ミスト"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "効果範囲内の全車輌に隠蔽率ボーナスを付与すると同時に、毎秒総HPの{whiteSpanish_Open}%(damagePerTick)s{whiteSpanish_Close}のダメージを与える。効果は{whiteSpanish_Open}%(duration)s秒間{whiteSpanish_Close}持続する。\n\n*「酸性ミスト」によるダメージを受けてもアイテムの回収の進捗はリセットされず、必ず1HP以上残るため車輌が大破することはない。"
+
+msgid "builtinRepairkit/always"
+msgstr "モジュールの修理速度%(vehicleRepairSpeed)s"
+
+msgid "builtinRepairkit/long_special"
+msgstr "搭載するだけで修理速度を向上させ、使用すると損傷したモジュールをすべて一瞬で修理することができる。特定の車輌にのみ搭載可能。"
+
+msgid "builtinRepairkit/name"
+msgstr "固定修理キット (大)"
+
+msgid "builtinRepairkit/onUse"
+msgstr "全ての損傷モジュールを修理。1 戦中に複数回使用可能。消費されることがない。\nこの消耗品は解除することができないが、別のスロットに移すことが可能。"
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "車輌隠蔽率+10%"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "全搭乗員にパーク「カモフラージュ」を訓練レベル100%で付与"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "パーク「カモフラージュ」を訓練レベル100%で搭乗員に付与し、移動中および静止中の隠蔽率を向上させる。パークをすでに100%まで訓練済みの場合は、その効果を向上させる。"
+
+msgid "camouflageBattleBooster/name"
+msgstr "擬装"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "パーク「カモフラージュ」を訓練レベル100%で付与する、またはその効果を向上させる。"
+
+msgid "camouflageNet/battleDescr"
+msgstr "移動停止から3秒経過後に隠蔽率を向上させる。"
+
+msgid "camouflageNet/long_special"
+msgstr "静止中の隠蔽率を向上させる。効果は移動停止から3秒経過後に発揮され、具体的なボーナス値は車輌タイプにより異なる。車高が低く隠蔽率に秀でた狙撃型の駆逐戦車、自走砲、あるいは茂みや樹木の陰に身を潜めて偵察を行う軽戦車にとって特に重要となる。パーク「カモフラージュ」と併用すると、効果が累算される。"
+
+msgid "camouflageNet/name"
+msgstr "迷彩ネット"
+
+msgid "camouflageNet/short_special"
+msgstr "静止中の隠蔽率を向上させる。"
+
+msgid "camouflageNet_tier2/name"
+msgstr "迷彩ネット クラス2"
+
+msgid "camouflageNet_tier3/name"
+msgstr "迷彩ネット クラス3"
+
+msgid "chocolate/always"
+msgstr "全搭乗員の職能適性に{colorTagOpen}%(crewLevel)s{colorTagClose}のボーナス"
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}のボーナスを職能適性に加算"
+
+msgid "chocolate/long_special"
+msgstr "戦闘開始と同時に効果を発揮し、戦闘が終了すると消費される。ドイツ車輌にのみ搭載可能。"
+
+msgid "chocolate/name"
+msgstr "チョコレート"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "ドイツ車輌にしか搭載できません。"
+
+msgid "chocolate/short_special"
+msgstr "ドイツの搭乗員の能力を向上させる。"
+
+msgid "clingBrander/battleDescr"
+msgstr "敵と味方を識別できる自律型の攻撃兵器を召喚して、最長で%(botLifeTime)s秒間直近の敵車輌を攻撃させる。\n\n*一定のダメージを受けると大破してしまう。"
+
+msgid "clingBrander/descr"
+msgstr "敵と味方を識別できる自律型の攻撃兵器を召喚して、最長で%(botLifeTime)s秒間直近の敵車輌を攻撃させる。\n\n*一定のダメージを受けると大破してしまう。"
+
+msgid "clingBrander/longDescr"
+msgstr "敵と味方を識別できる自律型の攻撃兵器を召喚して、{whiteSpanish_Open}最長で%(botLifeTime)s秒間{whiteSpanish_Close}直近の敵車輌を攻撃させる。\n\n*一定のダメージを受けると大破してしまう。"
+
+msgid "clingBrander/name"
+msgstr "自律型攻撃兵器"
+
+msgid "clingBrander/shortDescr"
+msgstr "敵と味方を識別できる自律型の攻撃兵器を召喚して、{whiteSpanish_Open}最長で%(botLifeTime)s秒間{whiteSpanish_Close}直近の敵車輌を攻撃させる。\n\n*一定のダメージを受けると大破してしまう。"
+
+msgid "clutches_replace_1/name"
+msgstr "新型摩擦継手 (タイプ1)"
+
+msgid "clutches_replace_2/name"
+msgstr "新型摩擦継手 (タイプ2)"
+
+msgid "coatedOptics/long_special"
+msgstr "レンズ皮膜（タイプを問わない）の効力は、双眼鏡と比べるとやや見劣りするものの、移動中でも無効になることがありません。そのため、レンズ皮膜は積極的に動き回る軽戦車や中戦車に特に有用です。"
+
+msgid "coatedOptics/name"
+msgstr "レンズ皮膜"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s 「レンズ」系の拡張パーツを搭載した際の視認範囲 （最大445 m）"
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "1回の戦闘に限り「レンズ」系の拡張パーツの効果を向上させる。対象の拡張パーツが車輌に搭載されている場合にしか効果を発揮しない。"
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "光学機器の調整"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "レンズの改良の効力を向上させる。"
+
+msgid "coatedOptics_tier1/name"
+msgstr "レンズ皮膜 クラス1"
+
+msgid "coatedOptics_tier2/name"
+msgstr "レンズ皮膜 クラス2"
+
+msgid "coatedOptics_tier3/name"
+msgstr "レンズ皮膜 クラス3"
+
+msgid "cocacola/always"
+msgstr "全搭乗員の職能適性に{colorTagOpen}%(crewLevel)s{colorTagClose}のボーナス"
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}のボーナスを職能適性に加算"
+
+msgid "cocacola/long_special"
+msgstr "戦闘開始時に自動的に発動され、戦闘が終了すると消費される。アメリカ車輌のみで使用可能。"
+
+msgid "cocacola/name"
+msgstr "コーラのケース"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "アメリカ車輌にしか搭載できません。"
+
+msgid "cocacola/short_special"
+msgstr "アメリカの搭乗員の能力を向上させる。"
+
+msgid "commandersView/long_special"
+msgstr "移動中または茂みや樹木の陰に隠れた敵車輌の隠蔽率を低下させる。移動中の敵を通常より遠くから視認したり、潜伏中の敵をより効果的に発見できるようになる。"
+
+msgid "commandersView/name"
+msgstr "車長用視認性向上装置"
+
+msgid "commandersView/short_special"
+msgstr "移動中または茂みや樹木の陰に隠れた敵車輌の隠蔽率を低下させる。"
+
+msgid "corrodingShot/battleDescr"
+msgstr "貫通力を向上させると同時に、追加でダメージを誘発できる腐蝕効果を砲弾に追加する。射撃により敵車輌にダメージを与えると、%(dotEffectDuration)s秒経過するまで敵車輌のHPの最大%(damagePerDotEffectDuration)sを蝕む。\n\n*腐蝕効果は「修理キット」で取り除くことができる。"
+
+msgid "corrodingShot/descr"
+msgstr "貫通力を向上させると同時に、追加でダメージを誘発できる腐蝕効果を砲弾に追加する。射撃により敵車輌にダメージを与えると、%(dotEffectDuration)s秒経過するまで敵車輌のHPの最大%(damagePerDotEffectDuration)sを蝕む。\n\n*腐蝕効果は「修理キット」で取り除くことができる。"
+
+msgid "corrodingShot/longDescr"
+msgstr "貫通力を向上させると同時に、追加でダメージを誘発できる腐蝕効果を砲弾に追加する。射撃により敵車輌にダメージを与えると、{whiteSpanish_Open}%(dotEffectDuration)s秒経過するまで{whiteSpanish_Close}敵車輌のHPの{whiteSpanish_Open}最大%(damagePerDotEffectDuration)s{whiteSpanish_Close}を蝕む。\n\n*腐蝕効果は「修理キット」で取り除くことができる。"
+
+msgid "corrodingShot/name"
+msgstr "腐蝕弾"
+
+msgid "corrodingShot/shortDescr"
+msgstr "貫通力を向上させると同時に、追加でダメージを誘発できる腐蝕効果を砲弾に追加する。射撃により敵車輌にダメージを与えると、{whiteSpanish_Open}%(dotEffectDuration)s秒経過するまで{whiteSpanish_Close}敵車輌のHPの{whiteSpanish_Open}最大%(damagePerDotEffectDuration)s{whiteSpanish_Close}を蝕む。\n\n*腐蝕効果は「修理キット」で取り除くことができる。"
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "を付与"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "車長の特性"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{skillOrPerk}「{name}」{colorTagOpen}{action}{colorTagClose}"
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "パーク:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "を付与"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "パーク"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "砲垂直安定装置の高性能版で、射撃後、移動中、および砲塔旋回中の散布界に対するボーナスが{colorTagOpen}–20%{colorTagClose}から{colorTagOpen}–27.5%{colorTagClose}に強化されている。国家および車輌タイプを問わず搭載可能だが、解除にはボンズが必要。"
+
+msgid "deluxAimingStabilizer/name"
+msgstr "高性能安定装置"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "レンズ皮膜の高性能版で、視認範囲に対するボーナスが{colorTagOpen}+10%{colorTagClose}から{colorTagOpen}+13.5%{colorTagClose}に強化されている。国家や車輌タイプを問わず搭載可能だが、解除にはボンズが必要。"
+
+msgid "deluxCoatedOptics/name"
+msgstr "試作型高視認性レンズ"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "改良型射撃装置のさらなる高性能版で、照準速度に対するボーナスが{colorTagOpen}+10%{colorTagClose}から{colorTagOpen}+13.5%{colorTagClose}に強化されている。国家や車輌タイプを問わず搭載可能だが、解除にはボンズが必要。"
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "耐摩耗射撃装置"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "改良型モジュール構造のさらなる高性能版で、効果が強化されている。国家や車輌タイプを問わず搭載可能だが、解除にはボンズが必要。"
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "高性能モジュール構造"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "修理速度を向上させると同時に、燃料タンク、弾薬庫、エンジンを保護する。"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "改良型換気装置のさらなる高性能版で、職能適性に対するボーナスが{colorTagOpen}+5%{colorTagClose}から{colorTagOpen}+8.5%{colorTagClose}に強化されている。国家や車輌タイプを問わず搭載可能だが、解除にはボンズが必要。"
+
+msgid "deluxImprovedVentilation/name"
+msgstr "高性能換気装置"
+
+msgid "deluxRammer/long_special"
+msgstr "装填棒の改良版で、装填時間に対するボーナスが{colorTagOpen}-10%{colorTagClose}から{colorTagOpen}-13.5%{colorTagClose}に強化されている。国家や車輌タイプを問わず搭載可能で、解除にはボンズが必要となる。"
+
+msgid "deluxRammer/name"
+msgstr "新型装填装置"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "消音排気システムのさらなる高性能版。移動中および静止中の車輌の隠蔽率を向上させる。危険地帯に潜伏して偵察を行う場合はもちろん、走行しながら偵察を行う際にも効果を発揮する。\n国家および車輌タイプを問わず搭載可能だが、ボーナス値は車輌タイプにより異なる。解除にはボンズが必要。"
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "隠密排気ユニット"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "移動中および静止中の隠蔽率を{colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}向上させる"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "移動停止から1.5秒経過後に隠蔽率を向上させる。"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "静止中の隠蔽率を向上させる、「迷彩ネット」の改良版。効果は移動停止から1.5秒経過後に発揮され、具体的なボーナス値は車輌タイプにより異なる。車高が低く隠蔽率に秀でた狙撃型の駆逐戦車、自走砲、あるいは茂みや樹木の陰に身を潜めて偵察を行う軽戦車にとって特に重要となる。パーク「カモフラージュ」と併用すると、効果が累算される。"
+
+msgid "deluxeCamouflageNet/name"
+msgstr "高性能迷彩ネット"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17.5{colorTagClose}/{colorTagOpen}12.5{colorTagClose}/{colorTagOpen}7.5%{colorTagClose} 静止中の隠蔽率"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "修理時にサスペンションの耐久性を最大値まで回復させる。"
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "修理時にサスペンションの耐久性を回復させる。"
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "改良型装甲材のさらなる高性能版で、車輌HPを{colorTagOpen}+12.5%{colorTagClose}、サスペンションの耐久性を{colorTagOpen}+75%{colorTagClose}、サスペンションの修理速度を{colorTagOpen}+30%{colorTagClose}向上させる。また、衝撃によるサスペンション損傷時に車体が受けるダメージを{colorTagOpen}–75%{colorTagClose}軽減するほか、被弾時の履帯切断率を低下させる。さらに、修理時にはサスペンションの耐久性を最大値まで回復させる。自走砲以外であれば国家を問わずどの車輌にも搭載可能だが、解除にはボンズが必要。"
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "高性能装甲材"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "車輌HPを向上させ、サスペンションを保護する。"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "改良型旋回機構の高性能版で、主砲旋回速度へのボーナスが{colorTagOpen}+17.5% {colorTagClose}、車体旋回速度へのボーナスが{colorTagOpen}+17.5% {colorTagClose}、移動中および砲塔旋回中の散布界へのボーナスが{colorTagOpen}−17.5% {colorTagClose}に強化されている。国家および車輌タイプを問わず搭載可能だが、解除にはボンズが必要。"
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "高性能旋回機構"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "旋回速度を向上させると同時に射撃、移動、車体旋回、主砲旋回に伴う散布界の拡大を軽減する。"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "改良型照準器のさらなる高性能版。照準サークルのサイズを{colorTagOpen}9%{colorTagClose}縮小することで、収束中、または完全に収束済みの主砲の射撃精度を向上させる。自走砲以外であれば国家を問わずどの車輌にも搭載可能だが、解除にはボンズが必要。"
+
+msgid "deluxeImprovedSights/name"
+msgstr "新型照準器"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "散布界を縮小する。"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "移動停止から1.5秒経過後に視認範囲を拡大する (最大445 m)。"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "移動停止から1.5秒経過後に視認範囲を拡大する、「双眼鏡」の改良版。視認範囲は戦闘を有利に進める上で最も重要なパラメーターのひとつと言える。車高が低く高精度の主砲を備えた狙撃型の駆逐戦車や、茂みに身を潜めて偵察を行う軽戦車にとって特に重要になる。"
+
+msgid "deluxeStereoscope/name"
+msgstr "望遠観測システム"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27.5%{colorTagClose} 静止中の視認範囲 (最大445 m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "ターボチャージャーの高性能版で、エンジン出力へのボーナスが{colorTagOpen}+7.5%{colorTagClose}から{colorTagOpen}+12.5%{colorTagClose}、最大前進速度へのボーナスが{colorTagOpen}+4 km/h{colorTagClose}から{colorTagOpen}+6 km/h{colorTagClose}、最大後退速度へのボーナスが{colorTagOpen}+2 km/h{colorTagClose}から{colorTagOpen}+4 km/h{colorTagClose}に強化されている。装輪車輌以外であれば国家を問わずどの車輌にも搭載可能だが、解除にはボンズが必要。"
+
+msgid "deluxeTurbocharger/name"
+msgstr "高性能ターボチャージャー"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "エンジン出力と最大速度を向上させる。"
+
+msgid "eb_minefield/descr"
+msgstr "指定したエリアに地雷を設置する。地雷は一定時間のみ有効で、砲撃や爆風に晒されると効果を失う。"
+
+msgid "eb_minefield/long_descr"
+msgstr "指定したエリアに地雷を設置する。一定の時間が経過するまでに敵車輌がそのエリアを通過すると自動的に起爆してダメージとスタン効果を発生させる。ただし、敵車輌に接近されるか、あるいは戦闘リザーブ「偵察機」または「索敵改修」を発動されると発見され、砲弾が命中したり爆風に触れると大破してしまう。"
+
+msgid "eb_minefield/name"
+msgstr "地雷原"
+
+msgid "eb_minefield/short_descr"
+msgstr "地雷を設置する。地雷には有効期限があり、砲撃や爆風に晒されると無効化される。"
+
+msgid "eb_regenerationKit/descr"
+msgstr "車輌HPを一定の割合だけ徐々に回復させる。"
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "車輌HPを一定の割合だけ少しずつ回復させる。補給サークル内での修理速度を向上させる。発動中は地雷から受けるダメージが低下する。"
+
+msgid "eb_regenerationKit/name"
+msgstr "野戦修理"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "車輌HPを一定の割合だけ徐々に回復させる。"
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "ガレージスロット"
+
+msgid "empty_slot/name"
+msgstr "ガレージスロット"
+
+msgid "empty_slot/short_descr"
+msgstr "このスロットはすでに使用されています。"
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "パーク「音響探知」の効果を1.5倍に向上"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "パーク「音響探知」を訓練レベル100%で付与"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "パーク「音響探知」を搭乗員に訓練レベル100%で付与し、敵自走砲に狙われた際に砲弾の平方向を通知し、スタンによるペナルティーを軽減する。パークをすでに100%まで訓練済みの場合は、その効果を向上させる。"
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "重点警戒"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "パーク「音響探知」を訓練レベル100%で付与する、またはその効果を向上させる。"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "照準時間を短縮し、射撃精度を向上させる。発射速度と射撃精度の上昇により、照準の完全収束を待たずとも攻撃を命中させることが可能となる。"
+
+msgid "enhancedAimDrives/name"
+msgstr "改良型射撃装置"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s 「射撃装置」系の拡張パーツまたは「射撃統制システム」を搭載した際の照準速度"
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "1回の戦闘に限り「射撃装置」系の拡張パーツの効果を向上させる。対象の拡張パーツが車輌に搭載されている場合にしか効果を発揮しない。"
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "照準器の調整"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "射撃装置の改良の効力を向上"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "改良型射撃装置 クラス1"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "改良型射撃装置 クラス2"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "改良型射撃装置 クラス3"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "改良型皿ワッシャ"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "修理時にサスペンションの耐久性を最大値まで回復させる。"
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "修理時にサスペンションの耐久性を最大値まで回復させる"
+
+msgid "enhancedLevers/name"
+msgstr "改良型レバー"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "改良型縦置きトーションバー"
+
+msgid "enhancedSprings/name"
+msgstr "改良型スプリング"
+
+msgid "enhancedTorsions1t/name"
+msgstr "改良型トーションバー 1 t級"
+
+msgid "enhancedTorsions3t/name"
+msgstr "改良型トーションバー 3 t級"
+
+msgid "enhancedTorsions5t/name"
+msgstr "改良型トーションバー 5 t級"
+
+msgid "exampleAbility/descr"
+msgstr "Test Skill for Visual Script"
+
+msgid "exampleAbility/name"
+msgstr "Test Skill"
+
+msgid "excellentFuel/always"
+msgstr "エンジン出力および砲塔旋回速度%(vehicleEnginePower)s"
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} エンジン出力および砲塔旋回速度を向上させる。"
+
+msgid "excellentFuel/long_special"
+msgstr "エンジン出力と砲塔旋回速度を{colorTagOpen}10%{colorTagClose}向上させる。戦闘開始時に自動的に発動され、戦闘が終了すると消費される。"
+
+msgid "excellentFuel/name"
+msgstr "特級燃料"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "エンジン出力と砲塔旋回速度{colorTagOpen}+10%{colorTagClose}"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "修理時にサスペンションの耐久性を最大値まで回復させる。"
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "修理時にサスペンションの耐久性を回復させる。"
+
+msgid "extraHealthReserve/long_special"
+msgstr "車輌HPと修理速度を向上させる。また、衝撃によるサスペンションの損傷時に車体が受けるダメージを軽減するほか、被弾時の履帯切断率を低下させる。さらに、修理時にはサスペンションの耐久性を最大値まで回復させる。"
+
+msgid "extraHealthReserve/name"
+msgstr "改良型装甲材"
+
+msgid "extraHealthReserve/short_special"
+msgstr "車輌HPを向上させ、サスペンションを保護する。"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "改良型装甲材 クラス1"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "改良型装甲材 クラス2"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "改良型装甲材 クラス3"
+
+msgid "fireCircle/battleDescr"
+msgstr "自車輌の周囲に炎の輪を展開することで敵車輌の機動性を低下させ、%(timer)s秒の間総HPの最大%(damagePerTickForInterval)sのダメージを与える。\n\n*炎の輪の効果範囲は固定されるため、自車輌に合わせて移動することはない。"
+
+msgid "fireCircle/descr"
+msgstr "自車輌の周囲に炎の輪を展開することで敵車輌の機動性を低下させ、%(timer)s秒の間総HPの最大%(damagePerTickForInterval)sのダメージを与える。\n\n*炎の輪の効果範囲は固定されるため、自車輌に合わせて移動することはない。"
+
+msgid "fireCircle/longDescr"
+msgstr "自車輌の周囲に炎の輪を展開することで敵車輌の機動性を低下させ、{whiteSpanish_Open}%(timer)s秒{whiteSpanish_Close}の間総HPの{whiteSpanish_Open}最大%(damagePerTickForInterval)s{whiteSpanish_Close}のダメージを与える。\n\n*炎の輪の効果範囲は固定されるため、自車輌に合わせて移動することはない。"
+
+msgid "fireCircle/name"
+msgstr "火炎輪"
+
+msgid "fireCircle/shortDescr"
+msgstr "自車輌の周囲に炎の輪を展開することで敵車輌の機動性を低下させ、{whiteSpanish_Open}%(timer)s秒{whiteSpanish_Close}の間総HPの{whiteSpanish_Open}最大%(damagePerTickForInterval)s{whiteSpanish_Close}のダメージを与える。\n\n*炎の輪の効果範囲は固定されるため、自車輌に合わせて移動することはない。"
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "パーク「消火能力」の効果を1.5倍に向上"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "パーク「消火能力」を訓練レベル100%で付与"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "パーク「消火能力」を搭乗員に訓練レベル100%で付与し、火災発生時の消火速度を向上させる。パークをすでに100%まで訓練済みの場合は、その効果を向上させる。"
+
+msgid "fireFightingBattleBooster/name"
+msgstr "消防訓練"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "パーク「消火能力」を訓練レベル100%で付与する、またはその効果を向上させる。"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "エリアを指定して砲兵射撃を行うことで範囲内の全車輌に対してダメージを与える。"
+
+msgid "fort_aoe_artillery/name"
+msgstr "砲兵射撃"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "エリアを指定して砲兵射撃を行うことで範囲内の全車輌に対してダメージを与える。"
+
+msgid "fort_inspire/longDescr"
+msgstr "自車輌および付近の味方車輌の全搭乗員の職能レベルとパークの訓練レベルを向上させる。"
+
+msgid "fort_inspire/name"
+msgstr "糧食補給"
+
+msgid "fort_inspire/shortDescr"
+msgstr "自車輌および付近の味方車輌の全搭乗員の職能レベルとパークの訓練レベルを向上させる。"
+
+msgid "fuel_system_revision_1/name"
+msgstr "新型燃料システム (タイプ1)"
+
+msgid "grousers/long_special"
+msgstr "車輌の旋回速度と全地盤タイプでの速度維持性能を向上させる。不安定な軟地盤などを走行する際に特に大きな効果を発揮する。パーク「クラッチの名手」や「オフロード走行」と併用すると、効果が累算される。"
+
+msgid "grousers/name"
+msgstr "追加グローサー"
+
+msgid "grousers/short_special"
+msgstr "車輌の旋回速度と加速力を向上させる。"
+
+msgid "grousers_tier1/name"
+msgstr "追加グローサー クラス1"
+
+msgid "grousers_tier2/name"
+msgstr "追加グローサー クラス2"
+
+msgid "grousers_tier3/name"
+msgstr "追加グローサー クラス3"
+
+msgid "gun_balancing_1/name"
+msgstr "新型照準補助装置 (タイプ1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "火災を消火する。"
+
+msgid "handExtinguishers/long_special"
+msgstr "火災を消火する。1戦中に繰り返し使用可能。1度でも使用した場合、戦闘終了後に消費される。"
+
+msgid "handExtinguishers/name"
+msgstr "手動消火器"
+
+msgid "handExtinguishers/onUse"
+msgstr "火災を消火する。1戦中に繰り返し使用可能。1度でも使用すると戦闘終了後に消費される。"
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "火災を消火する。"
+
+msgid "healPoint/battleDescr"
+msgstr "自車輌の周囲に、自車輌および小隊メンバー車輌のHPの%(healPerTick)sを毎秒一定の割合で回復させるエリアを%(duration)s秒間展開する。"
+
+msgid "healPoint/descr"
+msgstr "自車輌の周囲に、自車輌および小隊メンバー車輌のHPの%(healPerTick)sを毎秒一定の割合で回復させるエリアを%(duration)s秒間展開する。"
+
+msgid "healPoint/longDescr"
+msgstr "自車輌の周囲に、自車輌および小隊メンバー車輌の{green_Open}HPの%(healPerTick)s{green_Close}を毎秒一定の割合で回復させるエリアを{whiteSpanish_Open}%(duration)s秒間{whiteSpanish_Close}展開する。"
+
+msgid "healPoint/name"
+msgstr "エリア回復"
+
+msgid "healPoint/shortDescr"
+msgstr "自車輌の周囲に、自車輌および小隊メンバー車輌の{green_Open}HPの%(healPerTick)s{green_Close}を毎秒一定の割合で回復させるエリアを{whiteSpanish_Open}%(duration)s秒間{whiteSpanish_Close}展開する。"
+
+msgid "hotCoffee/always"
+msgstr "全搭乗員の職能適性に%(crewLevel)sのボーナス"
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}のボーナスを職能適性に加算"
+
+msgid "hotCoffee/long_special"
+msgstr "戦闘開始時に自動的に発動され、戦闘が終了すると消費される。フランス車輌のみで使用可能。"
+
+msgid "hotCoffee/name"
+msgstr "濃いコーヒー"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "フランス車輌にしか搭載できません。"
+
+msgid "hotCoffee/short_special"
+msgstr "フランスの搭乗員の能力を向上させる。"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "1戦につき1度、燃料タンクの発火、弾薬庫の誘爆、およびエンジンの大破を防ぐ。"
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "1戦につき1度、燃料タンクの発火、弾薬庫の誘爆、およびエンジンの大破を防ぐ。"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "弾薬庫は保護されている"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "弾薬庫の誘爆を阻止"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "エンジンは保護されている"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "エンジンの大破を阻止"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "燃料タンクは保護されている"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "燃料タンクの発火を阻止"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "1戦につき1度、燃料タンクの発火、弾薬庫の誘爆、およびエンジンの大破を防ぐ。"
+
+msgid "improvedConfiguration/long_special"
+msgstr "修理速度に加えて、燃料タンク、弾薬庫、およびエンジンの耐久性を向上させる。さらにモジュール損傷時の装填時間やエンジン出力に対するペナルティーを軽減するほか、エンジンの火災発生率を低下させる。加えて1戦につき1度、燃料タンクの発火、弾薬庫の誘爆、およびエンジンの大破を阻止する。パーク「修理」、「弾薬庫保護」、「こまめな手入れ」と併用すると、効果が累算される。"
+
+msgid "improvedConfiguration/name"
+msgstr "改良型モジュール構造"
+
+msgid "improvedConfiguration/short_special"
+msgstr "修理速度を向上させると同時に、燃料タンク、弾薬庫、エンジンを保護する。"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s 「モジュール構造」系の拡張パーツを搭載した際の修理速度"
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "1回の戦闘に限り「モジュール構造」系の拡張パーツの効果を向上させる。対象の拡張パーツが車輌に搭載されている場合にしか効果を発揮しない。"
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "入念な整備"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "改良型モジュール構造の効果を向上させる。"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "改良型モジュール構造 クラス1"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "改良型モジュール構造 クラス2"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "自ら視認した敵車輌が完全に姿を隠してから再び非発見状態に戻るまでの時間を延長する。さらに自車輌が発見された際に完全に姿を隠してから非発見状態に戻るまでの時間を短縮する。パーク「指定された目標」や「報復要請」と併用すると、効果が累算される。"
+
+msgid "improvedRadioCommunication/name"
+msgstr "改良型無線機"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "敵車輌の被発見状態の持続時間を延長する一方で、自車輌の被発見状態の持続時間を短縮する。"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "砲塔を搭載した車輌の場合は車体と砲塔の旋回速度を、砲塔がなく戦闘室が固定式の車輌の場合は車体と主砲の旋回速度を向上させる。さらに移動中、射撃後、および車体または砲塔旋回中の散布界を縮小する。パーク「クラッチの名手」と併用すると、効果が累算される。"
+
+msgid "improvedRotationMechanism/name"
+msgstr "改良型旋回機構"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "旋回速度を向上させると同時に射撃、移動、車体旋回、主砲旋回に伴う散布界の拡大を軽減する。"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "改良型旋回機構 クラス1"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "改良型旋回機構 クラス2"
+
+msgid "improvedSights/long_special"
+msgstr "照準サークルのサイズを縮小することで、収束中、または完全に収束済みの主砲の射撃精度を向上させる。"
+
+msgid "improvedSights/name"
+msgstr "改良型照準器"
+
+msgid "improvedSights/short_special"
+msgstr "散布界を縮小する。"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s 「照準器」系の拡張パーツまたは「射撃精度強化システム」を搭載した際の照準サークルのサイズ"
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "1回の戦闘に限り「照準器」系の拡張パーツの効果を向上させる。対象の拡張パーツが車輌に搭載されている場合にしか効果を発揮しない。"
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "レンズの研磨"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "照準サークルのサイズを縮小する。"
+
+msgid "improvedSights_tier1/name"
+msgstr "改良型照準器 クラス1"
+
+msgid "improvedSights_tier2/name"
+msgstr "改良型照準器 クラス2"
+
+msgid "improvedSights_tier3/name"
+msgstr "改良型照準器 クラス3"
+
+msgid "improvedVentilation/long_special"
+msgstr "視認範囲、発射速度、照準速度、加速性能などの車輌性能を向上させる。ただし、はっきりとした効果が表れるのは、搭乗員がパーク「戦友」を100%まで訓練済みの場合のみ。"
+
+msgid "improvedVentilation/name"
+msgstr "改良型換気装置"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s 「換気装置」系の拡張パーツを搭載した際の職能適性ボーナス"
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "1回の戦闘に限り「換気装置」系の拡張パーツの効果を向上させる。対象の拡張パーツが車輌に搭載されている場合にしか効果を発揮しない。"
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "換気孔の清掃"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "換気装置の改良の効果を向上させる。"
+
+msgid "improvedVentilation_class1/name"
+msgstr "改良型換気装置 クラス1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "改良型換気装置 クラス2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "改良型換気装置 クラス3"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "改良型換気装置 クラス1"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "改良型換気装置 クラス2"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "改良型換気装置 クラス3"
+
+msgid "improved_suspension_1/name"
+msgstr "新型サスペンション (タイプ1)"
+
+msgid "improved_suspension_2/name"
+msgstr "新型サスペンション (タイプ2)"
+
+msgid "inspire/longDescr"
+msgstr "一定範囲内にいる味方チーム全車輌の搭乗員の能力を向上させる。自車輌には他の車輌よりも大きなボーナスが加算される。"
+
+msgid "inspire/name"
+msgstr "インスパイア"
+
+msgid "inspire/shortDescr"
+msgstr "自車輌および味方車輌の搭乗員の能力を向上させる。"
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "大口径自走砲用装填棒"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "大口径戦車砲用装填棒"
+
+msgid "largeMedkit/always"
+msgstr "スタン時間%(crewStunDuration)s\n全搭乗員の安全性%(crewHitChance)s"
+
+msgid "largeMedkit/descr"
+msgstr "負傷した搭乗員全員を治療し、スタン効果を解消する。"
+
+msgid "largeMedkit/long_special"
+msgstr "使用することで全搭乗員を治療し、スタン効果を解消する。また、搭載するだけで搭乗員を負傷から保護する。国家や車輌タイプを問わず搭載可能。"
+
+msgid "largeMedkit/name"
+msgstr "救急キット (大)"
+
+msgid "largeMedkit/onUse"
+msgstr "負傷した搭乗員全員を治療し、スタン効果を解消する。1戦中に繰り返し使用可能。1回でも使用した場合、戦闘終了後に消費される。"
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "負傷した搭乗員全員を治療し、スタン効果を解消する。1戦中に繰り返し使用可能。1回でも使用した場合、戦闘終了後に消費される。"
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "負傷した搭乗員全員を治療し、スタン効果を解消する。"
+
+msgid "largeRepairkit/always"
+msgstr "モジュールの修理速度%(vehicleRepairSpeed)s"
+
+msgid "largeRepairkit/descr"
+msgstr "損傷したすべてのモジュールを修理する。"
+
+msgid "largeRepairkit/long_special"
+msgstr "使用することで全ての損傷モジュールを修理する。また、搭載するだけで修理速度を向上させる。国家や車輌タイプを問わず搭載可能。"
+
+msgid "largeRepairkit/name"
+msgstr "修理キット (大)"
+
+msgid "largeRepairkit/onUse"
+msgstr "損傷したモジュールをすべて修理する。1戦中に繰り返し使用可能。1回でも使用した場合、戦闘終了後に消費される。"
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "損傷したすべてのモジュールを修理する。"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "パーク「報復要請」の効果 +50%"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "パーク「報復要請」を訓練レベル 100% で付与"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "パーク「報復要請」を訓練度100%で搭乗員に付与し、自車輌が撃破された後、通常よりも2秒間長く、敵車輌の位置を味方に連絡し続けることを可能尾にする。パークをすでに100%まで訓練済みの場合には効果持続時間が1秒間延長される（合計3秒間）。"
+
+msgid "lastEffortBattleBooster/name"
+msgstr "執念"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "パーク「報復要請」を訓練レベル100%で付与、またはその効果を向上させる。"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "中口径自走砲用装填棒"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "中口径戦車砲用装填棒"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "射撃統制システム T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "射撃統制システム T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "射撃統制システム T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "射撃統制システム T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "射撃統制システム T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "射撃統制システム T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "射撃統制システム T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "射撃統制システム T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "射撃統制システム T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "生存性強化システム T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "生存性強化システム T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "生存性強化システム T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "生存性強化システム T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "生存性強化システム T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "生存性強化システム T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "生存性強化システム T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "生存性強化システム T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "生存性強化システム T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "射撃精度強化システム T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "射撃精度強化システム T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "射撃精度強化システム T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "射撃精度強化システム T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "射撃精度強化システム T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "射撃精度強化システム T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "射撃精度強化システム T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "射撃精度強化システム T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "射撃精度強化システム T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "機動性強化システム T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "機動性強化システム T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "機動性強化システム T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "機動性強化システム T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "機動性強化システム T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "機動性強化システム T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "機動性強化システム T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "機動性強化システム T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "機動性強化システム T3"
+
+msgid "nitro/battleDescr"
+msgstr "一時的に自車輌のエンジン出力を%(enginePowerFactor)s、最大速度を%(maxSpeedFactor)s倍に向上させる。効果は%(consumeSeconds)s秒間持続する。"
+
+msgid "nitro/descr"
+msgstr "一時的に自車輌のエンジン出力を%(enginePowerFactor)s、最大速度を%(maxSpeedFactor)s倍に向上させる。効果は%(consumeSeconds)s秒間持続する。"
+
+msgid "nitro/long_special"
+msgstr "一時的に自車輌のエンジン出力を{green_Open}%(enginePowerFactor)s{green_Close}、最大速度を{green_Open}%(maxSpeedFactor)s倍{green_Close}に向上させる。効果は{whiteSpanish_Open}%(consumeSeconds)s秒間{whiteSpanish_Close}持続する。"
+
+msgid "nitro/name"
+msgstr "スーパーチャージャー"
+
+msgid "nitro/short_special"
+msgstr "一時的に自車輌のエンジン出力を{green_Open}%(enginePowerFactor)s{green_Close}、最大速度を{green_Open}%(maxSpeedFactor)s倍{green_Close}に向上させる。効果は{whiteSpanish_Open}%(consumeSeconds)s秒間{whiteSpanish_Close}持続する。"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "代替構成オプション「補助物資」"
+
+msgid "passive_engineering/longDescr"
+msgstr "陣地の占領速度と占領リセットの効率を向上させるほか、補給サークルのクールダウン時間を短縮することで補給速度を加速させる。"
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "この戦闘リザーブは自走砲では使用できない。"
+
+msgid "passive_engineering/name"
+msgstr "工兵"
+
+msgid "passive_engineering/shortDescr"
+msgstr "陣地の占領速度、占領リセットの効率、補給速度を向上させる。"
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "自走砲には不適合"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "パーク「弾薬庫保護」の効果を3倍に向上"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "パーク「弾薬庫保護」を訓練レベル100%で付与"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "パーク「弾薬庫保護」を訓練レベル100%で搭乗員に付与し、弾薬庫の耐久性を向上させる。パークをすでに100%まで訓練済みの場合は、その効果を向上させる。"
+
+msgid "pedantBattleBooster/name"
+msgstr "砲弾の整頓"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "パーク「弾薬庫保護」を訓練レベル100%で付与する、またはその効果を向上させる。"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "座標を指定して砲兵による集中射撃を行うことで半径{colorTagOpen}%(radius)d m{colorTagClose}以内の全車輌に{colorTagOpen}%(damage)dHP{colorTagClose}のダメージと{colorTagOpen}%(stunDuration)d秒間{colorTagClose}のスタンを誘発する。砲撃開始までに{colorTagOpen}%(delay)d秒{colorTagClose}の配備時間を要する。"
+
+msgid "poi_artillery_aoe/name"
+msgstr "アーティーストライク"
+
+msgid "poi_radar/descr"
+msgstr "{colorTagOpen}%(duration)d秒{colorTagClose}が経過するまで全敵車輌を発見状態にする。"
+
+msgid "poi_radar/name"
+msgstr "ディビジョンレーダー"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "パーク「能率的収納」の効果を2倍に向上"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "パーク「能率的収納」を訓練レベル100%で付与"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "パーク「能率的収納」を訓練レベル100%で搭乗員に付与し、消耗品のクールダウン時間を短縮する。パークをすでに100%まで訓練済みの場合には、その効果を向上させる。"
+
+msgid "practicalityBattleBooster/name"
+msgstr "万全の準備"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "パーク「能率的収納」を訓練レベル100%で付与する、またはその効果を向上させる。"
+
+msgid "qualityFuel/always"
+msgstr "エンジン出力および砲塔旋回速度%(vehicleEnginePower)s"
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} エンジン出力および砲塔旋回速度を向上させる。"
+
+msgid "qualityFuel/long_special"
+msgstr "エンジン出力と砲塔旋回速度を{colorTagOpen}5%{colorTagClose}向上させる。戦闘開始時に自動的に発動され、戦闘が終了すると消費される。"
+
+msgid "qualityFuel/name"
+msgstr "高級燃料"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "エンジン出力と砲塔旋回速度{colorTagOpen}+5%{colorTagClose}"
+
+msgid "radar/descr"
+msgstr "敵車輌やアイテムを探知してミニマップ上に表示する。"
+
+msgid "radar/name"
+msgstr "無線探知"
+
+msgid "rammer/long_special"
+msgstr "発射速度を向上させる。発射速度は最も重要な特性値の1つであるため、優先的に搭載を検討すべき拡張パーツ。弾倉式装填システムを備えた車輌には搭載できない。"
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s 「装填棒」系の拡張パーツ（砲種、口径を問わず）を搭載した際の装填時間"
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "1回の戦闘に限り「装填棒」系の拡張パーツの効果を向上させる。対象の拡張パーツが車輌に搭載されている場合にしか効果を発揮しない。"
+
+msgid "rammerBattleBooster/name"
+msgstr "弾薬庫の改良"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "装填の改良の効果を向上させる。"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "パーク「指定された目標」の効果 x2"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "パーク「指定された目標」を訓練レベル100%で付与"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "パーク「指定された目標」を100%の訓練レベルで搭乗員に付与し、敵車輌の発見状態持続時間を2秒間延長する。パークをすでに100%まで訓練済みの場合には、その効果を向上させる。"
+
+msgid "rancorousBattleBooster/name"
+msgstr "目標注視"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "パーク「指定された目標」を訓練レベル100%で付与する、またはその効果を向上させる。"
+
+msgid "ration/always"
+msgstr "全搭乗員の職能適性に%(crewLevel)sのボーナス"
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}のボーナスを職能適性に加算"
+
+msgid "ration/long_special"
+msgstr "戦闘開始時に自動的に発動され、戦闘が終了すると消費される。ソ連車輌でのみ使用可能。"
+
+msgid "ration/name"
+msgstr "予備戦闘糧食"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "ソ連車輌にしか搭載できません。"
+
+msgid "ration/short_special"
+msgstr "ソ連の搭乗員の能力を向上させる。"
+
+msgid "ration_china/always"
+msgstr "全搭乗員の職能適性に%(crewLevel)sのボーナス"
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}のボーナスを職能適性に加算"
+
+msgid "ration_china/long_special"
+msgstr "戦闘開始時に自動的に発動され、戦闘が終了すると消費される。中国車輌でのみ使用可能。"
+
+msgid "ration_china/name"
+msgstr "改良型戦闘糧食"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "中国車輌にしか搭載できません。"
+
+msgid "ration_china/short_special"
+msgstr "中国の搭乗員の能力を向上させる。"
+
+msgid "ration_czech/always"
+msgstr "全搭乗員の職能適性に%(crewLevel)sのボーナス"
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}のボーナスを職能適性に加算"
+
+msgid "ration_czech/long_special"
+msgstr "戦闘開始時に自動的に発動され、戦闘が終了すると消費される。チェコスロバキア車輌でのみ使用可能。"
+
+msgid "ration_czech/name"
+msgstr "ブフテルン"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "チェコスロバキア車輌にしか搭載できません。"
+
+msgid "ration_czech/short_special"
+msgstr "チェコスロバキアの搭乗員の能力を向上させる。"
+
+msgid "ration_italy/always"
+msgstr "全搭乗員の職能適性に%(crewLevel)sのボーナス"
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}のボーナスを職能適性に加算"
+
+msgid "ration_italy/long_special"
+msgstr "戦闘開始時に自動的に発動され、戦闘が終了すると消費される。イタリア車輌でのみ使用可能。"
+
+msgid "ration_italy/name"
+msgstr "ミートソース・スパゲティ"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "イタリア車輌にしか搭載できません。"
+
+msgid "ration_italy/short_special"
+msgstr "イタリアの搭乗員の能力を向上させる。"
+
+msgid "ration_japan/always"
+msgstr "全搭乗員の職能適性に%(crewLevel)sのボーナス"
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}のボーナスを職能適性に加算"
+
+msgid "ration_japan/long_special"
+msgstr "戦闘開始時に自動的に発動され、戦闘が終了すると消費される。日本車輌でのみ使用可能。"
+
+msgid "ration_japan/name"
+msgstr "おにぎり"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "日本車輌にしか搭載できません。"
+
+msgid "ration_japan/short_special"
+msgstr "日本の搭乗員の能力を向上させる。"
+
+msgid "ration_poland/always"
+msgstr "全搭乗員の職能適性に%(crewLevel)sのボーナス"
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}のボーナスを職能適性に加算"
+
+msgid "ration_poland/long_special"
+msgstr "戦闘開始時に自動的に発動され、戦闘が終了すると消費される。ポーランド車輌でのみ使用可能。"
+
+msgid "ration_poland/name"
+msgstr "パンとスマレッツ"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "ポーランド車輌にしか搭載できません。"
+
+msgid "ration_poland/short_special"
+msgstr "ポーランドの搭乗員の能力を向上させる。"
+
+msgid "ration_sweden/always"
+msgstr "全搭乗員の職能適性に%(crewLevel)sのボーナス"
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}のボーナスを職能適性に加算"
+
+msgid "ration_sweden/long_special"
+msgstr "戦闘開始時に自動的に発動され、戦闘が終了すると消費される。スウェーデン車輌でのみ使用可能。"
+
+msgid "ration_sweden/name"
+msgstr "コーヒーとシナモンパン"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "スウェーデン車輌にしか搭載できません。"
+
+msgid "ration_sweden/short_special"
+msgstr "スウェーデンの搭乗員の能力を向上"
+
+msgid "ration_uk/always"
+msgstr "全搭乗員の職能適性に%(crewLevel)sのボーナス"
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}のボーナスを職能適性に加算"
+
+msgid "ration_uk/long_special"
+msgstr "戦闘開始時に自動的に発動され、戦闘が終了すると消費される。イギリス車輌でのみ使用可能。"
+
+msgid "ration_uk/name"
+msgstr "紅茶とプディング"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "イギリス車輌にしか搭載できません。"
+
+msgid "ration_uk/short_special"
+msgstr "イギリスの搭乗員の能力を向上させる。"
+
+msgid "recon/longDescr"
+msgstr "偵察機に出撃を要請して広範囲の偵察を行う。偵察機の視界内の敵車輌を発見し、一定時間に渡って視認できるようになる。敵の「地雷原」も発見できる。"
+
+msgid "recon/name"
+msgstr "偵察機"
+
+msgid "recon/shortDescr"
+msgstr "敵車輌と地雷原を発見する。"
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} エンジンへのダメージと引き換えにエンジン出力を向上させる。"
+
+msgid "removedRpmLimiter/long_special"
+msgstr "エンジンの耐久性と引き換えに、エンジン出力を{colorTagOpen}10%{colorTagClose} 向上させる。1戦中に繰り返し有効化/無効化できる。中国およびソ連車輌でのみ使用可能。"
+
+msgid "removedRpmLimiter/name"
+msgstr "速度制限装置の解除"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "エンジンへのダメージと引き換えにエンジン出力%(vehicleEnginePower)s（1戦中に繰り返し使用可能）"
+
+msgid "removedRpmLimiter/restriction"
+msgstr "ソ連車輌と中国車輌にしか搭載できません。"
+
+msgid "removedRpmLimiter/short_special"
+msgstr "エンジンへのダメージと引き換えにエンジン出力{colorTagOpen}+10%{colorTagClose}"
+
+msgid "repairpoint/battleDescr"
+msgstr "損傷した全モジュールを修理し、すべてのペナルティーを取り除くとともに、自車輌のHPを毎秒%(healPerTick)s回復する固定エリアを%(timer)s秒間展開する。\n\n*効果範囲内の味方の車輌HPも回復する。"
+
+msgid "repairpoint/descr"
+msgstr "損傷した全モジュールを修理し、すべてのペナルティーを取り除くとともに、自車輌のHPを毎秒%(healPerTick)s回復する固定エリアを%(timer)s秒間展開する。\n\n*効果範囲内の味方の車輌HPも回復する。"
+
+msgid "repairpoint/long_special"
+msgstr "損傷した全モジュールを修理し、スタン効果を解消するとともに、自車輌のHPを毎秒{green_Open}%(healPerTick)s回復{green_Close}する固定エリアを{whiteSpanish_Open}%(timer)s秒間{whiteSpanish_Close}展開する。\n\n*効果範囲内の味方の車輌HPも回復する。"
+
+msgid "repairpoint/name"
+msgstr "修復エリア"
+
+msgid "repairpoint/short_special"
+msgstr "損傷した全モジュールを修理し、スタン効果を解消するとともに、自車輌のHPを毎秒{green_Open}%(healPerTick)s回復{green_Close}する固定エリアを{whiteSpanish_Open}%(timer)s秒間{whiteSpanish_Close}展開する。\n\n*効果範囲内の味方の車輌HPも回復する。"
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "新型砲身 (タイプ1)"
+
+msgid "roleSlot/name"
+msgstr "拡張パーツの第2スロットのカテゴリー"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "耐弾保護システム"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "耐弾保護\nシステム"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "即応式弾薬庫"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "即応式\n弾薬庫"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "量産型汎用履帯"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "量産型\n汎用履帯"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "試作型出力機構"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "試作型\n出力機構"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "試作型強化サスペンション"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "試作型強化\nサスペンション"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "試作型軽量サスペンション"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "試作型軽量\nサスペンション"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "超高強度照準ギア"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "超高強度\n照準ギア"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "視差自動補正装置"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "視差自動\n補正装置"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "超高性能排煙装置"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "超高性能\n排煙装置"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "直角型潜望鏡"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "直角型\n潜望鏡"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "試作型装填装置"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "試作型\n装填装置"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "試作型照準装置"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "試作型\n照準装置"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "強化型動力機構"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "強化型\n動力機構"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "電子式補正装置"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "電子式\n補正装置"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "試作型照準ギア"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "試作型\n照準ギア"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "試作型閉鎖装置"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "試作型\n閉鎖装置"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "軽量型試作車台"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "軽量型\n試作車台"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "重量型試作車台"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "重量型\n試作車台"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "反射防止特殊塗装"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "反射防止\n特殊塗装"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "後進専用追加ギア"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "後進専用\n追加ギア"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "頭上弁式エンジン"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "頭上弁式\nエンジン"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "大型装填補助装置"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "大型装填\n補助装置"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "耐衝撃装甲材"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "耐衝撃\n装甲材"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "軽量型装甲材"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "軽量型\n装甲材"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "取付式緩衝装置"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "取付式\n緩衝装置"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "軽量型試作砲架"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "軽量型\n試作砲架"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "代替配線構造 (タイプ1)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "代替配線構造\n(タイプ1)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "代替配線構造 (タイプ2)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "代替配線構造\n(タイプ2)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "増強型車台構造"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "増強型\n車台構造"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "軽量型車台構造"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "軽量型\n車台構造"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "試作型動力機構"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "試作型\n動力機構"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "自動装填加速装置"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "自動装填\n加速装置"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "重量型戦車砲"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "重量型\n戦車砲"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "軽量型戦車砲"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "軽量型\n戦車砲"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "代替動力機構 (タイプ1)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "代替動力機構\n(タイプ1)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "代替動力機構 (タイプ2)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "代替動力機構\n(タイプ2)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "増強型車体構造"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "増強型\n車体構造"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "軽量型車体構造"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "軽量型\n車体構造"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "反射防止用光学薄膜"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "反射防止用\n光学薄膜"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "外部拡張式観測装置"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "外部拡張式\n観測装置"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "パノラマ式観測装置"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "パノラマ式\n観測装置"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "狭角型観測装置"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "狭角型\n観測装置"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "耐衝撃車台構造"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "耐衝撃\n車台構造"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "拡張型戦闘室"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "拡張型\n戦闘室"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "偵察性能強化装備"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "偵察性能\n強化装備"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "保護性能強化装備"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "保護性能\n強化装備"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "生存性強化システム"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "生存性\n強化システム"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "試作型照準補正装置"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "試作型\n照準補正装置"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "拡張型観測装置"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "拡張型\n観測装置"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "増強型エンジン継手"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "増強型\nエンジン継手"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "試作型装填装置"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "試作型\n装填装置"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "試作型照準装置"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "試作型\n照準装置"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "強化型動力機構"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "強化型\n動力機構"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "電子式補正装置"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "電子式\n補正装置"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "試作型閉鎖装置"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "試作型\n閉鎖装置"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "試作型照準ギア"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "試作型\n照準ギア"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "試作型噴射装置"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "試作型\n噴射装置"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "超精密観測装置"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "超精密\n観測装置"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "モジュール保護装置"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "モジュール\n保護装置"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "軽合金製試作砲架"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "軽合金製\n試作砲架"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "試作型閉鎖装置"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "試作型\n閉鎖装置"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "試作型照準ギア"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "試作型\n照準ギア"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "燃料噴射用試作ノズル"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "燃料噴射用\n試作ノズル"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "高精密観測装置"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "高精密\n観測装置"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "増強型補助転輪"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "増強型\n補助転輪"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "軽量型補助転輪"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "軽量型\n補助転輪"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "試作型アーム"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "試作型\nアーム"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "高出力エンジン"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "高出力\nエンジン"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "燃料噴射用大型ノズル"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "燃料噴射用\n大型ノズル"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "超大容量排煙装置"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "超大容量\n排煙装置"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "姿勢制御装置 (タイプ1)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "姿勢制御装置\n(タイプ1)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "姿勢制御装置 (タイプ2)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "姿勢制御装置\n(タイプ2)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "試作型装填装置"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "試作型\n装填装置"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "試作型照準装置"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "試作型\n照準装置"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "耐衝撃メカニズム"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "耐衝撃\nメカニズム"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "軽量型モジュール"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "軽量型\nモジュール"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "全地盤対応型サスペンション"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "全地盤対応型\nサスペンション"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "軽量型サスペンション"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "軽量型\nサスペンション"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "視差自動補正装置"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "視差自動\n補正装置"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "超高強度照準ギア"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "超高強度\n照準ギア"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "試作型緩衝材"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "試作型\n緩衝材"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "電子式潜望鏡"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "電子式\n潜望鏡"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "強化型バルブ (タイプ1)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "強化型バルブ\n(タイプ1)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "強化型バルブ (タイプ2)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "強化型バルブ\n(タイプ2)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "試作型装填装置"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "試作型\n装填装置"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "試作型照準装置"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "試作型\n照準装置"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "増強型耐衝撃システム"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "増強型\n耐衝撃システム"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "軽量型耐衝撃システム"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "軽量型\n耐衝撃システム"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "モジュール保護装置"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "モジュール\n保護装置"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "軽合金製試作砲架"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "軽合金製\n試作砲架"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "増強型アーム"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "増強型\nアーム"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "照準自動補正装置"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "照準自動\n補正装置"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "高出力圧縮機"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "高出力\n圧縮機"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "無反射前照灯"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "無反射\n前照灯"
+
+msgid "selfBuff/battleDescr"
+msgstr "%(duration)s秒間、散布界を縮小し、照準時間を%(gunAimingTime)s短縮するとともに、主砲の安定性と発射速度を向上させる。\n\n*弾倉や挿弾子の連射間隔には影響しない。"
+
+msgid "selfBuff/descr"
+msgstr "%(duration)s秒間、散布界を縮小し、照準時間を%(gunAimingTime)s短縮するとともに、主砲の安定性と発射速度を向上させる。\n\n*弾倉や挿弾子の連射間隔には影響しない。"
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}%(duration)s秒間{whiteSpanish_Close}、散布界を縮小し、照準時間を{green_Open}%(gunAimingTime)s{green_Close}短縮するとともに、主砲の安定性と発射速度を向上させる。\n\n*弾倉や挿弾子の連射間隔には影響しない。"
+
+msgid "selfBuff/name"
+msgstr "照準ブースト"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}%(duration)s秒間{whiteSpanish_Close}、散布界を縮小し、照準時間を{green_Open}%(gunAimingTime)s{green_Close}短縮するとともに、主砲の安定性と発射速度を向上させる。\n\n*弾倉や挿弾子の連射間隔には影響しない。"
+
+msgid "shells_consumables_switch/name"
+msgstr "代替構成オプション「必須物資」"
+
+msgid "shotPassion/battleDescr"
+msgstr "%(duration)s秒の間、砲操作性と安定性を%(gunAimingTime)s低下させるが、砲弾を貫通させるたびに与ダメージを%(damageIncreasePerShot)s向上させる。効果は5つまでスタックされる。砲撃が外れた場合や、着弾したもののダメージを与えなかった場合は、与ダメージへのボーナスのスタックが0にリセットされる。\n\n*アビリティー「電磁エリア」によるダメージも、ボーナスのスタックに加算される。"
+
+msgid "shotPassion/descr"
+msgstr "%(duration)s秒の間、主砲の操作性と安定性が%(gunAimingTime)s低下する代わりに、砲弾を貫通させるたびに与ダメージを%(damageIncreasePerShot)s向上させる。効果は5回までスタックされる。砲撃が外れた場合や、着弾したもののダメージを与えなかった場合は、与ダメージへのボーナスのスタックが0にリセットされる。\n\n*アビリティー「電磁エリア」によるダメージも、ボーナスのスタックに加算される。"
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}の間、砲操作性と安定性を{red_Open}%(gunAimingTime)s{red_Close}低下させるが、砲弾を貫通させるたびに与ダメージを{green_Open}%(damageIncreasePerShot)s{green_Close}向上させる。効果は{whiteSpanish_Open}5つまで{whiteSpanish_Close}スタックされる。砲撃が外れた場合や、着弾したもののダメージを与えなかった場合は、与ダメージへのボーナスのスタックが0にリセットされる。\n\n*アビリティー「電磁エリア」によるダメージも、ボーナスのスタックに加算される。"
+
+msgid "shotPassion/name"
+msgstr "ダメージ特化"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}の間、砲操作性と安定性を{red_Open}%(gunAimingTime)s{red_Close}低下させるが、砲弾を貫通させるたびに与ダメージを{green_Open}%(damageIncreasePerShot)s{green_Close}向上させる。効果は{whiteSpanish_Open}5つまで{whiteSpanish_Close}スタックされる。砲撃が外れた場合や、着弾したもののダメージを与えなかった場合は、与ダメージへのボーナスのスタックが0にリセットされる。\n\n*アビリティー「電磁エリア」によるダメージも、ボーナスのスタックに加算される。"
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "「第六感」の発動を1秒早める"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "車長は特性「第六感」により自車輌が発見されたか否かを把握できるようになってます。「第六感」はデフォルトでは自車輌が発見されてから3秒後に効果が発動します。"
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "車長の特性「第六感」が発動するまでの時間を短縮し、敵に発見された際により素早く察知できるようにする。"
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "感応"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "車長の特性「第六感」が発動するまでの時間を短縮する。"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "負傷した搭乗員全員を治療し、スタン効果を解消する。"
+
+msgid "smallMedkit/long_special"
+msgstr "使用することで全搭乗員を治療し、スタン効果を解消する。国家や車輌タイプを問わず搭載可能。戦闘中に1度でも使用した場合、消費される。"
+
+msgid "smallMedkit/name"
+msgstr "救急キット (小)"
+
+msgid "smallMedkit/onUse"
+msgstr "負傷した搭乗員全員を治療し、スタン効果を解消する。"
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "負傷した搭乗員全員を治療し、スタン効果を解消する。"
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "負傷した搭乗員全員を治療し、スタン効果を解消する。"
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "損傷したすべてのモジュールを修理する。"
+
+msgid "smallRepairkit/long_special"
+msgstr "損傷したすべてのモジュールを即時に修理する。1戦中に繰り返し使用可能。1度でも使用した場合、戦闘終了後に消費される。"
+
+msgid "smallRepairkit/name"
+msgstr "修理キット (小)"
+
+msgid "smallRepairkit/onUse"
+msgstr "損傷したすべてのモジュールを修理する。1戦中に繰り返し使用可能。1度でも使用した場合、戦闘終了後に消費される。"
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "損傷したすべてのモジュールを修理する。"
+
+msgid "smoke/longDescr"
+msgstr "内側および後ろの全車輌を覆い隠す煙幕を展開する。敵が展開した煙幕の内側では視認範囲が縮小すると同時に搭乗員の能力が低下する。"
+
+msgid "smoke/name"
+msgstr "煙幕"
+
+msgid "smoke/shortDescr"
+msgstr "煙幕を張り、内側と後方の車輌を隠す。範囲内の敵の視界と搭乗員の能力が下がる。"
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "パーク「スムーズな運転」の効果 x2"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "パーク「スムーズな運転」を訓練レベル100%で付与"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "パーク「スムーズな運転」を訓練レベル100%で搭乗員に付与し、移動中の射撃精度を向上させる。パークをすでに100%まで訓練済みの場合にはその効果を向上させる。"
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "ギアボックス調整"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "パーク「スムーズな運転」を訓練レベル100%で付与する、またはその効果を向上させる。"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "パーク「速射」の効果 x2"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "パーク「速射」を訓練レベル100%で付与"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "パーク「速射」を訓練レベル100%で搭乗員に付与し、砲塔旋回中の射撃精度を向上させる。パークをすでに100%まで訓練済みの場合には、その効果を向上させる。"
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "精密射撃"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "パーク「速射」を訓練レベル100%で付与する、またはその効果を向上させる。"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "直近の敵車輌を最長%(botLifeTime)s秒追跡し、爆発により小範囲に400～600HPのダメージを与える自動追尾型の爆弾を起動する。\n\n*「自動追尾爆弾」は敵の砲撃または体当たりを受けると破壊される。目標に到達すると、追加の体当たりダメージを与える。"
+
+msgid "spawn_kamikaze/descr"
+msgstr "直近の敵車輌を最長%(botLifeTime)s秒追跡し、爆発により小範囲に400～600HPのダメージを与える自動追尾型の爆弾を起動する。\n\n*「自動追尾爆弾」は敵の砲撃または体当たりを受けると破壊される。目標に到達すると、追加の体当たりダメージを与える。"
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "直近の敵車輌を最長{whiteSpanish_Open}%(botLifeTime)s秒{whiteSpanish_Close}追跡し、爆発により小範囲に{whiteSpanish_Open}400～600HPのダメージ{whiteSpanish_Close}を与える自動追尾型の爆弾を起動する。\n\n*「自動追尾爆弾」は敵の砲撃または体当たりを受けると破壊される。目標に到達すると、追加の体当たりダメージを与える。"
+
+msgid "spawn_kamikaze/name"
+msgstr "自動追尾爆弾"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "直近の敵車輌を最長{whiteSpanish_Open}%(botLifeTime)s秒{whiteSpanish_Close}追跡し、爆発により小範囲に{whiteSpanish_Open}400～600HPのダメージ{whiteSpanish_Close}を与える自動追尾型の爆弾を起動する。\n\n*「自動追尾爆弾」は敵の砲撃または体当たりを受けると破壊される。目標に到達すると、追加の体当たりダメージを与える。"
+
+msgid "stealthRadar/descr"
+msgstr "自車輌の隠蔽率と視認範囲にボーナスを加算すると同時に敵車輌の隠蔽率を低下させる。"
+
+msgid "stealthRadar/long_descr"
+msgstr "敵車輌の隠蔽率を低下させるほか、移動停止から%(activationDelay)s秒経過後の自車輌の隠蔽率を向上させる。また視認範囲にボーナスを加算し、敵の「地雷原」の発見を容易にする。移動中は効果を発揮しない。"
+
+msgid "stealthRadar/name"
+msgstr "索敵改修"
+
+msgid "stealthRadar/short_descr"
+msgstr "自車輌の隠蔽率と視認範囲を向上させると同時に敵車輌の隠蔽率を低下させる。"
+
+msgid "stereoscope/battleDescr"
+msgstr "移動停止から3秒経過後に視認範囲を拡大する（最大445m）。"
+
+msgid "stereoscope/long_special"
+msgstr "移動停止から3秒経過後に視認範囲を拡大する。視認範囲は戦闘を有利に進める上で最も重要なパラメーターのひとつと言える。車高が低く高精度の主砲を備えた狙撃型の駆逐戦車や、茂みに身を潜めて偵察を行う軽戦車にとって特に重要になる。"
+
+msgid "stereoscope/name"
+msgstr "双眼鏡"
+
+msgid "stereoscope_tier1/name"
+msgstr "双眼鏡 クラス1"
+
+msgid "stereoscope_tier2/name"
+msgstr "双眼鏡 クラス2"
+
+msgid "stereoscope_tier3/name"
+msgstr "双眼鏡 クラス3"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "新型代替サスペンション (タイプ1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "新型代替サスペンション (タイプ2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "新型旋回補助装置 (タイプ1)"
+
+msgid "tankRammer/name"
+msgstr "装填棒"
+
+msgid "tankRammer_tier1/name"
+msgstr "装填棒 クラス1"
+
+msgid "tankRammer_tier2/name"
+msgstr "装填棒 クラス2"
+
+msgid "thunderStrike/battleDescr"
+msgstr "電磁波を発生させることで効果範囲内に%(thunderCount)s回の放電を起こし、敵車輌に対して%(damage)sHPのダメージを与えると同時に一時的に機動性を低下させる。\n\n*アビリティーの発動から最初の放電まで%(delay)s秒を要する。このアビリティーが与えるペナルティーは「修理キット」で取り除くことができる。"
+
+msgid "thunderStrike/descr"
+msgstr "電磁波を発生させることで効果範囲内に%(thunderCount)s回の放電を起こし、敵車輌に対して%(damage)sHPのダメージを与えると同時に一時的に機動性を低下させる。\n\n*アビリティーの発動から最初の放電まで%(delay)s秒を要する。このアビリティーが与えるペナルティーは「修理キット」で取り除くことができる。"
+
+msgid "thunderStrike/longDescr"
+msgstr "電磁波を発生させることで効果範囲内に%(thunderCount)s回の放電を起こし、敵車輌に対して{whiteSpanish_Open}%(damage)sHPのダメージ{whiteSpanish_Close}を与えると同時に一時的に機動性を低下させる。\n\n*アビリティーの発動から最初の放電まで%(delay)s秒を要する。このアビリティーが与えるペナルティーは「修理キット」で取り除くことができる。"
+
+msgid "thunderStrike/name"
+msgstr "電磁エリア"
+
+msgid "thunderStrike/shortDescr"
+msgstr "電磁波を発生させることで効果範囲内に%(thunderCount)s回の放電を起こし、敵車輌に対して{whiteSpanish_Open}%(damage)sHPのダメージ{whiteSpanish_Close}を与えると同時に一時的に機動性を低下させる。\n\n*アビリティーの発動から最初の放電まで%(delay)s秒を要する。このアビリティーが与えるペナルティーは「修理キット」で取り除くことができる。"
+
+msgid "trappoint/battleDescr"
+msgstr "%(duration)s秒の間、効果範囲内にいるすべての敵車輌の機動性を%(vehicleMaxSpeed)s低下させ、主砲の装填および照準時間を%(gunReloadTime)s延長させるエリアを展開する。"
+
+msgid "trappoint/descr"
+msgstr "%(duration)s秒の間、効果範囲内にいるすべての敵車輌の機動性を%(vehicleMaxSpeed)s低下させ、主砲の装填および照準時間を%(gunReloadTime)s低下させるエリアを展開する。"
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}の間、効果範囲内にいるすべての敵車輌の機動性を{whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close}、主砲の装填および照準時間を{whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close}低下させるエリアを展開する。"
+
+msgid "trappoint/name"
+msgstr "トラップ"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}の間、効果範囲内にいるすべての敵車輌の機動性を{whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close}低下させ、主砲の装填および照準時間を{whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close}延長させるエリアを展開する。"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "移動中および静止中の車輌の隠蔽率を向上させる。走りながら偵察を行う場合だけでなく、危険地帯に潜伏して偵察を行う際にも有用。ボーナス値は車輌タイプにより異なる。"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "報酬排気システム"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "移動中および静止中の車輌の隠蔽率を向上させる。"
+
+msgid "trophyBasicAimDrives/name"
+msgstr "報酬射撃装置"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "照準時間を加速させることで射撃精度を向上させる。"
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "報酬安定装置"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "射撃、移動、車体旋回、主砲旋回に伴う散布界の拡大を軽減する。"
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "報酬レンズ"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "移動中および静止中の車輌の視認範囲を拡大する。"
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "修理時にサスペンションの耐久性を最大値まで回復させる。"
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "修理時にサスペンションの耐久性を回復させる。"
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "車輌HPと修理速度を向上させる。また、衝撃によるサスペンションの損傷時に車体が受けるダメージを軽減するほか、被弾時の履帯切断率を低下させる。さらに、修理時にはサスペンションの耐久性を最大値まで回復させる。"
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "報酬装甲材"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "車輌HPを向上させ、サスペンションを保護する。"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "報酬モジュール構造"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "報酬旋回機構"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "照準サークルのサイズを縮小することで、収束中、または完全に収束済みの主砲の射撃精度を向上させる。"
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "報酬照準器"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "散布界を縮小する。"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "報酬換気装置"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "搭乗員の能力を向上させることで、車輌性能の大部分を上昇させる。"
+
+msgid "trophyBasicTankRammer/name"
+msgstr "報酬装填棒"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "装填速度を加速させる。クラスの制限なし。"
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "エンジン出力を上昇させる。最大速度、後退速度、加速力、俊敏性、登坂性能がすべて向上するため、要所の素早い確保や、敵の反撃の回避が可能となる。"
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "報酬ターボチャージャー"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "エンジン出力の上昇により最大速度を向上させる。"
+
+msgid "trophyOptics/descr"
+msgstr "視認範囲を{colorTagOpen}10%{colorTagClose} {arrow}拡大する（最大445m）。"
+
+msgid "trophyOptics/name"
+msgstr "報酬レンズ"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "報酬排気システム"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "報酬射撃装置"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "報酬安定装置"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "報酬レンズ"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "修理時にサスペンションの耐久性を最大値まで回復させる。"
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "修理時にサスペンションの耐久性を回復させる。"
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "報酬装甲材"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "報酬モジュール構造"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "報酬旋回機構"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "報酬照準器"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "報酬換気装置"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "報酬装填棒"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "報酬ターボチャージャー"
+
+msgid "turbocharger/long_special"
+msgstr "エンジン出力を上昇させる。最大速度、後退速度、加速力、俊敏性、登坂性能がすべて向上するため、要所の素早い確保や、敵の反撃の回避が可能となる。"
+
+msgid "turbocharger/name"
+msgstr "ターボチャージャー"
+
+msgid "turbocharger/short_special"
+msgstr "エンジン出力の上昇により最大速度を向上させる。"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s 「ターボチャージャー」系の拡張パーツまたは「機動性強化システム」を搭載した際のエンジン出力"
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "1回の戦闘に限り「ターボチャージャー」系の拡張パーツの効果を向上させる。対象の拡張パーツが車輌に搭載されている場合にしか効果を発揮しない。"
+
+msgid "turbochargerBattleBooster/name"
+msgstr "燃料フィルターの交換"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "エンジン出力を向上させる。"
+
+msgid "turbocharger_tier1/name"
+msgstr "ターボチャージャー クラス1"
+
+msgid "turbocharger_tier2/name"
+msgstr "ターボチャージャー クラス2"
+
+msgid "turbocharger_tier3/name"
+msgstr "ターボチャージャー クラス3"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "パーク「クラッチの名手」の効果 x2"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "パーク「クラッチの名手」を訓練レベル100%で付与"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "パーク「クラッチの名手」を訓練レベル100%で搭乗員に付与し、静止中および移動中の車体の旋回速度を向上させる。パークをすでに100%まで訓練済みの場合には、その効果を向上させる。"
+
+msgid "virtuosoBattleBooster/name"
+msgstr "早業"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "パーク「クラッチの名手」を訓練レベル100%で付与する、またはその効果を向上させる。"

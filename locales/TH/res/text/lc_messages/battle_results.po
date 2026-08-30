@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "ทั้งหมด"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "การรบนี้น่าพึงพอใจกว่า, สมดุลดีกว่าหรือสนุกมากกว่าปกติ"
+
+msgid "battleRating/tooltip/better/header"
+msgstr "ดีกว่าปกติ"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "การรบแบบปกติ ไม่มีอะไรที่ไม่คาดฝันเกิดขึ้น"
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "ปกติ"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "การรบนี้ถือว่าน่าหงุดหงิด, ไม่สมดุลหรือไม่ยุติธรรมกว่าปกติ"
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "แย่กว่าปกติ"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "ดีกว่าปกติ"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "ให้คะแนนการรบของคุณ:"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "ปกติ"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "แย่กว่าปกติ"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "เรียงตามคะแนนเกียรติภูมิ"
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "คะแนนเกียรติภูมิ"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "ภาพรวม"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "รายงานการเงิน"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "ความก้าวหน้าภารกิจ"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "คะแนนของทีม"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "เรียงตามคะแนนเกียรติภูมิ คะแนนเกียรติภูมินัั้นจะมีผลต่อคะแนนจัดอันดับที่ได้และเสียในการรบ"
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "คะแนนเกียรติภูมิ"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "พันธมิตร:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "การป้องกันฐาน"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "การยึดฐาน"
+
+msgid "common/battleEfficiency/bases"
+msgstr "ฐานทัพ"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "การยึดฐาน"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "ฐานทัพเป็นกลาง"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "คุณไม่ได้ดำเนินการใดๆในการรบนี้"
+
+msgid "common/battleEfficiency/none"
+msgstr "ไม่มีพาหนะข้าศึกถูกทำลายหรือถูกตรวจจับได้"
+
+msgid "common/battleEfficiency/technique"
+msgstr "พาหนะ"
+
+msgid "common/battleEfficiency/title"
+msgstr "สมรรถนะการรบ"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "ผลงานการรบ"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "ผลงานการรบ (รวมถึงทักษะที่ใช้ไป)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "สมรรถนะการรบ (ไม่รวมกำลังสำรองรบ)"
+
+msgid "common/battleType/sortie"
+msgstr "การปะทะกับกองทัพ "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "ความสามารถใหม่"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "ซื้อบัญชีพิเศษ"
+
+msgid "common/details/creditsTitle"
+msgstr "เงิน"
+
+msgid "common/details/crystal"
+msgstr "พันธบัตร"
+
+msgid "common/details/getPremBtn"
+msgstr "รายละเอียด"
+
+msgid "common/details/noPremTitle"
+msgstr "บัญชีปกติ"
+
+msgid "common/details/premTitle"
+msgstr "บัญชีพิเศษ WoT"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}ใช้โบนัสประสบการณ์ x{{multiplier}} กับการรบที่ชนะด้วยบัญชีพิเศษ WoT{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}รับเงินได้ถึง {{bonusCredits}}จากในแต่ละ {{@ style}}{{durationInDays}} วัน{{/}}ด้วยบัญชีพิเศษ WoT{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "ใช้โบนัสประสบการณ์ x%(multiplier)d กับการรบที่ชนะด้วยบัญชีพิเศษ WoT"
+
+msgid "common/details/premiumPlus/credits"
+msgstr "รับเงินได้ถึง %(bonusCredits)s จากในแต่ละ %(durationInDays)d วันด้วยบัญชีพิเศษ WoT"
+
+msgid "common/details/premiumPlus/premium"
+msgstr "ประสบการณ์เพิ่มเติม เงิน ภารกิจพิเศษ และโบนัสหมวดรถถังด้วยบัญชีพิเศษ WoT"
+
+msgid "common/details/premiumPlus/quests"
+msgstr "ปลดล็อคภารกิจพิเศษด้วยบัญชีพิเศษ WoT"
+
+msgid "common/details/premiumPlus/squad"
+msgstr "ได้รับเงินมากกว่าเดิมเมื่อเล่นหมวดรถถังด้วยบัญชีพิเศษ WoT"
+
+msgid "common/details/xpTitle"
+msgstr "ประสบการณ์"
+
+msgid "common/details/xpTitleSquad"
+msgstr "ประสบการณ์ %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "การซื้อชิ้นส่วน"
+
+msgid "common/fitting/research"
+msgstr "การวิจัยชิ้นส่วน"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "ระยะการรบหลัก:"
+
+msgid "common/missions/noProgress/button"
+msgstr "ไปยังภารกิจ"
+
+msgid "common/missions/noProgress/description"
+msgstr "ดูความก้าวหน้าภารกิจปัจจุบัน"
+
+msgid "common/missions/noProgress/header"
+msgstr "ไม่มีความก้าวหน้าในภารกิจหรือการวิจัยพาหนะ"
+
+msgid "common/newSkillPrediction"
+msgstr "เหลือการรบอีก (โดยประมาณ): %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "ภายหลังที่คุณได้ทำการรบ 10 ครั้ง คุณจะไม่สามารถได้รับเงิน ค่าประสบการณ์ หรือรางวัลในการรบรูปแบบนี้อีก และผลการรบจะไม่ถูกบันทึกในบันทึกประจำการ"
+
+msgid "common/noIncome/alert/title"
+msgstr "โปรดทราบ!"
+
+msgid "common/noProgress"
+msgstr "ไม่มีความคืบหน้าในภารกิจ การวิจัยพาหนะ และการฝึกพลรถถัง"
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "ช่วงทดเวลา:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "ปลดล็อคเพิ่มด้วย"
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "คุณได้รับในวันนี้:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "วันนี้คุณได้รับประสบการณ์ %(count)s หน่วย"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "ปลดล็อคด้วย WoT Plus หรือบัญชีพิเศษ WoT"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT Plus"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "บัญชีพิเศษ WoT"
+
+msgid "common/plusBonus/youRock"
+msgstr "คุณเจ๋งมาก!"
+
+msgid "common/premiumBonus"
+msgstr "อยากได้มากกว่านี้ไหม?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "ใช้งานโบนัสเรียบร้อย"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "ใช้งาน"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "เหลือในวันนี้: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "ตัวคุณประสบการณ์จัดการได้"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "อยากได้มากกว่านี้ไหม?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "จะต้องใช้กับการรบล่าสุดในพาหนะคันเดียวกัน"
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "ไม่สามารถใช้โบนัสได้: ปิดการเร่งฝึกพลรถถังเอาไว้อยู่"
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}ไม่สามารถใช้โบนัสได้: ปิดการเร่งฝึกพลรถถัง{{@ style}}เอาไว้อยู่{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "ไม่สามารถใช้โบนัสได้: เปิดการเร่งฝึกพลรถถังเอาไว้อยู่"
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}ไม่สามารถใช้โบนัสได้: เปิดการเร่งฝึกพลรถถัง{{@ style}}เอาไว้อยู่{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "ตัวคูณสามารถใช้ได้กับการรบที่ชนะเท่านั้น ขอให้โชคดีในครั้งหน้า!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "ไม่สามารถใช้โบนัสแบบจัดการได้: ไม่พบพาหนะ"
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}ไม่สามารถใช้โบนัสแบบจัดการได้: ไม่พบ{{@ style}}พาหนะ {{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "ไม่สามารถใช้โบนัสแบบจัดการได้: ไม่พบพลรถถัง"
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}ไม่สามารถใช้โบนัสแบบจัดการได้: ไม่พบ{{@ style}}พลรถถัง{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "ตัวคูณไม่มีให้ในรูปแบบเกมนี้"
+
+msgid "common/progressTitle"
+msgstr "การวิจัยพาหนะและความคืนหน้าภารกิจ"
+
+msgid "common/quests/noprogress"
+msgstr "ไม่มีเหตุการในภารกิจ"
+
+msgid "common/researchPrediction"
+msgstr "เหลือการรบอีก (โดยประมาณ): %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "หาลิงค์"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "จะนับ:\n• กระสุนข้าศึกที่สะท้อน\n• กระสุนที่เจาะไม่เข้า\n\nจะไม่นับการถูกยิงด้วยกระสุนระเบิดแรงสูงและระเบิดแรงสูงกระเทาะเกราะ"
+
+msgid "common/tooltip/armor/header"
+msgstr "ความเสียหายที่กันได้"
+
+msgid "common/tooltip/armor/part1"
+msgstr "การสะท้อน"
+
+msgid "common/tooltip/armor/part2"
+msgstr "เจาะเกราะไม่เข้า"
+
+msgid "common/tooltip/armor/part3"
+msgstr "ความเสียหายที่ถูกบล็อคด้วยเกราะ %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "จะนับชนิดความเสียหายที่พันธมิตร ทำต่อพาหนะข้าศึกดังต่อไปนี้:\n• ความเสียหายจากการชี้เป้าของคุณ\n• ความเสียหายการยิงทำลายตีนตะขาบ และทำให้พาหนะข้าศึกเคลื่อนที่ไม่ได้"
+
+msgid "common/tooltip/assist/header"
+msgstr "ช่วยทำลายย"
+
+msgid "common/tooltip/assist/part1"
+msgstr "ความเสียหายจากการชี้เป้าของคุณ %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "ความเสียหายเมื่อคุณทำลายตีนตะขาบหนึ่งข้างและทำให้พาหนะข้าศึกหนึ่งคันเคลื่อนที่ไม่ได้ %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "ความเสียหายทั้งหมดที่พันธมิตรทำต่อพาหนะข้าศึก %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "จะนับ:\n• คะแนนยึดฐานข้าศึก\n• คะแนนยึดฐานเป็นกลาง"
+
+msgid "common/tooltip/capture/header"
+msgstr "การยึดฐาน"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "คะแนนการยึดฐานทั้งหมด"
+
+msgid "common/tooltip/counter"
+msgstr "จำนวนตราทั้งหมดที่ได้รับในการรบ: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "ตราที่ได้รับในการรบสำหรับพาหนะข้าศึกจำนวน: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "ไม่ได้รับตราดังกล่าวในการรบ"
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "หมดสภาพ:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "ทำให้หมดสภาพ:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "ได้รับบาดเจ็บ:"
+
+msgid "common/tooltip/crits/description"
+msgstr "จะนับ:\n• ความเสียหายของชิ้นส่วนภายใน และภายนอกของพาหนะข้าศึก\n• ชิ้นส่วนภายในและภายนอก ของพาหนะข้าศึกที่ถูกทำลาย\n• พลรถถังพาหนะข้าศึกที่ได้รับบาดเจ็บ"
+
+msgid "common/tooltip/crits/header"
+msgstr "ความเสียหายร้ายแรง"
+
+msgid "common/tooltip/crits/total"
+msgstr "รวม:"
+
+msgid "common/tooltip/damage/description"
+msgstr "จะนับ:\n• ความเสียหายจากการยิง\n• ความเสียหายจากการชน\n• ความเสียหายจากไฟไหม้\n• ความเสียหายจากการกระแทกอย่างรุนแรง"
+
+msgid "common/tooltip/damage/header"
+msgstr "ทำความเสียหาย"
+
+msgid "common/tooltip/damage/part1"
+msgstr "ความเสียหายทั้งหมด %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "จำนวนกระสุนที่เจาะเกราะ"
+
+msgid "common/tooltip/defence/description"
+msgstr "จะนับ:\n• คะแนนป้องกันฐานพันธมิตร\n• คะแนนป้องกันฐานเป็นกลาง"
+
+msgid "common/tooltip/defence/header"
+msgstr "การป้องกันฐาน"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "คะแนนป้องกันฐานทั้งหมด"
+
+msgid "common/tooltip/kill/header"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "common/tooltip/kill0/description"
+msgstr "ยานเกราะข้าศึกถูกทำลายจากกระสุน"
+
+msgid "common/tooltip/kill1/description"
+msgstr "ยานเกราะข้าศึกถูกทำลายโดยเพลิงไหม้"
+
+msgid "common/tooltip/kill2/description"
+msgstr "ยานเกราะข้าศึกถูกทำลายจากการชน"
+
+msgid "common/tooltip/kill3/description"
+msgstr "ยานเกราะข้าศึกชนจนระเบิด"
+
+msgid "common/tooltip/kill4/description"
+msgstr "ยานเกราะข้าศึกถูกทำลายโดยเขตมรณะ"
+
+msgid "common/tooltip/kill5/description"
+msgstr "ยานเกราะข้าศึกจมน้ำ"
+
+msgid "common/tooltip/kill6/description"
+msgstr "ถูกทำลายโดยพายุไฟ"
+
+msgid "common/tooltip/kill7/description"
+msgstr "พาหนะข้าศึกพลิกคว่ำ"
+
+msgid "common/tooltip/killCommon/description"
+msgstr "จะนับ:\n• การทำลายจากการยิง\n• การทำลายจากไฟไหม้\n• การทำลายจากการพุ่งชน\n• การทำลายจากการจมน้ำ\n• การทำลายจากการผลักพาหนะข้าศึกตกจากที่สูง\n• การทำลายจากการพลิกคว่ำ"
+
+msgid "common/tooltip/params/val"
+msgstr "(HP)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(วิ)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "จะนับการตรวจพบพาหนะข้าศึกคันแรกเท่านั้น"
+
+msgid "common/tooltip/spotted/header"
+msgstr "การชี้เป้า"
+
+msgid "common/tooltip/stun/description"
+msgstr "ความเสียหายที่นับ:\n• ที่พันธมิตรทำต่อพาหนะข้าศึกที่คุณทำให้อยู่ในสภาวะมึนงง"
+
+msgid "common/tooltip/stun/header"
+msgstr "มึนงง"
+
+msgid "common/tooltip/stun/part1"
+msgstr "ความเสียหายทั้งหมด %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "จำนวนการมึนงง"
+
+msgid "common/tooltip/stun/part3"
+msgstr "ระยะเวลารวมการทำให้มึนงง: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "ยานเกราะพันธมิตรถูกทำลาย"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "ำพันธมิตรทำลายได้"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "ยานเกราะพันธมิตรถูกทำลายโดยกระสุน"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "ยานเกราะพันธมิตรถูกทำลายโดยเพลิงไหม้"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "ยานเกราะพันธมิตรถูกทำลายจากการถูกชน"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "ยานเกราะพันธมิตรถูกทำลายโดยการชน"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "ยานเกราะพันธมิตรถูกทำลายโดยเขตมรณะ"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "ยานเกราะพันธมิตรจมน้ำ"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "คุณได้รับประสบการณ์เพิ่มเติมจากการออกรบครั้งนี้ในหมวดรถถัง"
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "การสะท้อน"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "เจาะเกราะไม่เข้า"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "ความเสียหายที่กันด้วยเกราะ"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "ความเสียหายจากการชี้เป้า"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "ความเสียหายเมื่อคุณทำลายตีนตะขาบหนึ่งข้างและทำให้พาหนะข้าศึกหนึ่งคันเคลื่อนที่ไม่ได้"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "ความเสียหายทั้งหมดที่พันธมิตรทำต่อพาหนะข้าศึก"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "ความเสียหายรวม"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "จำนวนกระสุนที่เจาะเกราะ"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "ความเสียหายรวม"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "จำนวนการมึนงง"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "ระยะเวลารวมการทำให้มึนงง"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "การซื้อพาหนะ"
+
+msgid "common/vehicle/research"
+msgstr "การวิจัยพาหนะ"
+
+msgid "common/vehicleState/alive"
+msgstr "รอดจากการรบ"
+
+msgid "common/vehicleState/dead0"
+msgstr "ถูกทำลายจากกระสุน"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "ถูกทำลายโดยกระสุน ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "ถูกทำลายโดยกระสุน ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "ถูกทำลายโดยเพลิงไหม้"
+
+msgid "common/vehicleState/dead12"
+msgstr "ทำลายตัวเอง"
+
+msgid "common/vehicleState/dead13"
+msgstr "ถูกทำลายด้วยทักษะของผู้เล่น"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "ถูกทำลายโดยไฟไหม้ ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "ถูกทำลายโดยไฟไหม้ ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "ถูกทำลายจากการชน"
+
+msgid "common/vehicleState/dead27"
+msgstr "ถูกทำลายโดยการโจมตีปืนใหญ่"
+
+msgid "common/vehicleState/dead29"
+msgstr "ถูกทำลายโดยการชน"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "ถูกทำลายโดยการพุ่งชน ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "ถูกทำลายโดยการพุ่งชน ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "ถูกทำลายโดยการชน"
+
+msgid "common/vehicleState/dead30"
+msgstr "ถูกทำลายจากกระสุน"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "ถูกทำลายโดยกระสุน ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "ถูกทำลายโดยกระสุน ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "ถูกทำลายโดยการชน"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "ชนกระแทก ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "ชนกระแทก ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "ถูกทำลายโดยเขตมรณะ"
+
+msgid "common/vehicleState/dead5"
+msgstr "ยานเกราะจมน้ำ"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "พาหนะจมน้ำ ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "พาหนะจมน้ำ ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "ถูกทำลายโดยพายุไฟ"
+
+msgid "common/vehicleState/dead7"
+msgstr "ถูกทำลายจากการคว่ำ"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "ถูกทำลายจากการคว่ำ ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "ถูกทำลายจากการคว่ำ ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "ออกจากการรบจะสิ้นสุด"
+
+msgid "common/vehicleState/victory"
+msgstr "ชัยชนะ!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "เหลือในวันนี้: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "ได้รับการชมเชยจากการรบนี้"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "พันธมิตร {{var}} คนชมเชยคุณในการรบนี้"
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "พันธมิตร {{var}} คนชมเชยคุณในการรบนี้"
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "ได้รับการชมเชย"
+
+msgid "conditions/type/and"
+msgstr "และ"
+
+msgid "conditions/type/or"
+msgstr "หรือ"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "ได้ลวดลาย \"%(name)s\" ถึงขั้น %(level)s แล้ว"
+
+msgid "customizationProgress/award/received"
+msgstr "ได้รับลวดลาย \"%(name)s\" %(count)s"
+
+msgid "customizationProgress/descr"
+msgstr "ลวดลาย \"%(name)s\" ขั้น %(level)s"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "ประวัติย่อทีม"
+
+msgid "cyberSport/points"
+msgstr "คะแนน:"
+
+msgid "cyberSport/status/lose"
+msgstr "พ่ายแพ้"
+
+msgid "cyberSport/status/tie"
+msgstr "เสมอ"
+
+msgid "cyberSport/status/win"
+msgstr "ชัยชนะ!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "โบนัสประสบการณ์แบบจัดการได้"
+
+msgid "details/calculations/aogasFactor"
+msgstr "การลดค่าสัมประสิทธิ์ (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "เติมคำสั่งโดยอัตโนมัติ"
+
+msgid "details/calculations/autoEquip"
+msgstr "เติมยุทธปัจจัยอัตโนมัติ"
+
+msgid "details/calculations/autoLoad"
+msgstr "เติมกระสุนโดยอัตโนมัติ"
+
+msgid "details/calculations/autoRepair"
+msgstr "ซ่อมแซมยานเกราะอัตโนมัติ"
+
+msgid "details/calculations/autoResupply"
+msgstr "ซื้อเติมอัตโนมัติ"
+
+msgid "details/calculations/base"
+msgstr "ได้รับสำหรับการรบ"
+
+msgid "details/calculations/battlePayments"
+msgstr "ค่าตอบแทนการรบ"
+
+msgid "details/calculations/boosters"
+msgstr "โบนัสกำลังสำรองส่วนตัว"
+
+msgid "details/calculations/crystal/events"
+msgstr "สำหรับการปฏิบัติภารกิจสำเร็จ"
+
+msgid "details/calculations/crystal/total"
+msgstr "สำหรับความสามารถพิเศษของพาหนะ"
+
+msgid "details/calculations/event"
+msgstr "รางวัลสำหรับภารกิจและกิจกรรมที่สำเร็จ"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "ค่าปรับสำหรับการเพิกเฉยในการรบ"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "ค่าปรับสำหรับการละทิ้งกองทัพ"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "ค่าปรับสำหรับการละทิ้งกองทัพ"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "ค่าปรับสำหรับการละทิ้งกองทัพ"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "ค่าปรับสำหรับการละทิ้งกองทัพ"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "ค่าปรับสำหรับการเพิกเฉยในการรบ"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "ค่าปรับสำหรับการละทิ้งกองทัพ"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "ค่าปรับสำหรับการทำลายตัวเอง"
+
+msgid "details/calculations/firstWin"
+msgstr "มอบให้สำหรับชัยชนะแรกของแต่ละวัน"
+
+msgid "details/calculations/fortOrder"
+msgstr "โบนัสสำหรับการใช้กำลังสำรอง"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "ค่าชดใช้สำหรับความเสียหายต่อพันธมิตร"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "ค่าปรับสำหรับความเสียหายต่อพันธมิตร"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "ค่าปรับสำหรับการทำให้ัพันธมิตรมึนงงหรือเสียหาย"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "ยานขนส่งพิกัดสูง"
+
+msgid "details/calculations/igrBonus"
+msgstr "รางวัลสำหรับการเล่นที่ %(igrIcon)s"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "โบนัส IGR"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "จำนวนรวมสำหรับการรบ:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "โบนัสประสบการณ์จัดการได้"
+
+msgid "details/calculations/maximum"
+msgstr "สูงสุด"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "สำหรับการเคลื่อนพล"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "ค่าประสบการณ์เพิ่มขึ้นสำหรับชัยชนะแรกของแต่ละวันถูกเพิ่มเข้าพาหนะดังต่อไปนี้:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "มอบให้สำหรับชัยชนะแรกของแต่ละวัน"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "สำหรับการต่อต้านอย่างกล้าหาญ"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "โบนัสสัตว์เลี้ยง (%(bonusFactor)d%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "โบนัสสัตว์เลี้ยง"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "เพิ่มเข้าคลังสำรอง"
+
+msgid "details/calculations/playerRankXP"
+msgstr "โบนัสยศ"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "ใบนัสสำหรับชั้นพาหนะพิเศษ"
+
+msgid "details/calculations/referralBonus"
+msgstr "โบนัสการอ้างอิง (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "โบนัสการอ้างอิง (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "โบนัสการอ้างอิง"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "สำหรับการเล่นหมวดรถถัง "
+
+msgid "details/calculations/squadBonus"
+msgstr "โบนัสสำหรับการเล่นในหมวดรถถัง"
+
+msgid "details/calculations/squadXP"
+msgstr "สำหรับการเล่นในหมวดรถถัง"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "ส่วนหักเนื่องจากองค์ประกอบหมวดรถถังที่ไม่เหมาะสม"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "สำหรับการฝึกทางยุทธวิธี"
+
+msgid "details/calculations/title/base"
+msgstr "ได้รับสำหรับการรบ"
+
+msgid "details/calculations/title/expenses"
+msgstr "ค่าใช้จ่าย"
+
+msgid "details/calculations/title/total"
+msgstr "รวม"
+
+msgid "details/calculations/total"
+msgstr "รวม:"
+
+msgid "details/calculations/wotPlus"
+msgstr "โบนัสการรบ WoT Plus"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "โบนัสการรบ WoT Plus"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "ตัวเร่ง WoT Plus Pro"
+
+msgid "details/calculations/xpRecord"
+msgstr "ได้รับ (%(color_tag_open)s สูงสุด %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "ได้รับ (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "เงิน"
+
+msgid "details/crystal"
+msgstr "พันธบัตร"
+
+msgid "details/noPrem"
+msgstr "บัญชีทั่วไป"
+
+msgid "details/prem"
+msgstr "บัญชีพิเศษ Wargaming"
+
+msgid "details/premPlus"
+msgstr "บัญชีพิเศษ WoT"
+
+msgid "details/resource"
+msgstr "ทรัพยากรอตุสาหกรรม"
+
+msgid "details/stats"
+msgstr "สถิติ"
+
+msgid "details/time"
+msgstr "เวลา"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "เวลาเริ่ม"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "เขตที่ยึดได้"
+
+msgid "details/time/lbl_duration"
+msgstr "ระยะการรบ"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "เป้าหมายถูกทำลาย"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "เป้าหมายที่เข้าถึง"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "เวลาที่ถูกทำลาย"
+
+msgid "details/time/val_no"
+msgstr "ไม่"
+
+msgid "details/time/val_yes"
+msgstr "ใช่"
+
+msgid "details/time/value"
+msgstr "%(min)s นาที %(sec)s วิ"
+
+msgid "details/time_epic"
+msgstr "การรบ"
+
+msgid "details/xp"
+msgstr "ประสบการณ์"
+
+msgid "details/xp_abbr"
+msgstr "ประสบการณ์"
+
+msgid "exterminationVictory/allies"
+msgstr "ทีมของคุณทำลายพาหนะข้าศึกทั้งหมด"
+
+msgid "exterminationVictory/enemies"
+msgstr "ข้าศึกทำลายพาหนะทั้งหมดในทีมของคุณ"
+
+msgid "fallout/classic/lose/cap"
+msgstr "ทีมข้าศึกได้รับคะแนนชัยชนะมากกว่าทีมของคุณ"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "ข้าศึกทำลายพาหนะทั้งหมดในทีมของคุณ"
+
+msgid "fallout/classic/lose/points"
+msgstr "ทีมข้าศึกได้รับคะแนนชัยชนะมากกว่าทีมของคุณ"
+
+msgid "fallout/classic/tie"
+msgstr "ทั้งสองทีมได้รับคะแนนชัยชนะเป็นจำนวนเท่ากัน"
+
+msgid "fallout/classic/win/cap"
+msgstr "ทีมของคุณได้รับคะแนนชัยชนะมากกว่าข้าศึก"
+
+msgid "fallout/classic/win/extermination"
+msgstr "ทีมของคุณทำลายพาหนะข้าศึกทั้งหมด"
+
+msgid "fallout/classic/win/points"
+msgstr "ทีมของคุณได้รับคะแนนชัยชนะมากกว่าข้าศึก"
+
+msgid "fallout/multiteam/ended"
+msgstr "เป้าหมายยังไม่บรรลุ"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "ในการดูรายละเอียด\nเลือกผู้เล่นจากรายชื่อ"
+
+msgid "fallout/multiteam/win/cap"
+msgstr "ทีมของคุณได้รับคะแนนชัยชนะมากกว่าข้าศึก"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "กองเฉพาะกิจข้าศึกทั้งหมดถูกทำลาย"
+
+msgid "fallout/multiteam/win/points"
+msgstr "ทีมของคุณได้รับคะแนนชัยชนะมากกว่าข้าศึก"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "อาคาร %(buildingName)s ไม่ถูกยึด"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "อาคาร %(buildingName)s ถูกยึด"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "อาคารที่ยึดได้: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "อาคาร %(buildingName)s ถูกยึดโดยข้าศึก"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "อาคาร %(buildingName)s ไม่ถูกยึด"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "อาคารป้องกันไว้ได้ %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "ผลจะถูกคำนวณตามข้อมูลที่เหลือเกี่ยวกับทีม"
+
+msgid "finish/overtime/lose"
+msgstr "ข้าศึกไม่ถูกทำลาย"
+
+msgid "finish/overtime/win"
+msgstr "ข้าศึกถูกทำลาย"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "หาเหตุผลไม่ได้"
+
+msgid "finish/reason/10lose"
+msgstr "เป้าหมายยังคงอยู่"
+
+msgid "finish/reason/10win"
+msgstr "เป้าหมายถูกทำลาย"
+
+msgid "finish/reason/1lose"
+msgstr "พาหนะพันธมิตรทั้งหมดถูกทำลาย"
+
+msgid "finish/reason/1tie"
+msgstr "พาหนะทั้งหมดถูกทำลาย!"
+
+msgid "finish/reason/1win"
+msgstr "พาหนะข้าศึกทั้งหมดถูกทำลายแล้ว"
+
+msgid "finish/reason/2"
+msgstr "การยึดฐาน"
+
+msgid "finish/reason/3"
+msgstr "หมดเวลาการรบ"
+
+msgid "finish/reason/4"
+msgstr "การรบจบเนื่องจากระบบล้มเหลว"
+
+msgid "finish/reason/5"
+msgstr "แพ้ทางเทคนิค"
+
+msgid "finish/reason/8"
+msgstr "ำพันธมิตรทำลายได้"
+
+msgid "finish/reason/9"
+msgstr "พาหนะของคุณถูกทำลาย"
+
+msgid "garage/uniqueDamage"
+msgstr "จะนับเพียงการยิงทำความเสียหายร้ายแรงเฉพาะเท่านั้น"
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "เลือกระยะเวลา"
+
+msgid "getPremiumPopover/award"
+msgstr "+50% ให้กับเงินและค่าประสบการณ์"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "ซื้อ %(prem)s และได้รับ %(award)s สำหรับการรบที่เข้าร่วมต่อจากนี้ทั้งหมด"
+
+msgid "getPremiumPopover/headerText"
+msgstr "สำหรับการรบนี้คุณสามารถได้รับ:"
+
+msgid "getPremiumPopover/prem"
+msgstr "บัญชีพิเศษ"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "ไปยังการวิจัย"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "มีให้วิจัย"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "การรบที่เหลือ (โดยประมาณ): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "เกี่ยวกับพาหนะ"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "ผ่านภารกิจ #{{name}} แล้ว"
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "วิทยาลัยยานเกราะ"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "ปลดล็อคชิ้นส่วนใหม่แล้ว!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "ปลดล็อคชิ้นส่วนใหม่แล้ว!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "ผ่านภารกิจวิทยาลัยแล้ว"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "ผ่านบทแล้ว!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "ผ่านด่านแล้ว!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "ภารกิจเตาหลอมสำเร็จแล้ว!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "ผ่านภารกิจแล้ว!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "ผ่านภารกิจประจำวันแล้ว!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "ขั้นชั้นยอดสูงสุด"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "ขั้นชั้นยอดใหม่"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "ผ่านภารกิจมหากาพย์แล้ว!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "ผ่านภารกิจปฏิบัติการแล้ว!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "ผ่านภารกิจพิเศษแล้ว!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "ผ่านภารกิจประจำสัปดาห์แล้ว!"
+
+msgid "noData"
+msgstr "ขออภัย ไม่มีผลการรบโดยละเอียดในตอนนี้"
+
+msgid "personalQuest/bonus/descr"
+msgstr "ความก้าวหน้าเงื่อนไขหลักของคุณในการรบนี้เพิ่มขึ้นอีก %(value)s เท่า"
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "ตัวคูณ x%(value)s:"
+
+msgid "personalQuest/failed/attention"
+msgstr "โปรดทราบ!"
+
+msgid "personalQuest/failed/descr"
+msgstr "ความคืบหน้าของคุณในภารกิจนี้จะถูกตั้งใหม่ คุณต้องเริ่มปฏิบัติเงื่อนไขนี้อีกครั้ง"
+
+msgid "players/enemy/unknown"
+msgstr "ข้าศึก"
+
+msgid "players/teammate/unknown"
+msgstr "ผู้เล่น"
+
+msgid "prestige/common/description"
+msgstr "ได้รับคะแนนชั้นยอด:"
+
+msgid "prestige/max/description"
+msgstr "ถึงขั้นชั้นยอดสูงสุดแล้ว"
+
+msgid "prestige/maxLevelReached/description"
+msgstr "ถึงขั้นชั้นยอดสูงสุดแล้ว"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "ถึงขั้นชั้นยอดใหม่แล้ว"
+
+msgid "prestige/title"
+msgstr "ระบบชั้นยอด"
+
+msgid "progression/completed"
+msgstr "สำเร็จแล้ว"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}ผ่านแล้ว:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "คลิกเพื่อดูข้อมูลแบบละเอียด"
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}ผ่านแล้ว:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "ไม่มีให้ในปัจจุบัน โปรดชมภายหลัง"
+
+msgid "progression/totalEarned"
+msgstr "ได้รับทั้งหมด: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "เข้าร่วมการรบแล้วรับรางวัล ยิ่งคุณต่อสู้มากเท่าใดคุณจะยิ่งเข้าใกล้รางวัลมากขึ้นเท่านั้น"
+
+msgid "selectVehicle"
+msgstr "เลือกพาหนะ"
+
+msgid "status/lose"
+msgstr "แพ้"
+
+msgid "status/tie"
+msgstr "เสมอ"
+
+msgid "status/win"
+msgstr "ชนะ"
+
+msgid "tankSelector/next"
+msgstr "พาหนะคันต่อไปกับ"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "เรียงตามความเสียหายที่ทำ\nโดยรวมความเสียหายจากกำลังสำรองรบด้วย"
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "ความเสียหายที่ทำ"
+
+msgid "team/damageHeader/body"
+msgstr "เรียงความเสียหายที่ก่อกับยานเกราะข้าศึก"
+
+msgid "team/damageHeader/header"
+msgstr "ความเสียหายที่ทำ"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "ความเสียหายที่ทำ"
+
+msgid "team/deaths/body"
+msgstr "เรียงตามจำนวนพาหนะที่ผู้เล่นทำลายในการรบ"
+
+msgid "team/deaths/header"
+msgstr "พาหนะที่ถูกทำลาย"
+
+msgid "team/deathsNoSort/header"
+msgstr "พาหนะที่ถูกทำลาย"
+
+msgid "team/epicRankHeader/body"
+msgstr "เรียงตามยศที่ได้รับในการรบ"
+
+msgid "team/epicRankHeader/header"
+msgstr "ยศ"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "เรียงตามเวลาที่วางกำลังในการรบ"
+
+msgid "team/epicRespawnHeader/header"
+msgstr "จำนวนครั้งที่วางกำลัง"
+
+msgid "team/falloutFragHeader/body"
+msgstr "เรียงตามพาหนะข้าศึกที่ถูกทำลาย\nรวมถึงความเสียหายจากกำลังสำรองรบ"
+
+msgid "team/falloutFragHeader/header"
+msgstr "พาหนะข้าศึกถูกทำลาย"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "เรียงตามจำนวนทรัพยากรที่ได้"
+
+msgid "team/falloutResourcePoints/header"
+msgstr "ทรัพยากร"
+
+msgid "team/flags/body"
+msgstr "เรียงตามจำนวนธงที่ส่งสำเร็จ"
+
+msgid "team/flags/header"
+msgstr "ส่งธงแล้ว"
+
+msgid "team/flagsNoSort/header"
+msgstr "ส่งธงแล้ว"
+
+msgid "team/fragHeader/body"
+msgstr "เรียงโดยจำนานของพาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "team/fragHeader/header"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "พาหนะข้าศึกถูกทำลาย"
+
+msgid "team/healthHeader/body"
+msgstr "เรียงตามความทนทานที่เหลืออยู่"
+
+msgid "team/healthHeader/header"
+msgstr "ความทนทาน"
+
+msgid "team/medalHeader/body"
+msgstr "เรียงตามจำนวนรางวัลที่ได้รับ"
+
+msgid "team/medalHeader/header"
+msgstr "รางวัล"
+
+msgid "team/playerHeader/body"
+msgstr "เรียงตามชื่อผู้เล่น"
+
+msgid "team/playerHeader/header"
+msgstr "ผู้เล่น"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "ผู้เล่น"
+
+msgid "team/playerNumber/body"
+msgstr "เรียงโดยจำนวนผู้เล่นในทีม"
+
+msgid "team/playerNumber/header"
+msgstr "จำนวน"
+
+msgid "team/rankHeader/body"
+msgstr "เรียงตามอันดับ"
+
+msgid "team/rankHeader/header"
+msgstr "อันดับ"
+
+msgid "team/resourceHeader/body"
+msgstr "เรียงโดยจำนวนทรัพยากรอุตสาหกรรมที่ได้มา"
+
+msgid "team/resourceHeader/header"
+msgstr "ทรัพยากรอตุสาหกรรม"
+
+msgid "team/squadHeader/body"
+msgstr "เรียงตามหมวดรถถัง"
+
+msgid "team/squadHeader/header"
+msgstr "หมวดรถถัง"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "หมวดรถถัง"
+
+msgid "team/stats/allies"
+msgstr "พันธมิตร"
+
+msgid "team/stats/close"
+msgstr "ปิด"
+
+msgid "team/stats/enemies"
+msgstr "ข้าศึก"
+
+msgid "team/stats/enemyTeam"
+msgstr "ข้าศึก"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "ถือเป็นการสนับสนุน:\n• ความเสียหายที่พันธมิตรทำได้จากการชี้เป้าของคุณ, การทำลายตีนตะขาบและทำให้ข้าศึกเคลื่อนที่ไม่ได้ หรือทำให้พาหนะข้าศึกมึนงง\n• การยึดฐาน\n• การเป็นคนแรกที่พบพาหนะข้าศึก"
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "สำหรับการช่วยเหลือ"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "ถือเป็นการมีส่วนร่วม:\n• ความเสียหายที่คุณทำ\n• พาหนะที่คุณทำลาย\n• ชิ้นส่วนที่ได้รับความเสียหาย\n• โบนัสความเสียหายที่ทีมคุณทำได้\n• ค่าปรับสำหรับการทำให้พันธมิตรมึนงงและเสียหาย"
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "สำหรับความเสียหายที่ทำได้และพาหนะที่ถูกทำลาย"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "โบนัสเพิ่มเติมสำหรับการรบที่มีประสิทธิภาพ ไม่ได้ระบุไว้ในส่วนก่อนหน้า"
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "สำหรับการปฏิบัติตามบทบาทของพาหนะ"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\tโดยการโจมตีปืนใหญ่"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "ยึดเขตได้ / ทำลายเป้าหมายได้"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "คะแนนการ ยึด/ป้องกัน ฐาน"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "จุดสนใจที่ยึดได้"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "ความเสียหายที่เกิดจากความช่วยเหลือของผู้เล่นคนดังกล่าว"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "ความเสียหายจากการช่วยของคุณ"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "ความเสียหายต่อพาหนะข้าศึกที่กำลังมึนงงโดยผู้เล่นนี้"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "ความเสียหายต่อพาหนะข้าศึกที่คุณทำให้มึนงง"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "ความเสียหายที่ถูกป้องกันโดยเกราะ"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "ความเสียหายทั้งหมด:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\tรวมถึงกำลังสำรองรบ"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tรวมไปถึงทักษะที่ใช้ไป"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tความเสียหายที่ทำต่อฝ่ายข้าศึก"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "ยานเกราะข้าศึกได้รับความเสียหาย/ถูกทำลาย"
+
+msgid "team/stats/labels_deaths"
+msgstr "จำนวนพาหนะของคุณที่ถูกทำลายในการรบ"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "เขต/เป้าหมายที่ป้องกันไว้ได้"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "จำนวนพาหนะของตนที่ถูกทำลาย / กู้คืนได้"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\tไปยังเป้าหมาย"
+
+msgid "team/stats/labels_directHits"
+msgstr "\tจำนวนยิงเข้าเป้า"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "จำนวนครั้งที่ถูกยิง"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\tเนื่องด้วยผลของกำลังสำรองรบ"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\tด้วยกำลังสำรองรบ"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\tความเสียหายกระจายออก"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "การถูกยิงที่เกิดจากสะเก็ดระเบิด"
+
+msgid "team/stats/labels_flags"
+msgstr "ส่งธงไป"
+
+msgid "team/stats/labels_healed"
+msgstr "ความทนทานที่คืนได้ (ของคุณ/พันธมิตร)"
+
+msgid "team/stats/labels_hits"
+msgstr "\tจำนวนยิงเข้าเป้า/กระสุนเจาะเกราะ"
+
+msgid "team/stats/labels_killed"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\tรวมถึงกำลังสำรองรบ"
+
+msgid "team/stats/labels_mileage"
+msgstr "ระยะเดินทางที่ผ่านมา กม."
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\tไม่เจาะเกราะ"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tจำนวนการเจาะเกราะ"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tจำนวนการเจาะเกราะ"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "ทักษะบทบาทที่ใช้"
+
+msgid "team/stats/labels_shots"
+msgstr "จำนวนนัดที่ยิง"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\tจากระยะมากกว่า 300 เมตร"
+
+msgid "team/stats/labels_spotted"
+msgstr "ยานเกราะข้าศึกที่ถูกตรวจพบ"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "ระยะเวลารวมการทำให้มึนงง วินาที"
+
+msgid "team/stats/labels_stunNum"
+msgstr "ทำให้เกิดการมึนงง"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "ความเสียหายต่อพันธมิตร (ถูกทำลาย/ความทนทาน)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "จำนวนพาหนะที่ถูกทำลาย"
+
+msgid "team/stats/labels_xp"
+msgstr "ประสบการณ์ทั้งหมดที่ได้รับ"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tสำหรับการช่วยเหลือ"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\tสำหรับการทำความเสียหายและการทำลายข้าศึก"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\tสำหรับการปฏิบัติตามบทบาทของพาหนะ"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "พันธมิตร"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "จากการโจมตีปืนใหญ่"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "คะแนนการ ยึด/ป้องกัน ฐาน"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "ความเสียหายที่เกิดจากความช่วยเหลือของผู้เล่นคนดังกล่าว"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "ความเสียหายจากการช่วยของคุณ"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "ความเสียหายต่อพาหนะข้าศึกที่กำลังมึนงงโดยผู้เล่นนี้"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "ความเสียหายต่อพาหนะข้าศึกที่คุณทำให้มึนงง"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "ความเสียหายที่ถูกป้องกันโดยเกราะ"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "ความเสียหายรวม"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "ยานเกราะข้าศึกได้รับความเสียหาย/ถูกทำลาย"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "จำนวนครั้งที่ถูกยิง"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "ความเสียหายสะเก็ดระเบิด"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "การถูกยิงที่เกิดจากสะเก็ดระเบิด"
+
+msgid "team/stats/parameter/hits"
+msgstr "จำนวนยิงเข้าเป้า/กระสุนเจาะเกราะได้"
+
+msgid "team/stats/parameter/mileage"
+msgstr "ระยะเดินทางที่ผ่านมา กม"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "การเจาะเกราะไม่เข้า"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "การเจาะเกราะ"
+
+msgid "team/stats/parameter/shots"
+msgstr "จำนวนนัดที่ยิง"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "จากระยะมากกว่า 300 เมตร"
+
+msgid "team/stats/parameter/spotted"
+msgstr "ยานเกราะข้าศึกที่ถูกตรวจพบ"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "ระยะเวลารวมการทำให้มึนงง วินาที"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "ทำให้เกิดการมึนงง"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "ความเสียหายต่อพันธมิตร (ถูกทำลาย/ความทนทาน)"
+
+msgid "team/tankHeader/body"
+msgstr "เรียงตามตำแหน่งในแผงทีม"
+
+msgid "team/tankHeader/header"
+msgstr "พาหนะ"
+
+msgid "team/teamInfluenceTotal"
+msgstr "อิทธิพลที่ได้โดยกองเฉพาะกิจ: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "ทรัพยากรอุตสาหกรรมจากกองเฉพาะกิจ: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "เรียงตามคะแนนชัยชนะที่ได้รับ"
+
+msgid "team/teamScore/header"
+msgstr "คะแนนชัยชนะทีม"
+
+msgid "team/victoryScore/body"
+msgstr "เรียงตามคะแนนชัยชนะที่ได้รับ"
+
+msgid "team/victoryScore/header"
+msgstr "คะแนนชัยชนะผู้เล่น"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "คะแนนชัยชนะผู้เล่น"
+
+msgid "team/xpHeader/body"
+msgstr "เรียงตามค่าประสบการณ์"
+
+msgid "team/xpHeader/header"
+msgstr "ประสบการณ์"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "ประสบการณ์"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "คะแนนชัยชนะที่ได้"

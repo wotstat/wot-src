@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Chi tiết Giấy phép Quân sự"
+
+msgid "about/position/header"
+msgstr "Phân phối Điểm Giấy phép Quân sự"
+
+msgid "about/position/text"
+msgstr "Sau mỗi trận, bạn sẽ nhận được một lượng Điểm Giấy phép Quân sự tương ứng với vị thứ của mình. Ngoài ra, sẽ có Điểm GPQS thưởng thêm nếu tăng Cấp Chiến tuyến."
+
+msgid "about/scores/header"
+msgstr "Điểm Giấy phép Quân sự"
+
+msgid "about/scores/text"
+msgstr "Một đơn vị tiền tệ Giấy phép Quân sự đặc biệt, có thể kiếm được từ chế độ Trận đấu Ngẫu nhiên và Chiến tuyến. Điểm GPQS là phần thưởng khi đạt đến các Cấp Chiến tuyến cũng như vị thứ của bạn trong bảng kết quả trận đánh. Xe Chiến tuyến không có giới hạn số Điểm có thể kiếm được."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Thất bại"
+
+msgid "about/scoresTable/topCell"
+msgstr "Top {{top}} theo XP"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Thắng"
+
+msgid "about/text"
+msgstr "Giấy phép Quân sự (GPQS) là sự kiện dài kỳ nơi người chơi thăng tiến qua các Giai đoạn bằng cách kiếm Điểm GPQS. Hoàn tất mỗi Giai đoạn đem về nhiều phần thưởng giá trị. Khi hoàn thành một số Giai đoạn nhất định, bạn có thể thu về Giơ-tông Giấy phép Quân sự—một tiền tệ đặc biệt được dùng để mua các xe độc đáo cùng những hàng hóa đáng giá khác trong mục tương ứng ở Cửa hàng."
+
+msgid "addons/cellRent/header"
+msgstr "Xe Thuê"
+
+msgid "addons/cellRent/text_10"
+msgstr "Vài xe Cấp {{vehiclesLevel}} khác nhau sẽ thuê được bằng cách dùng bạc. Thành viên kíp lái từ xe cùng loại và quốc gia có thể chuyển biên chế lẫn nhau mà không bị phạt hay phải tái đào tạo."
+
+msgid "addons/cellRent/text_9"
+msgstr "Vài xe Cấp {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} khác nhau sẽ thuê được bằng cách dùng bạc. Thành viên kíp lái từ xe cùng loại và quốc gia có thể chuyển biên chế lẫn nhau mà không bị phạt hay phải tái đào tạo."
+
+msgid "addons/cellSpectator/header"
+msgstr "Chế độ Quan sát"
+
+msgid "addons/cellSpectator/text"
+msgstr "Trong lúc chờ tái xuất, bạn có thể tận dụng chế độ Quan sát để nắm bắt tình hình chiến trận và lên kế hoạch cho chiến thuật của mình."
+
+msgid "addons/cellTime/header"
+msgstr "Bù Giờ"
+
+msgid "addons/cellTime/text"
+msgstr "Nếu thời gian kết thúc khi căn cứ đang bị chiếm, phe của bạn sẽ được bù giờ. Nếu bên phòng thủ phá hỏng quá trình chiếm căn cứ, thời gian bổ sung sẽ bằng không."
+
+msgid "addons/header"
+msgstr "Thông tin thêm"
+
+msgid "levelUp/sectionHeader"
+msgstr "Xe Cấp {{level}}"
+
+msgid "levelUp/text"
+msgstr "Như trước, bạn chỉ có thể dùng xe Cấp {{vehiclesLevelFrom}} để tham chiến lúc đầu, nhưng xe Cấp {{vehiclesLevelTo}} được chuẩn bị sẵn trong Ga-ra. Sau khi bất kỳ căn cứ nào ở tuyến hai bị chiếm (D, E, F), cả hai phe sẽ có khả năng triển khai xe Cấp {{vehiclesLevelTo}}."
+
+msgid "main/cellDuration/header"
+msgstr "Thời gian"
+
+msgid "main/cellDuration/text"
+msgstr "Chiến tuyến sẽ kéo dài {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}. Hôm bắt đầu tiếp theo sẽ được thông báo sau."
+
+msgid "main/cellFrontline/header"
+msgstr "Chiến tuyến"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Chiến trận 30v30 quy mô lớn bằng xe Cấp {{vehiclesLevel}} trên bản đồ {{@ colorLegacy 'FFE4C0'}}Normandy, Kraftwerk{{/}} và {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Phe tấn công phải phá hủy 3 trên 5 lô cốt đại pháo, phe phòng thủ phải bảo vệ chúng."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Chiến trận 30v30 quy mô lớn bằng xe Cấp {{vehiclesLevelFrom}}–{{vehiclesLevelTo}} trên bản đồ {{@ colorLegacy 'FFE4C0'}}Normandy, Kraftwerk{{/}} và {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Phe tấn công phải phá hủy 3 trên 5 lô cốt đại pháo, phe phòng thủ phải bảo vệ chúng."
+
+msgid "main/cellLevel9/header"
+msgstr "Xe Cấp {{vehiclesLevel}}"
+
+msgid "main/cellLevel9/text"
+msgstr "Sau khi một căn cứ thuộc tuyến hai (D, E hay F) bị chiếm, bạn sẽ có thể lôi xe Cấp {{vehiclesLevel}} vào."
+
+msgid "main/cellLevels/header"
+msgstr "Xe Cấp {{vehiclesLevel}}"
+
+msgid "main/cellLevels/text_8"
+msgstr "Chỉ xe Cấp {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} có thể sử dụng trong chế độ."
+
+msgid "main/cellLevels/text_9"
+msgstr "Chỉ xe Cấp {{vehiclesLevel}} mới có thể tham chiến."
+
+msgid "main/cellPass/header"
+msgstr "Giấy phép Quân sự"
+
+msgid "main/cellPass/text"
+msgstr "Chiến tuyến là một cơ hội tuyệt vời để kiếm Điểm Giấy phép Quân sự từ các trận đánh và đạt Cấp Chiến tuyến mới."
+
+msgid "main/cellReserves/header"
+msgstr "Loại Quân Dự bị chiến đấu"
+
+msgid "main/cellReserves/text"
+msgstr "Quân Dự bị Chiến đấu chia thành ba loại, mỗi loại gắn liền với một ô cụ thể. Thứ tự mở khóa và cải thiện chúng sẽ tùy thuộc từng loại xe."
+
+msgid "main/cellScenarios/header"
+msgstr "Kịch bản"
+
+msgid "main/cellScenarios/text"
+msgstr "Các trận Chiến tuyến diễn ra theo một trong những kịch bản sau: {{@ colorLegacy 'FFE4C0'}}Chế độ Cơ bản{{/}}, {{@ colorLegacy 'FFE4C0'}}Hậu cần Chiến dịch{{/}} hoặc {{@ colorLegacy 'FFE4C0'}}Định Mệnh{{/}}. Thông tin về kịch bản hiện hành được hiển thị ở màn hình tải, trong quá trình đếm ngược trước khi vào trận, hoặc lúc bấm phím Tab."
+
+msgid "main/sectionHeader"
+msgstr "Thông tin Chung"
+
+msgid "page/backBtn"
+msgstr "QUAY LẠI"
+
+msgid "page/headerUpper"
+msgstr "CHIẾN TUYẾN"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Tùy theo cấp bậc đạt được, bạn sẽ nhận XP Chiến tuyến và XP Chiến đấu. XP Chiến tuyến dùng để tăng Cấp Chiến tuyến, gồm tổng cộng {{@ colorLegacy 'FFE4C0'}}20 Mức{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Cấp Chiến tuyến"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Cấp Chiến tuyến{{/}} đem lại phần thưởng gồm Điểm Giấy phép Quân sự, Điểm Quân Dự bị Chiến đấu, trái phiếu, ứng dụng kĩ thuật, Bằng Đào tạo, Bằng cố vấn và Tài liệu Kíp lái."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Cấp Chiến tuyến{{/}} đem lại phần thưởng gồm Điểm Quân Dự bị Chiến đấu, trái phiếu, ứng dụng kĩ thuật, Bằng Đào tạo và Tài liệu Kíp lái."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Cấp bậc{{/}} không những phản ánh hiệu quả giao tranh của bạn ở một trận cụ thể mà còn đem lại lợi ích XP Chiến đấu. Khoản thưởng này áp dụng trên tổng XP gốc kiếm được từ mọi xe đã dùng tham chiến. Khi bạn hoặc đồng đội đạt bậc Đại tướng, toàn bộ phe nhận được khoản tăng hiệu suất kíp lái (mức chuyên môn chính) từ {{@ colorLegacy 'FFE4C0'}}1.5%{{/}} đến {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Cấp bậc"
+
+msgid "progression/ranksSection/text"
+msgstr "Chế độ này đặc trưng với hệ thống sáu-cấp-bậc mà người chơi có thể thăng tiến từ Binh Nhì đến Đại Tướng. Bạn sẽ được thăng chức khi chiến đấu hiệu quả trong trận (chiếm hoặc thủ căn cứ; phá hủy mục tiêu chính) và kinh nghiệm thu về. Tính tổng XP từ khắp mọi xe đã dùng tham chiến."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Lợi ích cho XP Chiến đấu"
+
+msgid "progression/ranksTable/captain"
+msgstr "Đại Úy"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Khoản tăng Hiệu suất Kíp lái"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "XP Chiến tuyến"
+
+msgid "progression/ranksTable/general"
+msgstr "Đại Tướng"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Trung Úy"
+
+msgid "progression/ranksTable/major"
+msgstr "Thiếu Tá"
+
+msgid "progression/ranksTable/private"
+msgstr "Binh nhì"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Trung Sĩ"
+
+msgid "progression/sectionHeader"
+msgstr "Tiến trình Chiến tuyến"
+
+msgid "progression/text"
+msgstr "Khi chơi chế độ này, bạn sẽ dần dần lên chức, thăng tiến qua Tiến trình Chiến tuyến và nhận thưởng."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Phụ"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Ô Dự bị 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Ô Dự bị 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Ô Dự bị 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Chính"
+
+msgid "reserveCategories/categories/support"
+msgstr "Bổ trợ"
+
+msgid "reserveCategories/config/footerText"
+msgstr "Trong kịch bản {{@ colorLegacy 'FFE4C0'}}Định Mệnh{{/}}, thứ tự mở khóa Quân Dự bị Chiến đấu không phụ thuộc vào loại xe."
+
+msgid "reserveCategories/config/header"
+msgstr "Cấu hình Quân Dự bị theo Loại Xe"
+
+msgid "reserveCategories/config/text"
+msgstr "Trong kịch bản {{@ colorLegacy 'FFE4C0'}}Chế độ Cơ bản{{/}} và {{@ colorLegacy 'FFE4C0'}}Hậu cần Chiến dịch{{/}}, cả ba ô Quân Dự bị Chiến đấu khả dụng cho tất cả các phương tiện. Tuy nhiên, thứ tự mở khóa chúng sẽ phụ thuộc vào loại xe."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Pháo Chống Tăng"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Tăng hạng Nặng"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Tăng hạng Nhẹ"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Tăng hạng Trung"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "Pháo Tự hành"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* Cải thiện đến mức này chỉ khả dụng cho Quân Dự bị Chiến đấu {{@ colorLegacy 'FFE4C0'}}được mua{{/}} trong kịch bản {{@ colorLegacy 'FFE4C0'}}Định Mệnh{{/}}."
+
+msgid "reserveCategories/levels/header"
+msgstr "Cách Mở khóa Ô và Cải thiện Quân Dự bị Chiến đấu"
+
+msgid "reserveCategories/levels/text"
+msgstr "Theo mặc định, một Quân Dự bị Chiến đấu khả dụng cho bạn. Số còn lại được mở khóa khi đạt bậc Trung sỹ và Trung úy. Cả ba Quân Dự bị sẽ được cải thiện lúc đạt bậc Đại úy và Thiếu tá."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "Cấp {{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} hoặc {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Đại Úy"
+
+msgid "reserveCategories/ranks/general"
+msgstr "Đại Tướng"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Trung Úy"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Thiếu Tá"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Trung Sĩ"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Binh nhì"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Định Mệnh"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "Trong trận, người chơi có thể chọn từ các Quân Dự bị ngẫu nhiên, khả dụng cho mọi loại xe. Đặt một QDB vào ô trước khi tham chiến làm tăng xác suất nhận được nó trong trận thêm {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Mua QDB sẽ tăng Cấp của nó lên mức {{@ colorLegacy 'FFE4C0'}}II{{/}} và đem lại cơ hội cải thiện lên Cấp {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Kịch bản Chiến tuyến"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Chế độ Cơ bản"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "Áp dụng đặc điểm cơ bản thường thấy. Không có thay đổi gì về điều kiện dụng Quân Dự bị Chiến đấu."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Hậu cần Chiến dịch"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Khi mở khóa một QDB: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Khi trở lại vòng chiến: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Kịch bản chóng vánh với thời gian chờ hồi phục QDB Chiến đấu ngắn hơn:"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "Các trận Chiến tuyến diễn ra theo một trong những kịch bản sau: {{@ colorLegacy 'FFE4C0'}}Chế độ Cơ bản{{/}}, {{@ colorLegacy 'FFE4C0'}}Hậu cần Chiến dịch{{/}} hoặc {{@ colorLegacy 'FFE4C0'}}Định Mệnh{{/}}. Các kịch bản khác nhau ở điều kiện dùng Quân Dự bị Chiến đấu trong trận. Thông tin về kịch bản hiện hành được hiển thị tại màn hình tải, trong quá trình đếm ngược trước khi vào trận, hoặc lúc bấm phím Tab."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Loại Quân Dự bị chiến đấu"
+
+msgid "reserveCategories/text"
+msgstr "Quân Dự bị Chiến đấu giờ chia thành ba loại, mỗi loại gồm ba QDB. Khi vào trận, bạn chỉ có thể đặt một QDB thuộc một loại vào ô tương ứng."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Quân Dự bị Tấn công"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Quân Dự bị Trinh sát"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Quân Dự bị Chiến lược"
+
+msgid "reserves/sectionHeader"
+msgstr "Dự bị Nhanh"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Khởi đầu Nhanh"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "Thời gian thành lập Quân Dự bị Chiến đấu được giảm bớt 50% vào đầu trận đánh."
+
+msgid "reserves/sectionReload/header"
+msgstr "Khả dụng Tức thì"
+
+msgid "reserves/sectionReload/text"
+msgstr "Quân Dự bị Chiến đấu sẽ sẵn sàng để sử dụng ngay khi chúng được mở khóa."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Sinh khí Mới"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "Thời gian thành lập Quân Dự bị Chiến đấu được giảm bớt 70% khi quay lại trận đánh bằng xe mới."
+
+msgid "rules/backToFight/header"
+msgstr "Tái xuất Vào trận"
+
+msgid "rules/backToFight/text"
+msgstr "Nếu xe của bạn bị phá hủy, hãy chọn bất cứ chiếc nào khác khả dụng để quay lại trận địa, tiếp tục chiến đấu tìm kiếm thắng lợi. Người chơi có thể chọn một trong nhiều khu vực triển khai (điểm tái xuất) tại các cánh, cũng như ở hậu tuyến, vốn sẽ giúp bạn lên kế hoạch tác chiến. Phe phòng thủ có nhiều lựa chọn tái xuất nằm sau phòng tuyến hơn, đem lại cơ hội tập quân bảo vệ các lô-cốt đại pháo khi bị đột kích. Hệ thống cũng hiển thị một chỉ báo đặc biệt để cảnh tỉnh người chơi nếu khu vực được chọn quá nguy hiểm."
+
+msgid "rules/base/header"
+msgstr "Chiếm căn cứ"
+
+msgid "rules/base/textBottom"
+msgstr "Sát thương một xe (hoặc mô-đun) đang chiếm căn cứ sẽ không làm quá trình chiếm đóng bị tính lại, nó chỉ tạm ngưng một thời gian. Để phá hỏng hoàn toàn quá trình chiếm căn cứ, phe phòng thủ phải tiêu diệt được bất kỳ xe địch nào trong vòng tròn hoặc đẩy lùi chúng ra khỏi căn cứ. Phe phòng thủ không thể tái chiếm căn cứ sau khi phe tấn công chiếm đóng thành công."
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}Phe tấn công{FFE4C0_End} phải chiếm đóng căn cứ theo thứ tự để tiến tới mục tiêu chính. Căn cứ được chiếm thành công sẽ tăng thời lượng trận đánh thêm 2 phút, căn cứ cuối cùng đem lại 4 phút."
+
+msgid "rules/sectionHeader"
+msgstr "Luật Chung"
+
+msgid "rules/service/header"
+msgstr "Vòng Tròn tiếp tế"
+
+msgid "rules/service/text"
+msgstr "Vòng Tiếp tế hồi phục sức kháng cự của xe, chữa trị tất cả thành viên kíp lái bị thương và tái bổ sung đạn dược. {FFE4C0_Start}Tốc độ khôi phục như sau: 100 HP / một thành viên kíp lái / 10%{FFE4C0_End} cơ số đạn mỗi giây."
+
+msgid "rules/weapons/header"
+msgstr "Mục tiêu: 3 trên 5 Lô-cốt Đại pháo"
+
+msgid "rules/weapons/list/back"
+msgstr "GIáp phía sau: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "Nóc và giáp phía trước {{@ colorLegacy 'FFE4C0'}}không thể bị đạn xuyên thủng{{/}}."
+
+msgid "rules/weapons/list/sides"
+msgstr "GIáp hông: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "GIáp hông: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Điểm yếu: {{@ colorLegacy 'FFE4C0'}}Cửa sập (70 mm) và khe thông gió (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Năm ụ lô-cốt đại pháo nằm sâu trong hậu tuyến phe thủ là mục tiêu chính của chiến trận. Phe tấn công phải tiêu diệt được 3 ụ lô-cốt, trong khi phe phòng thủ phải bảo vệ bằng mọi giá."
+
+msgid "subTitle/differentMonth"
+msgstr "từ {{@ colorLegacy 'FFE4C0'}}{{from}}/{{startMonth}}{{/}} đến {{@ colorLegacy 'FFE4C0'}}{{to}}/{{endMonth}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "từ {{@ colorLegacy 'FFE4C0'}}{{from}}/{{startMonth}}/{{startYear}}{{/}} đến {{@ colorLegacy 'FFE4C0'}}{{to}}/{{endMonth}}/{{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "từ {{@ colorLegacy 'FFE4C0'}}{{from}}/{{endMonth}}{{/}} đến {{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Khu vực A, B và C {{@ colorLegacy 'FFE4C0'}}tại phòng tuyến thứ nhất{{/}} là điểm xuất phát của cả hai phe."
+
+msgid "winStrategy/header"
+msgstr "Chiến thuật Thắng"
+
+msgid "winStrategy/mapZones"
+msgstr "Bản đồ của chế độ đặc trưng với ba phòng tuyến nằm ngang:"
+
+msgid "winStrategy/secondLine"
+msgstr "Khi các khu vực của phòng tuyến đầu tiên bị chiếm đóng, chiến trận mở khóa khu vực D, E và F {{@ colorLegacy 'FFE4C0'}}ở phòng tuyến thứ hai{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Phòng tuyến thứ ba{{/}} không bị phân khu—là nơi diễn ra giai đoạn cuối cùng của trận chiến. Các lô-cốt đại pháo nằm tại đây, phá hủy hết chúng sẽ đem lại thắng lợi cho phe tấn công. Phe tấn công chỉ tiếp cận được mục tiêu chính khi chiếm thành công ít nhất một khu vực ở phòng tuyến thứ hai. Khi một khu vực thất thủ, phe phòng thủ có 1 phút để rút lui trước cuộc oanh tạc. Không kích sẽ đánh trúng tất cả những ai còn sót lại. Phe tấn công cố tình đột kích phòng tuyến thứ hai hoặc thứ ba khi chưa chiếm thành công khu vực trước đó sẽ chịu chung số phận (bị không quân địch bắn hạ)."

@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "Tỷ lệ có giới hạn"
+msgstr[1] "Tỷ lệ có giới hạn %(index)s"
+msgstr[2] "Tỷ lệ có giới hạn %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "Ít nhất một giới hạn đã bị vượt quá. Một phần của thanh toán sẽ được thực hiện theo tỷ lệ tiếp theo."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "Tỷ lệ quy đổi cơ bản"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "Tỷ lệ khả dụng tiếp theo"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "Số lượng tỷ lệ có giới hạn khả dụng: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "Tổng lượng tỷ lệ có giới hạn: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "Sau khi quy đổi:"
+
+msgid "common/cancel"
+msgstr "Hủy bỏ"
+
+msgid "common/combinedDiscount"
+msgstr "Giảm giá kết hợp"
+
+msgid "common/exchange"
+msgstr "Quy đổi"
+
+msgid "common/exchangeRate"
+msgstr "Tỷ lệ quy đổi"
+
+msgid "common/limitExceeded"
+msgstr "Đã quá giới hạn: Quy đổi sẽ được thực hiện với giảm giá kết hợp."
+
+msgid "common/limitOverExceeded"
+msgstr "Đã quá giới hạn: Giảm giá kết hợp sẽ được sử dụng."
+
+msgid "common/limitRestrictions"
+msgstr "TÌM HIỂU THÊM"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "Tỷ lệ quy đổi cơ bản: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/generalExchangeRate"
+msgstr "Tỷ lệ quy đổi thường: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/information"
+msgstr "%(gold)s vàng đã được quy đổi thành công. Bạc nhận được: %(res)s."
+
+msgid "exchange/personalExchangeRate"
+msgstr "Tỷ lệ quy đổi cá nhân: %(rateFrom)s = %(rateTo)s."
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "Tỷ lệ quy đổi cá nhân: %(rateFrom)s = %(rateTo)s. Đã quá giới hạn"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s XP đã được quy đổi thành công sang XP Tự do. Vàng đã tiêu: %(gold)s."
+
+msgid "experienceExchange/available"
+msgstr "XP khả dụng:"
+
+msgid "experienceExchange/paid"
+msgstr "Đã tiêu"
+
+msgid "experienceExchange/received"
+msgstr "Đã nhận"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "Sắp xếp theo Cấp xe"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "Sắp xếp theo mức Biến thể Dã chiến"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "Sắp xếp theo tên xe"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "Sắp xếp theo quốc gia"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "Sắp xếp theo loại xe"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "Sắp xếp theo xe đã chọn"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "Sắp xếp theo XP nhận được"
+
+msgid "goldExchange/paid"
+msgstr "Từ"
+
+msgid "goldExchange/received"
+msgstr "Sang"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s vàng = %(resourceRate)s bạc"
+
+msgid "notification/discountDescription/message"
+msgstr "Tỷ lệ quy đổi cá nhân"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "Đến Quy đổi"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "Có tỷ giá quy đổi mới!"
+
+msgid "tooltip/common/basicRate"
+msgstr "Tỷ lệ quy đổi cơ bản"
+
+msgid "tooltip/common/generalRate"
+msgstr "Tỷ lệ quy đổi thường"
+
+msgid "tooltip/common/personalRate"
+msgstr "Tỷ lệ quy đổi cá nhân"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "Tỷ lệ quy đổi có lợi"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "Tỷ lệ quy đổi lâm thời"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "Số lượng chỉ có thể được xác định sau khi mua vàng."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "Lượng vàng sau khi quy đổi"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s vàng = %(resourceRate)s XP Tự do"

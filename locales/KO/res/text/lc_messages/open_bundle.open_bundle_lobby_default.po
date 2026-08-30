@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "확인"
+
+msgid "attachments_preview/description"
+msgstr "3D 부착물 세트"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "특급 3D 부착물"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "전설 3D 부착물"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "희귀 3D 부착물"
+
+msgid "bundle/name"
+msgstr "수수께끼 시장"
+
+msgid "bundle/name_uppercased"
+msgstr "수수께끼 시장"
+
+msgid "confirmation/buttons/cancel"
+msgstr "취소"
+
+msgid "confirmation/buttons/purchase"
+msgstr "구매"
+
+msgid "confirmation/description"
+msgstr "전쟁 채권과 새로운 진열 칸의 보상이 지급됩니다."
+
+msgid "confirmation/purchase"
+msgstr "{{price}}에 구매하시겠습니까?"
+
+msgid "entryPoint/button"
+msgstr "확인"
+
+msgid "entryPoint/title"
+msgstr "{{eventName}}이 열렸습니다. 지금 바로 확인해 보십시오!"
+
+msgid "intro/cards/description/c_1"
+msgstr "{{eventName}} 이벤트 기간에 전쟁 채권을 구매하면 아직 열리지 않은 진열 칸의 보상 하나가 보너스 선물로 지급됩니다. 각 칸에는 값진 게임 아이템이 들어 있으며 그중에는 이벤트 주요 보상인 프리미엄 전차도 포함되어 있습니다."
+
+msgid "intro/cards/description/c_2"
+msgstr "보상은 무작위 순서로 지급됩니다. 열리지 않은 진열 칸이 선택될 확률은 칸마다 정해져 있으며 모든 진열 칸 확률의 합계는 항상 100%가 됩니다. 한 번 열린 진열 칸은 다시 열리지 않습니다. 특정 칸이 열리면 남은 보상 획득 확률이 증가합니다."
+
+msgid "intro/cards/description/c_3"
+msgstr "구매 단계마다 일정량의 골드가 소모됩니다. 전쟁 채권 획득량과 구매 단계별 비용은 이벤트를 진행함에 따라 바뀝니다."
+
+msgid "intro/cards/link"
+msgstr "세부 조건 및 구매 단계별 가격 정보는 {{@ class 'linkPart'}}포털에서 확인할 수 있습니다.{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "전쟁 채권 구매"
+
+msgid "intro/cards/title/c_2"
+msgstr "진열 칸과 확률"
+
+msgid "intro/cards/title/c_3"
+msgstr "구매 단계별 가격"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "보상이 기다린다"
+
+msgid "main/alt/description"
+msgstr "확률 확인"
+
+msgid "main/alt/tooltip/body"
+msgstr "Alt 키를 누르면 각 진열 칸 보상 획득 확률을 확인할 수 있습니다."
+
+msgid "main/alt/tooltip/header"
+msgstr "확률 표시"
+
+msgid "main/cell/probability"
+msgstr "{{num}}%"
+
+msgid "main/completed"
+msgstr "축하합니다! \n 모든 보상을 획득했습니다!"
+
+msgid "main/footer/button"
+msgstr "구매"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}진열 칸 보상"
+
+msgid "main/footer/receive"
+msgstr "획득 예정: {{item}}"
+
+msgid "main/header/description"
+msgstr "{{startDate}}부터 {{endDate}}까지 이벤트에 참여하여 보상을 획득해 보십시오!"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "전차 꾸미기로 이동"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "스타일로 이동"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "전차로 이동"
+
+msgid "notifications/specialReward/title"
+msgstr "{{eventName}} 주요 보상 획득!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "추가 보상"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "획득"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "기술적인 문제로 해당 작업을 수행할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "이벤트로 이동"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "%(eventName)s 종료 임박!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "%(date)s까지 이용할 수 있습니다."
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "%(eventName)s 진열 칸 개봉 완료"
+
+msgid "tooltips/entry/description"
+msgstr "보상이 기다리고 있습니다! 전쟁 채권을 구매할 때마다 무작위 진열 칸에 명시된 보상이 선물로 지급됩니다. 구매할 때마다 서로 다른 칸이 개봉되며 이전에 개봉된 칸은 제외됩니다."
+
+msgid "tooltips/entry/timer"
+msgstr "이벤트 남은 시간: {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "이벤트 정보"
+
+msgid "tooltips/steps/description"
+msgstr "구매할 때마다 {{currency}} 보상이 지급됩니다. 지급되는 양은 구매 단계에 따라 증가합니다."
+
+msgid "tooltips/steps/header"
+msgstr "구매 단계당 {{currency}} 지급량"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "구매 단계"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} ~ {{end}}"

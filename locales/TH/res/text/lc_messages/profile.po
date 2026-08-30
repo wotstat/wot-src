@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "ประเภทการรบ:"
+
+msgid "profile/dropdown/existence"
+msgstr "สามารถใช้ได้:"
+
+msgid "profile/dropdown/labels/all"
+msgstr "แบบสุ่ม กองร้อยรถถัง"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "พรานเหล็ก คนเดียว"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "พรานเหล็ก หมวดรถถัง"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "แผนที่โลก"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "การบุกรุก"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "ปีแห่งกริฟฟิน"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "ปีแห่งแมนติคอร์"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "ปีแห่งม้าบิน"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "ฤดูกาลแห่งมังกรน้ำเงิน"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "ฤดูกาลแห่งมังกรโลหิต"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "ฤดูกาลแห่งมังกรหยก"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "การรบใหญ่"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "การรบอาละวาด"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "ฐานที่มั่น: การรบ"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "การรบรุกคืบ"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "การปะทะ"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "ตามประวัติศาสตร์"
+
+msgid "profile/dropdown/labels/random"
+msgstr "การรบแบบสุ่ม"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "การรบจัดอันดับ 15 ต่อ 15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "การรบจัดอันดับ"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "การรบแบบทีม: จัดอันดับ"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "ทีม: การรบจัดอันดับ"
+
+msgid "profile/dropdown/labels/team"
+msgstr "ทีม: การรบไม่จัดอันดับ"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "รางวัลที่ได้รับในประเภทสมรภูมิ"
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "รางวัล"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "อัตราส่วนความเสียหายที่ถูกป้องกันโดยเกราะจากการถูกยิงที่ไม่ทะลุเกราะและสะท้อนออกของกระสุนเจาะเกราะ ระเบิดแรงสูงต่อต้านรถถัง และเจาะเกราะผสมแกนแข็ง ถึงความเสียหายที่ได้รับจากกระสุนชนิดเหล่านี้ ความเสียหายที่เป็นไปได้จากกระสุนระเบิดแรงสูงและกระสุนหัวกระเทาะเกราะจะไม่นับ\n• ความเสียหายโดยเฉลี่ยที่ถูกป้องกันโดยเกราะจากกระสุนชนิดเหล่านี้: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "ประสิทธิภาพการใช้เกราะ"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "จำนวนความเสียหายรวมที่ทำต่อพาหนะข้าศึกที่กำลังมึนงง"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "ความเสียหายต่อพาหนะข้าศึกที่ผู้เล่นทำให้มึนงง"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "จำนวนความเสียหายรวมที่ทำต่อพาหนะข้าศึกที่กำลังมึนงง"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "ความเสียหายพาหนะที่คุณทำให้มึนงง"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "รวมถึง:\n• ความเสียหายเมื่อคุณทำการชี้เป้า\n• ความเสียหายเมื่อคุณทำลายตีนตะขาบและทำให้ข้าศึกเคลื่อนที่ไม่ได้"
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "ความเสียหายโดยเฉลี่ยจากการช่วยของคุณ"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "รวมถึง:\n• ความเสียหายเมื่อผู้เล่นทำการชี้เป้า\n• ความเสียหายเมื่อคุณทำลายตีนตะขาบและทำให้ข้าศึกเคลื่อนที่ไม่ได้"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "ความเสียหายจากความช่วยเหลือของผู้เล่น"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "รวมถึง:\n• ความเสียหายเมื่อคุณทำการชี้เป้า\n• ความเสียหายเมื่อคุณทำลายตีนตะขาบและทำให้ข้าศึกเคลื่อนที่ไม่ได้"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "รวมถึง:\n• ความเสียหายจากการชี้เป้าของคุณ(รวมถึงความเสียหายจากทักษะช่วย)\n• ความเสียหายเมื่อคุณทำลายตีนตะขาบและทำให้ข้าศึกแล่นไม่ได้ (รวมถึงความเสียหายจากทักษะช่วย)\n• ความเสียหายที่พันธมิตรทำได้ด้วยทักษะที่คุณใช้"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "ความเสียหายที่คุณช่วยทำ"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "ความเสียหายจากการช่วยของคุณ"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "อัตราส่วนระหว่างความเสียหายทั้งหมดที่ทำต่อข้าศึกที่มึนงง (รวมถึงการมึนงงที่เกิดจากทักษะที่ใช้) และจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "ความเสียหายต่อพาหนะข้าศึกที่ผู้เล่นทำให้มึนงง"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "อัตราส่วนระหว่างความเสียหายทั้งหมดที่ทำต่อข้าศึกที่มึนงง (รวมถึงการมึนงงที่เกิดจากทักษะที่ใช้) และจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "ความเสียหายต่อพาหนะข้าศึกที่คุณทำให้มึนงง"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "อัตราความเสียหายรวมที่ทำต่อพาหนะข้าศึกที่มึนงงกับจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "ความเสียหายต่อพาหนะข้าศึกที่ผู้เล่นทำให้มึนงง"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "อัตราความเสียหายรวมที่ทำต่อพาหนะข้าศึกที่มึนงงกับจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "ความเสียหายพาหนะที่คุณทำให้มึนงง"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "อัตราส่วนความเสียหายต่อการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "ความเสียหายโดยเฉลี่ยต่อการรบ"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "อัตราส่วนของยานเกราะข้าศึกที่ถูกทำลายต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "อัตราส่วนระหว่างจำนวนพาหนะข้าศึกทั้งหมดที่ทำลายได้ (รวมไปถึงพาหนะที่ถูกทำลายจากการใช้ทักษะ) และจำนวนการรบที่ได้เข้าร่วม"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "อัตราส่วนจำนวนยานเกราะข้าศึกที่ถูกตรวจพบต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "อัตราส่วนระหว่างจำนวนพาหนะข้าศึกทั้งหมดที่ตรวจจับด้ (รวมไปถึงพาหนะที่ถูกพบจากการใช้ทักษะ) และจำนวนการรบที่ได้เข้าร่วม"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "ยานเกราะข้าศึกที่ถูกตรวจพบ"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "ยานเกราะข้าศึกที่ถูกตรวจพบ"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "อัตราส่วนความเสียหายต่อการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "ความเสียหายที่ทำ"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "อัตราส่วนของค่าประสบการณ์ทั้งหมดที่ได้จากการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "ประสบการณ์"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "อัตราส่วนของค่าประสบการณ์ทั้งหมดที่ได้จากการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "ค่าประสบการณ์เฉลี่ยต่อการรบ"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "อัตราส่วนระหว่างจำนวนความทนทานที่คืนได้ต่อจำนวนการรบที่ได้เข้าร่วม"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "ความทนทานที่คืนได้"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "อัตราส่วนระหว่างจำนวนจุดสนใจที่ยึดได้ต่อจำนวนการรบที่ได้เข้าร่วม"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "จุดสนใจที่ยึดได้"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "อัตราส่วนระหว่างจำนวนคะแนนเกียรติภูมิทั้งหมดที่ได้รับต่อจำนวนการรบที่ได้เข้าร่วม"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "จำนวนคะแนนเกียรติภูมิเฉลี่ยต่อการรบ"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "อัตราส่วนของความเสียหายที่ได้รับต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "ความเสียหายที่ได้รับ"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "อัตราส่วนระหว่างจำนวนทักษะบทบาททั้งหมดที่ใช้ต่อจำนวนการรบที่ได้เข้าร่วม"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "ทักษะบทบาทที่ใช้"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "อัตราของจำนวนการยิงเข้าที่ทำให้พลรถถังข้าศึกมึนงงต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "อัตราส่วนระหว่างจำนวนการยิงเข้า (รวมไปถึงการยิงเข้าจากการช่วยของทักษะ) ต่อการมึนงงต่อพลรถถังข้าศึกและจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "จำนวนการมึนงง"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "จำนวนการมึนงง"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "อัตราคะแนนชัยชนะทั้งหมดที่ได้ต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "คะแนนชัยชนะโดยเฉลี่ย"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "จำนวนการรบที่เข้าร่วมทั้งหมด\n• ชัยชนะ: %(value_0)s\n• พ่ายแพ้: %(value_1)s\n• เสมอ: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "การรบ"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "อัตราของขั้นรวมทั้งหมดต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "ขั้นโดยเฉลี่ย"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "อัตราของตำแหน่งรวมทั้งหมดในผลการรบต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "ตำแหน่งโดยเฉลี่ย"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "อัตราของความเสียหายรวมที่ทำได้ต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "ความเสียหายที่ทำได้"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "จำนวนการรบทั้งหมดที่เข้าร่วม"
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "การรบที่ได้เข้าร่วม"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "ความเสียหายสูงสุดที่ทำต่อพาหนะข้าศึกในการรบหนึ่งครัั้ง\nทำสถิติได้ใน %(value_0)s"
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "ความเสียหายสูงสุดในการรบ"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "ประสบการณ์สูงสุดที่ได้รับในการรบหนึ่งครั้งพร้อมบัญชีพิเศษ WoT\nทำสถิติได้ใน %(value_0)s"
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "ประสบการณ์สูงสุดในการรบ"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "จำนวนพาหนะข้าศึกสูงสุดที่ทำลายได้ในการรบหนึ่งครั้ง\nทำสถิติได้ใน %(value_0)s"
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "การทำลายสูงสุดในการรบ"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "จำนวนการชนะทั้งหมด"
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "ชัยชนะ/การรบ"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "คะแนนการยึดฐานข้าศึกที่ได้มา"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "คะแนนการยึดฐาน"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "อัตราของ \"ความเสียหายที่ทำ\" กับ \"ความเสียหายที่ได้รับ\" จากการรบทุกระดับ โดยพิจารณาตาม:\n• ความเสียหายที่ทำ: %(value_0)s\n• ความเสียหายที่ได้รับ: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "ค่าสัมประสิทธิ์ความเสียหายเฉลี่ย"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "อัตรา\"ความเสียหายที่ก่อ\"กับ\"ความเสียหายที่ได้รับ\" โดยคิดจาก:\n• ความเสียหายที่ก่อ: %(value_0)s\n• ความเสียหายที่ได้รับ: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "อัตราส่วนความเสียหาย"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "อัตราของยานเกราะข้าศึกถูกทำลายต่อจำนวนครั้งที่ยานเกราะผู้เล่นถูกทำลาย โดยคิดจาก:\n• ยานเกราะข้าศึกถูกทำลาย: %(value_0)s\n• ยานเกราะผู้เล่นถูกทำลาย: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "อัตราส่วนการทำลาย"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "อัตราของความเสียหายที่ถูกกั้นด้วยเกราะต่อความเสียหายที่ได้รับ จากการยิงไม่เข้าและสะท้อนออกของกระสุนเจาะเกราะ ระเบิดแรงสูงต่อต้านรถถังและกระสุนเจาะเกราะผสมแกนแข็ง ความเสียหายจากกำลังสำรองรบ กระสุนระเบิดแรงสูงและกระสุนหัวกระเทาะเกราะจะไม่นับ\n• ความเสียหายเฉลี่ยที่ถูกกั้นด้วยเกราะจากกระสุนชนิดเหล่านี้: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "ประสิทธิภาพการใช้เกราะ"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "อัตราความเสียหายที่ทำทั้งหมด (รวมถึงกำลังสำรองรบ) ต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "ความเสียหายโดยเฉลี่ยต่อการรบ"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "อัตราของจำนวนพาหนะข้าศึกที่ถูกทำลายทั้งหมด(รวมจากกำลังสำรองรบด้วย) ต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "อัตราของจำนวนพาหนะข้าศึกที่ถูกทำลายทั้งหมด(ไม่รวมจากกำลังสำรองรบ) ต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "อัตราความเสียหายทั้งหมดที่ทำ (รวมกำลังสำรองรบ) ต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "ความเสียหายที่ทำ"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "อัตราความเสียหายที่ทำทั้งหมด (ไม่รวมกำลังสำรองรบ) ต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "ความเสียหายที่ทำ"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "อัตราความเสียหายทั้งหมดที่ได้รับ (รวมจากกำลังสำรองรบด้วย) ต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "ความเสียหายที่ได้รับ"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "จำนวนการรบที่เข้าร่วมทั้งหมด รวมถึง: \n• ชัยชนะ: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "การรบ"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "อัตราของ\"ความเสียหายที่ทำ\"ต่อ\"ความเสียหายที่ได้รับ\" (รวมจากกำลังสำรองรบ) โดยคิดจาก:\n• ความเสียหายที่ทำโดยพาหนะของคุณ: %(value_0)s\n• ความเสียหายที่ทำโดยกำลังสำรองรบ: %(value_2)s\n• ความเสียหายที่ได้รับจากพาหนะข้าศึกและกำลังสำรองรบ: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "อัตราส่วนความเสียหาย"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "อัตราของ\"ความเสียหายที่ทำ\"ต่อ\"ความเสียหายที่ได้รับ\" (ไม่รวมกำลังสำรองรบ) โดยคิดจาก:\n• ความเสียหายที่ทำ: %(value_0)s\n• ความเสียหายที่ได้รับ: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "อัตราส่วนความเสียหาย"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "อัตราพาหนะข้าศึกที่ถูกทำลายต่อจำนวนครั้งที่พาหนะผู้เล่นถูกทำลาย (รวมจากกำลังสำรองรบ) โดยคิดจาก:\n• พาหนะข้าศึกถูกทำลาย: %(value_0)s\n• พาหนะข้าศึกถูกทำลายกำลังสำรองรบ: %(value_2)s\n• พาหนะผู้เล่นถูกทำลายโดยพาหนะข้าศึกและกำลังสำรองรบ: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "อัตราส่วนการทำลาย"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "อัตราพาหนะข้าศึกที่ถูกทำลายต่อจำนวนครั้งที่พาหนะผู้เล่นถูกทำลาย (ไม่รวมจากกำลังสำรองรบ) โดยคิดจาก:\n• พาหนะข้าศึกถูกทำลาย: %(value_0)s\n• พาหนะผู้เล่นถูกทำลาย: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "อัตราส่วนการทำลาย"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "ความแม่นยำในการยิงใส่พาหนะข้าศึก (ไม่รวมการใช้กำลังสำรองรบ)"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "การยิงเข้า"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "สถิติที่สำเร็จจะรวมกำลังสำรองรบด้วย"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "ความเสียหายสูงสุดในการรบหนึ่งครั้ง"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "สถิติที่สำเร็จจะไม่รวมกำลังสำรองรบด้วย"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "ความเสียหายสูงสุดในการรบหนึ่งครั้ง"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "สถิติที่สำเร็จจะรวมกำลังสำรองรบด้วย"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "ทำลายพาหนะมากที่สุด"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "สถิติที่สำเร็จจะไม่รวมกำลังสำรองรบด้วย"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "ทำลายพาหนะมากที่สุด"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "จำนวนชัยชนะทั้งหมด"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "ชัยชนะ"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "จำนวนคะแนนป้องกันฐานที่ได้"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "ล้างคะแนนการยึด"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "จำนวนธงที่ทำลายทั้งหมด"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "ธงถูกทำลาย"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "จำนวนธงที่ส่งไปถึงฐาน"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "ส่งธงแล้ว"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "จำนวนการรบรุกคืบทั้งหมด โดยรวม\n• ชัยชนะ: %(value_0)s\n• พ่ายแพ้: %(value_1)s\n• เสมอ: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "การรบรุกคืบ"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "อัตราชัยชนะในการรบรุกคืบ"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "ชัยชนะในการรบรุกคืบ"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "จำนวนรวมของฐานที่มั่นข้าศึกที่ถูกปล้นสะดม"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "ปล้นสะดม"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "อัตราของทรัพยากรอุตสาหกรรมทั้งที่ได้จากการปะทะเทียบกับจำนวนการปะทะที่เข้าร่วม"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "การปล้นสะดมโดยเฉลี่ยต่อการปะทะ"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "จำนวนสถิติการปะทะกันทั้งหมด โดยรวม:\n• ชนะ: %(value_0)s\n• แพ้: %(value_1)s\n• เสมอ: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "การปะทะ"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "อัตราชัยชนะในการปะทะ"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "ชัยชนะในการปะทะ"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "จำนวนการโจมตีของฐานที่มั่นข้าศึก\nจะนับถ้าคุณเข้าต่อสู้ในการปะทะอย่างน้อยหนึ่งครั้งในการโจมตีเท่านั้น"
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "การโจมตี"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "จำนวนการป้องกันฐานที่มั่นของคุณ\nจะนับถ้าคุณทำการต่อสู้ในการปะทะอย่างน้อยหนึ่งครั้งในช่วงป้องกันเท่านั้น"
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "การป้องกัน"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "อัตราชัยชนะในการรบรุกคืบ"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "ชัยชนะในการรบรุกคืบ"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "อัตราชัยชนะในการปะทะ"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "ชัยชนะในการปะทะ"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "อัตราของทรัพยากรอุตสาหกรรมทั้งที่ได้จากการปะทะเทียบกับจำนวนการปะทะที่เข้าร่วม"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "การปล้นสะดมโดยเฉลี่ยต่อการปะทะ"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "จำนวนรวมทรัพยากรอุตสาหกรรมที่ได้จากการปะทะทั้งหมด"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "จำนวนทรัพยากรที่ได้จากการปล้นสะดมในการปะทะทั้งหมด"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "ความแม่นยำในการยิงยานเกราะข้าศึก"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "การยิงเข้า"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "อัตราพาหนะข้าศึกที่ถูกทำลายต่อจำนวนครั้งที่พาหนะผู้เล่นถูกทำลาย (รวมถึงกำลังสำรองรบ) โดยคิดจาก:\n• พาหนะข้าศึกที่ถูกทำลายโดยพาหนะของคุณ: %(value_0)s\n• พาหนะข้าศึกที่ถูกทำลายโดยกำลังสำรองรบ: %(value_1)s\n• พาหนะผู้เล่นถูกทำลายโดยข้าศึกและกำลังสำรองรบ: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "อัตราส่วนการทำลาย"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "ตราความเชี่ยวชาญนักขับรถถังชั้นยอดที่ได้รับในการรบที่เกี่ยวข้องทุกรูปแบบ / จำนวนของยานเกราะที่ได้ต่อสู้ในการรบอย่างน้อยหนึ่งครั้ง"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "ตราความเชี่ยวชาญ: เสือรถถัง"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "จะไม่มีการมอบเหรียญความเชี่ยวชาญให้ในการรบแบบนี้"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "ตราความเชี่ยวชาญ: เสือรถถัง"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "สถิติสำเร็จด้วย %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "ความเสียหายสูงสุดในการรบหนึ่งครั้ง"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "ทำความเสียหายสูงสุดต่อพาหนะข้าศึกในการรบหนึ่งครั้ง"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "ความเสียหายสูงสุดในการรบหนึ่งครั้ง"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "สถิติสำเร็จด้วย %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "ทำลายพาหนะมากที่สุด"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "ทำลายพาหนะข้าศึกสูงสุดในการรบ"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "ทำลายพาหนะมากที่สุด"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "ความเสียหายสูงสุดที่ทำโดยทักษะบทบาทและทักษะยุทธวิธีในการรบหนึ่งครั้ง"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "ความเสียหายสูงสุดจากทักษะต่อการรบ"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "จะรวมความเสียหายที่ทำโดยทั้งทักษะบทบาทและทักษะยุทธวิธีเข้าไว้ด้วยกัน\nสถิตินั้นอยู่ใน %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "ความเสียหายสูงสุดจากทักษะต่อการรบ"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "สถิติสำเร็จด้วย %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "ประสบการณ์สูงสุดในการรบ"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "ได้รับประสบการณ์สูงสุดในการรบหนึ่งครั้ง โดยรวมบัญชีพิเศษ"
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "ประสบการณ์สูงสุดในการรบ"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "จะไม่แสดงค่าประสบการณ์สูงสุดในการรบแบบนี้"
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "ประสบการณ์สูงสุดในการรบ"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "จำนวนความทนทานสูงสุดที่คืนได้สำหรับพาหนะของคุณและพันธมตรในการรบหนึ่งครั้ง"
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "ความทนทานที่คืนได้สูงสุุดต่อการรบ"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "จำนวนความทนทานสูงสุดที่คืนได้สำหรับพาหนะของคุณและพันธมตรในการรบหนึ่งครั้ง\nสถิตินั้นอยู่ใน %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "ความทนทานที่คืนได้สูงสุุดต่อการรบ"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "จำนวนคะแนนเกียรติภูมิสูงสุดที่ได้รับในการรบหนึ่งครั้ง"
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "จำนวนคะแนนเกียรติภูมิสูงสุดต่อการรบ"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "สถิติดังกล่าวอยู่ใน %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "จำนวนคะแนนเกียรติภูมิสูงสุดต่อการรบ"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "คะแนนชัยชนะมากที่สุดที่ได้จากการรบทุกครั้งและทุกแบบ"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "คะแนนชัยชนะสูงสุดที่ได้ในการรบหนึ่งครั้ง"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "คะแนนชัยชนะมากที่สุดที่ได้จากการรบทุกครั้งและทุกแบบ"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "คะแนนชัยชนะสูงสุดที่ได้ในการรบหนึ่งครั้ง"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "จำนวนชัยชนะที่ต่อเนื่องที่สุดที่ได้ในการเล่นแบบเดี่ยวและในหมวดรถถัง/หมวดรถถัง 7 คนของรูปแบบดังกล่าว"
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "การชนะต่อเนื่องสูงสุด (แบบเดียวและแบบหมวดรถถัง/หมวดรถถังใหญ่)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "จำนวนจุดสนใจที่ยึดได้"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "จุดสนใจที่ยึดได้"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "จำนวนพาหนะข้าศึกที่ถูกทำลายโดยเฉลี่ยในการรบหนึ่งครั้ง"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "จำนวนพาหนะที่ทำลายโดยเฉลี่ย"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "อัตราส่วนเปอร์เซนต์ของจำนวนบั้งที่ได้รับต่อจำนวนการรบทั้งหมดที่ได้เข้าร่วมในรูปแบบการรบจัดอันดับ\n• จำนวนบั้งทั้งหมด: %(value_0)s\n• จำนวนการรบทั้งหมด: %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "ประสิทธิภาพการรบจัดอันดับ"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "จำนวนคะแนนที่ได้รับ"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "คะแนนตำแหน่ง"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "จำนวนการยิงเข้าทั้งหมดที่ทำให้พลรถถังข้าศึกมึนงง"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "จำนวนการมึนงง"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "เปอร์เซนต์ของการรบที่ยานเกราะผู้เล่นไม่ถูกทำลาย"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "การรบที่รอดชีวิต"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "จำนวนพาหนะที่แตกต่างกันที่ใช้ทั้งหมด"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "พาหนะ"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "จำนวนการรบรุกคืบทั้งหมด\n\nตัวแปรนี้ยังไม่มีให้ในอัพเดตปัจจุบัน"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "การรบรุกคืบ"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "เปอร์เซนต์รวมของชัยชนะในการรบรุกคืบ\n\nค่านี้ไม่มีให้ในอัพเดตปัจจุบัน"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "ชัยชนะในการรบรุกคืบ"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "ไม่มีการรบเกิดขึ้นนับตั้งแต่การใช้ตัวแปรดังกล่าว"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "ไม่มีข้อมูล"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "ยานเกราะที่เข้ารบอย่างน้อยหนึ่งครั้งในการรรบตามประวัติศาสตร์"
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "ยานเกราะที่ใช้"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "อัตราชัยชนะทั้งหมด"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "ชัยชนะ"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "ฤดูกาลที่ 1 ปี 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "ฤดูกาลที่ 2 ปี 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "ฤดูกาลที่ 3 ปี 2021–2022"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "ข้อมูลเก็บบันทึก"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "ทุกฤดูกาล"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "ฤดูกาลปัจจุบัน"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "ฤดูกาล %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "ความทนทานที่คืนได้สูงสุุดต่อการรบ"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "ประวัติย่อกองทัพ"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "วันที่เข้าร่วม:"
+
+msgid "profile/summary/clan/post"
+msgstr "ตำแหน่ง:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "ประวัติย่อทีม"
+
+msgid "profile/summary/club/ladder"
+msgstr "กระดานผู้นำ:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "ขั้น %(league)s ดิวิชัน %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "ตำแหน่ง:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "รางวัลที่กำลังจะมาใหม่จะติดสายสะพายไว้"
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "รางวัลต่อไป"
+
+msgid "profile/summary/noGroups"
+msgstr "ผู้เล่นดังกล่าวไม่มีหน่วยยุทธวิธีถาวร"
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "รางวัลที่สำคัญที่สุดของผู้เล่นจะมีสายสะพายติดอยู่ด้วย"
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "รางวัลมีค่า"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "ดูประเภทความสำเร็จ"
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "ความสำเร็จ"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "ดูรางวัลและคำอธิบาย"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "รางวัล"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "ดูชุดสะสม"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "ชุดสะสม"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "ดูรายละเอียดเกี่ยวกับหน่วยยุทธวิธีที่คุณเป็นสมาชิกอยู่"
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "หน่วยรบยุทธวิธี"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "ดูการจัดอันดับในหอเกียรติยศ"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "หอเกียรติยศ"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "หอเกียรติยศไม่มีให้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "โปรดทราบ"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "ดูสถิติการรบจากยานเกราะทุกชนิด"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "สถิติ"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "ดูสมรรถนะในการรบ"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "สรุป"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "ดูสถิติการรบจากยานเกราะทุกชนิด"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "พาหนะ"
+
+msgid "profile/title"
+msgstr "สถิติของผู้เล่น %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "ปี/ฤดูกาล:"
+
+msgid "seasons/dropdown_label"
+msgstr "ฤดูกาล:"
+
+msgid "section/advancedAchievements/title"
+msgstr "ความสำเร็จ"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "ทั้งหมด"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "ได้รับ"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "ไม่ได้รับ"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "เปิดตัวกรองเพื่อดูรางวัลทั้งหมด หรือรางวัลที่ได้รับ หรือรางวัลที่ยังไม่ได้รับ"
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "เรียงรางวัล"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "วีรบุรุษการรบ"
+
+msgid "section/awards/labels/epic"
+msgstr "เหรียญมหากาพย์"
+
+msgid "section/awards/labels/group"
+msgstr "รางวัลกลุ่ม"
+
+msgid "section/awards/labels/honorary"
+msgstr "ตำแหน่งกิตติมาศักดิ์"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "เครื่องหมายเชิดชูเกียรติ"
+
+msgid "section/awards/labels/memory"
+msgstr "เหรียญที่ระลึก"
+
+msgid "section/awards/labels/special"
+msgstr "พิเศษ"
+
+msgid "section/awards/labels/stage"
+msgstr "รางวัลประจำด่าน"
+
+msgid "section/awards/title"
+msgstr "รางวัล"
+
+msgid "section/collections/title"
+msgstr "ชุดสะสม"
+
+msgid "section/formations/clan/none"
+msgstr "คุณไม่มีกองทัพ"
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "ผู้เล่นไม่ได้เป็นสมาชิกของกองทัพใด"
+
+msgid "section/formations/clan/type"
+msgstr "กองทัพ"
+
+msgid "section/formations/fort/battles"
+msgstr "การรบรุกคืบ"
+
+msgid "section/formations/fort/create"
+msgstr "สร้างฐานที่มั่น"
+
+msgid "section/formations/fort/level"
+msgstr "ระดับฐานที่มั่น: %s"
+
+msgid "section/formations/fort/link"
+msgstr "ความสำเร็จของฐานที่มั่น"
+
+msgid "section/formations/fort/none"
+msgstr "ไม่ได้สร้างฐานที่มั่น"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "กองทัพผู้เล่นไม่ได้มีฐานที่มั่น"
+
+msgid "section/formations/fort/resourceRating"
+msgstr "อัตราการล่าทรัพยากร"
+
+msgid "section/formations/fort/sorties"
+msgstr "การปะทะ"
+
+msgid "section/formations/history/battles"
+msgstr "การรบในฐานะสมาชิก"
+
+msgid "section/formations/history/dates"
+msgstr "วันที่เข้าร่วม/ออก"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s–%(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "ทีม"
+
+msgid "section/formations/history/title"
+msgstr "บันทึกทีมผู้เล่น"
+
+msgid "section/formations/joinDate"
+msgstr "วันเข้าร่วม: %s"
+
+msgid "section/formations/rank"
+msgstr "ลำดับของผู้เล่น: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "ฤดูกาล %s (จบแล้ว)"
+
+msgid "section/formations/team/find"
+msgstr "ไปยังการค้นหาทีมถาวร"
+
+msgid "section/formations/team/league"
+msgstr "ขั้น: %(league)s ดิวิชัน: %(division)s อันดับ: %(position)s"
+
+msgid "section/formations/team/none"
+msgstr "คุณไม่มีทีมถาวร"
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "ผู้เล่นคนดังกล่าวไม่มีทีมถาวร"
+
+msgid "section/formations/team/season"
+msgstr "ฤดูกาล %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "การรบจัดอันดับ"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "ชัยชนะในฤดูกาล"
+
+msgid "section/formations/team/title"
+msgstr "ทีม \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "ทีม"
+
+msgid "section/formations/title"
+msgstr "หน่วยรบยุทธวิธี"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "จำนวนการรบรุกคืบทั้งหมด โดยรวม:\n• ชัยชนะ: %(wins)s\n• พ่ายแพ้ %(losses)s\n• เสมอ: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "การรบรุกคืบ"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "ระดับของฐานที่มั่นนั้นเท่ากับระดับของศูนย์บัญชาการ"
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "ระดับฐานที่มั่น"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "คลิกเพื่อดูความสำเร็จฐานที่มั่นของกองทัพ"
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "ความสำเร็จของฐานที่มั่น"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "ลำดับของคุณ"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "อัตราการล่าทรัพยากร"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "จำนวนการปะทะที่เข้าร่วมทั้งหมดโดยรวม:\n• ชัยชนะ: %(wins)s\n• พ่ายแพ้: %(losses)s\n• เสมอ: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "การปะทะ"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "คลิกเพื่อดูประวัติย่อทีม"
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "ประวัติย่อทีม"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "จำนวนการรบจัดอันดับทั้งหมดที่เข้าร่วมในฐานะสมาชิกของทีมนี้ โดยรวม:\n• ชัยชนะ: %(wins)s\n• พ่ายแพ้: %(losses)s\n• เสมอ: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "การรบจัดอันดับ"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "อัตราชัยชนะรวมในการรบจัดอันดับ"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "ชัยชนะ"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "ปิด"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "ไปยังการจัดอันดับ"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "การจัดอันดับตามความสำเร็จ\nในการรบแบบสุ่ม"
+
+msgid "section/hof/betaBtn"
+msgstr "เบต้า"
+
+msgid "section/hof/betaTooltip"
+msgstr "หอเกียรติยศและการจัดอันดับ World of Tanks กำลังอยู่ในช่วงการทดสอบเบต้า"
+
+msgid "section/hof/mainDescription"
+msgstr "ดูสมรรถนะในการรบของคุณและตำแหน่งในการจัดอันดับในหมู่ผู้เล่นของช่วงที่เลือกไว้"
+
+msgid "section/hof/mainTitle"
+msgstr "หอเกียรติยศ"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "หอเกียรติยศไม่มีให้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "โปรดทราบ"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "แสดงผล"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "ซ่อนผล"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "ใบสมัครสำหรับการซ่อนผลของคุณในการจัดอันดับถูกส่งแล้วและจะทำการประมวลในช่วงการปรับผลครั้งต่อไป"
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "ผลอันดับของคุณตอนนี้ถูกซ่อนจากผู้เล่นคนอื่น"
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "ใบสมัครได้ถูกส่งแล้วและจะถูกประมวลในช่วงการปรับตำแหน่งการจัดอันดับครั้งต่อไป ผลอันดับของคุณในตอนนี้จะแสดงให้ผู้เล่นคนอื่นได้เห็น"
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "ผลการจัดอันดับของคุณถูกแสดงให้ผู้เล่น เพื่อน และเพื่อนร่วมกองทัพทุกคนได้เห็น"
+
+msgid "section/hof/title"
+msgstr "หอเกียรติยศ"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "ไปยังการจัดอันดับ"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "การจัดอันดับตามพาหนะ\nในการรบแบบสุ่ม"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "ภาพข้อมูล"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "ระดับ X"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "ระดับ VI"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "ระดับ VIII"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "สถิติ"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "รายละเอียดการรบรุกคืบ"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "รายละเอียดการปะทะ"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "พิเศษ"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "คะแนนเฉลี่ยต่อการรบ"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "ค่าตัวแปรทั่วไป"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "การรบรุกคืบ"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "การปะทะ"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "คะแนนสถิติ"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "ทรัพยากรอตุสาหกรรม"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "จำนวนการรบทั้งหมดด้วยพาหนะของชั้นนี้"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "ชั้นพาหนะ: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "จำนวนการรบบนยานเกราะระดับนี้"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "ระดับยานเกราะ: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "มีเพียงพาหนะระดับ VI-VIII สามารถทำการรบในรูปแบบนี้ได้"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "ระดับยานเกราะ: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "มีเพียงพาหนะระดับ VIII-X ที่จะสามารถเข้าร่วมการรบแบบนี้ได้"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "ระดับยานเกราะ: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "จำนวนการรบบนยานเกราะชาตินี้"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "ชาติของยานเกราะ: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "จำนวนการรรบทั้งหมดที่ได้อันดับนี้"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "ได้อันดับ: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "จำนวนการรบบนยานเกราะชนิดนี้"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "ชนิดยานเกราะ: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "ตามชั้น"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "โดยระดับ"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "โดยชาติ"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "ตามอันดับ"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "โดยชนิด"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "ความเสียหายต่อพาหนะข้าศึกที่ผู้เล่นทำให้มึนงง"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "ความเสียหายพาหนะที่คุณทำให้มึนงง"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "ความเสียหายที่ทำ"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "ยานเกราะข้าศึกที่ถูกตรวจพบ"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "ความทนทานที่คืนได้"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "จุดสนใจที่ยึดได้"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "คะแนนเกียรติภูมิ"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "ความเสียหายที่ได้รับ"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "ทักษะบทบาทที่ใช้"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "อัตราส่วนความเสียหาย"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "ความเสียหาย"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "ถูกทำลาย"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "อัตราส่วนการทำลาย"
+
+msgid "section/statistics/detailed/killed"
+msgstr "ทำลาย"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "ทำลายพาหนะมากที่สุด"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "ความเสียหายที่ได้รับ"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "จำนวนการมึนงง"
+
+msgid "section/statistics/headerText/all"
+msgstr "แบบสุ่มและกองร้อยรถถัง"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "พรานเหล็ก"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "พรานเหล็ก"
+
+msgid "section/statistics/headerText/clan"
+msgstr "แผนที่โลก"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "การบุกรุก"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "การรบใหญ่"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "การรบอาละวาด"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "ฐานที่มั่น: การรบ"
+
+msgid "section/statistics/headerText/historical"
+msgstr "การรบตามประวัติศาสตร์"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "การรบจัดอันดับ"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "การรบจัดอันดับ 15 ต่อ 15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "ทีม: การรบจัดอันดับ"
+
+msgid "section/statistics/headerText/team"
+msgstr "ทีม: การรบไม่จัดอันดับ"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "จำนวนการรบของยานเกราะ"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "รางวัล"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "ประสิทธิภาพการใช้เกราะ"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "ความเสียหายโดยเฉลี่ยจากการช่วยของคุณ"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "ความเสียหายจากความช่วยเหลือของผู้เล่น"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "ความเสียหายจากการช่วยของคุณ"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "ความเสียหายโดยเฉลี่ยต่อการรบ"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "ค่าประสบการณ์เฉลี่ยต่อการรบ"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "ประสบการณ์"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "จำนวนคะแนนเกียรติภูมิเฉลี่ยต่อการรบ"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "คะแนนชัยชนะเฉลี่ย"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "คะแนนการยึดฐาน"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "ค่าสัมประสิทธิ์ความเสียหายเฉลี่ย"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "ตราความเชี่ยวชาญ: ระดับสูงสุด"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "ล้างคะแนนการยึด"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "ธงถูกทำลาย"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "ส่งธงแล้ว"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "การรบรุกคืบ"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "ชัยชนะ"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "การปล้นสะดมโดยเฉลี่ยต่อการปะทะ"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "การปะทะ"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "ชัยชนะในการปะทะ"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "การโจมตี"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "การป้องกัน"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "ชัยชนะในการรบรุกคืบ"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "การปะทะ"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "ชัยชนะในการปะทะ"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "การปล้นสะดมโดยเฉลี่ยต่อการปะทะ"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "จำนวนทรัพยากรที่ได้จากการปล้นสะดมในการปะทะทั้งหมด"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "การรบรุกคืบ"
+
+msgid "section/statistics/scores/hits"
+msgstr "การยิงเข้า"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "อัตราส่วนการทำลาย"
+
+msgid "section/statistics/scores/looting"
+msgstr "ปล้นสะดม"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "ความเสียหายสูงสุดในการรบหนึ่งครั้ง"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "ความเสียหายสูงสุดจากทักษะต่อการรบ"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "ประสบการณ์สูงสุดในการรบ"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "จำนวนคะแนนเกียรติภูมิสูงสุดต่อการรบ"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "คะแนนชัยชนะสูงสุดที่ได้ในการรบหนึ่งครั้ง"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "การชนะต่อเนื่องสูงสุด (แบบเดียวและแบบหมวดรถถัง/หมวดรถถังใหญ่)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "จุดสนใจที่ยึดได้"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "จำนวนพาหนะที่ทำลายโดยเฉลี่ย"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "ประสิทธิภาพการรบจัดอันดับ"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "คะแนนตำแหน่ง"
+
+msgid "section/statistics/scores/survival"
+msgstr "การรบที่รอดชีวิต"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "การรบ"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "พาหนะ"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "ชัยชนะ"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "ยานเกราะที่ใช้"
+
+msgid "section/statistics/title"
+msgstr "สถิติ"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "ไม่มีรางวัลต่อไป"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "รางวัลไม่มีค่า"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "รางวัลต่อไป"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "รางวัลมีค่า"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "ขั้นโดยเฉลี่ย"
+
+msgid "section/summary/scores/averageRank"
+msgstr "ตำแหน่งโดยเฉลี่ย"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "ความเสียหายโดยเฉลี่ยต่อการรบ"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "ค่าประสบการณ์เฉลี่ยต่อการรบ"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "ตราความเชี่ยวชาญ: ระดับสูงสุด"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "ความเสียหายที่ทำได้"
+
+msgid "section/summary/scores/hits"
+msgstr "การยิงเข้า"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "ทำลายพาหนะมากที่สุด"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "ประสบการณ์สูงสุดในการรบ"
+
+msgid "section/summary/scores/personalScore"
+msgstr "ลำดับส่วนตัว"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "การรบ"
+
+msgid "section/summary/scores/totalWins"
+msgstr "ชัยชนะ"
+
+msgid "section/summary/title"
+msgstr "สรุป"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "ยังไม่ได้รับรางวัลใดๆ"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "ปสก. เฉลี่ย\nต่อการรบ"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "ความเชี่ยวชาญ"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "การรบ"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "ชัยชนะ"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "ชื่อ"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "ดูพาหนะในโรงรถ"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "มีให้ในโรงรถ"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "ไม่มียานเกราะในโรงรถที่ได้เข้ารบการรบแบบสุ่มและการรบกองร้อยรถถัง"
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "ไม่มีพาหนะในโรงรถที่ได้ออกรบในพรานเหล็ก"
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "ไม่มีพาหนะในโรงรถที่ได้ออกรบในพรานเหล็ก"
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "ไม่มีพาหนะคันใดที่ได้เข้าร่วมในรูปแบบการบุกรุก"
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "ไม่มีพาหนะในโรงรถที่ได้เข้าร่วมในรูปแบบการรบใหญ่"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "ไม่มีพาหนะในโรงรถของคุณที่ได้ทำการรบอาละวาด"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "ไม่มียานเกราะในโรงรถที่เคยเข้ารบในการรบรุกคืบ"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "ไม่มียานเกราะในโรงรถที่ได้เข้าร่วมในการปะทะ"
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "ไม่มีพาหนะในโรงรถที่เคยเข้ารบบนแผนที่โลก"
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "ไม่มียานเกราะในโรงรถที่ได้เข้าร่วมการรบตามประวัติศาสตร์"
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "ไม่มีพาหนะในโรงรถที่เคยเข้ารบในการรบจัดอันดับ"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "ไม่มีพาหนะในโรงรถที่ได้เข้าร่วมการรบจัดอันดับ"
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "ไม่มียานเกราะในโรงรถที่ได้เข้ารบการรบแบบทีม"
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "เรียงตามความเสียหายเฉลี่ยต่อการรบ"
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "ความเสียหายเฉลี่ย"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "เรียงตามจำนวนพาหนะข้าศึกที่ถูกทำลายในการรบหนึ่งครัั้ง"
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "เรียงโดยประสบการณ์เฉลี่ยต่อการรบ"
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "ค่าประสบการณ์เฉลี่ย"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "เรียงโดยจำนวนการรบ"
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "การรบ"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "เรียงตามชั้นพาหนะ"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "ชั้น"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "เรียงตามระดับพาหนะ"
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "ระดับ"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "เรียงโดยเหรียญความเชี่ยวชาญ"
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "ความเชี่ยวชาญ"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "เรียงตามชื่อพาหนะ"
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "ชื่อ"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "เรียงโดยชาติ"
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "ประเทศ"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "เรียงตามขั้นชั้นยอด"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "ระบบชั้นยอด"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "เรียงตามคะแนนเกียรติภูมิเฉลี่ยต่อการรบ"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "จำนวนคะแนนเกียรติภูมิเฉลี่ยต่อการรบ"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "เรียงตามชนิดพาหนะ"
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "ชนิด"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "เรียงตามอัตราชัยชนะ"
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "ชัยชนะ"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "เรียงโดยจำนวนชัยชนะ"
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "ชัยชนะ"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "การยิงเข้า"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "ความเสียหายต่อพาหนะข้าศึกที่ผู้เล่นทำให้มึนงง"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "ความเสียหายพาหนะที่คุณทำให้มึนงง"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "ความเสียหายต่อพาหนะข้าศึกที่คุณทำให้มึนงง"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "ความเสียหายที่ทำ"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "ยานเกราะข้าศึกที่ตรวจจับได้"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "ประสบการณ์"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "ความเสียหายที่ได้รับ"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "ความเสียหายจากความช่วยเหลือของผู้เล่น"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "คะแนนเฉลี่ยต่อการรบ"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "จำนวนการมึนงง"
+
+msgid "section/technique/statistics/common"
+msgstr "ค่าตัวแปรทั่วไป"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "อัตราส่วนความเสียหาย"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "อัตราส่วนการทำลาย"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "ความเสียหายสูงสุดในการรบหนึ่งครั้ง"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "ทำลายพาหนะมากที่สุด"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "ประสบการณ์สูงสุดในการรบ"
+
+msgid "section/technique/statistics/records"
+msgstr "คะแนนสถิติ"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "จำนวนการมึนงง"
+
+msgid "section/technique/statistics/survival"
+msgstr "การรบที่รอดชีวิต"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "ประสิทธิภาพการใช้เกราะ"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "การรบ"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "ชัยชนะ"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "รางวัล"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "ดูรางวัลของยานเกราะที่เลือกไว้"
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "รางวัล"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "สถิติ"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "ดูสถิติของยานเกราะที่เลือกไว้"
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "สถิติ"
+
+msgid "section/technique/title"
+msgstr "พาหนะ"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "มีให้ในโรงรถ"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "เปิดใช้ตัวกรองเพื่อดูสถิติในโหมดการรบ"
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "เรียงโดยชนิดการรบ"

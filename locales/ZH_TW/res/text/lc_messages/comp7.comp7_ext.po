@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "伺服器上的戰鬥將於 %(primeDelta)s後可進行"
+
+msgid "alertMessage/allNotSet"
+msgstr "所有伺服器均無法進行此模式"
+
+msgid "alertMessage/ban"
+msgstr "您暫時遭此模式封鎖。剩餘時間：%(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "變更伺服器"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "詳情"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "此模式不適用於您當前的伺服器 %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "所有伺服器均無法進行此模式。"
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "您必須擁有至少 %(count)s 輛適用於此模式的車輛。詳情請參閱「關於天梯戰」頁面。"
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "適用車輛不足"
+
+msgid "alertMessage/modeOffline"
+msgstr "資料庫錯誤。無法進行遊戲模式。"
+
+msgid "alertMessage/noVehicles"
+msgstr "車庫中沒有適合的 %(levels)s 階車輛 %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "無法在 %(serverName)s 伺服器進行戰鬥"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "無法在 %(serverName)s 伺服器進行戰鬥"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "適用車輛不足 %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "alertMessage/preannounce/first"
+msgstr "蒼藍蛟龍賽季開始於：%(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "緋紅蛟龍賽季開始於：%(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "翠綠蛟龍賽季開始於：%(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "正在等待外圍賽結果來決定您的位階"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "蒼藍蛟龍賽季已結束"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "緋紅蛟龍賽季已結束"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "翠綠蛟龍賽季已結束"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "此伺服器上的戰鬥將於 %(primeDelta)s後可進行"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s 天"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s 小時 %(min)s 分鐘"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 分鐘"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s 分鐘"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "車庫中沒有適合的 %(levels)s 階車輛"
+
+msgid "awardsWidget/description/award"
+msgstr "點擊來選擇並領取您的獎勵。"
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "最終獎勵暫時無法使用。我們為帶來的不便感到抱歉。"
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "領取\n獎勵"
+msgstr[1] "領取\n獎勵"
+msgstr[2] "領取\n獎勵"
+
+msgid "banView/actionButtons/confirm"
+msgstr "投票"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "您已投票禁用 %(vehicleName)s"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "不禁用"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "提議禁用車輛"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "您只能在\n禁用投票階段投票"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "您提議禁用：\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "您的隊友已選擇\n您想禁用的車輛"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "等待禁用投票階段結束"
+
+msgid "banView/button/back"
+msgstr "返回"
+
+msgid "banView/button/ban"
+msgstr "前往禁用選擇"
+
+msgid "banView/button/description"
+msgstr "前往車輛選擇"
+
+msgid "banView/description/prepick"
+msgstr "選擇最適合此地圖與您隊伍陣容的車輛"
+
+msgid "banView/description/voting"
+msgstr "選擇您想在這場戰鬥中禁用的車輛"
+
+msgid "banView/factory/candidate"
+msgstr "禁用候選：%(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "隊伍禁用候選"
+
+msgid "banView/factory/noCandidates"
+msgstr "無禁用候選"
+
+msgid "banView/factory/pick"
+msgstr "您的候選車輛：%(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "不禁用"
+
+msgid "banView/title/prepick"
+msgstr "車輛預選階段"
+
+msgid "banView/title/voting"
+msgstr "禁用投票階段"
+
+msgid "banView/tooltip/confirmed"
+msgstr "投票已確認"
+
+msgid "banView/tooltip/noAction"
+msgstr "未進行操作"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "此玩家尚未提議禁用車輛。"
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "已提議"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "驅逐戰車"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "重型戰車"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "輕型戰車"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "中型戰車"
+
+msgid "banView/withoutBan"
+msgstr "不禁用"
+
+msgid "banWidget/allies"
+msgstr "我方投票"
+
+msgid "banWidget/enemies"
+msgstr "敵方投票"
+
+msgid "banWidget/tooltip"
+msgstr "隊伍未就禁用車輛達成共識，因此已從票數最高的車輛中隨機禁用一輛。"
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "按類型、角色與國家來設置車輛顯示。"
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "按參數過濾"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "此處僅會顯示適用於模式的車輛。"
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "沒有車輛符合所選參數"
+
+msgid "battleMessages/enableVOIP"
+msgstr "隊伍已組成。選擇車輛並開始戰鬥！\n加入語音聊天（%(keyName)s）"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "隊伍已組成。選擇車輛並開始戰鬥！\n指派快捷鍵以快速加入語音聊天。"
+
+msgid "battleMessages/withoutVOIP"
+msgstr "隊伍已組成。選擇車輛並開始戰鬥！\n若要加入語音聊天，請在遊戲設定中開啟該功能。"
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "模式詳情（F1）"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "可視範圍已擴大"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "乘員特性已改善"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "血量正在恢復"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "血量正在恢復"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "乘員特性已改善"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "乘員特性已改善"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "炮管裝填速度已提高"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "車輛特性已改善"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "血量正在恢復"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "車輛特性已改善"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "車輛特性已改善"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "機動性已改善"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "血量正在恢復"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "炮管擴散度已降低"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "車輛特性已改善"
+
+msgid "battleResult/header/deserter"
+msgstr "您受到處罰：評價點數扣除"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "您已被懲罰。完成外圍賽後，您的評價將降低。"
+
+msgid "battleResult/label/deserter"
+msgstr "擅離職守"
+
+msgid "battleResult/message/deserter"
+msgstr "您已被懲罰。\n失去的評價點數：%(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "您在戰場上擅離職守。\n完成外圍賽後，您的評價將降低。"
+
+msgid "battleResult/message/header/deserter"
+msgstr "缺乏運動精神的行為"
+
+msgid "battleResult/personal/label"
+msgstr "評價點數"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "反映玩家在排名系統中的最新進度。獲得或失去評價點數，取決於您在模式中的表現。"
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• 在模式戰鬥中戰敗/平手\n• 受到處罰\n• 評價不活躍"
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "評價點數會因以下原因遭扣除："
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "評價點數"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "外圍賽戰鬥"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "外圍賽"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "已獲得評價點數。要維持「傳奇」位階，必須在排行榜上保持前 %(topPercentage)d%% 的排名。"
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "已獲得評價點數。要達到「傳奇」位階，必須在排行榜上達到前 %(topPercentage)d%% 的排名。"
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "已獲得評價點數"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "已失去評價點數。要維持「傳奇」位階，必須在排行榜上保持前 %(topPercentage)d%% 的排名。"
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "已失去評價點數。要達到「傳奇」位階，必須在排行榜上達到前 %(topPercentage)d%% 的排名。"
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "已失去評價點數"
+
+msgid "battleResult/subTask/rating"
+msgstr "評價點數：%(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "您已被降至「%(rank)s」的%(division)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "「%(rank)s」的%(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "您已被升至「%(rank)s」的%(division)s"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "參戰數（單日）：%(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "包括："
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "參戰數（賽季）：%(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "單人/裝甲排：%(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "超級裝甲排：%(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "蒼藍蛟龍賽季將持續 %(days)d 天"
+msgstr[1] "蒼藍蛟龍賽季將持續 %(days)d 天"
+msgstr[2] "蒼藍蛟龍賽季將持續 %(days)d 天"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "緋紅蛟龍賽季將持續 %(days)d 天"
+msgstr[1] "緋紅蛟龍賽季將持續 %(days)d 天"
+msgstr[2] "緋紅蛟龍賽季將持續 %(days)d 天"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "翠綠蛟龍賽季將持續 %(days)d 天"
+msgstr[1] "翠綠蛟龍賽季將持續 %(days)d 天"
+msgstr[2] "翠綠蛟龍賽季將持續 %(days)d 天"
+
+msgid "calendarDay/title"
+msgstr "時間表"
+
+msgid "carousel/banned"
+msgstr "已禁用"
+
+msgid "claimRewards/button"
+msgstr "領取獎勵"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "此操作由於技術性問題而暫時無法使用。我們正在處理該問題。"
+
+msgid "closeButtonLabel"
+msgstr "關閉"
+
+msgid "controls/compare"
+msgstr "比較"
+
+msgid "controls/preview"
+msgstr "預覽"
+
+msgid "countDown/text"
+msgstr "活動開始於：\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 分鐘"
+
+msgid "crewMembersTooltip/description"
+msgstr "此組特殊乘員由來自世界各地的戰車手組成，並在他們車長的領導下團結一心。所有乘員已有「情同手足」為零歷練與足以再訓練 2 個歷練的乘員經驗，讓他們能提升車輛性能，更能在戰場上發揮各自的潛能。"
+
+msgid "crewMembersTooltip/perks"
+msgstr "歷練"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "天梯戰：蛟龍年"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "零歷練"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "平均傷害（單日）：%(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "造成的總傷害與參戰數的比。"
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "平均傷害（賽季）：%(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "每日傷害紀錄：%(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "造成的最高傷害，在駕駛 %(vehicleName)s 進行戰鬥時達成"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "賽季傷害紀錄：%(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "很抱歉暫時為您帶來不便。請稍後再次嘗試更新此頁面。"
+
+msgid "dataError/title"
+msgstr "載入資料時發生錯誤"
+
+msgid "dayTooltip/day"
+msgstr "第 %(index)s 天"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "第 %(index)s 天：未進行過戰鬥。"
+
+msgid "dayTooltip/noBattles"
+msgstr "汝欲和平，必先備戰"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "評價不活躍：%(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s 評價點數"
+msgstr[1] "%(pointsCount)s 評價點數"
+msgstr[2] "%(pointsCount)s 評價點數"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "評價點數變動：%(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "第 %(index)s 天（今天）"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "第 %(index)s 天：今天未進行過戰鬥。"
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "分組"
+
+msgid "division/text"
+msgstr "分組 %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "此分組中的玩家評價點數介於&nbsp;{eeede9e6_Open}%(fromScore)&nbsp;到&nbsp;%(toScore){eeede9e6_Close}。"
+
+msgid "divisionTooltip/heading"
+msgstr "分組 %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "評價點數"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "參戰數"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)s結果將出爐..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)s結果將出爐"
+
+msgid "entryPointTooltip/description"
+msgstr "主打 %(levels)s 階車輛 7v7 戰鬥的競賽模式。衝刺位階來獲取獨特自訂要素、車輛、點券與其他珍貴獎勵。"
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "模式"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — 遊戲模式。點擊以探索"
+
+msgid "entryPointTooltip/status/active"
+msgstr "可用於 %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "休戰期 %(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "將可用於：\n%(timer)s"
+
+msgid "featureName"
+msgstr "天梯戰"
+
+msgid "featureNameCapitalized"
+msgstr "天梯戰"
+
+msgid "fifthRankTooltip/description"
+msgstr "{eeede9e6_Open}勇士{eeede9e6_Close}位階會頒發給獲得至少 {eeede9e6_Open}%(fromScore){eeede9e6_Close} 評價點數的玩家。"
+
+msgid "forVehicle"
+msgstr "適用於：%(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "獲得評價點數介於 {eeede9e6_Open}%(fromScore) 到 %(toScore){eeede9e6_Close} 的玩家會獲頒{eeede9e6_Open}黑鐵{eeede9e6_Close}位階。"
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "獲得評價點數介於 {eeede9e6_Open}%(fromScore) 到 %(toScore){eeede9e6_Close} 的玩家會獲頒{eeede9e6_Open}黃金{eeede9e6_Close}位階。"
+
+msgid "generalRankTooltip/body/second"
+msgstr "獲得評價點數介於 {eeede9e6_Open}%(fromScore) 到 %(toScore){eeede9e6_Close} 的玩家會獲頒{eeede9e6_Open}青銅{eeede9e6_Close}位階。"
+
+msgid "generalRankTooltip/body/third"
+msgstr "獲得評價點數介於 {eeede9e6_Open}%(fromScore) 到 %(toScore){eeede9e6_Close} 的玩家會獲頒{eeede9e6_Open}白銀{eeede9e6_Close}位階。"
+
+msgid "generalRankTooltip/subheading"
+msgstr "包括的分組：%(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "關於活動"
+
+msgid "intro/confirmButton"
+msgstr "了解！"
+
+msgid "intro/description/banPhase"
+msgstr "每個隊伍可完全禁用一輛車輛，使其無法參與戰鬥。與隊友協調投票來排除您最忌憚的戰車，或準備出乎敵人意料外的陣容。若您的車輛遭禁用，您可改為選擇數輛預先配置的租用車輛之一。"
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "模式變項會改變車輛的特定參數，如車輛生命值、消耗品冷卻時間、可持續被見到的時間等。"
+
+msgid "intro/description/pointsOfInterest"
+msgstr "一旦您佔領地圖上的特定區域，您將能使用戰術技能。地圖上有兩種關鍵點位：「炮兵總部」可讓您對特定位置進行火炮攻擊，而「通訊中心」可讓您偵察到所有敵方車輛。根據不同地圖，這些關鍵點位的存在與位置可能有變。"
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "進行 %(count)s 場外圍賽戰鬥以決定您的技巧程度與位階。完成這些戰鬥後，您將獲得達到之位階和所有較低位階相應的獎勵。\n\n在外圍賽戰鬥擅離職守或平手，均視為戰敗。"
+msgstr[1] "進行 %(count)s 場外圍賽戰鬥以決定您的技巧程度與位階。完成這些戰鬥後，您將獲得達到之位階和所有較低位階相應的獎勵。\n\n在外圍賽戰鬥擅離職守或平手，均視為戰敗。"
+msgstr[2] "進行 %(count)s 場外圍賽戰鬥以決定您的技巧程度與位階。完成這些戰鬥後，您將獲得達到之位階和所有較低位階相應的獎勵。\n\n在外圍賽戰鬥擅離職守或平手，均視為戰敗。"
+
+msgid "intro/description/ranks"
+msgstr "反映玩家技巧的系統。位階越高，獲得的獎勵越優渥。從「黑鐵」挺進到「傳奇」位階並獲得珍貴獎勵。在蛟龍年一路奮戰以獲取獨特年度獎勵。"
+
+msgid "intro/description/roleSkills"
+msgstr "每輛車輛均有與角色相應的特殊技能，該技能有三個充能等級。啟用技能時，充能等級越高，效果越強大。充能等級將取決於獲得的威望點數數量，後者可藉由在戰鬥中達成出色表現、佔領關鍵點位、使用戰術技能等方式獲取。\n\n查看模式規則來深入了解有關獲得威望點數的不同方式。"
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "您可駕駛 %(levels)s 階可研發車輛 (自走炮除外)、收藏車輛與部分特殊車輛進入戰鬥。在車庫中準備您的車輛，接著在您進入戰鬥後，根據地圖特色並考量隊友選擇的車輛，來選擇最合適的車輛。"
+
+msgid "intro/title/banPhase"
+msgstr "車輛禁用"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "天梯戰變項"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "關鍵點位"
+
+msgid "intro/title/qualification"
+msgstr "外圍賽"
+
+msgid "intro/title/ranks"
+msgstr "排名系統"
+
+msgid "intro/title/roleSkills"
+msgstr "角色技能"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "依地圖特性選擇車輛"
+
+msgid "lastUpdateNote/info"
+msgstr "更新於：%(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "「傳奇」位階中最後一名玩家的評價點數\n會每隔 %(count)s 分鐘更新。"
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "更新資料中..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "排行榜會每隔 %(count)s 分鐘更新一次。"
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "上次更新：%(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "我的排名"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "達到「勇士」或「傳奇」位階以進入排行榜。"
+
+msgid "leaderboard/error/buttonText"
+msgstr "更新"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "「勇士」與「傳奇」位階的玩家將名列排行榜。獲得 {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close} 評價點數並攻上榜首！"
+
+msgid "leaderboard/noRecords/title"
+msgstr "無玩家名列當前賽季的排行榜"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "戰鬥數"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "玩家名稱"
+
+msgid "leaderboard/table/header/score"
+msgstr "評價點數"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "當前賽季期間，玩家在「天梯戰」模式進行過的戰鬥數。"
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "戰鬥數"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "玩家的評價排名。"
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "排名"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "在評價中保有排名的玩家名稱。"
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "玩家名稱"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "當前賽季期間獲得的評價點數。"
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "評價點數"
+
+msgid "listSeparator"
+msgstr "、"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "裝甲排中的玩家"
+
+msgid "noVehicles/howTo/premium"
+msgstr "擁有《戰車世界》加值帳號"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "啟用個人儲備"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "完成任務"
+
+msgid "noVehicles/howTo/title"
+msgstr "獲得 %(levels)s 階車輛最快的方式為何？"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "要參與天梯戰，您車庫中必須擁有至少一輛適用於此模式的 %(levels)s 階車輛。\n您已研發了一輛 %(levels)s 階車輛，但您尚未獲得此車輛。"
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "要參與天梯戰，您車庫中必須擁有至少一輛適用於此模式的 %(levels)s 階車輛。\n您有一輛可重新找回的 %(levels)s 階車輛。"
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "要參與天梯戰，您車庫中必須擁有至少一輛適用於此模式的 %(levels)s 階車輛。"
+
+msgid "noVehicles/title"
+msgstr "您車庫中沒有適合的車輛"
+
+msgid "page/heading/leaderboard"
+msgstr "排行榜"
+
+msgid "page/heading/progression"
+msgstr "排名系統"
+
+msgid "page/heading/qualification"
+msgstr "外圍賽"
+
+msgid "page/heading/rankRewards"
+msgstr "位階獎勵"
+
+msgid "page/heading/shop"
+msgstr "天梯戰商店"
+
+msgid "page/heading/weeklyQuests"
+msgstr "每週任務"
+
+msgid "page/heading/yearlyRewards"
+msgstr "年度獎勵"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "年度統計"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "繼續"
+
+msgid "pagination/prev"
+msgstr "返回"
+
+msgid "pbs/bans/title"
+msgstr "已禁用車輛"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "天梯戰 2D 風格"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "2D 風格任務已完成！"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "每週任務 #%(count)s 已完成！"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "每週任務已完成！"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "天梯戰每週任務"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "戰敗，因為您"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "平手，因為您"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "勝利，但您"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "升至「%(rank)s」"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "「%(rank)s」的%(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "降至「%(rank)s」的%(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "升至「%(rank)s」的%(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "參戰數"
+
+msgid "pbs/overview/qualification/title"
+msgstr "外圍賽"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "您受到紀律處罰：評價點數扣除"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "您已遭受紀律處罰：完成外圍賽後，您的評價將降低。"
+
+msgid "pbs/rankDescription/fifth"
+msgstr "要達到「傳奇」位階，必須成為置身排行榜{ede6d9e5_Open}前 %(topPercentage)%{ede6d9e5_Close} 的玩家。"
+
+msgid "pbs/rankDescription/sixth"
+msgstr "要維持「傳奇」位階，必須成為置身排行榜{ede6d9e5_Open}前 %(topPercentage)%{ede6d9e5_Close} 的玩家。"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "詳見「關於天梯戰」頁面。"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "威望點數"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "造成傷害\n偵察協助\n摧毀履帶\n造成重傷\n摧毀敵方車輛\n與其他行為"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "此特殊資源會影響在戰鬥中獲得與失去的評價點數數量。可透過執行戰鬥行為來獲取威望點數，包括："
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "平均威望點數（單日）：%(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "獲得威望點數總數與參戰數的比。"
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "平均威望點數（賽季）：%(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "每日威望點數紀錄：%(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "獲得的威望點數，在駕駛 %(vehicleName)s 進行戰鬥時達成"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "賽季威望點數紀錄：%(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "%(server)s 伺服器上的蒼藍蛟龍賽季已結束。"
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "%(server)s 伺服器上的緋紅蛟龍賽季已結束。"
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "%(server)s 伺服器上的翠綠蛟龍賽季已結束。"
+
+msgid "products/actions/buy"
+msgstr "購買"
+
+msgid "products/actions/restore"
+msgstr "前往倉庫"
+
+msgid "products/actions/toCustomization"
+msgstr "前往風格"
+
+msgid "products/actions/toHangar"
+msgstr "在車庫中檢視"
+
+msgid "products/customizationUnavailable/body"
+msgstr "無法前往風格。這可能是因為：您尚未擁有此車輛；車輛正在戰術單位中；車輛正於戰鬥中；或車輛需要修理。"
+
+msgid "products/customizationUnavailable/title"
+msgstr "無法使用"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "在下一個賽季開始前，您將依{eeede9e6_Open}達到{eeede9e6_Close}的{eeede9e6_Open}最高{eeede9e6_Close}{eeede9e6_Open}位階{eeede9e6_Close}解鎖相應物品與折扣。"
+
+msgid "products/discountSectionName"
+msgstr "物品與折扣的解鎖條件"
+
+msgid "products/inProgress"
+msgstr "請稍候，您的購買正在處理中..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "每個賽季可以購買：%(count)s 個"
+
+msgid "products/message/notEnough"
+msgstr "資金不足。無法購買。"
+
+msgid "products/message/rankAccess"
+msgstr "購買要求\n達到%(rank)s"
+
+msgid "products/newLabel"
+msgstr "新"
+
+msgid "products/priceSectionName"
+msgstr "價格"
+
+msgid "products/productAccess"
+msgstr "解鎖\n物品"
+
+msgid "products/purchased"
+msgstr "已購買"
+
+msgid "products/rankAccess"
+msgstr "達到%(rank)s位階可解鎖"
+
+msgid "products/readyToRestore"
+msgstr "可重新找回"
+
+msgid "products/readyToRestoreDescription"
+msgstr "可在倉庫中重新找回"
+
+msgid "products/style3d"
+msgstr "%(name)s3D 風格"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "回到賽季統計"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "賽季統計"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "第 %(day)s 天的統計"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "今天的統計"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "每一欄顯示所選當日與翌日黃金時段間的數據。在某些情況下，可能包括兩個遊戲日的戰鬥。"
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "每一欄顯示所選當日與翌日黃金時段間的數據。在某些情況下，可能包括兩個遊戲日的戰鬥。"
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "此區塊僅在有新數據時更新。您可按下重新整理按鈕來請求更新。"
+
+msgid "progressionPage/chartHeader/update"
+msgstr "更新於：%(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "恭喜！"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "您已完成所有的 2D 風格任務。"
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "系列任務，完成即可解鎖當前賽季漸變 2D 風格的全新要素。"
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "2D 風格任務：%(taskNumber)s"
+msgstr[1] "2D 風格任務：%(taskNumber)s"
+msgstr[2] "2D 風格任務：%(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "2D 風格任務"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "前往風格"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "所有風格目前已套用到不可用的車輛"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "無車輛可套用風格"
+
+msgid "progressionPage/error/refresh"
+msgstr "重新整理"
+
+msgid "progressionPage/error/refreshing"
+msgstr "重新整理中..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "平均傷害"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "平均威望點數"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "評價變動 %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "紀錄在%(seasonRecordDescriptionDay)s締造"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "第 %(day)s 天"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "前往統計詳情"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "計入：\n• 在您偵察下的傷害（包括技能協助下造成的傷害）\n• 在您摧毀敵方車輛履帶並使其無法移動下造成的傷害（包括技能協助下造成的傷害）\n• 在您技能協助下隊友造成的傷害\n• 隊友對受到震盪之敵方車輛的傷害（包括技能協助下造成的傷害）"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "總參戰數"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "造成傷害總量與參戰數的比"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "摧毀敵方車輛數與自身車輛被摧毀次數的比"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "「造成的傷害」與「受到的傷害」的比"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "獲得威望點數總數與參戰數的比"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "參戰數最多的車輛"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "總勝率"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "在您協助下平均造成的傷害"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "戰鬥"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "造成的平均傷害"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "摧毀比"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "傷害比"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "每場戰鬥平均威望點數"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "車輛名稱"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "勝利"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "車輛統計"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "評價下修前的剩餘天數：{eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "未在「天梯戰」模式進行戰鬥將讓您失去 {eeede9e6_Open}%(count)s{eeede9e6_Close} 評價點數。"
+msgstr[1] "未在「天梯戰」模式進行戰鬥將讓您失去 {eeede9e6_Open}%(count)s{eeede9e6_Close} 評價點數。"
+msgstr[2] "未在「天梯戰」模式進行戰鬥將讓您失去 {eeede9e6_Open}%(count)s{eeede9e6_Close} 評價點數。"
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "（1&nbsp;場戰鬥&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;活躍點數）"
+msgstr[1] "（1&nbsp;場戰鬥&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;活躍點數）"
+msgstr[2] "（1&nbsp;場戰鬥&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;活躍點數）"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "在您處於當前位階時，您不會因未進行模式戰鬥而失去評價點數，然而要是達到以下位階，您可能會因此失去評價點數：%(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "您的位階會受到不活躍的影響"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "您的位階不會受到不活躍的影響"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "位階"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "排行榜前 %(topPercentage)s% 的玩家"
+
+msgid "progressionTooltip/division"
+msgstr "分組 %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "此分組中的玩家評價點數介於 {eeede9e6_Open}%(fromScore) 到 %(toScore){eeede9e6_Close}。"
+
+msgid "progressionTooltip/info/fifth"
+msgstr "「勇士」位階會頒發給獲得至少 {eeede9e6_Open}%(fromScore){eeede9e6_Close} 評價點數的玩家。"
+
+msgid "progressionTooltip/info/sixth"
+msgstr "「傳奇」位階會頒發給置身排行榜{eeede9e6_Open}前 %(topPercentage)%{eeede9e6_Close} 的玩家。"
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "在此模式進行 %(maxBattlesCount)s 場戰鬥以決定您的技巧程度與位階。"
+msgstr[1] "在此模式進行 %(maxBattlesCount)s 場戰鬥以決定您的技巧程度與位階。"
+msgstr[2] "在此模式進行 %(maxBattlesCount)s 場戰鬥以決定您的技巧程度與位階。"
+
+msgid "progressionTooltip/qualificationName"
+msgstr "外圍賽"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "評價下修前的剩餘天數：{eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "未在「天梯戰」模式進行戰鬥將讓您失去 {eeede9e6_Open}%(count)s{eeede9e6_Close} 評價點數。"
+msgstr[1] "未在「天梯戰」模式進行戰鬥將讓您失去 {eeede9e6_Open}%(count)s{eeede9e6_Close} 評價點數。"
+msgstr[2] "未在「天梯戰」模式進行戰鬥將讓您失去 {eeede9e6_Open}%(count)s{eeede9e6_Close} 評價點數。"
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s 您的位階會受到評價不活躍的影響"
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "在今天結束前進行戰鬥以維持您的位階。"
+
+msgid "progressionTooltip/ratingScore"
+msgstr "評價點數"
+
+msgid "purchase/affirmative"
+msgstr "了解！"
+
+msgid "purchase/cancelButton"
+msgstr "返回"
+
+msgid "purchase/confirmButton"
+msgstr "購買"
+
+msgid "purchase/error/description"
+msgstr "無法完成購買。請稍後再試。"
+
+msgid "purchase/error/title"
+msgstr "錯誤"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)s您車庫中沒有適合此風格的車輛"
+
+msgid "purchase/price"
+msgstr "購買價格："
+
+msgid "purchase/success/heading"
+msgstr "感謝您的購買！"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)s購買的物品將於不久後存入您的遊戲帳號"
+
+msgid "purchase/success/style3d"
+msgstr "%(vehicleName)s 的%(name)s3D 風格"
+
+msgid "purchase/title/style3d"
+msgstr "要購買%(name)s3D 風格？"
+
+msgid "purchase/title/vehicle"
+msgstr "要購買%(name)s？"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "在此模式進行 {eeede9_Open}%(maxBattlesCount)s 場戰鬥{eeede9_Close}以決定您的技巧程度與位階。"
+msgstr[1] "在此模式進行 {eeede9_Open}%(maxBattlesCount)s 場戰鬥{eeede9_Close}以決定您的技巧程度與位階。"
+msgstr[2] "在此模式進行 {eeede9_Open}%(maxBattlesCount)s 場戰鬥{eeede9_Close}以決定您的技巧程度與位階。"
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "要完成外圍賽，進行 %(maxBattlesCount)s 場戰鬥並等待評價計算。您在外圍賽的戰鬥表現會影響您的位階。\n要是在外圍賽戰鬥擅離職守，對您外圍賽結果的影響將比慘敗更嚴重。"
+msgstr[1] "要完成外圍賽，進行 %(maxBattlesCount)s 場戰鬥並等待評價計算。您在外圍賽的戰鬥表現會影響您的位階。\n要是在外圍賽戰鬥擅離職守，對您外圍賽結果的影響將比慘敗更嚴重。"
+msgstr[2] "要完成外圍賽，進行 %(maxBattlesCount)s 場戰鬥並等待評價計算。您在外圍賽的戰鬥表現會影響您的位階。\n要是在外圍賽戰鬥擅離職守，對您外圍賽結果的影響將比慘敗更嚴重。"
+
+msgid "qualification/conditionTooltip/header"
+msgstr "外圍賽規則"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "參戰數"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s 正在等待外圍賽結果來決定您的位階"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "根據外圍賽結果來計算您的評價可能需要等待至多 5 分鐘。此後，您將獲得一個位階並可繼續在天梯戰進行戰鬥。"
+
+msgid "qualification/rewardsButton"
+msgstr "前往獎勵"
+
+msgid "qualification/rewardsDescription"
+msgstr "完成外圍賽後，您將獲得達到之位階和所有較低位階相應的獎勵。"
+
+msgid "quotesWrapper"
+msgstr "「%(name)s」"
+
+msgid "rank/achieved"
+msgstr "已達到"
+
+msgid "rank/current"
+msgstr "當前"
+
+msgid "rank/fifth"
+msgstr "勇士"
+
+msgid "rank/first"
+msgstr "黑鐵"
+
+msgid "rank/fourth"
+msgstr "黃金"
+
+msgid "rank/qualification"
+msgstr "外圍賽"
+
+msgid "rank/second"
+msgstr "青銅"
+
+msgid "rank/sixth"
+msgstr "傳奇"
+
+msgid "rank/text"
+msgstr "「%(rank)s」位階"
+
+msgid "rank/third"
+msgstr "白銀"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "玩家位階"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "裝甲排戰友位階"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "裝甲排僅能由位階相近的玩家組成。"
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "%(count)s 人裝甲排的位階限制"
+
+msgid "rankInactivityTooltip/description"
+msgstr "若您未在此模式進行戰鬥，您將會失去評價點數。"
+
+msgid "rankInactivityTooltip/heading"
+msgstr "評價不活躍"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "您評價下降倒數天數：%(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "每日評價"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "評價點數變動：%(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "所選當日與前一日的評價點數差異。"
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "每日評價紀錄：%(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "所選當日達到的最高評價。"
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "第 %(day)s 天"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "賽季評價紀錄在 %(dayOfRecord)s 締造"
+
+msgid "rankInfo/current/fifth"
+msgstr "「勇士」位階會頒發給獲得至少 {eeede9e6_Open}%(fromScore){eeede9e6_Close} 評價點數的玩家。"
+
+msgid "rankInfo/current/sixth"
+msgstr "「傳奇」位階會頒發給置身排行榜{eeede9e6_Open}前 %(topPercentage)%{eeede9e6_Close} 的玩家。"
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "要達到「傳奇」位階，必須成為置身評價點數排行榜{eeede9e6_Open}前 %(topPercentage)%{eeede9e6_Close} 的玩家。"
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "要維持「傳奇」位階，必須保住置身評價點數排行榜{eeede9e6_Open}前 %(topPercentage)%{eeede9e6_Close} 的排名。"
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "要達到「傳奇」位階，必須成為置身評價點數排行榜{eeede9e6_Open}前&nbsp;%(topPercentage)%{eeede9e6_Close}&nbsp;的玩家。「傳奇」位階中最後一名玩家獲得的評價點數：{eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "要維持「傳奇」位階，必須保住置身評價點數排行榜{eeede9e6_Open}前&nbsp;%(topPercentage)%{eeede9e6_Close}&nbsp;的排名。「傳奇」位階中最後一名玩家獲得的評價點數：{eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "勇士"
+
+msgid "rankUpper/first"
+msgstr "黑鐵"
+
+msgid "rankUpper/fourth"
+msgstr "黃金"
+
+msgid "rankUpper/second"
+msgstr "青銅"
+
+msgid "rankUpper/sixth"
+msgstr "傳奇"
+
+msgid "rankUpper/text"
+msgstr "「%(rank)s」位階"
+
+msgid "rankUpper/third"
+msgstr "白銀"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "您可從下方清單裡選擇一個改良型裝備：\n\n• 改良型排氣系統\n• 新型瞄準系統\n• 強化型迴轉機制\n• 改良型渦輪增壓器\n• 抗彈性強化\n• 改良型車輛配置\n• 實驗型望遠鏡\n• 新型裝填系統\n• 通風系統\n• 耐磨型火炮控制裝置\n• 穩定設備系統\n• 伸縮式觀測系統\n• 戰術偽裝網"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "您可從下方清單中選擇一個試驗型裝備：\n\n• 射控系統等級 3\n• 生存能力改良套件等級 3\n• 機動性改良系統等級 3\n• 準度改良系統等級 3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "「%(name)s」迷彩"
+
+msgid "rewards/preview"
+msgstr "預覽"
+
+msgid "rewards/status/achieved"
+msgstr "已獲得獎勵"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}適用於 %(vehicleLevel)s 階車輛{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}適用於「%(progressionStyleName)s」風格{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "%(vehicleLevel)s 階"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "您還獲得了："
+
+msgid "rewardsScreen/button"
+msgstr "了解！"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "前往獎勵"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "選擇獎勵"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "前往購買"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "天梯戰：外圍賽已完成"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "天梯戰：蒼藍蛟龍賽季"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "天梯戰：緋紅蛟龍賽季"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "天梯戰：翠綠蛟龍賽季"
+
+msgid "rewardsScreen/description/year"
+msgstr "天梯戰：蛟龍年"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "我的 Ashbringer 哪去了？"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "尚未獲得位階"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "達到此位階後，要是您停止在「天梯戰」模式進行戰鬥，您可能會失去評價點數。"
+
+msgid "rewardsScreen/notice/title"
+msgstr "評價不活躍"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "天梯戰錦旗\n總數"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "選擇裝備"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "選擇獎勵"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "天梯戰商店開放新折扣！"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "天梯戰商店有新品上架！"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "在下一個賽季開始前，您將依達到的最高位階解鎖相應物品與折扣。"
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "在下一個賽季開始前，您將依達到的最高位階解鎖相應物品與折扣。"
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}「%(rank)s」位階{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "根據外圍賽結果，您獲得了以下位階的獎勵：{ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr "、"
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "您因晉升至{ffe4c0_Open}「%(rank)s」{ffe4c0_Close}位階而獲得獎勵"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "完成 {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} 個每週任務的獎勵"
+msgstr[1] "完成 {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} 個每週任務的獎勵"
+msgstr[2] "完成 {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} 個每週任務的獎勵"
+
+msgid "rewardsScreen/title/division"
+msgstr "已達到分組 %(division)s"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "已達到「{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}」位階"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "達到位階的獎勵"
+
+msgid "rewardsScreen/title/rank"
+msgstr "已達到「{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}」位階"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "達到新位階的獎勵"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "已獲得獎勵"
+msgstr[1] "已獲得獎勵"
+msgstr[2] "已獲得獎勵"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "每週任務獎勵"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "年度獎勵"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "附有："
+
+msgid "rewardsSelectionScreen/description"
+msgstr "天梯戰"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "選擇獎勵"
+msgstr[1] "選擇獎勵"
+msgstr[2] "選擇獎勵"
+
+msgid "scoreTooltip/body"
+msgstr "您獲得的評價點數將決定您在「天梯戰」模式的位階與分組。在戰鬥中獲勝來成為強中之強！"
+
+msgid "scoreTooltip/header"
+msgstr "評價點數"
+
+msgid "season/daysLeft"
+msgstr "結束於 %(totalDays)s 天"
+
+msgid "season/hoursLeft"
+msgstr "結束於 %(hours)s 小時"
+
+msgid "season/minutesLeft"
+msgstr "結束於 %(minutes)s 分鐘"
+
+msgid "season/over"
+msgstr "%(seasonName)s已結束"
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "結束於 %(seconds)s 秒"
+
+msgid "seasonName/first"
+msgstr "蒼藍蛟龍賽季"
+
+msgid "seasonName/second"
+msgstr "緋紅蛟龍賽季"
+
+msgid "seasonName/third"
+msgstr "翠綠蛟龍賽季"
+
+msgid "seasonPointTooltip/header"
+msgstr "天梯戰錦旗"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "已獲得"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "未獲得"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "您為獲取「天梯戰錦旗」的競爭者"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "未使用的「天梯戰錦旗」會依以下比率轉換為點券：{bond_Open}1「天梯戰錦旗」{bond_Close}比 {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "在每個賽季結束後，您將依達到的位階獲得相應數量的「天梯戰錦旗」。"
+
+msgid "seasonPointTooltip/text/year"
+msgstr "每多累積 3 個「天梯戰錦旗」，您將獲得更好的年度獎勵。"
+
+msgid "seasonStatistics/button/fifth"
+msgstr "獎勵在哪？"
+
+msgid "seasonStatistics/button/first"
+msgstr "再接再厲"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "我的珍寶！"
+
+msgid "seasonStatistics/button/second"
+msgstr "繼續努力！"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "傳奇表現！"
+
+msgid "seasonStatistics/button/third"
+msgstr "我將再臨"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "最終賽季評價"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "排行榜上的名次：%(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "天梯戰：%(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "已獲得 %(points)s 個「天梯戰錦旗」"
+msgstr[1] "已獲得 %(points)s 個「天梯戰錦旗」"
+msgstr[2] "已獲得 %(points)s 個「天梯戰錦旗」"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "賽季 I：蒼藍蛟龍"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "賽季 II：緋紅蛟龍"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "賽季 III：翠綠蛟龍"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "勝率：%(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "參戰\n場數"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "平均：%(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "傷害\n紀錄"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "摧毀比：%(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "單場最高\n摧毀數"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "平均：%(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "威望點數\n紀錄"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "賽季統計"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "在超級裝甲排：%(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "連勝數\n（單人/裝甲排）"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "戰鬥數"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "無車輛"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "最愛車輛"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "勝率"
+
+msgid "seasonStatistics/title"
+msgstr "%(name)s 賽季統計"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "賽季結束於："
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "賽事時間表"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "今天"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "明天"
+
+msgid "selectorTooltip/desc"
+msgstr "競賽模式。7v7 | X 階"
+
+msgid "selectorTooltip/title"
+msgstr "天梯戰"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "在遊戲入口網站關注最新消息以隨時鎖定全新賽季的最新資訊。"
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "這個模式由於技術性問題而暫時無法使用。"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "此模式將開放於 %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "蒼藍蛟龍"
+
+msgid "shortSeasonName/second"
+msgstr "緋紅蛟龍"
+
+msgid "shortSeasonName/third"
+msgstr "翠綠蛟龍"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "本頁面包含有關「天梯戰」模式當前賽季中最佳玩家的資訊。"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "本頁面包含有關外圍賽的資訊，以及外圍賽完成後，您位階、分組與評價點數的資訊。"
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "本頁面包含有關在「天梯戰」模式達到更高位階後可獲得之獎勵的資訊。"
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "本頁面包含有關天梯戰商店中可用物品的資訊"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "本頁面包含「天梯戰」模式中每週任務的資訊。"
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "本頁面包含有關獲得「天梯戰錦旗」相應之年度獎勵的資訊。"
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "本頁面包含有關您在當前「天梯戰」年度中每個賽季之成就的資訊。"
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "排行榜"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "排名系統"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "位階獎勵"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "天梯戰商店"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "每週任務"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "年度獎勵"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "年度統計"
+
+msgid "sixthRankTooltip/description"
+msgstr "{eeede9e6_Open}傳奇{eeede9e6_Close}位階會頒發給置身評價點數排行榜{eeede9e6_Open}前 %(topPercentage)%{eeede9e6_Close} 的玩家。"
+
+msgid "style3dTooltip/954"
+msgstr "白銀尖刺"
+
+msgid "style3dTooltip/955"
+msgstr "黃金利爪"
+
+msgid "style3dTooltip/956"
+msgstr "勇士之翼"
+
+msgid "style3dTooltip/957"
+msgstr "傳奇生物"
+
+msgid "style3dTooltip/description"
+msgstr "壯如獅，猛如龍，毒如蠍，此野獸宛如自古以來深受畏懼之生物的金屬化身。"
+
+msgid "style3dTooltip/howToReceive"
+msgstr "如何獲得"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "頒發給在「天梯戰」模式蠍獅年中至少收集 9 個「天梯戰錦旗」的玩家。"
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "頒發給在「天梯戰」模式蠍獅年中至少收集 12 個「天梯戰錦旗」的玩家。會取代前一個風格。"
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "頒發給在「天梯戰」模式蠍獅年中至少收集 15 個「天梯戰錦旗」的玩家。會取代前一個風格。"
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "頒發給在「天梯戰」模式蠍獅年中至少收集 18 個「天梯戰錦旗」的玩家。會取代前一個風格。"
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "適合車輛"
+
+msgid "system_messages/periodicReward/body"
+msgstr "您已獲得維持在「%(rank)s」位階的每日獎勵。\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "每日獎勵"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "已實施休戰。「天梯戰」戰鬥暫時無法進行。"
+
+msgid "system_messages/primeTime/end/title"
+msgstr "休戰期"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "休戰期結束。「天梯戰」戰鬥已可再次進行。"
+
+msgid "system_messages/primeTime/start/title"
+msgstr "休戰期"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "恭喜！您已達到%(maxRank)s位階。\n您已獲得以下位階的獎勵：%(ranks)s：\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "外圍賽已完成"
+
+msgid "system_messages/regularReward/body"
+msgstr "日期：%(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "獲得明細"
+
+msgid "system_messages/shop/offer/button"
+msgstr "前往商店"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "天梯戰商店開放新折扣！"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "折扣幅度已增加"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "天梯戰商店有新品上架！"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "新品上架"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "付款時發生錯誤。請稍後再試。"
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "日期：%(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "完成每週任務的獎勵"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "日期：%(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "每週任務的獎勵"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "關於「天梯戰」"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "賽季更新"
+
+msgid "tournament/LBFinals"
+msgstr "敗部決賽"
+
+msgid "tournament/LBRound1"
+msgstr "敗部第 1 輪"
+
+msgid "tournament/LBRound2"
+msgstr "敗部第 2 輪"
+
+msgid "tournament/LBSemifinals"
+msgstr "敗部準決賽"
+
+msgid "tournament/UBFinals"
+msgstr "勝部決賽"
+
+msgid "tournament/UBSemifinals"
+msgstr "勝部準決賽"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "在比賽中不會獲得或失去評價點數"
+
+msgid "tournament/bestOf"
+msgstr "%(number)s 局決勝制"
+
+msgid "tournament/cny"
+msgstr "%(amount)s 人民幣"
+
+msgid "tournament/cnySign"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/comeBack"
+msgstr "請稍後再試"
+
+msgid "tournament/comingSoon"
+msgstr "近期賽程 %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "具體時間視賽事時長而定"
+
+msgid "tournament/completed"
+msgstr "已完成"
+
+msgid "tournament/douyin"
+msgstr "在抖音上觀看"
+
+msgid "tournament/drops/huya"
+msgstr "在虎牙上觀看並獲取獨家\n虎牙掉寶！"
+
+msgid "tournament/drops/twitch"
+msgstr "在 Twitch 上觀看並獲取獨家\nTwitch 掉寶！"
+
+msgid "tournament/dropsShort/huya"
+msgstr "並收穫獨家虎牙掉寶！"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "並收穫獨家 Twitch 掉寶！"
+
+msgid "tournament/error"
+msgstr "載入資料時發生錯誤"
+
+msgid "tournament/eur"
+msgstr "%(amount)s 歐元"
+
+msgid "tournament/euroSign"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/finalResult"
+msgstr "贏家"
+
+msgid "tournament/fundDistribution"
+msgstr "獎金池分配"
+
+msgid "tournament/grandFinals"
+msgstr "總決賽"
+
+msgid "tournament/huya"
+msgstr "在虎牙上觀看"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "獎金池由玩家購買的組合包挹注。\n上次更新：%(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "無排定的賽事"
+
+msgid "tournament/ols/roundRobin"
+msgstr "階段 %(phase)s 回合 %(round)s"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s - %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "獎金池%(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "以及獲得恆久榮耀的機會"
+
+msgid "tournament/refresh"
+msgstr "重新整理"
+
+msgid "tournament/refreshing"
+msgstr "重新整理中..."
+
+msgid "tournament/roundOf"
+msgstr "第 %(number)s 輪"
+
+msgid "tournament/separator"
+msgstr "或"
+
+msgid "tournament/tab/overview"
+msgstr "概要"
+
+msgid "tournament/tab/schedule"
+msgstr "時間表"
+
+msgid "tournament/teamPlaceholder"
+msgstr "待定"
+
+msgid "tournament/toShop"
+msgstr "造訪商店"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "兌換"
+
+msgid "tournament/tokenStore/ols"
+msgstr "OLS 代幣"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "開放於："
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "關於比賽"
+
+msgid "tournament/twitch"
+msgstr "在 Twitch 上觀看"
+
+msgid "tournament/viewFull"
+msgstr "檢視全部"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "支持天梯戰傳奇系列，入手比賽主題組合包來為獎金池加碼！"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "以獨家主題自訂要素與獨特戰車展現您的電競魂！"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "為獎金池加碼"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "《戰車世界》國際冠軍賽組合包"
+
+msgid "tournament/vsBestOf"
+msgstr "VS\n%(number)s 局決勝制"
+
+msgid "tournament/wci/roundRobin"
+msgstr "小組賽"
+
+msgid "tournament/winner"
+msgstr "贏家"
+
+msgid "tournament/youtube"
+msgstr "在 Youtube 上觀看"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "歐洲頂尖隊伍齊聚並爭奪「天梯戰傳奇系列」的冠軍頭銜！觀看刺激的 7v7 天梯戰賽事，獲取 Twitch 掉寶，並透過專屬自訂要素組合包來提高獎金池數額，支持您最愛的隊伍。"
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "史詩衝突將在中國蘇州舉辦的《戰車世界》國際冠軍賽展開，當中來自全球最強悍的隊伍將以天梯戰規則一決勝負，直指世界冠軍的最終榮銜。體驗究極刺激戰鬥，見證傳奇在戰場誕生！"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "OLS 賽季 6"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "2025 國際冠軍賽"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "直播將開放 %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "後續賽事開放於 %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "無法在天梯戰訓練房獲得評價點數。"
+
+msgid "unit/message/modeOffline"
+msgstr "無法加入戰鬥：資料庫錯誤。"
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "位階差距超過限制"
+
+msgid "voiceChat/active"
+msgstr "離開語音聊天"
+
+msgid "voiceChat/inactive"
+msgstr "加入語音聊天"
+
+msgid "waitingSpinner/message"
+msgstr "載入內容中..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "天梯戰任務已完成"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "做得好！您已完成全部的每週任務。別忘了領取您的獎勵，我們下個賽季見！"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "完成 {eeede9e5_Open}%(questsList)s{eeede9e5_Close} 與 {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} 個任務時可獲得額外獎勵"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "天梯戰每週任務"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "已完成：%(counter)s 個"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s 個新任務開放於："
+msgstr[1] "%(value)s 個新任務開放於："
+msgstr[2] "%(value)s 個新任務開放於："
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "獎勵："
+msgstr[1] "獎勵："
+msgstr[2] "獎勵："
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)s 個新任務：%(countdown)s"
+msgstr[1] "%(value)s 個新任務：%(countdown)s"
+msgstr[2] "%(value)s 個新任務：%(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "下個賽季會有新任務！"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "任務已完成：%(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "您每週將獲得 %(value)s 個新任務。每個完成的任務會計入您的獎勵進度！"
+msgstr[1] "您每週將獲得 %(value)s 個新任務。每個完成的任務會計入您的獎勵進度！"
+msgstr[2] "您每週將獲得 %(value)s 個新任務。每個完成的任務會計入您的獎勵進度！"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "進行中"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "已完成"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "無法進行"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "無法完成：此模式未啟用。"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "若要解鎖，研發並購買一輛 X 階車輛。"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "完成前一個任務以解鎖此任務。"
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "任務無法進行"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "領取您的獎勵！"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "已完成：%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "任務 %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s 個新任務開放於："
+msgstr[1] "%(value)s 個新任務開放於："
+msgstr[2] "%(value)s 個新任務開放於："
+
+msgid "whatsNewButtonLabel"
+msgstr "賽季更新"
+
+msgid "whatsNewView/banner/description"
+msgstr "此賽季為您領取珍貴獎勵的最後機會，包括獨家 X 階重型戰車 Ashbringer，可搭配您為其獲取的所有專屬 3D 風格與一組已有「情同手足」為零歷練的無畏乘員，還有可選擇的改良型與試驗型裝備，以及令人目不轉睛的 2D 風格與其他內容。千萬別錯過，直奔戰場迎向勝利！"
+
+msgid "whatsNewView/banner/heading"
+msgstr "把握蛟龍年的最後時刻！"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "翠綠蛟龍賽季"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "天梯戰：有什麼新內容？"
+
+msgid "whatsNewView/button/ok"
+msgstr "禁得好！"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "採用全新 2.0 更新設計的改良後戰鬥結果畫面，現在會於每場戰鬥後提供您模式相關的額外資訊。"
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "詳細戰鬥結果"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "若您的最愛車輛被禁用，也不用太擔心。租用車輛現有預先配置的乘員、裝備、砲彈與消耗品。"
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "可立即上場的租用車輛 %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "本賽季期間，每支隊伍可在每場戰鬥完全禁用一輛車輛。與隊友協調投票來排除您最忌憚的戰車，或準備出乎敵人意料外的陣容。"
+
+msgid "whatsNewView/intro/heading"
+msgstr "車輛禁用 %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "地圖"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "適用於天梯戰的新車輛"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "租用車輛"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "近期推出的美國 X 階中型戰車 Ares 90 現已開放在此模式中使用，相應的「角色技能」也已調整。"
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "角色技能更新 %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "達到「白銀」位階的玩家，現可在「天梯戰商店」購買 114 SP2。"
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "商店更新 %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "已排除"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "重新開發中"
+
+msgid "whatsNewView/tag/attention"
+msgstr "注意"
+
+msgid "whatsNewView/tag/changed"
+msgstr "已變更"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "試驗性"
+
+msgid "whatsNewView/tag/new"
+msgstr "新"
+
+msgid "whatsNewView/tag/returned"
+msgstr "重新加入"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "已翻新"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "賽季更新"
+
+msgid "whatsNewView/watchVideo"
+msgstr "觀看影片"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "勝率（單日）：%(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "戰敗：%(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "平手：%(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "勝率（賽季）：%(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "勝利總數與參戰數的比。\n戰鬥結果統計："
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "勝利：%(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "獎勵將在第三個賽季結束時頒發。"
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "獎勵即將頒發。請耐心等候。"
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "年度獎勵已頒發。下個年度見！"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "您有可選擇的裝備"
+
+msgid "yearlyRewards/claim"
+msgstr "領取"
+
+msgid "yearlyRewards/claimReward"
+msgstr "領取獎勵"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "每達到一個位階可獲得 1 面%(seasonPointIcon)s，您已在賽季結束時獲得此獎勵。"
+
+msgid "yearlyRewards/description/current"
+msgstr "每達到一個位階可獲得 1 面%(seasonPointIcon)s，您將在賽季結束時獲得此獎勵。"
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\n附有獨特 3D 風格"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "前往年度獎勵"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "預覽 2D 風格"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "預覽 3D 風格"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "已達到位階：%(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "當前位階：%(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "4 名獨特乘員"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "已獲得獎勵"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "保證可獲得的獎勵"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "獲取總計 %(count)s 個錦旗來獲取階段獎勵"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "可能獲得的獎勵"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "您保證會在年度結束時獲得此獎勵。"
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "獲取所需數量的「天梯戰錦旗」來在年度結束時獲得您的獎勵。"
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "若您維持當前的位階或在賽季結束前將之提升，您將獲得此年度獎勵。"
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "已啟用的階段"
+
+msgid "yearlyStatistics/battles"
+msgstr "戰鬥（單人/裝甲排）"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "計算賽季統計中..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)s前往賽季統計"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "尚未獲得位階"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "「%(rank)s」位階"
+
+msgid "yearlyStatistics/rating"
+msgstr "評價點數"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "2025 年秋季"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "2026 年冬季"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "2026 年春季"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "賽季 I：蒼藍蛟龍"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "賽季 II：緋紅蛟龍"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "賽季 III：翠綠蛟龍"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "當前"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "已結束"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "戰鬥（超級裝甲排）"
+
+msgid "yearlyStatistics/wins"
+msgstr "勝率"

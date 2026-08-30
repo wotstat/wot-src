@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "開封画面に戻る"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "ブレイジング・ボックス"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "ブレイジング・ボックス"
+
+msgid "common/getButton/lowerCase"
+msgstr "ボックスを入手"
+
+msgid "common/getButton/upperCase"
+msgstr "ボックスを入手"
+
+msgid "common/loader"
+msgstr "「ブレイジング・ボックス」を開封中……"
+
+msgid "common/statistics/emptyHeader"
+msgstr "「ブレイジング・ボックス」を開封すると統計が表示されます"
+
+msgid "common/statistics/header"
+msgstr "ボックスの開封数: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "開封した「ブレイジング・ボックス」についてのすべての情報が削除されます。"
+
+msgid "entryPoint/boxes"
+msgstr "「ブレイジング・ボックス」へ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "プレミアム車輌や2Dスタイル、クレジットなど、新登場および限定のアイテムが一定の確率でドロップする特別なボックスです。「ブレイジング・ボックス」はゲーム内ショップから入手できます。"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "技術的な理由により、一時的に「ブレイジング・ボックス」の開封および購入ができなくなっています。 ご不便をおかけして申し訳ございません。"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "「ブレイジング・ボックス」は一時的に利用不可"
+
+msgid "eventName/lowerCase"
+msgstr "月光の贈りもの"
+
+msgid "eventName/upperCase"
+msgstr "月光の贈りもの"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "「ブレイジング・ボックス」をもう1箱開封すると確約報酬が手に入ります!"
+
+msgid "guaranteedTitle/text"
+msgstr "確約報酬のドロップに必要な開封数: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "未開封の「ブレイジング・ボックス」は、イベント終了時に自動的に開封されます。"
+
+msgid "infoPage/footer/description/compensation"
+msgstr "「ブレイジング・ボックス」からドロップしうる車輌をすべて所有済みの状態で車輌がドロップした場合、補償として車輌価格の全額に相当するゴールドを受け取ることができます。"
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "「ブレイジング・ボックス」を%(guaranteed0)s回開封すると、Tier VIII～IX車輌が少なくとも1輌はドロップするようになっています。もし49回ボックスを開封してもTier VIII～IX車輌が1輌もドロップしなかった場合、%(guaranteed0)s箱目からガレージに未所有のTier VIII～IX車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
+
+msgid "infoPage/header/description"
+msgstr "「ブレイジング・ボックス」からは貴重なゲーム内アイテムの数々がドロップします。詳細は下記よりご確認ください。"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "%(name)からドロップ (%(boxesCount)箱開封)"
+
+msgid "noBoxesView/description/"
+msgstr "「ブレイジング・ボックス」がありません。\n「ブレイジング・ボックス」はゲーム内ショップから購入できます。"
+
+msgid "preview/backLabel"
+msgstr "「ブレイジング・ボックス」へ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "所有中の「ブレイジング・ボックス」: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "「ブレイジング・ボックス」なし"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "「ブレイジング・ボックス」からドロップしうる車輌をすべて所有済みの状態で車輌がドロップした場合、補償としてゴールドを受け取ることができます。"
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "ブレイジング・ボックス%(remainingCount)箱"
+msgstr[1] "ブレイジング・ボックス%(remainingCount)箱"
+msgstr[2] "ブレイジング・ボックス%(remainingCount)箱"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "「確約報酬」とは、「ブレイジング・ボックス」からドロップする報酬のリストの中にある車輌のいずれか1輌のことを指します。\nもし「ブレイジング・ボックス」を%(remainingCount)箱開けてもリストにある車輌がドロップしなかった場合、%(count)箱目からガレージに未所有の車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"

@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "套用到所有的 {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "戰鬥儲備點數：{{value}}"
+
+msgid "header/title"
+msgstr "戰鬥儲備"
+
+msgid "infoPanel/category/firesupport"
+msgstr "攻擊儲備"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "偵察儲備"
+
+msgid "infoPanel/category/tactics"
+msgstr "戰術儲備"
+
+msgid "infoPanel/category/title"
+msgstr "類別：{{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "在{{@ colorLegacy 'FFE4C0'}}命運交錯{{/}}情境中，購買戰鬥儲備，將讓該儲備提升一個等級，且有機會提升到等級 {{@ colorLegacy 'FFE4C0'}}IV{{/}}。"
+
+msgid "infoPanel/description/unlocked"
+msgstr "在{{@ colorLegacy 'FFE4C0'}}命運交錯{{/}}情境中，每個在戰鬥前放入欄位中的 戰鬥儲備，在戰鬥期間出現的機率會提高 {{@ colorLegacy 'FFE4C0'}}10%{{/}}。"
+
+msgid "infoPanel/level"
+msgstr "等級："
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}} 公尺"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/秒"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}} 秒"
+
+msgid "infoPanel/paramDiff"
+msgstr "（{{diff}}）"
+
+msgid "infoPanel/status/locked"
+msgstr "未購買戰鬥儲備"
+
+msgid "infoPanel/status/unlocked"
+msgstr "已購買戰鬥儲備"

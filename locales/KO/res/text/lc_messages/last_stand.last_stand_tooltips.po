@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "이벤트 남은 시간: %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — 게임 모드 확인"
+
+msgid "bannerTooltip/description"
+msgstr "웨이브를 형성하여 몰려오는 적군을 격퇴하는 특별 PvE 모드입니다. 좋아하는 전차를 선택하여 공명 전차를 격파하고 웨이브를 저지하십시오. 특별 보상 등 풍성한 보상이 기다립니다!"
+
+msgid "bannerTooltip/header"
+msgstr "최후의 저항: 북부 전선"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "사용 중인 컴퓨터 사양이 해당 모드를 플레이하기에 부족합니다. 그래픽 왜곡 및 전차 이동 시 문제를 경험할 수 있으며 게임 클라이언트가 충돌할 수도 있습니다."
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "고사양 컴퓨터가 필요한 모드입니다. 지도 불러오기 시간 지연, 그래픽 왜곡, 전차 이동 문제 등을 경험할 수도 있습니다. 사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "고사양 모드"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "고사양 모드"
+
+msgid "battlePass/playGame"
+msgstr "최후의 저항 이벤트를 진행하여 점수 획득 (8단계 전차 필요)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "이미 친구 추가가 되어있습니다."
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "수락 대기 중입니다."
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "플레이어를 차단 목록에서 제거합니다."
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "친구 목록에 추가"
+
+msgid "battleResult/interaction/menu"
+msgstr "해당 플레이어와의 상호 작용 메뉴를 엽니다."
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "소대에 추가"
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "이미 소대에 소속된 플레이어입니다."
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "이미 초대 중입니다."
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "소대장만 플레이어를 소대로 초대할 수 있습니다."
+
+msgid "booster/activated"
+msgstr "활성화"
+
+msgid "booster/howItWorks"
+msgstr "세부 정보"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "재사용 시간: %(cooldownSeconds)s초"
+
+msgid "consumables/params/usageCost"
+msgstr "미륨 비용: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "일일 임무 완료까지 남은 시간"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "다음 일일 임무까지 남은 시간"
+
+msgid "dailyQuests/completed"
+msgstr "완료"
+
+msgid "dailyQuests/completedAll"
+msgstr "이벤트 일일 임무를 모두 완료했습니다."
+
+msgid "dailyQuests/completedDescr"
+msgstr "일일 임무를 완료했습니다. 내일 진행할 수 있는 새로운 임무가 추가됩니다."
+
+msgid "dailyQuests/rewards"
+msgstr "보상:"
+
+msgid "dailyQuests/status"
+msgstr "새로운 일일 임무 부여까지 %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "이벤트 종료까지 %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "전투에 참여하려면 이용 가능한 전차를 선택하십시오."
+
+msgid "hangar/startBtn/lock/header"
+msgstr "이용 불가"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "기술적인 문제로 해당 난이도/모드 전투에 참여할 수 없습니다."
+
+msgid "hangar/startBtn/offline/header"
+msgstr "이용 불가"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "새로운 전투에 참여하려면 소대가 이전 전투에서 복귀할 때까지 기다려야 합니다."
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "이용 불가"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "해당 소대로는 이용할 수 없는 난이도입니다."
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "이용 불가"
+
+msgid "points/accrued"
+msgstr "획득"
+
+msgid "points/battles"
+msgstr "• 이벤트 전투 참여"
+
+msgid "points/body"
+msgstr "데이터는 최후의 저항을 진행하고 값진 자원을 획득하는 데 사용할 수 있습니다. 이벤트 전투에 참여하거나, 일일 임무를 완료하거나, \"{{bundle_name}}\" 구매 시 획득할 수 있습니다."
+
+msgid "points/bottom"
+msgstr "이벤트 종료: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• 매일 새로운 일일 임무 완료"
+
+msgid "points/effective"
+msgstr "• 전투 효율:"
+
+msgid "points/gold"
+msgstr "• 상점에서 \"{{bundle_name}}\" 구매"
+
+msgid "points/header"
+msgstr "데이터"
+
+msgid "points/howToEarn"
+msgstr "획득 방법"
+
+msgid "points/missionDaily"
+msgstr "• 일일 임무 완료:"
+
+msgid "points/obelisk"
+msgstr "• 오벨리스크 격파:"
+
+msgid "points/vehicleDaily"
+msgstr "• 일일 전차 보너스 획득:"
+
+msgid "rewardPath/info/first"
+msgstr "이벤트 기간에 매일 갱신되는 일일 임무를 완료하여 데이터를 추가로 획득할 수 있습니다."
+
+msgid "rewardPath/info/header"
+msgstr "추가 데이터"
+
+msgid "rewardPath/info/second"
+msgstr "상점에서 구매할 수 있는 특별 이벤트 패키지에도 진행 상황을 가속할 수 있는 데이터가 포함되어 있습니다."
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "전차 보너스"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "기타 보상"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}전차 보너스{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "모든 데이터 및 보상 획득"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "획득한 데이터 {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "전투에서 데이터를 수집하여 최후의 저항을 진행하십시오. 각 스테이지에서 값진 아이템과 전차 보너스를 보상으로 획득할 수 있으며, 이를 통해 더 강력한 적을 격파할 수 있습니다."
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "최종 스테이지"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "현재 스테이지"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "이벤트 종료까지 {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "진행 상황"
+
+msgid "shopWidget/body"
+msgstr "이벤트 특별 아이템이 준비되어 있는 게임 내 상점 특별 항목을 엽니다."
+
+msgid "shopWidget/header"
+msgstr "이벤트 패키지"
+
+msgid "teamList/actions/body"
+msgstr "소대 조직 및 친구 추가/제거 작업을 빠르게 수행할 수 있습니다."
+
+msgid "teamList/actions/header"
+msgstr "빠른 작업"
+
+msgid "teamList/damage/body"
+msgstr "입힌 피해량으로 정렬"
+
+msgid "teamList/damage/header"
+msgstr "피해 기록"
+
+msgid "teamList/keys/body"
+msgstr "획득한 데이터 수로 정렬 (일일 임무 또는 일일 전차 보너스로 획득한 보너스 데이터는 집계되지 않음)"
+
+msgid "teamList/keys/header"
+msgstr "데이터"
+
+msgid "teamList/kills/body"
+msgstr "적 전차 격파 수로 정렬"
+
+msgid "teamList/kills/header"
+msgstr "적 전차 격파"
+
+msgid "teamList/name/header"
+msgstr "플레이어 이름"
+
+msgid "teamList/place/body"
+msgstr "팀 내 순위로 정렬"
+
+msgid "teamList/place/header"
+msgstr "팀 내 순위"
+
+msgid "teamList/squad/header"
+msgstr "소대는 전투에서 서로 협력하는 플레이어로 구성되는 팀입니다."
+
+msgid "teamList/vehicle/body"
+msgstr "전차 유형 및 이름으로 정렬합니다."
+
+msgid "teamList/vehicle/header"
+msgstr "전차"
+
+msgid "teamList/warned/body"
+msgstr "자리 비움/전장 이탈로 제재를 받은 플레이어입니다. 해당 전투에서 보상 지급되지 않았습니다."
+
+msgid "teamList/warned/header"
+msgstr "경고"
+
+msgid "teamList/warned/self/body"
+msgstr "자리 비움/전장 이탈로 제재가 적용되었습니다. 해당 전투에서 보상이 지급되지 않았습니다."
+
+msgid "vehicle/lowEfficiency"
+msgstr "낮은 승무원 숙련도"
+
+msgid "vehicle/rentState"
+msgstr "잠김"
+
+msgid "vehicleDaily/header"
+msgstr "일일 전차 보너스"

@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "公共"
+
+msgid "channels/battle/team"
+msgstr "隊伍"
+
+msgid "channels/clan"
+msgstr "公會"
+
+msgid "channels/common"
+msgstr "公共"
+
+msgid "channels/epic_training"
+msgstr "訓練 — 前線"
+
+msgid "channels/nubs"
+msgstr "新兵"
+
+msgid "channels/prebattle"
+msgstr "戰鬥準備"
+
+msgid "channels/special_battles"
+msgstr "特殊戰鬥"
+
+msgid "channels/squad"
+msgstr "裝甲排"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "裝甲排已建立。請等到玩家都已準備好。"
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "裝甲排"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "裝甲排已建立。所有玩家都已準備好。"
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "裝甲排"
+
+msgid "channels/system"
+msgstr "系統"
+
+msgid "channels/tournament"
+msgstr "比賽"
+
+msgid "channels/trading"
+msgstr "交易"
+
+msgid "channels/training"
+msgstr "訓練"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "聊天管理人也是頻道管理員。"
+
+msgid "errors/addmoderatorowner"
+msgstr "聊天頻道建立者也是頻道管理員。"
+
+msgid "errors/banchannelowner"
+msgstr "聊天頻道建立者無法被封鎖。"
+
+msgid "errors/banchatadmin"
+msgstr "聊天管理人無法被封鎖。"
+
+msgid "errors/banned"
+msgstr "您已被玩家 %(banOwnerNick)s 封鎖，直到 %(banEndTime)s 。原因：%(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "您已被玩家 %(banOwnerNick)s 封鎖。原因：%(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "您已被封鎖，直到 %(banEndTime)s。原因：%(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "您已被封鎖。原因：%(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "%(command)s 指令被暫停使用 %(cooldownPeriod)s 秒。"
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "聊天管理人無法取消管理員權限。"
+
+msgid "errors/delmoderatorowner"
+msgstr "頻道建立者無法取消管理員權限。"
+
+msgid "errors/timeincorrect"
+msgstr "‘時間’參數必須為正整數 [1-1440] 分鐘或‘永久’。"
+
+msgid "errors/toomanyargs"
+msgstr "參數太多。"
+
+msgid "errors/toosmallargs"
+msgstr "參數不足。"
+
+msgid "errors/userbanhimself"
+msgstr "您無法封鎖您自己。"
+
+msgid "messages/userbanned"
+msgstr "使用者 %(banedUser)s 已被使用者 %(banOwnerNick)s 封鎖，直到 %(banEndTime)s。原因：%(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "使用者 %(banedUser)s 已被使用者 %(banOwnerNick)s 封鎖。原因：%(banReason)s"

@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "button/progression"
+msgstr "Hiện Tiến trình"
+
+msgid "button/select"
+msgstr "Điều chỉnh"
+
+msgid "event/battlePass/name"
+msgstr "Giấy phép Quân sự Mùa %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "%(eventName)s\nđã kết thúc"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\nsẽ bắt đầu vào %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\ntạm thời không khả dụng"
+
+msgid "event/ranked/name"
+msgstr "Mùa %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "XEM TIẾN ĐỘ"
+
+msgid "mode/epicBattle/condition"
+msgstr "30v30 &nbsp;{par_open}I{par_close}&nbsp;Cấp&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30v30&nbsp;{par_open}I{par_close}&nbsp;Cấp&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "Sự kiện\nsẽ bắt đầu vào %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Chế độ này\nsẽ sớm bắt đầu"
+
+msgid "mode/epicBattle/description"
+msgstr "Chế độ với tiến trình và phần thưởng."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "Sự kiện đã kết thúc"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Khi tham chiến bằng xe Cấp VIII trong {whiteSpanish_open}Chiến tuyến{whiteSpanish_close}, bạn sẽ kiếm được Điểm giúp thăng tiến qua các Tiến trình của Giấy phép Quân sự."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Điểm Giấy phép Quân sự"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Khi tham chiến bằng xe Cấp VIII–X trong {whiteSpanish_open}Nhiệm vụ Trinh sát{whiteSpanish_close}, bạn sẽ kiếm được Điểm giúp thăng tiến qua các Tiến trình của Giấy phép Quân sự."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Điểm Giấy phép Quân sự"
+
+msgid "mode/mapbox/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s Cấp&nbsp;VIII–X"
+
+msgid "mode/mapbox/description"
+msgstr "Cơ chế bản đồ mới."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Hiệu ứng thời tiết phụ thuộc vào cài đặt đồ họa chung của bạn. Ở thiết lập đồ họa thấp, lỗi tàn dư hình ảnh và vấn đề hiển thị có thể xảy ra. Chúng tôi khuyên chọn cài đặt đồ họa cao nhất để có trải nghiệm tối ưu, miễn là cấu hình máy tính của bạn đáp ứng được yêu cầu. Chế độ này đòi hỏi hiệu năng máy tính cao. Số khung hình trên giây (FPS) có thể bị tụt trong các trận đụng độ gay cấn."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Nên dùng thiết lập đồ họa cao nhất"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Tìm hiểu bản đồ"
+
+msgid "mode/mapsTraining/description"
+msgstr "Tìm hiểu bản đồ"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Khi tham chiến bằng xe Cấp IV–XI trong {whiteSpanish_open}Trận đấu Ngẫu nhiên{whiteSpanish_close}, bạn sẽ kiếm được Điểm giúp vượt Tiến trình Giấy phép Quân sự."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Điểm Giấy phép Quân sự"
+
+msgid "mode/random/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s Cấp&nbsp;I–XI"
+
+msgid "mode/random/description"
+msgstr "Chiến trận được sắp đặt ngẫu nhiên."
+
+msgid "mode/random/setup"
+msgstr "Điều chỉnh"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Khi tham chiến bằng xe Cấp X trong {whiteSpanish_open}Trận đánh Xếp hạng{whiteSpanish_close}, bạn sẽ kiếm được Điểm giúp thăng tiến qua các Tiến trình của Giấy phép Quân sự."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Điểm Giấy phép Quân sự"
+
+msgid "mode/ranked/condition"
+msgstr "10v10 %(parSecondary_open)sI%(parSecondary_close)s Cấp&nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "Chế độ với tiến trình và phần thưởng."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Đăng ký Tour đấu"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Trận tiếp theo: %(date)s lúc %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s Cấp&nbsp;I–X"
+
+msgid "mode/specBattlesList/description"
+msgstr "Bản đồ Chiến sự và Tour đấu."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Tham chiến với tư cách lính lê dương"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Tham chiến theo một Clan"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7v7–15v15 %(parSecondary_open)sI%(parSecondary_close)s Cấp&nbsp;VI–X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Chiến trận giữa các Clan để giành Tài nguyên Công nghiệp."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Phòng Huấn luyện: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s Cấp&nbsp;I–X"
+
+msgid "mode/trainingsList/description"
+msgstr "Các trận đánh giới thiệu."
+
+msgid "novelty"
+msgstr "MỚI"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Số trận trong Vòng loại: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Bạn có thể nhận được Phụ tùng 3D độc đáo khi chơi chế độ này."
+
+msgid "reward/attachment/name"
+msgstr "Phụ tùng 3D"
+
+msgid "reward/bones/description"
+msgstr "Phần thưởng được xác định tùy theo hiệu suất chiến đấu của bạn."
+
+msgid "reward/bones/name"
+msgstr "Trái phiếu"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Bạn có thể nhận được %(name)s khi chơi chế độ này."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Thiết bị Đặc biệt"
+
+msgid "reward/credits/description"
+msgstr "Phần thưởng được xác định tùy theo hiệu suất chiến đấu của bạn."
+
+msgid "reward/credits/name"
+msgstr "Bạc"
+
+msgid "reward/crew/description"
+msgstr "Bạn có thể nhận được thành viên kíp lái độc đáo khi chơi chế độ này."
+
+msgid "reward/crew/name"
+msgstr "Thành viên Kíp lái"
+
+msgid "reward/experience/description"
+msgstr "Phần thưởng được xác định tùy theo hiệu suất chiến đấu của bạn."
+
+msgid "reward/experience/name"
+msgstr "Kinh nghiệm"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Bạn có thể nhận được nhiều Thiết bị Thử nghiệm đa dạng khi chơi chế độ này."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Thiết bị Đặc biệt"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Bạn có thể nhận được %(name)s khi chơi chế độ này."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Thiết bị Đặc biệt"
+
+msgid "reward/lootBoxes/description"
+msgstr "Bạn có thể nhận được Lootbox khi chơi chế độ này."
+
+msgid "reward/lootBoxes/name"
+msgstr "Lootbox đặc biệt"
+
+msgid "reward/other/description"
+msgstr "Bạn có thể nhận được nhiều phần thưởng hữu ích khi chơi chế độ này."
+
+msgid "reward/other/name"
+msgstr "Phần thưởng Đặc biệt"
+
+msgid "reward/progressionStyle/description"
+msgstr "Bạn có thể nhận được một kiểu mẫu cấp tiến đặc biệt khi chơi chế độ này."
+
+msgid "reward/progressionStyle/name"
+msgstr "Kiểu mẫu Cấp tiến"
+
+msgid "reward/random/description"
+msgstr "Bạn có thể nhận được nhiều phần thưởng hữu ích khi chơi chế độ này."
+
+msgid "reward/random/name"
+msgstr "Phần thưởng Ngẫu nhiên"
+
+msgid "reward/style/description"
+msgstr "Bạn có thể nhận được kiểu mẫu 3D đặc biệt cho %(name)s khi chơi chế độ này."
+
+msgid "reward/style/name"
+msgstr "Kiểu mẫu 3D"
+
+msgid "reward/vehicle/description"
+msgstr "Bạn có thể nhận được %(name)s khi chơi chế độ này."
+
+msgid "reward/vehicle/name"
+msgstr "Xe Phần thưởng"
+
+msgid "selectMap"
+msgstr "Tiền lập cho Trận đấu Ngẫu nhiên"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s ng"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s giờ"
+
+msgid "status/timeLeft/lessMin"
+msgstr "chưa đầy 1 phút"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s ph"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "CHỌN CHẾ ĐỘ ĐÁNH"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Bản đồ Chiến sự"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Chiếm đóng Lãnh thổ và giành quyền bá chủ thế giới. Chế độ này chỉ khả dụng cho các thành viên Clan."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Gia nhập Clan"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Giao tranh trên Bản đồ Chiến sự"
+
+msgid "window/battleSession/title"
+msgstr "TRẬN ĐÁNH ĐẶC BIỆT"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Danh sách Tour đấu"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Tính năng này tạm thời không khả dụng, nhưng sẽ sớm xuất hiện trong tương lai. Xin vui lòng chờ."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Độc lập tác chiến hoặc theo đội, thể hiện kỹ năng của riêng mình để nhận nhiều phần thưởng giá trị."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Tour đấu"

@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "error/button"
+msgstr "확인"
+
+msgid "error/description"
+msgstr "일시적으로 정보를 확인할 수 없습니다. 불편을 드려 죄송합니다. 나중에 다시 시도해 주십시오."
+
+msgid "error/title"
+msgstr "보상 선택 화면 확인 불가"
+
+msgid "footer/closeBtn/label"
+msgstr "나중에 선택"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "해당 범주 내에서 보상을 선택하십시오."
+msgstr[1] "해당 범주 내에서 보상을 선택하십시오."
+msgstr[2] "해당 범주 내에서 보상을 선택하십시오."
+
+msgid "footer/okBtn/label"
+msgstr "수령"
+
+msgid "footer/rewardsSelected"
+msgstr "선택한 보상:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "해당 범주 내에서 보상을 선택하십시오."
+msgstr[1] "해당 범주 내에서 보상을 선택하십시오."
+msgstr[2] "해당 범주 내에서 보상을 선택하십시오."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "제한 도달"
+
+msgid "reward/state_received"
+msgstr "이미 획득 완료"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "해당 항목 아이템 선택 제한에 도달했습니다. 한 아이템 선택을 취소하면 다른 아이템을 추가할 수 있습니다."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "제한 도달"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "장비\n지휘명령"
+
+msgid "tabs/items/battle_booster"
+msgstr "장비 지휘명령"
+
+msgid "tabs/items/blueprint"
+msgstr "설계도면 조각"
+
+msgid "tabs/items/brochure"
+msgstr "훈련 책자"
+
+msgid "tabs/items/crewbook"
+msgstr "훈련 교본"
+
+msgid "tabs/items/deluxe"
+msgstr "강화 장비"
+
+msgid "tabs/items/expequipments"
+msgstr "시제\n장비"
+
+msgid "tabs/items/guide"
+msgstr "훈련 지침"
+
+msgid "tabs/items/modernized_device"
+msgstr "시제 장비"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "레벨 1 시제 장비"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "레벨 2 시제 장비"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "레벨 3 시제 장비"
+
+msgid "tabs/items/new_device"
+msgstr "일반 장비"
+
+msgid "tabs/items/trophy"
+msgstr "포상 장비"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "수령 버튼을 클릭하면 선택한 보상을 획득할 수 있습니다."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "선택한 보상: %(white_open)s%(count)s%(white_close)s"

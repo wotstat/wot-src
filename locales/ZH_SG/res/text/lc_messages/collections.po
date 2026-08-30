@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "collection/error/description"
+msgstr "正在清理您收藏上积累的灰尘。这段时间请先加入战斗。"
+
+msgid "collection/error/title"
+msgstr "收藏复原中"
+
+msgid "collection/tooltip/completed"
+msgstr "已完成“%(year)s年%(name)s%(season)s”收藏。"
+
+msgid "collection/tooltip/progress"
+msgstr "已收集的“%(year)s年%(name)s%(season)s”收藏元素数量。"
+
+msgid "footer/buttonText"
+msgstr "到收藏"
+
+msgid "footer/collectionCompleted"
+msgstr "已完成收藏！"
+
+msgid "footer/progressbar/activeState/receivedElements/text"
+msgstr "已收集元素：%(received)s / %(total)s"
+
+msgid "footer/progressbar/tooltip/body"
+msgstr "在活动期间，或活动后(视情况而定)获取对应元素来推进收藏进度。将鼠标悬停在收藏元素上可查看获取方式。"
+
+msgid "footer/progressbar/tooltip/note"
+msgstr "收藏可能包含通过收集收藏元素而奖励的元素。它们不会计入元素计数器，也不会推进收藏进度，但可以揭晓故事情节。"
+
+msgid "footer/progressbar/tooltip/title"
+msgstr "收藏元素的收集"
+
+msgid "header/overhead"
+msgstr "收藏"
+
+msgid "header/seasonText/defaultConfig"
+msgstr "赛季名称"
+
+msgid "header/subtitle"
+msgstr "已完成收藏！"
+
+msgid "header/title/defaultConfig"
+msgstr "模板收藏"
+
+msgid "intro/buttonClose/text"
+msgstr "到收藏"
+
+msgid "intro/content/description/text"
+msgstr "收藏是成组的独特元素，可在各种活动中获取。\n这些元素是在常规玩法中无法获得的物品，如专属风格、贴花等。"
+
+msgid "intro/header/text"
+msgstr "《坦克世界》收藏"
+
+msgid "main/backText"
+msgstr "到收藏"
+
+msgid "mainLayout/header/title"
+msgstr "《坦克世界》收藏"
+
+msgid "mainLayout/header/tooltip/body"
+msgstr "收藏是成组的独特元素，可在各种活动中获取。\n这些元素是在常规玩法中无法获得的物品，如专属风格、贴花等。"
+
+msgid "mainLayout/header/tooltip/header"
+msgstr "《坦克世界》收藏"
+
+msgid "navigation/pageCounter"
+msgstr " / %(pageCount)s"
+
+msgid "notifications/button/goToCollection"
+msgstr "前往收藏"
+
+msgid "notifications/button/goToCollections"
+msgstr "到收藏"
+
+msgid "notifications/button/goToReward"
+msgstr "前往奖励"
+
+msgid "notifications/eventDisabled/text"
+msgstr "收藏暂时不可用。"
+
+msgid "notifications/eventEnabled/text"
+msgstr "收藏已再次可用。我们对给您造成的不便深表歉意。"
+
+msgid "notifications/eventStart/text"
+msgstr "车长们，我们为您准备了新内容！收集“%(feature)s”收藏元素，即可获得独特奖励。"
+
+msgid "notifications/eventStart/title"
+msgstr "“%(feature)s”收藏已开放！"
+
+msgid "notifications/feature/battle_pass_10"
+msgstr "战令"
+
+msgid "notifications/feature/battle_pass_11"
+msgstr "战令"
+
+msgid "notifications/feature/battle_pass_12"
+msgstr "战令"
+
+msgid "notifications/finalReceived/text"
+msgstr "您已完成“%(feature)s：%(season)s”收藏"
+
+msgid "notifications/newItemsReceived/text"
+msgstr "已获得全新收藏元素：\n\n%(items)s"
+
+msgid "notifications/newRewardsReceived/text"
+msgstr "已通过收集收藏元素获得奖励：\n\n%(items)s"
+
+msgid "notifications/renew/text"
+msgstr "收藏开放"
+
+msgid "notifications/renew/title"
+msgstr "%(feature)s，%(season)s"
+
+msgid "notifications/season/battle_pass_10"
+msgstr "赛季X"
+
+msgid "notifications/season/battle_pass_11"
+msgstr "赛季XI"
+
+msgid "notifications/season/battle_pass_12"
+msgstr "赛季XII"
+
+msgid "notifications/title/collectionName"
+msgstr "“%(feature)s：%(season)s”收藏"
+
+msgid "notifications/title/congratulation"
+msgstr "恭喜！"
+
+msgid "notifications/updatedEntry/text"
+msgstr "《坦克世界》收藏"
+
+msgid "notifications/updatedEntry/title"
+msgstr "服役记录已更新"
+
+msgid "overlays/preview/previewButton/text"
+msgstr "预览"
+
+msgid "overlays/preview/style/title/text"
+msgstr "%(vehicleInfo)的%(styleName)s"
+
+msgid "tooltips/item/achievement"
+msgstr "%(name)s勋章"
+
+msgid "tooltips/receivedStatus"
+msgstr "已获得"
+
+msgid "tooltips/title"
+msgstr "收藏元素"
+
+msgid "tooltips/unreceivedStatus"
+msgstr "未获得"

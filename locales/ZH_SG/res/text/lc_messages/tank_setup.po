@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "categories/body/firepower"
+msgstr "代表击毁敌方战车效率的一组参数。此过滤器可显示/隐藏拥有这组参数的装备。"
+
+msgid "categories/body/mobility"
+msgstr "代表战车在战场上改变位置速度的一组参数。此过滤器可显示/隐藏拥有这组参数的装备。"
+
+msgid "categories/body/stealth"
+msgstr "代表战车隐蔽性和侦察敌方战车能力的一组参数。此过滤器可显示/隐藏拥有这组参数的装备。"
+
+msgid "categories/body/survivability"
+msgstr "代表战车伤害抵抗能力的一组参数。此过滤器可显示/隐藏拥有这组参数的装备。"
+
+msgid "categories/empty"
+msgstr "第二个槽位类别"
+
+msgid "categories/firepower"
+msgstr "火力"
+
+msgid "categories/mobility"
+msgstr "机动性"
+
+msgid "categories/slotEffect/empty"
+msgstr "可为此战车的第二个装备槽分配类别。"
+
+msgid "categories/slotEffect/firepower"
+msgstr "此槽位安装火力类别的标准装备能发挥更高效率。"
+
+msgid "categories/slotEffect/mobility"
+msgstr "此槽位安装机动性类别的标准装备能发挥更高效率。"
+
+msgid "categories/slotEffect/stealth"
+msgstr "此槽位安装侦查类别的标准装备能发挥更高效率。"
+
+msgid "categories/slotEffect/survivability"
+msgstr "此槽位安装生存能力类别的标准装备能发挥更高效率。"
+
+msgid "categories/stealth"
+msgstr "侦查"
+
+msgid "categories/survivability"
+msgstr "生存能力"
+
+msgid "categories/universal"
+msgstr "无类别"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "从列表中选择一个可用的指令。"
+
+msgid "compare/section/description/consumables"
+msgstr "从列表中选择一个可用的消耗品。"
+
+msgid "compare/section/description/optDevices"
+msgstr "从列表中选择一个可用的装备。"
+
+msgid "compare/section/title/battleBoosters"
+msgstr "{name}的指令"
+
+msgid "compare/section/title/consumables"
+msgstr "{name}的消耗品"
+
+msgid "compare/section/title/optDevices"
+msgstr "{name}的装备"
+
+msgid "dealPanel/autoRenew"
+msgstr "自动补给"
+
+msgid "dealPanel/button/apply"
+msgstr "应用"
+
+msgid "dealPanel/button/applyType"
+msgstr "应用到类型"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "应用到战车"
+
+msgid "dealPanel/button/cancel"
+msgstr "取消"
+
+msgid "dealPanel/button/purchase"
+msgstr "购买"
+
+msgid "dealPanel/fromStorage"
+msgstr "库存："
+
+msgid "dealPanel/fromVehicle"
+msgstr "已安装："
+
+msgid "dealPanel/repair"
+msgstr "需要修复"
+
+msgid "dealPanel/toBePaid"
+msgstr "总计："
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "仓库中"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "已安装在战车上"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "购买资金不足"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "将以银币购买"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "将以点券购买"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "将从仓库中安装"
+
+msgid "deconstructionDeviceView/available"
+msgstr "可用："
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "取消"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "继续"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "从仓库："
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "从战车："
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "(%(red_Open)s想要升级，还需%(red_Close)s%(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s)"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "将获得："
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "当前战车"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "在仓库中：%(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "在战车上：%(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "选择您想要拆解为%(whiteSpanish_Open)s部件%(whiteSpanish_Close)s的装备%(icon)s。获得的部件可用于升级试验型装备。"
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s想要获得更多部件，请拆解闲置的试验型装备。"
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "工作台"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "升级%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s\n所需的部件不足。"
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "想要继续，请将闲置的装备拆解为部件。"
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "想要继续，请获得所需数量的部件。"
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "取消更改"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "取消"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "取消"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "取消"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "取消更改"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "保存"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "购买"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "购买并安装"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "安装"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "您可拆除此装备并将其发送至仓库；或直接销毁。拆除需花费%(price)s。"
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "您可拆除此装备并将其发送至仓库；或直接销毁。拆除需花费%(price)s，或通过“坦克世界Plus”来{whiteSpanish_Open}免费{whiteSpanish_Close}拆除。"
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "您可拆除此装备并将其发送至仓库；或直接销毁。拆除需使用%(demountKit)s或花费%(price)s，或通过“坦克世界Plus”来{whiteSpanish_Open}免费{whiteSpanish_Close}拆除。"
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "您可通过\"坦克世界Plus\"来{whiteSpanish_Open}免费{whiteSpanish_Close}拆除此装备并将其发送至仓库。"
+
+msgid "dialogs/confirm/demount/items"
+msgstr "您可以拆卸装备并发送至仓库。"
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "不会生效"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "指令"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "购买这个成对改装时，另一个将被取消。"
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "消耗品"
+
+msgid "dialogs/confirm/item/module"
+msgstr "模块"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "装备"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "成对改装"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "指令"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "消耗品"
+
+msgid "dialogs/confirm/items/module"
+msgstr "模块"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "装备"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " 和 "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "保存对指令槽的更改吗？"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "保存对消耗品槽的更改吗？"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "保存对装备槽的更改吗？"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "购买%(name)s{type}吗？"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "购买并安装%(name)s{type}吗？"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "安装%(name)s{type}吗？"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "为所有%(vehicle)s启用%(name)s{type}吗？"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "购买{type}吗？"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "购买并安装{type}吗？"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "安装{type}吗？"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "为所有%(vehicle)s启用{type}吗？"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "自行火炮"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "重型坦克"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "轻型坦克"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "中型坦克"
+
+msgid "dialogs/confirm/warning"
+msgstr "注意！未装备%(devices)s。指令%(doesNotWork)s。"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "注意！拆解后，您将不再拥有试验型装备！"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "取消"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "拆解"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "拆解"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "总计获得："
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "每个可获得："
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "拆解\n%(name)s吗？"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "拆解\n%(name)s吗？"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "请注意：拆解后，您将无法恢复或购买此装备。"
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "取消"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "拆解"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "要将以下装备拆解为部件吗？"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "要拆解以下装备并升级\n%(deviceName)s吗？"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "将从仓库中拆解：%(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "将从战车上拆解：%(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "拆解后，您将获得：%(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "总计获得："
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "升级费用："
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "注意！拆解后，您将不再拥有试验型装备！"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "注意！您战车上的试验型装备将被拆解。"
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "兑换"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "装备"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "升级%(name)s还需%(credits)s"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "装备"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "升级装备还需%(credits)s"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "无法升级装备。您需要%(gold)s来兑换银币。"
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "您有足够的银币升级装备。"
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "无需兑换"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "您没有可拆解的试验型装备。"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "想要获得更多部件，请拆解试验型装备。"
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "升级\n%(name)s吗？"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "需要：%(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "价格："
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "购买"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "购买"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "兑换"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "汇率：%(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "快速备战还需%(credits)s"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "指令"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "消耗品"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "模块"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "装备"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "成对改装"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "{action}%(name)s{type}还需%(credits)s"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "指令"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "消耗品"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "模块"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "装备"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "{action}{type}还需%(credits)s"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "修复还需%(credits)s"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "无法购买：兑换失败。还需要%(gold)s才能进行兑换。"
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "购买"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "改装"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "无需兑换——您已有足够的银币。"
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "{action}所需银币充足"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "补充弹药还需%(credits)s"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "自动修复"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "修复"
+
+msgid "dialogs/needRepair/durability"
+msgstr "耐久度："
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "战车已免费自动修复"
+
+msgid "dialogs/needRepair/price"
+msgstr "修复价格："
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "修复资金不足"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "收到！"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "无需修复"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "补给"
+
+msgid "dialogs/refillShells/price"
+msgstr "补给价格："
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "确定补给弹药吗？"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "保存对弹药的更改吗？"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "请注意：您正在出售改进型装备。"
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "请注意：出售后，您将无法恢复或购买此装备。"
+
+msgid "dialogs/sell/button/cancel"
+msgstr "取消"
+
+msgid "dialogs/sell/button/sell"
+msgstr "出售"
+
+msgid "dialogs/sell/header"
+msgstr "出售以下装备吗？\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "出售单价："
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "拆除所需资源不足。"
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "此战车暂无推荐内容"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "无法安装。"
+
+msgid "easyTankEquipView/applied"
+msgstr "已应用"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "进阶"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "强化"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "标准"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "消耗品"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "转移和调动乘员所需床位不足。请扩充兵营床位。"
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "经验丰富的乘员"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "新乘员"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\n新乘员将被征募"
+msgstr[1] "{{count}}\n新乘员将被征募"
+msgstr[2] "{{count}}\n新乘员将被征募"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "乘员"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "进阶"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "标准"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "装备"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "进阶"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "标准"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "弹药"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "您已应用了风格"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "花费{{price}}进行{{battlesCount}}场战斗"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "预设风格"
+
+msgid "easyTankEquipView/title"
+msgstr "快速备战"
+
+msgid "effects/name"
+msgstr "效果"
+
+msgid "effects/template"
+msgstr "%(icon)s%(title)s：%(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "冷却时间为%(cooldown)s秒。"
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "获得部件"
+
+msgid "filters/shown"
+msgstr "显示： "
+
+msgid "hints/dragAndDrop/section"
+msgstr "拖放\n装备"
+
+msgid "hints/filters/specialization"
+msgstr "额外\n类别加成"
+
+msgid "hints/tabs/equipment"
+msgstr "新类型\n装备"
+
+msgid "introduction/currency/deluxe"
+msgstr "点券"
+
+msgid "introduction/currency/modernized"
+msgstr "部件"
+
+msgid "introduction/message/deluxe"
+msgstr "此类型的装备可花费%(currencyName)s（%(currencyIcon)s）购买，也可通过完成特定游戏内成就，或参加特殊游戏活动，作为奖励获取。"
+
+msgid "introduction/message/modernized"
+msgstr "专用装备，有3个等级，可通过完成任务和参与特定游戏活动获取。此装备无法被摧毁或出售，但可以拆解为特殊零件——%(currencyName)s（%(currencyIcon)s）。通过拆解获得的部件可用来升级任意试验型装备。"
+
+msgid "introduction/message/trophy"
+msgstr "一种特殊类型的装备，获得时拥有与标准装备相当的属性值，但可以使用银币进行升级。您不能用游戏内货币购买赏金装备，但可以在特定游戏活动中作为奖励获取。"
+
+msgid "introduction/showButton"
+msgstr "显示装备"
+
+msgid "introduction/slide/1/description"
+msgstr "已添加全新装备。此外，%(repairBox)s、%(wetAmmo)s、%(CO2Cistern)s和%(cycloneFilter)s已合并为%(changedConfiguration)s装备。类似的%(forcedChassis)s被替换为%(forcedMetal)s。保留全部原有加成并增加了新的加成。"
+
+msgid "introduction/slide/1/title"
+msgstr "新装备"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "—火力"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "—机动性"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "—侦查"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "—生存能力"
+
+msgid "introduction/slide/2/description"
+msgstr "如果装备安装在相同类别的槽位中，将发挥更高效率。否则，将仅提供标准加成。"
+
+msgid "introduction/slide/2/subtitle"
+msgstr "类别匹配"
+
+msgid "introduction/slide/2/title"
+msgstr "装备类别"
+
+msgid "introduction/slide/3/description/left"
+msgstr "II–IV级战车的大多数装备的价格不会超过50000银币，V–VII级战车为300000银币，而VIII–XI级战车则为600000银币。"
+
+msgid "introduction/slide/3/description/right"
+msgstr "部分新装备分为三个级别。虽然级别不同，但装备所提供的效果相同。装备级别越高，其价格也就越高。每个级别的装备分别对应不同的战车等级。"
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "装备改动"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "新装备"
+
+msgid "introduction/slide/3/title"
+msgstr "装备价格"
+
+msgid "introduction/slide/4/description"
+msgstr "I级战车无法使用装备。II级战车只能安装一个装备，III级战车可安装两个装备，而IV–XI级战车为三个。当前已安装在被移除槽位中的装备将被拆除并发送至仓库。"
+
+msgid "introduction/slide/4/title"
+msgstr "装备槽"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "充二氧化碳气的油箱"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "修改型战车配置"
+
+msgid "introduction/slide/confirm"
+msgstr "收到！"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "燃油滤清器"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "强化悬挂系统"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "改进型战车硬化"
+
+msgid "introduction/slide/repairBox"
+msgstr "工具箱"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "\"水套\"弹药架"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "改进型装备"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "试验型装备"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "赏金装备"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "您没有适合的试验型装备"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "您没有适合的赏金装备"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "车长发觉战车被侦察的延迟时间"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "已震晕战车的额外震晕时长"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "树丛后敌方战车的隐蔽性（静止和移动中）"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "所有类型炮弹的速度"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "模块受损时的装填速度惩罚"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "模块受损时的发动机功率损失"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "战车静止或移动时的隐蔽性"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "提高的隐蔽性，无论战车静止或移动（效果取决于战车类型）"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "受冲击时悬挂损伤造成的车体伤害"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "视野范围（最高445米）——提高的参数超过445米将更有效地侦察敌方战车"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "受冲击伤害"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "战车移动和转向，以及炮管转向和射击后的散布误差"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "装甲吸收的HE弹伤害"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "您战车可持续被见到的时间"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "穿越任意地形时的速度维持能力"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "战车静止3秒后的隐蔽性"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "战车静止1.5秒后的\n隐蔽性"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "战车静止3秒后提高的隐蔽性（效果取决于战车类型）"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "战车静止1.5秒后提高的隐蔽性（效果取决于战车类型）"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "战车静止3秒后的视野范围（最高445米）——提高的参数超过445米将更有效地侦察敌方战车"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "战车静止1.5秒后的视野范围（最高445米）——提高的参数超过445米将更有效地侦察敌方战车"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "战车血量（向上取整）"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "固定舱战车的炮塔转向速度或炮管转向速度"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "车长发觉战车被侦察的延迟时间"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "已震晕战车的额外震晕时长"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "在树丛后的敌方战车移动和静止时的隐蔽性"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "所有类型炮弹的速度"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "模块受损时的装填速度惩罚"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "模块受损时的发动机功率损失"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "战车静止或移动时的隐蔽性"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "提高的隐蔽性，无论战车静止或移动（效果取决于战车类型）"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "受冲击时悬挂损伤造成的车体伤害"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "视野范围（最高445米）。提高参数超过445米将更有效地侦察敌方战车。"
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "受冲击伤害"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "战车移动和转向，以及炮管转向和射击后的散布误差"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "装甲吸收的HE弹伤害"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "您战车可持续被见到的时间"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "穿越任意地形时的速度维持能力"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "战车静止3秒后的隐蔽性"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "战车静止1.5秒后的\n隐蔽性"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "战车静止3秒后的隐蔽性（效果取决于战车类型）"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "战车静止1.5秒后的隐蔽性（效果取决于战车类型）"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "战车静止3秒后的视野范围（最高445米）提高参数超过445米将更有效地侦察敌方战车。"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "战车静止1.5秒后的视野范围（最高445米）。提高的参数超过445米将更有效地侦察敌方战车"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "战车血量（向上取整）"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "固定舱战车的炮塔转向速度或炮管转向速度"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "声音侦测激活前的延迟"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "被侦察提醒发出前的延迟时间"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "火炮降温速度"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "对乘员的防护性"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "乘员熟练度加成"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "额外震晕时长"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "震晕时长"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "潜在伤害和穿透力的最小值"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "潜在伤害\n和穿透力的最大值"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "造成的撞击伤害"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "显示准星中战车的重伤前的延迟"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "树丛遮盖敌人的隐蔽性"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "移动中敌人的隐蔽性"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "击伤敌方模块和乘员的几率"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "消耗品冷却时间"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "灭火速度"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "在树丛后时的隐蔽性"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "修理箱恢复的血量"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "在中度松软地形上的速度维持能力"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "观察设备瘫痪时的视野范围惩罚"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "潜在穿透力的最大值"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "被摧毁后对敌方战车位置的传输时间"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "对通信兵受伤的防护性"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "炮弹速度"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "在松软地形上的速度维持能力"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "乘员受到震晕的\n负面效果"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "悬挂受到的伤害"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "悬挂修复速度"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "装填速度惩罚"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "发动机受损的惩罚"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "车体转向速度"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "内部模块耐久度"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "弹药架耐久度"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "最高倒车速度"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "隐蔽性"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "提高的隐蔽性"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "受冲击伤害"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "悬挂修复速度"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "悬挂耐久度"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "视野范围"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "您可持续见到敌方战车的时间"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "发动机功率"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "受冲击伤害"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "发动机起火几率"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "最高前进速度"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "油箱重伤几率"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "瞄准速度"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "装填时间"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "战车移动和转向时的散布误差"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "射击后瞄准圈大小"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "移动时的散布误差"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "车体转向时的散布误差"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "火炮转向时的散布误差"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "火炮受损时的散布误差"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "瞄准圈大小"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "受HE弹伤害"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "射击后的隐蔽性"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "战车对敌可见时长"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "悬挂承受的冲击伤害"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "承受的撞击伤害"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "更换火炮中已装填炮弹类型的速度"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "修复速度"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "穿越所有地形时的速度维持能力"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "战车静止时的隐蔽性"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "战车静止时的隐蔽性"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "战车静止时提高的隐蔽性"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "战车静止时提高的隐蔽性"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "战车静止时的视野范围"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "战车静止时的视野范围"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "战车血量"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "固定舱战车的炮塔转向速度或炮管转向速度"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "炮塔转向速度"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "车轮转向速度"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "乘员受伤时的惩罚（车长除外）"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "声音侦测激活前的延迟"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "显示准星中战车的重伤前的延迟"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "被摧毁后侦察敌人的时长"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "受到的HE弹伤害"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "HE弹穿透力"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "HE弹速度"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "弹药容量"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "所有类型炮弹的伤害"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "所有类型炮弹的速度"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "声音侦测激活前的延迟"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "标准炮弹伤害"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "被侦察提醒发出前的延迟时间"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "火炮降温速度"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "对乘员的防护性"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "乘员熟练度加成"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "额外震晕时长"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "震晕时长"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "潜在伤害和穿透力的最小值"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "潜在伤害\n和穿透力的最大值"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "造成的撞击伤害"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "显示准星中战车的重伤前的延迟"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "树丛后敌方战车的隐蔽性"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "移动中敌方战车的隐蔽性"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "击伤敌方模块和乘员的几率"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "发动机血量"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "消耗品冷却时间"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "灭火速度"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "在树丛后时的隐蔽性"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "油箱血量"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "火炮俯角"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "火炮仰角"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "火炮稳定性"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "火炮转向上限"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "修理箱恢复的血量"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "车体抬升速度"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "在中度松软地形上的速度维持能力"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "非HE弹伤害"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "观察设备瘫痪时的视野惩罚"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "潜在穿透力的最大值"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "被摧毁后对敌方战车位置的传输时间"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "对通信兵受伤的防护性"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "弹匣内的装填时间"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "装填时间（齐射模式）"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "装填时间（单发射击模式）"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "炮弹对敌方模块的伤害"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "炮弹速度"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "在松软地形上的速度维持能力"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "特殊炮弹伤害"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "特殊炮弹穿透力"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "特殊炮弹速度"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "标准炮弹伤害 "
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "标准炮弹穿透力"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "标准炮弹速度"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "乘员受到震晕的负面效果"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "悬挂受到的伤害"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "悬挂修复速度"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "炮塔转向上限"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "装填速度惩罚"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "发动机受损的惩罚"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "车体转向速度"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "内部模块耐久度"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "弹药架耐久度"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "最高倒车速度"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "隐蔽性"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "提高的隐蔽性"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "冲击时的伤害"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "悬挂修复速度"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "悬挂耐久度"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "视野范围（最高445米）"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "您可持续见到敌方战车的时间"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "发动机功率"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "受冲击伤害"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "发动机起火几率"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "最高前进速度"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "油箱重伤几率"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "瞄准速度"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "装填时间"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "战车移动和转向时的散布误差"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "射击后瞄准圈大小"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "移动时的散布误差"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "车体转向时的散布误差"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "火炮转向时的散布误差"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "火炮受损时的散布误差"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "瞄准圈大小"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "受HE弹伤害"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "射击后的隐蔽性"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "战车对敌可见时长"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "悬挂承受的冲击伤害"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "承受的撞击伤害"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "更换火炮中已装填炮弹类型的速度"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "修复速度"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "最高前进/倒车速度"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "穿越所有地形时的速度维持能力"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "战车静止时的隐蔽性"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "战车静止时的隐蔽性"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "战车静止时提高的隐蔽性"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "战车静止时提高的隐蔽性"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "战车静止时的视野范围（最高445米）"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "战车静止时的视野范围（最高445米）"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "战车血量"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "固定舱战车的炮塔转向速度或炮管转向速度"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "炮塔转向速度"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "车轮转向速度"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "乘员受伤时的惩罚（车长除外）"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "被侦察提醒发出前的延迟时间"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "对乘员受伤的\n防护性"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "乘员熟练度加成"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "额外震晕时长"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "震晕时长"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "造成的撞击伤害"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "显示准星中战车的重伤前的延迟"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "树丛后敌方战车\n的隐蔽性"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "移动中敌方战车\n的隐蔽性"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "修理箱恢复的血量"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "弹匣装填时间"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "潜在穿透力的最大值"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "对通信兵受伤的防护性"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "所有类型炮弹的速度"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "火炮散布误差"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "悬挂修复速度"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "火炮转向时的散布误差"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "装填速度惩罚"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "发动机受损\n的功率损失"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "战车转向速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "内部模块耐久度"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "弹药架耐久度"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "最高倒车速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "隐蔽性"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "受冲击伤害"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "悬挂修复速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "悬挂耐久度"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "视野范围"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "您可持续见到敌方战车的时间"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "发动机功率"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "受冲击伤害"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "发动机起火几率"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "最高前进速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "瞄准速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "装填时间"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "战车移动和转向时的散布误差"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "射击后\n瞄准圈大小"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "移动时的散布误差"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "车体转向时的散布误差"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "火炮转向时的\n散布误差"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "火炮受损时的散布误差"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "瞄准圈大小"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "受HE弹伤害"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "射击后的隐蔽性"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "战车对敌可见时长"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "承受的撞击伤害"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "更换炮弹类型的速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "修复速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "速度维持能力"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "战车静止时的\n隐蔽性"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "战车静止时的\n隐蔽性"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "视野范围"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "视野范围"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "战车血量"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "火炮转向速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "炮塔转向速度"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "乘员受伤时的惩罚(车长除外)"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "被侦察提醒发出前的延迟时间"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "对乘员受伤的\n防护性"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "乘员熟练度加成"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "乘员熟练度加成"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "额外震晕时长"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "震晕时长"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "潜在伤害和穿透力的最小值"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "造成的撞击伤害"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "树丛后敌方战车的\n隐蔽性"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "移动中敌方战车的\n隐蔽性"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "击伤敌方模块和乘员的几率"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "灭火速度"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "修理箱恢复的血量"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "弹匣装填时间"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "战车隐蔽性"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "在中度松软地形上的速度维持能力"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "潜在穿透力的最大值"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "通信范围"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "对通信兵受伤的防护性"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "所有类型炮弹的速度"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "在松软地形上的速度维持能力"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "悬挂修复速度"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "通信设备覆盖范围内队友的通信范围"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "装填速度惩罚"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "发动机受损时的\n功率损失"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "战车转向速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "内部模块耐久度"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "弹药架耐久度"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "最高倒车速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "隐蔽性"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "冲击时的伤害"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "悬挂修复速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "悬挂耐久度"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "视野范围\n（最高445米）"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "您可持续见到敌方战车的时间"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "发动机功率"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "受冲击伤害"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "发动机起火几率"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "最高前进速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "瞄准速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "装填时间"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "战车移动和转向时的\n散布误差"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "射击后\n瞄准圈大小"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "移动中的散布误差"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "车体转向时的散布误差"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "火炮转向时的\n散布误差"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "火炮受损时的散布误差"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "瞄准圈大小"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "受HE弹伤害"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "射击后的隐蔽性"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "战车对敌可见时长"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "承受的撞击伤害"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "更换炮弹类型的速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "修复速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "速度维持"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "战车静止时的隐蔽性"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "战车静止时的隐蔽性"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "战车静止时的视野范围\n（最高445米）"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "战车静止时的视野范围\n（最高445米）"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "战车血量"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "火炮转向速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "炮塔转向速度"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "战斗中获得的乘员经验"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "秒"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "（%(value)s）"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "秒"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "秒"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "秒"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "公里/小时"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "秒"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "公里/小时"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "秒"
+
+msgid "popularLoadouts/common"
+msgstr "热门"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "常用"
+
+msgid "popularLoadouts/legendary"
+msgstr "传奇"
+
+msgid "popularLoadouts/noData"
+msgstr "无数据"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "无数据"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)s热门。%(whiteSpanish_Close)s基于所有《坦克世界》玩家当前的装备使用趋势"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "数据收集"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "如果当前天梯战赛季的数据不可用，会使用上个赛季的数据。"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "助手功能支持%(whiteSpanish_Open)s随机战%(whiteSpanish_Close)s和%(whiteSpanish_Open)s天梯战%(whiteSpanish_Close)s模式"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "系统会汇总所有类型的装备数据"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "“坦克世界Plus”的好处"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "按数百万场战斗的精准大数据推荐装备方案，帮助玩家发掘最大化战斗潜力。"
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "装备助手"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)s传奇。%(whiteSpanish_Close)s按当前传奇WTR评级玩家的偏好装备进行推荐。"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "武装类型"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "按玩法相似战车的热门配置所推荐的武装方案"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "以下展示的是玩法相似战车的数据："
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "武装数据不可用"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "所选战车不适合此游戏模式"
+
+msgid "section/battleAbilities"
+msgstr "战斗储备"
+
+msgid "section/battleBoosters"
+msgstr "指令"
+
+msgid "section/consumables"
+msgstr "消耗品"
+
+msgid "section/modules"
+msgstr "模块"
+
+msgid "section/optDevices"
+msgstr "装备"
+
+msgid "section/shells"
+msgstr "弹药"
+
+msgid "section/toggleCamouflage"
+msgstr "迷彩"
+
+msgid "section/toggleShells"
+msgstr "弹药"
+
+msgid "shells/ammunitionFull"
+msgstr "弹药已满"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "弹药未满"
+
+msgid "shells/autoFillOff"
+msgstr "关闭自动补给"
+
+msgid "shells/autofillOn"
+msgstr "启用自动补给"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "仓库中："
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "弹药架中："
+
+msgid "shells/shortSpecification/price"
+msgstr "购买："
+
+msgid "shells/specification/inStorage"
+msgstr "仓库中"
+
+msgid "shells/specification/inVehicle"
+msgstr "弹药架中"
+
+msgid "shells/specification/price"
+msgstr "购买"
+
+msgid "shells/title"
+msgstr "弹药"
+
+msgid "shells/type/base"
+msgstr "标准（AP）"
+
+msgid "shells/type/special"
+msgstr "特殊（HE）"
+
+msgid "shells/type/tactical"
+msgstr "战术（APCR）"
+
+msgid "tabs/crew"
+msgstr "乘员"
+
+msgid "tabs/deluxe"
+msgstr "改进型"
+
+msgid "tabs/modernized"
+msgstr "试验型"
+
+msgid "tabs/optDevice"
+msgstr "装备"
+
+msgid "tabs/simple"
+msgstr "标准"
+
+msgid "tabs/trophy"
+msgstr "赏金"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "战车将在离开战斗后自动补给指令。补给时消耗库存指令（如有）或使用游戏货币购买。"
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "如有必要，战车将在离开战斗后自动补给消耗品。"
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "如有必要，战车将在离开战斗后自动修复。"
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "如有必要，战车将在离开战斗后自动补给弹药。"
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "自动补给"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "自动修复"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "将从仓库中拆解：%(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "将从战车上拆解：%(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr "、"
+
+msgid "tooltips/action/description/add_one"
+msgstr "点击购买额外道具给此槽位。"
+
+msgid "tooltips/action/description/demount"
+msgstr "点击拆除此槽位的装备。"
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "点击从此槽位中拆除装备。"
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "点击从所有配置中拆除装备。"
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "点击以使用坦克世界Plus特权，免费拆除\n此槽位中的装备。"
+
+msgid "tooltips/action/description/destroy"
+msgstr "点击摧毁此槽位中的装备，或者使用坦克世界Plus特权免费拆除。"
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "点击将装备拆解为部件。"
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "点击销毁此槽位的装备。"
+
+msgid "tooltips/action/description/swap"
+msgstr "点击切换道具的槽位。"
+
+msgid "tooltips/action/description/upgrade"
+msgstr "升级装备可提升属性。"
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "升级装备可提升属性。"
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "升级装备可提升属性。"
+
+msgid "tooltips/action/title/add_one"
+msgstr "购买"
+
+msgid "tooltips/action/title/cancel"
+msgstr "发送至仓库"
+
+msgid "tooltips/action/title/demount"
+msgstr "拆除"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "拆除"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "从所有配置中拆除"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "免费拆除"
+
+msgid "tooltips/action/title/destroy"
+msgstr "销毁"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "拆解"
+
+msgid "tooltips/action/title/swap"
+msgstr "改变顺序"
+
+msgid "tooltips/action/title/undo"
+msgstr "从槽位移除"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "升级"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "升级"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "升级"
+
+msgid "tooltips/additional"
+msgstr "附加信息。"
+
+msgid "tooltips/categories/list"
+msgstr "点击查看模块列表。"
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "此槽位可以在战地升级菜单或装备选择界面中重新分配类别。"
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "可重新分配的类别"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "点击重新分配槽位类别。"
+
+msgid "tooltips/equipmentList"
+msgstr "点击查看可用装备列表。"
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "无法将试验型装备拆解为部件：您没有此类型的装备。"
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "点击确认将装备拆解为部件。"
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "安装后，此装备只提供标准加成，基于只有坦克歼击车和自行火炮具有火力类别的槽位，且该装备并未安装在其中。"
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "您的战车获得的属性加成提高。"
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "要提高属性加成，请将此装备安装在以下类别的槽位中：%(category)s。"
+
+msgid "tooltips/howToIncrease/single"
+msgstr "要提高属性加成，请将此装备安装在以下类别的槽位中：%(category)s。"
+
+msgid "tooltips/placeEquipment"
+msgstr "装备槽"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "您可以在战地升级界面中启用/禁用在战前倒计时中选择炮弹和消耗品组合的选项。"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "您可以在战地升级界面中启用/禁用在战前倒计时中选择装备和指令组合的选项。"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "您可以在战地升级界面中启用/禁用在战前倒计时中选择炮弹和消耗品组合的选项。"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "您可以在升级界面中启用/禁用在战前倒计时中选择炮弹和消耗品组合的选项。"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "您可以在战地升级界面中启用/禁用在战前倒计时中选择装备和指令组合的选项。"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "您可以在升级界面中启用/禁用在战前倒计时中选择装备和指令组合的选项。"
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "组合间的切换已禁用"
+
+msgid "tooltips/separator/last"
+msgstr " 和 "
+
+msgid "tooltips/separator/other"
+msgstr "， "
+
+msgid "tooltips/specializationDesc"
+msgstr "此槽位安装%(spec)s类别的标准装备将发挥更高效率。其他类别的装备仅提供标准加成。"
+
+msgid "tooltips/specializationName"
+msgstr "类别："
+
+msgid "tooltips/specializationType"
+msgstr "火力"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "一种高价值的装备类型，具有比其他类型装备更好的属性。"
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "拥有3个等级的特殊装备。"
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "装备可以提高您战车的属性。"
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "具有标准装备参数的装备类型，但可以升级。"
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "改进型装备"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "试验型装备"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "标准装备"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "赏金装备"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "此类型的装备可花费%(whiteSpanish_Open)s点券%(whiteSpanish_Close)s购买，也可通过完成特定游戏内成就，或参加特殊游戏活动，作为奖励获取。"
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "此类型的装备可以在特定游戏活动中作为奖励获取。"
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "此类型装备可使用游戏内货币购买，也可通过完成特定游戏内成就，或参加特殊游戏活动，作为奖励获取。标准装备的属性可通过放置在对应槽位中获得提升。"
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "此类型的装备可以在特定游戏活动中作为奖励获取。"
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "获取方式"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "获取方式"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "装备槽"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "赏金装备无法购买"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "您可以使用%(whiteSpanish_Open)s部件%(whiteSpanish_Close)s来升级试验型装备的属性。部件可通过拆解试验型装备获取。"
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "您可以使用游戏内货币升级赏金装备的属性。"
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "升级试验型装备"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "升级赏金装备"

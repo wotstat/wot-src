@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "총 공적 평점에 집계되는 점수입니다."
+
+msgid "achievementsPointsTooltip/header"
+msgstr "공적 점수"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "해당 공적의 모든 단계를 완료하고 이용 가능한 보상도 모두 획득했습니다."
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "%(escIcon)s 키를 누르면 이전 카탈로그로 돌아갑니다."
+
+msgid "catalog/rootLink"
+msgstr "카탈로그"
+
+msgid "category/achievementsScore/title"
+msgstr "공적 평점"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "공적 수집 진행 상황을 확인할 수 있는 주요 지표입니다. 트로피를 제외한 새로운 공적을 획득할 때마다 총 공적 평점에 집계됩니다."
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "총 공적 평점: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "최근\n공적"
+
+msgid "category/title"
+msgstr "플레이어의 컬렉션"
+
+msgid "category/upcoming/title"
+msgstr "기대\n공적"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s 외"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "공적 해제!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "공적 %(count)s개 해제!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s 외"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "새로운 트로피 획득!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "트로피 %(count)s개 획득!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "자동 표시 기능을 활성화하면 모든 유형의 업적이 주요 업적 모음에 가치 순으로 나열됩니다. 업적 순서를 바꾸면 자동 표시 기능이 비활성화됩니다."
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "자동 표시 기능을 활성화하면 모든 유형의 업적이 주요 업적 모음에 가치 순으로 나열됩니다. 해당 기능 활성화 시 수동으로 설정된 업적 순서가 초기화됩니다."
+
+msgid "editConfirm/description/error"
+msgstr "문제를 확인하고 있습니다. 나중에 다시 설정해 주십시오. 개요 화면으로 이동합니다."
+
+msgid "editConfirm/footer/button/accept"
+msgstr "저장"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "취소"
+
+msgid "editConfirm/footer/button/error"
+msgstr "확인"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "자동 표시 비활성화"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "자동 표시 활성화"
+
+msgid "editConfirm/title/error"
+msgstr "오류 발생"
+
+msgid "editConfirm/title/normal"
+msgstr "주요 업적 모음 변경 사항을 적용하시겠습니까?"
+
+msgid "editView/footer/button/cancel"
+msgstr "취소"
+
+msgid "editView/footer/button/save"
+msgstr "적용 및 나가기"
+
+msgid "editView/header/checkbox"
+msgstr "자동 표시"
+
+msgid "editView/header/close"
+msgstr "닫기"
+
+msgid "editView/header/title/idle"
+msgstr "업적 모음에 표시할 업적 선택"
+
+msgid "editView/header/title/selecting"
+msgstr "교체할 업적 선택"
+
+msgid "editView/header/title/tutorial"
+msgstr "업적 슬롯 선택"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "취소"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "교체"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "여기서 공적\n확인 가능"
+
+msgid "hint/profile"
+msgstr "여기서 공적\n확인 가능"
+
+msgid "hint/summary/customizationButton"
+msgstr "수정 가능"
+
+msgid "notifications/editingEnabled/button"
+msgstr "업적 모음으로 이동"
+
+msgid "notifications/editingEnabled/title"
+msgstr "주요 업적 모음 수정 가능"
+
+msgid "notifications/firstEntry/button"
+msgstr "전적으로 이동"
+
+msgid "notifications/firstEntry/text"
+msgstr "월드 오브 탱크 레이팅\n업적 수정"
+
+msgid "notifications/firstEntry/title"
+msgstr "전적 항목 수정"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "전적으로 이동"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "업적 수정\n시각적 요소"
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "전적 항목 수정"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "전적으로 이동"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "현재 레벨: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "레이팅 산정 완료!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "전적으로 이동"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "월드 오브 탱크 레이팅이 변경되었습니다. 전적 항목으로 이동하여 자세한 내용을 확인해 보십시오."
+
+msgid "notifications/ratingUp/button"
+msgstr "전적으로 이동"
+
+msgid "notifications/ratingUp/text"
+msgstr "다음 레벨 달성: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "레이팅 상승!"
+
+msgid "playerInfo/clan/button"
+msgstr "클랜 프로필"
+
+msgid "playerInfo/clan/date"
+msgstr "가입일:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "소속된 래더팀 없음"
+
+msgid "playerInfo/clan/post"
+msgstr "직책:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "개인 인식표\n이용 불가"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "해당 플레이어의 레이팅을 산정할 수 없습니다. 전투에 %(amount)s회 이상 참여해야 합니다."
+
+msgid "ratingWidget/status/initial"
+msgstr "전투에 %(amount)s회 이상 참여하면 월드 오브 탱크 레이팅이 산정됩니다."
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "아직 플레이어 레이팅이 산정되지 않음"
+
+msgid "ratingWidget/status/progress"
+msgstr "월드 오브 탱크 레이팅 산정 중입니다. 남은 전투 횟수: %(amount)s"
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "전투에 참여하면 레이팅 산정이 진행됩니다."
+
+msgid "rewardView/button/achievements"
+msgstr "공적으로 이동"
+
+msgid "rewardView/button/dogTag"
+msgstr "인식표로 이동"
+
+msgid "rewardView/button/dogTags"
+msgstr "인식표로 이동"
+
+msgid "rewardView/button/moreRewards"
+msgstr "%(value)s개 더 보기"
+
+msgid "rewardView/reward/dogTag"
+msgstr "%(value)s 인식표"
+
+msgid "rewardView/title/multi"
+msgstr "공적 보상 획득"
+
+msgid "rewardView/title/single"
+msgstr "공적 보상 획득"
+
+msgid "section/action"
+msgstr "특수 업적"
+
+msgid "section/battle"
+msgstr "전장의 영웅"
+
+msgid "section/class"
+msgstr "단계별 훈장"
+
+msgid "section/epic"
+msgstr "특무 훈장"
+
+msgid "section/group"
+msgstr "집단 보상"
+
+msgid "section/memorial"
+msgstr "기념비적 업적"
+
+msgid "section/special"
+msgstr "명예 업적"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "공적으로 이동"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " 마지막 전투: %(lastVisitDate)s, %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "회원 가입일: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "바탕"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "기본"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "화염"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "황금"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "전설"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "복고"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "폭발"
+
+msgid "summary/achievements/customization/discard"
+msgstr "취소"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "장식띠"
+
+msgid "summary/achievements/customization/save"
+msgstr "적용 및 나가기"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "기술적인 문제로 인해 현재 전적 화면 꾸미기를 이용할 수 없습니다. 문제 해결을 위해 노력하고 있습니다. 화면을 새로 고침하거나 나중에 다시 시도해 주십시오."
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "현재 전적 꾸미기 이용 불가"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "주요 업적"
+
+msgid "summary/achievements/total"
+msgstr "총합: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "획득 업적 종류: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "평균: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "승률: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "평균: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "평균: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "기록: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "평균: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "데이터가 준비될 때까지 전투에 참여하십시오."
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "일시적으로 정보를 불러올 수 없습니다."
+
+msgid "summary/disabled/title"
+msgstr "향후 더 많은 정보 이용 가능"
+
+msgid "summary/main/assistance"
+msgstr "도움 피해\n최고"
+
+msgid "summary/main/battles"
+msgstr "참전 횟수\n누계"
+
+msgid "summary/main/blocked"
+msgstr "장갑 활용\n최고"
+
+msgid "summary/main/damage"
+msgstr "피해량\n최고"
+
+msgid "summary/main/destroyed"
+msgstr "격파한 전차\n누계"
+
+msgid "summary/main/experience"
+msgstr "경험치\n최고"
+
+msgid "summary/statistic/title"
+msgstr "월드 오브 탱크 레이팅"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "개인 레이팅"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "도움 피해 최고 기록입니다."
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "%(tankName)s 전차로 달성한 도움 피해 최고 기록입니다."
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "최고 도움 피해: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "기록한 총 도움 피해 대 참전 횟수 비율입니다. 다음을 포함합니다."
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• 적 전차 발견에 의한 도움 피해\n• 적 전차 궤도 파괴 및 이동 불가 상태 유발에 의한 도움 피해"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "평균 도움 피해: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "승리 횟수 대 참전 횟수 비율입니다."
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "다음을 포함합니다."
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• 승리: %(wins)s\n• 패배: %(loses)s\n• 무승부: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "승률: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "참전 횟수: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "장갑으로 막은 피해 최고 기록입니다."
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "%(tankName)s 전차로 달성한 장갑으로 막은 피해 최고 기록입니다."
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "최고 장갑 활용: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "장갑으로 막은 총 피해량(비관통 피격 및 철갑탄, 성형작약탄, 고속철갑탄 도탄) 대 참전 횟수 비율입니다."
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "평균 장갑 활용: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "입힌 피해량 최고 기록입니다."
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "%(tankName)s 전차로 달성한 입힌 피해량 최고 기록입니다."
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "최고 피해량: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "기록한 총 피해량 대 참전 횟수 비율입니다."
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "평균 피해량: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "전차 격파 최고 기록입니다."
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "%(tankName)s 전차로 달성한 전차 격파 최고 기록입니다."
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "최고 전차 격파: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "전체 전투에서 격파한 전차 수입니다."
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "전차 격파: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "경험치 획득량 최고 기록입니다."
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "%(tankName)s 전차로 달성한 경험치 획득량 최고 기록입니다."
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "최고 경험치 획득: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "경험치 총 획득량 대 참전 횟수 비율입니다."
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "평균 경험치 획득: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "전투의 승패는 월드 오브 탱크 레이팅에 영향을 미치지 않습니다."
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "다양한 전차를 운용하면 다음 성적에 따라 자신에게 가장 효율적인 전차를 확인할 수 있습니다."
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "월드 오브 탱크 레이팅은 전차별 개인 레이팅을 산정하고 해당 정보를 기반으로 플레이어의 전투 성적을 평가하는 시스템입니다. 시스템은 전략의 변화에 유동적으로 반응하며 서버 전체의 평균 지표와 플레이어의 통계를 비교합니다."
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "입힌 피해"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "도움 피해"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "적 전차 격파 수"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "장갑으로 막은 피해 및 생존률"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "월드 오브 탱크 레이팅 향상"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "월드 오브 탱크 레이팅"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "레이팅 산정까지 남은 전투: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "레벨: %(level)s"
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "제한 도달!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "다음 레벨 달성까지 남은 점수: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "브론즈 %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "실버 %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "골드 %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "에이스 %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "레전드 %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "레벨"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "점수"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "월드 오브 탱크 레이팅"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "해당 설정을 활성화하면 업적 순서가 %(whiteSpanish_Open)s초기화%(whiteSpanish_Close)s됩니다."
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "해당 설정을 비활성화하거나 주요 업적 모음을 직접 수정하면 업적 모음 내 업적 순서가 %(whiteSpanish_Open)s자동으로%(whiteSpanish_Close)s %(whiteSpanish_Open)s갱신되지%(whiteSpanish_Close)s %(whiteSpanish_Open)s않습니다%(whiteSpanish_Close)s."
+
+msgid "tooltips/autoSetting/description"
+msgstr "주요 업적 모음에 %(whiteSpanish_Open)s모든 유형%(whiteSpanish_Close)s의 업적을 가치에 따라 자동으로 나열합니다."
+
+msgid "tooltips/autoSetting/title"
+msgstr "자동 표시"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "일시적으로 주요 업적 모음을 수정할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "아직 표시할 업적이 없습니다. %(whiteSpanish_Open)s전투에 참여%(whiteSpanish_Close)s하거나 %(whiteSpanish_Open)s게임 이벤트에 참여%(whiteSpanish_Close)s하여 업적을 획득해 보십시오."
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "%(whiteSpanish_Open)s업적을 %(amount)s개 이상%(whiteSpanish_Close)s 획득하면 주요 업적 모음을 수정할 수 있습니다."
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "표시할 업적이 없습니다."
+
+msgid "tooltips/mastery/body"
+msgstr "적합한 모든 전투 모드에서 획득한 전차 에이스 수 / 무작위 전투를 1회 이상 치른 전차 수"
+
+msgid "tooltips/mastery/header"
+msgstr "숙련의 증표: 전차 에이스"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "개인 레이팅은 다음 지표를 기준으로 플레이어의 실력을 측정하는 시스템입니다."
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "각 전투를 마치면 개인 레이팅이 갱신됩니다."
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• 승리 횟수\n• 도움 피해\n• 평균 피해 기록\n• 평균 경험치 획득량\n• 생존 횟수"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "개인 레이팅"

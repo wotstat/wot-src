@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "限額兌換率"
+msgstr[1] "限額兌換率 %(index)s"
+msgstr[2] "限額兌換率 %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "至少一個兌換率已超過上限。部分費用會以下一個兌換率計算。"
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "基本兌換率"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "下一個適用兌換率"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "可用的限額兌換率數量：%(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "限額兌換率可兌換的總額：%(value)s"
+
+msgid "common/afterExchange"
+msgstr "兌換後："
+
+msgid "common/cancel"
+msgstr "取消"
+
+msgid "common/combinedDiscount"
+msgstr "合併折扣"
+
+msgid "common/exchange"
+msgstr "兌換"
+
+msgid "common/exchangeRate"
+msgstr "兌換率"
+
+msgid "common/limitExceeded"
+msgstr "已超過上限。將以合併折扣進行兌換。"
+
+msgid "common/limitOverExceeded"
+msgstr "已超過上限。將使用合併折扣。"
+
+msgid "common/limitRestrictions"
+msgstr "深入了解"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "基本兌換率：%(rateFrom)s = %(rateTo)s。"
+
+msgid "exchange/generalExchangeRate"
+msgstr "通用兌換率：%(rateFrom)s = %(rateTo)s。"
+
+msgid "exchange/information"
+msgstr "已成功兌換 %(gold)s 金幣。已獲得銀幣：%(res)s。"
+
+msgid "exchange/personalExchangeRate"
+msgstr "個人兌換率：%(rateFrom)s = %(rateTo)s。"
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "個人兌換率：%(rateFrom)s = %(rateTo)s。已超過上限"
+
+msgid "exchangeXP/information"
+msgstr "已成功將 %(res)s 經驗轉換為自由經驗。已花費金幣：%(gold)s。"
+
+msgid "experienceExchange/available"
+msgstr "可用經驗："
+
+msgid "experienceExchange/paid"
+msgstr "花費"
+
+msgid "experienceExchange/received"
+msgstr "獲得"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "按照車階來排序"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "按照戰地升級等級來排序"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "按照車輛名稱來排序"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "按照國家來排序"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "按照車輛類型來排序"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "按照所選車輛來排序"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "按照獲得的經驗來排序"
+
+msgid "goldExchange/paid"
+msgstr "花費"
+
+msgid "goldExchange/received"
+msgstr "獲得"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s 金幣 = %(resourceRate)s 銀幣"
+
+msgid "notification/discountDescription/message"
+msgstr "個人兌換率"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "前往兌換"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "已有新兌換率！"
+
+msgid "tooltip/common/basicRate"
+msgstr "基本兌換率"
+
+msgid "tooltip/common/generalRate"
+msgstr "通用兌換率"
+
+msgid "tooltip/common/personalRate"
+msgstr "個人兌換率"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "優惠兌換率"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "限時兌換率"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "只有在購買金幣後才能確定數量。"
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "兌換後的金幣數量"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s 金幣 = %(resourceRate)s 自由經驗"

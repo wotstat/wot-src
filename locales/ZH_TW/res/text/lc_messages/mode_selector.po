@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "button/progression"
+msgstr "顯示進度"
+
+msgid "button/select"
+msgstr "配置"
+
+msgid "event/battlePass/name"
+msgstr "戰車遠征賽季 %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "%(eventName)s\n已結束"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\n將開始於 %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\n暫時無法使用"
+
+msgid "event/ranked/name"
+msgstr "賽季 %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "在進度模式中檢視"
+
+msgid "mode/epicBattle/condition"
+msgstr "30v30 &nbsp;{par_open}I{par_close}&nbsp;%(levels)s&nbsp;階"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30v30&nbsp;{par_open}I{par_close}&nbsp;%(levels)s&nbsp;階"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "活動將\n開始於 %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "此模式\n即將展開"
+
+msgid "mode/epicBattle/description"
+msgstr "有進度與獎勵的模式。"
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "活動已結束"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "透過在{whiteSpanish_open}前線{whiteSpanish_close}駕駛 VIII 階車輛進行戰鬥，您將獲得讓您挺進戰車遠征進度的點數。"
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "戰車遠征點數"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "透過在{whiteSpanish_open}偵察任務{whiteSpanish_close}駕駛 VIII–X 階車輛進行戰鬥，您將獲得讓您挺進戰車遠征進度的點數。"
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "戰車遠征點數"
+
+msgid "mode/mapbox/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s VIII–X&nbsp;階"
+
+msgid "mode/mapbox/description"
+msgstr "全新地圖機制。"
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "天氣視覺效果取決於您的一般畫質設定。若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的電腦效能。激烈戰鬥期間，每秒幀率可能降低。"
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "建議使用最高的畫質設定"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) 建議使用最高的畫質設定"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "了解地圖"
+
+msgid "mode/mapsTraining/description"
+msgstr "了解地圖"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "透過在{whiteSpanish_open}隨機戰鬥{whiteSpanish_close}駕駛 IV–XI 階車輛進行戰鬥，您將獲得讓您挺進戰車遠征進度的點數。"
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "戰車遠征點數"
+
+msgid "mode/random/condition"
+msgstr "15v15 %(parSecondary_open)sI%(parSecondary_close)s I–XI&nbsp;階"
+
+msgid "mode/random/description"
+msgstr "有自動分房機制的戰鬥。"
+
+msgid "mode/random/setup"
+msgstr "配置"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "透過在{whiteSpanish_open}排名戰{whiteSpanish_close}駕駛 X 階車輛進行戰鬥，您將獲得讓您挺進戰車遠征進度的點數。"
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "戰車遠征點數"
+
+msgid "mode/ranked/condition"
+msgstr "10v10 %(parSecondary_open)sI%(parSecondary_close)s X&nbsp;階"
+
+msgid "mode/ranked/description"
+msgstr "有進度與獎勵的模式。"
+
+msgid "mode/specBattlesList/call/1"
+msgstr "登記加入比賽"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "下一場戰鬥：%(date)s %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s I–X&nbsp;階"
+
+msgid "mode/specBattlesList/description"
+msgstr "世界地圖與比賽。"
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "作為傭兵參加"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "代表公會參加"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7v7–15v15 %(parSecondary_open)sI%(parSecondary_close)s VI–X&nbsp;階"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "爭奪工業資源的公會戰鬥。"
+
+msgid "mode/trainingsList/call/1"
+msgstr "訓練房：%(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s I–X&nbsp;階"
+
+msgid "mode/trainingsList/description"
+msgstr "入門戰鬥。"
+
+msgid "novelty"
+msgstr "新"
+
+msgid "ranked/widget/qualBattles"
+msgstr "外圍賽戰鬥：%(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "您可透過參與模式獲得獨特 3D 配飾。"
+
+msgid "reward/attachment/name"
+msgstr "3D 配飾"
+
+msgid "reward/bones/description"
+msgstr "獎勵根據您的戰鬥表現決定。"
+
+msgid "reward/bones/name"
+msgstr "點券"
+
+msgid "reward/bountyEquipment/description"
+msgstr "您可透過參與模式獲得%(name)s。"
+
+msgid "reward/bountyEquipment/name"
+msgstr "特殊裝備"
+
+msgid "reward/credits/description"
+msgstr "獎勵根據您的戰鬥表現決定。"
+
+msgid "reward/credits/name"
+msgstr "銀幣"
+
+msgid "reward/crew/description"
+msgstr "您可透過參與模式獲得獨特乘員。"
+
+msgid "reward/crew/name"
+msgstr "乘員"
+
+msgid "reward/experience/description"
+msgstr "獎勵根據您的戰鬥表現決定。"
+
+msgid "reward/experience/name"
+msgstr "經驗"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "您可透過參與模式獲得各種試驗型裝備。"
+
+msgid "reward/experimentalEquipment/name"
+msgstr "特殊裝備"
+
+msgid "reward/improvedEquipment/description"
+msgstr "您可透過參與模式獲得%(name)s。"
+
+msgid "reward/improvedEquipment/name"
+msgstr "特殊裝備"
+
+msgid "reward/lootBoxes/description"
+msgstr "您可透過參與模式獲得補給箱。"
+
+msgid "reward/lootBoxes/name"
+msgstr "特殊補給箱"
+
+msgid "reward/other/description"
+msgstr "您可透過參與模式獲得許多有用獎勵。"
+
+msgid "reward/other/name"
+msgstr "特殊獎勵"
+
+msgid "reward/progressionStyle/description"
+msgstr "在此模式進行戰鬥可獲得特殊漸變風格。"
+
+msgid "reward/progressionStyle/name"
+msgstr "漸變風格"
+
+msgid "reward/random/description"
+msgstr "您可透過參與模式獲得許多有用獎勵。"
+
+msgid "reward/random/name"
+msgstr "隨機獎勵"
+
+msgid "reward/style/description"
+msgstr "您可透過參與模式獲得 %(name)s 的特殊 3D 風格。"
+
+msgid "reward/style/name"
+msgstr "3D 風格"
+
+msgid "reward/vehicle/description"
+msgstr "您可透過參與模式獲得 %(name)s。"
+
+msgid "reward/vehicle/name"
+msgstr "獎勵車輛"
+
+msgid "selectMap"
+msgstr "隨機戰鬥的預設"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s 天"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s 小時"
+
+msgid "status/timeLeft/lessMin"
+msgstr "少於 1 分鐘"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s 分鐘"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "選擇戰鬥模式"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "世界地圖"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "佔領領地並為征服世界戰鬥。僅適用於公會成員。"
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "加入公會"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "世界地圖上的戰鬥"
+
+msgid "window/battleSession/title"
+msgstr "特殊戰鬥"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "比賽清單"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "此功能目前無法使用，但將在未來可用。請耐心等待。"
+
+msgid "window/battleSession/tournaments/description"
+msgstr "獨自戰鬥或加入隊伍，展現您的能耐並獲得珍貴獎勵。"
+
+msgid "window/battleSession/tournaments/title"
+msgstr "比賽"

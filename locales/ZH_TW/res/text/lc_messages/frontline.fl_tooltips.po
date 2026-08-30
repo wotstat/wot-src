@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "休戰 {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "活動將開放於"
+
+msgid "bannerTooltip/description"
+msgstr "{{vehicleTier}} 階車輛的大規模 30v30 戰鬥，於 Normandie、Kraftwerk 與 Fata Morgana 地圖上進行。攻擊者必須摧毀 5 座大口徑火炮中的至少 3 座，防守者則必須捍衛大口徑火炮。"
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "在激烈戰鬥中展現您的威能以獲取名聲，領取珍貴獎勵，並晉升軍階。"
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "活動已結束，您有尚未領取的前線階級完成獎勵。"
+
+msgid "bannerTooltip/header"
+msgstr "前線"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "前線 | 階級 {{curLevel}}{{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} — 遊戲模式。點擊以探索"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "這個模式需要較高的電腦效能。您可能遇到地圖載入、畫質及車輛移動的問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "效能可能會降低"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "選擇已完成前線階級獎勵 ({{value}}個)"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "資金不足。無法購買。"
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "變更將套用到所有驅逐戰車。"
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "變更將套用到所有自走炮。"
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "變更將套用到所有重型戰車。"
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "變更將套用到所有輕型戰車。"
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "變更將套用到所有中型戰車。"
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "不相容的車輛"
+
+msgid "battleAbilities/points/body"
+msgstr "累積所需數量的點數，就能啟用前線的戰鬥儲備。"
+
+msgid "battleAbilities/points/header"
+msgstr "戰鬥儲備點數"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "檢視攻擊儲備"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "攻擊儲備"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "檢視偵察儲備"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "偵察儲備"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "檢視戰術儲備"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "戰術儲備"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "在戰鬥中達到「上尉」與「少校」軍階後，會提升戰鬥儲備等級。可達到的最高等級取決於戰鬥情境。"
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "額外資訊"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "攻擊儲備"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "偵察儲備"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "戰術儲備"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}：{{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "永久特性："
+
+msgid "battleAbilityTooltip/description"
+msgstr "將戰鬥儲備放入此欄位，會使其在{{@ colorLegacy 'FFE4C0'}}命運交錯{{/}}情境中作為選項出現的機率提高 {{@ colorLegacy 'FFE4C0'}}10%{{/}}。"
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "儲備等級："
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "未購買！"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "活動已結束。"
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "活動即將開始！"
+
+msgid "infoButton/body"
+msgstr "點擊以查看更多資訊。"
+
+msgid "infoButton/header"
+msgstr "關於活動"
+
+msgid "levelReserves/desc"
+msgstr "戰鬥儲備等級會在達到新的軍階時提升："
+
+msgid "levelReserves/info"
+msgstr "在{{@ colorLegacy 'FFE4C0'}}命運交錯{{/}}情境中，購買戰鬥儲備，將讓該儲備提升一個等級，且有機會提升到等級 {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}。"
+
+msgid "levelReserves/level"
+msgstr "達到以下軍階時提升：{{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "達到以下軍階時可用：{{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "等級 - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "在{{@ colorLegacy 'FFE4C0'}}命運交錯{{/}}情境中{{@ colorLegacy 'FFE4C0'}}購買的戰鬥儲備{{/}}。"
+
+msgid "levelReserves/title"
+msgstr "戰鬥儲備等級"
+
+msgid "playlist/warning/body"
+msgstr "此遊玩清單包含不適用於此遊戲模式或不在您車庫中的車輛。"
+
+msgid "playlist/warning/header"
+msgstr "不可用的車輛（%(display)s/%(total)s）"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "戰鬥儲備的特性已改善"
+
+msgid "randomReserve/disable"
+msgstr "此戰鬥儲備欄位已被使用。"
+
+msgid "randomReserve/notPurchased"
+msgstr "未購買戰鬥儲備"
+
+msgid "randomReserve/purchased"
+msgstr "已購買戰鬥儲備"
+
+msgid "skillOrderTooltip/body"
+msgstr "每種類型車輛各有不同的儲備解鎖順序："
+
+msgid "skillOrderTooltip/header"
+msgstr "戰鬥儲備解鎖順序"
+
+msgid "skillOrderTooltip/info"
+msgstr "在{{@ colorLegacy 'whiteSpanish'}}命運交錯{{/}}情境中，戰鬥儲備的解鎖順序與車輛類型無關。"

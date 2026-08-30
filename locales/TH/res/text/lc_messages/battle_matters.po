@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "แผ่นพิมพ์เขียว"
+
+msgid "animations/crew_close"
+msgstr "ปิด"
+
+msgid "animations/shop"
+msgstr "ไปยังการซื้อ"
+
+msgid "battleMattersTab"
+msgstr "วิทยาลัยรถถัง"
+
+msgid "battleResults/descr"
+msgstr "วิทยาลัยรถถัง: {questID} {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "ไปยังภารกิจวิทยาลัยรถถัง"
+
+msgid "battleResults/progress/tooltip"
+msgstr "ความก้าวหน้าในการรบนี้"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "ยกเลิก"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "ปิด"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "ยืนยัน"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "คุณจะได้รับ {whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close} พร้อมพลรถถังและช่องเก็บในโรงรถ"
+
+msgid "bonusDelayed/dialog/title"
+msgstr "แลกเหรียญวิทยาลัยของคุณเป็น %(vehicleName)s?"
+
+msgid "entryPoint/hint"
+msgstr "ชุดของ\nภารกิจฝึก"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "ภารกิจสำเร็จ: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "วิทยาลัยรถถัง"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "รางวัลสำหรับการปฏิบัติสำเร็จ:"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "ภารกิจไม่มีให้ในตอนนี้เนื่องด้วยปัญหาทางเทคนิค ความก้าวหน้าของคุณสำหรับภารกิจที่สำเร็จแล้วยังถูกบันทึกเอาไว้"
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "สำเร็จภารกิจทั้งหมดแล้ว"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "ไม่มีภารกิจให้ชั่วคราว"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "เงื่อนไข:"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "แลกเหรียญเป็นพาหนะวิจัยได้ระดับ VI คันใดก็ได้"
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "กลับ"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "ไปยังภารกิจวิทยาลัยรถถัง"
+
+msgid "mainRewardsScreen/done"
+msgstr "ในโรงรถ"
+
+msgid "mainRewardsScreen/preview"
+msgstr "ตัวอย่าง"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "วันเช่า: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "ปฏิบัติชุดภารกิจฝึกให้สำเร็จเพื่อรับช่วงเช่าพาหนะพิเศษระดับ VIII เป็นเวลา {cream_Open}14 วัน{cream_Close}เป็นรางวัลหลัก"
+
+msgid "mainRewardsScreen/title"
+msgstr "วิทยาลัยรถถัง"
+
+msgid "mainScreen/exchangeToken"
+msgstr "เลือก"
+
+msgid "mainScreen/infoButton"
+msgstr "บทแนะนำผู้เล่นใหม่"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "บทแนะนำ"
+
+msgid "mainScreen/list/arrow"
+msgstr "คลิกเพื่อไปยังภารกิจปัจจุบัน"
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "ได้รับรางวัลหลักแล้ว"
+
+msgid "mainScreen/progress"
+msgstr "ภารกิจสำเร็จ: %(completed)s/%(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "วิธีการปฏิบัติให้สำเร็จ"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s / %(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "ปฏิบัติภารกิจก่อนหน้าให้สำเร็จก่อน"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "ไม่มีให้"
+
+msgid "mainScreen/showMainReward"
+msgstr "ดูรางวัลหลัก"
+
+msgid "mainScreen/target"
+msgstr "ปฏิบัติภารกิจทั้งหมดให้สำเร็จแล้วรับช่วงเช่าพาหนะระดับ VIII สามคัน"
+
+msgid "mainScreen/title"
+msgstr "วิทยาลัยรถถัง"
+
+msgid "pausedScreen/buttonText"
+msgstr "ไปยังโรงรถ"
+
+msgid "pausedScreen/description"
+msgstr "วิทยาลัยรถถังไม่มีให้ชั่วคราวเนื่องด้วยปัญหาทางเทคนิค ความก้าวหน้าทั้งหมดจะถูกบันทึกไว้ ทางเราต้องขออภัยสำหรับความไม่สะดวกที่เกิดขึ้น"
+
+msgid "pausedScreen/title"
+msgstr "ไม่มีให้ชั่วคราว"
+
+msgid "rewards/additionalTitle"
+msgstr "คุณจะยังได้รับ:"
+
+msgid "rewards/footer/confirm"
+msgstr "รับทราบ!"
+
+msgid "rewards/footer/more"
+msgstr "เพิ่มเติม: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "ไปยังภารกิจถัดไป"
+
+msgid "rewards/footer/showVehicle"
+msgstr "ดูในโรงรถ"
+
+msgid "rewards/previouslyCompleted"
+msgstr "เงื่อนไขภารกิจที่บรรลุไว้ก่อนหน้า"
+
+msgid "rewards/rent"
+msgstr "วันเช่า: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "ผ่านด่านสุดท้ายแล้ว"
+
+msgid "rewards/subTitle/regular"
+msgstr "ภารกิจ %(questNumber)s สำเร็จแล้ว"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "ได้รับพาหนะจากเหรียญวิทยาลัย"
+
+msgid "rewards/title"
+msgstr "วิทยาลัยรถถัง"
+
+msgid "rewards/token/action"
+msgstr "เลือกพาหนะ"
+
+msgid "rewards/token/description"
+msgstr "ใช้เหรียญเพื่อรับพาหนะระดับ VI คันใดก็ได้ทันที"
+
+msgid "rewards/token/title"
+msgstr "นำเหรียญวิทยาลัยมาแลกเป็นพาหนะ"
+
+msgid "tokenTooltip/condition"
+msgstr "เหรียญจะมอบให้จากการปฏิบัติชุดภารกิจฝึกสำเร็จและมีความก้าวหน้าที่จำเป็นในวิทยาลัยรถถัง"
+
+msgid "tokenTooltip/description"
+msgstr "เหรียญสามารถนำมาแลกเป็นพาหนะวิจัยได้ระดับ VI คันใดก็ได้ พาหนะคันดังกล่าวจะมาพร้อมกับพลรถถังและช่องเก็บในโรงรถ"
+
+msgid "tokenTooltip/timer/days"
+msgstr "มีเหรียญให้: {cream_open}%(days)s วัน{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "มีเหรียญให้จนถึง: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "มีเหรียญให้: {cream_open}%(hours)s ชม.{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "มีเหรียญให้: {cream_open}%(minutes)s นาที{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "เหรียญวิทยาลัย"
+
+msgid "vehicleSelection/additions/base"
+msgstr "คุณจะได้รับ {cream_Open}%(crewIcon)s พลรถถัง {cream_Close}และ {cream_Open}%(hangarIcon)s ช่องเก็บ{cream_Close} {cream_Open}โรงรถ{cream_Close} นอกเหนือพาหนะของคุณ"
+
+msgid "vehicleSelection/back"
+msgstr "กลับ"
+
+msgid "vehicleSelection/backTo"
+msgstr "ไปยังภารกิจวิทยาลัยรถถัง"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "เพิ่มเข้าการเปรียบเทียบ"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "ปรับการแสดงพาหนะโดยตามชนิดและประเทศ"
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "กรองตามค่า"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "คลิกเพื่อตั้งค่าตัวกรองกลับเป็นค่ามาตรฐาน"
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "ตั้งตามมาตรฐาน"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "ประเทศ"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "กรองตามค่า"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "ชนิดพาหนะ"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "ไม่พบที่ตรงกัน ลองเปลี่ยนการตั้งค่าตัวกรองของคุณหรือตั้งใหม่ให้เป็นค่ามาตรฐาน"
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "ตั้งค่าตัวกรองใหม่"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "คุณได้วิจัยพาหนะระดับ VI ทุกคันที่สามารถแลกด้วยเหรียญวิทยาลัยแล้ว"
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "ไม่มีพาหนะให้เลือก"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "ค้นหาตามชื่อ"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "ชื่อพาหนะดังกล่าวจะไม่สามารถมีความยาวมากกว่า %(maxLength)s อักษร"
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "ค้นหาโดยชื่อ"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "แสดงอยู่:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "นำเหรียญมาแลกเป็นพาหนะวิจัยได้ระดับ VI คันใดก็ได้ พาหนะคันดังกล่าวจะมาพร้อมกับ\nพลรถถังและช่องเก็บในโรงรถ"
+
+msgid "vehicleSelection/title"
+msgstr "เลือกพาหนะวิจัยได้ระดับ VI คันใดก็ได้"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "รถถังเบา"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "รถถังกลาง"

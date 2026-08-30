@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "火力"
+
+msgid "categories/mobility"
+msgstr "機動性"
+
+msgid "categories/stealth"
+msgstr "偵察"
+
+msgid "categories/survivability"
+msgstr "生存能力"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "是！"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "否！"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "在取消改裝後，您將能使用銀幣再次購買。"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "在取消改裝後，您將能再次購買。"
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "要免費取消所有成對改裝？"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "在取消改裝後，您將能使用銀幣再次購買。"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "在取消改裝後，您將能再次購買。"
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "要免費取消%(modification)s成對改裝？"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "購買改裝"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "選擇欄位類別"
+
+msgid "hint/entryPoint"
+msgstr "改裝可以使用"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "點擊以切換\n輔助武裝"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "點擊以切換\n核心武裝"
+
+msgid "hint/vehiclePreview"
+msgstr "車輛特性的變更"
+
+msgid "postProgressionIntro/okButton"
+msgstr "了解！"
+
+msgid "postProgressionIntro/title"
+msgstr "戰地升級"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "特殊改裝 %(level)：%(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "點擊以檢視獲得等級後的車輛特性變更並強調套用的改裝。"
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "成對改裝 %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "戰地升級等級"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "購買車輛後可用"
+
+msgid "researchEntry/status/notResearched"
+msgstr "獲得精英狀態後可用"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "購買車輛且獲得精英狀態後可用"
+
+msgid "researchEntry/title"
+msgstr "戰地升級"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "提升"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "取消"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1}與 {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "輔助武裝"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "欄位"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "核心武裝"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "特殊改裝：{name1}與{name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "特殊改裝：{names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "特殊改裝：{name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "特殊改裝：{name1}、{name2}，與{name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "成對改裝等級 {numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "成對改裝等級 {number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr "、"
+
+msgid "researchStepsDialog/description/text"
+msgstr "將獲得 — {unlockedItems}。"
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "要將標準改裝等級提升至 {level}？"
+
+msgid "researchStepsDialog/title/single"
+msgstr "要提升標準改裝等級？"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "總共："
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "指派"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "可用類別：%(roles)。"
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "選擇的類別：%(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "為此車輛的第二個裝備欄位指派類別的機會。"
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "首次指派欄位類別"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "指派（%(notEnough) %(money)）"
+
+msgid "roleSlotTooltipView/separator"
+msgstr "、"
+
+msgid "roleSlotTooltipView/title"
+msgstr "第二個欄位的類別"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "指派"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "購買並指派"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "兌換"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "取消"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "您可重新指派欄位類別，費用為 %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "將為第二個裝備欄位指派選擇的類別。您可重新指派欄位類別，費用為 %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "兌換率：%(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "兌換失敗。需要額外 %(gold)"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "為第二個裝備欄位指派類別"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "為第二個裝備欄位重新指派類別"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "無法為第二個裝備欄位重新指派類別：需要額外 %(credits)"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "總共："
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "裝備額外一組{cream_Open}裝備{cream_Close}與{cream_Open}技術指南{cream_Close}的機會。"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "裝備額外一組{cream_Open}砲彈{cream_Close}與{cream_Open}消耗品{cream_Close}的機會。"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "輔助武裝"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "核心武裝"
+
+msgid "setupTooltipView/tip"
+msgstr "在車庫中與戰鬥前倒數期間，您可於車輛的主要配置與替代配置之間切換。"
+
+msgid "setupTooltipView/title"
+msgstr "替代配置：{name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)輔助武裝%(/accent)為車輛配置的一部分，由%(accent)裝備與技術指南%(/accent)組成。在獲得替代配置後，您將能在戰鬥前倒數期間%(accent)切換為不同配置的%(/accent)輔助武裝。"
+
+msgid "slides/additionalEquipment/title"
+msgstr "輔助武裝"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "在達到特定的戰地升級等級後，您的車輛將有%(accent)替代配置%(/accent)可用，且您將能在車庫中準備%(accent)額外一組裝備、彈藥、消耗品與技術指南%(/accent)的配置。替代配置不會取代主要配置，但可解鎖全新機會。您可在戰鬥前倒數期間評估地圖與隊伍組成並從%(accent)兩者中選擇一個%(/accent)車輛配置。讓您為即將到來的戰鬥情況作出更好的準備。"
+
+msgid "slides/alternativeEquipment/title"
+msgstr "替代車輛配置"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)標準改裝%(/accent)為%(accent)其中一項車輛特性%(/accent)帶來加成並解鎖成對改裝。這些改裝為免費安裝，但您需要戰鬥經驗或自由經驗來研發。"
+
+msgid "slides/baseModifications/title"
+msgstr "標準改裝"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)特殊改裝%(/accent)為車輛解鎖替代配置，並讓您於 VIII–X 階車輛%(accent)指派類別%(/accent)給第二個裝備欄位。您可花費銀幣重新指派選擇的欄位類別。"
+
+msgid "slides/extraModification/title"
+msgstr "特殊改裝：角色欄位"
+
+msgid "slides/fieldModernization/description"
+msgstr "戰地升級是為車輛進行更精細配置的功能，可根據車輛角色使用各種%(accent)改裝%(/accent)來%(accent)變更特性%(/accent)且後續的每個改裝會在研發前一個改裝後解鎖。"
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "戰地升級"
+
+msgid "slides/fieldModernization/title"
+msgstr "變更車輛特性"
+
+msgid "slides/modificationTree/description"
+msgstr "改裝樹在 %(accent)VI–X%(/accent)  階研發與收藏車輛獲得%(accent)精英狀態%(/accent)後可用。特殊、獎品、獎勵與加值車輛的改裝在購買後可用。"
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "研發改裝"
+
+msgid "slides/modificationTree/title"
+msgstr "研發改裝"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)成對改裝改善其中一項%(/accent)車輛特性並%(accent)降低另一項%(/accent)車輛特性。您需要戰鬥經驗或自由經驗來研發改裝並花費銀幣來安裝。您可%(accent)免費%(/accent)%(accent)取消%(/accent)改裝（自車輛移除改裝）。\n當出售車輛時，會保留標準與特殊改裝，但會取消成對改裝。"
+
+msgid "slides/pairedModifications/title"
+msgstr "成對改裝"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)核心武裝%(/accent)為車輛配置的一部分，由%(accent)彈藥與消耗品%(/accent)組成。在獲得替代配置後，您將能在戰鬥前倒數期間%(accent)切換為不同配置的%(/accent)核心武裝。"
+
+msgid "slides/requiredEquipment/title"
+msgstr "核心武裝"
+
+msgid "slides/roleInBattle/description"
+msgstr "與車輛類型不同，車輛角色更準確地反映最理想的%(accent)戰術%(/accent)並定義何種%(accent)改裝樹%(/accent)可用於某特定車輛。"
+
+msgid "slides/roleInBattle/title"
+msgstr "車輛在戰鬥中的角色"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "改裝會變更車輛特性、解鎖%(accent)替代配置%(/accent)，以及讓您為%(accent)第二個裝備欄位%(/accent)指派類別。"
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "替代配置為第二組%(accent)裝備、彈藥、消耗品與技術指南%(/accent)的配置。您可在配置之間切換。"
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "為%(accent)第二個裝備欄位%(/accent)選擇與指派欄位的功能。直接影響車輛在戰鬥中的效率。"
+
+msgid "slides/specialModifications/title"
+msgstr "改裝、替代配置與欄位類別"
+
+msgid "tooltips/entry_point/description"
+msgstr "額外變更車輛特性的功能。"
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "已研發的配件與車輛：%(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "已研發的配件：%(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "戰地升級"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "購買車輛後可用。"
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "獲得精英狀態後可用。"
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "購買車輛且獲得精英狀態後可用。"
+
+msgid "tooltips/feature/disabled/description"
+msgstr "很抱歉暫時為您帶來不便。請稍後再試。"
+
+msgid "tooltips/feature/disabled/title"
+msgstr "特殊改裝無法使用"
+
+msgid "tooltips/feature/subTitle"
+msgstr "特殊改裝 %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "於戰鬥中獲得、出售您倉庫中的多餘物品，或是兌換金幣來獲取更多。"
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "銀幣不足"
+
+msgid "tooltips/pairModification/demount"
+msgstr "拆卸"
+
+msgid "tooltips/pairModification/level"
+msgstr "成對改裝 %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "技術特性的變更："
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "拆卸（%(notEnough) %(money)）"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "購買（%(notEnough) %(money)）"
+
+msgid "tooltips/pairModification/mount"
+msgstr "購買"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "點擊以檢視車輛技術特性在購買此改裝後的變更。"
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "一旦您取消改裝，您將能花費銀幣購買此對中的任何改裝。"
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "購買此改裝將自動取消此對中已安裝的另一個改裝。"
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "已購買另一個改裝"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "達到戰地升級等級 %(level) 來使用此改裝"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "改裝無法使用"
+
+msgid "tooltips/priceBlock/free"
+msgstr "免費"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "需要："
+
+msgid "tooltips/ttc/approximately"
+msgstr "估計數值。精確數值會在特性中列出。"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "套用"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "取消"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "重置"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "%(title)s 改裝"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "加入比較"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "摧毀所有成對改裝"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "點擊以摧毀所有成對改裝。"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "摧毀"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "預覽"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "重新指派"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "戰鬥前"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "選擇"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "在戰鬥前倒數期間開啟/關閉選擇裝備與技術指南配置的選項。\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "在戰鬥前倒數期間開啟/關閉選擇砲彈與消耗品配置的選項。\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "關閉後，將以車庫中選擇的配置進入戰鬥。"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "在戰鬥前切換"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "此車輛正於戰鬥中。"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "此車輛已鎖定。"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "此車輛需要修理。"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "此車輛正於戰術單位中。"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "無法指派欄位類別：車輛不在車庫中。"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "車輛租用已結束。"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "此車輛正於戰鬥中。"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "此車輛已鎖定。"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "此車輛需要修理。"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "此車輛正於戰術單位中。"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "無法購買：車輛不在車庫中。"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "車輛租用已結束。"
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "點擊以摧毀成對改裝。"
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "摧毀"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "或"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "戰地升級的最高等級"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "適用於 {minAllowedLevel}—{maxAllowedLevel} 階車輛"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "適用於 {allowedLevel} 階車輛"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "隱藏特性"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr "、"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "永久加成：%(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "永久加成：%(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "永久加成：%(bonus1)與 %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "提升等級以獲得永久加成：%(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "提升等級以獲得永久加成：%(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "提升等級以獲得%(bonus1)與%(bonus2)的永久加成"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "提升等級"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "提升等級至 %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "提升等級以獲得："
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "改善的特性"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "特殊改裝"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "特殊改裝 {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "成對改裝"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "成對改裝 {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "前往配件"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "戰地升級無法使用：車輛正於戰鬥中。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "戰地升級無法使用：車輛已鎖定。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "戰地升級無法使用：車輛需要修理。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "在車輛獲得精英狀態後，會獲得額外變更車輛特性的功能。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "戰地升級無法使用：車輛正於戰術單位中。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "您的車庫中必須有該車輛，才能研發改裝並提升戰地升級等級。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "租用車輛無法使用戰地升級。購買此車輛以解鎖戰地升級。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "戰地升級無法使用：車輛租用已結束。延長租用期以解鎖戰地升級。"
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "顯示特性"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "額外變更車輛特性的功能。在車輛獲得精英狀態後可用。"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "戰地升級"

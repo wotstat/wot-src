@@ -1,0 +1,713 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "PersonalMissionAwardView/award/freeSheet"
+msgstr "คุณได้รับคำสั่ง!"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/additionalAwards"
+msgstr "รางวัลสำหรับการปฏิบัติภารกิจทั้งหมดสำเร็จพร้อมด้วยเกียรติยศ"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/mainAwards"
+msgstr "รางวัลหลัก"
+
+msgid "PersonalMissionAwardView/subTitle"
+msgstr "คลิกชื่อเล่นของคุณเพื่อเลือกและติดตั้งเหรียญตรา"
+
+msgid "PersonalMissionAwardView/title"
+msgstr "ได้รับตราสำหรับการทำปฏิบัติการสำเร็จ!"
+
+msgid "PersonalMissionAwardView/title/one"
+msgstr "ได้รับตราสำหรับปฏิบัติการ\"%(vehicleName)s\"!"
+
+msgid "PersonalMissionAwardView/title/perfect"
+msgstr "คุณได้รับเหรียญตราสำหรับการปฏิบัติสำเร็จพร้อมด้วยเกียรติยศ!"
+
+msgid "PersonalMissionFirstEntryView/acknowledgeBtn"
+msgstr "รับทราบ!"
+
+msgid "PersonalMissionFirstEntryView/detailedDescription/btnBack"
+msgstr "กลับ"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintChassis"
+msgstr "พิมพ์เขียวช่วงล่าง"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintEngine"
+msgstr "พิมพ์เขียวเครื่องยนต์"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintGun"
+msgstr "พิมพ์เขียวปืนใหญ่"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHull"
+msgstr "พิมพ์เขียวตัวถัง"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHullAndTurret"
+msgstr "พิมพ์เขียวตัวถังและป้อมปืน"
+
+msgid "PersonalMissionsPlanRegion/mainAward/chassis"
+msgstr "ระบบช่วงล่าง"
+
+msgid "PersonalMissionsPlanRegion/mainAward/engine"
+msgstr "หน่วยกำลัง"
+
+msgid "PersonalMissionsPlanRegion/mainAward/gun"
+msgstr "ปืน"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hull"
+msgstr "ตัวถัง"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hullAndTurret"
+msgstr "ตัวถังและป้อมปืน"
+
+msgid "PersonalMissionsPlanRegion/mainAward/radio"
+msgstr "วิทยุ"
+
+msgid "alliance/0/details"
+msgstr "พื้นที่ยกพลขึ้นบกและทำการรุกคืบของกองกำลังสหภาพ"
+
+msgid "alliance/0/name"
+msgstr "สหภาพ"
+
+msgid "alliance/1/details"
+msgstr "พื้นที่ยกพลขึ้นบกและทำการรุกคืบของกองกำลังกลุ่ม"
+
+msgid "alliance/1/name"
+msgstr "กลุ่ม"
+
+msgid "alliance/2/details"
+msgstr "พื้นที่ยกพลขึ้นบกและทำการรุกคืบของกองกำลังพันธมิตร"
+
+msgid "alliance/2/name"
+msgstr "พันธมิตร"
+
+msgid "alliance/3/details"
+msgstr "พื้นที่ยกพลขึ้นบกและทำการรุกคืบของกองกำลังแนวร่วม"
+
+msgid "alliance/3/name"
+msgstr "แนวร่วม-11"
+
+msgid "awardsScreen/acceptBtn/label"
+msgstr "รับทราบ!"
+
+msgid "awardsScreen/closeBtn/label"
+msgstr "ปิด"
+
+msgid "awardsScreen/description/emailConfirmation"
+msgstr "สำหรับการยืนยันอีเมล์ของคุณ"
+
+msgid "awardsScreen/header"
+msgstr "ปฏิบัติการ %(missionName)s สำเร็จแล้ว"
+
+msgid "awardsScreen/header/fullyCompleted"
+msgstr "ปฏิบัติการ %(missionName)s สำเร็จพร้อมด้วยเกียรติยศ"
+
+msgid "awardsScreen/headerExtra"
+msgstr "ได้รับรางวัล!"
+
+msgid "awardsView/closeBtn/label"
+msgstr "ปิด"
+
+msgid "awardsView/description"
+msgstr "รางวัลหลักสำหรับปฏิบัติการ"
+
+msgid "awardsView/mainAwards/title"
+msgstr "รางวัลหลัก"
+
+msgid "awardsView/vehicleAward/mainAward"
+msgstr "รางวัลหลัก"
+
+msgid "bonus/descr/attempts/card"
+msgstr "ปฏิบัติเงื่อนไขรองให้สำเร็จเพื่อให้มีความคืบหน้าปัจจุบันเพิ่มขึ้นอีก %(value)s"
+
+msgid "bonus/descr/attempts/postBattle"
+msgstr "ความคืบหน้าของส่วนหลักภารกิจปัจจุบันเพิ่มขึ้นอีก %(value)s"
+
+msgid "bonus/descr/progress/card"
+msgstr "ปฏิบัติเงื่อนไขรองให้สำเร็จเพื่อให้ความคืบหน้าการปฏิบัติเงื่อนไขหลักปัจจุบันเพิ่มขึ้นอีก x%(value)s"
+
+msgid "bonus/descr/progress/postBattle"
+msgstr "ความก้าวหน้าไปยังเงื่อนไขหลักในการรบนี้เพิ่มขึ้นอีก %(value)s เท่า"
+
+msgid "bonus/multiplier/attempts"
+msgstr "การเร่งความคืบหน้า:"
+
+msgid "bonus/multiplier/progress"
+msgstr "โบนัส x%(value)s:"
+
+msgid "chainTooltipData/description/text/alliance0"
+msgstr "ภารกิจของปฏิบัติการสามารถปฏิบัติให้สำเร็จได้ด้วยพาหนะของชาติที่ระบุไว้เท่านั้น"
+
+msgid "chainTooltipData/description/text/alliance1"
+msgstr "ภารกิจของปฏิบัติการสามารถปฏิบัติให้สำเร็จได้ด้วยพาหนะของชาติที่ระบุไว้เท่านั้น"
+
+msgid "chainTooltipData/description/text/alliance2"
+msgstr "ภารกิจของปฏิบัติการสามารถปฏิบัติให้สำเร็จได้ด้วยพาหนะของชาติที่ระบุไว้เท่านั้น"
+
+msgid "chainTooltipData/description/text/alliance3"
+msgstr "ภารกิจของปฏิบัติการสามารถปฏิบัติให้สำเร็จได้ด้วยพาหนะของชาติที่ระบุไว้เท่านั้น"
+
+msgid "chainTooltipData/description/title"
+msgstr "คำอธิบาย:"
+
+msgid "conditions/battlesLeft/bottomLabel"
+msgstr "เหลือการรบ: %(count)s"
+
+msgid "conditions/biathlon/label/add"
+msgstr "ปฏิบัติเงื่อนไขรองให้สำเร็จในการรบ %(goal)s ครั้งจาก %(limit)s"
+
+msgid "conditions/biathlon/label/main"
+msgstr "ปฏิบัติเงื่อนไขหลักในการรบ %(goal)s ครั้งจาก %(limit)s"
+
+msgid "conditions/completed/bottomLabel"
+msgstr "ยึดฐานได้"
+
+msgid "conditions/counter/label/add"
+msgstr "ปฏิบัติเงื่อนไขรองสำเร็จ %(count)s ครั้ง"
+
+msgid "conditions/counter/label/main"
+msgstr "ปฏิบัติเงื่อนไขหลักสำเร็จ %(count)s ครั้ง"
+
+msgid "conditions/currentProgress/bottomLabel"
+msgstr "สำเร็จแล้ว: %(currentProgress)s"
+
+msgid "conditions/failed/bottomLabel"
+msgstr "ล้มเหลว"
+
+msgid "conditions/limited/label/add"
+msgstr "ปฏิบัติเงื่อนไขรองสำเร็จในการรบตามจำนวนครั้งที่ระบุไว้: %(count)s"
+
+msgid "conditions/limited/label/main"
+msgstr "ปฏิบัติเงื่อนไขหลักให้สำเร็จในจำนวนการรบที่ระบุไว้: %(count)s"
+
+msgid "conditions/limiter/label"
+msgstr "ข้อจำกัด!"
+
+msgid "conditions/orGroup"
+msgstr "หรือ"
+
+msgid "conditions/series/label/add"
+msgstr "ปฏิบัติเงื่อนไขให้สำเร็จในการรบ %(count)s ครั้งติดต่อกัน"
+
+msgid "conditions/series/label/main"
+msgstr "ปฏิบัติเงื่อนไขให้สำเร็จในการรบ %(count)s ครั้งติดต่อกัน"
+
+msgid "conditions/unlimited/label/add"
+msgstr "ปฏิบัติเงื่อนไขรองให้สำเร็จในการรบกี่ครั้งก็ได้"
+
+msgid "conditions/unlimited/label/main"
+msgstr "ปฏิบัติเงื่อนไขหลักให้สำเร็จในการรบกี่ครั้งก็ได้"
+
+msgid "detailedView/completeBtnLabel"
+msgstr "ปฏิบัติสำเร็จ %(count)d %(icon)s"
+
+msgid "detailedView/conditionLabel"
+msgstr "เงื่อนไข"
+
+msgid "detailedView/conditionsFullylabel"
+msgstr "สำหรับการปฏิบัติสำเร็จพร้อมด้วยเกียรติยศ"
+
+msgid "detailedView/conditionslabel"
+msgstr "เงื่อนไขหลัก"
+
+msgid "detailedView/discardBtnLabel"
+msgstr "ตั้งค่าใหม่"
+
+msgid "detailedView/infoPanel/header"
+msgstr "คำอธิบายและคำแนะนำ"
+
+msgid "detailedView/orCondition"
+msgstr "หรือ"
+
+msgid "detailedView/recruitBtnLabel"
+msgstr "รับรางวัล"
+
+msgid "detailedView/retryBtnLabel"
+msgstr "สำเร็จพร้อมด้วยเกียรติยศ"
+
+msgid "detailedView/startBtnLabel"
+msgstr "เริ่ม"
+
+msgid "detailedView/status/NA"
+msgstr "ไม่มีให้ใช้งาน"
+
+msgid "detailedView/status/completed"
+msgstr "เงื่อนไขหลักสำเร็จแล้ว"
+
+msgid "detailedView/status/fullyCompleted"
+msgstr "สำเร็จพร้อมด้วยเกียรติยศ"
+
+msgid "detailedView/status/inProgress"
+msgstr "ใช้งานอยู่"
+
+msgid "detailedView/status/returnSheet"
+msgstr "ยืนยันคำสั่ง: %(icon)sx1"
+
+msgid "detailedView/status/sheetUsed"
+msgstr "ำบรรลุสำหรับ %(icon)sx1"
+
+msgid "detailedView/tooltips/additionalConditions/body"
+msgstr "นี่เป็นเป้าหมายของคุณในการรบที่คุณต้องบรรลุไปพร้อมกับเงื่อนไขหลักเพื่อที่จะได้รับรางวัลเพิ่มเติมสำหรับการปฏิบัติภารกิจสำเร็จพร้อมด้วยเกียรติยศ"
+
+msgid "detailedView/tooltips/additionalConditions/header"
+msgstr "เงื่อนไขรอง"
+
+msgid "detailedView/tooltips/commonConditions/body"
+msgstr "นี่เป็นเป้าหมายของคุณในการรบที่คุณต้องปฏิบัติให้สำเร็จเพื่อรับรางวัลหลักของการปฏิบัติภารกิจสำเร็จ"
+
+msgid "detailedView/tooltips/commonConditions/header"
+msgstr "เงื่อนไขหลัก"
+
+msgid "detailedView/tooltips/discardBtn/body"
+msgstr "คลิกเพื่อตั้งความคืบหน้าปัจจุบันทั้งหมดของภารกิจ"
+
+msgid "detailedView/tooltips/discardBtn/header"
+msgstr "ตั้งค่าความคืบหน้าใหม่"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/body"
+msgstr "คลิกเพื่อยืนยันคำสั่งไปยังภารกิจและผ่านเงื่อนไขหลัก"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/body"
+msgstr "ในการได้รับคำสั่ง ปฏิบัติภารกิจสุดท้ายในแต่ละชุดของปฏิบัติการให้สำเร็จ"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/header"
+msgstr "คำสั่งไม่พอ"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/header"
+msgstr "ออกคำสั่ง"
+
+msgid "detailedView/tooltips/locked"
+msgstr "จะนับการปฏิบัติเงื่อนไขรองสำเร็จภายหลังที่คุณปฏิบัติเงื่อนไขแรกสำเร็จ"
+
+msgid "detailedView/tooltips/recruitBtn/body"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/recruitBtn/header"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/retryBtn/body"
+msgstr "คลิกเพื่อปรับปรุงผลด้วยการปฏิบัติเงื่อนไขหลักและเงื่อนไขรองให้สำเร็จ"
+
+msgid "detailedView/tooltips/retryBtn/header"
+msgstr "สำเร็จพร้อมด้วยเกียรติยศ"
+
+msgid "detailedView/tooltips/returnAwardListBtn/body"
+msgstr "คลิกเพื่อปฏิบัติเงื่อนไขหลักและรองให้สำเร็จ ถ้าคุณสำเร็จภารกิจพร้อมด้วยเกียรติยศ คุณจะสามารถได้รับคำสั่งคืน"
+
+msgid "detailedView/tooltips/returnAwardListBtn/header"
+msgstr "รับคำสั่ง"
+
+msgid "detailedView/tooltips/startBtn/body"
+msgstr "คลิกเพื่อเริ่มภารกิจ ปฏิบัติเงื่อนไขให้สำเร็จและรับรางวัลของคุณ"
+
+msgid "detailedView/tooltips/startBtn/header"
+msgstr "เริ่ม"
+
+msgid "fourFreeSheetsObtainedPopup/button"
+msgstr "ดำเนินการ"
+
+msgid "fourFreeSheetsObtainedPopup/header"
+msgstr "มีพาหนะให้"
+
+msgid "fourFreeSheetsObtainedPopup/pm2/descr"
+msgstr "ยืนยัน 3 คำสั่งให้กับภารกิจ %(questName)s แล้วรับพิมพ์เขียวพาหนะที่ขาดไป"
+
+msgid "fourFreeSheetsObtainedPopup/pm2/pawnedDescr"
+msgstr "รับ %(pawnedCount)s คำสั่งจากภารกิจเพื่อยืนยัน 3 ให้กับภารกิจ %(questName)s แล้วรับพิมพ์เขียวพาหนะที่ขาดไป"
+
+msgid "fourFreeSheetsObtainedPopup/regular/descr"
+msgstr "ยืนยัน 4 คำสั่งให้กับภารกิจ %(questName)s แล้วรับชิ้นส่วนพาหนะที่ขาดไป"
+
+msgid "fourFreeSheetsObtainedPopup/regular/pawnedDescr"
+msgstr "รับคำสั่งคืน %(pawnedCount)s คำสั่งจากภารกิจเพื่อการยืนยันคำสั่ง 4 คำสั่งไปยังภารกิจ %(questName)s และรับส่วนประกอบพาหนะที่ขาดไป"
+
+msgid "freeSheetObtainedPopup/pm2/descrLeft"
+msgstr "คุณสามารถใช้คำสั่งเพื่อปฏิบัติภารกิจใดๆในของชุดในสมรภูมิแนวรบที่สองให้สำเร็จเท่านั้น"
+
+msgid "freeSheetObtainedPopup/pm2/descrRight"
+msgstr "ปฏิบัติภารกิจสุดท้ายของทุกชุดในสมรภูมิแนวรบที่สองให้สำเร็จพร้อมเกียรติยศ"
+
+msgid "freeSheetObtainedPopup/pm2/title"
+msgstr "คุณได้รับคำสั่งสำหรับสมรภูมิแนวรบที่สอง"
+
+msgid "freeSheetObtainedPopup/pm2/titleLeft"
+msgstr "วิธีการใช้"
+
+msgid "freeSheetObtainedPopup/pm2/titleRight"
+msgstr "วิธีการหา"
+
+msgid "freeSheetObtainedPopup/regular/descrLeft"
+msgstr "คุณสามารถใช้คำสั่งเพื่อผ่าน\nภารกิจใดก็ได้ในชุด"
+
+msgid "freeSheetObtainedPopup/regular/descrRight"
+msgstr "ปฏิบัติภารกิจสุดท้ายให้สำเร็จในทุกชุดพร้อมด้วยเกียรติยศ"
+
+msgid "freeSheetObtainedPopup/regular/title"
+msgstr "คุณได้รับคำสั่ง"
+
+msgid "freeSheetObtainedPopup/regular/titleLeft"
+msgstr "วิธีการใช้"
+
+msgid "freeSheetObtainedPopup/regular/titleRight"
+msgstr "วิธีการหา"
+
+msgid "freeSheetPopover/freeSheetsInfo/descr"
+msgstr "ได้รับจากการปฏิบัติภารกิจสุดท้ายของชุดสำเร็จ"
+
+msgid "freeSheetPopover/freeSheetsInfo/title"
+msgstr "มีให้: %(count)d"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr"
+msgstr "ในการดึงคำสั่งที่ยืนยันไป ให้ปฏิบัติภารกิจให้สำเร็จอีกครั้งพร้อมด้วยเกียรติยศ"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr/noOne"
+msgstr "คุณสามารถใช้คำสั่งเพื่อผ่าน\nภารกิจใดก็ได้ในชุด"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/title"
+msgstr "ยืนยันกับภารกิจ %(count)d"
+
+msgid "freeSheetPopover/title"
+msgstr "คำสั่ง"
+
+msgid "header/backBtn/descrLabel/campaign"
+msgstr "ไปยังแผนที่"
+
+msgid "header/backBtn/descrLabel/hangar"
+msgstr "ไปยังโรงรถ"
+
+msgid "header/backBtn/descrLabel/operation"
+msgstr "ไปยังปฏิบัติการ"
+
+msgid "header/backBtn/label"
+msgstr "กลับ"
+
+msgid "navigation/backButton/assembling"
+msgstr "ไปยังการประกอบ"
+
+msgid "navigation/backButton/campaignSelector"
+msgstr "ไปยังแผนที่ปฏิบัติการ"
+
+msgid "navigation/backButton/dashboard"
+msgstr "ไปยังปฏิบัติการ"
+
+msgid "navigation/backButton/missions"
+msgstr "ไปยังภารกิจ"
+
+msgid "navigation/backButton/rewards"
+msgstr "ไปยังรางวัลปฏิบัติการ"
+
+msgid "operationInfo/awardsButton/label"
+msgstr "รางวัลปฏิบัติการ"
+
+msgid "operationInfo/chainVehReq"
+msgstr "ระดับ %(minLevel)s-%(maxLevel)s %(vehs)s"
+
+msgid "operationInfo/label"
+msgstr "สมรภูมิ"
+
+msgid "operationInfo/operationBtn/postponed/days"
+msgstr "%(days)sว"
+
+msgid "operationInfo/operationBtn/postponed/lessThanDay"
+msgstr "น้อยกว่า 1 วัน"
+
+msgid "operationInfo/title"
+msgstr "แผนที่ปฏิบัติการ"
+
+msgid "operationTitle/label/done"
+msgstr "คำสั่ง: %(icon)s%(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/excellentDone"
+msgstr "ทุกภารกิจสำเร็จพร้อมด้วยเกียรติยศ"
+
+msgid "operationTitle/label/inProgress/pm2"
+msgstr "สามารถปฏิบัติให้สำเร็จด้วยพาหนะ %(vehData)s"
+
+msgid "operationTitle/label/inProgress/regular"
+msgstr "สามารถปฏิบัติให้สำเร็จได้ด้วยพาหนะของชุด %(vehData)s"
+
+msgid "operationTitle/label/locked"
+msgstr "ไม่มีให้: ผ่านปฏิบัติการก่อนหน้าให้ได้ก่อน"
+
+msgid "operationTitle/label/noVehicle/pm2"
+msgstr "ไม่มีให้: ไม่มีพาหนะ %(vehData)s ที่เหมาะสม"
+
+msgid "operationTitle/label/noVehicle/regular"
+msgstr "ไม่มีให้: ไม่มีพาหนะเหมาะสมจากของชุด %(vehData)s ให้ใช้"
+
+msgid "operationTitle/label/notStarted"
+msgstr "ปฏิบัติการ %(currentOperation)s มีให้แล้ว! %(infoIcon)s"
+
+msgid "operationTitle/label/notStartedNoVehicle"
+msgstr "ไม่มีให้: ภารกิจส่วนตัวสามารถปฏิบัติได้ด้วยพาหนะระดับ %(minLevel)s หรือสูงกว่าเท่านั้น"
+
+msgid "operationTitle/label/toMaster"
+msgstr "ภารกิจ สำเร็จพร้อมด้วยเกียรติยศ: %(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/unlocked/pm2"
+msgstr "เลือกภารกิจเพื่อปฏิบัติให้สำเร็จด้วยพาหนะ %(vehData)s"
+
+msgid "operationTitle/label/unlocked/regular"
+msgstr "เลือกภารกิจเพื่อปฏิบัติให้สำเร็จด้วยพาหนะจากของชุด %(vehData)s"
+
+msgid "operationTitle/title"
+msgstr "ปฏิบัติการ: %(title)s"
+
+msgid "operationUnlockedWindow/awardText"
+msgstr "ยินดีด้วย! ตอนนี้คุณสามารถทำปฏิบัติการ %(title)s ให้สำเร็จได้แล้ว"
+
+msgid "operationUnlockedWindow/descr"
+msgstr "กด %(label)s เพื่อเลือกภารกิจและลองคว้ารางวัลใหม่"
+
+msgid "operationUnlockedWindow/header"
+msgstr "ปฏิบัติการ: %(title)s"
+
+msgid "operationUnlockedWindow/nextButton"
+msgstr "เริ่ม"
+
+msgid "operationUnlockedWindow/title"
+msgstr "ปลดล็อคปฏิบัติการแล้ว"
+
+msgid "operations/completed/desc"
+msgstr "ได้รับพาหนะแล้ว"
+
+msgid "operations/current/desc"
+msgstr "ใช้งานอยู่"
+
+msgid "operations/fullyCompleted/desc"
+msgstr "สำเร็จ\nพร้อมด้วยเกียรติยศ"
+
+msgid "operations/locked/desc"
+msgstr "ไม่มีให้"
+
+msgid "operations/title1"
+msgstr "StuG IV"
+
+msgid "operations/title10"
+msgstr "Black Rock"
+
+msgid "operations/title2"
+msgstr "T28 HTC"
+
+msgid "operations/title3"
+msgstr "T 55A"
+
+msgid "operations/title4"
+msgstr "Object 260"
+
+msgid "operations/title5"
+msgstr "Excalibur"
+
+msgid "operations/title6"
+msgstr "Chimera"
+
+msgid "operations/title7"
+msgstr "Object 279 (e)"
+
+msgid "operations/title8"
+msgstr "Windhund"
+
+msgid "operations/title9"
+msgstr "Dravec"
+
+msgid "operations/unlocked/desc"
+msgstr "มีให้"
+
+msgid "pages/button/infopage/description"
+msgstr "เกี่ยวกับภารกิจส่วนตัว"
+
+msgid "pages/button/video/description"
+msgstr "ชมวีดิโอบทนำสำหรับภารกิจส่วนตัว"
+
+msgid "personalMissions/tankgirlsPopover/recruitBtn"
+msgstr "เกณฑ์"
+
+msgid "personalMissions/tankgirlsPopover/title"
+msgstr "พลรถถังหญิง"
+
+msgid "personalMissions/video/title"
+msgstr "วีดิโอภาพรวมของอัพเดต"
+
+msgid "questAwardScreen/continueBtn/label"
+msgstr "ดำเนินการต่อ"
+
+msgid "questAwardScreen/nextQuest/title/questAccept"
+msgstr "ภารกิจดังต่อไปนี้ถูกรับโดยอัตโนมัติ:"
+
+msgid "questAwardScreen/nextQuest/title/questImprove"
+msgstr "คุณจะเริ่มทำการปรับปรุงผลภารกิจของคุณโดยอัตโนมัติ:"
+
+msgid "questAwardScreen/nextQuestBtn/label"
+msgstr "ภารกิจต่อไป"
+
+msgid "questAwardScreen/okBtn/label"
+msgstr "รับทราบ!"
+
+msgid "questAwardScreen/operation"
+msgstr "ปฏิบัติการ %(operation)s"
+
+msgid "questAwardScreen/quest"
+msgstr "ภารกิจ \"%(quest)s\" สำเร็จแล้ว!"
+
+msgid "questAwardScreen/recruitBtn/label"
+msgstr "เกณฑ์"
+
+msgid "questProgressTracking/status/onPause"
+msgstr "พักไว้"
+
+msgid "questProgressTracking/trackingStatus"
+msgstr "กำลังปฏิบัติทั้งสองภารกิจให้สำเร็จในขณะนี้"
+
+msgid "questStatus/tankCondition"
+msgstr "ไม่มีให้สำหรับพาหนะที่เลือกเอาไว้"
+
+msgid "sidebar/completed"
+msgstr "สำเร็จแล้ว"
+
+msgid "sidebar/fullCompleted"
+msgstr "พร้อมด้วยเกียรติยศ"
+
+msgid "sidebar/notSelected"
+msgstr "ไม่มีใช้งานอยู่"
+
+msgid "sidebar/vehicles/AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "sidebar/vehicles/SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "sidebar/vehicles/heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "sidebar/vehicles/lightTank"
+msgstr "รถถังเบา"
+
+msgid "sidebar/vehicles/mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "statusPanel/freeSheetBtn/label"
+msgstr "ปฏิบัติสำเร็จ %(count)d %(icon)s"
+
+msgid "statusPanel/freeSheets"
+msgstr "มีให้: %(count)s"
+
+msgid "statusPanel/pawnedSheets"
+msgstr "ยืนยันภารกิจ: %(count)s"
+
+msgid "statusPanel/proceedExecution/label"
+msgstr "เปิดใช้งาน"
+
+msgid "statusPanel/resumeCompaing/label"
+msgstr "กลับเข้าสมรภูมิ"
+
+msgid "statusPanel/status/allDone"
+msgstr "ปฏิบัติภารกิจทั้งหมดสำหรับ %(vehicleClass)s สำเร็จแล้ว"
+
+msgid "statusPanel/status/allExcellentDone"
+msgstr "สำเร็จภารกิจทั้งหมดในชุด %(vehicleClass)s พร้อมด้วยเกียรติยศแล้ว"
+
+msgid "statusPanel/status/freeSheet"
+msgstr "ใช้คำสั่งแล้ว"
+
+msgid "statusPanel/status/improve"
+msgstr "(กำลังปรับปรุงผล)"
+
+msgid "statusPanel/status/locked"
+msgstr "ไม่มีให้: ผ่านปฏิบัติการก่อนหน้าให้ได้ก่อน"
+
+msgid "statusPanel/status/pawned"
+msgstr "(Retrieving %(count)d %(icon)s)"
+
+msgid "statusPanel/status/selectTask"
+msgstr "เลือกภารกิจเพื่อทำการปฏิบัติ"
+
+msgid "statusPanel/status/suspended"
+msgstr "สมรภูมิ %(campaignName)sถูกพักไว้ %(infoIcon)s"
+
+msgid "tankmoduleTooltipData/alliance/help/body"
+msgstr "สามารถได้รับจากการปฏิบัติเงื่อนไขหลักของภารกิจสุดท้ายในชุด %(vehType)s สำเร็จ"
+
+msgid "tankmoduleTooltipData/alliance/info"
+msgstr "จำเป็นต้องมีพิมพ์เขียวเพื่อให้ได้รับ %(vehName)s"
+
+msgid "tankmoduleTooltipData/help/body"
+msgstr "สามารถได้รับจากการปฏิบัติเงื่อนไขหลักของภารกิจสุดท้ายในชุด %(vehType)s สำเร็จ"
+
+msgid "tankmoduleTooltipData/help/title"
+msgstr "วิธีการได้รับ"
+
+msgid "tankmoduleTooltipData/info"
+msgstr "ต้องมีส่วนประกอบนี้เพื่อรับ %(vehName)s"
+
+msgid "tankmoduleTooltipData/status/alliance/notObtained"
+msgstr "ไม่ได้รับพิมพ์เขียว"
+
+msgid "tankmoduleTooltipData/status/alliance/obtained"
+msgstr "ได้รับพิมพ์เขียว"
+
+msgid "tankmoduleTooltipData/status/available"
+msgstr "มีให้ %(count)d %(img)s"
+
+msgid "tankmoduleTooltipData/status/notObtained"
+msgstr "ไม่ได้รับส่วนประกอบ"
+
+msgid "tankmoduleTooltipData/status/obtained"
+msgstr "ได้รับส่วนประกอบ"
+
+msgid "tankwomanTooltipData/advantages/brotherhood"
+msgstr "ความสามารถพี่น้องร่วมรบฝึกถึง 100%"
+
+msgid "tankwomanTooltipData/advantages/newPerk"
+msgstr "ฝึกอีกหนึ่งความสามารถที่คุณเลือกให้ถึง 100%"
+
+msgid "tankwomanTooltipData/advantages/title"
+msgstr "ข้อได้เปรียบ:"
+
+msgid "tankwomanTooltipData/desc/body"
+msgstr "สามารถได้รับจากการปฏิบัติเงื่อนไขหลักภารกิจสุดท้ายของแต่ละชุดสำเร็จ"
+
+msgid "tankwomanTooltipData/desc/title"
+msgstr "วิธีการได้รับ:"
+
+msgid "tankwomanTooltipData/subTitle"
+msgstr "สมาชิกพลรถถังเฉพาะ"
+
+msgid "tankwomanTooltipData/title"
+msgstr "พลรถถังหญิง"
+
+msgid "taskDetailsView/additionalConditions"
+msgstr "เงื่อนไขรอง"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheet"
+msgstr "รับคำสั่ง"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheets"
+msgstr "รับคำสั่ง"
+
+msgid "taskDetailsView/mainConditions"
+msgstr "เงื่อนไขหลัก"
+
+msgid "useAwardSheetWindow/cancelBtn"
+msgstr "ยกเลิก"
+
+msgid "useAwardSheetWindow/info"
+msgstr "ปฏิบัติภารกิจให้สำเร็จพร้อมด้วยเกียรติยศเพื่อรับคำสั่งคืน"
+
+msgid "useAwardSheetWindow/locked"
+msgstr "ปฏิบัติภารกิจทั้งหมดในชุดให้สำเร็จเพื่อรับคำสั่ง"
+
+msgid "useAwardSheetWindow/needAmount"
+msgstr "จำเป็นต้องปฏิบัติให้สำเร็จ:"
+
+msgid "useAwardSheetWindow/pm2/noVehicle"
+msgstr "พาหนะที่จำเป็นต้องใช้ในการรับคำสั่ง: %(vehicleClass)s"
+
+msgid "useAwardSheetWindow/regular/noVehicle"
+msgstr "พาหนะที่จำเป็นต้องใช้ในการรับคำสั่ง: %(vehicleClass)s"
+
+msgid "useAwardSheetWindow/sheetsTotal"
+msgstr "ทั้งหมดที่มี:"
+
+msgid "useAwardSheetWindow/submitBtn"
+msgstr "เสร็จสิ้น"
+
+msgid "useAwardSheetWindow/title"
+msgstr "ปฏิบัตเงื่อนไขหลักให้สำเร็จ"

@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Khử răng cưa"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Quyết định mức độ tăng cường xử lý các đường mỏng và viền của vật thể. Giảm tối thiểu hiệu ứng răng cưa.\n\n• Cao—FXAA\n• Tối đa—Temporal Supersampling Antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Điều chỉnh Linh động"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Bật hoặc tắt tính năng tự động điều chỉnh độ phân giải kết xuất dữ liệu (Render) 3D tùy thuộc vào cường độ card màn hình.\n\nBật tham số này có thể cải thiện hiệu suất game. Độ phân giải kết xuất dữ liệu trong Ga-ra luôn không đổi."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Chất lượng Hiệu ứng Phụ"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Quyết định chất lượng tia lửa của đạn bị nảy ra, các vụ nổ, khói và nhiều hiệu ứng trực quan khác.\n\nGiảm giá trị của tham số này có thể cải thiện hiệu suất trò chơi."
+
+msgid "FAR_PLANE"
+msgstr "Khoảng cách Đồ họa"
+
+msgid "FAR_PLANE/description"
+msgstr "Quyết định chất lượng của các hình nổi, nhà cửa, xe địch và các vật thể khác trong trò chơi."
+
+msgid "FLORA_QUALITY"
+msgstr "Mật độ Cây cỏ"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Quyết định mật độ cây cỏ hiển thị ở chế độ \"Arcade\" và \"Sniper\"."
+
+msgid "HAVOK_ENABLED"
+msgstr "Tăng cường hiệu ứng phá hủy vật lý"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "TẮT"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "BẬT"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Cho phép xử lý cũng như hiển thị sự phá hủy vật thể chi tiết và chân thực hơn trên bản đồ.\n\nTắt tham số này có thể cải thiện hiệu suất trò chơi."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "Thiết lập này sẽ được áp dụng ở trận tiếp theo, nếu bị tắt ở trận hiện tại."
+
+msgid "LANGUAGE_CODE"
+msgstr "vi"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Chất lượng Ánh sáng"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Độ chuẩn xác khi hiển thị các tia nắng, tia chớp và hiệu ứng ánh sáng.\n\nTăng giá trị của tham số này sẽ khiến card màn hình phải làm việc với cường độ cao hơn đáng kể."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Hiệu ứng Nhòe do Chuyển động"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Quyết định chất lượng hiệu ứng nhòe do chuyển động của hình ảnh khi xe di chuyển và xoay camera."
+
+msgid "MSAA_QUALITY"
+msgstr "Khử răng cưa"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Quyết định mức độ tăng cường xử lý các đường mỏng và viền của vật thể. Giảm tối thiểu hiệu ứng răng cưa.\n\n• Thấp—MSAA 2x\n• Trung bình—MSAA 4x\n• Cao—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Độ chi tiết của vật thể"
+
+msgid "OBJECT_LOD/description"
+msgstr "Quyết định số lượng vật thể hiển thị và chất lượng của chúng."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Chế độ Hậu Xử lý"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Quyết định chất lượng các hiệu ứng trực quan hậu xử lý: Ảo ảnh nhiệt, sóng xung kích, quang sai, mờ viền, nhiễu phim, v.v...\n\nGiảm giá trị của tham số này có thể cải thiện hiệu suất trò chơi."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Đồ họa"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Nâng cao: Cho chất lượng hình ảnh tối đa.\n\nTiêu chuẩn: Cho hiệu suất game tốt nhất bằng cách đơn giản hóa hoặc tắt bỏ một số hiệu ứng đẹp mắt."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Đồ họa:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "Thay đổi tham số này sẽ có hiệu lực sau khi khởi động lại game."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Độ trong của tán lá"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Quyết định cách hiển thị tán lá của bụi rậm và cây cối xung quanh.\n\nTắt tham số này sẽ làm ẩn hoàn toàn tán lá của các bụi rậm và cây cối xung quanh, từ đó có thể cải thiện hiệu suất game."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Kiểu đổ Bóng"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Chất lượng Bóng"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Quyết định chất lượng xử lý bóng đổ linh động trên toàn bộ khoảng cách đồ họa.\n\nGiảm giá trị của tham số này có thể cải thiện đáng kể hiệu suất game."
+
+msgid "SMOKE_ENABLED"
+msgstr "Khói"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Hiệu ứng Phụ trong Chế độ Sniper"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Quyết định chất lượng tia lửa của đạn bị nảy ra, các vụ nổ, khói và nhiều hiệu ứng thực tế khác trong chế độ Sniper.\n\nGiảm giá trị của tham số này có thể cải thiện hiệu suất trò chơi."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Hiển thị Cỏ trong chế độ Sniper"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Hiển thị cỏ trong chế độ Sniper.\n\nTắt bỏ tham số này có thể cải thiện hiệu suất trò chơi."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Tăng cường chi tiết bề mặt địa hình trong chế độ \"Sniper'"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Tăng chất lượng hình ảnh địa hình ở chế độ \"Sniper\" trong bán kính 50 mét tính từ xe của bạn. Chỉ khả dụng khi tùy chọn tăng cường chi tiết bề mặt Địa hình được bật.\n\nTắt tham số này có thể cải thiện hiệu suất trò chơi."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Chất lượng Thực vật"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Quyết định chất lượng hình ảnh của cây cối, bụi rậm và cỏ."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Chất lượng Địa hình"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Quyết định chất lượng đồ họa của các vật thể nổi có trên bản đồ.\n\nChỉ nên chọn chất lượng địa hình thấp nhất khi máy tính cấu hình yếu.\n\nGiảm giá trị của tham số này có thể gây mất đồng bộ khi hiển thị địa hình giữa máy chủ và trong game."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Sẽ tốn một khoảng thời gian để áp dụng các tham số đã định."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Tăng cường chi tiết bề mặt địa hình"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Một tiến trình tăng tốc nhờ phần cứng khi thêm các tam giác mới vào lưới đa giác để tăng độ chi tiết của lưới.\n\nChức năng này chỉ hoạt động với:\n• Thiết lập Đồ họa Nâng cao\n• Chất lượng Địa hình Cao, Tối đa hoặc Siêu cao\n• DirectX 11 được cài đặt.\n\nCác thay đổi thiết lập không khả dụng với những phiên bản cũ hơn DirectX 11.\n\nTắt bỏ thông số này có thể cải thiện hiệu suất game."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Chất lượng Hình ảnh Bề mặt"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Chất lượng bề mặt của các vật thể trong game, đặc biệt là khi nhìn gần.\n\nGiảm giá trị của tham số này có thể cải thiện hiệu suất trò chơi."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Sẽ tốn một khoảng thời gian để áp dụng các tham số đã định."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Vật lý Xích"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Quyết định độ chi tiết của xích, chất lượng mô phỏng vật lý cho xích bị đứt cũng như đang hoạt động.\n\nTắt hoặc giảm tham số này có thể cải thiện hiệu suất game."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Bật hiệu ứng xích và bánh xe"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Hiển thị đất, tuyết hoặc nước văng lên phía sau xích và bánh xe.\n\nTắt bỏ tham số này có thể cải thiện hiệu suất trò chơi."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Bật hiển thị vết xích và bánh xe"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Hiển thị vết xích và bánh xe trên mặt đất.\n\nKhông khả dụng đối với thiết lập Đồ họa Tiêu chuẩn và Chất lượng Đề-can Thấp."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Ẩn phụ tùng 3D trong chế độ Sniper"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Tạm thời ẩn các phụ tùng 3D của xe khỏi tâm ngắm trong chế độ Sniper.\n\nGiảm rối mắt trên màn hình, cải thiện chính xác ngắm bắn."
+
+msgid "WATER_QUALITY"
+msgstr "Chất lượng Mặt nước"
+
+msgid "WATER_QUALITY/description"
+msgstr "Quyết định chất lượng hình ảnh của mặt nước."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Chỉ giáp kém"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Nếu bật, Flashlight chỉ làm nổi giáp yếu của mục tiêu.\n\nGiáp có khả năng xuyên thủng cao được làm nổi bằng màu xanh lá cây đậm, trong khi xác suất trung bình được làm nổi bằng màu lục hơi trong suốt. Màu sắc có thể khác khi bật chế độ mù màu."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Chỉ làm nổi giáp kém"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Chỉ giáp mạnh"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Nếu bật, Flashlight chỉ làm nổi giáp mạnh của mục tiêu.\n\nGiáp có khả năng xuyên thủng gần như bằng không được làm nổi bằng màu đỏ đậm, trong khi xác suất trung bình được làm nổi bằng màu đỏ hơi trong suốt. Màu sắc có thể khác khi bật chế độ mù màu."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Chỉ làm nổi giáp mạnh"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Mọi loại giáp"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Nếu bật, Flashlight làm nổi mọi giáp của mục tiêu.\n\nGiáp có khả năng xuyên thủng gần như bằng không được làm nổi bằng màu đỏ, trong khi xác suất cao—màu lục, xác suất trung bình—màu vàng. Màu sắc có thể khác khi bật chế độ mù màu."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Làm nổi mọi giáp"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Làm nổi giáp"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Bật vào đầu trận"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "Trạng thái mặc định của Flashlight khi bắt đầu trận. Bạn có thể bật hoặc tắt Flashlight bất kỳ lúc nào bằng phím nóng đã gán.\n\nKhi bật, Flashlight chỉ hoạt động trong chế độ Sniper.\n\nChế độ game được hỗ trợ:\n• Trận đấu Ngẫu nhiên và Tập Trận;\n• Chiến tuyến;\n• Chiến trận Arcade;\n• Cường kích;\n• Một số chế độ và sự kiện khác.\n\nCó thể hỗ trợ thêm chế độ và sự kiện trong tương lai."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Bật vào đầu trận"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Kết cấu Flashlight"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Đồng nhất"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Hoa văn thưa"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Hoa văn dày"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Mờ đục"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Cảnh báo Hiệu suất"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Cao"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Thấp"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Vừa"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Độ phân giải Flashlight"
+
+msgid "aim/cassette"
+msgstr "Băng đạn"
+
+msgid "aim/centralTag"
+msgstr "Tâm Ngắm"
+
+msgid "aim/centralTag/type0"
+msgstr "Chữ A kiểu I"
+
+msgid "aim/centralTag/type1"
+msgstr "Chữ A kiểu II"
+
+msgid "aim/centralTag/type10"
+msgstr "Chữ O kiểu I"
+
+msgid "aim/centralTag/type11"
+msgstr "Chữ O kiểu II"
+
+msgid "aim/centralTag/type12"
+msgstr "Chữ A kiểu IV"
+
+msgid "aim/centralTag/type13"
+msgstr "Chữ A kiểu V"
+
+msgid "aim/centralTag/type2"
+msgstr "Chữ A kiểu III"
+
+msgid "aim/centralTag/type3"
+msgstr "Chữ V"
+
+msgid "aim/centralTag/type4"
+msgstr "Chữ thập kiểu I"
+
+msgid "aim/centralTag/type5"
+msgstr "Chữ thập kiểu II"
+
+msgid "aim/centralTag/type6"
+msgstr "Chữ T"
+
+msgid "aim/centralTag/type7"
+msgstr "Chữ I"
+
+msgid "aim/centralTag/type8"
+msgstr "Điểm ngắm I"
+
+msgid "aim/centralTag/type9"
+msgstr "Điểm ngắm II"
+
+msgid "aim/condition"
+msgstr "Tình trạng"
+
+msgid "aim/gunTag"
+msgstr "Dấu ngắm của Súng"
+
+msgid "aim/gunTag/type0"
+msgstr "Chữ A kiểu I (có hiển thị khả năng xuyên giáp)"
+
+msgid "aim/gunTag/type1"
+msgstr "Chữ A kiểu II (có hiển thị nạp đạn)"
+
+msgid "aim/gunTag/type10"
+msgstr "Chữ O kiểu II (có hiển thị nạp đạn)"
+
+msgid "aim/gunTag/type11"
+msgstr "Chữ O kiểu III"
+
+msgid "aim/gunTag/type12"
+msgstr "Chữ A kiểu IV (có hiển thị khả năng xuyên giáp)"
+
+msgid "aim/gunTag/type13"
+msgstr "Chữ A kiểu V (có hiển thị nạp đạn)"
+
+msgid "aim/gunTag/type14"
+msgstr "Chữ A kiểu VI"
+
+msgid "aim/gunTag/type2"
+msgstr "Chữ A kiểu III"
+
+msgid "aim/gunTag/type3"
+msgstr "Chữ thập kiểu I (có hiển thị khả năng xuyên giáp)"
+
+msgid "aim/gunTag/type4"
+msgstr "Chữ thập kiểu II (có hiển thị nạp đạn)"
+
+msgid "aim/gunTag/type5"
+msgstr "Chữ thập kiểu III"
+
+msgid "aim/gunTag/type6"
+msgstr "Điểm ngắm I (có hiển thị khả năng xuyên giáp)"
+
+msgid "aim/gunTag/type7"
+msgstr "Điểm ngắm II (có hiển thị nạp đạn)"
+
+msgid "aim/gunTag/type8"
+msgstr "Điểm ngắm III"
+
+msgid "aim/gunTag/type9"
+msgstr "Chữ O kiểu I (có hiển thị khả năng xuyên giáp)"
+
+msgid "aim/mixing"
+msgstr "Ngắm"
+
+msgid "aim/mixing/type0"
+msgstr "Vòng tròn I (có hiển thị nạp đạn) "
+
+msgid "aim/mixing/type1"
+msgstr "Vòng tròn II (có hiển thị nạp đạn rõ hơn)"
+
+msgid "aim/mixing/type2"
+msgstr "Vòng tròn III (không hiển thị nạp đạn)"
+
+msgid "aim/mixing/type3"
+msgstr "Vòng tròn IV (liền nét)"
+
+msgid "aim/mixing/type4"
+msgstr "Chữ thập (có hiển thị nạp đạn rõ hơn)"
+
+msgid "aim/mixing/type5"
+msgstr "Chữ thập kiểu II"
+
+msgid "aim/mixing/type6"
+msgstr "Thử"
+
+msgid "aim/net"
+msgstr "Chỉ báo"
+
+msgid "aim/net/type0"
+msgstr "Chéo"
+
+msgid "aim/net/type1"
+msgstr "Ngang"
+
+msgid "aim/net/type2"
+msgstr "Tỏa tròn"
+
+msgid "aim/net/type3"
+msgstr "Gạch ngang"
+
+msgid "aim/reloader"
+msgstr "Quá trình nạp đạn"
+
+msgid "aim/reloaderTimer"
+msgstr "Thời gian Nạp đạn"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Chuyển sang chế độ Pháo Ngắm"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Được dùng lần gần nhất"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Mắt chim"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Quan sát đường đạn"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Tự Đổi Chế độ Ngắm"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Khi cuộn con lăn chuột đến một giá trị phóng to nhất định, tâm ngắm sẽ chuyển từ góc nhìn \"Mắt chim\" sang \"Quan sát đường đạn\"."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Tự Đổi Chế độ Ngắm"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Thu-phóng camera mượt"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Hiện chỉ báo đường bắn"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Hiện/ẩn dấu hiệu cho thấy viên đạn được chọn có đạt đến vị trí đang ngắm hay không. Nó cũng cung cấp thời gian đạn bay."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Chỉ báo Đường bắn"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Hiện chỉ báo vị trí camera"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Hiện/ẩn chỉ báo cho thấy mức độ thu-phóng của camera pháo ngắm."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Chỉ báo Vị trí Camera"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Điều khiển Camera"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Kiểu khác"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Tiêu chuẩn"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "Trong chế độ điều khiển camera tiêu chuẩn, camera sẽ di chuyển lên, xuống, trái và phải. Trong chế độ kiểu khác, camera di chuyển tiến, lùi và quanh vị trí của Pháo Tự hành đang cầm."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Điều khiển Camera"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Chỉ báo Thu—Phóng"
+
+msgid "alternativeVoices/labels"
+msgstr "Tiếng thông báo trong trận"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Tiếng thông báo trong trận"
+
+msgid "apply_button"
+msgstr "Áp dụng"
+
+msgid "autodetectButton"
+msgstr "Khuyến nghị"
+
+msgid "autodetectButton/description"
+msgstr "Quyết định chất lượng hình ảnh tối ưu cho máy tính của bạn. \n\nSẽ có thể mất một khoảng thời gian để thực hiện."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Nhận lời khen trong trận"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Hiển thị lệnh cá nhân"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Chỉ báo giao tiếp trên bảng đội"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Hiện dấu mốc vị trí trên bản đồ"
+
+msgid "battlecomm/showMarkers"
+msgstr "Hiển thị dấu mốc căn cứ trong Trận đấu Ngẫu nhiên"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Hiển thị dấu mốc cố định"
+
+msgid "borderlessSize"
+msgstr "Cửa sổ (không viền)"
+
+msgid "borderlessSize/description"
+msgstr "Cửa sổ (không viền)"
+
+msgid "cancel_button"
+msgstr "Hủy bỏ"
+
+msgid "chat/censorshipMessages"
+msgstr "Che các từ khó chịu trong câu chat"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Chỉ nhận tin nhắn từ người chơi có trong Danh bạ"
+
+msgid "chat/disableBattleChat"
+msgstr "Tắt Chat với đồng đội"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Nhớ vị trí camera và các cửa sổ kênh"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Nhớ vị trí camera và các cửa sổ khác"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Chỉ chấp nhận lời mời từ bạn bè trong Ga-ra"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Nhận Thông báo Clan"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Chấp nhận yêu cầu kết bạn"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Nhận lời vào Trung đội trong trận"
+
+msgid "chat/removeSpam"
+msgstr "Ẩn spam"
+
+msgid "chat/showDateMessage"
+msgstr "Hiển thị ngày trong các tin nhắn"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Thông báo khi người chơi kết nối/đứt kết nối"
+
+msgid "chat/showTimeMessage"
+msgstr "Hiển thị thời gian trong tin nhắn"
+
+msgid "colorCorrection"
+msgstr "Chỉnh Màu"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Điều chỉnh"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Thiết lập Tùy ý"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Độ sáng"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Tương phản"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Độ bão hòa (quang phổ)"
+
+msgid "colorSettings/tab/default"
+msgstr "Mặc định"
+
+msgid "colorSettings/tab/filters"
+msgstr "Bộ lọc Tiền lập"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Mức độ lọc"
+
+msgid "colorSettings/view/after"
+msgstr "Sau"
+
+msgid "colorSettings/view/before"
+msgstr "Trước"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "TẮT"
+
+msgid "colorSettings/view/description"
+msgstr "Chỉ định một trong các tùy chọn điều chỉnh hình ảnh"
+
+msgid "colorSettings/view/header"
+msgstr "Chỉnh Màu"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Đặt lại"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Tùy chọn Điều chỉnh Hình ảnh"
+
+msgid "cursor/ArcadeTitle"
+msgstr "\"Arcade\""
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Armor Flashlight"
+
+msgid "cursor/ArtyTitle"
+msgstr "Pháo"
+
+msgid "cursor/ContourTitle"
+msgstr "Hình dáng"
+
+msgid "cursor/ServerAim"
+msgstr "Bật dấu ngắm theo máy chủ"
+
+msgid "cursor/SnipperTitle"
+msgstr "\"Sniper\""
+
+msgid "cursor/contour/type0"
+msgstr "Tiêu chuẩn"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Khi ngắm vào xe địch, toàn bộ đường viền hình dáng sẽ hiển thị, kể cả những chi tiết không phải giáp mà đạn không tương tác được."
+
+msgid "cursor/contour/type1"
+msgstr "Đơn giản hóa"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Khi ngắm vào xe địch, một phần đường viền hình dáng sẽ hiển thị, chỉ bao gồm những chi tiết giáp thật mà đạn có thể tương tác được."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Vùng không xuyên được"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Không"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Tô đầy"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Họa tiết"
+
+msgid "cursor/contourLabel"
+msgstr "Loại Hình dáng"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Vùng xuyên được"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Không"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Tô đầy"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Họa tiết"
+
+msgid "cursor/overlapContour"
+msgstr "Kết xuất vật cản"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Bật kết xuất có thể làm giảm hiệu suất game."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Hiển thị vật cản đạn khi ngắm vào xe địch.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Kết xuất Vật cản"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Kết xuất Vật cản"
+
+msgid "cursorTitle"
+msgstr "Dấu ngắm"
+
+msgid "defaultBtn"
+msgstr "Mặc định"
+
+msgid "defaultNamePrefix"
+msgstr "Người chơi"
+
+msgid "dynamicCamera"
+msgstr "Bật chế độ camera động"
+
+msgid "dynamicFov"
+msgstr "FoV Linh động"
+
+msgid "dynamicFov/description"
+msgstr "FoV Linh động cho phép thiết lập góc nhìn tối thiểu và tối đa trong chế độ ngắm Arcade.\n\nGóc tối đa được sử dụng khi camera phóng xa khỏi xe.\n\nGóc tối thiểu được sử dụng khi thu gần vào xe."
+
+msgid "dynamicRenderer"
+msgstr "Độ phân giải Render 3D"
+
+msgid "dynamicRenderer/description"
+msgstr "Quyết định chất lượng khung cảnh và các chi tiết trong game.\n\nĐộ phân giải Render 3D có thể được thay đổi ngay trong trận đấu bằng cách dùng tổ hợp phím [RShift +] và [RShift -]. Không ảnh hưởng đến giao diện.\n\nGiảm tham số này có thể cải thiện hiệu suất trò chơi cho các máy tính có card màn hình yếu."
+
+msgid "edgeDetectAA"
+msgstr "Edge detect AA"
+
+msgid "feedBack"
+msgstr "Thông tin Giao chiến"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Ranh giới Bản đồ"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Bắn choáng—>Hỗ trợ Gây hại"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Điểm chiếm căn cứ"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Điểm phòng thủ căn cứ"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Thiệt hại đã chặn"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Xe địch bị bốc cháy"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Gây hại nghiêm trọng"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Phát hiện"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Thiệt hại gây ra nhờ bạn phát hiện"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Thiệt hại từ một phát đạn"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Xe địch bị phá hủy"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Thiệt hại do đâm/húc"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Hỏng xích"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Tên sự kiện"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Thiệt hại nghiêm trọng"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Gây thiệt hại"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Hiển thị trong trận"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Chi tiết xe"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Thiệt hại do va chạm"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Kỹ năng tình huống"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "Ba sự kiện mới nhất\nsẽ được hiển thị trong trận"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Sự kiện giao tranh"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Thông báo"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Sự kiện"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Kỹ năng Kíp lái"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Thiệt hại hứng chịu"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Hiệu suất Chiến đấu"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Thiệt hại hứng chịu"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Tắt ranh giới bản đồ có thể gây mất phương hướng trong trận đánh."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Khi nhấn Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Luôn hiện rõ"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Không hiện rõ"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Khi Tới gần"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Hiệu ứng đánh dấu phụ"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Nét đứt"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Không hiển thị"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Kiểu ranh giới"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Tường"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Chỉ báo Hướng Bắn"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Bị đồng đội Bắn"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Lượng thiệt hại"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Số phát đạn chặn được"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Xe bạn trúng phát\nnghiêm trọng"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Thiệt hại đã hứng chịu"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Mô-đun bị hư hại"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Chi tiết"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Hiển thị Hoạt họa"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Lượng thiệt hại"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Chỉ báo linh động"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Chi tiết xe"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Hiển thị trong trận"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Tất cả"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Bị đồng đội Bắn"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Sát thương Nghiêm trọng"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Trừ các phát nghiêm trọng"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Tiên tiến"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Chuẩn"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Loại"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Nhật ký"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Gây ra nhờ bạn bắn choáng"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Chặn bởi giáp"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Thiệt hại gây ra do bạn hỗ trợ"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Thiệt hại do bạn gây ra"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Luôn hiển thị"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Nhấn Alt để hiển thị"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Không hiển thị"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Thiệt hại chi tiết"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Mọi sự kiện ở phía dưới"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Thiệt hại hứng chịu ở phía trên"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Vị trí của các sự kiện"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Mọi sự kiện"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Loại sự kiện"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Thiệt hại hứng chịu"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Hiệu suất Chiến đấu"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Không nên bật chế độ này\nđối với các màn hình có độ phân giải thấp"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Thiệt hại ngắn gọn"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Một khu vực dành riêng cho các thông tin thiệt hại chi tiết. Hiển thị toàn bộ dữ liệu về hiệu quả chiến đấu của bạn trong trận."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Sự kiện giao tranh"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Kết quả Trận & Nhiệm vụ"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Tỷ số Trận đánh"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Chi tiết Nhiệm vụ"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Hiển thị biểu tượng xe\ntheo cấp"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Hiển thị HP của đội"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Hiển thị chênh lệch HP\ncủa đội"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Hiển thị số HP của đội"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Hiện tất cả"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Chỉ hiện tiến độ"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Kiểu khác"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Không hiển thị"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Chuẩn"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Hiển thị nhiệm vụ"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Phạm vi Quan sát (FoV)"
+
+msgid "fov/description"
+msgstr "Phạm vi thị kiến của camera trong game.\n\n95° là FoV bình thường. FoV càng thấp, các vật thể sẽ được hiển thị càng gần, trong khi tầm nhìn ngoại biên giảm xuống.\n\nKhông ảnh hưởng tới hiệu suất game."
+
+msgid "game/anonymizer"
+msgstr "Ẩn danh tên nick của bạn trong trận"
+
+msgid "game/battleLoadingInfo"
+msgstr "Thông tin phụ trên màn hình tải trận"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Bản đồ con"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Chỉ hiện chữ"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Hình minh hoạ"
+
+msgid "game/battlePanelSettings"
+msgstr "Giao diện chiến đấu"
+
+msgid "game/carouselType"
+msgstr "Bảng quản lý xe"
+
+msgid "game/carouselType/double"
+msgstr "Hai tầng"
+
+msgid "game/carouselType/single"
+msgstr "Một tầng"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Hiển thị thống kê khi trỏ vào một chỗ để xe trong Ga-ra"
+
+msgid "game/commanderCamEnabled"
+msgstr "Bật Góc nhìn Chiến lược"
+
+msgid "game/customizationDisplayType"
+msgstr "Hiển thị các chi tiết tùy biến trong trận"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Theo lịch sử, Phi lịch sử và Hư cấu"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Theo Lịch sử"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Theo lịch sử và Phi lịch sử"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Hiện các xe của thành viên Trung đội trong Ga-ra"
+
+msgid "game/doubleCarousel/label"
+msgstr "Bảng quản lý xe 2 tầng"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Linh động"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Tối giản"
+
+msgid "game/dynamicCamera"
+msgstr "Bật chế độ camera động"
+
+msgid "game/enableBattleNotifier"
+msgstr "Hiển thị kết quả các trận đánh trước ở ô Chat"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Bật hiệu ứng đen trắng trong chế độ \"Sau khi Chết\""
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Bật hiệu ứng kính quang học trong chế độ Sniper"
+
+msgid "game/enableRepairTimer"
+msgstr "Hiện thời gian sửa đối với mô-đun bị hư hại"
+
+msgid "game/enableSpeedometer"
+msgstr "Hiển thị tốc kế của các xe bánh lốp"
+
+msgid "game/enableVoIP"
+msgstr "Chat Voice"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Giao tiếp Chiến đấu"
+
+msgid "game/fieldset/headerChat"
+msgstr "Chat"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Bản đồ con"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Dấu hiệu Xe"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Hiệu ứng camera động khi di chuyển con trỏ chuột trong Ga-ra"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Xoay camera Ga-ra khi không hoạt động sau"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Hiệu ứng Camera Động trong Ga-ra"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Không bao giờ"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 giây"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 giây"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 giây"
+
+msgid "game/horStabilizationSnp"
+msgstr "Ổn định phương ngang trong chế độ Sniper"
+
+msgid "game/hullLockEnabled"
+msgstr "Bật tự động khóa thân trong chế độ Sniper"
+
+msgid "game/increasedZoom/base"
+msgstr "Bật %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " và "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Hiện lựa chọn máy chủ khi mở khởi chạy game"
+
+msgid "game/minimapDrawRange"
+msgstr "Hiện vòng tròn tầm hiển thị"
+
+msgid "game/minimapGroupTitle"
+msgstr "Bản đồ con"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Hiện tầm phát hiện tối đa"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Hiện vòng tròn phát hiện hiển nhiên (do khoảng cách quá gần)"
+
+msgid "game/minimapViewRange"
+msgstr "Hiện vòng tròn tầm nhìn"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Gợi ý"
+
+msgid "game/newbieBattleHints"
+msgstr "Bật kiến thức nhập môn trong Trận đấu Ngẫu nhiên"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Bật kiến thức nhập môn trên màn hình tải trận"
+
+msgid "game/optimizeGraphics"
+msgstr "Tối ưu hóa giao diện đồ họa"
+
+msgid "game/playersPanelState/large"
+msgstr "Danh sách đầy đủ"
+
+msgid "game/playersPanelState/medium"
+msgstr "Trung bình"
+
+msgid "game/playersPanelState/none"
+msgstr "Không hiển thị danh sách"
+
+msgid "game/playersPanelState/short"
+msgstr "Danh sách ngắn"
+
+msgid "game/postmortemMode"
+msgstr "Chế độ Sau khi Chết"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Hiện khoảnh khắc xe của bạn bị phá hủy (chi tiết)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Hiện xe địch đã tiêu diệt xe của bạn"
+
+msgid "game/postmortemMode/self"
+msgstr "Hiện xe của bạn"
+
+msgid "game/postmortemMode/simple"
+msgstr "Hiện khoảnh khắc xe của bạn bị phá hủy (ngắn gọn)"
+
+msgid "game/ppShowLevels"
+msgstr "Hiển thị cấp xe"
+
+msgid "game/ppShowTypes"
+msgstr "Hiển thị loại xe"
+
+msgid "game/ppStartStateLabel"
+msgstr "Loại"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Bật Camera Chỉ huy"
+
+msgid "game/replayEnabled"
+msgstr "Bật Thu hình Trận đánh"
+
+msgid "game/replayEnabled/all"
+msgstr "Tất cả"
+
+msgid "game/replayEnabled/last"
+msgstr "Cuối cùng"
+
+msgid "game/replayEnabled/none"
+msgstr "Không"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Hiển thị khu vực mà Pháo Tự hành sẽ bắn trúng"
+
+msgid "game/showDamageIcon"
+msgstr "Hiển thị thông báo khi không gây ra thiệt hại"
+
+msgid "game/showDogTag"
+msgstr "Hiển thị Thẻ Quân nhân"
+
+msgid "game/showDogTagToKiller"
+msgstr "Hiển thị Thẻ Quân nhân Tùy biến được mà bạn đã áp dụng"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Hiển thị thông tin của xe đã chết"
+
+msgid "game/showKillersDogTag"
+msgstr "Hiện Thẻ Quân nhân của người chơi bắn hạ bạn"
+
+msgid "game/showLanguageBar"
+msgstr "Hiển thị Bảng chọn Ngôn ngữ"
+
+msgid "game/showMarksOnGun"
+msgstr "Hiển thị Dấu hiệu Thiện chiến"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Xem Thẻ Quân nhân Động của bạn"
+
+msgid "game/showSectorOnMap"
+msgstr "Hiển thị cung bắn đối với Pháo Tự hành"
+
+msgid "game/showVectorOnMap"
+msgstr "Hiển thị tia hướng camera"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Bật các tính năng mở rộng trên bản đồ con"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Khi nhấn Alt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Luôn hiện"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Không bao giờ"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Hiện sức kháng cự của xe trên bản đồ con"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Khi nhấn Alt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Luôn hiện"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Không bao giờ"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Hiện sức kháng cự của xe trong bảng đội"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Khi nhấn Alt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Luôn hiện"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Không bao giờ"
+
+msgid "game/showVehicleIcon"
+msgstr "Hiện biểu tượng xe"
+
+msgid "game/showVehicleLevel"
+msgstr "Hiển thị cấp xe"
+
+msgid "game/showVehiclesCounter"
+msgstr "Hiển thị dấu hiệu xe ở Bảng Tỷ số Trận đánh"
+
+msgid "game/showVictimsDogTag"
+msgstr "Hiển thị Thẻ Quân nhân của địch bị bạn bắn hạ"
+
+msgid "game/sniperModeByShift"
+msgstr "Chỉ bật/tắt chế độ \"Sniper\" bằng phím Shift"
+
+msgid "game/sniperZoom"
+msgstr "Mức Thu Phóng Ưa thích của Chế độ Bắn tỉa"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Sử dụng Gần đây nhất"
+
+msgid "game/switchEquipment"
+msgstr "Chuyển cấu hình ở màn hình tải trận"
+
+msgid "game/w2gtEnable"
+msgstr "Bật khu chiến sự trên bản đồ con"
+
+msgid "gameTitle"
+msgstr "Tổng quan"
+
+msgid "gameplay/devMaps"
+msgstr "Chơi bản đồ có Sự kiện Ngẫu nhiên"
+
+msgid "gameplay/nations"
+msgstr "Đối đầu"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "gammaBtn/label"
+msgstr "Điều chỉnh"
+
+msgid "gammaWizard/apply"
+msgstr "Áp dụng"
+
+msgid "gammaWizard/cancel"
+msgstr "Hủy bỏ"
+
+msgid "gammaWizard/closeBtn"
+msgstr "TẮT"
+
+msgid "gammaWizard/default"
+msgstr "Mặc định"
+
+msgid "gammaWizard/description"
+msgstr "Di chuyển thanh trượt đến khi nền và logo có cùng độ sáng. Nhắm hờ mắt hoặc quay mặt khỏi màn hình, để khiến các chi tiết ảnh gần như không thấy được."
+
+msgid "gammaWizard/header"
+msgstr "Gamma"
+
+msgid "gammaWizard/title"
+msgstr "Cài đặt Gamma"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Cho phép độ sáng được hiệu chỉnh trong game nhằm đạt chất lượng ảnh\ntối ưu trên màn hình. Tùy chọn này nhằm bù\ncho các hiệu ứng từ các driver card màn hình và thiết lập\nhiển thị có ảnh hưởng đến chất lượng hình ảnh của trò chơi."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gamma"
+
+msgid "graficTitle"
+msgstr "Đồ họa"
+
+msgid "graphics/block/effects"
+msgstr "Hiệu ứng"
+
+msgid "graphics/block/greenery"
+msgstr "Thực vật"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Địa hình và nước"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Ánh sáng và hậu xử lý"
+
+msgid "graphics/block/main"
+msgstr "Chính"
+
+msgid "graphics/tabAdvanced"
+msgstr "Chi tiết"
+
+msgid "graphics/tabScreen"
+msgstr "Màn hình"
+
+msgid "graphicsQuality"
+msgstr "Chất lượng Đồ họa"
+
+msgid "graphicsQuality/description"
+msgstr "Quyết định chất lượng chung của hình ảnh. Quyết định các tham số ở mục \"Chi tiết\".\n\nGiảm chất lượng đồ họa có thể:\n• Cải thiện hiệu suất trò chơi\n• Gây ra sự không đồng bộ khi hiển thị địa hình giữa máy chủ và máy khách (máy tính của bạn).\n\nChỉ sử dụng chất lượng đồ họa tối thiểu trong trường hợp máy tính quá yếu."
+
+msgid "graphicsQualityHDSD"
+msgstr "Loại Phiên bản Game"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "Đã cài bản Client HD"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Đã cài đặt Phiên bản Chuẩn (SD)"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Phiên bản Chuẩn—đầy đủ mọi thứ của game, ngoại trừ hình ảnh bề mặt chất lượng cao nhất.\n\nPhiên bản HD—đầy đủ mọi thứ của game, kể cả hình ảnh bề mặt chất lượng cao nhất. Cần nhiều chỗ trống trên ổ cứng hơn so với Phiên bản Chuẩn."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Loại Phiên bản Game"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "Phiên bản HD—đầy đủ mọi thứ của game, kể cả hình ảnh bề mặt chất lượng cao nhất. Cần nhiều chỗ trống trên ổ cứng hơn so với Phiên bản Chuẩn.\n\nPhiên bản Chuẩn (SD)—đầy đủ mọi thứ của game, ngoại trừ hình ảnh bề mặt chất lượng cao nhất."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "Chất lượng đồ họa Tối đa (SD) và Siêu cao (SD) không thể hiện giá trị tối đa của tham số Hình ảnh Bề mặt. Để cài đặt chất lượng đồ họa tối đa, hãy chuyển sang phiên bản HD ở bản chạy game."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Bất đẳng hướng (Anisotropic) 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Bất đẳng hướng (Anisotropic) 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Bất đẳng hướng (Anisotropic) 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Bất đẳng hướng (Anisotropic) 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Song tuyến (Bilinear)"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Tùy chỉnh"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "Phim xi-nê 1940s"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Tương phản"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Nâng cao"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Xa"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Chuẩn"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Cao"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Thấp"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Rất thấp"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Cao nhất"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Tối đa (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Trung bình"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Thấp nhất"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Màu tối"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Gần"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "TẮT"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "TẮT"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "BẬT"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Đơn giản"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Nâng cao"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Điểm"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Ảnh màu"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Ngẫu nhiên"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Tiêu chuẩn"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Đậm màu"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Màu nhạt"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Tam tuyến (Trilinear)"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Siêu Cao"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Siêu cao (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Rất Cao"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Rất Cao"
+
+msgid "igbHardwareAcceleration"
+msgstr "Tăng tốc Phần cứng Trình duyệt"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Khi bật thiết lập này, nội dung web sẽ được kết xuất hiển thị bằng GPU thay vì CPU.\n\nTắt bỏ nó nếu bạn gặp vấn đề kết xuất hiển thị nội dung của một số cửa sổ.\n\nThay đổi sẽ được áp dụng sau khi khởi động lại game."
+
+msgid "interfaceScale"
+msgstr "Định tỷ Giao diện"
+
+msgid "interfaceScale/attention"
+msgstr "Tính năng này đang được thử nghiệm;\nnó không ảnh hưởng tới hiệu suất game."
+
+msgid "interfaceScale/body"
+msgstr "Tự động điều chỉnh tỷ lệ của các yếu tố giao diện\nkhi mở rộng tối đa màn hình/cửa sổ game."
+
+msgid "interfaceScale/description"
+msgstr "Tự động điều chỉnh tỷ lệ của các yếu tố giao diện khi mở rộng tối đa màn hình/cửa sổ game."
+
+msgid "interfaceScale/header"
+msgstr "Định tỷ Giao diện"
+
+msgid "interfaceScale/warning"
+msgstr "Tính năng này đang được thử nghiệm; nó không ảnh hưởng tới hiệu suất game."
+
+msgid "interfaceScaleDisabled"
+msgstr "Định tỷ Giao diện"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Chỉ khả dụng cho các màn hình 4K."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Tự động điều chỉnh tỷ lệ của các yếu tố giao diện\nkhi mở rộng tối đa màn hình/cửa sổ game."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Tự động điều chỉnh tỷ lệ của các yếu tố giao diện khi mở rộng tối đa màn hình/cửa sổ game."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Định tỷ Giao diện"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Chỉ khả dụng cho các màn hình 4K."
+
+msgid "isColorBlind"
+msgstr "Chế độ Mù màu"
+
+msgid "isColorBlind/description"
+msgstr "Điều chỉnh bảng màu cho những người gặp khó khăn trong việc phân biệt màu sắc."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Đảo lại thay đổi"
+
+msgid "keyboard/keyboard"
+msgstr "Bàn phím"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Đã rõ!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Chuyển chế độ Ngắm bắn"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Khóa Thân / Đổi Kiểu tác chiến"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Lùi"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Lùi"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"Phanh tay\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Xuống"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Trái"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Phải"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Lên"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Bắn một Loạt đạn"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Rút lui!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Bắn"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Tiến"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Tiến"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Bỏ Xe (trong Chiến tuyến)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Giúp với!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Chỉ định vị trí"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Chỉ định mục tiêu"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Vật phẩm 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Vật phẩm 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Vật phẩm 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Vật phẩm 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Vật phẩm 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Vật phẩm 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Vật phẩm 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Vật phẩm 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Vật phẩm 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Vật phẩm 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Trái"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Ngắm Tự động"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Tắt Ngắm Tự động"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Phản đối!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Ấn-để-Nói"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Nạp lại Băng Đạn"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Đang thay đạn!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Phải"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Tắt Giao diện Trận đánh"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Kích hoạt Trợ cấp Cá nhân"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Tiến độ Nhiệm vụ Cá nhân"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Hiển thị Bảng Lệnh Điều khiển / Xác nhận lệnh"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Thu nhỏ"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Phóng to"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Khả năng Đặc biệt"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Dừng và Khai hỏa"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Cảm ơn!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Bật/tắt Armor Flashlight"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Quan sát Đường đạn"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Đặt tín hiệu âm thanh"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Ẩn/Hiển thị"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Bật/tắt Chat Voice trong Trung đội Dã chiến"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Camera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Điều khiển Hành trình"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Vật phẩm dự phòng"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Khai hỏa"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Bản đồ con"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Di chuyển"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Tin nhắn"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Giao tiếp Đội"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Loại khác"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Chat Voice"
+
+msgid "keyboard/mouse"
+msgstr "Chuột"
+
+msgid "keyboardTitle"
+msgstr "Điều khiển"
+
+msgid "limitedUI/desc"
+msgstr "Hiển thị dần các chi tiết giao diện ẩn trong Ga-ra"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Tắt"
+
+msgid "marker/AllyTitle"
+msgstr "Phe Ta"
+
+msgid "marker/DeadTitle"
+msgstr "Bị tiêu diệt"
+
+msgid "marker/EnemyTitle"
+msgstr "Phe Địch"
+
+msgid "marker/aimMarker2D"
+msgstr "Chỉ báo Ngắm Tự động"
+
+msgid "marker/alt"
+msgstr "Kiểu khác"
+
+msgid "marker/base"
+msgstr "Mặc định"
+
+msgid "marker/damage"
+msgstr "Thiệt hại đã hứng chịu"
+
+msgid "marker/dead"
+msgstr "Kí hiệu của xe đã chết"
+
+msgid "marker/hp"
+msgstr "HP của Xe"
+
+msgid "marker/hp/type0"
+msgstr "Phần trăm %"
+
+msgid "marker/hp/type1"
+msgstr "HP còn lại / tổng"
+
+msgid "marker/hp/type2"
+msgstr "HP còn lại"
+
+msgid "marker/hp/type3"
+msgstr "Ẩn"
+
+msgid "marker/hpIndicator"
+msgstr "Thanh HP"
+
+msgid "marker/icon"
+msgstr "Biểu tượng xe"
+
+msgid "marker/level"
+msgstr "Cấp"
+
+msgid "marker/level/tooltip/body"
+msgstr "Khi bật thiết lập này, cấp độ sẽ được hiển thị phía trên xe.\n\nTrong Săn Thiết giáp, mức nâng cấp hiện tại sẽ được hiển thị."
+
+msgid "marker/level/tooltip/header"
+msgstr "Cấp"
+
+msgid "marker/name"
+msgstr "Mẫu xe"
+
+msgid "marker/name/type2"
+msgstr "Ẩn"
+
+msgid "marker/nickname"
+msgstr "Người chơi"
+
+msgid "markerTitle"
+msgstr "Kí hiệu"
+
+msgid "minimap/labels/alpha"
+msgstr "Độ trong của bản đồ con"
+
+msgid "minimap/labels/size"
+msgstr "Kích thước tối đa"
+
+msgid "monitor"
+msgstr "Màn hình"
+
+msgid "monitor/description"
+msgstr "Chọn màn hình chính cho game."
+
+msgid "mouse/sensitivity/art"
+msgstr "Ngắm của Pháo"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Quan sát đường đạn"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Camera tự do"
+
+msgid "mouse/sensitivity/header"
+msgstr "Độ nhạy"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Đảo ngược theo chiều ngang"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Đảo ngược theo chiều dọc"
+
+msgid "mouse/sensitivity/main"
+msgstr "Ngắm Arcade"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Ngắm Sniper"
+
+msgid "mouse/startDist"
+msgstr "Vị trí camera"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Yếu tố Âm thanh Môi trường"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Tiếng Giác quan Thứ 6 Kích hoạt"
+
+msgid "otherTitle"
+msgstr "Khác"
+
+msgid "physicsQuality"
+msgstr "Chất lượng Vật lý Âm thanh"
+
+msgid "refreshRate"
+msgstr "Tốc độ Làm mới Màn hình"
+
+msgid "refreshRate/default"
+msgstr "Mặc định"
+
+msgid "refreshRate/description"
+msgstr "Tốc độ làm mới màn hình trong game.\n\nThiết lập không phù hợp với tốc độ làm mới màn hình có thể gây ra hiện tượng nhấp nháy.\n\nKhông ảnh hưởng tới hiệu suất game."
+
+msgid "resolution"
+msgstr "Độ phân giải Màn hình"
+
+msgid "resolution/description"
+msgstr "Độ phân giải màn hình theo phương ngang và dọc trong chế độ toàn màn hình. Độ phân giải cao hơn sẽ cải thiện chất lượng hình ảnh. Thiết lập không phù hợp với độ phân giải màn hình hiện tại có thể làm méo hình ảnh.\n\nTăng giá trị của tham số này sẽ khiến card màn hình phải làm việc với cường độ cao hơn và giảm hiệu suất game.\n\nCó thể giảm sức ép lên card màn hình bằng cách thiết lập độ phân giải Render 3D."
+
+msgid "restartNewbieBattleHints"
+msgstr "Đặt lại Kiến thức Nhập môn"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Đặt lại lịch sử kiến thức nhập môn để tiếp tục nhận gợi ý, mẹo và thủ thuật mà bạn đã xem rồi."
+
+msgid "screenMode"
+msgstr "Chế độ game"
+
+msgid "screenMode/borderless"
+msgstr "Cửa sổ (không viền)"
+
+msgid "screenMode/description"
+msgstr "Chuyển đổi giữa chế độ game toàn màn hình, cửa sổ và cửa sổ (không viền). Chế độ cửa sổ sẽ làm giảm hiệu suất trò chơi."
+
+msgid "screenMode/fullscreen"
+msgstr "Toàn màn hình"
+
+msgid "screenMode/label"
+msgstr "Chế độ:"
+
+msgid "screenMode/windowed"
+msgstr "Cửa sổ"
+
+msgid "smoothing/description"
+msgstr "Quyết định độ xử lý bổ sung cho các nét mảnh và đường viền của vật thể trong khung cảnh game. Giảm tối thiểu hiện tượng răng cưa. Đường viền của các vật thể trông tự nhiên hơn."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Chuẩn"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Âm thanh tự chọn"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Biến thể 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Biến thể 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Âm thanh tự chọn"
+
+msgid "sound/dynamicRange/label"
+msgstr "Dải âm động"
+
+msgid "sound/fieldset/header"
+msgstr "Âm lượng"
+
+msgid "sound/players_notifications"
+msgstr "Thông báo từ người chơi khác"
+
+msgid "sound/presets/title"
+msgstr "Bộ tiền lập"
+
+msgid "sound/soundModes/U01"
+msgstr "Tùy biến 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Tùy biến 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Tùy biến 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Tùy biến 4"
+
+msgid "sound/soundModes/default"
+msgstr "Chuẩn"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Chỉ huy"
+
+msgid "sound/special/field/set"
+msgstr "Âm lượng sự kiện game"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Làm mới Thiết bị"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Kết thúc Thử"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Bắt đầu Thử"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Mức Âm thanh Môi trường chung Trong khi Chat"
+
+msgid "sound/vivox/master_volume"
+msgstr "Âm lượng Chat Voice"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Độ nhạy của Microphone"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Thử nghiệm Vivox"
+
+msgid "soundTitle"
+msgstr "Âm thanh"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Tự chọn"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "HT 2.0/2.1"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "HT 5.1"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "HT 7.1"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "Tai nghe"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Giữa"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Trái"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Trái sau"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Trái trước"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Trái hông"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Phải"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Phải sau"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Phải trước"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Phải hông"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Loa siêu trầm"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "Laptop"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Thử âm:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Thử âm"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Tiếng thông báo trong trận sẽ tùy thuộc vào quốc gia của xe và giới tính chỉ huy"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Chỉ huy"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Giọng nam theo ngôn ngữ của client trò chơi"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Chuẩn"
+
+msgid "sounds/ambient"
+msgstr "Âm thanh môi trường"
+
+msgid "sounds/arena"
+msgstr "Nhạc trong Trận"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Nhạy âm"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Chọn một trong các biến thể của tiếng kích hoạt \"Nhạy âm\". Để dùng âm thanh riêng, hãy đổi tên tệp .mp3 của bạn thành \"soundExploring\" rồi bỏ vào thư mục res/audioww."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Tiếng Kích hoạt Nhạy Âm"
+
+msgid "sounds/bassBoost"
+msgstr "Tăng cường tần số thấp"
+
+msgid "sounds/bassBoost/description"
+msgstr "Tăng cường các tần số thấp trong game nhưng vẫn giữ nguyên âm lượng chung. Trình xử lý chế độ này có thể có sự khác biệt tùy theo hệ thống âm thanh đã chọn (loa ngoài, tai nghe hay laptop)."
+
+msgid "sounds/bulbVoices"
+msgstr "Giác quan Thứ 6"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Chọn một trong các biến thể âm thanh khi Giác quan Thứ 6 được kích hoạt. Để dùng âm thanh riêng, hãy đổi tên tệp .mp3 của bạn thành \"sixthSense\" rồi bỏ vào thư mục res/audioww."
+
+msgid "sounds/effects"
+msgstr "Hiệu ứng"
+
+msgid "sounds/gui"
+msgstr "Giao diện"
+
+msgid "sounds/hangar"
+msgstr "Nhạc trong Ga-ra"
+
+msgid "sounds/masterVolume"
+msgstr "Âm lượng Chung"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Bật âm thanh"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Tắt các hiệu ứng âm thanh có thể cải thiện hiệu suất chung của game. Bạn sẽ phải khởi động lại Client trò chơi để áp dụng thay đổi này."
+
+msgid "sounds/nightMode"
+msgstr "Chế độ đêm"
+
+msgid "sounds/nightMode/description"
+msgstr "Cân bằng sự chênh lệch âm lượng, giảm những âm thanh chói tai và tối thiểu hóa các tần số thấp trong game, mang lại môi trường âm thanh dễ chịu và ôn hòa hơn khi chơi game vào buổi tối/đêm."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Bật cái này có thể ảnh hưởng đến hiệu năng."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Kiểm soát chất lượng vật lý âm thanh.\n\nMô phỏng cách âm thanh uốn quanh chướng ngại vật và đi qua nhiều bề mặt bản đồ.\n\nSử dụng dạng hình học của bản đồ để tạo sớm phản xạ âm thanh xe tăng dội từ các vật thể ở gần.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Chất lượng Vật lý Âm thanh"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Đã tắt"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Cao"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Thấp"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Vừa"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Khuyến nghị"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Quyết định chất lượng mô phỏng vật lý âm thanh tối ưu cho máy tính của bạn.\n\nQuá trình có thể mất một lúc."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Khuyến nghị"
+
+msgid "sounds/sixthSense/body"
+msgstr "Âm thanh tùy chọn. Đưa tệp sixthSense.mp3 vào thư mục res/audioww."
+
+msgid "sounds/sixthSense/header"
+msgstr "Tùy biến"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "Hệ thống 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Điều chỉnh âm thanh trong game cho các cặp loa ngoài hỗ trợ đầy đủ khoảng âm (2.0) hoặc cặp một loa tần số cao + một loa tần số thấp (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "Hệ thống 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "Hệ thống 5.1"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Điều chỉnh vị trí của âm thanh game cho các loa ngoài và loa siêu trầm trong hệ thống đa kênh 5.1."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "Hệ thống 5.1"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "Hệ thống 7.1"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Điều chỉnh âm thanh game cho các loa ngoài và loa siêu trầm trong hệ thống đa kênh 7.1."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "Hệ thống 7.1"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Tự chọn"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Tự động xác định thiết lập cấu hình âm thanh dựa theo thông tin trong hệ điều hành."
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Tự chọn"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Tai nghe"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Điều chỉnh âm thanh trong game cho các tai nghe."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Tai nghe"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Laptop"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Sử dụng nguyên lý vị trí của bộ tiền lập thuộc Hệ thống Âm thanh 2.0/2.1, nhưng điều chỉnh âm thanh trong game cho các loa laptop nhỏ để đạt được chất lượng cao nhất có thể."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Laptop"
+
+msgid "sounds/soundQuality"
+msgstr "Chất lượng thấp"
+
+msgid "sounds/soundQuality/description"
+msgstr "Giảm chất lượng âm thanh có thể cải thiện hiệu suất chung của game trên các máy tính cấu hình thấp. Khi bật chế độ này, số âm thanh được xử lý cùng lúc sẽ bị giảm đi đáng kể."
+
+msgid "sounds/speakers/back/body"
+msgstr "Thử âm ở loa phải/trái phía sau."
+
+msgid "sounds/speakers/back/header"
+msgstr "Loa phải/trái phía sau"
+
+msgid "sounds/speakers/center/body"
+msgstr "Thử âm ở loa giữa."
+
+msgid "sounds/speakers/center/header"
+msgstr "Loa giữa"
+
+msgid "sounds/speakers/front/body"
+msgstr "Thử âm ở loa phải/trái phía trước."
+
+msgid "sounds/speakers/front/header"
+msgstr "Loa phải/trái phía trước"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "Trong hệ thống 2.0/2.1, loa siêu trầm là thiết bị bổ trợ. Không thể khảo sát nó một cách độc lập (mà không kèm loa)."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Loa siêu trầm (thứ cấp)"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Thử âm ở loa phải/trái phía hông."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Loa phải/trái phía hông"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Thử âm ở loa phải/trái."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Loa phải/trái"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Thử âm ở loa siêu trầm."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Loa siêu trầm"
+
+msgid "sounds/subtitles"
+msgstr "Phụ đề"
+
+msgid "sounds/tabCommon"
+msgstr "Âm thanh Chung"
+
+msgid "sounds/tabSpecial"
+msgstr "Sự kiện game"
+
+msgid "sounds/tabVivox"
+msgstr "Chat Voice"
+
+msgid "sounds/vehicles"
+msgstr "Xe"
+
+msgid "sounds/voiceNotification"
+msgstr "Âm thanh Thông báo"
+
+msgid "title"
+msgstr "Thiết lập"
+
+msgid "tripleBuffered"
+msgstr "Bộ đệm 3 (Tripple buffering)"
+
+msgid "tripleBuffered/description"
+msgstr "Giảm hiện tượng \"rách\" hình ảnh khi số khung hình thay đổi—chỉ khả dụng nếu bật tính năng \"Đồng bộ dọc (VSync)\"."
+
+msgid "vertSync"
+msgstr "Đồng bộ dọc (VSync)"
+
+msgid "vertSync/Off"
+msgstr "TẮT"
+
+msgid "vertSync/On"
+msgstr "BẬT"
+
+msgid "vertSync/description"
+msgstr "Đồng bộ tốc độ khung hình với tốc độ làm mới màn ảnh. \n\n60 hình/giây là tốc độ khung hình giới hạn. Được sử dụng khi xuất hiện hiện tượng lắc hoặc trễ hình ở phía dưới màn ảnh so với phía trên."
+
+msgid "voice_chat/PTT"
+msgstr "Ấn-để-Nói"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Âm lượng"
+
+msgid "voice_chat/header/common"
+msgstr "Chung"
+
+msgid "voice_chat/header/microphone"
+msgstr "Microphone"
+
+msgid "voice_chat/header/speakers"
+msgstr "Tai nghe"
+
+msgid "voice_chat/microphone"
+msgstr "Microphone"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Microphone"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Bật Microphone"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Kích hoạt Chat voice"
+
+msgid "windowSize"
+msgstr "Kích thước cửa sổ"
+
+msgid "windowSize/description"
+msgstr "Độ phân giải theo phương ngang và dọc của cửa sổ game. Khi chuyển sang chế độ toàn màn hình, thiết lập này sẽ chuyển thành \"Độ phân giải Màn hình\"."
+
+msgid "windowTitle"
+msgstr "Game WoT"

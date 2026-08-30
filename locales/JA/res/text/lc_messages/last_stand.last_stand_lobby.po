@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "このまま出撃"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "搭載"
+
+msgid "abilitiesIncomplete/title"
+msgstr "「タクティカル・デバイス」のスロットに空きがあります"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "選択中の車輌のタクティカル・デバイスのスロットに、1つ以上空きがあります。戦闘でのパフォーマンスに大きく影響する可能性がありますが、それでも戦闘を開始しますか?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "イベント専用砲弾や「タクティカル・デバイス」用のデフォルトのショートカット・キーは自由に並び替えることができます。\nここでの変更はイベント専用モードでの戦闘のみに適用されます。\n個別のショートカット・キーの割り当ては「設定」画面の「操作設定」にある「消耗品」セクションから変更できます。"
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "「消耗品」のショートカット・プリセットの変更"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "現在挑戦中のミッションを達成すると「〈ラスト・スタンド〉オペレーション・パンドラ」限定のバッジが手に入ります。"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "エピック・ミッション"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "研究すると、すべてのタクティカル・デバイスの発動に{EDCB9E_Start}必要な「ミリウム」の量{EDCB9E_End}が{EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}減少します。"
+
+msgid "booster/booster_ability_cost/name"
+msgstr "消費ミリウム最適化"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "研究すると、{EDCB9E_Start}タクティカル・デバイスの効果時間{EDCB9E_End}が{EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}延長されます。"
+
+msgid "booster/booster_ability_duration/name"
+msgstr "デバイス効果持続時間"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "研究すると、敵からの{EDCB9E_Start}「ミリウム」の回収範囲{EDCB9E_End}が{EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}拡大します。"
+
+msgid "booster/booster_ability_radius/name"
+msgstr "デバイス効果範囲"
+
+msgid "booster/booster_heal/description"
+msgstr "研究すると、車輌に適用されるすべての{EDCB9E_Start}回復効果{EDCB9E_End}が{EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}向上します。"
+
+msgid "booster/booster_heal/name"
+msgstr "回復効果"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "研究すると、敵車輌に与える{EDCB9E_Start}「Obelisk」からの連鎖ダメージ{EDCB9E_End}が{EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}増加します。"
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Obelisk連鎖ダメージ"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "研究すると、敵からの{EDCB9E_Start}「ミリウム」の回収範囲{EDCB9E_End}が{EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}拡大します。"
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "ミリウム回収範囲"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "研究すると、敵からの{EDCB9E_Start}「ミリウム」の回収範囲{EDCB9E_End}が{EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}拡大します。"
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "ミリウム回収"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "研究すると、ウェーブを突破した際に手に入る{EDCB9E_Start}「ミリウム」の量{EDCB9E_End}が{EDCB9E_Start}%(receive_souls_after_wave_add)s個{EDCB9E_End}増加します。"
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "ウェーブ突破時のミリウム"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "研究すると、復活時に回復する{EDCB9E_Start}「ミリウム」の量{EDCB9E_End}が{EDCB9E_Start}%(restore_souls_on_respawn_add)s個{EDCB9E_End}増加します。"
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "復活時のミリウム"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "研究すると、{EDCB9E_Start}車輌の「ミリウム」の最大容量{EDCB9E_End}が{EDCB9E_Start}%(souls_capacity_add)s個{EDCB9E_End}増加します。"
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "ミリウム容量"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "ディフェンダー・パック"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "「解読キー」を購入しました"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "任意の車輌でその日の最初の勝利を収めるとそれ以降の戦闘で勝利した際に取得できるEXPが5倍に増加します。"
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "EXP5倍ミッション"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "車輌タイプや国家などで表示する車輌を切り替えられます。"
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "搭乗員フィルター"
+
+msgid "common/back"
+msgstr "戻る"
+
+msgid "common/close"
+msgstr "閉じる"
+
+msgid "common/modifierInline"
+msgstr "{value}倍"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "イベントへ"
+
+msgid "common/toRewardPath"
+msgstr "進捗画面へ"
+
+msgid "common/yes"
+msgstr "了解!"
+
+msgid "difficult/daily"
+msgstr "「解読キー」ミッションがアンロック"
+
+msgid "difficult/disabled/body"
+msgstr "小隊に所属中です。難易度を変更できるのは指揮官のみとなっています。"
+
+msgid "difficult/disabled/header"
+msgstr "難易度は変更不可"
+
+msgid "difficult/level_1"
+msgstr "ノーマル"
+
+msgid "difficult/level_2"
+msgstr "ハード"
+
+msgid "difficult/level_3"
+msgstr "ナイトメア"
+
+msgid "difficult/new"
+msgstr "NEW"
+
+msgid "difficult/searching/body"
+msgstr "検索中は利用できません。"
+
+msgid "difficult/tooltip/description/level1"
+msgstr "敵の車輌HPが低く装甲も薄い分、1戦あたりに手に入る「データ」の量は標準的です。"
+
+msgid "difficult/tooltip/description/level2"
+msgstr "敵の装甲が分厚くなる分、戦闘ごとに獲得できる「データ」が{{modifier}}に増加します。"
+
+msgid "difficult/tooltip/description/level3"
+msgstr "敵の数が増加し、装甲も分厚くなる分、戦闘ごとに獲得できる「データ」が{{modifier}}に増加します。"
+
+msgid "difficult/tooltip/description/reward"
+msgstr "最終ウェーブの初撃破報酬"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "難易度「ノーマル」"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "難易度「ハード」"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "難易度「ナイトメア」"
+
+msgid "difficult/tooltip/locked"
+msgstr "難易度がロック中"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "難易度「ノーマル」を達成するとこちらの難易度がアンロックされます。"
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "難易度「ハード」を達成するとこちらの難易度がアンロックされます。"
+
+msgid "difficult/tooltip/state/default"
+msgstr "こちらの難易度に挑戦可能"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "こちらの難易度を選択中"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "撃破したウェーブ: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "ノーマル"
+
+msgid "difficult/uppercase/level_2"
+msgstr "ハード"
+
+msgid "difficult/uppercase/level_3"
+msgstr "ナイトメア"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "敵の装甲が分厚くなる分、戦闘ごとに獲得できるクレジットと「データ」が{{modifier}}倍に増加します。"
+
+msgid "difficultyWindow/description/level_3"
+msgstr "敵の数が増加し、装甲も分厚くなる分、戦闘ごとに獲得できるクレジットと「データ」が{{modifier}}倍に増加します。"
+
+msgid "difficultyWindow/description/level_4"
+msgstr "次々に襲い来る敵のウェーブを殲滅し、ランキング上位を目指します。上位にランクインすることで特別な報酬を手に入れることができます。"
+
+msgid "difficultyWindow/header/level_2"
+msgstr "難易度「ハード」"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "難易度「ナイトメア」"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "〈ラスト・スタンド〉モード"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "ハード"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "ナイトメア"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "〈ラスト・スタンド〉"
+
+msgid "difficultyWindow/rewards"
+msgstr "達成報酬"
+
+msgid "difficultyWindow/title"
+msgstr "選択可能"
+
+msgid "hangar/exit"
+msgstr "イベントを終了"
+
+msgid "hangar/narration"
+msgstr "ストーリー"
+
+msgid "hangar/tooltip/about"
+msgstr "イベント「〈ラスト・スタンド〉テラ・ノール」の詳細を確認できます。"
+
+msgid "hangar/tooltip/narration"
+msgstr "イベントのストーリーの詳細を確認できます。"
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "タクティカル・デバイス"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "装備"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "ラスト・スタンド"
+
+msgid "iconButton/comparison/default"
+msgstr "性能比較"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "性能比較は利用不可"
+
+msgid "iconButton/preview/default"
+msgstr "車輌プレビュー"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "車輌プレビューは表示不可"
+
+msgid "keyCard/name"
+msgstr "解読キー"
+
+msgid "meta/btn/decrypt"
+msgstr "解読"
+
+msgid "meta/btn/skip"
+msgstr "スキップ"
+
+msgid "meta/btn/view"
+msgstr "表示"
+
+msgid "meta/receive/description"
+msgstr "暗号レコードの\n解読に必要な\n解読キー%(keys) / %(decrypt) %(icon)"
+
+msgid "metaIntro/description/fight"
+msgstr "イベントの戦闘に参加して「データ」を集めると、ステージを進めることができます。"
+
+msgid "metaIntro/description/progress"
+msgstr "集めた「データ」は車輌のアップグレードの研究に使用できます。アップグレードは、高難易度の戦闘で役立ちます。"
+
+msgid "metaIntro/description/reward"
+msgstr "進捗ステージを達成すると、イベント報酬を受け取ることができます。報酬のラインナップは「報酬ルート」でご確認いただけます。"
+
+msgid "metaIntro/header/fight"
+msgstr "任務の遂行"
+
+msgid "metaIntro/header/progress"
+msgstr "アップグレード"
+
+msgid "metaIntro/header/reward"
+msgstr "特別な報酬"
+
+msgid "metaIntro/title"
+msgstr "専用の進捗システム"
+
+msgid "missionWidget/complete"
+msgstr "ミッション達成済み\n明日またご確認ください"
+
+msgid "missionWidget/tooltipBody"
+msgstr "デイリーミッションを達成することで報酬が手に入ります。新しいデイリーミッションは24時間ごとに届きます。今日のミッションは以下の通りです。"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "デイリーミッション"
+
+msgid "narration/actions/voiceover"
+msgstr "音声"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}最高機密{{/}}{{titleParagraph}}{{@ class $highlightText}}セクター: N-07 (「オーロラ」外周){{/}}{{pargraphStart}}我々の予測は正しかった。ステーションの観測員は、あの出来事の11日前に超常物質の接近を記録した。初めて、我々は予見に成功したのだ。{{pargraphStart}}事が起きるまでの嵐の前の静けさを使って、《ATLAS》施設の量産化が進められた。新しいモジュールはより迅速に組み立てられ、より正確に調整される。我々は訓練を行い、陣形を確認し、予備の部隊を準備した。完全な警戒態勢だ。{{pargraphStart}}しかし、結局のところ《超常物質》の考えを完全に読むことはできなかった。{{pargraphStart}} 《ファンネル》は予測されたセクターでは開かなかった。やつらが現れたのはここだった。周りに何もない北部地域。こちらが準備した防衛設備から遠く離れている。なぜこの場所が選ばれたのかは不明だ。予測モデルのどこにもこの地域は示されていなかった。緊急の再配置が直ちに開始されたが、地形と距離は我々に味方してくれない。一部の車輌と部隊は到着が遅れるだろう。{{pargraphStart}}我々がなんとか量産した《ATLAS》施設のすべてが、今や不可欠なものとなっている。{{pargraphStart}}今回、我々は戦闘の準備はできていた。しかし、それは別の場所での戦闘のための準備だった。{{pargraphStart}}署名: キュレーター (プロジェクトM)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}分析メモ27/C「侵略地点の選定」{{/}}{{titleParagraph}}内部使用のみ。「閲覧制限」{{pargraphStart}}私は自問する。本来は私自身が答える義務がある問いだ。だがその答えは分からない。「なぜ、ここなのか?」{{pargraphStart}}この地域には《ファンネル》にとって戦略的価値はない。ここには何もない。インフラも、集落もない。島には稼働していない軍事基地があるだけだ。《エコー車輌》は海を渡れない。では、なぜ攻撃拠点になりえない場所を占領するのか?{{pargraphStart}}私はこの地域の完全な利用記録を送るよう本部に申請した。送られてきたのは肝心なセクションが黒塗りされた文書だった。2度目の申請は、「{{@ class $highlightSecondaryText}}[データ削除済み]{{/}}の権限により閲覧が制限されている」というメモとともに送り返された。私はこの研究部門の責任者だ。我々の提言によって、このセクターの防衛戦略が決まると言っても過言ではない。その私が、この地域に関する情報の閲覧を拒否されているのだ!{{pargraphStart}}現場のデータから推測できることはこうだ。《ファンネル》の行動は、セクターR-22で観測したものとは一致しない。我々がこれまで遭遇したことのない新しい種類の《エコー車輌》が出現した。それらは機能的に我々の長距離駆逐戦車に相当し、この種の地形で非常に効果的だ。敵は我々の戦術から学び、対抗策を講じてきた。今度は我々が適応する番だ。{{pargraphStart}}もしかしたら、この場所が必要なのかもしれない。あるいは、その地下にあるものが。{{pargraphStart}}私には分からない。私が心配なのは、それを誰かが知っているにもかかわらず、口を開かないことだ。{{pargraphStart}}署名: キュレーター (プロジェクトM)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}キュレーターの私的記録{{/}}{{pargraphStart}}私は自身の仮説を再検討した。3つすべてだ。{{pargraphStart}}  1. 《超常物質》は我々を滅亡させようとしている。{{pargraphStart}}  2. 《超常物質》は実験している。我々の戦術を研究し、我々の反応を調査し、それに対応し、学習している。{{pargraphStart}}  3. 《超常物質》は訓練している。各ウェーブは新しい戦術の訓練であり、各戦闘は実地訓練である。{{pargraphStart}}3つの仮説はすべて、この侵略の標的は我々であるという仮定の下になりたっている。{{pargraphStart}}しかし、もしそうでなかったら?{{pargraphStart}}もし《超常物質》がなにか別のことをしていて、単に我々はその過程で、影響を受けているだけだとしたら? 言ってみれば、道路を建設する過程で、水浸しにされた蟻の巣のようなものだ。建設業者は蟻に戦争を仕掛けているのではない。ただ、そこに蟻がいることに気がつかないだけだ。{{pargraphStart}}こちらを滅亡させようとしてくる敵を止めることはできる。彼らと交渉することもできる。しかし、こちらの存在を認識していないものを怖がらせることはできないし、出し抜くこともできない。それは止められない。なぜなら、こちらの存在は決してその計算の一部ではなかったからだ。{{pargraphStart}}我々は間違った問いを立てていたのだと思う。なぜ我々を攻撃するのかではなく、そもそも我々に気づいているのかどうかを問うべきなのだ。{{pargraphStart}}署名: キュレーター (プロジェクトM)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}最終報告書{{/}}{{titleParagraph}}{{@ class $highlightText}}ステータス: 機密解除 (一部){{/}}{{pargraphStart}}03:47、《ファンネル》は崩壊した。《超常物質》の活動は停止。セクターの安全が確認された。{{pargraphStart}}崩壊直前の最後の数秒間、《ATLAS》の計測器は、これまでに記録されたすべての値を上回るエネルギーの急増を記録した。搭乗員は超常空間の中心で短時間の物理的な顕現を観測したが、それは12秒以上は続かなかった。その後、《ファンネル》は閉じた。{{pargraphStart}}公式声明: 事件は終結した。領域は首尾よく防衛された。セクターの隔離は解除された。{{pargraphStart}}{{@ class $highlightText}}キュレーターの私的メモ (特別予備軍のみ閲覧可){{/}}{{pargraphStart}}奴らが去ったのは、我々が勝ったからではない。奴らがここでの目的を終えたからだ。{{pargraphStart}}これは侵略ではなかった。隠れ蓑だ。《ファンネル》の中心で崩壊の数秒前に現れたものの周りの防御線だった。{{pargraphStart}}数十の「Obelisk」が同時に出現した。我々はまだ彼らが何をしていたのか知らない。《ATLAS》はすべての数値を記録したが、解釈には時間がかかるだろう。ほぼ確実なことが1つある。《超常物質》は何らかのプロセスを完了したということだ。{{pargraphStart}}それが何をしていたにせよ、我々は次の攻撃に備える必要がある。我々には今、十分なデータがある。技術者たちはすでに記録を調べており、正直なところ、彼らがこれほど興奮しているのを見たことがない。彼らは我々の車輌を大幅に強化できると考えている。《ファンネル》が戻る前にやらなければ。{{pargraphStart}}頭から離れないことが1つある。もしここで起きたことが、これほど短い時間で終わったのなら、いったいこれまでに何回起こったのだろうか? 《ATLAS》がなく、誰も見ていない場所で……。{{pargraphStart}}署名: キュレーター (プロジェクトM)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. 準備はできていた"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. なぜ、ここなのか?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. 間違った問い"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. 目的を終えた"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "難易度「ノーマル」を達成すると、次のストーリーに進むことができます。"
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "難易度「ハード」を達成すると、次のストーリーに進むことができます。"
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "難易度「ナイトメア」を達成すると、最後のストーリーに進むことができます。"
+
+msgid "narration/tooltips/nextStory"
+msgstr "次のストーリー"
+
+msgid "preBattle/leave"
+msgstr "待機を中止"
+
+msgid "preBattle/searching"
+msgstr "味方を検索中…"
+
+msgid "preBattle/tip"
+msgstr "マッチングに時間がかかる場合は難易度の変更をお試しください。"
+
+msgid "preBattle/uppercase/leave"
+msgstr "待機を中止"
+
+msgid "promoWindow/header"
+msgstr "〈ラスト・スタンド〉"
+
+msgid "promoWindow/subheader"
+msgstr "PvEモード〈ラスト・スタンド〉の新章が{dateRange}に開幕!\n本イベントをテーマにした{cream_open}3D付属品{cream_close}のほか、試作拡張パーツやその他の限定報酬を獲得できます。"
+
+msgid "questCard/allCompleted"
+msgstr "全デイリーミッションを達成済み"
+
+msgid "questCard/completed"
+msgstr "本日のデイリーミッションは達成済みです。\n明日またご確認ください。"
+
+msgid "reward/rest"
+msgstr "非表示の報酬: %(count)s"
+
+msgid "rewardPath/about"
+msgstr "作戦目標について"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "イベント進捗の詳細を確認できます。"
+
+msgid "rewardPath/boostTitle"
+msgstr "ミッションを達成したり、ショップで専用パックを購入することでも「データ」を入手できます。{icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "ショップで表示"
+
+msgid "rewardPath/completed"
+msgstr "すべての「データ」と報酬を獲得済み"
+
+msgid "rewardPath/completedTitle"
+msgstr "ショップではイベントのテーマに沿った限定カスタマイズ要素をご用意しています。"
+
+msgid "rewardPath/intro"
+msgstr "プロローグ"
+
+msgid "rewardPath/introTooltip"
+msgstr "プロローグ動画を視聴できます。"
+
+msgid "rewardPath/progress"
+msgstr "ステージ{artefactIndex}で取得した「データ」: {currentProgress} / {maxProgress}{icon}"
+
+msgid "rewardPath/title"
+msgstr "専用の進捗システム"
+
+msgid "rewardPathCard/completed"
+msgstr "達成済み"
+
+msgid "rewardPathCard/name"
+msgstr "報酬ルート"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}}{{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "イベント\nパック"
+
+msgid "squad/goToAnother/cancel"
+msgstr "キャンセル"
+
+msgid "squad/goToAnother/message"
+msgstr "小隊は解散されます。"
+
+msgid "squad/goToAnother/submit"
+msgstr "脱退"
+
+msgid "squad/goToAnother/title"
+msgstr "イベント「〈ラスト・スタンド〉テラ・ノール」を終了しますか?"
+
+msgid "squad/leave/cancel"
+msgstr "キャンセル"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "小隊は解散されます。"
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "了解！"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "イベント「〈ラスト・スタンド〉テラ・ノール」は終了しました"
+
+msgid "squad/leave/message"
+msgstr "小隊は解散されます。"
+
+msgid "squad/leave/submit"
+msgstr "脱退"
+
+msgid "squad/leave/title"
+msgstr "「〈ラスト・スタンド〉テラ・ノール小隊」から脱退しますか?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "続行"
+
+msgid "squad/leaveDisabled/message"
+msgstr "小隊の一員として出撃準備中です。"
+
+msgid "squad/leaveDisabled/title"
+msgstr "脱退不可"
+
+msgid "stageReward/rewards/received"
+msgstr "他に受け取った報酬"
+
+msgid "stageReward/special/header"
+msgstr "難易度「ナイトメア」達成!"
+
+msgid "stageReward/special/subheader"
+msgstr "特別報酬を入手"
+
+msgid "stageReward/stage/header"
+msgstr "報酬を入手"
+
+msgid "stageReward/stage/subheader"
+msgstr "〈ラスト・スタンド〉ステージ{{number}}を達成!"
+
+msgid "stageReward/stageFinal/header"
+msgstr "全報酬獲得済み"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "〈ラスト・スタンド〉最終ステージ達成"

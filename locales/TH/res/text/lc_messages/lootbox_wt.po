@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "เหลือกล่องชิ้นส่วนอีก %(count) อัน"
+msgstr[1] "เหลือกล่องชิ้นส่วนอีก %(count) อัน"
+msgstr[2] "เหลือกล่องชิ้นส่วนอีก %(count) อัน"
+
+msgid "awardViews/footer/backButton/"
+msgstr "กลับไปยังกล่องชิ้นส่วน"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "เมื่อเปิด กล่องชิ้นส่วนเหล่านี้อาจจะมอบพาหนะพิเศษ, สกุลเงินในเกมและสิ่งของมีค่าอื่นๆให้"
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "กล่องชิ้นส่วนย้อนแย้งสามารถหาได้จากร้านค้าในเกมหรือร้านค้าพิเศษ"
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "กล่องชิ้นส่วนย้อนแย้ง"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "กล่องชิ้นส่วนย้อนแย้ง"
+
+msgid "common/getButton/lowerCase"
+msgstr "ไปยังกล่องชิ้นส่วน"
+
+msgid "common/getButton/upperCase"
+msgstr "ไปยังกล่องชิ้นส่วน"
+
+msgid "common/loader"
+msgstr "กำลังเปิดกล่องชิ้นส่วน"
+
+msgid "common/statistics/emptyHeader"
+msgstr "เปิดกล่องชิ้นส่วนเพื่อดูสถิติ"
+
+msgid "common/statistics/header"
+msgstr "เปิดกล่องชิ้นส่วนแล้ว: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "ข้อมูลทั้งหมดของกล่องชิ้นส่วนที่เปิดจะถูกลบออกไป"
+
+msgid "entryPoint/boxes"
+msgstr "ไปยังกล่องชิ้นส่วน"
+
+msgid "entryPoint/tooltip/description"
+msgstr "เหล่านี้คือกล่องชิ้นส่วนพิเศษที่ประกอบด้วยสิ่งของใหม่ที่เป็นเอกลักษณ์รวมไปถึงพาหนะพิเศษ, องค์ประกอบปรับแต่ง, สกุลเงินในเกมและรางวัลมีค่าอื่นๆ\nกล่องชิ้นส่วนเหล่านี้สามารถหาได้จากร้านค้าในเกมหรือร้านค้าพิเศษ"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "กล่องชิ้นส่วนไม่สามารถเปิดหรือหาได้ในขณะนี้เนื่องด้วยเหตุทางเทคนิค ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "กล่องชิ้นส่วนไม่มีให้ชั่วคราว"
+
+msgid "eventName/lowerCase"
+msgstr "ทำลายความย้อนแย้ง"
+
+msgid "eventName/upperCase"
+msgstr "ทำลายความย้อนแย้ง"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "รางวัลรับประกันในกล่องชิ้นส่วนถัดไป!"
+
+msgid "guaranteedTitle/text"
+msgstr "กล่องชิ้นส่วนจำนวนสูงสุดก่อนที่จะได้รับรางวัลรับประกัน: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "ถ้าคุณไม่เปิดกล่องชิ้นส่วนก่อนที่กิจกรรมจบลง ก็จะทำการเปิดกล่องโดยอัตโนมัติ"
+
+msgid "infoPage/footer/description/compensation"
+msgstr "ถ้าคุณมีพาหนะทั้งหมดจากรายการสิ่งของที่เป็นไปได้ของกล่องชิ้นส่วนแล้ว พาหนะคันต่อๆไปที่คุณได้รับจากกล่องชิ้นส่วนจะได้รับการชดเชยเป็นทองในจำนวนเต็มราคาของพาหนะนั้นๆ"
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "ทุกๆ %(guaranteed0)s กล่องชิ้นส่วนจะรับประกันว่าจะมีพาหนะพิเศษให้หนึ่งคัน ถ้าคุณเปิดกล่องโดยไม่ได้รับพาหนะดังกล่าว ก็จะมีการมอบพาหนะที่คุณยังไม่ได้มีครอบครองอยู่เมื่อคุณเปิดกล่องชิ้นส่วนที่ %(guaranteed0)s และเมื่อได้รับแล้วตัวนับก็จะเริ่มนับใหม่อีกครั้ง"
+
+msgid "infoPage/header/description"
+msgstr "เปิดกล่องชิ้นส่วนดังกล่าวเพื่อโอกาสในการได้รับสิ่งของที่มีค่าในเกมกัน! มาดูรายละเอียดกันได้ที่ด้านล่าง"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "จาก %(name) (เปิดกล่องชิ้นส่วนไป %(boxesCount) กล่อง)"
+
+msgid "noBoxesView/description/"
+msgstr "ถ้าคุณไม่มีกล่องชิ้นส่วนใดๆ คุณสามารถซื้อได้\nจากร้านค้าในเกมหรือร้านค้าพิเศษ"
+
+msgid "preview/backLabel"
+msgstr "ไปยังกล่องชิ้นส่วน"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "มีกล่องชิ้นส่วนให้: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "ไม่มีกล่องชิ้นส่วนให้"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "ถ้าคุณได้รับพาหนะทั้งหมดจากรายการเนื้อหากล่องชิ้นส่วนที่เป็นไปได้แล้วพาหนะทั้งหมดที่เหลือที่คุณได้รับจากกล่องชิ้นส่วนก็จะทำการชดเชยให้เป็นทองแทน"
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) กล่องชิ้นส่วน"
+msgstr[1] "%(remainingCount) กล่องชิ้นส่วน"
+msgstr[2] "%(remainingCount) กล่องชิ้นส่วน"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "รางวัลรับประกันเป็นพาหนะจากรายการของสิ่งของกล่องชิ้นส่วนที่เป็นไปได้\nถ้าคุณเปิด %(remainingCount) กล่องชิ้นส่วนโดยไม่ได้รับหนึ่งในพาหนะดังกล่าว มันจะมอบให้เมื่อคุณเปิดกล่องชิ้นส่วนที่ %(count) และเมื่อได้รับพาหนะดังกล่าว ตัวนับจะถูกตั้งใหม่อีกครั้ง"

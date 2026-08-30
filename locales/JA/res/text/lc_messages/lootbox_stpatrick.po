@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "チェスト画面に戻る"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "エメラルド・チェスト"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "エメラルド・チェスト"
+
+msgid "common/getButton/lowerCase"
+msgstr "チェストを入手"
+
+msgid "common/getButton/upperCase"
+msgstr "チェストを入手"
+
+msgid "common/loader"
+msgstr "チェストを開封中……"
+
+msgid "common/statistics/emptyHeader"
+msgstr "チェストを開封して統計を確認"
+
+msgid "common/statistics/header"
+msgstr "開封したチェスト: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "開封したチェストについてのすべての情報が削除されます。"
+
+msgid "entryPoint/boxes"
+msgstr "チェスト画面へ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "プレミアム車輌、3D付属品、クレジット、その他の貴重なゲーム内アイテムがドロップする特別なチェストです。\nゲーム内ショップで入手できます。"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "技術的な理由により、一時的にチェストの開封および購入ができなくなっています。 ご不便をおかけして申し訳ございません。"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "チェストは一時的に利用不可"
+
+msgid "eventName/lowerCase"
+msgstr "グローリー・グリーン"
+
+msgid "eventName/upperCase"
+msgstr "グローリー・グリーン"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "チェストをもう1箱開封すると確約報酬が手に入ります!"
+
+msgid "guaranteedTitle/text"
+msgstr "確約報酬のドロップに必要な開封数: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "未開封のチェストは、イベント終了時に自動的に開封されます。"
+
+msgid "infoPage/footer/description/compensation"
+msgstr "チェストからドロップしうる車輌をすべて所有済みの状態で車輌がドロップした場合、補償として車輌価格の全額に相当するゴールドを受け取ります。"
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "チェストを%(guaranteed0)s箱開封すると、Tier VIII～IX車輌が必ず1輌はドロップするようになっています。\nもしチェストを開封してもTier VIII～IX車輌がドロップしなかった場合、%(guaranteed0)s箱目のチェストを開封すると、\nガレージに未所有のTier VIII～IX車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
+
+msgid "infoPage/header/description"
+msgstr "チェストからは貴重なゲーム内アイテムの数々がドロップします。詳細は下記よりご確認ください。"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "%(name)からドロップ (%(boxesCount)箱開封)"
+
+msgid "noBoxesView/description/"
+msgstr "チェストがありません。\nゲーム内ショップで入手できます。"
+
+msgid "preview/backLabel"
+msgstr "チェスト画面へ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "所有中のチェスト: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "チェストなし"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "チェストからドロップしうる車輌をすべて所有済みの状態で車輌がドロップした場合、補償としてゴールドを受け取ります。"
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount)箱"
+msgstr[1] "%(remainingCount)箱"
+msgstr[2] "%(remainingCount)箱"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "「確約報酬」とは、チェストからドロップする報酬のリストの中にある車輌のいずれか1輌のことを指します。\nもしチェストを%(remainingCount)開けてもリストにある車輌がドロップしなかった場合、%(count)箱目から必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"

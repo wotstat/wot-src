@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "Cho phép bắn sê-ri đạn từ băng magazine từng viên một, với mỗi vòng tự động nạp lại theo thời gian."
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "Cho phép bắn sê-ri đạn từ băng magazine từng viên một, với mỗi vòng tự động nạp lại theo thời gian. Cung cấp Bonus cho tốc độ nạp viên tiếp theo trong khi reload."
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "Bắn cả tràng liên thanh dồn sát thương mạnh, đổi lại xuyên kém và dễ lệch. Cận chiến là hiệu quả nhất."
+
+msgid "abilities/common/description/damageMutable"
+msgstr "Bắn đạn mâm hình sao, sát thương cao nhất trong bán kính 50 m. Xa hơn thì yếu dần, cận chiến chuẩn bài."
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "Hệ thống làm mát đặc biệt cho cơ chế ngắm kép: Nạp xong chờ tí, chính xác hơn hẳn. Chuẩn hơn sẽ có vòng ngắm nhỏ xíu hiện lên."
+
+msgid "abilities/common/description/dualGun"
+msgstr "Hệ thống súng đôi, bắn riêng hay bắn kép đều được. Cả loạt sát thương khủng, nhưng nạp đạn lâu hơn hẳn!"
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "Cho phép thân xe thay đổi góc nâng, tạo cơ hội bắn từ nhiều vị trí hơn trong trận. Kích hoạt tùy nhiều điều kiện khác nhau."
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "Dời bánh phụ, tăng tốc cực cao – đổi lại, lẹt đẹt khi đánh lái. Hợp để chạy xa, ập vào như trộm chó."
+
+msgid "abilities/common/description/magazineGun"
+msgstr "Cho phép bắn sê-ri đạn từ băng magazine, sau đó cần reload toàn bộ. Sốc sát thương cao, nhưng khiến xe như cá nằm trên thớt trong khi nạp lại. Chỉ có thể nạp cả băng cùng một lúc."
+
+msgid "abilities/common/description/overheatGun"
+msgstr "Súng này có thể bắn liên thanh mà không phải dừng chờ nạp viên tiếp theo. Tuy nhiên, mỗi phát đều sinh nhiệt: Càng nóng sẽ càng thay đổi thông số. Khai hỏa lâu khiến nòng quá nóng, không thể bắn cho đến khi nguội."
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "Bật lên là máy gào, tốc chạy xé gió – phóng hơn ma đuổi! Nhưng lái khó như say rượu, đã bật là khỏi tắt thủ công."
+
+msgid "abilities/common/description/siegeMode"
+msgstr "Khi được kích hoạt, cơ chế đặc biệt này làm tăng và/hoặc thay đổi một số đặc tính chiến đấu cụ thể. Tốt nhất nên kích hoạt nếu đã vào vị trí và sẵn sàng nghênh chiến."
+
+msgid "abilities/common/description/stun"
+msgstr "Nổ gần làm địch choáng, không trúng vẫn ngáo, xe chạy chậm, bắn lệch, nạp lâu. Bị choáng sẽ hiện biểu tượng – thấy là đấm."
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "Cho phép xe dù đứt xích vẫn lết tiếp nhưng chậm. Đứt thêm cái bên ngoài nữa càng làm giảm tốc độ, nhưng xoay với nhích vẫn được."
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "Cho phép xe đi nhanh hơn nhiều nhưng giảm đáng kể các thông số vận hành súng."
+
+msgid "abilities/common/description/twinGun"
+msgstr "Khi được kích hoạt, cơ chế đặc biệt này giúp sát thương gấp đôi, cũng như tăng và/hoặc thay đổi một số đặc tính chiến đấu cụ thể. Tốt nhất nên dùng cận chiến."
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "Tái nạp tự động"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "Tái nạp tự động cải tiến"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "Autocannon"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "Súng rãnh xoắn sâu"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "Súng nguội"
+
+msgid "abilities/common/name/dualGun"
+msgstr "Súng đôi"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "Hệ giảm xóc thủy–khí"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "Chế độ siêu nhanh"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "Hệ thống nạp tự động"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "Autocannon Kiểm Thermal Overheat"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "Áp phản lực"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "Chế độ tác xạ"
+
+msgid "abilities/common/name/stun"
+msgstr "Choáng"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "Xích phụ"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "Chế độ tăng áp"
+
+msgid "abilities/common/name/twinGun"
+msgstr "Chế độ bắn song song"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "Bằng cách đứng yên hoặc di chuyển chậm, bạn dần xây dựng các mức chính xác để cải thiện phát bắn tiếp theo.\nỞ mức chính xác cao nhất, súng vận hành mượt, phân tán thấp ngay cả khi di chuyển hoặc xoay tháp pháo/thân xe."
+
+msgid "abilities/special/description/battleFury"
+msgstr "Mỗi lần trúng địch bằng một viên đạn, bạn sẽ nhận một mức hiệu quả tái nạp, giúp tạm thời tăng tốc reload cho súng. Các mức độ sẽ cộng dồn theo từng phát trúng. \nDiệt xe địch bằng đạn sẽ cho thêm mức hiệu quả tái nạp."
+
+msgid "abilities/special/description/chargeShot"
+msgstr "Nếu súng đã được nạp, bạn có thể bắt đầu làm nóng phát tiếp theo để tăng sát thương—mức nhiệt càng cao, hiệu quả càng lớn.\nỞ mức nhiệt cao nhất, sẽ có vài giây để bóp cò—nếu không, bạn sẽ tạm thời không thể bắn."
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "Đạt hai phát trúng-xuyên giáp xe địch kích hoạt cơ chế Burst, nạp một Cassette cho phép giải phóng hai viên nhanh liên tiếp với phát tiếp theo để gây thiệt hại cực lớn."
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "Gyro cân bằng khí nén giúp ổn định tối đa khi di chuyển, xoay thân và tháp pháo, cho phép bắn chính xác hơn, phản ứng nhanh trước mối đe dọa bất ngờ, giao chiến hiệu quả từ chỗ nấp."
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "Hệ thống tự động bắt đầu nạp Cassette mới khi còn một viên trong băng hiện tại, giúp sẵn sàng nghênh chiến. Bạn vẫn có thể bắn viên cuối trong quá trình này, nhưng làm vậy sẽ tăng thêm vài giây tái nạp."
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "Hệ thống giúp súng luôn mát, cho phép bắn chính xác cao. Khi khai hỏa, súng sẽ nóng lên, nhưng bắt đầu được làm nguội và trở lại thông số tối ưu trong lúc nạp đạn. Nhiệt độ càng cao, súng càng thay đổi vài thông số."
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "Dựa trên kinh nghiệm thiết kế từ các mẫu trước đó, chiếc xe này được cấu hình Đặc biệt cho các cuộc tấn công đâm chết người. Các gia cố cấu trúc cho phép nó gây ra nhiều thiệt hại hơn khi đâm vào xe đối phương, mang lại lợi thế trong cận chiến."
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "Súng của xe này có thể bắn sớm: Các phát sạc đơn, khai hỏa trong khi nạp lại, có hiệu quả kém hơn; ngược lại, các phát sạc đầy tiêu chuẩn, được bắn sau lúc nạp xong, có tham số đạn đạo tối ưu."
+
+msgid "abilities/special/description/overheatGun"
+msgstr "Súng này có thể bắn liên thanh mà không phải dừng chờ nạp viên tiếp theo. Tuy nhiên, mỗi phát đều sinh nhiệt: Càng nóng sẽ càng thay đổi thông số. Khai hỏa lâu khiến nòng quá nóng, không thể bắn cho đến khi nguội."
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "Đứng yên hoặc di chuyển chậm để tích nhiệt làm nóng, tăng sát thương và độ chính xác cho phát tiếp theo. Ở mức làm nóng cao nhất, xuyên kẻ địch ít HP hơn sát thương trung bình của bạn sẽ gây nổ gác đạn, phá hủy phương tiện."
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "Cơ chế này biến xe của bạn thành ụ súng kiên cố, chính xác vượt trội và nạp đạn nhanh hơn. Đổi lại, sự cơ động—tốc độ tiến/lùi và xoay ngang/dọc—bị hạn chế nghiêm trọng."
+
+msgid "abilities/special/description/powerMode"
+msgstr "Cơ chế này đẩy mạnh công suất động cơ và tốc độ tiến tối đa. Càng lái về trước lâu, tốc độ càng tích lũy, giúp đi mây về gió trên trận địa."
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "Hệ thống tích lũy điện tích theo thời gian; mức sạc càng cao, sát thương cộng thêm càng lớn. Điện tích bị giới hạn bởi một bộ limiter, có thể tắt đi để tăng Bonus sát thương lớn hơn, nhưng đánh đổi bằng độ mượt khi vận hành súng."
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "Kích hoạt Booster nhiên liệu lỏng bất cứ lúc nào để bứt tốc khi cần nhất. Bộ áp sẽ nóng lên và phải để nguội trước khi dùng tiếp, còn nếu quá tới hạn nhiệt thì xác định — tạm tắt luôn."
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "Các khối cấp lực đẩy (Thruster) nhiên liệu rắn, tăng (Boost) khả năng bứt tốc, linh hoạt và điều động của xe trong vài giây. Hai Thruster trái–phải có thể hoạt động độc lập, cho phép xoay thân nhanh hơn và không hạn chế khả năng lùi."
+
+msgid "abilities/special/description/stanceDance"
+msgstr "Tùy cơ chế đang tác dụng và mức sạc, xe có thể kích hoạt một trong hai khả năng: \nAfterburner phóng ion: Tăng công suất máy và tốc độ. \nSight cơ-điện Coincidence: Giảm phân tán và thời gian nạp đạn, tăng chính xác."
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "Module này giúp bạn luôn sẵn sàng nghênh chiến bằng cách cho phép gián đoạn quá trình tái nạp bất cứ lúc nào nếu còn ít nhất một viên đã lên nòng. Bấm phím tắt tương ứng để làm thế, chờ tí, bắn, rồi trở lại nạp thủ công hoặc kệ cho băng tự nạp khi hết đạn."
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "Bấm phím kích hoạt để bắn vũ khí phụ vào mục tiêu. Hỏa lực bổ trợ này có chu kỳ nạp riêng, độc lập với súng chính."
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "Phát tiếp theo sẽ áp dụng một hiệu ứng dựa trên trạng thái lộ hình của địch. Bắn trúng đối phương đã bị phát hiện sẽ đánh dấu nó—lộ hình lâu hơn, ăn đòn thấm hơn. Bắn trúng kẻ thù chưa bị phát hiện: Làm nổi vị trí của nó bằng chỉ báo đặc biệt."
+
+msgid "abilities/special/description/twinGun"
+msgstr "Gấp đôi sát thương, bắn đầm tay, đổi lại ì ạch, lệch tâm, xoay pháo rùa bò, ngắm lâu như nghỉ Tết. Hợp cận chiến, xồ vào!"
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "Sửa đổi cơ khí này nâng đáng kể khả năng tăng tốc, công suất động cơ và tốc độ tiến/lùi tối đa trong khoảng thời gian ngắn, cho phép phản ứng nhanh, khiến đối thủ bất ngờ bằng những pha cơ động linh hoạt."
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "Device tính đạn đạo Analog"
+
+msgid "abilities/special/name/battleFury"
+msgstr "Ammo Rack bán-tự động"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "Overcharge đạn đạo Thermo"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "Cơ chế Burst"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "Gyro cân bằng khí nén"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "Hệ thống Nạp Cassette"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "Nguội súng Active"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "Cấu hình Đâm/húc"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "System Sạc Multi-Pack"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "Autocannon Kiểm Thermal Overheat"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "System nhiệt đẩy"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "Cơ chế lô-cốt"
+
+msgid "abilities/special/name/powerMode"
+msgstr "Direct Drive"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "Afterburner Cảm ứng Propellant"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "Booster nhiên liệu lỏng"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "Thruster Rốckét Sequential"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "Bộ nguồn Tactical"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "Module tiếp đạn External"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "Vũ khí Phụ"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "Laser Chốt Mục tiêu"
+
+msgid "abilities/special/name/twinGun"
+msgstr "Cơ chế Bắn Song song"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "Assist Áp High-Pressure"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "Tăng chính xác cho phát kế tiếp, ổn định tốt khi full chuẩn."
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "Mỗi phát trúng xe địch sẽ tăng tốc độ nạp đạn vào súng trong một khoảng thời gian nhất định."
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "Tích nhiệt lên để cú bắn sau thấm đau hơn."
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "Cassette bắn Burst cho phép xả hai viên liền nhau cực nhanh."
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "Tối đa hóa ổn định khi di chuyển và xoay, giúp bắn chuẩn hơn."
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "Tự động tái nạp ở viên cuối, vốn vẫn có thể bắn trong lúc đang nạp."
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "Một hệ thống làm mát chủ động, giúp cải thiện độ chính xác khi súng nguội dần."
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "Tăng thiệt hại đâm/húc gây ra cho xe địch."
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "Một cơ chế súng đặc biệt cho phép bắn sớm hơn, cái giá là hỏa lực hiệu quả kém đi."
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "Hệ thống cho phép bắn liên thanh mà không cần chờ nạp đạn và kiểm soát cách súng sinh nhiệt khi khai hỏa."
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "Đứng yên hoặc đi chậm giúp tăng sát thương và độ chính xác cho phát bắn kế tiếp."
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "Tăng mạnh chính xác và tốc độ nạp đạn, nhưng giảm đáng kể khả năng cơ động."
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "Tăng công suất động cơ, tích lũy tốc độ tối đa khi xe di chuyển càng lâu."
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "Hệ thống tích tụ năng lượng để tăng sát thương. Mức sạc càng cao, sát thương càng lớn."
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "Các bộ áp Booster có thể kích hoạt bất cứ lúc nào để đột ngột bứt tốc."
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "Các khối cấp lực đẩy (Thruster) nhiên liệu rắn, tăng (Boost) khả năng bứt tốc, linh hoạt và điều động."
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "Sạc một trong hai khả năng đặc biệt: Tăng tốc độ hoặc cải thiện chính xác cho súng."
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "Cho phép gián đoạn quá trình tái nạp và bắn trả kịp thời trong những khoảnh khắc quan trọng."
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "Một số vũ khí phụ giúp tăng hỏa lực bên cạnh súng chính."
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "Tăng thời gian địch bị lộ hình và thiệt hại phải chịu, hoặc làm nổi vị trí của nó bằng chỉ báo đặc biệt."
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "Cho phép bắn đồng thời cả hai súng, nhưng thời gian nạp đạn sẽ lâu hơn."
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "Một cơ chế đặc biệt giúp tăng công suất động cơ, khả năng tăng tốc và tốc độ tối đa trong khoảng thời gian ngắn."
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "Đứng yên hoặc chạy chậm dưới một tốc độ nhất định giúp xe của bạn hiệu chỉnh Device tính đạn đạo Analog, tích lũy mức chính xác, khiến phát bắn kế tiếp chuẩn hơn. Vượt quá giới hạn tốc độ sẽ làm tạm dừng quá trình tích lũy cho tới lúc giảm tốc. Ở mức chính xác cao nhất, súng xe gần như ổn định hoàn hảo, phân tán cực thấp khi di chuyển hoặc xoay tháp pháo/thân. Hiệu ứng mất đi lúc khai hỏa."
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "Mỗi lần trúng địch lộ thiên bằng một viên đạn, bạn sẽ nhận một mức hiệu quả tái nạp, giúp tạm thời tăng tốc reload cho súng. Các mức độ sẽ cộng dồn theo từng phát trúng. Diệt xe địch bằng đạn sẽ cho thêm mức hiệu quả tái nạp."
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "Nếu súng đã được nạp, bạn có thể bắt đầu làm nóng phát tiếp theo để tăng sát thương—mức nhiệt càng cao, Bonus cho sát thương trung bình càng lớn. Không thể đổi đạn trong khi làm nóng. Ở mức nhiệt cao nhất, đồng hồ sẽ đếm thời gian để bóp cò—nếu không bắn trước khi nó đếm hết, bạn sẽ tạm thời không thể khai hỏa trong vài giây."
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "Đạt hai phát trúng-xuyên giáp xe địch kích hoạt cơ chế Burst, nạp một Cassette cho phép giải phóng hai viên nhanh liên tiếp với phát tiếp theo."
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "Gyro cân bằng khí nén giúp ổn định tối đa khi di chuyển thân và tháp pháo trong thời gian ngắn, cho phép vừa chạy vừa bắn chính xác hơn, phản ứng nhanh trước mối đe dọa bất ngờ."
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "Hệ thống tự động bắt đầu nạp Cassette mới khi còn một viên trong cái hiện tại. Nếu bắn viên cuối trong lúc đang nạp Cassette mới, thời gian reload sẽ bị kéo thêm vài giây. Bấm phím tắt \"Nạp lại Băng Đạn\" để bỏ hết, chỉ giữ viên cuối. Bấm phím tắt đó hai lần để nạp lại từ đầu một Cassette đã đầy."
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "Hệ thống giúp súng luôn mát, cho phép bắn chính xác cao. Khi khai hỏa, súng sẽ nóng lên, nhưng bắt đầu được làm nguội và trở lại thông số tối ưu trong lúc nạp đạn. Nhiệt độ càng cao, súng càng thay đổi vài thông số."
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "Xe này được cấu hình đặc biệt để đâm/húc, với nhiều cải tiến gây sát thương đâm/húc lớn hơn cho địch."
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "Súng của xe này có thể bắn sớm: Các phát sạc đơn, khai hỏa trong khi nạp lại, có hiệu quả kém hơn; ngược lại, các phát sạc đầy tiêu chuẩn, được bắn sau lúc nạp xong, có tham số đạn đạo tối ưu."
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "Súng này có thể bắn liên thanh mà không phải dừng chờ nạp viên tiếp theo. Tuy nhiên, mỗi phát đều sinh nhiệt: Càng nóng sẽ càng thay đổi thông số. Khai hỏa lâu khiến nòng quá nóng, không thể bắn cho đến khi nguội."
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "Đứng yên hoặc di chuyển chậm để tích nhiệt làm nóng, tăng sát thương và độ chính xác cho phát tiếp theo. Vượt quá giới hạn tốc độ sẽ dần làm giảm Bonus, trong khi việc bắn hoặc đổi đạn sẽ lập tức reset nó. Ở mức làm nóng cao nhất, xuyên giáp xe địch có ít HP hơn sát thương trung bình của bạn—tính cả Bonus làm nóng đã tích lũy—sẽ gây nổ gác đạn, lập tức phá hủy phương tiện đó."
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "Trong cơ chế này, độ chính xác, tốc độ nạp đạn, góc nâng/hạ của súng được tăng đáng kể, nhưng khả năng di chuyển (tốc độ tiến/lùi và dịch thân ngang/dọc) bị giới hạn nghiêm trọng. Các giá trị phần trăm được đưa ra để so với chế độ Tác xạ."
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "Cơ chế Direct Drive đẩy mạnh công suất động cơ và tốc độ tiến tối đa. Càng lái về trước lâu, tốc độ càng tích lũy, giúp đi mây về gió trên trận địa."
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "Theo thời gian, hệ thống tự động tích lũy sạc điện tích, một phần sẽ được tiêu hao để tăng sát thương khi bắn. Sạc càng cao, sát thương cộng thêm càng lớn. Mặc định, hệ thống chỉ lưu trữ điện tích đến một giới hạn nhất định. Tắt giới hạn này cho phép sạc cao hơn nữa, mang lại sát thương cộng thêm lớn hơn nhiều, nhưng làm giảm độ mượt vận hành súng."
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "Booster Nhiên liệu Lỏng cung cấp một lượt tăng công suất động cơ để chiếm ưu thế vị trí trên trận địa—nhưng giới hạn tốc độ lùi và xoay xe. Chúng có thể bật/tắt bất cứ lúc nào, trừ trường hợp đã đạt giới hạn kích hoạt lại. Booster hoạt động sẽ nóng lên và bất khả dụng nếu chưa nguội, nghĩa là không thể dùng liên tục—vượt mức nhiệt tới hạn sẽ tạm thời vô hiệu hóa hoàn toàn. Hãy tính nước đi cẩn thận để không bị úp sọt."
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "Các khối cấp lực đẩy (Thruster) nhiên liệu rắn, tăng (Boost) khả năng bứt tốc, linh hoạt và điều động của xe trong vài giây. Khác với bộ áp phản lực thông thường, hai Thruster trái–phải có thể hoạt động độc lập, cho phép xoay thân nhanh hơn và không hạn chế khả năng lùi. Chúng có thể kích hoạt được nhiều lần trong trận, nhưng cần thời gian hồi phục trước khi dùng tiếp."
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "Tùy cơ chế đang tác dụng và mức sạc, xe có thể kích hoạt một trong hai khả năng: Afterburner phóng ion hoặc Sight cơ-điện Coincidence.\nAfterburner phóng ion tạm thời tăng công suất máy và tốc độ tiến/lùi tối đa. Sight cơ-điện Coincidence tạm thời giảm phân tán khi di chuyển, xoay thân/xoay súng; tăng chính xác; giảm nhẹ thời gian tái nạp."
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "Module tiếp đạn External cho phép gián đoạn quá trình tái nạp và bắt đầu bắn bất cứ lúc nào, miễn là còn một viên lên nòng. Trong lúc reload, tháp pháo cùng các thùng đạn ngoài của xe sẽ bị khóa, tạm thời không thể ngắm hoặc khai hỏa trừ khi ngắt quá trình này."
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "Xe này được trang bị bộ vũ khí phụ có chu trình nạp riêng, độc lập với súng chính, cho phép gây thêm thiệt hại vào thời điểm then chốt."
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "Laser Chốt Mục tiêu thêm hiệu ứng đặc biệt cho phát bắn tiếp theo, áp dụng vào bất kỳ kẻ địch nào ăn đạn. Hiệu ứng tùy thuộc mục tiêu có đang bị phát hiện tại thời điểm trúng hay không. Bắn trúng đối phương đã bị phát hiện sẽ đánh dấu nó—lộ hình lâu hơn, ăn đòn thấm hơn; bắn trúng kẻ thù chưa bị phát hiện: Làm nổi vị trí của nó bằng chỉ báo đặc biệt."
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "Gấp đôi sát thương, bắn đầm tay, đổi lại ì ạch, lệch tâm, xoay pháo rùa bò, ngắm lâu như nghỉ Tết. Hợp cận chiến, xồ vào!"
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "Sửa đổi cơ khí này nâng đáng kể khả năng tăng tốc, công suất động cơ và tốc độ tiến/lùi tối đa trong khoảng thời gian ngắn, cho phép phản ứng nhanh, khiến đối thủ bất ngờ bằng những pha cơ động linh hoạt. Giữ tốc độ cao sẽ tăng tốc hồi phục cơ chế."
+
+msgid "characteristics/abilities/special/notes"
+msgstr "Mọi giá trị được hiển thị là cao nhất có thể đối với xe. Ứng dụng kỹ thuật, thiết bị và vật phẩm có thể ảnh hưởng đến chúng nhưng sẽ không hiện ở đây."
+
+msgid "characteristics/templates/upTo"
+msgstr "Lên đến %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "Mua và Lắp"
+
+msgid "modules/controls/button/field_modification"
+msgstr "Biến thể Dã chiến"
+
+msgid "modules/controls/button/mount"
+msgstr "Lắp đặt"
+
+msgid "modules/controls/button/research"
+msgstr "Nghiên cứu"
+
+msgid "modules/controls/button/sell"
+msgstr "Bán từ Kho"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "Xe này đang trong trận. Bạn có thể chỉnh mô-đun của nó sau khi trận chiến kết thúc."
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "Xe này bị hỏng. Sửa chữa nó để có thể chỉnh mô-đun."
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "Không thể gắn mô-đun. {{module}} không tương thích."
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "Xe này đang trong đơn vị tác chiến."
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "Mua xe này để có thể chỉnh các mô-đun của nó."
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "Nghiên cứu các mô-đun trước để có thể nghiên cứu mô-đun này."
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "Nghiên cứu xe này để có thể nghiên cứu các mô-đun của nó."
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "Tất cả mô-đun đã được nghiên cứu."
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "Mô-đun này đã được lắp rồi."
+
+msgid "modules/controls/descriptor/researched"
+msgstr "Chọn một mô-đun hoặc xe để nghiên cứu."
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "Xe này đang trong trận. Bạn có thể chỉnh mô-đun của nó sau khi trận chiến kết thúc."
+
+msgid "modules/controls/name"
+msgstr "Đã chọn: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr ", "
+
+msgid "modules/name/vehicleChassis"
+msgstr "Khung gầm"
+
+msgid "modules/name/vehicleEngine"
+msgstr "Động cơ"
+
+msgid "modules/name/vehicleGun"
+msgstr "Súng"
+
+msgid "modules/name/vehicleRadio"
+msgstr "Radio"
+
+msgid "modules/name/vehicleTurret"
+msgstr "Tháp pháo"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "Bánh"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "Xe Sưu tập"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "Khả năng kiếm được"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "bạc sau mỗi trận"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "di chuyển kíp lái mà không bị phạt gì"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "XP Chiến đấu và XP Kíp lái"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "Trái phiếu"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "Thêm"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "Miễn phí"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "Thêm"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "Kiếm Trái phiếu"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "Thêm bạc"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "Chuyển tự do"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "Thêm XP"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "Bộ Sửa chữa miễn phí"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "Khả năng kiếm"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "bạc sau mỗi trận"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "di chuyển kíp lái giữa mọi loại xe mà không bị phạt gì"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "XP Chiến đấu và XP Kíp lái"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "Trái phiếu"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "Thêm"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "Miễn phí"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "Thêm"
+
+msgid "overview/crew/name"
+msgstr "Kíp lái {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "Xem cơ chế"
+
+msgid "overview/title/generalDescription"
+msgstr "Mô tả xe"
+
+msgid "overview/title/historicalReference"
+msgstr "Tư liệu Lịch sử"
+
+msgid "researchPurchase/discountTimer"
+msgstr "Cho đến {{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "Có thể lấy lại cho đến {{date}}"
+
+msgid "tabs/armor"
+msgstr "Giáp"
+
+msgid "tabs/modules"
+msgstr "Mô-đun"
+
+msgid "tabs/overview"
+msgstr "Tổng quan"
+
+msgid "tabs/stats"
+msgstr "Đặc tính"
+
+msgid "tabs/vehSkillTree"
+msgstr "Nâng cấp"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "Hết thuê"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "Thuê bao hết giá trị"

@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "อัตราโบนัสส่วนตัวจำกัด"
+msgstr[1] "อัตราโบนัสส่วนตัวจำกัด %(index)s"
+msgstr[2] "อัตราโบนัสส่วนตัวจำกัด %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "เกินอย่างน้อยหนึ่งขีดจำกัด ส่วนหนึ่งของการจ่ายจะทำให้ในอัตราโบนัสส่วนตัวถัดไป"
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "อัตราโบนัสส่วนตัวแลกเปลี่ยนฐาน"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "อัตราโบนัสส่วนตัวที่ยอมรับได้ถัดไป"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "จำนวนอัตราโบนัสส่วนตัวที่ใช้ได้: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "จำนวนอัตราโบนัสส่วนตัวทั้งหมด: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "หลังการแลกเปลี่ยน"
+
+msgid "common/cancel"
+msgstr "ยกเลิก"
+
+msgid "common/combinedDiscount"
+msgstr "ส่วนลดรวม"
+
+msgid "common/exchange"
+msgstr "แลกเปลี่ยน"
+
+msgid "common/exchangeRate"
+msgstr "อัตราแลกเปลี่ยน"
+
+msgid "common/limitExceeded"
+msgstr "เกินขีดจำกัดแล้ว อัตราแลกเปลี่ยนจะดำเนินการโดยมีส่วนลดรวม"
+
+msgid "common/limitOverExceeded"
+msgstr "เกินจำกัดแล้ว: จะใช้ส่วนลดร่วมแทน"
+
+msgid "common/limitRestrictions"
+msgstr "อ่านเพิ่มเติม"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "อัตราการแลกเปลี่ยนฐาน: %(rateFrom)s = %(rateTo)s"
+
+msgid "exchange/generalExchangeRate"
+msgstr "อัตราการแลกเปลี่ยนทั่วไป: %(rateFrom)s = %(rateTo)s"
+
+msgid "exchange/information"
+msgstr "ทำการแลกเปลี่ยนทอง %(gold)s แล้ว ได้รับเงิน %(res)s"
+
+msgid "exchange/personalExchangeRate"
+msgstr "อัตราแลกเปลี่ยนส่วนตัว: %(rateFrom)s = %(rateTo)s"
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "อัตราแลกเปลี่ยนส่วนตัว: %(rateFrom)s = %(rateTo)s เกินขีดจำกัดแล้ว"
+
+msgid "exchangeXP/information"
+msgstr "แลกเปลี่ยนประสบการณ์ %(res)s เป็นประสบการณ์อิสระแล้ว ใช้ทองไป: %(gold)s"
+
+msgid "experienceExchange/available"
+msgstr "ประสบการณ์ที่มีให้:"
+
+msgid "experienceExchange/paid"
+msgstr "ใช้ไป"
+
+msgid "experienceExchange/received"
+msgstr "ได้รับ"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "เรียงตามระดับพาหนะ"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "เรียงตามระดับการปรับแต่งภาคสนาม"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "เรียงตามชื่อพาหนะ"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "เรียงตามประเทศ"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "เรียงตามชนิดพาหนะ"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "เรียงตามพาหนะที่เลือกไว้"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "เรียงตามประสบการณ์ที่หาได้"
+
+msgid "goldExchange/paid"
+msgstr "จาก"
+
+msgid "goldExchange/received"
+msgstr "ถึง"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s ทอง = %(resourceRate)s เงิน"
+
+msgid "notification/discountDescription/message"
+msgstr "อัตราแลกเปลี่ยนส่วนตัว"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "ไปการแลกเปลี่ยน"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "มีอัตราแลกเปลี่ยนใหม่ให้!"
+
+msgid "tooltip/common/basicRate"
+msgstr "อัตราโบนัสส่วนตัวแลกเปลี่ยนฐาน"
+
+msgid "tooltip/common/generalRate"
+msgstr "อัตราแลกเปลี่ยนทั่วไป"
+
+msgid "tooltip/common/personalRate"
+msgstr "อัตราแลกเปลี่ยนส่วนตัว"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "อัตราแลกเปลี่ยนที่ดี"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "อัตราแลกเปลี่ยนชั่วคราว"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "จำนวนสามารถกำหนดได้ภายหลังจากการซื้อทองเท่านั้น"
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "จำนวนทองหลังจากการแลกเปลี่ยน"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s ทอง = %(resourceRate)s ประสบการณ์อิสระ"

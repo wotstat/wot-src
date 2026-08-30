@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "活动开放%(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — 游戏模式。点击以探索"
+
+msgid "bannerTooltip/description"
+msgstr "特殊PvE模式，让您在当中与一波又一波的敌方势力交战。选择您最爱的战车，摧毁回声坦克，并抵挡敌方攻势。专属奖励与更多丰富内容等着您！"
+
+msgid "bannerTooltip/header"
+msgstr "背水一战：北境大地"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "您电脑的性能不支持此模式。您可能会遇到与画面和战车移动相关的问题，且游戏客户端很可能会崩溃。"
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "此模式需要较高的电脑性能。您可能会遇到与地图加载、画面和战车移动相关的问题。如果性能不足，请尝试在设置中选用较低的图形质量。"
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "低性能"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "性能可能偏低"
+
+msgid "battlePass/playGame"
+msgstr "在背水一战推进活动进度来获得点数（需要VIII级战车）"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "你们已经是好友。"
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "等待好友邀请确认中。"
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "从黑名单中删除此玩家。"
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "添加至好友列表。"
+
+msgid "battleResult/interaction/menu"
+msgstr "点击打开与这名玩家的互动菜单。"
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "添加到小队。"
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "玩家已在小队中。"
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "邀请已发出。"
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "仅小队指挥官可以邀请玩家加入小队。"
+
+msgid "booster/activated"
+msgstr "已激活"
+
+msgid "booster/howItWorks"
+msgstr "如何运作"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "冷却：%(cooldownSeconds)s秒"
+
+msgid "consumables/params/usageCost"
+msgstr "需消耗迷离物质：%(cost)s"
+
+msgid "daily/timer/body"
+msgstr "完成每日任务的剩余时间"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "距下个每日任务开放的时间"
+
+msgid "dailyQuests/completed"
+msgstr "已完成"
+
+msgid "dailyQuests/completedAll"
+msgstr "您已完成活动中的所有每日任务。"
+
+msgid "dailyQuests/completedDescr"
+msgstr "您已完成此每日任务。新的任务将于明天开放。"
+
+msgid "dailyQuests/rewards"
+msgstr "奖励："
+
+msgid "dailyQuests/status"
+msgstr "新的每日任务%(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "活动开放%(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "选择一辆可用的战车进入战斗。"
+
+msgid "hangar/startBtn/lock/header"
+msgstr "不开放"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "由于技术原因所选难度/模式的战斗暂时不开放。"
+
+msgid "hangar/startBtn/offline/header"
+msgstr "不开放"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "请等待小队从上一场战斗归来，才能进入新的战斗。"
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "不开放"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "小队与此难度不匹配。"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "不开放"
+
+msgid "points/accrued"
+msgstr "已获得"
+
+msgid "points/battles"
+msgstr "• 参与活动战斗"
+
+msgid "points/body"
+msgstr "数据可用来在“背水一战”推进进度并获取珍贵资源。可通过参与活动战斗、完成每日任务，或购买“{{bundle_name}}”来获取。"
+
+msgid "points/bottom"
+msgstr "活动结束：（%(date)s）"
+
+msgid "points/completeMissionDaily"
+msgstr "• 每天完成新的每日任务"
+
+msgid "points/effective"
+msgstr "• 高效作战："
+
+msgid "points/gold"
+msgstr "• 在商店中购买“{{bundle_name}}”"
+
+msgid "points/header"
+msgstr "数据"
+
+msgid "points/howToEarn"
+msgstr "如何获得"
+
+msgid "points/missionDaily"
+msgstr "• 已完成每日任务："
+
+msgid "points/obelisk"
+msgstr "• 摧毁的方尖体："
+
+msgid "points/vehicleDaily"
+msgstr "• 获得的每日战车奖励："
+
+msgid "rewardPath/info/first"
+msgstr "您可通过完成每日任务来获得更多数据，这些任务会在整个活动期间每日更新。"
+
+msgid "rewardPath/info/header"
+msgstr "额外数据"
+
+msgid "rewardPath/info/second"
+msgstr "特殊礼包，可在商店中购买，当中包含助您加快进度的数据。"
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "战车加成："
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "其他奖励："
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}战车加成{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "所有数据与奖励已获得"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "数据已获得{{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "在战斗中收集数据并用来在“背水一战”推进进度。完成每个阶段都能获取珍贵物品与战车加成作为奖励，助您击败更强大的敌人。"
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "最终阶段"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "当前阶段"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "活动开放{{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "进度"
+
+msgid "shopWidget/body"
+msgstr "点击开启游戏内商店的特殊版块，查看专属活动物品。"
+
+msgid "shopWidget/header"
+msgstr "活动礼包"
+
+msgid "teamList/actions/body"
+msgstr "快速创建小队、添加/移除好友。"
+
+msgid "teamList/actions/header"
+msgstr "快捷操作"
+
+msgid "teamList/damage/body"
+msgstr "按造成伤害排序。"
+
+msgid "teamList/damage/header"
+msgstr "造成伤害"
+
+msgid "teamList/keys/body"
+msgstr "按获得的数据排序。显示的数值不包括完成每日任务或从每日战车奖励获取的额外数据。"
+
+msgid "teamList/keys/header"
+msgstr "数据"
+
+msgid "teamList/kills/body"
+msgstr "按摧毁敌方战车数排序。"
+
+msgid "teamList/kills/header"
+msgstr "摧毁敌方战车"
+
+msgid "teamList/name/header"
+msgstr "玩家名"
+
+msgid "teamList/place/body"
+msgstr "按团队排名排序。"
+
+msgid "teamList/place/header"
+msgstr "团队中的排名"
+
+msgid "teamList/squad/header"
+msgstr "小队是可以让玩家协同作战的作战部队。"
+
+msgid "teamList/vehicle/body"
+msgstr "按战车类型和名称排序。"
+
+msgid "teamList/vehicle/header"
+msgstr "战车"
+
+msgid "teamList/warned/body"
+msgstr "此玩家已因挂机/逃离战场遭惩罚，且在该场战斗中未获得任何奖励。"
+
+msgid "teamList/warned/header"
+msgstr "警告"
+
+msgid "teamList/warned/self/body"
+msgstr "您已因挂机/逃离战场遭惩罚，且在该场战斗中未获得任何奖励。"
+
+msgid "vehicle/lowEfficiency"
+msgstr "低乘员熟练度"
+
+msgid "vehicle/rentState"
+msgstr "未解锁"
+
+msgid "vehicleDaily/header"
+msgstr "每日战车奖励"

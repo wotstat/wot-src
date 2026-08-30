@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "main/backText"
+msgstr "クランの詳細へ"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "ミッションを達成すると、「征戦ポイント」が手に入ります。「征戦ポイント」は新たな「領土」を「開拓」する際に必要となります。"
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "征戦ポイント"
+
+msgid "main/infoPageButtonLabel"
+msgstr "クラン征戦について"
+
+msgid "main/mdash"
+msgstr "—"
+
+msgid "messages/claimRewards/error"
+msgstr "こちらの操作は一時的に実行できません。時間をおいて再度お試しください。"
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "更新"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "操作が一時的にご利用いただけません。"
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "データの読み込み中にエラーが発生"
+
+msgid "progressionPage/header/heading"
+msgstr "クラン征戦"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "クラン征戦は終了しました"
+
+msgid "progressionPage/header/subheading"
+msgstr "「征戦ポイント」は「征戦ミッション」を達成すると取得できます。集めた「征戦ポイント」で新たな「領土」を「開拓」すると、貴重な報酬を入手できます。最後の「領土」を「開拓」すると、報酬としてTier X車輌が1輌手に入ります。"
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "車輌「%(vehicle)s」を受け取りました"
+
+msgid "progressionPage/loading"
+msgstr "コンテンツを読み込み中..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "隣り合った領土を先に開拓してください。"
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "この領土は開拓済みです"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "報酬取得:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "隣り合った領土を先に開拓してください。"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "領土を開拓できません"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "データの読み込み中にエラーが発生"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "領土を開拓"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "領土を開拓するには、征戦ポイントがあと%(value)sポイント必要です。"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "領土を開拓できません"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "隣り合った領土を先に開拓してください。"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "領土を開拓できません"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "報酬を入手"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "コンテンツを読み込み中..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "報酬の追加を待っています…"
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "更新"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "領土開拓の報酬"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "報酬を入手！"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "プレビュー"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "更新"
+
+msgid "questsPage/errorScreen/description"
+msgstr "操作が一時的にご利用いただけません。"
+
+msgid "questsPage/errorScreen/heading"
+msgstr "データの読み込み中にエラーが発生"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "報酬を入手"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "クラン自動検索へ"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "ミッションを達成して報酬を受け取るためには、クランに加入している必要があります。"
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "ミッションの進捗が一時停止しています。報酬を受け取ると再開できます: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "征戦ミッション"
+
+msgid "questsPage/header/subheading"
+msgstr "ミッションを達成すると報酬を入手できます。ふたつ目以降のミッションはクランメンバーが参加している小隊または分遣隊でしか達成できません。"
+
+msgid "questsPage/loading"
+msgstr "コンテンツを読み込み中..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "小隊の一員として、Tier VIII～XI車輌で1戦中に{whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close}以上の基本EXPを取得、または分遣隊の一員として戦闘に勝利する。"
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Tier VI～XI車輌で1戦中に{whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close}以上の基本EXPを取得、または分遣隊の一員として戦闘に勝利する。"
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "小隊の一員として、Tier VIII～XI車輌で1戦中に{whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close}輌の敵車輌を撃破、または分遣隊の一員として戦闘に勝利する。"
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Tier VI～XI車輌で1戦中に{whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close}輌の敵車輌を撃破、または分遣隊の一員として戦闘に勝利する。"
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "小隊の一員として、Tier VIII～XI車輌で1戦中に{whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close}HP以上のダメージを与えるかアシストする、または分遣隊の一員として戦闘に勝利する。"
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "Tier VI～XI車輌で1戦中に{whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close}HP以上のダメージを与えるかアシストする、または分遣隊の一員として戦闘に勝利する。"
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "工業資源"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "征戦ポイント"
+
+msgid "questsPage/questCard/status/available"
+msgstr "報酬を受け取ることができます"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "報酬を入手"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "受け取り不可"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "報酬は間もなくアカウントに追加されます。"
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "前のミッションの達成報酬を受け取ってください。"
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "前のミッションを達成してください。"
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "ミッション挑戦不可"
+
+msgid "questsPage/timer/dash"
+msgstr "—"
+
+msgid "questsPage/timer/heading"
+msgstr "「征戦ポイント」収集残り時間"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "ミッションを達成すると、「征戦ポイント」が手に入ります。「征戦ポイント」は新たな「領土」を「開拓」する際に必要となります。"
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "征戦ポイント"
+
+msgid "rewardsView/additionalRewards"
+msgstr "他に受け取った報酬"
+
+msgid "rewardsView/button/close"
+msgstr "閉じる"
+
+msgid "rewardsView/button/confirm"
+msgstr "了解！"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "ガレージで表示"
+
+msgid "rewardsView/heading"
+msgstr "報酬を入手！"
+
+msgid "rewardsView/style/317"
+msgstr "2Dスタイル「業火」"
+
+msgid "rewardsView/style/345"
+msgstr "2Dスタイル「予言者」"
+
+msgid "rewardsView/style/435"
+msgstr "2Dスタイル「審判」"
+
+msgid "rewardsView/style/436"
+msgstr "2Dスタイル「邪神」"
+
+msgid "rewardsView/subheading"
+msgstr "クラン征戦"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "クラン征戦の進捗"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "征戦ミッションの進捗"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "クラン征戦"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "征戦ミッション"

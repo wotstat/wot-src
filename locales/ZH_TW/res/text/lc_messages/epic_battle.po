@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "管理儲備"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "點擊以選擇可用的戰鬥儲備。"
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "炸彈數"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "彈著區"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "震盪"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "部署"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "地雷數"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "地雷區持續時間"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "震盪"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "傷害半徑"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "持續時間"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "砲彈"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "冷卻時間"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "部署"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "持續時間"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "恢復血量數"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "啟用後立即恢復的血量數"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "降低來自地雷的傷害"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "補給環內的血量恢復速度加成"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "乘員表現"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "持續時間"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "調適時間"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "效果半徑"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "您車輛的乘員表現"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "增強防護"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "佔領獎勵"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "補給環刷新"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "彈藥補給速度"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "抵達時間"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "彈著區"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 公尺"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "偵察持續時間"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "降低乘員表現"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "煙霧彈數"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "彈著區"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "持續時間"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "降低敵方車輛的可視範圍"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "降低樹葉後敵方車輛的隱蔽性"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "降低移動中敵方車輛的隱蔽性"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "持續時間"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "靜止車輛的隱蔽性加成"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "可視範圍的被動加成"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "儲備等級"
+
+msgid "abilityInfo/properties/static"
+msgstr "永久特性"
+
+msgid "abilityInfo/units/meter"
+msgstr "公尺"
+
+msgid "abilityInfo/units/seconds"
+msgstr "秒"
+
+msgid "advance_message_txt"
+msgstr "往前線推進"
+
+msgid "advance_mission_txt"
+msgstr "往前線推進"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "情境詳情"
+
+msgid "awards/acceptButton"
+msgstr "了解！"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "已獲得獎勵"
+
+msgid "awards/subTitle2"
+msgstr "已獲得獎勵"
+
+msgid "awards/title"
+msgstr "前線"
+
+msgid "base/contested_atk"
+msgstr "爭奪中"
+
+msgid "base/contested_def"
+msgstr "遭受攻擊"
+
+msgid "battleResults/armor"
+msgstr "裝甲使用"
+
+msgid "battleResults/assistance"
+msgstr "協助"
+
+msgid "battleResults/crits"
+msgstr "嚴重傷害"
+
+msgid "battleResults/damage"
+msgstr "傷害"
+
+msgid "battleResults/kill"
+msgstr "被擊毀"
+
+msgid "battleResults/spotting"
+msgstr "偵察"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1 個人儲備：%(effectValue)s 乘員經驗，持續 %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1 個人儲備：%(effectValue)s 自由經驗，持續 %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1 個人儲備：%(effectValue)s 戰鬥經驗，持續 %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "摧毀目標 %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "防守目標 %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "注意地點！"
+
+msgid "command_shortcut/title"
+msgstr "指令"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "前線阻塞──已達到玩家上限"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "危險區域"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "前線阻塞──已達到車輛類型上限"
+
+msgid "dialogs/quotedName"
+msgstr "「%(name)s」"
+
+msgid "dialogs/title/buy/item"
+msgstr "要購買%(name)s%(type)s？"
+
+msgid "dialogs/title/buy/items"
+msgstr "要購買%(type)s？"
+
+msgid "dialogs/title/install/item"
+msgstr "要開啟%(name)s%(type)s？"
+
+msgid "dialogs/title/install/items"
+msgstr "要開啟%(type)s？"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "累積所需數量的點數，就能啟用前線的戰鬥儲備。"
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "累積所需數量的點數，就能啟用前線的戰鬥儲備。"
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "戰鬥儲備點數"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "於第二條防線（D、E 或 F）佔領/失去任何據點後，將會解鎖 %(level)s車輛。"
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "%(lvl)s 階"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "選擇 VIII 階車輛以加入前線模式。"
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "不相容的車輛"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "獲得"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "最高"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "戰鬥儲備"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "車長等級"
+
+msgid "epictraining/info/otherLabel"
+msgstr "未分配的玩家：%(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "攻擊者 ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "防守者 ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "所有敵方車輛都被擊毀"
+
+msgid "game/all_hqs_destroyed"
+msgstr "所有目標都被摧毀"
+
+msgid "game/all_tanks_defeated"
+msgstr "所有我方車輛都被擊毀"
+
+msgid "game/defeat"
+msgstr "戰敗！"
+
+msgid "game/draw"
+msgstr "平手！"
+
+msgid "game/time_over"
+msgstr "目標存活"
+
+msgid "game/victory"
+msgstr "勝利！"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "摧毀目標！"
+
+msgid "global_msg/atk/time_short"
+msgstr "佔領區域！"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "防守目標！"
+
+msgid "global_msg/def/time_short"
+msgstr "防守區域！"
+
+msgid "global_msg/lane/center_short"
+msgstr "增援%(strArg1)s！"
+
+msgid "global_msg/lane/east_short"
+msgstr "增援%(strArg1)s！"
+
+msgid "global_msg/lane/west_short"
+msgstr "增援%(strArg1)s！"
+
+msgid "global_msg/save_tanks_short"
+msgstr "救救您的戰車！"
+
+msgid "help_window/communication"
+msgstr "通訊區"
+
+msgid "help_window/communication/description"
+msgstr "只有當隊友或命令目標位於小地圖可見區域時，您才能收到命令。"
+
+msgid "help_window/overview_map"
+msgstr "總覽地圖"
+
+msgid "help_window/overview_map/description"
+msgstr "總覽地圖可用來獲取整個戰場的戰術和戰略概況。打開總覽地圖時，可接收整個團隊的通訊且能發送訊息。"
+
+msgid "help_window/recovery"
+msgstr "回收"
+
+msgid "help_window/recovery/description"
+msgstr "回收是為了讓卡在地形上的車輛能自我摧毀而推出。因為增加戰鬥持續時間及重生可能才能促使玩家不停地交戰，所以這個機制是必需的。"
+
+msgid "help_window/reserves"
+msgstr "車輛預備隊"
+
+msgid "help_window/reserves/description"
+msgstr "每隔幾分鐘就會有一輛車加入您的預備隊。預備隊最多可容納兩輛車。沒有剩餘車輛時，您就無法進行部署並且需要等待新的車輛抵達。"
+
+msgid "hq/under_attack_atk"
+msgstr "遭受攻擊"
+
+msgid "hq/under_attack_def"
+msgstr "遭受攻擊"
+
+msgid "in_game_rank/experience_text"
+msgstr "經驗"
+
+msgid "lane_central_name"
+msgstr "中部"
+
+msgid "lane_east_name"
+msgstr "東部"
+
+msgid "lane_west_name"
+msgstr "西部"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "等級 %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "無法獲得：您沒有戰鬥儲備點數。"
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "戰鬥儲備已達到最高等級。"
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "無法升級：您沒有戰鬥儲備點數。"
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "未購買戰鬥儲備"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "在戰鬥中達到「上尉」與「少校」軍階後，會提升戰鬥儲備等級。可達到的最高等級取決於戰鬥情境。"
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "購買費用：%(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "主要目標"
+
+msgid "mission/title"
+msgstr "任務"
+
+msgid "mission/zone_closing_atk"
+msgstr "區域開放： "
+
+msgid "mission/zone_closing_def"
+msgstr "敵人轟炸： "
+
+msgid "missions/primary/atk/base"
+msgstr "佔領區域"
+
+msgid "missions/primary/atk/hq"
+msgstr "摧毀目標"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(toDestroy)s 之 %(positiveOpen)s%(destroyed)s%(positiveClose)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "摧毀的目標數："
+
+msgid "missions/primary/atk/longdescription"
+msgstr "佔領各區域以抵達主要目標。摧毀主要目標。"
+
+msgid "missions/primary/def/base"
+msgstr "防守區域"
+
+msgid "missions/primary/def/hq"
+msgstr "防守目標"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(toDestroy)s 之 %(negativeOpen)s%(destroyed)s%(negativeClose)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "失去的目標數："
+
+msgid "missions/primary/def/longdescription"
+msgstr "防守主要目標直到時間結束或擊毀所有攻擊者。"
+
+msgid "missions/unlockTankLevel"
+msgstr "IX 階車輛可用"
+
+msgid "overtime/label"
+msgstr "加時"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "無法同時啟用兩個相同的儲備"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "無法部署地雷區。地雷區重疊。"
+
+msgid "primeTime/applyBtn"
+msgstr "繼續"
+
+msgid "primeTime/cancelBtn"
+msgstr "取消"
+
+msgid "primeTime/continueBtn"
+msgstr "繼續"
+
+msgid "primeTime/endOfCycle"
+msgstr "%(server)s 伺服器上的模式已結束。"
+
+msgid "primeTime/manyServersAvailable"
+msgstr "可用伺服器："
+
+msgid "primeTime/oneServerAvailable"
+msgstr "可用伺服器：%(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "%(server)s 的戰鬥將再持續 %(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "%(server)s 接下來的戰鬥於 %(time)s 後進行"
+
+msgid "primeTime/serverTooltip"
+msgstr "%(server)s 伺服器\n戰鬥將再持續 %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "戰鬥將於 %(time)s 後可用"
+
+msgid "primeTime/servers"
+msgstr "可用伺服器：%(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "%(server)s 伺服器上的戰鬥已結束"
+
+msgid "primeTime/status/disable"
+msgstr "您可以切換到前線伺服器來繼續戰前準備。"
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "此模式不適用於%(server)s伺服器"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "%(server)s 伺服器已實施休戰，直到 %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "所有伺服器都已實施休戰"
+
+msgid "primeTime/status/thisEnable"
+msgstr "在 %(server)s 伺服器上，前線會再持續 %(time)s。"
+
+msgid "primeTime/steelhunter/title"
+msgstr "大逃殺"
+
+msgid "primeTime/title"
+msgstr "前線"
+
+msgid "primeTime/titleWelcome"
+msgstr "歡迎來到\n前線"
+
+msgid "progress_timers/active"
+msgstr "啟用"
+
+msgid "progress_timers/fully_equipped"
+msgstr "裝備齊全"
+
+msgid "progress_timers/resupply"
+msgstr "補給環"
+
+msgid "progress_timers/unavailable"
+msgstr "無法使用"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "前線任務"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "少於 1 天"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "達到 %(level)s 階"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "新任務將於 %(time)s 後可用"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "大逃殺任務"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "前線結束於：%(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "無法使用：%(reason)s。"
+
+msgid "rank/allReserveUpgraded"
+msgstr "所有戰鬥儲備的等級已提升"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "隊伍乘員表現加成已提升 +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "達 +%(percent)s%% 時會達到最高乘員表現"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "隊伍乘員表現加成 +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "玩家"
+
+msgid "rank/promotion"
+msgstr "晉升為%(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "士兵"
+
+msgid "rank/rank2"
+msgstr "中士"
+
+msgid "rank/rank3"
+msgstr "中尉"
+
+msgid "rank/rank4"
+msgstr "上尉"
+
+msgid "rank/rank5"
+msgstr "少校"
+
+msgid "rank/rank6"
+msgstr "上將"
+
+msgid "rank/recerveUnlocked"
+msgstr "「%(reserveName)s」戰鬥儲備已解鎖"
+
+msgid "rank/reserveUpgraded"
+msgstr "「%(reserveName)s」戰鬥儲備已改善"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s戰鬥儲備已解鎖"
+
+msgid "rank/slot_2"
+msgstr "第 2 個"
+
+msgid "rank/slot_3"
+msgstr "第 3 個"
+
+msgid "recovery/Blocked"
+msgstr "暫時\n阻塞"
+
+msgid "recovery/disabled"
+msgstr "無法回收"
+
+msgid "recovery_panel/base_text"
+msgstr "按下 J\n來回收"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "只要移動或射擊就會取消。"
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "已取消\n回收"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "已請求\n回收"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "佔領下一座基地"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "增援部隊於 "
+
+msgid "reinforcement/unavailable"
+msgstr "增援部隊無法使用"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s 秒直到自動部署。"
+
+msgid "respawn/deploy_button"
+msgstr "加入戰鬥!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "無法在戰鬥中購買改良型消耗品。"
+
+msgid "respawn/shop_title"
+msgstr "後勤"
+
+msgid "respawn/tanks_left"
+msgstr "剩下車輛"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "選擇車輛與部署地區"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "部署在此地區會危險。"
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s 秒"
+
+msgid "retreat_message_txt"
+msgstr "撤退"
+
+msgid "retreat_mission_txt"
+msgstr "撤退到下一個區域"
+
+msgid "rewardSelection/subTitle"
+msgstr "選擇您的獎勵"
+
+msgid "rewardSelection/title"
+msgstr "前線"
+
+msgid "scorePanel/stage1"
+msgstr "階段 1"
+
+msgid "scorePanel/stage2"
+msgstr "階段 2"
+
+msgid "scorePanel/stage3"
+msgstr "階段 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "您的電腦效能不足以進行這個模式。您可能遇到畫質及車輛移動的問題。遊戲客戶端也很可能會當掉。"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "效能降低"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "在效能不足的情況下，可試著降低設定裡的畫面品質。"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "此模式需要較高的電腦效能"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "此模式需要較高的電腦效能。您可能遇到地圖載入、圖形運算，以及車輛移動的相關問題。在效能不足的情況下，可嘗試在設定降低畫面品質。"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "效能降低"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "%(bodyVehicleLevel)s的 30v30 戰鬥。運用重生機制、戰鬥儲備與補給環。"
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "%(level)s 階車輛"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "%(bodyVehicleLevel)s的 30v30 戰鬥。運用重生機制、戰鬥儲備與戰鬥中修復。"
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "這個模式由於技術性問題而暫時無法使用。"
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "前線"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "戰鬥開始於："
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "戰鬥結束於："
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "戰鬥時間表"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "今天"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "明天"
+
+msgid "skill/category/firesupport"
+msgstr "攻擊儲備"
+
+msgid "skill/category/reconnaissance"
+msgstr "偵察儲備"
+
+msgid "skill/category/tactics"
+msgstr "戰術儲備"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "觀察者模式鏡頭"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "用您的滑鼠來轉動鏡頭。"
+
+msgid "spectator_mode/camera_wasd"
+msgstr "使用 W、A、S、D 鍵在地圖上四處移動鏡頭。"
+
+msgid "spectator_mode/follow_text"
+msgstr "左鍵點擊以啟動跟隨。"
+
+msgid "spectator_mode/follow_title"
+msgstr "跟隨"
+
+msgid "spectator_mode/msg_text"
+msgstr "車輛將抵達於："
+
+msgid "spectator_mode/msg_title"
+msgstr "所有車輛都被擊毀！"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "再點擊一次以停止跟隨。"
+
+msgid "spectator_mode/unfollow_title"
+msgstr "停止跟隨"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s 天"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s 小時"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 分鐘"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s 分鐘"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "受到阻擾"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "快離開區域！"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "正在恢復血量"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "正在恢復血量"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "鼓舞中"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "鼓舞中"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "補給環"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "在煙幕內：已隱藏。"
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "在煙幕內。可視範圍與乘員表現下降。"
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "調適時間。可視範圍與乘員表現尚未恢復。"
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "哨兵已啟用"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "車輛停止移動 %(activationDelay)s 秒後啟用"
+
+msgid "super_platoon_panel/title"
+msgstr "裝甲排"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "— 隊伍中有一名「上將」的隊伍乘員表現總加成。"
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "所有前線"
+
+msgid "tab_screen/show_my_lane"
+msgstr "我的前線"
+
+msgid "team1Name"
+msgstr "攻擊者"
+
+msgid "team2Name"
+msgstr "防守者"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "為已完成的前線階級選擇獎勵（%(number)s 個）。"
+
+msgid "tooltips/common/disabled"
+msgstr "模式無法使用"
+
+msgid "tooltips/common/title"
+msgstr "前線"
+
+msgid "tooltips/end"
+msgstr "活動已結束"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "解鎖戰鬥儲備的順序取決於車輛類型。一開始會有一個戰鬥儲備可用，其他則會在達到「中士」與「中尉」軍階後依序解鎖。"
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "解鎖：%(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "在<font color='#E9E2BF'>命運交錯</font>情境中，購買戰鬥儲備，將讓該儲備提升一個等級，且有機會提升到等級 <font color='#E9E2BF'>IV</font>。"
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "在<font color='#E9E2BF'>命運交錯</font>情境中，將戰鬥儲備放入此欄位中，將讓其出現的機率提高 <font color='#E9E2BF'>10%</font>。"
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "在戰鬥中解鎖與改善儲備"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "可按照車輛類型與達到的軍階在戰鬥中解鎖與升級戰鬥儲備。"
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "驅逐戰車的儲備配置"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "自走炮的儲備配置"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "重型戰車的儲備配置"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "輕型戰車的儲備配置"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "中型戰車的儲備配置"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "在解鎖所有戰鬥儲備後，若再達到新軍階，這些戰鬥儲備就會獲得升級。首個解鎖的戰鬥儲備可升級到等級 III，第二個解鎖的戰鬥儲備則可升級到等級 II。"
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "改善：%(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "欄位將在達到「%(rank)s」軍階後解鎖。"
+
+msgid "tooltips/timeToEnd"
+msgstr "模式剩餘時間：%(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "戰鬥將開始於：%(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "活動已結束"
+
+msgid "tooltips/widget/level"
+msgstr "階級 %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "已達到最高階級。"
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "戰鬥儲備"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "所有伺服器都已實施休戰。戰鬥將於 %(time)s後可進行"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "戰鬥將開始"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "選擇其它伺服器"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "詳情"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "「前線」模式已結束。"
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "前線情境"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "此伺服器已實施休戰。戰鬥將於 %(time)s後可進行"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "%(serverName)s 已實施休戰"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "戰鬥將開始於：%(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "點擊以深入了解前線情境\n及各情境之間的差異。"
+
+msgid "zone/arrived_text"
+msgstr "已抵達！"
+
+msgid "zone/capture_text"
+msgstr "佔領"
+
+msgid "zone/captured_text"
+msgstr "已佔領"
+
+msgid "zone/defend_text"
+msgstr "防守"
+
+msgid "zone/destroy_text"
+msgstr "摧毀"
+
+msgid "zone/destroyed_text"
+msgstr "被擊毀"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "敵方增援部隊"
+
+msgid "zone/headquarters_text"
+msgstr "目標"
+
+msgid "zone/leave_zone"
+msgstr "離開區域！"
+
+msgid "zone/lost_text"
+msgstr "已失去"
+
+msgid "zone/reached_text"
+msgstr "已抵達"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "敵方增援部隊："
+
+msgid "zone/reinforcement_timer_def"
+msgstr "增援部隊："
+
+msgid "zone/reinforcements_text"
+msgstr "增援部隊"
+
+msgid "zone/time_added"
+msgstr "增加時間：%(minutes)s"
+
+msgid "zone/time_left"
+msgstr "剩餘 %(minutes)s 分鐘"
+
+msgid "zone/zone_text"
+msgstr "區域"

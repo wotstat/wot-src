@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT 번역가 <noreply@wargaming.net>\nLanguage-Team: WoT 팀 <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "계단 현상 완화"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "게임 화면 내 사물 윤곽선 처리 품질을 설정합니다. 계단 현상을 최소화합니다.\n\n• 높음—FXAA\n• 최고—계단 현상 완화 (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "동적 렌더링 설정"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "비디오 카드 사용량에 따른 3D 렌더링 해상도 자동 조정 사용 여부를 설정합니다.\n\n해당 설정을 활성화하면 게임 성능이 향상됩니다. 차고 내 랜더링 해상도는 항상 동일하게 유지됩니다."
+
+msgid "EFFECTS_QUALITY"
+msgstr "추가 효과 품질"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "도탄, 폭발, 연기 등 추가 효과 발생 시 불꽃 시각 효과 품질을 설정합니다.\n\n품질을 낮추면 게임 성능이 향상됩니다."
+
+msgid "FAR_PLANE"
+msgstr "시야"
+
+msgid "FAR_PLANE/description"
+msgstr "기복 지형, 건물, 적 전차 등 기타 게임 사물의 거리 표시 품질을 설정합니다."
+
+msgid "FLORA_QUALITY"
+msgstr "식물 밀도"
+
+msgid "FLORA_QUALITY/description"
+msgstr "3인칭 시점 및 저격 시점에서 표시되는 식물 밀도를 설정합니다."
+
+msgid "HAVOK_ENABLED"
+msgstr "파괴 물리 효과 향상"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "끄기"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "켜기"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "게임 사물 파괴 처리가 더욱 세밀하고 현실적으로 향상됩니다.\n\n해당 설정을 끄면 게임 성능이 향상됩니다."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "현재 전투에서 비활성화한 설정은 다음 전투부터 적용됩니다."
+
+msgid "LANGUAGE_CODE"
+msgstr "ko"
+
+msgid "LIGHTING_QUALITY"
+msgstr "광원 품질"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "태양광, 광원, 광학 효과 품질을 조절합니다.\n\n품질을 높이면 비디오 카드에 무리가 갈 수 있습니다."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "모션 블러 효과"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "전차가 이동하고 카메라가 회전할 때 모션 블러 효과의 품질을 설정합니다."
+
+msgid "MSAA_QUALITY"
+msgstr "계단 현상 완화"
+
+msgid "MSAA_QUALITY/description"
+msgstr "게임 화면 내 사물 윤곽선 처리 품질을 설정합니다. 계단 현상을 최소화합니다.\n\n• 낮음—MSAA 2x\n• 중간—MSAA 4x\n• 높음—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "사물 표현"
+
+msgid "OBJECT_LOD/description"
+msgstr "표시되는 사물 수와 품질을 설정합니다."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "후처리"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "아지랑이 효과, 충격파 효과, 색수차, 비네트 효과, 필름 그레인 효과 등 기타 후처리 시각 효과 품질을 설정합니다.\n\n품질을 낮추면 게임 성능이 향상됩니다."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "그래픽"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "간소: 일부 시각 효과의 품질 설정을 제한하여 게임 성능을 최적화합니다.\n\n향상: 이미지 품질을 최고로 설정할 수 있습니다."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "그래픽:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "해당 설정을 변경하면 게임을 다시 시작해야 합니다."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "저격 모드 중 수풀 밀도"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "저격 모드에서 주변 나무와 덤불 표시를 설정합니다.\n\n사용하지 않으면 저격 모드에서 주변 나무와 덤불이 모두 표시되지 않으며 게임 성능이 향상됩니다."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "쉐이더 버전"
+
+msgid "SHADOWS_QUALITY"
+msgstr "그림자 품질"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "시야에 들어오는 동적 그림자 품질을 설정합니다.\n\n품질을 낮추면 게임 성능이 크게 향상됩니다."
+
+msgid "SMOKE_ENABLED"
+msgstr "연기"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "저격 모드 중 추가 효과"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "도탄, 불꽃, 폭발, 연기 등 저격 모드의 기타 실사 효과 품질을 설정합니다.\n\n품질을 낮추면 게임 성능이 향상됩니다."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "저격 모드 중 수풀 표현"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "저격 모드에서 수풀을 표시합니다.\n\n해당 설정을 끄면 게임 성능이 향상됩니다."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "저격 모드 지형 테셀레이션"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "저격 모드 사용 시 전차로부터 50m 이내 지형 품질을 향상합니다. 지형 테셀레이션 설정을 활성화해야 사용할 수 있습니다.\n\n해당 설정을 끄면 게임 성능이 향상됩니다."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "식물 품질"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "나무, 수풀, 덤불 묘사 품질을 설정합니다."
+
+msgid "TERRAIN_QUALITY"
+msgstr "지형 품질"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "지도의 기복 지형 거리 품질을 설정합니다.\n\n풍경 품질 최소 설정은 컴퓨터 성능이 떨어질 때만 사용하십시오.\n\n품질을 낮추면 클라이언트와 서버 간 환경 표시 동기화가 해제될 수도 있습니다."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "설정을 적용하려면 다소 시간이 걸릴 수 있습니다."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "지형 테셀레이션"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "메시 세부 묘사를 향상할 수 있도록 삼각형을 폴리곤 메시에 추가하는 하드웨어 가속 처리 작업입니다.\n\n사용 조건\n• 향상 그래픽 설정\n• 높음, 최고, 울트라 지형 품질\n• DirectX 11 설치\n\n해당 설정은 DirectX 11 이전 버전에서는 사용할 수 없습니다.\n\n해당 설정을 끄면 게임 성능이 향상됩니다."
+
+msgid "TEXTURE_QUALITY"
+msgstr "사물 질감 품질"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "게임 내 사물의 세부 묘사 품질입니다.\n\n품질을 낮추면 게임 성능이 향상됩니다."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "설정을 적용하려면 다소 시간이 걸릴 수 있습니다."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "궤도 물리 효과"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "파괴된 궤도와 작동 중인 궤도 등 궤도 관련 물리 효과 품질을 결정합니다.\n\n해당 설정을 낮추거나 끄면 게임 성능이 향상됩니다."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "궤도 및 차륜 효과 활성화"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "전차가 지날 때 흙먼지, 눈 날림, 물보라를 표시합니다.\n\n설정을 끄면 게임 성능이 향상됩니다."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "궤도 및 차륜 자국 활성화"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "지면에 궤도 및 차륜 자국을 표시합니다.\n\n간소 그래픽 설정, 낮음 데칼 품질에서는 이용할 수 없습니다."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "저격 모드에서 3D 부착물 숨기기"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "저격 모드에서 조준원 주변에 표시되는 전차의 3D 부착물을 임시로 숨깁니다.\n\n시각적 혼잡이 줄어들고 조준 정확도가 향상됩니다."
+
+msgid "WATER_QUALITY"
+msgstr "수면 품질"
+
+msgid "WATER_QUALITY/description"
+msgstr "수면 품질을 설정합니다."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "약점만"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "장갑 구분색 활성화 시 표적 장갑의 약점만 강조됩니다.\n\n장갑 관통 확률이 높은 부분은 진한 녹색으로, 중간 수준인 부분은 반투명한 녹색으로 표시됩니다. 색약 모드 사용 시 색상이 다르게 표시될 수 있습니다."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "약점만 강조"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "강점만"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "장갑 구분색 활성화 시 표적 장갑의 강점만 강조됩니다.\n\n장갑 관통 확률이 낮거나 없는 부분은 진한 빨간색으로, 중간 수준인 부분은 반투명한 빨간색으로 표시됩니다. 색약 모드 사용 시 색상이 다르게 표시될 수 있습니다."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "강점만 강조"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "모든 장갑"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "장갑 구분색 활성화 시 표적 장갑의 강약점이 모두 강조됩니다.\n\n장갑 관통 확률이 낮거나 없는 부분은 빨간색으로, 높은 부분은 녹색으로, 중간 수준인 부분은 노란색으로 표시됩니다. 색약 모드 사용 시 색상이 다르게 표시될 수 있습니다."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "모든 장갑 강조"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "강조할 장갑"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "전투 시작 시 활성화"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "전투 시작 시 장갑 구분색 활성화 여부를 설정합니다. 장갑 구분색은 지정된 단축키를 눌러 언제든 활성화/비활성화할 수 있습니다.\n\n장갑 구분색은 저격 모드에서만 적용됩니다.\n\n기능 지원 모드\n• 무작위 전투 및 팀 연습 전투\n• 전선 대격돌\n• 아케이드\n• 격전\n• 기타 모드 및 이벤트\n\n추후 지원 모드 및 이벤트가 추가될 수 있습니다."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "전투 시작 시 활성화"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "장갑 구분색 질감"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "진한 색상"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "듬성한 패턴"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "촘촘한 패턴"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "불투명도"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "성능 경고"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "높음"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "낮음"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "중간"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "구분색 해상도"
+
+msgid "aim/cassette"
+msgstr "적재함"
+
+msgid "aim/centralTag"
+msgstr "중앙 조준 표시기"
+
+msgid "aim/centralTag/type0"
+msgstr "A자형 I"
+
+msgid "aim/centralTag/type1"
+msgstr "A자형 II"
+
+msgid "aim/centralTag/type10"
+msgstr "O자형 I"
+
+msgid "aim/centralTag/type11"
+msgstr "O자형 II"
+
+msgid "aim/centralTag/type12"
+msgstr "A자형 IV"
+
+msgid "aim/centralTag/type13"
+msgstr "A자형 V"
+
+msgid "aim/centralTag/type2"
+msgstr "A자형 III"
+
+msgid "aim/centralTag/type3"
+msgstr "V자형"
+
+msgid "aim/centralTag/type4"
+msgstr "십자선 I"
+
+msgid "aim/centralTag/type5"
+msgstr "십자선 II"
+
+msgid "aim/centralTag/type6"
+msgstr "T자형"
+
+msgid "aim/centralTag/type7"
+msgstr "I자형"
+
+msgid "aim/centralTag/type8"
+msgstr "조준점 I"
+
+msgid "aim/centralTag/type9"
+msgstr "조준점 II"
+
+msgid "aim/condition"
+msgstr "상태"
+
+msgid "aim/gunTag"
+msgstr "조준 표시기"
+
+msgid "aim/gunTag/type0"
+msgstr "A자형 I (장갑 관통 표시)"
+
+msgid "aim/gunTag/type1"
+msgstr "A자형 II (장전 표시)"
+
+msgid "aim/gunTag/type10"
+msgstr "O자형 II (장전 표시)"
+
+msgid "aim/gunTag/type11"
+msgstr "O자형 III"
+
+msgid "aim/gunTag/type12"
+msgstr "A자형 IV (장갑 관통 표시)"
+
+msgid "aim/gunTag/type13"
+msgstr "A자형 V (장전 표시)"
+
+msgid "aim/gunTag/type14"
+msgstr "A자형 VI"
+
+msgid "aim/gunTag/type2"
+msgstr "A자형 III"
+
+msgid "aim/gunTag/type3"
+msgstr "십자선 I (장갑 관통 표시)"
+
+msgid "aim/gunTag/type4"
+msgstr "십자선 II (장전 표시)"
+
+msgid "aim/gunTag/type5"
+msgstr "십자선 III"
+
+msgid "aim/gunTag/type6"
+msgstr "조준점 I (장갑 관통 표시)"
+
+msgid "aim/gunTag/type7"
+msgstr "조준점 II (장전 표시)"
+
+msgid "aim/gunTag/type8"
+msgstr "조준점 III"
+
+msgid "aim/gunTag/type9"
+msgstr "O자형 I (장갑 관통 표시)"
+
+msgid "aim/mixing"
+msgstr "조준"
+
+msgid "aim/mixing/type0"
+msgstr "원형 I (장전 시간) "
+
+msgid "aim/mixing/type1"
+msgstr "원형 II (장전 완료 표시)"
+
+msgid "aim/mixing/type2"
+msgstr "원형 III (장전 시간)"
+
+msgid "aim/mixing/type3"
+msgstr "원형 IV (고정)"
+
+msgid "aim/mixing/type4"
+msgstr "십자선 (장전 완료 표시)"
+
+msgid "aim/mixing/type5"
+msgstr "십자선 II"
+
+msgid "aim/mixing/type6"
+msgstr "테스트"
+
+msgid "aim/net"
+msgstr "상황 표시기"
+
+msgid "aim/net/type0"
+msgstr "사선형"
+
+msgid "aim/net/type1"
+msgstr "수평선"
+
+msgid "aim/net/type2"
+msgstr "방사"
+
+msgid "aim/net/type3"
+msgstr "점선"
+
+msgid "aim/reloader"
+msgstr "재장전"
+
+msgid "aim/reloaderTimer"
+msgstr "장전 표시기"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "자주포 시점으로 전환"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "마지막으로 사용된 시점"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "자주포 시점"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "탄도 시점"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "조준 모드 자동 전환"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "마우스 휠을 사용하여 특정 배율 값에 도달하면 \"자주포 시점\" 또는 \"탄도 시점\"으로 전환됩니다."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "조준 모드 자동 전환"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "부드러운 시점 조절"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "사격 정보 표시기 활성화"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "선택한 포탄이 조준 지점에 도달할 수 있는지와 조준 지점까지 도달하는 데 걸리는 시간을 확인할 수 있는 표시기를 활성화합니다."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "사격 정보 표시기"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "시점 배율 표시기 활성화"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "자주포 조준 시점 배율을 확인할 수 있는 표시기를 활성화합니다."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "시점 배율 표시기"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "시점 조작"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "대체"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "일반"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "일반 시점 조작 모드에서는 시점이 상, 하, 좌, 우로 움직이며 대체 시점 조작 모드에서는 자주포를 중심으로 앞, 뒤로 움직입니다."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "시점 조작"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "확대 표시기"
+
+msgid "alternativeVoices/labels"
+msgstr "전투 중 음성 메시지"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "전투 중 음성 메시지"
+
+msgid "apply_button"
+msgstr "적용"
+
+msgid "autodetectButton"
+msgstr "최적화"
+
+msgid "autodetectButton/description"
+msgstr "그래픽 설정을 최적화합니다.\n\n다소 시간이 걸릴 수도 있습니다."
+
+msgid "battlecomm/enableCommendations"
+msgstr "전투 중 칭찬 알림 표시"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "개인 명령 표시"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "팀 목록 내 대화 표시"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "지도 위에 위치 표식 표시"
+
+msgid "battlecomm/showMarkers"
+msgstr "무작위 전투 기지 표식 표시"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "영구 표식 표시"
+
+msgid "borderlessSize"
+msgstr "창 모드(테두리 없음)"
+
+msgid "borderlessSize/description"
+msgstr "창 모드(테두리 없음)"
+
+msgid "cancel_button"
+msgstr "취소"
+
+msgid "chat/censorshipMessages"
+msgstr "대화 시 비속어 감추기"
+
+msgid "chat/chatContactsListOnly"
+msgstr "친구 메시지만 수신"
+
+msgid "chat/disableBattleChat"
+msgstr "아군 대화 비활성화"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "카메라 및 채널 위치 기억"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "카메라 및 창 위치 기억"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "친구가 보낸 초대만 수락"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "클랜 알림 수신"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "친구 요청 허용"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "전투 중 소대 초대"
+
+msgid "chat/removeSpam"
+msgstr "스팸 숨기기"
+
+msgid "chat/showDateMessage"
+msgstr "메시지에 날짜 표시"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "사용자가 접속/접속 종료할 때 알림"
+
+msgid "chat/showTimeMessage"
+msgstr "메시지에 시간 표시"
+
+msgid "colorCorrection"
+msgstr "색상 조정"
+
+msgid "colorCorrectionBtn/label"
+msgstr "변경"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "사용자 설정"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "밝기"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "대비"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "채도"
+
+msgid "colorSettings/tab/default"
+msgstr "기본 설정"
+
+msgid "colorSettings/tab/filters"
+msgstr "사전 설정"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "필터 강도"
+
+msgid "colorSettings/view/after"
+msgstr "변경 후"
+
+msgid "colorSettings/view/before"
+msgstr "변경 전"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "닫기"
+
+msgid "colorSettings/view/description"
+msgstr "이미지 조정 설정값 선택"
+
+msgid "colorSettings/view/header"
+msgstr "색상 조정"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "초기화"
+
+msgid "colorSettings/view/subTitle"
+msgstr "이미지 조정 설정"
+
+msgid "cursor/ArcadeTitle"
+msgstr "3인칭 시점"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "장갑 구분색"
+
+msgid "cursor/ArtyTitle"
+msgstr "자주포"
+
+msgid "cursor/ContourTitle"
+msgstr "윤곽"
+
+msgid "cursor/ServerAim"
+msgstr "서버 조준원 활성화"
+
+msgid "cursor/SnipperTitle"
+msgstr "1인칭 시점"
+
+msgid "cursor/contour/type0"
+msgstr "기본"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "적 전차 조준 시 포탄이 상호 작용하지 않는 장갑 외 요소를 포함한 모든 윤곽이 표시됩니다."
+
+msgid "cursor/contour/type1"
+msgstr "간소화"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "적 전차 조준 시 포탄이 상호 작용하는 장갑 요소만 포함한 윤곽이 표시됩니다."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "관통 불가 부위"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "없음"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "단색"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "무늬"
+
+msgid "cursor/contourLabel"
+msgstr "윤곽 유형"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "관통 가능 부위"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "없음"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "단색"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "무늬"
+
+msgid "cursor/overlapContour"
+msgstr "장애물 랜더링"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "랜더링 활성화 시 성능이 저하될 수 있습니다."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "적 전차 조준 시 포탄과 상호 작용하는 장애물이 표시됩니다.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "장애물 랜더링"
+
+msgid "cursor/overlapContourLabel"
+msgstr "장애물 랜더링"
+
+msgid "cursorTitle"
+msgstr "조준선"
+
+msgid "defaultBtn"
+msgstr "기본값"
+
+msgid "defaultNamePrefix"
+msgstr "플레이어"
+
+msgid "dynamicCamera"
+msgstr "능동 카메라 활성화"
+
+msgid "dynamicFov"
+msgstr "동적 시야각"
+
+msgid "dynamicFov/description"
+msgstr "3인칭 시점 시야각을 상황에 따라 조절합니다.\n\n전차에서 시야가 멀리 떨어져 있을 때에는 최대 시야각을 사용합니다.\n\n전차에서 시야가 가까이 있을 때에는 최소 시야각을 사용합니다."
+
+msgid "dynamicRenderer"
+msgstr "3D 렌더링 해상도"
+
+msgid "dynamicRenderer/description"
+msgstr "게임 화면의 품질 및 세부 묘사를 설정합니다.\n\n전투 중에도 오른쪽 Shift를 누른 상태에서 \"+\"와 \"-\" 단추로 3D 렌더링 해상도를 변경할 수 있습니다. 인터페이스에는 영향을 주지 않습니다.\n\n품질을 낮추면 저사양 컴퓨터의 게임 성능이 향상됩니다."
+
+msgid "edgeDetectAA"
+msgstr "윤곽선 검출 AA"
+
+msgid "feedBack"
+msgstr "전투 알림"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "지도 경계"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "도움 피해(폭발 충격)"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "기지 점령"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "기지 방어"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "장갑 활용"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "화재 유발"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "전차 손상"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "전차 발견"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "적 전차 발견에 의한 도움 피해"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "사격 피해"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "전차 격파"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "충돌 피해"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "도움 피해(궤도 파괴)"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "교전 정보"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "손상 피해"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "받은 피해"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "표시"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "전차 정보"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "충격 피해"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "모든 조건부 능력"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "최근 정보\n3개만 표시"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "전투 기록"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "표시"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "이벤트"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "승무원 능력"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "받은 피해"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "전투 성과"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "받은 피해"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "지도 경계를 숨김 처리하면 전투 중 방향을 혼동할 수 있습니다."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Alt 적용"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "항상 강조"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "강조하지 않음"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "접근 시"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "추가 강조"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "점선"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "표시하지 않음"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "경계 유형"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "벽"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "피격 방향"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "아군 공격"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "피해량"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "장갑 활용"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "손상 피해"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "받은 피해"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "손상 부품"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "정보"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "효과 적용"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "피해량"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "동적 표시"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "전차 정보"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "전투 중 표시"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "전체 표시"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "아군 공격"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "부품 파괴/부상 유발"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "전차 손상 제외"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "고급"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "기본"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "표시 유형"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "피해 기록"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "도움 피해(폭발 충격)"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "장갑 활용"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "도움 피해"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "입힌 피해"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "언제나 표시"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Alt 적용 표시"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "표시하지 않음"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "피해 상세 정보"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "모든 기록 하단 표시"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "받은 피해 상단 표시"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "전투 기록 위치"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "모든 전투 기록"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "전투 기록 유형"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "받은 피해"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "전투 성과"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "저해상도에서는\n권장하지 않습니다."
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "주요 기록"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "피해 상세 정보를 포함한 종합적인 전투 효율을 표시합니다."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "전투 기록"
+
+msgid "feedback/tab/questsProgress"
+msgstr "전투 보고서 및 임무"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "전투 점수"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "임무 세부 정보"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "단계별로 전차 아이콘 표시"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "팀 내구도 막대 표시"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "팀 내구도 차이 표시"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "팀 내구도 수치 표시"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "모두 표시"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "진행 상황만 표시"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "적용"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "표시하지 않음"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "기본"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "임무 표시"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "시야각 (FoV)"
+
+msgid "fov/description"
+msgstr "게임 카메라의 시야각 범위입니다.\n\n일반적인 시야각(FoV) 설정은 95°입니다. 시야각을 줄이면 주변 시야가 감소하고 사물이 더 가깝게 보입니다.\n\n게임 성능에 영향을 주지 않습니다."
+
+msgid "game/anonymizer"
+msgstr "전투 중 닉네임 익명화"
+
+msgid "game/battleLoadingInfo"
+msgstr "전투 불러오기 화면"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "미니맵"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "팀구성"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "도움말"
+
+msgid "game/battlePanelSettings"
+msgstr "전투 화면"
+
+msgid "game/carouselType"
+msgstr "차고 전차 표시"
+
+msgid "game/carouselType/double"
+msgstr "2단"
+
+msgid "game/carouselType/single"
+msgstr "1단"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "차고 슬롯에 마우스를 올려 승률 표시"
+
+msgid "game/commanderCamEnabled"
+msgstr "전술 시점 활성화"
+
+msgid "game/customizationDisplayType"
+msgstr "전투 중 전차 꾸미기 요소 표시"
+
+msgid "game/customizationDisplayType/all"
+msgstr "고증 반영/미반영, 비현실"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "고증"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "고증 반영/미반영"
+
+msgid "game/displayPlatoonMembers"
+msgstr "차고에 소대원 전차 표시"
+
+msgid "game/doubleCarousel/label"
+msgstr "2단 차고 크기"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "일반"
+
+msgid "game/doubleCarouselType/small"
+msgstr "최소"
+
+msgid "game/dynamicCamera"
+msgstr "동적 카메라 활성화"
+
+msgid "game/enableBattleNotifier"
+msgstr "대화창에 이전 전투 결과 표시"
+
+msgid "game/enableMortalPostEffect"
+msgstr "관전 모드에서 전투 종료 효과 활성화"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "저격 모드 중 광학 효과 사용"
+
+msgid "game/enableRepairTimer"
+msgstr "손상된 부품 수리 시간 표시"
+
+msgid "game/enableSpeedometer"
+msgstr "차륜 전차 속력계 표시"
+
+msgid "game/enableVoIP"
+msgstr "음성 대화"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "전투 대화"
+
+msgid "game/fieldset/headerChat"
+msgstr "대화"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "미니맵"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "전차 표식"
+
+msgid "game/hangarCamCheckbox"
+msgstr "마우스 커서 이동 시 차고 카메라 반응"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "차고 카메라 회전 활성화 자리 비움 시간"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "차고 카메라 애니메이션"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "끄기"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30초"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45초"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60초"
+
+msgid "game/horStabilizationSnp"
+msgstr "저격 모드 중 지평선 안정화"
+
+msgid "game/hullLockEnabled"
+msgstr "저격 모드 자동 차체 고정 활성화"
+
+msgid "game/increasedZoom/base"
+msgstr "%(zooms)s 사용"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " 및 "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "게임 실행 시 서버 선택 표시"
+
+msgid "game/minimapDrawRange"
+msgstr "최대 시야 범위 표시"
+
+msgid "game/minimapGroupTitle"
+msgstr "미니맵"
+
+msgid "game/minimapMaxViewRange"
+msgstr "최대 관측 범위 표시"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "근접 관측 범위 표시"
+
+msgid "game/minimapViewRange"
+msgstr "전차 관측 범위 표시"
+
+msgid "game/newbeeTipsTitle"
+msgstr "도움말"
+
+msgid "game/newbieBattleHints"
+msgstr "무작위 전투 내 초보자 도움말 활성화"
+
+msgid "game/newbiePrebattleHints"
+msgstr "전투 불러오기 화면 내 초보자 도움말 활성화"
+
+msgid "game/optimizeGraphics"
+msgstr "인터페이스 그래픽 최적화"
+
+msgid "game/playersPanelState/large"
+msgstr "전체 목록"
+
+msgid "game/playersPanelState/medium"
+msgstr "미디움"
+
+msgid "game/playersPanelState/none"
+msgstr "목록 없음"
+
+msgid "game/playersPanelState/short"
+msgstr "간단 목록"
+
+msgid "game/postmortemMode"
+msgstr "사후 검토 모드"
+
+msgid "game/postmortemMode/analysis"
+msgstr "전차가 파괴된 순간 보기 (세부 정보)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "자신의 전차를 파괴한 적 전차 보기"
+
+msgid "game/postmortemMode/self"
+msgstr "자신의 전차 보기"
+
+msgid "game/postmortemMode/simple"
+msgstr "전차가 파괴된 순간 보기 (요약 정보)"
+
+msgid "game/ppShowLevels"
+msgstr "전차 단계 표시"
+
+msgid "game/ppShowTypes"
+msgstr "전차 종류 표시"
+
+msgid "game/ppStartStateLabel"
+msgstr "유형"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "지휘관 시점 활성화"
+
+msgid "game/replayEnabled"
+msgstr "전투 녹화 활성화"
+
+msgid "game/replayEnabled/all"
+msgstr "전체"
+
+msgid "game/replayEnabled/last"
+msgstr "최근"
+
+msgid "game/replayEnabled/none"
+msgstr "아니요"
+
+msgid "game/showArtyHitOnMap"
+msgstr "자주포 사격 가능 지점 표시"
+
+msgid "game/showDamageIcon"
+msgstr "피해 기록 실패 시 알림 표시"
+
+msgid "game/showDogTag"
+msgstr "인식표 표시"
+
+msgid "game/showDogTagToKiller"
+msgstr "적용한 자신의 맞춤형 인식표 표시"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "파괴된 전차 정보 표시"
+
+msgid "game/showKillersDogTag"
+msgstr "자신을 격파한 플레이어의 인식표 표시"
+
+msgid "game/showLanguageBar"
+msgstr "음성 패널 표시"
+
+msgid "game/showMarksOnGun"
+msgstr "화력의 증표 표시"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "자신의 애니메이션 인식표 보기"
+
+msgid "game/showSectorOnMap"
+msgstr "자주포 사격 범위 표시"
+
+msgid "game/showVectorOnMap"
+msgstr "시야 방향 표시"
+
+msgid "game/showVehModelsOnMap"
+msgstr "미니맵 추가 기능 사용"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Alt 적용"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "켜기"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "끄기"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "미니맵에 전차 내구도 표시"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Alt 적용"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "켜기"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "끄기"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "팀 목록에 전차 내구도 표시"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Alt 적용"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "켜기"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "끄기"
+
+msgid "game/showVehicleIcon"
+msgstr "전차 아이콘 표시"
+
+msgid "game/showVehicleLevel"
+msgstr "전차 단계 표시"
+
+msgid "game/showVehiclesCounter"
+msgstr "전투 화면에서 전차 유형 보기"
+
+msgid "game/showVictimsDogTag"
+msgstr "격파한 적의 인식표 표시"
+
+msgid "game/sniperModeByShift"
+msgstr "Shift로만 저격 모드 전환"
+
+msgid "game/sniperZoom"
+msgstr "저격 모드 기본 배율"
+
+msgid "game/sniperZoom/double"
+msgstr "2배"
+
+msgid "game/sniperZoom/octuple"
+msgstr "8배"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "4배"
+
+msgid "game/sniperZoom/remember"
+msgstr "마지막으로 사용된 배율"
+
+msgid "game/switchEquipment"
+msgstr "불러오기 화면에서 구성 전환"
+
+msgid "game/w2gtEnable"
+msgstr "미니맵에 전투 구역 표시"
+
+msgid "gameTitle"
+msgstr "일반"
+
+msgid "gameplay/devMaps"
+msgstr "돌발 상황 발생 지도 플레이"
+
+msgid "gameplay/nations"
+msgstr "국가전"
+
+msgid "gamma"
+msgstr "감마"
+
+msgid "gammaBtn/label"
+msgstr "변경"
+
+msgid "gammaWizard/apply"
+msgstr "적용"
+
+msgid "gammaWizard/cancel"
+msgstr "취소"
+
+msgid "gammaWizard/closeBtn"
+msgstr "닫기"
+
+msgid "gammaWizard/default"
+msgstr "기본값"
+
+msgid "gammaWizard/description"
+msgstr "배경과 로고 밝기가 같도록 조정하십시오. 이미지 세부 사항이 잘 보이지 않도록 한쪽 눈을 감거나 모니터에서 떨어져 보십시오."
+
+msgid "gammaWizard/header"
+msgstr "감마"
+
+msgid "gammaWizard/title"
+msgstr "감마 설정"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "밝기를 조정 하여\n이미지 품질을 최적화합니다.\n게임 시각 품질에 영향을 미치는 그래픽 카드 드라이버 및\n디스플레이 설정으로 인한 효과를 보완합니다."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "감마"
+
+msgid "graficTitle"
+msgstr "그래픽"
+
+msgid "graphics/block/effects"
+msgstr "효과"
+
+msgid "graphics/block/greenery"
+msgstr "식물"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "지형 및 수면"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "광원 및 후처리"
+
+msgid "graphics/block/main"
+msgstr "주요 항목"
+
+msgid "graphics/tabAdvanced"
+msgstr "고급"
+
+msgid "graphics/tabScreen"
+msgstr "화면"
+
+msgid "graphicsQuality"
+msgstr "그래픽 품질"
+
+msgid "graphicsQuality/description"
+msgstr "이미지 품질을 설정합니다. 고급 메뉴에서 품질을 설정할 수 있습니다.\n\n그래픽 품질 감소 시\n• 게임 성능 향상\n• 서버와 클라이언트 간 지형 표현 불일치\n\n최저 설정은 컴퓨터 성능이 떨어질 때만 사용하십시오."
+
+msgid "graphicsQualityHDSD"
+msgstr "클라이언트 유형"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD 클라이언트 설치됨"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "SD 클라이언트 설치"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "SD 클라이언트—최적 용량의 고품질 클라이언트입니다.\n\nHD 클라이언트—최고 품질 그래픽 옵션을 사용할 수 있는 클라이언트입니다. SD 클라이언트보다 용량이 더 큽니다."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "클라이언트 유형"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD 클라이언트— 최고 품질 그래픽 옵션을 사용할 수 있는 클라이언트입니다. SD 클라이언트보다 용량이 더 큽니다.\n\nSD 클라이언트 (SD)—최적 용량의 고품질 클라이언트입니다."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "최고 (SD), 울트라 (SD) 그래픽 품질에서는 최고 사물 질감 품질 설정값을 이용할 수 없습니다. 최고 그래픽 품질을 이용하려면 시작 프로그램에서 HD 클라이언트로 변경하십시오."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "비등방성 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "비등방성 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "비등방성 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "비등방성 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "2중 선형"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "사용자 설정"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "1940년식 영화 필름"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "대조"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "향상"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "원거리"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "일반"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "높음"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "낮음"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "매우 낮음"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "최고"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "최고 (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "중간"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "최저"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "저채도"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "근거리"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "끔"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "끔"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "켬"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "간소"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "향상"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "점형"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "포토크로믹"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "무작위"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "기본"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "저명도"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "부드럽게"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "3중 선형"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "울트라"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "울트라 (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "매우 높음"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "매우 높음"
+
+msgid "igbHardwareAcceleration"
+msgstr "브라우저 하드웨어 가속"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "해당 설정 활성화 시 CPU 대신 GPU를 사용하여 웹 콘텐츠를 렌더링합니다.\n\n일부 콘텐츠에서 렌더링 관련 문제가 발생하면 설정을 비활성화하십시오.\n\n변경 사항은 게임 재시작 후 적용됩니다."
+
+msgid "interfaceScale"
+msgstr "인터페이스 비율"
+
+msgid "interfaceScale/attention"
+msgstr "테스트 중인 기능입니다.\n게임 성능에는 영향을 주지 않습니다."
+
+msgid "interfaceScale/body"
+msgstr "전체 화면/창 모드에서 인터페이스를\n자동으로 최적화합니다."
+
+msgid "interfaceScale/description"
+msgstr "전체 화면/창 모드에서 인터페이스를 자동으로 최적화합니다."
+
+msgid "interfaceScale/header"
+msgstr "인터페이스 비율"
+
+msgid "interfaceScale/warning"
+msgstr "테스트 중인 기능입니다. 게임 성능에는 영향을 주지 않습니다."
+
+msgid "interfaceScaleDisabled"
+msgstr "인터페이스 비율"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "4K 디스플레이에서만 사용할 수 있습니다."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "전체 화면/창 모드에서 인터페이스를\n자동으로 최적화합니다."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "전체 화면/창 모드에서 인터페이스를 자동으로 최적화합니다."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "인터페이스 비율"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "4K 디스플레이에서만 사용할 수 있습니다."
+
+msgid "isColorBlind"
+msgstr "색약 모드"
+
+msgid "isColorBlind/description"
+msgstr "색약인 플레이어를 위해 색상이 최적화됩니다."
+
+msgid "keyboard/backDraftInvert"
+msgstr "반전"
+
+msgid "keyboard/keyboard"
+msgstr "키보드"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "알겠다!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "저격 모드"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "차체 고정 / 모드 전환"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "후진"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "후진"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "핸드브레이크"
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "아래로"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "왼쪽으로"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "오른쪽으로"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "위로"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "일제 사격"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "후퇴하라!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "발사"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "전진"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "전진"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "전차 포기 (전선 대격돌)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "지원을 요청한다!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "위치 지정"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "목표물 지정"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "소모품 슬롯 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "소모품 슬롯 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "소모품 슬롯 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "소모품 슬롯 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "소모품 슬롯 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "소모품 슬롯 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "소모품 슬롯 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "소모품 슬롯 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "소모품 슬롯 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "소모품 슬롯 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "좌회전"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "자동 조준"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "자동 조준 해제"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "거부한다!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "누르고 말하기"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "클립 재장전"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "재장전 중!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "우회전"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "전투 인터페이스 감추기"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "개인 물자 활성화"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "개인 임무 진행 상황"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "명령 메뉴 / 명령 확인 표시"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "축소"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "확대"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "특수 능력"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "일시 정지"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "고맙다!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "장갑 구분색 표시 전환"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "탄도 시점"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "음성 신호 설정"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "숨김/표시"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "전투 중 결성한 소대의 음성 대화 설정"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "카메라"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "순항 조작"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "소모품"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "발사"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "미니맵"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "이동"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "메시지 출력"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "단축 명령"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "기타 설정"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "음성 대화"
+
+msgid "keyboard/mouse"
+msgstr "마우스"
+
+msgid "keyboardTitle"
+msgstr "조작"
+
+msgid "limitedUI/desc"
+msgstr "숨겨진 차고 인터페이스 요소 단계적으로 표시"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "비활성화"
+
+msgid "marker/AllyTitle"
+msgstr "아군"
+
+msgid "marker/DeadTitle"
+msgstr "파괴된 전차"
+
+msgid "marker/EnemyTitle"
+msgstr "적군"
+
+msgid "marker/aimMarker2D"
+msgstr "자동 조준 지시선"
+
+msgid "marker/alt"
+msgstr "적용"
+
+msgid "marker/base"
+msgstr "기본"
+
+msgid "marker/damage"
+msgstr "받은 피해량"
+
+msgid "marker/dead"
+msgstr "격파 전차 표시"
+
+msgid "marker/hp"
+msgstr "전차 내구도"
+
+msgid "marker/hp/type0"
+msgstr "퍼센트 %"
+
+msgid "marker/hp/type1"
+msgstr "현재 내구도/총 내구도"
+
+msgid "marker/hp/type2"
+msgstr "남은 내구도"
+
+msgid "marker/hp/type3"
+msgstr "숨기기"
+
+msgid "marker/hpIndicator"
+msgstr "내구도 표시기"
+
+msgid "marker/icon"
+msgstr "전차 아이콘"
+
+msgid "marker/level"
+msgstr "전차 단계"
+
+msgid "marker/level/tooltip/body"
+msgstr "해당 설정 활성화 시 전차 위에 단계가 표시됩니다.\n\n배틀 로얄 모드에서는 현재 강화 단계가 표시됩니다."
+
+msgid "marker/level/tooltip/header"
+msgstr "전차 단계"
+
+msgid "marker/name"
+msgstr "전차 이름"
+
+msgid "marker/name/type2"
+msgstr "숨기기"
+
+msgid "marker/nickname"
+msgstr "플레이어 이름"
+
+msgid "markerTitle"
+msgstr "표식"
+
+msgid "minimap/labels/alpha"
+msgstr "미니맵 투명도"
+
+msgid "minimap/labels/size"
+msgstr "최대 크기"
+
+msgid "monitor"
+msgstr "모니터"
+
+msgid "monitor/description"
+msgstr "게임의 기본 모니터를 선택합니다."
+
+msgid "mouse/sensitivity/art"
+msgstr "자주포 시점"
+
+msgid "mouse/sensitivity/art2"
+msgstr "탄도 시점"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "자유 시점"
+
+msgid "mouse/sensitivity/header"
+msgstr "마우스 감도"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "수평 반전"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "수직 반전"
+
+msgid "mouse/sensitivity/main"
+msgstr "3인칭 시점"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "1인칭 시점"
+
+msgid "mouse/startDist"
+msgstr "카메라 위치"
+
+msgid "ok_button"
+msgstr "확인"
+
+msgid "otherSettings/fieldset/header"
+msgstr "주변 환경 효과음"
+
+msgid "otherSettings/labels/bulb"
+msgstr "육감 발동 효과음"
+
+msgid "otherTitle"
+msgstr "기타"
+
+msgid "physicsQuality"
+msgstr "음향 물리 효과 품질"
+
+msgid "refreshRate"
+msgstr "모니터 재생 빈도"
+
+msgid "refreshRate/default"
+msgstr "기본값"
+
+msgid "refreshRate/description"
+msgstr "모니터 재생 빈도입니다.\n\n모니터 재생 빈도가 일치하지 않으면 화면이 깜박일 수 있습니다.\n\n게임 성능에는 영향을 주지 않습니다."
+
+msgid "resolution"
+msgstr "화면 해상도"
+
+msgid "resolution/description"
+msgstr "해상도를 높이면 이미지 품질이 향상됩니다. 모니터 해상도와 전체 화면 해상도가 일치하지 않으면 이미지가 일그러질 수도 있습니다.\n\n설정을 높이면 비디오 카드에 무리가 갈 수 있으며 게임 성능이 떨어질 수도 있습니다.\n\n3D 렌더링 해상도 설정을 낮추면 비디오 카드 부하를 줄일 수 있습니다."
+
+msgid "restartNewbieBattleHints"
+msgstr "초보자 도움말 초기화"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "이미 표시된 도움말을 다시 확인할 수 있도록 초보자 도움말 기록을 초기화합니다."
+
+msgid "screenMode"
+msgstr "게임 모드"
+
+msgid "screenMode/borderless"
+msgstr "창 모드(테두리 없음)"
+
+msgid "screenMode/description"
+msgstr "전체 화면, 창 모드, 창 모드(테두리 없음)를 전환합니다. 창 모드에서는 게임 성능이 떨어집니다."
+
+msgid "screenMode/fullscreen"
+msgstr "전체 화면 모드"
+
+msgid "screenMode/label"
+msgstr "모드"
+
+msgid "screenMode/windowed"
+msgstr "창 모드"
+
+msgid "smoothing/description"
+msgstr "게임 화면 내 사물 윤곽선 처리 품질을 설정합니다. 계단 현상을 최소화하고 사물의 윤곽선이 부드럽게 처리됩니다."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "기본"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "사용자 지정"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "1형"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "2형"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "사용자 지정"
+
+msgid "sound/dynamicRange/label"
+msgstr "사운드 출력폭"
+
+msgid "sound/fieldset/header"
+msgstr "음량"
+
+msgid "sound/players_notifications"
+msgstr "다른 플레이어의 메시지/초청 알림"
+
+msgid "sound/presets/title"
+msgstr "기본 설정"
+
+msgid "sound/soundModes/U01"
+msgstr "사용자 1"
+
+msgid "sound/soundModes/U02"
+msgstr "사용자 2"
+
+msgid "sound/soundModes/U03"
+msgstr "사용자 3"
+
+msgid "sound/soundModes/U04"
+msgstr "사용자 4"
+
+msgid "sound/soundModes/default"
+msgstr "한국어 음성"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "전차장 음성"
+
+msgid "sound/special/field/set"
+msgstr "게임 이벤트 음량"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "장치 새로 고침"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "시험 마침"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "시험 시작"
+
+msgid "sound/vivox/fade_volume"
+msgstr "대화 중 주변 소리"
+
+msgid "sound/vivox/master_volume"
+msgstr "음성 대화 음량"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "마이크 감도"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Vivox 시험"
+
+msgid "soundTitle"
+msgstr "효과음"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "자동 선택"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "헤드폰"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "중앙"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "왼쪽"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "왼쪽 뒤"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "왼쪽 앞"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "왼쪽"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "오른쪽"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "오른쪽 뒤"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "오른쪽 앞"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "오른쪽"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "서브 우퍼"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "노트북"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "사운드 테스트:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "사운드 테스트"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "전차 국가 및 전차장 성별에 따른 음성입니다."
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "전차장 음성"
+
+msgid "sounds/altVoice/default/body"
+msgstr "해당 클라이언트 언어 남성 음성입니다."
+
+msgid "sounds/altVoice/default/header"
+msgstr "한국어 음성"
+
+msgid "sounds/ambient"
+msgstr "주변 소리"
+
+msgid "sounds/arena"
+msgstr "전투 배경 음악"
+
+msgid "sounds/artyBulbVoices"
+msgstr "음향 탐지"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "음향 탐지 발동 효과음을 설정합니다. 본인이 제작한 효과음을 사용하려면 .mp3 파일의 이름을 soundExploring으로 변경한 후 res/audioww 폴더에 붙여넣으십시오."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "음향 탐지 발동 효과음"
+
+msgid "sounds/bassBoost"
+msgstr "저음 강화"
+
+msgid "sounds/bassBoost/description"
+msgstr "전체 음량을 그대로 유지하면서 저음역을 강화합니다. 스피커, 헤드폰, 노트북 등 사용 장치에 따라 개별적으로 적용됩니다."
+
+msgid "sounds/bulbVoices"
+msgstr "육감"
+
+msgid "sounds/bulbVoices/description"
+msgstr "육감 발동 효과음을 설정합니다. 본인이 제작한 효과음을 사용하려면 .mp3 파일의 이름을 sixthSense로 변경한 후 res/audioww 폴더에 붙여넣으십시오."
+
+msgid "sounds/effects"
+msgstr "효과음"
+
+msgid "sounds/gui"
+msgstr "인터페이스"
+
+msgid "sounds/hangar"
+msgstr "차고 배경 음악"
+
+msgid "sounds/masterVolume"
+msgstr "전체 음량"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "효과음 사용"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "효과음을 끄고 전체 게임 성능을 개선합니다. 변경 사항을 적용하려면 게임 클라이언트를 다시 실행해야 합니다."
+
+msgid "sounds/nightMode"
+msgstr "야간 모드"
+
+msgid "sounds/nightMode/description"
+msgstr "야간에 게임을 더욱 편안하게 플레이할 수 있도록 고음역 및 저음역과 전체 출력 음량을 조정합니다."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "해당 기능 활성화 시 게임 성능에 영향을 끼칠 수 있습니다."
+
+msgid "sounds/physicsQuality/body"
+msgstr "음향 물리 효과 품질을 설정합니다.\n\n효과음이 사물 주위에서 회절하거나 지도 표면을 투과하는 방식에 대한 시뮬레이션이 적용됩니다.\n\n지도의 기하학적 구조를 분석하여 전차 효과음이 인근 사물에 부딪쳐 반사되는 초기 반사를 형성합니다.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "음향 물리 효과 품질"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "비활성화"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "높음"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "낮음"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "중간"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "최적화"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "음향 물리 효과 설정을 최적화합니다.\n\n다소 시간이 걸릴 수도 있습니다."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "최적화"
+
+msgid "sounds/sixthSense/body"
+msgstr "사용자 설정 효과음입니다. sinthSense.mp3 파일을 res/audioww 폴더에 저장하십시오."
+
+msgid "sounds/sixthSense/header"
+msgstr "사용자 설정"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "스테레오 스피커(2.0) 및 스테레오 스피커 및 서브 우퍼(2.1)에 따라 게임 사운드를 조정합니다."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "멀티채널 5.1 시스템의 외부 스피커 및 서브 우퍼에 따라 게임 사운드를 조정합니다."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "5.1"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "멀티채널 7.1 시스템의 외부 스피커 및 서브 우퍼에 따라 게임 사운드를 조정합니다."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "7.1"
+
+msgid "sounds/soundDevice/auto"
+msgstr "자동 선택"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "컴퓨터의 오디오 구성을 감지한 후 자동 선택합니다."
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "자동 선택"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "헤드폰"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "게임 사운드를 헤드폰에 최적화합니다."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "헤드폰"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "노트북"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "2.0/2.1 사운드 시스템을 기반으로 노트북 스피커에 최적화하여 고품질 사운드를 재생합니다."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "노트북"
+
+msgid "sounds/soundQuality"
+msgstr "효과음 최적화"
+
+msgid "sounds/soundQuality/description"
+msgstr "저사양 컴퓨터에서 효과음 품질을 최적화합니다. 설정을 활성화하면 동시에 처리되는 효과음 수가 줄어듭니다."
+
+msgid "sounds/speakers/back/body"
+msgstr "오른/왼쪽 뒤 스피커 사운드 테스트입니다."
+
+msgid "sounds/speakers/back/header"
+msgstr "오른/왼쪽 뒤 스피커"
+
+msgid "sounds/speakers/center/body"
+msgstr "중앙 스피커 사운드 테스트입니다."
+
+msgid "sounds/speakers/center/header"
+msgstr "중앙 스피커"
+
+msgid "sounds/speakers/front/body"
+msgstr "오른/왼쪽 앞 스피커 사운드 테스트입니다."
+
+msgid "sounds/speakers/front/header"
+msgstr "오른/왼쪽 앞 스피커"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "2.0/2.1 시스템에서 서브 우퍼는 선택 사항입니다. 스피커 없이 테스트를 진행할 수는 없습니다."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "서브 우퍼 선택"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "오른/왼쪽 측면 스피커 사운드 테스트입니다."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "오른/왼쪽 측면 스피커"
+
+msgid "sounds/speakers/sides/body"
+msgstr "오른/왼쪽 스피커 사운드 테스트입니다."
+
+msgid "sounds/speakers/sides/header"
+msgstr "오른/왼쪽 스피커"
+
+msgid "sounds/speakers/sub/body"
+msgstr "서브 우퍼 사운드 테스트입니다."
+
+msgid "sounds/speakers/sub/header"
+msgstr "서브 우퍼"
+
+msgid "sounds/subtitles"
+msgstr "자막"
+
+msgid "sounds/tabCommon"
+msgstr "전체 설정"
+
+msgid "sounds/tabSpecial"
+msgstr "게임 이벤트"
+
+msgid "sounds/tabVivox"
+msgstr "음성 대화"
+
+msgid "sounds/vehicles"
+msgstr "전차"
+
+msgid "sounds/voiceNotification"
+msgstr "음성 알림"
+
+msgid "title"
+msgstr "설정"
+
+msgid "tripleBuffered"
+msgstr "삼중 버퍼링"
+
+msgid "tripleBuffered/description"
+msgstr "프레임 변경 시 티어링이 감소합니다. 수직 동기화 설정 시에만 사용할 수 있습니다."
+
+msgid "vertSync"
+msgstr "수직 동기화"
+
+msgid "vertSync/Off"
+msgstr "끔"
+
+msgid "vertSync/On"
+msgstr "켬"
+
+msgid "vertSync/description"
+msgstr "모니터 재생 빈도와 프레임률을 동기화합니다.\n\n프레임률을 초당 60프레임으로 제한합니다. 이미지 떨림 현상이나 이미지 표시 지연 현상이 있을 때 사용하십시오."
+
+msgid "voice_chat/PTT"
+msgstr "누르고 말하기"
+
+msgid "voice_chat/fieldset/header"
+msgstr "음량"
+
+msgid "voice_chat/header/common"
+msgstr "일반"
+
+msgid "voice_chat/header/microphone"
+msgstr "마이크"
+
+msgid "voice_chat/header/speakers"
+msgstr "헤드폰"
+
+msgid "voice_chat/microphone"
+msgstr "마이크"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "마이크"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "마이크 활성화"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "음성 대화 활성화"
+
+msgid "windowSize"
+msgstr "창 크기"
+
+msgid "windowSize/description"
+msgstr "창 모드의 게임 클라이언트 화면 해상도입니다. 전체 화면 모드에서는 \"화면 해상도\" 설정으로 변경됩니다."
+
+msgid "windowTitle"
+msgstr "WoT 클라이언트"

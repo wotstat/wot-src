@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To:\nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "battleQuestAwards/button"
+msgstr "확인"
+
+msgid "battleQuestAwards/stPatrick/subTitle"
+msgstr "배틀 로얄: 토끼풀 결전"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "배틀 로얄"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "최종 스테이지 완료!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "스테이지 %(level)s 완료!"
+
+msgid "dailyBonus/description"
+msgstr "%(dailyBonus)s 개인 전투에서는 %(soloTopPlaces)s위 이내 달성 시, 소대 전투에서는 %(squadTopPlaces)s위 이내 달성 시 행운의 인장 보너스를 획득할 수 있습니다. 해당 보너스는 이벤트 전차별로 하루에 한 번만 적용됩니다."
+
+msgid "eventShop"
+msgstr "이벤트 상점"
+
+msgid "leaveBattleView/confirmation/cancel"
+msgstr "취소"
+
+msgid "leaveBattleView/confirmation/submit"
+msgstr "전장 이탈"
+
+msgid "leaveBattleView/description"
+msgstr "전차가 아직 파괴되지 않았습니다. 지금 전투를 종료하면 보상을 획득할 수 없습니다. 전장을 이탈하시겠습니까?"
+
+msgid "leaveBattleView/title"
+msgstr "전장 이탈"
+
+msgid "leaveBattleView/warning"
+msgstr "보상을 획득할 수 없습니다!"
+
+msgid "progress/counter"
+msgstr "{{current}}{{divider}}{{total}}"
+
+msgid "progressionComplete"
+msgstr "주요 진행 완료!"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s 또는 %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/questsTotal/text"
+msgstr "완료한 임무:"
+
+msgid "progressionView/battleQuests/timer/eventResetTime/text"
+msgstr "이벤트 종료까지:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "임무 갱신까지"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/seasonRange"
+msgstr "%(startDate)s ~ %(endDate)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "이벤트 진행을 완료했습니다. 배틀 로얄 모드를 계속 플레이하여 추가 보상을 획득해 보십시오."
+
+msgid "progressionView/subTitle/endEvent"
+msgstr "이벤트가 종료되었습니다. 더는 임무 및 진행 상황을 이용할 수 없습니다."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "임무를 완료하여 진행 점수를 획득하십시오.\n지급되는 점수는 전투 중 순위에 따라 달라집니다. %(infotip)s"
+
+msgid "proxy_currency_tooltip/earn/description/brcoin"
+msgstr "뛰어난 전투 성과 기록, 개인 또는 소대로 참여한 전투에서 높은 순위 달성, 해당 게임 모드 임무 완료 시 강철 인장을 획득할 수 있습니다."
+
+msgid "proxy_currency_tooltip/earn/description/stpcoin"
+msgstr "전투에서 전리품을 수집하거나, 진행 스테이지를 완료하거나, 전투 결과에서 상위권을 달성하여 행운의 인장을 획득해 보십시오."
+
+msgid "proxy_currency_tooltip/earn/title/brcoin"
+msgstr "인장 획득 방법"
+
+msgid "proxy_currency_tooltip/earn/title/stpcoin"
+msgstr "인장 획득 방법"
+
+msgid "proxy_currency_tooltip/spend/description/brcoin"
+msgstr "획득한 강철 인장으로 배틀 로얄 스타일을 구매할 수 있습니다."
+
+msgid "proxy_currency_tooltip/spend/description/stpcoin"
+msgstr "토끼풀 상점에서 행운의 인장을 값진 보상으로 교환해 보십시오."
+
+msgid "proxy_currency_tooltip/spend/title/brcoin"
+msgstr "인장 사용 방법"
+
+msgid "proxy_currency_tooltip/spend/title/stpcoin"
+msgstr "인장 사용 방법"
+
+msgid "proxy_currency_tooltip/title/brcoin"
+msgstr "강철 인장"
+
+msgid "proxy_currency_tooltip/title/stpcoin"
+msgstr "행운의 인장"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "배틀 로얄 특별 임무 완료 시 지급되며 진행 상황에 집계됩니다."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "배틀 로얄 진행 점수"
+
+msgid "rewardCurrencyTooltip/body/battlePassPoints"
+msgstr "전투 참여 및 특별 임무 완료 시 배틀 패스 점수를 획득할 수 있습니다. 획득한 점수는 배틀 패스 진행 상황에 자동으로 집계됩니다."
+
+msgid "rewardCurrencyTooltip/body/brProgressionToken"
+msgstr "배틀 로얄 임무 완료 및 우수한 전투 성적 기록 시 지급됩니다. 획득한 점수는 이벤트 진행 상황에 집계됩니다."
+
+msgid "rewardCurrencyTooltip/body/brcoin"
+msgstr "뛰어난 전투 성과 기록, 전투 결과에서 높은 순위 달성, 특별 임무 완료 시 강철 인장을 획득할 수 있습니다."
+
+msgid "rewardCurrencyTooltip/body/credits"
+msgstr "게임 내 주요 통화로 전투를 통해 획득하거나 골드로 구매할 수 있습니다."
+
+msgid "rewardCurrencyTooltip/body/crystal"
+msgstr "다른 경로로는 획득할 수 없는 특별한 아이템 구매 시 사용하는 특별 통화입니다."
+
+msgid "rewardCurrencyTooltip/body/stpcoin"
+msgstr "배틀 로얄 전투에서 획득할 수 있는 통화입니다. 인장은 토끼풀 상점에서 특별한 보상으로 교환할 수 있습니다. 소대로 전투 참여 시 획득한 인장은 소대원에게 균등히 분배됩니다."
+
+msgid "rewardCurrencyTooltip/body/xp"
+msgstr "특별 전차로 획득한 경험치는 자유 경험치로 전환할 수 있습니다."
+
+msgid "rewardCurrencyTooltip/dailyBonus/stpcoin"
+msgstr "보너스 적용! 전투 중 획득하는 인장이 %(count)s배로 증가했습니다."
+
+msgid "rewardCurrencyTooltip/header/battlePassPoints"
+msgstr "배틀 패스 점수"
+
+msgid "rewardCurrencyTooltip/header/brProgressionToken"
+msgstr "배틀 로얄 진행 점수"
+
+msgid "rewardCurrencyTooltip/header/brcoin"
+msgstr "강철 인장"
+
+msgid "rewardCurrencyTooltip/header/credits"
+msgstr "크레딧"
+
+msgid "rewardCurrencyTooltip/header/crystal"
+msgstr "전쟁 채권"
+
+msgid "rewardCurrencyTooltip/header/stpcoin"
+msgstr "행운의 인장"
+
+msgid "rewardCurrencyTooltip/header/xp"
+msgstr "일반 경험치"
+
+msgid "rewardCurrencyTooltip/premiumBonus/brcoin"
+msgstr "월드 오브 탱크 프리미엄 계정 사용 시 해당 통화를 50% 추가로 획득할 수 있습니다."
+
+msgid "rewardCurrencyTooltip/premiumBonus/credits"
+msgstr "월드 오브 탱크 프리미엄 계정 사용 시 해당 통화를 50% 추가로 획득할 수 있습니다."
+
+msgid "rewardCurrencyTooltip/premiumBonus/xp"
+msgstr "월드 오브 탱크 프리미엄 계정 사용 시 일반 경험치를 50% 추가로 획득할 수 있습니다."
+
+msgid "serviceChannelMessages/awards"
+msgstr "획득한 보상:"
+
+msgid "serviceChannelMessages/body"
+msgstr "%(progressionName)s 모드 진행 %(stage)s단계를 완료했습니다."
+
+msgid "serviceChannelMessages/header"
+msgstr "축하합니다!"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "세부 정보"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "배틀 로얄"
+
+msgid "tab/label/platoon"
+msgstr "소대"
+
+msgid "tab/label/solo"
+msgstr "개인"
+
+msgid "tab/label/team"
+msgstr "친구"
+
+msgid "tooltip/banner/description"
+msgstr "포스트 아포칼립스 세계를 무대로 최후의 생존자를 가리는 전투가 펼쳐집니다. 전투를 거치며 점차 강화되는 특별 전차 8대를 운용해 보십시오. 특별한 보상이 기다립니다!"
+
+msgid "tooltip/banner/mode/description"
+msgstr "— 게임 모드 확인"
+
+msgid "tooltip/banner/mode/label"
+msgstr "모드"
+
+msgid "tooltip/banner/performanceRisk/description/high"
+msgstr "사용 중인 컴퓨터 사양이 해당 모드를 플레이하기에 부족합니다. 그래픽 왜곡 및 전차 이동 시 문제를 경험할 수 있으며 게임 클라이언트가 충돌할 수도 있습니다."
+
+msgid "tooltip/banner/performanceRisk/description/medium"
+msgstr "고사양 컴퓨터가 필요한 모드입니다. 지도 불러오기 시간 지연, 그래픽 왜곡, 전차 이동 문제 등을 경험할 수도 있습니다. 사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "tooltip/banner/performanceRisk/title/high"
+msgstr "고사양 모드"
+
+msgid "tooltip/banner/performanceRisk/title/medium"
+msgstr "고사양 모드"
+
+msgid "tooltip/banner/stPatrickDescription"
+msgstr "초록빛으로 물든 마법 세계를 무대로 최후의 생존자를 가리는 전투가 펼쳐집니다. 전투를 거치며 점차 강화되는 특별 전차 8대를 운용해 보십시오. 특별한 보상 등 다양한 아이템이 기다립니다!"
+
+msgid "tooltip/banner/stPatrickTitle"
+msgstr "토끼풀 결전"
+
+msgid "tooltip/banner/timer/text/accent"
+msgstr "이벤트 남은 시간 %(timer)s"
+
+msgid "tooltip/banner/timer/text/cooldown"
+msgstr "휴전 %(timer)s"
+
+msgid "tooltip/banner/title"
+msgstr "배틀 로얄"
+
+msgid "tooltip/daily_quests/header"
+msgstr "완료"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "새로운 배틀 로얄 임무 부여까지: {{timeLeft}}"
+
+msgid "tooltip/daily_quests/reward"
+msgid_plural "plural/tooltip/daily_quests/reward"
+msgstr[0] "보상"
+msgstr[1] "보상"
+msgstr[2] "보상"
+
+msgid "tooltip/daily_quests/text"
+msgstr "모든 임무 완료!"
+
+msgid "tooltip/progressionWidget/description/completed"
+msgstr "대단한 열정입니다! 계속 나아가 보십시오!"
+
+msgid "tooltip/progressionWidget/description/header"
+msgstr "주요 진행 완료!"
+
+msgid "tooltip/progressionWidget/description/inProgress"
+msgstr "이벤트를 진행하려면 임무를 완료하고 배틀 로얄 전투에서 상위권을 차지하십시오."
+
+msgid "tooltip/progressionWidget/subTitle"
+msgstr "모드 종료까지 %(value)s"
+
+msgid "tooltip/progressionWidget/title"
+msgstr "배틀 로얄"
+
+msgid "tooltip/quest/header"
+msgstr "배틀 로얄 임무"
+
+msgid "tooltip/shop/stPatrick/subtitle"
+msgstr "{ede6d9_Open}행운의 인장{ede6d9_Close}을 특별한 보상으로 교환해 보십시오."
+
+msgid "tooltip/shop/stPatrick/text"
+msgstr "전투 중 전리품을 수집하거나, 진행 스테이지를 완료하거나, 전투 결과에서 상위권을 달성하여 행운의 인장을 획득해 보십시오."
+
+msgid "tooltip/shop/stPatrick/title"
+msgstr "토끼풀 상점"
+
+msgid "tooltip/shop/subtitle"
+msgstr "{ede6d9_Open}강철 인장{ede6d9_Close}을 특별한 보상으로 교환해 보십시오."
+
+msgid "tooltip/shop/text"
+msgstr "강철 인장은 전투에서 뛰어난 활약을 펼치고, 높은 순위를 차지하고, 임무를 완료하여 획득할 수 있습니다."
+
+msgid "tooltip/shop/title"
+msgstr "배틀 로얄 상점"
+
+msgid "upgrades/description"
+msgstr "적 전차에 피해를 기록하거나 전장에 남은 전리품을 수집하면 경험치를 획득하여 전차 단계를 올릴 수 있습니다. 전차 단계가 오를 때마다 강화 메뉴에서 부품을 강화하여 전차 성능을 대폭 향상할 수 있습니다."
+
+msgid "upgrades/footer"
+msgstr "전투 중 부품을 강화할 수 있습니다."
+
+msgid "upgrades/subtitle"
+msgstr "전투는 1단계 전차로 참여하게 됩니다."
+
+msgid "upgrades/title"
+msgstr "전투 중 전차 강화"

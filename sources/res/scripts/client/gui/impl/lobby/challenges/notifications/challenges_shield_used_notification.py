@@ -1,0 +1,32 @@
+from __future__ import absolute_import
+from gui.impl.gen.view_models.views.lobby.challenges.notifications.challenges_shield_used_model import ChallengesShieldUsedModel
+from gui.impl.lobby.gf_notifications import NotificationBase
+from gui.server_events.events_dispatcher import showChallenges
+
+class ChallengesShieldUsedNotification(NotificationBase):
+
+    def __init__(self, resId, *args, **kwargs):
+        super(ChallengesShieldUsedNotification, self).__init__(resId, ChallengesShieldUsedModel(), *args, **kwargs)
+        return
+
+    @property
+    def viewModel(self):
+        return self.getViewModel()
+
+    def _getEvents(self):
+        events = super(ChallengesShieldUsedNotification, self)._getEvents()
+        return events + (
+         (
+          self.viewModel.onClick, self.__onClick),)
+
+    def _update(self):
+        data = self._getPayload()
+        with self.viewModel as tx:
+            tx.setIsPopUp(self._isPopUp)
+            tx.setAttempts(data.get(b'attempts', 0))
+            tx.setMissionID(data.get(b'missionID', b''))
+        return
+
+    def __onClick(self):
+        showChallenges(self._getPayload().get(b'challengeID'))
+        return

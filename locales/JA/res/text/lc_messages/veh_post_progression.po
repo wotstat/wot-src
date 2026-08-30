@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "火力"
+
+msgid "categories/mobility"
+msgstr "機動性"
+
+msgid "categories/stealth"
+msgstr "偵察性能"
+
+msgid "categories/survivability"
+msgstr "生存性"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "はい"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "いいえ"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "二元的改修案を破棄してもクレジットで再び購入し直すことができます。"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "二元的改修案を破棄してもクレジットで再び購入し直すことができます。"
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "二元的改修案を無料ですべて破棄しますか？"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "二元的改修案を破棄してもクレジットで再び購入し直すことができます。"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "二元的改修案を破棄してもクレジットで再び購入し直すことができます。"
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "二元的改修案\"%(modification)s\"を無料で破棄しますか？"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "改修案を選択可能"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "カテゴリーを選択可能"
+
+msgid "hint/entryPoint"
+msgstr "改修可能"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "補助物資の\n切替が可能"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "必須物資の\n切替が可能"
+
+msgid "hint/vehiclePreview"
+msgstr "車輌性能を調整可能"
+
+msgid "postProgressionIntro/okButton"
+msgstr "了解！"
+
+msgid "postProgressionIntro/title"
+msgstr "野戦改修"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "特殊改修案レベル%(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "アイコンをクリックするとそのレベルでアンロックされる改修案やボーナスを確認できます。"
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "二元的改修案レベル%(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "野戦改修レベル"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "車輌を購入するとアンロックされます"
+
+msgid "researchEntry/status/notResearched"
+msgstr "車輌が「エリートステータス」を獲得するとアンロックされます"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "車輌を購入して「エリートステータス」を獲得するとアンロックされます"
+
+msgid "researchEntry/title"
+msgstr "野戦改修"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "向上"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "キャンセル"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1}および{bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "補助物資"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "第2スロットのカテゴリー"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "必須物資"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "特殊改修案「{name1}」および「{name2}」"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "特殊改修案「{names}」"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "特殊改修案「{name}」"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "特殊改修案「{name1}」、「{name2}」、および「{name3}」"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "二元的改修案レベル{numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "二元的改修案レベル{number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr "、"
+
+msgid "researchStepsDialog/description/text"
+msgstr "{unlockedItems}がアンロックされます"
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "野戦改修レベルを{level}に向上させますか？"
+
+msgid "researchStepsDialog/title/single"
+msgstr "野戦改修レベルを向上させますか？"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "合計:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "変更費用"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "選択可能なカテゴリー: %(roles)"
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "選択中のカテゴリー: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "拡張パーツの第2スロットにカテゴリーを割り当てられます。"
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "第1スロットへの割り当て"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "選択および変更費用 (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr "、"
+
+msgid "roleSlotTooltipView/title"
+msgstr "第2スロットのカテゴリー"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "選択"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "変更"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "変換"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "キャンセル"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "カテゴリーの変更には %(price)が必要です。"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "選択したカテゴリーが第2スロットに割り当てられます。カテゴリーを変更するには%(price)が必要になります。"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "変換レート: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "%(gold)が不足しているため変換を行うことができません。"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "第2スロットのカテゴリーの選択"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "第2スロットのカテゴリーの変更"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "%(credits)が不足しているため第2スロットのカテゴリーを変更できません。"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "合計:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "戦闘開始前に必要に応じて{cream_Open}拡張パーツ{cream_Close}と{cream_Open}ディレクティブ{cream_Close}を別の組み合わせに変更できるようになります。"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "戦闘開始前に必要に応じて{cream_Open}砲弾{cream_Close}と{cream_Open}消耗品{cream_Close}を別の組み合わせに変更できるようになります。"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "補助物資"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "必須物資"
+
+msgid "setupTooltipView/tip"
+msgstr "「基本構成」と「代替構成」の切り替えは「ガレージ」だけでなく「戦闘開始前のカウントダウン中」にも行うことができます。"
+
+msgid "setupTooltipView/title"
+msgstr "代替構成オプション「{name}」"
+
+msgid "slides/additionalEquipment/description"
+msgstr "「%(accent)補助物資%(/accent)」オプションをアンロックすると%(accent)拡張パーツとディレクティブ%(/accent)を2セット用意できるようになります。実際に戦闘で用いる%(accent)セットの切り替えは「ガレージ」だけでなく「戦闘開始前のカウントダウン中」にも%(/accent)行うことができます。"
+
+msgid "slides/additionalEquipment/title"
+msgstr "補助物資"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "特定の「野戦改修レベル」に到達すると「%(accent)代替構成%(/accent)」と呼ばれるオプションがアンロックされ、%(accent)砲弾、消耗品、拡張パーツおよびディレクティブ%(/accent)を%(accent)2セット%(/accent)用意できるようになります。実際に戦闘で用いるセットの切り替えは「ガレージ」だけでなく「戦闘開始前のカウントダウン中」にも行うことができるため、マップや両チームの編成を素早く分析してより適したセットを選択すれば、戦闘パフォーマンスの向上が期待できます。"
+
+msgid "slides/alternativeEquipment/title"
+msgstr "物資の代替構成"
+
+msgid "slides/baseModifications/description"
+msgstr "「%(accent)基礎的改修案%(/accent)」をアンロックすると、%(accent)特定のパラメーター%(/accent)に恒久的ボーナスが加算されると同時に、「二元的改修案」を購入できるようになります。「基礎的改修案」の恒久的ボーナスは、戦闘EXPまたはフリーEXPを用いて研究すれば自動的に無料で加算されます。"
+
+msgid "slides/baseModifications/title"
+msgstr "基礎的改修案"
+
+msgid "slides/extraModification/description"
+msgstr "「%(accent)特殊改修案%(/accent)」をアンロックすると、「代替構成」と呼ばれるオプションを利用できるようになるほか、Tier VIII以上の車輌であれば拡張パーツの第2スロットに%(accent)カテゴリーを割り当て%(/accent)られるようになります。クレジットを使用すれば割り当てたカテゴリーを変更することもできます。"
+
+msgid "slides/extraModification/title"
+msgstr "特殊改修案"
+
+msgid "slides/fieldModernization/description"
+msgstr "「野戦改修」は、様々な「%(accent)改修案%(/accent)」を用いて車輌の「ロール」に応じた各種の%(accent)パラメーターを調整%(/accent)するためのメカニズムです。どの車輌にも複数の「野戦改修レベル」が用意されており、レベルが上昇する度に新たな「改修案」がアンロックされていきます。"
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "野戦改修"
+
+msgid "slides/fieldModernization/title"
+msgstr "車輌性能の調整"
+
+msgid "slides/modificationTree/description"
+msgstr "「野戦改修」を行うことができるのは、レンタル車輌や特定のモード専用車輌を除く%(accent)Tier VI～X%(/accent)の全車輌です。研究可能な車輌やコレクション車輌の場合は「%(accent)エリートステータス%(/accent)」の獲得が条件となります。プレミアム車輌や報酬車輌の場合は入手後ただちに「野戦改修」を行うことができます。"
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "改修案の研究"
+
+msgid "slides/modificationTree/title"
+msgstr "改修案の研究"
+
+msgid "slides/pairedModifications/description"
+msgstr "「%(accent)二元的改修案%(/accent)」をアンロックすると、%(accent)特定のパラメーターを犠牲に別のパラメーターを向上%(/accent)させることができるようになります。研究には戦闘EXPまたはフリーEXPが、購入にはクレジットが必要になります。どの「二元的改修案」にも2種類のオプションが存在し、どちらかを購入してから考えが変わった場合は%(accent)無料%(/accent)で%(accent)破棄%(/accent)することができます。車輌そのものを売却すると、「基礎的改修案」と「特殊改修案」は維持されますが、「二元的改修案」についてはすべて自動的に破棄されます。"
+
+msgid "slides/pairedModifications/title"
+msgstr "二元的改修案"
+
+msgid "slides/requiredEquipment/description"
+msgstr "「%(accent)必須物資%(/accent)」オプションをアンロックすると%(accent)砲弾と消耗品%(/accent)を2セット用意できるようになります。実際に戦闘で用いる%(accent)セットの切り替えは「ガレージ」だけでなく「戦闘開始前のカウントダウン中」にも%(/accent)行うことができます。"
+
+msgid "slides/requiredEquipment/title"
+msgstr "必須物資"
+
+msgid "slides/roleInBattle/description"
+msgstr "「%(accent)改修ツリー%(/accent)」の構造は車輌の「ロール」によって異なります。「ロール」は「車輌タイプ」よりも数が多く、各車輌の%(accent)戦闘で期待される立ち回り%(/accent)をより精確に反映しています。"
+
+msgid "slides/roleInBattle/title"
+msgstr "車輌のロール"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "「野戦改修」を行うと、車輌パラメーターの調整はもちろん、「%(accent)代替構成%(/accent)」オプションの利用や%(accent)拡張パーツの第2スロットへのカテゴリーの割り当て%(/accent)が可能になります。"
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "「代替構成」オプションをアンロックすると、%(accent)砲弾、消耗品、拡張パーツおよびディレクティブ%(/accent)を2セット用意して出撃し、戦闘開始直前により適切なセットを選択できるようになります。"
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "特定の「特殊改修案」をアンロックすると、拡張パーツの%(accent)第2スロット%(/accent)にカテゴリーを割り当てられるようになります。戦闘パフォーマンスに直接影響を与える重要なオプションです。"
+
+msgid "slides/specialModifications/title"
+msgstr "改修案、代替構成、第2スロットのカテゴリー"
+
+msgid "tooltips/entry_point/description"
+msgstr "好みにあわせて車輌の性能を調整できます。"
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "研究済みのモジュールおよび後続車輌: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "研究済みのモジュール: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "野戦改修"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "車輌を購入するとアンロックされます。"
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "車輌が「エリートステータス」を獲得するとアンロックされます。"
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "車輌を購入して「エリートステータス」を獲得するとアンロックされます。"
+
+msgid "tooltips/feature/disabled/description"
+msgstr "操作が一時的にご利用いただけません。お手数ですが時間をおいて再度お試しください。"
+
+msgid "tooltips/feature/disabled/title"
+msgstr "特殊改修案は利用不可"
+
+msgid "tooltips/feature/subTitle"
+msgstr "特殊改修案レベル%(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "戦闘で取得するか、倉庫の不要なアイテムを売却するか、あるいはゴールドを変換する必要があります。"
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "クレジット不足"
+
+msgid "tooltips/pairModification/demount"
+msgstr "破棄費用"
+
+msgid "tooltips/pairModification/level"
+msgstr "二元的改修案レベル%(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "パラメーターへの影響"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "破棄費用 (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "価格 (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "価格"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "改修案をクリックするとその改修案を購入した際の車輌性能を確認できます。"
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "この二元的改修案を破棄するといずれかの二元的改修案をクレジットで再び購入し直せるようになります。"
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "この「二元的改修案」を購入すると現在適用中のもう一方の「二元的改修案」が自動的に破棄されます。"
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "もう一方の二元的改修案を購入済み"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "この改修案をアンロックするには野戦改修レベル%(level)に到達する必要があります。"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "改修案はロック中"
+
+msgid "tooltips/priceBlock/free"
+msgstr "無料"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "不足額:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "関連するパラメーターを総合的に考慮した数値です。タブを開くと個々のパラメーターを確認できます。"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "適用"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "キャンセル"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "リセット"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "%(title)s 改修案"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "比較対象に追加"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "二元的改修案をすべて破棄"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "二元的改修案を1度にまとめて破棄できます。"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "二元的改修案をすべて破棄"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "プレビュー"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "変更"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "ON / OFF"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "選択"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "戦闘開始前のカウントダウン中に「拡張パーツ」と「ディレクティブ」からなる「補助物資」の構成を変更するオプションのON/OFFを切り替えます。\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "戦闘開始前のカウントダウン中に「砲弾」と「消耗品」からなる「必須物資」の構成を変更するオプションのON/OFFを切り替えます。\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "こちらのオプションをOFFにした状態で出撃するとガレージで表示中の構成がそのまま自動的に選択されます。"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "ON / OFF"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "車輌が戦闘中です。"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "車輌がロック中です。"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "車輌の修理が必要です。"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "車輌が小隊に参加中です。"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "車輌がガレージにないためカテゴリーを割り当てられません。"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "車輌のレンタル期間が終了しています。"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "車輌が戦闘中です。"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "車輌がロック中です。"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "車輌の修理が必要です。"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "車輌が小隊に参加中です。"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "車輌がガレージにないため購入できません。"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "車輌のレンタル期間が終了しています。"
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "二元的改修案を破棄します。"
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "破棄"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "または"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "最高レベルに到達済み"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Tier {minAllowedLevel}～{maxAllowedLevel}車輌のみ"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Tier {allowedLevel}車輌のみ"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "車輌性能を非表示"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr "、"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "恒久的ボーナス: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "恒久的ボーナス: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "恒久的ボーナス: %(bonus1)および%(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "レベルアップ時のボーナス: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "次のレベルに到達すると%(bonus)に恒久的ボーナスが加算されます"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "次のレベルに到達すると%(bonus1)と%(bonus2)に恒久的ボーナスが加算されます"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "レベルを向上"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "レベルを%(level)に向上"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "レベルアップ時のボーナス:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "基礎的改修案"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "特殊改修案"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "特殊改修案{level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "二元的改修案"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "二元的改修案{level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "「パラドックス・モジュール」へ"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "車輌が戦闘中のため「野戦改修」を行うことができません。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "車輌がロック中のため「野戦改修」を行うことができません。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "車輌の修理が完了していないため「野戦改修」を行うことができません。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "車輌が「エリートステータス」を獲得していないため「野戦改修」を行うことができません。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "車輌が小隊に参加中のため「野戦改修」を行うことができません。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "車輌がガレージにないため「野戦改修」を行うことができません。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "レンタル車輌には「野戦改修」を行うことができません。車輌の購入をご検討ください。"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "レンタル期間が終了しているため「野戦改修」を行うことができません。「野戦改修」をアンロックするにはレンタル期間を延長する必要があります。"
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "車輌性能を表示"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "好みにあわせて車輌の性能を調整できるオプションです。車輌が「エリートステータス」を獲得するとアンロックされます。"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "野戦改修"

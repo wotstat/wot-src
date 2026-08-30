@@ -1,0 +1,1547 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "全サーバーが休戦中です。戦闘開始まで残り%(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "シーズン%(leftSeasonName)sは終了しています"
+
+msgid "alertMessage/allNotSet"
+msgstr "サーバー%(serverName)sではこのモードを利用できません"
+
+msgid "alertMessage/button/changeServer"
+msgstr "別のサーバーを選択"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "詳細"
+
+msgid "alertMessage/notAvailable"
+msgstr "%(serverName)sサーバーは休戦中です。"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "%(serverName)sサーバーは休戦中です。"
+
+msgid "alertMessage/notSet"
+msgstr "サーバー%(serverName)sではこのモードを利用できません"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "現在のサーバーは休戦中です。戦闘開始まで残り%(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "シーズン%(leftSeasonName)sは終了しています"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "サーバー%(serverName)sではこのモードを利用できません"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s日"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s時間%(min)s分"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1分"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s分"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "適合するTier %(levels)s車輌がガレージにありません"
+
+msgid "awards/bonusBattles/efficiency"
+msgstr "達成したステージでの成績に基づき、通常ボーナスバトル %(amount)s回"
+
+msgid "awards/bonusBattles/header"
+msgstr "ボーナスバトル取得:"
+
+msgid "awards/bonusBattles/label"
+msgstr "ボーナスバトル取得: %(count)s"
+
+msgid "awards/bonusBattles/steps/daily"
+msgstr " \n予選で取得したシェブロン数に基づき、デイリー・ボーナスバトル%(amount)s回"
+
+msgid "awards/bonusBattles/steps/persistent"
+msgstr " \n予選で取得したシェブロン数に基づき、通常ボーナスバトル %(amount)s回"
+
+msgid "awards/congratulation"
+msgstr "おめでとうございます！"
+
+msgid "awards/gotDivision"
+msgstr "次の部門に昇格しました"
+
+msgid "awards/gotLeague"
+msgstr "リーグレベルに到達しました"
+
+msgid "awards/gotQualification"
+msgstr "あなたは予選を完了して 3 級部門に加わりました。"
+
+msgid "awards/gotQualificationQuest"
+msgstr "%(count)s回の戦闘を行ったため予選報酬を入手しました。"
+
+msgid "awards/gotRank"
+msgstr "新ランクを取得しました"
+
+msgid "awards/yes"
+msgstr "了解!"
+
+msgid "battleResult/losers"
+msgstr "敗北チーム"
+
+msgid "battleResult/rank/lose"
+msgstr "ランク喪失"
+
+msgid "battleResult/rank/progress/lose"
+msgstr "シェブロン喪失"
+
+msgid "battleResult/rank/progress/up"
+msgstr "シェブロン取得"
+
+msgid "battleResult/rank/unchanged"
+msgstr "シェブロン維持"
+
+msgid "battleResult/rank/up"
+msgstr "ランク達成"
+
+msgid "battleResult/winners"
+msgstr "勝利チーム"
+
+msgid "battleResult/yes"
+msgstr "了解!"
+
+msgid "battleresult/bonusBattlesEarned"
+msgstr " \n\nボーナスバトル追加:"
+
+msgid "battleresult/bonusBattlesEarned/efficiency"
+msgstr " \n達成したステージでの成績に基づき、通常ボーナスバトル %(amount)s回"
+
+msgid "battleresult/bonusBattlesEarned/steps/daily"
+msgstr " \n予選で取得したシェブロン数に基づき、デイリー・ボーナスバトル%(amount)s回"
+
+msgid "battleresult/bonusBattlesEarned/steps/persistent"
+msgstr " \n予選で取得したシェブロン数に基づき、通常ボーナスバトル %(amount)s回"
+
+msgid "battleresult/bonusBattlesUsed"
+msgstr "。ボーナスバトルをプレイしました。"
+
+msgid "battleresult/divisionEarned"
+msgstr "新\n部門"
+
+msgid "battleresult/first/inTop/lose"
+msgstr "あなたは取得EXPで敗北チーム内最高です"
+
+msgid "battleresult/first/inTop/win"
+msgstr "あなたは取得EXPで勝利チーム内最高です"
+
+msgid "battleresult/first/notInTop/lose"
+msgstr "あなたは取得EXPで敗北チーム内最高ではありません"
+
+msgid "battleresult/first/notInTop/win"
+msgstr "あなたは取得EXPで勝利チーム内最高ではありません"
+
+msgid "battleresult/headerText"
+msgstr "戦闘結果"
+
+msgid "battleresult/inTop/lose"
+msgstr "あなたは取得EXPで敗北チーム内 TOP %(topNumber)s プレイヤーに入りました"
+
+msgid "battleresult/inTop/win"
+msgstr "あなたは取得EXPで勝利チーム内 TOP %(topNumber)s プレイヤーに入りました"
+
+msgid "battleresult/leagueEarned"
+msgstr "リーグに\n移籍"
+
+msgid "battleresult/leagueUnavailable"
+msgstr "リーグはリーダーボードの計算後に確定します。\n "
+
+msgid "battleresult/notInTop/lose"
+msgstr "あなたは取得EXPで敗北チーム内 TOP %(topNumber)s プレイヤーに入れませんでした"
+
+msgid "battleresult/notInTop/minXP"
+msgstr "取得EXPが最小値に達しませんでした。"
+
+msgid "battleresult/notInTop/stageSaved"
+msgstr "このステージではシェブロン喪失から保護されています"
+
+msgid "battleresult/notInTop/win"
+msgstr "あなたは取得EXPで勝利チーム内 TOP %(topNumber)s プレイヤーに入れませんでした"
+
+msgid "battleresult/rankEarned"
+msgstr "ランク\n取得"
+
+msgid "battleresult/rankLost"
+msgstr "ランク\n喪失"
+
+msgid "battleresult/rankUnburnable"
+msgstr "変動\nなし"
+
+msgid "battleresult/shieldLose"
+msgstr "ランクシールド\n大破"
+
+msgid "battleresult/shieldLoseStep"
+msgstr "ランクシールド\n損傷"
+
+msgid "battleresult/stageEarned"
+msgstr "シェブロン\n取得"
+
+msgid "battleresult/stageLost"
+msgstr "シェブロン\n喪失"
+
+msgid "battleresult/stageNotEarned"
+msgstr "シェブロン\n維持"
+
+msgid "battleresult/stageSaved"
+msgstr "シェブロン\n維持"
+
+msgid "battleresult/stagesEarned"
+msgstr "シェブロン\n取得"
+
+msgid "battleresult/status/rankEarned"
+msgstr "ランク復帰"
+
+msgid "battleresult/status/rankLost"
+msgstr "ランク喪失"
+
+msgid "battleresult/status/rankUnburnable"
+msgstr "変動なし"
+
+msgid "battleresult/status/shieldCount"
+msgstr " \nHP 回復: %(count)s"
+
+msgid "battleresult/status/shieldLose"
+msgstr "ランクシールド大破!"
+
+msgid "battleresult/status/shieldLoseStep"
+msgstr "ランクシールド損傷!"
+
+msgid "battleresult/status/shieldRenew"
+msgstr " \nランクシールド回復"
+
+msgid "battleresult/status/shieldWarning"
+msgstr " \n次に敗北した場合、ランクを喪失する可能性があります。"
+
+msgid "battleresult/status/stageEarned"
+msgstr "シェブロン維持"
+
+msgid "battleresult/status/stageLost"
+msgstr "シェブロン喪失"
+
+msgid "battleresult/status/stageNotEarned"
+msgstr "シェブロン維持"
+
+msgid "battleresult/status/stageSaved"
+msgstr "シェブロン維持"
+
+msgid "battleresult/status/stagesEarned"
+msgstr "シェブロン取得"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgstr "「シーズン%(seasonName)s」の終了まで残り%(days)s日"
+
+msgid "calendarDay/title"
+msgstr "スケジュール"
+
+msgid "calendarStepsTooltip/title"
+msgstr "ステージスケジュール"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "モードに不適合"
+
+msgid "division/bronze"
+msgstr "3 級部門"
+
+msgid "division/classification"
+msgstr "予選"
+
+msgid "division/gold"
+msgstr "1 級部門"
+
+msgid "division/silver"
+msgstr "2 級部門"
+
+msgid "division/status/completed"
+msgstr "部門達成済み"
+
+msgid "division/status/completed/description"
+msgstr "選択中の部門を達成しました。"
+
+msgid "division/status/locked"
+msgstr "部門利用不可"
+
+msgid "division/status/locked/description"
+msgstr "前の部門が未達成です。"
+
+msgid "division/status/qualification"
+msgstr "総戦闘数: %(progress)s回"
+
+msgid "division/status/qualification/progress"
+msgstr "%(current)s / %(total)s"
+
+msgid "division/status/qualificationDescr/complete"
+msgstr "予選は突破済み"
+
+msgid "division/status/qualificationDescr/progress"
+msgstr "「予選」を突破するには合計%(battlesTotal)s回の戦闘を行う必要があります。\n予選を突破すると%(battlesList)s回の戦闘に対する報酬を受け取ることができます。"
+
+msgid "division/tooltip/battlesDescription"
+msgstr "%(battlesCount)s 戦構成"
+
+msgid "division/tooltip/desc/completed/text"
+msgstr "この部門の全ランクを取得しました。"
+
+msgid "division/tooltip/desc/completedFinal/text"
+msgstr "この部門の全ランクを取得しましたので、リーグに移籍します。"
+
+msgid "division/tooltip/desc/completedQual/text"
+msgstr "予選で所定の戦闘数を戦いました。"
+
+msgid "division/tooltip/desc/current/text"
+msgstr "完了すると次の部門に移籍すると共に、進行をブーストするボーナスバトルが付与されます。"
+
+msgid "division/tooltip/desc/currentFinal/text"
+msgstr "完了するとリーグに移籍すると共に、シーズンランカーでの順位を固めたり高めたりする上で役立つボーナスバトルが付与されます。"
+
+msgid "division/tooltip/desc/currentQual/text"
+msgstr "「予選」を突破すると%(battles)s回の戦闘に対する報酬を受け取ることができます。\n「予選」を突破すると「3級部門」に昇格すると同時にモード内進捗を加速させる「ボーナスバトル」が手に入ります。"
+
+msgid "division/tooltip/desc/locked/text"
+msgstr "完了すると次の部門に移籍すると共に、進行をブーストするボーナスバトルが付与されます。"
+
+msgid "division/tooltip/desc/lockedFinal/text"
+msgstr "完了するとリーグに移籍すると共に、シーズンランカーでの順位を固めたり高めたりする上で役立つボーナスバトルが付与されます。"
+
+msgid "division/tooltip/desc/title"
+msgstr "説明:"
+
+msgid "division/tooltip/rankDescription"
+msgstr "%(ranksCount)s ランク構成"
+
+msgid "division/tooltip/status/completed"
+msgstr "部門達成済み"
+
+msgid "division/tooltip/status/completedQual"
+msgstr "完了"
+
+msgid "division/tooltip/status/current"
+msgstr "部門未達成"
+
+msgid "division/tooltip/status/currentQual"
+msgstr "未完了"
+
+msgid "division/tooltip/status/locked"
+msgstr "部門利用不可"
+
+msgid "division/tooltip/status/locked/desc"
+msgstr "前の部門を達成してください。"
+
+msgid "division/tooltip/status/locked/descQual"
+msgstr "予選を完了していません。"
+
+msgid "introPage/alert/beforeSeason"
+msgstr "シーズン開始まで残り"
+
+msgid "introPage/alert/disabled"
+msgstr "こちらのモードは現在一時的にプレイできません。時間をおいて再度お試しください。"
+
+msgid "introPage/blocks/block1/description"
+msgstr "戦闘は「通常戦」のルールに基づいて10対10形式で行われます。特定のマップしか登場せず、使用できるのは研究可能なTier X車輌またはTier Xコレクション車輌に限定されています。"
+
+msgid "introPage/blocks/block1/title"
+msgstr "Tier X 車輌"
+
+msgid "introPage/blocks/block2/description"
+msgstr "「予選」と3段階の「部門」を突破して3種類の「リーグ」のいずれかへの到達を目指します。上に行けば行くほど実力の拮抗したトップクラスのプレイヤーとマッチングされるようになります。"
+
+msgid "introPage/blocks/block2/title"
+msgstr "モード内進捗の仕組み"
+
+msgid "introPage/blocks/block3/description"
+msgstr "「ランク戦2021–2022」は3つのシーズンで構成されます。各シーズンで好成績を収めればその度にTier X車輌専用の限定スタイルを入手できるほか、全シーズン終了時にはTier X車輌を含む貴重な報酬が手に入ります。"
+
+msgid "introPage/blocks/block3/title"
+msgstr "特別報酬"
+
+msgid "introPage/blocks/yearRewardDisabled"
+msgstr "新たな「ランク」に到達する度に嬉しい報酬が手に入ります。さらに年間を通して3シーズンすべてで「リーグ」到達を果たせばTier X車輌専用の限定3Dスタイルを受け取れます。"
+
+msgid "introPage/btns/accept"
+msgstr "了解!"
+
+msgid "introPage/btns/detailed"
+msgstr "モード詳細"
+
+msgid "introPage/btns/toHangar"
+msgstr "ガレージへ"
+
+msgid "introPage/description"
+msgstr "Tier X車輌で10対10形式の戦闘を勝ち抜き\n3つの部門の突破とリーグへの進出を目指せ！"
+
+msgid "introPage/timeLeft/days"
+msgstr "%(day)s日%(hour)s時間"
+
+msgid "introPage/timeLeft/hours"
+msgstr "%(hour)s時間%(min)s分"
+
+msgid "introPage/timeLeft/lessMin"
+msgstr "1分"
+
+msgid "introPage/timeLeft/min"
+msgstr "%(min)s分"
+
+msgid "notification/rankEarned"
+msgstr "ランク取得"
+
+msgid "notification/rankLost"
+msgstr "ランク喪失"
+
+msgid "notification/rankedMessage"
+msgstr "おめでとうございます!\nランク %(rankRoman)s を達成しました\nクレジット取得: %(creditsCount)s\nポイント取得: %(expCount)s\n勲章取得: %(medalsCount)s"
+
+msgid "notification/stageEarned"
+msgstr "シェブロン取得"
+
+msgid "notification/stageLost"
+msgstr "シェブロン喪失"
+
+msgid "notification/stageNotEarned"
+msgstr "シェブロン維持"
+
+msgid "notification/vehicleRankEarned"
+msgstr "車輌ランク取得"
+
+msgid "notification/vehicleRankLost"
+msgstr "車輌ランク喪失"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "%(serverName)sサーバー\n戦闘開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "%(serverName)sサーバー\nシーズン%(leftSeasonName)sは終了しています。"
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "%(serverName)sサーバー\n休戦まで残り%(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "%(serverName)sサーバー\n戦闘開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "%(serverName)sサーバー\nシーズン%(leftSeasonName)sは終了しています。"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "%(serverName)sサーバー\n戦闘開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "%(serverName)sサーバー\nシーズン%(leftSeasonName)sは終了しています。"
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s日"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s時間"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "1分"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s分"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "全サーバーが休戦中です。"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "%(serverName)sサーバーではシーズン%(leftSeasonName)sが終了しています。"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "%(serverName)sサーバーは%(primeDeltaDate)s%(primeDeltaTime)sまで休戦中です。"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "%(serverName)sサーバーではシーズン%(leftSeasonName)sが終了しています。"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "こちらのモードは%(serverName)sサーバーではプレイできません。"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "%(serverName)sサーバーは%(primeDeltaDate)s%(primeDeltaTime)sまで休戦中です。"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "%(serverName)sサーバーではシーズン%(leftSeasonName)sが終了しています。"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "こちらのモードは%(serverName)sサーバーではプレイできません。"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "%(serverName)sサーバーでの戦闘開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "%(serverName)sサーバーではシーズン%(leftSeasonName)sが終了しています。"
+
+msgid "primeTimes/timeText/available"
+msgstr "%(serverName)sサーバーでの休戦まで残り%(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "%(serverName)sサーバーでの戦闘開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "%(serverName)sサーバーではシーズン%(leftSeasonName)sが終了しています。"
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "%(serverName)sサーバーでの戦闘開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "%(serverName)sサーバーではシーズン%(leftSeasonName)sが終了しています。"
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "qualificationRewards/battlesNeeded"
+msgstr "「予選」を突破するには合計%(battlesCount)s回の戦闘を行う必要があります。"
+
+msgid "qualificationRewards/battlesPlayed"
+msgstr "総戦闘数:"
+
+msgid "qualificationRewards/description"
+msgstr "予選の最終戦を終えると、予選完了報酬が付与されます。"
+
+msgid "quests/detailed/allServersPrime"
+msgstr "休戦"
+
+msgid "quests/detailed/notInLeagues"
+msgstr "リーグへの到達が必要"
+
+msgid "quests/detailed/seasonEnd/days"
+msgstr "シーズン終了まで残り%(day)s日"
+
+msgid "quests/detailed/seasonEnd/default"
+msgstr "シーズン終了まで残りわずか"
+
+msgid "quests/detailed/seasonEnd/hours"
+msgstr "シーズン終了まで残り%(hour)s時間"
+
+msgid "quests/detailed/seasonEnd/lessMin"
+msgstr "シーズン終了まで残り1分未満"
+
+msgid "quests/detailed/seasonEnd/min"
+msgstr "シーズン終了まで残り%(min)s分"
+
+msgid "quests/detailed/unavailableLabel"
+msgstr "利用不可:"
+
+msgid "quests/tooltip/unavailable/body/allServersPrime"
+msgstr "ミッションは、ランク戦の休戦日終了後に利用可能になります。"
+
+msgid "quests/tooltip/unavailable/body/notInLeagues"
+msgstr "リーグへの到達が必要"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/days"
+msgstr "シーズン終了まで残り%(day)s日"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/default"
+msgstr "シーズン終了まで残りわずか"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/hours"
+msgstr "シーズン終了まで残り%(hour)s時間"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/lessMin"
+msgstr "シーズン終了まで残り1分未満"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/min"
+msgstr "シーズン終了まで残り%(min)s分"
+
+msgid "quests/tooltip/unavailable/bottom"
+msgstr "達成不能"
+
+msgid "quests/tooltip/unavailable/header/allServersPrime"
+msgstr "休戦"
+
+msgid "quests/tooltip/unavailable/header/notInLeagues"
+msgstr "リーグに未到達"
+
+msgid "quests/tooltip/unavailable/header/seasonEnd"
+msgstr "シーズン終了"
+
+msgid "questsTooltip/available"
+msgstr "シーズン終了まで残り%(timeDelta)s"
+
+msgid "questsTooltip/available/days"
+msgstr "%(day)s日"
+
+msgid "questsTooltip/available/hours"
+msgstr "%(hour)s時間"
+
+msgid "questsTooltip/available/lessMin"
+msgstr "1分未満"
+
+msgid "questsTooltip/available/min"
+msgstr "%(min)s分"
+
+msgid "questsTooltip/bottom"
+msgstr "新たなミッション: %(number)d"
+
+msgid "questsTooltip/cooldown/days"
+msgstr "新ミッション利用可能まで残り%(day)s日"
+
+msgid "questsTooltip/cooldown/hours"
+msgstr "新ミッション利用可能まで残り%(hour)s時間"
+
+msgid "questsTooltip/cooldown/lessMin"
+msgstr "新ミッション利用可能まで残り1分"
+
+msgid "questsTooltip/cooldown/min"
+msgstr "新ミッション利用可能まで残り%(min)s分"
+
+msgid "questsTooltip/header"
+msgstr "ランク戦用ミッション"
+
+msgid "questsTooltip/unavailable/allServersPrime"
+msgstr "現在休戦中のため利用不可"
+
+msgid "questsTooltip/unavailable/notInLeagues"
+msgstr "リーグ未到達のため挑戦できません。"
+
+msgid "questsTooltip/unavailable/seasonEnd/days"
+msgstr "利用不可。シーズン終了まで残り%(day)s日"
+
+msgid "questsTooltip/unavailable/seasonEnd/hours"
+msgstr "利用不可。シーズン終了まで残り%(hour)s時間"
+
+msgid "questsTooltip/unavailable/seasonEnd/lessMin"
+msgstr "利用不可。 シーズン終了まで残り1分足らず"
+
+msgid "questsTooltip/unavailable/seasonEnd/min"
+msgstr "利用不可。 シーズン終了まで残り%(min)s分"
+
+msgid "rankedAwards/awardsBlock/awardsHeaderTxt"
+msgstr "達成ランクに対する報酬"
+
+msgid "rankedAwards/awardsBlock/crystal"
+msgstr "ボンズ"
+
+msgid "rankedAwards/awardsBlock/description"
+msgstr "あなたの最高ランク"
+
+msgid "rankedAwards/awardsBlock/points"
+msgstr "ポイント"
+
+msgid "rankedAwards/awardsBlock/title"
+msgstr "ステージ %(cycleNumber)s 結果"
+
+msgid "rankedBattle/title"
+msgstr "ランク戦"
+
+msgid "rankedBattleCyclesView/tabs/final"
+msgstr "ファイナル"
+
+msgid "rankedBattleCyclesView/tabs/ranks"
+msgstr "ランク"
+
+msgid "rankedBattleCyclesView/title"
+msgstr "シーズン報酬"
+
+msgid "rankedBattleHeader/points/current"
+msgstr "進行中"
+
+msgid "rankedBattleHeader/points/final"
+msgstr "総ポイント数: %(points)s"
+
+msgid "rankedBattleHeader/points/past"
+msgstr "ポイント: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/body"
+msgstr "現ステージは %(date)s に終了します"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/header"
+msgstr "ステージ %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/body"
+msgstr "それまでのステージで取得した全てのポイントがファイナルに加算され、それによって報酬を取得できます。\nシーズンファイナル—%(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/header"
+msgstr "シーズンファイナル"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/body"
+msgstr "このステージは %(date)s に開始されます"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/header"
+msgstr "ステージ %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/body"
+msgstr "ポイント取得: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/header"
+msgstr "ステージ %(cycle)d 終了"
+
+msgid "rankedBattleHeader/tooltip/date"
+msgstr "%y/%m/%d"
+
+msgid "rankedBattleMainView/bonusBattles"
+msgstr "ボーナスバトル: %(battlesCount)s"
+
+msgid "rankedBattleMainView/date/days"
+msgstr "終了まで %(day)s 日"
+
+msgid "rankedBattleMainView/date/hours"
+msgstr "終了まで %(hour)s 時間"
+
+msgid "rankedBattleMainView/date/lessMin"
+msgstr "終了まで 1 分未満"
+
+msgid "rankedBattleMainView/date/min"
+msgstr "終了まで %(min)s 分"
+
+msgid "rankedBattleMainView/date/period"
+msgstr "%(start)s–%(finish)s"
+
+msgid "rankedBattleMainView/divisions/currentRank"
+msgstr "あなたのランク"
+
+msgid "rankedBattleMainView/divisions/rank"
+msgstr "ランク %(rank)s"
+
+msgid "rankedBattleMainView/emptyBubble"
+msgstr " "
+
+msgid "rankedBattleMainView/infoPage/header"
+msgstr "Tier X 車輌、貢献EXP、ボーナスバトル、3 部門の進行、リーグでの激戦"
+
+msgid "rankedBattleMainView/leaguesView/descr"
+msgstr "戦闘で活躍して「シェブロン」を集め、ランキングでTOP%(count)d入りを目指しましょう。"
+
+msgid "rankedBattleMainView/leaguesView/league1"
+msgstr "ゴールドリーグ"
+
+msgid "rankedBattleMainView/leaguesView/league2"
+msgstr "シルバーリーグ"
+
+msgid "rankedBattleMainView/leaguesView/league3"
+msgstr "ブロンズリーグ"
+
+msgid "rankedBattleMainView/leaguesView/top"
+msgstr "TOP%(count)d"
+
+msgid "rankedBattleMainView/leaguesView/topDescr"
+msgstr "戦闘で活躍して「シェブロン」を集め、ランキングでTOP%(count)dを維持しつつ、さらなる上位を目指しましょう。"
+
+msgid "rankedBattleMainView/leaguesView/unavailableDescr"
+msgstr "リーグを判定中。結果はもうすぐ発表されます。"
+
+msgid "rankedBattleMainView/leaguesView/unavailableTitle"
+msgstr "リーグ未決定"
+
+msgid "rankedBattleMainView/leaguesView/yearLeaderboardDisabled"
+msgstr "好成績を収めてシェブロンを取得することで、リーグ内での順位を維持しましょう。"
+
+msgid "rankedBattleMainView/season"
+msgstr "シーズン%(season)s"
+
+msgid "rankedBattleMainView/seasonComplete"
+msgstr "シーズン%(season)sは終了しました"
+
+msgid "rankedBattleMainView/seasonCompleteSingle"
+msgstr "シーズン%(season)sは終了しました。"
+
+msgid "rankedBattleMainView/seasonGap"
+msgstr "次のシーズン %(newSeason)s は %(date)s に開始"
+
+msgid "rankedBattleMainView/seasonGap/bannedDivision/descr"
+msgstr "ゲームルール違反に伴い、今シーズン中に取得した全てのランクトークンが剥奪されました。"
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/descr"
+msgstr "ゲームルール違反に伴い、シーズンランカーリストから除外され、今シーズン中に取得した全てのランクトークンが剥奪されました。"
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/withoutPoints/descr"
+msgstr "ゲームルールへの違反が確認されたため、シーズンランカーのリストから除外されました。"
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInDivisions/descr"
+msgstr "ゲームルール違反に伴い、ランクトークンが 1 つ剥奪されました"
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInSeason/descr"
+msgstr "ゲームルール違反に伴い、今シーズン中に取得した全てのランクトークンが剥奪されました。"
+
+msgid "rankedBattleMainView/seasonGap/division/descr"
+msgstr "あなたがこのシーズンで達成した最高ランク"
+
+msgid "rankedBattleMainView/seasonGap/division/ratingBtn"
+msgstr "シーズンランカー"
+
+msgid "rankedBattleMainView/seasonGap/division/title"
+msgstr "ランク %(rank)s (%(division)s)"
+
+msgid "rankedBattleMainView/seasonGap/league/descr"
+msgstr "このシーズンの完了おめでとうございます!"
+
+msgid "rankedBattleMainView/seasonGap/league/ratingBtn"
+msgstr "リーダーボードに移動"
+
+msgid "rankedBattleMainView/seasonGap/league1"
+msgstr "ゴールドリーグ"
+
+msgid "rankedBattleMainView/seasonGap/league2"
+msgstr "シルバーリーグ"
+
+msgid "rankedBattleMainView/seasonGap/league3"
+msgstr "ブロンズリーグ"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/descr"
+msgstr "シーズンベスト"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/title"
+msgstr "予選を完了しました"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/descr"
+msgstr "今シーズン ランク未獲得"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/title"
+msgstr "ランクなし"
+
+msgid "rankedBattleMainView/seasonGap/rolledDivision/descr"
+msgstr "アカウント復旧後にシーズンランカーのリストから除外されました。"
+
+msgid "rankedBattleMainView/seasonGap/rolledLeague/descr"
+msgstr "アカウント復旧後にシーズンランカーのリストから除外されました。"
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInDivisions/descr"
+msgstr "アカウント復旧後にシーズンランカーのリストから除外されました。"
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInSeason/descr"
+msgstr "アカウント復旧後にシーズンランカーのリストから除外されました。"
+
+msgid "rankedBattleMainView/seasonGap/stats/efficiency"
+msgstr "成績"
+
+msgid "rankedBattleMainView/seasonGap/stats/outOfRating"
+msgstr "リーダーボード外"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/descr"
+msgstr "集計結果後、待望の報酬が付与されます"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/title"
+msgstr "結果を集計中"
+
+msgid "rankedBattleMainView/specialSeason"
+msgstr "X"
+
+msgid "rankedBattleMainView/stats/battlesInLeague"
+msgstr "リーグでの戦闘数"
+
+msgid "rankedBattleMainView/stats/battlesTotal"
+msgstr "合計戦闘数"
+
+msgid "rankedBattleMainView/stats/divisionEfficiency"
+msgstr "部門での成績"
+
+msgid "rankedBattleMainView/stats/qualificationEfficiency"
+msgstr "予選での\n成績"
+
+msgid "rankedBattleMainView/stats/qualificationSteps"
+msgstr "予選での\nシェブロン数"
+
+msgid "rankedBattleMainView/stats/rating/title"
+msgstr "リーダーボードでの順位"
+
+msgid "rankedBattleMainView/stats/rating/tooltip"
+msgstr "リーダーボードは %(minutes)s 分毎に更新されます。最終更新: %(time)s"
+
+msgid "rankedBattleMainView/stats/rating/unavailableTooltip"
+msgstr "リーダーボードは技術的な理由により一時的に更新されていません。"
+
+msgid "rankedBattleMainView/stats/seasonEfficiency"
+msgstr "総合成績"
+
+msgid "rankedBattleMainView/stats/stripesInLeague"
+msgstr "リーグでのシェブロン数"
+
+msgid "rankedBattleMainView/stats/stripesTotal"
+msgstr "総シェブロン数"
+
+msgid "rankedBattleMainView/yearGap/header"
+msgstr "「ランク戦2021–2022」の結果"
+
+msgid "rankedBattlePage/closeBtn"
+msgstr "閉じる"
+
+msgid "rankedBattleView/awardBlock/emptyLeague"
+msgstr "—"
+
+msgid "rankedBattleView/awardBlock/points/currLeagueHeader"
+msgstr "現リーグ"
+
+msgid "rankedBattleView/awardBlock/points/header"
+msgstr "シーズンランカー"
+
+msgid "rankedBattleView/awardBlock/points/noLeagueHeader"
+msgstr "リーダーボード外"
+
+msgid "rankedBattleView/awardBlock/points/noPriseHeader"
+msgstr "ウッド・リーグ"
+
+msgid "rankedBattleView/awardBlock/points/totalLabel"
+msgstr "合計ポイント: "
+
+msgid "rankedBattleView/awardBlock/pointsAlt/description"
+msgstr "クリックしてシーズンランカーを確認"
+
+msgid "rankedBattleView/awardBlock/quest/description/battlesLeft"
+msgstr "有効な戦闘数:"
+
+msgid "rankedBattleView/awardBlock/quest/description/noQuest"
+msgstr "ミッションは現在ありません"
+
+msgid "rankedBattleView/awardBlock/quest/header"
+msgstr "ミッション"
+
+msgid "rankedBattleView/awardBlock/seasonAward/description"
+msgstr "クリックして報酬を確認"
+
+msgid "rankedBattleView/awardBlock/seasonAward/header"
+msgstr "シーズン勲章"
+
+msgid "rankedBattleView/closeBtn"
+msgstr "戻る"
+
+msgid "rankedBattleView/closeBtnDescr"
+msgstr "ガレージへ"
+
+msgid "rankedBattleView/nextStageBlock/stage"
+msgstr "ステージ %(cycleNumber)s"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/body"
+msgstr "クリックしてランク戦を開始"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/header"
+msgstr "前進せよ!"
+
+msgid "rankedBattleView/playVideoBtn"
+msgstr "モード紹介ビデオ"
+
+msgid "rankedBattleView/progressBlock/bestRank"
+msgstr "シーズン記録"
+
+msgid "rankedBattleView/progressBlock/continue"
+msgstr "ポイントを取得してファイナルで報酬を獲得"
+
+msgid "rankedBattleView/progressBlock/currentRank"
+msgstr "現ランク: %(rank)s"
+
+msgid "rankedBattleView/progressBlock/finalRank"
+msgstr "おめでとうございます! 今シーズンの最高ランク %(rank)s を達成しました"
+
+msgid "rankedBattleView/progressBlock/steps"
+msgstr "シェブロン: %(numbers)s"
+
+msgid "rankedBattleView/progressBlock/vehicleRank"
+msgstr "ランクトークン"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/body"
+msgstr "クリックしてシーズンの全ステージに関する情報を確認"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/header"
+msgstr "カレンダー"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/attentionText"
+msgstr "ステージ %(cycleNumber)s 結果、あと %(timeLeft)s"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/cycleItem"
+msgstr "シーズン %(cycleNumber)s: %(month0)s/%(day0)s—%(month1)s/%(day1)s"
+
+msgid "rankedBattleView/statusBlock/statusText"
+msgstr "このシーズンの結果確定まで: "
+
+msgid "rankedBattleView/title"
+msgstr "ランク戦"
+
+msgid "rankedBattlesBattleResults/animationCheckBoxLabel"
+msgstr "アニメーション表示"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)sはランク戦に参加できません。"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/header"
+msgstr "車輌タイプが不適合"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/body"
+msgstr "ランク戦に参加するには%(levelSubStr)sを選択してください"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/header"
+msgstr "車輌Tierが不適合"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Tier %(levels)s車輌"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)sはランク戦に参加できません。"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/header"
+msgstr "車輌が不適合"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/body"
+msgstr "ステージ終了時に付与され、価値ある報酬が含まれていました。報酬の数と品質は、リーダーボードでの順位に応じたものでした。"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/header"
+msgstr "報酬入りクレート"
+
+msgid "rankedBattlesCyclesView/btnClose"
+msgstr "閉じる"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/awardRecieved"
+msgstr "報酬を取得済み"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/body"
+msgstr "ステージ終了時に付与され、各種の報酬が含まれていました。報酬の数と品質は、達成したランクに依存したものでした。"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/header"
+msgstr "報酬入りクレート"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/body"
+msgstr "パーソナルリザーブやレアな拡張パーツといった特別アイテムと交換可能です。1 ボンズは、パーソナルリザーブまたは拡張パーツ 1 セットと交換できます。ボンドをより多く取得することで、より多くの価値あるアイテムを入手できます。"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/header"
+msgstr "ボンズ"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rank"
+msgstr "ランク"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rankAward"
+msgstr "達成したランクに対する報酬"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body"
+msgstr "1 ステージ中に達成した最高結果に対して授与されます。最高結果は、ランクを喪失した場合であってもリセットされません。"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/header"
+msgstr "ステージ終了報酬"
+
+msgid "rankedBattlesCyclesView/currentCycle/vehicleRankComment"
+msgstr "通常報酬"
+
+msgid "rankedBattlesCyclesView/final/btnLadder"
+msgstr "リーダーボードに移動"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/body"
+msgstr "クリックしてシーズンランカー・リストに移動し、自分の順位を確認"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/header"
+msgstr "シーズンランカー"
+
+msgid "rankedBattlesCyclesView/final/first"
+msgstr "TOP %(count)s プレイヤー"
+
+msgid "rankedBattlesCyclesView/final/intermediate"
+msgstr "次 %(count)s"
+
+msgid "rankedBattlesCyclesView/final/last"
+msgstr "ウッド・リーグ"
+
+msgid "rankedBattlesCyclesView/final/lastComment"
+msgstr "ポイントを取得してリーダーボードで上位を目指そう。\n付与される最終報酬は、その時点でのリーグに\n応じて決まります。"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip"
+msgstr "あなたの現リーグに関する情報は一時的にご利用いただけません。後で再度お試しください。"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/position"
+msgstr "リーダーボードでの順位"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/seasonAward"
+msgstr "ファイナル報酬"
+
+msgid "rankedBattlesCyclesView/noAchievements/future/footer"
+msgstr "%(start)s から %(end)s まで"
+
+msgid "rankedBattlesCyclesView/noAchievements/past/footer"
+msgstr "あなたは現ステージではランクを達成していません。\n取得ポイント: %(points)s"
+
+msgid "rankedBattlesUnreachableView/bottom/missions"
+msgstr "パーソナルミッションの達成"
+
+msgid "rankedBattlesUnreachableView/bottom/premium"
+msgstr "%(premiumType)sプレミアムアカウント使用"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/basic"
+msgstr "Wargaming"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/plus"
+msgstr "WoT"
+
+msgid "rankedBattlesUnreachableView/bottom/reserves"
+msgstr "パーソナルリザーブの使用"
+
+msgid "rankedBattlesUnreachableView/bottomText"
+msgstr "Tier %(levels)s車輌を研究する最速の方法は？"
+
+msgid "rankedBattlesUnreachableView/closeBtnLabel"
+msgstr "閉じる"
+
+msgid "rankedBattlesUnreachableView/subtitleText"
+msgstr "モード利用不可"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForBuy"
+msgstr "ランク戦へ参加するには、ガレージ内にTier %(levels)s車輌が必要です。\n研究したものの購入していないTier %(levels)s車輌があります。"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForRestore"
+msgstr "ランク戦へ参加するには、ガレージ内にTier %(levels)s車輌が必要です。\nリカバリー可能なTier %(levels)s車輌があります。"
+
+msgid "rankedBattlesUnreachableView/vehicleUnavailable"
+msgstr "ランク戦へ参加するには、ガレージ内にTier %(levels)s車輌が必要です。"
+
+msgid "rankedBattlesViewHeader/tabs/current"
+msgstr "ランク"
+
+msgid "rankedBattlesViewHeader/tabs/final"
+msgstr "ファイナル"
+
+msgid "rankedBattlesWidget/bonusMultiplier"
+msgstr "x%(count)s"
+
+msgid "rankedBattlesWidget/bonusSteps"
+msgstr "(ボーナスバトル)"
+
+msgid "rankedBattlesWidget/league0"
+msgstr "不明な"
+
+msgid "rankedBattlesWidget/league1"
+msgstr "ゴールド"
+
+msgid "rankedBattlesWidget/league2"
+msgstr "シルバー"
+
+msgid "rankedBattlesWidget/league3"
+msgstr "ブロンズ"
+
+msgid "rankedBattlesWidget/leagueDecrease/info"
+msgstr "%(leagueName)sリーグに復帰しました"
+
+msgid "rankedBattlesWidget/leagueDecrease/title"
+msgstr "リーグ変動"
+
+msgid "rankedBattlesWidget/leagueIncrease/info"
+msgstr "%(leagueName)sリーグに移籍しました"
+
+msgid "rankedBattlesWidget/leagueIncrease/title"
+msgstr "リーグ変動"
+
+msgid "rankedBattlesWidget/leaguesAchievment/info"
+msgstr "リーダーボードでの順位争いが可能になりました"
+
+msgid "rankedBattlesWidget/leaguesAchievment/title"
+msgstr "リーグ利用可能"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/info"
+msgstr "次の部門に昇格しました"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/title"
+msgstr "新部門"
+
+msgid "rankedBattlesWidget/newRankCongrat"
+msgstr "おめでとうございます!\nランクを取得しました!"
+
+msgid "rankedBattlesWidget/noChanges"
+msgstr "変化なし"
+
+msgid "rankedBattlesWidget/qualificationIdleText"
+msgstr "予選完了までの戦闘数:\n%(currentBattles)s / %(totalBattles)s"
+
+msgid "rewardsView/common/currentReward"
+msgstr "取得可能な報酬"
+
+msgid "rewardsView/tabs/leagues"
+msgstr "リーグ報酬"
+
+msgid "rewardsView/tabs/leagues/awardDescr/style"
+msgstr "スタイル「%(styleName)s」とバッジ「%(badgeName)s」"
+
+msgid "rewardsView/tabs/leagues/description"
+msgstr "報酬として付与されるスタイルとバッジは、次のシーズンの終了時までの期間限定です。次のシーズンの終了後にも同じスタイルとバッジを維持するためには、同じリーグに再び到達する必要があります。到達できなかった場合は、そのスタイルとバッジは利用できなくなります。別のリーグに到達した場合には、そのリーグのスタイルとバッジが適用されます。"
+
+msgid "rewardsView/tabs/leagues/description/league1"
+msgstr "全部門を突破して成績で上位20%%入りを達成するか、他のプレーヤーよりも早くリーグ入りを果たしたプレイヤーには、スタイルが贈呈されます。誰でも手に入れられる代物ではないため、車輌に適用すれば、他のプレイヤーに実力を知らしめることができます。このスタイルを使用するには、その権利を「ランク戦」モードの各シーズンで防衛する必要があります。"
+
+msgid "rewardsView/tabs/leagues/description/league2"
+msgstr "このスタイルは、充分な実力と貢献を示したシーズン入賞者に授与されるものであり、シーズン終了時にシルバーリーグに属していたプレイヤーが対象です。車輌に適用することで、実際の実績を誇示することができます。このスタイルを使用する権利は、ランク戦モードの各シーズンにおいて防衛することが求められます。"
+
+msgid "rewardsView/tabs/leagues/description/league3"
+msgstr "このスタイルは、シーズン終了時にブロンズリーグに属していたプレイヤーが対象です。車輌に適用することで、実際の実績を誇示することができます。このスタイルを使用する権利は、ランク戦モードの各シーズンにおいて防衛することが求められます。"
+
+msgid "rewardsView/tabs/leagues/league1"
+msgstr "ゴールドリーグ"
+
+msgid "rewardsView/tabs/leagues/league2"
+msgstr "シルバーリーグ"
+
+msgid "rewardsView/tabs/leagues/league3"
+msgstr "ブロンズリーグ"
+
+msgid "rewardsView/tabs/ranks"
+msgstr "ランク報酬"
+
+msgid "rewardsView/tabs/year"
+msgstr "年間報酬"
+
+msgid "rewardsView/tabs/year/compensation/extraPoints"
+msgstr "%(points)s%(rankedImg)sに対する補償として、%(crystal)s%(crystalImg)s獲得しました"
+
+msgid "rewardsView/tabs/year/compensation/notEnough"
+msgstr "補償として、%(crystal)s%(crystalImg)s獲得しました"
+
+msgid "rewardsView/tabs/year/current"
+msgstr "取得可能な報酬"
+
+msgid "rewardsView/tabs/year/currentChoose"
+msgstr "報酬を選択"
+
+msgid "rewardsView/tabs/year/currentFinal"
+msgstr "報酬を取得済み"
+
+msgid "rewardsView/tabs/year/title/awarded"
+msgstr "ランクトークン %(points)s枚"
+
+msgid "rewardsView/tabs/year/title/notAwarded"
+msgstr "ランクトークン: %(points)s"
+
+msgid "seasonComplete/bestRank"
+msgstr "あなたが達成した最高ランク"
+
+msgid "seasonComplete/bigTitle"
+msgstr "シーズン %(season)s 結果"
+
+msgid "seasonComplete/division/tooltip/header"
+msgstr "ランク %(rank)s (%(division)s)"
+
+msgid "seasonComplete/effectLabel"
+msgstr "成績"
+
+msgid "seasonComplete/leadersButton"
+msgstr "シーズンランカー"
+
+msgid "seasonComplete/outOfRating"
+msgstr "リーダーボード外"
+
+msgid "seasonComplete/placeInRating"
+msgstr "リーダーボードでの順位"
+
+msgid "seasonComplete/smallTitle"
+msgstr "ランク戦"
+
+msgid "seasonComplete/sprinterImproved"
+msgstr "あなたはいち早くリーグに到達しましたので、ゴールドリーグ報酬が付与されます。"
+
+msgid "seasonComplete/sprinterTop"
+msgstr "あなたはいち早くリーグに到達しました。"
+
+msgid "seasonComplete/tooltip/body"
+msgstr "シーズン %(season)s でのあなたの結果"
+
+msgid "selectableReward/subTitle"
+msgstr "報酬を選択可能"
+
+msgid "selectableReward/title"
+msgstr "【ランク戦】%(rewardName)s"
+
+msgid "selectableReward/tooltip/equipmentChoice/limit"
+msgstr "リストに掲載されたアイテムはいずれも1度ずつしか入手できません。"
+
+msgid "selectableReward/tooltip/equipmentChoice/list"
+msgstr "• 高性能換気装置\n• 高性能安定装置\n• 新型装填装置\n• 耐摩耗射撃装置\n• 試作型高視認性レンズ\n• 高性能モジュール構造\n• 高性能ターボチャージャー\n• 高性能装甲材"
+
+msgid "selectableReward/tooltip/equipmentChoice/title"
+msgstr "選択できるボンズ拡張パーツ"
+
+msgid "selectorTooltip/desc"
+msgstr "研究可能なTier X車輌またはTier Xコレクション車輌でのみプレイできる戦闘モードです。ルールは通常戦のものに準拠し、チームはランクが比較的近いプレイヤー同士で編成されます。"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "シーズン終了まで:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "戦闘スケジュール"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "今日"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "明日"
+
+msgid "selectorTooltip/title"
+msgstr "ランク戦"
+
+msgid "statistic/playersRaiting"
+msgstr "シーズンランカー"
+
+msgid "statistic/vehicleRank"
+msgstr "ランクトークン取得"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s 日"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s 時間"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1分"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s 分"
+
+msgid "tooltip/closeButton/body"
+msgstr "報酬は自動で追加されます"
+
+msgid "tooltip/closeButton/header"
+msgstr "ガレージに戻る"
+
+msgid "tooltip/step/conditions"
+msgstr "取得EXPで%(team)s内\nTOP %(battlesNum)s に入る"
+
+msgid "tooltip/step/conditions/header"
+msgstr "取得"
+
+msgid "tooltip/step/decommission/description"
+msgstr "取得EXPで敗北チーム内 %(fromTill)s 位だった場合。"
+
+msgid "tooltip/step/decommission/header"
+msgstr "剥奪"
+
+msgid "tooltip/step/decommissionWin/description"
+msgstr "取得EXPで勝利チーム内 %(fromTill)s 位だった場合。"
+
+msgid "tooltip/step/description"
+msgstr "次のランクへの進捗度を表す特別要素"
+
+msgid "tooltip/step/fromTill"
+msgstr "%(fromPlace)s–%(tillPlace)s"
+
+msgid "tooltip/step/header"
+msgstr "シェブロン"
+
+msgid "tooltip/step/losers"
+msgstr "敗北チーム"
+
+msgid "tooltip/step/notCharged/description"
+msgstr "取得EXPで勝利チーム内 TOP %(battlesNum)s に入れなかったものの、%(fromTill)s 位だった場合。"
+
+msgid "tooltip/step/notCharged/header"
+msgstr "維持"
+
+msgid "tooltip/step/notChargedLose/description"
+msgstr "取得EXPで敗北チーム内 TOP %(battlesNum)s に入れなかったものの、%(fromTill)s 位だった場合。"
+
+msgid "tooltip/step/or"
+msgstr "または"
+
+msgid "tooltip/step/winners"
+msgstr "勝利チーム"
+
+msgid "welcomeScreen/btn"
+msgstr "前進せよ!"
+
+msgid "welcomeScreen/centerRule"
+msgstr "強敵を相手に戦い、ランク向上を目指しましょう"
+
+msgid "welcomeScreen/centerRuleTooltip/body"
+msgstr "敵味方ともにランクが比較的近いプレイヤー同士でチームが編成されます"
+
+msgid "welcomeScreen/centerRuleTooltip/header"
+msgstr "強敵"
+
+msgid "welcomeScreen/closeBtn"
+msgstr "閉じる"
+
+msgid "welcomeScreen/closeBtnTooltip/body"
+msgstr "現在の画面を閉じてガレージに戻ります。"
+
+msgid "welcomeScreen/closeBtnTooltip/header"
+msgstr "閉じる"
+
+msgid "welcomeScreen/equalityText"
+msgstr "="
+
+msgid "welcomeScreen/header"
+msgstr "ようこそ!"
+
+msgid "welcomeScreen/leftRule"
+msgstr "お気に入りの Tier X\n車輌で戦闘"
+
+msgid "welcomeScreen/leftRuleTooltip/body"
+msgstr "Tier Xの研究可能な車輌またはコレクション車輌から\nお気に入りの1輌を選択して戦闘できます。"
+
+msgid "welcomeScreen/leftRuleTooltip/header"
+msgstr "Tier X"
+
+msgid "welcomeScreen/negative/body"
+msgstr "{team} した場合、取得EXPでチーム内 TOP {topNumber} に入ること"
+
+msgid "welcomeScreen/negative/team"
+msgstr "敗北"
+
+msgid "welcomeScreen/positive/body"
+msgstr "{team} した場合、取得EXPでチーム内 TOP {topNumber} に入ること"
+
+msgid "welcomeScreen/positive/team"
+msgstr "勝利する"
+
+msgid "welcomeScreen/rankDescr"
+msgstr "ランク 1 達成のために"
+
+msgid "welcomeScreen/ranks/header"
+msgstr "取得EXPで上位を達成し、ランク向上を目指しましょう!"
+
+msgid "welcomeScreen/ranksDescr"
+msgstr "順位が高いほど、より良い報酬が得られます"
+
+msgid "welcomeScreen/rightRule"
+msgstr "ランクが高いほど、最終的により価値のある報酬が得られます"
+
+msgid "welcomeScreen/rightRuleTooltip/body"
+msgstr "達成したランクが高いほど、より良い報酬が得られます"
+
+msgid "welcomeScreen/rightRuleTooltip/header"
+msgstr "価値ある報酬"
+
+msgid "welcomeScreen/rulesDelimeter"
+msgstr "または"
+
+msgid "yearLeaderboard/rewardView/battleType"
+msgstr "ランク戦"
+
+msgid "yearLeaderboard/rewardView/clanDescr"
+msgstr "[%(clan)s] "
+
+msgid "yearLeaderboard/rewardView/leaderboardBtn/label"
+msgstr "リーダーボードに移動"
+
+msgid "yearLeaderboard/rewardView/positionDescr"
+msgstr "リーダーボードでの{name} {clan}の順位"
+
+msgid "yearLeaderboard/rewardView/reward/label"
+msgstr "プレイヤー名の隣に表示できる特別な%(name)バッジを受け取りました。"
+
+msgid "yearLeaderboard/rewardView/reward/nameTemplate"
+msgstr "「{name}」"
+
+msgid "yearLeaderboard/rewardView/title"
+msgstr "TOP{total}に到達"
+
+msgid "yearRewards/box/big/title"
+msgstr "上級報酬"
+
+msgid "yearRewards/box/large/title"
+msgstr "最高報酬"
+
+msgid "yearRewards/box/medium/title"
+msgstr "標準報酬"
+
+msgid "yearRewards/box/small/title"
+msgstr "小報酬"
+
+msgid "yearRewards/tooltip/any/reward/title"
+msgstr "報酬"
+
+msgid "yearRewards/tooltip/box/big/title"
+msgstr "上級報酬"
+
+msgid "yearRewards/tooltip/box/large/title"
+msgstr "特級報酬"
+
+msgid "yearRewards/tooltip/box/medium/title"
+msgstr "標準報酬"
+
+msgid "yearRewards/tooltip/box/small/title"
+msgstr "並等報酬"
+
+msgid "yearRewards/tooltip/box/subTitle"
+msgstr "年間報酬です。「ランク戦」の全3シーズンが終了した際に必要な数の「ランクトークン」を取得しているプレイヤーに対して贈呈されます。"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/1"
+msgstr "改良型拡張パーツを1基選んで報酬として受け取れます。"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/2"
+msgstr "改良型拡張パーツを2基選んで報酬として受け取れます。同じ拡張パーツを重複して選択することはできません。"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/3"
+msgstr "改良型拡張パーツを3基選んで報酬として受け取れます。同じ拡張パーツを重複して選択することはできません。"
+
+msgid "yearRewards/tooltip/equipmentChoice/list"
+msgstr "• 高性能換気装置\n• 高性能安定装置\n• 新型装填装置\n• 耐摩耗射撃装置\n• 試作型高視認性レンズ\n• 高性能モジュール構造\n• 高性能ターボチャージャー\n• 高性能装甲材"
+
+msgid "yearRewards/tooltip/equipmentChoice/title"
+msgstr "改良型拡張パーツ"
+
+msgid "yearRewards/tooltip/needPoints"
+msgstr "必要なランクトークン"
+
+msgid "yearRewards/tooltip/status/current/description"
+msgstr "必要量の「ランクトークン」を取得しているため「年間報酬」を受け取ることができます。"
+
+msgid "yearRewards/tooltip/status/current/title"
+msgstr "現在の報酬"
+
+msgid "yearRewards/tooltip/status/currentChoose/description"
+msgstr "「年間報酬」を受け取りました。「報酬を選択」ボタンから好きな「ボンズ拡張パーツ」の選択画面に移動できます。"
+
+msgid "yearRewards/tooltip/status/currentChoose/title"
+msgstr "報酬を受け取りました。好きな「ボンズ拡張パーツ」を選択できます。"
+
+msgid "yearRewards/tooltip/status/currentFinal/description"
+msgstr "年間報酬を受け取りました！"
+
+msgid "yearRewards/tooltip/status/currentFinal/title"
+msgstr "報酬を入手！"
+
+msgid "yearRewards/tooltip/status/locked/description"
+msgstr "ランク戦で各部門を達成するか、リーグでプレイすることで取得できます。"
+
+msgid "yearRewards/tooltip/status/locked/title"
+msgstr "ランクトークン不足"
+
+msgid "yearRewards/tooltip/status/lockedFinal/description"
+msgstr "受け取りに必要な「ランクトークン」を取得していません。"
+
+msgid "yearRewards/tooltip/status/lockedFinal/title"
+msgstr "ランクトークン不足"
+
+msgid "yearRewards/tooltip/status/passed/description"
+msgstr "より貴重な年間報酬を受け取ることができます"
+
+msgid "yearRewards/tooltip/status/passed/title"
+msgstr "報酬なし"
+
+msgid "yearRewards/tooltip/status/passedFinal/description"
+msgstr "より貴重な年間報酬をすでに受け取っています"
+
+msgid "yearRewards/tooltip/status/passedFinal/title"
+msgstr "報酬なし"
+
+msgid "year_award/acceptButton/acceptLabel"
+msgstr "了解！"
+
+msgid "year_award/acceptButton/hangarLabel"
+msgstr "ガレージで表示"
+
+msgid "year_award/compensationLabel"
+msgstr "{total} {pointsIcon}獲得しました。{compensated} {pointsIcon}に対する補償として、{crystals} {crystalIcon}獲得しました。"
+
+msgid "year_award/rankedLabel"
+msgstr "ランク戦"
+
+msgid "year_award/rewardSelected"
+msgstr "報酬を取得済み"
+
+msgid "year_award/rewardsToSelect"
+msgstr "選択できる報酬: {count}"

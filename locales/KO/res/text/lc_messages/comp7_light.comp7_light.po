@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/button/changeServer"
+msgstr "서버 변경"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "세부 정보"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "현재 서버에서 해당 모드 이용 불가 %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "모든 서버에서 해당 모드 이용 불가"
+
+msgid "alertMessage/modeOffline"
+msgstr "데이터베이스 오류가 발생했습니다. 게임 모드를 이용할 수 없습니다."
+
+msgid "alertMessage/noVehicles"
+msgstr "차고에 적합한 전차 없음 %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "확인"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "격전 라이트"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "최종 스테이지 완료!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "스테이지 %(level)s 완료!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "모든 임무 완료!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "완료"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "만료까지: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "격전 라이트 임무"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "새로운 격전 라이트 임무 부여까지: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "보상"
+msgstr[1] "보상"
+msgstr[2] "보상"
+
+msgid "battleResult/header/deserter"
+msgstr "제재 적용"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "격전 라이트 진행 상황"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s~%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "격전 라이트 종료까지 %(days)d일"
+msgstr[1] "격전 라이트 종료까지 %(days)d일"
+msgstr[2] "격전 라이트 종료까지 %(days)d일"
+
+msgid "calendarDay/title"
+msgstr "일정"
+
+msgid "closeButtonLabel"
+msgstr "닫기"
+
+msgid "countDown/text"
+msgstr "이벤트 시작까지\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "%(levels)s단계 전차로 긴박감 넘치는 7 대 7 전투를 펼치는 모드입니다. 사전 평가, 랭크, 전적이 제외된 격전 모드를 즐기고 일일 임무 보상을 획득해 보십시오."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "모드"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — 게임 모드 확인"
+
+msgid "entryPointTooltip/modeName"
+msgstr "격전 라이트"
+
+msgid "entryPointTooltip/status/active"
+msgstr "%(timer)s 동안 이용 가능"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "휴전 %(timer)s"
+
+msgid "featureName"
+msgstr "격전 라이트"
+
+msgid "featureNameCapitalized"
+msgstr "격전 라이트"
+
+msgid "intro/confirmButton"
+msgstr "확인"
+
+msgid "intro/description/lightGameplay"
+msgstr "사전 평가, 랭크, 전적이 제외된 격전 모드를 즐겨보십시오."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "해당 모드에서는 전차 내구도, 소모품 재사용 시간, 전차 발각 유지 시간 등 전차의 특정 성능이 변동됩니다."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "지도 내 거점을 점령하면 전술 기술을 사용할 수 있습니다. 거점은 특정 지역에 포격 지원을 요청할 수 있는 포병 본부와 모든 적 전차를 관측할 수 있는 무전 센터 두 가지로 나누어집니다. 지도에 따라 거점 유무와 위치가 다를 수도 있습니다."
+
+msgid "intro/description/roleSkills"
+msgstr "각 전차는 충전 레벨을 3까지 올릴 수 있는 역할 기술을 보유하고 있습니다. 충전 레벨을 올릴수록 기술 활성화 시 효과가 더 강해집니다. 충전 레벨은 전투 중 활약, 거점 점령, 전술 기술 사용 등의 활동을 통해 획득할 수 있는 영예 점수를 수집하여 올릴 수 있습니다.\n\n영예 점수 획득 방법에 관한 세부 정보는 모드 규정을 통해 확인할 수 있습니다."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "해당 모드에서는 %(levels)s단계 전차(자주포 및 일부 전차 제외)만 운용할 수 있습니다. 차고에 전차를 확보하고 전투 참여 후 정해진 지도의 특성에 따라 최고의 효율을 낼 수 있는 전차를 선택해 보십시오. 전차 선택 시 아군이 선택한 전차도 고려하는 것이 좋습니다."
+
+msgid "intro/title/lightGameplay"
+msgstr "가볍게 즐길 수 있는 모드"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "격전 성능 변동"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "거점"
+
+msgid "intro/title/roleSkills"
+msgstr "역할 기술"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "지도에 따른 전차 선택"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "승리"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "패배/무승부"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "대단한 열정입니다! 계속 나아가 보십시오!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "격전 라이트 전투에서 임무를 완료하거나 상위권을 달성하여 진행 점수를 올려 보십시오."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "획득하는 진행 점수는 전투에서 획득한 영예 점수에 따라 달라집니다."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "모드 종료까지 %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "주요 진행 보상"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "격전 라이트"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "영예 점수 획득량 2위 이내"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "영예 점수 획득량 5위 이내"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "영예 점수 획득량 7위 이내"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "월드 오브 탱크 프리미엄 계정 사용"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "개인 물자 활성화"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "임무 완료"
+
+msgid "noVehicles/howTo/title"
+msgstr "%(levels)s단계 전차를 빠르게 획득할 방법이 있습니다."
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "격전 라이트에 참여하려면 해당 모드에 적합한 %(levels)s단계 전차를 차고에 한 대 이상 보유하고 있어야 합니다.\n연구소 또는 게임 내 상점에서 %(levels)s단계 프리미엄 전차를 구매할 수 있습니다."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "격전 라이트에 참여하려면 해당 모드에 적합한 %(levels)s단계 전차를 차고에 한 대 이상 보유하고 있어야 합니다.\n복구할 수 있는 %(levels)s단계 전차가 있습니다."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "격전 라이트에 참여하려면 해당 모드에 적합한 %(levels)s단계 전차를 차고에 한 대 이상 보유하고 있어야 합니다."
+
+msgid "noVehicles/title"
+msgstr "차고에 적합한 전차 없음"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "격전 라이트 정보 페이지에서 자세한 내용을 확인해 보십시오."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "영예 점수"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "피해 기록\n도움 피해 기록\n궤도 파괴\n부품 파괴/부상 유발\n적 전차 격파\n그 외 행동"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "영예 점수는 다음과 같은 전투 성과를 거두어 획득할 수 있습니다."
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "%(server)s 서버에서 시즌이 종료되었습니다."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "%(server)s 서버에서 시즌이 종료되었습니다."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "%(server)s 서버에서 시즌이 종료되었습니다."
+
+msgid "progressionEntryPoint/complete"
+msgstr "주요 진행 완료!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "스테이지 %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s 또는 %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "새로운 임무 부여까지:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "이벤트 종료까지:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "임무 갱신까지"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "모든 일일 임무 완료"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "진행을 완료했습니다. 격전 라이트를 계속 플레이하여 더 많은 보상을 획득해 보십시오."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "격전 라이트 전투에서 임무를 완료하거나\n상위권을 달성하여 진행 점수를 올려 보십시오. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "격전 라이트에서 특별 임무를 완료하거나 전투에 참여하여 획득할 수 있습니다. 진행 상황에 집계됩니다."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "격전 라이트 진행 점수"
+
+msgid "selectorTooltip/desc"
+msgstr "랭크 없는 격전: 7 대 7 | %(tier)s단계"
+
+msgid "selectorTooltip/title"
+msgstr "격전 라이트"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "게임 포털 최신 소식을 통해 새 시즌 계획에 관한 정보를 확인해 보십시오."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "해당 모드는 현재 기술적인 문제로 이용할 수 없습니다."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "%(time)s부터 해당 모드 이용 가능"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "진행 점수 획득"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "세부 정보"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "격전 라이트"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "보상 획득:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "%(progressionName)s 모드에서 %(stage)s번째 진행 스테이지를 완료했습니다."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "축하합니다!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "휴전이 적용 중입니다. 일시적으로 격전 라이트에 참여할 수 없습니다."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "휴전"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "휴전이 종료되었습니다. 격전 라이트에 다시 참여할 수 있습니다."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "휴전"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "격전 라이트 정보"

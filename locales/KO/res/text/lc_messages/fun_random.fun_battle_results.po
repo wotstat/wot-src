@@ -1,0 +1,254 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "닫기"
+
+msgid "continueBtn"
+msgstr "계속"
+
+msgid "economy/double/credits"
+msgstr "월드 오브 탱크 프리미엄 계정 사용 시 크레딧을 %(value)s%% 추가로 획득할 수 있습니다."
+
+msgid "economy/double/free_xp"
+msgstr "월드 오브 탱크 프리미엄 계정 사용 시 자유 경험치를 %(value)s%% 추가로 획득할 수 있습니다."
+
+msgid "economy/double/tmen_xp"
+msgstr "월드 오브 탱크 프리미엄 계정 사용 시 승무원 경험치를 %(value)s%% 추가로 획득할 수 있습니다."
+
+msgid "economy/double/xp"
+msgstr "월드 오브 탱크 프리미엄 계정 사용 시 일반 경험치를 %(value)s%% 추가로 획득할 수 있습니다."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "월드 오브 탱크 프리미엄 계정 사용 시 일반 및 자유 경험치를 %(value)s%% 추가로 획득할 수 있습니다."
+
+msgid "efficiency/capturePoints"
+msgstr "기지 점령"
+
+msgid "efficiency/damageAssisted"
+msgstr "도움 피해"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "폭발 충격"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "장갑 활용"
+
+msgid "efficiency/damageDealt"
+msgstr "입힌 피해"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "기지 방어"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "전차 격파"
+
+msgid "efficiency/spotted"
+msgstr "전차 발견"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "기지 점령"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "도움 피해"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "폭발 충격"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "장갑 활용"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "입힌 피해"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "기지 방어"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "전차 격파"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "전차 발견"
+
+msgid "finish"
+msgstr "전투 종료"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "각 전차로 참여한 가장 최근 전투에만 적용할 수 있습니다."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "보너스 적용 불가: 승무원 급속 훈련 활성화"
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "보너스 적용 불가: 승무원 급속 훈련 비활성화"
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "승리한 전투에만 적용할 수 있습니다."
+
+msgid "premiumBonus/NoCrew"
+msgstr "선택식 보너스 적용 불가: 승무원을 찾을 수 없음"
+
+msgid "premiumBonus/NoVehicle"
+msgstr "선택식 보너스 적용 불가: 전차를 찾을 수 없음"
+
+msgid "progress/title"
+msgstr "%(modeName)s: 특별 임무 - 스테이지: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: 특별 임무"
+
+msgid "result/lose"
+msgstr "패배"
+
+msgid "result/tie"
+msgstr "무승부"
+
+msgid "result/win"
+msgstr "승리"
+
+msgid "resultRace/battleStatus/finished"
+msgstr "완주"
+
+msgid "resultRace/battleStatus/inTop"
+msgstr "순위"
+
+msgid "resultRace/battleStatus/notFinished"
+msgstr "완주\n실패"
+
+msgid "resultRace/finishReason/finished"
+msgstr "결승선 도달"
+
+msgid "resultRace/finishReason/notFinished"
+msgstr "결승선 도달 실패"
+
+msgid "resultRace/footerSubtitle/battleEnded"
+msgstr "전투 종료: {{time}}"
+
+msgid "resultRace/footerSubtitle/finished"
+msgstr "잘하셨습니다!"
+
+msgid "resultRace/footerSubtitle/inTop"
+msgstr "3위 안에 들었습니다!"
+
+msgid "resultRace/footerSubtitle/notFinished"
+msgstr "다음을 기약하시죠!"
+
+msgid "ribbon/applied"
+msgstr "보너스 적용 완료"
+
+msgid "ribbon/errorState"
+msgstr "적용 오류"
+
+msgid "ribbon/expBonus"
+msgstr "경험치 +%(count)s %(icon)s 보너스"
+
+msgid "ribbon/timeLeft"
+msgstr "보너스 갱신까지:"
+
+msgid "ribbon/usesLeft"
+msgstr "적용 가능 횟수: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "개발팀용 개요"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "개발팀용 팀 점수"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "플레이어"
+
+msgid "sub_modes/fall_tanks/efficiency/checkpointsPassed"
+msgstr "체크포인트"
+
+msgid "sub_modes/fall_tanks/efficiency/deathCount"
+msgstr "재생성"
+
+msgid "sub_modes/fall_tanks/efficiency/finishPosition"
+msgstr "순위"
+
+msgid "sub_modes/fall_tanks/efficiency/finishTime"
+msgstr "시간"
+
+msgid "sub_modes/fall_tanks/efficiency/kills"
+msgstr "분해"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/checkpointsPassed"
+msgstr "통과한 체크포인트 수"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/deathCount"
+msgstr "전차가 분해되어 재생성한 횟수"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/destroyed"
+msgstr "분해한 적 전차 수"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishPosition"
+msgstr "레이스 완주자 최종 순위"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishTime"
+msgstr "결승선 도달에 걸린 시간"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/checkpointsPassed"
+msgstr "체크포인트"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/deathCount"
+msgstr "재생성"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/destroyed"
+msgstr "분해"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishPosition"
+msgstr "순위"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishTime"
+msgstr "시간"
+
+msgid "sub_modes/fall_tanks/navigation/battleResults"
+msgstr "개인 점수"
+
+msgid "sub_modes/fall_tanks/navigation/teamEfficiency"
+msgstr "참가자 결과"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/body"
+msgstr "순위로 정렬"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/header"
+msgstr "순위"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/body"
+msgstr "시간으로 정렬"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/header"
+msgstr "시간"
+
+msgid "sub_modes/fall_tanks/team/singleTeam"
+msgstr "플레이어"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/body"
+msgstr "전차로 정렬"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/header"
+msgstr "전차"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "개요"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "팀 점수"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "플레이어"
+
+msgid "team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "title"
+msgstr "전투 결과"

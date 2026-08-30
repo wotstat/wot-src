@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "전술 장비"
+
+msgid "open_artefact/server_error"
+msgstr "일시적으로 작업을 수행할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "%s의 전술 장비 재보급에 실패했습니다. 기술적 문제가 발생했습니다."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "%s의 전술 장비 재보급에 실패했습니다. 자금이 부족합니다."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "%s의 전술 장비를 재보급했습니다. 소모:"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "기록 해독 가능"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "모드: 최후의 저항: 북부 전선"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "최후의 저항: 북부 전선 (일반)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "최후의 저항: 북부 전선 (상급)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "최후의 저항: 북부 전선 (잔혹)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "난이도"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "일반"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "상급"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "잔혹"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "데이터"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "목표 완료!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "목표 완료!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "전차"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "웨이브 완료: %(curPhase)s / %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "소모 %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "내역"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "최후의 저항 차고 내 난이도 패널에서 난이도를 선택할 수 있습니다."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "상급 난이도 해제"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "최후의 저항 차고 내 난이도 패널에서 난이도를 선택할 수 있습니다."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "잔혹 난이도 해제"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "최후의 저항: 판도라 작전 차고 내 난이도 패널에서 모드를 선택할 수 있습니다."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "최후의 저항 모드 해제"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "해독 열쇠 획득: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "획득"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "열쇠 제거: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "해독 완료"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "일시적으로 최후의 저항 전투에 참여할 수 없습니다.\n나중에 다시 시도해 주십시오."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "일시적으로 %(difficulty)s 난이도 전투에 참여할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "현재 최후의 저항을 이용할 수 없습니다. 게임 포털에서 관련 소식을 확인해 보십시오."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "소대장이 %(level)s 난이도로 변경했습니다."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "%(userName)s 님이 난이도를 해제하지 않았습니다."

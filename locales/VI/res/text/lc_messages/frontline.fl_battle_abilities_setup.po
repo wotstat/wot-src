@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Áp dụng hết {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Điểm Quân Dự bị Chiến đấu: {{value}}"
+
+msgid "header/title"
+msgstr "DỰ BỊ CHIẾN ĐẤU"
+
+msgid "infoPanel/category/firesupport"
+msgstr "QDB Tấn công"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "QDB Trinh sát"
+
+msgid "infoPanel/category/tactics"
+msgstr "QDB Chiến lược"
+
+msgid "infoPanel/category/title"
+msgstr "Danh mục: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "Trong kịch bản {{@ colorLegacy 'FFE4C0'}}Định Mệnh{{/}}, mua Quân Dự bị Chiến đấu sẽ cộng thêm một cấp độ của nó và đem lại cơ hội tăng lên Mức {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "infoPanel/description/unlocked"
+msgstr "Trong kịch bản {{@ colorLegacy 'FFE4C0'}}Định Mệnh{{/}}, xác suất mỗi Quân Dự bị Chiến đấu đặt ở ô tương ứng trước trận được cung cấp sẽ tăng thêm {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "infoPanel/level"
+msgstr "Cấp độ:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}}m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}}%"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}}%/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}}s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "QDB Chiến đấu chưa được mua"
+
+msgid "infoPanel/status/unlocked"
+msgstr "QDB Chiến đấu đã được mua"

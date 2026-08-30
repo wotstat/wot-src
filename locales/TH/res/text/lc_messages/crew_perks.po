@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "การได้รับความเสียหายจะหยุดการคืนความทนทาน\n\nอัตราการคืนความทนทานและขีดจำกัดคืนสภาพสูงสุดจะขึ้นกับความทนทานทั้งหมดของยานเกราะโดยรวมกับค่าปรับทั้งหมดแล้ว"
+
+msgid "armorPatching/alt/info"
+msgstr "สำหรับความสามารถกลุ่ม ก็จะทำการพิจารณาระดับการฝึกเฉลี่ยของพลรถถังทั้งหมดเอาไว้และจะมีผลเมื่อทำการฝึกเอาไว้อย่างน้อย 1% และเพิ่มผลขึ้นด้วยการฝึกเพิ่มเติม"
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "การใช้ชุดซ่อมแซมจะคืน %(hpRecover)s ของ{yellow_Start}ความทนทาน{yellow_End}พาหนะในช่วงเวลา 5 วินาทีได้จนสูงสุด 20% ต่อการรบ ทำให้ใช้ชุดซ่อมแซมโดยไม่มีความเสียหายร้ายแรง"
+
+msgid "armorPatching/hudDescription"
+msgstr "คืนความทนทานแล้ว"
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "เมื่อทำการฝึกสมาชิกพลรถถังทั้งหมดจนเต็มที่แล้วก็จะคืน %(hpRecover)s ให้กับ{yellow_Start}ความทนทาน{yellow_End}พาหนะเป็นเวลา 5 วินาทีหลังจากใช้ชุดซ่อมแซมได้จนสูงสุดถึง 20% ต่อการรบ ทำให้ใช้ชุดซ่อมแซมโดยไม่มีความเสียหายร้ายแรง"
+
+msgid "armorPatching/name"
+msgstr "การซ่อมแซมเกราะ"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ เพิ่มการอำพรางฐานของพาหนะ"
+
+msgid "brotherhood/alt/description"
+msgstr "โบนัสประสิทธิภาพพลรถถังจะเพิ่มประสิทธิภาพของสมาชิกพลรถถังในการรบรวมไปถึงประสิทธิภาพของความสามารถที่ได้ฝึกเอาไว้ทั้งหมดยกเว้นของความสามารถนี้ ค่านี้สามารถเพิ่มให้สูงขึ้นได้ด้วยการติดตั้งอุปกรณ์หรือยุทธปัจจัยที่มีผลเหมือนกันหรือการใช้คำสั่งปล่อยระบายทิ้ง ความสามารถฉุกเฉินของผู้การรถถังรวมไปถึงความสามารถเคียงบ่าเคียงไหล่และผู้เชี่ยวชาญการสื่อสารของพลวิทยุก็ยังสามารถเพิ่มค่านี้ได้ด้วย"
+
+msgid "brotherhood/alt/info"
+msgstr "สำหรับความสามารถกลุ่ม ก็จะทำการพิจารณาระดับการฝึกเฉลี่ยของพลรถถังทั้งหมดเอาไว้และจะมีผลเมื่อทำการฝึกเอาไว้อย่างน้อย 1% และเพิ่มผลขึ้นด้วยการฝึกเพิ่มเติม"
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "{greenBright_Start}โบนัสประสิทธิภาพพลรถถัง{greenBright_End}ของพลรถถังทั้งหมดจะเพิ่มขึ้นอีก %(crewLevelIncrease)s&zwnbsp;"
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "เมื่อทำการฝึกสมาชิกพลรถถังทั้งหมดจนเต็มที่แล้ว จะเพิ่ม {greenBright_Start}โบนัสประสิทธิภาพพลรถถัง{greenBright_End} ของพลรถถังทั้งหมดอีก %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "พี่น้องร่วมรบ"
+
+msgid "brotherhood/shortDescription"
+msgstr "เพิ่มสมรรถนะทั่วไปของพลรถถัง"
+
+msgid "camouflage/alt/description"
+msgstr "ความสามารถนี้มีผลกับการอำพรางของพาหนะและสามารถเพิ่มให้สูงขึ้นได้ด้วยคำสั่งที่กำบังตามธรรมชาติ\n\nนอกจากนี้ การอำพรางของพาหนะสามารถเพิ่มขึ้นได้ด้วยการติดตั้งลายพรางหรือรูปแบบรวมไปถึงการติดตั้งอุปกรณ์ที่มีผลแบบเดียวกัน"
+
+msgid "camouflage/alt/info"
+msgstr "สำหรับความสามารถกลุ่ม ก็จะทำการพิจารณาระดับการฝึกเฉลี่ยของพลรถถังทั้งหมดเอาไว้และจะมีผลเมื่อทำการฝึกเอาไว้อย่างน้อย 1% และเพิ่มผลขึ้นด้วยการฝึกเพิ่มเติม"
+
+msgid "camouflage/currentLvlDescription"
+msgstr "{greenBright_Start}การอำพราง{greenBright_End}พาหนะเพิ่มขึ้นอีก%(maskingFactor)s&zwnbsp;"
+
+msgid "camouflage/maxLvlDescription"
+msgstr "เมื่อสมาชิกพลรถถังทั้งหมดฝึกจนเต็มที่ จะเพิ่ม {greenBright_Start}การอำพราง{greenBright_End} ของพาหนะอีก %(maskingFactor)s&zwnbsp;"
+
+msgid "camouflage/name"
+msgstr "การอำพราง"
+
+msgid "camouflage/shortDescription"
+msgstr "เพิ่มการอำพรางฐานของพาหนะ"
+
+msgid "commander_coordination/alt/description"
+msgstr "ผลจะใช้งานในแต่ละครั้งที่พาหนะข้าศึกถูกพบและไม่ทบซ้ำเมื่อพบพาหนะหลายคัน\n\nความเร็วการเล็งสามารถเพิ่มขึ้นได้ด้วยการฝึกความสามารถการเล็งไวของพลปืนหรือติดตั้งอุปกรณ์ที่มีผลแบบเดียวกัน"
+
+msgid "commander_coordination/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}ความเร็วการเล็ง{yellow_End} จะเพิ่มขึ้นอีก %(vehicleGunAimSpeed)s เป็นเวลา 15 วินาทีหลังจากที่คุณพบพาหนะข้าศึก"
+
+msgid "commander_coordination/hudDescription"
+msgstr "เพิ่มความเร็วการเล็ง"
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม{yellow_Start}ความเร็วการเล็ง{yellow_End}อีก %(vehicleGunAimSpeed)sเป็นเวลา 15 วินาทีหลังจากที่คุณพบพาหนะข้าศึก\t"
+
+msgid "commander_coordination/name"
+msgstr "การประสานงาน"
+
+msgid "commander_coordination/shortDescription"
+msgstr "เพิ่มความเร็วการเล็ง"
+
+msgid "commander_eagleEye/alt/description"
+msgstr "ระยะการมองเห็นสามารถเพิ่มให้สูงขึ้นได้ด้วยการฝึกความสามารถความรอบรู้สถานการณ์ของพลวิทยุหรือด้วยการติดตั้งอุปกรณ์ที่มีผลแบบเดียวกัน การใช้คำสั่งการปรับกล้องจะเพิ่มผลให้สูงขึ้น"
+
+msgid "commander_eagleEye/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}ระยะการมองเห็น{greenBright_End} เพิ่มขึ้นอีก %(circularVisionRadius)s&zwnbsp;{greenBright_Start}ผลเสียของอุปกรณ์สังเกตการณ์ที่เสียหาย{greenBright_End} นั้นลดลง %(penaltyToDamagedSurveyingDevice)s&zwnbsp;"
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "ผลเสียของอุปกรณ์สังเกตการณ์ที่เสียหายนั้นลดลง"
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม {greenBright_Start}ระยะการมองเห็น{greenBright_End} อีก %(circularVisionRadius)s&zwnbsp; และลด {greenBright_Start}ผลเสียของอุปกรณ์สังเกตการณ์ที่เสียหาย{greenBright_End} ลง %(penaltyToDamagedSurveyingDevice)s&zwnbsp;"
+
+msgid "commander_eagleEye/name"
+msgstr "ลาดตระเวน"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "เพิ่มระยะการมองเห็นโดยเฉพาะเมื่ออุปกรณ์สังเกตการณ์เสียหาย"
+
+msgid "commander_emergency/alt/description"
+msgstr "เมื่อได้รับความเสียหายจากข้าศึกซ้ำกัน ผลจะไม่เกิดขึ้นซ้ำ โบนัสประสิทธิภาพพลรถถังจะเพิ่มประสิทธิภาพของพลรถถังในการรบ ค่านี้สามารถเพิ่มขึ้นได้ด้วยการติดตั้งอุปกรณ์หรือยุทธปัจจัยที่ให้ผลแบบเดียวกันหรือการใช้คำสั่งปล่อยระบายทิ้ง ทั้งนี้ความสามารถเคียงบ่าเคียงไหล่และผู้เชี่ยวชาญการสื่อสารก็สามารถเพิ่มค่านี้ได้ด้วย"
+
+msgid "commander_emergency/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}โบนัสประสิทธิภาพพลรถถัง{yellow_End} จะเพิ่มขึ้นอีก %(crewLevelIncrease)s เป็นเวลา 15 วินาทีหลังจากได้รับความเสียหายจากข้าศึก"
+
+msgid "commander_emergency/hudDescription"
+msgstr "โบนัสประสิทธิภาพพลรถถังเพิ่มขึ้น"
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ จะเพิ่ม {yellow_Start}โบนัสประสิทธิภาพพลรถถัง{yellow_End} ขึ้นอีก %(crewLevelIncrease)s เป็นเวลา 15 วินาทีหลังจากได้รับความเสียหายจากข้าศึก"
+
+msgid "commander_emergency/name"
+msgstr "ฉุกเฉิน"
+
+msgid "commander_emergency/shortDescription"
+msgstr "โบนัสประสิทธิภาพพลรถถังเพิ่มขึ้น"
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "การเตือนการยิงของปืนอัตตาจรข้าศึกนั้นจะใช้งานเมื่อมีการยิงแต่จะมีการหน่วงเวลาเล็กน้อย\n\nความสามารถนั้นเพิ่มให้ดีขึ้นได้ด้วยคำสั่งเฝ้าระวังขั้นสูง"
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "{yellow_Start}การเตือนการยิงจากปืนอัตตาจรข้าศึก{yellow_End} และทิศทางที่ยิงมาโดยมีการหน่วง %(artNotificationDelayFactor)s {greenBright_Start}ผลเสียของการมึนงง{greenBright_End} ลดลง %(stunResistanceEffectFactor)s&zwnbsp;"
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "เมื่อทำการฝึกเต็มที่ จะทำ{yellow_Start}การเตือนการยิงจากปืนอัตตาจรข้าศึก{yellow_End} ที่ระบุทิศทางที่ยิงมาจะมีการหน่วง %(artNotificationDelayFactor)s และระบุทิศทางของการยิง ลด{greenBright_Start}ผลเสียของการมึนงง{greenBright_End}ลง %(stunResistanceEffectFactor)s&zwnbsp;"
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "การตรวจจับเสียง"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "แสดงกระสุนปืนอัตตาจรข้าศึก"
+
+msgid "commander_holdLine/alt/description"
+msgstr "โบนัสประสิทธิภาพพลรถถังจะเพิ่มประสิทธิภาพของสมาชิกพลรถถังในการรบ\n\nค่านี้สามารถเพิ่มให้สูงขึ้นด้วยการติดตั้งอุปกรณ์และยุทธปัจจัยที่มีผลแบบเดียวกันหรือจากการใช้คำสั่งปล่อยระบาย ความสามารถพลรถถังอื่นๆก็สามารถเพิ่มค่านี้ได้ด้วย"
+
+msgid "commander_holdLine/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}โบนัสประสิทธิภาพพลรถถัง{yellow_End} จะเพิ่มขึ้นอีก %(crewLevelIncrease)s ในขณะที่ทีมข้าศึกมีพาหนะในการรบมากกว่าทีมคุณสามคัน&zwnbsp;"
+
+msgid "commander_holdLine/hudDescription"
+msgstr "โบนัสประสิทธิภาพพลรถถังเพิ่มขึ้น (ข้าศึกจำนวนมากกว่า)"
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "เมื่อฝึกเต็มที่ เพิ่ม {yellow_Start}โบนัสประสิทธิภาพพลรถถัง{yellow_End} อีก %(crewLevelIncrease)s ในขณะที่ทีมข้าศึกมีพาหนะในการรบมากกว่าทีมคุณสามคัน&zwnbsp;"
+
+msgid "commander_holdLine/name"
+msgstr "รักษาแนวรบ"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ เพิ่มโบนัสประสิทธิภาพพลรถถัง"
+
+msgid "commander_practical/alt/description"
+msgstr "ความสามารถนี้ใช้ได้กับยุทธปัจจัยทุกชนิดที่ติดตั้งบนพาหนะของคุณ\n\nผลสามารถเพิ่มให้สูงขึ้นได้ด้วยการใช้คำสั่งการเตรียมการอย่างถี่ถ้วน"
+
+msgid "commander_practical/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}เวลาพักใช้ยุทธปัจจัย{greenBright_End}ลดลงอีก%(equipmentPreparationTime)s&zwnbsp;"
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "เมื่อฝึกเต็มที่ จะลด {greenBright_Start} เวลาพักใช้ของยุทธปัจจัย {greenBright_End} ที่ติดตั้งบนพาหนะของคุณอีก %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "การใช้ได้จริง"
+
+msgid "commander_practical/shortDescription"
+msgstr "ลดเวลาพักใช้ยุทธปัจจัย"
+
+msgid "commander_sixthSense/alt/description"
+msgstr "สัมผัสที่หกนั้นถูกปิดเมื่อผู้การได้รับบาดเจ็บ เวลาเปิดใช้งานของมันอาจจะลดลงได้ด้วยความสามารถการดักสัญญาณของพลวิทยุ"
+
+msgid "commander_sixthSense/alt/info"
+msgstr "นี่เป็นคุณลักษณะผู้บังคับการรถถังพิเศษที่ไม่ต้องทำการฝึกและจะมีให้กับผู้บังคับการเป็นมาตรฐาน"
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "ทำให้ผู้การรถถังสามารถระบุได้ว่าพาหนะของตนถูกพบ โดยข้าศึกแล้วหรือยังใช้งาน %(delay)s วินาทีหลังจากพาหนะถูกพบ"
+
+msgid "commander_sixthSense/name"
+msgstr "สัมผัสที่หก"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "ทำให้ผู้บังคับการสามารถระบุได้ว่าพาหนะของตนถูกพบโดยข้าศึกแล้วหรือยัง"
+
+msgid "commander_staySharp/alt/description"
+msgstr "โบนัสประสิทธิภาพพลรถถังจะเพิ่มประสิทธิภาพของสมาชิกพลรถถังในการรบ\n\nค่านี้สามารถเพิ่มให้สูงขึ้นด้วยการติดตั้งอุปกรณ์และยุทธปัจจัยที่มีผลแบบเดียวกันหรือจากการใช้คำสั่งปล่อยระบาย ความสามารถพลรถถังอื่นๆก็สามารถเพิ่มค่านี้ได้ด้วย"
+
+msgid "commander_staySharp/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start}โบนัสประสิทธิภาพพลรถถัง{yellow_End} จะเพิ่มขึ้นอีก %(crewLevelIncrease)s เป็นเวลา 15&nbsp;วินาทีหลังจากใช้ชุดปฐมพยาบาล ทำให้ใช้ชุดปฐมพยาบาลได้แม้จะไม่มีพลรถถังได้รับบาดเจ็บ&zwnbsp;"
+
+msgid "commander_staySharp/hudDescription"
+msgstr "โบนัสประสิทธิภาพพลรถถังจะเพิ่มขึ้น (มีการใช้ชุดปฐมพยาบาล)"
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "เมื่อฝึกเต็มที่ เพิ่ม {yellow_Start}โบนัสประสิทธิภาพพลรถถัง{yellow_End} อีก %(crewLevelIncrease)s เป็นเวลา 15 วินาทีหลังจากใช้ชุดปฐมพยาบาล ทำให้ใช้ชุดปฐมพยาบาลได้แม้จะไม่มีพลรถถังได้รับบาดเจ็บ&zwnbsp;"
+
+msgid "commander_staySharp/name"
+msgstr "ระวังตัวอยู่เสมอ"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ เพิ่มโบนัสประสิทธิภาพพลรถถัง"
+
+msgid "commander_tutor/alt/description"
+msgstr "ผู้บังคับการที่บาดเจ็บจะไม่สามารถแทนที่สมาชิกพลรถถังคนอื่นได้ โบนัสจะมีผลกับประสบการณ์พลรถถังฐานที่ได้รับในการรบเท่านั้น\n\nสามารถได้รับประสบการณ์พลรถถังเพิ่มเติมจากการใช้หนังสือพลรถถังหรือแปลงประสบการณ์อิสระเป็นประสบการณ์พลรถถัง"
+
+msgid "commander_tutor/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "จำนวน{greenBright_Start}ประสบการณ์{greenBright_End}ที่ได้รับนั้นจะเพิ่มขึ้นอีก{greenBright_Start}สำหรับสมาชิกพลรถถังทุกคน ผู้การรถถังสามารถ{greenBright_End}ปฏิบัติงานแทนพลรถถังที่หมดสภาพ%(xpBonusFactorPerLevel)sได้โดยมีประสิทธิภาพ%(woundedCrewEfficiency)s"
+
+msgid "commander_tutor/hudDescription"
+msgstr "พลรถถังที่หมดสภาพจะถูกแทนที่โดยผู้การรถถัง"
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่มจำนวน{greenBright_Start}ประสบการณ์{greenBright_End}ที่ได้รับขึ้นอีก{greenBright_Start}สำหรับสมาชิกพลรถถังทุกคน ผู้การรถถังสามารถ{greenBright_End}ปฏิบัติงานแทนพลรถถังที่หมดสภาพ%(xpBonusFactorPerLevel)sได้โดยมีประสิทธิภาพ%(woundedCrewEfficiency)s"
+
+msgid "commander_tutor/name"
+msgstr "อาจารย์"
+
+msgid "commander_tutor/shortDescription"
+msgstr "พลรถถังที่หมดสภาพจะถูกแทนที่โดยผู้การรถถัง"
+
+msgid "commander_universalist/alt/description"
+msgstr "ผู้บังคับการสามารถเข้ามาแทนที่คุณสมบัติหลักของสมาชิกพลรถถังที่หมดสภาพได้เพียงหนึ่งคนเท่านั้น ผลของการเข้ามาปฏิบัติหน้าที่แทนจะลดลงตามสมาชิกพลรถถังแต่ละคนที่หมดสภาพ"
+
+msgid "commander_universalist/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% ผลของมันจะเพิ่มขึ้นตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "ผู้บังคับการสามารถ {greenBright_Start}ปฏิบัติงานแทนพลรถถังหมดสภาพ{greenBright_End} โดยมีประสิทธิภาพ %(woundedCrewEfficiency)s"
+
+msgid "commander_universalist/hudDescription"
+msgstr "ผู้บังคับการรถถังจะปฏิบัติหน้าที่แทนสมาชิกพลรถถังคนที่หมดสภาพไป"
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "เมื่อฝึกเต็มที่ ทำให้ผู้การสามารถ {greenBright_Start}ปฏิบัติงานแทนพลรถถังหมดสภาพ{greenBright_End} โดยมีประสิทธิภาพ %(woundedCrewEfficiency)s"
+
+msgid "commander_universalist/name"
+msgstr "ผู้เชี่ยวชาญทุกสาขา"
+
+msgid "commander_universalist/shortDescription"
+msgstr "ทำให้ผู้การสามารถปฏิบัติงานแทนพลรถถังหมดสภาพ"
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "ลดผลเสียต่อความคล่องตัวและอัตราการเร่งพาหนะเมื่อแล่นบนพื้นดินอ่อนปานกลาง ลดผลเสียเหล่านี้อย่างมากเมื่อแล่นบนพื้นดินอ่อน ทำให้มีลักษณะการแล่นแบบเดียวกับพื้นดินอ่อนปานกลาง\nความคล่องตัวบนพื้นดินแบบอ่อนปานกลางและอ่อนไม่สามารถมากไปกว่าความคล่องตัวบนพื้นดินแข็งได้"
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}การเสียความเร็วบนพื้นดินอ่อนปานกลาง{greenBright_End}จะลดลงอีก%(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}การเสียความเร็วบนพื้นดินอ่อน{greenBright_End}ลดลง%(softGroundFactor)sของค่าที่ได้ของพื้นดินอ่อนปานกลาง"
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ จะลด{greenBright_Start}การเสียความเร็วบนพื้นดินอ่อนปานกลาง{greenBright_End}ลงอีก%(mediumGroundFactor)s&zwnbsp;, ลด{greenBright_Start}การเสียความเร็วบนพื้นดินอ่อน{greenBright_End}ลง%(softGroundFactor)sของค่าที่ได้ของพื้นดินอ่อนปานกลาง"
+
+msgid "driver_badRoadsKing/name"
+msgstr "การขับทางวิบาก"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "โบนัสประสิทธิภาพพลรถถังจะเพิ่มประสิทธิภาพของสมาชิกพลรถถังในการรบ\n\nค่านี้สามารถเพิ่มให้สูงขึ้นด้วยการติดตั้งอุปกรณ์และยุทธปัจจัยที่มีผลแบบเดียวกันหรือจากการใช้คำสั่งปล่อยระบาย ความสามารถพลรถถังอื่นๆก็สามารถเพิ่มค่านี้ได้ด้วย"
+
+msgid "driver_bulletproof/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}โบนัสประสิทธิภาพพลรถถัง{yellow_End} จะเพิ่มขึ้นอีก%(crewLevelIncrease)s ถ้าจำนวนความเสียหายที่คุณกันได้สูงกว่าค่าความทนทานพาหนะเบื้องต้นของคุณ"
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "โบนัสประสิทธิภาพพลรถถังจะเพิ่มขึ้น (กันความเสียหายได้มากพอ)"
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ จะเพิ่ม{yellow_Start}โบนัสประสิทธิภาพพลรถถัง{yellow_End} ขึ้นอีก%(crewLevelIncrease)s ถ้าจำนวนความเสียหายที่คุณกันได้สูงกว่าค่าความทนทานพาหนะเบื้องต้นของคุณ"
+
+msgid "driver_bulletproof/name"
+msgstr "กันกระสุน"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "ความเร็วสูงสุดของพาหนะคุณสามารถเพิ่มขึ้นได้และผลเสียต่อเครื่องยนต์ที่เสียหายสามารถลดลงได้อีกด้วยการติดตั้งอุปกรณ์ให้ผลแบบเดียวกัน"
+
+msgid "driver_motorExpert/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "{greenBright_Start}ความเร็วเดินหน้าสูงสุด{greenBright_End} และ {greenBright_Start}ความเร็วถอยหลังสูงสุด{greenBright_End} ของพาหนะคุณเพิ่มขึ้นอีก %(vehicleForwardMaxSpeed)s {greenBright_Start}ผลเสียจากเครื่องยนต์เสียหาย{greenBright_End} ลดลง %(vehPenaltyForDamagedEngine)s&zwnbsp;"
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "ลดผลเสียจากเครื่องยนต์เสียหายลง"
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม {greenBright_Start}ความเร็วเดินหน้าสูงสุด{greenBright_End} และ {greenBright_Start}ความเร็วถอยหลังสูงสุด{greenBright_End} ของพาหนะคุณขึ้นอีก %(vehicleForwardMaxSpeed)s ลด {greenBright_Start}ผลเสียจากเครื่องยนต์เสียหาย{greenBright_End} ลง %(vehPenaltyForDamagedEngine)s&zwnbsp;"
+
+msgid "driver_motorExpert/name"
+msgstr "วิศวกร"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "ลดผลเสียจากเครื่องยนต์เสียหายลง"
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "ความสามารถนี้จะไม่มีผลเมื่อพาหนะพันธมิตรสองคันชนกัน\n\nความเสียหายการชนต่อพาหนะของคุณจะลดได้มากขึ้นเมื่อติดตั้งอุปกรณ์ที่ให้ผลแบบเดียวกัน"
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}ความเสียหายพุ่งชนพาหนะข้าศึก{greenBright_End} เพิ่มขึ้นอีก %(damageEnemiesByRamming)s&zwnbsp; {greenBright_Start}ความเสียหายพุ่งชนต่อพาหนะของคุณ{greenBright_End} ลดลง %(vehicleRamDamageResistance)s&zwnbsp; และให้กับ {greenBright_Start}ช่วงล่างของคุณ{greenBright_End} อีก %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม {greenBright_Start}ความเสียหายพุ่งชนพาหนะข้าศึก{greenBright_End} ขึ้นอีก %(damageEnemiesByRamming)s&zwnbsp; ลด {greenBright_Start}ความเสียหายพุ่งชนต่อพาหนะของคุณ{greenBright_End} ลง %(vehicleRamDamageResistance)s&zwnbsp; และให้กับ {greenBright_Start}ช่วงล่างของคุณ{greenBright_End} อีก %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "การพุ่งชนแบบจงใจ"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "ลดความเสียหายเมื่อพาหนะของคุณถูกชนและเพิ่มความเสียหายเมื่อคุณพุ่งชนพาหนะข้าศึก"
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "ความเสียหายที่ได้รับจากกระสุนระเบิดแรงสูงสามารถลดเพิ่มได้ด้วยการติดตั้งอุปกรณ์ที่ให้ผลแบบเดียวกัน"
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}การซับความเสียหายกระสุนระเบิดแรงสูง{greenBright_End} เพิ่มขึ้นอีก %(vehicleHEShellDamageResistance)s&zwnbsp; &nbsp;{greenBright_Start}โอกาสเครื่องยนต์ไฟไหม้{greenBright_End}ลดลงอีก %(vehicleFireChance)s และ {greenBright_Start}ความเสียหายช่วงล่างของคุณ{greenBright_End} อีก %(suspensionDamageReduction)s&zwnbsp;"
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "เมื่อฝึกเต็มที่ เพิ่ม{greenBright_Start}การซับความเสียหายกระสุนระเบิดแรงสูง{greenBright_End} อีก %(vehicleHEShellDamageResistance)s&zwnbsp; ลด{greenBright_Start}โอกาสเครื่องยนต์ไฟไหม้{greenBright_End}อีก %(vehicleFireChance)s และ {greenBright_Start}ความเสียหายช่วงล่างของคุณ{greenBright_End} อีก %(suspensionDamageReduction)s&zwnbsp;"
+
+msgid "driver_reliablePlacement/name"
+msgstr "การจัดวางที่ไว้ใจได้"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "ไม่มีผลกับความแม่นยำของพาหนะอยู่นิ่งและความแม่นยำเมื่อหมุนตัวถัง\n\nความสามารถสามารถเสริมได้ด้วยการใช้คำสั่งความซับซ้อนของกระปุกเกียร์ ความแม่นยำเมื่อทำการยิงขณะแล่นสามารถเพิ่มได้ด้วยการติดตั้งอุปกรณ์ที่มีผลแบบเดียวกันหรือการใช้คำสั่งหล่อลื่นตัวปรับเสถียร"
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}การกระจายกระสุน{greenBright_End} เมื่อยิงขณะกำลังแล่นลดลงอีก %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;"
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ ลด {greenBright_Start}การกระจายกระสุน{greenBright_End} เมื่อยิงขณะกำลังแล่นลงอีก %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;"
+
+msgid "driver_smoothDriving/name"
+msgstr "การขับอย่างนุ่มนวล"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "เพิ่มความแม่นยำเมื่อทำการยิงขณะเคลื่อนที่"
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "ความสามารถนี้จะมีผลกับความเร็วการซ่อมระบบช่วงล่างจากสภาวะแดงเป็นเหลืองภายในรัศมี 50 เมตรจากพาหนะพันธมิตร"
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}ความเร็วการซ่อมช่วงล่าง{yellow_End} จะเพิ่มขึ้นอีก %(suspensionRepairSpeed)s ในระยะที่ต่ำกว่า 50 เมตรจากพาหนะพันธมิตร"
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "ความเร็วการซ่อมช่วงล่างจะเพิ่มขึ้น (มีพันธมิตรอยู่ใกล้)"
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "เมื่อฝึกเต็มที่ เพิ่ม {yellow_Start}ความเร็วการซ่อมช่วงล่าง{yellow_End} อีก %(suspensionRepairSpeed)s ในระยะที่ต่ำกว่า 50 เมตรจากพาหนะพันธมิตร"
+
+msgid "driver_suspensionRepair/name"
+msgstr "การสนับสนุนภาคสนาม"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "ความสามารถต้านทานไฟไหม้ของพาหนะสามารถเพิ่มขึ้นได้ด้วยการติดตั้งอุปกรณ์และยุทธปัจจัยที่มีผลแบบเดียวกัน ความสามารถการดับเพลิงจะเพิ่มความเร็วการดับไฟถ้าหากเกิดไฟไหม้ขึ้น"
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% ผลของมันจะเพิ่มขึ้นตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "ลด {greenBright_Start}โอกาสไฟไหม้เครื่องยนต์{greenBright_End} อีก %(vehicleFireChance)s&zwnbsp;"
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ ลด {greenBright_Start}โอกาสไฟไหม้เครื่องยนต์{greenBright_End} อีก %(vehicleFireChance)s&zwnbsp;"
+
+msgid "driver_tidyPerson/name"
+msgstr "ซ่อมบำรุงเชิงป้องกัน"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "ลดโอกาสไฟไหม้เครื่องยนต์"
+
+msgid "driver_virtuoso/alt/description"
+msgstr "ความเร็วการหมุนตัวถังสามารถเพิ่มขึ้นได้ด้วยการติดตั้งอุปกรณ์หรือยุทธปัจจัยที่มีผลแบบเดียวกัน"
+
+msgid "driver_virtuoso/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}ความเร็วการหมุนตัวถัง{greenBright_End} เพิ่มขึ้นอีก%(vehicleAllGroundRotationSpeed)s&zwnbsp;\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม{greenBright_Start}ความเร็วการหมุนตัวถัง{greenBright_End}อีก%(vehicleAllGroundRotationSpeed)s"
+
+msgid "driver_virtuoso/name"
+msgstr "การเบรคด้วยคลัทช์"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "เพิ่มความเร็วการหมุนตัวถัง"
+
+msgid "fireFighting/alt/description"
+msgstr "ความสามารถนี้จะมีผลกับความเสียหายที่ได้รับจากไฟไหม้และช่วงเวลาที่ไหม้\n\nถ้าพลวิทยุสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากการฝึกของทั้งสองคน\n\nความสามารถนี้สามารถเพิ่มให้สูงขึ้นได้ด้วยคำสั่งนักดับเพลิงมีประสบการณ์"
+
+msgid "fireFighting/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}ความเร็วการดับเพลิง{greenBright_End} เพิ่มขึ้นอีก%(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม{greenBright_Start}ความเร็วการดับเพลิง{greenBright_End} ขึ้นอีก%(fireExtinguishingRate)s&zwnbsp;"
+
+msgid "fireFighting/name"
+msgstr "การดับเพลิง"
+
+msgid "fireFighting/shortDescription"
+msgstr "เพิ่มความสามารถในการดับไฟ"
+
+msgid "gunner_armorer/alt/description"
+msgstr "โดยมาตรฐานแล้ว ช่วงการเจาะเกราะและความเสียหายที่เป็นไปได้จะอยู่ที่ ±25% จากค่ามาตรฐาน อย่างเช่น ถ้ากระสุนเจาะเกราะได้ถึง 100 มม.และทำความเสียหายได้ 100 หน่วย เมื่อกระทบเป้าหมาย ค่าการเจาะเกราะนี้สามารถแกว่งได้ตั้งแต่ 75 ถึง 125 มม.และความเสียหายที่เกิดขึ้นอาจจะเป็นในช่วง 75 ถึง 125 หน่วย การลดค่าปรับค่านี้จะทำให้คาดเดาผลของการยิงได้มากขึ้น\n\nถ้าพลปืนสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากของทั้งสองคนรวมกัน"
+
+msgid "gunner_armorer/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "ช่วงแกว่งของ {greenBright_Start}ความเสียหายที่เป็นไปได้{greenBright_End} และ{greenBright_Start}การเจาะเกราะที่เป็นไปได้{greenBright_End} นั้นลดลง{greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s {greenBright_Start}การกระจายของกระสุน{greenBright_End} นั้นลดลง%(shotDispersionAngle)s&zwnbsp;"
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ ลดช่วงแกว่งของ {greenBright_Start}ความเสียหายที่เป็นไปได้{greenBright_End} และ{greenBright_Start}การเจาะเกราะที่เป็นไปได้{greenBright_End} ลง{greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s ลด {greenBright_Start}การกระจายของกระสุน{greenBright_End} นั้นลง%(shotDispersionAngle)s&zwnbsp;"
+
+msgid "gunner_armorer/name"
+msgstr "ช่างเกราะ"
+
+msgid "gunner_focus/alt/description"
+msgstr "ผลจะเกิดขึ้น 3 วินาทีหลังจากที่พาหนะหยุดและนับใหม่เมื่อมีการขยับ\n\nถ้าพลปืนสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากของทั้งสองคนรวมกัน"
+
+msgid "gunner_focus/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "{yellow_Start}การกระจายกระสุน{yellow_End} ของพาหนะอยู่นิ่งจะลดลง%(shotDispersionAngle)s&zwnbsp;"
+
+msgid "gunner_focus/hudDescription"
+msgstr "การกระจายกระสุนลดลง"
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ ลด {yellow_Start}การกระจายกระสุน{yellow_End} บนพาหนะที่กำลังอยู่นิ่งลง %(shotDispersionAngle)s&zwnbsp;"
+
+msgid "gunner_focus/name"
+msgstr "สมาธิ"
+
+msgid "gunner_focus/shortDescription"
+msgstr "ลดการกระจายของปืนบนพาหนะที่กำลังอยู่นิ่ง"
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "การกระจายของกระสุนและความเร็วการเล็งสามารถปรับให้ดียิ่งขึ้นได้ด้วยการฝึกความสามารถพลรถถังหรือติดตั้งอุปกรณ์ที่ให้ผลแบบเดียวกัน\n\nถ้าพลปืนสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากของทั้งสองคนรวมกัน"
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}การกระจายกระสุน{yellow_End}จะลดลงอีก %(vehicleGunAimSpeed)sและ {yellow_Start}ความเร็วการเล็ง{yellow_End}จะเพิ่มขึ้นอีก %(vehicleGunAimSpeed)sถ้าหากไม่มีพาหนะพันธมิตรในรัศมี 300 เมตร"
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "การกระจายกระสุนและความเร็วการเล็งจะดีขึ้น (ไม่มีพันธมิตรอยู่ใกล้)"
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "เมื่อฝึกเต็มที่ ลด {yellow_Start}การกระจายของกระสุน{yellow_Start}และเพิ่ม{yellow_End}เวลาการเล็ง{yellow_End}อีก %(vehicleGunAimSpeed)s ในขณะที่ไม่มีพาหนะพันธมิตรที่รัศมี 300 เมตร"
+
+msgid "gunner_loneWolf/name"
+msgstr "หมาป่าเดียวดาย"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ ลดการกระจายของกระสุน เพิ่มความเร็วการเล็ง"
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "โดยมาตรฐาน ศักยภาพการเจาะเกราะสูงสุดจะเป็น +25% จากค่าฐาน ตัวอย่างเช่น ถ้ากระสุนเจาะเกราะได้ถึง 100 มม.เมื่อยิงเข้าเป้าหมาย ค่าเจาะเกราะสูงสุดที่เป็นไปได้สำหรับกระสุนนี้จะอยู่ที่ 125 มม. การเพิ่มค่าตัวปรับนี้จะทำให้ผลการเจาะเกราะมีประสิทธิภาพมากขึ้น\n\nถ้าพลปืนสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากของทั้งสองคนรวมกัน"
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "{yellow_Start}ศักยภาพการเจาะเกราะสูงสุด{yellow_End}ของกระสุนคุณจะเพิ่มขึ้นอีก %(piercingHEShellsDistributionUpperBound)s เมื่อทำการยิงพาหนะข้าศึกระยะต่ำกว่า 50 เมตร"
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "เมื่อฝึกเต็มที่แล้ว เพิ่ม{yellow_Start}ศักยภาพการเจาะเกราะสูงุสด{yellow_End}อีก%(piercingHEShellsDistributionUpperBound)sเมื่อยิงพาหนะข้าศึกระยะต่ำกว่า 50 เมตร"
+
+msgid "gunner_pointBlast/name"
+msgstr "ระยะประชิด"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ เพิ่มศักยภาพเจาะเกราะสูงสุดให้กระสุนของคุณ"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "ถ้าพลปืนสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากของทั้งสองคนรวมกัน\n\nความเร็วการเล็งสามารถทำให้ดีขึ้นได้ด้วยการฝึกความสามารถการประสานงานของผู้การเรือหรือการติดตั้งอุปกรณ์ที่ให้ผลแบบเดียวกัน\n\nความเร็วการหมุนป้อมปืนสามารถเร่งขึ้นได้ด้วยการติดตั้งอุปกรณ์หรือยุทธปัจจัยที่ให้ผลแบบเดียวกัน"
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}ความเร็วการเล็ง{greenBright_End} และ {greenBright_Start}ความเร็วการหมุนป้อมปืน{greenBright_End} นั้นเร็วขึ้นอีก %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม {greenBright_Start}ความเร็วการเล็ง{greenBright_End} และ {greenBright_Start}ความเร็วการหมุนป้อมปืน{greenBright_End} ขึ้นอีก %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "การเล็งไว"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "เพิ่มความเร็วการเล็ง"
+
+msgid "gunner_rancorous/alt/description"
+msgstr "ระบุชิ้นส่วนเสียหายร้ายแรงบนพาหนะเป้าหมายในระยะการมองเห็นของพลปืนทั้งในการยิงโดยตรงหรือวิถีโค้ง\nพื้นที่การมองเห็นของพลปืนนั้นกำหนดเอาไว้ที่ ±10° (โดยรวม 20°) ที่ด้านหน้าของปืนพาหนะและระยะการมองเห็นของพาหนะ\nถ้าพลปืนสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากของทั้งสองคนรวมกัน\nความสามารถนี้ทำให้ดีขึ้นได้ด้วยการใช้คำสั่งเพ่งไปที่เป้าหมาย การใช้อุปกรณ์วิทยุรุ่นปรับปรุงจะเพิ่มเวลาที่ข้าศึกปรากฎก่อนจะหายไปนานขึ้นกว่าเดิม"
+
+msgid "gunner_rancorous/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}เวลา{greenBright_End} ก่อนที่ {greenBright_Start}พาหนะข้าศึกหายไป{greenBright_End} จากพื้นที่การมองของพลปืนนั้นเพิ่มขึ้นอีก %(vehicleEnemySpottingTime)s เวลาในการ {yellow_Start}ระบุชิ้นส่วนที่เสียหาย{yellow_End} นั้นลดลง %(damageMonitoringDelay)s&zwnbsp;"
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม {greenBright_Start}เวลา{greenBright_End} ก่อนที่ {greenBright_Start}พาหนะข้าศึกหายไป{greenBright_End} จากพื้นที่การมองของพลปืนนั้นอีก %(vehicleEnemySpottingTime)s ทำให้สามารถ {yellow_Start}ระบุชิ้นส่วนที่เสียหาย{yellow_End} โดยมีเวลาหน่วง %(damageMonitoringDelay)s"
+
+msgid "gunner_rancorous/name"
+msgstr "เป้าหมายที่ระบุไว้"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "เพิ่มเวลาก่อนที่พาหนะข้าศึกจะหายไปจากพื้นที่การมองของพลปืน เปิดใช้การระบุชิ้นส่วนที่เสียหาย"
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "ถ้าพลปืนสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากระดับการฝึกของทั้งสองคนรวมกัน\n\nความสามารถนี้จะเพิ่มให้สูงขึ้นได้ด้วยการใช้คำสั่งมือนิ่ง การกระจายของกระสุนระหว่างหมุนป้อมปืนสามารถลดลงได้ด้วยการติดตั้งอุปกรณ์ที่มีผลแบบเดียวกันหรือการใช้คำสั่งหล่อลื่นตัวปรับเสถียร"
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}การกระจายกระสุน {greenBright_End} ระหว่างหมุนป้อมปืนลดลงอีก %(turretAimingDispersion)s&zwnbsp;"
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ ลด {greenBright_Start}การกระจายกระสุน {greenBright_End} ระหว่างหมุนป้อมปืนลงอีก %(turretAimingDispersion)s&zwnbsp;"
+
+msgid "gunner_smoothTurret/name"
+msgstr "ยิงเร็ว"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "ลดการกระจายของกระสุนเมื่อหมุนป้อมปืน"
+
+msgid "gunner_sniper/alt/description"
+msgstr "ผลนี้ใช้กับกระสุนทุกชนิดยกเว้นพาหนะที่ใช้ปืนใหญ่อัตโนมัติ\n\nถ้าพลปืนสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากระดับการฝึกของทั้งสองคนรวมกัน"
+
+msgid "gunner_sniper/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "{greenBright_Start}โอกาสในการทำความเสียหายร้ายแรง{greenBright_End} ต่อ{greenBright_Start}ชิ้นส่วนพาหนะ{greenBright_End} ข้าศึกและทำให้ {greenBright_Start}สมาชิกพลรถถัง{greenBright_End} ข้าศึกบาดเจ็บด้วยกระสุนทุกชนิดเพิ่มขึ้นอีก %(enemyModulesCrewCritChance)s&zwnbsp;"
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม {greenBright_Start}โอกาสในการทำความเสียหายร้ายแรง{greenBright_End} ต่อ{greenBright_Start}ชิ้นส่วนพาหนะ{greenBright_End} ข้าศึกและทำให้ {greenBright_Start}สมาชิกพลรถถัง{greenBright_End} ข้าศึกบาดเจ็บด้วยกระสุนทุกชนิดขึ้นอีก %(enemyModulesCrewCritChance)s&zwnbsp;"
+
+msgid "gunner_sniper/name"
+msgstr "ตาพิฆาต"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "โดยมาตรฐานแล้ว ช่วงความเสียหายขั้นต่ำและการเจาะเกราะที่เป็นไปได้นั้นจะเป็น -25% ของค่าฐาน ตัวอย่างเช่น ถ้ากระสุนเจาะเกราะได้ถึง 100 มม.และทำความเสียหาย 100 หน่วย เมื่อกระสุนกระทบเป้า ค่าการเจาะเกราะต่ำสุดที่เป็นไปได้สำหรับนัดดังกล่าวจะอยู่ที่ 75 มม. และค่าความเสียหายต่ำสุดที่เป็นไปได้จะเป็น 75 หน่วย การเพิ่มค่าปรับนี้จะทำให้ผลการยิงมีประสิทธิภาพมากยิ่งขึ้น\n\nถ้าพลบรรจุทั้งสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากระดับการฝึกของทั้งสองคนรวมกัน"
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}ศักยภาพความเสียหายขั้นต่ำ{greenBright_End}และ{greenBright_Start}ศักยภาพการเจาะเกราะขั้นต่ำ{greenBright_End}เพิ่มขึ้นอีก %(damageAndPiercingDistributionLowerBound)s&zwnbsp;"
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม{greenBright_Start}ศักยภาพความเสียหายขั้นต่ำ{greenBright_End}และ{greenBright_Start}ศักยภาพการเจาะเกราะขั้นต่ำ{greenBright_End}อีก %(damageAndPiercingDistributionLowerBound)s&zwnbsp;"
+
+msgid "loader_ammunitionImprove/name"
+msgstr "การปรับแต่งกระสุน"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "เพิ่มความเสียหายและการเจาะเกราะเฉลี่ย"
+
+msgid "loader_desperado/alt/description"
+msgstr "ถ้าพลบรรจุทั้งสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากระดับการฝึกของทั้งสองคนรวมกัน\n\nเวลาการบรรจุกระสุนสามารถลดลงได้ด้วยกการฝึกความสามารถการต่อสู้ระยะใกล้ของพลบรรจุหรือการติดตั้งอุปกรณ์ที่ให้ผลแบบเดียวกัน การใช้คำสั่งรางกระสุนแบบเป็นระเบียบจะทำให้ผลนี้ดีขึ้น"
+
+msgid "loader_desperado/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}เวลาบรรจุกระสุน{yellow_End}ลดลงอีก%(vehicleGunReloadTime)sถ้าพาหนะมีความทนทานเหลือต่ำกว่า 25%"
+
+msgid "loader_desperado/hudDescription"
+msgstr "เวลาบรรจุกระสุนลดลง (ความทนทานพาหนะต่ำ)"
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ ลด {yellow_Start}เวลาบรรจุกระสุน{yellow_End}ลงอีก%(vehicleGunReloadTime)sถ้าพาหนะมีความทนทานเหลือต่ำกว่า 25%"
+
+msgid "loader_desperado/name"
+msgstr "อดรีนาลีนสูบฉีด"
+
+msgid "loader_desperado/shortDescription"
+msgstr "เร่งความเร็วการบรรจุกระสุนถ้าพาหนะมีความทนทานเหลือน้อยกว่า 25%"
+
+msgid "loader_intuition/alt/description"
+msgstr "ในการใช้งานความสามารถนี้ ตัวปืน, ปืนทั้งสองกระบอกหรือโม่กระสุนจะต้องมีกระสุนบรรจุเต็ม เวลาขั้นต่ำในการเปลี่ยนชนิดกระสุนสำหรับปืนมาตรฐานจะเป็น 1 วินาที, สำหรับปืนกระบอกคู่และปืนมีโม่กระสุนจะเป็น 2.5 วินาที\n\nถ้าพลบรรจุทั้งสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากระดับการฝึกของทั้งสองคนรวมกัน"
+
+msgid "loader_intuition/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "{greenBright_Start}ความเร็วการเปลี่ยนชนิดกระสุน{greenBright_End}ของปืนที่บรรจุเอาไว้ลดลง %(vehicleReloadTimeAfterShellChange)s&zwnbsp;"
+
+msgid "loader_intuition/hudDescription"
+msgstr "เวลาการเปลี่ยนชนิดกระสุนของปืนที่บรรจุเอาไว้ลดลง\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ ลด {greenBright_Start}เวลาการเปลี่ยนชนิดกระสุน{greenBright_End}ของปืนที่บรรจุเอาไว้ลง %(vehicleReloadTimeAfterShellChange)s&zwnbsp;"
+
+msgid "loader_intuition/name"
+msgstr "การหยั่งรู้"
+
+msgid "loader_intuition/shortDescription"
+msgstr "เพิ่มความเร็วการเปลี่ยนชนิดกระสุนของปืนที่บรรจุเอาไว้แล้วอย่างมาก"
+
+msgid "loader_magMastery/alt/description"
+msgstr "ความสามารถนี้ลดเวลาบรรจุสำหรับปืนมีซองกระสุนเท่านั้นและไม่มีผลกับระบบปืนแบบอื่น\n\nถ้าพลบรรจุทั้งสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากระดับการฝึกของทั้งสองคนรวมกัน"
+
+msgid "loader_magMastery/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "{greenBright_Start}เวลาบรรจุ{greenBright_End}ซองกระสุนลดลงอีก%(magazineGunReloadSpeed)s"
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "เมื่อฝึกเต็มที่แล้ว ลด{greenBright_Start}เวลาบรรจุ{greenBright_End}ซองกระสุน อีก%(magazineGunReloadSpeed)s"
+
+msgid "loader_magMastery/name"
+msgstr "ความเชี่ยวชาญซองกระสุน"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ ลดเวลาบรรจุซองกระสุนของคุณ"
+
+msgid "loader_melee/alt/description"
+msgstr "ถ้าพลบรรจุทั้งสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากระดับการฝึกของทั้งสองคนรวมกัน\n\nเวลาการบรรจุกระสุนสามารถลดลงได้ด้วยกการฝึกความสามารถอดรีนาลีนสูบฉีดของพลบรรจุหรือการติดตั้งอุปกรณ์ที่ให้ผลแบบเดียวกัน การใช้คำสั่งรางกระสุนแบบเป็นระเบียบจะทำให้ผลนี้ดีขึ้น"
+
+msgid "loader_melee/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}เวลาบรรจุกระสุน{yellow_End} จะลดลงอีก %(vehicleGunReloadTime)s ที่ระยะห่างจากพาหนะข้าศึกน้อยกว่า 50 เมตร"
+
+msgid "loader_melee/hudDescription"
+msgstr "เวลาบรรจุกระสุนจะลดลง (ข้าศึกอยู่ใกล้) \t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ ลด {yellow_Start}เวลาบรรจุกระสุน{yellow_End} ลงอีก %(vehicleGunReloadTime)s ที่ระยะห่างจากพาหนะข้าศึกน้อยกว่า 50 เมตร"
+
+msgid "loader_melee/name"
+msgstr "การรบประชิด"
+
+msgid "loader_melee/shortDescription"
+msgstr "เร่งการบรรจุกระสุนในการรบประชิด"
+
+msgid "loader_pedant/alt/description"
+msgstr "พลบรรจุที่ได้รับบาดเจ็บจะไม่มีผลกับประสิทธิภาพของความสามารถ\n\nถ้าพลบรรจุสองคนมีความสามารถเดียวกัน ก็จะใช้ค่าเฉลี่ยของระดับการฝึกสองคนรวมกัน\n\nความสามารถนี้เพิ่มให้สูงขึ้นได้ด้วยการใช้คำสั่งการจัดกระสุน ความทนทานรางกระสุนสามารถเพิ่มขึ้นได้ด้วยากรติดตั้งอุปกรณ์ที่มีผลแบบเดียวกัน"
+
+msgid "loader_pedant/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}ความทนทานรางกระสุน{greenBright_End} เพิ่มขึ้นอีก%(vehicleAmmoBayStrength)s&zwnbsp;\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม{greenBright_Start}ความทนทานรางกระสุน{greenBright_End}อีก%(vehicleAmmoBayStrength)s&zwnbsp;"
+
+msgid "loader_pedant/name"
+msgstr "การเก็บอย่างปลอดภัย"
+
+msgid "loader_pedant/shortDescription"
+msgstr "เพิ่มความทนทานรางกระสุน"
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "ผลจะใช้กับกระสุนทุกชนิด\n\nพลบรรจุที่บาดเจ็บจะไม่มีผลกับประสิทธิภาพของความสามารถ\n\nถ้าพลบรรจุสองคนมีความสามารถเดียวกัน ก็จะใช้ค่าเฉลี่ยของระดับการฝึกสองคนรวมกัน"
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}ความเร็วกระสุน{greenBright_End} เพิ่มขึ้นอีก %(shellVelocity)s&zwnbsp;"
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม {greenBright_Start}ความเร็วกระสุน{greenBright_End} ขึ้นอีก %(shellVelocity)s&zwnbsp;"
+
+msgid "loader_perfectCharge/name"
+msgstr "ดินขับสมบูรณ์แบบ"
+
+msgid "loader_secondChance/alt/description"
+msgstr "ความสามารถนี้ไม่มีผลกับปืนใช้ซองกระสุนหรือปืนใหญ่อัตโนมัติและไม่มีผลกับปืนคู่\n\nสำหรับปืนที่มีระบบป้อนกระสุนตัวเลือก ถ้าทั้งสองกระบอกยิงแล้วไม่มีกระบอกใดทำความเสียหาย การลดเวลาบรรจุปืนก็จะมีผลกับทั้งสองกระบอก\n\nถ้าพลบรรจุทั้งสองคนมีความสามารถนี้ ก็จะทำการใช้ค่าเฉลี่ยจากระดับการฝึกของทั้งสองคนรวมกัน\n\nเวลาการบรรจุกระสุนสามารถลดลงได้ด้วยกการฝึกความสามารถอดรีนาลีนสูบฉีดหรือการต่อสู้ระยะใกล้ของพลบรรจุหรือการติดตั้งอุปกรณ์ที่ให้ผลแบบเดียวกัน การใช้คำสั่งรางกระสุนแบบเป็นระเบียบจะทำให้ผลนี้ดีขึ้น"
+
+msgid "loader_secondChance/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}เวลาบรรจุปืน{yellow_End}จะลดลงอีก%(vehicleGunReloadTime)sสำหรับกระสุนนัดต่อไปถ้านัดก่อนหน้าไม่ได้ทำความเสียหายพาหนะข้าศึก"
+
+msgid "loader_secondChance/hudDescription"
+msgstr "เวลาบรรจุปืนลดลง (ยิงไม่โดน)"
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "เมื่อฝึีกเต็มที่ ลด {yellow_Start}เวลาบรรจุปืน{yellow_End}ลง%(vehicleGunReloadTime)s สำหรับกระสุนนัดต่อไปถ้านัดก่อนหน้าไม่ได้ทำความเสียหายพาหนะข้าศึก"
+
+msgid "loader_secondChance/name"
+msgstr "โอกาสที่สอง"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ ลดเวลาบรรจุของปืน"
+
+msgid "measureType/meters"
+msgstr "%s เมตร"
+
+msgid "measureType/mph"
+msgstr "%s กม./ชม."
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s วิ"
+
+msgid "offspring_brotherhood/name"
+msgstr "สหายศึก"
+
+msgid "perkRole/commander"
+msgstr "ผู้บังคับการ"
+
+msgid "perkRole/common"
+msgstr "กลุ่ม"
+
+msgid "perkRole/driver"
+msgstr "พลขับ"
+
+msgid "perkRole/gunner"
+msgstr "พลปืน"
+
+msgid "perkRole/loader"
+msgstr "พลบรรจุ"
+
+msgid "perkRole/radioman"
+msgstr "พลวิทยุ"
+
+msgid "popularity/tooltip/common"
+msgstr "ของผู้เล่นทั้งหมด"
+
+msgid "popularity/tooltip/header"
+msgstr "สำหรับพาหนะนี้เป็นที่นิยมโดย"
+
+msgid "popularity/tooltip/legendary"
+msgstr "จากผู้เล่นอัตราชนะระดับตำนาน"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "ถ้าพลวิทยุสองคนมีความสามารถเดียวกัน ก็จะทำการใช้ค่าเฉลี่ยจากระดับการฝึกของทั้งสองคนรวมกัน\n\nผลนี้สามารถเพิ่มให้ดีขึ้นได้ด้วยความสามารถการตรวจจับเสียงของผู้การ"
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "แต่ละครั้งที่พลรถถังมึนงง {greenBright_Start}ผลเสียของการมึนงง{greenBright_End} จะลงลงอีก %(stunResistanceEffectFactor)s ได้จนสูงสุด 30%"
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "เมื่อฝึกเต็มที่ แต่ละครั้งที่พลรถถังมึนงง จะลด{greenBright_Start}ผลเสียของการมึนงง{greenBright_End}ลงอีก%(stunResistanceEffectFactor)s&nbsp; ได้จนสูงสุด 30%"
+
+msgid "radioman_battleTempered/name"
+msgstr "เจนการรบ"
+
+msgid "radioman_expert/alt/description"
+msgstr "โบนัสประสิทธิภาพพลรถถังจะเพิ่มประสิทธิภาพของสมาชิกพลรถถังในการรบ ถ้าพลวิทยุสองคนมีความสามารถนี้ ก็จะใช้ค่าเฉลี่ยของระดับการฝึกสองคนรวมกัน ค่านี้สามารถเพิ่มให้สูงขึ้นได้ด้วยการติดตั้งอุปกรณ์หรือยุทธปัจจัยที่ให้ผลแบบเดียวกันหรือการใช้คำสั่งปล่อยระบายทิ้ง ความสามารถกลุ่มพี่น้องร่วมรบรวมไปถึงความสามารถฉุกเฉินของผู้การรถถังหรือเคียงบ่าเคียงไหล่ของพลวิทยุก็สามารถเพิ่มค่านี้ได้เช่นกัน"
+
+msgid "radioman_expert/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}โบนัสประสิทธิภาพพลรถถัง{yellow_End} จะเพิ่มขึ้นอีก%(crewLevelIncrease)s ถ้าจำนวนความเสียหายที่คุณช่วยทำสูงกว่าค่าความทนทานพาหนะเบื้องต้นของคุณ&zwnbsp;"
+
+msgid "radioman_expert/hudDescription"
+msgstr "โบนัสประสิทธิภาพพลรถถังจะเพิ่มขึ้น (ทำการแปลข้อมูลลาดตระเวนมากพอ)"
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ จะเพิ่ม{yellow_Start}โบนัสประสิทธิภาพพลรถถัง{yellow_End} ขึ้นอีก%(crewLevelIncrease)s ถ้าจำนวนความเสียหายที่คุณช่วยทำสูงกว่าค่าความทนทานพาหนะเบื้องต้นของคุณ&zwnbsp;"
+
+msgid "radioman_expert/name"
+msgstr "ผู้เชี่ยวชาญการสื่อสาร"
+
+msgid "radioman_expert/shortDescription"
+msgstr "เพิ่มสมรรถนะพลรถถัง"
+
+msgid "radioman_finder/alt/description"
+msgstr "ถ้าพลวิทยุสองคนมีความสามารถเดียวกัน ก็จะทำการใช้ค่าเฉลี่ยจากระดับการฝึกของทั้งสองคนรวมกัน\n\nระยะการมองเห็นสามารถเพิ่มให้สูงขึ้นได้ด้วยการฝึกความสามารถลาดตระเวนหรือการติดตั้งอุปกรณ์ที่ให้ผลแบบเดียวกัน การใช้คำสั่งการปรับกล้องจะเพิ่มผลนี้ให้สูงขึ้น"
+
+msgid "radioman_finder/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}ระยะการมองเห็น{greenBright_End} เพิ่มขึ้นอีก%(vehicleCircularVisionRadius)s&zwnbsp;"
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม{greenBright_Start}ระยะการมองเห็น{greenBright_End} อีก %(vehicleCircularVisionRadius)s&zwnbsp;"
+
+msgid "radioman_finder/name"
+msgstr "ความรอบรู้สถานการณ์"
+
+msgid "radioman_finder/shortDescription"
+msgstr "เพิ่มระยะการมองเห็น"
+
+msgid "radioman_interference/alt/description"
+msgstr "ถ้าพลวิทยุสองคนมีความสามารถเดียวกัน ก็จะทำการใช้ค่าเฉลี่ยจากระดับการฝึกของทั้งสองคนรวมกัน\n\nเวลาที่พาหนะของคุณถูกพบจะลดลงมากกว่าเดิมได้ด้วยการติดตั้งอุปกรณ์ที่ให้ผลแบบเดียวกัน"
+
+msgid "radioman_interference/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}เวลาที่พาหนะของคุณยังถูกพบ{greenBright_End} โดยข้าศึกนั้นลดลงอีก %(vehicleOwnSpottingTime)s&zwnbsp;"
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ ลด {greenBright_Start}เวลาที่พาหนะของคุณยังถูกพบ{greenBright_End} โดยข้าศึกลงอีก %(vehicleOwnSpottingTime)s&zwnbsp;"
+
+msgid "radioman_interference/name"
+msgstr "การรบกวนสัญญาณ"
+
+msgid "radioman_interference/shortDescription"
+msgstr "ลดเวลาที่ข้าศึกเห็นพาหนะของคุณ"
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "ถ้าพลวิทยุสองคนมีความสามารถเดียวกัน ก็จะใช้คนที่มีค่าสูงกว่าเท่านั้น ผลจะทำงานก็ต่อเมื่อพลวิทยุไม่ได้รับบาดเจ็บเมื่อพาหนะถูกทำลายเท่านั้น\n\nความสามารถนี้สามารถเพิ่มให้สูงขึ้นได้ด้วยการใช้คำสั่งหน้าที่สำคัญที่สุด"
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% ประสิทธิภาพของมันจะเพิ่มด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "พลวิทยุสามารถ {yellow_Start}รายงานตำแหน่งข้าศึก{yellow_End} ได้อีก %(radiomanDurationPerLevel)s หลังจากที่พาหนะของคุณถูกทำลายแล้ว"
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "การรายงานตำแหน่ง"
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ พลวิทยุสามารถ {yellow_Start}รายงานตำแหน่งข้าศึก{yellow_End} ได้อีก %(radiomanDurationPerLevel)s หลังจากที่พาหนะของคุณถูกทำลายแล้ว"
+
+msgid "radioman_lastEffort/name"
+msgstr "เพลิงแค้น"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "ยังรายงานตำแหน่งข้าศึกเป็นระยะเวลาหนึ่งแม้ว่าพาหนะของคุณจะถูกทำลายแล้ว"
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "โบนัสประสิทธิภาพพลรถถังจะเพิ่มประสิทธิภาพของสมาชิกพลรถถังในการรบ ถ้าพลวิทยุสองคนมีความสามารถนี้ ก็จะใช้ค่าเฉลี่ยของระดับการฝึกสองคนรวมกัน ค่านี้สามารถเพิ่มให้สูงขึ้นได้ด้วยการติดตั้งอุปกรณ์หรือยุทธปัจจัยที่ให้ผลแบบเดียวกันหรือการใช้คำสั่งปล่อยระบายทิ้ง ความสามารถกลุ่มพี่น้องร่วมรบรวมไปถึงความสามารถฉุกเฉินของผู้การรถถังหรือผู้เชี่ยวชาญการสื่อสารของพลวิทยุก็สามารถเพิ่มค่านี้ได้เช่นกัน"
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}โบนัสประสิทธิภาพพลรถถัง{yellow_End} จะเพิ่มขึ้นอีก %(crewLevelIncrease)s ถ้ามีพาหนะพันธมิตรชนิดเดียวกันที่ระยะน้อยกว่า 50 เมตร&zwnbsp;"
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "โบนัสประสิทธิภาพพลรถถังเพิ่มขึ้น (มีพันธมิตรชนิดเดียวกันอยู่ใกล้)"
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ เพิ่ม {yellow_Start}โบนัสประสิทธิภาพพลรถถัง{yellow_End} ขึ้นอีก %(crewLevelIncrease)s ถ้ามีพาหนะพันธมิตรชนิดเดียวกันที่ระยะน้อยกว่า 50 เมตร&zwnbsp;"
+
+msgid "radioman_sideBySide/name"
+msgstr "เคียงบ่าเคียงไหล่"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "เพิ่มสมรรถนะพลรถถัง"
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "ผลจะทำให้สัมผัสที่หกของผู้การรถถังดีขึ้นโดยการทำให้ความสามารถทำงานเร็วขึ้น\n\nถ้าพลวิทยุสองคนมีความสามารถนี้ ก็จะใช้ค่าเฉลี่ยของระดับการฝึกสองคนรวมกัน"
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "ความสามารถจะมีผลเมื่อทำการฝึกถึงอย่างน้อย 1% และเพิ่มผลของมันตามขั้นการฝึกที่สูงขึ้น"
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}เวลาเพื่อกำหนด{greenBright_End} ว่า{ greenBright_Start}พาหนะของคุณถูกพบ{greenBright_End} โดยข้าศึกหรือไม่ลดลงอีก %(commanderLampDelay)s"
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "เมื่อฝึกจนเต็มที่ ลด {greenBright_Start}เวลาเพื่อกำหนด{greenBright_End} ว่า{ greenBright_Start}พาหนะของคุณถูกพบ{greenBright_End} โดยข้าศึกหรือไม่ลงอีก %(commanderLampDelay)s"
+
+msgid "radioman_signalInterception/name"
+msgstr "การดักสัญญาณ"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "ความสามารถเปิดใช้เมื่อสัมผัสที่หกเตือนว่าพาหนะของคุณถูกพบโดยข้าศึกแล้ว\n\nถ้าพลวิทยุสองคนมีความสามารถเดียวกัน ก็จะทำการใช้ค่าเฉลี่ยจากระดับการฝึกของทั้งสองคนรวมกัน\n\nระยะการมองเห็นสามารถเพิ่มให้สูงขึ้นได้ด้วยการฝึกความสามารถลาดตระเวนหรือความรอบรู้สถานการณ์หรือการติดตั้งอุปกรณ์ที่ให้ผลแบบเดียวกัน การใช้คำสั่งการปรับกล้องจะเพิ่มผลนี้ให้สูงขึ้น"
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "ความสามารถมีผลใช้ในบางสถานการณ์จะมีผลเมื่อทำการฝึกจนถึงขั้นอย่างน้อย 1% และเพิ่มประสิทธิภาพของมันด้วยการฝึกที่สูงขึ้น ผลตามสถานการณ์จะทำงานเมื่อตรงกับเงื่อนไขบางอย่างในการรบ"
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}ระยะการมองเห็น{yellow_End}จะเพิ่มขึ้นอีก %(vehicleCircularVisionRadius)s เป็นเวลา 5 วินาทีหลังมีการเตือนสัมผัสที่หก"
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "เพิ่มระยะการมองเห็น"
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "เมื่อฝึกเต็มที่แล้ว เพิ่ม {yellow_Start}ระยะการมองเห็น{yellow_End}อีก %(vehicleCircularVisionRadius)s เป็นเวลา 5 วินาทีหลังมีการเตือนสัมผัสที่หก"
+
+msgid "radioman_threatSearch/name"
+msgstr "การค้นหาภัย"
+
+msgid "repair/alt/description"
+msgstr "ความสามารถนี้จะมีผลกับการซ่อมชิ้นส่วนภายในและภายนอกจาก \"แดง\" เป็น \"เหลือง\"\n\nค่านี้สามารถเพิ่มขึ้นได้ด้วยการติดตั้งอุปกรณ์หรือยุทธปัจจัยทีให้ผลแบบเดียวกัน"
+
+msgid "repair/alt/info"
+msgstr "สำหรับความสามารถกลุ่ม ก็จะทำการพิจารณาระดับการฝึกเฉลี่ยของพลรถถังทั้งหมดเอาไว้และจะมีผลเมื่อทำการฝึกเอาไว้อย่างน้อย 1% และเพิ่มผลขึ้นด้วยการฝึกเพิ่มเติม"
+
+msgid "repair/currentLvlDescription"
+msgstr "เพิ่ม {greenBright_Start}ความเร็วการซ่อม{greenBright_End} ของชิ้นส่วนพาหนะที่เสียหายอีก %(vehicleRepairSpeed)s&zwnbsp;"
+
+msgid "repair/maxLvlDescription"
+msgstr "เมื่อพลรถถังทั้งหมดฝึกจนเต็มที่ เพิ่ม {greenBright_Start} ความเร็วการซ่อม {greenBright_End} ของชิ้นส่วนพาหนะที่เสียหายอีก %(vehicleRepairSpeed)s&zwnbsp;"
+
+msgid "repair/name"
+msgstr "การซ่อมแซม"
+
+msgid "repair/shortDescription"
+msgstr "เพิ่มความเร็วการซ่อมชิ้นส่วนที่เสียหาย"
+
+msgid "sabaton_brotherhood/name"
+msgstr "สหายศึก"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "เป็นที่นิยม"
+
+msgid "sorting/fallback"
+msgstr "มาตรฐาน"
+
+msgid "sorting/legendary"
+msgstr "ตำนาน"
+
+msgid "sorting/title"
+msgstr "เรียงตาม:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sเป็นที่นิยม%(whiteSpanish_Close)sปรับตามแนวโน้มการใช้ความสามารถของผู้เล่น World of Tanks โดยรวม"
+
+msgid "sorting/tooltip/header"
+msgstr "สิทธิประโยชน์ WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "รับข้อมูลความสามารถพลรถถังแม่นยำโดยมีฐานจากการเล่นนับล้านครั้งและได้รับประโยชน์จากการรบทุกครั้งมากที่สุด"
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sตำนาน%(whiteSpanish_Close)sมาจากความสามารถที่กำลังเป็นที่นิยมโดยผู้เล่นที่มีอัตราชนะระดับตำนาน"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "การเรียงความสามารถถูกปิดไว้"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "ไม่มีข้อมูลให้"
+
+msgid "sorting/tooltip/title"
+msgstr "ผู้ช่วยพลรถถัง"
+
+msgid "sorting/tooltip/types"
+msgstr "ชนิดของการเรียงความสามารถ"
+
+msgid "sorting/tooltip/warning"
+msgstr "การเรียงความสามารถไม่มีให้"
+
+msgid "sorting/tooltip/warningText"
+msgstr "ข้อมูลความสามารถแบบสมบูรณ์ไม่มีให้สำหรับพาหนะคันนี้ ฉะนั้นก็จะทำการใช้การเรียงความสามารถมาตรฐานแทน"
+
+msgid "witches_brotherhood/name"
+msgstr "ภาคีแม่มด"
+
+msgid "yha_brotherhood/name"
+msgstr "ภราดรกระต่าย"

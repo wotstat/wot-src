@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "购买"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "将安装以下消耗品：%(consumables)s。"
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "购买消耗品"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr "、"
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s名乘员"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "此战车已有乘员"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s名乘员。"
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "征募新乘员"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "此处。"
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargaming用T-34的字母数字组合来表示真实的坦克，与同名商标的版权所有人没有任何关系。了解更多请点击{link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "装填弹药"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "安装消耗品"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "车位"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "置换"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "免费"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "征募%(count)s名乘员"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "租用"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "租用"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "租用30天"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "租用3天"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "租用7天"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "租用%(days)s天"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "前线战阶段"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "前线战赛季"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "排位战阶段"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "排位战赛季"
+
+msgid "buyVehicleWindow/restore"
+msgstr "恢复"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "无限期"
+
+msgid "buyVehicleWindow/title"
+msgstr "战车配置"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "恢复"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "购买"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "置换"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "置换"
+
+msgid "carousel/filters/allVehicle"
+msgstr "我的所有战车"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "乘员"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "参数"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}}场战斗"
+msgstr[1] "{{count}}场战斗"
+msgstr[2] "{{count}}场战斗"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}}天"
+msgstr[1] "{{count}}天"
+msgstr[2] "{{count}}天"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}}小时"
+msgstr[1] "{{count}}小时"
+msgstr[2] "{{count}}小时"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}}场胜利"
+msgstr[1] "{{count}}场胜利"
+msgstr[2] "{{count}}场胜利"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "点击以前往您的战车游玩列表"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "我的战车"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "乘员训练、重新训练与管理。"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "乘员管理"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "战车自定义元素：应用2D/3D风格与其他元素。"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "自定义元素"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "按下即可打开"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "战车信息、研发、比较与修复。"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "战车管理"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "关于战车"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "装甲"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "比较"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "自动调回"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "调回乘员"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "调回兵营"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "重新训练乘员"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "快速备战"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "战地升级"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "更改国家"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "已激活"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "专业版加成{{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "快速训练"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "修复"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "研发"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "升级"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "您可随时更改这个选项。"
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "专业版加成已在此战车上激活"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "您仅能在随机战、天梯战模式、要塞、世界地图与比赛中为战车激活加成。"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "此模式不适用专业版加成"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "您仅能在I–X级的可研发与收藏战车激活加成。"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "此战车不适用专业版加成"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "您的专业版加成目前已在{{vehicle}}上激活。您可在{{time}}后更改此选项。"
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "请稍后再回来！"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "您可在{{time}}后更改这个选项。"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "专业版加成已在此战车上激活"

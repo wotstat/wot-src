@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "전투 모드"
+
+msgid "profile/dropdown/existence"
+msgstr "정렬"
+
+msgid "profile/dropdown/labels/all"
+msgstr "무작위 전투, 중대 전투"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "배틀 로얄 (개인)"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "배틀 로얄 (소대)"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "세계 지도"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "격전"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "그리핀의 해"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "만티코어의 해"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "페가수스의 해"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "하늘색 드래곤 시즌"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "진홍색 드래곤 시즌"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "비취색 드래곤 시즌"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "대규모 전투"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "무한 결사전"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "요새 전투"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "원정"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "쟁탈전"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "역사전"
+
+msgid "profile/dropdown/labels/random"
+msgstr "무작위 전투"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "랭크 전투 15대15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "랭크 전투"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "팀: 순위 전투"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "팀: 순위 전투"
+
+msgid "profile/dropdown/labels/team"
+msgstr "팀: 일반 전투"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "전장 항목에서 획득한 보상"
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "훈장"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "철갑탄, 성형작약탄, 고속철갑탄으로 받은 피해 중 장갑 활용 비율\n• 평균 장갑으로 막은 피해: %(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "장갑 활용"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "적 전차 폭발 충격 기록에 의한 도움 피해"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "플레이어의 폭발 충격 도움 피해"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "적 전차 폭발 충격 기록에 의한 도움 피해"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "폭발 충격 도움 피해"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "포함\n• 적 전차 발견에 의한 도움 피해\n• 적 전차 궤도 파괴 및 이동 불가 상태 유발에 의한 도움 피해"
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "평균 도움 피해"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "포함\n• 적 전차 발견에 의한 도움 피해\n• 적 전차 궤도 파괴 및 이동 불가 상태 유발에 의한 도움 피해"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "도움 피해"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "포함\n• 적 전차 발견에 의한 도움 피해\n• 적 전차 궤도 파괴 및 이동 불가 상태 유발에 의한 도움 피해"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "포함\n• 적 전차 발견에 의한 도움 피해(기술 사용에 의한 피해 포함)\n• 적 전차 궤도 파괴 및 이동 불가 상태 유발에 의한 도움 피해(기술 사용에 의한 피해 포함)\n• 기술 사용에 의한 도움 피해"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "도움 피해"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "도움 피해"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "폭발 충격을 입은 적 전차에 입힌 피해량(기술 사용에 의한 폭발 충격 포함) 대 참전 횟수 비율"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "플레이어의 폭발 충격 도움 피해"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "폭발 충격을 입은 적 전차에 입힌 피해량(기술 사용에 의한 폭발 충격 포함) 대 참전 횟수 비율"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "폭발 충격 도움 피해"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "전투당 평균 폭발 충격 도움 피해량"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "플레이어의 폭발 충격 도움 피해"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "전투당 평균 폭발 충격 도움 피해량"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "폭발 충격 도움 피해"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "전투당 평균 피해량"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "평균 피해량"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "전투당 평균 전차 격파"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "격파한 적 전차 수(기술 사용에 의한 격파 포함) 대 참전 횟수 비율"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "적 전차 격파"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "격파한 적 전차"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "전투당 평균 전차 발견"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "발견한 적 전차 수(기술 사용에 의한 격파 포함) 대 참전 횟수 비율"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "발견한 적 전차"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "발견한 적 전차"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "전투당 평균 피해량"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "피해량"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "전투당 평균 경험치 획득량"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "일반 경험치"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "전투당 평균 경험치 획득량"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "평균 경험치 획득"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "내구도 회복량 대 참전 횟수 비율"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "내구도 회복"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "점령한 거점 수 대 참전 횟수 비율"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "거점 점령"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "획득한 영예 점수 대 참전 횟수 비율"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "전투당 평균 영예 점수"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "전투당 평균 받은 피해량"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "받은 피해"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "역할 기술 사용 횟수 대 참전 횟수 비율"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "역할 기술 사용"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "전투당 평균 적 전차 승무원 폭발 충격 기록 횟수"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "폭발 충격 기록 횟수(기술 사용에 의한 폭발 충격 포함) 대 참전 횟수 비율"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "폭발 충격 기록 횟수"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "폭발 충격 기록 횟수"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "전투 횟수 대 승리 횟수 획득량 비율"
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "평균 승리 점수 획득량"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "총 참전 횟수\n• 승리: %(value_0)s\n• 패배: %(value_1)s\n• 무승부: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "전투"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "달성한 총 레벨 대 참전 횟수 비율입니다."
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "평균 레벨"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "전투 결과에서 기록한 총 순위 대 참전 횟수 비율입니다."
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "평균 순위"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "입힌 총 피해량 대 참전 횟수 비율입니다."
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "입힌 피해"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "총 참전 횟수입니다."
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "전투"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "한 전투에서 적 전차에 입힌 최고 피해량입니다.\n%(value_0)s 전차로 기록 달성"
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "최고 피해 기록"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "월드 오브 탱크 프리미엄 계정을 활성화하여 한 전투에서 획득한 최고 경험치입니다.\n%(value_0)s 전차로 기록 달성"
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "최고 경험치 기록"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "한 전투에서 본인이 격파한 적 전차 수 최고 기록입니다.\n%(value_0)s 전차로 기록 달성"
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "최고 격파 기록"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "총 승리 횟수입니다."
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "승리"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "획득한 기지 점령 점수"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "기지 점령 점수"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "입힌 피해 대 받은 피해 비율\n• 입힌 피해량: %(value_0)s\n• 받은 피해량: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "평균 피해"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "입힌 피해 대 받은 피해 비율\n• 입힌 피해량: %(value_0)s\n• 받은 피해량: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "피해 비율"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "격파한 전차 대 파괴당한 횟수 비율\n• 적 전차 격파: %(value_0)s\n• 내 전차 파괴: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "격파 비율"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "철갑탄, 성형작약탄, 고속철갑탄으로 받은 피해 중 장갑 활용 비율 - 전시 물자 피해 제외\n• 평균 장갑으로 막은 피해: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "장갑 활용"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "전투당 평균 피해량 - 전시 물자 포함"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "평균 피해량"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "전투당 평균 전차 격파 - 전시 물자 포함"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "격파한 적 전차"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "전투당 평균 전차 격파 - 전시 물자 제외"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "격파한 적 전차"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "전투당 평균 피해량 - 전시 물자 포함"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "피해량"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "전투당 평균 피해량 - 전시 물자 제외"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "피해량"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "전투당 평균 받은 피해량 - 전시 물자 포함"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "받은 피해"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "총 참전 횟수\n• 승리: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "전투"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "입힌 피해 대 받은 피해 비율 - 전시 물자 포함\n• 본인 전차로 입힌 피해량: %(value_0)s\n• 전시 물자로 입힌 피해량: %(value_2)s\n• 적 전차 및 전시 물자로 받은 피해량: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "피해 비율"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "입힌 피해 대 받은 피해 비율 - 전시 물자 제외\n• 입힌 피해량: %(value_0)s\n• 받은 피해량: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "피해 비율"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "격파한 전차 대 파괴당한 횟수 비율 - 전시 물자 포함\n• 본인 전차로 격파: %(value_0)s\n• 전시 물자로 격파: %(value_2)s\n• 적 전차 및 전시 물자로 내 전차 파괴: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "격파 비율"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "격파한 전차 대 파괴당한 횟수 비율 - 전시 물자 제외\n• 적 전차 격파: %(value_0)s\n• 내 전차 파괴: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "격파 비율"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "명중률 (전시 물자 제외)"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "명중"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "전시 물자 포함 기록"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "최고 피해 기록"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "전시 물자 제외 기록"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "최고 피해 기록"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "전시 물자 포함 기록"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "최고 격파 기록"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "전시 물자 제외 기록"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "최고 격파 기록"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "총 승리 횟수"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "승리"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "획득한 기지 방어 점수"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "기지 방어 점수"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "총 깃발 파괴 횟수"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "깃발 파괴"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "총 깃발 운반 횟수"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "깃발 운반"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "원정 참전 횟수\n• 승리: %(value_0)s\n• 패배: %(value_1)s\n• 무승부: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "원정"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "원정 승률입니다."
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "원정 승률"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "적 요새 약탈 수량"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "약탈"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "쟁탈전 평균 자원 획득량"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "쟁탈전 평균 약탈 수량"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "쟁탈전 참전 횟수\n• 승리: %(value_0)s\n• 패배: %(value_1)s\n• 무승부: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "쟁탈전"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "쟁탈전 승률입니다."
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "쟁탈전 승률"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "적군 요새 공격 횟수\n요새 공격 중 교전이 한 번 이상 일어난 전투만 계산됩니다."
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "공격"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "아군 요새 방어 횟수\n방어 시간 중 교전이 한 번 이상 일어난 전투만 계산됩니다."
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "방어"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "원정 승률입니다."
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "원정 승률"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "쟁탈전 승률입니다."
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "쟁탈전 승률"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "쟁탈전 평균 자원 획득량"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "쟁탈전 평균 약탈"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "쟁탈전 자원 획득 총합"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "쟁탈전 약탈 총합"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "사격 정확도"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "명중률"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "격파한 전차 대 파괴당한 횟수 비율 - 전시 물자 포함\n• 본인 전차로 격파: %(value_0)s\n• 전시 물자로 격파: %(value_1)s\n• 적 전차 및 전시 물자로 내 전차 파괴: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "격파 비율"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "1회 이상 무작위 전투를 치른 전차 중 적합한 모든 전투 모드에서 획득한 전차 에이스 비율"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "숙련의 증표: 전차 에이스"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "해당 전투 모드에서는 숙련의 증표를 수여하지 않습니다."
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "숙련의 증표: 전차 에이스"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "기록 달성: %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "최고 피해 기록"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "한 전투에서 적 전차에 기록한 최고 피해 기록"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "최고 피해 기록"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "기록 달성: %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "최고 격파 기록"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "한 전투에서 적 전차를 가장 많이 격파한 기록"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "최고 격파 기록"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "한 전투에서 역할 기술 및 전술 기술로 입힌 피해량 최고 기록입니다."
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "기술 피해 최고 기록"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "역할 기술과 전술 기술로 입힌 피해량이 모두 포함됩니다.\n기록 달성 전차: %(value_0)s"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "기술 피해 최고 기록"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "기록 달성: %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "최고 경험치 기록"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "프리미엄 계정을 포함하여 한 전투에서 가장 많이 획득한 경험치 기록"
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "최고 경험치 기록"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "해당 전투 모드에서는 최고 경험치가 표시되지 않습니다."
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "최고 경험치 기록"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "한 전투에서 회복한 자신과 아군 전차 내구도 최고 기록입니다."
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "내구도 회복 최고 기록"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "한 전투에서 회복한 자신과 아군 전차 내구도 최고 기록입니다.\n기록 달성 전차: %(value_0)s"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "내구도 회복 최고 기록"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "한 전투에서 획득한 영예 점수 최고 기록입니다."
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "영예 점수 최고 기록"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "기록 달성 전차: %(value_0)s"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "영예 점수 최고 기록"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "모든 전투 중 최고 승리 점수 획득 기록"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "최고 승리 점수 획득 기록"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "모든 전투 중 최고 승리 점수 획득 기록"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "최고 승리 점수 획득 기록"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "개인 및 소대/7인 소대로 달성한 연승 최고 기록입니다."
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "연승 최고 기록(개인 및 소대/특급 소대)"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "거점 점령 횟수"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "거점 점령"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "평균 적 전차 격파 기록"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "평균 격파 기록"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "랭크 전투 총 참여 전투 수와 획득한 계급장 수 비율입니다.\n• 총 계급장: %(value_0)s\n• 총 전투: %(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "랭크 전투 성과"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "획득한 총 점수"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "랭크 점수"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "적 전차 승무원 폭발 충격 기록 횟수"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "폭발 충격 기록 횟수"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "전투 횟수 대 생존 비율"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "생존율"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "운용 전차 수"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "운용 전차"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "원정 참전 횟수\n\n업데이트 예정입니다."
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "원정"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "원정 승률\n\n현재 버전에서는 이용할 수 없습니다."
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "원정 승률"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "전투 기록 없음"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "정보 없음"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "역사 전투에 최소 한 번 이상 참전한 전차입니다."
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "운용 전차"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "총 승률"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "승률"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "2021~2022 시즌 1"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "2021~2022 시즌 2"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "2021~2022 시즌 3"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "저장된 정보"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "시즌 전체"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "현재 시즌"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "시즌 %(date1)s~%(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "내구도 회복 최고 기록"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "클랜 프로필"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "가입 날짜:"
+
+msgid "profile/summary/clan/post"
+msgstr "직책:"
+
+msgid "profile/summary/club/btnLabel"
+msgstr "팀 프로필"
+
+msgid "profile/summary/club/ladder"
+msgstr "순위표:"
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "래더 %(league)s / 등급 %(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "순위:"
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "다음으로 획득할 업적이 업적 모음에 표시됩니다."
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "다음 업적"
+
+msgid "profile/summary/noGroups"
+msgstr "소속된 래더팀이 없습니다."
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "최고 업적이 업적 모음에 표시됩니다."
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "주요 업적"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "공적 카탈로그를 확인합니다."
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "공적"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "업적 및 조건 확인"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "업적"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "컬렉션 확인"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "컬렉션"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "소속팀 상세 정보를 확인합니다."
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "래더팀"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "명예의 전당 순위 확인"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "명예의 전당"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "명예의 전당을 일시적으로 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "주의"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "전적 통계 확인"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "전적"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "전투 성적 확인"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "개요"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "전차별 통계 확인"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "전차"
+
+msgid "profile/title"
+msgstr "플레이어 통계 %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "해/시즌:"
+
+msgid "seasons/dropdown_label"
+msgstr "시즌:"
+
+msgid "section/advancedAchievements/title"
+msgstr "공적"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "전체"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "획득"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "획득하지 못함"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "필터를 통해 전체, 획득, 획득하지 못한 업적을 구분하여 확인할 수 있습니다."
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "업적 정렬"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "전장의 영웅"
+
+msgid "section/awards/labels/epic"
+msgstr "특무 훈장"
+
+msgid "section/awards/labels/group"
+msgstr "집단 보상"
+
+msgid "section/awards/labels/honorary"
+msgstr "명예 업적"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "화력의 증표"
+
+msgid "section/awards/labels/memory"
+msgstr "기념비적 업적"
+
+msgid "section/awards/labels/special"
+msgstr "특수 업적"
+
+msgid "section/awards/labels/stage"
+msgstr "단계별 훈장"
+
+msgid "section/awards/title"
+msgstr "업적"
+
+msgid "section/collections/title"
+msgstr "컬렉션"
+
+msgid "section/formations/clan/none"
+msgstr "소속 클랜이 없습니다."
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "소속 클랜이 없는 플레이어입니다."
+
+msgid "section/formations/clan/type"
+msgstr "클랜"
+
+msgid "section/formations/fort/battles"
+msgstr "원정"
+
+msgid "section/formations/fort/create"
+msgstr "요새 생성"
+
+msgid "section/formations/fort/level"
+msgstr "요새 레벨: %s"
+
+msgid "section/formations/fort/link"
+msgstr "요새 업적"
+
+msgid "section/formations/fort/none"
+msgstr "생성한 요새 없음"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "해당 클랜은 요새를 생성하지 않았습니다."
+
+msgid "section/formations/fort/resourceRating"
+msgstr "자원 획득 성적"
+
+msgid "section/formations/fort/sorties"
+msgstr "쟁탈전"
+
+msgid "section/formations/history/battles"
+msgstr "참여 전투"
+
+msgid "section/formations/history/dates"
+msgstr "가입/탈퇴 날짜"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s~%(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "팀"
+
+msgid "section/formations/history/title"
+msgstr "플레이어 팀 기록"
+
+msgid "section/formations/joinDate"
+msgstr "가입 날짜: %s"
+
+msgid "section/formations/rank"
+msgstr "플레이어 직책: %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "시즌 %s(종료)"
+
+msgid "section/formations/team/find"
+msgstr "래더팀 검색으로 이동"
+
+msgid "section/formations/team/league"
+msgstr "래더: %(league)s / 등급: %(division)s / 순위: %(position)s위"
+
+msgid "section/formations/team/none"
+msgstr "래더팀에 소속되지 않았습니다."
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "래더팀에 소속되지 않은 플레이어입니다."
+
+msgid "section/formations/team/season"
+msgstr "시즌 %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "순위 전투"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "시즌 승률"
+
+msgid "section/formations/team/title"
+msgstr "팀 \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "팀"
+
+msgid "section/formations/title"
+msgstr "래더팀"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "원정 참전 횟수\n• 승리: %(wins)s\n• 패배: %(losses)s\n• 무승부: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "원정"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "요새 레벨은 사령부 레벨과 같습니다."
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "요새 레벨"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "클랜의 요새 업적을 확인합니다."
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "요새 업적"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "순위"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "자원 획득 성적"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "쟁탈전 참전 횟수\n• 승리: %(wins)s\n• 패배: %(losses)s\n• 무승부: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "쟁탈전"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "팀 프로필을 확인합니다."
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "팀 프로필"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "해당 팀 소속으로 치른 순위 전투\n• 승리: %(wins)s\n• 패배: %(losses)s\n• 무승부: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "순위 전투"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "순위 전투 승률"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "승률"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "닫기"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "레이팅으로 이동"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "무작위 전투\n전적 레이팅"
+
+msgid "section/hof/betaBtn"
+msgstr "BETA"
+
+msgid "section/hof/betaTooltip"
+msgstr "명예의 전당 및 월드 오브 탱크 레이팅\n베타 테스트 진행 중"
+
+msgid "section/hof/mainDescription"
+msgstr "선택한 기간 중 전투 성과 및 순위를 확인합니다."
+
+msgid "section/hof/mainTitle"
+msgstr "명예의 전당"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "명예의 전당을 일시적으로 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "주의"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "결과 표시"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "결과 숨김"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "순위 결과 숨김 신청이 제출되었으며 다음 결과 산출 시 적용됩니다."
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "다른 플레이어로부터 순위를 숨김 처리 했습니다."
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "신청이 제출되었으며 다음 순위 결과 산출 시 적용됩니다. 이제 순위가 다른 플레이어에게 표시됩니다."
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "모든 플레이어, 친구, 클랜원에게 순위 결과가 표시됩니다."
+
+msgid "section/hof/title"
+msgstr "명예의 전당"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "레이팅으로 이동"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "무작위 전투\n전차 레이팅"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "그래프"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "10단계"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "6단계"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "8단계"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "전적"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "원정 세부 정보"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "쟁탈전 세부 정보"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "요새 전투"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "전투당 평균 수치"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "항목"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "원정"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "쟁탈전"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "최고 기록"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "자원"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "해당 유형 전차 총 참전 횟수"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "전차 유형: %(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "해당 단계 전차 참전 횟수"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "전차 단계: %(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "6~8단계 전차만 전투에 참여할 수 있습니다."
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "전차 단계: %(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "해당 전투 모드는 8~10단계 전차로만 전투에 참여할 수 있습니다."
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "전차 단계: %(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "해당 국가 전차 참전 횟수"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "전차 국가: %(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "해당 순위를 달성한 총 전투 횟수"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "달성 순위: %(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "해당 유형 전차 참전 횟수"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "전차 유형: %(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "유형별"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "단계별"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "국가별"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "순위별"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "종류별"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "플레이어의 폭발 충격 도움 피해"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "폭발 충격 도움 피해"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "입힌 피해"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "격파한 적 전차"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "발견한 적 전차"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "내구도 회복"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "거점 점령"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "영예 점수"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "받은 피해"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "역할 기술 사용"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "피해 비율"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "피해량"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "격파"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "격파 비율"
+
+msgid "section/statistics/detailed/killed"
+msgstr "격파한 적 전차"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "최고 격파 기록"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "받은 피해"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "폭발 충격 기록 횟수"
+
+msgid "section/statistics/headerText/all"
+msgstr "무작위 전투 및 중대 전투"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "배틀 로얄"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "배틀 로얄"
+
+msgid "section/statistics/headerText/clan"
+msgstr "세계 지도"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "격전"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "대규모 전투"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "무한 결사전"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "요새 전투"
+
+msgid "section/statistics/headerText/historical"
+msgstr "역사 전투"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "랭크 전투"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "랭크 전투 15대15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "팀: 순위 전투"
+
+msgid "section/statistics/headerText/team"
+msgstr "팀: 일반 전투"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "전투"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "업적"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "장갑 활용"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "평균 도움 피해"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "도움 피해"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "도움 피해"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "평균 피해량"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "평균 경험치 획득"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "일반 경험치"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "전투당 평균 영예 점수"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "평균 승리 점수"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "기지 점령 점수"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "피해 비율"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "숙련의 증표: 전차 에이스"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "기지 방어 점수"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "깃발 파괴"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "깃발 운반"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "원정"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "승률"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "쟁탈전 평균 약탈 수량"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "쟁탈전"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "쟁탈전 승률"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "공격"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "방어"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "원정 승률"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "쟁탈전"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "승률"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "쟁탈전 평균 약탈 수량"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "쟁탈전 약탈 총합"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "원정"
+
+msgid "section/statistics/scores/hits"
+msgstr "명중률"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "격파 비율"
+
+msgid "section/statistics/scores/looting"
+msgstr "약탈"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "최고 피해 기록"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "기술 피해 최고 기록"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "최고 경험치 기록"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "영예 점수 최고 기록"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "최고 승리 점수 획득"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "연승 최고 기록(개인 및 소대/특급 소대)"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "거점 점령"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "평균 격파 기록"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "랭크 전투 성과"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "랭크 점수"
+
+msgid "section/statistics/scores/survival"
+msgstr "생존율"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "전투"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "전차"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "승리"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "사용한 전차"
+
+msgid "section/statistics/title"
+msgstr "전적"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "표시할 다음 업적 없음"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "표시할 주요 업적 없음"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "다음 업적"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "주요 업적"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "평균 레벨"
+
+msgid "section/summary/scores/averageRank"
+msgstr "평균 순위"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "평균 피해량"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "평균 경험치 획득"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "숙련의 증표: 전차 에이스"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "피해 기록"
+
+msgid "section/summary/scores/hits"
+msgstr "명중률"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "최고 격파 기록"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "최고 경험치 기록"
+
+msgid "section/summary/scores/personalScore"
+msgstr "개인 성적"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "전투"
+
+msgid "section/summary/scores/totalWins"
+msgstr "승률"
+
+msgid "section/summary/title"
+msgstr "개요"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "획득한 업적이 없습니다."
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "평균\n경험치 획득"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "숙련도"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "전투"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "승률"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "이름"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "차고에 보유 중인 전차만 표시합니다."
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "차고에 보유한 전차"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "무작위 전투, 중대 전투에 참여한 전차가 차고에 없습니다."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "배틀 로얄에 참여한 전차가 차고에 없습니다."
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "배틀 로얄에 참여한 전차가 차고에 없습니다."
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "격전에 참여한 전차가 없습니다."
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "차고에 대규모 전투에 참여한 전차가 없습니다."
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "무한 결사전에 참여한 전차가 차고에 없습니다."
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "원정에 참여한 전차가 차고에 없습니다."
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "쟁탈전에 참여한 전차가 차고에 없습니다."
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "세계 지도에 참여한 전차가 차고에 없습니다."
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "역사 전투에 참여한 전차가 차고에 없습니다."
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "차고에 랭크 전투에 참여한 전차가 없습니다."
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "순위 전투에 참여한 전차가 차고에 없습니다."
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "팀 전투에 참여한 전차가 차고에 없습니다."
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "전투당 평균 피해 기록으로 정렬"
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "평균 피해 기록"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "한 전투에서 격파한 적 전차 수로 정렬"
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "격파한 적 전차"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "평균 경험치 획득순으로 정렬"
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "평균 경험치"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "참전 횟수로 정렬"
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "전투"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "전차 유형으로 정렬"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "유형"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "전차 단계별 정렬"
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "단계"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "숙련의 증표 등급으로 정렬"
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "숙련도"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "전차명으로 정렬"
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "이름"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "국가별 정렬"
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "국가"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "정예 레벨로 정렬"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "정예 시스템"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "전투당 평균 영예 점수로 정렬"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "전투당 평균 영예 점수"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "유형별 정렬"
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "유형"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "승률로 정렬"
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "승률"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "승리로 정렬"
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "승률"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "명중"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "플레이어의 폭발 충격 도움 피해"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "폭발 충격 도움 피해"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "폭발 충격 도움 피해"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "입힌 피해"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "격파한 적 전차"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "발견한 적 전차"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "일반 경험치"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "받은 피해"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "도움 피해"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "전투당 평균 수치"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "폭발 충격 기록 횟수"
+
+msgid "section/technique/statistics/common"
+msgstr "항목"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "피해 비율"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "격파 비율"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "최고 피해 기록"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "최고 격파 기록"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "최고 경험치 기록"
+
+msgid "section/technique/statistics/records"
+msgstr "최고 기록"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "폭발 충격 기록 횟수"
+
+msgid "section/technique/statistics/survival"
+msgstr "생존율"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "장갑 활용"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "전투"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "승률"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "업적"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "선택한 전차의 업적 확인"
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "업적"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "통계"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "선택한 전차의 통계 확인"
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "전적"
+
+msgid "section/technique/title"
+msgstr "전차"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "차고에 보유한 전차"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "전투 모드별 전적을 표시합니다."
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "전투 모드 정렬"

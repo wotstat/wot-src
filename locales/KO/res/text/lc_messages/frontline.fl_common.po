@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "필터 초기화"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "조건과 일치하는 전차가 없습니다.\n필터를 초기화하여 적합한 전차를 확인해 보십시오."
+
+msgid "battleType/description/fast"
+msgstr "전시 물자 재사용 시간이 짧은 시나리오입니다."
+
+msgid "battleType/description/random"
+msgstr "플레이어가 무작위 물자 세트 중 원하는 물자를 선택하고 물자 레벨을 4까지 올릴 수 있는 시나리오입니다."
+
+msgid "battleType/description/standard"
+msgstr "전선 대격돌 기본 규칙으로 진행되는 시나리오입니다."
+
+msgid "battleType/postBattle/title"
+msgstr "전투 시나리오: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "전시 물자 재사용 시간이 짧습니다."
+
+msgid "battleType/shortDescription/random"
+msgstr "전시 물자가 무작위로 주어집니다."
+
+msgid "battleType/shortDescription/standard"
+msgstr "기본 규칙이 적용됩니다."
+
+msgid "battleType/title/fast"
+msgstr "전술 지원"
+
+msgid "battleType/title/random"
+msgstr "운명의 장난"
+
+msgid "battleType/title/standard"
+msgstr "일반 전투"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "뒤로"
+
+msgid "button/close"
+msgstr "닫기"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration}일"
+msgstr[1] "{duration}일"
+msgstr[2] "{duration}일"
+
+msgid "filterPopover/note"
+msgstr "해당 모드에서 운용할 수 있는 전차만 표시됩니다."
+
+msgid "levelReservesTooltip/desc"
+msgstr "새로운 계급 달성 시 전시 물자 레벨이 상승합니다."
+
+msgid "levelReservesTooltip/info"
+msgstr "{whiteSpanish_Start}운명의 장난{whiteSpanish_End} 시나리오에서는 전시 물자 구매 시 물자 레벨이 1 오르므로 물자를 레벨 {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}까지 강화할 수 있습니다."
+
+msgid "levelReservesTooltip/level"
+msgstr "다음 계급 달성 시 강화: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "다음 계급 달성 시 사용 가능: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "레벨 {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "{whiteSpanish_Start}운명의 장난{whiteSpanish_End} 시나리오에서 {whiteSpanish_Start}구매한 전시 물자{whiteSpanish_End}에 적용됩니다."
+
+msgid "levelReservesTooltip/title"
+msgstr "전시 물자 레벨"
+
+msgid "loading"
+msgstr "불러오는 중..."
+
+msgid "widget/eventStartSoon"
+msgstr "이벤트 곧 시작!"
+
+msgid "widget/maxTier"
+msgstr "최고 단계 달성!"

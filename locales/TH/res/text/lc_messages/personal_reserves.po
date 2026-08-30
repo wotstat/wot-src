@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "เปิดใช้งาน"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "ซื้อและใช้งาน"
+
+msgid "activation/activateBonus"
+msgstr "เปิดใช้กำลังสำรอง: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "ใช้งานกำลังสำรอง"
+
+msgid "activation/activateButtonClan"
+msgstr "ไปยังฐานที่มั่น"
+
+msgid "activation/battleXPDescription"
+msgstr "โบนัสให้กับประสบการณ์การรบเป็นเวลา 1 ชม"
+
+msgid "activation/battleXPTitle"
+msgstr "ประสบการณ์การรบ"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "ซื้อและเปิดใช้กำลังสำรองส่วนตัวปรับปรุงที่มอบ %(boosterBonus)s ให้กับ%(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "ซื้อทอง"
+
+msgid "activation/buyGoldTitle"
+msgstr "ซื้อทองที่ใช้สำหรับกำลังสำรองส่วนตัวปรับปรุงที่มอบ %(boosterBonus)s ให้กับ%(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}จำเป็นต้องใช้ทองในการซื้อกำลังสำรองส่วนตัวรุ่นปรับปรุง: {orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "เงินและประสบการณ์การรบ"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "ประสบการณ์พลรถถังและอิสระ"
+
+msgid "activation/clanBoostersTitle"
+msgstr "กำลังสำรองกองทัพ"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "เปิดใช้งานกำลังสำรองในฐานที่มั่น"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "ดูในฐานที่มั่น"
+
+msgid "activation/comboXPDescription"
+msgstr "โบนัสให้กับประสบการณ์อิสระและพลรถถังเป็นเวลา 1 ชม"
+
+msgid "activation/comboXPTitle"
+msgstr "XP อิสระและพลรถถัง"
+
+msgid "activation/creditsDescription"
+msgstr "โบนัสให้กับเงินเป็นเวลา 1 ชม"
+
+msgid "activation/creditsTitle"
+msgstr "เงิน"
+
+msgid "activation/footer"
+msgstr "ยุทธปัจจัยหมดอายุได้จำเป็นต้องถูกสั่งใช้งาน: %(expirableAmount) ใน %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "โบนัสให้กับประสบการณ์แนวหน้าเป็นเวลา 1 ชม"
+
+msgid "activation/frontLineXPTitle"
+msgstr "ประสบการณ์แนวรบ"
+
+msgid "activation/informationButton"
+msgstr "ข้อมูล"
+
+msgid "activation/price"
+msgstr "ราคา:"
+
+msgid "activation/subFooter/depot"
+msgstr "โรงเก็บ"
+
+msgid "activation/subFooter/main"
+msgstr "กำลังสำรองที่ใกล้หมดอายุจะถูกเปิดใช้งานก่อน คุณสามารถดูกำลังสำรองที่คุณมีทั้งหมดได้ใน %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "เปิดใช้ {whiteSpanish_Open}ได้ถึง 3 กำลังสำรองส่วนตัว{whiteSpanish_Close}เพื่อรับเงินและประสบการณ์มากขึ้นในการรบ ซื้อกำลังสำรองส่วนตัวเพิ่มเติมได้ใน %(store)s"
+
+msgid "activation/subTitle/store"
+msgstr "ร้านค้า"
+
+msgid "activation/terms/booster_credits"
+msgstr "เงิน"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "ประสบการณ์แนวรบ"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "ประสบการณ์อิสระและพลรถถัง"
+
+msgid "activation/terms/booster_xp"
+msgstr "ประสบการณ์การรบ"
+
+msgid "activation/title"
+msgstr "กำลังสำรองส่วนตัว"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}จะเสียกำลังสำรองส่วนตัวที่มอบ %(previousBoosterBonus)s ให้กับ %(previousBoosterTerm)s ที่กำลังเปิดใช้อยู่ไป{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "คุณต้องการจะเปิดใช้กำลังสำรองปรับปรุงที่มอบ %(boosterBonus)s ให้กับ %(boosterTerm)s แทนที่กำลังสำรองส่วนตัวมาตรฐานที่เปิดใช้อยู่?"
+
+msgid "battleView/notice"
+msgstr "กำลังสำรองส่วนตัวสามารถเปิดใช้เมื่อใดก็ได้ในการรบ คุณจะได้รับโบนัสแม้ว่ากำลังสำรองดังกล่าวหมดอายุในระหว่างการรบ"
+
+msgid "battleView/title"
+msgstr "การเปิดใช้กำลังสำรองส่วนตัว"
+
+msgid "depot/buyButton"
+msgstr "ไปยังการซื้อ"
+
+msgid "disabledReserveTooltip/text"
+msgstr "กำลังมีกำลังสำรองอื่นของชนิดนี้เปิดใช้อยู่แล้ว"
+
+msgid "finishedReserveTooltip/text"
+msgstr "กำลังสำรองส่วนตัวนี้หมดอายุในระหว่างการรบ โบนัสจากกำลังสำรองส่วนตัวจะยังคงมีผลในการรบนี้"
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)นาที"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "กำลังสำรองส่วนตัวที่เปิดใช้จะไม่มีผลกับรูปแบบนี้"
+
+msgid "intro/buttons/close"
+msgstr "รับทราบ!"
+
+msgid "intro/buttons/details"
+msgstr "รายละเอียด"
+
+msgid "intro/description"
+msgstr "กำลังสำรองส่วนตัวหมดอายุได้นั้นมีให้เป็นเวลาจำกัดหลังจากที่ได้รับมา ถ้ากำลังสำรองไม่ได้ถูกใช้ในระหว่างนั้น ก็จะหมดอายุไป กำลังสำรองส่วนตัวไม่หมดอายุจะไม่สามารถใช้ได้ระหว่างที่คุณมีกำลังสำรองส่วนตัวหมดอายุได้ชนิดเดียวกันให้เลือกใช้"
+
+msgid "intro/title"
+msgstr "กำลังสำรองส่วนตัวหมดอายุได้"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "ไม่มีกำลังสำรองส่วนตัวชนิดนี้ในโรงเก็บ คุณสามารถซื้อมันได้ในภายหลังหรือเปิดใช้งานในการรบ"
+
+msgid "noReserveTooltip/infoText"
+msgstr "ปฏิบัติภารกิจให้สำเร็จแล้วเข้าร่วมกิจกรรมในเกมเพื่อหากำลังสำรองส่วนตัว"
+
+msgid "noReserveTooltip/text"
+msgstr "ไม่มีกำลังสำรองส่วนตัวชนิดนี้ในโรงเก็บ"

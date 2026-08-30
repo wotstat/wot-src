@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Mua"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Các vật phẩm sau sẽ được nạp: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Mua Vật phẩm"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s thành viên kíp lái"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Bạn đã có kíp lái cho xe này rồi"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s thành viên kíp lái."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Tuyển Thành viên Kíp lái Mới"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "tại đây."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargaming sử dụng tổ hợp chữ-số T-34 theo nghĩa phổ thông để chỉ các xe tăng có thật và không liên quan, dưới mọi hình thức, đến bất kỳ thương hiệu hay chủ sở hữu bản quyền cùng tên nào. Tìm hiểu thêm {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Tải đạn"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Nạp vật phẩm"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Chỗ để xe"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Giao dịch"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Miễn phí"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Tuyển %(count)s thành viên kíp lái"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Thuê"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Thuê"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Thuê 30 ngày"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Thuê 3 ngày"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Thuê 7 ngày"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Thuê cho %(days)s ngày"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Giai đoạn Chiến tuyến"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Mùa Chiến tuyến"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Giai đoạn Trận đánh Xếp hạng"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Mùa giải Trận đánh Xếp hạng"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Phục quân"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Không giới hạn"
+
+msgid "buyVehicleWindow/title"
+msgstr "Cấu hình"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Cứu hộ"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Mua"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Bán-đổi"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Bán-đổi"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Tất cả xe"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Kíp lái"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Đặc tính"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} trận"
+msgstr[1] "{{count}} trận"
+msgstr[2] "{{count}} trận"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} ngày"
+msgstr[1] "{{count}} ngày"
+msgstr[2] "{{count}} ngày"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} giờ"
+msgstr[1] "{{count}} giờ"
+msgstr[2] "{{count}} giờ"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} trận thắng"
+msgstr[1] "{{count}} trận thắng"
+msgstr[2] "{{count}} trận thắng"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Click để đến playlist xe của bạn"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Xe của bạn"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Đào tạo, tái huấn luyện và quản lý kíp lái."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Quản lý Kíp lái"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Tùy biến xe: Áp dụng kiểu mẫu 2D/3D và các yếu tố khác."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Tùy biến"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Bấm để mở"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Thông tin xe, nghiên cứu, so sánh và sửa chữa."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Quản lý xe"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "CHI TIẾT XE"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "GIÁP"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "SO SÁNH"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "TỰ ĐỘNG ĐƯA TRỞ LẠI"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "TRẢ LẠI KÍP LÁI"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "GỬI VỀ DOANH TRẠI"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "TÁI ĐÀO TẠO KÍP LÁI"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "DỊCH VỤ NHANH"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "BIẾN THỂ DÃ CHIẾN"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "ĐỔI QUỐC GIA"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "ĐANG CÓ"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "PRO BOOST {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "ĐÀO TẠO NHANH"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "SỬA CHỮA"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "NGHIÊN CỨU"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "NÂNG CẤP"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Bạn có thể điều chỉnh bất kỳ lúc nào."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Pro Boost đang có cho xe này"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Bạn chỉ có thể boost xe trong Trận đấu Ngẫu nhiên, chế độ Cường kích, Pháo đài, Bản đồ Chiến sự và Tour đấu."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Chế độ không được với Pro Boost"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Bạn chỉ có thể boost xe nghiên cứu và xe Sưu tập thuộc Cấp I–X."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Xe không được với Pro Boost"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Pro Boost hiện đang dành cho {{vehicle}}. Bạn có thể thay đổi sau {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Hãy quay lại sau!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Bạn có thể điều chỉnh sau {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Pro Boost đang có cho xe này"

@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "각 서버 %(primeDelta)s 후 전투 참여 가능"
+
+msgid "alertMessage/allNotSet"
+msgstr "모든 서버 해당 모드 이용 불가"
+
+msgid "alertMessage/ban"
+msgstr "일시적으로 해당 모드 이용이 차단되었습니다. 남은 시간: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "서버 변경"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "세부 정보"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "현재 서버에서 해당 모드를 이용할 수 없습니다. %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "모든 서버에서 해당 모드를 이용할 수 없습니다."
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "해당 모드에 적합한 전차를 %(count)s대 이상 보유하고 있어야 합니다. 격전 정보 페이지에서 자세한 내용을 확인해 보십시오."
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "적합한 전차 부족"
+
+msgid "alertMessage/modeOffline"
+msgstr "데이터베이스 오류가 발생했습니다. 게임 모드를 이용할 수 없습니다."
+
+msgid "alertMessage/noVehicles"
+msgstr "차고에 적합한 %(levels)s단계 전차 없음 %(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "%(serverName)s 서버 전투 참여 불가"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "%(serverName)s 서버 전투 참여 불가"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "적합한 전차 부족 %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "alertMessage/preannounce/first"
+msgstr "하늘색 드래곤 시즌 시작: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "진홍색 드래곤 시즌 시작: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "비취색 드래곤 시즌 시작: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "랭크 배정을 위해 사전 평가 결과 산출 중"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "하늘색 드래곤 시즌 종료"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "진홍색 드래곤 시즌 종료"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "비취색 드래곤 시즌 종료"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "해당 서버 %(primeDelta)s 후 전투 참여 가능"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s일"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s시간 %(min)s분"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1분"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s분"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "차고에 적합한 %(levels)s단계 전차 없음"
+
+msgid "awardsWidget/description/award"
+msgstr "보상을 선택하고 수령합니다."
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "일시적으로 최종 보상을 이용할 수 없습니다. 불편을 드려 죄송합니다."
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "보상\n수령"
+msgstr[1] "보상\n수령"
+msgstr[2] "보상\n수령"
+
+msgid "banView/actionButtons/confirm"
+msgstr "투표"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "%(vehicleName)s에 투표 완료"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "금지하지 않음"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "금지할 전차 제안"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "금지 투표 단계에서만\n투표 가능"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "제안할 금지 전차\n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "아군 중 한 명이\n금지하려는 전차 선택"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "금지 투표 단계 종료까지 대기 중"
+
+msgid "banView/button/back"
+msgstr "뒤로"
+
+msgid "banView/button/ban"
+msgstr "금지 전차 선택"
+
+msgid "banView/button/description"
+msgstr "전차 선택으로 이동"
+
+msgid "banView/description/prepick"
+msgstr "현재 지도 및 팀 구성에 가장 적합한 전차 선택"
+
+msgid "banView/description/voting"
+msgstr "이번 전투에서 제외할 전차 선택"
+
+msgid "banView/factory/candidate"
+msgstr "금지 후보: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "팀 금지 후보"
+
+msgid "banView/factory/noCandidates"
+msgstr "금지 후보 없음"
+
+msgid "banView/factory/pick"
+msgstr "선택 전차: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "금지하지 않음"
+
+msgid "banView/title/prepick"
+msgstr "전차 사전 선택 단계"
+
+msgid "banView/title/voting"
+msgstr "금지 투표 단계"
+
+msgid "banView/tooltip/confirmed"
+msgstr "투표 완료"
+
+msgid "banView/tooltip/noAction"
+msgstr "대기 중"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "해당 플레이어가 아직 금지 전차를 선택하지 않았습니다."
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "제안"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "구축전차"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "중전차"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "경전차"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "중형전차"
+
+msgid "banView/withoutBan"
+msgstr "금지하지 않음"
+
+msgid "banWidget/allies"
+msgstr "아군 투표"
+
+msgid "banWidget/enemies"
+msgstr "적군 투표"
+
+msgid "banWidget/tooltip"
+msgstr "팀의 금지 전차 투표가 일치하지 않아 득표수가 높은 전차 중 하나가 무작위로 금지되었습니다."
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "전차를 유형, 역할, 국가별로 정렬합니다."
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "항목별 필터"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "해당 모드에서 운용할 수 있는 전차만 표시됩니다."
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "조건과 일치하는 전차가 없습니다."
+
+msgid "battleMessages/enableVOIP"
+msgstr "팀이 구성되었습니다. 전차를 선택하고 전투를 시작하십시오!\n음성 대화 단축키 (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "팀이 구성되었습니다. 전차를 선택하고 전투를 시작하십시오!\n단축키를 지정하면 음성 대화에 빠르게 참여할 수 있습니다."
+
+msgid "battleMessages/withoutVOIP"
+msgstr "팀이 구성되었습니다. 전차를 선택하고 전투를 시작하십시오!\n게임 설정에서 음성 대화를 활성화하면 음성 대화에 참여할 수 있습니다."
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "모드 세부 정보 (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "전차 관측 범위 증가"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "승무원 숙련도 증가"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "내구도 회복"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "내구도 회복"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "승무원 숙련도 증가"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "승무원 숙련도 증가"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "주포 재장전 속도 증가"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "전차 성능 향상"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "내구도 회복"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "전차 성능 향상"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "전차 성능 향상"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "기동력 증가"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "내구도 회복"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "주포 분산도 감소"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "전차 성능 향상"
+
+msgid "battleResult/header/deserter"
+msgstr "레이팅 점수 차감 제재 적용"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "제재가 적용되었습니다. 사전 평가 완료 후 레이팅 점수가 차감됩니다."
+
+msgid "battleResult/label/deserter"
+msgstr "전장 이탈"
+
+msgid "battleResult/message/deserter"
+msgstr "제재가 적용되었습니다.\n레이팅 점수 차감: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "전장을 이탈했습니다.\n사전 평가 완료 후 레이팅 점수가 차감됩니다."
+
+msgid "battleResult/message/header/deserter"
+msgstr "비신사적인 행동"
+
+msgid "battleResult/personal/label"
+msgstr "레이팅 점수"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "랭크 시스템에서 플레이어의 현재 진행 상황을 반영합니다. 해당 모드 전투 결과에 따라 레이팅 점수를 획득하거나 잃을 수 있습니다."
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• 모드 전투 패배/무승부\n• 제재 적용\n• 랭크 휴면"
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "레이팀 점수 차감 사유:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "레이팅 점수"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "사전 평가 전투"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "사전 평가"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "레이팅 점수를 획득했습니다. 레전드 랭크를 유지하려면 순위표 상위 %(topPercentage)d%% 이내에 머물러야 합니다."
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "레이팅 점수를 획득했습니다. 레전드 랭크를 달성하려면 순위표 상위 %(topPercentage)d%% 이내에 진입해야 합니다."
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "레이팅 점수 획득"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "레이팅 점수를 잃었습니다. 레전드 랭크를 유지하려면 순위표 상위 %(topPercentage)d%% 이내에 머물러야 합니다."
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "레이팅 점수를 잃었습니다. 레전드 랭크를 달성하려면 순위표 상위 %(topPercentage)d%% 이내에 진입해야 합니다."
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "레이팅 점수 차감"
+
+msgid "battleResult/subTask/rating"
+msgstr "레이팅 점수: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "%(rank)s %(division)s로 강등"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "%(rank)s %(division)s로 승격"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "일일 참전 횟수: %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "포함"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "시즌 참전 횟수: %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "개인/소대: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "특급 소대: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s~%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "하늘색 드래곤 시즌 종료까지 %(days)d일"
+msgstr[1] "하늘색 드래곤 시즌 종료까지 %(days)d일"
+msgstr[2] "하늘색 드래곤 시즌 종료까지 %(days)d일"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "진홍색 드래곤 시즌 종료까지 %(days)d일"
+msgstr[1] "진홍색 드래곤 시즌 종료까지 %(days)d일"
+msgstr[2] "진홍색 드래곤 시즌 종료까지 %(days)d일"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "비취색 드래곤 시즌 종료까지 %(days)d일"
+msgstr[1] "비취색 드래곤 시즌 종료까지 %(days)d일"
+msgstr[2] "비취색 드래곤 시즌 종료까지 %(days)d일"
+
+msgid "calendarDay/title"
+msgstr "일정"
+
+msgid "carousel/banned"
+msgstr "금지"
+
+msgid "claimRewards/button"
+msgstr "보상 수령"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "기술적 문제로 인해 일시적으로 해당 작업을 수행할 수 없습니다. 문제를 수정하고 있습니다."
+
+msgid "closeButtonLabel"
+msgstr "닫기"
+
+msgid "controls/compare"
+msgstr "비교에 추가"
+
+msgid "controls/preview"
+msgstr "미리 보기"
+
+msgid "countDown/text"
+msgstr "이벤트 시작까지\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1분"
+
+msgid "crewMembersTooltip/description"
+msgstr "사령관의 지휘 아래 세계 각국에서 모인 특별한 승무원입니다. 전우애 능력을 기본 보유하고 있으며 2가지 능력을 추가로 훈련할 수 있는 승무원 경험치도 보유하고 있습니다. 이를 통해 승무원 능력을 최대한 활용하며 전차 성능을 향상할 수 있을 것입니다."
+
+msgid "crewMembersTooltip/perks"
+msgstr "능력"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "격전: 드래곤의 해"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "기본 보유 능력"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "일일 평균 피해 기록: %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "전투당 평균 입힌 피해량입니다."
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "시즌 평균 피해 기록: %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "일일 최고 피해 기록: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "%(vehicleName)s 전차로 입힌 최고 피해량입니다."
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "시즌 최고 피해 기록: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "불편을 드려 죄송합니다. 나중에 다시 시도해 주십시오."
+
+msgid "dataError/title"
+msgstr "정보 불러오는 중 오류"
+
+msgid "dayTooltip/day"
+msgstr "%(index)s일 차"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "%(index)s일 차: 전투 기록이 없습니다."
+
+msgid "dayTooltip/noBattles"
+msgstr "평화를 원한다면, 전쟁을 준비하라"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "랭크 휴면: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "레이팅 점수 %(pointsCount)s점"
+msgstr[1] "레이팅 점수 %(pointsCount)s점"
+msgstr[2] "레이팅 점수 %(pointsCount)s점"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "레이팅 점수 변동: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "%(index)s일 차 (오늘)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "%(index)s일 차: 전투 기록이 없습니다."
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "편성"
+
+msgid "division/text"
+msgstr "편성 %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "레이팅 점수가 {eeede9e6_Open}%(fromScore)점부터 %(toScore)점 사이{eeede9e6_Close}인 플레이어로 구성된 편성입니다."
+
+msgid "divisionTooltip/heading"
+msgstr "편성 %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "레이팅 점수"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "참전 횟수"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)s결과 산출 중..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)s결과 산출 중"
+
+msgid "entryPointTooltip/description"
+msgstr "%(levels)s단계 전차로 7 대 7 전투를 펼치는 경쟁 모드입니다. 랭크를 올리고 특별 전차 꾸미기 요소, 전차, 전쟁 채권 등 다양하고 값진 아이템을 획득해 보십시오."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "모드"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — 게임 모드 확인"
+
+msgid "entryPointTooltip/status/active"
+msgstr "남은 시간: %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "휴전 %(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "시작까지\n%(timer)s"
+
+msgid "featureName"
+msgstr "격전"
+
+msgid "featureNameCapitalized"
+msgstr "격전"
+
+msgid "fifthRankTooltip/description"
+msgstr "{eeede9e6_Open}챔피언{eeede9e6_Close} 랭크에는 레이팅 점수가 {eeede9e6_Open}%(fromScore)점{eeede9e6_Close} 이상인 플레이어가 배정됩니다."
+
+msgid "forVehicle"
+msgstr "%(vehicleName)s 전용"
+
+msgid "generalRankTooltip/body/first"
+msgstr "{eeede9e6_Open}아이언{eeede9e6_Close} 랭크에는 레이팅 점수가 {eeede9e6_Open}%(fromScore)점부터 %(toScore)점 사이{eeede9e6_Close}인 플레이어가 배정됩니다."
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "{eeede9e6_Open}골드{eeede9e6_Close} 랭크에는 레이팅 점수가 {eeede9e6_Open}%(fromScore)점부터 %(toScore)점 사이{eeede9e6_Close}인 플레이어가 배정됩니다."
+
+msgid "generalRankTooltip/body/second"
+msgstr "{eeede9e6_Open}브론즈{eeede9e6_Close} 랭크에는 레이팅 점수가 {eeede9e6_Open}%(fromScore)점부터 %(toScore)점 사이{eeede9e6_Close}인 플레이어가 배정됩니다."
+
+msgid "generalRankTooltip/body/third"
+msgstr "{eeede9e6_Open}실버{eeede9e6_Close} 랭크에는 레이팅 점수가 {eeede9e6_Open}%(fromScore)점부터 %(toScore)점 사이{eeede9e6_Close}인 플레이어가 배정됩니다."
+
+msgid "generalRankTooltip/subheading"
+msgstr "편성 포함: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "이벤트 정보"
+
+msgid "intro/confirmButton"
+msgstr "확인"
+
+msgid "intro/description/banPhase"
+msgstr "각 팀은 전투에서 특정 전차의 운용을 금지할 수 있습니다. 아군과 투표를 조율하여 가장 위협적인 전차를 제외하거나 적이 예상치 못한 조합을 준비할 수 있습니다. 자신이 운용하려던 전차가 금지되면 사전 구성 대여 전차 중 하나를 선택할 수 있습니다."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "해당 모드에서는 전차 내구도, 소모품 재사용 시간, 전차 발각 유지 시간 등 전차의 특정 성능이 변동됩니다."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "지도 내 거점을 점령하면 전술 기술을 사용할 수 있습니다. 거점은 특정 지역에 포격 지원을 요청할 수 있는 포병 본부와 모든 적 전차를 관측할 수 있는 무전 센터 두 가지로 나누어집니다. 지도에 따라 거점 유무와 위치가 다를 수도 있습니다."
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "사전 평가 전투에 %(count)s회 참여하면 실력에 따라 랭크를 배정받을 수 있습니다. 사전 평가 완료 시 달성한 랭크를 기준으로 보상이 지급됩니다.\n\n사전 평가 전투에서 전장을 이탈하거나 무승부를 기록하면 패배한 것으로 처리됩니다."
+msgstr[1] "사전 평가 전투에 %(count)s회 참여하면 실력에 따라 랭크를 배정받을 수 있습니다. 사전 평가 완료 시 달성한 랭크를 기준으로 보상이 지급됩니다.\n\n사전 평가 전투에서 전장을 이탈하거나 무승부를 기록하면 패배한 것으로 처리됩니다."
+msgstr[2] "사전 평가 전투에 %(count)s회 참여하면 실력에 따라 랭크를 배정받을 수 있습니다. 사전 평가 완료 시 달성한 랭크를 기준으로 보상이 지급됩니다.\n\n사전 평가 전투에서 전장을 이탈하거나 무승부를 기록하면 패배한 것으로 처리됩니다."
+
+msgid "intro/description/ranks"
+msgstr "플레이어의 실력을 반영하는 시스템입니다. 아이언부터 레전드까지 랭크를 진행하고 값진 보상을 획득해 보십시오. 드래곤의 해 모든 시즌에 참여하여 특별한 연간 보상을 획득할 수도 있습니다."
+
+msgid "intro/description/roleSkills"
+msgstr "각 전차는 충전 레벨을 3까지 올릴 수 있는 역할 기술을 보유하고 있습니다. 충전 레벨을 올릴수록 기술 활성화 시 효과가 더 강해집니다. 충전 레벨은 전투 중 활약, 거점 점령, 전술 기술 사용 등의 활동을 통해 획득할 수 있는 영예 점수를 수집하여 올릴 수 있습니다.\n\n영예 점수 획득 방법에 관한 세부 정보는 모드 규정을 통해 확인할 수 있습니다."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "전투는 %(levels)s단계 일반 전차(자주포 제외), 수집 전차, 일부 특별 전차로 참여할 수 있습니다. 차고에 전차를 확보하고 전투 참여 후 정해진 지도의 특성에 따라 최고의 효율을 낼 수 있는 전차를 선택해 보십시오. 전차 선택 시 아군이 선택한 전차도 고려하는 것이 좋습니다."
+
+msgid "intro/title/banPhase"
+msgstr "전차 금지"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "격전 성능 변동"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "거점"
+
+msgid "intro/title/qualification"
+msgstr "사전 평가"
+
+msgid "intro/title/ranks"
+msgstr "랭크 시스템"
+
+msgid "intro/title/roleSkills"
+msgstr "역할 기술"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "지도에 따른 전차 선택"
+
+msgid "lastUpdateNote/info"
+msgstr "업데이트: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "레전드 랭크 최하위 플레이어의 레이팅 점수는\n%(count)s분마다 업데이트됩니다."
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "데이터 업데이트 중..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "순위표는 %(count)s분마다 업데이트됩니다."
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "최근 업데이트: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "내 순위"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "순위표에 진출하려면 챔피언 또는 레전드 랭크를 달성해야 합니다."
+
+msgid "leaderboard/error/buttonText"
+msgstr "업데이트"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "챔피언 및 레전드 랭크 플레이어는 순위표에 표시됩니다. 레이팅 점수를 {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close}점 수집하고 순위표에 진출해 보십시오!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "현재 시즌에서 순위표에 진출한 플레이어 없음"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "참전"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "플레이어 이름"
+
+msgid "leaderboard/table/header/score"
+msgstr "레이팅 점수"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "격전 모드 현재 시즌에서 전투에 참여한 횟수입니다."
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "참전"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "레이팅 기반 플레이어 순위입니다."
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "순위"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "순위에 진출한 플레이어 이름입니다."
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "플레이어 이름"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "현재 시즌에서 수집한 레이팅 점수입니다."
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "레이팅 점수"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "소대 플레이어"
+
+msgid "noVehicles/howTo/premium"
+msgstr "월드 오브 탱크 프리미엄 계정 사용"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "개인 물자 활성화"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "임무 완료"
+
+msgid "noVehicles/howTo/title"
+msgstr "%(levels)s단계 전차를 빠르게 획득할 방법이 있습니다."
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "격전에 참여하려면 해당 모드에 적합한 %(levels)s단계 전차를 차고에 한 대 이상 보유하고 있어야 합니다.\n연구는 완료했지만, 구매는 하지 않은 %(levels)s단계 전차가 있습니다."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "격전에 참여하려면 해당 모드에 적합한 %(levels)s단계 전차를 차고에 한 대 이상 보유하고 있어야 합니다.\n복구할 수 있는 %(levels)s단계 전차가 있습니다."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "격전에 참여하려면 해당 모드에 적합한 %(levels)s단계 전차를 차고에 한 대 이상 보유하고 있어야 합니다."
+
+msgid "noVehicles/title"
+msgstr "차고에 적합한 전차 없음"
+
+msgid "page/heading/leaderboard"
+msgstr "순위표"
+
+msgid "page/heading/progression"
+msgstr "랭크 시스템"
+
+msgid "page/heading/qualification"
+msgstr "사전 평가"
+
+msgid "page/heading/rankRewards"
+msgstr "랭크 보상"
+
+msgid "page/heading/shop"
+msgstr "격전 상점"
+
+msgid "page/heading/weeklyQuests"
+msgstr "주간 임무"
+
+msgid "page/heading/yearlyRewards"
+msgstr "연간 보상"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "연간 통계"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "다음"
+
+msgid "pagination/prev"
+msgstr "뒤로"
+
+msgid "pbs/bans/title"
+msgstr "금지 전차"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "격전 2D 스타일"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "2D 스타일 임무 완료!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "주간 임무 #%(count)s 완료!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "주간 임무 완료!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "격전 주간"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "패배 사유"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "무승부 사유"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "떳떳하지 못한 승리"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "%(rank)s로 승급"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "%(rank)s, %(division)s로 강등"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "%(rank)s, %(division)s로 승급"
+
+msgid "pbs/overview/qualification/description"
+msgstr "참전 횟수"
+
+msgid "pbs/overview/qualification/title"
+msgstr "사전 평가"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "제재 적용: 레이팅 점수 차감"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "제재 적용: 사전 평가 완료 후 레이팅 점수 차감"
+
+msgid "pbs/rankDescription/fifth"
+msgstr "레전드 랭크를 달성하려면 순위표 {ede6d9e5_Open}상위 %(topPercentage)%{ede6d9e5_Close} 이내에 진입해야 합니다."
+
+msgid "pbs/rankDescription/sixth"
+msgstr "레전드 랭크를 유지하려면 순위표 {ede6d9e5_Open}상위 %(topPercentage)%{ede6d9e5_Close} 이내에 머물러야 합니다."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "격전 정보 페이지에서 자세한 내용을 확인해 보십시오."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "영예 점수"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "피해 기록\n도움 피해 기록\n궤도 파괴\n부품 파괴/부상 유발\n적 전차 격파\n그 외 행동"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "해당 특별 자원은 전투 중 획득하거나 잃는 레이팅 점수에 영향을 줍니다. 영예 점수는 다음 행동을 취하여 획득할 수 있습니다."
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "일일 평균 영예 점수: %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "전투당 평균 영예 점수 획득량입니다."
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "시즌 평균 영예 점수: %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "일일 최고 영예 점수: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "%(vehicleName)s 전차로 달성한 영예 점수 획득량 최고 기록입니다."
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "시즌 최고 영예 점수: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "%(server)s 서버에서 하늘색 드래곤 시즌이 종료되었습니다."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "%(server)s 서버에서 진홍색 드래곤 시즌이 종료되었습니다."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "%(server)s 서버에서 비취색 드래곤 시즌이 종료되었습니다."
+
+msgid "products/actions/buy"
+msgstr "구매"
+
+msgid "products/actions/restore"
+msgstr "보관소로 이동"
+
+msgid "products/actions/toCustomization"
+msgstr "스타일로 이동"
+
+msgid "products/actions/toHangar"
+msgstr "차고에서 보기"
+
+msgid "products/customizationUnavailable/body"
+msgstr "스타일로 이동할 수 없습니다. 전차를 보유하지 않았거나, 전차가 소대에 소속되어 있거나, 전투 중이거나, 수리가 필요한 상태일 수 있습니다."
+
+msgid "products/customizationUnavailable/title"
+msgstr "이용 불가"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "다음 시즌 시작 시까지 {eeede9e6_Open}달성한{eeede9e6_Close} {eeede9e6_Open}최고{eeede9e6_Close} {eeede9e6_Open}랭크{eeede9e6_Close}에 따라 아이템을 구매하고 할인 혜택을 누릴 수 있습니다."
+
+msgid "products/discountSectionName"
+msgstr "해제 및 할인 조건"
+
+msgid "products/inProgress"
+msgstr "결제 중입니다. 잠시만 기다려 주십시오..."
+
+msgid "products/limitedQuantitySeason"
+msgstr "시즌 당 구매 가능 횟수: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "자금이 부족합니다."
+
+msgid "products/message/rankAccess"
+msgstr "구매 조건\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "신규"
+
+msgid "products/priceSectionName"
+msgstr "가격"
+
+msgid "products/productAccess"
+msgstr "해제\n랭크"
+
+msgid "products/purchased"
+msgstr "구매 완료"
+
+msgid "products/rankAccess"
+msgstr "해제 랭크: %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "복구 가능"
+
+msgid "products/readyToRestoreDescription"
+msgstr "보관소에서 복구 가능"
+
+msgid "products/style3d"
+msgstr "%(name)s 3D 스타일"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "시즌 통계로 돌아가기"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "시즌 통계"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "%(day)s일 차 통계"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "오늘 통계"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "각 열에는 선택한 일 차의 작전 개시 시간부터 다음 날 작전 개시 시간까지의 기록이 집계됩니다. 간혹 이틀에 걸친 전투 기록이 함께 포함될 수 있습니다."
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "각 열에는 선택한 일 차의 작전 개시 시간부터 다음 날 작전 개시 시간까지의 기록이 집계됩니다. 간혹 이틀에 걸친 전투 기록이 함께 포함될 수 있습니다."
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "해당 항목은 새로운 데이터가 있을 때만 갱신됩니다. 새로 고침 버튼을 누르면 최신 데이터를 확인할 수 있습니다."
+
+msgid "progressionPage/chartHeader/update"
+msgstr "갱신: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "축하합니다!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "2D 스타일 임무를 모두 완료했습니다."
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "현재 시즌의 진행 2D 스타일 신규 요소를 획득할 수 있는 연속 임무입니다."
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "2D 스타일 임무: %(taskNumber)s"
+msgstr[1] "2D 스타일 임무: %(taskNumber)s"
+msgstr[2] "2D 스타일 임무: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "2D 스타일 임무"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "스타일"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "현재 이용할 수 없는 전차에 적용된 모든 스타일"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "스타일을 적용할 수 있는 전차 없음"
+
+msgid "progressionPage/error/refresh"
+msgstr "새로 고침"
+
+msgid "progressionPage/error/refreshing"
+msgstr "새로 고침 중…"
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "평균 피해 기록"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "평균 영예 점수"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "레이팅 변동 %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "%(seasonRecordDescriptionDay)s일 차 레이팅 기록"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "%(day)s일 차"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "전체 통계"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "포함\n • 적 전차 발견에 의한 도움 피해(기술 사용에 의한 피해 포함)\n • 적 전차 궤도 파괴 및 이동 불가 상태 유발에 의한 도움 피해(기술 사용에 의한 피해 포함)\n • 기술 사용에 의한 도움 피해\n • 폭발 충격을 가한 적에 입힌 도움 피해(기술 사용에 의한 폭발 충격 포함)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "총 참전 횟수"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "전투당 평균 피해 기록"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "격파한 전차 대 파괴당한 횟수 비율"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "입힌 피해량 대 받은 피해량 비율"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "총 영예 점수 획득량 대 참전 횟수 비율"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "전투에 가장 많이 참여한 전차"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "총 승률"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "평균 도움 피해 기록"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "전투"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "평균 피해 기록"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "격파 비율"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "피해 비율"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "전투당 평균 영예 점수"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "전차 이름"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "승률"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "전차 통계"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s~%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "레이팅 강등까지 남은 일수: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "격전 모드 전투에 참여하지 않으면 레이팅 점수 {eeede9e6_Open}%(count)s{eeede9e6_Close}점이 차감됩니다."
+msgstr[1] "격전 모드 전투에 참여하지 않으면 레이팅 점수 {eeede9e6_Open}%(count)s{eeede9e6_Close}점이 차감됩니다."
+msgstr[2] "격전 모드 전투에 참여하지 않으면 레이팅 점수 {eeede9e6_Open}%(count)s{eeede9e6_Close}점이 차감됩니다."
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(전투 1회 = 활동 점수 {white_Open}%(count)s점{white_Close})"
+msgstr[1] "(전투 1회 = 활동 점수 {white_Open}%(count)s점{white_Close})"
+msgstr[2] "(전투 1회 = 활동 점수 {white_Open}%(count)s점{white_Close})"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "현재 랭크에서는 해당 모드를 플레이하지 않아도 레이팅 점수를 잃지 않습니다. %(rankList)s 랭크에서는 레이팅 점수를 잃을 수 있습니다."
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "휴면 강등 적용 랭크"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "휴면 강등 미적용 랭크"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "랭크"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "순위표 상위 %(topPercentage)s% 플레이어"
+
+msgid "progressionTooltip/division"
+msgstr "편성 %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "레이팅 점수가 {eeede9e6_Open}%(fromScore)점부터 %(toScore)점 사이{eeede9e6_Close}인 플레이어로 구성된 편성입니다."
+
+msgid "progressionTooltip/info/fifth"
+msgstr "챔피언 랭크에는 레이팅 점수가 {eeede9e6_Open}%(fromScore)점{eeede9e6_Close} 이상인 플레이어가 배정됩니다."
+
+msgid "progressionTooltip/info/sixth"
+msgstr "레전드 랭크에는 순위표 {eeede9e6_Open}상위 %(topPercentage)%{eeede9e6_Close} 플레이어가 배정됩니다."
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "해당 모드 전투에 %(maxBattlesCount)s회 참여하여 실력을 검증하고 랭크를 배정받으십시오."
+msgstr[1] "해당 모드 전투에 %(maxBattlesCount)s회 참여하여 실력을 검증하고 랭크를 배정받으십시오."
+msgstr[2] "해당 모드 전투에 %(maxBattlesCount)s회 참여하여 실력을 검증하고 랭크를 배정받으십시오."
+
+msgid "progressionTooltip/qualificationName"
+msgstr "사전 평가"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "레이팅 강등까지 남은 일수: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "격전 모드 전투에 참여하지 않으면 레이팅 점수 {eeede9e6_Open}%(count)s{eeede9e6_Close}점이 차감됩니다."
+msgstr[1] "격전 모드 전투에 참여하지 않으면 레이팅 점수 {eeede9e6_Open}%(count)s{eeede9e6_Close}점이 차감됩니다."
+msgstr[2] "격전 모드 전투에 참여하지 않으면 레이팅 점수 {eeede9e6_Open}%(count)s{eeede9e6_Close}점이 차감됩니다."
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s 휴면 강등 적용 랭크입니다."
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "랭크를 유지하려면 오늘 안에 전투에 참여하십시오."
+
+msgid "progressionTooltip/ratingScore"
+msgstr "레이팅 점수"
+
+msgid "purchase/affirmative"
+msgstr "확인"
+
+msgid "purchase/cancelButton"
+msgstr "뒤로"
+
+msgid "purchase/confirmButton"
+msgstr "구매"
+
+msgid "purchase/error/description"
+msgstr "구매를 완료할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "purchase/error/title"
+msgstr "오류"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)s해당 스타일에 적합한 전차 미보유"
+
+msgid "purchase/price"
+msgstr "구매 가격:"
+
+msgid "purchase/success/heading"
+msgstr "구매해 주셔서 감사합니다!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)s곧 계정에 지급될 예정입니다."
+
+msgid "purchase/success/style3d"
+msgstr "%(vehicleName)s 전용 3D 스타일 %(name)s"
+
+msgid "purchase/title/style3d"
+msgstr "%(name)s 3D 스타일을 구매하시겠습니까?"
+
+msgid "purchase/title/vehicle"
+msgstr "%(name)s 전차를 구매하시겠습니까?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "해당 모드 전투에 {eeede9_Open}%(maxBattlesCount)s회{eeede9_Close} 참여하여 실력을 검증하고 랭크를 배정받으십시오."
+msgstr[1] "해당 모드 전투에 {eeede9_Open}%(maxBattlesCount)s회{eeede9_Close} 참여하여 실력을 검증하고 랭크를 배정받으십시오."
+msgstr[2] "해당 모드 전투에 {eeede9_Open}%(maxBattlesCount)s회{eeede9_Close} 참여하여 실력을 검증하고 랭크를 배정받으십시오."
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "전투에 %(maxBattlesCount)s회 참여하여 레이팅 점수가 산출되면 사전 평가가 완료됩니다. 최종 랭크는 사전 평가 전투 결과에 따라 배정됩니다.\n사전 평가 전투 중 전장을 이탈하면 압도적인 패배를 했을 때보다도 더 부정적인 영향을 미칩니다."
+msgstr[1] "전투에 %(maxBattlesCount)s회 참여하여 레이팅 점수가 산출되면 사전 평가가 완료됩니다. 최종 랭크는 사전 평가 전투 결과에 따라 배정됩니다.\n사전 평가 전투 중 전장을 이탈하면 압도적인 패배를 했을 때보다도 더 부정적인 영향을 미칩니다."
+msgstr[2] "전투에 %(maxBattlesCount)s회 참여하여 레이팅 점수가 산출되면 사전 평가가 완료됩니다. 최종 랭크는 사전 평가 전투 결과에 따라 배정됩니다.\n사전 평가 전투 중 전장을 이탈하면 압도적인 패배를 했을 때보다도 더 부정적인 영향을 미칩니다."
+
+msgid "qualification/conditionTooltip/header"
+msgstr "사전 평가 규칙"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "참전 횟수"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s 랭크 배정을 위해 사전 평가 결과 산출 중"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "사전 평가 결과에 따라 레이팅 점수가 산출되기까지 소요되는 시간은 5분입니다. 결과 산출이 완료되면 랭크가 배정되며 격전에 계속 참여할 수 있습니다."
+
+msgid "qualification/rewardsButton"
+msgstr "보상으로 이동"
+
+msgid "qualification/rewardsDescription"
+msgstr "사전 평가가 완료되면 달성한 랭크를 기준으로 보상이 지급됩니다."
+
+msgid "quotesWrapper"
+msgstr "%(name)s"
+
+msgid "rank/achieved"
+msgstr "달성"
+
+msgid "rank/current"
+msgstr "현재"
+
+msgid "rank/fifth"
+msgstr "챔피언"
+
+msgid "rank/first"
+msgstr "아이언"
+
+msgid "rank/fourth"
+msgstr "골드"
+
+msgid "rank/qualification"
+msgstr "사전 평가"
+
+msgid "rank/second"
+msgstr "브론즈"
+
+msgid "rank/sixth"
+msgstr "레전드"
+
+msgid "rank/text"
+msgstr "%(rank)s 랭크"
+
+msgid "rank/third"
+msgstr "실버"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "플레이어 랭크"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "소대원 랭크"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "랭크가 비슷한 플레이어끼리만 소대를 구성할 수 있습니다."
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "%(count)s인 소대 랭크 제한"
+
+msgid "rankInactivityTooltip/description"
+msgstr "해당 모드를 플레이하지 않으면 레이팅 점수를 잃을 수도 있습니다."
+
+msgid "rankInactivityTooltip/heading"
+msgstr "랭크 휴면"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "레이팅 하락까지 남은 시간: %(count)s일"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "일일 레이팅"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "레이팅 점수 변동: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "선택 일 차 기준 전날 대비 레이팅 점수 차이입니다."
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "일일 레이팅 점수 기록: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "선택한 일 차에 달성한 최고 레이팅 점수 기록입니다."
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "%(day)s일 차"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "시즌 %(dayOfRecord)s 레이팅 기록"
+
+msgid "rankInfo/current/fifth"
+msgstr "챔피언 랭크에는 레이팅 점수가 {eeede9e6_Open}%(fromScore)점{eeede9e6_Close} 이상인 플레이어가 배정됩니다."
+
+msgid "rankInfo/current/sixth"
+msgstr "레전드 랭크에는 순위표 {eeede9e6_Open}상위 %(topPercentage)%{eeede9e6_Close} 플레이어가 배정됩니다."
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "레전드 랭크를 달성하려면 레이팅 점수 순위표 {eeede9e6_Open}상위 %(topPercentage)%{eeede9e6_Close} 이내에 진입해야 합니다."
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "레전드 랭크를 유지하려면 레이팅 점수 순위표 {eeede9e6_Open}상위 %(topPercentage)%{eeede9e6_Close} 이내에 머물러야 합니다."
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "레전드 랭크를 달성하려면 레이팅 점수 순위표 {eeede9e6_Open}상위 %(topPercentage)%{eeede9e6_Close} 이내에 진입해야 합니다. 레전드 랭크 최하위 플레이어 레이팅 점수: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}점"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "레전드 랭크를 유지하려면 레이팅 점수 순위표 {eeede9e6_Open}상위 %(topPercentage)%{eeede9e6_Close} 이내에 머물러야 합니다. 레전드 랭크 최하위 플레이어 레이팅 점수: {eeede9e6_Open}%(pointsCount){eeede9e6_Close}점"
+
+msgid "rankUpper/fifth"
+msgstr "챔피언"
+
+msgid "rankUpper/first"
+msgstr "아이언"
+
+msgid "rankUpper/fourth"
+msgstr "골드"
+
+msgid "rankUpper/second"
+msgstr "브론즈"
+
+msgid "rankUpper/sixth"
+msgstr "레전드"
+
+msgid "rankUpper/text"
+msgstr "%(rank)s 랭크"
+
+msgid "rankUpper/third"
+msgstr "실버"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "아래 목록 내 강화 장비 1개 선택 가능\n\n• 개조 배기장치\n• 개조 조준장치\n• 개조 회전장치\n• 개조 과급기\n• 개조 경화강\n• 개량형 구성장치\n• 개조 광학장비\n• 개조 장전 장치\n• 개조 환기장치\n• 내마모 주포 구동 장치\n• 안정 장치\n• 망원 관측 시스템\n• 전술 위장막"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "아래 목록 내 시제 장비 중 하나 선택 가능\n\n• 사격 통제 시스템 T3\n• 생존 강화 시스템 T3\n• 기동 강화 시스템 T3\n• 조준 강화 시스템 T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "%(name)s 위장"
+
+msgid "rewards/preview"
+msgstr "미리 보기"
+
+msgid "rewards/status/achieved"
+msgstr "보상 획득"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}%(vehicleLevel)s단계 전차 전용{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}%(progressionStyleName)s 스타일 전용{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "%(vehicleLevel)s단계"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "그 외 보상:"
+
+msgid "rewardsScreen/button"
+msgstr "확인"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "보상으로 이동"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "보상 선택"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "구매로 이동"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "격전: 사전 평가 완료"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "격전: 하늘색 드래곤 시즌"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "격전: 진홍색 드래곤 시즌"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "격전: 비취색 드래곤 시즌"
+
+msgid "rewardsScreen/description/year"
+msgstr "격전: 드래곤의 해"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Ashbringer 확인"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "랭크 없음"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "해당 랭크 달성 후 격전 모드를 플레이하지 않으면 레이팅 점수를 잃을 수도 있습니다."
+
+msgid "rewardsScreen/notice/title"
+msgstr "랭크 휴면"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "총 격전\n색상"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "장비 선택"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "보상 선택"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "격전 상점에서 새로운 할인 혜택 이용 가능!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "격전 상점에서 새로운 아이템 이용 가능!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "다음 시즌 시작 시까지 달성한 최고 랭크에 따라 아이템을 구매하고 할인 혜택을 누릴 수 있습니다."
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "다음 시즌 시작 시까지 달성한 최고 랭크에 따라 아이템을 구매하고 할인 혜택을 누릴 수 있습니다."
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}%(rank)s 랭크{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "사전 평가 결과에 따라 랭크 배정 및 보상 지급: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "{ffe4c0_Open}%(rank)s{ffe4c0_Close} 랭크 달성 보상 획득"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "주간 임무 {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close}개 완료 보상"
+msgstr[1] "주간 임무 {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close}개 완료 보상"
+msgstr[2] "주간 임무 {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close}개 완료 보상"
+
+msgid "rewardsScreen/title/division"
+msgstr "편성 %(division)s 달성"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close} 랭크 달성"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "랭크 달성 보상"
+
+msgid "rewardsScreen/title/rank"
+msgstr "{ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close} 랭크 달성"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "랭크 보상"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "보상 획득"
+msgstr[1] "보상 획득"
+msgstr[2] "보상 획득"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "주간 임무 보상"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "연간 보상"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "다음 보상 포함"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "격전"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "보상 선택"
+msgstr[1] "보상 선택"
+msgstr[2] "보상 선택"
+
+msgid "scoreTooltip/body"
+msgstr "격전 모드에서는 레이팅 점수에 따라 랭크와 편성이 정해집니다. 승리하여 최고가 되어 보십시오!"
+
+msgid "scoreTooltip/header"
+msgstr "레이팅 점수"
+
+msgid "season/daysLeft"
+msgstr "종료까지 %(totalDays)s일"
+
+msgid "season/hoursLeft"
+msgstr "종료까지 %(hours)s시간"
+
+msgid "season/minutesLeft"
+msgstr "종료까지 %(minutes)s분"
+
+msgid "season/over"
+msgstr "%(seasonName)s 종료"
+
+msgid "season/range"
+msgstr "%(startDate)s~%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "종료까지 %(seconds)s초"
+
+msgid "seasonName/first"
+msgstr "하늘색 드래곤 시즌"
+
+msgid "seasonName/second"
+msgstr "진홍색 드래곤 시즌"
+
+msgid "seasonName/third"
+msgstr "비취색 드래곤 시즌"
+
+msgid "seasonPointTooltip/header"
+msgstr "격전 색상"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "획득"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "미획득"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "격전 색상 획득 가능"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "사용하지 않은 격전 색상은 {bond_Open}1{bond_Close} 대 {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close} 비율로 전쟁 채권으로 전환됩니다."
+
+msgid "seasonPointTooltip/text/season"
+msgstr "각 시즌 종료 시 달성한 랭크에 따라 격전 색상이 지급됩니다."
+
+msgid "seasonPointTooltip/text/year"
+msgstr "격전 색상을 3개 모을 때마다 연간 보상이 강화됩니다."
+
+msgid "seasonStatistics/button/fifth"
+msgstr "확인"
+
+msgid "seasonStatistics/button/first"
+msgstr "확인"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "확인"
+
+msgid "seasonStatistics/button/second"
+msgstr "확인"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "확인"
+
+msgid "seasonStatistics/button/third"
+msgstr "확인"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "시즌 최종 레이팅"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "순위: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "격전: %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "격전 색상 %(points)s개 획득"
+msgstr[1] "격전 색상 %(points)s개 획득"
+msgstr[2] "격전 색상 %(points)s개 획득"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "시즌 1: 하늘색 드래곤"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "시즌 2: 진홍색 드래곤"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "시즌 3: 비취색 드래곤"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "승률: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "참전 횟수\n누계"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "평균: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "피해량\n최고"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "격파 비율: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "격파 기록\n최고"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "평균: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "영예 점수\n최고"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "시즌 통계"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "특급 소대: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "연승\n(개인/소대)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "참전"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "전차 없음"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "주력 전차"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "승률"
+
+msgid "seasonStatistics/title"
+msgstr "%(name)s 시즌 통계"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "시즌 종료까지:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s~%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "전투 일정"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "오늘"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "내일"
+
+msgid "selectorTooltip/desc"
+msgstr "경쟁 모드: 7 대 7 | 10단계"
+
+msgid "selectorTooltip/title"
+msgstr "격전"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "게임 포털 최신 소식을 통해 새 시즌 계획에 관한 정보를 확인해 보십시오."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "해당 모드는 현재 기술적인 문제로 이용할 수 없습니다."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "%(time)s부터 해당 모드 이용 가능"
+
+msgid "shortSeasonName/first"
+msgstr "하늘색 드래곤"
+
+msgid "shortSeasonName/second"
+msgstr "진홍색 드래곤"
+
+msgid "shortSeasonName/third"
+msgstr "비취색 드래곤"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "격전 모드 현재 시즌 상위권 플레이어 관련 정보"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "사전 평가, 랭크, 편성, 레이팅 점수 관련 정보"
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "격전 모드 랭크 보상 관련 정보"
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "격전 상점 아이템 관련 정보"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "격전 모드 주간 임무 관련 정보"
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "격전 색상을 수집하여 획득하는 연간 보상 세부 정보"
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "이번 격전 연도의 각 시즌에서 달성한 업적 관련 정보"
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "순위표"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "랭크 시스템"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "랭크 보상"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "격전 상점"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "주간 임무"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "연간 보상"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "연간 통계"
+
+msgid "sixthRankTooltip/description"
+msgstr "{eeede9e6_Open}레전드{eeede9e6_Close} 랭크에는 레이팅 점수 순위표 {eeede9e6_Open}상위 %(topPercentage)%{eeede9e6_Close} 플레이어가 배정됩니다."
+
+msgid "style3dTooltip/954"
+msgstr "실버 가시"
+
+msgid "style3dTooltip/955"
+msgstr "골드 발톱"
+
+msgid "style3dTooltip/956"
+msgstr "챔피언 날개"
+
+msgid "style3dTooltip/957"
+msgstr "레전드 괴수"
+
+msgid "style3dTooltip/description"
+msgstr "금속으로 된 육체를 지니고 다시 태어난 야수로 사자처럼 강인하고, 용처럼 맹렬하며, 전갈처럼 치명적이다. 고대로부터 두려움의 대상이었다."
+
+msgid "style3dTooltip/howToReceive"
+msgstr "획득 방법"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "격전 모드 만티코어의 해에 격전 색상 9개 이상 수집 시 지급"
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "격전 모드 만티코어의 해에 격전 색상 12개 이상 수집 시 지급, 기존 스타일이 해당 스타일로 대체"
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "격전 모드 만티코어의 해에 격전 색상 15개 이상 수집 시 지급, 기존 스타일이 해당 스타일로 대체"
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "격전 모드 만티코어의 해에 격전 색상 18개 이상 수집 시 지급, 기존 스타일이 해당 스타일로 대체"
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "적용 가능 전차"
+
+msgid "system_messages/periodicReward/body"
+msgstr "%(rank)s 랭크를 유지하여 일일 보상을 획득했습니다.\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "일일 보상"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "휴전이 적용 중입니다. 일시적으로 격전에 참여할 수 없습니다."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "휴전"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "휴전이 종료되었습니다. 격전에 다시 참여할 수 있습니다."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "휴전"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "축하합니다! %(maxRank)s 랭크를 달성했습니다.\n랭크 달성 및 보상 획득: %(ranks)s\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "사전 평가 완료"
+
+msgid "system_messages/regularReward/body"
+msgstr "일자: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "수령 확인"
+
+msgid "system_messages/shop/offer/button"
+msgstr "상점으로 이동"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "격전 상점에서 새로운 할인 혜택 이용 가능!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "할인율 상승"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "격전 상점에서 새로운 아이템 이용 가능!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "새로운 아이템 이용 가능"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "결제 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "일자: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "주간 임무 완료 보상"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "일자: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "주간 임무 보상"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "격전 정보"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "시즌 업데이트"
+
+msgid "tournament/LBFinals"
+msgstr "하위조 결승"
+
+msgid "tournament/LBRound1"
+msgstr "하위조 R1"
+
+msgid "tournament/LBRound2"
+msgstr "하위조 R2"
+
+msgid "tournament/LBSemifinals"
+msgstr "하위조 준결승"
+
+msgid "tournament/UBFinals"
+msgstr "상위조 결승"
+
+msgid "tournament/UBSemifinals"
+msgstr "상위조 준결승"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "토너먼트에서는 레이팅 점수가 지급되거나 차감되지 않습니다."
+
+msgid "tournament/bestOf"
+msgstr "%(number)s전 다선승제"
+
+msgid "tournament/cny"
+msgstr "%(amount)s CNY"
+
+msgid "tournament/cnySign"
+msgstr "¥%(amount)s"
+
+msgid "tournament/comeBack"
+msgstr "나중에 다시 시도해 주십시오."
+
+msgid "tournament/comingSoon"
+msgstr "경기 일정 %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "경기 진행 시간에 따라 달라질 수 있습니다."
+
+msgid "tournament/completed"
+msgstr "완료"
+
+msgid "tournament/douyin"
+msgstr "Douyin에서 시청"
+
+msgid "tournament/drops/huya"
+msgstr "Huya에서 경기를 시청하고\nHuya Drops 보상을 수령하십시오!"
+
+msgid "tournament/drops/twitch"
+msgstr "Twitch에서 경기를 시청하고\nTwitch Drops 보상을 수령하십시오!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "Huya Drops 특별 보상 획득 가능!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "Twitch Drops 특별 보상 획득 가능!"
+
+msgid "tournament/error"
+msgstr "정보 불러오는 중 오류"
+
+msgid "tournament/eur"
+msgstr "%(amount)s EUR"
+
+msgid "tournament/euroSign"
+msgstr "€%(amount)s"
+
+msgid "tournament/finalResult"
+msgstr "승자"
+
+msgid "tournament/fundDistribution"
+msgstr "총상금 배분"
+
+msgid "tournament/grandFinals"
+msgstr "최종 결승전"
+
+msgid "tournament/huya"
+msgstr "Huya에서 시청"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "총상금은 플레이어가 구매한 패키지 수익금으로 채워집니다. 최근 갱신: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "예정된 경기가 없습니다."
+
+msgid "tournament/ols/roundRobin"
+msgstr "%(phase)s단계 %(round)s라운드"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s ~ %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "총상금 %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "그리고 길이 남을 영광"
+
+msgid "tournament/refresh"
+msgstr "새로 고침"
+
+msgid "tournament/refreshing"
+msgstr "새로 고침 중…"
+
+msgid "tournament/roundOf"
+msgstr "라운드 %(number)s"
+
+msgid "tournament/separator"
+msgstr "또는"
+
+msgid "tournament/tab/overview"
+msgstr "개요"
+
+msgid "tournament/tab/schedule"
+msgstr "일정"
+
+msgid "tournament/teamPlaceholder"
+msgstr "공개 예정"
+
+msgid "tournament/toShop"
+msgstr "상점으로 이동"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "교환"
+
+msgid "tournament/tokenStore/ols"
+msgstr "OLS 토큰"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "남은 시간:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "토너먼트 정보"
+
+msgid "tournament/twitch"
+msgstr "Twitch에서 시청"
+
+msgid "tournament/viewFull"
+msgstr "모두 보기"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "토너먼트 패키지로 상금 규모를 키워 격전 레전드 시리즈를 응원해 보십시오!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "e스포츠에 대한 열정이 담긴 테마 전차 꾸미기 요소와 특별 전차를 확인해 보십시오!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "상금 규모 확대"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "WCI 패키지"
+
+msgid "tournament/vsBestOf"
+msgstr "VS\n%(number)s전 다선승제"
+
+msgid "tournament/wci/roundRobin"
+msgstr "라운드 로빈"
+
+msgid "tournament/winner"
+msgstr "승자"
+
+msgid "tournament/youtube"
+msgstr "Youtube에서 시청"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "유럽 최고의 팀이 모여 격전 레전드 시리즈의 챔피언 타이틀을 두고 치열한 전투를 펼칩니다! 박진감 넘치는 7 대 7 격전 경기를 감상하고, Twitch Drops 보상을 획득하고, 전차 꾸미기 요소가 포함된 특별 패키지를 구매하여 상금 규모를 키워 좋아하는 팀을 응원해 보십시오."
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "중국 쑤저우에서 개최되는 월드 오브 탱크 챔피언십 인터내셔널에서 전 세계에서 모인 최강의 팀이 세계 챔피언이라는 명예를 놓고 격전 모드 규칙하에 불꽃 튀는 결투를 벌입니다. 전설이 탄생하는 그 전율의 순간을 함께해 보십시오!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "OLS 시즌 6"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "생중계 진행 중, 남은 시간: %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "다음 경기: %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "격전 팀 연습 전투에서는 레이팅 점수를 획득할 수 없습니다."
+
+msgid "unit/message/modeOffline"
+msgstr "전투 참여 불가: 데이터베이스 오류"
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "랭크 차이 제한 초과"
+
+msgid "voiceChat/active"
+msgstr "음성 대화 끄기"
+
+msgid "voiceChat/inactive"
+msgstr "음성 대화 참여"
+
+msgid "waitingSpinner/message"
+msgstr "콘텐츠 불러오는 중..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "격전 임무 완료"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "주간 임무를 모두 완료했습니다. 보상 수령을 잊지 말고 다음 시즌을 기대해 주십시오!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "임무 {eeede9e5_Open}%(questsList)s{eeede9e5_Close}, {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close}개 완료 시 추가 보상 획득 가능"
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "격전 주간 임무"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "완료: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "임무 %(value)s개 부여까지:"
+msgstr[1] "임무 %(value)s개 부여까지:"
+msgstr[2] "임무 %(value)s개 부여까지:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "보상"
+msgstr[1] "보상"
+msgstr[2] "보상"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "새 임무 %(value)s개 추가까지 %(countdown)s"
+msgstr[1] "새 임무 %(value)s개 추가까지 %(countdown)s"
+msgstr[2] "새 임무 %(value)s개 추가까지 %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "다음 시즌에 새로운 임무 이용 가능!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "완료한 임무: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "매주 새로운 임무 %(value)s개가 추가됩니다. 각 임무 완료 시 보상 진행 상황이 집계됩니다!"
+msgstr[1] "매주 새로운 임무 %(value)s개가 추가됩니다. 각 임무 완료 시 보상 진행 상황이 집계됩니다!"
+msgstr[2] "매주 새로운 임무 %(value)s개가 추가됩니다. 각 임무 완료 시 보상 진행 상황이 집계됩니다!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "진행 중"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "완료"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "이용 불가"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "완료 불가: 해당 모드가 활성화되지 않았습니다."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "해제하려면 10단계 전차를 연구하고 구매하십시오."
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "이전 임무 완료 시 해당 임무가 해제됩니다."
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "임무 진행 불가"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "보상을 수령하십시오!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "완료: %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "임무 %(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "임무 %(value)s개 부여까지:"
+msgstr[1] "임무 %(value)s개 부여까지:"
+msgstr[2] "임무 %(value)s개 부여까지:"
+
+msgid "whatsNewButtonLabel"
+msgstr "시즌 업데이트"
+
+msgid "whatsNewView/banner/description"
+msgstr "이번 시즌, 특별 10단계 중전차 Ashbringer, 특별 3D 스타일, 전우애 능력 기본 보유 승무원, 강화 장비 및 시제 장비(선택), 눈길을 사로잡는 2D 스타일 등 값진 보상을 손에 넣을 마지막 기회를 놓치지 마십시오. 승리가 기다립니다!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "드래곤의 해 마지막 시즌!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "비취색 드래곤 시즌"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "격전: 새로운 소식"
+
+msgid "whatsNewView/button/ok"
+msgstr "확인"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "새로운 2.0 업데이트 디자인이 적용된 전투 결과 화면에서 이제 매 전투 이후 모드 관련 추가 정보를 확인할 수 있습니다."
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "상세 전투 결과"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "선호하는 전차가 제외되었더라도 걱정하지 마십시오. 이제 대여 전차를 선택하면 사전에 구성된 승무원, 장비, 포탄, 소모품이 함께 지급됩니다."
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "바로 운용 가능한 대여 전차 %(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "이번 시즌에는 각 팀이 운용 금지 전차를 선택할 수 있습니다. 아군과 투표를 조율하여 가장 위협적인 전차를 제외하거나 적이 예상할 수 없는 조합을 준비해 보십시오."
+
+msgid "whatsNewView/intro/heading"
+msgstr "전차 금지 %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "지도"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "격전에서 운용 가능한 새로운 전차"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "대여 전차"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "최근 선보인 미국 10단계 중형전차 Ares 90의 역할 기술을 조정하였습니다. 이제 해당 모드에서 Ares 90를 운용할 수 있습니다."
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "역할 기술 조정 %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "이제 실버 랭크를 달성하기만 해도 격전 상점에서 114 SP2를 구매할 수 있습니다."
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "상점 업데이트 %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "제외"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "개발 중"
+
+msgid "whatsNewView/tag/attention"
+msgstr "주의"
+
+msgid "whatsNewView/tag/changed"
+msgstr "변경"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "실험"
+
+msgid "whatsNewView/tag/new"
+msgstr "신규"
+
+msgid "whatsNewView/tag/returned"
+msgstr "재등장"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "재작업"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "시즌 업데이트"
+
+msgid "whatsNewView/watchVideo"
+msgstr "영상 시청"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "일일 승률: %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "패배: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "무승부: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "시즌 승률: %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "전투당 평균 승률입니다.\n전투 결과"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "승리: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "보상은 세 번째 시즌 종료 시 지급됩니다."
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "보상이 곧 지급될 예정입니다. 잠시만 기다려 주십시오."
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "연간 보상이 지급되었습니다. 다음에도 참여해 주십시오!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "장비 선택 가능"
+
+msgid "yearlyRewards/claim"
+msgstr "수령"
+
+msgid "yearlyRewards/claimReward"
+msgstr "보상 수령"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "시즌 종료 시 달성한 랭크마다 1%(seasonPointIcon)s 획득"
+
+msgid "yearlyRewards/description/current"
+msgstr "시즌 종료 시 달성한 랭크마다 1%(seasonPointIcon)s 획득"
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\n및 특별 3D 스타일"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "연간 보상으로 이동"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "2D 스타일 미리 보기"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "3D 스타일 미리 보기"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "달성 랭크: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "현재 랭크: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "특별 승무원 4명"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "보상 획득"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "보상 확정"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "색상 총 %(count)s개 수집 시 스테이지 보상 획득"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "획득 가능 보상"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "격전 연도 종료 시 해당 보상을 확정 획득할 수 있습니다."
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "격전 연도 종료 시 보상을 획득하려면 격전 색상을 필요한 만큼 수집하십시오."
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "시즌 종료 시까지 현재 랭크를 유지하거나 더 높은 랭크를 달성하면 격전 연도 종료 시 해당 보상을 획득할 수 있습니다."
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "활성화 스테이지"
+
+msgid "yearlyStatistics/battles"
+msgstr "참전 횟수 (개인/소대)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "시즌 통계 계산 중..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)s시즌 통계로 이동"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "랭크 없음"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "%(rank)s 랭크"
+
+msgid "yearlyStatistics/rating"
+msgstr "레이팅 점수"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "2025년 가을"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "2026년 겨울"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "2026년 봄"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s~%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "시즌 1: 하늘색 드래곤"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "시즌 2: 진홍색 드래곤"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "시즌 3: 비취색 드래곤"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "현재"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "종료"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "참전 횟수 (특급 소대)"
+
+msgid "yearlyStatistics/wins"
+msgstr "승률"

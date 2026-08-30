@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "取消搜尋"
+
+msgid "buttons/cancelSearch/description"
+msgstr "點擊以取消搜尋裝甲排成員。"
+
+msgid "buttons/createPlatoon/caption"
+msgstr "新裝甲排"
+
+msgid "buttons/createPlatoon/description"
+msgstr "建立裝甲排以邀請好友一起玩。"
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "全新超級裝甲排"
+
+msgid "buttons/findPlayers/caption"
+msgstr "尋找玩家"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "使用搜尋過濾來尋找精通程度相近與擁有類似車輛的玩家。"
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "如果您開始搜尋線上玩家，所有送出給好友的邀請將被取消。"
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "尋找玩家"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "您無法搜尋玩家：伺服器上有太多裝甲排。"
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "您無法為裝甲排搜尋玩家：沒有適合的車輛。"
+
+msgid "buttons/invite/player/caption"
+msgstr "邀請玩家"
+
+msgid "buttons/invite/player/description"
+msgstr "點擊以邀請一名玩家建立裝甲排。"
+
+msgid "buttons/invite/players/caption"
+msgstr "邀請玩家"
+
+msgid "buttons/invite/players/description"
+msgstr "點擊以邀請玩家建立裝甲排。"
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "離開裝甲排"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "點擊以離開裝甲排。"
+
+msgid "buttons/mute/caption"
+msgstr "關閉裝甲排語音聊天"
+
+msgid "buttons/mute/description"
+msgstr "點擊以關閉裝甲排語音聊天。"
+
+msgid "buttons/notReady/caption"
+msgstr "尚未準備好"
+
+msgid "buttons/notReady/description"
+msgstr "如果您尚未準備好進入戰鬥，請點擊。"
+
+msgid "buttons/ready/caption"
+msgstr "已經準備好！"
+
+msgid "buttons/ready/description"
+msgstr "如果您已經準備好進入戰鬥，請點擊。"
+
+msgid "buttons/reset/caption"
+msgstr "重置搜尋條件"
+
+msgid "buttons/reset/description"
+msgstr "點擊以重置搜尋條件為預設。"
+
+msgid "buttons/settings/caption"
+msgstr "設定搜尋條件"
+
+msgid "buttons/settings/description"
+msgstr "搜尋符合您條件的玩家。尋找玩家的時間越久，搜尋的範圍就會越廣。"
+
+msgid "buttons/unMute/caption"
+msgstr "開啟裝甲排語音聊天"
+
+msgid "buttons/unMute/description"
+msgstr "點擊以開啟裝甲排語音聊天。"
+
+msgid "headerButton/inSquad"
+msgstr "於裝甲排中"
+
+msgid "headerButton/onboarding"
+msgstr "您現在可以搜尋玩家\n來組成裝甲排"
+
+msgid "headerButton/searching"
+msgstr "搜尋中..."
+
+msgid "headerButton/squad"
+msgstr "建立裝甲排"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "與好友組成裝甲排進行戰鬥。協力對抗 9 個敵方裝甲排。"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "裝甲排"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "您無法建立或加入裝甲排，因為您暫時遭此模式封鎖。"
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "您將無法建立裝甲排，您車庫中必須擁有至少一輛適用於此模式的 %(level)s 階車輛。"
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "暫時無法建立裝甲排。"
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "裝甲排不可用"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "您可建立裝甲排或加入現有的裝甲排。在天梯戰輕量版中，裝甲排可由 2 名或 7 名玩家組成。"
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "裝甲排"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "您無法建立裝甲排，您車庫中並無適用於此模式的 %(level)s 階車輛。"
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "完成外圍賽後，將可建立 2 人與 7 人裝甲排。"
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "無法建立裝甲排。"
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "裝甲排不可用"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "建立裝甲排或加入現有的裝甲排。在天梯戰中，裝甲排可由 2 名或 7 名玩家組成。"
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "裝甲排"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "建立一支 2 或 3 名玩家的戰術單位來一同暢玩。\n• 戰鬥模式：大亂鬥。\n• 戰鬥類型：鋼鐵獵殺、爭霸戰。"
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "裝甲排"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "建立一支 2 到 3 名玩家的戰術單位來一同參與大狂飆模式。"
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "大狂飆裝甲排"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "點擊以打開裝甲排選單。"
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "偵察任務：裝甲排"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "點擊以打開裝甲排選單。"
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "裝甲排"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "建立一支 2 或 3 名玩家的裝甲排以參與偵察任務。"
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "偵察任務：裝甲排"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "不允許戰術單位參加排名戰。"
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "建立裝甲排"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "搜尋玩家中..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "搜尋中"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "建立一支 2 到 3 名玩家的戰術單位來一同加入隨機戰鬥與前線（開放時）"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "裝甲排"
+
+msgid "members/card/connectionLost"
+msgstr "連線中斷"
+
+msgid "members/card/disabled"
+msgstr "此模式僅支援兩名玩家的裝甲排"
+
+msgid "members/card/disabledVertical"
+msgstr "不適用於此模式"
+
+msgid "members/card/empty"
+msgstr "空位"
+
+msgid "members/card/inBattle"
+msgstr "戰鬥中"
+
+msgid "members/card/muted/caption"
+msgstr "玩家已靜音"
+
+msgid "members/card/muted/description"
+msgstr "點擊右鍵以取消靜音此玩家。"
+
+msgid "members/card/notReady"
+msgstr "尚未準備好"
+
+msgid "members/card/searching"
+msgstr "搜尋玩家中..."
+
+msgid "members/card/selectVehicle"
+msgstr "選擇 %(level)s 階車輛"
+
+msgid "members/chat/chatName"
+msgstr "聊天頻道："
+
+msgid "members/chat/sendMessage/body"
+msgstr "點擊以送出訊息到聊天頻道中。"
+
+msgid "members/chat/sendMessage/header"
+msgstr "送出訊息"
+
+msgid "members/footer/comp7Invite"
+msgstr "邀請"
+
+msgid "members/footer/comp7Limitations"
+msgstr "最高位階限制"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "裝甲排中玩家的最高位階"
+
+msgid "members/footer/getNotReady"
+msgstr "點擊以表明您還尚未準備好。"
+
+msgid "members/footer/getReady"
+msgstr "請確認您已經準備好要加入戰鬥。"
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "不相容的階級"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "因不恰當的裝甲排組合而受到經驗懲罰！"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "已達車輛限制"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "裝甲排的驅逐戰車數量已達上限"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "裝甲排的自走炮數量已達上限"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "裝甲排的重型戰車數量已達上限"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "裝甲排的中型戰車數量已達上限"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "裝甲排的輕型戰車數量已達上限"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "裝甲排的輪式車輛數量已達上限"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "裝甲排的輕型戰車數量已達上限"
+
+msgid "members/header/battle_royal"
+msgstr "：大逃殺"
+
+msgid "members/header/epic"
+msgstr "：前線"
+
+msgid "members/header/event"
+msgstr "— Waffenträger：海柏利昂計畫"
+
+msgid "members/header/mapbox"
+msgstr "：偵察任務"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr "：隨機戰鬥"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "前線僅適用於\nVIII 階車輛。"
+
+msgid "members/header/tooltip/epic/header"
+msgstr "建立裝甲排的規則"
+
+msgid "members/header/tooltip/event/body"
+msgstr "裝甲排必須由 3 輛模式的特殊車輛來組成。"
+
+msgid "members/header/tooltip/event/header"
+msgstr "建立裝甲排的規則"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "裝甲排必須由相同階級的車輛來組成。"
+
+msgid "members/header/tooltip/standard/header"
+msgstr "建立裝甲排的規則"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "裝甲排中的玩家"
+
+msgid "searching/estimated/caption"
+msgstr "預計所需時間"
+
+msgid "searching/estimated/lessThan"
+msgstr "少於 %(seconds)d 秒"
+
+msgid "searching/estimated/moreThan"
+msgstr "超過 %(seconds)d 秒"
+
+msgid "searching/expanded/body"
+msgstr "無玩家符合原先的條件。\n已擴大搜尋來包括其他車輛階級。"
+
+msgid "searching/expanded/header"
+msgstr "搜尋條件已擴大"
+
+msgid "searching/lookingFor"
+msgstr "正在搜尋："
+
+msgid "searching/playersInQueue"
+msgstr "佇列玩家數"
+
+msgid "searching/state"
+msgstr "搜尋中："
+
+msgid "settings/tiers"
+msgstr "偏好的車輛階級"
+
+msgid "settings/voice"
+msgstr "開啟語音聊天的玩家"
+
+msgid "squad"
+msgstr "裝甲排"

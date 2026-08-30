@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animatedDogTag/heading"
+msgstr "애니메이션 인식표"
+
+msgid "bonusXp/descriptionDailyEarning"
+msgstr "오늘의 획득량 %(whiteReal_Open)s%(xp)%(whiteReal_Close)s %(icon)"
+
+msgid "bonusXp/descriptionDailyRemaining"
+msgstr "오늘 남은 횟수"
+
+msgid "bonusXp/descriptionMoreWotPlus"
+msgstr "WoT 플러스를 통해 추가 이용"
+
+msgid "bonusXp/descriptionMoreWotPremium"
+msgstr "월드 오브 탱크 프리미엄 계정을 통해 추가 이용"
+
+msgid "bonusXp/descriptionWotPlus"
+msgstr "%(whiteReal_Open)s%(wotPlus)%(whiteReal_Close)s 또는 %(whiteReal_Open)s%(wotPremium)%(whiteReal_Close)s을 통해 이용"
+
+msgid "bonusXp/descriptionWotPremium"
+msgstr "%(whiteReal_Open)s%(wotPremium)%(whiteReal_Close)s을 통해 이용"
+
+msgid "bonusXp/heading"
+msgstr "선택식 경험치 보너스"
+
+msgid "bonusXp/unavailable"
+msgstr "보너스 이용 불가"
+
+msgid "bonusXp/wotPlusLabel"
+msgstr "WoT 플러스"
+
+msgid "bonusXp/wotPremiumLabel"
+msgstr "월드 오브 탱크 프리미엄 계정"
+
+msgid "bonusXp/xpAddSign"
+msgstr "+"
+
+msgid "close"
+msgstr "닫기"
+
+msgid "dailyExperience/back"
+msgstr "뒤로"
+
+msgid "dailyExperience/description"
+msgstr "승리한 전투에 보너스를 적용하면 %(whiteOrange_Open)s경험치를 3배로 획득%(whiteOrange_Close)s할 수 있습니다. 전투에서 좋은 활약을 펼쳤다면 수익성도 최대로 높여 보십시오!"
+
+msgid "dailyExperience/details"
+msgstr "세부 정보"
+
+msgid "dailyExperience/footer"
+msgstr "해당 보너스는 무작위 전투, 격전, 요새, 토너먼트 전투에 적용할 수 있으며 다른 보너스와 중복으로 적용됩니다. 같은 전차로 여러 번 승리했다면 가장 최근에 승리한 전투에만 보너스를 적용할 수 있습니다."
+
+msgid "dailyExperience/heading"
+msgstr "선택식 경험치 보너스 %(cream_Open)s%(usesLeft)%(cream_Close)s%(parSecondary_open)s/%(usesTotal)%(parSecondary_close)s"
+
+msgid "dailyExperience/subscribe"
+msgstr "구독"
+
+msgid "dailyExperience/toAccountStatus"
+msgstr "계정 상태로 이동"
+
+msgid "dailyExperience/unlockLabel"
+msgstr "%(whiteSpanish_Open)s매일%(whiteSpanish_Close)s 이용 가능 횟수"
+
+msgid "dailyExperience/upgrade"
+msgstr "업그레이드"
+
+msgid "dailyExperience/wotPlusApplications"
+msgstr "%(plusIcon)%(cream_open)s%(applications)s%(cream_close)s회"
+
+msgid "dailyExperience/wotPlusLabel"
+msgstr "WoT 플러스"
+
+msgid "dailyExperience/wotPremiumApplications"
+msgstr "%(plusIcon)%(cream_open)s%(applications)s%(cream_close)s회"
+
+msgid "dailyExperience/wotPremiumLabel"
+msgstr "월드 오브 탱크 프리미엄 계정"
+
+msgid "dogTags/unavailable"
+msgstr "일시적으로 정보를 불러올 수 없습니다."
+
+msgid "excludedMaps/cooldownTooltipBody"
+msgstr "{cooldownStr} 후 해당 지도를 교체할 수 있습니다."
+
+msgid "excludedMaps/cooldownTooltipHeader"
+msgstr "지도 교체 불가"
+
+msgid "excludedMaps/disabledTooltipBody"
+msgstr "월드 오브 탱크 프리미엄 계정 또는 WoT 플러스를 활성화하면 해당 슬롯이 해제됩니다."
+
+msgid "excludedMaps/disabledTooltipBodyPremium"
+msgstr "월드 오브 탱크 프리미엄 계정 활성화 시 해제"
+
+msgid "excludedMaps/disabledTooltipBodyWotplus"
+msgstr "WoT 플러스 구독 활성화 시 해제"
+
+msgid "excludedMaps/disabledTooltipHeader"
+msgstr "슬롯 이용 불가"
+
+msgid "excludedMaps/header"
+msgstr "지도 제외"
+
+msgid "excludedMaps/replaceTooltipBody"
+msgstr "해당 지도를 교체할 수 있습니다."
+
+msgid "excludedMaps/replaceTooltipHeader"
+msgstr "지도 교체 가능"
+
+msgid "excludedMaps/selectTooltipBody"
+msgstr "제외할 지도를 선택하십시오."
+
+msgid "excludedMaps/selectTooltipHeader"
+msgstr "슬롯 이용 가능"
+
+msgid "header/badgeTooltip"
+msgstr "닉네임 옆에 표시되는 증표입니다. 개인 임무 완료 및 이벤트 참여를 통해 증표를 획득할 수 있습니다."
+
+msgid "header/clanSubtitle"
+msgstr "[%(clanTag)] 클랜 %(position)"
+
+msgid "parentalControl/important"
+msgstr "중요!"
+
+msgid "parentalControl/limitEnabled"
+msgstr "접속 시간 제한 활성화"
+
+msgid "personalDogTag/heading"
+msgstr "맞춤형 인식표"
+
+msgid "premiumAccount/WGPremium"
+msgstr "워게이밍 프리미엄 계정"
+
+msgid "premiumAccount/WGPremiumAccount"
+msgstr "워게이밍 프리미엄 계정"
+
+msgid "premiumAccount/WoTPremium"
+msgstr "월드 오브 탱크 프리미엄 계정"
+
+msgid "premiumAccount/WoTPremiumAccount"
+msgstr "월드 오브 탱크 프리미엄 계정"
+
+msgid "premiumAccount/days"
+msgstr "일"
+
+msgid "premiumAccount/minimumTimeLeft"
+msgstr "1시간 미만"
+
+msgid "premiumAccount/otherBenefits"
+msgstr "등 특별한 혜택!"
+
+msgid "premiumAccount/standardAccount"
+msgstr "일반 계정"
+
+msgid "premiumAccount/tryWoTPremiumAccount"
+msgstr "월드 오브 탱크\n프리미엄 계정"
+
+msgid "premiumAccount/upgrade/creditReserve"
+msgstr "크레딧 금고"
+
+msgid "premiumAccount/upgrade/excludeMapSlot"
+msgstr "지도 제외 슬롯 1개 추가"
+
+msgid "premiumAccount/upgrade/experience"
+msgstr "선택식 경험치 보너스"
+
+msgid "premiumAccount/upgrade/platoonBonusCredits"
+msgstr "소대 크레딧 보너스"
+
+msgid "premiumAccount/upgrade/premiumMissions"
+msgstr "프리미엄 임무"
+
+msgid "premiumAccount/upgrade/toWoTPremiumAccount"
+msgstr "월드 오브 탱크\n프리미엄 계정으로 업그레이드"
+
+msgid "premiumQuests/heading"
+msgstr "프리미엄 임무"
+
+msgid "reserveStock/creditBlockTitle"
+msgstr "크레딧 금고"
+
+msgid "reserveStock/goldBlockTitle"
+msgstr "골드 금고"
+
+msgid "temporarilyUnavailable"
+msgstr "일시적으로 사용 불가"

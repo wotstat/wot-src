@@ -1,0 +1,284 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "LS_aoeDamageInstantShot/descr"
+msgstr "目標およびその周囲の敵車輌にダメージを与えます。"
+
+msgid "LS_aoeDamageInstantShot/long_special"
+msgstr "着弾点とその半径35 m以内の敵車輌にダメージを与えます。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。 <br/><br/>イベント「<font color='#cbac77'>〈ラスト・スタンド〉テラ・ノール</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_aoeDamageInstantShot/name"
+msgstr "エナジーブラスト"
+
+msgid "LS_aoeDamageInstantShot/onUse"
+msgstr "目標および半径35 m以内の敵車輌にダメージを与えます。"
+
+msgid "LS_aoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "LS_aoeDamageInstantShot/short_special"
+msgstr "目標およびその周囲の敵車輌にダメージを与えます。"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/descr"
+msgstr "目標およびその周辺の敵車輌からHPを奪って自車輌のHPを回復します。"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/long_special"
+msgstr "着弾点とその半径35 m以内の敵車輌からHPを奪って自車輌のHPを回復するとともに、損傷したモジュールを修理し、スタン効果を解消します。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。 <br/><br/>イベント「<font color='#cbac77'>〈ラスト・スタンド〉テラ・ノール</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/name"
+msgstr "ヴァンプショット"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/onUse"
+msgstr "目標および半径35 m以内の敵車輌からHPを奪って自車輌のHPを回復し、損傷したモジュールを修理し、スタン効果を解消します。"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/short_special"
+msgstr "目標およびその周辺の敵車輌からHPを奪って自車輌のHPを回復します。"
+
+msgid "LS_aoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "LS_aoeStunInstantShot/descr"
+msgstr "目標およびその周囲の敵車輌にスタン効果を与えます。"
+
+msgid "LS_aoeStunInstantShot/long_special"
+msgstr "着弾点とその半径35 m以内の敵車輌にスタン効果を与えます。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。 <br/><br/>イベント「<font color='#cbac77'>〈ラスト・スタンド〉テラ・ノール</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_aoeStunInstantShot/name"
+msgstr "スタンショット"
+
+msgid "LS_aoeStunInstantShot/onUse"
+msgstr "目標および半径35 m以内の敵車輌にスタン効果を与えます。"
+
+msgid "LS_aoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "LS_aoeStunInstantShot/short_special"
+msgstr "目標およびその周囲の敵車輌にスタン効果を与えます。"
+
+msgid "LS_damageShield/always"
+msgstr "?empty?"
+
+msgid "LS_damageShield/descr"
+msgstr "自車輌を半無敵状態にします。"
+
+msgid "LS_damageShield/long_special"
+msgstr "敵からの自車輌へのダメージを無効化する特殊なシールドを10秒間にわたって展開します。ただし体当たり、衝撃、水没による被ダメージからは守られません。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。<br/><br/>イベント「<font color='#cbac77'>〈ラスト・スタンド〉テラ・ノール</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_damageShield/name"
+msgstr "エナジーシールド"
+
+msgid "LS_damageShield/onUse"
+msgstr "敵からの自車輌へのダメージを無効化する特殊なシールドを10秒間にわたって展開します。ただし体当たり、衝撃、水没による被ダメージからは守られません。"
+
+msgid "LS_damageShield/restriction"
+msgstr "?empty?"
+
+msgid "LS_damageShield/short_special"
+msgstr "自車輌を半無敵状態にします。"
+
+msgid "LS_doubleDamage/always"
+msgstr "?empty?"
+
+msgid "LS_doubleDamage/descr"
+msgstr "次の砲撃のダメージを2倍にします。"
+
+msgid "LS_doubleDamage/long_special"
+msgstr "次の砲撃のダメージを2倍にします。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。 <br/><br/>イベント「<font color='#cbac77'>〈ラスト・スタンド〉テラ・ノール</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_doubleDamage/name"
+msgstr "ダブルダメージ"
+
+msgid "LS_doubleDamage/onUse"
+msgstr "次の砲撃のダメージを2倍にします。"
+
+msgid "LS_doubleDamage/restriction"
+msgstr "?empty?"
+
+msgid "LS_doubleDamage/short_special"
+msgstr "次の砲撃のダメージを2倍にします。"
+
+msgid "LS_extraDamageSituational/always"
+msgstr "?empty?"
+
+msgid "LS_extraDamageSituational/descr"
+msgstr "一定の確率で敵車輌に与えるダメージを増加させます。\n発動確率: 50%"
+
+msgid "LS_extraDamageSituational/long_special"
+msgstr "一定の確率で敵車輌に与えるダメージを増加させます。砲撃、体当たり、または「エナジーブラスト」などといったアビリティーの使用時に50%の確率で自動的に発動します。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。<br/><br/>イベント「<font color='#cbac77'>〈ラスト・スタンド〉テラ・ノール</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_extraDamageSituational/name"
+msgstr "フォーチュンダメージ"
+
+msgid "LS_extraDamageSituational/onUse"
+msgstr "一定の確率で砲撃、体当たり、または「エナジーブラスト」などといったアビリティーで敵車輌に与える<font color='#feab34'>ダメージを増加</font>させます。\n発動確率: <font color='#e9e2bf'>50%</font>"
+
+msgid "LS_extraDamageSituational/restriction"
+msgstr "?empty?"
+
+msgid "LS_extraDamageSituational/short_special"
+msgstr "一定の確率で敵車輌に与えるダメージを増加させます。"
+
+msgid "LS_fastReload/always"
+msgstr "?empty?"
+
+msgid "LS_fastReload/descr"
+msgstr "発射速度を向上させる、または弾倉を即座に再装填します。"
+
+msgid "LS_fastReload/long_special"
+msgstr "一定時間が経過するまで装填速度を大幅に向上させます。弾倉式の主砲の場合は即座に弾倉を再装填します。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。<br/><br/>イベント「<font color='#cbac77'>〈ラスト・スタンド〉テラ・ノール</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_fastReload/name"
+msgstr "ファストリロード"
+
+msgid "LS_fastReload/onUse"
+msgstr "一定時間が経過するまで装填速度を大幅に向上させます。弾倉式の主砲の場合は即座に弾倉を再装填します。"
+
+msgid "LS_fastReload/restriction"
+msgstr "?empty?"
+
+msgid "LS_fastReload/short_special"
+msgstr "発射速度を向上させる、または弾倉を即座に再装填します。"
+
+msgid "LS_healSituational/always"
+msgstr "?empty?"
+
+msgid "LS_healSituational/descr"
+msgstr "敵車輌を撃破後、一定の確率で自車輌のHPを回復させます。\n発動確率: 50%"
+
+msgid "LS_healSituational/long_special"
+msgstr "敵車輌を撃破後、一定の確率で自車輌のHPを500ポイント回復させます。モジュールの修理と火災の消火を行い、スタン効果を解消します。ダメージ、スタン、またはモジュールへの致命的な損傷を受けた場合に50%の確率で自動的に発動します。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。<br/><br/>イベント「<font color='#cbac77'>〈ラスト・スタンド〉テラ・ノール</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_healSituational/name"
+msgstr "フォーチュンリペア"
+
+msgid "LS_healSituational/onUse"
+msgstr "• 敵車輌を撃破後、自車輌の<font color='#FEAB34'>HPを500ポイント回復</font>させます。\n• モジュールの修理と火災の消火を行い、スタン効果を解消します。\n• ダメージ、スタン、またはモジュールへの致命的な損傷を受けた場合に自動的に発動します。\n• 発動確率: <font color='#E9E2BF'>50%</font>"
+
+msgid "LS_healSituational/restriction"
+msgstr "?empty?"
+
+msgid "LS_healSituational/short_special"
+msgstr "敵車輌を撃破後、一定の確率で自車輌のHPを回復させます。"
+
+msgid "LS_invisibility/always"
+msgstr "?empty?"
+
+msgid "LS_invisibility/descr"
+msgstr "敵から狙われなくなり、車輌HPを回復し、モジュールを修理し、火災を消火します。"
+
+msgid "LS_invisibility/long_special"
+msgstr "10秒が経過するまで自車輌を敵車輌から狙われなくなる状態に変化させます。効果発動中は1秒ごとに自車輌のHPが32ポイント回復するほか、発動時に全モジュールの修理、火災の消火、スタン効果の解消、負傷した全搭乗員の治療を行います。ただし、砲撃や体当たり、またはタクティカル・デバイスの使用によって敵車輌にダメージを与えたり、敵車輌からダメージを受けると、即座に自車輌の位置が捕捉されます。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。 <br/><br/>イベント「<font color='#cbac77'>〈ラスト・スタンド〉テラ・ノール</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_invisibility/name"
+msgstr "シャドウヒール"
+
+msgid "LS_invisibility/onUse"
+msgstr "10秒が経過するまで自車輌を敵車輌から狙われない状態に変化させます。効果発動中は1秒ごとに自車輌のHPが32ポイント回復するほか、発動時に全モジュールの修理、火災の消火、スタン効果の解消、負傷した全搭乗員の治療を行います。ただし、砲撃や体当たり、またはタクティカル・デバイスの使用によって敵車輌にダメージを与えたり、敵車輌からダメージを受けると、即座に自車輌の位置が捕捉されます。"
+
+msgid "LS_invisibility/restriction"
+msgstr "?empty?"
+
+msgid "LS_invisibility/short_special"
+msgstr "自車輌を一時的に敵から狙われない状態に変化させ、車輌HPの回復、モジュールの修理、火災の消火、スタン効果の解消、負傷した全搭乗員の治療を行います。"
+
+msgid "LS_nitro/always"
+msgstr "?empty?"
+
+msgid "LS_nitro/descr"
+msgstr "一定の時間にわたって自車輌の機動性を向上させます。"
+
+msgid "LS_nitro/long_special"
+msgstr "一定の時間にわたって自車輌の機動性を向上させます。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。 <br/><br/>イベント「<font color='#cbac77'>〈ラスト・スタンド〉テラ・ノール</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_nitro/name"
+msgstr "スーパーチャージャー"
+
+msgid "LS_nitro/onUse"
+msgstr "一定の時間にわたって自車輌の機動性を向上させます。"
+
+msgid "LS_nitro/restriction"
+msgstr "?empty?"
+
+msgid "LS_nitro/short_special"
+msgstr "一定の時間にわたって自車輌の機動性を向上させます。"
+
+msgid "LS_nitroSituational/always"
+msgstr "?empty?"
+
+msgid "LS_nitroSituational/descr"
+msgstr "敵車輌からダメージを受けた後、一定の確率で自車輌の機動性を向上させます。\n発動確率: 50%"
+
+msgid "LS_nitroSituational/long_special"
+msgstr "一定の確率で自車輌の機動性を向上させます。敵車輌からダメージを受けた後、50%の確率で自動的に発動します。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。 <br/><br/>イベント「<font color='#cbac77'>〈ラスト・スタンド〉テラ・ノール</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_nitroSituational/name"
+msgstr "フォーチュンモビリティー"
+
+msgid "LS_nitroSituational/onUse"
+msgstr "敵車輌からダメージを受けた後、一定の確率で自車輌の<font color='#feab34'>機動性</font>を<font color='#feab34'>向上</font>させます。\n発動の確率は<font color='#e9e2bf'>50%</font>です。"
+
+msgid "LS_nitroSituational/restriction"
+msgstr "?empty?"
+
+msgid "LS_nitroSituational/short_special"
+msgstr "敵車輌からダメージを受けた後、一定の確率で自車輌の機動性を向上させます。"
+
+msgid "LS_selfRepair/always"
+msgstr "?empty?"
+
+msgid "LS_selfRepair/descr"
+msgstr "車輌HPの回復、火災の消火、スタン効果の解消、損傷したモジュールの修理を行います。"
+
+msgid "LS_selfRepair/long_special"
+msgstr "車輌HPの回復、火災の消火、スタン効果の解消、損傷したモジュールの修理を行います。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。<br/><br/>イベント「<font color='#cbac77'>Last Stand '25</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_selfRepair/name"
+msgstr "アージェントリペア"
+
+msgid "LS_selfRepair/onUse"
+msgstr "• 発動と同時に自車輌のHPを400ポイント回復させます。\n• 続く30秒間で自車輌のHPをさらに最大300ポイント回復させます。\n• モジュールの修理と火災の消火を行い、スタン効果を解消します。\n• 発動中にダメージを受けると効果が停止してしまいます。\n• 車輌がダメージを受けていない場合は発動できません。"
+
+msgid "LS_selfRepair/restriction"
+msgstr "?empty?"
+
+msgid "LS_selfRepair/short_special"
+msgstr "車輌HPの回復、火災の消火、スタン効果の解消、損傷したモジュールの修理を行います。"
+
+msgid "LS_selfRepair/usageCost"
+msgstr "• 戦闘で使用する際に必要なミリウム:"
+
+msgid "LS_teamRepair/always"
+msgstr "?empty?"
+
+msgid "LS_teamRepair/descr"
+msgstr "効果範囲内の味方車輌を対象に、モジュールの修理や一定量の車輌HPの回復を行います。"
+
+msgid "LS_teamRepair/long_special"
+msgstr "全モジュールの修理、火災の消火、スタン効果の解消、一定量の車輌HPの回復を行います。効果範囲内の全味方車輌が対象です。1戦中に繰り返し使用できます。ただし、1度でも使用すると戦闘終了後に消費されます。使用した場合はクレジットで補給できますが、使用しなかった場合は補給は不要です。 <br/><br/>イベント「<font color='#cbac77'>〈ラスト・スタンド〉テラ・ノール</font>」専用のタクティカル・デバイスです。イベントモードでしか使用できません。<br/><br/>イベント終了時に未使用のデバイスが残っている場合は、次のアップデートの実装時にアカウントから削除され、購入価格の50%に相当するクレジットが補填されます。"
+
+msgid "LS_teamRepair/name"
+msgstr "ゾーンリペア"
+
+msgid "LS_teamRepair/onUse"
+msgstr "全モジュールの修理、火災の消火、スタン効果の解消、一定量の車輌HPの回復を行います。効果範囲内の全味方車輌が対象です。"
+
+msgid "LS_teamRepair/restriction"
+msgstr "?empty?"
+
+msgid "LS_teamRepair/short_special"
+msgstr "効果範囲内の味方車輌を対象に、モジュールの修理や一定量の車輌HPの回復を行います。"
+
+msgid "lsAbility/descr/usageCost"
+msgstr " \n消費ミリウム: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "lsAbility/usageCost/default"
+msgstr "戦闘で使用する際に必要なミリウム:"

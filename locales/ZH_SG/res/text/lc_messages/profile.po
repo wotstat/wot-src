@@ -1,0 +1,1712 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "profile/dropdown/battlesType"
+msgstr "战斗模式："
+
+msgid "profile/dropdown/existence"
+msgstr "显示："
+
+msgid "profile/dropdown/labels/all"
+msgstr "随机战、坦克连队"
+
+msgid "profile/dropdown/labels/battleRoyaleSolo"
+msgstr "钢铁猎手，单人"
+
+msgid "profile/dropdown/labels/battleRoyaleSquad"
+msgstr "钢铁猎手，小队"
+
+msgid "profile/dropdown/labels/clan"
+msgstr "世界地图"
+
+msgid "profile/dropdown/labels/comp7"
+msgstr "天梯战"
+
+msgid "profile/dropdown/labels/comp7_archive_Griffin"
+msgstr "狮鹫年"
+
+msgid "profile/dropdown/labels/comp7_archive_Manticore"
+msgstr "蝎狮年"
+
+msgid "profile/dropdown/labels/comp7_archive_Pegasus"
+msgstr "飞马年"
+
+msgid "profile/dropdown/labels/comp7_season_1"
+msgstr "苍蓝蛟龙赛季"
+
+msgid "profile/dropdown/labels/comp7_season_2"
+msgstr "绯红蛟龙赛季"
+
+msgid "profile/dropdown/labels/comp7_season_3"
+msgstr "翠绿蛟龙赛季"
+
+msgid "profile/dropdown/labels/epicRandom"
+msgstr "决战"
+
+msgid "profile/dropdown/labels/fallout"
+msgstr "乱斗"
+
+msgid "profile/dropdown/labels/fortifications"
+msgstr "要塞：战斗"
+
+msgid "profile/dropdown/labels/fortifications/battles"
+msgstr "攻城战"
+
+msgid "profile/dropdown/labels/fortifications/sorties"
+msgstr "突击战"
+
+msgid "profile/dropdown/labels/historical"
+msgstr "历史"
+
+msgid "profile/dropdown/labels/random"
+msgstr "随机战"
+
+msgid "profile/dropdown/labels/ranked"
+msgstr "排位战15v15"
+
+msgid "profile/dropdown/labels/ranked_10x10"
+msgstr "排位战"
+
+msgid "profile/dropdown/labels/staticTeam"
+msgstr "团队战:排位战"
+
+msgid "profile/dropdown/labels/staticTeam/season"
+msgstr "团队战:排位战"
+
+msgid "profile/dropdown/labels/team"
+msgstr "团队：匹配战"
+
+msgid "profile/params/tooltip/achievementsCount/body"
+msgstr "战场分类中获得的荣誉"
+
+msgid "profile/params/tooltip/achievementsCount/header"
+msgstr "奖项"
+
+msgid "profile/params/tooltip/armorUsing/body"
+msgstr "装甲抵挡攻击率(吸收AP、HEAT、和APCR炮弹伤害、未击穿和跳弹次数的比率。HE和HESH炮弹的间接溅射伤害不统计在内）。\n• 平均装甲抵挡伤害:%(value_0)s"
+
+msgid "profile/params/tooltip/armorUsing/header"
+msgstr "装甲利用率"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/body"
+msgstr "对敌方战车的总伤害/震晕比率"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortOther/header"
+msgstr "被该玩家震晕的敌方战车所承受的伤害"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/body"
+msgstr "对敌方战车的总伤害/震晕比率"
+
+msgid "profile/params/tooltip/assistedStunDamage/shortSelf/header"
+msgstr "被您震晕的敌方战车所承受的伤害"
+
+msgid "profile/params/tooltip/avgAssistedDamage/body"
+msgstr "包括：\n• 由您侦察协助造成的伤害\n• 由您击毁履带使敌方战车无法移动协助造成的伤害。"
+
+msgid "profile/params/tooltip/avgAssistedDamage/header"
+msgstr "你的平均协助伤害"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/body"
+msgstr "包括：\n• 由玩家侦察协助造成的伤害\n• 由您击毁履带使敌方战车无法移动协助造成的伤害。"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortOther/header"
+msgstr "由玩家协助造成的伤害"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/body"
+msgstr "包括：\n• 由您侦察协助造成的伤害\n• 由您击毁履带使敌方战车无法移动协助造成的伤害。"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/body"
+msgstr "包括：\n• 通过侦察协助队友造成的伤害（包括技能伤害）\n• 通过击毁履带和使敌方战车无法移动协助队友造成的伤害（包括技能伤害）\n• 通过技能协助队友造成的伤害"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/comp7/header"
+msgstr "您协助造成的伤害"
+
+msgid "profile/params/tooltip/avgAssistedDamage/shortSelf/header"
+msgstr "协助造成伤害"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/body"
+msgstr "被该玩家震晕的敌方战车所承受的伤害（包括技能震晕）与该玩家参战场次的比率"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortOther/header"
+msgstr "被该玩家震晕的敌方战车所承受的伤害"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/body"
+msgstr "被您震晕的敌方战车所承受的伤害（包括技能震晕）与您参战场次的比率"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/comp7/shortSelf/header"
+msgstr "被您震晕的敌方战车所承受的伤害"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/body"
+msgstr "击伤/震晕敌方战车数量的比率"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortOther/header"
+msgstr "被该玩家震晕的敌方战车所承受的伤害"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/body"
+msgstr "击伤/震晕敌方战车数量的比率"
+
+msgid "profile/params/tooltip/avgAssistedStunDamage/shortSelf/header"
+msgstr "被您震晕的敌方战车所承受的伤害"
+
+msgid "profile/params/tooltip/avgDamage/body"
+msgstr "输出总伤害与战斗场次的比率"
+
+msgid "profile/params/tooltip/avgDamage/header"
+msgstr "场均造成伤害"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/body"
+msgstr "杀敌数与战斗场次比例"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/body"
+msgstr "击毁敌方战车总数（包括技能击毁）与参战场次的比率"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/comp7/header"
+msgstr "战车摧毁率"
+
+msgid "profile/params/tooltip/avgDestroyedVehicles/header"
+msgstr "战车摧毁率"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/body"
+msgstr "侦察到的敌方战车与战斗场次比率"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/body"
+msgstr "侦察敌方战车总数（包括技能侦察）与参战场次的比率"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/comp7/header"
+msgstr "战车侦察率"
+
+msgid "profile/params/tooltip/avgDetectedEnemies/header"
+msgstr "战车侦察率"
+
+msgid "profile/params/tooltip/avgDmg/short/body"
+msgstr "输出总伤害与战斗场次的比率"
+
+msgid "profile/params/tooltip/avgDmg/short/header"
+msgstr "输出伤害"
+
+msgid "profile/params/tooltip/avgEx/short/body"
+msgstr "总经验与战斗场次的比率"
+
+msgid "profile/params/tooltip/avgEx/short/header"
+msgstr "经验"
+
+msgid "profile/params/tooltip/avgExp/body"
+msgstr "总经验与战斗场次的比率"
+
+msgid "profile/params/tooltip/avgExp/header"
+msgstr "场均经验"
+
+msgid "profile/params/tooltip/avgHealthRepair/body"
+msgstr "恢复总血量与参战场次的比率"
+
+msgid "profile/params/tooltip/avgHealthRepair/header"
+msgstr "恢复血量率"
+
+msgid "profile/params/tooltip/avgPoiCaptured/body"
+msgstr "占领关键点位数量与参战场次的比率"
+
+msgid "profile/params/tooltip/avgPoiCaptured/header"
+msgstr "占领关键点位率"
+
+msgid "profile/params/tooltip/avgPrestigePoints/body"
+msgstr "获得的总威望点数与参战场次的比率"
+
+msgid "profile/params/tooltip/avgPrestigePoints/header"
+msgstr "场均威望点数"
+
+msgid "profile/params/tooltip/avgReceivedDamage/body"
+msgstr "承受总伤害与常都场次的比率"
+
+msgid "profile/params/tooltip/avgReceivedDamage/header"
+msgstr "承受伤害"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/body"
+msgstr "使用角色技能的总次数与参战场次的比率"
+
+msgid "profile/params/tooltip/avgRoleSkillUsed/header"
+msgstr "使用角色技能"
+
+msgid "profile/params/tooltip/avgStunNumber/body"
+msgstr "震晕敌方战车乘员/战斗场次的比率"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/body"
+msgstr "震晕敌方乘员的命中（包括技能命中）总数与参战场次的比率"
+
+msgid "profile/params/tooltip/avgStunNumber/comp7/header"
+msgstr "震晕次数"
+
+msgid "profile/params/tooltip/avgStunNumber/header"
+msgstr "震晕次数"
+
+msgid "profile/params/tooltip/avgVictoryPoints/body"
+msgstr "总胜利点数和战斗场次的比率"
+
+msgid "profile/params/tooltip/avgVictoryPoints/header"
+msgstr "平均胜利点数"
+
+msgid "profile/params/tooltip/battlesCount/body"
+msgstr "战斗总场次，包括：\n• 胜利: %(value_0)s\n• 失败: %(value_1)s\n• 平局: %(value_2)s"
+
+msgid "profile/params/tooltip/battlesCount/header"
+msgstr "战斗"
+
+msgid "profile/params/tooltip/brAverageLevel/body"
+msgstr "达到的所有等级数总和与参战场次的比率。"
+
+msgid "profile/params/tooltip/brAverageLevel/header"
+msgstr "平均等级"
+
+msgid "profile/params/tooltip/brAverageRank/body"
+msgstr "在战斗结果中获得的排名数总和与参战场次的比率。"
+
+msgid "profile/params/tooltip/brAverageRank/header"
+msgstr "平均排名"
+
+msgid "profile/params/tooltip/brAvgDamage/body"
+msgstr "造成的总伤害数与参战场次的比率。"
+
+msgid "profile/params/tooltip/brAvgDamage/header"
+msgstr "造成伤害"
+
+msgid "profile/params/tooltip/brBattlesCount/body"
+msgstr "参战总场次。"
+
+msgid "profile/params/tooltip/brBattlesCount/header"
+msgstr "战斗"
+
+msgid "profile/params/tooltip/brMaxDamage/body"
+msgstr "一场战斗中对敌方战车造成的最高伤害。\n纪录达成于%(value_0)s。"
+
+msgid "profile/params/tooltip/brMaxDamage/header"
+msgstr "单场最高伤害"
+
+msgid "profile/params/tooltip/brMaxExp/body"
+msgstr "一场战斗中在《坦克世界》高级账号下获得的最高经验。\n纪录达成于%(value_0)s。"
+
+msgid "profile/params/tooltip/brMaxExp/header"
+msgstr "单场最高经验"
+
+msgid "profile/params/tooltip/brMaxFrags/body"
+msgstr "一场战斗中个人击毁的最高敌方战车数。\n纪录达成于%(value_0)s。"
+
+msgid "profile/params/tooltip/brMaxFrags/header"
+msgstr "单场最高战车摧毁数"
+
+msgid "profile/params/tooltip/brWins/body"
+msgstr "胜利总场次。"
+
+msgid "profile/params/tooltip/brWins/header"
+msgstr "胜利"
+
+msgid "profile/params/tooltip/capturePoints/body"
+msgstr "基地占领所获得的点数"
+
+msgid "profile/params/tooltip/capturePoints/header"
+msgstr "基地占领点数"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/body"
+msgstr "在所有战场等级下，造成伤害和承受伤害的比率：\n• 造成伤害: %(value_0)s\n• 承受伤害: %(value_1)s"
+
+msgid "profile/params/tooltip/clan/summaryDamageCoefficient/header"
+msgstr "平均伤害率"
+
+msgid "profile/params/tooltip/damageCoeff/body"
+msgstr "\"输出伤害\" 与 \"承受伤害\"比率，包括:\n• 输出伤害: %(value_0)s\n• 承受伤害: %(value_1)s"
+
+msgid "profile/params/tooltip/damageCoeff/header"
+msgstr "伤害率"
+
+msgid "profile/params/tooltip/destroyCoeff/body"
+msgstr "击毁敌车数 与 被击毁次数 比率,包括:\n• 击毁敌车: %(value_0)s\n• 玩家被击毁: %(value_1)s"
+
+msgid "profile/params/tooltip/destroyCoeff/header"
+msgstr "摧毁率"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/body"
+msgstr "装甲吸收伤害与真实承受伤害的比率（被AP弹、HEAT弹和APCR弹击中发生跳弹和未击穿）。不包含战场储备、HE弹和HESH弹造成的伤害。\n• 装甲吸收这些类型炮弹的平均伤害:%(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/armorUsing/header"
+msgstr "装甲利用率"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/body"
+msgstr "总输出伤害(包含战场储备）和战斗场次的比率"
+
+msgid "profile/params/tooltip/dif/fallout/avgDamage/header"
+msgstr "场均造成伤害"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/body"
+msgstr "击毁敌车总数(包含战场储备）和战斗场次的比率"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/header"
+msgstr "战车摧毁率"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/body"
+msgstr "击毁敌车总数(不包含战场储备）和战斗场次的比率"
+
+msgid "profile/params/tooltip/dif/fallout/avgDestroyedVehicles/vehicle/header"
+msgstr "战车摧毁率"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/body"
+msgstr "总输出伤害(包含战场储备）和战斗场次的比率"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/header"
+msgstr "输出伤害"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/body"
+msgstr "造成总伤害(不包含战场储备）和战斗场次的比率"
+
+msgid "profile/params/tooltip/dif/fallout/avgDmg/short/vehicle/header"
+msgstr "输出伤害"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/body"
+msgstr "承受总伤害(包含战场储备）和战斗场次的比率"
+
+msgid "profile/params/tooltip/dif/fallout/avgReceivedDamage/header"
+msgstr "承受伤害"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/body"
+msgstr "战斗总场次，包括：\n• 胜利: %(value_0)s"
+
+msgid "profile/params/tooltip/dif/fallout/battlesCount/header"
+msgstr "战斗"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/body"
+msgstr "“造成伤害”&“承受伤害”比率(包含战场储备），具体:\n• 战车造成的伤害: %(value_0)s\n• 战场储备造成的伤害: %(value_2)s\n• 承受敌方战车攻击和战场储备的伤害: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/header"
+msgstr "伤害率"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/body"
+msgstr "“造成伤害”&“承受伤害”比率(不包含战场储备），具体:\n• 战车造成的伤害: %(value_0)s\n• 承受敌方战车攻击和战场储备的伤害: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/damageCoeff/vehicle/header"
+msgstr "伤害率"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/body"
+msgstr "击毁敌方战车数&玩家被击毁次数比率(包含战场储备）,具体:\n• 玩家战车击毁的敌方战车数: %(value_0)s\n• 战场储备击毁的敌方战车数: %(value_2)s\n• 玩家战车被敌方战车或战场储备击毁次数: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/header"
+msgstr "摧毁率"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/body"
+msgstr "击毁敌方战车数&玩家被击毁次数比率(不包含战场储备）,具体:\n• 玩家战车击毁的敌方战车数: %(value_0)s\n• 玩家战车被敌方战车或战场储备击毁次数: %(value_1)s"
+
+msgid "profile/params/tooltip/dif/fallout/destroyCoeff/vehicle/header"
+msgstr "摧毁率"
+
+msgid "profile/params/tooltip/dif/fallout/hits/body"
+msgstr "命中敌方战车攻击次数(不包含战场储备）"
+
+msgid "profile/params/tooltip/dif/fallout/hits/header"
+msgstr "命中率"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/body"
+msgstr "打破记录(未使用战场储备）。"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/header"
+msgstr "单场最高伤害"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/body"
+msgstr "打破记录(不包含战场储备）。"
+
+msgid "profile/params/tooltip/dif/fallout/maxDamage/vehicle/header"
+msgstr "单场最高伤害"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/body"
+msgstr "打破记录(未使用战场储备）。"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/header"
+msgstr "最高击毁战车数"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/body"
+msgstr "打破记录(不包含战场储备）。"
+
+msgid "profile/params/tooltip/dif/fallout/maxDestroyed/vehicle/header"
+msgstr "最高击毁战车数"
+
+msgid "profile/params/tooltip/dif/fallout/wins/body"
+msgstr "总胜利场次"
+
+msgid "profile/params/tooltip/dif/fallout/wins/header"
+msgstr "胜利"
+
+msgid "profile/params/tooltip/droppedCapturePoints/body"
+msgstr "基地防御所获得的点数"
+
+msgid "profile/params/tooltip/droppedCapturePoints/header"
+msgstr "基地防御点数"
+
+msgid "profile/params/tooltip/flagsAbsorbed/body"
+msgstr "击毁旗帜总数"
+
+msgid "profile/params/tooltip/flagsAbsorbed/header"
+msgstr "击毁旗帜"
+
+msgid "profile/params/tooltip/flagsDelivered/body"
+msgstr "成功运送旗帜总数"
+
+msgid "profile/params/tooltip/flagsDelivered/header"
+msgstr "送达旗帜"
+
+msgid "profile/params/tooltip/fort/battles/body"
+msgstr "攻城战总场次,包含:\n• 胜利: %(value_0)s\n• 失败: %(value_1)s\n• 平局: %(value_2)s."
+
+msgid "profile/params/tooltip/fort/battles/header"
+msgstr "攻城战"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/body"
+msgstr "攻城战总胜率"
+
+msgid "profile/params/tooltip/fort/battlesWinsEfficiency/header"
+msgstr "攻城战胜利"
+
+msgid "profile/params/tooltip/fort/looting/body"
+msgstr "成功掠夺敌方要塞总数"
+
+msgid "profile/params/tooltip/fort/looting/header"
+msgstr "掠夺"
+
+msgid "profile/params/tooltip/fort/resource/body"
+msgstr "突击战—获得工业资源&参战场数比率"
+
+msgid "profile/params/tooltip/fort/resource/header"
+msgstr "突击战—场均掠夺"
+
+msgid "profile/params/tooltip/fort/sortie/body"
+msgstr "突击战总场数：\n• 胜利: %(value_0)s\n• 失败: %(value_1)s\n• 平均: %(value_2)s"
+
+msgid "profile/params/tooltip/fort/sortie/header"
+msgstr "突击战"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/body"
+msgstr "突击战总胜率"
+
+msgid "profile/params/tooltip/fort/sortieWinsEfficiency/header"
+msgstr "突击战胜利"
+
+msgid "profile/params/tooltip/fortBattles/attacks/body"
+msgstr "敌方要塞被攻击总次数。\n必须在参加至少一次攻击行动才统计。"
+
+msgid "profile/params/tooltip/fortBattles/attacks/header"
+msgstr "攻击"
+
+msgid "profile/params/tooltip/fortBattles/defences/body"
+msgstr "己方要塞防御总次数。\n必须在参加至少一次防御行动才统计。"
+
+msgid "profile/params/tooltip/fortBattles/defences/header"
+msgstr "防御"
+
+msgid "profile/params/tooltip/fortBattlesWins/body"
+msgstr "攻城战总胜率"
+
+msgid "profile/params/tooltip/fortBattlesWins/header"
+msgstr "攻城战胜利"
+
+msgid "profile/params/tooltip/fortSortieWins/body"
+msgstr "突击战总胜率"
+
+msgid "profile/params/tooltip/fortSortieWins/header"
+msgstr "突击战胜利"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/body"
+msgstr "突击战—获得工业资源&参战场数比率"
+
+msgid "profile/params/tooltip/fortSorties/avgResources/header"
+msgstr "突击战—场均掠夺"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/body"
+msgstr "所有突击战场次所获得的总工业资源数量"
+
+msgid "profile/params/tooltip/fortSorties/totalResources/header"
+msgstr "所有突击战场次总掠夺量"
+
+msgid "profile/params/tooltip/hits/body"
+msgstr "射击准度"
+
+msgid "profile/params/tooltip/hits/header"
+msgstr "命中率"
+
+msgid "profile/params/tooltip/kdr/body"
+msgstr "击毁敌方战车次数 & 玩家被击毁次数比率 (包含战场储备)，具体:\n• 直接击毁的敌方战车数辆: %(value_0)s\n• 用战场储备击毁的敌方战车数量: %(value_1)s\n• 玩家被敌方战车或技能击毁的次数: %(value_2)s"
+
+msgid "profile/params/tooltip/kdr/header"
+msgstr "摧毁率"
+
+msgid "profile/params/tooltip/markOfMastery/body"
+msgstr "在所有相关战斗模式中获得的王牌精通徽章/至少参加过一场随机战的战车数量"
+
+msgid "profile/params/tooltip/markOfMastery/header"
+msgstr "精通徽章：王牌"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/body"
+msgstr "精通徽章在当前战斗模式下不能获取。"
+
+msgid "profile/params/tooltip/markOfMasteryDisabled/header"
+msgstr "精通徽章：王牌"
+
+msgid "profile/params/tooltip/maxDamage/body"
+msgstr "纪录达成于 %(value_0)s"
+
+msgid "profile/params/tooltip/maxDamage/header"
+msgstr "单场最高伤害"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/body"
+msgstr "在战斗中对敌方战车造成伤害最高。"
+
+msgid "profile/params/tooltip/maxDamage/vehicle/header"
+msgstr "最高伤害"
+
+msgid "profile/params/tooltip/maxDestroyed/body"
+msgstr "纪录达成于 %(value_0)s"
+
+msgid "profile/params/tooltip/maxDestroyed/header"
+msgstr "单场最高战车摧毁数"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/body"
+msgstr "在战斗中击毁数量最多的敌方战车。"
+
+msgid "profile/params/tooltip/maxDestroyed/vehicle/header"
+msgstr "最高击毁战车数"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/body"
+msgstr "一场战斗中角色技能和战术技能造成的最大伤害。"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/header"
+msgstr "单场最高技能伤害"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/body"
+msgstr "包括角色技能和战术技能造成的伤害。\n驾驶%(value_0)s创下最佳纪录"
+
+msgid "profile/params/tooltip/maxEquipmentDamageDealt/vehicle/header"
+msgstr "单场最高技能伤害"
+
+msgid "profile/params/tooltip/maxExp/body"
+msgstr "纪录达成于 %(value_0)s"
+
+msgid "profile/params/tooltip/maxExp/header"
+msgstr "单场最高经验"
+
+msgid "profile/params/tooltip/maxExp/vehicle/body"
+msgstr "在一场经验获得的经验数量最高，包含高级账号在内。"
+
+msgid "profile/params/tooltip/maxExp/vehicle/header"
+msgstr "单场最高经验"
+
+msgid "profile/params/tooltip/maxExpDisabled/body"
+msgstr "最高经验获取量在当前战斗模式下不显示。"
+
+msgid "profile/params/tooltip/maxExpDisabled/header"
+msgstr "单场最高经验"
+
+msgid "profile/params/tooltip/maxHealthRepair/body"
+msgstr "一场战斗中为您和您队友的战车恢复的最大血量。"
+
+msgid "profile/params/tooltip/maxHealthRepair/header"
+msgstr "单场恢复的最大血量"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/body"
+msgstr "一场战斗中为您和您队友的战车恢复的最大血量。\n驾驶%(value_0)s创下最佳纪录"
+
+msgid "profile/params/tooltip/maxHealthRepair/vehicle/header"
+msgstr "单场恢复的最大血量"
+
+msgid "profile/params/tooltip/maxPrestigePoints/body"
+msgstr "一场战斗中获取的最多威望点数。"
+
+msgid "profile/params/tooltip/maxPrestigePoints/header"
+msgstr "单场获得的最多威望点数"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/body"
+msgstr "驾驶%(value_0)s创下最佳纪录"
+
+msgid "profile/params/tooltip/maxPrestigePoints/vehicle/header"
+msgstr "单场获得的最多威望点数"
+
+msgid "profile/params/tooltip/maxVictoryPoints/body"
+msgstr "在历史所有战斗中，单场获得的胜利点数最高。"
+
+msgid "profile/params/tooltip/maxVictoryPoints/header"
+msgstr "单场最高胜利点数"
+
+msgid "profile/params/tooltip/maxWinPoints/body"
+msgstr "在历史所有战斗中，单场获得的胜利点数最高。"
+
+msgid "profile/params/tooltip/maxWinPoints/header"
+msgstr "单场最高胜利点数"
+
+msgid "profile/params/tooltip/maxWinSeries/body"
+msgstr "在模式中单人和身处小队/7人小队时最多连续胜利的场次。"
+
+msgid "profile/params/tooltip/maxWinSeries/header"
+msgstr "最多连胜（单人和小队/超级小队）"
+
+msgid "profile/params/tooltip/poiCaptured/body"
+msgstr "占领关键点位的数量"
+
+msgid "profile/params/tooltip/poiCaptured/header"
+msgstr "占领关键点位"
+
+msgid "profile/params/tooltip/ranked/avgFrags/body"
+msgstr "平均一场战斗击毁敌方战车数。"
+
+msgid "profile/params/tooltip/ranked/avgFrags/header"
+msgstr "平均击毁敌方战车数。"
+
+msgid "profile/params/tooltip/ranked/avgPoints/body"
+msgstr "在进行过的排位战战斗场次中获得臂章数量占的百分比。\n• 总臂章数：%(value_0)s\n• 总战斗场次：%(value_1)s"
+
+msgid "profile/params/tooltip/ranked/avgPoints/header"
+msgstr "排位战战斗力"
+
+msgid "profile/params/tooltip/ranked/points/body"
+msgstr "获得的总点数"
+
+msgid "profile/params/tooltip/ranked/points/header"
+msgstr "军衔点数"
+
+msgid "profile/params/tooltip/stunNumber/body"
+msgstr "震晕敌方战车乘员的次数"
+
+msgid "profile/params/tooltip/stunNumber/header"
+msgstr "震晕次数"
+
+msgid "profile/params/tooltip/survival/body"
+msgstr "玩家未被击毁场次的百分比"
+
+msgid "profile/params/tooltip/survival/header"
+msgstr "存活率"
+
+msgid "profile/params/tooltip/totalVehs/body"
+msgstr "所有使用过战车的总数"
+
+msgid "profile/params/tooltip/totalVehs/header"
+msgstr "使用过的战车"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/body"
+msgstr "攻城战总场次。\n\n当前版本参数不可用。"
+
+msgid "profile/params/tooltip/unavailable/fort/battles/header"
+msgstr "攻城战"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/body"
+msgstr "攻城战总胜率\n\n当前版本参数不可用。"
+
+msgid "profile/params/tooltip/unavailable/fort/winsEfficiency/header"
+msgstr "攻城战获胜"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/body"
+msgstr "当前战斗没有可用参数"
+
+msgid "profile/params/tooltip/unavailableMaxDamage/header"
+msgstr "不可用数据"
+
+msgid "profile/params/tooltip/usedTechnics/body"
+msgstr "至少参加过一次历史战役的战车。"
+
+msgid "profile/params/tooltip/usedTechnics/header"
+msgstr "使用战车"
+
+msgid "profile/params/tooltip/wins/body"
+msgstr "总胜率"
+
+msgid "profile/params/tooltip/wins/header"
+msgstr "获胜率"
+
+msgid "profile/ranked/seasonsdropdown/1"
+msgstr "第1赛季，2021–2022年"
+
+msgid "profile/ranked/seasonsdropdown/2"
+msgstr "第2赛季，2021–2022年"
+
+msgid "profile/ranked/seasonsdropdown/3"
+msgstr "第3赛季，2021–2022年"
+
+msgid "profile/ranked/seasonsdropdown/archive"
+msgstr "数据归档"
+
+msgid "profile/seasonsdropdown/all"
+msgstr "所有赛季"
+
+msgid "profile/seasonsdropdown/current"
+msgstr "本赛季"
+
+msgid "profile/seasonsdropdown/specific"
+msgstr "赛季 %(date1)s – %(date2)s"
+
+msgid "profile/section/statistics/scores/maxHealthRepair"
+msgstr "单场恢复的最大血量"
+
+msgid "profile/summary/clan/btnLabel"
+msgstr "军团信息"
+
+msgid "profile/summary/clan/joinDate"
+msgstr "加入日期："
+
+msgid "profile/summary/clan/post"
+msgstr "职位："
+
+msgid "profile/summary/club/btnLabel"
+msgstr "团队简介"
+
+msgid "profile/summary/club/ladder"
+msgstr "排行榜："
+
+msgid "profile/summary/club/ladderInfo"
+msgstr "天梯%(league)s，梯队%(division)s"
+
+msgid "profile/summary/club/post"
+msgstr "职位："
+
+msgid "profile/summary/nextAwards/tooltip/body"
+msgstr "将接近获取条件的荣誉填入色带。"
+
+msgid "profile/summary/nextAwards/tooltip/header"
+msgstr "后续奖项"
+
+msgid "profile/summary/noGroups"
+msgstr "玩家没有固定的作战部队。"
+
+msgid "profile/summary/significantAwards/tooltip/body"
+msgstr "将最重要的玩家荣誉填入色带。"
+
+msgid "profile/summary/significantAwards/tooltip/header"
+msgstr "最具价值奖"
+
+msgid "profile/tabs/tooltip/advancedAchievements/body"
+msgstr "查看成就目录。"
+
+msgid "profile/tabs/tooltip/advancedAchievements/header"
+msgstr "成就"
+
+msgid "profile/tabs/tooltip/awards/body"
+msgstr "查看奖项及其说明"
+
+msgid "profile/tabs/tooltip/awards/header"
+msgstr "奖项"
+
+msgid "profile/tabs/tooltip/collections/body"
+msgstr "查看收藏"
+
+msgid "profile/tabs/tooltip/collections/header"
+msgstr "收藏"
+
+msgid "profile/tabs/tooltip/formations/body"
+msgstr "查看你所在作战部队的详细信息。"
+
+msgid "profile/tabs/tooltip/formations/header"
+msgstr "作战部队"
+
+msgid "profile/tabs/tooltip/hof/body"
+msgstr "查看名人堂评级"
+
+msgid "profile/tabs/tooltip/hof/header"
+msgstr "名人堂"
+
+msgid "profile/tabs/tooltip/hofDisabled/body"
+msgstr "名人堂暂时不可用。请稍后重试。"
+
+msgid "profile/tabs/tooltip/hofDisabled/header"
+msgstr "注意"
+
+msgid "profile/tabs/tooltip/statistics/body"
+msgstr "查看所有战车的战斗统计"
+
+msgid "profile/tabs/tooltip/statistics/header"
+msgstr "统计"
+
+msgid "profile/tabs/tooltip/summary/body"
+msgstr "战斗效能"
+
+msgid "profile/tabs/tooltip/summary/header"
+msgstr "总结"
+
+msgid "profile/tabs/tooltip/technique/body"
+msgstr "查看所有战车的战斗统计"
+
+msgid "profile/tabs/tooltip/technique/header"
+msgstr "战车"
+
+msgid "profile/title"
+msgstr "玩家统计 %s"
+
+msgid "seasons/comp7_dropdown_label"
+msgstr "赛年/赛季："
+
+msgid "seasons/dropdown_label"
+msgstr "赛季："
+
+msgid "section/advancedAchievements/title"
+msgstr "成就"
+
+msgid "section/awards/dropdown/labels/all"
+msgstr "全部"
+
+msgid "section/awards/dropdown/labels/inProcess"
+msgstr "已得到"
+
+msgid "section/awards/dropdown/labels/none"
+msgstr "未获得"
+
+msgid "section/awards/dropdown/tooltip/body"
+msgstr "启用过滤器查看全部、已获得、未获得的奖励信息"
+
+msgid "section/awards/dropdown/tooltip/header"
+msgstr "奖励排序"
+
+msgid "section/awards/labels/battleHeroes"
+msgstr "战斗英雄"
+
+msgid "section/awards/labels/epic"
+msgstr "史诗勋章"
+
+msgid "section/awards/labels/group"
+msgstr "团体奖项"
+
+msgid "section/awards/labels/honorary"
+msgstr "荣誉军衔"
+
+msgid "section/awards/labels/marksOnGun"
+msgstr "卓越标记"
+
+msgid "section/awards/labels/memory"
+msgstr "纪念牌"
+
+msgid "section/awards/labels/special"
+msgstr "特殊奖项"
+
+msgid "section/awards/labels/stage"
+msgstr "阶段奖项"
+
+msgid "section/awards/title"
+msgstr "奖项"
+
+msgid "section/collections/title"
+msgstr "收藏"
+
+msgid "section/formations/clan/none"
+msgstr "您没有军团"
+
+msgid "section/formations/clan/none/thirdperson"
+msgstr "这名玩家不是军团成员。"
+
+msgid "section/formations/clan/type"
+msgstr "军团"
+
+msgid "section/formations/fort/battles"
+msgstr "攻城战"
+
+msgid "section/formations/fort/create"
+msgstr "创建要塞"
+
+msgid "section/formations/fort/level"
+msgstr "要塞等级:%s"
+
+msgid "section/formations/fort/link"
+msgstr "要塞成就"
+
+msgid "section/formations/fort/none"
+msgstr "未创建要塞"
+
+msgid "section/formations/fort/none/thirdperson"
+msgstr "玩家军团没有建立要塞。"
+
+msgid "section/formations/fort/resourceRating"
+msgstr "获取资源排名"
+
+msgid "section/formations/fort/sorties"
+msgstr "突击战"
+
+msgid "section/formations/history/battles"
+msgstr "成为战斗成员"
+
+msgid "section/formations/history/dates"
+msgstr "加入/离开日期"
+
+msgid "section/formations/history/datesPattern"
+msgstr "%(date1)s–%(date2)s"
+
+msgid "section/formations/history/team"
+msgstr "团队"
+
+msgid "section/formations/history/title"
+msgstr "玩家团队日志"
+
+msgid "section/formations/joinDate"
+msgstr "加入日期: %s"
+
+msgid "section/formations/rank"
+msgstr "玩家位置： %s"
+
+msgid "section/formations/team/completedSeason"
+msgstr "赛季 %s(结束）"
+
+msgid "section/formations/team/find"
+msgstr "搜索固定团队"
+
+msgid "section/formations/team/league"
+msgstr "天梯：%(league)s。梯队：%(division)s。位置：%(position)s。"
+
+msgid "section/formations/team/none"
+msgstr "你没有固定团队"
+
+msgid "section/formations/team/none/thirdperson"
+msgstr "这个玩家没有固定团队"
+
+msgid "section/formations/team/season"
+msgstr "赛季 %s"
+
+msgid "section/formations/team/seasonBattles"
+msgstr "排位战"
+
+msgid "section/formations/team/seasonWinRate"
+msgstr "赛季胜利"
+
+msgid "section/formations/team/title"
+msgstr "团队 \"%s\""
+
+msgid "section/formations/team/type"
+msgstr "团队"
+
+msgid "section/formations/title"
+msgstr "作战部队"
+
+msgid "section/formations/tooltip/fort/battles/body"
+msgstr "攻城战总场数，包括：\n• 胜利: %(wins)s\n• 失败: %(losses)s\n• 平局: %(draws)s"
+
+msgid "section/formations/tooltip/fort/battles/header"
+msgstr "攻城战"
+
+msgid "section/formations/tooltip/fort/level/body"
+msgstr "要塞的等级与指挥中心等级相同。"
+
+msgid "section/formations/tooltip/fort/level/header"
+msgstr "要塞等级"
+
+msgid "section/formations/tooltip/fort/link/body"
+msgstr "点击查看军团的要塞成就。"
+
+msgid "section/formations/tooltip/fort/link/header"
+msgstr "要塞成就"
+
+msgid "section/formations/tooltip/fort/resourceRating/body"
+msgstr "您的位置"
+
+msgid "section/formations/tooltip/fort/resourceRating/header"
+msgstr "获取资源排名"
+
+msgid "section/formations/tooltip/fort/sorties/body"
+msgstr "突击战总场次，包括：\n• 胜利: %(wins)s\n• 失败: %(losses)s\n• 平局: %(draws)s"
+
+msgid "section/formations/tooltip/fort/sorties/header"
+msgstr "突击战"
+
+msgid "section/formations/tooltip/team/link/body"
+msgstr "点击查看团队简介。"
+
+msgid "section/formations/tooltip/team/link/header"
+msgstr "团队简介"
+
+msgid "section/formations/tooltip/team/seasonBattles/body"
+msgstr "在当前团队中排位战总场次，包括：\n• 胜利: %(wins)s\n• 失败: %(losses)s\n• 平局: %(draws)s"
+
+msgid "section/formations/tooltip/team/seasonBattles/header"
+msgstr "排位战"
+
+msgid "section/formations/tooltip/team/seasonWinRate/body"
+msgstr "排位战总胜率"
+
+msgid "section/formations/tooltip/team/seasonWinRate/header"
+msgstr "胜利"
+
+msgid "section/hof/BrowserView/closeBtn"
+msgstr "关闭"
+
+msgid "section/hof/achievementsRatingsBtn"
+msgstr "进入评级"
+
+msgid "section/hof/achievementsRatingsTitle"
+msgstr "随机战\n成就评级"
+
+msgid "section/hof/betaBtn"
+msgstr "测试"
+
+msgid "section/hof/betaTooltip"
+msgstr "名人堂和《坦克世界》评级\n内部测试中"
+
+msgid "section/hof/mainDescription"
+msgstr "查看周期内您与其他玩家的战绩和评级排名。"
+
+msgid "section/hof/mainTitle"
+msgstr "名人堂"
+
+msgid "section/hof/notAvailable/tooltip/body"
+msgstr "名人堂暂时不可用。请稍后重试。"
+
+msgid "section/hof/notAvailable/tooltip/header"
+msgstr "注意"
+
+msgid "section/hof/statusBtn/hideResults"
+msgstr "显示数据"
+
+msgid "section/hof/statusBtn/showResults"
+msgstr "隐藏数据"
+
+msgid "section/hof/statusDescription/exclusion"
+msgstr "在评级中隐藏数据的申请已提交并将在下次结果更新后生效。"
+
+msgid "section/hof/statusDescription/hideResults"
+msgstr "您的评级数据现在已对其他玩家隐藏"
+
+msgid "section/hof/statusDescription/inclusion"
+msgstr "申请已提交并将在下次评级排名更新后生效。您的评级数据现在已对其他玩家开放显示。"
+
+msgid "section/hof/statusDescription/showResults"
+msgstr "您的评级数据现在对所有玩家显示、好友和军团成员显示。"
+
+msgid "section/hof/title"
+msgstr "名人堂"
+
+msgid "section/hof/vehiclesRatingsBtn"
+msgstr "进入评级"
+
+msgid "section/hof/vehiclesRatingsTitle"
+msgstr "随机战\n战车评级"
+
+msgid "section/statistics/bodyBar/label/charts"
+msgstr "信息图表"
+
+msgid "section/statistics/bodyBar/label/clan10"
+msgstr "X级"
+
+msgid "section/statistics/bodyBar/label/clan6"
+msgstr "VI级"
+
+msgid "section/statistics/bodyBar/label/clan8"
+msgstr "VIII级"
+
+msgid "section/statistics/bodyBar/label/detailed"
+msgstr "统计"
+
+msgid "section/statistics/bodyBar/label/fortBattles"
+msgstr "攻城战详情"
+
+msgid "section/statistics/bodyBar/label/fortSortie"
+msgstr "突击战详情"
+
+msgid "section/statistics/bodyBar/label/specific"
+msgstr "特殊"
+
+msgid "section/statistics/bodyParams/label/average"
+msgstr "场均得分"
+
+msgid "section/statistics/bodyParams/label/common"
+msgstr "整体参数"
+
+msgid "section/statistics/bodyParams/label/fortBattles"
+msgstr "攻城战"
+
+msgid "section/statistics/bodyParams/label/fortSortie"
+msgstr "突击战"
+
+msgid "section/statistics/bodyParams/label/record"
+msgstr "得分记录"
+
+msgid "section/statistics/bodyParams/label/resource"
+msgstr "工业资源"
+
+msgid "section/statistics/chart/class/tooltip/body"
+msgstr "使用此类型战车的总战斗场次"
+
+msgid "section/statistics/chart/class/tooltip/header"
+msgstr "战车类型：%(value)s"
+
+msgid "section/statistics/chart/level/tooltip/body"
+msgstr "使用此等级战车的战斗场次"
+
+msgid "section/statistics/chart/level/tooltip/header"
+msgstr "战车等级：%(value)s"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/body"
+msgstr "仅VI–VIII级战车可加入此战斗模式。"
+
+msgid "section/statistics/chart/levelDisabled7x7/tooltip/header"
+msgstr "战车等级：%(value)s"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/body"
+msgstr "仅VIII-X级战车可加入此战斗模式。"
+
+msgid "section/statistics/chart/levelDisabledFallout/tooltip/header"
+msgstr "战车等级：%(value)s"
+
+msgid "section/statistics/chart/nation/tooltip/body"
+msgstr "使用这个国家战车的战斗场次"
+
+msgid "section/statistics/chart/nation/tooltip/header"
+msgstr "战车国家：%(value)s"
+
+msgid "section/statistics/chart/place/tooltip/body"
+msgstr "获得此排名的总场次"
+
+msgid "section/statistics/chart/place/tooltip/header"
+msgstr "获得排名：%(value)s"
+
+msgid "section/statistics/chart/type/tooltip/body"
+msgstr "使用这个类型战车战斗次数"
+
+msgid "section/statistics/chart/type/tooltip/header"
+msgstr "战车类型：%(value)s"
+
+msgid "section/statistics/charts/byClassLabel"
+msgstr "按类型"
+
+msgid "section/statistics/charts/byLevelLabel"
+msgstr "按等级"
+
+msgid "section/statistics/charts/byNationLabel"
+msgstr "按国家"
+
+msgid "section/statistics/charts/byPlaceLabel"
+msgstr "按排名"
+
+msgid "section/statistics/charts/byTypeLabel"
+msgstr "按类型"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortOther"
+msgstr "被该玩家震晕的敌方战车所承受的伤害"
+
+msgid "section/statistics/detailed/avgAssistedStunDamage/shortSelf"
+msgstr "被您震晕的敌方战车所承受的伤害"
+
+msgid "section/statistics/detailed/avgDamage"
+msgstr "造成伤害"
+
+msgid "section/statistics/detailed/avgDestroyedVehicles"
+msgstr "战车摧毁率"
+
+msgid "section/statistics/detailed/avgDetectedEnemies"
+msgstr "战车侦察率"
+
+msgid "section/statistics/detailed/avgHealthRepaired"
+msgstr "恢复血量"
+
+msgid "section/statistics/detailed/avgPoiCaptured"
+msgstr "占领关键点位"
+
+msgid "section/statistics/detailed/avgPrestigePoints"
+msgstr "威望点数"
+
+msgid "section/statistics/detailed/avgReceivedDamage"
+msgstr "承受伤害"
+
+msgid "section/statistics/detailed/avgRoleSkillUsed"
+msgstr "使用角色技能"
+
+msgid "section/statistics/detailed/damageCoefficient"
+msgstr "伤害率"
+
+msgid "section/statistics/detailed/dealOutDamage"
+msgstr "造成伤害"
+
+msgid "section/statistics/detailed/destroyed"
+msgstr "击毁"
+
+msgid "section/statistics/detailed/destructionCoefficient"
+msgstr "摧毁率"
+
+msgid "section/statistics/detailed/killed"
+msgstr "击毁"
+
+msgid "section/statistics/detailed/maxDestroyedVehicles"
+msgstr "单场最高战车摧毁数"
+
+msgid "section/statistics/detailed/receivedDamage"
+msgstr "承受伤害"
+
+msgid "section/statistics/detailed/stunNumber"
+msgstr "震晕次数"
+
+msgid "section/statistics/headerText/all"
+msgstr "随机战和坦克连队"
+
+msgid "section/statistics/headerText/battleRoyaleSolo"
+msgstr "钢铁猎手"
+
+msgid "section/statistics/headerText/battleRoyaleSquad"
+msgstr "钢铁猎手"
+
+msgid "section/statistics/headerText/clan"
+msgstr "世界地图"
+
+msgid "section/statistics/headerText/comp7"
+msgstr "天梯战"
+
+msgid "section/statistics/headerText/epicRandom"
+msgstr "决战"
+
+msgid "section/statistics/headerText/fallout"
+msgstr "乱斗"
+
+msgid "section/statistics/headerText/fortifications"
+msgstr "要塞：战斗"
+
+msgid "section/statistics/headerText/historical"
+msgstr "历史战斗"
+
+msgid "section/statistics/headerText/ranked_10x10"
+msgstr "排位战"
+
+msgid "section/statistics/headerText/ranked_15x15"
+msgstr "排位战15v15"
+
+msgid "section/statistics/headerText/staticTeam"
+msgstr "团队:排位战"
+
+msgid "section/statistics/headerText/team"
+msgstr "团队：匹配战"
+
+msgid "section/statistics/labels/battlesOnTech"
+msgstr "战车战斗"
+
+msgid "section/statistics/scores/achievementsCount"
+msgstr "奖项"
+
+msgid "section/statistics/scores/armorUsing"
+msgstr "装甲利用率"
+
+msgid "section/statistics/scores/avgAssistedDamage"
+msgstr "你的平均协助伤害"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortOther"
+msgstr "由玩家协助造成的伤害"
+
+msgid "section/statistics/scores/avgAssistedDamage/shortSelf"
+msgstr "协助造成伤害"
+
+msgid "section/statistics/scores/avgDamage"
+msgstr "场均造成伤害"
+
+msgid "section/statistics/scores/avgExperience"
+msgstr "场均经验"
+
+msgid "section/statistics/scores/avgExperience/short"
+msgstr "经验"
+
+msgid "section/statistics/scores/avgPrestigePoints"
+msgstr "场均威望点数"
+
+msgid "section/statistics/scores/avgVictoryPoints"
+msgstr "平均胜利点数"
+
+msgid "section/statistics/scores/capturePoints"
+msgstr "基地占领点数"
+
+msgid "section/statistics/scores/clan/summaryDamageCoefficient"
+msgstr "平均伤害率"
+
+msgid "section/statistics/scores/coolSigns"
+msgstr "精通徽章：王牌"
+
+msgid "section/statistics/scores/droppedCapturePoints"
+msgstr "基地防御点数"
+
+msgid "section/statistics/scores/flagsAbsorbed"
+msgstr "击毁旗帜"
+
+msgid "section/statistics/scores/flagsDelivered"
+msgstr "送达旗帜"
+
+msgid "section/statistics/scores/fort/battles"
+msgstr "攻城战"
+
+msgid "section/statistics/scores/fort/battlesWinsEfficiency"
+msgstr "胜利"
+
+msgid "section/statistics/scores/fort/resource"
+msgstr "突击战—场均掠夺"
+
+msgid "section/statistics/scores/fort/sortie"
+msgstr "突击战"
+
+msgid "section/statistics/scores/fort/sortieWinsEfficiency"
+msgstr "突击战胜利"
+
+msgid "section/statistics/scores/fortBattles/attacks"
+msgstr "攻击"
+
+msgid "section/statistics/scores/fortBattles/defences"
+msgstr "防御"
+
+msgid "section/statistics/scores/fortBattlesTotalWins"
+msgstr "攻城战胜利"
+
+msgid "section/statistics/scores/fortSortie"
+msgstr "突击战"
+
+msgid "section/statistics/scores/fortSortieTotalWins"
+msgstr "突击战胜利"
+
+msgid "section/statistics/scores/fortSorties/AvgResources"
+msgstr "突击战—场均掠夺"
+
+msgid "section/statistics/scores/fortSorties/totalResources"
+msgstr "突击战总掠夺量"
+
+msgid "section/statistics/scores/fortTotalBattles"
+msgstr "攻城战"
+
+msgid "section/statistics/scores/hits"
+msgstr "命中率"
+
+msgid "section/statistics/scores/killDeathRatio"
+msgstr "摧毁率"
+
+msgid "section/statistics/scores/looting"
+msgstr "掠夺"
+
+msgid "section/statistics/scores/maxDamage"
+msgstr "单场最高伤害"
+
+msgid "section/statistics/scores/maxEquipmentDamageDealt"
+msgstr "单场最高技能伤害"
+
+msgid "section/statistics/scores/maxExperience"
+msgstr "单场最高经验"
+
+msgid "section/statistics/scores/maxPrestigePoints"
+msgstr "单场获得的最多威望点数"
+
+msgid "section/statistics/scores/maxVictoryPoints"
+msgstr "单场最高胜利点数"
+
+msgid "section/statistics/scores/maxWinSeries"
+msgstr "最多连胜（单人和小队/超级小队）"
+
+msgid "section/statistics/scores/poiCaptured"
+msgstr "占领关键点位"
+
+msgid "section/statistics/scores/ranked/avgFrags"
+msgstr "平均击毁敌方战车数。"
+
+msgid "section/statistics/scores/ranked/avgPoints"
+msgstr "排位战战斗力"
+
+msgid "section/statistics/scores/ranked/points"
+msgstr "军衔点数"
+
+msgid "section/statistics/scores/survival"
+msgstr "存活率"
+
+msgid "section/statistics/scores/totalBattles"
+msgstr "战斗"
+
+msgid "section/statistics/scores/totalVehs"
+msgstr "使用过的战车"
+
+msgid "section/statistics/scores/totalWins"
+msgstr "胜利"
+
+msgid "section/statistics/scores/usedTechnics"
+msgstr "使用战车"
+
+msgid "section/statistics/title"
+msgstr "统计"
+
+msgid "section/summary/errorText/nextAwards"
+msgstr "无后续奖项"
+
+msgid "section/summary/errorText/significantAwards"
+msgstr "无最具价值奖"
+
+msgid "section/summary/labels/nextAwards"
+msgstr "后续奖项"
+
+msgid "section/summary/labels/significantAwards"
+msgstr "最具价值奖"
+
+msgid "section/summary/scores/averageLevel"
+msgstr "平均等级"
+
+msgid "section/summary/scores/averageRank"
+msgstr "平均排名"
+
+msgid "section/summary/scores/avgDamage"
+msgstr "场均造成伤害"
+
+msgid "section/summary/scores/avgExperience"
+msgstr "场均经验"
+
+msgid "section/summary/scores/coolSigns"
+msgstr "精通徽章：王牌"
+
+msgid "section/summary/scores/damageDealt"
+msgstr "造成伤害"
+
+msgid "section/summary/scores/hits"
+msgstr "命中率"
+
+msgid "section/summary/scores/maxDestroyed"
+msgstr "单场最高战车摧毁数"
+
+msgid "section/summary/scores/maxExperience"
+msgstr "单场最高经验"
+
+msgid "section/summary/scores/personalScore"
+msgstr "个人评级"
+
+msgid "section/summary/scores/totalBattles"
+msgstr "战斗"
+
+msgid "section/summary/scores/totalWins"
+msgstr "获胜率"
+
+msgid "section/summary/title"
+msgstr "总结"
+
+msgid "section/technique/awards/noAchievements"
+msgstr "尚未获得任何奖励"
+
+msgid "section/technique/buttonBar/avgExperience"
+msgstr "平均经验\n每场"
+
+msgid "section/technique/buttonBar/classiness"
+msgstr "精通级"
+
+msgid "section/technique/buttonBar/totalBattles"
+msgstr "战斗"
+
+msgid "section/technique/buttonBar/totalWins"
+msgstr "胜利"
+
+msgid "section/technique/buttonBar/vehicleName"
+msgstr "战车的名称"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/body"
+msgstr "查看车库战车"
+
+msgid "section/technique/checkBoxHangarVehicles/tooltip/header"
+msgstr "车库中"
+
+msgid "section/technique/emptyScreenLabel/battleType/all"
+msgstr "车库中没有战车参战过随机战和坦克连队模式的战车"
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSolo"
+msgstr "车库中没有参加过钢铁猎手的战车。"
+
+msgid "section/technique/emptyScreenLabel/battleType/battleRoyaleSquad"
+msgstr "车库中没有参加过钢铁猎手的战车。"
+
+msgid "section/technique/emptyScreenLabel/battleType/comp7"
+msgstr "没有参与过天梯战的战车。"
+
+msgid "section/technique/emptyScreenLabel/battleType/epicRandom"
+msgstr "车库中没有参加过决战模式的战车"
+
+msgid "section/technique/emptyScreenLabel/battleType/fallout"
+msgstr "车库中没有参加过乱斗模式的战车"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortBattles"
+msgstr "车库中没有加入攻城战的战车"
+
+msgid "section/technique/emptyScreenLabel/battleType/fortSorties"
+msgstr "车库中没有加入突击战的战车"
+
+msgid "section/technique/emptyScreenLabel/battleType/globalMap"
+msgstr "车库中没有战车参加过世界地图作战。"
+
+msgid "section/technique/emptyScreenLabel/battleType/historical"
+msgstr "车库中没有参加过历史战斗的战车。"
+
+msgid "section/technique/emptyScreenLabel/battleType/ranked"
+msgstr "车库中没有参加过排位战的战车"
+
+msgid "section/technique/emptyScreenLabel/battleType/staticTeam"
+msgstr "车库中没有参加过排位战的战车。"
+
+msgid "section/technique/emptyScreenLabel/battleType/team"
+msgstr "没有战车在团队战模式中。"
+
+msgid "section/technique/sort/tooltip/avgDamage/body"
+msgstr "按场均伤害排序。"
+
+msgid "section/technique/sort/tooltip/avgDamage/header"
+msgstr "平均伤害"
+
+msgid "section/technique/sort/tooltip/avgFrags/body"
+msgstr "按一场战斗中击毁的敌方战车数排序。"
+
+msgid "section/technique/sort/tooltip/avgFrags/header"
+msgstr "击毁敌方战车"
+
+msgid "section/technique/sort/tooltip/avgexp/body"
+msgstr "按场均经验获取排序"
+
+msgid "section/technique/sort/tooltip/avgexp/header"
+msgstr "平均经验"
+
+msgid "section/technique/sort/tooltip/battlesCount/body"
+msgstr "按战斗场次排序"
+
+msgid "section/technique/sort/tooltip/battlesCount/header"
+msgstr "战斗"
+
+msgid "section/technique/sort/tooltip/class/body"
+msgstr "按战车类型排序"
+
+msgid "section/technique/sort/tooltip/class/header"
+msgstr "类型"
+
+msgid "section/technique/sort/tooltip/lvl/body"
+msgstr "按战车等级排序"
+
+msgid "section/technique/sort/tooltip/lvl/header"
+msgstr "等级"
+
+msgid "section/technique/sort/tooltip/marksofmastery/body"
+msgstr "按精通徽章排序"
+
+msgid "section/technique/sort/tooltip/marksofmastery/header"
+msgstr "精通级"
+
+msgid "section/technique/sort/tooltip/name/body"
+msgstr "按战车名称排序。"
+
+msgid "section/technique/sort/tooltip/name/header"
+msgstr "战车的名称"
+
+msgid "section/technique/sort/tooltip/nation/body"
+msgstr "按国家排序"
+
+msgid "section/technique/sort/tooltip/nation/header"
+msgstr "国家"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/body"
+msgstr "按精英等级排序"
+
+msgid "section/technique/sort/tooltip/prestigeLevel/header"
+msgstr "精英系统"
+
+msgid "section/technique/sort/tooltip/prestigePoints/body"
+msgstr "按场均威望点数排序"
+
+msgid "section/technique/sort/tooltip/prestigePoints/header"
+msgstr "场均威望点数"
+
+msgid "section/technique/sort/tooltip/technique/body"
+msgstr "按战车类型排序。"
+
+msgid "section/technique/sort/tooltip/technique/header"
+msgstr "类型"
+
+msgid "section/technique/sort/tooltip/winRate/body"
+msgstr "按胜率排序"
+
+msgid "section/technique/sort/tooltip/winRate/header"
+msgstr "胜利"
+
+msgid "section/technique/sort/tooltip/wins/body"
+msgstr "按胜利场次排序"
+
+msgid "section/technique/sort/tooltip/wins/header"
+msgstr "胜利"
+
+msgid "section/technique/statistics/accuracy"
+msgstr "命中次数"
+
+msgid "section/technique/statistics/assistedStunDamage/shortOther"
+msgstr "被该玩家震晕的敌方战车所承受的伤害"
+
+msgid "section/technique/statistics/assistedStunDamage/shortSelf"
+msgstr "被您震晕的敌方战车所承受的伤害"
+
+msgid "section/technique/statistics/avgAssistedStunDamage"
+msgstr "被您震晕的敌方战车所承受的伤害"
+
+msgid "section/technique/statistics/avgDamage"
+msgstr "造成伤害"
+
+msgid "section/technique/statistics/avgDestroyedVehicles"
+msgstr "战车摧毁率"
+
+msgid "section/technique/statistics/avgDetectedEnemies"
+msgstr "战车侦察率"
+
+msgid "section/technique/statistics/avgExperience"
+msgstr "经验"
+
+msgid "section/technique/statistics/avgReceivedDamage"
+msgstr "承受伤害"
+
+msgid "section/technique/statistics/avgScoutingDamage"
+msgstr "由玩家协助造成的伤害"
+
+msgid "section/technique/statistics/avgStats"
+msgstr "场均得分"
+
+msgid "section/technique/statistics/avgStunNumber"
+msgstr "震晕次数"
+
+msgid "section/technique/statistics/common"
+msgstr "整体参数"
+
+msgid "section/technique/statistics/damageCoefficient"
+msgstr "伤害率"
+
+msgid "section/technique/statistics/destructionCoefficient"
+msgstr "摧毁率"
+
+msgid "section/technique/statistics/maxDamage"
+msgstr "单场最高伤害"
+
+msgid "section/technique/statistics/maxDestroyedVehicles"
+msgstr "单场最高战车摧毁数"
+
+msgid "section/technique/statistics/maxExperience"
+msgstr "单场最高经验"
+
+msgid "section/technique/statistics/records"
+msgstr "得分记录"
+
+msgid "section/technique/statistics/stunNumber"
+msgstr "震晕次数"
+
+msgid "section/technique/statistics/survival"
+msgstr "存活场次"
+
+msgid "section/technique/statistics/tankingCoefficient"
+msgstr "装甲利用率"
+
+msgid "section/technique/statistics/totalBattles"
+msgstr "战斗"
+
+msgid "section/technique/statistics/totalWins"
+msgstr "胜利"
+
+msgid "section/technique/tabBtn/achievements"
+msgstr "奖项"
+
+msgid "section/technique/tabBtn/awards/tooltip/body"
+msgstr "查看战车荣誉"
+
+msgid "section/technique/tabBtn/awards/tooltip/header"
+msgstr "奖项"
+
+msgid "section/technique/tabBtn/statistic"
+msgstr "统计"
+
+msgid "section/technique/tabBtn/statistic/tooltip/body"
+msgstr "查看已选择战车统计"
+
+msgid "section/technique/tabBtn/statistic/tooltip/header"
+msgstr "统计"
+
+msgid "section/technique/title"
+msgstr "战车"
+
+msgid "section/technique/window/hangarVehiclesLabel"
+msgstr "车库中"
+
+msgid "tooltip/dropdown/battleType/body"
+msgstr "开启过滤器查看战斗模式统计。"
+
+msgid "tooltip/dropdown/battleType/header"
+msgstr "按战斗模式排序"

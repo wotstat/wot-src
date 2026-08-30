@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "活動開放 %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "%(mode) — 遊戲模式。點擊以探索"
+
+msgid "bannerTooltip/description"
+msgstr "特殊 PvE 模式，讓您與一波又一波敵方勢力交戰。選擇您最愛的車輛，摧毀回聲戰車並抵擋敵方攻勢。專屬獎勵與更多豐富內容等著您！"
+
+msgid "bannerTooltip/header"
+msgstr "背水一戰：北境大地"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "您的電腦效能不足以進行這個模式。您可能遇到畫質及車輛移動的問題。遊戲客戶端也很可能會當掉。"
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "這個模式需要較高的電腦效能。您可能遇到地圖載入、畫質及車輛移動的問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "效能不足"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "效能可能會降低"
+
+msgid "battlePass/playGame"
+msgstr "在「背水一戰」推進活動進度來獲得點數（需要 VIII 階車輛）"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "您們已互加好友。"
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "等待好友請求確認。"
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "從您的黑名單中移除玩家。"
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "加入好友名單。"
+
+msgid "battleResult/interaction/menu"
+msgstr "點擊以開啟與這名玩家的互動選單。"
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "加入裝甲排。"
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "玩家已加入裝甲排。"
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "邀請已送出。"
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "僅有裝甲排指揮官能邀請玩家加入裝甲排。"
+
+msgid "booster/activated"
+msgstr "已啟用"
+
+msgid "booster/howItWorks"
+msgstr "如何運作"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "冷卻時間：%(cooldownSeconds)s 秒"
+
+msgid "consumables/params/usageCost"
+msgstr "所需的迷離物質：%(cost)s"
+
+msgid "daily/timer/body"
+msgstr "完成每日任務的剩餘時間"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "下個每日任務開放前的等待時間"
+
+msgid "dailyQuests/completed"
+msgstr "已完成"
+
+msgid "dailyQuests/completedAll"
+msgstr "您已完成此活動的所有每日任務。"
+
+msgid "dailyQuests/completedDescr"
+msgstr "您已完成此每日任務。全新任務將於明天開放。"
+
+msgid "dailyQuests/rewards"
+msgstr "獎勵："
+
+msgid "dailyQuests/status"
+msgstr "全新每日任務開放於 %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "活動開放 %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "選擇可用車輛以進入戰鬥。"
+
+msgid "hangar/startBtn/lock/header"
+msgstr "無法進入戰鬥"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "由於技術性問題，所選難度/模式的戰鬥暫時無法進行。"
+
+msgid "hangar/startBtn/offline/header"
+msgstr "無法進入戰鬥"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "等待裝甲排從前一場戰鬥返回以進入全新戰鬥。"
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "無法進入戰鬥"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "難度等級與裝甲排不相容。"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "無法進入戰鬥"
+
+msgid "points/accrued"
+msgstr "已獲得"
+
+msgid "points/battles"
+msgstr "• 進行活動戰鬥"
+
+msgid "points/body"
+msgstr "數據可用來在「背水一戰」推進進度並獲取珍貴資源。可透過進行活動戰鬥，完成每日任務，或購買「{{bundle_name}}」來獲取。"
+
+msgid "points/bottom"
+msgstr "活動結束：（%(date)s）"
+
+msgid "points/completeMissionDaily"
+msgstr "• 每天完成新的每日任務"
+
+msgid "points/effective"
+msgstr "• 戰鬥表現："
+
+msgid "points/gold"
+msgstr "• 在商店中購買「{{bundle_name}}」"
+
+msgid "points/header"
+msgstr "數據"
+
+msgid "points/howToEarn"
+msgstr "如何獲得"
+
+msgid "points/missionDaily"
+msgstr "• 每日任務已完成："
+
+msgid "points/obelisk"
+msgstr "• 摧毀的方尖體："
+
+msgid "points/vehicleDaily"
+msgstr "• 獲得的每日車輛獎勵："
+
+msgid "rewardPath/info/first"
+msgstr "您可透過完成每日任務來獲得更多數據，這些任務會在整個活動期間每日更新。"
+
+msgid "rewardPath/info/header"
+msgstr "額外數據"
+
+msgid "rewardPath/info/second"
+msgstr "商店中的特殊組合包中也有數據，能助您加快進度。"
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "車輛加成："
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "其他獎勵："
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}車輛加成{EDCB9E_End} — {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "所有數據與獎勵已獲得"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "數據已獲得 {{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "在戰鬥中收集數據並用來在「背水一戰」推進進度。完成每個階段都能獲取珍貴物品與車輛加成作為獎勵，來助您擊敗更強大的敵人。"
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "最終階段"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "當前階段"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "活動開放 {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "進度"
+
+msgid "shopWidget/body"
+msgstr "點擊以打開遊戲內商店的特殊區塊，內有活動專屬物品。"
+
+msgid "shopWidget/header"
+msgstr "活動組合包"
+
+msgid "teamList/actions/body"
+msgstr "建立裝甲排與新增/移除好友的快捷操作。"
+
+msgid "teamList/actions/header"
+msgstr "快捷操作"
+
+msgid "teamList/damage/body"
+msgstr "按照造成的傷害來排序。"
+
+msgid "teamList/damage/header"
+msgstr "造成的傷害"
+
+msgid "teamList/keys/body"
+msgstr "按照獲得的數據量來排序。顯示的數值未計入完成每日任務或從每日車輛獎勵獲取的額外數據。"
+
+msgid "teamList/keys/header"
+msgstr "數據"
+
+msgid "teamList/kills/body"
+msgstr "按照摧毀敵方車輛數來排序。"
+
+msgid "teamList/kills/header"
+msgstr "摧毀敵方車輛數"
+
+msgid "teamList/name/header"
+msgstr "玩家名稱"
+
+msgid "teamList/place/body"
+msgstr "按照在隊伍中的排名來排序。"
+
+msgid "teamList/place/header"
+msgstr "在隊伍中的排名"
+
+msgid "teamList/squad/header"
+msgstr "裝甲排為讓玩家在戰鬥中合作而組成的戰術單位。"
+
+msgid "teamList/vehicle/body"
+msgstr "按照車輛類型與名稱來排序。"
+
+msgid "teamList/vehicle/header"
+msgstr "車輛"
+
+msgid "teamList/warned/body"
+msgstr "此玩家已因掛機/擅離職守遭懲罰，未從該場戰鬥獲得任何獎勵。"
+
+msgid "teamList/warned/header"
+msgstr "警告"
+
+msgid "teamList/warned/self/body"
+msgstr "您已因掛機/擅離職守遭懲罰，未從該場戰鬥獲得任何獎勵。"
+
+msgid "vehicle/lowEfficiency"
+msgstr "效率低"
+
+msgid "vehicle/rentState"
+msgstr "已鎖定"
+
+msgid "vehicleDaily/header"
+msgstr "每日車輛獎勵"

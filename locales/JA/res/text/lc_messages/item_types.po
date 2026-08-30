@@ -1,0 +1,449 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT 翻訳者 <noreply@wargaming.net>\nLanguage-Team: WoT チーム <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ammoBay/name"
+msgstr "弾薬庫"
+
+msgid "battleAbility/name"
+msgstr "戦闘リザーブ"
+
+msgid "battleBooster/name"
+msgstr "ディレクティブ"
+
+msgid "chassis/desc"
+msgstr "?empty?"
+
+msgid "chassis/name"
+msgstr "サスペンション"
+
+msgid "chassis/tags"
+msgstr "?empty?"
+
+msgid "crewSkins/itemType/common"
+msgstr "共通搭乗員スキン"
+
+msgid "crewSkins/itemType/epic"
+msgstr "固有搭乗員スキン"
+
+msgid "crewSkins/itemType/rare"
+msgstr "レア搭乗員スキン"
+
+msgid "customization/attachment"
+msgstr "3D付属品"
+
+msgid "customization/attachment/rarity"
+msgstr "%(rarity)s 3D付属品"
+
+msgid "customization/camouflage"
+msgstr "迷彩"
+
+msgid "customization/decal"
+msgstr "デカール"
+
+msgid "customization/emblem"
+msgstr "徽章"
+
+msgid "customization/inscription"
+msgstr "銘刻"
+
+msgid "customization/modification"
+msgstr "エフェクト"
+
+msgid "customization/outfit"
+msgstr "?empty?"
+
+msgid "customization/paint"
+msgstr "ペイント"
+
+msgid "customization/personalNumber_1"
+msgstr "1 桁の数値"
+
+msgid "customization/personalNumber_2"
+msgstr "2 桁の数値"
+
+msgid "customization/personalNumber_3"
+msgstr "3 桁の数値"
+
+msgid "customization/plural/attachment"
+msgstr "3D付属品"
+
+msgid "customization/plural/camouflage"
+msgstr "迷彩"
+
+msgid "customization/plural/customStyle"
+msgstr "2Dスタイル"
+
+msgid "customization/plural/decal"
+msgstr "デカール"
+
+msgid "customization/plural/emblem"
+msgstr "徽章"
+
+msgid "customization/plural/inscription"
+msgstr "銘刻"
+
+msgid "customization/plural/modification"
+msgstr "エフェクト"
+
+msgid "customization/plural/outfit"
+msgstr "?empty?"
+
+msgid "customization/plural/paint"
+msgstr "ペイント"
+
+msgid "customization/plural/personalNumber"
+msgstr "3 桁の数値"
+
+msgid "customization/plural/projectionDecal"
+msgstr "デカール"
+
+msgid "customization/plural/statTracker"
+msgstr "戦績カウンター"
+
+msgid "customization/plural/uncustomStyle"
+msgstr "3Dスタイル"
+
+msgid "customization/projectionDecal"
+msgstr "デカール"
+
+msgid "customization/statTracker"
+msgstr "戦績カウンター"
+
+msgid "customization/style"
+msgstr "スタイル"
+
+msgid "dualGun/name"
+msgstr "2連装砲"
+
+msgid "engine/desc"
+msgstr "?empty?"
+
+msgid "engine/name"
+msgstr "エンジン"
+
+msgid "engine/tags"
+msgstr "?empty?"
+
+msgid "equipment/desc"
+msgstr "?empty?"
+
+msgid "equipment/name"
+msgstr "消耗品"
+
+msgid "equipment/tags"
+msgstr "?empty?"
+
+msgid "fuelTank/name"
+msgstr "燃料タンク"
+
+msgid "fuel_tank/desc"
+msgstr "?empty?"
+
+msgid "fuel_tank/name"
+msgstr "燃料タンク"
+
+msgid "fuel_tank/tags"
+msgstr "?empty?"
+
+msgid "gun/desc"
+msgstr "?empty?"
+
+msgid "gun/name"
+msgstr "主砲"
+
+msgid "gun/tags"
+msgstr "?empty?"
+
+msgid "marker/igr"
+msgstr "PC방 %(vehName)s"
+
+msgid "optionalDevice/desc"
+msgstr "?empty?"
+
+msgid "optionalDevice/name"
+msgstr "拡張パーツ"
+
+msgid "optionalDevice/tags"
+msgstr "?empty?"
+
+msgid "radio/desc"
+msgstr "?empty?"
+
+msgid "radio/name"
+msgstr "無線機"
+
+msgid "radio/tags"
+msgstr "?empty?"
+
+msgid "shell/dimension/inch"
+msgstr "\""
+
+msgid "shell/dimension/mm"
+msgstr "mm"
+
+msgid "shell/dimension/sm"
+msgstr "cm"
+
+msgid "shell/kinds/ARMOR_PIERCING"
+msgstr "徹甲弾"
+
+msgid "shell/kinds/ARMOR_PIERCING_CR"
+msgstr "硬芯徹甲弾"
+
+msgid "shell/kinds/ARMOR_PIERCING_HE"
+msgstr "徹甲榴弾"
+
+msgid "shell/kinds/HIGH_EXPLOSIVE"
+msgstr "榴弾"
+
+msgid "shell/kinds/HOLLOW_CHARGE"
+msgstr "対戦車榴弾"
+
+msgid "shell/kinds/upperCase/ARMOR_PIERCING"
+msgstr "徹甲弾 (AP)"
+
+msgid "shell/kinds/upperCase/ARMOR_PIERCING_CR"
+msgstr "硬芯徹甲弾 (APCR)"
+
+msgid "shell/kinds/upperCase/ARMOR_PIERCING_HE"
+msgstr "徹甲榴弾 (APHE)"
+
+msgid "shell/kinds/upperCase/HIGH_EXPLOSIVE"
+msgstr "榴弾 (HE)"
+
+msgid "shell/kinds/upperCase/HOLLOW_CHARGE"
+msgstr "対戦車榴弾 (HEAT)"
+
+msgid "shell/kindsAbbreviation/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "shell/kindsAbbreviation/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "shell/kindsAbbreviation/ARMOR_PIERCING_HE"
+msgstr "APHE"
+
+msgid "shell/kindsAbbreviation/HIGH_EXPLOSIVE"
+msgstr "HE"
+
+msgid "shell/kindsAbbreviation/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "shell/name"
+msgstr "%(caliber)s%(dimension)s %(kind)s %(name)s"
+
+msgid "shot/desc"
+msgstr "?empty?"
+
+msgid "shot/name"
+msgstr "砲弾"
+
+msgid "shot/tags"
+msgstr "?empty?"
+
+msgid "surveyingDevice/name"
+msgstr "観測装置"
+
+msgid "tankman/Skill_not_be_used"
+msgstr "以下のパークは搭乗する車輌を変更すると効果を発揮しなくなる可能性があります。"
+
+msgid "tankman/gender/man"
+msgstr "男性"
+
+msgid "tankman/gender/woman"
+msgstr "女性"
+
+msgid "tankman/roles/commander"
+msgstr "車長"
+
+msgid "tankman/roles/driver"
+msgstr "操縦手"
+
+msgid "tankman/roles/female/commander"
+msgstr "車長"
+
+msgid "tankman/roles/female/driver"
+msgstr "操縦手"
+
+msgid "tankman/roles/female/gunner"
+msgstr "砲手"
+
+msgid "tankman/roles/female/loader"
+msgstr "装填手"
+
+msgid "tankman/roles/female/objectiveCase/commander"
+msgstr "車長"
+
+msgid "tankman/roles/female/objectiveCase/driver"
+msgstr "操縦手"
+
+msgid "tankman/roles/female/objectiveCase/gunner"
+msgstr "砲手"
+
+msgid "tankman/roles/female/objectiveCase/loader"
+msgstr "装填手"
+
+msgid "tankman/roles/female/objectiveCase/radioman"
+msgstr "無線手"
+
+msgid "tankman/roles/female/objectiveCase/upperCase/commander"
+msgstr "車長"
+
+msgid "tankman/roles/female/objectiveCase/upperCase/driver"
+msgstr "操縦手"
+
+msgid "tankman/roles/female/objectiveCase/upperCase/gunner"
+msgstr "砲手"
+
+msgid "tankman/roles/female/objectiveCase/upperCase/loader"
+msgstr "装填手"
+
+msgid "tankman/roles/female/objectiveCase/upperCase/radioman"
+msgstr "無線手"
+
+msgid "tankman/roles/female/possessiveCase/commander"
+msgstr "車長のパーク"
+
+msgid "tankman/roles/female/possessiveCase/driver"
+msgstr "操縦手のパーク"
+
+msgid "tankman/roles/female/possessiveCase/gunner"
+msgstr "砲手のパーク"
+
+msgid "tankman/roles/female/possessiveCase/loader"
+msgstr "装填手のパーク"
+
+msgid "tankman/roles/female/possessiveCase/radioman"
+msgstr "無線手のパーク"
+
+msgid "tankman/roles/female/radioman"
+msgstr "無線手"
+
+msgid "tankman/roles/gunner"
+msgstr "砲手"
+
+msgid "tankman/roles/loader"
+msgstr "装填手"
+
+msgid "tankman/roles/objectiveCase/commander"
+msgstr "車長"
+
+msgid "tankman/roles/objectiveCase/driver"
+msgstr "操縦手"
+
+msgid "tankman/roles/objectiveCase/gunner"
+msgstr "砲手"
+
+msgid "tankman/roles/objectiveCase/loader"
+msgstr "装填手"
+
+msgid "tankman/roles/objectiveCase/radioman"
+msgstr "無線手"
+
+msgid "tankman/roles/objectiveCase/upperCase/commander"
+msgstr "車長"
+
+msgid "tankman/roles/objectiveCase/upperCase/driver"
+msgstr "操縦手"
+
+msgid "tankman/roles/objectiveCase/upperCase/gunner"
+msgstr "砲手"
+
+msgid "tankman/roles/objectiveCase/upperCase/loader"
+msgstr "装填手"
+
+msgid "tankman/roles/objectiveCase/upperCase/radioman"
+msgstr "無線手"
+
+msgid "tankman/roles/possessiveCase/commander"
+msgstr "車長のパーク"
+
+msgid "tankman/roles/possessiveCase/driver"
+msgstr "操縦手のパーク"
+
+msgid "tankman/roles/possessiveCase/gunner"
+msgstr "砲手のパーク"
+
+msgid "tankman/roles/possessiveCase/loader"
+msgstr "装填手のパーク"
+
+msgid "tankman/roles/possessiveCase/radioman"
+msgstr "無線手のパーク"
+
+msgid "tankman/roles/radioman"
+msgstr "無線手"
+
+msgid "tankman/skills/main"
+msgstr "基本パーク"
+
+msgid "tankman/skills/type/perk"
+msgstr "パーク (100%習得しないと効果を発揮しない)"
+
+msgid "tankman/skills/type/perk_common"
+msgstr "パーク (全搭乗員が100%習得しない限り<br/>効果を発揮しない)"
+
+msgid "tankman/skills/type/perk_short"
+msgstr "パーク"
+
+msgid "tankman/skills/type/skill"
+msgstr "パーク。習得後ただちに効果を発揮し<br/>訓練レベルの向上に伴って強化される。"
+
+msgid "tankman/skills/type/skill_short"
+msgstr "パーク"
+
+msgid "track/name"
+msgstr "履帯"
+
+msgid "turret/desc"
+msgstr "?empty?"
+
+msgid "turret/name"
+msgstr "砲塔"
+
+msgid "turret/tags"
+msgstr "?empty?"
+
+msgid "turretRotator/name"
+msgstr "砲塔"
+
+msgid "twinGun/name"
+msgstr "切り替え可能な砲撃モード・システム"
+
+msgid "vehicle/desc"
+msgstr "?empty?"
+
+msgid "vehicle/name"
+msgstr "車輌"
+
+msgid "vehicle/tags/at-spg/desc"
+msgstr "?empty?"
+
+msgid "vehicle/tags/at-spg/name"
+msgstr "駆逐戦車"
+
+msgid "vehicle/tags/heavy_tank/desc"
+msgstr "?empty?"
+
+msgid "vehicle/tags/heavy_tank/name"
+msgstr "重戦車"
+
+msgid "vehicle/tags/light_tank/desc"
+msgstr "?empty?"
+
+msgid "vehicle/tags/light_tank/name"
+msgstr "軽戦車"
+
+msgid "vehicle/tags/medium_tank/desc"
+msgstr "?empty?"
+
+msgid "vehicle/tags/medium_tank/name"
+msgstr "中戦車"
+
+msgid "vehicle/tags/spg/desc"
+msgstr "?empty?"
+
+msgid "vehicle/tags/spg/name"
+msgstr "自走砲"
+
+msgid "wheel/name"
+msgstr "サスペンション"

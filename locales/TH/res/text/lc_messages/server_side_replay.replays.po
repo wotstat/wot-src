@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "closeButtonLabel"
+msgstr "ปิด"
+
+msgid "featureName"
+msgstr "บันทึกย้อนหลัง"
+
+msgid "filter/apply"
+msgstr "ใช้งานตัวกรอง"
+
+msgid "filter/group/nation/title"
+msgstr "ประเทศ"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "ระดับ"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "ระดับ"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "ความเชี่ยวชาญพิเศษ"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "ชนิดพาหนะ"
+
+msgid "filter/reset"
+msgstr "ตั้งค่าตัวกรองใหม่"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "แสดง/ซ่อนสมาชิกพลรถถังของประเทศนี้"
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "แสดง/ซ่อนลายของประเทศนี้"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "แสดง/ซ่อนพาหนะของประเทศนี้"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "แสดง/ซ่อนพาหนะของชนิดนี้"
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "ปืนใหญ่อัตตาจร"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "รถถังเบา"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "ไม่พบพาหนะที่ตรงตาม\nข้อกำหนดการค้นหา"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "เรียงตามชื่อพาหนะ"
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "ชื่อ"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "เรียงตามระดับพาหนะ"
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "ระดับ"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "เรียงตามชนิดพาหนะ"
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "ชนิด"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "ชื่อ"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "คลิกเพื่อใช้การตั้งค่าตัวกรอง"
+
+msgid "filterPanel/counter/apply/header"
+msgstr "ใช้งานตัวกรองที่เลือกเอาไว้"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "คลิกเพื่อปรับการตั้งค่าตัวกรองใหม่"
+
+msgid "filterPanel/counter/reset/header"
+msgstr "ปรับตัวกรองทั้งหมด"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "แสดงเฉพาะบันทึกย้อนหลังเวลารบหลัก"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "%(count)s วันที่ผ่านมา"
+msgstr[1] "%(count)s วันที่ผ่านมา"
+msgstr[2] "%(count)s วันที่ผ่านมา"
+
+msgid "filterPopover/title"
+msgstr "ตัวกรองบันทึกย้อนหลัง"
+
+msgid "filterPopover/tooltip/body"
+msgstr "ปรับแก้ตัวกรองบันทึกย้อนหลังตามชนิดพาหนะ, ระดับ, ประเทศและอื่นๆ"
+
+msgid "filterPopover/tooltip/header"
+msgstr "กรองตามค่า"
+
+msgid "findReplay/buttonText/find"
+msgstr "ค้นหาบันทึกย้อนหลัง"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "ล้างข้อมูล"
+
+msgid "findReplay/buttonText/watch"
+msgstr "ชมบันทึกย้อนหลัง!"
+
+msgid "findReplay/errorMessage"
+msgstr "ไม่พบ โปรดเปลี่ยนคำขอของคุณ"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "โปรดกรอก ARENA_ID ที่นี่..."
+
+msgid "findReplay/successMessage"
+msgstr "ปัญญาประดิษฐ์พบบันทึกย้อนหลังที่คุณสนใจ! ขอให้สนุกกับการชม"
+
+msgid "page/heading/bestReplays"
+msgstr "บันทึกย้อนหลังที่ดีที่สุด"
+
+msgid "page/heading/findReplay"
+msgstr "ค้นหาบันทึกย้อนหลัง (สำหรับผู้พัฒนา)"
+
+msgid "page/heading/myReplays"
+msgstr "บันทึกย้อนหลังของฉัน"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "ส่วนนี้มีข้อมูลเกี่ยวกับบันทึกย้อนหลังที่ดีที่สุดจากผู้เล่น WoT ทั้งหมด"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "ส่วนนี้มีไว้สำหรับการค้นหาบันทึกย้อนหลังตามค่าบางอย่าง"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "ส่วนนี้มีข้อมูลเกี่ยวกับบันทึกย้อนหลังที่ดีที่สุดของคุณ"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "บันทึกย้อนหลังที่ดีที่สุด"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "ค้นหาบันทึกย้อนหลัง"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "บันทึกย้อนหลังของฉัน"
+
+msgid "statsParam/damageAssisted"
+msgstr "อันดับ 1 ในการช่วยทำลาย"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "อันดับ 1 ในการกันความเสียหาย"
+
+msgid "statsParam/damageDealt"
+msgstr "อันดับ 1 ในการทำความเสียหาย"
+
+msgid "statsParam/earnedXp"
+msgstr "อันดับ 1 ในการได้รับประสบการณ์"
+
+msgid "statsParam/kills"
+msgstr "อันดับ 1 ในการทำลายพาหนะ"
+
+msgid "table/error/buttonText"
+msgstr "ปรับ"
+
+msgid "table/error/description"
+msgstr "ทางเราต้องขออภัยในความไม่สะดวกเป็นการชั่วคราว โปรดลองปรับหน้าดังกล่าวภายหลัง"
+
+msgid "table/error/title"
+msgstr "เกิดข้อผิดพลาดในการโหลดข้อมูล"
+
+msgid "table/header/damageAssisted"
+msgstr "ช่วยเหลือ"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "ความเสียหายที่กันได้"
+
+msgid "table/header/damageDealt"
+msgstr "ความเสียหาย"
+
+msgid "table/header/date"
+msgstr "วันที่"
+
+msgid "table/header/earnedXp"
+msgstr "ประสบการณ์ที่ได้รับ"
+
+msgid "table/header/kills"
+msgstr "จำนวนพาหนะที่ทำลายได้"
+
+msgid "table/header/map"
+msgstr "แผนที่"
+
+msgid "table/header/marksOfMastery"
+msgstr "เครื่องหมายความเชี่ยวชาญ"
+
+msgid "table/header/player"
+msgstr "ชื่อผู้เล่น"
+
+msgid "table/header/vehicle"
+msgstr "พาหนะ"
+
+msgid "table/noRecords/buttonText"
+msgstr "ตั้งค่าตัวกรองใหม่"
+
+msgid "table/noRecords/title"
+msgstr "ไม่พบ โปรดเปลี่ยนการตั้งค่าหรือตั้งค่าตัวกรองใหม่"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "คลิกเพื่อปรับการตั้งค่าตัวกรองใหม่"
+
+msgid "table/noRecords/tooltip/header"
+msgstr "ปรับตัวกรองทั้งหมด"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "จำนวนความเสียหายช่วยทำของผู้เล่นในบันทึกย้อนหลังนี้"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "ความเสียหายที่ช่วยทำ"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "จำนวนความเสียหายที่กันได้ของผู้เล่นในบันทึกย้อนหลังนี้"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "ความเสียหายที่เกราะกันได้"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "จำนวนความเสียหายที่ทำได้ของผู้เล่นในบันทึกย้อนหลังนี้"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "ความเสียหายที่ทำได้"
+
+msgid "table/tooltip/date/body"
+msgstr "วันที่ทำการบันทึกย้อนหลัง"
+
+msgid "table/tooltip/date/header"
+msgstr "วันบันทึกย้อนหลัง"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "จำนวนประสบการณ์ที่ได้รับของผู้เล่นในบันทึกย้อนหลังนี้"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "ประสบการณ์ที่ได้รับ"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "เหรียญมหากาพย์ที่ผู้เล่นได้รับในบันทึกย้อนหลังนี้"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "เหรียญมหากาพย์"
+
+msgid "table/tooltip/favorite/body"
+msgstr "คลิกเพื่อเพิ่มบันทึกย้อนหลังนี้เข้าบันทึกย้อนหลังอันโปรด"
+
+msgid "table/tooltip/favorite/header"
+msgstr "อันโปรด"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "คลิกเพื่อลบบันทึกย้อนหลังนี้จากบันทึกย้อนหลังอันโปรด"
+
+msgid "table/tooltip/kills/body"
+msgstr "จำนวนพาหนะที่ถูกทำลายโดยผู้เล่นในบันทึกย้อนหลังนี้"
+
+msgid "table/tooltip/kills/header"
+msgstr "การทำลาย"
+
+msgid "table/tooltip/map/body"
+msgstr "แผนที่ของบันทึกย้อนหลัง"
+
+msgid "table/tooltip/map/header"
+msgstr "แผนที่"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "เครื่องหมายความเชี่ยวชาญที่ผู้เล่นได้รับในบันทึกย้อนหลังนี้"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "เครื่องหมายความเชี่ยวชาญ"
+
+msgid "table/tooltip/player/body"
+msgstr "ชื่อของผู้เล่นจากบันทึกย้อนหลัง"
+
+msgid "table/tooltip/player/header"
+msgstr "ชื่อผู้เล่น"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "พาหนะของผู้เล่นในการบันทึกย้อนหลัง"
+
+msgid "table/tooltip/vehicle/header"
+msgstr "พาหนะ"
+
+msgid "tableInfo/amount"
+msgstr "บันทึกย้อนหลังที่แสดง: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "ตัวกรอง"
+
+msgid "waitingSpinner/message"
+msgstr "กำลังเริ่ม..."

@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "휴전 {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} ~ {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "이벤트 이용 가능 기간"
+
+msgid "bannerTooltip/description"
+msgstr "노르망디, 발전소, 신기루 지도에서 진행되며 {{vehicleTier}}단계 전차로 참여하는 30 대 30 대규모 전투입니다. 공격팀은 대형 포대 5개 중 3개 이상 파괴해야 하며 방어팀은 대형 포대를 보호해야 합니다."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "치열한 전투에 참여하여 실력을 증명하고 계급을 올려 값진 보상을 획득해 보십시오."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "이벤트가 종료되었습니다. 수령하지 않은 전선 대격돌 단계 완료 보상이 있습니다."
+
+msgid "bannerTooltip/header"
+msgstr "전선 대격돌"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "전선 대격돌 | {{curLevel}}단계 {{@ class $maxTierClass}}/ {{maxLevel}}단계{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} — 게임 모드 확인"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "고사양 컴퓨터가 필요한 모드입니다. 지도 불러오기 시간 지연, 그래픽 왜곡, 전차 이동 문제 등을 경험할 수도 있습니다. 사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "고사양 모드"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "단계 완료 보상({{value}}개)을 선택하십시오."
+
+msgid "battleAbilities/button/notEnough"
+msgstr "구매에 필요한 자금이 부족합니다."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "변경 사항이 모든 구축전차에 적용됩니다."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "변경 사항이 모든 자주포에 적용됩니다."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "변경 사항이 모든 중전차에 적용됩니다."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "변경 사항이 모든 경전차에 적용됩니다."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "변경 사항이 모든 중형전차에 적용됩니다."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "유효하지 않은 전차"
+
+msgid "battleAbilities/points/body"
+msgstr "점수를 수집하여 전선 대격돌 전시 물자를 활성화하십시오."
+
+msgid "battleAbilities/points/header"
+msgstr "보급 점수"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "공격 물자 표시"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "공격 물자"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "정찰 물자 표시"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "정찰 물자"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "전술 물자 표시"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "전술 물자"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "전투 중 대위 및 소령 계급을 달성하면 각각 전시 물자 레벨이 상승합니다. 최고 레벨은 전투 시나리오에 따라 달라집니다."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "추가 정보"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "공격 물자"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "정찰 물자"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "전술 물자"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "고정 성능"
+
+msgid "battleAbilityTooltip/description"
+msgstr "{{@ colorLegacy 'FFE4C0'}}운명의 장난{{/}} 시나리오에서는 전투에 참여하기 전에 해당 슬롯에 전시 물자를 추가하면 해당 물자가 등장할 확률이 {{@ colorLegacy 'FFE4C0'}}10%{{/}} 증가합니다."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "물자 레벨"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "미구매"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "이벤트가 종료되었습니다."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "이벤트 곧 시작!"
+
+msgid "infoButton/body"
+msgstr "추가 정보 확인"
+
+msgid "infoButton/header"
+msgstr "이벤트 정보"
+
+msgid "levelReserves/desc"
+msgstr "새로운 계급 달성 시 전시 물자 레벨이 상승합니다."
+
+msgid "levelReserves/info"
+msgstr "{{@ colorLegacy 'FFE4C0'}}운명의 장난{{/}} 시나리오에서는 전시 물자를 구매해 두면 물자 레벨이 1 오르므로 물자를 레벨 {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}까지 강화할 수 있습니다."
+
+msgid "levelReserves/level"
+msgstr "다음 계급 달성 시 강화: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "다음 계급부터 사용 가능: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "레벨 - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "{{@ colorLegacy 'FFE4C0'}}운명의 장난{{/}} 시나리오에서 {{@ colorLegacy 'FFE4C0'}}구매해 둔 전시 물자{{/}}만 도달 가능"
+
+msgid "levelReserves/title"
+msgstr "전시 물자 레벨"
+
+msgid "playlist/warning/body"
+msgstr "해당 선별 전차 목록에는 게임 모드에 적합하지 않거나 차고에 없는 전차가 포함되어 있습니다."
+
+msgid "playlist/warning/header"
+msgstr "이용 불가 전차 (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "전시 물자 성능 강화 완료"
+
+msgid "randomReserve/disable"
+msgstr "전시 물자 슬롯이 사용되었습니다."
+
+msgid "randomReserve/notPurchased"
+msgstr "전시 물자 미구매"
+
+msgid "randomReserve/purchased"
+msgstr "전시 물자 구매 완료"
+
+msgid "skillOrderTooltip/body"
+msgstr "전시 물자 해제 순서는 전차 유형에 따라 달라집니다."
+
+msgid "skillOrderTooltip/header"
+msgstr "전시 물자 해제 순서"
+
+msgid "skillOrderTooltip/info"
+msgstr "{{@ colorLegacy 'whiteSpanish'}}운명의 장난{{/}} 시나리오에서는 전차 유형이 물자 해제 순서에 영향을 미치지 않습니다."

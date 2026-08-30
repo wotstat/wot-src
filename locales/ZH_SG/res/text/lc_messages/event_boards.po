@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT团队 <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "坦克歼击车奖励"
+
+msgid "awards/class/SPG"
+msgstr "自行火炮奖励"
+
+msgid "awards/class/heavyTank"
+msgstr "重型坦克奖励"
+
+msgid "awards/class/lightTank"
+msgstr "轻型坦克奖励"
+
+msgid "awards/class/mediumTank"
+msgstr "中型坦克奖励"
+
+msgid "awards/level"
+msgstr "%(level)s级战车奖励"
+
+msgid "awards/nation/china"
+msgstr "中国战车奖励"
+
+msgid "awards/nation/czech"
+msgstr "捷克斯洛伐克战车奖励"
+
+msgid "awards/nation/france"
+msgstr "法国战车奖励"
+
+msgid "awards/nation/germany"
+msgstr "德国战车奖励"
+
+msgid "awards/nation/japan"
+msgstr "日本战车奖励"
+
+msgid "awards/nation/poland"
+msgstr "波兰战车奖励"
+
+msgid "awards/nation/sweden"
+msgstr "瑞典战车奖励"
+
+msgid "awards/nation/uk"
+msgstr "英国战车奖励"
+
+msgid "awards/nation/usa"
+msgstr "美国战车奖励"
+
+msgid "awards/nation/ussr"
+msgstr "苏联战车奖励"
+
+msgid "awards/tooltip/class"
+msgstr "点击显示此种类型战车的奖励"
+
+msgid "awards/tooltip/level"
+msgstr "点击显示此等级战车的奖励"
+
+msgid "awards/tooltip/nation"
+msgstr "点击显示此国家战车的奖励"
+
+msgid "awards/vehicle"
+msgstr "所选战车奖励"
+
+msgid "badge/tooltip/description"
+msgstr "徽章会作为独特的标志，在战斗中显示在您的昵称旁边。勋章会同时向敌我两队的所有玩家展示，突出您在国家大阅兵活动中的杰出表现。"
+
+msgid "badgesGroup/tooltip/header"
+msgstr "纪念徽章"
+
+msgid "block/award"
+msgstr "主要奖励"
+
+msgid "block/objective"
+msgstr "条件"
+
+msgid "block/task"
+msgstr "您的任务"
+
+msgid "button/awards"
+msgstr "所有奖励"
+
+msgid "button/awards/tooltip"
+msgstr "点击显示竞赛所有奖励列表"
+
+msgid "button/regulations"
+msgstr "要求"
+
+msgid "button/regulations/tooltip"
+msgstr "点击显示竞赛完整描述"
+
+msgid "condition/battletype/random"
+msgstr "随机战15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "排位战"
+
+msgid "condition/battletype/squadallowed"
+msgstr "允许的小队"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "不允许的小队"
+
+msgid "condition/primetime/any"
+msgstr "任意服务器和时间"
+
+msgid "condition/primetime/chosen"
+msgstr "只在特定服务器上"
+
+msgid "condition/vehicle/chosen"
+msgstr "仅指定战车："
+
+msgid "condition/vehicle/exist"
+msgstr "车库已拥有"
+
+msgid "condition/vehicle/missing"
+msgstr "车库未拥有"
+
+msgid "condition/vehicle/single"
+msgstr "在%(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "荣誉"
+
+msgid "excel/btnClose"
+msgstr "到竞赛"
+
+msgid "excel/group/title"
+msgstr "小组"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "要获得评级排名，还需要战斗：%(number)s场"
+
+msgid "excel/noData"
+msgstr "还未到达获奖名次。"
+
+msgid "excel/participate/join"
+msgstr "参战"
+
+msgid "excel/participate/notParticipated"
+msgstr "你不在此评级内"
+
+msgid "excel/subHeader"
+msgstr "竞赛:%(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "加入"
+
+msgid "header/participate/button/leave"
+msgstr "退出竞赛"
+
+msgid "header/participate/finished"
+msgstr "竞赛已结束"
+
+msgid "header/participate/notStarted"
+msgstr "您已加入"
+
+msgid "header/participate/reason/byAge"
+msgstr "账号创建于%date%后"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "竞赛未开放"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "您已退出此竞赛"
+
+msgid "header/participate/started"
+msgstr "您正参加"
+
+msgid "header/timer"
+msgstr "结束于:"
+
+msgid "maintenance/body"
+msgstr "我们对给您造成的不便深表歉意。"
+
+msgid "maintenance/title"
+msgstr "加载数据出错"
+
+msgid "maintenance/update"
+msgstr "更新"
+
+msgid "notification/buttons/details"
+msgstr "详情"
+
+msgid "notification/eventFinished/body"
+msgstr "竞赛%(eventName)s已结束。将在几天内确定优胜者，然后他们会获得应得的奖品。"
+
+msgid "notification/eventFinished/header"
+msgstr "竞赛已结束"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "您现在的战绩将被统计在竞赛内，您可以获得评级名次和奖励。"
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "您已经作为参与者加入"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "竞赛开始后您的战绩将被纳入统计，从而让您能够获得评级名次和奖励。"
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "您已经作为参与者加入"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "不能作为参与者加入:未满足要求。"
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "不能作为参与者加入:报名期限已过。"
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "您在竞赛中的统计数据将在评级更新后重置。"
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "您已退出竞赛"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "您的统计数据将不会统计在此竞赛内。"
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "您已退出竞赛"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "不能退出竞赛:分配时间已过。"
+
+msgid "notification/eventStarted/body"
+msgstr "竞赛%(eventName)s已经开始了！取得获奖名次的玩家将在竞赛结束后获得丰厚的奖品。"
+
+msgid "notification/eventStarted/header"
+msgstr "竞赛已开始"
+
+msgid "notification/unknownError/body"
+msgstr "无法完成行动。"
+
+msgid "orders/title"
+msgstr "要求"
+
+msgid "popover/buttons/cancel"
+msgstr "取消"
+
+msgid "popover/buttons/rating"
+msgstr "进入评级"
+
+msgid "popover/buttons/select"
+msgstr "选择"
+
+msgid "popover/noVehicles"
+msgstr "没有匹配筛选条件的战车"
+
+msgid "popover/resetFilter"
+msgstr "重置过滤器"
+
+msgid "popover/title"
+msgstr "评级列表"
+
+msgid "popover/title/vehicle"
+msgstr "评级列表"
+
+msgid "popover/tooltip/class"
+msgstr "进入所选类型战车的评级界面"
+
+msgid "popover/tooltip/level"
+msgstr "进入所选等级战车的评级界面"
+
+msgid "popover/tooltip/nation"
+msgstr "进入所选国家战车的评级界面"
+
+msgid "server/list"
+msgstr "想要使您的战绩统计在竞赛内,请转移至以下服务器:"
+
+msgid "server/noSuitable/body"
+msgstr "战斗结果将于下次计入: %(data)s。竞赛时间表"
+
+msgid "server/noSuitable/header"
+msgstr "战绩本次没有统计在竞赛内"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s在%(server)s"
+
+msgid "status/bestResults/many"
+msgstr "我的最佳成绩"
+
+msgid "status/bestResults/one"
+msgstr "我的成绩"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "竞赛未开放:"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "由于违反游戏规则，您不能参与这次竞赛。"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "账号在%(date)s后创建"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "您还没有完成要求场次的随机战模式战斗:%(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "您的在随机战模式中的胜率超过%(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "您还没有在以上随机战模式中达到胜率:%(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "报名期限已结束"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "您不能作为参赛者加入此竞赛。"
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "您已退出此竞赛"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "您的战绩不再统计在竞赛内。您将不能获得名次和奖励。\n您不能再次进入竞赛。"
+
+msgid "status/cantJoin/reason/many"
+msgstr "未满足要求%(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "未满足的要求(%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "您未获得评级名次"
+
+msgid "status/cantJoin/reason/special"
+msgstr "您不能使用此账号参赛"
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "没有合适的战车"
+
+msgid "status/participate/cantJoin"
+msgstr "竞赛未开放"
+
+msgid "status/participate/needMoreBattles"
+msgstr "在战斗中符合指定要求，您的成绩将在评级更新后显示在这里。"
+
+msgid "status/participate/notParticipated"
+msgstr "你不在此评级内"
+
+msgid "summary/averagedamage"
+msgstr "平均伤害"
+
+msgid "summary/averagedamageassisted"
+msgstr "由您协助造成的平均伤害"
+
+msgid "summary/averagexp"
+msgstr "平均经验"
+
+msgid "summary/battles"
+msgstr "竞赛中的战斗"
+
+msgid "summary/damage"
+msgstr "伤害"
+
+msgid "summary/damageassist"
+msgstr "您协助的伤害"
+
+msgid "summary/damageblocked"
+msgstr "抵挡伤害"
+
+msgid "summary/description/awards/title/award"
+msgstr "竞赛结束后的奖励"
+
+msgid "summary/description/awards/title/group"
+msgstr "组"
+
+msgid "summary/description/awards/title/position"
+msgstr "名"
+
+msgid "summary/description/max/class"
+msgstr "您在%(value)s的最佳战斗"
+
+msgid "summary/description/max/level"
+msgstr "您用%(value)s级战车的最佳战斗"
+
+msgid "summary/description/max/nation"
+msgstr "您用以下国家战车的最佳战斗: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "您在%(value)s的最佳战斗"
+
+msgid "summary/description/sum/class"
+msgstr "您在%(value)s的竞赛统计。"
+
+msgid "summary/description/sum/level"
+msgstr "您用%(value)s级战车的竞赛统计"
+
+msgid "summary/description/sum/nation"
+msgstr "您用以下国家战车的竞赛统计: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "您用以下战车的竞赛统计: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "您在%(value)s的最佳系列战斗"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "您用%(value)s级战车的最佳系列战斗"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "您用以下国家战车的最佳系列战斗: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "您在%(value)s的最佳系列战斗"
+
+msgid "summary/description/sumN/class"
+msgstr "您在%(value)s的最佳战斗"
+
+msgid "summary/description/sumN/level"
+msgstr "您用%(value)s级战车的最佳战斗"
+
+msgid "summary/description/sumN/nation"
+msgstr "您用以下国家战车的最佳战斗: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "您在%(value)s的最佳战斗"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "您在%(value)s的最佳系列战斗"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "您用%(value)s级战车的最佳系列战斗"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "您用以下国家战车的最佳系列战斗: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "您在%(value)s的最佳系列战斗"
+
+msgid "summary/destroyedvehicles"
+msgstr "击毁敌方战车"
+
+msgid "summary/fightInSquaad"
+msgstr "小队战斗"
+
+msgid "summary/fightNotInSquaad"
+msgstr "非小队战斗"
+
+msgid "summary/originalXP"
+msgstr "基础经验"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "由玩家协助造成的伤害"
+
+msgid "summary/param/max/damageDealt"
+msgstr "伤害"
+
+msgid "summary/param/max/originalXP"
+msgstr "基础经验"
+
+msgid "summary/param/max/xp"
+msgstr "经验"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "玩家场均协助伤害"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "平均伤害"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "平均基础经验"
+
+msgid "summary/param/sumAll/wins"
+msgstr "胜利"
+
+msgid "summary/param/sumAll/xp"
+msgstr "平均经验"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "由玩家协助造成的平均伤害"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "总伤害"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "总基础经验"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "总经验"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "在玩家协助下造成的总伤害"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "总伤害"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "总基础经验"
+
+msgid "summary/param/sumN/xp"
+msgstr "总经验"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "由玩家协助造成的平均伤害"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "总伤害"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "总基础经验"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "总经验"
+
+msgid "summary/position"
+msgstr "获得评级名次: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "平局"
+
+msgid "summary/result/loss"
+msgstr "失败"
+
+msgid "summary/result/win"
+msgstr "胜利"
+
+msgid "summary/status"
+msgstr "更新于%(day)s %(time)s"
+
+msgid "summary/winrate"
+msgstr "胜利"
+
+msgid "table/header/player"
+msgstr "玩家"
+
+msgid "table/header/position"
+msgstr "第"
+
+msgid "table/selectParticipateBtn"
+msgstr "退出竞赛"
+
+msgid "table/selectRatingBtn"
+msgstr "评级列表"
+
+msgid "table/selectRegistrationBtn"
+msgstr "作为参赛者加入"
+
+msgid "table/stripe/bronze/title"
+msgstr "分组 III(%(placeFrom)d–%(placeTo)d名):"
+
+msgid "table/stripe/gold/title"
+msgstr "分组 I(%(placeFrom)d–%(placeTo)d名):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "分组 I"
+
+msgid "table/stripe/iron/title"
+msgstr "分组 IV(%(placeFrom)d–%(placeTo)d名):"
+
+msgid "table/stripe/silver/title"
+msgstr "分组 II(%(placeFrom)d–%(placeTo)d名):"
+
+msgid "table/stripe/wood/title"
+msgstr "未获奖名次"
+
+msgid "task/eventtype/all"
+msgstr "对所有参与者的共同评价"
+
+msgid "task/eventtype/class"
+msgstr "每个类型的战车拥有单独的评级"
+
+msgid "task/eventtype/level"
+msgstr "每个等级的战车拥有单独的评级"
+
+msgid "task/eventtype/nation"
+msgstr "每个国家的战车拥有单独的评级"
+
+msgid "task/eventtype/vehicle"
+msgstr "每辆战车拥有单独的评级"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "获得协助伤害评级名次"
+
+msgid "task/objective/max/damageDealt"
+msgstr "获得输出伤害评级名次"
+
+msgid "task/objective/max/originalXP"
+msgstr "获得基础经验评级名次"
+
+msgid "task/objective/max/xp"
+msgstr "获得经验评级名次"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "获得总协助伤害评级名次"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "获得总输出伤害评级名次"
+
+msgid "task/objective/sum/originalXP"
+msgstr "获得总基础经验评级名次"
+
+msgid "task/objective/sum/wins"
+msgstr "在评级中取得胜场数排名"
+
+msgid "task/objective/sum/xp"
+msgstr "获得总经验评级名次"
+
+msgid "task/objparam/damageAssisted"
+msgstr "协助造成伤害"
+
+msgid "task/objparam/damageDealt"
+msgstr "造成伤害"
+
+msgid "task/objparam/originalXP"
+msgstr "获得的基础经验"
+
+msgid "task/objparam/wins"
+msgstr "胜利场数"
+
+msgid "task/objparam/xp"
+msgstr "经验"
+
+msgid "task/selection/max"
+msgstr "已统计您的最佳战斗"
+
+msgid "task/selection/sumAll"
+msgstr "统计您的所有战绩"
+
+msgid "task/selection/sumMSeqN"
+msgstr "计入最佳(%(cardinality)s)场的系列战斗。最佳系列战斗: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "已统计您的最佳战斗: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "已统计您的最佳系列战斗。战斗系列:%(cardinality)s"
+
+msgid "time/day/today"
+msgstr "今天"
+
+msgid "time/day/tomorrow"
+msgstr "明天"
+
+msgid "time/day/yesterday"
+msgstr "昨天"
+
+msgid "time/eventFinished"
+msgstr "竞赛结束: %(date)s"
+
+msgid "time/period/day"
+msgstr "天"
+
+msgid "time/period/hour"
+msgstr "时"
+
+msgid "time/period/minute"
+msgstr "分钟"
+
+msgid "time/timeTo/end"
+msgstr "结束于：%(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "报名期限截止于: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "开始于：%(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "竞赛结束后将根据您的名次发放奖励。\n要查看全部竞赛奖励，点击所有奖励。"
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "经验计算不计入任何额外经验加成：包括高级账号、高级战车、个人储备、首胜多倍经验或其他活动所带来的额外经验。"
+
+msgid "tooltip/top/amount/xp"
+msgstr "经验数量不包含任何来自高级战车、个人储备、每日首胜或其他活动的额外加成。\n包含高级账号提供的额外加成。"
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "最低获奖名次的玩家协助造成的伤害: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "最低获奖名次的玩家造成的伤害: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "最低获奖名次玩家获得的基础经验: %(number)s\n经验数量不包含任何来自高级账号、高级战车、个人储备、每日首胜或其他活动的加成。"
+
+msgid "tooltip/top/description/max/xp"
+msgstr "最低获奖名次玩家获得的经验: %(number)s\n经验数量不包含任何来自高级战车、个人储备、每日首胜或其他活动的额外加成。\n包含高级账号提供的额外加成。"
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "最低获奖名次玩家的协助总伤害: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "最低获奖名次玩家造成的伤害: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "最低获奖名次玩家获得的总基础经验: %(number)s\n经验数量不包含任何来自高级账号、高级战车、个人储备、每日首胜或其他活动的加成。"
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "最低获奖名次胜利场次：%(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "最低获奖名次玩家获得的总经验: %(number)s\n经验数量不包含任何来自高级战车、个人储备、每日首胜或其他活动的加成。\n包含高级账号提供的额外加成。"
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "未获奖名次"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "%(group)s组 (%(min)s-%(max)s名)"
+
+msgid "top/averageXP"
+msgstr "最低获奖名次玩家获得的平均经验:"
+
+msgid "top/participation/notParticipated"
+msgstr "你不在此评级内"
+
+msgid "top/participation/notfull"
+msgstr "您未获得评级名次"
+
+msgid "top/participation/notintop"
+msgstr "您当前没有达到获奖名次"
+
+msgid "top/position"
+msgstr "您的名次:"
+
+msgid "top/reason/notfull"
+msgstr "要获得评级名次，需要再战斗:"
+
+msgid "vehicles/level"
+msgstr "%(level)s级战车"
+
+msgid "vehicles/tooltip/class"
+msgstr "点击显示所有此类型的参赛战车。"
+
+msgid "vehicles/tooltip/level"
+msgstr "点击显示所有此等级的参赛战车。"
+
+msgid "vehicles/tooltip/nation"
+msgstr "点击显示所有此国家的参赛战车。"
+
+msgid "vehicles/vehicle"
+msgstr "竞赛战车"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "点击显示竞赛允许的所有战车的列表"

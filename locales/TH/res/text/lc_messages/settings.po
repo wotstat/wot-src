@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "การลบรอยหยัก"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "กำหนดระดับการประมวลเส้นบางและเส้นแนวของวัตถุในเกม ลดขอบหยักของวัตถุลง\n\n• สูง—FXAA\n• สูงสุด—Temporal Supersampling Antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "การปรับเปลี่ยนตามสถานการณ์"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "เปิดหรือปิดการปรับแต่งอัตโนมัติของการเรนเดอร์รายละเอียดสามมิติโดยขึ้นกับภาระงานของการ์ดจอ\n\nการเปิดค่านี้สามารถเพิ่มสมรรถนะของเกมได้ การเรนเดอร์รายละเอียดในโรงรถจะยังคงเดิมเสมอ"
+
+msgid "EFFECTS_QUALITY"
+msgstr "คุณภาพเอฟเฟกต์เพิ่มเติม"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "เลือกคุณภาพการแสดงสะเก็ดไฟจากกระสุนเด้ง การระเบิด ควันและเอฟเฟคภาพอื่นๆ\n\nการลดค่าตัวแปรนี้จะช่วยเพิ่มสมรรถนะของเกม"
+
+msgid "FAR_PLANE"
+msgstr "ระยะการวาดภาพ"
+
+msgid "FAR_PLANE/description"
+msgstr "เลือกระยะการแสดงตึก ยานเกราะข้าศึก และวัตถุอื่นๆในเกม"
+
+msgid "FLORA_QUALITY"
+msgstr "ความหนาแน่นของหญ้า"
+
+msgid "FLORA_QUALITY/description"
+msgstr "กำหนดความหนาแน่นและคุณภาพของหญ้าและพุ่มไม้ที่แสดงในแบบอาร์เคดและแบบเล็งประณีต"
+
+msgid "HAVOK_ENABLED"
+msgstr "ฟิสิกสการทำลายขั้นก้าวหน้า"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "ปิด"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "เปิดใช้แล้ว"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "เปิดใช้งานรูปปแบบการทำลายวัตถุที่สมจริงกว่าเดิมบนแผนที่เกม\n\nการปิดตัวแปรนี้จะช่วยเพิ่มสมรรถนะของเกมได้"
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "การตั้งค่าจะถูกใช้ในการรบครั้งต่อไป ถ้าหากถูกปิดไว้อยู่ในการรบปัจจุบัน"
+
+msgid "LANGUAGE_CODE"
+msgstr "th"
+
+msgid "LIGHTING_QUALITY"
+msgstr "คุณภาพของแสง"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "ความแม่นยำในการแสดงแสงแดด การวางแสงและเอฟเฟคความสว่าง\n\nการเพิ่มค่าของตัวแปรนี้จะเพิ่มภาระให้กับการ์ดจออย่างมาก"
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "เอฟเฟคการสั่น"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "เลือกคุณภาพของเอฟเฟคการเบลอจากการเคลื่อนไหวเมื่อยานเกราะเคลื่อนที่หรือกล้องหมุน"
+
+msgid "MSAA_QUALITY"
+msgstr "การลบรอยหยัก"
+
+msgid "MSAA_QUALITY/description"
+msgstr "กำหนดระดับการประมวลผลเพิ่มเติมสำหรับเส้นและลายเส้นของวัตถุในเกม ลดลักษณะการเกิดรอยหยักบนวัตถุ\n\n• ต่ำ—MSAA 2x\n• กลาง—MSAA 4x\n• สูง—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "ระดับความละเอียดของวัตถุ"
+
+msgid "OBJECT_LOD/description"
+msgstr "เลือกจำนวนของวัตถุที่ถูกแสดงและคุณภาพของวัตถุ"
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "การประมวลผลภาพ"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "กำหนดคุณภาพเอฟเฟคภาพหลังการประมวลอื่นๆ: เอฟเฟคประกายจากความร้อน และคลื่นอัดกระแทก อาการสีเหลื่อม เงาขอบ เม็ดฟิล์ม และอื่นๆ\n\nการลดค่าตัวแปรนี้จะช่วยเพิ่มสมรรถนะของเกม"
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "กราฟฟิค"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "ปรับปรุง: ทำให้ใช้คุณภาพภาพขั้นสูงสุดได้\n\nแบบง่าย: ทำให้ได้สมรรถนะสูงสุดโดยการปิดเอฟเฟคภาพบางส่วนลงไป"
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "กราฟฟิค:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "การเปลี่ยนค่านี้จะมีผลหลังจากทำการรีสตาร์ทเกม"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "ความโปร่งใสของใบไม้"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "เลือกการแสดงของใบไม้บนต้นไม้และพุ่มไม้ว่าจะแสดงเช่นไร\n\nการปิดตัวแปรนี้จะทำให้ใบไม้บนต้นไม้และพุ่มไม้ล่องหน ซึ่งจะทำให้สมรรถนะเกมดีขึ้นได้"
+
+msgid "SHADER_VERSION_CAP"
+msgstr "รุ่นของการปรับแสงเงา"
+
+msgid "SHADOWS_QUALITY"
+msgstr "ความละเอียดของเงา"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "กำหนดคุณภาพของการประมวลผลเงาแปรผันในระยะการวาดทั้งหมด \n\nการลดค่าตัวแปรนี้จะช่วยเพิ่มสมรรถนะของเกมได้อย่างมาก"
+
+msgid "SMOKE_ENABLED"
+msgstr "ควัน"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "เอฟเฟคต์เพิ่มในมุมมองแบบเล็งประณีต"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "เลือกคุณภาพการแสดงสะเก็ดไฟจากกระสุนเด้ง การระเบิด ควันและเอฟเฟคภาพอื่นๆในการเล็งประณีต\n\nการลดค่าตัวแปรนี้จะช่วยเพิ่มสมรรถนะของเกม"
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "แสดงหญ้าในมุมมองแบบเล็งประณีต"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "แสดงหญ้าในการเล็งประณีต\n\nการปิดตัวแปรนี้จะช่วยเพิ่มสมรรถนะเกม"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "การเรียงเทสเซลเลชันพื้นดินในการเล็งประณีต"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "เพิ่มคุณภาพของพื้นดินในรัศมี 50 เมตรจากพาหนะของคุณในรูปแบบการเล็งประณีต มีให้เฉพาะเมื่อเปิดใช้งานการเรียงเทสเซลเลชันพื้นดินเท่านั้น\n\nการปิดค่านีจะช่วยเพิ่มสมรรถนะของเกมได้"
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "คุณภาพของพุ่มต้นไม้"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "กำหนดคุณภาพการแสดงต้นไม้ พุ่มไม้และต้นหญ้า"
+
+msgid "TERRAIN_QUALITY"
+msgstr "คุณภาพพื้นดิน"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "เลือกคุณภาพการวาดพื้นผิวแผนที่ \n\nใช้คุณภาพภูมิทัศน์ขั้นต่ำในกรณีที่คอมพิวเตอร์มีสมรรถนะต่ำ\n\nการลดค่าตัวแแปรนี้อาจจะทำให้เกิดการประสานพื้นผิวที่ไม่ตรงกันระหว่างโปรแกรมลูกข่ายและเซิร์ฟเวอร์"
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "การประยุกต์ใช้งานตัวแปรที่ระบุไว้อาจจะต้องใช้เวลาสักครู่"
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "การเรียงเทสเซลเลชันพื้นดิน"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "กระบวนการที่เร่งด้วยคอมพิวเตอร์ซึ่งเพิ่มสามเหลี่ยมใหม่เข้าสู่ตาข่ายโพลีกอนเพื่อเพิ่มรายละเอียดของตาข่าย\n\nการใช้งานนี้จะใช้ร่วมได้กับส่วนดังต่อไปนี้เท่านั้น: \n• กราฟฟิคแบบปรับปรุง\n• คุณภาพภูมิประเทศแบบสูง สูงสุด หรือสูงมาก\n• มีการติดตั้ง DirectX 11 เอาไว้\n\nการเปลี่ยนแปลงการตั้งค่านั้นไม่มีให้กับ DirectX เก่ากว่า DirectX 11\n\nการปิดค่านี้สามารถเพิ่มสมรรถนะของเกมได้"
+
+msgid "TEXTURE_QUALITY"
+msgstr "ความละเอียดของพื้นผิว"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "คุณภาพของพื้นผิววัตถุในเกมโดยเฉพาะเมื่อมองจากระยะใกล้\n\nการลดค่าตัวแปรนี้จะช่วยเพิ่มสมรรถนะของเกม"
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "การประยุกต์ใช้งานตัวแปรที่ระบุไว้อาจจะต้องใช้เวลาสักครู่"
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "ฟิสิกส์ตีนตะขาบ"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "กำหนดคุณภาพการจำลองฟิสิกส์สำหรับตีนตะขาบที่ใช้งานได้และที่เสียรวมถึงรายละเอียดตีนตะขาบ\n\nการลดหรือปิดค่านี้จะเพิ่มสมรรถนะของเกมได้"
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "เปิดการแสดงเอฟเฟกต์ตีนตะขาบและล้อ"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "การแสดงพื้นดิน หิมะและการกระเด็นของน้ำหลังตีนตะขาบและล้อ\n\nการปิดตัวแปรนี้จะช่วยเพิ่มสมรรถนะของเกม"
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "เปิดการแสดงรอยตีนตะขาบและรอยล้อ"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "แสดงรอยตีนตะขาบและรอยล้อบนพื้นดิน\n\nไม่มีให้ในการแสดงกราฟฟิคแบบง่ายและคุณภาพลวดลายต่ำ"
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "ซ่อนชุดติดตั้งสามมิติในการเล็งประณีต"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "ซ่อนชุดติดตั้งสามมิติพาหนะจากศูนย์เล็งปืนในการเล็งประณีตเป็นการชั่วคราว\n\nลดภาพรบกวนและเพิ่มความแม่นยำในการเล็ง"
+
+msgid "WATER_QUALITY"
+msgstr "รายละเอียดของน้ำ"
+
+msgid "WATER_QUALITY/description"
+msgstr "จะเลือกคุณภาพการวาดพื้นผิวน้ำ"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "เกราะบางเท่านั้น"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "ถ้าเปิดใช้งาน ไฟฉายจะส่องเฉพาะจุดเกราะบางของเป้าหมายเท่านั้น\n\nเกราะที่มีโอกาสเจาะได้สูงจะแสดงเอาไว้ด้วยสีเขียวเข้มในขณะที่เกราะที่มีโอกาสเจาะได้ปานกลางจะเป็นสีเขียวโปร่งแสง สีอาจจะต่างออกไปในรูปแบบตาบอดสี"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "แสดงเกราะบางเท่านั้น"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "เกราะหนาเท่านั้น"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "ถ้าเปิดใช้งาน ไฟฉายจะส่องเฉพาะจุดเกราะหนาของเป้าหมายเท่านั้น\n\nเกราะที่ไม่มีโอกาสเจาะเข้าจะแสดงเอาไว้ด้วยสีแดงเข้มในขณะที่เกราะที่มีโอกาสเจาะได้ปานกลางจะเป็นสีแดงโปร่งแสง สีอาจจะต่างออกไปในรูปแบบตาบอดสี"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "แสดงเกราะหนาเท่านั้น"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "เกราะทั้งหมด"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "ถ้าเปิดไว้ ไฟฉายจะแสดงเกราะเป้าหมายทั้งหมดเ\n\nกราะที่มีแทบไม่มีโอกาสเจาะเข้าหรือเจาะไม่ได้เลยจะแสดงด้วยสีแดง, เกราะที่มีโอกาสเจาะได้สูงจะเป็นสีเขียวและเกราะที่มีโอกาสเจาะได้ปานกลางจะเป็นสีเหลือง สีอาจจะต่างออกไปในรูปแบบตาบอดสี"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "แสดงเกราะทั้งหมด"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "การแสดงความหนาเกราะ"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "เปิดใช้เมื่อเริ่มการรบ"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "สถานะไฟแสดงเกราะพื้นฐานเมื่อเริ่มการรบ คุณสามารถเปิดหรือปิดไฟแสดงเกราะได้ด้วยการใช้ปุ่มลับที่กำหนดเมื่อใดก็ได้\n\nเมื่อเปิดใช้ไฟแสดงเกราะจะทำงานเมื่อเล็งประณีตเท่านั้น\n\nรูปแบบเกมที่สนับสนุน:\n• การรบแบบสุ่มและการฝึกรบ\n• แนวหน้า\n• การรบอาร์เคด\n• การบุกรุก\n• รูปแบบและกิจกรรมบางอย่าง \n\nอาจจะสนับสนุนรูปแบบและกิจกรรมเพิ่มเติมในอนาคต"
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "เปิดใช้เมื่อเริ่มการรบ"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "พื้นผิวไฟแสดงเกราะ"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "เข้ม"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "แบบเบาบาง"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "แบบหนา"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "ทึบ"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "คำเตือนสมรรถนะเครื่อง"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "สูง"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "ต่ำ"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "กลาง"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "ความละเอียดไฟฉาย"
+
+msgid "aim/cassette"
+msgstr "กล่องบรรจุ"
+
+msgid "aim/centralTag"
+msgstr "เครื่องหมายกลาง"
+
+msgid "aim/centralTag/type0"
+msgstr "ทรง A I"
+
+msgid "aim/centralTag/type1"
+msgstr "ทรง A II"
+
+msgid "aim/centralTag/type10"
+msgstr "ทรง O I"
+
+msgid "aim/centralTag/type11"
+msgstr "ทรงกลม II"
+
+msgid "aim/centralTag/type12"
+msgstr "ทรง A IV"
+
+msgid "aim/centralTag/type13"
+msgstr "ทรง A V"
+
+msgid "aim/centralTag/type2"
+msgstr "ทรง A III"
+
+msgid "aim/centralTag/type3"
+msgstr "ทรง V"
+
+msgid "aim/centralTag/type4"
+msgstr "ศูนย์กากบาท I"
+
+msgid "aim/centralTag/type5"
+msgstr "ศูนย์กากบาท II"
+
+msgid "aim/centralTag/type6"
+msgstr "ทรง T"
+
+msgid "aim/centralTag/type7"
+msgstr "ทรง I"
+
+msgid "aim/centralTag/type8"
+msgstr "จุดเล็ง I"
+
+msgid "aim/centralTag/type9"
+msgstr "จุดเล็ง II"
+
+msgid "aim/condition"
+msgstr "สถานะ"
+
+msgid "aim/gunTag"
+msgstr "เครื่องหมายปืน"
+
+msgid "aim/gunTag/type0"
+msgstr "ทรง A I (และเครื่องหมายแสดงการเจาะเกราะ)"
+
+msgid "aim/gunTag/type1"
+msgstr "ทรง A II (และเครื่องหมายแสดงการบรรจุ)"
+
+msgid "aim/gunTag/type10"
+msgstr "ทรง O II (พร้อมด้วยมาตรวัดการบรรจุ)"
+
+msgid "aim/gunTag/type11"
+msgstr "ทรง O III"
+
+msgid "aim/gunTag/type12"
+msgstr "ทรง A IV (พร้อมด้วยมาตรวัดการเจาะเกราะ)"
+
+msgid "aim/gunTag/type13"
+msgstr "ทรง A V (พร้อมด้วยมาตรวัดการบรรจุ)"
+
+msgid "aim/gunTag/type14"
+msgstr "ทรง A VI"
+
+msgid "aim/gunTag/type2"
+msgstr "ทรง A III"
+
+msgid "aim/gunTag/type3"
+msgstr "ศูนย์กากบาท I (กับการบรรจุ)"
+
+msgid "aim/gunTag/type4"
+msgstr "ศูนย์กากบาท II (กับการบรรจุ)"
+
+msgid "aim/gunTag/type5"
+msgstr "ศูนย์กากบาท III"
+
+msgid "aim/gunTag/type6"
+msgstr "จุดเล็ง I (กับการเจาะเกราะ)"
+
+msgid "aim/gunTag/type7"
+msgstr "จุดเล็ง II (กับการบรรจุ)"
+
+msgid "aim/gunTag/type8"
+msgstr "จุดเล็ง III"
+
+msgid "aim/gunTag/type9"
+msgstr "ทรง O I (กับการเจาะเกราะ)"
+
+msgid "aim/mixing"
+msgstr "การเล็ง"
+
+msgid "aim/mixing/type0"
+msgstr "วงกลม I (กับการบรรจุ)"
+
+msgid "aim/mixing/type1"
+msgstr "วงกลม II (กับการบรรจุย้ายที่)"
+
+msgid "aim/mixing/type2"
+msgstr "วงกลม III (ไม่มีการบรรจุ)"
+
+msgid "aim/mixing/type3"
+msgstr "วงกลม IV (ทึบ)"
+
+msgid "aim/mixing/type4"
+msgstr "ศูนย์กากบาท (กับการบรรจุ)"
+
+msgid "aim/mixing/type5"
+msgstr "ศูนย์กากบาท II"
+
+msgid "aim/mixing/type6"
+msgstr "ทดสอบ"
+
+msgid "aim/net"
+msgstr "มาตรวัด"
+
+msgid "aim/net/type0"
+msgstr "แนวทแยง"
+
+msgid "aim/net/type1"
+msgstr "แนวระนาบ"
+
+msgid "aim/net/type2"
+msgstr "รัศมีทรงกลม"
+
+msgid "aim/net/type3"
+msgstr "ขีดคั่น"
+
+msgid "aim/reloader"
+msgstr "การบรรจุกระสุน"
+
+msgid "aim/reloaderTimer"
+msgstr "นาฬิกาจับเวลาการบรรจุ"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "การเปลี่ยนเป็นการเล็งแบบปืนอัตตาจร"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "ใช้ครั้งล่าสุด"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "มุมมองบน"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "มุมมองวิถีกระสุน"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "การเปลี่ยนรูปแบบการเล็งอัตโนมัติ"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "เมื่อทำการเลื่อนลูกกลิ้งเมาส์จนถึงค่าซูมระดับหนึ่ง ศูนย์เล็งจะเปลี่ยนจากมุมมองบนเป็นมุมมองวิถีกระสุน"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "การเปลี่ยนรูปแบบการเล็งอัตโนมัติ"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "การซูมกล้องแบบราบรื่น"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "แสดงเส้นแนวยิง"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "แสดง/ซ่อนเครื่องหมายที่แสดงว่ากระสุนที่เลือกไว้จะพุ่งถึงจุดที่เล็งไว้หรือไม่ เครื่องหมายจะแสดงเวลากระสุนถึงเป้าหมายด้วย"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "เครื่องชี้แนวการยิง"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "แสดงเครื่องหมายตำแหน่งกล้อง"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "แสดง/ซ่อนเครื่องหมายที่แสดงระดับการซูมของมุมกล้องการเล็งปืนอัตตาจร"
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "เครื่องหมายแสดงตำแหน่งมุมกล้อง"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "การควบคุมมุมกล้อง"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "ตัวเลือก"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "ปกติ"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "ในรูปแบบการควบคุมมุมกล้องมาตรฐาน มุมกล้องจะขยับขึ้น ลง ซ้ายและขวา ส่วนรูปแบบควบคุมตัวเลือก มุมกล้องจะขยับเดินหน้า ถอยหลังและหมุนรอบๆตำแหน่งของปืนอัตตาจร"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "การควบคุมมุมกล้อง"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "มาตรวัดการซูม"
+
+msgid "alternativeVoices/labels"
+msgstr "ข้อความเสียงในการรบ"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "ข้อความเสียในการรบ"
+
+msgid "apply_button"
+msgstr "ใช้งาน"
+
+msgid "autodetectButton"
+msgstr "แนะนำ"
+
+msgid "autodetectButton/description"
+msgstr "เลือกการตั้งค่าภาพที่เหมาะสมสำหรับคอมพิวเตอร์ของคุณ\n\nนี่อาจจะใช้เวลาสักครู่"
+
+msgid "battlecomm/enableCommendations"
+msgstr "รับคำชมเชยในการรบ"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "แสดงคำสั่งส่วนตัว"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "ระบุการสื่อสารบนแผงทีม"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "แสดงเครื่องหมายตำแหน่งบนแผนที่"
+
+msgid "battlecomm/showMarkers"
+msgstr "แสดงเครืื่องหมายฐานทัพในการรบแบบสุ่ม"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "แสดงเครื่องหมายยึดติด"
+
+msgid "borderlessSize"
+msgstr "หน้าต่าง (ไม่มีขอบ)"
+
+msgid "borderlessSize/description"
+msgstr "หน้าต่าง (ไม่มีขอบ)"
+
+msgid "cancel_button"
+msgstr "ยกเลิก"
+
+msgid "chat/censorshipMessages"
+msgstr "การเซนเซอร์คำไม่สุภาพในข้อความสนทนา"
+
+msgid "chat/chatContactsListOnly"
+msgstr "รับข้อความจากรายชื่อติดต่อเท่านั้น"
+
+msgid "chat/disableBattleChat"
+msgstr "ปิดการสนทนากับพันธมิตรในการรบ"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "จำตำแหน่งกล้องและหน้าต่างช่องสนทนา"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "จำตำแหน่งกล้องและหน้าต่างอื่นๆ"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "ตอบรับคำเชิญจากเพื่อในโรงรถเท่านั้น"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "รับการแจ้งเตือนกองทัพ"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "ตอบรับคำขอเป็นเพื่อน"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "ตอบรับคำเชิญเข้าหมดวรถถังในการรบ"
+
+msgid "chat/removeSpam"
+msgstr "ซ่อนจดหมายขยะ"
+
+msgid "chat/showDateMessage"
+msgstr "แสดงวันในข้อความ"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "แจ้งให้ทราบเมื่อผู้เล่นเข้าใช้งานหรือออกจากการใช้งาน"
+
+msgid "chat/showTimeMessage"
+msgstr "แสดงเวลาในข้อความ"
+
+msgid "colorCorrection"
+msgstr "การปรับสี"
+
+msgid "colorCorrectionBtn/label"
+msgstr "ปรับแต่ง"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "การตั้งค่าตามผู้ใช้"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "ความสว่าง"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "ความเปรียบต่าง"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "ความอิ่มตัว"
+
+msgid "colorSettings/tab/default"
+msgstr "ค่ามาตรฐาน"
+
+msgid "colorSettings/tab/filters"
+msgstr "ตัวกรองปรับล่วงหน้า"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "ความเข้มข้นของตัวกรอง"
+
+msgid "colorSettings/view/after"
+msgstr "ภายหลัง"
+
+msgid "colorSettings/view/before"
+msgstr "ก่อนหน้า"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "ปิด"
+
+msgid "colorSettings/view/description"
+msgstr "เลือกหนึ่งในตัวเลือกการปรับแต่งภาพ"
+
+msgid "colorSettings/view/header"
+msgstr "การปรับสี"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "ตั้งใหม่"
+
+msgid "colorSettings/view/subTitle"
+msgstr "ตัวเลือกการปรับแต่งภาพ"
+
+msgid "cursor/ArcadeTitle"
+msgstr "อาร์เคด"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "ไฟแสดงเกราะ"
+
+msgid "cursor/ArtyTitle"
+msgstr "ปืนใหญ่"
+
+msgid "cursor/ContourTitle"
+msgstr "เส้นตัด"
+
+msgid "cursor/ServerAim"
+msgstr "เปิดการใช้งานเป้าเล็งเซิร์ฟเวอร์"
+
+msgid "cursor/SnipperTitle"
+msgstr "การเล็งประณีต"
+
+msgid "cursor/contour/type0"
+msgstr "มาตรฐาน"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "เมื่อเล็งที่พาหนะข้าศึก จะแสดงเส้นตัดทั้งหมดรวมไปถึงองค์ประกอบที่ไม่ใช่เกราะซึ่งกระสุนกระทบไม่ได้"
+
+msgid "cursor/contour/type1"
+msgstr "แบบง่าย"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "เมื่อเล็งที่พาหนะข้าศึก จะแสดงเส้นตัดบางส่วนรวมไปถึงองค์ประกอบเกราะที่กระสุนสามารถกระทบได้เท่านั้น"
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "พื้นที่เจาะไม่ได้"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "ไม่มี"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "ทึบ"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "พื้นผิว"
+
+msgid "cursor/contourLabel"
+msgstr "ชนิดเส้นตัด"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "พื้นที่เจาะได้"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "ไม่มี"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "ทึบ"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "พื้นผิว"
+
+msgid "cursor/overlapContour"
+msgstr "การเรนเดอร์สิ่งกีดขวาง"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "การเปิดเรนเดอร์อาจลดสมรรถนะเกมลงได้"
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "การแสดงสิ่งกีดขวางกระสุนเมื่อเล็งไปยังพาหนะข้าศึก\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "การเรนเดอร์สิ่งกีดขวาง"
+
+msgid "cursor/overlapContourLabel"
+msgstr "การเรนเดอร์สิ่งกีดขวาง"
+
+msgid "cursorTitle"
+msgstr "ศูนย์เล็ง"
+
+msgid "defaultBtn"
+msgstr "โดยมาตรฐาน"
+
+msgid "defaultNamePrefix"
+msgstr "ผู้เล่น"
+
+msgid "dynamicCamera"
+msgstr "ใช้งานกล้องอิสระ"
+
+msgid "dynamicFov"
+msgstr "มุมกล้องเคลื่อนที่ได้"
+
+msgid "dynamicFov/description"
+msgstr "มุมมองเคลื่อนที่ได้จะอนุญาตให้ทำการตั้งมุมมองขั้นต่ำสุดและสูงสุดในการเล็งแบบอาร์เคด\n\nมุมขั้นสูงสุดจะใช้เมื่อกล้องซูมออกจากยานเกราะ\n\nมุมขั้นต่ำสุดจะใช้เมื่อซูมเข้าหายานเกราะ"
+
+msgid "dynamicRenderer"
+msgstr "รายละเอียดการแสดงภาพสามมิติ"
+
+msgid "dynamicRenderer/description"
+msgstr "ควบคุมคุณภาพของภาพในเกมและรายละเอียด\n\nรายละเอียดสามมิติตามสถานการณ์ในการรบสามารถเปลี่ยนได้โดยใช้ปุ่ม [RShift +] and [RShift -] ไม่มีผลต่อแผงการโต้ตอบ\n\nการลดค่าตัวแปรนี้จะสามารถเพิ่มสมรรถนะของเกมสำหรับคอมพิวเตอร์ที่มีการ์ดจอที่ไม่ดีนัก"
+
+msgid "edgeDetectAA"
+msgstr "การลบรอยหยักภาพด้วยการตรวจหาขอบ"
+
+msgid "feedBack"
+msgstr "การแจ้งเตือนการรบ"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "ขอบแผนที่"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "ความเสียหายภายหลังคุณทำให้มึนงง"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "คะแนนการยึดฐาน"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "ล้างคะแนนการยึด"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "ความเสียหายที่กันได้"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "พาหนะข้าศึกไฟไหม้"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "ความเสียหายร้ายแรง"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "การตรวจจับ"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "ความเสียหายจากการชี้เป้า"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "ความเสียหายของกระสุน"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "ความเสียหายจากการพุ่งชน"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "ตีนตะขาบถูกทำลาย"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "ชื่อเหตุการณ์"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "ความเสียหายร้ายแรง"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "ความเสียหาย"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "แสดงในการรบ"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "ข้อมูลพาหนะ"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "ความเสียหายจากการกระแทก"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "ทุกความสามารถตามสถานการณ์ทั้งหมด"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "จะแสดงสามเหตุการณ์ล่าสุด\nในการรบ"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "เหตุการณ์การรบ"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "การแจ้งเตือน"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "กิจกรรม"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "ความสามารถพลรถถัง"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "ความเสียหายที่ได้รับ"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "สมรรถนะการรบ"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "ความเสียหายที่ได้รับ"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "การซ่อนขอบแผนที่อาจจะทำให้อาการวิงเวียนในการรบได้"
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "เมื่อกดปุ่ม Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "เน้นย้ำเสมอ"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "ไม่ต้องเน้นย้ำ"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "เมื่อเข้าใกล้"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "การเน้นเพิ่มเติม"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "เส้นประ"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "ไม่แสดง"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "ชนิดขอบ"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "กำแพง"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "มาตรแสดงทิศทางการยิง"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "การยิงเพื่อน"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "จำนวนความเสียหาย"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "กระสุนถูกกั้นไว้ได้"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "ความเสียหายร้ายแรง\nบนพาหนะของคุณ"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "ความเสียหายที่ได้รับ"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "ชิ้นส่วนเสียหาย"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "ข้อมูล"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "แสดงภาพเคลื่อนไหว"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "จำนวนความเสียหาย"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "มาตรวัดแปรผัน"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "ข้อมูลพาหนะ"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "แสดงในการรบ"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "ทั้งหมด"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "การยิงเพื่อน"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "ความเสียหายร้ายแรง"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "ยกเว้นเสียหายร้ายแรง"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "ก้าวหน้า"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "มาตรฐาน"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "ชนิด"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "บันทึก"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "ที่ทำเมื่อคุณทำให้มึนงง"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "กั้นไว้ด้วยเกราะ"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "ความเสียหายจากการช่วยของคุณ"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "ความเสียหายที่คุณทำ"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "แสดงเสมอ"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "เมื่อกดปุ่ม Alt"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "อย่าแสดง"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "ผังความเสียหาย"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "เหตุการณ์ทั้งหมดทส่วนล่าง"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "ความเสียหายที่ได้รับตรงส่วนบน"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "ตำแหน่งเหตุการณ์"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "เหตุการณ์ทั้งหมด"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "ชนิดเหตุการณ์"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "ความเสียหายที่ได้รับ"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "สมรรถนะการรบ"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "การเปิดใช้การตั้งค่านี้ไม่ขอแนะนำ\nสำหรับหน้าจอความละเอียดต่ำ"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "ความเสียหายโดยสรุป"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "บล็อคแสดงข้อมูลความเสียหายโดยละเอียด แสดงข้อมูลทั้งหมดเกี่ยวกับประสิทธิภาพของคุณในการรบ"
+
+msgid "feedback/tab/eventsInfo"
+msgstr "เหตุการณ์การรบ"
+
+msgid "feedback/tab/questsProgress"
+msgstr "รายงานการรบและภารกิจ"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "คะแนนการรบ"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "รายละเอียดภารกิจ"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "แสดงไอคอนพาหนะตามระดับ"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "แสดงแถบความทนทานของทีม"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "แสดงความต่างความทนทานของทีม"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "แสดงค่าความทนทานทีม"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "แสดงทั้งหมด"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "แสดงความคืบหน้าเท่านั้น"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "ตัวเลือก"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "ไม่แสดง"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "มาตรฐาน"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "แสดงภารกิจ"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "มุมการมอง (FoV)"
+
+msgid "fov/description"
+msgstr "ระยะการมองเห็นของกล้องในเกม\n\n95° เป็นมุมมองปกติ ยิ่งมุมมองน้อยลง วัตถุก็จะดูอยู่ใกล้ในขณะที่มุมการมองรอบๆจะลดลง\n\nไม่มีผลต่อสมรรถนะของเกม"
+
+msgid "game/anonymizer"
+msgstr "ปิดชื่อของคุณในการรบ"
+
+msgid "game/battleLoadingInfo"
+msgstr "คำแนะนำบนหน้าจอโหลดการรบ"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "แผนที่ย่อ"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "ข้อความเท่านั้น"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "ภาพประกอบการแนะนำ"
+
+msgid "game/battlePanelSettings"
+msgstr "แผงการรบ"
+
+msgid "game/carouselType"
+msgstr "แผงพาหนะ"
+
+msgid "game/carouselType/double"
+msgstr "สองระดับ"
+
+msgid "game/carouselType/single"
+msgstr "หนึ่งระดับ"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "แสดงสถิติเมื่อเลื่อนเหนือช่องในโรงรถ"
+
+msgid "game/commanderCamEnabled"
+msgstr "เปิดใช้มุมมองยุทธวิธี"
+
+msgid "game/customizationDisplayType"
+msgstr "แสดงองค์ประกอบปรับแต่งในการรบ"
+
+msgid "game/customizationDisplayType/all"
+msgstr "ตามประวัติศาสตร์, นอกประวัติศาสตร์กับสร้างขึ้นมาใหม่"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "ตามประวัติศาสตร์"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "ตามประวัติศาสตร์และนอกประวัติศาสตร์"
+
+msgid "game/displayPlatoonMembers"
+msgstr "แสดงพาหนะของสมาชิกหมวดรถถังในโรงรถ"
+
+msgid "game/doubleCarousel/label"
+msgstr "แผงพาหนะสองระดับ"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "ปรับเปลี่ยน"
+
+msgid "game/doubleCarouselType/small"
+msgstr "แบบไม่มาก"
+
+msgid "game/dynamicCamera"
+msgstr "ใช้งานกล้องอิสระ"
+
+msgid "game/enableBattleNotifier"
+msgstr "แสดงผลการรบก่อนหน้าในการสนทนา"
+
+msgid "game/enableMortalPostEffect"
+msgstr "เปิดการใช้งานการประมวลผลภาพในโหมดวิญญาณ"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "เปิดการใช้งานเอฟเฟคภาพในการเล็งประณีต"
+
+msgid "game/enableRepairTimer"
+msgstr "แสดงเวลาการซ่อมชิ้นส่วนที่เสียหาย"
+
+msgid "game/enableSpeedometer"
+msgstr "แสดงความเร็วของยานเกราะล้อ"
+
+msgid "game/enableVoIP"
+msgstr "สนทนาเสียง"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "การสื่อสารการรบ"
+
+msgid "game/fieldset/headerChat"
+msgstr "พูดคุย"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "แผนที่ย่อ"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "เครื่องหมายแสดงรถถัง"
+
+msgid "game/hangarCamCheckbox"
+msgstr "การเคลื่อนไหวมุมกล้องโรงรถเมื่อทำการเลื่อนลูกศรเมาส์"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "กล้องโรงรถหมุนเมื่อไม่มีการดำเนินการภายใน"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "ภาพเคลื่อนไหวมุมกล้องโรงรถ"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "ไม่"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 วินาที"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 วินาที"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 วินาที"
+
+msgid "game/horStabilizationSnp"
+msgstr "การปรับความเสถียรแนวระนาบในการเล็งประณีต"
+
+msgid "game/hullLockEnabled"
+msgstr "เปิดใช้การล็อคตัวถังอัตโนมัติในการเล็งประณีต"
+
+msgid "game/increasedZoom/base"
+msgstr "เปิดใช้ %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " และ "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "แสดงการเลือกเซิร์ฟเวอร์เมื่อเริ่มเกม"
+
+msgid "game/minimapDrawRange"
+msgstr "แสดงรัศมีการวาดภาพ"
+
+msgid "game/minimapGroupTitle"
+msgstr "แผนที่ย่อ"
+
+msgid "game/minimapMaxViewRange"
+msgstr "แสดงรัศมีการมองเห็นสูงสุด"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "แสดงวงการตรวจจับระยะใกล้"
+
+msgid "game/minimapViewRange"
+msgstr "แสดงวงกลมระยะการมองเห็น"
+
+msgid "game/newbeeTipsTitle"
+msgstr "คำแนะนำ"
+
+msgid "game/newbieBattleHints"
+msgstr "เปิดคำแนะนำผู้เริ่มเล่นในการรบแบบสุ่ม"
+
+msgid "game/newbiePrebattleHints"
+msgstr "เปิดคำแนะนำผู้เริ่มเล่นในหน้าจอโหลดการรบ"
+
+msgid "game/optimizeGraphics"
+msgstr "ปรับกราฟฟิคโต้ตอบให้เหมาะสม"
+
+msgid "game/playersPanelState/large"
+msgstr "แผงขนาดเต็ม"
+
+msgid "game/playersPanelState/medium"
+msgstr "ปานกลาง"
+
+msgid "game/playersPanelState/none"
+msgstr "ไม่มีแผงแสดง"
+
+msgid "game/playersPanelState/short"
+msgstr "แผงขนาดย่อ"
+
+msgid "game/postmortemMode"
+msgstr "รูปแบบหลังถูกทำลาย"
+
+msgid "game/postmortemMode/analysis"
+msgstr "แสดงเวลาที่พาหนะของคุณถูกทำลาย (โดยละเอียด)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "แสดงพาหนะข้าศึกที่ทำลายพาหนะของคุณ"
+
+msgid "game/postmortemMode/self"
+msgstr "แสดงพาหนะของคุณ"
+
+msgid "game/postmortemMode/simple"
+msgstr "แสดงเวลาที่พาหนะของคุณถูกทำลาย (สั้น)"
+
+msgid "game/ppShowLevels"
+msgstr "แสดงระดับรถถัง"
+
+msgid "game/ppShowTypes"
+msgstr "แสดงชนิดรถถัง"
+
+msgid "game/ppStartStateLabel"
+msgstr "ชนิด"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "เปิดใช้มุมมองผู้บังคับการ"
+
+msgid "game/replayEnabled"
+msgstr "เปิดใช้งานการบันทึกการรบ"
+
+msgid "game/replayEnabled/all"
+msgstr "ทั้งหมด"
+
+msgid "game/replayEnabled/last"
+msgstr "สุดท้าย"
+
+msgid "game/replayEnabled/none"
+msgstr "ไม่"
+
+msgid "game/showArtyHitOnMap"
+msgstr "แสดงพื้นที่ที่กระสุนปืนอัตตาจรจะตก"
+
+msgid "game/showDamageIcon"
+msgstr "แสดงการแจ้งเตือนเมื่อไม่ทำความเสียหาย"
+
+msgid "game/showDogTag"
+msgstr "แสดงป้ายชื่อ"
+
+msgid "game/showDogTagToKiller"
+msgstr "แสดงป้ายชื่อปรับแต่งที่คุณเลือกใช้งาน"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "แสดงข้อมูลรถถังที่ถูกทำลาย"
+
+msgid "game/showKillersDogTag"
+msgstr "แสดงป้ายชื่อของผู้เล่นที่ทำลายคุณ"
+
+msgid "game/showLanguageBar"
+msgstr "แสดงแผงภาษา"
+
+msgid "game/showMarksOnGun"
+msgstr "แสดงเครื่องหมายเชิดชูเกียรติ"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "ดูป้ายชื่อเคลื่อนไหวของคุณ"
+
+msgid "game/showSectorOnMap"
+msgstr "แสดงพื้นที่การยิงของปืนอัตตาจร"
+
+msgid "game/showVectorOnMap"
+msgstr "แสดงเส้นทิศทางมุมกล้อง"
+
+msgid "game/showVehModelsOnMap"
+msgstr "เปิดใช้เนื้อหาขยายของแผนที่ย่อ"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "เมื่อกดปุ่ม Alt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "เสมอ"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "ไม่"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "แสดงความทนทานพาหนะบนแผนที่ย่อ"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "เมื่อกดปุ่ม Alt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "เสมอ"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "ไม่"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "แสดงความทนทานพาหนะในแผงทีม"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "เมื่อกดปุ่ม Alt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "เสมอ"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "ไม่"
+
+msgid "game/showVehicleIcon"
+msgstr "แสดงเครื่องหมายรถถัง"
+
+msgid "game/showVehicleLevel"
+msgstr "แสดงระดับรถถัง"
+
+msgid "game/showVehiclesCounter"
+msgstr "แสดงเครื่องหมายยานเกราะบนแผงคะแนนการรบ"
+
+msgid "game/showVictimsDogTag"
+msgstr "แสดงป้ายชื่อของข้าศึกที่คุณทำลาย"
+
+msgid "game/sniperModeByShift"
+msgstr "จำกัดการเปิดใช้การเล็งประณีตเหลือแค่ปุ่ม Shift"
+
+msgid "game/sniperZoom"
+msgstr "ระดับการซูมเล็งประณีตที่ชอบ"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "ใช้ครั้งล่าสุด"
+
+msgid "game/switchEquipment"
+msgstr "การเปลี่ยนการตั้งค่าบนหน้าจอการโหลด"
+
+msgid "game/w2gtEnable"
+msgstr "เปิดใช้พื้นที่การรบในแผนที่ย่อ"
+
+msgid "gameTitle"
+msgstr "ทั่วไป"
+
+msgid "gameplay/devMaps"
+msgstr "เล่นบนแผนที่มีเหตุการณ์สุ่ม"
+
+msgid "gameplay/nations"
+msgstr "ประจัญบาน"
+
+msgid "gamma"
+msgstr "แสงสว่าง"
+
+msgid "gammaBtn/label"
+msgstr "ปรับแก้"
+
+msgid "gammaWizard/apply"
+msgstr "ใช้งาน"
+
+msgid "gammaWizard/cancel"
+msgstr "ยกเลิก"
+
+msgid "gammaWizard/closeBtn"
+msgstr "ปิด"
+
+msgid "gammaWizard/default"
+msgstr "โดยมาตรฐาน"
+
+msgid "gammaWizard/description"
+msgstr "ขยับแถบเลื่อนจนกว่าฉากหลังและสัญลักษณ์มีความสว่างเท่ากัน หรี่ตาของคุณเล็กน้อยหรือหันไปจากหน้าจอของคุณเพื่อให้แทบไม่เห็นรายละเอียดภาพ"
+
+msgid "gammaWizard/header"
+msgstr "แสงสว่าง"
+
+msgid "gammaWizard/title"
+msgstr "การตั้งค่าแสง"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "ทำให้สามารถรับความสว่างของเกมเพื่อให้ได้คุณภาพของภาพ\nที่เหมาะสมบนหน้าจอ ตัวเลือกนี้มีเพื่อ\nชดเชยสำหรับเอฟเฟคจากไดร์เวอร์การ์ดจอและ\nการตั้งค่าหน้าจอที่มีผลต่อคุณภาพของภาพในเกม"
+
+msgid "gammaWizard/tooltip/header"
+msgstr "แสงสว่าง"
+
+msgid "graficTitle"
+msgstr "กราฟฟิค"
+
+msgid "graphics/block/effects"
+msgstr "เสียงเอฟเฟคต์"
+
+msgid "graphics/block/greenery"
+msgstr "พุ่มไม้"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "พื้นดินและน้ำ"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "การให้แสงและเอฟเฟคหลังประมวลผล"
+
+msgid "graphics/block/main"
+msgstr "หลัก"
+
+msgid "graphics/tabAdvanced"
+msgstr "รายละเอียด"
+
+msgid "graphics/tabScreen"
+msgstr "หน้าจอ"
+
+msgid "graphicsQuality"
+msgstr "คุณภาพของภาพ"
+
+msgid "graphicsQuality/description"
+msgstr "กำหนดคุณภาพโดยรวมของภาพ กำหนดตัวแปรของแถบรายละเอียด\n\nการลดคุณภาพกราฟฟิคจะสามารถ:\n• เพิ่มสมรรถนะเกม\n• ทำให้เกิดการไม่ประสานกันของการแสดงภูมิประเทศระหว่างเซิร์ฟเวอร์และโปรแกรมลูกข่าย\n\nใช้การตั้งค่ากราฟฟิคขั้นต่ำสุดเฉพาะในกรณีที่เครื่องคอมพิวเตอร์มี่สมรรถนะต่ำเท่านั้น"
+
+msgid "graphicsQualityHDSD"
+msgstr "ชนิดโปรแกรมลูกข่าย"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "ติดตั้งโปรแกรมลูกข่าย HD เอาไว้"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "โปรแกรมลูกข่ายมาตรฐาน (SD) ติดตั้งเรียบร้อย"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "โปรแกรมลูกข่ายมาตรฐาน-เกมเต็มโดยไม่มีพื้นผิวคุณภาพสูงสุด\n\nโปรแกรมลูกข่าย HD - เกมเต็มที่รวมพื้นผิวคุณภาพสูงสุดเข้าไว้ด้วย จำเป็นต้องใช้พื้นที่จัดเก็บมากกว่าโปรแกรมลูกข่ายมาตรฐาน"
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "ชนิดโปรแกรมลูกข่าย"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "โปรแกรมลูกข่าย HD - ตัวเกมแบบเต็มรวมไปถึงพื้นผิวคุณภาพสูงสุด จำเป็นต้องใช้พื้นที่ฮาร์ดดิสก์มากกว่าโปรแกรมลูกข่ายมาตรฐาน\n\nโปรแกรมลูกข่ายมาตรฐาน (SD) - ตัวเกมแบบเต็มโดยไม่มีพื้นผิวคุณภาพสูงสุด"
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "กราฟฟิคสูงสุด (SD) และ สูงมาก (SD) ไม่ได้ให้ค่าสูงสุดของคุณภาพพื้นผิว ในการตั้งค่าคุณภาพกราฟฟิคเป็นสูงสุด ให้เปลี่ยนเป็นโปรแกรมลูกข่าย HD ในตัวเปิดเกม"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "การแสดงรายละเอียด 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "การแสดงรายละเอียด 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "การแสดงรายละเอียด 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "การแสดงรายละเอียด 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "แนวเส้นคู่"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "กำหนดเอง"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "ฟิล์มภาพยนตร์ยุค 1940"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "ความเปรียบต่างภาพ"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "ปรับปรุงแล้ว"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "ไกล"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "มาตรฐาน"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "สูง"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "ต่ำ"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "ต่ำมาก"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "ขั้นสูงสุด"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "สูงสุด (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "ปานกลาง"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "อย่างต่ำ"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "ปิดแล้ว"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "ใกล้"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "ปิด"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "ปิด"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "เปิดใช้แล้ว"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "แบบง่าย"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "ปรับปรุง"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "จุด"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "ปรับแสง"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "แบบสุ่ม"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "ปกติ"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "ลึก"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "สีอ่อน"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "แนวสามเส้น"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "สูงกว่า"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "สูงมาก (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "สูงมาก"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "สูงมาก"
+
+msgid "igbHardwareAcceleration"
+msgstr "การเร่งฮาร์ดแวร์บราวเซอร์"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "เมื่อเปิดการตั้งค่านี้เอาไว้ เนื้อหาบนเวบไซต์จะถูกเรนเดอร์ด้วยการ์ดจอแทนที่จะใช้หน่วยประมวลผลกลาง\n\nโปรดปิดการตั้งค่านี้หากคุณมีปัญหากับการเรนเดอร์เนื้อหาในบางหน้าต่าง\n\nการเปลี่ยนแปลงดังกล่าวจะถูกใช้งานหลังจากได้ทำการปิดแล้วเปิดเกมใหม่อีกครั้ง"
+
+msgid "interfaceScale"
+msgstr "การปรับขนาดแผงโต้ตอบ"
+
+msgid "interfaceScale/attention"
+msgstr "เนื้อหากำลังถูกทดสอบ \nจะไม่มีผลกับสมรรถนะของเกม"
+
+msgid "interfaceScale/body"
+msgstr "การปรับขนาดขององค์ประกอบแผงโต้ตอบอัตโนมัติ\nเมื่อขยายหน้าจอเกม/หน้าต่าง"
+
+msgid "interfaceScale/description"
+msgstr "การปรับขนาดขององค์ประกอบแผงโต้ตอบโดยอัตโนมัติเมื่อทำการขยายหน้าจอ/หน้าต่าง"
+
+msgid "interfaceScale/header"
+msgstr "การปรับขนาดแผงโต้ตอบ"
+
+msgid "interfaceScale/warning"
+msgstr "เนื้อหากำลังถูกทำการทดสอบ ซึ่งจะไม่มีผลต่อสมรรถนะของเกม"
+
+msgid "interfaceScaleDisabled"
+msgstr "การปรับขนาดแผงโต้ตอบ"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "มีให้สำหรับจอแสดงผลขนาด 4K เท่านั้น"
+
+msgid "interfaceScaleDisabled/body"
+msgstr "การปรับขนาดขององค์ประกอบแผงโต้ตอบโดยอัตโนมัติ\nเมื่อทำการขยายหน้าจอ/หน้าต่าง"
+
+msgid "interfaceScaleDisabled/description"
+msgstr "การปรับขนาดขององค์ประกอบแผงโต้ตอบโดยอัตโนมัติเมื่อทำการขยายหน้าจอ/หน้าต่าง"
+
+msgid "interfaceScaleDisabled/header"
+msgstr "การปรับขนาดแผงโต้ตอบ"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "มีให้สำหรับจอแสดงผลขนาด 4K เท่านั้น"
+
+msgid "isColorBlind"
+msgstr "โหมดสำหรับคนตาบอดสี"
+
+msgid "isColorBlind/description"
+msgstr "การแปลงเฉดสีสำหรับคนตาบอดสี"
+
+msgid "keyboard/backDraftInvert"
+msgstr "กลับด้านการควบคุม"
+
+msgid "keyboard/keyboard"
+msgstr "แป้นพิมพ์"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "รับทราบ!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "จุดเล็งพิเศษ"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "ล๊อคตัวถัง / เปลี่ยนรูปแบบ"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "กลับ"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "กลับ"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"เบรคมือ\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "ลง"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "ซ้าย"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "ขวา"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "บน"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "ระดมยิง"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "ถอนตัว!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "ยิง"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "เดินหน้า"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "เดินหน้า"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "ละทิ้งพาหนะ (ในแนวรบ)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "ช่วยด้วย!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "ระบุตำแหน่ง"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "กำหนดเป้าหมาย"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "ยุทธปัจจัย 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "ยุทธปัจจัย 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "ยุทธปัจจัย 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "ยุทธปัจจัย 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "ยุทธปัจจัย 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "ยุทธปัจจัย 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "ยุทธปัจจัย 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "ยุทธปัจจัย 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "ยุทธปัจจัย 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "ยุทธปัจจัย 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "ซ้าย"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "เล็งอัตโนมัติ"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "ยกเลิกการเล้งอัตโนมัติ"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "ขอปฏิเสธ!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "กดเพื่อพูด"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "เติมกระสุนในห้องกระสุน"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "กำลังบรรจุ!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "ขวา"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "ซ่อนแผงควบคุมการรบ"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "การเปิดใช้กำลังสำรองส่วนตัว"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "ความคืบหน้าสำหรับภารกิจส่วนตัว"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "แสดงรายการคำสั่ง/ยืนยันคำสั่ง"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "ย่อขนาด"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "ขยายขนาด"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "ความสามารถพิเศษ"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "หยุดและยิง"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "ขอบคุณ!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "เปิด/ปิดไฟแสดงเกราะ"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "มุมมองวิถีกระสุน"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "ตั้งสัญญาณเสียง"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "ซ่อน/แสดง"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "เปิด/ปิด การสนทนาเสียงในหมวดรถถังแปรผัน"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "กล้อง"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "การเคลื่อนที่โดยไม่ต้องกดปุ่ม"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "ยุทธปัจจัย"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "การยิง"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "แผนที่ย่อ"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "เคลื่อนที่"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "ข้อความ"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "การสื่อสารกับทีม"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "อื่นๆ"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "สนทนาเสียง"
+
+msgid "keyboard/mouse"
+msgstr "เมาส์"
+
+msgid "keyboardTitle"
+msgstr "การควบคุม"
+
+msgid "limitedUI/desc"
+msgstr "การค่อยๆปรากฎขององค์ประกอบแผงโต้ตอบที่ซ่อนในโรงรถ"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "ปิด"
+
+msgid "marker/AllyTitle"
+msgstr "พันธมิตร"
+
+msgid "marker/DeadTitle"
+msgstr "ทำลาย"
+
+msgid "marker/EnemyTitle"
+msgstr "ข้าศึก"
+
+msgid "marker/aimMarker2D"
+msgstr "เครื่องหมายการเล็งอัตโนมัติ"
+
+msgid "marker/alt"
+msgstr "ตัวเลือก"
+
+msgid "marker/base"
+msgstr "ปกติ"
+
+msgid "marker/damage"
+msgstr "ความเสียหายที่ได้รับ"
+
+msgid "marker/dead"
+msgstr "แสดงที่ถูกทำลาย"
+
+msgid "marker/hp"
+msgstr "ความทนทานของยานเกราะ"
+
+msgid "marker/hp/type0"
+msgstr "เปอร์เซนต์ %"
+
+msgid "marker/hp/type1"
+msgstr "พลังเหลือ / ทั้งหมด"
+
+msgid "marker/hp/type2"
+msgstr "พลังเหลือ"
+
+msgid "marker/hp/type3"
+msgstr "อย่าแสดง"
+
+msgid "marker/hpIndicator"
+msgstr "มาตรวัดความทนทาน"
+
+msgid "marker/icon"
+msgstr "สัญลักษณ์ยานเกราะ"
+
+msgid "marker/level"
+msgstr "ระดับ"
+
+msgid "marker/level/tooltip/body"
+msgstr "เมื่อทำการเปิดการตั้งค่านี้ ระดับจะถูกแสดงเหนือพาหนะเอาไว้\n\nในพรานเหล็ก จะทำการแสดงขั้นยกระดับปัจจุบันเอาไว้"
+
+msgid "marker/level/tooltip/header"
+msgstr "ระดับ"
+
+msgid "marker/name"
+msgstr "ชื่อยานเกราะ"
+
+msgid "marker/name/type2"
+msgstr "อย่าแสดง"
+
+msgid "marker/nickname"
+msgstr "ผู้เล่น"
+
+msgid "markerTitle"
+msgstr "เครื่องหมาย"
+
+msgid "minimap/labels/alpha"
+msgstr "ความโปร่งใสของแผนที่ย่อ"
+
+msgid "minimap/labels/size"
+msgstr "ขนาดเต็มที่"
+
+msgid "monitor"
+msgstr "จอภาพ"
+
+msgid "monitor/description"
+msgstr "เลือกจอหลักสำหรับเกม"
+
+msgid "mouse/sensitivity/art"
+msgstr "การเล็งแบบปืนวิถีโค้ง"
+
+msgid "mouse/sensitivity/art2"
+msgstr "มุมมองวิถีกระสุน"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "มุมกล้องอิสระ"
+
+msgid "mouse/sensitivity/header"
+msgstr "ความอ่อนไหว"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "การกลับแนวนอน"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "การกลับแนวตั้ง"
+
+msgid "mouse/sensitivity/main"
+msgstr "การเล็งแบบอาร์เคด"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "การเล็งประณีต"
+
+msgid "mouse/startDist"
+msgstr "ตำแหน่งกล้อง"
+
+msgid "ok_button"
+msgstr "ตกลง"
+
+msgid "otherSettings/fieldset/header"
+msgstr "องค์ประกอบเสียงแวดล้อม"
+
+msgid "otherSettings/labels/bulb"
+msgstr "เสียงการใช้งานสัมผัสที่หก"
+
+msgid "otherTitle"
+msgstr "อื่นๆ"
+
+msgid "physicsQuality"
+msgstr "คุณภาพฟิสิกส์เสียง"
+
+msgid "refreshRate"
+msgstr "อัตราการปรับหน้าจอ"
+
+msgid "refreshRate/default"
+msgstr "โดยมาตรฐาน"
+
+msgid "refreshRate/description"
+msgstr "อัตราการปรับภาพของจอภาพ\n\nอัตราการปรับที่ไม่ตรงกับการปรับของจอภาพอาจจะทำให้เกิดการกระพริบของหน้าจอได้\n\nไม่มีผลต่อสมรรถนะของเกม"
+
+msgid "resolution"
+msgstr "ความละเอียด"
+
+msgid "resolution/description"
+msgstr "รายละเอียดแนวตั้งและแนวนอนของจอในการแสดงภาพแบบเต็มจอ รายละเอียดที่สูงขึ้นจะเพิ่มคุณภาพภาพ การตั้งรายละเอียดที่ไม่ตรงกันในการแสดงภาพแบบเต็มจอจะทำให้ภาพบิดเบี้ยวได้\n\nการเพิ่มค่าตัวแปรจะเพิ่มภาระกับการ์ดจอและลดสมรรถนะของเกมได้\n\nภาระของการ์ดจอถูกลดได้โดยการตั้งค่ารายละเอียดการแสดงภาพสามมิติ"
+
+msgid "restartNewbieBattleHints"
+msgstr "ตั้งคำแนะนำผู้เริ่มเล่นใหม่"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "ตั้งประวัติคำแนะนำผู้เริ่มเล่นใหม่ที่ได้แสดงให้คุณเห็นอีกครั้ง"
+
+msgid "screenMode"
+msgstr "รูปแบบเกม"
+
+msgid "screenMode/borderless"
+msgstr "หน้าต่าง (ไม่มีขอบ)"
+
+msgid "screenMode/description"
+msgstr "การเปลี่ยนระหว่างรูปแบบหน้าจอแบบเต็ม หน้าต่าง และหน้าต่างไม่มีขอบ รูปแบบจอหน้าต่างจะลดสมรรถนะของเกมลง"
+
+msgid "screenMode/fullscreen"
+msgstr "แบบเต็มจอ"
+
+msgid "screenMode/label"
+msgstr "รูปแบบ:"
+
+msgid "screenMode/windowed"
+msgstr "แบบหน้าต่าง"
+
+msgid "smoothing/description"
+msgstr "เลือกระดับของการประมวลผลเพิ่มเติมของเส้นบางและเส้นขอบของวัตถุในฉากในเกม ลดเอฟเฟคของรอยหยัก เส้นขอบของวัตถุจะดูเป็นธรรมชาติขึ้น"
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "มาตรฐาน"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "เสียงผู้ใช้"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "รุ่น 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "รุ่น 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "เสียงผู้ใช้"
+
+msgid "sound/dynamicRange/label"
+msgstr "ระดับแปรผัน"
+
+msgid "sound/fieldset/header"
+msgstr "ความดังเสียง"
+
+msgid "sound/players_notifications"
+msgstr "การแจ้งเตือนจากผู้เล่นคนอื่น"
+
+msgid "sound/presets/title"
+msgstr "ค่าตั้งไว้แล้ว"
+
+msgid "sound/soundModes/U01"
+msgstr "ผู้ใช้ 1"
+
+msgid "sound/soundModes/U02"
+msgstr "ผู้ใช้ 2"
+
+msgid "sound/soundModes/U03"
+msgstr "ผู้ใช้ 3"
+
+msgid "sound/soundModes/U04"
+msgstr "ผู้ใช้ 4"
+
+msgid "sound/soundModes/default"
+msgstr "มาตรฐาน"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "ผู้บังคับการ"
+
+msgid "sound/special/field/set"
+msgstr "เสียงกิจกรรมในเกม"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "ปรับอุปกรณ์ใหม่"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "เสร็จการทดสอบ"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "เริ่มการทดสอบ"
+
+msgid "sound/vivox/fade_volume"
+msgstr "เสียงแทรกระหว่างการสนทนา"
+
+msgid "sound/vivox/master_volume"
+msgstr "ความดังของการสนทนาเสียง"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "ความอ่อนไหวของไมโครโฟน"
+
+msgid "sound/vivox/vivox_test"
+msgstr "ทดสอบ Vivox"
+
+msgid "soundTitle"
+msgstr "เสียง"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "เลือกอัตโนมัติ"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "ระบบ 2.0/2.1"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "ระบบ 5.1"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "ระบบ 7.1"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "หูฟัง"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "กลาง"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "ซ้าย"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "ซ้ายหลัง"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "ซ้ายหน้า"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "ซ้ายข้าง"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "ขวา"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "ขวาหลัง"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "ขวาหน้า"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "ขวาข้าง"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "ลำโพงเสียงต่ำ"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "แลปท๊อป"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "การทดสอบเสียง:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "เสียงทดสอบ"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "ข้อความเสียงจะขึ้นกับประเทศของพาหนะและเพศของผู้บังคับการ"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "ผู้บังคับการ"
+
+msgid "sounds/altVoice/default/body"
+msgstr "เสียงชายในภาษาของโปรแกรมลูกข่ายเกม"
+
+msgid "sounds/altVoice/default/header"
+msgstr "มาตรฐาน"
+
+msgid "sounds/ambient"
+msgstr "เสียงทั่วไป"
+
+msgid "sounds/arena"
+msgstr "เพลงในการรบ"
+
+msgid "sounds/artyBulbVoices"
+msgstr "การตรวจจับเสียง"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "เลือกหนึ่งในรุ่นของเสียงเปิดใช้งานการตรวจจับเสียง ในการใช้เสียงของคุณเอง เปลี่ยนชื่อไฟล์ .mp3 ของคุณเป็น soundExploring และย้ายมันไปยังห้อง res/audioww"
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "เสียงเปิดใช้งานการตรวจจับเสียง"
+
+msgid "sounds/bassBoost"
+msgstr "การเสริมความถี่ต่ำ"
+
+msgid "sounds/bassBoost/description"
+msgstr "เสริมความถี่ต่ำในเกมโดยที่เสียงหลักยังคงเดิม การใช้งานรูปแบบนี้จะแตกต่างกันไปตามระบบเสียงที่เลือก (ลำโพง หูฟัง หรือแลปท๊อป)"
+
+msgid "sounds/bulbVoices"
+msgstr "สัมผัสที่หก"
+
+msgid "sounds/bulbVoices/description"
+msgstr "เลือกหนึ่งในรุ่นของเสียงเปิดใช้งานสัมผัสที่หก ในการใช้เสียงของคุณเอง เปลี่ยนชื่อไฟล์ .mp3 ของคุณเป็น sixthSense และย้ายมันไปยังห้อง res/audioww"
+
+msgid "sounds/effects"
+msgstr "เสียงเอฟเฟคต์"
+
+msgid "sounds/gui"
+msgstr "แผงโต้ตอบ"
+
+msgid "sounds/hangar"
+msgstr "เพลงในโรงรถ"
+
+msgid "sounds/masterVolume"
+msgstr "ความดังเสียงหลัก"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "เปิดเสียง"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "การปิดเสียงเอฟเฟคในเกมอาจจะทำให้สมรรถนะเกมโดยรวมดีขึ้น คุณจะต้องทำการเริ่มโปรแกรมลูกข่ายเกมใหม่เพื่อให้มีผลใช้งาน"
+
+msgid "sounds/nightMode"
+msgstr "แบบกลางคืน"
+
+msgid "sounds/nightMode/description"
+msgstr "ปรับความต่างเสียงให้เท่ากัน ลดเสียงแหลมและลดความถี่ต่ำในเกม สร้างสภาพแวดล้อมเสียงที่ต่ำเหมาะสำหรับการเล่นเกมในช่วงดึก"
+
+msgid "sounds/physicsQuality/attention"
+msgstr "การเปิดใช้เนื้อหานี้อาจจะมีผลกับสมรรถนะของเกม"
+
+msgid "sounds/physicsQuality/body"
+msgstr "ควบคุมคุณภาพฟิสิกส์เสียง\n\nจำลองว่าเสียงเลี้ยวผ่านวัตถุและผ่านพื้นผิวแผนที่อย่างไร\n\nใช้เรขาคณิตของแผนที่เพื่อสร้างการสะท้อนเสียงรถถังกับวัตถุที่อยู่ใกล้ๆ\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "คุณภาพฟิสิกส์เสียง"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "ปิดไว้"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "สูง"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "ต่ำ"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "กลาง"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "แนะนำ"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "กำหนดคุณภาพฟิสิกส์เสียงที่เหมาะสมสำหรับคอมพิวเตอร์ของคุณ\n\nนี่อาจจะใช้เวลาพักหนึ่ง"
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "แนะนำ"
+
+msgid "sounds/sixthSense/body"
+msgstr "เสียงตั้งค่าเอง ให้ย้ายไฟล์ sixthSense.mp3 ไปยังห้อง res/audioww"
+
+msgid "sounds/sixthSense/header"
+msgstr "ตั้งเอง"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "เสียง 2.0/2.1."
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "ปรับเสียงในเกมสำหรับลำโพงเสียงภายนอกที่แสดงเสียงได้เต็มระยะ (2.0) หรือชุดลำโพงความถี่สูงที่เชื่อมเข้าไว้ + ลำโพงความถี่ต่ำหนึ่งตัว (2.1)"
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "เสียง 2.0/2.1."
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "ระบบ 5.1"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "ปรับตำแหน่งของเสียงในเกมสำหรับลำโพงภายนอกและลำโพงเสียงต่ำในระบบเสียงหลายช่อง 5.1"
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "ระบบ 5.1"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "ระบบ 7.1"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "ปรับเสียงในเกมสำหรับลำโพงภายนอกและลำโพงเสียงต่ำในระบบเสียงหลายช่อง 7.1"
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "ระบบ 7.1"
+
+msgid "sounds/soundDevice/auto"
+msgstr "เลือกอัตโนมัติ"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "ทำการเลือกการตั้งค่าเสียงโดยอัตโนมัติที่ระบุไว้ในระบบปฏิบัติการ"
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "เลือกอัตโนมัติ"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "หูฟังครอบหัว"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "ปรับเสียงในเกมสำหรับหูฟังครอบหัว"
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "หูฟังครอบหัว"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "แลปท๊อป"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "ใช้หลักการวางตำแหน่งของการตั้งค่าล่วงหน้าระบบเสียง 2.0/2.1 แต่ปรับเสียงในเกมสำหรับลำโพงขนาดเล็กบนแลปท๊อปที่คุณภาพสูงสุดที่เป็นไปได้"
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "แลปท๊อป"
+
+msgid "sounds/soundQuality"
+msgstr "เสียงคุณภาพต่ำ"
+
+msgid "sounds/soundQuality/description"
+msgstr "การลดคุณภาพเสียงอาจจะปรับปรุงสมรรถนะโดยรวมของเกมในคอมพิวเตอร์ระดับล่าง การเปิดรูปแบบนี้จะลดจำนวนเสียงที่ทำการประมวลในเวลาเดียวกันลง"
+
+msgid "sounds/speakers/back/body"
+msgstr "การทดสอบเสียงลำโพงหลัง ขวา/ซ้าย"
+
+msgid "sounds/speakers/back/header"
+msgstr "ลำโพงหลัง ซ้าย/ขวา"
+
+msgid "sounds/speakers/center/body"
+msgstr "การทดสอบเสียงลำโพงกลาง"
+
+msgid "sounds/speakers/center/header"
+msgstr "ลำโพงกลาง"
+
+msgid "sounds/speakers/front/body"
+msgstr "การทดสอบเสียงลำโพงหน้า ขวา/ซ้าย"
+
+msgid "sounds/speakers/front/header"
+msgstr "ลำโพงหน้า ขวา/ซ้าย"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "ในระบบ 2.0/2.1 ลำโพงเสียงต่ำเป็นอุปกรณ์เพิ่มเติม ซึ่งจะไม่สามารถทดสอบโดยไม่มีลำโพงได้"
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "ลำโพงเสียงต่ำตัวเลือก"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "การทดสอบเสียงลำโพงข้างขวา/ซ้าย"
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "ลำโพงข้างขวา/ซ้าย"
+
+msgid "sounds/speakers/sides/body"
+msgstr "การทดสอบลำโพงขวา/ซ้าย"
+
+msgid "sounds/speakers/sides/header"
+msgstr "ลำโพงขวา/ซ้าย"
+
+msgid "sounds/speakers/sub/body"
+msgstr "การทดสอบเสียงลำโพงเสียงต่ำ"
+
+msgid "sounds/speakers/sub/header"
+msgstr "ลำโพงเสียงต่ำ"
+
+msgid "sounds/subtitles"
+msgstr "คำบรรยาย"
+
+msgid "sounds/tabCommon"
+msgstr "เสียงหลัก"
+
+msgid "sounds/tabSpecial"
+msgstr "กิจกรรมในเกม"
+
+msgid "sounds/tabVivox"
+msgstr "สนทนาเสียง"
+
+msgid "sounds/vehicles"
+msgstr "พาหนะ"
+
+msgid "sounds/voiceNotification"
+msgstr "การแจ้งเตือนด้วยเสียง"
+
+msgid "title"
+msgstr "การตั้งค่า"
+
+msgid "tripleBuffered"
+msgstr "ทริเปิลบัฟเฟอริง"
+
+msgid "tripleBuffered/description"
+msgstr "ลดการขาดของภาพ(มีให้เมื่อเปิดใช้งานการประสานแนวตั้งแล้วเท่านั้น)"
+
+msgid "vertSync"
+msgstr "การประสานสัญญาณแนวตั้ง"
+
+msgid "vertSync/Off"
+msgstr "ปิด"
+
+msgid "vertSync/On"
+msgstr "เปิด"
+
+msgid "vertSync/description"
+msgstr "การประสานอัตราภาพกับการตรวจสอบแนวตั้งของจอภาพ\n\nอัตราภาพ 60 ภาพต่อวินาทีเป็นขีดจำกัดของการแสดงภาพ สามารถใช้เมื่อภาพในจอมีการสั่นหรืออาการภาพช้าในด้านล่างจอภาพเมื่อเทียบกับด้านบนของจอ"
+
+msgid "voice_chat/PTT"
+msgstr "กดเพื่อพูด"
+
+msgid "voice_chat/fieldset/header"
+msgstr "ความดังเสียง"
+
+msgid "voice_chat/header/common"
+msgstr "ทั่วไป"
+
+msgid "voice_chat/header/microphone"
+msgstr "ไมโครโฟน"
+
+msgid "voice_chat/header/speakers"
+msgstr "หูฟังครอบหัว"
+
+msgid "voice_chat/microphone"
+msgstr "ไมโครโฟน"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "ไมโครโฟน"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "เปิดใช้ไมโครโฟน"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "เปิดใช้การสนทนาเสียง"
+
+msgid "windowSize"
+msgstr "ขนาดหน้าต่าง"
+
+msgid "windowSize/description"
+msgstr "รายละเอียดแนวตั้งและแนวนอนของจอของหน้าต่างโปรแกรมลูกข่ายเกม เมื่อเปลี่ยนเป็นหน้าจอแบบเต็มการตั้งค่าจะเปลี่ยนไปยัง \"รายละเอียดหน้าจอ\""
+
+msgid "windowTitle"
+msgstr "โปรแกรมลูกข่าย WoT"

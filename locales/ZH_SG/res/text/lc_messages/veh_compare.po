@@ -1,0 +1,467 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "addVehPopover/btnAdd"
+msgstr "添加 (%(count)d)"
+
+msgid "addVehPopover/btnCancel"
+msgstr "取消"
+
+msgid "addVehPopover/header"
+msgstr "选择要比较的战车"
+
+msgid "addVehPopover/showOnlyMyVahicles"
+msgstr "显示车库中的战车"
+
+msgid "addVehPopover/tooltips/addToCompare/body"
+msgstr "添加已选战车到比较"
+
+msgid "addVehPopover/tooltips/addToCompare/header"
+msgstr "添加"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/body"
+msgstr "要继续添加一辆战车进行比较，请先从列表中删除不必要的战车。"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/header"
+msgstr "无法添加"
+
+msgid "addVehPopover/tooltips/inHangar/body"
+msgstr "按车库中的战车排序"
+
+msgid "addVehPopover/tooltips/inHangar/header"
+msgstr "车库中的战车"
+
+msgid "addVehPopover/tooltips/level/body"
+msgstr "按战车等级排序"
+
+msgid "addVehPopover/tooltips/level/header"
+msgstr "战车"
+
+msgid "addVehPopover/tooltips/nation/body"
+msgstr "按国家排序。"
+
+msgid "addVehPopover/tooltips/nation/header"
+msgstr "国家"
+
+msgid "addVehPopover/tooltips/selectVehicle/body"
+msgstr "按已选战车排序。"
+
+msgid "addVehPopover/tooltips/selectVehicle/header"
+msgstr "已选战车"
+
+msgid "addVehPopover/tooltips/title/body"
+msgstr "按战车名称排序。"
+
+msgid "addVehPopover/tooltips/title/header"
+msgstr "名称"
+
+msgid "addVehPopover/tooltips/type/body"
+msgstr "按战车类型排序。"
+
+msgid "addVehPopover/tooltips/type/header"
+msgstr "类型"
+
+msgid "addVehPopover/vehicleName"
+msgstr "名称"
+
+msgid "cartPopover/configurationType/basic"
+msgstr "标准"
+
+msgid "cartPopover/configurationType/current"
+msgstr "当前"
+
+msgid "cartPopover/configurationType/custom"
+msgstr "配置"
+
+msgid "cartPopover/configurationType/premium"
+msgstr "高级"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/attention"
+msgstr "要继续添加一辆战车进行比较，请先从列表中删除不必要的战车。"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/header"
+msgstr "无法添加"
+
+msgid "cartPopover/gotoCompareBtn/label"
+msgstr "比较(%(value)s)"
+
+msgid "cartPopover/openCmpBtn/tooltip/body"
+msgstr "前往对比所选战车。"
+
+msgid "cartPopover/openCmpBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeAllBtn/label"
+msgstr "清空列表"
+
+msgid "cartPopover/removeAllBtn/tooltip/body"
+msgstr "移除列表中所哟迠"
+
+msgid "cartPopover/removeAllBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtn/tooltip/body"
+msgstr "点击从比较列表中移除战车"
+
+msgid "cartPopover/removeBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtnLocked/tooltip/body"
+msgstr "配置窗口开启时，不能从对比列表移除战车。"
+
+msgid "cartPopover/removeBtnLocked/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeLockedBtn/tooltip/body"
+msgstr "当配置窗口开启时，不能从对比列表移除战车。"
+
+msgid "cartPopover/removeLockedBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/sorting/nation/body"
+msgstr "显示已选战车的国家。"
+
+msgid "cartPopover/sorting/nation/header"
+msgstr "国家"
+
+msgid "cartPopover/sorting/vehLvl/body"
+msgstr "显示已选战车的等级"
+
+msgid "cartPopover/sorting/vehLvl/header"
+msgstr "等级"
+
+msgid "cartPopover/sorting/vehName"
+msgstr "名称"
+
+msgid "cartPopover/sorting/vehName/tooltip/body"
+msgstr "显示已选战车的名称"
+
+msgid "cartPopover/sorting/vehName/tooltip/header"
+msgstr "名称"
+
+msgid "cartPopover/sorting/vehType/body"
+msgstr "显示已选战车的类型"
+
+msgid "cartPopover/sorting/vehType/header"
+msgstr "类型"
+
+msgid "cartPopover/title"
+msgstr "比较列表"
+
+msgid "compareVehicleBtn/tooltips/disabledOnServer/attention"
+msgstr "目前无法进行此操作。"
+
+msgid "header/closeBtn/label"
+msgstr "关闭"
+
+msgid "menu/cloneForCompare"
+msgstr "复制并比较"
+
+msgid "modulesView/closeBtnLabel"
+msgstr "取消"
+
+msgid "modulesView/closeBtnLabel/tooltip/body"
+msgstr "点击取消当前模块选择并返回战车配置。"
+
+msgid "modulesView/closeBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/compareBtnLabel"
+msgstr "接受"
+
+msgid "modulesView/compareBtnLabel/tooltip/body"
+msgstr "点击保存已选模块并返回战车配置。"
+
+msgid "modulesView/compareBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/resetBtnLabel"
+msgstr "重置"
+
+msgid "modulesView/resetBtnLabel/tooltip/body"
+msgstr "点击重置战车到标准配置。"
+
+msgid "modulesView/resetBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/title"
+msgstr "%(vehName)s模块配置"
+
+msgid "modulesView/vehicleStatus/inHangar"
+msgstr "车库中"
+
+msgid "modulesView/vehicleStatus/readyToBuy"
+msgstr "未购买"
+
+msgid "modulesView/vehicleStatus/readyToResearch"
+msgstr "未研发"
+
+msgid "skillSelect/bonusSkills"
+msgstr "额外特长"
+
+msgid "skillSelect/button/addToCompare"
+msgstr "加入比较"
+
+msgid "skillSelect/button/cancel"
+msgstr "取消"
+
+msgid "skillSelect/button/restore"
+msgstr "重置"
+
+msgid "skillSelect/majorSkills"
+msgstr "主要专精特长"
+
+msgid "skillSelect/tooltip/additionalRoles"
+msgstr "额外职责："
+
+msgid "skillSelect/tooltip/generalPrinciple"
+msgstr "一般原则"
+
+msgid "skillSelect/tooltip/generalPrincipleDescription"
+msgstr "配置界面显示特长整体熟练度为{cream_Open}100%{cream_Close}时，训练到\n{cream_Open}100%{cream_Close}的特长对相应属性的影响。"
+
+msgid "skillSelect/tooltip/heading"
+msgstr "%(vehicleName)s的乘员特长"
+
+msgid "skillSelect/tooltip/roles"
+msgstr "专精"
+
+msgid "skillSelect/tooltipHint"
+msgstr "*选择特长后会显示整体熟练度为100%时，训练到100%的特长对相应属性的影响。"
+
+msgid "skillsConf/empty"
+msgstr "选择乘员特长"
+
+msgid "skillsConf/emptyTooltip/body"
+msgstr "选择特长查看对战车属性的影响"
+
+msgid "skillsConf/emptyTooltip/header"
+msgstr "乘员特长"
+
+msgid "skillsConf/header"
+msgstr "乘员特长"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "加入比较"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "您无法将这辆战车加入比较。"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/body"
+msgstr "要继续添加一辆战车进行比较，请先从列表中删除不必要的战车。"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/header"
+msgstr "无法添加"
+
+msgid "techTree/tooltips/addToCompare/body"
+msgstr "加入比较"
+
+msgid "techTree/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehConf/applyBtnLabel"
+msgstr "应用"
+
+msgid "vehConf/btnCleanUp"
+msgstr "清除"
+
+msgid "vehConf/cancelBtnLabel"
+msgstr "取消"
+
+msgid "vehConf/cancelBtnLabel/tooltip/body"
+msgstr "点击取消所选配置并返回对比。"
+
+msgid "vehConf/cancelBtnLabel/tooltip/header"
+msgstr "取消"
+
+msgid "vehConf/compareBtnLabel/tooltip/body"
+msgstr "点击保存所选配置并返回对比。"
+
+msgid "vehConf/compareBtnLabel/tooltip/header"
+msgstr "应用"
+
+msgid "vehConf/confAvailable"
+msgstr "配置\n已开放"
+
+msgid "vehConf/doesntAffect"
+msgstr "不影响属性(技术参数)"
+
+msgid "vehConf/equipment"
+msgstr "装备和消耗品"
+
+msgid "vehConf/header"
+msgstr "%(vehName)s配置"
+
+msgid "vehConf/modifications/choose"
+msgstr "选择改装"
+
+msgid "vehConf/modifications/title"
+msgstr "改装"
+
+msgid "vehConf/modules"
+msgstr "模块"
+
+msgid "vehConf/resetBtnLabel"
+msgstr "重置"
+
+msgid "vehConf/resetBtnLabel/tooltip/body"
+msgstr "点击恢复到战车默认配置。"
+
+msgid "vehConf/resetBtnLabel/tooltip/header"
+msgstr "重置"
+
+msgid "vehConf/tooltips/btnCleanUp/body"
+msgstr "点击从配置中移除所选装备"
+
+msgid "vehConf/tooltips/btnCleanUp/header"
+msgstr "清除"
+
+msgid "vehConf/tooltips/camoInfo"
+msgstr "根据地图类型使用对应的夏季、冬季、沙漠迷彩提高战车的隐蔽性。"
+
+msgid "vehConf/tooltips/camoInfoDisabled/body"
+msgstr "这种全季节迷彩是车体的一部分。不能移除或替换。"
+
+msgid "vehConf/tooltips/camoInfoDisabled/header"
+msgstr "全季节迷彩"
+
+msgid "vehConf/tooltips/camoTitle"
+msgstr "迷彩"
+
+msgid "vehConf/tooltips/defCamoInfo"
+msgstr "3种迷彩类型已装备\n无法移除：冬季，夏季，沙漠。"
+
+msgid "vehConf/tooltips/deviceNotAffectedTTC"
+msgstr "不影响战车的属性(技术参数)"
+
+msgid "vehConf/tooltips/modifications/description"
+msgstr "根据战车角色选择改装，您可以调整战车配置并改变它的属性。"
+
+msgid "vehConf/tooltips/modifications/remove"
+msgstr "取消所有改装"
+
+msgid "vehConf/tooltips/modifications/title"
+msgstr "改装面板"
+
+msgid "vehConf/tooltips/revertBtn/body"
+msgstr "点击恢复到战车默认配置。"
+
+msgid "vehConf/tooltips/revertBtn/header"
+msgstr "?empty?"
+
+msgid "vehConf/tooltips/topModulesLabel/body"
+msgstr "这辆战车没有其他可用模块:战车配置不可改变。"
+
+msgid "vehConf/tooltips/topModulesLabel/header"
+msgstr "顶级配置"
+
+msgid "vehConf/tooltips/topModulesOff/body"
+msgstr "点击为战车选择最高级的模块。"
+
+msgid "vehConf/tooltips/topModulesOff/header"
+msgstr "顶级配置"
+
+msgid "vehConf/tooltips/topModulesOn/body"
+msgstr "点击取消顶级配置。"
+
+msgid "vehConf/tooltips/topModulesOn/header"
+msgstr "顶级配置"
+
+msgid "vehConf/topModulesBtnLabel"
+msgstr "选择顶级配置"
+
+msgid "vehConf/topModulesLabel"
+msgstr "顶级配置"
+
+msgid "vehPreview/compareInfo/addToCompare"
+msgstr "加入比较—"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "加入比较"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "您无法将这辆战车加入比较。"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/body"
+msgstr "要继续添加一辆战车进行比较，请先从列表中删除不必要的战车。"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/header"
+msgstr "无法添加"
+
+msgid "vehicleCompareView/btnAddVehicles"
+msgstr "加入比较"
+
+msgid "vehicleCompareView/configurationType/basic"
+msgstr "标准"
+
+msgid "vehicleCompareView/configurationType/current"
+msgstr "当前"
+
+msgid "vehicleCompareView/configurationType/custom"
+msgstr "配置"
+
+msgid "vehicleCompareView/configure"
+msgstr "配置"
+
+msgid "vehicleCompareView/toHangar"
+msgstr "在车库中查看"
+
+msgid "vehicleCompareView/toPreview"
+msgstr "预览"
+
+msgid "vehicleCompareView/tooltips/addVehicles/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/addVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/configure/body"
+msgstr "点击选择影响属性的参数"
+
+msgid "vehicleCompareView/tooltips/configure/header"
+msgstr "配置参数"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/body"
+msgstr "点击移除所有比较战车"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/body"
+msgstr "从比较中移除"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/topPanel/noVehicle"
+msgstr "未选择战车"
+
+msgid "vehicleCompareView/topPanel/premium"
+msgstr "高级"
+
+msgid "vehicleCompareView/topPanel/vehiclesCount"
+msgstr "进行比较的战车：%(count)s"

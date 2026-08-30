@@ -1,0 +1,48 @@
+from frameworks.wulf import ViewModel
+from gui.impl.gen.view_models.ui_kit.list_model import ListModel
+from gui.impl.gen.view_models.views.lobby.blueprints.blueprint_value_price import BlueprintValuePrice
+
+class BlueprintPriceContentModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=4, commands=0):
+        super(BlueprintPriceContentModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    @property
+    def valueMain(self):
+        return self._getViewModel(0)
+
+    @staticmethod
+    def getValueMainType():
+        return BlueprintValuePrice
+
+    @property
+    def additionalValues(self):
+        return self._getViewModel(1)
+
+    @staticmethod
+    def getAdditionalValuesType():
+        return ListModel
+
+    def getTooltipId(self):
+        return self._getNumber(2)
+
+    def setTooltipId(self, value):
+        self._setNumber(2, value)
+        return
+
+    def getHasAdditionalCost(self):
+        return self._getBool(3)
+
+    def setHasAdditionalCost(self, value):
+        self._setBool(3, value)
+        return
+
+    def _initialize(self):
+        super(BlueprintPriceContentModel, self)._initialize()
+        self._addViewModelProperty(b'valueMain', BlueprintValuePrice())
+        self._addViewModelProperty(b'additionalValues', ListModel())
+        self._addNumberProperty(b'tooltipId', 0)
+        self._addBoolProperty(b'hasAdditionalCost', False)
+        return

@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT 번역가 <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "클립 재장전"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "닫기"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "순항모드 후진"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "순항모드 전진"
+
+msgid "battleControls/disableLockTarget"
+msgstr "자동조준 해제"
+
+msgid "battleControls/fire"
+msgstr "발포"
+
+msgid "battleControls/hideInterface"
+msgstr "인터페이스 표시/숨김"
+
+msgid "battleControls/hideMinimap"
+msgstr "미니맵 숨김/표시"
+
+msgid "battleControls/makeScreenshort"
+msgstr "스크린샷 저장"
+
+msgid "battleControls/movementBackward"
+msgstr "후진"
+
+msgid "battleControls/movementForward"
+msgstr "전진"
+
+msgid "battleControls/movementLeft"
+msgstr "좌회전"
+
+msgid "battleControls/movementRight"
+msgstr "우회전"
+
+msgid "battleControls/pageTitle"
+msgstr "기본 정보"
+
+msgid "battleControls/showCursor"
+msgstr "커서 표시"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(미니맵, 플레이어 목록, 기타)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "대체 표식 표시"
+
+msgid "battleControls/stopFire"
+msgstr "일시 정지"
+
+msgid "battleControls/switchAutorotation"
+msgstr "차체 고정 / 모드 전환"
+
+msgid "battleControls/title"
+msgstr "전투 모드"
+
+msgid "battleControls/toggleAFL"
+msgstr "장갑 구분색 활성화/비활성화"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "저격 모드에서만 사용 가능"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "자동 조준 사용/해제"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(조준선에 목표 위치)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "팀원 명단 표시/숨김"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "칭찬 돌려주기"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "저격 모드 사용/해제"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "자주포 모드"
+
+msgid "battleControls/voiceChatMute"
+msgstr "음성 대화 활성화"
+
+msgid "chatControls/change"
+msgstr "아군/소대"
+
+msgid "chatControls/enterToChatMode"
+msgstr "대화 입력"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "대화 끄기"
+
+msgid "chatControls/send"
+msgstr "메시지 보내기"
+
+msgid "chatControls/title"
+msgstr "대화 모드"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "남은 포탄"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "피격 방향"
+
+msgid "crosshairControls/dispercion"
+msgstr "분산도"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "포신 방향"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "플레이어 내구도"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "내구도 표시기"
+
+msgid "crosshairControls/hpValues"
+msgstr "대상 내구도 (%/남은 내구도/전체)"
+
+msgid "crosshairControls/marker"
+msgstr "조준 위치"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "장전 중"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "주포 재장전 시간(초)"
+
+msgid "crosshairControls/targetClass"
+msgstr "전차 유형 표시기"
+
+msgid "crosshairControls/targetDistance"
+msgstr "목표와 거리"
+
+msgid "crosshairControls/targetIcon"
+msgstr "전차 아이콘"
+
+msgid "crosshairControls/targetLevel"
+msgstr "전차 단계"
+
+msgid "crosshairControls/targetName"
+msgstr "전차 / 플레이어"
+
+msgid "crosshairControls/title"
+msgstr "포신 및 조준 지시선"
+
+msgid "detailsHelp/default/title"
+msgstr "도움말"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "지도 특징"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "돌발 상황 발생 지역은 지도에 연기로 표시되며\n미니맵에서 표식도 확인할 수 있습니다.\n돌발 상황 발생 지도는 게임 설정 화면 일반 메뉴에서 비활성화할 수 있습니다."
+
+msgid "detailsHelp/devMaps/title"
+msgstr "돌발 상황 발생 지도"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "항공기 추락 등 돌발 상황 발생 지역 내에 있으면 전차가 파괴될 수도 있습니다.\n돌발 상황 발생 지도는 게임 설정 화면 일반 메뉴에서 비활성화할 수 있습니다."
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "사격 시 주포를 전환합니다. 포탄을 발사한 주포는 자동으로 재장전되며 두 번째 주포는 잠시 대기 후 바로 사격할 수 있습니다."
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "단발 사격"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "설정된 키를 누르고 있으면 주포를 일제 사격합니다. 발사된 포탄은 나란히 날아가며 발사 버튼은 설정에서 변경할 수 있습니다."
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "일제 사격"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "전투 상황에 따라 엔진 모드를 전환할 수 있습니다. 엔진 모드를 변경하려면 완전히 정지 후 부품 상태와 관계없이 일정 시간 대기해야 합니다."
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "새로운 기동 기능"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "터보 모드로 전환 시 엔진 출력, 전진 속력, 후진 속력이 증가합니다. 하지만, 해당 모드 사용 시 전차 위장률과 주포 안정성이 감소하고 조준 시간이 증가합니다."
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "장단점"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "지도 특징"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "기상 상황이 발생한 구역 내 전차와 바깥쪽 전차는 서로를 관측할 수 없습니다. 또한, 구역 밖에 있는 적 전차 위치에 대한 정보도 전달이 불가능합니다. 화재가 발생한 지역에 있는 전차는 피해를 입습니다."
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "기상 상황"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "정지 상태를 유지하거나 일정 속력 이하로 이동하면 전차의 아날로그식 탄도 계산 장치가 보정됨에 따라 명중률 단계가 상승합니다.\n명중률 단계당 다음 포탄의 명중률이 향상됩니다."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "아날로그식 탄도 계산기"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "보정이 완전해지면 전차 명중률 최고 단계에 도달하여 기동 또는 포탑/차체 회전 시 분산도가 감소하는 등 전차 주포 안정성이 준수한 수준으로 향상됩니다.\n해당 효과는 사격 시 제거됩니다."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "완전 보정"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "엄청난 연사력을 자랑하는 자동 화기의 일종입니다. 사격 효율은 조준원 내 표시기를 통해 확인할 수 있습니다."
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "자동포"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "해당 주포는 재장전 없이 연속으로 사격할 수 있습니다. 사격 시마다 열이 발생하며, 연속 사격으로 주포가 과열되면 냉각될 때까지 사격할 수 없는 상태가 됩니다."
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "과열 제어 자동포"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "적에게 포탄이 명중하면 재장전 효율 단계가 상승하여 일시적으로 주포의 재장전 속도가 가속됩니다. 단계는 포탄이 명중할 때마다 누적됩니다.\n적 전차를 포탄으로 격파하면 재장전 효율 단계가 추가로 상승합니다."
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "반자동 탄약 적재함"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "주포가 장전되면 다음에 발사할 포탄을 가열할 수 있습니다. 가열 단계가 높을수록 평균 공격력에 더 큰 보너스가 적용됩니다.\n가열 시작 단축키:"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "열탄도 과충전"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "가열 최고 단계에 도달하면 초읽기가 시작됩니다. 초읽기가 끝나기 전에 사격하지 않으면 수 초 동안 사격하거나 포탄을 교체할 수 없습니다."
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "충전 과열"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "적 전차에 장갑 관통 피해를 두 번 기록하면 점사용 탄통을 장착하여 점사 모드가 활성화됩니다. 다음 사격 시 포탄을 두 발 연속으로 빠르게 발사하여 큰 피해를 입힐 수 있습니다."
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "점사 모드"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "공기압 자이로 안정기는 차체 및 포탑 회전 시 안정성을 극대화하여 움직이는 도중에도 정확히 사격할 수 있어 갑작스러운 위협에 빠르게 반응할 수 있도록 하는 기능입니다.\n활성화 단축키:"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "공기압 자이로 안정기"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "사격 후 주포가 충분히 냉각되면 분산도가 감소합니다. 주포 냉각 시 반경이 더 작은 두 번째 조준원이 표시되며 해당 범위를 기준으로 포탄이 발사됩니다. 다음 포탄 사격 시까지 해당 효과가 유지됩니다."
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "2단 조준"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "현재 탄통에 포탄이 한 발만 남아있으면 시스템이 자동으로 새로운 탄통을 장전합니다.\n새로운 탄통을 장전하는 중에 마지막 포탄을 발사하면 남은 재장전 시간이 수 초 연장됩니다."
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "탄통 장전 장치"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "주포 냉각 상태를 유지하여 높은 사격 명중률을 확보할 수 있는 시스템입니다. 주포는 사격 시 가열되지만, 재장전하는 동안 다시 냉각되어 향상된 성능을 발휘할 수 있습니다. 포열이 높아질수록 일부 성능의 편차가 커질 수 있습니다."
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "능동 주포 냉각 시스템"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "해당 전차는 충돌 공격을 위한 특별 사양으로 설계되었습니다. 적 전차에 충돌로 입히는 피해는 증가합니다."
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "충돌용 사양"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "해당 전차의 주포는 재장전이 완료되기 전에도 사격할 수 있습니다. 재장전 중 가하는 단일 장약 사격은 효과가 떨어지지만, 재장전 완료 후 가하는 최대 장약 사격은 최적의 탄도 성능을 발휘합니다."
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "다중 장약 시스템"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "정지 상태를 유지하거나 일정 속력 이하로 이동하면 예열이 쌓여 다음 포탄의 공격력과 명중률이 향상됩니다.\n보너스는 속력 제한을 초과하면 점차 감소하며, 사격하거나 포탄을 변경하면 즉시 초기화됩니다."
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "열 추진 제어 시스템"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "예열이 최대치에 도달했을 때 본인 전차의 평균 공격력(예열 보너스 적용 후 기준)보다 내구도가 적은 적을 관통하면 탄약고가 폭발하여 해당 전차가 즉시 파괴됩니다."
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "결정타"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "직결 구동 모드가 활성화되면 엔진 출력과 최고 전진 속력이 크게 향상됩니다. 전진 주행 상태를 오래 유지할수록 속력이 더 크게 향상되므로 전장을 손쉽게 활보할 수 있습니다."
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "직결 구동"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "시간이 흐름에 따라 자동으로 충전되며, 사격 시 충전량 일부를 소모하여 공격력을 높입니다. 충전량이 높을수록 공격력에 더 큰 보너스가 적용됩니다."
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "유도 추진식 재연소 장치"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "기본적으로 특정 한도까지만 충전됩니다. 제어기를 비활성화하면 더 높은 단계까지 충전되어 공격력 보너스가 크게 증가하지만, 주포 조작성이 감소합니다. 다음 키를 눌러 제어기를 활성화하거나 비활성화할 수 있습니다."
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "제어기"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "액체 연료 추진기를 사용하면 엔진 출력이 향상되어 전장에서 유리한 고지를 점할 수 있지만, 대신 전차 후진 속력 및 회전 속도가 제한됩니다. 가열 한도에 도달하였을 때가 아니라면 언제든지 활성화/비활성화할 수 있습니다.\n추진기 사용 단축키(길게 누르기 가능):"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "액체 연료 추진기"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "추진기가 가열 한도에 도달할 때까지 활성화하면 과열되어 냉각될 때까지 재사용할 수 없습니다. 불의의 습격을 당하지 않도록 신중하게 움직임을 계획하십시오."
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "가열 한도"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "제트 추진기를 사용하면 전차 기동력이 향상되어 빠르게 유리한 위치를 차지하거나 위험 지역을 벗어날 수 있습니다. 제트 추진기는 일정 시간 활성화되며 전투당 사용 횟수가 제한됩니다. 비활성화하거나 파괴할 수는 없습니다."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "제트 추진기"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "제트 추진기 활성화 시 엔진 출력과 최고 전진 속력이 증가합니다. 하지만 조작성과 후진 속력은 저하됩니다."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "장단점"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "일정 시간 동안 가속력, 속력, 기동력을 높일 수 있는 고체 연료 추력기입니다. 좌우 추력기는 서로 별도로 작동하여 차체를 더 신속히 선회할 수 있으며, 후진 성능에도 영향을 미치지 않습니다."
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "연속 로켓 추력기"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "해당 전차는 터보 모드와 교전 모드, 두 가지 모드를 교체해 가며 운용할 수 있습니다. 활성화된 모드에 사용되는 에너지가 전술 동력함에 축적됩니다.\n모드 전환 단축기:"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "2가지 모드"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "전술 동력함이 최대 충전되면 모드에 따른 능력을 사용할 수 있습니다. 각 능력을 사용하면 축적된 에너지가 모두 소모되며 일정 시간 동안 강력한 보너스가 적용됩니다.\n특수 능력 활성화 단축키:"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "모드별 능력"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "포탄이 한 발 이상 장전되어 있다면 언제든 재장전을 중단하고 사격할 수 있도록 하는 외장형 탄약 보급 장치를 사용할 수 있습니다. 재장전 중단/재개 단축키:"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "외장형 탄약 보급 장치"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "재장전 중에는 전차의 포탑과 외장 탄약함이 장치에 의해 차단되므로, 이를 중단하지 않는 한 일시적으로 조준이나 발사를 할 수 없습니다."
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "외장형 탄약 보급 장치"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "해당 전차는 주포와는 별도의 재장전 주기가 적용되는 부무장을 장착하고 있어 중요한 순간에 추가 피해를 입힐 수 있습니다. 부무장 활성화 단축키:"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "부무장"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "레이저 표적 지시기를 활성화하면 다음에 발사하는 포탄에 명중 시 적용되는 특수 효과가 부여됩니다. 포탄이 적중하는 순간에 적 전차가 발견된 상태였는지 여부에 따라 효과가 달라집니다.\n레이저 표적 지시기 활성화 단축키:"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "레이저 표적 지시기"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "발견된 적 전차에 포탄이 명중하면 해당 전차는 표식이 부여되어 발각 유지 시간이 연장되고 포탄으로 받는 피해가 증가합니다.\n발견되지 않은 적 전차에 명중하면 해당 전차의 위치가 특별 표식으로 강조됩니다."
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "표적 지정"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "전황에 따라 사격 모드를 단발 사격 모드에서 일제 사격 모드로 전환할 수 있습니다."
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "사격 모드 전환 시스템"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "일제 사격 모드 사용 시 공격력과 재장전 시간이 두 배로 늘어나고 100m에서의 분산도가 저하됩니다*."
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "장단점"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "해당 기계식 개조 장치를 사용하면 일정 시간 동안 전차의 전진 및 후진 가속력, 엔진 출력, 최고 전진 및 후진 속력이 크게 향상됩니다. 이동 시 높은 속력을 유지하면 해당 기능의 재사용 시간이 단축됩니다."
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "고압 터보 과급기 보조 장치"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "주요 키가 지정되지 않았습니다. 게임 설정에서 지정해 주십시오."
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "해당 모드를 활성화하면 주포 명중률, 재장전 속도, 올림각/내림각이 크게 향상되지만, 기동성(전진/후진 속력 및 수직/수평 회전 속도)이 제한됩니다. 모드 활성화 단축키(%(pressAndHold)s):"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "길게 누르기"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "포대 모드"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "해당 모드를 활성화하면 주포 명중률, 조준 속도, 올림각/내림각이 증가하지만, 기동성(전진/후진 속력)이 감소합니다. 모드 활성화 단축키:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "사격 모드"
+
+msgid "detailsHelp/role/description"
+msgstr "역할 활동을 통해 경험치 보너스 획득:"
+
+msgid "detailsHelp/role/title"
+msgstr "전투 중 전차 역할"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "기본 궤도가 파괴되더라도 부분적으로 기동력을 유지할 수 있습니다."
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "비상 궤도"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "프랑스 차륜 경전차는 속력과 기동성이 가장 뛰어나지만, 관측 범위가 낮은 편입니다. 정지 상태의 차륜 전차는 회전할 수 없습니다."
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "일반 정보"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "%(key2)s 키와 %(key1)s 키를 동시에 누르십시오. 파워 바 레벨은 가속력에 영향을 미칩니다. %(key1)s 키를 떼면 부스트가 활성화되며 %(key2)s 키를 떼면 부스트를 비활성화할 수 있습니다. 부스트를 활성화하면 속력이 빠르게 증가해 적의 습격에서 탈출하거나 적을 속이는 기동을 할 수 있습니다. 주의! 부스트는 전차를 완전히 정지한 후에만 사용할 수 있습니다. 가속 활성화 시 전차 엔진이 손상됩니다."
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "부스트"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "차륜 전차는 차륜으로 착지 시 일반 전차보다 피해를 덜 받습니다. 차륜 1개가 파괴되어도 계속 기동할 수 있으며 파괴된 차륜 수에 따라 속력과 기동성이 감소합니다. 차륜은 파괴되어도 일정 시간이 지나면 완전히 수리되므로 이동 불가 상태가 될 확률이 적습니다."
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "든든한 현가장치"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "%(key1)s 키를 눌러 모드를 전환하십시오. 모드에 따라 속력, 기동성, 조작성이 달라집니다."
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "두 가지 모드"
+
+msgid "markerColors/enemy"
+msgstr "적군"
+
+msgid "markerColors/friend"
+msgstr "아군"
+
+msgid "markerColors/squadPlayer"
+msgstr "소대원"
+
+msgid "markerColors/teamKiller"
+msgstr "아군 파괴자"
+
+msgid "markerColors/title"
+msgstr "표식 색상"
+
+msgid "markerMarks/attack"
+msgstr "공격 명령"
+
+msgid "markerMarks/follow"
+msgstr "\"나를 따르라!\""
+
+msgid "markerMarks/help"
+msgstr "\"도움이 필요하다!\""
+
+msgid "markerMarks/target/sau"
+msgstr "자주포 대상"
+
+msgid "markerMarks/target/tank"
+msgstr "전차 대상"
+
+msgid "markerMarks/title"
+msgstr "미니맵 단축키:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "방어하라!"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "방어 중!"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "이곳을 조준 중!"
+
+msgid "radialMenu/attack_enemy"
+msgstr "지원 사격이 필요하다!"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "목표물 공격 중!"
+
+msgid "radialMenu/attacking_base"
+msgstr "점령하겠다!"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "목표물 공격 중!"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "점령하라!"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "방어하라!"
+
+msgid "radialMenu/attention_to_position"
+msgstr "해당 위치를 주시하라!"
+
+msgid "radialMenu/cancel_reply"
+msgstr "거절한다"
+
+msgid "radialMenu/defending_base"
+msgstr "방어하겠다!"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "공격하라!"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "공격 중!"
+
+msgid "radialMenu/going_there"
+msgstr "해당 위치로 이동 중!"
+
+msgid "radialMenu/helpMe"
+msgstr "지원을 요청한다!"
+
+msgid "radialMenu/helpMeEx"
+msgstr "도움이 필요하다!"
+
+msgid "radialMenu/overheated_gun"
+msgstr "주포 과열!"
+
+msgid "radialMenu/positive"
+msgstr "\"알겠다!\""
+
+msgid "radialMenu/reloadingGun"
+msgstr "재장전 중!"
+
+msgid "radialMenu/reply_to_player"
+msgstr "확인!"
+
+msgid "radialMenu/supporting_ally"
+msgstr "지원하겠다!"
+
+msgid "radialMenu/thanks"
+msgstr "고맙다!"
+
+msgid "radialMenu/turn_back"
+msgstr "후퇴하라!"
+
+msgid "returnToGame"
+msgstr "Esc–게임으로 돌아가기"
+
+msgid "roleDescription/msg"
+msgstr "역할 활동을 통해 경험치 보너스 획득:"
+
+msgid "settings/button"
+msgstr "설정"
+
+msgid "settings/help"
+msgstr "게임 설정을 변경하려면 설정을 누르십시오."
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "목표물 지정"
+
+msgid "teamComm/highlightLocation"
+msgstr "위치 지정"
+
+msgid "teamComm/show"
+msgstr "명령 메뉴 표시"
+
+msgid "teamComm/show/ext"
+msgstr "(대상에 따른 명령 목록)"
+
+msgid "teamComm/title"
+msgstr "단축 명령"
+
+msgid "vehicleTypes/title"
+msgstr "전차 표식"

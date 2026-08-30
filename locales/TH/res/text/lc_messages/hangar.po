@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "ซื้อ"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "จะทำการติดตั้งยุทธปัจจัยดังต่อไปนี้: %(consumables)s"
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "ซื้อยุทธปัจจัย"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s สมาชิกพลรถถัง"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "คุณมีพลรถถังสำหรับพาหนะคันนี้แล้ว"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s สมาชิกพลรถถัง"
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "เกณฑ์สมาชิกพลรถถังใหม่"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "ที่นี่"
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "ทาง Wargaming นั้นใช้รหัสเรียกขาน T-34 เพื่อเป็นการอ้างอิงถึงรถถังจริงตามประวัติศาสตร์และไม่ได้มีความเกี่ยวข้องใดๆกับผู้ถือกรรมสิทธิ์ของเครื่องหมายการค้าที่มีชื่อเดียวกัน อ่านเพิ่มเติมได้ {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "เติมกระสุน"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "บรรจุยุทธปัจจัย"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "ช่องเก็บในโรงรถ"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "แลกซื้อ"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "ฟรี"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "เกณฑ์ %(count)s สมาชิกพลรถถัง"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "แบบเช่า"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "เช่า"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "เช่าเป็นเวลา 30 วัน"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "เช่าเป็นเวลา 3 วัน"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "เช่าเป็นเวลา 7 วัน"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "การเช่าเป็นเวลา %(days)s วัน"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "ด่านแนวรบ"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "ฤดูกาลรูปแบบแนวรบ"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "ด่านของการรบจัดอันดับ"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "ฤดูกาลของการรบจัดอันดับ"
+
+msgid "buyVehicleWindow/restore"
+msgstr "กู้คืน"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "ไม่จำกัด"
+
+msgid "buyVehicleWindow/title"
+msgstr "การปรับแต่ง"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "คืนสภาพ"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "ซื้อ"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "แลกซื้อ"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "แลกซื้อ"
+
+msgid "carousel/filters/allVehicle"
+msgstr "พาหนะของฉันทั้งหมด"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "พลรถถัง"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "คุณสมบัติ"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} การรบ"
+msgstr[1] "{{count}} การรบ"
+msgstr[2] "{{count}} การรบ"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} วัน"
+msgstr[1] "{{count}} วัน"
+msgstr[2] "{{count}} วัน"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} ชั่วโมง"
+msgstr[1] "{{count}} ชั่วโมง"
+msgstr[2] "{{count}} ชั่วโมง"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} การชนะ"
+msgstr[1] "{{count}} การชนะ"
+msgstr[2] "{{count}} การชนะ"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "คลิกเพื่อนไปยังรายชื่อพาหนะของคุณ"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "พาหนะของฉัน"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "การฝึก, การฝึกใหม่และการจัดการพลรถถัง"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "การจัดการพลรถถัง"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "การปรับแต่งพาหนะ: ใช้รูปแบบสองมิติและสามมิติกับองค์ประกอบอื่นๆ"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "การปรับแต่ง"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "กดเพื่อเปิด"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "ข้อมูล, การวิจัย, การเปรียบเทียบและการซ่อมพาหนะ"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "การจัดการพาหนะ"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "เกี่ยวกับพาหนะ"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "เกราะ"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "เปรียบเทียบ"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "คืนกลับอัตโนมัติ"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "ส่งพลรถถังกลับ"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "ส่งไปยังค่ายทหาร"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "ฝึกใหม่พลรถถัง"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "บำรุงรักษาด่วน"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "การปรับแต่งภาคสนาม"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "เปลี่ยนประเทศ"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "ใช้งานอยู่"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "ตัวเร่ง PRO {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "การฝึกเร่งด่วน"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "การซ่อมแซม"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "วิจัย"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "ส่วนยกระดับ"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "คุณสามารถเปลี่ยนตัวเลือกนี้เมื่อใดก็ได้"
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "ตัวเร่ง Pro ถูกใช้สำหรับพาหนะคันนี้"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "คุณสามารถเร่งพาหนะในการรบแบบสุ่ม, การบุกรุก, ฐานที่มั่น, แผนที่โลกและทัวร์นาเมนต์เท่านั้น"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "รูปแบบที่ใช้ไม่ได้กับตัวเร่ง Pro"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "คุณสามารถเร่งพาหนะวิจัยได้และพาหนะนักสะสมของระดับ I-X เท่านั้น"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "พาหนะไม่เข้ากับตัวเร่ง Pro"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "ตัวเร่ง Pro ของคุณกำลังใช้งานอยู่กับ {{vehicle}} คุณสามารถเปลี่ยนตัวเลือกนี้ได้ใน {{time}}"
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "กลับมาในภายหลังนะ!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "คุณสามารถเปลี่ยนตัวเลือกนี้ได้ใน {{time}}"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "ตัวเร่ง Pro ถูกใช้สำหรับพาหนะคันนี้"

@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "リザーブの管理"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "クリックして利用可能な戦闘リザーブを選択"
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "爆弾"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "着弾範囲"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "スタン"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "配備"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "地雷の数"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "地雷原の持続時間"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "スタン"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "ダメージ半径"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "持続時間"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "砲弾"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "クールダウン"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "配備"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "効果持続時間"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "発動後に徐々に回復できる車輌HP"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "発動時にただちに回復できる車輌HP"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "地雷原から受けるダメージ"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "補給サークル内での車輌HPの回復速度"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "搭乗員の能力"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "持続時間"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "効果残存時間"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "効果半径"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "自車輌の搭乗員の能力"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "占領リセット時のボーナス"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "占領ボーナス"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "補給サークルのリフレッシュ速度"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "砲弾の補給速度"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "到着に要する時間"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "着弾範囲"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300 x 750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "偵察飛行時間"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "搭乗員の能力の低下"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "発煙弾"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "着弾範囲"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "持続時間"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "敵車輌の視認範囲の縮小度"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "茂みに潜んだ敵車輌の隠蔽率の低下度"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "移動中の敵車輌の隠蔽率の低下度"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "効果持続時間"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "静止中の自車輌の隠蔽率へのボーナス"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "自車輌の視認範囲へのボーナス"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "リザーブレベル"
+
+msgid "abilityInfo/properties/static"
+msgstr "効果の制限"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "秒"
+
+msgid "advance_message_txt"
+msgstr "フロントラインに進撃せよ"
+
+msgid "advance_mission_txt"
+msgstr "フロントラインに進撃せよ"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "シナリオの詳細"
+
+msgid "awards/acceptButton"
+msgstr "了解！"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "報酬を獲得！"
+
+msgid "awards/subTitle2"
+msgstr "報酬を獲得！"
+
+msgid "awards/title"
+msgstr "フロントライン"
+
+msgid "base/contested_atk"
+msgstr "攻撃中"
+
+msgid "base/contested_def"
+msgstr "攻撃を受けている"
+
+msgid "battleResults/armor"
+msgstr "装甲活用"
+
+msgid "battleResults/assistance"
+msgstr "アシスト"
+
+msgid "battleResults/crits"
+msgstr "重大な損傷"
+
+msgid "battleResults/damage"
+msgstr "ダメージ"
+
+msgid "battleResults/kill"
+msgstr "撃破"
+
+msgid "battleResults/spotting"
+msgstr "発見"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "パーソナルリザーブ×1: 搭乗員EXPに%(effectValue)s、%(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "パーソナルリザーブ×1: フリーEXPに%(effectValue)s、%(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "パーソナルリザーブ×1: 戦闘EXPに%(effectValue)s、%(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "目標 %(int32Arg1)s を攻撃せよ"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "目標 %(int32Arg1)s を防衛せよ"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "この場所に注意せよ!"
+
+msgid "command_shortcut/title"
+msgstr "コマンド"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "戦線ブロック—プレイヤー数が上限に到達"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "危険地帯"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "戦線ブロック—車輌タイプ制限に到達"
+
+msgid "dialogs/quotedName"
+msgstr "%(name)s"
+
+msgid "dialogs/title/buy/item"
+msgstr "%(type)s「%(name)s」を購入しますか？"
+
+msgid "dialogs/title/buy/items"
+msgstr "%(type)sを購入しますか？"
+
+msgid "dialogs/title/install/item"
+msgstr "%(type)s「%(name)s」を有効化しますか？"
+
+msgid "dialogs/title/install/items"
+msgstr "%(type)sを有効化しますか？"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "一定数を集めると新たな「戦闘リザーブ」をアンロックできます。"
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "一定数を集めると新たな「戦闘リザーブ」をアンロックできます。"
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "戦闘リザーブポイント"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "攻撃チームが第2防衛線にあたるゾーンD、E、Fのいずれかを占領すると両チームともに%(level)s車輌を使用できるようになります。"
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "Tier %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "フロントライン・モード用の Tier VIII 車輌を選択"
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "車輌が不適合"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "獲得"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "最高"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "戦闘リザーブ"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "車長レベル"
+
+msgid "epictraining/info/otherLabel"
+msgstr "未分配のプレイヤー: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "攻撃側 ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "防衛側 ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "敵車輌を殲滅"
+
+msgid "game/all_hqs_destroyed"
+msgstr "目標群が全滅"
+
+msgid "game/all_tanks_defeated"
+msgstr "味方車輌全滅"
+
+msgid "game/defeat"
+msgstr "敗北!"
+
+msgid "game/draw"
+msgstr "引き分け!"
+
+msgid "game/time_over"
+msgstr "目標群が健在"
+
+msgid "game/victory"
+msgstr "勝利!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "目標群を撃破せよ!"
+
+msgid "global_msg/atk/time_short"
+msgstr "ゾーンを占領せよ!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "目標群を防衛せよ!"
+
+msgid "global_msg/def/time_short"
+msgstr "ゾーンを防衛せよ!"
+
+msgid "global_msg/lane/center_short"
+msgstr "%(strArg1)s に増援を送れ!"
+
+msgid "global_msg/lane/east_short"
+msgstr "%(strArg1)s に増援を送れ!"
+
+msgid "global_msg/lane/west_short"
+msgstr "%(strArg1)s に増援を送れ!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "自車輌を守れ!"
+
+msgid "help_window/communication"
+msgstr "通信範囲"
+
+msgid "help_window/communication/description"
+msgstr "味方からクイックコマンドを受信できるのは、その味方かコマンドの目標がミニマップの表示エリア内にいる場合に限られます。"
+
+msgid "help_window/overview_map"
+msgstr "全体マップ"
+
+msgid "help_window/overview_map/description"
+msgstr "全体マップを使用することで、戦場全体を戦術的・戦略的に分析することができます。全体マップを開いている間は、チーム全体の通信を受信することができます。またメッセージを送信することもできます。"
+
+msgid "help_window/recovery"
+msgstr "車輌放棄"
+
+msgid "help_window/recovery/description"
+msgstr "車輌放棄は、地形にはまって動けなくなった自車輌を放棄する機能です。戦闘不能の車輌を放棄することで、再出撃できるようにします。"
+
+msgid "help_window/reserves"
+msgstr "車輌リザーブ"
+
+msgid "help_window/reserves/description"
+msgstr "数分毎に車輌1輌がリザーブに追加されます。上限は2輌です。リザーブに残存車輌がない場合は、新車輌が追加されるまで再出撃することができません。"
+
+msgid "hq/under_attack_atk"
+msgstr "攻撃を受けている"
+
+msgid "hq/under_attack_def"
+msgstr "攻撃を受けている"
+
+msgid "in_game_rank/experience_text"
+msgstr "EXP"
+
+msgid "lane_central_name"
+msgstr "中央"
+
+msgid "lane_east_name"
+msgstr "東部"
+
+msgid "lane_west_name"
+msgstr "西部"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "レベル %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "獲得不可: 戦闘リザーブポイントがありません。"
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "戦闘リザーブが最高レベルに到達しました。"
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "アップグレード不可: 戦闘リザーブポイントがありません。"
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "戦闘リザーブは未購入"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "「戦闘リザーブ」は戦闘中に「大尉」および「少佐」に昇格した際にアップグレードされます。到達しうる最大レベルは「シナリオ」によって異なります。"
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "価格: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "主目標"
+
+msgid "mission/title"
+msgstr "ミッション"
+
+msgid "mission/zone_closing_atk"
+msgstr "ゾーンのオープンまで: "
+
+msgid "mission/zone_closing_def"
+msgstr "敵の爆撃まで: "
+
+msgid "missions/primary/atk/base"
+msgstr "ゾーンを占領せよ"
+
+msgid "missions/primary/atk/hq"
+msgstr "目標を撃破せよ"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s / %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "目標を撃破:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "ゾーンを占領して主目標群に到達し、目標を撃破せよ!"
+
+msgid "missions/primary/def/base"
+msgstr "ゾーンを防衛せよ"
+
+msgid "missions/primary/def/hq"
+msgstr "目標を防衛せよ"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s / %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "撃破された目標:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "主目標群を最後まで防衛するか、攻撃側チームを殲滅せよ!"
+
+msgid "missions/unlockTankLevel"
+msgstr "Tier IX車輌を使用可能"
+
+msgid "overtime/label"
+msgstr "オーバータイム"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "同じリザーブは2つ同時に有効化できません"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "他の地雷原と重なっているため設置不可"
+
+msgid "primeTime/applyBtn"
+msgstr "進む"
+
+msgid "primeTime/cancelBtn"
+msgstr "キャンセル"
+
+msgid "primeTime/continueBtn"
+msgstr "続行"
+
+msgid "primeTime/endOfCycle"
+msgstr "%(server)sサーバーではモードが終了しています。"
+
+msgid "primeTime/manyServersAvailable"
+msgstr "利用可能なサーバー:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "利用可能なサーバー: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "%(server)s での戦闘はあと %(time)s ご利用になれます"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "%(server)s での次戦まで %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "%(server)s サーバー\n利用可能戦闘数: %(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "戦闘が利用可能になるまで %(time)s"
+
+msgid "primeTime/servers"
+msgstr "利用可能なサーバー: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "%(server)sサーバーでは戦闘が終了しています。"
+
+msgid "primeTime/status/disable"
+msgstr "フロントライン・サーバーに切り替えて戦闘前の準備を継続できます。"
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "サーバー%(server)sではこのモードをご利用になれません"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "本モードは%(server)sサーバーでは%(startTime)sまで休止中です。"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "本モードは全サーバーで休止中です。"
+
+msgid "primeTime/status/thisEnable"
+msgstr "%(server)s サーバーでは、あと %(time)s フロントラインを利用できます。"
+
+msgid "primeTime/steelhunter/title"
+msgstr "STEEL HUNTER"
+
+msgid "primeTime/title"
+msgstr "フロントライン"
+
+msgid "primeTime/titleWelcome"
+msgstr "ようこそ\nフロントラインへ"
+
+msgid "progress_timers/active"
+msgstr "アクティブ"
+
+msgid "progress_timers/fully_equipped"
+msgstr "フル装備"
+
+msgid "progress_timers/resupply"
+msgstr "補給サークル"
+
+msgid "progress_timers/unavailable"
+msgstr "利用不可"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "フロントライン・ミッション"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "1日未満"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "Tier %(level)sに到達する"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "新しいミッションが利用可能になるまで: %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "ハンターミッション"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "「フロントライン」の終了まで残り%(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "利用できません: %(reason)s"
+
+msgid "rank/allReserveUpgraded"
+msgstr "全戦闘リザーブのレベルが向上"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "大将ボーナスが +%(percent)s%% に向上"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "大将ボーナスが最大値の +%(percent)s%% に到達"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "味方チームの全搭乗員の能力 +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "プレイヤー"
+
+msgid "rank/promotion"
+msgstr "%(rank)s「%(placeholder)s」に昇格"
+
+msgid "rank/rank1"
+msgstr "上等兵"
+
+msgid "rank/rank2"
+msgstr "軍曹"
+
+msgid "rank/rank3"
+msgstr "少尉"
+
+msgid "rank/rank4"
+msgstr "大尉"
+
+msgid "rank/rank5"
+msgstr "少佐"
+
+msgid "rank/rank6"
+msgstr "大将"
+
+msgid "rank/recerveUnlocked"
+msgstr "戦闘リザーブ「%(reserveName)s」のアンロック完了"
+
+msgid "rank/reserveUpgraded"
+msgstr "戦闘リザーブ「%(reserveName)s」のアップグレード完了"
+
+msgid "rank/slotUnlocked"
+msgstr "「%(slotNumber)sスロット」がアンロック"
+
+msgid "rank/slot_2"
+msgstr "第2"
+
+msgid "rank/slot_3"
+msgstr "第3"
+
+msgid "recovery/Blocked"
+msgstr "一時\nブロック中"
+
+msgid "recovery/disabled"
+msgstr "車輌放棄不可"
+
+msgid "recovery_panel/base_text"
+msgstr "J を押して\n車輌放棄する"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "移動または射撃してキャンセル"
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "車輌放棄を\nキャンセルしました"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "車輌放棄を\n要求しました"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "次の陣地を占領せよ"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "増援到着まで "
+
+msgid "reinforcement/unavailable"
+msgstr "増援なし"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "自動出撃まで %(seconds)s 秒"
+
+msgid "respawn/deploy_button"
+msgstr "戦闘開始!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "改良型消耗品は戦闘中に購入できません。"
+
+msgid "respawn/shop_title"
+msgstr "修理・補給"
+
+msgid "respawn/tanks_left"
+msgstr "輌残存"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "車輌と出撃エリアを選択してください"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "このエリアへの出撃は危険です。"
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s 秒"
+
+msgid "retreat_message_txt"
+msgstr "退避せよ"
+
+msgid "retreat_mission_txt"
+msgstr "次のゾーンに退避せよ"
+
+msgid "rewardSelection/subTitle"
+msgstr "報酬を選択可能"
+
+msgid "rewardSelection/title"
+msgstr "フロントライン"
+
+msgid "scorePanel/stage1"
+msgstr "ステージ 1"
+
+msgid "scorePanel/stage2"
+msgstr "ステージ 2"
+
+msgid "scorePanel/stage3"
+msgstr "ステージ 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "お使いのPCが本モードのシステム要件を満たしていません。グラフィックや車輌の操作に問題が生じたり、クライアントがクラッシュする可能性があります。"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "低パフォーマンス"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "パフォーマンスが不足している場合は、設定でグラフィックスの品質を下げてみてください。"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "このモードは、高パフォーマンスのコンピューターを必要とします"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "本モードを快適にプレイいただくには高性能PCが必要です。お使いのPCではマップの読み込み、グラフィック、車輌の操作などに不具合が生じる可能性があります。パフォーマンスに問題がある場合は、「設定」画面で「グラフィック品質」を変更してください。"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "低パフォーマンス"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "%(bodyVehicleLevel)sによる30対30の大規模バトル。再出撃メカニズム、戦闘リザーブ、そして補給サークルを使いこなせ。"
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "Tier %(level)s車輌"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "%(bodyVehicleLevel)sによる30対30の大規模バトル。再出撃メカニズム、戦闘リザーブ、そして補給サークルを使いこなせ。"
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "このモードは技術的問題に伴い一時的にご利用になれません。"
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "フロントライン"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "戦闘開始まで残り "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "戦闘終了まで残り "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "戦闘スケジュール"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "今日"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "明日"
+
+msgid "skill/category/firesupport"
+msgstr "攻撃用リザーブ"
+
+msgid "skill/category/reconnaissance"
+msgstr "偵察用リザーブ"
+
+msgid "skill/category/tactics"
+msgstr "強化用リザーブ"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "オブザーバモード・カメラ"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "マウスでカメラを回転"
+
+msgid "spectator_mode/camera_wasd"
+msgstr "W/A/S/D でカメラをマップ上で移動"
+
+msgid "spectator_mode/follow_text"
+msgstr "左クリックで追従開始"
+
+msgid "spectator_mode/follow_title"
+msgstr "追従"
+
+msgid "spectator_mode/msg_text"
+msgstr "車輌の到着まで:"
+
+msgid "spectator_mode/msg_title"
+msgstr "全車輌大破!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "再度クリックして追従停止"
+
+msgid "spectator_mode/unfollow_title"
+msgstr "追従停止"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s 日"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s 時間"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1分"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s 分"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "ブロック中"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "ゾーンから離脱せよ！"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "車輌HPが回復中"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "車輌HPが回復中"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "搭乗員の能力が上昇中"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "搭乗員の能力が上昇中"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "補給サークル"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "煙幕により隠蔽率が向上"
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "煙幕により視認性能と搭乗員の能力が低下中"
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "残煙により視認性能と搭乗員の能力が低下中"
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "索敵改修の効果が発動"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "効果は移動停止から%(activationDelay)s秒経過後に発動"
+
+msgid "super_platoon_panel/title"
+msgstr "小隊"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr " — 味方チームの全搭乗員の能力に対する大将ボーナス"
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "全ての戦線"
+
+msgid "tab_screen/show_my_lane"
+msgstr "自分の戦線"
+
+msgid "team1Name"
+msgstr "攻撃側"
+
+msgid "team2Name"
+msgstr "防衛側"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "フロントラインTier報酬を%(number)s個選択可能"
+
+msgid "tooltips/common/disabled"
+msgstr "モードはプレイ不可"
+
+msgid "tooltips/common/title"
+msgstr "フロントライン"
+
+msgid "tooltips/end"
+msgstr "イベントは終了済み"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "「戦闘リザーブ」の構成は車輌タイプにより異なります。いずれの場合も出撃直後から使用できるのはひとつのみで、残りは「軍曹」および「少尉」に昇進した際にアンロックされます。"
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "アンロック方法: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "シナリオ「<font color='#E9E2BF'>運命の悪戯</font>」では、専用ガレージで「戦闘リザーブ」を購入しておくと、その初期レベルが1段階上昇し、レベル<font color='#E9E2BF'>IV</font>までアップグレードできるようになります。"
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "シナリオ「<font color='#E9E2BF'>運命の悪戯</font>」では、出撃前に特定の「戦闘リザーブ」をスロットにセットしておくと、戦闘中にその「戦闘リザーブ」が選択肢として表示される確率が<font color='#E9E2BF'>10%</font>上昇します。"
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "戦闘リザーブのアンロックとアップグレード"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "戦闘中に昇進すると「戦闘リザーブ」がアンロックまたは強化されます。具体的な順番は車輌タイプにより異なります。"
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "駆逐戦車のリザーブ・スロット構成"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "自走砲のリザーブ・スロット構成"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "重戦車のリザーブ・スロット構成"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "軽戦車のリザーブ・スロット構成"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "中戦車のリザーブ・スロット構成"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "「戦闘リザーブ」は戦闘中に昇進するにつれてアップグレードされていきます。第1スロットはレベルIIIまで、第2スロットはレベルIIまでアップグレードできます。"
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "アップグレード方法: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "戦闘中に「%(rank)s」に昇進するとアンロックされます。"
+
+msgid "tooltips/timeToEnd"
+msgstr "モードの終了まで残り%(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "戦闘開始まで残り%(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "イベントは終了済み"
+
+msgid "tooltips/widget/level"
+msgstr "Tier %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "最高Tierに到達しています。"
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "戦闘リザーブ"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "本モードは全サーバーで休止中です。あと%(time)sで再開します。"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "戦闘継続中"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "別のサーバーを選択"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "詳細"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "「フロントライン」モードは終了しました。"
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "「フロントライン」のシナリオ"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "本モードはご利用中のサーバーでは休止中です。あと%(time)sで再開します。"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "本モードは%(serverName)sでは休止中です。"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "戦闘開始まで残り%(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "「フロントライン」のシナリオに関する詳細と\nそれぞれの違いについて確認できます。"
+
+msgid "zone/arrived_text"
+msgstr "到着!"
+
+msgid "zone/capture_text"
+msgstr "占領"
+
+msgid "zone/captured_text"
+msgstr "占領完了"
+
+msgid "zone/defend_text"
+msgstr "防衛せよ"
+
+msgid "zone/destroy_text"
+msgstr "撃破せよ"
+
+msgid "zone/destroyed_text"
+msgstr "撃破した"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "敵の増援"
+
+msgid "zone/headquarters_text"
+msgstr "目標群"
+
+msgid "zone/leave_zone"
+msgstr "ゾーンから離脱せよ!"
+
+msgid "zone/lost_text"
+msgstr "喪失"
+
+msgid "zone/reached_text"
+msgstr "到達した"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "敵の増援:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "増援:"
+
+msgid "zone/reinforcements_text"
+msgstr "増援"
+
+msgid "zone/time_added"
+msgstr "%(minutes)s 分追加"
+
+msgid "zone/time_left"
+msgstr "あと %(minutes)s 分"
+
+msgid "zone/zone_text"
+msgstr "ゾーン"

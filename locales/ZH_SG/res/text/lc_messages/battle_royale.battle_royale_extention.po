@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To:\nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "battleQuestAwards/button"
+msgstr "收到!"
+
+msgid "battleQuestAwards/stPatrick/subTitle"
+msgstr "钢铁猎手：幸运草对决"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "钢铁猎手"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "已完成最终阶段！"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "已完成阶段%(level)s！"
+
+msgid "dailyBonus/description"
+msgstr "%(dailyBonus)s“幸运印记”的加成，需要在单人战斗中排名前%(soloTopPlaces)s或在小队战斗中排名前%(squadTopPlaces)s。此加成每天可被每辆活动战车激活一次。"
+
+msgid "eventShop"
+msgstr "活动商店"
+
+msgid "leaveBattleView/confirmation/cancel"
+msgstr "留下"
+
+msgid "leaveBattleView/confirmation/submit"
+msgstr "逃离"
+
+msgid "leaveBattleView/description"
+msgstr "您的战车仍然可以战斗。如果您现在离开战斗，将无法获得奖励。确定要离开战斗吗？"
+
+msgid "leaveBattleView/title"
+msgstr "逃离战场"
+
+msgid "leaveBattleView/warning"
+msgstr "您将无法获得奖励！"
+
+msgid "progress/counter"
+msgstr "{{current}}{{divider}}{{total}}"
+
+msgid "progressionComplete"
+msgstr "主要进度完成"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s或%(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/questsTotal/text"
+msgstr "已完成任务："
+
+msgid "progressionView/battleQuests/timer/eventResetTime/text"
+msgstr "活动结束于："
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "任务将更新于"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/seasonRange"
+msgstr "%(startDate)s – %(endDate)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "已完成进度。在钢铁猎手进行战斗以获取更多奖励。"
+
+msgid "progressionView/subTitle/endEvent"
+msgstr "活动已结束。任务和进度不再开放。"
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "完成任务以获取进度点数。\n您获得点数的多寡取决于您在战斗中的排名。%(infotip)s"
+
+msgid "proxy_currency_tooltip/earn/description/brcoin"
+msgstr "获取钢铁印记的方式有：战斗表现出色、在战斗结果中排名靠前，以及完成模式任务。"
+
+msgid "proxy_currency_tooltip/earn/description/stpcoin"
+msgstr "获取幸运印记的方式：在钢铁猎手模式中完成进度阶段，以及在模式战斗中收集物资、获得高排名。"
+
+msgid "proxy_currency_tooltip/earn/title/brcoin"
+msgstr "如何获取印记"
+
+msgid "proxy_currency_tooltip/earn/title/stpcoin"
+msgstr "如何获取印记"
+
+msgid "proxy_currency_tooltip/spend/description/brcoin"
+msgstr "使用获得的钢铁印记购买钢铁猎手风格。"
+
+msgid "proxy_currency_tooltip/spend/description/stpcoin"
+msgstr "幸运印记可在幸运草商店中兑换珍贵奖励。"
+
+msgid "proxy_currency_tooltip/spend/title/brcoin"
+msgstr "如何花费印记"
+
+msgid "proxy_currency_tooltip/spend/title/stpcoin"
+msgstr "如何花费印记"
+
+msgid "proxy_currency_tooltip/title/brcoin"
+msgstr "钢铁印记"
+
+msgid "proxy_currency_tooltip/title/stpcoin"
+msgstr "幸运印记"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "在钢铁猎手模式中完成特殊任务的奖励。可推进您的进度。"
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "钢铁猎手进度点数"
+
+msgid "rewardCurrencyTooltip/body/battlePassPoints"
+msgstr "通过参加战斗和完成特殊任务获取点数。点数会自动增加至战令进度中。"
+
+msgid "rewardCurrencyTooltip/body/brProgressionToken"
+msgstr "完成钢铁猎手任务和取得良好战绩的奖励。可推进您的进度。"
+
+msgid "rewardCurrencyTooltip/body/brcoin"
+msgstr "钢铁印记可以通过出色的战斗表现、在战斗结果中获得高排名和完成特殊任务来获取。"
+
+msgid "rewardCurrencyTooltip/body/credits"
+msgstr "游戏内的主要货币。可在战斗中获得或使用金币来购买。"
+
+msgid "rewardCurrencyTooltip/body/crystal"
+msgstr "一种稀有的特殊货币，用于购买无法通过其他方式获得的特殊道具。"
+
+msgid "rewardCurrencyTooltip/body/stpcoin"
+msgstr "可在钢铁猎手战斗中获取的货币。印记可在幸运草商店中兑换独特奖励。组队战斗时，印记将平均分配。显示数额为您在总收益中所占的份额。"
+
+msgid "rewardCurrencyTooltip/body/xp"
+msgstr "使用特殊战车获得的经验可转换为全局经验。"
+
+msgid "rewardCurrencyTooltip/dailyBonus/stpcoin"
+msgstr "加成已应用！在战斗中获得的印记数量增为%(count)s倍。"
+
+msgid "rewardCurrencyTooltip/header/battlePassPoints"
+msgstr "战令点数"
+
+msgid "rewardCurrencyTooltip/header/brProgressionToken"
+msgstr "钢铁猎手进度点数"
+
+msgid "rewardCurrencyTooltip/header/brcoin"
+msgstr "钢铁印记"
+
+msgid "rewardCurrencyTooltip/header/credits"
+msgstr "银币"
+
+msgid "rewardCurrencyTooltip/header/crystal"
+msgstr "点券"
+
+msgid "rewardCurrencyTooltip/header/stpcoin"
+msgstr "幸运印记"
+
+msgid "rewardCurrencyTooltip/header/xp"
+msgstr "战斗经验"
+
+msgid "rewardCurrencyTooltip/premiumBonus/brcoin"
+msgstr "《坦克世界》高级账号可以增加此货币的获取量50%。"
+
+msgid "rewardCurrencyTooltip/premiumBonus/credits"
+msgstr "《坦克世界》高级账号可以增加此货币的获取量50%。"
+
+msgid "rewardCurrencyTooltip/premiumBonus/xp"
+msgstr "《坦克世界》高级账号可以为战斗经验的获取量增加50%。"
+
+msgid "serviceChannelMessages/awards"
+msgstr "已获得奖励："
+
+msgid "serviceChannelMessages/body"
+msgstr "您在%(progressionName)s模式中已完成进度阶段%(stage)s。"
+
+msgid "serviceChannelMessages/header"
+msgstr "恭喜！"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "详情"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "钢铁猎手"
+
+msgid "tab/label/platoon"
+msgstr "小队"
+
+msgid "tab/label/solo"
+msgstr "单人"
+
+msgid "tab/label/team"
+msgstr "与好友"
+
+msgid "tooltip/banner/description"
+msgstr "以末日世界为背景，战至最后一名存活者的激烈战斗。驾驶8辆特殊战车之一上场求生，可在战斗过程中升级并随之提升战力。专属奖励与众多好物等着您！"
+
+msgid "tooltip/banner/mode/description"
+msgstr "— 游戏模式。点击探索"
+
+msgid "tooltip/banner/mode/label"
+msgstr "模式"
+
+msgid "tooltip/banner/performanceRisk/description/high"
+msgstr "您电脑的性能不支持此模式。您可能会遇到画面和战车移动的相关问题，且游戏客户端很可能会崩溃。"
+
+msgid "tooltip/banner/performanceRisk/description/medium"
+msgstr "此模式需要较高的电脑性能。您可能会遇到与地图加载、画面和战车移动相关的问题。如果性能不足，请尝试在设置中选用较低的图形质量。"
+
+msgid "tooltip/banner/performanceRisk/title/high"
+msgstr "低性能"
+
+msgid "tooltip/banner/performanceRisk/title/medium"
+msgstr "可能降低性能"
+
+msgid "tooltip/banner/stPatrickDescription"
+msgstr "以绿色魔法为背景，战至最后一名存活者的激烈战斗。驾驶8辆特殊战车之一上场求生，可在战斗过程中升级并随之提升战力。专属奖励与众多好物等着您！"
+
+msgid "tooltip/banner/stPatrickTitle"
+msgstr "幸运草对决"
+
+msgid "tooltip/banner/timer/text/accent"
+msgstr "活动开放%(timer)s"
+
+msgid "tooltip/banner/timer/text/cooldown"
+msgstr "停战期%(timer)s"
+
+msgid "tooltip/banner/title"
+msgstr "钢铁猎手"
+
+msgid "tooltip/daily_quests/header"
+msgstr "已完成"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "新的钢铁猎手任务开放于{{timeLeft}}"
+
+msgid "tooltip/daily_quests/reward"
+msgid_plural "plural/tooltip/daily_quests/reward"
+msgstr[0] "奖励："
+msgstr[1] "奖励："
+msgstr[2] "奖励："
+
+msgid "tooltip/daily_quests/text"
+msgstr "所有任务已完成！"
+
+msgid "tooltip/progressionWidget/description/completed"
+msgstr "车长，干得不错，再接再厉！"
+
+msgid "tooltip/progressionWidget/description/header"
+msgstr "主要进度完成！"
+
+msgid "tooltip/progressionWidget/description/inProgress"
+msgstr "完成任务、在钢铁猎手战斗中名列前茅，以推进进度。"
+
+msgid "tooltip/progressionWidget/subTitle"
+msgstr "模式结束于%(value)s"
+
+msgid "tooltip/progressionWidget/title"
+msgstr "钢铁猎手"
+
+msgid "tooltip/quest/header"
+msgstr "钢铁猎手任务"
+
+msgid "tooltip/shop/stPatrick/subtitle"
+msgstr "使用您的{ede6d9_Open}幸运印记{ede6d9_Close}兑换特殊奖励。"
+
+msgid "tooltip/shop/stPatrick/text"
+msgstr "获取幸运印记的方式：在钢铁猎手模式中完成进度阶段，以及在模式战斗中收集物资、获得高排名。"
+
+msgid "tooltip/shop/stPatrick/title"
+msgstr "幸运草商店"
+
+msgid "tooltip/shop/subtitle"
+msgstr "使用您的{ede6d9_Open}钢铁印记{ede6d9_Close}兑换特殊奖励。"
+
+msgid "tooltip/shop/text"
+msgstr "在战斗中表现出色，在战斗后结果中名列前茅，以及完成任务，均能获得钢铁印记。"
+
+msgid "tooltip/shop/title"
+msgstr "钢铁猎手商店"
+
+msgid "upgrades/description"
+msgstr "对敌方战车造成伤害，并在地图上收集物资，借此获得经验并提升战车等级。每达到一个等级，可让您从升级菜单选择一个模块来升级，以大幅提升您战车的特性。"
+
+msgid "upgrades/footer"
+msgstr "模块仅能在战斗中升级。"
+
+msgid "upgrades/subtitle"
+msgstr "您会使用一辆I级战车参加战斗。"
+
+msgid "upgrades/title"
+msgstr "在战斗中升级战车"

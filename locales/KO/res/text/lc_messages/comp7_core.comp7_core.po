@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "이번 전투에서 제외할 전차 선택"
+
+msgid "prebattleTimer/ban/header"
+msgstr "금지 투표 단계"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "선택 확정"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "확정한 후에는 다른 전차를 선택할 수 없습니다."
+
+msgid "prebattleTimer/pick/header"
+msgstr "확정 단계"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "현재 지도 및 팀 구성에 가장 적합한 전차 선택"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "전차 사전 선택 단계"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "현재 지도 및 팀에 가장 적합한 전차를 선택하십시오."
+
+msgid "prebattleTimer/wait/header"
+msgstr "플레이어를 기다리는 중..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "전차 선택"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "%(server)s 서버 스테이지 종료"
+
+msgid "primeTimeView/server"
+msgstr "이용 가능 서버: %(server)s"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s 서버\n%(time)s 동안 전투 참여 가능"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s 서버\n%(time)s 후 전투 참여 가능"
+
+msgid "primeTimeView/servers"
+msgstr "이용 가능 서버:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "모든 서버 전투 참여 불가"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "%(server)s 서버 해당 모드 이용 불가"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "%(server)s 서버 %(time)s 동안 전투 참여 가능"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "%(server)s 서버 %(time)s 후 전투 시작"
+
+msgid "primeTimeView/status/untill"
+msgstr "%(server)s 서버 %(startTime)s까지 전투 참여 불가"

@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "限定レート"
+msgstr[1] "限定レート%(index)s"
+msgstr[2] "限定レート%(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "少なくとも1つの制限を超過しています。支払いの一部は次のレートに回されます。"
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "基本変換レート"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "次に適用できるレート"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "適用される限定レート: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "限定レートの合計: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "変換後"
+
+msgid "common/cancel"
+msgstr "キャンセル"
+
+msgid "common/combinedDiscount"
+msgstr "合計割引"
+
+msgid "common/exchange"
+msgstr "変換"
+
+msgid "common/exchangeRate"
+msgstr "変換レート"
+
+msgid "common/limitExceeded"
+msgstr "上限を超過しました。合計割引を用いて変換を行います。"
+
+msgid "common/limitOverExceeded"
+msgstr "上限を超過したため、合計割引が使用されます。"
+
+msgid "common/limitRestrictions"
+msgstr "さらに詳しく"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "基本変換レート: %(rateFrom)s = %(rateTo)s"
+
+msgid "exchange/generalExchangeRate"
+msgstr "一般変換レート: %(rateFrom)s = %(rateTo)s"
+
+msgid "exchange/information"
+msgstr "%(gold)s ゴールドの変換完了。取得: %(res)s"
+
+msgid "exchange/personalExchangeRate"
+msgstr "個人変換レート: %(rateFrom)s = %(rateTo)s"
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "個人変換レート: %(rateFrom)s = %(rateTo)s。上限を超過しました。"
+
+msgid "exchangeXP/information"
+msgstr "%(res)sEXPのフリーEXPへの変換完了。ゴールド消費: %(gold)s"
+
+msgid "experienceExchange/available"
+msgstr "変換可能なEXP:"
+
+msgid "experienceExchange/paid"
+msgstr "消費"
+
+msgid "experienceExchange/received"
+msgstr "取得"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "車輌 Tier でソート"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "野戦改修レベルでソート"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "車輌名でソート"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "国でソート"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "車輌タイプでソート"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "選択車輌でソート"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "取得EXPでソート"
+
+msgid "goldExchange/paid"
+msgstr "変換前"
+
+msgid "goldExchange/received"
+msgstr "変換後"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)sゴールド = %(resourceRate)sクレジット"
+
+msgid "notification/discountDescription/message"
+msgstr "個人変換レート"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "変換へ"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "新しい変換レートを適用可能！"
+
+msgid "tooltip/common/basicRate"
+msgstr "基本変換レート"
+
+msgid "tooltip/common/generalRate"
+msgstr "一般変換レート"
+
+msgid "tooltip/common/personalRate"
+msgstr "個人変換レート"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "有利な変換レート"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "一時的な変換レート"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "額はゴールドを購入した後にしか決められません。"
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "変換後のゴールド額"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)sゴールド = %(resourceRate)sフリーEXP"

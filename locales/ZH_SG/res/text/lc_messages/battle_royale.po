@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "所有可用服务器处于停战期。"
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "此服务器处于停战期。"
+
+msgid "alertMessage/changeServerButton"
+msgstr "更改服务器"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "钢铁猎手已结束"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "模式不适用于此服务器"
+
+msgid "banner/info/disabled"
+msgstr "停战期"
+
+msgid "banner/info/seasonActive"
+msgstr "重生与奖励"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "至%(month)s%(day)s日"
+
+msgid "banner/subtitle"
+msgstr "提供珍贵奖励的大逃杀模式"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s小时"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s小时%(minutes)s分钟"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s分钟"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "钢铁猎手"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "战斗将在新位置继续。"
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "您即将重生"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "正在重生"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "不会再有第二次机会。"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "无法再重生"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "不久后便无法再重生！"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "这次请多加小心。"
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "您的战车已准备好加入战斗！"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "正在返回战斗"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "正在交战中。"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "无法重生"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "寻找重生次数，助其重新投入行动。"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "队友战车被摧毁"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "正在重生"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "人多力量大！"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "队友战车已重生"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "快脱离交战！"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "队友正在重生"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "加成已激活！"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "第一名奖励"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "在战斗中已收集"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "胜利"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "未选择章节。未花费的战令点数：%(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "已完成所有章节。继续战斗并累积战令点数。"
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "前往战令"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "战令"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "选择一个章节"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "前往当前激活章节的进度"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "前往战令"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "一场战斗完成的任务数量：{count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "任务"
+
+msgid "battleResult/battleReward/title"
+msgstr "从战斗获得的奖励"
+
+msgid "battleResult/button/hangar"
+msgstr "前往车库"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "点数和奖励将在所有玩家结束战斗后分配。任务也将根据战绩进行评定。"
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "按下%(esc)跳过动画"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "邀请加入小队"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "队友"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "随机队友"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "战斗类型"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "单人战斗"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "拥有《坦克世界》高级账号后，您将获得："
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "拥有《坦克世界》高级账号的总数值"
+
+msgid "battleResult/progressStage"
+msgstr "阶段{stage}进度"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "玩家的真实昵称和军团标签在战斗中不会对其他玩家显示。"
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "玩家真实昵称：{name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "玩家的昵称显示为{name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "您的战车装甲抵挡的伤害总量。"
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "您造成的伤害总量。"
+
+msgid "battleResult/stats/body/kills"
+msgstr "您击毁的敌方战车数量。"
+
+msgid "battleResult/stats/body/place"
+msgstr "您的排名基于战斗结果。"
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "被您的小队击毁的敌方战车总数。"
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "抵挡伤害"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "造成的伤害"
+
+msgid "battleResult/stats/header/kills"
+msgstr "被您击毁"
+
+msgid "battleResult/stats/header/place"
+msgstr "排名"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "被小队击毁"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "抵挡伤害"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "造成的伤害"
+
+msgid "battleResult/stats/title/kills"
+msgstr "被您击毁"
+
+msgid "battleResult/stats/title/place"
+msgstr "排名"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "被小队击毁"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "排行榜"
+
+msgid "battleResult/tab/result"
+msgstr "战斗结果"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "小队被击毁"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "战车被击毁"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "胜利"
+
+msgid "battleResult/title/victoryOther"
+msgstr "荣誉名次"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "选择一辆适用于钢铁猎手模式的特殊战车。"
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "战车不匹配"
+
+msgid "button/modules"
+msgstr "科技树"
+
+msgid "button/repair"
+msgstr "修复"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "战斗暂不可用"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "战斗暂不可用"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "模式不可用"
+
+msgid "ceasefire/header/schedule"
+msgstr "战斗时间表"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "所有可用服务器处于停战期。您可在下方查看日程表。"
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "此服务器处于停战期。您可切换到其他服务器来进行模式。"
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "钢铁猎手在当前服务器不可用。您可切换到其他服务器来进行。"
+
+msgid "commanderInfo/commonRank"
+msgstr "车长"
+
+msgid "commanderInfo/description/china"
+msgstr "“我已经赢了。你很快就会意识到。”"
+
+msgid "commanderInfo/description/france"
+msgstr "“我就是法律！”"
+
+msgid "commanderInfo/description/germany"
+msgstr "“今天将是载入史册的辉煌日子。”"
+
+msgid "commanderInfo/description/poland"
+msgstr "“没时间客套了。”"
+
+msgid "commanderInfo/description/sweden"
+msgstr "“一切按计划进行。”"
+
+msgid "commanderInfo/description/uk"
+msgstr "“无论你是谁，要做到最好。”"
+
+msgid "commanderInfo/description/usa"
+msgstr "“战斗将始，硝烟如云，子弹像雨。”"
+
+msgid "commanderInfo/description/ussr"
+msgstr "“胜者为王！”"
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapiere"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "特长"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\n钢铁猎手模式的特殊战车"
+
+msgid "fragPanel/squadsCount"
+msgstr "小队：%(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "排行榜"
+
+msgid "hangarResults/btns/summary"
+msgstr "战斗结果"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "关闭"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "模块升级只能在战斗中进行。在战斗中按下%(key)s键打开升级菜单。"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s和%(highlight2)s可以获得经验。每达到一个等级玩家可以在升级菜单中对一个模块进行升级并显著提高战车的属性。"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "对敌方战车造成伤害"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "收集地图上的物资"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "在战斗中升级战车"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "您会使用一辆I级战车参加战斗。"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "您可以在战斗期间从升级菜单（默认%(treeKey)s键）或按下%(leftModuleKey)s和%(rightModuleKey)s组合键对模块进行升级。\n\n模块只能在战斗中升级。"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "战斗中："
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "您的钢铁猎手可以通过造成伤害和收集物资获得战斗经验。一旦累积到所需的经验，您的战车将升至下一等级并可以选择一个模块进行升级。"
+
+msgid "levelUp/severalTitles"
+msgstr "已达到等级：%(firstLevel)s–%(lastLevel)s！"
+
+msgid "levelUp/title"
+msgstr "已达到等级%(level)s！"
+
+msgid "levelUp/twoTitles"
+msgstr "已达到等级：%(firstLevel)s，%(secondLevel)s！"
+
+msgid "level_up/max_level_info/description"
+msgstr "完成任务并获得珍贵的奖励。"
+
+msgid "level_up/max_level_info/title"
+msgstr "有新的每日任务"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "赛季\n即将开始"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "赛季将于%(date)s开始"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "已抵挡"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "伤害"
+
+msgid "playerStats/killsStat/name"
+msgstr "已击毁"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "已击毁"
+
+msgid "playerStats/placeStat/name"
+msgstr "名次"
+
+msgid "playerStats/title"
+msgstr "个人得分"
+
+msgid "player_errors/radarInCooldown"
+msgstr "无线电侦测不可用：正在准备中"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "战车状态全满。不需要恢复。"
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "战地机器人被击毁"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s摧毁了%(target)s。"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s摧毁了敌方%(target)s。"
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "自爆战车被击毁"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "雷区已失效"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "雷区已布置"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "无线电侦测已就绪"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "战车已达到最高等级"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "已达到%(level)s级"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "已安装：%(moduleType)s。已升级：%(module)s。"
+
+msgid "player_messages/moduleType/hull"
+msgstr "车体"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "悬挂"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "发动机"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "火炮"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "无线电侦测"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "炮塔"
+
+msgid "playersPanel/title"
+msgstr "团队"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "切换小队战车。"
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "观察模式"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > 返回车库。\n用其他战车加入战斗。"
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "返回车库"
+
+msgid "preBattle/buttonTitle"
+msgstr "加入战斗！"
+
+msgid "preBattle/dropDownTitle"
+msgstr "选择地图"
+
+msgid "preBattle/listTitle"
+msgstr "玩家准备状态"
+
+msgid "preBattle/mapArzagir"
+msgstr "阿尔萨吉尔 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "404区域"
+
+msgid "preBattle/mapRandom"
+msgstr "随机地图"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "小队战车"
+
+msgid "preBattle/title"
+msgstr "大狩猎"
+
+msgid "preBattle/userFooterTitle"
+msgstr "已选战车"
+
+msgid "preBattle/userNotReady"
+msgstr "未准备"
+
+msgid "preBattle/userReady"
+msgstr "已准备"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "%(server)s服务器上的赛季%(cycleNo)s已结束"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "%(server)s服务器上的赛季已结束。"
+
+msgid "proxyPanel/button"
+msgstr "商店"
+
+msgid "proxyPanel/label"
+msgstr "钢铁\n印记"
+
+msgid "proxyPanel/store"
+msgstr "商店"
+
+msgid "questsTooltip/timeLeft"
+msgstr "赛季结束于%(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "没有为无线电侦测分配按键"
+
+msgid "radar/hint/press"
+msgstr "按下"
+
+msgid "radar/hint/text"
+msgstr "激活无线电侦测"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "出发"
+
+msgid "selectRespawn/button/land"
+msgstr "出发"
+
+msgid "selectRespawn/description"
+msgstr "点击建议地点中的一个。如果没有选择任何地点，您将会在建议地点中的一个出发。"
+
+msgid "selectRespawn/header"
+msgstr "选择一个出发地点"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "点击建议地点中的一个。如果没有选择任何地点，您将会在建议地点中的一个出发。"
+
+msgid "selectRespawn/text/startHere"
+msgstr "您的战斗在此开始"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "选择一个出发地点"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s天"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s小时%(min)s分钟"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1分钟"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s分钟"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "狂暴！"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "装甲受到强酸腐蚀！"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "区域已关闭！赶快离开该区域，否则您的战车将被摧毁！"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "区域即将变红"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "机动性下降！"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "正在翻回战车…"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "正在恢复血量"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "正在恢复血量"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "正在转换伤害"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "技术参数已提升"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "炮弹和血量恢复"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "空投"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "修理箱或能力使用次数"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "战利品"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "战利品组合：%(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "正在收集：%(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "修复区"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "斗志渐涨！"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "烟幕中"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "我们的装甲正在被腐蚀！"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "机动性下降！"
+
+msgid "techParams/type/damage"
+msgstr "伤害"
+
+msgid "techParams/type/difficulty"
+msgstr "难度"
+
+msgid "techParams/type/mobility"
+msgstr "机动性"
+
+msgid "techParams/type/spotting"
+msgstr "侦察"
+
+msgid "techParams/type/survivability"
+msgstr "生存能力"
+
+msgid "techtree/body_armor"
+msgstr "装甲"
+
+msgid "techtree/body_health"
+msgstr "血量"
+
+msgid "techtree/body_mobility"
+msgstr "机动性"
+
+msgid "techtree/engine_acceleration"
+msgstr "动力"
+
+msgid "techtree/engine_speed"
+msgstr "最高速度"
+
+msgid "techtree/gun_alpha"
+msgstr "单发伤害"
+
+msgid "techtree/gun_auto_loader"
+msgstr "自动再装填火炮"
+
+msgid "techtree/gun_clip"
+msgstr "弹匣装填"
+
+msgid "techtree/gun_dpm"
+msgstr "装填速度"
+
+msgid "techtree/gun_dualgun"
+msgstr "双火炮"
+
+msgid "techtree/gun_he"
+msgstr "HE弹伤害"
+
+msgid "techtree/gun_machinegun"
+msgstr "反坦克机枪"
+
+msgid "techtree/gun_piercing"
+msgstr "穿透力"
+
+msgid "techtree/radar_cooldown"
+msgstr "无线电侦测冷却"
+
+msgid "techtree/radar_distance"
+msgstr "侦测范围"
+
+msgid "techtree/turret_armor"
+msgstr "装甲"
+
+msgid "techtree/turret_health"
+msgstr "血量"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "转动速度"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "最多{{credits}}银币"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "最多{{experience}}经验"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "小队战斗加成"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "与随机队友组队参战，一起对战9个敌方小队。小队任务可在此模式中完成。小队会在战斗结束后自动解散。"
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "经典钢铁猎手。所有玩家各自为战。收集资源、升级战车、使用独特能力，成为最后的赢家！"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "与好友组队参战。作为一个团队对战9支敌方小队。小队任务可在此模式中完成。"
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "随机小队"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "单人模式"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "与好友创建小队"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "单人"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "小队"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "点数获取规则"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "第%(place)s名"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "第%(place)s名"
+
+msgid "tooltips/awards/achievement"
+msgstr "勋章"
+
+msgid "tooltips/awards/badge"
+msgstr "徽章"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s：\"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "让您可以在战车被摧毁后重返战斗。战车重生后不会丢失强化等级。每场战斗有使用次数限制。"
+
+msgid "tooltips/respawn/footer/text"
+msgstr "重生次数可从空投中获取。"
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "想要协助队友重生，需要脱离交战{brown_Open}%(timeToResurrect)s秒{brown_Close}。此机制在战斗开始后的首{brown_Open}%(duration)s分钟{brown_Close}内有效。小队成员共享重生次数。"
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "组队游戏时"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "战车一旦被摧毁将自动重生。此机制在战斗开始后的首{brown_Open}%(duration)s分钟{brown_Close}内有效。"
+
+msgid "tooltips/respawn/solo/title"
+msgstr "单人游戏时"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "一次性使用"
+
+msgid "tooltips/respawn/title"
+msgstr "重生"
+
+msgid "tooltips/vehicle/description"
+msgstr "钢铁猎手模式的战车"
+
+msgid "tournament/description"
+msgstr "大狩猎"
+
+msgid "tournament/fightButton/notReady"
+msgstr "未准备"
+
+msgid "tournament/fightButton/ready"
+msgstr "已准备！"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "无法进入联赛。错误码：%(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "大狩猎联赛错误。错误码：%(errorString)s"
+
+msgid "tournament/title"
+msgstr "大狩猎"
+
+msgid "tournament/type/solo"
+msgstr "类型：单人"
+
+msgid "tournament/type/squad"
+msgstr "类型：小队"
+
+msgid "upgradePanel/alert/0"
+msgstr "无法升级您的战车！"
+
+msgid "upgradePanel/alert/1"
+msgstr "在交火期间无法升级战车！"
+
+msgid "upgradePanel/alert/2"
+msgstr "无法升级战车。战车正在沉没！"
+
+msgid "upgradePanel/alert/3"
+msgstr "无法升级您的战车，战车已翻覆！"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "按下%(key)s键打开升级菜单"
+
+msgid "upgradePanel/title/default"
+msgstr "可以使用新的模块"
+
+msgid "upgradePanel/title/hull"
+msgstr "可以使用新的车体"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "可以使用新的悬挂"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "可以使用新的发动机"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "可以使用新的火炮"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "可以使用新的无线电"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "可以使用新的炮塔"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "或"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "装甲"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "单发伤害"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "装填速度"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "血量"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "穿透力"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "无线电侦测操作"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "弹匣装填系统"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "速度"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "战车特点"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "优点"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "缺点"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "所有服务器处于停战期。战斗将于%(time)s后开放"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "选择其他服务器"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "片段%(cycle)s已结束"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "片段已结束"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "此服务器处于停战期。战斗将于%(time)s后开放"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "%(serverName)s处于停战期"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "片段%(cycle)s将在%(time)s后开始"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "第一片段将在%(time)s后开始"

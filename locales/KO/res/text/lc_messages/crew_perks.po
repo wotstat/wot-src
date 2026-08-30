@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "피해를 받으면 내구도 회복이 중단됩니다.\n\n내구도 회복률과 최대 복구 한도는 전차 총 내구도에 따라 달라집니다. 총 내구도는 모든 성능 변동 효과가 반영된 수치를 기준으로 합니다."
+
+msgid "armorPatching/alt/info"
+msgstr "공통 능력은 모든 승무원의 훈련 수준 평균치로 적용됩니다. 능력을 1% 이상 훈련하면 효과가 적용되며 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "수리 도구 사용 시 5초에 걸쳐 전차 {yellow_Start}내구도{yellow_End}의 %(hpRecover)s가 회복됩니다. 전투당 내구도의 최대 20%를 회복할 수 있습니다. 손상된 부품이 없어도 수리 도구를 사용할 수 있습니다."
+
+msgid "armorPatching/hudDescription"
+msgstr "내구도가 회복됩니다."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "모든 승무원이 훈련을 완료하면 수리 도구 사용 시 5초에 걸쳐 전차 {yellow_Start}내구도{yellow_End}의 %(hpRecover)s가 회복됩니다. 전투당 내구도의 최대 20%를 회복할 수 있습니다. 손상된 부품이 없어도 수리 도구를 사용할 수 있습니다."
+
+msgid "armorPatching/name"
+msgstr "장갑 보수"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ 전차 기본 위장률 향상"
+
+msgid "brotherhood/alt/description"
+msgstr "승무원 숙련도 보너스는 전투 중 승무원 효율성과 해당 능력을 제외하고 훈련한 모든 능력의 효과를 향상합니다. 효과가 비슷한 장비 및 소모품이나 환기구 청소 지휘명령을 함께 사용하면 더 효율적입니다. 전차장의 긴급 대처 능력, 무전수의 근접 교신 및 무전 전문가 능력을 통해서도 효과를 향상할 수 있습니다."
+
+msgid "brotherhood/alt/info"
+msgstr "공통 능력은 모든 승무원의 훈련 수준 평균치로 적용됩니다. 능력을 1% 이상 훈련하면 효과가 적용되며 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "모든 승무원의 {greenBright_Start}승무원 숙련도 보너스{greenBright_End}가 %(crewLevelIncrease)s 증가합니다&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "모든 승무원이 훈련을 완료하면 모든 승무원의 {greenBright_Start}승무원 숙련도 보너스{greenBright_End}가 %(crewLevelIncrease)s 증가합니다&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "전우애"
+
+msgid "brotherhood/shortDescription"
+msgstr "승무원 숙련도가 향상됩니다."
+
+msgid "camouflage/alt/description"
+msgstr "전차 위장률에 영향을 미치는 능력입니다. 천연 위장 지휘명령을 사용하면 효율을 더 높일 수 있습니다.\n\n위장 무늬 및 스타일을 적용하거나 효과가 비슷한 장비를 함께 사용하면 전차 위장률을 더 향상할 수 있습니다."
+
+msgid "camouflage/alt/info"
+msgstr "공통 능력은 모든 승무원의 훈련 수준 평균치로 적용됩니다. 능력을 1% 이상 훈련하면 효과가 적용되며 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "전차 {greenBright_Start}위장률{greenBright_End}이 %(maskingFactor)s 증가합니다&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "모든 승무원이 훈련을 완료하면 전차 {greenBright_Start}위장률{greenBright_End}이 %(maskingFactor)s 증가합니다&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "위장"
+
+msgid "camouflage/shortDescription"
+msgstr "전차의 기본 위장률이 증가합니다."
+
+msgid "commander_coordination/alt/description"
+msgstr "적 전차를 발견할 때마다 효과가 활성화됩니다. 여러 전차를 발견하더라도 효과가 중첩되지는 않습니다.\n\n포수의 신속 조준 능력을 훈련하거나 효과가 비슷한 장비를 장착하면 조준 속도를 더 높일 수 있습니다."
+
+msgid "commander_coordination/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "적 전차 발견 시 15초 동안 {yellow_Start}조준 속도{yellow_End}가 %(vehicleGunAimSpeed)s 증가합니다."
+
+msgid "commander_coordination/hudDescription"
+msgstr "조준 속도가 증가합니다."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "훈련을 완료하면 적 전차 발견 시 15초 동안 {yellow_Start}조준 속도{yellow_End}가 %(vehicleGunAimSpeed)s 증가합니다.\t"
+
+msgid "commander_coordination/name"
+msgstr "신속 지휘"
+
+msgid "commander_coordination/shortDescription"
+msgstr "조준 속도가 증가합니다."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "무전수의 상황 인식 능력을 훈련하거나 효과가 비슷한 장비를 장착하면 관측 범위를 더 넓힐 수 있습니다. 광학장비 보정 지휘명령을 사용하면 효과가 향상됩니다."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}관측 범위{greenBright_End}가 %(circularVisionRadius)s 증가합니다&zwnbsp;. {greenBright_Start}관측 장비 손상으로 인한 성능 저하 효과{greenBright_End}가 %(penaltyToDamagedSurveyingDevice)s 감소합니다&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "관측 장비 손상으로 인한 성능 저하 효과가 감소합니다."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}관측 범위{greenBright_End}가 %(circularVisionRadius)s 증가하고&zwnbsp; {greenBright_Start}관측 장비 손상으로 인한 성능 저하 효과{greenBright_End}가 %(penaltyToDamagedSurveyingDevice)s 감소합니다&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "정찰"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "관측 범위가 증가합니다. 관측 장치 손상 시에도 적용됩니다."
+
+msgid "commander_emergency/alt/description"
+msgstr "적에게 반복해서 피해를 입더라도 효과가 중첩되지는 않습니다. 승무원 숙련도 보너스는 승무원의 전투 효율성을 향상합니다. 효과가 비슷한 장비 및 소모품이나 환기구 청소 지휘명령을 사용하면 효율을 더 높일 수 있습니다. 전우애 공통 능력, 무전수의 근접 교신 및 무전 전문가 능력을 통해서도 효과를 향상할 수 있습니다."
+
+msgid "commander_emergency/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "적에게 피해를 입을 시 15초 동안 {yellow_Start}승무원 숙련도 보너스{yellow_End}가 %(crewLevelIncrease)s 증가합니다."
+
+msgid "commander_emergency/hudDescription"
+msgstr "승무원 숙련도 보너스가 증가합니다."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "훈련을 완료하면 적에게 피해를 입을 시 15초 동안 {yellow_Start}승무원 숙련도 보너스{yellow_End}가 %(crewLevelIncrease)s 증가합니다."
+
+msgid "commander_emergency/name"
+msgstr "긴급 대처"
+
+msgid "commander_emergency/shortDescription"
+msgstr "승무원 숙련도 보너스가 증가합니다."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "적 자주포의 사격을 감지합니다. 적 자주포가 사격하는 시점에 활성화되지만, 약간의 지연은 있습니다.\n\n경계 강화 지휘명령을 사용하면 효과가 향상됩니다."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "적 자주포가 사격 시 %(artNotificationDelayFactor)s 후 {yellow_Start}사격 방향을 감지{yellow_End}합니다. {greenBright_Start}폭발 충격으로 인한 성능 저하 효과{greenBright_End}가 %(stunResistanceEffectFactor)s 감소합니다&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "훈련을 완료하면 적 자주포가 사격 시 %(artNotificationDelayFactor)s 후 {yellow_Start}사격 방향을 감지{yellow_End}합니다. {greenBright_Start}폭발 충격의 성능 저하 효과{greenBright_End}가 %(stunResistanceEffectFactor)s 감소합니다&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "음향 탐지"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "적 자주포 사격을 감지합니다."
+
+msgid "commander_holdLine/alt/description"
+msgstr "승무원 숙련도 보너스는 승무원의 전투 효율을 향상합니다.\n\n효과가 비슷한 장비, 소모품, 환기구 청소 지휘명령을 사용하면 효율을 더 높일 수 있습니다. 다른 승무원 능력을 통해서도 효과를 향상할 수 있습니다."
+
+msgid "commander_holdLine/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "전투에서 적 전차 수가 아군보다 3대 이상 많을 때 {yellow_Start}승무원 숙련도 보너스{yellow_End}가 %(crewLevelIncrease)s 증가합니다."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "적이 수적으로 우세할 때 승무원 숙련도 보너스가 증가합니다."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "훈련을 완료하면 전투에서 적 전차 수가 아군보다 3대 이상 많을 때 {yellow_Start}승무원 숙련도 보너스{yellow_End}가 %(crewLevelIncrease)s 증가합니다."
+
+msgid "commander_holdLine/name"
+msgstr "전선 사수"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ 승무원 숙련도 보너스 증가"
+
+msgid "commander_practical/alt/description"
+msgstr "전차에 탑재된 모든 유형의 소모품에 능력이 적용됩니다.\n\n철저한 정비 지휘명령을 사용하면 효과가 향상됩니다."
+
+msgid "commander_practical/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}소모품 재사용 시간{greenBright_End}이 %(equipmentPreparationTime)s 감소합니다&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}소모품 재사용 시간{greenBright_End}이 %(equipmentPreparationTime)s 감소합니다."
+
+msgid "commander_practical/name"
+msgstr "효율 중시"
+
+msgid "commander_practical/shortDescription"
+msgstr "소모품 재사용 시간이 감소합니다."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "전차장이 부상을 당하면 육감이 비활성화됩니다. 무전수의 신호 감청 능력을 통해서 활성화를 가속할 수 있습니다."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "훈련할 필요 없이 기본적으로 사용할 수 있는 전차장 특성입니다."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "전차가 적에게 발각되었는지를 파악할 수 있습니다. 전차가 발각되고 %(delay)s 후 활성화됩니다."
+
+msgid "commander_sixthSense/name"
+msgstr "육감"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "전차가 적에게 발각되었는지 파악합니다."
+
+msgid "commander_staySharp/alt/description"
+msgstr "승무원 숙련도 보너스는 승무원의 전투 효율을 향상합니다.\n\n효과가 비슷한 장비, 소모품, 환기구 청소 지휘명령을 사용하면 효율을 더 높일 수 있습니다. 다른 승무원 능력을 통해서도 효과를 향상할 수 있습니다."
+
+msgid "commander_staySharp/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "구급 상자 사용 후 15초 동안 {yellow_Start}승무원 숙련도 보너스{yellow_End}가 %(crewLevelIncrease)s 증가합니다. 부상당한 승무원이 없어도 구급 상자를 사용할 수 있습니다."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "구급 상자 사용 시 승무원 숙련도 보너스가 증가합니다."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "훈련을 완료하면 구급 상자 사용 후 15초 동안 {yellow_Start}승무원 숙련도 보너스{yellow_End}가 %(crewLevelIncrease)s 증가합니다. 부상당한 승무원이 없어도 구급 상자를 사용할 수 있습니다."
+
+msgid "commander_staySharp/name"
+msgstr "경계 태세 유지"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ 승무원 숙련도 보너스 증가"
+
+msgid "commander_tutor/alt/description"
+msgstr "부상당한 전차장은 다른 승무원의 역할을 대체할 수 없습니다. 보너스는 전투에서 획득한 기본 승무원 경험치에만 적용됩니다.\n\n승무원 훈련서를 사용하거나 자유 경험치를 승무원 경험치로 전환하면 승무원 경험치를 추가로 획득할 수 있습니다."
+
+msgid "commander_tutor/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "모든 승무원의 {greenBright_Start}경험치{greenBright_End} 획득량이 %(xpBonusFactorPerLevel)s 증가합니다. 전차장이 {greenBright_Start}부상당한 승무원의 역할{greenBright_End}을 %(woundedCrewEfficiency)s 효율로 대신합니다."
+
+msgid "commander_tutor/hudDescription"
+msgstr "전차장이 부상당한 승무원의 역할을 대신합니다."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "훈련을 완료하면 모든 승무원의 {greenBright_Start}경험치{greenBright_End} 획득량이 %(xpBonusFactorPerLevel)s 증가합니다. 전차장이 {greenBright_Start}부상당한 승무원의 역할{greenBright_End}을 %(woundedCrewEfficiency)s 효율로 대신합니다."
+
+msgid "commander_tutor/name"
+msgstr "조교"
+
+msgid "commander_tutor/shortDescription"
+msgstr "전차장이 부상당한 승무원의 역할을 대신합니다."
+
+msgid "commander_universalist/alt/description"
+msgstr "부상당한 승무원의 주특기만 대체할 수 있으며 부상당한 승무원이 많을수록 효과가 감소합니다."
+
+msgid "commander_universalist/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "전차장이 {greenBright_Start}부상당한 승무원의 역할{greenBright_End}을 %(woundedCrewEfficiency)s 효율로 대신합니다."
+
+msgid "commander_universalist/hudDescription"
+msgstr "전차장이 부상당한 승무원의 역할을 대신합니다."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "훈련을 완료하면 전차장이 {greenBright_Start}부상당한 승무원의 역할{greenBright_End}을 %(woundedCrewEfficiency)s 효율로 대신합니다."
+
+msgid "commander_universalist/name"
+msgstr "팔방미인"
+
+msgid "commander_universalist/shortDescription"
+msgstr "전차장이 부상당한 승무원의 역할을 대신합니다."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "다소 무른 지형을 지날 때 기동력 및 가속력 저하 효과가 감소합니다. 무른 지형을 지날 때 해당 저하 효과가 다소 무른 지형에서 기동하는 수준으로 대폭 감소합니다.\n다소 무른 지형과 무른 지형에서의 기동력은 단단한 지형에서의 기동력을 초과할 수 없습니다."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}다소 무른 지형을 지날 때 속력 저하 효과{greenBright_End}가 %(mediumGroundFactor)s 감소하고&zwnbsp; {greenBright_Start}무른 지형을 지날 때 속력 저하 효과{greenBright_End}가 다소 무른 지형을 지날 때의 결과값의 %(softGroundFactor)s로 감소합니다."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}다소 무른 지형을 지날 때 속력 저하 효과{greenBright_End}가 %(mediumGroundFactor)s 감소하고&zwnbsp; {greenBright_Start}무른 지형을 지날 때 속력 저하 효과{greenBright_End}가 다소 무른 지형을 지날 때의 결과값의 %(softGroundFactor)s로 감소합니다."
+
+msgid "driver_badRoadsKing/name"
+msgstr "험지주파"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "승무원 숙련도 보너스는 승무원의 전투 효율을 향상합니다.\n\n효과가 비슷한 장비, 소모품, 환기구 청소 지휘명령을 사용하면 효율을 더 높일 수 있습니다. 다른 승무원 능력을 통해서도 효과를 향상할 수 있습니다."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "막은 피해량이 전차의 초기 내구도 초과 시 {yellow_Start}승무원 숙련도 보너스{yellow_End}가 %(crewLevelIncrease)s 증가합니다."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "막은 피해량이 일정량을 초과하면 승무원 숙련도 보너스가 증가합니다."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "훈련을 완료하면 막은 피해량이 전차의 초기 내구도 초과 시 {yellow_Start}승무원 숙련도 보너스{yellow_End}가 %(crewLevelIncrease)s 증가합니다."
+
+msgid "driver_bulletproof/name"
+msgstr "방탄"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "효과가 비슷한 장비를 함께 사용하면 최고 속력은 더 높이고 엔진 손상으로 인한 성능 저하 효과는 더 낮출 수 있습니다."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "전차의 {greenBright_Start}최고 속력{greenBright_End}과 {greenBright_Start}후진 속력{greenBright_End}이 %(vehicleForwardMaxSpeed)s 증가합니다. {greenBright_Start}엔진 손상으로 인한 성능 저하 효과{greenBright_End}가 %(vehPenaltyForDamagedEngine)s 감소합니다&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "엔진 손상으로 인한 성능 저하 효과가 감소합니다."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "훈련을 완료하면 전차의 {greenBright_Start}최고 속력{greenBright_End}과 {greenBright_Start}후진 속력{greenBright_End}이 %(vehicleForwardMaxSpeed)s 증가합니다. {greenBright_Start}엔진 손상으로 인한 성능 저하 효과{greenBright_End}가 %(vehPenaltyForDamagedEngine)s 감소합니다&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "엔진공학"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "엔진 손상으로 인한 성능 저하 효과가 감소합니다."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "아군 전차끼리 충돌할 때는 효과가 적용되지 않습니다.\n\n효과가 비슷한 장비를 함께 사용하면 충돌 시 받는 피해를 더 낮출 수 있습니다."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}충돌 시 적 전차에 입히는 피해{greenBright_End}가 %(damageEnemiesByRamming)s 증가합니다&zwnbsp;. {greenBright_Start}충돌 시 자신의 전차 피해{greenBright_End}가 %(vehicleRamDamageResistance)s&zwnbsp;, {greenBright_Start}현가장치 피해{greenBright_End}가 %(vehicleRamChassisDamageResistance)s 감소합니다&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}충돌 시 적 전차에 입히는 피해{greenBright_End}가 %(damageEnemiesByRamming)s 증가합니다&zwnbsp;. {greenBright_Start}충돌 시 자신의 전차 피해{greenBright_End}가 %(vehicleRamDamageResistance)s&zwnbsp;, {greenBright_Start}현가장치 피해{greenBright_End}가 %(vehicleRamChassisDamageResistance)s 감소합니다&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "박치기왕"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "충돌 시 자신이 입는 피해는 줄고 적 전차에 입히는 피해는 증가합니다."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "효과가 비슷한 장비를 함께 사용하면 고폭탄에 의한 피해를 더 낮출 수 있습니다."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}고폭탄 피해 흡수량{greenBright_End}이 %(vehicleHEShellDamageResistance)s 증가하고, {greenBright_Start}엔진 화재 발생 확률{greenBright_End}은 %(vehicleFireChance)s, {greenBright_Start}현가장치 피해{greenBright_End}는 %(suspensionDamageReduction)s 감소합니다."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}고폭탄 피해 흡수량{greenBright_End}이 %(vehicleHEShellDamageResistance)s 증가하고, {greenBright_Start}엔진 화재 확률{greenBright_End}은 %(vehicleFireChance)s, {greenBright_Start}현가장치 피해{greenBright_End}는 %(suspensionDamageReduction)s 감소합니다."
+
+msgid "driver_reliablePlacement/name"
+msgstr "배치 안정"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "정지 시/차체 회전 시 명중률에는 영향을 미치지 않습니다.\n\n정밀 변속 지휘명령을 사용하면 효율을 높일 수 있습니다. 효과가 비슷한 장비나 안정기 윤활 지휘명령을 사용하면 기동 시 사격 명중률을 더 향상할 수 있습니다."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "기동 시 {greenBright_Start}주포 분산도{greenBright_End}가 %(vehicleGunShotDispersionChassisMovement)s 감소합니다&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "훈련을 완료하면 기동 시 {greenBright_Start}주포 분산도{greenBright_End}가 %(vehicleGunShotDispersionChassisMovement)s 감소합니다&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "안전운행"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "기동 시 사격 명중률이 향상됩니다."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "해당 능력은 50m 이내에 아군 전차가 있을 때 빨간 상태에서 노란 상태로 현가장치를 수리하는 속도에 영향을 미칩니다."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "50m 이내에 아군 전차가 있을 때 {yellow_Start}현가장치 수리 속도{yellow_End}가 %(suspensionRepairSpeed)s 증가합니다."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "주변에 아군이 있을 때 현가장치 수리 속도가 증가합니다."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "훈련을 완료하면 50m 이내에 아군 전차가 있을 때 {yellow_Start}현가장치 수리 속도{yellow_End}가 %(suspensionRepairSpeed)s 증가합니다."
+
+msgid "driver_suspensionRepair/name"
+msgstr "야전 지원"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "효과가 비슷한 장비나 소모품을 함께 사용하면 화재 발생 확률을 더 낮출 수 있습니다. 소화 능력을 훈련하면 화재를 더 빠르게 진압할 수 있습니다."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "{greenBright_Start}엔진 화재 발생 확률{greenBright_End}이 %(vehicleFireChance)s 감소합니다."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}엔진 화재 발생 확률{greenBright_End}이 %(vehicleFireChance)s 감소합니다."
+
+msgid "driver_tidyPerson/name"
+msgstr "정밀 정비"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "엔진 화재 발생 확률이 감소합니다."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "효과가 비슷한 장비나 소모품을 함께 사용하면 차체 회전 속도를 더 향상할 수 있습니다."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}차체 회전 속도{greenBright_End}가 %(vehicleAllGroundRotationSpeed)s 증가합니다&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}차체 회전 속도{greenBright_End}가 %(vehicleAllGroundRotationSpeed)s 증가합니다."
+
+msgid "driver_virtuoso/name"
+msgstr "선회 향상"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "차체 회전 속도가 증가합니다."
+
+msgid "fireFighting/alt/description"
+msgstr "해당 능력은 화재에 의한 피해와 화재 지속 시간에 영향을 미칩니다.\n\n무전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다.\n\n소화 숙련 지휘명령을 사용하면 능력 효과를 향상할 수 있습니다."
+
+msgid "fireFighting/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}화재 진압 속도{greenBright_End}가 %(fireExtinguishingRate)s 증가합니다&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}화재 진압 속도{greenBright_End}가 %(fireExtinguishingRate)s 증가합니다&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "소화"
+
+msgid "fireFighting/shortDescription"
+msgstr "화재 진압 능력이 향상됩니다."
+
+msgid "gunner_armorer/alt/description"
+msgstr "기대 피해 범위 및 관통 범위의 기본값은 각각의 기본 수치의 ±25%입니다. 예를 들어, 포탄의 관통력이 100mm이고 공격력이 100이라면 표적 명중 시 해당 포탄이 실제 관통할 수 있는 장갑 두께는 75mm~125mm이고 입힐 수 있는 피해량은 75~125입니다. 기대 범위가 좁혀진다면 사격에 따른 결과를 더 쉽게 예상할 수 있을 것입니다.\n\n포수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다."
+
+msgid "gunner_armorer/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "{greenBright_Start}기대 피해{greenBright_End} 및 {greenBright_Start}기대 관통{greenBright_End} 범위가 {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s 좁혀집니다. {greenBright_Start}주포 분산도{greenBright_End}가 %(shotDispersionAngle)s 감소합니다&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}기대 피해{greenBright_End} 및 {greenBright_Start}기대 관통{greenBright_End} 범위가 {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s 좁혀집니다. {greenBright_Start}주포 분산도{greenBright_End}가 %(shotDispersionAngle)s 감소합니다&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "병기관"
+
+msgid "gunner_focus/alt/description"
+msgstr "전차 정지 후 3초 뒤에 효과가 적용되며 움직이면 초기화됩니다.\n\n포수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다."
+
+msgid "gunner_focus/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "전차 정지 시 {yellow_Start}주포 분산도{yellow_End}가 %(shotDispersionAngle)s 감소합니다&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "주포 분산도가 감소합니다."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "훈련을 완료하면 전차 정지 시 {yellow_Start}주포 분산도{yellow_End}가 %(shotDispersionAngle)s 감소합니다&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "정신 집중"
+
+msgid "gunner_focus/shortDescription"
+msgstr "정지 시 주포 분산도가 감소합니다."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "승무원 능력을 훈련하거나 효과가 비슷한 장비를 장착하면 주포 분산도 및 조준 속도를 더 향상할 수 있습니다.\n\n포수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "300m 이내에 아군 전차가 없을 때 {yellow_Start}주포 분산도{yellow_End}가 %(vehicleGunAimSpeed)s 감소하고, {yellow_Start}조준 속도{yellow_End}가 %(vehicleGunAimSpeed)s 증가합니다."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "주변에 아군이 없을 때 주포 분산도와 조준 속도가 향상됩니다."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "훈련을 완료하면 300m 이내에 아군 전차가 없을 때 {yellow_Start}주포 분산도{yellow_End}가 감소하고, {yellow_Start}조준 속도{yellow_End}가 %(vehicleGunAimSpeed)s 증가합니다."
+
+msgid "gunner_loneWolf/name"
+msgstr "고독한 늑대"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ 주포 분산도 감소 및 조준 속도 증가"
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "최대 기대 관통력의 기본값은 기본 수치의 +25%입니다. 예를 들어, 포탄의 관통력이 100mm라면 표적 명중 시 해당 포탄이 실제 관통할 수 있는 장갑 최대 두께는 125mm입니다. 최대 기대 수치가 상승한다면 관통 효율이 더 높아질 것입니다.\n\n포수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "50m 이내에 있는 적 전차 사격 시 {yellow_Start}최대 기대 관통력{yellow_End}이 %(piercingHEShellsDistributionUpperBound)s 증가합니다."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "훈련을 완료하면 50m 이내에 있는 적 전차 사격 시 {yellow_Start}최대 기대 관통력{yellow_End}이 %(piercingHEShellsDistributionUpperBound)s 증가합니다."
+
+msgid "gunner_pointBlast/name"
+msgstr "근접 사격"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ 포탄 최대 기대 관통력 증가"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "포수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다.\n\n전차장의 신속 지휘 능력을 훈련하거나 효과가 비슷한 장비를 장착하면 조준 속도를 더 높일 수 있습니다.\n\n효과가 비슷한 장비나 소모품을 사용하면 포탑 회전 속도를 더 높일 수 있습니다."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}조준 속도{greenBright_End}와 {greenBright_Start}포탑 회전 속도{greenBright_End}가 %(vehicleGunAimSpeed)s 증가합니다&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}조준 속도{greenBright_End}와 {greenBright_Start}포탑 회전 속도{greenBright_End}가 %(vehicleGunAimSpeed)s 증가합니다&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "신속 조준"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "조준 속도가 증가합니다."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "포수의 시야 내에 있는 전차 조준 시 부품 피해 정도를 파악합니다. 3인칭 및 1인칭 모드에서 모두 효과가 적용됩니다.\n포수의 시야각은 주포 정면 기준 ±10도씩 총 20도이며 관측 거리는 전차의 관측 범위와 같습니다.\n포수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다.\n목표 집중 지휘명령을 사용하면 능력 효과를 더 향상할 수 있습니다. 개량형 무전기를 사용하면 적 전차가 발견 상태로 유지되는 시간을 더 늘릴 수 있습니다."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "적 전차가 포수의 관측 범위 내에서 {greenBright_Start}발견 상태로 유지되는{greenBright_End} {greenBright_Start}시간{greenBright_End}이 %(vehicleEnemySpottingTime)s 증가합니다. {yellow_Start}부품 피해 정도를 파악{yellow_End}하는 데 걸리는 시간이 %(damageMonitoringDelay)s 감소합니다&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "훈련을 완료하면 적 전차가 포수의 관측 범위 내에서 {greenBright_Start}발견 상태로 유지되는{greenBright_End} {greenBright_Start}시간{greenBright_End}이 %(vehicleEnemySpottingTime)s 증가합니다. {yellow_Start}부품 피해 정도를 파악{yellow_End}하는 데 걸리는 시간이 %(damageMonitoringDelay)s 감소합니다."
+
+msgid "gunner_rancorous/name"
+msgstr "목표 추적"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "적 전차가 포수의 관측 범위 내에서 발견 상태로 유지되는 시간이 증가합니다. 부품 피해 정도를 파악할 수 있습니다."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "포수 두 명이 해당 능력을 갖추고 있다면 훈련 수준이 평균치로 적용됩니다.\n\n조준 안정 지휘명령을 사용하면 능력 효과를 향상할 수 있습니다. 효과가 비슷한 장비나 안정기 윤활 지휘명령을 사용하면 포탑 회전 시 분산도를 더 낮출 수 있습니다."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "포탑 회전 시 {greenBright_Start}주포 분산도{greenBright_End}가 %(turretAimingDispersion)s 감소합니다&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "훈련을 완료하면 포탑 회전 시 {greenBright_Start}주포 분산도{greenBright_End}가 %(turretAimingDispersion)s 감소합니다&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "조준 향상"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "포탑 회전 시 주포 분산도가 감소합니다."
+
+msgid "gunner_sniper/alt/description"
+msgstr "자동포 포탄을 제외한 모든 유형의 포탄에 효과가 적용됩니다.\n\n포수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다."
+
+msgid "gunner_sniper/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "모든 유형의 포탄에 대해 적 전차 {greenBright_Start}부품 손상{greenBright_End} 및 {greenBright_Start}승무원 부상{greenBright_End} {greenBright_Start}유발 확률{greenBright_End}이 %(enemyModulesCrewCritChance)s 증가합니다."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "훈련을 완료하면 모든 유형의 포탄에 대해 적 전차 {greenBright_Start}부품 손상{greenBright_End} 및 {greenBright_Start}승무원 부상{greenBright_End} {greenBright_Start}유발 확률{greenBright_End}이 %(enemyModulesCrewCritChance)s 증가합니다."
+
+msgid "gunner_sniper/name"
+msgstr "죽음의 시선"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "최소 기대 피해 및 관통 수치의 기본값은 각각의 기본 수치의 -25%입니다. 예를 들어, 포탄의 관통력이 100mm이고 공격력이 100이라면 표적 명중 시 해당 포탄이 실제 관통할 수 있는 장갑 최소 두께는 75mm이고 입힐 수 있는 최소 피해량은 75입니다. 최소 기대 수치가 상승한다면 사격 효율이 더 높아질 것입니다.\n\n장전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}최소 기대 피해{greenBright_End} 및 {greenBright_Start}최소 기대 관통 수치{greenBright_End}가 %(damageAndPiercingDistributionLowerBound)s 상승합니다&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}최소 기대 피해{greenBright_End} 및 {greenBright_Start}최소 기대 관통 수치{greenBright_End}가 %(damageAndPiercingDistributionLowerBound)s 상승합니다&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "포탄 개조"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "평균 피해량 및 관통력이 증가합니다."
+
+msgid "loader_desperado/alt/description"
+msgstr "장전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다.\n\n장전수의 접근전 숙련 능력을 훈련하거나 효과가 비슷한 장비를 장착하면 주포 장전 시간을 더 줄일 수 있습니다. 탄약고 정돈 지휘명령을 사용하면 효과가 향상됩니다."
+
+msgid "loader_desperado/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "전차 내구도가 25% 미만일 때 {yellow_Start}주포 장전 시간{yellow_End}이 %(vehicleGunReloadTime)s 감소합니다."
+
+msgid "loader_desperado/hudDescription"
+msgstr "전차 내구도가 낮을 때 주포 장전 시간이 감소합니다."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "훈련을 완료하면 전차 내구도가 25% 미만일 때 {yellow_Start}주포 장전 시간{yellow_End}이 %(vehicleGunReloadTime)s 감소합니다."
+
+msgid "loader_desperado/name"
+msgstr "최후의 발악"
+
+msgid "loader_desperado/shortDescription"
+msgstr "전차 내구도가 25% 미만일 때 주포 장전 속도가 증가합니다."
+
+msgid "loader_intuition/alt/description"
+msgstr "모든 주포 및 클립에 포탄이 완전히 장전된 상태에서만 능력이 활성화됩니다. 포탄 유형 변경에 필요한 최소 시간은 일반 주포 1초, 이중포신/클립식 주포 2.5초입니다.\n\n장전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다."
+
+msgid "loader_intuition/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "장전된 {greenBright_Start}포탄 유형 변경 시간{greenBright_End}이 %(vehicleReloadTimeAfterShellChange)s 감소합니다&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "장전된 포탄 유형 변경 시간이 감소합니다.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "훈련을 완료하면 장전된 {greenBright_Start}포탄 유형 변경 시간{greenBright_End}이 %(vehicleReloadTimeAfterShellChange)s 감소합니다&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "직관"
+
+msgid "loader_intuition/shortDescription"
+msgstr "장전된 포탄 유형 변경 속도가 크게 증가합니다."
+
+msgid "loader_magMastery/alt/description"
+msgstr "해당 능력은 클립식 주포의 재장전 시간만 단축하며 다른 주포에는 영향을 주지 않습니다.\n\n장전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다."
+
+msgid "loader_magMastery/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "클립식 주포 {greenBright_Start}재장전 시간{greenBright_End}이 %(magazineGunReloadSpeed)s 감소합니다."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "훈련을 완료하면 클립식 주포 {greenBright_Start}재장전 시간{greenBright_End}이 %(magazineGunReloadSpeed)s 감소합니다."
+
+msgid "loader_magMastery/name"
+msgstr "클립 장전 연마"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ 클립 재장전 시간 감소"
+
+msgid "loader_melee/alt/description"
+msgstr "장전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다.\n\n장전수의 최후의 발악 능력을 훈련하거나 효과가 비슷한 장비를 장착하면 주포 장전 시간을 더 줄일 수 있습니다. 탄약고 정돈 지휘명령을 사용하면 효과가 향상됩니다."
+
+msgid "loader_melee/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "50m 내에 적 전차가 있을 때 {yellow_Start}주포 장전 시간{yellow_End}이 %(vehicleGunReloadTime)s 감소합니다."
+
+msgid "loader_melee/hudDescription"
+msgstr "주변에 적 전차가 있을 때 주포 장전 시간이 감소합니다.\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "훈련을 완료하면 50m 내에 적 전차가 있을 때 {yellow_Start}주포 장전 시간{yellow_End}이 %(vehicleGunReloadTime)s 감소합니다."
+
+msgid "loader_melee/name"
+msgstr "접근전 숙련"
+
+msgid "loader_melee/shortDescription"
+msgstr "근접전에서 재장전 속도가 증가합니다."
+
+msgid "loader_pedant/alt/description"
+msgstr "장전수가 부상당하더라도 능력의 효과에는 영향이 미치지 않습니다.\n\n장전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다.\n\n포탄 정리 지휘명령을 사용하면 효율을 높일 수 있습니다. 효과가 비슷한 장비를 장착하면 탄약고 내구력을 더 향상할 수 있습니다."
+
+msgid "loader_pedant/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}탄약고 내구력{greenBright_End}이 %(vehicleAmmoBayStrength)s 증가합니다&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}탄약고 내구력{greenBright_End}이 %(vehicleAmmoBayStrength)s 증가합니다."
+
+msgid "loader_pedant/name"
+msgstr "적재함 강화"
+
+msgid "loader_pedant/shortDescription"
+msgstr "탄약고 내구력이 증가합니다."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "모든 유형의 포탄에 효과가 적용됩니다.\n\n장전수가 부상당하더라도 능력의 효과에는 영향이 미치지 않습니다.\n\n장전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}포탄 속도{greenBright_End}가 %(shellVelocity)s 증가합니다&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}포탄 속도{greenBright_End}가 %(shellVelocity)s 증가합니다&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "완벽 장전"
+
+msgid "loader_secondChance/alt/description"
+msgstr "해당 능력은 클립식 주포 또는 자동포에 영향을 미치지 않으며, 이중포신 주포에는 중첩되지 않습니다.\n\n주포 2문으로 사격 후 피해를 입히지 못하면, 해당 주포 2문에 재장전 시간 감소 효과가 적용됩니다. \n\n장전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다.\n\n장전수의 최후의 발악 또는 접근전 숙련 능력을 훈련하거나 효과가 비슷한 장비를 장착하면 주포 재장전 시간을 더 줄일 수 있습니다. 탄약고 정돈 지휘명령을 사용하면 효과가 향상됩니다."
+
+msgid "loader_secondChance/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "이전 사격에서 적 전차에 피해를 입히지 못하였을 때 다음 포탄의 {yellow_Start}재장전 시간{yellow_End}이 %(vehicleGunReloadTime)s 감소합니다."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "피해를 입히지 못하면 재장전 시간이 감소합니다."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "훈련을 완료하면 이전 사격에서 적 전차에 피해를 입히지 못하였을 때 다음 포탄의 {yellow_Start}재장전 시간{yellow_End}이 %(vehicleGunReloadTime)s 감소합니다."
+
+msgid "loader_secondChance/name"
+msgstr "두 번째 기회"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ 재장전 시간 감소"
+
+msgid "measureType/meters"
+msgstr "%sm"
+
+msgid "measureType/mph"
+msgstr "%skm/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s초"
+
+msgid "offspring_brotherhood/name"
+msgstr "밴드 오브 브라더스"
+
+msgid "perkRole/commander"
+msgstr "전차장"
+
+msgid "perkRole/common"
+msgstr "공통"
+
+msgid "perkRole/driver"
+msgstr "조종수"
+
+msgid "perkRole/gunner"
+msgstr "포수"
+
+msgid "perkRole/loader"
+msgstr "장전수"
+
+msgid "perkRole/radioman"
+msgstr "무전수"
+
+msgid "popularity/tooltip/common"
+msgstr "(모든 플레이어)"
+
+msgid "popularity/tooltip/header"
+msgstr "해당 전차 운용 시 선호되는 능력"
+
+msgid "popularity/tooltip/legendary"
+msgstr "(WTR 레전드 플레이어)"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "무전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다.\n\n전차장의 음향 탐지 능력을 통해 효과를 향상할 수 있습니다."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "승무원이 폭발 충격 효과를 받을 때마다 {greenBright_Start}폭발 충격으로 인한 성능 저하 효과{greenBright_End}가 %(stunResistanceEffectFactor)s씩, 최대 30%까지 감소합니다."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "훈련을 완료하면 승무원이 폭발 충격 효과를 받을 때마다 {greenBright_Start}폭발 충격으로 인한 성능 저하 효과{greenBright_End}가 %(stunResistanceEffectFactor)s씩, 최대 30%까지 감소합니다."
+
+msgid "radioman_battleTempered/name"
+msgstr "전투 단련"
+
+msgid "radioman_expert/alt/description"
+msgstr "승무원 숙련도 보너스는 승무원의 전투 효율성을 향상합니다. 무전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다. 효과가 비슷한 장비 및 소모품이나 환기구 청소 지휘명령을 사용하면 효율을 더 높일 수 있습니다. 전우애 공통 능력, 전차장의 긴급 대처 능력, 무전수의 근접 교신 능력을 통해서도 효과를 향상할 수 있습니다."
+
+msgid "radioman_expert/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "전차의 초기 내구도 넘게 도움 피해 기록 시 {yellow_Start}승무원 숙련도 보너스{yellow_End}가 %(crewLevelIncrease)s 증가합니다&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "정찰 정보가 충분히 쌓이면 승무원 숙련도 보너스가 증가합니다."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "훈련을 완료하면 전차의 초기 내구도 넘게 도움 피해 기록 시 {yellow_Start}승무원 숙련도 보너스{yellow_End}가 %(crewLevelIncrease)s 증가합니다&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "무전 전문가"
+
+msgid "radioman_expert/shortDescription"
+msgstr "승무원 숙련도가 증가합니다."
+
+msgid "radioman_finder/alt/description"
+msgstr "무전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다.\n\n정찰 능력을 훈련하거나 효과가 비슷한 장비를 장착하면 관측 범위를 더 넓힐 수 있습니다. 광학장비 보정 지휘명령을 사용하면 효과가 향상됩니다."
+
+msgid "radioman_finder/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}관측 범위{greenBright_End}가 %(vehicleCircularVisionRadius)s 증가합니다&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}관측 범위{greenBright_End}가 %(vehicleCircularVisionRadius)s 증가합니다."
+
+msgid "radioman_finder/name"
+msgstr "상황 인식"
+
+msgid "radioman_finder/shortDescription"
+msgstr "관측 범위가 증가합니다."
+
+msgid "radioman_interference/alt/description"
+msgstr "무전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다.\n\n효과가 비슷한 장비를 장착하면 자신의 전차 발각 유지 시간을 더 줄일 수 있습니다."
+
+msgid "radioman_interference/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}자신의 전차 발각 유지 시간{greenBright_End}이 %(vehicleOwnSpottingTime)s 감소합니다&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}자신의 전차 발각 유지 시간{greenBright_End}이 %(vehicleOwnSpottingTime)s 감소합니다&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "신호 왜곡"
+
+msgid "radioman_interference/shortDescription"
+msgstr "자신의 전차 발각 유지 시간이 감소합니다."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "무전수 2명이 같은 능력을 가지고 있다면 숙련도가 더 높은 승무원의 능력만 적용됩니다. 전차 파괴 시 무전수가 부상당하지 않은 상태에서만 효과가 발동됩니다.\n\n의무 우선 지휘명령을 사용하면 효율을 더 높일 수 있습니다."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "전차 파괴 시 무전수가 %(radiomanDurationPerLevel)s 동안 {yellow_Start}적의 위치를 송신{yellow_End}합니다."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "위치 현황을 송신합니다."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "훈련을 완료하면 전차 파괴 시 무전수가 %(radiomanDurationPerLevel)s 동안 {yellow_Start}적의 위치를 송신{yellow_End}합니다."
+
+msgid "radioman_lastEffort/name"
+msgstr "복수의 외침"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "전차가 파괴될 때 일정 시간 동안 적의 위치를 송신합니다."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "승무원 숙련도 보너스는 승무원의 전투 효율성을 향상합니다. 무전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다. 효과가 비슷한 장비 및 소모품이나 환기구 청소 지휘명령을 사용하면 효율을 더 높일 수 있습니다. 전우애 공통 능력, 전차장의 긴급 대처 능력, 무전수의 무전 전문가 능력을 통해서도 효과를 향상할 수 있습니다."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "50m 내에 유형이 같은 아군 전차가 있을 때 {yellow_Start}승무원 숙련도 보너스{yellow_End}가 %(crewLevelIncrease)s 증가합니다&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "주변에 유형이 같은 아군이 있을 때 승무원 숙련도 보너스가 증가합니다."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "훈련을 완료하면 50m 내에 유형이 같은 아군 전차가 있을 때 {yellow_Start}승무원 숙련도 보너스{yellow_End}가 %(crewLevelIncrease)s 증가합니다&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "근접 교신"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "승무원 숙련도가 증가합니다."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "전차장의 육감 특성 발동 속도를 향상합니다.\n\n무전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "능력을 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}자신의 전차가 적에게 발각되었는지{greenBright_End} {greenBright_Start}파악하는 시간{greenBright_End}이 %(commanderLampDelay)s 감소합니다."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "훈련을 완료하면 {greenBright_Start}자신의 전차가 적에게 발각되었는지{greenBright_End} {greenBright_Start}파악하는 시간{greenBright_End}이 %(commanderLampDelay)s 감소합니다."
+
+msgid "radioman_signalInterception/name"
+msgstr "신호 감청"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "해당 능력은 전차 발각을 알리는 육감 경고 발동 시 활성화됩니다.\n\n무전수 두 명이 해당 능력을 보유하고 있다면 훈련 수준이 평균치로 적용됩니다.\n\n정찰 또는 상황 인식 능력을 훈련하거나 효과가 비슷한 장비를 장착하면 관측 범위를 더 넓힐 수 있습니다. 광학장비 보정 지휘명령을 사용하면 효과가 향상됩니다."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "조건부 능력은 1% 이상 훈련하면 효과가 적용됩니다. 효과는 능력을 훈련한 정도에 따라 향상됩니다. 전투 중 특정 조건을 충족하면 효과가 발동됩니다."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "육감 경고 발동 후 5초 동안 {yellow_Start}관측 범위{yellow_End}가 %(vehicleCircularVisionRadius)s 증가합니다."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "관측 범위가 증가합니다."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "훈련을 완료하면 육감 경고 발동 후 5초 동안 {yellow_Start}관측 범위{yellow_End}가 %(vehicleCircularVisionRadius)s 증가합니다."
+
+msgid "radioman_threatSearch/name"
+msgstr "위협 감지"
+
+msgid "repair/alt/description"
+msgstr "해당 능력은 내부 및 외부 부품을 \"빨간\" 상태에서 \"노란\" 상태로 수리하는 속도에 영향을 미칩니다.\n\n효과가 비슷한 장비나 소모품을 함께 사용하면 더욱 효율적입니다."
+
+msgid "repair/alt/info"
+msgstr "공통 능력은 모든 승무원의 훈련 수준 평균치로 적용됩니다. 능력을 1% 이상 훈련하면 효과가 적용되며 효과는 능력을 훈련한 정도에 따라 향상됩니다."
+
+msgid "repair/currentLvlDescription"
+msgstr "손상된 전차 부품 {greenBright_Start}수리 속도{greenBright_End}가 %(vehicleRepairSpeed)s 증가합니다&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "모든 승무원이 훈련을 완료하면 손상된 전차 부품 {greenBright_Start}수리 속도{greenBright_End}가 %(vehicleRepairSpeed)s 증가합니다."
+
+msgid "repair/name"
+msgstr "수리"
+
+msgid "repair/shortDescription"
+msgstr "손상된 부품 수리 속도가 증가합니다."
+
+msgid "sabaton_brotherhood/name"
+msgstr "밴드 오브 브라더스"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "인기"
+
+msgid "sorting/fallback"
+msgstr "기본"
+
+msgid "sorting/legendary"
+msgstr "레전드"
+
+msgid "sorting/title"
+msgstr "정렬:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)s인기:%(whiteSpanish_Close)s 월드 오브 탱크의 모든 플레이어를 기준으로 한 현재 능력 동향"
+
+msgid "sorting/tooltip/header"
+msgstr "WoT 플러스 혜택"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "수많은 플레이어의 통계를 바탕으로 제공되는 정확한 승무원 능력 데이터를 확인하고 전투 효율을 최대로 높여 보십시오."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)s레전드:%(whiteSpanish_Close)s 월드 오브 탱크 레이팅이 레전드 레벨인 플레이어를 기준으로 한 현재 능력 동향"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "능력 정렬 비활성화"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "데이터 없음"
+
+msgid "sorting/tooltip/title"
+msgstr "승무원 어시스턴트"
+
+msgid "sorting/tooltip/types"
+msgstr "능력 정렬 유형"
+
+msgid "sorting/tooltip/warning"
+msgstr "능력 정렬 이용 불가"
+
+msgid "sorting/tooltip/warningText"
+msgstr "해당 전차 능력 데이터가 완전하지 않습니다. 능력이 기본 순서로 정렬됩니다."
+
+msgid "witches_brotherhood/name"
+msgstr "마녀 집회"
+
+msgid "yha_brotherhood/name"
+msgstr "산토끼 전우애"

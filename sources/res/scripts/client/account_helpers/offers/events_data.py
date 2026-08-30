@@ -1,0 +1,373 @@
+import logging, time, typing
+from constants import PREMIUM_ENTITLEMENTS, RentType
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.impl.lobby.offers import getGfImagePath
+from gui.server_events.bonuses import getOfferBonuses, VehiclesBonus
+from gui.shared.money import Currency
+from helpers import dependency, getClientLanguage, time_utils
+from skeletons.gui.offers import IOffersDataProvider
+from skeletons.gui.shared import IItemsCache
+_logger = logging.getLogger(__name__)
+CDN_KEY = b'cdn'
+OFFER_BONUSES_PRIORITY = (
+ b'vehicles', Currency.GOLD, Currency.CRYSTAL, Currency.CREDITS,
+ b'freeXP', b'items', PREMIUM_ENTITLEMENTS.PLUS,
+ PREMIUM_ENTITLEMENTS.BASIC, b'customizations', b'tankmen', b'crewSkins',
+ b'goodies', b'slots', b'berths', b'blueprints', b'blueprintsAny', b'tokens')
+DEFAULT_PRIORITY = len(OFFER_BONUSES_PRIORITY)
+
+class OfferEventData(object):
+    __slots__ = (b'_id', b'_data', b'_langCode')
+    _itemsCache = dependency.descriptor(IItemsCache)
+    _offersProvider = dependency.descriptor(IOffersDataProvider)
+    _langCode = getClientLanguage()
+
+    def __init__(self, itemID, data):
+        self._id = itemID
+        self._data = dict(data)
+        return
+
+    @property
+    def id(self):
+        return self._id
+
+    @property
+    def token(self):
+        return self._data.get(b'token')
+
+    @property
+    def giftToken(self):
+        return self._data.get(b'giftToken')
+
+    @property
+    def giftTokenCount(self):
+        return self._data.get(b'giftTokenCount')
+
+    @property
+    def showBanner(self):
+        return self._data.get(b'showBanner')
+
+    @property
+    def priority(self):
+        return self._data.get(b'priority')
+
+    @property
+    def showPrice(self):
+        return self._data.get(b'showPrice', False)
+
+    @property
+    def showInGUI(self):
+        return self._data.get(b'showInGUI')
+
+    @property
+    def showWhenZeroCurrency(self):
+        return self._data.get(b'showWhenZeroCurrency', False)
+
+    @property
+    def cdnLocFilePath(self):
+        _path = self._data.get(CDN_KEY, {}).get(b'localization')
+        if _path:
+            return _path % self._langCode
+        return b''
+
+    @property
+    def cdnBannerLogoPath(self):
+        return self._data.get(CDN_KEY, {}).get(b'bannerLogo', b'')
+
+    @property
+    def cdnLogoPath(self):
+        return self._data.get(CDN_KEY, {}).get(b'logo', b'')
+
+    @property
+    def cdnGiftsBackgroundPath(self):
+        return self._data.get(CDN_KEY, {}).get(b'giftsBackground', b'')
+
+    @property
+    def cdnGiftsTokenImgPath(self):
+        return self._data.get(CDN_KEY, {}).get(b'giftTokenImg', b'')
+
+    @property
+    def cdnSignSmallImgPath(self):
+        return self._data.get(CDN_KEY, {}).get(b'signSmallImg', b'')
+
+    @property
+    def cdnSignBigImgPath(self):
+        return self._data.get(CDN_KEY, {}).get(b'signBigImg', b'')
+
+    @property
+    def availableGifts(self):
+        received = self._receivedGifts
+        if received is None:
+            return []
+        else:
+            return [OfferGift(giftID, settings) for giftID, settings in self._data.get(b'gift', {}).iteritems() if giftID not in received or not settings.get(b'limit', 1) or giftID in received and settings.get(b'limit', 1) and received[giftID] < settings.get(b'limit', 1)]
+
+    def getGift(self, giftID):
+        giftsData = self._data.get(b'gift')
+        if giftsData and giftID in giftsData:
+            return OfferGift(giftID, self._data[b'gift'][giftID])
+        return
+
+    def getGiftAvailableCount(self, giftID):
+        received = self._receivedGifts
+        if received is None:
+            return 0
+        else:
+            giftsData = self._data.get(b'gift')
+            if giftsData and giftID in giftsData:
+                limits = giftsData[giftID].get(b'limit', 1)
+                if limits > 0:
+                    if giftID not in received:
+                        return limits
+                    return limits - received[giftID]
+            return -1
+
+    def getAllGifts(self):
+        return [OfferGift(giftID, settings) for giftID, settings in self._data.get(b'gift', {}).iteritems()]
+
+    def getFirstGift(self):
+        for giftID, settings in self._data.get(b'gift', {}).iteritems():
+            return OfferGift(giftID, settings)
+
+        return
+
+    @property
+    def clicksCount(self):
+        return min(self.availableTokens, self.availableGiftsCount)
+
+    @property
+    def availableTokens(self):
+        return self._tokensCache.getTokenCount(self.giftToken)
+
+    @property
+    def availableGiftsCount(self):
+        received = self._receivedGifts
+        if received is None:
+            return 0
+        else:
+            giftsCount = len(self._data.get(b'gift', {}))
+            notReceived = giftsCount - len(self.isOutOfLimit)
+            return max(notReceived, 0)
+
+    @property
+    def isOutOfLimit(self):
+        received = self._receivedGifts
+        if received is None:
+            return []
+        else:
+            outOfLimits = []
+            gifts = self._data.get(b'gift', {})
+            for giftID in received:
+                limit = gifts.get(giftID, {}).get(b'limit', 1)
+                if limit and received[giftID] >= limit:
+                    outOfLimits.append(giftID)
+
+            return outOfLimits
+
+    @property
+    def expiration(self):
+        return min(value for value in [
+         self._tokensCache.getTokenExpiryTime(self.token),
+         self._tokensCache.getTokenExpiryTime(self.giftToken),
+         self.getFinishTime()] if value != 0)
+
+    @property
+    def isOfferAvailable(self):
+        return self.isOfferUnlocked and self._tokensCache.isTokenAvailable(self.giftToken)
+
+    @property
+    def isOfferUnlocked(self):
+        return self._tokensCache.isTokenAvailable(self.token) and not self.isOutOfDate and bool(self.availableGiftsCount)
+
+    @property
+    def isOutOfDate(self):
+        return self.getFinishTimeLeft() <= 0
+
+    def getFinishTime(self):
+        if b'finishTime' in self._data:
+            return time_utils.makeLocalServerTime(self._data[b'finishTime'])
+        return time.time()
+
+    def getFinishTimeLeft(self):
+        return time_utils.getTimeDeltaFromNowInLocal(self.getFinishTime())
+
+    @property
+    def _tokensCache(self):
+        return self._itemsCache.items.tokens
+
+    @property
+    def _receivedGifts(self):
+        return self._offersProvider.getReceivedGifts(self.id)
+
+
+class OfferGift(object):
+    _langCode = getClientLanguage()
+
+    def __init__(self, giftID, giftData):
+        self._id = giftID
+        self._data = giftData
+        self._bonus = None
+        self._bonuses = None
+        return
+
+    @property
+    def id(self):
+        return self._id
+
+    @property
+    def cdnLocFilePath(self):
+        _path = self._data.get(CDN_KEY, {}).get(b'localization')
+        if _path:
+            return _path % self._langCode
+        return b''
+
+    @property
+    def cdnImagePath(self):
+        return self._data.get(CDN_KEY, {}).get(b'image', b'')
+
+    @property
+    def cdnIconPath(self):
+        return self._data.get(CDN_KEY, {}).get(b'icon', b'')
+
+    @property
+    def fromCdn(self):
+        return CDN_KEY in self._data
+
+    @property
+    def title(self):
+        if not self.fromCdn and self.bonus:
+            return self.bonus.getOfferName()
+        return b''
+
+    @property
+    def description(self):
+        if not self.fromCdn and self.bonus:
+            description = self.bonus.getOfferDescription()
+            separator = b''
+            itemsInfo = b''
+            if self.isVehicle:
+                items = None
+                if self.bonus.isWithCrew and self.isWithSlotBonus:
+                    items = R.strings.offers.giftDescription.tank.withCrewAndSlot()
+                elif self.bonus.isWithCrew:
+                    items = R.strings.offers.giftDescription.tank.withCrew()
+                elif self.isWithSlotBonus:
+                    items = R.strings.offers.giftDescription.tank.withSlot()
+                if items is not None:
+                    itemsInfo = backport.text(R.strings.offers.giftDescription.tank.base(), items=backport.text(items))
+                if description and itemsInfo:
+                    separator = b' ' if description.endswith(b'.') else b'. '
+            return (b'').join([description, separator, itemsInfo])
+        else:
+            return b''
+
+    @property
+    def icon(self):
+        if not self.fromCdn and self.bonus:
+            return getGfImagePath(self.bonus.getOfferIcon())
+        return b''
+
+    @property
+    def price(self):
+        return self._data.get(b'price', 1)
+
+    def limit(self):
+        return self._data.get(b'limit', 1)
+
+    @property
+    def nationFlag(self):
+        flag = None
+        if not self.fromCdn and self.bonus:
+            flag = self.bonus.getOfferNationalFlag()
+        return flag or b''
+
+    @property
+    def highlight(self):
+        if not self.fromCdn and self.bonus:
+            return self.bonus.getOfferHighlight()
+        return b''
+
+    @property
+    def giftCount(self):
+        if self.bonus:
+            return self.bonus.getGiftCount()
+        return 0
+
+    @property
+    def inventoryCount(self):
+        if self.bonus:
+            return self.bonus.getInventoryCount()
+        return 0
+
+    @property
+    def rentType(self):
+        if self.bonus and self.isVehicle:
+            _, vInfo = self.bonus.getVehicles()[0]
+            rentType, _ = self.bonus.getRentInfo(vInfo)
+            return rentType
+        return RentType.NO_RENT
+
+    @property
+    def rentValue(self):
+        if self.bonus and self.isVehicle:
+            _, vInfo = self.bonus.getVehicles()[0]
+            _, rentValue = self.bonus.getRentInfo(vInfo)
+            return rentValue
+        return 0
+
+    @property
+    def isDisabled(self):
+        disabled = True
+        if self.bonuses:
+            disabled = any(bonus.isMaxCountExceeded() for bonus in self.bonuses)
+        return disabled
+
+    @property
+    def rawBonuses(self):
+        return self._data.get(b'bonus', dict())
+
+    @property
+    def bonuses(self):
+        if self._bonuses is None:
+            self._bonuses = []
+            for name, value in self._data.get(b'bonus', dict()).iteritems():
+                self._bonuses += getOfferBonuses(name, value)
+
+            if not self._bonuses:
+                if not self.fromCdn:
+                    _logger.error(b'Wrong gift id=%d. For representation must be at least one valid bonus or cdn section. bonus=%s', self.id, self._data)
+            else:
+                self._bonuses.sort(key=(lambda x: OFFER_BONUSES_PRIORITY.index(x.getName()) if x.getName() in OFFER_BONUSES_PRIORITY else DEFAULT_PRIORITY))
+        return self._bonuses
+
+    @property
+    def bonus(self):
+        if self._bonus is None:
+            for bonus in self.bonuses:
+                if bonus.canBeShown():
+                    self._bonus = bonus
+                    break
+
+        return self._bonus
+
+    @property
+    def isWithSlotBonus(self):
+        return b'slots' in self._data.get(b'bonus', dict())
+
+    @property
+    def buttonLabel(self):
+        if self.isVehicle:
+            return R.strings.offers.giftsWindow.previewButtonLabel()
+        return R.strings.offers.giftsWindow.takeButtonLabel()
+
+    @property
+    def isVehicle(self):
+        return isinstance(self.bonus, VehiclesBonus)
+
+    @property
+    def bonusType(self):
+        if self.bonus:
+            return self.bonus.getName()
+        else:
+            return

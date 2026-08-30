@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "การโจมตีด้วยปืนใหญ่"
+
+msgid "attackReason/artillery_sector"
+msgstr "การโจมตีด้วยปืนใหญ่"
+
+msgid "attackReason/bombers"
+msgstr "การโจมตีทางอากาศ"
+
+msgid "battleCommunication/hint/description"
+msgstr "ในการระบุตำแหน่งหรือวางเครื่องหมาย"
+
+msgid "battleCommunication/hint/press"
+msgstr "กด"
+
+msgid "battleEndWarning/text"
+msgstr "การรบสิ้นสุดภายใน:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "ข้อความและข้อความเสียงจากผู้เล่นนี้จะถูกซ่อนในการรบนี้"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "บล็อคข้อความจากผู้เล่น"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "ข้อความจากผู้เล่นที่ถูกกีดกันถูกบล็อค"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "การดำเนินการไม่มีให้"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "ข้อความและข้อความเสียงจากผู้เล่นนี้\nจะมีแสดงอีกครั้ง"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "ปลดบล็อคข้อความจาก้เล่น"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "ปัญหาทางเทคนิคในการดึงข้อมูลพื้นที่ารรบ"
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "ข้อมูลพื้นที่การรบสำหรับพาหนะนี้ไม่มีให้ในแผนที่นี้"
+
+msgid "battleProgress/hint/description"
+msgstr "ไปดูภารกิจส่วนตัว"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "ยังไม่ได้ทำการตั้งปุ่มหลัก"
+
+msgid "battleProgress/hint/press"
+msgstr "กด"
+
+msgid "battle_notifier/lose"
+msgstr "พ่ายแพ้!"
+
+msgid "battle_notifier/tie"
+msgstr "เสมอ!"
+
+msgid "battle_notifier/win"
+msgstr "ชัยชนะ!"
+
+msgid "bot/boss"
+msgstr "หัวหน้า"
+
+msgid "bot/elite"
+msgstr "ชั้นยอด"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "เตือนความเสียหาย"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "เครื่องยนต์เสียหาย"
+
+msgid "chat_example/affirmative"
+msgstr "รับทราบ!"
+
+msgid "chat_example/attack_enemy"
+msgstr "ขอการยิงเสริมใส่ <Enemy Name>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "กำลังโจมตี <Enemy Name>!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "ยึดฐาน!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "ป้องกันฐาน!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "ดูที่ <เขตบนแผนที่ย่อ>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "ระวังตำแหน่งดังกล่าว!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "ทำลายเป้าหมาย"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "รักษารถถังของคุณ!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "ยึดเขต"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "ปกป้องเป้าหมาย"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "รักษารถถังของคุณ!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "ป้องกันเขต"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "เข้าเสริมกำลังเขต"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "เข้าเสริมกำลังเขต"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "เข้าเสริมกำลังเขต"
+
+msgid "chat_example/going_there"
+msgstr "แล่นไปที่นี่!"
+
+msgid "chat_example/help_me"
+msgstr "ช่วยด้วย!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<ชื่อพันธมิตร> ช่วยด้วย!"
+
+msgid "chat_example/negative"
+msgstr "ขอปฏิเสธ!"
+
+msgid "chat_example/overheated_gun"
+msgstr "ปืนร้อนเกิน! ยิงไม่ได้เป็นเวลา <Reload Time> วิ"
+
+msgid "chat_example/positive"
+msgstr "รับทราบ!"
+
+msgid "chat_example/reloading_cassette"
+msgstr "พร้อมยิงใน <เวลาบรรจ> วิ กระสุนในโม่: <จำนวนกระสุน> นัด"
+
+msgid "chat_example/reloading_gun"
+msgstr "กำลังบรรจุอีก <เวลาบรรจุ> วิ!"
+
+msgid "chat_example/reloading_ready"
+msgstr "พร้อมยิง!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "พร้อมยิง!กระสุนในโม่: <จำนวนกระสุน> นัด"
+
+msgid "chat_example/reloading_unavailable"
+msgstr "กระสุนหมด"
+
+msgid "chat_example/spg_aim_area"
+msgstr "กำลังเล็งไปที่ <พื้นที่บนแผนที่ย่อ>!"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name> ฉันจะช่วยคุณเอง!"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name> ขอบคุณ!"
+
+msgid "chat_example/turn_back"
+msgstr "<ชื่อพันธมิตร> ถอยกลับมา!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "รับทราบ!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "ขอการยิงเสริมใส่ %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "พร้อมยิง! กำลังจู่โจม %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "กระสุนหมด! ขอทำการยิงไปยัง %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "กำลังโจมตี %(target)s! กำลังบรรจุ เหลืออีก %(reloadTime)d วิ!"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "ฉันจะยึดฐานเอง!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "ฉันกำลังยึดฐาน %(strArg1)s!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "กำลังโจมตี %(target)s!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "ยึดฐาน!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "ยึดฐาน %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "ป้องกันฐาน!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "ป้องกันฐาน %(strArg1)s!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "ระวัง %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "ทำลายเป้าหมาย %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "ฉันกำลังโจมตีเป้าหมาย %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "ปกป้องเป้าหมาย %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "ฉันกำลังป้องกันเป้าหมาย %(int32Arg1)s!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "ระวังตำแหน่ง!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "ดูที่ %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "ฉันจะป้องกันฐานเอง!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "ฉันกำลังป้องกันฐาน %(strArg1)s!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "ทำลายเป้าหมาย!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "เรายังมีเวลาพอ รักษารถถังของคุณไว้ให้ดี!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "เวลากำลังจะหมด ยึดเขตด้วยทุกอย่างที่คุณมีให้ได้!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "ป้องกันเป้าหมายให้ได้!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "เราต้องรักษาตำแหน่งให้ได้ พยายามปกป้องรถถังของคุณเอาไว้!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "เวลากำลังจะหมด ปกป้องเขตต่างๆเอาไว้ให้ได้!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "เขต %(strArg1)s ต้องการความช่วยเหลือ เข้าเสริมกำลังเร็ว!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "เขต %(strArg1)s ต้องการความช่วยเหลือ เข้าเสริมกำลังเร็ว!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "เขต %(strArg1)s ต้องการความช่วยเหลือ เข้าเสริมกำลังเร็ว!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "กำลังแล่นไปที่ตำแหน่ง!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "กำลังแล่นไป %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "ช่วยด้วย!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s ช่วยด้วย!"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "แล่นไปยังเป้าหมาย: %(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "ฉันกำลังไปยังเป้าหมาย: %(target)s!"
+
+msgid "chat_shortcuts/negative"
+msgstr "ขอปฏิเสธ!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "ปืนร้อนเกิน! ยิงไม่ได้เป็นเวลา %(floatArg1)d วิ"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s รับทราบ!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "พร้อมยิงภายใน %(floatArg1)d วิ; กระสุนในโม่: %(int32Arg1)s นัด"
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "กำลังบรรจุ! เหลืออีก %(floatArg1)d วิ!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "พร้อมยิง!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "พร้อมยิง! กระสุนในโม่: %(int32Arg1)s นัด"
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "กระสุนหมด"
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "กำลังเล็งตำแหน่ง พร้อมที่จะยิง!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "กำลังเล็งไปที่ %(gridId)s! กระสุนหมด!"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "กำลังเล็งที่ %(gridId)s พร้อมยิงแล้ว!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "กำลังเล็งตำแหน่ง กำลังบรรจุ เหลืออีก %(reloadTime)dวิ!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "กำลังเล็งที่ %(gridId)s กำลังบรรจุ เหลืออีก %(reloadTime)d วิ!"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s ฉันจะช่วยคุณเอง!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s ขอบคุณ!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s ถอยกลับมา!"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "ไปยังการตั้งค่า"
+
+msgid "commanderCam/hint/description"
+msgstr "ซูมออกเพื่อเข้าสู่มุมมองยุทธวิธี"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "ช่วงพัก: %(cooldownSeconds)s วิ"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "ช่องยุทธปัจจัย"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "กม./ชม."
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "เจาะเกราะ"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "เจาะเกราะหัวผสมแกนแข็ง"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "ระเบิดแรงสูง"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "ระเบิดแรงสูง"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "ระเบิดแรงสูงต่อต้านรถถัง"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "ผู้บังคับการบาดเจ็บ คุณลักษณะทางเทคนิคลดลง"
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "ผู้บังคับการ"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "พลขับบาดเจ็บ ความเร็วการเคลื่อนที่และการหมุนตัวถังลดลง"
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "พลขับ"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "พลปืนบาดเจ็บ ความแม่นยำลดลง"
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "พลปืน"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "พลปืน 2 บาดเจ็บ ความแม่นยำลดลง"
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "พลปืน 2"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "พลบรรจุบาดเจ็บ ความเร็วการบรรจุลดลง"
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "พลบรรจุ"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "พลบรรจุ2 บาดเจ็บ ความเร็วการบรรจุลดลง"
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "พลบรรจุ 2"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "พลวิทยุบาดเจ็บ ระยะสัญญาณลดลง"
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "พลวิทยุ"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "พลวิทยุ 2 บาดเจ็บ ระยะสัญญาณลดลง"
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "พลวิทยุ 2"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "รางกระสุนเสียหาย ความเร็วบรรจุลดลง"
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "รางกระสุนระเบิด"
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "รางกระสุนสภาพปกติ"
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "ระบบช่วงล่างเสียหาย"
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "เคลื่อนที่ไม่ได้: ระบบช่วงล่างถูกทำลาย"
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "ระบบช่วงล่างสภาพปกติ"
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "เครื่องยนต์เสียหาย กำลังเครื่องถดถอย"
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "ไม่สามารถเคลื่อนที่ได้: เครื่องยนต์ถูกทำลาย"
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "เครื่องยนต์สภาพปกติ"
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "ถังเชื้อเพลิงเสียหาย"
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "ถังเชื้อเพลิงถูกทำลาย"
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "ถังเชื้อเพลิงสภาพปกติ"
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "ปืนเสียหาย ความแม่นยำลดลง"
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "ปืนถูกทำลาย: ไม่สามารถยิงได้"
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "ปืนสภาพปกติ"
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "วิทยุเสียหาย"
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "วิทยุถูกทำลาย ระยะสัญญาณลดลง"
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "วิทยุสภาพปกติ"
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "กล้องมองเสียหาย"
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "กล้องมองถูกทำลาย ระยะการมองเห็นลดลง"
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "กล้องมองยังใช้งานได้อยู่"
+
+msgid "damage_panel/devices/track/critical"
+msgstr "ระบบช่วงล่างเสียหาย"
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "เคลื่อนที่ไม่ได้: ระบบช่วงล่างถูกทำลาย"
+
+msgid "damage_panel/devices/track/normal"
+msgstr "ระบบช่วงล่างสภาพปกติ"
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "ป้อมปืนเสียหาย อัตราการหมุนลดลง"
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "ไม่สามารถหมุนได้: ป้อมถูกทำลาย"
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "ป้อมปืนสภาพปกติ"
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "ระบบช่วงล่างเสียหาย"
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "เคลื่อนที่ไม่ได้: ช่วงล่างถูกทำลาย"
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "ระบบช่วงล่างไม่เสียหาย"
+
+msgid "danger_zone/indicator"
+msgstr "พาหนะของคุณอาจจะถูกทำลาย ออกจากเขตอันตรายด่วน!"
+
+msgid "destroyTimer/liftOver"
+msgstr "กลับมารบกันต่อ..."
+
+msgid "devMaps/hint/description"
+msgstr "เพื่อดูคุณลักษณะของแผนที่"
+
+msgid "devMaps/hint/press"
+msgstr "กด"
+
+msgid "devMaps/mapInfo/info"
+msgstr "อาจจะมีเหตุการณ์สุ่มเกิดขึ้นในแผนที่นี้ แผนที่แบบนี้จะถูกปิดได้ในการตั้งค่าเกม"
+
+msgid "devMaps/mapInfo/text"
+msgstr "แผนที่มีเหตุการณ์สุ่ม"
+
+msgid "devices/ammo_bay"
+msgstr "รางกระสุน"
+
+msgid "devices/chassis"
+msgstr "ระบบช่วงล่าง"
+
+msgid "devices/engine"
+msgstr "เครื่องยนต์"
+
+msgid "devices/fuel_tank"
+msgstr "ถังเชื้อเพลิง"
+
+msgid "devices/gun"
+msgstr "ปืน"
+
+msgid "devices/left_track"
+msgstr "ตีนตะขาบซ้าย"
+
+msgid "devices/radio"
+msgstr "วิทยุ"
+
+msgid "devices/right_track"
+msgstr "ตีนตะขาบขวา"
+
+msgid "devices/surveing_device"
+msgstr "กล้องมอง"
+
+msgid "devices/track"
+msgstr "ตีนตะขาบ %(type)s"
+
+msgid "devices/track/left"
+msgstr "ซ้าย"
+
+msgid "devices/track/main"
+msgstr "สำรอง"
+
+msgid "devices/track/outer"
+msgstr "หลัก"
+
+msgid "devices/track/right"
+msgstr "ขวา"
+
+msgid "devices/turret_rotator"
+msgstr "การหมุนป้อมปืน"
+
+msgid "devices/wheel"
+msgstr "ล้อ"
+
+msgid "distance/meters"
+msgstr "%(meters)d ม"
+
+msgid "dynamicSquad/ally/add"
+msgstr "คลิกเพื่อเชิญผู้เล่นเข้าหมวดรถถัง\nผู้เล่นสามารถตอบรับคำเชิญของคุณได้ทั้งในระหว่างการรบหรือหลังการรบสิ้นสุดแล้ว%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\nโปรดทราบ! ชื่อจริงและป้ายชื่อกองทัพของคุณจะแสดงให้สมาชิกหมวดรถถังเห็น"
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\nโปรดทราบ! ชื่อจริงของคุณจะแสดงให้สมาชิกหมวดรถถังเห็น"
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "ไม่สามารถเชิญพันธมิตรคนดังกล่าวเข้าร่วมหมวดรถถังได้"
+
+msgid "dynamicSquad/ally/received"
+msgstr "คลิกเพื่อตอบรับคำเชิญเข้าร่วมหมวดรถถัง\nหมวดรถถังจะถูกสร้างขึ้นในระหว่างการรบ"
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "คำเชิญถูกส่งไปยังผู้เล่นแล้ว\nถ้าพวกเขารับคำเชิญ พวกเขาจะเข้าร่วมหมวดรถถังของคุณในระหว่างการรบหรือภายหลังการรบสิ้นสุด"
+
+msgid "dynamicSquad/enemy/add"
+msgstr "คลิกเพื่อเชิญผู้เล่นเข้าหมวดรถถัง\nผู้เล่นสามารถตอบรับคำเชิญของคุณได้ทั้งในระหว่างการรบหรือหลังการรบสิ้นสุดแล้ว%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "ไม่สามารถทำการเชิญข้าศึกเข้าร่วมหมวดรถถังได้"
+
+msgid "dynamicSquad/enemy/received"
+msgstr "คลิกเพื่อตอบรับคำเชิญเข้าร่วมหมวดรถถัง\nหมวดรถถังจะถูกสร้างขึ้นต่อเมื่อจบการรบแล้ว"
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "คำเชิญถูกส่งไปยังผู้เล่นแล้ว\nถ้าพวกเขารับคำเชิญ พวกเขาจะเข้าร่วมหมวดรถถังของคุณภายหลังการรบสิ้นสุด"
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "กด"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "เพื่อเปิดการสนทนาเสียง"
+
+msgid "dynamicSquad/invite"
+msgstr "คำเชิญเข้าร่วมหมวดรถถัง"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "ความเสียหายจากการโจมตีทางอากาศ"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "ความเสียหายจากการโจมตีปืนใหญ่"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "ความเสียหายจากเป้าหมายหลัก"
+
+msgid "efficiencyRibbons/armor"
+msgstr "ความเสียหายที่กันได้"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "การช่วยเหลือโดยกำลังสำรองรบ"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "ความเสียหายจากการชี้เป้า"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "ความเสียหายภายหลังคุณทำให้มึนงง"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "ตีนตะขาบถูกทำลาย"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "ความเสียหายจากนักรบคลั่ง"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "ประสบการณ์บทบาท"
+
+msgid "efficiencyRibbons/burn"
+msgstr "ทำให้เกิดไฟไหม้"
+
+msgid "efficiencyRibbons/capture"
+msgstr "คะแนนการยึดฐาน"
+
+msgid "efficiencyRibbons/crits"
+msgstr "ความเสียหายร้ายแรง"
+
+msgid "efficiencyRibbons/damage"
+msgstr "ความเสียหายของกระสุน"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "ความเสียหายการระดมยิงเรือประจัญบาน"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "ความเสียหายโดย U.S.S. Frankford"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "ความเสียหายจากทุ่นระเบิด"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "ความเสียหายจากหุ่นยนต์รบ"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "ความเสียหายจากกระสุนกรด"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "ความเสียหายจากวงแหวนเพลิง"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "ความเสียหายจากวงสายฟ้า"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "ความเสียหายจากเขต"
+
+msgid "efficiencyRibbons/defence"
+msgstr "คะแนนการยึดที่ลดได้"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "ปกป้องเขตไว้ได้"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "ความเสียหายที่ทำได้"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "เป้าหมายถูกทำลาย"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "ป้องกันเป้าหมายไว้ได้"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "ยึดเขตได้"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "ความเสียหายจากพื้นที่ไฟไหม้"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "ซ่อมพาหนะแล้ว"
+
+msgid "efficiencyRibbons/kill"
+msgstr "ทำลาย"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "ความเสียหายสนามทุ่นระเบิด"
+
+msgid "efficiencyRibbons/ram"
+msgstr "การพุ่งชน"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "ความเสียหายจากไฟไหม้"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "ความเสียหายจากหุ่นยนต์รบ"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "ความเสียหายจากกระสุนกรด"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "ความเสียหายจากวงแหวนเพลิง"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "ความเสียหายจากทุ่นระเบิด"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "ความเสียหายจากหมอกกรด"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "ความเสียหายจากวงสายฟ้า"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "ความเสียหายร้ายแรง"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "ความเสียหายของกระสุน"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "ความเสียหายจากลูกไฟ"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "ความเสียหายจากการชน"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "ความเสียหายจากการชน"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "ความเสียหายจากลูกไฟ"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "ตรวจพบ"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "ความเสียหายจากเขตทำลาย"
+
+msgid "efficiencyRibbons/stun"
+msgstr "การทำให้มึนงง"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "พาหนะถูกสละแล้ว"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "ความเสียหายจากการกระแทก"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "พายุหิมะ"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "ไฟไหม้"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "หมอก"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "ฝนตกหนัก"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "พายุทะเลทราย"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "ควัน"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "ทอร์นาโด"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "ซ่อนแผงทีม"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "ไม่มีแผง"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(กด Ctrl+Tab เพื่อเปลี่ยนระหว่างรูปแบบ)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "แสดงชื่อผู้เล่น เป้าหมายที่ทำลาย และไอคอนพาหนะ"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "แผงกลาง 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(กด Ctrl+Tab เพื่อเปลี่ยนระหว่างรูปแบบ)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "แสดงพาหนะที่ถูกทำลายโดยผู้เล่น ชื่อและไอคอนของพาหนะผู้เล่น"
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "แผงกลาง 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(กด Ctrl+Tab เพื่อเปลี่ยนระหว่างรูปแบบ)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "แสดงพาหนะที่ถูกทำลายและไอคอนพาหนะ"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "แผงสั้น"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(กด Ctrl+Tab เพื่อเปลี่ยนระหว่างรูปแบบ)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "เปลี่ยนมุมมองของจุดเกิดกลุ่มของคุณหรือจุดเกิดทั้งสามกลุ่ม"
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "กดเลือกสดมภ์"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(กด Ctrl+Tab เพื่อเปลี่ยนระหว่างรูปแบบ)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "คุณทำลายธง!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "ยึดธงได้แล้ว!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "ส่งธงแล้ว"
+
+msgid "flagNotification/flagInbase"
+msgstr "ส่งธงกลับไปยังกองบัญชาการ"
+
+msgid "flags/timer"
+msgstr "%(time)s วิ..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "วิ..."
+
+msgid "grille/status/reload"
+msgstr "กำลังบรรจุ"
+
+msgid "grille/status/speedlimit"
+msgstr "ขีดจำกัดความเร็ว"
+
+msgid "helpScreen/hint/description"
+msgstr "เพื่อดูคุณลักษณะของพาหนะ"
+
+msgid "helpScreen/hint/press"
+msgstr "กด"
+
+msgid "helpScreen/mapbox/description"
+msgstr "ในการดูคุณลักษณะของแผนที่"
+
+msgid "helpScreen/mapbox/press"
+msgstr "กด"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "ในการเปิดรูปแบบยิงเร็ว/<font color='#F4B12C'><b>รังปืน</b></font>"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "ในการเปิดรูปแบบยิงเร็ว/<font color='#F4B12C'><b>เดินทาง</b></font>"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "ในการเปิดรูปแบบเดินทาง/<font color='#F4B12C'><b>รังปืน</b></font>"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "ไม่ได้กำหนดปุ่มเปลี่ยนรูปแบบไว้"
+
+msgid "helpScreen/pillbox/press"
+msgstr "กด/<font color='#F4B12C'><b>ค้างไว้</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "ยังไม่ได้ทำการตั้งปุ่มหลัก"
+
+msgid "hitMarker/blocked"
+msgstr "เจาะเกราะไม่เข้า"
+
+msgid "hitMarker/critical"
+msgstr "ความเสียหายร้ายแรง"
+
+msgid "hitMarker/missArmor"
+msgstr "ยิงไม่เข้าเกราะ"
+
+msgid "hitMarker/ricochet"
+msgstr "สะท้อน"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "เจาะแผงเกราะไม่เข้า"
+
+msgid "hitMarker/trackBlocked"
+msgstr "เจาะตีนตะขาบไม่เข้า"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "เจาะล้อไม่เข้า"
+
+msgid "levelProgress/maxLevel"
+msgstr "ระดับพาหนะสูงสุด"
+
+msgid "marker/meters"
+msgstr "ม"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "การระเบิดของรางกระสุนถูกป้องกันไว้โดยอุปกรณ์ %(device)s"
+
+msgid "optDeviceResurrection/engine"
+msgstr "เครื่องยนต์ถูกทำลายถูกป้องกันไว้โดยอุปกรณ์ %(device)s"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "ไฟไหม้ถูกป้องกันไว้โดยอุปกรณ์ %(device)s"
+
+msgid "penetration/high"
+msgstr "สูง"
+
+msgid "penetration/low"
+msgstr "ต่ำ"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "เงื่อนไขรอง:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "เงื่อนไขหลัก:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "ไม่มีภารกิจปฏิบัติสำหรับการรบรูปแบบนี้"
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "ไม่มีภารกิจปฏิบัติสำหรับพาหนะชนิดนี้"
+
+msgid "personal_reserves/hint/description"
+msgstr "ในการเปิดใช้กำลังสำรองส่วนตัว"
+
+msgid "personal_reserves/hint/press"
+msgstr "กด"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "ไม่สามารถเคลื่อนที่ได้ ระบบช่วงล่างเสียหาย"
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "ไม่สามารถเคลื่อนที่ได้ พลรถถังไม่สามารถปฏิบัติงานได้"
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "ไม่สามารถเคลื่อนที่ได้ เครื่องยนต์เสียหาย"
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "เคลื่อนที่ไม่ได้: พาหนะถูกทำลาย"
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "ไม่สามารถยิงได้ พลรถถังไม่สามารถปฏิบัติงานได้"
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "ไม่สามารถยิงได้ ปืนเสียหาย"
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "ไม่สามารถยิงได้"
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "ไม่สามารถยิงได้: ปืนร้อนเกินไป"
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "กำลังบรรจุกระสุน"
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "กำลังบรรจุให้เสร็จ"
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "ไม่สามารถยิงได้: กระสุนหมด"
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "ไม่สามารถยิงได้ รถถังถูกทำลาย"
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "การเปลี่ยนทำไม่ได้: เครื่องยนต์ถูกทำลาย"
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "การเปลี่ยนไม่มีให้: ปืนถูกทำลาย"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "การเปลี่ยนไม่มีให้: เหลือกระสุนนัดเดียว"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] กำลังใช้งานอยู่แล้ว"
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "ยุทธปัจจัย [%(name)s] ไม่ได้ถูกใช้งาน ไม่มีไฟไหม้"
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] ไม่มีให้ในช่วงพัก"
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "ไม่มีความจำเป็นต้องทำการรักษา พลรถถังสภาพปกติ"
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] ไม่ต้องการการรักษา"
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "กำลังสำรองยังไม่พร้อม"
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "ยึด %(name)s เพื่อเปิดใช้ทักษะยุทธวิธี"
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "ชิ้นส่วนและผู้การมีความทนทานเต็ม ไม่จำเป็นต้องซ่อมหรือรักษา"
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "ทุกอุปกรณ์ทำงานปกติไม่ต้องมีการซ่อมแซม"
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] ทำงานปกติ ไม่ต้องซ่อมแซม"
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "ไม่สามารถเปิดอาวุธรวมแกนได้"
+
+msgid "player_messages/ALLY_HIT"
+msgstr "คุณยิงถูกพันธมิตร %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] พร้อมใช้แล้ว"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "ชุดปืนใหญ่ประจำการและพร้อมทำการยิง"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "เครื่องบินกำลังมาถึงและพร้อมทำการทิ้งระเบิด"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "พลรถถังของเราพร้อมที่จะสร้างแรงบันดาลใจให้ทุกคนที่อยู่ใกล้ๆแล้ว"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "สนามทุ่นระเบิดพร้อมใช้งาน"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "เครื่องบินกำลังเข้าพื้นที่และพร้อมชี้เป้า"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "การซ่อมแซมภาคสนามพร้อมใช้งาน"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "ใช้งานชุดม่านควันและพร้อมที่จะทำการยิง"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "การเฝ้าระวังพร้อมใช้งาน"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "ชุดปืนใหญ่ของ %(player)s กำลังทำการยิง"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "เครื่องบินทิ้งระเบิดของ %(player)s กำลังเดินทาง"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s ได้สร้างเขตการกู้คืน"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s เปิดใช้งานการสร้างแรงบันดาลใจ"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s ใช้สนามทุ่นระเบิด"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "การบินลาดตระเวนของ %(player)s กำลังจะเข้าพื้นที่"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s ใช้การซ่อมแซมภาคสนาม"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s ใช้งานม่านควัน"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s เปิดใช้งานการเฝ้าระวัง"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s ถูกทำลายโดยการโจมตีจากปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s ถูกทำลายโดยการโจมตีจากปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s ถูกทำลายโดยการโจมตีจากปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s ถูกทำลายโดยการโจมตีจากปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s ถูกทำลายโดยการโจมตีจากปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s ถูกทำลายโดยการโจมตีจากปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "พาหนะถูกทำลายโดยกระสุนปืนอัตตาจร"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s ถูกทำลายโดยการโจมตีจากปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s ถูกทำลายโดยการโจมตีจากปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s ถูกทำลายโดยการโจมตีทางอากาศ"
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s ถูกทำลายโดยการโจมตีทางอากาศ"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "พันธมิตร %(target)s ถูกทำลายโดยพันธมิตร %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "ยานเกราะถูกทำลายโดยพันธมิตร %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "พันธมิตร %(target)s ถูกเขตทำลาย"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "ข้าศึก %(attacker)s ทำลายข้าศึก %(target)s"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "ยานเกราะถูกทำลายโดย %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s ถูกเขตทำลาย"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "พันธมิตร %(target)s ถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s ถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "ยานเกราะถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "ชิ้นส่วน [%(device)s] ถูกทำลายจากไฟไหม้"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "อุปกรณ์ [%(device)s] is ถูกทำลายการยิงของ %(entity)s"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "พันธมิตร %(attacker)s จมพันธมิตร %(target)s"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s จม %(target)s"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "ยานเกราะถูกจมโดยพันธมิตร %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "พันธมิตร %(target)s จมน้ำ"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s จม %(target)s"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "ข้าศึก %(attacker)s จมข้าศึก %(target)s"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "ยานเกราะถูกจมโดยข้าศึก %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "ข้าศึก %(target)s จมน้ำ"
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "พันธมิตร %(target)s จมน้ำ"
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s จมน้ำ"
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "พาหนะจมน้ำ"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "พันธมิตร %(target)s ถูกทำลายโดยพันธมิตร %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "ยานเกราะถูกทำลายโดยพันธมิตร %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "ข้าศึก %(attacker)s ทำลายข้าศึก %(target)s"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "ยานเกราะถูกทำลายโดย %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "พันธมิตร %(target)s ถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s ถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "พลรถถังไม่สามารถปฏิบัติงานได้"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "พลรถถังเสียชีวิตจากกระสุนของ %(entity)s"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "พลรถถังพันธมิตร %(target)s ถูกสังหารโดยพันธมิตร %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "พลรถถัง %(target)s ถูกสังหารโดย %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "พลรถถังถูกสังหารโดยพันธมิตร %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "พันธมิตร %(target)s สังหารพลรถถังตัวเอง"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "พลรถถัง %(target)s ถูกสังหารโดย %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "พลรถถังข้าศึก %(target)s ถูกสังหารโดยข้าศึก %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "พลรถถังถูกสังหารโดย %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "ข้าศึก %(target)s สังหารพลรถถังตัวเอง"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "พลรถถังพันธมิตร %(target)s เสียชีวิต"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "พลรถถัง %(target)s เสียชีวิต"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "พลรถถังเสียชีวิต"
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "พันธมิตร %(target)s ถูกทำลายโดยสนามทุ่นระเบิด"
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s ถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s ทำลาย %(target)s โดยทุ่นระเบิด"
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s ทำลาย %(target)s โดยทุ่นระเบิด"
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s ถูกทำลายโดยทุ่นระเบิด"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "พันธมิตร %(attacker)s ทำให้พันธมิตร %(target)s พลิกคว่ำ"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s ทำให้ %(target)s พลิกคว่ำ"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "พาหนะพลิกคว่ำโดยพันธมิตร %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "พันธมิตร %(target)s ทำพาหนะตัวเองพลิกคว่ำ"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s ทำให้ %(target)s พลิกคว่ำ"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "ข้าศึก %(attacker)s ทำให้ข้าศึก %(target)s พลิกคว่ำ"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "พาหนะพลิกคว่ำและถูกทำลายโดย %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "ข้าศึก %(target)s ทำพาหนะตัวเองพลิกคว่ำ"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "พันธมิตร %(target)s พลิกคว่ำ"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s พลิกคว่ำ"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "พาหนะพลิกคว่ำและถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "พันธมิตร %(attacker)s ทำลายพันธมิตร %(target)s"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "ยานเกราะถูกทำลายโดยพันธมิตร %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "พันธมิตร %(target)s ถูกชน"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "ข้าศึก %(attacker)s ทำลายข้าศึก %(target)s"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "ยานเกราะถูกทำลายโดย %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "ข้าศึก %(target)s ถูกทำลายจากการชน"
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "พันธมิตร %(target)s ถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s ถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "ยานเกราะถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s สละพาหนะของตน"
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s สละพาหนะของตน"
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "พาหนะถูกทำลายในช่วงการระดมยิงเข้าเขต"
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s ถูกทำลายในช่วงการทิ้งระเบิดพื้นที่"
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s ถูกทำลายในช่วงการทิ้งระเบิดพื้นที่"
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "พาหนะถูกทำลายโดยกระสุนปืนอัตตาจร"
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s ถูกทำลายโดยการโจมตีจากปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s ถูกทำลายโดยการโจมตีจากปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "พันธมิตร %(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "พันธมิตร %(attacker)s ทำลาย %(target)s ด้วยการยิงปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "พันธมิตร %(attacker)s ทำลาย %(target)s ด้วยการทิ้งระเบิด"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s ทำลาย %(target)s โดยการโจมตีปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s ทำลาย %(target)s โดยการโจมตีทางอากาศ"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s ทำลาย %(target)s (การยิงคุ้มกัน)"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s ทำลาย %(target)s (การโจมตีปืนใหญ่)"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "พันธมิตร %(target)s ถูกทำลายในการรบ"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "พันธมิตร %(target)s ถูกสังหารในการรบภายหลังการโจมตีด้วยปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "พันธมิตร %(target)s ถูกสังหารในการรบจากการถูกทิ้งระเบิด"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s ทำลาย %(target)s โดยการโจมตีปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s ทำลาย %(target)s โดยการโจมตีทางอากาศ"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s ทำลาย %(target)s (การยิงคุ้มกัน)"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s ทำลาย %(target)s (การโจมตีปืนใหญ่)"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "ข้าศึก %(attacker)s ทำลายข้าศึก %(target)s"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "ข้าศึก %(attacker)s ทำลายข้าสึก %(target)s จากการโจมตีด้วยปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "ข้าศึก %(attacker)s ทำลายข้าสึก %(target)s จากการทิ้งระเบิด"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "ข้าศึก %(target)s ถูกทำลายในการรบ"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "ข้าศึก %(target)s ถูกสังหารในการรบจากการโจมตีด้วยปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "ข้าศึก %(target)s ถูกสังหารในการรบจากการถูกทิ้งระเบิด"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "พันธมิตร %(target)s ถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "พันธมิตร %(target)s ถูกทำลายโดยการโจมตีจากปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "พันธมิตร %(target)s ถูกทำลายจากการถูกทิ้งระเบิด"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s ถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s ถูกทำลายจากการโจมตีด้วยปืนใหญ่"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s ถูกทำลายจากการโจมตีทางอากาศ"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s ถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s ถูกทำลาย"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "ข้าศึก (ไม่รู้จัก) ถูกทำลาย %(target)s"
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "พันธมิตร %(target)s ถูกทำลายโดยเขตทำลาย"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "พันธมิตร %(attacker)s ชนพันธมิตร %(target)s"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s ชนข้าศึก %(target)s"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "ยานเกราะถูกชนโดยพันธมิตร %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "พันธมิตร %(target)s ถูกชน"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s ชนข้าศึก %(target)s"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "ข้าศึก %(attacker)s ชนข้าศึก %(target)s"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "ยานเกราะถูกชนโดยข้าศึก %(attacker)s"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "ข้าศึก %(target)s ถูกทำลายจากการชน"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "พันธมิตร %(target)s ถูกชน"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s ถูกทำลายจากการชน"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "พาหนะถูกทับ"
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s ทำลายเป้าหมาย %(target)s"
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s ทำลายเป้าหมาย %(target)s"
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "คุณทำลายเป้าหมาย %(target)s"
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "อุปกรณ์ [%(device)s] เสียหายจากไฟไหม้"
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "กระสุน %(entity)s ทำให้ [%(device)s] เสียหาย"
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "อุปกรณ์ [%(device)s] ถูกทำลายจากไฟไหม้"
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "อุปกรณ์ [%(device)s] ถูกทำลาย โดย %(entity)s"
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "อุปกรณ์ [%(device)s] ได้รับการซ่อมแซม"
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "อุปกรณ์ [%(device)s] นั้นทำงานปกติ"
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "อุปกรณ์ [%(device)s] ติดไฟจากการยิงของ %(entity)s"
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "อุปกรณ์ [%(device)s] ได้รับความเสียหายจากการเร่ง"
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "อุปกรณ์ [%(device)s] นั้นเสียหายจากการถอนเครื่องควบคุมความเร็ว"
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "อุปกรณ์ [%(device)s] ถูกทำลายจากการเร่ง"
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "อุปกรณ์ [%(device)s] ถูกทำลายจากการถอนเครื่องควบคุมความเร็ว"
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "ไฟดับแล้ว"
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "การยิงของ %(entity)s ทำให้ [%(device)s] เสียหาย"
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] กลับมาใช้งานได้แล้ว"
+
+msgid "player_messages/allied_team_name"
+msgstr "พันธมิตร"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "ยึดฐานพันธมิตร%s (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "ฐาน%sฝ่ายเราถูกยึด!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "การยึดฐานถูกสกัด"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "ยึดฐาน %s (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "ฐาน%s ถูกยึด!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "ยึดฐานข้าศึก %s (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "ฐาน%sศัตรูถูกยึด!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "ข้าศึก"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "พันธมิตรของคุณ %(name)s ได้ใช้ทักษะยุทธวิธี %(equipment)s"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "ข้าศึกใช้ทักษะยุทธวิธี %(equipment)s"
+
+msgid "player_messages/postmortem_caption"
+msgstr "ผู้เล่น %(name)s (%(type)s); ความคงทน: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "ผู้เล่น: %(name)s\nความทนทาน: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "พาหนะ (%(type)s) ของคุณถูกทำลาย"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "ไม่สามารถยิงได้: กระสุนหมด"
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "การควบคุมการเล่นบันทึก:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "ปุ่มเมาส์ซ้าย: เปลี่ยนมุมกล้อง\nSpace: หยุด"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "ลูกศรซ้าย: กรอกลับ 20 วินาที (กด Ctrl 40 วินาที) \nลูกศรขวา: เร่งไปข้างหน้า 20 วินาที (กด Ctrl 40 วินาที)\nHome/End: ไปยังตอนเริ่มต้นหรือสิ้นสุด\nลูกศรขึ้นกับลง: +/- ความเร็วในการเล่น"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "เปิดการใช้งานมุมมองอิสระ"
+
+msgid "player_messages/replayPaused"
+msgstr "หยุด"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "เปิดการใช้งานมุมมองอยู่กับที่"
+
+msgid "player_messages/replaySpeedChange"
+msgstr "ความเร็วในการเล่นการบันทึก: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "ไฟกำลังไหม้รถถัง!"
+
+msgid "players_panel/state/large/body"
+msgstr "แสดงชื่อผู้เล่น เป้าหมายที่ทำลาย และชื่อรถถังและสัญลักษณ์แทน"
+
+msgid "players_panel/state/large/header"
+msgstr "แผงขนาดเต็ม"
+
+msgid "players_panel/state/large/note"
+msgstr "(กด Ctrl + Tab เพื่อเปลี่ยนโหมด)"
+
+msgid "players_panel/state/medium/body"
+msgstr "แสดงชื่อผู้เล่น เป้าหมายที่ถูกทำลาย และสัญลักษณ์แทนรถถัง"
+
+msgid "players_panel/state/medium/header"
+msgstr "ปานกลาง"
+
+msgid "players_panel/state/medium/note"
+msgstr "(กด Ctrl + Tab เพื่อเปลี่ยนโหมด)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "แสดงยานเกราะที่ถูกทำลายโดยผู้เล่น ชื่อ และสัญลักษณ์ประจำยานเกราะของผู้เล่นคนนั้น"
+
+msgid "players_panel/state/medium2/header"
+msgstr "ระดับกลาง 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(กด Ctrl + Tab เพื่อเปลี่ยนโหมด)"
+
+msgid "players_panel/state/none/body"
+msgstr "ซ่อนแผงแสดงของทีม"
+
+msgid "players_panel/state/none/header"
+msgstr "ไม่มีแผงแสดง"
+
+msgid "players_panel/state/none/note"
+msgstr "(กด Ctrl + Tab เพื่อเปลี่ยนโหมด)"
+
+msgid "players_panel/state/short/body"
+msgstr "แสดงเป้าหมายที่ถูกทำลายและสัญลักษณ์แทนรถถัง"
+
+msgid "players_panel/state/short/header"
+msgstr "แผงขนาดย่อ"
+
+msgid "players_panel/state/short/note"
+msgstr "(กด Ctrl + Tab เพื่อเปลี่ยนโหมด)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "ข้าศึก"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "ESC > กลับไปยังโรงรถ"
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "เข้าการรบด้วยพาหนะคันอื่น"
+
+msgid "postmortem/tips/freecam/button"
+msgstr "SPACE"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "มุมกล้องอิสระ"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "เปิดมุมกล้องอิสระ"
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "ไม่มีมุมกล้องอิสระให้"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "ไม่สามารถเปิดใช้มุมกล้องอิสระในรูปแบบนี้"
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "โหมดผู้สังเกตการณ์"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "เปลี่ยนมุมมองไปยังรถถังของพันธมิตร"
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "ติดตามพาหนะ"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "เลื่อนลูกศรไปยังพาหนะพันธมิตรแล้วคลิกซ้ายเพื่อทำการติดตาม"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "พาหนะถูกทำลายโดยเป้าหมายหลัก"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "พาหนะถูกทำลายโดยกระสุนปืนอัตตาจร"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "พาหนะถูกทำลายโดยเป้าหมายหลัก"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "พาหนะถูกทำลายโดยการโจมตีทางอากาศ"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "พาหนะถูกทำลายโดยหน่วยปล้นสะดม"
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "พาหนะถูกทำลายโดยหุ่นยนต์รบ"
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "พาหนะถูกทำลายโดยกระสุนกรด"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "พาหนะถูกทำลายในเขตต้องห้ามโดยพันธมิตร"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "พาหนะถูกทำลายในเขตต้องห้าม"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "คุณหนีจากเขตอันตรายไม่ทัน"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "ชิ้นส่วน [%(device)s] ถูกทำลายจากไฟไหม้"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "ชิ้นส่วน [%(device)s] ถูกทำลายจากการยิงของผู้เล่น"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "พาหนะถูกพันธมิตรทำให้จมน้ำ"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "พาหนะจมน้ำ"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "พาหนะจมน้ำ"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "พาหนะคันดังกล่าวถูกผู้เล่นทำให้ไฟไหม้"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "พาหนะถูกทำลายโดยวงแหวนเพลิง"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "พลรถถังหมดสติจากกระสุนของผู้เล่น"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "พลรถถังหมดสติจากการชนอย่างแรงกับพาหนะพันธมิตร"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "พลรถถังหมดสติจากการกระแทกอย่างแรง"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "พลรถถังหมดสติจากการกระแทกอย่างแรง"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "พาหนะถูกทำลายโดยลูกไฟ"
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "พาหนะถูกทำลายในสนามทุ่นระเบิด"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "พาหนะถูกทำลายโดยทุ่นระเบิด"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "พาหนะถูกพันธมิตรทำให้พลิกคว่ำ"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "พาหนะถูกข้าศึกทำให้พลิกคว่ำ"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "พาหนะถูกทำลายจากการพลิกคว่ำ"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "พาหนะถูกทำลายจากการชนโดยพันธมิตร"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "พาหนะถูกทำลายโดยการพุ่งชน"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "พาหนะถูกทำลายจากการชน"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "พาหนะของคุณถูกทำลาย"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "พาหนะถูกทำลายในช่วงการระดมยิงเข้าเขต"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "พาหนะถูกทำลายโดยกระสุนปืนอัตตาจร"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "พาหนะถูกทำลายจากกระสุนของผู้เล่น"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "พาหนะถูกทำลายโดยการโจมตีทางอากาศ"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "พาหนะถูกทำลายโดยการโจมตีทางอากาศ"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "พาหนะถูกทำลายโดยการโจมตีของปืนใหญ่"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "พาหนะถูกทำลายโดยการโจมตีทางอากาศ"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "พาหนะถูกทำลายโดยเขตทำลาย"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "พาหนะถูกทำลายโดยวงสายฟ้า"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "พาหนะถูกชนพังโดยพันธมิตร"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "พาหนะถูกชนพังโดยข้าศึก"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "พาหนะชนพัง"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "พาหนะของคุณถูกทำลาย"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "การตั้งค่าที่เหลือไว้ถูกใช้ในการรบ:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "เลือกการตั้งค่าที่จะใช้ในการรบก่อนที่การนับถอยหลังจะหมดลง"
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "เลือกการตั้งค่า"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "การเลือกการตั้งค่า: {seconds} วิ"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "การเลือกการตั้งค่า:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "ห้วยลึก"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "จุดสังเกต"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "ป่า"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "เส้นทาง"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "ถนนเล็ก"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "ซาก"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "สะพาน"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "รางรถไฟ"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "เมือง"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "หมู่บ้าน"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "จัตุรัส"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "โรงงาน"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "เนิน"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "ประภาคาร"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "ศูนย์กลาง"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "ปราสาท"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "กังหันลม"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "ภูเขา"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "เส้นทาง A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "เส้นทาง B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "เส้นทาง C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "เส้นทาง D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "เส้นทาง E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "หุบเขา"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "ธารน้ำแข็ง"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "ทางลัด"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "เนินเขา"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "ถนนใหญ่"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "ภูเขา"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "ที่หลบภัย"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "ถนนกว้าง"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "กำแพง"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "โขดหิน"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "โรงสร้าง"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "ทุ่ง"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "โรงรถ"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "ถ่านหิน"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "เรือ"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "เรือบรรทุกเครื่องบิน"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "สนามเพลาะ"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "ถนนคด"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "เหนือ"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "ใต้"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "ตะวันตก"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "ตะวันออก"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "แนวสัน"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "เรือเหาะ"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "โกดัง"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "ชายฝั่ง"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "แม่น้ำ"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "ทะเลสาบ"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "หนองน้ำ"
+
+msgid "quickReply/hint/press"
+msgstr "กด"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "ในการยืนยัน"
+
+msgid "quickReply/hint/toCommend"
+msgstr "เพื่อชมเชยกลับ"
+
+msgid "quickReply/hint/toHelp"
+msgstr "ในการช่วยเหลือ"
+
+msgid "quickReply/hint/toThank"
+msgstr "เพื่อขอบคุณ"
+
+msgid "recovery/cooldown"
+msgstr "พาหนะสามารถถูกสละได้ภายใน %(cooldown)s วินาที"
+
+msgid "recovery/hint1"
+msgstr "รักษาไว้"
+
+msgid "recovery/hint2"
+msgstr "ในการสละพาหนะ"
+
+msgid "repairPoint/title"
+msgstr "การซ่อมแซม"
+
+msgid "repairPoint/unavailable"
+msgstr "ไม่มีให้"
+
+msgid "respawnView/additionalTip"
+msgstr "เลือกพาหนะเพื่อทำการรบต่อ ถ้าพาหนะทั้งหมดกำลังถูกซ่อม คุณจะเข้าร่วมการรบในพาหนะคันแรกที่มีให้ใช้ได้"
+
+msgid "respawnView/additionalTipLimited"
+msgstr "เลือกพาหนะเพื่อดำเนินการต่อ พาหนะที่ถูกทำลายจะไม่สามารถถูกซ่อมได้จนกว่าสิ้นสุดการรบ"
+
+msgid "respawnView/classNotAvailable"
+msgstr "ถึงจำนวน\nจำกัดแนวรบแล้ว"
+
+msgid "respawnView/cooldownLbl"
+msgstr "กำลังถูกซ่อม %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "ถูกทำลาย"
+
+msgid "respawnView/disabledLbl"
+msgstr "พาหนะใช้งานไม่ได้"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "ไม่ได้เลือกพาหนะที่เหมาะสม"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "พาหนะระดับ X ไม่ได้อยู่ในกลุ่มนี้"
+
+msgid "respawnView/nextVehicleName"
+msgstr "การรบดำเนินต่อไป "
+
+msgid "respawnView/title"
+msgstr "การเลือกพาหนะ"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "รับทราบ!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "ขอขอบคุณที่คุณเข้ามาร่วมเล่นเกมและช่วยวิวัฒนาการ World of Tanks ดีขึ้นกว่าเดิม! เราชื่นชมการเข้ามามีส่วนร่วมของคุณเป็นอย่างมาก!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "จดหมายแสดงความขอบคุณ"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "คุณได้รับรางวัล!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "ยินดีด้วย!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "รับทราบ!"
+
+msgid "rewardWindow/base/descText"
+msgstr "ได้รับรางวัล"
+
+msgid "rewardWindow/base/headerText"
+msgstr "ยินดีด้วย"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "ได้รับรางวัล"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "ชุดเสบียงอินเดีย"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "ชุดเสบียงจูเลียต"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "ไปยังกล่อง"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "คุณได้รับกล่องใหญ่ที่ภายในมีรางวัลมีค่า"
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "คุณได้รับกล่อง!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "คุณได้รับกล่องเล็กพร้อมด้วยรางวัลที่มีค่าจากการปฏิบัติภารกิจสำเร็จ"
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "ถึงเวลาดูกันแล้วว่ามีอะไรอยู่ในกล่องบ้าง!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "รับทราบ!"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "การรวบรวมเงินถูกพักไว้ โปรดขยายบัญชีพิเศษเพื่อทำการเติมเงินทุนสำรองของคุณต่อ"
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "ได้รับเงินแล้ว"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "เงินทุนสำรองเปิดแล้ว"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "ยินดีด้วย!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "ครับผม!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "ชุดเสบีียงเดลต้า"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "คุณได้รับรางวัล!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "เกณฑ์เดี๋ยวนี้!"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "ยินดีด้วย คุณได้รับทหารเกณฑ์พิเศษที่มาพร้อมกับ Prime Gaming"
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "ชุดเสบียงอัลฟา"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "คุณได้รับรางวัล!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "ครับผม!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "ชุดบัตรผ่านการรบ"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "ครับผม!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "ชุดเสบียงจักรวาล"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "ครับผม!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "ชุดเสบียงคืนดาวประกาย"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "เพิ่มเติม"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "ชุดเสบียงมิถุนายน"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "ชุดเสบียงกรกฎาคม"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "เพิ่มเติม"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "ชุดเสบียงทศวรรษ"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "World of Tanks: ชุดแสงดาว"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "ชุดควีนเมฟ"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "ชุดสะสมช่อจุมพิต"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "เพิ่มเติม"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "ชุดสะสมการจับครั้งใหญ่"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "ครับผม!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "ชุดเสบียงชาร์ลี"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "คุณได้รับรางวัล!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "ชุดสินค้า \"G.I. JOE: Duke\""
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "ชุดสินค้า \"G.I. JOE: Cobra\""
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "เพิ่มเติม"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "ชุดสินค้าร็อคสนั่น!"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "ชุดพรานหญิงอันเงียบงัน"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "เพิ่มเติม"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "ชุดสินค้าโฉมใหม่"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "เพิ่มเติม"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "บรรยากาศฤดูร้อน"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "ชุดไฟแรงสูง"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "เพิ่มเติม"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "ชุดสินค้าแห่งความน่ากลัว"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "ไวกิ้งในสายเลือด"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "เพิ่มเติม"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "ชุดการเริ่มต้นใหม่"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "ชุดเสบียงเอคโค่"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "เพิ่มเติม"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "ยินดีด้วย! คุณได้รับเสบียงพิเศษที่มาพร้อมกับไพร์มเกมมิ่ง ตอนนี้ก็นำมันไปใช้ให้ดีล่ะ!"
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "คลื่นสังเคราะห์"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "เสือปืนไว"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "คุณได้รับรางวัลเฉพาะสำหรับการสมัคร: ไพร์ม เกมมิ่ง"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "ไพร์มเกมมิ่ง"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "ลายพรางสายฟ้า"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "พร้อมออกรบ"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "ผู้ไล่ล่าออกลุย!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "กริช"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "คุณได้รับรางวัลเฉพาะสำหรับการสมัคร: ไพร์ม เกมมิ่ง"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "ไพร์มเกมมิ่ง"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "ไสยเวท"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "เวลาภาคีแม่มด"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "เจ้ามาผิดที่แล้ว"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "ลองกัดสิ!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "คุณได้รับรางวัลเฉพาะสำหรับการสมัคร: ไพร์ม เกมมิ่ง"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "ไพร์มเกมมิ่ง"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "นกหวีดเริ่มการแข่ง"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "ยิงเข้าประตู"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "คลาสสิคตลอดกาล"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "คุณได้รับรางวัลเฉพาะสำหรับโครงการ: ไพร์ม เกมมิ่ง"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "ไพร์มเกมมิ่ง"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "ชุดวันเทศกาล"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "ของขวัญอันมีเสน่ห์"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "ของขวัญอัันหนักหน่วง"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "การฉลองคู่"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "เลือกรางวัล"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "คุณได้รับรางวัลเฉพาะสำหรับการสมัคร: ไพร์ม เกมมิ่ง"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "ไพร์มเกมมิ่ง"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "สู่โลกใหม่"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "นัยน์ตาจักรกล"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "กายวิภาคไซบอร์ก"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "คุุณถูกพบ"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "ชุดเสบียงฟอกซ์ทรอต"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "ชุดเสบียงกอล์ฟ"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "ชุดเสบียงโฮเตล"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "ชุดเสบียงกิโล"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "ชุดเสบียงลิม่า"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "เกณฑ์"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "ยินดีด้วย! คุณได้รับการส่งเสบียงพิเศษที่มาพร้อมกับ Prime Gaming นำมันไปใช้ให้ดีล่ะ"
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "ชุดเสบียงไมค์"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "รับทราบ!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "สมาชิกกองทัพของคุณจะต้องอาศัยความมีส่วนร่วมเพิ่มเติมของคุณ\nในการผ่านรอบปฏิบัติการ"
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "ได้รับรางวัล!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "ไปยังรอบปฏิบัติการ"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "รอบปฏิบัติการ"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "รับทราบ!"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "สมาชิกกองทัพของคุณจะต้องอาศัยความมีส่วนร่วมเพิ่มเติมของคุณ\nในการผ่านรอบปฏิบัติการ"
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "ได้รับรางวัลแล้ว!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "ไปยังรอบปฏิบัติการ"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "รอบปฏิบัติการ"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "ยินดีด้วย!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "หมวดรถถังของเรา"
+
+msgid "scorePanel/playerScore"
+msgstr "ความช่วยเหลือของคุณ:"
+
+msgid "scorePanel/squadLbl"
+msgstr "หมวดรถถัง %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s มม. กระสุนเจาะเกราะ %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s มม. กระสุนเจาะเกราะหัวผสมแบบแข็ง %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s มม. กระสุนเจาะเกราะหัวระเบิด %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s มม. กระสุนหัวระเบิด %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s มม. กระสุนหัวระเบิดต่อต้านรถถัง %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "ความเสียหายเฉลี่ย: %(value)s หน่วย"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "ความเสียหายต่อวินาที: %(value)s หน่วย/วินาที"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "รัศมีเสียหาย: %(value)s เมตร"
+
+msgid "shells_kinds/params/header"
+msgstr "เต็ม/ประจุเดียว"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "การเจาะเกราะเฉลี่ย: %(value)s มม."
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "ความเร็วกระสุน: %(value)s ม./วิ"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "ระยะการมึนงง: %(minValue)s–%(maxValue)sวิ"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "เพื่อเปลี่ยนเป็นแบบยิงเร็ว"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "เพื่อเปลี่ยนเป็นแบบเดินทาง"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "ยังไม่ได้ทำการตั้งปุ่มหลัก"
+
+msgid "siegeMode/hint/press"
+msgstr "กด"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "เพื่อเปิดใช้จรวดเชื้อเพลิงเหลว"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "ในการเปิดใช้ตัวเร่งไอพ่น"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "เพื่อเปิดใช้จรวดไอพ่นตามลำดับ"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "ยิงเข้าพาหนะข้าศึกเพื่อให้ได้ผลเพิ่มเติมจากอุปกรณ์ชี้เป้าเลเซอร์"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "ในการเปลี่ยนรูปแบบเครื่องยนต์"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "ในการเปลี่ยนรูปแบบการยิง"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "ในการเปลี่ยนรูปแบบการเคลื่อนที่"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "ในการเปิดระบบช่วยตัวอัดอากาศเทอร์โบ"
+
+msgid "spotted/indicator"
+msgstr "เวลาที่ตรวจจับได้และความเสียหายที่ได้รับเพิ่มขึ้น"
+
+msgid "spotted/seconds"
+msgstr "วิ"
+
+msgid "statistics/exit"
+msgstr "กด Esc เพื่อกลับไปสู่โรงรถ..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "ทำลายรถถัง: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "ยึดฐาน: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "ทำความเสียหาย:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "ยิงเข้าเป้า : %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "จำนวนกระสุนที่ถูกยิง: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "ป้องกันฐาน: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "ทำลายรถถัง:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(หลังการตาย)"
+
+msgid "statistics/final/personal/shots"
+msgstr "จำนวนกระสุนที่ยิง: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "ตรวจพบ:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "รถถังฝ่ายเราถูกทำลายหมด"
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "รถถังทั้งหมดถูกทำลาย!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "รถถังฝ่ายตรงข้ามทั้งหมดถูกทำลาย"
+
+msgid "statistics/final/reasons/reason2"
+msgstr "ฐานถูกยึด!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "เวลาการรบหมด!"
+
+msgid "statistics/final/stats/credits"
+msgstr "เงิน:"
+
+msgid "statistics/final/stats/experience"
+msgstr "ค่าประสบการณ์:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "ค่าประสบการณ์ (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "ซ่อม:"
+
+msgid "statistics/final/status/lose"
+msgstr "พ่ายแพ้! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "เสมอ! %s"
+
+msgid "statistics/final/status/win"
+msgstr "ชนะ! %s"
+
+msgid "statistics/header"
+msgstr "สถิติการรบ"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "ผู้เล่น"
+
+msgid "statistics/headers/header2"
+msgstr "พาหนะ"
+
+msgid "statistics/headers/header3"
+msgstr "สถานะ"
+
+msgid "statistics/headers/header4"
+msgstr "ถูกทำลาย"
+
+msgid "statistics/playerState/0"
+msgstr "ถูกทำลาย"
+
+msgid "statistics/playerState/1"
+msgstr "ออกจากการรบ"
+
+msgid "statistics/playerState/2"
+msgstr "ถูกทำลาย"
+
+msgid "statistics/playerState/3"
+msgstr "อยู่ในการรบ"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "การจัดทีม"
+
+msgid "statistics/tab/line_up/title"
+msgstr "การจัดทีม"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "กำลังสำรองส่วนตัว"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "การเปิดใช้กำลังสำรองส่วนตัว"
+
+msgid "statistics/tab/quests/header"
+msgstr "ภารกิจ"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "ภารกิจส่วนตัวไม่มีให้ในการรบรูปแบบนี้"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "ไปยังแถบสมรภูมิในโรงรถเพื่อเลือกภารกิจ"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "คุณไม่มีภารกิจรอปฏิบัติสำหรับพาหนะคันนี้"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "บรรลุเงื่อนไขหลักแล้ว"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "ปฏิบัติภารกิจทั้งหมดสำเร็จแล้ว"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "ใช้งานอยู่"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "การปรับปรุงผล"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "ถูกพักไว้"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "ไม่มีให้การแสดงความคืบหน้าภารกิจในตอนนี้"
+
+msgid "statistics/tabs/group"
+msgstr "ความสำเร็จของทีม"
+
+msgid "statistics/tabs/heroes"
+msgstr "วีรบุรุษการรบ"
+
+msgid "statistics/tabs/personal"
+msgstr "ความสำเร็จส่วนบุคคล"
+
+msgid "statistics/team1title"
+msgstr "พันธมิตร"
+
+msgid "statistics/team2title"
+msgstr "ข้าศึก"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "ออกจาก\nเขตทำลาย!"
+
+msgid "stun/indicator"
+msgstr "พลรถถังมึนงง"
+
+msgid "stun/seconds"
+msgstr "วิ"
+
+msgid "tabStatsHint"
+msgstr "— สถิติ"
+
+msgid "tankmen/commander"
+msgstr "ผู้บังคับการ"
+
+msgid "tankmen/driver"
+msgstr "พลขับ"
+
+msgid "tankmen/gunner"
+msgstr "พลปืน"
+
+msgid "tankmen/loader"
+msgstr "พลบรรจุ"
+
+msgid "tankmen/radioman"
+msgstr "พลวิทยุ"
+
+msgid "timer/battlePeriod"
+msgstr "การรบสิ้นสุดภายใน:"
+
+msgid "timer/started"
+msgstr "เริ่มการรบ!"
+
+msgid "timer/starting"
+msgstr "การรบจะเริ่มใน:"
+
+msgid "timer/waiting"
+msgstr "กำลังรอผู้เล่น..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "กด"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "ในการเปลี่ยนรูปแบบการเล็ง"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "ยังไม่ได้ทำการตั้งปุ่มหลัก"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "ยานเกราะถูกทำลายโดยพันธมิตร %(entity)s ในเขตมรณะ"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "ยานเกราะถูกทำลายโดยข้าศึก %(entity)s ในเขตมรณะ"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "พาหนะถูกทำลายโดยเขตอันตราย"
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "ยานเกราะถูกจมโดยพันธมิตร %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "ยานเกราะถูกจมโดยข้าศึก %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "พาหนะจมน้ำ"
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "พาหนะถูกทำลายโดยไฟไหม้"
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "พาหนะถูกทำลายโดยพันธมิตร %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "พาหนะถูกทำลายโดย %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "พลรถถังเสียชีวิตเนื่องจากการชนกับพันธมิตร %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "พลรถถังเสียชีวติจากการชนกับข้าศึก %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "พลรถถังหมดสติจากการกระแทกอย่างแรง"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "พาหนะถูกคว่ำโดยพันธมิตร %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "พาหนะถูกคว่ำโดยข้าศึก %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "พาหนะถูกทำลายจากการพลิกคว่ำ"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "พันธมิตร %(entity)s ทำลายยานเกราะด้วยการชน"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s ทำลายยานเกราะด้วยการชน"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "พาหนะถูกทำลายจากการชน"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "รถถังถูกทำลายด้วยการยิงของ %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s ทำลายพาหนะด้วยการยิงปืนใหญ่"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s ทำลายพาหนะจากการทิ้งระเบิด"
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "ยานเกราะถูกชนโดยพันธมิตร %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "ยานเกราะถูกชนโดยข้าศึก %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "พาหนะถูกทับ"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "พันธมิตร %(entity)s ทำ [%(device)s] เสียหายด้วยการชน"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "พันธมิตร %(entity)s ทำ [%(device)s] เสียหายด้วยการชน"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "อุปกรณ์ [%(device)s] เสียหายจากการชน"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "ข้าศึก %(entity)s ทำ [%(device)s] เสียหายด้วยการชน"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "ข้าศึก %(entity)s ทำ [%(device)s] เสียหายด้วยการชน"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "อุปกรณ์ [%(device)s] เสียหายจากการชน"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "การชนของพันธมิตร %(entity)s ทำความเสียหายให้กับอุปกรณ์ [%(device)s]"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "การชนของพันธมิตร %(entity)s ทำความเสียหายให้กับอุปกรณ์ [%(device)s]"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "อุปกรณ์ [%(device)s] เสียหายเนื่องจากการกระแทก"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "การชนของข้าศึก %(entity)s ทำความเสียหายให้กับอุปกรณ์ [%(device)s]"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "การชนของข้าศึก %(entity)s ทำความเสียหายให้กับอุปกรณ์ [%(device)s]"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "อุปกรณ์ [%(device)s] เสียหายเนื่องจากการกระแทก"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "อุปกรณ์ [%(device)s] ถูกทำลายในสนามทุ่นระเบิด"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "อุปกรณ์ [%(device)s] ถูกทำลายในสนามทุ่นระเบิด"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "พันธมิตร %(entity)s ทำลายอุปกรณ์ [%(device)s] ด้วยการชน"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "พันธมิตร %(entity)s ทำลายอุปกรณ์ [%(device)s] ด้วยการชน"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "อุปกรณ์ [%(device)s] ถูกทำลายโดยการชน"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "ข้าศึก %(entity)s ทำลายอุปกรณ์ [%(device)s] ด้วยการชน"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "ข้าศึก %(entity)s ทำลายอุปกรณ์ [%(device)s] ด้วยการชน"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "อุปกรณ์ [%(device)s] ถูกทำลายโดยการชน"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "การชนของพันธมิตร %(entity)s ทำลายอุปกรณ์ [%(device)s]"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "การชนของพันธมิตร %(entity)s ทำลายอุปกรณ์ [%(device)s]"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "อุปกรณ์ [%(device)s] ถูกทำลายจาการกระแทก"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "การชนของข้าศึก %(entity)s ทำลายอุปกรณ์ [%(device)s]"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "การชนของข้าศึก %(entity)s ทำลายอุปกรณ์ [%(device)s]"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "อุปกรณ์ [%(device)s] ถูกทำลายจาการกระแทก"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "อุปกรณ์ [%(device)s] เกิดลุกไหม้จากการชนของพันธมิตร %(entity)s"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "อุปกรณ์ [%(device)s] เกิดลุกไหม้จากการชนของพันธมิตร %(entity)s"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "อุปกรณ์ [%(device)s] ลุกไหม้จากการชน"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "อุปกรณ์ [%(device)s] เกิดลุกไหม้จากการชนของข้าศึก %(entity)s"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "อุปกรณ์ [%(device)s] เกิดลุกไหม้จากการชนของข้าศึก %(entity)s"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "อุปกรณ์ [%(device)s] ลุกไหม้จากการชน"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] เสียหายจากการชนกับพันธมิตร %(entity)s"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] เสียหายจากการชนกับพันธมิตร %(entity)s"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] เสียหายเนื่องจากการกระแทก"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] เสียหายจากการชนกับข้าศึก %(entity)s"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] เสียหายจากการชนกับข้าศึก %(entity)s"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] เสียหายเนื่องจากการกระแทก"
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "มีการใช้ทักษะยุทธวิธี %(equipment)s!"
+
+msgid "warning_zone/indicator"
+msgstr "ระวัง! คุณอยู่ใกล้เขตอันตราย"

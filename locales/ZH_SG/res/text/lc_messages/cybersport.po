@@ -1,0 +1,689 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CSAnimation/applyBtn/label"
+msgstr "收到!"
+
+msgid "CSAnimation/description"
+msgstr "祝贺！您的团队已进入下一战区。继续努力！"
+
+msgid "CSAnimation/header"
+msgstr "更改部队"
+
+msgid "InvitesAndRequestsWindow/accepted"
+msgstr "已接受"
+
+msgid "InvitesAndRequestsWindow/cancelled"
+msgstr "已取消"
+
+msgid "InvitesAndRequestsWindow/officerDescription"
+msgstr "团队成员— 创建团队后，通过邀请好友和寻找适合的玩家来组织成员。"
+
+msgid "InvitesAndRequestsWindow/onlyInvitesCheckbox"
+msgstr "只显示发送的邀请"
+
+msgid "InvitesAndRequestsWindow/ownerDescription"
+msgstr "团队成员— 创建团队后，通过邀请好友和寻找适合的玩家来组织成员。"
+
+msgid "InvitesAndRequestsWindow/playerName"
+msgstr "玩家"
+
+msgid "InvitesAndRequestsWindow/rejected"
+msgstr "被拒绝"
+
+msgid "InvitesAndRequestsWindow/status"
+msgstr "状态"
+
+msgid "InvitesAndRequestsWindow/title"
+msgstr "已发送的邀请和申请"
+
+msgid "InvitesAndRequestsWindow/windowTitle"
+msgstr "申请和邀请"
+
+msgid "StaticFormationStatsView/seasonFilter"
+msgstr "统计："
+
+msgid "TextLoading/loading"
+msgstr "加载中"
+
+msgid "button/chooseVehicles/info/tooltip/description/notSelected"
+msgstr "未选定战车。不能开始自动搜索。"
+
+msgid "button/chooseVehicles/info/tooltip/description/notValid"
+msgstr "选定的战车未准备。不能开始自动搜索。"
+
+msgid "button/chooseVehicles/info/tooltip/description/valid"
+msgstr "已选定符合要求的战车。可以开始自动搜索。"
+
+msgid "button/chooseVehicles/info/tooltip/title"
+msgstr "选择战车"
+
+msgid "button/chooseVehicles/selected"
+msgstr "已选战车"
+
+msgid "button/medallion/addSlotSettings"
+msgstr "添加"
+
+msgid "button/medallion/availableQuantity"
+msgstr "需求："
+
+msgid "button/medallion/chooseVehicle"
+msgstr "选择战车"
+
+msgid "introView/leftBlock/btnLabel"
+msgstr "搜索"
+
+msgid "introView/leftBlock/descr"
+msgstr "从列表中选择一支团队加入。您必须达到指挥官的要求。"
+
+msgid "introView/leftBlock/header"
+msgstr "搜索团队"
+
+msgid "introView/rightBlock/btnLabel"
+msgstr "创建"
+
+msgid "introView/rightBlock/descr"
+msgstr "创建一支团队邀请好友和其他玩家作战。"
+
+msgid "introView/rightBlock/header"
+msgstr "创建团队"
+
+msgid "rallyInfo/profileBtn/Label"
+msgstr "团队简介"
+
+msgid "respawn/chatHeader"
+msgstr "聊天频道"
+
+msgid "respawn/enemyTeamStatus/Header"
+msgstr "敌方团队:"
+
+msgid "respawn/enemyTeamStatus/notReady"
+msgstr "未准备"
+
+msgid "respawn/enemyTeamStatus/ready"
+msgstr "准备！"
+
+msgid "respawn/fight/label"
+msgstr "团队准备！"
+
+msgid "respawn/fight/status/commander"
+msgstr "确认团队已准备"
+
+msgid "respawn/fight/status/private"
+msgstr "等待战斗..."
+
+msgid "respawn/status/info"
+msgstr "在规定时间内选择1辆战车。"
+
+msgid "respawn/status/ready"
+msgstr "等待战斗开始..."
+
+msgid "respawn/status/warning"
+msgstr "确定您已经准备就绪。"
+
+msgid "respawn/team/points"
+msgstr "等级总和:"
+
+msgid "respawn/team/teamMembers"
+msgstr "团队成员: %(current)s / %(max)s"
+
+msgid "respawn/team/teamVehiclesStub"
+msgstr "战车:VI–VIII级"
+
+msgid "selectedFormation/JoinUnitSection/header"
+msgstr "选择作战房间"
+
+msgid "squadWindow/waitingForBattle"
+msgstr "小队在战斗队列中"
+
+msgid "unitView/header"
+msgstr "作战房间"
+
+msgid "window/autoSearch/confirmation/cancelLbl"
+msgstr "取消"
+
+msgid "window/autoSearch/confirmation/ctxMessage"
+msgstr "确定时间还剩："
+
+msgid "window/autoSearch/confirmation/ctxSeconds"
+msgstr "秒"
+
+msgid "window/autoSearch/confirmation/headerText"
+msgstr "找到团队"
+
+msgid "window/autoSearch/confirmation/mainText"
+msgstr "确认准备"
+
+msgid "window/autoSearch/confirmation/submitlLbl"
+msgstr "准备！"
+
+msgid "window/autoSearch/errorState/cancelLbl"
+msgstr "取消"
+
+msgid "window/autoSearch/errorState/ctxMessage"
+msgstr "寻找一个新的团队？"
+
+msgid "window/autoSearch/errorState/headerText"
+msgstr "时间截止"
+
+msgid "window/autoSearch/errorState/mainText"
+msgstr "已找到团队，\n但是您未确认准备。"
+
+msgid "window/autoSearch/errorState/submitlLbl"
+msgstr "搜索"
+
+msgid "window/autoSearch/searchCommand/cancelLbl"
+msgstr "取消"
+
+msgid "window/autoSearch/searchCommand/ctxMessage"
+msgstr "平均等待时间："
+
+msgid "window/autoSearch/searchCommand/cxtDnmMessage"
+msgstr "%d 分"
+
+msgid "window/autoSearch/searchCommand/mainText"
+msgstr "搜索合适的团队"
+
+msgid "window/autoSearch/searchEnemy/mainText"
+msgstr "等待战斗..."
+
+msgid "window/autoSearch/searchEnemyRespawn/mainText"
+msgstr "等待对手..."
+
+msgid "window/autoSearch/waitingPlayers/mainText"
+msgstr "正在等待玩家..."
+
+msgid "window/backBtnLbl"
+msgstr "返回"
+
+msgid "window/intro/auto/btn"
+msgstr "自动搜索"
+
+msgid "window/intro/auto/btn/tooltip/description/disabled"
+msgstr "无法找到团队。没有选定战车或未确认准备。"
+
+msgid "window/intro/auto/btn/tooltip/description/enabled"
+msgstr "点击自动搜索加入一个团队并立即开始战斗。"
+
+msgid "window/intro/auto/btn/tooltip/title"
+msgstr "自动搜索"
+
+msgid "window/intro/auto/btnLbl"
+msgstr "开始自动搜索"
+
+msgid "window/intro/auto/description"
+msgstr "团队将随机匹配玩家"
+
+msgid "window/intro/auto/title"
+msgstr "按排名等级自动搜索"
+
+msgid "window/intro/auto/vehicleLbl"
+msgstr "已选定战车："
+
+msgid "window/intro/create/btn/addPlayers"
+msgstr "邀请"
+
+msgid "window/intro/create/btn/assembleTeam"
+msgstr "召集团队"
+
+msgid "window/intro/create/btn/joinTeam"
+msgstr "加入"
+
+msgid "window/intro/create/btn/look"
+msgstr "团队列表"
+
+msgid "window/intro/create/btn/private/seeStaff"
+msgstr "团队成员"
+
+msgid "window/intro/description"
+msgstr "每个团队由7名参赛者组成。\n战车等级限制为VI–VIII级。等级总和不能超过54。"
+
+msgid "window/intro/search/btn"
+msgstr "搜索"
+
+msgid "window/intro/search/description"
+msgstr "从列表中选择一支团队加入。您必须达到指挥官的要求。"
+
+msgid "window/intro/search/title"
+msgstr "搜索团队"
+
+msgid "window/intro/team/description/createBattleRoom"
+msgstr "创建一个房间"
+
+msgid "window/intro/title"
+msgstr "团队战"
+
+msgid "window/intro/unavailableWaiting"
+msgstr "正在等待…"
+
+msgid "window/rosterSlotSettings/bottomResult"
+msgstr "已选择:"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/range"
+msgstr "范围"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/vehicle"
+msgstr "战车"
+
+msgid "window/rosterSlotSettings/title"
+msgstr "设置要求"
+
+msgid "window/rosterSlotSettings/vehicleTab/cancelBtn"
+msgstr "取消"
+
+msgid "window/rosterSlotSettings/vehicleTab/headerText"
+msgstr "给团队成员指定战车需求"
+
+msgid "window/rosterSlotSettings/vehicleTab/nationFieldSet"
+msgstr "国家"
+
+msgid "window/rosterSlotSettings/vehicleTab/submitBtn"
+msgstr "选择"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleLevel"
+msgstr "等级"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleType"
+msgstr "战车类型"
+
+msgid "window/staticRallyInfo/cancelBtnLabel"
+msgstr "撤销"
+
+msgid "window/staticRallyInfo/joinBtnLabel"
+msgstr "提交申请"
+
+msgid "window/staticRallyInfo/joinInfo/alreadyJoined"
+msgstr "您已加入一个团队。"
+
+msgid "window/staticRallyInfo/joinInfo/applicationCooldown"
+msgstr "不能提交申请"
+
+msgid "window/staticRallyInfo/joinInfo/inProcess"
+msgstr "申请等待处理中"
+
+msgid "window/staticRallyInfo/joinInfo/inProcessOther"
+msgstr "申请已被递交。"
+
+msgid "window/staticRallyInfo/joinInfo/join"
+msgstr "递交申请"
+
+msgid "window/staticRallyInfo/ladderInfo"
+msgstr "天梯%(league)s，梯队%(division)s"
+
+msgid "window/staticRallyInfo/noAwards"
+msgstr "无奖励"
+
+msgid "window/staticRallyInfo/noRallySelected"
+msgstr "在左侧列表选择一个团队\n查看详细描述。"
+
+msgid "window/staticRallyInfo/staticRally/statsWinsPercent"
+msgstr "胜利"
+
+msgid "window/staticRallyInfo/statsBattlesCount"
+msgstr "战斗"
+
+msgid "window/title"
+msgstr "团队战"
+
+msgid "window/unit/applySlotsSettings"
+msgstr "接受"
+
+msgid "window/unit/autoRecruit"
+msgstr "征募"
+
+msgid "window/unit/cancelSlotSettings"
+msgstr "取消"
+
+msgid "window/unit/candidates"
+msgstr "志愿者"
+
+msgid "window/unit/candidates/legionaries"
+msgstr "佣兵"
+
+msgid "window/unit/candidates/team"
+msgstr "团队"
+
+msgid "window/unit/chat"
+msgstr "聊天频道"
+
+msgid "window/unit/closeRoom"
+msgstr "— 显示房间"
+
+msgid "window/unit/description"
+msgstr "匹配同等战力每队7名玩家的团队。\n可选等级：VI–VIII级战车。 总等级限制：团队战车等级总和不超过54级。"
+
+msgid "window/unit/descriptionDefault"
+msgstr "添加说明 —"
+
+msgid "window/unit/fight"
+msgstr "战斗！"
+
+msgid "window/unit/inviteFriend"
+msgstr "邀请玩家"
+
+msgid "window/unit/leave"
+msgstr "退出房间"
+
+msgid "window/unit/lockSlot"
+msgstr "锁定槽位"
+
+msgid "window/unit/message/candidate"
+msgstr "指挥官将您添加到团队。"
+
+msgid "window/unit/message/curfew"
+msgstr "停战期"
+
+msgid "window/unit/message/falloutGroupNotReady"
+msgstr "其中1辆战车未准备"
+
+msgid "window/unit/message/falloutLevel"
+msgstr "您需要至少1辆%(level)s级战车"
+
+msgid "window/unit/message/falloutMin/levelRange"
+msgstr "添加%(level)s级战车到小组"
+
+msgid "window/unit/message/falloutMin/requiredLevel"
+msgstr "选择1辆%(level)s级战车"
+
+msgid "window/unit/message/fortificationNotAvailable"
+msgstr "要塞：战斗模式暂时不可用"
+
+msgid "window/unit/message/getNotReady"
+msgstr "点击示意你还没准备好"
+
+msgid "window/unit/message/getReady"
+msgstr "确认您已做好准备加入战斗。"
+
+msgid "window/unit/message/has_frozen_vehicles"
+msgstr "分队中有被摧毁的战车"
+
+msgid "window/unit/message/in_players_matching"
+msgstr "分队已就绪：自动集合佣兵"
+
+msgid "window/unit/message/inactivePeriphery"
+msgstr " "
+
+msgid "window/unit/message/inactivePeripheryBattle"
+msgstr "您可以在攻城战开始的10分钟前确认准备。"
+
+msgid "window/unit/message/inactivePeripherySortie"
+msgstr "您可以在攻城战开始的10分钟前确认准备。"
+
+msgid "window/unit/message/invalidLevelError/6"
+msgstr "同一队中VI级战车不能超过一辆。"
+
+msgid "window/unit/message/invalidLevelError/6_7"
+msgstr "同一队中VI级和VII级战车不能同时出战。"
+
+msgid "window/unit/message/invalidLevelError/7"
+msgstr "同一队中最多可出战2辆VII级战车。"
+
+msgid "window/unit/message/invalidLevelError/unresolved"
+msgstr "与要求战车等级不符。"
+
+msgid "window/unit/message/level"
+msgstr "战车等级总和不符。要求: %(level)d"
+
+msgid "window/unit/message/maintenance"
+msgstr "该模式暂时不可用"
+
+msgid "window/unit/message/minSlots"
+msgstr "未满员"
+
+msgid "window/unit/message/play_limits_is_active"
+msgstr "时限已过。您不能加入新战斗。"
+
+msgid "window/unit/message/previewVehicleIsPresent"
+msgstr "返回车库选择一辆战车"
+
+msgid "window/unit/message/ready"
+msgstr "分队已准备就绪：正在搜索敌人…"
+
+msgid "window/unit/message/squadInBattle"
+msgstr "小队在战斗中"
+
+msgid "window/unit/message/takeSlotInRoster"
+msgstr "加入分队"
+
+msgid "window/unit/message/unitIsFull"
+msgstr "指挥官将您添加到团队。"
+
+msgid "window/unit/message/unitIsLocked"
+msgstr "你不是团队成员，位置被锁定。"
+
+msgid "window/unit/message/vehicleInNotReady/broken"
+msgstr "战车未做好准备：需要修理。"
+
+msgid "window/unit/message/vehicleInNotReady/crewNotFull"
+msgstr "战车未做好准备：乘员未满。"
+
+msgid "window/unit/message/vehicleInNotReady/isInBattle"
+msgstr "战车在战斗中"
+
+msgid "window/unit/message/vehicleInNotReady/notEnoughVehicles"
+msgstr "适用的战车数量不足"
+
+msgid "window/unit/message/vehicleInNotReady/rentIsOver"
+msgstr "战车未做好准备：租期已到。"
+
+msgid "window/unit/message/vehicleInNotReady/rotationGroupLocked"
+msgstr "战车未准备:小组%(groupNum)s已被锁定。"
+
+msgid "window/unit/message/vehicleInNotReady/wrongMode"
+msgstr "已选战车不能用于这个战斗模式。"
+
+msgid "window/unit/message/vehicleInNotReady/wrongUnitData"
+msgstr "选择的战车与小队指挥官的要求不匹配"
+
+msgid "window/unit/message/vehicleNotSelected"
+msgstr "选择作战使用的战车。"
+
+msgid "window/unit/message/vehicleNotValid"
+msgstr "战车未准备。"
+
+msgid "window/unit/message/vehicleNotValidForEvent"
+msgstr "所选战车不适合此活动"
+
+msgid "window/unit/message/waitCommander"
+msgstr "等待指挥官做出决定..."
+
+msgid "window/unit/message/waiting"
+msgstr "等待玩家..."
+
+msgid "window/unit/notReady"
+msgstr "未准备"
+
+msgid "window/unit/openRoom"
+msgstr "— 隐藏房间"
+
+msgid "window/unit/rangeValue"
+msgstr "%(minVal)s – %(maxVal)s"
+
+msgid "window/unit/ready"
+msgstr "准备！"
+
+msgid "window/unit/rosterSettingsView/or"
+msgstr "或"
+
+msgid "window/unit/slot/battleRoyale"
+msgstr "还需要一名玩家"
+
+msgid "window/unit/slot/emptySlot"
+msgstr "空闲"
+
+msgid "window/unit/slot/freezed"
+msgstr "冻结"
+
+msgid "window/unit/slot/locked"
+msgstr "锁定"
+
+msgid "window/unit/slot/notAllowed"
+msgstr "锁定"
+
+msgid "window/unit/slot/notAvailable"
+msgstr "锁定"
+
+msgid "window/unit/slot/required"
+msgstr "邀请玩家"
+
+msgid "window/unit/slot/takePlace"
+msgstr "占用位置"
+
+msgid "window/unit/slotHeaderText"
+msgstr "设置要求"
+
+msgid "window/unit/slotSecondText"
+msgstr "添加入队要求，筛选你想要的战车。手动添加玩家时，将忽略这些要求。"
+
+msgid "window/unit/team"
+msgstr "团队"
+
+msgid "window/unit/teamMembers"
+msgstr "团队成员: %(current)s / %(max)s"
+
+msgid "window/unit/teamPoints"
+msgstr "等级总和:"
+
+msgid "window/unit/teamVehicles"
+msgstr "战车："
+
+msgid "window/unit/teamVehiclesLbl"
+msgstr "战车：%(levelsRange)s"
+
+msgid "window/unit/teamVehiclesStub"
+msgstr "战车:VI–VIII级"
+
+msgid "window/unit/unitListView/captain"
+msgstr "团队指挥官"
+
+msgid "window/unit/unitListView/clubName"
+msgstr "团队名称"
+
+msgid "window/unit/unitListView/commander"
+msgstr "指挥官"
+
+msgid "window/unit/unitListView/description"
+msgstr "说明"
+
+msgid "window/unit/unitListView/paginationDown"
+msgstr "较弱"
+
+msgid "window/unit/unitListView/paginationUp"
+msgstr "较强"
+
+msgid "window/unit/unitListView/players"
+msgstr "组成"
+
+msgid "window/unit/unitName"
+msgstr "团队 %(commanderName)s"
+
+msgid "window/unit/unlockSlot"
+msgstr "解锁空位"
+
+msgid "window/unitListView/create/btn"
+msgstr "创建房间"
+
+msgid "window/unitListView/enterBtn/common"
+msgstr "志愿者"
+
+msgid "window/unitListView/enterBtn/legionary"
+msgstr "进入"
+
+msgid "window/unitListView/enterBtn/member"
+msgstr "进入"
+
+msgid "window/unitListView/enterText/legionary"
+msgstr "以佣兵身份加入"
+
+msgid "window/unitListView/enterText/member"
+msgstr "加入团队"
+
+msgid "window/unitListView/foundTeamsDescription"
+msgstr "下列团队正在寻找成员并有空闲位置。"
+
+msgid "window/unitListView/noItems"
+msgstr "未找到团队"
+
+msgid "window/unitListView/noSearchResults/btn"
+msgstr "返回列表"
+
+msgid "window/unitListView/noSearchResults/description"
+msgstr "未找到这个名称的团队。"
+
+msgid "window/unitListView/noSearchResults/header"
+msgstr "未找到结果"
+
+msgid "window/unitListView/noTeams/description"
+msgstr "未找到满足条件的团队。稍后重试。"
+
+msgid "window/unitListView/noTeams/header"
+msgstr "未找到团队"
+
+msgid "window/unitListView/noUnitSelected"
+msgstr "在左侧列表选择一个团队\n查看详细描述。"
+
+msgid "window/unitListView/refreshList"
+msgstr "更新列表"
+
+msgid "window/unitListView/renderer/next"
+msgstr "下一个"
+
+msgid "window/unitListView/renderer/previous"
+msgstr "上一个"
+
+msgid "window/unitListView/renderer/requiredVehicles"
+msgstr "适合的战车"
+
+msgid "window/unitListView/renderer/showMore"
+msgstr "再显示20个"
+
+msgid "window/unitListView/selectedTeam"
+msgstr "团队"
+
+msgid "window/unitListView/sort/label"
+msgstr "评级:"
+
+msgid "window/unitListView/team"
+msgstr "组成"
+
+msgid "window/unitListView/teamDescription"
+msgstr "团队描述"
+
+msgid "window/unitListView/title"
+msgstr "作战房间"
+
+msgid "window/unitListView/vehicles"
+msgstr "战车"
+
+msgid "window/vehicleSelector/buttons/cancel"
+msgstr "取消"
+
+msgid "window/vehicleSelector/buttons/select"
+msgstr "选择"
+
+msgid "window/vehicleSelector/filters/all"
+msgstr "全部"
+
+msgid "window/vehicleSelector/filters/allLevels"
+msgstr "所有等级"
+
+msgid "window/vehicleSelector/filters/level"
+msgstr "%(levelNum)d 级别"
+
+msgid "window/vehicleSelector/filters/matches"
+msgstr "至显示适合的战车"
+
+msgid "window/vehicleSelector/info/intro"
+msgstr "您将使用已选战车中的一辆参加战斗。允许等级:VI–VIII.\n\n最好选择轻型、中型、或重型坦克。"
+
+msgid "window/vehicleSelector/info/respawn"
+msgstr "选择一辆VI–VIII级的战车用于参加战斗。"
+
+msgid "window/vehicleSelector/info/search"
+msgstr "你将驾驶已选择战车中的一辆参加战斗。"
+
+msgid "window/vehicleSelector/info/unit"
+msgstr "选择一辆VI–VIII级的战车用于参加战斗。"
+
+msgid "window/vehicleSelector/title"
+msgstr "选择战车"

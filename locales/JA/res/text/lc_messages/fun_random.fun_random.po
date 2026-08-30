@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "「%(leftDetailedSeasonName)s」は終了しています。"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "本モードは全サーバーで休止中です。あと%(primeDelta)sで再開します。"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "「%(leftDetailedSeasonName)s」は終了しています。"
+
+msgid "alertMessage/allNotSet"
+msgstr "こちらのモードは%(serverName)sサーバーではプレイできません。"
+
+msgid "alertMessage/button/changeServer"
+msgstr "別のサーバーを選択"
+
+msgid "alertMessage/notAvailable"
+msgstr "本モードは%(serverName)sサーバーでは休止中です。"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "本モードは%(serverName)sサーバーでは休止中です。"
+
+msgid "alertMessage/notSet"
+msgstr "こちらのモードは%(serverName)sサーバーではプレイできません。"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "本モードはご利用中のサーバーでは休止中です。あと%(primeDelta)sで再開します。"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "「%(leftDetailedSeasonName)s」は終了しています。"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "こちらのモードは%(serverName)sサーバーではプレイできません。"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s日"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s時間%(min)s分"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1分未満"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s分"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "適合車輌なし"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s～%(end)s"
+
+msgid "calendarDay/title"
+msgstr "スケジュール"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "モード"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} — 別のゲームモードに切り替え中"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "モード開始:"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "休止時間: {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "終了済み"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "本モードをプレイできなくなりました"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "本モードは{{timer}}の間プレイできます"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "「%(modeName)s」モードでは%(forbiddenClass)sを使用できません。"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "車輌タイプが不適合"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "「%(modeName)s」モードでは%(levelSubStr)s車輌しか使用できません。"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "車輌Tierが不適合"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Tier %(levels)s"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "「%(modeName)s」モードでは%(forbiddenType)sを使用できません。"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "車輌が不適合"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "本モードはご利用のサーバーでは休止中です。別のサーバーを選択してください。"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "プレイ不可"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "選択中のサーバーでは本モードをプレイできません。"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "プレイ不可"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "「%(subModeName)s」は終了しています。"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "プレイ不可"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "モードを変更するか条件を満たす車輌を選択してください。"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "車輌がモードに不適合"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "2～3名編成の小隊を作成して「%(modeName)s」モードで共闘できます。"
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "小隊"
+
+msgid "invite/text/detailedTitle"
+msgstr "%(detailedModeName)s小隊への招待"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "ガレージに車輌が1輌もありません。"
+
+msgid "lootboxTooltip/chance"
+msgstr "ドロップ率: %(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "以下のリストにあるゲーム内アイテム1つ"
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "全ステージを制覇済み"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "現在のミッションの\n全ステージを制覇済み"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "次のステージの報酬—%(stagePoints)sポイントでアンロック"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "次のステージの報酬"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "プレイ期間終了まであと%(time)s"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "次の開催まであと%(time)s"
+
+msgid "modeSelector/notStarted"
+msgstr "間もなく開始"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s日"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s時間"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "1分未満"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s分"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "モードへ"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "技術的な理由により一時停止中"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "現在のミッションの全ステージを制覇済み"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "報酬: %(count)s個"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "終了済み"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "間もなく登場"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "開始まであと"
+
+msgid "modeSubSelector/subtitle"
+msgstr "サブモードを要選択"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "(開発) 全ステージを制覇"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "(開発) 進捗の更新"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "今すぐ出撃!"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "戦場へ突入せよ!"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "「アミューズメント」モードは期間限定の特別コンテンツで、いつもとは一味違う体験をお届けします。ゲーム性を一変させる特別ルールの限定モードで戦い、ミッションを達成して、貴重な報酬を獲得することができます。"
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev 進捗を制覇"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "(開発) 報酬と交換可能なリソース:"
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "(開発) 取得ポイント: {{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "達成済み:"
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "繰り返し挑戦可能"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "達成報酬:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "敗北:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "勝利:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "ポイント:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "入手した報酬:"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "現在挑戦できるミッションはすべて達成しました。"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "進捗ステージへの挑戦が開始されるとミッションが表示されます。"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "現在挑戦できるミッションはすべて達成しました。次のローテーションで新たなミッションが登場します。"
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "期限まで{{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "期限まで{{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "新たなミッションまで{{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "「{{eventName}}」進捗状況"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "「{{eventName}}」ミッション"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "全ステージ制覇済み"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "進捗の更新"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "ネオンダッシュ"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "ゴールを目指せ!"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "レースが幕を開ける!"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "「ネオンダッシュ」は、いつもとは一味違う体験を楽しめる期間限定イベントです。危険なコースを駆け抜けながらライバルと競い合い、ミッションを達成することで、報酬が手に入ります。"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "本モードを快適にプレイいただくには高性能PCが必要です。お使いのPCではマップの読み込み、グラフィック、車輌の操作などに不具合が生じる可能性があります。パフォーマンスに問題がある場合は、「設定」画面で「グラフィック品質」を変更してください。"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "パフォーマンス低下の可能性あり"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "本モードを快適にプレイいただくには高性能PCが必要です。お使いのPCではマップの読み込み、グラフィック、車輌の操作などに不具合が生じる可能性があります。パフォーマンスに問題がある場合は、「設定」画面で「グラフィック品質」を変更してください。"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "パフォーマンス低下の可能性あり"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "エピック・ランダム報酬"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "レジェンド・ランダム報酬"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "コモン・ランダム報酬"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "レア・ランダム報酬"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "アンコモン・ランダム報酬"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "ネオンダッシュ・ミッション (ステージ %(done)s{par_Open}/%(total)s{par_Close})"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "「ネオンダッシュ」で挑戦できます。"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "ネオンダッシュ・ミッション"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "全サブモードで挑戦できます。"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "後に新たなアミューズメント・ミッションが登場"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15～30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "ゴールを目指して競い合うフリーフォーオール形式のレースモード"
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} 全Tier対象"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "最高グラフィック設定推奨"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon)最高グラフィック設定推奨"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "最高グラフィック設定推奨"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon)最高グラフィック設定推奨"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "新たなネオンダッシュ・ミッションの登場まで"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "サブモード%(subModeName)sが終了したため進捗がリセットされました。"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "サブモード%(subModeName)sが終了しました。"
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "新たな報酬とサブモード%(subModeName)sがアンロックされました。"
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "新たなサブモード%(subModeName)sがアンロックされました。"
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "メンテナンスのため%(subModeName)sは一時停止中です。"
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "%(subModeName)sが再開しました。"
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "報酬リスト"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "おめでとうございます!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "進捗を制覇"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "おめでとうございます!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "全ステージ制覇後の進捗システム"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "メイン進捗を制覇しました。"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "このステージは何度でも達成できます。"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "取得ポイント: {{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "取得したポイント:"
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "ネオンダッシュ・ミッション"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "達成済み:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "繰り返し挑戦可能"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "達成報酬:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "敗北:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "勝利:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "ポイント:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "入手した報酬:"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "現在挑戦できるミッションはすべて達成しました。"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "進捗ステージへの挑戦が開始されるとミッションが表示されます。"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "現在挑戦できるミッションはすべて達成しました。次のローテーションで新たなミッションが登場します。"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "期限まで{{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "期限まで{{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "新たなミッションまで{{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "「{{eventName}}」進捗状況"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "「{{eventName}}」ミッション"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "レジェンド報酬を入手!"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "「%(subModeName)s」が再開しました。"
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "ピットストップ"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "「%(subModeName)s」が終了しました。"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "ピットストップ"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "ピットストップの時間です!「 %(subModeName)s」のレースは一時的にご利用いただけません。"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "ピットストップ"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "「ランダム報酬」として、以下のリスト内のアイテムを一定の確率で入手できます。"
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "報酬リスト"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "「ネオンダッシュ」ではすべての車輌を使用できます。"
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "ネオンダッシュ車輌"
+
+msgid "modes/fall_tanks/userName"
+msgstr "ネオンダッシュ"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "全ステージを制覇"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "進捗の更新"
+
+msgid "modes/undefined/capsUserName"
+msgstr "アミューズメント"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "【%(modeName)s】%(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "今すぐ出撃!"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "戦場へ突入せよ!"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "「アミューズメント」モードは期間限定の特別コンテンツで、いつもとは一味違う体験をお届けします。ゲーム性を一変させる特別ルールの限定モードで戦い、ミッションを達成して、貴重な報酬を獲得することができます。"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "本モードを快適にプレイいただくには高性能PCが必要です。お使いのPCではマップの読み込み、グラフィック、車輌の操作などに不具合が生じる可能性があります。パフォーマンスに問題がある場合は、「設定」画面で「グラフィック品質」を変更してください。"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "パフォーマンス低下の可能性あり"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "本モードを快適にプレイいただくには高性能PCが必要です。お使いのPCではマップの読み込み、グラフィック、車輌の操作などに不具合が生じる可能性があります。パフォーマンスに問題がある場合は、「設定」画面で「グラフィック品質」を変更してください。"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "パフォーマンス低下の可能性あり"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "エピック・ランダム報酬"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "レジェンド・ランダム報酬"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "コモン・ランダム報酬"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "レア・ランダム報酬"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "アンコモン・ランダム報酬"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "アミューズメント・ミッション （ステージ %(done)s{par_Open}/%(total)s{par_Close}）"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "全サブモードで挑戦できます。"
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "アミューズメント・ミッション"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "全サブモードで挑戦できます。"
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "後に新たなアミューズメント・ミッションが登場"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15対15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "普段とは違う実験的なシステム"
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Tier&nbsp;%(levels)s"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "最高グラフィック設定推奨"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon)最高グラフィック設定推奨"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "最高グラフィック設定推奨"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon)最高グラフィック設定推奨"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "新たなアミューズメント・ミッションの登場まで"
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "サブモード%(subModeName)sが終了したため進捗がリセットされました。"
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "サブモード%(subModeName)sが終了しました。"
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "新たな報酬とサブモード%(subModeName)sがアンロックされました。"
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "新たなサブモード%(subModeName)sがアンロックされました。"
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "メンテナンスのため%(subModeName)sは一時停止中です。"
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "%(subModeName)sが再開しました。"
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "報酬リスト"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "おめでとうございます！"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "進捗を制覇"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "おめでとうございます！"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "繰り返し挑戦可能なステージ"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "メイン進捗を制覇"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "報酬と交換可能なリソース:"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "取得ポイント: {{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "取得したポイント:"
+
+msgid "modes/undefined/progression/title"
+msgstr "アミューズメント・ミッション"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "達成済み:"
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "繰り返し挑戦可能"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "達成報酬:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "敗北:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "勝利:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "ポイント:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "入手した報酬:"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "現在挑戦できるミッションはすべて達成しました。"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "進捗ステージへの挑戦が開始されるとミッションが表示されます。"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "現在挑戦できるミッションはすべて達成しました。次のローテーションで新たなミッションが登場します。"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "期限まで{{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "期限まで{{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "新たなミッションまで{{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "「{{eventName}}」進捗状況"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "「{{eventName}}」ミッション"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "レジェンド報酬を入手！"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "%(subModeName)sが再開しました。"
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "休止時間"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "「%(subModeName)s」は終了しています。"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "休止時間"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "%(subModeName)sは一時的に休止中です。"
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "休止時間"
+
+msgid "modes/undefined/tierList/description"
+msgstr "「ランダム報酬」として、以下のリスト内のアイテムを一定の確率で入手できます。"
+
+msgid "modes/undefined/tierList/title"
+msgstr "報酬リスト"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "「アミューズメント」モードで使用できる車輌のみを表示します。"
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "アミューズメント車輌"
+
+msgid "modes/undefined/userName"
+msgstr "「アミューズメント」モード"
+
+msgid "notification/congratulation"
+msgstr "おめでとうございます！"
+
+msgid "notification/finishSubModes"
+msgstr "「%(modeName)s」モードが終了しました。"
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "サブモード%(subModesNames)sが終了したため進捗がリセットされました。"
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "サブモード%(subModesNames)sが終了しました。"
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "ランダム報酬"
+
+msgid "notification/newProgression"
+msgstr "イベントの進捗がリセットされたため再び報酬を入手できます。"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "イベントの進捗がリセットされました。新たなサブモード%(subModesNames)sがアンロックされました。"
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "新たなサブモード%(subModesNames)sがアンロックされました。"
+
+msgid "notification/progressionComplete"
+msgstr "%(modeName)s・ミッションを完全制覇したため以下の報酬を受け取りました。"
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "%(modeName)s・ミッションを完全制覇したため以下の報酬を受け取りました。また、繰り返し挑戦可能なステージがアンロックされました。"
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "進捗は1日以内にリセットされます。リセットが完了すると再びミッションに挑戦できるようになります。"
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "進捗は%(days)d日以内にリセットされます。リセットが完了すると再びミッションに挑戦できるようになります。"
+
+msgid "notification/progressionStageComplete"
+msgstr "「%(modeName)s」のステージ%(stage)sを達成したため以下の報酬を受け取りました。"
+
+msgid "notification/subModesSeparator"
+msgstr "、"
+
+msgid "notification/switchOffSubModes"
+msgstr "メンテナンスのため%(subModesNames)sは一時停止中です。"
+
+msgid "notification/switchOnSubModes"
+msgstr "%(subModesNames)sが再開しました。"
+
+msgid "platoonView/title"
+msgstr "小隊: %(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "利用可能なサーバー: %(server)s"
+
+msgid "primeTimes/availableServers"
+msgstr "利用可能なサーバー:"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "%(serverName)sサーバー\n戦闘開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "%(serverName)sサーバー\n「%(leftDetailedSeasonName)s」は終了しています。"
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "%(serverName)sサーバー\n休止時間の開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "%(serverName)sサーバー\n戦闘開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "%(serverName)sサーバー\n「%(leftDetailedSeasonName)s」は終了しています。"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "%(serverName)sサーバー\n戦闘開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "%(serverName)sサーバー\n「%(leftDetailedSeasonName)s」は終了しています。"
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s日"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s時間%(min)s分"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "1分未満"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s分"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "本モードは全サーバーで休止中です。\nあと%(primeDelta)sで再開します。"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "「%(leftDetailedSeasonName)s」は終了しています。"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "こちらのモードは%(serverName)sサーバーではプレイできません。"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "本モードは%(serverName)sサーバーでは%(primeDeltaDate)s%(primeDeltaTime)sまで休止中です。"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "本モードは%(serverName)sサーバーでは休止中です。"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "こちらのモードは%(serverName)sサーバーではプレイできません。"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "本モードは%(serverName)sサーバーでは休止中です。\nあと%(primeDelta)sで再開します。"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "「%(leftDetailedSeasonName)s」は終了しています。"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "こちらのモードは%(serverName)sサーバーではプレイできません。"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "%(serverName)sサーバーでの戦闘開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "%(serverName)sサーバーでは「%(leftDetailedSeasonName)s」が終了しています。"
+
+msgid "primeTimes/timeText/available"
+msgstr "%(serverName)sサーバーでの休止時間の開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "%(serverName)sサーバーでの戦闘開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "%(serverName)sサーバーでは「%(leftDetailedSeasonName)s」が終了しています。"
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "%(serverName)sサーバーでの戦闘開始まで残り%(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "%(serverName)sサーバーでは「%(leftDetailedSeasonName)s」が終了しています。"
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "ポイント"
+
+msgid "progression/complete/affirmative"
+msgstr "了解！"
+
+msgid "progression/defaultCondition/text"
+msgstr "ポイントを取得するとステージを進めることができます。"
+
+msgid "progression/infinite/pointsEarned"
+msgstr "取得したポイント:"
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "プレイ期間が終了したため、戦闘は行えません。"
+
+msgid "progression/questsList/quest/completed"
+msgstr "達成済み:"
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "繰り返し挑戦可能"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "達成:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "敗北:"
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "勝利:"
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "入手した報酬:"
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "プレイ期間終了まで{{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "プレイ期間終了まで"
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "次の開催まで"
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "次のステージの報酬—%(count)dポイントでアンロック"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "他に受け取った報酬"
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "了解！"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "指揮官がサブモードを%(subModeName)sに変更しました。"
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "サブモードの変更"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Tier&nbsp;%(levels)s"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "ネオンダッシュ"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "対戦相手を蹴散らして、ゴールを目指して駆け抜けろ! アビリティー「ダッシュ」と「シールド」を使えばさらにカオス度がアップだ!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "動く足場に注意"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "レーザーを避け、タイミングよくジャンプしてゴールまで駆け抜けろ!"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "レーザーとジャンプ台に要注意"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "でモードの詳細を確認できます。"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "ショートカット:"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "ネオンダッシュ"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15～30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "ゴールラインまで\n戦い抜け"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} 全Tier対象"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "最高グラフィック設定推奨"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon)最高グラフィック設定推奨"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "最高グラフィック設定推奨"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon)最高グラフィック設定推奨"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "ネオンダッシュ"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "ネオンダッシュ"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "「ネオンダッシュ」"
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} Tier&nbsp;%(levels)s"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "最高グラフィック設定推奨"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon)最高グラフィック設定推奨"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "最高グラフィック設定推奨"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon)最高グラフィック設定推奨"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

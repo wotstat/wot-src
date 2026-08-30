@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "バトルパスの概要"
+
+msgid "about/position/header"
+msgstr "進捗ポイントの取得ルール"
+
+msgid "about/position/text"
+msgstr "「フロントライン」モードで戦闘を行うとパフォーマンスに応じて「バトルパス進捗ポイント」を取得できます。新たな「フロントラインTier」に到達した際にも「バトルパス進捗ポイント」が手に入ります。"
+
+msgid "about/scores/header"
+msgstr "バトルパス進捗ポイント"
+
+msgid "about/scores/text"
+msgstr "イベント「バトルパス」専用の特殊なゲーム内リソースです。「ランダム戦」モードをはじめとする各種の対象モードで取得できます。「フロントライン」モードでは戦闘で好成績を収めるか新たな「フロントラインTier」に到達すると取得できます。なお、「フロントライン」モードで取得した「進捗ポイント」は「ポイント上限」の対象に含まれません。"
+
+msgid "about/scoresTable/loseHeader"
+msgstr "敗北"
+
+msgid "about/scoresTable/topCell"
+msgstr "取得EXPでTOP{{top}}"
+
+msgid "about/scoresTable/winHeader"
+msgstr "勝利"
+
+msgid "about/text"
+msgstr "「バトルパス」は、定期的に開催されるステージ制の長期イベントです。ポイントを集めてステージを達成する度に貴重な報酬が手に入ります。さらに特定のステージでは「バトルパス・トークン」と呼ばれる特殊な通貨が手に入り、一定数を集めるとショップの対応するセクションで限定車輌を含む貴重なアイテムと交換できるようになります。"
+
+msgid "addons/cellRent/header"
+msgstr "車輌レンタル"
+
+msgid "addons/cellRent/text_10"
+msgstr "「フロントライン」モードにはクレジットでレンタルできる専用のTier {{vehiclesLevel}}車輌がいくつか用意されています。ガレージに所有している車輌の中に国籍とタイプが同じものがあればペナルティーなしで搭乗員を乗せ換えることができます。"
+
+msgid "addons/cellRent/text_9"
+msgstr "「フロントライン」モードにはクレジットでレンタルできる専用のTier {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}車輌がいくつか用意されています。ガレージに所有している車輌の中に国籍とタイプが同じものがあればペナルティーなしで搭乗員を乗せ換えることができます。"
+
+msgid "addons/cellSpectator/header"
+msgstr "オブザーバーモード"
+
+msgid "addons/cellSpectator/text"
+msgstr "「フロントライン」モードでは、再出撃の準備が整っていない状態で車輌が大破するとオブザーバーモードに移行します。再出撃が可能になるまで戦場全体を見渡して戦略を練るのがおススメです。"
+
+msgid "addons/cellTime/header"
+msgstr "戦闘時間の延長"
+
+msgid "addons/cellTime/text"
+msgstr "「フロントライン」モードでは、戦闘の残り時間がゼロになっても、攻撃チームがいずれかの陣地を占領中であれば戦闘時間が延長されます。占領が完了する前に防衛チームがブロックに成功すると追加時間が即座にゼロになります。"
+
+msgid "addons/header"
+msgstr "追加情報"
+
+msgid "levelUp/sectionHeader"
+msgstr "Tier {{level}}車輌"
+
+msgid "levelUp/text"
+msgstr "出撃時にはTier {{vehiclesLevelFrom}}車輌しか選択できません。ただし、Tier {{vehiclesLevelTo}}を使用したい場合はガレージで戦闘準備を整えておく必要があります。攻撃チームが第2防衛線にあたるゾーンD、E、Fの陣地を1か所でも占領すると、 両チームともにTier {{vehiclesLevelTo}}車輌を使用できるようになります。"
+
+msgid "main/cellDuration/header"
+msgstr "開催期間"
+
+msgid "main/cellDuration/text"
+msgstr "「フロントライン」は{{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}間にわたって開催されます。次回の開催期間は別途お伝えいたします。"
+
+msgid "main/cellFrontline/header"
+msgstr "フロントライン"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Tier {{vehiclesLevel}}車輌による30対30の大規模な戦闘を楽しめるモードです。戦闘は{{@ colorLegacy 'FFE4C0'}}「ノルマンディー」、「クラフトワーク」、{{/}}{{@ colorLegacy 'FFE4C0'}}「ファタ・モルガーナ」{{/}}という3つの広大な専用マップで行われます。マップには大口径砲を備えた5基のトーチカが登場し、攻撃チームはそのうち3基の破壊すれば勝利、逆に防衛チームはそれを死守すれば勝利となります。"
+
+msgid "main/cellFrontline/text_9"
+msgstr "Tier {{vehiclesLevelFrom}}～Tier {{vehiclesLevelTo}}車輌による30対30の大規模な戦闘を楽しめるモードです。戦闘は{{@ colorLegacy 'FFE4C0'}}「ノルマンディー」、「クラフトワーク」、{{/}}{{@ colorLegacy 'FFE4C0'}}「ファタ・モルガーナ」{{/}}という3つの広大な専用マップで行われます。マップには大口径砲を備えた5基のトーチカが登場し、攻撃チームはそのうち3基の破壊すれば勝利、逆に防衛チームはそれを死守すれば勝利となります。"
+
+msgid "main/cellLevel9/header"
+msgstr "Tier {{vehiclesLevel}}車輌"
+
+msgid "main/cellLevel9/text"
+msgstr "第2防衛線に属するゾーンD、E、Fいずれかの陣地が攻撃チームの手に落ちるとTier {{vehiclesLevel}}車輌を使用できるようになります。"
+
+msgid "main/cellLevels/header"
+msgstr "Tier {{vehiclesLevel}}車輌"
+
+msgid "main/cellLevels/text_8"
+msgstr "本モードで使用できるのはTier {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}}車輌のみとなります。"
+
+msgid "main/cellLevels/text_9"
+msgstr "出撃時にはTier {{vehiclesLevel}}車輌しか選択できません。"
+
+msgid "main/cellPass/header"
+msgstr "バトルパス"
+
+msgid "main/cellPass/text"
+msgstr "「フロントライン」モードでは戦闘パフォーマンスやモード内進捗に応じて「バトルパス進捗ポイント」を取得できるようになっています。"
+
+msgid "main/cellReserves/header"
+msgstr "戦闘リザーブのカテゴリー"
+
+msgid "main/cellReserves/text"
+msgstr "「戦闘リザーブ」は3つのカテゴリーに分類され、それぞれに対応するスロットが用意されています。スロットをアンロックしたり強化できる順番は車輌タイプによって異なります。"
+
+msgid "main/cellScenarios/header"
+msgstr "シナリオ"
+
+msgid "main/cellScenarios/text"
+msgstr "「フロントライン」モードの戦闘では「{{@ colorLegacy 'FFE4C0'}}通常戦{{/}}」、「{{@ colorLegacy 'FFE4C0'}}作戦支援{{/}}」、「{{@ colorLegacy 'FFE4C0'}}運命の悪戯{{/}}」のシナリオのいずれかが適用されます。戦闘でどのシナリオが適用されているかは、ロード画面や戦闘前のカウントダウン中に表示されるほか、戦闘中でも「Tab」キーを押すと確認できます。"
+
+msgid "main/sectionHeader"
+msgstr "イベントの概要"
+
+msgid "page/backBtn"
+msgstr "戻る"
+
+msgid "page/headerUpper"
+msgstr "フロントライン"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "戦闘中に昇格すると戦闘EXPに加えて「階級」に応じた「フロントラインEXP」が手に入ります。「フロントラインEXP」は合計{{@ colorLegacy 'FFE4C0'}}20段階{{/}}の「フロントラインTier」を上昇させるのに必要になります。"
+
+msgid "progression/levelsSection/header"
+msgstr "フロントラインTier"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "新たな「{{@ colorLegacy 'FFE4C0'}}フロントラインTier{{/}}」に到達すると、バトルパス進捗ポイント、戦闘リザーブポイント、ボンズ、ディレクティブ、特訓修了証、搭乗員教本、引き継ぎ指令書などのさまざまな報酬が手に入ります。"
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "新たな「{{@ colorLegacy 'FFE4C0'}}フロントラインTier{{/}}」に到達すると様々な報酬が手に入ります。戦闘リザーブポイント、ボンズ、ディレクティブ、特訓修了証、搭乗員教本などが一例です。"
+
+msgid "progression/ranksSection/experience"
+msgstr "本モードでは、戦闘中に活躍に応じて「{{@ colorLegacy 'FFE4C0'}}階級{{/}}」が上がっていきます。「階級」には複数のボーナスが用意されています。まず、戦闘終了時の「階級」に応じて、その戦闘で取得した基本EXPの合計値にボーナスが加算されます。また、自分自身も含め、味方チームのプレイヤーのいずれかが「大将」に昇格すると、その度に味方チームの全搭乗員の能力に{{@ colorLegacy 'FFE4C0'}}1.5%{{/}}のボーナスが加算されます。こちらのボーナスの最大値は{{@ colorLegacy 'FFE4C0'}}15%{{/}}に設定されています。"
+
+msgid "progression/ranksSection/header"
+msgstr "階級"
+
+msgid "progression/ranksSection/text"
+msgstr "「フロントライン」モードには6つの「階級」が用意されています。\n陣地の占領や主目標の破壊など戦闘中の行動に応じてEXPが手に入ります。\nEXPを集めると階級が「上等兵」から「大将」まで昇格していきます。使用する全車輌が対象です。"
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "戦闘EXPボーナス"
+
+msgid "progression/ranksTable/captain"
+msgstr "大尉"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "搭乗員の能力に対するボーナス"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "フロントラインEXP"
+
+msgid "progression/ranksTable/general"
+msgstr "大将"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "少尉"
+
+msgid "progression/ranksTable/major"
+msgstr "少佐"
+
+msgid "progression/ranksTable/private"
+msgstr "上等兵"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "軍曹"
+
+msgid "progression/sectionHeader"
+msgstr "モード内進捗"
+
+msgid "progression/text"
+msgstr "「フロントライン」モードでは、戦闘を重ねてより高い「階級」への昇格を繰り返し、独自の進捗システムを進めることで様々な報酬を入手できます。"
+
+msgid "reserveCategories/categories/additional"
+msgstr "セカンダリー"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "第1スロット"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "第2スロット"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "第3スロット"
+
+msgid "reserveCategories/categories/main"
+msgstr "プライマリー"
+
+msgid "reserveCategories/categories/support"
+msgstr "サポート"
+
+msgid "reserveCategories/config/footerText"
+msgstr "シナリオ{{@ colorLegacy 'FFE4C0'}}「運命の悪戯」{{/}}では、アンロックできる「戦闘リザーブ」がランダムに決定されます。「戦闘リザーブ」のカテゴリーや使用している車輌のタイプには影響されません。"
+
+msgid "reserveCategories/config/header"
+msgstr "車輌タイプとスロットの構成"
+
+msgid "reserveCategories/config/text"
+msgstr "シナリオ「{{@ colorLegacy 'FFE4C0'}}通常戦{{/}} 」と「{{@ colorLegacy 'FFE4C0'}}作戦支援{{/}}」では、全車輌タイプで3つすべての「戦闘リザーブ」のスロットを使用できます。ただしアンロックの順番は使用している車輌のタイプによって異なります。"
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "駆逐戦車"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "重戦車"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "軽戦車"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "中戦車"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "自走砲"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* シナリオ「{{@ colorLegacy 'FFE4C0'}}運命の悪戯{{/}}」で{{@ colorLegacy 'FFE4C0'}}事前に購入{{/}}している「戦闘リザーブ」を選択した場合"
+
+msgid "reserveCategories/levels/header"
+msgstr "戦闘リザーブのアンロックと強化"
+
+msgid "reserveCategories/levels/text"
+msgstr "戦闘開始時には「第1スロット」しかアンロックされていません。「第2スロット」と「第3スロット」はそれぞれ「軍曹」および「少尉」に昇格した際にアンロックされます。「大尉」および「少佐」に昇格すると全「戦闘リザーブ」が同時にアップグレードされます。"
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}}または{{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}レベル"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "大尉"
+
+msgid "reserveCategories/ranks/general"
+msgstr "大将"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "少尉"
+
+msgid "reserveCategories/ranks/major"
+msgstr "少佐"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "軍曹"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "上等兵"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "運命の悪戯"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "戦闘中に対応する「階級」に昇格すると2種類の「戦闘リザーブ」がランダムに表示され、そのどちらかを選んでアンロックできます。出撃前にガレージで特定の「戦闘リザーブ」をスロットにセットしておくと、その「戦闘リザーブ」が選択肢として表示される確率が{{@ colorLegacy 'FFE4C0'}}10%{{/}}上昇します。さらに事前に「リザーブ」を購入しておくと、その「リザーブ」の初期レベルが{{@ colorLegacy 'FFE4C0'}}II{{/}}に上昇し、最大レベルを{{@ colorLegacy 'FFE4C0'}}IV{{/}}まで引き上げることができます。"
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "「フロントライン」のシナリオ"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "通常戦"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "従来の「フロントライン」のルールが適用されます。「戦闘リザーブ」の使用条件にも変わりはありません。"
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "作戦支援"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "リザーブ開放の際: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "戦闘に復帰した際: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "「戦闘リザーブ」のクールダウン時間が短縮されたシナリオで、より展開の速い戦闘が繰り広げられます。"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "本モードの戦闘では、「{{@ colorLegacy 'FFE4C0'}}通常戦{{/}}」、「{{@ colorLegacy 'FFE4C0'}}作戦支援{{/}}」、「{{@ colorLegacy 'FFE4C0'}}運命の悪戯{{/}}」のシナリオのいずれかが適用されます。シナリオによって、「戦闘リザーブ」の使用条件が異なります。現在の戦闘で適用されているシナリオは、ロード画面や戦闘前のカウントダウン中に表示されるほか、戦闘中でも「Tab」キーを押すと確認できます。"
+
+msgid "reserveCategories/sectionHeader"
+msgstr "戦闘リザーブのカテゴリー"
+
+msgid "reserveCategories/text"
+msgstr "「戦闘リザーブ」は3つのカテゴリーに分類されます。戦闘ではカテゴリー毎に1つの「戦闘リザーブ」しか使用できません。"
+
+msgid "reserveCategories/types/firesupport"
+msgstr "攻撃用リザーブ"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "偵察用リザーブ"
+
+msgid "reserveCategories/types/tactics"
+msgstr "強化用リザーブ"
+
+msgid "reserves/sectionHeader"
+msgstr "リザーブ準備時間の短縮"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "戦闘開始時"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "戦闘開始直後は「戦闘リザーブ」の準備に要する時間が50%短縮されます。"
+
+msgid "reserves/sectionReload/header"
+msgstr "アンロック時"
+
+msgid "reserves/sectionReload/text"
+msgstr "アンロックされたばかりの「戦闘リザーブ」はただちに発動することができます。"
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "戦線復帰時"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "新たな車輌で戦線復帰した際は「戦闘リザーブ」の準備に要する時間が70%短縮されます。"
+
+msgid "rules/backToFight/header"
+msgstr "再出撃メカニズム"
+
+msgid "rules/backToFight/text"
+msgstr "「フロントライン」モードでは自車輌が大破しても別の車輌で戦線に復帰することができます。復帰の際には戦況や作戦に応じて最も適した出撃地点を選択するのが重要になります。防衛チームには攻撃チームよりも出撃地点が多く用意されており、攻撃チームに防衛線を突破されてしまった場合でも素早く最終目標の防衛に当たれるようになっています。出撃しようとしている地点がすでに敵に制圧されつつあるような場合には、出撃画面に危険の存在を示す専用インジケーターが表示されます。"
+
+msgid "rules/base/header"
+msgstr "陣地の占領"
+
+msgid "rules/base/textBottom"
+msgstr "「フロントライン」モードでは、「ランダム戦」モードなどとは異なり、陣地を占領している敵車輌にダメージや損傷を与えても占領プロセスの進行が一時的に停止するのみでリセットされることはありません。占領プロセスを完全にリセットするには、陣地を占領している敵車輌をすべて撃破するか、陣地サークル外へと追いやる必要があります。攻撃チームが陣地の占領に成功すると、防衛チームは奪い返すことができない点にも注意が必要です。"
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}攻撃チーム{FFE4C0_End}が主目標に到達するには、順番に陣地を占領していく必要があります。陣地を占領するごとに、戦闘時間は2分延長されます。最後の陣地を占領すると、4分延長されます。"
+
+msgid "rules/sectionHeader"
+msgstr "基本的なルール"
+
+msgid "rules/service/header"
+msgstr "補給サークル"
+
+msgid "rules/service/text"
+msgstr "「補給サークル」では、車輌HPの回復や負傷した搭乗員の治療、そして砲弾の補給を行うことができます。{FFE4C0_Start}効果は1秒につき100HP、搭乗員1名、そして砲弾の10%{FFE4C0_End}に設定されています。"
+
+msgid "rules/weapons/header"
+msgstr "勝利条件は5基のトーチカのうち3基の破壊または防衛"
+
+msgid "rules/weapons/list/back"
+msgstr "後面装甲: {{@ colorLegacy 'FFE4C0'}}90 mm{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "天板と前面装甲は砲弾では{{@ colorLegacy 'FFE4C0'}}貫通不可{{/}}"
+
+msgid "rules/weapons/list/sides"
+msgstr "側面装甲: {{@ colorLegacy 'FFE4C0'}}180 mm{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "側面装甲: {{@ colorLegacy 'FFE4C0'}}210 mm{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "弱点: {{@ colorLegacy 'FFE4C0'}}通用口 (70 mm)、換気口 (25 mm){{/}}"
+
+msgid "rules/weapons/text"
+msgstr "戦闘の「主目標」は、防衛チームのはるか後方に設置された5基のトーチカです。攻撃チームが勝利するには、そのうち3基を破壊する必要があります。制限時間内に破壊できなければ、防衛チームの勝利となります。"
+
+msgid "subTitle/differentMonth"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{startMonth}}{{from}}日{{/}}～{{@ colorLegacy 'FFE4C0'}}{{endMonth}}{{to}}日{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{startYear}}年{{startMonth}}{{from}}日{{/}}～{{@ colorLegacy 'FFE4C0'}}{{endYear}}年{{endMonth}}{{to}}日{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{endMonth}}{{from}}日{{/}}～{{@ colorLegacy 'FFE4C0'}}{{to}}日{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "両チームとも{{@ colorLegacy 'FFE4C0'}}第1防衛線{{/}}にあたるゾーンA、B、Cから出撃します。"
+
+msgid "winStrategy/header"
+msgstr "戦闘の流れ"
+
+msgid "winStrategy/mapZones"
+msgstr "「フロントライン」モードのマップは合計3本の防衛線で構成されています。"
+
+msgid "winStrategy/secondLine"
+msgstr "攻撃チームが第1防衛線のゾーンを占領すると、戦闘が{{@ colorLegacy 'FFE4C0'}}第2防衛線{{/}}にあたるゾーンD、E、Fに移行します。"
+
+msgid "winStrategy/thirdLine"
+msgstr "攻撃チームが{{@ colorLegacy 'FFE4C0'}}第3防衛線{{/}}に到達すると戦闘もいよいよ大詰めです。第1防衛線や第2防衛線と異なりゾーンに分けられておらず、代わりに「主目標」にあたる大口径砲を備えたトーチカが配置されています。制限時間内に一定数の「主目標」が破壊されると攻撃チームの勝利となります。ただし、攻撃チームが第3防衛線に位置する「主目標」に攻撃を仕掛けるには、先に第2防衛線のゾーンを少なくとも1つ占領する必要があります。攻撃チームが特定のゾーンの占領に成功すると、1分後にそのゾーンに対して空爆が行われます。防衛チームは、それまでにゾーンから離脱しないと空爆に晒されてしまいます。一方、攻撃チームも、第1防衛線や第2防衛線のゾーンを1つも占領せずに次の防衛線に進軍すると、やはり敵の空爆に晒され車輌が大破してしまいます。"

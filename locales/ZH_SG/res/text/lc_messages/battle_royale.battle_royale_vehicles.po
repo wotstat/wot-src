@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "abilities/adaptationHealthRestore"
+msgstr "适应性装甲"
+
+msgid "abilities/adaptationHealthRestoreDescription"
+msgstr "立即恢复战车一部分血量。能力效果持续期间，受到的所有炮弹伤害和战斗能力伤害都会累积并转化为血量，并在能力效果结束后，额外为战车恢复等同于所受总伤害一部分的血量。血量转化的恢复效果也会影响小范围内的队友战车。"
+
+msgid "abilities/airstrike"
+msgstr "空袭"
+
+msgid "abilities/airstrikeDescription"
+msgstr "在选定区域以炸弹爆炸震晕敌方战车并造成伤害。"
+
+msgid "abilities/berserk"
+msgstr "淌血升能"
+
+msgid "abilities/berserkDescription"
+msgstr "一段时间内大幅提升您的战车属性和穿透力，但会扣除战车的血量。"
+
+msgid "abilities/brander"
+msgstr "自爆战车"
+
+msgid "abilities/branderDescription"
+msgstr "部署自走地雷战车，自动追踪最近的敌人并在自爆时小范围内造成伤害。敌人可通过射击或撞击该自爆战车将其摧毁。自爆战车在触及目标时会造成额外的撞击伤害。"
+
+msgid "abilities/clingBrander"
+msgstr "战地机器人"
+
+msgid "abilities/clingBranderDescription"
+msgstr "呼叫装有敌我识别系统的无人坦克，追逐并攻击最近的敌人。这种坦克可以被击毁。"
+
+msgid "abilities/corrodingShot"
+msgstr "强酸炮弹"
+
+msgid "abilities/corrodingShotDescription"
+msgstr "为炮弹增加腐蚀效果。对敌方战车造成伤害时，炮弹会附加临时效果：造成额外的持续性伤害。修理箱可移除该效果。"
+
+msgid "abilities/extremeConcentration"
+msgstr "目标追踪"
+
+msgid "abilities/extremeConcentrationDescription"
+msgstr "暂时降低火炮散布误差、缩短瞄准时间，并提升火炮的稳定性和射速。不影响发射一发炮弹后，直到弹匣、火炮或短弹匣中装填下一发炮弹之间的间隔时间。"
+
+msgid "abilities/fireCircle"
+msgstr "炽热火环"
+
+msgid "abilities/fireCircleDescription"
+msgstr "将敌方战车包裹在炽热的光环中，对能力效果范围内的战车造成伤害并降低战车的机动性。"
+
+msgid "abilities/minefield"
+msgstr "雷区"
+
+msgid "abilities/minefieldDescription"
+msgstr "在选定区域部署一片雷区，地雷会在一段时间内处于活跃状态。接触地雷的敌方战车将受到震晕与爆炸伤害。地雷可通过射击摧毁。部署在敌方战车下方的地雷将不会爆炸。"
+
+msgid "abilities/nitro"
+msgstr "涡轮增压器"
+
+msgid "abilities/nitroDescription"
+msgstr "暂时提升战车的发动机功率、最高速度和转向速度。"
+
+msgid "abilities/recoveryDot"
+msgstr "修复区"
+
+msgid "abilities/recoveryDotDescription"
+msgstr "创建一片临时的静态区域，修复所有受损模块、移除所有负面效果，并恢复血量。作用区域内的队友战车也会恢复血量。"
+
+msgid "abilities/recoveryKit"
+msgstr "血量恢复"
+
+msgid "abilities/recoveryKitDescription"
+msgstr "恢复受损战车的血量。"
+
+msgid "abilities/recoveryZone"
+msgstr "血量恢复区"
+
+msgid "abilities/recoveryZoneDescription"
+msgstr "在战车周围创建一片区域。在此区域范围内，玩家和小队成员每秒恢复一定百分比的血量。"
+
+msgid "abilities/repairKit"
+msgstr "修理箱"
+
+msgid "abilities/repairKitDescription"
+msgstr "修复模块并移除负面效果。"
+
+msgid "abilities/rustCloud"
+msgstr "腐蚀烟雾"
+
+msgid "abilities/rustCloudDescription"
+msgstr "对该消耗品作用范围内的所有战车提供隐蔽性加成。同时对范围内所有战车造成伤害。此消耗品不会打断物资的拾取，也不会摧毁战车，会让受影响的战车保留至少1点血量。"
+
+msgid "abilities/shotPassion"
+msgstr "斗志渐涨"
+
+msgid "abilities/shotPassionDescription"
+msgstr "瞄准和稳定数值会下降一段时间，每次射击穿透或“电流猛击”命中都会提高炮弹对敌方战车造成的伤害。伤害最多可提高5次。如果射击命中但未造成伤害或未命中，伤害参数将重置至基础数值。"
+
+msgid "abilities/thunderStrike"
+msgstr "电流猛击"
+
+msgid "abilities/thunderStrikeDescription"
+msgstr "创建一个会释放高频率电击的区域。每次电击都会对能力效果范围内的所有敌方战车造成伤害并暂时降低机动性。能力激活到第一次电击之间有延迟。修理箱可移除此负面效果。"
+
+msgid "abilities/trap"
+msgstr "陷阱"
+
+msgid "abilities/trapDescription"
+msgstr "创建一片区域，降低敌方战车的动力属性。"
+
+msgid "tanks/britain/description"
+msgstr "英国工程师们不断向人们展示着，如何制造出受资深车长青睐、能够震慑敌人的完美战车。这名猎人也不例外。传奇的英国钢铁准备再次在战场上称霸。"
+
+msgid "tanks/britain/title"
+msgstr "Harbinger Mk. IV"
+
+msgid "tanks/china/description"
+msgstr "这辆中国战车背后有一支精密运转的特殊团队支持，采用了最尖端的坦克建造技术。能有机会在钢铁猎手的极端条件下测试新武器，让这支团队的工程师感到喜出望外。"
+
+msgid "tanks/china/title"
+msgstr "Bai Lang"
+
+msgid "tanks/france/description"
+msgstr "轻巧、流线型、与优雅是法国坦克制造的三大要素。这辆战车上没有任何借鉴的设计或窃取的技术，是完全原创和高效的解决方案。"
+
+msgid "tanks/france/title"
+msgstr "Arlequin"
+
+msgid "tanks/germany/description"
+msgstr "德国人在冶金工程和高质量装配方面都是一把好手。这辆战车是一头独狼——独立、多功能、能适应任何战斗情况并存活下来。"
+
+msgid "tanks/germany/title"
+msgstr "Walkure"
+
+msgid "tanks/poland/description"
+msgstr "波兰工程师知道强化战车的某一强项自然会导致另一项参数的下降，因此充分考虑了战车的武器和战斗能力，防止敌人发现战车弱点。时间证明这一决策是正确的。"
+
+msgid "tanks/poland/title"
+msgstr "Huragan"
+
+msgid "tanks/sweden/description"
+msgstr "瑞典人从未忽视坦克建造的新趋势，而钢铁猎手模式则为他们最好的工程师提供了更大的舞台。这辆战车凝聚了最巧妙和最冒险的设计理念，既能够造成高额的伤害，也能够承受大量的伤害，结果着实令人满意。"
+
+msgid "tanks/sweden/title"
+msgstr "Beowulf"
+
+msgid "tanks/usa/description"
+msgstr "这辆战车做到了现代化与经典的完美融合。千锤百炼的传统工艺加上最尖端的先进技术为这辆坦克打下了坚实的基础，驾驶它是一种真正的乐趣——当然，只要您不介意生锈的金属。"
+
+msgid "tanks/usa/title"
+msgstr "Raven"
+
+msgid "tanks/ussr/description"
+msgstr "这辆坦克是用多个坦克制造厂的废零件组装而成的，对任何敌人都构成严重威胁。战场能创造出一头真正的怪兽，蓝图和技术文档都不在话下。"
+
+msgid "tanks/ussr/title"
+msgstr "Varyag"

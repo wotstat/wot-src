@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s，戰鬥持續時間：%(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "關閉"
+
+msgid "battleResult/continueButton"
+msgstr "繼續"
+
+msgid "battleResult/damageAssisted"
+msgstr "協助\n傷害"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "阻擋\n傷害"
+
+msgid "battleResult/damageDealt"
+msgstr "造成\n傷害"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s 當您完成「困難」難度的任務時，\n「普通」難度的相應任務也將自動完成。\n也就是說，您可同時獲得兩個難度等級的獎勵。"
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s 當您完成「困難」難度的任務時，「普通」難度的相應任務也將自動完成。\n也就是說，您可同時獲得兩個難度等級的獎勵。"
+
+msgid "battleResult/kills"
+msgstr "摧毀的\n敵人數"
+
+msgid "battleResult/lose/title"
+msgstr "戰鬥已結束"
+
+msgid "battleResult/missionName/1"
+msgstr "猛虎獵手：斬鋼行動"
+
+msgid "battleResult/missionName/2"
+msgstr "猛虎獵手：誘捕行動"
+
+msgid "battleResult/missionName/3"
+msgstr "猛虎獵手：夾擊行動"
+
+msgid "battleResult/missionName/4"
+msgstr "猛虎獵手：羅網行動"
+
+msgid "battleResult/missionName/5"
+msgstr "大君主作戰"
+
+msgid "battleResult/missionName/6"
+msgstr "郵差行動"
+
+msgid "battleResult/missionName/7"
+msgstr "沸點行動"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "無可進行的\n任務"
+
+msgid "battleResult/rewards/other"
+msgstr "同時獲得："
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "任務\n已完成"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}存活{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}未存活{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "勝利!"
+
+msgid "countdown/days"
+msgstr "{days} 天"
+
+msgid "countdown/daysHours"
+msgstr "{days} 天 {hours} 小時"
+
+msgid "countdown/endsSoon"
+msgstr "少於 {minutes} 分鐘"
+
+msgid "countdown/hours"
+msgstr "{hours} 小時"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} 小時 {minutes} 分鐘"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} 小時 {minutes} 分鐘"
+
+msgid "countdown/lessThanMinute"
+msgstr "少於 1 分鐘"
+
+msgid "countdown/minutes"
+msgstr "{minutes} 分鐘"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} 分鐘"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "取消"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "完成此行動後，您將不會獲得任何獎勵。\n您仍要在沒有待完成任務的情況下進行此行動？"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "確認"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "在此行動中未有待完成任務"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "識別未知威脅，阻止彈道飛彈發射，確保新科技不會落入壞人手中。"
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "在主打「第三區」車長們的史詩般故事中，進行單人戰鬥並與 AI 操控的車輛對抗！"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "完成所有任務以獲取紀念徽章、勳章、主題 2D 風格，以及其他珍貴獎勵。"
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "新紀元來到"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "單人故事"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "獎勵"
+
+msgid "eventWelcomeScreen/header"
+msgstr "沸點行動"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "故事"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "困難"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "普通"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "困難:\n地雷區"
+
+msgid "missionSelection/exitButton"
+msgstr "離開模式"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "斬鋼行動"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "誘捕行動"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "夾擊行動"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "羅網行動"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "大君主作戰"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "郵差\n行動"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "沸點行動"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "布魯克斯：「你沒事吧？醒了嗎？等等再去看醫官。現在每輛戰車都很重要。突擊已經展開。我們已經慢了，敵人的注意力全在另一個側翼。 這是我們的好機會。 我們迅速展開進攻。突圍進小鎮並從兩翼夾擊他們。\n跟著我們，避開龍牙樁。他們在那部署了好幾列的水泥樁。但沒關係。我們會穿過的。只要聽我指揮，快速並準確地執行我的命令。麥克洛伊德跟我會掩護你的。\n別理他的玩笑話。每個人都有面對壓力的方式… 前進！」"
+
+msgid "missionSelection/missionDescription/2"
+msgstr "麥克洛伊德：「啊，是虎式戰車，在戰場上最不想遇到的敵人。要是總部說有麻煩，大概就是指遇上虎式戰車。我們聯絡不上第一突擊小隊，第二小隊才剛出發，就剩我們，被派往跟隨他們。\n要是他們派我們上場，只有一個原因：虎式戰車。總部是這樣說的：『派那些虎式戰車專家上場！』用兩輛戰車毀掉對方九輛。就半年來看不算太差。你現在五比四領先。但我還有機會超越。然後拿下那面破勳章！\n快點，布魯克斯不喜歡等人。我們開始狩獵了。」"
+
+msgid "missionSelection/missionDescription/3"
+msgstr "麥克洛伊德：「全體注意，這次的夾擊行動，名稱簡單，任務卻不簡單。我們要進入城市掃除敵方勢力。別掉以輕心，我們將面對敵方的重裝甲部隊。但別擔心，我們既能智取，火力也毫不遜色，更有絕佳團隊默契，你說是吧，旺來？兄弟們，來個速戰速決。搞不好能趕在五點鐘以前來點下午茶，我們上！」"
+
+msgid "missionSelection/missionDescription/4"
+msgstr "麥克洛伊德：「旺來，別再問了。我跟你一樣一無所知。我不喜歡被蒙在鼓裡的感覺。直截了當乾脆點。一見到敵人，就開火攻擊。但這什麼情況？簡直一團糟。\n\n城市裡頭也會有我方戰車。布魯克斯要我們小心推進。天曉得這是要我們怎樣做？\n我們肩負特殊任務。要找出什麼『奇蹟武器』— 什麼巨大的履帶車輛。旺來，沒人能做，就只剩我們。\n\n準備好了嗎？行動！」"
+
+msgid "missionSelection/missionDescription/5"
+msgstr "John McCormick 上尉：「兄弟們，終於到了這天。是時候終結這場戰爭了，這是我們的任務。我們全體，無論美國人、英國人、法國人、加拿大人、澳洲人、比利時人、捷克斯洛伐克人、希臘人、荷蘭人、紐西蘭人、瑞典人、波蘭人。我們團結一心來一口氣終結邪惡。\n\n我們將突破大西洋防線並建立我方的據點。\n\n準備登陸！」"
+
+msgid "missionSelection/missionDescription/6"
+msgstr "Smith 上尉：「聽好了，德軍在數小時前投降了。戰爭將在明天結束。但我們山區的弟兄們收不到無線電通訊，他們完全不知道戰爭結束了。他們甚至計劃在清晨攻擊堡壘，堡壘內的德軍也不知道他們已經投降了。這場殺戮根本毫無必要。\n\n就只有我們能阻止了。我們的任務：潛入敵方陣線並傳達停火命令。這是場自殺任務，但只要能多救一條人命，一切都值得。\n\n我們擄獲了一名德軍通訊員，他對地形相當熟悉，且跟我們一樣想要終止這場可能的流血衝突。\n\n我們上！」"
+
+msgid "missionSelection/missionDescription/7"
+msgstr "Leni Scharf：「戰況危急。我們無法與挪威海的基地進行通訊。偵察飛機也從未返航，登陸的首批戰車更遭未知敵人殲滅。\n\n情報顯示，他們正準備發射彈道飛彈。我們仍不清楚鎖定的目標，但在當前國際情勢下，任一方恣意發射彈道飛彈，都可能引發全球性的衝突。\n\n感覺跟以前一樣，對吧？又一個身在敵方陣線後方的不可能任務。全面開火！」"
+
+msgid "missionSelection/missionName/1"
+msgstr "斬鋼行動"
+
+msgid "missionSelection/missionName/2"
+msgstr "誘捕行動"
+
+msgid "missionSelection/missionName/3"
+msgstr "夾擊行動"
+
+msgid "missionSelection/missionName/4"
+msgstr "羅網行動"
+
+msgid "missionSelection/missionName/5"
+msgstr "大君主作戰"
+
+msgid "missionSelection/missionName/6"
+msgstr "郵差行動"
+
+msgid "missionSelection/missionName/7"
+msgstr "沸點行動"
+
+msgid "missionSelection/specialVehicle"
+msgstr "特殊車輛"
+
+msgid "missionSelection/tab/event"
+msgstr "沸點行動"
+
+msgid "missionSelection/tab/newbies"
+msgstr "教學故事"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "朝城鎮發動攻擊並摧毀敵方車輛。"
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "朝城鎮發動攻擊並摧毀敵方車輛。"
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "朝城鎮發動攻擊並摧毀敵方車輛。"
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "在未遭任何敵方地雷傷害的情況下完成主要任務目標。"
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "在自身未損失車輛的情況下完成主要任務目標。"
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "朝城鎮發動攻擊並擄獲敵方的奇蹟武器。"
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "在 %(win_timer)s內完成主要任務目標。"
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "完成主要任務目標並在我方飛機協助下摧毀 %(kill_enemies)s。"
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "突破防線並摧毀岸防炮來守住灘頭。"
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "在 %(win_timer)s內完成主要任務目標。"
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "在自身未損失車輛的情況下完成主要任務目標。"
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "傳達停火命令給您的友軍。"
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "完成主要任務目標並摧毀少於 %(kill_enemies)s。"
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "在自身未損失車輛的情況下完成主要任務目標。"
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "到達指揮中心並阻止彈道飛彈發射。"
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "在 %(win_timer)s內完成主要任務目標。"
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "在自身未損失車輛的情況下完成主要任務目標。"
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "%(value)s 輛敵方車輛"
+msgstr[1] "%(value)s 輛敵方車輛"
+msgstr[2] "%(value)s 輛敵方車輛"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "任務未開放：%(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s 分鐘"
+msgstr[1] "%(value)s 分鐘"
+msgstr[2] "%(value)s 分鐘"
+
+msgid "missionSelection/taskRewards"
+msgstr "獎勵："
+
+msgid "missionSelection/tooltipDescription"
+msgstr "此車輛僅限在「故事」中使用。"
+
+msgid "missionSelection/unlockCondition"
+msgstr "於隨機戰鬥模式再進行 %(numBattles)s 場戰鬥\n來解鎖此行動。"
+
+msgid "mode/story_mode/callToAction"
+msgstr "初學者專屬情境"
+
+msgid "mode/story_mode/description"
+msgstr "完成對抗 AI 車輛的劇情行動"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "「沸點行動」已開放"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "當前選擇的遊戲模式會顯示於車庫主選單的頂部。點擊模式名稱即可查看其他可用模式。"
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "點擊&zwnbsp;{whiteSpanish_Open}故事{whiteSpanish_Close}&zwnbsp;來選擇此遊戲模式。"
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "在「故事」模式中，您可探索帶有劇情的 PvE 情境，與 AI 操控的車輛對抗，身歷其境參與英勇戰鬥並從中獲取珍貴獎勵！"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "進入遊戲模式選擇畫面"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "選擇「故事」模式"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "享受刺激的 PvE 戰鬥"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "故事"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "體驗帶有劇情的戰鬥情境"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "重新開始"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "戰鬥已結束"
+
+msgid "onboardingQueue/skipButton"
+msgstr "跳過"
+
+msgid "onboardingQueue/skipText"
+msgstr "所有伺服器忙碌中。請稍候或跳過此故事。"
+
+msgid "onboardingQueue/spinnerText"
+msgstr "伺服器準備中。請稍候..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "裝甲阻擋傷害 {parSecondary_Start}（血量）{parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "阻擋的傷害"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "被 HE 與 HESH 命中不算。"
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "列入計算："
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "敵人射擊跳彈"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "未穿透命中"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "協助造成的傷害"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "在您協助下，隊友對敵方車輛造成的下列傷害都算："
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "在您偵察下造成的傷害"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "在您摧毀敵方車輛履帶並使其無法移動下的傷害"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "隊友造成的總傷害\n{parSecondary_Start}（血量）{parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "造成的傷害"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "列入計算："
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "射擊傷害"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "衝撞傷害"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "火災傷害"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "將敵方車輛推落障礙造成的傷害"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "總傷害 {parSecondary_Start}（血量）{parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "擊毀的敵人數"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "列入計算："
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "射擊摧毀"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "火災摧毀"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "衝撞摧毀"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "淹沒摧毀"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "將敵方車輛推落障礙摧毀"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "翻覆摧毀"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "完成的任務"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "已完成任務與當前可進行任務的數量。完成「困難」難度任務後，相應的「普通」難度任務也會自動完成。"
+
+msgid "tooltips/difficulty/available"
+msgstr "可進行"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "敵人的反應速度與準度均較佳，他們將更為主動地攻擊您。因此您完成任務後，獲得的獎勵將較為豐富。"
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "完成{whiteSpanish_Open}困難{whiteSpanish_Close}難度相應的任務後，您會自動完成{whiteSpanish_Open}普通{whiteSpanish_Close}難度的任務。您將同時獲取兩個難度等級的獎勵。"
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "額外條件"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "困難"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "要解鎖「困難」難度，完成此行動的「普通」難度以展現您在此遊戲模式的戰鬥技巧。"
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "已鎖定"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "對手較慢且準度較低，任務完成時，您會獲取一般獎勵。"
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "普通"
+
+msgid "tooltips/difficulty/selected"
+msgstr "已選擇"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "行動中「地雷區」階段更具挑戰性的版本，您敢闖入這致命的迷宮嗎？\n提供更豐富的戰鬥獎勵。"
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "困難：地雷區"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "識別未知威脅，阻止彈道飛彈發射，確保新科技不會落入壞人手中。"
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "沸點行動"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "模式"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "— 遊戲模式。點擊以探索"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "在主打「第三區」車長們的史詩般故事中，進行單人戰鬥並與 AI 操控的車輛對抗！"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "活動開放 {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "故事"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "模式"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "— 遊戲模式。點擊以探索"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "帶有特殊劇情的戰鬥情境。踏上征途並直闖裝甲車輛的世界，與 AI 操控的敵人對戰，證明自己的實力。"
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "故事"
+
+msgid "tooltips/task/active"
+msgstr "開放中"
+
+msgid "tooltips/task/completed"
+msgstr "已完成"
+
+msgid "tooltips/task/condition/locked"
+msgstr "條件未知"
+
+msgid "tooltips/task/locked"
+msgstr "已鎖定：%(timer)s"

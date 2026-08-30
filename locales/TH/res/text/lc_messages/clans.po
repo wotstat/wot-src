@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "การสนทนากองทัพ"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "คลิกเพื่อเขียนและส่งข้อความไปยังการสนทนากองทัพ"
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "การสนทนากองทัพ"
+
+msgid "clan/header/creationDate"
+msgstr "สร้างขึ้นเมื่อ %(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "ใบสมัครและคำเชิญ"
+
+msgid "clan/header/requestSent"
+msgstr "ส่งใบสมัครแล้ว"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "ส่งใบสมัคร"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "คลิกเพื่อส่งใบสมัครของคุณไปยังกองทัพนี้"
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "ส่งใบสมัคร"
+
+msgid "clan/post/combatOfficer"
+msgstr "นายทหารยุทธการ"
+
+msgid "clan/post/commander"
+msgstr "ผู้บังคับการ"
+
+msgid "clan/post/executiveOfficer"
+msgstr "รองผู้บังคับการ"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "นายทหารการข่าว"
+
+msgid "clan/post/juniorOfficer"
+msgstr "นายทหารชั้นผู้น้อย"
+
+msgid "clan/post/personnelOfficer"
+msgstr "นายทหารกำลังพล"
+
+msgid "clan/post/private"
+msgstr "พลทหาร"
+
+msgid "clan/post/quartermaster"
+msgstr "นายทหารส่งกำลัง"
+
+msgid "clan/post/recruit"
+msgstr "ทหารเกณฑ์"
+
+msgid "clan/post/recruiter"
+msgstr "นายทหารสัสดี"
+
+msgid "clan/post/reservist"
+msgstr "กำลังสำรอง"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "เกิดข้อผิดพลาดในการแสดงชื่อ"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "ข้อมูลในตารางได้รับการอัพเดตแล้ว"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "ข้อกำหนดการเกณฑ์"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "สามารถถูกแก้ไขได้"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "กองทัพไม่มีใบสมัครรอการพิจารณา"
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "กองทัพไม่มีใบสมัครหมดอายุ"
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "คำเชิญเข้ากองทัพ"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "คลิก %(invite)s เพื่อส่งคำเชิญ\nไปยังผู้เล่นใหม่"
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "กองทัพไม่ได้ส่งคำเชิญใดๆในช่วง 28 วันที่ผ่านมา"
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "กองทัพไม่มีคำเชิญที่กำลังรอจากช่วง 28 วันที่ผ่านมา"
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "กองทัพไม่ได้มีคำเชิญหมดอายุจากช่วง 28 วันที่ผ่านมา"
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "กองทัพไม่มีคำเชิญที่ประมวลแล้วในช่วง 28 วันที่ผ่านมา"
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "กองทัพไม่มีใบสมัครที่ประมวลแล้ว"
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "ไม่ได้รับข้อมูลจากเซิร์ฟเวอร์\nโปรดลองใหม่ภายหลัง"
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "เกิดข้อผิดพลาดเซิร์ฟเวอร์"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "กำลังรอ (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "ทั้งหมด (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "หมดอายุ (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "รับการตัดสินใจ (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "ประมวลแล้ว (%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "ตำแหน่งว่างในกองทัพ: %(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "เชิญเข้ากองทัพ"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "คุณมีเวลาสามวันเพื่อทำการประมวลใบสมัครเข้าร่วมกองทัพ ใบสมัครและคำเชิญจะถูกเก็บไว้เป็นเวลา 28 วัน หลังจากนั้นจะถูกลบโดยอัตโนมัติ"
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "ไม่สามารถเชิญผู้เล่นได้: กองทัพเต็มแล้ว"
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "ไม่สามารถเชิญผู้เล่นได้: การเกณฑ์ของกองทัพถูกปิดในขณะนี้"
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "ตอบรับแล้ว"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d วันในการประมวล"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "ปฏิเสธ"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "ข้อผิดพลาด"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "หมดอายุแล้ว"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d ชม.ในการประมวล"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d นาทีในการประมวล"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "ส่งแล้ว"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "คำเชิญ (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "ใบสมัคร %(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "การดำเนินการ"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "เชิญ"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "ส่งแล้ว"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "แสดงเพิ่ม"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "สถานะ"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "ผู้เล่น"
+
+msgid "clanInvitesWindow/title"
+msgstr "ใบสมัครและคำเชิญ"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "คลิกเพื่อเชิญผู้เล่นเข้ากองทัพ"
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "โดยคำเชิญจาก:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "คำเชิญถูกตอบรับแล้ว"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "คำเชิญถูกปฏิเสธ"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "ส่งคำเชิญแล้ว"
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "ผู้ส่ง:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "ปุ่มนี้จะถูกเปิดใช้เมื่อได้รับข้อมูลใหม่จากเซิร์ฟเวอร์"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "คลิกเพื่อแสดงใบสมัครและคำเชิญใหม่"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "ปรับรายชื่อใหม่"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "ผู้ตัดสินใจ:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "ใบสมัครถูกตอบรับแล้ว"
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "ใบสมัครถูกปฏิเสธ"
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "ใบสมัครหมดอายุ"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "ส่งใบสมัครแล้ว"
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "ไม่สามารถเชิญผู้เล่นได้: กองทัพเต็มแล้ว"
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "ผู้เล่นเพิ่งจะออกจากกองทัพมาคุณสามารถรับพวกเขาเข้ากองทัพได้ภายหลัง:"
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "ไม่สามารถเชิญผู้เล่นใหม่ได้: กองทัพเต็มแล้ว"
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "ค่าประสบการณ์เฉลี่ยต่อการรบของผู้เล่นที่ได้รับคำเชิญ (รวมที่เพิ่มด้วยบัญชีพิเศษ)"
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "ค่าประสบการณ์เฉลี่ยต่อการรบ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "การรบของผู้เล่นดังกล่าวที่ได้รับคำเชิญ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "การรบ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "คลิกเพื่อเชิญผู้เล่นคนนี้เข้าร่วมกองทัพ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "ข้อความจะรวมอยู่ในคำเชิญจากกองทัพ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "ข้อความ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "ลำดับส่วนตัวของผู้เล่นที่ได้รับคำเชิญ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "ลำดับส่วนตัว"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "วันและเวลาที่ทำการส่งคำเชิญกองทัพ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "ส่งแล้ว"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "สถานะคำเชิญกองทัพ\nคำเชิญสามารถอยู่ในสถานะ รอการพิจารณา หมดอายุ หรือประมวลแล้ว"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "สถานะ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "ชื่อผู้เล่นที่ได้รับคำเชิญ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "ผู้เล่น"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "อัตราชัยชนะของผู้เล่นที่ได้รับคำเชิญ"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "ชัยชนะ"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "ใบสมัครสามารถถูกตอบรับหรือถูกปฏิเสธก็ได้"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "การดำเนินการ"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "ค่าประสบการณ์โดยเฉลี่ยต่อการรบของผู้เล่นที่ส่งใบสมัคร (รวมบัญชีพิเศษ)"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "ค่าประสบการณ์เฉลี่ยต่อการรบ"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "การรบทั้งหมดที่ผู้เล่นที่ส่งใบสมัครได้เข้าร่วม"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "การรบ"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "ข้อความของผู้เล่นรวมมากับใบสมัคร"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "ข้อความ"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "ลำดับส่วนตัวของผู้เล่นที่ส่งใบสมัคร"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "ลำดับส่วนตัว"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "สถานะใบสมัครกองทัพ\nใบสมัครสามารถอยู่ในสถานะกำลังรอพิจารณา หมดอายุ หรือประมวลเรียบร้อยแล้วก็ได้"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "สถานะ"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "ชื่อผู้เล่นที่ส่งใบสมัคร"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "ผู้เล่น"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "อัตราชัยชนะของผู้เล่นที่ส่งใบสมัคร"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "ชัยชนะ"
+
+msgid "clanLanding/notification/archived"
+msgstr "ข้อความดังกล่าวถูกส่งไปยังคลังจดหมายเหตุแล้ว"
+
+msgid "clanLanding/notification/commonError"
+msgstr "ข้อผิดพลาดทางเทคนิค: ไม่สามารถดำเนินการให้สำเร็จกับข้อความดังกล่าวได้"
+
+msgid "clanLanding/notification/deleted"
+msgstr "ลบข้อความไปแล้ว"
+
+msgid "clanLanding/notification/edited"
+msgstr "เขียนข้อความไว้แล้ว"
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "อักษรเกินจำนวนสูงสุดที่มีได้"
+
+msgid "clanLanding/notification/limitReached"
+msgstr "ในกองทัพมีการเขียนข้อความถึงจำนวนสูงสุดแล้ว"
+
+msgid "clanLanding/notification/noPermission"
+msgstr "อำนาจไม่พอในการจัดการข้อความกองทัพ: ตำแหน่งของคุณถูกเปลี่ยน"
+
+msgid "clanLanding/notification/notExist"
+msgstr "ข้อความดังกล่าวถูกลบหรือส่งไปยังคลังจดหมายเหตุแล้ว"
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "ข้อความดังกล่าวมีคำที่ละเมิด<a href=\"event:clanRulesLink\">กฎของกองทัพ</a>"
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "คำเชิญที่รอการพิจารณา: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "ปฏิเสธที่เลือกไว้ (%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "คำเชิญกองทัพของฉัน"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "กำลังรับข้อมูล..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "คุณยังไม่ได้มีคำเชิญเข้ากองทัพ"
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "เลือกใบสมัครทั้งหมด"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "การดำเนินการ"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "ชื่อกองทัพ"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "สถานะ"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "คำเชิญกองทัพ"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "คุณจะสามารถทำการอัพเดตรายชื่อเมื่อได้รับข้อมูลใหม่"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "คลิกเพื่ออัพเดตตาราง"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "คุณเพิ่งจะออกจากกองทัพ คุณจะสามารถตอบรับคำเชิญกองทัพได้ภายหลัง:"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "ค่าประสบการณ์เฉลี่ยที่ได้ต่อการรบโดยสมาชิกกองทัพที่ส่งคำเชิญ (คิดเฉลี่ยจากการรบแบบสุ่ม)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "ค่าประสบการณ์เฉลี่ยต่อการรบ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "จำนวนการรบเฉลี่ยที่สมาชิกกองทัพที่ส่งคำเชิญได้เข้าร่วม (เฉพาะการรบแบบสุ่ม)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "การรบของกองทัพ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "ชื่อของกองทัพที่ส่งคำเชิญมาให้คุณ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "ชื่อกองทัพ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "ข้อความจากกองทัพที่ส่งคำเชิญมาให้คุณ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "ข้อความ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "ลำดับรวมของกองทัพที่ส่งคำเชิญมาให้คุณ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "อันดับกองทัพ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "แสดงสถานะคำเชิญกองทัพและเวลาที่เหลือในการประมวลคำเชิญดังกล่าว"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "สถานะ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "อัตราชัยชนะของสมาชิกกองทัพที่ส่งคำเชิญ (คิดโดยใช้ค่าถ่วงเฉลี่ยจากการรบแบบสุ่ม)"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "ชัยชนะกองทัพ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "คุณสามารถยอมรับหรือปฏิเสธคำเชิญก็ได้ ในการยอมรับคำเชิญนั้น คุณจะปฏิเสธคำเชิญจากกองทัพอื่นโดยอัตโนมัติ"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "การดำเนินการ"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "ประวัติย่อกองทัพ"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "ปิด"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "ยินดีต้อนรับเข้าสู่กองทัพ!"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "ตอนนี้คุณสามารถเข้ารบในการรบบนแผนที่โลกแล้ว สร้างและป้องกันฐานที่มั่นของคุณและปฏิบัติภารกิจพิเศษให้สำเร็จ"
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "จดหมายข่าว"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "กองทัพของคุณ: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "เราต้องขออภัยในความไม่สะดวก โปรดลองใหม่ภายหลัง"
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "ฐานที่มั่นไม่มีให้ชั่วคราว"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "ทางเราขออภัยในความไม่สะดวก\nโปรดลองใหม่ภายหลัง"
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "เกิดข้อผิดพลาดในการโหลดข้อมูล"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "ประวัติย่อกองทัพ"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "ฐานที่มั่น"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "แผนที่โลก"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "สมาชิกกองทัพ"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "ฐานที่มั่น"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "สรุป"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "เชิญผู้เล่นเข้ากองทัพ"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "ไม่สามารถดำเนินการได้ คุณสามารถเชิญผู้เล่นเข้ากองทัพได้ทีละคนเท่านั้น"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "เพิ่มรายชื่อติดต่อทั้งหมดเข้ารายชื่อผู้รับ"
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "การรบในช่วง 28 ซันที่ผ่านมา"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "การรบรุกคืบในช่วง 28 วันที่ผ่านมา"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "ผู้บังคับการกองทัพ"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "ยังไม่ได้สร้าง"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "ไม่ได้เข้าร่วมการรบ\nไม่ได้ครอบครองจังหวัด"
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "ระดับฐานที่มั่น"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "คลัง"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "ไม่มีการรบที่เข้าร่วม"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "จังหวัด"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "ลำดับ Elo X"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "ลำดับ Elo ระดับ VI"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "ลำดับ Elo VIII"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "การปะทะในช่วง 28 วันที่ผ่านมา"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "สมาชิกทั้งหมด"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "รายละเอียด"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "ดำเนินการ"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "ส่งใบสมัคร"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "กองทัพไม่มีคำขวัญ"
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "รายละเอียดแผนที่โลก"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "ไปยังแผนที่"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "รายละเอียดไม่มีให้ชั่วคราว"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "ไม่สามารถเข้าร่วมกองทัพได้"
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "ดูข้อกำหนดการเกณฑ์ %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "คุณเป็นสมาชิกกองทัพอื่นอยู่แล้ว"
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "คุณได้รับคำเชิญเข้าร่วมกองทัพนี้แล้ว"
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s ถูกจำกัดไว้ชั่วคราว"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s ถูกจำกัดไว้ชั่วคราว"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "กองทัพนี้ไม่รับใบสมัคร %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "ส่งใบสมัครแล้ว"
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "กำลังประสานข้อมูล..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "ลำดับ Elo กองทัพในการรบรุกคืบดิวิชัน X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "ลำดับ Elo X"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "ลำดับ Elo กองทัพในดิวิชัน VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "ลำดับ Elo ระดับ VI"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "ลำดับ Elo กองทัพในการรบรุกคืบดิวิชัน VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "ลำดับ Elo VIII"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "การรบรุกคืบของกองทัพในช่วง 28 วันที่ผ่านมา"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "การรบรุกคืบในช่วง 28 วันที่ผ่านมา"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "ระดับฐานที่มั่นจะเท่ากับระดับของศูนย์บัญชาการ"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "ระดับฐานที่มั่น"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "การปะทะของกองทัพในช่วง 28 วันที่ผ่านมา"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "การปะทะในช่วง 28 วันที่ผ่านมา"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "ลำดับ Elo กองทัพในการรบดิวิชัน X บนแผนที่โลก"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "ลำดับ Elo X"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "ลำดับ Elo กองทัพในการรบดิวิชัน VI บนแผนที่โลก"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "ลำดับ Elo ระดับ VI"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "ลำดับ Elo กองทัพในการรบดิวิชัน VIII บนแผนที่โลก"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "ลำดับ Elo VIII"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "การรบของกองทัพบนแผนที่โลกในช่วง 28 วันที่ผ่านมา"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "การรบในช่วง 28 ซันที่ผ่านมา"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "จังหวัดบนแผนที่โลกที่กองทัพครอบครองอยู่"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "จังหวัด"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "จำนวนใบสมัครที่ส่งเป็นจำนวนสูงสุด"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "ไม่สามารถส่งใบสมัครได้"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "จำนวนใบสมัครที่ส่งเป็นจำนวนสูงสุด"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "ไม่สามารถส่งใบสมัครได้"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "กองทัพไม่รับใบสมัคร"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "ไม่สามารถส่งใบสมัครได้"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "ลำดับกองทัพไม่ได้ถูกปรับในช่วง 28 วันที่ผ่านมา"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "ข้อมูลล้าสมัย"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "ประสิทธิภาพของกองทัพในรูปแบบฐานที่มั่นและการรบบนแผนที่จะมีผลต่อการเพิ่มของลำดับกองทัพ"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "ลำดับรวม"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "ลำดับรวม"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "ประวัติย่อกองทัพ"
+
+msgid "globalMap/disabled"
+msgstr "การรบบนแผนที่โลกในภูมิภาค\nของคุุณยังไม่มีให้ในตอนนี้"
+
+msgid "globalMapView/level10"
+msgstr "ระดับ X"
+
+msgid "globalMapView/level6"
+msgstr "ระดับ VI"
+
+msgid "globalMapView/level8"
+msgstr "ระดับ VIII"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "จังหวัดนี้ไม่ได้กำเนิดรายได้ให้คุณเนื่องจากเสียการเชื่อมต่อกับศูนย์บัญชาการ หรือจังหวัดถูกปล้นสะดมไป"
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "ไม่มีรายได้"
+
+msgid "globalMapView/noProvince"
+msgstr "กองทัพไม่ได้ครอบครองจังหวัดใดๆ"
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "เวลารบหลักที่ชื่นชอบ: %(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "แผนที่โลกเป็นสนามรบที่กองทัพจะทำการแข่งขันชิงความเหนือกว่ากองทัพอื่น เจ้าหน้าที่กองทัพจะใช้เวลาส่วนใหญ่ที่นี่ในการวางแผนยุทธวิธีและวางกำลังเพื่อทำการเคลื่อนที่ทางยุทธศาสตร์"
+
+msgid "globalMapView/promo/header"
+msgstr "แผนที่โลก"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "รายละเอียดแผนที่โลก"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "ไปยังแผนที่"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "การรบ"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "การรบทั้งหมดในดิวิชัน X บนแผนที่โลก"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "การรบ"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "ลำดับ Elo"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "ลำดับกองทัพในการรบดิวิชัน X บนแผนที่โลก"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "ลำดับ Elo"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "แผนที่โปรด"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "แผนที่ที่กองทัพเข้าทำการรบดิวิชัน X มากที่สุดในช่วง 28 วันที่ผ่านมา"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "แผนที่ที่ชื่นชอบ: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "ตำแหน่งในกระดานผู้นำ"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "ตำแหน่งกองทัพในการจัดลำดับการรบดิวิชัน X บนแผนที่โลก"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "ตำแหน่งในกระดานผู้นำ"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "ชัยชนะ"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "อัตราชัยชนะทั้งหมดในการรบดิวิชัน X บนแผนที่โลก"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "ชัยชนะ"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "การรบ"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "จำนวนการรบทั้งหมดในดิวิชัน VI บนแผนที่โลก"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "การรบ"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "ลำดับ Elo"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "ลำดับกองทัพในการรบดิวิชัน VI บนแผนที่โลก"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "ลำดับ Elo"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "แผนที่โปรด"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "แผนที่ที่กองทัพเข้าร่วมการรบดิวิชัน VI มากที่สุดในช่วง 28 วันที่ผ่านมา"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "แผนที่ที่ชื่นชอบ: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "ตำแหน่งในกระดานผู้นำ"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "ตำแหน่งกองทัพในการจัดลำดับการรบดิวิชัน VI บนแผนที่โลก"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "ตำแหน่งในกระดานผู้นำ"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "ชัยชนะ"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "อัตราชัยชนะทั้งหมดในการรบดิวิชัน VI บนแผนที่โลก"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "ชัยชนะ"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "การรบ"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "การรบทั้งหมดในดิวิชัน VIII บนแผนที่โลก"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "การรบ"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "ลำดับ Elo"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "ลำดับกองทัพในการรบดิวิชัน VIII บนแผนที่โลก"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "ลำดับ Elo"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "แผนที่โปรด"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "แผนที่ที่กองทัพทำการรบดิวิชัน VIII มากที่สุดในช่วง 28 วันที่ผ่านมา"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "แผนที่ที่ชื่นชอบ: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "ตำแหน่งในกระดานผู้นำ"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "ตำแหน่งกองทัพในลำดับการรบดิวิชัน VIII บนแผนที่โลก"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "ตำแหน่งในกระดานผู้นำ"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "ชัยชนะ"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "อัตราชัยชนะทั้งหมดในการรบดิวิชัน VIII บนแผนที่โลก"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "ชัยชนะ"
+
+msgid "globalMapView/stats/battles"
+msgstr "การรบบนแผนที่โลก"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "การรบทั้งหมดที่กองทัพเข้าร่วมบนแผนที่โลก"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "การรบบนแผนที่โลก"
+
+msgid "globalMapView/stats/seized"
+msgstr "จังหวัดที่ครอบครอง"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "จังหวัดทั้งหมดที่กองทัพครอบครอง จังหวัดที่เคยครอบครองแต่เสียไปก็จะนับรวมด้วย"
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "จังหวัดที่ครอบครอง"
+
+msgid "globalMapView/stats/wins"
+msgstr "ชัยชนะในหมู่สมาชิกกองทัพ"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "อัตราชัยชนะรวมของสมาชิกกองทัพในการรบบนแผนที่โลก"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "ชัยชนะในหมู่สมาชิกกองทัพ"
+
+msgid "globalMapView/table/days"
+msgstr "วัน"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "ช่วงเวลาในจำนวนวันที่กองทัพครอบครองจังหวัดดังกล่าวบนแผนที่โลก"
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "วัน"
+
+msgid "globalMapView/table/front"
+msgstr "แนวรบ"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "ชื่อของแนวรบที่เลือกไว้"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "แนวรบ"
+
+msgid "globalMapView/table/income"
+msgstr "รายได้"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "ทองที่ได้จากจังหวัดต่อวัน"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "รายได้"
+
+msgid "globalMapView/table/map"
+msgstr "แผนที่"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "ชื่อแผนที่ที่ทำการรบชิงจังหวัด"
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "แผนที่"
+
+msgid "globalMapView/table/primeTime"
+msgstr "เวลารบหลัก"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "เวลากำหนดไว้เมื่อเริ่มทำการรบชิงจังหวัด"
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "เวลารบหลัก"
+
+msgid "globalMapView/table/province"
+msgstr "จังหวัด"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "ชื่อจังหวัดที่เลือกไว้"
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "จังหวัด"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "จังหวัดถูกปล้นสะดมและจะไม่มอบรายได้ให้คุณชั่วคราว"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "เวลาก่อนคุณเริ่มได้รับรายได้อีกครั้ง:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "จังหวัด"
+
+msgid "globalMapView/tabs/stats"
+msgstr "สถิติ"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "ลำดับกองทัพไม่ได้ถูกปรับในช่วง 28 วันที่ผ่านมา"
+
+msgid "globalMapView/totalIncome"
+msgstr "รายได้ต่อวันทั้งหมด: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "จำนวน\nการรบเฉลี่ย"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "จำนวนการรบเฉลี่ยที่สมาชิกกองทัพเข้าร่วมในการรบแบบสุ่มและการรบกองร้อยรถถัง จะนับจากผู้เล่นที่เป็นสมาชิกปัจจุบันของกองทัพเท่านั้น"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "การรบเฉลี่ยในหมู่สมาชิกกองทัพ"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "ค่าประสบการณ์เฉลี่ย"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "ค่าเฉลี่ยตัวถ่วงของค่าประสบการณ์ที่สมาชิกกองทัพได้จากการรบแบบสุ่มและการรบกองร้อยรถถัง จำนวนการรบทั้งหมดที่ผู้เล่นแต่ละคนเข้าร่วมจะมีผลต่อตัวประกอบถ่วง จะนับเฉพาะผู้เล่นที่เป็นสมาชิกปัจจุบันของกองทัพเท่านั้น"
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "ค่าประสบการณ์เฉลี่ยในหมู่สมาชิกกองทัพ"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "ลำดับส่วนตัวเฉลี่ย"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "ลำดับส่วนตัวเฉลี่ยในหมู่สมาชิกกองทัพทั้งหมด จะนับเพียงผู้เล่นที่เป็นสมาชิกปัจจุบันเท่านั้น"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "ลำดับส่วนตัวเฉลี่ยในหมู่สมาชิกกองทัพ"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "อัตราชัยชนะโดยเฉลี่ย"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "ค่าเฉลี่ยตัวถ่วงของอัตราชัยชนะสมาชิกกองทัพได้จากการรบแบบสุ่มและการรบกองร้อยรถถัง จำนวนการรบทั้งหมดที่ผู้เล่นแต่ละคนเข้าร่วมจะมีผลต่อตัวประกอบถ่วง จะนับเฉพาะผู้เล่นที่เป็นสมาชิกปัจจุบันของกองทัพเท่านั้น"
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "อัตราชัยชนะเฉลี่ยของสมาชิกกองทัพ"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "อัตราของค่าประสบการณ์ทั้งหมดที่ได้ต่อจำนวนการรบที่เข้าร่วมของผู้เล่นดังกล่าวจากการรบแบบสุ่มและการรบกองร้อยรถถัง"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "ค่าประสบการณ์เฉลี่ย"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "จำนวนการรบแบบสุ่มและการรบกองร้อยรถถังทั้งหมดที่ผู้เล่นได้เข้าร่วม"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "จำนวนการรบทั้งหมด"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "จำนวนวันที่ผู้เล่นอยู่กับกองทัพ"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "วันในกองทัพ"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "ลำดับส่วนตัวผู้เล่น"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "ลำดับส่วนตัว"
+
+msgid "personnelView/table/player"
+msgstr "ผู้เล่น (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "ชื่อสมาชิกกองทัพ"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "ผู้เล่น"
+
+msgid "personnelView/table/post"
+msgstr "ตำแหน่ง"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "ตำแหน่งสมาชิกในกองทัพ"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "ตำแหน่ง"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "อัตราชัยชนะผู้เล่นในการรบแบบสุ่มและการรบกองร้อยรถถัง"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "ชัยชนะ"
+
+msgid "personnelView/title"
+msgstr "สถิติสมาชิกกองทัพในการรบแบบสุ่มและการรบกองร้อยรถถัง:"
+
+msgid "search/clansList"
+msgstr "กองทัพที่แสดงรายชื่อ: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "ไม่พบส่วนที่ตรงกับคำขอของคุณ ลองค้นหาด้วยคำหลักที่ต่างออกไป"
+
+msgid "search/emptyResult/button"
+msgstr "กลับไปยังรายชื่อ"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "คลิกเพื่อกลับสู่รายชื่อกองทัพที่พบ"
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "กลับไปยังรายชื่อ"
+
+msgid "search/emptyResult/header"
+msgstr "ไม่มีผลการค้นหา"
+
+msgid "search/foundClans"
+msgstr "พบกองทัพ: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "ไม่สามารถเข้าร่วมกองทัพได้"
+
+msgid "search/info/banned/tooltip/header"
+msgstr "ไม่สามารถส่งใบสมัครได้"
+
+msgid "search/info/clanProfileBtn"
+msgstr "ประวัติย่อกองทัพ"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "ไม่สามารถส่งใบสมัครเข้าร่วมกองทัพได้"
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "การดำเนินการไม่มีให้"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "คุณได้รับคำเชิญเพื่อเข้าร่วมกองทัพนี้อยู่แล้ว"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "ไม่สามารถส่งใบสมัครได้"
+
+msgid "search/info/ratingDescription"
+msgstr "ลำดับรวม"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "ประสิทธิภาพของกองทัพในรูปแบบฐานที่มั่นและการรบบนแผนที่จะมีผลต่อการเพิ่มของลำดับกองทัพ"
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "ลำดับรวม"
+
+msgid "search/info/ratingTitle"
+msgstr "สถิติจากชนิดการรบทั้งหมด:"
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "คุณได้ส่งใบสมัครของคุณไปยังกองทัพนี้แล้ว"
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "ไม่สามารถส่งใบสมัครได้"
+
+msgid "search/info/requestSent"
+msgstr "ส่งใบสมัครแล้ว"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "กองทัพไม่รับใบสมัคร"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "ไม่สามารถส่งใบสมัครได้"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "จำนวนใบสมัครที่ส่งเป็นจำนวนสูงสุด"
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "ไม่สามารถส่งใบสมัครได้"
+
+msgid "search/info/sendRequestBtn"
+msgstr "ส่งใบสมัคร"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "ไม่ได้รับข้อมูลเซิร์ฟเวอร์ โปรดลองใหม่ภายหลัง"
+
+msgid "search/info/serverUnavailable/header"
+msgstr "เกิดข้อผิดพลาดเซิร์ฟเวอร์"
+
+msgid "search/info/stats/avgExp"
+msgstr "ค่าประสบการณ์เฉลี่ย"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "ค่าเฉลี่ยตัวถ่วงของค่าประสบการณ์ที่สมาชิกกองทัพได้จากการรบทุกแบบ จำนวนการรบทั้งหมดที่ผู้เล่นแต่ละคนเข้าร่วมจะมีผลต่อตัวประกอบถ่วง จะนับเฉพาะผู้เล่นที่เป็นสมาชิกปัจจุบันของกองทัพเท่านั้น"
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "ค่าประสบการณ์เฉลี่ยในหมู่สมาชิกกองทัพ"
+
+msgid "search/info/stats/battles"
+msgstr "จำนวน\nการรบเฉลี่ย"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "จำนวนการรบเฉลี่ยที่สมาชิกกองทัพเข้าร่วมในการรบทุกรูปแบบ จะนับเฉพาะสมาชิกปัจจุบันของกองทัพเท่านั้น"
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "การรบเฉลี่ยในหมู่สมาชิกกองทัพ"
+
+msgid "search/info/stats/wins"
+msgstr "อัตราชัยชนะโดยเฉลี่ย"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "ค่าเฉลี่ยถ่วงของอัตราชัยชนะสมาชิกกองทัพในรูปแบบการรบทั้งหมด จำนวนทั้งหมดของการรบที่ผู้เล่นแต่ละคนเข้าร่วมจะมีผลต่อปัจจัยถ่วง จะนับเฉพาะผู้เล่นที่เป็นสมาชิกปัจจุบันเท่านั้น"
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "อัตราชัยชนะเฉลี่ยของสมาชิกกองทัพ"
+
+msgid "search/nextBtn"
+msgstr "ถัดไป"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "คลิกเพื่อแสดงส่วนถัดไปของรายชื่อกองทัพ"
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "ถัดไป"
+
+msgid "search/previousBtn"
+msgstr "ก่อนหน้า"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "คลิกเพื่อแสดงส่วนก่อนหน้าของรายชื่อกองทัพ"
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "ก่อนหน้า"
+
+msgid "search/promoText/body"
+msgstr "ในการค้นหากองทัพ ใส่ชื่อหรือป้ายชื่อกองทัพดังกล่าวลงในช่องและคลิกค้นหา"
+
+msgid "search/promoText/header"
+msgstr "การค้นหากองทัพ"
+
+msgid "search/requestTooShort/body"
+msgstr "ในการค้นหากองทัพใส่อักษรอย่างน้อย 2 ตัวในช่องแล้วลองใหม่อีกครั้ง"
+
+msgid "search/requestTooShort/button"
+msgstr "กลับไปยังรายชื่อ"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "กลับไปยังรายชื่อ"
+
+msgid "search/requestTooShort/header"
+msgstr "ข้อมูลไม่เพียงพอ"
+
+msgid "search/searchBtn"
+msgstr "ค้นหา"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "ใส่ชื่อหรือป้ายชื่อกองทัพในช่องทางด้านซ้าย (อย่างน้อย 2 ตัวอักษร)"
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "การค้นหากองทัพ"
+
+msgid "search/searchInputPrompt"
+msgstr "ใส่ชื่อหรือป้ายชื่อกองทัพ"
+
+msgid "search/serverUnavailable/body"
+msgstr "ไม่ได้รับข้อมูลเซิร์ฟเวอร์ โปรดลองใหม่ภายหลัง"
+
+msgid "search/serverUnavailable/header"
+msgstr "เกิดข้อผิดพลาดเซิร์ฟเวอร์"
+
+msgid "search/table/clan"
+msgstr "กองทัพ"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "คุณสมบัติกองทัพ: ชื่อและป้ายชื่อ"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "กองทัพ"
+
+msgid "search/table/creationDate"
+msgstr "สร้างขึ้น"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "วันสร้างกองทัพ"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "สร้างขึ้น"
+
+msgid "search/table/players"
+msgstr "ผู้เล่น"
+
+msgid "search/table/players/tooltip/body"
+msgstr "จำนวนสมาชิกกองทัพทั้งหมด"
+
+msgid "search/table/players/tooltip/header"
+msgstr "ผู้เล่น"
+
+msgid "search/table/rating"
+msgstr "อันดับ"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "ลำดับรวมกองทัพ"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "อันดับ"
+
+msgid "search/title"
+msgstr "การค้นหากองทัพ"
+
+msgid "search/titleDescription"
+msgstr "ที่นี่คุณสามารถค้นหากองทัพ ดูรายละเอียด\nและส่งใบสมัครของคุณเพื่อเข้าร่วม คุณสามารถค้นหากองทัพได้ด้วยชื่อหรือป้ายชื่อของกองทัพนั้นๆ"
+
+msgid "search/windowTitle"
+msgstr "การค้นหากองทัพ"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "แผน"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "สถิติ"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "ระดับ %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "ไม่ได้ตั้งไว้"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "ช่วงหยุดยิง:"
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "ช่วงการป้องกัน:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "เซิร์ฟเวอร์เหย้า:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "อาคารที่สร้าง:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "ช่วงเป็นกลาง:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "ได้รับทรัพยากรอุตสาหกรรมมากที่สุด"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "ชัยชนะต่อเนื่องมากที่สุด"

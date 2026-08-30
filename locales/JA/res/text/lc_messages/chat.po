@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT 翻訳者 <noreply@wargaming.net>\nLanguage-Team: WoT チーム <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "一般"
+
+msgid "channels/battle/team"
+msgstr "チーム"
+
+msgid "channels/clan"
+msgstr "クラン"
+
+msgid "channels/common"
+msgstr "一般"
+
+msgid "channels/epic_training"
+msgstr "トレーニング — フロントライン"
+
+msgid "channels/nubs"
+msgstr "新兵"
+
+msgid "channels/prebattle"
+msgstr "戦闘前"
+
+msgid "channels/special_battles"
+msgstr "特別戦"
+
+msgid "channels/squad"
+msgstr "小隊"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "小隊作成完了。各プレイヤーの準備が整うまでお待ちください。"
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "小隊"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "小隊作成完了。全プレイヤーが準備を完了しています。"
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "小隊"
+
+msgid "channels/system"
+msgstr "システム"
+
+msgid "channels/tournament"
+msgstr "トーナメント"
+
+msgid "channels/trading"
+msgstr "トレード"
+
+msgid "channels/training"
+msgstr "トレーニング"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "チャット管理者は、チャンネルのモデレータでもあります。"
+
+msgid "errors/addmoderatorowner"
+msgstr "チャンネル所有者は、チャンネルのモデレータでもあります。"
+
+msgid "errors/banchannelowner"
+msgstr "チャンネル所有者によるアクセスは禁止できません。"
+
+msgid "errors/banchatadmin"
+msgstr "チャット管理者によるアクセスは禁止できません。"
+
+msgid "errors/banned"
+msgstr "ユーザー %(banOwnerNick)s によって %(banEndTime)s までアクセスを禁止されました。理由: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "ユーザー %(banOwnerNick)s によってアクセスが禁止されました。理由: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "%(banEndTime)s までアクセスが禁止されました。理由: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "アクセスが禁止されました。理由: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "コマンド %(command)s 禁止: %(cooldownPeriod)s 秒間"
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "チャット管理者のモデレータ権限を無効にすることはできません。"
+
+msgid "errors/delmoderatorowner"
+msgstr "チャンネル管理者のモデレータ権限を無効にすることはできません。"
+
+msgid "errors/timeincorrect"
+msgstr "「時間」パラメータは、分 [1 - 1440] の正の値または [無期限] にする必要があります。"
+
+msgid "errors/toomanyargs"
+msgstr "パラメータが多すぎます。"
+
+msgid "errors/toosmallargs"
+msgstr "パラメータの数が不足しています。"
+
+msgid "errors/userbanhimself"
+msgstr "自分自身をアクセス禁止することはできません。"
+
+msgid "messages/userbanned"
+msgstr "ユーザー %(banedUser)s は、ユーザー %(banOwnerNick)s によって %(banEndTime)s までアクセスを禁止されました。理由: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "ユーザー %(banedUser)s は、ユーザー %(banOwnerNick)s によってアクセスを禁止されました。理由: %(banReason)s"

@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "購入"
+
+msgid "buttons/cancel"
+msgstr "キャンセル"
+
+msgid "buttons/learn"
+msgstr "使用"
+
+msgid "buttons/postProgression/claim"
+msgstr "入手"
+
+msgid "buttons/postProgression/hint"
+msgstr "指導員課程へ"
+
+msgid "buttons/postProgression/howTo"
+msgstr "入手方法"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}変換レート:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "−%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "【対象】選択中の搭乗員のみ\nフリーEXPを使用して現在習得中のパークの訓練レベルを向上させます。"
+
+msgid "card/freeExp/title"
+msgstr "フリーEXP"
+
+msgid "card/nationBook/additionalText"
+msgstr "• パーク適性: 100%\n• 車輌適性: %(vehicleName)"
+
+msgid "card/nationBook/mainText"
+msgstr "【対象】本車輌の全搭乗員\n各搭乗員に%(xp)を付与します。"
+
+msgid "card/nationBook/title/brochure"
+msgstr "基礎教本 (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "中級教本 (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "初級教本 (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "制限なしに適用できます。"
+
+msgid "card/personalBook/mainText"
+msgstr "【対象】選択中の搭乗員のみ\n選択中の搭乗員に%(xp)を付与します。"
+
+msgid "card/personalBook/title"
+msgstr "上級教本"
+
+msgid "card/universalBook/additionalText"
+msgstr "• パーク適性: 100%\n• 車輌適性: %(vehicleName)"
+
+msgid "card/universalBook/mainText"
+msgstr "【対象】本車輌の全搭乗員\n各搭乗員に%(xp)を付与します。"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "汎用教本"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "汎用基礎教本"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "汎用初級教本"
+
+msgid "confirm/crewLabel"
+msgstr "各搭乗員が%(xpValue)を取得"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "各搭乗員が%(xpValue)を取得 ＆ "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName)が追加で%(xpValue)を取得"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName)が追加で%(xpValue)を取得"
+
+msgid "confirm/postProgressionLabel"
+msgstr "一部の搭乗員が%(xpValue)を取得"
+
+msgid "items/brochure/Name"
+msgstr "基礎教本 (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "基礎教本"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "基礎教本"
+
+msgid "items/crewBook/Descr"
+msgstr "選択した車輌の各搭乗員に{expTagOpen}+%(exp)s{expTagClose}EXPを付与します。"
+
+msgid "items/crewBook/Name"
+msgstr "中級教本 (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "中級教本"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "中級教本"
+
+msgid "items/guide/Name"
+msgstr "初級教本 (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "初級教本"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "初級教本"
+
+msgid "items/personalBook/Descr"
+msgstr "選択した搭乗員に{expTagOpen}+%(exp)s{expTagClose}EXPを付与します。"
+
+msgid "items/personalBook/Name"
+msgstr "上級教本"
+
+msgid "items/universalBook/Descr"
+msgstr "選択した車輌の各搭乗員に{expTagOpen}+%(exp)s{expTagClose}EXPを付与します。"
+
+msgid "items/universalBook/Name"
+msgstr "汎用教本"
+
+msgid "items/universalBrochure/Descr"
+msgstr "選択した車輌の各搭乗員に{expTagOpen}+%(exp)s{expTagClose}EXPを付与します。"
+
+msgid "items/universalBrochure/Name"
+msgstr "汎用基礎教本"
+
+msgid "items/universalGuide/Descr"
+msgstr "各搭乗員に対し {expTagOpen}+%(exp)s{expTagClose} EXP"
+
+msgid "items/universalGuide/Name"
+msgstr "汎用初級教本"
+
+msgid "page/mentoringLicense/hint"
+msgstr "「引き継ぎ指令書」画面へ"
+
+msgid "page/mentoringLicense/title"
+msgstr "引き継ぎ指令書"
+
+msgid "page/title"
+msgstr "急速訓練"
+
+msgid "tooltip/buyManual"
+msgstr "中級教本を新たに購入します。"
+
+msgid "tooltip/mouseWheel"
+msgstr "{mouseIcon}のスクロールで搭乗員教本の数を変更できます。"
+
+msgid "tooltip/outOfStock"
+msgstr "搭乗員教本がありません。"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "搭乗員教本がありません。ショップで購入する必要があります。"
+
+msgid "tooltip/personalBook/mainText"
+msgstr "【対象】選択中の搭乗員のみ。選択中の搭乗員に%(xp)sを付与します。"
+
+msgid "tooltip/postProgression"
+msgstr "指導員課程へ"
+
+msgid "tooltip/sale/header"
+msgstr "通常よりお得な変換レート"
+
+msgid "tooltip/sale/newRate"
+msgstr "現在の変換レート: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "通常の変換レート: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "アイコン %(controlsImg) の上部を1回クリックするとパークの訓練レベルを1%向上させるのに必要なフリーEXPが自動的に入力されます。"
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "「%(pgupImg)」キーを押すとパークの訓練レベルを&nbsp;100%に向上させるのに必要なフリーEXPが自動的に入力されます。「%(pgdownImg)」キーを押すとひとつ前の段階に戻ります。&nbsp;"
+
+msgid "tooltip/universalBook/mainText"
+msgstr "【対象】本車輌の全搭乗員。各搭乗員に%(xp)sを付与します。"
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "【対象】本車輌の全搭乗員。各搭乗員に%(xp)sを付与します。"

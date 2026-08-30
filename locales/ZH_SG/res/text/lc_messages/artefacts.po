@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "actionStub/name"
+msgstr "改装"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "立即恢复%(immediatelyRestore)s点战车血量。能力效果持续的%(duration)s秒期间，受到的所有炮弹伤害和战斗能力伤害都会累积并转化为血量，并在能力效果结束后，额外为战车恢复等同于所受总伤害%(restoringCoefficient)s的血量。\n\n*血量转化的恢复效果也会影响小范围内的队友战车。"
+
+msgid "adaptationHealthRestore/descr"
+msgstr "立即恢复%(immediatelyRestore)s点战车血量。能力效果持续的%(duration)s秒期间，受到的所有炮弹伤害和战斗能力伤害都会累积并转化为血量，并在能力效果结束后，额外为战车恢复等同于所受总伤害%(restoringCoefficient)s的血量。\n\n*血量转化的恢复效果也会影响小范围内的队友战车。"
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "立即{green_Open}恢复%(immediatelyRestore)s点{green_Close}战车血量。能力效果持续的{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}期间，受到的所有炮弹伤害和战斗能力伤害都会累积并转化为血量，并在能力效果结束后，额外为战车恢复等同于{green_Open}所受总伤害%(restoringCoefficient)s的血量{green_Close}。\n\n*血量转化的恢复效果也会影响小范围内的队友战车。"
+
+msgid "adaptationHealthRestore/name"
+msgstr "适应性装甲"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "立即{green_Open}恢复%(immediatelyRestore)s点{green_Close}战车血量。能力效果持续的{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}期间，受到的所有炮弹伤害和战斗能力伤害都会累积并转化为血量，并在能力效果结束后，额外为战车恢复等同于{green_Open}所受总伤害%(restoringCoefficient)s的血量{green_Close}。\n\n*血量转化的恢复效果也会影响小范围内的队友战车。"
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s 战车静止或移动时的隐蔽性——需安装低噪音排气系统(任意级别)或赏金排气系统。"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "在整场战斗中提升低噪音排气系统或赏金排气系统的效果。指令仅在安装了对应装备时生效。"
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "排气隔音"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "提高战车静止或移动时的隐蔽性"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "效率取决于战车类型。提高战车静止或移动时的隐蔽性。在主动侦察时，以及在高风险位置被动侦察时较为有效。"
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "低噪音排气系统"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "提高战车静止或移动时的隐蔽性。"
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "1级低噪音排气系统"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "2级低噪音排气系统"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "3级低噪音排气系统"
+
+msgid "additional_armor_plates_1/name"
+msgstr "额外装甲板（类型1）"
+
+msgid "additional_armor_plates_2/name"
+msgstr "额外装甲板（类型2）"
+
+msgid "afterburning/descr"
+msgstr "在限定时间内提高您战车的移动速度和加速能力。"
+
+msgid "afterburning/name"
+msgstr "涡轮增压器"
+
+msgid "aimingStabilizer/long_special"
+msgstr "降低火炮的散布误差是至关重要的：初始散布误差越小，瞄准圈就越小，进行完全瞄准所需的时间就越短。此外，没有进行完全瞄准的射击或移动中射击的命中目标的机会也会更大。"
+
+msgid "aimingStabilizer/name"
+msgstr "垂直稳定器"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s 射击后、移动时和炮塔转动时的散布误差——需安装垂直稳定器、稳定装备系统或赏金稳定器。"
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "提升垂直稳定器（任意等级）、稳定装备系统和赏金稳定器效果，持续一整场战斗。想要安装并激活此指令，战车上必须已安装这些装备。"
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "稳定润滑剂"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "提升稳定器的效果"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "1级垂直稳定器"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "2级垂直稳定器"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "1级垂直稳定器"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "2级垂直稳定器"
+
+msgid "antifragmentationLining/long_special"
+msgstr "防崩落内衬可以吸收伤害，这意味着它们可降低来自撞击和高爆弹的伤害。防崩落内衬对装备着可靠装甲和在近距离战斗中经常施展撞击伤害的重型坦克益处很大。"
+
+msgid "antifragmentationLining/name"
+msgstr "防崩落内衬"
+
+msgid "antifragmentationLining/short_special"
+msgstr "保护战车和乘员免受HE弹、震晕、撞击伤害和受伤"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "超重型防崩落内衬"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "重型防崩落内衬"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "中型防崩落内衬"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "轻型防崩落内衬"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "排气系统"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "稳定器"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "防崩落内衬"
+
+msgid "archetype/camouflageNet/name"
+msgstr "伪装网"
+
+msgid "archetype/coatedOptics/name"
+msgstr "观察镜"
+
+msgid "archetype/commandersView/name"
+msgstr "视觉系统"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "炮控系统"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "战车硬化"
+
+msgid "archetype/grousers/name"
+msgstr "履带齿"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "战车配置"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "通信设备组"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "转动机制"
+
+msgid "archetype/improvedSights/name"
+msgstr "瞄准镜"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "通风系统"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "火控系统"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "生存能力改良套装"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "准度改良系统"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "机动性改良系统"
+
+msgid "archetype/stereoscope/name"
+msgstr "炮队镜"
+
+msgid "archetype/tankRammer/name"
+msgstr "输弹机"
+
+msgid "archetype/template"
+msgstr "“%(name)s”类别装备"
+
+msgid "archetype/turbocharger/name"
+msgstr "涡轮增压器"
+
+msgid "artillery/longDescr"
+msgstr "命令火炮向小范围区域发射HE弹。影响区域中心的战车受到最严重的伤害。对重装甲战车尤其有效。"
+
+msgid "artillery/name"
+msgstr "炮击"
+
+msgid "artillery/shortDescr"
+msgstr "对小半径内的敌方战车造成可观的伤害。"
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s发动机起火几率"
+
+msgid "autoExtinguishers/descr"
+msgstr "战车起火时自动灭火。"
+
+msgid "autoExtinguishers/long_special"
+msgstr "自动扑灭起火也可以减少战车起火的几率。 该消耗品适用于所有国家的所有车型。"
+
+msgid "autoExtinguishers/name"
+msgstr "自动灭火器"
+
+msgid "autoExtinguishers/onUse"
+msgstr "自动灭火。一场战斗中可使用多次。消耗品被使用至少一次以上即会在战斗结束后消失。"
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "自动灭火"
+
+msgid "berserker/battleDescr"
+msgstr "穿透力和射速提高至%(gunPiercing)s倍，同时炮控和稳定性效率提高%(gunAimingTime)s，但效果持续的%(duration)s秒期间会受到等同于您战车总血量%(healthDebuff)s的伤害。\n\n*淌血升能能力造成的伤害不会摧毁您的战车。"
+
+msgid "berserker/descr"
+msgstr "穿透力和射速提高至%(gunPiercing)s倍，同时炮控和稳定性效率提高%(gunAimingTime)s，但效果持续的%(duration)s秒期间会受到等同于您战车总血量%(healthDebuff)s的伤害。\n\n*淌血升能能力造成的伤害不会摧毁您的战车。"
+
+msgid "berserker/longDescr"
+msgstr "穿透力和射速提高至{green_Open}%(gunPiercing)s倍{green_Close}，同时炮控和稳定性效率提高{green_Open}%(gunAimingTime)s{green_Close}，但效果持续的{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}期间会受到等同于您战车总血量{red_Open}%(healthDebuff)s{red_Close}的伤害。\n\n*淌血升能能力造成的伤害不会摧毁您的战车。"
+
+msgid "berserker/name"
+msgstr "淌血升能"
+
+msgid "berserker/shortDescr"
+msgstr "穿透力和射速提高至{green_Open}%(gunPiercing)s倍{green_Close}，同时炮控和稳定性效率提高{green_Open}%(gunAimingTime)s{green_Close}，但效果持续的{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}期间会受到等同于您战车总血量{red_Open}%(healthDebuff)s{red_Close}的伤害。\n\n*淌血升能能力造成的伤害不会摧毁您的战车。"
+
+msgid "blackout_headlights_1/name"
+msgstr "车头灯调暗（类型1）"
+
+msgid "bomber/longDescr"
+msgstr "命令地面攻击飞机向选定区域投放炸弹，震晕敌方战车并对其造成伤害。影响区中心的战车受到最严重的伤害。对轻装甲和中等装甲的战车尤其有效。"
+
+msgid "bomber/name"
+msgstr "空袭"
+
+msgid "bomber/shortDescr"
+msgstr "震晕大范围内的敌方战车\n并造成中等伤害。"
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "%(duration)s秒内逐渐恢复%(healPerTickDuration)s战车血量。受到伤害会打断恢复效果。"
+
+msgid "brRegenerationKit/descr"
+msgstr "%(duration)s秒内逐渐恢复%(healPerTickDuration)s战车血量。受到伤害会打断恢复效果。"
+
+msgid "brRegenerationKit/long_special"
+msgstr "{whiteSpanish_Open}%(duration)s秒内{whiteSpanish_Close}逐渐{green_Open}恢复%(healPerTickDuration)s{green_Close}战车血量。受到伤害会打断恢复效果。"
+
+msgid "brRegenerationKit/name"
+msgstr "血量恢复"
+
+msgid "brRegenerationKit/short_special"
+msgstr "{whiteSpanish_Open}%(duration)s秒内{whiteSpanish_Close}逐渐{green_Open}恢复%(healPerTickDuration)s{green_Close}战车血量。受到伤害会打断恢复效果。"
+
+msgid "brRepairkit/descr"
+msgstr "修复模块并移除负面效果。"
+
+msgid "brRepairkit/long_special"
+msgstr "修复模块并移除负面效果。"
+
+msgid "brRepairkit/name"
+msgstr "修理箱"
+
+msgid "brRepairkit/short_special"
+msgstr "修复模块并移除负面效果。"
+
+msgid "br_bomber/battleDescr"
+msgstr "震晕敌方战车并对其造成%(minDamage)s到%(maxDamage)s点伤害。中心地带的战车受到的伤害最多。\n\n*生效前有%(delay)s秒延迟。"
+
+msgid "br_bomber/descr"
+msgstr "震晕敌方战车并对其造成%(minDamage)s到%(maxDamage)s点伤害。中心地带的战车受到的伤害最多。\n\n*生效前有%(delay)s秒延迟。"
+
+msgid "br_bomber/longDescr"
+msgstr "震晕敌方战车并对其造成{whiteSpanish_Open}%(minDamage)s到%(maxDamage)s点伤害{whiteSpanish_Close}。中心地带的战车受到的伤害最多。\n\n*生效前有%(delay)s秒延迟。"
+
+msgid "br_bomber/name"
+msgstr "空袭"
+
+msgid "br_bomber/shortDescr"
+msgstr "震晕敌方战车并对其造成{whiteSpanish_Open}%(minDamage)s到%(maxDamage)s点伤害{whiteSpanish_Close}。中心地带的战车受到的伤害最多。\n\n*生效前有%(delay)s秒延迟。"
+
+msgid "br_minefield/battleDescr"
+msgstr "在选定区域部署一片雷区，地雷会在%(duration)s秒内处于活跃状态。敌方战车触雷时会被震晕并受到爆炸伤害。\n\n*敌人可通过射击摧毁您的地雷。部署在敌方战车下方的地雷将不会爆炸。"
+
+msgid "br_minefield/descr"
+msgstr "在选定区域部署一片雷区，地雷会在%(duration)s秒内处于活跃状态。敌方战车触雷时会被震晕并受到爆炸伤害。\n\n*敌人可通过射击摧毁您的地雷。部署在敌方战车下方的地雷将不会爆炸。"
+
+msgid "br_minefield/longDescr"
+msgstr "在选定区域部署一片雷区，地雷会在{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}内处于活跃状态。敌方战车触雷时会被震晕并受到爆炸伤害。\n\n*敌人可通过射击摧毁您的地雷。部署在敌方战车下方的地雷将不会爆炸。"
+
+msgid "br_minefield/name"
+msgstr "雷区"
+
+msgid "br_minefield/shortDescr"
+msgstr "在选定区域部署一片雷区，地雷会在{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}内处于活跃状态。敌方战车触雷时会被震晕并受到爆炸伤害。\n\n*敌人可通过射击摧毁您的地雷。部署在敌方战车下方的地雷将不会爆炸。"
+
+msgid "br_respawn/name"
+msgstr "重生"
+
+msgid "br_respawn/platoon/descr"
+msgstr "让您可以在战车被摧毁后重返战斗。此机制在战斗开始后的首%(duration)s分钟内有效。\n\n想要协助队友重生，需要脱离交战%(timeToResurrect)s秒。小队成员共享重生次数。"
+
+msgid "br_respawn/solo/descr"
+msgstr "让您可以在战车被摧毁后重返战斗。此机制在战斗开始后的首%(duration)s分钟内有效。\n\n战车一旦被摧毁将自动重生。"
+
+msgid "br_smoke/battleDescr"
+msgstr "%(duration)s秒内，对该消耗品作用范围内的所有战车提供隐蔽性加成。"
+
+msgid "br_smoke/descr"
+msgstr "对该消耗品作用范围内的所有战车提供隐蔽性加成。"
+
+msgid "br_smoke/longDescr"
+msgstr "%(duration)s秒内，对该消耗品作用范围内的所有战车提供隐蔽性加成。"
+
+msgid "br_smoke/name"
+msgstr "烟幕"
+
+msgid "br_smoke/shortDescr"
+msgstr "对该消耗品作用范围内的所有战车提供隐蔽性加成。"
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "为作用范围内的所有战车提供隐蔽性加成，同时每秒对范围内的所有战车造成等同于其总血量%(damagePerTick)s的伤害。效果持续%(duration)s秒。\n\n*腐蚀烟雾的伤害不会打断物资的拾取，也不会摧毁战车，会让受影响的战车保留至少1点血量。"
+
+msgid "br_smoke_with_damage/descr"
+msgstr "为作用范围内的所有战车提供隐蔽性加成，同时每秒对范围内的所有战车造成等同于其总血量%(damagePerTick)s的伤害。效果持续%(duration)s秒。\n\n*腐蚀烟雾的伤害不会打断物资的拾取，也不会摧毁战车，会让受影响的战车保留至少1点血量。"
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "为作用范围内的所有战车提供隐蔽性加成，同时每秒对范围内的所有战车造成等同于其总血量{whiteSpanish_Open}%(damagePerTick)s{whiteSpanish_Close}的伤害。效果持续{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}。\n\n*腐蚀烟雾的伤害不会打断物资的拾取，也不会摧毁战车，会让受影响的战车保留至少1点血量。"
+
+msgid "br_smoke_with_damage/name"
+msgstr "腐蚀烟雾"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "为作用范围内的所有战车提供隐蔽性加成，同时每秒对范围内的所有战车造成等同于其总血量{whiteSpanish_Open}%(damagePerTick)s{whiteSpanish_Close}的伤害。效果持续{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}。\n\n*腐蚀烟雾的伤害不会打断物资的拾取，也不会摧毁战车，会让受影响的战车保留至少1点血量。"
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s模块修复速度"
+
+msgid "builtinRepairkit/long_special"
+msgstr "激活时可以修理所有受损的模块。该被动效果可以提升修理速度。该消耗品适用于特定战车。"
+
+msgid "builtinRepairkit/name"
+msgstr "标准大修理箱"
+
+msgid "builtinRepairkit/onUse"
+msgstr "可以修理所有受损的模块。一场战斗中可以多次使用。不会被消耗。\n该消耗品无法被移除，但可以转移到其他槽位。"
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "额外提高10%战车隐蔽性"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "使所有乘员的“伪装”特长训练至100%"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "“伪装”特长会降低战车在移动和静止时的可见性，持续整场战斗。如果特长已训练至100%，安装此指令将提高其效果。如未达到，此指令会为战车提供已训练至100%的特长。"
+
+msgid "camouflageBattleBooster/name"
+msgstr "自然遮盖"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "使“伪装”特长训练至100%或增强其效果"
+
+msgid "camouflageNet/battleDescr"
+msgstr "战车静止3秒后提升隐蔽性"
+
+msgid "camouflageNet/long_special"
+msgstr "效果取决于战车类型。“伪装网”主要使隐蔽型战车受益：车体低矮的自行火炮和坦克歼击车。可提高“伪装”特长的效果。结合使用可为战车提供不错的加成。“伪装网”在战车静止3秒后激活。"
+
+msgid "camouflageNet/name"
+msgstr "伪装网"
+
+msgid "camouflageNet/short_special"
+msgstr "提高战车静止时的隐蔽性"
+
+msgid "camouflageNet_tier2/name"
+msgstr "2级伪装网"
+
+msgid "camouflageNet_tier3/name"
+msgstr "3级伪装网"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose}乘员熟练度加成，效果持续整场战斗。"
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}乘员熟练度加成。"
+
+msgid "chocolate/long_special"
+msgstr "战斗开始时会自动激活，效果持续整场战斗。仅适用于德国战车。"
+
+msgid "chocolate/name"
+msgstr "巧克力"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "仅适用于德国战车。"
+
+msgid "chocolate/short_special"
+msgstr "提升德国乘员的表现"
+
+msgid "clingBrander/battleDescr"
+msgstr "呼叫装有敌我识别系统的无人坦克，追逐并攻击最近的敌人最多%(botLifeTime)s秒。\n\n*这种坦克可以被击毁。"
+
+msgid "clingBrander/descr"
+msgstr "呼叫装有敌我识别系统的无人坦克，追逐并攻击最近的敌人最多%(botLifeTime)s秒。\n\n*这种坦克可以被击毁。"
+
+msgid "clingBrander/longDescr"
+msgstr "呼叫装有敌我识别系统的无人坦克，追逐并攻击最近的敌人{whiteSpanish_Open}最多%(botLifeTime)s秒{whiteSpanish_Close}。\n\n*这种坦克可以被击毁。"
+
+msgid "clingBrander/name"
+msgstr "战地机器人"
+
+msgid "clingBrander/shortDescr"
+msgstr "呼叫装有敌我识别系统的无人坦克，追逐并攻击最近的敌人{whiteSpanish_Open}最多%(botLifeTime)s秒{whiteSpanish_Close}。\n\n*这种坦克可以被击毁。"
+
+msgid "clutches_replace_1/name"
+msgstr "替代摩擦联轴器（类型1）"
+
+msgid "clutches_replace_2/name"
+msgstr "替代摩擦联轴器（类型2）"
+
+msgid "coatedOptics/long_special"
+msgstr "不像炮队镜，高级光学观察镜（任何类型）提供更小但永久的加成，不会因战车移动而消失。 因此，高级光学观察镜对于具有高主动性游戏方式的轻型和中型坦克非常有益。"
+
+msgid "coatedOptics/name"
+msgstr "高级光学观察镜"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s 视野范围(最高445米)——需安装高级光学观察镜(任意级别)、实验型光学镜或赏金观察镜。"
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "在整场战斗中提升高级光学观察镜、实验型光学镜或赏金观察镜的效果。想要安装并激活此指令，战车上必须已安装这些装备。"
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "光学测定仪"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "提升光学镜的效果"
+
+msgid "coatedOptics_tier1/name"
+msgstr "1级高级光学观察镜"
+
+msgid "coatedOptics_tier2/name"
+msgstr "2级高级光学观察镜"
+
+msgid "coatedOptics_tier3/name"
+msgstr "3级高级光学观察镜"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose}乘员熟练度加成，效果持续整场战斗。"
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}乘员熟练度加成。"
+
+msgid "cocacola/long_special"
+msgstr "战斗开始时会自动激活，效果持续整场战斗。仅适用于美国战车。"
+
+msgid "cocacola/name"
+msgstr "可口可乐"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "仅适用于美国战车。"
+
+msgid "cocacola/short_special"
+msgstr "提升美国乘员的表现"
+
+msgid "commandersView/long_special"
+msgstr "侦察过程中降低移动中敌人和树丛遮盖敌人的隐蔽性。让您在更远的距离发现移动的敌人，并提高发现躲在灌木或树丛中敌人的能力。"
+
+msgid "commandersView/name"
+msgstr "车长视觉系统"
+
+msgid "commandersView/short_special"
+msgstr "降低敌方战车的隐蔽性，无论是在移动中还是在树丛后"
+
+msgid "corrodingShot/battleDescr"
+msgstr "为炮弹增加腐蚀效果以提高穿透力和伤害潜力。对敌方战车造成伤害时，炮弹会附加临时效果：%(dotEffectDuration)s秒内最多对敌方战车造成等同于其总血量%(damagePerDotEffectDuration)s的伤害。\n\n*修理箱可移除此负面效果。"
+
+msgid "corrodingShot/descr"
+msgstr "为炮弹增加腐蚀效果以提高穿透力和伤害潜力。对敌方战车造成伤害时，炮弹会附加临时效果：%(dotEffectDuration)s秒内最多对敌方战车造成等同于其总血量%(damagePerDotEffectDuration)s的伤害。\n\n*修理箱可移除此负面效果。"
+
+msgid "corrodingShot/longDescr"
+msgstr "为炮弹增加腐蚀效果以提高穿透力和伤害潜力。对敌方战车造成伤害时，炮弹会附加临时效果：{whiteSpanish_Open}%(dotEffectDuration)s秒内{whiteSpanish_Close}最多对敌方战车造成等同于其总血量{whiteSpanish_Open}%(damagePerDotEffectDuration)s{whiteSpanish_Close}的伤害。\n\n*修理箱可移除此负面效果。"
+
+msgid "corrodingShot/name"
+msgstr "强酸炮弹"
+
+msgid "corrodingShot/shortDescr"
+msgstr "为炮弹增加腐蚀效果以提高穿透力和伤害潜力。对敌方战车造成伤害时，炮弹会附加临时效果：{whiteSpanish_Open}%(dotEffectDuration)s秒内{whiteSpanish_Close}最多对敌方战车造成等同于其总血量{whiteSpanish_Open}%(damagePerDotEffectDuration)s{whiteSpanish_Close}的伤害。\n\n*修理箱可移除此负面效果。"
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "强化以下"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "车长专长"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "特长:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "赋予以下"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "特长："
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "垂直稳定器（{colorTagOpen}–20%{colorTagClose}射击后、移动和炮塔转动时的散布误差）的改进版本，提供更强的效果：{colorTagOpen}–27.5%{colorTagClose}射击后、移动中和炮塔转动时的散布误差。该装备适用于所有国家和指定类型的战车。只能使用点券拆除。"
+
+msgid "deluxAimingStabilizer/name"
+msgstr "稳定装备系统"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "高级光学观察镜（{colorTagOpen}+10%{colorTagClose}视野范围）的一个改进版本，提供更强的效果：{colorTagOpen}+13.5%{colorTagClose}视野范围。此装备适用于所有国家和类型的战车。只能使用点券拆除。"
+
+msgid "deluxCoatedOptics/name"
+msgstr "实验型光学镜"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "改进型炮控系统（{colorTagOpen}+10%{colorTagClose} 瞄准速度）的一个改进版本，提供更强的效果：{colorTagOpen}+13.5%{colorTagClose}瞄准速度。此装备适用于所有国家和类型的战车。只能使用点券拆除。"
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "抗磨损炮控系统"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "一种类似的修改型战车配置，提供更强的效果。此装备适用于所有国家和类型的战车。只能使用点券拆除。"
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "改进型战车配置"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "加速修复、为弹药架、油箱和发动机提供额外防护性"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "通风系统（{colorTagOpen}+5%{colorTagClose}乘员熟练度加成）的强化版本，提供更强的效果：{colorTagOpen}+8.5%{colorTagClose}乘员熟练度。此装备适用于所有国家和类型的战车。只能使用点券拆除。"
+
+msgid "deluxImprovedVentilation/name"
+msgstr "排气系统"
+
+msgid "deluxRammer/long_special"
+msgstr "输弹机（{colorTagOpen}-10%{colorTagClose}装填时间）的一个改进版本，提供更强的效果：{colorTagOpen}-13.5%{colorTagClose}装填时间。此装备适用于所有国家和类型的战车。只能使用点券拆除。"
+
+msgid "deluxRammer/name"
+msgstr "创新型装填系统"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "低噪音排气系统的强化版本，提供更强的效果：提高战车在静止和移动时的隐蔽性。对主动侦察和在高风险位置的被动侦察都很有帮助。\n此装备适用于所有国家和类型的战车，但具体效果取决于战车类型。只能使用点券拆除。"
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "隐蔽型排气装置"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "提高{colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}战车静止或移动时的隐蔽性"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "战车静止1.5秒后提升隐蔽性"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "改进型伪装网，效果取决于战车类型。战术伪装网主要使隐蔽型战车受益：车体低矮的自行火炮和坦克歼击车。可提高“伪装”特长的效果。结合使用可为战车提供不错的加成。战术伪装网在战车静止1.5秒后激活。"
+
+msgid "deluxeCamouflageNet/name"
+msgstr "战术伪装网"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17.5{colorTagClose}/{colorTagOpen}12.5{colorTagClose}/{colorTagOpen}7.5%{colorTagClose}战车静止时的隐蔽性"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "修复后完全恢复悬挂血量。"
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "修复后恢复悬挂。"
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "改进型战车硬化的一个改进版本：{colorTagOpen}+12.5%{colorTagClose}战车血量，{colorTagOpen}+75%{colorTagClose}悬挂耐久度，{colorTagOpen}+30%{colorTagClose}悬挂修复速度，{colorTagOpen}–75%{colorTagClose}悬挂受冲击时对车体造成的伤害。修复后完全恢复悬挂血量。降低受到伤害时履带摧毁的几率，使您的战车尽可能久地保持移动能力。此装备适用于所有国家和类型的战车（自行火炮除外）。只能使用点券拆除。"
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "抗弹性强化"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "提升战车的耐久度，保护悬挂"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "改进型转动机制的一个改进版本，提供更强的效果：{colorTagOpen}+17.5%{colorTagClose}炮管转向速度、{colorTagOpen}+17.5%{colorTagClose}车体转向速度及{colorTagOpen}-17.5%{colorTagClose}移动和炮塔转动时的散布误差。此装备适用于所有国家和类型的战车。只能使用点券拆除。"
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "强化型转动机制"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "提高转向速度并降低移动和转向时的火炮散布误差"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "改进型瞄准镜的强化版本，提供更强的效果：缩小{colorTagOpen}9%{colorTagClose}正在瞄准或完全瞄准时的瞄准圈大小。因此，您的火炮将更有可能击中敌人。此装备适用于所有国家和类型的战车，自行火炮除外。只能使用点券拆除。"
+
+msgid "deluxeImprovedSights/name"
+msgstr "创新型瞄准系统"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "降低火炮散布误差"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "战车静止1.5秒后提高视野范围（最高445米）"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "改进型炮队镜。良好的视野范围在战斗中将提供巨大的优势。这种类型的装备对轮廓低矮且火炮精准的坦克歼击车有益。效果在战车停止移动1.5秒后激活。"
+
+msgid "deluxeStereoscope/name"
+msgstr "伸缩式观测系统"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27.5%{colorTagClose}战车静止时的视野范围（最高445米）"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "涡轮增压器的一个改进版本（{colorTagOpen}+7.5%{colorTagClose}发动机功率，{colorTagOpen}+4公里/小时{colorTagClose}最高前进速度，{colorTagOpen}+2公里/小时{colorTagClose}最高倒车速度）：{colorTagOpen}+12.5%{colorTagClose}发动机功率，{colorTagOpen}+6公里/小时{colorTagClose}最高前进速度{colorTagOpen}+4公里/小时{colorTagClose}最高倒车速度。此装备适用于所有国家和类型的战车（轮式战车除外）。只能使用点券拆除。"
+
+msgid "deluxeTurbocharger/name"
+msgstr "改进型涡轮增压器"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "提升发动机功率和最高速度"
+
+msgid "eb_minefield/descr"
+msgstr "在选定区域部署一片雷区，地雷会在一段时间内处于活跃状态。"
+
+msgid "eb_minefield/long_descr"
+msgstr "在选定区域部署一片雷区，地雷会在一段时间内处于活跃状态。触发时，地雷会震晕敌方战车并对其造成伤害。敌人处于地雷附近时，以及使用“空中侦察”或“哨兵”战斗储备时，可以探测到地雷。地雷可以被射击或爆炸摧毁。"
+
+msgid "eb_minefield/name"
+msgstr "雷区"
+
+msgid "eb_minefield/short_descr"
+msgstr "在选定区域部署一片雷区，地雷会在一段时间内处于活跃状态。"
+
+msgid "eb_regenerationKit/descr"
+msgstr "逐渐恢复您的战车一定百分比的血量。"
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "逐渐恢复您战车一定百分比的血量。加快重新补给圈内的修复速度。激活时可降低来自地雷的伤害。"
+
+msgid "eb_regenerationKit/name"
+msgstr "战地修复"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "逐渐恢复您的战车一定百分比的血量。"
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "车位"
+
+msgid "empty_slot/name"
+msgstr "车位"
+
+msgid "empty_slot/short_descr"
+msgstr "战斗储备槽已被占用。"
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "“声音侦测”特长获得1.5倍效果"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "使“声音侦测”特长训练至100%"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "“声音侦测”特长会在敌方自行火炮射击后发起警报并降低震晕的负面效果。如果特长已训练至100%，安装此指令将提高其效果。如未达到，此指令会为战车提供已训练至100%的特长。"
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "高度警戒"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "使“声音侦测”特长训练至100%或增强其效果"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "改进的瞄准减少了瞄准时间。配备改进型炮控系统的战车可以实现更精确的开火（此外，它还可以提高射速，因为装填时间有时比完全瞄准更快）。"
+
+msgid "enhancedAimDrives/name"
+msgstr "改进型炮控系统"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s 瞄准速度——需安装改进型炮控系统(任意级别)、抗磨损炮控系统、赏金炮控系统或火控系统。"
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "在整场战斗中提升赏金炮控系统、改进型炮控系统或抗磨损炮控系统的效果。想要安装并激活此指令，战车上必须已安装这些装备。"
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "瞄准优化"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "提升炮控系统的效果"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "1级改进型炮控系统"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "2级改进型炮控系统"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "3级改进型炮控系统"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "增强型贝勒维尔垫圈"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "修复后完全恢复悬挂血量。"
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "修复后完全恢复悬挂血量"
+
+msgid "enhancedLevers/name"
+msgstr "增强型操纵杆"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "增强型扭杆"
+
+msgid "enhancedSprings/name"
+msgstr "强力弹簧"
+
+msgid "enhancedTorsions1t/name"
+msgstr "1吨级增强型扭杆"
+
+msgid "enhancedTorsions3t/name"
+msgstr "3吨级增强型扭杆"
+
+msgid "enhancedTorsions5t/name"
+msgstr "5吨级增强型扭杆"
+
+msgid "exampleAbility/descr"
+msgstr "Test Skill for Visual Script"
+
+msgid "exampleAbility/name"
+msgstr "Test Skill"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s发动机功率和炮塔转向速度，效果持续整场战斗。"
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}发动机功率和炮塔转向速度。"
+
+msgid "excellentFuel/long_special"
+msgstr "提高{colorTagOpen}10%{colorTagClose}发动机功率和炮塔转向速度。战斗开始时会自动激活，效果持续整场战斗。"
+
+msgid "excellentFuel/name"
+msgstr "超优质燃油"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose}发动机功率和炮塔转向速度"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "修复后完全恢复悬挂血量。"
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "修复后恢复悬挂。"
+
+msgid "extraHealthReserve/long_special"
+msgstr "提升战车耐久度和修复速度。降低受冲击时悬挂损伤造成的车体伤害。修复后完全恢复悬挂血量。降低受到伤害时履带摧毁的几率，使您的战车尽可能久地保持移动能力。"
+
+msgid "extraHealthReserve/name"
+msgstr "改进型战车硬化"
+
+msgid "extraHealthReserve/short_special"
+msgstr "提升战车的耐久度，保护悬挂"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "1级改进型战车硬化"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "2级改进型战车硬化"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "3级改进型战车硬化"
+
+msgid "fireCircle/battleDescr"
+msgstr "在您的战车周围创建一个持续%(timer)s秒的火环，降低能力效果范围内敌方战车的机动性并最多造成等同于其总血量%(damagePerTickForInterval)s的伤害。\n\n*火环的效果范围位置固定，不会跟随您的战车移动。"
+
+msgid "fireCircle/descr"
+msgstr "在您的战车周围创建一个持续%(timer)s秒的火环，降低能力效果范围内敌方战车的机动性并最多造成等同于其总血量%(damagePerTickForInterval)s的伤害。\n\n*火环的效果范围位置固定，不会跟随您的战车移动。"
+
+msgid "fireCircle/longDescr"
+msgstr "在您的战车周围创建一个持续{whiteSpanish_Open}%(timer)s秒{whiteSpanish_Close}的火环，降低能力效果范围内敌方战车的机动性并最多造成等同于其总血量{whiteSpanish_Open}%(damagePerTickForInterval)s{whiteSpanish_Close}的伤害。\n\n*火环的效果范围位置固定，不会跟随您的战车移动。"
+
+msgid "fireCircle/name"
+msgstr "炽热火环"
+
+msgid "fireCircle/shortDescr"
+msgstr "在您的战车周围创建一个持续{whiteSpanish_Open}%(timer)s秒{whiteSpanish_Close}的火环，降低能力效果范围内敌方战车的机动性并最多造成等同于其总血量{whiteSpanish_Open}%(damagePerTickForInterval)s{whiteSpanish_Close}的伤害。\n\n*火环的效果范围位置固定，不会跟随您的战车移动。"
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "“灭火”特长获得1.5倍效果"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "使“灭火”特长训练至100%"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "“灭火”特长会提高战车的灭火能力，持续整场战斗。如果特长已训练至100%，安装此指令将提高其效果。如未达到，此指令会为战车提供已训练至100%的特长。"
+
+msgid "fireFightingBattleBooster/name"
+msgstr "灭火经验"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "使“灭火”特长训练至100%或增强其效果"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "命令火炮攻击选定区域，对区域内所有战车造成伤害。"
+
+msgid "fort_aoe_artillery/name"
+msgstr "炮击"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "命令火炮攻击选定区域，对区域内所有战车造成伤害。"
+
+msgid "fort_inspire/longDescr"
+msgstr "为您和附近队友战车内全部乘员的熟练度和所有特长提供加成。"
+
+msgid "fort_inspire/name"
+msgstr "激励"
+
+msgid "fort_inspire/shortDescr"
+msgstr "为您和附近队友战车内全部乘员的熟练度和所有特长提供加成。"
+
+msgid "fuel_system_revision_1/name"
+msgstr "燃油系统修改（类型1）"
+
+msgid "grousers/long_special"
+msgstr "提高战车的转向速度，以及在穿越所有地形时的速度维持能力。在松软和中度松软地形上行驶时具有显著效果。与“甩尾”和“越野”特长配合使用能发挥最大的效果。"
+
+msgid "grousers/name"
+msgstr "附加履带齿"
+
+msgid "grousers/short_special"
+msgstr "提升战车转向速度并改善加速能力"
+
+msgid "grousers_tier1/name"
+msgstr "1级附加履带齿"
+
+msgid "grousers_tier2/name"
+msgstr "2级附加履带齿"
+
+msgid "grousers_tier3/name"
+msgstr "3级附加履带齿"
+
+msgid "gun_balancing_1/name"
+msgstr "火炮平衡（类型1）"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "扑灭战车上的火焰。"
+
+msgid "handExtinguishers/long_special"
+msgstr "激活时可以扑灭战车中的火灾。适用于所有国家所有车型。如果该消耗品一旦使用过一次，则在战斗后会将其移除。"
+
+msgid "handExtinguishers/name"
+msgstr "手动灭火器"
+
+msgid "handExtinguishers/onUse"
+msgstr "在你的战车安装灭火器。一场战斗中可以使用多次。消耗品被使用至少一次以上即会在战斗结束后消失。"
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "灭火"
+
+msgid "healPoint/battleDescr"
+msgstr "在战车周围创建一片恢复区，持续%(duration)s秒。位于此区域范围内时，玩家和其小队成员每秒恢复%(healPerTick)s战车血量。"
+
+msgid "healPoint/descr"
+msgstr "在战车周围创建一片恢复区，持续%(duration)s秒。位于此区域范围内时，玩家和其小队成员每秒恢复%(healPerTick)s战车血量。"
+
+msgid "healPoint/longDescr"
+msgstr "在战车周围创建一片恢复区，持续{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}。位于此区域范围内时，玩家和其小队成员每秒{green_Open}恢复%(healPerTick)s{green_Close}战车血量。"
+
+msgid "healPoint/name"
+msgstr "血量恢复区"
+
+msgid "healPoint/shortDescr"
+msgstr "在战车周围创建一片恢复区，持续{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}。位于此区域范围内时，玩家和其小队成员每秒{green_Open}恢复%(healPerTick)s{green_Close}战车血量。"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s乘员熟练度加成，效果持续整场战斗。"
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}乘员熟练度加成。"
+
+msgid "hotCoffee/long_special"
+msgstr "战斗开始时会自动激活，效果持续整场战斗。仅适用于法国战车。"
+
+msgid "hotCoffee/name"
+msgstr "提神咖啡"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "仅适用于法国战车。"
+
+msgid "hotCoffee/short_special"
+msgstr "提升法国乘员的表现"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "阻止油箱起火、弹药架爆炸以及发动机损坏各一次，在一场战斗中对应模块被摧毁时触发。"
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "阻止油箱起火、弹药架爆炸以及发动机损坏各一次，在一场战斗中对应模块被摧毁时触发。"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "弹药架受到保护，不会爆炸"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "已阻止弹药架爆炸"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "发动机受到保护"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "已阻止发动机损坏"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "油箱受到保护，不会起火"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "已阻止油箱起火"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "阻止油箱起火、弹药架爆炸以及发动机损坏各一次，在一场战斗中对应模块被摧毁时触发。"
+
+msgid "improvedConfiguration/long_special"
+msgstr "加速修复。提升弹药架、油箱、和发动机的耐久度。降低模块受损时的装填时间惩罚和发动机功率损失。降低发动机起火几率。阻止一次油箱起火、弹药架爆炸、以及发动机损坏，一场战斗中对应模块被摧毁时触发。"
+
+msgid "improvedConfiguration/name"
+msgstr "修改型战车配置"
+
+msgid "improvedConfiguration/short_special"
+msgstr "加速修复、为弹药架、油箱和发动机提供额外防护性"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s 修复速度——需安装修改型战车配置(任意级别)、改进型战车配置或赏金战车配置。"
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "在整场战斗中提升修改型战车配置、改进型战车配置或赏金战车配置的效果。想要安装并激活此指令，战车上必须已安装这些装备。"
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "战前维护"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "提升修改型战车配置的效果"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "1级修改型战车配置"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "2级修改型战车配置"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "提升敌人离开您视野范围后保持可见的时间。降低您对敌人保持可见的时间。与复仇女神和最后的电波特长一起使用时能发挥最大效果。"
+
+msgid "improvedRadioCommunication/name"
+msgstr "改进型通信设备组"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "提升敌人被侦察的时间并降低您被侦察的时间"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "为有炮塔的战车，提高车体和炮塔转向速度。为有固定舱的战车，提高车体和火炮转向速度。降低移动时、车体和炮塔转向时，以及射击后的火炮散布误差。使用“甩尾”特长能发挥最大效果。"
+
+msgid "improvedRotationMechanism/name"
+msgstr "改进型转动机制"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "提高转向速度并降低移动和转向时的火炮散布误差"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "1级改进型转动机制"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "2级改进型转动机制"
+
+msgid "improvedSights/long_special"
+msgstr "降低瞄准圈大小以提升一般瞄准或完全瞄准时的准度。因此，您的火炮将拥有更高的命中率。"
+
+msgid "improvedSights/name"
+msgstr "改进型瞄准镜"
+
+msgid "improvedSights/short_special"
+msgstr "降低火炮散布误差"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s 瞄准圈大小——需安装改进型瞄准镜(任意级别)、赏金瞄准镜或准度改良系统。"
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "在整场战斗中提升改进型瞄准镜或赏金瞄准镜的效果。指令仅在安装了对应装备时生效。"
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "抛光镜头"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "降低瞄准圈大小"
+
+msgid "improvedSights_tier1/name"
+msgstr "1级改进型瞄准镜"
+
+msgid "improvedSights_tier2/name"
+msgstr "2级改进型瞄准镜"
+
+msgid "improvedSights_tier3/name"
+msgstr "3级改进型瞄准镜"
+
+msgid "improvedVentilation/long_special"
+msgstr "提升战车的一系列属性：视野范围、射速、瞄准时间、机动属性及其他。但是该装备提供的属性加成只在与有将兄弟连特长训练到100%的乘员共同使用时才更加显著。"
+
+msgid "improvedVentilation/name"
+msgstr "改进型通风系统"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s 乘员熟练度加成——需安装改进型通风系统(任意级别)、排气系统或赏金通风系统。"
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "在整场战斗中提升改进型通风系统（任意级别）、排气系统或赏金通风系统的效果。想要安装并激活此指令，战车上必须已安装这些装备。"
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "空气净化设备"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "提升通风系统的效果"
+
+msgid "improvedVentilation_class1/name"
+msgstr "1级改进型通风系统"
+
+msgid "improvedVentilation_class2/name"
+msgstr "2级改进型通风系统"
+
+msgid "improvedVentilation_class3/name"
+msgstr "3级改进型通风系统"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "1级改进型通风系统"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "2级改进型通风系统"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "3级改进型通风系统"
+
+msgid "improved_suspension_1/name"
+msgstr "悬挂改良（类型1）"
+
+msgid "improved_suspension_2/name"
+msgstr "悬挂改良（类型2）"
+
+msgid "inspire/longDescr"
+msgstr "提升特定半径内您和所有队友的战车的乘员表现，为每名乘员的熟练度提供%加成。应用激励的玩家将获得改进的效果。"
+
+msgid "inspire/name"
+msgstr "激励"
+
+msgid "inspire/shortDescr"
+msgstr "为玩家和队友的乘员提供熟练度加成。"
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "重型火炮输弹机"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "重型坦克炮输弹机"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s震晕时长\n%(crewHitChance)s对乘员受伤的防护性"
+
+msgid "largeMedkit/descr"
+msgstr "治疗所有受伤乘员并移除震晕效果"
+
+msgid "largeMedkit/long_special"
+msgstr "治疗所有受伤乘员并移除震晕效果。附加保护乘员被动效果。此消耗品适用于所有国家和战车。"
+
+msgid "largeMedkit/name"
+msgstr "大急救包"
+
+msgid "largeMedkit/onUse"
+msgstr "治疗所有受伤乘员。一场战斗中可使用多次。消耗品被使用至少一次以上即会在战斗结束后消失。"
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "治疗所有受伤的乘员并移除震晕效果。一场战斗中可以使用多次。消耗品被使用至少一次以上即会在战斗结束后消失。"
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "治疗全体受伤乘员并移除震晕效果"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s模块修复速度"
+
+msgid "largeRepairkit/descr"
+msgstr "修复所有受损模块。"
+
+msgid "largeRepairkit/long_special"
+msgstr "激活时可以修理所有受损的模块。该被动效果可以提升修理速度。该消耗品适用于所有国家的所有战车。"
+
+msgid "largeRepairkit/name"
+msgstr "大修理箱"
+
+msgid "largeRepairkit/onUse"
+msgstr "修复所有受损模块。一场战斗中可使用多次。消耗品被使用至少一次以上即会在战斗结束后消失。"
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "修理受损模块"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "额外增加50%“最后的电波”特长"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "使最后的电波特长训练至100%"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "最后的电波特长可以使战车被击毁后有机会获得额外2秒的时间报告敌方位置，持续一整场战斗。如果特长已被100% 训练，装备指令额外增加1秒持续时间（总共3秒）。如果没有，装备指令会提供100%训练的特长（标准2秒）。"
+
+msgid "lastEffortBattleBooster/name"
+msgstr "使命第一"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "提供100%训练的最后的电波特长或增强其效果"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "中型火炮输弹机"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "中型坦克炮输弹机"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "火控系统等级1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "火控系统等级1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "火控系统等级1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "火控系统等级2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "火控系统等级2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "火控系统等级2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "火控系统等级3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "火控系统等级3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "火控系统等级3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "生存能力改良套装等级1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "生存能力改良套装等级1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "生存能力改良套装等级1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "生存能力改良套装等级2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "生存能力改良套装等级2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "生存能力改良套装等级2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "生存能力改良套装等级3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "生存能力改良套装等级3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "生存能力改良套装等级3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "准度改良系统等级1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "准度改良系统等级1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "准度改良系统等级1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "准度改良系统等级2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "准度改良系统等级2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "准度改良系统等级2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "准度改良系统等级3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "准度改良系统等级3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "准度改良系统等级3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "机动性改良系统等级1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "机动性改良系统等级1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "机动性改良系统等级1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "机动性改良系统等级2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "机动性改良系统等级2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "机动性改良系统等级2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "机动性改良系统等级3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "机动性改良系统等级3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "机动性改良系统等级3"
+
+msgid "nitro/battleDescr"
+msgstr "暂时提高%(enginePowerFactor)s战车发动机功率，并使最高时速提高至%(maxSpeedFactor)s倍，持续%(consumeSeconds)s秒。"
+
+msgid "nitro/descr"
+msgstr "暂时提高%(enginePowerFactor)s战车发动机功率，并使最高时速提高至%(maxSpeedFactor)s倍，持续%(consumeSeconds)s秒。"
+
+msgid "nitro/long_special"
+msgstr "暂时提高{green_Open}%(enginePowerFactor)s{green_Close}战车发动机功率，并使最高时速提高至{green_Open}%(maxSpeedFactor)s{green_Close}倍，持续{whiteSpanish_Open}%(consumeSeconds)s秒{whiteSpanish_Close}。"
+
+msgid "nitro/name"
+msgstr "涡轮增压器"
+
+msgid "nitro/short_special"
+msgstr "暂时提高{green_Open}%(enginePowerFactor)s{green_Close}战车发动机功率，并使最高时速提高至{green_Open}%(maxSpeedFactor)s{green_Close}倍，持续{whiteSpanish_Open}%(consumeSeconds)s秒{whiteSpanish_Close}。"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "替代配置：辅助武装"
+
+msgid "passive_engineering/longDescr"
+msgstr "对占领速度和补给速度提供加成。加快补给速度，减少重新补给圈的刷新时间和占领或重新控制关键点的时间。"
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "此战斗储备不能应用到自行火炮上。"
+
+msgid "passive_engineering/name"
+msgstr "工程学"
+
+msgid "passive_engineering/shortDescr"
+msgstr "提供占领速度、干扰占领和补给的加成。"
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "不适用于自行火炮"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "“安全装载”特长获得3倍效果"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "使“安全装载”特长训练至100%"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "安全装载特长可以在作战过程中提个弹药架的耐久度。如果特长已被100%训练，装备指令的效果会被强化，如果没有，装备指令会提供100%训练的特长。"
+
+msgid "pedantBattleBooster/name"
+msgstr "炮弹整理"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "使“安全装载”特长训练至100%或增强其效果"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "{colorTagOpen}%(delay)d秒{colorTagClose}后，选定区域将遭受炮击。半径{colorTagOpen}%(radius)d米{colorTagClose}内被击中的敌人将受到{colorTagOpen}%(damage)d{colorTagClose}点伤害，而任何被击中的战车都将被震晕{colorTagOpen}%(stunDuration)d秒{colorTagClose}。"
+
+msgid "poi_artillery_aoe/name"
+msgstr "炮击"
+
+msgid "poi_radar/descr"
+msgstr "激活时，所有敌方战车将保持可见，持续{colorTagOpen}%(duration)d秒{colorTagClose}。"
+
+msgid "poi_radar/name"
+msgstr "装甲师雷达"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "“熟能生巧”特长效果翻倍"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "使“熟能生巧”特长训练至100%"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "“熟能生巧”特长会缩短消耗品的冷却时间，持续整场战斗。如果特长已训练至100%，安装此指令将提高其效果。如未达到，此指令会为战车提供已训练至100%的特长。"
+
+msgid "practicalityBattleBooster/name"
+msgstr "万全准备"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "使“熟能生巧”特长训练至100%或增强其效果"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s发动机功率和炮塔转向速度，效果持续整场战斗。"
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose}发动机功率和炮塔转向速度。"
+
+msgid "qualityFuel/long_special"
+msgstr "提高{colorTagOpen}5%{colorTagClose}发动机功率和炮塔转向速度。战斗开始时会自动激活，效果持续整场战斗。"
+
+msgid "qualityFuel/name"
+msgstr "高质量燃油"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose}发动机功率和炮塔转向速度"
+
+msgid "radar/descr"
+msgstr "在小地图上侦测敌方战车和物资。"
+
+msgid "radar/name"
+msgstr "无线电侦测"
+
+msgid "rammer/long_special"
+msgstr "射速是战车的属性中最重要的。该装备在战斗中非常有益，应当被装备在战车上。然而，输弹机无法装备在带有弹匣装填系统的战车上。"
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s 装填时间——需安装输弹机(任意火炮类型和口径)、创新型装填系统或赏金输弹机。"
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "在整场战斗中提升输弹机（任意火炮类型和口径）、赏金输弹机或创新型装填系统的效果。想要安装并激活此指令，战车上必须已安装这些装备。"
+
+msgid "rammerBattleBooster/name"
+msgstr "整齐的弹药架"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "提升输弹机的效果"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "“复仇女神”特长效果翻倍"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "使“复仇女神”特长训练至100%"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "复仇女神特长可以使目标敌方战车的可见时间延长两秒钟，持续一整场战斗。如果特长训练到100%，装备指令的效果会得到强化，如果没有，装备指令会提供100%训练的特长。"
+
+msgid "rancorousBattleBooster/name"
+msgstr "焦点目标"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "使“复仇女神”特长训练至100%或增强其效果"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s乘员熟练度加成，效果持续整场战斗。"
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}乘员熟练度加成。"
+
+msgid "ration/long_special"
+msgstr "战斗开始时会自动激活，效果持续整场战斗。仅适用于苏联战车。"
+
+msgid "ration/name"
+msgstr "S军口粮"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "仅适用于苏联战车。"
+
+msgid "ration/short_special"
+msgstr "提升苏联乘员的表现"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s乘员熟练度加成，效果持续整场战斗。"
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}乘员熟练度加成。"
+
+msgid "ration_china/long_special"
+msgstr "战斗开始时会自动激活，效果持续整场战斗。仅适用于中国战车。"
+
+msgid "ration_china/name"
+msgstr "红烧肉"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "仅适用于中国战车。"
+
+msgid "ration_china/short_special"
+msgstr "提升中国乘员的表现"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s乘员熟练度加成，效果持续整场战斗。"
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}乘员熟练度加成。"
+
+msgid "ration_czech/long_special"
+msgstr "战斗开始时会自动激活，效果持续整场战斗。仅适用于捷克斯洛伐克战车。"
+
+msgid "ration_czech/name"
+msgstr "奶油面包"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "仅适用于捷克斯洛伐克战车。"
+
+msgid "ration_czech/short_special"
+msgstr "提升捷克斯洛伐克乘员的表现"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s乘员熟练度加成，效果持续整场战斗。"
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}乘员熟练度加成。"
+
+msgid "ration_italy/long_special"
+msgstr "战斗开始时会自动激活，效果持续整场战斗。仅适用于意大利战车。"
+
+msgid "ration_italy/name"
+msgstr "意大利肉酱面"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "仅适用于意大利战车。"
+
+msgid "ration_italy/short_special"
+msgstr "提升意大利乘员的表现"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s乘员熟练度加成，效果持续整场战斗。"
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}乘员熟练度加成。"
+
+msgid "ration_japan/long_special"
+msgstr "战斗开始时会自动激活，效果持续整场战斗。仅适用于日本战车。"
+
+msgid "ration_japan/name"
+msgstr "饭团"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "仅适用于日本战车。"
+
+msgid "ration_japan/short_special"
+msgstr "提升日本乘员的表现"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s乘员熟练度加成，效果持续整场战斗。"
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}乘员熟练度加成。"
+
+msgid "ration_poland/long_special"
+msgstr "战斗开始时会自动激活，效果持续整场战斗。仅适用于波兰战车。"
+
+msgid "ration_poland/name"
+msgstr "猪肉冻面包"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "仅适用于波兰战车。"
+
+msgid "ration_poland/short_special"
+msgstr "提升波兰乘员的表现"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s乘员熟练度加成，效果持续整场战斗。"
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}乘员熟练度加成。"
+
+msgid "ration_sweden/long_special"
+msgstr "战斗开始时会自动激活，效果持续整场战斗。仅适用于瑞典战车。"
+
+msgid "ration_sweden/name"
+msgstr "咖啡与肉桂面包"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "仅适用于瑞典战车。"
+
+msgid "ration_sweden/short_special"
+msgstr "提升瑞典乘员的表现"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s乘员熟练度加成，效果持续整场战斗。"
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}乘员熟练度加成。"
+
+msgid "ration_uk/long_special"
+msgstr "战斗开始时会自动激活，效果持续整场战斗。仅适用于英国战车。"
+
+msgid "ration_uk/name"
+msgstr "红茶布丁"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "仅适用于英国战车。"
+
+msgid "ration_uk/short_special"
+msgstr "提升英国乘员的表现"
+
+msgid "recon/longDescr"
+msgstr "命令侦察机在大面积区域内直线侦察。在飞机视野范围内的战车将被侦察并保持一段时间内可见。可以探测雷区。"
+
+msgid "recon/name"
+msgstr "空中侦察"
+
+msgid "recon/shortDescr"
+msgstr "侦察敌方战车和雷区。"
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}发动机功率，但会对发动机造成伤害。"
+
+msgid "removedRpmLimiter/long_special"
+msgstr "提升{colorTagOpen}10%{colorTagClose}发动机功率，但是在激活时会逐渐损耗发动机血量。在一场战斗中可以多次激活和关闭。仅适用于中国和苏联战车。"
+
+msgid "removedRpmLimiter/name"
+msgstr "发动机调速器"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s发动机功率，但会对发动机造成伤害。一场战斗中可多次使用。"
+
+msgid "removedRpmLimiter/restriction"
+msgstr "仅适用于苏联和中国战车。"
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose}发动机功率但会对发动机造成伤害"
+
+msgid "repairpoint/battleDescr"
+msgstr "创建一片临时的静态区域，修复所有受损模块，移除所有负面效果，并在%(timer)s秒内每秒为您的战车恢复%(healPerTick)s血量。\n\n*效果范围内的队友战车也会恢复血量。"
+
+msgid "repairpoint/descr"
+msgstr "创建一片临时的静态区域，修复所有受损模块，移除所有负面效果，并在%(timer)s秒内每秒为您的战车恢复%(healPerTick)s血量。\n\n*效果范围内的队友战车也会恢复血量。"
+
+msgid "repairpoint/long_special"
+msgstr "创建一片临时的静态区域，修复所有受损模块、移除所有负面效果，并在{whiteSpanish_Open}%(timer)s秒内{whiteSpanish_Close}每秒为您的战车{green_Open}恢复%(healPerTick)s{green_Close}血量。\n\n*效果范围内的队友战车也会恢复血量。"
+
+msgid "repairpoint/name"
+msgstr "修复区"
+
+msgid "repairpoint/short_special"
+msgstr "创建一片临时的静态区域，修复所有受损模块、移除所有负面效果，并在{whiteSpanish_Open}%(timer)s秒内{whiteSpanish_Close}每秒为您的战车{green_Open}恢复%(healPerTick)s{green_Close}血量。\n\n*效果范围内的队友战车也会恢复血量。"
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "炮管膛线清理（类型1）"
+
+msgid "roleSlot/name"
+msgstr "第二个装备槽类别"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "被动安全系统"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "被动\n安全系统"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "弹药架重新配置"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "弹药架\n重新配置"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "易修复履带"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "易修复\n履带"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "发动机舱微调"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "发动机舱\n微调"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "悬挂强化"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "悬挂\n强化"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "悬挂轻量化"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "悬挂\n轻量化"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "瞄准齿轮研磨"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "瞄准齿轮\n研磨"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "视差调整"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "视差\n调整"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "退弹器调节"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "退弹器\n调节"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "直角潜望镜"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "直角\n潜望镜"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "装填机制调节"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "装填机制\n调节"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "瞄准机制调节"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "瞄准机制\n调节"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "动力分导调节"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "动力分导\n调节"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "电子瞄准驱动器"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "电子\n瞄准驱动器"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "全新瞄准齿轮"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "全新\n瞄准齿轮"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "炮闩微调"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "炮闩\n微调"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "整体重量减轻"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "整体重量\n减轻"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "整体耐久度提升"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "整体耐久度\n提升"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "雾面涂料"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "雾面\n涂料"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "额外倒挡"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "额外\n倒挡"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "顶置凸轮轴发动机"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "顶置凸轮轴\n发动机"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "输弹机改良"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "输弹机\n改良"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "额外隔音"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "额外\n隔音"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "衬垫移除"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "衬垫\n移除"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "辅助安全系统"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "辅助\n安全系统"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "安装点轻量化"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "安装点\n轻量化"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "动力供应重新分配（配置1）"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "动力供应\n重新分配（配置1）"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "动力供应重新分配（配置2）"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "动力供应\n重新分配（配置2）"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "平台强化"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "平台\n强化"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "平台轻量化"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "平台\n轻量化"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "机动性优先"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "机动性\n优先"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "火力优先"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "火力\n优先"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "火炮增重"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "火炮\n增重"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "火炮轻量化"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "火炮\n轻量化"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "动力输出调节（配置1）"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "动力输出\n调节（配置1）"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "动力输出调节（配置2）"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "动力输出\n调节（配置2）"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "车体强化"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "车体\n强化"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "车体轻量化"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "车体\n轻量化"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "光学镜防反光镀膜"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "光学镜\n防反光镀膜"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "外部视觉系统"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "外部视觉\n系统"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "全景三合镜"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "全景\n三合镜"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "狭角观测设备"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "狭角\n观测设备"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "主要结构强化"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "主要结构\n强化"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "炮塔舱扩充"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "炮塔舱\n扩充"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "侦察工具"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "侦察\n工具"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "突击工具"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "突击\n工具"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "先进耐久度强化"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "先进耐久度\n强化"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "先进瞄准改良"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "先进瞄准\n改良"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "额外观测设备"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "额外\n观测设备"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "结合点强化"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "结合点\n强化"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "装填机制调节"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "装填机制\n调节"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "瞄准机制调节"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "瞄准机制\n调节"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "动力分导调节"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "动力分导\n调节"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "电子瞄准驱动器"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "电子\n瞄准驱动器"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "炮闩微调"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "炮闩\n微调"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "全新瞄准齿轮"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "全新\n瞄准齿轮"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "喷射系统调节"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "喷射系统\n调节"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "视域调节"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "视域\n调节"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "模块耐久度提升"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "模块耐久度\n提升"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "轻合金安装点"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "轻合金\n安装点"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "炮闩微调"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "炮闩\n微调"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "全新瞄准齿轮"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "全新\n瞄准齿轮"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "大口径喷嘴"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "大口径\n喷嘴"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "敏感光学镜"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "敏感\n光学镜"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "支撑轮强化"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "支撑轮\n强化"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "支撑轮轻量化"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "支撑轮\n轻量化"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "悬挂微调"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "悬挂\n微调"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "发动机微调"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "发动机\n微调"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "猎人S套装"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "猎人S\n套装"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "猎人C套装"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "猎人C\n套装"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "液压调节（配置1）"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "液压\n调节（配置1）"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "阀门调节（配置2）"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "阀门\n调节（配置2）"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "装填机制调节"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "装填机制\n调节"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "瞄准机制调节"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "瞄准机制\n调节"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "生存能力提升"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "生存能力\n提升"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "重量减轻"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "重量\n减轻"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "全地形悬挂"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "全地形\n悬挂"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "悬挂轻量化"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "悬挂\n轻量化"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "视差调整"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "视差\n调整"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "瞄准齿轮研磨"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "瞄准齿轮\n研磨"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "声音隔绝"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "声音\n隔绝"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "潜望镜电驱动器"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "潜望镜\n电驱动器"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "阀门调节（配置1）"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "阀门调节\n（配置1）"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "阀门调节（配置2）"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "阀门调节\n（配置2）"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "装填机制调节"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "装填机制\n调节"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "瞄准机制调节"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "瞄准机制\n调节"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "崩落防护强化"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "崩落防护\n强化"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "崩落防护轻量化"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "崩落防护\n轻量化"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "模块耐久度提升"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "模块耐久度\n提升"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "轻合金安装点"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "轻合金\n安装点"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "悬挂臂调节"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "悬挂臂\n调节"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "视线改良"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "视线\n改良"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "涡轮增压器调节"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "涡轮增压器\n调节"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "车头灯防反光镀膜"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "车头灯\n防反光镀膜"
+
+msgid "selfBuff/battleDescr"
+msgstr "火炮散布误差降低且瞄准时间缩短%(gunAimingTime)s，并提升火炮的稳定性和射速，持续%(duration)s秒。\n\n*不影响发射一发炮弹后，直到弹匣、火炮或短弹匣中装填下一发炮弹之间的间隔时间。"
+
+msgid "selfBuff/descr"
+msgstr "火炮散布误差降低且瞄准时间缩短%(gunAimingTime)s，并提升火炮的稳定性和射速，持续%(duration)s秒。\n\n*不影响发射一发炮弹后，直到弹匣、火炮或短弹匣中装填下一发炮弹之间的间隔时间。"
+
+msgid "selfBuff/longDescr"
+msgstr "火炮散布误差降低且{green_Open}瞄准时间缩短%(gunAimingTime)s{green_Close}，并提升火炮的稳定性和射速，{whiteSpanish_Open}持续%(duration)s秒{whiteSpanish_Close}。\n\n*不影响发射一发炮弹后，直到弹匣、火炮或短弹匣中装填下一发炮弹之间的间隔时间。"
+
+msgid "selfBuff/name"
+msgstr "目标追踪"
+
+msgid "selfBuff/shortDescr"
+msgstr "火炮散布误差降低且{green_Open}瞄准时间缩短%(gunAimingTime)s{green_Close}，并提升火炮的稳定性和射速，{whiteSpanish_Open}持续%(duration)s秒{whiteSpanish_Close}。\n\n*不影响发射一发炮弹后，直到弹匣、火炮或短弹匣中装填下一发炮弹之间的间隔时间。"
+
+msgid "shells_consumables_switch/name"
+msgstr "替代配置：核心武装"
+
+msgid "shotPassion/battleDescr"
+msgstr "炮控效率和火炮稳定性降低%(gunAimingTime)s，但您每次造成击穿都会使您的伤害提高%(damageIncreasePerShot)s，持续%(duration)s秒。效果可叠加5层。未造成伤害或未命中的射击重置伤害加成为0层。\n\n*电流猛击命中同样会增加伤害加成层数。"
+
+msgid "shotPassion/descr"
+msgstr "炮控效率和火炮稳定性降低%(gunAimingTime)s，但您每次造成击穿都会使您的伤害提高%(damageIncreasePerShot)s，持续%(duration)s秒。效果可叠加5层。未造成伤害或未命中的射击重置伤害加成为0层。\n\n*电流猛击命中同样会增加伤害加成层数。"
+
+msgid "shotPassion/longDescr"
+msgstr "炮控效率和火炮稳定性降低{red_Open}%(gunAimingTime)s{red_Close}，但您每次造成击穿都会使您的伤害提高{green_Open}%(damageIncreasePerShot)s{green_Close}，持续{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}。效果{whiteSpanish_Open}可叠加5层{whiteSpanish_Close}。未造成伤害或未命中的射击重置伤害加成为0层。\n\n*电流猛击命中同样会增加伤害加成层数。"
+
+msgid "shotPassion/name"
+msgstr "斗志渐涨"
+
+msgid "shotPassion/shortDescr"
+msgstr "炮控效率和火炮稳定性降低{red_Open}%(gunAimingTime)s{red_Close}，但您每次造成击穿都会使您的伤害提高{green_Open}%(damageIncreasePerShot)s{green_Close}，持续{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}。效果{whiteSpanish_Open}可叠加5层{whiteSpanish_Close}。未造成伤害或未命中的射击重置伤害加成为0层。\n\n*电流猛击命中同样会增加伤害加成层数。"
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "第六感提前1秒激活"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "第六感专长让车长能够确定自己的战车是否已被敌人侦察到。在战车被敌人侦察到的3秒后激活。"
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "“第六感”特长让车长可以确定自己的战车是否已被敌人侦察，持续整场战斗。安装此指令将提高其效果。"
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "提升集中力"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "提升第六感车长专长的效果"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "治疗所有受伤乘员并移除震晕效果。"
+
+msgid "smallMedkit/long_special"
+msgstr "激活时治疗所有受伤的乘员并移除震晕效果。该消耗品适用于所有国家的所有车型。消耗品一旦使用过一次，就会在战斗后被移除。"
+
+msgid "smallMedkit/name"
+msgstr "小急救包"
+
+msgid "smallMedkit/onUse"
+msgstr "治疗所有受伤乘员并移除震晕效果。"
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "治疗所有受伤乘员并移除震晕效果。"
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "治疗所有受伤乘员并移除震晕效果。"
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "修复所有受损模块。"
+
+msgid "smallRepairkit/long_special"
+msgstr "激活时修复所有受损模块。适用于所有国家的所有车型。消耗品一旦使用过一次，就会在战斗后被移除。"
+
+msgid "smallRepairkit/name"
+msgstr "小修理箱"
+
+msgid "smallRepairkit/onUse"
+msgstr "修复所有受损模块。适用于所有国家所有车型。消耗品一旦使用过一次，就会在战斗后被移除。"
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "修复所有受损模块。"
+
+msgid "smoke/longDescr"
+msgstr "放置烟幕，隐藏烟幕中及烟幕后方的所有战车。降低烟幕中敌方战车的视野范围和乘员表现。"
+
+msgid "smoke/name"
+msgstr "烟幕"
+
+msgid "smoke/shortDescr"
+msgstr "烟雾可隐藏当中与后方的所有战车。烟雾中敌方战车的视野范围与乘员表现会降低。"
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "“平稳驾驶”特长效果翻倍"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "使“平稳驾驶”特长训练至100%"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "“平稳驾驶”特长会提高移动时射击的准度，持续整场战斗。如果特长已训练至100%，安装此指令将提高其效果；如未达到，此指令会为战车提供已训练至100%的特长。"
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "精密变速箱"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "使“平稳驾驶”特长训练至100%或增强其效果"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "“人工稳定”特长效果翻倍"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "使“人工稳定”特长训练至100%"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "“人工稳定”特长会提高炮塔旋转时射击的准度，持续整场战斗。如果特长已训练至100%，安装此指令将提高其效果，如未达到，此指令会为战车提供已训练至100%的特长。"
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "稳定之手"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "使“人工稳定”特长训练至100%或增强其效果"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "部署自走地雷战车，%(botLifeTime)s秒内自动追踪最近的敌人并在自爆时小范围内造成400到600点伤害。\n\n*敌人可通过射击或撞击该自爆战车将其摧毁。自爆战车在触及目标时会造成额外的撞击伤害。"
+
+msgid "spawn_kamikaze/descr"
+msgstr "部署自走地雷战车，%(botLifeTime)s秒内自动追踪最近的敌人并在自爆时小范围内造成400到600点伤害。\n\n*敌人可通过射击或撞击该自爆战车将其摧毁。自爆战车在触及目标时会造成额外的撞击伤害。"
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "部署自走地雷战车，{whiteSpanish_Open}%(botLifeTime)s秒{whiteSpanish_Close}内自动追踪最近的敌人并在自爆时小范围内造成{whiteSpanish_Open}400到600点伤害{whiteSpanish_Close}。\n\n*敌人可通过射击或撞击该自爆战车将其摧毁。自爆战车在触及目标时会造成额外的撞击伤害。"
+
+msgid "spawn_kamikaze/name"
+msgstr "自爆战车"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "部署自走地雷战车，{whiteSpanish_Open}%(botLifeTime)s秒{whiteSpanish_Close}内自动追踪最近的敌人并在自爆时小范围内造成{whiteSpanish_Open}400到600点伤害{whiteSpanish_Close}。\n\n*敌人可通过射击或撞击该自爆战车将其摧毁。自爆战车在触及目标时会造成额外的撞击伤害。"
+
+msgid "stealthRadar/descr"
+msgstr "提供隐蔽性和视野范围加成。降低敌方战车的隐蔽性。"
+
+msgid "stealthRadar/long_descr"
+msgstr "静止%(activationDelay)s秒后，提升您战车的隐蔽性参数并降低敌方战车的隐蔽性。对视野范围提供被动加成并探测敌方地雷。在战车移动时失效。"
+
+msgid "stealthRadar/name"
+msgstr "哨兵"
+
+msgid "stealthRadar/short_descr"
+msgstr "提供隐蔽性和视野范围加成。降低敌方战车的隐蔽性。"
+
+msgid "stereoscope/battleDescr"
+msgstr "战车静止3秒后提高视野范围（最高445米）"
+
+msgid "stereoscope/long_special"
+msgstr "良好的视野范围在战斗中将提供巨大的优势。这种类型的装备对轮廓低矮且火炮精准的坦克歼击车有益。效果在战车停止移动3秒后激活。"
+
+msgid "stereoscope/name"
+msgstr "炮队镜"
+
+msgid "stereoscope_tier1/name"
+msgstr "1级炮队镜"
+
+msgid "stereoscope_tier2/name"
+msgstr "2级炮队镜"
+
+msgid "stereoscope_tier3/name"
+msgstr "3级炮队镜"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "替代悬挂零件（类型1）"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "替代悬挂零件（类型2）"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "转动机制研磨（类型1）"
+
+msgid "tankRammer/name"
+msgstr "输弹机"
+
+msgid "tankRammer_tier1/name"
+msgstr "1级输弹机"
+
+msgid "tankRammer_tier2/name"
+msgstr "2级输弹机"
+
+msgid "thunderStrike/battleDescr"
+msgstr "创建一个会释放%(thunderCount)s次高频率电击的区域。每次电击都会对能力效果范围内的所有敌方战车造成%(damage)s点伤害并暂时降低其机动性。\n\n*能力激活到第一次电击之间有%(delay)s秒的延迟。修理箱可移除此负面效果。"
+
+msgid "thunderStrike/descr"
+msgstr "创建一个会释放%(thunderCount)s次电击的区域。每次电击都会对能力效果范围内的所有敌方战车造成%(damage)s点伤害并暂时降低其机动性。\n\n*能力激活到第一次电击之间有%(delay)s秒的延迟。修理箱可移除此负面效果。"
+
+msgid "thunderStrike/longDescr"
+msgstr "创建一个会释放%(thunderCount)s次高频率电击的区域。每次电击都会对能力效果范围内的所有敌方战车造成{whiteSpanish_Open}%(damage)s点伤害{whiteSpanish_Close}并暂时降低其机动性。\n\n*能力激活到第一次电击之间有%(delay)s秒的延迟。修理箱可移除此负面效果。"
+
+msgid "thunderStrike/name"
+msgstr "电流猛击"
+
+msgid "thunderStrike/shortDescr"
+msgstr "创建一个会释放%(thunderCount)s次高频率电击的区域。每次电击都会对能力效果范围内的所有敌方战车造成{whiteSpanish_Open}%(damage)s点伤害{whiteSpanish_Close}并暂时降低其机动性。\n\n*能力激活到第一次电击之间有%(delay)s秒的延迟。修理箱可移除此负面效果。"
+
+msgid "trappoint/battleDescr"
+msgstr "创建一个区域，降低范围内所有敌方战车的%(vehicleMaxSpeed)s机动性参数，并延长%(gunReloadTime)s其火炮装填和瞄准时间，持续%(duration)s秒。"
+
+msgid "trappoint/descr"
+msgstr "创建一个区域，降低范围内所有敌方战车的%(vehicleMaxSpeed)s机动性参数，并延长%(gunReloadTime)s其火炮装填和瞄准时间，持续%(duration)s秒。"
+
+msgid "trappoint/long_special"
+msgstr "创建一个区域，降低范围内所有敌方战车的{whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close}机动性参数，并延长{whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close}其火炮装填和瞄准时间，持续{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}。"
+
+msgid "trappoint/name"
+msgstr "陷阱"
+
+msgid "trappoint/short_special"
+msgstr "创建一个区域，降低范围内所有敌方战车的{whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close}机动性参数，并延长{whiteSpanish_Open}%(gunReloadTime)s{whiteSpanish_Close}其火炮装填和瞄准时间，持续{whiteSpanish_Open}%(duration)s秒{whiteSpanish_Close}。"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "效率取决于战车类型。提高战车静止或移动时的隐蔽性。在主动侦察时，以及在高风险位置被动侦察时较为有效。"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "赏金排气系统"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "提高战车静止或移动时的隐蔽性。"
+
+msgid "trophyBasicAimDrives/name"
+msgstr "赏金炮控系统"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "提高火炮瞄准速度以更快进行精准射击。"
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "赏金稳定器"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "降低移动和战车转向时的火炮散布误差。"
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "赏金观察镜"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "同时提高战车静止和移动时的视野范围。"
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "修复后完全恢复悬挂血量。"
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "修复后恢复悬挂。"
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "提升战车耐久度和修复速度。降低受冲击时悬挂损伤造成的车体伤害。修复后完全恢复悬挂血量。降低受到伤害时履带摧毁的几率，使您的战车尽可能久地保持移动能力。"
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "赏金战车硬化"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "提升战车的耐久度，保护悬挂"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "赏金战车配置"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "赏金转动机制"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "降低瞄准圈大小以提升一般瞄准或完全瞄准时的准度。因此，您的火炮将拥有更高的命中率。"
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "赏金瞄准镜"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "降低火炮散布误差"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "赏金通风系统"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "提升乘员的效率，增强战车的主要属性。"
+
+msgid "trophyBasicTankRammer/name"
+msgstr "赏金输弹机"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "加快火炮装填速度。无级别限制。"
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "提升发动机功率，提升加速能力、机动性和爬坡能力。提高战车最高前进和倒车速度，让您能更快抢占位置和躲避敌人的反击。"
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "赏金涡轮增压器"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "提升发动机功率和最高速度"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose}{arrow}视野范围，最高445米"
+
+msgid "trophyOptics/name"
+msgstr "赏金观察镜"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "赏金排气系统"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "赏金炮控系统"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "赏金稳定器"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "赏金观察镜"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "修复后完全恢复悬挂血量。"
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "修理后恢复悬吊。"
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "赏金战车硬化"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "赏金战车配置"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "赏金转动机制"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "赏金瞄准镜"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "赏金通风系统"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "赏金输弹机"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "赏金涡轮增压器"
+
+msgid "turbocharger/long_special"
+msgstr "提升发动机功率，提升加速能力、机动性和爬坡能力。提高战车最高前进和倒车速度，让您能更快抢占位置和躲避敌人的反击。"
+
+msgid "turbocharger/name"
+msgstr "涡轮增压器"
+
+msgid "turbocharger/short_special"
+msgstr "提升发动机功率和最高速度"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s 发动机功率——需安装赏金涡轮增压器、涡轮增压器(任意级别)、改进型涡轮增压器或机动性改良系统。"
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "在整场战斗中提升涡轮增压器（任意等级）、赏金涡轮增压器或改进型涡轮增压器的效果。指令仅在安装了对应装备时生效。"
+
+msgid "turbochargerBattleBooster/name"
+msgstr "替代燃油滤清器"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "提高发动机功率"
+
+msgid "turbocharger_tier1/name"
+msgstr "1级涡轮增压器"
+
+msgid "turbocharger_tier2/name"
+msgstr "2级涡轮增压器"
+
+msgid "turbocharger_tier3/name"
+msgstr "3级涡轮增压器"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "“甩尾”特长效果翻倍"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "使“甩尾”特长训练至100%"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "“甩尾”特长会提高战车静止和移动时的转向速度，持续整场战斗。如果特长已训练至100%，安装此指令将提高其效果，如未达到，此指令会为战车提供已训练至100%的特长。"
+
+msgid "virtuosoBattleBooster/name"
+msgstr "战斗导航"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "使“甩尾”特长训练至100%或增强其效果"

@@ -1,0 +1,467 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "addVehPopover/btnAdd"
+msgstr "加入 (%(count)d)"
+
+msgid "addVehPopover/btnCancel"
+msgstr "取消"
+
+msgid "addVehPopover/header"
+msgstr "選擇車輛來比較"
+
+msgid "addVehPopover/showOnlyMyVahicles"
+msgstr "顯示車庫裡的車輛"
+
+msgid "addVehPopover/tooltips/addToCompare/body"
+msgstr "加入所選車輛以比較"
+
+msgid "addVehPopover/tooltips/addToCompare/header"
+msgstr "加入"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/body"
+msgstr "想要加入車輛來比較，請從比較清單中移除一些車輛。"
+
+msgid "addVehPopover/tooltips/addToCompareDisabled/header"
+msgstr "無法加入"
+
+msgid "addVehPopover/tooltips/inHangar/body"
+msgstr "按照車庫中車輛來排序。"
+
+msgid "addVehPopover/tooltips/inHangar/header"
+msgstr "車庫中車輛"
+
+msgid "addVehPopover/tooltips/level/body"
+msgstr "按照車階來排序。"
+
+msgid "addVehPopover/tooltips/level/header"
+msgstr "車輛"
+
+msgid "addVehPopover/tooltips/nation/body"
+msgstr "按照國家來排序。"
+
+msgid "addVehPopover/tooltips/nation/header"
+msgstr "國家"
+
+msgid "addVehPopover/tooltips/selectVehicle/body"
+msgstr "按照所選車輛來排序。"
+
+msgid "addVehPopover/tooltips/selectVehicle/header"
+msgstr "所選車輛"
+
+msgid "addVehPopover/tooltips/title/body"
+msgstr "按照車輛名稱來排序。"
+
+msgid "addVehPopover/tooltips/title/header"
+msgstr "名稱"
+
+msgid "addVehPopover/tooltips/type/body"
+msgstr "按照車輛類型來排序。"
+
+msgid "addVehPopover/tooltips/type/header"
+msgstr "類型"
+
+msgid "addVehPopover/vehicleName"
+msgstr "名稱"
+
+msgid "cartPopover/configurationType/basic"
+msgstr "標準"
+
+msgid "cartPopover/configurationType/current"
+msgstr "目前"
+
+msgid "cartPopover/configurationType/custom"
+msgstr "自訂"
+
+msgid "cartPopover/configurationType/premium"
+msgstr "加值"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/attention"
+msgstr "想要加入車輛來比較，請從比較清單中移除不合適的車輛。"
+
+msgid "cartPopover/fullBasketCmpBtn/tooltip/header"
+msgstr "無法加入"
+
+msgid "cartPopover/gotoCompareBtn/label"
+msgstr "(%(value)s) 前往比較"
+
+msgid "cartPopover/openCmpBtn/tooltip/body"
+msgstr "前往比較所選車輛。"
+
+msgid "cartPopover/openCmpBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeAllBtn/label"
+msgstr "清除清單"
+
+msgid "cartPopover/removeAllBtn/tooltip/body"
+msgstr "移除比較清單中的所有車輛。"
+
+msgid "cartPopover/removeAllBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtn/tooltip/body"
+msgstr "點擊以從比較清單中移除車輛。"
+
+msgid "cartPopover/removeBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeBtnLocked/tooltip/body"
+msgstr "當配置視窗打開時無法從比較清單中移除車輛。"
+
+msgid "cartPopover/removeBtnLocked/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/removeLockedBtn/tooltip/body"
+msgstr "當配置視窗打開時無法從比較清單中移除車輛。"
+
+msgid "cartPopover/removeLockedBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "cartPopover/sorting/nation/body"
+msgstr "顯示所選車輛的國家。"
+
+msgid "cartPopover/sorting/nation/header"
+msgstr "國家"
+
+msgid "cartPopover/sorting/vehLvl/body"
+msgstr "顯示所選車輛的階級。"
+
+msgid "cartPopover/sorting/vehLvl/header"
+msgstr "階級"
+
+msgid "cartPopover/sorting/vehName"
+msgstr "名稱"
+
+msgid "cartPopover/sorting/vehName/tooltip/body"
+msgstr "顯示所選車輛的名稱。"
+
+msgid "cartPopover/sorting/vehName/tooltip/header"
+msgstr "名稱"
+
+msgid "cartPopover/sorting/vehType/body"
+msgstr "顯示所選車輛的類型。"
+
+msgid "cartPopover/sorting/vehType/header"
+msgstr "類型"
+
+msgid "cartPopover/title"
+msgstr "比較清單"
+
+msgid "compareVehicleBtn/tooltips/disabledOnServer/attention"
+msgstr "目前無法進行此操作。"
+
+msgid "header/closeBtn/label"
+msgstr "關閉"
+
+msgid "menu/cloneForCompare"
+msgstr "複製比較"
+
+msgid "modulesView/closeBtnLabel"
+msgstr "取消"
+
+msgid "modulesView/closeBtnLabel/tooltip/body"
+msgstr "點擊以取消當前選擇的配件並回到車輛配置。"
+
+msgid "modulesView/closeBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/compareBtnLabel"
+msgstr "接受"
+
+msgid "modulesView/compareBtnLabel/tooltip/body"
+msgstr "點擊以儲存選擇的配件並回到車輛配置。"
+
+msgid "modulesView/compareBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/resetBtnLabel"
+msgstr "重置"
+
+msgid "modulesView/resetBtnLabel/tooltip/body"
+msgstr "點擊以將車輛重置到標準配置。"
+
+msgid "modulesView/resetBtnLabel/tooltip/header"
+msgstr "?empty?"
+
+msgid "modulesView/title"
+msgstr "%(vehName)s 的配件配置"
+
+msgid "modulesView/vehicleStatus/inHangar"
+msgstr "車庫中"
+
+msgid "modulesView/vehicleStatus/readyToBuy"
+msgstr "未購買"
+
+msgid "modulesView/vehicleStatus/readyToResearch"
+msgstr "未研發"
+
+msgid "skillSelect/bonusSkills"
+msgstr "額外歷練"
+
+msgid "skillSelect/button/addToCompare"
+msgstr "加入比較"
+
+msgid "skillSelect/button/cancel"
+msgstr "取消"
+
+msgid "skillSelect/button/restore"
+msgstr "重置"
+
+msgid "skillSelect/majorSkills"
+msgstr "主要專長歷練"
+
+msgid "skillSelect/tooltip/additionalRoles"
+msgstr "額外專長："
+
+msgid "skillSelect/tooltip/generalPrinciple"
+msgstr "一般原則"
+
+msgid "skillSelect/tooltip/generalPrincipleDescription"
+msgstr "配置畫面顯示當歷練訓練至 {cream_Open}100%{cream_Close} 且歷練整體熟練度為 {cream_Open}100%{cream_Close} 時，歷練對相應特性帶來的影響。"
+
+msgid "skillSelect/tooltip/heading"
+msgstr "%(vehicleName)s 的乘員歷練"
+
+msgid "skillSelect/tooltip/roles"
+msgstr "專長"
+
+msgid "skillSelect/tooltipHint"
+msgstr "*將游標移動到歷練上方，來顯示當歷練訓練至 100% 且歷練整體熟練度為 100% 時，該歷練對相應特性帶來的影響。"
+
+msgid "skillsConf/empty"
+msgstr "選擇乘員歷練"
+
+msgid "skillsConf/emptyTooltip/body"
+msgstr "選擇歷練來查看其對車輛特性的影響"
+
+msgid "skillsConf/emptyTooltip/header"
+msgstr "乘員歷練"
+
+msgid "skillsConf/header"
+msgstr "乘員歷練"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "加入比較"
+
+msgid "store/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "您無法加入此車輛來比較。"
+
+msgid "store/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/body"
+msgstr "想要加入車輛來比較，請從比較清單中移除一些車輛。"
+
+msgid "store/compareVehicleBtn/tooltips/disabled/header"
+msgstr "無法加入"
+
+msgid "techTree/tooltips/addToCompare/body"
+msgstr "加入比較"
+
+msgid "techTree/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehConf/applyBtnLabel"
+msgstr "套用"
+
+msgid "vehConf/btnCleanUp"
+msgstr "清除"
+
+msgid "vehConf/cancelBtnLabel"
+msgstr "取消"
+
+msgid "vehConf/cancelBtnLabel/tooltip/body"
+msgstr "點擊以取消選擇的配置並返回比較。"
+
+msgid "vehConf/cancelBtnLabel/tooltip/header"
+msgstr "取消"
+
+msgid "vehConf/compareBtnLabel/tooltip/body"
+msgstr "點擊以儲存選擇的配置並返回比較。"
+
+msgid "vehConf/compareBtnLabel/tooltip/header"
+msgstr "套用"
+
+msgid "vehConf/confAvailable"
+msgstr "配置\n可用"
+
+msgid "vehConf/doesntAffect"
+msgstr "不會影響簡化的技術特性"
+
+msgid "vehConf/equipment"
+msgstr "裝備及消耗品"
+
+msgid "vehConf/header"
+msgstr "%(vehName)s 的配置"
+
+msgid "vehConf/modifications/choose"
+msgstr "選擇改裝"
+
+msgid "vehConf/modifications/title"
+msgstr "改裝"
+
+msgid "vehConf/modules"
+msgstr "配件"
+
+msgid "vehConf/resetBtnLabel"
+msgstr "重置"
+
+msgid "vehConf/resetBtnLabel/tooltip/body"
+msgstr "點擊以恢復預設的車輛配置。"
+
+msgid "vehConf/resetBtnLabel/tooltip/header"
+msgstr "重置"
+
+msgid "vehConf/tooltips/btnCleanUp/body"
+msgstr "點擊以從配置中移除選擇的裝備。"
+
+msgid "vehConf/tooltips/btnCleanUp/header"
+msgstr "清除"
+
+msgid "vehConf/tooltips/camoInfo"
+msgstr "透過套用夏季、冬季、及沙漠迷彩來提高您的車輛在各地圖類型上的隱蔽性。"
+
+msgid "vehConf/tooltips/camoInfoDisabled/body"
+msgstr "此全季節迷彩為車輛的一部分。它無法被移除或替換。"
+
+msgid "vehConf/tooltips/camoInfoDisabled/header"
+msgstr "全季節迷彩"
+
+msgid "vehConf/tooltips/camoTitle"
+msgstr "迷彩"
+
+msgid "vehConf/tooltips/defCamoInfo"
+msgstr "已安裝的 3 種迷彩類型\n是無法被移除的：冬季、夏季、沙漠。"
+
+msgid "vehConf/tooltips/deviceNotAffectedTTC"
+msgstr "不會影響車輛的技術特性"
+
+msgid "vehConf/tooltips/modifications/description"
+msgstr "選擇讓您根據車輛角色配置車輛並變更特性的改裝。"
+
+msgid "vehConf/tooltips/modifications/remove"
+msgstr "取消所有改裝"
+
+msgid "vehConf/tooltips/modifications/title"
+msgstr "改裝面板"
+
+msgid "vehConf/tooltips/revertBtn/body"
+msgstr "點擊以恢復預設的車輛配置。"
+
+msgid "vehConf/tooltips/revertBtn/header"
+msgstr "?empty?"
+
+msgid "vehConf/tooltips/topModulesLabel/body"
+msgstr "此車輛的其它配件為無法使用：車輛的配置是固定的。"
+
+msgid "vehConf/tooltips/topModulesLabel/header"
+msgstr "頂級配置"
+
+msgid "vehConf/tooltips/topModulesOff/body"
+msgstr "點擊以選擇車輛的最佳配件。"
+
+msgid "vehConf/tooltips/topModulesOff/header"
+msgstr "頂級配置"
+
+msgid "vehConf/tooltips/topModulesOn/body"
+msgstr "點擊以取消選擇頂級配置。"
+
+msgid "vehConf/tooltips/topModulesOn/header"
+msgstr "頂級配置"
+
+msgid "vehConf/topModulesBtnLabel"
+msgstr "選擇頂級配置"
+
+msgid "vehConf/topModulesLabel"
+msgstr "頂級配置"
+
+msgid "vehPreview/compareInfo/addToCompare"
+msgstr "加入比較──"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/body"
+msgstr "加入比較"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/addToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/body"
+msgstr "您無法加入此車輛來比較。"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/canNotAddToCompare/header"
+msgstr "?empty?"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/body"
+msgstr "想要加入車輛來比較，請從比較清單中移除一些車輛。"
+
+msgid "vehPreview/compareVehicleBtn/tooltips/disabled/header"
+msgstr "無法加入"
+
+msgid "vehicleCompareView/btnAddVehicles"
+msgstr "加入比較"
+
+msgid "vehicleCompareView/configurationType/basic"
+msgstr "標準"
+
+msgid "vehicleCompareView/configurationType/current"
+msgstr "目前"
+
+msgid "vehicleCompareView/configurationType/custom"
+msgstr "自訂"
+
+msgid "vehicleCompareView/configure"
+msgstr "配置"
+
+msgid "vehicleCompareView/toHangar"
+msgstr "在車庫中檢視"
+
+msgid "vehicleCompareView/toPreview"
+msgstr "預覽"
+
+msgid "vehicleCompareView/tooltips/addVehicles/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/addVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/configure/body"
+msgstr "點擊以選擇影響技術特性的參數。"
+
+msgid "vehicleCompareView/tooltips/configure/header"
+msgstr "配置參數"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/body"
+msgstr "點擊以從比較中移除所有車輛。"
+
+msgid "vehicleCompareView/tooltips/removeAllVehicles/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/body"
+msgstr "從比較中移除。"
+
+msgid "vehicleCompareView/tooltips/removeFromCompare/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toHangar/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/body"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/tooltips/toPreview/header"
+msgstr "?empty?"
+
+msgid "vehicleCompareView/topPanel/noVehicle"
+msgstr "尚未選擇車輛"
+
+msgid "vehicleCompareView/topPanel/premium"
+msgstr "加值"
+
+msgid "vehicleCompareView/topPanel/vehiclesCount"
+msgstr "用來比較的車輛：%(count)s"

@@ -1,0 +1,713 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "PersonalMissionAwardView/award/freeSheet"
+msgstr "您获得了一个命令！"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/additionalAwards"
+msgstr "完美完成所有任务的奖励"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/mainAwards"
+msgstr "主要奖励"
+
+msgid "PersonalMissionAwardView/subTitle"
+msgstr "点击您的昵称选择并装备一个徽章。"
+
+msgid "PersonalMissionAwardView/title"
+msgstr "完成行动获得的徽章！"
+
+msgid "PersonalMissionAwardView/title/one"
+msgstr "%(vehicleName)s\"行动\"获得的徽章！"
+
+msgid "PersonalMissionAwardView/title/perfect"
+msgstr "由于完美完成任务，您获得了徽章奖励！"
+
+msgid "PersonalMissionFirstEntryView/acknowledgeBtn"
+msgstr "收到!"
+
+msgid "PersonalMissionFirstEntryView/detailedDescription/btnBack"
+msgstr "返回"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintChassis"
+msgstr "悬挂蓝图"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintEngine"
+msgstr "发动机蓝图"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintGun"
+msgstr "火炮蓝图"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHull"
+msgstr "车体蓝图"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHullAndTurret"
+msgstr "车体和炮塔蓝图"
+
+msgid "PersonalMissionsPlanRegion/mainAward/chassis"
+msgstr "悬挂"
+
+msgid "PersonalMissionsPlanRegion/mainAward/engine"
+msgstr "火力单位"
+
+msgid "PersonalMissionsPlanRegion/mainAward/gun"
+msgstr "火炮"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hull"
+msgstr "车体"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hullAndTurret"
+msgstr "车体和炮塔"
+
+msgid "PersonalMissionsPlanRegion/mainAward/radio"
+msgstr "通信设备"
+
+msgid "alliance/0/details"
+msgstr "联队军队登陆和推进的集结地。"
+
+msgid "alliance/0/name"
+msgstr "联队"
+
+msgid "alliance/1/details"
+msgstr "集团军队登陆和推进的集结地。"
+
+msgid "alliance/1/name"
+msgstr "集团"
+
+msgid "alliance/2/details"
+msgstr "同盟军队登陆和推进的集结地。"
+
+msgid "alliance/2/name"
+msgstr "同盟"
+
+msgid "alliance/3/details"
+msgstr "阵营军队登陆和推进的集结地。"
+
+msgid "alliance/3/name"
+msgstr "阵营"
+
+msgid "awardsScreen/acceptBtn/label"
+msgstr "收到!"
+
+msgid "awardsScreen/closeBtn/label"
+msgstr "关闭"
+
+msgid "awardsScreen/description/emailConfirmation"
+msgstr "成功确认您的邮箱"
+
+msgid "awardsScreen/header"
+msgstr "已完成%(missionName)s行动"
+
+msgid "awardsScreen/header/fullyCompleted"
+msgstr "已完美地完成%(missionName)s行动"
+
+msgid "awardsScreen/headerExtra"
+msgstr "获得奖励!"
+
+msgid "awardsView/closeBtn/label"
+msgstr "关闭"
+
+msgid "awardsView/description"
+msgstr "行动的主要奖励"
+
+msgid "awardsView/mainAwards/title"
+msgstr "主要奖励"
+
+msgid "awardsView/vehicleAward/mainAward"
+msgstr "主要奖励"
+
+msgid "bonus/descr/attempts/card"
+msgstr "完成次要目标，当前进度就会增加%(value)s。"
+
+msgid "bonus/descr/attempts/postBattle"
+msgstr "任务主要部分的进度增加%(value)s。"
+
+msgid "bonus/descr/progress/card"
+msgstr "完成次要目标，在同场战斗中取得的主要目标进度就会增加至%(value)s倍。"
+
+msgid "bonus/descr/progress/postBattle"
+msgstr "在这场战斗中取得的主要目标进度已增加至%(value)s倍。"
+
+msgid "bonus/multiplier/attempts"
+msgstr "进度加速："
+
+msgid "bonus/multiplier/progress"
+msgstr "x%(value)s加成："
+
+msgid "chainTooltipData/description/text/alliance0"
+msgstr "行动任务只能使用特定国家的战车完成。"
+
+msgid "chainTooltipData/description/text/alliance1"
+msgstr "行动任务只能使用特定国家的战车完成。"
+
+msgid "chainTooltipData/description/text/alliance2"
+msgstr "行动任务只能使用特定国家的战车完成。"
+
+msgid "chainTooltipData/description/text/alliance3"
+msgstr "行动任务只能使用特定国家的战车完成。"
+
+msgid "chainTooltipData/description/title"
+msgstr "描述："
+
+msgid "conditions/battlesLeft/bottomLabel"
+msgstr "剩余战斗：%(count)s"
+
+msgid "conditions/biathlon/label/add"
+msgstr "在%(limit)s场战斗中的%(goal)s场完成附加目标"
+
+msgid "conditions/biathlon/label/main"
+msgstr "在%(limit)s场战斗中的%(goal)s场完成主要目标"
+
+msgid "conditions/completed/bottomLabel"
+msgstr "已完成"
+
+msgid "conditions/counter/label/add"
+msgstr "完成指定次数的附加目标：%(count)s"
+
+msgid "conditions/counter/label/main"
+msgstr "完成指定次数的主要目标：%(count)s"
+
+msgid "conditions/currentProgress/bottomLabel"
+msgstr "已完成：%(currentProgress)s"
+
+msgid "conditions/failed/bottomLabel"
+msgstr "失败"
+
+msgid "conditions/limited/label/add"
+msgstr "在指定场次战斗中完成附加目标：%(count)s"
+
+msgid "conditions/limited/label/main"
+msgstr "在指定场次战斗中完成主要目标：%(count)s"
+
+msgid "conditions/limiter/label"
+msgstr "限制！"
+
+msgid "conditions/orGroup"
+msgstr "或"
+
+msgid "conditions/series/label/add"
+msgstr "连续%(count)s场战斗完成目标"
+
+msgid "conditions/series/label/main"
+msgstr "连续%(count)s场战斗完成目标"
+
+msgid "conditions/unlimited/label/add"
+msgstr "在任意场次战斗中完成附加目标"
+
+msgid "conditions/unlimited/label/main"
+msgstr "在任意场次战斗中完成主要目标"
+
+msgid "detailedView/completeBtnLabel"
+msgstr "用%(count)d %(icon)s完成"
+
+msgid "detailedView/conditionLabel"
+msgstr "条件"
+
+msgid "detailedView/conditionsFullylabel"
+msgstr "完美完成"
+
+msgid "detailedView/conditionslabel"
+msgstr "主要目标"
+
+msgid "detailedView/discardBtnLabel"
+msgstr "重置"
+
+msgid "detailedView/infoPanel/header"
+msgstr "说明和提示"
+
+msgid "detailedView/orCondition"
+msgstr "或"
+
+msgid "detailedView/recruitBtnLabel"
+msgstr "领取奖励"
+
+msgid "detailedView/retryBtnLabel"
+msgstr "完美完成"
+
+msgid "detailedView/startBtnLabel"
+msgstr "开始"
+
+msgid "detailedView/status/NA"
+msgstr "不可用"
+
+msgid "detailedView/status/completed"
+msgstr "主要目标已完成"
+
+msgid "detailedView/status/fullyCompleted"
+msgstr "完美完成"
+
+msgid "detailedView/status/inProgress"
+msgstr "已开始"
+
+msgid "detailedView/status/returnSheet"
+msgstr "已交付:%(icon)sx1"
+
+msgid "detailedView/status/sheetUsed"
+msgstr "达成获得%(icon)sx1"
+
+msgid "detailedView/tooltips/additionalConditions/body"
+msgstr "这是达成完美完成任务并获得额外奖励所必须与主要目标同时完成的目标。"
+
+msgid "detailedView/tooltips/additionalConditions/header"
+msgstr "附加目标"
+
+msgid "detailedView/tooltips/commonConditions/body"
+msgstr "这是完成任务获得主要奖励所必须完成的作战目标。"
+
+msgid "detailedView/tooltips/commonConditions/header"
+msgstr "主要目标"
+
+msgid "detailedView/tooltips/discardBtn/body"
+msgstr "点击已重置任务全部当前进度。"
+
+msgid "detailedView/tooltips/discardBtn/header"
+msgstr "重置进度"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/body"
+msgstr "点击交付一个任务命令并完成主要目标。"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/body"
+msgstr "要得到命令，需要完美完成任意行动分支的最终任务。"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/header"
+msgstr "没有足够的命令"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/header"
+msgstr "交付命令"
+
+msgid "detailedView/tooltips/locked"
+msgstr "附加目标在达成主要目标后才开始统计。"
+
+msgid "detailedView/tooltips/recruitBtn/body"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/recruitBtn/header"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/retryBtn/body"
+msgstr "点击，通过达成主要和附加目标以提高战绩。"
+
+msgid "detailedView/tooltips/retryBtn/header"
+msgstr "完美完成"
+
+msgid "detailedView/tooltips/returnAwardListBtn/body"
+msgstr "点击完成主要目标和附加目标。如果您完美完成任务，将能回收您的命令。"
+
+msgid "detailedView/tooltips/returnAwardListBtn/header"
+msgstr "回收命令"
+
+msgid "detailedView/tooltips/startBtn/body"
+msgstr "点击开始任务。达成目标并领取您的奖励。"
+
+msgid "detailedView/tooltips/startBtn/header"
+msgstr "开始"
+
+msgid "fourFreeSheetsObtainedPopup/button"
+msgstr "继续"
+
+msgid "fourFreeSheetsObtainedPopup/header"
+msgstr "可用战车"
+
+msgid "fourFreeSheetsObtainedPopup/pm2/descr"
+msgstr "向%(questName)s任务提交3项命令以获得缺少的战车蓝图。"
+
+msgid "fourFreeSheetsObtainedPopup/pm2/pawnedDescr"
+msgstr "从任务中恢复%(pawnedCount)s项命令以便向%(questName)s提交3项命令来获得缺少的战车蓝图。"
+
+msgid "fourFreeSheetsObtainedPopup/regular/descr"
+msgstr "向%(questName)s任务提交4项命令以获得缺少的战车零件。"
+
+msgid "fourFreeSheetsObtainedPopup/regular/pawnedDescr"
+msgstr "从任务回收%(pawnedCount)s枚命令，用于为任务%(questName)s交付4枚命令并获得缺失的战车零件。"
+
+msgid "freeSheetObtainedPopup/pm2/descrLeft"
+msgstr "您可以使用命令来完成“第二前线”战役中的任意一组任务。"
+
+msgid "freeSheetObtainedPopup/pm2/descrRight"
+msgstr "完美完成“第二前线”战役中任意分支的最终任务。"
+
+msgid "freeSheetObtainedPopup/pm2/title"
+msgstr "您收到了一个“第二前线”战役的命令"
+
+msgid "freeSheetObtainedPopup/pm2/titleLeft"
+msgstr "如何使用"
+
+msgid "freeSheetObtainedPopup/pm2/titleRight"
+msgstr "如何获得"
+
+msgid "freeSheetObtainedPopup/regular/descrLeft"
+msgstr "您可以使用命令来完成\n分支中的任何任务。"
+
+msgid "freeSheetObtainedPopup/regular/descrRight"
+msgstr "完美完成任意分支的最终任务。"
+
+msgid "freeSheetObtainedPopup/regular/title"
+msgstr "您获得了一个命令"
+
+msgid "freeSheetObtainedPopup/regular/titleLeft"
+msgstr "如何使用"
+
+msgid "freeSheetObtainedPopup/regular/titleRight"
+msgstr "如何获得"
+
+msgid "freeSheetPopover/freeSheetsInfo/descr"
+msgstr "完成分支最终任务。"
+
+msgid "freeSheetPopover/freeSheetsInfo/title"
+msgstr "可用：%(count)d"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr"
+msgstr "想回收已交付的命令,请再次完美完成该任务。"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr/noOne"
+msgstr "您可以使用命令来完成\n分支中的任何任务。"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/title"
+msgstr "任务交付:%(count)d"
+
+msgid "freeSheetPopover/title"
+msgstr "命令"
+
+msgid "header/backBtn/descrLabel/campaign"
+msgstr "前往地图"
+
+msgid "header/backBtn/descrLabel/hangar"
+msgstr "前往车库"
+
+msgid "header/backBtn/descrLabel/operation"
+msgstr "前往行动"
+
+msgid "header/backBtn/label"
+msgstr "返回"
+
+msgid "navigation/backButton/assembling"
+msgstr "前往组装"
+
+msgid "navigation/backButton/campaignSelector"
+msgstr "前往行动地图"
+
+msgid "navigation/backButton/dashboard"
+msgstr "前往行动"
+
+msgid "navigation/backButton/missions"
+msgstr "前往任务"
+
+msgid "navigation/backButton/rewards"
+msgstr "前往行动奖励"
+
+msgid "operationInfo/awardsButton/label"
+msgstr "行动奖励"
+
+msgid "operationInfo/chainVehReq"
+msgstr "%(minLevel)s-%(maxLevel)s级%(vehs)s"
+
+msgid "operationInfo/label"
+msgstr "战役"
+
+msgid "operationInfo/operationBtn/postponed/days"
+msgstr "%(days)s天"
+
+msgid "operationInfo/operationBtn/postponed/lessThanDay"
+msgstr "少于1天"
+
+msgid "operationInfo/title"
+msgstr "行动地图"
+
+msgid "operationTitle/label/done"
+msgstr "命令: %(icon)s%(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/excellentDone"
+msgstr "完美完成所有任务"
+
+msgid "operationTitle/label/inProgress/pm2"
+msgstr "可用%(vehData)s中的战车完成"
+
+msgid "operationTitle/label/inProgress/regular"
+msgstr "可用%(vehData)s分支的战车完成"
+
+msgid "operationTitle/label/locked"
+msgstr "不可用:请完成上一个行动"
+
+msgid "operationTitle/label/noVehicle/pm2"
+msgstr "不可用：没有符合%(vehData)s的s战车"
+
+msgid "operationTitle/label/noVehicle/regular"
+msgstr "不可用：没有%(vehData)s分支的战车"
+
+msgid "operationTitle/label/notStarted"
+msgstr "%(currentOperation)s行动已可用！%(infoIcon)s"
+
+msgid "operationTitle/label/notStartedNoVehicle"
+msgstr "不可用：个人任务仅限以%(minLevel)s级或更高等级的战车完成"
+
+msgid "operationTitle/label/toMaster"
+msgstr "任务，已完美完成：%(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/unlocked/pm2"
+msgstr "为%(vehData)s中的战车选择一个任务"
+
+msgid "operationTitle/label/unlocked/regular"
+msgstr "为%(vehData)s分支的战车选择一个任务"
+
+msgid "operationTitle/title"
+msgstr "行动：%(title)s"
+
+msgid "operationUnlockedWindow/awardText"
+msgstr "祝贺！现在您可以继续完成%(title)s行动了。"
+
+msgid "operationUnlockedWindow/descr"
+msgstr "按下%(label)s来选择任务并尝试获得新奖励。"
+
+msgid "operationUnlockedWindow/header"
+msgstr "行动：%(title)s"
+
+msgid "operationUnlockedWindow/nextButton"
+msgstr "开始"
+
+msgid "operationUnlockedWindow/title"
+msgstr "已解锁行动"
+
+msgid "operations/completed/desc"
+msgstr "获得的战车"
+
+msgid "operations/current/desc"
+msgstr "已开始"
+
+msgid "operations/fullyCompleted/desc"
+msgstr "完美完成"
+
+msgid "operations/locked/desc"
+msgstr "不可用"
+
+msgid "operations/title1"
+msgstr "StuG IV"
+
+msgid "operations/title10"
+msgstr "Black Rock"
+
+msgid "operations/title2"
+msgstr "T28 HTC"
+
+msgid "operations/title3"
+msgstr "T 55A"
+
+msgid "operations/title4"
+msgstr "Object 260"
+
+msgid "operations/title5"
+msgstr "Excalibur"
+
+msgid "operations/title6"
+msgstr "Chimera"
+
+msgid "operations/title7"
+msgstr "Object 279 (e)"
+
+msgid "operations/title8"
+msgstr "Windhund"
+
+msgid "operations/title9"
+msgstr "Dravec"
+
+msgid "operations/unlocked/desc"
+msgstr "可用"
+
+msgid "pages/button/infopage/description"
+msgstr "关于个人任务"
+
+msgid "pages/button/video/description"
+msgstr "观看个人任务的介绍视频"
+
+msgid "personalMissions/tankgirlsPopover/recruitBtn"
+msgstr "征募"
+
+msgid "personalMissions/tankgirlsPopover/title"
+msgstr "女性乘员"
+
+msgid "personalMissions/video/title"
+msgstr "更新介绍视频"
+
+msgid "questAwardScreen/continueBtn/label"
+msgstr "继续"
+
+msgid "questAwardScreen/nextQuest/title/questAccept"
+msgstr "接下来的任务已被自动接受："
+
+msgid "questAwardScreen/nextQuest/title/questImprove"
+msgstr "您将自动继续提升接下来的任务结果："
+
+msgid "questAwardScreen/nextQuestBtn/label"
+msgstr "下个任务"
+
+msgid "questAwardScreen/okBtn/label"
+msgstr "收到!"
+
+msgid "questAwardScreen/operation"
+msgstr "行动%(operation)s"
+
+msgid "questAwardScreen/quest"
+msgstr "任务\"%(quest)s\"已完成"
+
+msgid "questAwardScreen/recruitBtn/label"
+msgstr "征募"
+
+msgid "questProgressTracking/status/onPause"
+msgstr "暂停"
+
+msgid "questProgressTracking/trackingStatus"
+msgstr "正在同时完成两个任务"
+
+msgid "questStatus/tankCondition"
+msgstr "不适用于所选战车"
+
+msgid "sidebar/completed"
+msgstr "已完成"
+
+msgid "sidebar/fullCompleted"
+msgstr "完美"
+
+msgid "sidebar/notSelected"
+msgstr "未接取"
+
+msgid "sidebar/vehicles/AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "sidebar/vehicles/SPG"
+msgstr "自行火炮"
+
+msgid "sidebar/vehicles/heavyTank"
+msgstr "重型坦克"
+
+msgid "sidebar/vehicles/lightTank"
+msgstr "轻型坦克"
+
+msgid "sidebar/vehicles/mediumTank"
+msgstr "中型坦克"
+
+msgid "statusPanel/freeSheetBtn/label"
+msgstr "用%(count)d %(icon)s完成"
+
+msgid "statusPanel/freeSheets"
+msgstr "可用：%(count)s"
+
+msgid "statusPanel/pawnedSheets"
+msgstr "任务交付:%(count)s"
+
+msgid "statusPanel/proceedExecution/label"
+msgstr "激活"
+
+msgid "statusPanel/resumeCompaing/label"
+msgstr "继续战役"
+
+msgid "statusPanel/status/allDone"
+msgstr "已完成%(vehicleClass)s所有任务"
+
+msgid "statusPanel/status/allExcellentDone"
+msgstr "已完美完成%(vehicleClass)s所有任务"
+
+msgid "statusPanel/status/freeSheet"
+msgstr "已交付命令"
+
+msgid "statusPanel/status/improve"
+msgstr "(成绩提高)"
+
+msgid "statusPanel/status/locked"
+msgstr "不可用:请完成上一个行动"
+
+msgid "statusPanel/status/pawned"
+msgstr "(回收%(count)d枚 %(icon)s)"
+
+msgid "statusPanel/status/selectTask"
+msgstr "选择一个要完成的任务"
+
+msgid "statusPanel/status/suspended"
+msgstr "“%(campaignName)s”战役已暂停。%(infoIcon)s"
+
+msgid "tankmoduleTooltipData/alliance/help/body"
+msgstr "通过达成%(vehType)s组最终任务的主要目标获得。"
+
+msgid "tankmoduleTooltipData/alliance/info"
+msgstr "要获得%(vehName)s需要蓝图"
+
+msgid "tankmoduleTooltipData/help/body"
+msgstr "通过达成%(vehType)s组最终任务的主要目标获得。"
+
+msgid "tankmoduleTooltipData/help/title"
+msgstr "如何获得"
+
+msgid "tankmoduleTooltipData/info"
+msgstr "这是%(vehName)s所需的零件"
+
+msgid "tankmoduleTooltipData/status/alliance/notObtained"
+msgstr "没有获得蓝图"
+
+msgid "tankmoduleTooltipData/status/alliance/obtained"
+msgstr "已获得蓝图"
+
+msgid "tankmoduleTooltipData/status/available"
+msgstr "可用于%(count)d %(img)s"
+
+msgid "tankmoduleTooltipData/status/notObtained"
+msgstr "未获得零件"
+
+msgid "tankmoduleTooltipData/status/obtained"
+msgstr "已获得零件"
+
+msgid "tankwomanTooltipData/advantages/brotherhood"
+msgstr "兄弟连特长已训练到100%"
+
+msgid "tankwomanTooltipData/advantages/newPerk"
+msgstr "您可再选择一个特长训练至100%。"
+
+msgid "tankwomanTooltipData/advantages/title"
+msgstr "好处:"
+
+msgid "tankwomanTooltipData/desc/body"
+msgstr "通过达成任意分支最终任务的主要目标获得。"
+
+msgid "tankwomanTooltipData/desc/title"
+msgstr "如何获得:"
+
+msgid "tankwomanTooltipData/subTitle"
+msgstr "一名独特车组乘员"
+
+msgid "tankwomanTooltipData/title"
+msgstr "女性乘员"
+
+msgid "taskDetailsView/additionalConditions"
+msgstr "附加目标"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheet"
+msgstr "回收命令"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheets"
+msgstr "回收命令"
+
+msgid "taskDetailsView/mainConditions"
+msgstr "主要目标"
+
+msgid "useAwardSheetWindow/cancelBtn"
+msgstr "取消"
+
+msgid "useAwardSheetWindow/info"
+msgstr "完美完成任务来回收一枚命令"
+
+msgid "useAwardSheetWindow/locked"
+msgstr "完成分支所有任务来回收命令。"
+
+msgid "useAwardSheetWindow/needAmount"
+msgstr "完成需要:"
+
+msgid "useAwardSheetWindow/pm2/noVehicle"
+msgstr "回收命令需要战车：%(vehicleClass)s。"
+
+msgid "useAwardSheetWindow/regular/noVehicle"
+msgstr "回收命令需要战车：%(vehicleClass)s。"
+
+msgid "useAwardSheetWindow/sheetsTotal"
+msgstr "可用总数:"
+
+msgid "useAwardSheetWindow/submitBtn"
+msgstr "完成"
+
+msgid "useAwardSheetWindow/title"
+msgstr "完成主要目标"

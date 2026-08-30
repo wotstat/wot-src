@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "蓝图"
+
+msgid "animations/crew_close"
+msgstr "关闭"
+
+msgid "animations/shop"
+msgstr "前往购买"
+
+msgid "battleMattersTab"
+msgstr "战车培训班"
+
+msgid "battleResults/descr"
+msgstr "坦克学院：{questID}.{questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "到坦克学院任务"
+
+msgid "battleResults/progress/tooltip"
+msgstr "在此战斗中的进度"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "取消"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "关闭"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "确认"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "您将获得{whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close}，附带乘员和一个车位。"
+
+msgid "bonusDelayed/dialog/title"
+msgstr "用培训班代币兑换%(vehicleName)s？"
+
+msgid "entryPoint/hint"
+msgstr "一系列\n训练任务"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "已完成任务：{cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "战车培训班"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "完成奖励"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "由于技术问题任务当前不可用。已完成任务的进度将被保留。"
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "已完成全部任务"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "任务暂时不可用"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "条件："
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "用一个代币兑换任意一辆VI级可研发战车。"
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "返回"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "到战车培训班任务"
+
+msgid "mainRewardsScreen/done"
+msgstr "在车库中"
+
+msgid "mainRewardsScreen/preview"
+msgstr "预览"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "租用天数：%(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "完成一系列训练任务，主要奖励为可租用{cream_Open}14天{cream_Close}的3辆VIII级高级战车。"
+
+msgid "mainRewardsScreen/title"
+msgstr "战车培训班"
+
+msgid "mainScreen/exchangeToken"
+msgstr "选择"
+
+msgid "mainScreen/infoButton"
+msgstr "新手指南"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "指南"
+
+msgid "mainScreen/list/arrow"
+msgstr "点击前往当前任务。"
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "已获得主要奖励"
+
+msgid "mainScreen/progress"
+msgstr "已完成任务：%(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "如何完成"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s/%(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "需完成之前的任务"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "不可用"
+
+msgid "mainScreen/showMainReward"
+msgstr "查看主要奖励"
+
+msgid "mainScreen/target"
+msgstr "完成所有任务并获得3辆租用的VIII级战车。"
+
+msgid "mainScreen/title"
+msgstr "战车培训班"
+
+msgid "pausedScreen/buttonText"
+msgstr "前往车库"
+
+msgid "pausedScreen/description"
+msgstr "由于技术原因战车培训班暂时不可用。所有进度将被保存。我们对造成的不便深表歉意。"
+
+msgid "pausedScreen/title"
+msgstr "暂时不可用"
+
+msgid "rewards/additionalTitle"
+msgstr "您还获得了："
+
+msgid "rewards/footer/confirm"
+msgstr "收到！"
+
+msgid "rewards/footer/more"
+msgstr "更多：%(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "到下个任务"
+
+msgid "rewards/footer/showVehicle"
+msgstr "在车库中查看"
+
+msgid "rewards/previouslyCompleted"
+msgstr "早前已达成任务条件"
+
+msgid "rewards/rent"
+msgstr "租用天数：%(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "已完成最终任务"
+
+msgid "rewards/subTitle/regular"
+msgstr "已完成任务%(questNumber)s"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "可用培训班代币兑换的战车"
+
+msgid "rewards/title"
+msgstr "战车培训班"
+
+msgid "rewards/token/action"
+msgstr "选择战车"
+
+msgid "rewards/token/description"
+msgstr "使用代币立即获得任意一辆VI级战车。"
+
+msgid "rewards/token/title"
+msgstr "用一个培训班代币兑换一辆战车"
+
+msgid "tokenTooltip/condition"
+msgstr "代币可通过成功完成一系列训练任务和在战车培训班中达到所需的进度来获取。"
+
+msgid "tokenTooltip/description"
+msgstr "代币可以兑换任意VI级可研发战车。战车附带乘员和一个车位。"
+
+msgid "tokenTooltip/timer/days"
+msgstr "代币有效期：{cream_open}%(days)s天{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "代币有效期至：{cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "代币有效期：{cream_open}%(hours)s小时{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "代币有效期：{cream_open}%(minutes)s分钟{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "培训班代币"
+
+msgid "vehicleSelection/additions/base"
+msgstr "除了战车之外，您将获得一组{cream_Open}%(crewIcon)s乘员{cream_Close}和一个{cream_Open}%(hangarIcon)s车库{cream_Close}{cream_Open}车位{cream_Close}。"
+
+msgid "vehicleSelection/back"
+msgstr "返回"
+
+msgid "vehicleSelection/backTo"
+msgstr "到战车培训班任务"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "加入比较"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "按类型和国家设置战车的显示方式。"
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "按参数过滤"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "点击重置过滤器。"
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "恢复默认"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "国家"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "按参数过滤"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "战车类型"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "无匹配结果。请修改过滤条件或重置为默认条件。"
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "重置过滤器"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "您已研发出所有可使用培训班代币兑换的VI级战车。"
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "没有可选择的战车"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "按名称搜索"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "战车名称不能超过%(maxLength)s个字符。"
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "按名称搜索"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "已显示："
+
+msgid "vehicleSelection/subtitle"
+msgstr "用代币兑换任意VI级可研发战车。战车\n附带乘员和一个车位。"
+
+msgid "vehicleSelection/title"
+msgstr "选择任意一辆VI级可研发战车"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "自行火炮"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "重型坦克"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "轻型坦克"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "中型坦克"

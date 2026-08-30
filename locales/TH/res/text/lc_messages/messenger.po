@@ -1,0 +1,3848 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-07 10:57+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battle/history/downMessage"
+msgstr "ดูข้อความใหม่"
+
+msgid "battle/history/header"
+msgstr "ข้าศึก"
+
+msgid "battle/history/latestMessage"
+msgstr "ดูข้อความที่แล้ว"
+
+msgid "battle/history/title"
+msgstr "ประวัติการสนทนา:"
+
+msgid "battle/history/upMessage"
+msgstr "ดูข้อความเก่า"
+
+msgid "battle/receivers/chatIsLocked"
+msgstr "%(open)sการสนทนาถูกปิด%(close)s"
+
+msgid "battle/receivers/chatIsLockedCountryControlToolTip"
+msgstr "การสนทนารบไม่มีให้กับผู้เล่นจากประเทศของคุณ"
+
+msgid "battle/receivers/chatIsLockedOtherControlToolTip"
+msgstr "การสนทนารบไม่มีให้กับบัญชีของคุณ"
+
+msgid "battle/receivers/chatIsLockedParentalControlToolTip"
+msgstr "การสนทนารบถูกห้ามโดยการควบคุมของผู้ปกครอง"
+
+msgid "battle/receivers/chatIsLockedToolTip"
+msgstr "การสนทนาการรบสามารถเปิดใช้ในการตั้งค่าเกม"
+
+msgid "battle/receivers/common"
+msgstr "ถึงทั้งหมด"
+
+msgid "battle/receivers/squad"
+msgstr "ไปยังหมวดรถถัง"
+
+msgid "battle/receivers/team"
+msgstr "ถึงทีม"
+
+msgid "battle/toolTips/cancel"
+msgstr "ยกเลิก"
+
+msgid "battle/toolTips/changeReceiver"
+msgstr "เปลี่ยนผู้รับ"
+
+msgid "battle/toolTips/default"
+msgstr "กับผู้รับคนก่อนหน้านี้"
+
+msgid "battle/toolTips/duringChat"
+msgstr "ขณะสนทนา:"
+
+msgid "battle/toolTips/mutePlayer"
+msgstr "คุณสามารถบล็อคข้อความจากผู้เล่นที่เลือกไว้ด้วยการคลิกปุ่มที่ใกล้กับข้อความของผู้เล่นในการสนทนา"
+
+msgid "battle/toolTips/send"
+msgstr "ส่ง"
+
+msgid "battle/toolTips/startChat"
+msgstr "เริ่มสนทนา:"
+
+msgid "battle/toolTips/toxicMessage"
+msgstr "คุณสามารถรายงานข้อความนี้ได้ด้วยการคลิกที่มันแล้วเลือกเหตุผลในการทำการร้องเรียน ตัวเลือกนี้ยังทำให้คุณสามารถปิดการใช้งานการสนทนาหรือตั้งค่าการสนทนาให้เห็นเฉพาะของพันธมิตรเท่านั้น การสนทนาหมวดรถถังจะยังมีให้ใช้อยู่ตลอดเวลา"
+
+msgid "battle/toolTips/usingChat"
+msgstr "สนทนา"
+
+msgid "battle/toolTips/withSquad"
+msgstr "กับหมวดรถถังของคุณ"
+
+msgid "battle/unknown/ally"
+msgstr "พันธมิตร"
+
+msgid "battle/unknown/enemy"
+msgstr "ข้าศึก"
+
+msgid "chat/koreaMessage/curfew"
+msgstr "คุณจะถูกตัดการเชื่อมต่อจากเซิร์ฟเวอร์ในเวลา %(curfewTime)s ช่วงการเล่นจะจบภายใน %(timeLeft)s นาที"
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr "คุณได้เล่นถึงจำนวนเวลาจำกัดต่อวันแล้ว ช่วงการเล่นของคุณจะจบภายใน %(timeLeft)s นาที"
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr "คุณได้เล่นถึงจำนวนเวลาจำกัดต่อสัปดาห์แล้ว ช่วงการเล่นของคุณจะจบภายใน %(timeLeft)s นาที"
+
+msgid "chat/parentControlMessage/timeLimit"
+msgstr "คุณได้เล่นจนถึงขีดจำกัดเวลาของคุณแล้ว ช่วงการเล่นของคุณจะจบลงใน %(timeLeft)s นาที"
+
+msgid "chat/personalMessage/warningBody"
+msgstr "ข้อความจากผู้เล่นที่ไม่รู้จักอาจจะมีลิงค์ที่ประสงค์ร้าย อย่าไปตามลิงค์ดังกล่าวและอย่าแบ่งปันข้อมูลรหัสผ่านของคุณให้ใครก็ตาม"
+
+msgid "chat/personalMessage/warningHead"
+msgstr "โปรดทราบ!"
+
+msgid "chat/postBattleSharing/label"
+msgstr "ผลการรบ"
+
+msgid "chat/toxicMessages/blockedMessage"
+msgstr "ข้อความจาก %(playerName)s ถูกบล็อค"
+
+msgid "chat_action/BROADCAST_BATTLE_MESSAGE"
+msgstr "ส่งข้อความ"
+
+msgid "chat_action/BROADCAST_UNIT_MESSAGE"
+msgstr "ส่งข้อความ"
+
+msgid "chat_action/FIND_USERS_BY_NAME"
+msgstr "ค้นหาผู้เล่น"
+
+msgid "chat_action/GET_VOIP_CREDENTIALS"
+msgstr "การตั้งค่าสนทนาเสียง"
+
+msgid "chat_error/CANNOT_BAN_ONESELF"
+msgstr "คุณไม่สามารถแบนตัวเองได้"
+
+msgid "chat_error/GENERIC_ERROR"
+msgstr "เกิดข้อผิดพลาดในการใช้งาน \"%(actionName)s\""
+
+msgid "chat_error/IS_BUSY"
+msgstr "เซิร์ฟเวอร์ยังไม่ว่าง"
+
+msgid "chat_error/NOT_ALLOWED"
+msgstr "ไม่มีอำนาจพอในการดำเนินการดังกล่าว"
+
+msgid "chat_error/NOT_READY"
+msgstr "การดำเนินการ %(actionName)s\" ไม่สามารถทำได้"
+
+msgid "chat_error/USER_NOT_FOUND"
+msgstr "ไม่มีผู้เล่นคนนี้อยู่"
+
+msgid "chat_error/WRONG_ARGS"
+msgstr "ตัวแปรไม่ถูกต้อง"
+
+msgid "client/BATTLE_ROYALE_SQUAD/disableVOIP"
+msgstr "การสนทนาเสียงถูกปิดไว้ ในการสื่อสารกับเพื่อนร่วมหมวดรถถังของคุณ เปิดใช้สนทนาเสียงด้วยการกด %(keyName)s"
+
+msgid "client/COMP7/disableVOIP"
+msgstr "การสนทนาเสียงถูกปิดไว้ ในการสื่อสารกับสมาชิกหมวดรถถังของคุณ เปิดใช้สนทนาเสียง (%(keyName)s)"
+
+msgid "client/commendations/comms_mutual"
+msgstr "คุณและ %(player)s ต่างชมเชยให้กัน"
+
+msgid "client/commendations/comms_received"
+msgstr "%(player)s ชมเชยคุณ"
+
+msgid "client/commendations/comms_sent"
+msgstr "%(player)s ได้รับคำชมเชย"
+
+msgid "client/dynSquad/created/allies"
+msgstr "พันธมิตรของคุณได้สร้างหมวดรถถัง %(squadNum)s"
+
+msgid "client/dynSquad/created/enemies"
+msgstr "หมวดรถถัง %(squadNum)s ถูกสร้างโดยทีมข้าศึก"
+
+msgid "client/dynSquad/created/owner/disableVOIP"
+msgstr "หมวดรถถัง %(squadNum)s ถูกสร้างขึ้นแล้ว การสนทนาหมวดรถถังและการสนทนาเสียงสามารถทำได้แล้ว ในการปิดการสนทนาเสียง กด %(keyName)s"
+
+msgid "client/dynSquad/created/owner/enableVOIP"
+msgstr "สร้างหมวดรถถัง %(squadNum)s แล้ว การสนทนาหมวดรถถังและการสนทนาเสียงสามารถทำได้แล้ว ในการเปิดการสนทนาเสียง กด %(keyName)s"
+
+msgid "client/dynSquad/created/owner/specifyVOIP"
+msgstr "หมวดรถถัง %(squadNum)s ถูกสร้างขึ้น การสนทนาหมวดรถถังและการสนทนาเสียงสามารถใช้งานได้แล้ว เลือกปุ่มเพื่อเปิดหรือปิดการสนทนาเสียง"
+
+msgid "client/dynSquad/created/owner/withoutVOIP"
+msgstr "หมวดรถถัง %(squadNum)s ถูกสร้างขึ้นแล้ว การสนทนาหมวดรถถังมีให้ใช้งานแล้ว"
+
+msgid "client/dynSquad/created/recruit/disableVOIP"
+msgstr "คุณได้เข้าร่วมหมวดรถถัง %(squadNum)s การสนทนาและสนทนาเสียงของหมวดรถถังสามารถใช้งานได้แล้ว ในปิดการสนทนาเสียงให้กดปุ่ม %(keyName)s"
+
+msgid "client/dynSquad/created/recruit/enableVOIP"
+msgstr "คุณได้เข้าร่วมหมวดรถถัง %(squadNum)s การสนทนาและสนทนาเสียงของหมวดรถถังสามารถใช้งานได้แล้ว ในเปิดการสนทนาเสียงให้กดปุ่ม %(keyName)s"
+
+msgid "client/dynSquad/created/recruit/specifyVOIP"
+msgstr "คุณได้เข้าร่วมหมวดรถถัง %(squadNum)s แล้ว การสนทนาหมวดรถถังและการสนทนาเสียงสามารถใช้งานได้แล้ว เลือกปุ่มเพื่อเปิดหรือปิดการสนทนาเสียง"
+
+msgid "client/dynSquad/created/recruit/withoutVOIP"
+msgstr "คุณได้เข้าร่วมหมวดรถถัง %(squadNum)s การสนทนาหมวดรถถังมีให้ใช้งานแล้ว"
+
+msgid "client/dynSquad/disableVOIP"
+msgstr "การสนทนาเสียงถูกปิดไว้ ในการสื่อสารกับสมาชิกหมวดรถถังของคุณ เปิดใช้สนทนาเสียงด้วยการกด %(keyName)s"
+
+msgid "client/dynSquad/enableVOIP"
+msgstr "เปิดการสนทนาด้วยเสียงไว้"
+
+msgid "client/dynSquad/inviteAccepted/myself/disableVOIP"
+msgstr "คุณได้เข้าร่วมหมวดรถถัง %(squadNum)s การสนทนาและสนทนาเสียงของหมวดรถถังสามารถใช้งานได้แล้ว ในปิดการสนทนาเสียงให้กดปุ่ม %(keyName)s"
+
+msgid "client/dynSquad/inviteAccepted/myself/enableVOIP"
+msgstr "คุณได้เข้าร่วมหมวดรถถัง %(squadNum)s การสนทนาและสนทนาเสียงของหมวดรถถังสามารถใช้งานได้แล้ว ในเปิดการสนทนาเสียงให้กดปุ่ม %(keyName)s"
+
+msgid "client/dynSquad/inviteAccepted/myself/specifyVOIP"
+msgstr "คุณได้เข้าร่วมหมวดรถถัง %(squadNum)s แล้ว การสนทนาหมวดรถถังและการสนทนาเสียงสามารถใช้งานได้แล้ว เลือกปุ่มเพื่อเปิดหรือปิดการสนทนาเสียง"
+
+msgid "client/dynSquad/inviteAccepted/myself/withoutVOIP"
+msgstr "คุณได้เข้าร่วมหมวดรถถัง %(squadNum)s การสนทนาหมวดรถถังมีให้ใช้งานแล้ว"
+
+msgid "client/dynSquad/inviteAccepted/user"
+msgstr "%(receiver)s ได้เข้าร่วมหมวดรถถัง %(squadNum)s"
+
+msgid "client/dynSquad/inviteReceived"
+msgstr "%(creator)s เชิญคุณเข้าหมวดรถถัง"
+
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr "%(creator)sได้เชิญคุณเข้าหมวดรถถัง\nโปรดทราบ! ชื่อจริงและป้ายชื่อกองทัพของคุณจะแสดงให้สมาชิกหมวดรถถังเห็น"
+
+msgid "client/dynSquad/inviteSent"
+msgstr "%(receiver)s ถูกเชิญเข้าหมวดรถถัง"
+
+msgid "client/error/broadcastInCooldown"
+msgstr "คุณถูกห้ามจากการส่งข้อความเป็นเวลา %s วินาที"
+
+msgid "client/error/commandInCooldown/limited"
+msgstr "คำสั่ง %s ถูกห้ามใช้เป็นเวลา %s วินาที"
+
+msgid "client/error/commandInCooldown/unlimited"
+msgstr "คำสั่ง %s ถูกห้ามใช้"
+
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "ข้อความถูกพัก โปรดรอ %s s."
+
+msgid "client/information/addToFriends/message"
+msgstr "ทำการบันทึกคำขอเพิ่มผู้เล่น %s เข้ารายชื่อเพื่อนของคุณ"
+
+msgid "client/information/addToIgnored/message"
+msgstr "คำขอในการเพิ่มผู้เล่น %s เข้ารายชื่อกีดกันของคุณถูกบันทึกเอาไว้แล้ว การสนทนากับผู้เล่นดังกล่าวถูกบล็อคและข้อความของผู้เล่นนั้นจะถูกซ่อนเอาไว้"
+
+msgid "client/information/addToTmpIgnored/message"
+msgstr "การสนทนากับ %s ถูกบล็อค ข้อความผู้เล่นถูกซ่อน"
+
+msgid "client/information/emptySearchResult/message"
+msgstr "ไม่พบผลที่ต้องการ"
+
+msgid "client/information/removeFromFriends/message"
+msgstr "ทำการบันทึกคำขอลบผู้เล่น %s จากรายชื่อเพื่อนของคุณ"
+
+msgid "client/information/removeFromIgnored/message"
+msgstr "คำขอในการปลดผู้เล่น %s ออกจากรายชื่อกีดกันของคุณถูกบันทึกเอาไว้แล้ว การสนทนากับผู้เล่นดังกล่าวกลับมาเป็นปกติโดยสมบูรณ์"
+
+msgid "client/information/removeFromTmpIgnored/message"
+msgstr "ทำการสนทนากับ %s ได้อีกครั้ง"
+
+msgid "client/information/setMuted/message"
+msgstr "%s ไม่ได้รับอนุญาตให้ส่งข้อความเสียงถึงคุณ"
+
+msgid "client/information/unsetMuted/message"
+msgstr "%s ได้รับอนุญาตให้ส่งข้อความเสียงถึงคุณ"
+
+msgid "client/warning/AFKWarning/message"
+msgstr "การนิ่งเฉยจะทำให้ถูกลงโทษ!\nการทำงานเป็นทีมนั้นจำเป็นเพื่อคว้าชัยชนะ!"
+
+msgid "client/warning/emptyUserSearchToken/message"
+msgstr "ช่องว่าง"
+
+msgid "client/warning/emptyUserSearchToken/title"
+msgstr "ค้นหาผู้ใช้"
+
+msgid "client/warning/invalidUserSearchToken/message"
+msgstr "ขนาดตัวอักษรในช่องค้นหาไม่ถูกต้อง จำนวนของตัวอักษรที่ใช้ได้คือ %d ถึง %d"
+
+msgid "client/warning/invalidUserSearchToken/title"
+msgstr "ค้นหาผู้ใช้"
+
+msgid "client_action/ADD_FRIEND"
+msgstr "เพิ่มผู้เล่นเข้ารายชื่อเพื่อน"
+
+msgid "client_action/ADD_GROUP"
+msgstr "สร้างกลุ่ม"
+
+msgid "client_action/ADD_IGNORED"
+msgstr "เพิ่มผู้เล่นเข้ารายชื่อกีดกัน"
+
+msgid "client_action/APPROVE_FRIENDSHIP"
+msgstr "ยืนยันคำขอเป็นเพื่อน"
+
+msgid "client_action/CANCEL_FRIENDSHIP"
+msgstr "ปฏิเสธคำขอเป็นเพื่อน"
+
+msgid "client_action/CHANGE_GROUP"
+msgstr "แก้ไขกลุ่ม"
+
+msgid "client_action/CREATE_USER_ROOM"
+msgstr "สร้างช่องผู้เล่น"
+
+msgid "client_action/FIND_USERS_BY_PREFIX"
+msgstr "ค้นหาผู้เล่น"
+
+msgid "client_action/JOIN_USER_ROOM"
+msgstr "เชื่อมเข้าช่องผู้เล่น"
+
+msgid "client_action/LEAVE_USER_ROOM"
+msgstr "ออกจากช่องผู้เล่น"
+
+msgid "client_action/REMOVE_FRIEND"
+msgstr "ลบผู้เล่นออกจากรายชื่อเพื่อน"
+
+msgid "client_action/REMOVE_IGNORED"
+msgstr "ปลดผู้เล่นออกจากรายชื่อกีดกัน"
+
+msgid "client_action/REMOVE_NOTE"
+msgstr "ลบหมายเหตุ"
+
+msgid "client_action/RQ_FRIENDSHIP"
+msgstr "ส่งคำขอเป็นเพื่อน"
+
+msgid "client_action/RQ_HISTORY"
+msgstr "ดูข้อความก่อนหน้า"
+
+msgid "client_action/SEARCH_USER_ROOM"
+msgstr "ค้นหาช่องผู้เล่น"
+
+msgid "client_action/SEND_MESSAGE"
+msgstr "ส่งข้อความ"
+
+msgid "client_action/SET_MUTE"
+msgstr "ปิดใช้งานข้อความเสียง"
+
+msgid "client_action/SET_NOTE"
+msgstr "สร้าง/แก้ไข หมายเหตุ"
+
+msgid "client_action/UNSET_MUTE"
+msgstr "เปิดใช้งานข้อความเสียง"
+
+msgid "client_error/action/in_cooldown"
+msgstr "การดำเนินการ \"%(actionName)s\" ถูกแช่ไว้สำหรับ %(floatArg1)s วิ"
+
+msgid "client_error/action/in_cooldown_wo_period"
+msgstr "การดำเนินการ \"%(actionName)s\" ไม่สามารถทำได้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "client_error/channel/LIMIT_REACHED"
+msgstr "คุณมีจำนวนช่องสูงสุดที่มีได้แล้ว โปรดปิดช่องที่ไม่จำเป็นแล้วลองใหม่อีกครั้ง"
+
+msgid "client_error/channel/NAME_ALREADY_EXISTS"
+msgstr "มีช่อง \"%(strArg1)s\" อยู่แล้ว"
+
+msgid "client_error/channel/NAME_EMPTY"
+msgstr "ไม่ได้ระบุชื่อช่อง"
+
+msgid "client_error/channel/NAME_INVALID"
+msgstr "ชื่อช่อง \"%(strArg1)s\" ไม่ถูกต้อง"
+
+msgid "client_error/channel/PASSWORDS_NOT_EQUALS"
+msgstr "การยืนยันรหัสผ่านไม่ตรงกับรหัสผ่านที่ใส่ไว้"
+
+msgid "client_error/channel/PASSWORD_EMPTY"
+msgstr "ไม่ได้ระบุรหัสผ่านช่อง"
+
+msgid "client_error/channel/PASSWORD_INVALID"
+msgstr "รหัสผ่านช่องไม่ถูกต้อง"
+
+msgid "client_error/channel/RETYPE_EMPTY"
+msgstr "ไม่ได้ทำการระบุการยืนยันรหัสผ่าน"
+
+msgid "client_error/channel/RETYPE_INVALID"
+msgstr "การยืนยันรหัสผ่านไม่ถูกต้อง"
+
+msgid "client_error/command/generic_error"
+msgstr "เกิดข้อผิดพลาดในการใช้คำสั่ง \"%(strArg1)s\""
+
+msgid "client_error/command/in_cooldown_wo_name"
+msgstr "คำสั่งถูกแช่ไว้สำหรับ %(floatArg1)s"
+
+msgid "client_error/command/not_supported"
+msgstr "คำสั่ง %(strArg1)s ไม่ได้รับการสนับสนุนจากโปรแกรมลูกข่าย"
+
+msgid "client_error/command/wrong_ban_period"
+msgstr "ระยะการแบนไม่ถูกต้อง %(int64Arg1)s"
+
+msgid "client_error/command/wrong_ban_type"
+msgstr "ชนิดการแบนไม่ถูกต้อง %(int32Arg1)s"
+
+msgid "client_error/command/wrong_player_name"
+msgstr "ชื่อผู้เล่นไม่ถูกต้อง %(strArg1)s"
+
+msgid "client_error/contact/BLOCK_ITEM_EXISTS"
+msgstr "ผู้เล่น \"%(strArg1)s\" อยู่ในรายชื่อกีดกันของคุณ"
+
+msgid "client_error/contact/BLOCK_ITEM_NOT_FOUND"
+msgstr "ผู้เล่น \"%(strArg1)s\" ไม่ได้อยู่ในรายชื่อกีดกันของคุณ"
+
+msgid "client_error/contact/CONTACT_ITEM_NOT_FOUND"
+msgstr "ไม่พบผู้เล่น"
+
+msgid "client_error/contact/FRIENDSHIP_APPROVED"
+msgstr "คุณได้ยืนยันคำขอเป็นเพื่อนจาก \"%(strArg1)s\" แล้ว"
+
+msgid "client_error/contact/FRIENDSHIP_CANCELED"
+msgstr "คุณได้ปฏิเสธคำขอเป็นเพื่อนจาก \"%(strArg1)s\" แล้ว"
+
+msgid "client_error/contact/FRIENDSHIP_RQ_PROCESS"
+msgstr "การตอบรับคำขอเป็นเพื่อนจาก \"%(strArg1)s\" กำลังถูกประมวล"
+
+msgid "client_error/contact/GROUP_EMPTY"
+msgstr "ไม่ได้ระบุชื่อกลุ่ม"
+
+msgid "client_error/contact/GROUP_EXISTS"
+msgstr "มีกลุ่ม \"%(strArg1)s\" อยู่แล้ว"
+
+msgid "client_error/contact/GROUP_INVALID_NAME"
+msgstr "ชื่อกลุ่ม \"%(strArg1)s\" ไม่ถูกต้อง"
+
+msgid "client_error/contact/GROUP_NOT_FOUND"
+msgstr "ไม่พบกลุ่ม \"%(strArg1)s\""
+
+msgid "client_error/contact/MUTED_ITEM_NOT_FOUND"
+msgstr "เปิดใช้ข้อความเสียงสำหรับผู้เล่น \"%(strArg1)s\""
+
+msgid "client_error/contact/NOTE_EMPTY"
+msgstr "ไม่ได้ระบุข้อความหมายเหตุ"
+
+msgid "client_error/contact/NOTE_NOT_FOUND"
+msgstr "ไม่มีหมายเหตุสำหรับผู้เล่น \"%(strArg1)s\""
+
+msgid "client_error/contact/ROSTER_ITEM_EXISTS"
+msgstr "ผู้เล่น \"%(strArg1)s\" เป็นเพื่อนของคุณ"
+
+msgid "client_error/contact/ROSTER_ITEM_NOT_FOUND"
+msgstr "ไม่พบผู้เล่น \"%(strArg1)s\" ในรายชื่อเพื่อนของคุณ"
+
+msgid "client_error/limit/CHANNEL_INVALID_LENGTH"
+msgstr "ชื่อช่องจะต้องมีตัวอักษร %(int32Arg1)s–%(int32Arg2)s ตัว"
+
+msgid "client_error/limit/GROUP_INVALID_LENGTH"
+msgstr "ชื่อกลุ่มไม่ควรจะยาวเกิน %(int32Arg2)s ตัว"
+
+msgid "client_error/limit/MAX_BLOCK_ITEMS"
+msgstr "จำนวนผู้เล่นสูงสุดในรายชื่อกีดกัน %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_GROUP"
+msgstr "จำนวนกลุ่มที่สร้างได้ %(int32Arg2)s"
+
+msgid "client_error/limit/MAX_ROSTER_ITEMS"
+msgstr "น่าเสียดาย คุณไม่สามารถมีผู้เล่นมากกว่า %(int32Arg2)s ในรายชื่อเพื่อนของคุณได้ ให้ลบผู้เล่นที่คุณไม่ได้เล่นด้วยก่อน"
+
+msgid "client_error/limit/NOTE_INVALID_LENGTH"
+msgstr "ข้อความในหมายเหตุไม่ควรมีความยาวเกิน %(int32Arg2)s ตัวอักษร"
+
+msgid "client_error/limit/PWD_INVALID_LENGTH"
+msgstr "รหัสผ่านจะต้องมีตัวอักษร %(int32Arg1)s–%(int32Arg2)s ตัว"
+
+msgid "client_error/shared/DBID_INVALID"
+msgstr "ID ผู้เล่นไม่ถูกต้อง"
+
+msgid "client_error/shared/GENERIC"
+msgstr "เกิดข้อผิดพลาดในการใช้งาน \"%(actionName)s\""
+
+msgid "client_error/shared/LOCKED"
+msgstr "การดำเนินการ \"%(actionName)s\" นั้นไม่มีให้ใช้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "client_error/shared/NAME_EMPTY"
+msgstr "ไม่ได้ระบุชื่อผู้เล่น"
+
+msgid "client_error/shared/NAME_INVALID"
+msgstr "ชื่อผู้เล่น \"%(strArg1)s\" ไม่ถูกต้อง"
+
+msgid "client_error/shared/NOT_CONNECTED"
+msgstr "ไม่สามารถเชื่อมต่อเข้าเซิร์ฟเวอร์สนทนาได้ ลองใหม่ภายหลัง"
+
+msgid "client_error/shared/NOT_SUPPORTED"
+msgstr "การดำเนินการ \"%(actionName)s\" ไม่ถูกรับรองโดยโปรแกรมลูกข่ายเกม"
+
+msgid "client_error/shared/TRY_LATER"
+msgstr "เกิดข้อผิดพลาด โปรดลองใหม่ภายหลัง"
+
+msgid "client_error/shared/WAITING_BEFORE_START"
+msgstr "เนื้อหาบางอย่างจะถูกปิดไว้จนกว่าจะเริ่มทำการนับถอยหลัง"
+
+msgid "client_error/shared/WRONG_ARGS"
+msgstr "ระบุข้อมูลไม่ถูกต้อง"
+
+msgid "command/acceptInvite"
+msgstr "รับคำเชิญ"
+
+msgid "command/addFriend"
+msgstr "เพิ่มคนเล่นเป็นเพื่อน"
+
+msgid "command/addIgnored"
+msgstr "เพิ่มผู้เล่นเข้ารายชื่อกีดกัน"
+
+msgid "command/broadcast"
+msgstr "ส่งข้อความ"
+
+msgid "command/createChatChannel"
+msgstr "สร้างช่องสนทนา"
+
+msgid "command/createInvite"
+msgstr "สร้างคำเชิญ"
+
+msgid "command/createPrivate"
+msgstr "สร้างห้องส่วนตัว"
+
+msgid "command/findChatChannels"
+msgstr "ค้นหาช่องสนทนา"
+
+msgid "command/findUser"
+msgstr "ค้นหาผู้เล่น"
+
+msgid "command/getActiveInvites"
+msgstr "หารายการคำเชิญ"
+
+msgid "command/getArchiveInvites"
+msgstr "หารายการคำเชิญที่บันทึกไว้"
+
+msgid "command/getMembersCount"
+msgstr "หาจำนวนผู้เล่นในช่องสนทนา"
+
+msgid "command/leaveChatChannel"
+msgstr "ออกจากช่องสนทนา"
+
+msgid "command/rejectInvite"
+msgstr "ปฏิเสธคำเชิญ"
+
+msgid "command/removeFriend"
+msgstr "ลบผู้เล่นนี้ออกจากรายชื่อเพื่อน"
+
+msgid "command/removeIgnored"
+msgstr "ปลดผู้เล่นออกจากรายชื่อกีดกัน"
+
+msgid "command/requestChatChannelMembers"
+msgstr "หารายการสมาชิกกองทัพ"
+
+msgid "command/requestSystemChatChannels"
+msgstr "หารายการช่องของระบบ"
+
+msgid "command/setMuted"
+msgstr "ปิดใช้งานข้อความเสียง"
+
+msgid "command/success/USERBAN"
+msgstr "%(strArg1)s ถูกแบนอยู่"
+
+msgid "command/success/USERUNBAN"
+msgstr "%(strArg1)s ไม่ได้ถูกแบนแล้ว"
+
+msgid "command/unsetMuted"
+msgstr "เปิดใช้งานข้อความเสียง"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/body"
+msgstr "คลิกเพื่อบันทึกกลุ่มรายชื่อติดต่อที่สร้างไว้"
+
+msgid "contacts/createGroupView/tooltips/btns/apply/header"
+msgstr "สร้าง"
+
+msgid "contacts/createGroupView/tooltips/btns/close/body"
+msgstr "คลิกเพื่อยกเลิกการสร้างและกลับไปยังรายชื่อติดต่อของคุณ"
+
+msgid "contacts/createGroupView/tooltips/btns/close/header"
+msgstr "ปิด"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/body"
+msgstr "คลิกเพื่อลบกลุ่มรายชื่อติดต่อของคุณ"
+
+msgid "contacts/groupDeleteView/tooltips/btns/apply/header"
+msgstr "ลบ"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/body"
+msgstr "คลิกเพื่อยกเลิกการลบและกลับไปยังรายชื่อติดต่อของคุณ"
+
+msgid "contacts/groupDeleteView/tooltips/btns/close/header"
+msgstr "ยกเลิก"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/body"
+msgstr "คลิกเพื่อบันทึกกลุ่มรายชื่อติดต่อโดยใช้ชื่อใหม่"
+
+msgid "contacts/groupRenameView/tooltips/btns/apply/header"
+msgstr "บันทึก"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/body"
+msgstr "คลิกเพื่อยกเลิกการแก้ไขและกลับไปยังรายชื่อติดต่อของคุณ"
+
+msgid "contacts/groupRenameView/tooltips/btns/close/header"
+msgstr "ปิด"
+
+msgid "contacts/manageGroupView/tooltips/input"
+msgstr "ชื่อไม่ควรยาวเกิน %(maxChars)s ตัวอักษร"
+
+msgid "contacts/searchView/tooltips/btns/add/body"
+msgstr "คลิกเพื่อเพิ่มผู้เล่นไปยังรายชื่อเพื่อนของคุณ"
+
+msgid "contacts/searchView/tooltips/btns/add/header"
+msgstr "เพิ่ม"
+
+msgid "contacts/searchView/tooltips/btns/close/body"
+msgstr "คลิกเพื่อยกเลิกการค้นหาผู้เล่นและกลับไปยังรายชื่อติดต่อของคุณ"
+
+msgid "contacts/searchView/tooltips/btns/close/header"
+msgstr "ปิด"
+
+msgid "contacts/searchView/tooltips/btns/search/body"
+msgstr "คลิกเพื่อค้นหาผู้ใช้ตามชื่อ"
+
+msgid "contacts/searchView/tooltips/btns/search/header"
+msgstr "ค้นหา"
+
+msgid "contacts/searchView/tooltips/searchCredentials/body"
+msgstr "ชื่อจะต้องมีความยาวระหว่าง %(minChars)s ถึง %(maxChars)s ตัว"
+
+msgid "contacts/searchView/tooltips/searchDisabled/body"
+msgstr "การค้นหาถูกแช่เป็นเวลา %(time)s วินาทีเนื่องจากส่งคำถามบ่อยเกินไป"
+
+msgid "contacts/settingsView/tooltips/btns/apply/body"
+msgstr "คลิกเพื่อบันทึกการตั้งค่าที่เลือกไว้"
+
+msgid "contacts/settingsView/tooltips/btns/apply/header"
+msgstr "ใช้งาน"
+
+msgid "contacts/settingsView/tooltips/btns/close/body"
+msgstr "คลิกเพื่อยกเลิกการเปลี่ยนแปลงและกลับสู่รายชื่อติดต่อของคุณ"
+
+msgid "contacts/settingsView/tooltips/btns/close/header"
+msgstr "ยกเลิก"
+
+msgid "contacts/tooltips/btns/addGroup/body"
+msgstr "คลิกเพื่อสร้างกลุ่ม"
+
+msgid "contacts/tooltips/btns/addGroup/header"
+msgstr "สร้างกลุ่ม"
+
+msgid "contacts/tooltips/btns/externalSearch/body"
+msgstr "คลิกเพื่อค้นหาผู้เล่นตามชื่อที่ไม่ได้อยู่ในรายชื่อติดต่อ"
+
+msgid "contacts/tooltips/btns/externalSearch/header"
+msgstr "ค้นหานอกรายชื่อติดต่อ"
+
+msgid "contacts/tooltips/btns/search/body"
+msgstr "คลิกเพื่อหาและเพิ่มผู้เล่นเข้ารายชื่อติดต่อ"
+
+msgid "contacts/tooltips/btns/search/header"
+msgstr "ค้นหาผู้เล่น"
+
+msgid "contacts/tooltips/btns/settings/body"
+msgstr "คลิกเพื่อเปลี่ยนการตั้งค่ารายชื่อติดต่อ"
+
+msgid "contacts/tooltips/btns/settings/header"
+msgstr "การตั้งค่า"
+
+msgid "contacts/tooltips/searchInput/credentials"
+msgstr "ชื่อจะต้องมีความยาวถึง %(maxChars)s ตัว"
+
+msgid "custom_client_action/ADMIN_CHAT_COMMAND"
+msgstr "ส่งคำสั่ง"
+
+msgid "dialogs/bsChannel/context/kickPlayer"
+msgstr "ปลดออกจากทีม"
+
+msgid "dialogs/channels/buttons/close"
+msgstr "ปิด"
+
+msgid "dialogs/channels/buttons/create"
+msgstr "สร้างช่องสนทนา"
+
+msgid "dialogs/channels/buttons/searchAndJoin"
+msgstr "หาและเข้าร่วม"
+
+msgid "dialogs/channels/title"
+msgstr "ช่อง"
+
+msgid "dialogs/connectingToSecureChannel/buttons/close"
+msgstr "ปิด"
+
+msgid "dialogs/connectingToSecureChannel/buttons/connect"
+msgstr "เข้าร่วม"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/message"
+msgstr "รหัสผ่านจะต้องมีรหัสอย่างน้อย 3 ถึง 12 ตัวอักษร"
+
+msgid "dialogs/connectingToSecureChannel/errors/invalidPassword/title"
+msgstr "รหัสผ่านไม่ถูกต้อง"
+
+msgid "dialogs/connectingToSecureChannel/labels/info"
+msgstr "คุณพยายามที่จะเข้าช่องสนทนาส่วนตัว %s"
+
+msgid "dialogs/connectingToSecureChannel/labels/password"
+msgstr "ใส่รหัสผ่าน:"
+
+msgid "dialogs/connectingToSecureChannel/labels/warrning"
+msgstr "เตือน"
+
+msgid "dialogs/connectingToSecureChannel/title"
+msgstr "เชื่อมต่อเข้าช่องสนทนา"
+
+msgid "dialogs/contacts/buttons/close"
+msgstr "_"
+
+msgid "dialogs/contacts/contact/addToClan"
+msgstr "เชิญเข้ากองทัพ"
+
+msgid "dialogs/contacts/contact/addToFriends"
+msgstr "เพิ่มเข้ารายชื่อเพื่อน"
+
+msgid "dialogs/contacts/contact/addToIgnored"
+msgstr "เพิ่มเข้ารายชื่อกีดกัน"
+
+msgid "dialogs/contacts/contact/copyToClipBorad"
+msgstr "บันทึกไปยังกระดานคลิปบอร์ด"
+
+msgid "dialogs/contacts/contact/createPrivateChannel"
+msgstr "สร้างห้องส่วนตัว"
+
+msgid "dialogs/contacts/contact/moneyTransfer"
+msgstr "โอนทอง"
+
+msgid "dialogs/contacts/contact/removeFromFriends"
+msgstr "ลบออกจากรายชื่อเพื่อน"
+
+msgid "dialogs/contacts/contact/removeFromIgnored"
+msgstr "ลบออกจากรายชื่อกีดกัน"
+
+msgid "dialogs/contacts/contact/userInfo"
+msgstr "ดูคุณสมบัติ"
+
+msgid "dialogs/contacts/group/sortByName"
+msgstr "จัดลำดับตามชื่อ"
+
+msgid "dialogs/contacts/group/sortByStatus"
+msgstr "จัดอันดับตามสถานะ"
+
+msgid "dialogs/contacts/title"
+msgstr "รายชื่อผู้ติดต่อ"
+
+msgid "dialogs/contacts/tree/clan"
+msgstr "กองทัพ"
+
+msgid "dialogs/contacts/tree/friends"
+msgstr "เพื่อน"
+
+msgid "dialogs/contacts/tree/friendship_request"
+msgstr "คำขอเป็นเพื่อน"
+
+msgid "dialogs/contacts/tree/ignored"
+msgstr "รายชื่อกีดกัน"
+
+msgid "dialogs/contacts/tree/muted"
+msgstr "ระบบข้อความเสียงถูกปิด"
+
+msgid "dialogs/createChannel/buttons/close"
+msgstr "ปิด"
+
+msgid "dialogs/createChannel/buttons/create"
+msgstr "สร้าง"
+
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "จะถูกสร้างขึ้นอัตโนมัติ"
+
+msgid "dialogs/createChannel/labels/fillPassword"
+msgstr "ใส่รหัสผ่าน"
+
+msgid "dialogs/createChannel/labels/name"
+msgstr "ชื่อช่องสนทนา"
+
+msgid "dialogs/createChannel/labels/password"
+msgstr "รหัสผ่าน"
+
+msgid "dialogs/createChannel/labels/retypePassword"
+msgstr "ยืนยันรหัสผ่าน"
+
+msgid "dialogs/createChannel/labels/usePassword"
+msgstr "จำเป็นต้องใช้รหัสผ่าน"
+
+msgid "dialogs/createChannel/title"
+msgstr "สร้างช่องสนทนา"
+
+msgid "dialogs/eventSquad/vehicle"
+msgstr "เลือก %(vehName)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotify"
+msgstr "เลือกพาหนะระดับ %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyMultiteam"
+msgstr "เลือกพาหนะ"
+
+msgid "dialogs/falloutSquadChannel/vehicleNotifyRange"
+msgstr "เลือกพาหนะระดับ %(level)s"
+
+msgid "dialogs/falloutSquadChannel/vehicles"
+msgstr "พาหนะ: %s"
+
+msgid "dialogs/falloutSquadChannel/vehicles/domination"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehicles/steelHunting"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/max"
+msgstr "X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/domination/min"
+msgstr "VIII-X"
+
+msgid "dialogs/falloutSquadChannel/vehiclesRequired/steelHunting"
+msgstr "X"
+
+msgid "dialogs/searchChannel/buttons/close"
+msgstr "ปิด"
+
+msgid "dialogs/searchChannel/buttons/join"
+msgstr "เข้าร่วม"
+
+msgid "dialogs/searchChannel/buttons/search"
+msgstr "ค้นหา"
+
+msgid "dialogs/searchChannel/labels/result"
+msgstr "ค้นหาผลลัพธ์ (อันดับแรก %d):"
+
+msgid "dialogs/searchChannel/labels/search"
+msgstr "ค้นหา"
+
+msgid "dialogs/searchChannel/title"
+msgstr "ค้นหาช่องสนทนา"
+
+msgid "dialogs/searchContact/buttons/addToFriends"
+msgstr "เพิ่มเข้าเป็นเพื่อน"
+
+msgid "dialogs/searchContact/buttons/addToIgnored"
+msgstr "รายชื่อกีดกัน"
+
+msgid "dialogs/searchContact/buttons/close"
+msgstr "ปิด"
+
+msgid "dialogs/searchContact/buttons/search"
+msgstr "ค้นหา"
+
+msgid "dialogs/searchContact/buttons/userInfo"
+msgstr "ข้อมูล"
+
+msgid "dialogs/searchContact/labels/result"
+msgstr "ค้นหาผลลัพธ์:"
+
+msgid "dialogs/searchContact/labels/search"
+msgstr "ค้นหา"
+
+msgid "dialogs/searchContact/title"
+msgstr "ค้นหารายชื่อ"
+
+msgid "dialogs/serviceChannel/title"
+msgstr "ช่องบริการ"
+
+msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
+msgstr "เลือกพาหนะระดับ VIII"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr "เป้าหมายหลักคือการเป็นหมวดรถถังสุดท้ายที่รอดอยู่"
+
+msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
+msgstr "รูปแบบแนวรบมีให้ \n สำหรับพาหนะระดับ VIII เท่านั้น"
+
+msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
+msgstr "+++ event +++\n+++ event +++"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormation"
+msgstr "ค่าประสบการณ์เพิ่มเติมต่อการรบ\nสำหรับพาหนะระดับ IV หรือสูงกว่า"
+
+msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
+msgstr "เล่นในพาหนะระดับเดียวกัน\nเริ่มตั้งแต่ระดับ IV ละได้รับค่าประสบการณ์เพิ่มเติม"
+
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr "เมื่อผู้เล่นตอบรับคำเชิญ ชื่อจริงและป้ายชื่อกองทัพจริงของคุณจะถูกแสดงให้พวกเขาเห็นตลอดช่วงการรบ"
+
+msgid "dialogs/squadChannel/simpleChatName"
+msgstr "ช่องสนทนา"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "ส่วนประกอบรุ่นทดลองติดตั้งไว้บนพาหนะ: %(name)s"
+
+msgid "dialogs/squadChannel/tooltips/status/afk"
+msgstr "สถานะ: กำลังพัก"
+
+msgid "dialogs/squadChannel/tooltips/status/inBattle"
+msgstr "สถานะ: อยู่ในการรบ"
+
+msgid "dialogs/squadChannel/tooltips/status/notReady"
+msgstr "สถานะ: ไม่พร้อม"
+
+msgid "dialogs/squadChannel/tooltips/status/offline"
+msgstr "สถานะ: ไม่ได้ใช้งาน"
+
+msgid "dialogs/squadChannel/tooltips/status/ready"
+msgstr "สถานะ: พร้อม"
+
+msgid "dialogs/teamChannel/buttons/dismiss"
+msgstr "ยุบกงอร้อยรถถัง"
+
+msgid "dialogs/teamChannel/buttons/invite"
+msgstr "เชิญ"
+
+msgid "dialogs/userInfo/ban_reason/guilty"
+msgstr "มีความผิด"
+
+msgid "dialogs/userInfo/ban_reason/suspicion"
+msgstr "ต้องสงสัย"
+
+msgid "dialogs/userInfo/ban_reason/title"
+msgstr "ฆ่าพวกเดียวกัน:"
+
+msgid "dialogs/userInfo/buttons/addMuted"
+msgstr "ปิดใช้งานข้อความเสียง"
+
+msgid "dialogs/userInfo/buttons/addToFriends"
+msgstr "เพิ่มเป็นเพื่อน"
+
+msgid "dialogs/userInfo/buttons/addToIgnored"
+msgstr "เพิ่มเข้ารายชื่อกีดกัน"
+
+msgid "dialogs/userInfo/buttons/close"
+msgstr "ปิด"
+
+msgid "dialogs/userInfo/buttons/createPrivateChannel"
+msgstr "สร้างช่องส่วนตัว"
+
+msgid "dialogs/userInfo/buttons/removeMuted"
+msgstr "เปิดใช้งานข้อความเสียง"
+
+msgid "dialogs/userInfo/labels/common"
+msgstr "ทั้งหมด"
+
+msgid "dialogs/userInfo/labels/creationTime"
+msgstr "สร้างแล้ว"
+
+msgid "dialogs/userInfo/labels/lastBattleTime"
+msgstr "การรบครั้งก่อน"
+
+msgid "dialogs/userInfo/labels/status"
+msgstr "สถานะ:"
+
+msgid "dialogs/userInfo/title"
+msgstr "%s รายละเอียดผู้เล่น"
+
+msgid "events/enterChannel"
+msgstr "[%s] เข้าร่วมช่องสนทนา"
+
+msgid "events/leaveChannel"
+msgstr "[%s] ออกจากช่องสนทนา"
+
+msgid "keyboardChat"
+msgstr "พูดคุย"
+
+msgid "listView/emptyList/info"
+msgstr "การแจ้งเตือน"
+
+msgid "listView/emptyList/invite"
+msgstr "คำเชิญ"
+
+msgid "listView/emptyList/offer"
+msgstr "ช่วงพิเศษ"
+
+msgid "listView/emptyList/template"
+msgstr "ยังไม่มี %(listType)s"
+
+msgid "listView/news/checkNewsBtn"
+msgstr "ไปยังข่าว"
+
+msgid "listView/news/header"
+msgstr "มีอะไรใหม่?"
+
+msgid "listView/title"
+msgstr "ศูนย์ข้อความแจ้งเตือน"
+
+msgid "lobby/bsChannels/title/startTime"
+msgstr "เวลาการรบ: %s"
+
+msgid "lobby/buttons/cancel"
+msgstr "ส่ง"
+
+msgid "lobby/buttons/channels"
+msgstr "ช่อง"
+
+msgid "lobby/buttons/contacts"
+msgstr "รายชื่อติดต่อ"
+
+msgid "lobby/buttons/send"
+msgstr "ส่ง"
+
+msgid "lobby/channels/actions/remove"
+msgstr "ปิดช่องสนทนา"
+
+msgid "lobby/channels/actions/setDay"
+msgstr "แสดงวันในข้อความ"
+
+msgid "lobby/channels/actions/setTime"
+msgstr "แสดงเวลาในข้อความ"
+
+msgid "lobby/faq/close"
+msgstr "ปิด"
+
+msgid "lobby/faq/title"
+msgstr "คำถามที่พบ่อย"
+
+msgid "lobby/users/actions/addToFriends"
+msgstr "เพิ่มผู้เล่นเข้ารายชื่อเพื่อน"
+
+msgid "lobby/users/actions/addToIgnore"
+msgstr "เพิ่มผู้เล่นเข้ารายชื่อกีดกัน"
+
+msgid "lobby/users/actions/copyNameToClipboard"
+msgstr "บันทึกไปยังกระดานคลิปบอร์ด"
+
+msgid "lobby/users/actions/createPrivateChannel"
+msgstr "สร้างห้องส่วนตัว"
+
+msgid "lobby/users/actions/showInfo"
+msgstr "แสดงรายละเอียดผู้เล่น"
+
+msgid "messenger/contacts/buttons/externalSearch"
+msgstr "ค้นหานอกรายชื่อติดต่อ"
+
+msgid "messenger/contacts/buttons/externalSearchCancel"
+msgstr "ยกเลิก"
+
+msgid "messenger/contacts/contextmenu/editGroup"
+msgstr "แก้ไขกลุ่ม"
+
+msgid "messenger/contacts/contextmenu/removeFromGroup"
+msgstr "ลบจากกลุ่ม"
+
+msgid "messenger/contacts/contextmenu/removeGroup"
+msgstr "ลบกลุ่ม"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/body"
+msgstr "คลิกเพื่อยกเลิกการสร้างและกลับไปยังรายชื่อติดต่อของคุณ"
+
+msgid "messenger/contacts/createNote/tooltips/btns/close/header"
+msgstr "ปิด"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/body"
+msgstr "คลิกเพื่อบันทึกหมายเหตุของผู้เล่นที่สร้างขึ้น"
+
+msgid "messenger/contacts/createNote/tooltips/btns/ok/header"
+msgstr "สร้าง"
+
+msgid "messenger/contacts/dropContactPrompt"
+msgstr "ลากรายชื่อติดต่อมาที่นี่"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/body"
+msgstr "คลิกเพื่อยกเลิกการแก้ไขและกลับไปยังรายชื่อติดต่อของคุณ"
+
+msgid "messenger/contacts/editNote/tooltips/btns/close/header"
+msgstr "ปิด"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/body"
+msgstr "คลิกเพื่อบันทึกการแก้ไขหมายเหตุของผู้เล่นคนดังกล่าว"
+
+msgid "messenger/contacts/editNote/tooltips/btns/ok/header"
+msgstr "บันทึก"
+
+msgid "messenger/contacts/externalSearch/emptySearchResultPrompt"
+msgstr "ไม่พบที่ตรงกันกับคำถามของคุณ"
+
+msgid "messenger/contacts/mainGrops/Formations"
+msgstr "หน่วยยุทธวิธีถาวร"
+
+msgid "messenger/contacts/mainGrops/Friends"
+msgstr "เพื่อน"
+
+msgid "messenger/contacts/mainGrops/Other"
+msgstr "อื่นๆ"
+
+msgid "messenger/contacts/mainGrops/Other/Ignored"
+msgstr "รายชื่อกีดกัน"
+
+msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
+msgstr "คำขอเป็นเพื่อน"
+
+msgid "messenger/contacts/searchInputPrompt"
+msgstr "ค้นหาเพื่อนในรายชื่อ"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/descr"
+msgstr "ยังไม่ได้เพิ่มผู้เล่น"
+
+msgid "messenger/contacts/searchUsers/listEmptyPrompt/title"
+msgstr "รายชื่อติดต่อว่างเปล่า"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/descr"
+msgstr "ไม่มีรายชื่อติดต่อที่กำลังออนไลน์"
+
+msgid "messenger/contacts/searchUsers/noOnlineContacts/title"
+msgstr " "
+
+msgid "messenger/contacts/searchUsers/searchFail/descr"
+msgstr "ลองค้นหานอกรายชื่อติดต่อ"
+
+msgid "messenger/contacts/searchUsers/searchFail/title"
+msgstr "ไม่มีที่ตรงกัน"
+
+msgid "messenger/contacts/searchUsers/searchInputPrompt"
+msgstr "ใส่ชื่อผู้เล่น"
+
+msgid "messenger/contacts/title"
+msgstr "รายชื่อติดต่อ"
+
+msgid "messenger/contacts/view/addUser/btnCancel/Label"
+msgstr "ปิด"
+
+msgid "messenger/contacts/view/addUser/btnOk/Label"
+msgstr "เพิ่ม"
+
+msgid "messenger/contacts/view/addUser/error/groupAlreadyExist"
+msgstr "มีกลุ่มดังกล่าวอยู่แล้ว"
+
+msgid "messenger/contacts/view/addUser/title"
+msgstr "ค้นหาผู้เล่น"
+
+msgid "messenger/contacts/view/createNote/btnCancel/Label"
+msgstr "ปิด"
+
+msgid "messenger/contacts/view/createNote/btnOk/Label"
+msgstr "สร้าง"
+
+msgid "messenger/contacts/view/createNote/mainLabel"
+msgstr "สร้างหมายเหตุ"
+
+msgid "messenger/contacts/view/editNote/btnCancel/Label"
+msgstr "ปิด"
+
+msgid "messenger/contacts/view/editNote/btnOk/Label"
+msgstr "บันทึก"
+
+msgid "messenger/contacts/view/editNote/input/tooltip"
+msgstr "ชื่อไม่ควรยาวเกิน %(maxChars)s ตัวอักษร"
+
+msgid "messenger/contacts/view/editNote/mainLabel"
+msgstr "แก้ไขหมายเหตุ"
+
+msgid "messenger/contacts/view/editNote/userName"
+msgstr "สำหรับ "
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnCancel/Label"
+msgstr "ปิด"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/btnOk/Label"
+msgstr "สร้าง"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/mainLabel"
+msgstr "สร้างกลุ่ม"
+
+msgid "messenger/contacts/view/manageGroup/createGroup/searchInputPrompt"
+msgstr "ใส่ชื่อ (ได้ถึง %(symbols)s ตัวอักษร)"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/DeleteWithMembers/Label"
+msgstr "รวมถึงรายชื่อติดต่อในกลุ่ม"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnCancel/Label"
+msgstr "ยกเลิก"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/btnOk/Label"
+msgstr "ลบ"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/groupName/Label"
+msgstr "%(groupName)s"
+
+msgid "messenger/contacts/view/manageGroup/deleteGroup/mainLabel"
+msgstr "ลบกลุ่ม"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnCancel/Label"
+msgstr "ปิด"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/btnOk/Label"
+msgstr "บันทึก"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/mainLabel"
+msgstr "แก้ไขกลุ่ม"
+
+msgid "messenger/contacts/view/manageGroup/renameGroup/searchInputPrompt"
+msgstr "ใส่ชื่อ (ได้ถึง %(symbols)s ตัวอักษร)"
+
+msgid "messenger/contacts/view/manageNote/input/prompt"
+msgstr "ใส่คำอธิบาย (ได้ถึง %(symbols)s อักษร)"
+
+msgid "messenger/contacts/view/manageNote/input/tooltip"
+msgstr "คำอธิบายไม่ควรยาวเกิน %(maxChars)s ตัวอักษร"
+
+msgid "messenger/contacts/view/searchUser/title"
+msgstr "ค้นหาผู้เล่น"
+
+msgid "messenger/contacts/view/settings/GroupMessages/Label"
+msgstr "รับเป็นกลุ่มในหน้าต่างเดียว"
+
+msgid "messenger/contacts/view/settings/IsShowOfflineUsers/Label"
+msgstr "แสดงผู้เล่นที่ไม่ได้ออนไลน์"
+
+msgid "messenger/contacts/view/settings/IsShowOthers/Label"
+msgstr "แสดงประเภท \"อื่นๆ\""
+
+msgid "messenger/contacts/view/settings/Label"
+msgstr "ข้อความจากผู้เล่นที่ไม่ได้อยู่ในรายชื่อติดต่อของคุร"
+
+msgid "messenger/contacts/view/settings/ReceiveFromFriendsOnly/Label"
+msgstr "รับในหน้าต่างแยก"
+
+msgid "messenger/contacts/view/settings/btnCancel/Label"
+msgstr "ยกเลิก"
+
+msgid "messenger/contacts/view/settings/btnOk/Label"
+msgstr "ใช้งาน"
+
+msgid "messenger/contacts/view/settings/mainLabel"
+msgstr "การตั้งค่า"
+
+msgid "personalMissions/completionTokenGain"
+msgstr "เพิ่มส่วนประกอบ"
+
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "หักคะแนนบัตรผ่านการรบ"
+
+msgid "platformCurrencyMsg/debited/bptaler"
+msgstr "ลบเบี้ยแล้ว"
+
+msgid "platformCurrencyMsg/debited/clanvehiclecoin"
+msgstr "ลบเหรียญกลยุทธ์แล้ว"
+
+msgid "platformCurrencyMsg/debited/equip_coin"
+msgstr "ถอดส่วนประกอบออก"
+
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "ปลดคะแนนชื่อเสียงส่วนตัวไป"
+
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "ใช้ค่าประสบการณ์อิสระแล้ว"
+
+msgid "platformCurrencyMsg/debited/tourcoin"
+msgstr "ลบคะแนนรอบปฏิบัติการออก"
+
+msgid "platformCurrencyMsg/debited/wdrcoin"
+msgstr "ทำการหักเหรียญปีประจำการไป"
+
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "เพิ่มคะแนนบัตรผ่านการรบ"
+
+msgid "platformCurrencyMsg/received/bptaler"
+msgstr "เพิ่มเบี้ยแล้ว"
+
+msgid "platformCurrencyMsg/received/clanvehiclecoin"
+msgstr "เพิ่มเหรียญกลยุทธ์แล้ว"
+
+msgid "platformCurrencyMsg/received/equip_coin"
+msgstr "เพิ่มส่วนประกอบเข้ามา"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "เพิ่มคะแนนชื่อเสียงส่วนตัวเข้ามา"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "ค่าประสบการณ์อิสระที่ได้รับ"
+
+msgid "platformCurrencyMsg/received/tourcoin"
+msgstr "เพิ่มคะแนนรอบปฏิบัติการเข้ามา"
+
+msgid "platformCurrencyMsg/received/wdrcoin"
+msgstr "ทำการเพิ่มเหรียญปีประจำการเข้ามา"
+
+msgid "prebattle/addAllBtn/tooltip/body"
+msgstr "เพิ่มรายชื่อติดต่อทั้งหมดเข้ารายชื่อผู้รับ"
+
+msgid "prebattle/addAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/addBtn/tooltip/body"
+msgstr "เพิ่มเข้ารายชื่อที่เลือกไว้"
+
+msgid "prebattle/addBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeAllBtn/tooltip/body"
+msgstr "ลบรายชื่อติดต่อทั้งหมดจากรายชื่อผู้รับ"
+
+msgid "prebattle/removeAllBtn/tooltip/header"
+msgstr " "
+
+msgid "prebattle/removeBtn/tooltip/body"
+msgstr "ลบรายชื่อติดต่อที่เลือกไว้จากรายชื่อผู้รับ"
+
+msgid "prebattle/removeBtn/tooltip/header"
+msgstr " "
+
+msgid "server/errors/actionInCooldown/message"
+msgstr "ธุรกรรม %(action)s ถูกห้ามใช้งานเป็นเวลา %(cooldownPeriod)s วินาที."
+
+msgid "server/errors/actionInCooldown/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/activeChannelsLimitReached/message"
+msgstr "จำนวนช่องที่คุณเปิดได้เต็มแล้ว โปรดปิดช่องที่ไม่ได้ใช้งาน"
+
+msgid "server/errors/activeChannelsLimitReached/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "server/errors/addFriendError/message"
+msgstr "เกิดข้อผิดพลาดในการเพิ่มผู้ใช้เข้าในรายชื่อเพื่อน"
+
+msgid "server/errors/addFriendError/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "server/errors/addIgnoredError/message"
+msgstr "เกิดข้อผิดพลาดในการเพิ่มผู้ใช้เข้าในรายชื่อกีดกัน"
+
+msgid "server/errors/addIgnoredError/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "server/errors/channelAlreadyExists/message"
+msgstr "ช่องสนทนาทที่ใช้ชื่อนี้มีอยู่แล้ว"
+
+msgid "server/errors/channelAlreadyExists/title"
+msgstr "เกิดข้อผิดพลาดในการตั้งช่องสนทนา"
+
+msgid "server/errors/channelDestroyed/message"
+msgstr "ลบช่องแล้ว"
+
+msgid "server/errors/channelDestroyed/title"
+msgstr "เกิดข้อผิดพลาดในการเข้าช่องสนทนา"
+
+msgid "server/errors/chatBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/chatBanned/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/chatCommandError/message"
+msgstr "เกิดข้อผิดพลาดในการใช้งานคำสั่งพูดคุย %(error)s"
+
+msgid "server/errors/chatCommandError/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/commandInCooldown/message"
+msgstr "คำสั่ง %(command)s ถูกระงับใช้เป็นเวลา %(cooldownPeriod)s วินาที."
+
+msgid "server/errors/commandInCooldown/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "ข้อความถูกพัก มีข้อความมากเกินไป"
+
+msgid "server/errors/connectTimeout/message"
+msgstr "หมดเวลาสำหรับการเชื่อมต่อเข้ากับช่องสนทนา"
+
+msgid "server/errors/connectTimeout/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/createPrivateError/message"
+msgstr "ไม่สามารถสร้างช่องส่วนตัวได้ ผู้ใช้ยังไม่ได้เข้ามาใช้งาน"
+
+msgid "server/errors/createPrivateError/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/incorrectCharacter/message"
+msgstr "สัญลักษณ์ไม่ถูกต้อง"
+
+msgid "server/errors/incorrectCharacter/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "server/errors/incorrectCommandArgument/message"
+msgstr "ตัวแปรไม่ถูกต้อง %(arg)s"
+
+msgid "server/errors/incorrectCommandArgument/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "server/errors/incorrectPassword/message"
+msgstr "รหัสผ่านสำหรับช่องปลอดภัยไม่ถูกต้อง"
+
+msgid "server/errors/incorrectPassword/title"
+msgstr "เกิดข้อผิดพลาดในการเข้าช่องสนทนา"
+
+msgid "server/errors/initializationFailure/message"
+msgstr "ล้มเหลวในการเริ่มการพูดคุย"
+
+msgid "server/errors/initializationFailure/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/internalError/message"
+msgstr "ข้อผิดพลาดของระบบภายใน อีกสักครู่กรุณาลองใหม่"
+
+msgid "server/errors/internalError/title"
+msgstr "เกิดข้อผิดพลาดในการตั้งช่องสนทนา"
+
+msgid "server/errors/invalidChannelName/message"
+msgstr "ชื่อช่องไม่ถูกต้อง"
+
+msgid "server/errors/invalidChannelName/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/inviteCommandError/message"
+msgstr "มีข้อผิดพลาดในการใช้คำสั่งเชิญ"
+
+msgid "server/errors/inviteCommandError/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "server/errors/memberAlreadyBanned/message"
+msgstr "ผู้ใช้ %(user)s ถูกระงับการใช้งานอยู่แล้ว"
+
+msgid "server/errors/memberAlreadyBanned/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/memberAlreadyModerator/message"
+msgstr "ผู้ใช้ %(user)s เป็นผู้ควบคุมช่องอยู่แล้ว"
+
+msgid "server/errors/memberAlreadyModerator/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/memberBanned/message"
+msgstr "?empty?"
+
+msgid "server/errors/memberBanned/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/memberDisconnecting/message"
+msgstr "ผู้ใช้หยุดการเชื่อมต่อ"
+
+msgid "server/errors/memberDisconnecting/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/memberNotModerator/message"
+msgstr "ผู้ใช้ %(user)s ไม่ได้เป็นผู้ควบคุมช่อง"
+
+msgid "server/errors/memberNotModerator/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/membersLimitReached/message"
+msgstr "จำนวนผู้ใช้สำหรับช่องสนทนานี้เต็มแล้ว"
+
+msgid "server/errors/membersLimitReached/title"
+msgstr "มีข้อผิดพลาดในการเชื่อมต่อเข้าช่องสนทนา"
+
+msgid "server/errors/notAllowed/message"
+msgstr "ไม่มีอำนาจพอที่จะใช้งานนี้"
+
+msgid "server/errors/notAllowed/title"
+msgstr "ความผิดพลาดในการพูดคุย"
+
+msgid "server/errors/passwordRequired/message"
+msgstr "ใส่รหัสผ่านเพื่อที่จะเชื่อมต่อเข้าช่องลับ"
+
+msgid "server/errors/passwordRequired/title"
+msgstr "เกิดข้อผิดพลาดในการเข้าช่องสนทนา"
+
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "การเปลี่ยนการตั้งค่านี้ในปัจจุบันยังไม่มีให้"
+
+msgid "server/errors/sqlError/message"
+msgstr "เกิดข้อผิดพลาดในการเรียกฐานข้อมูล"
+
+msgid "server/errors/sqlError/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "server/errors/userIgnoredError/message"
+msgstr "ผู้ใช้คนนี้ถูกเพิ่มในรายชื่อกีดกัน"
+
+msgid "server/errors/userIgnoredError/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "server/errors/userNotExists/message"
+msgstr "ไม่มีผู้ใช้คนนี้อยู่"
+
+msgid "server/errors/userNotExists/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "server/errors/usersRosterLimitReached/message"
+msgstr "จำนวนรายการติดต่อเต็มแล้ว"
+
+msgid "server/errors/usersRosterLimitReached/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "server_error/user_room_creation/LIMIT_COUNT"
+msgstr "คุณมีจำนวนช่องเกินจำนวนสูงสุดที่มีได้"
+
+msgid "server_error/user_room_creation/LIMIT_NAME"
+msgstr "คุณได้ใส่ตัวอักษรสำหรับชื่อช่องเป็นจำนวนสูงสุดแล้ว"
+
+msgid "server_error/user_room_creation/LIMIT_PASS"
+msgstr "คุณได้ใส่ตัวอักษรสำหรับรหัสผ่านเป็นจำนวนสูงสุดแล้ว"
+
+msgid "server_error/user_room_creation/NAME_EXISTS"
+msgstr "มีช่อง \"%(strArg1)s\" อยู่แล้ว"
+
+msgid "server_error/user_room_creation/WRONG_SYMBOL"
+msgstr "ตัวอักษรไม่ถูกต้องในชื่อช่อง"
+
+msgid "server_error/user_room_creation/WRONG_WORD"
+msgstr "มีคำไม่สุภาพในชื่อช่อง"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "พรานเหล็ก"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr "นี่คือพาหนะพิเศษสำหรับพรานเหล็ก เข้าสู่พรานเหล็กเพื่อลองดูว่าพาหนะเหล่านี้ทำอะไรได้บ้าง"
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "พาหนะที่ถูกทำลาย"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "ถึงขั้นแล้ว"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "ได้รับคะแนน"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "ชัยชนะ"
+
+msgid "serviceChannelMessages/Financial/add"
+msgstr "เพิ่มแล้ว"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/affirmative"
+msgstr "รับทราบ!"
+
+msgid "serviceChannelMessages/PersonalMission3Quest/goToOperation"
+msgstr "ไปยังปฏิบัติการ"
+
+msgid "serviceChannelMessages/achievementReceived/message"
+msgstr "บันทึกประจำการ"
+
+msgid "serviceChannelMessages/actionBegin"
+msgstr "สมรภูมิ"
+
+msgid "serviceChannelMessages/actionEnd"
+msgstr "ช่วงพิเศษหมดลงแล้ว"
+
+msgid "serviceChannelMessages/additionalXP/available/title"
+msgstr "มีตัวคูณประสบการณ์จัดการได้ของ WoT Plus ให้"
+
+msgid "serviceChannelMessages/additionalXP/unavailable/title"
+msgstr "ไม่มีตัวคูณประสบการณ์จัดการได้ของ WoT Plus ให้"
+
+msgid "serviceChannelMessages/autoBoosterErrorNoWallet"
+msgstr "ล้มเหลวในการเติมยุทธปัจจัยบน %s ทองทั้งหมดของคุณจะใช้ได้เมื่อ การใช้งานของ WG Wallet ได้รับการกู้คืนโดยอัตโนมัติ"
+
+msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
+msgstr "ไม่สามารถเติมคำสั่งสำหรับ %s ได้ การดำเนินการทำไม่ได้ชั่วคราวเนื่องด้วยยังอยู่ในการบำรุงรักษา"
+
+msgid "serviceChannelMessages/autoEquipBoosterError"
+msgstr "ล้มเหลวในการเติมคำสั่งบน %s เงินไม่พอ"
+
+msgid "serviceChannelMessages/autoEquipBoosterSkipped"
+msgstr "ล้มเหลวในการเติมคำสั่งบน %s โดยอัตโนมัติ โปรดติดตั้งด้วยตัวคุณเอง"
+
+msgid "serviceChannelMessages/autoEquipBoosterSuccess"
+msgstr "คำสั่งสำหรับ %s ถูกเติมใหม่เรียบร้อย คุณใช้ไป "
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "ไม่สามารถเติมยุทธปัจจัยบน %s ได้ ให้ลองซื้อยุทธปัจจัยด้วยทองดู"
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "ไม่สามารถเติมยุทธปัจจัยบนรถถัง %s ได้เพราะเงินไม่พอ"
+
+msgid "serviceChannelMessages/autoEquipErrorNoWallet"
+msgstr "ล้มเหลวในการเติมยุทธปัจจัยบน %s ทองทั้งหมดของคุณจะใช้ได้เมื่อ การใช้งานของ WG Wallet ได้รับการกู้คืนโดยอัตโนมัติ"
+
+msgid "serviceChannelMessages/autoEquipSkipped"
+msgstr "ล้มเหลวในการเติมยุทธปัจจัยให้กับรถถัง %s โดยอัตโนมัติ ให้บรรจุยุทธปัจจัยด้วยตัวเอง"
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "ยุทธปัจจัยบน %s ได้รับการเติมเรียบร้อย คุณใช้ไป "
+
+msgid "serviceChannelMessages/autoLoadDisabledOption"
+msgstr "ล้มเหลวในการเติมกระสุนบน %s ให้ลองซื้อกระสุนด้วยทองดู"
+
+msgid "serviceChannelMessages/autoLoadError"
+msgstr "ไม่สามารถเติมกระสุนบนรถถัง %s ได้เพราะเงินไม่พอ"
+
+msgid "serviceChannelMessages/autoLoadErrorNoWallet"
+msgstr "ล้มเหลวในการเติมกระสุนบน %s ทองทั้งหมดของคุณจะใช้ได้เมื่อการใช้งานของ WG Wallet ได้รับการกู้คืนโดยอัตโนมัติ"
+
+msgid "serviceChannelMessages/autoLoadSkipped"
+msgstr "ล้มเหลวในการเติมกระสุนให้กับรถถัง %s โดยอัตโนมัติ ให้เติมกระสุนด้วยตัวเอง"
+
+msgid "serviceChannelMessages/autoLoadSuccess"
+msgstr "กระสุนบนรถถัง %s ได้รับการเติมเรียบร้อย คุณใช้เงินไป "
+
+msgid "serviceChannelMessages/autoRentStyleDisabledOption"
+msgstr "ล้มเหลวในการขยายการเช่ารูปแบบในราคา %s ซื้อรูปแบบด้วยทอง"
+
+msgid "serviceChannelMessages/autoRentStyleError"
+msgstr "ล้มเหลวในการขยายการเช่ารูปแบบในราคา %s เงินไม่พอ"
+
+msgid "serviceChannelMessages/autoRentStyleErrorNoWallet"
+msgstr "ล้มเหลวในการขยายการเช่ารูปแบบในราคา %s ทองทั้งหมดของคุณจะมีให้ภายหลังการใช้งาน WG Wallet กลับคืนมาโดยอัตโนมัติ"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "ขยายช่วงการเช่า"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
+msgstr "รูปแบบเช่า %s ถูกใช้กับพาหนะ %s กำลังจะหมดอายุ: เหลือการรบอีก 3 ครั้ง"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationON/text"
+msgstr "การเช่ารูปแบบ %s สำหรับ %s จะถูกต่ออายุโดยอัตโนมัติอีก %s การรบภายหลังการรบ 3 ครั้ง"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
+msgstr "ไปยังโครงไปนอก"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsOver/text"
+msgstr "รูปแบบเช่า %s ที่ใช้กับพาหนะ %s หมดอายุแล้ว คุณสามารถขยายช่วงการเช่าได้ที่หน้าจอโครงภายนอก"
+
+msgid "serviceChannelMessages/autoRentStyleSkipped"
+msgstr "ล้มเหลวในการขยายเวลาเช่ารูปแบบในราคา %s ซื้อรูปแบบนี้ด้วยตัวเอง"
+
+msgid "serviceChannelMessages/autoRentStyleSuccess"
+msgstr "การเช่ารูปแบบในราคา %s ถูกขยายแล้วเรียบร้อย ใช้ไป"
+
+msgid "serviceChannelMessages/autoRepairDisabledOption"
+msgstr "ล้มเหลวที่จะซ่อมรถถัง %s"
+
+msgid "serviceChannelMessages/autoRepairError"
+msgstr "ไม่สามารถซ่อมรถถัง %s ได้เพราะเงินไม่พอ"
+
+msgid "serviceChannelMessages/autoRepairErrorNoWallet"
+msgstr "ล้มเหลวในการซ่อมแซม %s ทองทั้งหมดของคุณจะสามารถใช้ได้เมื่อการใช้งานของ WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "serviceChannelMessages/autoRepairSkipped"
+msgstr "ล้มเหลวที่จะซ่อม %s โดยอัตโนมัติ ให้ซ่อมยานเกราะด้วยตัวเอง"
+
+msgid "serviceChannelMessages/autoRepairSuccess"
+msgstr "รถถัง %s ซ่อมเสร็จสมบูรณ์แล้ว คุณใช้เงินไป "
+
+msgid "serviceChannelMessages/badge/available/title"
+msgstr "มีป้ายพลรถถัง WoT Plus ให้"
+
+msgid "serviceChannelMessages/badge/unavailable/title"
+msgstr "ไม่มีป้ายพลรถถัง WoT Plus ให้"
+
+msgid "serviceChannelMessages/badgeAchievement"
+msgstr "เพิ่มตราแล้ว"
+
+msgid "serviceChannelMessages/battleBonuses/available/title"
+msgstr "มีโบนัสการรบ WoT Plus ให้"
+
+msgid "serviceChannelMessages/battleBonuses/unavailable/title"
+msgstr "ไม่มีโบนัสการรบ WoT Plus ให้"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "ภารกิจสำเร็จ: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "คุณได้ผ่านชุดภารกิจวิทยาลัยรถถังแล้ว"
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr "เหรียญสามารถนำมาแลกเป็นพาหนะวิจัยได้ระดับ VI คันใดก็ได้"
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "ไปยังการเลือกพาหนะ"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "ยินดีด้วย!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "ภารกิจวิทยาลัยรถถังที่สำเร็จ: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "ได้รับรางวัล:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "ใช้เหรียญวิทยาลัยไป"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "ได้รับรางวัล:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "ช่องเก็บในโรงรถ: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "พาหนะเช่า: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/body"
+msgstr "หาพาหนะและทรัพยากรที่มีประโยชน์จากการปฏิบัติภารกิจฝึกให้สำเร็จ"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/button"
+msgstr "ไปยังวิทยาลัยรถถัง"
+
+msgid "serviceChannelMessages/battleMatters/taskReminder/title"
+msgstr "ทุกอย่างที่คุณต้องมี\nเพื่อเริ่มต้น"
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "เหรียญวิทยาลัย"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "ใช้คะแนนที่ยังไม่ได้ใช้"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/postProgression/text"
+msgstr "คะนนที่ไม่ได้ใช้จะถูกใช้เมื่อทำการเปิดการแข่งชั้นยอด: %(points)s"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "ใช้คะแนนที่ยังไม่ได้ใช้ไป: %(points)s สำหรับบท %(chapter)s"
+
+msgid "serviceChannelMessages/battlePass/newDeviceToken"
+msgstr "อุปกรณ์มาตรฐานให้เลือก"
+
+msgid "serviceChannelMessages/battlePass/postProgressionActivated/text"
+msgstr "เปิดการแข่งชั้นยอดแล้ว"
+
+msgid "serviceChannelMessages/battlePass/postProgressionPaused/text"
+msgstr "พักการแข่งชั้นยอดเอาไว้"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/header"
+msgstr "ถึงขีดจำกัดคะแนนแล้ว"
+
+msgid "serviceChannelMessages/battlePass/reachedCap/text"
+msgstr "คุณได้รับคะแนนจำนวนสูงสุดใน %(vehName)s แล้ว\nรางวัลสำหรับการถึงขีดจำกัดคะแนน: %(bonusPoints)s\nออกรบด้วยพาหนะคันอื่นเพื่อทำการหาคะแนนต่อ"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "ยินดีด้วย!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr "ได้รับรูปแบบ %(name)s แล้ว สามารถนำไปใช้กับพาหนะดังกล่าวทันทีและยกระดับในช่วงความก้าวหน้าบัตรผ่านการรบ"
+
+msgid "serviceChannelMessages/battlePass/trophySelectToken"
+msgstr "อุปกรณ์เงินรางวัลให้เลือก"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "รายละเอียด"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "รายละเอียด"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/chapterFinal/text"
+msgstr "คุณได้ผ่าน %(chapter)s บทของบัตรผ่านการรบแล้ว!\nได้รับรางวัล:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/final/text"
+msgstr "คุณได้ผ่าน %(chapter)s บทของบัตรผ่านการรบแล้ว!\nได้รับรางวัล:"
+
+msgid "serviceChannelMessages/battlePassHReward/battle/newLevel/text"
+msgstr "คุณผ่านด่านความก้าวหน้าบัตรผ่านการรบ%(newLevel)s\n\nได้รับรางวัล:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyProgress/text"
+msgstr "ด่านถูกเพิ่มเข้าสู่บท %(chapter)s : %(levelCount)s\nคุณไต่ถึงด่าน %(currentLevel)s\n ได้รับรางวัล:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithRewards/text"
+msgstr "คุณได้รับรางวัลสำหรับด่านบัตรผ่านการรบที่ผ่านไว้ก่อนหน้า:"
+
+msgid "serviceChannelMessages/battlePassHReward/buyWithoutRewards/text"
+msgstr "ตอนนี้คุณจะได้รับรางวัลจากทั้งสายรางวัลฐานและรางวัลปรับปรุง"
+
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "คุณได้รับรางวัลสำหรับด่านที่ผ่านด้วยการใช้คะแนนที่ยังไม่ได้ใช้:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr "คุณผ่านบท %(chapter)s แล้ว!\nได้รับรางวัล:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "ออกรบแล้วหาคะแนนต่อ!"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/text"
+msgstr "คุณได้ผ่านบทบัตรผ่านการรบหลัก %(season)s ทั้งหมดแล้ว\nได้รับรางวัล:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
+msgstr "คุณได้ผ่านด่านความก้าวหน้า %(newLevel)s ของบท %(chapter)s แล้ว\nได้รับรางวัล:"
+
+msgid "serviceChannelMessages/battlePassReward/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/battlePassReward/button"
+msgstr "รายละเอียด"
+
+msgid "serviceChannelMessages/battlePassReward/buy/freeXP"
+msgstr "ใช้ประสบการณ์อิสระไป:"
+
+msgid "serviceChannelMessages/battlePassReward/buy/gold"
+msgstr "ใช้ทองไป:"
+
+msgid "serviceChannelMessages/battlePassReward/buyBPWithLevels/text"
+msgstr "คุณได้ซื้อบัตรผ่านปรับปรุงและด่านทั้งหมดของบท %(chapter)s แล้ว\nได้รับรางวัลสำหรับด่านทุกด่านของบทแล้ว"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/starterPack"
+msgstr "คุณได้รับโบนัสจากการซื้อบัตรผ่านปรับปรุง:"
+
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
+msgstr "ตอนนี้คุณจะได้รับทั้งรางวัลฐานและรางวัลปรับปรุงสำหรับทุกๆบทของฤดูกาลดังกล่าว"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "50"
+
+msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
+msgstr "ด่านถูกเพิ่มเข้าสู่บท %(chapter)s : %(levelCount)s\nคุณไต่ถึงด่าน %(currentLevel)s\n ได้รับรางวัล:"
+
+msgid "serviceChannelMessages/battlePassReward/buySingle/starterPack"
+msgstr "คุณได้รับโบนัสจากการซื้อบัตรผ่านปรับปรุง:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "บัตรผ่านปรับปรุงนี้จะมีผลใช้งานกับบท %(chapter)s เท่านั้น"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
+msgstr "คุณได้รับรางวัลสำหรับด่านบัตรผ่านการรบที่ผ่านไว้ก่อนหน้า:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/additionalText"
+msgstr "บัตรผ่านปรับปรุงนี้จะใช้ได้กับบท %(chapter)s เท่านั้น"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
+msgstr "ตอนนี้คุณจะได้รับรางวัลจากทั้งสายรางวัลฐานและรางวัลปรับปรุงในบท %(chapter)s"
+
+msgid "serviceChannelMessages/battlePassReward/header/autoSelectReward"
+msgstr "ได้รับรางวัลมาตรฐาน:"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBP"
+msgstr "ซื้อบัตรผ่านปรับปรุงแล้ว"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyBPWithLevels"
+msgstr "ซื้อบัตรผ่านปรับปรุงแล้ว"
+
+msgid "serviceChannelMessages/battlePassReward/header/buyProgress"
+msgstr "ซื้อด่านแล้ว"
+
+msgid "serviceChannelMessages/battlePassReward/header/default"
+msgstr "ยินดีด้วย!"
+
+msgid "serviceChannelMessages/battlePassReward/header/voted"
+msgstr "มอบรางวัลให้"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevel/text"
+msgstr "ผ่านด่านการแข่งชั้นยอดแล้ว\nได้รับรางวัล:"
+
+msgid "serviceChannelMessages/battlePassReward/postProgression/newLevels/text"
+msgstr "ผ่านด่านการแข่งชั้นยอดแล้ว: %(amount)s\nได้รับรางวัล:"
+
+msgid "serviceChannelMessages/battlePassReward/tman"
+msgstr "สมาชิกพลรถถัง:"
+
+msgid "serviceChannelMessages/battleResults/achieves"
+msgstr "ความสำเร็จในการรบ"
+
+msgid "serviceChannelMessages/battleResults/action"
+msgstr "ได้รับ %s สำหรับช่วงพิเศษ '%s'"
+
+msgid "serviceChannelMessages/battleResults/actions"
+msgstr "ได้รับ %s สำหรับช่วงพิเศษ '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s เหรียญ"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
+msgstr "%s เงิน"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
+msgstr "พันธบัตร %s"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
+msgstr "เหรียญฉลองครบรอบ %s เหรียญ"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
+msgstr "%s ประสบการณ์อิสระ"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsGold"
+msgstr "%s ทอง"
+
+msgid "serviceChannelMessages/battleResults/battle"
+msgstr "การรบ"
+
+msgid "serviceChannelMessages/battleResults/battlePass"
+msgstr "ได้รับคะแนนบัตรผ่านการรบ: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "ได้รับเหรียญ"
+
+msgid "serviceChannelMessages/battleResults/button"
+msgstr "รายละเอียด"
+
+msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
+msgstr "ค่าชดเชยสำหรับความเสียหายจากพันธมิตร: %s"
+
+msgid "serviceChannelMessages/battleResults/credits"
+msgstr "ได้รับเงิน: %s"
+
+msgid "serviceChannelMessages/battleResults/crystal"
+msgstr "ได้รับพันธบัตร"
+
+msgid "serviceChannelMessages/battleResults/defeat"
+msgstr "พ่ายแพ้"
+
+msgid "serviceChannelMessages/battleResults/divisions/bronze"
+msgstr "III"
+
+msgid "serviceChannelMessages/battleResults/divisions/gold"
+msgstr "I"
+
+msgid "serviceChannelMessages/battleResults/divisions/silver"
+msgstr "II"
+
+msgid "serviceChannelMessages/battleResults/doubleXpFactor"
+msgstr "x%d สำหรับชัยชนะแรกของแต่ละวัน"
+
+msgid "serviceChannelMessages/battleResults/drawGame"
+msgstr "เสมอ"
+
+msgid "serviceChannelMessages/battleResults/ended"
+msgstr "การรบสิ้นสุดแล้ว"
+
+msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
+msgstr "คะแนนกำลังสำรองรบ"
+
+msgid "serviceChannelMessages/battleResults/equipCoin"
+msgstr "ได้รับส่วนประกอบ"
+
+msgid "serviceChannelMessages/battleResults/eventCoin"
+msgstr "ได้รับเหรียญฉลองครบรอบ"
+
+msgid "serviceChannelMessages/battleResults/experience"
+msgstr "ได้รับประสบการณ์: %s"
+
+msgid "serviceChannelMessages/battleResults/fort/clan"
+msgstr "การรบรุกคืบ"
+
+msgid "serviceChannelMessages/battleResults/fortBuilding"
+msgstr "อาคาร"
+
+msgid "serviceChannelMessages/battleResults/fortResource"
+msgstr "ทรัพยากรอุตสาหกรรมที่ได้รับ"
+
+msgid "serviceChannelMessages/battleResults/fortResource/clan"
+msgstr "กองทัพ"
+
+msgid "serviceChannelMessages/battleResults/fortResource/player"
+msgstr "โดยผู้เล่น"
+
+msgid "serviceChannelMessages/battleResults/freeXP"
+msgstr "ค่าประสบการณ์อิสระที่ได้รับ"
+
+msgid "serviceChannelMessages/battleResults/gold"
+msgstr "ได้รับทอง"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/description"
+msgstr "สำหรับการได้เข้าอันดับของ %(campaignName)s คุณได้รับรางวัลเป็นเหรียญตรา %(nameMedal)s"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/header"
+msgstr "ยินดีด้วย!"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/1/description"
+msgstr "สำหรับการปฏิบัติ 45 ภารกิจสำเร็จในชุด %(categoryName)s ของสมรภูมิ %(campaignName)s คุณได้รับรางวัลเป็นเหรียญตรา %(nameMedal)s"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/2/description"
+msgstr "สำหรับการปฏิบัติ 30 ภารกิจสำเร็จในชุด %(categoryName)s ของสมรภูมิ %(campaignName)s คุณได้รับรางวัลเป็นเหรียญตรา %(nameMedal)s"
+
+msgid "serviceChannelMessages/battleResults/notification/personalMissions/3/stage/3/description"
+msgstr "สำหรับการปฏิบัติ 15 ภารกิจสำเร็จในชุด %(categoryName)s ของสมรภูมิ %(campaignName)s คุณได้รับรางวัลเป็นเหรียญตรา %(nameMedal)s"
+
+msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
+msgstr "ค่าปรับการทำความเสียหายต่อพันธมิตร: %s"
+
+msgid "serviceChannelMessages/battleResults/personalMissions"
+msgstr "ยินดีด้วย!\nจากการปฏิบัติภารกิจส่วนตัวสำเร็จ คุณได้รับรางวัลต่อไปนี้"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/1"
+msgstr "ยินดีด้วย!\nจากการปฏิบัติภารกิจส่วนตัวของสมรภูมิกองหนุนที่รอมานานสำเร็จ คุณได้รับรางวัลดังต่อไปนี้"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/2"
+msgstr "ยินดีด้วย!\nจากการปฏิบัติภารกิจส่วนตัวของสมรภูมิแนวรบที่สองสำเร็จ คุณได้รับรางวัลดังต่อไปนี้"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/3"
+msgstr "+Congratulations!\nFor successful completion of the Sector 3 campaign personal missions you have received the following rewards+"
+
+msgid "serviceChannelMessages/battleResults/personalMissions/both"
+msgstr "ยินดีด้วย!\nจากการปฏิบัติภารกิจส่วนตัวของทั้งสมรภูมิสำเร็จ คุณได้รับรางวัลดังต่อไปนี้"
+
+msgid "serviceChannelMessages/battleResults/piggyBank"
+msgstr "เพิ่มเข้าเงินทุนสำรอง"
+
+msgid "serviceChannelMessages/battleResults/quests"
+msgstr "ภารกิจสำเร็จแล้ว! รางวัล"
+
+msgid "serviceChannelMessages/battleResults/quests/achievements"
+msgstr "บันทึกประจำการ"
+
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "ได้รับคะแนนบัตรผ่านการรบ: %(value)s"
+
+msgid "serviceChannelMessages/battleResults/quests/berths"
+msgstr "เพิ่มเตียงให้กับค่ายทหารแล้ว"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "เพิ่มเหรียญเข้ามา"
+
+msgid "serviceChannelMessages/battleResults/quests/credits"
+msgstr "เพิ่มเงินแล้ว"
+
+msgid "serviceChannelMessages/battleResults/quests/crystal"
+msgstr "บั้งที่เพิ่มเข้ามา"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/fmtMultiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr " (%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/equipCoin"
+msgstr "เพิ่มส่วนประกอบเข้ามา"
+
+msgid "serviceChannelMessages/battleResults/quests/eventCoin"
+msgstr "เพิ่มเหรียญฉลองครบรอบ"
+
+msgid "serviceChannelMessages/battleResults/quests/freeXP"
+msgstr "เพิ่มค่าประสบการณ์อิสระแล้ว"
+
+msgid "serviceChannelMessages/battleResults/quests/gold"
+msgstr "เพิ่มทองแล้ว"
+
+msgid "serviceChannelMessages/battleResults/quests/items"
+msgstr "เพิ่มแล้ว"
+
+msgid "serviceChannelMessages/battleResults/quests/items/name"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/personal_missions_points"
+msgstr "คะแนนสมรภูมิ: %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/pets"
+msgstr "ได้รับสัตว์เลี้ยงแล้ว"
+
+msgid "serviceChannelMessages/battleResults/quests/premium"
+msgstr "เพิ่มวันบัญชีพิเศษ Wargaming"
+
+msgid "serviceChannelMessages/battleResults/quests/premium_plus"
+msgstr "เพิ่มวันบัญชีพิเศษ WoT"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "เพิ่มการรบโบนัสให้: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s ครั้งประจำวัน"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "%(count)s ครั้งมาตรฐาน"
+
+msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
+msgstr "เพิ่มช่องใช้งานแล้ว"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
+msgstr "เพิ่มการรบโบนัสแล้ว"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
+msgstr " \nมาตรฐาน สำหรับผลงานของคุณในด่านที่ผ่านได้: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr " \nสำหรับการผ่านภารกิจ: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr " \nประจำวัน สำหรับจำนวนบั้งยศที่ได้รับในการคัดเลือก: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr " \nมาตรฐาน สำหรับจำนวนบั้งยศที่ได้รับในการคัดเลือก: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedProgress"
+msgstr "การเปลี่ยนแปลงของอันดับ"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepEarned"
+msgstr " \nได้รับบั้ง"
+
+msgid "serviceChannelMessages/battleResults/rankedState/bonusStepsEarned"
+msgstr " \nได้รับบั้ง"
+
+msgid "serviceChannelMessages/battleResults/rankedState/divisionEarned"
+msgstr " \nกำลังย้ายสู่ดิวิชัน: %(divisionNumber)s"
+
+msgid "serviceChannelMessages/battleResults/rankedState/leagueEarned"
+msgstr " \nกำลังย้ายสู่ลีก"
+
+msgid "serviceChannelMessages/battleResults/rankedState/nothingChanged"
+msgstr " \nรักษาบั้งได้"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankEarned"
+msgstr " \nคุณได้รับอันดับ%(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankLost"
+msgstr " \nคุณเสียอันดับ %(rankName)s (%(divisionName)s)"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankShieldProtected"
+msgstr " \nโล่อันดับอ่อนกำลัง"
+
+msgid "serviceChannelMessages/battleResults/rankedState/rankUnburnProtected"
+msgstr " \nไม่มีการเปลี่ยนแปลง"
+
+msgid "serviceChannelMessages/battleResults/rankedState/shieldLose"
+msgstr " \nโล่อันดับแตกแล้ว"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stageNotEarned"
+msgstr " \nรักษาบั้งได้"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepEarned"
+msgstr " \nได้รับบั้ง"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepLost"
+msgstr " \nเสียบั้ง"
+
+msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
+msgstr " \nได้รับบั้ง"
+
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "คะแนนจัดอันดับ"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
+msgstr "คุณได้รับรางวัลต่อไปนี้ตามปีที่เข้าประจำการของคุณ"
+
+msgid "serviceChannelMessages/battleResults/seniorityRewardHeader"
+msgstr "ยินดีด้วย!"
+
+msgid "serviceChannelMessages/battleResults/tankman"
+msgstr "ทหารเกณฑ์"
+
+msgid "serviceChannelMessages/battleResults/tanks"
+msgstr "พาหนะ"
+
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "พลรถถังหญิง"
+
+msgid "serviceChannelMessages/battleResults/techDefeat"
+msgstr "แพ้ทางเทคนิค"
+
+msgid "serviceChannelMessages/battleResults/techVictory"
+msgstr "ชนะทางเทคนิค"
+
+msgid "serviceChannelMessages/battleResults/victory"
+msgstr "ชัยชนะ"
+
+msgid "serviceChannelMessages/blackMapDisabled"
+msgstr "หนึ่งช่องของแผนที่ที่ถูกยกเว้นได้ถูกปลดไป แผนที่%(mapName)s กลับเข้ามาในการเวียนแล้ว"
+
+msgid "serviceChannelMessages/blackMapRemoved/mapDisabled"
+msgstr "แผนที่ยกเว้น %(mapNames)s ได้ถูกปลดจากเกม คุณสามารถยกเว้นแผนที่ใหม่ได้"
+
+msgid "serviceChannelMessages/blackMapRemoved/slotDisabled"
+msgstr "หนึ่งช่องแผนที่ยกเว้นถูกปลดออกไป แผนที่ %(mapNames)s กลับเข้ามาในการเวียนแล้ว"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr "ช่วงพิเศษได้เริ่มขึ้นแล้ว!\nเฉพาะช่วง 10 วันนี้เท่านั้น นำพิมพ์เขียวของคุณมาแลกเป็นสิ่งของที่มีค่าอื่นๆได้เลย"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "รายละเอียด"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "ช่วงพิเศษจบลงแล้ว"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "แลกเปลี่ยนพิมพ์เขียวของคุณ"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "การแปลงพิมพ์เขียวถูกปิดไว้อันเนื่องด้วยช่วงการบำรุงรักษา"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "การแปลงพิมพ์เขียวกลับคืนมาแล้ว"
+
+msgid "serviceChannelMessages/bondEquipmentChoosing"
+msgstr "อย่าลืมรับของขวัญของคุณล่ะ!"
+
+msgid "serviceChannelMessages/bondEquipmentChoosingButton"
+msgstr "ไปยังการเลือก"
+
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "ไม่ได้รับโบนัสจากการรบต่อเนื่อง"
+
+msgid "serviceChannelMessages/boosterDisabled"
+msgstr "กำลังสำรอง \"%(boosterName)s\" ถูกปิดการใช้งานเนื่องจากเหตุผลทางเทคนิค"
+
+msgid "serviceChannelMessages/boosterEnded"
+msgstr "%(boosterName)s: กำลังสำรองส่วนตัวใช้จนเต็มแล้ว"
+
+msgid "serviceChannelMessages/boosterExpired/message"
+msgstr "เสียกำลังสำรอง:"
+
+msgid "serviceChannelMessages/boosterExpired/title"
+msgstr "กำลังสำรองหมดอายุแล้ว"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "เงิน"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "ประสบการณ์อิสระ"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "ประสบการณ์พลรถถัง"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "ประสบการณ์การรบ"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "โบนัสรวมสำหรับ %(resourceName)s:"
+
+msgid "serviceChannelMessages/buttons/close"
+msgstr "ปิด"
+
+msgid "serviceChannelMessages/clan/LEFT_CLAN"
+msgstr "คุณออกหรือถูกปลดจากกองทัพ:"
+
+msgid "serviceChannelMessages/collector20/badge"
+msgstr "เพิ่ม %(element_name)s เข้ามา"
+
+msgid "serviceChannelMessages/collector20/medal"
+msgstr "เพิ่มเหรียญตรา %(element_name)s เข้ามา"
+
+msgid "serviceChannelMessages/collector20/stripe"
+msgstr "เพิ่มแพรแถบ %(element_name)s เข้ามา"
+
+msgid "serviceChannelMessages/collector20/title"
+msgstr "ได้รับรางวัล"
+
+msgid "serviceChannelMessages/commendations/battleResults/commendationsReceived"
+msgstr "ได้รับการชมเชย"
+
+msgid "serviceChannelMessages/commendations/liveTags/disable"
+msgstr "ป้ายสดไม่มีให้ในขณะนี้"
+
+msgid "serviceChannelMessages/commendations/liveTags/enable"
+msgstr "ป้ายสดมีให้ในการรบ"
+
+msgid "serviceChannelMessages/commendations/messages/disable"
+msgstr "การชมเชยไม่มีให้ในขณะนี้"
+
+msgid "serviceChannelMessages/commendations/messages/enable"
+msgstr "การชมเชยมีให้ในการรบ"
+
+msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
+msgstr "คุณได้รับทอง %(gold)s และเงิน %(credits)s"
+
+msgid "serviceChannelMessages/creditsReceivedAsGift"
+msgstr "คุณได้รับเงิน %(credits)s"
+
+msgid "serviceChannelMessages/crewAssistant/available/title"
+msgstr "มีผู้ช่วยพลรถถังให้"
+
+msgid "serviceChannelMessages/crewAssistant/unavailable/title"
+msgstr "ไม่มีผู้ช่วยพลรถถังให้"
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/crewSkinsCount"
+msgstr "%(label)s x%(count)s"
+
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "เปิดคลังเงินและทองแล้ว!"
+
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "การประมูล"
+
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "บัตรผ่านการรบ"
+
+msgid "serviceChannelMessages/currencyUpdate/date"
+msgstr "วันที่"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "หักเหรียญไป"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/credits"
+msgstr "หักเงินไป"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
+msgstr "หักพันธบัตรไป"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/equipCoin"
+msgstr "ถอดส่วนประกอบแล้ว"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
+msgstr "หักเหรียญฉลองครบรอบ"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
+msgstr "ใช้ค่าประสบการณ์อิสระแล้ว"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/gold"
+msgstr "ใช้ทองไป"
+
+msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
+msgstr "ธุรกรรมเงิน"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "การประมูล"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "ได้รับเหรียญ"
+
+msgid "serviceChannelMessages/currencyUpdate/received/credits"
+msgstr "เงินที่ได้รับ"
+
+msgid "serviceChannelMessages/currencyUpdate/received/crystal"
+msgstr "ได้รับพันธบัตร"
+
+msgid "serviceChannelMessages/currencyUpdate/received/equipCoin"
+msgstr "ได้รับส่วนประกอบแล้ว"
+
+msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
+msgstr "ได้รับเหรียญฉลองครบรอบ"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
+msgstr "ค่าประสบการณ์อิสระที่ได้รับ"
+
+msgid "serviceChannelMessages/currencyUpdate/received/gold"
+msgstr "ได้รับทอง"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "รางวัลวีรบุรุษแห่งยุคเรา"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr "ได้รับรางวัล %(medalName)s สำหรับการเข้าร่วมการรบ %(battlesCount)s ครั้ง\nได้รับลวดลายสำหรับการเข้าร่วมการรบ %(battlesCount)s ครั้ง (x%(decalsCount)s)"
+
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr "การดำเนินการด้วยชุดเครื่องมือปลดไม่มีให้ชั่วคราวเนื่องด้วยการบำรุงรักษาที่กำลังเกิดขึ้นอยู่"
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr "การดำเนินการด้วยชุดเครื่องมือปลดทำได้อีกครั้งแล้ว ทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "ปลดล็อคฉากหลังป้ายชื่อ: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "ปลดล็อคภาพสลักป้ายชื่อ: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/coupled"
+msgstr "ป้ายชื่อ %(name)s"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "ถึงขั้น"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "ขั้นใหม่"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "ปลดล็อคแล้ว"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "ฉากหลัง"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "ภาพสลัก"
+
+msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
+msgstr "บัญชีพิเศษ Wargaming หมดอายุใน %(expiryTime)s"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/button"
+msgstr "ยืนยันอีเมล์"
+
+msgid "serviceChannelMessages/emailConfirmationReminder/text"
+msgstr "อีเมล์ยังไม่ได้ยืนยัน"
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "ใช้ชิ้นส่วนรุ่นทดลองไป"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "ปลดชิ้นส่วนรุ่นทดลองทั้งหมดไป"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "ส่วนประกอบรุ่นทดลองถูกปลดจากพาหนะดังต่อไปนี้"
+
+msgid "serviceChannelMessages/epicBattleResults/scenario"
+msgstr "สถานการณ์"
+
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• อุปกรณ์ให้เลือก"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• คะแนนบัตรผ่านการรบ"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• อนุสารสากล"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• พันธบัตร"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• คะแนนกำลังสำรองรบ"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• อุปกรณ์ทดลองให้เลือก"
+
+msgid "serviceChannelMessages/epicReward/mentoringLicense_gift"
+msgstr "• ใบอนุญาตฝึกสอน"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• คำสั่งฝึกใหม่"
+
+msgid "serviceChannelMessages/epicReward/universalBook_gift"
+msgstr "• คู่มือสากล"
+
+msgid "serviceChannelMessages/eventCoinReceivedAsGift"
+msgstr "คุณได้รับเหรียญฉลองครบรอบ: %(eventCoin)s"
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "ทำการปลดล็อคช่องเพิ่มเติมสำหรับการยกเว้นแผนที่"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "ไม่สามารถยกเว้นแผนที่ด้วย WoT Plus"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason"
+msgstr "เหตุผล"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_boosteroid"
+msgstr "การสมัครตัวเร่งหมดลงแล้ว"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/reason_default"
+msgstr "การสมัครหมดลงแล้ว"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/title"
+msgstr "พาหนะถูกปิดไว้"
+
+msgid "serviceChannelMessages/externalVehicleRent/expired/vehicle"
+msgstr "พาหนะ"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/title"
+msgstr "มีพาหนะให้"
+
+msgid "serviceChannelMessages/externalVehicleRent/started/vehicle"
+msgstr "พาหนะ"
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "ตั้งค่าความคืบหน้าใหม่"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "ไปยังภารกิจ"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr "โปรดทราบ! ความคืบหน้าของภารกิจ %(missionShortName)s ถูกตั้งใหม่ ต้องเริ่มการปฏิบัติเงื่อนไขนี้ใหม่อีกครั้ง"
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "ภารกิจ: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "ปฏิบัติการ: %(operation)s"
+
+msgid "serviceChannelMessages/fairplayViolation/banDueDate"
+msgstr "%(date)s, %(time)s"
+
+msgid "serviceChannelMessages/fairplayViolation/button"
+msgstr "รายละเอียด"
+
+msgid "serviceChannelMessages/fairplayViolation/text/ban"
+msgstr "คุณถูกบล็อคเป็นการชั่วคราวในรูปแบบ %(mode)s การบล็็อคจะถูกปลดล็อคใน %(date)s"
+
+msgid "serviceChannelMessages/fairplayViolation/text/banRemoved"
+msgstr "การบล็อคชั่วคราวของคุณถูกปลดแล้ว คุณสามารถเล่นรูปแบบ %(mode)s ได้อีกครั้ง"
+
+msgid "serviceChannelMessages/fairplayViolation/text/penalty"
+msgstr "เงิน, ประสบการณ์และรางวัลที่ได้รับในการรบถูกลบออกไปเนื่องด้วย %(reason)s ในรูปแบบ %(mode)s"
+
+msgid "serviceChannelMessages/fairplayViolation/text/warning"
+msgstr "คุณถูกเตือนจาก %(reason)s ในรูปแบบ %(mode)s"
+
+msgid "serviceChannelMessages/fairplayViolation/title/ban"
+msgstr "บล็อค"
+
+msgid "serviceChannelMessages/fairplayViolation/title/banRemoved"
+msgstr "จบการบล็อค"
+
+msgid "serviceChannelMessages/fairplayViolation/title/penalty"
+msgstr "คุณถูกลงโทษ"
+
+msgid "serviceChannelMessages/fairplayViolation/title/warning"
+msgstr "การประพฤติตนไม่เป็นนักกีฬา"
+
+msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
+msgstr "ประกาศสงครามกับกองทัพ %(clan)s!\nการรบรุกคืบเริ่มขึ้นใน %(date)s ณเวลา %(time)s"
+
+msgid "serviceChannelMessages/fort/BASE_DESTROYED"
+msgstr "แนวป้องกันแตกแล้ว!\nการโจมตีถูกยกเลิก เติมแถบความทนทานที่ศูนย์บัญชาการฐานที่มั่นเพื่อให้ใช้การได้"
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED"
+msgstr "หมายกำหนดการรบกับกองทัพ %(clan)s ถูกยกเลิก"
+
+msgid "serviceChannelMessages/fort/BATTLE_DELETED_LEVEL"
+msgstr "การรบรุกคืบที่มีกำหนดไว้ในเวลา %(time)s ในวันที่ %(date)s กับกองทัพ %(clan)s ถูกยกเลิก: ระดับความต่างของฐานที่มั่นนั้นมากกว่า 1 ระดับ"
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED"
+msgstr "อาคาร %(building)s ได้รับความเสียหาย! เติมแถบความทนทานของอาคารเพื่อให้ใช้งานได้"
+
+msgid "serviceChannelMessages/fort/BUILDING_DAMAGED_MILITARY_BASE"
+msgstr "ศูนย์บัญชาการเสียหาย! เติมแถบความทนทานของฐานที่มั่นเพื่อให้ใช้งานได้ ถ้าศูนย์บัญชาการของคุณได้รับเสียหายมากกว่านี้ แนวป้องกันจะแตก"
+
+msgid "serviceChannelMessages/fort/DEFENCE_PLANNED"
+msgstr "กองทัพ %(clan)s ได้ประกาศสงครามกับคุณแล้ว!\nการรบรุกคืบจะเริ่มขึ้นภายใน %(date)s ณ เวลา %(time)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_ACTIVATED"
+msgstr "ตั้งเวลาป้องกันใหม่: %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_CHANGED"
+msgstr "ช่วงเวลาป้องกันถูกเปลี่ยนแล้ว เวลาป้องกันใหม่ %(defenceHour)s"
+
+msgid "serviceChannelMessages/fort/DEF_HOUR_SHUTDOWN"
+msgstr "การป้องกันฐานที่มั่นของคุณถูกปิด ระดับของอาคารและกำลังสำรองทั้งหมดถูกลดลงเป็นระดับ IV"
+
+msgid "serviceChannelMessages/fort/FORT_GOT_8_LEVEL"
+msgstr "ยินดีด้วย! คุณได้พัฒนาฐานที่มั่นของคุณเป็นระดับ VIII แล้ว"
+
+msgid "serviceChannelMessages/fort/FORT_READY"
+msgstr "ยินดีด้วย! ฐานที่มั่นใช้งานได้แล้วแต่สร้างความได้เปรียบให้กับกองทัพ"
+
+msgid "serviceChannelMessages/fort/NO_OFF_DAY_ACTIVATED"
+msgstr "วันหยุดยิงถูกเปลี่ยนแล้ว ยังไม่ได้ตั้งวันหยุดยิงใหม่"
+
+msgid "serviceChannelMessages/fort/OFF_DAY_ACTIVATED"
+msgstr "วันหยุดยิงถูกตั้งแล้ว: %(offDay)s"
+
+msgid "serviceChannelMessages/fort/ORDER_CANCELED"
+msgstr "ระดับของอาคาร %(building)s ถูกเพิ่มขึ้นแล้ว\nกำลังสำรอง %(order)s ในการเตรียมการถูกแปลงเป็นทรัพยากรอุตสาหกรรมและเพิ่มเข้าห้องเก็บของอาคาร"
+
+msgid "serviceChannelMessages/fort/ORDER_COMPENSATED"
+msgstr "กำลังสำรอง %(orderTypeName)s ถูกชดเชยและพร้อมใช้งานอีกครั้ง"
+
+msgid "serviceChannelMessages/fort/PERIPHERY_CHANGED"
+msgstr "เซิร์ฟเวอร์เหย้าถูกเปลี่ยนไปเป็น %(peripheryName)s"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_EARNED"
+msgstr "เพิ่มทรัพยากรอุตสากรรมอีก: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/PROM_RESOURCE_WITHDRAWN"
+msgstr "ลดทรัพยากรอตุสาหกรรมลง: %(promresource)d"
+
+msgid "serviceChannelMessages/fort/REATTACHED_TO_BASE"
+msgstr "คุณกำลังประจำอยู่ที่อาคาร %(building)s"
+
+msgid "serviceChannelMessages/fort/RESERVES_EARNED"
+msgstr "เพิ่มกำลังสำรอง: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVES_WITHDRAWN"
+msgstr "กำลังสำรองถูกหักออก: %(reserves)d"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED"
+msgstr "กำลังสำรอง %(order)s ถูกใช้อยู่ เวลาที่เหลืออยู่: %(timeLeft)s"
+
+msgid "serviceChannelMessages/fort/RESERVE_ACTIVATED/title"
+msgstr "ใช้งานกำลังสำรองแล้ว"
+
+msgid "serviceChannelMessages/fort/RESERVE_EXPIRED"
+msgstr "กำลังสำรอง %(order)s ถูกใช้เต็มที่แล้ว"
+
+msgid "serviceChannelMessages/fort/RESERVE_PRODUCED"
+msgstr "การเตรียมของกำลังสำรอง %(count)s %(order)s เสร็จสิ้นแล้ว"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION"
+msgstr "การอพยพกำลังสำรองหมดเวลาแล้ว\n\n%(additional)s\nทั้งหมดสำหรับกองทัพของเรา: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_EVACUATION_ADDITIONAL"
+msgstr "ข้าศึกใช้งานการร้องขอกำลังสำรองและปล้นสะดมเพิ่ม: %(resDec)s\nจำนวนที่กองทัพเรารักษาไว้ได้: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION"
+msgstr "การร้องขอกำลังสำรองหมดอายุลง\n\n%(additional)s\nทั้งหมดสำหรับกองทัพของเรา: %(resTotal)s"
+
+msgid "serviceChannelMessages/fort/SPECIAL_ORDER_EXPIRED_REQUISITION_ADDITIONAL"
+msgstr "ข้าศึกใช้งานการอพยพกำลังสำรองและรักษาได้เพิ่ม: %(resDec)s\nจำนวนที่กองทัพเราปล้นสะดมได้: %(resInc)s"
+
+msgid "serviceChannelMessages/fort/STORAGE_OVERFLOW"
+msgstr "ห้องเก็บของอาคาร %(building)s เต็ม\nใช้ทรัพยากรอุตสาหกรรมในการเตรียมกำลังสำรองหรือขนส่งไปยังอาคารอื่น"
+
+msgid "serviceChannelMessages/fort/VACATION_FINISHED"
+msgstr "ช่วงเป็นกลางของฐานที่มั่นของคุณหมดลง\nกองทัพอื่นสามารถโจมตีคุณได้แล้ว-เตรียมตัวให้ดี!"
+
+msgid "serviceChannelMessages/fort/VACATION_STARTED"
+msgstr "ฐานที่มั่นของคุณประกาศสถานะเป็นกลาง\nกองทัพอื่นไม่สามารถโจมตีคุณได้ช่วงระยะเวลาเป็นกลางหมดลง: %(finish)s"
+
+msgid "serviceChannelMessages/fortificationStartUp"
+msgstr "%(defResCount)s หน่วยของทรัพยากรอุตสาหกรรมเพิ่มเข้าห้องเก็บศูนย์บัญชาการ"
+
+msgid "serviceChannelMessages/funRandom/newSubModesButton"
+msgstr "ไปยังกิจกรรม"
+
+msgid "serviceChannelMessages/funRandom/progressionStageButton"
+msgstr "ไปยังความก้าวหน้า"
+
+msgid "serviceChannelMessages/goldReceivedAsGift"
+msgstr "คุณได้รับทอง %(gold)s"
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "การประมูล: การส่งราคาของคุณนั้นต่ำกว่าราคาแข่งขัน"
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr "โอกาสของคุณในการชนะการประมูลปัจจุบันนั้นลดลง: การส่งราคาปัจจุบันของคุณต่ำกว่าราคาประมูลแข่งขัน"
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "ไปยังกิจกรรม"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "การส่งราคาประมูลของคุณแพ้: ที่จะทำการส่งคืน:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr "ผู้เล่นคนอื่นส่งราคาประมูลมากกว่าราคาของคุณ ราคาประมูลของคุณจะถูกส่งคืนไปยังบัญชี"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "ข้อผิดพลาด"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "ข้อผิดพลาดการส่งราคา ไม่มีการหักเงินทุนไป โปรดลองใหม่อีกครั้ง"
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "การส่งราคากำลังจะปิดลง"
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "รีบส่งราคาประมูลของคุณเข้าล่ะ!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "รีบเข้าแล้วส่งราคาของคุณเลย! เวลาเหลือไม่มากแล้ว"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "การส่งราคาประมูลรอบใหม่ได้เริ่มขึ้นแล้ว!"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
+msgstr "เพิ่มเตียงเข้าค่ายทหาร"
+
+msgid "serviceChannelMessages/invoiceReceived/berthsDebited"
+msgstr "ปลดเตียงออกจากค่ายทหาร"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters"
+msgstr "กำลังสำรองส่วนตัว"
+
+msgid "serviceChannelMessages/invoiceReceived/boosters/debited"
+msgstr "ลบกำลังสำรองส่วนตัวแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "เพิ่มเหรียญเข้ามา"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "หักเหรียญไป"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation"
+msgstr "ค่าชดเชยสำหรับ"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "เป็นเหรียญ"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
+msgstr "ลายพราง"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
+msgstr "เงิน"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
+msgstr "พร้อมกับพันธบัตร"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
+msgstr "ชนิดตราสัญลักษณ์"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
+msgstr "ด้วยเหรียญฉลองครบรอบ"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
+msgstr "ทอง"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
+msgstr "ชนิดคำจารึก"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
+msgstr "เอฟเฟค"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
+msgstr "สี"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "เลขหนึ่งหลัก"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "เลขสองหลัก"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
+msgstr "เลขสามหลัก"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
+msgstr "ลวดลาย"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/style"
+msgstr "รูปแบบ"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
+msgstr "เพิ่มเงินแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/creditsDebited"
+msgstr "เงินถูกหักออกจากบัญชีของคุณ"
+
+msgid "serviceChannelMessages/invoiceReceived/crewBooksAccrued"
+msgstr "เพิ่มหนังสือพลรถถังเข้ามา"
+
+msgid "serviceChannelMessages/invoiceReceived/crewDroppedToBarracks"
+msgstr "พลรถถังถูกส่งไปยังค่ายทหาร"
+
+msgid "serviceChannelMessages/invoiceReceived/crewOnVehicle"
+msgstr "พลรถถัง %d%%"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsAccrued"
+msgstr "เพิ่มลายพลรถถังเข้ามา"
+
+msgid "serviceChannelMessages/invoiceReceived/crewSkinsDebited"
+msgstr "ลบลายพลรถถังออก"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithLvlDroppedToBarracks"
+msgstr "พลรถถัง %d%% ถูกส่งไปยังค่ายทหาร"
+
+msgid "serviceChannelMessages/invoiceReceived/crewWithdrawn"
+msgstr "พลรถถังถูกปลด"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalAccrued"
+msgstr "พันธบัตรที่ได้รับ"
+
+msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
+msgstr "หักพันธบัตรไป"
+
+msgid "serviceChannelMessages/invoiceReceived/discounts"
+msgstr "ส่วนลดส่วนตัว"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersAccrued"
+msgstr "รางวัลที่เพิ่ม"
+
+msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
+msgstr "รางวัลที่ลบ"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "เพิ่มชิ้นส่วนรุ่นทดลองเข้ามา"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "ปลดชิ้นส่วนรุ่นทดลองไป"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "เพิ่มแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "ปลดออก"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinAccrued"
+msgstr "เพิ่มส่วนประกอบเข้ามา"
+
+msgid "serviceChannelMessages/invoiceReceived/equipCoinDebited"
+msgstr "ถอดส่วนประกอบออก"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "ยุทธปัจจัย"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment/debited"
+msgstr "ยุทธปัจจัยถูกถอน"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
+msgstr "เพิ่มเหรียญฉลองครบรอบ"
+
+msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
+msgstr "หักเหรียญฉลองครบรอบ"
+
+msgid "serviceChannelMessages/invoiceReceived/expirableBoosters"
+msgstr "กำลังสำรองส่วนตัวหมดอายุได้"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
+msgstr "เพิ่มคำสั่งเข้า"
+
+msgid "serviceChannelMessages/invoiceReceived/freeAwardListsDebited"
+msgstr "หักคำสั่งไป"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXp"
+msgstr "ประสบการณ์อิสระ"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpAccrued"
+msgstr "เพิ่มค่าประสบการณ์อิสระแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/freeXpDebited"
+msgstr "ใช้ค่าประสบการณ์อิสระแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/goldAccrued"
+msgstr "เพิ่มทองแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/goldDebited"
+msgstr "ใช้ทองไป"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsAccrued"
+msgstr "เพิ่มเศษแผ่นสากลเข้ามา"
+
+msgid "serviceChannelMessages/invoiceReceived/intelligenceBlueprintsDebited"
+msgstr "ลบเศษแผ่นสากลออก"
+
+msgid "serviceChannelMessages/invoiceReceived/invoice"
+msgstr "ใบเสร็จ"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsAccrued"
+msgstr "เพิ่มเข้าโรงเก็บแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsDebited"
+msgstr "ยุทธปัจจัยถูกถอน"
+
+msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
+msgstr "บนพาหนะ"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsAccrued"
+msgstr "เพิ่มเศษแผ่นพิมพ์เขียวของพาหนะ %(nationName)s เข้ามา"
+
+msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
+msgstr "ลบเศษแผ่นพิมพ์เขียวของพาหนะ %(nationName)s ออก"
+
+msgid "serviceChannelMessages/invoiceReceived/offersAccrued"
+msgstr "เพิ่มแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/offersDebited"
+msgstr "ลบ"
+
+msgid "serviceChannelMessages/invoiceReceived/pieces"
+msgstr "อัน"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
+msgstr "เพิ่มวันบัญชีพิเศษ Wargaming"
+
+msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
+msgstr "หักวันบัญชีพิเศษ Wargaming ออก"
+
+msgid "serviceChannelMessages/invoiceReceived/premium_account"
+msgstr "บัญชีพิเศษ Wargaming"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeAdded"
+msgstr "%(vehicleName)s ได้รับ %(xpCount)s คะแนนชั้นยอด"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/full"
+msgstr "%(vehicleName)s ได้รับขั้นชั้นยอด %(level)s และ %(xpCount)s คะแนนชั้นยอด"
+
+msgid "serviceChannelMessages/invoiceReceived/prestigeSet/justLevel"
+msgstr "%(vehicleName)s ได้รับขั้นชั้นยอด %(level)s"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "สิ่งของจาก"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "เนื้อหาดาวน์โหลด Steam"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "ช่องเก็บของ Steam"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "เพิ่มการรบโบนัสแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "ลบการรบโบนัสแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/rentDays"
+msgstr "วันทำการเช่า: "
+
+msgid "serviceChannelMessages/invoiceReceived/slotsAccrued"
+msgstr "เพิ่มช่องใช้งานแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/slotsDebited"
+msgstr "ช่องลด"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
+msgstr "บัญชีพิเศษ WoT"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
+msgstr "เพิ่มวันบัญชีพิเศษ WoT"
+
+msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
+msgstr "หักวันบัญชีพิเศษ WoT ออก"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmen"
+msgstr "ทหารเกณฑ์"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpAccrued"
+msgstr "เพิ่มประสบการณ์ที่ไม่ถูกแจกจ่ายจากสมาชิกพลรถถัง"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
+msgstr "ลบประสบการณ์ที่ไม่ถูกแจกจ่ายจากสมาชิกพลรถถัง"
+
+msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
+msgstr "ปลดแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "ทำการวิจัยชิ้นส่วนทั้งหมดแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
+msgstr "ทำการเพิ่มเศษแผ่นพิมพ์เขียวของ %(vehicleName)s เข้ามา"
+
+msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsDebited"
+msgstr "ทำการลบเศษแผ่นพิมพ์เขียวของ %(vehicleName)s ออก"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
+msgstr "ได้เพิ่มยานเกราะแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesDebited"
+msgstr "ถอดยานเกราะแล้ว"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
+msgstr "เพิ่มพาหนะเช่าแล้ว"
+
+msgid "serviceChannelMessages/itemReceivedAsGift"
+msgstr "คณได้รับยุทธปัจจัย: %(typeName)s \"%(itemName)s\" - %(amount)d อัน"
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "ไปยังกล่อง"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "คลิกที่ปุ่มเพื่อดูเนื้อหา"
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "คุณได้รับพัสดุ:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "ดู"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "เปิดใช้งานประตูมิติไป: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
+msgstr "กำลังเปิดประตูมิติ"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
+msgstr "ได้รับสิ่งของ:\n%(rewards)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
+msgstr "เราได้ทำการเปิดประตูมิติทั้งหมดของคุณและเพิ่มสิ่งของเข้าบัญชีของคุณแล้ว:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "เราได้เปิดทุกกล่องของปฏิบัติการวันหยุดที่คุณมีแล้ว"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "เพิ่มลวดลายเข้ามา: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "เพิ่มลวดลายเข้ามา: "
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "ไปยังแบบสำรวจ"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "ยินดีด้วย!"
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr "ภารกิจลาดตระเวนจบลงแล้ว ขอขอบคุณสำหรับการมีส่วนร่วมของคุณในการพัฒนาแผนที่ใหม่!"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr "ภารกิจลาดตระเวนจบลงแล้ว\n\nขอขอบคุณสำหรับการมีส่วนร่วมของคุณในการพัฒนาแผนที่ใหม่!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr "ภารกิจลาดตระเวนได้เริ่มขึ้นแล้ว\n\nต่อสู้ในแผนที่ที่กำลังพัฒนาด้วยพาหนะระดับ VIII—X แล้วแบ่งปันความเห็นของคุณในแบบสำรวจแล้วรับรางวัลเลย!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "รางวัลสุดท้าย:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr "คุณได้ออกรบ %(battles)s ครั้งในภารกิจลาดตระเวน"
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "ได้รับรางวัล:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "คุณสามารถเข้าทำแบบสำรวจเกี่ยวกับกลไกรูปแบบในภารกิจลาดตระเวนได้"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "มีแบบสำรวจให้"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "คุณสามารถเข้าทำแบบสำรวจเกี่ยวกับแผนที่ %(mapName)s ในภารกิจลาดตระเวน"
+
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
+
+msgid "serviceChannelMessages/notrecruitedTankman/button"
+msgstr "ไปยังค่ายทหาร"
+
+msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
+msgstr "ปลดสมาชิกพลรถถัง: %(count)s"
+
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "เสบียงแนวหลัง"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/available/title"
+msgstr "มีผู้ช่วยอุปกรณ์ให้"
+
+msgid "serviceChannelMessages/optionalDevicesAssistant/unavailable/title"
+msgstr "ไม่มีผู้ช่วยอุปกรณ์ให้"
+
+msgid "serviceChannelMessages/personalReservesRelease/description"
+msgstr "คุณมีกำลังสำรองใหม่:"
+
+msgid "serviceChannelMessages/personalReservesRelease/title"
+msgstr "การแจ้งเตือนการเปิดตัว"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/description"
+msgstr "กำลังสำรองกำลังจะหมดอายุ:"
+
+msgid "serviceChannelMessages/personalReservesSoonExpire/title"
+msgstr "กำลังจะเสียกำลังสำรองหมดอายุ"
+
+msgid "serviceChannelMessages/petSystem/events/creditsReceived"
+msgstr "ได้รับเงิน: %(credits)s"
+
+msgid "serviceChannelMessages/petSystem/events/date"
+msgstr "วัน: %(date)s"
+
+msgid "serviceChannelMessages/petSystem/events/financial_transaction"
+msgstr "ธุรกรรมการเงิน:"
+
+msgid "serviceChannelMessages/petSystem/events/itemsReceived"
+msgstr "เพิ่มเข้าโรงเก็บ: %(item)s"
+
+msgid "serviceChannelMessages/petSystem/events/receipt"
+msgstr "สิ่งที่ได้รับ"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
+msgstr "รอบการสะสมใหม่เริ่มขึ้นแล้ว"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr "เริ่มรอบการสะสมใหม่แล้ว ในการได้รับเงิน ให้เปิดใช้บัญชีพิเศษ WoT"
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr "เริ่มรอบการสะสมใหม่แล้ว ในการได้รับทอง ให้ทำการสมัคร WoT Plus"
+
+msgid "serviceChannelMessages/piggyBank/onPause"
+msgstr "การสะสมเงินในเงินทุนสำรองถูกพักเอาไว้"
+
+msgid "serviceChannelMessages/piggyBank/title"
+msgstr "เปิดคลังเงินแล้ว!"
+
+msgid "serviceChannelMessages/postProgression/completed/button"
+msgstr "รับรางวัล"
+
+msgid "serviceChannelMessages/postProgression/completed/header"
+msgstr "ผ่านช่วงหลังความก้าวหน้าแล้ว!"
+
+msgid "serviceChannelMessages/postProgression/unlocked/button"
+msgstr "ไปยังความก้าวหน้า"
+
+msgid "serviceChannelMessages/postProgression/unlocked/header"
+msgstr "ช่วงหลังความก้าวหน้า"
+
+msgid "serviceChannelMessages/postProgression/unlocked/text"
+msgstr "คุณได้เข้าถึงรางวัลพิเศษ"
+
+msgid "serviceChannelMessages/prebattle/battleType/clan"
+msgstr "สงครามกองทัพ"
+
+msgid "serviceChannelMessages/prebattle/battleType/prebattle"
+msgstr "ผลการรบ"
+
+msgid "serviceChannelMessages/prebattle/battleType/tournament"
+msgstr "ทัวร์นาเมนท์"
+
+msgid "serviceChannelMessages/prebattle/finish/base/defeat"
+msgstr "พ่ายแพ้"
+
+msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
+msgstr "เสมอ"
+
+msgid "serviceChannelMessages/prebattle/finish/base/undefined"
+msgstr "ยังไม่ทราบผล"
+
+msgid "serviceChannelMessages/prebattle/finish/base/win"
+msgstr "ชัยชนะ!"
+
+msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
+msgstr "ลบโดยเจ้าของ"
+
+msgid "serviceChannelMessages/prebattle/finish/failure"
+msgstr "ความล้มเหลวทางเทคนิค"
+
+msgid "serviceChannelMessages/prebattle/finish/playerKick"
+msgstr "คุณถูกปลดแล้ว"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
+msgstr "แพ้ทางเทคนิค"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
+msgstr "เสมอในทางเทคนิค"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
+msgstr "ยังไม่ทราบผล"
+
+msgid "serviceChannelMessages/prebattle/finish/technical/win"
+msgstr "ชัยชนะในทางเทคนิค!"
+
+msgid "serviceChannelMessages/prebattle/finish/timeout"
+msgstr "หมดเวลา"
+
+msgid "serviceChannelMessages/prebattle/finishedTime"
+msgstr "ยึดฐานได้"
+
+msgid "serviceChannelMessages/prebattle/numberOfBattle"
+msgstr "(การรบ %s)"
+
+msgid "serviceChannelMessages/prebattle/subtotal"
+msgstr "ผลบางส่วน"
+
+msgid "serviceChannelMessages/prebattle/total"
+msgstr "ผล"
+
+msgid "serviceChannelMessages/premiumBought"
+msgstr "ได้รับบัญชีพิเศษ Wargaming แล้ว หมดภายใน %(expiryTime)s"
+
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "บัญชีพิเศษ Wargaming ถูกเปลี่ยน หมดลงใน %(expiryTime)s"
+
+msgid "serviceChannelMessages/premiumExpired"
+msgstr "บัญชีพิเศษ Wargaming หมดอายุแล้ว"
+
+msgid "serviceChannelMessages/premiumExtended"
+msgstr "ขยายช่วงบัญชีพิเศษ Wargaming แล้ว หมดภายใน %(expiryTime)s"
+
+msgid "serviceChannelMessages/premiumPlusBought"
+msgstr "ได้รับบัญชีพิเศษ WoT แล้ว หมดภายใน %(expiryTime)s"
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "บัญชีพิเศษ WoT ถูกเปลี่ยน หมดลงใน %(expiryTime)s"
+
+msgid "serviceChannelMessages/premiumPlusExpired"
+msgstr "บัญชีพิเศษ WoT หมดอายุแล้ว"
+
+msgid "serviceChannelMessages/premiumPlusExtended"
+msgstr "ขยายช่วงบัญชีพิเศษ WoT แล้ว หมดภายใน %(expiryTime)s"
+
+msgid "serviceChannelMessages/premiumReceivedAsGift"
+msgstr "คุณได้รับบัญชีพิเศษ Wargaming เป็นเวลา %(days)d วัน"
+
+msgid "serviceChannelMessages/prestige/firstEntry/button"
+msgstr "ไปยังระบบชั้นยอด"
+
+msgid "serviceChannelMessages/prestige/firstEntry/text"
+msgstr "ได้รับขั้นชั้นยอดและเครื่องหมายชั้นยอด"
+
+msgid "serviceChannelMessages/prestige/firstEntry/title"
+msgstr "ระบบชั้นยอด"
+
+msgid "serviceChannelMessages/prestige/lvlUp/button"
+msgstr "ไปยังพาหนะ"
+
+msgid "serviceChannelMessages/prestige/lvlUp/text"
+msgstr "%(vehName)s"
+
+msgid "serviceChannelMessages/prestige/lvlUp/title"
+msgstr "ถึงขั้นชั้นยอด"
+
+msgid "serviceChannelMessages/prestigeMilestone/error"
+msgstr "เกิดข้อผิดพลาดระหว่างรับรางวัลชั้นยอด"
+
+msgid "serviceChannelMessages/prestigeMilestone/text"
+msgstr "ได้รับ %(rewardName)s %(typeReward)s จากการได้ขั้นชั้นยอด %(lvl)s"
+
+msgid "serviceChannelMessages/prestigeMilestone/title"
+msgstr "ได้รับรางวัลชั้นยอดแล้ว"
+
+msgid "serviceChannelMessages/priorityMessageTitle"
+msgstr "โปรดทราบ!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "รายละเอียด"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "ลายพราง"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "ลวดลาย"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "ตราสัญลักษณ์"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "ชนิดคำจารึก"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "%(level)s%(name)s %(typeName)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "และอีก %(count)s"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr "ขั้น %(level)s "
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "สี"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "ลวดลาย"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "ได้รับ:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "รูปแบบ %(name)s"
+
+msgid "serviceChannelMessages/progressiveReward/header"
+msgstr "ยินดีด้วย!"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/button"
+msgstr "รายละเอียด"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/header"
+msgstr "รางวัลเกียรติคุณ"
+
+msgid "serviceChannelMessages/progressiveRewardNotification/text"
+msgstr "เข้าร่วมการรบแล้วรับรางวัล ยิ่งคุณต่อสู้มากเท่าใดคุณจะยิ่งเข้าใกล้รางวัลมากขึ้นเท่านั้น"
+
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "\"%(text)s\""
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
+msgstr "ได้รับรางวัลก้าวหน้า:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/buttonLabel"
+msgstr "รายละเอียด"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/compensation"
+msgstr "เหรียญอันดับ %(surplusPoints)s เหรียญถูกแปลงเป็นพันธบัตร %(count)s ใบ"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/congratulation"
+msgstr "ยินดีด้วย!"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/large/awardsTitle"
+msgstr "ได้รับรางวัลสูงสุด:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/medium/awardsTitle"
+msgstr "ได้รับรางวัลปกติ:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
+msgstr "ได้รับรางวัลย่อย:"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
+msgstr "คุณได้รับเหรียญอันดับ %(points)s เหรียญในปี 2021–2022"
+
+msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
+msgstr "รางวัลประจำปี"
+
+msgid "serviceChannelMessages/recruitGift/header"
+msgstr "กำลังเสริมมาถึงแล้ว!"
+
+msgid "serviceChannelMessages/recruitGift/text"
+msgstr "คุณได้รับพลรถถังจาก %(event)s"
+
+msgid "serviceChannelMessages/recruitReminder/text"
+msgstr "คุณมีสมาชิกพลรถถังที่ยังไม่ได้เกณฑ์อยู่ %(count)s นาย การปลดจะเริ่มภายใน %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "คุณมีสมาชิกพลรถถังที่ยังไม่ได้ทำการเกณฑ์: %(count)s"
+
+msgid "serviceChannelMessages/removedBadgeAchievement"
+msgstr "ปลดตราแล้ว"
+
+msgid "serviceChannelMessages/rentCompensation/compensation"
+msgstr "ค่าชดเชย"
+
+msgid "serviceChannelMessages/rentCompensation/creditsReceived"
+msgstr "เงินสำหรับเวลาที่ไม่ได้ใช้ในช่วงการเช่าพาหนะ %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentCompensation/goldReceived"
+msgstr "เพิ่มทองสำหรับเวลาที่ไม่ได้ใช้จากการเช่า %(vehicleName)s"
+
+msgid "serviceChannelMessages/rentalsExpired"
+msgstr "ระยะการเช่าของ %(vehicleName)s ได้สิ้นสุดลงแล้ว"
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "เศษแผ่นพิมพ์เขียว: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "เงิน: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "พันธบัตร: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/details/button"
+msgstr "รายละเอียด"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "ประสบการณ์อิสระ: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "ทอง: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "เศษแผ่นพิมพ์เขียว: เศษแผ่นสากล (x5)"
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "ความก้าวหน้าปัจจุบัน: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "ทรัพยากรที่ใช้ไปในโครงการโรงประกอบ:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "ใช้ทรัพยากรไป"
+
+msgid "serviceChannelMessages/resourceWell/spendResources/button"
+msgstr "ใช้ทรัพยากร"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "ทรัพยากรถูกคืนมาโดยโรงประกอบ:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "กำลังคืนทรัพยากร"
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "อนุสารการฝึกให้เลือก"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "บทแนะนำการฝึกให้เลือก"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
+msgstr "ลายพราง"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/message"
+msgstr "การปฏิบัติการของ %s ถูกยืดระยะออกไปเนื่องจากการดำเนินการซ่อมบำรุง"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerEmblems"
+msgstr "ลัญจกร "
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/playerInscriptions"
+msgstr "คำจารึก"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium"
+msgstr "บัญชีพิเศษ Wargaming"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
+msgstr "บัญชีพิเศษ WoT"
+
+msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
+msgstr "การเช่า"
+
+msgid "serviceChannelMessages/serverReboot"
+msgstr "เซิร์ฟเวอร์เกมจะหยุดการเชื่อมต่อ ณ %(date)s"
+
+msgid "serviceChannelMessages/serverRebootCancelled"
+msgstr "ยกเลิกการหยุดการเชื่อมต่อกับเซิร์ฟเวอร์ การหยุดการเชื่อมต่อจะเกิดขึ้นภายใน %(date)s"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/available/title"
+msgstr "การปรับแต่งบันทึกประจำการมีให้แล้ว"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/text"
+msgstr "เนื้อหานี้ถูกพักใช้ไว้"
+
+msgid "serviceChannelMessages/serviceRecordCustomization/unavailable/title"
+msgstr "การปรับแต่งบันทึกประจำการไม่มีให้ในปัจจุบัน"
+
+msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
+msgstr "เศษแผ่นสากล (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/nationalBlueprints"
+msgstr "เศษแผ่นประเทศ (%(nationName)s) (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/specialReward/title"
+msgstr "รางวัลพิเศษ"
+
+msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
+msgstr "เศษแผ่นพิมพ์เขียวสำหรับ %(vehicleName)s (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/steamEmailCompletion/body"
+msgstr "ได้รับรางวัลสำหรับการยืนยันอีเมล์:"
+
+msgid "serviceChannelMessages/steamEmailCompletion/header"
+msgstr "ยินดีด้วย!"
+
+msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
+msgstr "ได้รับค่าชดเชยสำหรับเศษแผ่นพิมพ์เขียวของพาหนะที่ได้วิจัยไปแล้ว:"
+
+msgid "serviceChannelMessages/sysMsg/converter/camouflages"
+msgstr "ทำการเปลี่ยนลายพรางแล้ว"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsReceived"
+msgstr "เงินที่ได้รับ: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/creditsWithdrawn"
+msgstr "หักเงินไป: %(credits)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalReceived"
+msgstr "พันธบัตร: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/crystalWithdrawn"
+msgstr "พันธบัตร: %(crystal)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizations"
+msgstr "องค์ประกอบโครงภายนอกถูกเปลี่ยน"
+
+msgid "serviceChannelMessages/sysMsg/converter/customizationsBuy"
+msgstr "องค์ประกอบการปรับแต่งส่วนตัวถูกเปลี่ยน\nซื้อองค์ประกอบ: %(count)s คุณใช้ไป %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/emblems"
+msgstr "เปลี่ยนตราสัญลักษณ์แล้ว"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
+msgstr "เพิ่มเหรียญฉลองครบรอบ: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
+msgstr "หักเหรียญฉลองครบรอบ: %(eventCoin)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
+msgstr "ประสบการณ์อิสระที่ได้รับ: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/freeXPWithdrawn"
+msgstr "หักค่าประสบการณ์ไป: %(freeXP)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldReceived"
+msgstr "ได้รับทอง: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/goldWithdrawn"
+msgstr "หักทองไป: %(gold)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
+msgstr "เปลี่ยนคำจารึกแล้ว"
+
+msgid "serviceChannelMessages/sysMsg/converter/intelligenceBlueprintReceived"
+msgstr "เศษแผ่นสากล"
+
+msgid "serviceChannelMessages/sysMsg/converter/nationalBlueprintReceived"
+msgstr "เศษแผ่นประจำชาติ %(nationName)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr "จากอัพเดตดังกล่าว ลวดลายทั้งหมดได้ถูกปลดออกจากพาหนะและส่งไปยังส่วนโครงภายนอกของโรงเก็บ"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
+msgstr "ช่องที่เพิ่ม: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
+msgstr "ช่องที่ถอดออกไป: %(slots)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/title"
+msgstr "โปรดทราบ!"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesReceived"
+msgstr "ยานเกราะที่เพิ่ม: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
+msgstr "ยานเกราะที่ถอดออก: %(vehicles)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr "ทำการซื้อองค์ประกอบปรับแต่งดังต่อไปนี้:\n%(items)s\nใช้ไป %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr "\"ทำการซื้อ %(itemName)s\" %(itemType)s เรียบร้อย\nใช้ไป %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr "ทำการซื้อรูปแบบ %(name)s ขั้น %(level)s เรียบร้อย\n ใช้ไป %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "ทำการเปลี่ยนองค์ประกอบปรับแต่งพาหนะแล้ว"
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s \"%(itemName)s\" (%(count)s ชิ้น)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "ชั้น %(level)sของรูปแบบ%(styleName)s"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "องค์ประกอบปรับแต่งถูกปลดไปจากพาหนะดังกล่าวแล้ว"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr "ยินดีด้วย!\nลวดลายก้าวหน้าทำให้คุณสามารถปรับรูปแบบตั้งล่วงหน้าสำหรับ %(vehicleName)s"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr "ยินดีด้วย!\nคุณได้รับลวดลาย \"%(itemName)s\" ขั้น I สำหรับ%(vehicleName)s"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr "ยินดีด้วย!\nคุณได้รับลวดลาย \"%(itemName)s\" ขั้น I"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr "ได้รับลวดลาย \"%(itemName)s\" ขั้น %(level)s สำหรับ %(vehicleName)sแล้ว"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "ไปยังโครงภายนอก"
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "ได้ลวดลาย \"%(itemName)s\" ถึงขั้น %(level)s แล้ว"
+
+msgid "serviceChannelMessages/sysMsg/customizations/buy"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s ใช้ไป: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s \"%(itemName)s\" (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "แผนที่ทะเลทราย: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "แผนที่ฤดูร้อน: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "แผนที่ฤดูหนาว: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/sell"
+msgstr "%(itemType)s \"%(itemName)s\" x%(count)s ได้รับ: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/deconstructing/head"
+msgstr "ถอดส่วนประกอบอุปกรณ์แล้ว"
+
+msgid "serviceChannelMessages/sysMsg/deconstructingMult/itemsTemplate"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "ไปยังโครงภายนอก"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr "เนื่องจากการเปลี่ยนชิ้นส่วน องค์ประกอบการปรับแต่งดังต่อไปนี้ถูกปลดออกจาก %(vehicle)s"
+
+msgid "serviceChannelMessages/sysMsg/titles/customization"
+msgstr "ปรับแต่ง:"
+
+msgid "serviceChannelMessages/sysMsg/titles/deconstructing"
+msgstr "ถอดส่วนประกอบอุปกรณ์แล้ว"
+
+msgid "serviceChannelMessages/sysMsg/titles/dismantling"
+msgstr "ถอด:"
+
+msgid "serviceChannelMessages/sysMsg/titles/error"
+msgstr "ข้อผิดพลาด:"
+
+msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
+msgstr "ธุรกรรมการเงิน:"
+
+msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
+msgstr "กำลังขายสิ่งของจากโรงเก็บ:"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodLink"
+msgstr "เพิ่มวิธีการจ่าย \"%(method)s\" เข้ามาแล้ว"
+
+msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
+msgstr "ลบวิธีการจ่าย \"%(method)s\" ไปแล้ว"
+
+msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
+msgstr "วิจัย:"
+
+msgid "serviceChannelMessages/sysMsg/titles/purchase"
+msgstr "ซื้อ:"
+
+msgid "serviceChannelMessages/sysMsg/titles/remove"
+msgstr "การถอดจากโรงรถ:"
+
+msgid "serviceChannelMessages/sysMsg/titles/repair"
+msgstr "ซ่อม:"
+
+msgid "serviceChannelMessages/sysMsg/titles/restore"
+msgstr "กู้คืนได้:"
+
+msgid "serviceChannelMessages/sysMsg/titles/selling"
+msgstr "ขาย:"
+
+msgid "serviceChannelMessages/sysMsg/titles/upgrade"
+msgstr "การยกระดับอุปกรณ์"
+
+msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
+msgstr "คุณได้รับบัญชีพิเศษ WoT เป็นเวลา %(days)d วัน"
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "ไปยังกำลังสำรอง"
+
+msgid "serviceChannelMessages/vehCamouflageTimedOut"
+msgstr "ลายพรางบนรถถัง %(vehicleName)s หมดอายุแล้ว"
+
+msgid "serviceChannelMessages/vehEmblemTimedOut"
+msgstr "ลายพรางบนรถถัง %(vehicleName)s หมดอายุแล้ว"
+
+msgid "serviceChannelMessages/vehInscriptionTimedOut"
+msgstr "ลายพรางบนรถถัง %(vehicleName)s หมดอายุแล้ว"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/header"
+msgstr "มีชุดสะสมให้"
+
+msgid "serviceChannelMessages/vehicleCollector/unlockLevel/text"
+msgstr "ยินดีด้วย!\nคุณได้วิจัยพาหนะ %(nation)s ระดับ %(level)s ตอนนี้คุณสามารถซื้อพาหนะนักสะสมของระดับและประเทศเดียวกันในร้านค้าได้แล้ว"
+
+msgid "serviceChannelMessages/vehicleLock"
+msgstr "ยานพาหนะ %(vehicleName)s ถูกทำลายและไม่สามารถใช้ในการรบระหว่างกองทัพจนกว่า %(expireTime)s."
+
+msgid "serviceChannelMessages/vehicleLockExpired"
+msgstr "ปลดล๊อคยานเกราะ %(vehicleName)s และพร้อมใช้งานสำหรับการรบระหว่างกองทัพ."
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/body"
+msgstr "ยกเลิกการปรับแต่งคู่ทั้งหมดสำหรับ %(vehicle)s แล้ว"
+
+msgid "serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/title"
+msgstr "ยกเลิกการปรับแต่งแล้ว"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "ปิดไว้"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "เปิดไว้"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/opt_dev_boosters_switch"
+msgstr "การเปลี่ยนระหว่างชุดอุปกรณ์และคำสั่งในช่วงนับถอยหลังก่อนเริ่มการรบสำหรับ %(tankName)s นั้นถูก %(state)s"
+
+msgid "serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/shells_consumables_switch"
+msgstr "การเปลี่ยนระหว่างชุดกระสุนและยุทธปัจจัยในช่วงนับถอยหลังก่อนเริ่มการรบสำหรับ %(tankName)s นั้นถูก %(state)s"
+
+msgid "serviceChannelMessages/vehicleReceivedAsGift"
+msgstr "คุณได้รับยานพาหนะพิเศษ: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "ไม่สามารถเช่าพาหนะได้ เงินทุนไม่พอ"
+
+msgid "serviceChannelMessages/vehicleRented"
+msgstr "เช่าพาหนะ %(vehicleName)s แล้ว ระยะการเช้าสิ้นสุด: %(expiryTime)s"
+
+msgid "serviceChannelMessages/vehiclesAllLockExpired"
+msgstr "การล๊อคถูกปลดแล้ว ยานพาหนะสามารถใช้ได้ในการรบระหว่างกองทัพแล้ว"
+
+msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "ผู้เล่น %(srcName)s ได้โอนทอง %(srcWares)s มายังบัญชีของคุณ"
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "โอนทอง %(srcWares)s ไปยังผู้เล่น %(dstName)s ค่าใช้จ่าย: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "ส่วนลดสำหรับพาหนะระดับ %(level)s"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "ได้รับรางวัลสำหรับการผ่านความก้าวหน้ากลับเข้าสู่การรบ:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "เลือกรางวัล"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "ส่วนลดสำหรับพาหนะระดับ %(level)s"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% และ %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "เพิ่มส่วนลดสำหรับการซื้อและวิจัย:"
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "ยินดีด้วย!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "พาหนะระดับ %(level)s"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "เลือกรางวัลจากประเภทที่มีให้"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "เลือก"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "ได้รับรางวัลแล้ว!"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/text"
+msgstr "สิทธิประโยชน์บัตรผ่านการรบเสริมถูกพักไว้"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isDisabled/title"
+msgstr "บัตรผ่านการรบเสริมไม่มีให้ในปัจจุบัน"
+
+msgid "serviceChannelMessages/wotPlus/battlePass/isEnabled/title"
+msgstr "บัตรผ่านการรบเสริมมีให้แล้ว"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/endText"
+msgstr "มาเข้าเกมกันต่อแล้วรับรางวัลมากขึ้น!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/startText"
+msgstr "ได้รับรางวัลการเข้าร่วมพิเศษแล้ว!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleEnded/title"
+msgstr "ครบวงรอบแล้ว"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/endText"
+msgstr "มาเข้าเล่นเกมแล้วรับรางวัลกัน"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/cycleStarted/startText"
+msgstr "รอบได้เริ่มขึ้นแล้ว!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/big/title"
+msgstr "รางวัลการเข้าร่วม"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/endText"
+msgstr "กลับมาในอีกวันเพื่อรับรางวัลใหม่!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendanceRewarded/title"
+msgstr "รับทราบการเข้าร่วมแล้ว!"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/text"
+msgstr "เนื้อหารางวัลการเข้าร่วมถูกพักใช้อยู่"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isDisabled/title"
+msgstr "รางวัลการเข้าร่วมไม่มีให้"
+
+msgid "serviceChannelMessages/wotPlus/dailyAttendances/isEnabled/title"
+msgstr "รางวัลการเข้าร่วมมีให้แล้ว"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
+msgstr "มี <font color='#E9E2BF'>%(vehicleType)s%(vehicleName)s</font> เฉพาะให้"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
+msgstr "ไม่มี %(vehicleType)s<font color='#E9E2BF'>%(vehicleName)s</font> เฉพาะสำหรับ WoT Plus ให้ใช้ในตอนนี้"
+
+msgid "serviceChannelMessages/wotPlus/expireCoreMessage/title"
+msgstr "WoT Plus Core จะหมดอายุใน %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "ไม่มีการปลดอุปกรณ์ฟรีให้"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "ต่ออายุ WoT Plus เพื่อรับสิทธิประโยชน์อีกครั้ง"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "WoT Plus จะหมดอายุใน %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/expireProMessage/title"
+msgstr "WoT Plus Pro จะหมดอายุใน %(time)s"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "การสะสมทองถูกพักเอาไว้"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "คลังทองไม่มีให้ในขณะนี้"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "มีคลังทองให้"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "คลังทองเต็มแล้ว: คุณไม่สามารถสะสมทองได้อีก"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "เปิดคลังทองแล้ว!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "สิทธิประโยชน์ทั้งหมดมีให้แล้ว\nต่ออายุใน: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalChange"
+msgstr "ต่ออายุอีกใน: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalPro"
+msgstr "ช่วงเวลา 180 วันของคุณใช้งานแล้ว ขอให้สนุกล่ะ!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewalProYearly"
+msgstr "ช่วงเวลา 360 วันของคุณใช้งานแล้ว ขอให้สนุกล่ะ!"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockPro"
+msgstr "ช่วงเวลา 180 วันของคุณใช้งานแล้ว ขอให้สนุกล่ะ!\nต่ออายุใน: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfUnlockProYearly"
+msgstr "ช่วงเวลา 360 วันของคุณใช้งานแล้ว ขอให้สนุกล่ะ!\nต่ออายุใน: <font color='#E9E2BF'>%(time)s</font>"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/allCrewAreVeterans/text"
+msgstr "การฝึกพลรถถังเข้มข้นนั้นหยุดทำงานสำหรับ <font color='#E9E2BF'>%(vehicleName)s</font> โปรดตรวจสอบพลรถถังของพาหนะ"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "มีสมาชิกพลรถถังหนึ่งคนหรือมากกว่าของ <font color='#E9E2BF'>%(vehicleName)s</font> ไม่ผ่านเกณฑ์การใช้การฝึกพลรถถังเข้มข้นและจะไม่ได้รับประสบการณ์พลรถถัง"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "การฝึกพลรถถังเข้มข้น"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr "เปิดการฝึกพลรถถังเข้มข้นสำหรับสมาชิกพลรถถัง %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr "ปิดการฝึกพลรถถังเข้มข้นสำหรับสมาชิกพลรถถัง %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "การสะสมประสบการณ์พลรถถังถูกพักเอาไว้"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "การฝึกพลรถถังเข้มข้นไม่มีให้ในขณะนี้"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "มีการฝึกพลรถถังเข้มข้นให้แล้ว"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "เลือกพาหนะเพื่อรับโบนัสฟรีสำหรับประสบการณ์พลรถถัง"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr "การฝึกพลรถถังเข้มข้นถูกโอนจาก <font color='#E9E2BF'>%(oldVehName)s</font> ไปยัง <font color='#E9E2BF'>%(newVehName)s</font> พลรถถังจาก <font color='#E9E2BF'>%(oldVehName)s</font> หยุดการสะสมประสบการณ์"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "เปลี่ยนคันที่ทำการฝึกพลรถถังเข้มข้นแล้ว"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr "โบนัสประสบการณ์พลรถถังไม่สามารถใช้กับสมาชิกพลรถถังหนึ่งคนหรือมากกว่า"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "คุณกำลังพลาดประสบการณ์พลรถถังที่มีค่า!"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/text"
+msgstr "คุณสามารถเปลี่ยนตัวเลือกได้อีกใน %(cooldown)s ชั่วโมง"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isActivated/title"
+msgstr "ตัวเร่ง Pro เปิดใช้สำหรับ %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/text"
+msgstr "คุณสามารถเร่งพาหนะคันอื่นแทนได้"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDeactivated/title"
+msgstr "ตัวเร่ง Pro ถูกปิดไว้สำหรับ %(vehicleName)s"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/text"
+msgstr "รายได้ตัวเร่ง Pro ถูกพักเอาไว้"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isDisabled/title"
+msgstr "ตัวเร่ง Pro ไม่มีให้ในปัจจุบัน"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/isEnabled/title"
+msgstr "ตัวเร่ง Pro มีให้แล้ว"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/text"
+msgstr "%(vehicleNameFrom)sไม่ได้ถูกเร่งอีกต่อไป คุณสามารถเปลี่ยนตัวเลือกของคุณได้อีกใน %(cooldown)s ชั่วโมง"
+
+msgid "serviceChannelMessages/wotPlus/proBoost/switch/title"
+msgstr "ตัวเร่ง Pro เปลี่ยนไว้สำหรับ %(vehicleNameTo)s"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "วันต่ออายุ WoT Plus ถูกเปลี่ยน"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "เลือกพาหนะจากรายการเพื่อทำการเช่า"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "ไม่ได้เลือกพาหนะเอาไว้"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "%(vehicle)sจะเพิ่มเข้าบัญชีของคุณในไม่ช้า"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "ทำการเช่าแล้ว!"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "สิทธิประโยชน์เหล่านี้ถูกปิดเอาไว้"
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "ไม่มี WoT Plus ให้"
+
+msgid "serviceChannelMessages/wotPlus/unlockCoreMessage/title"
+msgstr "เปิดใช้ WOT PLUS CORE แล้ว"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "มีการปลดอุปกรณ์ฟรีให้"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "เปิดใช้ WOT PLUS แล้ว"
+
+msgid "serviceChannelMessages/wotPlus/unlockProMessage/title"
+msgstr "WoT Plus Pro"
+
+msgid "serviceChannelMessages/wotPlus/upgradeMessage/title"
+msgstr "WoT Plus ถูกยกระดับเป็น Pro!"
+
+msgid "serviceChannelMessages/wotPlusExtend/button"
+msgstr "ขยายเวลา"
+
+msgid "serviceChannelMessages/xpReceivedAsGift"
+msgstr "คุณได้รับค่าประสบการณ์อิสระ %(freeXP)s หน่วย"
+
+msgid "status/offline"
+msgstr "ไม่ได้ใช้งาน"
+
+msgid "status/online"
+msgstr "ออนไลน์"
+
+msgid "xmpp_error/action"
+msgstr "ไม่สามารถดำเนินการ \"%(actionName)s\" ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "xmpp_error/simple"
+msgstr "โปรดลองใหม่ภายหลัง"
+
+msgid "xmpp_error/user_room_creation"
+msgstr "ไม่สามารถสร้งช่องผู้เล่น \"%(strArg1)s\""

@@ -1,0 +1,302 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "autoOpenView/bottomLabel"
+msgstr "연말연시 작전 상자가 모두 개봉되었습니다."
+
+msgid "autoOpenView/congratsLabel"
+msgstr "축하합니다!"
+
+msgid "autoOpenView/okBtnLabel"
+msgstr "확인"
+
+msgid "buttonLabel/back"
+msgstr "차고로 복귀"
+
+msgid "buttonLabel/buy"
+msgstr "구매"
+
+msgid "buttonLabel/buyMore"
+msgstr "상자 구매"
+
+msgid "buttonLabel/close"
+msgstr "닫기"
+
+msgid "buttonLabel/open"
+msgstr "개봉"
+
+msgid "buttonLabel/openBox"
+msgstr "상자 개봉"
+
+msgid "buttonLabel/quest"
+msgstr "임무로 이동"
+
+msgid "buttonLabel/videoOff"
+msgstr "애니메이션 표시"
+
+msgid "buttonLabel/videoOn"
+msgstr "애니메이션 표시하지 않음"
+
+msgid "compensationTooltip/after/header"
+msgstr "대체 보상:"
+
+msgid "compensationTooltip/before/header"
+msgstr "중복 (x{count}):"
+
+msgid "compensationTooltip/crewSkin/header"
+msgstr "이미 보유한 승무원 스킨에 대한 대체 보상"
+
+msgid "compensationTooltip/vehicle/bottomText"
+msgstr "이미 보유한 전차 대신 지급되는 보상입니다."
+
+msgid "compensationTooltip/vehicle/header"
+msgstr "이미 보유한 전차에 대한 대체 보상입니다."
+
+msgid "entryDesc/boxesCount"
+msgstr "x{count}"
+
+msgid "entryDesc/buySlot"
+msgstr "프리미엄 상점에서 대형 상자 구매 가능"
+
+msgid "entryDesc/newYear_premium"
+msgstr "대형 상자"
+
+msgid "entryDesc/newYear_usual"
+msgstr "소형 상자"
+
+msgid "entryDesc/questSlot"
+msgstr "임무 완료 시 소형 상자가 지급됩니다."
+
+msgid "entryDesc/restrictedMode"
+msgstr "일시적으로 해당 기능을 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "entryPoint/header"
+msgstr "상자"
+
+msgid "entryTooltip/body/h1"
+msgstr "대형 상자 구매"
+
+msgid "entryTooltip/body/h2"
+msgstr "소형 상자 획득"
+
+msgid "entryTooltip/body/p1"
+msgstr "프리미엄 상점에서 연말연시 장식이 들어있는 상자를 구매하여 직접 사용하거나 친구에게 선물해 보십시오."
+
+msgid "entryTooltip/body/p2"
+msgstr "연말연시 작전 임무 완료 시 지급됩니다."
+
+msgid "entryTooltip/header"
+msgstr "상자"
+
+msgid "entryView/boxesCount"
+msgstr "보유: {count}개"
+
+msgid "entryView/buyLabel"
+msgstr "상자 구매"
+
+msgid "entryView/ended/newYear_premium"
+msgstr "보관소에 대형 상자가 없습니다.\n프리미엄 상점에서 추가로 구매하십시오."
+
+msgid "entryView/ended/newYear_usual"
+msgstr "보유한 소형 상자가 없습니다.\n전투를 통해 획득하십시오."
+
+msgid "entryView/lootboxesCount"
+msgstr "x{count}"
+
+msgid "entryView/title"
+msgstr "{year} 연말연시 작전"
+
+msgid "entryView/year"
+msgstr "2019"
+
+msgid "multiOpenView/applyLabel"
+msgstr "확인"
+
+msgid "multiOpenView/boxesInStorage"
+msgstr "보유 상자: {count}개"
+
+msgid "multiOpenView/boxesNotAvailable"
+msgstr "사용 가능 상자 없음"
+
+msgid "multiOpenView/openBoxesLabel"
+msgstr "상자 {count}개 추가 개봉"
+
+msgid "multiOpenView/openedCount"
+msgstr "x{count}"
+
+msgid "multiOpenView/title"
+msgstr "축하합니다!"
+
+msgid "notification/eventFinish/text"
+msgstr "획득한 보급 상자가 모두 개봉됩니다. 내용물은 계정에 추가됩니다."
+
+msgid "notification/eventFinish/title"
+msgstr "따스한 봄 보급 상자 이벤트 종료"
+
+msgid "notification/eventStart/button"
+msgstr "이벤트로 이동"
+
+msgid "notification/eventStart/text"
+msgstr "%(date)s까지만 제공되는 프리미엄 전차 및 값진 게임 아이템 획득 기회!"
+
+msgid "notification/eventStart/title"
+msgstr "따스한 봄 보급 상자 이벤트 시작"
+
+msgid "notification/header"
+msgstr "축하합니다!"
+
+msgid "notification/lootBoxesAutoOpen/boxes"
+msgstr "보급 상자 개봉: %(boxes)s"
+
+msgid "notification/lootBoxesAutoOpen/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "notification/lootBoxesAutoOpen/rewards"
+msgstr "획득\n%(rewards)s"
+
+msgid "notification/lootBoxesAutoOpen/text"
+msgstr "이벤트 종료 시 보유 중인 보급 상자가 모두 개봉되며 내용물은 계정에 추가됩니다."
+
+msgid "notification/lootBoxesAutoOpen/title"
+msgstr "보급 상자 개봉"
+
+msgid "notification/lootBoxesIsDisabled/text"
+msgstr "서버 점검으로 인해 일시적으로 보급 상자 관련 작업을 수행할 수 없습니다."
+
+msgid "notification/lootBoxesIsDisabled/title"
+msgstr "보급 상자 개봉"
+
+msgid "notification/lootBoxesIsEnabled/button"
+msgstr "개봉"
+
+msgid "notification/lootBoxesIsEnabled/text"
+msgstr "보급 상자 관련 작업을 다시 수행할 수 있습니다."
+
+msgid "notification/lootBoxesIsEnabled/title"
+msgstr "보급 상자 개봉"
+
+msgid "notification/lootBoxesReceived/invoice"
+msgstr "추가 완료"
+
+msgid "notification/ny19man"
+msgstr "특별 승무원: %(count)s"
+
+msgid "notification/rewards"
+msgstr "다음 보상 획득:"
+
+msgid "restrictedMessage/body"
+msgstr "상자 관련 작업이 일시적으로 중단되었습니다. 천천히 다시 시도해 주십시오."
+
+msgid "restrictedMessage/header"
+msgstr "주의!"
+
+msgid "rewardView/boxesCount"
+msgstr "이용 가능 상자: {count}"
+
+msgid "rewardView/closeBtnLabel"
+msgstr "닫기"
+
+msgid "rewardView/congratsBtnLabel/style"
+msgstr "스타일 표시"
+
+msgid "rewardView/congratsBtnLabel/tankman"
+msgstr "보상 요청"
+
+msgid "rewardView/congratsBtnLabel/vehicle"
+msgstr "차고에서 보기"
+
+msgid "rewardView/congratsLabel/style"
+msgstr "특별 스타일"
+
+msgid "rewardView/congratsLabel/tankman"
+msgstr "특별 승무원"
+
+msgid "rewardView/congratsLabel/usual"
+msgstr "축하합니다!"
+
+msgid "rewardView/congratsLabel/vehicle"
+msgstr "대반전!"
+
+msgid "rewardView/nextOpenBtnLabel"
+msgstr "다음 개봉"
+
+msgid "rewardView/okOpenBtnLabel"
+msgstr "확인"
+
+msgid "rewardView/openBtnLabel"
+msgstr "확인"
+
+msgid "rewardView/rerollBtnLabel"
+msgstr "재개봉"
+
+msgid "rewardView/zeroBoxes"
+msgstr "이용 가능 상자 없음"
+
+msgid "specialReward/continueBtn"
+msgstr "계속"
+
+msgid "specialReward/style/goToBtn"
+msgstr "스타일 표시"
+
+msgid "specialReward/style/title"
+msgstr "특별 스타일"
+
+msgid "specialReward/vehicle/goToBtn"
+msgstr "차고에서 보기"
+
+msgid "tooltip/category/header/Christmas"
+msgstr "크리스마스 상자"
+
+msgid "tooltip/category/header/Fairytale"
+msgstr "마법 상자"
+
+msgid "tooltip/category/header/NewYear"
+msgstr "새해 상자"
+
+msgid "tooltip/category/header/Oriental"
+msgstr "정월 초하루 상자"
+
+msgid "tooltip/category/rewards/Christmas"
+msgstr "크리스마스 컬렉션"
+
+msgid "tooltip/category/rewards/Fairytale"
+msgstr "마법 컬렉션"
+
+msgid "tooltip/category/rewards/NewYear"
+msgstr "새해 컬렉션"
+
+msgid "tooltip/category/rewards/Oriental"
+msgstr "정월 초하루 컬렉션"
+
+msgid "tooltip/category/rewards/description"
+msgstr "{category} 장식과 여러 값진 보상이 포함되어 있는 상자입니다."
+
+msgid "tooltip/category/rewards/header"
+msgstr "보상:"
+
+msgid "tooltip/entryView/buyBoxes"
+msgstr "프리미엄 상점에서 상자를 추가로 구매합니다."
+
+msgid "tooltip/entryView/openBoxes"
+msgstr "여러 상자를 동시에 개봉합니다."
+
+msgid "tooltip/restrictedMode"
+msgstr "일시적으로 작업을 수행할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "type/event_premium"
+msgstr "새벽 보급 상자"
+
+msgid "type/newYear_premium"
+msgstr "대형 상자"
+
+msgid "type/newYear_usual"
+msgstr "소형 상자"
+
+msgid "type/wt_boss"
+msgstr "기술자 시동 장치"
+
+msgid "type/wt_hunter"
+msgstr "해리어 시동 장치"
+
+msgid "type/wt_special"
+msgstr "특별 보관함"

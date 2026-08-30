@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d-%(to)d 毫米"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d 毫米"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "SPACE"
+
+msgid "hints/camera_flow/pause"
+msgstr "進階模式 (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "暫停 (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "繼續 (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "車輛被摧毀"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "高爆傷害"
+
+msgid "hints/death_reason/modernHE"
+msgstr "破片傷害"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "表層傷害"
+
+msgid "hints/death_reason/penetration"
+msgstr "直接命中"
+
+msgid "hints/follow_pt1"
+msgstr "左鍵點擊"
+
+msgid "hints/follow_pt2"
+msgstr "以跟隨此車輛"
+
+msgid "hints/free_cam/return_previous"
+msgstr "右鍵點擊以返回前一車輛"
+
+msgid "hints/height/label"
+msgstr "高度"
+
+msgid "hints/height/text"
+msgstr "在特定範圍內調整鏡頭高度。"
+
+msgid "hints/movement/label"
+msgstr "移動"
+
+msgid "hints/movement/text"
+msgstr "要移動鏡頭，請使用 %(forward)s、%(left)s、%(backward)s、%(right)s 鍵。"
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "跳過"
+
+msgid "hints/spectatorDown"
+msgstr "SHIFT"
+
+msgid "hints/spectatorUp"
+msgstr "SPACE"
+
+msgid "hints/speed/label"
+msgstr "速度"
+
+msgid "hints/speed/text"
+msgstr "調整鏡頭速度。"
+
+msgid "hints/spotted_status/spotted"
+msgstr "被偵察到"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "未被偵察到"
+
+msgid "marker/paramName/angleFailure"
+msgstr "未穿透角度"
+
+msgid "marker/paramName/angleImpact"
+msgstr "穿透角度"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "跳彈角度"
+
+msgid "marker/paramName/armorNominal"
+msgstr "標稱裝甲{colorTagOpen}（毫米）{colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "裝甲{colorTagOpen}（毫米）{colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "距離乘數{colorTagOpen}（血量）{colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "乘員昏迷！"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "彈藥架爆炸！"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "起火！"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "兩倍口徑規則"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "三倍口徑規則"
+
+msgid "marker/paramName/nonArmored"
+msgstr "無裝甲"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "裝甲傾斜度增益{colorTagOpen}（毫米）{colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "口徑{colorTagOpen}（毫米）{colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "平均傷害{colorTagOpen}（血量）{colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "潛在傷害{colorTagOpen}（血量）{colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "受到的高爆傷害{colorTagOpen}（血量）{colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "受到的破片傷害{colorTagOpen}（血量）{colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "受到的表層傷害{colorTagOpen}（血量）{colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "受到的傷害{colorTagOpen}（血量）{colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "因距離降低{colorTagOpen}（血量）{colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "因裝甲降低{colorTagOpen}（血量）{colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "因裝備降低{colorTagOpen}（血量）{colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "隨機因素{colorTagOpen}（血量）{colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "平均穿透力{colorTagOpen}（毫米）{colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "穿透力{colorTagOpen}（毫米）{colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "砲彈速度{colorTagOpen}（公尺/秒）{colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "距離{colorTagOpen}（公尺）{colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "未偵察到敵人"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "適用"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "無"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "未偵察到"

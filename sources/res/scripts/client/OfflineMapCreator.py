@@ -1,0 +1,220 @@
+from __future__ import absolute_import
+import math
+from future.utils import viewitems, viewvalues
+import BigWorld, Math
+from ArenaType import g_cache
+import constants
+from debug_utils import LOG_DEBUG, LOG_CURRENT_EXCEPTION
+from helpers import dependency
+from skeletons.map_activities import IMapActivities
+_CFG = {b'basic': {b'v_start_angles': (Math.Vector3(0, 0, 0)), 
+              b'v_start_pos': (Math.Vector3(50, 0, 50)), 
+              b'cam_start_dist': 9.0, 
+              b'cam_start_angles': [
+                                  -25.0, 110.0], 
+              b'cam_start_target_pos': (Math.Vector3(50, 0, 50)), 
+              b'cam_dist_constr': [
+                                 6.0, 11.0], 
+              b'cam_pitch_constr': [
+                                  -70.0, -5.0], 
+              b'cam_yaw_constr': [
+                                -180.0, 180.0], 
+              b'cam_sens': 0.005, 
+              b'cam_pivot_pos': (Math.Vector3(0, 1, 0)), 
+              b'cam_fluency': 0.05, 
+              b'emblems_alpha_damaged': 0.3, 
+              b'emblems_alpha_undamaged': 0.9, 
+              b'shadow_light_dir': (0.55, -1, -1.7)}}
+_SPACE_NAME = None
+_V_START_ANGLES = None
+_V_START_POS = None
+_CAM_START_DIST = None
+_CAM_START_ANGLES = None
+_CAM_START_TARGET_POS = None
+_CAM_DIST_CONSTR = None
+_CAM_PITCH_CONSTR = None
+_CAM_YAW_CONSTR = None
+_CAM_SENS = None
+_CAM_PIVOT_POS = None
+_CAM_FLUENCY = None
+_EMBLEMS_ALPHA_DAMAGED = None
+_EMBLEMS_ALPHA_UNDAMAGED = None
+_SHADOW_LIGHT_DIR = None
+
+class OfflineMapCreator(object):
+    mapActivities = dependency.descriptor(IMapActivities)
+
+    def __init__(self):
+        self.__space = None
+        self.__cam = None
+        self.__waitCallback = None
+        self.__loadingStatus = 0.0
+        self.__destroyFunc = None
+        self.__spaceMappingId = None
+        self.__vEntityId = None
+        self.__isActive = False
+        self.__arenaTypeID = 0
+        return
+
+    def create(self, mapName):
+        global _V_START_ANGLES
+        global _V_START_POS
+        try:
+            LOG_DEBUG(b'OfflineMapCreator.Create( %s )' % mapName)
+            cfgType = b'basic'
+            self.__loadCfg(cfgType, mapName)
+            BigWorld.worldDrawEnabled(False)
+            BigWorld.setWatcher(b'Visibility/GUI', False)
+            self.__space = BigWorld.createSpace()
+            self.__isActive = True
+            self.__arenaTypeID = self.__getArenaTypeId(mapName)
+            self.__spaceMappingId = BigWorld.addSpaceGeometryMapping(self.__space.id, None, b'spaces/' + mapName)
+            self.__vEntityId = BigWorld.createEntity(b'Avatar', self.__space.id, 0, _V_START_POS, (
+             _V_START_ANGLES[2], _V_START_ANGLES[1], _V_START_ANGLES[0]), {})
+            avatar = BigWorld.entities[self.__vEntityId]
+            avatar.arenaUniqueID = 0
+            avatar.arenaTypeID = self.__arenaTypeID
+            avatar.arenaBonusType = constants.ARENA_BONUS_TYPE.UNKNOWN
+            avatar.arenaGuiType = constants.ARENA_GUI_TYPE.UNKNOWN
+            avatar.arenaExtraData = {}
+            avatar.weatherPresetID = 0
+            BigWorld.player(avatar)
+            self.__setupCamera()
+            BigWorld.worldDrawEnabled(True)
+            BigWorld.uniprofSceneStart()
+        except Exception:
+            LOG_DEBUG(b'OfflineMapCreator.Create( %s ): FAILED with: ' % mapName)
+            LOG_CURRENT_EXCEPTION()
+            self.cancel()
+
+        return
+
+    def destroy(self):
+        try:
+            LOG_DEBUG(b'OfflineMapCreator.destroy()')
+            self.__isActive = False
+            BigWorld.worldDrawEnabled(False)
+            BigWorld.setWatcher(b'Visibility/GUI', True)
+            self.__spaceMappingId = 0
+            BigWorld.cameraSpaceID(0)
+            self.__cam = None
+            BigWorld.clearEntitiesAndSpaces()
+            self.mapActivities.stop()
+            if self.__space.id and BigWorld.isClientSpace(self.__space.id):
+                if self.__spaceMappingId:
+                    BigWorld.delSpaceGeometryMapping(self.__space.id, self.__spaceMappingId)
+                BigWorld.clearSpace(self.__space.id)
+                BigWorld.releaseSpace(self.__space.id)
+            self.__space = None
+            self.__spaceMappingId = 0
+            self.__arenaTypeID = 0
+            self.__vEntityId = 0
+            BigWorld.worldDrawEnabled(True)
+            BigWorld.uniprofSceneStart()
+        except Exception:
+            LOG_DEBUG(b'OfflineMapCreator.destroy(): FAILED with: ')
+            LOG_CURRENT_EXCEPTION()
+            self.cancel()
+
+        return
+
+    def reset(self):
+        LOG_DEBUG(b'OfflineMapCreator.reset()')
+        self.destroy()
+        self.__isActive = True
+        return
+
+    def cancel(self):
+        self.__space = None
+        self.__spaceMappingId = 0
+        self.__vEntityId = 0
+        self.__isActive = False
+        BigWorld.setWatcher(b'Visibility/GUI', True)
+        BigWorld.worldDrawEnabled(True)
+        BigWorld.uniprofSceneStart()
+        return
+
+    def _clamp(self, minVal, maxVal, val):
+        tmpVal = val
+        tmpVal = max(minVal, val)
+        tmpVal = min(maxVal, tmpVal)
+        return tmpVal
+
+    def Active(self):
+        return self.__isActive
+
+    def SetActive(self, _active):
+        self.__isActive = _active
+        return
+
+    def arenaId(self):
+        return self.__arenaTypeID
+
+    @staticmethod
+    def __getArenaTypeId(mapName):
+        info = {arenaType.gameplayName: arenaTypeId for arenaTypeId, arenaType in viewitems(g_cache) if mapName == arenaType.geometryName}
+        priority = (b'ctf',)
+        for p in priority:
+            if p in info:
+                return info[p]
+
+        return next(iter(viewvalues(info)))
+
+    def __setupCamera(self):
+        global _CAM_FLUENCY
+        global _CAM_PIVOT_POS
+        global _CAM_START_ANGLES
+        global _CAM_START_DIST
+        global _CAM_START_TARGET_POS
+        self.__cam = BigWorld.CursorCamera()
+        self.__cam.spaceID = self.__space.id
+        self.__cam.pivotMaxDist = _CAM_START_DIST
+        self.__cam.maxDistHalfLife = _CAM_FLUENCY
+        self.__cam.turningHalfLife = _CAM_FLUENCY
+        self.__cam.movementHalfLife = 0.0
+        self.__cam.pivotPosition = _CAM_PIVOT_POS
+        mat = Math.Matrix()
+        mat.setRotateYPR((math.radians(_CAM_START_ANGLES[1]), math.radians(_CAM_START_ANGLES[0]), 0.0))
+        self.__cam.source = mat
+        mat = Math.Matrix()
+        mat.setTranslate(_CAM_START_TARGET_POS)
+        self.__cam.target = mat
+        BigWorld.camera(self.__cam)
+        return
+
+    def __loadCfg(self, t, mapName):
+        global _CAM_DIST_CONSTR
+        global _CAM_FLUENCY
+        global _CAM_PITCH_CONSTR
+        global _CAM_PIVOT_POS
+        global _CAM_SENS
+        global _CAM_START_ANGLES
+        global _CAM_START_DIST
+        global _CAM_START_TARGET_POS
+        global _CAM_YAW_CONSTR
+        global _EMBLEMS_ALPHA_DAMAGED
+        global _EMBLEMS_ALPHA_UNDAMAGED
+        global _SHADOW_LIGHT_DIR
+        global _SPACE_NAME
+        global _V_START_ANGLES
+        global _V_START_POS
+        cfg = _CFG[t]
+        _SPACE_NAME = mapName
+        _V_START_ANGLES = cfg[b'v_start_angles']
+        _V_START_POS = cfg[b'v_start_pos']
+        _CAM_START_DIST = cfg[b'cam_start_dist']
+        _CAM_START_ANGLES = cfg[b'cam_start_angles']
+        _CAM_START_TARGET_POS = cfg[b'cam_start_target_pos']
+        _CAM_DIST_CONSTR = cfg[b'cam_dist_constr']
+        _CAM_PITCH_CONSTR = cfg[b'cam_pitch_constr']
+        _CAM_YAW_CONSTR = cfg[b'cam_yaw_constr']
+        _CAM_SENS = cfg[b'cam_sens']
+        _CAM_PIVOT_POS = cfg[b'cam_pivot_pos']
+        _CAM_FLUENCY = cfg[b'cam_fluency']
+        _EMBLEMS_ALPHA_DAMAGED = cfg[b'emblems_alpha_damaged']
+        _EMBLEMS_ALPHA_UNDAMAGED = cfg[b'emblems_alpha_undamaged']
+        _SHADOW_LIGHT_DIR = cfg[b'shadow_light_dir']
+        return
+
+
+g_offlineMapCreator = OfflineMapCreator()

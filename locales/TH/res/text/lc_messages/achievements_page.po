@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "คะแนนที่เพิ่มคะแนนความสำเร็จรวม"
+
+msgid "achievementsPointsTooltip/header"
+msgstr "คะแนนความสำเร็จ"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "คุณได้ผ่านขั้นตอนทั้งหมดในความสำเร็จนี้และได้รับรางวัลที่มีให้ทั้งหมดแล้ว"
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "กด %(escIcon)s เพื่อกลับไปยังขั้นแคตาลอคก่อนหน้า"
+
+msgid "catalog/rootLink"
+msgstr "แคตาลอค"
+
+msgid "category/achievementsScore/title"
+msgstr "คะแนนความสำเร็จ"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "เครื่องชี้วัดหลักของความก้าวหน้าในการสะสมความสำเร็จ ทุกๆความสำเร็จใหม่จะเพิ่มคะแนนความสำเร็จรวมยกเว้นจากที่ระลึกสงครามที่ได้"
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "คะแนนความสำเร็จรวม: %(value)s/%(maxValue)s"
+
+msgid "category/received/title"
+msgstr "ความสำเร็จใน\nช่วงที่ผ่านมา"
+
+msgid "category/title"
+msgstr "ชุดสะสมของผู้เล่น"
+
+msgid "category/upcoming/title"
+msgstr "ความสำเร็จ\nที่กำลังจะมา"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)s และอื่นๆ"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "ปลดล็อคความสำเร็จ!"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "ปลดล็อค %(count)s ความสำเร็จแล้ว!"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)s และอื่นๆ"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "ได้รับที่ระลึกสงครามใหม่!"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "ได้รับที่ระลึกสงคราม %(count)s!"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "การแสดงอัตโนมัติจะจัดรางวัลจากทุกประเทศตามมูลค่าเพื่อแสดงบนแพรแถบรางวัลที่มีค่า นี่จะปิดเอาไว้ถ้าคุณทำการจัดเรียงด้วยตัวคุณเอง"
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "การแสดงอัตโนมัติจะจัดรางวัลจากทุกประเทศตามมูลค่าเพื่อแสดงบนแพรแถบรางวัลที่มีค่า เมื่อคุณเปิดการตั้งค่านี้ การจัดเรียงด้วยตัวเองจะถูกตั้งใหม่"
+
+msgid "editConfirm/description/error"
+msgstr "ทางเรากำลังวินิจฉัยปัญหาอยู่ โปรดลองทำการแก้ไขในภายหลัง ในระหว่างนี้ คุณจะถูกพาไปยังการสรุป"
+
+msgid "editConfirm/footer/button/accept"
+msgstr "บันทึก"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "ยกเลิก"
+
+msgid "editConfirm/footer/button/error"
+msgstr "รับทราบ!"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "การแสดงอัตโนมัติถูกปิด"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "การแสดงอัตโนมัติถูกเปิด"
+
+msgid "editConfirm/title/error"
+msgstr "เกิดข้อผิดพลาดขึ้น"
+
+msgid "editConfirm/title/normal"
+msgstr "ใช้การเปลี่ยนแปลงแพรแถบรางวัลมีค่า?"
+
+msgid "editView/footer/button/cancel"
+msgstr "ยกเลิกการเปลี่ยน"
+
+msgid "editView/footer/button/save"
+msgstr "ใช้งานแล้วออก"
+
+msgid "editView/header/checkbox"
+msgstr "การแสดงอัตโนมัติ"
+
+msgid "editView/header/close"
+msgstr "ปิด"
+
+msgid "editView/header/title/idle"
+msgstr "เลือกรางวัลเพื่อแสดงบนแพรแถบ"
+
+msgid "editView/header/title/selecting"
+msgstr "เลือกรางวัลเพื่อทำการเปลี่ยน"
+
+msgid "editView/header/title/tutorial"
+msgstr "เลือกช่องรางวัล"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "ยกเลิก"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "เปลี่ยน"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "ความสำเร็จของคุณ\nมาถึงแล้ว"
+
+msgid "hint/profile"
+msgstr "ความสำเร็จของคุณ\nมาถึงแล้ว"
+
+msgid "hint/summary/customizationButton"
+msgstr "มีการแก้ไขให้"
+
+msgid "notifications/editingEnabled/button"
+msgstr "ไปยังแพรแถบ"
+
+msgid "notifications/editingEnabled/title"
+msgstr "มีการแก้ไขแพรแถบรางวัลมีค่าให้"
+
+msgid "notifications/firstEntry/button"
+msgstr "ไปบันทึกประจำการ"
+
+msgid "notifications/firstEntry/text"
+msgstr "การจัดอันดับ World of Tanks\nการแก้ไขรางวัล"
+
+msgid "notifications/firstEntry/title"
+msgstr "กำลังปรับบันทึกประจำการ"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "ไปบันทึกประจำการ"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "การแก้ไขรางวัล\nและการออกแบบภาพกราฟฟิค"
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "กำลังปรับบันทึกประจำการ"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "ไปบันทึกประจำการ"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "ขั้นของคุณ: %(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "คำนวณการจัดอันดับของคุณแล้ว!"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "ไปบันทึกประจำการ"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "การจัดอันดับ World of Tanks ของคุณถูกเปลี่ยน โปรดไปยังส่วนบันทึกประจำการเพื่ออ่านรายละเอียดทั้งหมด"
+
+msgid "notifications/ratingUp/button"
+msgstr "ไปบันทึกประจำการ"
+
+msgid "notifications/ratingUp/text"
+msgstr "คุณได้ไต่ถึงขั้น: %(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "การจัดอันดับของคุณเพิ่มขึ้น!"
+
+msgid "playerInfo/clan/button"
+msgstr "ประวัติย่อกองทัพ"
+
+msgid "playerInfo/clan/date"
+msgstr "วันเข้าร่วม:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "ผู้เล่นดังกล่าวไม่มีหน่วยยุทธวิธีถาวร"
+
+msgid "playerInfo/clan/post"
+msgstr "อันดับ:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "ป้ายชื่อส่วนตัว\nไม่มีให้ชั่วคราว"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "การจัดอันดับของผู้เล่นไม่ได้ถูกคำนวณเอาไว้: ออกรบน้อยกว่า %(amount)s ครั้ง"
+
+msgid "ratingWidget/status/initial"
+msgstr "ออกรบ %(amount)s ครั้งเพื่อคำนวณการจัดอันดับ World of Tanks ของคุณ"
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "การจัดอันดับผู้เล่นยังไม่ได้มีการคำนวณเอาไว้"
+
+msgid "ratingWidget/status/progress"
+msgstr "กำลังคำนวณการจัดอันดับ World of Tanks ของคุณ เหลือการรบ: %(amount)s"
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "ออกรบแล้วเราจะทำการคำนวณการจัดอันดับของคุณ"
+
+msgid "rewardView/button/achievements"
+msgstr "ไปยังความสำเร็จ"
+
+msgid "rewardView/button/dogTag"
+msgstr "ไปยังป้ายชื่อ"
+
+msgid "rewardView/button/dogTags"
+msgstr "ไปยังป้ายชื่อ"
+
+msgid "rewardView/button/moreRewards"
+msgstr "ดูเพิ่มอีก %(value)s"
+
+msgid "rewardView/reward/dogTag"
+msgstr "ป้ายชื่อ %(value)s"
+
+msgid "rewardView/title/multi"
+msgstr "ได้รับรางวัลความสำเร็จแล้ว"
+
+msgid "rewardView/title/single"
+msgstr "ได้รับรางวัลความสำเร็จแล้ว"
+
+msgid "section/action"
+msgstr "พิเศษ"
+
+msgid "section/battle"
+msgstr "วีรบุรุษการรบ"
+
+msgid "section/class"
+msgstr "ความสำเร็จของช่วงการรบ"
+
+msgid "section/epic"
+msgstr "ความสำเร็จขั้นสุดยอด"
+
+msgid "section/group"
+msgstr "รางวัลกลุ่ม"
+
+msgid "section/memorial"
+msgstr "เหรียญอนุสรณ์"
+
+msgid "section/special"
+msgstr "ตำแหน่งกิตติมศักดิ์"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "ไปยังความสำเร็จ"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " การรบล่าสุด: %(lastVisitDate)s เมื่อ %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "สร้างบัญชีเมื่อ: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "ฉากหลัง"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "มาตรฐาน"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "ไฟไหม้"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "ทอง"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "ตำนาน"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "ย้อนยุค"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "ระเบิด"
+
+msgid "summary/achievements/customization/discard"
+msgstr "ยกเลิกการเปลี่ยน"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "แพรแถบ"
+
+msgid "summary/achievements/customization/save"
+msgstr "ใช้งานแล้วออก"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "ด้วยปัญหาทางเทคนิคทำให้การปรับแต่งหน้าจอบันทึกประจำการของคุณไม่มีให้ชั่วคราว ทางเรากำลังดำเนินการแก้ไขอยู่ โปรดลองปรับหน้าจอหรือกลับมาลองใหม่ในภายหลัง"
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "การปรับแต่งไม่มีให้ในขณะนี้"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "รางวัลมีค่า"
+
+msgid "summary/achievements/total"
+msgstr "รวมทั้งหมด: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "เฉพาะ: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "เฉลี่ย: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "การชนะ: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "เฉลี่ย: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "เฉลี่ย: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "สถิติ: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "เฉลี่ย: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "ออกรบในระหว่างที่เราทำการเตรียมข้อมูลของคุณ"
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "ไม่มีข่าวสารให้ชั่วคราว"
+
+msgid "summary/disabled/title"
+msgstr "มีข้อมูลเพิ่มเติมให้ในภายหลัง"
+
+msgid "summary/main/assistance"
+msgstr "สถิติ\nการช่วยเหลือ"
+
+msgid "summary/main/battles"
+msgstr "การรบ\nที่เข้าร่วม"
+
+msgid "summary/main/blocked"
+msgstr "กันความเสียหาย\nสูงสุด"
+
+msgid "summary/main/damage"
+msgstr "สถิติ\nความเสียหาย"
+
+msgid "summary/main/destroyed"
+msgstr "พาหนะที่\nทำลายได้"
+
+msgid "summary/main/experience"
+msgstr "สถิติ\nประสบการณ์"
+
+msgid "summary/statistic/title"
+msgstr "การจัดอันดับ World of Tanks"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "ลำดับส่วนตัว"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "ความเสียหายสูงสุดจากการช่วยของคุณ"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "ความเสียหายสูงสุดจากการช่วยของคุณในการรบด้วย %(tankName)s"
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "สถิติการช่วยเหลือ: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "อัตราความเสียหายทั้งหมดที่ทำต่อพาหนะข้าศึกด้วยการช่วยของคุณกับจำนวนการรบทั้งหมดที่เข้าร่วม นับว่าเป็นการมีส่วนร่วม:"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• ความเสียหายเมื่อคุณทำการชี้เป้า\n• ความเสียหายเมื่อคุณทำลายตีนตะขาบ และทำให้ข้าศึกเคลื่อนที่ไม่ได้"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "ความช่วยเหลือโดยเฉลี่ย: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "อัตราการชนะทั้งหมดที่ทำได้ต่อการรบที่เข้าร่วม"
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "โดยรวม:"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• ชนะ: %(wins)s\n• แพ้: %(loses)s\n• เสมอ: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "อัตราการชนะ: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "การรบที่เข้าร่วม: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "ความเสียหายที่กันได้สูงสุด"
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "ความเสียหายที่กันได้สูงสุดในการรบด้วย %(tankName)s"
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "กันได้สูงสุด: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "อัตราความเสียหายทั้งหมดที่กันด้วยเกราะจากการยิงไม่เข้าและการสะท้อนของกระสุนเจาะเกราะ, ระเบิดแรงสูงต่อต้านรถถังและเจาะเกราะหัวผสมต่อการรบที่เข้าร่วม"
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "ความเสียหายที่กันได้โดยเฉลี่ย: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "ความเสียหายที่ทำได้สูงสุด"
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "ความเสียหายที่ทำได้สูงสุดในการรบด้วย %(tankName)s"
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "สถิติความเสียหาย: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "อัตราความเสียหายทั้งหมดที่ทำได้ต่อการรบที่เข้าร่วม"
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "ความเสียหายโดยเฉลี่ย: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "จำนวนพาหนะที่ทำลายได้สูงสุด"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "จำนวนพาหนะข้าศึกที่ทำลายได้สูงสุดในการรบด้วย %(tankName)s"
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "ทำลายได้สูงสุด: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "จำนวนพาหนะที่ทำลายได้สูงสุดในการรบทั้งหมด"
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "พาหนะที่ทำลายได้: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "จำนวนประสบการณ์สูงสุดที่ได้รับ"
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "จำนวนประสบการณ์สูงสุดที่ได้รับในการรรบด้วย %(tankName)s"
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "สถิติประสบการณ์: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "อัตราประสบการณ์ทั้งหมดที่ได้รับต่อจำนวนการรบที่เข้าร่วม"
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "ประสบการณ์โดยเฉลี่ย: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "การชนะหรือแพ้จะไม่มีผลกับการคำนวณการจัดอันดับ World of Tanks ของคุณ"
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "ออกรบด้วยพาหนะต่างๆเพื่อดูคันที่มีประสิทธิภาพที่สุดของคุณตามค่าผลงานดังต่อไปนี้:"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "WTR (World of Tanks Rating) เป็นระบบการจัดอันดับที่คำนวณอันดับส่วนตัวของพาหนะแต่ละคันและใช้มันในการกำหนดผลงานโดยรวมของผู้เล่น ระบบจะมีความยืดหยุ่นในการตอบสนองกับการเปลี่ยนยุทธศาสตร์การรบและเปรียบเทียบสถิติของผู้เล่นกับค่าเฉลี่ยของเซิร์ฟเวอร์"
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "ความเสียหาย"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "ความเสียหายจากความช่วยเหลือของคุณ"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "จำนวนพาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "ความเสียหายที่กันได้และอัตรารอด"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "การเพิ่มอันดับ World of Tanks (WTR)"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "การจัดอันดับ World of Tanks"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "การรบเหลือในการคำนวณจัดอันดับ: %(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "ขั้น: %(level)s"
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "ถึงขีดจำกัดแล้ว!"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "คะแนนเหลือเพื่อเพิ่มขั้นของคุณ: %(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "ทองแดง %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "เงิน %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "ทอง %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "ยอดฝีมือ %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "ตำนาน %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "ขั้น"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "จำนวนคะแนน"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "การจัดอันดับ World of Tanks"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "เมื่อเปิดการตั้งค่า ลำดับที่คุณตั้ง %(whiteSpanish_Open)s จะถูกตั้งใหม่ %(whiteSpanish_Close)s"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "เมื่อทำการปิดการตั้งค่าหรือตั้งค่าด้วยตัวเอง รางวัลบนแพรแถบ %(whiteSpanish_Open)s จะหยุด %(whiteSpanish_Close)s%(whiteSpanish_Open)s ปรับใหม่ %(whiteSpanish_Close)s %(whiteSpanish_Open)sโดยอัตโนมัติ%(whiteSpanish_Close)s"
+
+msgid "tooltips/autoSetting/description"
+msgstr "จัดรางวัลโดยอัตโนมัติ %(whiteSpanish_Open)s จากทุกประเภท %(whiteSpanish_Close)s ตามค่าของรางวัลเพื่อแสดงบนแพรแถบรางวัลที่มีค่า"
+
+msgid "tooltips/autoSetting/title"
+msgstr "การแสดงอัตโนมัติ"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "การแก้ไขแพรแถบรางวัลที่มีค่าไม่มีให้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "ตอนนี้คุณยังไม่มีรางวัลให้วาง รับรางวัล %(whiteSpanish_Open)s ในการรบ %(whiteSpanish_Close)s หรือ %(whiteSpanish_Open)s จากการเข้าร่วมในกิจกรรมเกม %(whiteSpanish_Close)s"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "การแก้ไขแพรแถบรางวัลที่มีค่าจะมีให้หลังจากได้รับ%(whiteSpanish_Open)s%(amount)sหรือรางวัลมากขึ้น %(whiteSpanish_Close)sของประเภทใดก็ได้"
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "ไม่มีรางวัลให้วางที่นี่"
+
+msgid "tooltips/mastery/body"
+msgstr "ตราความเชี่ยวชาญนักขับรถถังชั้นยอดที่ได้รับในการรบที่เกี่ยวข้องทุกรูปแบบ / จำนวนของยานเกราะที่ได้ต่อสู้ในการรบอย่างน้อยหนึ่งครั้ง"
+
+msgid "tooltips/mastery/header"
+msgstr "ตราความเชี่ยวชาญ: ระดับสูงสุด"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "การจัดอันดับส่วนตัวเป็นการวัดทักษะและประสบการณ์ของผู้เล่นและพิจารณาจากค่าต่อไปนี้:"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "การจัดอันดับส่วนตัวถูกปรับในการรบเพิ่มเติมแต่ละครั้งที่ได้เข้าร่วม"
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• การชนะ\n• ความเสียหายจากความช่วยเหลือของคุณ\n• ความเสียหายเฉลี่ยต่อการรบ\n• ประสบการณ์เฉลี่ยต่อการรบ\n• การรบที่รอด"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "ลำดับส่วนตัว"

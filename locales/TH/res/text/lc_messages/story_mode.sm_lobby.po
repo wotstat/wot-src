@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s ระยะเวลาการรบ: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "ปิด"
+
+msgid "battleResult/continueButton"
+msgstr "ดำเนินการ"
+
+msgid "battleResult/damageAssisted"
+msgstr "ความเสียหาย\nช่วยเหลือ"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "ความเสียหาย\nกันได้"
+
+msgid "battleResult/damageDealt"
+msgstr "ความเสียหาย\nที่ทำได้"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s จากการปฏิบัติภารกิจความยากเข้มข้นสำเร็จ\n ก็จะถือว่าคุณได้ผ่านภารกิจในแบบปกติด้วย\nนี่หมายความว่าคุณจะได้รับรางวัลของทั้งสองระดับความยาก"
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s จากการปฏิบัติภารกิจความยากเข้มข้นสำเร็จ คุณก็จะได้ผ่านภารกิจในแบบปกติด้วย\nนี่หมายความว่าคุณจะได้รับรางวัลของทั้งสองระดับความยาก"
+
+msgid "battleResult/kills"
+msgstr "พาหนะข้าศึก\nที่ทำลายได้"
+
+msgid "battleResult/lose/title"
+msgstr "การรบจบลงแล้ว"
+
+msgid "battleResult/missionName/1"
+msgstr "พรานล่าเสือ: ปฏิบัติการเหล็กถล่ม"
+
+msgid "battleResult/missionName/2"
+msgstr "พรานล่าเสือ: ปฏิบัตินักวางกับดัก"
+
+msgid "battleResult/missionName/3"
+msgstr "พรานล่าเสือ: ปฏิบัติการค้อนและทั่ง"
+
+msgid "battleResult/missionName/4"
+msgstr "พรานล่าเสือ: ปฏิบัติการแมวติดกับดักหนู"
+
+msgid "battleResult/missionName/5"
+msgstr "ปฏิบัติการโอเวอร์ลอร์ด"
+
+msgid "battleResult/missionName/6"
+msgstr "ปฏิบัติการบุรุษไปรษณีย์"
+
+msgid "battleResult/missionName/7"
+msgstr "ปฏิบัติการจุดเดือด"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "ไม่มีภารกิจ\nต้องปฏิบัติ"
+
+msgid "battleResult/rewards/other"
+msgstr "และยังได้รับ:"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "ภารกิจ\nสำเร็จแล้ว"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}รอด{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}ไม่รอด{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "ชัยชนะ!"
+
+msgid "countdown/days"
+msgstr "{days} วัน"
+
+msgid "countdown/daysHours"
+msgstr "{days} วัน {hours} ชม."
+
+msgid "countdown/endsSoon"
+msgstr "น้อยกว่า {minutes} นาที"
+
+msgid "countdown/hours"
+msgstr "{hours} ชม."
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours} ชม. {minutes} นาที"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours} ชม. {minutes} น."
+
+msgid "countdown/lessThanMinute"
+msgstr "น้อยกว่า 1 นาที"
+
+msgid "countdown/minutes"
+msgstr "{minutes} นาที"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes} น."
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "ยกเลิก"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "คุณจะไม่ได้รับรางวัลใดๆจากการผ่านปฏิบัติการนี้\nคุณยังต้องการเข้าปฏิบัติการโดยไม่มีภารกิจกำลังใช้งาน?"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "ยืนยัน"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "ไม่มีภารกิจกำลังใช้งานสำหรับปฏิบัติการนี้"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "ระบุข้าศึกไม่ทราบฝ่าย, หยุดการปล่อยขีปนาวุธและป้องกันไม่ให้วิทยาการใหม่ถูกขโมย"
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "ออกรบคนเดียวและต่อสู้กับข้าศึกควบคุมโดยปัญญาประดิษฐ์ในมหากาพย์ที่มีผู้การจากเขต 3!"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "ปฏิบัติภารกิจทั้งหมดให้สำเร็จเพื่อรับตราและเหรียญตราที่ระลึก, รูปแบบสองมิติและรางวัลมีค่าอื่นๆ"
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "รุ่งอรุณของยุคใหม่"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "เรื่องราวเล่นคนเดียว"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "รางวัล"
+
+msgid "eventWelcomeScreen/header"
+msgstr "ปฏิบัติการจุดเดือด"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s – %(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "เรื่องราว"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "เข้มข้น"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "ปกติ"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "สนาม\nทุ่นระเบิดเข้มข้น"
+
+msgid "missionSelection/exitButton"
+msgstr "ออกจากรูปแบบ"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "ปฏิบัติการ\nเหล็กถล่ม"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "ปฏิบัติการ\nนักวางกับดัก"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "ปฏิบัติการ\nค้อนและทั่ง"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "ปฏิบัติการ\nแมวติดกับดักหนู"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "ปฏิบัติการ\nโอเวอร์ลอร์ด"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "ปฏิบัติการ\nบุรุษไปรษณีย์"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "ปฏิบัติการ\nจุดเดือด"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "บรู๊คส์: ตกลงนายเป็นไงบ้าง? คิดว่าไหวหรือยัง? นายต้องไปเจอเสนารักษ์นะ ปืนทุกกระบอกมีความหมาย การบุกได้เริ่มขึ้นแล้วและพวกเราก็มาสาย ข้าศึกกำลังมุ่งความสนใจไปที่อีกแนวรบหนึ่ง นี่คือโอกาสของเรา เราจะโจมตีฉับพลัน พุ่งเข้าตัวเมืองแล้วเข้ายึดจากทั้งสองฝั่ง\nตามเรามา แล้วหลบขวากดักรถถังด้วยล่ะ ข้าศึกวางมันเป็นแถวในสนามรบอยู่แต่เราก็จะหลบมันได้ สิ่งที่นายต้องทำคือฟังฉันและปฏิบัติตามคำสั่งอย่างรวดเร็วและแม่นยำ แมคเลียด กับฉันจะคุ้มกันนายเอง\nอย่าไปสนเรื่องตลกของเขามากนัก ทุกคนมีวิธีการรับมือกับความตึงเครียดของตัวเอง...เอาล่ะเดินหน้าได้!"
+
+msgid "missionSelection/missionDescription/2"
+msgstr "แมคเลียด: อ่า รถถัง Tiger นั่นคือคันที่เลวร้ายที่สุดที่นายจะได้เจอบนสนามรบ และถ้าหน่วยเหนือบอกว่าพวกเขามีปัญหา ปัญหานั้นก็คือรถถัง Tiger เราไม่สามารถติดต่อหมู่โจมตีที่หนึ่งได้, หมู่สองก็เพิ่งออกไปและนี่ก็ถึงตาเราส่งไปตามพวกเขา\nและถ้าพวกเขาส่งเราไปนั่นก็หมายถึงได้เพียงอย่างเดียว รถถัง Tiger นั่นคือสิ่งที่กองบก.พูด \"ส่งผู้เชี่ยวชาญ Tiger พวกนั้นไปสิ\" รถถังเก้าคันแลกกับสองคัน ก็ไม่ดูแย่สำหรับครึ่งปีนะ นายนำอยู่ 5-4 แต่ฉันก็มีโอกาสนำหน้าได้และได้เหรียญบ้านั้นในที่สุด!\nเอาน่า บรูคส์ไม่ชอบให้รอนะ การล่าของเราเริ่มแล้ว"
+
+msgid "missionSelection/missionDescription/3"
+msgstr "แมคเลียด:\"เอาล่ะ ทุกคน นี่คือปฏิบัติการค้อนและทั่ง ชื่อง่ายๆสำหรับงานที่ไม่ง่าย เรากำลังมุ่งหน้าไปยังเมืองเพื่อกวาดล้างกำลังข้าศึกซึ่งจะไม่เป็นเรื่องง่าย เราจะพบกับยานเกราะหนัก แต่เราก็มีทั้งสมอง, กำลังและการทำงานเป็นทีมอยู่ข้างเราใช่ไหมล่ะ ลัคกี้? และเพื่อให้มันรวดเร็วสำหรับทุกคน ผมก็มีแผนที่จะดื่มชาเล็กน้อยตอนห้าโมง ถ้าพวกคุณเข้าใจนะ!\""
+
+msgid "missionSelection/missionDescription/4"
+msgstr "แมคเลียด: \"ลัคกี้ ไม่ต้องถามนะ ผมเองก็งงพอๆกันกับคุณน่ะแหละผมเองก็ไม่ใช่แฟนของงานลึกลับแบบนี้ ผมชอบงานที่ตรงไปตรงมา คุณเห็นข้าศึก คุณออกรบ แต่นี่น่ะหรือ? มันเหมือนกับงานเลอะเทอะอย่างมาก\n\nมันจะมีรถถังพันธมิตรในเมืองด้วย บรู๊คส์ได้ขอให้เราปฏิบัติการอย่างระวัง นั่นมันหมายความว่าอย่างไร?\nเราได้รับมอบหมายงานพิเศษ เพื่อให้หาอาวุธสุดยอดบางอย่าง น่าจะเป็นยานเกราะตีนตะขาบขนาดใหญ่ ไม่มีใครทำได้นอกจากเรานะลัคกี้\n\nพร้อมยัง? ไปลุยกันเลย\""
+
+msgid "missionSelection/missionDescription/5"
+msgstr "ร้อยเอกจอห์น แมคคอร์มิค \"เอาล่ะ ทุกคน วันนี้ก็มาถึงแล้ว ถึงเวลาที่จะจบสงครามนี้และนั่นก็คือสิ่งที่เราจะทำ พวกเราทุกครนพร้อมกันทั้งหมด สหรัฐฯ, อังกฤษ, ฝรั่งเศส, แคนาดา, ออสเตรเลีย, เบลเยียม, เชคโกสโลวัค, กรีก, ดัตช์, กีวี, นอร์เวย์, โปแลนด์ พวกเรามารวมตัวเพื่อจบความชั่วร้ายนี้เป็นการถาวร\n\nเราจะตีฝ่ากำแพงแอตแลนติคและตั้งฐานที่มั่นของเราเอง\n\nเตรียมตัวยกพลขึ้นบก!\""
+
+msgid "missionSelection/missionDescription/6"
+msgstr "ร้อยเอกสมิธ: \"ฟังนะ ทางเยอรมนีได้ลงนามเอกสารยอมจำนวนเมื่อไม่กี่ชั่วโมงมาแล้ว สงครามจะจบอย่างเป็นทางการในพรุ่งนี้ แต่พวกทหารของเราบนภูเขาติดต่อด้วยวิทยุไม่ได้ พวกเขาไม่รู้ว่ามันจบลงแล้ว พวกเขากำลังจะทำการโจมตีปราการนี้ในช่วงเช้าตรู่และพวกเยอรมันในปราการก็ไม่รู้ว่าสงครามจบลงแล้วเช่นกัน และมันจะเป็นการฆ่ากันโดยไร้จุดหมาย\n\nเราเป็นพวกเดียวที่จะหยุดมันได้ ภารกิจของเราคือ ลอบเข้าแนวข้าศึกแล้วส่งคำสั่งหยุดยิง นี่คือปฏิบัติการฆ่าตัวตายแต่ทุกชีวิตที่เราช่วยได้นั้นถือว่าคุ้มค่า \n\nทางเรามีพลวิทยุเยอรมันที่เราจับเป็นเชลยได้ เขารู้ภูมิประเทศดีและเขาก็มีเหตุพอกับเราที่จะหยุดการฆ่าฟันในครั้งนี้\n\nเคลื่อนพลได้\""
+
+msgid "missionSelection/missionDescription/7"
+msgstr "เลนี่ ชาร์ฟ: \"สถานการณ์อยู่ในขั้นวิกฤต เราขาดการติดต่อกับฐานขีปนาวุธของเราในทะเลนอร์เวย์ หน่วยบินลาดตระเวนไม่เดินทางกลับมาและกองกำลังรถถังยกพลขึ้นบกแรกนั้นถูกทำลายโดยข้าศึกที่ไม่ทราบฝ่าย\n\nข่าวกรองระบุว่าข้าศึกกำลังพยายามทำการปล่อยขีปนาวุธข้ามทวีป ทางเราเองนั้นไม่รู้ว่าเป้าหมายจะเป็นที่ใดแต่ในสภาวะทางการเมืองเช่นนี้ การปล่อยจรวดเพียงลูกเดียวก็สามารถทำให้เกิดความขัดแย้งไปทั่วโลกได้\n\nรู้สึกเหมือนเมื่อก่อนใช่ไหมล่ะ? แค่อีกหนึ่งภารกิจที่เป็นไปไม่ได้หลังแนวข้าศึก เคลื่อนพลได้!\""
+
+msgid "missionSelection/missionName/1"
+msgstr "ปฏิบัติการเหล็กถล่ม"
+
+msgid "missionSelection/missionName/2"
+msgstr "ปฏิบัติการนักวางกับดัก"
+
+msgid "missionSelection/missionName/3"
+msgstr "ปฏิบัติการค้อนและทั่ง"
+
+msgid "missionSelection/missionName/4"
+msgstr "ปฏิบัติการแมวติดกับดักหนู"
+
+msgid "missionSelection/missionName/5"
+msgstr "ปฏิบัติการโอเวอร์ลอร์ด"
+
+msgid "missionSelection/missionName/6"
+msgstr "ปฏิบัติการบุรุษไปรษณีย์"
+
+msgid "missionSelection/missionName/7"
+msgstr "ปฏิบัติการจุดเดือด"
+
+msgid "missionSelection/specialVehicle"
+msgstr "พาหนะช่วงพิเศษ"
+
+msgid "missionSelection/tab/event"
+msgstr "ปฏิบัติการจุดเดือด"
+
+msgid "missionSelection/tab/newbies"
+msgstr "เรื่องราวแบบฝึกหัด"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "เข้าโจมตีเมืองและทำลายพาหนะข้าศึก"
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "เข้าโจมตีเมืองและทำลายพาหนะข้าศึก"
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "เข้าโจมตีเมืองและทำลายพาหนะข้าศึก"
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "ปฏิบัติเป้าหมายภารกิจหลักให้สำเร็จโดยไม่รับความเสียหายจากทุ่นระเบิดข้าศึก"
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "บรรลุเป้าหมายหลักของภารกิจโดยไม่เสียพาหนะแม้แต่คันเดียว"
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "โจมตีเมืองแล้วยึดอาวุธสุดยอดของข้าศึก"
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "บรรลุเป้าหมายหลักของภารกิจภายในเวลาน้อยกว่า %(win_timer)s"
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "บรรลุเป้าหมายหลักของภารกิจและทำลาย %(kill_enemies)s ด้วยการช่วยจากเครื่องบิน"
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "ฝ่าแนวรบ, ทำลายปืนรักษาชายฝั่งแล้วยึดหัวหาดให้ได้"
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "บรรลุเป้าหมายหลักของภารกิจภายในเวลาน้อยกว่า %(win_timer)s"
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "บรรลุเป้าหมายหลักของภารกิจโดยไม่เสียพาหนะแม้แต่คันเดียว"
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "ส่งคำสั่งหยุดยิงไปยังกองกำลังพันธมิตรของคุณ"
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "บรรลุเป้าหมายหลักของภารกิจและทำลายน้อยกว่า %(kill_enemies)s"
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "บรรลุเป้าหมายหลักของภารกิจโดยไม่เสียพาหนะแม้แต่คันเดียว"
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "ไปถึงกองบัญชาการแล้วหยุดการปล่อยขีปนาวุธ"
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "บรรลุเป้าหมายหลักภารกิจในเวลาน้อยกว่า %(win_timer)s"
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "บรรลุเป้าหมายหลักของภารกิจโดยไม่เสีย พาหนะแม้แต่คันเดียว"
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "พาหนะข้าศึก %(value)s คัน"
+msgstr[1] "พาหนะข้าศึก %(value)s คัน"
+msgstr[2] "พาหนะข้าศึก %(value)s คัน"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "ภารกิจดังกล่าวถูกล็อค: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s นาที"
+msgstr[1] "%(value)s นาที"
+msgstr[2] "%(value)s นาที"
+
+msgid "missionSelection/taskRewards"
+msgstr "รางวัล:"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "พาหนะนี้มีให้ในเรื่องราวเท่านั้น"
+
+msgid "missionSelection/unlockCondition"
+msgstr "ผ่านการรบอีก %(numBattles)s ครั้งในการรบแบบสุ่ม\nเพื่อปลดล็อคปฏิบัติการนี้"
+
+msgid "mode/story_mode/callToAction"
+msgstr "สถานการณ์สำหรับผู้เล่นใหม่"
+
+msgid "mode/story_mode/description"
+msgstr "ปฏิบัติการรบกับหุ่นยนต์กำหนดเรื่องแล้ว"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "ปฏิบัติการจุดเดือด"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "คุณสามารถดูรูปแบบเกมที่เลือกไว้ปัจจุบันในส่วนบนสุดของรายการโรงรถ คลิกที่ชื่อรูปแบบเพื่อว่ามีรูปแบบใดให้อีกบ้าง"
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "คลิก&zwnbsp;{whiteSpanish_Open}เรื่องราว{whiteSpanish_Close}&zwnbsp;เพื่อเลือกรูปแบบเกมนี้"
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "ในรูปแบบเรื่องราว คุณสามารถออกปฏิบัติการในสถานการณ์แบบ PvE เพื่อต่อสู้กับข้าศึกควบคุมด้วยปัญญาประดิษฐ์, พุ่งเข้าบรรยากาศของมหากาพย์การรบและรับรางวัลที่มีค่า!"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "เข้าเลือกรูปแบบเกม"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "เลือกเรื่องราว"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "สนุกกับการรบ PvE"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "เรื่องราว"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "สถานการณ์ตามเรื่องราวรอคุณอยู่"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "เริ่มใหม่"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "การรบจบลงแล้ว"
+
+msgid "onboardingQueue/skipButton"
+msgstr "ข้าม"
+
+msgid "onboardingQueue/skipText"
+msgstr "เซิร์ฟเวอร์ทั้งหมดยังไม่ว่าง โปรดรอหรือข้ามเรื่องราวนี้ไป"
+
+msgid "onboardingQueue/spinnerText"
+msgstr "ทางเรากำลังเตรียมเซิร์ฟเวอร์ให้คุณ โปรดรอซักครู่..."
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "ความเสียหายที่เกราะกันได้ {parSecondary_Start}(หน่วย){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "ความเสียหายที่กันได้"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "จะไม่นับการถูกยิงด้วยกระสุนระเบิดแรงสูงและระเบิดแรงสูงกระเทาะเกราะ"
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "นับ:"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "สะท้อนกระสุนข้าศึก"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "การยิงที่ไม่เจาะเกราะ"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "ความเสียหายช่วยทำ"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "จะนับความเสียหายที่พันธมิตรทำได้ด้วยการช่วยของคุณ:"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "ความเสียหายจากการชี้เป้า"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "ความเสียหายเมื่อคุณทำลายตีนตะขาบหนึ่งข้างและทำให้พาหนะข้าศึกหนึ่งคันเคลื่อนที่ไม่ได้"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "ความเสียหายรวมที่พันธมิตร\nทำได้ {parSecondary_Start}(หน่วย){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "ความเสียหายที่ทำ"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "นับ:"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "ความเสียหายโดยกระสุน"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "ความเสียหายโดยการพุ่งชน"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "ความเสียหายโดยไฟไหม้"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "ความเสียหายจากดันพาหนะข้าศึกออกจากสิ่งกีดขวาง"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "ความเสียหายรวม {parSecondary_Start}(หน่วย){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "ข้าศึกที่ถูกทำลาย"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "นับ:"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "การทำลายจากกระสุน"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "การทำลายโดยไฟไหม้"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "การทำลายจากการชน"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "การทำลายจากการจมน้ำ"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "การทำลายจากดันพาหนะข้าศึกออกจากสิ่งกีดขวาง"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "การทำลายจากการคว่ำ"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "ภารกิจที่สำเร็จแล้ว"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "จำนวนภารกิจที่ผ่านและ\nภารกิจที่มีให้ปฏิบัติทั้งหมด\nภารกิจที่ผ่านในระดับความยากเข้มข้น\nจะทำให้ผ่านระดับความยากปกติโดย\nอัตโนมัติ"
+
+msgid "tooltips/difficulty/available"
+msgstr "มีให้"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "ความเร็วตอบสนองและความแม่นยำของข้าศึกเพิ่มขึ้นและข้าศึกจะโจมตีคุณอย่างก้าวร้าวมากกว่าเดิม ในทางกลับกัน คุณก็จะได้รับรางวัลจากการปฏิบัติภารกิจสำเร็จมากขึ้น"
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "เมื่อผ่านภารกิจในความยาก{whiteSpanish_Open}เข้มข้น{whiteSpanish_Open} คุณจะผ่านมันโดยอัตโนมัติในความยาก {whiteSpanish_Close}ปกติ{whiteSpanish_Close} คุณจะได้รับรางวัลของทั้งสองระดับความยาก"
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "เงื่อนไขเพิ่มเติม"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "เข้มข้น"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "ในการปลดล็อคความยากเข้มข้น ให้แสดงฝีมือของคุณในรูปแบบเกมด้วยการผ่านปฏิบัติการนี้ในความยากปกติ"
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "ล็อคไว้"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "ข้าศึกจะช้าและไม่แม่นยำนักและคุณจะได้รับรางวัลมาตรฐานเมื่อปฏิบัติภารกิจสำเร็จ"
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "ปกติ"
+
+msgid "tooltips/difficulty/selected"
+msgstr "เลือกไว้"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "แบบที่ท้าทายมากขึ้นของด่านสนามทุ่นระเบิด คุณกล้าที่จะเข้าวงกตมรณะนี้ไหม?\nจะมีรางวัลการรบที่มากขึ้นให้"
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "เข้มข้น สนามทุ่นระเบิด"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "ระบุข้าศึกไม่ทราบฝ่าย, หยุดการปล่อยขีปนาวุธและป้องกันไม่ให้วิทยาการใหม่ถูกขโมย"
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "ปฏิบัติการจุดเดือด"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "รูปแบบ"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "— รูปแบบเกม คลิกเพื่อสำรวจ"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "ออกรบคนเดียวและต่อสู้กับข้าศึกควบคุมโดยปัญญาประดิษฐ์ในมหากาพย์ที่มีผู้การจากเขต 3!"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "มีกิจกรรมให้ {timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "เรื่องราว"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "รูปแบบ"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "— รูปแบบเกม คลิกเพื่อสำรวจ"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "สถานการณ์กำหนดเรื่องพิเศษ มาออกเดินทางเข้าสู่โลกแห่งยานเกราะและแสดงฝีมือของคุณในการปะทะกับศัตรูควบคุมด้วยปัญญาประดิษฐ์"
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "เรื่องราว"
+
+msgid "tooltips/task/active"
+msgstr "ใช้งานอยู่"
+
+msgid "tooltips/task/completed"
+msgstr "สำเร็จแล้ว"
+
+msgid "tooltips/task/condition/locked"
+msgstr "ไม่ทราบเงื่อนไข"
+
+msgid "tooltips/task/locked"
+msgstr "ล็อคเอาไว้: %(timer)s"

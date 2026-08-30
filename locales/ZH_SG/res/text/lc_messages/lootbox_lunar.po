@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "返回宝藏"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "烈焰宝藏"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "烈焰宝藏"
+
+msgid "common/getButton/lowerCase"
+msgstr "获取宝藏"
+
+msgid "common/getButton/upperCase"
+msgstr "获取宝藏"
+
+msgid "common/loader"
+msgstr "正在开启烈焰宝藏..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "开启宝藏后可查看统计数据。"
+
+msgid "common/statistics/header"
+msgstr "开启的烈焰宝藏数：%(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "已开启烈焰宝藏的信息将全部删除。"
+
+msgid "entryPoint/boxes"
+msgstr "前往宝藏"
+
+msgid "entryPoint/tooltip/description"
+msgstr "这些特殊补给箱中包含全新且独特的物品，包括高级战车、2D风格等。您可在游戏内商店购买这类补给箱。"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "由于技术原因，目前无法开启或购买烈焰宝藏。我们对造成的不便深表歉意。"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "烈焰宝藏暂时不可用"
+
+msgid "eventName/lowerCase"
+msgstr "华岁丰赏"
+
+msgid "eventName/upperCase"
+msgstr "华岁丰赏"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "下个宝藏必定掉落保底奖励！"
+
+msgid "guaranteedTitle/text"
+msgstr "掉落保底奖励前需开启的烈焰宝藏数量不超过：%(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "如果您在活动结束前未开启烈焰宝藏，它们将自动开启。"
+
+msgid "infoPage/footer/description/compensation"
+msgstr "如果您已在车库中拥有烈焰宝藏掉落列表中的所有战车，烈焰宝藏后续掉落的所有战车将全额补偿与之等值的金币。"
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "每%(guaranteed0)s个烈焰宝藏必定包含一辆VIII–IX级战车。如果您开启了指定数量的烈焰宝藏但仍未获得此类战车，您开启的第%(guaranteed0)s个烈焰宝藏必定掉落一辆您未在车库中拥有的VIII–IX级战车。掉落后计数器重置。"
+
+msgid "infoPage/header/description"
+msgstr "开启烈焰宝藏有几率获得珍贵的游戏内物品！在下方查看详情。"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "%(name)内容(已开启%(boxesCount)个烈焰宝藏)"
+
+msgid "noBoxesView/description/"
+msgstr "您没有烈焰宝藏。\n您可以在游戏内商店中购买烈焰宝藏。"
+
+msgid "preview/backLabel"
+msgstr "前往宝藏"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "持有宝藏：%(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "无宝藏"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "如果您已在车库中拥有烈焰宝藏掉落列表的所有战车，烈焰宝藏后续掉落的所有战车将补偿您金币。"
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount)个烈焰宝藏"
+msgstr[1] "%(remainingCount)个烈焰宝藏"
+msgstr[2] "%(remainingCount)个烈焰宝藏"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "保底奖励为烈焰宝藏掉落列表中的一辆战车。\n如果您开启%(remainingCount)仍未掉落此类战车，那么您在开启%(count)烈焰宝藏时必定掉落您车库中没有的此类战车。掉落后计数器重置。"

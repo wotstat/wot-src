@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "closeButtonLabel"
+msgstr "關閉"
+
+msgid "featureName"
+msgstr "重播"
+
+msgid "filter/apply"
+msgstr "套用過濾"
+
+msgid "filter/group/nation/title"
+msgstr "國家"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "階級"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "階級"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "車輛專長"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "車輛類型"
+
+msgid "filter/reset"
+msgstr "重置過濾"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "顯示/隱藏此國家的乘員。"
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "顯示/隱藏此國家的外表。"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "顯示/隱藏此國家的車輛。"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "顯示/隱藏此類型的車輛。"
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "驅逐戰車"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "自走炮"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "重型戰車"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "輕型戰車"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "中型戰車"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "找不到符合\n搜尋條件的車輛"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "按照車輛名稱來排序。"
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "名稱"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "按照車輛階級來排序。"
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "階級"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "按照車輛類型來排序。"
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "類型"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "名稱"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "點擊以套用過濾設定。"
+
+msgid "filterPanel/counter/apply/header"
+msgstr "套用所選過濾"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "點擊以重置過濾設定。"
+
+msgid "filterPanel/counter/reset/header"
+msgstr "重置所有過濾"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "僅顯示黃金時段的重播"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "過去 %(count)s 天"
+msgstr[1] "過去 %(count)s 天"
+msgstr[2] "過去 %(count)s 天"
+
+msgid "filterPopover/title"
+msgstr "重播過濾"
+
+msgid "filterPopover/tooltip/body"
+msgstr "按照車輛類型、階級、國家等條件來設定重播過濾"
+
+msgid "filterPopover/tooltip/header"
+msgstr "按參數過濾"
+
+msgid "findReplay/buttonText/find"
+msgstr "尋找重播"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "清除輸入內容"
+
+msgid "findReplay/buttonText/watch"
+msgstr "觀看重播！"
+
+msgid "findReplay/errorMessage"
+msgstr "找不到任何東西。請變更您的搜尋條件"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "請在此輸入 ARENA_ID..."
+
+msgid "findReplay/successMessage"
+msgstr "AI 找到您有興趣的重播！祝您觀看愉快"
+
+msgid "page/heading/bestReplays"
+msgstr "最佳重播"
+
+msgid "page/heading/findReplay"
+msgstr "尋找重播（限開發者）"
+
+msgid "page/heading/myReplays"
+msgstr "我的重播"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "本頁面包含所有《戰車世界》玩家最佳重播的資訊"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "本頁面可按照特定參數來尋找重播"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "本頁面包含您最佳重播的資訊"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "最佳重播"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "尋找重播"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "我的重播"
+
+msgid "statsParam/damageAssisted"
+msgstr "協助摧毀排名第一"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "阻擋傷害排名第一"
+
+msgid "statsParam/damageDealt"
+msgstr "造成傷害排名第一"
+
+msgid "statsParam/earnedXp"
+msgstr "獲得經驗排名第一"
+
+msgid "statsParam/kills"
+msgstr "摧毀車輛數排名第一"
+
+msgid "table/error/buttonText"
+msgstr "更新"
+
+msgid "table/error/description"
+msgstr "很抱歉暫時為您帶來不便。請稍後再次嘗試更新此頁面。"
+
+msgid "table/error/title"
+msgstr "載入資料時發生錯誤"
+
+msgid "table/header/damageAssisted"
+msgstr "協助"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "阻擋傷害"
+
+msgid "table/header/damageDealt"
+msgstr "傷害"
+
+msgid "table/header/date"
+msgstr "日期"
+
+msgid "table/header/earnedXp"
+msgstr "獲得經驗"
+
+msgid "table/header/kills"
+msgstr "摧毀車輛數"
+
+msgid "table/header/map"
+msgstr "地圖"
+
+msgid "table/header/marksOfMastery"
+msgstr "精通徽章"
+
+msgid "table/header/player"
+msgstr "玩家名稱"
+
+msgid "table/header/vehicle"
+msgstr "車輛"
+
+msgid "table/noRecords/buttonText"
+msgstr "重置過濾"
+
+msgid "table/noRecords/title"
+msgstr "找不到任何東西。請變更設定或重置過濾"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "點擊以重置過濾設定。"
+
+msgid "table/noRecords/tooltip/header"
+msgstr "重置所有過濾"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "此重播中玩家協助造成的傷害量"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "協助傷害"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "此重播中玩家阻擋的傷害量"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "裝甲阻擋傷害"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "此重播中玩家造成的傷害量"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "造成傷害"
+
+msgid "table/tooltip/date/body"
+msgstr "重播錄製日期"
+
+msgid "table/tooltip/date/header"
+msgstr "重播日期"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "此重播中玩家獲得的經驗數量"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "獲得經驗"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "此重播中玩家獲得的史詩勳章"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "史詩勳章"
+
+msgid "table/tooltip/favorite/body"
+msgstr "點擊以將此重播加入到「最愛」"
+
+msgid "table/tooltip/favorite/header"
+msgstr "最愛"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "點擊以將此重播從「最愛」移除"
+
+msgid "table/tooltip/kills/body"
+msgstr "此重播中玩家摧毀的車輛數"
+
+msgid "table/tooltip/kills/header"
+msgstr "摧毀數"
+
+msgid "table/tooltip/map/body"
+msgstr "重播的地圖"
+
+msgid "table/tooltip/map/header"
+msgstr "地圖"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "此重播中玩家獲得的重要徽章"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "精通徽章"
+
+msgid "table/tooltip/player/body"
+msgstr "重播中玩家的名稱"
+
+msgid "table/tooltip/player/header"
+msgstr "玩家名稱"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "錄製重播時玩家駕駛的車輛"
+
+msgid "table/tooltip/vehicle/header"
+msgstr "車輛"
+
+msgid "tableInfo/amount"
+msgstr "顯示的重播：%(amount)s 個"
+
+msgid "tableInfo/filter"
+msgstr "過濾"
+
+msgid "waitingSpinner/message"
+msgstr "載入內容中..."

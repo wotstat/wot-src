@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "储备管理"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "点击选择一个可用的战斗储备。"
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "炸弹"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "影响区域"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "震晕"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "部署"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "地雷数量"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "雷区持续时间"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "震晕"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "伤害半径"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "持续时间"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "炮弹"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "冷却"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "部署"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "持续时间"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "恢复血量数"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "激活后立刻恢复血量数"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "降低承受地雷的伤害"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "在重新补给圈内的血量恢复速度加成"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "乘员属性"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "持续时间"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "调适时间"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "效果半径"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "您战车的乘员表现"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "提升防护"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "占领加成"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "重新补给圈刷新"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "补给弹药的速度"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "抵达时间"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "影响区域"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750米"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "侦察持续时间"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "降低的乘员表现"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "烟雾制造器"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "影响区域"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "持续时间"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "降低敌方战车的视野范围"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "降低树丛后敌方战车的隐蔽性"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "降低移动中敌方战车的隐蔽性"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "持续时间"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "对战车静止时的隐蔽性加成"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "对视野范围的被动加成"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "储备等级"
+
+msgid "abilityInfo/properties/static"
+msgstr "永久属性"
+
+msgid "abilityInfo/units/meter"
+msgstr "米"
+
+msgid "abilityInfo/units/seconds"
+msgstr "秒"
+
+msgid "advance_message_txt"
+msgstr "进军前线战"
+
+msgid "advance_mission_txt"
+msgstr "进军前线战"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "情景细节"
+
+msgid "awards/acceptButton"
+msgstr "收到！"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "已获得奖励"
+
+msgid "awards/subTitle2"
+msgstr "已获得奖励"
+
+msgid "awards/title"
+msgstr "前线战"
+
+msgid "base/contested_atk"
+msgstr "争夺"
+
+msgid "base/contested_def"
+msgstr "受到攻击"
+
+msgid "battleResults/armor"
+msgstr "装甲使用"
+
+msgid "battleResults/assistance"
+msgstr "支援"
+
+msgid "battleResults/crits"
+msgstr "重伤"
+
+msgid "battleResults/damage"
+msgstr "伤害"
+
+msgid "battleResults/kill"
+msgstr "摧毁"
+
+msgid "battleResults/spotting"
+msgstr "侦察"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1个人储备：%(effectValue)s乘员经验持续%(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1个人储备：%(effectValue)s全局经验持续%(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1个人储备：%(effectValue)s战斗经验持续%(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "攻击目标 %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "防守目标 %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "注意地点！"
+
+msgid "command_shortcut/title"
+msgstr "命令"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "前线拥堵—玩家达到上限"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "危险区域"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "前线拥堵—战车类型达到上限"
+
+msgid "dialogs/quotedName"
+msgstr "“%(name)s”"
+
+msgid "dialogs/title/buy/item"
+msgstr "购买%(name)s%(type)s吗？"
+
+msgid "dialogs/title/buy/items"
+msgstr "购买%(type)s吗？"
+
+msgid "dialogs/title/install/item"
+msgstr "启用%(name)s%(type)s吗？"
+
+msgid "dialogs/title/install/items"
+msgstr "启用%(type)s吗？"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "累积所需的点数并激活前线战的战斗储备。"
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "累积所需的点数并激活前线战的战斗储备。"
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "战斗储备点数"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "在占领/失去第二战线的任意阵地（D、E或F）后，将解锁%(level)s战车用于战斗。"
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "%(lvl)s级"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "选择一辆VIII级战车参加前线战模式。"
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "战车不匹配"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "获取"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "最大"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "战斗储备"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "指挥官等级"
+
+msgid "epictraining/info/otherLabel"
+msgstr "未分配的玩家：%(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "攻击方（%(lane1)s/%(lane2)s/%(lane3)s）"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "防守方（%(lane1)s/%(lane2)s/%(lane3)s）"
+
+msgid "game/all_enemies_defeated"
+msgstr "击毁敌方所有战车"
+
+msgid "game/all_hqs_destroyed"
+msgstr "击毁所有目标"
+
+msgid "game/all_tanks_defeated"
+msgstr "己方战车全部被击毁"
+
+msgid "game/defeat"
+msgstr "失败！"
+
+msgid "game/draw"
+msgstr "平局！"
+
+msgid "game/time_over"
+msgstr "目标存活"
+
+msgid "game/victory"
+msgstr "胜利！"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "摧毁目标！"
+
+msgid "global_msg/atk/time_short"
+msgstr "占领一个区域！"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "防守目标！"
+
+msgid "global_msg/def/time_short"
+msgstr "防守区域！"
+
+msgid "global_msg/lane/center_short"
+msgstr "增援%(strArg1)s！"
+
+msgid "global_msg/lane/east_short"
+msgstr "增援%(strArg1)s！"
+
+msgid "global_msg/lane/west_short"
+msgstr "增援%(strArg1)s！"
+
+msgid "global_msg/save_tanks_short"
+msgstr "保存你的坦克！"
+
+msgid "help_window/communication"
+msgstr "通信区"
+
+msgid "help_window/communication/description"
+msgstr "您只能收到小地图可视区域内队友的命令，或当区域为命令目标区域时的命令。"
+
+msgid "help_window/overview_map"
+msgstr "战略地图"
+
+msgid "help_window/overview_map/description"
+msgstr "战略地图用于总览战场并制定战术和战略。当战略地图开启时，全队都可以收到通信并且可以发送讯息。"
+
+msgid "help_window/recovery"
+msgstr "恢复"
+
+msgid "help_window/recovery/description"
+msgstr "恢复功能针对被地形卡住的战车进行自毁。由于战斗时长的增加和可重生的特性，所以此机制是非常必要的。"
+
+msgid "help_window/reserves"
+msgstr "战车储备"
+
+msgid "help_window/reserves/description"
+msgstr "每隔几分钟您的储备中就会添加一辆战车。最大可持有2辆战车。当没有战车剩余时，您需要等到新战车到达后才能重新部署。"
+
+msgid "hq/under_attack_atk"
+msgstr "受到攻击"
+
+msgid "hq/under_attack_def"
+msgstr "受到攻击"
+
+msgid "in_game_rank/experience_text"
+msgstr "经验"
+
+msgid "lane_central_name"
+msgstr "中"
+
+msgid "lane_east_name"
+msgstr "东"
+
+msgid "lane_west_name"
+msgstr "西"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "等级%(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "不能获取：您没有战斗储备点数。"
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "战斗储备已达到最高等级。"
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "不能升级：您没有战斗储备点数。"
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "未购买战斗储备"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "在战斗中达到尉官和校官军阶时，战斗储备会升级。最高等级取决于战斗情景。"
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "购买价格：%(price)s%(img)s"
+
+msgid "mission/primary/title"
+msgstr "主要目标"
+
+msgid "mission/title"
+msgstr "任务"
+
+msgid "mission/zone_closing_atk"
+msgstr "区域开放： "
+
+msgid "mission/zone_closing_def"
+msgstr "敌方轰炸： "
+
+msgid "missions/primary/atk/base"
+msgstr "占领区域"
+
+msgid "missions/primary/atk/hq"
+msgstr "摧毁目标"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s / %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "摧毁目标："
+
+msgid "missions/primary/atk/longdescription"
+msgstr "占领区域到达主要目标。摧毁主要目标。"
+
+msgid "missions/primary/def/base"
+msgstr "防守区域"
+
+msgid "missions/primary/def/hq"
+msgstr "防守目标"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s / %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "丢失目标："
+
+msgid "missions/primary/def/longdescription"
+msgstr "防守主要目标直到时间结束或击毁全部进攻者。"
+
+msgid "missions/unlockTankLevel"
+msgstr "IX级战车可用"
+
+msgid "overtime/label"
+msgstr "加时"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "无法同时激活两个相同的储备"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "无法部署雷区。雷区重叠。"
+
+msgid "primeTime/applyBtn"
+msgstr "继续"
+
+msgid "primeTime/cancelBtn"
+msgstr "取消"
+
+msgid "primeTime/continueBtn"
+msgstr "继续"
+
+msgid "primeTime/endOfCycle"
+msgstr "%(server)s服务器上的该模式已结束。"
+
+msgid "primeTime/manyServersAvailable"
+msgstr "可用服务器："
+
+msgid "primeTime/oneServerAvailable"
+msgstr "可用服务器：%(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "%(server)s服务器上的战斗再持续%(time)s"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "接下来在%(server)s上的战斗倒计时%(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "%(server)s服务器\n战斗将再持续%(time)s"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "战斗将在%(time)s后开放"
+
+msgid "primeTime/servers"
+msgstr "开放服务器:%(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "%(server)s服务器上的战斗已结束"
+
+msgid "primeTime/status/disable"
+msgstr "您可以切换至一个前线战服务器来继续战前准备。"
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "%(server)s服务器上模式未开放"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "%(server)s服务器实行停战期至%(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "所有服务器处于停战期"
+
+msgid "primeTime/status/thisEnable"
+msgstr "在%(server)s服务器上，前线战将再持续%(time)s。"
+
+msgid "primeTime/steelhunter/title"
+msgstr "钢铁猎手"
+
+msgid "primeTime/title"
+msgstr "前线战"
+
+msgid "primeTime/titleWelcome"
+msgstr "欢迎来到\n前线战模式"
+
+msgid "progress_timers/active"
+msgstr "已开始"
+
+msgid "progress_timers/fully_equipped"
+msgstr "全副武装"
+
+msgid "progress_timers/resupply"
+msgstr "重新补给圈"
+
+msgid "progress_timers/unavailable"
+msgstr "不可用"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "前线战任务"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "少于1天"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "达到%(level)s级"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "新任务解锁于%(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "钢铁猎手任务"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "前线战结束于：%(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "不可用：%(reason)s。"
+
+msgid "rank/allReserveUpgraded"
+msgstr "所有战斗储备的等级已提高"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "乘员表现的团队加成提高至+%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "最高乘员表现达到+%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "乘员表现的团队加成+%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "玩家"
+
+msgid "rank/promotion"
+msgstr "晋升为%(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "士兵"
+
+msgid "rank/rank2"
+msgstr "军士长"
+
+msgid "rank/rank3"
+msgstr "准尉"
+
+msgid "rank/rank4"
+msgstr "尉官"
+
+msgid "rank/rank5"
+msgstr "校官"
+
+msgid "rank/rank6"
+msgstr "将军"
+
+msgid "rank/recerveUnlocked"
+msgstr "已解锁%(reserveName)s战斗储备"
+
+msgid "rank/reserveUpgraded"
+msgstr "已提升%(reserveName)s战斗储备"
+
+msgid "rank/slotUnlocked"
+msgstr "已解锁%(slotNumber)s战斗储备"
+
+msgid "rank/slot_2"
+msgstr "第2个"
+
+msgid "rank/slot_3"
+msgstr "第3个"
+
+msgid "recovery/Blocked"
+msgstr "暂时\n受到干扰"
+
+msgid "recovery/disabled"
+msgstr "恢复不可用"
+
+msgid "recovery_panel/base_text"
+msgstr "按J\n来恢复"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "通过移动或射击来取消"
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "恢复\n已取消"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "恢复\n已申请"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "占领下个基地"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "增援于 "
+
+msgid "reinforcement/unavailable"
+msgstr "增援不可用"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s秒自动部署。"
+
+msgid "respawn/deploy_button"
+msgstr "战斗！"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "在战斗中无法购买改进型消耗品。"
+
+msgid "respawn/shop_title"
+msgstr "维护"
+
+msgid "respawn/tanks_left"
+msgstr "战车剩余"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "选择一辆战车并部署区域"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "部署在这个区域很危险。"
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s秒"
+
+msgid "retreat_message_txt"
+msgstr "撤退"
+
+msgid "retreat_mission_txt"
+msgstr "撤退到下个区域"
+
+msgid "rewardSelection/subTitle"
+msgstr "选择您的奖励"
+
+msgid "rewardSelection/title"
+msgstr "前线战"
+
+msgid "scorePanel/stage1"
+msgstr "阶段1"
+
+msgid "scorePanel/stage2"
+msgstr "阶段2"
+
+msgid "scorePanel/stage3"
+msgstr "阶段3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "您电脑的性能不支持此模式。您可能会遇到画面和战车移动等问题。游戏客户端可能会崩溃。"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "低性能"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "如果性能不足，请尝试使用较低的图形质量。"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "该模式需要高电脑性能"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "此模式需要较高的电脑性能。您可能会遇到与地图加载、画面和战车移动相关的问题。如果性能不足，请尝试在设置中降低图形质量。"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "低性能"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "%(bodyVehicleLevel)s之间的30v30战斗。多加利用重生机制、战斗储备和重新补给圈。"
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "%(level)s级战车"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "%(bodyVehicleLevel)s之间的30v30战斗。多加利用重生机制、战斗储备和战斗中修复。"
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "该模式由于技术性原因暂时不可用。"
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "前线战"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "战斗开始于："
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "战斗结束于："
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "对战日程表"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "今天"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "明天"
+
+msgid "skill/category/firesupport"
+msgstr "攻击储备"
+
+msgid "skill/category/reconnaissance"
+msgstr "侦察储备"
+
+msgid "skill/category/tactics"
+msgstr "战术储备"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "观察者模式镜头"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "使用鼠标旋转镜头。"
+
+msgid "spectator_mode/camera_wasd"
+msgstr "使用W、A、S、D键在地图上移动镜头。"
+
+msgid "spectator_mode/follow_text"
+msgstr "左键点击开始跟随。"
+
+msgid "spectator_mode/follow_title"
+msgstr "跟随"
+
+msgid "spectator_mode/msg_text"
+msgstr "战车抵达倒计时："
+
+msgid "spectator_mode/msg_title"
+msgstr "所有战车被击毁！"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "再次点击停止跟随"
+
+msgid "spectator_mode/unfollow_title"
+msgstr "停止跟随"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s天"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s小时"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1分钟"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s分钟"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "干扰"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "离开区域！"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "正在恢复血量"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "正在恢复血量"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "激励中"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "激励中"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "重新补给圈"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "在烟幕内：已隐蔽。"
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "处于烟幕中。视野范围和乘员表现降低。"
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "调适时间。观察范围和乘员技能水平尚未恢复。"
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "已激活哨兵"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "战车静止%(activationDelay)s秒后激活"
+
+msgid "super_platoon_panel/title"
+msgstr "小队"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "—将军为乘员表现提供的总团队加成。"
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "全部前线"
+
+msgid "tab_screen/show_my_lane"
+msgstr "我的前线"
+
+msgid "team1Name"
+msgstr "攻击方"
+
+msgid "team2Name"
+msgstr "防守方"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "为已完成的前线战等级选择奖励（%(number)s个）。"
+
+msgid "tooltips/common/disabled"
+msgstr "模式不可用"
+
+msgid "tooltips/common/title"
+msgstr "前线战"
+
+msgid "tooltips/end"
+msgstr "活动已结束"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "战斗储备的解锁顺序取决于战斗类型。一开始时可以使用一个战斗储备，其他分别在达到军士长和准尉军衔后解锁。"
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "解锁：%(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "在<font color='#E9E2BF'>命运交错</font>情景中， 若购买战斗储备，其初始等级提升一级，最高等级提升至<font color='#E9E2BF'>IV</font>。"
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "放入此槽位的战斗储备在<font color='#E9E2BF'>命运交错</font>情景中作为选项出现的几率会提高<font color='#E9E2BF'>10%</font>。"
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "在战斗中解锁和提升储备"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "战斗储备会在战斗中解锁和提升，取决于您的战车类型和达到的军衔。"
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "坦克歼击车的储备配置"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "自行火炮的储备配置"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "重型坦克的储备配置"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "轻型坦克的储备配置"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "中型坦克的储备配置"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "解锁全部战斗储备后继续提升军衔，可以加强这些战斗储备。最初解锁的战斗储备可以加强到等级III，第二个解锁的战斗储备可以加强到等级II。"
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "提升：%(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "达到%(rank)s军衔后将解锁槽位。"
+
+msgid "tooltips/timeToEnd"
+msgstr "模式开放：%(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "战斗将开始于：%(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "活动已结束"
+
+msgid "tooltips/widget/level"
+msgstr "%(level)s级"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "已达到最高等级。"
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "战斗储备"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "所有服务器处于停战期。战斗将于%(time)s后开放"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "战斗即将开始"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "选择其他服务器"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "详情"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "前线战模式已结束。"
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "前线战情景"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "此服务器处于停战期。战斗将于%(time)s后开放"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "%(serverName)s处于停战期"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "战斗开始于：%(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "点击了解更多关于前线战\n情景和各情景区别的信息。"
+
+msgid "zone/arrived_text"
+msgstr "已抵达！"
+
+msgid "zone/capture_text"
+msgstr "占领"
+
+msgid "zone/captured_text"
+msgstr "已占领"
+
+msgid "zone/defend_text"
+msgstr "防守"
+
+msgid "zone/destroy_text"
+msgstr "击毁"
+
+msgid "zone/destroyed_text"
+msgstr "摧毁"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "敌方增援"
+
+msgid "zone/headquarters_text"
+msgstr "目标"
+
+msgid "zone/leave_zone"
+msgstr "离开区域！"
+
+msgid "zone/lost_text"
+msgstr "丢失"
+
+msgid "zone/reached_text"
+msgstr "到达"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "敌方增援："
+
+msgid "zone/reinforcement_timer_def"
+msgstr "增援："
+
+msgid "zone/reinforcements_text"
+msgstr "增援"
+
+msgid "zone/time_added"
+msgstr "分钟数已增加：%(minutes)s"
+
+msgid "zone/time_left"
+msgstr "剩余%(minutes)s分钟"
+
+msgid "zone/zone_text"
+msgstr "区域"

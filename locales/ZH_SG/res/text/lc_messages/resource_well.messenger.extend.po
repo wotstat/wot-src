@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "装配车间再次开放！"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "我们正着手下一个项目。完成研发后通知您。期待不久后再见！"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "装配车间即将关闭"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "有编号的战车已全数交付。我们即将开始装配标准配置的%(vehicle)s。抓紧时间——战车数量有限！"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "战车装配已完成。所有战车已交付。"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "装配车间报告"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "%(soldOutVehicle)s已完成交付。您仍有机会购买%(availableVehicle)s。如果您已花费资源但未在限定时间内完成购买，这些资源很快就会退还到您的账号。抓紧时间——战车数量有限！"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "战车装配已完成。所有战车已交付。您花费的所有资源很快就会退还到您的账号。"
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "车长，您有机会把附带有编号3D风格的%(vehicle)s收入囊中。战车数量有限！"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "装配车间由于维护暂时不可用。"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "风格编号：%(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "从装配车间获得独特的%(vehicle)s。"
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "已获得%(vehicle)s！"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "从装配车间获得%(vehicle)s。"
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "装配车间即将开放"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "车长，这是您入手%(firstVehicle)s和%(secondVehicle)s的绝佳机会！动作要快——库存有限！"

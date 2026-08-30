@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "backButton/label"
+msgstr "QUAY LẠI"
+
+msgid "backButton/to"
+msgstr "ĐẾN TÌNH HÌNH TÀI KHOẢN"
+
+msgid "filteredMapsDisplayed"
+msgstr "Bản đồ được hiển thị: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Hiện/ẩn bản đồ thuộc loại này."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Bản đồ Sa mạc"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Bản đồ Mùa hè"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Bản đồ Mùa đông"
+
+msgid "header/cooldown"
+msgstr "Bạn có thể thay bản đồ tiếp sau %(cooldownEndTime)."
+
+msgid "header/title"
+msgstr "Bản đồ Tẩy chay"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Bạn có thể thay bản đồ này tiếp sau khi hết thời gian chờ."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Thay thế Bản đồ Không khả dụng"
+
+msgid "mapTile/hoverExclude"
+msgstr "Tẩy chay bản đồ %(mapName)?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Tẩy chay"
+
+msgid "mapTile/hoverInclude"
+msgstr "Chấp nhận bản đồ %(mapName) trong Trận đấu Ngẫu nhiên?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Chấp nhận"
+
+msgid "mapsFilterLabel"
+msgstr "Loại bản đồ:"
+
+msgid "notSelected"
+msgstr "Chưa Chọn"
+
+msgid "premium"
+msgstr "Premium WoT"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Thêm một ô nữa chỉ khả dụng khi Tài khoản Premium WoT hoặc thuê bao WoT Plus có giá trị."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Mở khóa nó bằng Tài khoản WoT Premium."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Mở khóa nó bằng thuê bao WoT Plus có hiệu lực."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Chọn một bản đồ từ danh sách dưới đây để thay thế và tẩy chay nó khỏi Trận đấu Ngẫu nhiên."
+
+msgid "slot/selectTooltipBody"
+msgstr "Chọn một bản đồ từ danh sách dưới đây để tẩy chay nó khỏi Trận đấu Ngẫu nhiên."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Ô Khả dụng"
+
+msgid "totalMapsDisplayed"
+msgstr "Bản đồ được hiển thị: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Tẩy chay 1 bản đồ nữa với %(linkPremium) và thêm %(mapCount)s nhờ %(linkWotPlus)."
+msgstr[1] "Tẩy chay 1 bản đồ nữa với %(linkPremium) và thêm %(mapCount)s nhờ %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Tẩy chay 1 bản đồ nữa với %(linkPremium)."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Tẩy chay thêm %(mapCount)s bản đồ nhờ %(linkWotPlus)."
+msgstr[1] "Tẩy chay thêm %(mapCount)s bản đồ nhờ %(linkWotPlus)."
+
+msgid "wotplus"
+msgstr "WoT Plus"

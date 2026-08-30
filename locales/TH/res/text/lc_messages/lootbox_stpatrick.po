@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "กลับไปยังหีบ"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "หีบมรกต"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "หีบมรกต"
+
+msgid "common/getButton/lowerCase"
+msgstr "ซื้อหีบ"
+
+msgid "common/getButton/upperCase"
+msgstr "ซื้อหีบ"
+
+msgid "common/loader"
+msgstr "การเปิดหีบ..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "เปิดหีบเพื่อดูสถิติ"
+
+msgid "common/statistics/header"
+msgstr "เปิดหีบแล้ว: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "ข้อมูลทั้งหมดของหีบที่เปิดจะถูกลบออกไป"
+
+msgid "entryPoint/boxes"
+msgstr "ไปยังหีบ"
+
+msgid "entryPoint/tooltip/description"
+msgstr "นี่คือหีบพิเศษที่มีพาหนะพิเศษ, ชุดติดตั้งสามมิติ, เงินและสิ่งของมีค่าในเกมอื่นๆ\nคุณสามารถซื้อหีบได้จากร้านค้าในเกม"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "หีบไม่สามารถเปิดหรือซื้อได้ในขณะนี้เนื่องด้วยเหตุทางเทคนิค ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "หีบไม่มีให้ชั่วคราว"
+
+msgid "eventName/lowerCase"
+msgstr "ความเกรียงไกรสีเขียว"
+
+msgid "eventName/upperCase"
+msgstr "ความเกรียงไกรสีเขียว"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "รางวัลรับประกันในลังถัดไป!"
+
+msgid "guaranteedTitle/text"
+msgstr "จำนวนลังสูงสุดก่อนที่จะได้รับรางวัลรับประกัน: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "ถ้าคุณยังไม่ได้เปิดหีบก่อนช่วงท้ายกิจกรรม ก็จะทำการเปิดหีบดังกล่าวโดยอัตโนมัติ"
+
+msgid "infoPage/footer/description/compensation"
+msgstr "ถ้าคุณมีพาหนะทั้งหมดจากรายการสิ่งของที่เป็นไปได้ของหีบแล้ว พาหนะคันต่อๆไปที่คุณได้รับจากหีบจะได้รับการชดเชยเป็นทองในจำนวนเต็มราคาของพาหนะนั้นๆ"
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "ทุกๆ %(guaranteed0)s หีบจะรับประกันว่าจะมีพาหนะระดับ VIII-IX ให้หนึ่งคัน ถ้าคุณเปิดกล่องโดยไม่ได้รับพาหนะดังกล่าว ก็จะมีการมอบพาหนะระดับ VIII-IX ที่คุณยังไม่ได้มีครอบครองอยู่เมื่อคุณเปิดหีบที่ %(guaranteed0)s&zwnbsp; และเมื่อได้รับแล้วตัวนับก็จะเริ่มนับใหม่อีกครั้ง"
+
+msgid "infoPage/header/description"
+msgstr "เปิดหีบดังกล่าวเพื่อโอกาสในการได้รับสิ่งของที่มีค่าในเกมกัน! มาดูรายละเอียดกันได้ที่ด้านล่าง"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "จาก %(name) (เปิดไป %(boxesCount) หีบ)"
+
+msgid "noBoxesView/description/"
+msgstr "ถ้าคุณไม่มีหีบใดๆ\nคุณสามารถหามันได้จากร้านค้าในเกม"
+
+msgid "preview/backLabel"
+msgstr "ไปยังหีบ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "มีหีบให้: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "ไม่มีหีบให้"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "ถ้าคุณได้รับพาหนะทั้งหมดจากรายการเนื้อหาที่เป็นไปได้แล้วพาหนะทั้งหมดที่เหลือที่คุณได้รับจากหีบก็จะทำการชดเชยให้เป็นทองแทน"
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) หีบ"
+msgstr[1] "%(remainingCount) หีบ"
+msgstr[2] "%(remainingCount) หีบ"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "รางวัลรับประกันเป็นพาหนะจากรายการของสิ่งของหีบ ที่เป็นไปได้\nถ้าคุณเปิด %(remainingCount) โดยไม่ได้รับหนึ่งในพาหนะดังกล่าว มันจะมอบให้เมื่อคุณเปิดหีบที่ %(count) และเมื่อได้รับพาหนะดังกล่าว ตัวนับจะถูกตั้งใหม่อีกครั้ง"

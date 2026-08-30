@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s，持續時間：%(duration)s"
+
+msgid "info/difficult/1"
+msgstr "「普通」難度"
+
+msgid "info/difficult/2"
+msgstr "「硬核」難度"
+
+msgid "info/difficult/3"
+msgstr "「殘忍」難度"
+
+msgid "info/mapName"
+msgstr "背水一戰 • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "重生次數：{count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "所有我方車輛都被摧毀。"
+
+msgid "ls_finish/reason/10/lose"
+msgstr "您未能阻止零日毀滅者。"
+
+msgid "ls_finish/reason/3/lose"
+msgstr "時間到。"
+
+msgid "ls_finish/reason/5/lose"
+msgstr "所有隊友都已離開戰鬥。"
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "做得好！準備好迎接更艱鉅的任務了嗎？"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "「普通」難度的所有敵人已全數消滅。"
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "表現優異！鮮少有人能達到這個等級。"
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "「殘忍」難度的所有敵人已全數消滅。"
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "做得漂亮！現在該迎接真正的挑戰了。"
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "「硬核」難度的所有敵人已全數消滅。"
+
+msgid "ribbon/ban"
+msgstr "無法接受的表現：掛機或擅離職守。\n未獲得獎勵。"
+
+msgid "ribbon/banRecord"
+msgstr "無法接受的表現：掛機或擅離職守。\n未獲得獎勵。您摧毀波數的紀錄未獲更新。"
+
+msgid "ribbon/noReward"
+msgstr "您的隊伍未能阻擋第一波攻勢。\n未獲得獎勵。"
+
+msgid "status/lose"
+msgstr "戰鬥已結束"
+
+msgid "status/win"
+msgstr "勝利"
+
+msgid "subtitle/lose"
+msgstr "未能阻擋攻勢"
+
+msgid "subtitle/win"
+msgstr "做得好！新數據已收集。"
+
+msgid "teamList/actions"
+msgstr "快捷操作"
+
+msgid "teamList/teammates"
+msgstr "我方"
+
+msgid "time/record"
+msgstr "全新\n紀錄！"
+
+msgid "title/lose/noWaves"
+msgstr "戰鬥已結束"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "已阻擋 %(phaseNumber)s 波"
+msgstr[1] "已阻擋 %(phaseNumber)s 波"
+msgstr[2] "已阻擋 %(phaseNumber)s 波"
+
+msgid "title/win"
+msgstr "已阻擋每一波攻勢"
+
+msgid "tooltip/ban"
+msgstr "無法接受的表現：掛機或擅離職守。您摧毀波數的個人紀錄未獲更新。"

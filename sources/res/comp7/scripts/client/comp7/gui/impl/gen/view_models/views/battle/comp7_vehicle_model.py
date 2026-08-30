@@ -1,0 +1,28 @@
+from gui.impl.gen.view_models.views.lobby.common.vehicle_model import VehicleModel
+
+class Comp7VehicleModel(VehicleModel):
+    __slots__ = ()
+
+    def __init__(self, properties=12, commands=0):
+        super(Comp7VehicleModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getRoleSkill(self):
+        return self._getString(10)
+
+    def setRoleSkill(self, value):
+        self._setString(10, value)
+        return
+
+    def getOriginalVehicleCD(self):
+        return self._getNumber(11)
+
+    def setOriginalVehicleCD(self, value):
+        self._setNumber(11, value)
+        return
+
+    def _initialize(self):
+        super(Comp7VehicleModel, self)._initialize()
+        self._addStringProperty(b'roleSkill', b'')
+        self._addNumberProperty(b'originalVehicleCD', 0)
+        return

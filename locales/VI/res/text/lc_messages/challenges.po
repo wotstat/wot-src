@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "awards_view/additional_reward/title"
+msgstr "Cũng nhận được:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Chuỗi nhiệm vụ này có thể chơi lại được."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "Rõ!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Tắt"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Xem trong Garage"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Chơi lại"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "Đến Crucible"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "Tài khoản Premium WoT"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Xe Premium"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Xe thuê"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "và kiểu mẫu “{{styleName}}”"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) ngày"
+msgstr[1] "%(day) ngày"
+msgstr[2] "%(day) ngày"
+
+msgid "awards_view/title"
+msgstr "HOÀN TẤT CRUCIBLE!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Nhiệm vụ ×5 XP mỗi Trận"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Phân đoạn Bản vẽ: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Phân đoạn bản vẽ phổ dụng"
+
+msgid "bonuses/bpcoin"
+msgstr "Giơ-tông GPQS"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Nhiệm vụ ×3 XP Kíp lái"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Bộ Phụ tùng 3D"
+
+msgid "bonuses/description/booster"
+msgstr "Trợ cấp Cá nhân"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Thiết bị Bao cấp"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Nhân vật kíp lái"
+
+msgid "bonuses/description/directive"
+msgstr "Ứng dụng Kỹ thuật"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Thiết bị Thử nghiệm"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Thiết bị Tiên tiến"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "và kiểu mẫu “%(styleName)s”"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Thiết bị tiêu chuẩn"
+
+msgid "bonuses/description/style"
+msgstr "Kiểu mẫu 2D"
+
+msgid "bonuses/description/style_3d"
+msgstr "Kiểu mẫu 3D"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Thành viên Kíp lái Nữ"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Tân binh"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Thành viên kíp lái"
+
+msgid "condition/achievement"
+msgstr "Đoạt các danh hiệu %(achievement)s"
+
+msgid "condition/achievement/title"
+msgstr "Anh hùng Chiến trận"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Gây ra và hỗ trợ tổng cộng %(goal)s HP thiệt hại"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Gây ra, hứng chịu và chặn tổng cộng %(goal)s HP thiệt hại"
+
+msgid "condition/aggregated/title"
+msgstr "Yêu cầu Phức tạp"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Pháo Chống tăng"
+
+msgid "condition/classes/SPG"
+msgstr "Pháo"
+
+msgid "condition/classes/heavyTank"
+msgstr "Tăng hạng Nặng"
+
+msgid "condition/classes/lightTank"
+msgstr "Tăng hạng Nhẹ"
+
+msgid "condition/classes/mediumTank"
+msgstr "Tăng hạng Trung"
+
+msgid "condition/critsCount"
+msgstr "Gây %(goal)s phát bắn hại nghiêm trọng các mô-đun trong hoặc bên ngoài của xe địch"
+
+msgid "condition/critsCount/title"
+msgstr "Immobilize"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Chặn %(goal)s HP thiệt hại"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Chặn được số thiệt hại nhiều hơn %(goal)s lần lượng HP của xe bạn"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Block"
+
+msgid "condition/damageDealt"
+msgstr "Gây %(goal)s HP thiệt hại cho xe địch"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Gây ra số thiệt hại nhiều hơn %(goal)s lần lượng HP của xe bạn"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "%(goal)s lần bắn trúng xe địch từ khoảng cách %(distance)s m trở xuống"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "%(goal)s lần bắn trúng xe địch từ khoảng cách %(distance)s m trở lên"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "%(goal)s lần sát thương xe địch bằng cách đâm/húc"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "%(goal)s lần bắn trúng xe địch trong tầm nhìn của xe mình"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Gây %(goal)s HP thiệt hại trong vòng %(timeLimit)s phút đầu trận"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Gây %(goal)s HP thiệt hại cho xe địch từ khoảng cách %(distance)s m đổ lại"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Gây %(goal)s HP thiệt hại cho xe địch từ khoảng cách %(distance)s m trở lên"
+
+msgid "condition/damageDealt/ramming"
+msgstr "Gây %(goal)s HP thiệt hại bằng cách đâm/húc"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Ramming"
+
+msgid "condition/damageDealt/title"
+msgstr "Damage"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Gây %(goal)s HP thiệt hại cho xe địch chưa lộ hình"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Gây %(goal)s HP thiệt hại cho xe địch trong tầm nhìn của bạn"
+
+msgid "condition/kills"
+msgstr "Diệt %(goal)s xe địch"
+
+msgid "condition/kills/classes"
+msgstr "Diệt %(goal)s %(vehicleClass)s của địch"
+
+msgid "condition/kills/classesDiversity"
+msgstr "Diệt %(goal)s xe địch thuộc %(classCount)s loại khác nhau"
+
+msgid "condition/kills/title"
+msgstr "Destroy"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Diệt %(goal)s xe địch mà không hứng chịu bất kỳ sát thương nào"
+
+msgid "condition/kills/whileInvisible"
+msgstr "Diệt %(goal)s xe địch trong khi không bị lộ diện"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Gây %(goal)s%% tổng lượng thiệt hại mà phe ta thực hiện"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Damage"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Xuyên giáp địch %(goal)s lần"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Penetration"
+
+msgid "condition/spotted"
+msgstr "Phát hiện %(goal)s xe địch"
+
+msgid "condition/spotted/title"
+msgstr "Spot"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Phát hiện %(goal)s xe địch trong khi không bị lộ diện"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Spot"
+
+msgid "condition/top/damageDealt"
+msgstr "Đứng Top %(rank)s người chơi phe ta về số thiệt hại gây ra"
+
+msgid "condition/top/damageDealt/total"
+msgstr "Đứng Top %(rank)s người chơi cả hai phe về số thiệt hại gây ra"
+
+msgid "condition/top/title"
+msgstr "Top Player"
+
+msgid "condition/top/xp"
+msgstr "Đứng Top %(rank)s người chơi phe ta theo kinh nghiệm kiếm được"
+
+msgid "condition/unknown"
+msgstr "Đang tìm nhiệm vụ phù hợp nhất..."
+
+msgid "condition/unknown/title"
+msgstr "Đang chờ"
+
+msgid "postbattle/name"
+msgstr "CRUCIBLE: "

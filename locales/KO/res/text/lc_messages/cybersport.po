@@ -1,0 +1,689 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CSAnimation/applyBtn/label"
+msgstr "확인"
+
+msgid "CSAnimation/description"
+msgstr "축하합니다! 소속팀이 다음 등급으로 승급했습니다. 훌륭합니다!"
+
+msgid "CSAnimation/header"
+msgstr "등급 변경"
+
+msgid "InvitesAndRequestsWindow/accepted"
+msgstr "수락"
+
+msgid "InvitesAndRequestsWindow/cancelled"
+msgstr "취소"
+
+msgid "InvitesAndRequestsWindow/officerDescription"
+msgstr "팀 구성원—래더팀"
+
+msgid "InvitesAndRequestsWindow/onlyInvitesCheckbox"
+msgstr "초대만 표시"
+
+msgid "InvitesAndRequestsWindow/ownerDescription"
+msgstr "팀 구성원—래더팀"
+
+msgid "InvitesAndRequestsWindow/playerName"
+msgstr "이름"
+
+msgid "InvitesAndRequestsWindow/rejected"
+msgstr "거절"
+
+msgid "InvitesAndRequestsWindow/status"
+msgstr "상태"
+
+msgid "InvitesAndRequestsWindow/title"
+msgstr "발송한 초대장 및 접수된 가입 신청서"
+
+msgid "InvitesAndRequestsWindow/windowTitle"
+msgstr "가입 신청 및 초대"
+
+msgid "StaticFormationStatsView/seasonFilter"
+msgstr "전적 표시:"
+
+msgid "TextLoading/loading"
+msgstr "불러오는 중"
+
+msgid "button/chooseVehicles/info/tooltip/description/notSelected"
+msgstr "선택된 전차가 없습니다. 자동 검색을 시작할 수 없습니다."
+
+msgid "button/chooseVehicles/info/tooltip/description/notValid"
+msgstr "선택된 전차가 준비되지 않았습니다. 자동 검색을 시작할 수 없습니다."
+
+msgid "button/chooseVehicles/info/tooltip/description/valid"
+msgstr "필요 전차가 선택되었습니다. 자동 검색을 시작할 수 있습니다."
+
+msgid "button/chooseVehicles/info/tooltip/title"
+msgstr "전차 선택"
+
+msgid "button/chooseVehicles/selected"
+msgstr "선택 전차"
+
+msgid "button/medallion/addSlotSettings"
+msgstr "추가"
+
+msgid "button/medallion/availableQuantity"
+msgstr "참가 가능"
+
+msgid "button/medallion/chooseVehicle"
+msgstr "전차 선택"
+
+msgid "introView/leftBlock/btnLabel"
+msgstr "검색"
+
+msgid "introView/leftBlock/descr"
+msgstr "기존 팀 목록 중 적합한 팀을 선택하십시오. 팀장이 설정한 조건을 만족해야 합니다."
+
+msgid "introView/leftBlock/header"
+msgstr "팀 검색"
+
+msgid "introView/rightBlock/btnLabel"
+msgstr "결성"
+
+msgid "introView/rightBlock/descr"
+msgstr "친구 또는 적합한 전차를 보유한 플레이어와 함께 팀을 결성하십시오."
+
+msgid "introView/rightBlock/header"
+msgstr "팀 결성"
+
+msgid "rallyInfo/profileBtn/Label"
+msgstr "팀 프로필"
+
+msgid "respawn/chatHeader"
+msgstr "대화 채널"
+
+msgid "respawn/enemyTeamStatus/Header"
+msgstr "적팀:"
+
+msgid "respawn/enemyTeamStatus/notReady"
+msgstr "준비 취소"
+
+msgid "respawn/enemyTeamStatus/ready"
+msgstr "준비 완료!"
+
+msgid "respawn/fight/label"
+msgstr "팀 준비 완료!"
+
+msgid "respawn/fight/status/commander"
+msgstr "팀 전투 준비가 완료되었습니다."
+
+msgid "respawn/fight/status/private"
+msgstr "전투 대기 중..."
+
+msgid "respawn/status/info"
+msgstr "시간 내에 전차를 선택하십시오."
+
+msgid "respawn/status/ready"
+msgstr "전투 시작 대기 중..."
+
+msgid "respawn/status/warning"
+msgstr "준비를 완료합니다."
+
+msgid "respawn/team/points"
+msgstr "전차 총 단계:"
+
+msgid "respawn/team/teamMembers"
+msgstr "팀 구성원: %(current)s / %(max)s"
+
+msgid "respawn/team/teamVehiclesStub"
+msgstr "전차: 6~8단계"
+
+msgid "selectedFormation/JoinUnitSection/header"
+msgstr "선택한 전투"
+
+msgid "squadWindow/waitingForBattle"
+msgstr "소대 전투 대기 중"
+
+msgid "unitView/header"
+msgstr "전투"
+
+msgid "window/autoSearch/confirmation/cancelLbl"
+msgstr "취소"
+
+msgid "window/autoSearch/confirmation/ctxMessage"
+msgstr "승인까지 남은 시간:"
+
+msgid "window/autoSearch/confirmation/ctxSeconds"
+msgstr "초"
+
+msgid "window/autoSearch/confirmation/headerText"
+msgstr "팀 검색 완료"
+
+msgid "window/autoSearch/confirmation/mainText"
+msgstr "준비 확인"
+
+msgid "window/autoSearch/confirmation/submitlLbl"
+msgstr "준비 완료!"
+
+msgid "window/autoSearch/errorState/cancelLbl"
+msgstr "취소"
+
+msgid "window/autoSearch/errorState/ctxMessage"
+msgstr "새로운 팀을 검색하시겠습니까?"
+
+msgid "window/autoSearch/errorState/headerText"
+msgstr "시간 경과"
+
+msgid "window/autoSearch/errorState/mainText"
+msgstr "팀을 찾았지만,\n준비 완료 상태가 아닙니다."
+
+msgid "window/autoSearch/errorState/submitlLbl"
+msgstr "검색"
+
+msgid "window/autoSearch/searchCommand/cancelLbl"
+msgstr "취소"
+
+msgid "window/autoSearch/searchCommand/ctxMessage"
+msgstr "평균 대기 시간:"
+
+msgid "window/autoSearch/searchCommand/cxtDnmMessage"
+msgstr "%d분"
+
+msgid "window/autoSearch/searchCommand/mainText"
+msgstr "팀 검색 중"
+
+msgid "window/autoSearch/searchEnemy/mainText"
+msgstr "전투 대기 중..."
+
+msgid "window/autoSearch/searchEnemyRespawn/mainText"
+msgstr "적군 대기 중..."
+
+msgid "window/autoSearch/waitingPlayers/mainText"
+msgstr "플레이어 대기 중..."
+
+msgid "window/backBtnLbl"
+msgstr "뒤로"
+
+msgid "window/intro/auto/btn"
+msgstr "자동 검색"
+
+msgid "window/intro/auto/btn/tooltip/description/disabled"
+msgstr "팀을 찾을 수 없습니다.전차가 선택되지 않았거나 전투 준비가 되지 않았습니다."
+
+msgid "window/intro/auto/btn/tooltip/description/enabled"
+msgstr "자동으로 팀을 검색하여 전투에 참여합니다."
+
+msgid "window/intro/auto/btn/tooltip/title"
+msgstr "자동 검색"
+
+msgid "window/intro/auto/btnLbl"
+msgstr "자동 검색 시작"
+
+msgid "window/intro/auto/description"
+msgstr "자동으로 팀을 검색합니다."
+
+msgid "window/intro/auto/title"
+msgstr "전투 검색"
+
+msgid "window/intro/auto/vehicleLbl"
+msgstr "선택 전차:"
+
+msgid "window/intro/create/btn/addPlayers"
+msgstr "초대"
+
+msgid "window/intro/create/btn/assembleTeam"
+msgstr "팀 구성"
+
+msgid "window/intro/create/btn/joinTeam"
+msgstr "참여"
+
+msgid "window/intro/create/btn/look"
+msgstr "팀 목록"
+
+msgid "window/intro/create/btn/private/seeStaff"
+msgstr "팀 구성원"
+
+msgid "window/intro/description"
+msgstr "전투 참여 팀은 7명으로 구성됩니다.\n전차 단계 제한: 6~8단계 / 단계 총합 제한: 54단계"
+
+msgid "window/intro/search/btn"
+msgstr "검색"
+
+msgid "window/intro/search/description"
+msgstr "기존 팀 목록 중 적합한 팀을 선택하십시오. 팀장이 설정한 조건을 만족해야 합니다."
+
+msgid "window/intro/search/title"
+msgstr "팀 검색"
+
+msgid "window/intro/team/description/createBattleRoom"
+msgstr "전투 생성"
+
+msgid "window/intro/title"
+msgstr "팀 전투"
+
+msgid "window/intro/unavailableWaiting"
+msgstr "대기 중..."
+
+msgid "window/rosterSlotSettings/bottomResult"
+msgstr "선택:"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/range"
+msgstr "범위"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/vehicle"
+msgstr "전차"
+
+msgid "window/rosterSlotSettings/title"
+msgstr "조건 설정"
+
+msgid "window/rosterSlotSettings/vehicleTab/cancelBtn"
+msgstr "취소"
+
+msgid "window/rosterSlotSettings/vehicleTab/headerText"
+msgstr "팀에 필요한 전차 조건을 정확히 입력하십시오."
+
+msgid "window/rosterSlotSettings/vehicleTab/nationFieldSet"
+msgstr "국가"
+
+msgid "window/rosterSlotSettings/vehicleTab/submitBtn"
+msgstr "선택"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleLevel"
+msgstr "전차 단계"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleType"
+msgstr "전차 유형"
+
+msgid "window/staticRallyInfo/cancelBtnLabel"
+msgstr "취소"
+
+msgid "window/staticRallyInfo/joinBtnLabel"
+msgstr "가입 신청서 제출"
+
+msgid "window/staticRallyInfo/joinInfo/alreadyJoined"
+msgstr "이미 소속팀이 있습니다."
+
+msgid "window/staticRallyInfo/joinInfo/applicationCooldown"
+msgstr "신청서를 제출할 수 없습니다."
+
+msgid "window/staticRallyInfo/joinInfo/inProcess"
+msgstr "가입 신청서 승인 대기 중"
+
+msgid "window/staticRallyInfo/joinInfo/inProcessOther"
+msgstr "가입 신청서를 이미 제출했습니다."
+
+msgid "window/staticRallyInfo/joinInfo/join"
+msgstr "가입 신청서 제출"
+
+msgid "window/staticRallyInfo/ladderInfo"
+msgstr "래더 %(league)s / 등급 %(division)s"
+
+msgid "window/staticRallyInfo/noAwards"
+msgstr "업적 없음"
+
+msgid "window/staticRallyInfo/noRallySelected"
+msgstr "왼쪽 목록에서 팀을 선택하여\n자세한 내용을 확인하십시오."
+
+msgid "window/staticRallyInfo/staticRally/statsWinsPercent"
+msgstr "승률"
+
+msgid "window/staticRallyInfo/statsBattlesCount"
+msgstr "전투"
+
+msgid "window/title"
+msgstr "팀 전투"
+
+msgid "window/unit/applySlotsSettings"
+msgstr "확인"
+
+msgid "window/unit/autoRecruit"
+msgstr "모집"
+
+msgid "window/unit/cancelSlotSettings"
+msgstr "취소"
+
+msgid "window/unit/candidates"
+msgstr "대기 명단"
+
+msgid "window/unit/candidates/legionaries"
+msgstr "용병"
+
+msgid "window/unit/candidates/team"
+msgstr "팀"
+
+msgid "window/unit/chat"
+msgstr "대화 채널"
+
+msgid "window/unit/closeRoom"
+msgstr "— 비공개"
+
+msgid "window/unit/description"
+msgstr "전투 참여 팀은 7명으로 구성됩니다.\n전차 단계 제한: 6~8단계 / 단계 총합 제한: 54단계"
+
+msgid "window/unit/descriptionDefault"
+msgstr "설명 작성 —"
+
+msgid "window/unit/fight"
+msgstr "전투 시작!"
+
+msgid "window/unit/inviteFriend"
+msgstr "초대"
+
+msgid "window/unit/leave"
+msgstr "전투 종료"
+
+msgid "window/unit/lockSlot"
+msgstr "슬롯 잠금"
+
+msgid "window/unit/message/candidate"
+msgstr "팀장이 플레이어를 팀에 추가합니다."
+
+msgid "window/unit/message/curfew"
+msgstr "휴전"
+
+msgid "window/unit/message/falloutGroupNotReady"
+msgstr "전차 전투 준비 대기"
+
+msgid "window/unit/message/falloutLevel"
+msgstr "%(level)s단계 전차 선택"
+
+msgid "window/unit/message/falloutMin/levelRange"
+msgstr "그룹에 %(level)s단계 전차 추가"
+
+msgid "window/unit/message/falloutMin/requiredLevel"
+msgstr "%(level)s단계 전차 선택"
+
+msgid "window/unit/message/fortificationNotAvailable"
+msgstr "요새 전투 이용 불가"
+
+msgid "window/unit/message/getNotReady"
+msgstr "전투 준비를 취소합니다."
+
+msgid "window/unit/message/getReady"
+msgstr "전투 준비를 완료합니다."
+
+msgid "window/unit/message/has_frozen_vehicles"
+msgstr "원정군에 파괴된 전차 포함"
+
+msgid "window/unit/message/in_players_matching"
+msgstr "원정군 준비 완료: 용병 자동 모집 중…"
+
+msgid "window/unit/message/inactivePeriphery"
+msgstr " "
+
+msgid "window/unit/message/inactivePeripheryBattle"
+msgstr "원정 시작 10분 전에 준비를 완료해야 합니다."
+
+msgid "window/unit/message/inactivePeripherySortie"
+msgstr "쟁탈전 시작 10분 전에 준비를 완료해야 합니다."
+
+msgid "window/unit/message/invalidLevelError/6"
+msgstr "6단계 전차는 팀당 한 대만 참여할 수 있습니다."
+
+msgid "window/unit/message/invalidLevelError/6_7"
+msgstr "한 팀에 6단계와 7단계 전차가 함께 참여할 수 없습니다."
+
+msgid "window/unit/message/invalidLevelError/7"
+msgstr "7단계 전차는 팀당 두 대만 참여할 수 있습니다."
+
+msgid "window/unit/message/invalidLevelError/unresolved"
+msgstr "전차 단계 조건이 일치하지 않습니다."
+
+msgid "window/unit/message/level"
+msgstr "전차 단계가 부족합니다. 필요: %(level)d"
+
+msgid "window/unit/message/maintenance"
+msgstr "이용 불가 모드"
+
+msgid "window/unit/message/minSlots"
+msgstr "인원 부족"
+
+msgid "window/unit/message/play_limits_is_active"
+msgstr "허용된 접속 시간이 초과되었습니다. 새로운 전투에 참가할 수 없습니다."
+
+msgid "window/unit/message/previewVehicleIsPresent"
+msgstr "전차를 선택하려면 차고로 복귀"
+
+msgid "window/unit/message/ready"
+msgstr "원정군 준비 완료: 상대 검색 중..."
+
+msgid "window/unit/message/squadInBattle"
+msgstr "전투 중 소대"
+
+msgid "window/unit/message/takeSlotInRoster"
+msgstr "원정군 참여"
+
+msgid "window/unit/message/unitIsFull"
+msgstr "팀장이 플레이어를 팀에 추가합니다."
+
+msgid "window/unit/message/unitIsLocked"
+msgstr "팀 구성원이 아닙니다. 슬롯이 잠깁니다."
+
+msgid "window/unit/message/vehicleInNotReady/broken"
+msgstr "전차 전투 준비 대기: 수리 필요"
+
+msgid "window/unit/message/vehicleInNotReady/crewNotFull"
+msgstr "전차 전투 준비 대기: 승무원 부족"
+
+msgid "window/unit/message/vehicleInNotReady/isInBattle"
+msgstr "전투 중"
+
+msgid "window/unit/message/vehicleInNotReady/notEnoughVehicles"
+msgstr "적합한 전차 부족"
+
+msgid "window/unit/message/vehicleInNotReady/rentIsOver"
+msgstr "전차 전투 준비 대기: 기간 만료"
+
+msgid "window/unit/message/vehicleInNotReady/rotationGroupLocked"
+msgstr "전차 준비 대기: %(groupNum)s 그룹 잠김"
+
+msgid "window/unit/message/vehicleInNotReady/wrongMode"
+msgstr "해당 모드에서 사용할 수 없는 전차를 선택했습니다."
+
+msgid "window/unit/message/vehicleInNotReady/wrongUnitData"
+msgstr "선택한 전차와 소대장이 설정한 매개 변수 불일치"
+
+msgid "window/unit/message/vehicleNotSelected"
+msgstr "전투에 참여할 전차를 선택하십시오."
+
+msgid "window/unit/message/vehicleNotValid"
+msgstr "해당 전차는 전투 준비가 되지 않았습니다."
+
+msgid "window/unit/message/vehicleNotValidForEvent"
+msgstr "선택한 전차는 해당 이벤트에서 운용할 수 없는 전차입니다."
+
+msgid "window/unit/message/waitCommander"
+msgstr "팀장 결정 대기 중..."
+
+msgid "window/unit/message/waiting"
+msgstr "팀 준비 대기 중"
+
+msgid "window/unit/notReady"
+msgstr "준비 취소"
+
+msgid "window/unit/openRoom"
+msgstr "— 공개"
+
+msgid "window/unit/rangeValue"
+msgstr "%(minVal)s – %(maxVal)s"
+
+msgid "window/unit/ready"
+msgstr "준비 완료!"
+
+msgid "window/unit/rosterSettingsView/or"
+msgstr "또는"
+
+msgid "window/unit/slot/battleRoyale"
+msgstr "1명 부족"
+
+msgid "window/unit/slot/emptySlot"
+msgstr "빈 슬롯"
+
+msgid "window/unit/slot/freezed"
+msgstr "잠김"
+
+msgid "window/unit/slot/locked"
+msgstr "잠김"
+
+msgid "window/unit/slot/notAllowed"
+msgstr "잠김"
+
+msgid "window/unit/slot/notAvailable"
+msgstr "잠김"
+
+msgid "window/unit/slot/required"
+msgstr "플레이어를 초대하십시오."
+
+msgid "window/unit/slot/takePlace"
+msgstr "참가"
+
+msgid "window/unit/slotHeaderText"
+msgstr "조건 설정"
+
+msgid "window/unit/slotSecondText"
+msgstr "팀에 필요한 전차 조건을 추가하십시오. 팀에 새로운 플레이어를 추가하면 해당 전차 조건은 적용되지 않습니다."
+
+msgid "window/unit/team"
+msgstr "팀"
+
+msgid "window/unit/teamMembers"
+msgstr "슬롯: %(current)s / %(max)s"
+
+msgid "window/unit/teamPoints"
+msgstr "총 단계:"
+
+msgid "window/unit/teamVehicles"
+msgstr "전차:"
+
+msgid "window/unit/teamVehiclesLbl"
+msgstr "전차: %(levelsRange)s"
+
+msgid "window/unit/teamVehiclesStub"
+msgstr "전차: 6~8단계"
+
+msgid "window/unit/unitListView/captain"
+msgstr "팀장"
+
+msgid "window/unit/unitListView/clubName"
+msgstr "팀 이름"
+
+msgid "window/unit/unitListView/commander"
+msgstr "지휘관"
+
+msgid "window/unit/unitListView/description"
+msgstr "설명"
+
+msgid "window/unit/unitListView/paginationDown"
+msgstr "낮은순"
+
+msgid "window/unit/unitListView/paginationUp"
+msgstr "높은순"
+
+msgid "window/unit/unitListView/players"
+msgstr "구성원"
+
+msgid "window/unit/unitName"
+msgstr "%(commanderName)s 팀"
+
+msgid "window/unit/unlockSlot"
+msgstr "슬롯 해제"
+
+msgid "window/unitListView/create/btn"
+msgstr "방 생성"
+
+msgid "window/unitListView/enterBtn/common"
+msgstr "지원병"
+
+msgid "window/unitListView/enterBtn/legionary"
+msgstr "참여"
+
+msgid "window/unitListView/enterBtn/member"
+msgstr "참여"
+
+msgid "window/unitListView/enterText/legionary"
+msgstr "용병으로 참여"
+
+msgid "window/unitListView/enterText/member"
+msgstr "팀 참여"
+
+msgid "window/unitListView/foundTeamsDescription"
+msgstr "플레이어 검색 중인 팀 목록입니다."
+
+msgid "window/unitListView/noItems"
+msgstr "검색 결과가 없습니다."
+
+msgid "window/unitListView/noSearchResults/btn"
+msgstr "목록으로 돌아가기"
+
+msgid "window/unitListView/noSearchResults/description"
+msgstr "검색 결과가 없습니다."
+
+msgid "window/unitListView/noSearchResults/header"
+msgstr "검색 결과 없음"
+
+msgid "window/unitListView/noTeams/description"
+msgstr "검색 결과가 없습니다. 나중에 다시 시도하십시오."
+
+msgid "window/unitListView/noTeams/header"
+msgstr "팀 검색 결과 없음"
+
+msgid "window/unitListView/noUnitSelected"
+msgstr "왼쪽 목록에서 팀을 선택하여\n자세한 내용을 확인하십시오."
+
+msgid "window/unitListView/refreshList"
+msgstr "목록 갱신"
+
+msgid "window/unitListView/renderer/next"
+msgstr "다음"
+
+msgid "window/unitListView/renderer/previous"
+msgstr "이전"
+
+msgid "window/unitListView/renderer/requiredVehicles"
+msgstr "가능한 전차"
+
+msgid "window/unitListView/renderer/showMore"
+msgstr "20개 더 보기"
+
+msgid "window/unitListView/selectedTeam"
+msgstr "팀"
+
+msgid "window/unitListView/sort/label"
+msgstr "성적:"
+
+msgid "window/unitListView/team"
+msgstr "구성원"
+
+msgid "window/unitListView/teamDescription"
+msgstr "팀 설명"
+
+msgid "window/unitListView/title"
+msgstr "전투"
+
+msgid "window/unitListView/vehicles"
+msgstr "전차"
+
+msgid "window/vehicleSelector/buttons/cancel"
+msgstr "취소"
+
+msgid "window/vehicleSelector/buttons/select"
+msgstr "선택"
+
+msgid "window/vehicleSelector/filters/all"
+msgstr "전체"
+
+msgid "window/vehicleSelector/filters/allLevels"
+msgstr "모든 단계"
+
+msgid "window/vehicleSelector/filters/level"
+msgstr "%(levelNum)d 단계"
+
+msgid "window/vehicleSelector/filters/matches"
+msgstr "선택할 수 있는 전차만 표시"
+
+msgid "window/vehicleSelector/info/intro"
+msgstr "선택한 전차 중 하나로 전투에 참여합니다. 선택할 수 있는 전차: 6~8단계\n\n경전차, 중형전차, 중전차 중 한 대를 선택하십시오."
+
+msgid "window/vehicleSelector/info/respawn"
+msgstr "6~8단계 전차 중 한 대를 선택하십시오."
+
+msgid "window/vehicleSelector/info/search"
+msgstr "선택한 전차 중 하나로 전투에 참여합니다. 선택할 수 있는 전차: 6~8단계"
+
+msgid "window/vehicleSelector/info/unit"
+msgstr "6~8단계 전차 중 한 대를 선택하십시오."
+
+msgid "window/vehicleSelector/title"
+msgstr "전차 선택"

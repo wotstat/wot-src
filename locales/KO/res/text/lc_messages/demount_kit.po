@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "장비 해체"
+
+msgid "demountKit/gained/count"
+msgstr "장비 해체 도구 (x%(count)s)"
+
+msgid "demountKit/sell/header"
+msgstr "판매"
+
+msgid "demountKit/sell_success"
+msgstr "소모품 \"장비 해체 도구\" (%(count)s개). 크레딧 획득: %(count)s"
+
+msgid "demountKit/tooltip/description/common"
+msgstr "장비를 1개 해체합니다."
+
+msgid "dialogue/description/common"
+msgstr "일반 장비 또는 포상 장비를 1개 해체합니다."
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "현재 할인 중이므로 낮은 가격에 구매할 수 있습니다."
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "장비 보관소 이동"
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "주의! 현재 전차 유형에 따라 해당 장비의 급수가 변경되었습니다.\n해당 장비는 무료로 해체할 수 있지만, 해체 시 해당 전차에 다시 장착할 수 {red_Open}없습니다{red_Close}."
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "\"%(equipment)s\" 장비를 해체하시겠습니까?"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "새로운 장비를 장착할 수 있도록 %(equipment)s 장비를 해체하시겠습니까?"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "전투 또는 게임 이벤트를 통해 획득할 수 있습니다."
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "전쟁 채권 부족"
+
+msgid "equipmentDemount/optionFree"
+msgstr "무료"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WoT 플러스"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "취소"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "대체 구성에 장착된 복제 장비는 무료로 해체할 수 있습니다."
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "해체"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "%(equipment)s 장비를 해당 슬롯에서 해체하시겠습니까?"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "새로운 장비를 장착할 수 있도록 %(equipment)s 장비를 해체하시겠습니까?"
+
+msgid "equipmentDemountPrice"
+msgstr "해체 비용:"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> 또는 %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s 또는 %(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s, %(countDK)s <br /> 또는 %(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "%(count)s 사용 시 판매 또는 다른 전차에 장착할 수 있는 상태로 장비를 해체할 수 있으며 장비를 파괴하여 비용 없이 해체할 수도 있습니다."
+
+msgid "shop/DemountOptions/common"
+msgstr "%(count)s 또는 %(iconDK)s 사용 시 판매 또는 다른 전차에 장착할 수 있는 상태로 장비를 해체할 수 있으며 장비를 파괴하여 비용 없이 해체할 수도 있습니다."
+
+msgid "storage/description/common"
+msgstr "일반 장비 또는 포상 장비를 해체합니다. 사용 시 소모됩니다."
+
+msgid "storage/userName/common"
+msgstr "장비 해체 도구"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "할인: %(actionPrc)s, 기존 가격: %(oldPrice)s"
+
+msgid "userName/common"
+msgstr "장비 해체 도구"

@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "closeButtonLabel"
+msgstr "关闭"
+
+msgid "featureName"
+msgstr "回放"
+
+msgid "filter/apply"
+msgstr "应用过滤器"
+
+msgid "filter/group/nation/title"
+msgstr "国家"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "等级"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "等级"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "专业"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "战车类型"
+
+msgid "filter/reset"
+msgstr "重置过滤器"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "显示/隐藏此国家的乘员。"
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "显示/隐藏此国家的皮肤。"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "显示/隐藏此国家的战车。"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "显示/隐藏此类型的战车。"
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "自行火炮"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "重型坦克"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "轻型坦克"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "中型坦克"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "未找到符合\n搜索条件的战车"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "按战车名称排序。"
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "名称"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "按战车等级排序。"
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "等级"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "按战车类型排序。"
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "类型"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "名称"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "点击应用过滤器设置。"
+
+msgid "filterPanel/counter/apply/header"
+msgstr "应用所选过滤器"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "点击重置过滤器设置。"
+
+msgid "filterPanel/counter/reset/header"
+msgstr "重置所有过滤器"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "只显示黄金时段的回放"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "前%(count)s天"
+msgstr[1] "前%(count)s天"
+msgstr[2] "前%(count)s天"
+
+msgid "filterPopover/title"
+msgstr "回放过滤器"
+
+msgid "filterPopover/tooltip/body"
+msgstr "按战车类型、等级、国家等条件设置回放过滤器"
+
+msgid "filterPopover/tooltip/header"
+msgstr "按参数过滤"
+
+msgid "findReplay/buttonText/find"
+msgstr "查找回放"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "清空输入内容"
+
+msgid "findReplay/buttonText/watch"
+msgstr "观看回放！"
+
+msgid "findReplay/errorMessage"
+msgstr "没有找到相关内容。请更改您的请求。"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "请在此处输入ARENA_ID..."
+
+msgid "findReplay/successMessage"
+msgstr "AI已找到您感兴趣的回放！尽情观看吧"
+
+msgid "page/heading/bestReplays"
+msgstr "最佳回放"
+
+msgid "page/heading/findReplay"
+msgstr "查找回放（开发者专用）"
+
+msgid "page/heading/myReplays"
+msgstr "我的回放"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "此版块包含《坦克世界》所有玩家最佳比赛回放的相关信息"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "此版块可按参数查找回放"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "此版块包含您的最佳回放的相关信息"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "最佳回放"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "查找回放"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "我的回放"
+
+msgid "statsParam/damageAssisted"
+msgstr "协助摧毁排名第一"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "抵挡伤害排名第一"
+
+msgid "statsParam/damageDealt"
+msgstr "造成伤害排名第一"
+
+msgid "statsParam/earnedXp"
+msgstr "获取经验排名第一"
+
+msgid "statsParam/kills"
+msgstr "摧毁战车数排名第一"
+
+msgid "table/error/buttonText"
+msgstr "更新"
+
+msgid "table/error/description"
+msgstr "我们对给您造成的不便表示抱歉。请稍后尝试重新刷新页面。"
+
+msgid "table/error/title"
+msgstr "加载数据时出错"
+
+msgid "table/header/damageAssisted"
+msgstr "协助伤害"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "抵挡伤害"
+
+msgid "table/header/damageDealt"
+msgstr "造成伤害"
+
+msgid "table/header/date"
+msgstr "日期"
+
+msgid "table/header/earnedXp"
+msgstr "获得经验"
+
+msgid "table/header/kills"
+msgstr "摧毁战车数"
+
+msgid "table/header/map"
+msgstr "地图"
+
+msgid "table/header/marksOfMastery"
+msgstr "精通徽章"
+
+msgid "table/header/player"
+msgstr "玩家名称"
+
+msgid "table/header/vehicle"
+msgstr "战车"
+
+msgid "table/noRecords/buttonText"
+msgstr "重置过滤器"
+
+msgid "table/noRecords/title"
+msgstr "未找到结果。请更改设置或重置过滤器。"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "点击重置过滤器设置。"
+
+msgid "table/noRecords/tooltip/header"
+msgstr "重置所有过滤器"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "此回放中玩家协助造成的伤害量"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "协助伤害"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "此回放中玩家抵挡的伤害量"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "装甲抵挡伤害"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "此回放中玩家造成的伤害量"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "造成伤害"
+
+msgid "table/tooltip/date/body"
+msgstr "回放的录制日期。"
+
+msgid "table/tooltip/date/header"
+msgstr "回放日期"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "此回放中玩家获得的经验量"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "获得经验"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "此回放中玩家获得的史诗勋章"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "史诗勋章"
+
+msgid "table/tooltip/favorite/body"
+msgstr "点击将此回放添加至最爱回放。"
+
+msgid "table/tooltip/favorite/header"
+msgstr "最爱"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "点击将此回放移出最爱回放。"
+
+msgid "table/tooltip/kills/body"
+msgstr "此回放中玩家摧毁的战车数"
+
+msgid "table/tooltip/kills/header"
+msgstr "摧毁数"
+
+msgid "table/tooltip/map/body"
+msgstr "回放地图。"
+
+msgid "table/tooltip/map/header"
+msgstr "地图"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "此回放中玩家获得的重要勋章"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "精通徽章"
+
+msgid "table/tooltip/player/body"
+msgstr "回放中的玩家名称。"
+
+msgid "table/tooltip/player/header"
+msgstr "玩家名称"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "录制回放时玩家使用的战车。"
+
+msgid "table/tooltip/vehicle/header"
+msgstr "战车"
+
+msgid "tableInfo/amount"
+msgstr "已显示回放：%(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "过滤器"
+
+msgid "waitingSpinner/message"
+msgstr "正在加载内容…"

@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "Tất cả"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "Trận này thỏa mãn hơn, cân bằng, hoặc thú vị hơn thường."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "Tốt hơn bình thường"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "Trận bình thường — không gì bất ngờ."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "Bình thường"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "Trận này trầm cảm hơn, bất cân, hoặc thiếu công bằng hơn thường."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "Tệ hơn bình thường"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "TỐT HƠN BÌNH THƯỜNG"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "đánh giá trận đấu:"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "BÌNH THƯỜNG"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "TỆ HƠN BÌNH THƯỜNG"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "Sắp xếp theo Điểm Thanh thế."
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "Điểm Thanh thế"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "Tổng quan"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "Báo cáo Tài chính"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "Tiến độ Nhiệm vụ"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "Điểm Đội"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "Sắp xếp theo Điểm Thanh thế. Điểm Thanh thế chịu ảnh hưởng từ số Điểm Xếp hạng thu về và bị mất sau một trận."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "Điểm Thanh thế"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "Phe ta:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "Phòng thủ căn cứ"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "Chiếm căn cứ:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "Căn cứ"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "Chiếm căn cứ"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "Căn cứ trung lập"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "Bạn đã không làm gì trong trận này."
+
+msgid "common/battleEfficiency/none"
+msgstr "Không phát hiện hay tiêu diệt được xe địch nào."
+
+msgid "common/battleEfficiency/technique"
+msgstr "Xe"
+
+msgid "common/battleEfficiency/title"
+msgstr "Hiệu suất Chiến đấu"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "HIỆU SUẤT CHIẾN ĐẤU"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "Hiệu suất Chiến đấu (kể cả Kỹ Chiến lược đã dùng)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "Hiệu suất Chiến đấu (Không Tính Quân Dự Bị Chiến Đấu)"
+
+msgid "common/battleType/sortie"
+msgstr "Tranh chấp với Clan "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "Kỹ năng mới"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "Mua Tài khoản Premium"
+
+msgid "common/details/creditsTitle"
+msgstr "Bạc"
+
+msgid "common/details/crystal"
+msgstr "Trái phiếu"
+
+msgid "common/details/getPremBtn"
+msgstr "Chi tiết"
+
+msgid "common/details/noPremTitle"
+msgstr "Tài khoản Thường"
+
+msgid "common/details/premTitle"
+msgstr "Premium WoT"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}Áp dụng hệ số x{{multiplier}} XP cho trận thắng tùy ý chọn với Tài khoản Premium WoT.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}Nhận lên đến {{bonusCredits}} mỗi {{@ style}}{{durationInDays}} ngày{{/}} với Tài khoản Premium WoT.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "Áp dụng hệ số x%(multiplier)d XP cho trận thắng tùy ý với Tài khoản Premium WoT."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "Nhận lên đến %(bonusCredits)s mỗi %(durationInDays)d ngày với Tài khoản Premium WoT."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "Thêm XP, bạc, nhiệm vụ Premium và lợi ích Trung đội với Tài khoản Premium WoT."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "Mở khóa các nhiệm vụ đặc biệt với Tài khoản Premium WoT."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "Kiếm thêm bạc khi chơi theo Trung đội với Tài khoản Premium WoT."
+
+msgid "common/details/xpTitle"
+msgstr "Kinh nghiệm"
+
+msgid "common/details/xpTitleSquad"
+msgstr "Kinh nghiệm %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "Mua mô-đun"
+
+msgid "common/fitting/research"
+msgstr "Nghiên cứu mô-đun"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "Hiệp đấu chính:"
+
+msgid "common/missions/noProgress/button"
+msgstr "Đến Nhiệm vụ"
+
+msgid "common/missions/noProgress/description"
+msgstr "Xem tiến trình nhiệm vụ hiện tại"
+
+msgid "common/missions/noProgress/header"
+msgstr "Không có tiến triển nhiệm vụ hay nghiên cứu xe."
+
+msgid "common/newSkillPrediction"
+msgstr "Số trận còn lại (xấp xỉ): %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "Sau khi đánh đủ 10 trận, bạn sẽ không kiếm được bạc, kinh nghiệm hay danh hiệu nào ở chế độ này nữa; đồng thời, kết quả chiến đấu đó cũng sẽ không lưu vào Bảng Thành tích."
+
+msgid "common/noIncome/alert/title"
+msgstr "Chú ý!"
+
+msgid "common/noProgress"
+msgstr "Không có tiến triển gì trong quá trình thực hiện nhiệm vụ, nghiên cứu xe và đào tạo kíp lái."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "Hiệp đấu phụ:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "Mở khóa thêm với "
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "Hôm nay bạn kiếm được:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "Bạn đã kiếm được %(count)s XP hôm nay"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "Mở khóa với WoT Plus hoặc WoT Premium"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT Plus"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "WoT Premium"
+
+msgid "common/plusBonus/youRock"
+msgstr "Kinh đấy!"
+
+msgid "common/premiumBonus"
+msgstr "Muốn kiếm thêm?"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "Lợi ích đã được áp dụng thành công"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "Áp dụng"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "Còn lại hôm nay: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "Hệ số Nhân XP Linh động"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "Muốn kiếm thêm?"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "Phải được áp dụng cho trận gần nhất theo cùng một xe."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "Không thể áp dụng lợi ích: Đã tắt tăng tốc đào tạo kíp lái."
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}Không thể áp dụng lợi ích: Đã {{@ style}}tắt tăng tốc đào tạo kíp lái.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "Không thể áp dụng lợi ích: Đã bật tăng tốc đào tạo kíp lái."
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}Không thể áp dụng lợi ích: Đã {{@ style}}bật tăng tốc đào tạo kíp lái.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "Hệ số nhân chỉ có thể áp dụng khi thắng. Chúc may mắn lần sau!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "Không thể áp dụng lợi ích linh động: Không tìm thấy xe."
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}Không thể áp dụng lợi ích linh động: Không tìm thấy {{@ style}}xe.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "Không thể áp dụng lợi ích linh động: Không tìm thấy kíp lái."
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}Không thể áp dụng lợi ích linh động: Không tìm thấy {{@ style}}kíp lái.{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "Hệ số nhân không khả dụng ở chế độ game này."
+
+msgid "common/progressTitle"
+msgstr "Nghiên cứu Xe và Tiến trình Nhiệm vụ"
+
+msgid "common/quests/noprogress"
+msgstr "Không có tiến triển gì trong quá trình hoàn tất nhiệm vụ."
+
+msgid "common/researchPrediction"
+msgstr "Số trận còn lại (xấp xỉ): %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "Lấy Liên kết"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "Được tính:\n• Nảy văng đạn địch\n• Trúng-không xuyên\n\nKhông tính những phát bị bắn trúng bằng đạn HE và HESH."
+
+msgid "common/tooltip/armor/header"
+msgstr "Sử dụng Giáp"
+
+msgid "common/tooltip/armor/part1"
+msgstr "Nảy ra"
+
+msgid "common/tooltip/armor/part2"
+msgstr "Không xuyên"
+
+msgid "common/tooltip/armor/part3"
+msgstr "Thiệt hại chặn bởi giáp xe %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "Các loại thiệt hại mà đồng đội gây ra cho xe địch dưới đây sẽ được tính:\n• Thiệt hại gây ra nhờ bạn phát hiện\n• Thiệt hại gây ra nhờ bạn phá xích và làm bất động phương tiện đối phương"
+
+msgid "common/tooltip/assist/header"
+msgstr "Hỗ trợ tiêu diệt"
+
+msgid "common/tooltip/assist/part1"
+msgstr "Thiệt hại gây ra nhờ bạn phát hiện %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "Thiệt hại gây ra nhờ bạn phá xích và làm bất động xe địch %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "Tổng thiệt hại đồng đội gây ra cho xe địch %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "Được tính:\n• Điểm chiếm căn cứ địch\n• Điểm chiếm căn cứ trung lập"
+
+msgid "common/tooltip/capture/header"
+msgstr "Chiếm căn cứ"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "Tổng điểm chiếm căn cứ"
+
+msgid "common/tooltip/counter"
+msgstr "Tổng số huy hiệu nhận được trong trận: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "Huy hiệu mà xe địch đó nhận được trong trận: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "Không nhận được huy hiệu trong trận đánh."
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "Làm hư hại:"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "Làm hỏng hoàn toàn:"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "Làm bị thương:"
+
+msgid "common/tooltip/crits/description"
+msgstr "Được tính:\n• Làm hư hại các mô-đun bên ngoài và bên trong xe địch\n• Phá hỏng hoàn toàn các mô-đun bên ngoài và trong xe địch\n• Sát thương thành viên tổ lái của xe địch."
+
+msgid "common/tooltip/crits/header"
+msgstr "Gây hại Nghiêm trọng"
+
+msgid "common/tooltip/crits/total"
+msgstr "Tổng:"
+
+msgid "common/tooltip/damage/description"
+msgstr "Được tính:\n• Thiệt hại gây ra từ đạn bắn\n• Thiệt hại gây ra từ đâm/húc\n• Thiệt hại gây ra từ lửa cháy\n• Thiệt hại gây ra từ các va chạm mạnh"
+
+msgid "common/tooltip/damage/header"
+msgstr "Sát thương"
+
+msgid "common/tooltip/damage/part1"
+msgstr "Tổng sát thương %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "Tổng số phát bắn xuyên giáp"
+
+msgid "common/tooltip/defence/description"
+msgstr "Được tính:\n• Điểm phòng thủ căn cứ phe ta\n• Điểm phòng thủ căn cứ trung lập"
+
+msgid "common/tooltip/defence/header"
+msgstr "Phòng thủ Căn cứ"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "Tổng điểm phòng thủ căn cứ"
+
+msgid "common/tooltip/kill/header"
+msgstr "Địch bị hạ"
+
+msgid "common/tooltip/kill0/description"
+msgstr "Xe địch bị phá hủy do trúng đạn"
+
+msgid "common/tooltip/kill1/description"
+msgstr "Xe địch bị phá hủy do cháy"
+
+msgid "common/tooltip/kill2/description"
+msgstr "Xe địch bị phá hủy do bị húc"
+
+msgid "common/tooltip/kill3/description"
+msgstr "Xe địch bị phá hủy do va chạm"
+
+msgid "common/tooltip/kill4/description"
+msgstr "Xe địch bị phá hủy do sa vào vùng chết"
+
+msgid "common/tooltip/kill5/description"
+msgstr "Xe địch bị chết chìm"
+
+msgid "common/tooltip/kill6/description"
+msgstr "Bị tiêu diệt do Bão lửa"
+
+msgid "common/tooltip/kill7/description"
+msgstr "Xe địch bị lật."
+
+msgid "common/tooltip/killCommon/description"
+msgstr "Được tính:\n• Tiêu diệt do đạn bắn\n• Tiêu diệt do cháy\n• Tiêu diệt do đâm/húc\n• Tiêu diệt do chết chìm\n• Tiêu diệt do đẩy rơi xe địch khỏi một chướng ngại\n• Tiêu diệt do lật xe."
+
+msgid "common/tooltip/params/val"
+msgstr "(HP)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(s)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "Tính lần phát hiện xe địch đầu tiên."
+
+msgid "common/tooltip/spotted/header"
+msgstr "Phát hiện"
+
+msgid "common/tooltip/stun/description"
+msgstr "Sát thương được tính:\n• Do đồng đội gây ra cho xe địch bị bạn làm choáng."
+
+msgid "common/tooltip/stun/header"
+msgstr "Choáng"
+
+msgid "common/tooltip/stun/part1"
+msgstr "Tổng sát thương %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "Số phát bắn choáng"
+
+msgid "common/tooltip/stun/part3"
+msgstr "Tổng thời gian choáng đã gây ra: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "Tăng phe ta bị hạ"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "Giết Đồng đội"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "Tăng phe ta bị phá hủy do trúng đạn"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "Tăng phe ta bị phá hủy do cháy"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "Tăng phe ta bị phá hủy do bị húc"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "Tăng phe ta bị phá hủy do va chạm"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "Tăng phe ta bị phá hủy do sa vào vùng chết"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "Tăng phe ta bị chết chìm"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "Bạn đã nhận thêm kinh nghiệm khi chơi theo Trung đội trong trận này."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "Nảy ra"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "Không xuyên"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "Thiệt hại giáp xe chặn được"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "Thiệt hại nhờ bạn phát hiện"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "Thiệt hại gây ra nhờ bạn phá xích và làm bất động xe địch"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "Tổng thiệt hại đồng đội gây ra cho xe địch"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "Tổng Thiệt hại"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "Tổng số phát bắn xuyên giáp"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "Tổng Thiệt hại"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "Số phát bắn choáng"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "Tổng thời gian choáng đã gây ra"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "Mua xe"
+
+msgid "common/vehicle/research"
+msgstr "Nghiên cứu xe"
+
+msgid "common/vehicleState/alive"
+msgstr "Sống sót"
+
+msgid "common/vehicleState/dead0"
+msgstr "Bị phá hủy do trúng đạn"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "Bị phá hủy do trúng đạn ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "Bị phá hủy do trúng đạn ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "Bị phá hủy do cháy"
+
+msgid "common/vehicleState/dead12"
+msgstr "Tự hủy"
+
+msgid "common/vehicleState/dead13"
+msgstr "Bị diệt bởi Kỹ Chiến lược của người chơi"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "Bị phá hủy do lửa ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "Bị phá hủy do lửa ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "Bị phá hủy do bị húc"
+
+msgid "common/vehicleState/dead27"
+msgstr "Phá hủy bởi Pháo Kích"
+
+msgid "common/vehicleState/dead29"
+msgstr "Bị phá hủy do va chạm"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "Bị phá hủy do đâm húc ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "Bị phá hủy do đâm húc ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "Bị phá hủy do va chạm"
+
+msgid "common/vehicleState/dead30"
+msgstr "Bị phá hủy do trúng đạn"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "Bị phá hủy do trúng đạn ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "Bị phá hủy do trúng đạn ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "Bị phá hủy do va chạm"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "Bị tai nạn ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "Bị tai nạn ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "Bị phá hủy do sa vào vùng chết"
+
+msgid "common/vehicleState/dead5"
+msgstr "Xe bị chìm"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "Xe bị chìm ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "Xe bị chìm ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "Bị tiêu diệt do Bão lửa"
+
+msgid "common/vehicleState/dead7"
+msgstr "Bị phá hủy do lật xe"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "Bị phá hủy do lật ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "Bị phá hủy do lật ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "Thoát ra trước khi trận đấu kết thúc"
+
+msgid "common/vehicleState/victory"
+msgstr "Thắng lợi!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "Còn lại hôm nay: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "Được khen ở trận này"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "{{var}} đồng đội đã khen bạn ở trận này."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "{{var}} đồng đội đã khen bạn ở trận này."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "Khen thưởng"
+
+msgid "conditions/type/and"
+msgstr "VÀ"
+
+msgid "conditions/type/or"
+msgstr "HOẶC"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "Đã đạt đề-can \"%(name)s\" Cấp %(level)s."
+
+msgid "customizationProgress/award/received"
+msgstr "Đã nhận đề-can \"%(name)s\" %(count)s."
+
+msgid "customizationProgress/descr"
+msgstr "Đề-can \"%(name)s\" Cấp %(level)s"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "Hồ sơ Đội"
+
+msgid "cyberSport/points"
+msgstr "Điểm:"
+
+msgid "cyberSport/status/lose"
+msgstr "Thất bại"
+
+msgid "cyberSport/status/tie"
+msgstr "Hòa"
+
+msgid "cyberSport/status/win"
+msgstr "Thắng lợi!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "Lợi ích Linh động cấp XP"
+
+msgid "details/calculations/aogasFactor"
+msgstr "Giảm hiệu quả (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "Tự động tái tiếp tế Ứ.dụng K.thuật"
+
+msgid "details/calculations/autoEquip"
+msgstr "Tự động tiếp tế vật phẩm"
+
+msgid "details/calculations/autoLoad"
+msgstr "Tự động tiếp tế đạn"
+
+msgid "details/calculations/autoRepair"
+msgstr "Tự động sửa chữa xe"
+
+msgid "details/calculations/autoResupply"
+msgstr "Tự động tiếp tế"
+
+msgid "details/calculations/base"
+msgstr "Đã nhận cho trận"
+
+msgid "details/calculations/battlePayments"
+msgstr "Trả lương Chiến đấu"
+
+msgid "details/calculations/boosters"
+msgstr "Hưởng Trợ cấp Cá nhân"
+
+msgid "details/calculations/crystal/events"
+msgstr "Nhờ hoàn thành nhiệm vụ"
+
+msgid "details/calculations/crystal/total"
+msgstr "Cho khả năng đặc biệt của xe"
+
+msgid "details/calculations/event"
+msgstr "P.thưởng hoàn thành nhiệm vụ và sự kiện"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "Phạt do không hoạt động trong trận chiến"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "Phạt do đào ngũ"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "Phạt do đào ngũ"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "Phạt do đào ngũ"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "Phạt do đào ngũ"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "Phạt do không hoạt động trong trận"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "Phạt do đào ngũ"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "Phạt do cố ý tự hủy"
+
+msgid "details/calculations/firstWin"
+msgstr "Thưởng cho trận thắng đầu tiên trong ngày"
+
+msgid "details/calculations/fortOrder"
+msgstr "Thưởng thêm cho Quân Dự bị đã sử dụng"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "Bồi thường thiệt hại gây ra bởi đồng đội"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "Phạt do gây thiệt hại cho đồng đội"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "Phạt do làm choáng hoặc sát thương đồng đội"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "Vận tải Năng suất Lớn"
+
+msgid "details/calculations/igrBonus"
+msgstr "Phần thưởng cho việc chơi ở %(igrIcon)s"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "Lợi ích IGR"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "Tổng số đối với trận đánh:"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "Thưởng XP Linh động"
+
+msgid "details/calculations/maximum"
+msgstr "Cao nhất"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "Cho hiệu quả điều động quân sự"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "Tăng kinh nghiệm ở trận thắng đầu tiên mỗi ngày áp dụng cho các xe sau:"
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "Thưởng cho trận thắng đầu tiên mỗi ngày"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "Cho tinh thần can đảm chống cự"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "Lợi ích Thú cưng (%(bonusFactor)d%%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "Lợi ích Thú cưng"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "Đã thêm vào Dự trữ Lần hai"
+
+msgid "details/calculations/playerRankXP"
+msgstr "Lợi ích cấp bậc"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "Thưởng theo cấp xe Premium"
+
+msgid "details/calculations/referralBonus"
+msgstr "Lợi ích Giới thiệu (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "Thưởng Giới thiệu (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "Lợi ích Giới thiệu"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "Cho hiệu quả Trung đội "
+
+msgid "details/calculations/squadBonus"
+msgstr "Lợi ích khi chơi theo Trung đội"
+
+msgid "details/calculations/squadXP"
+msgstr "Cho hiệu quả Trung đội"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "Phạt do thành phần Trung đội không phù hợp"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "Cho hiệu quả huấn luyện chiến thuật"
+
+msgid "details/calculations/title/base"
+msgstr "Đã nhận cho trận"
+
+msgid "details/calculations/title/expenses"
+msgstr "Chi phí"
+
+msgid "details/calculations/title/total"
+msgstr "Tổng"
+
+msgid "details/calculations/total"
+msgstr "Tổng:"
+
+msgid "details/calculations/wotPlus"
+msgstr "Lợi ích Đánh WoT Plus"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "Lợi ích Đánh WoT Plus"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "WoT Plus Pro Boost"
+
+msgid "details/calculations/xpRecord"
+msgstr "Nhận được (%(color_tag_open)s tối đa %(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "Đã nhận (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "Bạc"
+
+msgid "details/crystal"
+msgstr "Trái phiếu"
+
+msgid "details/noPrem"
+msgstr "Tài khoản Thường"
+
+msgid "details/prem"
+msgstr "Premium Wargaming"
+
+msgid "details/premPlus"
+msgstr "Premium WoT"
+
+msgid "details/resource"
+msgstr "Tài nguyên Công nghiệp"
+
+msgid "details/stats"
+msgstr "Thống kê"
+
+msgid "details/time"
+msgstr "Thời gian"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "Thời gian bắt đầu"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "Khu vực chiếm được"
+
+msgid "details/time/lbl_duration"
+msgstr "Độ dài trận đánh"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "Mục tiêu tiêu diệt được"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "Mục tiêu tiếp cận được"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "Thời điểm bị hạ"
+
+msgid "details/time/val_no"
+msgstr "Không"
+
+msgid "details/time/val_yes"
+msgstr "Có"
+
+msgid "details/time/value"
+msgstr "%(min)s ph %(sec)s s"
+
+msgid "details/time_epic"
+msgstr "Trận"
+
+msgid "details/xp"
+msgstr "Kinh nghiệm"
+
+msgid "details/xp_abbr"
+msgstr "XP"
+
+msgid "exterminationVictory/allies"
+msgstr "Phe ta đã tiêu diệt toàn bộ xe địch"
+
+msgid "exterminationVictory/enemies"
+msgstr "Địch đã tiêu diệt toàn bộ xe phe ta"
+
+msgid "fallout/classic/lose/cap"
+msgstr "Địch giành được nhiều điểm chiến thắng hơn phe ta"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "Địch đã tiêu diệt toàn bộ xe phe ta"
+
+msgid "fallout/classic/lose/points"
+msgstr "Địch giành được nhiều điểm chiến thắng hơn phe ta"
+
+msgid "fallout/classic/tie"
+msgstr "Cả hai phe giành được số điểm chiến thắng bằng nhau"
+
+msgid "fallout/classic/win/cap"
+msgstr "Phe ta giành được nhiều điểm chiến thắng hơn địch"
+
+msgid "fallout/classic/win/extermination"
+msgstr "Phe ta đã tiêu diệt toàn bộ xe địch"
+
+msgid "fallout/classic/win/points"
+msgstr "Phe ta giành được nhiều điểm chiến thắng hơn địch"
+
+msgid "fallout/multiteam/ended"
+msgstr "Chưa hoàn thành mục tiêu"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "Để xem chi tiết,\nhãy chọn một người chơi từ danh sách."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "Phe ta giành được nhiều điểm chiến thắng hơn địch"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "Mọi phân đội địch đã bị tiêu diệt"
+
+msgid "fallout/multiteam/win/points"
+msgstr "Phe ta giành được nhiều điểm chiến thắng hơn địch"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "Chưa cướp được công trình %(buildingName)s"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "Đã cướp được công trình %(buildingName)s"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "Công trình đã cướp được: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "Quân địch đã cướp được công trình %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "Chưa cướp được công trình %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "Công trình đã phòng thủ được: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "Kết quả được tính toán dựa trên thông tin còn lại về các phe"
+
+msgid "finish/overtime/lose"
+msgstr "Địch chưa bị tiêu diệt"
+
+msgid "finish/overtime/win"
+msgstr "Địch đã bị tiêu diệt"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "Nguyên nhân không rõ ràng"
+
+msgid "finish/reason/10lose"
+msgstr "Mục tiêu đã sống sót"
+
+msgid "finish/reason/10win"
+msgstr "Mục tiêu đã bị tiêu diệt"
+
+msgid "finish/reason/1lose"
+msgstr "Tất cả xe phe ta đã bị hạ"
+
+msgid "finish/reason/1tie"
+msgstr "Tất cả các xe đều bị phá hủy"
+
+msgid "finish/reason/1win"
+msgstr "Tất cả xe địch đã bị hạ"
+
+msgid "finish/reason/2"
+msgstr "Chiếm căn cứ"
+
+msgid "finish/reason/3"
+msgstr "Hết thời gian chiến đấu"
+
+msgid "finish/reason/4"
+msgstr "Trận đấu kết thúc do lỗi hệ thống"
+
+msgid "finish/reason/5"
+msgstr "Thua Kỹ thuật"
+
+msgid "finish/reason/8"
+msgstr "Xe đồng đội đã bị phá hủy"
+
+msgid "finish/reason/9"
+msgstr "Xe của bạn đã bị phá hủy"
+
+msgid "garage/uniqueDamage"
+msgstr "Chỉ tính các phát bắn trúng gây hại nghiêm trọng độc nhất."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "Chọn Thời gian"
+
+msgid "getPremiumPopover/award"
+msgstr "+50% bạc và kinh nghiệm"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "Mua %(prem)s để thu về %(award)s cho mọi trận đánh sau này"
+
+msgid "getPremiumPopover/headerText"
+msgstr "Với trận này, bạn có thể nhận được:"
+
+msgid "getPremiumPopover/prem"
+msgstr "Tài khoản Premium"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "Đến Nghiên cứu"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "Có thể nghiên cứu"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "Số trận còn lại (xấp xỉ): {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "CHI TIẾT XE"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "Đã hoàn tất nhiệm vụ #{{name}}."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "HỌC VIỆN THIẾT GIÁP"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "MỞ KHÓA MÔ-ĐUN MỚI!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "ĐÃ MỞ KHÓA XE MỚI!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "HOÀN TẤT NHIỆM VỤ HỌC VIỆN!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "ĐÃ HOÀN TẤT CHƯƠNG!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "HOÀN TẤT GIAI ĐOẠN!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "HOÀN TẤT NHIỆM VỤ CRUCIBLE!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "HOÀN TẤT NHIỆM VỤ!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "HOÀN TẤT NHIỆM VỤ HÀNG NGÀY!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "MỨC UY TÍN CAO NHẤT"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "MỨC UY TÍN MỚI"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "HOÀN TẤT NHIỆM VỤ KINH ĐIỂN!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "HOÀN TẤT NHIỆM VỤ CHIẾN DỊCH!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "HOÀN TẤT NHIỆM VỤ PREMIUM!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "HOÀN TẤT NHIỆM VỤ HÀNG TUẦN!"
+
+msgid "noData"
+msgstr "Rất tiếc, kết quả chi tiết của trận đấu không khả dụng."
+
+msgid "personalQuest/bonus/descr"
+msgstr "Tiến trình thực hiện yêu cầu chính trong trận này đã được nhân thêm %(value)s lần."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "Hệ số x%(value)s:"
+
+msgid "personalQuest/failed/attention"
+msgstr "Chú ý!"
+
+msgid "personalQuest/failed/descr"
+msgstr "Tiến độ nhiệm vụ này đã bị trả về 0. Quá trình hoàn thành yêu cầu sẽ bắt đầu lại."
+
+msgid "players/enemy/unknown"
+msgstr "Quân địch"
+
+msgid "players/teammate/unknown"
+msgstr "Người chơi"
+
+msgid "prestige/common/description"
+msgstr "Điểm Uy tín kiếm được:"
+
+msgid "prestige/max/description"
+msgstr "Đã đạt mức Uy tín cao nhất."
+
+msgid "prestige/maxLevelReached/description"
+msgstr "Đã đạt mức Uy tín cao nhất"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "Đã đạt mức Uy tín mới"
+
+msgid "prestige/title"
+msgstr "Hệ thống Uy tín"
+
+msgid "progression/completed"
+msgstr "Hoàn tất"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}Hoàn tất:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "Click để xem thông tin chi tiết."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}Hoàn tất:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "Hệ thống Thanh thế tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "progression/totalEarned"
+msgstr "Tổng kiếm được: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "Tham chiến và đoạt thưởng. Đánh càng nhiều trận, phần thưởng càng đến gần."
+
+msgid "selectVehicle"
+msgstr "Chọn một Xe"
+
+msgid "status/lose"
+msgstr "THẤT BẠI"
+
+msgid "status/tie"
+msgstr "HÒA"
+
+msgid "status/win"
+msgstr "THẮNG"
+
+msgid "tankSelector/next"
+msgstr "Xe tiếp theo với"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "Sắp xếp theo thiệt hại đã gây ra,\nkể cả sát thương từ Quân Dự bị Chiến đấu."
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "Thiệt hại đã Gây ra"
+
+msgid "team/damageHeader/body"
+msgstr "Sắp xếp theo thiệt hại gây ra cho xe địch."
+
+msgid "team/damageHeader/header"
+msgstr "Thiệt hại đã Gây ra cho Xe Địch"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "Thiệt hại đã Gây ra"
+
+msgid "team/deaths/body"
+msgstr "Sắp xếp theo số xe của người chơi bị tiêu diệt trong trận."
+
+msgid "team/deaths/header"
+msgstr "Xe bị Bắn hạ"
+
+msgid "team/deathsNoSort/header"
+msgstr "Xe bị Bắn hạ"
+
+msgid "team/epicRankHeader/body"
+msgstr "Sắp xếp theo cấp bậc đạt được trong trận."
+
+msgid "team/epicRankHeader/header"
+msgstr "Cấp bậc"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "Sắp xếp theo thời gian triển khai trong trận."
+
+msgid "team/epicRespawnHeader/header"
+msgstr "Thời gian triển khai"
+
+msgid "team/falloutFragHeader/body"
+msgstr "Sắp xếp theo số xe địch đã bắn hạ,\nkể cả do Quân Dự bị Chiến đấu."
+
+msgid "team/falloutFragHeader/header"
+msgstr "Số Xe Địch đã Tiêu diệt"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "Sắp xếp theo số tài nguyên kiếm được."
+
+msgid "team/falloutResourcePoints/header"
+msgstr "Tài nguyên"
+
+msgid "team/flags/body"
+msgstr "Sắp xếp theo số cờ đem về được."
+
+msgid "team/flags/header"
+msgstr "Cờ đã Mang về"
+
+msgid "team/flagsNoSort/header"
+msgstr "Cờ đã Mang về"
+
+msgid "team/fragHeader/body"
+msgstr "Sắp xếp theo số xe địch đã bắn hạ."
+
+msgid "team/fragHeader/header"
+msgstr "Số Xe Địch Đã Bắn Hạ"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "Số Xe Địch đã Tiêu diệt"
+
+msgid "team/healthHeader/body"
+msgstr "Sắp xếp theo số HP còn lại."
+
+msgid "team/healthHeader/header"
+msgstr "Sức Kháng cự"
+
+msgid "team/medalHeader/body"
+msgstr "Sắp xếp theo số danh hiệu đã nhận được."
+
+msgid "team/medalHeader/header"
+msgstr "Phần thưởng"
+
+msgid "team/playerHeader/body"
+msgstr "Sắp xếp theo tên người chơi."
+
+msgid "team/playerHeader/header"
+msgstr "Tên người chơi"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "Tên"
+
+msgid "team/playerNumber/body"
+msgstr "Sắp xếp theo số người chơi trong đội."
+
+msgid "team/playerNumber/header"
+msgstr "Số"
+
+msgid "team/rankHeader/body"
+msgstr "Sắp xếp theo bậc."
+
+msgid "team/rankHeader/header"
+msgstr "Một bậc"
+
+msgid "team/resourceHeader/body"
+msgstr "Sắp xếp theo lượng Tài nguyên Công nghiệp kiếm được."
+
+msgid "team/resourceHeader/header"
+msgstr "Tài nguyên Công nghiệp"
+
+msgid "team/squadHeader/body"
+msgstr "Sắp xếp theo Trung đội."
+
+msgid "team/squadHeader/header"
+msgstr "Trung đội"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "Trung đội"
+
+msgid "team/stats/allies"
+msgstr "Đồng đội"
+
+msgid "team/stats/close"
+msgstr "Tắt"
+
+msgid "team/stats/enemies"
+msgstr "Địch"
+
+msgid "team/stats/enemyTeam"
+msgstr "Phe Địch"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "Được tính là hỗ trợ:\n• Thiệt hại do đồng đội gây ra nhờ bạn phát hiện, phá xích làm bất động, hoặc làm choáng xe địch\n• Chiếm đóng căn cứ\n• Phát hiện phương tiện đối phương lần đầu tiên."
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "Cho việc Hỗ trợ"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "Được tính là đóng góp:\n• Thiệt hại do chính bạn gây ra\n• Xe bị chính bạn tiêu diệt\n• Làm hư hại mô-đun•\n Thưởng cho thiệt hại mà phe ta gây ra.\n• Phạt nếu làm choáng hoặc sát thương đồng đội."
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "Cho Thiệt hại đã Gây ra và Số xe đã Tiêu diệt"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "Thưởng thêm cho việc giao chiến hiệu quả, không ghi rõ ở các mục trước."
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "Cho việc Sử dụng Xe đúng Vai trò"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\tbởi Pháo Kích"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "Khu vực chiếm được / Mục tiêu đã tiêu diệt"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "Điểm chiếm/phòng thủ căn cứ"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "Điểm Then chốt đã chiếm được"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "Thiệt hại gây ra do người chơi hỗ trợ"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "Thiệt hại gây ra nhờ bạn hỗ trợ"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "Thiệt hại cho xe địch bị người này bắn choáng"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "Thiệt hại cho xe địch bị bắn choáng bởi bạn"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "Thiệt hại giáp xe đã chặn được"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "Tổng Sát thương:"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\tTính cả do Quân Dự bị Chiến đấu"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\tkể cả Kỹ Chiến lược đã dùng"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\tThiệt hại gây ra cho phe địch"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "Số xe địch đã sát thương/tiêu diệt"
+
+msgid "team/stats/labels_deaths"
+msgstr "Số xe của bạn bị tiêu diệt trong trận"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "Khu vực Thủ được / Mục tiêu"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "Số xe riêng đã phá hủy / khôi phục"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\tcho mục tiêu"
+
+msgid "team/stats/labels_directHits"
+msgstr "\tTrúng trực tiếp"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "Bị bắn trúng"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\tdo hiệu quả từ Q.Dự bị C.đấu"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\tbằng Quân Dự bị Chiến đấu"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\tSát thương bằng mảnh đạn"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "Bị bắn trúng do mảnh đạn nổ"
+
+msgid "team/stats/labels_flags"
+msgstr "Cờ mang về được"
+
+msgid "team/stats/labels_healed"
+msgstr "HP hồi phục được (của bạn/đồng đội)"
+
+msgid "team/stats/labels_hits"
+msgstr "\tTrúng mục tiêu/xuyên giáp"
+
+msgid "team/stats/labels_killed"
+msgstr "Số xe địch đã tiêu diệt"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\tTính cả do Quân Dự bị Chiến đấu"
+
+msgid "team/stats/labels_mileage"
+msgstr "Quãng đường đã di chuyển"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\tKhông xuyên giáp"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\tXuyên giáp"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\tXuyên giáp"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "Kỹ Vai trò đã dùng"
+
+msgid "team/stats/labels_shots"
+msgstr "Số phát đã bắn"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\tTừ khoảng cách lớn hơn 300 m"
+
+msgid "team/stats/labels_spotted"
+msgstr "Số xe địch đã phát hiện"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "Tổng thời gian choáng đã gây ra, s"
+
+msgid "team/stats/labels_stunNum"
+msgstr "Số phát choáng đã gây ra"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "Thiệt hại gây ra cho đồng đội (Số xe bị hạ/HP)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "Số xe bắn hạ"
+
+msgid "team/stats/labels_xp"
+msgstr "Tổng Kinh nghiệm Kiếm được"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\tCho việc hỗ trợ"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\tCho việc gây thiệt hại và phá hủy"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\tcho việc sử dụng xe đúng vai trò"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "Phe Ta"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "bởi Pháo Kích"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "Điểm chiếm/phòng thủ căn cứ"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "Thiệt hại gây ra do người chơi hỗ trợ"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "Thiệt hại gây ra nhờ bạn hỗ trợ"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "Thiệt hại cho xe địch bị người này bắn choáng"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "Thiệt hại cho xe địch bị bắn choáng bởi bạn"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "Thiệt hại giáp xe đã chặn được"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "Tổng Thiệt hại"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "Số xe địch đã sát thương/tiêu diệt"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "Bị bắn trúng"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "Thiệt hại từ mảnh đạn nổ"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "Bị bắn trúng do mảnh đạn nổ"
+
+msgid "team/stats/parameter/hits"
+msgstr "Trúng trực tiếp/xuyên giáp"
+
+msgid "team/stats/parameter/mileage"
+msgstr "Quãng đường đã di chuyển"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "Không xuyên"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "Xuyên"
+
+msgid "team/stats/parameter/shots"
+msgstr "Số phát đã bắn"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "Từ khoảng cách hơn 300 m"
+
+msgid "team/stats/parameter/spotted"
+msgstr "Số xe địch đã phát hiện"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "Tổng thời gian choáng đã gây ra, s"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "Số phát choáng đã gây ra"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "Thiệt hại gây ra cho đồng đội (Số xe bị hạ/HP)"
+
+msgid "team/tankHeader/body"
+msgstr "Sắp xếp theo vị trí trong bảng đội."
+
+msgid "team/tankHeader/header"
+msgstr "Xe"
+
+msgid "team/teamInfluenceTotal"
+msgstr "Vốn Ưu thế kiếm được bởi phân đội: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "Tài nguyên Công nghiệp kiếm được bởi phân đội: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "Sắp xếp theo số điểm chiến thắng đã giành được."
+
+msgid "team/teamScore/header"
+msgstr "Điểm Chiến thắng Phe"
+
+msgid "team/victoryScore/body"
+msgstr "Sắp xếp theo số điểm chiến thắng đã giành được."
+
+msgid "team/victoryScore/header"
+msgstr "Điểm Chiến thắng Người chơi"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "Điểm Chiến thắng Người chơi"
+
+msgid "team/xpHeader/body"
+msgstr "Sắp xếp theo XP"
+
+msgid "team/xpHeader/header"
+msgstr "Kinh nghiệm"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "Kinh nghiệm"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "Điểm chiến thắng giành được"

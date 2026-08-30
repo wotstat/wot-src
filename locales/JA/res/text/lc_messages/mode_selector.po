@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "button/progression"
+msgstr "進捗を表示"
+
+msgid "button/select"
+msgstr "設定を変更"
+
+msgid "event/battlePass/name"
+msgstr "バトルパス・シーズン%(seasonNum)s"
+
+msgid "event/finished"
+msgstr "「%(eventName)s」\nは終了しています"
+
+msgid "event/notStarted"
+msgstr "「%(eventName)s」\nは%(date)sに始まります"
+
+msgid "event/paused"
+msgstr "「%(eventName)s」\nは一時的にプレイできません"
+
+msgid "event/ranked/name"
+msgstr "シーズン%(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "進捗モードで閲覧"
+
+msgid "mode/epicBattle/condition"
+msgstr "30対30&nbsp;{par_open}I{par_close}&nbsp;Tier&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30対30&nbsp;{par_open}I{par_close}&nbsp;Tier&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "イベントは\n%(date)sに開始"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "本モードは\n間もなく開始"
+
+msgid "mode/epicBattle/description"
+msgstr "独自の進捗システムと豪華報酬"
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "イベントは終了済み"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Tier VIII車輌を使用して「{whiteSpanish_open}フロントライン{whiteSpanish_close}」モードで戦闘を行うと成績に応じて「バトルパス進捗ポイント」が手に入ります。"
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "バトルパス進捗ポイント"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Tier VIII～X車輌を使用して「{whiteSpanish_open}先行偵察ミッション{whiteSpanish_close}」モードで戦闘を行うと「バトルパス」でステージを進めるのに必要な「進捗ポイント」が手に入ります。"
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "バトルパス進捗ポイント"
+
+msgid "mode/mapbox/condition"
+msgstr "15対15 %(parSecondary_open)sI%(parSecondary_close)s Tier&nbsp;VIII～X"
+
+msgid "mode/mapbox/description"
+msgstr "開発中のメカニズムを体験可能"
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "天候の特殊エフェクトはグラフィック品質の設定によって変化します。グラフィック品質が低い場合は残像が残るなどといった不具合が発生する可能性があります。最高のゲームプレイをお楽しみいただくために、要件を満たしたコンピューターでグラフィックの設定を最高の設定に変更してプレイすることを推奨いたします。こちらのモードを快適にプレイいただくには高性能PCが必要です。戦闘中にフレームレート (FPS) が低下する可能性がございます。"
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "最高グラフィック設定推奨"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon)最高グラフィック設定推奨"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "様々なマップを学習可能"
+
+msgid "mode/mapsTraining/description"
+msgstr "マップの基礎を習得可能"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Tier IV～XI車輌を使用して「{whiteSpanish_open}ランダム戦{whiteSpanish_close}」モードで戦闘を行うとパフォーマンスに応じて「バトルパス進捗ポイント」を取得できます。"
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "バトルパス進捗ポイント"
+
+msgid "mode/random/condition"
+msgstr "15対15 %(parSecondary_open)sI%(parSecondary_close)s Tier&nbsp;I～XI"
+
+msgid "mode/random/description"
+msgstr "オート・マッチングによる戦闘"
+
+msgid "mode/random/setup"
+msgstr "設定を変更"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Tier X車輌を使用して「{whiteSpanish_open}ランク戦{whiteSpanish_close}」モードで戦闘を\n行うとパフォーマンスに応じて「バトルパス進捗ポイント」を取得できます。"
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "バトルパス進捗ポイント"
+
+msgid "mode/ranked/condition"
+msgstr "10対10&nbsp;%(parSecondary_open)sI%(parSecondary_close)s&nbsp;Tier&nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "独自の進捗システムと豪華報酬"
+
+msgid "mode/specBattlesList/call/1"
+msgstr "トーナメントに参加可能"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "次の戦闘: %(date)s%(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1対1～15対15&nbsp;%(parSecondary_open)sI%(parSecondary_close)s&nbsp;Tier&nbsp;I～X"
+
+msgid "mode/specBattlesList/description"
+msgstr "グローバルマップ＆トーナメント"
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "傭兵として参加可能"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "クランの一員として参加可能"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7対7～15対15&nbsp;%(parSecondary_open)sI%(parSecondary_close)s&nbsp;Tier&nbsp;VI～X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "工業資源を懸けたクランの戦い"
+
+msgid "mode/trainingsList/call/1"
+msgstr "ルームの数: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1対1～15対15&nbsp;%(parSecondary_open)sI%(parSecondary_close)s&nbsp;Tier&nbsp;I～X"
+
+msgid "mode/trainingsList/description"
+msgstr "様々な条件でトレーニング可能"
+
+msgid "novelty"
+msgstr "NEW"
+
+msgid "ranked/widget/qualBattles"
+msgstr "予選での戦闘数: %(current)%(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "このモードでは限定3D付属品が手に入ります。"
+
+msgid "reward/attachment/name"
+msgstr "3D付属品"
+
+msgid "reward/bones/description"
+msgstr "報酬は戦闘成績に基づいて決定されます。"
+
+msgid "reward/bones/name"
+msgstr "ボンズ"
+
+msgid "reward/bountyEquipment/description"
+msgstr "このモードでは「%(name)s」が手に入ります。"
+
+msgid "reward/bountyEquipment/name"
+msgstr "特別拡張パーツ"
+
+msgid "reward/credits/description"
+msgstr "報酬は戦闘成績に基づいて決定されます。"
+
+msgid "reward/credits/name"
+msgstr "クレジット"
+
+msgid "reward/crew/description"
+msgstr "このモードでは特別搭乗員が手に入ります。"
+
+msgid "reward/crew/name"
+msgstr "特別搭乗員"
+
+msgid "reward/experience/description"
+msgstr "報酬は戦闘成績に基づいて決定されます。"
+
+msgid "reward/experience/name"
+msgstr "EXP"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "このモードではさまざまな試作拡張パーツが手に入ります。"
+
+msgid "reward/experimentalEquipment/name"
+msgstr "特別拡張パーツ"
+
+msgid "reward/improvedEquipment/description"
+msgstr "このモードでは「%(name)s」が手に入ります。"
+
+msgid "reward/improvedEquipment/name"
+msgstr "特別拡張パーツ"
+
+msgid "reward/lootBoxes/description"
+msgstr "このモードではボックスが手に入ります。"
+
+msgid "reward/lootBoxes/name"
+msgstr "特別なボックス"
+
+msgid "reward/other/description"
+msgstr "このモードでは役立つ報酬が大量に手に入ります。"
+
+msgid "reward/other/name"
+msgstr "特別報酬"
+
+msgid "reward/progressionStyle/description"
+msgstr "こちらのモードでは限定プログレッシブ・スタイルが手に入ります。"
+
+msgid "reward/progressionStyle/name"
+msgstr "プログレッシブ・スタイル"
+
+msgid "reward/random/description"
+msgstr "このモードでは役立つ報酬が大量に手に入ります。"
+
+msgid "reward/random/name"
+msgstr "ランダム報酬"
+
+msgid "reward/style/description"
+msgstr "%(name)s専用の限定3Dスタイルを入手可能。"
+
+msgid "reward/style/name"
+msgstr "3Dスタイル"
+
+msgid "reward/vehicle/description"
+msgstr "このモードでは%(name)sが手に入ります。"
+
+msgid "reward/vehicle/name"
+msgstr "報酬車輌"
+
+msgid "selectMap"
+msgstr "ランダム戦の基本設定"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s日"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s時間"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1分未満"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s分"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "モード選択"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "グローバルマップ"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "領地を占領しながら世界の覇権を懸けて戦う\nクラン・プレイヤー専用のモードです。"
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "クランに参加"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "グローバルマップ"
+
+msgid "window/battleSession/title"
+msgstr "特別戦"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "トーナメントのリスト"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "こちらのコンテンツは現在ご利用いただけません。将来的に実装される予定となっております。しばらくお待ちください。"
+
+msgid "window/battleSession/tournaments/description"
+msgstr "チームの一員となり他のプレイヤーたちと競い合うモードです。貴重な報酬が手に入ります。"
+
+msgid "window/battleSession/tournaments/title"
+msgstr "トーナメント"

@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Hứng chịu sát thương sẽ làm gián đoạn quá trình hồi HP.\n\nTốc độ hồi HP và giới hạn hồi phục tối đa được dựa trên tổng HP của xe, gồm mọi hệ số điều chỉnh đã áp dụng."
+
+msgid "armorPatching/alt/info"
+msgstr "Đối với kỹ năng tập thể, nó sẽ tính theo mức đào tạo trung bình của toàn bộ thành viên kíp lái. Tác dụng được phát huy ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Sử dụng Bộ Sửa chữa sẽ khôi phục %(hpRecover)s {yellow_Start}HP{yellow_End} của xe trong 5 giây, tối đa 20% mỗi trận. Cho phép dùng Bộ Sửa chữa khi không hư hại nghiêm trọng."
+
+msgid "armorPatching/hudDescription"
+msgstr "HP đã được phục hồi."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn cho tất cả lính, hồi phục %(hpRecover)s {yellow_Start}HP{yellow_End} của xe trong 5 giây sau lúc sử dụng Bộ Sửa chữa, tối đa 20% mỗi trận. Cho phép dùng Bộ Sửa chữa khi không hư hại nghiêm trọng."
+
+msgid "armorPatching/name"
+msgstr "Armor Patching"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Tăng độ ẩn giấu cơ bản của xe."
+
+msgid "brotherhood/alt/description"
+msgstr "Khoản tăng hiệu suất kíp lái cải thiện hiệu quả của tổ lính trong trận, cũng như nâng cao mọi kỹ năng đã học, trừ cái này. Thông số này có thể được tăng thêm nhờ lắp thiết bị hoặc vật phẩm với hiệu ứng tương thích, hay dùng ứng dụng kỹ thuật Màng lọc Ống thông khí. Kỹ năng \"Khẩn cấp\" của Chỉ huy, kỹ năng \"Kề vai Sát cánh\" và \"Chuyên gia Truyền tin\" của Liên lạc viên cũng cải thiện thông số này."
+
+msgid "brotherhood/alt/info"
+msgstr "Đối với kỹ năng tập thể, nó sẽ tính theo mức đào tạo trung bình của toàn bộ thành viên kíp lái. Tác dụng được phát huy ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "{greenBright_Start}Khoản tăng hiệu suất kíp lái{greenBright_End} của toàn bộ tổ lính được nâng thêm %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn cho tất cả lính, cải thiện {greenBright_Start}khoản tăng hiệu suất kíp lái{greenBright_End} của toàn bộ tổ lính thêm %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Đoàn kết"
+
+msgid "brotherhood/shortDescription"
+msgstr "Tăng hiệu quả chiến đấu chung của kíp lái."
+
+msgid "camouflage/alt/description"
+msgstr "Kỹ năng này tác động lên độ ẩn giấu của xe. Nó có thể được cải thiện thêm nhờ ứng dụng kỹ thuật Vỏ bọc Tự nhiên.\n\nNgoài ra, độ ẩn giấu của xe còn tăng nữa nếu áp dụng ngụy trang hoặc kiểu mẫu, cũng như khi lắp thiết bị hay vật phẩm với hiệu ứng tương thích."
+
+msgid "camouflage/alt/info"
+msgstr "Đối với kỹ năng tập thể, nó sẽ tính theo mức đào tạo trung bình của toàn bộ thành viên kíp lái. Tác dụng được phát huy ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "{greenBright_Start}Độ ẩn giấu{greenBright_End} của xe được tăng thêm %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn cho tất cả thành viên kíp lái, tăng {greenBright_Start}độ ẩn giấu{greenBright_End} của xe thêm %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Độ ẩn giấu"
+
+msgid "camouflage/shortDescription"
+msgstr "Tăng độ ẩn giấu cơ bản của xe."
+
+msgid "commander_coordination/alt/description"
+msgstr "Hiệu ứng kích hoạt mỗi lần phát hiện xe địch nhưng không cộng dồn nếu soi ra nhiều xe.\n\nTốc độ ngắm có thể được cải thiện thêm khi học kỹ năng Ngắm Nhanh của Pháo thủ hoặc lắp thiết bị có hiệu ứng tương tự."
+
+msgid "commander_coordination/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}Tốc độ ngắm{yellow_End} sẽ được tăng thêm %(vehicleGunAimSpeed)s trong 15 s sau khi bạn phát hiện xe địch."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Tốc độ ngắm được tăng lên."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Lúc được đào tạo thành thục hoàn toàn, tăng {yellow_Start}tốc độ ngắm{yellow_End} thêm %(vehicleGunAimSpeed)s trong 15 s sau khi bạn phát hiện xe địch.\t"
+
+msgid "commander_coordination/name"
+msgstr "Phối hợp"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Tốc độ ngắm được tăng lên."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "Tầm nhìn có thể được cải thiện thêm nhờ học kỹ năng Cảnh Giác của Liên lạc viên, hoặc khi lắp thiết bị với hiệu ứng tương thích. Dùng ứng dụng kỹ thuật Khối Hiệu chỉnh Quang học sẽ tăng hiệu quả."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}Tầm nhìn{greenBright_End} được tăng thêm %(circularVisionRadius)s&zwnbsp;. {greenBright_Start}Tác động tiêu cực lên thiết bị quan sát{greenBright_End} được giảm đi %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Tác động tiêu cực lên thiết bị quan sát được giảm đi."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn, tăng {greenBright_Start}tầm nhìn{greenBright_End} thêm %(circularVisionRadius)s&zwnbsp; và giảm {greenBright_Start}tác động tiêu cực lên thiết bị quan sát{greenBright_End} đi %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Trinh sát"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Tăng tầm nhìn, đặc biệt khi thiết bị quan sát bị hỏng."
+
+msgid "commander_emergency/alt/description"
+msgstr "Khi liên tiếp hứng chịu thiệt hại từ một kẻ địch, hiệu ứng không cộng dồn. Khoản tăng hiệu suất kíp lái cải thiện hiệu quả của tổ lính trong trận. Thông số này có thể được tăng thêm nhờ lắp thiết bị hoặc vật phẩm với hiệu ứng tương thích, hay dùng ứng dụng kỹ thuật Màng lọc Ống thông khí. Kỹ năng Tập thể \"Đoàn Kết\", kỹ năng \"Kề vai Sát cánh\" và \"Chuyên gia Truyền tin\" của Liên lạc viên cũng cải thiện thông số này."
+
+msgid "commander_emergency/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}Khoản tăng hiệu suất kíp lái{yellow_End} sẽ được tăng thêm %(crewLevelIncrease)s trong 15 s sau khi hứng chịu thiệt hại từ một kẻ địch."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Khoản tăng hiệu suất kíp lái được cải thiện."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn, cải thiện {yellow_Start}khoản tăng hiệu suất kíp lái{yellow_End} thêm %(crewLevelIncrease)s trong 15 s sau khi hứng chịu thiệt hại từ một kẻ địch."
+
+msgid "commander_emergency/name"
+msgstr "Khẩn cấp"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Khoản tăng hiệu suất kíp lái được cải thiện."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Một cảnh báo về đạn Pháo Tự hành địch, được kích hoạt ngay thời điểm đối phương khai hỏa nhưng có chút độ trễ.\n\nKỹ năng này có thể cải thiện thêm nhờ ứng dụng kỹ thuật \"Cảm ứng Cảnh báo Sớm\"."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "Một {yellow_Start}cảnh báo về đạn Pháo Tự hành địch{yellow_End} và hướng bắn tới sẽ được đưa ra nhưng có độ trễ %(artNotificationDelayFactor)s. {greenBright_Start}Tác động tiêu cực của hiệu ứng choáng{greenBright_End} được giảm đi %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn, ra {yellow_Start}cảnh báo về đạn Pháo Tự hành địch{yellow_End}, hiển thị hướng bắn nhưng trễ %(artNotificationDelayFactor)s. Làm giảm {greenBright_Start}tác động tiêu cực của hiệu ứng choáng{greenBright_End} đi %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Nhạy âm"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Nhận biết pháo địch bắn."
+
+msgid "commander_holdLine/alt/description"
+msgstr "Khoản tăng hiệu suất kíp lái giúp cải thiện hiệu quả tác chiến của lính.\n\nTham số này có thể được tăng thêm bằng cách lắp thiết bị hoặc vật phẩm với hiệu ứng tương thích, hay dùng ứng dụng kỹ thuật Màng lọc Ống thông khí. Nhiều kỹ năng kíp lái khác cũng cải thiện tham số."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "{yellow_Start}Khoản tăng hiệu suất kíp lái{yellow_End} sẽ được cải thiện thêm %(crewLevelIncrease)s khi địch có nhiều hơn phe của bạn ít nhất 3 xe tham chiến&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Khoản tăng hiệu suất kíp lái được cải thiện (địch đông hơn)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, cải thiện {yellow_Start}khoản tăng hiệu suất kíp lái{yellow_End} thêm %(crewLevelIncrease)s lúc địch có nhiều hơn phe của bạn ít nhất 3 xe tham chiến&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Hold the Line"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Cải thiện khoản tăng hiệu suất kíp lái"
+
+msgid "commander_practical/alt/description"
+msgstr "Kỹ năng tương thích với mọi loại vật phẩm lắp trên xe của bạn.\n\nHiệu quả có thể tăng thêm bằng cách dùng ứng dụng kỹ thuật Lý thuyết Kỹ lưỡng."
+
+msgid "commander_practical/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}Thời gian hồi phục vật phẩm {greenBright_End} được giảm đi %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn, giảm {greenBright_Start}thời gian hồi phục vật phẩm{greenBright_End} đi %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Thực tiễn"
+
+msgid "commander_practical/shortDescription"
+msgstr "Giảm thời gian hồi phục vật phẩm."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Chỉ huy bị thương sẽ khiến \"Giác quan Thứ 6\" vô hiệu. Tốc độ kích hoạt \"Giác quan Thứ 6\" có thể nhanh hơn nhờ kỹ năng \"Bắt Tín hiệu\" của Liên lạc viên."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Đây là một tính năng đặc biệt của Chỉ huy mà không cần đào tạo, khả dụng theo mặc định."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Giúp Chỉ huy ý thức được liệu xe mình đã bị địch phát hiện hay chưa. Kích hoạt %(delay)s sau khi xe lộ hình."
+
+msgid "commander_sixthSense/name"
+msgstr "Giác quan Thứ 6"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Cho phép Chỉ huy ý thức được liệu xe của mình đã bị địch phát hiện hay chưa."
+
+msgid "commander_staySharp/alt/description"
+msgstr "Khoản tăng hiệu suất kíp lái giúp cải thiện hiệu quả tác chiến của lính.\n\nTham số này có thể được tăng thêm bằng cách lắp thiết bị hoặc vật phẩm với hiệu ứng tương thích, hay dùng ứng dụng kỹ thuật Màng lọc Ống thông khí. Nhiều kỹ năng kíp lái khác cũng cải thiện tham số."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "{yellow_Start}Khoản tăng hiệu suất kíp lái{yellow_End} sẽ được cải thiện thêm %(crewLevelIncrease)s trong 15&nbsp;s sau khi dùng Bộ Cứu thương. Cho phép sử dụng Bộ Cứu thương ngay cả lúc không thành viên nào bị hại&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Khoản tăng hiệu suất kíp lái được cải thiện (dùng Bộ Cứu thương)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Khi thành thục hoàn toàn, cải thiện {yellow_Start}khoản tăng hiệu suất kíp lái{yellow_End} thêm %(crewLevelIncrease)s trong 15 s sau lúc dùng Bộ Cứu thương. Cho phép sử dụng Bộ Cứu thương ngay cả ở trường hợp không thành viên nào bị hại&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Stay Sharp"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Cải thiện khoản tăng hiệu suất kíp lái"
+
+msgid "commander_tutor/alt/description"
+msgstr "Chỉ huy bị thương không thể thay thế thành viên khác. Lợi ích chỉ áp dụng cho lượng XP Kíp lái gốc kiếm được trong trận.\n\nXP Kíp lái còn có thể tăng lên nhờ sử dụng Tài liệu Kíp lái hoặc quy đổi từ XP Tự do."
+
+msgid "commander_tutor/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "Tăng %(xpBonusFactorPerLevel)s {greenBright_Start}XP{greenBright_End} kiếm được cho mọi thành viên kíp lái. Chỉ huy có thể {greenBright_Start}thay thế thành viên bị thương{greenBright_End} với hiệu suất %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Thành viên kíp lái bị thương được Chỉ huy thay thế."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, tăng %(xpBonusFactorPerLevel)s {greenBright_Start}XP{greenBright_End} kiếm được cho mọi thành viên kíp lái. Giúp Chỉ huy có thể {greenBright_Start}thay thế thành viên bị thương{greenBright_End} với hiệu suất %(woundedCrewEfficiency)s."
+
+msgid "commander_tutor/name"
+msgstr "Thông thái"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Thành viên kíp lái bị thương được Chỉ huy thay thế."
+
+msgid "commander_universalist/alt/description"
+msgstr "Chỉ huy chỉ có thể thay thế chuyên môn chính của thành viên kíp lái bị thương. Khả năng thay thế giảm dần theo mỗi lính tăng mất đi."
+
+msgid "commander_universalist/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1%. Hiệu quả tăng dần theo sau đó."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "Chỉ huy có thể {greenBright_Start}thay thế thành viên kíp lái bị thương{greenBright_End} với hiệu quả %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/hudDescription"
+msgstr "Chỉ huy làm thay vai trò của thành viên kíp lái bị thương."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn, cho phép Chỉ huy {greenBright_Start}thay thế thành viên kíp lái bị thương{greenBright_End} với hiệu quả %(woundedCrewEfficiency)s."
+
+msgid "commander_universalist/name"
+msgstr "Ba đầu Sáu tay"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Cho phép Chỉ huy thay thế thành viên kíp lái bị thương."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Giảm tác động tiêu cực lên độ cơ động và khả năng bứt tốc của xe trên địa hình tương đối yếu. Giảm đáng kể các tác động tiêu cực trên địa hình yếu, coi như tương đương lúc lái trên địa hình tương đối yếu.\nKhả năng cơ động trên địa hình yếu và tương đối yếu không thể tốt hơn tham số trên địa hình cứng."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}Mất tốc trên địa hình tương đối yếu{greenBright_End} được giảm đi %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}mất tốc trên địa hình yếu{greenBright_End} được giảm về %(softGroundFactor)s giá trị trên địa hình tương đối yếu."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, giảm hiện tượng {greenBright_Start}mất tốc trên địa hình tương đối yếu{greenBright_End} đi %(mediumGroundFactor)s&zwnbsp;, giảm hiện tượng {greenBright_Start}mất tốc trên địa hình yếu{greenBright_End} về %(softGroundFactor)s giá trị trên địa hình tương đối yếu."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Vượt Địa hình"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "Khoản tăng hiệu suất kíp lái giúp cải thiện hiệu quả tác chiến của lính.\n\nTham số này có thể được tăng thêm bằng cách lắp thiết bị hoặc vật phẩm với hiệu ứng tương thích, hay dùng ứng dụng kỹ thuật Màng lọc Ống thông khí. Nhiều kỹ năng kíp lái khác cũng cải thiện tham số."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "{yellow_Start}Khoản bonus hiệu suất kíp lái{yellow_End} sẽ tăng thêm %(crewLevelIncrease)s nếu lượng thiệt hại mà bạn chặn được nhiều hơn số HP ban đầu của xe mình."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Khoản bonus hiệu suất kíp lái được tăng thêm (chặn đủ thiệt hại)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, {yellow_Start}khoản bonus hiệu suất kíp lái{yellow_End} tăng thêm %(crewLevelIncrease)s nếu lượng thiệt hại mà bạn chặn được nhiều hơn số HP ban đầu của xe mình."
+
+msgid "driver_bulletproof/name"
+msgstr "Bulletproof"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "Tốc độ tối đa của xe có thể được tăng thêm và tác động tiêu cực từ động cơ bị hư hại có thể được giảm đi nữa bằng cách lắp thiết bị với hiệu ứng tương tự."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "Tăng %(vehicleForwardMaxSpeed)s {greenBright_Start}tốc độ tiến tối đa{greenBright_End} và {greenBright_Start}tốc độ lùi{greenBright_End} của xe. Giảm %(vehPenaltyForDamagedEngine)s {greenBright_Start}tác động tiêu cực từ động cơ bị hư hại{greenBright_End}&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Giảm tác động tiêu cực từ động cơ bị hư hại."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, tăng %(vehicleForwardMaxSpeed)s {greenBright_Start}tốc độ tiến tối đa{greenBright_End} và {greenBright_Start}tốc độ lùi{greenBright_End} của xe. Giảm %(vehPenaltyForDamagedEngine)s {greenBright_Start}tác động tiêu cực từ động cơ bị hư hại{greenBright_End}&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Kỹ sư"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Giảm tác động tiêu cực từ động cơ bị hư hại."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "Kỹ năng không kích hoạt lúc 2 xe cùng phe đâm nhau.\n\nThiệt hại từ đâm/húc vào xe của bạn có thể được giảm đi nữa bằng cách lắp thiết bị với hiệu ứng tương thích."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "Tăng %(damageEnemiesByRamming)s {greenBright_Start}sát thương đâm/húc cho xe địch{greenBright_End}&zwnbsp;. {greenBright_Start}Thiệt hại đâm/húc lên xe của bạn{greenBright_End} được giảm đi %(vehicleRamDamageResistance)s&zwnbsp;, {greenBright_Start}lên hệ giảm xóc{greenBright_End} được giảm đi %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, tăng %(damageEnemiesByRamming)s {greenBright_Start}sát thương đâm/húc cho xe địch{greenBright_End}&zwnbsp;. {greenBright_Start}Thiệt hại đâm/húc lên xe của bạn{greenBright_End} được giảm đi %(vehicleRamDamageResistance)s&zwnbsp;, {greenBright_Start}lên hệ giảm xóc{greenBright_End} được giảm đi %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Kiểm soát Va chạm"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Giảm thiệt hại mà xe của bạn phải hứng chịu do đâm/húc và tăng sát thương ngược lại cho xe địch."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "Sát thương hứng chịu từ đạn HE có thể được giảm thêm nữa khi lắp thiết bị với hiệu ứng tương thích."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}Độ hấp thụ sát thương đạn HE{greenBright_End} được tăng thêm %(vehicleHEShellDamageResistance)s&zwnbsp;. {greenBright_Start}Xác&nbsp;suất cháy động cơ{greenBright_End} thấp hơn %(vehicleFireChance)s và {greenBright_Start}thiệt hại vào hệ giảm xóc{greenBright_End} bé đi %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Khi thành thục hoàn toàn, tăng {greenBright_Start}độ hấp thụ sát thương đạn HE{greenBright_End} thêm %(vehicleHEShellDamageResistance)s&zwnbsp;. Giảm %(vehicleFireChance)s {greenBright_Start}xác suất cháy động cơ{greenBright_End} và %(suspensionDamageReduction)s {greenBright_Start}thiệt hại vào hệ giảm xóc{greenBright_End}&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Xếp nội thất Đệm"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Không ảnh hưởng đến độ chính xác của xe đứng yên và khi quay thân.\n\nKỹ năng có thể được cải thiện thêm nhờ ứng dụng kỹ thuật \"Hộp số sàn Cải tiến\". Độ chính xác khi khai hỏa lúc di chuyển có thể được tăng thêm nhờ lắp thiết bị với hiệu ứng tương thích hoặc dùng ứng dụng kỹ thuật \"Cụm chỉnh Dầu bôi trơn Bộ Ổn định\"."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "Giảm %(vehicleGunShotDispersionChassisMovement)s {greenBright_Start}độ phân tán của súng{greenBright_End} khi khai hỏa lúc đang di chuyển&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Nếu đào tạo thành thục hoàn toàn, giảm %(vehicleGunShotDispersionChassisMovement)s {greenBright_Start}độ phân tán của súng{greenBright_End} khi khai hỏa lúc đang di chuyển&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Lái Lụa"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Tăng độ chính xác khi khai hỏa lúc đang di chuyển."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Kỹ năng này ảnh hưởng tốc độ sửa hệ giảm xóc từ trạng thái đỏ sang vàng nội trong phạm vi 50 m của một xe đồng minh."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}Tốc độ sửa hệ giảm xóc{yellow_End} sẽ được tăng thêm %(suspensionRepairSpeed)s ở khoảng cách dưới 50 m từ một xe đồng minh."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Tăng tốc sửa hệ giảm xóc (gần đồng đội)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Khi thành thục hoàn toàn, tăng {yellow_Start}tốc độ sửa hệ giảm xóc{yellow_End} thêm %(suspensionRepairSpeed)s ở khoảng cách dưới 50 m từ một xe đồng minh."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Field Support"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "Khả năng chống lửa của xe có thể được cải thiện thêm nhờ lắp thiết bị và vật phẩm với hiệu ứng tương thích. Kỹ năng Chữa cháy sẽ tăng tốc dập lửa nếu hỏa hoạn xảy ra."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1%. Hiệu quả tăng dần theo sau đó."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Đang giảm {greenBright_Start}xác suất cháy động cơ{greenBright_End} đi %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn, giảm {greenBright_Start}xác suất cháy động cơ{greenBright_End} đi %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Bảo dưỡng Dự phòng"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Giảm xác suất cháy động cơ."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "Tốc độ quay thân có thể được tăng thêm nữa bằng cách lắp thiết bị hoặc vật phẩm với hiệu ứng tương thích."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "Tăng %(vehicleAllGroundRotationSpeed)s {greenBright_Start}tốc độ xoay thân{greenBright_End}&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, tăng {greenBright_Start}tốc độ xoay thân{greenBright_End} thêm %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Phanh Ly hợp"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Tăng tốc độ xoay thân."
+
+msgid "fireFighting/alt/description"
+msgstr "Kỹ năng này ảnh hưởng đến thiệt hại phải chịu từ hỏa hoạn và thời gian đám cháy.\n\nNếu 2 Liên lạc viên đều có kỹ năng này, giá trị sẽ chia trung bình.\n\nKỹ năng trở nên hiệu quả hơn khi dùng ứng dụng kỹ thuật \"Bảng Chỉ dẫn Cứu hỏa\"."
+
+msgid "fireFighting/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "Tăng %(fireExtinguishingRate)s {greenBright_Start}tốc độ dập lửa{greenBright_End}&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Nếu đào tạo thành thục hoàn toàn, tăng %(fireExtinguishingRate)s {greenBright_Start}tốc độ dập lửa{greenBright_End}&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Chữa cháy"
+
+msgid "fireFighting/shortDescription"
+msgstr "Tăng khả năng chữa cháy."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Theo mặc định, khoảng sát thương lý thuyết và độ xuyên giáp lý thuyết là ±25% so với giá trị cơ sở. Ví dụ, nếu một quả đạn xuyên giáp lên đến 100 mm và gây sát thương 100 HP, khi bắn trúng mục tiêu, độ xuyên thực tế cho riêng phát này có thể dao động từ 75 đến 125 mm, còn sát thương thực tế có thể dao động từ 75 đến 125 HP. Giảm hệ số này sẽ đem lại kết quả khai hỏa đúng dự tính hơn.\n\nNếu 2 Pháo thủ đều có kỹ năng này, giá trị sẽ chia trung bình."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Khoảng {greenBright_Start}sát thương lý thuyết{greenBright_End} và {greenBright_Start}độ xuyên giáp lý thuyết{greenBright_End} được giảm đi {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Độ phân tán của súng{greenBright_End} được giảm đi %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Nếu đào tạo thành thục hoàn toàn, khoảng {greenBright_Start}sát thương lý thuyết{greenBright_End} và {greenBright_Start}độ xuyên giáp lý thuyết{greenBright_End} được giảm đi {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}Độ phân tán của súng{greenBright_End} được giảm đi %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Sửa súng"
+
+msgid "gunner_focus/alt/description"
+msgstr "Hiệu quả bắt đầu 3 giây sau khi xe dừng lại và bị trả về mo khi di chuyển.\n\nNếu 2 Pháo thủ đều có kỹ năng này, giá trị sẽ chia trung bình."
+
+msgid "gunner_focus/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "{yellow_Start}Độ phân tán của súng{yellow_End} khi xe đứng yên sẽ được giảm đi %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Giảm độ phân tán súng."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn, giảm {yellow_Start}độ phân tán súng{yellow_End} lúc xe đứng yên đi %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Tập trung"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Giảm độ phân tán của súng lúc xe đứng yên."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "Mức phân tán và tốc độ ngắm của súng có thể cải thiện hơn nữa bằng cách học kỹ năng kíp lái hoặc lắp thiết bị đem lại hiệu ứng tương tự.\n\nNếu 2 Pháo thủ đều có kỹ năng này, giá trị sẽ chia trung bình."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "{yellow_Start}Mức phân tán của súng{yellow_End} sẽ giảm %(vehicleGunAimSpeed)s và {yellow_Start}tốc độ ngắm{yellow_End} sẽ tăng %(vehicleGunAimSpeed)s khi không có xe đồng minh nào trong bán kính 300 m."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Cải thiện mức phân tán và tốc độ ngắm của súng (không gần đồng đội)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Khi thành thục hoàn toàn, giảm {yellow_Start}mức phân tán của súng{yellow_End} và tăng {yellow_Start}tốc độ ngắm{yellow_End} thêm %(vehicleGunAimSpeed)s nếu không có xe đồng minh nào trong bán kính 300 m."
+
+msgid "gunner_loneWolf/name"
+msgstr "Lone Wolf"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Giảm phân tán của súng. Tăng tốc độ ngắm."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Theo mặc định, độ xuyên lý thuyết tối đa là +25% so với giá trị cơ bản. Ví dụ, nếu một viên đạn xuyên giáp tối đa 100 mm, khi trúng mục tiêu, giá trị xuyên cao nhất có thể đạt 125 mm. Tăng tham số này giúp kết quả xuyên giáp tốt hơn.\n\nNếu 2 Pháo thủ đều có kỹ năng này, giá trị sẽ chia trung bình."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "{yellow_Start}Độ xuyên lý thuyết tối đa{yellow_End} của đạn sẽ tăng thêm %(piercingHEShellsDistributionUpperBound)s khi bắn địch ở khoảng cách dưới 50 m."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Khi thành thục hoàn toàn, tăng %(piercingHEShellsDistributionUpperBound)s {yellow_Start}độ xuyên lý thuyết tối đa{yellow_End} lúc bắn địch ở cự ly dưới 50 m."
+
+msgid "gunner_pointBlast/name"
+msgstr "Point Blank"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Tăng độ xuyên lý thuyết tối đa có thể đạt được của đạn"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Nếu 2 Pháo thủ đều có kỹ năng này, giá trị sẽ chia trung bình.\n\nTốc độ ngắm có thể được tăng thêm nữa nếu học kỹ năng \"Phối hợp\" của Chỉ huy hoặc lắp thiết bị với hiệu ứng tương thích.\n\nTốc độ quay tháp pháo có thể được tăng thêm nữa nếu lắp thiết bị hoặc vật phẩm với hiệu ứng tương thích."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}Tốc độ ngắm{greenBright_End} và {greenBright_Start}xoay tháp pháo{greenBright_End} được tăng thêm %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Nếu đào tạo thành thục hoàn toàn, {greenBright_Start}tốc độ ngắm{greenBright_End} và {greenBright_Start}xoay tháp pháo{greenBright_End} được tăng thêm %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Ngắm Nhanh"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Tốc độ ngắm được tăng lên."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Xác định những mô-đun hư hỏng nghiêm trọng trên xe mục tiêu nội trong khu vực quan sát của Pháo thủ ở cả chế độ bắn trực tiếp và gián tiếp.\nKhu vực quan sát của Pháo thủ được xác định bằng hình quạt ±10° (20° tổng cộng) trước súng chính và tầm nhìn của xe.\nNếu 2 Pháo thủ đều có kỹ năng này, giá trị sẽ chia trung bình.\nKỹ năng có thể được cải thiện hơn nữa bằng ứng dụng kỹ thuật \"Khối Hội tụ Mục tiêu\". Lắp \"Bộ Radio Cải tiến\" sẽ tăng thêm thời gian địch lộ hình."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "{greenBright_Start}Thời gian{greenBright_End} trước khi {greenBright_Start}xe địch mất hình{greenBright_End} trong khu vực quan sát của Pháo thủ được tăng thêm %(vehicleEnemySpottingTime)s. Thời gian {yellow_Start}xác định những mô-đun hư hỏng{yellow_End} được giảm đi %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Nếu đào tạo thành thục hoàn toàn, {greenBright_Start}thời gian{greenBright_End} trước khi {greenBright_Start}xe địch mất hình{greenBright_End} trong khu vực quan sát của Pháo thủ được tăng thêm %(vehicleEnemySpottingTime)s. Cho phép {yellow_Start}xác định những mô-đun hư hỏng{yellow_End} với độ trễ %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Chỉ định Mục tiêu"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Tăng thời gian trước xe địch mất hình trong khu vực quan sát của Pháo thủ. Cho phép xác định những mô-đun hư hỏng."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Nếu 2 Pháo thủ đều có kỹ năng này, giá trị sẽ chia trung bình.\n\nKỹ năng có thể được cải thiện hơn nữa bằng ứng dụng kỹ thuật \"Kích đỡ Bệ ngắm\". Độ phân tán khi quay tháp pháo có thể giảm thêm bằng cách lắp thiết bị với hiệu ứng tương thích hoặc dùng ứng dụng kỹ thuật \"Cụm chỉnh Dầu bôi trơn Bộ Ổn định\"."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "Giảm {greenBright_Start}độ phân tán của súng{greenBright_End} khi quay tháp pháo đi %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, giảm {greenBright_Start}độ phân tán của súng{greenBright_End} lúc quay tháp pháo đi %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Vảy Súng"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Giảm độ phân tán của súng lúc quay tháp pháo."
+
+msgid "gunner_sniper/alt/description"
+msgstr "Hiệu ứng áp dụng cho mọi loại đạn, trừ xe lắp súng máy Autocannon.\n\nNếu 2 Pháo thủ đều có kỹ năng này, giá trị sẽ chia trung bình."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "Tăng %(enemyModulesCrewCritChance)s {greenBright_Start}xác suất gây hại nghiêm trọng{greenBright_End} {greenBright_Start}mô-đun xe{greenBright_End} địch và sát thương {greenBright_Start}thành viên kíp lái{greenBright_End} đối phương với mọi loại đạn&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, tăng %(enemyModulesCrewCritChance)s {greenBright_Start}xác suất gây hại nghiêm trọng{greenBright_End} {greenBright_Start}mô-đun xe{greenBright_End} địch và sát thương {greenBright_Start}thành viên kíp lái{greenBright_End} đối phương với mọi loại đạn&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Ngắm chết"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Theo mặc định, khoảng sát thương và độ xuyên giáp lý thuyết tối thiểu là -25% so với giá trị cơ sở. Ví dụ, nếu một quả đạn xuyên giáp lên đến 100 mm và gây sát thương 100 HP, khi bắn trúng mục tiêu, độ xuyên thực tế tối thiểu cho riêng phát này có thể là 75 mm, còn sát thương thực tế nhỏ nhất có thể là 75 HP. Tăng hệ số này sẽ đem lại hiệu quả khai hỏa tốt hơn.\n\nNếu 2 Nạp đạn viên đều có kỹ năng này, giá trị sẽ chia trung bình."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "Tăng {greenBright_Start}sát thương lý thuyết tối thiểu{greenBright_End} và {greenBright_Start}độ xuyên giáp lý thuyết tối thiểu{greenBright_End} thêm %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, tăng {greenBright_Start}sát thương lý thuyết tối thiểu{greenBright_End} và {greenBright_Start}độ xuyên giáp lý thuyết tối thiểu{greenBright_End} thêm %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Tinh chỉnh Đạn"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Tăng sát thương và giá trị xuyên giáp trung bình."
+
+msgid "loader_desperado/alt/description"
+msgstr "Nếu 2 Nạp đạn viên đều có kỹ năng này, giá trị sẽ chia trung bình.\n\nThời gian nạp đạn có thể được giảm thêm nữa nhờ học kỹ năng \"Cận Chiến\" của Nạp đạn viên, hoặc lắp thiết bị có hiệu ứng tương thích. Ứng dụng kỹ thuật \"Bệ giắc Đầu đạn\" cũng giúp cải thiện hiệu quả."
+
+msgid "loader_desperado/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "Giảm {yellow_Start}thời gian nạp đạn{yellow_End} đi %(vehicleGunReloadTime)s nếu xe còn ít hơn 25% sức kháng cự."
+
+msgid "loader_desperado/hudDescription"
+msgstr "Giảm thời gian nạp đạn (xe còn ít sức kháng cự)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, giảm {yellow_Start}thời gian nạp đạn{yellow_End} đi %(vehicleGunReloadTime)s nếu xe còn ít hơn 25% sức kháng cự ban đầu."
+
+msgid "loader_desperado/name"
+msgstr "Sống Còn"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Tăng tốc độ nạp đạn nếu xe còn ít hơn 25% sức kháng cự ban đầu."
+
+msgid "loader_intuition/alt/description"
+msgstr "Để kích hoạt kỹ năng, súng chính, cả hai súng hoặc băng đạn phải lên nòng hoàn toàn rồi. Thời gian ngắn nhất để đổi loại đạn cho súng bình thường là 1 giây; cho súng nòng đôi và băng đạn là 2.5 giây.\n\nNếu 2 Nạp đạn viên đều có kỹ năng này, giá trị sẽ chia trung bình."
+
+msgid "loader_intuition/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "Giảm {greenBright_Start}thời gian đổi loại đạn{greenBright_End} khi súng đã lên nòng đi %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "Thời gian đổi loại đạn khi súng đã lên nòng được giảm đi.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, giảm {greenBright_Start}thời gian đổi loại đạn{greenBright_End} khi súng đã lên nòng đi %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Trực giác"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Tăng đáng kể tốc độ đổi loại đạn khi súng đã lên nòng."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Kỹ năng này chỉ giảm thời gian nạp cho súng có băng đạn, không áp dụng với các hệ thống khác.\n\nNếu 2 Nạp đạn viên đều có kỹ năng này, giá trị sẽ chia trung bình."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "{greenBright_Start}Thời gian nạp{greenBright_End} băng đạn được giảm %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Khi thành thục hoàn toàn, giảm %(magazineGunReloadSpeed)s {greenBright_Start}thời gian nạp{greenBright_End} băng đạn."
+
+msgid "loader_magMastery/name"
+msgstr "Mag Mastery"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Giảm thời gian nạp băng đạn"
+
+msgid "loader_melee/alt/description"
+msgstr "Nếu 2 Nạp đạn viên đều có kỹ năng này, giá trị sẽ chia trung bình.\n\nThời gian nạp đạn có thể được giảm thêm nữa nhờ học kỹ năng \"Sống Còn\" của Nạp đạn viên, hoặc lắp thiết bị có hiệu ứng tương thích. Ứng dụng kỹ thuật \"Bệ giắc Đầu đạn\" cũng giúp cải thiện hiệu quả."
+
+msgid "loader_melee/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}Thời gian nạp đạn{yellow_End} sẽ được giảm đi %(vehicleGunReloadTime)s ở khoảng cách nhỏ hơn 50 m đến xe địch."
+
+msgid "loader_melee/hudDescription"
+msgstr "Thời gian nạp đạn được giảm đi (địch ở gần).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, {yellow_Start}thời gian nạp đạn{yellow_End} được giảm đi %(vehicleGunReloadTime)s ở khoảng cách nhỏ hơn 50 m đến xe địch."
+
+msgid "loader_melee/name"
+msgstr "Cận Chiến"
+
+msgid "loader_melee/shortDescription"
+msgstr "Tăng tốc độ nạp đạn khi cận chiến."
+
+msgid "loader_pedant/alt/description"
+msgstr "Nạp đạn viên bị thương không ảnh hưởng đến hiệu quả của kỹ năng này.\n\nNếu hai Nạp đạn viên đều có nó, giá trị sẽ chia trung bình.\n\nKỹ năng có thể được cải thiện hơn nữa bằng ứng dụng kỹ thuật \"Hệ thống Phân biệt đạn\". Độ bền gác đạn có thể tăng thêm bằng cách lắp thiết bị với hiệu ứng tương thích."
+
+msgid "loader_pedant/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}Độ bền gác đạn{greenBright_End} được tăng thêm %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn, tăng {greenBright_Start}độ bền gác đạn{greenBright_End} thêm %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Xếp Đạn"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Tăng độ bền của gác đạn."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "Hiệu ứng áp dụng cho mọi loại đạn.\n\nNạp đạn viên bị thương không ảnh hưởng đến hiệu quả của kỹ năng này.\n\nNếu 2 Nạp đạn viên đều có nó, giá trị sẽ chia trung bình."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}Tốc độ đạn bay{greenBright_End} được tăng thêm %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, {greenBright_Start}tốc độ đạn bay{greenBright_End} được tăng thêm %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Thuốc súng Hoàn hảo"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Kỹ năng này không có tác dụng cho súng nạp theo băng hoặc autocannon và không cộng dồn đối với nòng đôi.\n\nỞ súng nạp tùy chọn, nếu cả hai nòng đều bắn và không cái nào gây sát thương, mức giảm thời gian nạp sẽ áp dụng cho cả hai nòng.\n\nNếu 2 Nạp đạn viên đều có kỹ năng này, giá trị sẽ chia trung bình.\n\nThời gian nạp có thể giảm thêm nữa bằng cách học kỹ năng \"Sống Còn\" hoặc \"Cận Chiến\" của Nạp đạn viên, hay lắp thiết bị với hiệu ứng tương thích. Ứng dụng kỹ thuật \"Bệ giắc Đầu đạn\" cũng giúp cải thiện hiệu quả."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "{yellow_Start}Thời gian nạp{yellow_End} sẽ được giảm %(vehicleGunReloadTime)s cho viên tiếp theo nếu phát trước đó không sát thương địch."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Giảm thời gian nạp của súng (khi bắn trượt)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Khi thành thục hoàn toàn, {yellow_Start}thời gian nạp{yellow_End} được giảm %(vehicleGunReloadTime)s cho viên tiếp theo nếu phát trước đó không sát thương địch."
+
+msgid "loader_secondChance/name"
+msgstr "Second Chance"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Giảm thời gian nạp đạn"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Anh em cùng Ban"
+
+msgid "perkRole/commander"
+msgstr "Chỉ huy"
+
+msgid "perkRole/common"
+msgstr "Tập thể"
+
+msgid "perkRole/driver"
+msgstr "Lái xe"
+
+msgid "perkRole/gunner"
+msgstr "Pháo thủ"
+
+msgid "perkRole/loader"
+msgstr "Nạp đạn viên"
+
+msgid "perkRole/radioman"
+msgstr "Liên lạc viên"
+
+msgid "popularity/tooltip/common"
+msgstr "của mọi người chơi"
+
+msgid "popularity/tooltip/header"
+msgstr "Cho xe này, được chuộng bởi"
+
+msgid "popularity/tooltip/legendary"
+msgstr "của người chơi WTR Legend"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Nếu 2 Liên lạc viên đều có kỹ năng này, giá trị sẽ chia trung bình.\n\nHiệu quả còn có thể tăng thêm nữa nhờ kỹ năng Nhạy Âm của Chỉ huy."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Mỗi khi kíp lái bị choáng, {greenBright_Start}tác động tiêu cực của trạng thái này{greenBright_End} sẽ giảm đi %(stunResistanceEffectFactor)s, tối đa 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Khi thành thục hoàn toàn, mỗi lúc kíp lái bị choáng, {greenBright_Start}tác động tiêu cực của trạng thái này{greenBright_End} giảm đi %(stunResistanceEffectFactor)s&nbsp;, tối đa 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Battle Tempered"
+
+msgid "radioman_expert/alt/description"
+msgstr "Khoản tăng hiệu suất kíp lái cải thiện hiệu quả của tổ lính trong trận. Nếu 2 Liên lạc viên đều có nó, giá trị sẽ chia trung bình. Thông số này có thể được tăng thêm nhờ lắp thiết bị hoặc vật phẩm với hiệu ứng tương thích, hay dùng ứng dụng kỹ thuật \"Màng lọc Ống thông khí\". Kỹ năng Tập thể \"Đoàn Kết\", kỹ năng \"Khẩn cấp\" của Chỉ huy, hoặc kỹ năng \"Kề vai Sát cánh\" của Liên lạc viên cũng cải thiện thông số này."
+
+msgid "radioman_expert/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "{yellow_Start}Khoản tăng hiệu suất kíp lái{yellow_End} sẽ được tăng thêm %(crewLevelIncrease)s nếu lượng thiệt hại mà bạn hỗ trợ gây ra nhiều hơn số HP ban đầu của xe mình&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Khoản tăng hiệu suất kíp lái được tăng thêm (chuyển hóa đủ dữ liệu trinh sát)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, {yellow_Start}khoản tăng hiệu suất kíp lái{yellow_End} sẽ được tăng thêm %(crewLevelIncrease)s nếu lượng thiệt hại mà bạn hỗ trợ gây ra nhiều hơn số HP ban đầu của xe mình&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Chuyên gia Truyền tin"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Tăng hiệu suất kíp lái."
+
+msgid "radioman_finder/alt/description"
+msgstr "Nếu hai Liên lạc viên đều có kỹ năng này, giá trị sẽ chia trung bình.\n\nTầm nhìn có thể được cải thiện hơn nữa bằng cách học kỹ năng \"Trinh sát\" hoặc lắp thiết bị với hiệu ứng tương thích. Ứng dụng kỹ thuật \"Khối Hiệu chỉnh Quang học\" cũng cải thiện hiệu quả."
+
+msgid "radioman_finder/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}Tầm nhìn{greenBright_End} được tăng thêm %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn, tăng {greenBright_Start}tầm nhìn{greenBright_End} thêm %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Cảnh Giác"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Tăng tầm nhìn."
+
+msgid "radioman_interference/alt/description"
+msgstr "Nếu hai Liên lạc viên đều có kỹ năng này, giá trị sẽ chia trung bình.\n\nThời gian xe của bạn bị lộ hình có thể được giảm đi nữa khi lắp thiết bị với hiệu ứng tương thích."
+
+msgid "radioman_interference/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "{greenBright_Start}Thời gian xe của bạn bị phát hiện{greenBright_End} bởi địch được giảm đi %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, {greenBright_Start}thời gian xe của bạn bị phát hiện{greenBright_End} bởi địch được giảm đi %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Nhiễu"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Giảm thời gian xe của bạn lộ hình đối với địch."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Nếu hai Liên lạc viên đều có kỹ năng này, chỉ mức cao hơn được tính. Hiệu ứng chỉ kích hoạt nếu Liên lạc viên còn lành lặn lúc xe bị phá hủy.\n\nKỹ năng có thể được cải thiện thêm nhờ ứng dụng kỹ thuật Bộ Vô tuyến Khẩn cấp."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1%. Hiệu quả tăng dần theo sau đó. Nó kích hoạt khi xuất hiện những điều kiện nhất định trong trận."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "Liên lạc viên có thể {yellow_Start}tiếp tục báo cáo vị trí địch{yellow_End} thêm %(radiomanDurationPerLevel)s sau khi xe của bạn bị phá hủy."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Báo cáo vị trí địch."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Khi được đào tạo thành thục hoàn toàn, cho phép {yellow_Start}tiếp tục báo cáo vị trí địch{yellow_End} thêm %(radiomanDurationPerLevel)s sau khi xe của bạn bị phá hủy."
+
+msgid "radioman_lastEffort/name"
+msgstr "Báo thù"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Trong một khoảng thời gian ngắn sau khi xe của bạn bị phá hủy, tiếp tục báo cáo vị trí địch."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "Khoản tăng hiệu suất kíp lái cải thiện hiệu quả của tổ lính trong trận. Nếu 2 Liên lạc viên đều có nó, giá trị sẽ chia trung bình. Thông số này có thể được tăng thêm nhờ lắp thiết bị hoặc vật phẩm với hiệu ứng tương thích, hay dùng ứng dụng kỹ thuật \"Màng lọc Ống thông khí\". Kỹ năng Tập thể \"Đoàn Kết\", kỹ năng \"Khẩn cấp\" của Chỉ huy, hoặc kỹ năng \"Chuyên gia Truyền tin\" của Liên lạc viên cũng cải thiện thông số này."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "{yellow_Start}Khoản tăng hiệu suất kíp lái{yellow_End} sẽ được tăng thêm %(crewLevelIncrease)s ở khoảng cách nhỏ hơn 50 m đến một xe đồng đội cùng loại&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Khoản tăng hiệu suất kíp lái được tăng lên (gần xe đồng đội cùng loại)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, {yellow_Start}khoản tăng hiệu suất kíp lái{yellow_End} được tăng thêm %(crewLevelIncrease)s ở khoảng cách nhỏ hơn 50 m đến một xe đồng đội cùng loại&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Kề vai Sát cánh"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Tăng hiệu suất kíp lái."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "Hiệu ứng cải thiện tính năng Giác quan Thứ 6 đặc biệt của Chỉ huy, tăng tốc kích hoạt nó.\n\nNếu 2 Liên lạc viên đều có nó, giá trị sẽ chia trung bình."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Kỹ năng có tác dụng ngay khi thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "{greenBright_Start}Thời gian xác định{greenBright_End} liệu {greenBright_Start}xe của bạn đã bị phát hiện{greenBright_End} bởi địch hay chưa được giảm đi %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn, {greenBright_Start}thời gian xác định{greenBright_End} liệu {greenBright_Start}xe của bạn đã bị phát hiện{greenBright_End} bởi địch hay chưa được giảm đi %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Bắt Tín hiệu"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Kỹ năng này kích hoạt khi cảnh báo Giác quan Thứ 06 cho biết xe của bạn đã bị phát hiện.\n\nNếu 2 Liên lạc viên đều có kỹ năng này, giá trị sẽ chia trung bình.\n\nCó thể tăng thêm tầm nhìn bằng cách học kỹ năng \"Trinh sát\" hoặc \"Cảnh Giác\", hay lắp thiết bị với hiệu ứng tương thích. Ứng dụng kỹ thuật \"Khối Hiệu chỉnh Quang học\" cũng cải thiện hiệu quả."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Kỹ năng có hiệu quả theo tình huống, phát huy tác dụng ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên. Nó kích hoạt lúc xuất hiện những điều kiện nhất định trong trận."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "{yellow_Start}Tầm nhìn{yellow_End} sẽ được tăng thêm %(vehicleCircularVisionRadius)s trong 5 giây sau khi nhận cảnh báo Giác quan Thứ 06."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Tầm nhìn được tăng lên."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Khi thành thục hoàn toàn, tăng {yellow_Start}tầm nhìn{yellow_End} thêm %(vehicleCircularVisionRadius)s trong 5 giây sau lúc nhận cảnh báo Giác quan Thứ 06."
+
+msgid "radioman_threatSearch/name"
+msgstr "Threat Search"
+
+msgid "repair/alt/description"
+msgstr "Kỹ năng này ảnh hưởng đến tốc độ sửa mô-đun trong và mô-đun ngoài từ trạng thái \"đỏ\" sang \"vàng\".\n\nThông số này có thể được cải thiện thêm nhờ lắp thiết bị hoặc vật phẩm với hiệu ứng tương thích."
+
+msgid "repair/alt/info"
+msgstr "Đối với kỹ năng tập thể, nó sẽ tính theo mức đào tạo trung bình của toàn bộ thành viên kíp lái. Tác dụng được phát huy ngay lúc thành thục ít nhất 1% và tăng dần hiệu quả khi học lên."
+
+msgid "repair/currentLvlDescription"
+msgstr "Tăng {greenBright_Start}tốc độ sửa{greenBright_End} mô-đun hư hại của xe thêm %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Khi đào tạo thành thục hoàn toàn cho tất cả thành viên kíp lái, tăng {greenBright_Start}tốc độ sửa{greenBright_End} mô-đun hư hại của xe thêm %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Sửa chữa"
+
+msgid "repair/shortDescription"
+msgstr "Tăng tốc độ sửa mô-đun bị hư hại."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Anh em cùng Ban"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Phổ biến"
+
+msgid "sorting/fallback"
+msgstr "Mặc định"
+
+msgid "sorting/legendary"
+msgstr "Huyền thoại"
+
+msgid "sorting/title"
+msgstr "Xếp theo:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPhổ biến.%(whiteSpanish_Close)s Dựa theo xu hướng kỹ năng hiện hành của tất cả người chơi World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "Lợi ích WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Nhận dữ liệu chính xác về kỹ năng kíp lái dựa trên hàng triệu trận đánh và có lợi thế trước mọi cuộc đụng độ."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sHuyền thoại.%(whiteSpanish_Close)s Dựa theo kỹ năng hiện được người chơi có chỉ số WTR mức Legend ưa dùng"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Sắp xếp kỹ năng bị tắt"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Không có dữ liệu"
+
+msgid "sorting/tooltip/title"
+msgstr "Trợ lý Kíp lái"
+
+msgid "sorting/tooltip/types"
+msgstr "Loại sắp xếp kỹ năng"
+
+msgid "sorting/tooltip/warning"
+msgstr "Sắp xếp kỹ năng không khả dụng"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Dữ liệu hoàn chỉnh về kỹ năng không khả dụng cho xe này, nên hệ thống đã sắp xếp chúng theo Mặc định."
+
+msgid "witches_brotherhood/name"
+msgstr "Hội Pháp"
+
+msgid "yha_brotherhood/name"
+msgstr "Anh em Thiết Thố"

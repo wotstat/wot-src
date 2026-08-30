@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "abilities/adaptationHealthRestore"
+msgstr "적응형 장갑"
+
+msgid "abilities/adaptationHealthRestoreDescription"
+msgstr "전차의 내구도가 일정량 즉시 회복됩니다. 능력 효과가 지속되는 동안 포탄 및 전투 능력에 의한 모든 피해가 축적되어 능력 효과 종료 시 내구도로 전환됩니다. 전환 시 축적된 피해에 따라 일정 내구도가 추가로 회복됩니다. 내구도 전환 회복 효과는 일정 범위 내 아군 전차에도 영향을 미칩니다."
+
+msgid "abilities/airstrike"
+msgstr "공습 지원"
+
+msgid "abilities/airstrikeDescription"
+msgstr "선택한 지역을 폭격하여 적 전차에 폭발 충격 및 피해를 기록합니다."
+
+msgid "abilities/berserk"
+msgstr "광폭"
+
+msgid "abilities/berserkDescription"
+msgstr "일정 시간 관통력을 포함한 전차 성능이 향상되지만, 전차 내구도는 감소합니다."
+
+msgid "abilities/brander"
+msgstr "화공전차"
+
+msgid "abilities/branderDescription"
+msgstr "가장 가까운 적을 추적하고 폭발 시 일정 범위 내 대상에 피해를 입히는 화공전차를 배치합니다. 화공전차는 사격 및 충돌에 의해 파괴될 수 있습니다. 목표물과 부딪치면 추가 충돌 피해를 입힙니다."
+
+msgid "abilities/clingBrander"
+msgstr "전투 로봇"
+
+msgid "abilities/clingBranderDescription"
+msgstr "피아 식별 시스템을 탑재하여 스스로 가장 가까운 적을 추적하고 공격하는 전차를 호출합니다. 해당 전차는 파괴될 수 있습니다."
+
+msgid "abilities/corrodingShot"
+msgstr "부식 포탄"
+
+msgid "abilities/corrodingShotDescription"
+msgstr "포탄에 부식 속성을 추가합니다. 해당 포탄으로 적 전차에 피해를 입히면 추가 지속 피해를 주는 효과가 일시적으로 적용됩니다."
+
+msgid "abilities/extremeConcentration"
+msgstr "목표 추적"
+
+msgid "abilities/extremeConcentrationDescription"
+msgstr "일시적으로 주포 분산도가 감소하고, 조준 시간이 줄어들고, 주포 안정성 및 연사력이 향상됩니다. 클립, 주포, 탄대 재장전 시간에는 영향을 주지 않습니다."
+
+msgid "abilities/fireCircle"
+msgstr "불의 고리"
+
+msgid "abilities/fireCircleDescription"
+msgstr "범위 내 적 전차에 피해를 입히고 기동력을 저하하는 불의 고리를 생성합니다."
+
+msgid "abilities/minefield"
+msgstr "지뢰 매설"
+
+msgid "abilities/minefieldDescription"
+msgstr "선택한 지역에 일정 시간 동안 유지되는 지뢰를 매설합니다. 지뢰에 닿은 전차는 폭발 충격과 피해를 받습니다. 지뢰는 사격에 의해 파괴될 수 있습니다. 적 전차 아래에 매설된 지뢰는 폭발하지 않습니다."
+
+msgid "abilities/nitro"
+msgstr "터보 과급기"
+
+msgid "abilities/nitroDescription"
+msgstr "일시적으로 전차의 엔진 출력, 최고 속력, 회전 속도가 향상됩니다."
+
+msgid "abilities/recoveryDot"
+msgstr "수리 구역"
+
+msgid "abilities/recoveryDotDescription"
+msgstr "손상된 부품이 모두 수리되고 모든 부정적 효과가 제거되며 내구도가 회복되는 임시 고정 구역을 생성합니다. 범위 내 아군 전차에도 내구도 회복 효과가 적용됩니다."
+
+msgid "abilities/recoveryKit"
+msgstr "복구"
+
+msgid "abilities/recoveryKitDescription"
+msgstr "전차 내구도가 회복됩니다."
+
+msgid "abilities/recoveryZone"
+msgstr "정비 구역"
+
+msgid "abilities/recoveryZoneDescription"
+msgstr "자신과 범위 내 소대원의 전차 내구도가 매초 일정량 회복되는 구역을 전차 주변에 생성합니다."
+
+msgid "abilities/repairKit"
+msgstr "수리 도구"
+
+msgid "abilities/repairKitDescription"
+msgstr "손상된 부품이 수리되고 부정적인 효과가 제거됩니다."
+
+msgid "abilities/rustCloud"
+msgstr "산성 안개"
+
+msgid "abilities/rustCloudDescription"
+msgstr "소모품 범위 내 모든 전차에 위장률 보너스가 적용되고, 동시에 각 전차가 피해를 받습니다. 해당 능력에 의해 피해를 받더라도 전리품 수집이 중단되지 않고, 내구도를 1 이상 유지하여 전차가 파괴되지 않습니다."
+
+msgid "abilities/shotPassion"
+msgstr "과부하"
+
+msgid "abilities/shotPassionDescription"
+msgstr "일정 시간 동안 조준 및 안정성 수치는 감소하지만, 관통 피해나 전기 충격파 피해를 기록할 때마다 적 전차에 입히는 피해가 증가합니다. 최대 5회 중첩되며 피해를 입히지 못하거나 포탄이 빗나가면 효과가 초기화됩니다."
+
+msgid "abilities/thunderStrike"
+msgstr "전기 충격파"
+
+msgid "abilities/thunderStrikeDescription"
+msgstr "일련의 전기 충격파가 높은 빈도로 발생하는 구역을 생성합니다. 각 충격파는 전차에 피해를 입히고 기동력을 저하합니다. 능력 활성화 후 첫 번째 충격파가 발생하기까지 일정 시간이 소요됩니다. 부정적 효과는 수리 도구에 의해 제거될 수 있습니다."
+
+msgid "abilities/trap"
+msgstr "함정 지대"
+
+msgid "abilities/trapDescription"
+msgstr "적 전차의 기동력을 저하하는 함정 지대를 생성합니다."
+
+msgid "tanks/britain/description"
+msgstr "영국 기술자는 숙련된 전차장의 마음을 사로잡고 적군을 공포에 떨게 만드는 완벽한 전차를 꾸준히 개발해 왔습니다. 전장을 장악할 준비를 완료한 전설적인 영국 강철 전차입니다."
+
+msgid "tanks/britain/title"
+msgstr "Harbinger Mk. IV"
+
+msgid "tanks/china/description"
+msgstr "중국은 우수한 정보 네트워크를 보유하여 최신식의 실용적인 전차 설계를 효율적으로 채택할 수 있습니다. 또한, 새로운 설계를 시험할 수 있는 배틀 로얄 전장의 혹독한 환경은 중국 기술자에게 있어 선물이나 다름없습니다."
+
+msgid "tanks/china/title"
+msgstr "Bái Láng"
+
+msgid "tanks/france/description"
+msgstr "가벼움, 부드러움, 우아함은 프랑스 전차를 정의하는 3가지 주요 요소입니다. 다른 설계도를 차용하거나 산업 스파이 활동을 통해 얻은 설계도를 사용하지 않고 독창적인 설계를 통해 개발한 전차입니다."
+
+msgid "tanks/france/title"
+msgstr "Arlequin"
+
+msgid "tanks/germany/description"
+msgstr "독일 기술자는 금속 가공과 기계 공학에 모두 뛰어납니다. 독립적이고 다재다능하며 모든 전투 상황에서 효율적으로 생존할 수 있는 외로운 늑대와도 같은 완벽한 전차입니다."
+
+msgid "tanks/germany/title"
+msgstr "Walküre"
+
+msgid "tanks/poland/description"
+msgstr "폴란드 기술자는 전차 성능 중 하나를 강화하면 다른 하나는 약화된다는 것을 알고 있습니다. 이러한 이유로 적에게 약점이 노출되는 것을 방지하고자 고심하여 전차의 무장과 전투 능력을 결정하였으며 시간이 지남에 따라 옳은 결정이라는 것이 증명되었습니다."
+
+msgid "tanks/poland/title"
+msgstr "Huragan"
+
+msgid "tanks/sweden/description"
+msgstr "스웨덴은 전차 개발과 관련된 최신 동향을 간과하지 않고 배틀 로얄에 참여함으로써 최고의 기술자에게 자유를 안겨주었습니다. 독창적이면서도 모험적인 전차로 강력한 한 방을 날릴 수도 있지만, 반대로 큰 타격을 입을 수도 있습니다."
+
+msgid "tanks/sweden/title"
+msgstr "Beowulf"
+
+msgid "tanks/usa/description"
+msgstr "현대 표준에 가까운 완벽한 균형을 갖춘 전차입니다. 입증된 기술과 최신 기술을 결합한 전차로 녹슨 금속에 개의치 않는다면 전차 운용의 진정한 즐거움을 찾을 수 있을 것입니다."
+
+msgid "tanks/usa/title"
+msgstr "Raven"
+
+msgid "tanks/ussr/description"
+msgstr "각종 전차 부품을 조합하여 개발한 전차로 적 전차는 큰 위협을 느낄 것입니다. 전장에서 바람에 날린 전차 설계와 기술 문서를 기반으로 만들어질 수 있는 괴물 같은 전차입니다."
+
+msgid "tanks/ussr/title"
+msgstr "Varyag"

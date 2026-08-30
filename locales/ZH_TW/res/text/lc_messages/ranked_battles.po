@@ -1,0 +1,1547 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "所有伺服器都已實施休戰。戰鬥將於 %(primeDelta)s後可用"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "賽季 %(leftSeasonName)s 已結束"
+
+msgid "alertMessage/allNotSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "alertMessage/button/changeServer"
+msgstr "選擇其它伺服器"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "詳情"
+
+msgid "alertMessage/notAvailable"
+msgstr "%(serverName)s 伺服器已實施休戰"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "%(serverName)s 伺服器已實施休戰"
+
+msgid "alertMessage/notSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "此伺服器已實施休戰。戰鬥將於 %(primeDelta)s後可進行"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "賽季 %(leftSeasonName)s 已結束"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s 天"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s 小時 %(min)s 分鐘"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 分鐘"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s 分鐘"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "車庫中沒有適合的 %(levels)s 階車輛"
+
+msgid "awards/bonusBattles/efficiency"
+msgstr "一般，根據您在已完成階段的表現：%(amount)s"
+
+msgid "awards/bonusBattles/header"
+msgstr "已獲得獎勵戰鬥："
+
+msgid "awards/bonusBattles/label"
+msgstr "已獲得獎勵戰鬥：%(count)s"
+
+msgid "awards/bonusBattles/steps/daily"
+msgstr " \n每日，根據在外圍賽得到的折槓數量：%(amount)s"
+
+msgid "awards/bonusBattles/steps/persistent"
+msgstr " \n一般，根據在外圍賽得到的折槓數量：%(amount)s"
+
+msgid "awards/congratulation"
+msgstr "恭喜！"
+
+msgid "awards/gotDivision"
+msgstr "您已移動到下一個分組"
+
+msgid "awards/gotLeague"
+msgstr "您已到達聯賽水準"
+
+msgid "awards/gotQualification"
+msgstr "您已完成外圍賽，並進入了第三分組。"
+
+msgid "awards/gotQualificationQuest"
+msgstr "您獲得了外圍賽的獎勵。參戰數：%(count)s"
+
+msgid "awards/gotRank"
+msgstr "已獲得新的軍階"
+
+msgid "awards/yes"
+msgstr "了解！"
+
+msgid "battleResult/losers"
+msgstr "失敗隊伍"
+
+msgid "battleResult/rank/lose"
+msgstr "失去軍階"
+
+msgid "battleResult/rank/progress/lose"
+msgstr "已失去折槓"
+
+msgid "battleResult/rank/progress/up"
+msgstr "獲得折槓"
+
+msgid "battleResult/rank/unchanged"
+msgstr "已保住折槓"
+
+msgid "battleResult/rank/up"
+msgstr "達成軍階"
+
+msgid "battleResult/winners"
+msgstr "獲勝隊伍"
+
+msgid "battleResult/yes"
+msgstr "了解！"
+
+msgid "battleresult/bonusBattlesEarned"
+msgstr " \n\n已增加獎勵戰鬥："
+
+msgid "battleresult/bonusBattlesEarned/efficiency"
+msgstr " \n一般，根據您在已完成階段的表現：%(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/daily"
+msgstr " \n每日，根據在外圍賽得到的折槓數量：%(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/persistent"
+msgstr " \n一般，根據在外圍賽得到的折槓數量：%(amount)s"
+
+msgid "battleresult/bonusBattlesUsed"
+msgstr "。您已進行 1 次獎勵戰鬥。"
+
+msgid "battleresult/divisionEarned"
+msgstr "新的\n分組"
+
+msgid "battleresult/first/inTop/lose"
+msgstr "您獲得置身失敗隊伍第一名的經驗"
+
+msgid "battleresult/first/inTop/win"
+msgstr "您獲得置身勝利隊伍第一名的經驗"
+
+msgid "battleresult/first/notInTop/lose"
+msgstr "您未獲得置身失敗隊伍第一名的經驗"
+
+msgid "battleresult/first/notInTop/win"
+msgstr "您未獲得置身勝利隊伍第一名的經驗"
+
+msgid "battleresult/headerText"
+msgstr "戰鬥結果"
+
+msgid "battleresult/inTop/lose"
+msgstr "您獲得置身失敗隊伍前 %(topNumber)s 名的經驗"
+
+msgid "battleresult/inTop/win"
+msgstr "您獲得置身勝利隊伍前 %(topNumber)s 名的經驗"
+
+msgid "battleresult/leagueEarned"
+msgstr "移動到\n聯賽"
+
+msgid "battleresult/leagueUnavailable"
+msgstr "您的聯賽將於排行榜計算後確定。\n "
+
+msgid "battleresult/notInTop/lose"
+msgstr "您未獲得置身失敗隊伍前 %(topNumber)s 名的經驗"
+
+msgid "battleresult/notInTop/minXP"
+msgstr "您沒有獲得最低數量的經驗。"
+
+msgid "battleresult/notInTop/stageSaved"
+msgstr "您在此階段會受到保護以避免失去折槓"
+
+msgid "battleresult/notInTop/win"
+msgstr "您未獲得置身勝利隊伍前 %(topNumber)s 名的經驗"
+
+msgid "battleresult/rankEarned"
+msgstr "已獲得\n軍階"
+
+msgid "battleresult/rankLost"
+msgstr "已失去\n軍階"
+
+msgid "battleresult/rankUnburnable"
+msgstr "沒有\n變化"
+
+msgid "battleresult/shieldLose"
+msgstr "軍階盾牌\n已破損"
+
+msgid "battleresult/shieldLoseStep"
+msgstr "軍階盾牌\n已減弱"
+
+msgid "battleresult/stageEarned"
+msgstr "已獲得\n折槓"
+
+msgid "battleresult/stageLost"
+msgstr "已失去\n折槓"
+
+msgid "battleresult/stageNotEarned"
+msgstr "已保住\n折槓"
+
+msgid "battleresult/stageSaved"
+msgstr "已保住\n折槓"
+
+msgid "battleresult/stagesEarned"
+msgstr "已獲得\n折槓"
+
+msgid "battleresult/status/rankEarned"
+msgstr "已恢復軍階"
+
+msgid "battleresult/status/rankLost"
+msgstr "已失去軍階"
+
+msgid "battleresult/status/rankUnburnable"
+msgstr "沒有變化"
+
+msgid "battleresult/status/shieldCount"
+msgstr " \n已保住血量：%(count)s"
+
+msgid "battleresult/status/shieldLose"
+msgstr "軍階盾牌已破損！"
+
+msgid "battleresult/status/shieldLoseStep"
+msgstr "軍階盾牌已減弱！"
+
+msgid "battleresult/status/shieldRenew"
+msgstr " \n軍階盾牌已恢復"
+
+msgid "battleresult/status/shieldWarning"
+msgstr " \n再一次戰敗可能會導致您失去軍階。"
+
+msgid "battleresult/status/stageEarned"
+msgstr "獲得折槓"
+
+msgid "battleresult/status/stageLost"
+msgstr "已失去折槓"
+
+msgid "battleresult/status/stageNotEarned"
+msgstr "已保住折槓"
+
+msgid "battleresult/status/stageSaved"
+msgstr "已保住折槓"
+
+msgid "battleresult/status/stagesEarned"
+msgstr "已獲得折槓"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgstr "賽季 %(seasonName)s 將持續 %(days)s 天"
+
+msgid "calendarDay/title"
+msgstr "時間表"
+
+msgid "calendarStepsTooltip/title"
+msgstr "階段時間表"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "不適用於此模式"
+
+msgid "division/bronze"
+msgstr "第三分組"
+
+msgid "division/classification"
+msgstr "外圍賽"
+
+msgid "division/gold"
+msgstr "第一分組"
+
+msgid "division/silver"
+msgstr "第二分組"
+
+msgid "division/status/completed"
+msgstr "已完成分組"
+
+msgid "division/status/completed/description"
+msgstr "您已成功完成選擇的分組。"
+
+msgid "division/status/locked"
+msgstr "分組無法使用"
+
+msgid "division/status/locked/description"
+msgstr "尚未完成前一個分組。"
+
+msgid "division/status/qualification"
+msgstr "參戰數：%(progress)s"
+
+msgid "division/status/qualification/progress"
+msgstr "%(current)s / %(total)s"
+
+msgid "division/status/qualificationDescr/complete"
+msgstr "外圍賽已完成"
+
+msgid "division/status/qualificationDescr/progress"
+msgstr "進行 %(battlesTotal)s 場戰鬥來完成外圍賽。\n完成外圍賽後，您將獲得進行%(battlesList)s戰鬥的獎勵。"
+
+msgid "division/tooltip/battlesDescription"
+msgstr "由 %(battlesCount)s 場戰鬥所組成"
+
+msgid "division/tooltip/desc/completed/text"
+msgstr "您已獲得此分組的所有軍階。"
+
+msgid "division/tooltip/desc/completedFinal/text"
+msgstr "您已獲得此分組的所有軍階並移動到聯賽。"
+
+msgid "division/tooltip/desc/completedQual/text"
+msgstr "已達成所需的外圍賽戰鬥數量。"
+
+msgid "division/tooltip/desc/current/text"
+msgstr "完成後，您將移動到下一個分組並獲得能加快進度的獎勵戰鬥。"
+
+msgid "division/tooltip/desc/currentFinal/text"
+msgstr "完成後，您將移動到聯賽並獲得獎勵戰鬥來鞏固或提升自己在賽季領先玩家中的名次。"
+
+msgid "division/tooltip/desc/currentQual/text"
+msgstr "完成外圍賽後，您將獲得進行 %(battles)s 場戰鬥的獎勵。\n完成外圍賽後，您將移動到第三分組並獲得能加快進度的獎勵戰鬥。"
+
+msgid "division/tooltip/desc/locked/text"
+msgstr "完成後，您將移動到下一個分組並獲得能加快進度的獎勵戰鬥。"
+
+msgid "division/tooltip/desc/lockedFinal/text"
+msgstr "完成後，您將移動到聯賽並獲得獎勵戰鬥來鞏固或提升自己在賽季領先玩家中的名次。"
+
+msgid "division/tooltip/desc/title"
+msgstr "說明："
+
+msgid "division/tooltip/rankDescription"
+msgstr "由 %(ranksCount)s 個軍階所組成"
+
+msgid "division/tooltip/status/completed"
+msgstr "已完成分組"
+
+msgid "division/tooltip/status/completedQual"
+msgstr "已完成"
+
+msgid "division/tooltip/status/current"
+msgstr "尚未完成分組"
+
+msgid "division/tooltip/status/currentQual"
+msgstr "尚未完成"
+
+msgid "division/tooltip/status/locked"
+msgstr "分組無法使用"
+
+msgid "division/tooltip/status/locked/desc"
+msgstr "請先完成前一個分組。"
+
+msgid "division/tooltip/status/locked/descQual"
+msgstr "外圍賽尚未完成。"
+
+msgid "introPage/alert/beforeSeason"
+msgstr "活動開始於："
+
+msgid "introPage/alert/disabled"
+msgstr "模式暫時無法使用。請稍後再回來。"
+
+msgid "introPage/blocks/block1/description"
+msgstr "10 對 10 的玩家戰鬥、採用一般戰鬥規則、地圖數量有限，以及只能用 X 階可研發與收藏車輛。"
+
+msgid "introPage/blocks/block1/title"
+msgstr "X 階車輛"
+
+msgid "introPage/blocks/block2/description"
+msgstr "完成在您通往榮耀之路上的 3 個分組，與技巧相若的玩家對戰來到達其中一個聯賽。"
+
+msgid "introPage/blocks/block2/title"
+msgstr "排名戰進度"
+
+msgid "introPage/blocks/block3/description"
+msgstr "各別完成三個賽季後，您將獲得 X 階車輛的一個特殊風格。您也將在 2021–2022 年的賽季結束後獲得珍貴獎勵與一輛獨特的 X 階車輛。"
+
+msgid "introPage/blocks/block3/title"
+msgstr "獨特獎勵"
+
+msgid "introPage/blocks/yearRewardDisabled"
+msgstr "每獲得一個軍階將讓您獲取珍貴獎勵。此外，您也將在完成全部三個賽季後獲取 X 階車輛的獨特風格。"
+
+msgid "introPage/btns/accept"
+msgstr "了解！"
+
+msgid "introPage/btns/detailed"
+msgstr "模式詳情"
+
+msgid "introPage/btns/toHangar"
+msgstr "前往車庫"
+
+msgid "introPage/description"
+msgstr "10 對 10 戰鬥、X 階車輛，榮耀之路上有 3 個分組。"
+
+msgid "introPage/timeLeft/days"
+msgstr "%(day)s 天 %(hour)s 小時"
+
+msgid "introPage/timeLeft/hours"
+msgstr "%(hour)s 小時 %(min)s 分鐘"
+
+msgid "introPage/timeLeft/lessMin"
+msgstr "1 分鐘"
+
+msgid "introPage/timeLeft/min"
+msgstr "%(min)s 分鐘"
+
+msgid "notification/rankEarned"
+msgstr "獲得軍階"
+
+msgid "notification/rankLost"
+msgstr "失去軍階"
+
+msgid "notification/rankedMessage"
+msgstr "恭喜！\n您達成了軍階 %(rankRoman)s\n獲得銀幣：%(creditsCount)s\n獲得點數：%(expCount)s\n獲得獎項：%(medalsCount)s"
+
+msgid "notification/stageEarned"
+msgstr "獲得折槓"
+
+msgid "notification/stageLost"
+msgstr "失去折槓"
+
+msgid "notification/stageNotEarned"
+msgstr "已保住折槓"
+
+msgid "notification/vehicleRankEarned"
+msgstr "獲得車輛軍階"
+
+msgid "notification/vehicleRankLost"
+msgstr "失去車輛軍階"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "伺服器 %(serverName)s\n戰鬥將於 %(primeDelta)s後可用"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "伺服器 %(serverName)s\n賽季 %(leftSeasonName)s 已結束。"
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "伺服器 %(serverName)s\n戰鬥將再持續 %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "伺服器 %(serverName)s\n戰鬥將於 %(primeDelta)s後可用"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "伺服器 %(serverName)s\n賽季 %(leftSeasonName)s 已結束。"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "伺服器 %(serverName)s\n戰鬥將於 %(primeDelta)s後可用"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "伺服器 %(serverName)s\n賽季 %(leftSeasonName)s 已結束。"
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s 天"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s 小時"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "一分鐘"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s 分鐘"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "所有伺服器都已實施休戰"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "%(serverName)s 伺服器上的賽季 %(leftSeasonName)s 已結束。"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "%(serverName)s 伺服器已實施休戰，直到 %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "%(serverName)s 伺服器上的賽季 %(leftSeasonName)s 已結束。"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "%(serverName)s 伺服器已實施休戰，直到 %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "%(serverName)s 伺服器上的賽季 %(leftSeasonName)s 已結束。"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "%(serverName)s 伺服器上的戰鬥將開始於 %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "%(serverName)s 伺服器上的賽季 %(leftSeasonName)s 已結束。"
+
+msgid "primeTimes/timeText/available"
+msgstr "%(serverName)s 伺服器上的戰鬥將再持續 %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "%(serverName)s 伺服器上的戰鬥將開始於 %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "%(serverName)s 伺服器上的賽季 %(leftSeasonName)s 已結束。"
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "%(serverName)s 伺服器上的戰鬥將開始於 %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "%(serverName)s 伺服器上的賽季 %(leftSeasonName)s 已結束。"
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "qualificationRewards/battlesNeeded"
+msgstr "進行 %(battlesCount)s 場戰鬥來完成外圍賽。"
+
+msgid "qualificationRewards/battlesPlayed"
+msgstr "參戰數："
+
+msgid "qualificationRewards/description"
+msgstr "完成外圍賽的獎勵，將於最後一場外圍賽戰鬥結束後發放。"
+
+msgid "quests/detailed/allServersPrime"
+msgstr "休戰期"
+
+msgid "quests/detailed/notInLeagues"
+msgstr "必須先達到聯賽"
+
+msgid "quests/detailed/seasonEnd/days"
+msgstr "賽季結束於 %(day)s 天"
+
+msgid "quests/detailed/seasonEnd/default"
+msgstr "賽季即將結束"
+
+msgid "quests/detailed/seasonEnd/hours"
+msgstr "賽季結束於 %(hour)s 小時"
+
+msgid "quests/detailed/seasonEnd/lessMin"
+msgstr "賽季結束於 1 分鐘內"
+
+msgid "quests/detailed/seasonEnd/min"
+msgstr "賽季結束於 %(min)s 分鐘"
+
+msgid "quests/detailed/unavailableLabel"
+msgstr "無法參與："
+
+msgid "quests/tooltip/unavailable/body/allServersPrime"
+msgstr "排名戰休戰期結束後，將可參與任務。"
+
+msgid "quests/tooltip/unavailable/body/notInLeagues"
+msgstr "必須先達到聯賽"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/days"
+msgstr "賽季結束於 %(day)s 天"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/default"
+msgstr "賽季即將結束"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/hours"
+msgstr "賽季結束於 %(hour)s 小時"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/lessMin"
+msgstr "賽季結束於 1 分鐘內"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/min"
+msgstr "賽季結束於 %(min)s 分鐘"
+
+msgid "quests/tooltip/unavailable/bottom"
+msgstr "無法完成"
+
+msgid "quests/tooltip/unavailable/header/allServersPrime"
+msgstr "休戰期"
+
+msgid "quests/tooltip/unavailable/header/notInLeagues"
+msgstr "未進入聯賽"
+
+msgid "quests/tooltip/unavailable/header/seasonEnd"
+msgstr "賽季結束"
+
+msgid "questsTooltip/available"
+msgstr "賽季結束於 %(timeDelta)s"
+
+msgid "questsTooltip/available/days"
+msgstr "%(day)s 天"
+
+msgid "questsTooltip/available/hours"
+msgstr "%(hour)s 小時"
+
+msgid "questsTooltip/available/lessMin"
+msgstr "少於 1 分鐘"
+
+msgid "questsTooltip/available/min"
+msgstr "%(min)s 分鐘"
+
+msgid "questsTooltip/bottom"
+msgstr "更多任務：%(number)d"
+
+msgid "questsTooltip/cooldown/days"
+msgstr "新任務將於 %(day)s 天後可用"
+
+msgid "questsTooltip/cooldown/hours"
+msgstr "新任務將於 %(hour)s 小時後可用"
+
+msgid "questsTooltip/cooldown/lessMin"
+msgstr "新任務將於 1 分鐘後可用"
+
+msgid "questsTooltip/cooldown/min"
+msgstr "新任務將於 %(min)s 分鐘後可用"
+
+msgid "questsTooltip/header"
+msgstr "排名戰任務"
+
+msgid "questsTooltip/unavailable/allServersPrime"
+msgstr "無法參與：目前為休戰期"
+
+msgid "questsTooltip/unavailable/notInLeagues"
+msgstr "無法使用：必須先達到聯賽"
+
+msgid "questsTooltip/unavailable/seasonEnd/days"
+msgstr "無法參與：賽季結束於 %(day)s 天"
+
+msgid "questsTooltip/unavailable/seasonEnd/hours"
+msgstr "無法參與：賽季結束於 %(hour)s 小時"
+
+msgid "questsTooltip/unavailable/seasonEnd/lessMin"
+msgstr "無法參與：賽季結束於 1 分鐘內"
+
+msgid "questsTooltip/unavailable/seasonEnd/min"
+msgstr "無法參與：賽季結束於 %(min)s 分鐘"
+
+msgid "rankedAwards/awardsBlock/awardsHeaderTxt"
+msgstr "達成軍階的獎勵"
+
+msgid "rankedAwards/awardsBlock/crystal"
+msgstr "點券"
+
+msgid "rankedAwards/awardsBlock/description"
+msgstr "您的最高軍階"
+
+msgid "rankedAwards/awardsBlock/points"
+msgstr "點數"
+
+msgid "rankedAwards/awardsBlock/title"
+msgstr "階段 %(cycleNumber)s 結果"
+
+msgid "rankedBattle/title"
+msgstr "排名戰"
+
+msgid "rankedBattleCyclesView/tabs/final"
+msgstr "決賽"
+
+msgid "rankedBattleCyclesView/tabs/ranks"
+msgstr "軍階"
+
+msgid "rankedBattleCyclesView/title"
+msgstr "賽季獎勵"
+
+msgid "rankedBattleHeader/points/current"
+msgstr "進行中"
+
+msgid "rankedBattleHeader/points/final"
+msgstr "總點數：%(points)s"
+
+msgid "rankedBattleHeader/points/past"
+msgstr "點數：%(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/body"
+msgstr "當前階段將於 %(date)s 結束"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/header"
+msgstr "階段 %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/body"
+msgstr "上個階段獲得的所有點數都會相加到決賽中，然後玩家獲得獎勵。\n賽季決賽──%(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/header"
+msgstr "賽季決賽"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/body"
+msgstr "該階段將於 %(date)s 開始"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/header"
+msgstr "階段 %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/body"
+msgstr "獲得點數：%(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/header"
+msgstr "階段 %(cycle)d 已結束"
+
+msgid "rankedBattleHeader/tooltip/date"
+msgstr "%y.%m.%d"
+
+msgid "rankedBattleMainView/bonusBattles"
+msgstr "獎勵戰鬥：%(battlesCount)s"
+
+msgid "rankedBattleMainView/date/days"
+msgstr "距離結束還剩 %(day)s 天"
+
+msgid "rankedBattleMainView/date/hours"
+msgstr "距離結束還剩 %(hour)s 小時"
+
+msgid "rankedBattleMainView/date/lessMin"
+msgstr "距離結束不到 1 分鐘"
+
+msgid "rankedBattleMainView/date/min"
+msgstr "距離結束還剩 %(min)s 分鐘"
+
+msgid "rankedBattleMainView/date/period"
+msgstr "%(start)s–%(finish)s"
+
+msgid "rankedBattleMainView/divisions/currentRank"
+msgstr "您的軍階"
+
+msgid "rankedBattleMainView/divisions/rank"
+msgstr "軍階 %(rank)s"
+
+msgid "rankedBattleMainView/emptyBubble"
+msgstr " "
+
+msgid "rankedBattleMainView/infoPage/header"
+msgstr "X 階車輛、角色經驗、獎勵戰鬥、3 個分組的進度，以及聯賽的戰鬥。"
+
+msgid "rankedBattleMainView/leaguesView/descr"
+msgstr "獲得折槓及改善您的表現來提高排行榜上的名次並達到前 %(count)d 名。"
+
+msgid "rankedBattleMainView/leaguesView/league1"
+msgstr "黃金聯賽"
+
+msgid "rankedBattleMainView/leaguesView/league2"
+msgstr "白銀聯賽"
+
+msgid "rankedBattleMainView/leaguesView/league3"
+msgstr "青銅聯賽"
+
+msgid "rankedBattleMainView/leaguesView/top"
+msgstr "前 %(count)d 名"
+
+msgid "rankedBattleMainView/leaguesView/topDescr"
+msgstr "獲得折槓及改善您的表現來提高排行榜上的名次並維持在前 %(count)d 名。"
+
+msgid "rankedBattleMainView/leaguesView/unavailableDescr"
+msgstr "正在計算您的聯賽。 結果很快就會公布。"
+
+msgid "rankedBattleMainView/leaguesView/unavailableTitle"
+msgstr "聯賽尚未計算出來"
+
+msgid "rankedBattleMainView/leaguesView/yearLeaderboardDisabled"
+msgstr "獲得折槓及改善您的表現來維持您在聯賽的排名。"
+
+msgid "rankedBattleMainView/season"
+msgstr "賽季 %(season)s"
+
+msgid "rankedBattleMainView/seasonComplete"
+msgstr "賽季 %(season)s 已經結束"
+
+msgid "rankedBattleMainView/seasonCompleteSingle"
+msgstr "賽季 %(season)s 已經結束。"
+
+msgid "rankedBattleMainView/seasonGap"
+msgstr "接下來的賽季 %(newSeason)s 將開始於 %(date)s"
+
+msgid "rankedBattleMainView/seasonGap/bannedDivision/descr"
+msgstr "由於您違反遊戲規則，所有在賽季中獲得的軍階代幣都已被移除。"
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/descr"
+msgstr "由於您違反遊戲規則，您已被排除在賽季領先玩家名單之外。所有在賽季中獲得的軍階代幣都已被移除。"
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/withoutPoints/descr"
+msgstr "由於您違反遊戲規則，您已被排除在賽季領先玩家名單之外。"
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInDivisions/descr"
+msgstr "由於您違反遊戲規則，1 個軍階代幣已被移除"
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInSeason/descr"
+msgstr "由於您違反遊戲規則，所有在賽季中獲得的軍階代幣都已被移除。"
+
+msgid "rankedBattleMainView/seasonGap/division/descr"
+msgstr "您在這個賽季達成的最高軍階"
+
+msgid "rankedBattleMainView/seasonGap/division/ratingBtn"
+msgstr "賽季領先玩家"
+
+msgid "rankedBattleMainView/seasonGap/division/title"
+msgstr "軍階 %(rank)s (%(division)s)"
+
+msgid "rankedBattleMainView/seasonGap/league/descr"
+msgstr "恭喜成功完成這個賽季！"
+
+msgid "rankedBattleMainView/seasonGap/league/ratingBtn"
+msgstr "前往排行榜"
+
+msgid "rankedBattleMainView/seasonGap/league1"
+msgstr "黃金聯賽"
+
+msgid "rankedBattleMainView/seasonGap/league2"
+msgstr "白銀聯賽"
+
+msgid "rankedBattleMainView/seasonGap/league3"
+msgstr "青銅聯賽"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/descr"
+msgstr "您於此賽季中的最高結果"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/title"
+msgstr "您已完成外圍賽"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/descr"
+msgstr "您在這個賽季沒有獲得任何軍階"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/title"
+msgstr "沒有軍階"
+
+msgid "rankedBattleMainView/seasonGap/rolledDivision/descr"
+msgstr "由於您曾恢復帳號，您已被排除在賽季領先玩家名單之外。"
+
+msgid "rankedBattleMainView/seasonGap/rolledLeague/descr"
+msgstr "由於您曾恢復帳號，您已被排除在賽季領先玩家名單之外。"
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInDivisions/descr"
+msgstr "由於您曾恢復帳號，您已被排除在賽季領先玩家名單之外。"
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInSeason/descr"
+msgstr "由於您曾恢復帳號，您已被排除在賽季領先玩家名單之外。"
+
+msgid "rankedBattleMainView/seasonGap/stats/efficiency"
+msgstr "表現"
+
+msgid "rankedBattleMainView/seasonGap/stats/outOfRating"
+msgstr "排行榜之外"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/descr"
+msgstr "在計算過後，您就會看見自己的最終結果並獲得應得的獎勵"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/title"
+msgstr "正在計算結果"
+
+msgid "rankedBattleMainView/specialSeason"
+msgstr "X"
+
+msgid "rankedBattleMainView/stats/battlesInLeague"
+msgstr "聯賽的戰鬥數"
+
+msgid "rankedBattleMainView/stats/battlesTotal"
+msgstr "總戰鬥數"
+
+msgid "rankedBattleMainView/stats/divisionEfficiency"
+msgstr "分組中的表現"
+
+msgid "rankedBattleMainView/stats/qualificationEfficiency"
+msgstr "外圍賽中的\n表現"
+
+msgid "rankedBattleMainView/stats/qualificationSteps"
+msgstr "外圍賽中的\n折槓"
+
+msgid "rankedBattleMainView/stats/rating/title"
+msgstr "排行榜上的名次"
+
+msgid "rankedBattleMainView/stats/rating/tooltip"
+msgstr "排行榜每 %(minutes)s 分鐘更新一次。上次更新：%(time)s"
+
+msgid "rankedBattleMainView/stats/rating/unavailableTooltip"
+msgstr "由於技術性原因，排行榜暫時不會更新。"
+
+msgid "rankedBattleMainView/stats/seasonEfficiency"
+msgstr "一般表現"
+
+msgid "rankedBattleMainView/stats/stripesInLeague"
+msgstr "聯賽的折槓數"
+
+msgid "rankedBattleMainView/stats/stripesTotal"
+msgstr "折槓總數"
+
+msgid "rankedBattleMainView/yearGap/header"
+msgstr "您在 2021–2022 年的結果"
+
+msgid "rankedBattlePage/closeBtn"
+msgstr "關閉"
+
+msgid "rankedBattleView/awardBlock/emptyLeague"
+msgstr "—"
+
+msgid "rankedBattleView/awardBlock/points/currLeagueHeader"
+msgstr "當前聯賽"
+
+msgid "rankedBattleView/awardBlock/points/header"
+msgstr "賽季領先玩家"
+
+msgid "rankedBattleView/awardBlock/points/noLeagueHeader"
+msgstr "排行榜之外"
+
+msgid "rankedBattleView/awardBlock/points/noPriseHeader"
+msgstr "Wood 聯賽"
+
+msgid "rankedBattleView/awardBlock/points/totalLabel"
+msgstr "總點數： "
+
+msgid "rankedBattleView/awardBlock/pointsAlt/description"
+msgstr "點擊以檢視賽季領先玩家"
+
+msgid "rankedBattleView/awardBlock/quest/description/battlesLeft"
+msgstr "實際要進行的戰鬥："
+
+msgid "rankedBattleView/awardBlock/quest/description/noQuest"
+msgstr "無當前任務"
+
+msgid "rankedBattleView/awardBlock/quest/header"
+msgstr "任務"
+
+msgid "rankedBattleView/awardBlock/seasonAward/description"
+msgstr "點擊以檢視獎勵"
+
+msgid "rankedBattleView/awardBlock/seasonAward/header"
+msgstr "賽季獎項"
+
+msgid "rankedBattleView/closeBtn"
+msgstr "返回"
+
+msgid "rankedBattleView/closeBtnDescr"
+msgstr "前往車庫"
+
+msgid "rankedBattleView/nextStageBlock/stage"
+msgstr "階段 %(cycleNumber)s"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/body"
+msgstr "點擊以開始您的排名戰旅程。"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/header"
+msgstr "前進！"
+
+msgid "rankedBattleView/playVideoBtn"
+msgstr "關於模式的影片"
+
+msgid "rankedBattleView/progressBlock/bestRank"
+msgstr "賽季紀錄"
+
+msgid "rankedBattleView/progressBlock/continue"
+msgstr "獲得點數以在決賽中得到獎勵"
+
+msgid "rankedBattleView/progressBlock/currentRank"
+msgstr "您的當前軍階：%(rank)s"
+
+msgid "rankedBattleView/progressBlock/finalRank"
+msgstr "恭喜！您達成了本賽季的最高軍階 %(rank)s。"
+
+msgid "rankedBattleView/progressBlock/steps"
+msgstr "折槓：%(numbers)s"
+
+msgid "rankedBattleView/progressBlock/vehicleRank"
+msgstr "軍階代幣"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/body"
+msgstr "點擊以檢視所有賽季階段的資訊。"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/header"
+msgstr "行事曆"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/attentionText"
+msgstr "階段 %(cycleNumber)s 的結果於 %(timeLeft)s"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/cycleItem"
+msgstr "賽季 %(cycleNumber)s：%(day0)s/%(month0)s—%(day1)s/%(month1)s"
+
+msgid "rankedBattleView/statusBlock/statusText"
+msgstr "賽季結果將完成於： "
+
+msgid "rankedBattleView/title"
+msgstr "排名戰"
+
+msgid "rankedBattlesBattleResults/animationCheckBoxLabel"
+msgstr "顯示動畫"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s無法參與排名戰。"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/header"
+msgstr "不相容的車輛類型"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/body"
+msgstr "選擇 %(levelSubStr)s來參與排名戰。"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/header"
+msgstr "不相容的車輛階級"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s 階車輛"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s 無法參與排名戰。"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/header"
+msgstr "不相容的車輛"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/body"
+msgstr "會在階段結束時收到珍貴的獎勵。獎勵的數量及其品質取決於排行榜的名次。"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/header"
+msgstr "帶有獎勵的箱子"
+
+msgid "rankedBattlesCyclesView/btnClose"
+msgstr "關閉"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/awardRecieved"
+msgstr "已獲得獎勵"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/body"
+msgstr "會在一個階段結束時收到珍貴的獎勵。獎勵的數量及其品質取決於排行榜上的名次。"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/header"
+msgstr "帶有獎勵的箱子"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/body"
+msgstr "可以兌換成新的獨特物品：個人儲備和稀有裝備。一張點券可兌換成一套個人儲備或裝備。您獲得的點券越多，您得到的物品就越珍貴。"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/header"
+msgstr "點券"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rank"
+msgstr "軍階"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rankAward"
+msgstr "達成軍階的獎勵"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body"
+msgstr "頒給在一個階段期間達到最佳成績。就算失去軍階也不會重置其最佳成績。"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/header"
+msgstr "階段結束時的獎勵"
+
+msgid "rankedBattlesCyclesView/currentCycle/vehicleRankComment"
+msgstr "一般獎勵"
+
+msgid "rankedBattlesCyclesView/final/btnLadder"
+msgstr "前往排行榜"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/body"
+msgstr "點擊以前往賽季領先玩家名單並檢視您的名次。"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/header"
+msgstr "賽季領先玩家"
+
+msgid "rankedBattlesCyclesView/final/first"
+msgstr "前 %(count)s 名玩家"
+
+msgid "rankedBattlesCyclesView/final/intermediate"
+msgstr "下 %(count)s 個"
+
+msgid "rankedBattlesCyclesView/final/last"
+msgstr "Wood 聯賽"
+
+msgid "rankedBattlesCyclesView/final/lastComment"
+msgstr "獲得點數以登上排行榜。\n您會獲得的最終獎勵將取決於\n自己當前的聯賽。"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip"
+msgstr "您當前聯賽的資訊暫時無法使用。請稍後再試。"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/position"
+msgstr "排行榜上的名次"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/seasonAward"
+msgstr "最終獎勵"
+
+msgid "rankedBattlesCyclesView/noAchievements/future/footer"
+msgstr "從 %(start)s 到 %(end)s"
+
+msgid "rankedBattlesCyclesView/noAchievements/past/footer"
+msgstr "您在當前階段期間沒有達到任何軍階。\n獲得的點數：%(points)s"
+
+msgid "rankedBattlesUnreachableView/bottom/missions"
+msgstr "完成個人任務"
+
+msgid "rankedBattlesUnreachableView/bottom/premium"
+msgstr "使用 %(premiumType)s 加值帳號"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/basic"
+msgstr "戰遊網"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/plus"
+msgstr "戰車世界"
+
+msgid "rankedBattlesUnreachableView/bottom/reserves"
+msgstr "啟用個人儲備"
+
+msgid "rankedBattlesUnreachableView/bottomText"
+msgstr "研發 %(levels)s 階車輛最快的方式為何？"
+
+msgid "rankedBattlesUnreachableView/closeBtnLabel"
+msgstr "關閉"
+
+msgid "rankedBattlesUnreachableView/subtitleText"
+msgstr "模式無法使用"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForBuy"
+msgstr "您的車庫中必須有 %(levels)s 階車輛才能參與排名戰。\n您已研發 %(levels)s 階車輛但尚未購買。"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForRestore"
+msgstr "您的車庫中必須有 %(levels)s 階車輛才能參與排名戰。\n您擁有可重新找回的 %(levels)s 階車輛。"
+
+msgid "rankedBattlesUnreachableView/vehicleUnavailable"
+msgstr "您的車庫中必須有 %(levels)s 階車輛才能參與排名戰。"
+
+msgid "rankedBattlesViewHeader/tabs/current"
+msgstr "軍階"
+
+msgid "rankedBattlesViewHeader/tabs/final"
+msgstr "決賽"
+
+msgid "rankedBattlesWidget/bonusMultiplier"
+msgstr "x%(count)s"
+
+msgid "rankedBattlesWidget/bonusSteps"
+msgstr "獎勵戰鬥"
+
+msgid "rankedBattlesWidget/league0"
+msgstr "未知"
+
+msgid "rankedBattlesWidget/league1"
+msgstr "黃金"
+
+msgid "rankedBattlesWidget/league2"
+msgstr "白銀"
+
+msgid "rankedBattlesWidget/league3"
+msgstr "青銅"
+
+msgid "rankedBattlesWidget/leagueDecrease/info"
+msgstr "您已返回到%(leagueName)s聯賽"
+
+msgid "rankedBattlesWidget/leagueDecrease/title"
+msgstr "已變更聯賽"
+
+msgid "rankedBattlesWidget/leagueIncrease/info"
+msgstr "您已移動到%(leagueName)s聯賽"
+
+msgid "rankedBattlesWidget/leagueIncrease/title"
+msgstr "已變更聯賽"
+
+msgid "rankedBattlesWidget/leaguesAchievment/info"
+msgstr "現在您可以爭奪排行榜上的名次"
+
+msgid "rankedBattlesWidget/leaguesAchievment/title"
+msgstr "可進入聯賽"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/info"
+msgstr "您已移動到下一個分組"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/title"
+msgstr "新的分組"
+
+msgid "rankedBattlesWidget/newRankCongrat"
+msgstr "恭喜！\n已獲得軍階！"
+
+msgid "rankedBattlesWidget/noChanges"
+msgstr "沒有變化"
+
+msgid "rankedBattlesWidget/qualificationIdleText"
+msgstr "完成外圍賽的戰鬥數量：\n%(currentBattles)s / %(totalBattles)s"
+
+msgid "rewardsView/common/currentReward"
+msgstr "獎勵競爭者"
+
+msgid "rewardsView/tabs/leagues"
+msgstr "聯賽的獎勵"
+
+msgid "rewardsView/tabs/leagues/awardDescr/style"
+msgstr "「%(styleName)s」風格與「%(badgeName)s」徽章"
+
+msgid "rewardsView/tabs/leagues/description"
+msgstr "頒發的風格和徽章為臨時的，到下一個賽季結束前玩家都能使用。為了衛冕它們的使用權，玩家必須再次到達同一個聯賽。如果玩家沒有到達其中一個聯賽，就無法使用該風格和徽章。如果玩家到達另一個聯賽，就會替換為相應的風格和徽章。"
+
+msgid "rewardsView/tabs/leagues/description/league1"
+msgstr "此風格是頒發給展現了非凡成果的賽季贏家：完成所有分組，並且在表現方面置身前 20%% 玩家、或是成為第一批進入聯賽的玩家。可套用於車輛，此風格證明了主人的實際成就。每個賽季都必須參加排名戰模式來衛冕此風格的使用權。"
+
+msgid "rewardsView/tabs/leagues/description/league2"
+msgstr "此風格是頒發給展現出適當程度的熟練及投入，在賽季結束時進入白銀聯賽的賽季贏家。可套用於車輛，此風格證明了主人的實際成就。每個賽季都必須參加排名戰模式來衛冕此風格的使用權。"
+
+msgid "rewardsView/tabs/leagues/description/league3"
+msgstr "此風格是頒發給在賽季結束時進入青銅聯賽的賽季贏家。可套用於車輛，此風格證明了主人的實際成就。每個賽季都必須參加排名戰模式來衛冕此風格的使用權。"
+
+msgid "rewardsView/tabs/leagues/league1"
+msgstr "黃金聯賽"
+
+msgid "rewardsView/tabs/leagues/league2"
+msgstr "白銀聯賽"
+
+msgid "rewardsView/tabs/leagues/league3"
+msgstr "青銅聯賽"
+
+msgid "rewardsView/tabs/ranks"
+msgstr "軍階的獎勵"
+
+msgid "rewardsView/tabs/year"
+msgstr "年度獎勵"
+
+msgid "rewardsView/tabs/year/compensation/extraPoints"
+msgstr "由於 %(points)s %(rankedImg)s，您獲得了 %(crystal)s %(crystalImg)s 作為補償"
+
+msgid "rewardsView/tabs/year/compensation/notEnough"
+msgstr "您獲得了 %(crystal)s %(crystalImg)s 作為補償"
+
+msgid "rewardsView/tabs/year/current"
+msgstr "獎勵競爭者"
+
+msgid "rewardsView/tabs/year/currentChoose"
+msgstr "選擇獎勵"
+
+msgid "rewardsView/tabs/year/currentFinal"
+msgstr "已獲得獎勵"
+
+msgid "rewardsView/tabs/year/title/awarded"
+msgstr "軍階代幣：%(points)s"
+
+msgid "rewardsView/tabs/year/title/notAwarded"
+msgstr "軍階代幣：%(points)s"
+
+msgid "seasonComplete/bestRank"
+msgstr "您達成的最高軍階"
+
+msgid "seasonComplete/bigTitle"
+msgstr "賽季 %(season)s 的結果"
+
+msgid "seasonComplete/division/tooltip/header"
+msgstr "軍階 %(rank)s (%(division)s)"
+
+msgid "seasonComplete/effectLabel"
+msgstr "表現"
+
+msgid "seasonComplete/leadersButton"
+msgstr "賽季領先玩家"
+
+msgid "seasonComplete/outOfRating"
+msgstr "排行榜之外"
+
+msgid "seasonComplete/placeInRating"
+msgstr "排行榜上的名次"
+
+msgid "seasonComplete/smallTitle"
+msgstr "排名戰"
+
+msgid "seasonComplete/sprinterImproved"
+msgstr "您是第一批進入聯賽的玩家，並且將獲得黃金聯賽的獎勵。"
+
+msgid "seasonComplete/sprinterTop"
+msgstr "您是第一批進入聯賽的玩家。"
+
+msgid "seasonComplete/tooltip/body"
+msgstr "您在賽季 %(season)s 的結果"
+
+msgid "selectableReward/subTitle"
+msgstr "選擇您的獎勵"
+
+msgid "selectableReward/title"
+msgstr "排名戰。%(rewardName)s"
+
+msgid "selectableReward/tooltip/equipmentChoice/limit"
+msgstr "清單中的每個物品僅能領取一次。"
+
+msgid "selectableReward/tooltip/equipmentChoice/list"
+msgstr "• 通風系統\n• 穩定設備系統\n• 新型裝填系統\n• 耐磨型火炮控制裝置\n• 實驗型望遠鏡\n• 改良型車輛配置\n• 改良型渦輪增壓器\n• 抗彈性強化"
+
+msgid "selectableReward/tooltip/equipmentChoice/title"
+msgstr "可選擇的改良型裝備"
+
+msgid "selectorTooltip/desc"
+msgstr "駕駛 X 階可研發與收藏車輛在一般戰鬥規則下戰鬥。隊伍將會由軍階大致相近的玩家所組成。"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "賽季將結束於："
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "戰鬥時間表"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "今天"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "明天"
+
+msgid "selectorTooltip/title"
+msgstr "排名戰"
+
+msgid "statistic/playersRaiting"
+msgstr "賽季領先玩家"
+
+msgid "statistic/vehicleRank"
+msgstr "獲得的軍階代幣"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s 天"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s 小時"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 分鐘"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s 分鐘"
+
+msgid "tooltip/closeButton/body"
+msgstr "獎勵將會自動新增。"
+
+msgid "tooltip/closeButton/header"
+msgstr "回到車庫"
+
+msgid "tooltip/step/conditions"
+msgstr "如果玩家獲得置身%(team)s\n前 %(battlesNum)s 名的經驗"
+
+msgid "tooltip/step/conditions/header"
+msgstr "獲得折槓"
+
+msgid "tooltip/step/decommission/description"
+msgstr "如果玩家獲得的經驗排在失敗隊伍 %(fromTill)s 名。"
+
+msgid "tooltip/step/decommission/header"
+msgstr "失去折槓"
+
+msgid "tooltip/step/decommissionWin/description"
+msgstr "如果玩家獲得的經驗排在獲勝隊伍 %(fromTill)s 名。"
+
+msgid "tooltip/step/description"
+msgstr "一個代表著您邁向下個軍階的元素"
+
+msgid "tooltip/step/fromTill"
+msgstr "%(fromPlace)s–%(tillPlace)s"
+
+msgid "tooltip/step/header"
+msgstr "折槓"
+
+msgid "tooltip/step/losers"
+msgstr "失敗隊伍"
+
+msgid "tooltip/step/notCharged/description"
+msgstr "如果玩家沒有獲得置身獲勝隊伍前 %(battlesNum)s 名的經驗，但排在 %(fromTill)s 名。"
+
+msgid "tooltip/step/notCharged/header"
+msgstr "保住折槓"
+
+msgid "tooltip/step/notChargedLose/description"
+msgstr "如果玩家沒有獲得置身失敗隊伍前 %(battlesNum)s 名的經驗，但排在 %(fromTill)s 名。"
+
+msgid "tooltip/step/or"
+msgstr "或"
+
+msgid "tooltip/step/winners"
+msgstr "獲勝隊伍"
+
+msgid "welcomeScreen/btn"
+msgstr "前進！"
+
+msgid "welcomeScreen/centerRule"
+msgstr "在戰鬥中對抗傑出的對手就能達到更高的軍階"
+
+msgid "welcomeScreen/centerRuleTooltip/body"
+msgstr "您的隊伍和敵人隊伍將會由軍階大致相近的玩家所組成。"
+
+msgid "welcomeScreen/centerRuleTooltip/header"
+msgstr "傑出的對手"
+
+msgid "welcomeScreen/closeBtn"
+msgstr "關閉"
+
+msgid "welcomeScreen/closeBtnTooltip/body"
+msgstr "點擊以關閉畫面並返回車庫。"
+
+msgid "welcomeScreen/closeBtnTooltip/header"
+msgstr "關閉"
+
+msgid "welcomeScreen/equalityText"
+msgstr "="
+
+msgid "welcomeScreen/header"
+msgstr "歡迎！"
+
+msgid "welcomeScreen/leftRule"
+msgstr "用您最愛的 X 階車輛\n進行戰鬥"
+
+msgid "welcomeScreen/leftRuleTooltip/body"
+msgstr "用您最愛的 X 階可研發或收藏車輛\n進行戰鬥"
+
+msgid "welcomeScreen/leftRuleTooltip/header"
+msgstr "X 階"
+
+msgid "welcomeScreen/negative/body"
+msgstr "{team}，獲得置身己方隊伍前 {topNumber} 名的經驗。"
+
+msgid "welcomeScreen/negative/team"
+msgstr "輸了一場戰鬥"
+
+msgid "welcomeScreen/positive/body"
+msgstr "{team}，獲得置身己方隊伍前 {topNumber} 名的經驗。"
+
+msgid "welcomeScreen/positive/team"
+msgstr "贏得一場戰鬥"
+
+msgid "welcomeScreen/rankDescr"
+msgstr "為了達成軍階 1"
+
+msgid "welcomeScreen/ranks/header"
+msgstr "獲得置身前幾名的經驗並達成更高的軍階！"
+
+msgid "welcomeScreen/ranksDescr"
+msgstr "您達成的名次越高，就能獲得越珍貴的獎勵。"
+
+msgid "welcomeScreen/rightRule"
+msgstr "軍階越高，您最終會收到越珍貴的獎勵"
+
+msgid "welcomeScreen/rightRuleTooltip/body"
+msgstr "您達成的軍階越高，就能獲得越珍貴的獎勵。"
+
+msgid "welcomeScreen/rightRuleTooltip/header"
+msgstr "珍貴的獎勵"
+
+msgid "welcomeScreen/rulesDelimeter"
+msgstr "或"
+
+msgid "yearLeaderboard/rewardView/battleType"
+msgstr "排名戰"
+
+msgid "yearLeaderboard/rewardView/clanDescr"
+msgstr "[%(clan)s] "
+
+msgid "yearLeaderboard/rewardView/leaderboardBtn/label"
+msgstr "前往排行榜"
+
+msgid "yearLeaderboard/rewardView/positionDescr"
+msgstr "{name} {clan}在排行榜的排名"
+
+msgid "yearLeaderboard/rewardView/reward/label"
+msgstr "您獲得可置於暱稱旁的特殊%(name)徽章。"
+
+msgid "yearLeaderboard/rewardView/reward/nameTemplate"
+msgstr "「{name}」"
+
+msgid "yearLeaderboard/rewardView/title"
+msgstr "您達到前 {total} 名"
+
+msgid "yearRewards/box/big/title"
+msgstr "高級獎勵"
+
+msgid "yearRewards/box/large/title"
+msgstr "最高獎勵"
+
+msgid "yearRewards/box/medium/title"
+msgstr "一般獎勵"
+
+msgid "yearRewards/box/small/title"
+msgstr "小型獎勵"
+
+msgid "yearRewards/tooltip/any/reward/title"
+msgstr "獎勵"
+
+msgid "yearRewards/tooltip/box/big/title"
+msgstr "高級獎勵"
+
+msgid "yearRewards/tooltip/box/large/title"
+msgstr "最高獎勵"
+
+msgid "yearRewards/tooltip/box/medium/title"
+msgstr "一般獎勵"
+
+msgid "yearRewards/tooltip/box/small/title"
+msgstr "小型獎勵"
+
+msgid "yearRewards/tooltip/box/subTitle"
+msgstr "年度獎勵。只有在三個排名戰賽季結束後才頒發，玩家必須獲得所需數量的軍階代幣。"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/1"
+msgstr "您可選擇一個改良型裝備作為獎勵："
+
+msgid "yearRewards/tooltip/equipmentChoice/description/2"
+msgstr "您可選擇兩個改良型裝備作為獎勵。每種裝備僅能獲得一次："
+
+msgid "yearRewards/tooltip/equipmentChoice/description/3"
+msgstr "您可選擇三個改良型裝備作為獎勵。每種裝備僅能獲得一次："
+
+msgid "yearRewards/tooltip/equipmentChoice/list"
+msgstr "• 通風系統\n• 穩定設備系統\n• 新型裝填系統\n• 耐磨型火炮控制裝置\n• 實驗型望遠鏡\n• 改良型車輛配置\n• 改良型渦輪增壓器\n• 抗彈性強化"
+
+msgid "yearRewards/tooltip/equipmentChoice/title"
+msgstr "改良型裝備"
+
+msgid "yearRewards/tooltip/needPoints"
+msgstr "需要的軍階代幣數"
+
+msgid "yearRewards/tooltip/status/current/description"
+msgstr "由於您已獲得所需數量的軍階代幣，因此您是年度獎勵的競爭者。"
+
+msgid "yearRewards/tooltip/status/current/title"
+msgstr "您目前的獎勵"
+
+msgid "yearRewards/tooltip/status/currentChoose/description"
+msgstr "您獲得了年度獎勵！點擊「選擇獎勵」按鈕來選擇改良型裝備物品。"
+
+msgid "yearRewards/tooltip/status/currentChoose/title"
+msgstr "已獲得獎勵！已可選擇改良型裝備物品。"
+
+msgid "yearRewards/tooltip/status/currentFinal/description"
+msgstr "您獲得了年度獎勵！"
+
+msgid "yearRewards/tooltip/status/currentFinal/title"
+msgstr "已獲得獎勵！"
+
+msgid "yearRewards/tooltip/status/locked/description"
+msgstr "在排名戰中通過分組與進入聯賽來獲得它們。"
+
+msgid "yearRewards/tooltip/status/locked/title"
+msgstr "軍階代幣不足"
+
+msgid "yearRewards/tooltip/status/lockedFinal/description"
+msgstr "您尚未獲得足夠的軍階代幣來獲取此獎勵。"
+
+msgid "yearRewards/tooltip/status/lockedFinal/title"
+msgstr "軍階代幣不足"
+
+msgid "yearRewards/tooltip/status/passed/description"
+msgstr "您已經是更為珍貴的年度獎勵競爭者"
+
+msgid "yearRewards/tooltip/status/passed/title"
+msgstr "獎勵無法使用"
+
+msgid "yearRewards/tooltip/status/passedFinal/description"
+msgstr "您已經獲得更為珍貴的年度獎勵"
+
+msgid "yearRewards/tooltip/status/passedFinal/title"
+msgstr "獎勵無法使用"
+
+msgid "year_award/acceptButton/acceptLabel"
+msgstr "了解！"
+
+msgid "year_award/acceptButton/hangarLabel"
+msgstr "在車庫中檢視"
+
+msgid "year_award/compensationLabel"
+msgstr "您獲得了 {total} {pointsIcon}。由於其中 {compensated} {pointsIcon}，您獲得了 {crystals} {crystalIcon} 作為補償。"
+
+msgid "year_award/rankedLabel"
+msgstr "排名戰"
+
+msgid "year_award/rewardSelected"
+msgstr "已獲得獎勵"
+
+msgid "year_award/rewardsToSelect"
+msgstr "可選擇的獎勵：{count}"

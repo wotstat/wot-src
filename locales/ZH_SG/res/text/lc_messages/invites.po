@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)s查看%(linkEndTag)s玩家资料"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)s申请加入%(titleEndTag)s\n来自 %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "查看申请"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)s关闭%(linkEndTag)s提醒"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)s玩家申请%(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)s查看%(linkEndTag)s军团资料"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)s邀请加入军团%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "查看邀请"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)s军团邀请: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "玩家已批准加入军团。"
+
+msgid "clans/state/app/declined"
+msgstr "拒绝申请。"
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "玩家尚处在退出之前军团的1天惩罚期内。"
+
+msgid "clans/state/invite/accepted"
+msgstr "您已被批准加入军团。"
+
+msgid "clans/state/invite/declined"
+msgstr "已拒绝邀请。"
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "您尚处在退出上个军团的1天惩罚期内。"
+
+msgid "errors/creationNotAllowed"
+msgstr "没有足够权限发出邀请。"
+
+msgid "errors/invalid"
+msgstr "邀请失效。"
+
+msgid "errors/inviteNotSupported"
+msgstr "这种类型的邀请，目前无法使用。请稍后再试。"
+
+msgid "errors/receiverIgnoreSender"
+msgstr "被邀请的玩家已经把您加入到他的黑名单。"
+
+msgid "errors/selfinvite"
+msgstr "您不能邀请自己。"
+
+msgid "errors/unknownuser"
+msgstr "该用户还未在系统中注册。"
+
+msgid "errors/useroffline"
+msgstr "用户是离线状态。"
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "这辆战车损坏或被冻结，请选择其它战车。"
+
+msgid "friendship/note/approved"
+msgstr "已加入好友列表"
+
+msgid "friendship/note/canceled"
+msgstr "邀请撤除"
+
+msgid "friendship/note/maxRoster"
+msgstr "联系人数量已达到上限: %(rosterMaxCount)s. 请删除其他玩家后再添加。"
+
+msgid "friendship/note/notConnected"
+msgstr "无法连接到服务器请等待。"
+
+msgid "friendship/note/process"
+msgstr "正在等待服务器回应"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)s好友邀请%(titleEndTag)s\n来自 %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "接受"
+
+msgid "gui/buttons/cancel"
+msgstr "取消"
+
+msgid "gui/buttons/reject"
+msgstr "拒绝"
+
+msgid "gui/buttons/send"
+msgstr "发送"
+
+msgid "gui/labels/additionalText"
+msgstr "额外邀请信息："
+
+msgid "gui/labels/inviteText"
+msgstr "邀请信息："
+
+msgid "gui/labels/receiver"
+msgstr "收件人："
+
+msgid "gui/titles/barter"
+msgstr "交易邀请"
+
+msgid "gui/titles/clan"
+msgstr "军团邀请"
+
+msgid "gui/titles/invite"
+msgstr "邀请"
+
+msgid "gui/titles/receivedInvites"
+msgstr "邀请信"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "一旦您接受邀请，您将自动退出作战部队并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "一旦您接受邀请，您将自动退出作战部队并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "一旦您接受邀请，您将自动退出世界地图的战斗并且转移到%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "一旦您接受邀请，您将自动退出作战部队并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "一旦您接受邀请，您将自动退出作战部队并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "一旦您接受邀请，您将自动退出作战部队并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "一旦您接受了邀请，您将自动退出前线战模式的团队训练并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "一旦您接受邀请，您将自动退出作战部队并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "一旦你接受了邀请，你将会自动退出团队战模式并转移到服务器 %(host)s。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "一旦您接受邀请，您将自动退出小队并转移到%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "一旦您接受邀请，您将退出要塞：战斗并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "一旦您接受邀请,您将离开攻城战模式并进入服务器%(host)s。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "一旦您接受邀请，您将自动退出侦察任务小队并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "一旦您接受邀请，您将自动退出团队训练并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "一旦您接受邀请，您将退出要塞：战斗并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "一旦您接受邀请，您将自动退出小队并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "一旦您接受邀请,您将离开当前分队并进入服务器%(host)s。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "一旦您接受了邀请，您将自动退出比赛并且转移到服务器 %(host)s 上。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "一旦您接受了邀请，您将自动退出团队训练并转到服务器%(host)s。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "一旦您接受了邀请，您将自动退出天梯战模式的团队训练并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "一旦你接受了邀请，你将会自动退出团队战模式并转移到服务器 %(host)s。"
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "一旦您接受邀请，您将退出钢铁猎手并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "一旦您接受邀请，您将退出大狩猎并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "一旦接受邀请，您将退出天梯战并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "一旦接受邀请，您将退出天梯战轻装版并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "一旦您接受邀请，您将退出前线战并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "一旦您接受邀请，您将退出+++活动战斗+++并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "一旦您接受邀请，您将退出侦察任务并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "一旦您接受邀请，您将退出地图勘查并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "一旦您接受邀请，您将退出随机战并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "一旦接受了邀请，您将退出排位战模式并前往%(host)s服务器。"
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "一旦您接受邀请，您将退出热身模式并转移至%(host)s服务器。"
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "一旦您接受邀请，您将退出热身模式并转移至%(host)s服务器。无法重新开始。"
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "一旦您接受邀请，您将自动退出作战部队。"
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "一旦您接受邀请，您将自动退出作战部队。"
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "一旦您接受了邀请，您将自动退出在全球地图战场。"
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "一旦您接受邀请，您将自动退出作战部队。"
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "一旦您接受邀请，您将自动退出作战部队。"
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "一旦您接受邀请，您将自动退出作战部队。"
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "一旦您接受了邀请，您将自动退出前线战模式的团队训练。"
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "一旦您接受邀请，您将自动退出作战部队。"
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "一旦你接受了邀请，你将会自退出团队战模式。"
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "一旦您接受邀请，您将自动退出小队。"
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "一旦您接受邀请，您将退出要塞：战斗。"
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "一旦您接受邀请，您将离开攻城战模式。"
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "一旦您接受邀请，您将自动退出侦察任务小队。"
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "一旦您接受邀请，您将自动退出团队训练。"
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "一旦您接受邀请，您将退出要塞：战斗。"
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "一旦您接受邀请，您将自动退出小队。"
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "一旦您接受邀请，您将离开当前分队。"
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "一旦您接受了邀请，您将自动退出比赛。"
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "一旦您接受了邀请，您将自动退出团队训练。"
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "一旦您接受了邀请，您将自动退出天梯战模式的团队训练。"
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "一旦你接受了邀请，你将会自退出团队战模式。"
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "一旦您接受邀请，您将退出钢铁猎手。"
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "一旦您接受邀请，您将退出大狩猎。"
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "一旦接受邀请，您将退出天梯战。"
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "一旦接受邀请，您将退出天梯战轻装版。"
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "一旦您接受邀请，您将退出前线战。"
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "一旦您接受邀请，您将退出+++活动战斗+++。"
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "一旦您接受邀请，您将退出侦察任务。"
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "一旦您接受邀请，您将退出地图勘查。"
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "一旦您接受邀请，您将退出随机战。"
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "一旦接受了邀请，您将退出排位战模式。"
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "一旦您接受邀请，您将退出热身模式。"
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "一旦您接受邀请，您将退出热身模式。无法重新开始。"
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "服务器更改将被保存。"
+
+msgid "invites/note/server_change"
+msgstr "你将自动转移到%(host)s服务器。"
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "无法接受邀请。想要接受邀请，请选择%(host)s服务器。"
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "不能接受邀请。请选择其他服务器。"
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "您已经加入小队。"
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "您已经加入世界战场。"
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "您已经加入团队训练。"
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "您已经加入小队。"
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "您已经加入小队。"
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "您已加入分队。"
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "您已经加入小队。"
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "您已经加入比赛。"
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "您已经加入团队训练。"
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "您已经加入团队训练。"
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "您已经加入团队。"
+
+msgid "invites/state/ACCEPTED"
+msgstr "已接受邀请。"
+
+msgid "invites/state/DECLINED"
+msgstr "拒绝邀请。"
+
+msgid "invites/state/ERROR"
+msgstr "邀请失效。"
+
+msgid "invites/state/EXPIRED"
+msgstr "邀请失效。"
+
+msgid "invites/state/REVOKED"
+msgstr "邀请已撤销。"
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "邀请加入钢铁猎手小队"
+
+msgid "invites/text/COMP7"
+msgstr "邀请加入天梯战小队"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "邀请加入天梯战轻装版小队"
+
+msgid "invites/text/EPIC"
+msgstr "邀请加入前线战小队"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "邀请加入前线战模式团队训练"
+
+msgid "invites/text/EVENT"
+msgstr "邀请加入小队"
+
+msgid "invites/text/FALLOUT"
+msgstr "邀请加入%(battleType)s小队"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "统治模式"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "钢铁猎手（乱斗模式）"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "邀请加入战斗"
+
+msgid "invites/text/MAPBOX"
+msgstr "邀请加入侦察任务小队"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "邀请加入探索地图"
+
+msgid "invites/text/SORTIE"
+msgstr "邀请加入分队"
+
+msgid "invites/text/SQUAD"
+msgstr "邀请加入小队"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "邀请加入分队"
+
+msgid "invites/text/TRAINING"
+msgstr "邀请加入团队训练"
+
+msgid "invites/text/UNIT"
+msgstr "邀请加入团队"
+
+msgid "invites/text/creatorName"
+msgstr "来自%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "防御期"
+
+msgid "invites/text/fort/direction"
+msgstr "桥头堡"
+
+msgid "invites/text/fort/offence"
+msgstr "攻击"
+
+msgid "invites/warning/anonymized"
+msgstr "一旦您接受邀请，您的真实昵称和军团标签在战斗中将会对作战部队成员显示。"
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "已向%(name)s发送邀请。"

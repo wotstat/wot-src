@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "合計実績スコアに加算されるポイントです。"
+
+msgid "achievementsPointsTooltip/header"
+msgstr "実績ポイント"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "この実績パッチのステップをすべて達成済みで、全報酬を入手済み"
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "%(escIcon)sを押すとカタログの1つ前の階層に戻ります。"
+
+msgid "catalog/rootLink"
+msgstr "カタログ"
+
+msgid "category/achievementsScore/title"
+msgstr "実績スコア"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "実績パッチの収集状況を示す主たる指標です。新しく実績パッチをアンロックするたびに合計実績スコアが増加します。ただし、トロフィーはカウントされません。"
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "合計実績スコア: %(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "最新の\n実績パッチ"
+
+msgid "category/title"
+msgstr "プレイヤー・コレクション"
+
+msgid "category/upcoming/title"
+msgstr "入手間近の\n実績パッチ"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "%(name)sなど"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "実績パッチをアンロック！"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "%(count)s件の実績パッチをアンロック！"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "%(name)sなど"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "新たなトロフィーを獲得！"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "%(count)s個のトロフィーを獲得！"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "「自動選択」機能が有効化されている場合、取得済みの勲章の中でも特にレア度の高いものが自動的に選択され、トップに表示されるようになります。勲章のカテゴリーは考慮されません。表示する勲章やその順番を手動で変更すると強制的に機能が無効化されます。"
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "「自動選択」機能を有効化すると、手動で行った設定がリセットされ、取得済みの勲章の中でも特にレア度の高いものが自動的にトップに表示されるようになります。"
+
+msgid "editConfirm/description/error"
+msgstr "不具合の原因を調査しています。解決するまで少々お待ちください。「概要」画面に移動します。"
+
+msgid "editConfirm/footer/button/accept"
+msgstr "保存"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "キャンセル"
+
+msgid "editConfirm/footer/button/error"
+msgstr "了解！"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "「自動選択」機能は無効"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "「自動選択」機能が有効"
+
+msgid "editConfirm/title/error"
+msgstr "エラーが発生"
+
+msgid "editConfirm/title/normal"
+msgstr "トップに表示する勲章を変更しますか？"
+
+msgid "editView/footer/button/cancel"
+msgstr "変更をキャンセル"
+
+msgid "editView/footer/button/save"
+msgstr "適用して終了"
+
+msgid "editView/header/checkbox"
+msgstr "自動選択"
+
+msgid "editView/header/close"
+msgstr "閉じる"
+
+msgid "editView/header/title/idle"
+msgstr "トップに表示する勲章を変更可能"
+
+msgid "editView/header/title/selecting"
+msgstr "代わりに表示する勲章を選択可能"
+
+msgid "editView/header/title/tutorial"
+msgstr "勲章スロットを要選択"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "キャンセル"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "変更"
+
+msgid "editView/section/counter"
+msgstr "(%(count)s)"
+
+msgid "hint/hangar"
+msgstr "実績パッチを\n追加"
+
+msgid "hint/profile"
+msgstr "実績パッチを\n追加"
+
+msgid "hint/summary/customizationButton"
+msgstr "カスタマイズ可能"
+
+msgid "notifications/editingEnabled/button"
+msgstr "勲章画面へ"
+
+msgid "notifications/editingEnabled/title"
+msgstr "トップに表示するレア勲章を変更可能"
+
+msgid "notifications/firstEntry/button"
+msgstr "実績画面へ"
+
+msgid "notifications/firstEntry/text"
+msgstr "World of Tanks Ratingの導入\n表示する勲章のカスタマイズ"
+
+msgid "notifications/firstEntry/title"
+msgstr "実績画面の刷新"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "実績画面へ"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "「実績」画面に表示する\n勲章をカスタマイズ可能"
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "実績画面の刷新"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "実績画面へ"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "現在のレベルは「%(level)s」です。"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "レーティングの算出が完了！"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "実績画面へ"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "「World of Tanks レーティング」に変動がありました。詳細は「実績」画面で確認できます。"
+
+msgid "notifications/ratingUp/button"
+msgstr "実績画面へ"
+
+msgid "notifications/ratingUp/text"
+msgstr "レベル「%(level)s」に到達しました。"
+
+msgid "notifications/ratingUp/title"
+msgstr "レーティング・レベルが上昇！"
+
+msgid "playerInfo/clan/button"
+msgstr "クラン・プロフィール"
+
+msgid "playerInfo/clan/date"
+msgstr "加入日:"
+
+msgid "playerInfo/clan/noClan"
+msgstr "こちらのプレイヤーはクランに所属していません。"
+
+msgid "playerInfo/clan/post"
+msgstr "役職:"
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "パーソナル・ドッグタグは\n一時的に機能が停止中"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "総戦闘数が%(amount)s戦に満たないためレーティングが算出されていません。"
+
+msgid "ratingWidget/status/initial"
+msgstr "「World of Tanks レーティング」は総戦闘数が%(amount)s戦に達するまで表示されません。"
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "レーティングがまだ算出されていません。"
+
+msgid "ratingWidget/status/progress"
+msgstr "あと%(amount)s回戦闘を行うと「World of Tanks レーティング」が算出されます。"
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "戦闘を重ねるとレーティングが算出されます。"
+
+msgid "rewardView/button/achievements"
+msgstr "実績パッチへ"
+
+msgid "rewardView/button/dogTag"
+msgstr "ドッグタグへ"
+
+msgid "rewardView/button/dogTags"
+msgstr "ドッグタグへ"
+
+msgid "rewardView/button/moreRewards"
+msgstr "ほか%(value)s個を確認"
+
+msgid "rewardView/reward/dogTag"
+msgstr "ドッグタグ「%(value)s」"
+
+msgid "rewardView/title/multi"
+msgstr "実績報酬を獲得！"
+
+msgid "rewardView/title/single"
+msgstr "実績報酬を獲得！"
+
+msgid "section/action"
+msgstr "特別勲章"
+
+msgid "section/battle"
+msgstr "戦功章"
+
+msgid "section/class"
+msgstr "名誉勲章"
+
+msgid "section/epic"
+msgstr "英雄勲章"
+
+msgid "section/group"
+msgstr "共同戦功章"
+
+msgid "section/memorial"
+msgstr "記念勲章"
+
+msgid "section/special"
+msgstr "名鑑章"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "実績パッチへ"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr "最終戦闘日時: %(lastVisitDate)s%(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "アカウント作成日: %(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "背景"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "デフォルト"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "ファイヤー"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "ゴールド"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "レジェンド"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "レトロ"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "バースト"
+
+msgid "summary/achievements/customization/discard"
+msgstr "変更をキャンセル"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "リボン"
+
+msgid "summary/achievements/customization/save"
+msgstr "適用して終了"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "技術的問題により、「実績」画面のカスタマイズは現在ご利用いただけません。現在、問題の修正に取り組んでおります。画面を更新するか、時間をおいてから再度お試しください。"
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "カスタマイズは現在利用不可"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "取得済みのレア勲章"
+
+msgid "summary/achievements/total"
+msgstr "合計: %(value)s"
+
+msgid "summary/achievements/unique"
+msgstr "種類: %(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "平均: %(value)s"
+
+msgid "summary/additional/battles"
+msgstr "勝率: %(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "平均: %(value)s"
+
+msgid "summary/additional/damage"
+msgstr "平均: %(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "最大撃破数: %(value)s"
+
+msgid "summary/additional/experience"
+msgstr "平均: %(value)s"
+
+msgid "summary/disabled/description"
+msgstr "戦闘を重ねると統計データが表示されます。"
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "現在は閲覧不可"
+
+msgid "summary/disabled/title"
+msgstr "現在は閲覧不可"
+
+msgid "summary/main/assistance"
+msgstr "最大\nアシスト"
+
+msgid "summary/main/battles"
+msgstr "通算\n戦闘数"
+
+msgid "summary/main/blocked"
+msgstr "最大\n阻ダメージ"
+
+msgid "summary/main/damage"
+msgstr "最大\n与ダメージ"
+
+msgid "summary/main/destroyed"
+msgstr "通算\n撃破数"
+
+msgid "summary/main/experience"
+msgstr "最大\n取得EXP"
+
+msgid "summary/statistic/title"
+msgstr "World of Tanks レーティング"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "パーソナル・レーティング"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "1戦で記録したアシストの最大値です。"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "1戦で記録したアシストの最大値です。\n使用車輌は「%(tankName)s」です。"
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "最大アシスト: %(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "これまでにアシストしたダメージの総量を総戦闘数で割った値です。対象となるのは以下のアシストです。"
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "• 発見によるアシスト\n• 履帯切断によるアシスト"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "平均アシスト: %(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "これまでに勝利した回数を総戦闘数で割った値です。"
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "内訳は以下の通りです。"
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• 勝利: %(wins)s\n• 敗北: %(loses)s\n• 引き分け: %(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "勝率: %(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "通算戦闘数: %(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "1戦で阻んだダメージの最大値です。"
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "1戦で阻んだダメージの最大値です。\n使用車輌は「%(tankName)s」です。"
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "最大阻ダメージ: %(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "これまでに装甲で阻んだダメージの総量を総戦闘数で割った値です。AP弾、APCR弾、HEAT弾しか対象に含まれません。"
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "平均阻ダメージ: %(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "1戦で与えたダメージの最大値です。"
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "1戦で与えたダメージの最大値です。\n使用車輌は「%(tankName)s」です。"
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "最大与ダメージ: %(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "これまでに敵車輌に対して与えたダメージの総量を総戦闘数で割った値です。"
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "平均与ダメージ: %(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "1戦で撃破した敵車輌数の最大値です。"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "1戦で撃破した敵車輌数の最大値です。\n使用車輌は「%(tankName)s」です。"
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "最大撃破数: %(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "これまでに撃破した敵車輌の総数です。"
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "通算撃破数: %(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "1戦で取得したEXPの最大値です。"
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "1戦で取得したEXPの最大値です。\n使用車輌は「%(tankName)s」です。"
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "最大取得EXP: %(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "これまでに取得したEXPの総量を通算戦闘数で割った値です。"
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "平均取得EXP: %(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "勝率は「World of Tanks レーティング」の算出基準に含まれません。"
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "自分が得意な車輌を見つけることが何よりも大切です。同じ車輌を使用しているプレイヤーを以下のカテゴリーで上回ることができれば自然と上昇していきます。"
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "「World of Tanks レーティング」は、各プレイヤーの実力を数値化するにあたり、まず個々の車輌の通算成績をサーバー全体におけるその車輌の平均値と比較する点に特徴があります。車輌毎のサーバー平均を基準として用いることで、実際に使用している車輌の性能や特徴の違いを考慮した柔軟かつ正確な実力の測定が可能になっています。"
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "与ダメージ"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "アシスト"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "撃破数"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "阻ダメージと生還率"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "「World of Tanks レーティング」を上げるには？"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "World of Tanks レーティング"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "あと%(cream_open)s%(amount)s回%(cream_close)s戦闘を行うとレーティングが算出されます。"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "現在のレベル: %(level)s"
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "上限に到達済み！"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "次のレベルまで: %(par_open)s%(point)sポイント%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "ブロンズ %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "シルバー %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "ゴールド %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "エース %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "レジェンド %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "レベル"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "レーティング"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "World of Tanks レーティング"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "「自動選択」機能を有効化すると、手動で行った操作がすべて%(whiteSpanish_Open)sリセット%(whiteSpanish_Close)sされます。"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "機能を無効化したり、手動でカスタマイズ\nを行うと、トップに表示される勲章の%(whiteSpanish_Open)s自動%(whiteSpanish_Close)s\n%(whiteSpanish_Open)s更新%(whiteSpanish_Close)sが%(whiteSpanish_Open)s停止%(whiteSpanish_Close)sします。"
+
+msgid "tooltips/autoSetting/description"
+msgstr "「自動選択」機能を有効化すると、取得済\nみの勲章の中でも特にレア度の高いものが\n自動的に選択され、トップに表示されるよ\nうになります。\n%(whiteSpanish_Open)s勲章のカテゴリーは考慮されません%(whiteSpanish_Close)s。"
+
+msgid "tooltips/autoSetting/title"
+msgstr "自動選択"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "トップに表示する勲章を変更できません。時間をおいて再度お試しください。"
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "表示できる勲章がありません。勲章は%(whiteSpanish_Open)s戦闘%(whiteSpanish_Close)sや%(whiteSpanish_Open)sイベント%(whiteSpanish_Close)sで手に入れることができます。"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "トップに表示する勲章を変更するにはさらに%(whiteSpanish_Open)s%(amount)s個以上%(whiteSpanish_Close)sの勲章を手に入れる必要があります。勲章のカテゴリーは問いません。"
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "ここに表示できる勲章がありません。"
+
+msgid "tooltips/mastery/body"
+msgstr "これまでに取得した「マスターバッジ エース戦車兵」の総数。分母はランダム戦で1戦以上使用したことがある車輌の総数。"
+
+msgid "tooltips/mastery/header"
+msgstr "マスターバッジ エース戦車兵"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "「パーソナル・レーティング」はプレイヤーの実力を示す数値のひとつです。以下のファクターに基づいて算出されます。"
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "「パーソナル・レーティング」は戦闘を行う度に更新されます。"
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• 勝率\n• 平均アシスト\n• 平均与ダメージ\n• 平均取得EXP\n• 生還率"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "パーソナル・レーティング"

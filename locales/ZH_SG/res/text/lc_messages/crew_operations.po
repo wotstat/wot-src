@@ -1,0 +1,122 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "crewBooks/button/label"
+msgstr "打开"
+
+msgid "crewBooks/description"
+msgstr "前往学习乘员书籍。"
+
+msgid "crewBooks/error/locked"
+msgstr "操作不可用"
+
+msgid "crewBooks/title"
+msgstr "乘员书籍（{count}）"
+
+msgid "crewBooks/tutorial/crewOperations"
+msgstr "学习乘员书籍\n现已开放"
+
+msgid "crewBooks/tutorial/readBook"
+msgstr "前往学习\n乘员书籍"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/body"
+msgstr "乘员在战斗中"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/header"
+msgstr "错误"
+
+msgid "crewOperations/btn/tooltip/body"
+msgstr "发送乘员至兵营、重新训练、或让所有乘员立即返回战车，以及使用乘员书籍。"
+
+msgid "crewOperations/btn/tooltip/header"
+msgstr "乘员选项"
+
+msgid "dropInBarrack/button/label"
+msgstr "派遣"
+
+msgid "dropInBarrack/description"
+msgstr "遣返全部乘员到兵营"
+
+msgid "dropInBarrack/error/noCrew"
+msgstr "无乘员"
+
+msgid "dropInBarrack/title"
+msgstr "遣返乘员到兵营"
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/body"
+msgstr "无法将全部乘员调回兵营。"
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/header"
+msgstr "操作不可用"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/body"
+msgstr "乘员战斗中"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/header"
+msgstr "错误"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/body"
+msgstr "兵营床位不足"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/header"
+msgstr "操作不可用"
+
+msgid "retrain/button/label"
+msgstr "重新训练"
+
+msgid "retrain/description"
+msgstr "重新训练车载所有乘员。"
+
+msgid "retrain/error/alreadyRetrained"
+msgstr "乘员已经训练完毕"
+
+msgid "retrain/error/locked"
+msgstr "操作不可用"
+
+msgid "retrain/error/noCrew"
+msgstr "无乘员"
+
+msgid "retrain/title"
+msgstr "乘员重训练"
+
+msgid "return/button/label"
+msgstr "调回"
+
+msgid "return/description"
+msgstr "调回此战车上一场战斗的乘员。"
+
+msgid "return/error/allDemobilized"
+msgstr "所有乘员已遣散"
+
+msgid "return/error/alreadyOnPlaces"
+msgstr "乘员已经在战车中"
+
+msgid "return/error/noPrevious"
+msgstr "使用这辆战车参加\n至少一场战斗"
+
+msgid "return/error/vehicleInBattle"
+msgstr "此战车正在战斗中"
+
+msgid "return/title"
+msgstr "调回乘员至此战车"
+
+msgid "return/toggle/description"
+msgstr "自动调回此战车上参加上一场战斗的乘员。"
+
+msgid "return/toggle/label"
+msgstr "自动调回"
+
+msgid "return/warning/memberDemobilized/tooltip/body"
+msgstr "之前的一些乘员已被遣散，无法重回战车。您可以在倒计时结束前在兵营中恢复他们。否则，他们将会从您的账号上彻底移除。"
+
+msgid "return/warning/memberDemobilized/tooltip/header"
+msgstr "警告"
+
+msgid "return/warning/membersInBattle/tooltip/body"
+msgstr "部门乘员正在战斗中"
+
+msgid "return/warning/membersInBattle/tooltip/header"
+msgstr "错误"
+
+msgid "window/title"
+msgstr "乘员选项"

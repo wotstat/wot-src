@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "actionStub/name"
+msgstr "Biến thể"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Lập tức khôi phục %(immediatelyRestore)s HP của xe. Trong suốt thời gian tác dụng %(duration)s s, mọi sát thương từ đạn và khả năng chiến đấu sẽ được tích lại rồi chuyển thành HP cộng thêm %(restoringCoefficient)s của tổng thiệt hại hứng chịu sau khi khả năng này kết thúc.\n\n*Cũng sẽ hồi phục một phần HP xe đồng đội nội trong bán kính nhỏ."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Lập tức khôi phục %(immediatelyRestore)s HP của xe. Trong suốt thời gian tác dụng %(duration)s s, mọi sát thương từ đạn và khả năng chiến đấu sẽ được tích lại rồi chuyển thành HP cộng thêm %(restoringCoefficient)s của tổng thiệt hại hứng chịu sau khi khả năng này kết thúc.\n\n*Cũng sẽ hồi phục một phần HP xe đồng đội nội trong bán kính nhỏ."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "Lập tức {green_Open}khôi phục %(immediatelyRestore)s{green_Close} HP của xe. Trong suốt thời gian tác dụng {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}, mọi sát thương từ đạn và khả năng chiến đấu sẽ được tích lại rồi chuyển thành HP cộng {green_Open}thêm %(restoringCoefficient)s của tổng thiệt hại hứng chịu{green_Close} sau khi khả năng này kết thúc.\n\n*Cũng sẽ hồi phục một phần HP xe đồng đội nội trong bán kính nhỏ."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Giáp Thích ứng"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "Lập tức {green_Open}khôi phục %(immediatelyRestore)s{green_Close} HP của xe. Trong suốt thời gian tác dụng {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}, mọi sát thương từ đạn và khả năng chiến đấu sẽ được tích lại rồi chuyển thành HP cộng {green_Open}thêm %(restoringCoefficient)s của tổng thiệt hại hứng chịu{green_Close} sau khi khả năng này kết thúc.\n\n*Cũng sẽ hồi phục một phần HP xe đồng đội nội trong bán kính nhỏ."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s độ ẩn giấu của xe đứng yên hoặc đang di chuyển nếu đã lắp Hệ thống Thoát khí Giảm thanh (bất cứ loại nào) hoặc Hệ thống Thoát khí bao cấp."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Cải thiện hiệu quả của Hệ thống Thoát khí Giảm thanh hoặc Hệ thống Thoát khí Bao cấp trong trận đánh. Ứng dụng kỹ thuật này chỉ có tác dụng nếu đã lắp thiết bị tương ứng."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Cách âm Ống xả"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Tăng độ ẩn giấu của xe đứng yên hoặc đang di chuyển"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "Hiệu quả phụ thuộc vào loại xe. Tăng độ ẩn giấu của phương tiện đứng yên hoặc đang di chuyển. Hữu ích khi do thám chủ động, cũng như trinh sát thụ động từ các vị trí nguy hiểm."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Hệ thống Thoát khí Giảm thanh"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Tăng độ ẩn giấu của xe đứng yên hoặc đang di chuyển."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Hệ thống Thoát khí Giảm thanh Loại 1"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Hệ thống Thoát khí Giảm thanh Loại 2"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Hệ thống Thoát khí Giảm thanh Loại 3"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Bọc Giáp Phụ (Loại 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Bọc Giáp Phụ (Loại 2)"
+
+msgid "afterburning/descr"
+msgstr "Tăng tốc độ tối đa và khả năng gia tốc của xe trong một khoảng thời gian nhất định."
+
+msgid "afterburning/name"
+msgstr "Nitro"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Giảm độ phân tán của súng là điều cực kỳ quan trọng: Độ phân tán ban đầu càng nhỏ, vòng tròn tâm ngắm sẽ càng bé và càng tốn ít thời gian để ngắm hoàn chỉnh. Thêm vào đó, khai hỏa chưa chuẩn bị (bắn mà chưa ngắm kỹ hoàn toàn hoặc đang lúc di chuyển) có nhiều cơ hội trúng mục tiêu hơn."
+
+msgid "aimingStabilizer/name"
+msgstr "Bộ Ổn định Dọc"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s độ phân tán sau khi bắn, trong lúc di chuyển và quay tháp pháo khi đã lắp Bộ Ổn định Dọc, Hệ thống Ổn định Thiết bị hoặc Bộ Ổn định bao cấp."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Cải thiện hiệu quả của Bộ Ổn định Dọc (bất cứ loại nào), Hệ thống Ổn định Thiết bị hoặc Bộ Ổn định Bao cấp trong trận đánh. Các thiết bị trên cần phải có trên xe của bạn để có thể lắp và kích hoạt ứng dụng kỹ thuật này."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Cụm chỉnh Dầu bôi trơn Bộ Ổn định"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Cải thiện hiệu quả của Bộ Ổn định Dọc"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Bộ Ổn định Dọc Loại 1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Bộ Ổn định Dọc Loại 2"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Bộ Ổn định Dọc Loại 1"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Bộ Ổn định Dọc Loại 2"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Thép Đệm hấp thụ thiệt hại; nói cách khác, chúng làm giảm thiệt hại do đâm/húc và đạn Nổ Mạnh (HE). Thép Đệm có lợi nhất cho các tăng hạng nặng với giáp tốt, khả năng đâm/húc cực mạnh và chiến đấu chủ yếu ở tầm gần."
+
+msgid "antifragmentationLining/name"
+msgstr "Thép Đệm"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Bảo vệ xe cùng kíp lái khỏi đạn HE, chấn thương, choáng và đâm/húc"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Thép Đệm Siêu nặng"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Thép Đệm hạng Nặng"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Thép đệm hạng Trung"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Thép Đệm hạng Nhẹ"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Hệ thống Thoát khí"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Bộ Ổn định"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Thép Đệm"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Lưới Ngụy trang"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Kính nhìn"
+
+msgid "archetype/commandersView/name"
+msgstr "Hệ thống Quan sát"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Bộ Truyền Đặt Súng"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Bộ Gia cố"
+
+msgid "archetype/grousers/name"
+msgstr "Vấu xích"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Cấu hình"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Bộ Radio"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Cơ cấu Xoay trở"
+
+msgid "archetype/improvedSights/name"
+msgstr "Thước ngắm"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Quạt Thông gió"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Hệ thống Điều khiển-Hỏa lực"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Bộ Cải thiện Sống sót"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Hệ thống Cải thiện Chính xác"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Hệ thống Cải thiện Cơ động"
+
+msgid "archetype/stereoscope/name"
+msgstr "Ống nhòm Xa"
+
+msgid "archetype/tankRammer/name"
+msgstr "Bộ Hỗ trợ Nạp đạn"
+
+msgid "archetype/template"
+msgstr "Thiết bị dạng \"%(name)s\""
+
+msgid "archetype/turbocharger/name"
+msgstr "Tuabin Tăng áp"
+
+msgid "artillery/longDescr"
+msgstr "Lệnh cho pháo bắn đạn Nổ Mạnh (HE) vào khu vực nhỏ được chỉ định. Các xe nằm ở tâm vùng trúng đạn sẽ chịu thiệt hại lớn nhất. Đặc biệt hiệu quả chống lại xe thiết giáp hạng nặng."
+
+msgid "artillery/name"
+msgstr "Pháo kích"
+
+msgid "artillery/shortDescr"
+msgstr "Gây thiệt hại đáng kể cho xe địch nội trong một bán kính nhỏ."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s xác suất cháy động cơ"
+
+msgid "autoExtinguishers/descr"
+msgstr "Tự động chữa cháy cho xe của bạn."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Tự động dập lửa cũng như giảm xác suất bắt cháy của xe. Vật phẩm này thích hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào."
+
+msgid "autoExtinguishers/name"
+msgstr "Bình Chữa Cháy Tự động"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Tự động dập lửa trong xe của bạn. Có thể dùng được nhiều lần trong 1 trận đánh. Sau trận, bạn sẽ phải tái tiếp tế vật phẩm này nếu nó đã được sử dụng ít nhất 1 lần."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Tự động dập lử"
+
+msgid "berserker/battleDescr"
+msgstr "Tăng %(gunPiercing)s lần sức xuyên giáp và tốc độ bắn, đồng thời tăng %(gunAimingTime)s hiệu quả truyền đặt và ổn định súng, nhưng làm mất %(healthDebuff)s HP xe nội trong thời lượng tác dụng %(duration)s s của nó.\n\n*Thiệt hại gây ra từ khả năng Berserker không thể tiêu diệt xe của bạn."
+
+msgid "berserker/descr"
+msgstr "Tăng %(gunPiercing)s lần sức xuyên giáp và tốc độ bắn, đồng thời tăng %(gunAimingTime)s hiệu quả truyền đặt và ổn định súng, nhưng làm mất %(healthDebuff)s HP xe nội trong thời lượng tác dụng %(duration)s s của nó.\n\n*Thiệt hại gây ra từ khả năng Berserker không thể tiêu diệt xe của bạn."
+
+msgid "berserker/longDescr"
+msgstr "Tăng {green_Open}%(gunPiercing)s lần{green_Close} sức xuyên giáp và tốc độ bắn, đồng thời tăng {green_Open}%(gunAimingTime)s{green_Close} hiệu quả truyền đặt và ổn định súng, nhưng làm mất {red_Open}%(healthDebuff)s{red_Close} HP xe nội trong thời lượng tác dụng {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} của nó.\n\n*Thiệt hại gây ra từ khả năng Berserker không thể tiêu diệt xe của bạn."
+
+msgid "berserker/name"
+msgstr "\"Berserker\""
+
+msgid "berserker/shortDescr"
+msgstr "Tăng {green_Open}%(gunPiercing)s lần{green_Close} sức xuyên giáp và tốc độ bắn, đồng thời tăng {green_Open}%(gunAimingTime)s{green_Close} hiệu quả truyền đặt và ổn định súng, nhưng làm mất {red_Open}%(healthDebuff)s{red_Close} HP xe nội trong thời lượng tác dụng {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close} của nó.\n\n*Thiệt hại gây ra từ khả năng Berserker không thể tiêu diệt xe của bạn."
+
+msgid "blackout_headlights_1/name"
+msgstr "Làm mờ Đèn pha (Loại 1)"
+
+msgid "bomber/longDescr"
+msgstr "Ra lệnh cho một máy bay tấn công mặt đất thả bom vào khu vực được chỉ định, làm choáng và gây thiệt hại cho đối phương. Các xe nằm ở trung tâm vùng dính bom sẽ chịu thiệt hại lớn nhất. Đặc biệt hiệu quả chống lại xe thiết giáp hạng nhẹ và hạng trung."
+
+msgid "bomber/name"
+msgstr "Không kích"
+
+msgid "bomber/shortDescr"
+msgstr "Làm choáng xe địch và gây thiệt hại vừa phải nội trong một bán kính rộng."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Dần khôi phục %(healPerTickDuration)s HP của xe nội trong %(duration)s s. Có thể bị gián đoạn khi hứng chịu thiệt hại."
+
+msgid "brRegenerationKit/descr"
+msgstr "Dần khôi phục %(healPerTickDuration)s HP của xe nội trong %(duration)s s. Có thể bị gián đoạn khi hứng chịu thiệt hại."
+
+msgid "brRegenerationKit/long_special"
+msgstr "Dần khôi phục {green_Open}%(healPerTickDuration)s{green_Close} HP của xe nội trong {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close} Có thể bị gián đoạn khi hứng chịu thiệt hại."
+
+msgid "brRegenerationKit/name"
+msgstr "Cứu hộ"
+
+msgid "brRegenerationKit/short_special"
+msgstr "Dần khôi phục {green_Open}%(healPerTickDuration)s{green_Close} HP của xe nội trong {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close} Có thể bị gián đoạn khi hứng chịu thiệt hại."
+
+msgid "brRepairkit/descr"
+msgstr "Sửa mô-đun và loại bỏ hiệu ứng xấu."
+
+msgid "brRepairkit/long_special"
+msgstr "Sửa mô-đun và loại bỏ hiệu ứng xấu."
+
+msgid "brRepairkit/name"
+msgstr "Bộ Sửa chữa"
+
+msgid "brRepairkit/short_special"
+msgstr "Sửa mô-đun và loại bỏ hiệu ứng xấu."
+
+msgid "br_bomber/battleDescr"
+msgstr "Làm choáng và gây ra %(minDamage)s đến %(maxDamage)s HP thiệt hại cho xe địch. Các xe nằm ở tâm vùng ảnh hưởng sẽ hứng chịu sát thương nghiêm trọng hơn.\n\n*Có độ trễ %(delay)s s trước va chạm tương tác."
+
+msgid "br_bomber/descr"
+msgstr "Làm choáng và gây ra %(minDamage)s đến %(maxDamage)s HP thiệt hại cho xe địch. Các xe nằm ở tâm vùng ảnh hưởng sẽ hứng chịu sát thương nghiêm trọng hơn.\n\n*Có độ trễ %(delay)s s trước va chạm tương tác."
+
+msgid "br_bomber/longDescr"
+msgstr "Làm choáng và gây ra {whiteSpanish_Open}%(minDamage)s đến %(maxDamage)s HP thiệt hại{whiteSpanish_Close} cho xe địch. Các xe nằm ở tâm vùng ảnh hưởng sẽ hứng chịu sát thương nghiêm trọng hơn.\n\n*Có độ trễ %(delay)s s trước va chạm tương tác."
+
+msgid "br_bomber/name"
+msgstr "Không kích"
+
+msgid "br_bomber/shortDescr"
+msgstr "Làm choáng và gây ra {whiteSpanish_Open}%(minDamage)s đến %(maxDamage)s HP thiệt hại{whiteSpanish_Close} cho xe địch. Các xe nằm ở tâm vùng ảnh hưởng sẽ hứng chịu sát thương nghiêm trọng hơn.\n\n*Có độ trễ %(delay)s s trước va chạm tương tác."
+
+msgid "br_minefield/battleDescr"
+msgstr "Rải một bãi mìn (có công hiệu %(duration)s s) vào khu vực được chọn. Đối phương đạp phải mìn sẽ bị choáng và hứng chịu thiệt hại từ vụ nổ.\n\n*Mìn có thể bị phá hủy khi bắn trúng. Nếu đặt ngay dưới xe địch, mìn sẽ KHÔNG nổ."
+
+msgid "br_minefield/descr"
+msgstr "Rải một bãi mìn (có công hiệu %(duration)s s) vào khu vực được chọn. Đối phương đạp phải mìn sẽ bị choáng và hứng chịu thiệt hại từ vụ nổ.\n\n*Mìn có thể bị phá hủy khi bắn trúng. Nếu đặt ngay dưới xe địch, mìn sẽ KHÔNG nổ."
+
+msgid "br_minefield/longDescr"
+msgstr "Rải một bãi mìn (có {whiteSpanish_Open}công hiệu %(duration)s s{whiteSpanish_Close}) vào khu vực được chọn. Đối phương đạp phải mìn sẽ bị choáng và hứng chịu thiệt hại từ vụ nổ.\n\n*Mìn có thể bị phá hủy khi bắn trúng. Nếu đặt ngay dưới xe địch, mìn sẽ KHÔNG nổ."
+
+msgid "br_minefield/name"
+msgstr "Bãi mìn"
+
+msgid "br_minefield/shortDescr"
+msgstr "Rải một bãi mìn (có {whiteSpanish_Open}công hiệu %(duration)s s{whiteSpanish_Close}) vào khu vực được chọn. Đối phương đạp phải mìn sẽ bị choáng và hứng chịu thiệt hại từ vụ nổ.\n\n*Mìn có thể bị phá hủy khi bắn trúng. Nếu đặt ngay dưới xe địch, mìn sẽ KHÔNG nổ."
+
+msgid "br_respawn/name"
+msgstr "Tái xuất"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Cho phép bạn trở lại trận đánh sau khi xe mình bị phá hủy. Cơ chế này áp dụng nội trong %(duration)s phút đầu trận.\n\nĐể tái xuất một đồng đội, hãy tránh giao tranh trong %(timeToResurrect)s giây. Sạc tái xuất được chia sẻ chung giữa các thành viên Trung đội."
+
+msgid "br_respawn/solo/descr"
+msgstr "Cho phép bạn trở lại trận đánh sau khi xe mình bị phá hủy. Cơ chế này áp dụng nội trong %(duration)s phút đầu trận.\n\nLúc bị phá hủy, xe của bạn tự động được tái xuất."
+
+msgid "br_smoke/battleDescr"
+msgstr "Tăng thêm độ ẩn giấu trong %(duration)s giây cho mọi xe nằm trong tầm ảnh hưởng của vật phẩm."
+
+msgid "br_smoke/descr"
+msgstr "Tăng thêm độ ẩn giấu cho mọi xe nằm trong tầm ảnh hưởng của vật phẩm."
+
+msgid "br_smoke/longDescr"
+msgstr "Tăng thêm độ ẩn giấu trong %(duration)s giây cho mọi xe nằm trong tầm ảnh hưởng của vật phẩm."
+
+msgid "br_smoke/name"
+msgstr "Màn khói"
+
+msgid "br_smoke/shortDescr"
+msgstr "Tăng thêm độ ẩn giấu cho mọi xe nằm trong tầm ảnh hưởng của vật phẩm."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Tăng thêm độ ẩn giấu cho mọi xe thuộc vùng mà vật phẩm tác động, đồng thời gây thiệt hại bằng %(damagePerTick)s tổng số HP mỗi giây cho MỌI xe nằm trong tầm ảnh hưởng của nó. Kéo dài %(duration)s s.\n\n*Thiệt hại bởi Sương Ăn mòn không làm gián đoạn quá trình nhặt hàng và không hoàn toàn phá hủy xe, để lại ít nhất 1 HP."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Tăng thêm độ ẩn giấu cho mọi xe thuộc vùng mà vật phẩm tác động, đồng thời gây thiệt hại bằng %(damagePerTick)s tổng số HP mỗi giây cho MỌI xe nằm trong tầm ảnh hưởng của nó. Kéo dài %(duration)s s.\n\n*Thiệt hại bởi Sương Ăn mòn không làm gián đoạn quá trình nhặt hàng và không hoàn toàn phá hủy xe, để lại ít nhất 1 HP."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Tăng thêm độ ẩn giấu cho mọi xe thuộc vùng mà vật phẩm tác động, đồng thời gây thiệt hại {whiteSpanish_Open}bằng %(damagePerTick)s {whiteSpanish_Close}tổng số HP mỗi giây cho MỌI xe nằm trong tầm ảnh hưởng của nó. Kéo dài {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Sương Ăn mòn không làm gián đoạn quá trình nhặt hàng và không hoàn toàn phá hủy xe, để lại ít nhất 1 HP."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Sương Axít"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Tăng thêm độ ẩn giấu cho mọi xe thuộc vùng mà vật phẩm tác động, đồng thời gây thiệt hại {whiteSpanish_Open}bằng %(damagePerTick)s {whiteSpanish_Close}tổng số HP mỗi giây cho MỌI xe nằm trong tầm ảnh hưởng của nó. Kéo dài {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*Sương Ăn mòn không làm gián đoạn quá trình nhặt hàng và không hoàn toàn phá hủy xe, để lại ít nhất 1 HP."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s tốc độ sửa chữa mô-đun"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Sửa chữa tất cả mô-đun bị hư hỏng ở thời điểm kích hoạt. Hiệu ứng phụ giúp tăng tốc thời gian sửa chữa. Vật phẩm này phù hợp cho một số xe nhất định."
+
+msgid "builtinRepairkit/name"
+msgstr "Bộ Sửa chữa loại Lớn Tiêu chuẩn"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Sửa chữa tất cả các mô đun bị hư hỏng. Có thể dùng được nhiều lần trong 1 trận đánh. Không mất đi và không tốn phí.\nVật phẩm này không thể bỏ đi, nhưng có thể được chuyển sang ô trống khác."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Cấp thêm 10% khả năng ẩn giấu xe"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Cấp cho tất cả thành viên kíp lái kỹ năng Ẩn giấu ở mức 100%"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "Kỹ năng Ẩn giấu làm giảm khả năng bị phát hiện cả khi xe đang di chuyển lẫn lúc đứng yên trong trận đánh. Nếu kỹ năng nói trên đã được đào tạo thành thục 100%, ứng dụng kỹ thuật này làm tăng thêm hiệu quả tương ứng; ngược lại, nó sẽ cung cấp kỹ năng Ẩn giấu ở mức 100%."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Vỏ bọc Tự nhiên"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Mang lại kỹ năng Ẩn giấu ở mức 100% hoặc làm tăng hiệu quả tương ứng"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Tăng khả năng ẩn giấu của xe đứng yên sau 3 giây tính từ lúc dừng"
+
+msgid "camouflageNet/long_special"
+msgstr "Hiệu quả phụ thuộc vào loại xe. Lưới Ngụy trang chủ yếu có lợi cho các xe ẩn giấu tốt: Pháo Tự hành và Pháo Chống tăng thấp bé. Nó làm tăng hiệu quả của kỹ năng Ẩn giấu. Kết hợp chúng sẽ đem lại một lợi thế lớn cho xe của bạn. Lưới Ngụy trang kích hoạt sau 3 giây tính từ lúc xe ngừng chuyển động."
+
+msgid "camouflageNet/name"
+msgstr "Lưới Ngụy trang"
+
+msgid "camouflageNet/short_special"
+msgstr "Tăng độ ẩn giấu của xe đứng yên"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Lưới Ngụy trang Loại 2"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Lưới Ngụy trang Loại 3"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} cho khoản tăng hiệu suất kíp lái trong suốt trận đánh."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} cho khoản tăng hiệu suất kíp lái."
+
+msgid "chocolate/long_special"
+msgstr "Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh. Chỉ phù hợp cho xe Đức."
+
+msgid "chocolate/name"
+msgstr "Sô-cô-la"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Chỉ phù hợp cho xe Đức."
+
+msgid "chocolate/short_special"
+msgstr "Cải thiện hiệu quả chiến đấu của kíp lái Đức"
+
+msgid "clingBrander/battleDescr"
+msgstr "Gọi một chiếc tăng vận hành tự động với hệ thống \"Nhận diện Bạn hay Thù\" để đuổi theo và tấn công kẻ địch gần nhất trong tối đa %(botLifeTime)s s.\n\n*Chiếc tăng này có thể bị tiêu diệt."
+
+msgid "clingBrander/descr"
+msgstr "Gọi một chiếc tăng vận hành tự động với hệ thống \"Nhận diện Bạn hay Thù\" để đuổi theo và tấn công kẻ địch gần nhất trong tối đa %(botLifeTime)s s.\n\n*Chiếc tăng này có thể bị tiêu diệt."
+
+msgid "clingBrander/longDescr"
+msgstr "Gọi một chiếc tăng vận hành tự động với hệ thống \"Nhận diện Bạn hay Thù\" để đuổi theo và tấn công kẻ địch gần nhất trong {whiteSpanish_Open}tối đa %(botLifeTime)s s.{whiteSpanish_Close}\n\n*Chiếc tăng này có thể bị tiêu diệt."
+
+msgid "clingBrander/name"
+msgstr "Rô-bốt Chiến trường"
+
+msgid "clingBrander/shortDescr"
+msgstr "Gọi một chiếc tăng vận hành tự động với hệ thống \"Nhận diện Bạn hay Thù\" để đuổi theo và tấn công kẻ địch gần nhất trong {whiteSpanish_Open}tối đa %(botLifeTime)s s.{whiteSpanish_Close}\n\n*Chiếc tăng này có thể bị tiêu diệt."
+
+msgid "clutches_replace_1/name"
+msgstr "Thay thế Khớp Ma sát (Loại 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Thay thế Khớp Ma sát (Loại 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "Không giống như Ống nhòm Xa, Kính Quang học (loại bất kỳ) mang lại ít khoản tăng về chỉ số hơn, nhưng nó là cố định và không bị mất đi khi xe di chuyển. Do đó, Kính Quang học rất có lợi cho các xe luôn phải cơ động chiến đấu—tăng hạng nhẹ và hạng trung."
+
+msgid "coatedOptics/name"
+msgstr "Kính Quang học"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s tầm nhìn (tối đa 445 m) khi đã lắp Kính Quang học (bất cứ loại nào), Thấu kính Thử nghiệm hoặc Thấu kính bao cấp."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Cải thiện hiệu quả của Kính Quang học, Thấu kính Thử nghiệm hoặc Kính Quang học Bao cấp trong trận đánh. Các thiết bị trên cần phải có trên xe của bạn để có thể lắp và kích hoạt ứng dụng kỹ thuật này."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Khối Hiệu chỉnh Quang học"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Cải thiện hiệu quả của Kính/Thấu kính"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Kính Quang học Loại 1"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Kính Quang học Loại 2"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Kính Quang học Loại 3"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} cho khoản tăng hiệu suất kíp lái trong suốt trận đánh."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} cho khoản tăng hiệu suất kíp lái."
+
+msgid "cocacola/long_special"
+msgstr "Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh. Chỉ phù hợp cho xe Mỹ."
+
+msgid "cocacola/name"
+msgstr "Thùng Cola"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Chỉ phù hợp cho xe Mỹ."
+
+msgid "cocacola/short_special"
+msgstr "Cải thiện hiệu quả chiến đấu của kíp lái Mỹ"
+
+msgid "commandersView/long_special"
+msgstr "Giảm độ ẩn giấu của địch đang di chuyển và ngụy trang dưới cành lá thực vật khi do thám. Cho phép bạn phát hiện kẻ thù nấp trong bụi rậm/cây đổ hiệu quả hơn, cũng như từ khoảng cách xa hơn."
+
+msgid "commandersView/name"
+msgstr "Hệ thống Quan sát của Chỉ huy"
+
+msgid "commandersView/short_special"
+msgstr "Giảm độ ẩn giấu của xe địch, bất kể đang di chuyển hay nấp sau cành lá"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Thêm tính ăn mòn cho đạn, làm tăng độ xuyên và sát thương lý thuyết cho viên đó. Khi gây thiệt hại lên xe địch, đạn tạo ra tác động ngắn hạn, lấy đi tối đa %(damagePerDotEffectDuration)s HP đối phương nội trong thời lượng %(dotEffectDuration)s s tác dụng.\n\n*Bộ Sửa chữa loại bỏ hiệu ứng tiêu cực này."
+
+msgid "corrodingShot/descr"
+msgstr "Thêm tính ăn mòn cho đạn, làm tăng độ xuyên và sát thương lý thuyết cho viên đó. Khi gây thiệt hại lên xe địch, đạn tạo ra tác động ngắn hạn, lấy đi tối đa %(damagePerDotEffectDuration)s HP đối phương nội trong thời lượng %(dotEffectDuration)s s tác dụng.\n\n*Bộ Sửa chữa loại bỏ hiệu ứng tiêu cực này."
+
+msgid "corrodingShot/longDescr"
+msgstr "Thêm tính ăn mòn cho đạn, làm tăng độ xuyên và sát thương lý thuyết cho viên đó. Khi gây thiệt hại lên xe địch, đạn tạo ra tác động ngắn hạn, lấy đi {whiteSpanish_Open}tối đa %(damagePerDotEffectDuration)s{whiteSpanish_Close} HP đối phương {whiteSpanish_Open}nội trong thời lượng %(dotEffectDuration)s s{whiteSpanish_Close} tác dụng.\n\n*Bộ Sửa chữa loại bỏ hiệu ứng tiêu cực này."
+
+msgid "corrodingShot/name"
+msgstr "Đạn Axít"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Thêm tính ăn mòn cho đạn, làm tăng độ xuyên và sát thương lý thuyết cho viên đó. Khi gây thiệt hại lên xe địch, đạn tạo ra tác động ngắn hạn, lấy đi {whiteSpanish_Open}tối đa %(damagePerDotEffectDuration)s{whiteSpanish_Close} HP đối phương {whiteSpanish_Open}nội trong thời lượng %(dotEffectDuration)s s{whiteSpanish_Close} tác dụng.\n\n*Bộ Sửa chữa loại bỏ hiệu ứng tiêu cực này."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Cải thiện"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Đặc trưng của Chỉ huy"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "kỹ năng:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Mang lại"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "kỹ năng:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "Một phiên bản cải tiến của Bộ Ổn định Dọc ({colorTagOpen}–20%{colorTagClose} độ phân tán sau khi bắn, trong lúc di chuyển và xoay tháp pháo) mang lại hiệu quả lớn hơn: {colorTagOpen}–27.5%{colorTagClose} độ phân tán sau khi bắn, trong lúc di chuyển và xoay tháp pháo. Thiết bị này phù hợp cho các loại xe nhất định, bất kể quốc gia. Chỉ có thể gỡ ra được bằng cách dùng trái phiếu."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Hệ thống Ổn định Thiết bị"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "Một phiên bản cải tiến của Kính Quang học ({colorTagOpen}+10%{colorTagClose} tầm nhìn) mang lại hiệu quả lớn hơn: {colorTagOpen}+13.5%{colorTagClose} tầm nhìn. Thiết bị này phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào. Chỉ có thể gỡ ra được bằng cách dùng trái phiếu."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Thấu kính Thử nghiệm"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "Một phiên bản nâng cao của Bộ Truyền Đặt Súng Cải tiến ({colorTagOpen}+10%{colorTagClose} tốc độ ngắm) mang lại hiệu quả lớn hơn: {colorTagOpen}+13.5%{colorTagClose} tốc độ ngắm. Thiết bị này phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào. Chỉ có thể gỡ ra được bằng cách dùng trái phiếu."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Bộ Truyền Đặt Súng Chịu Mài mòn"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Tương tự Cấu hình Tinh chỉnh, đem lại hiệu quả mạnh hơn. Phù hợp cho xe của tất cả quốc gia và loại thiết bị. Chỉ có thể được gỡ ra bằng Trái phiếu."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Cấu hình Cải tiến"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Tăng tốc độ sửa chữa, bảo vệ gác đạn, thùng nhiên liệu và động cơ"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Một phiên bản cải tiến của Thông gió ({colorTagOpen}+5%{colorTagClose} cho khoản tăng hiệu suất kíp lái) mang lại hiệu quả lớn hơn: {colorTagOpen}+8.5%{colorTagClose} hiệu suất kíp lái. Thiết bị này phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào. Chỉ tháo gỡ được bằng cách dùng trái phiếu."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Hệ thống Thông khí"
+
+msgid "deluxRammer/long_special"
+msgstr "Một phiên bản cải tiến của Bộ Hỗ trợ Nạp Đạn ({colorTagOpen}-10%{colorTagClose} thời gian nạp đạn) mang lại hiệu quả lớn hơn: {colorTagOpen}-13.5%{colorTagClose} thời gian nạp đạn. Thiết bị này phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào. Chỉ có thể gỡ ra được bằng cách dùng trái phiếu."
+
+msgid "deluxRammer/name"
+msgstr "Hệ thống Nạp đạn Hiện đại"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "Một phiên bản cải tiến của Hệ thống Thoát khí Giảm thanh với tác dụng lớn hơn: Tăng độ ẩn giấu của xe đứng yên hay di chuyển. Hữu ích khi do thám chủ động, cũng như trinh sát thụ động từ các vị trí nguy hiểm.\nThiết bị này phù hợp cho mọi loại phương tiện thuộc bất kỳ quốc gia nào, nhưng mức hiệu quả tùy vào loại xe. Chỉ tháo gỡ được bằng cách dùng trái phiếu."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Khối Ống xả Tàng hình"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Tăng {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose} độ ẩn giấu của xe đứng yên hay di chuyển"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Tăng khả năng ẩn giấu của xe đứng yên sau 1.5 giây tính từ lúc dừng"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "Bản nâng cấp của Lưới Ngụy trang, hiệu quả tùy loại phương tiện. Lưới Tactical Concealment chủ yếu có lợi cho các xe ẩn giấu tốt: Pháo Tự hành và Pháo Chống tăng thấp bé. Nó làm tăng hiệu quả kỹ năng Ẩn giấu. Kết hợp chúng sẽ đem lại lợi thế lớn cho xe của bạn. Lưới Tactical Concealment kích hoạt sau 1.5 giây tính từ lúc xe dừng hẳn."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Lưới Tactical Concealment"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17.5{colorTagClose}/{colorTagOpen}12.5{colorTagClose}/{colorTagOpen}7.5%{colorTagClose} độ ẩn giấu của xe đứng yên"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Phục hồi hoàn toàn sức kháng cự của hệ thống giảm xóc sau khi sửa."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Phục hồi hệ giảm xóc sau khi sửa."
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "Một phiên bản tiếp theo của Bộ Gia cố Cải tiến: {colorTagOpen}+12.5%{colorTagClose} sức kháng cự cho xe, {colorTagOpen}+75%{colorTagClose} độ bền hệ giảm xóc, {colorTagOpen}+30%{colorTagClose} tốc độ sửa hệ giảm xóc, {colorTagOpen}–75%{colorTagClose} thương tổn lên thân xe khi hệ thống xóc chịu thiệt hại lúc va chạm. Phục hồi hoàn toàn sức kháng cự của hệ giảm xóc sau khi sửa. Giảm xác suất đứt xích khi hứng chịu thiệt hại, cho phép xe tiếp tục di chuyển lâu nhất có thể. Thiết bị này phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào (trừ Pháo Tự hành). Chỉ có thể gỡ ra được bằng cách dùng trái phiếu."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Vật liệu Chống Đạn"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Tăng sức kháng cự của xe, bảo vệ hệ giảm xóc"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "Một phiên bản tối tân của Cơ cấu Xoay trở Cải tiến với hiệu quả lớn hơn: {colorTagOpen}+17.5% {colorTagClose}tốc độ quay súng, {colorTagOpen}+17.5% {colorTagClose}tốc độ quay thân, {colorTagOpen}-17.5% {colorTagClose}độ phân tán khi xoay trở và quay tháp pháo. Thiết bị này phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào; chỉ có thể gỡ ra được bằng cách dùng trái phiếu."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Cơ cấu Xoay trở Tối tân"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Tăng tốc độ quay và giảm độ phân tán khi di chuyển cũng như xoay trở"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "Một phiên bản hiện đại của Thước ngắm Cải tiến mang lại hiệu quả lớn hơn: Giảm {colorTagOpen}9%{colorTagClose} kích thước tâm bắn của súng đang ngắm hoặc đã ngắm xong hoàn toàn. Kết quả, đạn bay ra có xác suất trúng mục tiêu cao hơn. Thiết bị này phù hợp cho mọi loại xe (trừ Pháo Tự hành), thuộc bất kỳ quốc gia nào. Chỉ tháo gỡ được bằng cách dùng trái phiếu."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Bộ Định ngắm Tối tân"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Giảm độ phân tán của súng"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Tăng tầm nhìn của xe đứng yên sau 1.5 giây tính từ lúc dừng (tối đa 445 m)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "Phiên bản nâng cấp của Ống nhòm Xa. Tầm nhìn tốt mang lại lợi thế lớn cho xe trong trận. Loại thiết bị này có ích đối với pháo chống tăng thấp bé, súng chính xác. Kích hoạt 1.5 giây sau khi xe dừng hẳn."
+
+msgid "deluxeStereoscope/name"
+msgstr "Hệ thống Telescopic Observation"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27.5%{colorTagClose} tầm nhìn của xe đứng yên (tối đa 445 m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "Một phiên bản tiếp theo của Bộ Tuabin Tăng áp ({colorTagOpen}+7.5%{colorTagClose} công suất động cơ,{colorTagOpen}+4 km/h{colorTagClose} tốc độ tiến tối đa,{colorTagOpen}+2 km/h{colorTagClose} tốc độ lùi tối đa): {colorTagOpen}+12.5%{colorTagClose} công suất động cơ, {colorTagOpen}+6 km/h{colorTagClose} tốc độ tiến tối đa, {colorTagOpen}+4 km/h{colorTagClose} tốc độ lùi tối đa. Thiết bị này phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào (trừ xe bánh lốp). Chỉ có thể gỡ ra được bằng cách dùng trái phiếu."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Máy nén Cải tiến"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Tăng công suất động cơ và tốc độ tối đa"
+
+msgid "eb_minefield/descr"
+msgstr "Rải một bãi mìn (có công hiệu trong khoảng thời gian nhất định) vào khu vực được chọn."
+
+msgid "eb_minefield/long_descr"
+msgstr "Rải một bãi mìn (có công hiệu trong khoảng thời gian nhất định) vào khu vực được chọn. Khi phát nổ, chúng sát thương và làm choáng xe địch. Mìn có thể bị phá hủy khi bắn trúng hoặc nổ cạnh. Địch có khả năng phát hiện mìn khi đến gần hoặc với Quân Dự bị Chiến đấu Không thám hay Vệ thiết."
+
+msgid "eb_minefield/name"
+msgstr "Bãi mìn"
+
+msgid "eb_minefield/short_descr"
+msgstr "Rải một bãi mìn (có công hiệu trong khoảng thời gian nhất định) vào khu vực được chọn."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Từ từ khôi phục một lượng sức kháng cự nhất định cho xe."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Từ từ khôi phục một lượng phần trăm sức kháng cự nhất định cho xe của bạn. Tăng tốc độ sửa chữa nội trong Vòng tròn Tiếp tế. Khi đang có công hiệu, làm giảm sát thương phải hứng chịu từ mìn."
+
+msgid "eb_regenerationKit/name"
+msgstr "Sửa chữa Dã chiến"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Từ từ khôi phục một lượng sức kháng cự nhất định cho xe."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Chỗ để xe"
+
+msgid "empty_slot/name"
+msgstr "Chỗ để xe"
+
+msgid "empty_slot/short_descr"
+msgstr "Ô Quân Dự bị Chiến đấu đã được sử dụng."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Tăng 1.5 lần hiệu quả của kỹ năng Nhạy âm"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Mang lại kỹ năng Nhạy âm ở mức 100%"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "Kỹ năng Nhạy âm đưa ra cảnh báo khi Pháo Tự hành địch khai hỏa và giảm tác động tiêu cực từ hiệu ứng choáng. Nếu đào tạo kỹ năng này đến 100%, ứng dụng kỹ thuật được trang bị sẽ tăng thêm hiệu quả; bằng không, ứng dụng kỹ thuật đem lại kỹ năng này (đủ 100%) cho xe của bạn."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Cảm ứng Cảnh báo Sớm"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Mang lại kỹ năng Nhạy âm ở mức 100% hoặc làm tăng hiệu quả tương ứng"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "Cải thiện khả năng ngắm sẽ làm giảm thời gian ngắm. Xe tăng có trang bị Bộ Truyền Đặt Súng Cải tiến luôn bắn chính xác hơn (thêm vào đó, nó cũng cải thiện tốc độ bắn, vì nạp đạn sớm hơn do không cần ngắm quá kỹ)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Bộ Truyền Đặt Súng Cải tiến"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s tốc độ ngắm khi đã lắp Bộ Truyền Đặt Súng Cải tiến (bất cứ loại nào), Bộ Truyền Đặt Súng Chịu Mài mòn, Bộ Truyền Đặt Súng Bao cấp hoặc Hệ thống Điều khiển Hỏa lực."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Cải thiện hiệu quả của Bộ Truyền Đặt Súng bao cấp, Bộ Truyền Đặt Súng Cải tiến hoặc Bộ Truyền Đặt Súng Chịu Mài mòn trong trận đánh. Để lắp và kích hoạt ứng dụng kỹ thuật này, các trang thiết bị trên cần phải có trên xe của bạn."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Khối Tinh chỉnh Thước ngắm"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Cải thiện hiệu quả của Bộ Truyền Đặt Súng"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Bộ Truyền Đặt Súng Cải tiến Loại 1"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Bộ Truyền Đặt Súng Cải tiến Loại 2"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Bộ Truyền Đặt Súng Cải tiến Loại 3"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Vòng đệm Lò xo Belleville Cải tiến"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Phục hồi hoàn toàn sức kháng cự của hệ thống giảm xóc sau khi sửa."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Phục hồi hoàn toàn sức kháng cự của hệ thống giảm xóc sau khi sửa"
+
+msgid "enhancedLevers/name"
+msgstr "Bộ lái Cải tiến"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Thanh Xoắn Dọc Cải tiến"
+
+msgid "enhancedSprings/name"
+msgstr "Lò xo Cải tiến"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Thanh Xoắn Cải tiến Loại 1 t"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Thanh Xoắn Cải tiến Loại 3 t"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Thanh Xoắn Cải tiến Loại 5 t"
+
+msgid "exampleAbility/descr"
+msgstr "Thử Kỹ năng cho Visual Script"
+
+msgid "exampleAbility/name"
+msgstr "Thử Kỹ năng"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s công suất động cơ và tốc độ quay tháp pháo trong suốt trận đánh."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} công suất động cơ và tốc độ quay tháp pháo."
+
+msgid "excellentFuel/long_special"
+msgstr "Tăng thêm {colorTagOpen}10%{colorTagClose} công suất động cơ và tốc độ quay tháp pháo trong trận. Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh."
+
+msgid "excellentFuel/name"
+msgstr "Nhiên liệu Tinh khiết"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} công suất động cơ và tốc độ quay tháp pháo"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Phục hồi hoàn toàn sức kháng cự của hệ thống giảm xóc sau khi sửa."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Phục hồi hệ giảm xóc sau khi sửa."
+
+msgid "extraHealthReserve/long_special"
+msgstr "Tăng sức kháng cự và tốc độ sửa chữa của xe. Giảm thương tổn lên thân xe khi hệ thống giảm xóc chịu thiệt hại lúc va chạm. Phục hồi hoàn toàn sức kháng cự của hệ thống giảm xóc sau khi sửa. Giảm xác suất đứt xích khi nhận sát thương, cho phép xe di chuyển lâu nhất có thể."
+
+msgid "extraHealthReserve/name"
+msgstr "Bộ Gia cố Cải tiến"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Tăng sức kháng cự của xe, bảo vệ hệ giảm xóc"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Bộ Gia cố Cải tiến Loại 1"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Bộ Gia cố Cải tiến Loại 2"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Bộ Gia cố Cải tiến Loại 3"
+
+msgid "fireCircle/battleDescr"
+msgstr "Tạo một vòng lửa quanh xe mình, làm giảm độ cơ động của địch ở khu vực ảnh hưởng và lấy đi tối đa %(damagePerTickForInterval)s HP đối phương trong %(timer)s s tác dụng.\n\n*Vòng lửa sẽ cố định, không thay đổi theo sự di chuyển của xe bạn."
+
+msgid "fireCircle/descr"
+msgstr "Tạo một vòng lửa quanh xe mình, làm giảm độ cơ động của địch ở khu vực ảnh hưởng và lấy đi tối đa %(damagePerTickForInterval)s HP đối phương trong %(timer)s s tác dụng.\n\n*Vòng lửa sẽ cố định, không thay đổi theo sự di chuyển của xe bạn."
+
+msgid "fireCircle/longDescr"
+msgstr "Tạo một vòng lửa quanh xe mình, làm giảm độ cơ động của địch ở khu vực ảnh hưởng và lấy đi {whiteSpanish_Open}tối đa %(damagePerTickForInterval)s{whiteSpanish_Close} HP đối phương{whiteSpanish_Open} trong %(timer)s s{whiteSpanish_Close} tác dụng.\n\n*Vòng lửa sẽ cố định, không thay đổi theo sự di chuyển của xe bạn."
+
+msgid "fireCircle/name"
+msgstr "Hỏa Xa"
+
+msgid "fireCircle/shortDescr"
+msgstr "Tạo một vòng lửa quanh xe mình, làm giảm độ cơ động của địch ở khu vực ảnh hưởng và lấy đi {whiteSpanish_Open}tối đa %(damagePerTickForInterval)s{whiteSpanish_Close} HP đối phương{whiteSpanish_Open} trong %(timer)s s{whiteSpanish_Close} tác dụng.\n\n*Vòng lửa sẽ cố định, không thay đổi theo sự di chuyển của xe bạn."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Tăng 1.5 lần hiệu quả của kỹ năng Chữa cháy"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Mang lại kỹ năng Chữa cháy ở mức 100%"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "Kỹ năng Chữa cháy làm tăng khả năng dập lửa trong xe của bạn trong trận đánh. Nếu kỹ năng nói trên đã được đào tạo thành thục 100%, ứng dụng kỹ thuật này làm tăng thêm hiệu quả tương ứng; ngược lại, nó sẽ cung cấp kỹ năng Chữa cháy ở mức 100%."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Bảng Chỉ dẫn Cứu hỏa"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Mang lại kỹ năng Chữa cháy ở mức 100% hoặc làm tăng hiệu quả tương ứng"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Gọi pháo oanh tạc khu vực được chọn, sát thương mọi xe bên trong."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Pháo Kích"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Gọi pháo oanh tạc khu vực được chọn, sát thương mọi xe bên trong."
+
+msgid "fort_inspire/longDescr"
+msgstr "Mang lại một khoản tăng cho chuyên môn chính cũng như mọi kỹ năng của kíp lái trên xe mình và xe đồng đội ở gần."
+
+msgid "fort_inspire/name"
+msgstr "Tiếp Nhuệ khí"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Mang lại một khoản tăng cho chuyên môn chính cũng như mọi kỹ năng của kíp lái trên xe mình và xe đồng đội ở gần."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Điều chỉnh Hệ thống Nhiên liệu (Loại 1)"
+
+msgid "grousers/long_special"
+msgstr "Tăng tốc độ xoay và khả năng duy trì tốc độ của xe khi vượt mọi loại địa hình. Đem lại hiệu quả đáng kể khi chạy trên địa hình yếu và tương đối yếu. Hiệu quả nhất khi kết hợp với kỹ năng Phanh Ly hợp và Vượt Địa hình."
+
+msgid "grousers/name"
+msgstr "Vấu xích Bổ sung"
+
+msgid "grousers/short_special"
+msgstr "Tăng tốc độ xoay và cải thiện gia tốc của xe"
+
+msgid "grousers_tier1/name"
+msgstr "Vấu xích Bổ sung Loại 1"
+
+msgid "grousers_tier2/name"
+msgstr "Vấu xích Bổ sung Loại 2"
+
+msgid "grousers_tier3/name"
+msgstr "Vấu xích Bổ sung Loại 3"
+
+msgid "gun_balancing_1/name"
+msgstr "Cân bằng Súng (Loại 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Chữa cháy cho xe của bạn."
+
+msgid "handExtinguishers/long_special"
+msgstr "Dập lửa trong xe của bạn khi được kích hoạt. Phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào. Vật phẩm này sẽ mất đi sau trận đánh nếu đã được sử dụng ít nhất một lần."
+
+msgid "handExtinguishers/name"
+msgstr "Bình Chữa Cháy Thủ công"
+
+msgid "handExtinguishers/onUse"
+msgstr "Dập lửa trong xe của bạn. Có thể dùng được nhiều lần trong 1 trận đánh. Sau trận, bạn sẽ phải tái tiếp tế vật phẩm này nếu nó đã được sử dụng ít nhất 1 lần."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Dập lửa"
+
+msgid "healPoint/battleDescr"
+msgstr "Tạo ra một phạm vi quanh xe của bạn. Ở khu vực này, cả xe người chơi lẫn thành viên Trung đội sẽ phục hồi %(healPerTick)s sức kháng cự mỗi giây trong thời lượng %(duration)s s."
+
+msgid "healPoint/descr"
+msgstr "Tạo ra một phạm vi quanh xe của bạn. Ở khu vực này, cả xe người chơi lẫn thành viên Trung đội sẽ phục hồi %(healPerTick)s sức kháng cự mỗi giây trong thời lượng %(duration)s s."
+
+msgid "healPoint/longDescr"
+msgstr "Tạo ra một phạm vi quanh xe của bạn. Ở khu vực này, cả xe người chơi lẫn thành viên Trung đội sẽ {green_Open}phục hồi %(healPerTick)s{green_Close} sức kháng cự mỗi giây trong thời lượng {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "healPoint/name"
+msgstr "Khu vực Cứu hộ"
+
+msgid "healPoint/shortDescr"
+msgstr "Tạo ra một phạm vi quanh xe của bạn. Ở khu vực này, cả xe người chơi lẫn thành viên Trung đội sẽ {green_Open}phục hồi %(healPerTick)s{green_Close} sức kháng cự mỗi giây trong thời lượng {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s cho khoản tăng hiệu suất kíp lái trong suốt trận đánh."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} cho khoản tăng hiệu suất kíp lái."
+
+msgid "hotCoffee/long_special"
+msgstr "Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh. Chỉ phù hợp cho xe Pháp."
+
+msgid "hotCoffee/name"
+msgstr "Cà phê Mạnh"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Chỉ phù hợp cho xe Pháp."
+
+msgid "hotCoffee/short_special"
+msgstr "Cải thiện hiệu quả chiến đấu của kíp lái Pháp"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Ngăn ngừa một lần cháy thùng nhiên liệu, nổ gác đạn và hỏng hoàn toàn động cơ khi chúng bị phá hủy trong một trận đánh."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Ngăn ngừa một lần cháy thùng nhiên liệu, nổ gác đạn và hỏng hoàn toàn động cơ khi chúng bị phá hủy trong một trận đánh."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "Gác đạn được bảo vệ khỏi bị phát nổ"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Đã ngăn gác đạn phát nổ"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "Động cơ được bảo vệ"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Đã ngăn động cơ hỏng hoàn toàn"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Thùng nhiên liệu được bảo vệ khỏi lửa"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Đã ngăn thùng nhiên liệu bốc cháy"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Ngăn ngừa một lần cháy thùng nhiên liệu, nổ gác đạn và hỏng hoàn toàn động cơ khi chúng bị phá hủy trong một trận đánh."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Tăng tốc độ sửa chữa. Tăng độ bền của gác đạn, thùng nhiên liệu và động cơ. Giảm khoản trừ cho thời gian nạp đạn và công suất động cơ khi mô-đun tương ứng bị hư hại. Giảm xác suất cháy của động cơ. Ngăn một lần cháy thùng nhiên liệu, nổ gác đạn và hỏng hoàn toàn động cơ khi chúng bị phá hủy trong một trận. Hiệu quả hơn khi kết hợp với kỹ năng Sửa chữa, Xếp Đạn và Bảo dưỡng Dự phòng."
+
+msgid "improvedConfiguration/name"
+msgstr "Cấu hình Tinh chỉnh"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Tăng tốc độ sửa chữa, bảo vệ gác đạn, thùng nhiên liệu và động cơ"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s tốc độ sửa chữa khi gắn Cấu hình Tinh chỉnh (bất cứ loại nào), Cấu hình Cải tiến hoặc Công nghệ Bảo vệ Bao cấp."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Cải thiện hiệu quả của Kính Quang học, Thấu kính Thử nghiệm hoặc Kính Quang học Bao cấp trong trận đánh. Để lắp và kích hoạt ứng dụng kỹ thuật này, các trang thiết bị trên cần phải có trên xe của bạn."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Sổ tay Hướng dẫn"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Cải thiện hiệu quả của Cấu hình Tinh chỉnh"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Cấu hình Tinh chỉnh Loại 1"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Cấu hình Tinh chỉnh Loại 2"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Tăng thời gian địch bị phát hiện sau khi thoát khỏi tầm nhìn của xe bạn. Giảm thời gian xe bạn bị kẻ thù phát hiện. Hiệu quả nhất khi kết hợp với kỹ năng Chỉ định Mục tiêu và Báo thù."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Bộ Radio Cải tiến"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Tăng thời gian địch bị phát hiện và giảm thời gian bạn bị phát hiện"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Tăng tốc độ xoay thân và tháp pháo cho xe có tháp pháo. Tăng tốc độ xoay thân và quay súng cho xe với cabin cố định. Giảm độ phân tán của súng lúc đang di chuyển và xoay thân/tháp pháo, cũng như sau khi bắn. Hiệu quả hơn khi kết hợp với kỹ năng Phanh Ly hợp."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Cơ cấu Xoay trở Cải tiến"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Tăng tốc độ quay và giảm độ phân tán khi di chuyển và xoay trở"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Cơ cấu Xoay trở Cải tiến Loại 1"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Cơ cấu Xoay trở Cải tiến Loại 2"
+
+msgid "improvedSights/long_special"
+msgstr "Giảm kích thước vòng ngắm để tăng độ chính xác cho phát bắn (đã hoặc chưa nhắm xong). Do đó, súng có xác suất bắn trúng mục tiêu cao hơn."
+
+msgid "improvedSights/name"
+msgstr "Bộ thước ngắm Cải tiến"
+
+msgid "improvedSights/short_special"
+msgstr "Giảm độ phân tán của súng"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s kích thước của tâm ngắm nếu đã lắp Bộ thước ngắm Cải tiến (bất kỳ loại nào), Thước ngắm Bao cấp hoặc Hệ thống Cải thiện Chính xác."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Cải thiện hiệu quả của Bộ thước ngắm Cải tiến hoặc Thước ngắm Bao cấp trong trận đánh. Ứng dụng kỹ thuật này chỉ có tác dụng nếu đã lắp thiết bị tương ứng."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Thấu kính Chống bẩn"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Giảm kích thước của tâm ngắm"
+
+msgid "improvedSights_tier1/name"
+msgstr "Bộ thước ngắm Cải tiến Loại 1"
+
+msgid "improvedSights_tier2/name"
+msgstr "Bộ thước ngắm Cải tiến Loại 2"
+
+msgid "improvedSights_tier3/name"
+msgstr "Bộ thước ngắm Cải tiến Loại 3"
+
+msgid "improvedVentilation/long_special"
+msgstr "Cải thiện hàng loạt đặc tính của xe: Tầm nhìn, tốc độ bắn, thời gian ngắm, độ cơ động, v.v... Tuy nhiên, lợi ích từ thiết bị này chỉ đáng kể khi kết hợp với kỹ năng Đoàn Kết đã được đào tạo đạt mức 100% cho kíp lái."
+
+msgid "improvedVentilation/name"
+msgstr "Quạt Thông gió Cải tiến"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s cho khoản tăng hiệu suất kíp lái khi đã lắp Quạt Thông gió Cải tiến (loại bất kỳ), Hệ thống Thông khí hoặc Quạt Thông gió Bao cấp."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Cải thiện hiệu quả của Quạt Thông gió Cải tiến (loại bất kỳ), Hệ thống Thông khí hoặc Quạt Thông gió Bao cấp trong trận đánh. Để lắp và kích hoạt ứng dụng kỹ thuật này, các trang thiết bị trên cần phải có trên xe của bạn."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Màng lọc Ống thông khí"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Cải thiện hiệu quả thông gió"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Quạt Thông gió Cải tiến Loại 1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Quạt Thông gió Cải tiến Loại 2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Quạt Thông gió Cải tiến Loại 3"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Quạt Thông gió Cải tiến Loại 1"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Quạt Thông gió Cải tiến Loại 2"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Quạt Thông gió Cải tiến Loại 3"
+
+msgid "improved_suspension_1/name"
+msgstr "Cải thiện Hệ Giảm xóc (Loại 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "Cải thiện Hệ Giảm xóc (Loại 2)"
+
+msgid "inspire/longDescr"
+msgstr "Đẩy mạnh hiệu suất chiến đấu của kíp lái trên xe mình và tất cả đồng đội nội trong một khoảng cách nhất định, mang lại một khoản tăng % cho chuyên môn chính của mỗi thành viên kíp lái. Người chơi áp dụng nó sẽ nhận được hiệu quả lớn hơn."
+
+msgid "inspire/name"
+msgstr "Tiếp lửa Nhuệ khí"
+
+msgid "inspire/shortDescr"
+msgstr "Tăng chuyên môn chính cho kíp lái của người chơi và đồng đội."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Bộ Hỗ trợ Nạp Đạn Pháo cỡ Lớn"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Bộ Hỗ trợ Nạp Đạn Tăng cỡ Lớn"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s thời gian bị choáng\n%(crewHitChance)s khả năng bảo vệ kíp lái khỏi bị thương"
+
+msgid "largeMedkit/descr"
+msgstr "Cứu thương cho tất cả thành viên kíp lái và loại bỏ hiệu ứng choáng."
+
+msgid "largeMedkit/long_special"
+msgstr "Chữa trị tất cả thành viên kíp lái bị thương và loại bỏ hiệu ứng choáng khi kích hoạt. Hiệu ứng phụ cung cấp thêm khả năng bảo vệ kíp lái khỏi chấn thương. Vật phẩm này phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào."
+
+msgid "largeMedkit/name"
+msgstr "Bộ Cứu Thương cỡ Lớn"
+
+msgid "largeMedkit/onUse"
+msgstr "Cứu thương cho tất cả thành viên kíp lái. Có thể dùng được nhiều lần trong 1 trận đánh. Sau trận, bạn sẽ phải tái tiếp tế vật phẩm này nếu nó đã được sử dụng ít nhất 1 lần."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Cứu thương cho tất cả thành viên kíp lái và loại bỏ hiệu ứng choáng. Có thể dùng được nhiều lần trong 1 trận đánh. Sau trận, bạn sẽ phải tái tiếp tế vật phẩm này nếu nó đã được sử dụng ít nhất 1 lần."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Chữa trị tất cả thành viên kíp lái bị thương và loại bỏ hiệu ứng choáng"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s tốc độ sửa chữa mô-đun"
+
+msgid "largeRepairkit/descr"
+msgstr "Sửa chữa tất cả các mô-đun bị hư hỏng."
+
+msgid "largeRepairkit/long_special"
+msgstr "Sửa chữa tất cả mô-đun bị hư hỏng ở thời điểm kích hoạt. Hiệu ứng phụ giúp tăng tốc thời gian sửa chữa. Vật phẩm này phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào."
+
+msgid "largeRepairkit/name"
+msgstr "Bộ Sửa chữa loại Lớn"
+
+msgid "largeRepairkit/onUse"
+msgstr "Sửa chữa tất cả các mô đun bị hư hỏng. Có thể dùng được nhiều lần trong 1 trận đánh. Sau trận, bạn sẽ phải tái tiếp tế vật phẩm này nếu nó đã được sử dụng ít nhất 1 lần."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Sửa chữa tất cả mô-đun bị hư hỏng"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "Cộng thêm 50% cho kỹ năng Báo thù"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Mang lại kỹ năng Báo thù ở mức 100%"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "Kỹ năng Báo thù mang lại cơ hội truyền tải vị trí địch thêm 2 giây nữa sau khi xe bị phá hủy trong trận đánh. Nếu kỹ năng nói trên đã được đào tạo thành thục 100%, ứng dụng kỹ thuật này sẽ tăng thời gian tác dụng thêm 1 giây (tổng cộng: 3 giây). Ngược lại, nó cung cấp kỹ năng Báo thù ở mức 100% (chuẩn 2 giây)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "Bộ Vô tuyến Khẩn cấp"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Mang lại kỹ năng Báo thù ở mức 100% hoặc làm tăng hiệu quả tương ứng"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Bộ Hỗ trợ Nạp Đạn Pháo cỡ Trung"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Bộ Hỗ trợ Nạp Đạn Tăng cỡ Trung"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Hệ thống Điều khiển Hỏa lực T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Hệ thống Điều khiển Hỏa lực T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Hệ thống Điều khiển Hỏa lực T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Hệ thống Điều khiển Hỏa lực T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Hệ thống Điều khiển Hỏa lực T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Hệ thống Điều khiển Hỏa lực T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Hệ thống Điều khiển Hỏa lực T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Hệ thống Điều khiển Hỏa lực T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Hệ thống Điều khiển Hỏa lực T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Bộ Cải thiện Sống sót T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Bộ Cải thiện Sống sót T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Bộ Cải thiện Sống sót T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Bộ Cải thiện Sống sót T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Bộ Cải thiện Sống sót T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Bộ Cải thiện Sống sót T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Bộ Cải thiện Sống sót T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Bộ Cải thiện Sống sót T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Bộ Cải thiện Sống sót T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Hệ thống Cải thiện Chính xác T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Hệ thống Cải thiện Chính xác T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Hệ thống Cải thiện Chính xác T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Hệ thống Cải thiện Chính xác T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Hệ thống Cải thiện Chính xác T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Hệ thống Cải thiện Chính xác T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Hệ thống Cải thiện Chính xác T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Hệ thống Cải thiện Chính xác T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Hệ thống Cải thiện Chính xác T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Hệ thống Cải thiện Cơ động T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Hệ thống Cải thiện Cơ động T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Hệ thống Cải thiện Cơ động T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Hệ thống Cải thiện Cơ động T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Hệ thống Cải thiện Cơ động T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Hệ thống Cải thiện Cơ động T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Hệ thống Cải thiện Cơ động T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Hệ thống Cải thiện Cơ động T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Hệ thống Cải thiện Cơ động T3"
+
+msgid "nitro/battleDescr"
+msgstr "Tạm thời tăng %(enginePowerFactor)s công suất động cơ và gấp %(maxSpeedFactor)s tốc độ tối đa trong %(consumeSeconds)s s."
+
+msgid "nitro/descr"
+msgstr "Tạm thời tăng %(enginePowerFactor)s công suất động cơ và gấp %(maxSpeedFactor)s tốc độ tối đa trong %(consumeSeconds)s s."
+
+msgid "nitro/long_special"
+msgstr "Tạm thời tăng {green_Open}%(enginePowerFactor)s{green_Close} công suất động cơ và {green_Open}gấp %(maxSpeedFactor)s{green_Close} tốc độ tối đa {whiteSpanish_Open}trong %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "Bộ Tuabin Tăng áp"
+
+msgid "nitro/short_special"
+msgstr "Tạm thời tăng {green_Open}%(enginePowerFactor)s{green_Close} công suất động cơ và {green_Open}gấp %(maxSpeedFactor)s{green_Close} tốc độ tối đa {whiteSpanish_Open}trong %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Cấu hình Khác: Thiết đặt Phụ trợ"
+
+msgid "passive_engineering/longDescr"
+msgstr "Mang lại một khoản tăng cho tốc độ chiếm và tái tiếp tế. Đẩy nhanh tốc độ tái tiếp tế, giảm thời gian cần hồi phục Vòng tròn Tiếp tế. cũng như giảm thời gian chiếm hoặc lấy lại quyền kiểm soát ở các vị trí chiến lược."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Bạn không thể áp dụng Quân Dự bị Chiến đấu này cho pháo tự hành."
+
+msgid "passive_engineering/name"
+msgstr "Kỹ thuật Quân sự"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Cung cấp một khoản tăng cho tốc độ chiếm, chặn chiếm và tái tiếp tế."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Không phù hợp cho pháo tự hành"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Tăng gấp ba hiệu quả của kỹ năng Xếp Đạn"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Mang lại kỹ năng Xếp Đạn ở mức 100%"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "Kỹ năng Xếp Đạn làm tăng độ bền gác chứa đạn trong trận đánh. Nếu kỹ năng nói trên đã được đào tạo thành thục 100%, ứng dụng kỹ thuật này làm tăng thêm hiệu quả tương ứng; ngược lại, nó sẽ cung cấp kỹ năng Xếp Đạn ở mức 100%."
+
+msgid "pedantBattleBooster/name"
+msgstr "Hệ thống Phân biệt đạn"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Mang lại kỹ năng Xếp Đạn ở mức 100% hoặc làm tăng hiệu quả tương ứng"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "Trong vòng {colorTagOpen}%(delay)d s{colorTagClose}, khu vực được chọn sẽ bị Pháo Kích bắn phá. Bất cứ mục tiêu nào dính thiệt hại nội trong bán kính {colorTagOpen}%(radius)d m{colorTagClose} sẽ hứng chịu {colorTagOpen}%(damage)d{colorTagClose} HP sát thương và bị choáng trong {colorTagOpen}%(stunDuration)d s{colorTagClose}."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Pháo Kích"
+
+msgid "poi_radar/descr"
+msgstr "Khi được kích hoạt, mọi xe địch sẽ không mất hình trong {colorTagOpen}%(duration)d s{colorTagClose}."
+
+msgid "poi_radar/name"
+msgstr "Ra-đa Chia nhánh"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Gấp đôi hiệu quả của kỹ năng Thực hành"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Mang lại kỹ năng Thực hành ở mức 100%"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "Kỹ năng Thực hành làm giảm thời gian chờ hồi phục vật phẩm trong trận. Nếu kỹ năng nói trên đã được đào tạo thành thục 100%, ứng dụng kỹ thuật này làm tăng thêm hiệu quả tương ứng; ngược lại, nó sẽ cung cấp kỹ năng đó ở mức 100%."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Lý thuyết Kỹ lưỡng"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Mang lại kỹ năng Thực hành ở mức 100% hoặc làm tăng hiệu quả tương ứng"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s công suất động cơ và tốc độ quay tháp pháo trong suốt trận đánh."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} công suất động cơ và tốc độ quay tháp pháo."
+
+msgid "qualityFuel/long_special"
+msgstr "Tăng thêm {colorTagOpen}5%{colorTagClose} công suất động cơ và tốc độ quay tháp pháo trong trận. Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh."
+
+msgid "qualityFuel/name"
+msgstr "Nhiên liệu Chất lượng"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} công suất động cơ và tốc độ quay tháp pháo"
+
+msgid "radar/descr"
+msgstr "Phát hiện xe địch và Chiến lợi phẩm trên bản đồ con."
+
+msgid "radar/name"
+msgstr "Dò sóng Radio"
+
+msgid "rammer/long_special"
+msgstr "Tốc độ bắn là đặc tính quan trọng nhất của xe tăng. Thiết bị này rất hữu ích trong trận đánh và nên được lắp trên mọi xe của bạn. Tuy nhiên, Bộ Hỗ trợ Nạp Đạn không thể trang bị trên các xe có hệ thống nạp đạn theo băng."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s thời gian nạp đạn khi đã lắp Bộ Hỗ trợ Nạp Đạn (bất kể loại súng và cỡ nòng), Hệ thống Nạp đạn Hiện đại hoặc Bộ Hỗ trợ Nạp Đạn bao cấp."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Cải thiện hiệu quả của Bộ Hỗ trợ Nạp Đạn (bất kể loại súng và cỡ nòng), Hệ thống Nạp đạn Hiện đại hoặc Bộ Hỗ trợ Nạp Đạn Bao cấp trong trận đánh. Để lắp và kích hoạt ứng dụng kỹ thuật này, các trang thiết bị trên cần phải có trên xe của bạn."
+
+msgid "rammerBattleBooster/name"
+msgstr "Bệ giắc Đầu đạn"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Cải thiện hiệu quả của Bộ Hỗ trợ Nạp Đạn"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Gấp đôi hiệu quả của kỹ năng Chỉ định Mục tiêu"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Mang lại kỹ năng Chỉ định Mục tiêu ở mức 100%"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "Kỹ năng Chỉ định Mục tiêu khiến xe địch bị đánh dấu sáng thêm hai giây trong trận đánh. Nếu kỹ năng nói trên đã được đào tạo thành thục 100%, ứng dụng kỹ thuật này làm tăng thêm hiệu quả tương ứng. Ngược lại, nó sẽ cung cấp kỹ năng Chỉ định Mục tiêu ở mức 100%."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Khối Hội tụ Mục tiêu"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Mang lại kỹ năng Chỉ định Mục tiêu ở mức 100% hoặc làm tăng hiệu quả tương ứng"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s cho khoản tăng hiệu suất kíp lái trong suốt trận đánh."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} cho khoản tăng hiệu suất kíp lái."
+
+msgid "ration/long_special"
+msgstr "Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh. Chỉ phù hợp cho xe Liên Xô."
+
+msgid "ration/name"
+msgstr "Khẩu phần Dã chiến Bổ sung"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Chỉ phù hợp cho xe Xô-Viết."
+
+msgid "ration/short_special"
+msgstr "Cải thiện hiệu quả chiến đấu của kíp lái Liên Xô"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s cho khoản tăng hiệu suất kíp lái trong suốt trận đánh."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} cho khoản tăng hiệu suất kíp lái."
+
+msgid "ration_china/long_special"
+msgstr "Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh. Chỉ phù hợp cho xe Trung Quốc."
+
+msgid "ration_china/name"
+msgstr "Khẩu phần Dã chiến Tăng cường"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Chỉ phù hợp cho xe Trung Quốc."
+
+msgid "ration_china/short_special"
+msgstr "Cải thiện hiệu quả chiến đấu của kíp lái Trung Quốc"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s cho khoản tăng hiệu suất kíp lái trong suốt trận đánh."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} cho khoản tăng hiệu suất kíp lái."
+
+msgid "ration_czech/long_special"
+msgstr "Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh. Chỉ phù hợp cho xe Tiệp Khắc."
+
+msgid "ration_czech/name"
+msgstr "Bánh ngọt Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Chỉ phù hợp cho xe Tiệp Khắc."
+
+msgid "ration_czech/short_special"
+msgstr "Cải thiện hiệu quả chiến đấu của kíp lái Tiệp Khắc"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s cho khoản tăng hiệu suất kíp lái trong suốt trận đánh."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} cho khoản tăng hiệu suất kíp lái."
+
+msgid "ration_italy/long_special"
+msgstr "Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh. Chỉ phù hợp cho xe Italia."
+
+msgid "ration_italy/name"
+msgstr "Mì ý Sốt Thịt"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Chỉ phù hợp cho xe Ý."
+
+msgid "ration_italy/short_special"
+msgstr "Cải thiện hiệu quả chiến đấu của kíp lái Italia"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s cho khoản tăng hiệu suất kíp lái trong suốt trận đánh."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} cho khoản tăng hiệu suất kíp lái."
+
+msgid "ration_japan/long_special"
+msgstr "Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh. Chỉ phù hợp cho xe Nhật Bản."
+
+msgid "ration_japan/name"
+msgstr "Cơm nắm Onigiri"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Chỉ phù hợp cho xe Nhật."
+
+msgid "ration_japan/short_special"
+msgstr "Cải thiện hiệu quả chiến đấu của kíp lái Nhật Bản"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s cho khoản tăng hiệu suất kíp lái trong suốt trận đánh."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} cho khoản tăng hiệu suất kíp lái."
+
+msgid "ration_poland/long_special"
+msgstr "Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh. Chỉ phù hợp cho xe Ba Lan."
+
+msgid "ration_poland/name"
+msgstr "Bánh mì quét Smalec"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Chỉ phù hợp cho xe Ba Lan."
+
+msgid "ration_poland/short_special"
+msgstr "Cải thiện hiệu quả chiến đấu của kíp lái Ba Lan"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s cho khoản tăng hiệu suất kíp lái trong suốt trận đánh."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} cho khoản tăng hiệu suất kíp lái."
+
+msgid "ration_sweden/long_special"
+msgstr "Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh. Chỉ phù hợp cho xe Thụy Điển."
+
+msgid "ration_sweden/name"
+msgstr "Cà phê với Bánh Quế cuộn"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Chỉ phù hợp cho xe Thụy Điển."
+
+msgid "ration_sweden/short_special"
+msgstr "Cải thiện hiệu quả chiến đấu của kíp lái Thụy Điển"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s cho khoản tăng hiệu suất kíp lái trong suốt trận đánh."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} cho khoản tăng hiệu suất kíp lái."
+
+msgid "ration_uk/long_special"
+msgstr "Tự động kích hoạt từ đầu trận đánh và có hiệu quả trong suốt thời gian giao tranh. Chỉ phù hợp cho xe Anh."
+
+msgid "ration_uk/name"
+msgstr "Bánh Pudding và Trà"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Chỉ phù hợp cho xe Anh."
+
+msgid "ration_uk/short_special"
+msgstr "Cải thiện hiệu quả chiến đấu của kíp lái Anh"
+
+msgid "recon/longDescr"
+msgstr "Ra lệnh cho máy bay do thám thực hiện đường trinh sát trên một khu vực lớn. Các xe nằm trong tầm do thám của máy bay sẽ bị phát hiện và không mất hình sau một khoảng thời gian nhất định. Dò được bãi mìn."
+
+msgid "recon/name"
+msgstr "Không thám"
+
+msgid "recon/shortDescr"
+msgstr "Phát hiện xe địch và bãi mìn."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} công suất nhưng làm hư hại động cơ."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Tăng công suất động cơ thêm {colorTagOpen}10%{colorTagClose}. Tuy nhiên, khi kích hoạt, nó sẽ làm giảm tuổi thọ và hư hại động cơ. Có thể bật hoặc tắt nhiều lần trong trận. Chỉ phù hợp cho các xe Trung Quốc và Liên Xô."
+
+msgid "removedRpmLimiter/name"
+msgstr "Bộ Điều Tốc Linh động"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s công suất nhưng làm hư hại động cơ. Có thể được dùng nhiều lần trong một trận."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Chỉ phù hợp cho xe Xô-Viết và Trung Quốc."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} công suất nhưng làm hư hại động cơ"
+
+msgid "repairpoint/battleDescr"
+msgstr "Tạo một khu vực tĩnh, có thời gian công hiệu nhất định, giúp sửa chữa mọi mô-đun bị hư hại, loại bỏ TẤT CẢ hiệu ứng tiêu cực và khôi phục %(healPerTick)s sức kháng cự cho xe của bạn mỗi giây trong %(timer)s s.\n\n*Xe đồng đội thuộc phạm vi ảnh hưởng cũng sẽ hồi lại HP."
+
+msgid "repairpoint/descr"
+msgstr "Tạo một khu vực tĩnh, có thời gian công hiệu nhất định, giúp sửa chữa mọi mô-đun bị hư hại, loại bỏ TẤT CẢ hiệu ứng tiêu cực và khôi phục %(healPerTick)s sức kháng cự cho xe của bạn mỗi giây trong %(timer)s s.\n\n*Xe đồng đội thuộc phạm vi ảnh hưởng cũng sẽ hồi lại HP."
+
+msgid "repairpoint/long_special"
+msgstr "Tạo một khu vực tĩnh, có thời gian công hiệu nhất định, giúp sửa chữa mọi mô-đun bị hư hại, loại TẤT CẢ hiệu ứng xấu và {green_Open}khôi phục %(healPerTick)s{green_Close} sức kháng cự cho xe của bạn {whiteSpanish_Open}mỗi giây trong %(timer)s s.{whiteSpanish_Close}\n\n*Xe đồng đội thuộc phạm vi ảnh hưởng cũng sẽ hồi lại HP."
+
+msgid "repairpoint/name"
+msgstr "Vùng Phục hồi"
+
+msgid "repairpoint/short_special"
+msgstr "Tạo một khu vực tĩnh, có thời gian công hiệu nhất định, giúp sửa chữa mọi mô-đun bị hư hại, loại TẤT CẢ hiệu ứng xấu và {green_Open}khôi phục %(healPerTick)s{green_Close} sức kháng cự cho xe của bạn {whiteSpanish_Open}mỗi giây trong %(timer)s s.{whiteSpanish_Close}\n\n*Xe đồng đội thuộc phạm vi ảnh hưởng cũng sẽ hồi lại HP."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Vệ sinh Rãnh xoắn Nòng súng (Loại 1)"
+
+msgid "roleSlot/name"
+msgstr "Loại ô thiết bị thứ hai"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Hệ thống Bảo vệ Thụ động"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Hệ thống Bảo vệ\nThụ động"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Tái cấu trúc Gác Đạn"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Tái cấu trúc\nGác Đạn"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Xích sửa được"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Xích\nsửa được"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Tinh chỉnh Khoang Động cơ"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Tinh chỉnh\nKhoang Động cơ"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Hệ Giảm xóc Gia cố"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Hệ Giảm xóc\nGia cố"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Hệ Giảm xóc Nhẹ"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Hệ Giảm xóc\nNhẹ"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Mài nhẵn Bánh răng Ngắm"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Mài nhẵn\nBánh răng Ngắm"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Hiệu chỉnh Thị sai"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Hiệu chỉnh\nThị sai"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Tinh chỉnh Bộ phóng"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Tinh chỉnh\nBộ phóng"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Tiềm vọng Góc vuông"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Tiềm vọng\nGóc vuông"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Tinh chỉnh Cơ chế Tái nạp"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Tinh chỉnh\nCơ chế Tái nạp"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Tinh chỉnh Cơ chế Ngắm"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Tinh chỉnh\nCơ chế Ngắm"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "Tinh chỉnh Bộ Truyền lực"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "Tinh chỉnh\nBộ Truyền lực"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Bộ Truyền Ngắm Điện"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Bộ Truyền Ngắm\nĐiện"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Răng Ngắm Mới"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Răng Ngắm\nMới"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Tinh chỉnh Khóa nòng"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Tinh chỉnh\nKhóa nòng"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Giảm Trọng Chung"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Giảm\nTrọng Chung"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Tăng Bền Chung"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Tăng\nBền Chung"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Sơn Mờ"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Sơn\nMờ"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Số Lùi Bổ sung"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Số Lùi\nBổ sung"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Động cơ Trục cam Trên đỉnh"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Động cơ\nTrục cam Trên đỉnh"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Bộ Hỗ trợ Nạp Đạn Cải tiến"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Bộ Hỗ trợ Nạp Đạn\nCải tiến"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Bổ sung Chống Ồn"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Bổ sung\nChống Ồn"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Bỏ Lớp Lót"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Bỏ\nLớp Lót"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Hệ thống Bảo vệ Bổ trợ"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Hệ thống\nBảo vệ Bổ trợ"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Điểm Lắp Nhẹ"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Điểm Lắp\nNhẹ"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Mắc lại dây Nguồn (Thiết lập 1)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Mắc lại dây\nNguồn (Thiết lập 1)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Mắc lại dây Nguồn (Thiết lập 2)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Mắc lại dây\nNguồn (Thiết lập 2)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Gia cường Nền Cấu phần"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Gia cường\nNền tảng"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Nền Cấu phần Nhẹ"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Nền Cấu phần\nNhẹ"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Tập trung Cơ động"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Tập trung \nCơ động"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Tập trung Hỏa lực"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Tập trung\nHỏa lực"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Pháo Nặng"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Pháo\nNặng"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Pháo Nhẹ"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Pháo\nNhẹ"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Tinh chỉnh Công suất Ra (Thiết lập 1)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Tinh chỉnh\nCông suất Ra (Thiết lập 1)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Tinh chỉnh Công suất Ra (Thiết lập 2)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Tinh chỉnh\nCông suất Ra (Thiết lập 2)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Gia cố Thân xe"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Gia cố\nThân xe"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Thân xe Nhẹ"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Thân xe\nNhẹ"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Lớp Phủ Thấu kính Chống Phản chiếu"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Lớp Phủ Thấu kính\nChống Phản chiếu"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Hệ thống Quan sát Ngoại biên"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Hệ thống\nQuan sát Ngoại biên"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Kính Triplêch Toàn cảnh"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Kính Triplêch\nToàn cảnh"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Thiết bị Quan sát Góc hẹp"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Thiết bị Quan sát\nGóc hẹp"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Gia cường Kết cấu Chính"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Gia cường\nKết cấu Chính"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Mở rộng Buồng Tháp pháo"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Mở rộng\nBuồng Tháp pháo"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Trang bị Trinh sát"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Trang bị\nTrinh sát"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Trang bị Xung kích"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Trang bị\nXung kích"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Gia cường Độ bền Tiên tiến"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Gia cường\nĐộ bền Tiên tiến"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Cải thiện Ngắm Tiên tiến"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Cải thiện\nNgắm Tiên tiến"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Thiết bị Quan sát Bổ sung"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Thiết bị Quan sát\nBổ sung"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Gia cường Khớp nối"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Gia cường\nKhớp nối"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Tinh chỉnh Cơ chế Tái nạp"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Tinh chỉnh\nCơ chế Tái nạp"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Tinh chỉnh Cơ chế Ngắm"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Tinh chỉnh\nCơ chế Ngắm"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "Tinh chỉnh Bộ Truyền lực"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "Tinh chỉnh\nBộ Truyền lực"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Bộ Truyền Ngắm Điện"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Bộ Truyền Ngắm\nĐiện"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Tinh chỉnh Khóa nòng"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Tinh chỉnh\nKhóa nòng"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Răng Ngắm Mới"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Răng Ngắm\nMới"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Tinh chỉnh Hệ thống Phun"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Tinh chỉnh\nHệ thống Phun"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Tinh chỉnh Kính lực"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Tinh chỉnh\nKính lực"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Tăng Bền Mô-đun"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Tăng\nBền Chung"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Điểm Lắp Hợp kim Nhẹ"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Điểm Lắp\nHợp kim Nhẹ"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Tinh chỉnh Khóa nòng"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Tinh chỉnh\nKhóa nòng"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Răng Ngắm Mới"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Răng Ngắm\nMới"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Vòi Đo Hạng nặng"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Vòi Đo\nHạng nặng"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Thấu kính Nhạy"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Thấu kính\nNhạy"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Gia cường Trục lăn Hỗ trợ"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Gia cường\nTrục lăn Hỗ trợ"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Trục lăn Hỗ trợ Nhẹ"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Trục lăn Hỗ trợ\nNhẹ"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Tinh chỉnh Hệ Giảm xóc"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Tinh chỉnh\nHệ Giảm xóc"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Tinh chỉnh Động cơ"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Tinh chỉnh\nĐộng cơ"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Giải pháp Săn Tốc"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Giải pháp\nSăn Tốc"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Giải pháp Săn Ẩn"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Giải pháp\nSăn Ẩn"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Tinh chỉnh Thủy lực (Thiết lập 1)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Tinh chỉnh\nThủy lực (Thiết lập 1)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Tinh chỉnh Thủy lực (Thiết lập 2)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Tinh chỉnh\nThủy lực (Thiết lập 2)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Tinh chỉnh Cơ chế Tái nạp"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Tinh chỉnh\nCơ chế Tái nạp"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Tinh chỉnh Cơ chế Ngắm"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Tinh chỉnh\nCơ chế Ngắm"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Tăng Độ Sống sót"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Tăng\nĐộ Sống sót"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Giảm Trọng lượng"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Giảm\nTrọng lượng"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Hệ Giảm xóc Mọi Địa hình"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Hệ Giảm xóc\nMọi Địa hình"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Hệ Giảm xóc Nhẹ"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Hệ Giảm xóc\nNhẹ"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Hiệu chỉnh Thị sai"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Hiệu chỉnh\nThị sai"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Mài nhẵn Bánh răng Ngắm"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Mài nhẵn\nBánh răng Ngắm"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Cách Âm"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Cách\nÂm"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Bộ truyền Tiềm vọng Điện"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Bộ truyền\nTiềm vọng Điện"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Tinh chỉnh Van (Thiết lập 1)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Tinh chỉnh Van\n(Thiết lập 1)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Tinh chỉnh Van (Thiết lập 2)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Tinh chỉnh Van\n(Thiết lập 2)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Tinh chỉnh Cơ chế Tái nạp"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Tinh chỉnh\nCơ chế Tái nạp"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Tinh chỉnh Cơ chế Ngắm"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Tinh chỉnh\nCơ chế Ngắm"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Gia cố Bảo vệ Chống Mảnh"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Gia cố\nBảo vệ Chống Mảnh"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Bảo vệ Chống Mảnh Nhẹ"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Bảo vệ Chống Mảnh\nNhẹ"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Tăng Bền Mô-đun"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Tăng\nBền Chung"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Điểm Lắp Hợp kim Nhẹ"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Điểm Lắp\nHợp kim Nhẹ"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Tinh chỉnh Tay Giảm xóc"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Tinh chỉnh\nTay Giảm xóc"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Ống ngắm Cải tiến"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Ống ngắm\nCải tiến"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Tinh chỉnh Tuabin Tăng áp"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Tinh chỉnh\nTuabin Tăng áp"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Lớp Phủ Đèn pha Chống Phản chiếu"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Lớp Phủ Đèn pha\nChống Phản chiếu"
+
+msgid "selfBuff/battleDescr"
+msgstr "Trong %(duration)s s, giảm %(gunAimingTime)s độ phân tán và thời gian ngắm, đồng thời tăng ổn định nòng, tốc độ bắn của súng.\n\n*Không ảnh hưởng thời gian lúc bắn một viên và nạp viên tiếp theo trong cùng băng, nòng hoặc ổ đạn."
+
+msgid "selfBuff/descr"
+msgstr "Trong %(duration)s s, giảm %(gunAimingTime)s độ phân tán và thời gian ngắm, đồng thời tăng ổn định nòng, tốc độ bắn của súng.\n\n*Không ảnh hưởng thời gian lúc bắn một viên và nạp viên tiếp theo trong cùng băng, nòng hoặc ổ đạn."
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}Trong %(duration)s s{whiteSpanish_Close}, giảm {green_Open}%(gunAimingTime)s{green_Close} độ phân tán và thời gian ngắm, đồng thời tăng ổn định nòng, tốc độ bắn của súng.\n\n*Không ảnh hưởng thời gian lúc bắn một viên và nạp viên tiếp theo trong cùng băng, nòng hoặc ổ đạn."
+
+msgid "selfBuff/name"
+msgstr "Khóa Mục tiêu"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}Trong %(duration)s s{whiteSpanish_Close}, giảm {green_Open}%(gunAimingTime)s{green_Close} độ phân tán và thời gian ngắm, đồng thời tăng ổn định nòng, tốc độ bắn của súng.\n\n*Không ảnh hưởng thời gian lúc bắn một viên và nạp viên tiếp theo trong cùng băng, nòng hoặc ổ đạn."
+
+msgid "shells_consumables_switch/name"
+msgstr "Cấu hình Khác: Thiết đặt Cốt yếu"
+
+msgid "shotPassion/battleDescr"
+msgstr "Trong %(duration)s s, giảm %(gunAimingTime)s hiệu quả truyền đặt và ổn định súng, nhưng mỗi phát trúng xuyên giáp sẽ làm tăng sát thương gây ra thêm %(damageIncreasePerShot)s. Cộng dồn tối đa 5 lần. Các phát trúng không gây hại hoặc trượt sẽ đặt lại tổng khoản tăng sát thương về 0.\n\n*Các phát trúng do Phóng Điện cũng được tính vào tổng khoản tăng sát thương của bạn."
+
+msgid "shotPassion/descr"
+msgstr "Trong %(duration)s s, giảm %(gunAimingTime)s hiệu quả truyền đặt và ổn định súng, nhưng mỗi phát trúng xuyên giáp sẽ làm tăng sát thương gây ra thêm %(damageIncreasePerShot)s. Cộng dồn tối đa 5 lần. Các phát trúng không gây hại hoặc trượt sẽ đặt lại tổng khoản tăng sát thương về 0.\n\n*Các phát trúng do Phóng Điện cũng được tính vào tổng khoản tăng sát thương của bạn."
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}Trong %(duration)s s{whiteSpanish_Close}, giảm {red_Open}%(gunAimingTime)s{red_Close} hiệu quả truyền đặt và ổn định súng, nhưng mỗi phát trúng xuyên giáp sẽ làm tăng sát thương gây ra {green_Open}thêm %(damageIncreasePerShot)s. {green_Close}Cộng dồn {whiteSpanish_Open}tối đa 5 lần{whiteSpanish_Close}. Các phát trúng không gây hại hoặc trượt sẽ đặt lại tổng khoản tăng sát thương về 0.\n\n*Các phát trúng do Phóng Điện cũng được tính vào tổng khoản tăng sát thương của bạn."
+
+msgid "shotPassion/name"
+msgstr "Sốt Nhiệt"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}Trong %(duration)s s{whiteSpanish_Close}, giảm {red_Open}%(gunAimingTime)s{red_Close} hiệu quả truyền đặt và ổn định súng, nhưng mỗi phát trúng xuyên giáp sẽ làm tăng sát thương gây ra {green_Open}thêm %(damageIncreasePerShot)s. {green_Close}Cộng dồn {whiteSpanish_Open}tối đa 5 lần{whiteSpanish_Close}. Các phát trúng không gây hại hoặc trượt sẽ đặt lại tổng khoản tăng sát thương về 0.\n\n*Các phát trúng do Phóng Điện cũng được tính vào tổng khoản tăng sát thương của bạn."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "Giác quan Thứ 6 được kích hoạt sớm hơn bình thường 1 giây"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "Tính năng Giác quan Thứ 6 giúp vị Chỉ huy ý thức được liệu xe mình đã bị địch phát hiện hay chưa. Kích hoạt 3 s sau khi xe lộ hình."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "Kỹ năng Giác quan Thứ 6 cho phép Chỉ huy xác định được xe của mình đã bị địch phát hiện hay chưa. Ứng dụng kỹ thuật tương ứng sẽ làm tăng thêm hiệu quả khi lắp."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Thuốc bổ Thần kinh"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Tăng cường hiệu quả tính năng Giác quan Thứ 6 của Chỉ huy"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Cứu thương cho tất cả thành viên kíp lái và loại bỏ hiệu ứng choáng."
+
+msgid "smallMedkit/long_special"
+msgstr "Chữa trị tất cả thành viên kíp lái bị thương và loại bỏ hiệu ứng choáng ở thời điểm kích hoạt. Phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào. Vật phẩm này sẽ mất đi sau trận đánh nếu đã được sử dụng ít nhất một lần."
+
+msgid "smallMedkit/name"
+msgstr "Bộ Cứu thương cỡ Nhỏ"
+
+msgid "smallMedkit/onUse"
+msgstr "Cứu thương cho tất cả thành viên kíp lái và loại bỏ hiệu ứng choáng."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Cứu thương cho tất cả thành viên kíp lái và loại bỏ hiệu ứng choáng."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Chữa trị tất cả thành viên kíp lái bị thương và loại bỏ hiệu ứng choáng."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Sửa chữa tất cả các mô-đun bị hư hỏng."
+
+msgid "smallRepairkit/long_special"
+msgstr "Lập tức sửa tất cả các mô-đun hư hại khi được kích hoạt. Phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào. Vật phẩm này sẽ mất đi sau trận đánh nếu đã được sử dụng ít nhất một lần."
+
+msgid "smallRepairkit/name"
+msgstr "Bộ Sửa chữa loại Nhỏ"
+
+msgid "smallRepairkit/onUse"
+msgstr "Sửa tất cả các mô-đun hư hại. Phù hợp cho mọi loại xe, thuộc bất kỳ quốc gia nào. Vật phẩm này sẽ mất đi sau trận đánh nếu đã được sử dụng ít nhất một lần."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Sửa chữa tất cả mô-đun bị hư hỏng."
+
+msgid "smoke/longDescr"
+msgstr "Tạo màn khói giúp che giấu mọi tăng nằm trong và phía sau khói. Các xe địch nằm trong màn khói bị giảm tầm nhìn cũng như hiệu suất kíp lái."
+
+msgid "smoke/name"
+msgstr "Màn khói"
+
+msgid "smoke/shortDescr"
+msgstr "Khói che mọi xe ở trong/phía sau. Địch bên trong khói có tầm nhìn và hiệu suất tổ lái bị giảm."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Gấp đôi hiệu quả của kỹ năng Lái Lụa"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Mang lại kỹ năng Lái Lụa ở mức 100%"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "Kỹ năng Lái Lụa làm tăng độ chính xác khi khai hỏa lúc đang di chuyển trong trận đánh. Nếu kỹ năng nói trên đã được đào tạo thành thục 100%, ứng dụng kỹ thuật này làm tăng thêm hiệu quả tương ứng; ngược lại, nó sẽ cung cấp kỹ năng Lái Lụa ở mức 100%."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Hộp số sàn Cải tiến"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Cung cấp kỹ năng Lái Lụa ở mức 100% hoặc làm tăng hiệu quả tương ứng"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Gấp đôi hiệu quả của kỹ năng Vảy Súng"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Mang lại kỹ năng Vảy Súng ở mức 100%"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "Kỹ năng Vảy Súng làm tăng độ chính xác khi khai hỏa lúc xoay tháp pháo trong trận đánh. Nếu kỹ năng nói trên đã được đào tạo thành thục 100%, ứng dụng kỹ thuật này làm tăng thêm hiệu quả tương ứng; ngược lại, nó sẽ cung cấp kỹ năng Vảy Súng ở mức 100%."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Kích đỡ Bệ ngắm"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Cung cấp kỹ năng Vảy Súng ở mức 100% hoặc làm tăng hiệu quả tương ứng"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Triển khai một loại mìn tự hành—đuổi theo xe kẻ thù gần nhất trong tối đa %(botLifeTime)s s và gây 400 đến 600 HP thiệt hại nội trong bán kính nhỏ khi nổ.\n\n*Địch có thể phá hủy \"Fireball\" bằng cách bắn hoặc đâm/húc nó. Fireball cũng tạo sát thương đâm/húc lúc đụng mục tiêu."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Triển khai một loại mìn tự hành—đuổi theo xe kẻ thù gần nhất trong tối đa %(botLifeTime)s s và gây 400 đến 600 HP thiệt hại nội trong bán kính nhỏ khi nổ.\n\n*Địch có thể phá hủy \"Fireball\" bằng cách bắn hoặc đâm/húc nó. Fireball cũng tạo sát thương đâm/húc lúc đụng mục tiêu."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Triển khai một loại mìn tự hành—đuổi theo xe kẻ thù gần nhất trong tối đa {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} và gây {whiteSpanish_Open}400 đến 600 HP thiệt hại{whiteSpanish_Close} nội trong bán kính nhỏ khi nổ.\n\n*Địch có thể phá hủy \"Fireball\" bằng cách bắn hoặc đâm/húc nó. Fireball cũng tạo sát thương đâm/húc lúc đụng mục tiêu."
+
+msgid "spawn_kamikaze/name"
+msgstr "\"Fireball\""
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Triển khai một loại mìn tự hành—đuổi theo xe kẻ thù gần nhất trong tối đa {whiteSpanish_Open}%(botLifeTime)s s{whiteSpanish_Close} và gây {whiteSpanish_Open}400 đến 600 HP thiệt hại{whiteSpanish_Close} nội trong bán kính nhỏ khi nổ.\n\n*Địch có thể phá hủy \"Fireball\" bằng cách bắn hoặc đâm/húc nó. Fireball cũng tạo sát thương đâm/húc lúc đụng mục tiêu."
+
+msgid "stealthRadar/descr"
+msgstr "Tăng thêm khả năng ẩn giấu và tầm nhìn. Làm giảm độ ẩn giấu của xe địch."
+
+msgid "stealthRadar/long_descr"
+msgstr "Tăng thông số ẩn giấu cho xe của bạn %(activationDelay)s giây sau khi dừng và làm giảm độ ẩn giấu của xe địch. Mang lại khoản tăng thụ động cho tầm nhìn và phát hiện mìn đối phương. Không có tác dụng khi xe di chuyển."
+
+msgid "stealthRadar/name"
+msgstr "Vệ thiết"
+
+msgid "stealthRadar/short_descr"
+msgstr "Tăng thêm khả năng ẩn giấu và tầm nhìn. Làm giảm độ ẩn giấu của xe địch."
+
+msgid "stereoscope/battleDescr"
+msgstr "Tăng tầm nhìn của xe đứng yên sau 3 giây tính từ lúc dừng (lên đến 445 m)"
+
+msgid "stereoscope/long_special"
+msgstr "Tầm nhìn tốt mang lại lợi thế lớn cho xe trong trận. Loại thiết bị này có ích đối với pháo chống tăng thấp bé, súng chính xác. Kích hoạt sau 3 giây tính từ lúc xe ngừng chuyển động."
+
+msgid "stereoscope/name"
+msgstr "Ống nhòm Xa"
+
+msgid "stereoscope_tier1/name"
+msgstr "Ống nhòm Xa Loại 1"
+
+msgid "stereoscope_tier2/name"
+msgstr "Ống nhòm Xa Loại 2"
+
+msgid "stereoscope_tier3/name"
+msgstr "Ống nhòm Xa Loại 3"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Thay thế Cấu phần Giảm xóc (Loại 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Thay thế Cấu phần Giảm xóc (Loại 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Mài nhẵn Cơ chế Quay (Loại 1)"
+
+msgid "tankRammer/name"
+msgstr "Bộ Hỗ trợ Nạp Đạn"
+
+msgid "tankRammer_tier1/name"
+msgstr "Bộ Hỗ trợ Nạp Đạn Loại 1"
+
+msgid "tankRammer_tier2/name"
+msgstr "Bộ Hỗ trợ Nạp Đạn Loại 2"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Tạo một khu vực có %(thunderCount)s phát điện giật với tần suất cao. Mỗi lần xẹt gây %(damage)s HP thiệt hại và tạm thời giảm độ cơ động của xe nội trong vùng ảnh hưởng.\n\n*Có độ trễ %(delay)s s giữa lúc kích hoạt khả năng và phát xẹt điện đầu tiên. Bộ Sửa chữa loại bỏ hiệu ứng tiêu cực."
+
+msgid "thunderStrike/descr"
+msgstr "Tạo một khu vực có %(thunderCount)s phát điện giật với tần suất cao. Mỗi lần xẹt gây %(damage)s HP thiệt hại và tạm thời giảm độ cơ động của xe nội trong vùng ảnh hưởng.\n\n*Có độ trễ %(delay)s s giữa lúc kích hoạt khả năng và phát xẹt điện đầu tiên. Bộ Sửa chữa loại bỏ hiệu ứng tiêu cực."
+
+msgid "thunderStrike/longDescr"
+msgstr "Tạo một khu vực có %(thunderCount)s phát điện giật với tần suất cao. Mỗi lần xẹt gây {whiteSpanish_Open}%(damage)s HP thiệt hại{whiteSpanish_Close} và tạm thời giảm độ cơ động của xe nội trong vùng ảnh hưởng.\n\n*Có độ trễ %(delay)s s giữa lúc kích hoạt khả năng và phát xẹt điện đầu tiên. Bộ Sửa chữa loại bỏ hiệu ứng tiêu cực."
+
+msgid "thunderStrike/name"
+msgstr "Phóng Điện"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Tạo một khu vực có %(thunderCount)s phát điện giật với tần suất cao. Mỗi lần xẹt gây {whiteSpanish_Open}%(damage)s HP thiệt hại{whiteSpanish_Close} và tạm thời giảm độ cơ động của xe nội trong vùng ảnh hưởng.\n\n*Có độ trễ %(delay)s s giữa lúc kích hoạt khả năng và phát xẹt điện đầu tiên. Bộ Sửa chữa loại bỏ hiệu ứng tiêu cực."
+
+msgid "trappoint/battleDescr"
+msgstr "Trong %(duration)s s, tạo một khu vực làm giảm %(vehicleMaxSpeed)s độ cơ động, và tăng thời gian tái nạp súng cũng như thời gian ngắm thêm %(gunReloadTime)s cho mọi xe địch nằm trong đó."
+
+msgid "trappoint/descr"
+msgstr "Trong %(duration)s s, tạo một khu vực làm giảm %(vehicleMaxSpeed)s độ cơ động, và tái nạp súng cũng như thời gian ngắm thêm %(gunReloadTime)s cho mọi xe địch nằm trong đó."
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}Trong %(duration)s s{whiteSpanish_Close}, tạo một khu vực làm giảm {whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close} độ cơ động, và tái nạp súng cũng như thời gian ngắm {whiteSpanish_Open}thêm %(gunReloadTime)s{whiteSpanish_Close} cho mọi xe địch nằm trong đó."
+
+msgid "trappoint/name"
+msgstr "Bẫy"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}Trong %(duration)s s{whiteSpanish_Close}, tạo một khu vực làm giảm {whiteSpanish_Open}%(vehicleMaxSpeed)s{whiteSpanish_Close} độ cơ động, và tăng thời gian tái nạp súng cũng như thời gian ngắm {whiteSpanish_Open}thêm %(gunReloadTime)s{whiteSpanish_Close} cho mọi xe địch nằm trong đó."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "Hiệu quả phụ thuộc vào loại xe. Tăng độ ẩn giấu của phương tiện đứng yên hoặc đang di chuyển. Hữu ích khi do thám chủ động, cũng như trinh sát thụ động từ các vị trí nguy hiểm."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Hệ thống Thoát khí bao cấp"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Tăng độ ẩn giấu của xe đứng yên hoặc đang di chuyển."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Bộ Truyền Đặt Súng bao cấp"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Tăng tốc độ ngắm của súng để bắn chính xác nhanh hơn."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Bộ Ổn định bao cấp"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Giảm độ phân tán của súng khi bắn trong lúc di chuyển và xoay xe."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Kính Quang học bao cấp"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Tăng tầm nhìn của xe đứng yên và xe đang di chuyển."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Phục hồi hoàn toàn sức kháng cự của hệ thống giảm xóc sau khi sửa."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Phục hồi hệ giảm xóc sau khi sửa."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Tăng sức kháng cự và tốc độ sửa chữa của xe. Giảm thương tổn lên thân xe khi hệ thống giảm xóc chịu thiệt hại lúc va chạm. Phục hồi hoàn toàn sức kháng cự của hệ thống giảm xóc sau khi sửa. Giảm xác suất đứt xích khi nhận sát thương, cho phép xe di chuyển lâu nhất có thể."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Bộ Gia cố Bao cấp"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Tăng sức kháng cự của xe, bảo vệ hệ giảm xóc"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Công nghệ Bảo vệ Bao cấp"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Cơ cấu Xoay trở bao cấp"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Giảm kích thước vòng ngắm để tăng độ chính xác cho phát bắn (đã hoặc chưa nhắm xong). Do đó, súng có xác suất bắn trúng mục tiêu cao hơn."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Thước ngắm Bao cấp"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Giảm độ phân tán của súng"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Quạt Thông gió bao cấp"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Cải thiện hiệu quả chiến đấu của kíp lái, có ảnh hưởng tích cực đến phần lớn các đặc tính xe."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Bộ Hỗ trợ Nạp Đạn bao cấp"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Tăng tốc độ nạp đạn của súng. Không giới hạn loại."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Tăng công suất động cơ, đem lại gia tốc, xoay trở và khả năng leo địa hình dốc tốt hơn. Tăng tốc độ tiến và lùi tốt đa của xe, cho phép bạn chiếm vị trí và thoát khỏi làn đạn bắn trả từ địch nhanh hơn."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Tuabin Tăng áp Bao cấp"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Tăng công suất động cơ và tốc độ tối đa"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} tầm nhìn, tối đa lên đến 445 m"
+
+msgid "trophyOptics/name"
+msgstr "Kính Quang học bao cấp"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Hệ thống Thoát khí bao cấp"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Bộ Truyền Đặt Súng bao cấp"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Bộ Ổn định bao cấp"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Kính Quang học bao cấp"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Phục hồi hoàn toàn sức kháng cự của hệ thống giảm xóc sau khi sửa."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Phục hồi hệ giảm xóc sau khi sửa."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Bộ Gia cố Bao cấp"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Công nghệ Bảo vệ Bao cấp"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Cơ cấu Xoay trở bao cấp"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Thước ngắm Bao cấp"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Quạt Thông gió bao cấp"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Bộ Hỗ trợ Nạp Đạn bao cấp"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Tuabin Tăng áp Bao cấp"
+
+msgid "turbocharger/long_special"
+msgstr "Tăng công suất động cơ, đem lại gia tốc, xoay trở và khả năng leo địa hình dốc tốt hơn. Tăng tốc độ tiến và lùi tốt đa của xe, cho phép bạn chiếm vị trí và thoát khỏi làn đạn bắn trả từ địch nhanh hơn."
+
+msgid "turbocharger/name"
+msgstr "\"Nitro\""
+
+msgid "turbocharger/short_special"
+msgstr "Tăng công suất động cơ và tốc độ tối đa"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s công suất động cơ nếu đã lắp Tuabin Tăng áp (bất cứ loại nào), Tuabin Tăng áp Bao cấp, Máy nén Cải tiến hoặc Hệ thống Cải thiện Cơ động."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Cải thiện hiệu quả của Tuabin Tăng áp, Tuabin Tăng áp Bao cấp hoặc Máy nén Cải tiến trong một trận đánh. Ứng dụng kỹ thuật này chỉ có tác dụng nếu đã lắp thiết bị tương ứng."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Màng lọc Nhiên liệu"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Tăng công suất động cơ"
+
+msgid "turbocharger_tier1/name"
+msgstr "Tuabin Tăng áp Loại 1"
+
+msgid "turbocharger_tier2/name"
+msgstr "Tuabin Tăng áp Loại 2"
+
+msgid "turbocharger_tier3/name"
+msgstr "Tuabin Tăng áp Loại 3"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Gấp đôi hiệu quả của kỹ năng Phanh Ly hợp"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Mang lại kỹ năng Phanh Ly hợp ở mức 100%"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "Kỹ năng Phanh Ly hợp làm tăng tốc độ xoay xe cả khi đứng yên lẫn đang di chuyển trong trận đánh. Nếu kỹ năng nói trên đã được đào tạo thành thục 100%, ứng dụng kỹ thuật này làm tăng thêm hiệu quả tương ứng; ngược lại, nó sẽ cung cấp kỹ năng Phanh Ly hợp ở mức 100%."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Khớp trục Gốm Kim loại"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Cung cấp kỹ năng Phanh Ly hợp ở mức 100% hoặc làm tăng hiệu quả tương ứng"

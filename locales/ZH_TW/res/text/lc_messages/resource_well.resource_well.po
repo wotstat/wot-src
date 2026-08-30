@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "車輛已獲得"
+
+msgid "awardView/end"
+msgstr "活動已結束"
+
+msgid "awardView/info"
+msgstr "風格號碼"
+
+msgid "awardView/toHangar"
+msgstr "在車庫中檢視"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "帶有號碼風格的 %(vehicleInfo)"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "車輛已獲得"
+
+msgid "awardView/vehicleTitle"
+msgstr "車輛已獲得"
+
+msgid "commonTexts/aboutButton"
+msgstr "關於活動"
+
+msgid "commonTexts/closeBtn"
+msgstr "關閉"
+
+msgid "commonTexts/eventTitle"
+msgstr "裝配車間"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "取消"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "花費"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "已無附帶具號碼之風格的車輛剩餘。您將獲得未帶有號碼的 %(vehicleName)s。\n您確定要花費資源嗎？"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "您將獲得未帶有號碼的 %(vehicleName)s"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "回到車庫"
+
+msgid "confirm/NoVehicles/description"
+msgstr "花費的所有資源將在不久後退回您的帳號。"
+
+msgid "confirm/NoVehicles/title"
+msgstr "可惜，已無車輛剩餘"
+
+msgid "confirm/buttonCancel/title"
+msgstr "取消"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "花費"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "花費後的進度：%(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "要花費資源？"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "退回資源"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "花費的所有資源將退回您的帳號，且您的裝配進度將會重置。只要活動仍在進行中，您將能重新花費資源來獲得車輛。"
+
+msgid "confirm/resourcesReturn/title"
+msgstr "要退回花費的所有資源？"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "花費的所有資源將退回您的帳號，且您的裝配進度將會重置。將改為選擇 %(vehicleName)，且您可花費資源來獲取此車輛。"
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "要退回花費的所有資源並改為選擇 %(vehicleName)？"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "選擇車輛"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "您可在活動期間購買兩輛車輛。"
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "活動期間，您將可購買內有車輛的組合包，該車輛附帶具號碼的 3D 風格。"
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "首 %(styleTanksCount) 名玩家將獲得附帶具號碼之 3D 風格的車輛，{{@ class $br}}{{/}}後續交付的 %(withoutStyleTanksCount) 輛車輛將不會附帶具號碼的 3D 風格。"
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "活動已結束"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "車輛已獲得"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "車輛已獲得"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "剩餘車輛"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "此車輛已在您的車庫中"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "車輛已獲得"
+
+msgid "eventInfo/tanksOver"
+msgstr "已無剩餘"
+
+msgid "eventInfo/top/styleText"
+msgstr "帶有號碼"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "剩餘帶有號碼的車輛"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "帶有號碼車輛已無剩餘時，將立即開始交付 %(regularRewardVehiclesCount) 輛\n採用標準配置的車輛。"
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "標準配置"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "剩餘車輛"
+
+msgid "mainView/affirmative/button"
+msgstr "了解"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "前往資源退回"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "資源已收集："
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "收集資源以獲取："
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "回到車庫"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "選擇資源"
+
+msgid "mainView/footer/description/text"
+msgstr "若無車輛剩餘，將退回花費的所有資源。"
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "您的帳號類型無法參與此活動。"
+
+msgid "mainView/footer/forbidden/title"
+msgstr "您無法參與"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "您可購買兩輛車輛，但您一次僅能對其中一輛花費資源。"
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "選擇一輛車輛並花費所需資源來完成裝配 — 但動作要快！"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "快花費所需的資源來進行裝配並獲得 %(vehicleName)！"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "花費的所有資源將在不久後退回您的帳號。"
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "可惜，已無車輛剩餘"
+
+msgid "mainView/navbar/backBtn"
+msgstr "前往裝配車間"
+
+msgid "mainView/navbar/title"
+msgstr "裝配車間"
+
+msgid "mainView/preview/label"
+msgstr "預覽"
+
+msgid "mainView/timer/lastUntil"
+msgstr "直到"
+
+msgid "mainView/timer/leftTime"
+msgstr "剩餘時間："
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "關閉"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "花費資源"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s 資料暫時無法使用"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "無車輛剩餘"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "帶有號碼車輛的剩餘數：%(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "車輛的剩餘數：%(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "通用"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "資源上限 %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "上限為 %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "資源已收集 %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "藍圖碎片"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "貨幣"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "資源收集"
+
+msgid "tankPreview/button"
+msgstr "選擇資源"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "活動期間，您將可購買內有車輛的組合包，該車輛附帶具號碼的 3D 風格。"
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "首 %(topPlayers) 名玩家將獲得附帶具號碼之 3D 風格的車輛，\n後續交付的 %(basePlayers) 輛車輛將不會附帶具號碼的 3D 風格。"
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "您可在活動期間購買兩輛車輛。"
+
+msgid "tankPreview/title"
+msgstr "收集並花費所需資源的 100%，即可獲取 %(vehicleInfo)！"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "您可隨時查看花費的資源，若需要，點擊「退回資源」按鈕來將資源退回您的帳號。\n您的裝配進度將會重置，但您將能重新花費這些或其他資源來獲得車輛。"
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "資源退回"
+
+msgid "tooltips/counter/error/text"
+msgstr "資料暫時無法使用。\n我們正在處理該問題。"
+
+msgid "tooltips/counter/warning/text"
+msgstr "數字的顯示會延遲，可能與剩餘車輛數量不同。"
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "花費資源獲取 %(vehicleName1) 與 %(vehicleName2)。車輛的數量有限。"
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "花費資源獲取附帶具號碼 3D 風格的 %(vehicleName)。車輛的數量有限。"
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "將可用於：%(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "開放 %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "可用於：%(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "裝配車間"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "點擊以深入了解此活動"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "選擇一輛車輛並花費資源。\n若資源已用於另一輛車輛，這些資源將會退回您的帳號。"
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "剩餘時間：%(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "要裝配車輛，花費所需資源的 100%。可調整不同類型資源的比例。"
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "若無車輛剩餘，將退回花費的所有資源。"
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "已選擇"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "已花費"
+
+msgid "tooltips/progressbar/title"
+msgstr "資源收集"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "暫時無法花費資源。請稍後再試。"
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "通用與國家碎片。"
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "藍圖碎片"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "因在戰鬥中積極表現而頒發。部分也可花費現金購買。"
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "貨幣"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "已花費："
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "此資源可花費的上限：%(maxAmount)d。"
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "您已收集到獲得車輛所需的資源。您可移除一種類型的資源來選擇另一種。"
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "資源已收集"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "此為帶有專屬號碼與特殊視覺改裝的獨特車輛。"
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "號碼在炮管兩側與車身後方顯示。同一款車輛的號碼不會重複且數量有限。"
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "可隱藏您車輛的識別特色。可在「自訂要素」畫面移除車輛具號碼之 3D 風格。"
+
+msgid "tooltips/uniq_style/title"
+msgstr "帶有號碼的車輛"

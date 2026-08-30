@@ -1,0 +1,677 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "campaignSelector/completedAll/subtitle"
+msgstr "已優異地完成所有戰役"
+
+msgid "campaignSelector/completedAll/title"
+msgstr "恭喜！"
+
+msgid "campaignSelector/locked"
+msgstr "個人任務可用 VI 階或以上的車輛完成"
+
+msgid "campaignSelector/operation/tooltip/locked"
+msgstr "行動暫時不可進行"
+
+msgid "campaignSelector/status/button/activate"
+msgstr "啟用戰役"
+
+msgid "campaignSelector/status/button/switchCampaign"
+msgstr "繼續戰役"
+
+msgid "campaignSelector/status/button/switchCampaigns"
+msgstr "繼續戰役"
+
+msgid "campaignSelector/status/button/tooltip"
+msgstr "請先等待車輛離開戰鬥。當車輛仍在戰鬥中時，您無法切換戰役或行動。"
+
+msgid "campaignSelector/status/completed/firstTwo"
+msgstr "已優異地完成「{{firstCampaign}}」與「{{secondCampaign}}」戰役！"
+
+msgid "campaignSelector/status/completed/third"
+msgstr "已優異地完成「{{thirdCampaign}}」戰役！"
+
+msgid "campaignSelector/status/text/activate"
+msgstr "全新「{{thirdCampaign}}」戰役已可進行！"
+
+msgid "campaignSelector/status/text/switchCampaign"
+msgstr "「{{thirdCampaign}}」戰役已暫停 {{icon}}"
+
+msgid "campaignSelector/status/text/switchCampaigns"
+msgstr "「{{firstCampaign}}」與「{{secondCampaign}}」戰役已暫停 {{icon}}"
+
+msgid "campaignSelector/status/tooltip/firstTwo"
+msgstr "當「期待已久的支援」與「第二前線」戰役繼續時，「第三區」戰役將暫停。已暫停戰役的所有進度將儲存，且您可隨時繼續。"
+
+msgid "campaignSelector/status/tooltip/third"
+msgstr "當「第三區」戰役繼續時，「期待已久的支援」與「第二前線」戰役將暫停。已暫停戰役的所有進度將儲存，且您可隨時繼續。"
+
+msgid "campaignSelector/status/tooltip/title"
+msgstr "繼續戰役"
+
+msgid "common/category/assault"
+msgstr "先鋒"
+
+msgid "common/category/sniper"
+msgstr "伏擊"
+
+msgid "common/category/support"
+msgstr "協助"
+
+msgid "common/role/assault"
+msgstr "突擊型"
+
+msgid "common/role/breakthrough"
+msgstr "突圍型"
+
+msgid "common/role/sniper"
+msgstr "狙擊型"
+
+msgid "common/role/support"
+msgstr "支援型"
+
+msgid "common/role/universal"
+msgstr "多功能"
+
+msgid "conditions/requiredVehicle/bottomLabel"
+msgstr "以 %(count)s 輛不同車輛完成條件"
+
+msgid "detail/descr/historical/s3_t10_vehElement_1"
+msgstr "我是 James Corvin，這是我的首個紀錄。今天我們開始組裝我的戰車 Black Rock。安裝了炮塔，焊接了鑄造元件的複合結構。我認同這項設計，因為整個很實用。\n\n我們的調查進展方面，在徹底調查這座島嶼後，先前的假設完全遭推翻。我們的正下面，並不存在什麼藏匿 Moretti 最高機密的碉堡。\n\nMoretti 這傢伙真是工於心計，製作了一整串虛假設施相關的假文件，就只是要混淆我們。我們浪費太多時間在這個假情報上面。\n\n我們必須重新思考調查方向，行動前應更加深思熟慮，後續的每一步都要根據確實且經驗證的事實。"
+
+msgid "detail/descr/historical/s3_t10_vehElement_10"
+msgstr "今天安裝了側面裝甲板。額外多一些防護從來不是什麼壞主意。\n\n從 Moretti 的檔案紀錄，我們約略掌握了晨光診所裡發生了什麼事。當中的科學家意外發現 KRONOS 原型機具有某種傾向，可藉由機率性錯誤生成意料外的結果。此一可控錯誤的能力，能夠微調與優化，進而生成打破常規的解決方案。\n\n此後，他們就只需要提升算力來解鎖真正具突破性的發明。簡而言之，就是能用來擴大機器的規模，更具有指數等級的擴大速度。"
+
+msgid "detail/descr/historical/s3_t10_vehElement_11"
+msgstr "今天我們把戰車漆成黑色。深色迷彩能對敵人額外施加心理上的壓力，也能提升夜間作戰的效率。\n\n經我們調查後，一切即將水落石出：KRONOS 是個巨大的計算系統，能夠進行「創意突變」，也就是我們在秘密碉堡中所發現，所有那些不可能科技的來源，而「工程師」正透過衛星傳輸這些科技，一切真是不可思議。\n\nMoretti 在筆記中指出，他最初對自己的傑作感到自豪，更相信他打造了能夠「規劃人類未來」的工具。但後續的內容越來越有趣。"
+
+msgid "detail/descr/historical/s3_t10_vehElement_12"
+msgstr "今天安裝了煙霧彈發射器。這個看似不起眼的組件，卻能用來生成屢次拯救我的戰車的煙幕。\n\nMoretti 筆記中的語氣有了戲劇性的轉變。他向來謹慎且從不過度信任他人。但從某個時間點起，他變得越來越偏執。他不僅懷疑手下的科學家、工程師與工作人員，甚至懷疑起 KRONOS 本身。他直白地寫道，他深信這機器早已有了「自我意識」，且正在操控人類。\n\n隨我們繼續閱讀下去，Moretti 的紀錄內容越顯偏執。現在我們面臨一個新的謎團：Moretti 是真的瘋了嗎？還是他真的打造出了具有自我意識的機器？"
+
+msgid "detail/descr/historical/s3_t10_vehElement_13"
+msgstr "我們安裝了炮口制退器，這將顯著降低後座力。看來炮管就這樣安裝完畢了。\n\nMoretti 的最後一篇紀錄顯示，他徹底失控了。他寫道，這台機器假裝自己是「全知全能」。他疾呼得盡快摧毀它，否則就來不及了。\n\n但那篇紀錄並無後續，此後我們也找不到任何有關 KRONOS 命運的證據。這台機器真被摧毀了嗎？還是仍在南極冰雪中的某處運作？若是這樣，那後果不堪設想，考慮到「工程師」的一舉一動更是令人憂心。\n\n倘若他握有 KRONOS 近期的一切突破，他的科技會再度領先我們 10 年嗎？"
+
+msgid "detail/descr/historical/s3_t10_vehElement_14"
+msgstr "戰車現已備妥所有的必需物品，不久後就能完成戰備。\n\n時間剛剛好，我們現在知道 Moretti 隱瞞了什麼，以及「工程師」從哪獲得所有這些科技，剩下的任務就是要找出 KRONOS。\n\n我們已準備前往南極進行軍事搜索行動。但為何我總覺得這一切不過是 Moretti 的另一個騙局？真有 Moretti 這個人嗎？被他耍了這麼多次後，不禁讓人質疑眼前的一切，甚至思考著最離譜的理論。Leni 指出工程師與 Moretti 或許就是同一個人。而 Teddy 堅信工程師根本就是 KRONOS。\n\n無論工程師是誰，他總是領先我們好幾步。我們必須找出 KRONOS 才能阻止工程師。"
+
+msgid "detail/descr/historical/s3_t10_vehElement_15"
+msgstr "安裝了履帶。Black Rock 終於完成。每個組件均已校正完畢，每個系統也都通過測試。這根本是個工程奇蹟，準備來與我們攜手迎接任何挑戰。\n\n在我的軍旅生涯當中，我曾號令眾多戰車，但沒有一輛如此特殊。代表著我們的心血結晶、科技複製能力，甚至是我們對抗「工程師」威脅的決心。\n\n無論他有什麼詭計，無論在南極或其他地方有什麼祕密等著我們，這台機器勢必能提高我們成功的機率。\n\n我們從歷史學到的最重要一課，就是勝敗關鍵在於準備。我相信這將在日後的戰鬥中獲得證明。"
+
+msgid "detail/descr/historical/s3_t10_vehElement_2"
+msgstr "今天我們安裝了懸吊系統的組件。沒什麼特殊之處，就是個經實地測試的可靠設計。\n\n我們仍在查核物流清單，也就是 Moretti 這個化名出現的各個文件。靠著運輸船的路徑與「工程師」的衛星數據，我們找出了數十個秘密設施。\n\n在這些設施之中，我們發現了隸屬「KRONOS 計畫」的部分新藍圖與紀錄。但這並未助我們進一步了解，到底那些德國科學家是如何想出這些設計的，也尚未找出 KRONOS 的主要碉堡，那裡恐在建造什麼巨大又危險的東西。"
+
+msgid "detail/descr/historical/s3_t10_vehElement_3"
+msgstr "我們今天安裝了負重輪。懸吊系統也幾乎完成。這部分沒什麼困難的。\n\n在此同時，我們的調查仍舊充滿挑戰。我們錯過了什麼？到底歐洲有什麼地方能隱藏如此規模的秘密碉堡，以至於我們到現在還找不到？\n\nTeddy 猜測該設施可能位在水下。根據他的分析，潛艇出發日期經常與運輸船航行時間表一致。這是個有趣的發現，但要在 1940 年代打造水下基地，絕對是超出 Moretti 的能力範圍。\n\nTeddy 另外提出一個理論，或許秘密基地是建在月球上。我們立刻否決這個想法。「工程師」直到最近才成功發射了一顆衛星。在 1940 年代，太空旅行仍僅是科幻小說的情節。"
+
+msgid "detail/descr/historical/s3_t10_vehElement_4"
+msgstr "安裝了車長專屬的觀測裝備。可旋轉潛望鏡能提供 360 度的完整視野。我不需要進入炮塔就能監控戰場，聽起來是個頗有前景的功能。\n\n我們發現一群小型貨輪有著異常活動。他們會在離開港口數小時後空船返回。根據船舶日誌，他們總是前往公海的一處相同坐標。\n\n難道真的有一座水下基地嗎？\n\nLeni 跟我一樣，依舊對這個假設保持懷疑。她認為在該處將貨箱轉移到潛水艦上較為可能。我們必須確認此區域的潛水艦的目的地。"
+
+msgid "detail/descr/historical/s3_t10_vehElement_5"
+msgstr "今天安裝了乘員專屬的觀測裝備。其核心為具電視螢幕的觀測裝備，又一個領先當代數十年的 KRONOS 科技。\n\n情報檔案指出，鄰近阿根廷海岸的南大西洋海域，潛水艦活動顯著增加，我們懷疑這些潛水艦是朝南極移動。近期解碼的文件也證實了這一點。\n\n南極似乎是這些貨運的最終目的地。地球上最偏遠的地點，確實是隱藏龐然大物的的理想位置。現在我們就只需要確認 Moretti 究竟想在冰雪中隱藏什麼。"
+
+msgid "detail/descr/historical/s3_t10_vehElement_6"
+msgstr "安裝了一對 Browning M2HB 重機槍。遙控系統讓我們的乘員能免受敵人回擊炮火威脅，這也是我非常重視的戰術優勢。\n\n正當我們以為即將揭開 Moretti 打造之物的真相之際，卻在近期解碼的 KRONOS 檔案中，發現了這個巨型「奇蹟武器」的藍圖有些不一致之處。藍圖中包含蓄意植入的錯誤，而這些錯誤會導致組裝的裝置無法運作。\n\n可惡！又一個 Moretti 的假資訊。\n\n在如此精心設計的假資訊背後，他到底想隱藏什麼？到底有什麼能比「奇蹟武器」更機密的東西？"
+
+msgid "detail/descr/historical/s3_t10_vehElement_7"
+msgstr "主炮終於安裝完成。這是具有特殊口徑的不尋常版本，內有彈射器來確保高準度與高射率，正是我需要的。\n\n在分析並從中識別真藍圖與假藍圖後，我們得到了一項重大發現：我們尋尋覓覓的「奇蹟武器」根本不是武器，而是個規模驚人的計算中心。\n\n我必須承認，Moretti 根本是製作假計畫與假基地相關資料的天才。要是少了「工程師」的衛星數據，我們恐怕永遠無法揭開真相。"
+
+msgid "detail/descr/historical/s3_t10_vehElement_8"
+msgstr "今天安裝了擋泥板。雖然沒什麼特殊之處，但這總是完成戰車的步驟之一。\n\n而我們的調查，卻有了不尋常的發現。我們找出了 Moretti 的個人紀錄。當中提到他打造了一個不僅能計算，還能「預測」新想法的機電系統。\n\n這似乎就是 KRONOS 真正的面貌，所有這些難以置信科技的真正來源？一台能設計其他機器的機器？\n\n但這真的可能嗎？或是 Moretti 又一個精心設計的騙局，就是要分散情報單位對真正「奇蹟武器」的注意力？"
+
+msgid "detail/descr/historical/s3_t10_vehElement_9"
+msgstr "紅外線探照燈已連接。這些裝置讓我們能在夜間進行戰鬥。當今作戰條件的最低標準。\n\n我們仍在解讀 Moretti 的紀錄。他在當中寫道，他的機器最初設計為一個巨大的工程工具，但受限於眾多設計缺陷，它開始「產生幻覺」，生成過去不存在的答案、理論與概念。這些輸出大多是無稽之談，但在這些混亂之中，卻浮現了真正的創新。\n\n「錯誤引領新發現。完美無缺難有新創見，就只會遵循自然法則。即便機器亦是如此。」嗯..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_1"
+msgstr "我是 Nebel，這是首篇日誌。今天，我的戰車 Windhund 開始組裝了。\n\n額外安裝了間隙裝甲，這可是個寶貝，這類裝甲能有效抵禦聚能裝藥一類的砲彈。\n\n我們的調查也在今天展開。代號為 KRONOS 的文件記載了比我們現有能力進步數十年的科技。一些根本不該存在於 1940 年代的設計。有些與「工程師」衛星傳輸的數據相符。\n\n截至目前，我們只找到一個線索，也就是當中提到的「晨光城堡」。我們必須盡快找出這個地方，並揭露該處究竟在進行什麼活動。"
+
+msgid "detail/descr/historical/s3_t8_vehElement_10"
+msgstr "陸基移動式都卜勒脈衝戰術雷達。令人驚豔的科技。可識別目標大小與距離。像我這樣資深的特工，可從極遠距離區分人員、動物與車輛。體積還比我們今天擁有的任何科技要小得多。\n\n這一切歸功於我們在 KRONOS 檔案中找到，出自 1944 年的雷達設計圖。這項科技不僅超越其所處的年代，也比我們現有的科技都要先進。\n\n要是當時我手中有這東西，或許有機會改寫歷史..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_11"
+msgstr "標配戰車照明系統、後視鏡與通訊天線。沒什麼特殊的，就只是任何當代戰車的基本裝備。\n\n值得注意的是，我們針對 1944 年中期的發現。在當時，晨光診所有些重大變化：卡車開始在白天來到，診所另一側完全交由 Moranti 使用。\n\n這個時間點，剛好與德國孤注一擲，嘗試開發「奇蹟武器」的時期一致。難道是巧合嗎..."
+
+msgid "detail/descr/historical/s3_t8_vehElement_12"
+msgstr "今天安裝了煙霧彈發射器。可在近距離快速部署隱蔽用的煙幕。\n\n我們的 Moranti 自行打造的隱蔽屏幕，迄今我們仍未能成功驅除。\n\n我們發現當時的文件中，曾提到他的「心靈枷鎖」實驗，不僅成功，更準備開始擴展到其他實驗對象。\n\n我一想到他必須對那些科學家做什麼，才能獲取所有這些科技時，不禁讓我感到不寒而慄。"
+
+msgid "detail/descr/historical/s3_t8_vehElement_13"
+msgstr "已為戰車安裝了必要的工兵作業工具。就算您能擁有最先進的雷達系統，但有時您仍得親自動手才能擺脫困境。\n\n在我們找出的秘密碉堡之中，我們發現了晨光診所的部分醫療文件。當中有些令人感到不安的醫療項目：「思想收集」、「迷霧室」、「捕夢者」、「心靈橋樑」、「機械記憶」、「陰影檔案」。\n\n謎團的拼圖正慢慢拼湊起來，我們正一步一步接近真相，很快我們就會找齊所有拼圖。"
+
+msgid "detail/descr/historical/s3_t8_vehElement_14"
+msgstr "戰車幾乎組裝完成。今天裝上了我最愛的偽裝網。隱蔽可說是我的專長，無論是隱藏自己，還是找出那些試圖消失的人。\n\n但要揪出 Moranti 卻比想像中更加困難。從某個時期開始，他突然從所有文件中消失，他就像非必要的證人一樣消失了。但即便少了他，晨光診所的實驗仍持續進行。\n\n到底發生了什麼事？又是個精心策劃的人間蒸發？還是 Moranti 做了什麼越界的事情？他到底做了什麼連納粹政權都無法容忍的事情？"
+
+msgid "detail/descr/historical/s3_t8_vehElement_15"
+msgstr "Windhund 已準備就緒。已完成系統的最終檢驗。\n\n這不僅是輛戰車，更是為狩獵而打造的掠食者，隱密且有著致命的遠距離攻擊力，還能在夜色中消失無形。\n\n狩獵終於展開。\n\n現在我們的調查將大幅加速，有些機密必須實地探查才能揭開。"
+
+msgid "detail/descr/historical/s3_t8_vehElement_2"
+msgstr "艙口在今天安裝完成。安裝位置便於快速進出車輛，實用且高效，正是我需要的。\n\n發現了更多「晨光城堡」的相關情報。它是個位在城堡中的醫療機構，當中有個秘密部門。\n\n紀錄中提及該設施的主管，名叫「Moranti 醫生」。\n\n擁有秘密部門的醫療機構？總覺得有些不對勁。我們必須確認其與「KRONOS 計畫」及加密藍圖的相關性。"
+
+msgid "detail/descr/historical/s3_t8_vehElement_3"
+msgstr "已安裝懸吊系統的首個部分。又朝完成組裝 Windhund 邁進了一步。\n\n研究檔案時，我們發現了令人忐忑不安的模式。1943 年，多名德國知名科學家與工程師遭系統性地診斷為「發瘋」，隨後消失於晨光診所。\n\n這一切過於具組織性，肯定不是巧合。這些絕非偶發的精神疾病潮。而是刻意網羅高智慧人才的行動。\n\n問題是：他們需要這些人才來做些什麼？"
+
+msgid "detail/descr/historical/s3_t8_vehElement_4"
+msgstr "已安裝負重輪，每側各四個。前方的一對採用金屬輪框而非橡膠。那樣的重量分配下，要是安裝一般橡膠恐怕會迅速脆化。\n\n找到了一名曾在晨光診所效力的勤務兵。他的證詞透露了很多資訊。軍用卡車在武裝警衛的護送下，定期來到限制區域。他們帶來被診斷為「狂躁憂鬱症」的患者。\n\n所以他們是把科學家與工程師關起來，然後在壓力下迫使這些俘虜發明新科技？這就是「KRONOS 計畫」的真相嗎？"
+
+msgid "detail/descr/historical/s3_t8_vehElement_5"
+msgstr "今天在車身兩側安裝了防塵板，能提高車輛在長期任務中的效率，絕對能提升戰力。\n\n在搜出的晨光診所文件中，發現了令人玩味的資訊。一名在 1943 年「陣亡」的工程師，卻在三週後出現在診所收治病患的紀錄中。\n\n但這是被迫軟禁嗎？部分證據顯示，某些專家其實是自願前往，偽造死亡只是便於在 Moranti 的保護下繼續工作。這招確實高明且讓盟軍情報網難以掌控。\n\n所以 Moranti 醫生到底是何方神聖？為何我仍對您一無所知？"
+
+msgid "detail/descr/historical/s3_t8_vehElement_6"
+msgstr "我們已在主炮上安裝了制退器。這將大幅降低後座力，正是我所需要的。\n\n發現了一本來自晨光診所的護士日記。她在當中指出「Moranti 醫生」以絕對的權威命令著當中的守衛與病患。然而，任何德國醫療清冊或軍事檔案中，都找不到這位醫生的蹤影，他如幽靈般神秘。\n\n這更證實了我的懷疑，根本沒有什麼 Moranti 醫生，這只是專為「KRONOS 計畫」創造的假名。看來某個人更喜歡在暗地裡操控。"
+
+msgid "detail/descr/historical/s3_t8_vehElement_7"
+msgstr "漆上了基本迷彩。黑色系。我必須承認，黑色是我加入「第三區」的原因，當然也包括追捕更多戰犯的機會，更要打造我夢想中的戰車，族繁不及備載。\n\n我們發現的文件顯示，晨光診所的病患在接受「特殊治療」時，打造了革命性的設計。\n\n至於這是什麼治療，文件中並無任何說明，但報告顯示每次過後都能讓「生產力增加」。無論他們對這些科學家做了什麼，都相當系統化且達到了預期成果。我們還有個謎團有待解決。"
+
+msgid "detail/descr/historical/s3_t8_vehElement_8"
+msgstr "今天安裝了低亮度電視攝影機，這真是了不起的科技，可在接近黑暗中偵測目標，解析度更是比我之前用過的任何裝置都要高。\n\n依照「KRONOS 計畫」的光學監控系統設計圖，我們打造了一台原型裝置。這些設計可能是來自病患的創意。我還真不敢想像，Moranti 到底是用什麼方法來激發他們設計出這類東西。\n\n我希望他還活著，我們才能把他揪出來。讓正義能夠伸張。"
+
+msgid "detail/descr/historical/s3_t8_vehElement_9"
+msgstr "紅外線探照燈，歷久彌堅的科技，我曾用過這些裝置，能改善在黑暗中探索目標的能力，而我最喜歡在黑暗中進行任務。\n\n我們發現在 1944 年初，有裝備從晨光診所運出的證據。文件提到了有些「特殊的箱子」在武裝人員護送下運出。\n\n這代表診所不僅是「榨取科學概念」的地方，他們甚至在那裡打造原型裝備。看來 Moranti 在眾目睽睽下，隱藏了一個尖端科技設計局。"
+
+msgid "detail/descr/historical/s3_t9_vehElement_1"
+msgstr "第一次錄影，我是 Miroslav Kotva，但大家都叫我 Teddy。終於要開始組裝我的戰車了，Dravec！今天，我們安裝了炮塔。焊接結構、軋製裝甲，真是美到不行！\n\n組裝正在全速進行，很快我就會有個新的戰車夥伴。\n\n但我們的調查似乎陷入了僵局。\n\n我們收集到許多這家晨光診所的資訊。就快揭開真相了。然後突然發現，在 1944 年代中期，那個診所發生了一場火災。所有知道真相的人，病人、警衛、工作人員，全都列為失蹤。\n\n聞起來就像整個魚市場著火一樣可疑。哈！好像有點不好笑。"
+
+msgid "detail/descr/historical/s3_t9_vehElement_10"
+msgstr "今天我們終於開始為戰車漆上迷彩。單一的黑色，流線型且懾人，正是我想要的樣子。有些人稱黑色會讓你成為更顯眼的目標，但那是他們不懂這種心理戰的效果。當敵人見到一輛漆黑戰車從霧裡現身，他們肯定會不知所措。\n\nLeni 與我們的工程師日漸相信 KRONOS 是某種電磁武器。我們找到了巨大的無線電管路、高功率發電機，甚至是複雜冷卻系統的藍圖。\n\n但有件事我不太明白，倘若真是如此強大的電磁炮，為何要取一個這麼無趣的名字？「KRONOS」。總覺得有些不對勁。"
+
+msgid "detail/descr/historical/s3_t9_vehElement_11"
+msgstr "今天 Dravec 安裝了 902 Tucha 煙霧彈發射系統。這為我的黑色掠食者再添利器！現在我可在幾秒內隱身煙霧中。正如我的祖父常說的：「精明的戰士知道何時現蹤，何時消失。」\n\n我們追蹤到 KRONOS 裝備被運至北海海岸，但線索卻斷在這裡。\n\n大批貨運、特殊裝備，成噸原料，全都運到沿海的設施，然後... 就沒了。查不到這些東西後續運送地點的任何紀錄。\n\n看來這位 Moretti 真不想讓任何人追蹤到他。"
+
+msgid "detail/descr/historical/s3_t9_vehElement_12"
+msgstr "我們今天安裝了雷射測距儀。這是個驚人的科技，能以極高的精確度測定目標距離。我的 Dravec 每天都有更多新玩具！\n\n說到雷射，這個測距儀運用了 KRONOS 的科技。但我們的技術人員必須重新設計一切。原始藍圖是以一種奇怪的比例繪製的。彷彿原本是座巨大的雷射炮。\n\n我們挖掘的越深，浮現的問題就越多。Moretti 是否嘗試打造什麼死亡射線？聽起來就像我小時候讀過的科幻小說情節... 但仔細端詳這些 KRONOS 藍圖，如今我相信一切皆有可能。"
+
+msgid "detail/descr/historical/s3_t9_vehElement_13"
+msgstr "今天我們在炮管上安裝了新的炮口制退器。這真是個傑作！它顯著降低了後座力，並讓開火更為順暢。\n\n但這算不了什麼。我們最近發現... 在 KRONOS 的一份文件中，提到一座建在海岸懸崖上的巨大碉堡。具體位置當然是沒提到，Moretti 不會平白送我們這樣的禮物，但那個東西規模實在是令人震驚。\n\n如果比例正確，那裡或許有充足空間來隱藏些真正龐大的東西...\n\n我敢打賭那就是 Moretti 組裝「奇蹟武器」的地方。"
+
+msgid "detail/descr/historical/s3_t9_vehElement_14"
+msgstr "今天我們已為戰車備妥所有可能需要的東西：牽引繩、煙霧彈、水下行駛裝備，一應俱全。一輛優秀的戰車，正如一名優秀的士兵，必須隨時準備好因應任何情況。\n\n我們可有很多事情需要準備。我們持續研究北海的地圖...\n\nMoretti 建造的那座碉堡就位在挪威的島嶼上。我們極度懷疑那就是美軍彈道飛彈基地所在的同一座島嶼，也就是那些傭兵佔領並發射衛星的地方。\n\n所以它根本就近在眼前？就在我們正下方的某處？這段時間我們就一直在 KRONOS 的主碉堡上方？"
+
+msgid "detail/descr/historical/s3_t9_vehElement_15"
+msgstr "Dravec 已完成備戰！我的新戰車武裝齊全且來勢洶洶。快速、裝甲完善、火力充足，當我的炮管指向敵人時，他們恐怕會在眼前閃過人生走馬燈。\n\n瞧瞧這優雅的線條與威嚇力十足的輪廓！它肯定會成為敵人的惡夢。\n\n一想到我們將面對的冒險，還有後續我能分享的刺激故事，真是讓我興奮不已！\n\n開始狩獵吧！"
+
+msgid "detail/descr/historical/s3_t9_vehElement_2"
+msgstr "安裝了驅動裝置。那個懸吊系統真是傑作！行駛起來變得如此平穩，我不只可以好好享受咖啡，而且連一滴都不會灑出來。這樣說是有點誇張，畢竟這是輛戰車，多少還是會有些震動。\n\n我們的調查也再次有了進展。我們原本以為晨光診所的火災早已結案，但 Leni 發現了些詭異的事情，我們用來打造戰車的 KRONOS 藍圖，竟然是在火災後製作的。\n\n正如偵探小說的金句：故事情節更複雜了！"
+
+msgid "detail/descr/historical/s3_t9_vehElement_3"
+msgstr "我的車長塔終於裝好了！真是太棒了，還安裝了一整套的偵察裝置，身為戰車手的我根本是美夢成真。其中我最愛的是 TKN-1 夜視系統，讓我在黑暗中看得一清二楚，就跟貓一樣。\n\n我們對這整個 KRONOS 事件又有了不同的理論。要不是病患的研究成果在火災發生前就被轉移走，並在其他地方繼續，要不... 真正有趣的來了... 要是這些「瘋狂科學家」只是用來掩人耳目的說法？要是這些科技的真正來源根本不是他們呢？"
+
+msgid "detail/descr/historical/s3_t9_vehElement_4"
+msgstr "我們今天在炮塔周圍額外裝了裝甲板，5 塊填充聚氨酯與鋼板組成的強大結構。可說是抵擋聚能裝藥的絕佳防護。我等不及要在戰鬥中見識其厲害了！\n\n在此同時，結果證明 Leni 一直是對的。根本沒什麼「Moranti 醫生」！這只是背後真正主謀，一個叫 Alessandro Moretti 的傢伙用的數十個假名之一。\n\n為什麼一個人需要這麼多名字？難道他這麼優柔寡斷，無法下定決心嗎？"
+
+msgid "detail/descr/historical/s3_t9_vehElement_5"
+msgstr "我們今天安裝了主炮，我等不及要來試射一下！當你扣下扳機，感受到整輛戰車的震動... 沒什麼比那種感覺更令人興奮的了。\n\n結果這叫 Moretti 的傢伙其實非常有趣。他不但是名工程師，還是打造機密設施的大師。不過到了 1943 年，他一夕之間在所有官方紀錄中消失。\n\n你猜這有多巧？那正是我們「Moranti 醫生」突然出現的時候！接著在晨光診所的火災過後，我們名單上的假名，更陸續在各種物流清單與其他文件中出現。"
+
+msgid "detail/descr/historical/s3_t9_vehElement_6"
+msgstr "今天我們安裝了主動防禦系統。這真是革命性的發明，它能在一瞬間偵測到來襲的砲彈。真是不可思議！\n\n順道一提，針對晨光診所的火災事故，我們發現了些出乎意料的發展。原來這地方並非我們原以為的監獄或酷刑實驗室。它只是精心偽裝之研究中心的一環。\n\n看來我們的朋友 Moretti 或許有成為恐怖小說作家的夢想。投入這麼多心血來編造這些掩飾，假報告鉅細靡遺的程度根本超乎想像。有這樣的才華真的是可惜了！"
+
+msgid "detail/descr/historical/s3_t9_vehElement_7"
+msgstr "今天我們在炮管上安裝了隔熱套。這是個很實用的裝備，可避免天氣條件影響炮管準度。\n\n同時 Moretti 持續帶給我們新謎團。我們已追查到與所有那些假名有關的供應鏈。共有數十家工廠參與這個「KRONOS 計畫」，包括電機設備製造商、化工廠、紡織廠... 其中最詭異的是，物流項目中竟然有大量的琥珀。\n\n他們要這麼多琥珀到底是為了什麼？而且他是從哪裡弄來的？難道 Moretti 洗劫了「琥珀廳」還是什麼的？"
+
+msgid "detail/descr/historical/s3_t9_vehElement_8"
+msgstr "今天我們安裝了 Oplot-MO 主動防禦系統，這真是個了不起的東西！雷達能偵測到速度在 600-800 公尺/秒間的反戰車飛彈，並自動發射六管防空炮來在空中將其擊落。KRONOS 有競爭對手了，因為我們也有些相當了不起的科技！\n\nMoretti 這傢伙... 整個讓我措手不及。我剛開始接受瘋狂科學家幫他繪製藍圖的說法，現在我們又發現他正在打造些龐大的東西。\n\n但他到底是從哪得到這些藍圖跟科技的呢？"
+
+msgid "detail/descr/historical/s3_t9_vehElement_9"
+msgstr "我的 Dravec 就快打造完成了。兄弟，我們很快就能一闖值得拍成好萊塢電影的冒險了！\n\n或許我也會拍一部關於 KRONOS 的電影。但電影票只能賣給安全許可達五級的人，一群獨特到不行的觀眾。\n\n真是太可惜了，因為這肯定會是部史詩之作。在眾多的 KRONOS 藍圖之中，我們發現了些相當可疑的內容，看似某種「奇蹟武器」的零件構圖。目前還沒人能搞清楚這到底是什麼。\n\n無論如何，這東西需要的能量，足以讓整座城市運轉。"
+
+msgid "detail/name/s3_t10_vehElement_1"
+msgstr "炮塔"
+
+msgid "detail/name/s3_t10_vehElement_10"
+msgstr "側面裝甲板"
+
+msgid "detail/name/s3_t10_vehElement_11"
+msgstr "電視攝影機與迷彩"
+
+msgid "detail/name/s3_t10_vehElement_12"
+msgstr "煙霧彈發射器"
+
+msgid "detail/name/s3_t10_vehElement_13"
+msgstr "炮口制退器"
+
+msgid "detail/name/s3_t10_vehElement_14"
+msgstr "工兵作業工具"
+
+msgid "detail/name/s3_t10_vehElement_15"
+msgstr "履帶"
+
+msgid "detail/name/s3_t10_vehElement_2"
+msgstr "懸吊系統"
+
+msgid "detail/name/s3_t10_vehElement_3"
+msgstr "負重輪"
+
+msgid "detail/name/s3_t10_vehElement_4"
+msgstr "主要潛望鏡"
+
+msgid "detail/name/s3_t10_vehElement_5"
+msgstr "乘員潛望鏡"
+
+msgid "detail/name/s3_t10_vehElement_6"
+msgstr "機槍"
+
+msgid "detail/name/s3_t10_vehElement_7"
+msgstr "主炮"
+
+msgid "detail/name/s3_t10_vehElement_8"
+msgstr "擋泥板"
+
+msgid "detail/name/s3_t10_vehElement_9"
+msgstr "紅外線探照燈"
+
+msgid "detail/name/s3_t8_vehElement_1"
+msgstr "間隙裝甲"
+
+msgid "detail/name/s3_t8_vehElement_10"
+msgstr "雷達"
+
+msgid "detail/name/s3_t8_vehElement_11"
+msgstr "照明系統"
+
+msgid "detail/name/s3_t8_vehElement_12"
+msgstr "煙霧彈發射器"
+
+msgid "detail/name/s3_t8_vehElement_13"
+msgstr "工兵作業工具"
+
+msgid "detail/name/s3_t8_vehElement_14"
+msgstr "偽裝網"
+
+msgid "detail/name/s3_t8_vehElement_15"
+msgstr "履帶"
+
+msgid "detail/name/s3_t8_vehElement_2"
+msgstr "艙口與望遠鏡"
+
+msgid "detail/name/s3_t8_vehElement_3"
+msgstr "懸吊系統"
+
+msgid "detail/name/s3_t8_vehElement_4"
+msgstr "負重輪"
+
+msgid "detail/name/s3_t8_vehElement_5"
+msgstr "防塵板"
+
+msgid "detail/name/s3_t8_vehElement_6"
+msgstr "炮口制退器"
+
+msgid "detail/name/s3_t8_vehElement_7"
+msgstr "基本迷彩"
+
+msgid "detail/name/s3_t8_vehElement_8"
+msgstr "低亮度電視攝影機"
+
+msgid "detail/name/s3_t8_vehElement_9"
+msgstr "紅外線探照燈"
+
+msgid "detail/name/s3_t9_vehElement_1"
+msgstr "炮塔"
+
+msgid "detail/name/s3_t9_vehElement_10"
+msgstr "車頭燈與迷彩"
+
+msgid "detail/name/s3_t9_vehElement_11"
+msgstr "902 Tucha 系統"
+
+msgid "detail/name/s3_t9_vehElement_12"
+msgstr "雷射測距儀"
+
+msgid "detail/name/s3_t9_vehElement_13"
+msgstr "炮口制退器"
+
+msgid "detail/name/s3_t9_vehElement_14"
+msgstr "工具與裝甲板"
+
+msgid "detail/name/s3_t9_vehElement_15"
+msgstr "履帶"
+
+msgid "detail/name/s3_t9_vehElement_2"
+msgstr "懸吊系統"
+
+msgid "detail/name/s3_t9_vehElement_3"
+msgstr "車長塔"
+
+msgid "detail/name/s3_t9_vehElement_4"
+msgstr "額外裝甲板"
+
+msgid "detail/name/s3_t9_vehElement_5"
+msgstr "主炮"
+
+msgid "detail/name/s3_t9_vehElement_6"
+msgstr "主動防禦系統"
+
+msgid "detail/name/s3_t9_vehElement_7"
+msgstr "炮管隔熱套"
+
+msgid "detail/name/s3_t9_vehElement_8"
+msgstr "Oplot-MO 主動防禦"
+
+msgid "detail/name/s3_t9_vehElement_9"
+msgstr "擋泥板"
+
+msgid "main/additionalMission/text/completed"
+msgstr "已獲得額外的戰役點數。"
+
+msgid "main/additionalMission/text/daily"
+msgstr "完成每日任務以獲取額外的戰役點數。"
+
+msgid "main/additionalMission/text/weekly"
+msgstr "完成每週任務以獲取額外的戰役點數。"
+
+msgid "main/additionalMission/title/daily"
+msgstr "每日任務"
+
+msgid "main/additionalMission/title/weekly"
+msgstr "每週任務"
+
+msgid "main/assembling/component"
+msgstr "零件"
+
+msgid "main/chain/Assault/name"
+msgstr "先鋒"
+
+msgid "main/chain/Sniper/name"
+msgstr "伏擊"
+
+msgid "main/chain/Support/name"
+msgstr "協助"
+
+msgid "main/complete/button"
+msgstr "前往行動"
+
+msgid "main/complete/description/campaignFinished"
+msgstr "「{{campaignName}}」戰役已完成。已獲得所有獎勵。"
+
+msgid "main/complete/description/notAllCompleted"
+msgstr "{{currentOperationName}} 行動已優異地完成！{{nextOperationName}} 行動現已可進行。"
+
+msgid "main/complete/description/notAllCompletedWithHonor"
+msgstr "{{currentOperationName}} 行動{{@ split}}已優異地完成！{{/}}您仍可在 {{nextOperationName}} 行動改善結果。"
+
+msgid "main/complete/title"
+msgstr "恭喜！"
+
+msgid "main/menuItem/state/active"
+msgstr "進行中"
+
+msgid "main/menuItem/state/available"
+msgstr "可進行"
+
+msgid "main/menuItem/state/completed"
+msgstr "車輛已獲得"
+
+msgid "main/menuItem/state/completedWithHonors"
+msgstr "優異地完成"
+
+msgid "main/menuItem/state/unavailable"
+msgstr "不可進行"
+
+msgid "main/menuItem/tooltip/videoIntro"
+msgstr "觀看此車輛的介紹影片"
+
+msgid "main/mission/counter"
+msgstr "{{currentValue}} {{@ colorLegacy 'ede6d97f'}}/ {{maxValue}}{{/}}"
+
+msgid "main/mission/mission/quest/separator"
+msgstr "或"
+
+msgid "main/mission/subtitle"
+msgstr "進行中的任務"
+
+msgid "main/mission/text/alert"
+msgstr "任務暫時不可完成。它將在不久後可進行。"
+
+msgid "main/mission/text/completed"
+msgstr "所有{{missionType}}任務\n已完成。"
+
+msgid "main/missions/button/tooltip/toActiveMission"
+msgstr "點擊以前往當前進行中的任務。"
+
+msgid "main/missions/card/tooltip/done"
+msgstr "任務已完成，獎勵已獲得。"
+
+msgid "main/missions/card/tooltip/locked"
+msgstr "完成先前的任務才能解鎖此任務。系列中的所有任務都必須依序完成。"
+
+msgid "main/missions/category/description"
+msgstr "可駕駛以下 {{@ colorLegacy 'ede6d9'}}{{minLevel}}-{{maxLevel}} 階{{/}}車輛依序完成 {{operationName}} 行動中的「{{category}}」任務："
+
+msgid "main/missions/category/vehicles/assault"
+msgstr "{{HT}}、{{MT}}、{{TD}}且角色為 {{breakthrough}}、{{assault}}、{{universal}}。"
+
+msgid "main/missions/category/vehicles/sniper"
+msgstr "{{HT}}、{{MT}}、{{TD}}且角色為 {{sniper}}、{{support}}。"
+
+msgid "main/missions/category/vehicles/support"
+msgstr "{{LT}}、{{SPG}}且不限角色。"
+
+msgid "main/operation/button/available/"
+msgstr "啟用"
+
+msgid "main/operation/button/completed"
+msgstr "改善結果"
+
+msgid "main/operation/button/nextOperationAvailable"
+msgstr "前往行動"
+
+msgid "main/operation/button/paused"
+msgstr "繼續行動"
+
+msgid "main/operation/button/precedingOperationNotCompleted"
+msgstr "前往行動"
+
+msgid "main/operation/status/available"
+msgstr "{{currentOperationName}} 行動已可進行！"
+
+msgid "main/operation/status/completed"
+msgstr "{{currentOperationName}} 行動已完成！您可再次完成並優異地完成，藉此獲取較為豐富的獎勵。"
+
+msgid "main/operation/status/nextOperationAvailable"
+msgstr "{{currentOperationName}} 行動已完成！{{nextOperationName}} 行動現已可進行。"
+
+msgid "main/operation/status/paused"
+msgstr "{{currentOperationName}} 行動已暫停。"
+
+msgid "main/operation/status/precedingOperationNotCompleted"
+msgstr "行動無法進行：請完成先前的行動。"
+
+msgid "main/operation/status/requiresVehicle"
+msgstr "行動無法進行：需駕駛 {{requiredVehicleLevel}} 階或以上的車輛。"
+
+msgid "main/operation/status/vehicleIsInBattle"
+msgstr "當車輛仍在戰鬥中時，您無法切換戰役或行動。"
+
+msgid "main/progression/button"
+msgstr "安裝"
+
+msgid "main/progression/counter/zero"
+msgstr "0"
+
+msgid "main/progression/detail/status/active"
+msgstr "{{detailName}}：{{earnedPoint}} {{@ colorLegacy 'ede6d97f'}}/ {{maxPoint}}{{/}} {{icon}}"
+
+msgid "main/progression/detailNumber"
+msgstr "{{number}}"
+
+msgid "main/progression/mountButton/active"
+msgstr "點擊以在車輛上安裝此零件。"
+
+msgid "main/progression/mountButton/disable"
+msgstr "請先安裝先前的零件。"
+
+msgid "main/progression/reward/previewButton"
+msgstr "在車庫中檢視"
+
+msgid "main/progression/reward/status/inProgress/campaign"
+msgstr "已優異地完成的行動：{{completedTasks}} {{@ colorLegacy 'ede6d97f'}}/ {{tasksNumber}}{{/}}"
+
+msgid "main/progression/reward/status/inProgress/operation"
+msgstr "任務已完成：{{completedTasks}} {{@ colorLegacy 'ede6d97f'}}/ {{tasksNumber}}{{/}}"
+
+msgid "main/progression/reward/status/received"
+msgstr "已獲得"
+
+msgid "main/progression/reward/title/campaign"
+msgstr "優異地完成戰役"
+
+msgid "main/progression/reward/title/main"
+msgstr "主要獎勵"
+
+msgid "main/progression/reward/title/operation"
+msgstr "優異地完成行動"
+
+msgid "main/progression/tooltip/detail/notDone"
+msgstr "您將能在安裝零件後檢視該零件。"
+
+msgid "main/progression/tooltip/rewards/campaign"
+msgstr "完成全部三個戰役行動中的所有任務以獲取這些獎勵。"
+
+msgid "main/progression/tooltip/rewards/main"
+msgstr "完成進度並安裝最終零件，藉此獲取主要獎勵與車輛。"
+
+msgid "main/progression/tooltip/rewards/operation"
+msgstr "完成所有行動任務以獲取這些獎勵。"
+
+msgid "main/progression/tooltip/toActiveStage"
+msgstr "點擊以前往當前階段。"
+
+msgid "plugin/post_battle/condition"
+msgstr "條件"
+
+msgid "plugin/post_battle/openButton"
+msgstr "點擊以檢視詳細資訊。"
+
+msgid "plugin/post_battle/questsSeparator"
+msgstr "或"
+
+msgid "questStatus/topLabelAlreadyUsedVehicle"
+msgstr "無法進行：您已在選擇的車輛達成條件。請選擇另一輛車輛。"
+
+msgid "questStatus/topLabelCompleted"
+msgstr "已完成"
+
+msgid "questStatus/topLabelCompletedForBattle"
+msgstr "已在當前的戰鬥中完成"
+
+msgid "rewards/additional"
+msgstr "同時獲得："
+
+msgid "rewards/buttons/close"
+msgstr "關閉"
+
+msgid "rewards/buttons/confirm"
+msgstr "了解！"
+
+msgid "rewards/buttons/goToOperation"
+msgstr "前往行動"
+
+msgid "rewards/buttons/goToVehicle"
+msgstr "在車庫中檢視"
+
+msgid "rewards/operationUnlocked"
+msgstr "{{name}} 已可進行"
+
+msgid "rewards/subTitle/campaignWithHonors"
+msgstr "戰役：{{name}}"
+
+msgid "rewards/subTitle/operationWithHonors"
+msgstr "行動：{{name}}"
+
+msgid "rewards/subTitle/vehiclePart"
+msgstr "行動：{{name}}"
+
+msgid "rewards/title/campaignWithHonors"
+msgstr "優異地完成！"
+
+msgid "rewards/title/operation"
+msgstr "行動：{{name}} 已完成！"
+
+msgid "rewards/title/operationWithHonors"
+msgstr "優異地完成！"
+
+msgid "rewards/title/vehiclePart"
+msgstr "零件已可安裝"
+
+msgid "tooltip/assembling/viewAnimation"
+msgstr "點擊以觀看安裝動畫。"
+
+msgid "tooltip/assembling/zoomOut"
+msgstr "點擊以隱藏敘述。"
+
+msgid "tooltip/missionProgress/completed"
+msgstr "已完成：{{completed}}{{@ class $totalClass}} / {{total}}{{/}}"
+
+msgid "tooltip/missionProgress/description"
+msgstr "若要完成任務，您必須駕駛適用的不同車輛來多次達成相應條件。"
+
+msgid "tooltip/missionProgress/footer"
+msgstr "車輛一旦達成條件，任務完成前將無法再次駕駛該車輛來進行此任務。"
+
+msgid "tooltip/missionProgress/title"
+msgstr "使用不同車輛完成"
+
+msgid "tooltip/missionProgress/unknownVehicle"
+msgstr "?"
+
+msgid "tooltip/missionsCategory/description/assault"
+msgstr "第一線車輛可在戰場上主導戰局發展。"
+
+msgid "tooltip/missionsCategory/description/sniper"
+msgstr "第二線車輛可提供火力支援來進一步打擊敵方位置。"
+
+msgid "tooltip/missionsCategory/description/support"
+msgstr "空中火力支援與戰場上敵方位置的情報。"
+
+msgid "tooltip/missionsCategory/footer"
+msgstr "{{@ colorLegacy 'b2afab'}}{{operationName}}{{/}} 行動任務僅限駕駛 {{@ colorLegacy 'b2afab'}}{{minLevel}}-{{maxLevel}}{{/}} 階車輛完成。"
+
+msgid "tooltip/missionsCategory/innerBlock/description/assault"
+msgstr "「先鋒」任務可依序完成於："
+
+msgid "tooltip/missionsCategory/innerBlock/description/sniper"
+msgstr "「伏擊」任務可依序完成於："
+
+msgid "tooltip/missionsCategory/innerBlock/description/support"
+msgstr "「協助」任務可依序完成於："
+
+msgid "tooltip/missionsCategory/innerBlock/noRoles"
+msgstr "車輛類型且不限角色："
+
+msgid "tooltip/missionsCategory/innerBlock/vehiclesTypes"
+msgstr "車輛類型："
+
+msgid "tooltip/missionsCategory/innerBlock/withRoles"
+msgstr "限定角色："
+
+msgid "tooltip/personalMissionsPoints/footer"
+msgstr "務必記得追蹤已完成的階段，並在挺進階段同時安裝車輛的組件。"
+
+msgid "tooltip/personalMissionsPoints/innerBlock/bulletItem1"
+msgstr "您可透過完成「第三區」戰役當中的個人任務來獲頒戰役點數。"
+
+msgid "tooltip/personalMissionsPoints/innerBlock/bulletItem2"
+msgstr "您也可透過完每日與每週任務來獲得戰役點數。"
+
+msgid "tooltip/personalMissionsPoints/innerBlock/description"
+msgstr "透過「第三區」戰役當中進行中的任務來挺進您的進度。"
+
+msgid "tooltip/personalMissionsPoints/innerBlock/subTitle"
+msgstr "如何獲得"
+
+msgid "tooltip/personalMissionsPoints/innerBlock/title"
+msgstr "戰役點數"
+
+msgid "tooltip/progression/description"
+msgstr "挺進階段，收集零件，並在您的車輛上安裝零件。一旦收集所有的零件，您將獲得行動相應車輛作為獎勵。若要挺進進度並完成階段，您將必須獲取戰役點數。"
+
+msgid "tooltip/progression/footer"
+msgstr "務必記得追蹤已完成的階段，並在挺進階段同時安裝車輛的零件。"
+
+msgid "tooltip/progression/innerBlock/bulletItem1"
+msgstr "您可透過完成「第三區」戰役當中的個人任務來獲頒戰役點數。"
+
+msgid "tooltip/progression/innerBlock/bulletItem2"
+msgstr "您也可透過完每日與每週任務來獲得戰役點數。"
+
+msgid "tooltip/progression/innerBlock/title"
+msgstr "如何獲得戰役點數"
+
+msgid "tooltip/progression/title"
+msgstr "車輛組裝進度"

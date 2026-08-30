@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "제작소 영업 재개!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "다음 기획에 착수할 예정입니다. 개발이 완료되면 다시 뵙도록 하겠습니다. 감사합니다!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "제작소 영업 종료"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "고유번호 전차 인계가 완료되었습니다. 일반 구성 %(vehicle)s 제작에 착수합니다. 전차 수량이 제한되어 있으니 서두르십시오!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "전차 제작이 완료되었습니다. 모든 전차가 소유자에게 인계됩니다."
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "제작소 보고서"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "%(soldOutVehicle)s 인계가 완료되었습니다. 아직 %(availableVehicle)s 구매 기회는 열려 있습니다. 자원을 사용하였지만 전차를 구매하지 못하였다면 해당 자원은 계정으로 반환됩니다. 전차 수량이 제한되어 있으니 서두르십시오!"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "전차 제작이 완료되었습니다. 모든 전차가 소유자에게 인계됩니다. 사용한 모든 자원이 곧 계정으로 반환됩니다."
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "전차장님, 고유번호 3D 스타일이 적용된 %(vehicle)s 전차를 손에 넣을 기회가 찾아왔습니다. 전차 수량은 제한되어 있습니다!"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "서버 점검으로 인해 일시적으로 제작소를 이용할 수 없습니다."
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "스타일 고유번호: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "제작소에서 %(vehicle)s 특별 전차를 획득했습니다."
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "%(vehicle)s 획득!"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "제작소에서 %(vehicle)s 전차를 획득했습니다."
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "제작소 영업 시작"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "전차장님, %(firstVehicle)s 전차와 %(secondVehicle)s 전차를 손에 넣을 기회가 찾아왔습니다! 전차 수량은 제한되어 있습니다!"

@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "Hỏa lực"
+
+msgid "categories/mobility"
+msgstr "Cơ động"
+
+msgid "categories/stealth"
+msgstr "Trinh sát"
+
+msgid "categories/survivability"
+msgstr "Sống sót"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "Đồng ý!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "Phản đối!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Sau khi hủy biến thể, bạn sẽ vẫn có khả năng mua lại chúng bằng cách dùng bạc."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Sau khi hủy biến thể, bạn sẽ vẫn có khả năng mua lại chúng."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "Hủy mọi Sửa đổi Kép miễn phí?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Sau khi hủy biến thể này, bạn sẽ vẫn có khả năng mua lại nó bằng cách dùng bạc."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Sau khi hủy biến thể này, bạn sẽ vẫn có khả năng mua lại nó."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "Hủy Sửa đổi Kép \"%(modification)s\" miễn phí?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "MUA BIẾN THỂ"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "CHỌN DANH MỤC Ô"
+
+msgid "hint/entryPoint"
+msgstr "BIẾN THỂ KHẢ DỤNG"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "CLICK ĐỂ CHUYỂN SANG\nTHIẾT ĐẶT PHỤ TRỢ"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "CLICK ĐỂ CHUYỂN SANG\nTHIẾT ĐẶT CỐT YẾU"
+
+msgid "hint/vehiclePreview"
+msgstr "THAY ĐỔI ĐẶC TÍNH XE"
+
+msgid "postProgressionIntro/okButton"
+msgstr "Đã rõ!"
+
+msgid "postProgressionIntro/title"
+msgstr "BIẾN THỂ DÃ CHIẾN"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Biến thể Đặc biệt %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Click để xem các thay đổi ở đặc tính xe sau khi nhận Cấp này, cũng như những biến thể nổi bật được áp dụng."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Sửa đổi Kép %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Cấp Biến thể Dã chiến"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Khả dụng sau khi mua xe này"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Khả dụng sau khi đạt trạng thái \"Elite\""
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Khả dụng sau khi mua xe này và đạt trạng thái \"Elite\""
+
+msgid "researchEntry/title"
+msgstr "BIẾN THỂ DÃ CHIẾN"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Tăng"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Hủy bỏ"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} và {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Thiết đặt Phụ trợ"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Ô"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Thiết đặt Cốt yếu"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "Truy cập Biến thể Đặc biệt: {name1} và {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "Truy cập Biến thể Đặc biệt: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "Truy cập Biến thể Đặc biệt: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "Truy cập Biến thể Đặc biệt: {name1}, {name2} và {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "Truy cập Sửa đổi Kép Cấp {numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "Truy cập Sửa đổi Kép Cấp {number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Sẽ nhận được: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "Tăng Cấp Biến thể Cơ bản lên mức {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "Tăng Cấp Biến thể Cơ bản?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Tổng:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Chỉ định"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Danh mục khả dụng: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Danh mục đã chọn: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Cơ hội để chỉ định danh mục cho ô thiết bị thứ hai của xe này."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Chỉ định danh mục ô đầu tiên"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Chỉ định (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Danh mục Ô thứ Hai"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Chỉ định"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Mua và Tái định"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Quy đổi"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Hủy bỏ"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Bạn có thể tái định danh mục ô này với chi phí %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "Danh mục đã chọn sẽ được chỉ định cho ô thiết bị thứ hai. Bạn có thể tái định danh mục ô này với chi phí %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Tỷ lệ quy đổi: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Quy đổi thất bại: Cần thêm %(gold)"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Chỉ định một danh mục cho ô thiết bị thứ hai"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Tái định một danh mục cho ô thiết bị thứ hai"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "Không thể tái định danh mục cho ô thiết bị thứ hai: Cần thêm %(credits)"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Tổng:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Cơ hội để lắp thêm một bộ {cream_Open}thiết bị{cream_Close} và {cream_Open}ứng dụng kỹ thuật{cream_Close} nữa."
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Cơ hội để lắp thêm một bộ {cream_Open}đạn dược{cream_Close} và {cream_Open}vật phẩm{cream_Close} nữa."
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Thiết đặt Phụ trợ"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Thiết đặt Cốt yếu"
+
+msgid "setupTooltipView/tip"
+msgstr "Bạn có thể chuyển qua lại giữa Cấu hình Chính và Cấu hình Khác của xe tương ứng trong Ga-ra, cũng như lúc đợi đếm ngược trước trận."
+
+msgid "setupTooltipView/title"
+msgstr "Cấu hình Khác: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)Thiết đặt Phụ trợ%(/accent) là một phần của cấu hình xe, bao gồm %(accent)thiết bị và ứng dụng kỹ thuật%(/accent). Sau khi truy cập được Cấu hình Khác, bạn có thể %(accent)đổi qua lại giữa các cấu hình%(/accent) của Thiết đặt Phụ trợ trong lúc chờ đếm ngược trước trận."
+
+msgid "slides/additionalEquipment/title"
+msgstr "THIẾT ĐẶT PHỤ TRỢ"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Sau khi đạt đến Cấp Biến thể Dã chiến nhất định, một %(accent)Cấu hình Khác%(/accent) sẽ khả dụng cho xe của bạn, cũng như xuất hiện phương án chuẩn bị %(accent)thêm một bộ thiết bị, đạn, vật phẩm và ứng dụng kỹ thuật nữa%(/accent) trong Ga-ra. Nó không thay thế cấu hình chính nhưng mở khóa cơ hội mới. Bạn có thể đánh giá bản đồ và thành phần phe mình lúc chờ đếm ngược trước trận để %(accent)lựa chọn một trong hai%(/accent) cấu hình xe. Điều này cho phép chuẩn bị tốt hơn cho những tình huống khả dĩ sắp phải đương đầu."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "CẤU HÌNH KHÁC CHO XE"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)Biến thể Cơ bản%(/accent) mang lại lợi ích cho %(accent)một trong các đặc tính xe%(/accent) và mở khóa Sửa đổi Kép. Những biến thể này có thể lắp đặt miễn phí, nhưng bạn cần XP Chiến đấu cũng như XP Tự do để nghiên cứu chúng."
+
+msgid "slides/baseModifications/title"
+msgstr "BIẾN THỂ CƠ BẢN"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)Biến thể Đặc biệt%(/accent) mở khóa Cấu hình Khác đối với xe tương ứng và cho phép %(accent)chỉ định danh mục%(/accent) của ô thiết bị thứ hai (xe Cấp VIII–X). Bạn có thể tái định danh mục ô đã chọn bằng cách dùng bạc."
+
+msgid "slides/extraModification/title"
+msgstr "BIẾN THỂ ĐẶC BIỆT: VAI TRÒ Ô"
+
+msgid "slides/fieldModernization/description"
+msgstr "Biến thể Dã chiến là khả năng thực hiện nhiều điều chỉnh tinh vi cho xe tương ứng tùy theo vai trò, cũng như %(accent)thay đổi đặc tính của nó%(/accent) bằng hàng loạt %(accent)sửa đổi%(/accent). Mỗi biến thể tiếp theo được mở khóa sau khi nghiên cứu cái trước."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "BIẾN THỂ DÃ CHIẾN"
+
+msgid "slides/fieldModernization/title"
+msgstr "THAY ĐỔI ĐẶC TÍNH XE"
+
+msgid "slides/modificationTree/description"
+msgstr "Sơ đồ Biến thể khả dụng cho xe nghiên cứu được và Sưu tập %(accent)Cấp VI–X%(/accent) đã đạt %(accent)trạng thái \"Elite\"%(/accent). Biến thể đối với xe đặc biệt, phần thưởng và Premium khả dụng ngay sau khi mua."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "NGHIÊN CỨU BIẾN THỂ"
+
+msgid "slides/modificationTree/title"
+msgstr "NGHIÊN CỨU BIẾN THỂ"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)Sửa đổi Kép cải thiện một%(/accent) đặc tính của xe trong khi %(accent)làm giảm cái khác%(/accent). Bạn cần XP Chiến đấu hoặc Tự do để nghiên cứu biến thể, và bạc để lắp đặt chúng. Người chơi có thể %(accent)hủy bỏ (gỡ khỏi xe)%(/accent) biến thể %(accent)một cách miễn phí%(/accent).\nKhi xe bị bán đi, Biến thể Cơ bản và Đặc biệt được lưu, nhưng Sửa đổi Kép sẽ bị hủy bỏ."
+
+msgid "slides/pairedModifications/title"
+msgstr "SỬA ĐỔI KÉP"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)Thiết đặt Cốt yếu%(/accent) là một phần của cấu hình xe, bao gồm %(accent)đạn và vật phẩm%(/accent). Sau khi truy cập được Cấu hình Khác, bạn có thể %(accent)đổi qua lại giữa các cấu hình%(/accent) của Thiết đặt Cốt yếu trong lúc chờ đếm ngược trước trận."
+
+msgid "slides/requiredEquipment/title"
+msgstr "THIẾT ĐẶT CỐT YẾU"
+
+msgid "slides/roleInBattle/description"
+msgstr "Không như loại xe, vai trò xe phản ánh chính xác hơn về %(accent)chiến thuật đánh%(/accent) tối ưu, cũng như quyết định %(accent)Sơ đồ Biến thể%(/accent) nào sẽ khả dụng cho phương tiện cụ thể."
+
+msgid "slides/roleInBattle/title"
+msgstr "VAI TRÒ CỦA XE TRONG TRẬN"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Biến thể làm thay đổi đặc tính xe, mở khóa %(accent)truy cập Cấu hình Khác%(/accent), cũng như cho phép chỉ định một danh mục đối với %(accent)ô thiết bị thứ hai%(/accent)."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "Cấu hình Khác là bộ %(accent)thiết bị, đạn, vật phẩm và ứng dụng kỹ thuật %(/accent) thứ hai. Bạn có thể chuyển qua lại giữa các cấu hình."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "Khả năng chọn và chỉ định một danh mục cho %(accent)ô thiết bị thứ hai%(/accent). Trực tiếp ảnh hưởng đến hiệu suất xe trong trận."
+
+msgid "slides/specialModifications/title"
+msgstr "BIẾN THỂ, CẤU HÌNH KHÁC, DANH MỤC Ô"
+
+msgid "tooltips/entry_point/description"
+msgstr "Khả năng thay đổi đặc tính xe một cách tinh vi hơn."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Mô-đun và xe đã nghiên cứu: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Mô-đun đã nghiên cứu: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Biến thể Dã chiến"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Khả dụng sau khi mua xe này."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Khả dụng sau khi đạt trạng thái \"Elite\"."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Khả dụng sau khi mua xe này và đạt trạng thái \"Elite\"."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Chúng tôi rất tiếc vì vấn đề nhất thời này. Xin vui lòng thử lại sau."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Biến thể Đặc biệt Không khả dụng"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Biến thể Đặc biệt %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Hãy kiếm chúng bằng cách tham chiến, bán đồ thừa trong kho của mình, hoặc quy đổi từ vàng để có thêm."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "Không Đủ Bạc"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Gỡ"
+
+msgid "tooltips/pairModification/level"
+msgstr "Sửa đổi Kép %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Thay đổi đặc tính kỹ thuật:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Gỡ (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Mua (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Mua"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Click để xem các thay đổi ở đặc tính kỹ thuật của xe sau khi mua biến thể này."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Sau khi hủy sửa đổi, bạn sẽ có thể mua bất cứ biến thể nào của cặp này bằng cách dùng bạc."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Mua biến thể này sẽ tự động hủy cái đã lắp đặt từ cặp tương ứng."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Đã mua Biến thể Kia"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Đạt đến Biến thể Dã chiến Cấp %(level) để truy cập sửa đổi này"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Biến thể Không khả dụng"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Miễn phí"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "Cần có:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Số gần đúng. Giá trị chính xác được ghi rõ trong đặc tính."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Áp dụng"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Hủy bỏ"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Đặt lại"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "Biến thể %(title)s"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Thêm vào So sánh"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Phá bỏ Tất cả Sửa đổi Kép"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Click để phá bỏ tất cả mọi Sửa đổi Kép."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Phá bỏ"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Xem trước"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Tái định"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Trước trận"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Chọn"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Bật/tắt tùy chọn chuyển đổi giữa các bộ thiết bị và ứng dụng kỹ thuật trong lúc chờ đếm ngược trước trận.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Bật/tắt tùy chọn chuyển đổi giữa các bộ vật phẩm và đạn trong lúc chờ đếm ngược trước trận.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Khi tắt, bộ đã chọn trong Ga-ra sẽ được sử dụng trong trận."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Chuyển đổi Trước Trận"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Xe này đang trong trận."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Xe này đang bị khóa."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Xe này cần sửa chữa."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Xe này đang trong đơn vị tác chiến."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "Không thể chỉ định danh mục ô: Xe không ở Ga-ra."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "Thời gian thuê xe này đã hết."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Xe này đang trong trận."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Xe này đang bị khóa."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Xe này cần sửa chữa."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Xe này đang trong đơn vị tác chiến."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "Không thể mua: Xe này không ở trong Ga-ra."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "Thời gian thuê xe này đã hết."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Click để phá bỏ một Sửa đổi Kép."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Phá bỏ"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "hoặc"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Cấp Biến thể Dã chiến Tối đa"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Khả dụng cho xe Cấp {minAllowedLevel}—{maxAllowedLevel}"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Khả dụng cho xe Cấp {allowedLevel}"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "ẨN ĐẶC TÍNH"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Lợi ích cố định: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Lợi ích cố định: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Lợi ích cố định: %(bonus1) và %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Tăng Cấp độ để nhận lợi ích cố định: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Tăng Cấp độ để nhận lợi ích cố định: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Tăng Cấp độ để nhận lợi ích cố định: %(bonus1) và %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Gia tăng Cấp độ"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Tăng Cấp độ để %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Tăng Cấp độ để Nhận:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Đặc tính được cải thiện"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Biến thể Đặc biệt"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Biến thể Đặc biệt {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Sửa đổi Kép"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Sửa đổi Kép {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "Đến Mô-đun"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Biến thể Dã chiến không khả dụng. Xe đang trong trận."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Biến thể Dã chiến không khả dụng. Xe đang bị khóa."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Biến thể Dã chiến không khả dụng. Xe cần sửa chữa."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "Khả năng thay đổi đặc tính xe một cách tinh vi hơn sẽ khả dụng sau khi đạt trạng thái \"Elite\"."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Biến thể Dã chiến không khả dụng: Xe đang trong đơn vị tác chiến."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Bạn phải có xe tương ứng trong Ga-ra để nghiên cứu biến thể, cũng như tăng Cấp độ Biến thể Dã chiến."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Biến thể Dã chiến không khả dụng cho xe thuê. Hãy mua xe này để mở khóa Biến thể Dã chiến."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Biến thể Dã chiến không khả dụng: Thời gian thuê xe đã hết. Hãy gia hạn thuê để mở khóa Biến thể Dã chiến."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "HIỆN ĐẶC TÍNH"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "Khả năng thay đổi đặc tính xe một cách tinh vi hơn. Nó khả dụng sau khi đạt trạng thái \"Elite\"."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Biến thể Dã chiến"

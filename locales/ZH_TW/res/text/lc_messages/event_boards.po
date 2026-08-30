@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "驅逐戰車的獎勵"
+
+msgid "awards/class/SPG"
+msgstr "自走炮的獎勵"
+
+msgid "awards/class/heavyTank"
+msgstr "重型戰車的獎勵"
+
+msgid "awards/class/lightTank"
+msgstr "輕型戰車的獎勵"
+
+msgid "awards/class/mediumTank"
+msgstr "中型戰車的獎勵"
+
+msgid "awards/level"
+msgstr "%(level)s 階車輛的獎勵"
+
+msgid "awards/nation/china"
+msgstr "中國車輛的獎勵"
+
+msgid "awards/nation/czech"
+msgstr "捷克斯洛伐克車輛的獎勵"
+
+msgid "awards/nation/france"
+msgstr "法國車輛的獎勵"
+
+msgid "awards/nation/germany"
+msgstr "德國車輛的獎勵"
+
+msgid "awards/nation/japan"
+msgstr "日本車輛的獎勵"
+
+msgid "awards/nation/poland"
+msgstr "波蘭車輛的獎勵"
+
+msgid "awards/nation/sweden"
+msgstr "瑞典車輛的獎勵"
+
+msgid "awards/nation/uk"
+msgstr "英國車輛的獎勵"
+
+msgid "awards/nation/usa"
+msgstr "美國車輛的獎勵"
+
+msgid "awards/nation/ussr"
+msgstr "蘇聯車輛的獎勵"
+
+msgid "awards/tooltip/class"
+msgstr "點擊以顯示此類型車輛的獎勵。"
+
+msgid "awards/tooltip/level"
+msgstr "點擊以顯示此階級車輛的獎勵。"
+
+msgid "awards/tooltip/nation"
+msgstr "點擊以顯示此國家的獎勵。"
+
+msgid "awards/vehicle"
+msgstr "所選車輛的獎勵"
+
+msgid "badge/tooltip/description"
+msgstr "徽章是一種會在戰鬥中顯示於您暱稱旁的獨特圖示。兩隊玩家都能看見這個徽章，並象徵您在國家閱兵活動中有著非凡的表現。"
+
+msgid "badgesGroup/tooltip/header"
+msgstr "紀念徽章"
+
+msgid "block/award"
+msgstr "主要獎勵"
+
+msgid "block/objective"
+msgstr "條件"
+
+msgid "block/task"
+msgstr "任務"
+
+msgid "button/awards"
+msgstr "所有獎勵"
+
+msgid "button/awards/tooltip"
+msgstr "點擊以顯示競賽中所有獎勵的清單。"
+
+msgid "button/regulations"
+msgstr "需求"
+
+msgid "button/regulations/tooltip"
+msgstr "點擊以顯示競賽的完整描述。"
+
+msgid "condition/battletype/random"
+msgstr "隨機戰鬥 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "排名戰"
+
+msgid "condition/battletype/squadallowed"
+msgstr "允許裝甲排"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "不允許裝甲排"
+
+msgid "condition/primetime/any"
+msgstr "任何伺服器及時間"
+
+msgid "condition/primetime/chosen"
+msgstr "只在指定的伺服器上"
+
+msgid "condition/vehicle/chosen"
+msgstr "只在指定的車輛上："
+
+msgid "condition/vehicle/exist"
+msgstr "在車庫中"
+
+msgid "condition/vehicle/missing"
+msgstr "不在車庫中"
+
+msgid "condition/vehicle/single"
+msgstr "用 %(vehicle)s"
+
+msgid "excel/award/title"
+msgstr "獎項"
+
+msgid "excel/btnClose"
+msgstr "前往競賽"
+
+msgid "excel/group/title"
+msgstr "分組"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "想要在評價中取得名次，需要進行更多場戰鬥：%(number)s"
+
+msgid "excel/noData"
+msgstr "尚未取得獲獎名次。"
+
+msgid "excel/participate/join"
+msgstr "參戰"
+
+msgid "excel/participate/notParticipated"
+msgstr "您沒有在此評價中取得名次"
+
+msgid "excel/subHeader"
+msgstr "競賽：%(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "加入"
+
+msgid "header/participate/button/leave"
+msgstr "離開競賽"
+
+msgid "header/participate/finished"
+msgstr "競賽已結束"
+
+msgid "header/participate/notStarted"
+msgstr "您已加入"
+
+msgid "header/participate/reason/byAge"
+msgstr "帳號建立於 %date% 之後"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "競賽無法使用"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "您已離開此競賽"
+
+msgid "header/participate/started"
+msgstr "您正在參與"
+
+msgid "header/timer"
+msgstr "結束於："
+
+msgid "maintenance/body"
+msgstr "很抱歉暫時為您帶來不便。"
+
+msgid "maintenance/title"
+msgstr "載入資料時發生錯誤"
+
+msgid "maintenance/update"
+msgstr "更新"
+
+msgid "notification/buttons/details"
+msgstr "詳情"
+
+msgid "notification/eventFinished/body"
+msgstr "競賽 %(eventName)s 已結束。贏家將會於接下來幾天中確定，然後他們就會得到應得的獎品。"
+
+msgid "notification/eventFinished/header"
+msgstr "競賽已結束"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "您的戰鬥結果現在已被計入競賽，如此您就可以在評價中取得名次並獲得獎勵。"
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "您已加入成為參賽者"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "您的戰鬥結果在競賽開始時就會被計入，如此您就可以在評價中取得名次並獲得獎勵。"
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "您已加入成為參賽者"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "無法加入成為參賽者：不符合需求。"
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "無法加入成為參賽者：註冊期間已結束。"
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "您在競賽中的統計會在評價更新後重置。"
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "您已離開競賽"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "您的統計不會被計入這場競賽。"
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "您已離開競賽"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "無法離開競賽：分配時間已到。"
+
+msgid "notification/eventStarted/body"
+msgstr "競賽 %(eventName)s 已開始！競賽時間結束時有取得獲獎名次的玩家就會獲得珍貴的獎勵。"
+
+msgid "notification/eventStarted/header"
+msgstr "競賽已開始"
+
+msgid "notification/unknownError/body"
+msgstr "無法完成行動。"
+
+msgid "orders/title"
+msgstr "需求"
+
+msgid "popover/buttons/cancel"
+msgstr "取消"
+
+msgid "popover/buttons/rating"
+msgstr "前往評價"
+
+msgid "popover/buttons/select"
+msgstr "選擇"
+
+msgid "popover/noVehicles"
+msgstr "沒有車輛符合所選過濾。"
+
+msgid "popover/resetFilter"
+msgstr "重置過濾"
+
+msgid "popover/title"
+msgstr "評價名單"
+
+msgid "popover/title/vehicle"
+msgstr "選擇車輛"
+
+msgid "popover/tooltip/class"
+msgstr "前往所選類型車輛的評價。"
+
+msgid "popover/tooltip/level"
+msgstr "前往所選階級車輛的評價。"
+
+msgid "popover/tooltip/nation"
+msgstr "前往所選國家車輛的評價。"
+
+msgid "server/list"
+msgstr "想要讓您的戰鬥計入競賽，請轉移到下列伺服器："
+
+msgid "server/noSuitable/body"
+msgstr "戰鬥結果將於下次計入：%(data)s。競賽時間表"
+
+msgid "server/noSuitable/header"
+msgstr "此時的戰鬥結果沒有被計入競賽"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s 於 %(server)s"
+
+msgid "status/bestResults/many"
+msgstr "我的最佳結果"
+
+msgid "status/bestResults/one"
+msgstr "我的結果"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "競賽無法使用："
+
+msgid "status/cantJoin/reason/banned"
+msgstr "由於您違反了遊戲規則所以不能參與此競賽"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "帳號建立於 %(date)s 之後"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "您在隨機戰鬥模式中沒有達到要求的戰鬥數：%(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "您在隨機戰鬥模式中的勝率超過了 %(number)s%%"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "您在隨機戰鬥模式中沒有達到要求的勝率：%(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "註冊期間已結束"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "您無法加入此競賽成為參賽者。"
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "您已離開此競賽"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "您的戰鬥結果不再被計入此競賽。您將無法在評價中取得名次和得到獎勵。\n您無法再次進入此競賽。"
+
+msgid "status/cantJoin/reason/many"
+msgstr "沒有滿足要求 %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "沒有滿足要求 (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "您沒有在評價中取得名次"
+
+msgid "status/cantJoin/reason/special"
+msgstr "您無法使用此帳號來參與競賽。"
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "沒有適合的車輛"
+
+msgid "status/participate/cantJoin"
+msgstr "競賽無法使用"
+
+msgid "status/participate/needMoreBattles"
+msgstr "滿足戰鬥中的指定要求，然後您的結果在評價更新後就會顯示在這裡。"
+
+msgid "status/participate/notParticipated"
+msgstr "您沒有參與過此評價"
+
+msgid "summary/averagedamage"
+msgstr "平均傷害"
+
+msgid "summary/averagedamageassisted"
+msgstr "在您協助下的平均傷害"
+
+msgid "summary/averagexp"
+msgstr "平均經驗"
+
+msgid "summary/battles"
+msgstr "競賽的戰鬥數"
+
+msgid "summary/damage"
+msgstr "傷害"
+
+msgid "summary/damageassist"
+msgstr "在您協助下的傷害"
+
+msgid "summary/damageblocked"
+msgstr "阻擋的傷害"
+
+msgid "summary/description/awards/title/award"
+msgstr "競賽結束時的獎勵"
+
+msgid "summary/description/awards/title/group"
+msgstr "群組"
+
+msgid "summary/description/awards/title/position"
+msgstr "排名"
+
+msgid "summary/description/max/class"
+msgstr "您用 %(value)s 最佳的一場戰鬥"
+
+msgid "summary/description/max/level"
+msgstr "您用 %(value)s 階車輛最佳的一場戰鬥"
+
+msgid "summary/description/max/nation"
+msgstr "您用下列國家車輛最佳的一場戰鬥：%(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "您用 %(value)s 最佳的一場戰鬥"
+
+msgid "summary/description/sum/class"
+msgstr "您用 %(value)s 在競賽中的統計"
+
+msgid "summary/description/sum/level"
+msgstr "您用 %(value)s 階車輛在競賽中的統計"
+
+msgid "summary/description/sum/nation"
+msgstr "您用下列國家車輛在競賽中的統計：%(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "您用下列車輛在競賽中的統計：%(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "您用 %(value)s 最佳的連續戰鬥"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "您用 %(value)s 階車輛最佳的連續戰鬥"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "您用下列國家車輛最佳的連續戰鬥：%(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "您用 %(value)s 最佳的連續戰鬥"
+
+msgid "summary/description/sumN/class"
+msgstr "您用 %(value)s 最佳的戰鬥"
+
+msgid "summary/description/sumN/level"
+msgstr "您用 %(value)s 階車輛最佳的戰鬥"
+
+msgid "summary/description/sumN/nation"
+msgstr "您用下列國家車輛最佳的戰鬥：%(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "您用 %(value)s 最佳的戰鬥"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "您用 %(value)s 最佳的連續戰鬥"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "您用 %(value)s 階車輛最佳的連續戰鬥"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "您用下列國家車輛最佳的連續戰鬥：%(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "您用 %(value)s 最佳的連續戰鬥"
+
+msgid "summary/destroyedvehicles"
+msgstr "擊毀敵方車輛數"
+
+msgid "summary/fightInSquaad"
+msgstr "在裝甲排中的戰鬥"
+
+msgid "summary/fightNotInSquaad"
+msgstr "不在裝甲排中的戰鬥"
+
+msgid "summary/originalXP"
+msgstr "基本經驗"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "在玩家協助下造成的傷害"
+
+msgid "summary/param/max/damageDealt"
+msgstr "傷害"
+
+msgid "summary/param/max/originalXP"
+msgstr "基本經驗"
+
+msgid "summary/param/max/xp"
+msgstr "經驗"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "在玩家協助下造成的平均傷害"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "平均傷害"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "平均基本經驗"
+
+msgid "summary/param/sumAll/wins"
+msgstr "勝利"
+
+msgid "summary/param/sumAll/xp"
+msgstr "平均經驗"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "在玩家協助下造成的平均傷害"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "總傷害"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "總基本經驗"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "總經驗"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "在玩家協助下造成的總傷害"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "總傷害"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "總基本經驗"
+
+msgid "summary/param/sumN/xp"
+msgstr "總經驗"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "在玩家協助下造成的平均傷害"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "總傷害"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "總基本經驗"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "總經驗"
+
+msgid "summary/position"
+msgstr "在評價中的名次：%(position)s"
+
+msgid "summary/result/draw"
+msgstr "平手"
+
+msgid "summary/result/loss"
+msgstr "戰敗"
+
+msgid "summary/result/win"
+msgstr "勝利"
+
+msgid "summary/status"
+msgstr "更新於 %(day)s 的 %(time)s"
+
+msgid "summary/winrate"
+msgstr "勝利"
+
+msgid "table/header/player"
+msgstr "玩家"
+
+msgid "table/header/position"
+msgstr "第"
+
+msgid "table/selectParticipateBtn"
+msgstr "離開競賽"
+
+msgid "table/selectRatingBtn"
+msgstr "評價名單"
+
+msgid "table/selectRegistrationBtn"
+msgstr "加入成為參賽者"
+
+msgid "table/stripe/bronze/title"
+msgstr "群組 III (名次 %(placeFrom)d–%(placeTo)d)："
+
+msgid "table/stripe/gold/title"
+msgstr "群組 I (名次 %(placeFrom)d–%(placeTo)d)："
+
+msgid "table/stripe/goldCustom/title"
+msgstr "群組 I"
+
+msgid "table/stripe/iron/title"
+msgstr "群組 IV (名次 %(placeFrom)d–%(placeTo)d)："
+
+msgid "table/stripe/silver/title"
+msgstr "群組 II (名次 %(placeFrom)d–%(placeTo)d)："
+
+msgid "table/stripe/wood/title"
+msgstr "未獲獎名次"
+
+msgid "task/eventtype/all"
+msgstr "所有參賽者的一般評價"
+
+msgid "task/eventtype/class"
+msgstr "各種車輛類型都有自己的評價"
+
+msgid "task/eventtype/level"
+msgstr "各個車輛階級都有自己的評價"
+
+msgid "task/eventtype/nation"
+msgstr "各個車輛國家都有自己的評價"
+
+msgid "task/eventtype/vehicle"
+msgstr "各個車輛都有自己的評價"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "按照在您協助下造成的傷害在評價中取得名次"
+
+msgid "task/objective/max/damageDealt"
+msgstr "按照造成的傷害在評價中取得名次"
+
+msgid "task/objective/max/originalXP"
+msgstr "按照獲得的基本經驗在評價中取得名次"
+
+msgid "task/objective/max/xp"
+msgstr "按照獲得的經驗在評價中取得名次"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "按照在您協助下造成的總傷害在評價中取得名次"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "按照造成的總傷害在評價中取得名次"
+
+msgid "task/objective/sum/originalXP"
+msgstr "按照獲得的總基本經驗在評價中取得名次"
+
+msgid "task/objective/sum/wins"
+msgstr "按勝利數在評價中取得的名次"
+
+msgid "task/objective/sum/xp"
+msgstr "按照獲得的總經驗在評價中取得名次"
+
+msgid "task/objparam/damageAssisted"
+msgstr "在您協助下造成的傷害"
+
+msgid "task/objparam/damageDealt"
+msgstr "造成的傷害"
+
+msgid "task/objparam/originalXP"
+msgstr "獲得的基本經驗"
+
+msgid "task/objparam/wins"
+msgstr "勝利數"
+
+msgid "task/objparam/xp"
+msgstr "經驗"
+
+msgid "task/selection/max"
+msgstr "會計算您最佳的一場戰鬥"
+
+msgid "task/selection/sumAll"
+msgstr "會計算您所有的戰鬥"
+
+msgid "task/selection/sumMSeqN"
+msgstr "會計算您最佳的連續（%(cardinality)s 場）戰鬥。連續戰鬥數：%(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "會計算您最佳的戰鬥：%(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "會計算您最佳的連續戰鬥。連續戰鬥數：%(cardinality)s"
+
+msgid "time/day/today"
+msgstr "今天"
+
+msgid "time/day/tomorrow"
+msgstr "明天"
+
+msgid "time/day/yesterday"
+msgstr "昨天"
+
+msgid "time/eventFinished"
+msgstr "競賽結束：%(date)s"
+
+msgid "time/period/day"
+msgstr "天"
+
+msgid "time/period/hour"
+msgstr "小時"
+
+msgid "time/period/minute"
+msgstr "分鐘"
+
+msgid "time/timeTo/end"
+msgstr "結束於：%(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "註冊期間結束於：%(time)s"
+
+msgid "time/timeTo/start"
+msgstr "開始於：%(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "獎勵會在競賽結束時給予並取決於您在排名中的名次。\n想要查看此競賽中所有獎勵的清單，請點擊「所有獎勵」。"
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "所計入的經驗數量不包含任何來自加值帳號或加值車輛、個人儲備、該日首勝加成，或任何其他特惠活動的額外經驗。"
+
+msgid "tooltip/top/amount/xp"
+msgstr "所計算的經驗量並不包含任何來自加值車輛、個人儲備、該日首勝加成、或任何其它特惠活動的額外經驗。\n有算來自加值帳號的額外經驗。"
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "最後一名獲獎玩家在玩家協助下造成的傷害：%(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "最後一名獲獎玩家所造成的傷害：%(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "最後一名獲獎玩家所獲得的基本經驗：%(number)s\n所計算的經驗量並不包含任何來自加值帳號或加值車輛、個人儲備、該日首勝加成、或任何其它特惠活動的額外經驗。"
+
+msgid "tooltip/top/description/max/xp"
+msgstr "最後一名獲獎玩家所獲得的經驗：%(number)s\n所計算的經驗量並不包含任何來自加值車輛、個人儲備、該日首勝加成、或任何其它特惠活動的額外經驗。\n有算來自加值帳號的額外經驗。"
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "最後一名獲獎玩家在玩家協助下造成的總傷害：%(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "最後一名獲獎玩家所造成的總傷害：%(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "最後一名獲獎玩家所獲得的總基本經驗：%(number)s\n所計算的經驗量並不包含任何來自加值帳號或加值車輛、個人儲備、該日首勝加成、或任何其它特惠活動的額外經驗。"
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "最後一名獲獎玩家所獲得的勝利數：%(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "最後一名獲獎玩家所獲得的總經驗：%(number)s\n所計算的經驗量並不包含任何來自加值車輛、個人儲備、該日首勝加成、或任何其它特惠活動的額外經驗。\n有算來自加值帳號的額外經驗。"
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "未得獎名次"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "群組 %(group)s (排名 %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "最後一名獲獎玩家所獲得的平均經驗："
+
+msgid "top/participation/notParticipated"
+msgstr "您沒有參與過此評價"
+
+msgid "top/participation/notfull"
+msgstr "您沒有在評價中取得名次"
+
+msgid "top/participation/notintop"
+msgstr "您目前不在獲獎名次"
+
+msgid "top/position"
+msgstr "您的名次："
+
+msgid "top/reason/notfull"
+msgstr "想要在評價中取得名次，需要進行更多場戰鬥："
+
+msgid "vehicles/level"
+msgstr "%(level)s 階車輛"
+
+msgid "vehicles/tooltip/class"
+msgstr "點擊以顯示參與競賽的此類型車輛。"
+
+msgid "vehicles/tooltip/level"
+msgstr "點擊以顯示參與競賽的此階級車輛。"
+
+msgid "vehicles/tooltip/nation"
+msgstr "點擊以顯示參與競賽的此國家車輛。"
+
+msgid "vehicles/vehicle"
+msgstr "競賽中的車輛"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "點擊以顯示競賽所允許的車輛清單。"

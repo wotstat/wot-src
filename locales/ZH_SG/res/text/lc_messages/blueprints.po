@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "已收集蓝图"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "蓝图  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "蓝图 {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "去购买"
+
+msgid "blueprintScreen/button/research"
+msgstr "去研发"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "在车库中查看"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "您可以通过拼装蓝图来获得研发所需战车的折扣。但是，必须先研发分支上的\n前置战车才可以使用折扣。"
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "收到！"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "不能进行研发"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "创建蓝图碎片需要："
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "选择："
+
+msgid "blueprintScreen/createFragment"
+msgstr "创建碎片："
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "创建碎片"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "转换\n碎片"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "转换\n无法进行"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "不可用：\n资源\n不足"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "到战车"
+
+msgid "blueprintScreen/or"
+msgstr "或"
+
+msgid "blueprintScreen/research"
+msgstr "研发"
+
+msgid "blueprintScreen/researchFree"
+msgstr "免费研发战车"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "不能进行研发"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "研发折扣："
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "战车已研发完成并且可以购买"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "战车已研发完成并且已被购买"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "库存："
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "在您研发完成{vehicleName}在分支上的前置战车后，可以使用100%折扣对其进行研发。"
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "已收集蓝图"
+
+msgid "blueprintScreen/unlocked"
+msgstr "战车\n已研发"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "阵营："
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "集团："
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "同盟："
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "联队："
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon}{allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon)%(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "通用："
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "阵营"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "集团"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "同盟"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "联队"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "（法国、捷克斯洛伐克、瑞典、意大利）"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "（德国、日本）"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "（美国、英国、波兰）"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "（苏联、中国）"
+
+msgid "conversionView/topMessage/multi"
+msgstr "选择国家碎片的数量来创建战车蓝图碎片。\n%(allianceIcon)%(allianceName)%(allianceNations)国家碎片可用。"
+
+msgid "conversionView/topMessage/single"
+msgstr "选择其中一个国家的碎片来创建战车蓝图碎片。\n%(allianceIcon)%(allianceName)%(allianceNations)国家碎片可用。"
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "最终价格："
+
+msgid "conversionView/totalPrice/single"
+msgstr "蓝图碎片价格："
+
+msgid "nations/china"
+msgstr "中国"
+
+msgid "nations/czech"
+msgstr "捷克斯洛伐克"
+
+msgid "nations/france"
+msgstr "法国"
+
+msgid "nations/germany"
+msgstr "德国"
+
+msgid "nations/italy"
+msgstr "意大利"
+
+msgid "nations/japan"
+msgstr "日本"
+
+msgid "nations/poland"
+msgstr "波兰"
+
+msgid "nations/sweden"
+msgstr "瑞典"
+
+msgid "nations/uk"
+msgstr "英国"
+
+msgid "nations/usa"
+msgstr "美国"
+
+msgid "nations/ussr"
+msgstr "苏联"

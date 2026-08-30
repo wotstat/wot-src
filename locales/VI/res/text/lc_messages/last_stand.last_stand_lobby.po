@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Vẫn đánh"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Lắp đồ!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Thiếu Thiết bị Chiến lược"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "Xe đã chọn đang thiếu một hoặc nhiều Thiết bị Chiến lược. Điều này có thể ảnh hưởng đáng kể đến hiệu suất đánh. Vẫn vào trận?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Bạn có thể tùy chỉnh tiền lập mặc định về phím tắt cho đạn và Thiết bị Chiến lược.\nThay đổi này chỉ áp dụng ở các trận trong sự kiện và không ảnh hưởng bất kỳ chế độ nào khác.\nBạn cũng có thể sửa từng phím tắt riêng tại Menu — Thiết lập — Điều khiển (mục Vật phẩm)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Đổi Tiền lập Phím Tắt Vật phẩm"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Hoàn thành nhiệm vụ này để nhận phù hiệu Last Stand: Operation Pandora độc đáo:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Nhiệm vụ Thành tựu Vĩ đại"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "Khi được nghiên cứu, giảm {EDCB9E_Start}chi phí Mirium{EDCB9E_End} của mọi Thiết bị Chiến lược: {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Mirium Efficiency"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "Khi được nghiên cứu, tăng {EDCB9E_Start}thời lượng hiệu ứng của Thiết bị Chiến thuật{EDCB9E_End}: {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Device Effect Duration"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "Khi được nghiên cứu, tăng {EDCB9E_Start}bán kính hiệu ứng của Thiết bị Chiến thuật{EDCB9E_End}: {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Device Effect Radius"
+
+msgid "booster/booster_heal/description"
+msgstr "Khi được nghiên cứu, tăng tất cả {EDCB9E_Start}hiệu ứng chữa lành{EDCB9E_End} áp lên xe: {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Healing Effects"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "Khi được nghiên cứu, tăng lượng {EDCB9E_Start}sát thương truyền từ Obelisk{EDCB9E_End} vào xe địch: {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Transmitted Obelisk Damage"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "Khi được nghiên cứu, tăng {EDCB9E_Start}bán kính nhặt Mirium{EDCB9E_End} từ địch: {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End} (phần trăm)."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Mirium Pickup Radius"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "Khi được nghiên cứu, tăng {EDCB9E_Start}lượng Mirium thu thập{EDCB9E_End} từ xe bị hạ: {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Mirium Collection"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "Khi được nghiên cứu, tăng {EDCB9E_Start}lượng Mirium{EDCB9E_End} nhận về khi diệt một đợt sóng: {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Mirium Per Wave"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "Khi được nghiên cứu, tăng {EDCB9E_Start}lượng Mirium{EDCB9E_End} khôi phục lúc hồi sinh: {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Mirium on Respawn"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "Khi được nghiên cứu, tăng {EDCB9E_Start}sức chứa Mirium tối đa của xe{EDCB9E_End}: {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Mirium Capacity"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "GÓI DEFENDER"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Đã mua Chìa"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Lựa chọn thu về ×5 XP kể từ trận thắng thứ hai trong ngày với bất cứ xe nào."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Nhiệm vụ ×5 XP kiếm được trong trận"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Định dạng cách hiển thị các xe theo chủng loại, quốc gia và những tham số khác."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Lọc theo Tham số"
+
+msgid "common/back"
+msgstr "QUAY LẠI"
+
+msgid "common/close"
+msgstr "TẮT"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "ĐẾN SỰ KIỆN"
+
+msgid "common/toRewardPath"
+msgstr "ĐẾN TIẾN TRÌNH"
+
+msgid "common/yes"
+msgstr "Rõ!"
+
+msgid "difficult/daily"
+msgstr "ĐÃ MỞ KHÓA NHIỆM VỤ HÀNG NGÀY CHO CHÌA"
+
+msgid "difficult/disabled/body"
+msgstr "Bạn đang thuộc một Trung đội. Chỉ huy là người duy nhất có thể đổi độ khó."
+
+msgid "difficult/disabled/header"
+msgstr "Không thể Thay đổi Độ khó"
+
+msgid "difficult/level_1"
+msgstr "Thường"
+
+msgid "difficult/level_2"
+msgstr "Cao"
+
+msgid "difficult/level_3"
+msgstr "Ác"
+
+msgid "difficult/new"
+msgstr "MỚI"
+
+msgid "difficult/searching/body"
+msgstr "Không khả dụng trong khi tìm kiếm."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Địch có giáp và sức kháng cự thấp. Lượng Data bình thường mỗi trận."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Địch có giáp tốt hơn. Lượng Data mỗi trận tăng thêm {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Quân số địch nhiều và có giáp tốt hơn. Lượng Data mỗi trận tăng thêm {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Phần thưởng cho lần đầu diệt đợt sóng cuối cùng:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Độ khó Thường"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Độ khó Cao"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Độ khó Ác"
+
+msgid "difficult/tooltip/locked"
+msgstr "Độ khó bị khóa"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Để mở khóa mức này, hãy vượt qua độ khó Thường."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Để mở khóa mức này, hãy vượt qua độ khó Cao."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Độ khó khả dụng"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Độ khó đã chọn"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Số đợt diệt được: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "THƯỜNG"
+
+msgid "difficult/uppercase/level_2"
+msgstr "CAO"
+
+msgid "difficult/uppercase/level_3"
+msgstr "ÁC"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Địch có giáp cứng hơn. Thêm bạc và ×{{modifier}} Data mỗi trận."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Quân số địch nhiều, giáp cứng hơn. Thêm bạc và ×{{modifier}} Data mỗi trận."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Tham chiến và đánh bại các đợt sóng tấn công của địch, thể hiện bản lĩnh bằng cách leo lên đầu Bảng Xếp hạng. Phần thưởng độc đáo và hơn nữa chờ đón bạn."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "MỨC ĐỘ KHÓ CAO"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "MỨC ĐỘ KHÓ ÁC"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "CHẾ ĐỘ LAST STAND"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "CAO"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "ÁC"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "'LAST STAND'"
+
+msgid "difficultyWindow/rewards"
+msgstr "Phần thưởng khi hoàn tất:"
+
+msgid "difficultyWindow/title"
+msgstr "KHẢ DỤNG"
+
+msgid "hangar/exit"
+msgstr "RỜI KHỎI SỰ KIỆN"
+
+msgid "hangar/narration"
+msgstr "Truyện"
+
+msgid "hangar/tooltip/about"
+msgstr "Tìm hiểu thêm về sự kiện Last Stand: Terra Nord."
+
+msgid "hangar/tooltip/narration"
+msgstr "Tìm hiểu thêm về câu chuyện sự kiện."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "THIẾT BỊ CHIẾN LƯỢC"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "THIẾT ĐẶT"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Last Stand"
+
+msgid "iconButton/comparison/default"
+msgstr "So sánh xe"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "So sánh xe không khả dụng"
+
+msgid "iconButton/preview/default"
+msgstr "Xem trước xe"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Xem trước xe không khả dụng"
+
+msgid "keyCard/name"
+msgstr "Chìa Giải mã"
+
+msgid "meta/btn/decrypt"
+msgstr "GIẢI MÃ"
+
+msgid "meta/btn/skip"
+msgstr "BỎ QUA"
+
+msgid "meta/btn/view"
+msgstr "XEM"
+
+msgid "meta/receive/description"
+msgstr "Thu thập %(keys) / %(decrypt) %(icon) \nđể giải mã Báo cáo này"
+
+msgid "metaIntro/description/fight"
+msgstr "Đánh chiến trận sự kiện và kiếm Data để băng qua Tiến trình."
+
+msgid "metaIntro/description/progress"
+msgstr "Thu thập Data để nghiên cứu các nâng cấp xe, lên tầm thử thách lớn hơn."
+
+msgid "metaIntro/description/reward"
+msgstr "Hoàn thành Giai đoạn Tiến trình để nhận quà đặc biệt. Xem Đường Phần thưởng để biết thêm chi tiết."
+
+msgid "metaIntro/header/fight"
+msgstr "Chiến trận sự kiện"
+
+msgid "metaIntro/header/progress"
+msgstr "Nâng cấp"
+
+msgid "metaIntro/header/reward"
+msgstr "Phần thưởng Độc đáo"
+
+msgid "metaIntro/title"
+msgstr "TIẾN TRÌNH"
+
+msgid "missionWidget/complete"
+msgstr "Nhiệm vụ hoàn tất.\nMai quay lại."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Hoàn tất Nhiệm vụ Hàng ngày hiện thời, vốn khả dụng mỗi 24 giờ để nhận thưởng. Nhiệm vụ của hôm nay:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Nhiệm vụ Hàng ngày"
+
+msgid "narration/actions/voiceover"
+msgstr "Tiếng thoại"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}TỐI MẬT{{/}}{{titleParagraph}}{{@ class $highlightText}}KHU VỰC: N-07 (Vành đai \"Aurora\"){{/}}{{pargraphStart}}Dự đoán của chúng tôi đã đúng. Các quan sát viên tại trạm ghi nhận dị điểm tiếp cận 11 ngày trước sự kiện. Lần đầu tiên, ta thấy nó đến.{{pargraphStart}}Trong khoảng lặng trước cơn bão, việc sản xuất các tổ hợp ATLAS được tiêu chuẩn hóa. Mô-đun mới lắp ráp nhanh, hiệu chỉnh chính xác hơn. Chúng tôi tiến hành huấn luyện, diễn tập, chuẩn bị phân đội dự phòng. Báo động đỏ.{{pargraphStart}}Nhưng dị điểm có kế khác.{{pargraphStart}}Cái Phễu không mở ra tại khu vực dự báo. Nó xuất hiện ở đây, một vùng phía bắc hẻo lánh, cách xa hạ tầng nghênh chiến đã triển khai. Không rõ vì sao lại là chỗ này. Không thuật toán nào tính ra địa điểm ở đây. Tái điều động khẩn cấp diễn ra lập tức, nhưng địa hình và khoảng cách không về phe ta. Một số phương tiện và phân đội sẽ đến muộn.{{pargraphStart}}Mọi tổ hợp ATLAS kịp giao tới giờ, không được mất.{{pargraphStart}}Lần này, chúng ta sẵn sàng chiến đấu. Mỗi tội là trận địa hơi khác.{{pargraphStart}}KÝ TÊN: THỦ TRƯỞNG (DỰ ÁN M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Ghi chú phân tích 27/C \"ĐIỂM CHỌN XÂM LĂNG\"{{/}}{{titleParagraph}}Chỉ lưu hành nội bộ. Đóng dấu \"Hạn chế Truy cập\".{{pargraphStart}}Tôi phải tự trả lời câu hỏi mà đáng ra bản thân phải biết, nhưng chịu chết: Tại sao ở đây?{{pargraphStart}}Vùng này vô giá trị về chiến lược cho Cái Phễu. Chẳng có vẹo gì. Không hạ tầng kỹ thuật, không một bóng dân. Chỉ độc một căn cứ quân sự bỏ hoang nằm chết gí trên đảo. Đám tăng Echo thì có biết vượt biển đâu. Chiếm nơi không thể phát động tấn công này làm cái gì?{{pargraphStart}}Tôi đã yêu cầu xem toàn bộ lịch sử tác chiến của khu vực này. Kết quả trả về gạch xóa nham nhở. Cả đống mục lớn bôi đen xì. Yêu cầu lần hai bật ngược trở lại với ghi chú \"truy cập bị giới hạn bởi lệnh của {{@ class $highlightSecondaryText}}[DỮ LIỆU KIỂM DUYỆT]{{/}}\". Đến tôi đây – Thủ trưởng ban nghiên cứu, người ra đề xuất sống còn cho chiến lược phòng thủ cái tổng khu này – còn bị chặn họng, không được biết tin gì về vùng đất!{{pargraphStart}}Tự bóc tách được từ dữ liệu chiến trường: Hành vi Cái Phễu lần này khác hẳn những gì từng đụng độ ở phân khu R-22. Có tăng Echo hệ mới, chưa thấy bao giờ. Lối đánh y hệt pháo chống tăng tầm xa bên mình, và phải nói cực rát trên địa hình kiểu này. Địch đã đọc vị quân ta để bắt bài. Giờ đến lượt mình phải đổi meta.{{pargraphStart}}Có thể nó cần vị trí này. Hoặc thứ gì đó dưới lòng đất ở đây.{{pargraphStart}}Tôi không biết. Cái tôi rén nhất là có người biết rõ mười mươi, nhưng không nói.{{pargraphStart}}KÝ TÊN: THỦ TRƯỞNG (DỰ ÁN M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}GHI CHÉP CÁ NHÂN THỦ TRƯỞNG{{/}}{{pargraphStart}}Tôi lướt lại cả 3 giả thuyết của chính mình:{{pargraphStart}}  1. Cái thực thể dị điểm muốn diệt sạch chúng ta. {{pargraphStart}}  2. Nó đang thử nghiệm: Nghiên cứu chiến thuật, xem cách ta phản ứng, rồi điều chỉnh và học hỏi.{{pargraphStart}}  3. Nó đang luyện quân: Mỗi đợt sóng là bài thao luyện sách lược mới, mỗi trận đánh như diễn tập thực.{{pargraphStart}}Cả 3 giả thuyết đều chung 1 mô-típ: Chúng ta là mục tiêu của cuộc xâm lăng.{{pargraphStart}}Nhưng nghía lại, không phải thì sao?{{pargraphStart}}Có khi nào nó đang làm việc khác, chúng ta chỉ cản đường? Kiểu như tổ kiến tanh bành khi người ta đang làm đường ấy. Ai rảnh hơi war với lũ kiến. Chỉ là... ruồi muỗi hơi đâu quan tâm.{{pargraphStart}}Gặp kẻ muốn giết mình thì còn chặn được, hoặc đàm phán. Chứ một thứ ngay từ đầu coi mình như cỏ rác thì chịu? Thắng kiểu gì? Chặn bằng niềm tin. Ta có nằm trong tính toán của nó đâu.{{pargraphStart}}Tôi nghĩ anh em đặt sai thắc mắc rồi. Đừng hỏi tại sao nó đánh mình, mà là: Nó có thèm nhìn thấy mình không?{{pargraphStart}}KÝ TÊN: THỦ TRƯỞNG (DỰ ÁN M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}BÁO CÁO CUỐI CÙNG{{/}}{{titleParagraph}}{{@ class $highlightText}}TRẠNG THÁI: GIẢI MẬT (MỘT PHẦN){{/}}{{pargraphStart}}Vào lúc 03:47, Phễu sập. Dị điểm ngừng hoạt động. Khu vực sạch bóng thù địch.{{pargraphStart}}Vài giây cuối trước khi sập, máy đo ATLAS ghi nhận đợt bùng nổ năng lượng vượt mọi đỉnh lịch sử. Anh em các kíp xe nhìn thấy một thực thể vật lý xuất hiện chớp nhoáng ở tâm dị điểm, tồn tại không quá 12 giây. Sau đó, Cái Phễu đóng lại.{{pargraphStart}}Thông cáo chính thức: Sự cố kết thúc. Địa bàn được bảo vệ thành công. Bãi bỏ lệnh phong tỏa khu vực.{{pargraphStart}}{{@ class $highlightText}}GHI CHÚ CỦA THỦ TRƯỞNG (Dự bị đặc nhiệm){{/}}{{pargraphStart}}Chúng ta không thắng. Tự nó xong thôi.{{pargraphStart}}Đây không phải cuộc xâm lăng. Nó là bình phong. Một vùng bảo vệ bọc lấy thứ hiện ra ở tâm Cái Phễu vài giây trước khi sập.{{pargraphStart}}Hàng tá trụ đá Obelisk mọc lên cùng lúc. Chẳng ai biết chúng làm cái gì. ATLAS ghi nhận mọi thông số, nhưng cần thời gian cắt nghĩa. Ta biết một điều gần như chắc chắn: Dị điểm vừa hoàn thành quy trình gì đó.{{pargraphStart}}Bất kể thế nào, ta phải chuẩn bị cho đợt tới. Lần này đủ dữ liệu. Các kỹ sư đang soi lại bản ghi, và thề, chưa bao giờ thấy họ hoan hỉ như thế. Họ khẳng định có thể cải tiến xe tăng phe mình lên tầm cao mới. Nhanh, trước khi Cái Phễu mở lại.{{pargraphStart}}Tôi vẫn lấn cấn mãi một điều: Nếu chuyện ở đây và kết thúc chớp nhoáng vậy, thì trước đó đã diễn ra bao nhiêu lần rồi? Ở những nơi không có ATLAS, không ai hay biết...{{pargraphStart}}KÝ TÊN: THỦ TRƯỞNG (DỰ ÁN M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Ta sẵn sàng trước"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Tại sao ở đây?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Câu hỏi sai"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Nó hoàn tất"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Vượt độ khó Thường để sang phần tiếp theo của Truyện."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Vượt độ khó Cao để sang phần tiếp theo của Truyện."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Vượt độ khó Ác để sang phần tiếp theo của Truyện."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Truyện tiếp"
+
+msgid "preBattle/leave"
+msgstr "Thoát Trận"
+
+msgid "preBattle/searching"
+msgstr "ĐANG TÌM ĐỒNG MINH..."
+
+msgid "preBattle/tip"
+msgstr "Tốn quá lâu để tìm được Tổ đội Tác chiến? Hãy thử giảm độ khó."
+
+msgid "preBattle/uppercase/leave"
+msgstr "THOÁT TRẬN"
+
+msgid "promoWindow/header"
+msgstr "CHƠI LAST STAND"
+
+msgid "promoWindow/subheader"
+msgstr "Khám phá chương mới của chế độ PvE Last Stand từ {dateRange}.\nẴm bộ {cream_open}phụ tùng 3D{cream_close} đúng chủ đề, Thiết bị Thử Nghiệm và thêm phần thưởng độc đáo ở sự kiện này."
+
+msgid "questCard/allCompleted"
+msgstr "Đã xong hết Nhiệm vụ Hàng ngày"
+
+msgid "questCard/completed"
+msgstr "Nhiệm vụ hằng ngày đã hoàn tất.\nMai quay lại."
+
+msgid "reward/rest"
+msgstr "Và còn thêm %(count)s"
+
+msgid "rewardPath/about"
+msgstr "CHI TIẾT VỀ MỤC TIÊU"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Tìm hiểu thêm về Tiến trình sự kiện."
+
+msgid "rewardPath/boostTitle"
+msgstr "Tăng tốc tiến trình và kiếm thêm Data {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Xem ở Cửa hàng"
+
+msgid "rewardPath/completed"
+msgstr "Đã nhận tất cả Data và quà"
+
+msgid "rewardPath/completedTitle"
+msgstr "Truy cập Cửa hàng để khám phá các tùy biến theo chủ đề độc đáo"
+
+msgid "rewardPath/intro"
+msgstr "GIỚI THIỆU"
+
+msgid "rewardPath/introTooltip"
+msgstr "Xem video giới thiệu."
+
+msgid "rewardPath/progress"
+msgstr "Data nhận ở GIAI ĐOẠN {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "TIẾN TRÌNH"
+
+msgid "rewardPathCard/completed"
+msgstr "Đã hoàn tất"
+
+msgid "rewardPathCard/name"
+msgstr "Đường Phần thưởng"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Gói sự kiện"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squad/goToAnother/message"
+msgstr "Trung đội sẽ bị giải tán."
+
+msgid "squad/goToAnother/submit"
+msgstr "Rời"
+
+msgid "squad/goToAnother/title"
+msgstr "Thoát sự kiện Last Stand: Terra Nord?"
+
+msgid "squad/leave/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Trung đội sẽ bị giải tán."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Rõ!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Sự kiện Last Stand: Terra Nord đã kết thúc"
+
+msgid "squad/leave/message"
+msgstr "Trung đội sẽ bị giải tán."
+
+msgid "squad/leave/submit"
+msgstr "Rời"
+
+msgid "squad/leave/title"
+msgstr "Thoát Trung đội Last Stand: Terra Nord?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Tiếp tục"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Bạn đang trong Trung đội và sẵn sàng tham chiến."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Bạn không thể rời Trung đội!"
+
+msgid "stageReward/rewards/received"
+msgstr "Cũng nhận được:"
+
+msgid "stageReward/special/header"
+msgstr "ĐÃ VƯỢT ĐỘ KHÓ ÁC!"
+
+msgid "stageReward/special/subheader"
+msgstr "Đã nhận quà đặc biệt"
+
+msgid "stageReward/stage/header"
+msgstr "ĐÃ NHẬN THƯỞNG"
+
+msgid "stageReward/stage/subheader"
+msgstr "Đã hoàn tất Last Stand: Giai đoạn {{number}}"
+
+msgid "stageReward/stageFinal/header"
+msgstr "ĐÃ NHẬN MỌI PHẦN THƯỞNG"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Đã hoàn tất Last Stand: Giai đoạn cuối"

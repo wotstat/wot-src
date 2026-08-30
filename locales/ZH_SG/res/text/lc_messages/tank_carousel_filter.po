@@ -1,0 +1,239 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT翻译团队 <noreply@wargaming.net>\nLanguage-Team: WoT团队 <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "checkbox/inventory"
+msgstr "车库中"
+
+msgid "infotip/counter"
+msgstr "符合条件的战车数: %(count)d / %(total)d"
+
+msgid "infotip/event"
+msgstr "已隐藏特殊战车"
+
+msgid "infotip/header/description"
+msgstr "显示符合选定条件的战车。"
+
+msgid "infotip/header/title"
+msgstr "战车过滤"
+
+msgid "infotip/levels"
+msgstr "等级:"
+
+msgid "infotip/nations"
+msgstr "国家："
+
+msgid "infotip/only"
+msgstr "仅下列战车:"
+
+msgid "infotip/only/elite"
+msgstr "精英"
+
+msgid "infotip/only/favorite"
+msgstr "主战"
+
+msgid "infotip/only/premium"
+msgstr "高级"
+
+msgid "infotip/rent"
+msgstr "已隐藏租用战车"
+
+msgid "infotip/searchNameVehicle"
+msgstr "按名称搜索:"
+
+msgid "infotip/vehicleTypes"
+msgstr "类型:"
+
+msgid "popover/checkbox/battleRoyale"
+msgstr "隐藏不匹配战车"
+
+msgid "popover/checkbox/elite"
+msgstr "精英"
+
+msgid "popover/checkbox/event"
+msgstr "特别"
+
+msgid "popover/checkbox/favorite"
+msgstr "主战"
+
+msgid "popover/checkbox/premium"
+msgstr "高级"
+
+msgid "popover/checkbox/rented"
+msgstr "租赁"
+
+msgid "popover/checkbox/unlock_available"
+msgstr "只可以用于研发"
+
+msgid "popover/counter"
+msgstr "显示战车:%(count)s"
+
+msgid "popover/label/customization"
+msgstr "自定义元素"
+
+msgid "popover/label/hidden"
+msgstr "更多"
+
+msgid "popover/label/levels"
+msgstr "等级"
+
+msgid "popover/label/nations"
+msgstr "国家"
+
+msgid "popover/label/progressions"
+msgstr "战令"
+
+msgid "popover/label/roles/AT-SPG"
+msgstr "%(levels)s级坦克歼击车角色"
+
+msgid "popover/label/roles/heavyTank"
+msgstr "%(levels)s级重型坦克的角色"
+
+msgid "popover/label/roles/lightTank"
+msgstr "%(levels)s级轻型坦克的角色"
+
+msgid "popover/label/roles/mediumTank"
+msgstr "%(levels)s级中型坦克角色"
+
+msgid "popover/label/searchNameVehicle"
+msgstr "按名称搜索"
+
+msgid "popover/label/specials"
+msgstr "特殊"
+
+msgid "popover/label/vehicleRole"
+msgstr "角色"
+
+msgid "popover/label/vehicleTypes"
+msgstr "类型"
+
+msgid "popover/title"
+msgstr "按参数过滤"
+
+msgid "tooltip/battleRoyale/body"
+msgstr "显示/隐藏不匹配钢铁猎手的战车。"
+
+msgid "tooltip/battleRoyale/header"
+msgstr "隐藏不匹配战车"
+
+msgid "tooltip/bonus/body"
+msgstr "显示/隐藏有可用经验加成的战车。"
+
+msgid "tooltip/bonus/header"
+msgstr "奖励经验"
+
+msgid "tooltip/clanRented/body"
+msgstr "显示/隐藏世界地图和要塞战斗的租用战车。"
+
+msgid "tooltip/clanRented/header"
+msgstr "军团战的租用战车"
+
+msgid "tooltip/crystals/body"
+msgstr "显示/隐藏可获取点券的战车"
+
+msgid "tooltip/crystals/header"
+msgstr "可获取点券的战车"
+
+msgid "tooltip/customization/canInstallAttachments/body"
+msgstr "显示/隐藏可安装3D配饰的战车。"
+
+msgid "tooltip/customization/own3DStyle/body"
+msgstr "显示/隐藏拥有3D风格的战车。"
+
+msgid "tooltip/elite/body"
+msgstr "显示/隐藏已研发所有可用模块、升级与下一级战车的战车。"
+
+msgid "tooltip/elite/header"
+msgstr "精英战车"
+
+msgid "tooltip/event/body"
+msgstr "显示/隐藏适用于特殊游戏活动的战车。"
+
+msgid "tooltip/event/header"
+msgstr "特殊战车"
+
+msgid "tooltip/favorite/body"
+msgstr "仅显示/隐藏主力战车。"
+
+msgid "tooltip/favorite/header"
+msgstr "主力战车"
+
+msgid "tooltip/gameMode/body"
+msgstr "勾选复选框并查看符合%(battleType)s模式要求的战车。"
+
+msgid "tooltip/gameMode/header"
+msgstr "乱斗"
+
+msgid "tooltip/igr/body"
+msgstr "显示/隐藏IGR战车。"
+
+msgid "tooltip/igr/header"
+msgstr "IGR战车"
+
+msgid "tooltip/inventory/body"
+msgstr "?empty?"
+
+msgid "tooltip/inventory/header"
+msgstr "?empty?"
+
+msgid "tooltip/isCommonProgression/body"
+msgstr "显示适合获取进度点数或完成（奖励进度点数的）任务的战车。"
+
+msgid "tooltip/isCommonProgression/header"
+msgstr "战令战车"
+
+msgid "tooltip/isCompetitiveProgression/body"
+msgstr "tooltip/isCompetitiveProgression/body"
+
+msgid "tooltip/isCompetitiveProgression/header"
+msgstr "tooltip/isCompetitiveProgression/header"
+
+msgid "tooltip/nations/body"
+msgstr "显示/隐藏该国家的战车。"
+
+msgid "tooltip/params/body"
+msgstr "设置战车的显示，按它们的类型、国家、等级等参数筛选。"
+
+msgid "tooltip/params/header"
+msgstr "按参数过滤"
+
+msgid "tooltip/premium/body"
+msgstr "仅显示/隐藏高级和奖励战车。"
+
+msgid "tooltip/premium/header"
+msgstr "高级战车"
+
+msgid "tooltip/ranked/body"
+msgstr "显示/隐藏适用于排位战的战车。"
+
+msgid "tooltip/ranked/header"
+msgstr "排位战战车"
+
+msgid "tooltip/rented/body"
+msgstr "显示/隐藏租用战车。"
+
+msgid "tooltip/rented/header"
+msgstr "租用战车"
+
+msgid "tooltip/role/body"
+msgstr "显示/隐藏此角色的战车。"
+
+msgid "tooltip/rtsBattles/body"
+msgstr "显示/隐藏适用于战略之道活动的战车。"
+
+msgid "tooltip/rtsBattles/header"
+msgstr "隐藏不匹配战车"
+
+msgid "tooltip/searchInput/body"
+msgstr "战车名称必须包含%(count)d个以上字符。"
+
+msgid "tooltip/searchInput/header"
+msgstr "按名称搜索"
+
+msgid "tooltip/toggleSwitchCarousel/body"
+msgstr "切换单层和双层战车面板。"
+
+msgid "tooltip/toggleSwitchCarousel/header"
+msgstr "战车面板"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "显示/隐藏此类型的战车。"

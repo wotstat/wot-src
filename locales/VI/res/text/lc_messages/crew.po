@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Mở rộng"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Giải ngũ số Kém Chuyên"
+
+msgid "barracks/bunks/title"
+msgstr "Giường:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Chỉ định số giường để mua. Số giường khả dụng trong Doanh trại: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Giá đang Giảm"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Giá mới: %(currency)s mỗi %(bunksCount)s giường"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Giá cũ: %(currency)s mỗi %(bunksCount)s giường"
+
+msgid "barracks/enlarge/header"
+msgstr "Mở rộng Doanh trại?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Thành viên kíp lái (trong Doanh trại) chưa đào tạo chuyên sâu, dưới {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} XP cần để học kỹ năng đầu tiên đủ {whiteSpanish_Open}100%{whiteSpanish_Close}, có thể giải ngũ được."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Lính tăng Kém Chuyên"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Bạn không có lính tăng nào kém chuyên"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Bạn sẽ không được đền bù gì nếu giải ngũ lính tăng kém chuyên. Sau khi giải ngũ, họ không thể phục biên và sẽ mất toàn bộ XP tương ứng."
+
+msgid "barracks/title"
+msgstr "DOANH TRẠI"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Click để mở rộng Doanh trại."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Mở rộng Doanh trại"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Vị trí"
+
+msgid "common/imageNotAvailable"
+msgstr "Hình ảnh Không khả dụng"
+
+msgid "common/inBarracks"
+msgstr "Trong Doanh trại"
+
+msgid "common/inBattle"
+msgstr "Trong Trận"
+
+msgid "common/inPrebattle"
+msgstr "Trong Đơn vị Tác chiến"
+
+msgid "common/navigation/aboutCrew"
+msgstr "CHI TIẾT VỀ KÍP LÁI"
+
+msgid "common/navigation/toBarracks"
+msgstr "ĐẾN DOANH TRẠI"
+
+msgid "common/navigation/toGarage"
+msgstr "ĐẾN GA-RA"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "ĐẾN HỒ SƠ"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Rõ!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Các thành viên lính tăng của bạn đã được quy đổi sang Tài liệu Kíp lái."
+
+msgid "conversionAwards/title"
+msgstr "QUY ĐỔI THÀNH CÔNG"
+
+msgid "conversionAwards/underTitle"
+msgstr "Những thứ sau đã được thêm vào tài khoản của bạn."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Hủy bỏ"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Giải ngũ"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Lính tăng sắp bị giải ngũ: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Giải ngũ lính tăng kém chuyên?"
+
+msgid "conversionConfirm/warning"
+msgstr "Bạn sẽ không được đền bù gì nếu giải ngũ lính tăng kém chuyên. Sau khi giải ngũ, họ không thể phục biên và sẽ mất toàn bộ XP tương ứng."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Tự động chọn Kỹ năng"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Không thành viên kíp lái nào có kỹ năng chưa học."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Không thể Tự động chọn Kỹ năng"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Mọi kỹ năng chưa học với biểu tượng dấu cộng sẽ được thay thế bằng kỹ năng tự động lựa chọn theo lô-gíc đặc biệt cho tất cả các kíp lái."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Tự động chọn Kỹ năng Chưa học cho Tất cả"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Đặt lại Kỹ năng cho Tất cả"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Không có thành viên kíp lái nào với kỹ năng đã học."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Không thể Đặt lại Kỹ năng"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Mọi kỹ năng sẽ được đặt lại cho tất cả thành viên kíp lái trong tài khoản của bạn. Tác vụ này không thể đảo lại được."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Đặt lại Kỹ năng cho Tất cả"
+
+msgid "crewBanner/infoText"
+msgstr "Đặt lại kỹ năng miễn phí hoặc tự động chọn kỹ năng chưa học cho mọi thành viên kíp lái trong tài khoản của bạn"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Đã bật Tăng tốc Đào tạo Kíp lái"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Khoản tăng Hiệu suất: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Hiệu quả kỹ năng"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Kỹ năng không khả dụng vì thành viên kíp lái không được đào tạo vận hành xe này."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Chuyên môn:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Kỹ năng Không khả dụng"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Kỹ năng Bonus:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Kỹ năng chuyên môn chính:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Trung Quốc)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Tiệp Khắc)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Pháp)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Đức)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Ý)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Nhật Bản)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Ba Lan)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Thụy Điển)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Anh)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(Mỹ)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(Liên Xô)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Mọi pháo chống tăng Premium\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Mọi pháo tự hành Premium\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Mọi tăng hạng nặng Premium\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Mọi tăng hạng nhẹ Premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Mọi tăng hạng trung Premium\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Chi tiết"
+
+msgid "filter/group/details/title"
+msgstr "Chi tiết"
+
+msgid "filter/group/nation/title"
+msgstr "Quốc gia"
+
+msgid "filter/group/other/title"
+msgstr "Khác"
+
+msgid "filter/group/special/title"
+msgstr "Đặc biệt"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Chức vụ"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Cấp"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Cấp"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Chuyên môn"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Loại xe"
+
+msgid "filter/popup/button/title"
+msgstr "Bộ lọc"
+
+msgid "filter/popup/default/title"
+msgstr "Bộ lọc"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Lọc theo quốc gia"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Lọc theo xe"
+
+msgid "filter/reset"
+msgstr "Đặt lại Bộ lọc"
+
+msgid "filter/search/placeholder"
+msgstr "Tìm theo tên"
+
+msgid "filter/search/tooltip/header"
+msgstr "Tìm kiếm theo Tên"
+
+msgid "filter/title"
+msgstr "Được hiển thị:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Hiện/ẩn thành viên kíp lái trong các xe đã nghiên cứu hết mọi mô-đun và nhánh kỹ thuật khả dụng."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Xe \"Elite\""
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Hiện/ẩn thành viên kíp lái được đào tạo cho các xe Premium."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Xe Premium"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Hiện/ẩn thành viên kíp lái trong các xe chính."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Xe Chính"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Hiện/ẩn thành viên kíp lái cho loại xe này."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Hiện/ẩn thành viên kíp lái của quốc gia này."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Hiện/ẩn nhân vật kíp lái của quốc gia này."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Hiện/ẩn các xe thuộc quốc gia này."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Hiện/ẩn những người đã giải ngũ."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Giải ngũ"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Hiện lính có thể tuyển."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Binh tuyển"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Hiện thành viên kíp lái."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Thành viên Kíp lái"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Hiện/ẩn thành viên kíp lái với chức vụ này."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Hiện/ẩn xe Premium."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Xe Premium"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Hiện/ẩn các xe thuộc loại này."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Pháo Chống Tăng"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Pháo Tự hành"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tăng hạng Nặng"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Tăng hạng Nhẹ"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Tăng hạng Trung"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Không có xe khớp với\ntiêu chí tìm kiếm"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sắp xếp theo tên xe."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Tên"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sắp xếp theo Cấp xe."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Cấp"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sắp xếp theo loại xe."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Loại"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Tên"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Click để đặt lại thiết lập bộ lọc."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Đặt lại Mọi Bộ lọc"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Rõ!"
+
+msgid "junkTankmen/description"
+msgstr "Những thành viên kíp lái này có ít hơn {bond_Open}210 060{bond_Close}{icon} XP cần để học kỹ năng đầu tiên đủ {whiteSpanish_Open}100%{whiteSpanish_Close}.\n Họ sẽ bị xóa khỏi tài khoản của bạn."
+
+msgid "junkTankmen/title"
+msgstr "Giải ngũ lính tăng kém chuyên?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Có giới hạn {whiteSpanish_Open}ba{whiteSpanish_Close} kỹ năng cho mỗi chuyên môn kiêm nhiệm. Truy cập kỹ năng Bonus mới sẽ mở ra sau khi đạt kỹ năng chuyên môn chính {whiteSpanish_Open}thứ nhất{whiteSpanish_Close}, {whiteSpanish_Open}thứ ba{whiteSpanish_Close}, và {whiteSpanish_Open}thứ năm{whiteSpanish_Close}."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Kỹ năng Bonus"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Khi tái đào tạo một thành viên kíp lái cho xe khác với cấu hình chức vụ chuyên môn không giống, bạn sẽ có thể chọn lại kỹ năng cho chuyên môn kiêm nhiệm mới."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Kỹ năng Bonus đào tạo chậm gấp đôi kỹ năng chuyên môn chính."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Không cần XP để học kỹ năng Bonus."
+
+msgid "matrix/freeResetButton"
+msgstr "Đặt lại Miễn phí"
+
+msgid "matrix/increaseButton"
+msgstr "Tăng tốc Đào tạo"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Thành viên kíp lái này đã đạt giới hạn đào tạo."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Không thể tăng tốc đào tạo"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Đào tạo kỹ năng bằng cách dùng XP Tự do và Tài liệu Kíp lái."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Đào tạo Nhanh"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Chức vụ không phù hợp"
+
+msgid "matrix/qualification/1"
+msgstr "Chức vụ Chính"
+
+msgid "matrix/qualification/2"
+msgstr "Chức vụ Thứ hai"
+
+msgid "matrix/qualification/3"
+msgstr "Chức vụ Thứ ba"
+
+msgid "matrix/qualification/4"
+msgstr "Chức vụ Thứ tư"
+
+msgid "matrix/qualification/5"
+msgstr "Chuyên môn thứ năm"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Kỹ năng \"số không\" bất khả dụng cho chức vụ thứ hai"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Kỹ năng \"số không\" bất khả dụng cho chức vụ thứ ba"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Kỹ năng \"số không\" bất khả dụng cho chức vụ thứ tư"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Chuyên môn thứ hai không khả dụng cho xe này"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Chuyên môn thứ ba không khả dụng cho xe này"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Chuyên môn thứ tư không khả dụng cho xe này"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Chuyên môn thứ năm không khả dụng cho xe này"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Có giới hạn {whiteSpanish_Open}ba{whiteSpanish_Close} kỹ năng Bonus cho mỗi chuyên môn kiêm nhiệm. Chỉ các kỹ năng riêng của chuyên môn này mới chọn được làm kỹ năng Bonus."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Có giới hạn {whiteSpanish_Open}sáu{whiteSpanish_Close} kỹ năng chuyên môn chính (tính cả kỹ năng \"số không\")."
+
+msgid "matrix/resetButton"
+msgstr "Học lại"
+
+msgid "matrix/resetButtonHint"
+msgstr "CLICK ĐỂ ĐẶT LẠI KỸ NĂNG"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Bạn chưa có kỹ năng nào được đào tạo."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Không thể Đặt lại Kỹ năng"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Click để đặt lại kỹ năng."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Đặt lại Kỹ năng"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Kỹ năng Bonus Có thể Đào tạo"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Không cần XP Kíp lái để học kỹ năng Bonus."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Bất khả dụng"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Được mở khóa khi đào tạo kỹ năng thứ ba của chuyên môn chính. Không cần XP."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Được mở khóa khi đào tạo kỹ năng thứ năm của chuyên môn chính. Không cần XP."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Mức đào tạo"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "Tổng số XP cần có được giảm đi vì thành viên kíp lái này có một kỹ năng \"số không\"."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "Tổng số XP cần có được giảm đi vì thành viên kíp lái này có hai kỹ năng \"số không\"."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Kỹ năng Có thể Đào tạo"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Bất khả dụng"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Kỹ năng trước phải được học đủ 100%."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Kỹ năng \"Số không\" Có thể Đào tạo"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Kỹ năng \"số không\" luôn được học đầu tiên, ngay cả khi chọn vài kỹ năng cùng lúc. Không cần XP Kíp lái để đào tạo kỹ năng \"số không\"."
+
+msgid "matrix/skills/allSkills"
+msgstr "Mọi kỹ năng bổ trợ đã học cho xe này"
+
+msgid "matrix/skills/available"
+msgstr "Kỹ năng có thể đào tạo:"
+
+msgid "matrix/skills/bonus"
+msgstr "Kỹ năng Bonus"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Kỹ năng không khả dụng"
+
+msgid "matrix/skills/locked"
+msgstr "Kỹ năng không khả dụng"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Mọi kỹ năng không khả dụng cho xe này"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Kỹ năng Chuyên môn chính"
+
+msgid "matrix/skills/reduced"
+msgstr "Hiệu quả kỹ năng bị giảm"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Kỹ năng của Chỉ huy"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Kỹ năng của Lái xe"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Kỹ năng của Chỉ huy"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Kỹ năng của Lái xe"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Kỹ năng của Pháo thủ"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Kỹ năng của Nạp đạn viên"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Kỹ năng của Liên lạc viên"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Kỹ năng của Pháo thủ"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Kỹ năng của Nạp đạn viên"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Kỹ năng của Liên lạc viên"
+
+msgid "matrix/skills/training"
+msgstr "Đào tạo kỹ năng"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Kỹ năng \"số không\" có thể đào tạo:"
+
+msgid "memberChange/action/recruit"
+msgstr "Tuyển {role}"
+
+msgid "memberChange/discount"
+msgstr "GIẢM GIÁ {discountAmount}% ĐỔI CHỨC VỤ"
+
+msgid "memberChange/title"
+msgstr "CHỌN {role}: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}Trong Kho{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Sau khi xác nhận, thành viên kíp lái bị chuyển XP sẽ biến mất khỏi tài khoản của bạn."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Bằng cố vấn cho phép bạn chuyển XP Kíp lái từ lính tăng này sang người khác cùng quốc tịch."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Bằng cố vấn"
+
+msgid "personalData/card/edit"
+msgstr "Sửa"
+
+msgid "personalData/card/remove"
+msgstr "Bỏ"
+
+msgid "personalData/card/restrictions"
+msgstr "Giới hạn: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Click để thay thế tên và ngoại hình của một thành viên kíp lái."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Ngoại hình"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Thành viên kíp lái này đã có tên và ngoại hình độc đáo rồi."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Không thể Thay Tên và Ngoại hình"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Không tìm thấy gì. Hãy đổi thiết lập hoặc đặt lại bộ lọc."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Điều chỉnh hiển thị nhân vật theo quốc gia tương ứng."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Lọc theo Tham số"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Hiện giấy tờ."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Giấy tờ"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Hiện nhân vật phù hợp."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Nhân vật phù hợp"
+
+msgid "personalData/filter/type/title"
+msgstr "Loại"
+
+msgid "personalData/title"
+msgstr "ĐỔI TÊN VÀ NGOẠI HÌNH"
+
+msgid "personalFile/changeVehicle"
+msgstr "Thay đổi"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Không thể đào tạo thành viên kíp lái này cho xe khác."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Tác vụ không khả dụng"
+
+msgid "personalFile/discount/full"
+msgstr "Có giảm giá tái đào tạo kíp lái"
+
+msgid "personalFile/discount/short"
+msgstr "Có giảm giá"
+
+msgid "personalFile/inVehicle"
+msgstr "Trong xe: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Tăng"
+
+msgid "personalFile/isUntrained"
+msgstr "Chưa được đào tạo cho xe này"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Mọi {icon} xe Premium"
+
+msgid "personalFile/retrain"
+msgstr "Đào tạo lại"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Hiệu quả kỹ năng: "
+
+msgid "personalFile/specialization"
+msgstr "Chuyên môn:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Chuyên môn"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Click để nghe tiếng thoại mẫu của Chỉ huy này."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Tiếng thoại Độc đáo"
+
+msgid "postProgression/button/claim"
+msgstr "Lấy Phần thưởng"
+
+msgid "postProgression/description"
+msgstr "Mọi thành viên kíp lái học xong tất cả sáu kỹ năng của chuyên môn chính sẽ bước vào Hậu-Tiến-trình chung. Với mỗi 100 000 XP kiếm được ở Hậu Tiến trình, bạn sẽ nhận một Sách chuyên Phổ dụng để dùng đào tạo kíp lái khác."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Hậu Tiến trình là một thang đo thống nhất cho mọi thành viên kíp lái đã học xong sáu kỹ năng chuyên môn chính ở tài khoản của người chơi."
+
+msgid "postProgression/tips/2"
+msgstr "Chỉ XP Chiến đấu được tính cho Hậu Tiến trình. Một nửa XP Chiến đấu thu về bởi một thành viên sau trận sẽ chia cho tổng số lính trong xe và cộng vào thang đo Hậu Tiến trình."
+
+msgid "postProgression/tips/3"
+msgstr "XP bị mất từ kỹ năng hoặc chung phần hiệu quả sẽ không ảnh hưởng đến Hậu Tiến trình."
+
+msgid "postProgression/title"
+msgstr "HẬU TIẾN TRÌNH KÍP LÁI"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Mọi thành viên kíp lái từng đạt Hậu Tiến trình trong quá khứ hiện đang có hiệu suất kỹ năng thấp."
+
+msgid "postProgression/warning/retire"
+msgstr "Mọi thành viên kíp lái từng đạt Hậu Tiến trình trong quá khứ hiện đã giải ngũ hoặc mất XP khỏi kỹ năng cuối cùng."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Mọi pháo chống tăng Premium"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Mọi pháo tự hành Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Pháo chống tăng Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Pháo tự hành Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Tăng hạng nặng Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Tăng hạng nhẹ Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Tăng hạng trung Premium"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Mọi tăng hạng nặng Premium"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Mọi tăng hạng nhẹ Premium"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Mọi tăng hạng trung Premium"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "PHẦN THƯỞNG"
+
+msgid "serviceRecord/averageXP"
+msgstr "Kinh nghiệm Tr.bình mỗi Trận"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Số trận Đã đánh"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Chưa có thành tích hay danh hiệu nào từ chiến trận."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Tỷ lệ giữa tổng lượng XP thu về trên số trận đã đánh bằng xe mà thành viên kíp lái được bổ nhiệm."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Kinh nghiệm Tr.bình mỗi Trận"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Cấp bậc của thành viên kíp lái phụ thuộc vào kinh nghiệm và số kỹ năng học được."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Cấp bậc"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Thành viên kíp lái đã học xong mọi kỹ năng cho xe này"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Kỹ năng có thể đào tạo"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Mọi kỹ năng không khả dụng cho xe này"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Không cần XP để đào tạo kỹ năng bổ trợ sau các kỹ năng của chuyên môn chính, nhưng tốc độ sẽ chậm gấp đôi kỹ năng chuyên môn chính."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Hủy bỏ"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Đào tạo"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "CHUYÊN MÔN BONUS"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "CHUYÊN MÔN CHÍNH"
+
+msgid "tankChange/title"
+msgstr "ĐÀO TẠO CHO XE"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Hiện các xe trong Ga-ra."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "Trong Ga-ra"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Tùy chỉnh hiển thị xe theo loại và cấp độ."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Lọc theo Tham số"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Bạn không cần đào tạo kíp lái cho xe Premium. Không có hình phạt nào khi thuyên chuyển kíp lái sang xe Premium cùng loại."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Xe Premium"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Tên xe chỉ được chứa tối đa %(maxLength)s ký tự."
+
+msgid "tankman/action/dismiss/title"
+msgstr "GIẢI NGŨ"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Giải ngũ thành viên kíp lái này."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Không thể giải ngũ thành viên kíp lái này."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Tác vụ không khả dụng"
+
+msgid "tankman/action/recruit/title"
+msgstr "TUYỂN QUÂN"
+
+msgid "tankman/action/restore/title"
+msgstr "PHỤC QUÂN"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Phục quân thành viên kíp lái này."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Click để nghe tiếng thoại mẫu của Chỉ huy này."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Tiếng thoại Độc đáo"
+
+msgid "tankman/recruit"
+msgstr "Tân binh"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Ngoại hình"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Hồ sơ"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Bảng Thành tích"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Tân binh"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Đặt lại Bộ lọc"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Không tìm thấy gì. Hãy đổi thiết lập hoặc đặt lại bộ lọc."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Không tìm thấy gì. Hãy tuyển 1 thành viên tổ lái."
+
+msgid "tankmanList/filter/title"
+msgstr "Thành viên kíp lái:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Không đủ giường trong Doanh trại."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Chỉ hiện/ẩn các thành viên kíp lái đã giải ngũ."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Giải ngũ"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Hiện thành viên kíp lái trong Doanh trại."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "Trong Doanh trại"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Hiện thành viên kíp lái trên các xe."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "Trên xe"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Hiện/ẩn nhân vật kíp lái của quốc gia này."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Điều chỉnh hiển thị thành viên kíp lái theo chức vụ, chuyên môn và các tham số khác."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Lọc theo Tham số"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Tuyển thành viên kíp lái mới."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Tên chỉ được chứa tối đa %(maxLength)s ký tự."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Di chuột vào một kỹ năng sẽ hiển thị cách nó ảnh hưởng đến các đặc tính tương ứng khi được đào tạo 100% với mức hiệu quả hiện tại."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Rõ!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Hai kỹ năng chưa-từng-thấy cho mỗi vai trò chuyên môn, tái thiết \"Xếp nội thất Đệm\", thêm tùy chọn mới giúp bạn ẩn các kỹ năng trên HUD giao diện trong trận."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Tác vụ mới, tiện lợi, cho phép giải ngũ lính tăng kém chuyên chỉ bằng 1 cú click."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Giờ, bạn có thể đặt lại Kỹ năng bằng cách tiêu mỗi bạc, không bị mất XP."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Thêm kỹ năng và tính hữu dụng mới, cập nhật một kỹ năng hiện có."
+
+msgid "welcomeScreen/title"
+msgstr "CẬP NHẬT KÍP LÁI"

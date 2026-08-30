@@ -1,0 +1,30 @@
+from comp7.gui.impl.gen.view_models.views.lobby.platoon.platoon_rank_data import PlatoonRankData
+from gui.impl.gen.view_models.views.lobby.platoon.slot_model import SlotModel
+
+class Comp7SlotModel(SlotModel):
+    __slots__ = ()
+
+    def __init__(self, properties=14, commands=0):
+        super(Comp7SlotModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    @property
+    def rankData(self):
+        return self._getViewModel(12)
+
+    @staticmethod
+    def getRankDataType():
+        return PlatoonRankData
+
+    def getIsWaiting(self):
+        return self._getBool(13)
+
+    def setIsWaiting(self, value):
+        self._setBool(13, value)
+        return
+
+    def _initialize(self):
+        super(Comp7SlotModel, self)._initialize()
+        self._addViewModelProperty(b'rankData', PlatoonRankData())
+        self._addBoolProperty(b'isWaiting', False)
+        return

@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "รวบรวมแผ่นพิมพ์เขียว"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "แผ่นพิมพ์เขียว  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "แผ่นพิมพ์เขียว {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "ไปยังการซื้อ"
+
+msgid "blueprintScreen/button/research"
+msgstr "ไปยังการวิจัย"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "ดูในโรงรถ"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "คุณสามารถรวบรวมแผ่นพิมพ์เขียวเพื่อใช้ส่วนลดในการวิจัยพาหนะที่ต้องการได้ อย่างไรก็ตาม คุณจำเป็นต้องทำการวิจัยพาหนะคันก่อนๆ\nในสายเพื่อให้ใช้ส่วนลดดังกล่าวได้"
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "รับทราบ!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "ไม่สามารถวิจัยได้"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "ในการสร้างเศษแผ่นพิมพ์เขียว คุณจำเป็นต้องมี:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "เลือก:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "สร้างเศษแผ่น:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "สร้างเศษพิมพ์เขียว"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "แปลง\nเศษแผ่น"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "ไม่มี\nการแปลงให้"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "ไม่มีให้:\nไม่มี\nทรัพยากรพอ"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "ไปยังพาหนะ"
+
+msgid "blueprintScreen/or"
+msgstr "หรือ"
+
+msgid "blueprintScreen/research"
+msgstr "วิจัย"
+
+msgid "blueprintScreen/researchFree"
+msgstr "วิจัยพาหนะได้ฟรี"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "ไม่สามารถวิจัยได้"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "ส่วนลดในการวิจัย:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "พาหนะนี้วิจัยแล้วและมีให้ทำการซื้อได้"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "พาหนะนี้ได้วิจัยและซื้อแล้ว"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "ในโรงเก็บ:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "คุณสามารถใช้ส่วนลด 100% ในการวิจัย {vehicleName} หลังจากที่คุณได้วิจัยพาหนะก่อนๆในสายมาแล้ว"
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "รวบรวมแผ่นพิมพ์เขียว"
+
+msgid "blueprintScreen/unlocked"
+msgstr "พาหนะ\nวิจัยแล้ว"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "แนวร่วม:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "กลุ่ม:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "พันธมิตร:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "สหภาพ:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "สากล:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "แนวร่วม"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "กลุ่ม"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "พันธมิตร"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "สหภาพ"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(ฝรั่งเศส, เชคโกสโลวาเกีย, สวีเดน, อิตาลี)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(เยอรมนี, ญี่ปุ่น)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(สหรัฐฯ, อังกฤษ, โปแลนด์)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(โซเวียต, จีน)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "เลือกจำนวนเศษแผ่นประจำชาติเพื่อสร้างเศษพิมพ์เขียวพาหนะ\nมีเศษแผ่นประจำชาติ %(allianceIcon)%(allianceName) %(allianceNations)"
+
+msgid "conversionView/topMessage/single"
+msgstr "เลือกเศษแผ่นพิมพ์เขียวของหนึ่งในประเทศเพื่อสร้างเศษพิมพ์เขียวพาหนะ\nมีเศษแผ่นประจำชาติ %(allianceIcon)%(allianceName) %(allianceNations)"
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "ราคาสุดท้าย:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "ราคาเศษแผ่นพิมพ์เขียว"
+
+msgid "nations/china"
+msgstr "จีน"
+
+msgid "nations/czech"
+msgstr "เชคโกสโลวาเกีย"
+
+msgid "nations/france"
+msgstr "ฝรั่งเศส"
+
+msgid "nations/germany"
+msgstr "เยอรมนี"
+
+msgid "nations/italy"
+msgstr "อิตาลี"
+
+msgid "nations/japan"
+msgstr "ญี่ปุ่น"
+
+msgid "nations/poland"
+msgstr "โปแลนด์"
+
+msgid "nations/sweden"
+msgstr "สวีเดน"
+
+msgid "nations/uk"
+msgstr "อังกฤษ"
+
+msgid "nations/usa"
+msgstr "สหรัฐฯ"
+
+msgid "nations/ussr"
+msgstr "โซเวียต"

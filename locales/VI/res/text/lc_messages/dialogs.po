@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "Chấp thuận"
+
+msgid "EULA/labels/agree"
+msgstr "Tôi Chấp thuận"
+
+msgid "EULA/title"
+msgstr "Hợp đồng Cấp phép Sử dụng"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "Địa chỉ email này đã liên kết với tài khoản của bạn rồi."
+
+msgid "accountCompletion/activate/button"
+msgstr "Gửi Mã/Đổi Email"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "Gửi lại mã hoặc đổi email của bạn sau %(timer) giây"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "Hãy nhập lại email của bạn"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "Mã đã hết hạn. Hãy nhập lại email của bạn."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "Mã không hợp lệ"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "Nếu không thấy email đó, xin vui lòng kiểm tra địa chỉ thư điện tử của mình xem có lỗi đánh máy nào không."
+
+msgid "accountCompletion/activate/text"
+msgstr "Wargaming.net đã gửi email chứa mã xác nhận vào địa chỉ {whiteSpanish_Open}%(email){whiteSpanish_Close}. Hãy nhập mã 4-chữ-số để khẳng định hộp thư điện tử và hoàn tất tài khoản của bạn."
+
+msgid "accountCompletion/activate/title"
+msgstr "Xác nhận địa chỉ email"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "Bạn đã nhập mã không đúng quá nhiều lần."
+
+msgid "accountCompletion/add"
+msgstr "Thêm"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "Địa chỉ email này đã liên kết với tài khoản của bạn rồi."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "Email Đã Liên Kết Rồi"
+
+msgid "accountCompletion/cancel"
+msgstr "Để sau"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "Email của bạn"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "Email"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "Thêm email để nhận thưởng và truy cập được mọi sự kiện game."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "TRUY CẬP TOÀN BỘ GAME"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "Khai báo và khẳng định hộp thư điện tử của bạn để nhận một phần thưởng cũng như mở khóa các tính năng mới. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "Hoàn tất Tài khoản"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "Tài khoản của bạn đã được đăng ký với email này rồi."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "Địa chỉ email này bị cấm."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "Email không được quá %(amount)s ký tự."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "Email phải chứa ít nhất %(amount)s ký tự."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "Địa chỉ email của bạn đã được xác nhận rồi."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "Đã Xác Nhận Email"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "Bạn đã vượt quá giới hạn số lượng yêu cầu. Hãy thay đổi địa chỉ email hoặc gửi lại thư sau %(timer)"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "Hệ thống email này bị chặn ở quốc gia của bạn."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "Hệ thống email này bị cấm ở quốc gia của bạn."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "Không thể Liên kết Email"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "Email chỉ có thể chứa chữ cái Latin, số, biểu tượng @, dấu chấm hết và gạch dưới."
+
+msgid "accountCompletion/later"
+msgstr "Để sau"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "Phần thưởng khi Xác nhận Email"
+
+msgid "accountCompletion/submit"
+msgstr "Xác nhận"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "Đang chờ đến lượt trên máy chủ.\nTác vụ này có thể mất một chút thời gian."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) Hệ thống tạm thời không khả dụng. Xin vui lòng thử lại sau."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) Hệ thống tạm thời không khả dụng.\nXin vui lòng thử lại sau %(time)s."
+
+msgid "barracksExpand/cancel"
+msgstr "Hủy bỏ"
+
+msgid "barracksExpand/message"
+msgstr "Mở rộng Doanh trại bằng cách dùng %(price)s vàng để mua thêm %(count)s giường?"
+
+msgid "barracksExpand/submit"
+msgstr "Mở rộng"
+
+msgid "barracksExpand/title"
+msgstr "Mở rộng Doanh trại"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "Không đủ Vàng."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "Mở rộng Doanh trại"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "Hủy bỏ"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "Vẫn còn người chơi chưa sẵn sàng tham chiến hoặc số lượng không đủ như yêu cầu."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "Bắt đầu Trận đánh"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "Chưa đủ"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "Kích hoạt lợi ích %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "Xác nhận"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "Xác nhận Kích hoạt"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "Nếu Trợ cấp Cá nhân %(newBoosterName)s được kích hoạt, gói %(curBoosterName)s hiện đang phát huy tác dụng sẽ bị hủy bỏ và mất hoàn toàn."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "Xác nhận"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "Xác nhận Kích hoạt"
+
+msgid "buyConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "buyConfirmation/message"
+msgstr "Mua %(product)s với giá %(price)s?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "Mua {%count} \"{%name}\"?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "Mua thiết bị '%(equipment)s'?"
+
+msgid "buyConfirmation/submit"
+msgstr "Mua"
+
+msgid "buyConfirmation/title"
+msgstr "Xác nhận Thanh toán"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "không tương thích"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr "với mô-đun hiện tại."
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "Vật phẩm \"%(conflicted)s\" sẽ bị chuyển vào Kho vì "
+
+msgid "buyInstallConfirmation/message"
+msgstr "Mua và lắp đặt %(kind)s \"%(name)s\" với giá %(price)s%(creditsIcon)s lên xe hiện tại? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "Mua và lắp đặt %(kind)s \"%(name)s\" với giá %(price)s bạc lên xe hiện tại?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "Mua"
+
+msgid "buyInstallConfirmation/title"
+msgstr "Xác nhận Thanh toán"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "Mua Tài khoản Premium cho %(days)s bằng %(gold)s?\n %(alertIcon)s %(alertColorTagOpen)s Do các khó khăn kỹ thuật, bạn sẽ không nhận được thêm bạc hoặc kinh nghiệm. Hãy thử chọn một trận đánh khác hoặc mua tài khoản Premium ở menu cùng tên.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "Mua"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "Xác nhận Thanh toán"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "Chỗ để xe trong Ga-ra"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "buySlotConfirmation/message"
+msgstr "Mua thêm một chỗ để nữa trong Ga-ra với chi phí %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "Mua"
+
+msgid "buySlotConfirmation/title"
+msgstr "Xác nhận Thanh toán"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "Không đủ bạc để mua chỗ trống."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "Không Đủ Bạc"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "Không đủ Vàng để mua chỗ trống."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "OK"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "Không đủ Vàng"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "Hết khoảng trống trong Ga-ra. Mua thêm một chỗ để với chi phí {%d} bạc?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "Mua"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "Xác nhận Thanh toán"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "Nạp đạn theo chuẩn"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "Hủy bỏ"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Bạn đã có kíp lái cho xe này rồi."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "Trong thời gian thuê xe, bạn sẽ có thêm một chỗ trống miễn phí."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "Không thể tải đạn: Xe được chọn đã có đủ đạn rồi."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "Không thể tải đạn: Xe được chọn vẫn có vài viên."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "Giá: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "Mua thêm chỗ chứa trong Ga-ra"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "Mua"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "Mua"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "Bán-đổi"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "Mua mà không cần kíp lái"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "Đào tạo Kíp lái"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "Thành viên Tổ lái: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "Mua %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "Tổng:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "Bạn đã nhập thông tin không chính xác."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "Nhập số vàng từ cột \"Tổng\""
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "Xác nhận Tác vụ:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "Bạn không có xe nào phù hợp\nđể bán-đổi"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "Giá trị ước tính là %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "Đào tạo kíp lái: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "Tổng:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "Chọn Xe"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "Chọn một xe Premium\ncó thể bán-đổi được"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "Hủy bỏ"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "Chi phí bổ sung cho %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "Quy đổi"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "Mua mà không cần kíp lái"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "Bán-đổi %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "Thiết bị và vật phẩm đã mua sẽ không được hoàn trả bằng vàng một khi click vào nút Bán-Đổi dưới đây. Xin vui lòng kiểm tra mọi thông tin liên quan một cách cẩn thận."
+
+msgid "buyVehicleWindow/warning"
+msgstr "Các món hàng đã mua về sẽ không được trả lại bằng vàng một khi bạn click vào nút \"Mua\" dưới đây. Xin vui lòng kiểm tra các mặt hàng cẩn thận."
+
+msgid "challenge_missions/activation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "Kích hoạt"
+
+msgid "challenge_missions/activation/description"
+msgstr "Sau khi kích hoạt, chuỗi nhiệm vụ Crucible có thể được {{@ style (color #FFE4C0)}}hoàn thành, thất bại hoặc từ bỏ{{/}}. Nếu thất bại trong một nhiệm vụ thuộc chuỗi này, bạn sẽ mất một khiên."
+
+msgid "challenge_missions/activation/title"
+msgstr "Kích hoạt Crucible: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "Hủy bỏ"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "Khởi động lại"
+
+msgid "challenge_missions/restart/description"
+msgstr "Tiến độ nhiệm vụ sẽ bắt đầu từ số 0, khiên được khôi phục, bạn có thể nhận phần thưởng lần nữa. Chuỗi nhiệm vụ kích hoạt ngay sau khi khởi động lại."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "Khởi động lại Crucible: {{challengeName}} miễn phí?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "Khởi động lại Crucible: {{challengeName}} với giá {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "Hủy bỏ"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "Từ bỏ"
+
+msgid "challenge_missions/surrender/description"
+msgstr "Hành động từ bỏ sẽ kết thúc chuỗi nhiệm vụ Crucible này, tiến độ cũng như khiên về xuất phát điểm. Bạn có thể khởi động lại bất cứ lúc nào."
+
+msgid "challenge_missions/surrender/title"
+msgstr "Từ bỏ Crucible: {{challengeName}}?"
+
+msgid "changeGraphics/cancel"
+msgstr "Hủy bỏ"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s Đồ họa đã được cải thiện đáng kể ở bản cập nhật này. Bạn có thể sử dụng chức năng tự động lựa chọn các thiết lập đồ họa hoặc tự tay thay đổi chúng."
+
+msgid "changeGraphics/submit"
+msgstr "Tự động lựa chọn"
+
+msgid "changeGraphics/title"
+msgstr "Tự động lựa chọn các Thiết lập Đồ họa"
+
+msgid "changePeriphery/cancel"
+msgstr "Hủy bỏ"
+
+msgid "changePeriphery/message"
+msgstr "Chuyển sang máy chủ khác?"
+
+msgid "changePeriphery/submit"
+msgstr "Tiếp tục"
+
+msgid "changePeriphery/title"
+msgstr "Xác nhận chuyển đổi"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "Hủy bỏ"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "Các thay đổi về máy chủ giờ sẽ được lưu. Bạn có thể bật hoặc tắt tính năng tự động đăng nhập ở mục Thiết lập."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "Tiến hành"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "Chuyển sang máy chủ khác?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "Hủy bỏ"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "Chuyển sang máy chủ khác?\n\nNếu thay đổi máy chủ, các giới hạn sau sẽ xuất hiện:\n\t• Một số xe sẽ không khả dụng.\n\t• Biểu tượng và Khẩu hiệu sẽ không được hiển thị.\n\t• Nhiệm vụ, Trợ cấp Cá nhân và chế độ \"Thử nghiệm Thực chiến\" sẽ không khả dụng.\n\nBạn cũng có thể gặp lỗi và các vấn đề với chất lượng đường truyền. Ngoài ra, xin vui lòng tôn trọng những người chơi ở khu vực khác."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "Tiếp tục"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "Xác nhận chuyển đổi"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "Hủy bỏ"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "Chuyển sang máy chủ khác?\n\nNếu thay đổi máy chủ, các giới hạn sau sẽ xuất hiện:\n\t• Một số xe sẽ không khả dụng.\n\t• Biểu tượng và Khẩu hiệu sẽ không được hiển thị.\n\t• Nhiệm vụ, Trợ cấp Cá nhân và chế độ \"Thử nghiệm Thực chiến\" sẽ không khả dụng.\n\nBạn cũng có thể gặp lỗi và các vấn đề với chất lượng đường truyền. Ngoài ra, xin vui lòng tôn trọng những người chơi ở khu vực khác.\n\n\nCác thay đổi về máy chủ sẽ được lưu.\nĐến mục Thiết lập để bật hoặc tắt tính năng tự động đăng nhập."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "Tiến hành"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "Xác nhận chuyển đổi"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "Hủy bỏ"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sBạn chuẩn bị gia nhập Clan:\n%(clanName)s\n\nBằng việc xác nhận ý định vào Clan, bạn mặc nhiên chấp thuận các quy tắc và điều lệ ở đó, cũng như đồng ý tham dự tích cực vào những hoạt động hay đóng góp phát triển Clan.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "Sau khi rời khỏi Clan, bạn sẽ phải chịu một giới hạn về việc gia nhập phe phái khác."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "Xác nhận"
+
+msgid "clanConfirmJoining/title"
+msgstr "Xác nhận Gia nhập Clan"
+
+msgid "clan_data_not_available/cancel"
+msgstr "Tắt"
+
+msgid "clan_data_not_available/message"
+msgstr "Hồ sơ Clan của người chơi này tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "clan_data_not_available/title"
+msgstr "Chú ý!"
+
+msgid "common/cancel"
+msgstr "Hủy bỏ"
+
+msgid "common/confirm/cancel"
+msgstr "Không"
+
+msgid "common/confirm/submit"
+msgstr "Có"
+
+msgid "common/cost"
+msgstr "Chi phí:"
+
+msgid "common/error/cancel"
+msgstr "Tắt"
+
+msgid "common/submit"
+msgstr "Tiếp tục"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "Hủy bỏ"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "Mua"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "Mua và Lắp Ứng dụng Kỹ thuật"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "Hủy bỏ"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "Chú ý! Chưa lắp %(devices)s. Ứng dụng kỹ thuật này %(font_tag_open)sSẼ KHÔNG CÓ TÁC DỤNG.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "Lắp đặt"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "Trang bị Ứng dụng Kỹ thuật"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "Hủy bỏ"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "Chú ý! Bạn không có thiết bị nào tương thích với ứng dụng kỹ thuật đã chọn. Ứng dụng đó %(font_tag_open)sSẼ KHÔNG HOẠT ĐỘNG ĐƯỢC.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "Lắp đặt"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "Trang bị Ứng dụng Kỹ thuật"
+
+msgid "confirmBuy/title"
+msgstr "Mua %(moduleName)s?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "Hủy bỏ"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "Mô-đun sẽ được đưa về Kho."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "Lượng cần để mua:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "Hãy kiếm bạc bằng cách tham chiến, bán đồ thừa trong kho của mình, hoặc quy đổi từ vàng để có thêm."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "Không Đủ Bạc"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "Chi phí Mô-đun:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "Bán mô-đun %(previousModuleName) đã thay thế với giá %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "Mô-đun này phù hợp với:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "Bạn có thể bán mô-đun này ngay bây giờ hoặc gửi nó về Kho để bán sau hay tái sử dụng."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "Mua"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "Mua và lắp %(moduleName)s?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "Mua và lắp đặt '%(equipment)s'?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "Lắp đặt"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "Hủy bỏ"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "Không cần quy đổi.\nBạn đã có đủ bạc."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "Không thể mua: quy đổi thất bại.\nCần thêm %(gold)s để quy đổi."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "Quy đổi %(gold)s thành lượng bạc cần có?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "Bạc cần có:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "Lượng cần thêm để mua: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "Quy đổi"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "Xác nhận Quy đổi để Thanh toán"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "Hủy bỏ"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "Không cần quy đổi.\nBạn đã có đủ kinh nghiệm."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "Không thể nghiên cứu: quy đổi thất bại.\nCần thêm %(gold)s để quy đổi."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "Quy đổi lượng kinh nghiệm cần có bằng %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "Kinh nghiệm cần có:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "Lượng cần thêm để nghiên cứu: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "Chọn Xe"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "Xác nhận Quy đổi để Nghiên cứu"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "Tổng:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "Hủy bỏ"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "Không cần quy đổi cho quá trình lấy lại.\nBạn có đủ bạc."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "Không thể quy đổi cho quá trình lấy lại.\nCần có %(gold)s để quy đổi."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "Quy đổi %(gold)s thành lượng bạc còn thiếu?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "Bạc cần có:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "Lượng cần thêm để lấy lại: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "Quy đổi"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "Xác nhận Quy đổi để Lấy lại"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "Tổng:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "Số lượng"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "Tổng"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "Giá:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "Giá"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "Tổng:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "Tổng"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "Tổng:"
+
+msgid "confirmUnlock/cancel"
+msgstr "Không"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (gồm cả {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "Nghiên cứu {{items}} với chi phí"
+
+msgid "confirmUnlock/item/message"
+msgstr "Nghiên cứu %(typeString)s %(userString)s bằng %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (tính cả %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "Có"
+
+msgid "confirmUnlock/title"
+msgstr "Xác nhận Nghiên cứu"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "Nghiên cứu %(userString)s bằng %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (tính cả %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "Hủy bỏ"
+
+msgid "controlsWrongNotification/message"
+msgstr "Một hoặc nhiều nút chưa được gán chức năng. Lưu lại các thiết lập Điều khiển?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "Lưu"
+
+msgid "controlsWrongNotification/title"
+msgstr "Lỗi"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "Hủy bỏ"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "Các tệp tiếng kíp lái thông báo đã chọn bị hỏng hoặc thiếu, tiếng kíp lái thông báo sẽ được thiết lập theo mặc định.\nMột vài nút chưa được gán lệnh. Lưu thiết lập?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "Lưu"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "Lỗi"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "createOrderConfirmation/submit"
+msgstr "Xác nhận"
+
+msgid "createOrderConfirmation/title"
+msgstr "Xác nhận Thành lập Quân Dự bị"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "Không đủ nguồn lực để thực hiện thanh toán."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "Áp dụng cho toàn bộ kíp lái. Khi được học, %(book)s sẽ mang lại %(exp)s cho từng thành viên."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "Áp dụng cho thành viên kíp lái được chọn. Khi học, %(book)s sẽ mang lại %(exp)s cho người đó."
+
+msgid "crewBookPurchase/purchase"
+msgstr "Mua"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "Mua %(book)s?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "Hủy bỏ"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "Mọi đề-can đã áp dụng cho bản đồ {season} sẽ bị {removed} khỏi xe\nvì ô này không khả dụng cho {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "Xác nhận"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "những bản đồ tương ứng."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "bản đồ tương ứng."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "Áp dụng đề-can vừa chọn vào ô này cho mọi bản đồ?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "Sau khi mua, các chi tiết sẽ được áp dụng lên xe hiện tại. Những chi tiết có dấu hoa thị sẽ không khả dụng cho xe khác."
+
+msgid "customization/buy_install_bound/title"
+msgstr "Xác nhận Mua Chi tiết"
+
+msgid "customization/change_install_bound/message"
+msgstr "Sau khi chọn, các chi tiết sẽ được áp dụng lên xe hiện tại. Những chi tiết có dấu hoa thị sẽ không khả dụng cho xe khác."
+
+msgid "customization/change_install_bound/title"
+msgstr "Xác nhận Thay đổi Chi tiết"
+
+msgid "customization/close/cancel"
+msgstr "Hủy bỏ"
+
+msgid "customization/close/submit"
+msgstr "Thoát"
+
+msgid "customization/close/title"
+msgstr "Thoát về Ga-ra mà không áp dụng những thay đổi này?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "Hủy bỏ"
+
+msgid "customization/exitToShop/submit"
+msgstr "Tiến hành"
+
+msgid "customization/exitToShop/title"
+msgstr "Đến Cửa hàng mà không lưu các thay đổi?"
+
+msgid "customization/filter/cancel"
+msgstr "Hủy bỏ"
+
+msgid "customization/filter/message"
+msgstr "Mọi chi tiết sẽ bị gỡ bỏ. Tiếp tục?"
+
+msgid "customization/filter/submit"
+msgstr "Gỡ bỏ Tất cả"
+
+msgid "customization/filter/title"
+msgstr "Gỡ bỏ Chi tiết"
+
+msgid "customization/install_bound/cancel"
+msgstr "Hủy bỏ"
+
+msgid "customization/install_bound/submit"
+msgstr "Tiếp tục"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "Hủy bỏ"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "Chú ý! Sau khi áp dụng (%(cTypeName)s %(itemName)s) vào xe hiện tại, bạn sẽ chỉ có thể dùng nó cho %(numberLeft)s xe nữa. Áp dụng chi tiết?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "Áp dụng"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "Áp dụng Chi tiết"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "Hủy bỏ"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "Chú ý! Sau khi áp dụng (%(cTypeName)s %(itemName)s) vào xe hiện tại, bạn sẽ không thể dùng nó cho bất cứ xe nào nữa. Áp dụng chi tiết?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "Áp dụng"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "Áp dụng Chi tiết"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "Hủy bỏ"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "Chú ý! Sau khi áp dụng (%(cTypeName)s %(itemName)s) vào xe hiện tại, bạn sẽ không thể dùng nó cho bất cứ xe nào nữa. Chi tiết này %(willBeDeleted)s nếu gỡ bỏ. Áp dụng chi tiết?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "Áp dụng"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "Áp dụng Chi tiết"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "sẽ bị xóa"
+
+msgid "customization/remove_element/cancel"
+msgstr "Hủy bỏ"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "Gỡ bỏ"
+
+msgid "customization/remove_element/title"
+msgstr "Gỡ bỏ Chi tiết"
+
+msgid "customizationConfirmSell/message"
+msgstr "Bán %(name)s với giá %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "Xác nhận Bán"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "mỗi %(days)s ng"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "mỗi %(days)s ng %(hours)s giờ"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "mỗi %(hours)s giờ"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "mỗi %(hours)s giờ %(mins)s ph"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "mỗi %(mins)s ph"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "Số lần được Đổi mới Nhiệm vụ: {timeLimitMsg}"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "Đổi mới"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "Đổi mới Nhiệm vụ?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} Một vài xe của bạn vẫn còn trong trận. Tiến độ sẽ bị mất nếu đổi mới nhiệm vụ. Số lần được Đổi mới Nhiệm vụ: {timeLimitMsg}"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "Đổi mới"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "Đổi mới Nhiệm vụ?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "Cảnh báo!"
+
+msgid "dedication/headline"
+msgstr "Đã nhận Danh hiệu \"Hero of Our Time\""
+
+msgid "dedication/sub-headline"
+msgstr "Cho {battlesNum} trận đã tham chiến"
+
+msgid "dialogTemplates/cancel"
+msgstr "Hủy bỏ"
+
+msgid "dialogTemplates/confirm"
+msgstr "Xác nhận"
+
+msgid "dialogTemplates/ok"
+msgstr "Đã rõ!"
+
+msgid "disconnect/cancel"
+msgstr "Không"
+
+msgid "disconnect/message"
+msgstr "Bạn thực sự muốn ngắt kết nối với máy chủ?"
+
+msgid "disconnect/submit"
+msgstr "Có"
+
+msgid "disconnect/title"
+msgstr "Ngắt kết nối với máy chủ"
+
+msgid "disconnected/cancel"
+msgstr "OK"
+
+msgid "disconnected/message"
+msgstr "Bạn đã bị ngắt kết nối với máy chủ. Bấm OK để kết nối lại."
+
+msgid "disconnected/messageBan"
+msgstr "Tài khoản của bạn đã bị khóa.%(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "Tài khoản của bạn đã bị khóa đến %(expiryTime)s.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "Kết nối với hệ thống bị gián đoạn.%(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nLý do: %s"
+
+msgid "disconnected/title"
+msgstr "Kết nối đã bị ngắt"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "Giải ngũ"
+
+msgid "dismissTankman/description/perk"
+msgstr "Để thực hiện tác vụ này, hãy nhập cấp độ đào tạo kỹ năng: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "Đối với tác vụ này, hãy nhập mức độ của kỹ năng gần nhất được đào tạo ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "Thành viên kíp lái được chọn sẽ bị giải ngũ. Bạn có thể phục quân họ nội trong {whiteOrange_Open}%(time)s ng{whiteOrange_Close}."
+
+msgid "dismissTankman/header"
+msgstr "Giải ngũ Thành viên Tổ lái"
+
+msgid "dismissTankman/limited"
+msgstr "Đã đạt giới hạn giải ngũ. Thành viên kíp lái bị giải ngũ sẽ thay thế %(name)s (%(role)s, %(vehicle)s)."
+
+msgid "dismissTankman/noRecovery"
+msgstr "Sẽ không thể phục quân được"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "Hủy bỏ"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "Chú ý! Khi giải ngũ %(dismissedName)s, họ sẽ thay thế %(deletedStr)s. Xác nhận thay đổi?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "Xác nhận"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "Xác nhận Thay đổi"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "Hủy bỏ"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "Chú ý! Khi bạn giải ngũ kíp lái này, họ sẽ thay thế %(deletedStr)s và %(extraCount)s thành viên kíp lái. Xác nhận thay đổi?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "Xác nhận"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "Đầy Sổ nhớ Lính tăng bị Giải ngũ"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "Thay thế"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "Tên"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "Họ"
+
+msgid "documentChangeDialog/title"
+msgstr "Đổi tên và ngoại hình?"
+
+msgid "dropSkill/cancel"
+msgstr "Hủy bỏ"
+
+msgid "dropSkill/message"
+msgstr "Đặt lại toàn bộ kỹ năng?"
+
+msgid "dropSkill/submit"
+msgstr "Học lại"
+
+msgid "dropSkill/title"
+msgstr "Xác nhận Học lại"
+
+msgid "elementType/chassis"
+msgstr "hệ thống giảm xóc"
+
+msgid "elementType/engine"
+msgstr "động cơ"
+
+msgid "elementType/gun"
+msgstr "súng"
+
+msgid "elementType/radiostation"
+msgstr "radio"
+
+msgid "elementType/turret"
+msgstr "tháp pháo"
+
+msgid "elenDisabled/cancel"
+msgstr "Tắt"
+
+msgid "elenDisabled/message"
+msgstr "Các cuộc đấu súng tạm thời không khả dụng do công tác bảo trì định kỳ."
+
+msgid "elenDisabled/title"
+msgstr "Chú ý!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "Hủy bỏ"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "Không hiện cảnh báo này nữa"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "Bạn sẽ phải chịu đựng cảnh FPS thấp và méo dạng đồ họa trong chế độ này do thiết lập phần cứng của mình. Quá trình tải trận cũng lâu hơn, có khả năng khiến game gặp sự cố. Vẫn tham chiến?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "Tham chiến!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "Cảnh báo Hiệu suất"
+
+msgid "equipmentBuyInstall/price"
+msgstr "Giá mua:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "Tháo rời %(equipment)s?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "Hủy bỏ"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "Tháo rời và Nâng cấp"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "Tháo rời"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "Thiết bị này sẽ bị {white_Open}phá hủy{white_Close}khi gỡ.\nSử dụng trái phiếu để gỡ nó ra một cách an toàn."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "Thiết bị này sẽ bị {white_Open}phá hủy{white_Close}khi gỡ.\nSử dụng vàng hoặc Bộ Gỡ để làm điều đó một cách an toàn."
+
+msgid "equipmentDestroy/conformation"
+msgstr "Phá hủy '%(equipment)s'?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "Lắp đặt '%(equipment)s'?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "Bán '%(equipment)s'?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "Hủy bỏ"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "Nâng cấp"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "Đến Tháo rời"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "Không có Thiết bị Thử nghiệm khả dụng để tháo rời."
+
+msgid "eula/p1"
+msgstr "Vui lòng đọc kỹ <BR/><A HREF='event:%(eulaURL)s'><U>Hợp đồng Cấp phép Sử dụng</U></A> trước khi tiếp tục."
+
+msgid "eula/p2"
+msgstr "BẰNG VIỆC CLICK \"CHẤP THUẬN\", BẠN THỪA NHẬN RẰNG BẠN ĐÃ ĐỌC, HIỂU VÀ ĐỒNG Ý BỊ RÀNG BUỘC BỞI, ĐỒNG THỜI, TUÂN THEO CÁC ĐIỀU KHOẢN CỦA HỢP ĐỒNG CẤP PHÉP SỬ DỤNG (EULA), CŨNG NHƯ CÓ TRÁCH NHIỆM PHÁP LÝ VỚI MỌI HÀNH VI VI PHẠM SAU NÀY. EULA CÙNG BẤT KỲ SỬA ĐỔI BỔ SUNG NÀO ĐỀU LÀ BẰNG CHỨNG TRÓI BUỘC TẤT CẢ CÁC BÊN LIÊN QUAN."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "Đổi %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s thành %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "Quy đổi"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "Quy đổi Vàng"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "Khuyến mãi khi quy đổi tối đa %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s XP sang Kinh nghiệm Tự do sẽ được sử dụng. Ở lần kế tiếp, bạn sẽ phải dùng vàng để làm điều tương tự."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "Quy đổi %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s XP thành Kinh nghiệm Tự do với phí tổn %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "Chuyển đổi"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "Quy đổi thành EXP Tự do"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "Không đủ EXP Chiến đấu để qui đổi"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "Không đủ EXP Chiến đấu để qui đổi"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "Hủy bỏ"
+
+msgid "fillAllPerks/button/fill"
+msgstr "Tự động lựa chọn"
+
+msgid "fillAllPerks/checkbox"
+msgstr "Tự động chọn kỹ năng cho kíp lái trong Doanh trại"
+
+msgid "fillAllPerks/description"
+msgstr "Tùy chuyên môn của thành viên kíp lái với các ô kỹ năng trống, thuật toán sẽ chọn kỹ năng đầu tiên từ bảng dưới đây. Nếu người đó đã có kỹ năng đầu tiên rồi, thuật toán sẽ tiến hành chọn kỹ năng thứ hai, cứ thế đến khi hết mọi ô kỹ năng còn trống. Tác vụ này có thể tốn một khoảng thời gian."
+
+msgid "fillAllPerks/subTitle"
+msgstr "Kỹ năng sẽ chỉ được chọn tự động cho thành viên kíp lái trên xe."
+
+msgid "fillAllPerks/title"
+msgstr "Tự động chọn Kỹ năng Chưa học cho Tất cả Kíp lái?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "Hủy bỏ"
+
+msgid "finance_dialog/header"
+msgstr "Xác nhận Thao tác"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "Hãy nhập mật khẩu tài chính để xác nhận thao tác này."
+
+msgid "finance_dialog/results/invalid"
+msgstr "Mật khẩu không hợp lệ."
+
+msgid "finance_dialog/results/limit"
+msgstr "Bạn đã nhập sai mật khẩu quá nhiều lần. Hãy thử lại trong 24 giờ. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Quên mật khẩu?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "Mật khẩu phải chứa ít nhất 6 ký tự và chỉ bao gồm chữ cái Latin, chữ số và '_'."
+
+msgid "finance_dialog/submitBtn"
+msgstr "Xác nhận"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "Lấy %(product)s với giá %(price)s?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "Lấy"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "Xác nhận"
+
+msgid "fortDisabled/cancel"
+msgstr "Tắt"
+
+msgid "fortDisabled/message"
+msgstr "Thông tin về các Clan hiện không khả dụng do công tác bảo trì định kỳ."
+
+msgid "fortDisabled/title"
+msgstr "Chú ý!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "OK"
+
+msgid "fortTurnedOff/message"
+msgstr "Pháo đài tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "fortTurnedOff/title"
+msgstr "Chú ý!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "Không"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "Có"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "Hủy bỏ"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "Bạn sẽ rời khỏi lực lượng đồn trú trong công trình %(oldBuilding)s hiện tại. Bạn sẽ được chuyển sang đảm nhận công trình %(newBuilding)s."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "Xác nhận"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "Đảm nhận Công trình"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "freeObtainConfirmation/message"
+msgstr "Lấy %(product)s với giá %(price)s?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "Lấy"
+
+msgid "freeObtainConfirmation/title"
+msgstr "Xác nhận"
+
+msgid "freeSkillsLearning/message"
+msgstr "Kỹ năng \"số không\" không cần học bằng XP. Nó có lợi thế vì làm giảm đáng kể lượng XP cần có cho thành viên kíp lái nếu muốn đào tạo nhiều kỹ năng."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "Chọn %(skillName)s làm kỹ năng \"số không\"?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "Tái đào tạo %(skillName)s làm kỹ năng \"số không\"?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "freeSlotConfirmation/message"
+msgstr "Sử dụng khuyến mãi 100% để bổ sung miễn phí thêm một chỗ trống trong Ga-ra?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "Thêm"
+
+msgid "freeSlotConfirmation/title"
+msgstr "Thêm Chỗ trống"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "Tắt"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "Bạn đã đạt đến giới hạn số xe có thể mua miễn phí. Hãy thử lại vào ngày mai."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "Tắt"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "Giới hạn Mua"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sKinh nghiệm (XP)%(orangeText_close)s%(simpleText_open)s là tài nguyên game kiếm được sau khi tham chiến.\n\nBao gồm:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sKinh nghiệm Chiến đấu%(orangeText_close)s%(simpleText_open)s dùng để nghiên cứu mô-đun mới cho một phương tiện nhất định, cũng như thăng tiến xa hơn trong một trò chơi thuộc thế giới Wargaming.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sKinh nghiệm Tự do%(orangeText_close)s%(simpleText_open)s dùng để nghiên cứu bất kỳ mô-đun và phương tiện nào, cũng như tăng tốc đào tạo kíp lái. Hãy sử dụng XP Tự do một cách cẩn thận.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "Tiếp tục"
+
+msgid "freeXPInfo/title"
+msgstr "Kinh nghiệm"
+
+msgid "gammaDialog/cancel"
+msgstr "Bắt đầu"
+
+msgid "gammaDialog/message/description"
+msgstr "Chỉ huy! Hãy thiết lập màn hình để điều chỉnh gamma và cải thiện chất lượng hình ảnh của mình.\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "Hãy hiệu chỉnh màn hình ngay!"
+
+msgid "gammaDialog/title"
+msgstr "Cài đặt Gamma"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "Sau khi chuyển đổi:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "Trước khi chuyển đổi:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "Hủy bỏ"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "Quy đổi"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "Tổng:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "Kíp lái"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "Xe"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "Kinh nghiệm"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "Tất cả xe"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "Sắp xếp theo các xe đã lựa chọn."
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "Sắp xếp theo tên xe"
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "Xe"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "Sắp xếp theo EXP nhận được."
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "Kinh nghiệm"
+
+msgid "gatheringXPForm/title"
+msgstr "Quy đổi thành EXP Tự do"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "Quy đổi EXP:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "Đào tạo kíp lái đã được đẩy nhanh tiến độ."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "Kíp lái đang được đào tạo bình thường."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "Tổng:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "Tổng:"
+
+msgid "graphics/message/alert"
+msgstr "Chú ý!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "Chế độ màn hình đã bị thay đổi. Sẽ quay lại các thiết lập trước đó sau %(time)s giây. Lưu các thiết lập đã chọn?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "Lưu"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "Lưu Thiết lập Chế độ Màn hình"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "Không"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "Lưu ý! Mọi thay đổi sẽ bị mất. Tiếp tục?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "Có"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "Tự động xác định Chất lượng đồ họa"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "Không"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "Chú ý! Thay đổi một số thiết lập đồ họa nhất định có thể khiến bạn phải chờ một lúc. Tiếp tục?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "Có"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "Điều chỉnh Thiết lập"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "Tắt"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "Không thể đặt tham số tối đa. Thay vào đó, chất lượng đồ họa do người dùng xác định sẽ được thiết lập."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "Chú ý"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "Tắt"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "Hình ảnh bề mặt chất lượng cao chỉ dành cho hệ điều hành 64-bit."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "Chất lượng Ảnh bề mặt Không khả dụng."
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "Để Sau"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "Các thay đổi về một số thiết lập sẽ chỉ có tác dụng sau khi khởi động lại game."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "OK"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "Điều chỉnh Thiết lập"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/message"
+msgstr "Không còn nơi để xe trong Ga-ra. Hãy mua thêm một chỗ trống hoặc bán bớt xe để có không gian chứa chiếc mới."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "OK"
+
+msgid "haveNoEmptySlots/title"
+msgstr "Lỗi"
+
+msgid "hof/excludeRating/cancel"
+msgstr "Hủy bỏ"
+
+msgid "hof/excludeRating/message"
+msgstr "Những người chơi khác sẽ không thấy thành tích của bạn nữa, nhưng bạn có thể thay đổi thiết lập này trên trang chính thức của Bảng Xếp hạng."
+
+msgid "hof/excludeRating/submit"
+msgstr "Ẩn Kết quả"
+
+msgid "hof/excludeRating/title"
+msgstr "Hiện Kết quả Xếp hạng"
+
+msgid "hofDisabled/cancel"
+msgstr "Tắt"
+
+msgid "hofDisabled/message"
+msgstr "Bảng Xếp hạng tạm thời không khả dụng. Xin vui lòng thử lại sau."
+
+msgid "hofDisabled/title"
+msgstr "Chú ý!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "Hủy bỏ"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}Kíp lái không đủ{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}Có thành viên kíp lái không phù hợp{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "Xe vừa chọn không phù hợp vì một trong các lý do sau:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "Chỉ một kíp lái có thể nhận lợi ích này. Nó sẽ được chuyển từ"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "sang"
+
+msgid "idleCrewBonus/submit"
+msgstr "Xác nhận"
+
+msgid "idleCrewBonus/title"
+msgstr "Bật Đào tạo Kíp lái Cường độ Cao?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "Hãy thử tắt \"Tăng tốc Phần cứng Trình duyệt\" trong Thiết lập (mục Đồ họa)."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "Lỗi Tải"
+
+msgid "interviewQuit/cancel"
+msgstr "Quay lại"
+
+msgid "interviewQuit/message"
+msgstr "Bạn có thể từ chối trả lời khảo sát vào lúc này và để lại làm sau bằng cách mở tin nhắn chứa lời mời trong Trung tâm Thông báo. Tin nhắn đó sẽ có hiệu lực và sử dụng được nội trong một phiên đăng nhập trò chơi."
+
+msgid "interviewQuit/submit"
+msgstr "Từ chối"
+
+msgid "interviewQuit/title"
+msgstr "Từ chối Khảo sát"
+
+msgid "koreaParentNotification/cancel"
+msgstr "Đã rõ!"
+
+msgid "koreaParentNotification/message"
+msgstr "Để tránh việc nghiện game của trẻ em và thanh thiếu niên, hệ thống sẽ không cho phép vào game sau %(preBlockTime)s. Bạn sẽ bị ngắt kết nối khỏi máy chủ lúc %(blockTime)s."
+
+msgid "koreaParentNotification/submit"
+msgstr "Đã rõ!"
+
+msgid "koreaParentNotification/title"
+msgstr "Giới hạn chơi"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "Đã rõ!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "Đã hết thời gian chơi. Bạn không thể vào trận mới."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "Đã rõ!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "Phụ huynh Kiểm soát"
+
+msgid "leaveEvent/cancel"
+msgstr "Hủy bỏ"
+
+msgid "leaveEvent/message"
+msgstr "Kết quả các trận đánh của bạn trong cuộc thi sẽ bị tính lại sau khi cập nhật bảng xếp hạng. Bạn sẽ không thể được xếp hạng và nhận phần thưởng.\n\nSau khi thoát khỏi cuộc thi, %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "BẠN KHÔNG THỂ THAM GIA LẠI."
+
+msgid "leaveEvent/submit"
+msgstr "Rời bỏ Cuộc thi"
+
+msgid "leaveEvent/title"
+msgstr "Rời bỏ Cuộc thi"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "Hủy bỏ"
+
+msgid "leaveStartedEvent/message"
+msgstr "Kết quả các trận đánh của bạn sẽ không được tính trong cuộc thi này. Bạn sẽ không thể được xếp hạng và nhận phần thưởng.\n\nSau khi thoát khỏi cuộc thi, %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "Rời bỏ Cuộc thi"
+
+msgid "leaveStartedEvent/title"
+msgstr "Rời bỏ Cuộc thi"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "Hủy bỏ"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "Bạn đang ở trong Phòng Chờ trước Trận. Bạn có muốn thoát ra để chấp nhận lời mời không?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "Lời mời"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "Hủy bỏ"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "Bạn đang ở trong 1 Trung đội. Bạn có muốn rời khỏi Trung đội hiện tại và chấp nhận lời mời này?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "Lời mời"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "Hủy bỏ"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "Bạn đang ở trong 1 phòng huấn luyện. Bạn có muốn thoát ra và chấp nhận lời mời?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "OK"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "Lời mời"
+
+msgid "legalInfoWindow/title"
+msgstr "Thông tin Pháp lý"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "Hủy bỏ"
+
+msgid "limitedUIOffNotification/message"
+msgstr "Bạn có chắc chắn muốn tắt tính năng hiển thị dần các chi tiết giao diện ẩn trong Ga-ra?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "Sau khi tắt tùy chọn này, bạn sẽ không thể bật nó lại nữa."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "Tắt"
+
+msgid "limitedUIOffNotification/title"
+msgstr "Điều chỉnh Thiết lập"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "Hủy bỏ"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "Các thay đổi về máy chủ giờ sẽ được lưu. Bạn có thể bật hoặc tắt tính năng tự động đăng nhập ở mục Thiết lập."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "Tiến hành"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "Lưu thay đổi máy chủ?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "Không đủ đạn trong Cấu hình Khác. Vẫn tham chiến?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "Không đủ đạn"
+
+msgid "lowAmmo/cancel"
+msgstr "Hủy bỏ"
+
+msgid "lowAmmo/message"
+msgstr "Không đủ đạn trên xe đã chọn. Đạn sẽ được tự động tiếp tế trước khi trận đánh bắt đầu."
+
+msgid "lowAmmo/submit"
+msgstr "Tái tiếp tế"
+
+msgid "lowAmmo/title"
+msgstr "Tự động tiếp tế đạn"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "Hủy bỏ"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "Không đủ đạn trong xe đã chọn. Vẫn tham chiến?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "Tham chiến!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "Không đủ đạn"
+
+msgid "lowFpsWarning/cancel"
+msgstr "Không"
+
+msgid "lowFpsWarning/message"
+msgstr "Thiết lập hiện tại khiến game có hiệu suất không cao. Bạn có muốn chỉnh chất lượng đồ họa xuống thấp hơn không?"
+
+msgid "lowFpsWarning/submit"
+msgstr "Có"
+
+msgid "lowFpsWarning/title"
+msgstr "Hiệu suất Game quá Thấp"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "Thông tin của người chơi %(userName)s đang bị khóa."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "Đã khóa thông tin của người chơi"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "Dữ liệu của người chơi %(userName)s hiện tại chưa sẵn sàng."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "OK"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "Dữ liệu hiện tại chưa sẵn sàng"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "Hủy bỏ"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s Bật thiết lập này sẽ giảm hiệu suất máy tính khi trong trận."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "Chú ý!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "BẬT"
+
+msgid "minimapAlphaNotification/title"
+msgstr "Độ trong của bản đồ con"
+
+msgid "moduleSale/conformation/header"
+msgstr "Bán %(moduleType)s '%(moduleName)s'?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "Hủy bỏ"
+
+msgid "moneyTransfer/labelClan"
+msgstr "Clan:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "bạc"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "vàng"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "Lệ phí:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "Chuyển:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "Thường:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "bạc"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "vàng"
+
+msgid "moneyTransfer/labelTo"
+msgstr "Tới:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "Tổng:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(không phải thành viên Clan)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "Gửi"
+
+msgid "moneyTransfer/title"
+msgstr "Chuyển Vàng"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "Bạn thực sự muốn chuyển {gold} <img src='icon_gold' /> cho người chơi {player}? Bạn sẽ phải trả lệ phí {fee} <img src='icon_gold' />."
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "Chuyển đổi"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "Xác nhận chuyển"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">Đặt mật khẩu tài chính</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/message"
+msgstr "Không được phép chuyển Vàng. Lý do: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "Quy định hạn chế chuyển sẽ hết hiệu lực %s."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "OK"
+
+msgid "moneyTransferRestriction/title"
+msgstr "Không được phép chuyển Vàng."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "Không"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "Các thay đổi ở một số thiết lập sẽ được áp dụng ở trận tiếp theo. Tiếp tục?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "Có"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "Điều chỉnh Thiết lập"
+
+msgid "perkLearnConfirm/desc"
+msgstr "Cấp độ kỹ năng sau đào tạo: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "Đào tạo"
+
+msgid "perkLearnConfirm/title"
+msgstr "Đào tạo kỹ năng %(skillName)s?"
+
+msgid "perksReset/after"
+msgstr "Sau khi học lại:"
+
+msgid "perksReset/before"
+msgstr "Trước khi học lại:"
+
+msgid "perksReset/cancel"
+msgstr "Hủy bỏ"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "Tùy chọn này không khả dụng vì bạn đã có giảm giá 100% phí đặt lại kỹ năng ở Học viện Thiết giáp rồi."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "Bất khả dụng"
+
+msgid "perksReset/free/description"
+msgstr "Có thể miễn phí học lại tối đa {yellow_Open}1%{yellow_Close} kỹ năng."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "Thành viên kíp lái này được miễn phí lần đầu học lại kỹ năng"
+
+msgid "perksReset/graceLabel"
+msgstr "Miễn phí học lại kỹ năng sẽ khả dụng:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "Tổng lượng XP kỹ năng sẽ giảm. Sẽ có ít kỹ năng hơn để học."
+
+msgid "perksReset/noNewPerks"
+msgstr "Mọi XP từ kỹ năng đã học sẽ được cộng vào mức độ chức vụ chính."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "từ tổng XP kỹ năng"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "Trường Sĩ quan"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "từ tổng XP kỹ năng"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "Khóa Đào tạo Ngắn hạn"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "Học lại kỹ năng\n mà không mất XP"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "Dùng bạc để đặt lại kỹ năng mà không mất XP"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "Học viện Thiết giáp"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "Học lại kỹ năng\n mà không mất XP"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "Đặt lại"
+
+msgid "perksReset/title"
+msgstr "Đặt lại Mọi Kỹ năng Kíp lái?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "Hủy bỏ"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "Chất lượng Vật lý Âm thanh đã chọn khác với cài đặt mà client trò chơi tự động phát hiện. Điều này có thể ảnh hưởng đến hiệu năng. Chúng tôi khuyên bạn kiểm tra lại trước khi xác nhận. Vẫn muốn áp dụng các thay đổi?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "Xác nhận"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "Chất lượng Vật lý Âm thanh Không Khớp"
+
+msgid "postmortem/cancel"
+msgstr "Thoát"
+
+msgid "postmortem/message"
+msgstr "Xe của bạn đã bị tiêu diệt. Ở lại trận đánh hay thoát về Ga-ra?"
+
+msgid "postmortem/submit"
+msgstr "Ở lại"
+
+msgid "postmortem/title"
+msgstr "Xe đã bị Tiêu diệt"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "Mua Tài khoản Premium %(days)s ngày với %(gold)s vàng?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "Mua"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "Xác nhận Thanh toán"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "Gia hạn Tài khoản Premium thêm %(days)s ngày bằng cách dùng %(gold)s vàng?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "Gia hạn"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "Xác nhận"
+
+msgid "priceCard/credits/title"
+msgstr "Trường Sĩ quan"
+
+msgid "priceCard/free/title"
+msgstr "Khóa Đào tạo Ngắn hạn"
+
+msgid "priceCard/gold/title"
+msgstr "Học viện Thiết giáp"
+
+msgid "priceCard/price/free"
+msgstr "Miễn phí"
+
+msgid "priceCard/recertification/title"
+msgstr "Bằng Đào tạo"
+
+msgid "punishmentWindow/cancel"
+msgstr "Thừa nhận"
+
+msgid "punishmentWindow/header/ban"
+msgstr "Bạn đã bị khóa trong %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "Bạn đã bị phạt"
+
+msgid "punishmentWindow/header/warning"
+msgstr "Hành động phi thể thao"
+
+msgid "punishmentWindow/info"
+msgstr "Nếu trường hợp của bạn là do vấn đề kết nối hoặc các trục trặc kỹ thuật khác,\nvui lòng liên hệ bộ phận Hỗ trợ Người chơi."
+
+msgid "punishmentWindow/message/ban"
+msgstr "Bạn đã vi phạm Quy định Game tại bản đồ {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} lúc {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nBạn tạm thời bị cấm chơi trong chế độ {whiteSpanish_Open}%(mode)s{whiteSpanish_Close}."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "Bạn đã vi phạm Quy định Game tại bản đồ {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} lúc {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nBạn bị tước bỏ bạc, XP và phần thưởng kiếm được trong trận."
+
+msgid "punishmentWindow/message/warning"
+msgstr "Bạn đã vi phạm Quy định Game tại bản đồ {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} lúc {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nNếu tái phạm, bạn sẽ bị tước bỏ bạc, XP và phần thưởng kiếm được trong trận."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "Không hoạt động trong trận chiến"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "Thoát ra trước khi trận chiến kết thúc hoặc trước khi xe bị tiêu diệt"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "Không hoạt động/thoát trận sớm"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "Cố ý tự hủy"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s ng %(hour)s giờ"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s giờ %(min)s ph"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 ph"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s ph"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "Hủy bỏ"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "Đừng hỏi nữa"
+
+msgid "questsConfirmDialog/message"
+msgstr "Nếu bạn chọn nhiệm vụ \"%(newQuest)s\", nhiệm vụ \"%(oldQuest)s\" sẽ bị hủy bỏ."
+
+msgid "questsConfirmDialog/submit"
+msgstr "Xác nhận"
+
+msgid "questsConfirmDialog/title"
+msgstr "Xác nhận Chọn Nhiệm vụ"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "Hủy bỏ"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "Mọi tiến trình đối với nhiệm vụ %(curQuest)s sẽ bị tính lại từ đầu.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "Chú ý! Mọi tiến trình đối với nhiệm vụ hiện tại sẽ bị mất."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "Xác nhận"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "Đặt lại tiến trình"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "Hủy bỏ"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "Nếu chọn nhiệm vụ %(newQuest)s, tiến trình của bạn đối với nhiệm vụ %(oldQuest)s sẽ bị tính lại từ đầu.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "Chú ý! Mọi tiến trình đối với nhiệm vụ hiện tại sẽ bị mất."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "Xác nhận"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "Xác nhận Chọn Nhiệm vụ"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "Hủy bỏ"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "Nhiệm vụ %(quest)s sẽ bị hủy bỏ.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "Chú ý! Mọi tiến trình đối với nhiệm vụ hiện tại sẽ bị mất."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "Xác nhận"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "Xác nhận hủy nhiệm vụ"
+
+msgid "quit/cancel"
+msgstr "Ở lại"
+
+msgid "quit/submit"
+msgstr "Thoát"
+
+msgid "quit/title"
+msgstr "Thoát Game?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "Hủy bỏ"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "Đồng đội cần bạn! Bỏ trận trước khi xe bị tiêu diệt là hành động đào ngũ và sẽ phải nhận hình thức kỷ luật thích đáng, cũng như bị tước bỏ mọi quyền lợi khi chơi trong IGR."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "Bỏ chạy"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "Bỏ chạy khỏi chiến trường?"
+
+msgid "quitBattle/cancel"
+msgstr "Hủy bỏ"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "Hủy bỏ"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "Đồng đội cần bạn! Bỏ trận trước khi xe bị tiêu diệt là hành động đào ngũ và sẽ phải nhận hình thức kỷ luật thích đáng."
+
+msgid "quitBattle/leaver/submit"
+msgstr "Bỏ chạy"
+
+msgid "quitBattle/leaver/title"
+msgstr "Bỏ chạy khỏi chiến trường?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "Hủy bỏ"
+
+msgid "quitBattle/replay/submit"
+msgstr "Thoát"
+
+msgid "quitBattle/replay/title"
+msgstr "Thoát chế độ Quan sát?"
+
+msgid "quitBattle/submit"
+msgstr "Rời"
+
+msgid "quitBattle/title"
+msgstr "Rời khỏi trận?"
+
+msgid "quitPreBattle/cancel"
+msgstr "Không"
+
+msgid "quitPreBattle/message"
+msgstr "Bạn có chắc chắn muốn thoát khỏi Phòng chờ trước Trận đấu?"
+
+msgid "quitPreBattle/submit"
+msgstr "Có"
+
+msgid "quitPreBattle/title"
+msgstr "Thoát Phòng chờ Trước trận"
+
+msgid "rally/autoSearch/cancel"
+msgstr "Không"
+
+msgid "rally/autoSearch/message"
+msgstr "Tìm kiếm chỗ trống khả dụng một cách tự động?"
+
+msgid "rally/autoSearch/submit"
+msgstr "Có"
+
+msgid "rally/autoSearch/title"
+msgstr "Tìm kiếm Tự động"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "Hủy bỏ"
+
+msgid "rally/changePeriphery/message"
+msgstr "Bạn sẽ được tự động chuyển sang máy chủ (%(host)s) khác. Vẫn tiếp tục?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "Tiếp tục"
+
+msgid "rally/changePeriphery/title"
+msgstr "Chuyển sang Máy chủ Khác"
+
+msgid "rally/goToAnother/cancel"
+msgstr "Hủy bỏ"
+
+msgid "rally/goToAnother/message"
+msgstr "Nếu thay đổi chế độ đánh, bạn sẽ tự động bị khai trừ khỏi đơn vị tác chiến."
+
+msgid "rally/goToAnother/submit"
+msgstr "Tiếp tục"
+
+msgid "rally/goToAnother/title"
+msgstr "Thay đổi Chế độ"
+
+msgid "rally/goToIntro/cancel"
+msgstr "Hủy bỏ"
+
+msgid "rally/goToIntro/message"
+msgstr "Bạn có thực sự muốn thoát khỏi đơn vị tác chiến?"
+
+msgid "rally/goToIntro/submit"
+msgstr "Xác nhận"
+
+msgid "rally/goToIntro/title"
+msgstr "Xác nhận Thoát"
+
+msgid "rally/goToSquad/cancel"
+msgstr "Hủy bỏ"
+
+msgid "rally/goToSquad/message"
+msgstr "Nếu tạo Trung đội, bạn sẽ tự động rời khỏi chế độ hiện tại."
+
+msgid "rally/goToSquad/submit"
+msgstr "Tạo"
+
+msgid "rally/goToSquad/title"
+msgstr "Tạo Trung đội"
+
+msgid "rally/leave/cancel"
+msgstr "Hủy bỏ"
+
+msgid "rally/leave/message"
+msgstr "Bạn có thực sự muốn rời khỏi đơn vị tác chiến và thoát chế độ?"
+
+msgid "rally/leave/submit"
+msgstr "Xác nhận"
+
+msgid "rally/leave/title"
+msgstr "Xác nhận Thoát"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "Tiếp tục"
+
+msgid "rally/leaveDisabled/message"
+msgstr "Không thể thoát khỏi chế độ. Xe của bạn đang ở vị trí sẵn sàng tham chiến."
+
+msgid "rally/leaveDisabled/title"
+msgstr "Chú ý"
+
+msgid "rally/startBattle/cancel"
+msgstr "Không"
+
+msgid "rally/startBattle/message"
+msgstr "Tìm kiếm đối thủ?"
+
+msgid "rally/startBattle/submit"
+msgstr "Có"
+
+msgid "rally/startBattle/title"
+msgstr "Tìm kiếm Quân địch"
+
+msgid "recruit/cancel"
+msgstr "Hủy bỏ"
+
+msgid "recruit/submit"
+msgstr "Tuyển"
+
+msgid "recruit/title"
+msgstr "Tuyển một %(role)s mới cho %(vehicleName)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "Tiếng thoại độc đáo của thành viên kíp lái này chỉ hoạt động khi được làm chức vụ Chỉ huy."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "Bạn không cần tuyển kíp lái cho xe Premium. Không có hình phạt nào khi thuyên chuyển kíp lái sang xe Premium cùng loại."
+
+msgid "recruit/warning/slotChanged"
+msgstr "Thành viên kíp lái này không thể tuyển được cho xe đã chọn và sẽ bị gửi vào Doanh trại."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "Thành viên kíp lái này có kỹ năng đã lỗi thời và sẽ tự động được đặt lại mà không mất XP."
+
+msgid "recruitDialog/name/title"
+msgstr "Tuyển thành viên kíp lái mới (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "Tuyển thành viên kíp lái mới?"
+
+msgid "recruitWindow/cancel"
+msgstr "Hủy bỏ"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "Chưa được chọn"
+
+msgid "recruitWindow/nation"
+msgstr "Quốc gia"
+
+msgid "recruitWindow/specialization"
+msgstr "Chức vụ"
+
+msgid "recruitWindow/submit"
+msgstr "Tuyển"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "Loại xe"
+
+msgid "recruitWindow/vehicleType"
+msgstr "Xe"
+
+msgid "referralReward/cancel"
+msgstr "Hủy bỏ"
+
+msgid "referralReward/message"
+msgstr "Lấy %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "Xác nhận"
+
+msgid "referralReward/title"
+msgstr "Xác nhận Lấy"
+
+msgid "refuseTraining/cancel"
+msgstr "Không"
+
+msgid "refuseTraining/message"
+msgstr "Dừng huấn luyện?"
+
+msgid "refuseTraining/submit"
+msgstr "Có"
+
+msgid "refuseTraining/title"
+msgstr "Xác nhận"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "Tiêu diệt"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "Hủy bỏ"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "Vật phẩm \"%(name)s\" sẽ bị đưa về Kho do %(reason)s với mô-đun hiện tại."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "không tương thích"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "Gỡ ra"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "Xác nhận Gỡ"
+
+msgid "rentConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "rentConfirmation/event"
+msgstr "cho chế độ %(eventName)s"
+
+msgid "rentConfirmation/message"
+msgstr "Thuê %(name)s %(event)s với giá %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "Xác nhận"
+
+msgid "rentConfirmation/title"
+msgstr "Xác nhận Thuê"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "Hủy bỏ"
+
+msgid "rentConfirmationRenew/message"
+msgstr "Gia hạn thời gian thuê %(name)s cho %(event)s với giá %(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "Xác nhận"
+
+msgid "rentConfirmationRenew/title"
+msgstr "Xác nhận Thuê"
+
+msgid "replacePassport/unique/cancel"
+msgstr "Hủy bỏ"
+
+msgid "replacePassport/unique/message"
+msgstr "Đây là thành viên kíp lái độc nhất và Dữ liệu Cá nhân tương ứng không thể tái lập lại được sau này. Bạn có chắc chắn muốn thay thế Dữ liệu Cá nhân bằng cách dùng %(gold)s?"
+
+msgid "replacePassport/unique/submit"
+msgstr "Thay thế"
+
+msgid "replacePassport/unique/title"
+msgstr "Xác nhận Thay thế"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "replacePassportConfirmation/message"
+msgstr "Thay thế Dữ liệu Cá nhân của thành viên tổ lái này bằng %(gold)s?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "Thay thế"
+
+msgid "replacePassportConfirmation/title"
+msgstr "Thay thế Dữ liệu Cá nhân"
+
+msgid "replayNotification/cancel"
+msgstr "Không"
+
+msgid "replayNotification/message"
+msgstr "Phiên bản World of Tanks hiện tại không tương thích với tập tin ghi hình trận đánh. Việc đó có thể ảnh hưởng đến quá trình xem lại replay. Bỏ qua sự khác biệt này và vẫn tiếp tục?"
+
+msgid "replayNotification/submit"
+msgstr "Có"
+
+msgid "replayNotification/title"
+msgstr "Cảnh báo"
+
+msgid "replayStopped/cancel"
+msgstr "Hủy bỏ"
+
+msgid "replayStopped/message"
+msgstr "Bản ghi hình trận đánh đã hết. Click Kết thúc để thoát trò chơi."
+
+msgid "replayStopped/submit"
+msgstr "Kết thúc"
+
+msgid "replayStopped/title"
+msgstr "Kết thúc Replay"
+
+msgid "reportBug/cancel"
+msgstr "Hủy bỏ"
+
+msgid "reportBug/message"
+msgstr "Click vào đây sẽ mở trình duyệt mặc định và đưa bạn đến trang Hỗ trợ Người chơi World of Tanks để báo lỗi. Tiếp tục?"
+
+msgid "reportBug/submit"
+msgstr "Tiếp tục"
+
+msgid "reportBug/title"
+msgstr "Đến Hỗ trợ Người chơi"
+
+msgid "resetAllPerks/cancel"
+msgstr "Hủy bỏ"
+
+msgid "resetAllPerks/submit"
+msgstr "Đặt lại"
+
+msgid "resetAllPerks/title"
+msgstr "Đặt lại Mọi Kỹ năng cho Tất cả Kíp lái?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}Mọi kỹ năng sẽ được đặt lại cho tất cả thành viên kíp lái trong tài khoản của bạn.{orangeEnd}\n{orangeStart}Tác vụ này không thể đảo lại được.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "Tiếp tục"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s Các thiết lập đồ họa đã được lựa chọn tự động nhằm đảm bảo chất lượng hình ảnh tối ưu.\nĐể tăng hiệu suất game, bạn có thể chọn chất lượng đồ họa thấp hơn trong mục Thiết lập."
+
+msgid "resetGraphics/submit"
+msgstr "Thiết lập"
+
+msgid "resetGraphics/title"
+msgstr "Thay đổi Thiết lập Đồ họa"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "Phục quân"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s sẽ được phục quân."
+
+msgid "restoreTankman/free"
+msgstr "Giá: Miễn phí"
+
+msgid "restoreTankman/header"
+msgstr "Phục quân thành viên kíp lái này?"
+
+msgid "restoreTankman/price"
+msgstr "Giá:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "Hủy bỏ"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "Lấy lại %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "Lấy lại"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "Không có kíp lái"
+
+msgid "restoreVehicleDialog/title"
+msgstr "Lấy lại %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "Sau khi click Lấy lại, bạn sẽ không thể quy đổi các Thiết bị và Vật phẩm đã mua thành vàng. Vui lòng kiểm tra kỹ mọi chi tiết một cách cẩn thận."
+
+msgid "retrain/cancel"
+msgstr "Hủy bỏ"
+
+msgid "retrain/changeRole"
+msgstr "Đổi chuyên môn"
+
+msgid "retrain/discountLabel"
+msgstr "Giảm giá này khả dụng vì kỹ năng đầu tiên chưa học xong 100%."
+
+msgid "retrain/discountTooltip/body"
+msgstr "Tùy chọn này không khả dụng vì bạn đã có giảm giá 100% phí đào tạo lại ở Học viện Thiết giáp rồi."
+
+msgid "retrain/discountTooltip/header"
+msgstr "Bất khả dụng"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "Thành viên kíp lái chuẩn bị tái đào tạo: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "Bạn không cần đào tạo kíp lái cho xe Premium.\nKhông có hình phạt nào khi thuyên chuyển kíp lái sang xe Premium cùng loại."
+
+msgid "retrain/price"
+msgstr "Giá:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "Hiệu quả kỹ năng\nsau tái đào tạo: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "Trường Sĩ quan"
+
+msgid "retrain/priceCard/free/description"
+msgstr "Hiệu quả kỹ năng\nsau tái đào tạo: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "Khóa Đào tạo Ngắn hạn"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "Hiệu quả kỹ năng\nsau tái đào tạo: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "Học viện Thiết giáp"
+
+msgid "retrain/submit"
+msgstr "Đào tạo lại"
+
+msgid "retrain/title/massive"
+msgstr "Tái đào tạo kíp lái cho %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "Đào tạo lại cho %(vehicleName)s\nvà đổi chuyên môn sang %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "Đào tạo lại cho %(vehicleName)s?"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "Kỹ năng của chuyên môn không phù hợp sẽ bị vô hiệu. Hãy đặt lại chúng một cách thủ công."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "Kíp lái có thể được chuyển sang xe Premium cùng loại mà không cần đào tạo hay bị phạt gì, nhưng kỹ năng không phù hợp phải được đặt lại một cách thủ công."
+
+msgid "rudyInfo/message"
+msgstr "Huyền thoại Bất tử Đã Xuất hiện trong Game! \"Bốn Lính Tăng và Một Chú Chó\" (tiếng Ba Lan “Czterej pancerni i pies”) là bộ phim truyền hình đen-trắng dài tập của Ba Lan dựa theo tiểu thuyết cùng tên do nhà văn Janusz Przymanowski sáng tác. Nó được công chiếu lần đầu tiên vào ngày 09/05/1966, miêu tả hành trình chiến đấu của kíp lái trên chiếc xe tăng T-34-85, biệt danh \"Rudy\" (Gừng), và chú chó Szarik của họ trong Thế Chiến II."
+
+msgid "rudyInfo/submit"
+msgstr "Rõ!"
+
+msgid "rudyInfo/title"
+msgstr "Bốn Lính Tăng và Một Chú Chó"
+
+msgid "selectVehicle/counter"
+msgstr "Xe phù hợp:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "Chọn xe tấn công"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "Chọn xe này"
+
+msgid "sellConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "sellConfirmation/submit"
+msgstr "Bán"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "Bán"
+
+msgid "sellModuleConfirmation/title"
+msgstr "Xác nhận Bán"
+
+msgid "sellShellConfirmation/submit"
+msgstr "Bán đạn '%(shellName)s'?"
+
+msgid "sendInvites/common/title"
+msgstr "Mời vào đơn vị tác chiến"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "Hủy bỏ"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "Thống kê của phiên này sẽ tự động tính lại sau{}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "Đặt lại"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s giờ %(minutes)s ph"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "Tính lại thống kê của phiên này?"
+
+msgid "shopSyncError/cancel"
+msgstr "Tiếp tục"
+
+msgid "shopSyncError/message"
+msgstr "Vui lòng cập nhật ứng dụng. Nếu lặp lại lỗi, vui lòng kiểm tra cập nhật tại máy chủ."
+
+msgid "shopSyncError/title"
+msgstr "Không đồng bộ"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "Hủy bỏ"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "Học Kỹ năng Đã chọn?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "Đào tạo"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "Áp dụng"
+
+msgid "soundModeInvalid/cancel"
+msgstr "Hủy bỏ"
+
+msgid "soundModeInvalid/message"
+msgstr "Các tệp âm thanh giọng nói của lính đã chọn bị hỏng hoặc bị mất, tiếng lính sẽ được thiết lập về mặc định."
+
+msgid "soundModeInvalid/submit"
+msgstr "Lưu"
+
+msgid "soundModeInvalid/title"
+msgstr "Lỗi"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "Hủy bỏ"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "Hệ thống âm thanh đã chọn không giống với loại được client trò chơi tự động xác định. Một vài hiệu ứng âm thanh có thể không khả dụng. Chúng tôi khuyên bạn nên khảo sát sự khác biệt này. Xác nhận các thay đổi?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "Xác nhận"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "Lệch Hệ thống Âm thanh"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "Không"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "Hệ thống âm thanh đã chọn không giống với loại được client trò chơi tự động xác định. Một vài hiệu ứng âm thanh có thể không khả dụng. Áp dụng cài đặt âm thanh tối ưu?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "Có"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "Lệch Hệ thống Âm thanh"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "Đã rõ!"
+
+msgid "squad/eventDisabled/message"
+msgstr "Sự kiện không khả dụng. Trung đội sẽ bị giải tán."
+
+msgid "squad/eventDisabled/title"
+msgstr "Sự kiện đã Kết thúc"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squad/goToAnother/message"
+msgstr "Bạn đang ở trong 1 Trung đội. Nếu thay đổi chế độ, bạn sẽ bị trục xuất khỏi Trung đội này."
+
+msgid "squad/goToAnother/submit"
+msgstr "Tiếp tục"
+
+msgid "squad/goToAnother/title"
+msgstr "Thay đổi Chế độ"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "Khi đổi chế độ game, Trung đội hiện tại của bạn sẽ bị giải tán. Vẫn muốn đổi loại trận?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "Xác nhận"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "Đổi Chế độ game"
+
+msgid "squad/goToSquad/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squad/goToSquad/message"
+msgstr "Rời khỏi đơn vị tác chiến và tạo 1 Trung đội với người chơi này?"
+
+msgid "squad/goToSquad/submit"
+msgstr "Tạo"
+
+msgid "squad/goToSquad/title"
+msgstr "Tạo Trung đội"
+
+msgid "squad/leave/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squad/leave/message"
+msgstr "Bạn có thực sự muốn thoát khỏi Trung đội?"
+
+msgid "squad/leave/submit"
+msgstr "Xác nhận"
+
+msgid "squad/leave/title"
+msgstr "Xác nhận Thoát"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Tiếp tục"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Không thể thoát khỏi Trung đội. Bạn đang là thành viên của Trung đội và đã sẵn sàng tham chiến."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Chú ý"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "Trung đội chưa đầy đủ. Một người chơi nữa sẽ được tự động bổ sung. Tham chiến?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "Tham chiến!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "Trung đội Chưa Sẵn sàng"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "Trung đội chưa đầy đủ. Vẫn tham chiến?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "Tham chiến!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "Trung đội Chưa Sẵn sàng"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "Trung đội chưa đầy đủ. Tự động bổ sung người chơi và tham chiến?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "Tham chiến!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "Trung đội Chưa Sẵn sàng"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "Một thành viên Trung đội vẫn chưa sẵn sàng. Vẫn tham chiến?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "Tham chiến!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "Trung đội Chưa Sẵn sàng"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "Người chơi nào chưa xác nhận sẵn sàng sẽ bị loại khỏi đơn vị tác chiến. Một game thủ khác sẽ được tự động thêm vào. Tham chiến?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "Tham chiến!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "Trung đội Chưa Sẵn sàng"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "Cả hai thành viên của Trung đội đều chưa sẵn sàng. Vẫn tham chiến?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "Tham chiến!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "Trung đội Chưa Sẵn sàng"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "Hủy bỏ"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "Trung đội không đầy đủ. Người chơi chưa xác nhận sẵn sàng sẽ bị loại khỏi đơn vị tác chiến. Tự động bổ sung game thủ và tham chiến?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "Tham chiến!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "Trung đội Chưa Sẵn sàng"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "Không vào được trận chiến mới: một vài người chơi chưa trở về. Hãy chờ trận đánh hiện tại kết thúc."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "Rõ!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "Trung đội Chưa Sẵn sàng"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "OK"
+
+msgid "squadPremiumNeeded/message"
+msgstr "Chỉ người chơi có tài khoản Premium mới có thể tạo Trung đội.\nNgười tạo Trung đội có thể mời người chơi với bất kỳ loại tài khoản nào."
+
+msgid "squadPremiumNeeded/title"
+msgstr "Chỉ dành cho tài khoản Premium"
+
+msgid "steamStartNeeded/cancel"
+msgstr "Tắt Game"
+
+msgid "steamStartNeeded/message"
+msgstr "Game phải được khởi chạy qua Steam để đăng nhập chính xác."
+
+msgid "steamStartNeeded/title"
+msgstr "Không thể Đăng nhập"
+
+msgid "stronghold/leave/cancel"
+msgstr "Hủy bỏ"
+
+msgid "stronghold/leave/message"
+msgstr "Bạn có chắc chắn muốn rời khỏi phân đội?"
+
+msgid "stronghold/leave/submit"
+msgstr "Xác nhận"
+
+msgid "stronghold/leave/title"
+msgstr "Xác nhận thoát"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "Sau khi bạn rời đi, phân đội sẽ bị giải tán.\nClan sẽ bị phạt do không tham chiến.\nBạn có chắc chắn muốn rời khỏi phân đội?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "Xác nhận thoát"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "Hủy bỏ"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "Tiếp tục"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "Chuyển sang Máy chủ Khác"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)s sẽ bị chuyển giao và không thể lấy lại được.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " Thêm vào đó, %(operations)s."
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "kíp lái sẽ được chuyển về Doanh trại"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "vật phẩm sẽ được đưa về Kho"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "thiết bị sẽ được gỡ miễn phí"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "mọi Sửa đổi Kép đã mua sẽ bị hủy bỏ, nhưng tiến độ Biến thể Cơ bản sẽ được lưu"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "đạn dược sẽ được đưa về Kho"
+
+msgid "tradeInConfirmation/submit"
+msgstr "Giao dịch"
+
+msgid "tradeInConfirmation/title"
+msgstr "Bán-Đổi Xe"
+
+msgid "tradeInPopover/descr"
+msgstr "Xe Premium khả dụng trong Ga-ra"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "Hiển thị quốc gia của những xe đã chọn."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "Quốc gia"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "Cho biết bạn sẽ tiết kiệm được bao nhiêu khi bán-đổi các xe đã chọn"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "Định giá\nxe"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "Định giá Xe"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "Hiển thị cấp độ của những xe đã chọn."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "Cấp độ"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "Hiển thị tên của những xe đã chọn."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "Tên"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "Hiển thị loại của những xe đã chọn."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "Loại"
+
+msgid "tradeInPopover/title"
+msgstr "Chọn Xe để Bán-Đổi"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "Chọn Xe"
+
+msgid "updateNeeded/cancel"
+msgstr "Để Sau"
+
+msgid "updateNeeded/message"
+msgstr "Vui lòng cập nhật ứng dụng của bạn."
+
+msgid "updateNeeded/submit"
+msgstr "Cập nhật"
+
+msgid "updateNeeded/title"
+msgstr "Cần Cập nhật"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "Đào tạo thành viên tổ lái bằng {%d} vàng?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "Đào tạo"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "Xác nhận Đào tạo"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "Không đủ vàng để đào tạo."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "Không đủ Vàng"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "Hủy bỏ"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "Đào tạo thành viên tổ lái bằng {%d} bạc?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "Đào tạo"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "Xác nhận Đào tạo"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "Không đủ bạc để đào tạo."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "OK"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "Không đủ Bạc."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "Hủy bỏ"
+
+msgid "vehConf/exitDialog/message"
+msgstr "Các thay đổi sẽ không được lưu. Thoát menu cấu hình xe?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "Xác nhận"
+
+msgid "vehConf/exitDialog/title"
+msgstr "Hủy các thay đổi"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "Xóa bỏ khỏi Ga-ra %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "Hủy bỏ"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "Chú ý! Đây là xe đặc biệt. Nếu bán đi, bạn sẽ phải đợi %(cooldown)s ngày rồi mới có thể lấy lại nó. Vẫn bán xe?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "Xác nhận"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "Xác nhận Bán"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "Hủy bỏ"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "Chú ý! Đây là xe đặc biệt. Tuy nhiên, nếu bán đi, bạn sẽ có thể lấy lại nó. Vẫn bán xe?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "Xác nhận"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "Xác nhận Bán"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "Hủy bỏ"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "Hủy bỏ"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "CHÚ Ý! Đây là xe tăng độc đáo và không thể lấy lại được. Kíp lái cũng sẽ bị giải tán hoàn toàn."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "Xác nhận"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "Xác nhận Bán"
+
+msgid "vehicleSell/unique/message"
+msgstr "Chú ý! Đây là xe đặc biệt. Bạn không thể mua nó từ Cửa hàng. Vẫn tiếp tục?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "Xác nhận"
+
+msgid "vehicleSell/unique/title"
+msgstr "Xác nhận Bán"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "XÁC NHẬN BÁN"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "Để xác nhận, hãy nhập giá bán từ cột \"Tổng\" (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "Bạn đã nhập thông tin không chính xác."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "ĐẠN:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "Ứ.DỤNG K.THUẬT:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "Hủy bỏ"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "TỔNG CỘNG:"
+
+msgid "vehicleSellDialog/count"
+msgstr "đơn vị"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "Giải ngũ"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "Gửi về Doanh trại"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "KÍP LÁI:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "NGOẠI THẤT:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "Tháo rời"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "VẬT PHẨM:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "Chi tiết"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "KHO:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "Sử dụng:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "Bao gồm tất cả các cấu hình theo quốc gia của xe!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "Mô-đun"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "THIẾT BỊ:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "Sau khi bán xe, Cấp Biến thể Dã chiến vẫn giữ nguyên, nhưng mọi Sửa đổi Kép sẽ bị hủy bỏ."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "Nhận được:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "Gỡ bỏ"
+
+msgid "vehicleSellDialog/submit"
+msgstr "Bán"
+
+msgid "vehicleSellDialog/title"
+msgstr "Bán %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "Chuyển vào Kho"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "\"Elite\""
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "Giá"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "Cấp. "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "Vai trò: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "Pháo Chống tăng"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "Pháo Tự hành"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "Tăng hạng Nặng"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "Tăng hạng Nhẹ"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "Tăng hạng Trung"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "Đã rõ!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "Lỗi khi khởi tạo Chat Voice: Hệ thống hiện không khả dụng."
+
+msgid "voiceChatInitFailed/title"
+msgstr "Khởi tạo Chat Voice"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "OK"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "Khởi tạo Chat Voice thành công."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "Khởi tạo Chat Voice"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "Tắt"
+
+msgid "waterQualityNotPossible/message"
+msgstr "Chất lượng Mặt nước cấu hình Cao chỉ khả dụng khi chế độ 'Hậu Xử lý' được kích hoạt."
+
+msgid "waterQualityNotPossible/title"
+msgstr "Chất lượng Mặt nước Không khả dụng"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "Hủy bỏ"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "Kiểm tra xem xe có khả dụng trong Ga-ra"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "Chi phí: %(price)s %(icon)s (khả dụng: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "Người chơi: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "Xe đã chọn: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "Phục biên"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "Đưa trở lại phục biên?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "Trợ lý"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "Phần thưởng Điểm danh"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "Lợi ích Đánh trận"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "Giấy phép QS Plus"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "Bản đồ Tẩy chay"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "Xe Độc"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "Xe Độc"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "Tháo gỡ Thiết bị Miễn phí"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "Kho Vàng Dự trữ"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "Đào tạo Kíp lái Cường độ Cao"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "Hệ số Nhân XP Linh động"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "Pro Boost"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "Tùy biến Bảng Thành tích"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "Ngọn cờ Tăng thủ"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "ĐÃ CÓ WOT PLUS"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "Tôi đã sướng!"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "Gia hạn vào {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "ĐÃ CÓ WOT PLUS CORE"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "Chi tiết"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "Plan 360-ngày"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "Plan 180-ngày"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, gia hạn vào {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "ĐÃ CÓ WOT PLUS PRO"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "Kích hoạt"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}Bạn sẽ không thể boost lại cho xe khác trong {{@ style (color #fff)}}{{boostInterval}} giờ{{/}}.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "Kích hoạt Pro Boost sẽ giúp xe này kiếm thêm {{@ style (color #fff)}}{{bonusPercent}} Bạc và XP{{/}}. Chỉ áp dụng cho một chiếc."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "Kích hoạt Pro Boost cho {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "Đổi"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}Chỉ một xe nhận được boost. Bạn sẽ không thể boost lại cho xe khác trong {{@ style (color #fff)}}{{boostInterval}} giờ{{/}}.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "Kích hoạt Pro Boost sẽ giúp xe này kiếm thêm {{@ style (color #fff)}}{{bonusPercent}} Bạc và XP{{/}}. Chỉ áp dụng cho một chiếc."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "Đổi Pro Boost sang {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "Hủy bỏ"
+
+msgid "wotPlusRental/description"
+msgstr "Xe thuê tiếp theo sẽ khả dụng vào {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "Thuê"
+
+msgid "wotPlusRental/title"
+msgstr "Thuê {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "Lưu"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "Bạn có muốn lưu tùy biến Bảng Thành tích của mình?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "Hủy bỏ"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "Dùng tất cả XP thu về bằng xe này để huấn luyện kíp lái. Thành viên kíp lái ít kinh nghiệm nhất sẽ được đào tạo nhanh gấp đôi."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "BẬT"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "Tăng tốc Đào tạo Kíp lái?"

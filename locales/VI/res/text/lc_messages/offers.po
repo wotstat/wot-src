@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "Chọn Phần thưởng"
+
+msgid "banner/giftsAvailable"
+msgstr "Hàng tiếp tế Đã đến!"
+
+msgid "banner/giftsForOffer"
+msgstr "Phần thưởng do đã tham dự \"%(name)s\"."
+
+msgid "banner/selectNowOrLater"
+msgstr "Chọn phần thưởng ngay hoặc để sau (trong Kho)."
+
+msgid "banner/title"
+msgstr "Tiếp tế Hậu phương"
+
+msgid "description/rentValue/battles"
+msgstr "%(value)s trận"
+
+msgid "description/rentValue/days"
+msgstr "%(value)s ngày"
+
+msgid "description/rentValue/wins"
+msgstr "%(value)s trận thắng"
+
+msgid "giftDescription/tank/base"
+msgstr "Bên cạnh xe đã chọn, bạn cũng sẽ nhận được %(items)s miễn phí."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}kíp lái{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}kíp lái{neutralClose} và {neutralOpen}chỗ để xe trong Ga-ra{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}chỗ để xe trong Ga-ra{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "Hủy bỏ"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s sẽ được thuê cho %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s sẽ được đưa về Ga-ra"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "Thời gian thuê %(tankName)s sẽ được gia hạn thêm %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "Xác nhận"
+
+msgid "giftDialog/title/common"
+msgstr "Xác nhận Thu về\n\"%(name)s\""
+
+msgid "giftDialog/title/tank"
+msgstr "Nhận Xe"
+
+msgid "giftDialog/title/tankRent"
+msgstr "Thuê Xe"
+
+msgid "giftsWindow/availableCount"
+msgstr "Khả dụng: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "Khả dụng đến: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "Phần thưởng khả dụng: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "Trong Ga-ra"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "Mở theo"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "Xem trước"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value) trận"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) ng"
+
+msgid "giftsWindow/rent/title"
+msgstr "Thuê cho: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value) trận thắng"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "Lấy"
+
+msgid "giftsWindow/tokens"
+msgstr "Khả dụng: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "Giơ-tông khả dụng: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "Bất khả dụng"
+
+msgid "rewardWindow/btnLabel"
+msgstr "Đã rõ!"
+
+msgid "rewardWindow/title"
+msgstr "Đã nhận Phần thưởng"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "Lấy!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "Gia hạn Thuê!"
+
+msgid "tankPreview/description/newRent"
+msgstr "%(tankName)s thuê miễn phí cho %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s cùng kíp lái"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s cùng kíp lái và chỗ để xe trong Ga-ra"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s cùng chỗ để xe trong Ga-ra"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "Gia hạn thuê %(tankName)s cho %(rentValue)s"

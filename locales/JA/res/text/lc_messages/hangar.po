@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "購入"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "次の消耗品が車輌に搭載されます: %(consumables)s"
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "消耗品を購入"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr "、"
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "搭乗員%(count)s名"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "既にこの車輌用の搭乗員を所有中"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "搭乗員%(count)s名"
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "新たな搭乗員を採用"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "こちらをご覧ください。"
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargamingが「T-34」の表記を用いるのは一般的な慣習に従って実在の戦車を示す場合に限られます。同様の名称を冠した商標やその権利者との間には何らの関係も存在しません。詳しくは{link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "弾薬を搭載"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "消耗品の搭載"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "ガレージスロット"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "交換"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "無料"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "搭乗員を%(count)s名採用"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "レンタル"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "レンタル"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "30日間レンタル"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "3日間レンタル"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "7日間レンタル"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "%(days)s日間レンタル"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "フロントライン・ステージ"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "フロントライン・シーズン"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "ランク戦のステージ"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "ランク戦のシーズン"
+
+msgid "buyVehicleWindow/restore"
+msgstr "リカバリー"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "無期限"
+
+msgid "buyVehicleWindow/title"
+msgstr "車輌構成"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "リカバリー"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "購入"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "下取り"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "下取り"
+
+msgid "carousel/filters/allVehicle"
+msgstr "所有済みの全車輌"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "搭乗員"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "性能"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}}戦"
+msgstr[1] "{{count}}戦"
+msgstr[2] "{{count}}戦"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}}日"
+msgstr[1] "{{count}}日"
+msgstr[2] "{{count}}日"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}}時間"
+msgstr[1] "{{count}}時間"
+msgstr[2] "{{count}}時間"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}}勝"
+msgstr[1] "{{count}}勝"
+msgstr[2] "{{count}}勝"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "車輌プレイリストに移動"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "マイ車輌"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "搭乗員の訓練や再訓練などといった管理操作を行うことができます。"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "搭乗員の管理"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "2Dスタイルや3Dスタイルなどをはじめとするカスタマイズ要素を車輌に適用できます。"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "カスタマイズ"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "で開く"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "車輌に関する情報を確認できるほか、研究、比較、修理を行うことができます。"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "車輌の管理"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "車輌の詳細"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "装甲"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "比較"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "自動再配属"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "搭乗員を戻す"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "兵舎に送る"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "搭乗員の再訓練"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "クイック整備"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "野戦改修"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "国籍変更"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "適用中"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "プロ・ブースト {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "急速訓練"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "修理"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "研究"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "アップグレード"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "この選択はいつでも変更できます。"
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "この車輌で「プロ・ブースト」が適用されています。"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "プロブーストは「ランダム戦」、「オンスロート」、「拠点戦」、「グローバルマップ」、「トーナメント」でのみ適用できます。"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "「プロ・ブースト」非対応のモード"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "「プロ・ブースト」はTier I～Xの研究可能車輌およびコレクション車輌にのみ適用できます。"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "「プロ・ブースト」非対応の車輌"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "現在、「プロ・ブースト」は{{vehicle}}に適用されています。車輌は{{time}}後に変更できます。"
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "時間をおいてから再度お試しください。"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "車輌は{{time}}後に変更できます。"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "この車輌で「プロ・ブースト」が適用されています。"

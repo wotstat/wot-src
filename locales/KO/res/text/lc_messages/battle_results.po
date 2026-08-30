@@ -1,0 +1,1532 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "allVehicles"
+msgstr "전체"
+
+msgid "battleRating/tooltip/better/body"
+msgstr "평소보다 즐겁고 밸런스도 잘 잡힌 전투였습니다."
+
+msgid "battleRating/tooltip/better/header"
+msgstr "만족"
+
+msgid "battleRating/tooltip/usual/body"
+msgstr "예상치 못한 일은 발생하지 않은 평범한 전투였습니다."
+
+msgid "battleRating/tooltip/usual/header"
+msgstr "평범"
+
+msgid "battleRating/tooltip/worse/body"
+msgstr "평소보다 불쾌하고 밸런스가 엉망이며 불공정한 전투였습니다."
+
+msgid "battleRating/tooltip/worse/header"
+msgstr "불만"
+
+msgid "battleResult/battleRating/better/header"
+msgstr "만족"
+
+msgid "battleResult/battleRating/none/header"
+msgstr "전투 평가"
+
+msgid "battleResult/battleRating/usual/header"
+msgstr "평범"
+
+msgid "battleResult/battleRating/worse/header"
+msgstr "불만"
+
+msgid "battleResult/comp7Light/team/prestigePoints/body"
+msgstr "영예 점수로 정렬"
+
+msgid "battleResult/comp7Light/team/prestigePoints/header"
+msgstr "영예 점수"
+
+msgid "battleResult/navigation/battleResults"
+msgstr "개요"
+
+msgid "battleResult/navigation/financialReport"
+msgstr "수익 보고서"
+
+msgid "battleResult/navigation/missionsProgress"
+msgstr "임무 진행"
+
+msgid "battleResult/navigation/teamEfficiency"
+msgstr "팀 점수"
+
+msgid "battleResult/team/prestigePoints/body"
+msgstr "영예 점수로 정렬합니다. 영예 점수는 전투에서 획득하거나 잃는 레이팅 점수에 영향을 미칩니다."
+
+msgid "battleResult/team/prestigePoints/header"
+msgstr "영예 점수"
+
+msgid "common/arena/fullName"
+msgstr "{0} – {1}"
+
+msgid "common/arena/nameAndMode"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/battleEfficiency/allies"
+msgstr "아군:"
+
+msgid "common/battleEfficiency/allyBase"
+msgstr "기지 방어"
+
+msgid "common/battleEfficiency/baseCapture"
+msgstr "기지 점령:"
+
+msgid "common/battleEfficiency/bases"
+msgstr "기지"
+
+msgid "common/battleEfficiency/enemyBase"
+msgstr "기지 점령"
+
+msgid "common/battleEfficiency/neutralBase"
+msgstr "중립 기지"
+
+msgid "common/battleEfficiency/noEfficiency"
+msgstr "이번 전투에서 아무 행동도 하지 않았습니다."
+
+msgid "common/battleEfficiency/none"
+msgstr "격파하거나 발견한 적 전차가 없습니다."
+
+msgid "common/battleEfficiency/technique"
+msgstr "전차"
+
+msgid "common/battleEfficiency/title"
+msgstr "전투 성과"
+
+msgid "common/battleEfficiency/uppercased_title"
+msgstr "전투 성과"
+
+msgid "common/battleEfficiencyWithSkills/title"
+msgstr "전투 성과 (사용한 기술 포함)"
+
+msgid "common/battleEfficiencyWithoutOreders/title"
+msgstr "전투 성과 (전시 물자 제외)"
+
+msgid "common/battleType/sortie"
+msgstr "쟁탈전 상대 클랜 "
+
+msgid "common/clanAbbrev"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "common/crewMember/description"
+msgstr "%(role)s, %(name)s"
+
+msgid "common/crewMember/newSkill"
+msgstr "신규 능력"
+
+msgid "common/details/buyPremiumBtn"
+msgstr "프리미엄 계정 결제"
+
+msgid "common/details/creditsTitle"
+msgstr "크레딧"
+
+msgid "common/details/crystal"
+msgstr "전쟁 채권"
+
+msgid "common/details/getPremBtn"
+msgstr "세부 정보"
+
+msgid "common/details/noPremTitle"
+msgstr "일반 계정"
+
+msgid "common/details/premTitle"
+msgstr "WoT 프리미엄"
+
+msgid "common/details/premiumAdvertising/bonus"
+msgstr "{{@ split}}월드 오브 탱크 프리미엄 계정 이용 시 승리한 전투에 경험치 {{multiplier}}배 보너스를 선택적으로 적용할 수 있습니다.{{/}}"
+
+msgid "common/details/premiumAdvertising/credits"
+msgstr "{{@ split}}월드 오브 탱크 프리미엄 계정 이용 시 {{@ style}}{{durationInDays}}일{{/}}마다 최대 {{bonusCredits}}을 획득할 수 있습니다.{{/}}"
+
+msgid "common/details/premiumPlus/bonus"
+msgstr "월드 오브 탱크 프리미엄 계정 보너스로 선택한 승리 전투에 %(multiplier)d배 경험치를 적용합니다."
+
+msgid "common/details/premiumPlus/credits"
+msgstr "월드 오브 탱크 프리미엄 계정 보너스로 %(durationInDays)d일간 최대 %(bonusCredits)s 크레딧을 획득할 수 있습니다."
+
+msgid "common/details/premiumPlus/premium"
+msgstr "월드 오브 탱크 프리미엄 계정을 사용하면 경험치, 크레딧, 프리미엄 임무, 소대 보너스를 획득할 수 있습니다."
+
+msgid "common/details/premiumPlus/quests"
+msgstr "월드 오브 탱크 프리미엄 계정을 활성화하고 특별 임무를 해제해 보십시오."
+
+msgid "common/details/premiumPlus/squad"
+msgstr "월드 오브 탱크 프리미엄 계정 활성화 시 소대로 플레이하면 더 많은 크레딧을 획득할 수 있습니다."
+
+msgid "common/details/xpTitle"
+msgstr "일반 경험치"
+
+msgid "common/details/xpTitleSquad"
+msgstr "경험치 %(img)s"
+
+msgid "common/fitting/purchase"
+msgstr "부품 구매"
+
+msgid "common/fitting/research"
+msgstr "부품 연구"
+
+msgid "common/mainFinishReasonTitle"
+msgstr "기본 전투 단계:"
+
+msgid "common/missions/noProgress/button"
+msgstr "임무로 이동"
+
+msgid "common/missions/noProgress/description"
+msgstr "임무 진행 현황 확인"
+
+msgid "common/missions/noProgress/header"
+msgstr "진행 중인 임무 또는 전차 연구가 없습니다."
+
+msgid "common/newSkillPrediction"
+msgstr "예상 전투 횟수: %(battles)s"
+
+msgid "common/noIncome/alert/text"
+msgstr "전투에 10번 참여한 후에는 전차 훈련소에서 크레딧과 경험치를 포함한 보상을 받을 수 없으며 개인 전적에도 포함되지 않습니다."
+
+msgid "common/noIncome/alert/title"
+msgstr "주의!"
+
+msgid "common/noProgress"
+msgstr "임무, 전차 연구, 승무원 훈련 진행 상황이 없습니다."
+
+msgid "common/overtimeFinishReasonTitle"
+msgstr "추가 시간:"
+
+msgid "common/player/nameWithClan"
+msgstr "{{name}} [{{clan}}]"
+
+msgid "common/plusBonus/bonusLeftAdditionalText"
+msgstr "추가 이용 가능"
+
+msgid "common/plusBonus/earnedMessage"
+msgstr "오늘 수익:"
+
+msgid "common/plusBonus/earningsInformation"
+msgstr "오늘의 경험치 획득량 %(count)s"
+
+msgid "common/plusBonus/premiumPlusAdd"
+msgstr "WoT 플러스/프리미엄 계정 활성화 시 해제"
+
+msgid "common/plusBonus/wotPlus"
+msgstr "WoT 플러스"
+
+msgid "common/plusBonus/wotPremium"
+msgstr "월드 오브 탱크 프리미엄 계정"
+
+msgid "common/plusBonus/youRock"
+msgstr "잘하셨습니다!"
+
+msgid "common/premiumBonus"
+msgstr "더 많은 수익"
+
+msgid "common/premiumBonus/appliedBonus"
+msgstr "보너스 적용 완료"
+
+msgid "common/premiumBonus/applyBonusBtn"
+msgstr "적용"
+
+msgid "common/premiumBonus/bonusLeft"
+msgstr "오늘 남은 횟수: %(count)s"
+
+msgid "common/premiumBonus/bonusMultiplier"
+msgstr "×{{value}}"
+
+msgid "common/premiumBonus/description"
+msgstr "선택식 경험치 보너스"
+
+msgid "common/premiumBonus/earnMore"
+msgstr "더 많은 수익"
+
+msgid "common/premiumBonus/expiredBattleResult"
+msgstr "각 전차로 참여한 가장 최근 전투에만 적용할 수 있습니다."
+
+msgid "common/premiumBonus/isXPToTmenDisabled"
+msgstr "보너스 적용 불가: 승무원 급속 훈련 비활성화"
+
+msgid "common/premiumBonus/isXPToTmenDisabledWithInfo"
+msgstr "{{@ split}}보너스 적용 불가: 승무원 급속 훈련{{@ style}} 비활성화{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/isXPToTmenEnabled"
+msgstr "보너스 적용 불가: 승무원 급속 훈련 활성화"
+
+msgid "common/premiumBonus/isXPToTmenEnabledWithInfo"
+msgstr "{{@ split}}보너스 적용 불가: 승무원 급속 훈련{{@ style}} 활성화{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/rule"
+msgstr "승리한 전투에만 적용할 수 있습니다. 다음 전투에서 승리해 보십시오!"
+
+msgid "common/premiumBonus/tankStateChanged"
+msgstr "선택식 보너스 적용 불가: 전차를 찾을 수 없음"
+
+msgid "common/premiumBonus/tankStateChangedWithInfo"
+msgstr "{{@ split}}선택식 보너스 적용 불가: 전차를 {{@ style}}찾을 수 없음{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/tankmenStateChanged"
+msgstr "선택식 보너스 적용 불가: 승무원을 찾을 수 없음"
+
+msgid "common/premiumBonus/tankmenStateChangedWithInfo"
+msgstr "{{@ split}}선택식 보너스 적용 불가: 승무원을 {{@ style}}찾을 수 없음{{info}}{{/}}{{/}}"
+
+msgid "common/premiumBonus/unavailable"
+msgstr "해당 게임 모드에서는 이용할 수 없습니다."
+
+msgid "common/progressTitle"
+msgstr "전차 연구 및 임무 진행 상황"
+
+msgid "common/quests/noprogress"
+msgstr "진행 중인 임무 없음"
+
+msgid "common/researchPrediction"
+msgstr "예상 전투 횟수: %(battles)s"
+
+msgid "common/resultsShareBtn"
+msgstr "링크 복사"
+
+msgid "common/startTime"
+msgstr "{{0}}, {{1}}"
+
+msgid "common/tooltip/armor/description"
+msgstr "포함\n• 도탄\n• 비관통\n\n고폭탄 및 점착유탄 제외"
+
+msgid "common/tooltip/armor/header"
+msgstr "장갑 활용"
+
+msgid "common/tooltip/armor/part1"
+msgstr "도탄"
+
+msgid "common/tooltip/armor/part2"
+msgstr "비관통"
+
+msgid "common/tooltip/armor/part3"
+msgstr "장갑으로 막은 피해 %(vals)s"
+
+msgid "common/tooltip/assist/description"
+msgstr "포함\n• 적 전차 발견에 의한 도움 피해\n• 적 궤도 파괴 및 이동 불가 상태 유발에 의한 도움 피해"
+
+msgid "common/tooltip/assist/header"
+msgstr "도움 피해"
+
+msgid "common/tooltip/assist/part1"
+msgstr "적 전차 발견에 의한 도움 피해 %(vals)s"
+
+msgid "common/tooltip/assist/part2"
+msgstr "적 궤도 파괴 및 이동 불가 상태 유발에 의한 도움 피해 %(vals)s"
+
+msgid "common/tooltip/assist/total"
+msgstr "아군이 적 전차에 입힌 총 피해 %(vals)s"
+
+msgid "common/tooltip/capture/description"
+msgstr "포함\n• 적군 기지 점령 점수\n• 중립 기지 점령 점수"
+
+msgid "common/tooltip/capture/header"
+msgstr "기지 점령"
+
+msgid "common/tooltip/capture/totalPoints"
+msgstr "총 기지 점령 점수"
+
+msgid "common/tooltip/counter"
+msgstr "약장 획득: %(count)s"
+
+msgid "common/tooltip/counter/forEnemy"
+msgstr "적군 약장 획득: %(count)s"
+
+msgid "common/tooltip/counter/noItems"
+msgstr "획득 약장이 없습니다."
+
+msgid "common/tooltip/crits/critDamage"
+msgstr "손상"
+
+msgid "common/tooltip/crits/critDestruction"
+msgstr "파괴"
+
+msgid "common/tooltip/crits/critWound"
+msgstr "부상"
+
+msgid "common/tooltip/crits/description"
+msgstr "포함\n• 적 전차의 외부 또는 내부 부품 손상\n• 적 전차의 외부 또는 내부 부품 파괴\n• 적 전차의 승무원 부상"
+
+msgid "common/tooltip/crits/header"
+msgstr "전차 손상"
+
+msgid "common/tooltip/crits/total"
+msgstr "총합"
+
+msgid "common/tooltip/damage/description"
+msgstr "포함\n• 사격에 의한 피해\n• 충돌에 의한 피해\n• 화재에 의한 피해\n• 충격에 의한 피해"
+
+msgid "common/tooltip/damage/header"
+msgstr "피해 기록"
+
+msgid "common/tooltip/damage/part1"
+msgstr "총 피해량 %(vals)s"
+
+msgid "common/tooltip/damage/part2"
+msgstr "총 관통 수"
+
+msgid "common/tooltip/defence/description"
+msgstr "포함\n• 아군 기지 방어 점수\n• 중립 기지 방어 점수"
+
+msgid "common/tooltip/defence/header"
+msgstr "기지 방어"
+
+msgid "common/tooltip/defence/totalPoints"
+msgstr "총 기지 방어 점수"
+
+msgid "common/tooltip/kill/header"
+msgstr "전차 격파"
+
+msgid "common/tooltip/kill0/description"
+msgstr "포탄에 의한 격파"
+
+msgid "common/tooltip/kill1/description"
+msgstr "화재에 의한 격파"
+
+msgid "common/tooltip/kill2/description"
+msgstr "충돌에 의한 격파"
+
+msgid "common/tooltip/kill3/description"
+msgstr "적 전차 충돌"
+
+msgid "common/tooltip/kill4/description"
+msgstr "금지구역에서 파괴된 적 전차"
+
+msgid "common/tooltip/kill5/description"
+msgstr "침수된 적 전차"
+
+msgid "common/tooltip/kill6/description"
+msgstr "화염폭풍으로 격파"
+
+msgid "common/tooltip/kill7/description"
+msgstr "전복에 의한 격파"
+
+msgid "common/tooltip/killCommon/description"
+msgstr "포함\n• 사격에 의한 격파\n• 화재에 의한 격파\n• 충돌에 의한 격파\n• 침수에 의한 격파\n• 추락과 침수 유도에 의한 격파\n• 전복에 의한 격파"
+
+msgid "common/tooltip/params/val"
+msgstr "(HP)"
+
+msgid "common/tooltip/params/val/seconds"
+msgstr "(초)"
+
+msgid "common/tooltip/spotted/description"
+msgstr "적 전차를 처음으로 발견했을 때만 기록됩니다."
+
+msgid "common/tooltip/spotted/header"
+msgstr "전차 발견"
+
+msgid "common/tooltip/stun/description"
+msgstr "포함\n• 폭발 충격에 의한 도움 피해"
+
+msgid "common/tooltip/stun/header"
+msgstr "폭발 충격"
+
+msgid "common/tooltip/stun/part1"
+msgstr "총 피해량 %(vals)s"
+
+msgid "common/tooltip/stun/part2"
+msgstr "폭발 충격 기록 횟수"
+
+msgid "common/tooltip/stun/part3"
+msgstr "폭발 충격 지속 시간 기록: %(vals)s"
+
+msgid "common/tooltip/teamKill-1/description"
+msgstr "아군 전차 격파"
+
+msgid "common/tooltip/teamKill/header"
+msgstr "아군 격파"
+
+msgid "common/tooltip/teamKill0/description"
+msgstr "포탄으로 파괴"
+
+msgid "common/tooltip/teamKill1/description"
+msgstr "화재로 파괴"
+
+msgid "common/tooltip/teamKill2/description"
+msgstr "충돌로 파괴"
+
+msgid "common/tooltip/teamKill3/description"
+msgstr "아군 전차 충돌"
+
+msgid "common/tooltip/teamKill4/description"
+msgstr "금지구역에서 파괴된 아군 전차"
+
+msgid "common/tooltip/teamKill5/description"
+msgstr "침수된 아군 전차"
+
+msgid "common/tooltip/xpTitleSquad"
+msgstr "해당 전투에서 소대로 플레이하여 추가 경험치를 획득했습니다."
+
+msgid "common/totalTooltip/armor/part1"
+msgstr "도탄"
+
+msgid "common/totalTooltip/armor/part2"
+msgstr "비관통"
+
+msgid "common/totalTooltip/armor/part3"
+msgstr "장갑으로 막은 피해"
+
+msgid "common/totalTooltip/assist/part1"
+msgstr "적 전차 발견에 의한 도움 피해"
+
+msgid "common/totalTooltip/assist/part2"
+msgstr "적 궤도 파괴 및 이동 불가 상태 유발에 의한 도움 피해"
+
+msgid "common/totalTooltip/assist/total"
+msgstr "아군이 적 전차에 입힌 총 피해"
+
+msgid "common/totalTooltip/damage/part1"
+msgstr "총 피해 기록"
+
+msgid "common/totalTooltip/damage/part2"
+msgstr "총 관통 수"
+
+msgid "common/totalTooltip/stun/part1"
+msgstr "총 피해 기록"
+
+msgid "common/totalTooltip/stun/part2"
+msgstr "폭발 충격 기록 횟수"
+
+msgid "common/totalTooltip/stun/part3"
+msgstr "총 폭발 충격 지속 시간"
+
+msgid "common/vehicle/details"
+msgstr "%(vehicle)s, %(type)s"
+
+msgid "common/vehicle/purchase"
+msgstr "전차 구매"
+
+msgid "common/vehicle/research"
+msgstr "전차 연구"
+
+msgid "common/vehicleState/alive"
+msgstr "생존"
+
+msgid "common/vehicleState/dead0"
+msgstr "포탄 피격에 의한 파괴"
+
+msgid "common/vehicleState/dead0_with_killername"
+msgstr "포탄 피격에 의한 파괴 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead0_with_killername_and_clan"
+msgstr "포탄 피격에 의한 파괴 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead1"
+msgstr "화재에 의한 파괴"
+
+msgid "common/vehicleState/dead12"
+msgstr "자폭"
+
+msgid "common/vehicleState/dead13"
+msgstr "플레이어 기술에 의해 파괴"
+
+msgid "common/vehicleState/dead1_with_killername"
+msgstr "화재에 의한 파괴 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead1_with_killername_and_clan"
+msgstr "화재에 의한 파괴 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead2"
+msgstr "충돌에 의한 파괴"
+
+msgid "common/vehicleState/dead27"
+msgstr "포격 지원으로 전차 파괴"
+
+msgid "common/vehicleState/dead29"
+msgstr "충돌"
+
+msgid "common/vehicleState/dead2_with_killername"
+msgstr "충돌에 의한 파괴 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead2_with_killername_and_clan"
+msgstr "충돌에 의한 파괴 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead3"
+msgstr "충돌"
+
+msgid "common/vehicleState/dead30"
+msgstr "포탄 피격에 의한 파괴"
+
+msgid "common/vehicleState/dead30_with_killername"
+msgstr "포탄 피격에 의한 파괴 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead30_with_killername_and_clan"
+msgstr "포탄 피격에 의한 파괴 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead35"
+msgstr "충돌"
+
+msgid "common/vehicleState/dead3_with_killername"
+msgstr "추락에 의한 파괴 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead3_with_killername_and_clan"
+msgstr "추락에 의한 파괴 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead4"
+msgstr "금지구역에 의한 파괴"
+
+msgid "common/vehicleState/dead5"
+msgstr "전차 침수"
+
+msgid "common/vehicleState/dead5_with_killername"
+msgstr "전차 침수 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead5_with_killername_and_clan"
+msgstr "전차 침수 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/dead6"
+msgstr "화염폭풍으로 격파"
+
+msgid "common/vehicleState/dead7"
+msgstr "전차 전복으로 파괴"
+
+msgid "common/vehicleState/dead7_with_killername"
+msgstr "전차 전복으로 파괴 ({{@ class $killerClass}}{{killername}}{{/}})"
+
+msgid "common/vehicleState/dead7_with_killername_and_clan"
+msgstr "전차 전복으로 파괴 ({{@ class $killerClass}}{{killername}}[{{clanTag}}]{{/}})"
+
+msgid "common/vehicleState/prematureLeave"
+msgstr "전장 이탈"
+
+msgid "common/vehicleState/victory"
+msgstr "승리!"
+
+msgid "common/wotPlusBonus/bonusLeft"
+msgstr "오늘 남은 횟수: %(count)s"
+
+msgid "common/xpMultiplierSign"
+msgstr "x"
+
+msgid "comms/likes/pbs/text/01"
+msgstr "이번 전투에서 받은 칭찬"
+
+msgid "comms/likes/pbs/tooltip/body"
+msgstr "{{var}} 이번 전투에서 칭찬을 받았습니다."
+
+msgid "comms/likes/pbs/tooltip/bodySingle"
+msgstr "{{var}} 이번 전투에서 칭찬을 받았습니다."
+
+msgid "comms/likes/pbs/tooltip/header"
+msgstr "칭찬 받음"
+
+msgid "conditions/type/and"
+msgstr "및"
+
+msgid "conditions/type/or"
+msgstr "또는"
+
+msgid "customizationProgress/award/newLevel"
+msgstr "\"%(name)s\" 데칼 레벨 %(level)s 달성"
+
+msgid "customizationProgress/award/received"
+msgstr "\"%(name)s\" 데칼 획득 %(count)s"
+
+msgid "customizationProgress/descr"
+msgstr "레벨 %(level)s \"%(name)s\" 데칼"
+
+msgid "cyberSport/btnToTeamProfile"
+msgstr "팀 프로필"
+
+msgid "cyberSport/points"
+msgstr "점수:"
+
+msgid "cyberSport/status/lose"
+msgstr "패배"
+
+msgid "cyberSport/status/tie"
+msgstr "무승부"
+
+msgid "cyberSport/status/win"
+msgstr "승리!"
+
+msgid "details/calculations/additionalBonus"
+msgstr "선택식 경험치 보너스"
+
+msgid "details/calculations/aogasFactor"
+msgstr "감소 계수 (AOGAS)"
+
+msgid "details/calculations/autoBoosters"
+msgstr "자동 재보급"
+
+msgid "details/calculations/autoEquip"
+msgstr "소모품 자동 보급"
+
+msgid "details/calculations/autoLoad"
+msgstr "포탄 자동 보급"
+
+msgid "details/calculations/autoRepair"
+msgstr "전차 자동 수리"
+
+msgid "details/calculations/autoResupply"
+msgstr "자동 재보급"
+
+msgid "details/calculations/base"
+msgstr "획득"
+
+msgid "details/calculations/battlePayments"
+msgstr "전투 수당"
+
+msgid "details/calculations/boosters"
+msgstr "개인 물자 보너스"
+
+msgid "details/calculations/crystal/events"
+msgstr "임무 완료"
+
+msgid "details/calculations/crystal/total"
+msgstr "전차 혜택"
+
+msgid "details/calculations/event"
+msgstr "임무 및 이벤트 완료 보상"
+
+msgid "details/calculations/fairPlayViolation/afk"
+msgstr "자리 비움 벌금"
+
+msgid "details/calculations/fairPlayViolation/comp7_deserter"
+msgstr "전장 이탈 벌금"
+
+msgid "details/calculations/fairPlayViolation/comp7_light_deserter"
+msgstr "전장 이탈 벌금"
+
+msgid "details/calculations/fairPlayViolation/deserter"
+msgstr "전장 이탈 벌금"
+
+msgid "details/calculations/fairPlayViolation/epic_deserter"
+msgstr "전장 이탈 벌금"
+
+msgid "details/calculations/fairPlayViolation/event_afk"
+msgstr "자리 비움 벌금"
+
+msgid "details/calculations/fairPlayViolation/event_deserter"
+msgstr "전장 이탈 벌금"
+
+msgid "details/calculations/fairPlayViolation/suicide"
+msgstr "고의 자폭 벌금"
+
+msgid "details/calculations/firstWin"
+msgstr "첫 승리 보상"
+
+msgid "details/calculations/fortOrder"
+msgstr "물자 사용 보너스"
+
+msgid "details/calculations/friendlyFireCompensation"
+msgstr "아군이 입힌 피해에 대한 보상"
+
+msgid "details/calculations/friendlyFirePenalty"
+msgstr "아군에 입힌 피해에 대한 벌금"
+
+msgid "details/calculations/friendlyFireRankedXpPenalty"
+msgstr "아군 전차에 기록한 폭발 충격 및 피해 벌금"
+
+msgid "details/calculations/heavyTrucks"
+msgstr "대량 수송"
+
+msgid "details/calculations/igrBonus"
+msgstr "%(igrIcon)s 플레이 보상"
+
+msgid "details/calculations/igrBonus/simpleLabel"
+msgstr "PC방 보너스"
+
+msgid "details/calculations/intermediateTotal"
+msgstr "총 획득량"
+
+msgid "details/calculations/manageableXpBonus"
+msgstr "선택식 경험치 보너스"
+
+msgid "details/calculations/maximum"
+msgstr "최고 기록"
+
+msgid "details/calculations/militaryManeuvers"
+msgstr "군사 작전"
+
+msgid "details/calculations/multiplierInfo/body"
+msgstr "매일 첫 승리 경험치 보너스 "
+
+msgid "details/calculations/multiplierInfo/header"
+msgstr "첫 승리 보상"
+
+msgid "details/calculations/multiplierInfo/vehicleSeparator"
+msgstr "• "
+
+msgid "details/calculations/noPenalty"
+msgstr "용맹한 저항"
+
+msgid "details/calculations/petCredits/fullLabel"
+msgstr "동물 대원 보너스 (%(bonusFactor)d%)"
+
+msgid "details/calculations/petCredits/simpleLabel"
+msgstr "동물 대원 보너스"
+
+msgid "details/calculations/piggyBankInfo"
+msgstr "금고에 추가"
+
+msgid "details/calculations/playerRankXP"
+msgstr "계급 보너스"
+
+msgid "details/calculations/premiumVehicleXP"
+msgstr "프리미엄 전차 보너스"
+
+msgid "details/calculations/referralBonus"
+msgstr "친구 초대 보너스 (%(bonusFactor)d%%)"
+
+msgid "details/calculations/referralBonus/fullLabel"
+msgstr "친구 초대 보너스 (%(bonusFactor)d%)"
+
+msgid "details/calculations/referralBonus/simpleLabel"
+msgstr "친구 초대 보너스"
+
+msgid "details/calculations/squad/restrictions/title"
+msgstr "소대 플레이"
+
+msgid "details/calculations/squadBonus"
+msgstr "소대 플레이 보너스"
+
+msgid "details/calculations/squadXP"
+msgstr "소대 플레이"
+
+msgid "details/calculations/squadXPPenalty"
+msgstr "단계 불일치 소대 구성 페널티"
+
+msgid "details/calculations/tacticalTraining"
+msgstr "전술 훈련"
+
+msgid "details/calculations/title/base"
+msgstr "획득"
+
+msgid "details/calculations/title/expenses"
+msgstr "지출"
+
+msgid "details/calculations/title/total"
+msgstr "총합"
+
+msgid "details/calculations/total"
+msgstr "총합"
+
+msgid "details/calculations/wotPlus"
+msgstr "WoT 플러스 전투 보너스"
+
+msgid "details/calculations/wotPlusBonus"
+msgstr "WoT 플러스 전투 보너스"
+
+msgid "details/calculations/wotPlusProBoost"
+msgstr "WoT 플러스 프로 부스트"
+
+msgid "details/calculations/xpRecord"
+msgstr "획득 (%(color_tag_open)s최고 기록%(color_tag_close)s)"
+
+msgid "details/calculations/xpRecordSimple"
+msgstr "획득 (%(maximum)s)"
+
+msgid "details/credits"
+msgstr "크레딧"
+
+msgid "details/crystal"
+msgstr "전쟁 채권"
+
+msgid "details/noPrem"
+msgstr "일반"
+
+msgid "details/prem"
+msgstr "워게이밍 프리미엄"
+
+msgid "details/premPlus"
+msgstr "월드오브탱크 프리미엄"
+
+msgid "details/resource"
+msgstr "자원"
+
+msgid "details/stats"
+msgstr "세부 기록"
+
+msgid "details/time"
+msgstr "시간"
+
+msgid "details/time/lbl_arenaCreateTimeOnlyStr"
+msgstr "전투 시작 시각"
+
+msgid "details/time/lbl_basesCaptured"
+msgstr "기지 점령 완료"
+
+msgid "details/time/lbl_duration"
+msgstr "전투 소요 시간"
+
+msgid "details/time/lbl_objectivesDestroyed"
+msgstr "군사 시설 파괴"
+
+msgid "details/time/lbl_objectivesReached"
+msgstr "군사 시설 도달"
+
+msgid "details/time/lbl_playerKilled"
+msgstr "파괴 전까지 전투 소요 시간"
+
+msgid "details/time/val_no"
+msgstr "실패"
+
+msgid "details/time/val_yes"
+msgstr "성공"
+
+msgid "details/time/value"
+msgstr "%(min)s분 %(sec)s초"
+
+msgid "details/time_epic"
+msgstr "전투"
+
+msgid "details/xp"
+msgstr "일반 경험치"
+
+msgid "details/xp_abbr"
+msgstr "경험치"
+
+msgid "exterminationVictory/allies"
+msgstr "아군이 모든 적 전차 격파"
+
+msgid "exterminationVictory/enemies"
+msgstr "적군이 모든 아군 전차 파괴"
+
+msgid "fallout/classic/lose/cap"
+msgstr "적군이 아군보다 더 많은 승리 점수 획득"
+
+msgid "fallout/classic/lose/extermination"
+msgstr "적군이 모든 아군 전차 파괴"
+
+msgid "fallout/classic/lose/points"
+msgstr "적군이 아군보다 더 많은 승리 점수 획득"
+
+msgid "fallout/classic/tie"
+msgstr "양팀 승리 점수 같음"
+
+msgid "fallout/classic/win/cap"
+msgstr "아군이 적군보다 더 많은 승리 점수 획득"
+
+msgid "fallout/classic/win/extermination"
+msgstr "아군이 모든 적 전차 격파"
+
+msgid "fallout/classic/win/points"
+msgstr "아군이 적군보다 더 많은 승리 점수 획득"
+
+msgid "fallout/multiteam/ended"
+msgstr "목표 달성 실패"
+
+msgid "fallout/multiteam/noPlayerSelected"
+msgstr "상세 정보를 확인하려면\n목록에서 플레이어를 선택하십시오."
+
+msgid "fallout/multiteam/win/cap"
+msgstr "아군이 적군보다 더 많은 승리 점수 획득"
+
+msgid "fallout/multiteam/win/extermination"
+msgstr "모든 적 원정군 격파"
+
+msgid "fallout/multiteam/win/points"
+msgstr "아군이 적군보다 더 많은 승리 점수 획득"
+
+msgid "finish/clanBattle_reason_attack/1lose"
+msgstr "%(buildingName)s 함락 실패"
+
+msgid "finish/clanBattle_reason_attack/1tie"
+msgstr "%(buildingName)s 함락"
+
+msgid "finish/clanBattle_reason_attack/1win"
+msgstr "함락된 군영: %(buildingName)s"
+
+msgid "finish/clanBattle_reason_def/1lose"
+msgstr "적에게 %(buildingName)s 함락"
+
+msgid "finish/clanBattle_reason_def/1tie"
+msgstr "%(buildingName)s 함락 실패"
+
+msgid "finish/clanBattle_reason_def/1win"
+msgstr "방어 성공: %(buildingName)s"
+
+msgid "finish/clarification/finishAllPlayersLeft"
+msgstr "결과는 남은 팀 정보를 기반으로 산출"
+
+msgid "finish/overtime/lose"
+msgstr "적 격파 실패"
+
+msgid "finish/overtime/win"
+msgstr "적 격파 성공"
+
+msgid "finish/playerTank/separator"
+msgstr "–"
+
+msgid "finish/reason/0"
+msgstr "알 수 없는 이유"
+
+msgid "finish/reason/10lose"
+msgstr "군사 시설 생존"
+
+msgid "finish/reason/10win"
+msgstr "군사 시설 파괴"
+
+msgid "finish/reason/1lose"
+msgstr "모든 아군 전차가 파괴되었습니다."
+
+msgid "finish/reason/1tie"
+msgstr "모든 전차가 파괴되었습니다!"
+
+msgid "finish/reason/1win"
+msgstr "모든 적 전차가 격파되었습니다."
+
+msgid "finish/reason/2"
+msgstr "기지 점령"
+
+msgid "finish/reason/3"
+msgstr "전투 시간 만료"
+
+msgid "finish/reason/4"
+msgstr "시스템 오류로 전투가 종료되었습니다."
+
+msgid "finish/reason/5"
+msgstr "전략 패배"
+
+msgid "finish/reason/8"
+msgstr "아군 파괴"
+
+msgid "finish/reason/9"
+msgstr "전차 파괴"
+
+msgid "garage/uniqueDamage"
+msgstr "부품 손상/파괴 및 승무원 부상은 한 번만 계산됩니다."
+
+msgid "getPremiumPopover/actionBtn/label"
+msgstr "구매"
+
+msgid "getPremiumPopover/award"
+msgstr "+50% 크레딧 및 경험치"
+
+msgid "getPremiumPopover/descriptionText"
+msgstr "%(prem)s을 구매하면 전투당 %(award)s 보상을 추가로 획득할 수 있습니다."
+
+msgid "getPremiumPopover/headerText"
+msgstr "획득 가능 추가 보상"
+
+msgid "getPremiumPopover/prem"
+msgstr "프리미엄 계정"
+
+msgid "missionsProgress/aboutVehicle/button"
+msgstr "연구로 이동"
+
+msgid "missionsProgress/aboutVehicle/description"
+msgstr "연구 가능"
+
+msgid "missionsProgress/aboutVehicle/prediction"
+msgstr "예상 전투 횟수: {{prediction}}"
+
+msgid "missionsProgress/aboutVehicle/title"
+msgstr "전차 정보"
+
+msgid "missionsProgress/battleMatters/doneInfo"
+msgstr "#{{name}} 임무를 완료했습니다."
+
+msgid "missionsProgress/battleMatters/title"
+msgstr "기갑학교"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/module"
+msgstr "새로운 부품 해제!"
+
+msgid "missionsProgress/notificationsTabs/aboutVehicle/vehicle"
+msgstr "새로운 전차 해제!"
+
+msgid "missionsProgress/notificationsTabs/battleMatters"
+msgstr "기갑학교 임무 완료!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/chapterComplete"
+msgstr "챕터 완료!"
+
+msgid "missionsProgress/notificationsTabs/battlePass/stageComplete"
+msgstr "스테이지 완료!"
+
+msgid "missionsProgress/notificationsTabs/challenge"
+msgstr "시련의 장 임무 완료!"
+
+msgid "missionsProgress/notificationsTabs/common"
+msgstr "임무 완료!"
+
+msgid "missionsProgress/notificationsTabs/daily"
+msgstr "일일 임무 완료!"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/maxLevel"
+msgstr "최고 정예 레벨"
+
+msgid "missionsProgress/notificationsTabs/eliteSystem/newLevel"
+msgstr "새로운 정예 레벨"
+
+msgid "missionsProgress/notificationsTabs/epic"
+msgstr "특별 임무 완료!"
+
+msgid "missionsProgress/notificationsTabs/personalMissions/operation_mission_complete"
+msgstr "작전 임무 완료!"
+
+msgid "missionsProgress/notificationsTabs/premium"
+msgstr "프리미엄 임무 완료!"
+
+msgid "missionsProgress/notificationsTabs/weekly"
+msgstr "주간 임무 완료!"
+
+msgid "noData"
+msgstr "죄송합니다. 전투 결과를 확인할 수 없습니다."
+
+msgid "personalQuest/bonus/descr"
+msgstr "해당 전투 기본 조건 진행 상황에 %(value)s 배수가 적용되었습니다."
+
+msgid "personalQuest/bonus/multiplier"
+msgstr "%(value)s배:"
+
+msgid "personalQuest/failed/attention"
+msgstr "주의!"
+
+msgid "personalQuest/failed/descr"
+msgstr "해당 임무 진행 상황이 초기화되었습니다. 임무 진행이 처음부터 다시 시작됩니다."
+
+msgid "players/enemy/unknown"
+msgstr "적군"
+
+msgid "players/teammate/unknown"
+msgstr "플레이어"
+
+msgid "prestige/common/description"
+msgstr "정예 점수 획득:"
+
+msgid "prestige/max/description"
+msgstr "최고 정예 레벨을 달성했습니다."
+
+msgid "prestige/maxLevelReached/description"
+msgstr "최고 정예 레벨 달성"
+
+msgid "prestige/newLevelAchieved/description"
+msgstr "새로운 정예 레벨 달성"
+
+msgid "prestige/title"
+msgstr "정예 시스템"
+
+msgid "progression/completed"
+msgstr "완료"
+
+msgid "progression/completedPointsFrom/withLabel"
+msgstr "{{@class $labelClass}}완료:{{/}} {{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/completedPointsFrom/withoutLabel"
+msgstr "{{completed}} {{@class $totalClass}}{{@class $dividerClass}}/ {{/}}{{total}}{{/}}"
+
+msgid "progression/linkBtn/info"
+msgstr "세부 정보를 확인합니다."
+
+msgid "progression/missionsCompleteCounter"
+msgstr "{{@class $labelClass}}완료:{{/}} {{completed}}"
+
+msgid "progression/progressUnavailable"
+msgstr "현재 정예 시스템을 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "progression/totalEarned"
+msgstr "총 획득: {{value}}"
+
+msgid "progressiveReward/descr"
+msgstr "전투에 참여하고 보상을 획득해 보십시오. 전투에 더 많이 참여할수록 보상에 가까워집니다."
+
+msgid "selectVehicle"
+msgstr "전차 선택"
+
+msgid "status/lose"
+msgstr "패배"
+
+msgid "status/tie"
+msgstr "무승부"
+
+msgid "status/win"
+msgstr "승리"
+
+msgid "tankSelector/next"
+msgstr "경험치 보너스 적용 전차"
+
+msgid "team/damageAndConsumablesHeader/body"
+msgstr "입힌 피해량으로 정렬\n전시 물자 피해 포함"
+
+msgid "team/damageAndConsumablesHeader/header"
+msgstr "입힌 피해"
+
+msgid "team/damageHeader/body"
+msgstr "적 전차에 입힌 피해량으로 정렬"
+
+msgid "team/damageHeader/header"
+msgstr "적 전차에 입힌 피해량"
+
+msgid "team/damageHeaderNoSort/header"
+msgstr "입힌 피해"
+
+msgid "team/deaths/body"
+msgstr "플레이어의 적 전차 격파 수로 정렬"
+
+msgid "team/deaths/header"
+msgstr "전차 파괴"
+
+msgid "team/deathsNoSort/header"
+msgstr "전차 파괴"
+
+msgid "team/epicRankHeader/body"
+msgstr "전투 중 달성한 계급순으로 정렬"
+
+msgid "team/epicRankHeader/header"
+msgstr "계급"
+
+msgid "team/epicRespawnHeader/body"
+msgstr "전투 중 배치 횟수로 정렬"
+
+msgid "team/epicRespawnHeader/header"
+msgstr "전투 배치 횟수"
+
+msgid "team/falloutFragHeader/body"
+msgstr "격파한 적 전차 수로 정렬\n전시 물자 피해 포함"
+
+msgid "team/falloutFragHeader/header"
+msgstr "격파한 적 전차 수"
+
+msgid "team/falloutResourcePoints/body"
+msgstr "거점 점령 점수 획득량으로 정렬"
+
+msgid "team/falloutResourcePoints/header"
+msgstr "점령"
+
+msgid "team/flags/body"
+msgstr "깃발 운반 수로 정렬"
+
+msgid "team/flags/header"
+msgstr "깃발 운반"
+
+msgid "team/flagsNoSort/header"
+msgstr "깃발 운반"
+
+msgid "team/fragHeader/body"
+msgstr "적 전차 격파 수로 정렬"
+
+msgid "team/fragHeader/header"
+msgstr "적 전차 격파"
+
+msgid "team/fragHeaderNoSort/header"
+msgstr "전차 격파"
+
+msgid "team/healthHeader/body"
+msgstr "남은 내구도로 분류"
+
+msgid "team/healthHeader/header"
+msgstr "내구도"
+
+msgid "team/medalHeader/body"
+msgstr "획득한 훈장으로 정렬"
+
+msgid "team/medalHeader/header"
+msgstr "훈장"
+
+msgid "team/playerHeader/body"
+msgstr "플레이어 이름으로 정렬"
+
+msgid "team/playerHeader/header"
+msgstr "플레이어 이름"
+
+msgid "team/playerHeaderNoSort/header"
+msgstr "이름"
+
+msgid "team/playerNumber/body"
+msgstr "팀 구성원 번호로 정렬"
+
+msgid "team/playerNumber/header"
+msgstr "구성원"
+
+msgid "team/rankHeader/body"
+msgstr "랭크로 정렬"
+
+msgid "team/rankHeader/header"
+msgstr "랭크"
+
+msgid "team/resourceHeader/body"
+msgstr "자원 획득량으로 정렬"
+
+msgid "team/resourceHeader/header"
+msgstr "자원"
+
+msgid "team/squadHeader/body"
+msgstr "소대로 정렬"
+
+msgid "team/squadHeader/header"
+msgstr "소대"
+
+msgid "team/squadHeaderNoSort/header"
+msgstr "소대"
+
+msgid "team/stats/allies"
+msgstr "아군"
+
+msgid "team/stats/close"
+msgstr "닫기"
+
+msgid "team/stats/enemies"
+msgstr "적군"
+
+msgid "team/stats/enemyTeam"
+msgstr "적군"
+
+msgid "team/stats/infotip_xpForAssist/body"
+msgstr "도움 피해\n• 적 전차 발견, 궤도 파괴 및 이동 불가 상태 유발, 폭발 충격을 기록한 적 전차에 아군이 피해 기록\n• 기지 점령\n• 적 전차를 처음으로 발견"
+
+msgid "team/stats/infotip_xpForAssist/header"
+msgstr "도움 피해"
+
+msgid "team/stats/infotip_xpForAttack/body"
+msgstr "피해 기록 및 격파\n• 직접 적 전차에 피해 기록\n• 직접 적 전차 격파\n• 적 전차 부품 손상 유발\n• 아군이 기록한 피해 보너스\n• 아군 전차에 기록한 폭발 충격 및 피해 벌금"
+
+msgid "team/stats/infotip_xpForAttack/header"
+msgstr "피해 기록 및 격파"
+
+msgid "team/stats/infotip_xpOther/body"
+msgstr "이전 항목에 명시되지 않은 기타 전투 성과에 대한 추가 보너스"
+
+msgid "team/stats/infotip_xpOther/header"
+msgstr "전차 역할 소화"
+
+msgid "team/stats/labels_artilleryFortEquipDamageDealt"
+msgstr "\t포격 지원"
+
+msgid "team/stats/labels_atkObjectives"
+msgstr "기지 점령 완료 / 군사 시설 파괴"
+
+msgid "team/stats/labels_capturePointsVal"
+msgstr "기지 점령/방어 점수"
+
+msgid "team/stats/labels_capturedPointsOfInterest"
+msgstr "거점 점령"
+
+msgid "team/stats/labels_damageAssisted"
+msgstr "도움 피해"
+
+msgid "team/stats/labels_damageAssistedSelf"
+msgstr "도움 피해"
+
+msgid "team/stats/labels_damageAssistedStun"
+msgstr "폭발 충격 도움 피해"
+
+msgid "team/stats/labels_damageAssistedStunSelf"
+msgstr "폭발 충격 도움 피해"
+
+msgid "team/stats/labels_damageBlockedByArmor"
+msgstr "장갑으로 막은 피해"
+
+msgid "team/stats/labels_damageDealt"
+msgstr "피해"
+
+msgid "team/stats/labels_damageDealtByOrder"
+msgstr "\t전시 물자 피해"
+
+msgid "team/stats/labels_damageDealtBySkills"
+msgstr "\t사용한 기술 포함"
+
+msgid "team/stats/labels_damageDealtRatio"
+msgstr "\t적군에 입힌 피해"
+
+msgid "team/stats/labels_damagedKilled"
+msgstr "전차 피해/격파"
+
+msgid "team/stats/labels_deaths"
+msgstr "본인 전차 파괴"
+
+msgid "team/stats/labels_defObjectives"
+msgstr "기지 / 군사 시설 방어"
+
+msgid "team/stats/labels_destroyRecoveryRatio"
+msgstr "전차 파괴 / 정비 횟수"
+
+msgid "team/stats/labels_destructiblesDamageDealt"
+msgstr "\t군사 시설"
+
+msgid "team/stats/labels_directHits"
+msgstr "\t명중"
+
+msgid "team/stats/labels_directHitsReceived"
+msgstr "피격"
+
+msgid "team/stats/labels_equipmentDamageAssisted"
+msgstr "\t전시 물자 효과"
+
+msgid "team/stats/labels_equipmentDamageDealt"
+msgstr "\t전시 물자 사용"
+
+msgid "team/stats/labels_explosionHits"
+msgstr "\t방사 피해"
+
+msgid "team/stats/labels_explosionHitsReceived"
+msgstr "받은 방사 피해 횟수"
+
+msgid "team/stats/labels_flags"
+msgstr "깃발 운반"
+
+msgid "team/stats/labels_healed"
+msgstr "내구도 회복 (본인/아군)"
+
+msgid "team/stats/labels_hits"
+msgstr "\t명중/관통"
+
+msgid "team/stats/labels_killed"
+msgstr "격파한 적 전차 수"
+
+msgid "team/stats/labels_killsByOrder"
+msgstr "\t전시 물자에 의한 격파"
+
+msgid "team/stats/labels_mileage"
+msgstr "이동 거리"
+
+msgid "team/stats/labels_noDamageDirectHitsReceived"
+msgstr "\t비관통"
+
+msgid "team/stats/labels_piercingHits"
+msgstr "\t관통"
+
+msgid "team/stats/labels_piercingsReceived"
+msgstr "\t관통"
+
+msgid "team/stats/labels_roleSkillUsed"
+msgstr "역할 기술 사용"
+
+msgid "team/stats/labels_shots"
+msgstr "사격"
+
+msgid "team/stats/labels_sniperDamageDealt"
+msgstr "\t300m 밖에서 입힌 피해"
+
+msgid "team/stats/labels_spotted"
+msgstr "발견한 적 전차"
+
+msgid "team/stats/labels_stunDuration"
+msgstr "폭발 충격 지속 시간 기록 (초)"
+
+msgid "team/stats/labels_stunNum"
+msgstr "폭발 충격 기록"
+
+msgid "team/stats/labels_teamHitsDamage"
+msgstr "아군에 입힌 피해 (파괴/내구도)"
+
+msgid "team/stats/labels_timesDestroyed"
+msgstr "전차 파괴 횟수"
+
+msgid "team/stats/labels_xp"
+msgstr "총 경험치 획득"
+
+msgid "team/stats/labels_xpForAssist"
+msgstr "\t도움 피해"
+
+msgid "team/stats/labels_xpForAttack"
+msgstr "\t피해 기록 및 격파"
+
+msgid "team/stats/labels_xpOther"
+msgstr "\t전차 역할 소화"
+
+msgid "team/stats/mileage"
+msgstr "?empty?"
+
+msgid "team/stats/ownTeam"
+msgstr "아군"
+
+msgid "team/stats/parameter/artilleryFortEquipDamageDealt"
+msgstr "포격 지원"
+
+msgid "team/stats/parameter/capturePointsVal"
+msgstr "기지 점령/방어 점수"
+
+msgid "team/stats/parameter/damageAssisted"
+msgstr "도움 피해"
+
+msgid "team/stats/parameter/damageAssistedSelf"
+msgstr "도움 피해"
+
+msgid "team/stats/parameter/damageAssistedStun"
+msgstr "폭발 충격 도움 피해"
+
+msgid "team/stats/parameter/damageAssistedStunSelf"
+msgstr "폭발 충격 도움 피해"
+
+msgid "team/stats/parameter/damageBlockedByArmor"
+msgstr "장갑으로 막은 피해"
+
+msgid "team/stats/parameter/damageDealt"
+msgstr "총 피해 기록"
+
+msgid "team/stats/parameter/damagedKilled"
+msgstr "전차 피해/격파"
+
+msgid "team/stats/parameter/directHitsReceived"
+msgstr "피격"
+
+msgid "team/stats/parameter/explosionHits"
+msgstr "방사 피해"
+
+msgid "team/stats/parameter/explosionHitsReceived"
+msgstr "받은 방사 피해 횟수"
+
+msgid "team/stats/parameter/hits"
+msgstr "명중/관통"
+
+msgid "team/stats/parameter/mileage"
+msgstr "이동 거리"
+
+msgid "team/stats/parameter/noDamageDirectHitsReceived"
+msgstr "비관통"
+
+msgid "team/stats/parameter/piercingsReceived"
+msgstr "관통"
+
+msgid "team/stats/parameter/shots"
+msgstr "사격"
+
+msgid "team/stats/parameter/sniperDamageDealt"
+msgstr "300m 밖에서 입힌 피해"
+
+msgid "team/stats/parameter/spotted"
+msgstr "발견한 적 전차"
+
+msgid "team/stats/parameter/stunDuration"
+msgstr "폭발 충격 지속 시간 기록 (초)"
+
+msgid "team/stats/parameter/stunNum"
+msgstr "폭발 충격 기록"
+
+msgid "team/stats/parameter/teamHitsDamage"
+msgstr "아군에 입힌 피해 (파괴/내구도)"
+
+msgid "team/tankHeader/body"
+msgstr "전차 단계 및 종류로 정렬"
+
+msgid "team/tankHeader/header"
+msgstr "전차"
+
+msgid "team/teamInfluenceTotal"
+msgstr "원정군 획득 영향력: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamResourceTotal"
+msgstr "원정군 획득 자원: %(color_tag_open)s%(resourceValue)s%(color_tag_close)s%(resourceIcon)s"
+
+msgid "team/teamScore/body"
+msgstr "승리 점수 획득량으로 정렬"
+
+msgid "team/teamScore/header"
+msgstr "팀 승리 점수"
+
+msgid "team/victoryScore/body"
+msgstr "승리 점수 획득량으로 정렬"
+
+msgid "team/victoryScore/header"
+msgstr "승리 점수 획득"
+
+msgid "team/victoryScoreNoSort/header"
+msgstr "승리 점수 획득"
+
+msgid "team/xpHeader/body"
+msgstr "경험치로 정렬"
+
+msgid "team/xpHeader/header"
+msgstr "일반 경험치"
+
+msgid "team/xpHeaderNoSort/header"
+msgstr "경험치"
+
+msgid "tooltips/stats/footer/text"
+msgstr "%(label)s&nbsp;%(type)s"
+
+msgid "victoryScore"
+msgstr "승리 점수 획득"

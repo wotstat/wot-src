@@ -1,0 +1,731 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awards/class/AT-SPG"
+msgstr "駆逐戦車に対する報酬"
+
+msgid "awards/class/SPG"
+msgstr "自走砲に対する報酬"
+
+msgid "awards/class/heavyTank"
+msgstr "重戦車に対する報酬"
+
+msgid "awards/class/lightTank"
+msgstr "軽戦車に対する報酬"
+
+msgid "awards/class/mediumTank"
+msgstr "中戦車に対する報酬"
+
+msgid "awards/level"
+msgstr "Tier %(level)s 車輌に対する報酬"
+
+msgid "awards/nation/china"
+msgstr "中国車輌に対する報酬"
+
+msgid "awards/nation/czech"
+msgstr "チェコスロバキア車輌に対する報酬"
+
+msgid "awards/nation/france"
+msgstr "フランス車輌に対する報酬"
+
+msgid "awards/nation/germany"
+msgstr "ドイツ車輌に対する報酬"
+
+msgid "awards/nation/japan"
+msgstr "日本車輌に対する報酬"
+
+msgid "awards/nation/poland"
+msgstr "ポーランド車輌に対する報酬"
+
+msgid "awards/nation/sweden"
+msgstr "スウェーデン車輌に対する報酬"
+
+msgid "awards/nation/uk"
+msgstr "イギリス車輌に対する報酬"
+
+msgid "awards/nation/usa"
+msgstr "アメリカ車輌に対する報酬"
+
+msgid "awards/nation/ussr"
+msgstr "ソ連車輌に対する報酬"
+
+msgid "awards/tooltip/class"
+msgstr "クリックしてこの車輌タイプに対する報酬を表示"
+
+msgid "awards/tooltip/level"
+msgstr "クリックしてこの Tier の車輌に対する報酬を表示"
+
+msgid "awards/tooltip/nation"
+msgstr "クリックしてこの国に対する報酬を表示"
+
+msgid "awards/vehicle"
+msgstr "選択車輌に対する報酬"
+
+msgid "badge/tooltip/description"
+msgstr "このバッジは、国家マーチでの優れた実績を表すものです。固有のアイコンが戦闘中あなたの IGN の横に表示され、両チームのプレイヤーが確認できます。"
+
+msgid "badgesGroup/tooltip/header"
+msgstr "記念バッジ"
+
+msgid "block/award"
+msgstr "メイン報酬"
+
+msgid "block/objective"
+msgstr "条件"
+
+msgid "block/task"
+msgstr "ミッション"
+
+msgid "button/awards"
+msgstr "全ての報酬"
+
+msgid "button/awards/tooltip"
+msgstr "クリックしてこのコンペティションの全報酬リストを表示"
+
+msgid "button/regulations"
+msgstr "要件"
+
+msgid "button/regulations/tooltip"
+msgstr "クリックしてこのコンペティションの完全な説明を表示"
+
+msgid "condition/battletype/random"
+msgstr "ランダム戦 15x15"
+
+msgid "condition/battletype/ranked"
+msgstr "ランク戦"
+
+msgid "condition/battletype/squadallowed"
+msgstr "小隊が許可されています"
+
+msgid "condition/battletype/squadnotallowed"
+msgstr "小隊は不許可です"
+
+msgid "condition/primetime/any"
+msgstr "任意のサーバーと時間"
+
+msgid "condition/primetime/chosen"
+msgstr "指定のサーバーのみで"
+
+msgid "condition/vehicle/chosen"
+msgstr "指定の車輌限定:"
+
+msgid "condition/vehicle/exist"
+msgstr "ガレージ内"
+
+msgid "condition/vehicle/missing"
+msgstr "ガレージになし"
+
+msgid "condition/vehicle/single"
+msgstr "%(vehicle)s 内"
+
+msgid "excel/award/title"
+msgstr "報酬"
+
+msgid "excel/btnClose"
+msgstr "コンペティションへ"
+
+msgid "excel/group/title"
+msgstr "グループ"
+
+msgid "excel/header/reason/battlesLeft"
+msgstr "このレーティングに参加するには、もっと戦闘に参加: %(number)s"
+
+msgid "excel/noData"
+msgstr "まだ入賞順位に入っていません。"
+
+msgid "excel/participate/join"
+msgstr "戦う"
+
+msgid "excel/participate/notParticipated"
+msgstr "あなたはこのレーティング外でした"
+
+msgid "excel/subHeader"
+msgstr "コンペティション: %(eventName)s"
+
+msgid "header/participate/button/join"
+msgstr "参加"
+
+msgid "header/participate/button/leave"
+msgstr "コンペティションをやめる"
+
+msgid "header/participate/finished"
+msgstr "コンペティション終了"
+
+msgid "header/participate/notStarted"
+msgstr "参加しました"
+
+msgid "header/participate/reason/byAge"
+msgstr "アカウントが %date% より後に作成されました"
+
+msgid "header/participate/reason/cantJoin"
+msgstr "コンペティションご利用不能"
+
+msgid "header/participate/reason/leftEvent"
+msgstr "このコンペティションをやめました"
+
+msgid "header/participate/started"
+msgstr "あなたは参加中です"
+
+msgid "header/timer"
+msgstr "終了まで:"
+
+msgid "maintenance/body"
+msgstr "一時的にご不便をお掛けして申し訳ございません。"
+
+msgid "maintenance/title"
+msgstr "データ読み込みエラー"
+
+msgid "maintenance/update"
+msgstr "更新"
+
+msgid "notification/buttons/details"
+msgstr "詳細"
+
+msgid "notification/eventFinished/body"
+msgstr "コンペティション %(eventName)s が完了しました。数日中に入賞者が確定され、然るべき報酬が付与されます。"
+
+msgid "notification/eventFinished/header"
+msgstr "コンペティション終了"
+
+msgid "notification/eventJoin/afterStart/body"
+msgstr "あなたの戦闘の結果がこのコンペティションの対象となりました。レーティングに加わり、報酬を得ることができます。"
+
+msgid "notification/eventJoin/afterStart/header"
+msgstr "参加者として参加しました"
+
+msgid "notification/eventJoin/beforeStart/body"
+msgstr "あなたの戦闘の結果は、このコンペティションの開始後にその対象となり、それによってレーティングに加わり、報酬を得ることができます。"
+
+msgid "notification/eventJoin/beforeStart/header"
+msgstr "参加者として参加しました"
+
+msgid "notification/eventJoin/conditionsFailed/body"
+msgstr "参加者として参加できません: 要件を満たしていません。"
+
+msgid "notification/eventJoin/registrationDeadline/body"
+msgstr "参加者として参加できません: 登録期間が終了しました。"
+
+msgid "notification/eventLeave/afterStart/body"
+msgstr "このコンペティションにおけるあなたの戦績は、レーティングの更新後にリセットされます。"
+
+msgid "notification/eventLeave/afterStart/header"
+msgstr "コンペティションをやめました"
+
+msgid "notification/eventLeave/beforeStart/body"
+msgstr "あなたの戦績はこのコンペティションの対象外となります。"
+
+msgid "notification/eventLeave/beforeStart/header"
+msgstr "コンペティションをやめました"
+
+msgid "notification/eventLeave/registrationDeadline/body"
+msgstr "コンペティションをやめることができません: 割り当て時間が期限切れになりました。"
+
+msgid "notification/eventStarted/body"
+msgstr "コンペティション %(eventName)s が開始されました! コンペティション終了時点で入賞順位を達成した各プレイヤーには、価値ある報酬が付与されます。"
+
+msgid "notification/eventStarted/header"
+msgstr "コンペティション開始"
+
+msgid "notification/unknownError/body"
+msgstr "このオペレーションを達成できません。"
+
+msgid "orders/title"
+msgstr "要件"
+
+msgid "popover/buttons/cancel"
+msgstr "キャンセル"
+
+msgid "popover/buttons/rating"
+msgstr "レーティングに移動"
+
+msgid "popover/buttons/select"
+msgstr "選択"
+
+msgid "popover/noVehicles"
+msgstr "選択中のフィルターに該当する車輌なし"
+
+msgid "popover/resetFilter"
+msgstr "フィルターをリセット"
+
+msgid "popover/title"
+msgstr "レーティングリスト"
+
+msgid "popover/title/vehicle"
+msgstr "車輌の選択"
+
+msgid "popover/tooltip/class"
+msgstr "選択したタイプの車輌に対するレーティングに移動"
+
+msgid "popover/tooltip/level"
+msgstr "選択した Tier の車輌に対するレーティングに移動"
+
+msgid "popover/tooltip/nation"
+msgstr "選択した国の車輌に対するレーティングに移動"
+
+msgid "server/list"
+msgstr "あなたの戦闘をこのコンペティションの対象にするには、次のサーバーに移行してください:"
+
+msgid "server/noSuitable/body"
+msgstr "次に戦闘結果が対象となるのは: %(data)s。コンペティション・スケジュール"
+
+msgid "server/noSuitable/header"
+msgstr "今は、戦闘結果はコンペティションの対象外です"
+
+msgid "server/noSuitable/server"
+msgstr "%(time)s (%(server)s)"
+
+msgid "status/bestResults/many"
+msgstr "マイベスト結果"
+
+msgid "status/bestResults/one"
+msgstr "マイ結果"
+
+msgid "status/cantJoin/notAvailable"
+msgstr "コンペティションご利用不能"
+
+msgid "status/cantJoin/reason/banned"
+msgstr "あなたが犯したゲームルール違反に伴い、あなたはこのコンペティションへの参加を許可されていません"
+
+msgid "status/cantJoin/reason/byAge"
+msgstr "アカウントが %(date)s より後に作成されました"
+
+msgid "status/cantJoin/reason/byBattlesCount"
+msgstr "ランダム戦モードで必要な戦闘数に参加していません: %(number)s"
+
+msgid "status/cantJoin/reason/byWinRateHigh"
+msgstr "ランダム戦モードでのあなたの勝率が %(number)s%% を超えています"
+
+msgid "status/cantJoin/reason/byWinRateLow"
+msgstr "ランダム戦モードで次の勝率に達していません: %(number)s%%"
+
+msgid "status/cantJoin/reason/endRegistration"
+msgstr "登録期間終了"
+
+msgid "status/cantJoin/reason/endRegistration/tooltip"
+msgstr "あなたはこのコンペティションに参加者として参加できません。"
+
+msgid "status/cantJoin/reason/leftEvent"
+msgstr "このコンペティションをやめました"
+
+msgid "status/cantJoin/reason/leftEvent/tooltip"
+msgstr "あなたの戦闘の結果は、このコンペティションの対象外となりました。レーティングに加わって報酬を得ることはできません。\nこのコンペティションに再び参加することはできません。"
+
+msgid "status/cantJoin/reason/many"
+msgstr "要件を満たしていません %(number)s"
+
+msgid "status/cantJoin/reason/moreThanOne"
+msgstr "要件を満たしていません (%(number)s)"
+
+msgid "status/cantJoin/reason/outOfRating"
+msgstr "あなたはこのレーティング外でした"
+
+msgid "status/cantJoin/reason/special"
+msgstr "このアカウントを使用してこのコンペティションに参加することはできません。"
+
+msgid "status/cantJoin/reason/vehiclesMissing"
+msgstr "適合車輌なし"
+
+msgid "status/participate/cantJoin"
+msgstr "コンペティションご利用不能"
+
+msgid "status/participate/needMoreBattles"
+msgstr "戦闘で指定の要件を満たした場合、レーティング更新後にあなたの結果がここに表示されます。"
+
+msgid "status/participate/notParticipated"
+msgstr "あなたはこのレーティングに不参加でした"
+
+msgid "summary/averagedamage"
+msgstr "平均ダメージ"
+
+msgid "summary/averagedamageassisted"
+msgstr "平均ダメージアシスト"
+
+msgid "summary/averagexp"
+msgstr "平均EXP"
+
+msgid "summary/battles"
+msgstr "コンペティションでの戦闘"
+
+msgid "summary/damage"
+msgstr "ダメージ"
+
+msgid "summary/damageassist"
+msgstr "自車輌によるダメージアシスト"
+
+msgid "summary/damageblocked"
+msgstr "阻んだダメージ"
+
+msgid "summary/description/awards/title/award"
+msgstr "コンペティション終了時の報酬"
+
+msgid "summary/description/awards/title/group"
+msgstr "グループ"
+
+msgid "summary/description/awards/title/position"
+msgstr "順位"
+
+msgid "summary/description/max/class"
+msgstr "あなたは %(value)s で自己ベストの戦闘を戦いました"
+
+msgid "summary/description/max/level"
+msgstr "あなたは Tier %(value)s 車輌で自己ベストの戦闘を戦いました"
+
+msgid "summary/description/max/nation"
+msgstr "あなたは次の国の車輌で自己ベストの戦闘を戦いました: %(value)s"
+
+msgid "summary/description/max/vehicle"
+msgstr "あなたは %(value)s で自己ベストの戦闘を戦いました"
+
+msgid "summary/description/sum/class"
+msgstr "%(value)s でのこのコンペティションにおけるあなたの戦績"
+
+msgid "summary/description/sum/level"
+msgstr "Tier %(value)s 車輌でのこのコンペティションにおけるあなたの戦績"
+
+msgid "summary/description/sum/nation"
+msgstr "次の国の車輌でのこのコンペティションにおけるあなたの戦績: %(value)s"
+
+msgid "summary/description/sum/vehicle"
+msgstr "次の車輌でのこのコンペティションにおけるあなたの戦績: %(value)s"
+
+msgid "summary/description/sumMSeqN/class"
+msgstr "%(value)s での自己ベストの連戦"
+
+msgid "summary/description/sumMSeqN/level"
+msgstr "Tier %(value)s 車輌での自己ベストの連戦"
+
+msgid "summary/description/sumMSeqN/nation"
+msgstr "次の国の車輌での自己ベストの連戦: %(value)s"
+
+msgid "summary/description/sumMSeqN/vehicle"
+msgstr "%(value)s での自己ベストの連戦"
+
+msgid "summary/description/sumN/class"
+msgstr "%(value)s での自己ベストの戦闘群"
+
+msgid "summary/description/sumN/level"
+msgstr "Tier %(value)s 車輌での自己ベストの戦闘群"
+
+msgid "summary/description/sumN/nation"
+msgstr "次の国の車輌での自己ベストの戦闘群: %(value)s"
+
+msgid "summary/description/sumN/vehicle"
+msgstr "%(value)s での自己ベストの戦闘群"
+
+msgid "summary/description/sumSeqN/class"
+msgstr "%(value)s での自己ベストの連戦"
+
+msgid "summary/description/sumSeqN/level"
+msgstr "Tier %(value)s 車輌での自己ベストの連戦"
+
+msgid "summary/description/sumSeqN/nation"
+msgstr "次の国の車輌での自己ベストの連戦: %(value)s"
+
+msgid "summary/description/sumSeqN/vehicle"
+msgstr "%(value)s での自己ベストの連戦"
+
+msgid "summary/destroyedvehicles"
+msgstr "敵車輌撃破数"
+
+msgid "summary/fightInSquaad"
+msgstr "小隊での戦闘"
+
+msgid "summary/fightNotInSquaad"
+msgstr "小隊外での戦闘"
+
+msgid "summary/originalXP"
+msgstr "基本EXP"
+
+msgid "summary/param/max/damageAssisted"
+msgstr "プレイヤーによるダメージアシスト"
+
+msgid "summary/param/max/damageDealt"
+msgstr "ダメージ"
+
+msgid "summary/param/max/originalXP"
+msgstr "基本EXP"
+
+msgid "summary/param/max/xp"
+msgstr "EXP"
+
+msgid "summary/param/sumAll/damageAssisted"
+msgstr "平均ダメージアシスト"
+
+msgid "summary/param/sumAll/damageDealt"
+msgstr "平均ダメージ"
+
+msgid "summary/param/sumAll/originalXP"
+msgstr "平均基本EXP"
+
+msgid "summary/param/sumAll/wins"
+msgstr "勝利"
+
+msgid "summary/param/sumAll/xp"
+msgstr "平均EXP"
+
+msgid "summary/param/sumMSeqN/damageAssisted"
+msgstr "平均ダメージアシスト"
+
+msgid "summary/param/sumMSeqN/damageDealt"
+msgstr "合計ダメージ"
+
+msgid "summary/param/sumMSeqN/originalXP"
+msgstr "合計基本EXP"
+
+msgid "summary/param/sumMSeqN/xp"
+msgstr "合計EXP"
+
+msgid "summary/param/sumN/damageAssisted"
+msgstr "合計ダメージアシスト"
+
+msgid "summary/param/sumN/damageDealt"
+msgstr "合計ダメージ"
+
+msgid "summary/param/sumN/originalXP"
+msgstr "合計基本EXP"
+
+msgid "summary/param/sumN/xp"
+msgstr "合計EXP"
+
+msgid "summary/param/sumSeqN/damageAssisted"
+msgstr "平均ダメージアシスト"
+
+msgid "summary/param/sumSeqN/damageDealt"
+msgstr "合計ダメージ"
+
+msgid "summary/param/sumSeqN/originalXP"
+msgstr "合計基本EXP"
+
+msgid "summary/param/sumSeqN/xp"
+msgstr "合計EXP"
+
+msgid "summary/position"
+msgstr "レーティングでの順位: %(position)s"
+
+msgid "summary/result/draw"
+msgstr "引き分け"
+
+msgid "summary/result/loss"
+msgstr "敗北"
+
+msgid "summary/result/win"
+msgstr "勝利"
+
+msgid "summary/status"
+msgstr "%(day)s %(time)s に更新済み"
+
+msgid "summary/winrate"
+msgstr "勝利"
+
+msgid "table/header/player"
+msgstr "プレイヤー"
+
+msgid "table/header/position"
+msgstr "No."
+
+msgid "table/selectParticipateBtn"
+msgstr "コンペティションをやめる"
+
+msgid "table/selectRatingBtn"
+msgstr "レーティングリスト"
+
+msgid "table/selectRegistrationBtn"
+msgstr "参加者として参加"
+
+msgid "table/stripe/bronze/title"
+msgstr "グループ III (順位 %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/gold/title"
+msgstr "グループ I (順位 %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/goldCustom/title"
+msgstr "グループ I"
+
+msgid "table/stripe/iron/title"
+msgstr "グループ IV (順位 %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/silver/title"
+msgstr "グループ II (順位 %(placeFrom)d–%(placeTo)d):"
+
+msgid "table/stripe/wood/title"
+msgstr "入賞圏外の順位"
+
+msgid "task/eventtype/all"
+msgstr "全ての参加者の共通レーティング"
+
+msgid "task/eventtype/class"
+msgstr "車輌タイプ毎に固有のレーティングがあります"
+
+msgid "task/eventtype/level"
+msgstr "車輌 Tier 毎に固有のレーティングがあります"
+
+msgid "task/eventtype/nation"
+msgstr "国毎に固有のレーティングがあります"
+
+msgid "task/eventtype/vehicle"
+msgstr "車輌毎に固有のレーティングがあります"
+
+msgid "task/objective/max/damageAssisted"
+msgstr "自車輌によるダメージアシストでレーティングに加わる"
+
+msgid "task/objective/max/damageDealt"
+msgstr "与ダメージでレーティングに加わる"
+
+msgid "task/objective/max/originalXP"
+msgstr "取得基本EXPでレーティングに加わる"
+
+msgid "task/objective/max/xp"
+msgstr "取得EXPでレーティングに加わる"
+
+msgid "task/objective/sum/damageAssisted"
+msgstr "自車輌による合計ダメージアシストでレーティングに加わる"
+
+msgid "task/objective/sum/damageDealt"
+msgstr "合計与ダメージでレーティングに加わる"
+
+msgid "task/objective/sum/originalXP"
+msgstr "取得した合計基本EXPでレーティングに加わる"
+
+msgid "task/objective/sum/wins"
+msgstr "勝利数によってレーティングに加わる"
+
+msgid "task/objective/sum/xp"
+msgstr "取得した合計EXPでレーティングに加わる"
+
+msgid "task/objparam/damageAssisted"
+msgstr "自車輌によるダメージアシスト"
+
+msgid "task/objparam/damageDealt"
+msgstr "与ダメージ"
+
+msgid "task/objparam/originalXP"
+msgstr "取得基本EXP"
+
+msgid "task/objparam/wins"
+msgstr "勝利数"
+
+msgid "task/objparam/xp"
+msgstr "EXP"
+
+msgid "task/selection/max"
+msgstr "自己ベストの戦闘が対象"
+
+msgid "task/selection/sumAll"
+msgstr "あなたの全戦闘が対象"
+
+msgid "task/selection/sumMSeqN"
+msgstr "連戦中におけるベスト (%(cardinality)s) 戦が対象。連戦の戦闘数: %(distance)s"
+
+msgid "task/selection/sumN"
+msgstr "自己ベストの戦闘群が対象: %(cardinality)s"
+
+msgid "task/selection/sumSeqN"
+msgstr "自己ベストの連戦が対象です。連戦の戦闘数: %(cardinality)s"
+
+msgid "time/day/today"
+msgstr "今日"
+
+msgid "time/day/tomorrow"
+msgstr "明日"
+
+msgid "time/day/yesterday"
+msgstr "昨日"
+
+msgid "time/eventFinished"
+msgstr "コンペティション終了: %(date)s"
+
+msgid "time/period/day"
+msgstr "日"
+
+msgid "time/period/hour"
+msgstr "時間"
+
+msgid "time/period/minute"
+msgstr "分"
+
+msgid "time/timeTo/end"
+msgstr "終了まで: %(time)s"
+
+msgid "time/timeTo/endRegistration"
+msgstr "登録期間終了まで: %(time)s"
+
+msgid "time/timeTo/start"
+msgstr "開始まで: %(time)s"
+
+msgid "tooltip/awardIcon"
+msgstr "報酬はコンペティションの終了時に付与され、レーティングでの順位に依存します。\nこのコンペティションの全報酬のリストを確認するには、「全ての報酬」をクリックしてください。"
+
+msgid "tooltip/top/amount/originalXP"
+msgstr "このEXP量には、プレミアムアカウント、プレミアム車輌、パーソナルリザーブ、各日初勝利、その他のスペシャルによる追加EXPは一切含まれません。"
+
+msgid "tooltip/top/amount/xp"
+msgstr "このEXP量には、プレミアム車輌、パーソナルリザーブ、各日初勝利、その他のスペシャルによる追加EXPは一切含まれません。\nプレミアムアカウントによる追加EXPは含まれます。"
+
+msgid "tooltip/top/description/max/damageAssisted"
+msgstr "入賞圏内の最後のプレイヤーによるダメージアシスト: %(number)s"
+
+msgid "tooltip/top/description/max/damageDealt"
+msgstr "入賞圏内の最後のプレイヤーによる与ダメージ: %(number)s"
+
+msgid "tooltip/top/description/max/originalXP"
+msgstr "入賞圏内の最後のプレイヤーが取得した基本EXP: %(number)s\nこのEXP量には、プレミアムアカウント、プレミアム車輌、パーソナルリザーブ、各日初勝利、その他のスペシャルによる追加EXPは一切含まれません。"
+
+msgid "tooltip/top/description/max/xp"
+msgstr "入賞圏内の最後のプレイヤーが取得したEXP: %(number)s\nこのEXP量には、プレミアム車輌、パーソナルリザーブ、各日初勝利、その他のスペシャルによる追加EXPは一切含まれません。\nプレミアムアカウントによる追加EXPは含まれます。"
+
+msgid "tooltip/top/description/sum/damageAssisted"
+msgstr "入賞圏内の最後のプレイヤーによる合計ダメージアシスト: %(number)s"
+
+msgid "tooltip/top/description/sum/damageDealt"
+msgstr "入賞圏内の最後のプレイヤーによる合計与ダメージ: %(number)s"
+
+msgid "tooltip/top/description/sum/originalXP"
+msgstr "入賞圏内の最後のプレイヤーが取得した合計基本EXP: %(number)s\nこのEXP量には、プレミアムアカウント、プレミアム車輌、パーソナルリザーブ、各日初勝利、その他のスペシャルによる追加EXPは一切含まれません。"
+
+msgid "tooltip/top/description/sum/wins"
+msgstr "入賞圏内の最後のプレイヤーによる勝利数: %(number)s"
+
+msgid "tooltip/top/description/sum/xp"
+msgstr "入賞圏内の最後のプレイヤーが取得した合計EXP: %(number)s\nこのEXP量には、プレミアム車輌、パーソナルリザーブ、各日初勝利、その他のスペシャルによる追加EXPは一切含まれません。\nプレミアムアカウントによる追加EXPは含まれます。"
+
+msgid "tooltip/top/noRewardGroup"
+msgstr "入賞圏外の順位"
+
+msgid "tooltip/top/rewardGroup"
+msgstr "グループ %(group)s (順位 %(min)s-%(max)s)"
+
+msgid "top/averageXP"
+msgstr "入賞圏内の最後のプレイヤーが取得した平均EXP:"
+
+msgid "top/participation/notParticipated"
+msgstr "あなたはこのレーティングに不参加でした"
+
+msgid "top/participation/notfull"
+msgstr "あなたはこのレーティング外でした"
+
+msgid "top/participation/notintop"
+msgstr "あなたは現在、入賞圏内に入っていません"
+
+msgid "top/position"
+msgstr "あなたの順位:"
+
+msgid "top/reason/notfull"
+msgstr "このレーティングに参加するには、もっと戦闘に参加:"
+
+msgid "vehicles/level"
+msgstr "Tier %(level)s 車輌"
+
+msgid "vehicles/tooltip/class"
+msgstr "クリックしてこのコンペティションに参加するこのタイプの車輌を表示"
+
+msgid "vehicles/tooltip/level"
+msgstr "クリックしてこのコンペティションに参加するこの Tier の車輌を表示"
+
+msgid "vehicles/tooltip/nation"
+msgstr "クリックしてこのコンペティションに参加するこの国の車輌を表示"
+
+msgid "vehicles/vehicle"
+msgstr "コンペティションの車輌"
+
+msgid "vehicles/vehicle/tooltip"
+msgstr "クリックしてこのコンペティションで許可されている車輌のリストを表示"

@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "อุปกรณ์ยุทธวิธี"
+
+msgid "open_artefact/server_error"
+msgstr "ปฏิบัติการทำไม่ได้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "ไม่สามารถเติมอุปกรณ์ยุทธวิธีสำหรับ %s ได้ ความล้มเหลวทางเทคนิค"
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "ไม่สามารถเติมอุปกรณ์ยุทธวิธีสำหรับ %s ได้ เงินทุนไม่พอ"
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "เติมอุปกรณ์ยุทธวิธีสำหรับ %s คุณใช้ไป"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "มีบันทึกให้ทำการถอดรหัส"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "รูปแบบ: การยืนหยัดครั้งสุดท้าย: โลกแดนเหนือ"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "การยืนหยัดครั้งสุดท้าย: โลกแดนเหนือ (ปกติ)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "การยืนหยัดครั้งสุดท้าย: โลกแดนเหนือ (ก้าวหน้า)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "การยืนหยัดครั้งสุดท้าย: โลกแดนเหนือ (โหดร้าย)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "ความยาก"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "ปกติ"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "ก้าวหน้า"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "โหดร้าย"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "กลักบัตรเจาะ"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "บรรลุเป้าหมายแล้ว!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "บรรลุเป้าหมายแล้ว!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "พาหนะ"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "ผ่านระลอกแล้ว: %(curPhase)s จาก %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "ใช้ไป %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "ธุรกรรมเงิน"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "คุณสามารถเลือกระดับความยากได้ที่แผงความยากของโรงรถการยืนหยัดครั้งสุดท้าย: โลกแดนเหนือ"
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "ปลดล็อคระดับความยากก้าวหน้าแล้ว"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "คุณสามารถเลือกระดับความยากได้ที่แผงความยากของโรงรถการยืนหยัดครั้งสุดท้าย: โลกแดนเหนือ"
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "ปลดล็อคระดับความยากโหดร้ายแล้ว"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "คุณสามารถเลือกระดับดังกล่าวได้ที่แผงความยากของโรงรถการยืนหยัดครั้งสุดท้าย: ปฏิบัติการแพนดอร่า"
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "ปลดล็อครูปแบบการยืนหยัดสุดท้ายแล้ว"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "ได้รับกุญแจถอดรหัส: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "สิ่งที่ได้รับ"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "ปลดกุญแจไป: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "การถอดรหัสสำเร็จ"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "การรบในการยืนหยัดครั้งสุดท้ายนั้นไม่มีให้ชั่วคราว\nโปรดลองใหม่ภายหลัง"
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "การรบความยาก %(difficulty)s ไม่มีให้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "การยืนหยัดครั้งสุดท้ายไม่มีให้ในขณะนี้ โปรดไปยังเวบท่าเกมสำหรับข่าวอัพเดต"
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "ผู้การหมวดรถถังได้เปลี่ยนความยากเป็น: %(level)s"
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "ผู้เล่น %(userName)s ไม่ได้ปลดล็อคหนึ่งในระดับความยากที่มี"

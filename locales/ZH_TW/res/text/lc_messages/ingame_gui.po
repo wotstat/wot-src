@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "火炮襲擊"
+
+msgid "attackReason/artillery_sector"
+msgstr "火炮襲擊"
+
+msgid "attackReason/bombers"
+msgstr "空襲行動"
+
+msgid "battleCommunication/hint/description"
+msgstr "以指出位置或放置標示"
+
+msgid "battleCommunication/hint/press"
+msgstr "按下"
+
+msgid "battleEndWarning/text"
+msgstr "戰鬥結束於："
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "這場戰鬥中來自此玩家的文字及語音訊息都會被隱藏。"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "封鎖來自玩家的訊息"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "已封鎖來自黑名單玩家的訊息。"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "操作無法使用"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "來自此玩家的文字及語音訊息\n將再次變為可用。"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "解除封鎖來自玩家的訊息"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "檢索戰鬥區域資料時發生技術性問題。"
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "此車輛的戰鬥區域資料無法在此地圖上使用。"
+
+msgid "battleProgress/hint/description"
+msgstr "以檢視個人任務"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "尚未指派核心按鍵"
+
+msgid "battleProgress/hint/press"
+msgstr "按下"
+
+msgid "battle_notifier/lose"
+msgstr "戰敗！"
+
+msgid "battle_notifier/tie"
+msgstr "平手！"
+
+msgid "battle_notifier/win"
+msgstr "勝利！"
+
+msgid "bot/boss"
+msgstr "魔王"
+
+msgid "bot/elite"
+msgstr "精英"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "受損警告"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "引擎受損"
+
+msgid "chat_example/affirmative"
+msgstr "了解！"
+
+msgid "chat_example/attack_enemy"
+msgstr "請求攻擊 <Enemy Name>！"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "攻擊 <Enemy Name>！"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "佔領基地！"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "防守基地！"
+
+msgid "chat_example/attention_to_cell"
+msgstr "注意 <小地圖區域>!"
+
+msgid "chat_example/attention_to_position"
+msgstr "注意地點！"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "摧毀目標"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "救救您的戰車！"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "佔領區域"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "防守目標"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "救救您的戰車！"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "防守區域"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "增援區域"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "增援區域"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "增援區域"
+
+msgid "chat_example/going_there"
+msgstr "正要過去！"
+
+msgid "chat_example/help_me"
+msgstr "需要支援！"
+
+msgid "chat_example/help_me_ex"
+msgstr "<隊友名稱>，需要支援！"
+
+msgid "chat_example/negative"
+msgstr "不行！"
+
+msgid "chat_example/overheated_gun"
+msgstr "炮管過熱！<Reload Time> 秒內無法射擊"
+
+msgid "chat_example/positive"
+msgstr "了解！"
+
+msgid "chat_example/reloading_cassette"
+msgstr "<裝填時間> 秒後準備好開火，彈匣中砲彈數：<砲彈數> 顆。"
+
+msgid "chat_example/reloading_gun"
+msgstr "裝填中！還要 <裝填時間> 秒！"
+
+msgid "chat_example/reloading_ready"
+msgstr "準備好射擊！"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "準備好開火！彈匣中砲彈數：<砲彈數> 顆。"
+
+msgid "chat_example/reloading_unavailable"
+msgstr "彈藥用完。"
+
+msgid "chat_example/spg_aim_area"
+msgstr "正在瞄準 <小地圖區域>！"
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>，我來支援您！"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name>，謝謝您！"
+
+msgid "chat_example/turn_back"
+msgstr "<隊友名稱>，退後!"
+
+msgid "chat_shortcuts/affirmative"
+msgstr "了解！"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "請求攻擊 %(target)s！"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "準備好開火！攻擊 %(target)s！"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "彈藥用完！請求攻擊 %(target)s！"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "攻擊 %(target)s！裝填中，還要 %(reloadTime)d 秒！"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "我來佔領基地！"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "我正在佔領基地 %(strArg1)s！"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "攻擊 %(target)s！"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "佔領基地！"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "佔領基地 %(strArg1)s！"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "防守基地！"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "防守基地 %(strArg1)s！"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "注意 %(cellName)s！"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "摧毀目標 %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "我正在攻擊目標 %(int32Arg1)s！"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "防守目標 %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "我正在防守目標 %(int32Arg1)s！"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "注意位置！"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "注意 %(gridId)s"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "我來防守基地！"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "我正在防守基地 %(strArg1)s！"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "摧毀目標！"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "我們有足夠的時間，救救您的戰車！"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "時間已經用光，用盡全力佔領區域。"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "防守目標！"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "我們需要堅持住，救救您的戰車！"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "時間已經用光，不惜一切代價防守區域！"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "%(strArg1)s區域需要幫助，請前往增援！"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "%(strArg1)s區域需要幫助，請前往增援！"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "%(strArg1)s區域需要幫助，請前往增援！"
+
+msgid "chat_shortcuts/going_there"
+msgstr "前往位置！"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "正要過去 %(gridId)s"
+
+msgid "chat_shortcuts/help_me"
+msgstr "需要支援！"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s，需要支援！"
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "前往目標：%(target)s"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "我正在前往目標：%(target)s！"
+
+msgid "chat_shortcuts/negative"
+msgstr "不行！"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "炮管過熱！%(floatArg1)d 秒內無法射擊"
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s，了解！"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "%(floatArg1)d 秒後準備好開火，彈匣中砲彈數：%(int32Arg1)s 顆。"
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "裝填中！還要 %(floatArg1)d 秒！"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "準備好射擊！"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "準備好開火！彈匣中砲彈數：%(int32Arg1)s 顆。"
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "彈藥用完。"
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "鎖定位置。準備好開火！"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "正在觀測 %(gridId)s！彈藥用完！"
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "正在瞄準 %(gridId)s。準備好開火！"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "鎖定位置。裝填中，還要 %(reloadTime)d 秒！"
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "正在瞄準 %(gridId)s。裝填中，還要 %(reloadTime)d 秒！"
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s，我來支援您！"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s，謝謝您！"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s，退後！"
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "前往設定"
+
+msgid "commanderCam/hint/description"
+msgstr "拉遠以進入戰術視角"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "冷卻時間：%(cooldownSeconds)s 秒"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "消耗品欄位"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "公里/小時"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "車長受傷。技術特性下降。"
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "車長"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "駕駛受傷。移動與車身迴轉速度下降。"
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "駕駛"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "炮手受傷。準度下降。"
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "炮手"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "第二炮手受傷。準度下降。"
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "第二炮手"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "裝填手受傷。裝填速度下降。"
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "裝填手"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "第二裝填手受傷。裝填速度下降。"
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "第二裝填手"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "通訊員受傷。通訊範圍下降。"
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "通訊員"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "第二通訊員受傷。通訊範圍下降。"
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "第二通訊員"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "彈藥架受損。裝填速度下降。"
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "彈藥架爆炸。"
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "彈藥架完好。"
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "懸吊受損。"
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "無法移動：懸吊被摧毀。"
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "懸吊完好。"
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "引擎受損，輸出功率下降。"
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "無法移動：引擎被摧毀"
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "引擎完好。"
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "油箱受損。"
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "油箱被摧毀。"
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "油箱完好。"
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "炮管受損，準確度下降。"
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "炮管被摧毀無法射擊。"
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "炮管完好。"
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "通訊設備受損。"
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "通訊設備被摧毀。通訊範圍下降。"
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "通訊設備完好。"
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "觀測裝置受損。"
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "觀測裝置被摧毀。可視範圍下降。"
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "觀測裝置完好。"
+
+msgid "damage_panel/devices/track/critical"
+msgstr "懸吊受損。"
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "無法移動：懸吊被摧毀。"
+
+msgid "damage_panel/devices/track/normal"
+msgstr "懸吊完好。"
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "炮塔受損，迴轉速度下降。"
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "無法旋轉：炮塔被摧毀"
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "炮塔完好。"
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "懸吊受損。"
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "無法移動：懸吊被摧毀。"
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "懸吊完好。"
+
+msgid "danger_zone/indicator"
+msgstr "您的車輛可能被摧毀，快離開危險區域！"
+
+msgid "destroyTimer/liftOver"
+msgstr "車輛翻回中..."
+
+msgid "devMaps/hint/description"
+msgstr "以檢視地圖特色"
+
+msgid "devMaps/hint/press"
+msgstr "按下"
+
+msgid "devMaps/mapInfo/info"
+msgstr "隨機事件可能會在此地圖上發生。可在遊戲設定中停用這類地圖。"
+
+msgid "devMaps/mapInfo/text"
+msgstr "具隨機事件的地圖"
+
+msgid "devices/ammo_bay"
+msgstr "彈藥架"
+
+msgid "devices/chassis"
+msgstr "懸吊"
+
+msgid "devices/engine"
+msgstr "引擎"
+
+msgid "devices/fuel_tank"
+msgstr "油箱"
+
+msgid "devices/gun"
+msgstr "炮管"
+
+msgid "devices/left_track"
+msgstr "左邊履帶"
+
+msgid "devices/radio"
+msgstr "通訊設備"
+
+msgid "devices/right_track"
+msgstr "右邊履帶"
+
+msgid "devices/surveing_device"
+msgstr "觀測裝置"
+
+msgid "devices/track"
+msgstr "%(type)s履帶"
+
+msgid "devices/track/left"
+msgstr "左"
+
+msgid "devices/track/main"
+msgstr "備用"
+
+msgid "devices/track/outer"
+msgstr "主要"
+
+msgid "devices/track/right"
+msgstr "右"
+
+msgid "devices/turret_rotator"
+msgstr "炮塔迴轉"
+
+msgid "devices/wheel"
+msgstr "車輪"
+
+msgid "distance/meters"
+msgstr "%(meters)d 公尺"
+
+msgid "dynamicSquad/ally/add"
+msgstr "點擊以邀請玩家加入裝甲排。\n玩家可以在戰鬥期間或是戰鬥結束之後接受您的邀請。%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\n注意！您真實的暱稱與公會標籤將能被裝甲排成員看見。"
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\n注意！您真實的暱稱將能被裝甲排成員看見。"
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "無法邀請那名隊友加入裝甲排。"
+
+msgid "dynamicSquad/ally/received"
+msgstr "點擊以接受加入裝甲排的邀請。\n裝甲排將會在戰鬥期間建立。"
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "邀請已送出給玩家。\n如果他們接受邀請，他們將會在戰鬥期間或是戰鬥結束之後加入您的裝甲排。"
+
+msgid "dynamicSquad/enemy/add"
+msgstr "點擊以邀請玩家加入裝甲排。\n玩家可以在戰鬥期間或是戰鬥結束之後接受您的邀請。%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "無法邀請敵人加入裝甲排。"
+
+msgid "dynamicSquad/enemy/received"
+msgstr "點擊以接受加入裝甲排的邀請。\n裝甲排只會在戰鬥結束之後建立。"
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "邀請已送出給玩家。\n如果他們接受邀請，他們將會在戰鬥結束之後加入您的裝甲排。"
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "按下"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "以開啟語音聊天"
+
+msgid "dynamicSquad/invite"
+msgstr "加入裝甲排的邀請"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "空襲行動傷害"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "火炮襲擊傷害"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "主要目標傷害"
+
+msgid "efficiencyRibbons/armor"
+msgstr "阻擋傷害"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "受到戰鬥儲備協助"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "偵察傷害"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "受到您震盪後的傷害"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "摧毀履帶"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "受到淌血升能傷害"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "角色經驗"
+
+msgid "efficiencyRibbons/burn"
+msgstr "引發火災"
+
+msgid "efficiencyRibbons/capture"
+msgstr "佔領敵方基地"
+
+msgid "efficiencyRibbons/crits"
+msgstr "重傷"
+
+msgid "efficiencyRibbons/damage"
+msgstr "造成傷害"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "主力艦炮火造成的傷害"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "USS Frankford 造成的傷害"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "地雷造成傷害"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "戰地機器人造成傷害"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "強酸砲彈造成傷害"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "熾熱火環造成傷害"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "電流猛擊造成傷害"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "受到區域傷害"
+
+msgid "efficiencyRibbons/defence"
+msgstr "降低佔領點數"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "已防守住區域"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "已造成傷害"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "已摧毀目標"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "已防守住目標"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "已佔領區域"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "受到火災區域的傷害"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "車輛已修理"
+
+msgid "efficiencyRibbons/kill"
+msgstr "擊毀"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "地雷造成的傷害"
+
+msgid "efficiencyRibbons/ram"
+msgstr "衝撞"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "受到火災傷害"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "受到戰地機器人傷害"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "受到強酸砲彈傷害"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "受到熾熱火環傷害"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "受到地雷傷害"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "受到腐蝕煙霧傷害"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "受到電流猛擊傷害"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "重傷"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "受到射擊傷害"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "受到自爆戰車傷害"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "受到衝撞傷害"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "受到碰撞傷害"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "自爆戰車造成傷害"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "偵察"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "受到摧毀區域的傷害"
+
+msgid "efficiencyRibbons/stun"
+msgstr "震盪"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "已放棄車輛"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "碰撞傷害"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "暴風雪"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "火災"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "濃霧"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "豪雨"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "沙塵暴"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "煙霧"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "龍捲風"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "隱藏隊伍面板"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "沒有面板"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(按下 Ctrl + Tab 鍵以在模式之間切換)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "顯示玩家的名稱、被擊毀目標、以及車輛圖示"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "中型面板 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(按下 Ctrl + Tab 鍵以在模式之間切換)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "顯示被玩家擊毀的車輛、名稱以及玩家車輛的圖示。"
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "中型面板 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(按下 Ctrl + Tab 鍵以在模式之間切換)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "顯示被擊毀目標、以及車輛圖示"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "簡略面板"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(按下 Ctrl + Tab 鍵以在模式之間切換)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "在檢視自己或所有三個重生團隊之間切換。"
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "切換列"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(按下 Ctrl + Tab 鍵以在模式之間切換)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "您摧毀了旗幟！"
+
+msgid "flagNotification/flagCaptured"
+msgstr "旗幟已佔領！"
+
+msgid "flagNotification/flagDelivered"
+msgstr "旗幟已帶回。"
+
+msgid "flagNotification/flagInbase"
+msgstr "把旗幟帶回總部。"
+
+msgid "flags/timer"
+msgstr "%(time)s 秒..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "秒..."
+
+msgid "grille/status/reload"
+msgstr "裝填中..."
+
+msgid "grille/status/speedlimit"
+msgstr "速限"
+
+msgid "helpScreen/hint/description"
+msgstr "以檢視車輛特性"
+
+msgid "helpScreen/hint/press"
+msgstr "按下"
+
+msgid "helpScreen/mapbox/description"
+msgstr "以檢視地圖特色"
+
+msgid "helpScreen/mapbox/press"
+msgstr "按下"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "以啟用圍城/<font color='#F4B12C'><b>碉堡</b></font>模式"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "以啟用圍城/<font color='#F4B12C'><b>移動</b></font>模式"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "以啟用移動/<font color='#F4B12C'><b>碉堡</b></font>模式"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "尚未指派模式切換按鍵"
+
+msgid "helpScreen/pillbox/press"
+msgstr "按下/<font color='#F4B12C'><b>按住</b></font>"
+
+msgid "hint/noBindingKey"
+msgstr "尚未指派核心按鍵"
+
+msgid "hitMarker/blocked"
+msgstr "裝甲沒有被擊穿"
+
+msgid "hitMarker/critical"
+msgstr "重傷"
+
+msgid "hitMarker/missArmor"
+msgstr "裝甲沒有被命中"
+
+msgid "hitMarker/ricochet"
+msgstr "跳彈"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "裝甲板沒有被擊穿"
+
+msgid "hitMarker/trackBlocked"
+msgstr "履帶沒有被擊穿"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "車輪沒有被擊穿"
+
+msgid "levelProgress/maxLevel"
+msgstr "最高車輛階級"
+
+msgid "marker/meters"
+msgstr "公尺"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "%(device)s裝備已避免彈藥架爆炸"
+
+msgid "optDeviceResurrection/engine"
+msgstr "%(device)s裝備已避免引擎被摧毀"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "%(device)s裝備已避免起火"
+
+msgid "penetration/high"
+msgstr "高"
+
+msgid "penetration/low"
+msgstr "低"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "次要條件："
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "主要條件："
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "此戰鬥模式沒有啟用的任務。"
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "此車輛類型沒有啟用的任務。"
+
+msgid "personal_reserves/hint/description"
+msgstr "以啟用個人儲備"
+
+msgid "personal_reserves/hint/press"
+msgstr "按下"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "無法移動：懸吊受損。"
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "無法移動：乘員無法行動。"
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "無法移動：引擎受損。"
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "無法移動：車輛已全毀。"
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "無法射擊：乘員無法行動。"
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "無法射擊：炮管受損。"
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "無法射擊。"
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "無法射擊：炮管過熱。"
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "裝填炮管中。"
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "正在完成裝填。"
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "無法射擊：砲彈用盡"
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "無法射擊：戰車全毀。"
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "無法切換：引擎半毀。"
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "無法切換：炮管被摧毀"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "無法切換：僅剩一發砲彈"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] 已使用。"
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "消耗品 [%(name)s] 無法使用：沒有火災。"
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] 在冷卻期間無法使用。"
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "無法進行治療：沒有戰車乘員受傷。"
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] 無需急救。"
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "儲備還尚未準備好。"
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "佔領「%(name)s」以啟用戰術技能。"
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "配件與車長血量已滿。不需要修理或治療。"
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "無法修理：所有裝置皆完好。"
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] 運作正常，無需修理。"
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "無法啟用同軸武器。"
+
+msgid "player_messages/ALLY_HIT"
+msgstr "隊友 %(entity)s 被您擊中！"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s]已可使用。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "炮兵連已部署並準備好開火。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "飛機已返航且已準備好進行轟炸。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "我們的乘員已經準備好鼓舞周遭的其他人。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "地雷區已可部署。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "飛機已返航並且已經準備好進行偵察。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "戰地維修已可使用。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "炮兵已部署完畢並且已經準備好施放煙霧。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "哨兵已可使用。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "%(player)s 的炮兵連正在開火。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "%(player)s 的轟炸機正在途中。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s 建立了一個血量恢復區。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s 啟用了鼓舞。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s 部署了地雷區。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s 正在進行偵察飛行。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s 使用了戰地維修。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s 施放了煙幕。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s 啟用了哨兵。"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s 被火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s 被火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s 被火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s 被火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s 被火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s 被火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "車輛因火炮襲擊而摧毀。"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s 被火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s 被火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s 被空襲行動擊毀。"
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s 被空襲行動擊毀。"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "隊友 %(target)s 被隊友 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "車輛被隊友 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "隊友 %(target)s 被紅色區域摧毀。"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "敵人 %(target)s 被敵人 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "車輛被敵人 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "%(target)s 被紅色區域摧毀。"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "隊友 %(target)s 被擊毀。"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s 被擊毀。"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "車輛被擊毀。"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "裝置 [%(device)s] 因火災而半毀。"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "裝置 [%(device)s] 因 %(entity)s 的射擊而半毀。"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "隊友 %(target)s 因隊友 %(attacker)s 而沈入水中。"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(target)s 因 %(attacker)s 而沈入水中。"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "車輛因隊友 %(attacker)s 而沈入水中。"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "隊友 %(target)s 沈入水中。"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(target)s 因 %(attacker)s 而沈入水中。"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "敵人 %(target)s 因敵人 %(attacker)s 而沈入水中。"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "車輛因 %(attacker)s 而沈入水中。"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "敵人 %(target)s 沈入水中。"
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "隊友 %(target)s 沈入了水中。"
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s 沈入了水中。"
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "車輛沈入水中。"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "隊友 %(target)s 被隊友 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "車輛被隊友 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "敵人 %(target)s 被敵人 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "車輛被敵人 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "隊友 %(target)s 被擊毀。"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s 被擊毀。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "乘員無法行動。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "乘員因 %(entity)s 的射擊而重傷。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "隊友 %(target)s 的乘員因隊友 %(attacker)s 而重傷。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(target)s 的乘員因 %(attacker)s 而重傷。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "乘員因隊友 %(attacker)s 而重傷。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "隊友 %(target)s 重傷其乘員。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(target)s 的乘員因 %(attacker)s 而重傷。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "敵人 %(target)s 的乘員因敵人 %(attacker)s 而重傷。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "乘員因 %(attacker)s 而重傷。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "敵人 %(target)s 重傷其乘員。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "隊友 %(target)s 的乘員重傷。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s 的乘員重傷。"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "乘員重傷。"
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "友軍 %(target)s 被地雷摧毀。"
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s 被摧毀。"
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(target)s 被 %(attacker)s 的地雷摧毀。"
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(target)s 被 %(attacker)s 的地雷摧毀。"
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s 被地雷摧毀。"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "隊友 %(target)s 被隊友 %(attacker)s 推翻"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(target)s 被 %(attacker)s 推翻"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "車輛被隊友 %(attacker)s 推翻"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "隊友 %(target)s 弄翻了自己的車輛"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(target)s 被 %(attacker)s 推翻"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "敵人 %(target)s 被敵人 %(attacker)s 推翻"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "車輛被 %(attacker)s 推翻而摧毀"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "敵人 %(target)s 弄翻了自己的車輛"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "隊友 %(target)s 翻覆"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s 翻覆"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "車輛被推翻而摧毀"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "隊友 %(target)s 被隊友 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "車輛被隊友 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "隊友 %(target)s 墜毀。"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "敵人 %(target)s 被敵人 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "車輛被敵人 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "敵人 %(target)s 墜毀。"
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "隊友 %(target)s 被擊毀。"
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s 被擊毀。"
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "車輛被擊毀。"
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s 放棄了自己的車輛。"
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s 放棄了自己的車輛。"
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "車輛因區域轟炸而摧毀。"
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s 在區域轟炸期間被擊毀。"
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s 在區域轟炸期間被擊毀。"
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "車輛因火炮襲擊而摧毀。"
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s 被火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s 被火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "%(target)s 被隊友 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "%(target)s 被隊友 %(attacker)s 的火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "%(target)s 被隊友 %(attacker)s 的轟炸擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(target)s 被 %(attacker)s 的火炮襲擊摧毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(target)s 被 %(attacker)s 的空襲行動摧毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(target)s 被 %(attacker)s 摧毀（火力掩護）"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(target)s 被 %(attacker)s 摧毀（火炮襲擊）"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "隊友 %(target)s 於戰鬥中失去。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "隊友 %(target)s 在火炮襲擊後於戰鬥中失去。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "隊友 %(target)s 在轟炸後於戰鬥中失去。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(target)s 被 %(attacker)s 的火炮襲擊摧毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(target)s 被 %(attacker)s 的空襲行動摧毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(target)s 被 %(attacker)s 摧毀（火力掩護）"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(target)s 被 %(attacker)s 摧毀（火炮襲擊）"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "敵人 %(target)s 被敵人 %(attacker)s 擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "敵人 %(target)s 被敵人 %(attacker)s 的火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "敵人 %(target)s 被敵人 %(attacker)s 的轟炸擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "敵人 %(target)s 於戰鬥中失去。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "敵人 %(target)s 在火炮襲擊後於戰鬥中失去。"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "敵人 %(target)s 在轟炸後於戰鬥中失去。"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "隊友 %(target)s 被擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "隊友 %(target)s 被火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "隊友 %(target)s 被轟炸擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s 被擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s 被火炮襲擊擊毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s 被空襲行動摧毀。"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "已摧毀 %(target)s"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "已摧毀 %(target)s"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "敵人（未知）已摧毀 %(target)s。"
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "隊友 %(target)s 在摧毀區域遭摧毀。"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "隊友 %(target)s 因隊友 %(attacker)s 而墜毀。"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(target)s 因 %(attacker)s 而墜毀。"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "車輛因隊友 %(attacker)s 而墜毀。"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "隊友 %(target)s 墜毀。"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(target)s 因 %(attacker)s 而墜毀。"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "敵人 %(target)s 因敵人 %(attacker)s 而墜毀。"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "車輛因 %(attacker)s 而墜毀。"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "敵人 %(target)s 墜毀。"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "隊友 %(target)s 墜毀了。"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s 墜毀了。"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "車輛墜毀。"
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "目標 %(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "目標 %(target)s 被 %(attacker)s 擊毀。"
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "目標 %(target)s 被您擊毀。"
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "裝置 [%(device)s] 因火災而受損。"
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "[%(device)s] 因 %(entity)s 的射擊而受損。"
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "裝置 [%(device)s] 因火災而半毀。"
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "裝置 [%(device)s] 因 %(entity)s 而半毀。"
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "裝置 [%(device)s] 已修理。"
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "裝置 [%(device)s] 運作中。"
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "裝置 [%(device)s] 因 %(entity)s 的射擊而起火。"
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "裝置 [%(device)s] 因增壓而受損。"
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "裝置 [%(device)s] 因移除速度調節器而受損。"
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "裝置 [%(device)s] 因增壓而被摧毀。"
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "裝置 [%(device)s] 因移除速度調節器而半毀。"
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "已撲滅火災。"
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "[%(device)s] 因 %(entity)s 的射擊而受傷。"
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] 恢復行動力。"
+
+msgid "player_messages/allied_team_name"
+msgstr "我方隊伍"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "我方基地%s正在被佔領 (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "我方基地%s已被佔領！"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "基地佔領受到阻擾"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "正在佔領基地%s (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "已佔領基地%s！"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "正在佔領敵方基地%s (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "已佔領敵方基地%s！"
+
+msgid "player_messages/enemy_team_name"
+msgstr "敵方隊伍"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "您的隊友 %(name)s 使用了「%(equipment)s」戰術技能"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "敵人使用了「%(equipment)s」戰術技能"
+
+msgid "player_messages/postmortem_caption"
+msgstr "玩家 %(name)s (%(type)s); 血量：%(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "玩家：%(name)s；血量：%(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "您的 (%(type)s) 車輛已被摧毀"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "無法射擊：砲彈用盡。"
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "重播控制："
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "滑鼠左鍵：切換鏡頭模式\n空白鍵：暫停"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "方向鍵左：倒帶 20 秒 (配合 Ctrl：40 秒)\n方向鍵右：快轉 20 秒 (配合 Ctrl：40 秒)\nHome/End 鍵：跳到開頭/結尾\n方向鍵上/方向鍵下：+/- 播放速度"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "啟用自由視角"
+
+msgid "player_messages/replayPaused"
+msgstr "暫停"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "啟用固定視角"
+
+msgid "player_messages/replaySpeedChange"
+msgstr "播放速度：%(speed)s 倍"
+
+msgid "player_messages/tank_in_fire"
+msgstr "車輛起火!"
+
+msgid "players_panel/state/large/body"
+msgstr "顯示玩家名稱、被擊毀的目標、以及車輛名稱與圖示"
+
+msgid "players_panel/state/large/header"
+msgstr "完整顯示"
+
+msgid "players_panel/state/large/note"
+msgstr "(按下 Ctrl + Tab 鍵以在模式之間切換)"
+
+msgid "players_panel/state/medium/body"
+msgstr "顯示玩家名稱、殲滅目標和車輛圖示"
+
+msgid "players_panel/state/medium/header"
+msgstr "一般"
+
+msgid "players_panel/state/medium/note"
+msgstr "(按下 Ctrl + Tab 鍵以在模式之間切換)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "顯示被玩家擊毀的車輛、名稱以及玩家車輛的圖示。"
+
+msgid "players_panel/state/medium2/header"
+msgstr "一般 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(按下 Ctrl + Tab 鍵以在模式之間切換)"
+
+msgid "players_panel/state/none/body"
+msgstr "關閉隊友顯示"
+
+msgid "players_panel/state/none/header"
+msgstr "不顯示"
+
+msgid "players_panel/state/none/note"
+msgstr "(按下 Ctrl + Tab 鍵以在模式之間切換)"
+
+msgid "players_panel/state/short/body"
+msgstr "顯示被擊毀的目標以及車輛圖示"
+
+msgid "players_panel/state/short/header"
+msgstr "簡單顯示"
+
+msgid "players_panel/state/short/note"
+msgstr "(按下 Ctrl + Tab 鍵以在模式之間切換)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "敵人"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > 回到車庫。"
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "以其他車輛戰鬥。"
+
+msgid "postmortem/tips/freecam/button"
+msgstr "SPACE"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "自由視角"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "啟用自由視角。"
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "無法使用自由視角"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "在此模式中無法啟用自由視角。"
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "觀察者模式"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "在隊友車輛間切換。"
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "跟隨車輛"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "將游標對著友軍車輛並左鍵點擊來跟隨。"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "車輛因主要目標而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "車輛因火炮襲擊而摧毀。"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "車輛因主要目標而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "車輛因空襲行動而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "車輛因遊獵者而摧毀。"
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "車輛因戰地機器人而摧毀。"
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "車輛因強酸砲彈而摧毀。"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "車輛因隊友而摧毀於禁區之中"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "車輛摧毀於禁區之中"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "您沒能離開危險區域"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "配件 [%(device)s] 因火災而半毀"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "配件 [%(device)s] 因玩家的射擊而半毀"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "車輛因隊友而沈入水中"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "車輛沈入水中"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "車輛沈入水中"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "車輛被玩家點燃"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "車輛因熾熱火環而摧毀。"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "乘員因玩家的射擊而昏迷"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "乘員在與隊友車輛強烈碰撞後昏迷"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "乘員因強烈碰撞而昏迷"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "乘員因強烈碰撞而昏迷"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "車輛因自爆戰車而摧毀。"
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "車輛因地雷區而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "車輛因地雷而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "車輛被隊友推翻"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "車輛被敵人推翻"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "車輛因翻覆而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "車輛因隊友的衝撞而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "車輛因衝撞而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "車輛因衝撞而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "您的車輛已被摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "車輛因區域轟炸而摧毀。"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "車輛因火炮襲擊而摧毀。"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "車輛因玩家的射擊而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "車輛因空襲行動而摧毀。"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "車輛因空襲行動而摧毀。"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "車輛因火炮襲擊而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "車輛因空襲行動而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "車輛因摧毀區域而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "車輛因電流猛擊而摧毀。"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "車輛因隊友而墜毀"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "車輛因敵人而墜毀"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "車輛墜毀"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "您的車輛已被摧毀"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "選擇的配置會在戰鬥中使用："
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "在倒數結束前，選擇一組將在戰鬥中使用的配置。"
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "選擇配置"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "配置選擇：{seconds} 秒"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "配置選擇："
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "山溝"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "觀測點"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "森林"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "小路"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "街道"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "廢墟"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "橋梁"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "鐵路"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "城市"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "村莊"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "廣場"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "工廠"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "山丘"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "燈塔"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "中心"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "城堡"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "風車"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "山脈"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "路線 A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "路線 B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "路線 C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "路線 D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "路線 E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "山谷"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "冰河"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "繞道"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "丘陵"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "道路"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "山區"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "碉堡"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "大道"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "牆壁"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "巨石"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "工坊"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "原野"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "車庫"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "礦坑"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "艦艇"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "航空母艦"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "壕溝"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "蜿蜒道路"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "北部"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "南部"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "西部"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "東部"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "山脊"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "飛船"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "倉庫"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "海岸"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "河流"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "湖泊"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "沼澤"
+
+msgid "quickReply/hint/press"
+msgstr "按下"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "以確認"
+
+msgid "quickReply/hint/toCommend"
+msgstr "以稱讚回去"
+
+msgid "quickReply/hint/toHelp"
+msgstr "以協助"
+
+msgid "quickReply/hint/toThank"
+msgstr "以表達感謝"
+
+msgid "recovery/cooldown"
+msgstr "%(cooldown)s 後可以放棄車輛"
+
+msgid "recovery/hint1"
+msgstr "按住"
+
+msgid "recovery/hint2"
+msgstr "來放棄車輛"
+
+msgid "repairPoint/title"
+msgstr "修理"
+
+msgid "repairPoint/unavailable"
+msgstr "無法使用"
+
+msgid "respawnView/additionalTip"
+msgstr "選擇一輛車以繼續。如果所有車輛都在修理，您將會以第一輛可用的車輛來繼續戰鬥。"
+
+msgid "respawnView/additionalTipLimited"
+msgstr "選擇車輛以繼續。被擊毀的車輛無法在該戰鬥結束前修理。"
+
+msgid "respawnView/classNotAvailable"
+msgstr "已到達\n前線上限"
+
+msgid "respawnView/cooldownLbl"
+msgstr "修理中 %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "已摧毀"
+
+msgid "respawnView/disabledLbl"
+msgstr "車輛無法使用"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "尚未選擇合適的車輛"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "X 階車輛不在團隊中。"
+
+msgid "respawnView/nextVehicleName"
+msgstr "戰鬥將繼續於 "
+
+msgid "respawnView/title"
+msgstr "選擇車輛"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "了解！"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "《戰車世界》的發展感謝有您！對於您個人的貢獻，我們不勝感激！"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "感謝函"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "您已獲得獎勵！"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "恭喜！"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "了解！"
+
+msgid "rewardWindow/base/descText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/base/headerText"
+msgstr "恭喜"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "愛心包裹 India"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "愛心包裹 Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "前往箱子"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "您得到了裝有珍貴獎勵的大箱子。"
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "您得到了箱子！"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "您透過完成任務獲得了內有珍貴獎勵的小箱子。"
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "是時候看看箱子裡面裝了什麼東西！"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "了解！"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "已暫停累積銀幣。請延長《戰車世界》加值帳號來繼續補充您的銀幣儲備。"
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "已獲得銀幣"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "銀幣儲備開啟"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "恭喜！"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "是的，長官！"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在，到戰場上好好充分運用它吧。"
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "愛心包裹 Delta"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "您已獲得獎勵！"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "馬上招募她！"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "恭喜！您已擁有 Prime Gaming 所附帶的特殊新兵。"
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "愛心包裹 Alpha"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "您已獲得獎勵！"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "是的，長官！"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "愛心包裹戰車遠征"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "是的，長官！"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "宇宙愛心包裹"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "是的，長官！"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "星夜愛心包裹"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "更多"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "愛心包裹「六月」"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "愛心包裹「七月」"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "更多"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "愛心包裹「十全十美」"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "《戰車世界》：星光包"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "梅芙女王包"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "親近槲寄生收藏"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "更多"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "大魚上鉤收藏"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "是的，長官！"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "愛心包裹 Charlie"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "您已獲得獎勵！"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "「G.I. JOE: Duke」組合包"
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "「G.I. JOE: Cobra」組合包"
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "更多"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "「全面搖滾！」組合包"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "無聲女獵人包"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "更多"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "煥然一新包"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "更多"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "夏季風情包"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "高壓電包"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "更多"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "心驚膽戰包"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "維京精神與我們同在"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "更多"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "嶄新開始包"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "愛心包裹 Echo"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "更多"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "合成音波"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "修女會"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "神槍手"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "您已獲得 Prime Gaming 訂閱的獨特獎勵"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "電能迷彩"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "備戰就緒"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "哈里爾衝啊！"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Dagger"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "您已獲得 Prime Gaming 訂閱的獨特獎勵"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "巫術"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "女巫會集合"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "內有惡貓"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "Bite Me!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "您已獲得 Prime Gaming 訂閱的獨特獎勵"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "開場哨"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "致勝球"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "All-Time Classic"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "您已獲得 Prime Gaming 訂閱的獨特獎勵"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "節日裝扮"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "絕美禮物"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "厚重禮物"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Double Celebration"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "選擇獎勵"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "您已獲得 Prime Gaming 訂閱的獨特獎勵"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "美麗新世界"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "機器之眼"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "賽博格解剖"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "You've Been Spotted"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "愛心包裹 Foxtrot"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "愛心包裹 Golf"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "愛心包裹 Hotel"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "愛心包裹 Kilo"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "愛心包裹 Lima"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "招募"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "恭喜！您獲得了 Prime Gaming 所附帶的特殊補給空投。現在馬上來善加利用。"
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "愛心包裹 Mike"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "已獲得獎勵"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "了解！"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "您的公會成員仰賴您進一步\n挺進軍事遠征進度。"
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "已獲得公會獎勵！"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "前往軍事遠征"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "軍事遠征"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "了解！"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "您的公會成員仰賴您進一步\n挺進軍事遠征進度。"
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "已獲得個人獎勵！"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "前往軍事遠征"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "軍事遠征"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "恭喜！"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "我們的裝甲排"
+
+msgid "scorePanel/playerScore"
+msgstr "您的貢獻："
+
+msgid "scorePanel/squadLbl"
+msgstr "裝甲排 %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s 毫米 穿甲彈 %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s 毫米 硬式複合穿甲彈 %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s 毫米 高爆穿甲彈 %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s 毫米 高爆彈 %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s 毫米 反戰車高爆彈 %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "平均傷害：%(value)s 血量"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "每秒傷害：%(value)s 血量"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "傷害半徑：%(value)s 公尺"
+
+msgid "shells_kinds/params/header"
+msgstr "完全/半充能"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "平均穿透力：%(value)s 毫米"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "砲彈速度：%(value)s 公尺/秒"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "震盪持續時間：%(minValue)s–%(maxValue)s 秒"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "──切換到攻城模式"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "──切換到移動模式"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "尚未指派核心按鍵"
+
+msgid "siegeMode/hint/press"
+msgstr "按下"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "以啟用「液態燃料助推器」"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "以啟用噴射助推器"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "以啟用「分段火箭推進器」"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "命中敵方車輛來從「雷射目標指示器」獲得額外效果"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "以切換引擎模式"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "以切換射擊模式"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "以切換移動模式"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "以啟用渦輪增壓器輔助"
+
+msgid "spotted/indicator"
+msgstr "被偵察到的持續時間已延長且受到的傷害已提高"
+
+msgid "spotted/seconds"
+msgstr "秒"
+
+msgid "statistics/exit"
+msgstr "按下 Esc 回到車庫..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "擊毀者：%s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "佔領基地：%d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "傷害："
+
+msgid "statistics/final/personal/directHits"
+msgstr "命中目標：%d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "被擊中次數：%d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "防禦基地：%d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "被擊毀："
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(已死)"
+
+msgid "statistics/final/personal/shots"
+msgstr "射擊次數：%d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "偵察："
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "我方所有車輛都被擊毀。"
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "所有車輛都被擊毀！"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "敵方所有車輛都被擊毀。"
+
+msgid "statistics/final/reasons/reason2"
+msgstr "基地佔領！"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "戰鬥時間到！"
+
+msgid "statistics/final/stats/credits"
+msgstr "銀幣："
+
+msgid "statistics/final/stats/experience"
+msgstr "經驗："
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "經驗 (%d倍)："
+
+msgid "statistics/final/stats/repair"
+msgstr "修理費："
+
+msgid "statistics/final/status/lose"
+msgstr "戰敗! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "平手! %s"
+
+msgid "statistics/final/status/win"
+msgstr "勝利! %s"
+
+msgid "statistics/header"
+msgstr "戰鬥統計"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "玩家"
+
+msgid "statistics/headers/header2"
+msgstr "車輛"
+
+msgid "statistics/headers/header3"
+msgstr "狀態"
+
+msgid "statistics/headers/header4"
+msgstr "擊毀"
+
+msgid "statistics/playerState/0"
+msgstr "擊毀"
+
+msgid "statistics/playerState/1"
+msgstr "離開戰鬥"
+
+msgid "statistics/playerState/2"
+msgstr "擊毀"
+
+msgid "statistics/playerState/3"
+msgstr "戰鬥中"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "組成"
+
+msgid "statistics/tab/line_up/title"
+msgstr "隊伍組成"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "個人儲備"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "個人儲備啟用"
+
+msgid "statistics/tab/quests/header"
+msgstr "任務"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "個人任務不適用於此戰鬥模式"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "前往車庫中的戰役分頁以選擇任務"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "您的這輛車沒有進行中的任務"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "已滿足主要條件"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "所有任務都已完成"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "啟用"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "結果改善"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "已暫停"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "任務進度顯示為無法使用"
+
+msgid "statistics/tabs/group"
+msgstr "隊伍成就"
+
+msgid "statistics/tabs/heroes"
+msgstr "戰鬥英雄"
+
+msgid "statistics/tabs/personal"
+msgstr "個人成就"
+
+msgid "statistics/team1title"
+msgstr "我方隊伍"
+
+msgid "statistics/team2title"
+msgstr "敵方隊伍"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "馬上離開\n摧毀區域！"
+
+msgid "stun/indicator"
+msgstr "乘員受到震盪"
+
+msgid "stun/seconds"
+msgstr "秒"
+
+msgid "tabStatsHint"
+msgstr "— 統計"
+
+msgid "tankmen/commander"
+msgstr "車長"
+
+msgid "tankmen/driver"
+msgstr "駕駛"
+
+msgid "tankmen/gunner"
+msgstr "炮手"
+
+msgid "tankmen/loader"
+msgstr "裝填手"
+
+msgid "tankmen/radioman"
+msgstr "通訊員"
+
+msgid "timer/battlePeriod"
+msgstr "戰鬥結束於："
+
+msgid "timer/started"
+msgstr "戰鬥開始！"
+
+msgid "timer/starting"
+msgstr "戰鬥開始於："
+
+msgid "timer/waiting"
+msgstr "等待玩家..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "按下"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "以切換瞄準模式"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "尚未指派核心按鍵"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "車輛因死亡地帶的隊友 %(entity)s 而摧毀。"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "車輛因死亡地帶的 %(entity)s 而摧毀。"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "車輛被危險區域摧毀。"
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "車輛因隊友 %(entity)s 而沈入水中。"
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "車輛因 %(entity)s 而沈入水中。"
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "車輛沈入水中。"
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "車輛因火災而摧毀。"
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "車輛被隊友 %(entity)s 擊毀。"
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "車輛被 %(entity)s 擊毀。"
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "乘員因隊友 %(entity)s 的碰撞而重傷。"
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "乘員因 %(entity)s 的碰撞而重傷。"
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "乘員因碰撞而重傷。"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "車輛被隊友 %(entity)s 推翻"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "車輛被敵人 %(entity)s 推翻"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "車輛因翻覆而摧毀"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "車輛因隊友 %(entity)s 的衝撞而摧毀。"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "車輛因 %(entity)s 的衝撞而摧毀。"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "車輛因衝撞而摧毀。"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "車輛因 %(entity)s 的射擊而摧毀。"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "車輛因 %(entity)s 的火炮襲擊而摧毀。"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "車輛因 %(entity)s 的轟炸而摧毀。"
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "車輛因隊友 %(entity)s 而墜毀。"
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "車輛因敵人 %(entity)s 而墜毀。"
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "車輛墜毀。"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "裝置 [%(device)s] 因隊友 %(entity)s 的衝撞而受損。"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "裝置 [%(device)s] 因隊友 %(entity)s 的衝撞而受損。"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "裝置 [%(device)s] 因衝撞而受損。"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "裝置 [%(device)s] 因敵人 %(entity)s 的衝撞而受損。"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "裝置 [%(device)s] 因敵人 %(entity)s 的衝撞而受損。"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "裝置 [%(device)s] 因衝撞而受損。"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "裝置 [%(device)s] 因隊友 %(entity)s 的碰撞而受損。"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "裝置 [%(device)s] 因隊友 %(entity)s 的碰撞而受損。"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "裝置 [%(device)s] 因碰撞而受損。"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "裝置 [%(device)s] 因敵人 %(entity)s 的碰撞而受損。"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "裝置 [%(device)s] 因敵人 %(entity)s 的碰撞而受損。"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "裝置 [%(device)s] 因碰撞而受損。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "裝置 [%(device)s] 因地雷區而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "裝置 [%(device)s] 因地雷區而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "裝置 [%(device)s] 因隊友 %(entity)s 的衝撞而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "裝置 [%(device)s] 因隊友 %(entity)s 的衝撞而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "裝置 [%(device)s] 因衝撞而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "裝置 [%(device)s] 因敵人 %(entity)s 的衝撞而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "裝置 [%(device)s] 因敵人 %(entity)s 的衝撞而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "裝置 [%(device)s] 因衝撞而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "裝置 [%(device)s] 因隊友 %(entity)s 的碰撞而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "裝置 [%(device)s] 因隊友 %(entity)s 的碰撞而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "裝置 [%(device)s] 因碰撞而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "裝置 [%(device)s] 因敵人 %(entity)s 的碰撞而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "裝置 [%(device)s] 因敵人 %(entity)s 的碰撞而半毀。"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "裝置 [%(device)s] 因碰撞而半毀。"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "裝置 [%(device)s] 因隊友 %(entity)s 的衝撞而起火。"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "裝置 [%(device)s] 因隊友 %(entity)s 的衝撞而起火。"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "裝置 [%(device)s] 因衝撞而起火。"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "裝置 [%(device)s] 因敵人 %(entity)s 的衝撞而起火。"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "裝置 [%(device)s] 因敵人 %(entity)s 的衝撞而起火。"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "裝置 [%(device)s] 因衝撞而起火。"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "[%(device)s] 因隊友 %(entity)s 的碰撞而受傷。"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "[%(device)s] 因隊友 %(entity)s 的碰撞而受傷。"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] 因碰撞而受傷。"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "[%(device)s] 因敵人 %(entity)s 的碰撞而受傷。"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "[%(device)s] 因敵人 %(entity)s 的碰撞而受傷。"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] 因碰撞而受傷。"
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "已啟用「%(equipment)s」戰術技能！"
+
+msgid "warning_zone/indicator"
+msgstr "小心！您在危險區域附近。"

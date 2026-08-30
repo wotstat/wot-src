@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/button/changeServer"
+msgstr "เปลี่ยนเซิร์ฟเวอร์"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "รายละเอียด"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "รูปแบบนี้ไม่มีให้ในเซิร์ฟเวอร์นี้ %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "รูปแบบดังกล่าวไม่มีให้บนทุกเซิร์ฟเวอร์"
+
+msgid "alertMessage/modeOffline"
+msgstr "ข้อผิดพลาดฐานข้อมูล ไม่มีรูปแบบเกมให้"
+
+msgid "alertMessage/noVehicles"
+msgstr "ไม่มีพาหนะที่เหมาะในโรงรถของคุณ%(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "รับทราบ!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "การบุกรุกรุ่นเบา"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ผ่านด่านสุดท้ายแล้ว!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ผ่านด่าน %(level)s แล้ว!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "ภารกิจทั้งหมดสำเร็จแล้ว!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "สำเร็จแล้ว"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "หมดอายุใน: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "ภารกิจการบุกรุกรุ่นเบา"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "ภารกิจการบุกรุกรุ่นเบาใหม่ใน: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "รางวัล:"
+msgstr[1] "รางวัล:"
+msgstr[2] "รางวัล:"
+
+msgid "battleResult/header/deserter"
+msgstr "คุณถูกลงโทษ"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "ความก้าวหน้าการบุกรุกรุ่นเบา"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "การบุกรุกรุ่นเบาจะมีเวลา %(days)d วัน"
+msgstr[1] "การบุกรุกรุ่นเบาจะมีเวลา %(days)d วัน"
+msgstr[2] "การบุกรุกรุ่นเบาจะมีเวลา %(days)d วัน"
+
+msgid "calendarDay/title"
+msgstr "หมายกำหนด"
+
+msgid "closeButtonLabel"
+msgstr "ปิด"
+
+msgid "countDown/text"
+msgstr "กิจกรรมจะเริ่มขึ้นใน: \n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "รูปแบบอันรวดเร็วที่มีการรบ 7 ต่อ 7 ด้วยพาหนะระดับ%(levels)s สนุกกับการเล่นของรูปแบบการบุกรุกโดยไม่มีการคัดเลือก, อันดับ, หรือเข้าบันทึกประจำการแล้วรับรางวัลจากภารกิจประจำวัน"
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "รูปแบบ"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "รูปแบบเกม %(mode)s คลิกเพื่อสำรวจ"
+
+msgid "entryPointTooltip/modeName"
+msgstr "การบุกรุกรุ่นเบา"
+
+msgid "entryPointTooltip/status/active"
+msgstr "รูปแบบนี้มีให้เป็นเวลา %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "การหยุดยิง %(timer)s"
+
+msgid "featureName"
+msgstr "การบุกรุกรุ่นเบา"
+
+msgid "featureNameCapitalized"
+msgstr "การบุกรุกรุ่นเบา"
+
+msgid "intro/confirmButton"
+msgstr "รับทราบ!"
+
+msgid "intro/description/lightGameplay"
+msgstr "สนุกกับการเล่นของรูปแบบการบุกรุกดั้งเดิมโดยไม่มีการคัดเลือก, อันดับและบันทึกประจำการใดๆ"
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "รูปแบบนี้มีตัวปรับที่เปลี่ยนค่าบางอย่างของพาหนะเช่นความทนทานพาหนะ, เวลาพักใช้ยุทธปัจจัย, เวลาที่ยังปรากฎและอื่นๆอีกมากมาย"
+
+msgid "intro/description/pointsOfInterest"
+msgstr "ทันทีที่คุณยึดบางพื้นที่ของแผนที่ได้ คุณจะสามารถใช้ทักษะยุทธวิธ๊ได้ จุดสนใจจะมีสองชนิดด้วยกันคือ: กองบัญชาการปืนใหญ่ที่ทำให้คุณสามารถสั่งปืนอัตตาจรโจมตีพื้นที่ตามกำหนดและศูนย์สื่อสารที่จะทำการตรวจจับพาหนะข้าศึกทั้งหมด การมีอยู่และตำแหน่งของจุดสนใจเหล่านี้สามารถเปลี่ยนไปในแต่ละแผนที่ได้"
+
+msgid "intro/description/roleSkills"
+msgstr "พาหนะแต่ละคันต่างก็มีความสามารถพิเศษที่มีระดับใช้งานสามขั้นโดยขึ้นกับบทบาทของพาหนะ ยิ่งระดับใช้งานสูงเท่าใดเมื่อใช้งาน ผลที่เกิดขึ้นก็จะเพิ่มขึ้นตาม ระดับใช้งานจะขึ้นกับจำนวนคะแนนเกียรติภูมิที่สามารถหาได้จากการแสดงผลงานที่ดีในการรบ, การยึดจุดสนใจและการใช้ทักษะยุทธวิธีและอื่นๆ\n\nโปรดอ่านกติกาของรูปแบบเพื่อเรียนรู้วิธีอื่นๆที่ทำให้คุณสามารถได้รับคะแนนเกียรติภูมิมากกว่าเดิม"
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "สามารถใช้พาหนะระดับ %(levels)s ในรูปแบบเท่านั้น (ปืนอัตตาจรและรถถังบางคันจะไม่มีให้) เตรียมพาหนะของคุณในโรงรถแล้วเลือกคันที่ดีที่สุดตามคุณลักษณะที่เหมาะกับแผนที่ที่คุณได้เข้ารบ เมื่อเลือกพาหนะของคุณ โปรดพิจารณาว่าพันธมิตรของคุณเลือกพาหนะใดด้วย"
+
+msgid "intro/title/lightGameplay"
+msgstr "ใจเย็นๆ ผู้การ"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "ตัวปรับการบุกรุก"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "จุดสนใจ"
+
+msgid "intro/title/roleSkills"
+msgstr "ทักษะบทบาท"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "เลือกพาหนะสำหรับแผนที่เฉพาะ"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "ชัยชนะ"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "แพ้/เสมอ"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "ทำได้ดีมาก ผู้การ พยายามรักษาผลงานไว้ล่ะ!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "ปฏิบัติภารกิจให้สำเร็จแล้วไต่อันดับให้สูงในการรบการบุกรุกรุ่นเบาเพื่อเพิ่มขั้นความก้าวหน้าของคุณ"
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "จำนวนคะแนนความก้าวหน้าที่คุณได้รับนั้นขึ้นกับอันดับคะแนนเกียรติภูมิที่ได้รับในการรบ"
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "รูปแบบดังกล่าวจบใน %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "ผ่านความก้าวหน้าหลักแล้ว"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "การบุกรุกรุ่นเบา"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "2 อันดับแรกตามคะแนนเกียรติภูมิ"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "5 อันดับแรกตามคะแนนเกียรติภูมิ"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "7 อันดับแรกตามคะแนนเกียรติภูมิ"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "ใช้บัญชีพิเศษ WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "เปิดใช้กำลังสำรองส่วนตัว"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "ปฏิบัติภารกิจให้สำเร็จ"
+
+msgid "noVehicles/howTo/title"
+msgstr "วิธีใดเป็นวิธีที่เร็วที่สุดในการไปถึงพาหนะระดับ %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "ในการเข้าร่วมการบุกรุกรุ่นเบา คุณจำเป็นต้องมีพาหนะระดับ %(levels)s อย่างน้อยหนึ่งคันในโรงรถของคุณที่เหมาะกับรูปแบบ\nคุณสามารถซื้อพาหนะพิเศษระดับ %(levels)s ในผังวิทยาการหรือร้านค้าในเกม"
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "ในการเข้าร่วมการบุกรุกรุ่นเบา คุณจำเป็นต้องมีพาหนะระดับ %(levels)s อย่างน้อยหนึ่งคันในโรงรถของคุณที่เหมาะกับรูปแบบ\nคุณมีพาหนะระดับ %(levels)s หนึ่งคันที่สามารถกู้คืนได้"
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "ในการเข้าร่วมการบุกรุกรุ่นเบา คุณจำเป็นต้องมีพาหนะระดับ %(levels)s อย่างน้อยหนึ่งคันในโรงรถของคุณที่เหมาะกับรูปแบ"
+
+msgid "noVehicles/title"
+msgstr "ไม่มีพาหนะที่เหมาะในโรงรถของคุณ"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "ดูที่หน้าเกี่ยวกับการบุกรุกรุ่นเบาสำหรับรายละเอียด"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "คะแนนเกียรติภูมิ"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "การทำความเสียหาย\nการช่วยชี้เป้า\nการทำลายตีนตะขาบ\nการทำความเสียหายร้ายแรง\nการทำลายพาหนะข้าศึก\nและอื่นๆอีกมาก"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "คะแนนเกียรติภูมิสามารถหาได้จากการดำเนินการในการรบที่รวมไปถึง:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "ฤดูกาลบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "ฤดูกาลบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "ฤดูกาลบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+
+msgid "progressionEntryPoint/complete"
+msgstr "ผ่านความก้าวหน้าหลักแล้ว"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "ด่าน %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s หรือ %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "ภารกิจใหม่ใน:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "กิจกรรมจบลงใน:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "ภารกิจจะปรับใหม่ใน"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "ภารกิจประจำวันทั้งหมดสำเร็จแล้ว"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "ผ่านความก้าวหน้าแล้ว เล่นในการบุกรุกรุ่นเบาเพื่อรับรางวัลเพิ่มเติม"
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "ปฏิบัติภารกิจให้สำเร็จแล้วคว้าอันดับสูงสุดในการรบการบุกรุก\nรุ่นเบาเพื่อเพิ่มขั้นความก้าวหน้าของคุณ %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "มอบให้สำหรับการปฏิบัติภารกิจพิเศษและออกรบในการบุกรุกรุ่นเบา พวกมันจะทำให้คุณสามารถผ่านความก้าวหน้าที่มีได้"
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "คะแนนความก้าวหน้าการบุกรุกรุ่นเบา"
+
+msgid "selectorTooltip/desc"
+msgstr "รูปแบบไม่จัดอันดับ 7ต่อ7 | ระดับ %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "การบุกรุกรุ่นเบา"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "ติดตามข่าวล่าสุดในเวบไซต์ของเกมสำหรับการเริ่มฤดูกาลใหม่"
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "รูปแบบดังกล่าวไม่มีให้เล่นชั่วคราวเนื่องจากปัญหาทางเทคนิค"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "รูปแบบนี้จะมีให้ใน %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "ได้รับคะแนนความก้าวหน้า"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "รายละเอียด"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "การบุกรุกรุ่นเบา"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "ได้รับรางวัล:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "คุณได้ผ่านด่านความก้าวหน้า %(stage)s ในรูปแบบ %(progressionName)s"
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "ยินดีด้วย!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "ช่วงการหยุดยิงกำลังมีผลอยู่ การรบในการบุกรุกรุ่นเบานั้นไม่มีให้ชั่วคราว"
+
+msgid "system_messages/primeTime/end/title"
+msgstr "การหยุดยิง"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "ช่วงการหยุดยิงจบลงแล้ว การรบในการบุกรุกรุ่นเบามีให้อีกครั้ง"
+
+msgid "system_messages/primeTime/start/title"
+msgstr "การหยุดยิง"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "เกี่ยวกับการบุกรุกรุ่นเบา"

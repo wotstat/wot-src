@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "已完全研发"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "当前"
+
+msgid "comparison/title"
+msgstr "升级"
+
+msgid "comparison/tooltip/body"
+msgstr "配置界面显示升级对战车属性的影响。选择“已完全研发”来查看所有可用升级的完整效果。"
+
+msgid "comparison/tooltip/header"
+msgstr "升级"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "待研发"
+
+msgid "dialog/altConfiguration/description"
+msgstr "启用这些选项以在战斗开始前切换武装"
+
+msgid "dialog/altConfiguration/info"
+msgstr "您可随时更改这些设置。"
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "辅助武装"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "核心武装"
+
+msgid "dialog/altConfiguration/title"
+msgstr "替代配置"
+
+msgid "dialog/common/accept"
+msgstr "确认"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "“%(perks)s”节点"
+msgstr[1] "%(perks)s个节点"
+msgstr[2] "%(perks)s个节点"
+
+msgid "footer/button/label"
+msgstr "研发"
+
+msgid "footer/description/text/allResearched"
+msgstr "所有节点均已研发。您已解锁精英奖励系统。"
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "WG钱包暂时不可用。我们对造成的不便表示抱歉。"
+
+msgid "footer/description/text/inBattle"
+msgstr "节点不可用。战车在战斗中。"
+
+msgid "footer/description/text/inFormation"
+msgstr "节点不可用。战车在作战部队中。"
+
+msgid "footer/description/text/needsRepair"
+msgstr "节点不可用。战车需要修复。"
+
+msgid "footer/description/text/notInInventory"
+msgstr "您必须拥有此战车才能研发其节点"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "选择要研发的节点或节点分支"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}}个节点"
+
+msgid "footer/text/selectedItem"
+msgstr "已选择：{{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "WG钱包暂时不可用。我们对造成的不便表示抱歉。"
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "节点不可用。战车在战斗中。"
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "节点不可用。战车在作战部队中。"
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "节点不可用。战车需要修复。"
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "经验不足，无法研发所选节点。"
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "研发进行中，请稍等..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "不可用"
+
+msgid "footer/tooltip/header/info"
+msgstr "已选择的节点"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}}"
+msgstr[1] "• {{selectedPerks}}"
+msgstr[2] "• {{selectedPerks}}"
+
+msgid "intro/button"
+msgstr "了解！"
+
+msgid "intro/button/tooltip"
+msgstr "关于升级"
+
+msgid "intro/improvements/description"
+msgstr "获取战斗经验来解锁节点，借此提升您战车属性。获得节点相应的加成后，战车属性的最终数值可能受应用的加法性与乘法性变项影响，导致比显示的数值高或低。"
+
+msgid "intro/improvements/title"
+msgstr "如何运作"
+
+msgid "intro/progression/description"
+msgstr "升级仅适用于XI级坦克，让您可以进一步强化坦克参数。"
+
+msgid "intro/progression/title"
+msgstr "升级"
+
+msgid "intro/vanity/description"
+msgstr "研发完所有的节点后，您将解锁精英奖励，可在达到特定精英等级时领取相应奖励。奖励包括独特的立体化风格、数据追踪器与火炮套！"
+
+msgid "intro/vanity/title"
+msgstr "精英奖励"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr "个"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr "度/秒"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr "度"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr "米"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr "毫米"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr "公里/小时"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr "米/秒"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr "马力"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr "秒"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr "血量"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "此功能当前不可用"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "前往升级"
+
+msgid "notifications/perkAvailable/title"
+msgstr "您有足够的经验来强化您的战车！"
+
+msgid "rewardScreen/button/accept"
+msgstr "了解"
+
+msgid "rewardScreen/button/check"
+msgstr "在外观中查看"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "在{{level}}{{type}}{{name}}达到精英等级{{prestigeLevel}}"
+
+msgid "rewardScreen/title"
+msgstr "精英奖励"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "升级仅适用于XI级坦克，让您可以进一步强化坦克参数。"
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "升级"
+
+msgid "tooltips/common/cost"
+msgstr "价格：{{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "提升您战车减低受HE弹与撞击伤害的能力。"
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "提高HE弹造成的伤害。"
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "提高HE弹的速度。"
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "在点射模式下，第二发炮弹的散布误差降低{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "在点射模式下，射击冷却时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "每个效率等级提供的装填速度加成提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "装填效率等级持续时间延长{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "装填效率等级持续时间延长{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "每个效率等级提供的装填速度加成提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "机制可再次使用前的冷却时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "机制可再次使用前的冷却时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "机制作用时间延长{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "机制作用时间延长{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "半充能射击的100米散布误差降低{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "使用标准与特殊炮弹时，半充能射击造成的伤害提高{colorTagOpen}{value}点{colorTagClose}。"
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "半充能射击的炮弹速度提高{colorTagOpen}{value}米/秒{colorTagClose}。"
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "半充能射击的装填时间缩短{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "提高悬挂血量和修复速度。"
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "降低战车弹药架或发动机受损时造成的削弱幅度，以及降低战车受损时乘员受伤的几率。"
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "缩小射击后瞄准圈的大小。"
+
+msgid "tooltips/description/aimingTime"
+msgstr "缩短您战车的瞄准时间。"
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "在单发射击模式下，缩短您战车的瞄准时间。"
+
+msgid "tooltips/description/allShellDamage"
+msgstr "提高所有炮弹类型造成的伤害。"
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "提高您所有炮弹的速度。"
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "提高弹药架遭摧毁前可承受的伤害。"
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "降低弹药架受损时对战车造成的削弱幅度。"
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "提高标准弹造成的伤害。"
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "使助推器激活时的旋转速度提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "使助推器激活时的最大速度提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "助推器完全充能前的冷却时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "助推器最长持续时间延长{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "助推器提供的引擎功率加成提升{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "助推器可再次使用前的冷却时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "助推器提供的引擎功率加成提升{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "单场战斗的助推器激活次数上限增加{colorTagOpen}{value}{colorTagClose}次。"
+
+msgid "tooltips/description/crewProtection"
+msgstr "降低战车受损时乘员受伤的几率。"
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "降低火炮损坏时散布误差的恶化程度。"
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "提高战车在移动模式下的前进速度。"
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "提高战车在移动模式下的倒车速度。"
+
+msgid "tooltips/description/enginePenalty"
+msgstr "降低发动机受损时对战车造成的削弱幅度。"
+
+msgid "tooltips/description/enginePower"
+msgstr "提高发动机功率，让战车加速与攀爬上坡时较快。"
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "开始装填前的时间缩短{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "装填中断后，再次可射击前的延迟时间缩短{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "发射短弹匣中最后一发炮弹后的装填延长时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "超过上限时，100米散布误差的变差幅度降低{colorTagOpen}{value0}%{colorTagClose}，且火炮瞄准时间的变差幅度降低{colorTagOpen}{value1}%{colorTagClose}。"
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "充能累积速度提高{colorTagOpen}{value}%/秒{colorTagClose}。"
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "射击后损失的充能量降低{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "将超限后伤害峰值提高{colorTagOpen}{value0}点{colorTagClose}，并将超限后最高伤害加成提高{colorTagOpen}{value1}%{colorTagClose}。"
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "提高战车前进速度。"
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "每个准度等级的散布误差加成提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "可增加最高准度等级的最高速度提高{colorTagOpen}{value}公里/小时{colorTagClose}。"
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "达到下一个准度等级的所需时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "最高准度等级下的稳定性加成提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "辅助火炮的装填时间缩短{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "辅助火炮的装填时间缩短{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "已标记敌方战车持续被侦察到的时间延长{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "机制可再次使用前的冷却时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "机制可使用前的初始冷却时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "已标记敌方战车被己方炮弹命中时的额外伤害提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "可累积预热的最高速度提高{colorTagOpen}{value}公里/小时{colorTagClose}。"
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "预热提供的最高散布误差加成提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "预热所提供的最高伤害加成提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "达到最高预热等级的所需时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "在齐射模式下，火炮散布误差降低{colorTagOpen}{value}米{colorTagClose}。"
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "在齐射模式下，炮塔转向速度提高{colorTagOpen}{value}度{colorTagClose}。"
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "在齐射模式下，瞄准时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "在齐射模式下，最高前进速度提高{colorTagOpen}{value}公里/小时{colorTagClose}。"
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "进入“直接驱动”模式的所需时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "在“直接驱动”模式下，达到最高性能的所需时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "在“直接驱动”模式下，发动机功率提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "在“直接驱动”模式下，前进速度提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "涡轮增压器辅助提供的发动机功率加成提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "当涡轮增压器辅助激活时，最高倒车速度提高{colorTagOpen}{value}公里/小时{colorTagClose}。"
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "涡轮增压器辅助的持续时间延长{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "涡轮增压器辅助可再次使用前的冷却时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/gunDepression"
+msgstr "增加火炮俯角。"
+
+msgid "tooltips/description/gunDispersion"
+msgstr "改善瞄准圈内的炮弹集中度。"
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "在单发射击模式下，改善炮弹在瞄准圈内的集中度。"
+
+msgid "tooltips/description/gunStabilization"
+msgstr "提升任何情况下的火炮稳定性。"
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "提升移动与车体转向时的火炮稳定性。"
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "提升车体移动时的火炮稳定性。"
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "提升车体转向时的火炮稳定性。"
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "在单发射击模式下，提升移动与车体转向时的火炮稳定性。"
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "提升炮塔转向时的火炮稳定性。"
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "在单发射击模式下，提升炮塔转向时的火炮稳定性。"
+
+msgid "tooltips/description/gunTraverse"
+msgstr "提高火炮的最高水平转向角度。"
+
+msgid "tooltips/description/hitPoints"
+msgstr "提高战车的生存能力，让它在遭摧毁前可承受更多伤害。"
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "缩短火炮弹匣中的每发之间的装填时间。"
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "降低射击时被敌方战车侦察到的几率。"
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "火炮降温延迟时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "火炮每次射击生成的热能减少{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "升温火炮的降温速度提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "提高非HE弹造成的伤害。"
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "让您配置装备与指令的替代武装。"
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "火炮降温延迟缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "升温与过热火炮的降温速度提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "火炮每次射击生成的热能减少{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "过热火炮的降温速度提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "切换模式的所需时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "在涡轮模式下，每秒被动生成的能量增加{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "在交战模式下，每秒被动生成的能量增加{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "在涡轮与交战模式下，效果持续时间延长{colorTagOpen}{value} 秒{colorTagClose}。"
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "对敌方战车造成的撞击伤害提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "对敌方战车悬挂造成的撞击伤害提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "对敌方战车造成的撞击伤害提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "对敌方战车造成的撞击伤害提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "炮弹过热后，可再次射击的时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "射击前可维持在最高加热等级的时间延长{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "炮弹过热后，可再次射击的时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "每个加热等级的伤害加成提高{colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose}。"
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "降低受敌方撞击的伤害。"
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "缩短齐射与单发射击模式下的火炮装填时间。"
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "提高战车倒车速度。"
+
+msgid "tooltips/description/roleSlot"
+msgstr "为第二个装备槽分配类别"
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "在碉堡模式下，车体转向与炮塔抬升的速度提高{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "退出碉堡模式所需时间缩短{colorTagOpen}{value}秒{colorTagClose}。"
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "在碉堡模式下，火炮散布误差降低{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "在碉堡模式下，火炮装填时间缩短{colorTagOpen}{value}%{colorTagClose}。"
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "提高您战车油箱与发动机的血量。"
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "降低弹药架与发动机受损时，战车特性的削弱幅度。"
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "提高您炮弹对敌方战车模块造成的伤害。"
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "让您配置弹药与消耗品的替代武装。"
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "提高特殊炮弹造成的伤害。"
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "提高特殊炮弹的穿透力。"
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "提高特殊炮弹的速度。"
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "降低树丛后敌方战车的隐蔽性。"
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "降低移动中敌方战车的隐蔽性。"
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "提高标准弹造成的伤害。"
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "提高标准炮弹的穿透力。"
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "提高标准炮弹的速度。"
+
+msgid "tooltips/description/stunDuration"
+msgstr "缩短您战车遭敌方炮弹震晕的持续时间。"
+
+msgid "tooltips/description/turretTraverse"
+msgstr "提高炮塔的最高水平转向角度。"
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "在交战模式下，降低炮塔转向时的火炮散布误差。"
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "提高坦克前进和倒车速度。"
+
+msgid "tooltips/description/viewRange"
+msgstr "让您从更远的距离侦察到敌方战车。"
+
+msgid "tooltips/large/eliteStatus"
+msgstr "让战车获得精英状态"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "研发所有其他节点后才能研发此节点。"
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName}（{unit}）"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "类别：隐蔽性"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "类别：火力"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "机械性升级"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "类别：机动性"
+
+msgid "tooltips/perk/category/special"
+msgstr "特殊升级"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "类别：侦察"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "类别：生存能力"
+
+msgid "tooltips/special/tapToModify"
+msgstr "节点研发完成后，可以点击进行修改。"
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "HE弹伤害吸收"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "HE弹伤害"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "HE弹穿透力"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "HE弹速度"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "半主动质量阻尼器"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "链式驱动输弹机强化"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "半自动扭力抽壳机构"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "先进战斗舱空气过滤"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "离心超压风扇"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "修改型弹药固定器"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "高输出压缩机"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "6000 PSI压缩活塞"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "6000 PSI气动系统"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "附加高压气缸"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "弹道稳定性强化"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "半充能伤害提升"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "半充能弹速提升"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "半充能装填加速"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "额外弹药容量"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "先进悬挂防护"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "先进模块与乘员防护"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "瞄准圈大小"
+
+msgid "tooltips/title/aimingTime"
+msgstr "瞄准时间"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "瞄准时间"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "全类型炮弹伤害"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "炮弹速度"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "弹药架血量"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "弹药架惩罚"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "标准炮弹伤害"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "矢量推进系统"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "高流量推进泵"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "蒸发式散热系统"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "蒸散式冷却喷嘴"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "高能推进剂"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "半自动助推器脱离装置"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "核心结构优化"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "扩容助推器存储"
+
+msgid "tooltips/title/chassisHP"
+msgstr "悬挂血量"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "悬挂修理速度"
+
+msgid "tooltips/title/crewProtection"
+msgstr "乘员防护"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "触发式火炮散布误差"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "移动模式下的前进速度"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "移动模式下的倒车速度"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "发动机起火几率"
+
+msgid "tooltips/title/engineHP"
+msgstr "发动机血量"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "发动机惩罚"
+
+msgid "tooltips/title/enginePower"
+msgstr "发动机功率"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "液压管路优化"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "装填流程优化"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "改进型装填机制"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "火炮隔热层"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "高输出交流发电机"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "低电阻线路"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "修改型输出限制器"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "前进速度"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "油箱血量"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "科氏力传感器"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "陀螺姿态传感器"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "强化型输入终端"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "高精度转向传感器"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "改进型辅助炮弹舱"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "辅助输弹机"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "先进追踪机制"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "高效散热器"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "高电流发电机"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "低散射红宝石激光"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "修改型动力输出装置"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "双通道温控传感器"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "精密温控"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "高输出交流发电机"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "预装炮架"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "先进转动系统"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "倾斜控制系统"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "扭矩释放调速器"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "齿轮比调整"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "涡轮结构优化"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "管状歧管优化"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "修改型转速限制器"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "校准型压力调节器"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "现代化排气歧管"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "增容气瓶"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "高效空气压缩机"
+
+msgid "tooltips/title/gunDepression"
+msgstr "火炮俯角"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "火炮散布误差"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "火炮散布误差"
+
+msgid "tooltips/title/gunElevation"
+msgstr "火炮仰角"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "整体火炮稳定性"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "局部火炮稳定性"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "移动稳定性"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "转向稳定性"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "局部火炮稳定性"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "局部火炮稳定性"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "局部火炮稳定性"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "火炮转向改善"
+
+msgid "tooltips/title/hitPoints"
+msgstr "血量"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "车体抬升速度"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "车体转向速度"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "弹匣短装填时间"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "射击后的隐蔽性"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "低温传热液"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "高导热性散热外壳"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "热导管优化"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "非HE弹伤害"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "装备与指令武装"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "铬合金内衬涂层"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "高导热性炮管"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "低温燃烧推进剂"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "强制通风系统"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "轻型涡轮转子"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "高输出辅助交流发电机"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "先进整流调节器"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "混合电容阵列"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "局部边缘硬化"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "高合金钢履带"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "深层局部渗碳"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "局部表面渗碳"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "高精度温度传感器"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "低惯量炮闩预热器"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "机械式装弹托盘"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "温控超载"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "撞击伤害降低"
+
+msgid "tooltips/title/reloadTime"
+msgstr "装填时间"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "装填时间"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "倒车速度"
+
+msgid "tooltips/title/roleSlot"
+msgstr "第二个槽位类别"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "轴向活塞液压泵"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "多锥式能量包同步器"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "精度平衡转子"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "液压驱动输弹机"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "局部模块血量提升"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "局部模块防护"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "炮弹模块伤害"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "炮弹与消耗品武装"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "特殊炮弹伤害"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "特殊炮弹穿透力"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "特殊炮弹速度"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "侦察加成：树丛"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "侦察加成：移动"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "标准炮弹伤害"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "标准炮弹穿透力"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "标准炮弹速度"
+
+msgid "tooltips/title/stunDuration"
+msgstr "震晕持续时间"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "炮塔转向改善"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "炮塔转向速度"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "炮塔转向稳定性"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "战车速度"
+
+msgid "tooltips/title/viewRange"
+msgstr "观察范围强化"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "研发最后一个节点以解锁"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "获得XI级战车的专属奖励，包括立体化风格、数据追踪器与火炮套！"
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "精英奖励"
+
+msgid "vanity/available/subtitle"
+msgstr "因您战车达到的精英等级获取奖励"
+
+msgid "vanity/available/tooltip"
+msgstr "当前精英等级"
+
+msgid "vanity/completed/subtitle"
+msgstr "恭喜！所有奖励已获得。"
+
+msgid "vanity/completed/tooltip"
+msgstr "当前精英等级"
+
+msgid "vanity/disabled/subtitle"
+msgstr "可在研发最后一个节点后获取"
+
+msgid "vanity/disabled/tooltip"
+msgstr "战车未获得精英状态"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "奖励所需的精英等级"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "战车专属的火炮套，瞬间让您的战车在战场上与众不同。"
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "全新的独特自定义元素，显示您摧毁战车的数量。"
+
+msgid "vanity/rewardType/description/style"
+msgstr "特殊2D风格，具有赋予3D外观的独特视觉效果，为XI级战车专属。"
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "火炮套3D配饰"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "数据追踪器"
+
+msgid "vanity/rewardType/title/style"
+msgstr "立体化风格"
+
+msgid "vanity/title"
+msgstr "精英奖励"

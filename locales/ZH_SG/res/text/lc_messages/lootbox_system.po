@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "乘员和训练用品"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "自定义元素"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "装备和指令"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "其他"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "战车"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "收到！"
+
+msgid "autoOpenView/title"
+msgstr "已获得奖励"
+
+msgid "awardViews/footer/backButton/"
+msgstr "收到!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "指令"
+
+msgid "bonuses/description/booster"
+msgstr "个人储备"
+
+msgid "bonuses/description/crewSkin"
+msgstr "乘员皮肤"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "标准装备"
+
+msgid "bonuses/description/style"
+msgstr "2D风格"
+
+msgid "bonuses/description/style3D"
+msgstr "3D风格"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "蓝图碎片（%(nation)s）"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "通用蓝图碎片"
+
+msgid "bonuses/label/bpcoin"
+msgstr "战令代币"
+
+msgid "boxTooltip/description/text/default"
+msgstr "开启后可能掉落战车、经济资源与其他珍贵物品。\n补给箱可在游戏内商店购买。"
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "若未提前掉落，距离保底奖励还需开启的补给箱次数。"
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "补给箱可在游戏内商店购买。"
+
+msgid "common/backButton"
+msgstr "返回"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "战术补给箱"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "战术补给箱"
+
+msgid "common/closeButton"
+msgstr "关闭"
+
+msgid "common/footer/checkbox"
+msgstr "开启动画"
+
+msgid "common/getButton/lowerCase"
+msgstr "获取更多"
+
+msgid "common/getButton/upperCase"
+msgstr "获取更多"
+
+msgid "common/infoButton"
+msgstr "里面有什么？"
+
+msgid "common/loader"
+msgstr "正在开启补给箱..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count)个"
+msgstr[1] "%(count)个"
+msgstr[2] "%(count)个"
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "天"
+msgstr[1] "天"
+msgstr[2] "天"
+
+msgid "common/selectTooltip"
+msgstr "补给箱数量不足，无法一次开启{{count}}个"
+
+msgid "common/statistics/emptyHeader"
+msgstr "开启补给箱后可查看统计数据。"
+
+msgid "common/statistics/header"
+msgstr "已开启补给箱：%(count)个"
+
+msgid "common/statsButton"
+msgstr "统计"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "取消"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "您的奖励记录将被删除。"
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "重置"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "重置统计？"
+
+msgid "entryPoint/boxes"
+msgstr "前往补给箱"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "这些特殊补给箱内含全新或独特的物品。可在游戏内商店中购买。"
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "活动将结束于"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "因技术问题，我们已暂停活动以进行修复。"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "暂不可用"
+
+msgid "eventName/lowerCase"
+msgstr "战地补给"
+
+msgid "eventName/upperCase"
+msgstr "战地补给"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "每开启%(count)个"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "战车"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "%(count)，保证可获得一辆%(item)。若提前掉落，计数器将会重置。"
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "若在车库中已拥有所有战车，您将改为获得金币。"
+
+msgid "guaranteedTitle/text"
+msgstr "再开启%(count)个即可掉落%(name)"
+
+msgid "guaranteedTitle/textName"
+msgstr "保底奖励"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "开启"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s：%(count)s"
+
+msgid "homeView/subtitle"
+msgstr "活动将于%(time)结束"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "如果您在活动结束前未开启所有补给箱，它们之后将自动开启。"
+
+msgid "infoPage/footer/description/compensation"
+msgstr "如果您已拥有补给箱掉落列表中的所有战车，补给箱后续掉落的所有战车将全额补偿与之等值的金币。"
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "每%(guaranteed0)s个补给箱必定包含一辆VIII–X级战车。如果您开启了指定数量的补给箱但仍未获得此类战车，您开启的第%(guaranteed0)s个补给箱（取决于补给箱类型）必定掉落一辆您未在车库中拥有的VIII–X级战车。掉落后计数器重置。"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "自动开启"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "补偿"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "保底奖励"
+
+msgid "infoPage/header/lootListLink"
+msgstr "在官网上查看物品列表"
+
+msgid "infoPage/header/probability/description"
+msgstr "掉落几率"
+
+msgid "infoPage/header/probability/title"
+msgstr "奖励组"
+
+msgid "infoPage/header/rewards/description"
+msgstr "每个奖励组最多可掉落一个奖励。"
+
+msgid "infoPage/header/rewards/title"
+msgstr "奖励"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "开启更多"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "从%(name)（已开启%(boxesCount)个补给箱）"
+
+msgid "multipleRewardView/header/title/"
+msgstr "已获得奖励"
+
+msgid "noBoxesView/description/"
+msgstr "补给箱可在游戏内商店购买"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "前往商店"
+
+msgid "noBoxesView/goToButton/"
+msgstr "前往可用补给箱"
+
+msgid "preview/backLabel"
+msgstr "前往补给箱"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "持有补给箱：%(boxesCount)个"
+
+msgid "quantityTitle/noBoxes"
+msgstr "已无补给箱"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "继续"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "%(vehicleInfo)专属"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "“%(style)”3D风格"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "“%(eventName)s”活动已结束"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "所有剩余的补给箱将被开启。其中的内容将添加至您的账号。"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "查看奖励"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "已获得奖励"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "我们已添加活动期间您未获得的物品。"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "活动由于维护暂时不可用。"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "活动已重新开放。我们对给您造成的不便深表歉意。"
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s（%(count)s个）"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "已获得奖励："
+
+msgid "serviceChannelMessages/server_error"
+msgstr "错误"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "请等待上个操作完成。"
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "操作暂时无法使用。请稍后重试。"
+
+msgid "serviceChannelMessages/start/button"
+msgstr "前往活动"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "“%(eventName)s”活动已开始"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "仅持续至%(date)s：高级战车和珍贵游戏内资产！"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "无法重置统计。请稍后重试。"
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "以及"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "开启更多"
+
+msgid "singleRewardView/header/title/"
+msgstr "已获得奖励"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "独特乘员"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D配饰"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "每场战斗x5经验任务"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "指令"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "蓝图碎片"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "参考"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "训练参考"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "消耗品"
+
+msgid "statisticsRewards/label/credits"
+msgstr "银币"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "手册"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "训练手册"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "x3乘员经验任务"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "点券"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "自定义元素"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "改进型装备"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "部件"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "试验型装备"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "全局经验"
+
+msgid "statisticsRewards/label/gold"
+msgstr "金币"
+
+msgid "statisticsRewards/label/guide"
+msgstr "指南"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "训练指南"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "指导许可证"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "标准装备"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "个人储备"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "《坦克世界》高级账号"
+
+msgid "statisticsRewards/label/rations"
+msgstr "食品消耗品"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "重新训练命令"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D风格"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D风格"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "乘员"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "赏金装备"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "战车"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "重置统计"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "点击重置全部统计。"
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "以及额外%(count)个奖励。"
+msgstr[1] "以及额外%(count)个奖励。"
+msgstr[2] "以及额外%(count)个奖励。"
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "“%(label)”"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "国家蓝图碎片"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num).%(vehicleInfo)的“%(label)”"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "补偿风格：%(count)个"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num).%(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "补偿战车：%(count)个"
+
+msgid "tooltip/compensation/notification"
+msgstr "对车库中已有战车的补偿。"

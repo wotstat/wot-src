@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Đổi máy chủ"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Chi tiết"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "Chế độ không khả dụng trên máy chủ này %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Chế độ không khả dụng trên mọi máy chủ"
+
+msgid "alertMessage/modeOffline"
+msgstr "Lỗi cơ sở dữ liệu. Chế độ game không khả dụng."
+
+msgid "alertMessage/noVehicles"
+msgstr "Không có xe phù hợp trong Ga-ra %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Rõ!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "CƯỜNG KÍCH GIẢN THỂ"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ĐÃ HOÀN THÀNH GIAI ĐOẠN CUỐI!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ĐÃ HOÀN TẤT GIAI ĐOẠN %(level)s!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Đã xong mọi nhiệm vụ!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Đã hoàn tất"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Hết hạn sau: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Nhiệm vụ Cường kích Giản thể"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Có Nhiệm vụ Cường kích Giản thể mới sau: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Phần thưởng:"
+msgstr[1] "Phần thưởng:"
+msgstr[2] "Phần thưởng:"
+
+msgid "battleResult/header/deserter"
+msgstr "Bạn đã bị kỷ luật"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "TIẾN TRÌNH CƯỜNG KÍCH GIẢN THỂ"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Cường kích Giản thể sẽ kéo dài %(days)d ngày"
+msgstr[1] "Cường kích Giản thể sẽ kéo dài %(days)d ngày"
+msgstr[2] "Cường kích Giản thể sẽ kéo dài %(days)d ngày"
+
+msgid "calendarDay/title"
+msgstr "Lịch"
+
+msgid "closeButtonLabel"
+msgstr "TẮT"
+
+msgid "countDown/text"
+msgstr "Sự kiện bắt đầu sau:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Một chế độ chiến nhanh đặc trưng 7v7 bằng xe Cấp %(levels)s. Tận hưởng gameplay đình đám của bản sắc Cường kích mà không phải bận tâm Vòng loại, Bậc hay Thành tích, trong khi được thưởng nhiệm vụ hàng ngày."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "CHẾ ĐỘ"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — Chế độ chơi. Bấm xem"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Cường kích Giản thể"
+
+msgid "entryPointTooltip/status/active"
+msgstr "Chế độ khả dụng trong %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Đình chiến%(timer)s"
+
+msgid "featureName"
+msgstr "Cường kích Giản thể"
+
+msgid "featureNameCapitalized"
+msgstr "CƯỜNG KÍCH GIẢN THỂ"
+
+msgid "intro/confirmButton"
+msgstr "Rõ!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Tận hưởng gameplay đình đám của bản sắc Cường kích mà không phải bận tâm Vòng loại, Bậc hay Thành tích."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "Chế độ có các hệ số điều chỉnh làm thay đổi đặc tính kỹ thuật của xe, chẳng hạn như sức kháng cự, thời gian chờ hồi vật phẩm, thời gian bị lộ hình, v.v..."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Sau khi chiếm được các khu vực nhất định trên bản đồ, bạn sẽ có thể sử dụng Kỹ Chiến lược. Có hai loại Điểm Then chốt: Sở Chỉ huy Pháo cho phép bắn phá một vị trí cụ thể, trong khi Trung tâm Liên lạc sẽ phát hiện mọi xe địch. Tùy vào bản đồ, địa điểm và sự hiện diện của những Điểm Then chốt này có thể sai khác."
+
+msgid "intro/description/roleSkills"
+msgstr "Tùy theo vai trò, mỗi xe có một kỹ thuật đặc biệt với ba cấp độ sạc. Cấp sạc càng cao khi kích hoạt kỹ thuật, hiệu ứng sẽ càng mạnh. Cấp sạc phụ thuộc vào số Điểm Thanh thế, vốn kiếm được theo hiệu suất ấn tượng trong trận, chiếm Điểm Then chốt, sử dụng Kỹ Chiến lược, v.v...\n\nXem các nguyên tắc của chế độ để tìm hiểu những cách kiếm Điểm Thanh thế khác nhau."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Chỉ xe Cấp %(levels)s mới được sử dụng trong chế độ (cấm pháo tự hành và một số tăng). Chuẩn bị xe trong Ga-ra, rồi khi vào trận, chọn chiếc phù hợp nhất cho bản đồ sắp đương đầu. Lúc chọn, hãy để ý xem đồng đội đang cầm xe nào ra."
+
+msgid "intro/title/lightGameplay"
+msgstr "CHỈ HUY, CHILL THÔI"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "HỆ SỐ CHỈNH CƯỜNG KÍCH"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "ĐIỂM THEN CHỐT"
+
+msgid "intro/title/roleSkills"
+msgstr "KỸ VAI TRÒ"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "CHỌN XE CHO BẢN ĐỒ CỤ THỂ"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Thắng"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Thua/Hòa"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Chỉ huy, chắc tay đấy, tiếp tục đi!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Hoàn tất nhiệm vụ và đạt vị thứ cao trong các trận Cường kích Giản thể để tăng mức Tiến trình của bạn."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "Số Điểm Tiến trình kiếm được phụ thuộc vào vị thứ Điểm Thanh thế của bạn trong trận."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "Chế độ kết thúc sau %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Hoàn tất Tiến trình Chính"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Cường kích Giản thể"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Top 2 theo Điểm Thanh thế"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Top 5 theo Điểm Thanh thế"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Top 7 theo Điểm Thanh thế"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Dùng Tài khoản Premium WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Kích hoạt Trợ cấp Cá nhân"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Hoàn tất Nhiệm vụ"
+
+msgid "noVehicles/howTo/title"
+msgstr "Cách nhanh nhất để lấy xe Cấp %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Để tham dự Cường kích Giản thể, cần ít nhất một xe Cấp %(levels)s phù hợp trong Ga-ra.\nBạn có thể mua xe Premium Cấp %(levels)s trên Cây Công nghệ hoặc tại Cửa hàng game."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Để tham dự Cường kích Giản thể, cần ít nhất một xe Cấp %(levels)s phù hợp trong Ga-ra.\nBạn có một xe Cấp %(levels)s có thể cứu hộ, khôi phục và lấy lại được."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Để tham dự Cường kích Giản thể, bạn cần ít nhất một xe Cấp %(levels)s phù hợp trong Ga-ra."
+
+msgid "noVehicles/title"
+msgstr "Không có xe phù hợp trong Ga-ra"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Xem trang Chi tiết Cường kích Giản thể để biết thêm."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Điểm Thanh thế"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Sát thương\nHỗ trợ bằng cách phát hiện\nPhá xích\nGây thiệt hại nghiêm trọng\nDiệt xe địch\nVân vân"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Điểm Thanh thế có thể kiếm được khi thực hiện các hành động chiến đấu, bao gồm:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "Mùa đã kết thúc trên máy chủ %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "Mùa đã kết thúc trên máy chủ %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "Mùa đã kết thúc trên máy chủ %(server)s."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Hoàn tất Tiến trình Chính!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Giai đoạn %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s hoặc %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Nhiệm vụ mới sau:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "Sự kiện kết thúc sau:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Nhiệm vụ sẽ được cập nhật sau"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Đã xong hết Nhiệm vụ Hàng ngày."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Đã hoàn thành Tiến trình. Chơi Cường kích Giản thể để kiếm thêm."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Hoàn tất nhiệm vụ và giữ vị thứ cao trong các trận Cường kích Giản thể\nđể tăng mức Tiến trình của bạn. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Được trao tặng khi hoàn thành các nhiệm vụ đặc biệt và tham chiến trong Cường kích Giản thể. Chúng giúp bạn vượt qua Tiến trình."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Điểm Tiến trình Cường kích Giản thể"
+
+msgid "selectorTooltip/desc"
+msgstr "Chế độ Không Xếp hạng. 7v7 | Cấp %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Cường kích Giản thể"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Hãy theo dõi tin tức mới nhất trên trang chủ game để không bỏ lỡ ngày bắt đầu Mùa mới."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Chế độ này tạm thời không khả dụng vì lý do kỹ thuật."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Chế độ này sẽ khả dụng vào %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Đã nhận Điểm Tiến trình"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Chi tiết"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Cường kích Giản thể"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Đã nhận phần thưởng:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Bạn đã hoàn tất Tiến trình Giai đoạn %(stage)s trong chế độ %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Xin chúc mừng!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Đình chiến đang có hiệu lực. Các trận Cường kích Giản thể tạm thời không khả dụng."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Đình chiến"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Đình chiến đã kết thúc. Các trận Cường kích Giản thể bắt đầu khả dụng trở lại."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Đình chiến"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Chi tiết về Cường kích Giản thể"

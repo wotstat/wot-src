@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "button/progression"
+msgstr "แสดงความก้าวหน้า"
+
+msgid "button/select"
+msgstr "ปรับแก้"
+
+msgid "event/battlePass/name"
+msgstr "บัตรผ่านการรบฤดูกาล %(seasonNum)s"
+
+msgid "event/finished"
+msgstr "%(eventName)s\n จบลงแล้ว"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\n จะเริ่มภายใน %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\n ไม่มีให้เป็นการชั่วคราว"
+
+msgid "event/ranked/name"
+msgstr "ฤดูกาล %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "ดูในรูปแบบความก้าวหน้า"
+
+msgid "mode/epicBattle/condition"
+msgstr "30 ต่อ 30 &nbsp;{par_open}I{par_close}&nbsp;ระดับ&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30 ต่อ 30&nbsp;{par_open}I{par_close}&nbsp;ระดับ&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "กิจกรรมดังกล่าว\nจะเริ่มใน%(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "รูปแบบนี้\nจะเริ่มขึ้นในไม่ช้า"
+
+msgid "mode/epicBattle/description"
+msgstr "รูปแบบมีความก้าวหน้าและรางวัล"
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "กิจกรรมดังกล่าวจบลงแล้ว"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "เมื่อออกรบด้วยพาหนะระดับ VIII ใน{whiteSpanish_open}แนวรบ{whiteSpanish_close}คุณจะได้รับคะแนนที่ทำให้คุณเพิ่มความก้าวหน้าบัตรผ่านการรบได้"
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "คะแนนบัตรผ่านกาารบ"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "เมื่อออกรบด้วยพาหนะระดับ VIII–X ใน{whiteSpanish_open}แนวรบ{whiteSpanish_close} คุณจะได้รับคะแนนที่เพิ่มความก้าวหน้าบัตรผ่านการรบได้"
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "คะแนนบัตรผ่านกาารบ"
+
+msgid "mode/mapbox/condition"
+msgstr "15ต่อ15 %(parSecondary_open)sI%(parSecondary_close)s ระดับ&nbsp;VIII–X"
+
+msgid "mode/mapbox/description"
+msgstr "กลไกแผนที่ใหม่"
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "เอฟเฟคภาพของสภาพอากาศนั้นจะขึ้นกับการตั้งค่ากราฟฟิคทั่วไปของคุณ ที่การตั้งค่าต่ำสุดอาจจะเกิดปัญหาและอาการภาพผิดเพี้ยนขึ้น ทางเราขอแนะนำให้คุณเลือกการตั้งค่าสูงสุดเพื่อประสบการณ์การเล่นที่ดีที่สุดตราบเท่าที่คอมพิวเตอร์ของคุณมีระบบเทียบเท่ากับความต้องการระบบ รูปแบบนี้จำเป็นต้องใช้กำลังสมรรถนะคอมพิวเตอร์ที่สูง อัตราภาพนั้นอาจจะลดลงในระหว่างที่มีการรบอย่างหนักหน่วงเกิดขึ้น"
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon)แนะนำให้ใช้การตั้งค่ากราฟฟิคสูงสุด"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "เรียนรู้แผนที่"
+
+msgid "mode/mapsTraining/description"
+msgstr "เรียนรู้แผนที่"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "เมื่อออกรบด้วยพาหนะระดับ IV–XI ใน{whiteSpanish_open}การรบแบบสุ่ม{whiteSpanish_close} คุณจะได้รับคะแนนที่ทำให้คุณเพิ่มความก้าวหน้าบัตรผ่านการรบได้"
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "คะแนนบัตรผ่านกาารบ"
+
+msgid "mode/random/condition"
+msgstr "15ต่อ15 %(parSecondary_open)sI%(parSecondary_close)s ระดับ&nbsp;I–XI"
+
+msgid "mode/random/description"
+msgstr "การรบแบบจับคู่อัตโนมัติ"
+
+msgid "mode/random/setup"
+msgstr "ปรับแก้"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "เมื่อออกรบด้วยพาหนะระดับ X ใน{whiteSpanish_open}การรบจัดอันดับ{whiteSpanish_close} คุณจะได้รับคะแนนที่ทำให้คุณเพิ่มความก้าวหน้าบัตรผ่านการรบได้"
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "คะแนนบัตรผ่านกาารบ"
+
+msgid "mode/ranked/condition"
+msgstr "10v10 %(parSecondary_open)sI%(parSecondary_close)s ระดับ&nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "รูปแบบมีความก้าวหน้าและรางวัล"
+
+msgid "mode/specBattlesList/call/1"
+msgstr "สมัครเข้าทัวร์นาเมนต์"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "การรบถัดไป: %(date)s ในเวลา %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s ระดับ&nbsp;I–X"
+
+msgid "mode/specBattlesList/description"
+msgstr "แผนที่โลกและทัวร์นาเมนต์"
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "ออกรบในฐานะทหารไร้สังกัด"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "ต่อสู้ในกองทัพ"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7v7–15v15 %(parSecondary_open)sI%(parSecondary_close)s ระดับ&nbsp;VI–X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "การรบกองทัพชิงทรัพยากรอุตสาหกรรม"
+
+msgid "mode/trainingsList/call/1"
+msgstr "ห้องฝึก: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1v1–15v15 %(parSecondary_open)sI%(parSecondary_close)s ระดับ&nbsp;I–X"
+
+msgid "mode/trainingsList/description"
+msgstr "การรบเริ่มฝึกหัด"
+
+msgid "novelty"
+msgstr "ใหม่"
+
+msgid "ranked/widget/qualBattles"
+msgstr "การรบในรอบคัดเลือก: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "คุณสามารถได้รับชุดติดตั้งสามมิติเฉพาะจากการเล่นรูปแบบดังกล่าว"
+
+msgid "reward/attachment/name"
+msgstr "ชุดติดตั้งสามมิติ"
+
+msgid "reward/bones/description"
+msgstr "รางวัลดังกล่าวจะขึ้นกับผลงานการรบของคุณ"
+
+msgid "reward/bones/name"
+msgstr "พันธบัตร"
+
+msgid "reward/bountyEquipment/description"
+msgstr "คุณสามารถได้รับ %(name)s จากการเล่นในรูปแบบดังกล่าว"
+
+msgid "reward/bountyEquipment/name"
+msgstr "อุปกรณ์พิเศษ"
+
+msgid "reward/credits/description"
+msgstr "รางวัลดังกล่าวจะขึ้นกับผลงานการรบของคุณ"
+
+msgid "reward/credits/name"
+msgstr "เงิน"
+
+msgid "reward/crew/description"
+msgstr "คุณสามารถได้รับสมาชิกพลรถถังเฉพาะจากการเล่นรูปแบบดังกล่าว"
+
+msgid "reward/crew/name"
+msgstr "สมาชิกพลรถถัง"
+
+msgid "reward/experience/description"
+msgstr "รางวัลดังกล่าวจะขึ้นกับผลงานการรบของคุณ"
+
+msgid "reward/experience/name"
+msgstr "ประสบการณ์"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "คุณสามารถได้รับอุปกรณ์ทดลองที่ต่างออกไปจากการเล่นรูปแบบดังกล่าว"
+
+msgid "reward/experimentalEquipment/name"
+msgstr "อุปกรณ์พิเศษ"
+
+msgid "reward/improvedEquipment/description"
+msgstr "คุณสามารถได้รับ %(name)s จากการเล่นในรูปแบบดังกล่าว"
+
+msgid "reward/improvedEquipment/name"
+msgstr "อุปกรณ์พิเศษ"
+
+msgid "reward/lootBoxes/description"
+msgstr "คุณสามารถได้รับกล่องเสบียงจากการเล่นรูปแบบดังกล่าว"
+
+msgid "reward/lootBoxes/name"
+msgstr "กล่องเสบียงพิเศษ"
+
+msgid "reward/other/description"
+msgstr "คุณสามารถได้รับรางวัลที่มีประโยชน์จำนวนมากจากการเล่นในรูปแบบดังกล่าว"
+
+msgid "reward/other/name"
+msgstr "รางวัลพิเศษ"
+
+msgid "reward/progressionStyle/description"
+msgstr "คุณสามารถได้รับรูปแบบก้าวหน้าพิเศษสำหรับการเล่นในรูปแบบนี้"
+
+msgid "reward/progressionStyle/name"
+msgstr "รูปแบบก้าวหน้า"
+
+msgid "reward/random/description"
+msgstr "คุณสามารถได้รับรางวัลที่มีประโยชน์จำนวนมากจากการเล่นในรูปแบบดังกล่าว"
+
+msgid "reward/random/name"
+msgstr "รางวัลแบบสุ่ม"
+
+msgid "reward/style/description"
+msgstr "คุณสามารถได้รับรูปแบบสามมิติพิเศษสำหรับ %(name)sจากการเล่นในรูปแบบดังกล่าว"
+
+msgid "reward/style/name"
+msgstr "รูปแบบสามมิติ"
+
+msgid "reward/vehicle/description"
+msgstr "คุณสามารถได้รับ %(name)s จากการเล่นในรูปแบบดังกล่าว"
+
+msgid "reward/vehicle/name"
+msgstr "พาหนะรางวัล"
+
+msgid "selectMap"
+msgstr "การตั้งค่าล่วงหน้าสำหรับการรบแบบสุ่ม"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s วัน"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s ชม"
+
+msgid "status/timeLeft/lessMin"
+msgstr "น้อยกว่าหนึ่งนาที"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s นาที"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "เลือกรูปแบบการรบ"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "แผนที่โลก"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "เข้ายึดจังหวัดและต่อสู้เพื่อครอบครองโลก รูปแบบนี้จะมีให้เฉพาะสมาชิกกองทัพเท่านั้น"
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "เข้าร่วมกองทัพ"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "การรบบนแผนที่โลก"
+
+msgid "window/battleSession/title"
+msgstr "การรบพิเศษ"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "รายการทัวร์นาเมนต์"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "เนื้อหานี้ยังไม่มีให้ในขณะนี้แต่จะมีให้ในอนาคต โปรดรออีกสักพัก"
+
+msgid "window/battleSession/tournaments/description"
+msgstr "ต่อสู้เพียงคนเดียวหรือเป็นทีม แสดงฝีมือให้ทุกคนเห็นแล้วรับรางวัลที่คู่ควร"
+
+msgid "window/battleSession/tournaments/title"
+msgstr "ทัวร์นาเมนต์"

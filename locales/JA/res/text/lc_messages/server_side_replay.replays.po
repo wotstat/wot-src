@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "closeButtonLabel"
+msgstr "閉じる"
+
+msgid "featureName"
+msgstr "リプレイ"
+
+msgid "filter/apply"
+msgstr "フィルターを適用"
+
+msgid "filter/group/nation/title"
+msgstr "国家"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Tier"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Tier"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "車輌特性"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "車輌タイプ"
+
+msgid "filter/reset"
+msgstr "フィルターをリセット"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "この国籍の搭乗員のみを表示します。"
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "この国籍の搭乗員スキンのみを表示します。"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "この国家の車輌のみを表示します。"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "このタイプの車輌のみを表示します。"
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "自走砲"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "重戦車"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "軽戦車"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "中戦車"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "入力した検索条件に\n該当する車輌なし"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "車輌名で並べ替えます。"
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "車輌名"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "車輌Tierで並べ替えます。"
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Tier"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "車輌タイプで並べ替えます。"
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "タイプ"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "車輌名"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "フィルター設定を適用します。"
+
+msgid "filterPanel/counter/apply/header"
+msgstr "フィルターを適用"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "フィルター設定をリセットします。"
+
+msgid "filterPanel/counter/reset/header"
+msgstr "フィルターをリセット"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "プライムタイムのリプレイのみを表示"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "過去%(count)s日"
+msgstr[1] "過去%(count)s日"
+msgstr[2] "過去%(count)s日"
+
+msgid "filterPopover/title"
+msgstr "リプレイフィルター"
+
+msgid "filterPopover/tooltip/body"
+msgstr "車輌タイプ、Tier、国家などでリプレイにフィルターを適用します。"
+
+msgid "filterPopover/tooltip/header"
+msgstr "パラメーターでフィルター"
+
+msgid "findReplay/buttonText/find"
+msgstr "リプレイを検索"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "入力をクリア"
+
+msgid "findReplay/buttonText/watch"
+msgstr "リプレイを再生"
+
+msgid "findReplay/errorMessage"
+msgstr "該当なし。別の検索方法をお試しください"
+
+msgid "findReplay/inputPlaceholder"
+msgstr "ARENA_IDを入力してください"
+
+msgid "findReplay/successMessage"
+msgstr "あなたの興味に合うリプレイをAIが発見しました"
+
+msgid "page/heading/bestReplays"
+msgstr "ベスト・リプレイ"
+
+msgid "page/heading/findReplay"
+msgstr "リプレイを検索 (開発者向け)"
+
+msgid "page/heading/myReplays"
+msgstr "自分のリプレイ"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "『WoT』の全プレイヤーのベスト・リプレイに関する情報を確認できます"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "パラメーターによってリプレイを検索できます"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "あなたのベスト・リプレイに関する情報を確認できます"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "ベスト・リプレイ"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "リプレイを検索"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "自分のリプレイ"
+
+msgid "statsParam/damageAssisted"
+msgstr "撃破アシストの最高記録"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "阻ダメージの最高記録"
+
+msgid "statsParam/damageDealt"
+msgstr "与ダメージの最高記録"
+
+msgid "statsParam/earnedXp"
+msgstr "取得EXPの最高記録"
+
+msgid "statsParam/kills"
+msgstr "車輌撃破数の最高記録"
+
+msgid "table/error/buttonText"
+msgstr "更新"
+
+msgid "table/error/description"
+msgstr "ご不便をお掛けして申し訳ございません。時間をおいてページの更新をお試しください。"
+
+msgid "table/error/title"
+msgstr "データ読み込みエラー"
+
+msgid "table/header/damageAssisted"
+msgstr "アシスト"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "阻んだダメージ"
+
+msgid "table/header/damageDealt"
+msgstr "ダメージ"
+
+msgid "table/header/date"
+msgstr "日付"
+
+msgid "table/header/earnedXp"
+msgstr "取得EXP"
+
+msgid "table/header/kills"
+msgstr "撃破数"
+
+msgid "table/header/map"
+msgstr "マップ"
+
+msgid "table/header/marksOfMastery"
+msgstr "マスターバッジ"
+
+msgid "table/header/player"
+msgstr "プレイヤー名"
+
+msgid "table/header/vehicle"
+msgstr "車輌"
+
+msgid "table/noRecords/buttonText"
+msgstr "フィルターをリセット"
+
+msgid "table/noRecords/title"
+msgstr "該当なし。フィルター設定を変更するかリセットしてください。"
+
+msgid "table/noRecords/tooltip/body"
+msgstr "フィルター設定をリセットします。"
+
+msgid "table/noRecords/tooltip/header"
+msgstr "フィルターをリセット"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "リプレイ内のプレイヤーがアシストしたダメージ量"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "アシストしたダメージ"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "リプレイ内のプレイヤーが阻んだダメージ量"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "装甲で阻んだダメージ"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "リプレイ内のプレイヤーが与えたダメージ量"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "与えたダメージ"
+
+msgid "table/tooltip/date/body"
+msgstr "リプレイが録画された日付"
+
+msgid "table/tooltip/date/header"
+msgstr "リプレイの日付"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "リプレイ内のプレイヤーが取得したEXP量"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "取得EXP"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "リプレイ内のプレイヤーが獲得した英雄勲章"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "英雄勲章"
+
+msgid "table/tooltip/favorite/body"
+msgstr "このリプレイをお気に入りに登録します。"
+
+msgid "table/tooltip/favorite/header"
+msgstr "お気に入り"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "このリプレイをお気に入りから削除します。"
+
+msgid "table/tooltip/kills/body"
+msgstr "リプレイ内のプレイヤーが車輌を撃破した数"
+
+msgid "table/tooltip/kills/header"
+msgstr "撃破数"
+
+msgid "table/tooltip/map/body"
+msgstr "リプレイが録画されたマップ"
+
+msgid "table/tooltip/map/header"
+msgstr "マップ"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "リプレイ内のプレイヤーが獲得したマスターバッジ"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "マスターバッジ"
+
+msgid "table/tooltip/player/body"
+msgstr "リプレイ内のプレイヤーのIGN"
+
+msgid "table/tooltip/player/header"
+msgstr "プレイヤー名"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "リプレイを録画した際のプレイヤーの車輌"
+
+msgid "table/tooltip/vehicle/header"
+msgstr "車輌"
+
+msgid "tableInfo/amount"
+msgstr "表示中のリプレイ: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "フィルター"
+
+msgid "waitingSpinner/message"
+msgstr "コンテンツ読込中..."

@@ -1,0 +1,122 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "crewBooks/button/label"
+msgstr "開封"
+
+msgid "crewBooks/description"
+msgstr "搭乗員教本の使用に移動"
+
+msgid "crewBooks/error/locked"
+msgstr "操作不可"
+
+msgid "crewBooks/title"
+msgstr "搭乗員教本 ({count})"
+
+msgid "crewBooks/tutorial/crewOperations"
+msgstr "搭乗員教本を\n使用できます"
+
+msgid "crewBooks/tutorial/readBook"
+msgstr "搭乗員教本の\n使用に移動"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/body"
+msgstr "搭乗員が戦闘中です"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/header"
+msgstr "エラー"
+
+msgid "crewOperations/btn/tooltip/body"
+msgstr "搭乗員の再訓練や転属を行うことができます。"
+
+msgid "crewOperations/btn/tooltip/header"
+msgstr "搭乗員の管理"
+
+msgid "dropInBarrack/button/label"
+msgstr "送る"
+
+msgid "dropInBarrack/description"
+msgstr "全搭乗員を兵舎に送る。"
+
+msgid "dropInBarrack/error/noCrew"
+msgstr "搭乗員なし"
+
+msgid "dropInBarrack/title"
+msgstr "搭乗員を兵舎に送る"
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/body"
+msgstr "全搭乗員を「兵舎」に送ることができません。"
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/header"
+msgstr "操作不可"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/body"
+msgstr "搭乗員が戦闘中です"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/header"
+msgstr "エラー"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/body"
+msgstr "兵舎の寝台が不足しています"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/header"
+msgstr "操作不能"
+
+msgid "retrain/button/label"
+msgstr "再訓練"
+
+msgid "retrain/description"
+msgstr "全搭乗員をこの車輌に向けに再訓練する。"
+
+msgid "retrain/error/alreadyRetrained"
+msgstr "搭乗員は訓練済みです"
+
+msgid "retrain/error/locked"
+msgstr "操作不可"
+
+msgid "retrain/error/noCrew"
+msgstr "搭乗員なし"
+
+msgid "retrain/title"
+msgstr "搭乗員の再訓練"
+
+msgid "return/button/label"
+msgstr "戻す"
+
+msgid "return/description"
+msgstr "この車輌で前回戦った搭乗員を戻す。"
+
+msgid "return/error/allDemobilized"
+msgstr "全搭乗員は既に解任済みです"
+
+msgid "return/error/alreadyOnPlaces"
+msgstr "搭乗員は既に搭乗中です"
+
+msgid "return/error/noPrevious"
+msgstr "この車輌で1戦以上\nプレイする必要があります"
+
+msgid "return/error/vehicleInBattle"
+msgstr "この車輌は戦闘中です"
+
+msgid "return/title"
+msgstr "搭乗員を車輌に戻す"
+
+msgid "return/toggle/description"
+msgstr "この車輌で前回出撃した搭乗員を自動で再配属します。"
+
+msgid "return/toggle/label"
+msgstr "自動再配属"
+
+msgid "return/warning/memberDemobilized/tooltip/body"
+msgstr "一部の搭乗員が解任されており、車輌に搭乗できません。期限までであれば、解任した搭乗員を兵舎でリカバリーできます。期限を過ぎると、搭乗員はアカウントから完全に削除されます。"
+
+msgid "return/warning/memberDemobilized/tooltip/header"
+msgstr "警告"
+
+msgid "return/warning/membersInBattle/tooltip/body"
+msgstr "以前の搭乗員の一部が戦闘中です"
+
+msgid "return/warning/membersInBattle/tooltip/header"
+msgstr "エラー"
+
+msgid "window/title"
+msgstr "搭乗員の操作"

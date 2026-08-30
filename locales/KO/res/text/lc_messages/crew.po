@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "확장"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "미숙련 승무원 퇴역"
+
+msgid "barracks/bunks/title"
+msgstr "침상:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "구매할 침상 수를 지정하십시오. 막사 내 보유 침상: %(freeBunksCount)s / %(allBunksCount)s"
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "할인 가격"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "변경 가격: 침상 %(bunksCount)s개당 %(currency)s"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "기존 가격: 침상 %(bunksCount)s개당 %(currency)s"
+
+msgid "barracks/enlarge/header"
+msgstr "막사를 확장하시겠습니까?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "막사 내 미숙련 승무원 중 첫 번째 능력을 {whiteSpanish_Open}100%{whiteSpanish_Close}까지 훈련하는 데 필요한 {whiteSpanish_Open}210,060{whiteSpanish_Close}{icon} 경험치를 보유하지 않은 승무원을 퇴역 처리할 수 있습니다."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "미숙련 승무원"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "미숙련 승무원 없음"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "미숙련 승무원을 퇴역 처리해도 별도의 보상이 지급되지 않습니다. 퇴역 처리한 승무원은 복구할 수 없으며, 해당 승무원이 보유한 경험치는 모두 사라집니다."
+
+msgid "barracks/title"
+msgstr "막사"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "막사를 확장합니다."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "막사 확장"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "위치"
+
+msgid "common/imageNotAvailable"
+msgstr "이미지 이용 불가"
+
+msgid "common/inBarracks"
+msgstr "막사 대기 중"
+
+msgid "common/inBattle"
+msgstr "전투 중"
+
+msgid "common/inPrebattle"
+msgstr "소대 참가 중"
+
+msgid "common/navigation/aboutCrew"
+msgstr "승무원 정보"
+
+msgid "common/navigation/toBarracks"
+msgstr "막사로 이동"
+
+msgid "common/navigation/toGarage"
+msgstr "차고로 이동"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "프로필로 이동"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "확인"
+
+msgid "conversionAwards/buttonNote"
+msgstr "승무원이 승무원 훈련서로 전환되었습니다."
+
+msgid "conversionAwards/title"
+msgstr "전환 완료"
+
+msgid "conversionAwards/underTitle"
+msgstr "다음 아이템이 계정에 추가되었습니다."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "취소"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "퇴역"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "퇴역 처리할 승무원: {amount}명"
+
+msgid "conversionConfirm/title"
+msgstr "미숙련 승무원을 퇴역 처리하시겠습니까?"
+
+msgid "conversionConfirm/warning"
+msgstr "미숙련 승무원을 퇴역 처리해도 별도의 보상이 지급되지 않습니다. 퇴역 처리한 승무원은 복구할 수 없으며, 해당 승무원이 보유한 경험치는 모두 사라집니다."
+
+msgid "crewBanner/button/fill/label"
+msgstr "능력 자동 선택"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "미훈련 능력이 있는 승무원이 없습니다."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "능력 자동 선택 불가"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "더하기 기호로 표시된 미훈련 능력이 모두 특정 규칙에 따라 자동으로 선택된 능력으로 대체됩니다."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "모든 미훈련 능력 자동 선택"
+
+msgid "crewBanner/button/reset/label"
+msgstr "모든 능력 초기화"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "훈련한 능력이 있는 승무원이 없습니다."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "능력 초기화 불가"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "모든 승무원의 능력이 모두 초기화됩니다. 해당 작업은 되돌릴 수 없습니다."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "모든 능력 초기화"
+
+msgid "crewBanner/infoText"
+msgstr "무료로 모든 승무원의 능력 초기화 또는 미훈련 능력 자동 선택"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "승무원 급속 훈련 활성화 중"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "숙련도 보너스: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "능력 숙련도"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "승무원이 특화 전차가 아닌 다른 전차에 탑승 중이므로 능력을 사용할 수 없습니다."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "특화 전차"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "능력 이용 불가"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "보너스 능력"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "주요 직책 능력"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(중국)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(체코)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(프랑스)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(독일)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(이탈리아)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(일본)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(폴란드)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(스웨덴)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(영국)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(미국)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(소련)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "모든 프리미엄 구축전차 {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "모든 프리미엄 자주포 {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "모든 프리미엄 중전차 {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "모든 프리미엄 경전차 {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "모든 프리미엄 중형전차\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "세부 정보"
+
+msgid "filter/group/details/title"
+msgstr "세부 정보"
+
+msgid "filter/group/nation/title"
+msgstr "국가"
+
+msgid "filter/group/other/title"
+msgstr "기타"
+
+msgid "filter/group/special/title"
+msgstr "특별"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "직책"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "단계"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "단계"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "특화 전차"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "전차 유형"
+
+msgid "filter/popup/button/title"
+msgstr "필터"
+
+msgid "filter/popup/default/title"
+msgstr "필터"
+
+msgid "filter/popup/skinChange/title"
+msgstr "국가 필터"
+
+msgid "filter/popup/tankChange/title"
+msgstr "전차 필터"
+
+msgid "filter/reset"
+msgstr "필터 초기화"
+
+msgid "filter/search/placeholder"
+msgstr "이름으로 검색"
+
+msgid "filter/search/tooltip/header"
+msgstr "이름으로 검색"
+
+msgid "filter/title"
+msgstr "표시:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "모든 부품과 다음 단계 전차 연구를 마친 정예 전차에 탑승 중인 승무원을 표시합니다."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "정예 전차"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "프리미엄 전차에 특화된 승무원을 표시합니다."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "프리미엄 전차"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "주력 전차에 탑승 중인 승무원을 표시합니다."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "주력 전차"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "해당 유형 전차에 특화된 승무원을 표시합니다."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "해당 국가 승무원을 표시합니다."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "해당 국가 스킨을 표시합니다."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "해당 국가 전차를 표시합니다."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "퇴역 대기 승무원을 표시합니다."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "퇴역 대기"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "신병을 표시합니다."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "신병"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "현역 승무원을 표시합니다."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "현역 승무원"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "해당 직책 승무원을 표시합니다."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "프리미엄 전차를 표시합니다."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "프리미엄 전차"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "해당 유형 전차를 표시합니다."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "구축전차"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "자주포"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "중전차"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "경전차"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "중형전차"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "검색 조건에 맞는\n전차 없음"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "전차 이름으로 정렬"
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "이름"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "전차 단계로 정렬"
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "단계"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "전차 유형으로 정렬"
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "유형"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "이름"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "필터를 초기화합니다."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "모든 필터 초기화"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "확인"
+
+msgid "junkTankmen/description"
+msgstr "해당 승무원은 첫 번째 능력을 {whiteSpanish_Open}100%{whiteSpanish_Close}까지 훈련하는 데 필요한 {bond_Open}210,060{bond_Close}{icon} 경험치를 보유하지 않았습니다.\n해당 승무원은 계정에서 제거됩니다."
+
+msgid "junkTankmen/title"
+msgstr "미숙련 승무원을 퇴역 처리하시겠습니까?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "추가 직책당 능력 수는 {whiteSpanish_Open}3개{whiteSpanish_Close}로 제한됩니다. 새로운 보너스 능력은 {whiteSpanish_Open}첫 번째{whiteSpanish_Close}, {whiteSpanish_Open}세 번째{whiteSpanish_Close}, {whiteSpanish_Open}다섯 번째{whiteSpanish_Close} 주요 직책 능력 훈련 완료 시 해제됩니다."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "보너스 능력"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "직책 구성이 다른 전차로 승무원 재훈련 시 새로운 추가 직책의 능력을 다시 선택할 수 있습니다."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "보너스 능력 훈련은 주요 직책 능력의 절반 속도로 진행됩니다."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "보너스 능력을 훈련하는 데 경험치는 필요하지 않습니다."
+
+msgid "matrix/freeResetButton"
+msgstr "무료 초기화"
+
+msgid "matrix/increaseButton"
+msgstr "속성 훈련"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "승무원이 훈련할 수 있는 능력 수가 최대치에 도달했습니다."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "속성 훈련 불가"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "자유 경험치와 승무원 훈련서를 사용하여 능력을 훈련합니다."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "속성 훈련"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "유효하지 않은 직책"
+
+msgid "matrix/qualification/1"
+msgstr "주요 직책"
+
+msgid "matrix/qualification/2"
+msgstr "두 번째 직책"
+
+msgid "matrix/qualification/3"
+msgstr "세 번째 직책"
+
+msgid "matrix/qualification/4"
+msgstr "네 번째 직책"
+
+msgid "matrix/qualification/5"
+msgstr "다섯 번째 직책"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "두 번째 직책은 기본 보유 능력 사용 불가"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "세 번째 직책은 기본 보유 능력 사용 불가"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "네 번째 직책은 기본 보유 능력 사용 불가"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "해당 전차에서는 두 번째 직책 이용 불가"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "해당 전차에서는 세 번째 직책 이용 불가"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "해당 전차에서는 네 번째 직책 이용 불가"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "해당 전차에서는 다섯 번째 직책 이용 불가"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "추가 직책당 보너스 능력 수는 {whiteSpanish_Open}3개{whiteSpanish_Close}로 제한됩니다. 해당 직책의 능력만 보너스 능력으로 선택할 수 있습니다."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "주요 직책 능력 수는 기본 보유 능력도 포함하여 {whiteSpanish_Open}6개{whiteSpanish_Close}로 제한됩니다."
+
+msgid "matrix/resetButton"
+msgstr "초기화"
+
+msgid "matrix/resetButtonHint"
+msgstr "능력 초기화"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "훈련한 능력이 없습니다."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "능력 초기화 불가"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "능력을 초기화합니다."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "능력 초기화"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "보너스 능력 훈련 가능"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "보너스 능력을 훈련하는 데 승무원 경험치는 필요하지 않습니다."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "이용 불가"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "세 번째 주요 직책 능력 훈련 시 해제됩니다. 경험치는 필요하지 않습니다."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "다섯 번째 주요 직책 능력 훈련 시 해제됩니다. 경험치는 필요하지 않습니다."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "훈련 수준"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "해당 승무원은 기본 보유 능력이 있으므로 필요한 총경험치가 감소합니다."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "해당 승무원은 기본 보유 능력이 2개 있으므로 필요한 총경험치가 감소합니다."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "능력 훈련 가능"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "이용 불가"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "이전 능력을 100% 훈련 완료해야 합니다."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "기본 보유 능력 훈련 가능"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "여러 능력을 한 번에 선택하더라도 항상 기본 보유 능력부터 훈련됩니다. 기본 보유 능력 훈련 시에는 승무원 경험치가 필요하지 않습니다."
+
+msgid "matrix/skills/allSkills"
+msgstr "해당 전차에서 모든 추가 능력 훈련 완료"
+
+msgid "matrix/skills/available"
+msgstr "훈련 가능한 능력:"
+
+msgid "matrix/skills/bonus"
+msgstr "보너스 능력"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "능력 이용 불가"
+
+msgid "matrix/skills/locked"
+msgstr "능력 이용 불가"
+
+msgid "matrix/skills/main/disabled"
+msgstr "해당 전차에서 모든 능력 비활성화"
+
+msgid "matrix/skills/main/enabled"
+msgstr "주요 직책 능력"
+
+msgid "matrix/skills/reduced"
+msgstr "능력 숙련도 감소"
+
+msgid "matrix/skills/roles/commander"
+msgstr "전차장 능력"
+
+msgid "matrix/skills/roles/driver"
+msgstr "조종수 능력"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "전차장 능력"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "조종수 능력"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "포수 능력"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "장전수 능력"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "무전수 능력"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "포수 능력"
+
+msgid "matrix/skills/roles/loader"
+msgstr "장전수 능력"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "무전수 능력"
+
+msgid "matrix/skills/training"
+msgstr "능력 훈련"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "훈련 가능한 기본 보유 능력:"
+
+msgid "memberChange/action/recruit"
+msgstr "{role} 충원"
+
+msgid "memberChange/discount"
+msgstr "직책 변경 비용 {discountAmount}% 할인"
+
+msgid "memberChange/title"
+msgstr "{role} 선택: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}보유 중{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "작업 완료 시 경험치를 이전한 승무원은 계정에서 제거됩니다."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "인수인계를 통해 한 승무원이 보유한 승무원 경험치를 같은 국가의 다른 승무원에게로 이전할 수 있습니다."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "인수인계 허가증"
+
+msgid "personalData/card/edit"
+msgstr "편집"
+
+msgid "personalData/card/remove"
+msgstr "제거"
+
+msgid "personalData/card/restrictions"
+msgstr "제한: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "승무원 이름과 외관을 변경합니다."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "외관"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "해당 승무원은 이미 특별 이름과 외관이 적용된 상태입니다."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "이름 및 외관 변경 불가"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "검색 결과가 없습니다. 설정을 변경하거나 필터를 초기화하십시오."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "스킨을 국가별로 표시합니다."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "항목 필터"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "기본 외관을 표시합니다."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "기본 외관"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "적합한 스킨을 표시합니다."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "적합한 스킨"
+
+msgid "personalData/filter/type/title"
+msgstr "유형"
+
+msgid "personalData/title"
+msgstr "이름 및 외관 변경"
+
+msgid "personalFile/changeVehicle"
+msgstr "변경"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "해당 승무원은 특화 전차를 변경할 수 없습니다."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "수행 불가"
+
+msgid "personalFile/discount/full"
+msgstr "승무원 재훈련 할인 이용 가능"
+
+msgid "personalFile/discount/short"
+msgstr "할인 이용 가능"
+
+msgid "personalFile/inVehicle"
+msgstr "탑승 전차: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "확인"
+
+msgid "personalFile/isUntrained"
+msgstr "비특화 전차"
+
+msgid "personalFile/premiumVehicle"
+msgstr "모든 {icon} 프리미엄 전차"
+
+msgid "personalFile/retrain"
+msgstr "재훈련"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "능력 숙련도: "
+
+msgid "personalFile/specialization"
+msgstr "특화 전차:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "특화 전차"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "해당 승무원의 음성 견본을 확인합니다."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "특별 음성"
+
+msgid "postProgression/button/claim"
+msgstr "보상 수령"
+
+msgid "postProgression/description"
+msgstr "주요 직책 능력 6개를 전부 훈련한 모든 승무원은 합동 과정에 참여할 수 있습니다. 합동 과정에 100,000 경험치가 모일 때마다 다른 승무원 훈련 시 사용할 수 있는 범용 지침이 지급됩니다."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "합동 과정은 주요 직책 능력 6개를 전부 훈련한 모든 승무원이 하나로 통합되어 참여하게 됩니다."
+
+msgid "postProgression/tips/2"
+msgstr "합동 과정에는 일반 경험치만 집계됩니다. 전투에서 획득한 일반 경험치의 절반이 해당 전차의 총 승무원 수로 나누어져 합동 과정에 추가됩니다."
+
+msgid "postProgression/tips/3"
+msgstr "능력이나 재훈련에 관련된 경험치 손실은 합동 과정에 영향을 미치지 않습니다."
+
+msgid "postProgression/title"
+msgstr "승무원 합동 과정"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "합동 과정에 참여한 모든 승무원의 능력 숙련도가 낮습니다."
+
+msgid "postProgression/warning/retire"
+msgstr "합동 과정에 참여한 모든 승무원이 퇴역하였거나 마지막 능력의 경험치를 잃었습니다."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "모든 프리미엄 구축전차"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "모든 프리미엄 자주포"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "프리미엄 구축전차"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "프리미엄 자주포"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "프리미엄 중전차"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "프리미엄 경전차"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "프리미엄 중형전차"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "모든 프리미엄 중전차"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "모든 프리미엄 경전차"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "모든 프리미엄 중형전차"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "업적"
+
+msgid "serviceRecord/averageXP"
+msgstr "평균 경험치 획득"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "참전 횟수"
+
+msgid "serviceRecord/noAchievements"
+msgstr "획득한 업적이나 훈장이 없습니다."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "해당 승무원이 해당 전차에 탑승하여 획득한 총 경험치 대 참전 횟수 비율입니다."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "평균 경험치 획득"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "승무원 계급은 경험치와 훈련한 능력 수를 기준으로 정해집니다."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "계급"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "해당 직책 승무원 모든 능력 훈련 완료"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "능력 훈련 가능"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "해당 전차에서 모든 능력 비활성화"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "추가 직책 능력 훈련은 경험치가 필요하지 않지만, 주요 직책 능력 훈련의 절반 속도로 진행됩니다."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "취소"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "훈련"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "보너스 직책"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "주요 직책"
+
+msgid "tankChange/title"
+msgstr "전차 훈련"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "차고에 보유 중인 전차만 표시합니다."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "보유 중"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "전차를 유형 및 단계별로 표시합니다."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "항목 필터"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "프리미엄 전차는 같은 유형의 다른 전차 승무원이 탑승하더라도 불이익이 적용되지 않으므로 승무원을 재훈련하지 않고도 운용할 수 있습니다."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "프리미엄 전차"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "전차명은 최대 %(maxLength)s자로 제한됩니다."
+
+msgid "tankman/action/dismiss/title"
+msgstr "퇴역"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "해당 승무원을 퇴역 처리합니다."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "해당 승무원은 퇴역할 수 없습니다."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "수행 불가"
+
+msgid "tankman/action/recruit/title"
+msgstr "충원"
+
+msgid "tankman/action/restore/title"
+msgstr "복구"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "해당 승무원을 복구합니다."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "해당 승무원의 음성 견본을 확인합니다."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "특별 음성"
+
+msgid "tankman/recruit"
+msgstr "신병"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "외관"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "프로필"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "전적"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "충원"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "필터 초기화"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "검색 결과가 없습니다. 설정을 변경하거나 필터를 초기화하십시오."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "검색 결과가 없습니다. 승무원을 충원하십시오."
+
+msgid "tankmanList/filter/title"
+msgstr "승무원:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "막사에 침상이 부족합니다."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "퇴역 대기 중인 승무원만 표시합니다."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "퇴역 대기"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "막사에 대기 중인 승무원을 표시합니다."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "막사 대기 중"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "전차에 탑승 중인 승무원을 표시합니다."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "전차 탑승 중"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "해당 국가 스킨을 표시합니다."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "승무원을 직책, 특화 전차 등 항목별로 표시합니다."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "항목 필터"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "새로운 승무원을 충원합니다."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "이름은 최대 %(maxLength)s자로 제한됩니다."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*능력에 마우스를 올리면 현재 능력 숙련도를 기준으로 능력을 100% 훈련 완료했을 때 관련 성능에 미치는 영향을 확인할 수 있습니다."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "확인"
+
+msgid "welcomeScreen/item1/description"
+msgstr "직책별로 신규 능력 2개를 추가하였고, 배치 안정 능력을 개편하였으며, 전투 화면 HUD에서 능력을 숨길 수 있는 신규 기능을 추가하였습니다."
+
+msgid "welcomeScreen/item2/description"
+msgstr "클릭 한 번으로 미숙련 승무원을 퇴역 처리할 수 있는 신규 기능을 추가하였습니다."
+
+msgid "welcomeScreen/item3/description"
+msgstr "이제 경험치를 소모하지 않아도 능력을 초기화할 수 있습니다. 크레딧만 사용하여 능력을 초기화해 보십시오."
+
+msgid "welcomeScreen/subTitle"
+msgstr "신규 능력과 기능을 추가하였으며 기존 능력을 변경했습니다."
+
+msgid "welcomeScreen/title"
+msgstr "승무원 업데이트"

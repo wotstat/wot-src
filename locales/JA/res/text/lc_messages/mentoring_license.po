@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "この操作を確定するには、選択した搭乗員のEXP量を空欄に入力する必要があります。"
+
+msgid "assignmentDialog/price"
+msgstr "費用:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "引き継ぎ元の搭乗員のEXPがすべて引き継ぎし先の搭乗員に受け渡されます"
+
+msgid "assignmentDialog/title"
+msgstr "「引き継ぎ研修」の操作を確定"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "この搭乗員はアカウントから削除され、\nリカバリーもできなくなります。"
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "超過分の{xpLose}EXPは失われます。"
+
+msgid "dialogue/description"
+msgstr "同じ国籍同士であれば搭乗員EXPを別の搭乗員に受け渡すことができるアイテムです。1度使用すると消費されます。"
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}失われる超過EXP:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "選択"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "合計EXP:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}引き継ぎ指令書:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "適合する搭乗員なし"
+
+msgid "mentorAssigment/tips/info"
+msgstr "「{cream_Open}%(name)s{cream_Close}」にEXPを受け渡す搭乗員を選択してください。\n引き継ぎ元の搭乗員はアカウントから削除されます。"
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "搭乗員EXPの受け渡しを行うと、「{cream_Open}%(name)s{cream_Close}」のパーク数が上限に達します。超過したEXPはすべて失われます。"
+
+msgid "mentorAssigment/title"
+msgstr "引き継ぎ元を選択"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "「{bond_Open}%(name)s{bond_Close}」はパークの制限に達しているため、EXPの引き継ぎ先として選択できません。"
+
+msgid "multipleUserName"
+msgstr "引き継ぎ指令書"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "消費した「引き継ぎ指令書」: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "受け渡された搭乗員EXP:"
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "引き継ぎ研修"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>失われた超過EXP: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "同じ国籍同士であれば搭乗員EXPを\n別の搭乗員に受け渡すことができる。"
+
+msgid "storage/userName"
+msgstr "引き継ぎ指令書"
+
+msgid "userName"
+msgstr "引き継ぎ指令書"

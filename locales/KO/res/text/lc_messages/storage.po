@@ -1,0 +1,353 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprints/buttonLabel/gotoblueprints"
+msgstr "설계도면으로 이동"
+
+msgid "blueprints/card/additional"
+msgstr "선택:"
+
+msgid "blueprints/card/convertAvailable"
+msgstr "생성 가능 조각: %(count)s"
+
+msgid "blueprints/card/convertRequired"
+msgstr "조각 부족"
+
+msgid "blueprints/card/plus"
+msgstr "+"
+
+msgid "blueprints/carousel/title"
+msgstr "조합 가능 설계도면:"
+
+msgid "blueprints/checkbox/label"
+msgstr "조각 생성 가능"
+
+msgid "blueprints/nationBar/title"
+msgstr "범용 및 국가 설계도면 조각"
+
+msgid "blueprints/noItems/discount/body"
+msgstr "설계도면 슬롯에 조각이 추가될 때마다 전차 연구 시 할인이 적용됩니다. 설계도면 조합을 완료하면 해당 전차를 경험치를 사용하지 않고 연구할 수 있습니다."
+
+msgid "blueprints/noItems/discount/header"
+msgstr "연구 할인 획득"
+
+msgid "blueprints/noItems/fill/body"
+msgstr "범용 조각과 국가 조각을 특정 전차 조각으로 변환해 보십시오."
+
+msgid "blueprints/noItems/fill/header"
+msgstr "전차 설계도면 조합"
+
+msgid "blueprints/noItems/receive/body"
+msgstr "임무 완료 보상으로 설계도면 조각을 획득할 수도 있습니다. 이미 보유 중인 조각 획득 시 범용 또는 국가 조각으로 대체 지급됩니다."
+
+msgid "blueprints/noItems/receive/header"
+msgstr "조각 수집"
+
+msgid "blueprints/title"
+msgstr "미연구 전차 설계도면"
+
+msgid "buttonDeconstruct/tooltip/body"
+msgstr "장비를 부속품으로 분해합니다."
+
+msgid "buttonDeconstruct/tooltip/header"
+msgstr "분해"
+
+msgid "buttonLabel/activate"
+msgstr "활성화로 이동"
+
+msgid "buttonLabel/preview"
+msgstr "미리 보기"
+
+msgid "buttonLabel/remove"
+msgstr "제거"
+
+msgid "buttonLabel/restore"
+msgstr "복구로 이동"
+
+msgid "buttonLabel/select"
+msgstr "선택"
+
+msgid "buttonLabel/sell"
+msgstr "판매"
+
+msgid "buttonSell/tooltip/body"
+msgstr "장비 판매"
+
+msgid "buttonSell/tooltip/header"
+msgstr "판매"
+
+msgid "buttonUpgrade/tooltip/body"
+msgstr "장비 성능을 강화해 보십시오."
+
+msgid "card/attachment/hover/partOfBundle/label"
+msgstr "%(bundleName)s 구성품입니다.\n전차 꾸미기 내 3D 부착물 항목에서 적용 가능한 전차 목록을 확인할 수 있습니다."
+
+msgid "card/cannotSellTitle"
+msgstr "판매 불가"
+
+msgid "card/vehicle/hover/maxAdditionalPriceLabel"
+msgstr "+ 환급 금액:"
+
+msgid "card/vehicle/hover/restoreAvailableLabel"
+msgstr "복구 가능"
+
+msgid "card/vehicle/tradeOffPriceLabel"
+msgstr "책정 가격:"
+
+msgid "crewBooks/filters/nation"
+msgstr "국가"
+
+msgid "crewBooks/filters/nation/all"
+msgstr "전체"
+
+msgid "crewBooks/filters/title"
+msgstr "유형"
+
+msgid "crewBooks/noItems/info"
+msgstr "아직 승무원 훈련서가 없습니다. 승무원 훈련서는 임무 완료 보상으로 획득할 수 있습니다."
+
+msgid "customization/noItems/navigationButton"
+msgstr "전차 꾸미기로 이동"
+
+msgid "customization/noItems/title"
+msgstr "보유한 전차와 호환되지 않는 전차 꾸미기 요소를 표시합니다."
+
+msgid "customization/sectionTitle"
+msgstr "전차 꾸미기"
+
+msgid "customizationSuitable/label"
+msgstr "호환 전차: "
+
+msgid "customizationSuitableForAll/label"
+msgstr "모든 전차 호환"
+
+msgid "devices/filters/all"
+msgstr "모든 장비"
+
+msgid "devices/filters/deluxe"
+msgstr "강화"
+
+msgid "devices/filters/modernized"
+msgstr "시제"
+
+msgid "devices/filters/simple"
+msgstr "일반"
+
+msgid "devices/filters/trophy"
+msgstr "포상"
+
+msgid "equipment/cooldown"
+msgstr "재사용 시간: %(cooldown)s초"
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s\n%(extendedDescr)s"
+
+msgid "filter/noResultsBtn/label"
+msgstr "필터 초기화"
+
+msgid "filter/someTiersOnlyMessage"
+msgstr "2단계~10단계 전차 설계도면 조각만 생성할 수 있습니다."
+
+msgid "filter/warningMessage"
+msgstr "검색 결과가 없습니다. 설정을 변경하거나 필터를 초기화하십시오."
+
+msgid "forSell/noItems/title"
+msgstr "전차와 호환되지 않는 부품 및 포탄을 확인할 수 있습니다."
+
+msgid "forSell/sectionTitle"
+msgstr "판매 대기 부품 및 포탄"
+
+msgid "inhangar/filterTitle"
+msgstr "표시:"
+
+msgid "inhangar/noImage"
+msgstr "이미지 이용 불가"
+
+msgid "inhangar/noItems/allTab/title"
+msgstr "차고에 전차 없음"
+
+msgid "inhangar/noItems/rentTab/title"
+msgstr "대여 전차가 없습니다."
+
+msgid "inhangar/noItems/restoreTab/title"
+msgstr "판매한 프리미엄, 특별 전차는 크레딧을 사용하여 복구할 수 있습니다.\n복구할 전차가 없습니다."
+
+msgid "inhangar/sectionTitle"
+msgstr "보유 전차"
+
+msgid "inhangar/tabs/all"
+msgstr "전차"
+
+msgid "inhangar/tabs/rent"
+msgstr "대여"
+
+msgid "inhangar/tabs/restore"
+msgstr "복구"
+
+msgid "inventory/filterType/consumables"
+msgstr "소모품"
+
+msgid "inventory/filterType/instructions"
+msgstr "지휘명령"
+
+msgid "inventory/filterType/other"
+msgstr "기타 설정"
+
+msgid "markEverything"
+msgstr "모든 항목 판매 가격:"
+
+msgid "moduleCompatible/label"
+msgstr "호환 전차:"
+
+msgid "moduleCompatible/moreVehicles"
+msgstr "…추가 보유: %(vehCount)s"
+
+msgid "notAvailable/navigationButton"
+msgstr "차고로 복귀"
+
+msgid "notAvailable/title"
+msgstr "보관소 이용 불가"
+
+msgid "offers/expiration"
+msgstr "%(date)s, %(time)s까지"
+
+msgid "offers/giftAmount"
+msgstr "선택 가능 보상: %(gifts)s"
+
+msgid "offers/giftsTitle"
+msgstr "남은 보상: %(gifts)s"
+
+msgid "offers/noItems/title"
+msgstr "일시적으로 해당 기능을 이용할 수 없습니다.\n나중에 다시 확인하거나 상점을 방문해 주십시오."
+
+msgid "offers/sectionTitle"
+msgstr "전방 지원 보급품"
+
+msgid "optDevice/hover/effect"
+msgstr "{effectTagOpen}효과: {effectTagClose}"
+
+msgid "personalreserves/activeCountLabel"
+msgstr "활성화된 물자: %(activeCount)s / %(totalCount)s"
+
+msgid "personalreserves/card/activated"
+msgstr "활성화"
+
+msgid "personalreserves/card/notAvailable"
+msgstr "이용 불가"
+
+msgid "personalreserves/durationFilter/btn/label"
+msgstr "%(durTime)s시간"
+
+msgid "personalreserves/durationFilter/label"
+msgstr "시간:"
+
+msgid "personalreserves/filterTitle"
+msgstr "표시:"
+
+msgid "personalreserves/navigateToShopLabel"
+msgstr "상점에서 구매"
+
+msgid "personalreserves/noItems/title"
+msgstr "보유 물자 없음 / 상점에서 구매 가능"
+
+msgid "personalreserves/sectionTitle"
+msgstr "개인 물자"
+
+msgid "personalreserves/typeFilter/label"
+msgstr "유형"
+
+msgid "restoreTimeLeft/timeless"
+msgstr "무제한"
+
+msgid "shellCompatible/label"
+msgstr "호환 주포:"
+
+msgid "shellCompatible/moreGuns"
+msgstr "…추가 보유: %(vehCount)s"
+
+msgid "storage/balanceLabel"
+msgstr "보유:"
+
+msgid "storage/filterTitle"
+msgstr "표시:"
+
+msgid "storage/noItems/navigationButton"
+msgstr "상점으로 이동"
+
+msgid "storage/noItems/title"
+msgstr "보유 아이템 없음 / 상점에서 구매 가능"
+
+msgid "storage/noItems/titleShort"
+msgstr "보유 아이템 없음"
+
+msgid "storage/sectionTitle"
+msgstr "보유"
+
+msgid "storage/tabs/all"
+msgstr "전체"
+
+msgid "storage/tabs/consumable"
+msgstr "소모품"
+
+msgid "storage/tabs/crewBooks"
+msgstr "승무원 훈련서"
+
+msgid "storage/tabs/devices/filter/type/label"
+msgstr "범주"
+
+msgid "storage/tabs/equipment"
+msgstr "장비"
+
+msgid "storage/tabs/modules"
+msgstr "부품"
+
+msgid "storage/tabs/modules/filter/appropriate/label"
+msgstr "적합"
+
+msgid "storage/tabs/modules/filter/type/label"
+msgstr "유형"
+
+msgid "storage/tabs/shells"
+msgstr "포탄"
+
+msgid "storage/tabs/shells/filter/appropriate/label"
+msgstr "적합"
+
+msgid "storage/tabs/shells/filter/type/label"
+msgstr "유형"
+
+msgid "storage/vehicleSelectPopover/label"
+msgstr "차고에서 전차 선택"
+
+msgid "stylePreview/tooltip"
+msgstr "스타일 미리 보기"
+
+msgid "vehicleSelectPopover/noVehicles"
+msgstr "검색 조건에 맞는\n전차 없음"
+
+msgid "vehicleSelectPopover/tooltips/level/body"
+msgstr "전차 단계로 정렬"
+
+msgid "vehicleSelectPopover/tooltips/level/header"
+msgstr "단계"
+
+msgid "vehicleSelectPopover/tooltips/nation/body"
+msgstr "전차 국가로 정렬"
+
+msgid "vehicleSelectPopover/tooltips/nation/header"
+msgstr "국가"
+
+msgid "vehicleSelectPopover/tooltips/title/body"
+msgstr "전차 이름으로 정렬"
+
+msgid "vehicleSelectPopover/tooltips/title/header"
+msgstr "이름"
+
+msgid "vehicleSelectPopover/tooltips/type/body"
+msgstr "전차 유형으로 정렬"
+
+msgid "vehicleSelectPopover/tooltips/type/header"
+msgstr "유형"
+
+msgid "vehicleSelectPopover/vehicleName"
+msgstr "이름"

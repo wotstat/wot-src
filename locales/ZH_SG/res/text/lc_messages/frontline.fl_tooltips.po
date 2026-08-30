@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "宵禁{{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}}-{{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "活动将开放于"
+
+msgid "bannerTooltip/description"
+msgstr "在诺曼底、Kraftwerk和海市蜃楼地图上使用{{vehicleTier}}级战车展开的大规模30v30战斗。攻击方必须摧毁5门大口径火炮中的3门，防守方则需要保护它们。"
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "在激烈战斗中展现您的威能以获取名声，领取珍贵奖励，并晋升军衔。"
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "活动已结束，您有尚未领取的前线等级完成奖励。"
+
+msgid "bannerTooltip/header"
+msgstr "前线战"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "前线战 | 等级{{curLevel}}{{@ class $maxTierClass}}/{{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} — 游戏模式。点击以探索"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "此模式需要较高的电脑性能。您可能会遇到与地图加载、画面和战车移动相关的问题。如果性能不足，请尝试在设置中选用较低的图形质量。"
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "可能降低性能"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}}/{{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "选择已完成等级的奖励（{{value}}个）"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "资金不足，无法进行购买。"
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "更改将应用到所有坦克歼击车。"
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "更改将应用到所有自行火炮。"
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "更改将应用到所有重型坦克。"
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "更改将应用到所有轻型坦克。"
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "更改将应用到所有中型坦克。"
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "战车不匹配"
+
+msgid "battleAbilities/points/body"
+msgstr "累积所需的点数并激活前线战的战斗储备。"
+
+msgid "battleAbilities/points/header"
+msgstr "战斗储备点数"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "查看攻击储备"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "攻击储备"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "查看侦察储备"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "侦察储备"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "查看战术储备"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "战术储备"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "在战斗中达到尉官和校官军阶时，战斗储备会升级。最高等级取决于战斗情景。"
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "额外信息"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "攻击储备"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "侦察储备"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "战术储备"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}：{{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "永久属性："
+
+msgid "battleAbilityTooltip/description"
+msgstr "放入此槽位的战斗储备，其在{{@ colorLegacy 'FFE4C0'}}命运交错{{/}}情境中作为选项出现的几率会提高{{@ colorLegacy 'FFE4C0'}}10%{{/}}。"
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "储备等级："
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "未购买！"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "活动已结束。"
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "活动即将开始！"
+
+msgid "infoButton/body"
+msgstr "点击查看额外信息。"
+
+msgid "infoButton/header"
+msgstr "关于活动"
+
+msgid "levelReserves/desc"
+msgstr "战斗储备在达到新军衔时升级："
+
+msgid "levelReserves/info"
+msgstr "在{{@ colorLegacy 'FFE4C0'}}命运交错{{/}}情境中，若购买战斗储备，其初始等级提升一级，最高等级提升至{{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}。"
+
+msgid "levelReserves/level"
+msgstr "达到以下军衔时升级：{{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "达到以下军衔时解锁：{{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "等级 - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "在{{@ colorLegacy 'FFE4C0'}}命运交错{{/}}情境中{{@ colorLegacy 'FFE4C0'}}购买的战斗储备{{/}}。"
+
+msgid "levelReserves/title"
+msgstr "战斗储备等级"
+
+msgid "playlist/warning/body"
+msgstr "此游玩列表包含不适用于此游戏模式或不在您车库中的战车。"
+
+msgid "playlist/warning/header"
+msgstr "不可用的战车（%(display)s/%(total)s）"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "战斗储备属性已加强"
+
+msgid "randomReserve/disable"
+msgstr "战斗储备槽已被占用。"
+
+msgid "randomReserve/notPurchased"
+msgstr "未购买战斗储备"
+
+msgid "randomReserve/purchased"
+msgstr "已购买战斗储备"
+
+msgid "skillOrderTooltip/body"
+msgstr "每个战车类型都有各自的储备解锁顺序："
+
+msgid "skillOrderTooltip/header"
+msgstr "战斗储备解锁顺序"
+
+msgid "skillOrderTooltip/info"
+msgstr "在{{@ colorLegacy 'whiteSpanish'}}命运交错{{/}}情景下，战斗储备的解锁顺序不受战车类型的影响。"

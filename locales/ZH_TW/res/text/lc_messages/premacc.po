@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "公會的{role}"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "前往帳號狀態"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "返回"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "您可以在 {}後替換地圖。"
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "顯示/隱藏此類型的地圖。"
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "沙漠地圖"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "夏季地圖"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "冬季地圖"
+
+msgid "mapsBlacklist/header"
+msgstr "排除地圖"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "從遊戲輪換地圖中排除一張不想要的地圖。若有《戰車世界》加值帳號可再排除一張地圖，若有「戰車世界 Plus」則能再排除 %(mapCount)s 張。若其中一個訂閱到期，已排除地圖欄位中最右方的地圖，將重新回到輪換清單。"
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "排除地圖"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "這些地圖僅會從隨機戰鬥中排除。"
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "您可每隔 %(maxCooldownTimeStr)s替換一張排除的地圖。"
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "此功能僅限 IV 階與以上車輛可用。"
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "在裝甲排中，只會排除裝甲排指揮官選擇的地圖。"
+
+msgid "mapsBlacklist/mapName"
+msgstr "「{mapName}」"
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "顯示地圖：{count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "顯示地圖：{count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "地圖類型："
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "取消"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "關閉"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "所選地圖將被替換成 {mapNameStr} 地圖。您可以在 {cooldownStr}後變更自己的選擇。"
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "您想要替換哪張地圖？"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "排除"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "選擇一張您想要替換的地圖"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "取消"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "關閉"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "您可以在 {cooldownStr}後變更自己的選擇。"
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "要從隨機戰鬥排除 {mapNameStr} 地圖嗎？"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "排除"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "排除"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "要排除 {mapNameStr} 地圖？"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "包含"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "要在隨機戰鬥中包含 {mapNameStr} 地圖？"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "您可以在 {cooldownStr}後替換這張地圖。"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "無法替換地圖"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "您可以在 {cooldownStr}後替換這張地圖。"
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "無法替換地圖"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "尚未選擇"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "點擊以選擇一張地圖來從隨機戰鬥中排除。"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "地圖尚未選擇"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "已排除的 {mapName} 地圖可替換成另一張。"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "可以替換地圖"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "您可以在 {cooldownStr}後替換 {mapName} 地圖。"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "無法替換地圖"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "只有在啟用《戰車世界》加值帳號時，才能使用額外的欄位。"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "欄位無法使用"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "從下方清單裡選擇一張地圖來從隨機戰鬥中排除。"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "地圖尚未選擇"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "從下方清單裡選擇一張地圖來從隨機戰鬥中排除。"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "可以替換地圖"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "您可以在 {cooldownStr}後替換這張地圖。"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "無法替換地圖"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "只有在啟用《戰車世界》加值帳號時，才能使用額外的排除地圖欄位。"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "欄位無法使用"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "取消"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "您可以在 {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}後變更選擇。"
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "替換"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "排除"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "要從隨機戰鬥排除 %(mapName)s 地圖嗎？"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "所選地圖將被替換成 {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close} 地圖。您可以在 %(cooldownTimeStr)s後變更選擇。"
+
+msgid "mapsBlacklistReplace/title"
+msgstr "您想要替換哪張地圖？"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "此地圖將被替換成 {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close} 地圖。您可以在 %(cooldownTimeStr)s後變更選擇。"
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "您要替換此地圖？"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "家長監護已在此帳號開啟。\n您可{link}了解更多有關家長監護的限制。"
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "家長監護"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "在遊戲入口網站"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "銀幣儲備"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s 天"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s 小時"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 分鐘"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s 分鐘"

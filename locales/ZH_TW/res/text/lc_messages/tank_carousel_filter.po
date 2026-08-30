@@ -1,0 +1,239 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "checkbox/inventory"
+msgstr "車庫中"
+
+msgid "infotip/counter"
+msgstr "適合的車輛數：%(count)d 之 %(total)d"
+
+msgid "infotip/event"
+msgstr "不會顯示特殊車輛"
+
+msgid "infotip/header/description"
+msgstr "顯示符合所選標準的車輛。"
+
+msgid "infotip/header/title"
+msgstr "車輛過濾"
+
+msgid "infotip/levels"
+msgstr "階級："
+
+msgid "infotip/nations"
+msgstr "國家："
+
+msgid "infotip/only"
+msgstr "只有以下車輛："
+
+msgid "infotip/only/elite"
+msgstr "精英"
+
+msgid "infotip/only/favorite"
+msgstr "最愛"
+
+msgid "infotip/only/premium"
+msgstr "加值"
+
+msgid "infotip/rent"
+msgstr "不會顯示租用車輛"
+
+msgid "infotip/searchNameVehicle"
+msgstr "按名稱搜尋："
+
+msgid "infotip/vehicleTypes"
+msgstr "類型："
+
+msgid "popover/checkbox/battleRoyale"
+msgstr "隱藏不相容的車輛"
+
+msgid "popover/checkbox/elite"
+msgstr "精英"
+
+msgid "popover/checkbox/event"
+msgstr "特殊"
+
+msgid "popover/checkbox/favorite"
+msgstr "最愛"
+
+msgid "popover/checkbox/premium"
+msgstr "加值"
+
+msgid "popover/checkbox/rented"
+msgstr "租用"
+
+msgid "popover/checkbox/unlock_available"
+msgstr "只能研發"
+
+msgid "popover/counter"
+msgstr "顯示的車輛：%(count)s"
+
+msgid "popover/label/customization"
+msgstr "自訂要素"
+
+msgid "popover/label/hidden"
+msgstr "更多"
+
+msgid "popover/label/levels"
+msgstr "階級"
+
+msgid "popover/label/nations"
+msgstr "國家"
+
+msgid "popover/label/progressions"
+msgstr "戰車遠征"
+
+msgid "popover/label/roles/AT-SPG"
+msgstr "驅逐戰車 %(levels)s 階角色"
+
+msgid "popover/label/roles/heavyTank"
+msgstr "重型戰車 %(levels)s 階角色"
+
+msgid "popover/label/roles/lightTank"
+msgstr "輕型戰車 %(levels)s 階角色"
+
+msgid "popover/label/roles/mediumTank"
+msgstr "中型戰車 %(levels)s 階角色"
+
+msgid "popover/label/searchNameVehicle"
+msgstr "按名稱搜尋"
+
+msgid "popover/label/specials"
+msgstr "特殊"
+
+msgid "popover/label/vehicleRole"
+msgstr "角色"
+
+msgid "popover/label/vehicleTypes"
+msgstr "類型"
+
+msgid "popover/title"
+msgstr "按參數過濾"
+
+msgid "tooltip/battleRoyale/body"
+msgstr "顯示/隱藏與大逃殺不相容的車輛"
+
+msgid "tooltip/battleRoyale/header"
+msgstr "隱藏不相容的車輛"
+
+msgid "tooltip/bonus/body"
+msgstr "顯示/隱藏有可用經驗加成的車輛。"
+
+msgid "tooltip/bonus/header"
+msgstr "經驗加成"
+
+msgid "tooltip/clanRented/body"
+msgstr "顯示/隱藏世界地圖與根據地戰鬥的租用車輛。"
+
+msgid "tooltip/clanRented/header"
+msgstr "公會戰的租用車輛"
+
+msgid "tooltip/crystals/body"
+msgstr "顯示/隱藏可用來獲取點券的車輛"
+
+msgid "tooltip/crystals/header"
+msgstr "可用來獲取點券的車輛"
+
+msgid "tooltip/customization/canInstallAttachments/body"
+msgstr "顯示/隱藏可安裝 3D 配飾的車輛。"
+
+msgid "tooltip/customization/own3DStyle/body"
+msgstr "顯示/隱藏您擁有 3D 風格的車輛。"
+
+msgid "tooltip/elite/body"
+msgstr "顯示/隱藏已研發所有可用配件、升級與下一階車輛的車輛。"
+
+msgid "tooltip/elite/header"
+msgstr "精英車輛"
+
+msgid "tooltip/event/body"
+msgstr "顯示/隱藏特殊遊戲活動的車輛。"
+
+msgid "tooltip/event/header"
+msgstr "特殊車輛"
+
+msgid "tooltip/favorite/body"
+msgstr "僅顯示/隱藏最愛車輛。"
+
+msgid "tooltip/favorite/header"
+msgstr "最愛車輛"
+
+msgid "tooltip/gameMode/body"
+msgstr "勾選方框以檢視適合 %(battleType)s 模式的車輛。"
+
+msgid "tooltip/gameMode/header"
+msgstr "大亂鬥"
+
+msgid "tooltip/igr/body"
+msgstr "顯示/隱藏 IGR 的車輛。"
+
+msgid "tooltip/igr/header"
+msgstr "IGR 車輛"
+
+msgid "tooltip/inventory/body"
+msgstr "?empty?"
+
+msgid "tooltip/inventory/header"
+msgstr "?empty?"
+
+msgid "tooltip/isCommonProgression/body"
+msgstr "顯示適合用來獲得進度點數或適合用來完成可獲取進度點數之任務的車輛。"
+
+msgid "tooltip/isCommonProgression/header"
+msgstr "戰車遠征車輛"
+
+msgid "tooltip/isCompetitiveProgression/body"
+msgstr "tooltip/isCompetitiveProgression/body"
+
+msgid "tooltip/isCompetitiveProgression/header"
+msgstr "tooltip/isCompetitiveProgression/header"
+
+msgid "tooltip/nations/body"
+msgstr "顯示/隱藏此國家的車輛。"
+
+msgid "tooltip/params/body"
+msgstr "設置車輛按其類型、國家、階級、以及其它參數來顯示。"
+
+msgid "tooltip/params/header"
+msgstr "按參數過濾"
+
+msgid "tooltip/premium/body"
+msgstr "僅顯示/隱藏加值與獎勵車輛。"
+
+msgid "tooltip/premium/header"
+msgstr "加值車輛"
+
+msgid "tooltip/ranked/body"
+msgstr "顯示/隱藏適用於排名戰的車輛。"
+
+msgid "tooltip/ranked/header"
+msgstr "排名戰車輛"
+
+msgid "tooltip/rented/body"
+msgstr "顯示/隱藏租用的車輛。"
+
+msgid "tooltip/rented/header"
+msgstr "租用車輛"
+
+msgid "tooltip/role/body"
+msgstr "顯示/隱藏此角色的車輛。"
+
+msgid "tooltip/rtsBattles/body"
+msgstr "顯示/隱藏適合「戰略之道」活動的車輛。"
+
+msgid "tooltip/rtsBattles/header"
+msgstr "隱藏不相容的車輛"
+
+msgid "tooltip/searchInput/body"
+msgstr "車輛名稱最多必須包含 %(count)d 個字元。"
+
+msgid "tooltip/searchInput/header"
+msgstr "按名稱搜尋"
+
+msgid "tooltip/toggleSwitchCarousel/body"
+msgstr "在單層和雙層車輛面板間切換。"
+
+msgid "tooltip/toggleSwitchCarousel/header"
+msgstr "車輛面板"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "顯示/隱藏此類型的車輛。"

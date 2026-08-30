@@ -1,0 +1,3179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT 팀 <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "포격 지원"
+
+msgid "attackReason/artillery_sector"
+msgstr "포격 지원"
+
+msgid "attackReason/bombers"
+msgstr "공습 지원"
+
+msgid "battleCommunication/hint/description"
+msgstr "입력 시 특정 위치에 표식 생성"
+
+msgid "battleCommunication/hint/press"
+msgstr "단축키"
+
+msgid "battleEndWarning/text"
+msgstr "남은 전투 시간"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr "해당 플레이어의 대화 및 음성 메시지가 이번 전투 중 차단됩니다."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "플레이어 메시지 차단"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "차단 목록에 포함된 플레이어가 보낸 메시지는 차단됩니다."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "작업 수행 불가"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr "해당 플레이어의 대화 및 음성 메시지 차단이\n해제되었습니다."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "플레이어 메시지 차단 해제"
+
+msgid "battleMessenger/w2gt/warning/gettingDataError"
+msgstr "전투 구역 데이터 검색 중 기술적인 문제가 발생했습니다."
+
+msgid "battleMessenger/w2gt/warning/noData"
+msgstr "현재 지도에서는 해당 전차에 관한 전투 구역 데이터를 이용할 수 없습니다."
+
+msgid "battleProgress/hint/description"
+msgstr "개인 임무 확인"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "주요 키 미지정"
+
+msgid "battleProgress/hint/press"
+msgstr "단축키"
+
+msgid "battle_notifier/lose"
+msgstr "패배!"
+
+msgid "battle_notifier/tie"
+msgstr "무승부!"
+
+msgid "battle_notifier/win"
+msgstr "승리!"
+
+msgid "bot/boss"
+msgstr "보스"
+
+msgid "bot/elite"
+msgstr "정예"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "피해 경고"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "엔진 손상"
+
+msgid "chat_example/affirmative"
+msgstr "\"알겠다!\""
+
+msgid "chat_example/attack_enemy"
+msgstr "<Enemy Name>에 지원 사격을 요청한다!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "<Enemy Name> 공격 중!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "기지를 점령하라!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "기지를 방어하라!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "\"<미니맵 좌표> 지역을 주시하라!\""
+
+msgid "chat_example/attention_to_position"
+msgstr "지정한 위치를 주목하라!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "\"군사 시설을 파괴하라!\""
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "\"주의하라!\""
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "\"기지를 점령하라!\""
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "\"군사 시설을 방어하라!\""
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "\"주의하라!\""
+
+msgid "chat_example/global_msg/def/time"
+msgstr "\"기지를 방어하라!\""
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "\"기지에 증원이 필요하다\""
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "\"기지에 증원이 필요하다\""
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "\"기지에 증원이 필요하다\""
+
+msgid "chat_example/going_there"
+msgstr "이곳으로 이동 중!"
+
+msgid "chat_example/help_me"
+msgstr "\"도움이 필요하다!\""
+
+msgid "chat_example/help_me_ex"
+msgstr "\"<아군 닉네임> 도움이 필요하다!\""
+
+msgid "chat_example/negative"
+msgstr "거부한다!"
+
+msgid "chat_example/overheated_gun"
+msgstr "\"주포 과열! <Reload Time>초 동안 사격 불가!\""
+
+msgid "chat_example/positive"
+msgstr "\"알겠다!\""
+
+msgid "chat_example/reloading_cassette"
+msgstr "\"<재장전 시간>초 후 사격 가능! 잔여 포탄 <포탄 수>발!\""
+
+msgid "chat_example/reloading_gun"
+msgstr "\"재장전 중! <재장전 시간>초 남았다!\""
+
+msgid "chat_example/reloading_ready"
+msgstr "\"사격 준비 완료!\""
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "\"사격 준비 완료! 잔여 포탄 <포탄 수>발!\""
+
+msgid "chat_example/reloading_unavailable"
+msgstr "\"잔여 탄환 없음!\""
+
+msgid "chat_example/spg_aim_area"
+msgstr "\"<미니맵 좌표> 조준 중!\""
+
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>, 지원하겠다!"
+
+msgid "chat_example/thanks"
+msgstr "<Ally Name>, 고맙다!"
+
+msgid "chat_example/turn_back"
+msgstr "\"<아군 닉네임>, 뒤로 물러나라!\""
+
+msgid "chat_shortcuts/affirmative"
+msgstr "\"알겠다!\""
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "%(target)s에 지원 사격을 요청한다!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
+msgstr "사격 준비 완료! %(target)s 공격 중!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_empty"
+msgstr "\"포탄 부족! %(target)s에 사격 지원을 요청한다!\""
+
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
+msgstr "“%(target)s 공격 중! 재장전까지 %(reloadTime)d초 남았다!”"
+
+msgid "chat_shortcuts/attacking_base"
+msgstr "기지를 점령하겠다!"
+
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "%(strArg1)s 기지 점령 중!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "%(target)s 공격 중!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "기지를 점령하라!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "%(strArg1)s 기지를 점령하라!"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "기지를 방어하라!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "%(strArg1)s 기지를 방어하라!"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "\"%(cellName)s 지역을 주시하라!\""
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "\"%(int32Arg1)s 군사 시설을 파괴하라!\""
+
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "%(int32Arg1)s 군사 시설 공격 중!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "%(int32Arg1)s 군사 시설 방어"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "%(int32Arg1)s 군사 시설 방어 중!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "해당 위치를 주시하라!"
+
+msgid "chat_shortcuts/attention_to_position_gridInfo"
+msgstr "%(gridId)s 지역을 주시하라"
+
+msgid "chat_shortcuts/defending_base"
+msgstr "기지를 방어하겠다!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "%(strArg1)s 기지 방어 중!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "군사 시설을 파괴하라!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "시간은 충분하다, 대피하라!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "시간이 없다. 반드시 기지를 점령하라!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "군사 시설을 방어하라!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "버텨야 한다. 주의하라!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "시간이 없다. 반드시 기지를 방어하라!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "%(strArg1)s 기지에 도움이 필요하다. 지원하라!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "%(strArg1)s 기지에 도움이 필요하다. 지원하라!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "%(strArg1)s 기지에 도움이 필요하다. 지원하라!"
+
+msgid "chat_shortcuts/going_there"
+msgstr "해당 위치로 이동 중!"
+
+msgid "chat_shortcuts/going_there_gridInfo"
+msgstr "%(gridId)s 지역으로 이동 중"
+
+msgid "chat_shortcuts/help_me"
+msgstr "\"지원이 필요하다!\""
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "\"%(target)s, 도움이 필요하다!\""
+
+msgid "chat_shortcuts/move_to_target"
+msgstr "목표물(%(target)s)을 향해 이동하라!"
+
+msgid "chat_shortcuts/move_to_target_autocommit"
+msgstr "목표물(%(target)s)을 향해 이동 중!"
+
+msgid "chat_shortcuts/negative"
+msgstr "거부한다!"
+
+msgid "chat_shortcuts/overheated_gun"
+msgstr "\"주포 과열! %(floatArg1)d초 동안 사격 불가!\""
+
+msgid "chat_shortcuts/positive"
+msgstr "%(target)s, 확인!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr "\"%(floatArg1)d초 후 사격 가능! 잔여 포탄: %(int32Arg1)s발!\""
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "\"재장전 중! %(floatArg1)d초 남았다!\""
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "\"사격 준비 완료!\""
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "\"사격 준비 완료! 잔여 포탄 %(int32Arg1)s발!\""
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "\"잔여 탄환 없음!\""
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "해당 위치 조준 중! 사격 준비 완료!"
+
+msgid "chat_shortcuts/spg_aim_area_empty_gridInfo"
+msgstr "\"%(gridId)s 지역 주시 중! 포탄이 부족하다!\""
+
+msgid "chat_shortcuts/spg_aim_area_gridInfo"
+msgstr "%(gridId)s 지역 조준 중! 사격 준비 완료!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "\"해당 위치 조준 중! 재장전까지 %(reloadTime)d초!\""
+
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "\"%(gridId)s 지역 조준 중! 재장전까지 %(reloadTime)d초 남았다!\""
+
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, 지원하겠다!"
+
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, 고맙다!"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "\"%(target)s, 뒤로 물러나라!\""
+
+msgid "colorSettingsTipPanel/btnLabel"
+msgstr "설정으로 이동"
+
+msgid "commanderCam/hint/description"
+msgstr "전술 모드로 전환하려면 시점 축소"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "재사용 시간: %(cooldownSeconds)s초"
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "소모품 슬롯"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/h"
+
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "AP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "HE"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "전차장이 부상당했습니다. 전차 성능이 저하되었습니다."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "전차장"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "조종수가 부상당했습니다. 전차 기동, 차체 회전 속도가 저하되었습니다."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "조종수"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "포수가 부상당했습니다. 명중률이 저하되었습니다."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "포수"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "포수 2가 부상당했습니다. 명중률이 저하되었습니다."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "포수 2"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "장전수가 부상당했습니다. 재장전 속도가 저하되었습니다."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "장전수"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "장전수 2가 부상당했습니다. 재장전 속도가 저하되었습니다."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "장전수 2"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "무전수가 부상당했습니다. 통신 범위가 저하되었습니다."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "무전수"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "무전수 2가 부상당했습니다. 통신 범위가 저하되었습니다."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "무전수 2"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "탄약고가 손상되었습니다. 재장전 속도가 저하되었습니다."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "탄약고가 파괴되었습니다."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "탄약고 이상 없음"
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "현가장치가 손상되었습니다."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "이동 불가: 현가장치가 파괴되었습니다."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "현가장치 이상 없음"
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "엔진이 손상되었습니다. 출력이 떨어집니다."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "이동 불가: 엔진이 파괴되었습니다."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "엔진 이상 없음"
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "연료 탱크가 손상되었습니다."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "연료 탱크가 파괴되었습니다."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "연료 탱크 이상 없음"
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "주포가 손상되었습니다. 명중률이 하락합니다."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "주포가 파괴되었습니다. 사격할 수 없습니다."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "주포 이상 없음"
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "무전기가 손상되었습니다."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "무전기가 파괴되었습니다. 통신 범위가 저하되었습니다."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "무전기 이상 없음"
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "관측 장치가 손상되었습니다."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "관측 장치가 파괴되었습니다. 관측 범위가 저하되었습니다."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "관측 장치 이상 없음"
+
+msgid "damage_panel/devices/track/critical"
+msgstr "현가장치가 손상되었습니다."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "이동 불가: 현가장치가 파괴되었습니다."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "현가장치 이상 없음"
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "포탑 구동부가 손상되었습니다. 포탑 회전 속도가 떨어집니다."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "회전 불가: 포탑 구동부가 파괴되었습니다."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "포탑 구동부 이상 없음"
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "현가장치가 손상되었습니다."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "이동 불가: 현가장치가 파괴되었습니다."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "현가장치 이상 없음"
+
+msgid "danger_zone/indicator"
+msgstr "전차가 파괴될 수 있습니다! 위험 구역을 벗어나십시오!"
+
+msgid "destroyTimer/liftOver"
+msgstr "정상 궤도 복귀..."
+
+msgid "devMaps/hint/description"
+msgstr "입력 시 지도 특징 표시"
+
+msgid "devMaps/hint/press"
+msgstr "단축키"
+
+msgid "devMaps/mapInfo/info"
+msgstr "해당 지도에서는 돌발 상황이 발생할 수 있습니다. 게임 설정에서 돌발 상황 발생 지도 선정을 비활성화할 수 있습니다."
+
+msgid "devMaps/mapInfo/text"
+msgstr "돌발 상황 발생 지도"
+
+msgid "devices/ammo_bay"
+msgstr "탄약고"
+
+msgid "devices/chassis"
+msgstr "현가장치"
+
+msgid "devices/engine"
+msgstr "엔진"
+
+msgid "devices/fuel_tank"
+msgstr "연료 탱크"
+
+msgid "devices/gun"
+msgstr "주포"
+
+msgid "devices/left_track"
+msgstr "좌측 궤도"
+
+msgid "devices/radio"
+msgstr "무전기"
+
+msgid "devices/right_track"
+msgstr "우측 궤도"
+
+msgid "devices/surveing_device"
+msgstr "관측 장치"
+
+msgid "devices/track"
+msgstr "%(type)s 궤도"
+
+msgid "devices/track/left"
+msgstr "왼쪽"
+
+msgid "devices/track/main"
+msgstr "비상"
+
+msgid "devices/track/outer"
+msgstr "기본"
+
+msgid "devices/track/right"
+msgstr "오른쪽"
+
+msgid "devices/turret_rotator"
+msgstr "포탑 구동부"
+
+msgid "devices/wheel"
+msgstr "차륜"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr "소대에 플레이어를 초대합니다.\n초대를 받은 플레이어는 전투 중 또는 전투 종료 후 초대를 수락할 수 있습니다.%(text)s"
+
+msgid "dynamicSquad/ally/anonymized/clan"
+msgstr " \n\n주의! 소대원에게 실제 닉네임과 클랜 태그가 표시됩니다."
+
+msgid "dynamicSquad/ally/anonymized/noClan"
+msgstr " \n\n주의! 소대원에게 실제 닉네임이 표시됩니다."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "해당 아군은 소대에 초대할 수 없습니다."
+
+msgid "dynamicSquad/ally/received"
+msgstr "소대 초대를 수락합니다.\n전투 중에 소대가 조직됩니다."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr "초대를 보냈습니다.\n플레이어가 초대를 수락하면 전투 중 또는 전투 종료 후 소대에 참여합니다."
+
+msgid "dynamicSquad/enemy/add"
+msgstr "소대에 플레이어를 초대합니다.\n초대를 받은 플레이어는 전투 중 또는 전투 종료 후 초대를 수락할 수 있습니다.%(text)s"
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "적군은 소대에 초대할 수 없습니다."
+
+msgid "dynamicSquad/enemy/received"
+msgstr "초대를 수락하고 소대에 참여합니다.\n소대는 전투 후에 조직됩니다."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr "초대를 보냈습니다.\n플레이어가 초대를 수락하면 전투 종료 후 소대에 참여합니다."
+
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "단축키"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr "입력 시 음성 대화 활성화"
+
+msgid "dynamicSquad/invite"
+msgstr "소대 초대"
+
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "공습 지원에 의한 피해"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "포격 지원에 의한 피해"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "군사 시설에 의한 피해"
+
+msgid "efficiencyRibbons/armor"
+msgstr "장갑 활용"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "전시 물자 지원"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "도움 피해(전차 발견)"
+
+msgid "efficiencyRibbons/assistStun"
+msgstr "도움 피해(폭발 충격)"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "도움 피해(궤도 파괴)"
+
+msgid "efficiencyRibbons/berserker"
+msgstr "광폭 피해"
+
+msgid "efficiencyRibbons/bonusRibbon"
+msgstr "역할 경험치"
+
+msgid "efficiencyRibbons/burn"
+msgstr "화재 유발"
+
+msgid "efficiencyRibbons/capture"
+msgstr "기지 점령"
+
+msgid "efficiencyRibbons/crits"
+msgstr "전차 손상"
+
+msgid "efficiencyRibbons/damage"
+msgstr "피해 기록"
+
+msgid "efficiencyRibbons/damageByBattleship"
+msgstr "전함 일제 사격 피해"
+
+msgid "efficiencyRibbons/damageByDestroyer"
+msgstr "U.S.S. Frankford 피해"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "지뢰 피해"
+
+msgid "efficiencyRibbons/dealtDamageByClingBrander"
+msgstr "전투 로봇 피해"
+
+msgid "efficiencyRibbons/dealtDamageByCorrodingShot"
+msgstr "부식 포탄 피해"
+
+msgid "efficiencyRibbons/dealtDamageByFireCircle"
+msgstr "불의 고리 피해"
+
+msgid "efficiencyRibbons/dealtDamageByThunderStrike"
+msgstr "전기 충격파 피해"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "구역 피해"
+
+msgid "efficiencyRibbons/defence"
+msgstr "기지 방어"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "기지 방어"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "피해 기록"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "군사 시설 파괴"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "군사 시설 방어"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "기지 점령 완료"
+
+msgid "efficiencyRibbons/fireDamageZone"
+msgstr "화재 구역에 의한 피해"
+
+msgid "efficiencyRibbons/healthAdded"
+msgstr "전차 수리 완료"
+
+msgid "efficiencyRibbons/kill"
+msgstr "전차 격파"
+
+msgid "efficiencyRibbons/minefieldZone"
+msgstr "지뢰 피해"
+
+msgid "efficiencyRibbons/ram"
+msgstr "전차 충돌"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "화재 피해"
+
+msgid "efficiencyRibbons/receivedByClingBrander"
+msgstr "전투 로봇 피해"
+
+msgid "efficiencyRibbons/receivedByCorrodingShot"
+msgstr "부식 포탄 피해"
+
+msgid "efficiencyRibbons/receivedByFireCircle"
+msgstr "불의 고리 피해"
+
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "지뢰 피해"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "산성 안개 피해"
+
+msgid "efficiencyRibbons/receivedByThunderStrike"
+msgstr "전기 충격파 피해"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "손상 피해"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "사격 피해"
+
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "화공전차 피해"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "충돌 피해"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "추락 피해"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "화공전차 피해"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "전차 발견"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "폐쇄 구역에 의한 피해"
+
+msgid "efficiencyRibbons/stun"
+msgstr "폭발 충격"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "전차 포기"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "충격 피해"
+
+msgid "efficiencyRibbons/zoneBlizzard"
+msgstr "눈보라"
+
+msgid "efficiencyRibbons/zoneFire"
+msgstr "화재"
+
+msgid "efficiencyRibbons/zoneFog"
+msgstr "안개"
+
+msgid "efficiencyRibbons/zoneRain"
+msgstr "폭우"
+
+msgid "efficiencyRibbons/zoneSandstorm"
+msgstr "모래 폭풍"
+
+msgid "efficiencyRibbons/zoneSmoke"
+msgstr "연기"
+
+msgid "efficiencyRibbons/zoneTornado"
+msgstr "회오리바람"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "팀 목록 표시하지 않음"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "목록 없음"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Ctrl + Tab키를 눌러서 목록 표시 전환)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "플레이어 이름, 격파 수, 전차 아이콘 표시"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "목록 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Ctrl + Tab키를 눌러서 목록 표시 전환)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "격파 수, 플레이어 전차 이름 및 아이콘 표시"
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "목록 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Ctrl + Tab키를 눌러서 목록 표시 전환)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "격파 수 및 전차 아이콘 표시"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "간단 목록"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Ctrl + Tab키를 눌러서 목록 표시 전환)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "소속 그룹, 전체 그룹 표시 전환"
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "항목 표시 전환"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Ctrl + Tab키를 눌러서 목록 표시 전환)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "깃발을 파괴했습니다!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "깃발 획득!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "깃발을 운반했습니다."
+
+msgid "flagNotification/flagInbase"
+msgstr "깃발을 운반하십시오."
+
+msgid "flags/timer"
+msgstr "%(time)s초..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "초..."
+
+msgid "grille/status/reload"
+msgstr "재장전 중..."
+
+msgid "grille/status/speedlimit"
+msgstr "속력 제한"
+
+msgid "helpScreen/hint/description"
+msgstr "전차 성능 확인"
+
+msgid "helpScreen/hint/press"
+msgstr "단축키:"
+
+msgid "helpScreen/mapbox/description"
+msgstr "입력 시 지도 특징 표시"
+
+msgid "helpScreen/mapbox/press"
+msgstr "단축키"
+
+msgid "helpScreen/pillbox/description/enter"
+msgstr "입력 시 사격 모드/<font color='#F4B12C'><b>길게 누를 시 포대 모드</b></font> 활성화"
+
+msgid "helpScreen/pillbox/description/exitPillbox"
+msgstr "입력 시 사격 모드/<font color='#F4B12C'><b>길게 누를 시 기동 모드</b></font> 활성화"
+
+msgid "helpScreen/pillbox/description/exitSiege"
+msgstr "입력 시 기동 모드/<font color='#F4B12C'><b>길게 누를 시 포대 모드</b></font> 활성화"
+
+msgid "helpScreen/pillbox/noBinding"
+msgstr "모드 전환 키 미지정"
+
+msgid "helpScreen/pillbox/press"
+msgstr "단축키"
+
+msgid "hint/noBindingKey"
+msgstr "주요 키 미지정"
+
+msgid "hitMarker/blocked"
+msgstr "장갑 관통 실패"
+
+msgid "hitMarker/critical"
+msgstr "전차 손상"
+
+msgid "hitMarker/missArmor"
+msgstr "장갑 타격 실패"
+
+msgid "hitMarker/ricochet"
+msgstr "도탄"
+
+msgid "hitMarker/spacedArmorBlocked"
+msgstr "장갑판 관통 실패"
+
+msgid "hitMarker/trackBlocked"
+msgstr "궤도 관통 실패"
+
+msgid "hitMarker/wheelBlocked"
+msgstr "차륜 관통 실패"
+
+msgid "levelProgress/maxLevel"
+msgstr "전차 최고 단계"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "%(device)s 장비로 인해 탄약고 유폭 방지"
+
+msgid "optDeviceResurrection/engine"
+msgstr "%(device)s 장비로 인해 엔진 파괴 방지"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "%(device)s 장비로 인해 화재 방지"
+
+msgid "penetration/high"
+msgstr "높음"
+
+msgid "penetration/low"
+msgstr "낮음"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "부가 조건"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "기본 조건"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "해당 전투 모드 개인 임무를 시작하지 않았습니다."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "해당 전차 유형 개인 임무를 시작하지 않았습니다."
+
+msgid "personal_reserves/hint/description"
+msgstr "입력 시 개인 물자 활성화"
+
+msgid "personal_reserves/hint/press"
+msgstr "단축키"
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "이동 불가: 현가장치가 파괴되었습니다."
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "이동 불가: 모든 승무원이 부상당했습니다."
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "이동 불가: 엔진이 파괴되었습니다."
+
+msgid "player_errors/cant_move/vehicle_destroyed"
+msgstr "이동 불가: 전차가 파괴되었습니다."
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "공격 불가: 모든 승무원이 부상당했습니다."
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "공격 불가: 주포가 손상되었습니다."
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "사격할 수 없습니다."
+
+msgid "player_errors/cant_shoot/gun_overheated"
+msgstr "사격 불가: 주포가 과열되었습니다."
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "주포를 장전하고 있습니다."
+
+msgid "player_errors/cant_shoot/low_charge_shot_blocking"
+msgstr "장전 중입니다."
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "공격 불가: 남은 포탄이 없습니다."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "공격 불가: 전차가 파괴되었습니다."
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "전환 불가: 엔진이 파괴되었습니다."
+
+msgid "player_errors/cant_switch/gun_destroyed"
+msgstr "전환 불가: 주포 파괴"
+
+msgid "player_errors/cant_switch/one_shell_left"
+msgstr "전환 불가: 포탄 한 발 남음"
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] 이미 사용 중"
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "[%(name)s] 소모품을 사용할 수 없습니다. 화재가 발생하지 않았습니다."
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] 사용 불가: 재사용 대기 중"
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "부상당한 승무원이 없습니다."
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] 승무원은 응급치료가 필요 없습니다."
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "물자가 아직 준비되지 않았습니다."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "%(name)s 점령 시 전술 기술을 사용할 수 있습니다."
+
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr "부품과 전차장에 이상이 없습니다. 수리 및 치료가 필요하지 않습니다."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr "손상된 부품이 없습니다."
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] 부품은 수리할 필요가 없습니다."
+
+msgid "player_errors/mechanics/supportWeapon/cant_shoot"
+msgstr "동축 무장을 활성화할 수 없습니다."
+
+msgid "player_messages/ALLY_HIT"
+msgstr "아군 %(entity)s에게 발포했습니다!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] 소모품을 사용할 수 있습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "포병 대대 포격 준비 완료"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "공습 지원 준비 완료"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "아군 승무원 사기 강화 준비가 완료되었습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
+msgstr "지뢰 매설 준비가 완료되었습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "정찰기 출격 준비가 완료되었습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
+msgstr "야전 수리 준비가 완료되었습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "연막탄 사격 준비가 완료되었습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
+msgstr "사주 경계 준비가 완료되었습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "%(player)s 님 포병 대대 포격"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "%(player)s 님 공습 대대 출격"
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s 님이 정비 구역을 생성했습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s 님이 사기 강화 물자를 활성화했습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
+msgstr "%(player)s 님이 지뢰를 매설했습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "%(player)s 님이 공중 정찰 물자를 활성화했습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
+msgstr "%(player)s 님이 야전 수리를 사용했습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s 님이 연막 살포 물자를 활성화했습니다."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
+msgstr "%(player)s 님이 사주 경계 물자를 활성화했습니다."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "포격 지원으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "포격 지원으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "포격 지원으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "포격 지원으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "포격 지원으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "포격 지원으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "포격 지원으로 전차 파괴"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "포격 지원으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "포격 지원으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "공습 지원으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "공습 지원으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "아군 %(attacker)s 님이 아군 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "%(attacker)s 님이 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "아군 %(attacker)s에 의해 전차 파괴"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "구역이 폐쇄되어 아군 %(target)s 님이 파괴되었습니다."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "%(attacker)s 님이 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "적군 %(attacker)s 님이 적군 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "적군 %(attacker)s에 의해 전차 파괴"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "구역이 폐쇄되어 %(target)s 님이 파괴되었습니다."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "아군 %(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "전차 파괴"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "화재로 [%(device)s] 손상"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "%(entity)s의 사격으로 [%(device)s] 파괴"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "아군 %(attacker)s 님이 아군 %(target)s 님을 침수"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "%(attacker)s 님이 %(target)s 님을 침수"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "아군 %(attacker)s에 의해 전차 침수"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "아군 %(target)s 님이 침수"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "%(attacker)s 님이 %(target)s 님을 침수"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "적군 %(attacker)s 님이 적군 %(target)s 님을 침수"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "적군 %(attacker)s에 의해 전차 침수"
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "적군 %(target)s 님이 침수"
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "아군 %(target)s 님이 침수"
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "%(target)s 님이 침수"
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "전차 침수"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "아군 %(attacker)s 님이 아군 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "%(attacker)s 님이 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "아군 %(attacker)s에 의해 전차 파괴"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "%(attacker)s 님이 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "적군 %(attacker)s 님이 적군 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "적군 %(attacker)s에 의해 전차 파괴"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "아군 %(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "모든 승무원 전투 불능."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "승무원이 %(entity)s의 공격에 의해 부상당함."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "아군 %(target)s 승무원이 아군 %(attacker)s에 의해 부상"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(target)s 승무원이 %(attacker)s에 의해 부상"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "승무원이 아군 %(attacker)s에 의해 부상"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "아군 %(target)s 님이 승무원을 공격해 부상"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(target)s 승무원이 %(attacker)s에 의해 부상"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "적군 %(target)s 승무원이 적군 %(attacker)s에 의해 부상"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "승무원이 적군 %(attacker)s에 의해 부상"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "적군 %(target)s 님이 승무원을 공격해 부상"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "아군 %(target)s 승무원 부상"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "승무원 %(target)s 부상"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "승무원 부상"
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "지뢰에 의해 아군 %(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "%(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s 님이 지뢰로 %(target)s 님을 격파"
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s 님이 지뢰로 %(target)s 님을 격파"
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s 님이 지뢰에 의해 파괴"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "아군 %(attacker)s 님이 아군 %(target)s 님 전복"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s 님이 %(target)s 님 전복"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "아군 %(attacker)s에 의해 전차 전복"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "아군 %(target)s 님 전차 전복"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s 님이 %(target)s 님 전복"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "적군 %(attacker)s 님이 적군 %(target)s 님 전복"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "%(attacker)s 님이 전복으로 전차 격파"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "적군 %(target)s 님 전차 전복"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "아군 %(target)s 님 전복"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s 님 전복"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "전복으로 전차 파괴"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "아군 %(attacker)s 님이 아군 %(target)s 님을 파괴"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "%(attacker)s 님이 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "아군 %(attacker)s에 의해 전차 파괴"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "아군 %(target)s 충돌"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "%(attacker)s 님이 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "적군 %(attacker)s 님이 적군 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "적군 %(attacker)s에 의해 전차 파괴"
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "적군 %(target)s 충돌"
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "아군 %(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "전차 파괴"
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s 전차 포기"
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s 전차 포기"
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "폭격으로 전차 파괴"
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "폭격으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "폭격으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "포격 지원으로 전차 파괴"
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "포격 지원으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "포격 지원으로 %(target)s 파괴!"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "아군 %(attacker)s 님이 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr "아군 %(attacker)s 님이 포격 지원으로 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "아군 %(attacker)s 님이 공습 지원으로 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "%(attacker)s 님이 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "%(attacker)s 님이 포격 지원으로 %(target)s 님을 격파"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "%(attacker)s 님이 공습 지원으로 %(target)s 님을 격파"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s 님이 %(target)s 님 격파 (화력 지원)"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s 님이 %(target)s 님 격파 (포격 지원)"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "아군 %(target)s 자폭"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr "아군 %(target)s 님이 포격 지원으로 자폭"
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "아군 %(target)s 님이 공습 지원으로 자폭"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "%(attacker)s 님이 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "%(attacker)s 님이 포격 지원으로 %(target)s 님을 격파"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "%(attacker)s 님이 공습 지원으로 %(target)s 님을 격파"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s 님이 %(target)s 님 격파 (화력 지원)"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s 님이 %(target)s 님 격파 (포격 지원)"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "적군 %(attacker)s 님이 적군 %(target)s 님 격파"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr "적군 %(attacker)s 님이 포격 지원으로 적군 %(target)s 님을 격파"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr "적군 %(attacker)s 님이 공습 지원으로 적군 %(target)s 님을 격파"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "적군 %(target)s 자폭"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr "적군 %(target)s 님이 포격 지원으로 자폭"
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "적군 %(target)s 님이 공습 지원으로 자폭"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "아군 %(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "아군 %(target)s 님이 포격 지원으로 파괴"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "아군 %(target)s 님이 공습 지원으로 파괴"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "%(target)s 님이 포격 지원으로 파괴"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "%(target)s 님이 공습 지원에 의해 파괴"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s 파괴"
+
+msgid "player_messages/DEATH_FROM_SHOT_UNKNOWN_ALLY"
+msgstr "적(알 수 없음)이 %(target)s 전차를 격파했습니다."
+
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "폐쇄 구역에 의해 아군 %(target)s 님이 파괴되었습니다."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "아군 %(attacker)s 님이 아군 %(target)s 님과 충돌"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "%(attacker)s 님이 %(target)s 님과 충돌"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "아군 %(attacker)s에 의해 전차 충돌"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "아군 %(target)s 충돌"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "%(attacker)s 님이 %(target)s 님과 충돌"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "적군 %(attacker)s 님이 적군 %(target)s 님과 충돌"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "적군 %(attacker)s에 의해 전차 충돌"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "적군 %(target)s 충돌"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "아군 %(target)s 충돌"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s 충돌"
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "전차 충돌"
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s 플레이어가 %(target)s 군사 시설을 파괴했습니다."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s 플레이어가 %(target)s 군사 시설을 파괴했습니다."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "%(target)s 군사 시설을 파괴했습니다."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "화재로 [%(device)s] 손상"
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "%(entity)s의 사격으로 [%(device)s] 손상"
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "화재로 [%(device)s] 파괴"
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "%(entity)s의 사격으로 [%(device)s] 파괴"
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "[%(device)s] 부품 수리"
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "[%(device)s] 부품 작동 가능"
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "%(entity)s의 사격으로 [%(device)s] 화재 발생"
+
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "부스트로 인해 [%(device)s] 장치가 손상되었습니다."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr "조속기 제거로 [%(device)s] 손상"
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "부스트로 인해 [%(device)s] 장치가 파괴되었습니다."
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr "조속기 제거로 [%(device)s] 파괴"
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "화재 진압 완료"
+
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "%(entity)s의 사격으로 [%(device)s] 전투 불능"
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] 승무원 전투 가능"
+
+msgid "player_messages/allied_team_name"
+msgstr "아군"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "아군 기지 %s 점령 중 (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "아군 기지 %s 함락!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "기지 점령 차단"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "기지 %s 점령 (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "기지 %s 점령!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "적군 기지 %s 점령 중 (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "적군 기지 %s 점령!"
+
+msgid "player_messages/enemy_team_name"
+msgstr "적군"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr "아군 %(name)s 님이 %(equipment)s 전술 기술 사용"
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "적군이 %(equipment)s 전술 기술 사용"
+
+msgid "player_messages/postmortem_caption"
+msgstr "%(name)s (%(type)s) / 내구도: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "플레이어: %(name)s / 내구도: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "%(type)s 파괴"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "공격 불가: 남은 포탄이 없습니다."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "다시보기 조작"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr "왼쪽 마우스 버튼: 카메라 시점 전환\nSpace: 일시 정지"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr "왼쪽 방향키: 20초 되감기 (Ctrl키와 사용 시 40초)\n오른쪽 방향키: 20초 빨리 감기 (Ctrl키와 사용 시 40초)\nHome/End: 처음이나 끝으로 넘어가기\n위쪽 방향키/아래쪽 방향키: 재생 속도 빠르게/느리게"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "자유 카메라 시점 활성화"
+
+msgid "player_messages/replayPaused"
+msgstr "일시중지"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "고정 카메라 시점 활성화"
+
+msgid "player_messages/replaySpeedChange"
+msgstr "다시보기 속도: %(speed)s배"
+
+msgid "player_messages/tank_in_fire"
+msgstr "화재 발생!"
+
+msgid "players_panel/state/large/body"
+msgstr "플레이어 이름, 격파 수, 전차 이름, 아이콘 표시"
+
+msgid "players_panel/state/large/header"
+msgstr "전체 목록"
+
+msgid "players_panel/state/large/note"
+msgstr "(Ctrl + Tab키를 눌러서 목록 표시 전환)"
+
+msgid "players_panel/state/medium/body"
+msgstr "플레이어 이름, 격파 수, 전차 아이콘 표시"
+
+msgid "players_panel/state/medium/header"
+msgstr "중간 목록"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Ctrl + Tab키를 눌러서 목록 표시 전환)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "전차 이름, 격파 수, 전차 아이콘 표시"
+
+msgid "players_panel/state/medium2/header"
+msgstr "중간 목록 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Ctrl + Tab키를 눌러서 목록 표시 전환)"
+
+msgid "players_panel/state/none/body"
+msgstr "팀 목록 감추기"
+
+msgid "players_panel/state/none/header"
+msgstr "목록 없음"
+
+msgid "players_panel/state/none/note"
+msgstr "(Ctrl + Tab키를 눌러서 목록 표시 전환)"
+
+msgid "players_panel/state/short/body"
+msgstr "격파 수 및 전차 아이콘 표시"
+
+msgid "players_panel/state/short/header"
+msgstr "간단 목록"
+
+msgid "players_panel/state/short/note"
+msgstr "(Ctrl + Tab키를 눌러서 목록 표시 전환)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "적군"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/button"
+msgstr "ESC"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Esc > 차고로 복귀합니다."
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr "다른 전차로 전투에 참여합니다."
+
+msgid "postmortem/tips/freecam/button"
+msgstr "SPACE"
+
+msgid "postmortem/tips/freecam/label"
+msgstr "자유 시점"
+
+msgid "postmortem/tips/freecam/text"
+msgstr "자유 시점을 활성화합니다."
+
+msgid "postmortem/tips/freecamUnavailable/label"
+msgstr "자유 시점 이용 불가"
+
+msgid "postmortem/tips/freecamUnavailable/text"
+msgstr "해당 모드에서는 자유 시점을 이용할 수 없습니다."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "관전 모드"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "아군 전차로 시야 변경"
+
+msgid "postmortem/tips/observerModeFrontline/label"
+msgstr "전차 시점 고정"
+
+msgid "postmortem/tips/observerModeFrontline/text"
+msgstr "아군 전차에 마우스를 올리고 클릭 시 시점이 해당 전차에 고정됩니다."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "군사 시설에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
+msgstr "포격 지원으로 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "군사 시설에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "공습에 의한 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_BR_BOT"
+msgstr "약탈자에 의한 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
+msgstr "전투 로봇에 의한 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_CORRODING_SHOT"
+msgstr "부식 포탄에 의한 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "금지 구역에서 아군에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "금지 구역에서 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "위험 구역 이탈 실패"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "화재로 [%(device)s] 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "사격으로 [%(device)s] 폭발"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "아군에 의해 전차 침수"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "전차 침수"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "전차 침수"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "화재 유발:"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE_CIRCLE"
+msgstr "불의 고리에 의한 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "사격으로 승무원 부상"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "아군 전차와 충돌하여 승무원 전투 불능"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "충돌로 승무원 전투 불능"
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "충돌로 승무원 전투 불능"
+
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "화공전차에 의한 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "지뢰에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "지뢰에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "아군에 의해 전차 전복"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "적군에 의해 전차 전복"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "전복으로 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "아군 충돌로 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "충돌로 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "충돌로 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
+msgstr "폭격으로 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN"
+msgstr "포격 지원으로 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "사격으로 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "공습에 의한 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_WITH_OWN_DAMAGE_BATTLE_ROYALE"
+msgstr "공습에 의한 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "포격 지원으로 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "공습에 의한 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "폐쇄 구역에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
+msgstr "전기 충격파에 의한 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "아군에 의해 전차 충돌"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "적군에 의해 전차 충돌"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "전차 충돌"
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "전차 파괴"
+
+msgid "prebattleAmmunitionPanel/currentSetup"
+msgstr "선택한 구성을 전투에서 사용:"
+
+msgid "prebattleAmmunitionPanel/footer"
+msgstr "초읽기가 끝나기 전에 전투에서 사용할 구성을 선택하십시오."
+
+msgid "prebattleAmmunitionPanel/header"
+msgstr "구성 선택"
+
+msgid "prebattleAmmunitionPanel/loadingTimer"
+msgstr "구성 선택: {seconds}초"
+
+msgid "prebattleAmmunitionPanel/waitinForPlayers"
+msgstr "구성 선택:"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "협곡"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "관측"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "숲"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "소로"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "대로"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "폐허"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "다리"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "철도"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "도시"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "마을"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "광장"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "공장"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "언덕"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "등대"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "중앙"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "성"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "풍차"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "산"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "A 경로"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "B 경로"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "C 경로"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "D 경로"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "E 경로"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "계곡"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "빙하"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "우회로"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "언덕"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "도로"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "산"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "벙커"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "거리"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "벽"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "바위"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "작업장"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "개활지"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "차고"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "탄광"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "배"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "항공모함"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "참호"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "구불구불한 길"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "북"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "남"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "서"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "동"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "능선"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "비행선"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "창고"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "해안"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "강"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "호수"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "습지"
+
+msgid "quickReply/hint/press"
+msgstr "단축키"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr "입력 시 확인"
+
+msgid "quickReply/hint/toCommend"
+msgstr "칭찬 돌려주기"
+
+msgid "quickReply/hint/toHelp"
+msgstr "입력 시 지원"
+
+msgid "quickReply/hint/toThank"
+msgstr "입력 시 감사 표시"
+
+msgid "recovery/cooldown"
+msgstr "%(cooldown)s초 후 전차를 포기할 수 있습니다."
+
+msgid "recovery/hint1"
+msgstr "전차를 포기하려면"
+
+msgid "recovery/hint2"
+msgstr "키 누름"
+
+msgid "repairPoint/title"
+msgstr "수리"
+
+msgid "repairPoint/unavailable"
+msgstr "사용 불가"
+
+msgid "respawnView/additionalTip"
+msgstr "전투에 참여할 전차를 선택하십시오. 모든 전차가 수리 중이라면 가장 먼저 수리가 완료되는 전차로 전투를 계속 진행할 수 있습니다."
+
+msgid "respawnView/additionalTipLimited"
+msgstr "계속하려면 전차를 선택하십시오. 파괴된 전차는 전투가 종료될 때까지 수리할 수 없습니다."
+
+msgid "respawnView/classNotAvailable"
+msgstr "전선 제한\n도달"
+
+msgid "respawnView/cooldownLbl"
+msgstr "수리 중 %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "파괴"
+
+msgid "respawnView/disabledLbl"
+msgstr "사용할 수 없는 전차"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "적합한 전차 선택되지 않음"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "10단계 전차가 포함되어 있지 않습니다."
+
+msgid "respawnView/nextVehicleName"
+msgstr "선택 전차 - "
+
+msgid "respawnView/title"
+msgstr "전차 선택"
+
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "확인"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr "월드 오브 탱크의 발전에 공헌해 주셔서 진심으로 감사합니다!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "감사의 편지"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "보상 지급 완료!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "축하합니다!"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "확인"
+
+msgid "rewardWindow/base/descText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/base/headerText"
+msgstr "축하합니다!"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/commander_marina/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/commander_marina/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/commander_marina/headerText"
+msgstr "필수 보급품 인디아"
+
+msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "필수 보급품 줄리엣"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "상자로 이동"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "값진 보상이 포함된 대형 상자를 획득했습니다."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "상자를 획득했습니다!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "임무를 완료하여 값진 보상이 포함된 소형 상자를 획득했습니다."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "상자에 무엇이 들어있는지 확인해 보십시오!"
+
+msgid "rewardWindow/piggyBank/btnLabel"
+msgstr "확인"
+
+msgid "rewardWindow/piggyBank/descText"
+msgstr "크레딧 축적이 중지되었습니다. 월드 오브 탱크 프리미엄 계정을 연장하여 크레딧 금고를 채워보십시오."
+
+msgid "rewardWindow/piggyBank/headerText"
+msgstr "크레딧을 획득했습니다"
+
+msgid "rewardWindow/piggyBank/subHeaderText"
+msgstr "크레딧 금고 개방"
+
+msgid "rewardWindow/piggyBank/winHeaderText"
+msgstr "축하합니다!"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "알겠습니다!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 전장에서 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "필수 보급품 델타"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "보상 지급 완료!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "지금 충원!"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 승무원을 충원했습니다."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "필수 보급품 알파"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "보상 지급 완료!"
+
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "알겠습니다!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "필수 보급품 배틀 패스"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "알겠습니다!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "필수 보급품 코스믹"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch12/btnLabel"
+msgstr "알겠습니다!"
+
+msgid "rewardWindow/twitch12/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch12/headerText"
+msgstr "필수 보급품 별이 빛나는 밤"
+
+msgid "rewardWindow/twitch12/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "더 보기"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "필수 보급품 준"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch14/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch14/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch14/headerText"
+msgstr "필수 보급품 줄라이"
+
+msgid "rewardWindow/twitch14/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "더 보기"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "필수 보급품 다임"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch16/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch16/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch16/headerText"
+msgstr "월드 오브 탱크: 스타라이트 키트"
+
+msgid "rewardWindow/twitch16/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "퀸 메이브 키트"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "겨우살이 컬렉션"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "더 보기"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "월척 컬렉션"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "알겠습니다!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "필수 보급품 찰리"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "보상 지급 완료!"
+
+msgid "rewardWindow/twitch20/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch20/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch20/headerText"
+msgstr "\"G.I. JOE: Duke\" 패키지"
+
+msgid "rewardWindow/twitch20/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch21/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch21/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch21/headerText"
+msgstr "\"G.I. JOE: Cobra\" 패키지"
+
+msgid "rewardWindow/twitch21/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "더 보기"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "록 아웃! 패키지"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch23/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch23/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch23/headerText"
+msgstr "소리 없는 사냥꾼 패키지"
+
+msgid "rewardWindow/twitch23/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch24/btnLabel"
+msgstr "더 보기"
+
+msgid "rewardWindow/twitch24/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch24/headerText"
+msgstr "새 단장 패키지"
+
+msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "더 보기"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "여름 향기 패키지"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch26/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch26/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch26/headerText"
+msgstr "고전압 패키지"
+
+msgid "rewardWindow/twitch26/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch27/btnLabel"
+msgstr "더 보기"
+
+msgid "rewardWindow/twitch27/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch27/headerText"
+msgstr "핼러윈 패키지"
+
+msgid "rewardWindow/twitch27/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "바이킹의 유산"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch29/btnLabel"
+msgstr "더 보기"
+
+msgid "rewardWindow/twitch29/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch29/headerText"
+msgstr "새 출발 패키지"
+
+msgid "rewardWindow/twitch29/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch3/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch3/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch3/headerText"
+msgstr "필수 보급품 에코"
+
+msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "더 보기"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "신스 웨이브"
+
+msgid "rewardWindow/twitch30/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "아뎁타 소로리타스"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "총잡이"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch33/descText"
+msgstr "Prime Gaming 구독 특별 보상 획득"
+
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "전자 위장"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "전투 준비"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "해리어 출동!"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "단검"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Prime Gaming 구독 특별 보상 획득"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "마녀의 요술"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "마녀 집회 시간"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "위험한 이웃"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "캬악!"
+
+msgid "rewardWindow/twitch35/descText"
+msgstr "Prime Gaming 구독 특별 보상 획득"
+
+msgid "rewardWindow/twitch35/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch35/mainReward_1"
+msgstr "Ferenc"
+
+msgid "rewardWindow/twitch35/mainReward_2"
+msgstr "시작 호루라기"
+
+msgid "rewardWindow/twitch35/mainReward_3"
+msgstr "결승골"
+
+msgid "rewardWindow/twitch35/mainReward_4"
+msgstr "역대급"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Prime Gaming 구독 특별 보상 획득"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "연말연시 의상"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "매력적인 선물"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "무거운 선물"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "두 배의 행복"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "보상 선택"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Prime Gaming 구독 특별 보상 획득"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "대항의 신세계"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "기계 눈"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "사이보그 해부학"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "발각"
+
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "필수 보급품 폭스트롯"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "필수 보급품 골프"
+
+msgid "rewardWindow/twitch5/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch6/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch6/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch6/headerText"
+msgstr "필수 보급품 호텔"
+
+msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "필수 보급품 킬로"
+
+msgid "rewardWindow/twitch7/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch8/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch8/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch8/headerText"
+msgstr "필수 보급품 리마"
+
+msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "충원"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr "축하합니다. Prime Gaming에 포함된 특별 보급품을 획득했습니다. 유용하게 사용해 보십시오."
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "필수 보급품 마이크"
+
+msgid "rewardWindow/twitch9/subHeaderText"
+msgstr "보상 획득"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "확인"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr "전투 파병 진행은\n여러분의 참여에 달려있습니다."
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "포상 획득!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "전투 파병으로 이동"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "전투 파병"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "확인"
+
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr "전투 파병 진행은\n여러분의 참여에 달려있습니다."
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "보상 획득!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "전투 파병으로 이동"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "전투 파병"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "축하합니다!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "소속 소대"
+
+msgid "scorePanel/playerScore"
+msgstr "기여도:"
+
+msgid "scorePanel/squadLbl"
+msgstr "%(sq_number)s번 소대"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)smm 철갑탄 %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)smm 고속철갑탄 %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)smm 철갑유탄 %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)smm 고폭탄 %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)smm 성형작약탄 %(userString)s"
+
+msgid "shells_kinds/params/damage"
+msgstr "평균 공격력: %(value)s"
+
+msgid "shells_kinds/params/damagePerSecond"
+msgstr "초당 공격력: %(value)s"
+
+msgid "shells_kinds/params/explosionRadius"
+msgstr "피해 범위: %(value)sm"
+
+msgid "shells_kinds/params/header"
+msgstr "최대 / 단일 장약"
+
+msgid "shells_kinds/params/piercingPower"
+msgstr "평균 관통력: %(value)smm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "포탄 속도: %(value)sm/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "폭발 충격 지속 시간: %(minValue)s~%(maxValue)s초"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr " — 사격 모드로 전환"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr " — 기동 모드로 전환"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "주요 키 미지정"
+
+msgid "siegeMode/hint/press"
+msgstr "단축키"
+
+msgid "siegeMode/hint/rechargeableNitro"
+msgstr "입력 시 액체 연료 부스터 활성화"
+
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "입력 시 제트 추진기 활성화"
+
+msgid "siegeMode/hint/stagedJetBoosters"
+msgstr "입력 시 순차 로켓 추력기 활성화"
+
+msgid "siegeMode/hint/targetDesignator"
+msgstr "레이저 표적 지시기 추가 효과를 활성화하려면 적 전차에 공격 명중"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr "엔진 모드 전환"
+
+msgid "siegeMode/hint/twinGun"
+msgstr "사격 모드 전환"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "기동 모드 전환"
+
+msgid "siegeMode/hint/wheeledDash"
+msgstr "입력 시 터보 과급기 보조 장치 활성화"
+
+msgid "spotted/indicator"
+msgstr "발견 상태 유지 시간 및 받는 피해량 증가"
+
+msgid "spotted/seconds"
+msgstr "초"
+
+msgid "statistics/exit"
+msgstr "Esc키를 눌러 차고로 돌아갑니다..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "%s 님이 파괴"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "기지 점령: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "파손:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "명중: %d발"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "피격: %d발"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "기지 방어: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "격파:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(파괴됨)"
+
+msgid "statistics/final/personal/shots"
+msgstr "발사: %d발"
+
+msgid "statistics/final/personal/spotted"
+msgstr "발견:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "모든 아군 전차가 파괴되었습니다."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "모든 전차가 파괴되었습니다!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "모든 적 전차가 격파되었습니다."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "기지 점령!"
+
+msgid "statistics/final/reasons/reason3"
+msgstr "전투 시간 종료!"
+
+msgid "statistics/final/stats/credits"
+msgstr "크레딧:"
+
+msgid "statistics/final/stats/experience"
+msgstr "경험치:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "경험치 (%d배):"
+
+msgid "statistics/final/stats/repair"
+msgstr "수리비:"
+
+msgid "statistics/final/status/lose"
+msgstr "패배! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "무승부! %s"
+
+msgid "statistics/final/status/win"
+msgstr "승리! %s"
+
+msgid "statistics/header"
+msgstr "전투 통계"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "플레이어"
+
+msgid "statistics/headers/header2"
+msgstr "전차"
+
+msgid "statistics/headers/header3"
+msgstr "상태"
+
+msgid "statistics/headers/header4"
+msgstr "격파 수"
+
+msgid "statistics/playerState/0"
+msgstr "파괴"
+
+msgid "statistics/playerState/1"
+msgstr "미접속"
+
+msgid "statistics/playerState/2"
+msgstr "파괴"
+
+msgid "statistics/playerState/3"
+msgstr "전투 중"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "구성원"
+
+msgid "statistics/tab/line_up/title"
+msgstr "팀 구성원"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "개인 물자"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "개인 물자 활성화"
+
+msgid "statistics/tab/quests/header"
+msgstr "임무"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "해당 모드에서 개인 임무 진행 불가"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "차고 개인 임무 메뉴에서 임무 선택"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "해당 전차 활성화 임무 없음"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "기본 조건 달성"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "모든 임무 완료"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "시작"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "결과 향상"
+
+msgid "statistics/tab/quests/status/onPause"
+msgstr "일시 중지"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "임무 진행 상황 표시 기능 이용 불가"
+
+msgid "statistics/tabs/group"
+msgstr "전체 결과"
+
+msgid "statistics/tabs/heroes"
+msgstr "전장의 영웅"
+
+msgid "statistics/tabs/personal"
+msgstr "개인 전투 결과"
+
+msgid "statistics/team1title"
+msgstr "아군"
+
+msgid "statistics/team2title"
+msgstr "적군"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr "폐쇄 구역을\n벗어나십시오!"
+
+msgid "stun/indicator"
+msgstr "승무원 기절"
+
+msgid "stun/seconds"
+msgstr "초"
+
+msgid "tabStatsHint"
+msgstr "— 통계"
+
+msgid "tankmen/commander"
+msgstr "전차장"
+
+msgid "tankmen/driver"
+msgstr "조종수"
+
+msgid "tankmen/gunner"
+msgstr "포수"
+
+msgid "tankmen/loader"
+msgstr "장전수"
+
+msgid "tankmen/radioman"
+msgstr "무전수"
+
+msgid "timer/battlePeriod"
+msgstr "남은 전투 시간"
+
+msgid "timer/started"
+msgstr "전투 개시!"
+
+msgid "timer/starting"
+msgstr "전투 개시까지 남은 시간"
+
+msgid "timer/waiting"
+msgstr "플레이어를 기다리는 중..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "단축키:"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "조준 모드 전환"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "주요 키 미지정"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "금지 구역에 있는 아군 %(entity)s에 의해 전차 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "금지 구역에 있는 %(entity)s에 의해 전차 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "위험 구역에 의해 전차 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "아군 %(entity)s에 의해 전차 침수"
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "%(entity)s에 의해 전차 침수"
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "전차 침수"
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "화재로 전차 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "아군 %(entity)s 님 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "%(entity)s 님 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "승무원이 아군 %(entity)s의 충돌로 전투 불능"
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "승무원이 %(entity)s의 충돌로 전투 불능"
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "충돌로 승무원 전투 불능"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "아군 %(entity)s 님에 의해 전차 전복"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "적군 %(entity)s 님에 의해 전차 전복"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "전복으로 전차 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "아군 %(entity)s의 충돌로 전차 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "%(entity)s의 충돌로 전차 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "충돌로 전차 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr "%(entity)s의 사격으로 전차 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "%(entity)s의 포격 지원으로 전차 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "%(entity)s의 공습 지원으로 전차 파괴"
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "아군 %(entity)s에 의해 전차 충돌"
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "적군 %(entity)s에 의해 전차 충돌"
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "전차 충돌"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr "아군 %(entity)s의 충돌로 [%(device)s] 손상"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr "아군 %(entity)s의 충돌로 [%(device)s] 손상"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "충돌로 [%(device)s] 손상"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr "적군 %(entity)s의 충돌로 [%(device)s] 손상"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr "적군 %(entity)s의 충돌로 [%(device)s] 손상"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "충돌로 [%(device)s] 손상"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "아군 %(entity)s의 충돌로 [%(device)s] 손상"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "아군 %(entity)s의 충돌로 [%(device)s] 손상"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "충돌로 [%(device)s] 손상"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "적군 %(entity)s의 충돌로 [%(device)s] 손상"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "적군 %(entity)s의 충돌로 [%(device)s] 손상"
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "충돌로 [%(device)s] 손상"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_ALLY_SUICIDE"
+msgstr "지뢰에 의해 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_MINEFIELD_ZONE_SELF_SUICIDE"
+msgstr "지뢰에 의해 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr "아군 %(entity)s의 충돌로 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr "아군 %(entity)s의 충돌로 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "충돌로 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr "적군 %(entity)s의 충돌로 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr "적군 %(entity)s의 충돌로 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "충돌로 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "아군 %(entity)s의 충돌로 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "아군 %(entity)s의 충돌로 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "충돌로 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "적군 %(entity)s의 충돌로 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "적군 %(entity)s의 충돌로 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "충돌로 [%(device)s] 파괴"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr "아군 %(entity)s의 충돌로 [%(device)s] 화재 발생"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr "아군 %(entity)s의 충돌로 [%(device)s] 화재 발생"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "충돌로 [%(device)s]에 화재 발생"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr "적군 %(entity)s의 충돌로 [%(device)s]에 화재 발생"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr "적군 %(entity)s의 충돌로 [%(device)s]에 화재 발생"
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "충돌로 [%(device)s]에 화재 발생"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "아군 %(entity)s의 충돌로 [%(device)s] 부상"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "아군 %(entity)s의 충돌로 [%(device)s] 부상"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "충돌로 [%(device)s] 부상"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "적군 %(entity)s의 충돌로 [%(device)s] 부상"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "적군 %(entity)s의 충돌로 [%(device)s] 부상"
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "충돌로 [%(device)s] 부상"
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "%(equipment)s 전술 기술 활성화!"
+
+msgid "warning_zone/indicator"
+msgstr "주의하십시오! 위험 구역 주변에 있습니다."

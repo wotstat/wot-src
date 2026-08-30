@@ -1,0 +1,554 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "achievementsPointsTooltip/body"
+msgstr "用來增加總成就評分的點數。"
+
+msgid "achievementsPointsTooltip/header"
+msgstr "成就點數"
+
+msgid "catalog/card/descriptionCompleted"
+msgstr "您已完成此成就的所有步驟且已獲得所有相應的獎勵"
+
+msgid "catalog/hintIcon"
+msgstr "ESC"
+
+msgid "catalog/hintText"
+msgstr "按下 %(escIcon)s 回到上一層「目錄」頁面。"
+
+msgid "catalog/rootLink"
+msgstr "目錄"
+
+msgid "category/achievementsScore/title"
+msgstr "成就評分"
+
+msgid "category/achievementsScore/tooltip/description"
+msgstr "成就收藏中的主要進度指標。每獲得一個新成就，就會增加總成就評分，戰利品除外。"
+
+msgid "category/achievementsScore/tooltip/title"
+msgstr "總成就評分：%(value)s / %(maxValue)s"
+
+msgid "category/received/title"
+msgstr "最新\n成就"
+
+msgid "category/title"
+msgstr "玩家收藏"
+
+msgid "category/upcoming/title"
+msgstr "將達成\n的成就"
+
+msgid "earningNotification/achievement/description/multiple"
+msgstr "「%(name)s」與其他"
+
+msgid "earningNotification/achievement/description/single"
+msgstr "已解鎖成就！"
+
+msgid "earningNotification/achievement/title/multiple"
+msgstr "已解鎖 %(count)s 個成就！"
+
+msgid "earningNotification/trophy/description/multiple"
+msgstr "「%(name)s」與其他"
+
+msgid "earningNotification/trophy/description/single"
+msgstr "已獲得新戰利品！"
+
+msgid "earningNotification/trophy/title/multiple"
+msgstr "已獲得 %(count)s 個戰利品！"
+
+msgid "editConfirm/description/autoSelectDisabled"
+msgstr "「自動顯示」會依價值排序所有類別的獎項，並展示於稀有獎項勛帶上。若您手動重新排序獎項，將會停用此功能。"
+
+msgid "editConfirm/description/autoSelectEnabled"
+msgstr "「自動顯示」會依價值排序所有類別的獎項，並展示於稀有獎項勛帶上。開啟此設定後，手動排序內容將重置。"
+
+msgid "editConfirm/description/error"
+msgstr "我們正在調查此問題。請稍後再嘗試編輯。在此期間，您將被重新導引到「總結」。"
+
+msgid "editConfirm/footer/button/accept"
+msgstr "儲存"
+
+msgid "editConfirm/footer/button/cancel"
+msgstr "取消"
+
+msgid "editConfirm/footer/button/error"
+msgstr "了解！"
+
+msgid "editConfirm/info/autoSelectDisabled"
+msgstr "「自動顯示」已關閉"
+
+msgid "editConfirm/info/autoSelectEnabled"
+msgstr "「自動顯示」已開啟"
+
+msgid "editConfirm/title/error"
+msgstr "發生錯誤"
+
+msgid "editConfirm/title/normal"
+msgstr "要套用對稀有獎項勛帶進行的變更？"
+
+msgid "editView/footer/button/cancel"
+msgstr "取消變更"
+
+msgid "editView/footer/button/save"
+msgstr "套用並離開"
+
+msgid "editView/header/checkbox"
+msgstr "自動顯示"
+
+msgid "editView/header/close"
+msgstr "關閉"
+
+msgid "editView/header/title/idle"
+msgstr "選擇獎項來在勛帶上展示"
+
+msgid "editView/header/title/selecting"
+msgstr "選擇獎項以替換"
+
+msgid "editView/header/title/tutorial"
+msgstr "選擇獎項欄位"
+
+msgid "editView/ribbon/slot/cancel"
+msgstr "取消"
+
+msgid "editView/ribbon/slot/tip"
+msgstr "變更"
+
+msgid "editView/section/counter"
+msgstr "（%(count)s）"
+
+msgid "hint/hangar"
+msgstr "您的成就\n在此"
+
+msgid "hint/profile"
+msgstr "您的成就\n在此"
+
+msgid "hint/summary/customizationButton"
+msgstr "可編輯"
+
+msgid "notifications/editingEnabled/button"
+msgstr "前往勛帶"
+
+msgid "notifications/editingEnabled/title"
+msgstr "可編輯稀有獎項勛帶"
+
+msgid "notifications/firstEntry/button"
+msgstr "前往服役紀錄"
+
+msgid "notifications/firstEntry/text"
+msgstr "《戰車世界》評價\n獎項編輯"
+
+msgid "notifications/firstEntry/title"
+msgstr "更新服役紀錄"
+
+msgid "notifications/firstEntryWithoutWTR/button"
+msgstr "前往服役紀錄"
+
+msgid "notifications/firstEntryWithoutWTR/text"
+msgstr "獎項編輯\n與視覺設計。"
+
+msgid "notifications/firstEntryWithoutWTR/title"
+msgstr "更新服役紀錄"
+
+msgid "notifications/ratingCalculated/button"
+msgstr "前往服役紀錄"
+
+msgid "notifications/ratingCalculated/text"
+msgstr "您的等級：%(level)s"
+
+msgid "notifications/ratingCalculated/title"
+msgstr "您的評價已計算完畢！"
+
+msgid "notifications/ratingDowngrade/button"
+msgstr "前往服役紀錄"
+
+msgid "notifications/ratingDowngrade/text"
+msgstr "您的《戰車世界》評價已有變動。前往「服役紀錄」頁面來查看所有詳情。"
+
+msgid "notifications/ratingUp/button"
+msgstr "前往服役紀錄"
+
+msgid "notifications/ratingUp/text"
+msgstr "您已達到以下等級：%(level)s"
+
+msgid "notifications/ratingUp/title"
+msgstr "您的評價已提高！"
+
+msgid "playerInfo/clan/button"
+msgstr "公會資料"
+
+msgid "playerInfo/clan/date"
+msgstr "加入日期："
+
+msgid "playerInfo/clan/noClan"
+msgstr "該玩家沒有常駐戰術單位"
+
+msgid "playerInfo/clan/post"
+msgstr "位階："
+
+msgid "playerInfo/dogTag/unavailable"
+msgstr "個人兵籍牌\n暫時無法使用"
+
+msgid "ratingWidget/status/OtherPlayerWithProgress"
+msgstr "玩家的評價尚未計算：參戰數少於 %(amount)s 場。"
+
+msgid "ratingWidget/status/initial"
+msgstr "進行 %(amount)s 場戰鬥以計算您的《戰車世界》評價。"
+
+msgid "ratingWidget/status/otherPlayer"
+msgstr "玩家評價尚未計算"
+
+msgid "ratingWidget/status/progress"
+msgstr "計算您的《戰車世界》評價。尚需進行的戰鬥數：%(amount)s。"
+
+msgid "ratingWidget/status/withoutWTR"
+msgstr "前往戰鬥，接著我們將會計算您的評價。"
+
+msgid "rewardView/button/achievements"
+msgstr "前往成就"
+
+msgid "rewardView/button/dogTag"
+msgstr "前往兵籍牌"
+
+msgid "rewardView/button/dogTags"
+msgstr "前往兵籍牌"
+
+msgid "rewardView/button/moreRewards"
+msgstr "查看另外 %(value)s 個"
+
+msgid "rewardView/reward/dogTag"
+msgstr "「%(value)s」兵籍牌"
+
+msgid "rewardView/title/multi"
+msgstr "已獲得成就獎勵"
+
+msgid "rewardView/title/single"
+msgstr "已獲得成就獎勵"
+
+msgid "section/action"
+msgstr "特殊"
+
+msgid "section/battle"
+msgstr "戰鬥英雄"
+
+msgid "section/class"
+msgstr "階段性獎項"
+
+msgid "section/epic"
+msgstr "史詩勳章"
+
+msgid "section/group"
+msgstr "團隊獎項"
+
+msgid "section/memorial"
+msgstr "紀念獎章"
+
+msgid "section/special"
+msgstr "榮譽軍銜"
+
+msgid "stylePreview/backBtnDescr"
+msgstr "前往成就"
+
+msgid "summary/accountInfo/lastVisit"
+msgstr " 上次戰鬥：%(lastVisitDate)s %(lastVisitTime)s"
+
+msgid "summary/accountInfo/registrationDate"
+msgstr "帳號建立於：%(registrationDate)s"
+
+msgid "summary/achievements/customization/background"
+msgstr "背景"
+
+msgid "summary/achievements/customization/backgrounds/default"
+msgstr "預設"
+
+msgid "summary/achievements/customization/backgrounds/fiery"
+msgstr "火焰"
+
+msgid "summary/achievements/customization/backgrounds/golden"
+msgstr "金黃"
+
+msgid "summary/achievements/customization/backgrounds/legendary"
+msgstr "傳奇"
+
+msgid "summary/achievements/customization/backgrounds/retro"
+msgstr "復古"
+
+msgid "summary/achievements/customization/backgrounds/smashing"
+msgstr "爆破"
+
+msgid "summary/achievements/customization/discard"
+msgstr "取消變更"
+
+msgid "summary/achievements/customization/ribbon"
+msgstr "勛帶"
+
+msgid "summary/achievements/customization/save"
+msgstr "套用並離開"
+
+msgid "summary/achievements/customization/tooltips/text"
+msgstr "由於發生技術性問題，目前無法自訂您服役紀錄畫面的外觀。我們正在努力修復。請重新整理畫面或稍後再回來。"
+
+msgid "summary/achievements/customization/tooltips/title"
+msgstr "外觀自訂目前無法使用"
+
+msgid "summary/achievements/mastery/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "summary/achievements/title"
+msgstr "稀有獎項"
+
+msgid "summary/achievements/total"
+msgstr "總共：%(value)s 個"
+
+msgid "summary/achievements/unique"
+msgstr "非重複：%(value)s"
+
+msgid "summary/additional/assistance"
+msgstr "平均：%(value)s"
+
+msgid "summary/additional/battles"
+msgstr "勝率：%(value)s"
+
+msgid "summary/additional/blocked"
+msgstr "平均：%(value)s"
+
+msgid "summary/additional/damage"
+msgstr "平均：%(value)s"
+
+msgid "summary/additional/destroyed"
+msgstr "紀錄：%(value)s"
+
+msgid "summary/additional/experience"
+msgstr "平均：%(value)s"
+
+msgid "summary/disabled/description"
+msgstr "在我們準備您的數據時，請進入戰鬥。"
+
+msgid "summary/disabled/otherPlayer/caption"
+msgstr "資訊暫時無法使用。"
+
+msgid "summary/disabled/title"
+msgstr "更多資訊將在稍後可用"
+
+msgid "summary/main/assistance"
+msgstr "協助\n紀錄"
+
+msgid "summary/main/battles"
+msgstr "參戰\n場數"
+
+msgid "summary/main/blocked"
+msgstr "最高\n阻擋"
+
+msgid "summary/main/damage"
+msgstr "傷害\n紀錄"
+
+msgid "summary/main/destroyed"
+msgstr "摧毀\n車輛"
+
+msgid "summary/main/experience"
+msgstr "經驗\n紀錄"
+
+msgid "summary/statistic/title"
+msgstr "《戰車世界》評價"
+
+msgid "summary/withoutWTR/statistic/title"
+msgstr "個人評價"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionBase"
+msgstr "在您協助下造成的最高傷害"
+
+msgid "tooltips/KPI/assistanceBottomDescriptionTank"
+msgstr "在您協助下造成的最高傷害，在駕駛 %(tankName)s 進行戰鬥時達成。"
+
+msgid "tooltips/KPI/assistanceBottomTitle"
+msgstr "協助紀錄：%(count)s"
+
+msgid "tooltips/KPI/assistanceTopDescriptionBase"
+msgstr "在您協助下對敵方車輛造成的總傷害與總參戰數的比。算作貢獻："
+
+msgid "tooltips/KPI/assistanceTopDescriptionStats"
+msgstr "•在您偵察下的傷害\n•在您摧毀敵方車輛履帶並使其無法移動下的傷害"
+
+msgid "tooltips/KPI/assistanceTopTitle"
+msgstr "平均協助：%(count)s"
+
+msgid "tooltips/KPI/battles/description/bottom"
+msgstr "勝利總數與參戰數的比。"
+
+msgid "tooltips/KPI/battles/description/top/base"
+msgstr "包括："
+
+msgid "tooltips/KPI/battles/description/top/stats"
+msgstr "• 勝利：%(wins)s\n• 戰敗：%(loses)s\n• 平手：%(draws)s"
+
+msgid "tooltips/KPI/battles/title/bottom"
+msgstr "勝率：%(percent)s"
+
+msgid "tooltips/KPI/battles/title/top"
+msgstr "參戰數：%(count)s"
+
+msgid "tooltips/KPI/blockedBottomDescriptionBase"
+msgstr "最高阻擋傷害。"
+
+msgid "tooltips/KPI/blockedBottomDescriptionTank"
+msgstr "最高阻擋傷害，在駕駛 %(tankName)s 進行戰鬥時達成。"
+
+msgid "tooltips/KPI/blockedBottomTitle"
+msgstr "最高阻擋：%(count)s"
+
+msgid "tooltips/KPI/blockedTopDescription"
+msgstr "阻擋未穿透與跳彈之 AP、HEAT、APCR 彈的總傷害量與參戰數的比。"
+
+msgid "tooltips/KPI/blockedTopTitle"
+msgstr "平均阻擋傷害：%(count)s"
+
+msgid "tooltips/KPI/damageBottomDescriptionBase"
+msgstr "造成的最高傷害。"
+
+msgid "tooltips/KPI/damageBottomDescriptionTank"
+msgstr "造成的最高傷害，在駕駛 %(tankName)s 進行戰鬥時達成。"
+
+msgid "tooltips/KPI/damageBottomTitle"
+msgstr "傷害紀錄：%(count)s"
+
+msgid "tooltips/KPI/damageTopDescription"
+msgstr "造成的總傷害與參戰數的比。"
+
+msgid "tooltips/KPI/damageTopTitle"
+msgstr "平均傷害：%(count)s"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionBase"
+msgstr "摧毀的最高車輛數。"
+
+msgid "tooltips/KPI/destroyedBottomDescriptionTank"
+msgstr "摧毀的最高敵方車輛數，在駕駛 %(tankName)s 進行戰鬥時達成。"
+
+msgid "tooltips/KPI/destroyedBottomTitle"
+msgstr "最高摧毀數：%(count)s"
+
+msgid "tooltips/KPI/destroyedTopDescription"
+msgstr "在所有戰鬥中摧毀敵方車輛的總數。"
+
+msgid "tooltips/KPI/destroyedTopTitle"
+msgstr "摧毀車輛：%(count)s"
+
+msgid "tooltips/KPI/experienceBottomDescriptionBase"
+msgstr "獲得的最高經驗數量。"
+
+msgid "tooltips/KPI/experienceBottomDescriptionTank"
+msgstr "獲得的最高經驗數量，在駕駛 %(tankName)s 進行戰鬥時達成。"
+
+msgid "tooltips/KPI/experienceBottomTitle"
+msgstr "經驗紀錄：%(count)s"
+
+msgid "tooltips/KPI/experienceTopDescription"
+msgstr "獲得的總經驗與參戰數的比。"
+
+msgid "tooltips/KPI/experienceTopTitle"
+msgstr "平均經驗：%(count)s"
+
+msgid "tooltips/WTR/info/caption"
+msgstr "勝利或戰敗均不會影響您《戰車世界》評價的計算。"
+
+msgid "tooltips/WTR/info/description/about"
+msgstr "駕駛各種車輛進行戰鬥，藉此根據以下表現參數來決定您最有效的車輛："
+
+msgid "tooltips/WTR/info/description/main"
+msgstr "《戰車世界》評價系統為計算每輛車輛個別評價的系統，接著再用來決定玩家的整體表現。系統依戰略變化來彈性反應，並將玩家的統計數據與伺服器的平均數據進行比較。"
+
+msgid "tooltips/WTR/info/list/text1"
+msgstr "造成的傷害"
+
+msgid "tooltips/WTR/info/list/text2"
+msgstr "在您協助下造成的傷害"
+
+msgid "tooltips/WTR/info/list/text3"
+msgstr "摧毀敵方車輛數"
+
+msgid "tooltips/WTR/info/list/text4"
+msgstr "阻擋的傷害與生存率"
+
+msgid "tooltips/WTR/info/title/about"
+msgstr "提高《戰車世界》評價"
+
+msgid "tooltips/WTR/info/title/main"
+msgstr "《戰車世界》評價"
+
+msgid "tooltips/WTR/rating/description/base"
+msgstr "開始計算評價前，尚需進行的戰鬥數：%(cream_open)s%(amount)s%(cream_close)s"
+
+msgid "tooltips/WTR/rating/description/currentLevel"
+msgstr "等級：%(level)s。"
+
+msgid "tooltips/WTR/rating/description/maximum"
+msgstr "已達上限！"
+
+msgid "tooltips/WTR/rating/description/remaining"
+msgstr "提升等級前，仍需獲得的點數：%(par_open)s%(point)s%(par_close)s"
+
+msgid "tooltips/WTR/rating/levels/level_1"
+msgstr "青銅 %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_2"
+msgstr "白銀 %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_3"
+msgstr "黃金 %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_4"
+msgstr "王牌 %(level)s"
+
+msgid "tooltips/WTR/rating/levels/level_5"
+msgstr "傳奇 %(level)s"
+
+msgid "tooltips/WTR/rating/tableHeaders/level"
+msgstr "等級"
+
+msgid "tooltips/WTR/rating/tableHeaders/points"
+msgstr "點數"
+
+msgid "tooltips/WTR/rating/title"
+msgstr "《戰車世界》評價"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOff"
+msgstr "開啟此設定時，您設定的順序%(whiteSpanish_Open)s將被重置%(whiteSpanish_Close)s。"
+
+msgid "tooltips/autoSetting/caption/isSwitchedOn"
+msgstr "關閉此設定或設為手動時，勛帶上的獎項%(whiteSpanish_Open)s將停止%(whiteSpanish_Close)s%(whiteSpanish_Open)s自動%(whiteSpanish_Close)s%(whiteSpanish_Open)s更新%(whiteSpanish_Close)s。"
+
+msgid "tooltips/autoSetting/description"
+msgstr "自動排序%(whiteSpanish_Open)s來自所有類別的%(whiteSpanish_Close)s獎項，排序方式依照個別獎項在稀有獎項勛帶上展示的價值決定。"
+
+msgid "tooltips/autoSetting/title"
+msgstr "自動顯示"
+
+msgid "tooltips/editingTooltip/disabled"
+msgstr "暫時無法編輯稀有獎項勛帶。請稍後再試。"
+
+msgid "tooltips/editingTooltip/disabledLayout"
+msgstr "您沒有可在此展示的獎項。%(whiteSpanish_Open)s在戰鬥中%(whiteSpanish_Close)s或%(whiteSpanish_Open)s參與遊戲活動%(whiteSpanish_Close)s來獲取。"
+
+msgid "tooltips/editingTooltip/notEnoughAchievements"
+msgstr "獲得任何類別的 %(whiteSpanish_Open)s%(amount)s 個或更多獎項%(whiteSpanish_Close)s後，將可編輯稀有獎項勛帶。"
+
+msgid "tooltips/editingTooltip/otherPlayer"
+msgstr "沒有可在此展示的獎項。"
+
+msgid "tooltips/mastery/body"
+msgstr "所有相關戰鬥模式中得到過的精通徽章：戰車王牌數 / 至少參加過一場隨機戰鬥的車輛數"
+
+msgid "tooltips/mastery/header"
+msgstr "精通徽章：戰車王牌"
+
+msgid "tooltips/wotprMainTooltip/firstDescription"
+msgstr "個人評價根據以下統計數據衡量玩家的技巧與經驗："
+
+msgid "tooltips/wotprMainTooltip/secondDescription"
+msgstr "個人評價會隨每場戰鬥更新。"
+
+msgid "tooltips/wotprMainTooltip/significantStats"
+msgstr "• 勝率\n• 在您協助下造成的傷害\n• 平均每場傷害\n• 平均每場經驗\n• 存活率"
+
+msgid "tooltips/wotprMainTooltip/title"
+msgstr "個人評價"

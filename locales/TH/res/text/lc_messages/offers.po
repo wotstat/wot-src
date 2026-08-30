@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "เลือกรางวัล"
+
+msgid "banner/giftsAvailable"
+msgstr "ทำการส่งเสบียงแล้ว!"
+
+msgid "banner/giftsForOffer"
+msgstr "รางวัลสำหรับการเข้าร่วมใน \"%(name)s\""
+
+msgid "banner/selectNowOrLater"
+msgstr "เลือกรางวัลของคุณตอนนี้หรือภายหลังในโรงเก็บ"
+
+msgid "banner/title"
+msgstr "เสบียงแนวหลัง"
+
+msgid "description/rentValue/battles"
+msgstr "สำหรับการรบ: %(value)s"
+
+msgid "description/rentValue/days"
+msgstr "สำหรับวัน: %(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "สำหรับการชนะ: %(value)s"
+
+msgid "giftDescription/tank/base"
+msgstr "นอกเหนือไปจากพาหนะที่เลือกไว้ คุณจะยังได้รับ %(items)s ฟรีอีกด้วย"
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}พลรถถัง{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}พลรถถัง{neutralClose} และ {neutralOpen}ช่องเก็บในโรงรถ{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}ช่องเก็บในโรงรถ{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "ยกเลิก"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s จะถูกเช่า %(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s จะถูกส่งไปยังโรงรถ"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "ช่วงเช่า %(tankName)s จะถูกขยาย %(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "ยืนยัน"
+
+msgid "giftDialog/title/common"
+msgstr "การยืนยันสำหรับการรับ\n\"%(name)s\""
+
+msgid "giftDialog/title/tank"
+msgstr "การรับพาหนะ"
+
+msgid "giftDialog/title/tankRent"
+msgstr "การเช่าพาหนะ"
+
+msgid "giftsWindow/availableCount"
+msgstr "มีให้: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "มีให้ถึง: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "รางวัลที่มีให้: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "ในโรงรถ"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "เปิดด้วย"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "ตัวอย่าง"
+
+msgid "giftsWindow/rent/battles"
+msgstr "การรบ %(value) ครั้ง"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value) วัน"
+
+msgid "giftsWindow/rent/title"
+msgstr "ช่วงเช่า: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "การชนะ %(value) ครั้ง"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "รับ"
+
+msgid "giftsWindow/tokens"
+msgstr "มีให้: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "มีเหรียญให้: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "ไม่มีให้"
+
+msgid "rewardWindow/btnLabel"
+msgstr "รับทราบ!"
+
+msgid "rewardWindow/title"
+msgstr "ได้รับรางวัล"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "รับ!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "ขยายช่วงเช่าแล้ว!"
+
+msgid "tankPreview/description/newRent"
+msgstr "ช่วงเช่าฟรี %(tankName)s %(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s พร้อมพลรถถัง"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s พร้อมพลรถถังและช่องเก็บในโรงรถ"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s พร้อมด้วยช่องเก็บในโรงรถ"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "ขยายช่วงเช่า %(tankName)s %(rentValue)s"

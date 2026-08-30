@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "collection/error/description"
+msgstr "収集品の整理と清掃を行っています。戦場でお時間を潰されてはいかがでしょうか。"
+
+msgid "collection/error/title"
+msgstr "コレクションの読み込み中にエラーが発生"
+
+msgid "collection/tooltip/completed"
+msgstr "「%(name)s%(year)s %(season)s」のコレクションは完成済みです。"
+
+msgid "collection/tooltip/progress"
+msgstr "「%(name)s%(year)s %(season)s」のコレクション・アイテムのうち収集済みのものの数を表します。"
+
+msgid "footer/buttonText"
+msgstr "コレクションへ"
+
+msgid "footer/collectionCompleted"
+msgstr "コレクションは完成済み"
+
+msgid "footer/progressbar/activeState/receivedElements/text"
+msgstr "収集済みのアイテム: %(received)s / %(total)s"
+
+msgid "footer/progressbar/tooltip/body"
+msgstr "イベントの報酬に含まれる「コレクション・アイテム」を入手すると収集度を示す進捗バーが満たされていきます。具体的な入手方法は各アイテムにカーソルを合わせた際に表示される説明画面で確認できます。アイテムの収集はイベントの終了後も行える場合があります。"
+
+msgid "footer/progressbar/tooltip/note"
+msgstr "「コレクション・アイテム」の中には既定数の「コレクション・アイテム」を収集することが入手条件になっているものも存在します。このタイプの「コレクション・アイテム」は入手しても進捗バーに影響を与えないものの、イベントの背景をなす物語を解き明かすうえで重要な手がかりとなります。"
+
+msgid "footer/progressbar/tooltip/title"
+msgstr "コレクションの仕組み"
+
+msgid "header/overhead"
+msgstr "コレクション"
+
+msgid "header/seasonText/defaultConfig"
+msgstr "シーズン名"
+
+msgid "header/subtitle"
+msgstr "コレクションが完成！"
+
+msgid "header/title/defaultConfig"
+msgstr "テンプレート・コレクション"
+
+msgid "intro/buttonClose/text"
+msgstr "コレクションへ"
+
+msgid "intro/content/description/text"
+msgstr "「コレクション・ギャラリー」は、特定のイベントでしか手に入らない貴重なスタイルやデカールなどの「コレクション・アイテム」を保管したり、閲覧するための機能です。"
+
+msgid "intro/header/text"
+msgstr "『World of Tanks』コレクション"
+
+msgid "main/backText"
+msgstr "コレクションへ"
+
+msgid "mainLayout/header/title"
+msgstr "『World of Tanks』コレクション"
+
+msgid "mainLayout/header/tooltip/body"
+msgstr "「コレクション・ギャラリー」は、特定のイベントでしか手に入らない貴重なスタイルやデカールなどの「コレクション・アイテム」を保管したり、閲覧するための機能です。"
+
+msgid "mainLayout/header/tooltip/header"
+msgstr "『World of Tanks』コレクション"
+
+msgid "navigation/pageCounter"
+msgstr " / %(pageCount)s"
+
+msgid "notifications/button/goToCollection"
+msgstr "コレクションへ"
+
+msgid "notifications/button/goToCollections"
+msgstr "コレクションへ"
+
+msgid "notifications/button/goToReward"
+msgstr "報酬へ"
+
+msgid "notifications/eventDisabled/text"
+msgstr "「コレクション・ギャラリー」の機能が一時的に停止しています。"
+
+msgid "notifications/eventEnabled/text"
+msgstr "「コレクション・ギャラリー」の機能が復旧しました。ご不便をお掛けして申し訳ありません。"
+
+msgid "notifications/eventStart/text"
+msgstr "戦車兵の諸君、「%(feature)s」の「コレクション」がアンロックされたぞ。「コレクション・アイテム」を集めて限定報酬を手に入れるんだ。"
+
+msgid "notifications/eventStart/title"
+msgstr "「%(feature)s」の「コレクション」がアンロック！"
+
+msgid "notifications/feature/battle_pass_10"
+msgstr "バトルパス"
+
+msgid "notifications/feature/battle_pass_11"
+msgstr "バトルパス"
+
+msgid "notifications/feature/battle_pass_12"
+msgstr "バトルパス"
+
+msgid "notifications/finalReceived/text"
+msgstr "「%(feature)s」の「%(season)s」コレクションが完成しました。"
+
+msgid "notifications/newItemsReceived/text"
+msgstr "新たに入手したコレクション・アイテム:\n\n%(items)s"
+
+msgid "notifications/newRewardsReceived/text"
+msgstr "アイテムの収集度に基づいて入手した報酬:\n\n%(items)s"
+
+msgid "notifications/renew/text"
+msgstr "新たな「コレクション」が登場しました。"
+
+msgid "notifications/renew/title"
+msgstr "%(feature)s・%(season)s"
+
+msgid "notifications/season/battle_pass_10"
+msgstr "シーズンX"
+
+msgid "notifications/season/battle_pass_11"
+msgstr "シーズンXI"
+
+msgid "notifications/season/battle_pass_12"
+msgstr "シーズンXII"
+
+msgid "notifications/title/collectionName"
+msgstr "「%(feature)s」の「%(season)s」コレクション"
+
+msgid "notifications/title/congratulation"
+msgstr "おめでとうございます！"
+
+msgid "notifications/updatedEntry/text"
+msgstr "『World of Tanks』コレクション"
+
+msgid "notifications/updatedEntry/title"
+msgstr "実績画面の刷新"
+
+msgid "overlays/preview/previewButton/text"
+msgstr "プレビュー"
+
+msgid "overlays/preview/style/title/text"
+msgstr "%(vehicleInfo)専用スタイル「%(styleName)s」"
+
+msgid "tooltips/item/achievement"
+msgstr "勲章「%(name)s」"
+
+msgid "tooltips/receivedStatus"
+msgstr "入手済み"
+
+msgid "tooltips/title"
+msgstr "コレクション・アイテム"
+
+msgid "tooltips/unreceivedStatus"
+msgstr "未入手"

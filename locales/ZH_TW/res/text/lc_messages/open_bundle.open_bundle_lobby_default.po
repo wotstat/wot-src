@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "了解!"
+
+msgid "attachments_preview/description"
+msgstr "3D 配飾套組"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "史詩 3D 配飾"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "傳奇 3D 配飾"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "稀有 3D 配飾"
+
+msgid "bundle/name"
+msgstr "神秘市集"
+
+msgid "bundle/name_uppercased"
+msgstr "神秘市集"
+
+msgid "confirmation/buttons/cancel"
+msgstr "取消"
+
+msgid "confirmation/buttons/purchase"
+msgstr "購買"
+
+msgid "confirmation/description"
+msgstr "確認以獲取點券與一個新的方格獎勵。"
+
+msgid "confirmation/purchase"
+msgstr "要花費 {{price}} 購買？"
+
+msgid "entryPoint/button"
+msgstr "前往活動"
+
+msgid "entryPoint/title"
+msgstr "「{{eventName}}」來到。快來瞧瞧！"
+
+msgid "intro/cards/description/c_1"
+msgstr "當您在「{{eventName}}」期間購買點券時，您將從尚未打開的方格之一獲得獎勵作為額外禮物。方格內有珍貴物品，包括活動的主要獎勵：一輛加值車輛。"
+
+msgid "intro/cards/description/c_2"
+msgstr "獎勵以隨機順序發放。每個未打開的方格有各自被選中的機率，機率總和將總是為 100%。已打開的方格無法再次打開，每個剩餘獎勵的獲取機率也會因此提高。"
+
+msgid "intro/cards/description/c_3"
+msgstr "每個階段需花費特定數量的金幣。隨著進度推進，獲取的點券數量與階段費用將有變動。"
+
+msgid "intro/cards/link"
+msgstr "在{{@ class 'linkPart'}}入口網站{{/}}查看條件與每個階段的費用。{{icon}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "購買點券"
+
+msgid "intro/cards/title/c_2"
+msgstr "方格與機率"
+
+msgid "intro/cards/title/c_3"
+msgstr "階段費用"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "獎勵等著您"
+
+msgid "main/alt/description"
+msgstr "查看機率"
+
+msgid "main/alt/tooltip/body"
+msgstr "按下 Alt 鍵以查看每個方格的獲得機率。"
+
+msgid "main/alt/tooltip/header"
+msgstr "顯示機率"
+
+msgid "main/cell/probability"
+msgstr "{{num}} %"
+
+msgid "main/completed"
+msgstr "恭喜！\n您已獲得所有獎勵"
+
+msgid "main/footer/button"
+msgstr "購買"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}方格獎勵"
+
+msgid "main/footer/receive"
+msgstr "您獲得：{{item}}"
+
+msgid "main/header/description"
+msgstr "在 {{startDate}}到 {{endDate}}參與活動並獲取獎勵！"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "前往自訂要素"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "前往風格"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "前往車輛"
+
+msgid "notifications/specialReward/title"
+msgstr "「{{eventName}}」的主要獎勵已歸您所有！"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "額外獎勵："
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "已獲得："
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "由於技術性原因暫時無法操作。請稍後再試。"
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "前往活動"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "「%(eventName)s」即將結束！"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "活動開放至：%(date)s。"
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "「%(eventName)s」方格已打開"
+
+msgid "tooltips/entry/description"
+msgstr "獎勵等著您！每購買一次點券，可獲得一個方格中的隨機獎勵作為禮物。您每次都會打開新的方格，因為已打開的方格將被移除。"
+
+msgid "tooltips/entry/timer"
+msgstr "活動將開放 {{timer}}"
+
+msgid "tooltips/header/info"
+msgstr "關於活動"
+
+msgid "tooltips/steps/description"
+msgstr "隨著每次購買，您將獲得越來越多{{currency}}。您獲得的數量會在特定購買階段增加。"
+
+msgid "tooltips/steps/header"
+msgstr "每次購買可獲得{{currency}}"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "階段："
+
+msgid "tooltips/steps/template"
+msgstr "{{start}} — {{end}}"

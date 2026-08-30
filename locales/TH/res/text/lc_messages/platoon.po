@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "ยกเลิกการค้นหา"
+
+msgid "buttons/cancelSearch/description"
+msgstr "คลิกเพื่อยกเลิกการค้นหาสมาชิกหมวดรถถัง"
+
+msgid "buttons/createPlatoon/caption"
+msgstr "หมวดรถถังใหม่"
+
+msgid "buttons/createPlatoon/description"
+msgstr "สร้างหมวดรถถังใหม่เพื่อเชิญเพื่อนมาเล่นด้วยกัน"
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "หมวดรถถังใหญ่ใหม่"
+
+msgid "buttons/findPlayers/caption"
+msgstr "ค้นหาผู้เล่น"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "ค้นหาผู้เล่นที่มีฝีมือและพาหนะระดับเดียวกันด้วยการใช้ตัวกรองการค้นหา"
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "คำเชิญถึงเพื่อนทั้งหมดจะถูกยกเลิกถ้าคุณเริ่มการค้นหาผู้เล่นออนไลน์"
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "ค้นหาผู้เล่น"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "คุณไม่สามารถค้นหาผู้เล่นได้: มีหมวดรถถังในเซิร์ฟเวอร์มากเกินไป"
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "คุณไม่สามารถค้นหาผู้เล่นสำหรับหมวดรถถังได้: ไม่มีพาหนะที่เหมาะสม"
+
+msgid "buttons/invite/player/caption"
+msgstr "เชิญผู้เล่น"
+
+msgid "buttons/invite/player/description"
+msgstr "คลิกเพื่อเชิญผู้เล่นเข้าหมวดรถถัง"
+
+msgid "buttons/invite/players/caption"
+msgstr "เชิญผู้เล่น"
+
+msgid "buttons/invite/players/description"
+msgstr "คลิกเพื่อเชิญผู้เล่นเข้าหมวดรถถัง"
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "ออกหมวดรถถัง"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "คลิกเพื่อออกจากหมวดรถถัง"
+
+msgid "buttons/mute/caption"
+msgstr "ปิดการสนทนาเสียงหมวดรถถัง"
+
+msgid "buttons/mute/description"
+msgstr "คลิกเพื่อปิดการสนทนาเสียงหมวดรถถัง"
+
+msgid "buttons/notReady/caption"
+msgstr "ไม่พร้อม"
+
+msgid "buttons/notReady/description"
+msgstr "คลิกถ้าคุณไม่พร้อมเข้ารบ"
+
+msgid "buttons/ready/caption"
+msgstr "พร้อม!"
+
+msgid "buttons/ready/description"
+msgstr "คลิกถ้าคุณพร้อมเข้ารบ"
+
+msgid "buttons/reset/caption"
+msgstr "ตั้งค่าความต้องการการค้นหาใหม่"
+
+msgid "buttons/reset/description"
+msgstr "คลิกเพื่อตั้งค่าความต้องการการค้นหากลับเป็นค่ามาตรฐาน"
+
+msgid "buttons/settings/caption"
+msgstr "ตั้งค่าความต้องการการค้นหา"
+
+msgid "buttons/settings/description"
+msgstr "ค้นหาผู้เล่นที่เหมาะกับความต้องการของคุณ ยิ่งหาผู้เล่นไม่พบนานเท่าใดก็จะทำการขยายช่วงการค้นหามากขึ้น"
+
+msgid "buttons/unMute/caption"
+msgstr "เปิดการสนทนาเสียงหมวดรถถัง"
+
+msgid "buttons/unMute/description"
+msgstr "คลิกเพื่อเปิดการสนทนาเสียงหมวดรถถัง"
+
+msgid "headerButton/inSquad"
+msgstr "ในหมวดรถถัง"
+
+msgid "headerButton/onboarding"
+msgstr "ตอนนี้คุณสามารถค้นหาผู้เล่น\nเพื่อสร้างหมวดรถถังได้แล้ว"
+
+msgid "headerButton/searching"
+msgstr "กำลังค้นหา..."
+
+msgid "headerButton/squad"
+msgstr "สร้างหมวดรถถัง"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "ออกรบในหมวดรถถังกับเพื่อน เล่นเป็นทีมต่อสู้กับเก้าหมวดรถถังข้าศึก"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "หมวดรถถัง"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "คุณไม่สามารถสร้างหรือเข้าร่วมหมวดรถถังได้เพราะคุณถูกบล็อคจากการเข้าร่วมรูปแบบนี้เป็นการชั่วคราว"
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "คุณจะไม่สามารถสร้างหรือเข้าร่วมหมวดรถถังเพราะคุณจำเป็นต้องมีพาหนะระดับ %(level)s อย่างน้อยหนึ่งคันในโรงรถที่เหมาะกับรูปแบบดังกล่าว"
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "การสร้างหมวดรถถังไม่มีให้ชั่วคราว"
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "ไม่มีหมวดรถถังให้"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "คุณสามารถสร้างหมวดรถถังหรือเข้าร่วมหมวดรถถังที่มีอยู่ ในรูปแบบการบุกรุกรุ่นเบาหมวดรถถังสามารถมีผู้เล่น 2 คนหรือ 7 คนก็ได้"
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "หมวดรถถัง"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "คุณไม่สามารถสร้างหรือเข้าร่วมหมวดรถถังได้เพราะคุณไม่มีพาหนะระดับ %(level)s ที่เหมาะสมในโรงรถของคุณ"
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "หลังผ่านการคัดเลือกแล้ว ก็จะมีหมวดรถถังผู้เล่น 2 และ 7 คนให้"
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "ไม่สามารถสร้างหมวดรถถังได้"
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "ไม่มีหมวดรถถังให้"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "สร้างหมวดรถถังหรือเข้าร่วมหมวดรถถังที่มีอยู่ หมวดรถถังในรูปแบบการบุกรุกสามารถมีผู้เล่น 2 คนหรือ 7 คน"
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "หมวดรถถัง"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "สร้างหน่วยยุทธวิธีประกอบด้วยผู้เล่น 2 หรือ 3 คนเพื่อเล่นร่วมกัน\n• รูปแบบการรบ: การรบอาละวาด\n• ชนิดการรบ: พรานเหล็ก การรบครอบครอง"
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "หมวดรถถัง"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "สร้างหน่วยยุทธวิธีประกอบด้วยผู้เล่น 2 ถึง 3 คนเพื่อเข้าร่วมการแข่งขันครั้งใหญ่"
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "หมวดรถถังการแข่งขันครั้งใหญ่"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "คลิกเพื่อเปิดรายการหมวดรถถัง"
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "ภารกิจลาดตระเวน: หมวดรถถัง"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "คลิกเพื่อเปิดรายการหมวดรถถัง"
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "หมวดรถถัง"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "สร้างหมวดรถถังผู้เล่น 2 หรือ 3 คนเพื่อเข้าร่วมภารกิจลาดตระเวน"
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "ภารกิจลาดตระเวน: หมวดรถถัง"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "ไม่อนุญาตให้หน่วยยุทธวิธีเข้าร่วมการรบจัดอันดับ"
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "สร้างหมวดรถถัง"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "กำลังค้นหาผู้เล่น..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "กำลังค้นหา"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "สร้างหน่วยยุทธวิธีผู้เล่น 2 หรือ 3 คนเพื่อร่วมมือกันในการรบแบบสุ่มและแนวรบ (ถ้ามีให้)"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "หมวดรถถัง"
+
+msgid "members/card/connectionLost"
+msgstr "การเชื่อมต่อถูกขัดจังหวะ"
+
+msgid "members/card/disabled"
+msgstr "รูปแบบนี้ใช้ได้กับหมวดรถถังสองผู้เล่นเท่านั้น"
+
+msgid "members/card/disabledVertical"
+msgstr "ไม่มีให้สำหรับรูปแบบนี้"
+
+msgid "members/card/empty"
+msgstr "ช่องว่าง"
+
+msgid "members/card/inBattle"
+msgstr "ในการรบ"
+
+msgid "members/card/muted/caption"
+msgstr "ผู้เล่นถูกปิดเสียง"
+
+msgid "members/card/muted/description"
+msgstr "คลิกขวาเพื่อเปิดเสียงผู้เล่นคนนี้"
+
+msgid "members/card/notReady"
+msgstr "ไม่พร้อม"
+
+msgid "members/card/searching"
+msgstr "กำลังค้นหาผู้เล่น..."
+
+msgid "members/card/selectVehicle"
+msgstr "เลือกพาหนะระดับ %(level)s"
+
+msgid "members/chat/chatName"
+msgstr "ช่องการสนทนา:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "คลิกเพื่อส่งข้อความไปยังช่องสนทนา"
+
+msgid "members/chat/sendMessage/header"
+msgstr "ส่งข้อความ"
+
+msgid "members/footer/comp7Invite"
+msgstr "เชิญ"
+
+msgid "members/footer/comp7Limitations"
+msgstr "ข้อจำกัดอันดับสูงสุด"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "อันดับผู้เล่นหมวดรถถังสูงสุด"
+
+msgid "members/footer/getNotReady"
+msgstr "คลิกเพื่อระบุว่าคุณไม่พร้อม"
+
+msgid "members/footer/getReady"
+msgstr "ยืนยันว่าคุณพร้อมเข้ารบ"
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "ระดับไม่เข้ากัน"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "ส่วนลดค่าประสบการณ์เนื่องจากการจัดหมวดรถถังที่ไม่เหมาะสม!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "ถึงขีดจำกัดพาหนะแล้ว"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "หมวดรถถังมียานพิฆาตรถถังจำนวนสูงสุดแล้ว"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "หมวดรถถังมีปืนอัตตาจรจำนวนสูงสุดแล้ว"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "หมวดรถถังมีรถถังหนักจำนวนสูงสุดแล้ว"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "หมวดรถถังมีรถถังกลางจำนวนสูงสุดแล้ว"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "หมวดรถถังมีรถถังเบามีจำนวนสูงสุดแล้ว"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "หมวดรถถังมียานเกราะล้อจำนวนสูงสุดแล้ว"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "หมวดรถถังมีรถถังเบามีจำนวนสูงสุดแล้ว"
+
+msgid "members/header/battle_royal"
+msgstr ": พรานเหล็ก"
+
+msgid "members/header/epic"
+msgstr ": แนวรบ"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: โครงการ Hyperion"
+
+msgid "members/header/mapbox"
+msgstr ": ภารกิจลาดตระเวน"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": การรบแบบสุ่ม"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "แนวรบมีให้\nสำหรับพาหนะระดับ VIII เท่านั้น"
+
+msgid "members/header/tooltip/epic/header"
+msgstr "กฏสำหรับการสร้างหมวดรถถัง"
+
+msgid "members/header/tooltip/event/body"
+msgstr "หมวดรถถังควรประกอบด้วยพาหนะช่วงพิเศษสามคันของรูปแบบดังกล่าว"
+
+msgid "members/header/tooltip/event/header"
+msgstr "กฏสำหรับการสร้างหมวดรถถัง"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "หมวดรถถังควรจะประกอบด้วยพาหนะระดับเดียวกัน"
+
+msgid "members/header/tooltip/standard/header"
+msgstr "กฏสำหรับการสร้างหมวดรถถัง"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "ผู้เล่นในหมวดรถถังดังกล่าว"
+
+msgid "searching/estimated/caption"
+msgstr "เวลาที่ประเมินไว้"
+
+msgid "searching/estimated/lessThan"
+msgstr "น้อยกว่า %(seconds)d วิ"
+
+msgid "searching/estimated/moreThan"
+msgstr "มากกว่า %(seconds)d วิ"
+
+msgid "searching/expanded/body"
+msgstr "ไม่พบผู้เล่นตามความต้องการดั้งเดิม\nทำการขยายการค้นหาเพื่อรวมพาหนะระดับอื่นด้วย"
+
+msgid "searching/expanded/header"
+msgstr "ขยายความต้องการการค้นหา"
+
+msgid "searching/lookingFor"
+msgstr "กำลังค้นหาสำหรับ:"
+
+msgid "searching/playersInQueue"
+msgstr "ผู้เล่นในคิว"
+
+msgid "searching/state"
+msgstr "กำลังค้นหา:"
+
+msgid "settings/tiers"
+msgstr "ระดับพาหนะที่ต้องการ"
+
+msgid "settings/voice"
+msgstr "ต้องการผู้เล่นที่มีการสนทนาเสียง"
+
+msgid "squad"
+msgstr "หมวดรถถัง"

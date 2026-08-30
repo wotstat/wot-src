@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "選擇您想在這場戰鬥中禁用的車輛"
+
+msgid "prebattleTimer/ban/header"
+msgstr "禁用投票階段"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "確認選擇"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "確認後，您將無法選擇其他車輛。"
+
+msgid "prebattleTimer/pick/header"
+msgstr "確認階段"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "選擇最適合此地圖與您隊伍陣容的車輛"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "車輛預選階段"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "選擇適合當前地圖與我方隊伍的最佳車輛。"
+
+msgid "prebattleTimer/wait/header"
+msgstr "等待玩家..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "選擇車輛"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "%(server)s 伺服器上的階段已經結束"
+
+msgid "primeTimeView/server"
+msgstr "可用伺服器：%(server)s。"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s 伺服器\n戰鬥將再持續 %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s 伺服器\n戰鬥將於 %(time)s後可進行"
+
+msgid "primeTimeView/servers"
+msgstr "可用伺服器："
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "戰鬥在所有伺服器上都無法進行"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "此模式不適用於 %(server)s 伺服器"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "%(server)s 伺服器上的戰鬥將再持續 %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "%(server)s 伺服器上的戰鬥將開始於 %(time)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "直到 %(startTime)s 才能進行 %(server)s 伺服器上的戰鬥"

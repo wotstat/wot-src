@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "限额比率"
+msgstr[1] "限额比率%(index)s"
+msgstr[2] "限额比率%(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "至少超过一个限额。部分费用将按下个比率支付。"
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "基本兑换比率"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "下一个可用比率"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "限额比率的额度：%(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "总限额：%(value)s"
+
+msgid "common/afterExchange"
+msgstr "兑换后："
+
+msgid "common/cancel"
+msgstr "取消"
+
+msgid "common/combinedDiscount"
+msgstr "综合折扣"
+
+msgid "common/exchange"
+msgstr "兑换"
+
+msgid "common/exchangeRate"
+msgstr "兑换比率"
+
+msgid "common/limitExceeded"
+msgstr "超出限额。兑换将按综合折扣进行。"
+
+msgid "common/limitOverExceeded"
+msgstr "超出限额：将使用综合折扣。"
+
+msgid "common/limitRestrictions"
+msgstr "了解详情"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "基本兑换比率：%(rateFrom)s = %(rateTo)s。"
+
+msgid "exchange/generalExchangeRate"
+msgstr "通用兑换比率：%(rateFrom)s = %(rateTo)s。"
+
+msgid "exchange/information"
+msgstr "成功兑换%(gold)s金币。 获得银币：%(res)s。"
+
+msgid "exchange/personalExchangeRate"
+msgstr "个人兑换比率：%(rateFrom)s = %(rateTo)s"
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "个人兑换比率：%(rateFrom)s = %(rateTo)s。超出限额"
+
+msgid "exchangeXP/information"
+msgstr "已成功将%(res)s点经验兑换为全局经验。花费金币：%(gold)s。"
+
+msgid "experienceExchange/available"
+msgstr "可用经验："
+
+msgid "experienceExchange/paid"
+msgstr "花费"
+
+msgid "experienceExchange/received"
+msgstr "获得"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "按战车等级排序"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "按战地改装等级排序"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "按战车名称排序"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "按战车国籍排序"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "按战车类型排序"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "按已选战车排序"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "按获取的经验排序"
+
+msgid "goldExchange/paid"
+msgstr "从"
+
+msgid "goldExchange/received"
+msgstr "到"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s 金币 = %(resourceRate)s 银币"
+
+msgid "notification/discountDescription/message"
+msgstr "个人兑换比率"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "前往兑换"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "已开放新的兑换比率！"
+
+msgid "tooltip/common/basicRate"
+msgstr "基本兑换比率"
+
+msgid "tooltip/common/generalRate"
+msgstr "通用兑换比率"
+
+msgid "tooltip/common/personalRate"
+msgstr "个人兑换比率"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "优惠兑换比率"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "限时兑换比率"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "只有在购买金币后才能确定数量。"
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "兑换后剩余金币数量"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s 金币 = %(resourceRate)s 全局经验"

@@ -1,0 +1,713 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "PersonalMissionAwardView/award/freeSheet"
+msgstr "オーダーを 1 個取得!"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/additionalAwards"
+msgstr "全ミッションの名誉達成に対する報酬"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/mainAwards"
+msgstr "メイン報酬"
+
+msgid "PersonalMissionAwardView/subTitle"
+msgstr "ガレージで自分のプレイヤー名をクリックするとバッジを選択してプレイヤー名の脇に表示することができます。"
+
+msgid "PersonalMissionAwardView/title"
+msgstr "オペレーション達成に対するバッジを取得!"
+
+msgid "PersonalMissionAwardView/title/one"
+msgstr "オペレーション \"%(vehicleName)s\" に対するバッジを取得!"
+
+msgid "PersonalMissionAwardView/title/perfect"
+msgstr "名誉達成に対するバッジを取得!"
+
+msgid "PersonalMissionFirstEntryView/acknowledgeBtn"
+msgstr "了解!"
+
+msgid "PersonalMissionFirstEntryView/detailedDescription/btnBack"
+msgstr "戻る"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintChassis"
+msgstr "サスペンションの設計図"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintEngine"
+msgstr "エンジンの設計図"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintGun"
+msgstr "主砲の設計図"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHull"
+msgstr "車体の設計図"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHullAndTurret"
+msgstr "車体と砲塔の設計図"
+
+msgid "PersonalMissionsPlanRegion/mainAward/chassis"
+msgstr "サスペンション"
+
+msgid "PersonalMissionsPlanRegion/mainAward/engine"
+msgstr "パワーユニット"
+
+msgid "PersonalMissionsPlanRegion/mainAward/gun"
+msgstr "主砲"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hull"
+msgstr "車体"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hullAndTurret"
+msgstr "車体と砲塔"
+
+msgid "PersonalMissionsPlanRegion/mainAward/radio"
+msgstr "無線機"
+
+msgid "alliance/0/details"
+msgstr "Union (ユニオン) 部隊の上陸と進撃のための足場"
+
+msgid "alliance/0/name"
+msgstr "Union"
+
+msgid "alliance/1/details"
+msgstr "Bloc (ブロック) 部隊の上陸と進撃のための足場"
+
+msgid "alliance/1/name"
+msgstr "Bloc"
+
+msgid "alliance/2/details"
+msgstr "Alliance (アライアンス) 部隊の上陸と進撃のための足場"
+
+msgid "alliance/2/name"
+msgstr "Alliance"
+
+msgid "alliance/3/details"
+msgstr "Coalition (コーリション) 部隊の上陸と進撃のための足場"
+
+msgid "alliance/3/name"
+msgstr "Coalition"
+
+msgid "awardsScreen/acceptBtn/label"
+msgstr "了解!"
+
+msgid "awardsScreen/closeBtn/label"
+msgstr "閉じる"
+
+msgid "awardsScreen/description/emailConfirmation"
+msgstr "アドレスの確認が完了しました"
+
+msgid "awardsScreen/header"
+msgstr "オペレーション %(missionName)s 達成"
+
+msgid "awardsScreen/header/fullyCompleted"
+msgstr "オペレーション %(missionName)s 名誉達成"
+
+msgid "awardsScreen/headerExtra"
+msgstr "報酬を取得!"
+
+msgid "awardsView/closeBtn/label"
+msgstr "閉じる"
+
+msgid "awardsView/description"
+msgstr "オペレーションのメイン報酬"
+
+msgid "awardsView/mainAwards/title"
+msgstr "メイン報酬"
+
+msgid "awardsView/vehicleAward/mainAward"
+msgstr "メイン報酬"
+
+msgid "bonus/descr/attempts/card"
+msgstr "副条件を達成すると現在の進行状況に %(value)s が加算されます。"
+
+msgid "bonus/descr/attempts/postBattle"
+msgstr "ミッションの主要パートの進行状況に %(value)s が加算されました。"
+
+msgid "bonus/descr/progress/card"
+msgstr "副条件を達成すると、主条件の達成に向けた進行状況が %(value)s 倍になります。"
+
+msgid "bonus/descr/progress/postBattle"
+msgstr "この戦闘における主条件の達成に向けた進行が %(value)s 倍に増加しました。"
+
+msgid "bonus/multiplier/attempts"
+msgstr "進行加速:"
+
+msgid "bonus/multiplier/progress"
+msgstr "x%(value)s ボーナス:"
+
+msgid "chainTooltipData/description/text/alliance0"
+msgstr "オペレーションのミッションは特定の国家の車輌のみで達成可能"
+
+msgid "chainTooltipData/description/text/alliance1"
+msgstr "オペレーションのミッションは特定の国家の車輌のみで達成可能"
+
+msgid "chainTooltipData/description/text/alliance2"
+msgstr "オペレーションのミッションは特定の国家の車輌のみで達成可能"
+
+msgid "chainTooltipData/description/text/alliance3"
+msgstr "オペレーションのミッションは特定の国家の車輌のみで達成可能"
+
+msgid "chainTooltipData/description/title"
+msgstr "説明:"
+
+msgid "conditions/battlesLeft/bottomLabel"
+msgstr "残戦闘数: %(count)s"
+
+msgid "conditions/biathlon/label/add"
+msgstr "%(limit)s 戦中 %(goal)s 戦で副条件を達成"
+
+msgid "conditions/biathlon/label/main"
+msgstr "%(limit)s 戦中 %(goal)s 戦で主条件を達成"
+
+msgid "conditions/completed/bottomLabel"
+msgstr "達成済み"
+
+msgid "conditions/counter/label/add"
+msgstr "副条件を %(count)s 回達成する"
+
+msgid "conditions/counter/label/main"
+msgstr "主条件を %(count)s 回達成する"
+
+msgid "conditions/currentProgress/bottomLabel"
+msgstr "達成済み: %(currentProgress)s"
+
+msgid "conditions/failed/bottomLabel"
+msgstr "失敗"
+
+msgid "conditions/limited/label/add"
+msgstr "副条件を %(count)s 戦で達成する"
+
+msgid "conditions/limited/label/main"
+msgstr "主条件を %(count)s 戦で達成する"
+
+msgid "conditions/limiter/label"
+msgstr "制限!"
+
+msgid "conditions/orGroup"
+msgstr "または"
+
+msgid "conditions/series/label/add"
+msgstr "条件を %(count)s 戦連続で達成する"
+
+msgid "conditions/series/label/main"
+msgstr "条件を %(count)s 戦連続で達成する"
+
+msgid "conditions/unlimited/label/add"
+msgstr "副条件を通算戦績で達成する"
+
+msgid "conditions/unlimited/label/main"
+msgstr "主条件を通算戦績で達成する"
+
+msgid "detailedView/completeBtnLabel"
+msgstr "%(count)d %(icon)s で達成"
+
+msgid "detailedView/conditionLabel"
+msgstr "条件"
+
+msgid "detailedView/conditionsFullylabel"
+msgstr "名誉達成の条件"
+
+msgid "detailedView/conditionslabel"
+msgstr "主条件"
+
+msgid "detailedView/discardBtnLabel"
+msgstr "リセット"
+
+msgid "detailedView/infoPanel/header"
+msgstr "説明とヒント"
+
+msgid "detailedView/orCondition"
+msgstr "または"
+
+msgid "detailedView/recruitBtnLabel"
+msgstr "報酬を要求"
+
+msgid "detailedView/retryBtnLabel"
+msgstr "名誉達成"
+
+msgid "detailedView/startBtnLabel"
+msgstr "開始"
+
+msgid "detailedView/status/NA"
+msgstr "挑戦不可"
+
+msgid "detailedView/status/completed"
+msgstr "主条件を達成済み"
+
+msgid "detailedView/status/fullyCompleted"
+msgstr "名誉達成済み"
+
+msgid "detailedView/status/inProgress"
+msgstr "アクティブ"
+
+msgid "detailedView/status/returnSheet"
+msgstr "コミット済みオーダー:%(icon)sx1"
+
+msgid "detailedView/status/sheetUsed"
+msgstr "%(icon)sx1 で達成済み"
+
+msgid "detailedView/tooltips/additionalConditions/body"
+msgstr "主条件と併せて達成することでこのミッションを名誉達成し、追加報酬を得るために満たすべき条件です。"
+
+msgid "detailedView/tooltips/additionalConditions/header"
+msgstr "副条件"
+
+msgid "detailedView/tooltips/commonConditions/body"
+msgstr "これは、このミッションを達成し、そのメイン報酬を得るために満たすべき条件です。"
+
+msgid "detailedView/tooltips/commonConditions/header"
+msgstr "主条件"
+
+msgid "detailedView/tooltips/discardBtn/body"
+msgstr "このミッションの進捗状況をリセットします。"
+
+msgid "detailedView/tooltips/discardBtn/header"
+msgstr "進行をリセット"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/body"
+msgstr "オーダーをひとつコミットして主条件を達成します。"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/body"
+msgstr "オーダーを取得するには、任意のオペレーションの各セットの最終ミッションを名誉達成してください。"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/header"
+msgstr "オーダー不足"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/header"
+msgstr "オーダーをコミット"
+
+msgid "detailedView/tooltips/locked"
+msgstr "副条件の達成は、主条件を達成した場合のみに考慮されます。"
+
+msgid "detailedView/tooltips/recruitBtn/body"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/recruitBtn/header"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/retryBtn/body"
+msgstr "名誉達成を目指してミッションへの挑戦を開始します。"
+
+msgid "detailedView/tooltips/retryBtn/header"
+msgstr "名誉達成"
+
+msgid "detailedView/tooltips/returnAwardListBtn/body"
+msgstr "オーダーの回収を目指してミッションへの挑戦を開始します。"
+
+msgid "detailedView/tooltips/returnAwardListBtn/header"
+msgstr "オーダーを回収"
+
+msgid "detailedView/tooltips/startBtn/body"
+msgstr "このミッションへの挑戦を開始します。達成条件を満たすと対応する報酬が手に入ります。"
+
+msgid "detailedView/tooltips/startBtn/header"
+msgstr "開始"
+
+msgid "fourFreeSheetsObtainedPopup/button"
+msgstr "続行"
+
+msgid "fourFreeSheetsObtainedPopup/header"
+msgstr "利用可能な車輌"
+
+msgid "fourFreeSheetsObtainedPopup/pm2/descr"
+msgstr "%(questName)s ミッションにオーダーを 3 個コミットして不足している車輌の設計図を取得します。"
+
+msgid "fourFreeSheetsObtainedPopup/pm2/pawnedDescr"
+msgstr "%(questName)s ミッションにオーダーを 3 個コミットして不足している車輌の設計図を取得するため、このミッションからオーダーを %(pawnedCount)s 個回収します。"
+
+msgid "fourFreeSheetsObtainedPopup/regular/descr"
+msgstr "%(questName)s ミッションにオーダーを 4 個コミットして不足している車輌のコンポーネントを取得します。"
+
+msgid "fourFreeSheetsObtainedPopup/regular/pawnedDescr"
+msgstr "%(questName)s ミッションにオーダー 4 個をコミットして不足している車輌コンポーネントを入手するには、ミッションからオーダー %(pawnedCount)s 個を回収してください。"
+
+msgid "freeSheetObtainedPopup/pm2/descrLeft"
+msgstr "「オーダー」を使用すると「第2戦線」の好きなパーソナルミッションを即座に達成できます。"
+
+msgid "freeSheetObtainedPopup/pm2/descrRight"
+msgstr "「第2戦線」キャンペーンの全セットの最後のミッションを名誉達成する。"
+
+msgid "freeSheetObtainedPopup/pm2/title"
+msgstr "「第 2 戦線」用のオーダーを 1 個取得しました。"
+
+msgid "freeSheetObtainedPopup/pm2/titleLeft"
+msgstr "使用方法"
+
+msgid "freeSheetObtainedPopup/pm2/titleRight"
+msgstr "入手方法"
+
+msgid "freeSheetObtainedPopup/regular/descrLeft"
+msgstr "セット内の任意のミッションを達成\nするためにオーダーを使用可能"
+
+msgid "freeSheetObtainedPopup/regular/descrRight"
+msgstr "いずれかのセットの最終ミッションを名誉達成する。"
+
+msgid "freeSheetObtainedPopup/regular/title"
+msgstr "オーダーを 1 個取得"
+
+msgid "freeSheetObtainedPopup/regular/titleLeft"
+msgstr "使用方法"
+
+msgid "freeSheetObtainedPopup/regular/titleRight"
+msgstr "入手方法"
+
+msgid "freeSheetPopover/freeSheetsInfo/descr"
+msgstr "セットの最終ミッションを達成すると付与されます。"
+
+msgid "freeSheetPopover/freeSheetsInfo/title"
+msgstr "利用可能: %(count)d"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr"
+msgstr "コミット済みのオーダーを回収するには、このミッションを名誉達成してください。"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr/noOne"
+msgstr "セット内の任意のミッションを達成\nするためにオーダーを使用可能"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/title"
+msgstr "ミッションにコミット済み: %(count)d"
+
+msgid "freeSheetPopover/title"
+msgstr "オーダー"
+
+msgid "header/backBtn/descrLabel/campaign"
+msgstr "マップへ"
+
+msgid "header/backBtn/descrLabel/hangar"
+msgstr "ガレージへ"
+
+msgid "header/backBtn/descrLabel/operation"
+msgstr "オペレーションへ"
+
+msgid "header/backBtn/label"
+msgstr "戻る"
+
+msgid "navigation/backButton/assembling"
+msgstr "製造画面へ"
+
+msgid "navigation/backButton/campaignSelector"
+msgstr "オペレーションマップへ"
+
+msgid "navigation/backButton/dashboard"
+msgstr "オペレーションへ"
+
+msgid "navigation/backButton/missions"
+msgstr "ミッションへ"
+
+msgid "navigation/backButton/rewards"
+msgstr "オペレーション報酬へ"
+
+msgid "operationInfo/awardsButton/label"
+msgstr "オペレーション報酬"
+
+msgid "operationInfo/chainVehReq"
+msgstr "Tier %(minLevel)s-%(maxLevel)s %(vehs)s"
+
+msgid "operationInfo/label"
+msgstr "キャンペーン"
+
+msgid "operationInfo/operationBtn/postponed/days"
+msgstr "%(days)sd"
+
+msgid "operationInfo/operationBtn/postponed/lessThanDay"
+msgstr "1 日未満"
+
+msgid "operationInfo/title"
+msgstr "オペレーションマップ"
+
+msgid "operationTitle/label/done"
+msgstr "オーダー: %(icon)s%(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/excellentDone"
+msgstr "全ミッションを名誉達成済み"
+
+msgid "operationTitle/label/inProgress/pm2"
+msgstr "次の車輌で達成可能: %(vehData)s"
+
+msgid "operationTitle/label/inProgress/regular"
+msgstr "%(vehData)s セットの車輌で達成可能"
+
+msgid "operationTitle/label/locked"
+msgstr "利用不可: 前のオペレーションを達成してください"
+
+msgid "operationTitle/label/noVehicle/pm2"
+msgstr "利用不可: 適合車輌なし: %(vehData)s"
+
+msgid "operationTitle/label/noVehicle/regular"
+msgstr "利用不可: %(vehData)s セットの適合車輌なし"
+
+msgid "operationTitle/label/notStarted"
+msgstr "オペレーション「%(currentOperation)s」に挑戦可能!%(infoIcon)s"
+
+msgid "operationTitle/label/notStartedNoVehicle"
+msgstr "【挑戦不可】パーソナルミッションはTier %(minLevel)s以上の車輌でしか挑戦できません。"
+
+msgid "operationTitle/label/toMaster"
+msgstr "名誉達成済みミッション: %(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/unlocked/pm2"
+msgstr "%(vehData)s 車輌で達成するミッションを選択"
+
+msgid "operationTitle/label/unlocked/regular"
+msgstr "%(vehData)s セットの車輌で達成するミッションを選択"
+
+msgid "operationTitle/title"
+msgstr "オペレーション: %(title)s"
+
+msgid "operationUnlockedWindow/awardText"
+msgstr "おめでとうございます! %(title)s オペレーションの達成に進むことができるようになりました。"
+
+msgid "operationUnlockedWindow/descr"
+msgstr "%(label)s を押してミッションを選択し、新たな報酬を得ましょう。"
+
+msgid "operationUnlockedWindow/header"
+msgstr "オペレーション: %(title)s"
+
+msgid "operationUnlockedWindow/nextButton"
+msgstr "開始"
+
+msgid "operationUnlockedWindow/title"
+msgstr "オペレーションをアンロック"
+
+msgid "operations/completed/desc"
+msgstr "車輌を取得"
+
+msgid "operations/current/desc"
+msgstr "アクティブ"
+
+msgid "operations/fullyCompleted/desc"
+msgstr "名誉\n達成済み"
+
+msgid "operations/locked/desc"
+msgstr "挑戦不可"
+
+msgid "operations/title1"
+msgstr "StuG IV"
+
+msgid "operations/title10"
+msgstr "Black Rock"
+
+msgid "operations/title2"
+msgstr "T28 HTC"
+
+msgid "operations/title3"
+msgstr "T 55A"
+
+msgid "operations/title4"
+msgstr "Object 260"
+
+msgid "operations/title5"
+msgstr "Excalibur"
+
+msgid "operations/title6"
+msgstr "Chimera"
+
+msgid "operations/title7"
+msgstr "Object 279 (e)"
+
+msgid "operations/title8"
+msgstr "Windhund"
+
+msgid "operations/title9"
+msgstr "Dravec"
+
+msgid "operations/unlocked/desc"
+msgstr "利用可能"
+
+msgid "pages/button/infopage/description"
+msgstr "パーソナルミッションの概要"
+
+msgid "pages/button/video/description"
+msgstr "パーソナルミッションの解説動画を視聴できます。"
+
+msgid "personalMissions/tankgirlsPopover/recruitBtn"
+msgstr "採用"
+
+msgid "personalMissions/tankgirlsPopover/title"
+msgstr "女性搭乗員"
+
+msgid "personalMissions/video/title"
+msgstr "アップデートのビデオの概要"
+
+msgid "questAwardScreen/continueBtn/label"
+msgstr "続行"
+
+msgid "questAwardScreen/nextQuest/title/questAccept"
+msgstr "次のミッションが自動受領されました:"
+
+msgid "questAwardScreen/nextQuest/title/questImprove"
+msgstr "次のミッションの結果を自動的に向上し続けます:"
+
+msgid "questAwardScreen/nextQuestBtn/label"
+msgstr "次のミッション"
+
+msgid "questAwardScreen/okBtn/label"
+msgstr "了解!"
+
+msgid "questAwardScreen/operation"
+msgstr "オペレーション %(operation)s"
+
+msgid "questAwardScreen/quest"
+msgstr "ミッション \"%(quest)s\" 達成!"
+
+msgid "questAwardScreen/recruitBtn/label"
+msgstr "採用"
+
+msgid "questProgressTracking/status/onPause"
+msgstr "一時停止中"
+
+msgid "questProgressTracking/trackingStatus"
+msgstr "現在、両方のミッションを達成中"
+
+msgid "questStatus/tankCondition"
+msgstr "選択中の車輌では挑戦不能"
+
+msgid "sidebar/completed"
+msgstr "達成済み"
+
+msgid "sidebar/fullCompleted"
+msgstr "名誉"
+
+msgid "sidebar/notSelected"
+msgstr "アクティブなし"
+
+msgid "sidebar/vehicles/AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "sidebar/vehicles/SPG"
+msgstr "自走砲"
+
+msgid "sidebar/vehicles/heavyTank"
+msgstr "重戦車"
+
+msgid "sidebar/vehicles/lightTank"
+msgstr "軽戦車"
+
+msgid "sidebar/vehicles/mediumTank"
+msgstr "中戦車"
+
+msgid "statusPanel/freeSheetBtn/label"
+msgstr "%(count)d %(icon)s で達成"
+
+msgid "statusPanel/freeSheets"
+msgstr "利用可能: %(count)s"
+
+msgid "statusPanel/pawnedSheets"
+msgstr "ミッションにコミット済み: %(count)s"
+
+msgid "statusPanel/proceedExecution/label"
+msgstr "挑戦開始"
+
+msgid "statusPanel/resumeCompaing/label"
+msgstr "キャンペーンへの挑戦を再開"
+
+msgid "statusPanel/status/allDone"
+msgstr "%(vehicleClass)s の全ミッションを達成済み"
+
+msgid "statusPanel/status/allExcellentDone"
+msgstr "%(vehicleClass)s の全ミッションを名誉達成済み"
+
+msgid "statusPanel/status/freeSheet"
+msgstr "オーダーを 1 個コミットしました"
+
+msgid "statusPanel/status/improve"
+msgstr "(結果を向上中)"
+
+msgid "statusPanel/status/locked"
+msgstr "利用不可: 前のオペレーションを達成してください"
+
+msgid "statusPanel/status/pawned"
+msgstr "(回収中: %(count)d %(icon)s)"
+
+msgid "statusPanel/status/selectTask"
+msgstr "達成するミッションを選択"
+
+msgid "statusPanel/status/suspended"
+msgstr "「%(campaignName)s」キャンペーンは一時停止中です。%(infoIcon)s"
+
+msgid "tankmoduleTooltipData/alliance/help/body"
+msgstr "%(vehType)s セットの最終ミッションの主条件を達成することで付与されます。"
+
+msgid "tankmoduleTooltipData/alliance/info"
+msgstr "%(vehName)s を取得するためにこの設計図が必要"
+
+msgid "tankmoduleTooltipData/help/body"
+msgstr "%(vehType)s セットの最終ミッションの主条件を達成することで付与されます。"
+
+msgid "tankmoduleTooltipData/help/title"
+msgstr "取得方法"
+
+msgid "tankmoduleTooltipData/info"
+msgstr "このコンポーネントは、%(vehName)s を入手するために必要"
+
+msgid "tankmoduleTooltipData/status/alliance/notObtained"
+msgstr "設計図を未取得"
+
+msgid "tankmoduleTooltipData/status/alliance/obtained"
+msgstr "設計図を取得済み"
+
+msgid "tankmoduleTooltipData/status/available"
+msgstr "利用可能: %(count)d %(img)s"
+
+msgid "tankmoduleTooltipData/status/notObtained"
+msgstr "コンポーネント未取得"
+
+msgid "tankmoduleTooltipData/status/obtained"
+msgstr "コンポーネント取得済み"
+
+msgid "tankwomanTooltipData/advantages/brotherhood"
+msgstr "100% 訓練済みのパーク「戦友」"
+
+msgid "tankwomanTooltipData/advantages/newPerk"
+msgstr "パークを追加でもうひとつ100%習得することができます。"
+
+msgid "tankwomanTooltipData/advantages/title"
+msgstr "利点:"
+
+msgid "tankwomanTooltipData/desc/body"
+msgstr "各セットの最終ミッションの主条件を達成することで付与されます。"
+
+msgid "tankwomanTooltipData/desc/title"
+msgstr "取得方法:"
+
+msgid "tankwomanTooltipData/subTitle"
+msgstr "特別搭乗員"
+
+msgid "tankwomanTooltipData/title"
+msgstr "女性搭乗員"
+
+msgid "taskDetailsView/additionalConditions"
+msgstr "副条件"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheet"
+msgstr "オーダーを回収"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheets"
+msgstr "オーダーを回収"
+
+msgid "taskDetailsView/mainConditions"
+msgstr "主条件"
+
+msgid "useAwardSheetWindow/cancelBtn"
+msgstr "キャンセル"
+
+msgid "useAwardSheetWindow/info"
+msgstr "オーダーを回収するには、このミッションを名誉達成してください。"
+
+msgid "useAwardSheetWindow/locked"
+msgstr "オーダーを回収するには、このセットの全ミッションを達成してください。"
+
+msgid "useAwardSheetWindow/needAmount"
+msgstr "達成するために必要:"
+
+msgid "useAwardSheetWindow/pm2/noVehicle"
+msgstr "このオーダーを回収するために必要な車輌: %(vehicleClass)s"
+
+msgid "useAwardSheetWindow/regular/noVehicle"
+msgstr "このオーダーを回収するために必要な車輌: %(vehicleClass)s"
+
+msgid "useAwardSheetWindow/sheetsTotal"
+msgstr "利用可能な合計:"
+
+msgid "useAwardSheetWindow/submitBtn"
+msgstr "達成"
+
+msgid "useAwardSheetWindow/title"
+msgstr "主条件の達成"

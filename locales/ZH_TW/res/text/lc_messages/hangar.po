@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "購買"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "將安裝以下消耗品：%(consumables)s。"
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "購買消耗品"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr "、"
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s 名乘員"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "您已擁有此車輛的乘員"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s 名乘員。"
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "招募新乘員"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "此處。"
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "Wargaming 對「T-34」英數組合的使用係一般用途，用來指稱真實戰車且與任何其他同名稱商標著作權之擁有者毫無關聯。詳情請參見{link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "裝載彈藥"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "安裝消耗品"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "車庫車位"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "折價貼換"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "免費"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "招募 %(count)s 名乘員"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "租用"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "租用"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "租用 30 天"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "租用 3 天"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "租用 7 天"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "租用 %(days)s 天"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "前線階段"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "前線賽季"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "排名戰階段"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "排名戰賽季"
+
+msgid "buyVehicleWindow/restore"
+msgstr "重新找回"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "沒有限制"
+
+msgid "buyVehicleWindow/title"
+msgstr "選配"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "重新找回"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "購買"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "折價貼換"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "折價貼換"
+
+msgid "carousel/filters/allVehicle"
+msgstr "我的所有車輛"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "乘員"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "特性"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} 場戰鬥"
+msgstr[1] "{{count}} 場戰鬥"
+msgstr[2] "{{count}} 場戰鬥"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} 天"
+msgstr[1] "{{count}} 天"
+msgstr[2] "{{count}} 天"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} 小時"
+msgstr[1] "{{count}} 小時"
+msgstr[2] "{{count}} 小時"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} 場勝利"
+msgstr[1] "{{count}} 場勝利"
+msgstr[2] "{{count}} 場勝利"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "點擊以前往您的車輛遊玩清單。"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "我的車輛"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "乘員訓練、重新訓練與管理。"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "乘員管理"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "車輛自訂要素：套用 2D/3D 風格與其他要素。"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "自訂要素"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "按下以開啟"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "車輛資訊、研發、比較與修理。"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "車輛管理"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "關於車輛"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "裝甲"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "比較"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "自動調回"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "調回乘員"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "送回兵營"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "重新訓練乘員"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "快速備戰"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "戰地升級"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "變更國家"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "已啟用"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "專業版加成{{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "快速訓練"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "修理"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "研發"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "升級"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "您可隨時變更此選擇。"
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "專業版加成已在此車輛上啟用"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "您僅能在隨機戰鬥、天梯戰模式、根據地、世界地圖與比賽中為車輛啟用加成。"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "此模式不適用專業版加成"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "您僅能在 I–X 階的可研發與收藏車輛啟用加成。"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "此車輛不適用專業版加成"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "您的專業版加成目前已在 {{vehicle}} 上啟用。您可在 {{time}} 後變更此選擇。"
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "稍後再回來！"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "您可在 {{time}} 後變更此選擇。"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "專業版加成已在此車輛上啟用"

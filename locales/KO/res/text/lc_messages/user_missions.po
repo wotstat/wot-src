@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "스테이지 {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "특별 챕터"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "완료"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "새로운 배틀 패스 확인"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "챕터 선택"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "일시적으로 이용 불가"
+
+msgid "battle_pass_widget/title"
+msgstr "배틀 패스"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "시련의 장: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} ~ {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}}일"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}}일 {{hours}}시간"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}}시간"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}}시간 {{minutes}}분"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}}분"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "보너스 임무\n일반 임무 3개 완료 시 해제"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "남은 보너스 임무 완료 가능 시간"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "새로운 일일 임무 부여까지"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "남은 임무가 없습니다. 새로운 일일 임무가 곧 부여됩니다."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "해당 임무를 해제하려면 이전 임무 완료"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "일시적으로 프리미엄 임무 이용 불가"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "프리미엄 계정 구매"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "월드 오브 탱크 프리미엄 계정 필요"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "프리미엄 임무"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "일시적으로 일일 임무 이용 불가"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "변경"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "일일"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "캠페인으로 이동"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "결과 향상"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "작전으로 이동"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "숙련된 전차장을 위한 도전 임무를 완수하고 특별 전차 보상을 획득할 수 있습니다."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "{{currentOperationName}} 작전을 완료했습니다! 결과를 향상하여 우수 등급 완료에 도전하거나 {{nextOperationName}} 작전으로 넘어갈 수 있습니다."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "계속해서 {{nextOperationName}} 작전 결과를 향상할 수 있습니다."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "{{currentOperationName}} 작전을 우수 등급으로 완료했습니다! {{nextOperationName}} 작전을 이용할 수 있습니다."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "개인 임무, 일일 임무, 주간 임무 완료 시 캠페인 점수를 획득할 수 있습니다."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "{{totalProgress}} 임무를 모두 완료하여 작전을 우수 등급으로 완료하고 추가 보상을 획득해 보십시오."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "모든 부품 장착 시 보상으로 {{vehicleName}} 전차를 획득할 수 있습니다. 전차 부품을 수집하려면 개인 임무, 일일 임무, 주간 임무를 완료하여 캠페인 점수를 획득하십시오."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "모든 부품 장착 시 보상으로 {{vehicleName}} 전차를 획득할 수 있습니다. 전차 부품을 수집하려면 개인 임무, 일일 임무, 주간 임무를 완료하여 캠페인 점수를 획득하십시오."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "완료한 임무: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "새로 추가된 제3 섹터 캠페인을 이용할 수 있습니다!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "{{nextOperationName}} 작전 이용 가능!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "{{currentOperationName}} 작전 우수 등급으로 완료!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "{{nextOperationName}} 작전 이용 가능!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "{{currentOperationName}} 작전 | 스테이지 {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "{{currentOperationName}} 작전 우수 등급 완료 도전 중"
+
+msgid "hub/basic_missions/title"
+msgstr "정기 임무"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "주간"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "{{weekDay}}마다 갱신"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "활성화 임무"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "또는"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "신규 임무 공개 예정..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "투사"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "에이스"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "정예"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "임무 범주는 투사, 정예, 에이스로 나뉩니다. 각 범주에 따라 서로 다른 난이도의 임무를 접하고 값진 보상을 만끽할 수 있습니다."
+
+msgid "hub/challenge_missions/header"
+msgstr "시련의 장"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "활성화"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "무료로 재시작"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "재시작"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "포기"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "임무로 이동"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) 시련의 장 임무 완료"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "남은 보호막"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "무료 재시작"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "활성화된 시련의 장 임무 완료"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "종료까지 %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)이용 불가: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "6단계 이상 전차 필요"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "활성화"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "완료"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "임무 {{currentMissions}} / {{totalMissions}}"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "챌린지 임무"
+
+msgid "hub/challenge_missions/new"
+msgstr "신규"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "시련의 장으로 이동"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "시련의 장으로 이동"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "시련의 장: {{ challengeName }} 완료!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "시련의 장으로 이동"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "시련의 장: {{ challenge }} 임무가 완료되지 않았습니다. 재시작하여 보상 획득해 보십시오!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "시련의 장으로 이동"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "임무 {{ mission }} 완료!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "시련의 장으로 이동"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "임무 {{ mission }} 실패"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "남은 보호막"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "시련의 장으로 이동"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "시련의 장에서 영광의 길을 개척해 보십시오. 연속 임무를 완료하면 값진 보상을 획득할 수 있습니다."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "시련의 장 신규 임무!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "시련의 장에서 영광의 길을 개척해 보십시오. 연속 임무를 완료하면 값진 보상을 획득할 수 있습니다."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "시련의 장 참여"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "완료"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "3D 부착물 세트"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "강화 장비"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D 스타일"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "승무원"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "전차"
+
+msgid "hub/challenge_missions/title"
+msgstr "시련의 장 임무"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "시련의 장 정보"
+
+msgid "hub/common_missions/title"
+msgstr "추가 임무"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "보상 수령"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "일시적으로 특무 보상 이용 불가"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "일반 임무, 프리미엄 임무, 보너스 임무 완료 시 모두 진행 상황에 반영됩니다."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "이용 가능"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "일일 임무를 완료하여 특무 보상 획득"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "보상 수령"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "보상 수령"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "일반 임무, 프리미엄 임무, 보너스 임무 완료 시 모두 진행 상황에 반영됩니다."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "이용 가능"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "실전 복귀! 일일 임무를 완료하고 특무 보상 획득: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "일반 임무 3개 완료 시 더욱더 값진 보상을 획득할 수 있는 보너스 임무를 진행할 수 있습니다. 보너스 임무는 획득한 당일 완료해야 하며 미완료 시 해당 임무가 사라집니다."
+
+msgid "info_page/additional/bonus/title"
+msgstr "보너스 임무"
+
+msgid "info_page/additional/conditions/description"
+msgstr "임무에는 한 전투에서 완료해야 하는 임무와 전투 횟수와 관계없이 임무 진행 상황이 누적되는 임무가 있습니다. 누적식 임무는 진행 상황을 확인할 수 있으며 무작위 전투에서 임무를 완료할 수 있습니다."
+
+msgid "info_page/additional/conditions/title"
+msgstr "조건"
+
+msgid "info_page/additional/reroll/description"
+msgstr "원하지 않는 일반 임무는 다른 무작위 임무로 변경할 수 있습니다. 임무 변경 시 {{time}} 동안 임무를 다시 변경할 수 없습니다. 전투 중인 전차가 있을 때 임무를 변경하면 진행 상황을 잃을 수도 있습니다."
+
+msgid "info_page/additional/reroll/title"
+msgstr "임무 변경"
+
+msgid "info_page/additional/reward/description"
+msgstr "특무 보상은 마라톤과 비슷한 형식입니다. 일반, 프리미엄, 보너스 임무를 완료하면 특무 보상 진행 상황에 집계됩니다. 진행이 완료되면 초기화되어 다시 시작합니다. 특무 보상 진행에는 시간제한이 없으며 언제든 완료할 수 있습니다."
+
+msgid "info_page/additional/reward/title"
+msgstr "특무 보상"
+
+msgid "info_page/header"
+msgstr "임무 정보"
+
+msgid "info_page/main/premium/description"
+msgstr "월드 오브 탱크 프리미엄 계정이 활성화되어 있으면 프리미엄 임무를 이용할 수 있습니다. 프리미엄 임무는 3개를 순서대로 진행할 수 있습니다. 무작위 전투와 격전에서 완료할 수 있으며 진행 상황은 매 전투가 종료될 때마다 갱신됩니다. 게임 이벤트가 진행 중일 땐 프리미엄 임무에서 해당 이벤트와 관련된 보상이 지급될 수도 있습니다."
+
+msgid "info_page/main/premium/title"
+msgstr "프리미엄 임무"
+
+msgid "info_page/main/standard/description"
+msgstr "일반 임무는 무작위로 부여되는 일일 임무입니다. 전투가 종료될 때마다 임무 진행 상황이 집계됩니다. 임무를 당일에 완료하지 않으면 다음 날로 이전되어 다음 임무를 진행할 수 없으므로 임무를 받은 당일에 완료하는 것이 좋습니다. 배틀 패스 기간에 일반 임무를 완료하면 배틀 패스 점수를 획득할 수 있으며 다른 게임 이벤트가 진행 중일 땐 해당 이벤트와 관련된 보상이 지급될 수도 있습니다."
+
+msgid "info_page/main/standard/title"
+msgstr "일반 임무"
+
+msgid "info_page/main/weekly/description"
+msgstr "주간 임무는 매주 부여되는 임무 세트입니다. 전투가 종료될 때마다 임무 진행 상황이 집계됩니다. 완료한 임무는 다음 주기가 시작될 때 새로운 임무로 교체됩니다. 주간 임무는 무작위 전투와 격전 모드에서 완료할 수 있으며 완료 시 추가 보너스가 지급됩니다."
+
+msgid "info_page/main/weekly/title"
+msgstr "주간 임무"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "금일 모든 정기 임무 완료"
+
+msgid "quests/daily_quests/completed"
+msgstr "모든 일일 임무 완료"
+
+msgid "tooltip/common/timer"
+msgstr "활성화까지 {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "정기 임무를 모두 완료하셨습니다! 추가 임무 화면에서 더 많은 임무를 확인할 수 있습니다."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "보너스 임무"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "완료"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "일일 임무"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "만료까지 {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "새로운 일일 임무 부여까지 {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "프리미엄 임무"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "보상"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "일일 임무는 {time}마다\n변경할 수 있습니다."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "임무 변경"
+
+msgid "tooltip/hub/card/completed"
+msgstr "임무를 완료하여 보상이 지급되었습니다."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "해당 임무를 해제하려면 이전 임무를 완료하십시오. 세트 내 임무는 순차적으로 완료해야 합니다."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "추가 정보 확인"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "임무 정보"
+
+msgid "tooltip/hub/replay/body"
+msgstr "해당 연속 임무는 완료 후 다시 진행할 수 있습니다. 완료 이후에는 진행 상황이 초기화되고 보호막이 복구되며 보상을 다시 획득할 수 있습니다."
+
+msgid "tooltip/hub/replay/header"
+msgstr "반복 진행 임무"
+
+msgid "tooltip/hub/restart/description"
+msgstr "보호막을 모두 잃으면 연속 임무를 재시작할 수 있습니다. 재시작 시 임무 진행 상황이 초기화되고 보호막이 복구되며 보상을 다시 획득할 수 있습니다."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "이후 재시작 비용: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "무료 재시작 가능 횟수: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "재시작 1회당 비용: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "재시작"
+
+msgid "tooltip/hub/shields/description"
+msgstr "보호막으로 진행 상황을 보호할 수 있습니다. 임무에 실패할 때마다 보호막이 1개씩 소모되며, 보호막을 모두 잃으면 연속 임무에 실패합니다. 임무를 재시작하면 보호막이 모두 복구됩니다."
+
+msgid "tooltip/hub/shields/title"
+msgstr "보호막"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "전차 제한"
+
+msgid "tooltip/weekly_mission"
+msgstr "주간 임무"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "주간 임무는 {{time}}마다\n변경할 수 있습니다."
+
+msgid "welcome/button"
+msgstr "확인!"

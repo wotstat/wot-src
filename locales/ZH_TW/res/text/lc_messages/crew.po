@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "擴充"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "解雇訓練不足的乘員"
+
+msgid "barracks/bunks/title"
+msgstr "床位："
+
+msgid "barracks/enlarge/contentLine"
+msgstr "輸入要購買的床位數量。兵營中可用的床位：%(freeBunksCount)s / %(allBunksCount)s。"
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "折扣價格"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "新的價格：每 %(bunksCount)s 個床位 %(currency)s"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "先前價格：每 %(bunksCount)s 個床位 %(currency)s"
+
+msgid "barracks/enlarge/header"
+msgstr "要擴充兵營？"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "兵營中訓練不足的乘員中，若擁有的經驗少於將首個乘員歷練訓練至 {whiteSpanish_Open}100%{whiteSpanish_Close} 所需的 {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} 經驗，即可將其解雇。"
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "訓練不足的乘員"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "您沒有訓練不足的乘員"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "解雇訓練不足的乘員不會讓您獲得任何補償。這些乘員一旦解雇即無法重新找回，且其所有經驗也將隨之失去。"
+
+msgid "barracks/title"
+msgstr "兵營"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "點擊以擴充兵營。"
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "擴充兵營"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "位於"
+
+msgid "common/imageNotAvailable"
+msgstr "無圖片"
+
+msgid "common/inBarracks"
+msgstr "兵營中"
+
+msgid "common/inBattle"
+msgstr "戰鬥中"
+
+msgid "common/inPrebattle"
+msgstr "於戰術單位中"
+
+msgid "common/navigation/aboutCrew"
+msgstr "關於乘員"
+
+msgid "common/navigation/toBarracks"
+msgstr "前往兵營"
+
+msgid "common/navigation/toGarage"
+msgstr "前往車庫"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "前往檔案"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "了解！"
+
+msgid "conversionAwards/buttonNote"
+msgstr "您的乘員已轉換為乘員書籍。"
+
+msgid "conversionAwards/title"
+msgstr "轉換成功"
+
+msgid "conversionAwards/underTitle"
+msgstr "以下物品已新增到您的帳號。"
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "取消"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "解雇"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "將被解雇的乘員：{amount}"
+
+msgid "conversionConfirm/title"
+msgstr "要解雇訓練不足的乘員？"
+
+msgid "conversionConfirm/warning"
+msgstr "解雇訓練不足的乘員不會讓您獲得任何補償。這些乘員一旦解雇即無法重新找回，且其所有經驗也將隨之失去。"
+
+msgid "crewBanner/button/fill/label"
+msgstr "自動選擇歷練"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "沒有未選歷練的乘員。"
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "無法自動選擇歷練"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "所有乘員以加號標示的未選歷練，都將替換為依特殊邏輯自動選擇的歷練。"
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "為所有乘員自動選擇未選歷練"
+
+msgid "crewBanner/button/reset/label"
+msgstr "為所有乘員重置歷練"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "沒有已訓練歷練的乘員。"
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "無法重置歷練"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "您帳號中所有乘員的所有歷練將全數重置。此操作為不可逆。"
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "為所有乘員重置歷練"
+
+msgid "crewBanner/infoText"
+msgstr "免費為您帳號中的所有乘員重置歷練，或自動選擇未選歷練"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "「加速乘員訓練」已開啟"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "熟練度加成：{{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "歷練整體熟練度"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "這些歷練不可用，因為乘員未接受此車輛的訓練。"
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "車輛專長："
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "歷練不可用"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "額外歷練："
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "主要專長歷練："
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "（中國）"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "（捷克斯洛伐克）"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "（法國）"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "（德國）"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "（義大利）"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "（日本）"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "（波蘭）"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "（瑞典）"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "（英國）"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "（美國）"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "（蘇聯）"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "所有加值驅逐戰車{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "所有加值自走炮{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "所有加值重型戰車{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "所有加值輕型戰車{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "所有加值中型戰車\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "詳情"
+
+msgid "filter/group/details/title"
+msgstr "詳情"
+
+msgid "filter/group/nation/title"
+msgstr "國家"
+
+msgid "filter/group/other/title"
+msgstr "其他"
+
+msgid "filter/group/special/title"
+msgstr "特殊"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "專長"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "階級"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "階級"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "車輛專長"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "車輛類型"
+
+msgid "filter/popup/button/title"
+msgstr "過濾"
+
+msgid "filter/popup/default/title"
+msgstr "過濾"
+
+msgid "filter/popup/skinChange/title"
+msgstr "按國家過濾"
+
+msgid "filter/popup/tankChange/title"
+msgstr "按車輛過濾"
+
+msgid "filter/reset"
+msgstr "重置過濾"
+
+msgid "filter/search/placeholder"
+msgstr "按名稱搜尋"
+
+msgid "filter/search/tooltip/header"
+msgstr "按名稱搜尋"
+
+msgid "filter/title"
+msgstr "顯示："
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "顯示/隱藏乘員，這些乘員所在車輛已研發完所有可用配件與下一階車輛。"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "精英車輛"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "顯示/隱藏已接受加值車輛訓練的乘員。"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "加值車輛"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "顯示/隱藏最愛車輛中的乘員。"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "最愛車輛"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "顯示/隱藏擁有此類型車輛專長的乘員。"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "顯示/隱藏此國家的乘員。"
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "顯示/隱藏此國家的外表。"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "顯示/隱藏此國家的車輛。"
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "顯示/隱藏已解雇的乘員。"
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "已解雇"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "顯示新兵。"
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "新兵"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "顯示乘員。"
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "乘員"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "顯示/隱藏此專長的乘員。"
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "顯示/隱藏加值車輛。"
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "加值車輛"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "顯示/隱藏此類型的車輛。"
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "驅逐戰車"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "自走炮"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "重型戰車"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "輕型戰車"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "中型戰車"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "找不到符合\n搜尋條件的車輛"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "按照車輛名稱來排序。"
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "名稱"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "按照車輛階級來排序。"
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "階級"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "按照車輛類型來排序。"
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "類型"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "名稱"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "點擊以重置過濾設定。"
+
+msgid "filterPanel/counter/reset/header"
+msgstr "重置所有過濾"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "了解！"
+
+msgid "junkTankmen/description"
+msgstr "這些乘員的經驗少於將首個乘員歷練訓練至 {whiteSpanish_Open}100%{whiteSpanish_Close} 所需的 {bond_Open}210 060{bond_Close}{icon} 經驗。\n他們將從您的帳號中移除。"
+
+msgid "junkTankmen/title"
+msgstr "要解雇訓練不足的乘員？"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "每個額外專長可訓練的歷練上限為 {whiteSpanish_Open}3 個{whiteSpanish_Close}。這些歷練分別會在可訓練{whiteSpanish_Open}第一個{whiteSpanish_Close}、{whiteSpanish_Open}第三個{whiteSpanish_Close}與{whiteSpanish_Open}第五個{whiteSpanish_Close}主要專長歷練時解鎖。"
+
+msgid "matrix/bonusTooltip/header"
+msgstr "額外歷練"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "重新訓練乘員以變更其車輛專長時，若專長組成不同，您將可再次為新的額外專長選擇歷練。"
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "額外歷練的訓練速度為主要專長歷練的一半。"
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "訓練額外歷練不需要使用經驗。"
+
+msgid "matrix/freeResetButton"
+msgstr "免費重置"
+
+msgid "matrix/increaseButton"
+msgstr "加速訓練"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "乘員已達訓練上限。"
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "無法加速訓練"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "使用自由經驗與乘員書籍來訓練歷練。"
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "快速訓練"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "不適合的專長"
+
+msgid "matrix/qualification/1"
+msgstr "主要專長"
+
+msgid "matrix/qualification/2"
+msgstr "第二專長"
+
+msgid "matrix/qualification/3"
+msgstr "第三專長"
+
+msgid "matrix/qualification/4"
+msgstr "第四專長"
+
+msgid "matrix/qualification/5"
+msgstr "第五專長"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "第二專長的歷練無法作為零歷練訓練"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "第三專長的歷練無法作為零歷練訓練"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "第四專長的歷練無法作為零歷練訓練"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "無法在此車輛使用第二專長"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "無法在此車輛使用第三專長"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "無法在此車輛使用第四專長"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "無法在此車輛使用第五專長"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "每個額外專長可訓練的額外歷練上限為 {whiteSpanish_Open}3 個{whiteSpanish_Close}。僅能選擇此專長專屬的歷練作為額外歷練。"
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "主要專長可訓練的歷練上限為 {whiteSpanish_Open}6 個{whiteSpanish_Close}（包括零歷練）。"
+
+msgid "matrix/resetButton"
+msgstr "重置"
+
+msgid "matrix/resetButtonHint"
+msgstr "點擊以重置歷練"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "您尚未訓練歷練。"
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "無法重置歷練"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "點擊以重置歷練。"
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "重置歷練"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "可訓練額外歷練"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "訓練額外歷練不需要使用乘員經驗。"
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "無法訓練"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "可開始訓練第三個主要專長歷練時解鎖。不需要使用經驗。"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "可開始訓練第五個主要專長歷練時解鎖。不需要使用經驗。"
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "訓練程度"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "所需的總經驗較少，因為乘員有一個零歷練。"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "所需的總經驗較少，因為乘員有兩個零歷練。"
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "可訓練歷練"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "無法訓練"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "前一個歷練必須訓練到 100%。"
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "可訓練零歷練"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "即使同時選擇數個歷練，零歷練總是會優先獲得訓練，且不需要使用乘員經驗來訓練。"
+
+msgid "matrix/skills/allSkills"
+msgstr "已訓練適合此車輛的所有額外歷練"
+
+msgid "matrix/skills/available"
+msgstr "可訓練歷練："
+
+msgid "matrix/skills/bonus"
+msgstr "額外歷練"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "歷練無法使用"
+
+msgid "matrix/skills/locked"
+msgstr "歷練無法使用"
+
+msgid "matrix/skills/main/disabled"
+msgstr "無法在此車輛使用任何歷練"
+
+msgid "matrix/skills/main/enabled"
+msgstr "主要專長歷練"
+
+msgid "matrix/skills/reduced"
+msgstr "歷練整體熟練度下降"
+
+msgid "matrix/skills/roles/commander"
+msgstr "車長的歷練"
+
+msgid "matrix/skills/roles/driver"
+msgstr "駕駛的歷練"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "車長的歷練"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "駕駛的歷練"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "炮手的歷練"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "裝填手的歷練"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "通訊員的歷練"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "炮手的歷練"
+
+msgid "matrix/skills/roles/loader"
+msgstr "裝填手的歷練"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "通訊員的歷練"
+
+msgid "matrix/skills/training"
+msgstr "歷練訓練"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "可訓練零歷練："
+
+msgid "memberChange/action/recruit"
+msgstr "招募{role}"
+
+msgid "memberChange/discount"
+msgstr "變更專長可享有 {discountAmount}% 折扣"
+
+msgid "memberChange/title"
+msgstr "選擇{role}：{vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}倉庫中{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "確認後，轉移經驗給他人的乘員將從帳號中移除。"
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "「指導許可證」讓您將一名乘員的乘員經驗轉移給同一國家的另一名乘員。"
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "指導許可證"
+
+msgid "personalData/card/edit"
+msgstr "編輯"
+
+msgid "personalData/card/remove"
+msgstr "移除"
+
+msgid "personalData/card/restrictions"
+msgstr "限制：{restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "點擊以替換乘員的名稱與外表。"
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "外表"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "此名乘員已有獨特名稱與外表。"
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "無法替換名稱與外表。"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "找不到任何東西。請變更設定或重置過濾。"
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "按照他們的國家來設置外表顯示。"
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "按參數過濾"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "顯示標準。"
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "標準"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "顯示推薦的外表。"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "推薦的外表"
+
+msgid "personalData/filter/type/title"
+msgstr "類型"
+
+msgid "personalData/title"
+msgstr "替換名稱與外表"
+
+msgid "personalFile/changeVehicle"
+msgstr "變更"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "此名乘員無法接受不同車輛的訓練。"
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "無法操作"
+
+msgid "personalFile/discount/full"
+msgstr "可享有乘員重新訓練折扣"
+
+msgid "personalFile/discount/short"
+msgstr "可享有折扣"
+
+msgid "personalFile/inVehicle"
+msgstr "所在車輛：%(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "提升"
+
+msgid "personalFile/isUntrained"
+msgstr "尚未接受此車輛的訓練"
+
+msgid "personalFile/premiumVehicle"
+msgstr "所有 {icon} 加值車輛"
+
+msgid "personalFile/retrain"
+msgstr "重新訓練"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "歷練整體熟練度："
+
+msgid "personalFile/specialization"
+msgstr "車輛專長："
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "車輛專長"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "點擊以聆聽此名乘員的配音範例。"
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "獨特配音"
+
+msgid "postProgression/button/claim"
+msgstr "領取獎勵"
+
+msgid "postProgression/description"
+msgstr "訓練完全部 6 個主要專長歷練的任何乘員，即可開始單一完訓進度。每在完訓進度累積 100,000 經驗，您將獲得一本通用訓練指南並用來訓練其他乘員。"
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "完訓進度為一個單一進度系統，由玩家帳號中所有已訓練完 6 個主要專長歷練的乘員共享。"
+
+msgid "postProgression/tips/2"
+msgstr "僅有戰鬥經驗會計入完訓進度。乘員在戰鬥中獲得之戰鬥經驗的半數，再除以車輛中的乘員人數後計入完訓進度。"
+
+msgid "postProgression/tips/3"
+msgstr "因重新訓練或重置歷練而失去經驗不會影響完訓進度。"
+
+msgid "postProgression/title"
+msgstr "乘員完訓進度"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "所有已達到完訓進度之乘員的歷練整體熟練度不足。"
+
+msgid "postProgression/warning/retire"
+msgstr "所有已達到完訓進度之乘員均已解雇，或他們最後訓練的歷練遭扣除經驗。"
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "所有加值驅逐戰車"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "所有加值自走炮"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "加值驅逐戰車"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "加值自走炮"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "加值重型戰車"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "加值輕型戰車"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "加值中型戰車"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "所有加值重型戰車"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "所有加值輕型戰車"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "所有加值中型戰車"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "獎項"
+
+msgid "serviceRecord/averageXP"
+msgstr "平均每場經驗"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "參戰數"
+
+msgid "serviceRecord/noAchievements"
+msgstr "尚未在戰鬥中獲得成就或獎項。"
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "乘員於所在車輛上獲得的總經驗與參戰數的比。"
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "平均每場經驗"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "乘員的軍階取決於他們累積的經驗與已訓練的歷練數。"
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "軍階"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "乘員已達到此專長可訓練歷練的數量上限"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "可訓練歷練"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "無法在此車輛使用任何歷練"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "訓練額外專長歷練不需要使用經驗，訓練速度為主要專長歷練的一半。"
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "取消"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "訓練"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "額外專長"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "主要專長"
+
+msgid "tankChange/title"
+msgstr "變更車輛專長"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "顯示車庫中的車輛。"
+
+msgid "tankChange/tooltip/location/header"
+msgstr "車庫中"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "按照類型與階級來設置車輛顯示。"
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "按參數過濾"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "您不需要專門為加值車輛訓練乘員。您可調動同類型加值車輛上的乘員，且熟練度不會降低。"
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "加值車輛"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "車輛名稱不得超過 %(maxLength)s 個字元。"
+
+msgid "tankman/action/dismiss/title"
+msgstr "解雇"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "解雇此名乘員。"
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "無法解雇此名乘員。"
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "無法操作"
+
+msgid "tankman/action/recruit/title"
+msgstr "招募"
+
+msgid "tankman/action/restore/title"
+msgstr "重新找回"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "重新找回此名乘員。"
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "點擊以聆聽此名車長的配音範例。"
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "獨特配音"
+
+msgid "tankman/recruit"
+msgstr "新兵"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "外表"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "檔案"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "服役紀錄"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "招募"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "重置過濾"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "找不到任何東西。請變更設定或重置過濾。"
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "找不到任何東西。請招募一名乘員。"
+
+msgid "tankmanList/filter/title"
+msgstr "乘員："
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "兵營中的床位不足。"
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "僅顯示/隱藏已解雇的乘員。"
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "已解雇"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "顯示在兵營中的乘員。"
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "兵營中"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "顯示在車輛上的乘員。"
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "在車輛上"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "顯示/隱藏此國家的外表。"
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "按照專長、車輛專長與其他參數來設置乘員顯示。"
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "按參數過濾"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "招募一名新乘員。"
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "名稱不得超過 %(maxLength)s 個字元。"
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*將游標移動到歷練上方，來顯示在當前歷練整體熟練度下，該歷練訓練至 100% 時對相應技術特性的影響。"
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "了解!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "每個專長新增兩個新歷練，並翻新「可靠配置」，另提供可在戰鬥抬頭顯示介面中隱藏歷練的新選項。"
+
+msgid "welcomeScreen/item2/description"
+msgstr "新增一項便利操作，讓您一鍵解雇訓練不足的乘員。"
+
+msgid "welcomeScreen/item3/description"
+msgstr "現在可僅花費銀幣來重置歷練，且不會損失經驗。"
+
+msgid "welcomeScreen/subTitle"
+msgstr "新增數個歷練與多項功能，且更新一個現有歷練。"
+
+msgid "welcomeScreen/title"
+msgstr "乘員系統更新"

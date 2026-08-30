@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "ทั่วไป"
+
+msgid "channels/battle/team"
+msgstr "ทีม"
+
+msgid "channels/clan"
+msgstr "กองทัพ"
+
+msgid "channels/common"
+msgstr "ทั่วไป"
+
+msgid "channels/epic_training"
+msgstr "การฝึก—แนวรบ"
+
+msgid "channels/nubs"
+msgstr "ทหารเกณฑ์"
+
+msgid "channels/prebattle"
+msgstr "ก่อนการรบ"
+
+msgid "channels/special_battles"
+msgstr "การรบพิเศษ"
+
+msgid "channels/squad"
+msgstr "หมวดรถถัง"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "สร้างหมวดรถถังแล้ว โปรดรอจนกว่าผู้เล่นจะพร้อม"
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "หมวดรถถัง"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "สร้างหมวดรถถังแล้ว ผู้เล่นทุกคนก็พร้อมแล้ว"
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "หมวดรถถัง"
+
+msgid "channels/system"
+msgstr "ระบบ"
+
+msgid "channels/tournament"
+msgstr "ทัวร์นาเมนท์"
+
+msgid "channels/trading"
+msgstr "การซื้อขาย"
+
+msgid "channels/training"
+msgstr "การฝึก"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "ผู้ควบคุมการสนทนานั้นเป็นผู้ควบคุมช่องเช่นกัน"
+
+msgid "errors/addmoderatorowner"
+msgstr "เจ้าของช่องก็เป็นผู้ควบคุมช่องเช่นกัน"
+
+msgid "errors/banchannelowner"
+msgstr "เจ้าของช่องไม่สามารถถูกห้ามใช้งานได้"
+
+msgid "errors/banchatadmin"
+msgstr "ผู้ควบคุมการสนทนาไม่สามารถถูกห้ามใช้งานได้"
+
+msgid "errors/banned"
+msgstr "คุณถูกห้ามใช้งานโดยผู้ใช้ %(banOwnerNick)s จนกว่า %(banEndTime)s. เหตุผล: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "คุณถูกห้ามใช้งานโดยผู้ใช้ %(banOwnerNick)s เหตุผล: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "คุณถูกห้ามใช้งานจนกว่า %(banEndTime)s. เหตุผล: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "คุณถูกห้ามใช้งาน เหตุผล: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "คำสั่ง %(command)s ถูกระงับใช้เป็นเวลา %(cooldownPeriod)s วินาที."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "ไม่สามารถถอดอำนาจการควบคุมของผู้ควบคุมการสนทนาได้"
+
+msgid "errors/delmoderatorowner"
+msgstr "ไม่สามารถถอดอำนาจการควบคุมของเจ้าของช่องได้"
+
+msgid "errors/timeincorrect"
+msgstr "ค่า ‘เวลา’ จะต้องเป็นเลขค่าบวก [1-1440] หรือ ‘ถาวร’."
+
+msgid "errors/toomanyargs"
+msgstr "ค่าตัวแปรมากเกินไป"
+
+msgid "errors/toosmallargs"
+msgstr "ค่าตัวแปรไม่พอ"
+
+msgid "errors/userbanhimself"
+msgstr "คุณไม่สามารถห้ามใช้งานตัวเองได้"
+
+msgid "messages/userbanned"
+msgstr "ผู้ใช้ %(banedUser)s ถูกห้ามใช้งานโดยผู้ใช้ %(banOwnerNick)s จนกว่า %(banEndTime)s เหตุผล: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "ผู้ใช้ %(banedUser)s ถูกห้ามใช้งานโดยผู้ใช้ %(banOwnerNick)s เหตุผล: %(banReason)s"

@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "啟用"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "購買並啟用"
+
+msgid "activation/activateBonus"
+msgstr "啟用儲備：%(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "啟用儲備"
+
+msgid "activation/activateButtonClan"
+msgstr "前往根據地"
+
+msgid "activation/battleXPDescription"
+msgstr "戰鬥經驗加成，持續 1 小時"
+
+msgid "activation/battleXPTitle"
+msgstr "戰鬥經驗"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "要購買並啟用此進階個人儲備 (提供%(boosterTerm)s %(boosterBonus)s 加成)？"
+
+msgid "activation/buyGoldConfirm"
+msgstr "購買金幣"
+
+msgid "activation/buyGoldTitle"
+msgstr "要購買此進階個人儲備 (提供%(boosterTerm)s %(boosterBonus)s 加成) 所需的金幣？"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}購買進階個人儲備所需的金幣：{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "銀幣與戰鬥經驗"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "乘員經驗與自由經驗"
+
+msgid "activation/clanBoostersTitle"
+msgstr "公會儲備"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "在根據地中啟用儲備"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "在根據地中檢視"
+
+msgid "activation/comboXPDescription"
+msgstr "自由與乘員經驗加成，持續 1 小時"
+
+msgid "activation/comboXPTitle"
+msgstr "自由與乘員經驗"
+
+msgid "activation/creditsDescription"
+msgstr "銀幣加成，持續 1 小時"
+
+msgid "activation/creditsTitle"
+msgstr "銀幣"
+
+msgid "activation/footer"
+msgstr "需啟用限期儲備：%(expirableAmount) 個過期於 %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "前線經驗加成，持續 1 小時"
+
+msgid "activation/frontLineXPTitle"
+msgstr "前線經驗"
+
+msgid "activation/informationButton"
+msgstr "資訊"
+
+msgid "activation/price"
+msgstr "費用："
+
+msgid "activation/subFooter/depot"
+msgstr "倉庫"
+
+msgid "activation/subFooter/main"
+msgstr "越接近啟用期限的儲備會優先啟用。您可在 %(depot)查看所有可用的儲備"
+
+msgid "activation/subTitle/main"
+msgstr "啟用{whiteSpanish_Open}多達 3 個個人儲備{whiteSpanish_Close}來在戰鬥中獲得更多銀幣與經驗。可在%(store)s中購買更多個人儲備。"
+
+msgid "activation/subTitle/store"
+msgstr "商店"
+
+msgid "activation/terms/booster_credits"
+msgstr "銀幣"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "前線經驗"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "自由與乘員經驗"
+
+msgid "activation/terms/booster_xp"
+msgstr "戰鬥經驗"
+
+msgid "activation/title"
+msgstr "個人儲備"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}已啟用的基本個人儲備 (提供%(previousBoosterTerm)s %(previousBoosterBonus)s 加成) 將被取代。{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "您想要啟用此進階個人儲備 (提供%(boosterTerm)s %(boosterBonus)s 加成) 來取代已啟用的基本個人儲備？"
+
+msgid "battleView/notice"
+msgstr "個人儲備可在戰鬥中的任何時刻啟用。就算儲備在戰鬥期間過期，您仍將獲得相應的加成。"
+
+msgid "battleView/title"
+msgstr "個人儲備啟用"
+
+msgid "depot/buyButton"
+msgstr "前往購買"
+
+msgid "disabledReserveTooltip/text"
+msgstr "已啟用此類型的其他儲備。"
+
+msgid "finishedReserveTooltip/text"
+msgstr "此個人儲備在戰鬥期間失效。此個人儲備相應的加成仍會套用到該場戰鬥。"
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)分"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "已啟用的個人儲備不適用於此模式。"
+
+msgid "intro/buttons/close"
+msgstr "了解！"
+
+msgid "intro/buttons/details"
+msgstr "詳情"
+
+msgid "intro/description"
+msgstr "限期個人儲備可在獲得後的一段限定期間內使用。要是過了這段期間仍未啟用，就會失去這些儲備。當您仍有限期個人儲備時，您需先用完這些儲備，才能使用同類型的非限期個人儲備。"
+
+msgid "intro/title"
+msgstr "限期個人儲備"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "倉庫中無此類型的個人儲備。您可於稍後購買或在車庫中啟用。"
+
+msgid "noReserveTooltip/infoText"
+msgstr "透過完成任務或參與遊戲內活動來獲得個人儲備。"
+
+msgid "noReserveTooltip/text"
+msgstr "倉庫中無此類型的個人儲備。"

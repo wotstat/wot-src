@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "取消搜索"
+
+msgid "buttons/cancelSearch/description"
+msgstr "点击取消搜索小队成员。"
+
+msgid "buttons/createPlatoon/caption"
+msgstr "新小队"
+
+msgid "buttons/createPlatoon/description"
+msgstr "创建小队邀请好友一起游戏。"
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "全新超级小队"
+
+msgid "buttons/findPlayers/caption"
+msgstr "搜索玩家"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "使用搜索过滤器找到精通等级和战车与您相近的玩家。"
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "如果开始搜索在线玩家，将取消所有给好友的邀请。"
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "搜索玩家"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "您无法搜索玩家：服务器当前小队数量过多。"
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "您无法为小队搜索玩家：没有合适的战车。"
+
+msgid "buttons/invite/player/caption"
+msgstr "邀请玩家"
+
+msgid "buttons/invite/player/description"
+msgstr "点击邀请玩家到小队。"
+
+msgid "buttons/invite/players/caption"
+msgstr "邀请玩家"
+
+msgid "buttons/invite/players/description"
+msgstr "点击邀请玩家到小队。"
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "离开小队"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "点击离开小队。"
+
+msgid "buttons/mute/caption"
+msgstr "关闭小队语音聊天"
+
+msgid "buttons/mute/description"
+msgstr "点击关闭小队语音聊天。"
+
+msgid "buttons/notReady/caption"
+msgstr "未准备"
+
+msgid "buttons/notReady/description"
+msgstr "点击示意您还未准备进入战斗。"
+
+msgid "buttons/ready/caption"
+msgstr "准备！"
+
+msgid "buttons/ready/description"
+msgstr "点击示意您已准备进入战斗。"
+
+msgid "buttons/reset/caption"
+msgstr "重置搜索偏好"
+
+msgid "buttons/reset/description"
+msgstr "点击重置搜索偏好。"
+
+msgid "buttons/settings/caption"
+msgstr "设定搜索偏好"
+
+msgid "buttons/settings/description"
+msgstr "搜索符合您偏好的玩家。搜索范围会随着搜索玩家的时长而逐渐扩大。"
+
+msgid "buttons/unMute/caption"
+msgstr "开启小队语音聊天"
+
+msgid "buttons/unMute/description"
+msgstr "点击开启小队语音聊天。"
+
+msgid "headerButton/inSquad"
+msgstr "小队中"
+
+msgid "headerButton/onboarding"
+msgstr "您现在可以通过搜索玩家\n组建一个小队"
+
+msgid "headerButton/searching"
+msgstr "搜索中..."
+
+msgid "headerButton/squad"
+msgstr "创建小队"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "与好友组队参战。作为一个团队对战9支敌方小队。"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "小队"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "您无法创建或加入小队，因为您暂时被禁止加入此模式。"
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "您将无法创建小队，您的车库中需要有至少一辆适用于此模式的%(level)s级战车。"
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "暂时无法创建小队。"
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "小队不可用"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "您可以创建小队或加入现有小队。在天梯战轻量版中，小队可由2名或7名玩家组成。"
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "小队"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "您无法创建小队，您车库中并无适用于此模式的%(level)s级战车。"
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "完成定位赛后，将可创建2人与7人小队。"
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "无法创建小队。"
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "小队不可用"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "创建小队或加入现有的小队。在天梯战中，小队可由2名或7名玩家组成。"
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "小队"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "创建一个由2到3名玩家组成的作战部队协同战斗。\n• 战斗模式：乱斗。\n• 战斗类型：钢铁猎手（乱斗模式）、统治。"
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "小队"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "创建一个由2到3名玩家组成的作战部队参加大竞速。"
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "大竞速小队"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "点击打开小队菜单。"
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "侦察任务：小队"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "点击打开小队菜单。"
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "小队"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "创建一个由2或3名玩家组成的小队加入侦察任务。"
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "侦察任务：小队"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "作战部队不允许加入排位战。"
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "创建小队"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "搜索玩家中…"
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "搜索中"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "创建一个由2到3名玩家组成的作战单位参加随机战与前线战（开放时）"
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "小队"
+
+msgid "members/card/connectionLost"
+msgstr "连接中断"
+
+msgid "members/card/disabled"
+msgstr "此模式仅支持两人小队"
+
+msgid "members/card/disabledVertical"
+msgstr "不可用于此模式"
+
+msgid "members/card/empty"
+msgstr "空位"
+
+msgid "members/card/inBattle"
+msgstr "战斗中"
+
+msgid "members/card/muted/caption"
+msgstr "玩家已静音"
+
+msgid "members/card/muted/description"
+msgstr "右键点击取消静音此玩家。"
+
+msgid "members/card/notReady"
+msgstr "未准备"
+
+msgid "members/card/searching"
+msgstr "搜索玩家中…"
+
+msgid "members/card/selectVehicle"
+msgstr "选择一辆%(level)s级战车"
+
+msgid "members/chat/chatName"
+msgstr "聊天频道："
+
+msgid "members/chat/sendMessage/body"
+msgstr "点击发送信息到聊天频道。"
+
+msgid "members/chat/sendMessage/header"
+msgstr "发送信息"
+
+msgid "members/footer/comp7Invite"
+msgstr "邀请"
+
+msgid "members/footer/comp7Limitations"
+msgstr "最高段位限制"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "小队中玩家的最高段位"
+
+msgid "members/footer/getNotReady"
+msgstr "点击示意您还没准备好。"
+
+msgid "members/footer/getReady"
+msgstr "确认您已准备进入战斗。"
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "等级不匹配"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "小队阵容不合理受到经验惩罚！"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "已达到战车上限"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "小队中的坦克歼击车数量已达到上限"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "小队中的自行火炮数量已达到上限"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "小队中的重型坦克数量已达到上限"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "小队中的中型坦克数量已达到上限"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "小队中的轻型坦克数量已达到上限"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "小队中的轮式战车数量已达到上限"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "小队中的轻型坦克数量已达到上限"
+
+msgid "members/header/battle_royal"
+msgstr "：钢铁猎手"
+
+msgid "members/header/epic"
+msgstr "：前线战"
+
+msgid "members/header/event"
+msgstr " — Waffentrager：海柏利昂计划"
+
+msgid "members/header/mapbox"
+msgstr "：侦察任务"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr "：随机战"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "前线战\n仅允许使用VIII级战车。"
+
+msgid "members/header/tooltip/epic/header"
+msgstr "小队创建规则"
+
+msgid "members/header/tooltip/event/body"
+msgstr "小队应该由3辆该模式的特殊战车组成。"
+
+msgid "members/header/tooltip/event/header"
+msgstr "小队创建规则"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "小队应该由同等级战车组成。"
+
+msgid "members/header/tooltip/standard/header"
+msgstr "小队创建规则"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "小队中的玩家"
+
+msgid "searching/estimated/caption"
+msgstr "预计时间"
+
+msgid "searching/estimated/lessThan"
+msgstr "少于%(seconds)d秒"
+
+msgid "searching/estimated/moreThan"
+msgstr "超过%(seconds)d秒"
+
+msgid "searching/expanded/body"
+msgstr "没有符合初始偏好的玩家。\n搜索范围已扩大至其他战车等级。"
+
+msgid "searching/expanded/header"
+msgstr "搜索偏好已扩大"
+
+msgid "searching/lookingFor"
+msgstr "正在搜索："
+
+msgid "searching/playersInQueue"
+msgstr "在线等待玩家"
+
+msgid "searching/state"
+msgstr "搜索中："
+
+msgid "settings/tiers"
+msgstr "偏好战车等级"
+
+msgid "settings/voice"
+msgstr "偏好开启语音聊天的玩家"
+
+msgid "squad"
+msgstr "小队"

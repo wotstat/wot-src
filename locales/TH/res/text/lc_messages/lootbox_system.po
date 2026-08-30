@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "พลรถถังและการฝึก"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "การปรับแต่ง"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "อุปกรณ์และคำสั่ง"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "อื่นๆ"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "พาหนะ"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "รับทราบ!"
+
+msgid "autoOpenView/title"
+msgstr "ได้รับรางวัล"
+
+msgid "awardViews/footer/backButton/"
+msgstr "รับทราบ!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "คำสั่ง"
+
+msgid "bonuses/description/booster"
+msgstr "กำลังสำรองส่วนตัว"
+
+msgid "bonuses/description/crewSkin"
+msgstr "ลายพลรถถัง"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "อุปกรณ์มาตรฐาน"
+
+msgid "bonuses/description/style"
+msgstr "รูปแบบสองมิติ"
+
+msgid "bonuses/description/style3D"
+msgstr "รูปแบบสามมิติ"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "เศษแผ่นพิมพ์เขียว (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "เศษแผ่นพิมพ์เขียวสากล"
+
+msgid "bonuses/label/bpcoin"
+msgstr "เหรียญบัตรผ่านการรบ"
+
+msgid "boxTooltip/description/text/default"
+msgstr "เมื่อเปิดอาจจะมอบพาหนะ, ทรัพยากรเศรษฐกิจและสิ่งของมีค่าอื่นๆให้\nกล่องจะมีให้ในร้านค้าในเกม"
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "การเปิดจนกว่าจะได้รับรางวัลรับประกันถ้าไม่ได้รับก่อนหน้านี้"
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "กล่องนั้นมีให้ในร้านค้าในเกม"
+
+msgid "common/backButton"
+msgstr "กลับ"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "กล่องยุทธวิธี"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "กล่องยุทธวิธี"
+
+msgid "common/closeButton"
+msgstr "ปิด"
+
+msgid "common/footer/checkbox"
+msgstr "ภาพเคลื่อนไหวการเปิด"
+
+msgid "common/getButton/lowerCase"
+msgstr "ซื้อเพิ่ม"
+
+msgid "common/getButton/upperCase"
+msgstr "ซื้อเพิ่ม"
+
+msgid "common/infoButton"
+msgstr "มีอะไรข้างใน?"
+
+msgid "common/loader"
+msgstr "กำลังเปิดกล่อง..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) อัน"
+msgstr[1] "%(count) อัน"
+msgstr[2] "%(count) อัน"
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "วัน"
+msgstr[1] "วัน"
+msgstr[2] "วัน"
+
+msgid "common/selectTooltip"
+msgstr "กล่องไม่พอที่จะเปิด {{count}} ทันที"
+
+msgid "common/statistics/emptyHeader"
+msgstr "เปิดกล่องเพื่อดูสถิติ"
+
+msgid "common/statistics/header"
+msgstr "เปิดกล่องแล้ว: %(count)"
+
+msgid "common/statsButton"
+msgstr "สถิติ"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "ยกเลิก"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "ประวัติรางวัลของคุณจะถูกลบ"
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "ตั้งใหม่"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "ตั้งค่าสถิติใหม่?"
+
+msgid "entryPoint/boxes"
+msgstr "ไปยังกล่องของขวัญ"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "กล่องพิเศษเหล่านี้มีสิ่งของใหม่และสิ่งของที่เป็นเอกลักษณ์ กล่องสามารถซื้อได้จากร้านค้าในเกม"
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "กิจกรรมจะจบลงใน"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "เราพบกับปัญหาทางเทคนิคและหยุดกิจกรรมไว้ชั่วคราวระหว่างที่เรากำลังทำการแก้ไขอยู่"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "ไม่มีให้ชั่วคราว"
+
+msgid "eventName/lowerCase"
+msgstr "เสบียงสนามรบ"
+
+msgid "eventName/upperCase"
+msgstr "เสบียงสนามรบ"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "ทุกๆการเปิดที่ %(count)"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "พาหนะ"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "รับประกันว่าจะมี %(item) หนึ่งคัน %(count) ตัวนับจะตั้งใหม่ถ้าได้รับพาหนะก่อนหน้านี้"
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "ถ้ามีพาหนะทั้งหมดแล้วคุณจะได้รับทองแทน"
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) ในการเปิด %(count)"
+
+msgid "guaranteedTitle/textName"
+msgstr "รางวัลรับประกัน"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "เปิด"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "กิจกรรมจบลงใน %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "ถ้าคุณยังไมไ่ด้เปิดกล่องก่อนกิจกรรมจบลง ก็จะทำการเปิดกล่องดังกล่าวโดยอัตโนมัติในภายหลัง"
+
+msgid "infoPage/footer/description/compensation"
+msgstr "ถ้าคุณมีพาหนะทั้งหมดจากรายการสิ่งของที่เป็นไปได้ของกล่องแล้ว พาหนะคันต่อๆไปที่คุณได้รับจากกล่องจะได้รับการชดเชยเป็นทองในจำนวนเต็มราคาของพาหนะนั้นๆ"
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "ทุกๆกล่องที่ %(guaranteed0)s นั้นรับประกันว่าจะมีพาหนะระดับ VIII-X ให้หนึ่งคัน ถ้าคุณเปิดกล่องโดยไม่ได้รับพาหนะดังกล่าว ก็จะมีการมอบพาหนะระดับ VIII-X ที่คุณยังไม่ได้มีครอบครองอยู่เมื่อคุณเปิดกล่องที่ %(guaranteed0)s&zwnbsp; (ขึ้นกับชนิดของกล่อง) และเมื่อได้รับ ตัวนับก็จะเริ่มนับใหม่อีกครั้ง"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "เปิดอัตโนมัติ"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "ค่าชดเชย"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "รางวัลรับประกัน"
+
+msgid "infoPage/header/lootListLink"
+msgstr "ดูรายการสิ่งของบนเวบท่าของเกม"
+
+msgid "infoPage/header/probability/description"
+msgstr "โอกาสได้รับ"
+
+msgid "infoPage/header/probability/title"
+msgstr "กลุ่ม"
+
+msgid "infoPage/header/rewards/description"
+msgstr "ไม่สามารถมอบมากกว่าหนึ่งรางวัลต่อหนึ่งกลุ่ม"
+
+msgid "infoPage/header/rewards/title"
+msgstr "รางวัล"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "เปิดเพิ่ม"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "จาก %(name) (เปิดไป %(boxesCount) กล่อง)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "ได้รับรางวัล"
+
+msgid "noBoxesView/description/"
+msgstr "กล่องนั้นมีให้ในร้านค้าในเกม"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "ไปยังร้านค้า"
+
+msgid "noBoxesView/goToButton/"
+msgstr "ไปยังกล่องที่มี"
+
+msgid "preview/backLabel"
+msgstr "ไปยังกล่องของขวัญ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "มีให้: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "ไม่มีกล่องเพิ่ม"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "ดำเนินการต่อ"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "สำหรับ %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "รูปแบบสามมิติ %(style)"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "กิจกรรม %(eventName)s จบลงแล้ว"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "กล่องที่เหลือทั้งหมดจะถูกเปิดและทำการมอบสิ่งของในกล่องไปยังบัญชีของคุณ"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "ดููรางวัล"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "ได้รับรางวัลแล้ว"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "ทางเราได้เพิ่มสิ่งของที่คุณไม่ได้รับในช่วงกิจกรรมเข้ามา"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "กิจกรรมไม่มีให้ชั่วคราวเนื่องด้วยการบำรุงรักษาเกม"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "กิจกรรมมีให้อีกครั้ง ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น "
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s อัน)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "ได้รับรางวัล:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "ข้อผิดพลาด"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "โปรดรอจนกว่าการปฏิบัติการก่อนหน้าเสร็จ สิ้นก่อน"
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "การดำเนินการทำไม่ได้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "serviceChannelMessages/start/button"
+msgstr "ไปยังกิจกรรม"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "กิจกรรม %(eventName)s ได้เริ่มขึ้นแล้ว"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "จนถึง %(date)s: พาหนะพิเศษและสิ่งของมีค่าในเกม!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "ไม่สามารถตั้งสถิติใหม่ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "และยังมี"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "เปิดเพิ่ม"
+
+msgid "singleRewardView/header/title/"
+msgstr "ได้รับรางวัล"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "สมาชิกพลรถถังเฉพาะ"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "ชุดติดตั้งสามมิติ"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "ภารกิจประสบการณ์ x5 ต่อการรบ"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "คำสั่ง"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "เศษแผ่นพิมพ์เขียว"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "อนุสาร"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "อนุสารการฝึก"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "ยุทธปัจจัย"
+
+msgid "statisticsRewards/label/credits"
+msgstr "เงิน"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "คู่มือ"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "คู่มือการฝึก"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "ภารกิจประสบการณ์พลรถถัง x3"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "พันธบัตร"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "การปรับแต่ง"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "อุปกรณ์รุ่นปรับปรุง"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "ส่วนประกอบ"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "อุปกรณ์รุ่นทดลอง"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "ประสบการณ์อิสระ"
+
+msgid "statisticsRewards/label/gold"
+msgstr "ทอง"
+
+msgid "statisticsRewards/label/guide"
+msgstr "บทแนะนำ"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "บทแนะนำการฝึก"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "ใบอนุญาตฝึกสอน"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "อุปกรณ์มาตรฐาน"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "กำลังสำรองส่วนตัว"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "บัญชีพิเศษ WoT"
+
+msgid "statisticsRewards/label/rations"
+msgstr "เสบียงอาหาร"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "คำสั่งฝึกใหม่"
+
+msgid "statisticsRewards/label/style"
+msgstr "รูปแบบสองมิติ"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "รูปแบบสามมิติ"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "สมาชิกพลรถถัง"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "อุปกรณ์เงินรางวัล"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "พาหนะ"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "ตั้งสถิติใหม่"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "คลิกเพื่อตั้งค่าสถิติใหม่ทั้งหมด"
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "และรางวัลอีก %(count) อัน"
+msgstr[1] "และรางวัลอีก %(count) อัน"
+msgstr[2] "และรางวัลอีก %(count) อัน"
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "«%(label)»"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "เศษแผ่นพิมพ์เขียวประเทศ"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). «%(label)» สำหรับ %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "รูปแบบชดเชย: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num) %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "พาหนะชดเชย: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "ค่าชดเชยสำหรับพาหนะที่อยู่ในโรงรถของคุณอยู่แล้ว"

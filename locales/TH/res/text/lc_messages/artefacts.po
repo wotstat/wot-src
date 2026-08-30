@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "actionStub/name"
+msgstr "การปรับแต่ง"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "คืน %(immediatelyRestore)s ความทนทานพาหนะส่วนหนึ่งทันที ขณะที่ใช้งานอยู่ %(duration)s วินาที ความเสียหายที่เข้ามาทั้งหมดจากกระสุนและความสามารถรบจะถูกรวมเอาไว้และแปลงกลับเป็นความทนทานรวมกับ %(restoringCoefficient)s ของความเสียหายทั้งหมดที่ได้รับเมื่อเมื่อความสามารถหยุดการทำงาน\n\n*ความทนทานที่แปลงคืนมาก็จะมีผลกับพาหนะพันธมิตรในระยะใกล้ๆด้วย"
+
+msgid "adaptationHealthRestore/descr"
+msgstr "คืน %(immediatelyRestore)s ความทนทานพาหนะส่วนหนึ่งทันที ขณะที่ใช้งานอยู่ %(duration)s วินาที ความเสียหายที่เข้ามาทั้งหมดจากกระสุนและความสามารถรบจะถูกรวมเอาไว้และแปลงกลับเป็นความทนทานรวมกับ %(restoringCoefficient)s ของความเสียหายทั้งหมดที่ได้รับเมื่อเมื่อความสามารถหยุดการทำงาน\n\n*ความทนทานที่แปลงคืนมาก็จะมีผลกับพาหนะพันธมิตรในระยะใกล้ๆด้วย"
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "{green_Open}คืน %(immediatelyRestore)s ความทนทานพาหนะส่วนหนึ่งทันที{green_Close} ขณะที่ใช้งานอยู่{whiteSpanish_Open} %(duration)s วินาที{whiteSpanish_Close} ความเสียหายที่เข้ามาทั้งหมดจากกระสุนและความสามารถรบจะถูกรวมเอาไว้และแปลงกลับเป็นความทนทานรวมกับ{green_Open} %(restoringCoefficient)s ของความเสียหายทั้งหมดที่ได้รับ{green_Close}เมื่อเมื่อความสามารถหยุดการทำงาน\n\n*ความทนทานที่แปลงคืนมาก็จะมีผลกับพาหนะพันธมิตรในระยะใกล้ๆด้วย"
+
+msgid "adaptationHealthRestore/name"
+msgstr "เกราะปรับสภาพ"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "{green_Open}คืน %(immediatelyRestore)s ความทนทานพาหนะส่วนหนึ่งทันที{green_Close} ขณะที่ใช้งานอยู่{whiteSpanish_Open} %(duration)s วินาที{whiteSpanish_Close} ความเสียหายที่เข้ามาทั้งหมดจากกระสุนและความสามารถรบจะถูกรวมเอาไว้และแปลงกลับเป็นความทนทานรวมกับ{green_Open} %(restoringCoefficient)s ของความเสียหายทั้งหมดที่ได้รับ{green_Close}เมื่อเมื่อความสามารถหยุดการทำงาน\n\n*ความทนทานที่แปลงคืนมาก็จะมีผลกับพาหนะพันธมิตรในระยะใกล้ๆด้วย"
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s ให้กับการซ่อนตัวของพาหนะที่กำลังแล่นหรืออยู่กับที่ซึ่งติดตั้งระบบไอเสียเสียงเบา (ชั้นใดก็ได้) หรือระบบไอเสียเงินรางวัลเอาไว้"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "เพิ่มผลของระบบไอเสียเสียงเบาหรือระบบไอเสียเงินรางวัลตลอดช่วงการรบ คำสั่งนี้จะมีผลต่อเมื่อคุณได้ติดตั้งอุปกรณ์ดังกล่าวเอาไว้"
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "การหุ้มฉนวนท่อไอเสีย"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "เพิ่มการซ่อนตัวของพาหนะกำลังแล่นหรืออยู่นิ่ง"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "ประสิทธิภาพนั้นขึ้นกับชนิดของพาหนะ เพิ่มการอำพรางสำหรับพาหนะที่อยู่นิ่งหรือกำลังแล่น มีประโยชน์สำหรับการชี้เป้าแบบเคลื่อนที่รวมไปถึงการชี้เป้าแบบอยู่นิ่งในตำแหน่งเสี่ยง"
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "ระบบไอเสียเสียงเบา"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "เพิ่มการอำพรางตัวของพาหนะที่อยู่นิ่งหรือกำลังแล่น"
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "ระบบไอเสียเสียงเบา ชั้น 1"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "ระบบไอเสียเสียงเบา ชั้น 2"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "ระบบไอเสียเสียงเบา ชั้น 3"
+
+msgid "additional_armor_plates_1/name"
+msgstr "การปรับแต่งแผ่นเกราะเพิ่มเติม (ชนิด 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "การปรับแต่งแผ่นเกราะเพิ่มเติม (ชนิด 2)"
+
+msgid "afterburning/descr"
+msgstr "เร่งความเร็วและอัตราการเร่งพาหนะของคุณในช่วงระยะเวลาจำกัด"
+
+msgid "afterburning/name"
+msgstr "การเร่งกำลังเครื่องเยนต์"
+
+msgid "aimingStabilizer/long_special"
+msgstr "การลดการกระจายของกระสุนจากปืนใหญ่ของคุณนั้นสำคัญอย่างมาก: ยิ่งการกระจายต่ำเบื้องต้นต่ำเพียงใด ศูนย์เล็งก็จะเล็กและปืนจะใช้เวลาในการเล็งน้อยลงเท่านั้น นอกจากนี้ การยิงโดยไม่ได้เตรียมตัวมาก่อน (เช่นยิงโดยไม่ได้รอเล็งหรือขณะกำลังเคลื่อนที่) ก็จะมีโอกาสเข้าเป้าหมายมากกว่า"
+
+msgid "aimingStabilizer/name"
+msgstr "ตัวปรับเสถียรแนวตั้ง"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s ให้กับการกระจายหลังการยิงกับในระหว่างการเคลื่อนที่และหมุนป้อมปืนด้วยตัวปรับเสถียรแนวตั้ง, ระบบปรับเสถียรอุปกรณ์, หรือตัวปรับเสถียรเงินรางวัลที่ติดตั้งเอาไว้"
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "ปรับปรุงผลของตัวปรับเสถียรแนวตั้ง (ชั้นใดก็ได้) หรือระบบปรับเสถียรอุปกรณ์และระบบปรับเสถียรเงินรางวัลตลอดช่วงการรบ ในการติดตั้งและเปิดใช้คำสั่งนี้ คุณจำเป็นต้องติดตั้งอุปกรณ์ที่ได้กล่าวมาเอาไว้บนพาหนะของคุณ"
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "หล่อลื่นตัวปรับเสถียร"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "เพิ่มผลของตัวปรับเสถียร"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "ตัวปรับเสถียรแนวตั้ง ชั้น 1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "ตัวปรับเสถียรแนวตั้ง ชั้น 2"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "ตัวปรับเสถียรแนวตั้ง ชั้น 1"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "ตัวปรับเสถียรแนวตั้ง ชั้น 2"
+
+msgid "antifragmentationLining/long_special"
+msgstr "แผงซับแรงระเบิดจะดูดความเสียหายเอาไว้ นี่หมายความว่าแผงจะลดความเสียหายจากการพุ่งชนะและกระสุนระเบิดแรงสูงลง แผงซับแรงระเบิดนั้นดีสำหรับรถถังหนักที่มีเกราะพึ่งพาได้กับมีศักยภาพในการพุ่งชนสูงและมักจะทำการรบในระยะประชิด"
+
+msgid "antifragmentationLining/name"
+msgstr "แผงซับแรงระเบิด"
+
+msgid "antifragmentationLining/short_special"
+msgstr "ป้องกันพาหนะและพลรถถังจากกระสุนระเบิดแรงสูง การบาดเจ็บ การมึนงง และการถูกชน"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "แผงซับแรงระเบิดขนาดใหญ่พิเศษ"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "แผงซับแรงระเบิดขนาดใหญ่"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "แผงซับแรงระเบิดขนาดกลาง"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "แผงซับแรงระเบิดขนาดเล็ก"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "ระบบไอเสีย"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "ตัวปรับเสถียร"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "แผงซับแรงระเบิด"
+
+msgid "archetype/camouflageNet/name"
+msgstr "ตาข่ายพรางตัว"
+
+msgid "archetype/coatedOptics/name"
+msgstr "กล้องเล็ง"
+
+msgid "archetype/commandersView/name"
+msgstr "ระบบสังเกตการณ์"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "รางขับปืน"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "การเสริมความแข็งแรง"
+
+msgid "archetype/grousers/name"
+msgstr "ตีนตะขาบ"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "การปรับแต่ง"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "ชุดวิทยุ"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "กลไกลหมุน"
+
+msgid "archetype/improvedSights/name"
+msgstr "ระบบเล็ง"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "ระบบระบายอากาศ"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "ระบบควบคุมการยิง"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "ชุดเสริมการอยู่รอด"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "ระบบปรับปรุงความแม่นยำ"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "ระบบเสริมความคล่องตัว"
+
+msgid "archetype/stereoscope/name"
+msgstr "กล้องโทรทัศน์สองตา"
+
+msgid "archetype/tankRammer/name"
+msgstr "เครื่องบรรจุกระสุน"
+
+msgid "archetype/template"
+msgstr "อุปกรณ์ประเภท \"%(name)s\""
+
+msgid "archetype/turbocharger/name"
+msgstr "ตัวอัดอากาศเทอร์โบ"
+
+msgid "artillery/longDescr"
+msgstr "สั่งการระดมยิงปืนใหญ่ให้ทำการยิงในพื้นที่ขนาดเล็กด้วยกระสุนระเบิดแรงสูง พาหนะในใจกลางจุดตกจะได้รับความเสียหายมากที่สุด มีประสิทธิภาพค่อนข้างสูงกับยานรบเกราะหนัก"
+
+msgid "artillery/name"
+msgstr "การระดมยิงจากปืนใหญ่"
+
+msgid "artillery/shortDescr"
+msgstr "ทำความเสียหายพาหนะข้าศึกเป็นวงรัศมีขนาดเล็ก"
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s โอกาสเครื่องยนต์เกิดไฟไหม้"
+
+msgid "autoExtinguishers/descr"
+msgstr "ดับไฟในยานเกราะของคุณให้อัตโนมัติ"
+
+msgid "autoExtinguishers/long_special"
+msgstr "ทำการดับไฟโดยอัตโนมัติรวมไปถึงลดโอกาสที่จะเกิดไฟไหม้บนพาหนะ ยุทธปัจจัยนี้เหมาะสำหรับพาหนะทุกชนิดของทุกชาติ"
+
+msgid "autoExtinguishers/name"
+msgstr "เครื่องดับเพลิงอัติโนมัติ"
+
+msgid "autoExtinguishers/onUse"
+msgstr "ดับไฟในยานเกราะคุณโดยอัตโนมัติ สามารรถใช้ได้หลายครั้งต่อการรบหนึ่งครั้ง ยุทธปัจจัยจะถูกลบหลังการรบหนึ่งครั้งถ้ามีการใช้อย่างน้อยหนึ่งครั้ง"
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "ทำการดับไฟโดยอัตโนมัติ"
+
+msgid "berserker/battleDescr"
+msgstr "เพิ่มการเจาะเกราะและอัตราการยิงอีก %(gunPiercing)s เท่า อีกทั้งยังเพิ่มประสิทธิภาพของรางขับปืนและการปรับเสถียรปืนอีก %(gunAimingTime)s แต่จะลด %(healthDebuff)s จากความทนทานรวมของพาหนะคุณในช่วงเวลา %(duration)s วินาที\n\n*ความเสียหายที่เกิดจากความสามารถความคลั่งไม่สามารถทำลายพาหนะของคุณได้"
+
+msgid "berserker/descr"
+msgstr "เพิ่มการเจาะเกราะและอัตราการยิงอีก %(gunPiercing)s เท่า อีกทั้งยังเพิ่มประสิทธิภาพของรางขับปืนและการปรับเสถียรปืนอีก %(gunAimingTime)s แต่จะลด %(healthDebuff)s จากความทนทานรวมของพาหนะคุณในช่วงเวลา %(duration)s วินาที \n\n*ความเสียหายที่เกิดจากความสามารถความคลั่งไม่สามารถทำลายพาหนะของคุณได้"
+
+msgid "berserker/longDescr"
+msgstr "เพิ่มการเจาะเกราะและอัตราการยิง{green_Open}อีก %(gunPiercing)s เท่า{green_Close} อีกทั้งยังเพิ่มประสิทธิภาพของรางขับปืนและการปรับเสถียรปืน{green_Open}อีก %(gunAimingTime)s{green_Close} แต่จะลด {red_Open}%(healthDebuff)s{red_Close} จากความทนทานรวมของพาหนะคุณในช่วงเวลา {whiteSpanish_Open}%(duration)s วินาที{whiteSpanish_Close}\n\n*ความเสียหายที่เกิดจากความสามารถความคลั่งไม่สามารถทำลายพาหนะของคุณได้"
+
+msgid "berserker/name"
+msgstr "นักรบคลั่ง"
+
+msgid "berserker/shortDescr"
+msgstr "เพิ่มการเจาะเกราะและอัตราการยิง{green_Open}อีก %(gunPiercing)s เท่า{green_Close} อีกทั้งยังเพิ่มประสิทธิภาพของรางขับปืนและการปรับเสถียรปืน{green_Open}อีก %(gunAimingTime)s{green_Close} แต่จะลด {red_Open}%(healthDebuff)s{red_Close} จากความทนทานรวมของพาหนะคุณในช่วงเวลา {whiteSpanish_Open}%(duration)s วินาที{whiteSpanish_Close}\n\n*ความเสียหายที่เกิดจากความสามารถความคลั่งไม่สามารถทำลายพาหนะของคุณได้"
+
+msgid "blackout_headlights_1/name"
+msgstr "การหรี่ไฟหน้า (ชนิด 1)"
+
+msgid "bomber/longDescr"
+msgstr "สั่งการให้เครื่องบินจู่โจมภาคพื้นดินทำการทิ้งระเบิดใส่พื้นที่ที่กำหนดเอาไว้ซึ่งจะทำให้พาหนะข้าศึกมึนงงและได้รับความเสียหาย พาหนะในใจกลางจุดตกจะได้รับความเสียหายมากที่สุด มีประสิทธิภาพค่อนข้างมากกับยานรบที่มีเกราะปานกลางหรือเกราะเบา"
+
+msgid "bomber/name"
+msgstr "การโจมตีทางอากาศ"
+
+msgid "bomber/shortDescr"
+msgstr "ทำให้พาหนะข้าศึกมึนงงและได้รับความเสียหายปานกลางในพื้นที่ขนาดใหญ่"
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "ค่อยๆคืน %(healPerTickDuration)s ของความทนทานพาหนะของคุณภายในช่วงเวลา %(duration)sวินาที สามารถหยุดลงจากการได้รับความเสียหาย"
+
+msgid "brRegenerationKit/descr"
+msgstr "ค่อยๆคืน %(healPerTickDuration)s ของความทนทานพาหนะของคุณภายในช่วงเวลา %(duration)sวินาที สามารถหยุดลงจากการได้รับความเสียหาย"
+
+msgid "brRegenerationKit/long_special"
+msgstr "ค่อยๆ{green_Open}คืน %(healPerTickDuration)s{green_Close} ของความทนทานพาหนะของคุณ{whiteSpanish_Open}ภายในช่วงเวลา %(duration)sวินาที{whiteSpanish_Close} สามารถหยุดลงจากการได้รับความเสียหาย"
+
+msgid "brRegenerationKit/name"
+msgstr "การคืนสภาพ"
+
+msgid "brRegenerationKit/short_special"
+msgstr "ค่อยๆ{green_Open}คืน %(healPerTickDuration)s{green_Close} ของความทนทานพาหนะของคุณ{whiteSpanish_Open}ภายในช่วงเวลา %(duration)sวินาที{whiteSpanish_Close} สามารถหยุดลงจากการได้รับความเสียหาย"
+
+msgid "brRepairkit/descr"
+msgstr "ซ่อมแซมชิ้นส่วนและลบผลเสียออก"
+
+msgid "brRepairkit/long_special"
+msgstr "ซ่อมแซมชิ้นส่วนและลบผลเสียออก"
+
+msgid "brRepairkit/name"
+msgstr "ชุดซ่อมแซม"
+
+msgid "brRepairkit/short_special"
+msgstr "ซ่อมแซมชิ้นส่วนและลบผลเสียออก"
+
+msgid "br_bomber/battleDescr"
+msgstr "ทำให้มึนงงและทำความเสียหาย %(minDamage)s ถึง %(maxDamage)s หน่วยต่อพาหนะข้าศึก พาหนะกลางจุดตกจะได้รับความเสียหายมากกว่า\n\n*จะมีเวลาหน่วง %(delay)s วินาทีก่อนระเบิดเข้าเป้า"
+
+msgid "br_bomber/descr"
+msgstr "ทำให้มึนงงและทำความเสียหาย %(minDamage)s ถึง %(maxDamage)s หน่วยต่อพาหนะข้าศึก พาหนะกลางจุดตกจะได้รับความเสียหายมากกว่า\n\n*จะมีเวลาหน่วง %(delay)s วินาทีก่อนระเบิดเข้าเป้า"
+
+msgid "br_bomber/longDescr"
+msgstr "ทำให้มึนงงและทำความเสียหาย {whiteSpanish_Open}%(minDamage)s ถึง %(maxDamage)s หน่วย{whiteSpanish_Close}ต่อพาหนะข้าศึก พาหนะกลางจุดตกจะได้รับความเสียหายมากกว่า \n\n*จะมีเวลาหน่วง %(delay)s วินาทีก่อนระเบิดเข้าเป้า"
+
+msgid "br_bomber/name"
+msgstr "การโจมตีทางอากาศ"
+
+msgid "br_bomber/shortDescr"
+msgstr "ทำให้มึนงงและทำความเสียหาย {whiteSpanish_Open}%(minDamage)s ถึง %(maxDamage)s หน่วย{whiteSpanish_Close}ต่อพาหนะข้าศึก พาหนะกลางจุดตกจะได้รับความเสียหายมากกว่า \n\n*จะมีเวลาหน่วง %(delay)s วินาทีก่อนระเบิดเข้าเป้า"
+
+msgid "br_minefield/battleDescr"
+msgstr "ปล่อยทุ่นระเบิดทำงานในพื้นที่ที่เลือกเอาไว้ในช่วงเวลา %(duration)s วินาที พาหนะข้าศึกที่เข้าชนทุ่นระเบิดจะมึนงงและได้รับความเสียหายจากการระเบิด ทุ่นระเบิดสามารถถูกทำลายได้ด้วยการยิง\n\n*ทุ่นระเบิดที่ปล่อยใต้พาหนะข้าศึกจะไม่เกิดการระเบิด"
+
+msgid "br_minefield/descr"
+msgstr "ปล่อยทุ่นระเบิดทำงานในพื้นที่ที่เลือกเอาไว้ในช่วงเวลา %(duration)s วินาที พาหนะข้าศึกที่เข้าชนทุ่นระเบิดจะมึนงงและได้รับความเสียหายจากการระเบิด ทุ่นระเบิดสามารถถูกทำลายได้ด้วยการยิง\n\n*ทุ่นระเบิดที่ปล่อยใต้พาหนะข้าศึกจะไม่เกิดการระเบิด"
+
+msgid "br_minefield/longDescr"
+msgstr "ปล่อยทุ่นระเบิดทำงานในพื้นที่ที่เลือกเอาไว้ใน{whiteSpanish_Open}ช่วงเวลา %(duration)s วินาที{whiteSpanish_Close} พาหนะข้าศึกที่เข้าชนทุ่นระเบิดจะมึนงงและได้รับความเสียหายจากการระเบิด\n\nทุ่นระเบิดสามารถถูกทำลายได้ด้วยการยิง*ทุ่นระเบิดที่ปล่อยใต้พาหนะข้าศึกจะไม่เกิดการระเบิด"
+
+msgid "br_minefield/name"
+msgstr "สนามทุ่นระเบิด"
+
+msgid "br_minefield/shortDescr"
+msgstr "ปล่อยทุ่นระเบิดทำงานในพื้นที่ที่เลือกเอาไว้ใน{whiteSpanish_Open}ช่วงเวลา %(duration)s วินาที{whiteSpanish_Close} พาหนะข้าศึกที่เข้าชนทุ่นระเบิดจะมึนงงและได้รับความเสียหายจากการระเบิด\n\nทุ่นระเบิดสามารถถูกทำลายได้ด้วยการยิง*ทุ่นระเบิดที่ปล่อยใต้พาหนะข้าศึกจะไม่เกิดการระเบิด"
+
+msgid "br_respawn/name"
+msgstr "เกิดใหม่"
+
+msgid "br_respawn/platoon/descr"
+msgstr "ทำให้คุณสามารถกลับเข้าการรบหลังจากที่พาหนะถูกทำลาย กลไกนี้จะทำงานภายใน %(duration)s แรกของการรบ\n\nในการทำให้พันธมิตรเกิดใหม่ ให้อยู่นอกการรบเป็นเวลา %(timeToResurrect)s วินาที จำนวนครั้งการเกิดใหม่จะแบ่งใช้ระหว่างสมาชิกหมวดรถถัง"
+
+msgid "br_respawn/solo/descr"
+msgstr "ทำให้คุณสามารถกลับเข้าการรบหลังจากที่พาหนะถูกทำลาย กลไกนี้จะทำงานภายใน %(duration)s แรกของการรบ\n\nเมื่อถูกทำลาย พาหนะของคุณจะเกิดใหม่โดยอัตโนมัติ"
+
+msgid "br_smoke/battleDescr"
+msgstr "เพิ่มโบนัสการซ่อนตัวเป็นเวลา %(duration)s วินาทีให้กับพาหนะทั้งหมดในระยะใช้งานของยุทธปัจจัย"
+
+msgid "br_smoke/descr"
+msgstr "เพิ่มโบนัสการซ่อนตัวให้กับพาหนะทั้งหมดในระยะใช้งานของยุทธปัจจัย"
+
+msgid "br_smoke/longDescr"
+msgstr "เพิ่มโบนัสการซ่อนตัวเป็นเวลา %(duration)s วินาทีให้กับพาหนะทั้งหมดในระยะใช้งานของยุทธปัจจัย"
+
+msgid "br_smoke/name"
+msgstr "ม่านควัน"
+
+msgid "br_smoke/shortDescr"
+msgstr "เพิ่มโบนัสการซ่อนตัวให้กับพาหนะทั้งหมดในระยะใช้งานของยุทธปัจจัย"
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "เพิ่มโบนัสการอำพรางให้พาหนะทุกคันในระยะของยุทธปัจจัยรวมไปถึงทำความเสียหายพาหนะทุกคันในระยะอีก %(damagePerTick)s จากความทนทานรวมต่อวินาที มีระยะเวลา %(duration)s วินาที\n\n*ความเสียหายหมอกกรดจะไม่ขวางการเก็บเสบียงเชลยและไม่ทำลายพาหนะแต่จะทำให้เหลือความทนทานเพียง 1 หน่วย"
+
+msgid "br_smoke_with_damage/descr"
+msgstr "เพิ่มโบนัสการอำพรางให้พาหนะทุกคันในระยะของยุทธปัจจัยรวมไปถึงทำความเสียหายพาหนะทุกคันในระยะอีก %(damagePerTick)s จากความทนทานรวมต่อวินาที มีระยะเวลา %(duration)s วินาที\n\n*ความเสียหายหมอกกรดจะไม่ขวางการเก็บเสบียงเชลยและไม่ทำลายพาหนะแต่จะทำให้เหลือความทนทานเพียง 1 หน่วย"
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "เพิ่มโบนัสการอำพรางให้พาหนะทุกคันในระยะของยุทธปัจจัยรวมไปถึงทำความเสียหายพาหนะทุกคันในระยะ{whiteSpanish_Open}อีก %(damagePerTick)s {whiteSpanish_Close}จากความทนทานรวมต่อวินาที มีระยะเวลา{whiteSpanish_Open} %(duration)s วินาที{whiteSpanish_Close}\n\n*หมอกกรดจะไม่ขวางการเก็บเสบียงเชลยและไม่ทำลายพาหนะแต่จะทำให้เหลือความทนทานเพียง 1 หน่วย"
+
+msgid "br_smoke_with_damage/name"
+msgstr "หมอกกรด"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "เพิ่มโบนัสการอำพรางให้พาหนะทุกคันในระยะของยุทธปัจจัยรวมไปถึงทำความเสียหายพาหนะทุกคันในระยะ{whiteSpanish_Open}อีก %(damagePerTick)s {whiteSpanish_Close}จากความทนทานรวมต่อวินาที มีระยะเวลา{whiteSpanish_Open} %(duration)s วินาที{whiteSpanish_Close}\n\n*หมอกกรดจะไม่ขวางการเก็บเสบียงเชลยและไม่ทำลายพาหนะแต่จะทำให้เหลือความทนทานเพียง 1 หน่วย"
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s ให้กับความเร็วการซ่อม"
+
+msgid "builtinRepairkit/long_special"
+msgstr "ทำการซ่อมชิ้นส่วนที่เสียหายทั้งหมดเมื่อสั่งใช้งาน ผลขณะไม่ใช้งานจะเพิ่มความเร็วในการซ่อม ยุทธปัจจัยนี้เหมาะสำหรับพาหนะบางคัน"
+
+msgid "builtinRepairkit/name"
+msgstr "ชุดซ่อมแซมขนาดใหญ่ปกติ"
+
+msgid "builtinRepairkit/onUse"
+msgstr "ทำการซ่อมชิ้นส่วนที่เสียหายทั้งหมด สามารถใช้ได้หลายครั้งในการรบหนึ่งครั้ง\nยุทธปัจจัยนี้จะไม่สามารถถูกลบแต่สามารถถูกย้ายไปยังช่องอื่นได้"
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "ทำให้การซ่อนตัวพาหนะเพิ่มขึ้นอีก 10%"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "ทำให้ความสามารถการอำพรางของพลรถถังทุกนายฝึกถึง 100%"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "ความสามารถการอำพรางจะลดระยะการถูกพบของพาหนะที่อยู่นิ่งหรือกำลังเคลื่อนที่ตลอดช่วงการรบ เมื่อความสามารถถูกฝึกถึง 100% แล้ว คำสั่งที่ติดตั้งไว้จะเพิ่มผลของความสามารถให้มากขึ้น ถ้าไม่เช่นนั้น คำสั่งจะทำให้พาหนะของคุณมีความสามารถนี้ฝึกถึง 100%"
+
+msgid "camouflageBattleBooster/name"
+msgstr "ที่กำบังตามธรรมชาติ"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "ทำให้ความสามารถการอำพรางฝึกถึง 100% หรือเพิ่มผลของความสามารถนี้"
+
+msgid "camouflageNet/battleDescr"
+msgstr "เพิ่มการอำพรางของพาหนะที่อยู่นิ่ง 3 วินาทีหลังจากที่ได้หยุดรถ"
+
+msgid "camouflageNet/long_special"
+msgstr "ประสิทธิภาพนั้นจะขึ้นกับชนิดพาหนะ ตาข่ายอำพรางโดยมากจะมีประโยชน์สำหรับพาหนะที่มีการอำพรางดีเช่น: ปืนอัตตาจรและยานพิฆาตรถถังที่มีรูปทรงต่ำ ตาข่ายจะเพิ่มผลของความสามารถการอำพรางซึ่งเมื่อใช้ร่วมกันจะทำให้พาหนะของคุณมีโบนัสการอำพรางที่ดีขึ้น ตาข่ายอำพรางจะเปิดใช้งาน 3 วินาทีหลังจากที่พาหนะเริ่มอยู่นิ่ง"
+
+msgid "camouflageNet/name"
+msgstr "ตาข่ายพรางตัว"
+
+msgid "camouflageNet/short_special"
+msgstr "เพิ่มการอำพรางของพาหนะที่กำลังอยู่นิ่ง"
+
+msgid "camouflageNet_tier2/name"
+msgstr "ตาข่ายอำพราง ชั้น 2"
+
+msgid "camouflageNet_tier3/name"
+msgstr "ตาข่ายอำพราง ชั้น 3"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถังทั้งหมดตลอดช่วงการรบหนึ่งครั้ง"
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "chocolate/long_special"
+msgstr "ใช้งานโดยอัตโนมัติในช่วงต้นการรบและให้ผลตลอดช่วงการรบ เหมาะสำหรับพาหนะเยอรมันเท่านั้น"
+
+msgid "chocolate/name"
+msgstr "ช๊อคโกแลต"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "เหมาะกับพาหนะเยอรมันเท่านั้น"
+
+msgid "chocolate/short_special"
+msgstr "เพิ่มสมรรถนะของพลรถถังเยอรมัน"
+
+msgid "clingBrander/battleDescr"
+msgstr "ทำการเรียกรถถังควบคุมอัตโนมัติซึ่งติดตั้งระบบแยกมิตรศัตรูเอาไว้และจะทำการเข้าโจมตีข้าศึกที่อยู่ใกล้ที่สุดเป็นเวลาถึง %(botLifeTime)s วินาที\n\n*รถถังคันนี้สามารถถูกทำลายได้"
+
+msgid "clingBrander/descr"
+msgstr "ทำการเรียกรถถังควบคุมอัตโนมัติซึ่งติดตั้งระบบแยกมิตรศัตรูเอาไว้และจะทำการเข้าโจมตีข้าศึกที่อยู่ใกล้ที่สุดเป็นเวลาถึง %(botLifeTime)s วินาที\n\n*รถถังคันนี้สามารถถูกทำลายได้"
+
+msgid "clingBrander/longDescr"
+msgstr "ทำการเรียกรถถังควบคุมอัตโนมัติซึ่งติดตั้งระบบแยกมิตรศัตรูเอาไว้และจะทำการเข้าโจมตีข้าศึกที่อยู่ใกล้ที่สุด{whiteSpanish_Open}เป็นเวลาถึง %(botLifeTime)s วินาที{whiteSpanish_Close} \n\n*รถถังคันนี้สามารถถูกทำลายได้"
+
+msgid "clingBrander/name"
+msgstr "หุ่นยนต์รบ"
+
+msgid "clingBrander/shortDescr"
+msgstr "ทำการเรียกรถถังควบคุมอัตโนมัติซึ่งติดตั้งระบบแยกมิตรศัตรูเอาไว้และจะทำการเข้าโจมตีข้าศึกที่อยู่ใกล้ที่สุด{whiteSpanish_Open}เป็นเวลาถึง %(botLifeTime)s วินาที{whiteSpanish_Close} \n\n*รถถังคันนี้สามารถถูกทำลายได้"
+
+msgid "clutches_replace_1/name"
+msgstr "การเปลี่ยนเพลาส่งกำลัง (ชนิด 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "การเปลี่ยนเพลาส่งกำลัง (ชนิด 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "กล้องเคลือบผิวเลนส์ (ทุกชนิด) ต่างจากกล้องโทรทรรศน์สองตาที่ให้โบนัสจำนวนน้อยกว่าแต่ว่าเป็นการให้ถาวรซึ่งไม่หายไปเมื่อพาหนะเคลื่อนที่ ฉะนั้น กล้องเคลือบผิวเลนส์มีประโยชน์กับพาหนะที่ต้องเคลื่อนที่ไปมาในการรบเสมอเช่นรถถังเบาหรือรถถังกลาง"
+
+msgid "coatedOptics/name"
+msgstr "กล้องเคลือบผิวเลนส์"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s ให้กับให้กับระยะการมองเห็น (ถึง 445 เมตร) ด้วยกล้องเคลือบผิวเลนส์ (ชั้นใดก็ได้), ชุดกล้องรุ่นทดลองหรือกล้องเล็งเงินรางวัลที่ได้ติดตั้งไว้"
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "ปรับปรุงผลของกล้องเคลือบผิวเลนส์, ชุดกล้องรุ่นทดลองหรือกล้องเล็งเงินรางวัลตลอดช่วงการรบ ในการติดตั้งและเปิดใช้คำสั่งนี้ คุณจำเป็นต้องติดตั้งอุปกรณ์ที่ได้กล่าวมาเอาไว้บนพาหนะของคุณ"
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "การปรับกล้อง"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "เพิ่มประสิทธิภาพของกล้องสังเกตการณ์"
+
+msgid "coatedOptics_tier1/name"
+msgstr "กล้องเคลือบผิวเลนส์ ชั้น 1"
+
+msgid "coatedOptics_tier2/name"
+msgstr "กล้องเคลือบผิวเลนส์ ชั้น 2"
+
+msgid "coatedOptics_tier3/name"
+msgstr "กล้องเคลือบผิวเลนส์ ชั้น 3"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถังทั้งหมดตลอดช่วงการรบหนึ่งครั้ง"
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "cocacola/long_special"
+msgstr "ใช้งานโดยอัตโนมัติในช่วงต้นการรบและให้ผลตลอดช่วงการรบ เหมาะสำหรับพาหนะสหรัฐฯเท่านั้น"
+
+msgid "cocacola/name"
+msgstr "ลังใส่โค๊ก"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "เหมาะกับพาหนะสหรัฐฯเท่านั้น"
+
+msgid "cocacola/short_special"
+msgstr "เพิ่มสมรรถนะของพลรถถังสหรัฐฯ"
+
+msgid "commandersView/long_special"
+msgstr "ลดการอำพรางของข้าศึกที่กำลังแล่นและสัมประสิทธิ์การซ่อนตัวของข้าศึกหลังพุ่มไม้ในช่วงการตรวจจับ นี่จะทำให้คุณสามารถตรวจจับข้าศึกจากระยะที่ไกลขึ้นและข้าศึกที่กำลังซ่อนอยู่หลังพุ่มไม้หรือไม้ล้มได้ดีกว่าเดิม"
+
+msgid "commandersView/name"
+msgstr "ระบบสังเกตการณ์ผู้บังคับการ"
+
+msgid "commandersView/short_special"
+msgstr "ลดการซ่อนตัวของพาหนะข้าศึกที่กำลังแล่นหรือซ่อนหลังพุ่มไม้"
+
+msgid "corrodingShot/battleDescr"
+msgstr "เพิ่มสภาวะกรดให้กับกระสุนที่เพิ่มการเจาะเกราะและศักยภาพความเสียหาย เมื่อทำความเสียหายพาหนะข้าศึกได้ กระสุนจะมีผลชั่วคราวโดยจะตัดได้ถึง %(damagePerDotEffectDuration)s ของความทนทานพาหนะข้าศึกในช่วงเวลา %(dotEffectDuration)s วินาที\n\n*ผลลบนี้สามารถถูกลบได้ด้วยชุดซ่อมแซม"
+
+msgid "corrodingShot/descr"
+msgstr "เพิ่มสภาวะกรดให้กับกระสุนที่เพิ่มการเจาะเกราะและศักยภาพความเสียหาย เมื่อทำความเสียหายพาหนะข้าศึกได้ กระสุนจะมีผลชั่วคราวโดยจะตัดได้ถึง %(damagePerDotEffectDuration)s ของความทนทานพาหนะข้าศึกในช่วงเวลา %(dotEffectDuration)s วินาที\n\n*ผลลบนี้สามารถถูกลบได้ด้วยชุดซ่อมแซม"
+
+msgid "corrodingShot/longDescr"
+msgstr "เพิ่มสภาวะกรดให้กับกระสุนที่เพิ่มการเจาะเกราะและศักยภาพความเสียหาย เมื่อทำความเสียหายพาหนะข้าศึกได้ กระสุนจะมีผลชั่วคราวโดยจะตัด {whiteSpanish_Open}ได้ถึง %(damagePerDotEffectDuration)s{whiteSpanish_Close} ของความทนทานพาหนะข้าศึก{whiteSpanish_Open}ในช่วงเวลา %(dotEffectDuration)s วินาที{whiteSpanish_Close} \n\n*ผลลบนี้สามารถถูกลบได้ด้วยชุดซ่อมแซม"
+
+msgid "corrodingShot/name"
+msgstr "กระสุนกรด"
+
+msgid "corrodingShot/shortDescr"
+msgstr "เพิ่มสภาวะกรดให้กับกระสุนที่เพิ่มการเจาะเกราะและศักยภาพความเสียหาย เมื่อทำความเสียหายพาหนะข้าศึกได้ กระสุนจะมีผลชั่วคราวโดยจะตัด {whiteSpanish_Open}ได้ถึง %(damagePerDotEffectDuration)s{whiteSpanish_Close} ของความทนทานพาหนะข้าศึก{whiteSpanish_Open}ในช่วงเวลา %(dotEffectDuration)s วินาที{whiteSpanish_Close} \n\n*ผลลบนี้สามารถถูกลบได้ด้วยชุดซ่อมแซม"
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "ปรับปรุงดังต่อไปนี้"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "คุณลักษณะผู้การ"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "ความสามารถ:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "ให้ดังต่อไปนี้"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "ความสามารถ:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "รุ่นปรับปรุงของตัวปรับเสถียรแนวตั้ง ({colorTagOpen}–20%{colorTagClose}ให้กับการกระจายหลังการยิงและขณะเคลื่อนที่หรือหมุนป้อมปืน) ซึ่งให้ผลที่สูงกว่า: {colorTagOpen}–27.5%{colorTagClose} ให้กับการกระจายของกระสุนหลังการยิงและขณะเคลื่อนที่หรือหมุนป้อมปืน อุปกรณ์นี้เหมาะสำหรับพาหนะบางชนิดของบางชาติ สามารถถูกถอดได้ด้วยพันธบัตรเท่านั้น"
+
+msgid "deluxAimingStabilizer/name"
+msgstr "ระบบปรับเสถียรอุปกรณ์"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "รุ่นปรับปรุงของกล้องเคลือบผิวเลนส์ ({colorTagOpen}+10%{colorTagClose}ให้กับระยะการมองเห็น) ซึ่งให้ผลที่สูงกว่า: {colorTagOpen}+13.5%{colorTagClose} ให้กับระยะการมองเห็น อุปกรณ์นี้เหมาะสำหรับพาหนะทุกชนิดของทุกชาติ สามารถถูกถอดได้ด้วยพันธบัตรเท่านั้น"
+
+msgid "deluxCoatedOptics/name"
+msgstr "ชุดกล้องรุ่นทดลอง"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "รุ่นสูงขึ้นของรางขับปืนรุ่นปรับปรุง({colorTagOpen}+10%{colorTagClose} ให้กับความเร็วในการเล็ง) โดยให้ผลสูงกว่าคือ: {colorTagOpen}+13.5%{colorTagClose} ให้กับความเร็วในการเล็ง อุปกรณ์นี้เหมาะสำหรับพาหนะทุกชนิดของทุกชาติ สามารถถูกถอดได้ด้วยพันธบัตรเท่านั้น"
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "รางขับปืนกันเสื่อมสภาพ"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "ชุดอนุมานของการปรับแต่งดัดแปลงที่ให้ผลที่สูงกว่า อุปกรณ์นี้เหมาะกับพาหนะทุกชนิดของทุกประเทศ สามารถถูกถอดได้ด้วยพันธบัตรเท่านั้น"
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "การปรับแต่งปรับปรุง"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "เร่งการซ่อม ป้องกันรางกระสุน ถังเชื้อเพลิง และเครื่องยนต์"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "รุ่นปรับปรุงของระบบระบายอากาศ ({colorTagOpen}+5%{colorTagClose} ให้กับประสิทธิภาพพลรถถัง) โดยเพิ่มผลที่สูงกว่าคือ: {colorTagOpen}+8.5%{colorTagClose} ให้กับประสิทธิภาพพลรถถัง อุปกรณ์นี้เหมาะสำหรับพาหนะทุกชนิดของทุกชาติ สามารถถูกปลดได้ด้วยพันธบัตรเท่านั้น"
+
+msgid "deluxImprovedVentilation/name"
+msgstr "ระบบระบายอากาศ"
+
+msgid "deluxRammer/long_special"
+msgstr "รุ่นปรับปรุงของเครื่องป้อนกระสุน ({colorTagOpen}-10%{colorTagClose} ให้กับเวลาบรรจุกระสุน) ที่มีผลมากขึ้นกว่าเดิม: {colorTagOpen}-13.5%{colorTagClose}ให้กับเวลาบรรจุ อุปกรณ์นี้เหมาะสำหรับพาหนะทุกชนิดของทุกชาติ สามารถปลดได้ด้วยการใช้พันธบัตรเท่านั้น"
+
+msgid "deluxRammer/name"
+msgstr "นวัตกรรมระบบป้อนกระสุน"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "รุ่นปรับปรุงของระบบไอเสียเสียงเบาที่มีผลดีขึ้นกว่าเดิม: เพิ่มการอำพรางของพาหนะที่อยู่นิ่งหรือกำลังแล่น มีประโยชน์กับการชี้เป้าเคลื่อนที่และการชี้เป้าอยู่นิ่งจากตำแหน่งที่อันตรายสูง\nอุปกรณ์นี้เหมาะกับพาหนะทุกชนิดของทุกประเทศแต่ประสิทธิภาพจะขึ้นกับชนิดพาหนะนั้นๆ สามารถปลดได้ด้วยการใช้พันธบัตรเท่านั้น"
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "ระบบไอเสียล่องหน"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "เพิ่มการอำพรางของพาหนะที่อยู่นิ่งหรือกำลังแล่นอีก {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "เพิ่มการอำพรางของพาหนะที่อยู่นิ่ง 1.5 วินาทีหลังจากที่ได้หยุดรถ"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "รุ่นปรับปรุงของตาข่ายอำพรางซึ่งประสิทธิภาพนั้นจะขึ้นกับชนิดพาหนะ ตาข่ายอำพรางยุทธวิธีโดยมากจะมีประโยชน์สำหรับพาหนะที่มีการอำพรางดีเช่น: ปืนอัตตาจรและยานพิฆาตรถถังที่มีรูปทรงต่ำ ตาข่ายจะเพิ่มผลของความสามารถการอำพรางซึ่งเมื่อใช้ร่วมกันจะทำให้พาหนะของคุณมีโบนัสการอำพรางที่ดีขึ้น ตาข่ายอำพรางยุทธวิธีจะเปิดใช้งาน 1.5 วินาทีหลังจากที่พาหนะเริ่มอยู่นิ่ง"
+
+msgid "deluxeCamouflageNet/name"
+msgstr "ตาข่ายอำพรางยุทธวิธี"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17.5{colorTagClose}/{colorTagOpen}12.5{colorTagClose}/{colorTagOpen}7.5%{colorTagClose} ให้การอำพรางตัวของพาหนะที่อยู่นิ่ง"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "คืนความทนทานระบบช่วงล่างโดยสมบูรณ์หลังการซ่อม"
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "คืนสภาพระบบช่วงล่างภายหลังซ่อม"
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "รุ่นปรับปรุงของการเสริมความแข็งแรง: {colorTagOpen}+12.5%{colorTagClose} ให้กับความทนทานพาหนะ, {colorTagOpen}+75%{colorTagClose} ให้กับความทนทานช่วงล่าง, {colorTagOpen}+30%{colorTagClose} ให้กับความเร็วการซ่อมตีนตะขาบ, {colorTagOpen}–75%{colorTagClose} ให้กับความเสียหายตัวถังที่เกิดจากความเสียหายของช่วงล่างเมื่อเกิดการกระแทก คืนความทนทานระบบช่วงล่างโดยสมบูรณ์เมื่อทำการซ่อมเสร็จ ลดโอกาสตีนตะขาบถูกทำลายเมื่อได้รับความเสียหาย ทำให้พาหนะของคุณยังคงแล่นได้นานที่สุดเท่าที่จะเป็นไปได้ อุปกรณ์นี้เหมาะกับพาหนะทุกชนิดและทุกประเทศ (ยกเว้นปืนอัตตาจร) สามารถปลดได้ด้วยการใช้พันธบัตรเท่านั้น"
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "การเพิ่มความต้านทานกระสุน"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "เพิ่มความทนทานพาหนะและป้องกันช่วงล่าง"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "รุ่นปรับปรุงของกลไกการหมุนรุ่นปรับปรุงที่มีผลที่ดีขึ้นกว่าเดิม: {colorTagOpen}+17.5% {colorTagClose}ให้กับความเร็วการหมุนปืน, {colorTagOpen}+17.5% {colorTagClose}ให้กับความเร็วการหมุนตัวถังและ {colorTagOpen}-17.5% {colorTagClose}ให้กับการกระจายของกระสุนในช่วงการแล่นและหมุนป้อมปืน อุปกรณ์นี้เหมาะกับพาหนะของทุกประเทศและทุกชนิด สามารถปลดได้ด้วยการใช้พันธบัตรเท่านั้น"
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "ชุดขับสุดท้ายปรับปรุง"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "เพิ่มความเร็วการหมุนและลดการกระจายของกระสุนในช่วงการเคลื่อนที่และหมุนไปมา"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "รุ่นที่ดีขึ้นของการเล็งรุ่นปรับปรุงที่มีผลสูงขึ้นกว่าเดิม: ลดขนาดวงการเล็งของปืนที่กำลังเล็งหรือที่เล็งจนเต็มที่แล้วอีก {colorTagOpen}9%{colorTagClose} ซึ่งทำให้ปืนของคุณมีโอกาสยิงเข้าเป้าหมายมากกว่าเดิม อุปกรณ์นี้เหมาะกับยานเกราะทุกชาติและทุกชนิดยกเว้นปืนอัตตาจร สามารถปลดได้ด้วยการใช้พันธบัตร"
+
+msgid "deluxeImprovedSights/name"
+msgstr "ระบบจับเป้าหมายก้าวหน้า"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "ลดการกระจายของกระสุน"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "เพิ่มระยะการมองเห็นของพาหนะอยู่นิ่ง 1.5 วินาทีหลังจากที่ได้หยุดรถ (เพิ่มถึง 445 เมตร)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "รุ่นปรับปรุงของกล้องสองตา ระยะการมองเห็นที่ดีจะทำให้พาหนะได้เปรียบในการรบ อุปกรณ์ชนิดนี้จะมีประโยชน์กับยานพิฆาตรถถังที่มีรูปทรงต่ำและมีปืนที่แม่นยำ อุปกรณ์จะทำงานภายในเวลา 1.5 วินาทีหลังจากที่พาหนะเริ่มอยู่นิ่ง"
+
+msgid "deluxeStereoscope/name"
+msgstr "ระบบสังเกตการณ์ระยะไกล"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27.5%{colorTagClose} ให้กับระยะการมองเห็นของพาหนะที่อยู่นิ่ง (ระยะสูงสุด 445 เมตร)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "รุ่นปรับปรุงของตัวอัดบรรจุอากาศเทอร์โบ ({colorTagOpen}+7.5%{colorTagClose} ให้กับกำลังเครื่องยนต์, {colorTagOpen}+4 กม./ชม.{colorTagClose} ให้ความเร็วเดินหน้า, {colorTagOpen}+2 กม./ชม.{colorTagClose} ให้ความเร็วถอยหลัง): {colorTagOpen}+12.5%{colorTagClose} ให้กำลังเครื่องยนต์, {colorTagOpen}+6 กม./ชม.{colorTagClose} ให้ความเร็วเดินหน้าสูงสุด, {colorTagOpen}+4 กม./ชม.{colorTagClose} ให้ความเร็วถอยหลังสูงสุด อุปกรณ์นี้เหมาะกับพาหนะทุกชนิดและทุกประเทศ (ยกเว้นยานเกราะล้อ) สามารถปลดได้ด้วยการใช้พันธบัตรเท่านั้น"
+
+msgid "deluxeTurbocharger/name"
+msgstr "เครื่องอัดอากาศรุ่นปรับปรุง"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "เพิ่มกำลังเครื่องยนต์เและความเร็วสูงสุด"
+
+msgid "eb_minefield/descr"
+msgstr "วางสนามทุ่นระเบิดพร้อมใช้งานในพื้นที่ที่เลือกไว้เป็นช่วงเวลาหนึ่ง"
+
+msgid "eb_minefield/long_descr"
+msgstr "ทำการปล่อยสนามทุ่นระเบิดในพื้นที่ที่กำหนดเอาไว้เป็นช่วงเวลาหนึ่ง เมื่อระเบิด ทุ่นระเบิดจะทำความเสียหายและทำให้พาหนะข้าศึกมึนงง ข้าศึกจะสามารถตรวจจับทุ่นระเบิดได้ในระยะใกล้หรือด้วยกำลังสำรองรบการบินลาดตระเวนหรือการเฝ้าระวัง ทุ่นระเบิดสามารถถูกทำลายได้ด้วยกระสุนหรือการระเบิด"
+
+msgid "eb_minefield/name"
+msgstr "สนามทุ่นระเบิด"
+
+msgid "eb_minefield/short_descr"
+msgstr "วางสนามทุ่นระเบิดพร้อมใช้งานในพื้นที่ที่เลือกไว้เป็นช่วงเวลาหนึ่ง"
+
+msgid "eb_regenerationKit/descr"
+msgstr "ค่อยๆคืนความทนทานพาหนะของคุณตามเปอร์เซนต์จำนวนหนึ่ง"
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "ค่อยๆทำการคืนความทนทานพาหนะของคุณจำนวนหนึ่งและเพิ่มความเร็วการซ่อมในวงเติมเสบียง เมื่อเปิดใช้งานจะลดความเสียหายจากทุ่นระเบิด"
+
+msgid "eb_regenerationKit/name"
+msgstr "การซ่อมภาคสนาม"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "ค่อยๆคืนความทนทานพาหนะของคุณตามเปอร์เซนต์จำนวนหนึ่ง"
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "ช่องเก็บในโรงรถ"
+
+msgid "empty_slot/name"
+msgstr "ช่องเก็บในโรงรถ"
+
+msgid "empty_slot/short_descr"
+msgstr "ช่องกำลังสำรองดังกล่าวถูกใช้แล้ว"
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "เพิ่มผลของความสามารถการตรวจจับเสียงขึ้นอีก 1.5 เท่า"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "ทำให้ความสามารถการตรวจจับเสียงฝึกถึง 100%"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "การตรวจจับเสียงเป็นการเตือนการยิงจากปืนอัตตาจรข้าศึกและลดผลเสียจากการมึนงง ถ้าความสามารถฝึกถึง 100% คำสั่งที่ติดตั้งไว้จะเพิ่มผลให้สูงขึ้น ถ้าไม่เช่นนั้น คำสั่งจะทำให้พาหนะของคุณมีความสามารถนี้ฝึกถึง 100%"
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "เฝ้าระวังขั้นสูง"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "ทำให้ความสามารถการตรวจจับเสียงฝึกถึง 100% หรือเพิ่มผลให้สูงขึ้น"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "การเล็งรุ่นปรับปรุงนั้นทำให้การเล็งเร็วขึ้นกว่าเดิม พาหนะที่ติดตั้งรางขับปืนรุ่นปรับปรุงจะทำการยิงได้อย่างแม่นยำกว่าเดิม (นอกจากนี้ จะเพิ่มอัตราการยิง เนื่องจากเวลาบรรจุนั้นเร็วกว่าเวลาการเล็งเต็มที่)"
+
+msgid "enhancedAimDrives/name"
+msgstr "เครื่องขับรางปืนรุ่นปรับปรุง"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s ให้กับความเร็วในการเล็งด้วยรางขับปืนรุ่นปรับปรุง(ชั้นใดก็ได้), รางขับปืนกันเสื่อม, รางขับปืนเงินรางวัลหรือระบบควบคุมการยิง ที่ติดตั้งไว้"
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "เพิ่มผลของรางขับปืนเงินรางวัล, รางขับปืนรุ่นปรับปรุง, หรือรางขับปืนกันเสื่อมสภาพตลอดช่วงการรบหนึ่งครั้ง ในการติดตั้งและใช้งานคำสั่งนี้ คุณจำเป็นต้องติดตั้งอุปกรณ์ที่ได้กล่าวมาเอาไว้บนพาหนะของคุณ"
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "การปรับศูนย์เล็ง"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "ปรับปรุงผลของรางขับปืน"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "รางขับปืนรุ่นปรับปรุง ชั้น 1"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "รางขับปืนรุ่นปรับปรุง ชั้น 2"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "รางขับปืนรุ่นปรับปรุง ชั้น 3"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "วงแหวนสปริงรุ่นปรับปรุง"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "คืนความทนทานระบบช่วงล่างโดยสมบูรณ์หลังการซ่อม"
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "คืนความทนทานระบบช่วงล่างโดยสมบูรณ์หลังการซ่อม"
+
+msgid "enhancedLevers/name"
+msgstr "คันโยกรุ่นปรับปรุง"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "เพลาขับรุ่นปรับปรุง"
+
+msgid "enhancedSprings/name"
+msgstr "สปริงรุ่นปรับปรุง"
+
+msgid "enhancedTorsions1t/name"
+msgstr "เพลากันสะเทือนรุ่นปรับปรุง ชั้น 1 ตัน"
+
+msgid "enhancedTorsions3t/name"
+msgstr "เพลากันสะเทือนรุ่นปรับปรุง ชั้น 3 ตัน"
+
+msgid "enhancedTorsions5t/name"
+msgstr "เพลากันสะเทือนรุ่นปรับปรุง ชั้น 5 ตัน"
+
+msgid "exampleAbility/descr"
+msgstr "ทักษะทดลองสำหรับชุดคำสั่งภาพ"
+
+msgid "exampleAbility/name"
+msgstr "ทักษะทดลอง"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s ให้กับกำลังเครื่องยนต์และความเร็วหมุนป้อมปืนตลอดการรบหนึ่งครั้ง"
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้กับกำลังเครื่องยนต์และความเร็วการหมุนของป้อมปืน"
+
+msgid "excellentFuel/long_special"
+msgstr "เพิ่ม {colorTagOpen}10%{colorTagClose} ให้กับกำลังเครื่องยนต์และความเร็วการหมุนป้อมปืนตลอดช่วงการรบ ใช้งานโดยอัตโนมัติเมื่อเริ่มการรบและให้ผลตลอดการรบ"
+
+msgid "excellentFuel/name"
+msgstr "เชื้อเพลิงชั้นยอด"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้กับกำลังเครื่องยนต์และความเร็วการหมุนป้อมปืน"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "คืนความทนทานระบบช่วงล่างโดยสมบูรณ์หลังการซ่อม"
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "คืนสภาพระบบช่วงล่างภายหลังซ่อม"
+
+msgid "extraHealthReserve/long_special"
+msgstr "เพิ่มความทนทานพาหนะและความเร็วการซ่อม ลดความเสียหายตัวถังจากความเสียหายของช่วงล่างเมื่อพุ่งปะทะ คืนความทนทานระบบช่วงล่างโดยสมบูรณ์หลังการซ่อม ลดโอกาสตีนตะขาบถูกทำลายเมื่อได้รับความเสียหาย ทำให้พาหนะของคุณแล่นได้นานที่สุดเท่าที่จะเป็นไปได้"
+
+msgid "extraHealthReserve/name"
+msgstr "การเสริมความแข็งแรง"
+
+msgid "extraHealthReserve/short_special"
+msgstr "เพิ่มความทนทานพาหนะและป้องกันช่วงล่าง"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "การเสริมความแข็งแรงชั้น 1"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "การเสริมความแข็งแรงชั้น 2"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "การเสริมความแข็งแรงชั้น 3"
+
+msgid "fireCircle/battleDescr"
+msgstr "สร้างไฟวนรอบพาหนะคุณที่ลดความคล่องตัวพาหนะข้าศึกที่อยู่ในพื้นที่ใช้ความสามารถและลดถึง %(damagePerTickForInterval)s จากความทนทานของข้าศึกภายใน %(timer)s วินาทีที่ใช้งาน\n\n*พื้นที่วงไฟนั้นจะอยู่นิ่งและไม่เคลื่อนตามพาหนะของคุณ"
+
+msgid "fireCircle/descr"
+msgstr "สร้างไฟวนรอบพาหนะคุณที่ลดความคล่องตัวพาหนะข้าศึกที่อยู่ในพื้นที่ใช้ความสามารถและลดถึง %(damagePerTickForInterval)s จากความทนทานของข้าศึกภายใน %(timer)s วินาทีที่ใช้งาน\n\n*พื้นที่วงไฟนั้นจะอยู่นิ่งและไม่เคลื่อนตามพาหนะของคุณ"
+
+msgid "fireCircle/longDescr"
+msgstr "สร้างไฟวนรอบพาหนะคุณที่ลดความคล่องตัวพาหนะข้าศึกที่อยู่ในพื้นที่ใช้ความสามารถและลด{whiteSpanish_Open}ถึง %(damagePerTickForInterval)s{whiteSpanish_Close}จากความทนทานของข้าศึก{whiteSpanish_Open}ภายใน %(timer)s วินาที{whiteSpanish_Close}ที่ใช้งาน \n\n*พื้นที่วงไฟนั้นจะอยู่นิ่งและไม่เคลื่อนตามพาหนะของคุณ"
+
+msgid "fireCircle/name"
+msgstr "วงแหวนเพลิง"
+
+msgid "fireCircle/shortDescr"
+msgstr "สร้างไฟวนรอบพาหนะคุณที่ลดความคล่องตัวพาหนะข้าศึกที่อยู่ในพื้นที่ใช้ความสามารถและลด{whiteSpanish_Open}ถึง %(damagePerTickForInterval)s{whiteSpanish_Close}จากความทนทานของข้าศึก{whiteSpanish_Open}ภายใน %(timer)s วินาที{whiteSpanish_Close}ที่ใช้งาน \n\n*พื้นที่วงไฟนั้นจะอยู่นิ่งและไม่เคลื่อนตามพาหนะของคุณ"
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "เพิ่มผลของความสามารถการดับเพลิงขึ้นอีก 1.5 เท่า"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "มอบความสามารถดับเพลิงฝึกถึง 100%"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "ความสามารถการดับเพลิงจะเสริมความสามารถในการดับไฟของพาหนะของคุณตลอดช่วงการรบ เมื่อความสามารถได้ถูกฝึกถึง 100% คำสั่งที่ติดตั้งเอาไว้จะเพิ่มผลของความสามารถนี้ ถ้าไม่เช่นนั้น คำสั่งนี้จะทำให้พาหนะของคุณมีความสามารถการดับเพลิงฝึกถึง 100%"
+
+msgid "fireFightingBattleBooster/name"
+msgstr "นักดับเพลิงมีประสบการณ์"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "ทำให้ความสามารถการดับเพลิงฝึกจนถึง 100% หรือเพิ่มผลของความสามารถนี้"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "สั่งการให้ปืนใหญ่ยิงพื้นที่ที่กำหนดเอาไว้และทำความเสียหายพาหนะทุกคันที่อยู่ในพื้นที่ดังกล่าว"
+
+msgid "fort_aoe_artillery/name"
+msgstr "การโจมตีปืนใหญ่"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "สั่งการให้ปืนใหญ่ยิงพื้นที่ที่กำหนดเอาไว้และทำความเสียหายพาหนะทุกคันที่อยู่ในพื้นที่ดังกล่าว"
+
+msgid "fort_inspire/longDescr"
+msgstr "เพิ่มโบนัสให้คุณสมบัติหลักและความสามารถทั้งหมดของพลรถถังทุกคนในพาหนะของคุณรวมไปถึงพลรถถังของพันธมิตรที่อยู่ใกล้ๆ"
+
+msgid "fort_inspire/name"
+msgstr "สร้างแรงบันดาลใจ"
+
+msgid "fort_inspire/shortDescr"
+msgstr "เพิ่มโบนัสให้คุณสมบัติหลักและความสามารถทั้งหมดของพลรถถังทุกคนในพาหนะของคุณรวมไปถึงพลรถถังของพันธมิตรที่อยู่ใกล้ๆ"
+
+msgid "fuel_system_revision_1/name"
+msgstr "การปรับแก้ระบบเชื้อเพลิง (ชนิด 1)"
+
+msgid "grousers/long_special"
+msgstr "เพิ่มความเร็วการหมุนของพาหนะและรักษาความเร็วขณะแล่นบนภูมิประเทศทุกชนิด จะมีประสิทธิภาพในการแล่นบนดินอ่อนและดินค่อนข้างอ่อน และมีประสิทธิภาพมากที่สุดเมื่อใช้ร่วมกับความสามารถการเบรกด้วยคลัตช์และการขับทางวิบาก"
+
+msgid "grousers/name"
+msgstr "ตีนตะขาบเสริม"
+
+msgid "grousers/short_special"
+msgstr "เพิ่มความเร็วการหมุนของพาหนะและเพิ่มอัตราการเร่งความเร็ว"
+
+msgid "grousers_tier1/name"
+msgstr "ตีนตะขาบเสริม ชั้น 1"
+
+msgid "grousers_tier2/name"
+msgstr "ตีนตะขาบเสริม ชั้น 2"
+
+msgid "grousers_tier3/name"
+msgstr "ตีนตะขาบเสริม ชั้น 3"
+
+msgid "gun_balancing_1/name"
+msgstr "การปรับสมดุลปืน (ชนิด 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "ดับไฟในยานเกราะของคุณ"
+
+msgid "handExtinguishers/long_special"
+msgstr "ดับไฟในพาหนะของคุณเมื่อสั่งใช้งาน เหมาะกับพาหนะทุกชนิดของทุกชาติ ยุทธปัจจัยนี้จะถูกลบภายหลังการรบหากมีการใช้อย่างน้อยหนึ่งครั้ง"
+
+msgid "handExtinguishers/name"
+msgstr "ถังดับเพลิงต้องสั่งใช้งาน"
+
+msgid "handExtinguishers/onUse"
+msgstr "ดับไฟในพาหนะของคุณ สามารถใช้ได้หลายครั้งในการรบหนึ่งครั้ง ยุทธปัจจัยจะถูกลบภายหลังการรบหากมีการใช้อย่างน้อยหนึ่งครั้ง"
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "ดับเพลิง"
+
+msgid "healPoint/battleDescr"
+msgstr "สร้างพื้นที่รอบพาหนะของคุณ โดยในพื้นที่นี้ ทั้งผู้เล่นและสมาชิกหมวดรถถังจะทำการคืนสภาพ %(healPerTick)s ของความทนทานพาหนะเป็นเปอร์เซนต์หนึ่งในทุกๆวินาทีเป็นเวลา %(duration)s วินาที"
+
+msgid "healPoint/descr"
+msgstr "สร้างพื้นที่รอบพาหนะของคุณ โดยในพื้นที่นี้ ทั้งผู้เล่นและสมาชิกหมวดรถถังจะทำการคืนสภาพ %(healPerTick)s ของความทนทานพาหนะเป็นเปอร์เซนต์หนึ่งในทุกๆวินาทีเป็นเวลา %(duration)s วินาที"
+
+msgid "healPoint/longDescr"
+msgstr "สร้างพื้นที่รอบพาหนะของคุณ โดยในพื้นที่นี้ ทั้งผู้เล่นและสมาชิกหมวดรถถังจะทำการ{green_Open}คืนสภาพ %(healPerTick)s{green_Close} ของความทนทานพาหนะเป็นเปอร์เซนต์หนึ่งในทุกๆวินาทีเป็น{whiteSpanish_Open}เวลา %(duration)s วินาที{whiteSpanish_Close}"
+
+msgid "healPoint/name"
+msgstr "เขตการคืนสภาพ"
+
+msgid "healPoint/shortDescr"
+msgstr "สร้างพื้นที่รอบพาหนะของคุณ โดยในพื้นที่นี้ ทั้งผู้เล่นและสมาชิกหมวดรถถังจะทำการ{green_Open}คืนสภาพ %(healPerTick)s{green_Close} ของความทนทานพาหนะเป็นเปอร์เซนต์หนึ่งในทุกๆวินาทีเป็น{whiteSpanish_Open}เวลา %(duration)s วินาที{whiteSpanish_Close}"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s ให้โบนัสประสิทธิภาพพลรถถังทั้งหมดตลอดช่วงการรบหนึ่งครั้ง"
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "hotCoffee/long_special"
+msgstr "ใช้งานโดยอัตโนมัติในช่วงต้นการรบและให้ผลตลอดช่วงการรบ เหมาะสำหรับพาหนะฝรั่งเศสเท่านั้น"
+
+msgid "hotCoffee/name"
+msgstr "กาแฟเข้มข้น"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "เหมาะกับพาหนะฝรั่งเศสเท่านั้น"
+
+msgid "hotCoffee/short_special"
+msgstr "เพิ่มสมรรถนะของพลรถถังฝรั่งเศส"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "ป้องกันการเกิดไฟไหม้ถังเชื้อเพลิง รางกระสุนระเบิด และเครื่องยนต์ถูกทำลายหนึ่งครั้งในการรบหากหนึ่งในชิ้นส่วนเหล่านี้ถูกทำลาย"
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "ป้องกันการเกิดไฟไหม้ถังเชื้อเพลิง รางกระสุนระเบิด และเครื่องยนต์ถูกทำลายหนึ่งครั้งในการรบหากหนึ่งในชิ้นส่วนเหล่านี้ถูกทำลาย"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "รางกระสุนถูกป้องกันไม่ให้เกิดระเบิด"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "ป้องกันการระเบิดของรางกระสุนไว้"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "ป้องกันเครื่องยนต์ไว้"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "ป้องกันเครื่องยนต์ถูกทำลายไว้"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "ป้องกันถังเชื้อเพลิงไม่ให้ไฟไหม้"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "ป้องกันถังเชื้อเพลิงไว้"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "ป้องกันการเกิดไฟไหม้ถังเชื้อเพลิง รางกระสุนระเบิด และเครื่องยนต์ถูกทำลายหนึ่งครั้งในการรบหากหนึ่งในชิ้นส่วนเหล่านี้ถูกทำลาย"
+
+msgid "improvedConfiguration/long_special"
+msgstr "เร่งการซ่อม ป้องกันรางกระสุน ถังเชื้อเพลิง และเครื่องยนต์ ลดผลเสียที่เพิ่มเวลาบรรจุและการเสียกำลังเครื่องยนต์เมื่อชิ้นส่วนเหล่านี้ได้รับความเสียหาย ลดโอกาสเครื่องยนต์เกิดไฟไหม้ ป้องกันการเกิดไฟไหม้ถังเชื้อเพลิง รางกระสุนระเบิด และเครื่องยนต์ถูกทำลายหนึ่งครั้งในการรบหากหนึ่งในชิ้นส่วนเหล่านี้ถูกทำลาย จะมีประสิทธิภาพมากขึ้นเมื่อรวมกับความสามารถการซ่อมแซม การเก็บอย่างปลอดภัย และการซ่อมบำรุงเชิงป้องกัน"
+
+msgid "improvedConfiguration/name"
+msgstr "การปรับแต่งดัดแปลง"
+
+msgid "improvedConfiguration/short_special"
+msgstr "เร่งการซ่อม ป้องกันรางกระสุน ถังเชื้อเพลิง และเครื่องยนต์"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s ให้กับความเร็วการซ่อมด้วยการปรับแต่งดัดแปลง(ชั้นใดก็ได้), การปรับแต่งปรับปรุงหรือวิทยาการป้องกันเงินรางวัลที่ิติดตั้งเอาไว้"
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "เพิ่มผลของการปรับแต่งดัดแปลง การปรับแต่งปรับปรุง หรือวิทยาการป้องกันเงินรางวัลตลอดช่วงการรบ ในการติดตั้งและใช้งานคำสั่งนี้ คุณจำเป็นต้องติดตั้งอุปกรณ์ที่ได้กล่าวมาเอาไว้บนพาหนะของคุณ"
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "การซ่อมบำรุงก่อนการรบ"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "เพิ่มผลของการปรับแต่งดัดแปลง"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "การปรับแต่งดัดแปลง ชั้น 1"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "การปรับแต่งดัดแปลง ชั้น 2"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "เพิ่มเวลาที่ข้าศึกจะถูกพบหลังจากออกจากระยะการมองเป็นพาหนะคุณไปแล้ว ลดเวลาที่คุณจะถูกพบโดยข้าศึกลง จะมีประสิทธิภาพมากที่สุดเมื่อใช้ร่วมกับความสามารถระบุเป้าหมายและเพลิงแค้น"
+
+msgid "improvedRadioCommunication/name"
+msgstr "อุปกรณ์วิทยุรุ่นปรับปรุง"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "เพิ่มเวลาที่ข้าศึกถูกพบและลดเวลาที่คุณถูกพบ"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "เพิ่มความเร็วการหมุนตัวถังและป้อมปืนสำหรับพาหนะที่มีป้อมปืน เพิ่มความเร็วการหมุนตัวถังและปืนสำหรับพาหนะที่ไม่มีป้อมปืน ลดการกระจายของกระสุนขณะแล่นและขณะหมุนตัวถังและป้อมปืนรวมไปถึงหลังการยิง จะมีประสิทธิภาพมากขึ้นเมื่อใช้ร่วมกับความสามารถการเบรกด้วยคลัตช์"
+
+msgid "improvedRotationMechanism/name"
+msgstr "กลไกการหมุนรุ่นปรับปรุง"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "เพิ่มความเร็วการหมุนและลดการกระจายของกระสุนในช่วงการเคลื่อนที่และหมุนไปมา"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "กลไกการหมุนรุ่นปรับปรุง ชั้น 1"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "กลไกการหมุนรุ่นปรับปรุง ชั้น 2"
+
+msgid "improvedSights/long_special"
+msgstr "ลดขนาดของวงการเล็งเพือเพิ่มความแม่นยำของปืนที่กำลังเล็งหรือเล็งเต็มที่ ซึ่งจะทำให้คุณมีโอกาสยิงเข้าจุดที่เล็งไว้มากขึ้น"
+
+msgid "improvedSights/name"
+msgstr "การเล็งรุ่นปรับปรุง"
+
+msgid "improvedSights/short_special"
+msgstr "ลดการกระจายของกระสุน"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s ให้กับขนาดวงการเล็งเมื่อติดตั้งการเล็งรุ่นปรับปรุง (ชั้นใดก็ได้), ระบบเล็งเงินรางวัลหรือระบบปรับปรุงความแม่นยำเอาไว้"
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "เพิ่มผลของการเล็งรุ่นปรับปรุงหรือระบบเล็งเงินรางวัลตลอดช่วงการรบ คำสั่งนี้จะมีผลต่อเมื่อคุณได้ติดตั้งอุปกรณ์ดังกล่าวเอาไว้"
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "เลนส์ขัดเงา"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "ลดขนาดวงการเล็ง"
+
+msgid "improvedSights_tier1/name"
+msgstr "การเล็งรุ่นปรับปรุง ชั้น 1"
+
+msgid "improvedSights_tier2/name"
+msgstr "การเล็งรุ่นปรับปรุง ชั้น 2"
+
+msgid "improvedSights_tier3/name"
+msgstr "การเล็งรุ่นปรับปรุง ชั้น 3"
+
+msgid "improvedVentilation/long_special"
+msgstr "ปรับปรุงคุณลักษณะพาหนะของคุณดังต่อไปนี้: ระยะการมองเห็น อัตราการยิง เวลาการเล็ง ความคล่องแคล่ว และอื่นๆ อย่างไรก็ตาม โบนัสที่ได้รับจากอุปกรณ์นี้จะมีผลชัดเจนเมื่อใช้ร่วมกับความสามารถพี่น้องร่วมรบที่พลรถถังของคุณได้ฝึกถึง 100% แล้วเท่านั้น"
+
+msgid "improvedVentilation/name"
+msgstr "ระบบระบายอากาศรุ่นปรับปรุง"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s ให้โบนัสประสิทธิภาพพลรถถังทั้งหมดพร้อมกับระบบระบายอากาศรุ่นปรับปรุง (ทุกชั้น) ระบบระบายอากาศหรือระบบระบายอากาศเงินรางวัลที่ติดตั้งไว้"
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "เพิ่มผลของระบบระบายอากาศรุ่นปรับปรุง (ทุกชั้น) ระบบระบายอากาศหรือระบบระบายอากาศเงินรางวัลตลอดช่วงการรบ ในการติดตั้งและเปิดใช้คำสั่งนี้ คุณจำเป็นต้องติดตั้งอุปกรณ์ที่ได้กล่าวมาเอาไว้บนพาหนะของคุณ"
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "ปล่อยระบายทิ้ง"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "ปรับปรุงผลของระบบระบายอากาศ"
+
+msgid "improvedVentilation_class1/name"
+msgstr "ระบบถ่ายเทอากาศรุ่นพัฒนา ชั้น 1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "ระบบถ่ายเทอากาศรุ่นพัฒนา ชั้น 2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "ระบบถ่ายเทอากาศรุ่นพัฒนา ชั้น 3"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "ระบบถ่ายเทอากาศรุ่นพัฒนา ชั้น 1"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "ระบบถ่ายเทอากาศรุ่นพัฒนา ชั้น 2"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "ระบบถ่ายเทอากาศรุ่นพัฒนา ชั้น 3"
+
+msgid "improved_suspension_1/name"
+msgstr "ระบบช่วงล่างรุ่นปรับปรุง (ชนิด 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "ระบบช่วงล่างรุ่นปรับปรุง (ชนิด 2)"
+
+msgid "inspire/longDescr"
+msgstr "เพิ่มสมรรถนะของพลรถถังของทั้งพาหนะคุณและพันธมิตรทั้งหมดในรัศมี โดยเพิ่มโบนัสอีก % ให้กับคุณสมบัติหลักของสมาชิกพลรถถังแต่ละนาย ผู้เล่นที่สั่งใช้งานจะได้รับผลที่สูงขึ้นกว่าเดิม"
+
+msgid "inspire/name"
+msgstr "สร้างแรงบันดาลใจ"
+
+msgid "inspire/shortDescr"
+msgstr "เพิ่มโบนัสให้กับคุณสมบัติหลักของพลรถถังของผู้เล่นและพันธมิตร"
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "เครื่องป้อนกระสุนปืนใหญ่ขนาดใหญ่"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "เครื่องป้อนกระสุนรถถังขนาดใหญ่"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s ให้กับระยะมึนงง\n%(crewHitChance)s ให้กับการป้องกันพลรถถังจากอาการบาดเจ็บ"
+
+msgid "largeMedkit/descr"
+msgstr "รักษาอาการบาดเจ็บของพลรถถังทุกนายและทำให้หายจากสถานะมึนงง"
+
+msgid "largeMedkit/long_special"
+msgstr "รักษาสมาชิกพลรถถังทุกคนที่ได้รับบาดเจ็บและลบสถานะมึนงงเมื่อสั่งใช้งาน ผลขณะไม่ใช้จะช่วยปกป้องพลรถถังจากการได้รับบาดเจ็บ ยุทธปัจจัยนี้เหมาะสำหรับพาหนะทุกชนิดของทุกประเทศ"
+
+msgid "largeMedkit/name"
+msgstr "ชุดปฐมพยาบาลขนาดใหญ่"
+
+msgid "largeMedkit/onUse"
+msgstr "รักษาสมาชิกพลรถถังที่บาดเจ็บทั้งหมด สามารถใช้ได้หลายครั้งในการรบหนึ่งครั้ง ยุทธปัจจัยจะถูกลบไปหลังการรบแม้ว่าจะใช้ไปเพียงครั้งเดียวก็ตาม"
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "รักษาอาการบาดเจ็บพลรถถังที่บาดเจ็บทั้งหมดและลบสถานะมึนงง สามารถใช้ได้หลายครั้งในการรบหนึ่งครั้ง ยุทธปัจจัยจะถูกลบหลังจบการรบหากถูกใช้อย่างน้อยหนึ่งครั้ง"
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "รักษาพลรถถังที่ได้รับบาดเจ็บทุกนายและลบสภาวะมึนงง"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s ให้กับความเร็วการซ่อม"
+
+msgid "largeRepairkit/descr"
+msgstr "ซ่อมแซมความเสียหายที่เกิดกับชิ้นส่วนทุกส่วน"
+
+msgid "largeRepairkit/long_special"
+msgstr "ทำการซ่อมชิ้นส่วนที่เสียหายทั้งหมดเมื่อเริ่มใช้งาน ผลขณะไม่ใช้งานจะเพิ่มความเร็วในการซ่อม ยุทธปัจจัยนี้เหมาะสำหรับพาหนะทุกชนิดของทุกชาติ"
+
+msgid "largeRepairkit/name"
+msgstr "ชุดซ่อมแซมขนาดใหญ่"
+
+msgid "largeRepairkit/onUse"
+msgstr "ซ่อมแซมชิ้นส่วนที่เสียหายทั้งหมด สามารถใช้ได้หลายครั้งในการรบหนึ่งครั้ง ยุทธปัจจัยจะถูกลบไปหลังการรบแม้ว่าจะใช้ไปเพียงครั้งเดียวก็ตาม"
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "ทำการซ่อมชิ้นส่วนที่เสียหายทั้งหมด"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "เพิ่มอีก 50% ให้กับความสามารถเพลิงแค้น"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "ทำให้ความสามารถเพลิงฝึกถัง 100%"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "ความสามารถเพลิงแค้นจะเพิ่มโอกาสการรายงานตำแหน่งข้าศึกเป็นเวลาอีก 2 วินาทีหลังจากพาหนะถูกทำลาย เมื่อความสามารถนี้ถูกฝึกถึง 100% คำสั่งที่ติดตั้งไว้จะเพิ่มเวลาอีก 1 วินาทีให้กับระยะผลใช้งาน (รวมกันเป็น 3 วินาที) ถ้าไม่เช่นนั้น คำสั่งจะทำให้พาหนะของคุณมีความสามารถนี้ฝึกถึง 100% (โดยมาตรฐาน 2 วินาที)"
+
+msgid "lastEffortBattleBooster/name"
+msgstr "หน้าที่สำคัญที่สุด"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "ทำให้ความสามารถเพลิงแค้นถูกฝึกถึง 100% หรือเพิ่มผลของความสามารถ"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "เครื่องป้อนกระสุนปืนใหญ่ขนาดกลาง"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "เครื่องป้อนกระสุนรถถังขนาดกลาง"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "ระบบควบคุมการยิง T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "ระบบควบคุมการยิง T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "ระบบควบคุมการยิง T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "ระบบควบคุมการยิง T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "ระบบควบคุมการยิง T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "ระบบควบคุมการยิง T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "ระบบควบคุมการยิง T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "ระบบควบคุมการยิง T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "ระบบควบคุมการยิง T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "ชุดเสริมความสามารถอยู่รอด T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "ชุดเสริมความสามารถอยู่รอด T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "ชุดเสริมความสามารถอยู่รอด T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "ชุดเสริมความสามารถอยู่รอด T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "ชุดเสริมความสามารถอยู่รอด T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "ชุดเสริมความสามารถอยู่รอด T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "ชุดเสริมความสามารถอยู่รอด T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "ชุดเสริมความสามารถอยู่รอด T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "ชุดเสริมความสามารถอยู่รอด T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "ระบบปรับปรุงความแม่นยำ T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "ระบบปรับปรุงความแม่นยำ T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "ระบบปรับปรุงความแม่นยำ T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "ระบบปรับปรุงความแม่นยำ T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "ระบบปรับปรุงความแม่นยำ T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "ระบบปรับปรุงความแม่นยำ T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "ระบบปรับปรุงความแม่นยำ T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "ระบบปรับปรุงความแม่นยำ T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "ระบบปรับปรุงความแม่นยำ T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "ระบบปรับปรุงความคล่องตัว T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "ระบบปรับปรุงความคล่องตัว T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "ระบบปรับปรุงความคล่องตัว T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "ระบบปรับปรุงความคล่องตัว T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "ระบบปรับปรุงความคล่องตัว T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "ระบบปรับปรุงความคล่องตัว T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "ระบบปรับปรุงความคล่องตัว T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "ระบบปรับปรุงความคล่องตัว T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "ระบบปรับปรุงความคล่องตัว T3"
+
+msgid "nitro/battleDescr"
+msgstr "เพิ่มกำลังเครื่องยนต์พาหนะของคุณชั่วคราวอีก %(enginePowerFactor)s และเพิ่มความเร็วสูงสุดอีก %(maxSpeedFactor)s เท่าเป็นเวลา %(consumeSeconds)s วินาที"
+
+msgid "nitro/descr"
+msgstr "เพิ่มกำลังเครื่องยนต์พาหนะของคุณชั่วคราวอีก %(enginePowerFactor)s และเพิ่มความเร็วสูงสุดอีก %(maxSpeedFactor)s เท่าเป็นเวลา %(consumeSeconds)s วินาที"
+
+msgid "nitro/long_special"
+msgstr "เพิ่มกำลังเครื่องยนต์พาหนะของคุณชั่วคราว{green_Open}อีก %(enginePowerFactor)s{green_Close} และเพิ่มความเร็วสูงสุด{green_Open}อีก %(maxSpeedFactor)s เท่า{green_Close}{whiteSpanish_Open}เป็นเวลา %(consumeSeconds)s วินาที{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "ตัวอัดอากาศเทอร์โบ"
+
+msgid "nitro/short_special"
+msgstr "เพิ่มกำลังเครื่องยนต์พาหนะของคุณชั่วคราว{green_Open}อีก %(enginePowerFactor)s{green_Close} และเพิ่มความเร็วสูงสุด{green_Open}อีก %(maxSpeedFactor)s เท่า{green_Close}{whiteSpanish_Open}เป็นเวลา %(consumeSeconds)s วินาที{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "การตั้งค่าตัวเลือก: การติดตั้งตัวช่วย"
+
+msgid "passive_engineering/longDescr"
+msgstr "มอบโบนัสให้ความเร็วการยึดและเติมเสบียง เร่งความเร็วการเติมเสบียง ลดเวลาที่ต้องใช้ในการปรับวงเติมเสบียงใหม่และเข้ายึดหรือยึดคืนจุดสำคัญ"
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "คุณไม่สามารถใช้กำลังสำรองรบนี้ได้กับปืนอัตตาจร"
+
+msgid "passive_engineering/name"
+msgstr "ทหารช่าง"
+
+msgid "passive_engineering/shortDescr"
+msgstr "เพิ่มโบนัสให้กับการเข้ายึด การบล็อคการยึดและการเติมเสบียง"
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "ไม่เหมาะกับปืนอัตตาจร"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "เพิ่มผลความสามารถการเก็บอย่างปลอดภัยเป็นสามเท่า"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "มอบความสามารถการเก็บอย่างปลอดภัยฝึกถึง 100%"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "ความสามารถการเก็บอย่างปลอดภัยนั้นเพิ่มความทนทานของรางกระสุนของคุณตลอดช่วงการรบ เมื่อความสามารถถูกฝึกถึง 100% คำสั่งที่ติดตั้งไว้จะเพิ่มผลของความสามารถนี้ ถ้าไม่เช่นนั้น คำสั่งนี้จะทำให้พาหนะของคุณมีความสามารถนี้ฝึกถึง 100%"
+
+msgid "pedantBattleBooster/name"
+msgstr "การจัดกระสุน"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "ทำให้ความสามารถการเก็บอย่างปลอดภัยฝึก 100% หรือเพิ่มผลของความสามารถนี้"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "ในช่วงเวลา {colorTagOpen}%(delay)d วิ{colorTagClose} พื้นที่ที่เลือกไว้จะถูกโจมตีโดยปืนใหญ่ เป้าหมายใดๆที่เสียหายในรัศมี{colorTagOpen}%(radius)dเมตร{colorTagClose}จะได้รับความเสียหาย {colorTagOpen}%(damage)d{colorTagClose} หน่วยและมึนงงเป็นเวลา {colorTagOpen}%(stunDuration)d วิ{colorTagClose}"
+
+msgid "poi_artillery_aoe/name"
+msgstr "การโจมตีปืนใหญ่"
+
+msgid "poi_radar/descr"
+msgstr "เมื่อเปิดใช้ พาหนะข้าศึกที่จะปรากฎเป็นเวลา {colorTagOpen} %(duration)d วิ{colorTagClose}"
+
+msgid "poi_radar/name"
+msgstr "เรดาร์กองพล"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "เพิ่มผลของความสามารถการใช้ได้จริงเป็นสองเท่า"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "ทำให้ความสามารถใช้ได้จริงฝึกถึง 100%"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "ความสามารถการใช้ได้จริงจะลดเวลาพักใช้ยุทธปัจจัยสำหรับช่วงการรบหนึ่งครั้ง ความสามารถถูกฝึกถึง 100% คำสั่งที่ติตดั้งไว้จะเพิ่มผลของความสามารถ ถ้าไม่เช่นนั้น คำสั่งจะทำให้พาหนะของคุณมีความสามารถนี้ถูกฝึกถึง 100%"
+
+msgid "practicalityBattleBooster/name"
+msgstr "การเตรียมการอย่างถี่ถ้วน"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "ทำให้ความสามารถใช้ได้จริงฝึกถึง 100% หรือเพิ่มผลของความสามารถนี้"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s ให้กับกำลังเครื่องยนต์และความเร็วหมุนป้อมปืนตลอดการรบหนึ่งครั้ง"
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose}ให้กับกำลังเครื่องยนต์และความเร็วการหมุนของป้อมปืน"
+
+msgid "qualityFuel/long_special"
+msgstr "เพิ่ม {colorTagOpen}5%{colorTagClose}ให้กับกำลังเครื่องยนต์และความเร็วการหมุนป้อมปืนตลอดช่วงการรบ ใช้งานโดยอัตโนมัติเมื่อเริ่มการรบและให้ผลตลอดการรบ"
+
+msgid "qualityFuel/name"
+msgstr "เชื้อเพลิงคุณภาพ"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} ให้กับกำลังเครื่องยนต์และความเร็วหมุนป้อมปืน"
+
+msgid "radar/descr"
+msgstr "ตรวจจับพาหนะข้าศึกและรางวัลสงครามในแผนที่ย่อ"
+
+msgid "radar/name"
+msgstr "การตรวจจับวิทยุ"
+
+msgid "rammer/long_special"
+msgstr "อัตราการยิงนั้นเป็นหนึ่งในคุณลักษณะที่สำคัญที่สุดของพาหนะของคุณ อุปกรณ์นี้จะมีประโยชน์ในการรบและคุณควรจะติดตั้งเอาไว้ อย่างไรก็ตาม เครื่องป้อนกระสุนจะไม่สามารถติดตั้งบนพาหนะที่มีระบบป้อนซองกระสุนได้"
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s ให้กับเวลาบรรจุด้วยเครื่องป้อนกระสุน (ปืนทุกชนิดและทุกลำกล้อง) หรือระบบป้อนกระสุนนวัตกรรมใหม่ หรือเครื่องป้อนกระสุนเงินรางวัลที่ติดตั้งไว้"
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "เพิ่มผลของเครื่องป้อนกระสุน (ปืนทุกชนิดและทุกลำกล้อง), เครื่องป้อนกระสุนเงินรางวัลหรือระบบป้อนกระสุนนวัตกรรมใหม่ตลอดช่วงการรบ ในการติดตั้งและเปิดใช้คำสั่งนี้ คุณจำเป็นต้องติดตั้งอุปกรณ์ที่ได้กล่าวมาเอาไว้บนพาหนะของคุณ"
+
+msgid "rammerBattleBooster/name"
+msgstr "รางกระสุนแบบเป็นระเบียบ"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "เพิ่มประสิทธิภาพของเครื่องป้อนกระสุน"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "เพิ่มผลของความสามารถระบุเป้าหมายเป็นสองเท่า"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "ทำให้ความสามารถเป้าหมายที่ระบุไว้ฝึกถึง 100%"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "ความสามารถระบุเป้าหมายทำให้เป้าหมายพาหนะข้าศึกปรากฎนานขึ้นอีก 2 วินาที เมื่อความสามารถนี้ถูกฝึกถึง 100% คำสั่งที่ติดตั้งไว้จะเพิ่มผลของความสามารถ ถ้าไม่เช่นนั้น คำสั่งจะทำให้พาหนะของคุณมีความสามารถนี้ถูกฝึกถึง 100%"
+
+msgid "rancorousBattleBooster/name"
+msgstr "เพ่งไปที่เป้าหมาย"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "ทำให้ความสามารถเป้าหมายที่ระบุไว้ฝึกถึง 100% หรือเพิ่มผลของความสามารถ"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s ให้โบนัสประสิทธิภาพพลรถถังทั้งหมดตลอดช่วงการรบหนึ่งครั้ง"
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "ration/long_special"
+msgstr "ใช้งานโดยอัตโนมัติในช่วงต้นการรบและให้ผลตลอดช่วงการรบ เหมาะสำหรับพาหนะสหภาพโซเวียตเท่านั้น"
+
+msgid "ration/name"
+msgstr "เสบียงสนามเสริม"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "เหมาะกับพาหนะโซเวียตเท่านั้น"
+
+msgid "ration/short_special"
+msgstr "เพิ่มสมรรถนะของพลรถถังสหภาพโซเวียต"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s ให้โบนัสประสิทธิภาพพลรถถังทั้งหมดตลอดช่วงการรบหนึ่งครั้ง"
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "ration_china/long_special"
+msgstr "ใช้งานโดยอัตโนมัติในช่วงต้นการรบและให้ผลตลอดช่วงการรบ เหมาะสำหรับพาหนะจีนเท่านั้น"
+
+msgid "ration_china/name"
+msgstr "เสบียงสนามรุ่นปรับปรุง"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "เหมาะกับพาหนะจีนเท่านั้น"
+
+msgid "ration_china/short_special"
+msgstr "เพิ่มสมรรถนะของพลรถถังจีน"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s ให้โบนัสประสิทธิภาพพลรถถังทั้งหมดตลอดช่วงการรบหนึ่งครั้ง"
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "ration_czech/long_special"
+msgstr "ใช้งานโดยอัตโนมัติในช่วงต้นการรบและให้ผลตลอดช่วงการรบ เหมาะสำหรับพาหนะเชคโกสโลวาเกียเท่านั้น"
+
+msgid "ration_czech/name"
+msgstr "ขนมปัง Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "เหมาะกับพาหนะเชคโกสโลวาเกียเท่านั้น"
+
+msgid "ration_czech/short_special"
+msgstr "เพิ่มสมรรถนะของพลรถถังเชคโกสโลวาเกีย"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s ให้โบนัสประสิทธิภาพพลรถถังทั้งหมดตลอดช่วงการรบหนึ่งครั้ง"
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "ration_italy/long_special"
+msgstr "ใช้งานโดยอัตโนมัติในช่วงต้นการรบและให้ผลตลอดช่วงการรบ เหมาะสำหรับพาหนะอิตาลีเท่านั้น"
+
+msgid "ration_italy/name"
+msgstr "สปาเกตตี้ซอสเนื้อ"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "เหมาะกับพาหนะอิตาลีเท่านั้น"
+
+msgid "ration_italy/short_special"
+msgstr "เพิ่มสมรรถนะของพลรถถังอิตาลี"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s ให้โบนัสประสิทธิภาพพลรถถังทั้งหมดตลอดช่วงการรบหนึ่งครั้ง"
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "ration_japan/long_special"
+msgstr "ใช้งานโดยอัตโนมัติในช่วงต้นการรบและให้ผลตลอดช่วงการรบ เหมาะสำหรับพาหนะญี่ปุ่นเท่านั้น"
+
+msgid "ration_japan/name"
+msgstr "ข้าวปั้น"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "เหมาะกับพาหนะญี่ปุ่นเท่านั้น"
+
+msgid "ration_japan/short_special"
+msgstr "เพิ่มสมรรถนะของพลรถถังญี่ปุ่น"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s ให้โบนัสประสิทธิภาพพลรถถังทั้งหมดตลอดช่วงการรบหนึ่งครั้ง"
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "ration_poland/long_special"
+msgstr "ใช้งานโดยอัตโนมัติในช่วงต้นการรบและให้ผลตลอดช่วงการรบ เหมาะสำหรับพาหนะโปแลนด์เท่านั้น"
+
+msgid "ration_poland/name"
+msgstr "ขนมปังกับเนยไขหมู"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "เหมาะกับพาหนะโปแลนด์เท่านั้น"
+
+msgid "ration_poland/short_special"
+msgstr "เพิ่มสมรรถนะของพลรถถังโปแลนด์"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s ให้โบนัสประสิทธิภาพพลรถถังทั้งหมดตลอดช่วงการรบหนึ่งครั้ง"
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "ration_sweden/long_special"
+msgstr "ใช้งานโดยอัตโนมัติในช่วงต้นการรบและให้ผลตลอดช่วงการรบ เหมาะสำหรับพาหนะสวีเดนเท่านั้น"
+
+msgid "ration_sweden/name"
+msgstr "กาแฟกับขนมปังอบเชย"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "เหมาะกับพาหนะสวีเดนเท่านั้น"
+
+msgid "ration_sweden/short_special"
+msgstr "เพิ่มสมรรถนะของพลรถถังสวีเดน"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s ให้โบนัสประสิทธิภาพพลรถถังทั้งหมดตลอดช่วงการรบหนึ่งครั้ง"
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "ration_uk/long_special"
+msgstr "ใช้งานโดยอัตโนมัติในช่วงต้นการรบและให้ผลตลอดช่วงการรบ เหมาะสำหรับพาหนะอังกฤษเท่านั้น"
+
+msgid "ration_uk/name"
+msgstr "พุดดิ้งกับน้ำชา"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "เหมาะกับพาหนะอังกฤษเท่านั้น"
+
+msgid "ration_uk/short_special"
+msgstr "เพิ่มสมรรถนะของพลรถถังอังกฤษ"
+
+msgid "recon/longDescr"
+msgstr "สั่งการให้เครื่องบินสอดแนมเข้าชี้เป้าในพื้นที่ขนาดใหญ่ พาหนะที่อยู่ในรัศมีการมองเห็นของเครื่องบินจะถือว่าพบโดยทีมและจะปรากฏให้เห็นเป็นช่วงเวลาหนึ่ง สามารถตรวจจับสนามทุ่นระเบิดได้"
+
+msgid "recon/name"
+msgstr "การบินลาดตระเวน"
+
+msgid "recon/shortDescr"
+msgstr "ตรวจจับพาหนะข้าศึกและสนามทุ่นระเบิด"
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} ให้กับทักษะและความสามารถพลรถถังทั้งหมดตลอดช่วงการรบหนึ่งครั้ง"
+
+msgid "removedRpmLimiter/long_special"
+msgstr "เพิ่มกำลังเครื่องยนต์อีก {colorTagOpen}10%{colorTagClose} แต่ในขณะที่เปิดใช้จะลดความทนทานของเครื่องยนต์ลงเรื่อยๆ สามารถเปิดหรือปิดการใช้งานได้หลายครั้งในการรบ เหมาะสมกับพาหนะจีนหรือโซเวียตเท่านั้น"
+
+msgid "removedRpmLimiter/name"
+msgstr "ถอดอุปกรณ์จำกัดความเร็ว"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s ให้กับกำลังเครื่องยนต์แต่จะทำให้เครื่องยนต์เสียหาย สามารถใช้ได้หลายครั้งในการรบหนึ่งครั้ง"
+
+msgid "removedRpmLimiter/restriction"
+msgstr "เหมาะกับพาหนะโซเวียตและจีนเท่านั้น"
+
+msgid "removedRpmLimiter/short_special"
+msgstr "เพิ่มกำลังเครื่องยนต์อีก {colorTagOpen}+10%{colorTagClose} แต่ทำให้เครื่องยนต์เสียหาย"
+
+msgid "repairpoint/battleDescr"
+msgstr "สร้างพื้นที่อยู่นิ่งชั่วคราวที่ซ่อมแซมชิ้นส่วนที่เสียหายทั้งหมด, ลบผลลบทั้งหมดและคืน %(healPerTick)s ของความทนทานพาหนะคุณต่อวินาทีเป็นเวลา %(timer)s วินาที\n\n*พาหนะพันธมิตรในพื้นที่ส่งผลจะคืนความทนทานด้วย"
+
+msgid "repairpoint/descr"
+msgstr "สร้างพื้นที่อยู่นิ่งชั่วคราวที่ซ่อมแซมชิ้นส่วนที่เสียหายทั้งหมด, ลบผลลบทั้งหมดและคืน %(healPerTick)s ของความทนทานพาหนะคุณต่อวินาทีเป็นเวลา %(timer)s วินาที\n\n*พาหนะพันธมิตรในพื้นที่ส่งผลจะคืนความทนทานด้วย"
+
+msgid "repairpoint/long_special"
+msgstr "สร้างพื้นที่อยู่นิ่งชั่วคราวที่ซ่อมแซมชิ้นส่วนที่เสียหายทั้งหมด, ลบผลลบทั้งหมดและ{green_Open}คืน %(healPerTick)s{green_Close} ของความทนทานพาหนะคุณ{whiteSpanish_Open}ต่อวินาทีเป็นเวลา %(timer)s วินาที{whiteSpanish_Close} \n\n*พาหนะพันธมิตรในพื้นที่ส่งผลจะคืนความทนทานด้วย"
+
+msgid "repairpoint/name"
+msgstr "เขตซ่อมแซม"
+
+msgid "repairpoint/short_special"
+msgstr "สร้างพื้นที่อยู่นิ่งชั่วคราวที่ซ่อมแซมชิ้นส่วนที่เสียหายทั้งหมด, ลบผลลบทั้งหมดและ{green_Open}คืน %(healPerTick)s{green_Close} ของความทนทานพาหนะคุณ{whiteSpanish_Open}ต่อวินาทีเป็นเวลา %(timer)s วินาที{whiteSpanish_Close} \n\n*พาหนะพันธมิตรในพื้นที่ส่งผลจะคืนความทนทานด้วย"
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "การทำความสะอาดเกลียวลำกล้องปืน (ชนิด 1)"
+
+msgid "roleSlot/name"
+msgstr "ประเภทช่องอุปกรณ์ที่สอง"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "ระบบความปลอดภัยเชิงปกป้อง"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "ระบบความปลอดภัย\nเชิงปกป้อง"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "การจัดรางกระสุนใหม่"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "การจัด\nรางกระสุนใหม่"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "ตีนตะขาบซ่อมตัวเอง"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "ตีนตะขาบ\nซ่อมตัวเอง"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "การปรับแก้ห้องเครื่องยนต์"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "การปรับแก้\nห้องเครื่องยนต์"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "ระบบช่วงล่างเสริมความแข็งแรง"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "ระบบช่วงล่าง\nเสริมความแข็งแรง"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "ระบบช่วงล่างน้ำหนักเบา"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "ระบบช่วงล่าง\nน้ำหนักเบา"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "การเจียรเฟืองขับปืน"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "การเจียร\nเฟืองขับปืน"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "การปรับภาพเหลื่อม"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "การปรับ\nภาพเหลื่อม"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "การปรับเครื่องดีดปลอก"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "การปรับ\nเครื่องดีดปลอก"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "กล้องปริทรรศน์มุมฉาก"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "กล้องปริทรรศน์\nมุมฉาก"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "การปรับกลไกบรรจุกระสุน"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "การปรับกลไก\nบรรจุกระสุน"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "การปรับกลไกการเล็ง"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "การปรับกลไก\nการเล็ง"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "การปรับเพลาอำนวยกำลัง"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "การปรับ\nเพลาอำนวยกำลัง"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "ชุดฟันเฟืองขับระบบเล็งไฟฟ้า"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "ชุดฟันเฟืองขับระบบเล็ง\nไฟฟ้า"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "เฟืองขับเล็งปืนใหม่"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "เฟือง\nขับเล็งปืนใหม่"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "การปรับแก้รังเพลิง"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "การปรับแก้\nรังเพลิง"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "การลดน้ำหนักโดยรวม"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "การลดน้ำหนัก\nโดยรวม"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "การเพิ่มความทนทานรวม"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "การเพิ่ม\nความทนทานรวม"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "สีทาแบบด้าน"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "สีทา\nแบบด้าน"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "เกียร์ถอยหลังเสริม"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "เกียร์\nถอยหลังเสริม"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "เครื่องยนต์เพลาลูกเบี้ยวเหนือสูบ"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "เครื่องยนต์\nเพลาลูกเบี้ยวเหนือสูบ"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "เครื่องป้อนกระสุนปรับปรุง"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "เครื่องป้อน\nกระสุนปรับปรุง"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "ฉนวนลดเสียงเพิ่มเติม"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "ฉนวนลดเสียง\nเพิ่มเติม"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "การถอดส่วนบุรอง"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "การถอด\nส่วนบุรอง"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "ระบบความปลอดภัยช่วย"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "ระบบ\nความปลอดภัยช่วย"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "จุดติดตั้งน้ำหนักเบา"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "จุดติดตั้ง\nน้ำหนักเบา"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "การเดินสายอุปกรณ์จ่ายไฟใหม่ (จัดแบบ 1)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "การเดินสายอุปกรณ์\nจ่ายไฟใหม่ (จัดแบบ 1)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "การเดินสายอุปกรณ์จ่ายไฟใหม่ (จัดแบบ 2)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "การเดินสายอุปกรณ์\nจ่ายไฟใหม่ (จัดแบบ 2)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "แท่นเสริมความแข็งแรง"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "แท่นเสริม\nความแข็งแรง"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "แท่นน้ำหนักเบา"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "แท่น\nน้ำหนักเบา"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "การเน้นความคล่องตัว"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "การเน้น\nความคล่องตัว"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "การเน้นอำนาจการยิง"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "การเน้น\nอำนาจการยิง"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "ปืนน้ำหนักสูง"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "ปืนน้ำหนัก\nสูง"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "ปืนน้ำหนักเบา"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "ปืนน้ำหนัก\nเบา"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "การปรับกำลังขับเครื่องยนต์ (จัดแบบ 1)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "การปรับกำลังขับ\nเครื่องยนต์ (จัดแบบ 1)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "การปรับกำลังขับเครื่องยนต์ (จัดแบบ 2)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "การปรับกำลังขับ\nเครื่องยนต์ (จัดแบบ 2)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "ตัวถังเสริมความแข็งแรง"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "ตัวถัง\nเสริมความแข็งแรง"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "ตัวถังน้ำหนักเบา"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "ตัวถังน้ำหนัก\nเบา"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "การเคลือบเลนส์กันสะท้อน"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "การเคลือบ\nเลนส์กันสะท้อน"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "ระบบสังเกตการณ์ภายนอก"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "ระบบสังเกตการณ์\nภายนอก"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "สามช่องมองมุมกว้าง"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "สามช่องมอง\nมุมกว้าง"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "อุปกรณ์สังเกตการณ์มุมแคบ"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "อุปกรณ์สังเกตการณ์\nมุมแคบ"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "โครงหลักเสริมความแข็งแรง"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "โครงหลัก\nเสริมความแข็งแรง"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "การขยายห้องป้อมปืน"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "การขยาย\nห้องป้อมปืน"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "ชุดลาดตระเวน"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "ชุด\nลาดตระเวน"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "ชุดจู่โจม"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "ชุด\nจู่โจม"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "การเสริมความทนทานก้าวหน้า"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "การเสริมความทนทาน\nก้าวหน้า"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "การปรับปรุงการเล็งก้าวหน้า"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "การปรับปรุงการเล็ง\nก้าวหน้า"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "อุปกรณ์สังเกตการณ์เสริม"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "อุปกรณ์สังเกตการณ์\nเสริม"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "จุดต่อเสริมความแข็งแรง"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "จุดต่อเสริม\nความแข็งแรง"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "การปรับกลไกบรรจุกระสุน"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "การปรับกลไก\nบรรจุกระสุน"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "การปรับกลไกการเล็ง"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "การปรับกลไก\nการเล็ง"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "การปรับเพลาอำนวยกำลัง"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "การปรับ\nเพลาอำนวยกำลัง"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "ชุดฟันเฟืองขับระบบเล็งไฟฟ้า"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "ชุดฟันเฟืองขับระบบเล็ง\nไฟฟ้า"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "การปรับแก้รังเพลิง"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "การปรับแก้\nรังเพลิง"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "เฟืองขับเล็งปืนใหม่"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "เฟือง\nขับเล็งปืนใหม่"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "การปรับระบบหัวฉีด"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "การปรับ\nระบบหัวฉีด"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "การปรับมุมการมอง"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "การปรับ\nมุมการมอง"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "การเพิ่มความทนทานชิ้นส่วน"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "การเพิ่ม\nความทนทานชิ้นส่วน"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "จุดติดตั้งโลหะผสม"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "จุดติดตั้ง\nโลหะผสม"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "การปรับแก้รังเพลิง"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "การปรับแก้\nรังเพลิง"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "เฟืองขับเล็งปืนใหม่"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "เฟือง\nขับเล็งปืนใหม่"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "หัวฉีดปรับขนาดใหญ่"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "หัวฉีดปรับ\nขนาดใหญ่"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "ชุดกล้องความไวสูง"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "ชุดกล้อง\nความไวสูง"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "ล้อรับเสริมความแข็งแรง"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "ล้อรับ\nเสริมความแข็งแรง"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "ล้อรับน้ำหนักเบา"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "ล้อรับ\nน้ำหนักเบา"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "การปรับแต่งช่วงล่าง"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "การปรับแต่ง\nช่วงล่าง"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "การปรับแต่งเครื่องยนต์"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "การปรับแต่ง\nเครื่องยนต์"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "ชุดหน่วยล่าความเร็วสูง"
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "ชุดหน่วยล่า\nความเร็วสูง"
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "ชุดหน่วยล่าอำพราง"
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "ชุดหน่วยล่า\nอำพราง"
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "การปรับไฮดรอลิก (จัดแบบ 1)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "การปรับไฮดรอลิก\n(จัดแบบ 1)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "การปรับไฮดรอลิก (จัดแบบ 2)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "การปรับไฮดรอลิก\n(จัดแบบ 2)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "การปรับกลไกบรรจุกระสุน"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "การปรับกลไก\nบรรจุกระสุน"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "การปรับกลไกการเล็ง"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "การปรับกลไก\nการเล็ง"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "การเพิ่มความสามารถอยู่รอด"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "การเพิ่มความสามารถ\nอยู่รอด"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "การลดน้ำหนัก"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "การลด\nน้ำหนัก"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "ระบบช่วงล่างทุกภูมิประเทศ"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "ระบบช่วงล่าง\nทุกภูมิประเทศ"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "ระบบช่วงล่างน้ำหนักเบา"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "ระบบช่วงล่าง\nน้ำหนักเบา"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "การปรับภาพเหลื่อม"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "การปรับ\nภาพเหลื่อม"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "การเจียรเฟืองขับปืน"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "การเจียร\nเฟืองขับปืน"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "ฉนวนลดเสียง"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "ฉนวน\nลดเสียง"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "ระบบขับกล้องปริทรรศน์ไฟฟ้า"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "ระบบขับ\nกล้องปริทรรศน์ไฟฟ้า"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "การปรับวาล์ว (จัดแบบ 1)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "การปรับวาล์ว\n(จัดแบบ 1)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "การปรับวาล์ว (จัดแบบ 2)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "การปรับวาล์ว\n(จัดแบบ 2)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "การปรับกลไกบรรจุกระสุน"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "การปรับกลไก\nบรรจุกระสุน"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "การปรับกลไกการเล็ง"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "การปรับกลไก\nการเล็ง"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "การเสริมการป้องกันกระเทาะ"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "การเสริม\nการป้องกันกระเทาะ"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "การป้องกันกระเทาะน้ำหนักเบา"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "การป้องกันกระเทาะ\nน้ำหนักเบา"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "การเพิ่มความทนทานชิ้นส่วน"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "การเพิ่ม\nความทนทานชิ้นส่วน"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "จุดติดตั้งโลหะผสม"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "จุดติดตั้ง\nโลหะผสม"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "การปรับแขนเต้นช่วงล่าง"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "การปรับ\nแขนเต้นช่วงล่าง"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "ศูนย์เล็งรุ่นปรับปรุง"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "ศูนย์เล็ง\nรุ่นปรับปรุง"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "การปรับตัวอัดบรรจุอากาศเทอร์โบ"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "การปรับ\nตัวอัดบรรจุอากาศเทอร์โบ"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "การเคลือบไฟหน้ากันสะท้อน"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "การเคลือบ\nไฟหน้ากันสะท้อน"
+
+msgid "selfBuff/battleDescr"
+msgstr "ในเวลา %(duration)s วินาที ลดการกระจายของกระสุนและเวลาการเล็งอีก %(gunAimingTime)sและเพิ่มการปรับเสถียรปืนและอัตราการยิง\n\n*ไม่มีผลกับเวลาระหว่างการยิงกระสุนและการบรรจุกระสุนนัดถัดไปในโม่กระสุน, ปืนหรือตับกระสุน"
+
+msgid "selfBuff/descr"
+msgstr "ในเวลา %(duration)s วินาที ลดการกระจายของกระสุนและเวลาการเล็งอีก %(gunAimingTime)sและเพิ่มการปรับเสถียรปืนและอัตราการยิง\n\n*ไม่มีผลกับเวลาระหว่างการยิงกระสุนและการบรรจุกระสุนนัดถัดไปในโม่กระสุน, ปืนหรือตับกระสุน"
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}ในเวลา %(duration)s วินาที {whiteSpanish_Close} ลดการกระจายของกระสุนและเวลา{green_Open}การเล็งอีก %(gunAimingTime)s{green_Close}และเพิ่มการปรับเสถียรปืนและอัตราการยิง\n\n*ไม่มีผลกับเวลาระหว่างการยิงกระสุนและการบรรจุกระสุนนัดถัดไปในโม่กระสุน, ปืนหรือตับกระสุน"
+
+msgid "selfBuff/name"
+msgstr "การติดตามเป้าหมาย"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}ในเวลา %(duration)s วินาที {whiteSpanish_Close} ลดการกระจายของกระสุนและเวลา{green_Open}การเล็งอีก %(gunAimingTime)s{green_Close}และเพิ่มการปรับเสถียรปืนและอัตราการยิง\n\n*ไม่มีผลกับเวลาระหว่างการยิงกระสุนและการบรรจุกระสุนนัดถัดไปในโม่กระสุน, ปืนหรือตับกระสุน"
+
+msgid "shells_consumables_switch/name"
+msgstr "การตั้งค่าตัวเลือก: การติดตั้งหลัก"
+
+msgid "shotPassion/battleDescr"
+msgstr "เป็นเวลา %(duration)s วินาที ลดประสิทธิภาพรางขับปืนและการปรับเสถียรของคุณลง %(gunAimingTime)s แต่การเจาะเกราะที่คุณทำได้จะเพิ่มความเสียหายที่ทำอีก %(damageIncreasePerShot)s เกิดขึ้นซ้ำได้ 5 ครั้ง การยิงและไม่ทำความเสียหายหรือไม่เข้าเป้าจะตั้งโบนัสความเสียหายใหม่เป็น 0\n\n*พลังสายฟ้าที่เข้าข้าศึกจะนับเข้าขั้นโบนัสความเสียหายด้วย"
+
+msgid "shotPassion/descr"
+msgstr "เป็นเวลา %(duration)s วินาที ลดประสิทธิภาพรางขับปืนและการปรับเสถียรของคุณลง %(gunAimingTime)s แต่การเจาะเกราะที่คุณทำได้จะเพิ่มความเสียหายที่ทำอีก %(damageIncreasePerShot)s เกิดขึ้นซ้ำได้ 5 ครั้ง การยิงและไม่ทำความเสียหายหรือไม่เข้าเป้าจะตั้งโบนัสความเสียหายใหม่เป็น 0\n\n*พลังสายฟ้าที่เข้าข้าศึกจะนับเข้าขั้นโบนัสความเสียหายด้วย"
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}เป็นเวลา %(duration)s วินาที{whiteSpanish_Close} ลดประสิทธิภาพรางขับปืนและการปรับเสถียรของคุณ{red_Open}ลง %(gunAimingTime)s{red_Close} แต่การเจาะเกราะที่คุณทำได้จะเพิ่มความเสียหายที่ทำ{green_Open}อีก %(damageIncreasePerShot)s{green_Close} เกิดขึ้น{whiteSpanish_Open}ซ้ำได้ 5 ครั้ง{whiteSpanish_Close} การยิงและไม่ทำความเสียหายหรือไม่เข้าเป้าจะตั้งโบนัสความเสียหายใหม่เป็น 0 \n\n*พลังสายฟ้าที่เข้าข้าศึกจะนับเข้าขั้นโบนัสความเสียหายด้วย"
+
+msgid "shotPassion/name"
+msgstr "พลังฮึกเหิม"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}เป็นเวลา %(duration)s วินาที{whiteSpanish_Close} ลดประสิทธิภาพรางขับปืนและการปรับเสถียรของคุณ{red_Open}ลง %(gunAimingTime)s{red_Close} แต่การเจาะเกราะที่คุณทำได้จะเพิ่มความเสียหายที่ทำ{green_Open}อีก %(damageIncreasePerShot)s{green_Close} เกิดขึ้น{whiteSpanish_Open}ซ้ำได้ 5 ครั้ง{whiteSpanish_Close} การยิงและไม่ทำความเสียหายหรือไม่เข้าเป้าจะตั้งโบนัสความเสียหายใหม่เป็น 0 \n\n*พลังสายฟ้าที่เข้าข้าศึกจะนับเข้าขั้นโบนัสความเสียหายด้วย"
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "ความสามารถสัมผัสที่หกถูกใช้งาน 1 วินาทีก่อนปกติ"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "สัมผัสที่หกจะทำให้ผู้การรถถังสามารถระบุได้ว่าพาหนะของตนถูกพบโดยข้าศึกแล้วหรือยัง ใช้งาน 3 วินาทีหลังจากพาหนะของคุณถูกพบ"
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "ความสามารถสัมผัสที่หกทำให้ผู้บังคับการสามารถรู้ได้ว่าข้าศึกพบยานเกราะของตนในระหว่างการรบแล้วหรือยัง คำสั่งที่ติดตั้งไว้จะเพิ่มผลของความสามารถ"
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "เพ่งสมาธิ"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "เพิ่มผลของคุณลักษณะสัมผัสที่หกของผู้การ"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "รักษาอาการบาดเจ็บของสมาชิกพลรถถังทุกนายและลบสภาวะมึนงง"
+
+msgid "smallMedkit/long_special"
+msgstr "ทำการรักษาพลรถถังที่ได้รับบาดเจ็บทั้งหมดและลบสภาวะมึนงงเมื่อสั่งใช้งาน เหมาะสำหรับพาหนะทุกชนิดของทุกชาติ ยุทธปัจจัยนี้จะถูกลบไปหลังการรบหากมีการใช้อย่างน้อยหนึ่งครั้ง"
+
+msgid "smallMedkit/name"
+msgstr "ชุดปฐมพยาบาลเล็ก"
+
+msgid "smallMedkit/onUse"
+msgstr "รักษาอาการบาดเจ็บของสมาชิกพลรถถังทุกนายและลบสภาวะมึนงง"
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "รักษาอาการบาดเจ็บของสมาชิกพลรถถังทุกนายและลบสภาวะมึนงง"
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "รักษาพลรถถังที่ได้รับบาดเจ็บทุกนายและลบสภาวะมึนงง"
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "ซ่อมชิ้นส่วนที่เสียหายทั้งหมด"
+
+msgid "smallRepairkit/long_special"
+msgstr "ทำการซ่อมชิ้นส่วนที่เสียหายทั้งหมดเมื่อสั่งใช้งาน เหมาะกับพาหนะทุกชนิดของทุกชาติ ยุทธปัจจัยนี้จะถูกลบภายหลังการรบหากมีการใช้อย่างน้อยหนึ่งครั้ง"
+
+msgid "smallRepairkit/name"
+msgstr "ชุดเครื่องมือเล็ก"
+
+msgid "smallRepairkit/onUse"
+msgstr "ทำการซ่อมชิ้นส่วนที่เสียหายทั้งหมด เหมาะกับพาหนะทุกชนิดของทุกชาติ ยุทธปัจจัยนี้จะถูกลบภายหลังการรบหากมีการใช้อย่างน้อยหนึ่งครั้ง"
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "ซ่อมชิ้นส่วนที่เสียหายทั้งหมด"
+
+msgid "smoke/longDescr"
+msgstr "วางม่านควันที่ปกปิดพาหะนทั้งหมดที่อยู่ภายในและหลังม่านควัน พาหนะข้าศึกที่อยู่ในม่านควันจะมีระยะการมองเห็นและสมรรถนะพลรถถังลดลง"
+
+msgid "smoke/name"
+msgstr "ม่านควัน"
+
+msgid "smoke/shortDescr"
+msgstr "ม่านควันจะซ่อนพาหนะทั้งหมดที่อยู่ในหรือหลังควัน ข้าศึกที่อยู่ในควันจะมีระยะการมองและสมรรถนะพลรถถังลดลง"
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "เพิ่มผลของความสามารถการขับอย่างราบรื่นเป็นสองเท่า"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "ทำให้ความสามารถการขับอย่างราบรื่นฝึกถึง 100%"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "ความสามารถการขับอย่างนุ่มนวลจะเพิ่มความแม่นยำเมื่อทำการยิงขณะเคลื่อนที่ตลอดช่วงการรบ เมื่อความสามารถถูกฝึกถึง 100% คำสั่งที่ติดตั้งเอาไว้จะเพิ่มผลของความสามารถนี้ ถ้าไม่เช่นนั้น คำสั่งจะทำให้พาหนะของคุณมีความสามารถนี้ฝึกถึง 100%"
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "ความซับซ้อนของกระปุกเกียร์"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "ทำให้ความสามารถการขับอย่างราบรื่นฝึกถึง 100% หรือเพิ่มผลของความสามารถนี้"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "เพิ่มผลของความสามารถยิงเร็วเป็นสองเท่า"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "ทำให้ความสามารถยิงเร็วฝึกถึง 100%"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "ความสามารถยิงเร็วจะเพิ่มความแม่นยำขณะหมุนป้อมปืนตลอดช่วงการรบ เมื่อความสามารถถูกฝึกถึง 100% คำสั่งที่ติตดั้งไว้จะเพิ่มผลของความสามารถ ถ้าไม่เช่นนั้น คำสั่งจะทำให้พาหนะของคุณมีความสามารถนี้ถูกฝึกถึง 100%"
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "มือนิ่ง"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "ทำให้ความสามารถยิงเร็วฝึกถึง 100% หรือเพิ่มผลของความสามารถนี้"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "ทำการปล่อยทุ่นระเบิดเคลื่อนที่เองที่จะไล่ตามข้าศึกที่อยู่ใกล้ที่สุดเป็นเวลาถึง %(botLifeTime)s วินาทีและทำความเสียหาย 400 ถึง 600 หน่วยในรัศมีใกล้ๆเมื่อระเบิด\n\n*ข้าศึกสามารถทำลายลูกไฟของคุณด้วยการยิงใส่หรือพุ่งชน ลูกไฟเหล่านี้จะทำความเสียหายพุ่งชนเพิ่มเติมเมื่อแล่นถึงเป้าหมาย"
+
+msgid "spawn_kamikaze/descr"
+msgstr "ทำการปล่อยทุ่นระเบิดเคลื่อนที่เองที่จะไล่ตามข้าศึกที่อยู่ใกล้ที่สุดเป็นเวลาถึง %(botLifeTime)s วินาทีและทำความเสียหาย 400 ถึง 600 หน่วยในรัศมีใกล้ๆเมื่อระเบิด\n\n*ข้าศึกสามารถทำลายลูกไฟของคุณด้วยการยิงใส่หรือพุ่งชน ลูกไฟเหล่านี้จะทำความเสียหายพุ่งชนเพิ่มเติมเมื่อแล่นถึงเป้าหมาย"
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "ทำการปล่อยทุ่นระเบิดเคลื่อนที่เองที่จะไล่ตามข้าศึกที่อยู่ใกล้ที่สุดเป็นเวลาถึง {whiteSpanish_Open}%(botLifeTime)s วินาที{whiteSpanish_Close}และทำความเสียหาย{whiteSpanish_Open} 400 ถึง 600 หน่วย{whiteSpanish_Close}ในรัศมีใกล้ๆเมื่อระเบิด\n\n*ข้าศึกสามารถทำลายลูกไฟของคุณด้วยการยิงใส่หรือพุ่งชน ลูกไฟเหล่านี้จะทำความเสียหายพุ่งชนเพิ่มเติมเมื่อแล่นถึงเป้าหมาย"
+
+msgid "spawn_kamikaze/name"
+msgstr "ลูกไฟ"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "ทำการปล่อยทุ่นระเบิดเคลื่อนที่เองที่จะไล่ตามข้าศึกที่อยู่ใกล้ที่สุดเป็นเวลาถึง {whiteSpanish_Open}%(botLifeTime)s วินาที{whiteSpanish_Close}และทำความเสียหาย{whiteSpanish_Open} 400 ถึง 600 หน่วย{whiteSpanish_Close}ในรัศมีใกล้ๆเมื่อระเบิด\n\n*ข้าศึกสามารถทำลายลูกไฟของคุณด้วยการยิงใส่หรือพุ่งชน ลูกไฟเหล่านี้จะทำความเสียหายพุ่งชนเพิ่มเติมเมื่อแล่นถึงเป้าหมาย"
+
+msgid "stealthRadar/descr"
+msgstr "มอบโบนัสให้กับการซ่อนตัวและระยะการมองเห็น ลดการซ่อนตัวของพาหนะข้าศึก"
+
+msgid "stealthRadar/long_descr"
+msgstr "เพิ่มค่าการซ่อนตัวให้กับพาหนะของคุณ %(activationDelay)s วินาทีหลังจากที่พาหนะหยุดอยู่นิ่งและลดการซ่อนตัวของพาหนะข้าศึก เพิ่มโบนัสให้กับระยะการมองเห็นและตรวจจับทุ่นระเบิดของข้าศึก ใช้ไม่ได้ระหว่างที่พาหนะกำลังแล่น"
+
+msgid "stealthRadar/name"
+msgstr "การเฝ้าระวัง"
+
+msgid "stealthRadar/short_descr"
+msgstr "มอบโบนัสให้กับการซ่อนตัวและระยะการมองเห็น ลดการซ่อนตัวของพาหนะข้าศึก"
+
+msgid "stereoscope/battleDescr"
+msgstr "เพิ่มระยะการมองเห็นของพาหนะอยู่นิ่ง 3 วินาทีหลังจากที่ได้หยุดรถ (เพิ่มถึง 445 เมตร)"
+
+msgid "stereoscope/long_special"
+msgstr "ระยะการมองเห็นที่ดีจะทำให้พาหนะได้เปรียบในการรบ อุปกรณ์ชนิดนี้จะมีประโยชน์กับยานพิฆาตรถถังที่มีรูปทรงต่ำและมีปืนที่แม่นยำ อุปกรณ์จะทำงานภายในเวลา 3 วินาทีหลังจากที่พาหนะเริ่มอยู่นิ่ง"
+
+msgid "stereoscope/name"
+msgstr "กล้องโทรทัศน์สองตา"
+
+msgid "stereoscope_tier1/name"
+msgstr "กล้องสองตา ชั้น 1"
+
+msgid "stereoscope_tier2/name"
+msgstr "กล้องสองตา ชั้น 2"
+
+msgid "stereoscope_tier3/name"
+msgstr "กล้องสองตา ชั้น 3"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "การเปลี่ยนชิ้นส่วนช่วงล่าง (ชนิด 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "การเปลี่ยนชิ้นส่วนช่วงล่าง (ชนิด 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "การเจียรกลไกการหมุน (ชนิด 1)"
+
+msgid "tankRammer/name"
+msgstr "เครื่องป้อนกระสุน"
+
+msgid "tankRammer_tier1/name"
+msgstr "เครื่องป้อนกระสุน ชั้น 1"
+
+msgid "tankRammer_tier2/name"
+msgstr "เครื่องป้อนกระสุน ชั้น 2"
+
+msgid "thunderStrike/battleDescr"
+msgstr "สร้างเขตที่%(thunderCount)sปล่อยไฟฟ้าความถี่สูงขึ้นมา การปล่อยไฟฟ้าแต่ละครั้งจะทำความเสียหาย%(damage)s หน่วยและลดความคล่องตัวพาหนะข้าศึกทั้งหมดที่อยู่ในพื้นที่แสดงผลของความสามารถเป็นการชั่วคราว\n\n*จะมีเวลาหน่วง %(delay)s วินาทีระหว่างการเปิดใช้งานความสามารถและการปล่อยครั้งแรก ผลเสียสามารถถูกลบได้ด้วยชุดซ่อมแซม"
+
+msgid "thunderStrike/descr"
+msgstr "สร้างเขตที่%(thunderCount)sปล่อยไฟฟ้าความถี่สูงขึ้นมา การปล่อยไฟฟ้าแต่ละครั้งจะทำความเสียหาย%(damage)s หน่วยและลดความคล่องตัวพาหนะข้าศึกทั้งหมดที่อยู่ในพื้นที่แสดงผลของความสามารถเป็นการชั่วคราว\n\n*จะมีเวลาหน่วง %(delay)s วินาทีระหว่างการเปิดใช้งานความสามารถและการปล่อยครั้งแรก ผลเสียสามารถถูกลบได้ด้วยชุดซ่อมแซม"
+
+msgid "thunderStrike/longDescr"
+msgstr "สร้างเขตที่%(thunderCount)sปล่อยไฟฟ้าความถี่สูงขึ้นมา การปล่อยไฟฟ้าแต่ละครั้งจะทำความเสียหาย{whiteSpanish_Open}%(damage)s หน่วย{whiteSpanish_Close}และลดความคล่องตัวพาหนะข้าศึกทั้งหมดที่อยู่ในพื้นที่แสดงผลของความสามารถเป็นการชั่วคราว\n\n*จะมีเวลาหน่วง %(delay)s วินาทีระหว่างการเปิดใช้งานความสามารถและการปล่อยครั้งแรก ผลเสียสามารถถูกลบได้ด้วยชุดซ่อมแซม"
+
+msgid "thunderStrike/name"
+msgstr "วงสายฟ้า"
+
+msgid "thunderStrike/shortDescr"
+msgstr "สร้างเขตที่%(thunderCount)sปล่อยไฟฟ้าความถี่สูงขึ้นมา การปล่อยไฟฟ้าแต่ละครั้งจะทำความเสียหาย{whiteSpanish_Open}%(damage)s หน่วย{whiteSpanish_Close}และลดความคล่องตัวพาหนะข้าศึกทั้งหมดที่อยู่ในพื้นที่แสดงผลของความสามารถเป็นการชั่วคราว\n\n*จะมีเวลาหน่วง %(delay)s วินาทีระหว่างการเปิดใช้งานความสามารถและการปล่อยครั้งแรก ผลเสียสามารถถูกลบได้ด้วยชุดซ่อมแซม"
+
+msgid "trappoint/battleDescr"
+msgstr "เป็นเวลา %(duration)s วินาที สร้างพื้นที่ที่ลดค่าความคล่องตัวลง %(vehicleMaxSpeed)s และเพิ่มเวลาบรรจุกับเล็งปืนอีก %(gunReloadTime)s สำหรับพาหนะข้าศึกทุกคันที่อยู่ในพื้นที่ดังกล่าว"
+
+msgid "trappoint/descr"
+msgstr "เป็นเวลา %(duration)s วินาที สร้างพื้นที่ที่ลดค่าความคล่องตัวลง %(vehicleMaxSpeed)s และเวลาบรรจุกับเล็งปืนลง %(gunReloadTime)s สำหรับพาหนะข้าศึกทุกคันที่อยู่ในพื้นที่ดังกล่าว"
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}เป็นเวลา %(duration)s วินาที{whiteSpanish_Close} สร้างพื้นที่ที่ลดค่าความคล่องตัว{whiteSpanish_Open}ลง %(vehicleMaxSpeed)s{whiteSpanish_Close} และเวลาบรรจุกับเล็งปืน{whiteSpanish_Open}ลง %(gunReloadTime)s{whiteSpanish_Close} สำหรับพาหนะข้าศึกทุกคันที่อยู่ในพื้นที่ดังกล่าว"
+
+msgid "trappoint/name"
+msgstr "กับดัก"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}เป็นเวลา %(duration)s วินาที{whiteSpanish_Close} สร้างพื้นที่ที่ลดค่าความคล่องตัว{whiteSpanish_Open}ลง %(vehicleMaxSpeed)s{whiteSpanish_Close} และเพิ่มเวลาบรรจุกับเล็งปืน{whiteSpanish_Open}ลง %(gunReloadTime)s{whiteSpanish_Close} สำหรับพาหนะข้าศึกทุกคันที่อยู่ในพื้นที่ดังกล่าว"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "ประสิทธิภาพนั้นขึ้นกับชนิดของพาหนะ เพิ่มการอำพรางสำหรับพาหนะที่อยู่นิ่งหรือกำลังแล่น มีประโยชน์สำหรับการชี้เป้าแบบเคลื่อนที่รวมไปถึงการชี้เป้าแบบอยู่นิ่งในตำแหน่งเสี่ยง"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "ระบบไอเสียเงินรางวัล"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "เพิ่มการอำพรางตัวของพาหนะที่อยู่นิ่งหรือกำลังแล่น"
+
+msgid "trophyBasicAimDrives/name"
+msgstr "รางขับปืนเงินรางวัล"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "เพิ่มความเร็วการเล็งปืนเพื่อให้ยิงอย่างแม่นยำได้ไวขึ้น"
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "ตัวปรับเสถียรเงินรางวัล"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "ลดการกระจายของกระสุนขณะยิงกำลังแล่นหรือหมุนตัวถังพาหนะ"
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "กล้องเล็งเงินรางวัล"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "ขยายระยะการมองเห็นของทั้งพาหนะที่อยู่นิ่งและกำลังแล่น"
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "คืนความทนทานระบบช่วงล่างโดยสมบูรณ์หลังการซ่อม"
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "คืนสภาพระบบช่วงล่างภายหลังซ่อม"
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "เพิ่มความทนทานพาหนะและความเร็วการซ่อม ลดความเสียหายตัวถังจากความเสียหายของช่วงล่างเมื่อพุ่งปะทะ คืนความทนทานระบบช่วงล่างโดยสมบูรณ์หลังการซ่อม ลดโอกาสตีนตะขาบถูกทำลายเมื่อได้รับความเสียหาย ทำให้พาหนะของคุณแล่นได้นานที่สุดเท่าที่จะเป็นไปได้"
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "การเสริมความแข็งแรงเงินรางวัล"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "เพิ่มความทนทานพาหนะและป้องกันช่วงล่าง"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "วิทยาการป้องกันเงินรางวัล"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "กลไกการหมุนเงินรางวัล"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "ลดขนาดของวงการเล็งเพือเพิ่มความแม่นยำของปืนที่กำลังเล็งหรือเล็งเต็มที่ ซึ่งจะทำให้คุณมีโอกาสยิงเข้าจุดที่เล็งไว้มากขึ้น"
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "ระบบเล็งเงินรางวัล"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "ลดการกระจายของกระสุน"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "ระบบระบายอากาศเงินรางวัล"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "เพิ่มประสิทธิภาพของพลรถถังซึ่งมีผลในทางบวกกับคุณลักษณะส่วนใหญ่ของพาหนะ"
+
+msgid "trophyBasicTankRammer/name"
+msgstr "เครื่องป้อนกระสุนเงินรางวัล"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "เร่งการบรรจุกระสุนของปืน ไม่มีข้อจำกัดของชั้น"
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "เพิ่มกำลังเครื่องยนต์ เพิ่มอัตราการเร่งเครื่อง การแล่นหลบหลีกและการไต่เนินภูมิประเทศ เพิ่มความเร็วเดินหน้าและถอยหลังของพาหนะ ทำให้คุณสามารถเข้าตำแหน่งและหนีข้าศึกได้เร็วขึ้น"
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "ตัวอัดอากาศเทอร์โบเงินรางวัล"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "เพิ่มกำลังเครื่องยนต์เและความเร็วสูงสุด"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} ให้กับระยะการมองเห็นถึง 445 เมตร"
+
+msgid "trophyOptics/name"
+msgstr "กล้องเล็งเงินรางวัล"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "ระบบไอเสียเงินรางวัล"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "รางขับปืนเงินรางวัล"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "ตัวปรับเสถียรเงินรางวัล"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "กล้องเล็งเงินรางวัล"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "คืนความทนทานระบบช่วงล่างโดยสมบูรณ์หลังการซ่อม"
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "คืนสภาพระบบช่วงล่างภายหลังทำการซ่อม"
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "การเสริมความแข็งแรงเงินรางวัล"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "วิทยาการป้องกันเงินรางวัล"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "กลไกการหมุนเงินรางวัล"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "ระบบเล็งเงินรางวัล"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "ระบบระบายอากาศเงินรางวัล"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "เครื่องป้อนกระสุนเงินรางวัล"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "ตัวอัดอากาศเทอร์โบเงินรางวัล"
+
+msgid "turbocharger/long_special"
+msgstr "เพิ่มกำลังเครื่องยนต์ เพิ่มอัตราการเร่งเครื่อง การแล่นหลบหลีกและการไต่เนินภูมิประเทศ เพิ่มความเร็วเดินหน้าและถอยหลังของพาหนะ ทำให้คุณสามารถเข้าตำแหน่งและหนีข้าศึกได้เร็วขึ้น"
+
+msgid "turbocharger/name"
+msgstr "ตัวอัดบรรจุอากาศเทอร์โบ"
+
+msgid "turbocharger/short_special"
+msgstr "เพิ่มกำลังเครื่องยนต์เและความเร็วสูงสุด"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s ให้กับกำลังเครื่องยนต์เมื่อติดตั้งตัวอัดบรรจุอากาศเทอร์โบ (ชั้นใดก็ได้), ตัวอัดอากาศเทอร์โบเงินรางวัล, เครื่องอัดอากาศรุ่นปรับปรุงหรือระบบปรับปรุงความคล่องตัว เอาไว้"
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "เพิ่มผลของตัวอัดบรรจุอากาศเทอร์โบ, ตัวอัดอากาศเทอร์โบเงินรางวัลหรือเครื่องอัดอากาศรุ่นปรับปรุงตลอดช่วงการรบหนึ่งครั้ง คำสั่งนี้จะมีผลต่อเมื่อคุณได้ติดตั้งอุปกรณ์ดังกล่าวเอาไว้"
+
+msgid "turbochargerBattleBooster/name"
+msgstr "การเปลี่ยนไส้กรองเชื้อเพลิง"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "เพิ่มกำลังเครื่องยนต์"
+
+msgid "turbocharger_tier1/name"
+msgstr "ตัวอัดอากาศเทอร์โบ ชั้น 1"
+
+msgid "turbocharger_tier2/name"
+msgstr "ตัวอัดอากาศเทอร์โบ ชั้น 2"
+
+msgid "turbocharger_tier3/name"
+msgstr "ตัวอัดอากาศเทอร์โบ ชั้น 3"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "เพิ่มผลของความสามารถเบรกด้วยคลัทช์เป็นสองเท่า"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "ทำให้ความสามารถเบรกด้วยคลัทช์ฝึกถึง 100%"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "ความสามารถการเบรกด้วยคลัตช์จะเพิ่มความเร็วการหมุนตัวของพาหนะที่อยู่นิ่งและกำลังเคลื่อนที่ตลอดช่วงการรบ เมื่อความสามารถถูกฝึกถึง 100% คำสั่งที่ติดตั้งไว้จะเพิ่มผลของความสามารถนี้ ถ้าไม่เช่นนั้น คำสั่งจะทำให้พาหนะของคุณมีความสามารถนี้ฝึกถึง 100%"
+
+msgid "virtuosoBattleBooster/name"
+msgstr "วิชาการรบ"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "ทำให้ความสามารถเบรกด้วยคลัทช์ฝึกถึง 100% หรือเพิ่มผลของความสามารถนี้"

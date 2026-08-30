@@ -1,0 +1,17 @@
+from __future__ import absolute_import
+import logging
+from Event import Event
+from script_component.DynamicScriptComponent import DynamicScriptComponent
+_logger = logging.getLogger(__name__)
+
+class LiveTagsInfoComponent(DynamicScriptComponent):
+
+    def __init__(self):
+        super(LiveTagsInfoComponent, self).__init__()
+        self.onStateUpdate = Event()
+        return
+
+    def set_liveTags(self, _):
+        _logger.debug(b'[COMMS][LiveTag] Arena.TeamInfo.set_liveTags: %s', self.liveTags)
+        self.onStateUpdate()
+        return

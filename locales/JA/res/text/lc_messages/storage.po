@@ -1,0 +1,353 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprints/buttonLabel/gotoblueprints"
+msgstr "設計図へ"
+
+msgid "blueprints/card/additional"
+msgstr "以下のいずれか"
+
+msgid "blueprints/card/convertAvailable"
+msgstr "作成できる車輌ピース: %(count)s個"
+
+msgid "blueprints/card/convertRequired"
+msgstr "ピースが不足しています"
+
+msgid "blueprints/card/plus"
+msgstr "+"
+
+msgid "blueprints/carousel/title"
+msgstr "作成可能な設計図"
+
+msgid "blueprints/checkbox/label"
+msgstr "ピースを作成可能な車輌"
+
+msgid "blueprints/nationBar/title"
+msgstr "汎用ピースと国別ピース"
+
+msgid "blueprints/noItems/discount/body"
+msgstr "車輌設計図のピースを1つ集める度にその車輌の研究に必要なEXPが減少します。設計図を完成させると、EXPなしでその車輌を研究できるようになります。"
+
+msgid "blueprints/noItems/discount/header"
+msgstr "研究に必要なEXPが減少"
+
+msgid "blueprints/noItems/fill/body"
+msgstr "汎用ピースと国別ピースを使用して特定の車輌の設計図のピースを作成できます。"
+
+msgid "blueprints/noItems/fill/header"
+msgstr "車輌設計図のピースの作成"
+
+msgid "blueprints/noItems/receive/body"
+msgstr "ミッションを達成すると設計図のピースを入手できる場合があります。すでに研究済みの車輌の設計図を入手した場合、自動的に汎用ピースまたは国別ピースに変換されます。"
+
+msgid "blueprints/noItems/receive/header"
+msgstr "ピースの収集"
+
+msgid "blueprints/title"
+msgstr "収集した設計図のピース"
+
+msgid "buttonDeconstruct/tooltip/body"
+msgstr "「ワークベンチ」に移動して拡張パーツをコンポーネントに分解します。"
+
+msgid "buttonDeconstruct/tooltip/header"
+msgstr "分解"
+
+msgid "buttonLabel/activate"
+msgstr "使用する"
+
+msgid "buttonLabel/preview"
+msgstr "プレビュー"
+
+msgid "buttonLabel/remove"
+msgstr "解除"
+
+msgid "buttonLabel/restore"
+msgstr "リカバリーに移動"
+
+msgid "buttonLabel/select"
+msgstr "選択"
+
+msgid "buttonLabel/sell"
+msgstr "売却"
+
+msgid "buttonSell/tooltip/body"
+msgstr "拡張パーツを売却します。"
+
+msgid "buttonSell/tooltip/header"
+msgstr "売却"
+
+msgid "buttonUpgrade/tooltip/body"
+msgstr "拡張パーツの特性をアップグレードしましょう。"
+
+msgid "card/attachment/hover/partOfBundle/label"
+msgstr "%(bundleName)sに収録されています。\n搭載できる車輌の一覧については「塗装」画面の「3D付属品」セクションをご確認ください。"
+
+msgid "card/cannotSellTitle"
+msgstr "売却不能"
+
+msgid "card/vehicle/hover/maxAdditionalPriceLabel"
+msgstr "+ 返還額:"
+
+msgid "card/vehicle/hover/restoreAvailableLabel"
+msgstr "リカバリー可能"
+
+msgid "card/vehicle/tradeOffPriceLabel"
+msgstr "査定額:"
+
+msgid "crewBooks/filters/nation"
+msgstr "国"
+
+msgid "crewBooks/filters/nation/all"
+msgstr "全て"
+
+msgid "crewBooks/filters/title"
+msgstr "タイプ"
+
+msgid "crewBooks/noItems/info"
+msgstr "まだ搭乗員教本がありません。ミッション達成報酬として獲得できます。"
+
+msgid "customization/noItems/navigationButton"
+msgstr "塗装に移動"
+
+msgid "customization/noItems/title"
+msgstr "ガレージに所有中のどの車輌とも互換性のないカスタマイズ要素を表示"
+
+msgid "customization/sectionTitle"
+msgstr "塗装"
+
+msgid "customizationSuitable/label"
+msgstr "互換性のある車輌: "
+
+msgid "customizationSuitableForAll/label"
+msgstr "全車輌と互換性あり"
+
+msgid "devices/filters/all"
+msgstr "全拡張パーツ"
+
+msgid "devices/filters/deluxe"
+msgstr "ボンズ"
+
+msgid "devices/filters/modernized"
+msgstr "試作"
+
+msgid "devices/filters/simple"
+msgstr "通常"
+
+msgid "devices/filters/trophy"
+msgstr "報酬"
+
+msgid "equipment/cooldown"
+msgstr "クールダウン時間: %(cooldown)s&nbsp;秒"
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s\n%(extendedDescr)s"
+
+msgid "filter/noResultsBtn/label"
+msgstr "フィルターをリセット"
+
+msgid "filter/someTiersOnlyMessage"
+msgstr "設計図はTier II～X車輌でしか作成できません。"
+
+msgid "filter/warningMessage"
+msgstr "該当なし。設定を変更するかフィルターをリセット。"
+
+msgid "forSell/noItems/title"
+msgstr "ガレージ内の車輌に搭載できないモジュールと砲弾を表示します。"
+
+msgid "forSell/sectionTitle"
+msgstr "売却可能なモジュールと砲弾"
+
+msgid "inhangar/filterTitle"
+msgstr "表示:"
+
+msgid "inhangar/noImage"
+msgstr "画像はありません"
+
+msgid "inhangar/noItems/allTab/title"
+msgstr "ガレージに車輌がありません"
+
+msgid "inhangar/noItems/rentTab/title"
+msgstr "レンタル車輌がありません。"
+
+msgid "inhangar/noItems/restoreTab/title"
+msgstr "売却したプレミアム車輌や特別車輌をクレジットでリカバリーできます。\nリカバリー可能な車輌がありません。"
+
+msgid "inhangar/sectionTitle"
+msgstr "ガレージの車輌"
+
+msgid "inhangar/tabs/all"
+msgstr "車輌"
+
+msgid "inhangar/tabs/rent"
+msgstr "レンタル"
+
+msgid "inhangar/tabs/restore"
+msgstr "リカバリー"
+
+msgid "inventory/filterType/consumables"
+msgstr "消耗品"
+
+msgid "inventory/filterType/instructions"
+msgstr "ディレクティブ"
+
+msgid "inventory/filterType/other"
+msgstr "その他"
+
+msgid "markEverything"
+msgstr "売却するアイテムを選択:"
+
+msgid "moduleCompatible/label"
+msgstr "車輌と互換性あり:"
+
+msgid "moduleCompatible/moreVehicles"
+msgstr "...および他の車輌: %(vehCount)s"
+
+msgid "notAvailable/navigationButton"
+msgstr "ガレージに戻る"
+
+msgid "notAvailable/title"
+msgstr "インベントリにより倉庫はご利用不能"
+
+msgid "offers/expiration"
+msgstr "%(date)s %(time)sまで"
+
+msgid "offers/giftAmount"
+msgstr "選択可能な報酬: %(gifts)s"
+
+msgid "offers/giftsTitle"
+msgstr "獲得可能な報酬: %(gifts)s"
+
+msgid "offers/noItems/title"
+msgstr "現在サービスをご利用できません。\n後でもう一度試すか、ショップを訪れてみてください。"
+
+msgid "offers/sectionTitle"
+msgstr "銃後支援物資"
+
+msgid "optDevice/hover/effect"
+msgstr "{effectTagOpen}効果{effectTagClose}"
+
+msgid "personalreserves/activeCountLabel"
+msgstr "有効なリザーブ: %(activeCount)s / %(totalCount)s"
+
+msgid "personalreserves/card/activated"
+msgstr "使用中"
+
+msgid "personalreserves/card/notAvailable"
+msgstr "利用不可"
+
+msgid "personalreserves/durationFilter/btn/label"
+msgstr "%(durTime)s h"
+
+msgid "personalreserves/durationFilter/label"
+msgstr "時間:"
+
+msgid "personalreserves/filterTitle"
+msgstr "表示:"
+
+msgid "personalreserves/navigateToShopLabel"
+msgstr "ショップで購入"
+
+msgid "personalreserves/noItems/title"
+msgstr "倉庫にリザーブがありません。ショップで追加のリザーブを購入できます"
+
+msgid "personalreserves/sectionTitle"
+msgstr "パーソナルリザーブ"
+
+msgid "personalreserves/typeFilter/label"
+msgstr "タイプ"
+
+msgid "restoreTimeLeft/timeless"
+msgstr "無期限"
+
+msgid "shellCompatible/label"
+msgstr "主砲と互換性あり:"
+
+msgid "shellCompatible/moreGuns"
+msgstr "...および他の主砲: %(vehCount)s"
+
+msgid "storage/balanceLabel"
+msgstr "所有中:"
+
+msgid "storage/filterTitle"
+msgstr "表示:"
+
+msgid "storage/noItems/navigationButton"
+msgstr "ショップに移動"
+
+msgid "storage/noItems/title"
+msgstr "倉庫にアイテムがありません。ショップで購入可能です"
+
+msgid "storage/noItems/titleShort"
+msgstr "倉庫にアイテムなし"
+
+msgid "storage/sectionTitle"
+msgstr "在庫"
+
+msgid "storage/tabs/all"
+msgstr "全て"
+
+msgid "storage/tabs/consumable"
+msgstr "消耗品"
+
+msgid "storage/tabs/crewBooks"
+msgstr "搭乗員教本"
+
+msgid "storage/tabs/devices/filter/type/label"
+msgstr "カテゴリー"
+
+msgid "storage/tabs/equipment"
+msgstr "拡張パーツ"
+
+msgid "storage/tabs/modules"
+msgstr "モジュール"
+
+msgid "storage/tabs/modules/filter/appropriate/label"
+msgstr "適合:"
+
+msgid "storage/tabs/modules/filter/type/label"
+msgstr "タイプ"
+
+msgid "storage/tabs/shells"
+msgstr "砲弾"
+
+msgid "storage/tabs/shells/filter/appropriate/label"
+msgstr "適合:"
+
+msgid "storage/tabs/shells/filter/type/label"
+msgstr "タイプ"
+
+msgid "storage/vehicleSelectPopover/label"
+msgstr "ガレージから車輌を選択"
+
+msgid "stylePreview/tooltip"
+msgstr "スタイル・プレビュー"
+
+msgid "vehicleSelectPopover/noVehicles"
+msgstr "検索条件に\n該当する車輌なし"
+
+msgid "vehicleSelectPopover/tooltips/level/body"
+msgstr "車輌 Tier でソート"
+
+msgid "vehicleSelectPopover/tooltips/level/header"
+msgstr "Tier"
+
+msgid "vehicleSelectPopover/tooltips/nation/body"
+msgstr "国でソート"
+
+msgid "vehicleSelectPopover/tooltips/nation/header"
+msgstr "国"
+
+msgid "vehicleSelectPopover/tooltips/title/body"
+msgstr "車輌名でソート"
+
+msgid "vehicleSelectPopover/tooltips/title/header"
+msgstr "名称"
+
+msgid "vehicleSelectPopover/tooltips/type/body"
+msgstr "車輌タイプでソート"
+
+msgid "vehicleSelectPopover/tooltips/type/header"
+msgstr "タイプ"
+
+msgid "vehicleSelectPopover/vehicleName"
+msgstr "名称"

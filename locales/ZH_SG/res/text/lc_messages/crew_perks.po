@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "受到伤害会中断血量恢复。\n\n血量恢复率与恢复上限以战车的总血量为基准，包括所有应用的变项。"
+
+msgid "armorPatching/alt/info"
+msgstr "团体特长考量所有乘员的平均训练程度。在训练到至少1%时生效，效果随训练程度提高而逐渐增强。"
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "使用修理箱后可在5秒期间恢复战车%(hpRecover)s的{yellow_Start}血量{yellow_End}，每场战斗最多恢复20%。即便未受到严重伤害，也能使用修理箱。"
+
+msgid "armorPatching/hudDescription"
+msgstr "血量已恢复。"
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "所有乘员完成此项训练时，使用修理箱后可在5秒期间恢复战车%(hpRecover)s的{yellow_Start}血量{yellow_End}，每场战斗最多恢复20%。即便未受到严重伤害，也能使用修理箱。"
+
+msgid "armorPatching/name"
+msgstr "装甲修补"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ 提高战车的基础隐蔽性。"
+
+msgid "brotherhood/alt/description"
+msgstr "乘员熟练度加成会影响乘员的战斗效率并提升其所有已学会的特长的效果，但不适用于此特长。此参数可通过安装类似效果的装备或消耗品，或使用“空气净化设备”指令来进一步提高。车长的“应急手段”特长，以及通信兵的“并排奋战”和“通信技术”特长也能提高此参数。"
+
+msgid "brotherhood/alt/info"
+msgstr "团体特长考量所有乘员的平均训练程度。在训练到至少1%时生效，效果随训练程度提高而逐渐增强。"
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "已提高%(crewLevelIncrease)s全体乘员的{greenBright_Start}乘员熟练度加成{greenBright_End}&zwnbsp;。"
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "全体乘员完成此项训练时，提高%(crewLevelIncrease)s全体乘员的{greenBright_Start}乘员熟练度加成{greenBright_End}&zwnbsp;。"
+
+msgid "brotherhood/name"
+msgstr "兄弟连"
+
+msgid "brotherhood/shortDescription"
+msgstr "提升整体乘员表现。"
+
+msgid "camouflage/alt/description"
+msgstr "此特长影响战车的隐蔽性。可使用“自然遮盖”指令进一步增强。\n\n此外，战车隐蔽性也可通过安装具有类似效果的迷彩、风格或装备来提高。"
+
+msgid "camouflage/alt/info"
+msgstr "团体特长考量所有乘员的平均训练程度。在训练到至少1%时生效，效果随训练程度提高而逐渐增强。"
+
+msgid "camouflage/currentLvlDescription"
+msgstr "已提高%(maskingFactor)s战车{greenBright_Start}隐蔽性{greenBright_End}&zwnbsp;。"
+
+msgid "camouflage/maxLvlDescription"
+msgstr "全体乘员完成此项训练时，提高%(maskingFactor)s战车{greenBright_Start}隐蔽性{greenBright_End}&zwnbsp;。"
+
+msgid "camouflage/name"
+msgstr "伪装"
+
+msgid "camouflage/shortDescription"
+msgstr "提高战车的基础隐蔽性。"
+
+msgid "commander_coordination/alt/description"
+msgstr "效果在每次侦察到敌方战车时激活，但侦察多辆战车效果不会叠加。\n\n瞄准速度可通过训练炮手的“快速瞄准”特长或安装类似效果的装备进一步提高。"
+
+msgid "commander_coordination/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "在您侦察到敌方战车后{yellow_Start}瞄准速度{yellow_End}提高%(vehicleGunAimSpeed)s，持续15秒。"
+
+msgid "commander_coordination/hudDescription"
+msgstr "瞄准速度已提高。"
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "完成此项训练时，侦察到敌方战车后提高%(vehicleGunAimSpeed)s{yellow_Start}瞄准速度{yellow_End}，持续15秒。\t"
+
+msgid "commander_coordination/name"
+msgstr "协调合作"
+
+msgid "commander_coordination/shortDescription"
+msgstr "瞄准速度已提高。"
+
+msgid "commander_eagleEye/alt/description"
+msgstr "视野范围可通过训练通信兵的“态势感知”特长或安装类似效果的装备来进一步提高。使用“光学测定仪”指令可提升效果。"
+
+msgid "commander_eagleEye/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "已扩大%(circularVisionRadius)s{greenBright_Start}视野范围{greenBright_End}&zwnbsp;。{greenBright_Start}观察设备受损的惩罚{greenBright_End}降低%(penaltyToDamagedSurveyingDevice)s&zwnbsp;。"
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "观察设备受损的惩罚已降低。"
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "完成此项训练时，扩大%(circularVisionRadius)s{greenBright_Start}视野范围{greenBright_End}&zwnbsp;，且{greenBright_Start}观察设备受损的惩罚{greenBright_End}降低%(penaltyToDamagedSurveyingDevice)s&zwnbsp;。"
+
+msgid "commander_eagleEye/name"
+msgstr "侦查"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "提高视野范围，观测设备受损时效果更显著。"
+
+msgid "commander_emergency/alt/description"
+msgstr "重复受到同一名敌人的伤害时，效果不会叠加。乘员熟练度加成会影响乘员的战斗效率。此参数可通过安装类似效果的装备或消耗品，或使用“空气净化设备”指令来进一步提高。“兄弟连”团体特长，以及通信兵的“并排奋战”和“通信技术”特长也能提高此参数。"
+
+msgid "commander_emergency/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "受到敌方伤害后提高%(crewLevelIncrease)s{yellow_Start}乘员熟练度加成{yellow_End}，持续15秒。"
+
+msgid "commander_emergency/hudDescription"
+msgstr "乘员熟练度加成已提高。"
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "完成此项训练时，受到敌方伤害后提高%(crewLevelIncrease)s{yellow_Start}乘员熟练度加成，{yellow_End}持续15秒。"
+
+msgid "commander_emergency/name"
+msgstr "应急手段"
+
+msgid "commander_emergency/shortDescription"
+msgstr "乘员熟练度加成已提高。"
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "在敌方自行火炮射击后发起警报，但有短暂延迟。\n\n此特长可使用“高度警戒”指令进一步增强。"
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "在敌方自行火炮射击的%(artNotificationDelayFactor)s延迟后{yellow_Start}发起警报{yellow_End}并显示射击的来源方向。已降低%(stunResistanceEffectFactor)s{greenBright_Start}震晕的负面效果{greenBright_End}&zwnbsp;。"
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "完成此项训练时，在敌方自行火炮射击的\n%(artNotificationDelayFactor)s延迟后{yellow_Start}发起警报{yellow_End}并显示射击的来源方向。降低%(stunResistanceEffectFactor)s{greenBright_Start}震晕的负面效果{greenBright_End}&zwnbsp;。"
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "声音侦测"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "敌方自行火炮的射击提示。"
+
+msgid "commander_holdLine/alt/description"
+msgstr "乘员熟练度加成会提高乘员在战斗中的效率。\n\n此参数可通过安装类似效果的装备或消耗品，或使用“空气净化设备”指令来进一步提高。其他多种乘员特长也能提高此参数。"
+
+msgid "commander_holdLine/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "若敌队在战斗中战车数比我方多出至少三辆时，提高%(crewLevelIncrease)s{yellow_Start}乘员熟练度加成{yellow_End}&zwnbsp;。"
+
+msgid "commander_holdLine/hudDescription"
+msgstr "乘员熟练度加成已提高（敌方数量占优势）。"
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "完成此项训练时，若敌方团队在战斗中战车数比我方多出至少三辆，提高%(crewLevelIncrease)s{yellow_Start}乘员熟练度加成{yellow_End}&zwnbsp;。"
+
+msgid "commander_holdLine/name"
+msgstr "以寡敌众"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ 提高乘员熟练度加成"
+
+msgid "commander_practical/alt/description"
+msgstr "此特长对战车上安装的所有类型消耗品生效。\n\n其效果可使用“万全准备”指令进一步增强。"
+
+msgid "commander_practical/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "已缩短%(equipmentPreparationTime)s{greenBright_Start}消耗品冷却时间{greenBright_End}&zwnbsp;。"
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "完成此项训练时，缩短%(equipmentPreparationTime)s{greenBright_Start}消耗品冷却时间{greenBright_End}&zwnbsp;。"
+
+msgid "commander_practical/name"
+msgstr "熟能生巧"
+
+msgid "commander_practical/shortDescription"
+msgstr "缩短消耗品的冷却时间。"
+
+msgid "commander_sixthSense/alt/description"
+msgstr "第六感会在车长受伤时关闭。可通过通信兵的“信号拦截”特长来缩短其激活时间。"
+
+msgid "commander_sixthSense/alt/info"
+msgstr "特殊的车长专长，无需训练且车长默认拥有。"
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "让车长能够确定自身战车是否已被敌人侦察到。\n在战车被敌人侦察到的%(delay)s后激活。"
+
+msgid "commander_sixthSense/name"
+msgstr "第六感"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "让车长能够确定战车是否已被敌人侦察到。"
+
+msgid "commander_staySharp/alt/description"
+msgstr "乘员熟练度加成会提高乘员在战斗中的效率。\n\n此参数可通过安装类似效果的装备或消耗品，或使用“空气净化设备”指令来进一步提高。其他多种乘员特长也能提高此参数。"
+
+msgid "commander_staySharp/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "使用急救包后，提高%(crewLevelIncrease)s{yellow_Start}乘员熟练度加成{yellow_End}，持续15&nbsp;秒。即使未有乘员受伤，也能使用急救包&zwnbsp;。"
+
+msgid "commander_staySharp/hudDescription"
+msgstr "乘员熟练度加成已提高（已使用急救包）。"
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "完成此项训练时，使用急救包后，提高%(crewLevelIncrease)s{yellow_Start}乘员熟练度加成{yellow_End}，持续15秒。即使未有乘员受伤，也能使用急救包&zwnbsp;。"
+
+msgid "commander_staySharp/name"
+msgstr "保持警觉"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ 提高乘员熟练度加成"
+
+msgid "commander_tutor/alt/description"
+msgstr "受伤的车长无法替代其他乘员。加成仅应用于战斗中获取的基础乘员经验值。\n\n额外的乘员经验可通过使用乘员书籍获取，或从全局经验转换而来。"
+
+msgid "commander_tutor/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "已提高%(xpBonusFactorPerLevel)s全体乘员的{greenBright_Start}经验获取量{greenBright_End}。车长能够以%(woundedCrewEfficiency)s效率{greenBright_Start}顶替失去行动力的{greenBright_End}乘员履行职能。"
+
+msgid "commander_tutor/hudDescription"
+msgstr "失去行动力的乘员已被车长顶替。"
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "完成此项训练后，提高%(xpBonusFactorPerLevel)s全体乘员的{greenBright_Start}经验获取量{greenBright_End}。车长能够以%(woundedCrewEfficiency)s效率{greenBright_Start}顶替失去行动力的{greenBright_End}乘员履行职能。"
+
+msgid "commander_tutor/name"
+msgstr "老兵"
+
+msgid "commander_tutor/shortDescription"
+msgstr "失去行动力的乘员已被车长顶替。"
+
+msgid "commander_universalist/alt/description"
+msgstr "车长只能代替受伤乘员的主要专精。代替效果随受伤乘员数量递减。"
+
+msgid "commander_universalist/alt/info"
+msgstr "特长在训练到至少1%时生效。效果随训练程度提高而逐渐增强。"
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "车长能够以%(woundedCrewEfficiency)s效率{greenBright_Start}代替失去行动力的{greenBright_End}乘员履行职能。"
+
+msgid "commander_universalist/hudDescription"
+msgstr "车长正在代替受伤乘员的角色。"
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "完成此项训练时，车长能够以%(woundedCrewEfficiency)s效率{greenBright_Start}代替失去行动力的{greenBright_End}乘员履行职能。"
+
+msgid "commander_universalist/name"
+msgstr "多面手"
+
+msgid "commander_universalist/shortDescription"
+msgstr "使车长能够代替失去行动力的乘员。"
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "降低在中度松软地形上行驶时受到的战车操控性和加速能力惩罚。大幅降低在松软地形上行驶时受到的惩罚，与中度松软地形持平。\n在中度松软或松软地形上，操控性均无法超越硬质地形上的表现。"
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "已降低%(mediumGroundFactor)s{greenBright_Start}在中度松软地形上行驶时的{greenBright_End}速度损失&zwnbsp;，{greenBright_Start}在松软地形上行驶时的{greenBright_End}速度损失降低至中度松软地形数值的%(softGroundFactor)s。"
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "完成此项训练后，降低%(mediumGroundFactor)s{greenBright_Start}在中度松软地形上行驶时的{greenBright_End}速度损失&zwnbsp;，{greenBright_Start}在松软地形上行驶时的{greenBright_End}速度损失降低至中度松软地形数值的%(softGroundFactor)s。"
+
+msgid "driver_badRoadsKing/name"
+msgstr "越野"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "乘员熟练度加成会提高乘员在战斗中的效率。\n\n此参数可通过安装类似效果的装备或消耗品，或使用“空气净化设备”指令来进一步提高。其他多种乘员特长也能提高此参数。"
+
+msgid "driver_bulletproof/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "当您抵挡的伤害超过您战车初始血量时，提高%(crewLevelIncrease)s{yellow_Start}乘员熟练度加成{yellow_End}。"
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "乘员熟练度加成已提高（已抵挡足够伤害）。"
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "完成这项训练时，当您抵挡的伤害超过您战车的初始血量，提高%(crewLevelIncrease)s{yellow_Start}乘员熟练度加成{yellow_End}。"
+
+msgid "driver_bulletproof/name"
+msgstr "钢筋铁骨"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "战车的最大速度，以及发动机受损的惩罚减免可通过安装类似效果的装备进一步提高。"
+
+msgid "driver_motorExpert/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "已提高%(vehicleForwardMaxSpeed)s{greenBright_Start}最大前进{greenBright_End}和{greenBright_Start}最大倒车速度{greenBright_End}。已降低%(vehPenaltyForDamagedEngine)s{greenBright_Start}发动机受损的惩罚{greenBright_End}&zwnbsp;。"
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "发动机受损的惩罚已降低。"
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "完成此项训练时，提高%(vehicleForwardMaxSpeed)s{greenBright_Start}最大前进{greenBright_End}和{greenBright_Start}最大倒车速度{greenBright_End}。降低%(vehPenaltyForDamagedEngine)s{greenBright_Start}发动机受损的惩罚{greenBright_End}&zwnbsp;。"
+
+msgid "driver_motorExpert/name"
+msgstr "工程知识"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "发动机受损的惩罚已降低。"
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "与队友战车碰撞时特长无效。\n\n您战车承受的撞击伤害可通过安装类似效果的装备进一步降低。"
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "已提高%(damageEnemiesByRamming)s{greenBright_Start}对敌方战车的撞击伤害{greenBright_End}&zwnbsp;。已降低\n%(vehicleRamDamageResistance)s{greenBright_Start}您战车承受的撞击伤害{greenBright_End}&zwnbsp;，以及%(vehicleRamChassisDamageResistance)s{greenBright_Start}您的悬挂承受的撞击伤害{greenBright_End}&zwnbsp;。"
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "完成此项训练后，提高%(damageEnemiesByRamming)s{greenBright_Start}对敌方战车的撞击伤害{greenBright_End}&zwnbsp;。降低%(vehicleRamDamageResistance)s{greenBright_Start}您战车承受的撞击伤害{greenBright_End}&zwnbsp;，以及%(vehicleRamChassisDamageResistance)s{greenBright_Start}您的悬挂承受的撞击伤害{greenBright_End}&zwnbsp;。"
+
+msgid "driver_rammingMaster/name"
+msgstr "专注撞击"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "降低您战车所承受的冲击伤害并提高对敌方战车的冲击伤害。"
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "受到的HE弹伤害可通过安装类似效果的装备进一步降低。"
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "已提高%(vehicleHEShellDamageResistance)s&zwnbsp;{greenBright_Start}HE弹伤害吸收{greenBright_End}。&nbsp;已降低%(vehicleFireChance)s{greenBright_Start}发动机起火几率{greenBright_End}，以及%(suspensionDamageReduction)s&zwnbsp;{greenBright_Start}对您悬挂造成的伤害{greenBright_End}。"
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "完成此项训练时，提高%(vehicleHEShellDamageResistance)s{greenBright_Start}HE弹伤害吸收{greenBright_End}&zwnbsp;，降低%(vehicleFireChance)s{greenBright_Start}发动机起火几率{greenBright_End}，以及%(suspensionDamageReduction)s{greenBright_Start}对您悬挂造成的伤害{greenBright_End}&zwnbsp;。"
+
+msgid "driver_reliablePlacement/name"
+msgstr "可靠配置"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "不影响战车静止和车体转向时的准度。\n\n此特长可使用“精密变速箱”指令进一步增强。移动中的准度可通过安装类似效果的装备或使用“稳定润滑剂”指令进一步提高。"
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "已降低%(vehicleGunShotDispersionChassisMovement)s移动时射击的{greenBright_Start}火炮散布误差{greenBright_End}&zwnbsp;。"
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "完成此项训练时，降低%(vehicleGunShotDispersionChassisMovement)s移动时射击的{greenBright_Start}火炮散布误差{greenBright_End}&zwnbsp;。"
+
+msgid "driver_smoothDriving/name"
+msgstr "平稳驾驶"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "提高移动时的射击准度。"
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "距离队友战车50米内时，此特长影响悬挂从“红色”状态转为“黄色”状态的修复速度。"
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "若离队友战车少于50米，提高%(suspensionRepairSpeed)s{yellow_Start}悬挂修复速度{yellow_End}。"
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "悬挂修复速度已提高（队友在附近）。"
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "完成这项训练时，若距离队友战车少于50米，提高%(suspensionRepairSpeed)s{yellow_Start}悬挂修复速度{yellow_End}。"
+
+msgid "driver_suspensionRepair/name"
+msgstr "战场支援"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "战车的防火能力可通过安装具有类似效果的装备和消耗品进一步提高。“灭火”特长可以提高起火时的灭火速度。"
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "特长在训练到至少1%时生效。效果随训练程度提高而逐渐增强。"
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "已降低%(vehicleFireChance)s{greenBright_Start}发动机起火几率{greenBright_End}&zwnbsp;。"
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "完成此项训练时，降低%(vehicleFireChance)s{greenBright_Start}发动机起火几率{greenBright_End}&zwnbsp;。"
+
+msgid "driver_tidyPerson/name"
+msgstr "引擎保养"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "降低发动机起火几率。"
+
+msgid "driver_virtuoso/alt/description"
+msgstr "车体转向速度可通过安装具有类似效果的装备或消耗品来进一步提高。"
+
+msgid "driver_virtuoso/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "已提高%(vehicleAllGroundRotationSpeed)s{greenBright_Start}车体转向速度{greenBright_End}&zwnbsp;。\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "完成此项训练时，提高%(vehicleAllGroundRotationSpeed)s{greenBright_Start}车体转向速度{greenBright_End}。"
+
+msgid "driver_virtuoso/name"
+msgstr "甩尾"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "提高车体转向速度。"
+
+msgid "fireFighting/alt/description"
+msgstr "此特长影响起火时受到的伤害和起火时长。\n\n如果两名通信兵拥有此特长，将应用训练程度的平均值。\n\n此特长可使用“灭火经验”指令进一步增强。"
+
+msgid "fireFighting/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "已提高%(fireExtinguishingRate)s{greenBright_Start}灭火速度{greenBright_End}&zwnbsp;。"
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "完成此项训练时，提高%(fireExtinguishingRate)s{greenBright_Start}灭火速度{greenBright_End}&zwnbsp;。"
+
+msgid "fireFighting/name"
+msgstr "灭火"
+
+msgid "fireFighting/shortDescription"
+msgstr "提高灭火能力。"
+
+msgid "gunner_armorer/alt/description"
+msgstr "默认情况下，潜在伤害和潜在穿透力的浮动范围是基础值的±25%。例如，如果炮弹的穿透力和伤害均为100，那么在命中目标时，炮弹的实际穿透力可能是75毫米到125毫米区间内的任意值，造成的实际伤害也在75点到125点之间。降低此变项可以更准确地预测射击结果。\n\n如果两名炮手均拥有此特长，将应用训练程度的平均值。"
+
+msgid "gunner_armorer/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "{greenBright_Start}潜在伤害{greenBright_End}和{greenBright_Start}潜在穿透值{greenBright_End}的范围已缩小{greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s。已降低%(shotDispersionAngle)s{greenBright_Start}火炮散布误差{greenBright_End}&zwnbsp;。"
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "完成此项训练后，{greenBright_Start}潜在伤害{greenBright_End}和{greenBright_Start}潜在穿透值{greenBright_End}的范围缩小{greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s。降低%(shotDispersionAngle)s{greenBright_Start}火炮散布误差{greenBright_End}&zwnbsp;。"
+
+msgid "gunner_armorer/name"
+msgstr "炮术大师"
+
+msgid "gunner_focus/alt/description"
+msgstr "战车静止3秒后生效并在移动时重置。\n\n如果两名炮手均拥有此特长，将应用训练程度的平均值。"
+
+msgid "gunner_focus/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "已降低%(shotDispersionAngle)s战车静止时的{yellow_Start}火炮散布误差{yellow_End}&zwnbsp;。"
+
+msgid "gunner_focus/hudDescription"
+msgstr "火炮散布误差已降低。"
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "完成此项训练时，降低%(shotDispersionAngle)s战车静止时的{yellow_Start}火炮散布误差{yellow_End}&zwnbsp;。"
+
+msgid "gunner_focus/name"
+msgstr "屏气凝神"
+
+msgid "gunner_focus/shortDescription"
+msgstr "降低战车静止时的火炮散布误差。"
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "火炮散布误差与瞄准速度可通过训练相应乘员特长，或安装类似效果的装备或消耗品来进一步提高。\n\n如果两名炮手均拥有此特长，将应用训练程度的平均值。"
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "若半径300米内没有队友战车，降低%(vehicleGunAimSpeed)s{yellow_Start}火炮散布误差{yellow_End}，提高%(vehicleGunAimSpeed)s{yellow_Start}瞄准速度{yellow_End}。"
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "火炮散布误差与瞄准速度已改善（附近无队友）。"
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "完成此项训练时，若半径300米内无队友战车，降低{yellow_Start}火炮散布误差{yellow_End}，提高%(vehicleGunAimSpeed)s{yellow_Start}瞄准速度{yellow_End}。"
+
+msgid "gunner_loneWolf/name"
+msgstr "战地孤狼"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ 火炮散布误差已降低。瞄准速度已提高。"
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "默认条件下，潜在穿透力的最大值为基础数值的+25%。举例来说，若炮弹可穿透厚达100毫米的装甲，在命中目标时，此炮弹潜在穿透力的最大值可达125毫米。提高此变项可提升穿透效率。\n\n如果两名炮手均拥有此特长，将应用训练程度的平均值。"
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "对50米以内的敌方战车射击，提高%(piercingHEShellsDistributionUpperBound)s您炮弹{yellow_Start}潜在穿透力的最大值{yellow_End}。"
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "完成此项训练时，对50米以内的敌方战车射击，提高%(piercingHEShellsDistributionUpperBound)s{yellow_Start}潜在穿透力的最大值{yellow_End}。"
+
+msgid "gunner_pointBlast/name"
+msgstr "短兵相接"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ 提高您炮弹潜在穿透力的最大值"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "如果两名炮手均拥有此特长，将应用训练程度的平均值。\n\n瞄准速度可通过训练车长的“协调合作”特长或安装类似效果的装备进一步提高。\n\n炮塔转向速度可通过安装类似效果的装备或消耗品进一步提高。"
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "已提高%(vehicleGunAimSpeed)s{greenBright_Start}瞄准速度{greenBright_End}和{greenBright_Start}炮塔转向速度{greenBright_End}&zwnbsp;。"
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "完成此项训练时，提高%(vehicleGunAimSpeed)s{greenBright_Start}瞄准速度{greenBright_End}和{greenBright_Start}炮塔转向速度{greenBright_End}&zwnbsp;。"
+
+msgid "gunner_quickAiming/name"
+msgstr "快速瞄准"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "瞄准速度已提高。"
+
+msgid "gunner_rancorous/alt/description"
+msgstr "炮手可以在视野范围内识别目标战车的模块受损情况，在直射和曲射模式下时均有效。\n炮手的视野范围为战车火炮和视野正前方固定的±10°扇形区域（总计20°）。\n如果两名炮手均拥有此特长，将应用训练程度的平均值。\n此特长可使用“焦点目标”指令进一步增强。使用“改进型通信设备组”可进一步延长敌方战车可持续被见到的时间。"
+
+msgid "gunner_rancorous/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "炮手视野范围内{greenBright_Start}敌方战车可持续被见到{greenBright_End}{greenBright_Start}的时间{greenBright_End}延长%(vehicleEnemySpottingTime)s。已缩短%(damageMonitoringDelay)s{yellow_Start}识别受损模块{yellow_End}所需的时间&zwnbsp;。"
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "完成此项训练时，炮手视野范围内{greenBright_Start}敌方战车可持续被见到{greenBright_End}{greenBright_Start}的时间{greenBright_End}延长%(vehicleEnemySpottingTime)s。缩短%(damageMonitoringDelay)s{yellow_Start}识别受损模块{yellow_End}所需的时间。"
+
+msgid "gunner_rancorous/name"
+msgstr "复仇女神"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "延长炮手视野范围内敌方战车可持续被见到的时间。可以识别受损模块。"
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "如果两名炮手均拥有此特长，将应用训练程度的平均值。\n\n此特长可使用“稳定之手”指令进一步增强。炮塔转向时的散布误差可通过安装类似效果的装备或使用“稳定润滑剂”指令进一步降低。"
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "已降低%(turretAimingDispersion)s炮塔转向时的{greenBright_Start}散布误差{greenBright_End}&zwnbsp;。"
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "完成此项训练时，降低%(turretAimingDispersion)s炮塔转向时的{greenBright_Start}散布误差{greenBright_End}&zwnbsp;。"
+
+msgid "gunner_smoothTurret/name"
+msgstr "人工稳定"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "降低炮塔转向时的火炮散布误差。"
+
+msgid "gunner_sniper/alt/description"
+msgstr "对所有类型的炮弹生效，自动炮除外。\n\n如果两名炮手均拥有此特长，将应用训练程度的平均值。"
+
+msgid "gunner_sniper/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "已提高%(enemyModulesCrewCritChance)s所有类型的炮弹使{greenBright_Start}敌方{greenBright_End}{greenBright_Start}战车模块重伤{greenBright_End}和{greenBright_Start}乘员受伤{greenBright_End}的几率&zwnbsp;。"
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "完成此项训练时，提高%(enemyModulesCrewCritChance)s所有类型的炮弹使{greenBright_Start}敌方{greenBright_End}{greenBright_Start}战车模块重伤{greenBright_End}和{greenBright_Start}乘员受伤{greenBright_End}的几率&zwnbsp;。"
+
+msgid "gunner_sniper/name"
+msgstr "狙击手"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "默认情况下，潜在伤害和潜在穿透力的浮动下限是基础值的-25%。例如，如果炮弹的穿透力和伤害均为100，那么在命中目标时，炮弹的最小穿透值为75毫米，造成的最低伤害为75点。提高此变项可以改善射击效率。\n\n如果两名装填手均拥有此特长，将应用训练程度的平均值。"
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "已提高%(damageAndPiercingDistributionLowerBound)s{greenBright_Start}潜在伤害最小值{greenBright_End}和{greenBright_Start}潜在穿透力最小值{greenBright_End}&zwnbsp;。"
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "完成此项训练时，提高%(damageAndPiercingDistributionLowerBound)s{greenBright_Start}潜在伤害最小值{greenBright_End}和{greenBright_Start}潜在穿透力最小值{greenBright_End}&zwnbsp;。"
+
+msgid "loader_ammunitionImprove/name"
+msgstr "炮弹调节"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "提高伤害和穿透力的平均值。"
+
+msgid "loader_desperado/alt/description"
+msgstr "如果两名装填手均拥有此特长，将应用训练程度的平均值。\n\n火炮装填时间可通过训练装填手的“近距离作战”特长或安装类似效果的装备进一步缩短。使用“整齐的弹药架”指令可增强此效果。"
+
+msgid "loader_desperado/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "战车血量低于25%时，缩短%(vehicleGunReloadTime)s{yellow_Start}火炮装填时间{yellow_End}。"
+
+msgid "loader_desperado/hudDescription"
+msgstr "火炮装填时间已缩短（战车耐久度偏低）。"
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "完成此项训练时，战车的血量低于25%时，缩短%(vehicleGunReloadTime)s{yellow_Start}火炮装填时间{yellow_End}。"
+
+msgid "loader_desperado/name"
+msgstr "破釜沉舟"
+
+msgid "loader_desperado/shortDescription"
+msgstr "战车血量低于25%时加快火炮装填。"
+
+msgid "loader_intuition/alt/description"
+msgstr "火炮、双管炮或弹匣必须已完全装填才能激活此特长。标准火炮切换炮弹类型的最低时间为1秒；双管和弹匣式火炮最低为2.5秒。\n\n如果两名装填手均拥有此特长，将应用训练程度的平均值。"
+
+msgid "loader_intuition/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "已缩短%(vehicleReloadTimeAfterShellChange)s已装填火炮{greenBright_Start}更换炮弹类型的时间{greenBright_End}&zwnbsp;。"
+
+msgid "loader_intuition/hudDescription"
+msgstr "已装填火炮更换炮弹类型的时间已缩短。\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "完成此项训练时，缩短%(vehicleReloadTimeAfterShellChange)s已装填火炮{greenBright_Start}更换炮弹类型的时间{greenBright_End}&zwnbsp;。"
+
+msgid "loader_intuition/name"
+msgstr "直觉"
+
+msgid "loader_intuition/shortDescription"
+msgstr "显著提高已装填火炮更换炮弹类型的速度。"
+
+msgid "loader_magMastery/alt/description"
+msgstr "此特长仅缩短弹匣式火炮的装填时间，且不影响其他类型的火炮系统。\n\n如果两名装填手均拥有此特长，将应用训练程度的平均值。"
+
+msgid "loader_magMastery/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "已缩短%(magazineGunReloadSpeed)s弹匣{greenBright_Start}装填时间{greenBright_End}。"
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "完成此项训练时，缩短%(magazineGunReloadSpeed)s弹匣{greenBright_Start}装填时间{greenBright_End}。"
+
+msgid "loader_magMastery/name"
+msgstr "弹匣精通"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ 缩短弹匣装填时间"
+
+msgid "loader_melee/alt/description"
+msgstr "如果两名装填手均拥有此特长，将应用训练程度的平均值。\n\n火炮装填时间可通过训练装填手的“破釜沉舟”特长或安装类似效果的装备进一步提高。使用“整齐的弹药架”指令可增强此效果。"
+
+msgid "loader_melee/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "距离敌方战车不超过50米时，缩短%(vehicleGunReloadTime)s{yellow_Start}火炮装填时间{yellow_End}。"
+
+msgid "loader_melee/hudDescription"
+msgstr "火炮装填时间已缩短（附近有敌人）。"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "完成此项训练时，距离敌方战车不超过50米时，缩短%(vehicleGunReloadTime)s{yellow_Start}火炮装填时间{yellow_End}。"
+
+msgid "loader_melee/name"
+msgstr "近距离作战"
+
+msgid "loader_melee/shortDescription"
+msgstr "近距离作战时提高火炮装填速度。"
+
+msgid "loader_pedant/alt/description"
+msgstr "装填手受伤不影响特长的效率。\n\n如果两名装填手均拥有此特长，将应用训练程度的平均值。\n\n特长可使用“炮弹整理”指令进一步增强。弹药架耐久度可通过安装类似效果的装备进一步提高。"
+
+msgid "loader_pedant/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "已提高%(vehicleAmmoBayStrength)s{greenBright_Start}弹药架耐久度{greenBright_End}&zwnbsp;。\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "完成此项训练时，提高%(vehicleAmmoBayStrength)s{greenBright_Start}弹药架耐久度{greenBright_End}&zwnbsp;。"
+
+msgid "loader_pedant/name"
+msgstr "安全装载"
+
+msgid "loader_pedant/shortDescription"
+msgstr "提高弹药架耐久度。"
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "对所有类型的炮弹生效。\n\n装填手受伤不影响特长的效率。\n\n如果两名装填手均拥有此特长，将应用训练程度的平均值。"
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "已提高%(shellVelocity)s{greenBright_Start}炮弹速度{greenBright_End}&zwnbsp;。"
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "完成此项训练时，提高%(shellVelocity)s{greenBright_Start}炮弹速度{greenBright_End}&zwnbsp;。"
+
+msgid "loader_perfectCharge/name"
+msgstr "完美弹速"
+
+msgid "loader_secondChance/alt/description"
+msgstr "此特长对弹匣式火炮或自动火炮无效，且对双管火炮的效果不会叠加。\n\n对于具有选择性装填系统的火炮，若两门火炮均已射击且均未造成伤害，火炮装填时间缩短的效果将同时应用于两门火炮。\n\n如果两名装填手均拥有此特长，将应用训练程度的平均值。\n\n火炮装填时间可通过训练装填手的“破釜沉舟”或“近距离作战”特长，或安装类似效果的装备来进一步缩短。使用“整齐的弹药架”指令可提升效果。"
+
+msgid "loader_secondChance/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "若前一发炮弹未对敌方战车造成伤害，缩短%(vehicleGunReloadTime)s下一发炮弹的{yellow_Start}火炮装填时间{yellow_End}。"
+
+msgid "loader_secondChance/hudDescription"
+msgstr "火炮装填时间缩短（未命中）。"
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "完成此项训练时，若前一发炮弹未对敌方战车造成伤害，缩短%(vehicleGunReloadTime)s下一发炮弹的{yellow_Start}火炮装填时间{yellow_End}。"
+
+msgid "loader_secondChance/name"
+msgstr "二次机会"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ 缩短火炮装填时间"
+
+msgid "measureType/meters"
+msgstr "%s米"
+
+msgid "measureType/mph"
+msgstr "%s公里/小时"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s秒"
+
+msgid "offspring_brotherhood/name"
+msgstr "兄弟团"
+
+msgid "perkRole/commander"
+msgstr "车长"
+
+msgid "perkRole/common"
+msgstr "团体"
+
+msgid "perkRole/driver"
+msgstr "驾驶员"
+
+msgid "perkRole/gunner"
+msgstr "炮手"
+
+msgid "perkRole/loader"
+msgstr "装填手"
+
+msgid "perkRole/radioman"
+msgstr "通信兵"
+
+msgid "popularity/tooltip/common"
+msgstr "（按所有玩家数据）"
+
+msgid "popularity/tooltip/header"
+msgstr "此战车的推荐方案"
+
+msgid "popularity/tooltip/legendary"
+msgstr "（按传奇WTR评级玩家数据）"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "如果两名通信兵均拥有此特长，将应用训练程度的平均值。\n\n效果可通过车长的“声音侦测”特长进一步改善。"
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "当战车乘员受到震晕，降低%(stunResistanceEffectFactor)s{greenBright_Start}震晕的负面效果{greenBright_End}，最高可达30%。"
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "完成此项训练时，当战车乘员受到震晕，降低%(stunResistanceEffectFactor)s{greenBright_Start}震晕的负面效果{greenBright_End}&nbsp;，最高可达30%。"
+
+msgid "radioman_battleTempered/name"
+msgstr "战斗淬炼"
+
+msgid "radioman_expert/alt/description"
+msgstr "乘员熟练度加成会影响乘员的战斗效率。如果两名通信兵均拥有此特长，将应用训练程度的平均值。此参数可通过安装类似效果的装备或消耗品，或使用“空气净化设备”指令来进一步提高。“兄弟连”团体特长，以及车长的“应急手段”或通信兵的“并排奋战”特长也能提高此参数。"
+
+msgid "radioman_expert/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "当您协助造成的伤害超过您战车的初始血量时，提高 %(crewLevelIncrease)s{yellow_Start}乘员熟练度加成{yellow_End}&zwnbsp;。"
+
+msgid "radioman_expert/hudDescription"
+msgstr "乘员熟练度加成已提高（已做出足够的协助贡献）。"
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "完成此项训练时，当您协助造成的伤害超过您战车的初始血量时，提高%(crewLevelIncrease)s{yellow_Start}乘员熟练度加成{yellow_End}&zwnbsp;。"
+
+msgid "radioman_expert/name"
+msgstr "通信技术"
+
+msgid "radioman_expert/shortDescription"
+msgstr "乘员表现已提高。"
+
+msgid "radioman_finder/alt/description"
+msgstr "如果两名通信兵均拥有此特长，将应用训练程度的平均值。\n\n视野范围可以通过训练“侦查”特长或安装类似效果的装备进一步提高。使用“光学测定仪”指令可增强此效果。"
+
+msgid "radioman_finder/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "已扩大%(vehicleCircularVisionRadius)s{greenBright_Start}视野范围{greenBright_End}&zwnbsp;。"
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "完成此项训练时，扩大%(vehicleCircularVisionRadius)s{greenBright_Start}视野范围{greenBright_End}&zwnbsp;。"
+
+msgid "radioman_finder/name"
+msgstr "态势感知"
+
+msgid "radioman_finder/shortDescription"
+msgstr "提高视野范围。"
+
+msgid "radioman_interference/alt/description"
+msgstr "如果两名通信兵均拥有此特长，将应用训练程度的平均值。\n\n您的战车被侦察后的持续可见时间可通过安装类似效果的装备进一步缩短。"
+
+msgid "radioman_interference/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "已缩短%(vehicleOwnSpottingTime)s您的战车被侦察后的{greenBright_Start}持续可见时间{greenBright_End}&zwnbsp;。"
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "完成此项训练时，缩短%(vehicleOwnSpottingTime)s{greenBright_Start}您的战车被侦察后的持续可见时间{greenBright_End}&zwnbsp;。"
+
+msgid "radioman_interference/name"
+msgstr "信号干扰"
+
+msgid "radioman_interference/shortDescription"
+msgstr "缩短您战车可持续被敌人见到的时间。"
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "如果两名通信兵都有此特长，仅数值更高的生效。此效果仅当战车被摧毁时通信兵未受伤才会生效。\n\n此特长的效果可配合“使命第一”指令进一步强化。"
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效。效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "通信兵能够在战车被摧毁后的%(radiomanDurationPerLevel)s内继续{yellow_Start}报告敌人位置{yellow_End}。"
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "报告位置中。"
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "完成此项训练时，通信兵能够在战车被摧毁后的%(radiomanDurationPerLevel)s内继续{yellow_Start}报告敌人位置{yellow_End}。"
+
+msgid "radioman_lastEffort/name"
+msgstr "最后的电波"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "在战车被摧毁后的短时间内，继续报告敌人的位置。"
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "乘员熟练度加成会影响乘员的战斗效率。如果两名通信兵均拥有此特长，将应用训练程度的平均值。此参数可通过安装类似效果的装备或消耗品，或使用“空气净化设备”指令来进一步提高。“兄弟连”团体特长，以及车长的“应急手段”或通信兵的“通信技术”特长也能提高此参数。"
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "距离同类型队友战车不超过50米时，提高%(crewLevelIncrease)s{yellow_Start}乘员熟练度加成{yellow_End}&zwnbsp;。"
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "乘员熟练度加成已提高（附近有同类型的队友战车）。"
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "完成此项训练时，距离同类型队友战车不超过50米时，提高%(crewLevelIncrease)s{yellow_Start}乘员熟练度加成{yellow_End}&zwnbsp;。"
+
+msgid "radioman_sideBySide/name"
+msgstr "并排奋战"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "乘员表现已提高。"
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "效果可强化车长的“第六感”特殊专长，加快其激活速度。\n\n如果两名通信兵均拥有此特长，将应用训练程度的平均值。"
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。"
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "已缩短%(commanderLampDelay)s{greenBright_Start}确定战车是否被侦察到所需的{greenBright_End}{greenBright_Start}判断时间{greenBright_End}。"
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "完成此项训练时，缩短%(commanderLampDelay)s{greenBright_Start}确定战车是否被侦察到所需的{greenBright_End}{greenBright_Start}判断时间{greenBright_End}。"
+
+msgid "radioman_signalInterception/name"
+msgstr "信号拦截"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "此特长会在“第六感”警示战车已被侦察到时激活。\n\n如果两名通信兵均拥有此特长，将应用训练程度的平均值。\n\n视野范围可通过训练“侦察”或“态势感知”特长，或安装类似效果的装备来进一步提高。使用“光学校准”指令可提升效果。"
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "具有触发式效果的特长在训练到至少1%时生效，且效果随训练程度提高而逐渐增强。触发式效果在您于战斗中满足特定条件时触发。"
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "收到“第六感”警示后，扩大%(vehicleCircularVisionRadius)s{yellow_Start}视野范围{yellow_End}，持续5秒。"
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "视野范围已扩大。"
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "完成此项训练时，收到“第六感”警示后，扩大%(vehicleCircularVisionRadius)s{yellow_Start}视野范围{yellow_End}，持续5秒。"
+
+msgid "radioman_threatSearch/name"
+msgstr "威胁感应"
+
+msgid "repair/alt/description"
+msgstr "特长影响内部和外部模块从“红色”到“黄色”状态的修复速度。\n\n此参数可通过安装类似效果的装备和消耗品进一步提高。"
+
+msgid "repair/alt/info"
+msgstr "团体特长考量所有乘员的平均训练程度。在训练到至少1%时生效，效果随训练程度提高而逐渐增强。"
+
+msgid "repair/currentLvlDescription"
+msgstr "已提高%(vehicleRepairSpeed)s战车受损模块{greenBright_Start}修复速度{greenBright_End}&zwnbsp;。"
+
+msgid "repair/maxLvlDescription"
+msgstr "全体乘员完成此项训练时，提高%(vehicleRepairSpeed)s战车受损模块{greenBright_Start}修复速度{greenBright_End}&zwnbsp;。"
+
+msgid "repair/name"
+msgstr "修复"
+
+msgid "repair/shortDescription"
+msgstr "提高受损模块的修复速度。"
+
+msgid "sabaton_brotherhood/name"
+msgstr "兄弟团"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "热门"
+
+msgid "sorting/fallback"
+msgstr "默认"
+
+msgid "sorting/legendary"
+msgstr "传奇"
+
+msgid "sorting/title"
+msgstr "排序按："
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)s热门。%(whiteSpanish_Close)s基于所有《坦克世界》玩家当前的特长使用趋势"
+
+msgid "sorting/tooltip/header"
+msgstr "“坦克世界Plus”的福利"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "按数百万场战斗的精准大数据推荐乘员特长，帮助玩家发掘最大化战斗潜力。"
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)s传奇。%(whiteSpanish_Close)s按当前传奇WTR评级玩家的偏好特长进行推荐。"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "已禁用特长排序"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "无可用数据"
+
+msgid "sorting/tooltip/title"
+msgstr "乘员助手"
+
+msgid "sorting/tooltip/types"
+msgstr "特长排序类型"
+
+msgid "sorting/tooltip/warning"
+msgstr "特长排序不可用"
+
+msgid "sorting/tooltip/warningText"
+msgstr "此战车的完整特长数据不可用，因此已应用默认特长排序。"
+
+msgid "witches_brotherhood/name"
+msgstr "女巫连心"
+
+msgid "yha_brotherhood/name"
+msgstr "兔子兄弟连"

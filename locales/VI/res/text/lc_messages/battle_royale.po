@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Đình chiến đang có hiệu lực trên mọi máy chủ khả dụng."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ này."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Đổi máy chủ"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Săn Thiết giáp đã kết thúc"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Chế độ không khả dụng ở máy chủ này"
+
+msgid "banner/info/disabled"
+msgstr "Đình chiến"
+
+msgid "banner/info/seasonActive"
+msgstr "Cơ hội thứ hai và phần thưởng"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Cho đến %(day)s %(month)s"
+
+msgid "banner/subtitle"
+msgstr "\"Battle royale\" với phần thưởng giá trị"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s giờ"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s giờ %(minutes)s ph"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s ph"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "SĂN THIẾT GIÁP"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "Trận đánh sẽ tiếp tục từ một vị trí mới."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Bạn Sẽ Sớm Tái Xuất"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Đang Tái xuất"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "Sẽ không có cơ hội thứ hai."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Không Thể Tái Xuất Nữa"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Sắp Không Thể Tái Xuất Được Nữa!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Từ giờ hãy cẩn thận hơn."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Xe Của Bạn Đã Sẵn Sàng Tham Chiến!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Đang Tái xuất Vào trận"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Anh em trong đội đang bận đánh."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Tái xuất Không khả dụng"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Tìm một sạc Tái xuất để trở lại vòng chiến."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Xe Đồng đội bị Phá hủy"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Đang Tái xuất"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Hai xe chắc chắn hơn một!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Xe Đồng đội được Tái xuất"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Hãy tránh giao tranh!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Tái xuất Đồng đội"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonus đã được kích hoạt!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Thưởng cho vị thứ nhất"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Thu được trong trận"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "CHIẾN THẮNG"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Chưa chọn Chương. Điểm Giấy phép Quân sự chưa dùng: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Đã hoàn tất mọi Chương. Tiếp tục chơi để lấy thêm Điểm Giấy phép Quân sự."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Đến Giấy phép Quân sự"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Giấy phép Quân sự"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Chọn một Chương"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Đến tiến trình của Chương đang làm"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Đến Giấy phép Quân sự"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Nhiệm vụ đã hoàn tất mỗi trận: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Nhiệm vụ"
+
+msgid "battleResult/battleReward/title"
+msgstr "ĐÃ NHẬN CHO TRẬN"
+
+msgid "battleResult/button/hangar"
+msgstr "Đến Ga-ra"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Điểm và phần thưởng sẽ được trao sau khi tất cả người chơi kết thúc trận đánh này. Nhiệm vụ cũng được đánh giá dựa trên kết quả chiến đấu."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Nhấn %(esc) để bỏ qua hoạt ảnh"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Mời vào Trung đội"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Đồng đội"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Đồng đội ngẫu nhiên"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Loại Trận"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "ĐÁNH SÔ-LÔ"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "Với Tài khoản WoT Premium, bạn có thể nhận được:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Tổng giá trị với Tài khoản Premium WoT"
+
+msgid "battleResult/progressStage"
+msgstr "Tiến trình của Giai đoạn {stage}"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Tên nick và Tag Clan thật của game thủ được ẩn đi đối với những người chơi khác trong trận."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Tên nick thật của người chơi: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Tên thực tế của người chơi đã được đổi thành {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Lượng thiệt hại mà giáp xe của bạn chặn được."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Lượng thiệt hại mà bạn gây ra."
+
+msgid "battleResult/stats/body/kills"
+msgstr "Số xe địch mà bạn bắn hạ được."
+
+msgid "battleResult/stats/body/place"
+msgstr "Vị thứ của bạn dựa trên kết quả chiến đấu."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "Số xe địch mà Trung đội của bạn bắn hạ."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Thiệt hại Chặn được"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Thiệt hại đã Gây ra"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Do bản thân diệt"
+
+msgid "battleResult/stats/header/place"
+msgstr "Vị trí"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Bị Trung đội bắn hạ"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Thiệt hại Chặn được"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Thiệt hại đã Gây ra"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Do bản thân diệt"
+
+msgid "battleResult/stats/title/place"
+msgstr "Vị trí"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Bị Trung đội bắn hạ"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Bảng Xếp Hạng"
+
+msgid "battleResult/tab/result"
+msgstr "Kết quả Chiến đấu"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "TRUNG ĐỘI BỊ HẠ"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "XE BỊ HẠ"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "CHIẾN THẮNG"
+
+msgid "battleResult/title/victoryOther"
+msgstr "VỊ TRÍ DANH DỰ"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Chọn một trong các xe đặc biệt cho Săn Thiết giáp."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Xe không phù hợp"
+
+msgid "button/modules"
+msgstr "SƠ ĐỒ CÔNG NGHỆ"
+
+msgid "button/repair"
+msgstr "Sửa chữa"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Chiến trận Tạm thời Không khả dụng"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Chiến trận Tạm thời Không khả dụng"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Chế độ Không khả dụng"
+
+msgid "ceasefire/header/schedule"
+msgstr "Lịch Chiến đấu"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Đình chiến đang hiệu lực trên mọi máy chủ. Bạn có thể xem lịch trình dưới đây."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Đình chiến đang hiệu lực trên máy chủ này. Bạn có thể đổi sang server khác để truy cập chế độ."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Săn Thiết giáp không khả dụng trên máy chủ này. Bạn có thể đổi sang server khác để truy cập nó."
+
+msgid "commanderInfo/commonRank"
+msgstr "Chỉ huy"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Ba mươi sáu kế, tẩu vi thượng sách.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"Bố là luật!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Ngày huy hoàng hôm nay sẽ đi vào lịch sử.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"Không phải nể.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Mọi thứ đúng như dự đoán.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Vượt khó, trở thành số 1.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"Gìn giữ hòa bình, chiến đấu vì tự do.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"Thắng làm vua!\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Kỹ năng"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nXe đặc biệt cho Săn Thiết giáp"
+
+msgid "fragPanel/squadsCount"
+msgstr "Trung đội: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Bảng Xếp Hạng"
+
+msgid "hangarResults/btns/summary"
+msgstr "Kết quả Chiến đấu"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "ĐÓNG"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Các mô-đun chỉ có thể nâng cấp được trong trận đánh. Để mở Menu Nâng cấp, hãy bấm phím %(key)s khi đang trong trận."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s và %(highlight2)s để nhận được XP. Mỗi cấp đạt tới sẽ cho phép người chơi nâng cấp một mô-đun từ Menu Mô-đun, giúp cải thiện đáng kể các đặc tính xe."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Gây thiệt hại cho xe địch"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "thu thập Chiến lợi phẩm trên bản đồ"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Nâng cấp xe trong trận"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Bạn vào trận bằng một xe Cấp I."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Mô-đun có thể được nâng cấp cả từ Menu Nâng cấp trong trận (phím %(treeKey)s theo mặc định) cũng như khi bấm tổ hợp phím %(leftModuleKey)s và %(rightModuleKey)s.\n\nCác mô-đun chỉ có thể được nâng cấp trong trận."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "Trong trận:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Các Thợ săn Thiết giáp của bạn nhận được XP trong trận bằng cách gây ra thiệt hại và thu thập Chiến lợi phẩm. Sau khi tích lũy đủ số lượng XP cần thiết, xe sẽ lên cấp tiếp theo và mang lại những lựa chọn cải tiến mô-đun mới."
+
+msgid "levelUp/severalTitles"
+msgstr "CẤP ĐÃ NHẬN: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "ĐÃ NHẬN CẤP %(level)s!"
+
+msgid "levelUp/twoTitles"
+msgstr "CẤP ĐÃ NHẬN: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Hoàn thành nhiệm vụ và nhận những phần thưởng giá trị."
+
+msgid "level_up/max_level_info/title"
+msgstr "Có Nhiệm vụ Hàng ngày Mới"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Mùa\nsắp bắt đầu"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Mùa sẽ bắt đầu vào %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Đã chặn"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Sát thương"
+
+msgid "playerStats/killsStat/name"
+msgstr "Tiêu diệt"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Tiêu diệt"
+
+msgid "playerStats/placeStat/name"
+msgstr "Vị thứ"
+
+msgid "playerStats/title"
+msgstr "Điểm Cá nhân"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Dò sóng Radio không khả dụng: Quá trình chuẩn bị đang diễn ra"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "Xe đang hoàn toàn bình thường. Không cần cứu hộ."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Rô-bốt Chiến trường đã bị tiêu diệt"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s đã tiêu diệt %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s đã hạ sát quân địch %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "\"Fireball\" đã bị tiêu diệt"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Mìn đã hết công hiệu"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Đã rải mìn"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Dò sóng Radio sẵn sàng sử dụng"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "Xe đã đạt Cấp tối đa"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Đã đạt Cấp %(level)s"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Đã lắp: %(moduleType)s. Đã nâng cấp: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Thân"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Hệ thống giảm xóc"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Động cơ"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Súng"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Dò sóng Radio"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Tháp pháo"
+
+msgid "playersPanel/title"
+msgstr "ĐỘI"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Theo dõi các xe trong Trung đội."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Chế độ Quan sát"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Quay về Ga-ra.\nTham chiến bằng xe khác."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Trở lại Ga-ra"
+
+msgid "preBattle/buttonTitle"
+msgstr "THAM CHIẾN!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Chọn một bản đồ"
+
+msgid "preBattle/listTitle"
+msgstr "NGƯỜI CHƠI SẴN SÀNG"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Khu vực 404"
+
+msgid "preBattle/mapRandom"
+msgstr "Bản đồ ngẫu nhiên"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "XE TRUNG ĐỘI"
+
+msgid "preBattle/title"
+msgstr "SĂN LỚN"
+
+msgid "preBattle/userFooterTitle"
+msgstr "XE ĐÃ CHỌN"
+
+msgid "preBattle/userNotReady"
+msgstr "Chưa sẵn sàng"
+
+msgid "preBattle/userReady"
+msgstr "Sẵn sàng"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Mùa %(cycleNo)s trên máy chủ %(server)s đã kết thúc"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "Mùa trên máy chủ %(server)s đã kết thúc."
+
+msgid "proxyPanel/button"
+msgstr "Cửa hàng"
+
+msgid "proxyPanel/label"
+msgstr "Ấn\nThép"
+
+msgid "proxyPanel/store"
+msgstr "CỬA HÀNG"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Mùa kết thúc sau %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "Chưa gán phím để Dò sóng Radio"
+
+msgid "radar/hint/press"
+msgstr "Nhấn"
+
+msgid "radar/hint/text"
+msgstr "để kích hoạt Dò sóng Radio"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Đổ bộ"
+
+msgid "selectRespawn/button/land"
+msgstr "Đổ bộ"
+
+msgid "selectRespawn/description"
+msgstr "Click vào một trong các điểm được đề xuất. Nếu không chọn, bạn sẽ đổ bộ xuống vị trí ngẫu nhiên trong số chúng."
+
+msgid "selectRespawn/header"
+msgstr "Chọn Điểm Đổ bộ"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Click vào một trong các điểm được đề xuất. Nếu không chọn, bạn sẽ đổ bộ xuống vị trí ngẫu nhiên trong số chúng."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Trận chiến của bạn bắt đầu tại đây"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Chọn Điểm Đổ bộ"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s ng"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s giờ %(min)s ph"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 ph"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s ph"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "NỔI KHÙNG!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "A-xít ăn mòn giáp!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Khu vực đã chết! Rút ngay khỏi nơi này nếu không muốn xe bị phá hủy!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "Khu vực này sẽ sớm chuyển đỏ"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Độ cơ động bị giảm!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Đang sửa xích..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Đang khôi phục HP"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Đang khôi phục HP"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Quy đổi sát thương"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Đặc tính kỹ thuật đã được tăng cường"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Đạn và Cứu hộ"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Hàng thả dù"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Bộ Sửa chữa và Sạc Khả năng"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Chiến lợi phẩm"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Chiến lợi phẩm Kết hợp: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Đang nhặt: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Vùng Phục hồi"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Sốt nhiệt!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Trong khói"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Giáp của ta đang bị ăn mòn!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Độ cơ động bị giảm!"
+
+msgid "techParams/type/damage"
+msgstr "Sát thương"
+
+msgid "techParams/type/difficulty"
+msgstr "Độ khó"
+
+msgid "techParams/type/mobility"
+msgstr "Cơ động"
+
+msgid "techParams/type/spotting"
+msgstr "Phát hiện"
+
+msgid "techParams/type/survivability"
+msgstr "Độ Sống sót"
+
+msgid "techtree/body_armor"
+msgstr "Giáp"
+
+msgid "techtree/body_health"
+msgstr "Sức Kháng cự"
+
+msgid "techtree/body_mobility"
+msgstr "Cơ động"
+
+msgid "techtree/engine_acceleration"
+msgstr "Linh hoạt"
+
+msgid "techtree/engine_speed"
+msgstr "Tốc độ Tối đa"
+
+msgid "techtree/gun_alpha"
+msgstr "Sát thương mỗi Phát"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Tái nạp tự động"
+
+msgid "techtree/gun_clip"
+msgstr "Tái nạp theo băng"
+
+msgid "techtree/gun_dpm"
+msgstr "Tốc độ Nạp đạn"
+
+msgid "techtree/gun_dualgun"
+msgstr "Súng Đôi"
+
+msgid "techtree/gun_he"
+msgstr "Sát thương đạn HE"
+
+msgid "techtree/gun_machinegun"
+msgstr "Súng Máy Chống tăng"
+
+msgid "techtree/gun_piercing"
+msgstr "Độ xuyên"
+
+msgid "techtree/radar_cooldown"
+msgstr "Thời gian chờ Dò sóng Radio"
+
+msgid "techtree/radar_distance"
+msgstr "Tầm phát hiện"
+
+msgid "techtree/turret_armor"
+msgstr "Giáp"
+
+msgid "techtree/turret_health"
+msgstr "Sức Kháng cự"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Tốc độ xoay"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Lên tới {{credits}} bạc"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Lên tới {{experience}} XP"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Bonus đánh Trung đội"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Tham chiến theo Trung đội cùng đồng đội ngẫu nhiên. Phối hợp chống lại chín Trung đội địch. Các nhiệm vụ Trung đội có thể được hoàn thành trong chế độ này. Trung đội sẽ tự động bị giải tán sau trận."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Săn Thiết giáp truyền thống. Mạnh ai nấy lo. Nhặt đồ, nâng cấp xe và sử dụng những khả năng độc đáo của nó để thành người cuối cùng đứng trụ!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Tham chiến theo Trung đội cùng bạn bè. Phối hợp chống lại chín Trung đội địch. Các nhiệm vụ Trung đội có thể được hoàn thành trong chế độ này."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Trung đội ngẫu nhiên"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Chế độ sô-lô"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Trung đội với Bạn bè"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Độc lập"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Trung đội"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Nguyên tắc kiếm Điểm"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "Vị thứ %(place)s"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "Vị thứ %(place)s"
+
+msgid "tooltips/awards/achievement"
+msgstr "Huân chương"
+
+msgid "tooltips/awards/badge"
+msgstr "Phù hiệu"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Giúp bạn trở lại vòng chiến sau khi xe mình bị phá hủy. Lúc điều này xảy ra, mức độ nâng cấp của xe không mất đi. Nó có giới hạn số lần mỗi trận."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Sạc Tái xuất có thể kiếm được từ Hàng thả dù."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Để tái xuất một đồng đội, hãy tránh giao tranh trong {brown_Open}%(timeToResurrect)s s{brown_Close}. Cơ chế này áp dụng nội trong {brown_Open}%(duration)s phút{brown_Close} đầu trận. Sạc tái xuất được chia sẻ chung giữa các thành viên Trung đội."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Khi Chơi theo Trung đội"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Sau khi bị phá hủy, xe của bạn tự động được tái xuất. Cơ chế này áp dụng nội trong {brown_Open}%(duration)s ph{brown_Close} đầu trận."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Khi Chơi Sô-lô"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Dùng một-lần"
+
+msgid "tooltips/respawn/title"
+msgstr "Tái xuất"
+
+msgid "tooltips/vehicle/description"
+msgstr "Xe cho chế độ Săn Thiết giáp"
+
+msgid "tournament/description"
+msgstr "SĂN LỚN"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Chưa sẵn sàng"
+
+msgid "tournament/fightButton/ready"
+msgstr "Sẵn sàng!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Không thể vào Tour đấu. Mã lỗi: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Lỗi Tour đấu Săn Lớn. Mã lỗi: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "SĂN LỚN"
+
+msgid "tournament/type/solo"
+msgstr "Loại: Độc lập"
+
+msgid "tournament/type/squad"
+msgstr "Loại: Trung đội"
+
+msgid "upgradePanel/alert/0"
+msgstr "Bạn không thể nâng cấp xe!"
+
+msgid "upgradePanel/alert/1"
+msgstr "Bạn không thể nâng cấp xe khi đang giao tranh!"
+
+msgid "upgradePanel/alert/2"
+msgstr "Bạn không thể nâng cấp xe. Xe đang bị chìm!"
+
+msgid "upgradePanel/alert/3"
+msgstr "Bạn không thể nâng cấp xe. Xe bị lật!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Nhấn %(key)s để mở Menu Nâng cấp"
+
+msgid "upgradePanel/title/default"
+msgstr "Có Mô-đun Mới"
+
+msgid "upgradePanel/title/hull"
+msgstr "Có Thân xe Mới"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Có Hệ thống Giảm xóc Mới"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Có Động cơ Mới"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Có Súng Mới"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Có Radio Mới"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Có Tháp pháo Mới"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "HOẶC"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Giáp"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Sát thương mỗi Phát"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Tốc độ Nạp đạn"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Sức Kháng cự"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Độ xuyên"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Tác vụ Dò sóng Radio"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Hệ thống Nạp đạn Theo băng"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Tốc độ"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Đặc tính Xe"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Ưu điểm"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Nhược điểm"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Đình chiến đang có hiệu lực trên mọi máy chủ. Chiến trận sẽ khả dụng sau %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Chọn Máy chủ Khác"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Đợt %(cycle)s đã kết thúc"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Đợt đã kết thúc"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ này. Chiến trận sẽ khả dụng sau %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Đình chiến đang có hiệu lực trên %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Đợt %(cycle)s sẽ bắt đầu sau %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "Đợt đầu tiên sẽ bắt đầu sau %(time)s"

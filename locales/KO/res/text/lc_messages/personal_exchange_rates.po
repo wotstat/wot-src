@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "allPersonalExchanges/content/title"
+msgid_plural "plural/allPersonalExchanges/content/title"
+msgstr[0] "한도 적용 비율"
+msgstr[1] "한도 적용 비율 %(index)s"
+msgstr[2] "한도 적용 비율 %(index)s"
+
+msgid "allPersonalExchanges/exceeded"
+msgstr "하나 이상의 제한이 초과되었습니다. 일부 전환이 다음 비율로 적용됩니다."
+
+msgid "allPersonalExchanges/footer/subTitle"
+msgstr "기본 전환 비율"
+
+msgid "allPersonalExchanges/footer/title"
+msgstr "다음 적용 비율"
+
+msgid "allPersonalExchanges/header/subTitle"
+msgstr "활성화된 한도 적용 비율 수: %(value)s"
+
+msgid "allPersonalExchanges/header/title"
+msgstr "총 한도: %(value)s"
+
+msgid "common/afterExchange"
+msgstr "전환 후"
+
+msgid "common/cancel"
+msgstr "취소"
+
+msgid "common/combinedDiscount"
+msgstr "복합 할인"
+
+msgid "common/exchange"
+msgstr "전환"
+
+msgid "common/exchangeRate"
+msgstr "전환 비율"
+
+msgid "common/limitExceeded"
+msgstr "제한이 초과되었습니다. 전환 시 복합 할인이 적용됩니다."
+
+msgid "common/limitOverExceeded"
+msgstr "제한 초과: 복합 할인이 적용됩니다."
+
+msgid "common/limitRestrictions"
+msgstr "세부 정보"
+
+msgid "exchange/defaultExchangeRate"
+msgstr "기본 전환 비율: %(rateFrom)s = %(rateTo)s"
+
+msgid "exchange/generalExchangeRate"
+msgstr "일반 전환 비율: %(rateFrom)s = %(rateTo)s"
+
+msgid "exchange/information"
+msgstr "%(gold)s골드가 전환되었습니다. 크레딧 획득: %(res)s"
+
+msgid "exchange/personalExchangeRate"
+msgstr "개인 전환 비율: %(rateFrom)s = %(rateTo)s"
+
+msgid "exchange/personalExchangeRates/exceeded"
+msgstr "개인 전환 비율: %(rateFrom)s = %(rateTo)s (제한 초과)"
+
+msgid "exchangeXP/information"
+msgstr "%(res)s 경험치가 자유 경험치로 전환되었습니다. 골드 소모: %(gold)s"
+
+msgid "experienceExchange/available"
+msgstr "이용 가능 경험치:"
+
+msgid "experienceExchange/paid"
+msgstr "소모"
+
+msgid "experienceExchange/received"
+msgstr "획득"
+
+msgid "experienceExchange/sortBy/level"
+msgstr "전차 단계로 정렬"
+
+msgid "experienceExchange/sortBy/modernizationLevel"
+msgstr "야전 개량 레벨로 정렬"
+
+msgid "experienceExchange/sortBy/name"
+msgstr "전차 이름으로 정렬"
+
+msgid "experienceExchange/sortBy/nation"
+msgstr "전차 국가로 정렬"
+
+msgid "experienceExchange/sortBy/type"
+msgstr "전차 유형으로 정렬"
+
+msgid "experienceExchange/sortBy/vehicle"
+msgstr "전차 선택 여부로 정렬"
+
+msgid "experienceExchange/sortBy/xp"
+msgstr "획득한 경험치로 정렬"
+
+msgid "goldExchange/paid"
+msgstr "사용"
+
+msgid "goldExchange/received"
+msgstr "획득"
+
+msgid "goldExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s골드 = %(resourceRate)s크레딧"
+
+msgid "notification/discountDescription/message"
+msgstr "개인 전환 비율"
+
+msgid "notifications/personalDiscoount/button"
+msgstr "전환으로 이동"
+
+msgid "notifications/personalDiscoount/title"
+msgstr "새로운 전환 비율 이용 가능!"
+
+msgid "tooltip/common/basicRate"
+msgstr "기본 전환 비율"
+
+msgid "tooltip/common/generalRate"
+msgstr "일반 전환 비율"
+
+msgid "tooltip/common/personalRate"
+msgstr "개인 전환 비율"
+
+msgid "tooltip/exchangeRate/title/favorable"
+msgstr "유리한 전환 비율"
+
+msgid "tooltip/exchangeRate/title/temporary"
+msgstr "임시 전환 비율"
+
+msgid "tooltip/goldAfterExchange/body"
+msgstr "골드를 구매해야 수량을 확인할 수 있습니다."
+
+msgid "tooltip/goldAfterExchange/header"
+msgstr "전환 후 골드 수량"
+
+msgid "xpExchangeDiscount/invoice/rate"
+msgstr "%(goldRate)s골드 = %(resourceRate)s 자유 경험치"

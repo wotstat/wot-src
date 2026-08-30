@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "보상 선택"
+
+msgid "banner/giftsAvailable"
+msgstr "보급품 도착!"
+
+msgid "banner/giftsForOffer"
+msgstr "\"%(name)s\" 참여 보상"
+
+msgid "banner/selectNowOrLater"
+msgstr "지금 또는 나중에 보관소에서 보상 선택"
+
+msgid "banner/title"
+msgstr "전방 지원 보급품"
+
+msgid "description/rentValue/battles"
+msgstr "%(value)s회 전투 동안"
+
+msgid "description/rentValue/days"
+msgstr "%(value)s일 동안"
+
+msgid "description/rentValue/wins"
+msgstr "%(value)s회 승리 동안"
+
+msgid "giftDescription/tank/base"
+msgstr "선택한 전차와 함께 무료 %(items)s이 지급됩니다."
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}승무원{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}승무원{neutralClose} 및 {neutralOpen}차고 슬롯{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}차고 슬롯{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "취소"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(rentValue)s %(tankName)s 전차 대여"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s 전차 차고로 이동"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "%(rentValue)s %(tankName)s 전차 대여 연장"
+
+msgid "giftDialog/submit"
+msgstr "확인"
+
+msgid "giftDialog/title/common"
+msgstr "\"%(name)s\"\n획득 확인"
+
+msgid "giftDialog/title/tank"
+msgstr "전차 획득"
+
+msgid "giftDialog/title/tankRent"
+msgstr "전차 대여"
+
+msgid "giftsWindow/availableCount"
+msgstr "이용 가능: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "만료까지: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "남은 보상: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "보유 중"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "이용 가능 기간"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "미리 보기"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value)회 전투"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value)일"
+
+msgid "giftsWindow/rent/title"
+msgstr "대여 조건: %(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value)회 승리"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "수령"
+
+msgid "giftsWindow/tokens"
+msgstr "이용 가능: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "보유 토큰: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "이용 불가"
+
+msgid "rewardWindow/btnLabel"
+msgstr "확인"
+
+msgid "rewardWindow/title"
+msgstr "보상 획득"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "수령!"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "대여 연장!"
+
+msgid "tankPreview/description/newRent"
+msgstr "%(rentValue)s %(tankName)s 전차 무료 대여"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s 및 승무원"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s, 승무원, 차고 슬롯"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s 및 차고 슬롯"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "%(rentValue)s %(tankName)s 전차 대여 연장"

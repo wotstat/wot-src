@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/button/changeServer"
+msgstr "變更伺服器"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "詳情"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "此模式不適用於此伺服器 %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "所有伺服器均無法進行此模式"
+
+msgid "alertMessage/modeOffline"
+msgstr "資料庫錯誤。無法進行遊戲模式。"
+
+msgid "alertMessage/noVehicles"
+msgstr "您車庫中沒有適合的車輛 %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "了解！"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "天梯戰輕裝版"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "已完成最終階段！"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "已完成階段 %(level)s！"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "所有任務已完成！"
+
+msgid "battleQuestTooltips/completed"
+msgstr "已完成"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "到期於：%(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "天梯戰輕裝版任務"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "新的天梯戰輕裝版任務可用於：%(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "獎勵："
+msgstr[1] "獎勵："
+msgstr[2] "獎勵："
+
+msgid "battleResult/header/deserter"
+msgstr "您受到處罰"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "天梯戰輕裝版進度"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "天梯戰輕裝版將持續 %(days)d 天"
+msgstr[1] "天梯戰輕裝版將持續 %(days)d 天"
+msgstr[2] "天梯戰輕裝版將持續 %(days)d 天"
+
+msgid "calendarDay/title"
+msgstr "時間表"
+
+msgid "closeButtonLabel"
+msgstr "關閉"
+
+msgid "countDown/text"
+msgstr "活動開始於：\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "主打 %(levels)s 階車輛 7v7 戰鬥的快節奏模式。相較於完整版的天梯戰模式，您可在無外圍賽、無位階且不影響服役紀錄的情況下盡情享受戰鬥，並從每日任務獲取獎勵。"
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "模式"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — 遊戲模式。點擊以探索"
+
+msgid "entryPointTooltip/modeName"
+msgstr "天梯戰輕裝版"
+
+msgid "entryPointTooltip/status/active"
+msgstr "模式開放 %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "休戰期 %(timer)s"
+
+msgid "featureName"
+msgstr "天梯戰輕裝版"
+
+msgid "featureNameCapitalized"
+msgstr "天梯戰輕裝版"
+
+msgid "intro/confirmButton"
+msgstr "了解！"
+
+msgid "intro/description/lightGameplay"
+msgstr "享受標準「天梯戰」模式的玩法，但無外圍賽、位階或任何服役紀錄。"
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "模式變項會改變車輛的特定參數，如車輛生命值、消耗品冷卻時間、可持續被見到的時間等。"
+
+msgid "intro/description/pointsOfInterest"
+msgstr "一旦您佔領地圖上的特定區域，您將能使用戰術技能。地圖上有兩種關鍵點位：「炮兵總部」可讓您對特定位置進行火炮攻擊，而「通訊中心」可讓您偵察到所有敵方車輛。根據不同地圖，這些關鍵點位的存在與位置可能有變。"
+
+msgid "intro/description/roleSkills"
+msgstr "每輛車輛均有與角色相應的特殊技能，該技能有三個充能等級。啟用技能時，充能等級越高，效果越強大。充能等級將取決於獲得的威望點數數量，後者可藉由在戰鬥中達成出色表現、佔領關鍵點位、使用戰術技能等方式獲取。\n\n查看模式規則來深入了解有關獲得威望點數的不同方式。"
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "模式中僅限使用 %(levels)s 階車輛，無法使用自走炮與部分其他戰車。在車庫中準備您的車輛，接著在您進入戰鬥後，根據地圖特色並考量隊友選擇的車輛，來選擇最合適的車輛。"
+
+msgid "intro/title/lightGameplay"
+msgstr "車長，輕鬆戰鬥"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "天梯戰變項"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "關鍵點位"
+
+msgid "intro/title/roleSkills"
+msgstr "角色技能"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "依地圖特性選擇車輛"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "勝利"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "戰敗/平手"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "車長，做得好，再接再厲！"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "在「天梯戰輕裝版」戰鬥中完成任務並排名靠前，以提升您的進度等級。"
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "您獲得的進度點數，取決於您在戰鬥中獲得之威望點數的排名。"
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "模式結束於 %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "主要進度已完成"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "天梯戰輕裝版"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "置身前 2 名的威望點數"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "置身前 5 名的威望點數"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "置身前 7 名的威望點數"
+
+msgid "listSeparator"
+msgstr "、"
+
+msgid "noVehicles/howTo/premium"
+msgstr "擁有《戰車世界》加值帳號"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "啟用個人儲備"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "完成任務"
+
+msgid "noVehicles/howTo/title"
+msgstr "獲得 %(levels)s 階車輛最快的方式為何？"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "要參與天梯戰輕裝版，您車庫中必須擁有至少一輛適用於此模式的 %(levels)s 階車輛。\n您可在科技樹或遊戲內商店購買 %(levels)s 階加值車輛。"
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "要參與天梯戰輕裝版，您車庫中必須擁有至少一輛適用於此模式的 %(levels)s 階車輛。\n您有一輛可重新找回的 %(levels)s 階車輛。"
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "要參與天梯戰輕裝版，您車庫中必須擁有至少一輛適用於此模式的 %(levels)s 階車輛。"
+
+msgid "noVehicles/title"
+msgstr "您車庫中沒有適合的車輛"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "詳見「關於天梯戰輕裝版」頁面。"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "威望點數"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "造成傷害\n偵察協助\n摧毀履帶\n造成重傷\n摧毀敵方車輛\n與其他行為"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "可透過執行戰鬥行為來獲取威望點數，包括："
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "%(server)s 伺服器上的賽季已結束。"
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "%(server)s 伺服器上的賽季已結束。"
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "%(server)s 伺服器上的賽季已結束。"
+
+msgid "progressionEntryPoint/complete"
+msgstr "主要進度已完成！"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "階段 %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s或%(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "新任務開放於："
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "活動結束於："
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "任務將更新於"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "所有每日任務已完成。"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "已完成進度。在天梯戰輕裝版進行戰鬥以獲取更多獎勵。"
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "在「天梯戰輕裝版」戰鬥中完成任務並排名靠前，\n以提升您的進度等級。%(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "頒發給在天梯戰輕裝版完成特殊任務與進行戰鬥的玩家。點數可用來挺進進度。"
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "天梯戰輕裝版進度點數"
+
+msgid "selectorTooltip/desc"
+msgstr "無排名的模式：7v7 | %(tier)s 階"
+
+msgid "selectorTooltip/title"
+msgstr "天梯戰輕裝版"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "在遊戲入口網站關注最新消息以隨時鎖定全新賽季的最新資訊。"
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "這個模式由於技術性問題而暫時無法使用。"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "此模式將開放於 %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "已獲得進度點數"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "詳情"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "天梯戰輕裝版"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "已獲得獎勵："
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "您已完成%(progressionName)s模式中的進度階段 %(stage)s。"
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "恭喜！"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "已實施休戰。「天梯戰輕裝版」戰鬥暫時無法進行。"
+
+msgid "system_messages/primeTime/end/title"
+msgstr "休戰期"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "休戰期結束。「天梯戰輕裝版」戰鬥已可再次進行。"
+
+msgid "system_messages/primeTime/start/title"
+msgstr "休戰期"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "關於「天梯戰輕裝版」"

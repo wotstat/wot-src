@@ -1,0 +1,689 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CSAnimation/applyBtn/label"
+msgstr "了解!"
+
+msgid "CSAnimation/description"
+msgstr "おめでとう! あなたのチームが次の部門に加わりました。その調子です!"
+
+msgid "CSAnimation/header"
+msgstr "部門変更"
+
+msgid "InvitesAndRequestsWindow/accepted"
+msgstr "承諾済み"
+
+msgid "InvitesAndRequestsWindow/cancelled"
+msgstr "キャンセル済み"
+
+msgid "InvitesAndRequestsWindow/officerDescription"
+msgstr "チームメンバー—フレンドおよび適任プレイヤーで構成された手動作成チームです。"
+
+msgid "InvitesAndRequestsWindow/onlyInvitesCheckbox"
+msgstr "送信済みの招待を表示"
+
+msgid "InvitesAndRequestsWindow/ownerDescription"
+msgstr "チームメンバー—フレンドおよび適任プレイヤーで構成された手動作成チームです。"
+
+msgid "InvitesAndRequestsWindow/playerName"
+msgstr "名前"
+
+msgid "InvitesAndRequestsWindow/rejected"
+msgstr "拒否済み"
+
+msgid "InvitesAndRequestsWindow/status"
+msgstr "ステータス"
+
+msgid "InvitesAndRequestsWindow/title"
+msgstr "送信済み招待および送信済み加入申請"
+
+msgid "InvitesAndRequestsWindow/windowTitle"
+msgstr "加入申請と招待"
+
+msgid "StaticFormationStatsView/seasonFilter"
+msgstr "次の統計:"
+
+msgid "TextLoading/loading"
+msgstr "ロード中"
+
+msgid "button/chooseVehicles/info/tooltip/description/notSelected"
+msgstr "車輌が未選択です。自動検索を開始できません。"
+
+msgid "button/chooseVehicles/info/tooltip/description/notValid"
+msgstr "選択された車輌の準備が未完了です。自動検索を開始できません。"
+
+msgid "button/chooseVehicles/info/tooltip/description/valid"
+msgstr "適合車輌を選択中です。自動検索を開始できます。"
+
+msgid "button/chooseVehicles/info/tooltip/title"
+msgstr "車輌の選択"
+
+msgid "button/chooseVehicles/selected"
+msgstr "選択中の車輌"
+
+msgid "button/medallion/addSlotSettings"
+msgstr "追加"
+
+msgid "button/medallion/availableQuantity"
+msgstr "適合:"
+
+msgid "button/medallion/chooseVehicle"
+msgstr "車輌の選択"
+
+msgid "introView/leftBlock/btnLabel"
+msgstr "検索"
+
+msgid "introView/leftBlock/descr"
+msgstr "既存チームリストから適切なチームを選択します。指揮官による要件に適合している必要があります。"
+
+msgid "introView/leftBlock/header"
+msgstr "チーム検索"
+
+msgid "introView/rightBlock/btnLabel"
+msgstr "作成"
+
+msgid "introView/rightBlock/descr"
+msgstr "適合車輌を所有しているフレンドまたはプレイヤーとチームを作成します。"
+
+msgid "introView/rightBlock/header"
+msgstr "チームの作成"
+
+msgid "rallyInfo/profileBtn/Label"
+msgstr "チームプロフィール"
+
+msgid "respawn/chatHeader"
+msgstr "チャットチャンネル"
+
+msgid "respawn/enemyTeamStatus/Header"
+msgstr "敵チーム:"
+
+msgid "respawn/enemyTeamStatus/notReady"
+msgstr "準備中"
+
+msgid "respawn/enemyTeamStatus/ready"
+msgstr "準備完了!"
+
+msgid "respawn/fight/label"
+msgstr "チーム準備完了!"
+
+msgid "respawn/fight/status/commander"
+msgstr "チームの準備が整っていることをご確認ください。"
+
+msgid "respawn/fight/status/private"
+msgstr "戦闘待機中..."
+
+msgid "respawn/status/info"
+msgstr "割当時間内に車輌を選択してください。"
+
+msgid "respawn/status/ready"
+msgstr "戦闘開始までお待ちください..."
+
+msgid "respawn/status/warning"
+msgstr "準備完了を確定してください。"
+
+msgid "respawn/team/points"
+msgstr "車輌の総 Tier:"
+
+msgid "respawn/team/teamMembers"
+msgstr "チームメンバー: %(current)s / %(max)s"
+
+msgid "respawn/team/teamVehiclesStub"
+msgstr "車輌: VI–VIII"
+
+msgid "selectedFormation/JoinUnitSection/header"
+msgstr "選択した戦闘ルーム"
+
+msgid "squadWindow/waitingForBattle"
+msgstr "小隊は戦闘待機中"
+
+msgid "unitView/header"
+msgstr "戦闘ルーム"
+
+msgid "window/autoSearch/confirmation/cancelLbl"
+msgstr "キャンセル"
+
+msgid "window/autoSearch/confirmation/ctxMessage"
+msgstr "確認までの残り時間:"
+
+msgid "window/autoSearch/confirmation/ctxSeconds"
+msgstr "秒"
+
+msgid "window/autoSearch/confirmation/headerText"
+msgstr "該当チーム"
+
+msgid "window/autoSearch/confirmation/mainText"
+msgstr "準備完了を確定"
+
+msgid "window/autoSearch/confirmation/submitlLbl"
+msgstr "準備完了!"
+
+msgid "window/autoSearch/errorState/cancelLbl"
+msgstr "キャンセル"
+
+msgid "window/autoSearch/errorState/ctxMessage"
+msgstr "新しいチームを検索しますか?"
+
+msgid "window/autoSearch/errorState/headerText"
+msgstr "時間切れ"
+
+msgid "window/autoSearch/errorState/mainText"
+msgstr "チームは見つかりましたが、\nあなたは準備完了を確認しませんでした。"
+
+msgid "window/autoSearch/errorState/submitlLbl"
+msgstr "検索"
+
+msgid "window/autoSearch/searchCommand/cancelLbl"
+msgstr "キャンセル"
+
+msgid "window/autoSearch/searchCommand/ctxMessage"
+msgstr "平均待機時間:"
+
+msgid "window/autoSearch/searchCommand/cxtDnmMessage"
+msgstr "%d 分"
+
+msgid "window/autoSearch/searchCommand/mainText"
+msgstr "適合チームを検索中"
+
+msgid "window/autoSearch/searchEnemy/mainText"
+msgstr "戦闘待機中..."
+
+msgid "window/autoSearch/searchEnemyRespawn/mainText"
+msgstr "敵を待っています..."
+
+msgid "window/autoSearch/waitingPlayers/mainText"
+msgstr "プレイヤーを待っています..."
+
+msgid "window/backBtnLbl"
+msgstr "戻る"
+
+msgid "window/intro/auto/btn"
+msgstr "自動検索"
+
+msgid "window/intro/auto/btn/tooltip/description/disabled"
+msgstr "チームが見つかりませんでした。車輌が未選択か、戦闘準備が整っていません。"
+
+msgid "window/intro/auto/btn/tooltip/description/enabled"
+msgstr "クリックしてチームを自動検索し、戦闘に即参加する。"
+
+msgid "window/intro/auto/btn/tooltip/title"
+msgstr "自動検索"
+
+msgid "window/intro/auto/btnLbl"
+msgstr "自動検索の開始"
+
+msgid "window/intro/auto/description"
+msgstr "チームプレイヤーは自動的にマッチングされます。"
+
+msgid "window/intro/auto/title"
+msgstr "レーティングによる自動検索"
+
+msgid "window/intro/auto/vehicleLbl"
+msgstr "選択中の車輌:"
+
+msgid "window/intro/create/btn/addPlayers"
+msgstr "招待"
+
+msgid "window/intro/create/btn/assembleTeam"
+msgstr "チーム編成"
+
+msgid "window/intro/create/btn/joinTeam"
+msgstr "加入"
+
+msgid "window/intro/create/btn/look"
+msgstr "チームリスト"
+
+msgid "window/intro/create/btn/private/seeStaff"
+msgstr "チームメンバー"
+
+msgid "window/intro/description"
+msgstr "各 7 名構成の同等のチーム同士で戦います。\n車輌 Tier: VI–VIII、チームの総 Tier: 54"
+
+msgid "window/intro/search/btn"
+msgstr "検索"
+
+msgid "window/intro/search/description"
+msgstr "既存チームリストから適切なチームを選択します。指揮官による要件に適合している必要があります。"
+
+msgid "window/intro/search/title"
+msgstr "チーム検索"
+
+msgid "window/intro/team/description/createBattleRoom"
+msgstr "バトルルームの作成"
+
+msgid "window/intro/title"
+msgstr "チームバトル"
+
+msgid "window/intro/unavailableWaiting"
+msgstr "待機中..."
+
+msgid "window/rosterSlotSettings/bottomResult"
+msgstr "選択中:"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/range"
+msgstr "範囲"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/vehicle"
+msgstr "車輌"
+
+msgid "window/rosterSlotSettings/title"
+msgstr "要件の設定"
+
+msgid "window/rosterSlotSettings/vehicleTab/cancelBtn"
+msgstr "キャンセル"
+
+msgid "window/rosterSlotSettings/vehicleTab/headerText"
+msgstr "チームメイトの車輌に求める要件を指定してください。"
+
+msgid "window/rosterSlotSettings/vehicleTab/nationFieldSet"
+msgstr "国"
+
+msgid "window/rosterSlotSettings/vehicleTab/submitBtn"
+msgstr "選択"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleLevel"
+msgstr "車輌 Tier"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleType"
+msgstr "車輌タイプ"
+
+msgid "window/staticRallyInfo/cancelBtnLabel"
+msgstr "取りやめ"
+
+msgid "window/staticRallyInfo/joinBtnLabel"
+msgstr "申請の送信"
+
+msgid "window/staticRallyInfo/joinInfo/alreadyJoined"
+msgstr "あなたは既にチームのメンバーです。"
+
+msgid "window/staticRallyInfo/joinInfo/applicationCooldown"
+msgstr "加入申請を送信できません。"
+
+msgid "window/staticRallyInfo/joinInfo/inProcess"
+msgstr "加入申請の承認待ち"
+
+msgid "window/staticRallyInfo/joinInfo/inProcessOther"
+msgstr "申請は既に送信済みです。"
+
+msgid "window/staticRallyInfo/joinInfo/join"
+msgstr "申請の送信"
+
+msgid "window/staticRallyInfo/ladderInfo"
+msgstr "ラダー %(league)s、部門 %(division)s"
+
+msgid "window/staticRallyInfo/noAwards"
+msgstr "勲章なし"
+
+msgid "window/staticRallyInfo/noRallySelected"
+msgstr "左の一覧からチームを選択すると\n詳細説明が表示されます。"
+
+msgid "window/staticRallyInfo/staticRally/statsWinsPercent"
+msgstr "勝率"
+
+msgid "window/staticRallyInfo/statsBattlesCount"
+msgstr "戦闘数"
+
+msgid "window/title"
+msgstr "チームバトル"
+
+msgid "window/unit/applySlotsSettings"
+msgstr "承諾"
+
+msgid "window/unit/autoRecruit"
+msgstr "募集"
+
+msgid "window/unit/cancelSlotSettings"
+msgstr "キャンセル"
+
+msgid "window/unit/candidates"
+msgstr "志願兵"
+
+msgid "window/unit/candidates/legionaries"
+msgstr "傭兵"
+
+msgid "window/unit/candidates/team"
+msgstr "チーム"
+
+msgid "window/unit/chat"
+msgstr "チャットチャンネル"
+
+msgid "window/unit/closeRoom"
+msgstr "— ルーム表示"
+
+msgid "window/unit/description"
+msgstr "各 7 名構成の同等のチーム同士で戦います。\n車輌 Tier: VI–VIII、チームの総 Tier: 54"
+
+msgid "window/unit/descriptionDefault"
+msgstr "説明文の追加 —"
+
+msgid "window/unit/fight"
+msgstr "戦闘開始!"
+
+msgid "window/unit/inviteFriend"
+msgstr "プレイヤーを招待"
+
+msgid "window/unit/leave"
+msgstr "ルームから退室"
+
+msgid "window/unit/lockSlot"
+msgstr "スロットのロック"
+
+msgid "window/unit/message/candidate"
+msgstr "チーム指揮官があなたをチームに追加します。"
+
+msgid "window/unit/message/curfew"
+msgstr "休止時間"
+
+msgid "window/unit/message/falloutGroupNotReady"
+msgstr "いずれかの使用車輌の戦闘準備が未完了"
+
+msgid "window/unit/message/falloutLevel"
+msgstr "Tier %(level)s 車輌が少なくとも 1 輌必要"
+
+msgid "window/unit/message/falloutMin/levelRange"
+msgstr "グループに Tier %(level)s 車輌を追加"
+
+msgid "window/unit/message/falloutMin/requiredLevel"
+msgstr "Tier %(level)s 車輌を選択"
+
+msgid "window/unit/message/fortificationNotAvailable"
+msgstr "拠点: 戦闘モードは一時的にご利用いただけません"
+
+msgid "window/unit/message/getNotReady"
+msgstr "再度準備を行うにはクリックしてください"
+
+msgid "window/unit/message/getReady"
+msgstr "準備完了をメンバーに伝えてください"
+
+msgid "window/unit/message/has_frozen_vehicles"
+msgstr "分遣隊に大破した車輌あり"
+
+msgid "window/unit/message/in_players_matching"
+msgstr "分遣隊の準備完了: 傭兵を自動編成中..."
+
+msgid "window/unit/message/inactivePeriphery"
+msgstr " "
+
+msgid "window/unit/message/inactivePeripheryBattle"
+msgstr "準備を完了するには、進撃戦の開始 10 分前までお待ちください"
+
+msgid "window/unit/message/inactivePeripherySortie"
+msgstr "準備を完了するには、前衛戦の開始 10 分前までお待ちください"
+
+msgid "window/unit/message/invalidLevelError/6"
+msgstr "Tier VI 車輌は 1 チームあたり 1 輌までです。"
+
+msgid "window/unit/message/invalidLevelError/6_7"
+msgstr "Tier VI 車輌と Tier VII 車輌を同じチームに含めることはできません。"
+
+msgid "window/unit/message/invalidLevelError/7"
+msgstr "Tier VII 車輌は 1 チームあたり 2 輌までです。"
+
+msgid "window/unit/message/invalidLevelError/unresolved"
+msgstr "車輌 Tier が要件を満たしていません。"
+
+msgid "window/unit/message/level"
+msgstr "車輌の総 Tier が不充分です。必要: %(level)d"
+
+msgid "window/unit/message/maintenance"
+msgstr "モードを一時的にご利用不能"
+
+msgid "window/unit/message/minSlots"
+msgstr "不完全"
+
+msgid "window/unit/message/play_limits_is_active"
+msgstr "時間制限により新たな戦闘に参加できません。"
+
+msgid "window/unit/message/previewVehicleIsPresent"
+msgstr "車輌を選択するにはガレージに戻る必要があります"
+
+msgid "window/unit/message/ready"
+msgstr "分遣隊の準備完了: 敵を検索中..."
+
+msgid "window/unit/message/squadInBattle"
+msgstr "小隊は戦闘中"
+
+msgid "window/unit/message/takeSlotInRoster"
+msgstr "分遣隊に参加"
+
+msgid "window/unit/message/unitIsFull"
+msgstr "チーム指揮官があなたをチームに追加します。"
+
+msgid "window/unit/message/unitIsLocked"
+msgstr "あなたはチームメンバーではありません。スロットは凍結中です。"
+
+msgid "window/unit/message/vehicleInNotReady/broken"
+msgstr "車輌の戦闘準備が未完了: 修理が必要"
+
+msgid "window/unit/message/vehicleInNotReady/crewNotFull"
+msgstr "車輌の戦闘準備が未完了: 搭乗員が不完全"
+
+msgid "window/unit/message/vehicleInNotReady/isInBattle"
+msgstr "戦闘中の車輌"
+
+msgid "window/unit/message/vehicleInNotReady/notEnoughVehicles"
+msgstr "適合車輌が不足しています"
+
+msgid "window/unit/message/vehicleInNotReady/rentIsOver"
+msgstr "車輌の戦闘準備が未完了: レンタル期間終了"
+
+msgid "window/unit/message/vehicleInNotReady/rotationGroupLocked"
+msgstr "この車輌は準備未完了: グループ %(groupNum)s はロック中"
+
+msgid "window/unit/message/vehicleInNotReady/wrongMode"
+msgstr "選択した車輌はこの戦闘モードには不適合です。"
+
+msgid "window/unit/message/vehicleInNotReady/wrongUnitData"
+msgstr "選択中の車輌は指揮官が指定したパラメーターに適合していません。"
+
+msgid "window/unit/message/vehicleNotSelected"
+msgstr "戦闘参加車輌を選択"
+
+msgid "window/unit/message/vehicleNotValid"
+msgstr "車輌が戦闘準備未完了"
+
+msgid "window/unit/message/vehicleNotValidForEvent"
+msgstr "選択中の車輌は本イベントでは使用できません"
+
+msgid "window/unit/message/waitCommander"
+msgstr "指揮官の決断待ち..."
+
+msgid "window/unit/message/waiting"
+msgstr "プレイヤーの準備完了を待っています..."
+
+msgid "window/unit/notReady"
+msgstr "準備中"
+
+msgid "window/unit/openRoom"
+msgstr "— ルーム非表示"
+
+msgid "window/unit/rangeValue"
+msgstr "%(minVal)s – %(maxVal)s"
+
+msgid "window/unit/ready"
+msgstr "準備完了!"
+
+msgid "window/unit/rosterSettingsView/or"
+msgstr "または"
+
+msgid "window/unit/slot/battleRoyale"
+msgstr "もう 1 名のプレイヤーが必要"
+
+msgid "window/unit/slot/emptySlot"
+msgstr "空き"
+
+msgid "window/unit/slot/freezed"
+msgstr "凍結"
+
+msgid "window/unit/slot/locked"
+msgstr "ロック中"
+
+msgid "window/unit/slot/notAllowed"
+msgstr "ロック中"
+
+msgid "window/unit/slot/notAvailable"
+msgstr "ロック中"
+
+msgid "window/unit/slot/required"
+msgstr "プレイヤーを招待します。"
+
+msgid "window/unit/slot/takePlace"
+msgstr "スロットに参加"
+
+msgid "window/unit/slotHeaderText"
+msgstr "要件の設定"
+
+msgid "window/unit/slotSecondText"
+msgstr "要件を追加して、あなたがチームに必要とする車輌を示します。チームにプレイヤーを追加する際には、車輌要件は考慮されません。"
+
+msgid "window/unit/team"
+msgstr "チーム"
+
+msgid "window/unit/teamMembers"
+msgstr "スロット: %(current)s / %(max)s"
+
+msgid "window/unit/teamPoints"
+msgstr "総 Tier:"
+
+msgid "window/unit/teamVehicles"
+msgstr "車輌:"
+
+msgid "window/unit/teamVehiclesLbl"
+msgstr "車輌: %(levelsRange)s"
+
+msgid "window/unit/teamVehiclesStub"
+msgstr "車輌: VI-VIII"
+
+msgid "window/unit/unitListView/captain"
+msgstr "チーム指揮官"
+
+msgid "window/unit/unitListView/clubName"
+msgstr "チーム名"
+
+msgid "window/unit/unitListView/commander"
+msgstr "指揮官"
+
+msgid "window/unit/unitListView/description"
+msgstr "説明"
+
+msgid "window/unit/unitListView/paginationDown"
+msgstr "弱"
+
+msgid "window/unit/unitListView/paginationUp"
+msgstr "強"
+
+msgid "window/unit/unitListView/players"
+msgstr "編成"
+
+msgid "window/unit/unitName"
+msgstr "チーム %(commanderName)s"
+
+msgid "window/unit/unlockSlot"
+msgstr "スロットのアンロック"
+
+msgid "window/unitListView/create/btn"
+msgstr "ルームの作成"
+
+msgid "window/unitListView/enterBtn/common"
+msgstr "志願兵"
+
+msgid "window/unitListView/enterBtn/legionary"
+msgstr "参加"
+
+msgid "window/unitListView/enterBtn/member"
+msgstr "加入"
+
+msgid "window/unitListView/enterText/legionary"
+msgstr "傭兵として参加"
+
+msgid "window/unitListView/enterText/member"
+msgstr "チームに加入"
+
+msgid "window/unitListView/foundTeamsDescription"
+msgstr "下記のリストのチームには空きスロットがあり、プレイヤーを求めています。"
+
+msgid "window/unitListView/noItems"
+msgstr "チームが見つかりません。"
+
+msgid "window/unitListView/noSearchResults/btn"
+msgstr "一覧に戻る"
+
+msgid "window/unitListView/noSearchResults/description"
+msgstr "この名称のチームは見つかりません"
+
+msgid "window/unitListView/noSearchResults/header"
+msgstr "検索結果なし"
+
+msgid "window/unitListView/noTeams/description"
+msgstr "検索条件に合致するチームが見つかりません。後ほど改めてお試しください。"
+
+msgid "window/unitListView/noTeams/header"
+msgstr "チームが見つかりません"
+
+msgid "window/unitListView/noUnitSelected"
+msgstr "左の一覧からチームを選択すると\n詳細説明が表示されます。"
+
+msgid "window/unitListView/refreshList"
+msgstr "一覧の更新"
+
+msgid "window/unitListView/renderer/next"
+msgstr "次"
+
+msgid "window/unitListView/renderer/previous"
+msgstr "前"
+
+msgid "window/unitListView/renderer/requiredVehicles"
+msgstr "適合車輌"
+
+msgid "window/unitListView/renderer/showMore"
+msgstr "次の 20 件"
+
+msgid "window/unitListView/selectedTeam"
+msgstr "チーム"
+
+msgid "window/unitListView/sort/label"
+msgstr "レーティング:"
+
+msgid "window/unitListView/team"
+msgstr "編成"
+
+msgid "window/unitListView/teamDescription"
+msgstr "チーム説明"
+
+msgid "window/unitListView/title"
+msgstr "戦闘ルーム"
+
+msgid "window/unitListView/vehicles"
+msgstr "車輌"
+
+msgid "window/vehicleSelector/buttons/cancel"
+msgstr "キャンセル"
+
+msgid "window/vehicleSelector/buttons/select"
+msgstr "選択"
+
+msgid "window/vehicleSelector/filters/all"
+msgstr "全て"
+
+msgid "window/vehicleSelector/filters/allLevels"
+msgstr "全ての Tier"
+
+msgid "window/vehicleSelector/filters/level"
+msgstr "%(levelNum)d Tier"
+
+msgid "window/vehicleSelector/filters/matches"
+msgstr "適合車輌のみを表示"
+
+msgid "window/vehicleSelector/info/intro"
+msgstr "選択した車輌のいずれかで戦闘に参加します。車輌 Tier: VI–VIII\n\n快適なプレイのため、軽戦車、中戦車または重戦車を選択してください。"
+
+msgid "window/vehicleSelector/info/respawn"
+msgstr "戦闘参加を希望する車輌を選択してください。車輌 Tier: VI–VIII"
+
+msgid "window/vehicleSelector/info/search"
+msgstr "選択した車輌のいずれかで戦闘に参加します。車輌 Tier: VI–VIII"
+
+msgid "window/vehicleSelector/info/unit"
+msgstr "戦闘参加を希望する車輌を選択してください。車輌 Tier: VI–VIII"
+
+msgid "window/vehicleSelector/title"
+msgstr "車輌の選択"

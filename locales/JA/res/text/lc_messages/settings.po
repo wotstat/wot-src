@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT 翻訳者 <noreply@wargaming.net>\nLanguage-Team: WoT チーム <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "アンチエイリアス処理"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "ゲーム内のオブジェクトの細い線や輪郭線に対する追加処理の度合いを変更します。エイリアシング (線がギザギザに表示される現象) を抑えることができます。\n\n• 高—FXAA\n• 最高—テンポラル・スーパーサンプリング・アンチエイリアシング (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "動的調整"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "ビデオカードへの負荷に合わせて3Dレンダリング解像度を自動的に調整する機能です。\n\n有効にするとゲームのパフォーマンスが向上します。ガレージ内のレンダリング解像度には影響しません。"
+
+msgid "EFFECTS_QUALITY"
+msgstr "追加エフェクトの描画品質"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "跳弾スパーク、爆発、煙、その他の特殊エフェクトの描画品質を変更できます。\n\nこのパラメーターを下げるとゲームのパフォーマンスが向上します。"
+
+msgid "FAR_PLANE"
+msgstr "描画範囲"
+
+msgid "FAR_PLANE/description"
+msgstr "地形、建造物、敵車輌その他のオブジェクトを表示する範囲を変更できます。"
+
+msgid "FLORA_QUALITY"
+msgstr "草の描画密度"
+
+msgid "FLORA_QUALITY/description"
+msgstr "通常視点モードとスナイパーモードで表示される草の密度を変更できます。"
+
+msgid "HAVOK_ENABLED"
+msgstr "破壊エフェクトの物理演算を向上"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "OFF"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "ON"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "有効にすると、マップ上のオブジェクトが倒壊する様子がより精細かつリアルに表示されます。\n\nこの機能を無効にするとPCのパフォーマンスの向上に繋がることがあります。"
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "現在の戦闘で無効になっている場合、設定の変更は次の戦闘から反映されます。"
+
+msgid "LANGUAGE_CODE"
+msgstr "ja"
+
+msgid "LIGHTING_QUALITY"
+msgstr "光の描画品質"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "太陽光や光学エフェクトなどの描画品質を変更できます。\n\nこのパラメーターを上げるとビデオカードへの負荷が大きく増加します。"
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "モーションブラー効果"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "車輌の移動やカメラの回転に伴って生じるモーションブラー効果の品質を変更できます。"
+
+msgid "MSAA_QUALITY"
+msgstr "アンチエイリアス処理"
+
+msgid "MSAA_QUALITY/description"
+msgstr "ゲームオブジェクトの細い線や輪郭線に対する追加処理の度合いを変更します。ギザギザを軽減することができます。\n\n• 低—MSAA 2x\n• 中—MSAA 4x\n• 高—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "オブジェクトの描画品質"
+
+msgid "OBJECT_LOD/description"
+msgstr "表示されるオブジェクトの数とその描画品質を変更できます。"
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "ポストプロセス・エフェクトの品質"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "熱による揺らぎ、衝撃波、色収差、周辺減光、フィルム粒子といったポストプロセス・エフェクトの品質を変更できます。\n\nこのパラメーターを下げるとゲームのパフォーマンスが向上します。"
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "グラフィック"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "【改良】最高画質でゲームをプレイできます。\n\n【簡易】一部の特殊エフェクトを単純化または無効化することにより、ゲームのパフォーマンスが向上します。"
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "グラフィック"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "この設定への変更を反映させるにはゲームの再起動が必要になります。"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "車輌の周囲の植物を表示"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "有効にすると、車輌のすぐそばの樹木や茂みが薄透明に表示されます。\n\n無効にすると車輌の周囲の植物が全く表示されなくなるため、ゲームのパフォーマンスが向上します。"
+
+msgid "SHADER_VERSION_CAP"
+msgstr "シェーダーバージョン"
+
+msgid "SHADOWS_QUALITY"
+msgstr "影の描画品質"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "描画範囲全体に対して行われる影の動的な処理の品質を変更できます。\n\nこのパラメーターを下げるとゲームのパフォーマンスが大きく向上します。"
+
+msgid "SMOKE_ENABLED"
+msgstr "煙"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "スナイパーモードでの追加エフェクト"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "スナイパーモードでの跳弾スパーク、爆発、煙、その他の特殊エフェクトの描画品質を変更できます。\n\nこのパラメーターを下げるとゲームのパフォーマンスが向上します。"
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "スナイパーモードで草を表示"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "有効にすると、スナイパーモードでも草が表示されます。\n\nこの機能を無効にするとPCのパフォーマンスの向上に繋がることがあります。"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "スナイパーモードでの地形テセレーション"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "有効にすると、スナイパーモード使用時に自車輌の周囲50 m以内の地形の描画品質が向上します。「地形テセレーション」を有効にしている場合にのみ選択できます。\n\nこの機能を無効にするとPCのパフォーマンスの向上に繋がることがあります。"
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "植物の描画品質"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "樹木、茂み、草の描画品質を変更できます。"
+
+msgid "TERRAIN_QUALITY"
+msgstr "地形の描画品質"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "マップの地形の描画品質を変更できます。\n\n「最低」オプションは、ご利用中のPCのスペックが低い場合を除き、選択しないことを推奨します。\n\nこのパラメーターを下げると、クライアントとサーバーの間で地形の表示が正しく同期されなくなる可能性が生じます。"
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "変更が反映されるまで時間がかかる場合があります。"
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "地形テセレーション"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "ハードウェア処理によりポリゴンメッシュを細分化して精細感を高めるプロセスです。\n\nこの機能は、次の環境下でのみ動作します。\n• グラフィック設定: 改良\n• 地形品質: 高、最高、ウルトラ\n• DirectX 11をインストール済み\n\nDirectX 11より古いバージョンでは設定を変更できません。\n\nこの機能を無効にするとでゲームのパフォーマンスの向上に繋がることがあります。"
+
+msgid "TEXTURE_QUALITY"
+msgstr "テクスチャーの品質"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "オブジェクト表面の描画品質を変更できます。特に近距離での描画品質に影響を与えます。\n\nこのパラメーターを下げるとゲームのパフォーマンスが向上します。"
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "変更が反映されるまで時間がかかる場合があります。"
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "履帯の物理シミュレーション"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "正常時および損傷中の履帯の物理シミュレーションや細部の品質を変更できます。\n\nこの機能を無効にするとPCのパフォーマンスの向上に繋がることがあります。"
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "履帯と車輪の追加エフェクトを表示"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "履帯や車輪の後方で土、雪、水などが跳ねる追加エフェクトを表示できます。\n\nこの機能を無効にするとPCのパフォーマンスの向上に繋がることがあります。"
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "履帯と車輪の軌跡を表示"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "履帯や車輪の軌跡を地面に表示できます。\n\nグラフィック品質が低い場合や「簡易」オプションを選択している場合には利用できません。"
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "スナイパーモードで3D付属品を非表示"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "スナイパーモードで照準を合わせる際に、車輌の3D付属品を一時的に非表示にします。\n\n視覚的な妨げを減らすことで、照準の精度を向上させます。"
+
+msgid "WATER_QUALITY"
+msgstr "水面の描画品質"
+
+msgid "WATER_QUALITY/description"
+msgstr "水面の描画品質を変更できます。"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "装甲の薄い部分のみ"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "こちらの機能を有効にすると、装甲の薄い部分だけがハイライトされます。\n\n貫通の可能性が高い部分は緑でハイライトされ、貫通の可能性が中程度の部分は半透明の緑で表示されます。カラーバリアフリー・モードでは色が異なる場合があります。"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "装甲の薄い部分のみハイライト"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "装甲の厚い部分のみ"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "こちらの機能を有効にすると、装甲の厚い部分だけがハイライトされます。\n\n貫通の可能性が低いまたは絶対に貫通できない部分は赤でハイライトされ、貫通の可能性が中程度の部分は半透明の赤で表示されます。カラーバリアフリー・モードでは色が異なる場合があります。"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "装甲の厚い部分のみハイライト"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "すべての装甲"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "こちらの機能を有効にすると、装甲の全体をハイライトします。\n\n貫通の可能性が低いまたは絶対に貫通できない部分は赤でハイライトされ、貫通の可能性が高い部分は緑でハイライトされ、貫通の可能性が中程度の部分は黄色で表示されます。カラーバリアフリー・モードでは色が異なる場合があります。"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "装甲の全体をハイライト"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "装甲ハイライト"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "戦闘開始時に有効化"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "戦闘開始時の「装甲ハイライト」のデフォルト状態です。割り当てられたホットキーを使用して、いつでも「装甲ハイライト」のオンオフを切り替えることができます。\n\n有効にすると、「装甲ハイライト」がスナイパーモードでのみ機能するようになります。\n\n対応ゲームモードは以下の通りです。\n• ランダム戦とチームトレーニング\n• フロントライン\n• 「アミューズメント」モード\n• オンスロート\n• その他の特定のモードやイベント\n\n将来的に対象モードやイベントは追加される可能性があります。"
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "戦闘開始時に有効化"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "「装甲ハイライト」のテクスチャー"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "塗りつぶし"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "まばら"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "高密度"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "不透明度"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "パフォーマンス警告"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "高"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "低"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "中"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "「装甲ハイライト」の解像度"
+
+msgid "aim/cassette"
+msgstr "弾倉インジケーター"
+
+msgid "aim/centralTag"
+msgstr "レティクル"
+
+msgid "aim/centralTag/type0"
+msgstr "A 字型 I"
+
+msgid "aim/centralTag/type1"
+msgstr "A 字型 II"
+
+msgid "aim/centralTag/type10"
+msgstr "O 字型 I"
+
+msgid "aim/centralTag/type11"
+msgstr "O 字型 II"
+
+msgid "aim/centralTag/type12"
+msgstr "A 字型 IV"
+
+msgid "aim/centralTag/type13"
+msgstr "A 字型 V"
+
+msgid "aim/centralTag/type2"
+msgstr "A 字型 III"
+
+msgid "aim/centralTag/type3"
+msgstr "V 字型"
+
+msgid "aim/centralTag/type4"
+msgstr "十字線 I"
+
+msgid "aim/centralTag/type5"
+msgstr "十字線 II"
+
+msgid "aim/centralTag/type6"
+msgstr "T 字型"
+
+msgid "aim/centralTag/type7"
+msgstr "I 字型"
+
+msgid "aim/centralTag/type8"
+msgstr "照準点 I"
+
+msgid "aim/centralTag/type9"
+msgstr "照準点 II"
+
+msgid "aim/condition"
+msgstr "状態インジケーター"
+
+msgid "aim/gunTag"
+msgstr "主砲マーカー"
+
+msgid "aim/gunTag/type0"
+msgstr "A 字型 I (装甲貫通インジケーター付き)"
+
+msgid "aim/gunTag/type1"
+msgstr "A 字型 II (装填インジケーター付き)"
+
+msgid "aim/gunTag/type10"
+msgstr "O 字型 II (装填インジケーター付き)"
+
+msgid "aim/gunTag/type11"
+msgstr "O 字型 III"
+
+msgid "aim/gunTag/type12"
+msgstr "A 字型 IV (装甲貫通インジケーター付き)"
+
+msgid "aim/gunTag/type13"
+msgstr "A 字型 V (装填インジケーター付き)"
+
+msgid "aim/gunTag/type14"
+msgstr "A 字型 VI"
+
+msgid "aim/gunTag/type2"
+msgstr "A 字型 III"
+
+msgid "aim/gunTag/type3"
+msgstr "十字線 I (装甲貫通インジケーター付き)"
+
+msgid "aim/gunTag/type4"
+msgstr "十字線 II (装填インジケーター付き)"
+
+msgid "aim/gunTag/type5"
+msgstr "十字線 III"
+
+msgid "aim/gunTag/type6"
+msgstr "照準点 I (装甲貫通インジケーター付き)"
+
+msgid "aim/gunTag/type7"
+msgstr "照準点 II (装填インジケーター付き)"
+
+msgid "aim/gunTag/type8"
+msgstr "照準点 III"
+
+msgid "aim/gunTag/type9"
+msgstr "O 字型 I (装甲貫通インジケーター付き)"
+
+msgid "aim/mixing"
+msgstr "照準サークル"
+
+msgid "aim/mixing/type0"
+msgstr "サークル I (装填インジケーター付き) "
+
+msgid "aim/mixing/type1"
+msgstr "サークル II (シフト式装填インジケーター付き)"
+
+msgid "aim/mixing/type2"
+msgstr "サークル III (装填インジケーターなし)"
+
+msgid "aim/mixing/type3"
+msgstr "サークル IV (固定)"
+
+msgid "aim/mixing/type4"
+msgstr "十字線 (シフト式装填インジケーター付き)"
+
+msgid "aim/mixing/type5"
+msgstr "十字線 II"
+
+msgid "aim/mixing/type6"
+msgstr "テスト"
+
+msgid "aim/net"
+msgstr "インジケーター"
+
+msgid "aim/net/type0"
+msgstr "対角線"
+
+msgid "aim/net/type1"
+msgstr "水平"
+
+msgid "aim/net/type2"
+msgstr "放射状"
+
+msgid "aim/net/type3"
+msgstr "破線"
+
+msgid "aim/reloader"
+msgstr "装填インジケーター"
+
+msgid "aim/reloaderTimer"
+msgstr "装填タイマー"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "照準切り替え時の視点モード"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "最後に使用したモード"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "自走砲モード (俯瞰視点モード)"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "弾道視点モード"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "照準モードの自動切り替え"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "マウスホイールをスクロールして特定のズーム倍率に到達した際に、照準モードが俯瞰視点の自走砲モードまたは弾道視点モードに自動的に切り替わります。"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "照準モードの自動切り替え"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "スムーズなカメラ・ズーム"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "射線インジケーター"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "装填している砲弾が照準中の地点に到達できるかを示すインジケーターと、到達に要する飛翔時間を表示します。"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "射線インジケーター"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "ズーム・インジケーター"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "照準モードのズーム・レベルを表示します。"
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "ズーム・インジケーター"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "カメラ操作"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "代替モード"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "標準モード"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "標準モードでは、カメラを上下左右に動かすことができます。代替モードでは、カメラを前方、後方、そして自車輌の周囲を旋回するように動かすことができます。"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "カメラ操作"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "ズーム倍率インジケーター"
+
+msgid "alternativeVoices/labels"
+msgstr "搭乗員ボイス"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "搭乗員ボイス"
+
+msgid "apply_button"
+msgstr "適用"
+
+msgid "autodetectButton"
+msgstr "推奨"
+
+msgid "autodetectButton/description"
+msgstr "ご利用中のPCに最適なグラフィック品質を判定します。\n\n判定処理に少し時間が掛かる場合があります。"
+
+msgid "battlecomm/enableCommendations"
+msgstr "戦闘中に受け取った「いいぞ」を表示"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "個人コマンドを表示"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "チームパネルにコミュニケーションを表示"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "戦闘画面上に地点マーカーを表示"
+
+msgid "battlecomm/showMarkers"
+msgstr "ランダム戦で陣地マーカーを表示"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "固定マーカーを表示"
+
+msgid "borderlessSize"
+msgstr "ウィンドウ (枠なし)"
+
+msgid "borderlessSize/description"
+msgstr "ウィンドウ (枠なし)"
+
+msgid "cancel_button"
+msgstr "キャンセル"
+
+msgid "chat/censorshipMessages"
+msgstr "チャット内の攻撃的な表現を非表示"
+
+msgid "chat/chatContactsListOnly"
+msgstr "連絡先リストのプレイヤーからのみメッセージを受信"
+
+msgid "chat/disableBattleChat"
+msgstr "味方とのチャットを無効化"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "カメラとチャンネル・ウィンドウの位置を記憶"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "カメラと他のウィンドウの位置を記憶"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "ガレージでフレンドからのみ招待を受信"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "クラン通知を受信"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "フレンドリクエストを受信"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "ダイナミック小隊への招待を受信"
+
+msgid "chat/removeSpam"
+msgstr "スパムを非表示"
+
+msgid "chat/showDateMessage"
+msgstr "メッセージに日付を表示"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "ユーザーの接続/切断を通知"
+
+msgid "chat/showTimeMessage"
+msgstr "メッセージに時間を表示"
+
+msgid "colorCorrection"
+msgstr "カラー調整"
+
+msgid "colorCorrectionBtn/label"
+msgstr "設定を変更"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "カスタム設定"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "明るさ"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "コントラスト"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "彩度"
+
+msgid "colorSettings/tab/default"
+msgstr "デフォルト"
+
+msgid "colorSettings/tab/filters"
+msgstr "プリセット・フィルター"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "フィルターの強度"
+
+msgid "colorSettings/view/after"
+msgstr "アフター"
+
+msgid "colorSettings/view/before"
+msgstr "ビフォー"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "閉じる"
+
+msgid "colorSettings/view/description"
+msgstr "いずれかのオプションを選択してください。"
+
+msgid "colorSettings/view/header"
+msgstr "カラー調整"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "リセット"
+
+msgid "colorSettings/view/subTitle"
+msgstr "調整オプション"
+
+msgid "cursor/ArcadeTitle"
+msgstr "通常"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "装甲ハイライト"
+
+msgid "cursor/ArtyTitle"
+msgstr "自走砲"
+
+msgid "cursor/ContourTitle"
+msgstr "シルエット"
+
+msgid "cursor/ServerAim"
+msgstr "サーバー照準を有効化"
+
+msgid "cursor/SnipperTitle"
+msgstr "スナイパー"
+
+msgid "cursor/contour/type0"
+msgstr "標準"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "敵車輌に照準を合わせると命中判定のない装飾等も含めた車輌全体の輪郭が表示されます。"
+
+msgid "cursor/contour/type1"
+msgstr "精密"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "敵車輌に照準を合わせると車輌全体のうち命中判定がある部分のみを反映した輪郭が表示されます。"
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "破壊不可能な障害物"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "なし"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "フィル"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "テクスチャー"
+
+msgid "cursor/contourLabel"
+msgstr "輪郭のタイプ"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "破壊可能な障害物"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "なし"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "フィル"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "テクスチャー"
+
+msgid "cursor/overlapContour"
+msgstr "障害物のレンダリング"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "有効化するとパフォーマンスが低下する可能性があります。"
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "敵車輌に照準を合わせた際に射線を遮る障害物の有無とタイプを表示できます。\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "障害物のレンダリング"
+
+msgid "cursor/overlapContourLabel"
+msgstr "障害物のレンダリング"
+
+msgid "cursorTitle"
+msgstr "照準"
+
+msgid "defaultBtn"
+msgstr "初期設定"
+
+msgid "defaultNamePrefix"
+msgstr "プレイヤー"
+
+msgid "dynamicCamera"
+msgstr "カメラの動的調整を有効化"
+
+msgid "dynamicFov"
+msgstr "画角の動的調整"
+
+msgid "dynamicFov/description"
+msgstr "有効にすると、通常視点モードでの画角の最大値と最小値を設定できるようになります。\n\n自車輌からカメラを引くと最大画角が適用されます。\n\n自車輌にカメラを寄せると最小画角が適用されます。"
+
+msgid "dynamicRenderer"
+msgstr "3Dレンダリング解像度"
+
+msgid "dynamicRenderer/description"
+msgstr "ゲーム画面の品質および精細度を変更します。\n\n3Dレンダリング解像度は、戦闘中に「右Shift」キーと「+」キーまたは「右Shift」キーと「-」キーを押すことでも変更できます。UIには影響を与えません。\n\nこのパラメーターを下げると、ビデオカードの性能が低いPCのパフォーマンスが向上します。"
+
+msgid "edgeDetectAA"
+msgstr "エッジ検出アンチエイリアス"
+
+msgid "feedBack"
+msgstr "戦闘通知"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "マップの境界線"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "スタンによるアシスト"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "陣地占領ポイント"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "陣地占領のリセット"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "阻んだダメージ"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "火災の誘発"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "重大な損傷の誘発"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "敵車輌の発見"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "発見によるアシスト"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "射撃によるダメージ"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "敵車輌の撃破"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "体当たりによるダメージ"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "履帯切断によるアシスト"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "イベント名"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "重大な損傷の誘発"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "被ダメージ"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "戦闘中に表示"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "車輌情報"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "衝撃によるダメージ"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "すべての即応型パーク"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "表示されるのは\n直近の3つのみ"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "戦闘イベント"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "通知の内容"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "イベント"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "搭乗員パーク"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "被弾に関する情報"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "戦闘パフォーマンス"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "被ダメージ"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "マップ境界線を非表示にした場合、戦闘中に誤判断を招く可能性があります。"
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Altを押している間のみ表示"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "常に表示"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "非表示"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "接近時のみ表示"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "境界線の表示方法"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "縞"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "非表示"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "境界線のタイプ"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "壁"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "射撃方向インジケーター"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "味方からの誤射"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "ダメージ量"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "阻んだ射撃"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "自車輌への\n重大な損傷"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "被ダメージ"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "モジュール損傷"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "情報の内容"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "アニメーションを表示"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "ダメージ量"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "動的インジケーター"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "射撃を行った車輌"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "追加表示する情報"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "全て"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "味方からの誤射"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "重大な損傷"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "重大を除く"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "詳細"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "標準"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "タイプ"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "ログ"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "スタンによるアシスト"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "阻んだダメージ"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "発見・履帯切断によるアシスト"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "与ダメージ"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "常に表示"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Altを押している間のみ表示"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "非表示"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "ログの表示方法"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "全て下部に表示"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "被弾情報のみ上部に表示"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "ログの表示位置"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "全て"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "ログに表示するイベント"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "被弾情報のみ"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "戦闘パフォーマンスのみ"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "解像度の低いモニターでは\n設定の無効化を推奨します"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "ログに表示する通算ダメージ"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "詳細ダメージ情報ブロック。戦闘での自車輌の戦績を詳細に表示"
+
+msgid "feedback/tab/eventsInfo"
+msgstr "戦闘イベント"
+
+msgid "feedback/tab/questsProgress"
+msgstr "戦況とミッション"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "戦況"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "ミッションの詳細"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Tier毎の車輌数"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "チーム全体のHPバー"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "チーム間のHP差"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "チーム全体のHP量"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "全て表示"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "進捗のみ表示"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "詳細モード"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "非表示"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "表示"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "ミッション"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "戦闘中のカメラの画角"
+
+msgid "fov/description"
+msgstr "戦闘中にカメラが表示する視野範囲を角度で示した値です。\n\n通常設定は95°です。画角を下げるとレンズが望遠になり、カメラが一度に表示できる範囲が狭くなる代わりにオブジェクトが大きく表示されます。\n\nゲームのパフォーマンスには影響しません。"
+
+msgid "game/anonymizer"
+msgstr "戦闘中に自分のプレイヤー名を匿名化"
+
+msgid "game/battleLoadingInfo"
+msgstr "戦闘のロード画面に表示するヒント"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "ミニマップ"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "文章のみ"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "画像付き"
+
+msgid "game/battlePanelSettings"
+msgstr "戦闘 UI"
+
+msgid "game/carouselType"
+msgstr "車輌パネル"
+
+msgid "game/carouselType/double"
+msgstr "2段"
+
+msgid "game/carouselType/single"
+msgstr "1段"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "車輌パネルにカーソルをかざした際に勝率を表示"
+
+msgid "game/commanderCamEnabled"
+msgstr "戦術俯瞰視点モードを有効化"
+
+msgid "game/customizationDisplayType"
+msgstr "戦闘中に表示するカスタマイズ要素"
+
+msgid "game/customizationDisplayType/all"
+msgstr "歴史的、非歴史的、架空"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "歴史的"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "歴史的、非歴史的"
+
+msgid "game/displayPlatoonMembers"
+msgstr "小隊メンバーの車輌をガレージに表示"
+
+msgid "game/doubleCarousel/label"
+msgstr "2段表示時のパネルのサイズ"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "画面に適応"
+
+msgid "game/doubleCarouselType/small"
+msgstr "常に最小"
+
+msgid "game/dynamicCamera"
+msgstr "カメラの動的調整を有効化"
+
+msgid "game/enableBattleNotifier"
+msgstr "直近の戦闘結果をチャット欄に表示"
+
+msgid "game/enableMortalPostEffect"
+msgstr "観戦モードでのポストエフェクトを有効化"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "スナイパーモードを識別する視覚エフェクトを追加"
+
+msgid "game/enableRepairTimer"
+msgstr "損傷したモジュールの修理に要する時間を表示"
+
+msgid "game/enableSpeedometer"
+msgstr "装輪車輌を使用する際に速度計を表示"
+
+msgid "game/enableVoIP"
+msgstr "音声チャット"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "戦闘コミュニケーション"
+
+msgid "game/fieldset/headerChat"
+msgstr "チャット"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "ミニマップ"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "車輌マーカー"
+
+msgid "game/hangarCamCheckbox"
+msgstr "カーソルの移動に伴うアニメーションを有効化"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "無操作時にカメラが回転を始めるまでの時間"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "ガレージでのカメラの動作"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "回転させない"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30秒"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45秒"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60秒"
+
+msgid "game/horStabilizationSnp"
+msgstr "スナイパーモードでの照準を水平安定化"
+
+msgid "game/hullLockEnabled"
+msgstr "スナイパーモードでの車体の自動ロックを有効化"
+
+msgid "game/increasedZoom/base"
+msgstr "スナイパーモードでズーム倍率%(zooms)sを有効化"
+
+msgid "game/increasedZoom/delimeter"
+msgstr "と"
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "ゲーム起動時にサーバーを選択"
+
+msgid "game/minimapDrawRange"
+msgstr "描画サークルを表示"
+
+msgid "game/minimapGroupTitle"
+msgstr "ミニマップ"
+
+msgid "game/minimapMaxViewRange"
+msgstr "最大発見範囲サークルを表示"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "強制発見範囲サークルを表示"
+
+msgid "game/minimapViewRange"
+msgstr "視認範囲サークルを表示"
+
+msgid "game/newbeeTipsTitle"
+msgstr "ヒント"
+
+msgid "game/newbieBattleHints"
+msgstr "「ランダム戦」で表示される初心者向けヒントを表示"
+
+msgid "game/newbiePrebattleHints"
+msgstr "戦闘のロード画面に表示される初心者向けヒントを表示"
+
+msgid "game/optimizeGraphics"
+msgstr "UI グラフィックの最適化"
+
+msgid "game/playersPanelState/large"
+msgstr "フル"
+
+msgid "game/playersPanelState/medium"
+msgstr "ミディアム"
+
+msgid "game/playersPanelState/none"
+msgstr "パネルなし"
+
+msgid "game/playersPanelState/short"
+msgstr "ショート"
+
+msgid "game/postmortemMode"
+msgstr "ポストモーテム機能"
+
+msgid "game/postmortemMode/analysis"
+msgstr "自車輌が大破した瞬間を表示 (詳細版)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "自車輌を大破させた敵車輌を表示"
+
+msgid "game/postmortemMode/self"
+msgstr "自車輌を表示"
+
+msgid "game/postmortemMode/simple"
+msgstr "自車輌が大破した瞬間を表示 (簡易版)"
+
+msgid "game/ppShowLevels"
+msgstr "車輌Tierを表示"
+
+msgid "game/ppShowTypes"
+msgstr "車輌タイプを表示"
+
+msgid "game/ppStartStateLabel"
+msgstr "タイプ"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "戦術広角視点モードを有効化"
+
+msgid "game/replayEnabled"
+msgstr "戦闘リプレイの自動保存"
+
+msgid "game/replayEnabled/all"
+msgstr "全戦闘"
+
+msgid "game/replayEnabled/last"
+msgstr "直近の戦闘のみ"
+
+msgid "game/replayEnabled/none"
+msgstr "保存しない"
+
+msgid "game/showArtyHitOnMap"
+msgstr "敵自走砲弾の弾着点を表示"
+
+msgid "game/showDamageIcon"
+msgstr "ダメージを与えられなかった際に通知を表示"
+
+msgid "game/showDogTag"
+msgstr "ドッグタグを表示"
+
+msgid "game/showDogTagToKiller"
+msgstr "適用中のカスタム・ドッグタグを表示"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "大破車輌の情報を表示"
+
+msgid "game/showKillersDogTag"
+msgstr "自車輌を撃破したプレイヤーのドッグタグを表示"
+
+msgid "game/showLanguageBar"
+msgstr "言語パネルの表示"
+
+msgid "game/showMarksOnGun"
+msgstr "優等マークを表示"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "自分のモーション・ドッグタグを表示"
+
+msgid "game/showSectorOnMap"
+msgstr "自走砲の主砲可動範囲を表示"
+
+msgid "game/showVectorOnMap"
+msgstr "カメラの方向を表示"
+
+msgid "game/showVehModelsOnMap"
+msgstr "ミニマップの拡張機能"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Altを押している間のみ有効"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "常に有効"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "常に無効"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "ミニマップ上の車輌HPバー"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Altを押している間のみ表示"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "常に表示"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "表示しない"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "チームパネル上の車輌HPバー"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Altを押している間のみ表示"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "常に表示"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "表示しない"
+
+msgid "game/showVehicleIcon"
+msgstr "車輌アイコンの表示"
+
+msgid "game/showVehicleLevel"
+msgstr "車輌 Tier の表示"
+
+msgid "game/showVehiclesCounter"
+msgstr "戦闘画面の上部に車輌アイコンを表示"
+
+msgid "game/showVictimsDogTag"
+msgstr "撃破した敵プレイヤーのドッグタグを表示"
+
+msgid "game/sniperModeByShift"
+msgstr "照準モードの切り替えをShiftキーに限定"
+
+msgid "game/sniperZoom"
+msgstr "スナイパーモードの標準倍率"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "最後に使用した倍率"
+
+msgid "game/switchEquipment"
+msgstr "物資構成を戦闘ロード画面で変更"
+
+msgid "game/w2gtEnable"
+msgstr "ミニマップに推奨戦闘エリアを表示"
+
+msgid "gameTitle"
+msgstr "一般"
+
+msgid "gameplay/devMaps"
+msgstr "「ランダムイベント」が発生するマップ"
+
+msgid "gameplay/nations"
+msgstr "国家戦"
+
+msgid "gamma"
+msgstr "ガンマ"
+
+msgid "gammaBtn/label"
+msgstr "設定を変更"
+
+msgid "gammaWizard/apply"
+msgstr "適用"
+
+msgid "gammaWizard/cancel"
+msgstr "キャンセル"
+
+msgid "gammaWizard/closeBtn"
+msgstr "閉じる"
+
+msgid "gammaWizard/default"
+msgstr "初期設定"
+
+msgid "gammaWizard/description"
+msgstr "背景とロゴの明るさが一致するようにスライダーを調節してください。目を細めるか、遠くからモニターを見るようにすると調整がやり易くなります。"
+
+msgid "gammaWizard/header"
+msgstr "ガンマ"
+
+msgid "gammaWizard/title"
+msgstr "ガンマ設定"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "グラフィックの明るさを自動的に調整して最適化できます。\nビデオカード・ドライバーやモニターの設定がグラフィック\nに与える影響を補います。"
+
+msgid "gammaWizard/tooltip/header"
+msgstr "ガンマ"
+
+msgid "graficTitle"
+msgstr "グラフィック"
+
+msgid "graphics/block/effects"
+msgstr "追加エフェクト"
+
+msgid "graphics/block/greenery"
+msgstr "植物"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "地形と水面"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "光とポストプロセス・エフェクト"
+
+msgid "graphics/block/main"
+msgstr "メイン"
+
+msgid "graphics/tabAdvanced"
+msgstr "詳細"
+
+msgid "graphics/tabScreen"
+msgstr "モニター"
+
+msgid "graphicsQuality"
+msgstr "グラフィック品質"
+
+msgid "graphicsQuality/description"
+msgstr "クライアントの全体的なグラフィック品質を変更できます。詳しい設定は「詳細」タブで行えます。\n\nグラフィック品質を下げると、以下の影響が生じる可能性があります。\n• ゲームのパフォーマンスの向上\n• クライアントとサーバー間での地形表示の同期のズレ\n\n「最低」オプションは、ご利用中のPCのスペックが低い場合にのみご利用ください。"
+
+msgid "graphicsQualityHDSD"
+msgstr "クライアントタイプ"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "HD クライアントをインストール済み"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "標準 (SD) クライアントを利用中です"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "標準クライアント—最高品質テクスチャを除いたフル構成です。\n\nHD テクスチャクライアント—最高品質テクスチャを含めたフル構成です。標準クライアントに比べ、必要な HDD 容量が増加します。"
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "クライアントタイプ"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "HD クライアント—最高品質テクスチャを含めたフル構成です。標準クライアントに比べ、必要な HDD 容量が増加します。\n\n標準クライアント (SD)—最高品質テクスチャを除いたフル構成です。"
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "グラフィック品質「最高 (SD)」および「ウルトラ (SD)」では、最高のテクスチャ品質を得ることはできません。最高のグラフィック品質を得るには、ゲームのラウンチャーで HD クライアントに切り替えてください。"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "異方性 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "異方性 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "異方性 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "異方性 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "バイリニア"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "カスタム"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "1940年代の映画"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "コントラスト"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "改良"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "遠い"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "通常"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "高"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "低"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "非常に低い"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "最高"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "最高 (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "中"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "最低"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "ミュート"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "近い"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "OFF"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "OFF"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "ON"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "簡易"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "改良"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "ポイント"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "調光レンズ"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "ランダム"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "中"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "ディープ"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "ソフトカラー"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "トリリニア"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "ウルトラ"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "ウルトラ (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "非常に高い"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "非常に高い"
+
+msgid "igbHardwareAcceleration"
+msgstr "ハードウェア・アクセラレーション"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "有効にすると、クライアント内でのウェブ・コンテンツのレンダリングにCPUではなくGPUが用いられるようになります。\n\n特定の画面のレンダリングに不具合が生じる場合は無効化してください。\n\n設定を変更するにはクライアントの再起動が必要になります。"
+
+msgid "interfaceScale"
+msgstr "UI スケーリング"
+
+msgid "interfaceScale/attention"
+msgstr "この機能はテスト中です。ゲームの\nパフォーマンスには影響しません。"
+
+msgid "interfaceScale/body"
+msgstr "クライアントの画面を最大化した際に\nUI要素のサイズを自動的に調整します。"
+
+msgid "interfaceScale/description"
+msgstr "クライアントの画面を最大化した際にUI要素のサイズを自動的に調整します。"
+
+msgid "interfaceScale/header"
+msgstr "UI スケーリング"
+
+msgid "interfaceScale/warning"
+msgstr "この機能はテスト中です。ゲームのパフォーマンスには影響しません。"
+
+msgid "interfaceScaleDisabled"
+msgstr "UI スケーリング"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "4K ディスプレイでのみ利用可能です。"
+
+msgid "interfaceScaleDisabled/body"
+msgstr "クライアントの画面を最大化した際に\nUI要素のサイズを自動的に調整します。"
+
+msgid "interfaceScaleDisabled/description"
+msgstr "クライアントの画面を最大化した際にUI要素のサイズを自動的に調整します。"
+
+msgid "interfaceScaleDisabled/header"
+msgstr "UI スケーリング"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "4K ディスプレイでのみ利用可能です。"
+
+msgid "isColorBlind"
+msgstr "カラーバリアフリー・モード"
+
+msgid "isColorBlind/description"
+msgstr "敵味方の色が判別し辛い場合のための代替カラーモードです。"
+
+msgid "keyboard/backDraftInvert"
+msgstr "後退時の旋回方向を反転"
+
+msgid "keyboard/keyboard"
+msgstr "キーボード"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "了解！"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "視点の切り替え"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "車体のロック & 特殊モードの切り替え"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "後退"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "後退"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "ハンドブレーキ"
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "下"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "左"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "右"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "上"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "斉射"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "後退せよ！"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "射撃"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "前進"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "前進"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "フロントラインでの車輌の放棄"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "救援を請う！"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "座標の指定"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "目標の指定"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "消耗品 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "消耗品 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "消耗品 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "消耗品 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "消耗品 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "消耗品 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "消耗品 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "消耗品 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "消耗品 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "消耗品 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "左"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "自動照準"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "自動照準の解除"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "拒否！"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "メッセージの吹き込み"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "弾倉の強制装填"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "装填中！"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "右"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "戦闘 UI の表示/非表示"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "パーソナルリザーブの使用"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "パーソナルミッションの進捗の確認"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "コマンドメニューの表示 & コマンドの承諾"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "縮小"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "拡大"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "特殊アビリティー"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "停止して射撃"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "感謝する！"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "「装甲ハイライト」の切り替え"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "弾道視点モードへの切り替え"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "音声シグナル設定"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "表示/非表示の切り替え"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "ダイナミック小隊での音声チャットのON/OFF"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "カメラ"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "自動走行"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "消耗品"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "射撃"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "ミニマップ"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "移動"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "メッセージ"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "戦闘コミュニケーション"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "その他"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "音声チャット"
+
+msgid "keyboard/mouse"
+msgstr "マウス"
+
+msgid "keyboardTitle"
+msgstr "操作設定"
+
+msgid "limitedUI/desc"
+msgstr "ガレージ・インターフェースの段階的アンロック機能が有効"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "無効化"
+
+msgid "marker/AllyTitle"
+msgstr "味方車輌"
+
+msgid "marker/DeadTitle"
+msgstr "大破車輌"
+
+msgid "marker/EnemyTitle"
+msgstr "敵車輌"
+
+msgid "marker/aimMarker2D"
+msgstr "自動照準インジケーター"
+
+msgid "marker/alt"
+msgstr "詳細モード"
+
+msgid "marker/base"
+msgstr "標準モード"
+
+msgid "marker/damage"
+msgstr "被ダメージ"
+
+msgid "marker/dead"
+msgstr "大破車輌マーカー"
+
+msgid "marker/hp"
+msgstr "車輌HP"
+
+msgid "marker/hp/type0"
+msgstr "残り％"
+
+msgid "marker/hp/type1"
+msgstr "残りHP / 合計HP"
+
+msgid "marker/hp/type2"
+msgstr "残りHP"
+
+msgid "marker/hp/type3"
+msgstr "非表示"
+
+msgid "marker/hpIndicator"
+msgstr "HPインジケーター"
+
+msgid "marker/icon"
+msgstr "車輌アイコン"
+
+msgid "marker/level"
+msgstr "車輌Tier"
+
+msgid "marker/level/tooltip/body"
+msgstr "有効にすると、車輌名の上部にTierが表示されるようになります。\n\n「STEEL HUNTER」系のモードではその時点でのアップグレードレベルが表示されます。"
+
+msgid "marker/level/tooltip/header"
+msgstr "車輌Tier"
+
+msgid "marker/name"
+msgstr "車輌名"
+
+msgid "marker/name/type2"
+msgstr "非表示"
+
+msgid "marker/nickname"
+msgstr "プレイヤー名"
+
+msgid "markerTitle"
+msgstr "マーカー"
+
+msgid "minimap/labels/alpha"
+msgstr "ミニマップの透明度"
+
+msgid "minimap/labels/size"
+msgstr "最大サイズ"
+
+msgid "monitor"
+msgstr "モニター"
+
+msgid "monitor/description"
+msgstr "ゲーム用のメインモニターを選択できます。"
+
+msgid "mouse/sensitivity/art"
+msgstr "自走砲モードでの照準"
+
+msgid "mouse/sensitivity/art2"
+msgstr "弾道視点モードでの照準"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "カメラ操作"
+
+msgid "mouse/sensitivity/header"
+msgstr "感度"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "水平反転"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "垂直反転"
+
+msgid "mouse/sensitivity/main"
+msgstr "通常視点モードでの照準"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "スナイパーモードでの照準"
+
+msgid "mouse/startDist"
+msgstr "カメラ位置"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "otherSettings/fieldset/header"
+msgstr "サウンド環境要素"
+
+msgid "otherSettings/labels/bulb"
+msgstr "「第六感」の発動サウンド"
+
+msgid "otherTitle"
+msgstr "その他"
+
+msgid "physicsQuality"
+msgstr "サウンド物理品質"
+
+msgid "refreshRate"
+msgstr "モニターのリフレッシュレート"
+
+msgid "refreshRate/default"
+msgstr "初期設定"
+
+msgid "refreshRate/description"
+msgstr "ゲーム内でのモニターのリフレッシュレートを選択できます。\n\nご利用中のモニターがサポートしていないレートを選択すると、画面が点滅する可能性があります。\n\nゲームのパフォーマンスには影響しません。"
+
+msgid "resolution"
+msgstr "画面の解像度"
+
+msgid "resolution/description"
+msgstr "全画面モードでの解像度を選択できます。解像度が高ければ高いほど画質が向上します。ただし、モニターのネイティブ解像度と一致していない場合は画質が低下する可能性があります。\n\n解像度を上げるとビデオカードへの負荷が増加するため、ゲームのパフォーマンスが低下します。\n\n3Dレンダリング解像度を下げるとビデオカードへの負荷を軽減できます。"
+
+msgid "restartNewbieBattleHints"
+msgstr "初心者向けヒントをリセット"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "初心者向けヒントの履歴をリセットすると、すでに表示されたことのあるヒントがもう一度表示されるようになります。"
+
+msgid "screenMode"
+msgstr "ゲームモード"
+
+msgid "screenMode/borderless"
+msgstr "ウィンドウ (枠なし)"
+
+msgid "screenMode/description"
+msgstr "クライアントの表示モードを切り替えられます。ウィンドウ・モードを選択するとゲームのパフォーマンスが低下します。"
+
+msgid "screenMode/fullscreen"
+msgstr "全画面"
+
+msgid "screenMode/label"
+msgstr "表示モード"
+
+msgid "screenMode/windowed"
+msgstr "ウィンドウ"
+
+msgid "smoothing/description"
+msgstr "オブジェクトの輪郭や細い線を滑らかにするための追加処理の品質を変更します。より自然な描画結果が得られます。"
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "標準"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "カスタムサウンド"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "バリアント 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "バリアント 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "カスタムサウンド"
+
+msgid "sound/dynamicRange/label"
+msgstr "ダイナミックレンジ"
+
+msgid "sound/fieldset/header"
+msgstr "音量"
+
+msgid "sound/players_notifications"
+msgstr "他のプレイヤーからの通知"
+
+msgid "sound/presets/title"
+msgstr "プリセット"
+
+msgid "sound/soundModes/U01"
+msgstr "ユーザー 1"
+
+msgid "sound/soundModes/U02"
+msgstr "ユーザー 2"
+
+msgid "sound/soundModes/U03"
+msgstr "ユーザー 3"
+
+msgid "sound/soundModes/U04"
+msgstr "ユーザー 4"
+
+msgid "sound/soundModes/default"
+msgstr "デフォルト"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "車長"
+
+msgid "sound/special/field/set"
+msgstr "ゲームイベント音量"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "デバイス再読み込み"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "テスト終了"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "テスト開始"
+
+msgid "sound/vivox/fade_volume"
+msgstr "音声チャット中の環境音の音量"
+
+msgid "sound/vivox/master_volume"
+msgstr "音声チャットの音量"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "マイクの感度"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Vivox テスト"
+
+msgid "soundTitle"
+msgstr "サウンド"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "自動選択"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "2.0/2.1システム"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "5.1システム"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "7.1システム"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "ヘッドフォン"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "センター"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "左"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "左リア"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "左フロント"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "左サイド"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "右"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "右リア"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "右フロント"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "右サイド"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "サブウーファー"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "ノートPC"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "サウンドテスト:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "サウンドをテスト"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "使用中の車輌の国籍と車長の性別に応じたボイスが再生されます。"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "車長"
+
+msgid "sounds/altVoice/default/body"
+msgstr "クライアントの言語設定に合わせて男性のボイスが再生されます。"
+
+msgid "sounds/altVoice/default/header"
+msgstr "デフォルト"
+
+msgid "sounds/ambient"
+msgstr "環境音"
+
+msgid "sounds/arena"
+msgstr "戦闘中の音楽"
+
+msgid "sounds/artyBulbVoices"
+msgstr "「音響探知」の発動サウンド"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "パーク「音響探知」発動時のサウンドを変更できます。カスタムサウンドを使用するには、お好みの音声ファイルを.mp3形式で保存し、ファイル名を 「soundExploring」 に変更した上で「res/audioww」フォルダにコピーしてください。"
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "「音響探知」の発動サウンド"
+
+msgid "sounds/bassBoost"
+msgstr "低音域の強調"
+
+msgid "sounds/bassBoost/description"
+msgstr "全体音量を維持したまま低音域を強調します。このモードの効果はご利用中のサウンドデバイス (スピーカー、ヘッドフォン、ノート PC) により異なる場合があります。"
+
+msgid "sounds/bulbVoices"
+msgstr "「第六感」の発動サウンド"
+
+msgid "sounds/bulbVoices/description"
+msgstr "パーク「第六感」発動時のサウンドを変更できます。カスタムサウンドを使用するには、お好みの音声ファイルを.mp3形式で保存し、ファイル名を 「sixthSense」 に変更した上で「res/audioww」フォルダにコピーしてください。"
+
+msgid "sounds/effects"
+msgstr "エフェクト"
+
+msgid "sounds/gui"
+msgstr "UI"
+
+msgid "sounds/hangar"
+msgstr "ガレージでの音楽"
+
+msgid "sounds/masterVolume"
+msgstr "全体音量"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "サウンドを有効化"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "ゲーム内のサウンドを無効化するとゲームの全体的なパフォーマンスが向上する場合があります。変更を反映するにはゲームの再起動が必要になります。"
+
+msgid "sounds/nightMode"
+msgstr "夜間モード"
+
+msgid "sounds/nightMode/description"
+msgstr "音量を平均化してシャープなサウンドを抑えると同時に低音域を最小限に維持することで、深夜のプレイに最適なサウンド環境を実現します。"
+
+msgid "sounds/physicsQuality/attention"
+msgstr "この設定を有効にするとパフォーマンスに影響する可能性があります。"
+
+msgid "sounds/physicsQuality/body"
+msgstr "サウンド物理品質の設定を変更できます。\n\n音が障害物に当たって方向を変えたり、マップの表面を通過した際の聞こえ方を再現します。\n\nマップの地形を利用して、近くのオブジェクトで反響する車輌の音の初期反射音を生成します。\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "サウンド物理品質"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "無効"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "高"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "低"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "中"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "推奨"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "お使いのPCに最適なサウンド物理品質を判定します。\n\nこの処理には時間を要する場合があります。"
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "推奨"
+
+msgid "sounds/sixthSense/body"
+msgstr "カスタムサウンドを使用するには「sixthSense.mp3」ファイルを「res/audioww」フォルダに移動する必要があります。"
+
+msgid "sounds/sixthSense/header"
+msgstr "カスタム"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "2.0/2.1システム"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "ゲームサウンドをフルレンジ・スピーカー1組 (2.0)、または高音域スピーカー1組と低音域スピーカー1個の組み合わせ (2.1) に合わせて最適化します。"
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "2.0/2.1システム"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "5.1システム"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "ゲームサウンドのポジショニングをマルチチャンネル 5.1 システムの外部スピーカーおよびサブウーファーに合わせて最適化します。"
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "5.1システム"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "7.1システム"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "ゲームサウンドのポジショニングをマルチチャンネル 7.1 システムの外部スピーカーおよびサブウーファーに合わせて最適化します。"
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "7.1システム"
+
+msgid "sounds/soundDevice/auto"
+msgstr "自動選択"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "OSのサウンド構成を検出して最適な設定を自動で選択します。"
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "自動選択"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "ヘッドフォン"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "ゲームサウンドをヘッドフォンに合わせて最適化します。"
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "ヘッドフォン"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "ノートPC"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "2.0/2.1システム・プリセットのポジショニング原則を用いながら、ノートPCに内臓された小型のスピーカーでもなるべく高品質なサウンドを再生できるように調整します。"
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "ノートPC"
+
+msgid "sounds/soundQuality"
+msgstr "低音質"
+
+msgid "sounds/soundQuality/description"
+msgstr "サウンド品質を下げると同時に処理されるサウンド数が大幅に低下するため、スペックの低いPCでのゲームのパフォーマンスが向上する場合があります。"
+
+msgid "sounds/speakers/back/body"
+msgstr "左右リアスピーカーのサウンドテスト"
+
+msgid "sounds/speakers/back/header"
+msgstr "左右リアスピーカー"
+
+msgid "sounds/speakers/center/body"
+msgstr "センタースピーカーのサウンドテスト"
+
+msgid "sounds/speakers/center/header"
+msgstr "センタースピーカー"
+
+msgid "sounds/speakers/front/body"
+msgstr "左右フロントスピーカーのサウンドテスト"
+
+msgid "sounds/speakers/front/header"
+msgstr "左右フロントスピーカー"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "2.0/2.1 システムでは、サブウーファーはオプションであり、スピーカーなしではテスト不能です。"
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "サブウーファー (オプション)"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "左右サイドスピーカーのサウンドテスト"
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "左右サイドスピーカー"
+
+msgid "sounds/speakers/sides/body"
+msgstr "左右スピーカーのサウンドテスト"
+
+msgid "sounds/speakers/sides/header"
+msgstr "左右スピーカー"
+
+msgid "sounds/speakers/sub/body"
+msgstr "サブウーファーのサウンドテスト"
+
+msgid "sounds/speakers/sub/header"
+msgstr "サブウーファー"
+
+msgid "sounds/subtitles"
+msgstr "字幕"
+
+msgid "sounds/tabCommon"
+msgstr "全体サウンド"
+
+msgid "sounds/tabSpecial"
+msgstr "ゲームイベント"
+
+msgid "sounds/tabVivox"
+msgstr "音声チャット"
+
+msgid "sounds/vehicles"
+msgstr "車輌"
+
+msgid "sounds/voiceNotification"
+msgstr "搭乗員ボイス"
+
+msgid "title"
+msgstr "設定"
+
+msgid "tripleBuffered"
+msgstr "トリプルバッファリング"
+
+msgid "tripleBuffered/description"
+msgstr "フレーム更新時のティアリングを軽減します。垂直同期が有効な場合にのみ選択できます。"
+
+msgid "vertSync"
+msgstr "垂直同期"
+
+msgid "vertSync/Off"
+msgstr "OFF"
+
+msgid "vertSync/On"
+msgstr "ON"
+
+msgid "vertSync/description"
+msgstr "フレームレートをモニターのフレッシュレートに同期させます。\n\nフレームレートの上限は1秒間に60フレームです。こちらのオプションを有効にすると画面の揺れやチラつきを抑えることができます。"
+
+msgid "voice_chat/PTT"
+msgstr "メッセージの吹き込み"
+
+msgid "voice_chat/fieldset/header"
+msgstr "音量"
+
+msgid "voice_chat/header/common"
+msgstr "一般"
+
+msgid "voice_chat/header/microphone"
+msgstr "マイク"
+
+msgid "voice_chat/header/speakers"
+msgstr "ヘッドフォン"
+
+msgid "voice_chat/microphone"
+msgstr "マイク"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "マイク"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "マイクを有効化"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "音声チャットを有効化"
+
+msgid "windowSize"
+msgstr "ウィンドウのサイズ"
+
+msgid "windowSize/description"
+msgstr "クライアントのウィンドウの解像度を選択できます。全画面モードを選択すると、こちらの項目が「画面の解像度」に変更されます。"
+
+msgid "windowTitle"
+msgstr "WoT クライアント"

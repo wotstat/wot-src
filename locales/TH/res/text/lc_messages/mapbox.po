@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "รับทราบ!"
+
+msgid "awardsView/subTitle"
+msgstr "การรบที่เข้าร่วม: {number}"
+
+msgid "awardsView/title"
+msgstr "ภารกิจลาดตระเวน"
+
+msgid "buttonDisable/tooltip"
+msgstr "ไม่มีให้"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "หมายกำหนด"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "ไม่สามารถออกรบได้"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "การรบจบลงแล้ว"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "ไม่สามารถออกรบได้"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "ช่วงหยุดยิงกำลังมีผลกับเซิร์ฟเวอร์นี้ โปรดเลือกเซิร์ฟเวอร์อื่น"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "คุณสามารถเข้าการรบได้ด้วย %(levelSubStr)sเท่านั้น"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "ระดับพาหนะไม่เข้ากัน"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "พาหนะระดับ %(levels)s"
+
+msgid "intro/button"
+msgstr "รับทราบ!"
+
+msgid "intro/interviewInfoDescription"
+msgstr "ข้อเสนอแนะของคุณจะทำให้เราปรับปรุงสนามรบให้ดีขึ้น มาเขียนความเห็นของคุณเกี่ยวกับกลไกแผนที่ใหม่และเราจะเพิ่มความคิดที่ดีที่สุดเข้าในตัวเกม"
+
+msgid "intro/interviewInfoTitle"
+msgstr "ข้อเสนอแนะที่สำคัญ"
+
+msgid "intro/modeInfoDescription"
+msgstr "ออกรบด้วยพาหนะระดับ VIII–X ในแผนที่ที่มีกลไกใหม่, ทำแบบสำรวจให้ครบแล้วรับรางวัล ในหนึ่งสัปดาห์ ความก้าวหน้าจะถูกตั้งใหม่และคุณสามารถเริ่มหารางวัลได้อีกครั้ง"
+
+msgid "intro/modeInfoTitle"
+msgstr "มาช่วยเราพัฒนากลไกใหม่กัน!"
+
+msgid "intro/startEvent"
+msgstr "กิจกรรมจะเริ่มขึ้นใน: "
+
+msgid "intro/taskInfoDescription"
+msgstr "ขณะที่ออกรบในภารกิจลาดตระเวน คุณสามารถปฏิบัติภารกิจประจำวันและภารกิจบัตรผ่านการรบและบรรลุเงื่อนไขสำหรับลวดลายก้าวหน้าได้"
+
+msgid "intro/taskInfoTitle"
+msgstr "ต่อสู้กันตามกฎการรบแบบสุ่ม"
+
+msgid "intro/time/period/day"
+msgstr "{day} วัน"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day} วัน {hours} ชม"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours} ชม {min} นาที"
+
+msgid "intro/time/period/minute"
+msgstr "{min} นาที"
+
+msgid "intro/title"
+msgstr "ภารกิจลาดตระเวน"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s ไม่สามารถออกรบในภารกิจลาดตระเวนได้"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "ชนิดพาหนะไม่เข้ากัน"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "เลือก %(levelSubStr)s เพื่อเข้าร่วมภารกิจลาดตระเวน"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "ระดับพาหนะไม่เข้ากัน"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "พาหนะระดับ %(levels)s"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s ไม่สามารถออกรบในภารกิจลาดตระเวนได้"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "พาหนะไม่เข้ากัน"
+
+msgid "mapboxTab"
+msgstr "ภารกิจลาดตระเวน"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "ด่านดังกล่าวของเซิร์ฟเวอร์ %(server)s ได้จบลงแล้ว"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "เซิร์ฟเวอร์ %(server)s\nการรบจะมีให้ภายในอีก %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "เซิร์ฟเวอร์ %(server)s\nการรบจะมีให้ภายใน %(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนทุกเซิร์ฟเวอร์"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "รูปแบบนี้ไม่มีให้บนเซิร์ฟเวอร์ %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "การรบบนเซิร์ฟเวอร์ %(server)s จะมีให้เป็นเวลาอีก %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "การรบจะเริ่มขึ้นในเซิร์ฟเวอร์ %(server)s เมื่อเวลา %(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "การรบในรูปแบบนี้ไม่มีให้: ฤดูกาลจบลงแล้ว"
+
+msgid "primeTimeView/status/untill"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนเซิร์ฟเวอร์ %(server)s จนถึง %(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "ภารกิจลาดตระเวน"
+
+msgid "primeTimes/availableServer"
+msgstr "เซิร์ฟเวอร์ที่มีให้:"
+
+msgid "primeTimes/availableServers"
+msgstr "เซิร์ฟเวอร์ที่มีให้:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "การรบจบลงแล้ว"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "รูปแบบนี้ไม่มีให้บนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "เข้าร่วมการรบ"
+
+msgid "progression/cardTitle/rating"
+msgstr "อยู่ในกลุ่มผู้เล่น {rating} อันดับแรกจากประสบการณ์ที่ได้รับ"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "เป็นหนึ่งในผู้เล่น {rating} อันดับแรกจากประสบการณ์ที่ได้รับในแผนที่ที่มีไฟไหม้"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "เป็นหนึ่งในผู้เล่น {rating} อันดับแรกจากประสบการณ์ที่ได้รับในแผนที่ที่มีหมอก"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "เป็นหนึ่งในผู้เล่น {rating} อันดับแรกจากประสบการณ์ที่ได้รับในแผนที่ที่มีฝนตกหนัก"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "เป็นหนึ่งในผู้เล่น {rating} อันดับแรกจากประสบการณ์ที่ได้รับในแผนที่ที่มีพายุทะเลทราย"
+
+msgid "progression/changeAnswer"
+msgstr "เปลี่ยนคำตอบ"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "ออกรบด้วยพาหนะระดับ VIII–X ในแผนที่ที่มีกลไกใหม่, ทำแบบสำรวจให้ครบแล้วรับรางวัล"
+
+msgid "progression/info/restart"
+msgstr "ความก้าวหน้ารางวัลจะถูกตั้งใหม่ใน %(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "เป็นหนึ่งในผู้เล่น %(rating) อันดับแรกจากประสบการณ์ที่ได้รับ: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "เกี่ยวกับกิจกรรม"
+
+msgid "progression/map_01_karelia"
+msgstr "คาเรเลีย"
+
+msgid "progression/map_02_malinovka"
+msgstr "มาลินอฟกา"
+
+msgid "progression/map_05_prohorovka"
+msgstr "โพรโครอฟก้า"
+
+msgid "progression/map_18_cliff"
+msgstr "เวสต์ฟิลด์"
+
+msgid "progression/map_all"
+msgstr "กลไก\nเกม"
+
+msgid "progression/map_fire"
+msgstr "ไฟไหม้"
+
+msgid "progression/map_fog"
+msgstr "หมอก"
+
+msgid "progression/map_heavy_rain"
+msgstr "ฝนตกหนัก"
+
+msgid "progression/map_sandstorm"
+msgstr "พายุทะเลทราย"
+
+msgid "progression/redirect"
+msgstr "ไปยังรูปแบบ"
+
+msgid "progression/startInterview"
+msgstr "ทำแบบสำรวจ"
+
+msgid "progression/startInterviewTooltip"
+msgstr "บรรลุเงื่อนไขที่ระบุข้างต้นเพื่อเข้าทำแบบสำรวจ"
+
+msgid "progression/startSpecialInterview"
+msgstr "ทำแบบสำรวจ"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "บรรลุเงื่อนไขที่ระบุข้างต้นเพื่อเข้าทำแบบสำรวจ"
+
+msgid "progression/subtitle"
+msgstr "ที่นี่คุณสามารถเข้าทำแบบสำรวจเกี่ยวกับกลไกใหม่ได้"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s วัน"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s ชม. %(min)s น."
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1 นาที"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s นาที"
+
+msgid "progression/title"
+msgstr "ภารกิจลาดตระเวน"
+
+msgid "progressionError/description/line1"
+msgstr "ความก้าวหน้าของคุณถูกบันทึกไว้แล้ว คุณสามารถทำการเล่นต่อได้"
+
+msgid "progressionError/description/line2"
+msgstr "คุณจะสามารถเห็นความก้าวหน้าของคุณและทำแบบสำรวจได้ในไม่ช้า"
+
+msgid "progressionError/title"
+msgstr "รายละเอียดภารกิจลาดตระเวนไม่มีให้เป็นการชั่วคราว"
+
+msgid "questFlag/complete"
+msgstr "ได้รับรางวัลทั้งหมดแล้ว"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "ออกรบใน %(highlightedText)s, ทำแบบสำรวจแล้วรับรางวัล"
+
+msgid "questFlag/frozen/header"
+msgstr "ไม่มีภารกิจลาดตระเวนให้"
+
+msgid "questFlag/frozen/text"
+msgstr "การรบภารกิจลาดตระเวนไม่มีชั่วคราวเนื่องด้วยเหตุทางเทคนิค"
+
+msgid "questFlag/highlightedText"
+msgstr "พาหนะระดับ VIII–X ในแผนที่มีกลไกใหม่"
+
+msgid "questFlag/incomplete"
+msgstr "จำนวนการรบที่คุณต้องออกรบเพื่อรับรางวัลถัดไป: %(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "การรบที่เข้าร่วม:"
+
+msgid "questFlag/surveysTitle"
+msgstr "ทำแบบสำรวจแล้ว: %(count)s"
+
+msgid "selector/startEvent"
+msgstr "การสำรวจแผนที่มีกลไกใหม่จะเริ่มขึ้นใน %(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "การสำรวจแผนที่มีกลไกใหม่จะมีให้จนถึง %(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "หมายกำหนด"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "ฤดูกาลสิ้นสุดใน:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "หมายกำหนดการรบ"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "วันนี้"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "พรุ่งนี้"
+
+msgid "serverAlertMessage/button"
+msgstr "เลือกเซิร์ฟเวอร์อื่น"
+
+msgid "survey/backBtn"
+msgstr "กลับ"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "รถถังเบา"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "survey/fire/question/q1"
+msgstr "คุณสนุกกับการเล่นในแผนที่มูโรแวงก้าที่มีกลไกไฟไหม้หรือไม่?"
+
+msgid "survey/fire/question/q2"
+msgstr "คุณมีความเห็นอย่างไรกับกราฟฟิคของไฟไหม้ในแผนที่มูโรแวงก้า?"
+
+msgid "survey/fire/question/q3"
+msgstr "คุณอยากจะปรับอิทธิพลที่ไฟไหม้มีผลกับการเล่นในแผนที่มูโรแวงก้าหรือไม่?"
+
+msgid "survey/fire/question/q4"
+msgstr "คุณอยากจะปรับอิทธิพลที่ไฟไหม้มีผลกับการเล่นในแผนที่มูโรแวงก้าอย่างไร?"
+
+msgid "survey/fire/question/q5"
+msgstr "คุณใช้พาหนะชนิดใดในแผนที่มูโรแวงก้า?"
+
+msgid "survey/fire/question/q6_0"
+msgstr "แนวการเล่นของ {value} เปลี่ยนไปอย่างไรในแผนที่มูโรแวงก้า?"
+
+msgid "survey/fire/question/q6_1"
+msgstr "แนวการเล่นของ {value} เปลี่ยนไปอย่างไรในแผนที่มูโรแวงก้า?"
+
+msgid "survey/fire/question/q7"
+msgstr "คุณอยากจะเห็นไฟไหม้ในแผนที่ในการรบแบบสุ่มหรือไม่?"
+
+msgid "survey/fire/question/q8"
+msgstr "คุณไม่ชอบอะไรบ้างเกี่ยวกับกลไกของไฟไหม้ในแผนที่มูโรแวงก้า?"
+
+msgid "survey/fire/question/q9"
+msgstr "ระบุการปรับปรุงใดๆที่คุณเห็นว่าจำเป็น"
+
+msgid "survey/fire/response/q1_1"
+msgstr "ใช่"
+
+msgid "survey/fire/response/q1_2"
+msgstr "ไม่"
+
+msgid "survey/fire/response/q1_3"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fire/response/q2_1"
+msgstr "ฉันชอบมัน"
+
+msgid "survey/fire/response/q2_2"
+msgstr "มันพอใช้ได้"
+
+msgid "survey/fire/response/q2_3"
+msgstr "ฉันไม่ชอบมัน"
+
+msgid "survey/fire/response/q2_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fire/response/q3_1"
+msgstr "ใช่ ฉันจะ"
+
+msgid "survey/fire/response/q3_2"
+msgstr "ไม่ ฉันจะไม่"
+
+msgid "survey/fire/response/q3_3"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fire/response/q4_1"
+msgstr "ทำให้มันแรงขึ้น"
+
+msgid "survey/fire/response/q4_2"
+msgstr "ทำให้มันอ่อนลง"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "รถถังเบา"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "ฉันจำไม่ได้"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "มันดีขึ้น"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "มันแย่ลง"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "มันไม่เปลี่ยน"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "มันดีขึ้น"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "มันแย่ลง"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "มันไม่เปลี่ยน"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fire/response/q7_1"
+msgstr "ใช่ ฉันจะ"
+
+msgid "survey/fire/response/q7_2"
+msgstr "ไม่ ฉันจะไม่"
+
+msgid "survey/fire/response/q7_3"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fire/response/q8_1"
+msgstr "ไฟไหม้ลดจำนวนตำแหน่งยิงที่มีให้อย่างมาก"
+
+msgid "survey/fire/response/q8_10"
+msgstr "มีทึมหนึ่งได้เปรียบ"
+
+msgid "survey/fire/response/q8_11"
+msgstr "ปัญหาทางเทคนิค"
+
+msgid "survey/fire/response/q8_12"
+msgstr "อื่นๆ"
+
+msgid "survey/fire/response/q8_2"
+msgstr "ไฟไหม้ทำความเสียหายมากเกินไป"
+
+msgid "survey/fire/response/q8_3"
+msgstr "ข้าศึกนอกเขตไม่สามารถเห็นพาหนะของฉันได้แต่ฉันก็มองพวกเขาไม่เห็นเช่นกัน"
+
+msgid "survey/fire/response/q8_4"
+msgstr "ตำแหน่งไฟไหม้ในแผนที่"
+
+msgid "survey/fire/response/q8_5"
+msgstr "ลักษณะที่ไฟไหม้ปรากฎ"
+
+msgid "survey/fire/response/q8_6"
+msgstr "มีผลกับการเล่นในแผนที่มากเกินไป"
+
+msgid "survey/fire/response/q8_7"
+msgstr "มีผลกับการเล่นในแผนที่น้อยเกินไป"
+
+msgid "survey/fire/response/q8_8"
+msgstr "กราฟฟิคของไฟไหม้มีผลกับการรบ"
+
+msgid "survey/fire/response/q8_9"
+msgstr "ไฟไหม้บังคับให้ต้องทำการรบระยะประชิด"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "ด่านวางกำลัง"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "ฟยอร์ด"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "ด่านวางกำลัง"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "ฟยอร์ด"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "ด่านวางกำลัง"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "ฟยอร์ด"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "รถถังเบา"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "รถถังเบา"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "survey/fog/question/q1"
+msgstr "คุณสนุกกับการเล่นในแผนที่ดังต่อไปนี้ที่มีกลไกหมอกหรือไม่?"
+
+msgid "survey/fog/question/q10"
+msgstr "คุณอยากจะเห็นหมอกในแผนที่ในการรบแบบสุ่มหรือไม่?"
+
+msgid "survey/fog/question/q11"
+msgstr "คุณไม่ชอบอะไรบ้างเกี่ยวกับกลไกของหมอกในแผนที่ฟยอร์ด?"
+
+msgid "survey/fog/question/q12"
+msgstr "คุณไม่ชอบอะไรบ้างเกี่ยวกับกลไกของหมอกในแผนที่ด่านวางกำลัง?"
+
+msgid "survey/fog/question/q13"
+msgstr "ระบุการปรับปรุงใดๆที่คุณเห็นว่าจำเป็น"
+
+msgid "survey/fog/question/q2"
+msgstr "คุณมีความเห็นอย่างไรกับกราฟฟิคของหมอกในแผนที่ดังต่อไปนี้?"
+
+msgid "survey/fog/question/q3"
+msgstr "คุณอยากจะปรับอิทธิพลที่หมอกมีผลกับการเล่นในแผนที่หรือไม่?"
+
+msgid "survey/fog/question/q4"
+msgstr "คุณอยากจะปรับอิทธิพลที่หมอกมีผลกับการเล่นในแผนที่ฟยอร์ดอย่างไร?"
+
+msgid "survey/fog/question/q5"
+msgstr "คุณอยากจะปรับอิทธิพลที่หมอกมีผลกับการเล่นในแผนที่ด่านวางกำลังอย่างไร?"
+
+msgid "survey/fog/question/q6"
+msgstr "คุณใช้พาหนะชนิดใดในแผนที่ฟยอร์ด?"
+
+msgid "survey/fog/question/q7_0"
+msgstr "แนวการเล่นของ {value} เปลี่ยนไปอย่างไรในแผนที่ฟยอร์ด?"
+
+msgid "survey/fog/question/q7_1"
+msgstr "แนวการเล่นของ {value} เปลี่ยนไปอย่างไรในแผนที่ฟยอร์ด?"
+
+msgid "survey/fog/question/q8"
+msgstr "คุณใช้พาหนะชนิดใดในแผนที่ด่านวางกำลัง?"
+
+msgid "survey/fog/question/q9_0"
+msgstr "แนวการเล่นของ {value} เปลี่ยนไปอย่างไรในแผนที่ด่านวางกำลัง?"
+
+msgid "survey/fog/question/q9_1"
+msgstr "แนวการเล่นของ {value} เปลี่ยนไปอย่างไรในแผนที่ด่านวางกำลัง?"
+
+msgid "survey/fog/response/q10_1"
+msgstr "ใช่ ฉันจะ"
+
+msgid "survey/fog/response/q10_2"
+msgstr "ไม่ ฉันจะไม่"
+
+msgid "survey/fog/response/q10_3"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fog/response/q11_1"
+msgstr "ข้าศึกนอกเขตไม่สามารถเห็นพาหนะของฉันได้แต่ฉันก็มองพวกเขาไม่เห็นเช่นกัน"
+
+msgid "survey/fog/response/q11_10"
+msgstr "อื่นๆ"
+
+msgid "survey/fog/response/q11_2"
+msgstr "ตำแหน่งของหมอกในแผนที่"
+
+msgid "survey/fog/response/q11_3"
+msgstr "ลักษณะของหมอกที่ปรากฎ"
+
+msgid "survey/fog/response/q11_4"
+msgstr "มีผลกับการเล่นในแผนที่มากเกินไป"
+
+msgid "survey/fog/response/q11_5"
+msgstr "มีผลกับการเล่นในแผนที่น้อยเกินไป"
+
+msgid "survey/fog/response/q11_6"
+msgstr "กราฟฟิคของหมอกมีผลกับการรบ"
+
+msgid "survey/fog/response/q11_7"
+msgstr "หมอกบังคับให้ต้องทำการรบระยะประชิด"
+
+msgid "survey/fog/response/q11_8"
+msgstr "มีทึมหนึ่งได้เปรียบ"
+
+msgid "survey/fog/response/q11_9"
+msgstr "ปัญหาทางเทคนิค"
+
+msgid "survey/fog/response/q12_1"
+msgstr "ข้าศึกนอกเขตไม่สามารถเห็นพาหนะของฉันได้แต่ฉันก็มองพวกเขาไม่เห็นเช่นกัน"
+
+msgid "survey/fog/response/q12_10"
+msgstr "อื่นๆ"
+
+msgid "survey/fog/response/q12_2"
+msgstr "ตำแหน่งของหมอกในแผนที่"
+
+msgid "survey/fog/response/q12_3"
+msgstr "ลักษณะของหมอกที่ปรากฎ"
+
+msgid "survey/fog/response/q12_4"
+msgstr "มีผลกับการเล่นในแผนที่มากเกินไป"
+
+msgid "survey/fog/response/q12_5"
+msgstr "มีผลกับการเล่นในแผนที่น้อยเกินไป"
+
+msgid "survey/fog/response/q12_6"
+msgstr "กราฟฟิคของหมอกมีผลกับการรบ"
+
+msgid "survey/fog/response/q12_7"
+msgstr "หมอกบังคับให้ต้องทำการรบระยะประชิด"
+
+msgid "survey/fog/response/q12_8"
+msgstr "มีทึมหนึ่งได้เปรียบ"
+
+msgid "survey/fog/response/q12_9"
+msgstr "ปัญหาทางเทคนิค"
+
+msgid "survey/fog/response/q1_1"
+msgstr "ใช่"
+
+msgid "survey/fog/response/q1_2"
+msgstr "ไม่"
+
+msgid "survey/fog/response/q1_3"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fog/response/q2_1"
+msgstr "ฉันชอบมัน"
+
+msgid "survey/fog/response/q2_2"
+msgstr "มันพอใช้ได้"
+
+msgid "survey/fog/response/q2_3"
+msgstr "ฉันไม่ชอบมัน"
+
+msgid "survey/fog/response/q2_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fog/response/q3_1"
+msgstr "ใช่ ฉันจะ"
+
+msgid "survey/fog/response/q3_2"
+msgstr "ไม่ ฉันจะไม่"
+
+msgid "survey/fog/response/q3_3"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fog/response/q4_1"
+msgstr "ทำให้มันแรงขึ้น"
+
+msgid "survey/fog/response/q4_2"
+msgstr "ทำให้มันอ่อนลง"
+
+msgid "survey/fog/response/q5_1"
+msgstr "ทำให้มันแรงขึ้น"
+
+msgid "survey/fog/response/q5_2"
+msgstr "ทำให้มันอ่อนลง"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "รถถังเบา"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "ฉันจำไม่ได้"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "มันดีขึ้น"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "มันแย่ลง"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "มันไม่เปลี่ยน"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "มันดีขึ้น"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "มันแย่ลง"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "มันไม่เปลี่ยน"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "รถถังเบา"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "ฉันจำไม่ได้"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "มันดีขึ้น"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "มันแย่ลง"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "มันไม่เปลี่ยน"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "มันดีขึ้น"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "มันแย่ลง"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "มันไม่เปลี่ยน"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "เวสต์ฟิลด์"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "อ่าวชาวประมง"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "เวสต์ฟิลด์"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "อ่าวชาวประมง"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "เวสต์ฟิลด์"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "อ่าวชาวประมง"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "รถถังเบา"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "รถถังเบา"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "คุณสนุกกับการเล่นในแผนที่ดังต่อไปนี้ที่มีกลไกฝนตกหนักหรือไม่?"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "คุณอยากจะเห็นฝนตกหนักในแผนที่ในการรบแบบสุ่มหรือไม่?"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "คุณไม่ชอบอะไรบ้างเกี่ยวกับกลไกของฝนตกหนักในแผนที่เวสต์ฟิลด์?"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "คุณไม่ชอบอะไรบ้างเกี่ยวกับกลไกของฝนตกหนักในแผนที่อ่าวชาวประมง?"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "ระบุการปรับปรุงใดๆที่คุณเห็นว่าจำเป็น"
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "คุณมีความเห็นอย่างไรกับกราฟฟิคของฝนตกหนักในแผนที่ดังต่อไปนี้?"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "คุณอยากจะปรับอิทธิพลที่ฝนตกหนักมีผลกับการเล่นในแผนที่หรือไม่?"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "คุณอยากจะปรับอิทธิพลที่ฝนตกหนักมีผลกับการเล่นในแผนที่เวสต์ฟิลด์อย่างไร?"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "คุณอยากจะปรับอิทธิพลที่ฝนตกหนักมีผลกับการเล่นในแผนที่อ่าวชาวประมงอย่างไร?"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "คุณใช้พาหนะชนิดใดในแผนที่เวสต์ฟิลด์?"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "แนวการเล่นของ {value} เปลี่ยนไปอย่างไรในแผนที่เวสต์ฟิลด์?"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "แนวการเล่นของ {value} เปลี่ยนไปอย่างไรในแผนที่เวสต์ฟิลด์?"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "คุณใช้พาหนะชนิดใดในแผนที่อ่าวชาวประมง?"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "แนวการเล่นของ {value} เปลี่ยนไปอย่างไรในแผนที่อ่าวชาวประมง?"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "แนวการเล่นของ {value} เปลี่ยนไปอย่างไรในแผนที่อ่าวชาวประมง?"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "ใช่ ฉันจะ"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "ไม่ ฉันจะไม่"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "เขตฝนตกหนักนั้นลื่นเกินไป"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "ปัญหาทางเทคนิค"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "อื่นๆ"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "ข้าศึกนอกเขตไม่สามารถเห็นพาหนะของฉันได้แต่ฉันก็มองพวกเขาไม่เห็นเช่นกัน"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "พื้นที่ฝนตกหนักในแผนที่"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "ลักษณะของฝนตกหนัก"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "มีผลกับการเล่นในแผนที่มากเกินไป"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "มีผลกับการเล่นในแผนที่น้อยเกินไป"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "กราฟฟิคของฝนตกหนักมีผลกับการรบ"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "ฝนตกหนักบังคับให้ต้องทำการรบระยะประชิด"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "มีทึมหนึ่งได้เปรียบ"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "เขตฝนตกหนักนั้นลื่นเกินไป"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "ปัญหาทางเทคนิค"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "อื่นๆ"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "ข้าศึกนอกเขตไม่สามารถเห็นพาหนะของฉันได้แต่ฉันก็มองพวกเขาไม่เห็นเช่นกัน"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "พื้นที่ฝนตกหนักในแผนที่"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "ลักษณะของฝนตกหนัก"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "มีผลกับการเล่นในแผนที่มากเกินไป"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "มีผลกับการเล่นในแผนที่น้อยเกินไป"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "กราฟฟิคของฝนตกหนักมีผลกับการรบ"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "ฝนตกหนักบังคับให้ต้องทำการรบระยะประชิด"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "มีทึมหนึ่งได้เปรียบ"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "ใช่"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "ไม่"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "ฉันชอบมัน"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "มันพอใช้ได้"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "ฉันไม่ชอบมัน"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "ใช่ ฉันจะ"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "ไม่ ฉันจะไม่"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "ทำให้มันแรงขึ้น"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "ทำให้มันอ่อนลง"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "ทำให้มันแรงขึ้น"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "ทำให้มันอ่อนลง"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "รถถังเบา"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "ฉันจำไม่ได้"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "มันดีขึ้น"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "มันแย่ลง"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "มันไม่เปลี่ยน"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "มันดีขึ้น"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "มันแย่ลง"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "มันไม่เปลี่ยน"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "รถถังเบา"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "ฉันจำไม่ได้"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "มันดีขึ้น"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "มันแย่ลง"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "มันไม่เปลี่ยน"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "มันดีขึ้น"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "มันแย่ลง"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "มันไม่เปลี่ยน"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/listSeparator"
+msgstr ", "
+
+msgid "survey/nextBtn"
+msgstr "ถัดไป"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "รับทราบ!"
+
+msgid "survey/required"
+msgstr "ตอบคำถามเพื่อดำเนินการต่อ"
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "รถถังเบา"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "คุณสนุกกับการเล่นในแผนที่แม่น้ำทรายที่มีกลไกพายุทะลทรายไหม?"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "คุณมีความเห็นอย่างไรกับกราฟฟิคของพายุทะเลทรายในแผนที่แม่น้ำทราย?"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "คุณอยากจะปรับอิทธิพลที่พายุทะเลทรายมีผลกับการเล่นในแผนที่แม่น้ำทรายหรือไม่?"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "คุณอยากจะปรับอิทธิพลที่พายุทะเลทรายมีผลกับการเล่นในแผนที่แม่น้ำทรายอย่างไร?"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "คุณใช้พาหนะชนิดใดในแผนที่แม่น้ำทราย?"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "แนวการเล่นของ {value} เปลี่ยนไปอย่างไรในแผนที่แม่น้ำทราย?"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "แนวการเล่นของ {value} เปลี่ยนไปอย่างไรในแผนที่แม่น้ำทราย?"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "คุณอยากจะเห็นพายุทะเลทรายในแผนที่ในการรบแบบสุ่มหรือไม่?"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "คุณไม่ชอบอะไรบ้างเกี่ยวกับกลไกของพายุทะเลทรายในแผนที่แม่น้ำทราย?"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "ระบุการปรับปรุงใดๆที่คุณเห็นว่าจำเป็น"
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "ใช่"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "ไม่"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "ฉันชอบมัน"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "มันพอใช้ได้"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "ฉันไม่ชอบมัน"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "ใช่ ฉันจะ"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "ไม่ ฉันจะไม่"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "ทำให้มันแรงขึ้น"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "ทำให้มันอ่อนลง"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "รถถังเบา"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "ฉันจำไม่ได้"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "มันดีขึ้น"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "มันแย่ลง"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "มันไม่เปลี่ยน"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "มันดีขึ้น"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "มันแย่ลง"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "มันไม่เปลี่ยน"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "ใช่ ฉันจะ"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "ไม่ ฉันจะไม่"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "ฉันไม่แน่ใจ"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "ข้าศึกนอกเขตไม่สามารถเห็นพาหนะของฉันได้แต่ฉันก็มองพวกเขาไม่เห็นเช่นกัน"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "อื่นๆ"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "ตำแหน่งพายุทะเลทรายในแผนที่"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "ลักษณะที่พายุทะเลทรายปรากฎ"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "มีผลกับการเล่นในแผนที่มากเกินไป"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "มีผลกับการเล่นในแผนที่น้อยเกินไป"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "กราฟฟิคของพายุทะเลทรายมีผลกับการรบ"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "พายุทะเลทรายบังคับให้ต้องทำการรบระยะประชิด"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "มีทึมหนึ่งได้เปรียบ"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "ปัญหาทางเทคนิค"
+
+msgid "survey/subTitle"
+msgstr "ขอขอบคุณสำหรับการใช้เวลาในการเข้าร่วมบทสำรวจนี้! มันจะใช้เวลาประมาณสองนาที คำตอบของคุณจะถูกประมวลเฉพาะสำหรับการทำแบบสำรวจนี้เท่านั้นและข้อมูลส่วนตัวใดๆก็ตามของคุณจะถูกลบตามนโยบายความเป็นส่วนตัวของเรา"
+
+msgid "survey/template/final/title"
+msgstr "ขอขอบคุณสำหรับการสละเวลาเข้าร่วมทำแบบสำรวจนี้!"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "คลิกที่แผนที่เพื่อเลือกตำแหน่ง"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "คุณสามารถเลือกได้ถึงสามตำแหน่งบนแผนที่"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "คำอธิบายโดยละเอียด (ได้ถึง %(maxLength)s อักษร)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "ตำแหน่ง"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "ลบตำแหน่ง"
+
+msgid "survey/template/opened/description"
+msgstr "คำอธิบายโดยละเอียดสำหรับประเด็นดังกล่าว (ได้ถึง %(maxLength)s อักษร)"
+
+msgid "survey/title/common"
+msgstr "โปรดให้คะแนนเนื้อหาใหม่"
+
+msgid "survey/title/map"
+msgstr "การประเมินแผนที่ %(map)s"

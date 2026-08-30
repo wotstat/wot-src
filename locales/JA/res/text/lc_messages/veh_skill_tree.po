@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "すべて研究済み"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "現在"
+
+msgid "comparison/title"
+msgstr "アップグレード"
+
+msgid "comparison/tooltip/body"
+msgstr "構成画面では、アップグレードが車輌の特性にどのように影響するかが表示されます。「すべて研究済み」を選択すると、利用できるすべてのアップグレードの効果を確認できます。"
+
+msgid "comparison/tooltip/header"
+msgstr "アップグレード"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "未研究"
+
+msgid "dialog/altConfiguration/description"
+msgstr "これらのオプションを有効にしておくと、戦闘開始前に構成を切り替えられるようになります。"
+
+msgid "dialog/altConfiguration/info"
+msgstr "こちらは「設定」画面よりいつでも変更できます。"
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "補助物資"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "必須物資"
+
+msgid "dialog/altConfiguration/title"
+msgstr "代替構成"
+
+msgid "dialog/common/accept"
+msgstr "確定"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "「%(perks)s」"
+msgstr[1] "改造ノード%(perks)s基"
+msgstr[2] "改造ノード%(perks)s基"
+
+msgid "footer/button/label"
+msgstr "研究"
+
+msgid "footer/description/text/allResearched"
+msgstr "すべての改造ノードを研究したため、「エリート報酬」システムがアンロックされました。"
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "WG Walletは一時的にご利用いただけません。ご不便をおかけして申し訳ございません。"
+
+msgid "footer/description/text/inBattle"
+msgstr "車輌が戦闘に参加中のため、改造ノードを研究できません。"
+
+msgid "footer/description/text/inFormation"
+msgstr "車輌が戦術ユニットに参加中のため、改造ノードを研究できません。"
+
+msgid "footer/description/text/needsRepair"
+msgstr "車輌の修理が完了していないため、改造ノードを研究できません。"
+
+msgid "footer/description/text/notInInventory"
+msgstr "車輌のノードを研究するには、この車輌を所有している必要があります。"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "研究する改造ノードまたはノードのルートを選択"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}}基"
+
+msgid "footer/text/selectedItem"
+msgstr "選択中: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "WG Walletは一時的にご利用いただけません。ご不便をおかけして申し訳ございません。"
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "車輌が戦闘に参加中のため、改造ノードを研究できません。"
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "車輌が戦術ユニットに参加中のため、改造ノードを研究できません。"
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "車輌の修理が完了していないため、改造ノードを研究できません。"
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "選択した改造ノードの研究に必要なEXPが不足しています。"
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "研究が終わるまで少しお待ちください……"
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "利用不可"
+
+msgid "footer/tooltip/header/info"
+msgstr "選択中の改造ノード"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}}"
+msgstr[1] "• {{selectedPerks}}"
+msgstr[2] "• {{selectedPerks}}"
+
+msgid "intro/button"
+msgstr "了解!"
+
+msgid "intro/button/tooltip"
+msgstr "アップグレードについて"
+
+msgid "intro/improvements/description"
+msgstr "Tier XI車輌で取得した戦闘EXPは「改造ノード」と呼ばれる車輌のアップグレードのアンロックに使うことができます。「改造ノード」はそれぞれ異なるボーナスや係数を持つため、どれを選ぶかによって最終的な車輌の性能は変動します。"
+
+msgid "intro/improvements/title"
+msgstr "仕組み"
+
+msgid "intro/progression/description"
+msgstr "Tier XI車輌には、車輌の特性をさらに強化できる限定アップグレードが用意されています。"
+
+msgid "intro/progression/title"
+msgstr "アップグレード"
+
+msgid "intro/vanity/description"
+msgstr "すべての改造ノードの研究を終えると「エリート報酬」システムがアンロックされます。「エリート報酬」は特定のエリートレベルに到達すると手に入り、特別スタイルや戦績カウンター、主砲スリーブが用意されています。"
+
+msgid "intro/vanity/title"
+msgstr "エリート報酬"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr "発"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr "度/秒"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr "度"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/h"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/秒"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr "馬力"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr "秒"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr "HP"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "この機能は現在利用できません。"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "アップグレード画面に移動"
+
+msgid "notifications/perkAvailable/title"
+msgstr "車輌を強化するために必要なEXPが貯まりました。"
+
+msgid "rewardScreen/button/accept"
+msgstr "了解"
+
+msgid "rewardScreen/button/check"
+msgstr "「塗装」画面で表示"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "{{level}}{{type}}{{name}}のエリートレベルが{{prestigeLevel}}に到達したため報酬を入手しました"
+
+msgid "rewardScreen/title"
+msgstr "エリート報酬"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "Tier XI車輌には、車輌の特性をさらに強化できる限定アップグレードが用意されています。"
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "アップグレード"
+
+msgid "tooltips/common/cost"
+msgstr "費用: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "車輌のHE弾および体当たりによるダメージを軽減させます。"
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "HE弾による与ダメージを増加させます。"
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "HE弾の弾速を向上させます。"
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "バースト・モードにおける2発目の散布界の拡大を{colorTagOpen}{value}%{colorTagClose}軽減します。"
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "バースト・モードでの射撃クールダウンを{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "貯まった装填レベルごとに装填速度のボーナスを{colorTagOpen}{value}%{colorTagClose}増加させます。"
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "装填レベルの持続時間を{colorTagOpen}{value}秒{colorTagClose}延長します。"
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "装填レベルの持続時間を{colorTagOpen}{value}秒{colorTagClose}延長します。"
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "貯まった装填レベルごとに装填速度のボーナスを{colorTagOpen}{value}%{colorTagClose}増加させます。"
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "メカニズムを再度使用するまでのクールダウン時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "メカニズムを再度使用するまでのクールダウン時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "メカニズムの持続時間を{colorTagOpen}{value}秒{colorTagClose}延長します。"
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "メカニズムの持続時間を{colorTagOpen}{value}秒{colorTagClose}延長します。"
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "単一チャージ砲撃の100 mでの散布界を{colorTagOpen}{value}%{colorTagClose}縮小します。"
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "通常砲弾および特別砲弾による単一チャージ砲撃の与ダメージを{colorTagOpen}{value}HP{colorTagClose}上昇させます。"
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "単一チャージ砲撃の弾速を{colorTagOpen}{value} m/秒{colorTagClose}上昇させます。"
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "単一チャージ砲撃の装填時間を{colorTagOpen}{value}%{colorTagClose}短縮します。"
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "サスペンションの耐久性と修理速度を向上させます。"
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "自車輌の弾薬庫やエンジンが損傷した際のペナルティーを軽減し、自車輌が損傷した際の搭乗員の負傷の可能性を減少させます。"
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "射撃後に照準サークルを収束させます。"
+
+msgid "tooltips/description/aimingTime"
+msgstr "自車輌の照準時間を短縮します。"
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "単発モードでの自車輌の照準時間を短縮します。"
+
+msgid "tooltips/description/allShellDamage"
+msgstr "すべての砲弾タイプによる与ダメージを増加させます。"
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "すべての砲弾の速度を向上させます。"
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "弾薬庫の耐久値を増加させ、より多くのダメージに耐えられるようになります。"
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "自車輌の弾薬庫が損傷した際のペナルティーを軽減します。"
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "標準砲弾の与ダメージを増加させます。"
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "ブースター発動中の旋回速度が{colorTagOpen}{value}%{colorTagClose}向上します。"
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "ブースター発動中の最大速度が{colorTagOpen}{value}%{colorTagClose}増加します。"
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "ブースターが完全に再充填されるまでのクールダウン時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "ブースターの最大持続時間を{colorTagOpen}{value}秒{colorTagClose}延長します。"
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "スラスターによって付与されるエンジン出力へのブーストを{colorTagOpen}{value}%{colorTagClose}増加させます。"
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "スラスターを再度使用するまでのクールダウン時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "スラスターによって付与されるエンジン出力へのブーストを{colorTagOpen}{value}%{colorTagClose}増加させます。"
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "1回の戦闘におけるスラスターの発動可能回数の上限を{colorTagOpen}{value}{colorTagClose}増加させます。"
+
+msgid "tooltips/description/crewProtection"
+msgstr "自車輌が損傷した際に搭乗員が負傷する可能性を減少させます。"
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "主砲が損傷した際の散布界の拡大を軽減します。"
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "移動モードでの自車輌の前進速度を向上させます。"
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "移動モードでの自車輌の後退速度を向上させます。"
+
+msgid "tooltips/description/enginePenalty"
+msgstr "自車輌のエンジンが損傷した際のペナルティーを軽減します。"
+
+msgid "tooltips/description/enginePower"
+msgstr "自車輌がより速く加速し、上り坂を迅速に移動できるようにエンジン出力を向上させます。"
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "再装填開始までの時間を{colorTagOpen}{value}%{colorTagClose}短縮します。"
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "装填が中断された後の射撃までの遅延を{colorTagOpen}{value}%{colorTagClose}短縮します。"
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "カセット内の最後の砲弾を発射した後の装填時間に対するペナルティーを{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "リミッターを解除した場合の100 mでの散布界に対するペナルティーを{colorTagOpen}{value0}%{colorTagClose}、主砲の照準時間に対するペナルティーを{colorTagOpen}{value1}%{colorTagClose}軽減します。"
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "チャージの蓄積速度を{colorTagOpen}{value}%/秒{colorTagClose}上昇させます。"
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "砲撃後に失われるチャージ量を{colorTagOpen}{value}%{colorTagClose}軽減します。"
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "リミッター解除後のダメージを{colorTagOpen}{value0}HP{colorTagClose}上昇させ、ダメージへの最大ボーナスを{colorTagOpen}{value1}%{colorTagClose}増加させます。"
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "自車輌の前進速度を向上させます。"
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "精度レベルが上昇するごとに付与される散布界へのボーナスが{colorTagOpen}{value}%{colorTagClose}増加します。"
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "精度レベルが上がらなくなる制限速度を{colorTagOpen}{value} km/h{colorTagClose}上昇させます。"
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "次の精度レベルに到達するまでの時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "最大精度レベルでの主砲の安定性へのボーナスを{colorTagOpen}{value}%{colorTagClose}増加させます。"
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "補助兵装の装填時間を{colorTagOpen}{value}%{colorTagClose}短縮します。"
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "補助兵装の装填時間を{colorTagOpen}{value}%{colorTagClose}短縮します。"
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "マークされた敵車輌の被発見持続時間を{colorTagOpen}{value}秒{colorTagClose}延長します。"
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "メカニズムを再度使用するまでのクールダウン時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "メカニズムを使用できるようになるまでの初期クールダウンを{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "マークされた敵車輌に味方の砲弾が与える追加ダメージを{colorTagOpen}{value}%{colorTagClose}増加させます。"
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "予熱レベルが上がらなくなる制限速度を{colorTagOpen}{value} km/h{colorTagClose}上昇させます。"
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "予熱レベルによって付与される散布界への最大ボーナスを{colorTagOpen}{value}%{colorTagClose}増加させます。"
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "予熱レベルによって付与される与ダメージへの最大ボーナスを{colorTagOpen}{value}%{colorTagClose}増加させます。"
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "最大予熱レベルに到達するまでの時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "斉射モードにおいて、散布界の拡大を{colorTagOpen}{value} m{colorTagClose}低下させます。"
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "斉射モードでの砲塔旋回速度を{colorTagOpen}{value}度/秒{colorTagClose}向上させます。"
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "斉射モードでの照準時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "斉射モードでの最大前進速度を{colorTagOpen}{value} km/h{colorTagClose}向上させます。"
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "直結駆動モードを発動するまでの時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "直結駆動モードで最大性能に達するまでの時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "直結駆動モードでのエンジン出力を{colorTagOpen}{value}%{colorTagClose}増加させます。"
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "直結駆動モードでの前進速度を{colorTagOpen}{value}%{colorTagClose}向上させます。"
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "「ターボチャージャー・アシスト」によるエンジン出力へのブーストを{colorTagOpen}{value}%{colorTagClose}増加させます。"
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "「ターボチャージャー・アシスト」の発動中、最大後退速度を{colorTagOpen}{value} km/h{colorTagClose}向上させます。"
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "「ターボチャージャー・アシスト」の持続時間を{colorTagOpen}{value}秒{colorTagClose}延長します。"
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "「ターボチャージャー・アシスト」を再度使用するまでのクールダウン時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/gunDepression"
+msgstr "主砲の俯角を拡大します。"
+
+msgid "tooltips/description/gunDispersion"
+msgstr "照準サークル内での砲弾の集弾性を向上させます。"
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "単発モードにおける照準サークル内での砲弾の集弾性を向上させます。"
+
+msgid "tooltips/description/gunStabilization"
+msgstr "あらゆる状況で主砲の安定性を向上させます。"
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "移動中および車体旋回中の主砲の安定性を向上させます。"
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "移動中の主砲の安定性を向上させます。"
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "車体旋回中の主砲の安定性を向上させます。"
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "単発モードにおいて、移動中および車体旋回中の主砲の安定性を向上させます。"
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "砲塔旋回中の主砲の安定性を向上させます。"
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "単発モードでの砲塔旋回中の主砲の安定性を向上させます。"
+
+msgid "tooltips/description/gunTraverse"
+msgstr "主砲の最大水平旋回角度を増加させます。"
+
+msgid "tooltips/description/hitPoints"
+msgstr "車輌HPを向上させ、より多くのダメージに耐えられるようになります。"
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "弾倉内の砲弾間の再装填時間を短縮します。"
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "射撃中に敵車輌に発見される可能性を減少させます。"
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "主砲の冷却遅延時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "発射ごとの主砲の発熱を{colorTagOpen}{value}%{colorTagClose}軽減します。"
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "発熱した砲身の冷却速度を{colorTagOpen}{value}%{colorTagClose}向上させます。"
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "HE弾以外の砲弾による与ダメージを増加させます。"
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "拡張パーツとディレクティブの代替構成を設定することができます。"
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "主砲の冷却遅延時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "発熱および過熱した主砲の冷却速度を{colorTagOpen}{value}%{colorTagClose}向上させます。"
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "発射ごとの主砲の発熱を{colorTagOpen}{value}%{colorTagClose}軽減します。"
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "過熱した主砲の冷却速度を{colorTagOpen}{value}%{colorTagClose}向上させます。"
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "モードの切り替えにかかる時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "ターボモードで毎秒受動的に生成されるエネルギー量が{colorTagOpen}{value}%{colorTagClose}増加します。"
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "交戦モードにおいて、毎秒受動的に生成されるエネルギーの量が{colorTagOpen}{value}%{colorTagClose}増加します。"
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "ターボ・モードと交戦モードの両方で効果の持続時間を{colorTagOpen}{value}秒{colorTagClose}延長します。"
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "敵車輌に対する体当たりでの与ダメージが{colorTagOpen}{value}%{colorTagClose}増加します。"
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "敵車輌のサスペンションへの体当たりでの与ダメージが{colorTagOpen}{value}%{colorTagClose}増加します。"
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "敵車輌に対する体当たりでの与ダメージが{colorTagOpen}{value}%{colorTagClose}増加します。"
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "敵車輌に対する体当たりでの与ダメージが{colorTagOpen}{value}%{colorTagClose}増加します。"
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "チャージがオーバーヒートを起こした後に再び射撃できるようになるまでの時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "ヒート・レベルが最大に達してからオーバーヒートを起こすまでの時間を{colorTagOpen}{value}秒{colorTagClose}延長します。"
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "チャージがオーバーヒートを起こした後に再び射撃できるようになるまでの時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "ヒート・レベルごとの平均ダメージへのボーナスをそれぞれ{colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose}増加させます。"
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "敵からの体当たりによる被ダメージを軽減します。"
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "斉射モードと単発モードの両方で、主砲の装填時間を短縮します。"
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "自車輌の後退速度を向上させます。"
+
+msgid "tooltips/description/roleSlot"
+msgstr "拡張パーツの第2スロットにカテゴリーを割り当てられるようになります。"
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "要塞モードでの車体旋回速度と主砲を上に傾ける速度を{colorTagOpen}{value}%{colorTagClose}向上させます。"
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "要塞モードからの切り替えに要する時間を{colorTagOpen}{value}秒{colorTagClose}短縮します。"
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "要塞モードでの散布界を{colorTagOpen}{value}%{colorTagClose}縮小します。"
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "要塞モードでの主砲の装填時間が{colorTagOpen}{value}%{colorTagClose}短縮されます。"
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "自車輌の燃料タンクおよびエンジン・モジュールの耐久性を向上させます。"
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "弾薬庫やエンジンの損傷時のペナルティーを緩和します。"
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "敵車輌のモジュールへの砲弾による与ダメージを増加させます。"
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "弾薬と消耗品の代替構成を設定することができます。"
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "特別砲弾の与ダメージを向上させます。"
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "特別砲弾の貫通力を向上させます。"
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "特別砲弾の弾速を向上させます。"
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "茂みに隠れている敵車輌の隠蔽性を低下させます。"
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "移動中の敵車輌の隠蔽性を低下させます。"
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "標準砲弾の与ダメージを増加させます。"
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "通常弾の貫通力を向上させます。"
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "通常弾の弾速を向上させます。"
+
+msgid "tooltips/description/stunDuration"
+msgstr "敵の砲撃によって自車輌が受けるスタン持続時間を短縮します。"
+
+msgid "tooltips/description/turretTraverse"
+msgstr "砲塔の最大水平旋回角度を増加させます。"
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "交戦モード発動中の砲塔旋回時の散布界の拡大を軽減します。"
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "自車輌の前進速度および後退速度を向上させます。"
+
+msgid "tooltips/description/viewRange"
+msgstr "敵車輌をより遠距離から発見することができるようになります。"
+
+msgid "tooltips/large/eliteStatus"
+msgstr "エリートステータスを付与"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "他のすべての改造ノードを研究すると、この改造ノードを研究できるようになります。"
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "カテゴリー: 隠蔽性"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "カテゴリー: 火力"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "特殊メカニズムのアップグレード"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "カテゴリー: 機動性"
+
+msgid "tooltips/perk/category/special"
+msgstr "特別アップグレード"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "カテゴリー: 発見"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "カテゴリー: 生存性"
+
+msgid "tooltips/special/tapToModify"
+msgstr "この改造ノードを研究するとこの機能がアンロックされます。"
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "HE弾ダメージ吸収"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "HE弾のダメージ"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "HE弾の貫通力"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "HE弾の弾速"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "半自動質量ダンパー"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "チェーン駆動ラマー強化装置"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "半自動トーション抽出装置"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "戦闘室用高機能外気フィルター"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "遠心過圧排気装置"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "改良型砲弾クランプ"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "高出力コンプレッサー"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "6,000-PSI圧縮ピストン"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "6,000-PSI油気圧システム"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "追加高圧シリンダー"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "弾道安定性強化"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "強化単一チャージ"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "加圧単一チャージ"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "軽量チャージ分離板"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "装弾数拡張"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "高機能サスペンション保護"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "高機能モジュール搭乗員保護"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "照準サークルのサイズ"
+
+msgid "tooltips/title/aimingTime"
+msgstr "照準時間"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "照準時間"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "全弾種のダメージ"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "弾速"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "弾薬庫HP"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "弾薬庫ペナルティー"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "標準砲弾のダメージ"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "推力ヴェクター"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "高流量推進剤ポンプ"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "蒸発冷却"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "蒸散冷却ノズル"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "高エネルギー推進剤"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "半自動スラスター抽出装置"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "改良型コア"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "拡張ブースター格納庫"
+
+msgid "tooltips/title/chassisHP"
+msgstr "サスペンションHP"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "サスペンション修理速度"
+
+msgid "tooltips/title/crewProtection"
+msgstr "搭乗員保護"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "即応散布界"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "移動モードの前進速度"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "移動モードの後退速度"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "エンジンの火災発生率"
+
+msgid "tooltips/title/engineHP"
+msgstr "エンジンHP"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "エンジンのペナルティー"
+
+msgid "tooltips/title/enginePower"
+msgstr "エンジン出力"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "油圧ホースの最適化"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "装填シーケンスの最適化"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "改良式装填メカニズム"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "サーマル砲身断熱材"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "高出力オルタネーター"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "低抵抗配線"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "改良型出力リミッター"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "前進速度"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "燃料タンクHP"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "転向力センサー"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "回転式傾斜センサー"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "強化入力端末"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "高精度旋回センサー"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "改良型補助弾薬庫"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "補助兵装用装填棒"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "高度追跡メカニズム"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "高効率ヒートシンク"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "高出力ジェネレーター"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "低散布ルビーレーザー"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "改良型パワー発進"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "ツイン・サーマル制御センサー"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "高精度サーマル・コントロール"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "高出力オルタネーター"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "組み込み式砲架"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "高性能ローテーション・システム"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "傾斜制御システム"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "トルク開放式調速機"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "ギア比調整"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "タービン・ジオメトリー最適化システム"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "多連結管最適化システム"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "改良型RPMリミッター"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "調整型圧力レギュレーター"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "近代化改修型排気マニホールド"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "大容量エアタンク"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "高効率エア・コンプレッサー"
+
+msgid "tooltips/title/gunDepression"
+msgstr "主砲の俯角"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "主砲の散布界"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "主砲の散布界"
+
+msgid "tooltips/title/gunElevation"
+msgstr "主砲の仰角"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "主砲の総合安定性"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "主砲の部分安定性"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "移動安定化システム"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "旋回安定化システム"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "主砲の部分安定性"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "主砲の部分安定性"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "主砲の部分安定性"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "改良式主砲旋回"
+
+msgid "tooltips/title/hitPoints"
+msgstr "車輌HP"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "車体上昇速度"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "車体旋回速度"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "弾倉内装填時間"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "射撃後の隠蔽性"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "低温伝熱液"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "高熱伝導サーモ・ハウジング"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "改良型ヒートパイプ"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "HE弾以外の弾種のダメージ"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "拡張パーツとディレクティブのロードアウト"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "クロムライナー加工"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "高熱伝導砲身"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "冷炎推進剤"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "強制換気システム"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "軽量タービンローター"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "高出力補助オルタネーター"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "高度修正制御装置"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "複合型コンデンサー配列"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "部分的エッジ強化"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "高合金鋼履帯"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "深部浸炭硬化"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "部分浸炭硬化"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "高精度サーマルセンサー"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "低慣性砲尾ヒーター"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "機械化チャージ・トレイ"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "熱制御オーバーロード"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "体当たりによるダメージの軽減"
+
+msgid "tooltips/title/reloadTime"
+msgstr "装填時間"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "装填時間"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "後退速度"
+
+msgid "tooltips/title/roleSlot"
+msgstr "第2スロットのカテゴリー"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "軸方向ピストン油圧ポンプ"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "マルチコーン動力同期装置"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "高精度バランス調整ローター"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "油圧駆動式ラマー"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "選択的モジュールHPブースト"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "選択的モジュール保護"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "砲弾によるモジュールへのダメージ"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "砲弾と消耗品の構成設定"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "特別砲弾のダメージ"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "特別砲弾の貫通力"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "特別砲弾の速度"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "偵察ボーナス【茂み】"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "偵察ボーナス【移動中】"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "標準砲弾のダメージ"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "標準砲弾の貫通力"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "通常砲弾の弾速"
+
+msgid "tooltips/title/stunDuration"
+msgstr "スタン持続時間"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "改良型砲塔旋回"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "砲塔旋回速度"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "砲塔旋回安定化システム"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "車輌の走行速度"
+
+msgid "tooltips/title/viewRange"
+msgstr "視認範囲の拡大"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "全改造ノードを研究するとアンロック可能"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Tier XI車輌に対する特別な報酬を受け取ることができます。報酬には立体スタイルや戦績カウンター、主砲スリーブが含まれています。"
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "エリート報酬"
+
+msgid "vanity/available/subtitle"
+msgstr "車輌の「エリートレベル」に応じた報酬を入手可能"
+
+msgid "vanity/available/tooltip"
+msgstr "現在のエリートレベル"
+
+msgid "vanity/completed/subtitle"
+msgstr "おめでとうございます! 全報酬を入手しました。"
+
+msgid "vanity/completed/tooltip"
+msgstr "現在のエリートレベル"
+
+msgid "vanity/disabled/subtitle"
+msgstr "最終改造ノードを研究するとアンロック可能"
+
+msgid "vanity/disabled/tooltip"
+msgstr "「エリートステータス」未獲得"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "報酬のアンロックに必要な「エリートレベル」"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "限定主砲スリーブです。乗り慣れた車輌を戦場でひと際目立たせることができます。"
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "新たなカスタマイズ要素です。撃破した車輌の数が表示されます。"
+
+msgid "vanity/rewardType/description/style"
+msgstr "Tier XI車輌限定の特別な2Dスタイルです。立体的なビジュアル・エフェクトを付与します。"
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "主砲スリーブ用3D付属品"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "戦績カウンター"
+
+msgid "vanity/rewardType/title/style"
+msgstr "立体スタイル"
+
+msgid "vanity/title"
+msgstr "エリート報酬"

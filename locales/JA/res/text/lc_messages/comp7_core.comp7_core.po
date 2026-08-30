@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "この戦闘で使用禁止にしたい車輌を選択してください"
+
+msgid "prebattleTimer/ban/header"
+msgstr "BAN投票ステージ"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "選択を確定"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "確定すると別の車輌に変更できなくなります。"
+
+msgid "prebattleTimer/pick/header"
+msgstr "確認ステージ"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "このマップとチーム編成に最適な車輌を選択してください"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "車輌事前選択ステージ"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "マップとチーム編成を踏まえて最適な車輌を選択するのが重要です。"
+
+msgid "prebattleTimer/wait/header"
+msgstr "プレイヤーを待っています..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "車輌を選択"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "%(server)sサーバーではステージが終了しています。"
+
+msgid "primeTimeView/server"
+msgstr "利用可能なサーバー: %(server)s"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)sサーバー\n休止時間の開始まで残り%(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)sサーバー\n休止時間の終了まで残り%(time)s"
+
+msgid "primeTimeView/servers"
+msgstr "利用可能なサーバー:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "こちらのモードは全サーバーで休止中"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "こちらのモードは%(server)sサーバーでは休止中"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "%(server)sサーバーでの休止時間の開始まで残り%(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "%(server)sサーバーでの休止時間の終了まで残り%(time)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "こちらのモードは%(server)sサーバーでは%(startTime)sまでプレイできません。"

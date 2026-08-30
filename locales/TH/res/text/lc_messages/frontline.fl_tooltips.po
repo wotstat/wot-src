@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "ช่วงห้าม {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "กิจกรรมจะมีให้ตั้งแต่"
+
+msgid "bannerTooltip/description"
+msgstr "การรบขนาดใหญ่ 30ต่อ30 ด้วยพาหนะระดับ {{vehicleTier}} ในแผนที่นอร์มังดี, โรงไฟฟ้าและภาพลวงตา ทีมจู่โจมจะต้องทำลายป้อมปืนลำกล้องใหญ่สามป้อมจากห้าป้อมในขณะที่ทีมป้องกันป้อมปืนดังกล่าวให้ได้"
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "แสดงฝีมือในการรบอันดุเดือดเพื่อรับชื่อเสียง, คว้ารางวัลที่มีค่าและไต่ผ่านอันดับต่างๆ"
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "กิจกรรมจบลงแล้วและคุณก็มีรางวัลยังไม่ได้รับสำหรับระดับแนวรบที่ผ่าน"
+
+msgid "bannerTooltip/header"
+msgstr "แนวรบ"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "แนวรบ / ระดับ {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} - รูปแบบเกม คลิกเพื่อสำรวจ"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนเครื่องไม่เพียงพอ ให้ลองลดคุณภาพกราฟฟิคในการตั้งค่าลง"
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "สมรรถนะอาจจะต่ำลง"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "เลือกรางวัลสำหรับระดับที่ผ่านแล้ว ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "เงินไม่พอทำการซื้อ"
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "การเปลี่ยนแปลงจะมีผลกับยานพิฆาตรถถังทั้งหมด"
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "การเปลี่ยนแปลงจะมีผลกับปืนอัตตาจรทั้งหมด"
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "การเปลี่ยนแปลงจะมีผลกับรถถังหนักทั้งหมด"
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "การเปลี่ยนแปลงจะมีผลกับรถถังเบาทั้งหมด"
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "การเปลี่ยนแปลงจะมีผลกับรถถังกลางทั้งหมด"
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "พาหนะใช้ด้วยไมไ่ด้"
+
+msgid "battleAbilities/points/body"
+msgstr "รวมคะแนนให้ได้ตามที่กำหนดแล้วเปิดใช้งานกำลังสำรองรบ"
+
+msgid "battleAbilities/points/header"
+msgstr "คะแนนกำลังสำรองรบ"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "ดูกำลังสำรองโจมตี"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "กำลังสำรองโจมตี"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "ดูกำลังสำรองลาดตระเวน"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "กำลังสำรองลาดตระเวน"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "ดูกำลังสำรองยุทธวิธี"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "กำลังสำรองยุทธวิธี"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "ขั้นกำลังสำรองรบจะเพิ่มขึ้นหลังจากที่ได้ยศร้อยเอกและพันตรีในการรบ ขั้นสูงสุดนั้นจะขึ้นกับสถานการณ์การรบ"
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "ข้อมูลเพิ่มเติม"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "กำลังสำรองโจมตี"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "กำลังสำรองลาดตระเวน"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "กำลังสำรองยุทธวิธี"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "คุณลักษณะถาวร:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "กำลังสำรองรบที่วางในช่องนี้เพิ่มโอกาสมีให้ ในสถานการณ์{{@ colorLegacy 'FFE4C0'}}ชะตาพลิกผัน{{@ colorLegacy 'FFE4C0'}}อีก{{/}}10%{{/}}"
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "ขั้นกำลังสำรอง"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "ไม่ได้ซื้อ!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "กิจกรรมจบลงแล้ว"
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "กิจกรรมดังกล่าวเริ่มในไม่ช้า"
+
+msgid "infoButton/body"
+msgstr "คลิกเพื่อดูข้อมูลเพิ่มเติม"
+
+msgid "infoButton/header"
+msgstr "เกี่ยวกับกิจกรรม"
+
+msgid "levelReserves/desc"
+msgstr "ขั้นกำลังสำรองรบที่เพิ่มขึ้นเมื่อได้รับยศใหม่:"
+
+msgid "levelReserves/info"
+msgstr "ในสถานการณ์ {{@ colorLegacy 'FFE4C0'}}ชะตาพลิกผัน{{/}} การซื้อกำลังสำรองรบจะทำให้เพิ่มขั้นอีก หนึ่งขั้นและทำให้ม๊โอกาสเพิ่มขั้นเป็นขั้น {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/level"
+msgstr "เพิ่มขึ้นเมื่อไปถึงระดับนี้: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "มีให้ในระดับนี้: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "ขั้น - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "สำหรับ {{@ colorLegacy 'FFE4C0'}}กำลังสำรองรบที่ซื้อ{{/}}ในสถานการณ์{{@ colorLegacy 'FFE4C0'}}ชะตาพลิกผัน{{/}}"
+
+msgid "levelReserves/title"
+msgstr "ขั้นกำลังสำรองรบ"
+
+msgid "playlist/warning/body"
+msgstr "รายชื่อเล่นมีพาหนะที่ไม่เหมาะกับรูปแบบเกมนี้หรือไม่ได้อยู่ในโรงรถของคุณ"
+
+msgid "playlist/warning/header"
+msgstr "พาหนะที่ไม่มีให้ (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "เพิ่มคุณลักษณะกำลังสำรองรบ"
+
+msgid "randomReserve/disable"
+msgstr "ช่องกำลังสำรองดังกล่าวถูกใช้แล้ว"
+
+msgid "randomReserve/notPurchased"
+msgstr "ไม่ได้ซื้อกำลังสำรองรบ"
+
+msgid "randomReserve/purchased"
+msgstr "ซื้อกำลังสำรองรบแล้ว"
+
+msgid "skillOrderTooltip/body"
+msgstr "พาหนะแต่ละชนิดจะมีลำดับการปลดล็อคกำลังสำรองของตัวเอง:"
+
+msgid "skillOrderTooltip/header"
+msgstr "ลำดับการปลดล็อคกำลังสำรองรบ"
+
+msgid "skillOrderTooltip/info"
+msgstr "ในสถานการณ์ {{@ colorLegacy 'whiteSpanish'}}ชะตาพลิกผัน{{/}} ลำดับการปลดล็อคกำลังสำรองรบนั้นไม่ขึ้นกับชนิดของพาหนะ"

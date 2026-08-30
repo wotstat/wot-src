@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "categories/body/firepower"
+msgstr "Một bộ thông số biểu thị hiệu quả tiêu diệt xe địch. Chức năng lọc này hiện/ẩn thiết bị với những thông số kể trên."
+
+msgid "categories/body/mobility"
+msgstr "Một bộ thông số biểu thị khả năng thay đổi vị trí nhanh/chậm của xe trên chiến trường. Chức năng lọc này hiện/ẩn thiết bị với những thông số kể trên."
+
+msgid "categories/body/stealth"
+msgstr "Một bộ thông số biểu thị hiệu quả ẩn giấu và phát hiện địch của xe. Chức năng lọc này hiện/ẩn thiết bị với những thông số kể trên."
+
+msgid "categories/body/survivability"
+msgstr "Một bộ thông số biểu thị khả năng kháng cự sát thương của xe. Chức năng lọc này hiện/ẩn thiết bị với những thông số kể trên."
+
+msgid "categories/empty"
+msgstr "Danh mục Ô thứ Hai"
+
+msgid "categories/firepower"
+msgstr "Hỏa lực"
+
+msgid "categories/mobility"
+msgstr "Cơ động"
+
+msgid "categories/slotEffect/empty"
+msgstr "Cơ hội để chỉ định danh mục cho ô thiết bị thứ hai của xe này."
+
+msgid "categories/slotEffect/firepower"
+msgstr "Thiết bị tiêu chuẩn thuộc chủng loại Hỏa lực sẽ hoạt động hiệu quả hơn nếu được lắp vào ô này."
+
+msgid "categories/slotEffect/mobility"
+msgstr "Thiết bị tiêu chuẩn thuộc chủng loại Cơ động sẽ hoạt động hiệu quả hơn nếu được lắp vào ô này."
+
+msgid "categories/slotEffect/stealth"
+msgstr "Thiết bị tiêu chuẩn thuộc loại Trinh sát sẽ hoạt động hiệu quả hơn nếu được lắp vào ô này."
+
+msgid "categories/slotEffect/survivability"
+msgstr "Thiết bị tiêu chuẩn thuộc chủng loại Sống sót sẽ hoạt động hiệu quả hơn nếu được lắp vào ô này."
+
+msgid "categories/stealth"
+msgstr "Trinh sát"
+
+msgid "categories/survivability"
+msgstr "Khả năng Sống sót"
+
+msgid "categories/universal"
+msgstr "Không Danh mục"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "Chọn một ứng dụng kỹ thuật có thể áp dụng từ danh sách."
+
+msgid "compare/section/description/consumables"
+msgstr "Chọn một vật phẩm có thể áp dụng từ danh sách."
+
+msgid "compare/section/description/optDevices"
+msgstr "Chọn một thiết bị có thể áp dụng từ danh sách."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "Ứng dụng kỹ thuật cho {name}"
+
+msgid "compare/section/title/consumables"
+msgstr "Vật phẩm cho {name}"
+
+msgid "compare/section/title/optDevices"
+msgstr "Thiết bị cho {name}"
+
+msgid "dealPanel/autoRenew"
+msgstr "Tiếp tế tự động"
+
+msgid "dealPanel/button/apply"
+msgstr "Áp dụng"
+
+msgid "dealPanel/button/applyType"
+msgstr "Áp dụng cho Loại"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "Áp dụng cho Xe"
+
+msgid "dealPanel/button/cancel"
+msgstr "Hủy bỏ"
+
+msgid "dealPanel/button/purchase"
+msgstr "Mua"
+
+msgid "dealPanel/fromStorage"
+msgstr "Từ Kho:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "Đã lắp:"
+
+msgid "dealPanel/repair"
+msgstr "Cần sửa chữa"
+
+msgid "dealPanel/toBePaid"
+msgstr "Tổng:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "Trong Kho"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "Đã lắp trên xe"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "Không đủ nguồn lực để thực hiện thanh toán"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "Sẽ được mua bằng bạc"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "Sẽ được mua bằng trái phiếu"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "Sẽ được lắp từ Kho"
+
+msgid "deconstructionDeviceView/available"
+msgstr "Khả dụng:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "Hủy bỏ"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "Tiếp tục"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "Từ Kho:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "Từ xe:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "(cần thêm %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)sđể nâng cấp%(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "Sẽ nhận được:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "XE ĐANG DÙNG"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "TRONG KHO: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "TRÊN XE: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "Chọn thiết bị mà bạn muốn tháo rời ra nhiều %(whiteSpanish_Open)sthành phần%(whiteSpanish_Close)s %(icon)s. Thành phần nhận được có thể dùng nâng cấp Thiết bị Thử nghiệm."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s Để có thêm thành phần, hãy tháo rời Thiết bị Thử nghiệm không dùng."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "BÀN KỸ THUẬT"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "Không đủ thành phần để nâng cấp\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "Để tiếp tục, hãy tháo rời thiết bị không dùng lấy thành phần."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "Để tiếp tục, hãy lấy số thành phần cần có."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "Hủy các thay đổi"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "Hủy bỏ"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "Hủy bỏ"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "Hủy bỏ"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "Hủy các thay đổi"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "Lưu"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "Mua"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "Mua và Lắp đặt"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "Lắp đặt"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "Bạn có thể gỡ thiết bị bằng cách dùng %(price)s để gửi vào Kho, hoặc phá hủy nó."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "Bạn có thể gỡ thiết bị với giá %(price)s hay {whiteSpanish_Open}miễn phí{whiteSpanish_Close} nhờ WoT Plus để cất vào Kho, hoặc chấp nhận mất luôn và cho nó bị phá hủy."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "Bạn có thể gỡ thiết bị bằng %(demountKit)s, với giá %(price)s hay {whiteSpanish_Open}miễn phí{whiteSpanish_Close} nhờ WoT Plus để cất vào Kho, hoặc chấp nhận mất luôn và cho nó bị phá hủy."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "Bạn có thể tháo thiết bị {whiteSpanish_Open}miễn phí{whiteSpanish_Close} nhờ WoT Plus để cất vào Kho."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "Bạn có thể gỡ thiết bị và gửi vào Kho."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "KHÔNG HOẠT ĐỘNG"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "ứng dụng kỹ thuật"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "Khi mua Sửa đổi Kép này, cái còn lại sẽ bị hủy bỏ."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "vật phẩm"
+
+msgid "dialogs/confirm/item/module"
+msgstr "mô-đun"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "thiết bị"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "Sửa đổi Kép"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "ứng dụng kỹ thuật"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "vật phẩm"
+
+msgid "dialogs/confirm/items/module"
+msgstr "mô-đun"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "thiết bị"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " và "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "Lưu những thay đổi trong các ô ứ.dụng k.thuật?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "Lưu những thay đổi trong các ô vật phẩm?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "Lưu những thay đổi trong các ô thiết bị?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "Mua {type} %(name)s?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "Mua và lắp {type} %(name)s?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "Lắp {type} %(name)s?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "Bật {type} %(name)s cho tất cả %(vehicle)s?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "Mua {type}?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "Mua và lắp đặt {type}?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "Lắp đặt {type}?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "Bật {type} cho tất cả %(vehicle)s?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "pháo chống tăng"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "pháo tự hành"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "tăng hạng nặng"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "tăng hạng nhẹ"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "tăng hạng trung"
+
+msgid "dialogs/confirm/warning"
+msgstr "Chú ý! %(devices)s chưa được lắp đặt. Ứng dụng kỹ thuật %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "Chú ý! Sau khi tháo rời, bạn sẽ không còn Thiết bị Thử nghiệm nào!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "Hủy bỏ"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "Tháo rời"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "Tháo rời"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "Tổng sẽ nhận được:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "Sẽ nhận được cho 1 đơn vị:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "Tháo rời\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "Tháo rời\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "Xin vui lòng chú ý: Sau khi tháo rời, bạn sẽ không thể khôi phục hay mua thiết bị này."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "Hủy bỏ"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "Tháo rời"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "Tháo rời thiết bị sau để lấy thành phần?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "Tháo rời thiết bị sau và nâng cấp\n%(deviceName)s?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "Sẽ được tháo rời từ Kho: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "Sẽ được tháo rời từ các xe: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "Sau khi tháo rời, bạn sẽ nhận được: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "Tổng sẽ nhận được:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "Chi phí nâng cấp:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "Chú ý! Sau khi tháo rời, bạn sẽ không còn Thiết bị Thử nghiệm nào!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "Chú ý! Thiết bị Thử nghiệm từ xe của bạn sẽ bị tháo rời."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "Quy đổi"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "thiết bị"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "Cần thêm %(credits)s để nâng cấp %(name)s"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "thiết bị"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "Cần thêm %(credits)s để nâng cấp thiết bị"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "Không thể nâng cấp thiết bị. Bạn cần %(gold)s để quy đổi lấy bạc."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "Bạn có đủ bạc để nâng cấp thiết bị."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "Không cần quy đổi"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "Bạn không có Thiết bị Thử nghiệm nào để tháo rời."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "Để có thêm thành phần, hãy tháo rời Thiết bị Thử nghiệm."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "Nâng cấp\n%(name)s?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "Cần có: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "Chi phí:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "để mua"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "để mua"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "Quy đổi"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "Tỷ lệ quy đổi: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "Cần thêm %(credits)s cho Dịch vụ nhanh"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "ứng dụng kỹ thuật"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "vật phẩm"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "mô-đun"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "thiết bị"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "Sửa đổi Kép"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "Cần thêm %(credits)s {action} {type} %(name)s"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "ứng dụng kỹ thuật"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "vật phẩm"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "mô-đun"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "thiết bị"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "Cần thêm %(credits)s {action} {type}"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "Cần thêm %(credits)s để sửa chữa"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "Không thể mua: quy đổi thất bại. Cần thêm %(gold)s để quy đổi."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "để mua"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "cho biến thể"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "Không cần quy đổi—bạn có đủ bạc."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "Đủ bạc {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "Cần thêm %(credits)s để tái tiếp tế đạn dược"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "Sửa chữa tự động"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "Sửa chữa"
+
+msgid "dialogs/needRepair/durability"
+msgstr "Độ bền:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "Xe được tự động sửa chữa miễn phí"
+
+msgid "dialogs/needRepair/price"
+msgstr "Phí sửa chữa:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "Không đủ nguồn lực để sửa chữa"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "Đã rõ!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "Không cần sửa chữa"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "Tái tiếp tế"
+
+msgid "dialogs/refillShells/price"
+msgstr "Phí tái tiếp tế:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "Tái tiếp tế đạn dược?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "Lưu những thay đổi về đạn dược?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "Xin vui lòng chú ý: Bạn đang bán Thiết bị Tiên tiến."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "Xin vui lòng chú ý: Sau khi bán, bạn sẽ không thể khôi phục hay mua thiết bị này."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "Hủy bỏ"
+
+msgid "dialogs/sell/button/sell"
+msgstr "Bán"
+
+msgid "dialogs/sell/header"
+msgstr "Bán thiết bị sau?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "Giá bán 1 đơn vị:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "Không đủ nguồn lực để tháo gỡ."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "Khuyến cáo không khả dụng cho xe này"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "Không thể lắp đặt."
+
+msgid "easyTankEquipView/applied"
+msgstr "Đã lắp"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "Tiên tiến"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "Tiên tiến"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "Tiêu chuẩn"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "VẬT PHẨM"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "Không đủ giường để chuyển và thay đổi kíp lái. Hãy mua thêm giường cho Doanh trại."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "Kíp lái dày dạn"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "Kíp lái mới"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\nThành viên kíp lái mới sẽ được tuyển"
+msgstr[1] "{{count}}\nThành viên kíp lái mới sẽ được tuyển"
+msgstr[2] "{{count}}\nThành viên kíp lái mới sẽ được tuyển"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "KÍP LÁI"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "Tiên tiến"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "Tiêu chuẩn"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "THIẾT BỊ"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "Tiên tiến"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "Tiêu chuẩn"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "ĐẠN DƯỢC"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "Bạn đã áp dụng một kiểu mẫu rồi"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{battlesCount}} trận với chi phí {{price}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "KIỂU TIỀN LẬP"
+
+msgid "easyTankEquipView/title"
+msgstr "DỊCH VỤ NHANH"
+
+msgid "effects/name"
+msgstr "Hiệu ứng"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "Thời gian chờ hồi phục là %(cooldown)s&nbsp;s."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "Lấy Thành phần"
+
+msgid "filters/shown"
+msgstr "Được hiển thị: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "KÉO VÀ THẢ\nTHIẾT BỊ"
+
+msgid "hints/filters/specialization"
+msgstr "THÊM\nKHOẢN TĂNG THEO CHỦNG LOẠI"
+
+msgid "hints/tabs/equipment"
+msgstr "LOẠI THIẾT BỊ\nMỚI"
+
+msgid "introduction/currency/deluxe"
+msgstr "trái phiếu"
+
+msgid "introduction/currency/modernized"
+msgstr "thành phần"
+
+msgid "introduction/message/deluxe"
+msgstr "Loại thiết bị này khả dụng theo %(currencyName)s (%(currencyIcon)s). Nó cũng có thể được thưởng cho các thành tích game cụ thể và từ sự kiện đặc biệt."
+
+msgid "introduction/message/modernized"
+msgstr "Một loại thiết bị chuyên dụng, có ba Mức Nâng cấp. Loại thiết bị này là phần thưởng khi hoàn thành nhiệm vụ và từ những sự kiện game nhất định. Không thể phá hủy hay bán chúng, nhưng có thể được tháo rời lấy các chi tiết máy đặc biệt—%(currencyName)s (%(currencyIcon)s). Thành phần thu về dùng để nâng cấp bất cứ Thiết bị Thử nghiệm nào."
+
+msgid "introduction/message/trophy"
+msgstr "Loại thiết bị độc đáo, đặc tính tương tự thiết bị tiêu chuẩn lúc mới nhận, nhưng có thể được nâng cấp khi tiêu bạc. Bạn không thể mua Thiết bị Bao cấp bằng cách dùng tiền tệ trong game, nó là phần thưởng cho các sự kiện game nhất định."
+
+msgid "introduction/showButton"
+msgstr "Hiện Thiết bị"
+
+msgid "introduction/slide/1/description"
+msgstr "Thiết bị mới đã xuất hiện trong game. Thêm vào đó, %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s và %(cycloneFilter)s được kết hợp thành thiết bị %(changedConfiguration)s. Những loại tương tự với %(forcedChassis)s được thay thế bởi %(forcedMetal)s. Mọi khoản tăng cũ vẫn giữ nguyên và nhiều thứ mới được bổ sung."
+
+msgid "introduction/slide/1/title"
+msgstr "THIẾT BỊ MỚI"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "—Hỏa lực"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "—Cơ động"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "—Trinh sát"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "—Khả năng Sống sót"
+
+msgid "introduction/slide/2/description"
+msgstr "Nếu thiết bị được lắp vào ô cùng chủng loại, nó sẽ hoạt động hiệu quả hơn. Ngược lại, nó chỉ cung cấp khoản tăng tiêu chuẩn."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "TƯƠNG THÍCH CHỦNG LOẠI"
+
+msgid "introduction/slide/2/title"
+msgstr "CHỦNG LOẠI THIẾT BỊ"
+
+msgid "introduction/slide/3/description/left"
+msgstr "Chi phí của hầu hết thiết bị sẽ không quá 50 000 bạc đối với xe Cấp II–IV, 300 000 bạc cho Cấp V–VII và 600 000 bạc đối với xe Cấp VIII–XI."
+
+msgid "introduction/slide/3/description/right"
+msgstr "Một vài thiết bị mới có ba loại. Dù khác loại, thiết bị vẫn cung cấp hiệu quả tương tự. Loại càng cao, chi phí của thiết bị càng đắt. Mỗi loại thiết bị phù hợp với nhóm cấp xe của riêng chúng."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "NHỮNG THAY ĐỔI VỀ THIẾT BỊ"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "THIẾT BỊ MỚI"
+
+msgid "introduction/slide/3/title"
+msgstr "CHI PHÍ THIẾT BỊ"
+
+msgid "introduction/slide/4/description"
+msgstr "Thiết bị không khả dụng đối với xe Cấp I. Bạn chỉ có thể lắp một cái trên xe Cấp II, hai cái cho Cấp III và ba cái trên xe Cấp IV–XI. Thiết bị gắn trong các ô bị loại bỏ đã được gỡ ra và đưa về Kho."
+
+msgid "introduction/slide/4/title"
+msgstr "Ô THIẾT BỊ"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "Bình Xăng chứa CO2"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "Cấu hình Tinh chỉnh"
+
+msgid "introduction/slide/confirm"
+msgstr "Đã rõ!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "Bộ lọc Khí xoáy"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "Giảm xóc Cải tiến"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "Bộ Gia cố Cải tiến"
+
+msgid "introduction/slide/repairBox"
+msgstr "Hộp đồ nghề"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "Gác Đạn bọc Chất lỏng"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "Thiết bị Tiên tiến"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "Thiết bị Thử nghiệm"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "Thiết bị bao cấp"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "Bạn không có Thiết bị Thử nghiệm phù hợp nào"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "Bạn không có Thiết bị Bao cấp phù hợp nào"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "cho độ trễ trước khi Chỉ huy nhận ra xe mình đã bị địch phát hiện"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "thời gian choáng thêm nếu xe đã bị choáng rồi"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "độ ẩn giấu của xe địch sau cành lá (đang di chuyển và đứng yên)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "cho tốc độ bay với mọi loại đạn"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "cho tác động tiêu cực lên tốc độ nạp đạn khi mô-đun bị hư hại"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "cho tác động tiêu cực lên công suất động cơ khi mô-đun bị hư hại"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "độ ẩn giấu của xe đứng yên hay đang di chuyển"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "độ gia tăng khả năng ẩn giấu, dù xe đứng yên hay đang di chuyển (hiệu quả tùy thuộc vào loại xe)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "thương tổn lên thân xe khi hệ thống giảm xóc chịu thiệt hại lúc va chạm"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "tầm nhìn (lên đến 445 m)—tăng thông số vượt qua giá trị 445 m cho phép phát hiện địch hiệu quả hơn"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "cho thiệt hại hứng chịu lúc va chạm"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "độ phân tán lúc di chuyển, xoay, quay súng và sau khi bắn"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "cho thiệt hại từ đạn HE mà giáp hấp thụ được"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "cho thời gian xe của bạn bị lộ hình"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "cho khả năng duy trì tốc độ\nkhi băng qua mọi loại địa hình"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "độ ẩn giấu của xe đứng yên, sau 3 giây tính từ lúc dừng"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "độ ẩn giấu của xe đứng yên\nsau 1.5 giây từ lúc dừng"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "độ gia tăng khả năng ẩn giấu của xe đứng yên, sau 3 giây tính từ lúc dừng (mức độ hiệu quả phụ thuộc vào loại xe)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "độ gia tăng khả năng ẩn giấu của xe đứng yên, sau 1.5 giây từ lúc dừng (mức hiệu quả tùy loại xe)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "tầm nhìn của xe đứng yên, sau 3 giây tính từ lúc dừng (lên đến 445 m)—tăng thông số vượt qua giá trị 445 m cho phép phát hiện địch hiệu quả hơn"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "tầm nhìn của xe đứng yên, sau 1.5 giây từ lúc dừng (tối đa 445 m)—tăng thông số lý thuyết vượt 445 m cho phép phát hiện địch hiệu quả hơn"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "sức kháng cự của xe (làm tròn lên)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "tốc độ xoay tháp pháo hoặc tốc độ quay súng cho xe với cabin cố định"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "cho độ trễ trước khi Chỉ huy nhận ra xe mình đã bị địch phát hiện"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "thời gian choáng thêm nếu xe đã bị choáng rồi"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "độ ẩn giấu của xe địch sau cành lá (cả khi đang di chuyển và đứng yên)"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "cho tốc độ bay với mọi loại đạn"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "cho tác động tiêu cực lên tốc độ nạp đạn khi mô-đun bị hư hại"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "cho tác động tiêu cực lên công suất động cơ khi mô-đun bị hư hại"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "độ ẩn giấu của xe đứng yên và đang di chuyển"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "cho độ gia tăng ẩn giấu, dù xe đứng yên hay đang di chuyển (hiệu quả tùy thuộc vào loại xe)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "thương tổn lên thân xe khi hệ thống giảm xóc chịu thiệt hại lúc va chạm"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "tầm nhìn (lên đến 445 m). Tăng thông số vượt qua giá trị 445 m cho phép phát hiện địch hiệu quả hơn."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "cho thiệt hại hứng chịu lúc va chạm"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "độ phân tán lúc di chuyển, xoay, quay súng và sau khi bắn"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "cho thiệt hại từ đạn HE mà giáp hấp thụ được"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "cho thời gian xe của bạn bị lộ hình"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "cho khả năng duy trì tốc độ\nkhi băng qua mọi loại địa hình"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "độ ẩn giấu của xe đứng yên, sau 3 giây tính từ lúc dừng"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "độ ẩn giấu của xe đứng yên\nsau 1.5 giây từ lúc dừng"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "độ ẩn giấu của xe đứng yên, sau 3 giây tính từ lúc dừng (mức độ hiệu quả phụ thuộc vào loại xe)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "độ ẩn giấu của xe đứng yên, sau 1.5 giây từ lúc dừng (mức hiệu quả tùy loại xe)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "tầm nhìn của xe đứng yên, sau 3 giây tính từ lúc dừng (lên đến 445 m). Tăng thông số vượt qua giá trị 445 m cho phép phát hiện địch hiệu quả hơn."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "tầm nhìn của xe đứng yên, sau 1.5 giây từ lúc dừng (tối đa 445 m). Tăng thông số lý thuyết vượt 445 m cho phép phát hiện địch hiệu quả hơn."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "sức kháng cự của xe (làm tròn lên)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "tốc độ xoay tháp pháo hoặc tốc độ quay súng cho xe với cabin cố định"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "độ trễ trước khi \"Nhạy âm\"\nkích hoạt"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "cho độ trễ trước khi xuất hiện thông báo bị phát hiện"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "tốc độ nguội súng"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "khả năng bảo vệ kíp lái khỏi chấn thương"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "cho khoản tăng hiệu suất kíp lái"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "thời gian choáng thêm"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "thời gian choáng"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "cho sát thương và độ xuyên giáp\nlý thuyết nhỏ nhất"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "cho sát thương và độ xuyên giáp\nlý thuyết lớn nhất"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "thiệt hại gây ra được khi đâm/húc"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "độ trễ trước khi thiệt hại nghiêm trọng\ntrên xe trong tâm ngắm được hiển thị"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "độ ẩn giấu của xe địch sau tán lá"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "độ ẩn giấu của xe địch đang di chuyển"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "cho xác suất sát thương thành viên kíp lái\nvà mô-đun xe địch"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "cho thời gian hồi phục vật phẩm"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "cho tốc độ chữa cháy"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "cho độ ẩn giấu khi nấp sau thực vật"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "HP hồi bởi Bộ Sửa chữa"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "cho khả năng duy trì tốc độ\ntrên địa hình tương đối yếu"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "cho hiệu ứng tiêu cực lên tầm nhìn khi thiết bị\nquan sát bị hỏng"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "độ xuyên lý thuyết tối đa"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "cho thời gian truyền tin\nvề vị trí địch\nsau khi bị phá hủy"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "cho khả năng bảo vệ Liên lạc viên\nkhỏi chấn thương"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "cho tốc độ đạn bay"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "cho khả năng duy trì tốc độ\ntrên địa hình yếu"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "hiệu ứng tiêu cực\ndo kíp lái bị choáng"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "thiệt hại vào hệ giảm xóc"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "tốc độ sửa hệ giảm xóc"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "cho hiệu ứng tiêu cực lên tốc độ nạp đạn"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "cho hiệu ứng tiêu cực từ động cơ hư hại"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "tốc độ xoay thân"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "độ bền mô-đun trong"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "độ bền của gác đạn"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "tốc độ lùi tối đa"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "độ ẩn giấu"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "độ gia tăng khả năng ẩn giấu"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "thiệt hại do va chạm"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "tốc độ sửa chữa hệ thống giảm xóc"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "độ bền của hệ thống giảm xóc"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "tầm nhìn"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "cho thời gian xe địch\nlộ diện đối với bạn"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "công suất động cơ"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "thiệt hại do va chạm"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "xác suất cháy động cơ"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "tốc độ tiến tối đa"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "cho xác suất thiệt hại nghiêm trọng\nđối với thùng nhiên liệu"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "tốc độ ngắm"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "thời gian nạp đạn"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "độ phân tán khi xe đang xoay và di chuyển"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "kích thước của vòng ngắm sau khi bắn"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "độ phân tán khi di chuyển"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "độ phân tán khi xoay thân"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "độ phân tán khi quay súng"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "độ phân tán của súng bị hư hại"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "kích thước của tâm ngắm"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "cho sát thương đạn HE"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "độ ẩn giấu sau khi bắn"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "thời gian xe bạn bị lộ hình"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "cho thiệt hại hứng chịu khi đâm/húc\nđối với hệ thống giảm xóc"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "thiệt hại phải hứng chịu khi đâm/húc"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "cho tốc độ đổi loại đạn\nkhi súng đã lên nòng"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "tốc độ sửa chữa"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "khả năng duy trì tốc độ khi vượt mọi loại địa hình"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "độ ẩn giấu của xe đứng yên"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "độ ẩn giấu của xe đứng yên"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "độ gia tăng khả năng ẩn giấu của xe đứng yên"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "độ gia tăng khả năng ẩn giấu của xe đứng yên"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "tầm nhìn của xe đứng yên"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "tầm nhìn của xe đứng yên"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "sức kháng cự của xe"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "tốc độ xoay tháp pháo hoặc tốc độ quay súng cho xe với cabin cố định"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "tốc độ xoay tháp pháo"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "cho tốc độ quay bánh lốp"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "cho tác động tiêu cực khi một thành viên kíp lái\nbị thương, trừ Chỉ huy"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "độ trễ trước khi \"Nhạy âm\"\nkích hoạt"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "độ trễ trước khi thiệt hại nghiêm trọng\ntrên xe trong tâm ngắm được hiển thị"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "thời gian phát hiện địch\nsau khi bị phá hủy"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "cho sát thương đạn HE"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "cho độ xuyên đạn HE"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "cho vận tốc đạn HE"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "cho cơ số đạn"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "cho sát thương của mọi loại đạn"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "cho tốc độ bay với mọi loại đạn"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "độ trễ trước khi \"Nhạy âm\"\nkích hoạt"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "sát thương đạn thường"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "cho độ trễ trước khi xuất hiện thông báo bị phát hiện"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "tốc độ nguội súng"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "khả năng bảo vệ kíp lái khỏi chấn thương"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "cho khoản tăng hiệu suất kíp lái"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "thời gian choáng thêm"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "thời gian choáng"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "cho sát thương và độ xuyên giáp lý thuyết nhỏ nhất"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "cho sát thương và độ xuyên giáp\nlý thuyết lớn nhất"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "thiệt hại gây ra được khi đâm/húc"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "độ trễ trước khi thiệt hại nghiêm trọng\ntrên xe trong tâm ngắm được hiển thị"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "độ ẩn giấu của xe địch sau tán lá"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "độ ẩn giấu của xe địch đang di chuyển"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "cho xác suất sát thương thành viên kíp lái\nvà mô-đun xe địch"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "cho HP động cơ"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "cho thời gian hồi phục vật phẩm"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "cho tốc độ chữa cháy"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "cho độ ẩn giấu khi nấp sau thực vật"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "cho HP thùng nhiên liệu"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "cho độ hạ nòng của súng"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "cho độ nâng nòng của súng"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "cho cho độ ổn định của súng"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "cho giới hạn xoay súng"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "HP hồi bởi Bộ Sửa chữa"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "cho tốc độ nâng thân xe"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "cho khả năng duy trì tốc độ\ntrên địa hình tương đối yếu"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "cho sát thương đạn không phải HE"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "cho hiệu ứng tiêu cực lên tầm nhìn khi thiết bị\nquan sát bị hỏng"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "độ xuyên lý thuyết tối đa"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "cho thời gian truyền tin\nvề vị trí địch\nsau khi bị phá hủy"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "cho khả năng bảo vệ Liên lạc viên\nkhỏi chấn thương"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "cho thời gian giãn cách trong băng"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "cho thời gian tái nạp (cơ chế Bắn Song song)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "cho thời gian tái nạp (cơ chế Bắn Đơn)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "cho sát thương của đạn cho mô-đun địch"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "cho tốc độ đạn bay"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "cho khả năng duy trì tốc độ\ntrên địa hình yếu"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "sát thương đạn đặc biệt"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "cho độ xuyên đạn đặc biệt"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "cho tốc độ bay của đạn đặc biệt"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "sát thương đạn thường"
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "cho độ xuyên đạn thường"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "cho tốc độ bay của đạn thường"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "hiệu ứng tiêu cực do kíp lái bị choáng"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "thiệt hại vào hệ giảm xóc"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "tốc độ sửa hệ giảm xóc"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "cho giới hạn xoay tháp pháo"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "cho hiệu ứng tiêu cực lên tốc độ nạp đạn"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "cho hiệu ứng tiêu cực từ động cơ hư hại"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "tốc độ xoay thân"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "độ bền mô-đun trong"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "độ bền của gác đạn"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "tốc độ lùi tối đa"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "độ ẩn giấu"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "độ gia tăng khả năng ẩn giấu"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "thiệt hại lúc va chạm"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "tốc độ sửa chữa hệ thống giảm xóc"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "độ bền của hệ thống giảm xóc"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "tầm nhìn (lên đến 445 m)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "cho thời gian xe địch\nlộ diện đối với bạn"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "công suất động cơ"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "thiệt hại do va chạm"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "xác suất cháy động cơ"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "tốc độ tiến tối đa"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "cho xác suất thiệt hại nghiêm trọng\nđối với thùng nhiên liệu"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "tốc độ ngắm"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "thời gian nạp đạn"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "độ phân tán khi xe đang xoay và di chuyển"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "kích thước của vòng ngắm sau khi bắn"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "độ phân tán khi di chuyển"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "độ phân tán khi xoay thân"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "độ phân tán khi quay súng"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "độ phân tán của súng bị hư hại"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "kích thước của vòng ngắm"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "cho sát thương đạn HE"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "độ ẩn giấu sau khi bắn"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "thời gian xe của bạn bị lộ hình"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "cho thiệt hại hứng chịu khi đâm/húc\nđối với hệ thống giảm xóc"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "thiệt hại phải hứng chịu khi đâm/húc"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "cho tốc độ đổi loại đạn\nkhi súng đã lên nòng"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "tốc độ sửa chữa"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "cho tốc độ tiến/lùi tối đa"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "khả năng duy trì tốc độ khi vượt mọi loại địa hình"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "độ ẩn giấu của xe đứng yên"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "độ ẩn giấu của xe đứng yên"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "độ gia tăng khả năng ẩn giấu của xe đứng yên"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "độ gia tăng khả năng ẩn giấu của xe đứng yên"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "tầm nhìn của xe đứng yên (lên đến 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "tầm nhìn của xe đứng yên (lên đến 445 m)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "sức kháng cự của xe"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "tốc độ xoay tháp pháo hoặc tốc độ quay súng cho xe với cabin cố định"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "tốc độ xoay tháp pháo"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "cho tốc độ quay bánh lốp"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "cho tác động tiêu cực khi một thành viên kíp lái bị thương,\ntrừ Chỉ huy"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "cho độ trễ trước khi xuất hiện thông báo bị phát hiện"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "khả năng bảo vệ kíp lái\nkhỏi chấn thương"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "cho khoản tăng hiệu suất kíp lái"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "thời gian choáng thêm"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "thời gian choáng"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "thiệt hại gây ra được khi đâm/húc"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "độ trễ trước khi thiệt hại nghiêm trọng\ntrên xe trong tâm ngắm được hiển thị"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "độ ẩn giấu của xe địch\nsau cành lá"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "độ ẩn giấu của xe địch\nđang di chuyển"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "HP hồi bởi Bộ Sửa chữa"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "thời gian nạp băng đạn"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "độ xuyên lý thuyết tối đa"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "cho khả năng bảo vệ Liên lạc viên khỏi chấn thương"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "cho tốc độ bay với mọi loại đạn"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "cho độ phân tán của súng"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "tốc độ sửa hệ giảm xóc"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "cho độ phân tán khi quay súng"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "cho hiệu ứng tiêu cực lên tốc độ nạp đạn"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "khoản trừ cho công suất động cơ\nkhi chịu thiệt hại"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "tốc độ xoay của xe"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "cho độ bền mô-đun trong"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "độ bền của gác đạn"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "tốc độ lùi tối đa"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "độ ẩn giấu"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "thiệt hại do va chạm"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "tốc độ sửa chữa hệ thống giảm xóc"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "độ bền của hệ thống giảm xóc"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "tầm nhìn"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "cho thời gian xe địch\nlộ diện đối với bạn"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "công suất động cơ"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "thiệt hại do va chạm"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "xác suất cháy động cơ"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "tốc độ tiến tối đa"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "tốc độ ngắm"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "thời gian nạp đạn"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "độ phân tán khi xe đang xoay và di chuyển"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "kích thước của vòng ngắm\nsau khi bắn"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "độ phân tán khi di chuyển"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "độ phân tán khi xoay thân"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "độ phân tán khi \nquay súng "
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "độ phân tán của súng bị hư hại"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "kích thước của tâm ngắm"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "cho sát thương đạn HE"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "độ ẩn giấu sau khi bắn"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "thời gian xe bạn bị lộ hình"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "thiệt hại phải hứng chịu khi đâm/húc"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "cho tốc độ đổi loại đạn"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "tốc độ sửa chữa"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "khả năng duy trì tốc độ"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "độ ẩn giấu của xe\nđứng yên"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "độ ẩn giấu của xe\nđứng yên"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "tầm nhìn"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "tầm nhìn"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "sức kháng cự của xe"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "tốc độ quay súng"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "tốc độ xoay tháp pháo"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "cho tác động tiêu cực khi một thành viên kíp lái bị thương,\ntrừ Chỉ huy"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "cho độ trễ trước khi xuất hiện thông báo bị phát hiện"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "khả năng bảo vệ kíp lái\nkhỏi chấn thương"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "cho khoản tăng hiệu suất kíp lái"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "cho khoản tăng hiệu suất kíp lái"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "thời gian choáng thêm"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "thời gian choáng"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "cho sát thương và độ xuyên giáp\nlý thuyết nhỏ nhất"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "thiệt hại gây ra được khi đâm/húc"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "độ ẩn giấu của xe địch\nsau cành lá"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "độ ẩn giấu của xe địch\nđang di chuyển"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "cho xác suất sát thương thành viên kíp lái và\nmô-đun xe địch"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "cho tốc độ chữa cháy"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "HP hồi bởi Bộ Sửa chữa"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "thời gian nạp băng đạn"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "cho độ ẩn giấu của xe"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "cho khả năng duy trì tốc độ\ntrên địa hình tương đối yếu"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "độ xuyên lý thuyết tối đa"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "cho tầm tín hiệu vô tuyến"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "cho khả năng bảo vệ Liên lạc viên khỏi chấn thương"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "cho tốc độ bay với mọi loại đạn"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "cho khả năng duy trì tốc độ\ntrên địa hình yếu"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "tốc độ sửa hệ giảm xóc"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "cho tầm tín hiệu giao tiếp đồng đội nội trong phạm vi mà radio của xe bao phủ"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "cho hiệu ứng tiêu cực lên tốc độ nạp đạn"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "tác động tiêu cực lên công suất động cơ\nkhi bị hư hại"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "tốc độ xoay của xe"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "cho độ bền mô-đun trong"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "độ bền của gác đạn"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "tốc độ lùi tối đa"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "độ ẩn giấu"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "thiệt hại lúc va chạm"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "tốc độ sửa chữa hệ thống giảm xóc"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "độ bền của hệ thống giảm xóc"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "tầm nhìn\n(lên đến 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "cho thời gian xe địch\nlộ diện đối với bạn"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "công suất động cơ"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "thiệt hại do va chạm"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "xác suất cháy động cơ"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "tốc độ tiến tối đa"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "tốc độ ngắm"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "thời gian nạp đạn"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "độ phân tán khi xe đang xoay\nvà di chuyển"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "kích thước của vòng ngắm\nsau khi bắn"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "độ phân tán khi di chuyển"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "độ phân tán khi xoay thân"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "độ phân tán khi \nquay súng"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "độ phân tán của súng bị hư hại"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "kích thước của vòng ngắm"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "cho sát thương đạn HE"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "độ ẩn giấu sau khi bắn"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "thời gian xe của bạn bị lộ hình"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "thiệt hại phải hứng chịu khi đâm/húc"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "cho tốc độ đổi loại đạn"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "tốc độ sửa chữa"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "khả năng duy trì tốc độ"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "độ ẩn giấu của xe đứng yên"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "độ ẩn giấu của xe đứng yên"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "tầm nhìn của xe đứng yên\n(lên đến 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "tầm nhìn của xe đứng yên\n(lên đến 445 m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "sức kháng cự của xe"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "tốc độ quay súng"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "tốc độ xoay tháp pháo"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "cho XP Kíp lái kiếm được trong trận"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "s"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "s"
+
+msgid "popularLoadouts/common"
+msgstr "Phổ biến"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "Thường Dùng"
+
+msgid "popularLoadouts/legendary"
+msgstr "Huyền thoại"
+
+msgid "popularLoadouts/noData"
+msgstr "Không có dữ liệu"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "Không có dữ liệu"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sPhổ biến.%(whiteSpanish_Close)s Dựa theo xu hướng thiết bị hiện hành của tất cả người chơi World of Tanks"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "Thu thập dữ liệu"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "Nếu dữ liệu mùa Cường kích hiện tại chưa khả dụng, thông số từ mùa trước sẽ được dùng"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "Trợ lý khả dụng cho %(whiteSpanish_Open)sTrận đấu Ngẫu nhiên%(whiteSpanish_Close)s và %(whiteSpanish_Open)sCường kích%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "Dữ liệu được tổng hợp từ tất cả các loại thiết bị"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "Lợi ích WoT Plus"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "Nhận dữ liệu chính xác về thiết bị dựa trên hàng triệu trận đánh và có lợi thế trước mọi cuộc đụng độ."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "Trợ lý Thiết bị"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sHuyền thoại.%(whiteSpanish_Close)s Dựa theo thiết bị hiện được người chơi có chỉ số WTR mức Legend ưa dùng"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "Loại thiết đặt"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "Thiết đặt được đề xuất dựa trên Loadout phổ biến cho các xe có lối chơi tương tự"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "Dữ liệu được hiển thị cho xe dưới đây có lối chơi tương tự:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "Dữ liệu thiết đặt không khả dụng"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "Xe đã chọn không khả dụng cho chế độ game này"
+
+msgid "section/battleAbilities"
+msgstr "DỰ BỊ CHIẾN ĐẤU"
+
+msgid "section/battleBoosters"
+msgstr "ỨNG DỤNG KỸ THUẬT"
+
+msgid "section/consumables"
+msgstr "VẬT PHẨM"
+
+msgid "section/modules"
+msgstr "MÔ-ĐUN"
+
+msgid "section/optDevices"
+msgstr "THIẾT BỊ"
+
+msgid "section/shells"
+msgstr "ĐẠN DƯỢC"
+
+msgid "section/toggleCamouflage"
+msgstr "NGỤY TRANG"
+
+msgid "section/toggleShells"
+msgstr "ĐẠN DƯỢC"
+
+msgid "shells/ammunitionFull"
+msgstr "Đạn đầy đủ"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "Không đủ đạn"
+
+msgid "shells/autoFillOff"
+msgstr "Đã tắt tiếp tế tự động"
+
+msgid "shells/autofillOn"
+msgstr "Đã bật tiếp tế tự động"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "Trong Kho:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "Trong Gác Đạn:"
+
+msgid "shells/shortSpecification/price"
+msgstr "Mua:"
+
+msgid "shells/specification/inStorage"
+msgstr "Trong Kho"
+
+msgid "shells/specification/inVehicle"
+msgstr "Trong Gác Đạn"
+
+msgid "shells/specification/price"
+msgstr "Mua"
+
+msgid "shells/title"
+msgstr "Đạn"
+
+msgid "shells/type/base"
+msgstr "TIÊU CHUẨN (AP)"
+
+msgid "shells/type/special"
+msgstr "ĐẶC BIỆT (HE)"
+
+msgid "shells/type/tactical"
+msgstr "CHIẾN THUẬT (APCR)"
+
+msgid "tabs/crew"
+msgstr "Cho kíp lái"
+
+msgid "tabs/deluxe"
+msgstr "Tiên tiến"
+
+msgid "tabs/modernized"
+msgstr "Thử nghiệm"
+
+msgid "tabs/optDevice"
+msgstr "Cho thiết bị"
+
+msgid "tabs/simple"
+msgstr "Tiêu chuẩn"
+
+msgid "tabs/trophy"
+msgstr "Bao cấp"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "Ứng dụng kỹ thuật sẽ tự động tái tiếp tế sau khi xe rời khỏi trận đánh. Nó được lấy từ Kho (nếu có) hoặc mua bằng tiền tệ trong game."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "Vật phẩm sẽ tự động tái tiếp tế, nếu cần, sau khi xe rời khỏi trận đánh."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "Sửa chữa sẽ tự động tiến hành, nếu cần, sau khi xe rời khỏi trận đánh."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "Đạn dược sẽ tự động tái tiếp tế, nếu cần, sau khi xe rời khỏi trận đánh."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "Tiếp tế tự động"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "Sửa chữa tự động"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "Sẽ được tháo rời từ Kho: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "Sẽ được tháo rời từ các xe: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "Click để mua thêm cho ô này."
+
+msgid "tooltips/action/description/demount"
+msgstr "Click để gỡ thiết bị khỏi ô này."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "Click để gỡ thiết bị khỏi ô này."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "Click để gỡ thiết bị khỏi mọi cấu hình."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "Click để gỡ thiết bị khỏi ô này một cách miễn phí nhờ thuê bao WoT Plus đang có hiệu lực của bạn."
+
+msgid "tooltips/action/description/destroy"
+msgstr "Click để phá hủy thiết bị trong ô này, hoặc gỡ miễn phí nếu bạn sở hữu thuê bao WoT Plus đang có hiệu lực."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "Click để tháo rời thiết bị lấy thành phần."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "Click để phá hủy thiết bị trong ô này."
+
+msgid "tooltips/action/description/swap"
+msgstr "Click để tráo đổi những thứ giữa các ô."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "Nâng cấp thiết bị để cải tiến đặc tính của nó."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "Nâng cấp thiết bị để cải tiến đặc tính của nó."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "Nâng cấp thiết bị để cải tiến đặc tính của nó."
+
+msgid "tooltips/action/title/add_one"
+msgstr "Mua"
+
+msgid "tooltips/action/title/cancel"
+msgstr "Gỡ và Đưa về Kho"
+
+msgid "tooltips/action/title/demount"
+msgstr "Gỡ ra"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "Gỡ ra"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "Gỡ Khỏi Mọi Cấu Hình"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "Gỡ miễn phí"
+
+msgid "tooltips/action/title/destroy"
+msgstr "Tiêu diệt"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "Tháo rời"
+
+msgid "tooltips/action/title/swap"
+msgstr "Thay đổi thứ tự"
+
+msgid "tooltips/action/title/undo"
+msgstr "Bỏ khỏi ô"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "Nâng cấp"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "Nâng cấp"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "Nâng cấp"
+
+msgid "tooltips/additional"
+msgstr "Thông tin bổ sung."
+
+msgid "tooltips/categories/list"
+msgstr "Click để xem danh sách mô-đun."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "Danh mục này có thể được tái định ở menu Biến thể Dã chiến hoặc tại màn hình chọn thiết bị."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "Tái định Danh mục"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "Click để tái định danh mục ô."
+
+msgid "tooltips/equipmentList"
+msgstr "Click để xem danh sách thiết bị khả dụng."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "Không thể tháo rời Thiết bị Thử nghiệm lấy thành phần: Bạn không có thiết bị nào thuộc loại này."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "Click để tiến hành tháo rời thiết bị lấy thành phần."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "Khi gắn, thiết bị này sẽ cung cấp khoản tăng cơ bản vì nó không được lắp vào ô thuộc chủng loại Hỏa lực và chỉ Pháo Chống tăng/Pháo Tự hành sở hữu ô tương ứng."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "Xe của bạn nhận được khoản tăng thêm cho đặc tính."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "Để nâng khoản tăng cho đặc tính, lắp thiết bị này vào ô thuộc một trong những chủng loại sau: %(category)s."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "Để nâng khoản tăng cho đặc tính, lắp thiết bị này vào ô thuộc chủng loại sau: %(category)s."
+
+msgid "tooltips/placeEquipment"
+msgstr "Ô thiết bị"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "Bạn có thể bật/tắt tùy chọn chuyển đổi giữa các bộ vật phẩm và đạn trong lúc chờ đếm ngược trước trận ở giao diện Biến thể Dã chiến."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "Bạn có thể bật/tắt tùy chọn chuyển đổi giữa các bộ thiết bị và ứng dụng kỹ thuật trong lúc chờ đếm ngược trước trận ở giao diện Biến thể Dã chiến."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "Bạn có thể bật/tắt tùy chọn chuyển đổi giữa các bộ vật phẩm và đạn trong lúc chờ đếm ngược trước trận ở giao diện Biến thể Dã chiến."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "Bạn có thể bật/tắt tùy chọn chuyển đổi giữa các bộ vật phẩm và đạn trong lúc chờ đếm ngược trước trận ở giao diện Nâng cấp."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "Bạn có thể bật/tắt tùy chọn chuyển đổi giữa các bộ thiết bị và ứng dụng kỹ thuật trong lúc chờ đếm ngược trước trận ở giao diện Biến thể Dã chiến."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "Bạn có thể bật/tắt tùy chọn chuyển đổi giữa các bộ thiết bị và ứng dụng kỹ thuật trong lúc chờ đếm ngược trước trận ở giao diện Nâng cấp."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "Chuyển đổi Giữa các Bộ đã bị Tắt"
+
+msgid "tooltips/separator/last"
+msgstr " và "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "Thiết bị tiêu chuẩn thuộc chủng loại %(spec)s sẽ hoạt động hiệu quả hơn nếu được lắp vào ô này. Thiết bị khác chủng loại sẽ chỉ cung cấp khoảng tăng cơ bản."
+
+msgid "tooltips/specializationName"
+msgstr "Chủng loại:"
+
+msgid "tooltips/specializationType"
+msgstr "Hỏa lực"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "Một loại thiết bị giá trị, có đặc tính tốt hơn những loại khác."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "Thiết bị đặc biệt có ba Mức Nâng cấp."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "Thiết bị giúp cải thiện đặc tính xe của bạn."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "Một loại thiết bị với đặc tính tương tự thiết bị tiêu chuẩn nhưng có thể được nâng cấp."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "Thiết bị Tiên tiến"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "Thiết bị Thử nghiệm"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "Thiết bị Tiêu chuẩn"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "Thiết bị bao cấp"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "Loại thiết bị này khả dụng theo %(whiteSpanish_Open)strái phiếu%(whiteSpanish_Close)s. Nó cũng có thể được thưởng cho các thành tích game cụ thể và từ sự kiện đặc biệt."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "Loại thiết bị này là phần thưởng từ các sự kiện game nhất định."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "Loại thiết bị này có thể mua được bằng tiền tệ trong game. Nó cũng có thể là phần thưởng cho các thành tích game cụ thể và từ sự kiện đặc biệt. Đặc tính của thiết bị tiêu chuẩn sẽ cao hơn khi đặt vào ô thích hợp."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "Loại thiết bị này là phần thưởng từ các sự kiện game nhất định."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "Cách Sở hữu"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "Cách Sở hữu"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "Ô thiết bị"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "Thiết bị Bao cấp không thể mua được"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "Bạn có thể nâng cấp đặc tính của Thiết bị Thử nghiệm bằng cách dùng %(whiteSpanish_Open)sthành phần%(whiteSpanish_Close)s, vốn nhận được từ việc tháo rời chính loại thiết bị này."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "Bạn có thể nâng cấp đặc tính của Thiết bị Bao cấp bằng cách dùng tiền tệ trong game."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "Nâng cấp Thiết bị Thử nghiệm"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "Cải tiến Thiết bị Bao cấp"

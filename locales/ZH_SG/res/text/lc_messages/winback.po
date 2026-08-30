@@ -1,0 +1,305 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dailyQuestsIntroView/buttons/close"
+msgstr "关闭"
+
+msgid "dailyQuestsIntroView/buttons/confirm"
+msgstr "收到！"
+
+msgid "dailyQuestsIntroView/info/mode/description"
+msgstr "热身模式将带您重温游戏的基础知识。您将与AI战车展开对抗，战斗结果不计入统计。您可以随时退出热身模式并进入随机战。"
+
+msgid "dailyQuestsIntroView/info/mode/title"
+msgstr "热身"
+
+msgid "dailyQuestsIntroView/info/quests/description"
+msgstr "完成任务和“再战沙场”的进度阶段，即可获取珍贵的游戏内奖励。每完成一个普通、高级或红利任务都会推进进度，让您离奖励更近一步。任务可在热身模式和随机战中完成。"
+
+msgid "dailyQuestsIntroView/info/quests/descriptionBP"
+msgstr "完成任务和“再战沙场”的进度阶段，即可获取珍贵奖励。战令期间，奖励还会包含战令点数。任务可在热身模式和随机战中完成。"
+
+msgid "dailyQuestsIntroView/info/quests/title"
+msgstr "再战沙场"
+
+msgid "dailyQuestsIntroView/info/rewards/description"
+msgstr "您可以获得的奖励包括VIII级高级战车的租用、VI级可研发战车，以及战车的研发和购买折扣。完成进度后，您将获得主要奖励。"
+
+msgid "dailyQuestsIntroView/info/rewards/title"
+msgstr "奖励"
+
+msgid "dailyQuestsIntroView/title"
+msgstr "再战沙场"
+
+msgid "mainRewardTooltip/description"
+msgstr "完成再战沙场进度后，您将获得："
+
+msgid "mainRewardTooltip/title"
+msgstr "主要奖励"
+
+msgid "mainRewardTooltip/vehicleRewardLabel"
+msgstr "%(level)s级战车的研发和购买折扣"
+
+msgid "modeInfoTooltip/description"
+msgstr "与AI战车的对战不会计入统计数据。获胜条件为占领敌方基地，或击毁所有敌方战车。VI–XI级战车的战斗采用15v15形式，I–V级战车的战斗采用10v10形式。"
+
+msgid "modeInfoTooltip/maps"
+msgstr "拉斯威利、曼纳海姆防线、马利诺夫卡、小镇争夺战、湖边的角逐、鲁别克、安斯克。"
+
+msgid "modeInfoTooltip/subtitle"
+msgstr "可用地图："
+
+msgid "modeInfoTooltip/title"
+msgstr "热身"
+
+msgid "selectableRewardTooltip/basic/description"
+msgstr "可选择任意可研发%(level)s级战车。战车的模块均已研发，且附带乘员和车位。"
+
+msgid "selectableRewardTooltip/basic/title"
+msgstr "%(level)s级战车"
+
+msgid "selectableRewardTooltip/discount/description"
+msgstr "%(level)s级战车的%(researchDiscount)s研发折扣和%(purchaseDiscount)s购买折扣。可选择任意可研发战车。"
+
+msgid "selectableRewardTooltip/discount/footer"
+msgstr "{whiteSpanish_Open}研发{whiteSpanish_Close}折扣能与战车蓝图碎片折扣叠加。{whiteSpanish_Open}购买{whiteSpanish_Close}折扣则仅能应用最大值。"
+
+msgid "selectableRewardTooltip/discount/title"
+msgstr "%(level)s级战车的折扣"
+
+msgid "vehicleDiscountRewardTooltip/description"
+msgstr "%(research)s折扣能与战车蓝图碎片折扣叠加。%(purchase)s折扣则仅能应用最大值。"
+
+msgid "vehicleDiscountRewardTooltip/description/purchase"
+msgstr "购买"
+
+msgid "vehicleDiscountRewardTooltip/description/research"
+msgstr "研发"
+
+msgid "winbackBattleQueue/footer/text"
+msgstr "您可以在随机战设置菜单中退出热身模式。"
+
+msgid "winbackBattleQueue/subTitle/battleRemaining"
+msgstr "剩余战斗：%(battlesCount)s"
+
+msgid "winbackBattleQueue/subTitle/text"
+msgstr "与AI战车的对战不会计入统计数据。"
+
+msgid "winbackBattleQueue/title"
+msgstr "随机战：热身"
+
+msgid "winbackLeaveModeDialogView/alert"
+msgstr "退出热身模式后，无法重新开始。"
+
+msgid "winbackLeaveModeDialogView/buttons/cancel"
+msgstr "取消"
+
+msgid "winbackLeaveModeDialogView/buttons/close"
+msgstr "关闭"
+
+msgid "winbackLeaveModeDialogView/buttons/confirm"
+msgstr "退出"
+
+msgid "winbackLeaveModeDialogView/title"
+msgstr "确定退出热身模式吗？"
+
+msgid "winbackPopover/battlesCount"
+msgstr "剩余战斗：%(battlesCount)s"
+
+msgid "winbackPopover/description"
+msgstr "与AI战车的对战不会计入统计数据。"
+
+msgid "winbackPopover/title"
+msgstr "热身"
+
+msgid "winbackPopover/turnOff"
+msgstr "退出"
+
+msgid "winbackRewardView/buttons/close"
+msgstr "关闭"
+
+msgid "winbackRewardView/buttons/confirm"
+msgstr "收到！"
+
+msgid "winbackRewardView/buttons/selectReward"
+msgstr "选择奖励"
+
+msgid "winbackRewardView/buttons/showQuests"
+msgstr "到任务"
+
+msgid "winbackRewardView/buttons/showVehicle"
+msgstr "在车库中查看"
+
+msgid "winbackRewardView/premiumPlus"
+msgstr "《坦克世界》高级账号"
+
+msgid "winbackRewardView/secondRowTitle"
+msgstr "您还获得了："
+
+msgid "winbackRewardView/selectableReward/discount"
+msgstr "%(level)s级战车的%(expDiscount)s研发折扣\n和%(priceDiscount)s购买折扣"
+
+msgid "winbackRewardView/selectableReward/expDiscount"
+msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+
+msgid "winbackRewardView/selectableReward/gift"
+msgstr "%(level)s级战车"
+
+msgid "winbackRewardView/selectableReward/priceDiscount"
+msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+
+msgid "winbackRewardView/selectableReward/reserveDiscount"
+msgstr "%(level)s级战车的折扣"
+
+msgid "winbackRewardView/subtitle/regularProgressionCompleted"
+msgstr "完成一系列每日任务"
+
+msgid "winbackRewardView/subtitle/winback"
+msgstr "再战沙场"
+
+msgid "winbackRewardView/title/progressionStep"
+msgstr "任务奖励"
+
+msgid "winbackRewardView/title/regularProgressionCompleted"
+msgstr "已获得史诗奖励！"
+
+msgid "winbackRewardView/title/selectedRewards"
+msgstr "已获得奖励"
+
+msgid "winbackRewardView/title/welcome"
+msgstr "车长，欢迎回来！"
+
+msgid "winbackRewardView/title/winbackProgressionCompleted"
+msgstr "已完成进度"
+
+msgid "winbackRewardView/vehicleReward/discount"
+msgstr "%(expDiscount)s研发折扣\n和%(priceDiscount)s购买折扣"
+
+msgid "winbackRewardView/vehicleReward/expDiscount"
+msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+
+msgid "winbackRewardView/vehicleReward/inHangar"
+msgstr "在车库中"
+
+msgid "winbackRewardView/vehicleReward/priceDiscount"
+msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+
+msgid "winbackRewardView/vehicleReward/rent"
+msgstr "租用天数：%(days)s"
+
+msgid "winbackRewardView/vehicleReward/reserveDiscount"
+msgstr "研发和购买折扣"
+
+msgid "winbackSelectableRewardView/bluePrintReward/value"
+msgstr "x%(value)s"
+
+msgid "winbackSelectableRewardView/buttons/cancel"
+msgstr "稍后选择"
+
+msgid "winbackSelectableRewardView/buttons/close"
+msgstr "关闭"
+
+msgid "winbackSelectableRewardView/buttons/confirm"
+msgstr "领取"
+
+msgid "winbackSelectableRewardView/buttons/reset"
+msgstr "重置过滤器"
+
+msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
+msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+
+msgid "winbackSelectableRewardView/category/title"
+msgstr "战车折扣"
+
+msgid "winbackSelectableRewardView/category/titleDiscount"
+msgstr "%(vehicleLevel)s级战车"
+
+msgid "winbackSelectableRewardView/error/button"
+msgstr "收到！"
+
+msgid "winbackSelectableRewardView/error/description"
+msgstr "信息暂时不可用。我们对造成的不便深表歉意。请稍后重试。"
+
+msgid "winbackSelectableRewardView/error/title"
+msgstr "无法开启奖励选择"
+
+msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
+msgstr "您已研发所有%(vehicleLevel)s级战车。您现在可以获得国家蓝图碎片作为奖励。"
+
+msgid "winbackSelectableRewardView/filter/placeholder"
+msgstr "按名称搜索"
+
+msgid "winbackSelectableRewardView/filter/searchResult"
+msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+
+msgid "winbackSelectableRewardView/filter/shown"
+msgstr "已显示："
+
+msgid "winbackSelectableRewardView/filter/tooltip/body"
+msgstr "点击重置过滤器。"
+
+msgid "winbackSelectableRewardView/filter/tooltip/header"
+msgstr "恢复默认"
+
+msgid "winbackSelectableRewardView/footer/actionText/active"
+msgstr "已选择奖励：%(amountRewards)s %(infoIcon)s"
+
+msgid "winbackSelectableRewardView/footer/actionText/disable"
+msgstr "从提供的类别中选择奖励"
+
+msgid "winbackSelectableRewardView/resetInf/text"
+msgstr "无匹配结果。请修改过滤条件或重置为默认条件。"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
+msgstr "{white_Open}x%(bluePrintsAmount)s国家蓝图碎片{white_Close}（%(countryName)s）"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
+msgstr "{white_Open}%(name)s{white_Close} (%(expDiscount)s%研发折扣和%(priceDiscount)s%购买折扣)"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
+msgstr "%(level)s级战车的折扣"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
+msgstr "{white_Open}%(name)s{white_Close}（模块均已研发，附带乘员和车位）"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
+msgstr "%(level)s级战车"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
+msgstr "点击“领取”按钮以获得已选奖励。"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
+msgstr "已选择奖励：%(amountRewards)s"
+
+msgid "winbackSelectableRewardView/tabs/buy"
+msgstr "购买"
+
+msgid "winbackSelectableRewardView/tabs/exp"
+msgstr "研发"
+
+msgid "winbackSelectableRewardView/title/additionText"
+msgstr "再战沙场"
+
+msgid "winbackSelectableRewardView/title/text"
+msgstr "选择您的奖励"
+
+msgid "winbackSelectableRewardView/vehicleName"
+msgstr "{cream_Open}%(level)s{cream_Close}级%(type)s%(name)s"
+
+msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "winbackSelectableRewardView/vehicleType/SPG"
+msgstr "自行火炮"
+
+msgid "winbackSelectableRewardView/vehicleType/heavyTank"
+msgstr "重型坦克"
+
+msgid "winbackSelectableRewardView/vehicleType/lightTank"
+msgstr "轻型坦克"
+
+msgid "winbackSelectableRewardView/vehicleType/mediumTank"
+msgstr "中型坦克"
+
+msgid "winbackTab"
+msgstr "再战沙场"

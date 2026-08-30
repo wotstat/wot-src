@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "Quản lý Quân Dự bị"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "Click để chọn Quân Dự bị Chiến đấu khả dụng."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "Bom"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "Khu vực bắn"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "Bắn choáng"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "Triển khai"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "Số lượng mìn"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "Thời lượng bãi mìn"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "Bắn choáng"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "Bán kính sát thương"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "Thời gian"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "Đạn"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "TG chờ hồi phục"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "Triển khai"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "Thời gian"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "Số HP khôi phục được"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "Lượng HP ngay lập tức khôi phục khi kích hoạt"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "Thiệt hại giảm được khi trúng mìn"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "Khoản tăng tốc độ hồi phục HP nội trong Vòng tròn Tiếp tế"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "Hiệu suất Kíp lái"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "Thời gian"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "Thời gian ngoài khu vực ảnh hưởng"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "Bán kính Hiệu quả"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "Hiệu suất kíp lái trên xe của chính bạn"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "Tăng cường bảo vệ"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "Khoản tăng Chiếm"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "Khôi phục Vòng tròn Tiếp tế"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "Tốc độ tái tiếp tế đạn"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "Thời gian đến"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "Khu vực bắn"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750 m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "Thời gian phát hiện"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "Hiệu suất kíp lái đã bị giảm"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "Lựu đạn khói"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "Khu vực bắn"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "Thời gian"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "Giảm tầm nhìn của xe địch"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "Giảm độ ẩn giấu của xe địch sau tán lá"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "Giảm độ ẩn giấu của xe địch đang di chuyển"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "Thời gian"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "Khoản tăng độ ẩn giấu của xe đứng yên"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "Khoản tăng thụ động cho tầm nhìn"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "Cấp Quân Dự bị"
+
+msgid "abilityInfo/properties/static"
+msgstr "Đặc tính cố định"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "s"
+
+msgid "advance_message_txt"
+msgstr "Tiến đến Chiến tuyến"
+
+msgid "advance_mission_txt"
+msgstr "Tiến đến Chiến tuyến"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "CHI TIẾT KỊCH BẢN"
+
+msgid "awards/acceptButton"
+msgstr "Đã rõ!"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "ĐÃ NHẬN PHẦN THƯỞNG"
+
+msgid "awards/subTitle2"
+msgstr "ĐÃ NHẬN PHẦN THƯỞNG"
+
+msgid "awards/title"
+msgstr "CHIẾN TUYẾN"
+
+msgid "base/contested_atk"
+msgstr "Đã giao tranh"
+
+msgid "base/contested_def"
+msgstr "Đang bị Tấn công"
+
+msgid "battleResults/armor"
+msgstr "Sử dụng giáp"
+
+msgid "battleResults/assistance"
+msgstr "Hỗ trợ"
+
+msgid "battleResults/crits"
+msgstr "Sát thương Nghiêm trọng"
+
+msgid "battleResults/damage"
+msgstr "Sát thương"
+
+msgid "battleResults/kill"
+msgstr "Tiêu diệt"
+
+msgid "battleResults/spotting"
+msgstr "Phát hiện"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1 Trợ cấp Cá nhân: %(effectValue)s cho XP Kíp lái trong %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1 Trợ cấp Cá nhân: %(effectValue)s cho XP Tự do trong %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1 Trợ cấp Cá nhân: %(effectValue)s cho XP Chiến đấu trong %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Tấn công mục tiêu %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Phòng thủ mục tiêu %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Chú ý vị trí!"
+
+msgid "command_shortcut/title"
+msgstr "Lệnh"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "Mặt trận quá đông—Đã đạt đến giới hạn người chơi"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "Khu vực Nguy hiểm"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "Mặt trận quá đông—Đã đạt đến giới hạn loại xe"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "Mua %(type)s \"%(name)s\"?"
+
+msgid "dialogs/title/buy/items"
+msgstr "Mua %(type)s?"
+
+msgid "dialogs/title/install/item"
+msgstr "Bật %(type)s \"%(name)s\"?"
+
+msgid "dialogs/title/install/items"
+msgstr "Bật %(type)s?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "Tích lũy đủ số Điểm cần có để kích hoạt Quân Dự bị Chiến đấu Chiến tuyến."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "Tích lũy đủ số Điểm cần có để kích hoạt Quân Dự bị Chiến đấu Chiến tuyến."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "Điểm Quân Dự bị Chiến đấu"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "Xe %(level)s sẽ được mở khóa cho trận đánh sau khi chiếm/mất bất cứ điểm nào ở tuyến hai (D, E hoặc F)."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "Cấp %(lvl)s"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "Chọn một xe Cấp VIII cho chế độ Chiến tuyến."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "Xe không phù hợp"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "Sở hữu"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "Tối đa"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "Q.Dự bị Chiến đấu"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "Cấp Chỉ huy"
+
+msgid "epictraining/info/otherLabel"
+msgstr "Người chơi chưa được xếp: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "Phe công ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "Phe thủ ( %(lane1)s/%(lane2)s/%(lane3)s )"
+
+msgid "game/all_enemies_defeated"
+msgstr "Tất cả xe địch đã bị hạ"
+
+msgid "game/all_hqs_destroyed"
+msgstr "Tất cả mục tiêu đã bị diệt"
+
+msgid "game/all_tanks_defeated"
+msgstr "Tất cả xe phe ta đã bị hạ"
+
+msgid "game/defeat"
+msgstr "Thất bại!"
+
+msgid "game/draw"
+msgstr "Hòa!"
+
+msgid "game/time_over"
+msgstr "Mục tiêu đã sống sót"
+
+msgid "game/victory"
+msgstr "Thắng lợi!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "Tiêu diệt các mục tiêu!"
+
+msgid "global_msg/atk/time_short"
+msgstr "Chiếm đóng một khu vực!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "Phòng thủ các mục tiêu!"
+
+msgid "global_msg/def/time_short"
+msgstr "Phòng thủ các khu vực!"
+
+msgid "global_msg/lane/center_short"
+msgstr "Tăng viện %(strArg1)s!"
+
+msgid "global_msg/lane/east_short"
+msgstr "Tăng viện %(strArg1)s!"
+
+msgid "global_msg/lane/west_short"
+msgstr "Tăng viện %(strArg1)s!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "Giữ xe tăng!"
+
+msgid "help_window/communication"
+msgstr "Khu vực Liên lạc"
+
+msgid "help_window/communication/description"
+msgstr "Bạn chỉ có thể nhận được lệnh từ đồng đội nằm trong khu vực bản đồ con hiện tại, hoặc khi mục tiêu của lệnh đó nằm trong khu vực này."
+
+msgid "help_window/overview_map"
+msgstr "Bản đồ Tổng"
+
+msgid "help_window/overview_map/description"
+msgstr "Bản đồ tổng là góc nhìn chiến thuật và chiến lược của toàn bộ trận địa. Khi mở bản đồ tổng, toàn bộ phe sẽ có thể liên lạc và trao đổi thông tin với nhau."
+
+msgid "help_window/recovery"
+msgstr "Cứu hộ"
+
+msgid "help_window/recovery/description"
+msgstr "Cứu hộ là chức năng nên được sử dụng khi xe rơi vào tình huống không thể di chuyển hay mắc kẹt do địa hình. Cơ chế này rất hữu ích vì thời gian chiến đấu dài, cũng như khả năng tái xuất khiến người chơi phải có mặt ở các điểm nóng ngay lập tức."
+
+msgid "help_window/reserves"
+msgstr "Xe Dự bị"
+
+msgid "help_window/reserves/description"
+msgstr "Cứ sau vài phút, một xe tăng sẽ được thêm vào biên chế dự bị. Biên chế dự bị lưu trữ tối đa hai xe. Khi không còn xe nào, bạn sẽ không thể triển khai và phải đợi đến khi xe mới xuất hiện."
+
+msgid "hq/under_attack_atk"
+msgstr "Đang bị Tấn công"
+
+msgid "hq/under_attack_def"
+msgstr "Đang bị Tấn công"
+
+msgid "in_game_rank/experience_text"
+msgstr "XP"
+
+msgid "lane_central_name"
+msgstr "Trung tâm"
+
+msgid "lane_east_name"
+msgstr "Phía Đông"
+
+msgid "lane_west_name"
+msgstr "Phía Tây"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "Cấp %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "Không thể sở hữu: Bạn chưa có Điểm Quân Dự bị Chiến đấu nào."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "Quân Dự bị Chiến đấu đã đạt cấp cao nhất."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "Không thể nâng cấp: Bạn chưa có Điểm Quân Dự bị Chiến đấu nào."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "QDb Chiến đấu chưa được mua"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "Cấp Quân Dự bị Chiến đấu được tăng lên sau khi đạt bậc Đại úy và Thiếu tá trong trận. Mức cao nhất tùy thuộc vào kịch bản đánh."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "Giá mua: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "Mục tiêu Chính"
+
+msgid "mission/title"
+msgstr "Nhiệm vụ"
+
+msgid "mission/zone_closing_atk"
+msgstr "Mở khu vực sau: "
+
+msgid "mission/zone_closing_def"
+msgstr "Địch bắn phá sau: "
+
+msgid "missions/primary/atk/base"
+msgstr "Chiếm Khu vực"
+
+msgid "missions/primary/atk/hq"
+msgstr "Tiêu diệt Mục tiêu"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s trên %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "Mục tiêu đã diệt:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "Chiếm lĩnh các khu vực để tiếp cận mục tiêu chính. Tiêu diệt mục tiêu chính."
+
+msgid "missions/primary/def/base"
+msgstr "Phòng thủ Khu vực"
+
+msgid "missions/primary/def/hq"
+msgstr "Phòng thủ Mục tiêu"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s trên %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "Mục tiêu đã mất:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "Phòng thủ mục tiêu chính cho đến khi hết giờ hoặc bắn hạ tất cả phe tấn công."
+
+msgid "missions/unlockTankLevel"
+msgstr "Xe Cấp IX khả dụng"
+
+msgid "overtime/label"
+msgstr "BÙ GIỜ"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "Không thể kích hoạt hai QDB giống nhau"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "Không thể triển khai bãi mìn. Các bãi mìn vướng nhau."
+
+msgid "primeTime/applyBtn"
+msgstr "Tiếp tục"
+
+msgid "primeTime/cancelBtn"
+msgstr "Hủy bỏ"
+
+msgid "primeTime/continueBtn"
+msgstr "Tiếp tục"
+
+msgid "primeTime/endOfCycle"
+msgstr "Chế độ trên máy chủ %(server)s đã kết thúc."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "Máy chủ khả dụng:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "Máy chủ khả dụng: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "Chiến trận trên %(server)s sẽ khả dụng trong %(time)s nữa"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "Chiến trận tiếp theo trên %(server)s trong %(time)s"
+
+msgid "primeTime/serverTooltip"
+msgstr "Máy chủ %(server)s\nChiến trận sẽ khả dụng trong %(time)s nữa"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "Chiến trận sẽ khả dụng sau %(time)s"
+
+msgid "primeTime/servers"
+msgstr "Máy chủ khả dụng: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Chiến trận trên máy chủ %(server)s đã kết thúc"
+
+msgid "primeTime/status/disable"
+msgstr "Bạn có thể chuyển sang máy chủ Chiến tuyến để tiếp tục quá trình chuẩn bị trước trận."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "Chế độ không khả dụng trên máy chủ %(server)s"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ %(server)s cho đến %(startTime)s"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "Đình chiến đang có hiệu lực trên mọi máy chủ"
+
+msgid "primeTime/status/thisEnable"
+msgstr "Tại máy chủ %(server)s, Chiến tuyến sẽ khả dụng trong %(time)s nữa."
+
+msgid "primeTime/steelhunter/title"
+msgstr "SĂN THIẾT GIÁP"
+
+msgid "primeTime/title"
+msgstr "CHIẾN TUYẾN"
+
+msgid "primeTime/titleWelcome"
+msgstr "CHÀO MỪNG\nĐẾN CHIẾN TUYẾN"
+
+msgid "progress_timers/active"
+msgstr "Đã bắt đầu"
+
+msgid "progress_timers/fully_equipped"
+msgstr "Đã trang bị đầy đủ"
+
+msgid "progress_timers/resupply"
+msgstr "Vòng Tái tiếp tế"
+
+msgid "progress_timers/unavailable"
+msgstr "Bất khả dụng"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "Nhiệm vụ Chiến tuyến"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "ít hơn 1 ngày"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "cần đạt Cấp %(level)s"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "Nhiệm vụ mới sẽ khả dụng sau %(time)s"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "Nhiệm vụ Săn Thiết giáp"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "Chiến tuyến kết thúc sau: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "Không khả dụng: %(reason)s."
+
+msgid "rank/allReserveUpgraded"
+msgstr "Đã tăng Mọi Cấp Quân Dự bị Chiến đấu"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "Khoản tăng hiệu suất kíp lái cho cả phe đã tăng lên +%(percent)s%%"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "Hiệu suất kíp lái cao nhất đã đạt được ở mức +%(percent)s%%"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "Khoản tăng hiệu suất kíp lái cho cả phe +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "Người chơi"
+
+msgid "rank/promotion"
+msgstr "đã được thăng cấp %(rank)s%(placeholder)s"
+
+msgid "rank/rank1"
+msgstr "Binh nhì"
+
+msgid "rank/rank2"
+msgstr "Trung sĩ"
+
+msgid "rank/rank3"
+msgstr "Trung úy"
+
+msgid "rank/rank4"
+msgstr "Đại úy"
+
+msgid "rank/rank5"
+msgstr "Thiếu tá"
+
+msgid "rank/rank6"
+msgstr "Đại Tướng"
+
+msgid "rank/recerveUnlocked"
+msgstr "Đã mở khóa Quân Dự bị Chiến đấu %(reserveName)s"
+
+msgid "rank/reserveUpgraded"
+msgstr "Đã mở khóa Quân Dự bị Chiến đấu %(reserveName)s"
+
+msgid "rank/slotUnlocked"
+msgstr "Đã mở khóa Quân Dự bị Chiến đấu %(slotNumber)s"
+
+msgid "rank/slot_2"
+msgstr "Thứ 2"
+
+msgid "rank/slot_3"
+msgstr "Thứ 3"
+
+msgid "recovery/Blocked"
+msgstr "Tạm thời\nbị chặn"
+
+msgid "recovery/disabled"
+msgstr "Cứu hộ không khả dụng"
+
+msgid "recovery_panel/base_text"
+msgstr "Bấm J\nđể cứu hộ"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "Di chuyển hoặc khai hỏa để hủy bỏ."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "Cứu hộ\nđã bị hủy"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "Cứu hộ\nđã được yêu cầu"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "Chiếm căn cứ tiếp theo"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "Tiếp viện đến sau "
+
+msgid "reinforcement/unavailable"
+msgstr "Tiếp viện không khả dụng"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "I"
+
+msgid "reserve/level/2"
+msgstr "II"
+
+msgid "reserve/level/3"
+msgstr "III"
+
+msgid "reserve/level/4"
+msgstr "IV"
+
+msgid "respawn/auto_timer_txt"
+msgstr "%(seconds)s s đến khi tự động triển khai."
+
+msgid "respawn/deploy_button"
+msgstr "Tham chiến!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "Không thể mua vật phẩm Tiên tiến trong trận."
+
+msgid "respawn/shop_title"
+msgstr "Bảo trì"
+
+msgid "respawn/tanks_left"
+msgstr "xe còn lại"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "I"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "II"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "III"
+
+msgid "respawnScreen/headerTitle"
+msgstr "Chọn Xe và Khu vực Triển khai"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "Khu vực Triển khai không an toàn."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s giây"
+
+msgid "retreat_message_txt"
+msgstr "Rút lui"
+
+msgid "retreat_mission_txt"
+msgstr "Rút về khu vực tiếp theo"
+
+msgid "rewardSelection/subTitle"
+msgstr "CHỌN PHẦN THƯỞNG CỦA BẠN"
+
+msgid "rewardSelection/title"
+msgstr "CHIẾN TUYẾN"
+
+msgid "scorePanel/stage1"
+msgstr "Giai đoạn 1"
+
+msgid "scorePanel/stage2"
+msgstr "Giai đoạn 2"
+
+msgid "scorePanel/stage3"
+msgstr "Giai đoạn 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "Hiệu suất máy tính của bạn không đủ mạnh cho chế độ này. Bạn có thể gặp vấn đề với đồ họa và chuyển động xe. Client trò chơi cũng có khả năng gặp sự cố."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "Hiệu suất Thấp"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "Nếu cấu hình yếu và không chạy như ý, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "Chế độ này yêu cầu hiệu suất máy tính cao"
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "Chế độ này yêu cầu hiệu suất máy tính cao. Bạn sẽ gặp vấn đề với quá trình tải bản đồ, đồ họa và chuyển động xe. Nếu hiệu suất không đủ mạnh, hãy thử giảm chất lượng đồ họa trong mục Thiết lập."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "Hiệu suất Thấp"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "Chiến trận 30v30 bằng %(bodyVehicleLevel)s. Tận dụng cơ chế Tái xuất, Quân Dự bị Chiến đấu và Vòng Tiếp tế."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "xe Cấp %(level)s"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "Chiến trận 30v30 bằng %(bodyVehicleLevel)s. Tận dụng cơ chế Tái xuất, Quân Dự bị Chiến đấu và sửa chữa trong trận."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "Chế độ này tạm thời không khả dụng vì lý do kỹ thuật."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "Chiến tuyến"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "Chiến trận bắt đầu sau: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "Chiến trận kết thúc sau: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "Lịch Chiến đấu"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "Hôm nay"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "Ngày mai"
+
+msgid "skill/category/firesupport"
+msgstr "Quân Dự bị Tấn công"
+
+msgid "skill/category/reconnaissance"
+msgstr "Quân Dự bị Trinh sát"
+
+msgid "skill/category/tactics"
+msgstr "Quân Dự bị Chiến lược"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "Camera Chế độ Quan sát"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "Quay camera bằng chuột của bạn."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "Sử dụng phím W,A,S,D để di chuyển camera quanh bản đồ."
+
+msgid "spectator_mode/follow_text"
+msgstr "Click chuột trái để bắt đầu theo dõi."
+
+msgid "spectator_mode/follow_title"
+msgstr "Theo dõi"
+
+msgid "spectator_mode/msg_text"
+msgstr "Xe đến sau:"
+
+msgid "spectator_mode/msg_title"
+msgstr "Tất cả xe đều đã bị phá hủy!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "Click lại lần nữa để ngừng theo dõi."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "Ngừng theo dõi"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s ng"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s giờ"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 ph"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s ph"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "Đã bị chặn"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Rút khỏi khu vực này ngay!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Đang khôi phục HP"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Đang khôi phục HP"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Đang tiếp nhuệ khí"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "Đang tiếp nhuệ khí"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Vòng Tái tiếp tế"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Trong khói: Đã được ẩn giấu."
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "Trong màn khói. Tầm nhìn và hiệu suất kíp lái đã bị giảm."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "Ngược gió. Tầm nhìn và hiệu suất kíp lái đã bị giảm."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "Vệ thiết đã được kích hoạt"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "Kích hoạt %(activationDelay)s giây sau khi xe dừng hẳn"
+
+msgid "super_platoon_panel/title"
+msgstr "Trung đội"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "—tổng khoản tăng hiệu suất kíp lái cho cả phe khi có Tướng."
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "Mọi mặt trận"
+
+msgid "tab_screen/show_my_lane"
+msgstr "Mặt trận của bạn"
+
+msgid "team1Name"
+msgstr "Phe tấn công"
+
+msgid "team2Name"
+msgstr "Phe phòng thủ"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "Chọn phần thưởng cho Cấp Chiến tuyến đã hoàn thành (%(number)s)."
+
+msgid "tooltips/common/disabled"
+msgstr "Chế độ Không khả dụng"
+
+msgid "tooltips/common/title"
+msgstr "Chiến tuyến"
+
+msgid "tooltips/end"
+msgstr "Sự kiện đã kết thúc"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "Thứ tự mở khóa Quân Dự bị Chiến đấu sẽ khác nhau cho từng loại xe. Một cái khả dụng ngay từ đầu, số còn lại mở khóa khi đạt bậc Trung sỹ và Trung úy."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "Mở khóa: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "Trong kịch bản <font color='#E9E2BF'>Định Mệnh</font>, mua Quân Dự bị Chiến đấu sẽ cộng thêm một cấp độ của nó và đem lại cơ hội tăng lên Mức <font color='#E9E2BF'>IV</font>."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "Quân Dự bị Chiến đấu đặt ở ô này trước trận làm tăng thêm <font color='#E9E2BF'>10%</font> xác suất nó được cung cấp trong kịch bản <font color='#E9E2BF'>Định Mệnh</font>."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "Mở khóa và Cải thiện Q.Dự bị trong Trận"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "Quân Dự bị Chiến đấu được mở khóa và cải thiện trong trận đánh tùy theo loại xe cũng như cấp bậc mà bạn đạt đến."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "Cấu trúc Q.Dự bị cho Pháo Chống tăng"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "Cấu trúc Q.Dự bị cho Pháo Tự hành"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "Cấu trúc Q.Dự bị cho Tăng hạng Nặng"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "Cấu trúc Q.Dự bị cho Tăng hạng Nhẹ"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "Cấu trúc Q.Dự bị cho Tăng hạng Trung"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "Sau khi mở khóa mọi Quân Dự bị Chiến đấu lúc đạt cấp bậc mới, chúng bắt đầu được cải thiện. QDB thứ nhất có thể cải thiện lên tối đa Cấp III, còn QDB thứ hai—Cấp II cao nhất."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "Mở khóa: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "Ô sẽ được mở khóa khi đạt đến bậc %(rank)s."
+
+msgid "tooltips/timeToEnd"
+msgstr "Chế độ khả dụng: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "Chiến trận sẽ bắt đầu sau: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "Sự kiện đã kết thúc"
+
+msgid "tooltips/widget/level"
+msgstr "Cấp %(level)s"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "Đã đạt Cấp Tối đa."
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "Q.DỰ BỊ CHIẾN ĐẤU"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Đình chiến đang có hiệu lực trên mọi máy chủ. Chiến trận sẽ khả dụng sau %(time)s"
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "Chiến trận đang diễn ra"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Chọn Máy chủ Khác"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "Chi tiết"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "Chế độ Chiến tuyến đã kết thúc."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "Kịch bản Chiến tuyến"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ này. Chiến trận sẽ khả dụng sau %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Đình chiến đang có hiệu lực trên %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "Chiến trận sẽ bắt đầu sau: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "Click để tìm hiểu thêm về các kịch bản\nChiến tuyến và sự khác nhau giữa chúng."
+
+msgid "zone/arrived_text"
+msgstr "Đã đến!"
+
+msgid "zone/capture_text"
+msgstr "Chiếm"
+
+msgid "zone/captured_text"
+msgstr "Đã chiếm"
+
+msgid "zone/defend_text"
+msgstr "Phòng thủ"
+
+msgid "zone/destroy_text"
+msgstr "Tiêu diệt"
+
+msgid "zone/destroyed_text"
+msgstr "Đã diệt"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "Địch tăng viện"
+
+msgid "zone/headquarters_text"
+msgstr "Mục tiêu"
+
+msgid "zone/leave_zone"
+msgstr "Rút khỏi Khu vực!"
+
+msgid "zone/lost_text"
+msgstr "Đã mất"
+
+msgid "zone/reached_text"
+msgstr "Đã tiếp cận"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "Địch tăng viện:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "Tăng viện:"
+
+msgid "zone/reinforcements_text"
+msgstr "Tăng viện"
+
+msgid "zone/time_added"
+msgstr "Số phút đã thêm: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "Còn %(minutes)s phút"
+
+msgid "zone/zone_text"
+msgstr "Khu vực"

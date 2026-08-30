@@ -1,0 +1,161 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "attachments_preview/confirm"
+msgstr "了解!"
+
+msgid "attachments_preview/description"
+msgstr "3D付属品のセット"
+
+msgid "attachments_preview/rarity/epic"
+msgstr "エピック3D付属品"
+
+msgid "attachments_preview/rarity/legendary"
+msgstr "レジェンド3D付属品"
+
+msgid "attachments_preview/rarity/rare"
+msgstr "レア3D付属品"
+
+msgid "bundle/name"
+msgstr "ミステリー・マーケット"
+
+msgid "bundle/name_uppercased"
+msgstr "ミステリー・マーケット"
+
+msgid "confirmation/buttons/cancel"
+msgstr "キャンセル"
+
+msgid "confirmation/buttons/purchase"
+msgstr "購入"
+
+msgid "confirmation/description"
+msgstr "購入操作を確定するとボンズと新しいセルの報酬を入手できます"
+
+msgid "confirmation/purchase"
+msgstr "{{price}}で購入しますか?"
+
+msgid "entryPoint/button"
+msgstr "イベントへ"
+
+msgid "entryPoint/title"
+msgstr "「{{eventName}}」が開幕しました。"
+
+msgid "intro/cards/description/c_1"
+msgstr "「{{eventName}}」の期間中にボンズを購入すると、未開封の「セル」のいずれかから、報酬をギフトとして受け取ることができます。「セル」には貴重なゲーム内アイテムが入っており、本イベントの目玉報酬としてプレミアム車輌も含まれています。"
+
+msgid "intro/cards/description/c_2"
+msgstr "報酬はランダムな順序で手に入ります。未開封のセルにはそれぞれ独立した確率が設定されており、これらの確率の合計は常に100%になります。一度セルを開封すると再び開けることはできず、残りの報酬を獲得できる確率が上昇します。"
+
+msgid "intro/cards/description/c_3"
+msgstr "購入回数はステップに分けられており、特定のステップにおける購入に必要なゴールドは定額です。現在のステップに応じて、購入できるボンズの額とゴールドの費用が変動します。"
+
+msgid "intro/cards/link"
+msgstr "各ステップの条件および費用は{{@ class 'linkPart'}}公式サイトでご確認ください。{{icon}}{{/}}"
+
+msgid "intro/cards/title/c_1"
+msgstr "ボンズの購入"
+
+msgid "intro/cards/title/c_2"
+msgstr "セルと確率"
+
+msgid "intro/cards/title/c_3"
+msgstr "ステップ別費用"
+
+msgid "intro/timer"
+msgstr "{{timer}}"
+
+msgid "intro/title"
+msgstr "報酬が待っています!"
+
+msgid "main/alt/description"
+msgstr "確率を表示"
+
+msgid "main/alt/tooltip/body"
+msgstr "「Alt」キーを押すと、それぞれのセルが選ばれる確率を確認できます。"
+
+msgid "main/alt/tooltip/header"
+msgstr "確率表示"
+
+msgid "main/cell/probability"
+msgstr "{{num}}%"
+
+msgid "main/completed"
+msgstr "おめでとうございます!\n全報酬を受け取りました"
+
+msgid "main/footer/button"
+msgstr "購入"
+
+msgid "main/footer/item"
+msgstr "{{count}}"
+
+msgid "main/footer/random"
+msgstr "+{{icon}}セルからの報酬"
+
+msgid "main/footer/receive"
+msgstr "購入すると手に入るアイテム: {{item}}"
+
+msgid "main/header/description"
+msgstr "{{startDate}}から{{endDate}}までイベントに参加して報酬を獲得できます。"
+
+msgid "main/multi"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/multiplier"
+msgstr "x{{count}}"
+
+msgid "notifications/specialReward/showAttachments"
+msgstr "カスタマイズに移動"
+
+msgid "notifications/specialReward/showStyle"
+msgstr "スタイルへ移動"
+
+msgid "notifications/specialReward/showVehicle"
+msgstr "車輌に移動"
+
+msgid "notifications/specialReward/title"
+msgstr "「{{eventName}}」の目玉報酬を獲得!"
+
+msgid "serviceChannelMessages/cellRewards"
+msgstr "追加報酬"
+
+msgid "serviceChannelMessages/fixedReward"
+msgstr "入手した報酬"
+
+msgid "serviceChannelMessages/openBundleError"
+msgstr "こちらの操作は技術的理由により一時的に実行できません。時間をおいて再度お試しください。"
+
+msgid "serviceChannelMessages/reminder/button"
+msgstr "イベントへ"
+
+msgid "serviceChannelMessages/reminder/header"
+msgstr "「%(eventName)s」はまもなく終了します!"
+
+msgid "serviceChannelMessages/reminder/text"
+msgstr "本イベントは%(date)sまで開催されています。"
+
+msgid "serviceChannelMessages/simplePurchase"
+msgstr "「%(eventName)s」のセルを開封"
+
+msgid "tooltips/entry/description"
+msgstr "報酬が待っています! ボンズを購入するたびに、ギフトとして、いずれかのセルからランダムな報酬が手に入ります。開封済みのセルは除外されるため、毎回新しいセルを開封することになります。"
+
+msgid "tooltips/entry/timer"
+msgstr "本イベントの開催期間は{{timer}}です。"
+
+msgid "tooltips/header/info"
+msgstr "イベント概要"
+
+msgid "tooltips/steps/description"
+msgstr "購入回数が増えるほど入手できる{{currency}}の額も増えていきます。購入回数はステップに分けられており、特定のステップに到達すると、入手量が増加します。"
+
+msgid "tooltips/steps/header"
+msgstr "購入回数に応じた{{currency}}"
+
+msgid "tooltips/steps/singleStep"
+msgstr "{{step}}"
+
+msgid "tooltips/steps/steps"
+msgstr "ステップ"
+
+msgid "tooltips/steps/template"
+msgstr "{{start}}～{{end}}"

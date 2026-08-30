@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "backButton/label"
+msgstr "กลับ"
+
+msgid "backButton/to"
+msgstr "ไปยังสถานะบัญชี"
+
+msgid "filteredMapsDisplayed"
+msgstr "แผนที่ที่แสดง: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "แสดง/ซ่อนแผนที่ชนิดนี้"
+
+msgid "filtersTooltip/header/desert"
+msgstr "แผนที่ทะเลทราย"
+
+msgid "filtersTooltip/header/summer"
+msgstr "แผนที่ฤดูร้อน"
+
+msgid "filtersTooltip/header/winter"
+msgstr "แผนที่ฤดูหนาว"
+
+msgid "header/cooldown"
+msgstr "คุณสามารถเปลี่ยนแผนที่ได้อีกครั้งใน %(cooldownEndTime)"
+
+msgid "header/title"
+msgstr "แผนที่ถูกยกเว้น"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "คุณสามารถเปลี่ยนแผนที่ได้อีกครั้งหลังพ้นช่วงพัก"
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "ไม่มีการเปลี่ยนแผนที่ให้"
+
+msgid "mapTile/hoverExclude"
+msgstr "ยกเว้นแผนที่ %(mapName)?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "ปลด"
+
+msgid "mapTile/hoverInclude"
+msgstr "รวมแผนที่ %(mapName) ในการรบแบบสุ่ม?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "รวม"
+
+msgid "mapsFilterLabel"
+msgstr "ชนิดแผนที่:"
+
+msgid "notSelected"
+msgstr "ไม่ได้เลือกไว้"
+
+msgid "premium"
+msgstr "บัญชีพิเศษ WoT"
+
+msgid "slot/disabledTooltipBody"
+msgstr "ช่องเพิ่มเติมมีให้เฉพาะบัญชีพิเศษ WoT หรือการสมัคร WoT Plus ที่ใช้งานอยู่เท่านั้น"
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "ปลดล็อคด้วยบัญชีพิเศษ WoT"
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "ปลดล็อคด้วยการสมัคร WoT Plus ใช้งานอยู่"
+
+msgid "slot/replaceTooltipBody"
+msgstr "เลือกแผนที่จากรายการด้านล่างเพื่อทำการเปลี่ยนและยกเว้นจากการรบแบบสุ่ม"
+
+msgid "slot/selectTooltipBody"
+msgstr "เลือกแผนที่จากรายการด้านล่างเพื่อทำการยกเว้นจากการรบแบบสุ่ม"
+
+msgid "slot/selectTooltipHeader"
+msgstr "มีช่องให้"
+
+msgid "totalMapsDisplayed"
+msgstr "แผนที่ที่แสดงเอาไว้: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "ยกเว้นอีก 1 แผนที่ด้วย %(linkPremium) และอีก %(mapCount)s ด้วย %(linkWotPlus)"
+msgstr[1] "ยกเว้นอีก 1 แผนที่ด้วย %(linkPremium) และอีก %(mapCount)s ด้วย %(linkWotPlus)"
+
+msgid "unlock/premium"
+msgstr "ยกเว้นอีก 1 แผนที่ด้วย %(linkPremium)"
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "ยกเว้นแผนที่อีก %(mapCount)s แผนที่ด้วย %(linkWotPlus)"
+msgstr[1] "ยกเว้นแผนที่อีก %(mapCount)s แผนที่ด้วย %(linkWotPlus)"
+
+msgid "wotplus"
+msgstr "WoT Plus"

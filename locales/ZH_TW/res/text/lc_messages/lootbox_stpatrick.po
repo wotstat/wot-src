@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "回到補給箱"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "四葉草補給箱"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "四葉草補給箱"
+
+msgid "common/getButton/lowerCase"
+msgstr "獲取補給箱"
+
+msgid "common/getButton/upperCase"
+msgstr "獲取補給箱"
+
+msgid "common/loader"
+msgstr "補給箱打開中..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "打開補給箱以檢視統計。"
+
+msgid "common/statistics/header"
+msgstr "打開的補給箱數：%(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "已打開之補給箱的所有資訊將被刪除。"
+
+msgid "entryPoint/boxes"
+msgstr "前往補給箱"
+
+msgid "entryPoint/tooltip/description"
+msgstr "這些為特殊補給箱，可能開出加值車輛、3D 配飾、銀幣與其他珍貴遊戲內物品。\n您可在遊戲內商店購買這類補給箱。"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "由於技術性原因，目前無法打開或購買補給箱。很抱歉暫時為您帶來不便。"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "補給箱暫時無法使用"
+
+msgid "eventName/lowerCase"
+msgstr "綠色榮光"
+
+msgid "eventName/upperCase"
+msgstr "綠色榮光"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "下個補給箱會開出保證可獲得的獎勵！"
+
+msgid "guaranteedTitle/text"
+msgstr "開出保證可獲得的獎勵需打開的補給箱數不超過：%(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "若您未在活動結束前打開補給箱，這些補給箱將會自動打開。"
+
+msgid "infoPage/footer/description/compensation"
+msgstr "若您在車庫中已擁有補給箱可能開出的所有車輛，後續從補給箱開出任何車輛時，您將獲得與該車輛等值的金幣補償。"
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "每 %(guaranteed0)s 個補給箱保證會開出一輛 VIII–IX 階車輛。若這些補給箱連續未開出此類車輛，當您打開第 %(guaranteed0)s&zwnbsp; 個補給箱時，將會開出一輛您未在車庫中擁有的 VIII–IX 階車輛。開出車輛後，計數器將重置。"
+
+msgid "infoPage/header/description"
+msgstr "打開補給箱即有機會獲取珍貴遊戲內物品！請在下方閱讀詳情。"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "從「%(name)」(已打開 %(boxesCount) 個補給箱)"
+
+msgid "noBoxesView/description/"
+msgstr "您無任何補給箱。\n您可在遊戲內商店中獲取。"
+
+msgid "preview/backLabel"
+msgstr "前往補給箱"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "可用的補給箱：%(boxesCount) 個"
+
+msgid "quantityTitle/noBoxes"
+msgstr "沒有可用的補給箱"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "若您在車庫中已擁有補給箱可能開出的所有車輛，後續從補給箱開出任何車輛時，您將獲得金幣作為補償。"
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) 個補給箱"
+msgstr[1] "%(remainingCount) 個補給箱"
+msgstr[2] "%(remainingCount) 個補給箱"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "「保證可獲得的獎勵」為補給箱可能開出的車輛。\n若您打開 %(remainingCount)時仍未開出此類車輛，將會在打開%(count)補給箱時開出您未在車庫中擁有的此類車輛。開出車輛後，計數器將重置。"

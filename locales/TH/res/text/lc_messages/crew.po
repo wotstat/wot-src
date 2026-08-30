@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "ขยาย"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "ปลดที่ฝึกน้อยไป"
+
+msgid "barracks/bunks/title"
+msgstr "เตียง:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "ระบุจำนวนเตียงที่จะทำการซื้อ เตียงที่มีในค่ายทหาร: %(freeBunksCount)s / %(allBunksCount)s"
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "ราคาส่วนลด"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "ราคาใหม่: %(currency)s ต่อ %(bunksCount)s เตียง"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "ราคาก่อน: %(currency)s ต่อ %(bunksCount)s เตียง"
+
+msgid "barracks/enlarge/header"
+msgstr "ขยายค่ายทหาร?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "สมาชิกพลรถถังฝึกน้อยไปในค่ายของคุณที่มีประสบการณ์น้อยกว่า {whiteSpanish_Open}210,060{whiteSpanish_Close}{icon} หน่วยที่จำเป็นต้องฝึกความสามารถพลรถถังแรกถึง {whiteSpanish_Open}100%{whiteSpanish_Close} สามารถทำการปลดได้"
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "สมาชิกพลรถถังฝึกน้อยไป"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "คุณไม่มีสมาชิกพลรถถังฝึกน้อยไป"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "คุณจะไม่ได้รับค่าชดเชยใดๆจากการปลดสมาชิกพลรถถังฝึกน้อยไป เมื่อปลดแล้ว จะไม่สามารถกู้คืนพลรถถังดังกล่าวและประสบการณ์ทั้งหมดของพวกเขาจะหายไป"
+
+msgid "barracks/title"
+msgstr "ค่ายทหาร"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "คลิกเพื่อขยายค่ายทหาร"
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "ขยายค่ายทหาร"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "ตำแหน่ง"
+
+msgid "common/imageNotAvailable"
+msgstr "ไม่มีภาพให้"
+
+msgid "common/inBarracks"
+msgstr "ในค่ายทหาร"
+
+msgid "common/inBattle"
+msgstr "ในการรบ"
+
+msgid "common/inPrebattle"
+msgstr "อยู่ในหน่วยยุทธวิธี"
+
+msgid "common/navigation/aboutCrew"
+msgstr "เกี่ยวกับพลรถถัง"
+
+msgid "common/navigation/toBarracks"
+msgstr "ไปยังค่ายทหาร"
+
+msgid "common/navigation/toGarage"
+msgstr "ไปยังโรงรถ"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "ไปยังประวัติย่อ"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "รับทราบ!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "สมาชิกพลรถถังของคุณถูกแปลงเป็นหนังสือพลรถถัง"
+
+msgid "conversionAwards/title"
+msgstr "การแปลงสำเร็จแล้ว"
+
+msgid "conversionAwards/underTitle"
+msgstr "สิ่งของเหล่านี้ได้ถูกเพิ่มเข้ามาในบัญชีของคุณ"
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "ยกเลิก"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "ปลดเกษียณ"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "สมาชิกพลรถถังที่จะทำการปลด: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "ปลดสมาชิกพลรถถังฝึกน้อยไป?"
+
+msgid "conversionConfirm/warning"
+msgstr "คุณจะไม่ได้รับค่าชดเชยใดๆจากการปลดสมาชิกพลรถถังฝึกน้อยไป เมื่อปลดแล้ว จะไม่สามารถกู้คืนพลรถถังดังกล่าวและประสบการณ์ทั้งหมดของพวกเขาจะหายไป"
+
+msgid "crewBanner/button/fill/label"
+msgstr "ความสามารถเลือกอัตโนมัติ"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "ไม่มีสมาชิกพลรถถังที่มีความสามารถยังไม่ได้ฝึก"
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "ไม่สามารถเลือกความสามารถอัตโนมัติได้"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "ความสามารถที่ไม่ได้ฝึกทั้งหมดมีสัญลักษณ์บวกจะถูกแทนที่ด้วยความสามารถที่เลือกเอาไว้โดยอัตโนมัติตามตรรกะพิเศษสำหรับพลรถถังทั้งหมด"
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "เลือกความสามารถที่ยังไม่ฝึกโดยอัตโนมัติสำหรับทั้งหมด"
+
+msgid "crewBanner/button/reset/label"
+msgstr "ตั้งความสามารถใหม่ทั้งหมด"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "ไม่มีสมาชิกพลรถถังที่มีความสามารถฝึกแล้ว"
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "ไม่สามารถตั้งความสามารถใหม่ได้"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "ความสามารถทั้งหมดจะถูกตั้งใหม่สำหรับสมาชิกพลรถถังทั้งหมดในบัญชีของคุณ การดำเนินการนี้ไม่สามารถแก้คืนได้"
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "ตั้งความสามารถใหม่ทั้งหมด"
+
+msgid "crewBanner/infoText"
+msgstr "การตั้งความสามารถใหม่ฟรีหรือเลือกความสามารถที่ยังไม่ฝึกโดยอัตโนมัติสำหรับสมาชิกพลรถถังทุกคนในบัญชีของคุณ"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "เปิดการเร่งการฝึกเอาไว้"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "โบนัสประสิทธิภาพ: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "ประสิทธิภาพความสามารถ"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "ความสามารถไม่มีให้เนื่องจากสมาชิกพลรถถังนี้ไม่ได้ฝึกเอาไว้สำหรับพาหนะคันนี้"
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "ความเชี่ยวชาญพิเศษ:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "ไม่มีความสามารถให้"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "ความสามารถโบนัส:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "ความสามารถคุณสมบัติหลัก:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(จีน)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(เชคโกสโลวาเกีย)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(ฝรั่งเศส)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(เยอรมนี)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(อิตาลี)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(ญี่ปุ่น)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(โปแลนด์)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(สวีเดน)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(สหราชอาณาจักร)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(สหรัฐอเมริกา)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(สหภาพโซเวียต)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "ยานพิฆาตรถถังพิเศษทั้งหมด\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "ปืนอัตตาจรพิเศษทั้งหมด {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "รถถังหนักพิเศษทั้งหมด {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "รถถังเบาพิเศษทั้งหมด {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "รถถังกลางพิเศษทั้งหมด \n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "รายละเอียด"
+
+msgid "filter/group/details/title"
+msgstr "รายละเอียด"
+
+msgid "filter/group/nation/title"
+msgstr "ประเทศ"
+
+msgid "filter/group/other/title"
+msgstr "อื่นๆ"
+
+msgid "filter/group/special/title"
+msgstr "พิเศษ"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "การคัดเลือก"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "ระดับ"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "ระดับ"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "ความเชี่ยวชาญพิเศษ"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "ชนิดพาหนะ"
+
+msgid "filter/popup/button/title"
+msgstr "กรอง"
+
+msgid "filter/popup/default/title"
+msgstr "กรอง"
+
+msgid "filter/popup/skinChange/title"
+msgstr "กรองตามประเทศ"
+
+msgid "filter/popup/tankChange/title"
+msgstr "กรองตามพาหนะ"
+
+msgid "filter/reset"
+msgstr "ตั้งค่าตัวกรองใหม่"
+
+msgid "filter/search/placeholder"
+msgstr "ค้นหาตามชื่อ"
+
+msgid "filter/search/tooltip/header"
+msgstr "ค้นหาตามชื่อ"
+
+msgid "filter/title"
+msgstr "แสดงอยู่:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "แสดง/ซ่อนสมาชิกพลรถถังในพาหนะที่มีชิ้นส่วนที่ใช้ได้ท้งหมดและทำการสายวิจัยทางเทคนิคทั้งหมดแล้ว"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "พาหนะชั้นยอด"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "แสดง/ซ่อนสมาชิกพลรถถังที่ฝึกไว้สำหรับพาหนะพิเศษ"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "พาหนะพิเศษ"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "แสดง/ซ่อนสมาชิกพลรถถังในพาหนะหลัก"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "พาหนะหลัก"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "แสดง/ซ่อนสมาชิกพลรถถังสำหรับพาหนะชนิดนี้"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "แสดง/ซ่อนสมาชิกพลรถถังของประเทศนี้"
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "แสดง/ซ่อนลายของประเทศนี้"
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "แสดง/ซ่อนพาหนะของประเทศนี้"
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "แสดง/ซ่อนเกษียณแล้ว"
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "เกษียณแล้ว"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "แสดงทหารเกณฑ์"
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "ทหารเกณฑ์"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "แสดงสมาชิกพลรถถัง"
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "สมาชิกพลรถถัง"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "แสดง/ซ่อนสมาชิกพลรถถังมีคุณสมบัติหลักนี้"
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "แสดง/ซ่อนพาหนะพิเศษ"
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "พาหนะพิเศษ"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "แสดง/ซ่อนพาหนะของชนิดนี้"
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "ปืนใหญ่อัตตาจร"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "รถถังเบา"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "ไม่พบพาหนะที่ตรงกับ\nข้อกำหนดการค้นหา"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "เรียงตามชื่อพาหนะ"
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "ชื่อ"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "เรียงตามระดับพาหนะ"
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "ระดับ"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "เรียงตามชนิดพาหนะ"
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "ชนิด"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "ชื่อ"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "คลิกเพื่อปรับการตั้งค่าตัวกรองใหม่"
+
+msgid "filterPanel/counter/reset/header"
+msgstr "ปรับตัวกรองทั้งหมด"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "รับทราบ!"
+
+msgid "junkTankmen/description"
+msgstr "สมาชิกพลรถถังเหล่านี้มีประสบการณ์น้อยกว่า {bond_Open}210,060{bond_Close}{icon} หน่วยที่จำเป็นต้องฝึกความสามารถพลรถถังแรกถึง {whiteSpanish_Open}100%{whiteSpanish_Close} \nพลรถถังเหล่านี้จะถูกปลดจากบัญชีของคุณ"
+
+msgid "junkTankmen/title"
+msgstr "ปลดสมาชิกพลรถถังฝึกน้อยไป?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "จะมีการจำกัด{whiteSpanish_Open}สาม{whiteSpanish_Close}ความสามารถสำหรับแต่ละคุณสมบัติเพิ่มเติม การเข้าถึงความสามารถโบนัสใหม่จะเปิดขึ้นหลังจากไปถึงความสามารถคุณสมบัติหลักที่ {whiteSpanish_Open}หนึ่ง{whiteSpanish_Close}, {whiteSpanish_Open}สาม{whiteSpanish_Close} และ {whiteSpanish_Open}ห้า{whiteSpanish_Close}"
+
+msgid "matrix/bonusTooltip/header"
+msgstr "ความสามารถโบนัส"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "เมื่อทำากรฝึกสมาชิกพลรถถังใหม่สำหรับพาหนะคันอื่นที่มีชุดคุณสมบัติต่างออกไป คุณจะเลือกความสามารถสำหรับคุณสมบัติเพิ่มเติมใหม่ได้อีกครั้ง"
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "ความสามารถโบนัสนั้นจะฝึกช้าเป็นสองเท่าเมื่อเทียบกับความสามารถคุณสมบัติหลัก"
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "ไม่จำเป็นต้องใช้ประสบการณ์ในการฝึกความสามารถโบนัส"
+
+msgid "matrix/freeResetButton"
+msgstr "ตั้งใหม่ได้ฟรี"
+
+msgid "matrix/increaseButton"
+msgstr "เร่งการฝึก"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "สมาชิกพลรถถังฝึกจนถึงขีดจำกัดแล้ว"
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "ไม่สามารถเร่งการฝึกได้"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "ฝึกความสามารถด้วยประสบการณ์อิสระและหนังสือพลรถถัง"
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "การฝึกเร่งด่วน"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "คุณสมบัติหลักไม่เข้ากัน"
+
+msgid "matrix/qualification/1"
+msgstr "คุณสมบัติหลัก"
+
+msgid "matrix/qualification/2"
+msgstr "คุณสมบัติรอง"
+
+msgid "matrix/qualification/3"
+msgstr "คุณสมบัติสาม"
+
+msgid "matrix/qualification/4"
+msgstr "คุณสมบัติสี่"
+
+msgid "matrix/qualification/5"
+msgstr "การคัดเลือกที่ห้า"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "ความสามารถศูนย์ไม่มีให้สำหรับคุณสมบัติรอง"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "ความสามารถศูนย์ไม่มีให้สำหรับคุณสมบัติสาม"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "ความสามารถศูนย์ไม่มีให้สำหรับคุณสมบัติสี่"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "การคัดเลือกที่สองไม่มีให้พาหนะคันนี้"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "การคัดเลือกที่สามไม่มีให้พาหนะคันนี้"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "การคัดเลือกที่สี่ไม่มีให้พาหนะคันนี้"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "การคัดเลือกที่ห้าไม่มีให้พาหนะคันนี้"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "จะมีขีดจำกัด {whiteSpanish_Open}สาม{whiteSpanish_Close} ความสามารถเพิ่มเติมสำหรับแต่ละคุณสมบัติเพิ่มเติม มีเพียงความสามารถเฉพาะสำหรับคุณสมบัติเหล่านี้เท่านั้นที่เลือกเป็นความสามารถโบนัสได้"
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "จะมีขีดจำกัด {whiteSpanish_Open}หก{whiteSpanish_Close} ความสามารถคุณสมบัติหลัก (รวมไปถึงความสามารถศูนย์)"
+
+msgid "matrix/resetButton"
+msgstr "ตั้งใหม่"
+
+msgid "matrix/resetButtonHint"
+msgstr "คลิกเพื่อตั้งความสามารถใหม่"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "คุณไม่มีความสามารถที่ฝึกเอาไว้"
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "ไม่สามารถตั้งความสามารถใหม่ได้"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "คลิกเพื่อตั้งความสามารถใหม่"
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "ตั้งค่าความสามารถใหม่"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "มีความสามารถโบนัสให้ฝึก"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "ไม่จำเป็นต้องใช้ประสบการณ์พลรถถังในการฝึกความสามารถโบนัส"
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "ไม่มีให้"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "ปลดล็อคเมื่อทำการฝึกความสามารถคุณสมบัติหลักที่สาม ไม่ต้องใช้ประสบการณ์"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "ปลดล็อคเมื่อทำการฝึกความสามารถคุณสมบัติหลักที่ห้า ไม่ต้องใช้ประสบการณ์"
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "ขั้นการฝึก"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "จำนวนประสบการณ์ทั้งหมดที่ต้องใช้นั้นลดลงเพราะสมาชิกพลรถถังมีหนึ่งความสามารถศูนย์"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "จำนวนประสบการณ์ทั้งหมดที่ต้องใช้นั้นลดลงเพราะสมาชิกพลรถถังมีสองความสามารถศูนย์"
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "มีความสามารถให้ฝึก"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "ไม่มีให้"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "ความสามารถก่อนหน้าจะต้องฝึกถึง 100%"
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "มีความสามารถศูนย์ให้ฝึก"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "ความสามารถศูนย์จะถูกฝึกได้ก่อนแม้ว่าจะมีหลายความสามารถถูกเลือกเอาไว้พร้อมกัน ไม่จำเป็นต้องใช้ประสบการณ์พลรถถังในการฝึก"
+
+msgid "matrix/skills/allSkills"
+msgstr "ความสามารถเพิ่มเติมทั้งหมดที่ฝึกไว้สำหรับพาหนะคันนี้"
+
+msgid "matrix/skills/available"
+msgstr "ความสามารถมีให้ฝึก:"
+
+msgid "matrix/skills/bonus"
+msgstr "ความสามารถโบนัส"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "ไม่มีความสามารถให้"
+
+msgid "matrix/skills/locked"
+msgstr "ไม่มีความสามารถให้"
+
+msgid "matrix/skills/main/disabled"
+msgstr "ความสามารถทั้งหมดถูกปิดไว้สำหรับพาหนะคันนี้"
+
+msgid "matrix/skills/main/enabled"
+msgstr "ความสามารถคุณสมบัติหลัก"
+
+msgid "matrix/skills/reduced"
+msgstr "ประสิทธิภาพความสามารถลดลง"
+
+msgid "matrix/skills/roles/commander"
+msgstr "ความสามารถผู้การรถถัง"
+
+msgid "matrix/skills/roles/driver"
+msgstr "ความสามารถพลขับ"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "ความสามารถผู้การรถถัง"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "ความสามารถพลขับ"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "ความสามารถพลปืน"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "ความสามารถพลบรรจุ"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "ความสามารถพลวิทยุ"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "ความสามารถพลปืน"
+
+msgid "matrix/skills/roles/loader"
+msgstr "ความสามารถพลบรรจุ"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "ความสามารถพลวิทยุ"
+
+msgid "matrix/skills/training"
+msgstr "การฝึกความสามารถ"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "ความสามารถศูนย์มีให้ฝึก:"
+
+msgid "memberChange/action/recruit"
+msgstr "เกณฑ์ {role}"
+
+msgid "memberChange/discount"
+msgstr "ส่วนลด {discountAmount}% ของส่วนลดการเปลี่ยนคุณสมบัติ"
+
+msgid "memberChange/title"
+msgstr "เลือก {role}: {vehicle}"
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}ในโรงเก็บ{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "หลังทำการยืนยัน สมาชิกพลรถถังที่โอนประสบการณ์ของตนไปจะถูกลบจากบัญชีของคุณ"
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "ใบอนุญาตฝึกสอนจะทำให้คุณโอนประสบการณ์พลรถถังจากสมาชิกพลรถถังคนหนึ่งไปให้อีกคนของชาติเดียวกันได้"
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "ใบอนุญาตฝึกสอน"
+
+msgid "personalData/card/edit"
+msgstr "แก้ไข"
+
+msgid "personalData/card/remove"
+msgstr "ลบ"
+
+msgid "personalData/card/restrictions"
+msgstr "ข้อจำกัด: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "คลิกเพื่อเปลี่ยนชื่อและหน้าตาของสมาชิกพลรถถัง"
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "หน้าตา"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "สมาชิกพลรถถังนี้มีชื่อและหน้าตาเฉพาะแล้ว"
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "ไม่สามารถเปลี่ยนชื่อและหน้าตาได้"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "ไม่พบ โปรดเปลี่ยนการตั้งค่าหรือตั้งค่าตัวกรองใหม่"
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "ปรับการแสดงลายตามประเทศ"
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "กรองตามค่า"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "แสดงเอกสาร"
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "เอกสาร"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "แสดงลายที่เหมาะสม"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "ลายที่เหมาะสม"
+
+msgid "personalData/filter/type/title"
+msgstr "ชนิด"
+
+msgid "personalData/title"
+msgstr "เปลี่ยนชื่อและหน้าตา"
+
+msgid "personalFile/changeVehicle"
+msgstr "เปลี่ยน"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "ไม่สามารถฝึกสมาชิกพลรถถังคนนี้สำหรับพาหนะอื่นได้"
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "ไม่สามารถดำเนินการได้"
+
+msgid "personalFile/discount/full"
+msgstr "มีส่วนลดการฝึกพลรถถังใหม่ให้"
+
+msgid "personalFile/discount/short"
+msgstr "มีส่วนลดให้"
+
+msgid "personalFile/inVehicle"
+msgstr "ในพาหนะ: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "เพิ่ม"
+
+msgid "personalFile/isUntrained"
+msgstr "ไม่ได้ฝึกสำหรับพาหนะคันนี้"
+
+msgid "personalFile/premiumVehicle"
+msgstr "พาหนะพิเศษ{icon}ทั้งหมด"
+
+msgid "personalFile/retrain"
+msgstr "ฝึกใหม่"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "ประสิทธิภาพความสามารถ:"
+
+msgid "personalFile/specialization"
+msgstr "ความเชี่ยวชาญพิเศษ:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "ความเชี่ยวชาญพิเศษ"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "คลิกเพื่อฟังตัวอย่างเสียงพากย์ของผู้การรถถังนี้"
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "เสียงพากย์เฉพาะตัว"
+
+msgid "postProgression/button/claim"
+msgstr "รับรางวัล"
+
+msgid "postProgression/description"
+msgstr "สมาชิกพลรถถังทั้งหมดที่ฝึกหกความสามารถคุณสมบัติหลักทั้งหมดแล้วจะสามารถเข้าถึงช่วงหลังความก้าวหน้าร่วม ในทุกๆประสบการณ์ 100,000 หน่วยที่ได้รับในช่วงหลังความก้าวหน้า คุณจะได้รับบทแนะนำสากลที่สามารถใช้ในการฝึกพลรถถังคนอื่นได้"
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "ช่วงหลังความก้าวหน้าประกอบด้วยมาตรวัดรวมสำหรับสมาชิกพลรถถังทุกคนซึ่งมีหกความสามารถคุณสมบัติหลักฝึกเต็มที่ในบัญชีของผู้เล่น"
+
+msgid "postProgression/tips/2"
+msgstr "จะนับเฉพาะประสบการณ์รบเข้าช่วงหลังความก้าวหน้าเท่านั้น ครึ่งหนึ่งของประสบการณ์รบที่ได้รับในการรบโดยสมาชิกพลรถถังจะถูกแบ่งตามจำนวนของสมาชิกพลรถถังทั้งหมดในพาหนะและเพิ่มเข้ามาตรวัดช่วงหลังความก้าวหน้า"
+
+msgid "postProgression/tips/3"
+msgstr "การเสียประสบการณ์จากความสามารถหรือชุดประสิทธิภาพนั้นไม่มีผลกับช่วงหลังความก้าวหน้า"
+
+msgid "postProgression/title"
+msgstr "ช่วงหลังความก้าวหน้า ของพลรถถัง"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "สมาชิกพลรถถังทุกคนที่เข้าถึงช่วงหลังความก้าวหน้าจะมีประสิทธิภาพความสามารถต่ำ"
+
+msgid "postProgression/warning/retire"
+msgstr "สมาชิกพลรถถังทุกคนที่เคยเข้าถึงช่วงหลังความก้าวหน้าถูกปลดหรือเสียประสบการณ์จากความสามารถสุดท้ายของพวกเขา"
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "ยานพิฆาตรถถังพิเศษทั้งหมด"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "ปืนอัตตาจรพิเศษทั้งหมด"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "ยานพิฆาตรถถังพิเศษ"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "ปืนอัตตาจรพิเศษ"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "รถถังหนักพิเศษ"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "รถถังเบาพิเศษ"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "รถถังกลางพิเศษ"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "รถถังหนักพิเศษทั้งหมด"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "รถถังเบาพิเศษทั้งหมด"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "รถถังกลางพิเศษทั้งหมด"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "รางวัล"
+
+msgid "serviceRecord/averageXP"
+msgstr "ค่าประสบการณ์เฉลี่ยต่อการรบ"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "การรบที่เข้าร่วม"
+
+msgid "serviceRecord/noAchievements"
+msgstr "ไม่มีรางวัลและเหรียญตราสำหรับการรบ"
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "อัตราประสบการณ์ทั้งหมดที่ได้รับต่อจำนวนการรบที่ยานเกราะคันนี้ได้เข้าร่วมซึ่งได้มีสมาชิกพลรถถังดังกล่าวประจำอยู่"
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "ค่าประสบการณ์เฉลี่ยต่อการรบ"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "ยศสมาชิกพลรถถังนั้นขึ้นกับประสบการณ์และจำนวนความสามารถที่ฝึกเอาไว้"
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "ยศ"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "สมาชิกพลรถถังได้ฝึกความสามารถทั้งหมดสำหรับพาหนะนี้แล้ว"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "ความสามารถมีให้ฝึก"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "ความสามารถทั้งหมดที่ปิดไว้สำหรับพาหนะคันนี้"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "ไม่จำเป็นต้องใช้ประสบการณ์ในการฝึกความสามารถคุณสมบัติเพิ่มเติมซึ่งจะฝึกช้าเป็นสองเท่าเมื่อเทียบกับความสามารถคุณสมบัติหลัก"
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "ยกเลิก"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "ฝึก"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "คุณสมบัติโบนัส"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "คุณสมบัติหลัก"
+
+msgid "tankChange/title"
+msgstr "ฝึกสำหรับพาหนะ"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "แสดงพาหนะทั้งหมดในโรงรถ"
+
+msgid "tankChange/tooltip/location/header"
+msgstr "ในโรงรถ"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "ปรับการแสดงพาหนะตามชนิดและระดับ"
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "กรองตามค่า"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "คุณไม่จำเป็นต้องฝึกสมาชิกพลรถถังสำหรับพาหนะพิเศษ คุณสามารถโอนพลรถถังไปยังพาหนะพิเศษของชนิดเดียวกันได้โดยไม่มีผลเสียใดๆ"
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "พาหนะพิเศษ"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "ชื่อพาหนะนั้นมีความยาวได้ถึง %(maxLength)s อักษร"
+
+msgid "tankman/action/dismiss/title"
+msgstr "ปลดเกษียณ"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "ปลดเกษียณสมาชิกพลรถถังนี้"
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "ไม่สามารถปลดเกษียณสมาชิกพลรถถังนี้ได้"
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "ไม่สามารถดำเนินการได้"
+
+msgid "tankman/action/recruit/title"
+msgstr "เกณฑ์"
+
+msgid "tankman/action/restore/title"
+msgstr "กู้คืน"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "กู้คืนสมาชิกพลรถถังนี้"
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "คลิกเพื่อฟังตัวอย่างเสียงพากย์ของผู้การรถถังนี้"
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "เสียงพากย์เฉพาะตัว"
+
+msgid "tankman/recruit"
+msgstr "ทหารเกณฑ์"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "หน้าตา"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "ประวัติย่อ"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "บันทึกประจำการ"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "ทหารเกณฑ์"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "ตั้งค่าตัวกรองใหม่"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "ไม่พบ โปรดเปลี่ยนการตั้งค่าหรือตั้งค่าตัวกรองใหม่"
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "ไม่พบ โปรดเกณฑ์สมาชิกพลรถถัง"
+
+msgid "tankmanList/filter/title"
+msgstr "สมาชิกพลรถถัง:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "มีเตียงในค่ายทหารไม่พอ"
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "แสดง/ซ่อนเฉพาะสมาชิกพลรถถังปลดเกษียณแล้ว"
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "เกษียณแล้ว"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "แสดงสมาชิกพลรถถังในค่ายทหาร"
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "ในค่ายทหาร"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "แสดงสมาชิกพลรถถังในพาหนะ"
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "ในพาหนะ"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "แสดง/ซ่อนลายของประเทศนี้"
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "ปรับการแสดงสมาชิกพลรถถังตามคุณสมบัติ, ความเชี่ยวชาญพิเศษและค่าอื่นๆ"
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "กรองตามค่า"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "เกณฑ์สมาชิกพลรถถังใหม่"
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "ชื่อจะต้องมีความยาวถึง %(maxLength)s อักษร"
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*เลื่อนลูกศรไปเหนือความสามารถจะแสดงว่าความสามารถมีผลกับคุณลักษณะใดเมื่อฝึกถึง 100% ด้วยขั้นประสิทธิภาพความสามารถปัจจุบัน"
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "รับทราบ!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "สองความสามารถใหม่สำหรับแต่ละคุณสมบัติถูกเพิ่มเข้ามา, การจัดวางที่ไว้ใจได้ได้รับการแก้ไขและมีตัวเลือกใหม่ที่ทำให้คุณซ่อนความสามารถในแผงโต้ตอบการรบ"
+
+msgid "welcomeScreen/item2/description"
+msgstr "การดำเนินการใหม่ที่สะดวกทำให้คุณสามารถปลดสมาชิกพลรถถังฝึกน้อยไปได้ในการคลิกเพียงครั้งเดียว"
+
+msgid "welcomeScreen/item3/description"
+msgstr "ความสามารถตอนนี้สามารถตั้งใหม่ได้ด้วยการใช้เงินโดยไม่เสียประสบการณ์"
+
+msgid "welcomeScreen/subTitle"
+msgstr "มีการเพิ่มความสามารถและเนื้อหาใหม่เข้ามาและทำการปรับความสามารถที่มีอยู่แล้วด้วย"
+
+msgid "welcomeScreen/title"
+msgstr "การปรับกับพลรถถัง"

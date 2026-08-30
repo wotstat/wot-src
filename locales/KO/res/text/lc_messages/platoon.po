@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/cancelSearch/caption"
+msgstr "검색 취소"
+
+msgid "buttons/cancelSearch/description"
+msgstr "소대원 검색을 취소합니다."
+
+msgid "buttons/createPlatoon/caption"
+msgstr "새 소대"
+
+msgid "buttons/createPlatoon/description"
+msgstr "소대를 조직하여 친구를 초대하고 함께 플레이합니다."
+
+msgid "buttons/createSuperPlatoon/caption"
+msgstr "새 특급 소대"
+
+msgid "buttons/findPlayers/caption"
+msgstr "플레이어 검색"
+
+msgid "buttons/findPlayers/descriptionDropdown"
+msgstr "검색 필터를 사용하여 실력과 전차가 비슷한 플레이어를 검색합니다."
+
+msgid "buttons/findPlayers/descriptionMembers"
+msgstr "플레이어 검색을 시작하면 친구에게 보낸 모든 초대가 취소됩니다."
+
+msgid "buttons/findPlayers/tooltip/header"
+msgstr "플레이어 검색"
+
+msgid "buttons/findPlayers/tooltip/noAssembling/body"
+msgstr "플레이어 검색 불가: 서버에 소대가 너무 많습니다."
+
+msgid "buttons/findPlayers/tooltip/noSuitableTank/body"
+msgstr "소대로 초대할 플레이어 검색 불가: 적합한 전차가 없습니다."
+
+msgid "buttons/invite/player/caption"
+msgstr "플레이어 초대"
+
+msgid "buttons/invite/player/description"
+msgstr "플레이어를 소대로 초대합니다."
+
+msgid "buttons/invite/players/caption"
+msgstr "플레이어 초대"
+
+msgid "buttons/invite/players/description"
+msgstr "플레이어를 소대로 초대합니다."
+
+msgid "buttons/leavePlatoon/caption"
+msgstr "소대 탈퇴"
+
+msgid "buttons/leavePlatoon/description"
+msgstr "소대를 떠납니다."
+
+msgid "buttons/mute/caption"
+msgstr "소대 음성 대화 비활성화"
+
+msgid "buttons/mute/description"
+msgstr "소대 음성 대화를 비활성화합니다."
+
+msgid "buttons/notReady/caption"
+msgstr "준비 취소"
+
+msgid "buttons/notReady/description"
+msgstr "전투 준비를 완료하지 않습니다."
+
+msgid "buttons/ready/caption"
+msgstr "준비 완료!"
+
+msgid "buttons/ready/description"
+msgstr "전투 준비를 완료합니다."
+
+msgid "buttons/reset/caption"
+msgstr "검색 조건 초기화"
+
+msgid "buttons/reset/description"
+msgstr "검색 조건을 기본값으로 초기화합니다."
+
+msgid "buttons/settings/caption"
+msgstr "검색 조건 설정"
+
+msgid "buttons/settings/description"
+msgstr "설정한 조건에 따라 플레이어를 검색합니다. 조건을 만족하는 플레이어가 없으면 검색 범위가 넓어집니다."
+
+msgid "buttons/unMute/caption"
+msgstr "소대 음성 대화 활성화"
+
+msgid "buttons/unMute/description"
+msgstr "소대 음성 대화를 활성화합니다."
+
+msgid "headerButton/inSquad"
+msgstr "소대 참여 중"
+
+msgid "headerButton/onboarding"
+msgstr "소대를 구성할\n플레이어 검색 가능"
+
+msgid "headerButton/searching"
+msgstr "검색 중..."
+
+msgid "headerButton/squad"
+msgstr "소대 조직"
+
+msgid "headerButton/tooltips/battleRoyaleSquad/body"
+msgstr "친구와 소대를 조직하여 전투에 참여합니다. 서로 협력하여 9개의 소대를 상대로 전투를 펼치게 됩니다."
+
+msgid "headerButton/tooltips/battleRoyaleSquad/header"
+msgstr "소대"
+
+msgid "headerButton/tooltips/comp7BanIsSet/body"
+msgstr "일시적으로 해당 모드 이용이 차단되어 소대를 조직하거나 소대에 참여할 수 없습니다."
+
+msgid "headerButton/tooltips/comp7LightNoSuitableVehicles/body"
+msgstr "소대를 조직하거나 소대에 참여하려면 해당 모드에 적합한 %(level)s단계 전차를 차고에 한 대 이상 보유하고 있어야 합니다."
+
+msgid "headerButton/tooltips/comp7LightRestriction/body"
+msgstr "일시적으로 소대를 조직할 수 없습니다."
+
+msgid "headerButton/tooltips/comp7LightRestriction/header"
+msgstr "소대 이용 불가"
+
+msgid "headerButton/tooltips/comp7LightSquad/body"
+msgstr "소대를 조직하거나 소대에 참여할 수 있습니다. 격전 라이트 소대는 2인 또는 7인으로 구성됩니다."
+
+msgid "headerButton/tooltips/comp7LightSquad/header"
+msgstr "소대"
+
+msgid "headerButton/tooltips/comp7NoSuitableVehicles/body"
+msgstr "적합한 %(level)s단계 전차가 차고에 없어 소대를 조직하거나 소대에 참여할 수 없습니다."
+
+msgid "headerButton/tooltips/comp7QualificationSquad/body"
+msgstr "사전 평가를 완료하면 2인 및 7인 소대로 전투에 참여할 수 있습니다."
+
+msgid "headerButton/tooltips/comp7Restriction/body"
+msgstr "소대를 조직할 수 없습니다."
+
+msgid "headerButton/tooltips/comp7Restriction/header"
+msgstr "소대 이용 불가"
+
+msgid "headerButton/tooltips/comp7Squad/body"
+msgstr "소대를 조직하거나 소대에 참여할 수 있습니다. 격전 소대는 2인 또는 7인으로 구성됩니다."
+
+msgid "headerButton/tooltips/comp7Squad/header"
+msgstr "소대"
+
+msgid "headerButton/tooltips/dominationSquad/body"
+msgstr "2명 또는 3명으로 소대를 구성하여 전투에 참여합니다.\n• 전투 모드: 무한 결사전\n• 전투 유형: 난투전, 깃발전"
+
+msgid "headerButton/tooltips/dominationSquad/header"
+msgstr "소대"
+
+msgid "headerButton/tooltips/eventSquad/body"
+msgstr "2인 또는 3인 소대를 구성하여 위대한 레이스에 참가합니다."
+
+msgid "headerButton/tooltips/eventSquad/header"
+msgstr "위대한 레이스 소대"
+
+msgid "headerButton/tooltips/inMapboxSquad/body"
+msgstr "소대 메뉴를 엽니다."
+
+msgid "headerButton/tooltips/inMapboxSquad/header"
+msgstr "정찰 임무: 소대"
+
+msgid "headerButton/tooltips/inSquad/body"
+msgstr "소대 메뉴를 엽니다."
+
+msgid "headerButton/tooltips/inSquad/header"
+msgstr "소대"
+
+msgid "headerButton/tooltips/mapboxSquad/body"
+msgstr "정찰 임무에 참여할 2인 또는 3인 소대를 조직합니다."
+
+msgid "headerButton/tooltips/mapboxSquad/header"
+msgstr "정찰 임무: 소대"
+
+msgid "headerButton/tooltips/rankedSquad/body"
+msgstr "랭크 전투는 소대로 참여할 수 없습니다."
+
+msgid "headerButton/tooltips/rankedSquad/header"
+msgstr "소대 조직"
+
+msgid "headerButton/tooltips/searching/body"
+msgstr "플레이어 검색 중..."
+
+msgid "headerButton/tooltips/searching/header"
+msgstr "검색 중"
+
+msgid "headerButton/tooltips/squad/body"
+msgstr "2인 또는 3인 소대를 구성하여 무작위 전투 또는 전선 대격돌 전투(활성화 시)에 참여합니다."
+
+msgid "headerButton/tooltips/squad/header"
+msgstr "소대"
+
+msgid "members/card/connectionLost"
+msgstr "접속 제한 안내"
+
+msgid "members/card/disabled"
+msgstr "해당 모드는 2인 소대만 지원"
+
+msgid "members/card/disabledVertical"
+msgstr "해당 모드에서 이용 불가"
+
+msgid "members/card/empty"
+msgstr "빈 슬롯"
+
+msgid "members/card/inBattle"
+msgstr "전투 중"
+
+msgid "members/card/muted/caption"
+msgstr "플레이어 음소거"
+
+msgid "members/card/muted/description"
+msgstr "우클릭하여 해당 플레이어 음소거를 해제합니다."
+
+msgid "members/card/notReady"
+msgstr "준비 취소"
+
+msgid "members/card/searching"
+msgstr "플레이어 검색 중..."
+
+msgid "members/card/selectVehicle"
+msgstr "%(level)s단계 전차 선택"
+
+msgid "members/chat/chatName"
+msgstr "대화 채널:"
+
+msgid "members/chat/sendMessage/body"
+msgstr "대화 채널에 메시지를 입력합니다."
+
+msgid "members/chat/sendMessage/header"
+msgstr "메시지 전송"
+
+msgid "members/footer/comp7Invite"
+msgstr "초대"
+
+msgid "members/footer/comp7Limitations"
+msgstr "최고 랭크 제한"
+
+msgid "members/footer/comp7TopPlayer"
+msgstr "소대원 최고 랭크"
+
+msgid "members/footer/getNotReady"
+msgstr "전투 준비를 취소합니다."
+
+msgid "members/footer/getReady"
+msgstr "전투 준비를 완료합니다."
+
+msgid "members/footer/invalidVehicleLevel"
+msgstr "올바르지 않은 전차 단계"
+
+msgid "members/footer/vehicles/differentLevels"
+msgstr "부적절한 소대 플레이로 경험치 페널티가 적용됩니다!"
+
+msgid "members/footer/vehiclesGroupIsFull"
+msgstr "전차 제한 도달"
+
+msgid "members/footer/vehiclesGroupIsFull/AT_SPG"
+msgstr "소대 구축전차 제한 도달"
+
+msgid "members/footer/vehiclesGroupIsFull/SPG"
+msgstr "소대 자주포 제한 도달"
+
+msgid "members/footer/vehiclesGroupIsFull/heavyTank"
+msgstr "소대 중전차 제한 도달"
+
+msgid "members/footer/vehiclesGroupIsFull/mediumTank"
+msgstr "소대 중형전차 제한 도달"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_universal"
+msgstr "소대 경전차 제한 도달"
+
+msgid "members/footer/vehiclesGroupIsFull/role_LT_wheeled"
+msgstr "소대 치륜 전차 제한 도달"
+
+msgid "members/footer/vehiclesGroupIsFull/scout"
+msgstr "소대 경전차 제한 도달"
+
+msgid "members/header/battle_royal"
+msgstr ": 배틀 로얄"
+
+msgid "members/header/epic"
+msgstr ": 전선 대격돌"
+
+msgid "members/header/event"
+msgstr ": Waffenträger: 히페리온 프로젝트"
+
+msgid "members/header/mapbox"
+msgstr ": 정찰 임무"
+
+msgid "members/header/noBonusPlaceholder/tooltip/body"
+msgstr "+++NO BONUS TOOLTIP BODY PLACEHOLDER+++"
+
+msgid "members/header/noBonusPlaceholder/tooltip/header"
+msgstr "+++NO BONUS TOOLTIP HEADER PLACEHOLDER+++"
+
+msgid "members/header/squad"
+msgstr ": 무작위 전투"
+
+msgid "members/header/tooltip/epic/body"
+msgstr "전선 대격돌은 8단계 전차로만\n참여할 수 있습니다."
+
+msgid "members/header/tooltip/epic/header"
+msgstr "소대 조직 규칙"
+
+msgid "members/header/tooltip/event/body"
+msgstr "해당 모드 전용 특별 전차 3대로 소대를 구성해야 합니다."
+
+msgid "members/header/tooltip/event/header"
+msgstr "소대 조직 규칙"
+
+msgid "members/header/tooltip/standard/body"
+msgstr "소대는 같은 단계 전차로 구성되어야 합니다."
+
+msgid "members/header/tooltip/standard/header"
+msgstr "소대 조직 규칙"
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "소대 플레이어"
+
+msgid "searching/estimated/caption"
+msgstr "예상 시간"
+
+msgid "searching/estimated/lessThan"
+msgstr "%(seconds)d초 미만"
+
+msgid "searching/estimated/moreThan"
+msgstr "%(seconds)d초 이상"
+
+msgid "searching/expanded/body"
+msgstr "조건에 맞는 플레이어가 없습니다.\n다른 단계 전차를 포함하여 검색합니다."
+
+msgid "searching/expanded/header"
+msgstr "검색 범위 확장"
+
+msgid "searching/lookingFor"
+msgstr "검색 범위:"
+
+msgid "searching/playersInQueue"
+msgstr "대기 중인 플레이어"
+
+msgid "searching/state"
+msgstr "검색 중:"
+
+msgid "settings/tiers"
+msgstr "전차 단계"
+
+msgid "settings/voice"
+msgstr "음성 대화"
+
+msgid "squad"
+msgstr "소대"

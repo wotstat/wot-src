@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "乘員與訓練"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "自訂要素"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "裝備與技術指南"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "其他"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "車輛"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "了解！"
+
+msgid "autoOpenView/title"
+msgstr "獎勵已獲得"
+
+msgid "awardViews/footer/backButton/"
+msgstr "了解!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "技術指南"
+
+msgid "bonuses/description/booster"
+msgstr "個人儲備"
+
+msgid "bonuses/description/crewSkin"
+msgstr "乘員外表"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "標準裝備"
+
+msgid "bonuses/description/style"
+msgstr "2D 風格"
+
+msgid "bonuses/description/style3D"
+msgstr "3D 風格"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "藍圖碎片（%(nation)s）"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "通用藍圖碎片"
+
+msgid "bonuses/label/bpcoin"
+msgstr "戰車遠征代幣"
+
+msgid "boxTooltip/description/text/default"
+msgstr "打開後可能開出車輛、經濟資源與其他珍貴物品。\n補給箱可在遊戲內商店購買。"
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "開出保證可獲得的獎勵前，最多需打開的補給箱數，若未提前開出。"
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "補給箱可在遊戲內商店購買。"
+
+msgid "common/backButton"
+msgstr "返回"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "戰術補給箱"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "戰術補給箱"
+
+msgid "common/closeButton"
+msgstr "關閉"
+
+msgid "common/footer/checkbox"
+msgstr "開箱動畫"
+
+msgid "common/getButton/lowerCase"
+msgstr "獲得更多"
+
+msgid "common/getButton/upperCase"
+msgstr "獲得更多"
+
+msgid "common/infoButton"
+msgstr "裡頭有什麼呢？"
+
+msgid "common/loader"
+msgstr "補給箱打開中..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) 個"
+msgstr[1] "%(count) 個"
+msgstr[2] "%(count) 個"
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "天"
+msgstr[1] "天"
+msgstr[2] "天"
+
+msgid "common/selectTooltip"
+msgstr "補給箱數量不足，無法一次打開 {{count}} 個"
+
+msgid "common/statistics/emptyHeader"
+msgstr "打開補給箱以檢視統計。"
+
+msgid "common/statistics/header"
+msgstr "打開的補給箱數：%(count)"
+
+msgid "common/statsButton"
+msgstr "統計"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "取消"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "您的獎勵紀錄將被刪除。"
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "重置"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "要重置統計？"
+
+msgid "entryPoint/boxes"
+msgstr "前往補給箱"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "這些為可能開出全新與獨特物品的特殊補給箱。可在遊戲內商店中獲取。"
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "活動將結束於"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "由於發生技術性問題，我們已暫停活動以進行修復。"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "暫時無法使用"
+
+msgid "eventName/lowerCase"
+msgstr "戰地補給"
+
+msgid "eventName/upperCase"
+msgstr "戰地補給"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "每打開 %(count) 個"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "車輛"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "%(count)，保證可獲得一輛%(item)。若提前開出，計數器將會重置。"
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "若在車庫中已擁有所有車輛，您將改為獲得金幣。"
+
+msgid "guaranteedTitle/text"
+msgstr "再打開 %(count) 個，會開出%(name)"
+
+msgid "guaranteedTitle/textName"
+msgstr "保證可獲得的獎勵"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "打開"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s：%(count)s"
+
+msgid "homeView/subtitle"
+msgstr "活動將結束於 %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "若您未在活動結束前打開所有的補給箱，這些補給箱將會於稍後自動打開。"
+
+msgid "infoPage/footer/description/compensation"
+msgstr "若您已有補給箱可能開出的所有車輛，後續從補給箱開出任何車輛時，您將獲得與該車輛等值的金幣補償。"
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "每%(guaranteed0)s個補給箱保證會開出一輛VIII–X階車輛。若這些補給箱連續未開出此類車輛，當您打開第%(guaranteed0)s個補給箱（依補給箱類型而異）時，將會開出一輛您未在車庫中擁有的VIII–X階車輛。開出車輛後，計數器將重置。"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "自動打開"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "補償"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "保證可獲得的獎勵"
+
+msgid "infoPage/header/lootListLink"
+msgstr "在遊戲入口網站檢視物品清單"
+
+msgid "infoPage/header/probability/description"
+msgstr "開出機率"
+
+msgid "infoPage/header/probability/title"
+msgstr "群組"
+
+msgid "infoPage/header/rewards/description"
+msgstr "每個群組中的獎勵最多僅會有一項開出"
+
+msgid "infoPage/header/rewards/title"
+msgstr "獎勵"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "開啟更多"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "從「%(name)」（已打開 %(boxesCount) 個補給箱）"
+
+msgid "multipleRewardView/header/title/"
+msgstr "獎勵已獲得"
+
+msgid "noBoxesView/description/"
+msgstr "補給箱可在遊戲內商店購買"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "前往商店"
+
+msgid "noBoxesView/goToButton/"
+msgstr "前往可用補給箱"
+
+msgid "preview/backLabel"
+msgstr "前往補給箱"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "可用：%(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "已無補給箱"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "繼續"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "%(vehicleInfo) 專屬"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "「%(style)」3D 風格"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "「%(eventName)s」活動已結束"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "將打開所有剩餘的補給箱。當中內容將新增到您的帳號。"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "檢視獎勵"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "已獲得獎勵"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "您在活動期間未收到的物品已新增到您的帳號。"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "活動因維護中而暫時無法進行。"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "活動已可再次進行。我們為帶來的不便感到抱歉。"
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s 個)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "獎勵已獲得："
+
+msgid "serviceChannelMessages/server_error"
+msgstr "錯誤"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "請先等前一個操作完成。"
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "操作暫時無法進行。請稍後再試。"
+
+msgid "serviceChannelMessages/start/button"
+msgstr "前往活動"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "「%(eventName)s」活動已開始"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "僅開放至 %(date)s：加值車輛與珍貴遊戲內物品！"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "無法重置統計。請稍後再試。"
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "另外還有"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "開啟更多"
+
+msgid "singleRewardView/header/title/"
+msgstr "獎勵已獲得"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "獨特乘員"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D 配飾"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "5 倍經驗加成任務"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "技術指南"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "藍圖碎片"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "手札"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "訓練手札"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "消耗品"
+
+msgid "statisticsRewards/label/credits"
+msgstr "銀幣"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "手冊"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "訓練手冊"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "3 倍乘員經驗加成任務"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "點券"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "自訂要素"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "改良型裝備"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "部件"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "試驗型裝備"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "自由經驗"
+
+msgid "statisticsRewards/label/gold"
+msgstr "金幣"
+
+msgid "statisticsRewards/label/guide"
+msgstr "指南"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "訓練指南"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "指導許可證"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "標準裝備"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "個人儲備"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "《戰車世界》加值帳號"
+
+msgid "statisticsRewards/label/rations"
+msgstr "食物類消耗品"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "重新訓練命令"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D 風格"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D 風格"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "乘員"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "戰勛裝備"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "車輛"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "重置統計"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "點擊以重置所有統計。"
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "與其他 %(count) 個獎勵。"
+msgstr[1] "與其他 %(count) 個獎勵。"
+msgstr[2] "與其他 %(count) 個獎勵。"
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "「%(label)」"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "國家藍圖碎片"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). %(vehicleInfo) 的「%(label)」"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "已獲補償的風格：%(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "已獲補償的車輛：%(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "車庫中既有車輛的補償。"

@@ -1,0 +1,1547 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "Đình chiến đang có hiệu lực trên mọi máy chủ. Chiến trận sẽ khả dụng sau %(primeDelta)s"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "Mùa %(leftSeasonName)s đã kết thúc"
+
+msgid "alertMessage/allNotSet"
+msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Chọn Máy chủ Khác"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Chi Tiết"
+
+msgid "alertMessage/notAvailable"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ %(serverName)s"
+
+msgid "alertMessage/notSet"
+msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ này. Chiến trận sẽ khả dụng sau %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "Mùa %(leftSeasonName)s đã kết thúc"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s ngày"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s giờ %(min)s ph"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 ph"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s ph"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "Không có xe Cấp %(levels)s phù hợp trong Ga-ra"
+
+msgid "awards/bonusBattles/efficiency"
+msgstr "Số trận Tiêu chuẩn cho thành tích trong giai đoạn đã hoàn tất: %(amount)s"
+
+msgid "awards/bonusBattles/header"
+msgstr "Trận Chiến lợi đã nhận:"
+
+msgid "awards/bonusBattles/label"
+msgstr "Trận Chiến lợi đã nhận: %(count)s"
+
+msgid "awards/bonusBattles/steps/daily"
+msgstr " \nSố trận Hàng ngày cho lượng quân hàm nhận được ở Vòng loại: %(amount)s"
+
+msgid "awards/bonusBattles/steps/persistent"
+msgstr " \nSố trận Tiêu chuẩn cho lượng quân hàm nhận được ở Vòng loại: %(amount)s"
+
+msgid "awards/congratulation"
+msgstr "Xin chúc mừng!"
+
+msgid "awards/gotDivision"
+msgstr "Bạn đã lên Phân cấp tiếp theo"
+
+msgid "awards/gotLeague"
+msgstr "Bạn đã đạt cấp độ Hạng đấu"
+
+msgid "awards/gotQualification"
+msgstr "Bạn đã hoàn tất Vòng loại và lên Phân cấp Ba."
+
+msgid "awards/gotQualificationQuest"
+msgstr "Bạn nhận được phần thưởng cho Vòng loại. Số trận đã đánh: %(count)s"
+
+msgid "awards/gotRank"
+msgstr "Đã nhận Bậc mới"
+
+msgid "awards/yes"
+msgstr "Đã rõ!"
+
+msgid "battleResult/losers"
+msgstr "Phe thua"
+
+msgid "battleResult/rank/lose"
+msgstr "Xuống bậc"
+
+msgid "battleResult/rank/progress/lose"
+msgstr "Mất quân hàm"
+
+msgid "battleResult/rank/progress/up"
+msgstr "Quân hàm nhận được"
+
+msgid "battleResult/rank/unchanged"
+msgstr "Quân hàm giữ được"
+
+msgid "battleResult/rank/up"
+msgstr "Lên bậc"
+
+msgid "battleResult/winners"
+msgstr "Phe thắng"
+
+msgid "battleResult/yes"
+msgstr "Đã rõ!"
+
+msgid "battleresult/bonusBattlesEarned"
+msgstr " \n\nĐã thêm Trận Chiến lợi:"
+
+msgid "battleresult/bonusBattlesEarned/efficiency"
+msgstr " \nSố trận Tiêu chuẩn cho thành tích trong giai đoạn đã hoàn tất: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/daily"
+msgstr " \nSố trận Hàng ngày cho lượng quân hàm nhận được ở Vòng loại: %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/persistent"
+msgstr " \nSố trận Tiêu chuẩn cho lượng quân hàm nhận được ở Vòng loại: %(amount)s"
+
+msgid "battleresult/bonusBattlesUsed"
+msgstr ". Bạn đã đánh một Trận Chiến lợi."
+
+msgid "battleresult/divisionEarned"
+msgstr "Phân cấp\nMới"
+
+msgid "battleresult/first/inTop/lose"
+msgstr "Bạn là người chơi đứng đầu bên phe thua về số kinh nghiệm kiếm được"
+
+msgid "battleresult/first/inTop/win"
+msgstr "Bạn là người chơi đứng đầu bên phe thắng về số kinh nghiệm kiếm được"
+
+msgid "battleresult/first/notInTop/lose"
+msgstr "Bạn không phải là người chơi đứng đầu bên phe thua về số kinh nghiệm kiếm được"
+
+msgid "battleresult/first/notInTop/win"
+msgstr "Bạn không phải là người chơi đứng đầu bên phe thắng về số kinh nghiệm kiếm được"
+
+msgid "battleresult/headerText"
+msgstr "Kết quả Chiến đấu"
+
+msgid "battleresult/inTop/lose"
+msgstr "Bạn đứng Top %(topNumber)s người chơi bên phe thua về số kinh nghiệm kiếm được"
+
+msgid "battleresult/inTop/win"
+msgstr "Bạn đứng Top %(topNumber)s người chơi bên phe thắng về số kinh nghiệm kiếm được"
+
+msgid "battleresult/leagueEarned"
+msgstr "Lên\nHạng đấu"
+
+msgid "battleresult/leagueUnavailable"
+msgstr "Hạng của bạn sẽ được xác định sau khi cập nhật Bảng Xếp Hạng.\n "
+
+msgid "battleresult/notInTop/lose"
+msgstr "Bạn không thuộc Top %(topNumber)s người chơi bên phe thua về số kinh nghiệm kiếm được"
+
+msgid "battleresult/notInTop/minXP"
+msgstr "Bạn đã không kiếm được số kinh nghiệm tối thiểu."
+
+msgid "battleresult/notInTop/stageSaved"
+msgstr "Bạn đã được bảo vệ khỏi mất quân hàm ở giai đoạn này"
+
+msgid "battleresult/notInTop/win"
+msgstr "Bạn không thuộc Top %(topNumber)s người chơi bên phe thắng về số kinh nghiệm kiếm được"
+
+msgid "battleresult/rankEarned"
+msgstr "Lên\nbậc"
+
+msgid "battleresult/rankLost"
+msgstr "Xuống\nbậc"
+
+msgid "battleresult/rankUnburnable"
+msgstr "Không\nthay đổi"
+
+msgid "battleresult/shieldLose"
+msgstr "Khiên bậc\nđã vỡ"
+
+msgid "battleresult/shieldLoseStep"
+msgstr "Khiên bậc\nđã suy yếu"
+
+msgid "battleresult/stageEarned"
+msgstr "Quân hàm\nnhận được"
+
+msgid "battleresult/stageLost"
+msgstr "Quân hàm\nđã mất"
+
+msgid "battleresult/stageNotEarned"
+msgstr "Quân hàm\ngiữ được"
+
+msgid "battleresult/stageSaved"
+msgstr "Quân hàm\ngiữ được"
+
+msgid "battleresult/stagesEarned"
+msgstr "Quân hàm\nnhận được"
+
+msgid "battleresult/status/rankEarned"
+msgstr "Trở lại bậc"
+
+msgid "battleresult/status/rankLost"
+msgstr "Mất bậc"
+
+msgid "battleresult/status/rankUnburnable"
+msgstr "Không thay đổi"
+
+msgid "battleresult/status/shieldCount"
+msgstr " \nSức kháng cự giữ được: %(count)s"
+
+msgid "battleresult/status/shieldLose"
+msgstr "Khiên bậc đã vỡ!"
+
+msgid "battleresult/status/shieldLoseStep"
+msgstr "Khiên bậc đã suy yếu!"
+
+msgid "battleresult/status/shieldRenew"
+msgstr " \nKhiên bậc đã khôi phục"
+
+msgid "battleresult/status/shieldWarning"
+msgstr " \nMột thất bại nữa có thể khiến bạn xuống bậc."
+
+msgid "battleresult/status/stageEarned"
+msgstr "Quân hàm nhận được"
+
+msgid "battleresult/status/stageLost"
+msgstr "Mất quân hàm"
+
+msgid "battleresult/status/stageNotEarned"
+msgstr "Quân hàm giữ được"
+
+msgid "battleresult/status/stageSaved"
+msgstr "Quân hàm giữ được"
+
+msgid "battleresult/status/stagesEarned"
+msgstr "Quân hàm nhận được"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgstr "Mùa %(seasonName)s sẽ kéo dài %(days)s ngày"
+
+msgid "calendarDay/title"
+msgstr "Lịch chiến đấu"
+
+msgid "calendarStepsTooltip/title"
+msgstr "Lịch Giai đoạn"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "Không phù hợp cho chế độ này"
+
+msgid "division/bronze"
+msgstr "Phân cấp Ba"
+
+msgid "division/classification"
+msgstr "Vòng loại"
+
+msgid "division/gold"
+msgstr "Phân cấp Một"
+
+msgid "division/silver"
+msgstr "Phân cấp Hai"
+
+msgid "division/status/completed"
+msgstr "Đã hoàn thành Phân cấp"
+
+msgid "division/status/completed/description"
+msgstr "Bạn đã hoàn tất thành công Phân cấp được chọn."
+
+msgid "division/status/locked"
+msgstr "Phân cấp không khả dụng"
+
+msgid "division/status/locked/description"
+msgstr "Chưa hoàn thành Phân cấp trước."
+
+msgid "division/status/qualification"
+msgstr "Số trận đã đánh: %(progress)s"
+
+msgid "division/status/qualification/progress"
+msgstr "%(current)s / %(total)s"
+
+msgid "division/status/qualificationDescr/complete"
+msgstr "Đã hoàn tất Vòng loại"
+
+msgid "division/status/qualificationDescr/progress"
+msgstr "Đánh %(battlesTotal)s trận để hoàn tất Vòng loại.\nKhi xong, bạn sẽ nhận được phần thưởng cho %(battlesList)s trận tham chiến."
+
+msgid "division/tooltip/battlesDescription"
+msgstr "Bao gồm %(battlesCount)s trận đánh"
+
+msgid "division/tooltip/desc/completed/text"
+msgstr "Bạn đã nhận được mọi bậc ở Phân cấp này."
+
+msgid "division/tooltip/desc/completedFinal/text"
+msgstr "Bạn đã nhận được mọi bậc ở Phân cấp này và chuyển lên các Hạng đấu."
+
+msgid "division/tooltip/desc/completedQual/text"
+msgstr "Số trận Vòng loại cần thiết đã được hoàn thành."
+
+msgid "division/tooltip/desc/current/text"
+msgstr "Sau khi hoàn tất, bạn sẽ lên Phân cấp tiếp theo và nhận được Trận Chiến lợi giúp đẩy nhanh tiến trình của mình."
+
+msgid "division/tooltip/desc/currentFinal/text"
+msgstr "Sau khi hoàn tất, bạn sẽ chuyển lên các Hạng đấu và nhận được Trận Chiến lợi giúp củng cố hoặc cải thiện vị thứ của mình trong Top đầu Mùa giải."
+
+msgid "division/tooltip/desc/currentQual/text"
+msgstr "Khi hoàn tất Vòng loại, bạn sẽ nhận được phần thưởng cho %(battles)s trận tham chiến.\nSau đó, bạn sẽ lên Phân cấp Ba và sở hữu Trận Chiến lợi giúp đẩy nhanh tiến trình của mình."
+
+msgid "division/tooltip/desc/locked/text"
+msgstr "Sau khi hoàn tất, bạn sẽ lên Phân cấp tiếp theo và nhận được Trận Chiến lợi giúp đẩy nhanh tiến trình của mình."
+
+msgid "division/tooltip/desc/lockedFinal/text"
+msgstr "Sau khi hoàn tất, bạn sẽ chuyển lên các Hạng đấu và nhận được Trận Chiến lợi giúp củng cố hoặc cải thiện vị thứ của mình trong Top đầu Mùa giải."
+
+msgid "division/tooltip/desc/title"
+msgstr "Mô tả:"
+
+msgid "division/tooltip/rankDescription"
+msgstr "Bao gồm %(ranksCount)s Bậc"
+
+msgid "division/tooltip/status/completed"
+msgstr "Đã hoàn thành Phân cấp"
+
+msgid "division/tooltip/status/completedQual"
+msgstr "Đã hoàn tất"
+
+msgid "division/tooltip/status/current"
+msgstr "Chưa hoàn thành Phân cấp"
+
+msgid "division/tooltip/status/currentQual"
+msgstr "Chưa hoàn tất"
+
+msgid "division/tooltip/status/locked"
+msgstr "Phân cấp không khả dụng"
+
+msgid "division/tooltip/status/locked/desc"
+msgstr "Đầu tiên, hãy hoàn thành Phân cấp trước đó."
+
+msgid "division/tooltip/status/locked/descQual"
+msgstr "Chưa hoàn tất vòng loại."
+
+msgid "introPage/alert/beforeSeason"
+msgstr "Sự kiện bắt đầu sau:"
+
+msgid "introPage/alert/disabled"
+msgstr "Chế độ tạm thời không khả dụng. Xin vui lòng trở lại sau."
+
+msgid "introPage/blocks/block1/description"
+msgstr "Các trận đánh gồm 10v10 người chơi, theo định dạng chế độ Cơ bản, trên một số bản đồ giới hạn, chỉ dành cho xe có thể nghiên cứu và Sưu tập Cấp X."
+
+msgid "introPage/blocks/block1/title"
+msgstr "Xe Cấp X"
+
+msgid "introPage/blocks/block2/description"
+msgstr "Hoàn thành 3 Phân cấp trên con đường chiến thắng và đạt đến một trong các Hạng đấu bằng cách so tài với những người chơi cùng đẳng cấp."
+
+msgid "introPage/blocks/block2/title"
+msgstr "Tiến trình Trận đánh Xếp hạng"
+
+msgid "introPage/blocks/block3/description"
+msgstr "Sau khi hoàn tất mỗi một trong ba Mùa, bạn sẽ nhận được kiểu mẫu đặc biệt cho xe Cấp X. Bạn sẽ còn thu về nhiều phần thưởng giá trị và một xe Cấp X độc đáo vào cuối Mùa 2021–2022."
+
+msgid "introPage/blocks/block3/title"
+msgstr "Phần thưởng Độc đáo"
+
+msgid "introPage/blocks/yearRewardDisabled"
+msgstr "Mỗi bậc đạt được sẽ mang lại phần thưởng giá trị. Chưa kể, bạn sẽ thu về một kiểu mẫu độc đáo cho xe Cấp X khi hoàn tất cả ba Mùa."
+
+msgid "introPage/btns/accept"
+msgstr "Đã rõ!"
+
+msgid "introPage/btns/detailed"
+msgstr "Chi tiết Chế độ"
+
+msgid "introPage/btns/toHangar"
+msgstr "Đến Ga-ra"
+
+msgid "introPage/description"
+msgstr "Chiến trận 10v10, xe Cấp X, 3 Phân cấp trên con đường chiến thắng."
+
+msgid "introPage/timeLeft/days"
+msgstr "%(day)s ng %(hour)s giờ"
+
+msgid "introPage/timeLeft/hours"
+msgstr "%(hour)s giờ %(min)s ph"
+
+msgid "introPage/timeLeft/lessMin"
+msgstr "1 ph"
+
+msgid "introPage/timeLeft/min"
+msgstr "%(min)s ph"
+
+msgid "notification/rankEarned"
+msgstr "Lên bậc"
+
+msgid "notification/rankLost"
+msgstr "Xuống bậc"
+
+msgid "notification/rankedMessage"
+msgstr "Xin chúc mừng!\nBạn đã lên Bậc %(rankRoman)s\nBạc kiếm được: %(creditsCount)s\nĐiểm kiếm được: %(expCount)s\nDanh hiệu đã nhận: %(medalsCount)s"
+
+msgid "notification/stageEarned"
+msgstr "Quân hàm nhận được"
+
+msgid "notification/stageLost"
+msgstr "Mất quân hàm"
+
+msgid "notification/stageNotEarned"
+msgstr "Quân hàm giữ được"
+
+msgid "notification/vehicleRankEarned"
+msgstr "Bậc xe nhận được"
+
+msgid "notification/vehicleRankLost"
+msgstr "Mất bậc xe"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "Máy chủ %(serverName)s\nChiến trận sẽ khả dụng sau %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "Máy chủ %(serverName)s\nMùa %(leftSeasonName)s đã kết thúc."
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "Máy chủ %(serverName)s\nChiến trận sẽ khả dụng thêm %(primeDelta)s nữa"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "Máy chủ %(serverName)s\nChiến trận sẽ khả dụng sau %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "Máy chủ %(serverName)s\nMùa %(leftSeasonName)s đã kết thúc."
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "Máy chủ %(serverName)s\nChiến trận sẽ khả dụng sau %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "Máy chủ %(serverName)s\nMùa %(leftSeasonName)s đã kết thúc."
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s ngày"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s giờ"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "1 phút"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s ph"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "Đình chiến đang có hiệu lực trên mọi máy chủ"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "Mùa %(leftSeasonName)s trên máy chủ %(serverName)s đã kết thúc."
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ %(serverName)s cho đến %(primeDeltaTime)s%(primeDeltaDate)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "Mùa %(leftSeasonName)s trên máy chủ %(serverName)s đã kết thúc."
+
+msgid "primeTimes/statusText/notSet"
+msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "Đình chiến đang có hiệu lực trên máy chủ %(serverName)s cho đến %(primeDeltaTime)s%(primeDeltaDate)s"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "Mùa %(leftSeasonName)s trên máy chủ %(serverName)s đã kết thúc."
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "Chế độ này không khả dụng trên máy chủ %(serverName)s"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "Chiến trận trên máy chủ %(serverName)s sẽ bắt đầu sau %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "Mùa %(leftSeasonName)s trên máy chủ %(serverName)s đã kết thúc."
+
+msgid "primeTimes/timeText/available"
+msgstr "Chiến trận trên máy chủ %(serverName)s sẽ khả dụng thêm %(primeDelta)s nữa"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "Chiến trận trên máy chủ %(serverName)s sẽ bắt đầu sau %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "Mùa %(leftSeasonName)s trên máy chủ %(serverName)s đã kết thúc."
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "Chiến trận trên máy chủ %(serverName)s sẽ bắt đầu sau %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "Mùa %(leftSeasonName)s trên máy chủ %(serverName)s đã kết thúc."
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "qualificationRewards/battlesNeeded"
+msgstr "Đánh %(battlesCount)s trận để hoàn tất Vòng loại."
+
+msgid "qualificationRewards/battlesPlayed"
+msgstr "Số trận đã đánh:"
+
+msgid "qualificationRewards/description"
+msgstr "Phần thưởng cho việc hoàn tất Vòng loại được trao sau khi trận Vòng loại cuối cùng kết thúc."
+
+msgid "quests/detailed/allServersPrime"
+msgstr "Đình chiến"
+
+msgid "quests/detailed/notInLeagues"
+msgstr "Cần Đạt đến các Hạng đấu"
+
+msgid "quests/detailed/seasonEnd/days"
+msgstr "Mùa kết thúc sau %(day)s ng"
+
+msgid "quests/detailed/seasonEnd/default"
+msgstr "Mùa sắp kết thúc"
+
+msgid "quests/detailed/seasonEnd/hours"
+msgstr "Mùa kết thúc sau %(hour)s giờ"
+
+msgid "quests/detailed/seasonEnd/lessMin"
+msgstr "Mùa kết thúc sau ít hơn 1 phút"
+
+msgid "quests/detailed/seasonEnd/min"
+msgstr "Mùa kết thúc sau %(min)s ph"
+
+msgid "quests/detailed/unavailableLabel"
+msgstr "Bất khả dụng:"
+
+msgid "quests/tooltip/unavailable/body/allServersPrime"
+msgstr "Nhiệm vụ sẽ khả dụng sau khi Trận đánh Xếp hạng kết thúc Đình chiến."
+
+msgid "quests/tooltip/unavailable/body/notInLeagues"
+msgstr "Cần Đạt đến các Hạng đấu"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/days"
+msgstr "Mùa kết thúc sau %(day)s ng"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/default"
+msgstr "Mùa sắp kết thúc"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/hours"
+msgstr "Mùa kết thúc sau %(hour)s giờ"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/lessMin"
+msgstr "Mùa kết thúc sau ít hơn 1 phút"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/min"
+msgstr "Mùa kết thúc sau %(min)s ph"
+
+msgid "quests/tooltip/unavailable/bottom"
+msgstr "Nhiệm vụ Không khả dụng"
+
+msgid "quests/tooltip/unavailable/header/allServersPrime"
+msgstr "Đình chiến"
+
+msgid "quests/tooltip/unavailable/header/notInLeagues"
+msgstr "Không thuộc Hạng đấu"
+
+msgid "quests/tooltip/unavailable/header/seasonEnd"
+msgstr "Cuối Mùa"
+
+msgid "questsTooltip/available"
+msgstr "Mùa kết thúc sau %(timeDelta)s"
+
+msgid "questsTooltip/available/days"
+msgstr "%(day)s ng"
+
+msgid "questsTooltip/available/hours"
+msgstr "%(hour)s giờ"
+
+msgid "questsTooltip/available/lessMin"
+msgstr "ít hơn 1 phút"
+
+msgid "questsTooltip/available/min"
+msgstr "%(min)s ph"
+
+msgid "questsTooltip/bottom"
+msgstr "Thêm nhiệm vụ: %(number)d"
+
+msgid "questsTooltip/cooldown/days"
+msgstr "Nhiệm vụ mới sẽ khả dụng sau %(day)s ng"
+
+msgid "questsTooltip/cooldown/hours"
+msgstr "Nhiệm vụ mới sẽ khả dụng sau %(hour)s giờ"
+
+msgid "questsTooltip/cooldown/lessMin"
+msgstr "Nhiệm vụ mới sẽ khả dụng sau 1 phút"
+
+msgid "questsTooltip/cooldown/min"
+msgstr "Nhiệm vụ mới sẽ khả dụng sau %(min)s ph"
+
+msgid "questsTooltip/header"
+msgstr "Nhiệm vụ Trận đánh Xếp hạng"
+
+msgid "questsTooltip/unavailable/allServersPrime"
+msgstr "Bất khả dụng: Đình chiến đang có hiệu lực"
+
+msgid "questsTooltip/unavailable/notInLeagues"
+msgstr "Bất khả dụng: Cần Đạt đến các Hạng đấu"
+
+msgid "questsTooltip/unavailable/seasonEnd/days"
+msgstr "Bất khả dụng: Mùa kết thúc sau %(day)s ng"
+
+msgid "questsTooltip/unavailable/seasonEnd/hours"
+msgstr "Bất khả dụng: Mùa kết thúc sau %(hour)s giờ"
+
+msgid "questsTooltip/unavailable/seasonEnd/lessMin"
+msgstr "Bất khả dụng: Mùa kết thúc sau ít hơn 1 phút"
+
+msgid "questsTooltip/unavailable/seasonEnd/min"
+msgstr "Bất khả dụng: Mùa kết thúc sau %(min)s ph"
+
+msgid "rankedAwards/awardsBlock/awardsHeaderTxt"
+msgstr "Phần thưởng cho Bậc đạt được"
+
+msgid "rankedAwards/awardsBlock/crystal"
+msgstr "Trái phiếu"
+
+msgid "rankedAwards/awardsBlock/description"
+msgstr "Bậc cao nhất của bạn"
+
+msgid "rankedAwards/awardsBlock/points"
+msgstr "Điểm"
+
+msgid "rankedAwards/awardsBlock/title"
+msgstr "Kết quả Giai đoạn %(cycleNumber)s"
+
+msgid "rankedBattle/title"
+msgstr "TRẬN ĐÁNH XẾP HẠNG"
+
+msgid "rankedBattleCyclesView/tabs/final"
+msgstr "Chung cuộc"
+
+msgid "rankedBattleCyclesView/tabs/ranks"
+msgstr "Bậc"
+
+msgid "rankedBattleCyclesView/title"
+msgstr "Phần thưởng Mùa"
+
+msgid "rankedBattleHeader/points/current"
+msgstr "Đang tiếp diễn"
+
+msgid "rankedBattleHeader/points/final"
+msgstr "Tổng điểm: %(points)s"
+
+msgid "rankedBattleHeader/points/past"
+msgstr "Điểm: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/body"
+msgstr "Giai đoạn hiện tại sẽ kết thúc vào %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/header"
+msgstr "Giai đoạn %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/body"
+msgstr "Toàn bộ điểm số ở các giai đoạn trước sẽ được cộng gộp ở Vòng cuối, và sau đó là quá trình trao giải cho người chơi.\nVòng cuối Mùa giải—%(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/header"
+msgstr "Vòng cuối Mùa giải"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/body"
+msgstr "Giai đoạn này sẽ bắt đầu vào %(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/header"
+msgstr "Giai đoạn %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/body"
+msgstr "Điểm kiếm được: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/header"
+msgstr "Giai đoạn %(cycle)d đã kết thúc"
+
+msgid "rankedBattleHeader/tooltip/date"
+msgstr "%d.%m.%y"
+
+msgid "rankedBattleMainView/bonusBattles"
+msgstr "Trận Chiến lợi: %(battlesCount)s"
+
+msgid "rankedBattleMainView/date/days"
+msgstr "%(day)s ng cho đến khi kết thúc"
+
+msgid "rankedBattleMainView/date/hours"
+msgstr "%(hour)s giờ cho đến khi kết thúc"
+
+msgid "rankedBattleMainView/date/lessMin"
+msgstr "Ít hơn 1 phút cho đến khi kết thúc"
+
+msgid "rankedBattleMainView/date/min"
+msgstr "%(min)s ph cho đến khi kết thúc"
+
+msgid "rankedBattleMainView/date/period"
+msgstr "%(start)s–%(finish)s"
+
+msgid "rankedBattleMainView/divisions/currentRank"
+msgstr "Bậc của bạn"
+
+msgid "rankedBattleMainView/divisions/rank"
+msgstr "Bậc %(rank)s"
+
+msgid "rankedBattleMainView/emptyBubble"
+msgstr " "
+
+msgid "rankedBattleMainView/infoPage/header"
+msgstr "Xe Cấp X, XP theo Vai trò, Trận Chiến lợi, tiến trình trong 3 Phân cấp và tham chiến các Hạng đấu."
+
+msgid "rankedBattleMainView/leaguesView/descr"
+msgstr "Thu về quân hàm, cải thiện hiệu suất để thăng tiến trên Bảng Xếp Hạng và đạt đến Top %(count)d."
+
+msgid "rankedBattleMainView/leaguesView/league1"
+msgstr "Hạng Gold"
+
+msgid "rankedBattleMainView/leaguesView/league2"
+msgstr "Hạng Silver"
+
+msgid "rankedBattleMainView/leaguesView/league3"
+msgstr "Hạng Bronze"
+
+msgid "rankedBattleMainView/leaguesView/top"
+msgstr "TOP %(count)d"
+
+msgid "rankedBattleMainView/leaguesView/topDescr"
+msgstr "Thu về quân hàm, cải thiện hiệu suất để thăng tiến trên Bảng Xếp Hạng và giữ vững vị trí trong Top %(count)d."
+
+msgid "rankedBattleMainView/leaguesView/unavailableDescr"
+msgstr "Đang cập nhật Hạng của bạn. Kết quả sẽ sớm khả dụng."
+
+msgid "rankedBattleMainView/leaguesView/unavailableTitle"
+msgstr "Hạng chưa được cập nhật"
+
+msgid "rankedBattleMainView/leaguesView/yearLeaderboardDisabled"
+msgstr "Thu về quân hàm và cải thiện hiệu suất để duy trì vị trí trong Hạng đấu."
+
+msgid "rankedBattleMainView/season"
+msgstr "Mùa %(season)s"
+
+msgid "rankedBattleMainView/seasonComplete"
+msgstr "Mùa %(season)s đã kết thúc"
+
+msgid "rankedBattleMainView/seasonCompleteSingle"
+msgstr "Mùa %(season)s đã kết thúc."
+
+msgid "rankedBattleMainView/seasonGap"
+msgstr "Mùa tiếp theo (%(newSeason)s) bắt đầu vào %(date)s"
+
+msgid "rankedBattleMainView/seasonGap/bannedDivision/descr"
+msgstr "Mọi Giơ-tông Bậc thu được trong Mùa giải đã bị xóa bỏ do bạn vi phạm Quy định Game."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/descr"
+msgstr "Bạn đã bị loại khỏi danh sách Top đầu Mùa giải do vi phạm Quy định Game. Mọi Giơ-tông Bậc thu được trong Mùa giải đã bị xóa bỏ."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/withoutPoints/descr"
+msgstr "Bạn đã bị loại bỏ khỏi danh sách Top đầu Mùa giải do vi phạm Quy định Game."
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInDivisions/descr"
+msgstr "Một Giơ-tông Bậc của bạn đã bị xóa bỏ do vi phạm Quy định Game"
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInSeason/descr"
+msgstr "Mọi Giơ-tông Bậc thu được trong Mùa giải đã bị xóa bỏ do bạn vi phạm Quy định Game."
+
+msgid "rankedBattleMainView/seasonGap/division/descr"
+msgstr "Bậc cao nhất mà bạn đạt được ở Mùa này"
+
+msgid "rankedBattleMainView/seasonGap/division/ratingBtn"
+msgstr "Top đầu Mùa giải"
+
+msgid "rankedBattleMainView/seasonGap/division/title"
+msgstr "Bậc %(rank)s (%(division)s)"
+
+msgid "rankedBattleMainView/seasonGap/league/descr"
+msgstr "Xin chúc mừng hoàn tất thành công Mùa giải này!"
+
+msgid "rankedBattleMainView/seasonGap/league/ratingBtn"
+msgstr "Đến Bảng Xếp hạng"
+
+msgid "rankedBattleMainView/seasonGap/league1"
+msgstr "Hạng Gold"
+
+msgid "rankedBattleMainView/seasonGap/league2"
+msgstr "Hạng Silver"
+
+msgid "rankedBattleMainView/seasonGap/league3"
+msgstr "Hạng Bronze"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/descr"
+msgstr "Kết quả cao nhất của bạn Mùa này"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/title"
+msgstr "Bạn đã hoàn tất Vòng loại"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/descr"
+msgstr "Bạn chưa giành được bậc nào ở Mùa này"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/title"
+msgstr "Chưa có Bậc"
+
+msgid "rankedBattleMainView/seasonGap/rolledDivision/descr"
+msgstr "Bạn đã bị loại khỏi danh sách Top đầu Mùa giải sau khi khôi phục tài khoản của mình."
+
+msgid "rankedBattleMainView/seasonGap/rolledLeague/descr"
+msgstr "Bạn đã bị loại khỏi danh sách Top đầu Mùa giải sau khi khôi phục tài khoản của mình."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInDivisions/descr"
+msgstr "Bạn đã bị loại khỏi danh sách Top đầu Mùa giải sau khi khôi phục tài khoản của mình."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInSeason/descr"
+msgstr "Bạn đã bị loại khỏi danh sách Top đầu Mùa giải sau khi khôi phục tài khoản của mình."
+
+msgid "rankedBattleMainView/seasonGap/stats/efficiency"
+msgstr "Hiệu suất"
+
+msgid "rankedBattleMainView/seasonGap/stats/outOfRating"
+msgstr "Ngoài Bảng Xếp Hạng"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/descr"
+msgstr "Sau quá trình tính toán, bạn sẽ thấy kết quả cuối cùng của mình và nhận được phần thưởng xứng đáng"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/title"
+msgstr "Tính toán Kết quả"
+
+msgid "rankedBattleMainView/specialSeason"
+msgstr "X"
+
+msgid "rankedBattleMainView/stats/battlesInLeague"
+msgstr "Chiến trận trong Hạng đấu"
+
+msgid "rankedBattleMainView/stats/battlesTotal"
+msgstr "Tổng số trận"
+
+msgid "rankedBattleMainView/stats/divisionEfficiency"
+msgstr "Hiệu suất trong Phân cấp"
+
+msgid "rankedBattleMainView/stats/qualificationEfficiency"
+msgstr "Hiệu suất\nở Vòng loại"
+
+msgid "rankedBattleMainView/stats/qualificationSteps"
+msgstr "Quân hàm\nở Vòng loại"
+
+msgid "rankedBattleMainView/stats/rating/title"
+msgstr "Vị thứ trên Bảng Xếp Hạng"
+
+msgid "rankedBattleMainView/stats/rating/tooltip"
+msgstr "Bảng Xếp Hạng được cập nhật mỗi %(minutes)s phút. Lần gần nhất: %(time)s"
+
+msgid "rankedBattleMainView/stats/rating/unavailableTooltip"
+msgstr "Bảng Xếp hạng tạm thời chưa cập nhật do các vấn đề kỹ thuật."
+
+msgid "rankedBattleMainView/stats/seasonEfficiency"
+msgstr "Hiệu suất Tổng quan"
+
+msgid "rankedBattleMainView/stats/stripesInLeague"
+msgstr "Quân hàm trong Hạng"
+
+msgid "rankedBattleMainView/stats/stripesTotal"
+msgstr "Tổng Quân hàm"
+
+msgid "rankedBattleMainView/yearGap/header"
+msgstr "Kết quả của bạn năm 2021–2022"
+
+msgid "rankedBattlePage/closeBtn"
+msgstr "TẮT"
+
+msgid "rankedBattleView/awardBlock/emptyLeague"
+msgstr "—"
+
+msgid "rankedBattleView/awardBlock/points/currLeagueHeader"
+msgstr "Hạng Hiện tại"
+
+msgid "rankedBattleView/awardBlock/points/header"
+msgstr "Top đầu Mùa giải"
+
+msgid "rankedBattleView/awardBlock/points/noLeagueHeader"
+msgstr "Ngoài Bảng Xếp Hạng"
+
+msgid "rankedBattleView/awardBlock/points/noPriseHeader"
+msgstr "Hạng Wood"
+
+msgid "rankedBattleView/awardBlock/points/totalLabel"
+msgstr "Tổng điểm: "
+
+msgid "rankedBattleView/awardBlock/pointsAlt/description"
+msgstr "Click để xem top dẫn đầu của mùa giải"
+
+msgid "rankedBattleView/awardBlock/quest/description/battlesLeft"
+msgstr "Số trận đánh tốt cần đạt còn lại:"
+
+msgid "rankedBattleView/awardBlock/quest/description/noQuest"
+msgstr "Hiện tại không có nhiệm vụ nào"
+
+msgid "rankedBattleView/awardBlock/quest/header"
+msgstr "Nhiệm vụ"
+
+msgid "rankedBattleView/awardBlock/seasonAward/description"
+msgstr "Click để xem phần thưởng"
+
+msgid "rankedBattleView/awardBlock/seasonAward/header"
+msgstr "Phần thưởng Mùa"
+
+msgid "rankedBattleView/closeBtn"
+msgstr "QUAY LẠI"
+
+msgid "rankedBattleView/closeBtnDescr"
+msgstr "ĐẾN GA-RA"
+
+msgid "rankedBattleView/nextStageBlock/stage"
+msgstr "Giai đoạn %(cycleNumber)s"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/body"
+msgstr "Click để bắt đầu hành trình của bạn trong các Trận đánh Xếp hạng."
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/header"
+msgstr "Tiến lên!"
+
+msgid "rankedBattleView/playVideoBtn"
+msgstr "Video về Chế độ"
+
+msgid "rankedBattleView/progressBlock/bestRank"
+msgstr "Kỷ lục mùa"
+
+msgid "rankedBattleView/progressBlock/continue"
+msgstr "Kiếm điểm để nhận được phần thưởng ở Vòng cuối"
+
+msgid "rankedBattleView/progressBlock/currentRank"
+msgstr "Bậc hiện tại của bạn: %(rank)s"
+
+msgid "rankedBattleView/progressBlock/finalRank"
+msgstr "Xin chúc mừng! Bạn đã đạt bậc cao nhất—%(rank)s ở Mùa giải này."
+
+msgid "rankedBattleView/progressBlock/steps"
+msgstr "Quân hàm: %(numbers)s"
+
+msgid "rankedBattleView/progressBlock/vehicleRank"
+msgstr "Giơ-tông Bậc"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/body"
+msgstr "Click để xem thông tin về toàn bộ các giai đoạn của mùa giải."
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/header"
+msgstr "Lịch Chiến đấu"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/attentionText"
+msgstr "Kết quả Giai đoạn %(cycleNumber)s sau %(timeLeft)s"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/cycleItem"
+msgstr "Mùa %(cycleNumber)s: %(day0)s/%(month0)s—%(day1)s/%(month1)s"
+
+msgid "rankedBattleView/statusBlock/statusText"
+msgstr "Kết quả mùa giải sẽ được chốt lại sau: "
+
+msgid "rankedBattleView/title"
+msgstr "Trận đánh Xếp hạng"
+
+msgid "rankedBattlesBattleResults/animationCheckBoxLabel"
+msgstr "Hiện hình động"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s không thể tham chiến trong Trận đánh Xếp hạng."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/header"
+msgstr "Loại Xe không phù hợp"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/body"
+msgstr "Chọn một %(levelSubStr)s để tham gia Trận đánh Xếp hạng."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/header"
+msgstr "Cấp Xe không phù hợp"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "xe Cấp %(levels)s"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s không thể tham chiến trong Trận đánh Xếp hạng."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/header"
+msgstr "Xe không phù hợp"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/body"
+msgstr "Nhận được ở cuối giai đoạn này và bao gồm nhiều phần quà có giá trị. Số lượng và chất lượng phần thưởng phụ thuộc vào vị thứ trên Bảng Xếp Hạng."
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/header"
+msgstr "Thùng Giải thưởng"
+
+msgid "rankedBattlesCyclesView/btnClose"
+msgstr "TẮT"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/awardRecieved"
+msgstr "Đã nhận phần thưởng"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/body"
+msgstr "Nhận được khi kết thúc một giai đoạn và bao gồm nhiều phần thưởng. Số lượng và chất lượng phần thưởng phụ thuộc vào bậc đạt được."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/header"
+msgstr "Thùng Giải thưởng"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/body"
+msgstr "Dùng để đổi lấy nhiều loại hàng độc như Trợ cấp Cá nhân và các thiết bị hiếm có. Một trái phiếu có thể đổi được 1 bộ Trợ cấp Cá nhân hoặc thiết bị. Càng kiếm được nhiều trái phiếu, bạn càng nhận được nhiều món hàng có giá trị."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/header"
+msgstr "Trái phiếu"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rank"
+msgstr "Bậc"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rankAward"
+msgstr "Phần thưởng cho Bậc đạt được"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body"
+msgstr "Được trao cho thành tích tốt nhất đạt được trong 1 giai đoạn. Thành tích này sẽ không bị rút lại ngay cả khi xuống bậc."
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/header"
+msgstr "Phần thưởng Cuối Giai đoạn"
+
+msgid "rankedBattlesCyclesView/currentCycle/vehicleRankComment"
+msgstr "Phần thưởng thường"
+
+msgid "rankedBattlesCyclesView/final/btnLadder"
+msgstr "Đến Bảng Xếp hạng"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/body"
+msgstr "Click để xem top dẫn đầu của mùa giải và vị thứ của bạn."
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/header"
+msgstr "Top đầu Mùa giải"
+
+msgid "rankedBattlesCyclesView/final/first"
+msgstr "Top %(count)s người chơi"
+
+msgid "rankedBattlesCyclesView/final/intermediate"
+msgstr "%(count)s tiếp theo"
+
+msgid "rankedBattlesCyclesView/final/last"
+msgstr "Hạng Wood"
+
+msgid "rankedBattlesCyclesView/final/lastComment"
+msgstr "Kiếm điểm để thăng tiến trên Bảng Xếp hạng.\nPhần thưởng chung cuộc sẽ phụ thuộc vào\nhạng hiện tại của bạn."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip"
+msgstr "Thông tin về hạng hiện tại của bạn tạm thời không khả dụng. Hãy thử lại sau."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/position"
+msgstr "Vị thứ trên Bảng Xếp hạng"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/seasonAward"
+msgstr "Phần thưởng Chung cuộc"
+
+msgid "rankedBattlesCyclesView/noAchievements/future/footer"
+msgstr "Từ %(start)s đến %(end)s"
+
+msgid "rankedBattlesCyclesView/noAchievements/past/footer"
+msgstr "Bạn không lên được bậc nào trong giai đoạn hiện tại.\nĐiểm kiếm được: %(points)s"
+
+msgid "rankedBattlesUnreachableView/bottom/missions"
+msgstr "Hoàn thành các Nhiệm vụ Cá nhân"
+
+msgid "rankedBattlesUnreachableView/bottom/premium"
+msgstr "Sử dụng Tài khoản Premium %(premiumType)s"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/basic"
+msgstr "Wargaming"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/plus"
+msgstr "WoT"
+
+msgid "rankedBattlesUnreachableView/bottom/reserves"
+msgstr "Kích hoạt Trợ cấp Cá nhân"
+
+msgid "rankedBattlesUnreachableView/bottomText"
+msgstr "Cách nhanh nhất để nghiên cứu xe Cấp %(levels)s là gì?"
+
+msgid "rankedBattlesUnreachableView/closeBtnLabel"
+msgstr "TẮT"
+
+msgid "rankedBattlesUnreachableView/subtitleText"
+msgstr "Chế độ không khả dụng"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForBuy"
+msgstr "Phải có xe Cấp %(levels)s trong Ga-ra để tham gia Trận đánh Xếp hạng.\nBạn đã nghiên cứu xe Cấp %(levels)s nhưng chưa mua về."
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForRestore"
+msgstr "Phải có xe Cấp %(levels)s trong Ga-ra để tham gia Trận đánh Xếp hạng.\nBạn có xe Cấp %(levels)s có thể lấy lại."
+
+msgid "rankedBattlesUnreachableView/vehicleUnavailable"
+msgstr "Phải có xe Cấp %(levels)s trong Ga-ra để tham gia Trận đánh Xếp hạng."
+
+msgid "rankedBattlesViewHeader/tabs/current"
+msgstr "Bậc"
+
+msgid "rankedBattlesViewHeader/tabs/final"
+msgstr "Chung cuộc"
+
+msgid "rankedBattlesWidget/bonusMultiplier"
+msgstr "x%(count)s"
+
+msgid "rankedBattlesWidget/bonusSteps"
+msgstr "cho Trận Chiến lợi"
+
+msgid "rankedBattlesWidget/league0"
+msgstr "Không xác định"
+
+msgid "rankedBattlesWidget/league1"
+msgstr "Gold"
+
+msgid "rankedBattlesWidget/league2"
+msgstr "Silver"
+
+msgid "rankedBattlesWidget/league3"
+msgstr "Bronze"
+
+msgid "rankedBattlesWidget/leagueDecrease/info"
+msgstr "Bạn đã trở lại Hạng %(leagueName)s"
+
+msgid "rankedBattlesWidget/leagueDecrease/title"
+msgstr "HẠNG ĐÃ THAY ĐỔI"
+
+msgid "rankedBattlesWidget/leagueIncrease/info"
+msgstr "Bạn đã lên Hạng %(leagueName)s"
+
+msgid "rankedBattlesWidget/leagueIncrease/title"
+msgstr "HẠNG ĐÃ THAY ĐỔI"
+
+msgid "rankedBattlesWidget/leaguesAchievment/info"
+msgstr "Giờ đây, bạn có thể chiến đấu giành lấy một vị thứ trên Bảng Xếp Hạng"
+
+msgid "rankedBattlesWidget/leaguesAchievment/title"
+msgstr "HẠNG KHẢ DỤNG"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/info"
+msgstr "Bạn đã lên Phân cấp tiếp theo"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/title"
+msgstr "PHÂN CẤP MỚI"
+
+msgid "rankedBattlesWidget/newRankCongrat"
+msgstr "Xin chúc mừng!\nLên Bậc!"
+
+msgid "rankedBattlesWidget/noChanges"
+msgstr "Không có thay đổi nào"
+
+msgid "rankedBattlesWidget/qualificationIdleText"
+msgstr "Số trận để hoàn tất Vòng loại:\n%(currentBattles)s / %(totalBattles)s"
+
+msgid "rewardsView/common/currentReward"
+msgstr "Phần thưởng cạnh tranh"
+
+msgid "rewardsView/tabs/leagues"
+msgstr "Phần thưởng Hạng đấu"
+
+msgid "rewardsView/tabs/leagues/awardDescr/style"
+msgstr "Kiểu mẫu %(styleName)s và phù hiệu %(badgeName)s"
+
+msgid "rewardsView/tabs/leagues/description"
+msgstr "Kiểu mẫu và phù hiệu phần thưởng có thời hạn dùng và khả dụng cho người chơi đến cuối Mùa tiếp theo. Để bảo vệ quyền sử dụng chúng, game thủ phải đạt đến đúng Hạng đấu đó một lần nữa. Nếu không, kiểu mẫu và phù hiệu sẽ không dùng được. Trong trường hợp người chơi đạt đến Hạng khác, kiểu mẫu và phù hiệu được thay thế bằng cái tương ứng."
+
+msgid "rewardsView/tabs/leagues/description/league1"
+msgstr "Kiểu mẫu được trao tặng cho những người chiến thắng Mùa giải với kết quả ấn tượng: Hoàn tất mọi Phân cấp và đứng Top 20%% game thủ theo hiệu suất, hoặc là người đầu tiên đạt đến các Hạng đấu. Khi dùng trên xe, nó là bằng chứng thể hiện thành tích thật sự của chủ sở hữu. Quyền áp dụng kiểu mẫu này phải được bảo vệ ở mỗi Mùa giải của chế độ Trận đánh Xếp hạng."
+
+msgid "rewardsView/tabs/leagues/description/league2"
+msgstr "Kiểu mẫu được trao tặng cho những người chiến thắng Mùa giải với trình độ và nỗ lực tương xứng, đạt đến Hạng Silver vào cuối Mùa. Khi dùng trên xe, nó là bằng chứng thể hiện thành tích thật sự của chủ sở hữu. Quyền áp dụng kiểu mẫu này phải được bảo vệ ở mỗi Mùa giải của chế độ Trận đánh Xếp hạng."
+
+msgid "rewardsView/tabs/leagues/description/league3"
+msgstr "Kiểu mẫu được trao tặng cho những người chiến thắng Mùa giải khi đạt đến Hạng Bronze vào cuối Mùa. Khi dùng trên xe, nó là bằng chứng thể hiện thành tích thật sự của chủ sở hữu. Quyền áp dụng kiểu mẫu này phải được bảo vệ ở mỗi Mùa giải của chế độ Trận đánh Xếp hạng."
+
+msgid "rewardsView/tabs/leagues/league1"
+msgstr "Hạng Gold"
+
+msgid "rewardsView/tabs/leagues/league2"
+msgstr "Hạng Silver"
+
+msgid "rewardsView/tabs/leagues/league3"
+msgstr "Hạng Bronze"
+
+msgid "rewardsView/tabs/ranks"
+msgstr "Phần thưởng Bậc"
+
+msgid "rewardsView/tabs/year"
+msgstr "Phần thưởng Hàng năm"
+
+msgid "rewardsView/tabs/year/compensation/extraPoints"
+msgstr "Với %(points)s %(rankedImg)s, bạn đã được đền bù %(crystal)s %(crystalImg)s"
+
+msgid "rewardsView/tabs/year/compensation/notEnough"
+msgstr "Bạn đã được đền bù %(crystal)s %(crystalImg)s"
+
+msgid "rewardsView/tabs/year/current"
+msgstr "Phần thưởng cạnh tranh"
+
+msgid "rewardsView/tabs/year/currentChoose"
+msgstr "Chọn Phần thưởng"
+
+msgid "rewardsView/tabs/year/currentFinal"
+msgstr "Đã nhận phần thưởng"
+
+msgid "rewardsView/tabs/year/title/awarded"
+msgstr "Giơ-tông Bậc: %(points)s"
+
+msgid "rewardsView/tabs/year/title/notAwarded"
+msgstr "Giơ-tông Bậc: %(points)s"
+
+msgid "seasonComplete/bestRank"
+msgstr "Bậc cao nhất mà bạn đạt tới"
+
+msgid "seasonComplete/bigTitle"
+msgstr "Kết quả Mùa %(season)s"
+
+msgid "seasonComplete/division/tooltip/header"
+msgstr "Bậc %(rank)s (%(division)s)"
+
+msgid "seasonComplete/effectLabel"
+msgstr "Hiệu suất"
+
+msgid "seasonComplete/leadersButton"
+msgstr "Top đầu Mùa giải"
+
+msgid "seasonComplete/outOfRating"
+msgstr "Ngoài Bảng Xếp Hạng"
+
+msgid "seasonComplete/placeInRating"
+msgstr "Vị thứ trên Bảng Xếp hạng"
+
+msgid "seasonComplete/smallTitle"
+msgstr "Trận đánh Xếp hạng"
+
+msgid "seasonComplete/sprinterImproved"
+msgstr "Bạn nằm trong số những người chơi đầu tiên đạt đến Hạng đấu và nhận được một phần thưởng của Hạng Gold."
+
+msgid "seasonComplete/sprinterTop"
+msgstr "Bạn nằm trong số những người chơi đầu tiên đạt đến Hạng đấu."
+
+msgid "seasonComplete/tooltip/body"
+msgstr "Kết quả của bạn trong Mùa %(season)s"
+
+msgid "selectableReward/subTitle"
+msgstr "CHỌN PHẦN THƯỞNG CỦA BẠN"
+
+msgid "selectableReward/title"
+msgstr "TRẬN ĐÁNH XẾP HẠNG. %(rewardName)s"
+
+msgid "selectableReward/tooltip/equipmentChoice/limit"
+msgstr "Mỗi lợi phẩm từ danh sách chỉ có thể được lấy một lần."
+
+msgid "selectableReward/tooltip/equipmentChoice/list"
+msgstr "• Hệ thống Thông khí\n• Hệ thống Ổn định Thiết bị\n• Hệ thống Nạp đạn Hiện đại\n• Bộ Truyền Đặt Súng Chịu Mài mòn\n• Thấu kính Thử nghiệm\n• Cấu hình Cải tiến\n• Máy nén Cải tiến\n• Vật liệu Chống Đạn"
+
+msgid "selectableReward/tooltip/equipmentChoice/title"
+msgstr "Thiết bị Tiên tiến Tùy chọn"
+
+msgid "selectorTooltip/desc"
+msgstr "Giao tranh bằng xe có thể nghiên cứu và Sưu tập Cấp X theo luật đánh của Chế độ Cơ bản. Cả hai phe sẽ bao gồm những người chơi có bậc tương đương nhau."
+
+msgid "selectorTooltip/tillEnd"
+msgstr "Mùa giải sẽ kết thúc sau:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "Lịch Chiến đấu"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "Hôm nay"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "Ngày mai"
+
+msgid "selectorTooltip/title"
+msgstr "Trận đánh Xếp hạng"
+
+msgid "statistic/playersRaiting"
+msgstr "Top đầu Mùa giải"
+
+msgid "statistic/vehicleRank"
+msgstr "Giơ-tông Bậc kiếm được"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s ng"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s giờ"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 ph"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s ph"
+
+msgid "tooltip/closeButton/body"
+msgstr "Phần thưởng sẽ tự động được trao."
+
+msgid "tooltip/closeButton/header"
+msgstr "Quay lại Ga-ra"
+
+msgid "tooltip/step/conditions"
+msgstr "Nếu một người chơi đứng Top %(battlesNum)s game thủ\nbên %(team)s dựa trên kinh nghiệm kiếm được"
+
+msgid "tooltip/step/conditions/header"
+msgstr "Đã nhận"
+
+msgid "tooltip/step/decommission/description"
+msgstr "Nếu một người chơi xếp hạng %(fromTill)s bên phe thua dựa trên số kinh nghiệm kiếm được."
+
+msgid "tooltip/step/decommission/header"
+msgstr "Đã bị tước"
+
+msgid "tooltip/step/decommissionWin/description"
+msgstr "Nếu một người chơi xếp hạng %(fromTill)s bên phe thắng dựa trên số kinh nghiệm kiếm được."
+
+msgid "tooltip/step/description"
+msgstr "Một phần tử đặc biệt, đại diện cho tiến độ lên bậc của bạn"
+
+msgid "tooltip/step/fromTill"
+msgstr "%(fromPlace)s–%(tillPlace)s"
+
+msgid "tooltip/step/header"
+msgstr "Quân hàm"
+
+msgid "tooltip/step/losers"
+msgstr "phe thua"
+
+msgid "tooltip/step/notCharged/description"
+msgstr "Nếu một người chơi không đứng Top %(battlesNum)s game thủ bên phe thắng dựa trên kinh nghiệm kiếm được, nhưng xếp hạng %(fromTill)s."
+
+msgid "tooltip/step/notCharged/header"
+msgstr "Đã lưu"
+
+msgid "tooltip/step/notChargedLose/description"
+msgstr "Nếu một người chơi nằm trong Top %(battlesNum)s game thủ bên phe thua dựa trên kinh nghiệm kiếm được, nhưng xếp hạng %(fromTill)s."
+
+msgid "tooltip/step/or"
+msgstr "hoặc"
+
+msgid "tooltip/step/winners"
+msgstr "phe thắng"
+
+msgid "welcomeScreen/btn"
+msgstr "Tiến lên!"
+
+msgid "welcomeScreen/centerRule"
+msgstr "Lên bậc cao hơn qua các trận đánh với những đối thủ xứng tầm"
+
+msgid "welcomeScreen/centerRuleTooltip/body"
+msgstr "Cả phe của bạn lẫn phe địch đều sẽ bao gồm những người chơi có bậc tương đương nhau."
+
+msgid "welcomeScreen/centerRuleTooltip/header"
+msgstr "Đối thủ Xứng tầm"
+
+msgid "welcomeScreen/closeBtn"
+msgstr "TẮT"
+
+msgid "welcomeScreen/closeBtnTooltip/body"
+msgstr "Click để đóng màn hình và quay về Ga-ra."
+
+msgid "welcomeScreen/closeBtnTooltip/header"
+msgstr "Tắt"
+
+msgid "welcomeScreen/equalityText"
+msgstr "="
+
+msgid "welcomeScreen/header"
+msgstr "Xin chào mừng!"
+
+msgid "welcomeScreen/leftRule"
+msgstr "Tham chiến với xe Cấp X\nmà bạn giỏi nhất"
+
+msgid "welcomeScreen/leftRuleTooltip/body"
+msgstr "Tham chiến với xe có thể nghiên cứu hoặc Sưu tập Cấp X\nmà bạn giỏi nhất"
+
+msgid "welcomeScreen/leftRuleTooltip/header"
+msgstr "Cấp X"
+
+msgid "welcomeScreen/negative/body"
+msgstr "{team}, nhưng thuộc Top {topNumber} người chơi của phe bạn dựa trên kinh nghiệm kiếm được."
+
+msgid "welcomeScreen/negative/team"
+msgstr "Thua một trận"
+
+msgid "welcomeScreen/positive/body"
+msgstr "{team} và thuộc Top {topNumber} người chơi của phe bạn dựa trên kinh nghiệm kiếm được."
+
+msgid "welcomeScreen/positive/team"
+msgstr "Thắng 1 trận"
+
+msgid "welcomeScreen/rankDescr"
+msgstr "Để lên Bậc 1"
+
+msgid "welcomeScreen/ranks/header"
+msgstr "Đứng top đầu về số kinh nghiệm kiếm được để lên bậc cao hơn!"
+
+msgid "welcomeScreen/ranksDescr"
+msgstr "Lên đến vị trí càng cao, phần thưởng bạn nhận được càng có giá trị."
+
+msgid "welcomeScreen/rightRule"
+msgstr "Bậc càng cao, phần thưởng bạn nhận được ở Vòng cuối càng có giá trị"
+
+msgid "welcomeScreen/rightRuleTooltip/body"
+msgstr "Lên bậc càng cao, phần thưởng bạn nhận được càng có giá trị."
+
+msgid "welcomeScreen/rightRuleTooltip/header"
+msgstr "Phần thưởng Giá trị"
+
+msgid "welcomeScreen/rulesDelimeter"
+msgstr "hoặc"
+
+msgid "yearLeaderboard/rewardView/battleType"
+msgstr "Trận đánh Xếp hạng"
+
+msgid "yearLeaderboard/rewardView/clanDescr"
+msgstr "[%(clan)s] "
+
+msgid "yearLeaderboard/rewardView/leaderboardBtn/label"
+msgstr "Đến Bảng Xếp Hạng"
+
+msgid "yearLeaderboard/rewardView/positionDescr"
+msgstr "Vị thứ của {name} {clan}trên Bảng Xếp Hạng"
+
+msgid "yearLeaderboard/rewardView/reward/label"
+msgstr "Đã nhận được phù hiệu %(name) đặc biệt để hiển thị cạnh tên của bạn."
+
+msgid "yearLeaderboard/rewardView/reward/nameTemplate"
+msgstr "\"{name}\""
+
+msgid "yearLeaderboard/rewardView/title"
+msgstr "Bạn đã đạt đến Top {total}"
+
+msgid "yearRewards/box/big/title"
+msgstr "Phần thưởng Cấp cao"
+
+msgid "yearRewards/box/large/title"
+msgstr "Phần thưởng Thượng đỉnh"
+
+msgid "yearRewards/box/medium/title"
+msgstr "Phần thưởng Tiêu chuẩn"
+
+msgid "yearRewards/box/small/title"
+msgstr "Phần thưởng Nhỏ"
+
+msgid "yearRewards/tooltip/any/reward/title"
+msgstr "Phần thưởng"
+
+msgid "yearRewards/tooltip/box/big/title"
+msgstr "Phần thưởng Cấp cao"
+
+msgid "yearRewards/tooltip/box/large/title"
+msgstr "Phần thưởng Thượng đỉnh"
+
+msgid "yearRewards/tooltip/box/medium/title"
+msgstr "Phần thưởng Tiêu chuẩn"
+
+msgid "yearRewards/tooltip/box/small/title"
+msgstr "Phần thưởng Nhỏ"
+
+msgid "yearRewards/tooltip/box/subTitle"
+msgstr "Phần thưởng Hàng năm. Chỉ được trao tặng nếu người chơi thu về đủ số Giơ-tông Bậc theo yêu cầu sau khi ba Mùa Trận đánh Xếp hạng kết thúc."
+
+msgid "yearRewards/tooltip/equipmentChoice/description/1"
+msgstr "Bạn có thể chọn một Thiết bị Tiên tiến làm phần thưởng:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/2"
+msgstr "Bạn có thể chọn hai Thiết bị Tiên tiến làm phần thưởng. Mỗi thiết bị chỉ nhận được một lần:"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/3"
+msgstr "Bạn có thể chọn ba Thiết bị Tiên tiến làm phần thưởng. Mỗi thiết bị chỉ nhận được một lần:"
+
+msgid "yearRewards/tooltip/equipmentChoice/list"
+msgstr "• Hệ thống Thông khí\n• Hệ thống Ổn định Thiết bị\n• Hệ thống Nạp đạn Hiện đại\n• Bộ Truyền Đặt Súng Chịu Mài mòn\n• Thấu kính Thử nghiệm\n• Cấu hình Cải tiến\n• Máy nén Cải tiến\n• Vật liệu Chống Đạn"
+
+msgid "yearRewards/tooltip/equipmentChoice/title"
+msgstr "Thiết bị Tiên tiến"
+
+msgid "yearRewards/tooltip/needPoints"
+msgstr "Giơ-tông Bậc cần đạt"
+
+msgid "yearRewards/tooltip/status/current/description"
+msgstr "Bạn đang cạnh tranh Phần thưởng Hàng năm do đã thu thập đủ số lượng Giơ-tông Bậc cần thiết."
+
+msgid "yearRewards/tooltip/status/current/title"
+msgstr "Phần thưởng Hiện tại của bạn"
+
+msgid "yearRewards/tooltip/status/currentChoose/description"
+msgstr "Bạn đã nhận được Phần thưởng Hàng năm! Click nút Chọn Phần thưởng để lựa thiết bị tiên tiến."
+
+msgid "yearRewards/tooltip/status/currentChoose/title"
+msgstr "Đã nhận phần thưởng! Có thiết bị tiên tiến tùy chọn."
+
+msgid "yearRewards/tooltip/status/currentFinal/description"
+msgstr "Bạn đã nhận được Phần thưởng Hàng năm!"
+
+msgid "yearRewards/tooltip/status/currentFinal/title"
+msgstr "Đã nhận Phần thưởng!"
+
+msgid "yearRewards/tooltip/status/locked/description"
+msgstr "Sở hữu chúng từ Trận đánh Xếp hạng bằng cách thăng tiến qua các Phân cấp và tham gia Hạng đấu."
+
+msgid "yearRewards/tooltip/status/locked/title"
+msgstr "Không Đủ Giơ-tông Bậc"
+
+msgid "yearRewards/tooltip/status/lockedFinal/description"
+msgstr "Bạn chưa kiếm đủ số Giơ-tông Bậc để nhận phần thưởng này."
+
+msgid "yearRewards/tooltip/status/lockedFinal/title"
+msgstr "Không Đủ Giơ-tông Bậc"
+
+msgid "yearRewards/tooltip/status/passed/description"
+msgstr "Bạn đang cạnh tranh Phần thưởng Hàng năm giá trị hơn rồi"
+
+msgid "yearRewards/tooltip/status/passed/title"
+msgstr "Phần thưởng Không khả dụng"
+
+msgid "yearRewards/tooltip/status/passedFinal/description"
+msgstr "Bạn đã nhận Phần thưởng Hàng năm giá trị hơn rồi"
+
+msgid "yearRewards/tooltip/status/passedFinal/title"
+msgstr "Phần thưởng Không khả dụng"
+
+msgid "year_award/acceptButton/acceptLabel"
+msgstr "Đã rõ!"
+
+msgid "year_award/acceptButton/hangarLabel"
+msgstr "Xem trong Ga-ra"
+
+msgid "year_award/compensationLabel"
+msgstr "Bạn đã kiếm được {total} {pointsIcon}. Với {compensated} {pointsIcon} trong số đó, bạn đã được đền bù {crystals} {crystalIcon}."
+
+msgid "year_award/rankedLabel"
+msgstr "Trận đánh Xếp hạng"
+
+msgid "year_award/rewardSelected"
+msgstr "Đã nhận phần thưởng"
+
+msgid "year_award/rewardsToSelect"
+msgstr "Phần thưởng có thể tùy chọn: {count}"

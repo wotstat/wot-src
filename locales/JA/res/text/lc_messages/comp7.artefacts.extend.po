@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_aggressive_detection/descr/active"
+msgstr "{colorTagOpen}%(duration)s秒{colorTagClose}が経過するまで視認範囲を{colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose}拡大する。\n\n発見した敵車輌が大破するとタイマーがリセットされ効果の持続時間が延長される。"
+
+msgid "comp7_aggressive_detection/name"
+msgstr "アクティブリーコン"
+
+msgid "comp7_ally_support/descr/active"
+msgstr "{colorTagOpen}%(duration)s秒{colorTagClose}が経過するまで味方チームを構成する車輌の「ロール」1種類につき自車輌の搭乗員の能力を{colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose}ずつ上昇させる。\n\nボーナス値を左右する味方車輌の「ロール」には自車輌もカウントされる。"
+
+msgid "comp7_ally_support/name"
+msgstr "ワンフォーオール"
+
+msgid "comp7_aoe_heal/descr/active"
+msgstr "{colorTagOpen}%(duration)s秒{colorTagClose}が経過するまで自車輌および半径{colorTagOpen}%(radius)s m{colorTagClose}以内に位置する全味方車輌のHPを{colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)sポイント{colorTagClose}回復させる。"
+
+msgid "comp7_aoe_heal/name"
+msgstr "フィールドリペア"
+
+msgid "comp7_aoe_inspire/descr/active"
+msgstr "{colorTagOpen}%(duration)s秒{colorTagClose}が経過するまで自車輌およびマップ上の全味方車輌の搭乗員の能力を{colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose}上昇させる。"
+
+msgid "comp7_aoe_inspire/name"
+msgstr "インスパイア"
+
+msgid "comp7_berserk/descr/active"
+msgstr "{colorTagOpen}%(duration)s秒{colorTagClose}が経過するまで装填時間を{colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}短縮する。移動、車体旋回、砲塔旋回および射撃に伴う散布界の拡大を{colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}軽減する。\n\n{colorTagOpen}%(damageDistance)s m{colorTagClose}未満の距離からの射撃または体当たりによって敵車輌にダメージを与えるとタイマーがリセットされ効果の持続時間が延長される。"
+
+msgid "comp7_berserk/name"
+msgstr "フューリー"
+
+msgid "comp7_concentration/descr/active"
+msgstr "{colorTagOpen}%(duration)s秒{colorTagClose}が経過するまで移動、車体旋回および砲塔旋回に伴う散布界の拡大と照準時間を{colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}軽減する。\n\n効果の発動中は弾倉内装填時間も{colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s秒{colorTagClose}短縮される。"
+
+msgid "comp7_concentration/name"
+msgstr "フォーカスオン"
+
+msgid "comp7_fast_recharge/descr/active"
+msgstr "•【自動装填システム】\n 残りの弾倉交換時間を{colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}短縮する。\n\n• 【自動再装填システム】\n装填が完了していない全砲弾の再装填時間を{colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}短縮する。\n\n弾倉の交換中や砲弾の再装填中にしか発動できない。\n\n• 【過熱制御式自動連射砲】\n主砲の蓄熱を最大値の{colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose}軽減する。\n\n砲身に蓄熱がある時にしか発動できない。"
+
+msgid "comp7_fast_recharge/name"
+msgstr "スライトオブハンド"
+
+msgid "comp7_hunter/descr/active"
+msgstr "{colorTagOpen}%(duration)s秒{colorTagClose}が経過する間に自車輌のHPを「アビリティー」の発動までに射撃によりダメージを与えていた敵車輌1輌につき{colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)sポイント{colorTagClose}回復させる。\n\n発動すると射撃によりダメージを与えた敵車輌のカウントがリセットされる。"
+
+msgid "comp7_hunter/descr/passive"
+msgstr "射撃によりダメージを与えた敵車輌1輌につき装填時間を{colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose}短縮する。"
+
+msgid "comp7_hunter/name"
+msgstr "バウンティーハンター"
+
+msgid "comp7_juggernaut/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s秒が経過するまで{colorTagClose}\n• 敵車輌からのダメージを{colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}軽減\n• 最大前進速度が{colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose}上昇\n• 最大後退速度が{colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose}上昇\n• エンジン出力が{colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}上昇\n• 敵車輌への体当たりによるダメージが{colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}上昇\n\nこのロール・アビリティーが発動中は自車輌の履帯が1発砲撃を受けるだけで切断される。"
+
+msgid "comp7_juggernaut/name"
+msgstr "ジャガーノート"
+
+msgid "comp7_march/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s秒{colorTagClose}が経過するまでエンジン出力を{colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}、最大前進速度を{colorTagOpen}%(fwdSpeedBoost)s km/h{colorTagClose}、そして隠蔽率を{colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}上昇させる。"
+
+msgid "comp7_march/name"
+msgstr "フォースドマーチ"
+
+msgid "comp7_recon/descr/active"
+msgstr "座標を指定して半径{colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s&nbsp;m{colorTagClose}の範囲を航空機で偵察する。航空機が指定空域に到着するまでに{colorTagOpen}%(delay)s秒{colorTagClose}の配備時間を要する。対象範囲内の敵車輌は{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s秒{colorTagClose}が経過するまで発見状態となる。このアビリティーによって発見されると{colorTagOpen}%(lampDelay)s秒{colorTagClose}後に専用のアイコンが表示される。\n\n戦闘開始から{colorTagOpen}%(startupDelay)s秒{colorTagClose}経過すると発動できるようになる。"
+
+msgid "comp7_recon/name"
+msgstr "リーコンフライト"
+
+msgid "comp7_redline/descr/active"
+msgstr "座標を指定して半径{colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose}の範囲に対する砲兵射撃を行う。\n\n対象範囲内に敵車輌がいる場合は{colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose}HPのダメージと{colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s秒間{colorTagClose}のスタンを誘発できる。砲撃開始までに{colorTagOpen}%(delay)s秒{colorTagClose}の配備時間を要する。"
+
+msgid "comp7_redline/name"
+msgstr "ファイアカバー"
+
+msgid "comp7_risky_attack/descr/active"
+msgstr "【アクセラレーション】\n\n{colorTagOpen}%(duration)s秒{colorTagClose}が経過するまでエンジン出力を{colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}、最大前進速度を{colorTagOpen}%(fwdSpeedBoost)s km/h{colorTagClose}、そして最大後退速度を{colorTagOpen}%(bkwSpeedBoost)s km/h{colorTagClose}上昇させる。\n\n【リカバリー】\n\n{colorTagOpen}%(healDuration)s秒{colorTagClose}が経過する間に自車輌のHPを回復させる。回復量は基本値の{colorTagOpen}%(baseHeal)sHP{colorTagClose}に「アクセラレーション」中に失った車輌HPの{colorTagOpen}%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose}を加えて算出される。"
+
+msgid "comp7_risky_attack/name"
+msgstr "セカンドウインド"
+
+msgid "comp7_role_skill/descr/startLevel"
+msgstr " \n\n戦闘開始直後からチャージレベル{colorTagOpen}%(startLevel)s{colorTagClose}の状態で発動することができる。"
+
+msgid "comp7_sniper/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s秒{colorTagClose}が経過するまで100 mでの散布界を{colorTagOpen}%(dispersionFactor)s m{colorTagClose}に縮小する。\n\n非発見状態で射撃を行う際に単発ダメージを{colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}上昇させる。\n\n{colorTagOpen}%(damageDistance)s m{colorTagClose}を超える距離から敵車輌にダメージを与えるとタイマーがリセットされ効果の持続時間が延長される。"
+
+msgid "comp7_sniper/name"
+msgstr "ブルズアイ"
+
+msgid "comp7_sure_shot/descr/active"
+msgstr "{colorTagOpen}%(duration)s秒{colorTagClose}が経過するまで移動、車体旋回および砲塔旋回に伴う散布界の拡大を{colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}軽減する。\n\n効果の発動中に射撃により敵車輌にダメージを与えると装填時間が短縮される。短縮の度合いは敵車輌のHPが減った割合に{colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose}を乗じて算出される。\n\n効果の発動中に敵車輌を撃破すると装填時間が{colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}短縮される。"
+
+msgid "comp7_sure_shot/name"
+msgstr "クリーンショット"

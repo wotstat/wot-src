@@ -1,0 +1,197 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardWindow/additionalText/2"
+msgstr "特別ミッションの達成後にレンタル Tier X 車輌を取得できます。"
+
+msgid "awardWindow/btnAction/1"
+msgstr "乱戦へ移動"
+
+msgid "awardWindow/btnAction/2"
+msgstr "ミッションへ移動"
+
+msgid "awardWindow/header/1"
+msgstr "Tier %s 車輌を利用可能"
+
+msgid "awardWindow/header/2"
+msgstr "Tier %s 車輌を利用可能"
+
+msgid "awardWindow/mainText/1"
+msgstr "おめでとうございます! ガレージの Tier %s 車輌で乱戦モードに参加可能です。"
+
+msgid "awardWindow/mainText/2"
+msgstr "おめでとうございます! Tier %s 車輌をご利用可能です。乱戦モードに参加するには、Tier X 車輌を購入してください。"
+
+msgid "awardWindow/title/1"
+msgstr "公報"
+
+msgid "awardWindow/title/2"
+msgstr "公報"
+
+msgid "battleLoading/multiteam/battleType"
+msgstr "スチールハント"
+
+msgid "battleLoading/multiteam/winText"
+msgstr "勝利条件: 敵より多くの勝利ポイントを取得せよ!"
+
+msgid "battleSelectorWindow/domination/descr"
+msgstr "マップに応じ、各チーム 10 名または 15 名構成 (小隊を含む) のチーム同士で戦います。\n勝利ポイントがより多いチーム、または\n敵車輌を殲滅したチームの勝利となります。"
+
+msgid "battleSelectorWindow/domination/title"
+msgstr "制圧戦"
+
+msgid "battleSelectorWindow/dominationBattleBtnLbl"
+msgstr "移行"
+
+msgid "battleSelectorWindow/headerDesc"
+msgstr "このモードには、チーム構成が異なる複数の戦闘タイプが含まれます。\n各戦闘タイプでは、戦闘中の戦闘リザーブの使用、および再出撃が可能です。"
+
+msgid "battleSelectorWindow/headerTitleStr"
+msgstr "乱戦"
+
+msgid "battleSelectorWindow/multiteam/descr"
+msgstr "ソロプレイヤー同士、または 3 名構成の小隊同士による、\nフリーフォーオール形式の戦闘です。最も多くの勝利ポイント\nを取得したプレイヤーまたは小隊の勝利となります。"
+
+msgid "battleSelectorWindow/multiteam/title"
+msgstr "スチールハント"
+
+msgid "battleSelectorWindow/multiteamBattleBtnLbl"
+msgstr "移行"
+
+msgid "battleSelectorWindow/title"
+msgstr "乱戦"
+
+msgid "channel/label"
+msgstr "乱戦"
+
+msgid "falloutBattleSelectorWindow/autoSquad/label"
+msgstr "チームの自動検索"
+
+msgid "hangarSwitch/14"
+msgstr "制圧戦"
+
+msgid "hangarSwitch/15"
+msgstr "スチールハント"
+
+msgid "hangarSwitch/btnLbl"
+msgstr "変更"
+
+msgid "infoPanel/garage/descr"
+msgstr "自車輌が大破した場合、新しい車輌を戦闘して戦場に戻ることが可能。"
+
+msgid "infoPanel/garage/head"
+msgstr "1 戦あたり 3 輌"
+
+msgid "infoPanel/garage/postmortemBtnLbl"
+msgstr "観戦モード"
+
+msgid "infoPanel/garageMultiteam/descr"
+msgstr "自車輌が大破した場合、新しい車輌を戦闘して戦場に戻ることが可能。"
+
+msgid "infoPanel/garageMultiteam/head"
+msgstr "1 戦あたり 1-3 輌"
+
+msgid "infoPanel/getFlags/descr"
+msgstr "旗を奪取し、味方陣地へと運搬せよ。"
+
+msgid "infoPanel/getFlags/head"
+msgstr "旗争奪戦"
+
+msgid "infoPanel/repair/descr"
+msgstr "コントロールポイントで自車輌を修理・補給可能。"
+
+msgid "infoPanel/repair/head"
+msgstr "フルサービス"
+
+msgid "infoPanel/resourcePoints/descr"
+msgstr "特別リソースポイントでリソースを奪取せよ。"
+
+msgid "infoPanel/resourcePoints/head"
+msgstr "リソース争奪戦"
+
+msgid "infoPanel/secretWin/descr"
+msgstr "勝利ポイントを獲得して勝利に貢献せよ。"
+
+msgid "infoPanel/secretWin/head"
+msgstr "ポイント計算"
+
+msgid "infoPanel/singleHelpText/plus"
+msgstr "+"
+
+msgid "infoPanel/singleHelpText/winPoints/damage"
+msgstr "与ダメージ %(damageDealt)s: %(points)s"
+
+msgid "infoPanel/singleHelpText/winPoints/flagCapture"
+msgstr "旗を 1 本運搬: %s"
+
+msgid "infoPanel/singleHelpText/winPoints/flagDestroy"
+msgstr "旗を 1 本破壊: %s"
+
+msgid "infoPanel/singleHelpText/winPoints/kill"
+msgstr "敵車輌を 1 輌撃破: %s"
+
+msgid "multiselectionSlot/14/descriptionTitle"
+msgstr "車輌を選択してください。Tier %(topLevel)s 車輌を 1 輌以上含める必要があります。"
+
+msgid "multiselectionSlot/14/message"
+msgstr "グループは、Tier %(level)s 車輌 3 輌編成である必要があります。"
+
+msgid "multiselectionSlot/14/topTierVehicleRequired"
+msgstr "制圧戦モードに参加するには、Tier %(requiredLevel)s 車輌が 1 輌以上必要です。\nグループは Tier %(level)s 車輌 3 輌で編成する必要があります。"
+
+msgid "multiselectionSlot/15/descriptionTitle"
+msgstr "車輌の選択"
+
+msgid "multiselectionSlot/15/message"
+msgstr "ガレージに所有中の Tier %(level)s 車輌を選択してください。"
+
+msgid "multiselectionSlot/15/topTierVehicleRequired"
+msgstr "スチールハント・モードに参加するには、Tier %(requiredLevel)s 車輌が 1 輌以上必要です。"
+
+msgid "multiselectionSlot/domination/requiredVehicleNotActivated"
+msgstr "Tier %(level)s\n車輌"
+
+msgid "multiselectionSlot/domination/vehicleNotActivated"
+msgstr "車輌\n選択"
+
+msgid "multiselectionSlot/groupNotReady"
+msgstr "グループの準備が未完了"
+
+msgid "multiselectionSlot/groupReady"
+msgstr "グループ準備完了"
+
+msgid "multiselectionSlot/index"
+msgstr "%(index)d"
+
+msgid "multiselectionSlot/multiteam/vehicleNotActivated"
+msgstr "車輌\n選択"
+
+msgid "multiselectionSlot/selectionRequirements"
+msgstr "Tier %(level)s"
+
+msgid "multiselectionSlot/selectionStatus"
+msgstr "車輌の選択"
+
+msgid "resourcePoints/cooldown/descr"
+msgstr "利用可能まで:"
+
+msgid "resourcePoints/disabled/descr"
+msgstr "敵がポイントに到達!"
+
+msgid "resourcePoints/mining/descr"
+msgstr "リソース奪取"
+
+msgid "safeZone/message"
+msgstr "安全地帯へ\n移動せよ"
+
+msgid "safeZoneDirection/message"
+msgstr "安全地帯"
+
+msgid "tankCarouselSlot/activateButton"
+msgstr "選択"
+
+msgid "tankCarouselSlot/deactivateButton"
+msgstr "キャンセル"
+
+msgid "tankCarouselSlot/selectionButtonTooltip"
+msgstr "グループは Tier %(level)s 車輌 3 輌で編成する必要があり、戦闘中ではない Tier %(requiredLevel)s 車輌が 1 輌以上必要です。"

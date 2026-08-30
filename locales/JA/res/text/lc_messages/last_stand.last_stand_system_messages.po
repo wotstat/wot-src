@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "タクティカル・デバイス"
+
+msgid "open_artefact/server_error"
+msgstr "こちらの操作は一時的に実行できません。時間をおいて再度お試しください。"
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "技術的なエラーにより「%s」へのタクティカル・デバイスの補給に失敗しました。"
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "残高不足により「%s」へのタクティカル・デバイスの補給に失敗しました。"
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "「%s」のタクティカル・デバイスの補給が完了しました。費用:"
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "「暗号レコード」を解読可能"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "モード: 〈ラスト・スタンド〉テラ・ノール"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "〈ラスト・スタンド〉テラ・ノール (ノーマル)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "〈ラスト・スタンド〉テラ・ノール (ハード)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "〈ラスト・スタンド〉テラ・ノール (ナイトメア)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "難易度"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "ノーマル"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "ハード"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "ナイトメア"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "データ"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "目標を達成！"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "目標を達成！"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "車輌"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "撃破したウェーブ: %(curPhase)s / %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "消費: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "取引明細"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "「ラスト・スタンド」専用ガレージ画面より難易度を選択できます。"
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "難易度「ハード」をアンロック"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "「ラスト・スタンド」専用ガレージ画面より難易度を選択できます。"
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "難易度「ナイトメア」をアンロック"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "「〈ラスト・スタンド〉オペレーション・パンドラ」専用ガレージ画面よりモードを選択できるようになりました。"
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "「ラスト・スタンド」モードをアンロック"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "「解読キー」を入手: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "入手"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "消費した「解読キー」: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "解読成功"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "一時的に「ラスト・スタンド」での戦闘を行うことができません。\n時間をおいて再度お試しください。"
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "一時的に難易度「%(difficulty)s」での戦闘を行うことができません。時間をおいて再度お試しください。"
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "「ラスト・スタンド」は現在プレイいただけません。公式サイトより最新情報をご確認ください。"
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "指揮官が難易度を「%(level)s」に変更しました。"
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "プレイヤー「%(userName)s」が選択中の難易度をアンロックしていません。"

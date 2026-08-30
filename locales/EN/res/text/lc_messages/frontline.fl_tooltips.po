@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Curfew {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "The event will be available from"
+
+msgid "bannerTooltip/description"
+msgstr "Massive 30v30 battles in Tier {{vehicleTier}} vehicles on the Normandie, Kraftwerk, and Fata Morgana maps. The attackers must destroy three of five high-caliber guns, while the defenders must protect them."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Show your prowess in intense battles to earn fame, claim valuable rewards, and rise through the ranks."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "The event has ended, and you have unclaimed rewards for completed Frontline Tiers."
+
+msgid "bannerTooltip/header"
+msgstr "Frontline"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Frontline | Tier {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} — Game mode. Click to explore"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "This mode demands high computer performance. You may experience issues with map loading, graphics, and vehicle movement. In case of insufficient performance, try a lower graphics quality in Settings."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Possible Reduced Performance"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Select rewards for completed Tiers ({{value}})"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Insufficient funds to make the purchase."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "The changes will be applied to all tank destroyers."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "The changes will be applied to all SPGs."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "The changes will be applied to all heavy tanks."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "The changes will be applied to all light tanks."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "The changes will be applied to all medium tanks."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Incompatible vehicle"
+
+msgid "battleAbilities/points/body"
+msgstr "Accumulate the required number of Points and activate the Frontline Combat Reserves."
+
+msgid "battleAbilities/points/header"
+msgstr "Combat Reserve Points"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "View Attack Reserves"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Attack Reserves"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "View Recon Reserves"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Recon Reserves"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "View Tactical Reserves"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Tactical Reserves"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "The Combat Reserve Level is increased after reaching the Captain and Major ranks in battle. The maximum level is determined by the battle scenario."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Additional information"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Attack Reserves"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Recon Reserves"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Tactical Reserves"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Permanent characteristics:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "A Combat Reserve placed in this slot increases the chance of it being offered in the {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}} scenario by {{@ colorLegacy 'FFE4C0'}}10%{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Reserve Level:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "Not purchased!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "The event has ended."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "The event will start soon!"
+
+msgid "infoButton/body"
+msgstr "Click for more information."
+
+msgid "infoButton/header"
+msgstr "About Event"
+
+msgid "levelReserves/desc"
+msgstr "Combat Reserve Levels are increased upon reaching new ranks:"
+
+msgid "levelReserves/info"
+msgstr "In the {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}} scenario, purchasing a Combat Reserve will increase its level by one and provide an opportunity to improve it to Level {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}."
+
+msgid "levelReserves/level"
+msgstr "Increases upon reaching the following rank: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Available with the following rank: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Level - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "For {{@ colorLegacy 'FFE4C0'}}purchased Combat Reserves{{/}} in the {{@ colorLegacy 'FFE4C0'}}Twist of Fate{{/}} scenario."
+
+msgid "levelReserves/title"
+msgstr "Combat Reserve Levels"
+
+msgid "playlist/warning/body"
+msgstr "This playlist contains vehicles that are not suitable for this game mode or not in your Garage."
+
+msgid "playlist/warning/header"
+msgstr "Vehicles unavailable (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Combat Reserve characteristics improved"
+
+msgid "randomReserve/disable"
+msgstr "The Combat Reserve slot has been used."
+
+msgid "randomReserve/notPurchased"
+msgstr "Combat Reserve not purchased"
+
+msgid "randomReserve/purchased"
+msgstr "Combat Reserve purchased"
+
+msgid "skillOrderTooltip/body"
+msgstr "Each vehicle type has its own order of unlocking Reserves:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Combat Reserve Unlocking Order"
+
+msgid "skillOrderTooltip/info"
+msgstr "In the {{@ colorLegacy 'whiteSpanish'}}Twist of Fate{{/}} scenario, the order in which Combat Reserves are unlocked does not depend on the vehicle type."

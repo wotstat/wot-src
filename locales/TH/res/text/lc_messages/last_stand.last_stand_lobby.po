@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "ออกรบต่อ"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "ติดตั้ง!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "อุปกรณ์ยุทธวิธีไม่ครบ"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "พาหนะที่คุณเลือกเอาไว้ขาดอุปกรณ์ยุทธวิธีหนึ่งอย่างหรือมากกว่า นี่อาจจะมีผลกับสมรรถนะการรบของคุณอย่างมาก เลือกที่จะเข้ารบ?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "คุณสามารถปรับแต่งการตั้งปุ่มลัดกิจกรรมล่วงหน้าสำหรับกระสุนและอุปกรณ์ยุทธวิธีได้\nการเปลี่ยนแปลงนี้จะมีผลกับการรบกิจกรรมเท่านั้นและจะไม่มีผลกับรูปแบบอื่นๆ\nคุณสามารถปรับแต่งปุ่มลัดเฉพาะนี้ได้ในรายการ - การตั้งค่า - การควบคุม (ใต้ยุทธปัจจัย)"
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "การเปลี่ยนปุ่มลัดยุทธปัจจัยตั้งเอาไว้ล่วงหน้า"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "ปฏิบัติภารกิจนี้ให้สำเร็จเพื่อรับตราเฉพาะการยืนหยัดครั้งสุดท้าย: ปฏิบัติการแพนดอร่า"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "ภารกิจความสำเร็จมหากาพย์"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "เมื่อวิจัยแล้ว ลด {EDCB9E_Start}ค่ามิเรียม{EDCB9E_End} ของอุปกรณ์ยุทธวิธีทั้งหมดลง {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}"
+
+msgid "booster/booster_ability_cost/name"
+msgstr "ประสิทธิภาพมิเรียม"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "เมื่อวิจัยแล้ว เพิ่ม {EDCB9E_Start}ผลระยะเวลาอุปกรณ์ยุทธวิธี{EDCB9E_End} อีก {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}"
+
+msgid "booster/booster_ability_duration/name"
+msgstr "ช่วงมีผลของอุปกรณ์"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "เมื่อวิจัยแล้ว เพิ่ม {EDCB9E_Start}รัศมีให้ผลของอุปกรณ์ยุทธวิธี{EDCB9E_End} อีก {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "รัศมีผลของอุปกรณ์"
+
+msgid "booster/booster_heal/description"
+msgstr "เมื่อวิจัยแล้วเพิ่ม {EDCB9E_Start}ผลการคืนสภาพ{EDCB9E_End} ทั้งหมดที่มีต่อพาหนะดังกล่าวอีก {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}"
+
+msgid "booster/booster_heal/name"
+msgstr "ผลการคืนสภาพ"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "เมื่อวิจัยแล้ว เพิ่มจำนวน {EDCB9E_Start}ความเสียหายที่ส่งจากเสาหิน{EDCB9E_End} ไปยังพาหนะข้าศึกอีก {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "ความเสียหายที่ส่งจากเสาหิน"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "เมื่อวิจัยแล้ว เพิ่ม {EDCB9E_Start}รัศมีเก็บมิเรียม{EDCB9E_End}จากข้าศึกอีก {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}"
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "รัศมีเก็บมิเรียม"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "เมื่อวิจัยแล้ว เพิ่ม{EDCB9E_Start}จำนวนมิเรียมที่เก็บได้{EDCB9E_End}จากพาหนะที่ถูกทำลายอีก {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}"
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "การเก็บมิเรียม"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "เมื่อวิจัยแล้ว เพิ่ม{EDCB9E_Start}จำนวนมิเรียม{EDCB9E_End}ที่ได้จากการทำลายระลอกข้าศึกอีก {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}"
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "แร่มิเรียมต่อระลอก"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "เมื่อวิจัยแล้ว เพิ่ม{EDCB9E_Start}จำนวนมิเรียม{EDCB9E_End}ที่ได้คืนจากการเกิดใหม่อีก {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}"
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "มิเรียมเมื่อเกิดใหม่"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "เมื่อวิจัยแล้ว เพิ่ม{EDCB9E_Start}จำนวนมิเรียมเก็บได้สูงสุด{EDCB9E_End}อีก {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}"
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "พิกัดมิเรียม"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "ชุดผู้ป้องกัน"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "ซื้อกุญแจแล้ว"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "ตัวเลือกในการได้รับประสบการณ์ ×5 เริ่มตั้งแต่การชนะครั้งที่สองของวันในพาหนะใดก็ได้"
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "ภารกิจประสบการณ์ x5 ที่ได้รับในการรบ"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "ตั้งค่าการแสดงพาหนะตามชนิด, ประเทศและค่าอื่นๆ"
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "กรองตามค่า"
+
+msgid "common/back"
+msgstr "กลับ"
+
+msgid "common/close"
+msgstr "ปิด"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "ไปยังกิจกรรม"
+
+msgid "common/toRewardPath"
+msgstr "ไปยังความก้าวหน้า"
+
+msgid "common/yes"
+msgstr "รับทราบ!"
+
+msgid "difficult/daily"
+msgstr "ปลดล็อคภารกิจกุญแจประจำวันแล้ว"
+
+msgid "difficult/disabled/body"
+msgstr "คุณอยู่ในหมวดรถถัง มีเพียงผู้การหมวดรถถังเท่านั้นที่จะสามารถเปลี่ยนขั้นความยากได้"
+
+msgid "difficult/disabled/header"
+msgstr "ไม่สามารถเปลี่ยนความยากได้"
+
+msgid "difficult/level_1"
+msgstr "ปกติ"
+
+msgid "difficult/level_2"
+msgstr "ก้าวหน้า"
+
+msgid "difficult/level_3"
+msgstr "โหดร้าย"
+
+msgid "difficult/new"
+msgstr "ใหม่"
+
+msgid "difficult/searching/body"
+msgstr "ไม่มีให้ในช่วงการวิจัย"
+
+msgid "difficult/tooltip/description/level1"
+msgstr "ข้าศึกมีความทนทานต่ำและเกราะบาง จำนวนกลักบัตรเจาะต่อการรบปกติ"
+
+msgid "difficult/tooltip/description/level2"
+msgstr "ข้าศึกมีเกราะหนาขึ้น กลักบัตรเจาะต่อการรบเพิ่มขึ้นอีก {{modifier}}"
+
+msgid "difficult/tooltip/description/level3"
+msgstr "มีข้าศึกมากขึ้นและมีเกราะหนาขึ้น กลักบัตรเจาะต่อการรบเพิ่มขึ้นอีก {{modifier}}"
+
+msgid "difficult/tooltip/description/reward"
+msgstr "รางวัลสำหรับการทำลายระลอกสุดท้ายเป็นครั้งแรก:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "ความยากปกติ"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "ความยากก้าวหน้า"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "ความยากโหดร้าย"
+
+msgid "difficult/tooltip/locked"
+msgstr "ความยากถูกล็อคเอาไว้"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "ในการปลดล็อคความยากระดับนี้ ให้ผ่านระดับความยากปกติก่อน"
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "ในการปลดล็อคความยากระดับนี้ ให้ผ่านระดับความยากก้าวหน้าก่อน"
+
+msgid "difficult/tooltip/state/default"
+msgstr "ความยากมีให้"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "ความยากเลือกเอาไว้"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "ทำลายระลอกแล้ว: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "ปกติ"
+
+msgid "difficult/uppercase/level_2"
+msgstr "ก้าวหน้า"
+
+msgid "difficult/uppercase/level_3"
+msgstr "โหดร้าย"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "ข้าศึกมีเกราะที่หนาขึ้น เงินและ x{{modifier}} กลักบัตรเจาะต่อการรบมากขึ้น"
+
+msgid "difficultyWindow/description/level_3"
+msgstr "มีข้าศึกที่มีเกราะหนากว่าเดิม เงินและ x{{modifier}} กลักบัตรเจาะต่อการรบมากขึ้น "
+
+msgid "difficultyWindow/description/level_4"
+msgstr "ออกรบและเอาชนะระลอกข้าศึกที่มีแล้วแสดงฝีมือของคุณด้วยการไต่กระดานผู้นำ รางวัลเฉพาะและอื่นๆอีกมากกำลังรอคุณอยู่"
+
+msgid "difficultyWindow/header/level_2"
+msgstr "ขั้นความยากก้าวหน้า"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "ขั้นความยากโหดร้าย"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "รูปแบบการยืนหยัดสุดท้าย"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "ก้าวหน้า"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "โหดร้าย"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "การยืนหยัดสุดท้าย"
+
+msgid "difficultyWindow/rewards"
+msgstr "รางวัลสำหรับการผ่าน:"
+
+msgid "difficultyWindow/title"
+msgstr "มีให้"
+
+msgid "hangar/exit"
+msgstr "ออกจากกิจกรรม"
+
+msgid "hangar/narration"
+msgstr "เรื่องราว"
+
+msgid "hangar/tooltip/about"
+msgstr "อ่านเพิ่มเติมเกี่ยวกับการยืนหยัดครั้งสุดท้าย: โลกแดนเหนือ"
+
+msgid "hangar/tooltip/narration"
+msgstr "อ่านเพิ่มเติมเกี่ยวกับเรื่องราวกิจกรรม"
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "อุปกรณ์ยุทธวิธี"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "การปรับแต่ง"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "การยืนหยัดสุดท้าย"
+
+msgid "iconButton/comparison/default"
+msgstr "การเปรียบเทียบพาหนะ"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "การเปรียบเทียบพาหนะไม่มีให้"
+
+msgid "iconButton/preview/default"
+msgstr "ตัวอย่างพาหนะ"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "ตัวอย่างพาหนะไม่มีให้"
+
+msgid "keyCard/name"
+msgstr "กุญแจถอดรหัส"
+
+msgid "meta/btn/decrypt"
+msgstr "ถอดรหัส"
+
+msgid "meta/btn/skip"
+msgstr "ข้าม"
+
+msgid "meta/btn/view"
+msgstr "ดู"
+
+msgid "meta/receive/description"
+msgstr "สะสม %(keys) / %(decrypt) %(icon)\nเพื่อถอดรหัสบันทึกนี้"
+
+msgid "metaIntro/description/fight"
+msgstr "ต่อสู้ในการรบกิจกรรมและหากลักบัตรเจาะเพื่อผ่านความก้าวหน้าที่มี"
+
+msgid "metaIntro/description/progress"
+msgstr "สะสมกลักบัตรเจาะเพื่อวิจัยส่วนยกระดับพาหนะและเผชิญความท้าทายที่ยิ่งใหญ่กว่าเดิม"
+
+msgid "metaIntro/description/reward"
+msgstr "ผ่านด่านความก้าวหน้าเพื่อรับรางวัลกิจกรรมพิเศษ ดูสายรางวัลสำหรับรายละเอียดเพิ่มเติม"
+
+msgid "metaIntro/header/fight"
+msgstr "การรบกิจกรรม"
+
+msgid "metaIntro/header/progress"
+msgstr "การยกระดับ"
+
+msgid "metaIntro/header/reward"
+msgstr "รางวัลเฉพาะตัว"
+
+msgid "metaIntro/title"
+msgstr "ความก้าวหน้า"
+
+msgid "missionWidget/complete"
+msgstr "ภารกิจสำเร็จแล้ว\nโปรดกลับมาใหม่ในวันพรุ่งนี้"
+
+msgid "missionWidget/tooltipBody"
+msgstr "ปฏิบัติภารกิจประจำวันให้สำเร็จที่จะมีให้ในทุก 24 ชั่วโมงเพื่อรับรางวัล ภารกิจของวันนี้:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "ภารกิจประจำวัน"
+
+msgid "narration/actions/voiceover"
+msgstr "การให้เสียงพากย์"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}ลับสุดยอด{{/}}{{titleParagraph}}{{@ class $highlightText}}พื้นที่: N-07 (เขตออโรร่า){{/}}{{pargraphStart}}การพยากรณ์ของเราถูกต้อง เจ้าหน้าสถานีีสังเกตการณ์บันทึกการรุกคืบของพลังแปรปรวนในช่วง 11 วันก่อนเกิดเหตุการณ์ นีี่เป็นครั้งแรกทีี่เราเห็นมันกำลังเข้ามา{{pargraphStart}}ในช่วงความสงบก่อนพายุ การผลิตนิคม ATLAS นั้นถูกปรับให้เป็นมาตรฐาน ชิ้นส่วนใหม่ถูกประกอบเร็วและแม่นยำขึ้นกว่าเดิม เราทำการฝึกฝนต่อ, ปรับขบวนและเตรียมหมู่รบกองหนุนในระดับพร้อมรบ{{pargraphStart}}แต่พลังแปรปรวนนั้นก็มีีแผนของมันเอง{{pargraphStart}}หินปล่องพลังไม่ได้เปิดขึ้นในพื้นทีี่ที่คาดเอาไว้ มันปรากฎในภูมิภาคห่างไกลตอนเหนือซึ่งห่างไกลจากโครงสร้างพื้นฐานแทน มันก็ไม่ชัดเจนกว่าทำไมมันถึงเลือกตำแหน่งนีี้ ไม่มีีอะไรในแบบจำลองระบุพื้นทีี่นีี้ เราได้ทำการวางกำลังฉุกเฉินโดยทันทีแต่ภูมิประเทศและระยะทางนั้นก็ไม่ได้ทำให้งานของเราง่ายขึ้น ยานเกราะและหมู่รบบางส่วนนั้นไปถึงล่าช้ากว่าหมายกำหนด{{pargraphStart}}ทุกๆ นิคม ATLAS ทีี่เราส่งไปได้ตอนนี้สำคัญเป็นอย่างยิ่ง{{pargraphStart}}ตอนนีี้เราก็พร้อมสำหรับการรบแล้ว แต่นีี่จะเป็นการรบในตำแหน่งทีี่ต่างออกไป{{pargraphStart}}ลงนาม: ภัณฑารักษ์ (โครงการ M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}บันทึกการวิเคราะห์ 27/C \"การเลือกตำแหน่งการรุกราน\"{{/}}{{titleParagraph}}สำหรับการใช้ภายใน มีีประทับตรา \"จำกัดการเข้าถึง\" {{pargraphStart}}ฉันได้ถามคำถามทีี่ฉันเองก็ต้องตอบ แต่ก็ตอบไม่ได้ว่าทำไมถึงเป็นทีี่นีี่?{{pargraphStart}}ภูมิภาคนีี้ไม่มีีคุณค่าทางยุทธศาสตร์ใดๆสำหรับปล่อง มันไม่มีอะไรที่นี่ ไม่มีีโครงสร้างพื้นฐาน ไม่มีชุมชนใดๆ มีเพียงฐานทัพไม่ได้ใช้งานบนเกาะ รถถังเสียงสะท้อนไม่สามารถแล่นข้ามทะเลได้ ทำไมถึงมายึดตำแหน่งที่พวกมันโจมตีไม่ได้กัน? {{pargraphStart}}ฉันได้ทำการขอประวัติการปฏิบัติการแบบเต็มของภูมิภาค คำตอบที่ได้นั้นถูกปกปิดอย่างมาก มีทั้งส่วนที่ถูกคาดดำเอาไว้ การขอครั้งที่สองถูกส่งกลับมาพร้อมกับหมายเหตุว่า \"การเข้าถึงถูกจำกัดด้วยอำนาจของ  {{@ class $highlightSecondaryText}}[ข้อมูลถูกลบ]{{/}}.\" ฉันเองก็เป็นหัวหน้าแผนกวิจัยที่ไม่ว่าจะแนะนำอะไรก็ตามก็จะถูกนำไปพิจารณาในการวางยุทธศาสตร์พื้นทีี่นี้แต่ก็ถูกปฏิเสธไม่ให้เข้าถึงข้อมูลของพื้นที่นี้!{{pargraphStart}}นี่คือสิ่งทีี่ฉันสามารถคาดเดาจากข้อมูลภาคสนามได้ พฤติกรรมของหินปล่องพลังนั้นไม่ได้เป็นไปตามที่เราได้สังเกตการณ์ในพื้นที่ R-22 รถถังเสียงสะท้อนชนิดใหม่ที่เราไม่เคยพบก็ได้ปรากฎตัวขึ้น พวกมันทำการรบเหมือนกับยานพิฆาตรถถังระยะไกลของเราและมีประสิทธิภาพอย่างมากในภูมิประเทศแบบนี้ ศัตรูนั้นได้เรียนรู้ยุทธวิธีของเราและได้สร้างแผนโต้ตอบของตัวเอง ตอนนีี้ก็ถึงเวลาที่เราต้องปรับตัวแล้ว{{pargraphStart}}บางทีมันอาจจะต้องการพื้นที่นี้ หรืออะไรก็ตามที่อยู่ใต้พื้นดิน {{pargraphStart}}ฉันเองก็ไม่รู้ และที่ฉันกังวลคือน่าจะมีใครซักคนที่รู้แต่ไม่ยอมบอกฉัน{{pargraphStart}}ลงนาม: ภัณฑารักษ์ (โครงการ M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}บันทึกส่วนตัวภัณฑารักษ์{{/}}{{pargraphStart}}ฉันได้พิจารณาสมมติฐานของฉันทั้งสามสมมติฐานแล้ว{{pargraphStart}}  1. พลังแปรปรวนนั้นพยายามทำลายเรา {{pargraphStart}}  2. พลังแปรปรวนนั้นกำลังทดลองบางอย่าง มันวิจัยยุทธวิธีของเราและสังเกตการตอบสนองของเราแล้วปรับแก้ยุทธวิธี{{pargraphStart}}  3. พลังแปรปรวนกำลังฝึกตัวเอง แต่ละระลอกนั้นเป็นการฝึกยุทธวิธีใหม่ การรบแต่ละครั้งคือการทดสอบภาคสนาม{{pargraphStart}}ทั้งสามสมมติฐานต่างใช้การอนุมานหลักว่าพวกเราคือเป้าหมายของการรุกรานนี้{{pargraphStart}}แต่ถ้าเราไม่ใช่เป้าหมายล่ะ?{{pargraphStart}}จะเป็นอย่างไรถ้าพลังแปรปรวนกำลังพยายามอะไรบางอย่างและเราแค่เป็นสิ่งที่ขวางทางมันอยู่? เหมือนกับรังมดที่น้ำท่วมระหว่างที่กำลังตัดถนน คนตัดถนนก็ไม่ได้มาทำสงครามกับพวกมดเพราะพวกเขาแค่ไม่เห็นพวกมัน{{pargraphStart}}คุณสามารถหยุดศัตรูที่ต้องการทำลายคุณได้ คุณสามารถเจรจากับพวกมันได้ แต่คุณไม่สามารถทำให้บางอย่างที่ไม่รู้ว่าคุณมีอยู่กลัวได้ คุณไม่สามารถชิงไหวพริบหรือหยุดยั้งมันได้ เพราะคุณไม่เคยอยู่ในการวางแผนของพวกมัน{{pargraphStart}}ฉันคิดว่าเรากำลังถามคำถามที่ผิด เราไม่ควรถามว่าทำไมมันถึงโจมตีเรา แต่ว่าพวกมันได้เห็นเราจริงๆหรือเปล่า{{pargraphStart}}ลงนาม: ภัณฑารักษ์ (โครงการ M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}รายงานสุดท้าย{{/}}{{titleParagraph}}{{@ class $highlightText}}สถานะ: เปิดเผย (บางส่วน){{/}}{{pargraphStart}}เมื่อเวลา 03:47 หินปล่องพลังได้ยุบตัวและความเคลื่อนไหวของพลังแปรปรวนก็หยุดลง เขตนี้ถือว่าปลอดภัย{{pargraphStart}}ในช่วงวินาทีสุดท้ายก่อนการยุบตัว มาตรวัดของ ATLAS จับกระแสพลังงานที่มากกว่าค่าเดิมที่เคยบันทึกได้ทั้งหมด เหล่าเจ้าหน้าที่ได้เห็นการปรากฎกายภาคช่วงเวลาสั้นๆที่ใจกลางพลังแปรปรวนในเวลาไม่เกิน 12 วินาที หลังจากนั้น หินปล่องพลังก็ปิดตัวลง{{pargraphStart}}การประกาศทางการ: เหตุการณ์ดังกล่าวจบลงแล้ว พื้นที่ได้รับการป้องกันโดยสมบูรณ์ การกักกันจะถูกปลดจากเขตนี้แล้ว{{pargraphStart}}{{@ class $highlightText}}หมายเหตุภัณฑารักษ์ส่วนตัว (เฉพาะกองหนุนพิเศษ){{/}}{{pargraphStart}}เราไม่ได้ชนะ แต่มันจบลงแล้ว{{pargraphStart}}นี่ไม่ใช่การรุกราน มันเป็นหน้าฉาก เขตป้องกันรอบๆสิ่งที่ปรากฎในกลางหินปล่องพลังไม่กี่วินาทีก่อนที่มันจะยุบตัวลง{{pargraphStart}}เสาหินลอยจำนวนมากปรากฎตัวขึ้นพร้อมกันและเราก็ยังไม่รู้ว่ามันทำอะไรอยู่ นิคม ATLAS บันทึกค่าทั้งหมดเอาไว้ได้แต่มันจะต้องใช้เวลานานในการถอดความข้อมูลเหล่านี้ เรารู้อยู่อย่างหนึ่งแน่นอนคือ พลังแปรปรวนได้ทำกระบวนการอะไรซักอย่างสำเร็จ {{pargraphStart}}ไม่ว่ามันจะทำอะไรอยู่ เราต้องเตรียมตัวรับมือกับการโจมตีครั้งต่อไป เราเองก็มีข้อมูลพอแล้ว เหล่าวิศวกรของเราก็พร้อมจะวินิจฉัยบันทึกที่มีและฉันบอกได้เลยว่าฉันไม่เคยเห็นพวกเขาตื่นเต้นขนาดนี้ พวกเขาคิดว่าเราได้เสริมกำลังยานเกราะของเราอย่างมาก แต่เราเองก็ต้องทำให้เสร็จก่อนหินปล่องพลังนั่นกลับมา{{pargraphStart}}ฉันหยุดคิดอย่างหนึ่งไม่ได้คือ ถ้าสิ่งที่เกิดขึ้นที่นี่ปรากฎในเวลาสั้นๆ มันเป็นไปได้ไหมที่มันจะเคยเกิดขึ้นแล้วหลายครั้งก่อนหน้านี้? ในที่ๆไม่มี ATLAS คอยจับข้อมูลและไม่มีใครเห็นเหตการณ์ดังกล่าว...{{pargraphStart}}ลงนาม: ภัณฑารักษ์ (โครงการ M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}} เราพร้อมแล้ว"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}} ทำไมถึงที่นี่?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}} ผิดคำถาม"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}} มันจบแล้ว"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "ผ่านความยากระดับปกติเพื่อผ่านไปยังเนื้อเรื่องถัดไป"
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "ผ่านความยากระดับก้าวหน้าเพื่อผ่านไปยังเนื้อเรื่องถัดไป"
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "ผ่านความยากระดับโหดร้ายเพื่อผ่านไปยังเนื้อเรื่องถัดไป"
+
+msgid "narration/tooltips/nextStory"
+msgstr "เนื้อเรื่องถัดไป"
+
+msgid "preBattle/leave"
+msgstr "ออกจากการรบ"
+
+msgid "preBattle/searching"
+msgstr "กำลังค้นหาพันธมิตร..."
+
+msgid "preBattle/tip"
+msgstr "ใช้เวลานานไปในการหากองปฏิบัติการ? ลองเปลี่ยนระดับความยากดู"
+
+msgid "preBattle/uppercase/leave"
+msgstr "ออกจากการรบ"
+
+msgid "promoWindow/header"
+msgstr "เล่นการยืนหยัดสุดท้าย"
+
+msgid "promoWindow/subheader"
+msgstr "มาลองบทใหม่ของรูปแบบเกม PvE การยืนหยัดครั้งสุดท้ายตั้งแต่ {dateRange}\nมาคว้า{cream_open}ชุดติดตั้งสามมิติ{cream_close}แนวกิจกรรม, อุปกรณ์รุ่นทดลองและรางวัลเฉพาะกัน"
+
+msgid "questCard/allCompleted"
+msgstr "ภารกิจประจำวันทั้งหมดสำเร็จแล้ว"
+
+msgid "questCard/completed"
+msgstr "ผ่านภารกิจประจำวันแล้ว\nโปรดกลับมาในวันพรุ่งนี้"
+
+msgid "reward/rest"
+msgstr "และอีก %(count)s"
+
+msgid "rewardPath/about"
+msgstr "เกี่ยวกับเป้าหมาย"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "อ่านเพิ่มเติมเกี่ยวกับความก้าวหน้า"
+
+msgid "rewardPath/boostTitle"
+msgstr "เร่งความก้าวหน้าของคุณและรับกลักบัตรเจาะเพิ่มขึ้น{icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "ดูในร้านค้า"
+
+msgid "rewardPath/completed"
+msgstr "ได้กลักบัตรเจาะและรางวัลทั้งหมดแล้ว"
+
+msgid "rewardPath/completedTitle"
+msgstr "ไปยังร้านค้าสำหรับองค์ประกอบปรับแต่งแนวเฉพาะ"
+
+msgid "rewardPath/intro"
+msgstr "บทเปิด"
+
+msgid "rewardPath/introTooltip"
+msgstr "ชมวีดิโอบทเปิด"
+
+msgid "rewardPath/progress"
+msgstr "ได้รับกลักบัตรเจาะที่ด่าน {artefactIndex}: {currentProgress}/{maxProgress}{icon}"
+
+msgid "rewardPath/title"
+msgstr "ความก้าวหน้า"
+
+msgid "rewardPathCard/completed"
+msgstr "สำเร็จแล้ว"
+
+msgid "rewardPathCard/name"
+msgstr "เส้นทางรางวัล"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "ชุดสินค้ากิจกรรม"
+
+msgid "squad/goToAnother/cancel"
+msgstr "ยกเลิก"
+
+msgid "squad/goToAnother/message"
+msgstr "หมวดรถถังจะถูกยุบไป"
+
+msgid "squad/goToAnother/submit"
+msgstr "ออก"
+
+msgid "squad/goToAnother/title"
+msgstr "ออกจากกิจกรรมการยืนหยัดครั้งสุดท้าย: โลกแดนเหนือ?"
+
+msgid "squad/leave/cancel"
+msgstr "ยกเลิก"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "หมวดรถถังจะถูกยุบไป"
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "รับทราบ!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "กิจกรรมการยืนหยัดครั้งสุดท้าย: โลกแดนเหนือจบลงแล้ว"
+
+msgid "squad/leave/message"
+msgstr "หมวดรถถังจะถูกยุบไป"
+
+msgid "squad/leave/submit"
+msgstr "ออก"
+
+msgid "squad/leave/title"
+msgstr "ออกจากหมวดรถถังกิจกรรมการยืนหยัดครั้งสุดท้าย: โลกแดนเหนือ?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "ดำเนินการ"
+
+msgid "squad/leaveDisabled/message"
+msgstr "คุณอยู่ในหมวดรถถังและพร้อมออกรบแล้ว"
+
+msgid "squad/leaveDisabled/title"
+msgstr "คุณออกจากหมวดรถถังไม่ได้!"
+
+msgid "stageReward/rewards/received"
+msgstr "และยังได้รับ:"
+
+msgid "stageReward/special/header"
+msgstr "ผ่านขั้นความยากโหดร้ายแล้ว"
+
+msgid "stageReward/special/subheader"
+msgstr "ได้รับรางวัลพิเศษแล้ว"
+
+msgid "stageReward/stage/header"
+msgstr "ได้รับรางวัล"
+
+msgid "stageReward/stage/subheader"
+msgstr "การยืนหยัดครั้งสุดท้าย: ผ่านด่าน {{number}} แล้ว"
+
+msgid "stageReward/stageFinal/header"
+msgstr "ได้รับรางวัลทั้งหมดแล้ว"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "การยืนหยัดครั้งสุดท้าย: ผ่านด่านสุดท้ายแล้ว"

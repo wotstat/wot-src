@@ -1,0 +1,242 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dateRange/dashDivider"
+msgstr "{start}～{end}"
+
+msgid "dateRange/date/differentMonth/differentTime/end"
+msgstr "%Bd%#d日%TIME"
+
+msgid "dateRange/date/differentMonth/differentTime/start"
+msgstr "%Bd%#d日%TIME"
+
+msgid "dateRange/date/differentMonth/sameTime/end"
+msgstr "%Bd%#d日"
+
+msgid "dateRange/date/differentMonth/sameTime/start"
+msgstr "%Bd%#d日"
+
+msgid "dateRange/date/sameMonth/differentTime/end"
+msgstr "%Bd%#d日%TIME"
+
+msgid "dateRange/date/sameMonth/differentTime/start"
+msgstr "%Bd%#d日%TIME"
+
+msgid "dateRange/date/sameMonth/sameTime/dashDivider"
+msgstr "{start}～{end}"
+
+msgid "dateRange/date/sameMonth/sameTime/end"
+msgstr "%#d日"
+
+msgid "dateRange/date/sameMonth/sameTime/start"
+msgstr "%Bd%#d日"
+
+msgid "dateRange/dateShort/differentMonth/differentTime/end"
+msgstr "%bd%#d日%TIME"
+
+msgid "dateRange/dateShort/differentMonth/differentTime/start"
+msgstr "%bd%#d日%TIME"
+
+msgid "dateRange/dateShort/differentMonth/sameTime/end"
+msgstr "%bd%#d日"
+
+msgid "dateRange/dateShort/differentMonth/sameTime/start"
+msgstr "%bd%#d日"
+
+msgid "dateRange/dateShort/sameMonth/differentTime/end"
+msgstr "%bd%#d日%TIME"
+
+msgid "dateRange/dateShort/sameMonth/differentTime/start"
+msgstr "%bd%#d日%TIME"
+
+msgid "dateRange/dateShort/sameMonth/sameTime/dashDivider"
+msgstr "{start}～{end}"
+
+msgid "dateRange/dateShort/sameMonth/sameTime/end"
+msgstr "%#d日"
+
+msgid "dateRange/dateShort/sameMonth/sameTime/start"
+msgstr "%bd%#d日"
+
+msgid "dateRange/dateWithYear/differentYear/differentMonth/differentTime/end"
+msgstr "%Y年%Bd%#d日%TIME"
+
+msgid "dateRange/dateWithYear/differentYear/differentMonth/differentTime/start"
+msgstr "%Y年%Bd%#d日%TIME"
+
+msgid "dateRange/dateWithYear/differentYear/differentMonth/sameTime/end"
+msgstr "%Y年%Bd%#d日"
+
+msgid "dateRange/dateWithYear/differentYear/differentMonth/sameTime/start"
+msgstr "%Y年%Bd%#d日"
+
+msgid "dateRange/dateWithYear/sameYear/differentMonth/differentTime/end"
+msgstr "%Bd%#d日%TIME"
+
+msgid "dateRange/dateWithYear/sameYear/differentMonth/differentTime/start"
+msgstr "%Y年%Bd%#d日%TIME"
+
+msgid "dateRange/dateWithYear/sameYear/differentMonth/sameTime/end"
+msgstr "%Bd%#d日"
+
+msgid "dateRange/dateWithYear/sameYear/differentMonth/sameTime/start"
+msgstr "%Y年%Bd%#d日"
+
+msgid "dateRange/dateWithYear/sameYear/sameMonth/differentTime/end"
+msgstr "%Bd%#d日%TIME"
+
+msgid "dateRange/dateWithYear/sameYear/sameMonth/differentTime/start"
+msgstr "%Y年%Bd%#d日%TIME"
+
+msgid "dateRange/dateWithYear/sameYear/sameMonth/sameTime/dashDivider"
+msgstr "{start}～{end}"
+
+msgid "dateRange/dateWithYear/sameYear/sameMonth/sameTime/end"
+msgstr "%#d日"
+
+msgid "dateRange/dateWithYear/sameYear/sameMonth/sameTime/start"
+msgstr "%Y年%Bd%#d日"
+
+msgid "dateRange/month/dashDivider"
+msgstr "{start}～{end}"
+
+msgid "dateRange/month/end"
+msgstr "%Bs"
+
+msgid "dateRange/month/endOverride/stringDivider"
+msgstr "%Bs"
+
+msgid "dateRange/month/start"
+msgstr "%B"
+
+msgid "dateRange/month/startOverride/stringDivider"
+msgstr "%Bd"
+
+msgid "dateRange/month/stringDivider"
+msgstr "{start}から{end}まで"
+
+msgid "dateRange/monthWithYear/dashDivider"
+msgstr "{start}～{end}"
+
+msgid "dateRange/monthWithYear/end"
+msgstr "%Bs"
+
+msgid "dateRange/monthWithYear/endOverride/stringDivider"
+msgstr "%Bs"
+
+msgid "dateRange/monthWithYear/start"
+msgstr "%Y年%B"
+
+msgid "dateRange/monthWithYear/startOverride/stringDivider"
+msgstr "%Y年%Bd"
+
+msgid "dateRange/monthWithYear/stringDivider"
+msgstr "{start}から{end}まで"
+
+msgid "dateRange/stringDivider"
+msgstr "{start}から{end}まで"
+
+msgid "dateRange/time/dashDivider"
+msgstr "{start}～{end}"
+
+msgid "dateRange/time/end"
+msgstr "%TIME"
+
+msgid "dateRange/time/start"
+msgstr "%TIME"
+
+msgid "dateRange/time/stringDivider"
+msgstr "{start}から{end}まで"
+
+msgid "dateRange/year/dashDivider"
+msgstr "{start}～{end}"
+
+msgid "dateRange/year/end"
+msgstr "%Y年"
+
+msgid "dateRange/year/start"
+msgstr "%Y年"
+
+msgid "dateRange/year/stringDivider"
+msgstr "{start}から{end}まで"
+
+msgid "number/decimal"
+msgstr "."
+
+msgid "number/minLenToSplit"
+msgstr "4"
+
+msgid "number/negativeSign"
+msgstr "-"
+
+msgid "number/separator"
+msgstr ","
+
+msgid "regionalDate/dayMonthAbbreviated"
+msgstr "%bd%#d日"
+
+msgid "regionalDate/dayMonthAbbreviatedTime"
+msgstr "%bd%#d日%TIME"
+
+msgid "regionalDate/dayMonthFull"
+msgstr "%Bd%#d日"
+
+msgid "regionalDate/dayMonthFullTime"
+msgstr "%Bd%#d日%TIME"
+
+msgid "regionalDate/dayMonthNumeric"
+msgstr "%m/%d"
+
+msgid "regionalDate/fullDate"
+msgstr "%Y年%Bd%#d日"
+
+msgid "regionalDate/fullDateTime"
+msgstr "%Y年%Bd%#d日%TIME"
+
+msgid "regionalDate/shortDate"
+msgstr "%Y/%m/%d"
+
+msgid "regionalDate/shortDate/EU"
+msgstr "%Y/%m/%d"
+
+msgid "regionalDate/shortDateTime"
+msgstr "%Y/%m/%dの%TIME"
+
+msgid "regionalDate/shortDateTime/EU"
+msgstr "%Y/%m/%dの%TIME"
+
+msgid "regionalTime/full/am"
+msgstr "%H:%M:%S"
+
+msgid "regionalTime/full/am/NA"
+msgstr "%H:%M:%S"
+
+msgid "regionalTime/full/pm"
+msgstr "%H:%M:%S"
+
+msgid "regionalTime/full/pm/NA"
+msgstr "%H:%M:%S"
+
+msgid "regionalTime/short/am"
+msgstr "%H:%M"
+
+msgid "regionalTime/short/am/NA"
+msgstr "%H:%M"
+
+msgid "regionalTime/short/pm"
+msgstr "%H:%M"
+
+msgid "regionalTime/short/pm/NA"
+msgstr "%H:%M"
+
+msgid "regionalTime/short/withMinutes/am"
+msgstr "%H:%M"
+
+msgid "regionalTime/short/withMinutes/am/NA"
+msgstr "%H:%M"
+
+msgid "regionalTime/short/withMinutes/pm"
+msgstr "%H:%M"
+
+msgid "regionalTime/short/withMinutes/pm/NA"
+msgstr "%H:%M"

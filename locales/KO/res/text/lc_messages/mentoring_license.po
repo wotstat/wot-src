@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "승인하려면 이전되는 경험치 수치를 입력하십시오."
+
+msgid "assignmentDialog/price"
+msgstr "가격:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "모든 승무원 경험치 이전"
+
+msgid "assignmentDialog/title"
+msgstr "인수인계 확인"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "해당 승무원은 계정에서 제거되며\n복구할 수 없습니다."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "초과 경험치({xpLose})는 사라집니다."
+
+msgid "dialogue/description"
+msgstr "같은 국가 승무원 간에 모든 승무원 경험치를 이전할 수 있는 소모품입니다."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}초과 경험치 손실:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "선택"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "총 경험치:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}인수인계 허가증:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "적합한 승무원 없음"
+
+msgid "mentorAssigment/tips/info"
+msgstr "{cream_Open}%(name)s{cream_Close}에게 경험치를 이전할 승무원을\n선택하십시오. 선택한 승무원은 계정에서 제거됩니다."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "승무원 경험치 이전 시 {cream_Open}%(name)s{cream_Close} 승무원이 능력 제한에 도달하며 제한을 초과한 경험치는 모두 사라집니다."
+
+msgid "mentorAssigment/title"
+msgstr "인계자 선택"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close} 승무원은 능력 제한에 도달하여 경험치를 이전받을 수 없습니다."
+
+msgid "multipleUserName"
+msgstr "인수인계 허가증"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "인수인계 허가증 사용: %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "이전된 승무원 경험치: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "인수인계"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>초과 승무원 경험치 손실: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "같은 국가 승무원 간에 승무원\n경험치를 이전할 수 있습니다."
+
+msgid "storage/userName"
+msgstr "인수인계 허가증"
+
+msgid "userName"
+msgstr "인수인계 허가증"

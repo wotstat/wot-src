@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "「爆能砲彈」已可使用。"
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "「吸血砲彈」已可使用。"
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "「震盪砲彈」已可使用。"
+
+msgid "LS_damageShieldReady"
+msgstr "「能量盾」已可使用。"
+
+msgid "LS_doubleDamageReady"
+msgstr "「雙倍傷害」已可使用。"
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "「幸運暴擊」已可使用。"
+
+msgid "LS_fastReloadReady"
+msgstr "「快速裝填」已可使用。"
+
+msgid "LS_healSituationalReady"
+msgstr "「回血就緒」已可使用。"
+
+msgid "LS_invisibilityReady"
+msgstr "「暗影治療」已可使用。"
+
+msgid "LS_nitroReady"
+msgstr "「渦輪增壓器」已可使用。"
+
+msgid "LS_pickupSouls"
+msgstr "您已收集了 %(souls)s 個迷離物質"
+
+msgid "LS_selfRepairReady"
+msgstr "「緊急維修」已可使用。"
+
+msgid "LS_situationalNitroReady"
+msgstr "「規避機動」已可使用。"
+
+msgid "LS_teamRepairKitReady"
+msgstr "「集體修復」已可使用。"
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s 啟用了「集體修復」。"
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "「集體修復」已啟用。"
+
+msgid "arena/marker/attention_to_camp"
+msgstr "注意區域：%(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "防禦阿特拉斯！"
+
+msgid "arena/marker/defend_magnus"
+msgstr "防禦阿特拉斯"
+
+msgid "arena/marker/move_to_camp"
+msgstr "前往區域！"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "前往防禦阿特拉斯"
+
+msgid "arena/phase"
+msgstr "階段 %(current)s/%(total)s"
+
+msgid "arena/wave"
+msgstr "第 %(current)s/%(total)s 波"
+
+msgid "battleHint/bomber"
+msgstr "刺蝟正在逼近！"
+
+msgid "battleHint/bomber_alpha"
+msgstr "阿爾發刺蝟正在逼近！"
+
+msgid "battleHint/clearTheArea"
+msgstr "摧毀區域的所有敵人！"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "動作快！零日毀滅者正朝阿特拉斯接近！"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "零日毀滅者已摧毀！\n剩餘敵人數：{num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "需摧毀的敵人數量：{num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "數據，%(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "車輛已修理"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "護盾已獲得"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "敵人被震盪"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "%(name)s方尖體已摧毀！"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "恢復型"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "屏障型"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "干擾型"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "偵察到生成點！敵人要來了！"
+
+msgid "battleHint/hunter"
+msgstr "闇獵正在逼近！"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "已摧毀此波攻勢的敵人！"
+
+msgid "battleHint/leftToDestroy"
+msgstr "尚需摧毀的敵人數量："
+
+msgid "battleHint/missing_squad"
+msgstr "迷失者裝甲排正在逼近！"
+
+msgid "battleHint/newWave"
+msgstr "第 {current}/{total} 波"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "方尖體出現了！"
+
+msgid "battleHint/stopConvoy"
+msgstr "阻止零日毀滅者！"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "在零日毀滅者到達阿特拉斯前\n阻止它！"
+
+msgid "battleHint/trapper"
+msgstr "摧毀設陷者以阻止摧毀區域出現。"
+
+msgid "battleHint/turret"
+msgstr "孽蚊已被喚醒！"
+
+msgid "battleHint/waveFinished"
+msgstr "已摧毀此波攻勢的敵人！\n重新整備並迎接下一波！"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "重新整備並迎接下一波！"
+
+msgid "battleHint/waveReinforcements"
+msgstr "敵方援軍已至！"
+
+msgid "common/close"
+msgstr "關閉"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "持續時間：%(time)s 秒"
+
+msgid "damageLog/personal_death_zone"
+msgstr "受到區域傷害"
+
+msgid "damageLog/static_death_zone"
+msgstr "受到區域傷害"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "「意念控火」造成的火災傷害"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "「能量打擊」造成的傷害"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "爆炸造成的傷害"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "「血量汲取」造成的傷害"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "「幸運暴擊」已啟用"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "「回血就緒」已啟用"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "「爆能砲彈」造成的傷害"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "「吸血砲彈」造成的傷害"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "「震盪砲彈」造成的傷害"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "配件強化"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "「規避機動」已啟用"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "恢復血量"
+
+msgid "efficiencyRibbons/repair"
+msgstr "車輛已修理"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "車輛已修理，修理者"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "車輛已由隊友修理"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "已修理隊友車輛"
+
+msgid "eventStats/activeWave"
+msgstr "第 %(num)s 波"
+
+msgid "eventStats/difficulty"
+msgstr "難度：%(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "背水一戰：北境大地"
+
+msgid "eventStats/globalTask"
+msgstr "目標：摧毀每一波的敵人"
+
+msgid "eventStats/mission"
+msgstr "摧毀每一波的敵人"
+
+msgid "eventStats/tableCaption"
+msgstr "小隊成員"
+
+msgid "help/description_0"
+msgstr "摧毀每一波的敵人以獲勝。\n敵人強度將隨每一波攻勢提升。"
+
+msgid "help/description_1"
+msgstr "正確的戰術裝置組合具有極高威力。\n切記：您可在「背水一戰」模式免費使用技術指南與任何類型的砲彈。"
+
+msgid "help/description_2"
+msgstr "對方尖體造成傷害時，會將部分傷害轉移給敵方車輛；摧毀方尖體則會給予隨機加成。"
+
+msgid "help/description_3"
+msgstr "不惜一切代價保護阿特拉斯，抵禦最終的回聲戰車「零日毀滅者」。若它到達阿特拉斯，會將其摧毀，戰鬥將失敗。"
+
+msgid "help/title"
+msgstr "背水一戰：北境大地"
+
+msgid "help/title_0"
+msgstr "一波波的敵方攻勢"
+
+msgid "help/title_1"
+msgstr "生存要訣"
+
+msgid "help/title_2"
+msgstr "在戰鬥中善用方尖體"
+
+msgid "help/title_3"
+msgstr "防禦阿特拉斯"
+
+msgid "helpScreen/hint/description"
+msgstr "以檢視模式規則"
+
+msgid "helpScreen/hint/press"
+msgstr "按下"
+
+msgid "hitMarker/useless"
+msgstr "無法造成傷害！"
+
+msgid "loading/description_0"
+msgstr "摧毀每一波的敵人以獲勝。\n敵人強度將隨每一波攻勢提升。"
+
+msgid "loading/description_1"
+msgstr "正確的戰術裝置組合具有極高威力。\n切記：您可在「背水一戰」模式免費使用技術指南與任何類型的砲彈。"
+
+msgid "loading/description_2"
+msgstr "對方尖體造成傷害時，會將部分傷害傳導給敵方車輛；摧毀方尖體則可獲得隨機加成。"
+
+msgid "loading/description_3"
+msgstr "不惜一切代價保護阿特拉斯，抵禦最終的回聲戰車「零日毀滅者」。若它到達阿特拉斯，會將其摧毀，戰鬥將失敗。"
+
+msgid "loading/title"
+msgstr "載入中..."
+
+msgid "loading/title_0"
+msgstr "一波波的敵方攻勢"
+
+msgid "loading/title_1"
+msgstr "生存要訣"
+
+msgid "loading/title_2"
+msgstr "在戰鬥中善用方尖體"
+
+msgid "loading/title_3"
+msgstr "防禦阿特拉斯"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "無法使用 [%(name)s]：引擎已毀。"
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "無法使用 [%(name)s]：炮管受損。"
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "炮管已裝填完畢。"
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "無法使用 [%(name)s]：迷離物質不足，無法啟用裝置。"
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "車輛並未受損。"
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "無法使用 [%(name)s]：車輛淹沒。"
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "無法使用 [%(name)s]：車輛起火。"
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "無法使用 [%(name)s]：車輛翻覆。"
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "隊友 %(target)s 被敵人 %(attacker)s 的爆炸摧毀。"
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "隊友 %(target)s 墜毀。"
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "隊友 %(target)s 在摧毀區域遭摧毀。"
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "隊友 %(target)s 被摧毀。"
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "只要隊伍成功消滅這一波敵人。"
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "您的車輛將會重生"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "您的戰鬥已結束。\n您表現得很好！"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "車輛因摧毀區域而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "車輛因「能量打擊」而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "車輛因「意念控火」而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "車輛因「血量汲取」而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "車輛因爆炸而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "車輛墜毀"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "配件 [%(device)s] 因玩家的射擊而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "車輛因火災而摧毀"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "車輛被摧毀。時間到。"
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "車輛因敵人的射擊而摧毀"
+
+msgid "prebattle/description/message"
+msgstr "目標：摧毀每一波的敵人"
+
+msgid "prebattle/description/title"
+msgstr "背水一戰：「%(difficulty)s」難度"
+
+msgid "prebattle/difficulty/107"
+msgstr "普通"
+
+msgid "prebattle/difficulty/108"
+msgstr "硬核"
+
+msgid "prebattle/difficulty/109"
+msgstr "殘忍"
+
+msgid "prebattle/waiting/title"
+msgstr "等待玩家..."
+
+msgid "radialMenu/attention_here"
+msgstr "請求防禦"
+
+msgid "radialMenu/cancel"
+msgstr "取消"
+
+msgid "radialMenu/confirm"
+msgstr "了解！"
+
+msgid "radialMenu/move_to_camp"
+msgstr "前往區域！"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "前往防禦"
+
+msgid "radialMenu/obelisk"
+msgstr "方尖體交給我！"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "摧毀方尖體！"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "能量盾"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "車輛翻回中..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "快離開危險區域！"
+
+msgid "teamList/teammates"
+msgstr "我方"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "關閉語音聊天"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "開啟語音聊天"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "按下以聊天"

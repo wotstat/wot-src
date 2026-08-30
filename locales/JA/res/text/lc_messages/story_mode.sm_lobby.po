@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battleResult/battleDuration"
+msgstr "%(date)s 戦闘時間: %(duration)s"
+
+msgid "battleResult/closeButton"
+msgstr "閉じる"
+
+msgid "battleResult/continueButton"
+msgstr "続行"
+
+msgid "battleResult/damageAssisted"
+msgstr "ダメージ\nアシスト"
+
+msgid "battleResult/damageBlockedByArmor"
+msgstr "装甲による\n阻ダメージ"
+
+msgid "battleResult/damageDealt"
+msgstr "敵への\n与ダメージ"
+
+msgid "battleResult/difficultyInfo/extraSmall"
+msgstr "%(icon)s 難易度「ハード」でミッションを達成すると\n自動的に難易度「ノーマル」でもミッションも達成したこととなり、\n両方の難易度の達成報酬を獲得できます。"
+
+msgid "battleResult/difficultyInfo/smallAndUp"
+msgstr "%(icon)s 難易度「ハード」でミッションを達成すると自動的に難易度「ノーマル」でもミッションも達成したこととなり、\n両方の難易度の達成報酬を獲得できます。"
+
+msgid "battleResult/kills"
+msgstr "撃破した\n敵車輌数"
+
+msgid "battleResult/lose/title"
+msgstr "戦闘終了"
+
+msgid "battleResult/missionName/1"
+msgstr "【ティーガーハンター】メタルアバランチ作戦"
+
+msgid "battleResult/missionName/2"
+msgstr "【ティーガーハンター】トラッパー作戦"
+
+msgid "battleResult/missionName/3"
+msgstr "【ティーガーハンター】ハンマー・アンヴィル作戦"
+
+msgid "battleResult/missionName/4"
+msgstr "【ティーガーハンター】マウストラップ作戦"
+
+msgid "battleResult/missionName/5"
+msgstr "オーヴァーロード作戦"
+
+msgid "battleResult/missionName/6"
+msgstr "ポストマン作戦"
+
+msgid "battleResult/missionName/7"
+msgstr "ボイリングポイント作戦"
+
+msgid "battleResult/noTasksToComplete"
+msgstr "挑戦中の\nミッションなし"
+
+msgid "battleResult/rewards/other"
+msgstr "他に受け取った報酬"
+
+msgid "battleResult/slash"
+msgstr "/"
+
+msgid "battleResult/tasksCompleted"
+msgstr "達成した\nミッション"
+
+msgid "battleResult/vehicleName"
+msgstr "%(playerName)s - %(vehicleName)s"
+
+msgid "battleResult/vehicleState/alive"
+msgstr "{par_Start}生還{par_End}"
+
+msgid "battleResult/vehicleState/dead"
+msgstr "{par_Start}大破{par_End}"
+
+msgid "battleResult/win/title"
+msgstr "勝利！"
+
+msgid "countdown/days"
+msgstr "{days}日"
+
+msgid "countdown/daysHours"
+msgstr "{days}日{hours}時間"
+
+msgid "countdown/endsSoon"
+msgstr "{minutes}分未満"
+
+msgid "countdown/hours"
+msgstr "{hours}時間"
+
+msgid "countdown/hoursMinutes"
+msgstr "{hours}時間{minutes}分"
+
+msgid "countdown/hoursMinutesShort"
+msgstr "{hours}時間{minutes}分"
+
+msgid "countdown/lessThanMinute"
+msgstr "1分未満"
+
+msgid "countdown/minutes"
+msgstr "{minutes}分"
+
+msgid "countdown/minutesShort"
+msgstr "{minutes}分"
+
+msgid "dialogs/missionCompleted/cancel"
+msgstr "キャンセル"
+
+msgid "dialogs/missionCompleted/message"
+msgstr "完遂できる作戦目標がないため報酬は手に入りません。\nそれでも作戦への参加を希望しますか？"
+
+msgid "dialogs/missionCompleted/submit"
+msgstr "確定"
+
+msgid "dialogs/missionCompleted/title"
+msgstr "完遂できる作戦目標なし"
+
+msgid "eventWelcomeScreen/column/subtitle/1"
+msgstr "未知の脅威を特定し、ミサイル発射を阻止して、新技術を正しい者の手に渡らせるのが今回の任務です。"
+
+msgid "eventWelcomeScreen/column/subtitle/2"
+msgstr "ソロプレイでAI車輌との戦闘を行いながら《セクター3》の戦車長たちが登場する壮大なストーリーを楽しむことができます。"
+
+msgid "eventWelcomeScreen/column/subtitle/3"
+msgstr "すべてのミッションを達成すると記念バッジや勲章、テーマに沿った2Dスタイルなどの貴重な報酬が手に入ります。"
+
+msgid "eventWelcomeScreen/column/title/1"
+msgstr "新時代の夜明け"
+
+msgid "eventWelcomeScreen/column/title/2"
+msgstr "ソロプレイ"
+
+msgid "eventWelcomeScreen/column/title/3"
+msgstr "報酬"
+
+msgid "eventWelcomeScreen/header"
+msgstr "ボイリングポイント作戦"
+
+msgid "eventWelcomeScreen/subheader"
+msgstr "%(startDate)s～%(endDate)"
+
+msgid "headerButtons/battle/types/story_mode"
+msgstr "ストーリー"
+
+msgid "missionSelection/difficulty/hard"
+msgstr "ハード"
+
+msgid "missionSelection/difficulty/normal"
+msgstr "ノーマル"
+
+msgid "missionSelection/difficulty/very_hard"
+msgstr "【ハード】\n地雷原"
+
+msgid "missionSelection/exitButton"
+msgstr "モードを終了"
+
+msgid "missionSelection/lockedMissionName/1"
+msgstr "メタルアバランチ\n作戦"
+
+msgid "missionSelection/lockedMissionName/2"
+msgstr "トラッパー\n作戦"
+
+msgid "missionSelection/lockedMissionName/3"
+msgstr "ハンマー・アンヴィル\n作戦"
+
+msgid "missionSelection/lockedMissionName/4"
+msgstr "マウストラップ\n作戦"
+
+msgid "missionSelection/lockedMissionName/5"
+msgstr "オーヴァーロード\n作戦"
+
+msgid "missionSelection/lockedMissionName/6"
+msgstr "ポストマン\n作戦"
+
+msgid "missionSelection/lockedMissionName/7"
+msgstr "ボイリングポイント\n作戦"
+
+msgid "missionSelection/missionDescription/1"
+msgstr "ブルックス「動けるか？ すまないが治療はあとだ。今は戦力が欲しい。強襲作戦は始まっている。我々が出遅れているため敵は反対方面に勢力を結集しつつある。だが、市街地を掌握すれば、挟み撃ちにできる。\n全力でついてこい。《竜の歯》には気をつけろよ。コンクリ製の対戦車障害物だ。注意さえすれば脅威でもなんでもない。指示は私が出す。心配するな。マクロードと私がついている。\nそれから、ヤツの冗談には付き合わなくていい。ヤツなりのジンクスみたいなものだ。行くぞ！」"
+
+msgid "missionSelection/missionDescription/2"
+msgstr "マクロード「……ったく、《ティーガー》かよ。一番やっかいなヤツだ。上の連中が慌ててる時はだいたいヤツがいる。第１部隊とは連絡が取れない。第２部隊は出撃済み。そんで俺たちだ。\n俺たちに出番が回ってくる理由はひとつしかねぇ。《ティーガー》がいるってこった。《虎狩り》の異名は悪くねぇが、たった2、3輌で9輌を相手にしろとはねぇ。まぁ、ようやく勲章をもらう機会に恵まれたことを喜びますか。\nさぁ、行くぞ。軍曹は気が短い。狩りの時間だ」"
+
+msgid "missionSelection/missionDescription/3"
+msgstr "マクロード「お前らよく聞け、《ハンマー・アンヴィル作戦》だ。名前はシンプルだが、内容は楽ではないぞ。まず市街地へ進み、敵を殲滅する。敵もそれなりの装甲を備えているから、楽勝とはいかないだろうな。だが俺たちにはキレた頭脳とたくましい筋肉、そしてチームワークがある。だろ、《ラッキー》？ それと、モタモタせずにキビキビ進もうぜ。5時に《お茶》の予定があるんだよ。分かるだろ？」"
+
+msgid "missionSelection/missionDescription/4"
+msgstr "マクロード「俺に聞くな、《ラッキー》。俺もお前と同じ程度の情報しか知らないんだ。秘密主義は性に合わないぜ。直球で分かりやすいほうがいい。敵車輌を発見したら、交戦する……ってな感じにな。だが今回の作戦はメチャクチャだ。\n\n市街地には味方車輌もいるとのことだ。慎重に進むよう、軍曹から指示があった。何を言いたいのか、イマイチ分からなかったぜ。俺たちには特別な任務が与えられている。ヤツらは何やらどでかい《秘密兵器》を開発したらしい。これを探せ、だとさ。これについて知っているのは俺とお前だけだ、《ラッキー》。\n\n\n準備はいいか？じゃあ、行くぞ」"
+
+msgid "missionSelection/missionDescription/5"
+msgstr "ジョン・マコーミック大尉「よいか、諸君。とうとうこの日がやってきた。今日ここに集まったアメリカ人、イギリス人、カナダ人、オーストラリア人、ベルギー人、チェコスロバキア人、ギリシャ人、オランダ人、ニュージーランド人、ノルウェー人、ポーランド人……全員でこの戦いを終わらせる。悪の所業に終止符を打つのだ。\n\nまずは《大西洋の壁》を破り、足掛かりとなる上陸拠点を築くぞ。\n\n各自、上陸の準備を整えよ！」"
+
+msgid "missionSelection/missionDescription/6"
+msgstr "スミス大尉「いいか、よく聞け。数時間前にドイツが降伏文書に署名した。この戦争は明日で終わる。だが、山岳部に配備されている部隊は通信手段を失っていて、このことを知らない。あいつらは夜明けにあの要塞を攻める予定だ。そして要塞の中にいるドイツ軍も降伏についてまだ聞いていない。どう転ぼうと、これは無意味な戦いになってしまう。\n\nこの戦いを止められるのは我々しかいない。気付かれずに敵の防衛線を突破し、停戦命令を通達するのが我々の任務だ。命懸けになること必至だが救える命を考えればやる価値はある。\n\nこっちには、捕虜のドイツ軍の無線手がいる。この辺りの地形にも詳しい。彼にも、この戦いを止めなくてはならない理由がある。\n\n以上だ。では行くぞ」"
+
+msgid "missionSelection/missionDescription/7"
+msgstr "レニ「状況は深刻よ。ノルウェー海のミサイル基地との連絡が絶たれた。偵察機も戻らないし、最初に送った戦車上陸部隊は未知の敵によって全滅。\n\n情報によれば、弾道ミサイルの発射準備をしているらしい。ターゲットは不明。でも、この政治情勢では1発でも発射されれば世界的な紛争を引き起こす可能性がある。\n\n昔を思い出すでしょう? 敵の陣地での不可能にも思える任務。さあ、行きましょう」"
+
+msgid "missionSelection/missionName/1"
+msgstr "メタルアバランチ作戦"
+
+msgid "missionSelection/missionName/2"
+msgstr "トラッパー作戦"
+
+msgid "missionSelection/missionName/3"
+msgstr "ハンマー・アンヴィル作戦"
+
+msgid "missionSelection/missionName/4"
+msgstr "マウストラップ作戦"
+
+msgid "missionSelection/missionName/5"
+msgstr "オーヴァーロード作戦"
+
+msgid "missionSelection/missionName/6"
+msgstr "ポストマン作戦"
+
+msgid "missionSelection/missionName/7"
+msgstr "ボイリングポイント作戦"
+
+msgid "missionSelection/specialVehicle"
+msgstr "特別車輌"
+
+msgid "missionSelection/tab/event"
+msgstr "ボイリングポイント作戦"
+
+msgid "missionSelection/tab/newbies"
+msgstr "チュートリアル・ストーリー"
+
+msgid "missionSelection/taskDescription/1/1"
+msgstr "敵を殲滅して市街地を制圧せよ！"
+
+msgid "missionSelection/taskDescription/2/1"
+msgstr "敵を殲滅して市街地を制圧せよ！"
+
+msgid "missionSelection/taskDescription/3/1"
+msgstr "敵を殲滅して市街地を制圧せよ！"
+
+msgid "missionSelection/taskDescription/3/2"
+msgstr "敵の地雷によるダメージを受けることなくメインミッションの目標を達成する"
+
+msgid "missionSelection/taskDescription/3/3"
+msgstr "自車輌を1輌も撃破されることなくメインミッションの目標を達成する"
+
+msgid "missionSelection/taskDescription/4/1"
+msgstr "市街地を制圧して《秘密兵器》を鹵獲する"
+
+msgid "missionSelection/taskDescription/4/2"
+msgstr "メインミッションの目標を%(win_timer)s未満で達成する"
+
+msgid "missionSelection/taskDescription/4/3"
+msgstr "航空支援を利用して%(kill_enemies)s撃破し、メインミッションの目標を達成する"
+
+msgid "missionSelection/taskDescription/5/1"
+msgstr "敵の防御を突破し、沿岸砲を破壊して海岸堡を確保する"
+
+msgid "missionSelection/taskDescription/5/2"
+msgstr "メインミッションの目標を%(win_timer)s未満で達成する"
+
+msgid "missionSelection/taskDescription/5/3"
+msgstr "自車輌を1輌も撃破されることなくメインミッションの目標を達成する"
+
+msgid "missionSelection/taskDescription/6/1"
+msgstr "味方に停戦命令を通達する"
+
+msgid "missionSelection/taskDescription/6/2"
+msgstr "撃破する%(kill_enemies)sまでに抑え、メインミッションの目標を達成する"
+
+msgid "missionSelection/taskDescription/6/3"
+msgstr "1輌も大破することなくメインミッションの目標を達成する"
+
+msgid "missionSelection/taskDescription/7/1"
+msgstr "司令部へ到達してミサイルの発射を阻止する"
+
+msgid "missionSelection/taskDescription/7/2"
+msgstr "メインミッションの目標を%(win_timer)s以内に達成する"
+
+msgid "missionSelection/taskDescription/7/3"
+msgstr "1輌も大破することなくメインミッションの目標を達成する"
+
+msgid "missionSelection/taskDescription/kill_enemies"
+msgid_plural "plural/missionSelection/taskDescription/kill_enemies"
+msgstr[0] "敵車輌を%(value)s輌"
+msgstr[1] "敵車輌を%(value)s輌"
+msgstr[2] "敵車輌を%(value)s輌"
+
+msgid "missionSelection/taskDescription/locked"
+msgstr "ミッションがロック中です: %(timer)s"
+
+msgid "missionSelection/taskDescription/win_timer"
+msgid_plural "plural/missionSelection/taskDescription/win_timer"
+msgstr[0] "%(value)s分"
+msgstr[1] "%(value)s分"
+msgstr[2] "%(value)s分"
+
+msgid "missionSelection/taskRewards"
+msgstr "報酬"
+
+msgid "missionSelection/tooltipDescription"
+msgstr "ストーリーモード限定の車輌です。"
+
+msgid "missionSelection/unlockCondition"
+msgstr "この作戦は「ランダム戦」モードであと%(numBattles)s戦プレイすると\nアンロックされます。"
+
+msgid "mode/story_mode/callToAction"
+msgstr "初心者向けのストーリーモード"
+
+msgid "mode/story_mode/description"
+msgstr "AI車輌を相手に全作戦目標の完遂を目指せ"
+
+msgid "mode/story_mode_event/callToAction"
+msgstr "ボイリングポイント作戦に挑戦可能"
+
+msgid "newbieAdvertisingScreen/column/subtitle/1"
+msgstr "現在選択しているモードはガレージ画面にあるメインメニューの上部に表示されます。モード名をクリックすると他にプレイできるモードを確認できます。"
+
+msgid "newbieAdvertisingScreen/column/subtitle/2"
+msgstr "「&zwnbsp;{whiteSpanish_Open}ストーリー{whiteSpanish_Close}&zwnbsp;」から本モードを選択することができます。"
+
+msgid "newbieAdvertisingScreen/column/subtitle/3"
+msgstr "ストーリーモードは物語を追いながら戦闘を楽しめるPvEモードです。敵車輌はAIによって自動操縦されています。主人公として勇敢に戦う雰囲気を味わいながら作戦を達成すれば、貴重な報酬を手に入れることができます。"
+
+msgid "newbieAdvertisingScreen/column/title/1"
+msgstr "モード選択画面より選択"
+
+msgid "newbieAdvertisingScreen/column/title/2"
+msgstr "ストーリーを選択"
+
+msgid "newbieAdvertisingScreen/column/title/3"
+msgstr "PvEの戦闘"
+
+msgid "newbieAdvertisingScreen/header"
+msgstr "ストーリーモード"
+
+msgid "newbieAdvertisingScreen/subheader"
+msgstr "独自の登場人物やセリフが用意されたシングルプレイ・モード"
+
+msgid "onboardingBattleResult/startButton"
+msgstr "再挑戦"
+
+msgid "onboardingBattleResult/titleText"
+msgstr "戦闘終了"
+
+msgid "onboardingQueue/skipButton"
+msgstr "スキップ"
+
+msgid "onboardingQueue/skipText"
+msgstr "全サーバーがビジー状態です。しばらく待つか、ストーリーモードをスキップしてください。"
+
+msgid "onboardingQueue/spinnerText"
+msgstr "サーバーを準備しています\n少々お待ちください……"
+
+msgid "tooltips/battleResultStat/armorUse/blocked"
+msgstr "装甲で阻んだダメージ {parSecondary_Start}(HP){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/armorUse/header"
+msgstr "阻んだダメージ"
+
+msgid "tooltips/battleResultStat/armorUse/info/heHits"
+msgstr "HE弾およびHESH弾は対象外"
+
+msgid "tooltips/battleResultStat/armorUse/info/header"
+msgstr "対象"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/1"
+msgstr "跳弾させた敵の砲弾"
+
+msgid "tooltips/battleResultStat/armorUse/info/list/2"
+msgstr "非貫通弾"
+
+msgid "tooltips/battleResultStat/assist/header"
+msgstr "アシストしたダメージ"
+
+msgid "tooltips/battleResultStat/assist/info/header"
+msgstr "アシストしたダメージの内、以下の内容のものが対象です。"
+
+msgid "tooltips/battleResultStat/assist/info/list/1"
+msgstr "発見によるアシスト"
+
+msgid "tooltips/battleResultStat/assist/info/list/2"
+msgstr "履帯切断に伴う移動不能化によりアシストしたダメージ"
+
+msgid "tooltips/battleResultStat/assist/total"
+msgstr "味方の合計ダメージ {parSecondary_Start}(HP){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/damage/header"
+msgstr "与ダメージ"
+
+msgid "tooltips/battleResultStat/damage/info/header"
+msgstr "対象"
+
+msgid "tooltips/battleResultStat/damage/info/list/1"
+msgstr "砲撃によるダメージ"
+
+msgid "tooltips/battleResultStat/damage/info/list/2"
+msgstr "体当たりによるダメージ"
+
+msgid "tooltips/battleResultStat/damage/info/list/3"
+msgstr "火災によるダメージ"
+
+msgid "tooltips/battleResultStat/damage/info/list/4"
+msgstr "突き落としによるダメージ"
+
+msgid "tooltips/battleResultStat/damage/total"
+msgstr "合計ダメージ {parSecondary_Start}(HP){parSecondary_End}"
+
+msgid "tooltips/battleResultStat/kills/header"
+msgstr "敵車輌の撃破数"
+
+msgid "tooltips/battleResultStat/kills/info/header"
+msgstr "対象"
+
+msgid "tooltips/battleResultStat/kills/info/list/1"
+msgstr "砲撃による撃破"
+
+msgid "tooltips/battleResultStat/kills/info/list/2"
+msgstr "火災による撃破"
+
+msgid "tooltips/battleResultStat/kills/info/list/3"
+msgstr "体当たりによる撃破"
+
+msgid "tooltips/battleResultStat/kills/info/list/4"
+msgstr "水没による撃破"
+
+msgid "tooltips/battleResultStat/kills/info/list/5"
+msgstr "突き落としによる撃破"
+
+msgid "tooltips/battleResultStat/kills/info/list/6"
+msgstr "転覆による撃破"
+
+msgid "tooltips/battleResultStat/missions/header"
+msgstr "達成したミッション"
+
+msgid "tooltips/battleResultStat/missions/info/header"
+msgstr "達成したミッションの数と現在挑戦で\nきる全ミッションです。難易度\n「ハード」でミッションを達成すると、\n自動的に難易度「ノーマル」でも\n対応するミッションを達成したこ\nととなります。"
+
+msgid "tooltips/difficulty/available"
+msgstr "選択可能"
+
+msgid "tooltips/difficulty/hard/description"
+msgstr "敵の反応速度や射撃精度が上がり、より攻撃的になる一方で、ミッション達成時により多くの報酬が手に入ります。"
+
+msgid "tooltips/difficulty/hard/info/body"
+msgstr "難易度「{whiteSpanish_Open}ハード{whiteSpanish_Close}」でミッションを達成すると自動的に難易度「{whiteSpanish_Open}ノーマル{whiteSpanish_Close}」でもミッションも達成したこととなり、両方の難易度の達成報酬を獲得できます。"
+
+msgid "tooltips/difficulty/hard/info/title"
+msgstr "追加条件"
+
+msgid "tooltips/difficulty/hard/title"
+msgstr "ハード"
+
+msgid "tooltips/difficulty/locked/body"
+msgstr "難易度【ハード】をアンロックするには、まずは本モードを【ノーマル】で達成する必要があります。"
+
+msgid "tooltips/difficulty/locked/title"
+msgstr "ロック中"
+
+msgid "tooltips/difficulty/normal/description"
+msgstr "難易度「ハード」と比べて、敵の反応速度が遅く、射撃精度も低くなっています。ミッションを達成すると標準的な報酬を入手できます。"
+
+msgid "tooltips/difficulty/normal/title"
+msgstr "ノーマル"
+
+msgid "tooltips/difficulty/selected"
+msgstr "選択中"
+
+msgid "tooltips/difficulty/very_hard/description"
+msgstr "難易度が高いバージョンの地雷原ステージです。危険な迷路の出口を目指して進みます。\n通常バージョンよりも多くの報酬が手に入ります。"
+
+msgid "tooltips/difficulty/very_hard/title"
+msgstr "【ハード】地雷原"
+
+msgid "tooltips/eventBannerTooltip/eventText"
+msgstr "未知の脅威を特定し、ミサイル発射を阻止して、新技術を正しい者の手に渡らせるのが今回の任務です。"
+
+msgid "tooltips/eventBannerTooltip/eventTitle"
+msgstr "ボイリングポイント作戦"
+
+msgid "tooltips/eventBannerTooltip/mode"
+msgstr "モード"
+
+msgid "tooltips/eventBannerTooltip/modeText"
+msgstr "—ゲームモードの詳細を確認できます"
+
+msgid "tooltips/eventBannerTooltip/text"
+msgstr "ソロプレイでAI車輌との戦闘を行いながら《セクター3》の戦車長たちが登場する壮大なストーリーを楽しむことができます。"
+
+msgid "tooltips/eventBannerTooltip/timerText"
+msgstr "イベント終了まで{timer}"
+
+msgid "tooltips/eventBannerTooltip/title"
+msgstr "ストーリーモード"
+
+msgid "tooltips/newbieBannerTooltip/mode"
+msgstr "モード"
+
+msgid "tooltips/newbieBannerTooltip/modeText"
+msgstr "— ゲームモードの詳細を確認できます"
+
+msgid "tooltips/newbieBannerTooltip/text"
+msgstr "特別なシナリオが用意されたモードです。AIが制御する敵車輌を相手に戦い、これから始まる戦車長ライフへの最初の一歩を踏み出しましょう。"
+
+msgid "tooltips/newbieBannerTooltip/title"
+msgstr "ストーリーモード"
+
+msgid "tooltips/task/active"
+msgstr "挑戦中"
+
+msgid "tooltips/task/completed"
+msgstr "達成済み"
+
+msgid "tooltips/task/condition/locked"
+msgstr "達成条件不明"
+
+msgid "tooltips/task/locked"
+msgstr "ロック中: %(timer)s"

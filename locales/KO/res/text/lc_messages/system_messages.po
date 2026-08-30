@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT 팀 <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "계정이 복구되었습니다"
+
+msgid "achievements/server_error"
+msgstr "주요 업적 모음 변경 사항이 저장되지 않았습니다."
+
+msgid "actionAchievement/title"
+msgstr "이벤트 훈장"
+
+msgid "actionAchievements/title"
+msgstr "이벤트 훈장"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "능력 훈련 중 오류 발생! 올바르지 않은 전차입니다."
+
+msgid "add_tankman_skill/server_error"
+msgstr "새로운 능력을 훈련할 수 없습니다.\n서버를 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "add_tankman_skill/success"
+msgstr "새로운 능력 훈련 완료: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "능력 훈련 중 오류 발생! 전차가 잠금 상태입니다."
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "능력 훈련 중 오류 발생! 전차를 수리하십시오."
+
+msgid "add_tankman_skills/server_error"
+msgstr "새로운 능력을 훈련할 수 없습니다.\n서버를 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "add_tankman_skills/success"
+msgstr "새로운 능력 훈련 완료: %(skill)s"
+
+msgid "another_periphery"
+msgstr "다른 서버에 아직 접속 중입니다."
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "참가 오류 발생: 이미 팀에 참여중입니다."
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "참가 오류 발생: 올바르지 않은 팀 번호입니다."
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "참가 오류 발생: 작업이 일시적으로 중지되었습니다. 나중에 다시 시도하십시오."
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "현재 사용할 수 없는 기능입니다. 공식 포털에서 최신 소식을 확인하십시오."
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "참가 오류 발생: 초대 기한이 만료되었습니다."
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "참가 오류 발생: 입장이 제한된 방입니다."
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "전투에 참여할 수 없습니다. 지금은 대기열을 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "작업을 수행할 수 없습니다. 현재 대기열이 최대치에 도달했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "참가 오류 발생: 팀이 이미 생성되었습니다."
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "참가 오류 발생: 접속이 끊겼습니다."
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "참가 오류 발생: 해당 계정 유형으로는 불가능합니다."
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "전투 참가 중 오류 발생!"
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "입장 오류, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "오류: 선택한 역사 전투에 참여할 수 없습니다."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "접속에 실패했습니다. %s 서버로 이동하여 접속해 주시기 바랍니다."
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "접속에 실패했습니다. 다른 서버로 이동하여 접속해 주시기 바랍니다."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "전투 입장 오류: 현재 전차가 준비 상태가 아닙니다."
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "오류: 해당 단계 전차는 이 전투 모드에 참여할 수 없습니다."
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "전투 참여 오류: 전차가 준비되지 않았습니다."
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "전투에 참여하려면 전차를 구매하십시오."
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "전투 입장 오류 (전장 생성 실패)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "전투 입장 오류 (아바타 생성 실패)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "전투 입장 오류 (기지 오류)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "전투 입장 오류 (프로그램 오류)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "전투 입장 오류 (지휘관 나감)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "전투 입장 오류 (전투 완료)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "전투 입장 오류 (플레이어 추방)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "전투 입장 오류 (사전 전투 생성 실패)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "전투 입장 오류 (시간 초과)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "전투 입장 오류 (알 수 없는 오류)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "전투 입장 오류 (전차 생성 실패)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "최대 전투 대기 시간을 초과하여 전투 대기열에서 제외됩니다. 나중에 다시 시도하십시오."
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "\"%(name)s\" %(kind)s 장착 불가!"
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "\"%(name)s\" %(kind)s 장착 실패! 올바르지 않은 전차입니다."
+
+msgid "artefact_apply/money_success"
+msgstr "\"%(name)s\" %(kind)s 해체 완료! %(money)s 소모"
+
+msgid "artefact_apply/server_error"
+msgstr "\"%(name)s\" %(kind)s 장착 중 서버 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "artefact_apply/success"
+msgstr "\"%(name)s\" %(kind)s 장착 완료!"
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "\"%(name)s\" %(kind)s 장착 실패! 전차가 잠겨 있습니다."
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "\"%(name)s\" %(kind)s 장착 실패! 전차를 먼저 수리하십시오."
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "\"%(name)s\" %(kind)s 장착 불가!"
+
+msgid "artefact_buy/invalid_module"
+msgstr "\"'%(name)s\" %(kind)s 구매 불가! 올바르지 않은 부품입니다."
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "\"%(name)s\" %(kind)s 장착 불가! 호환되지 않는 전차입니다."
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "\"%(name)s\" %(kind)s 구매 불가! 크레딧이 부족합니다."
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "\"%(name)s\" %(kind)s 구매 불가! 전쟁 채권이 부족합니다."
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "\"%(name)s\" %(kind)s 구매 불가! 기념일 코인이 부족합니다."
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "\"%(name)s\" %(kind)s 구매 불가! 골드가 부족합니다."
+
+msgid "artefact_buy/server_error"
+msgstr "\"%(name)s\" %(kind)s 구매 불가! 나중에 다시 시도하십시오."
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "\"%(name)s\" %(kind)s 구매 불가! 서버가 일시적으로 응답하지 않습니다."
+
+msgid "artefact_buy/success"
+msgstr "\"%(name)s\" %(kind)s %(count)s개를 구매했습니다. %(money)s 소모"
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "\"%(name)s\" %(kind)s 장착 불가! 전차가 잠겨 있습니다."
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "\"%(name)s\" %(kind)s 장착 불가! 전차를 먼저 수리하십시오."
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "%(name)s 장비를 분해할 수 없습니다. 올바르지 않은 아이템입니다."
+
+msgid "artefact_deconstructing/server_error"
+msgstr "%(name)s 장비를 분해할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "artefact_deconstructing/success"
+msgstr "장비 분해: %(name)s(%(count)s개) 분해 및 %(money)s 획득 완료"
+
+msgid "artefact_deconstructingMult/success"
+msgstr "장비 분해: %(names)s 분해 및 %(money)s 획득 완료"
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "\"%(equipment)s\" 해체 실패! 자금이 부족합니다."
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "\"%(name)s\" %(kind)s 파괴 실패! 올바르지 않은 전차입니다."
+
+msgid "artefact_destroy/server_error"
+msgstr "\"%(name)s\" %(kind)s 파괴 중 서버 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "artefact_destroy/success"
+msgstr "\"%(name)s\" %(kind)s 파괴 완료!"
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "\"%(name)s\" %(kind)s 파괴 실패! 전차가 잠금 상태입니다."
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "\"%(name)s\" %(kind)s 파괴 실패! 전차를 먼저 수리하십시오."
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s \"%(name)s\" 해체 완료! 장비 해체 도구가 소모되었습니다."
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "\"%s\" 소모품은 현재 설정한 부품과 호환이 되지 않아서 보관소로 보내졌습니다."
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "\"%(name)s\" %(kind)s 해체 실패! 올바르지 않은 전차입니다."
+
+msgid "artefact_remove/money_success"
+msgstr "\"%(name)s\" %(kind)s 해체 완료! %(money)s 소모"
+
+msgid "artefact_remove/server_error"
+msgstr "\"%(name)s\" %(kind)s 해체 중 서버 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "artefact_remove/success"
+msgstr "\"%(name)s\" %(kind)s 해체 완료!"
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "\"%(name)s\" %(kind)s 해체 실패! 전차가 잠겨 있습니다."
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "\"%(name)s\" %(kind)s 해체 실패! 전차를 먼저 수리하십시오."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "WoT 플러스가 활성화되어 있어 \"%(name)s\" %(kind)s 해체가 무료로 진행되었습니다."
+
+msgid "artefact_sell/invalid_module"
+msgstr "\"%(name)s\" %(kind)s 판매 실패! 올바르지 않은 부품입니다."
+
+msgid "artefact_sell/server_error"
+msgstr "\"%(name)s\" %(kind)s 판매 실패! 나중에 다시 시도하십시오."
+
+msgid "artefact_sell/success"
+msgstr "\"%(name)s\" %(kind)s (%(count)s개). 획득 %(money)s"
+
+msgid "artefact_upgrade/server_error"
+msgstr "장비 강화 중 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "artefact_upgrade/success"
+msgstr "\"%(name)s\" %(kind)s 강화 완료! 성능이 향상되었습니다. %(money)s 소모"
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "%(name)s %(kind)s 강화가 완료되어 성능이 향상되었습니다. %(money)s 비용을 소모했습니다.\n\n대체 구성의 비슷한 장비는 보관소로 이동됩니다."
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "\"%(name)s\" %(kind)s 강화 불가! 전차를 먼저 수리하십시오."
+
+msgid "badges/select/server_error"
+msgstr "서버 오류"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "작업을 수행할 수 없습니다. 현재 진행 중인 작업이 완료될 때까지 기다리십시오."
+
+msgid "battle/request/SEND_INVITES"
+msgstr "초대 보내기"
+
+msgid "battleAbilities_apply/error"
+msgstr "전시 물자 구성 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "battleBooster_buy/credits_error"
+msgstr "%(name)s %(kind)s 구매 실패! 크레딧이 부족합니다."
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "%(name)s %(kind)s 구매 실패! 전쟁 채권이 부족합니다."
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "\"%(name)s\" %(kind)s 장착 불가!"
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "\"%(name)s\" %(kind)s 구매 불가! 기념일 코인이 부족합니다."
+
+msgid "battleBooster_buy/gold_error"
+msgstr "%(name)s %(kind)s 구매 실패! 골드가 부족합니다."
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "\"%(name)s\" %(kind)s 구매 실패! 호환되지 않는 부품입니다."
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "%(name)s %(kind)s 장착 불가! 호환되지 않는 전차입니다."
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "%(name)s %(kind)s 구매 실패! 크레딧이 부족합니다."
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "%(name)s %(kind)s 구매 실패! 전쟁 채권이 부족합니다."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "\"%(name)s\" %(kind)s 구매 불가! 기념일 코인이 부족합니다."
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "%(name)s %(kind)s 구매 실패! 골드가 부족합니다."
+
+msgid "battleBooster_buy/server_error"
+msgstr "서버 점검으로 인해 일시적으로 지휘명령 관련 작업을 수행할 수 없습니다."
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "%(name)s %(kind)s 구매 실패! 서버가 일시적으로 응답하지 않습니다."
+
+msgid "battleBooster_buy/success"
+msgstr "\"%(name)s\" %(kind)s (%(count)s개)를 구매했습니다. %(money)s 소모"
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "전차가 현재 잠겨 있습니다. \"%(name)s\" %(kind)s를 구매하여 장착할 수 없습니다."
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "%(name)s %(kind)s 장착 실패! 전차를 먼저 수리하십시오."
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 계정 통합 계좌가 복구되는 대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "battleBooster_sell/server_error"
+msgstr "서버 점검으로 인해 일시적으로 지휘명령 관련 작업을 수행할 수 없습니다."
+
+msgid "battleBooster_sell/success"
+msgstr "\"%(name)s\" %(kind)s %(count)s개 판매 완료. 획득: %(money)s"
+
+msgid "battleBoosters_apply/error"
+msgstr "지휘명령 작업 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "지휘명령 작업 오류가 발생했습니다. 구매에 필요한 자금이 부족합니다."
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "battlePass/activateChapter/success"
+msgstr "%(chapter)s 챕터 활성화"
+
+msgid "battlePass/extraFinish/body"
+msgstr "%(name)s 이벤트가 종료되었습니다. 참여해 주셔서 감사합니다!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "배틀 패스: \"%(name)s\" 챕터"
+
+msgid "battlePass/extraStarted/body"
+msgstr "전차장님! 특별한 보상을 획득할 수 있는 배틀 패스 %(name)s 이벤트가 시작되었습니다!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "배틀 패스: 새로운 챕터 이용 가능!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "전차장님! \"%(name)s\" 챕터 종료가 얼마 남지 않았습니다. 서두르십시오!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "배틀 패스: \"%(name)s\" 챕터"
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "전차장님! 랭크 전투에서도 배틀 패스 점수를 획득할 수 있다는 사실을 잊지 마십시오!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "전차장님! 전선 대격돌에서도 배틀 패스 점수를 획득할 수 있다는 사실을 잊지 마십시오!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "전차장님! 정찰 임무에서도 배틀 패스 점수를 획득할 수 있다는 사실을 잊지 마십시오!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "전차장님! 격전에서도 배틀 패스 점수를 획득할 수 있다는 사실을 잊지 마십시오!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "배틀 패스 시즌 %(seasonNum)d"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "보상 선택 중 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "battlePass/seasonEnd/text"
+msgstr "배틀 패스 시즌이 종료되었습니다. 시즌 기간에 선택하지 않은 모든 보상 자동 선택 및 지급 완료:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "챕터 선택 중 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "챕터를 선택하십시오. 언제든 다른 챕터로 전환할 수 있습니다."
+
+msgid "battlePass/switchChapter/success"
+msgstr "다른 챕터로 전환했습니다. %(chapter)s 챕터가 활성화됩니다."
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "점검 중이므로 배틀 로얄에서 배틀 패스를 일시적으로 이용할 수 없습니다. 불편을 드려 죄송합니다."
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "현재 점검 중이므로 격전 모드에서 배틀 패스 점수를 획득할 수 없습니다."
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "현재 점검 중이므로 격전 라이트 모드에서 배틀 패스 점수를 획득할 수 없습니다."
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "점검 중이므로 전선 대격돌에서 배틀 패스를 일시적으로 이용할 수 없습니다."
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "점검 중이므로 랭크 전투에서 배틀 패스를 일시적으로 이용할 수 없습니다."
+
+msgid "battlePass/switch_enabled/body"
+msgstr "배틀 패스를 다시 이용할 수 있습니다. 불편을 드려 죄송합니다.\n시즌이 %(expiryTime)s까지 연장되었습니다."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "다시 격전 모드에서 배틀 패스 점수를 획득할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "다시 격전 라이트 모드에서 배틀 패스 점수를 획득할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "전선 대격돌에서 배틀 패스를 다시 이용할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "랭크 전투 배틀 패스를 다시 이용할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "battlePass/switch_pause/body"
+msgstr "점검 중이므로 배틀 패스를 일시적으로 이용할 수 없습니다."
+
+msgid "battlePass/switch_started/body"
+msgstr "전차장님! 배틀 패스 특별 보상을 위해 다시 한번 싸울 때가 되었습니다!"
+
+msgid "battlePass/switch_started/title"
+msgstr "배틀 패스 시즌 %(seasonNum)d"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "배틀 패스: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "배틀 패스가 종료되었습니다. 선택하지 않은 모든 보상 자동 선택 및 지급 완료:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "챕터가 종료되었습니다. 다음 이벤트를 기대해 주십시오!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "배틀 패스: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "배틀 패스를 다시 이용할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "battlePassH/switch_started/body"
+msgstr "전차장 여러분! 특별 배틀 패스가 찾아왔습니다.\n\n진행을 완료하면 프리미엄 전차, 특별 3D 스타일, 전차 꾸미기 요소 등 다양한 보상을 획득할 수 있습니다!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "배틀 패스: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "진행 스테이지 구매 중 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "battlePass_buy/server_error"
+msgstr "강화 패스 구매 중 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "battleResults/sharing/success"
+msgstr "클립보드에서 링크를 복사했습니다. 복사한 링크는 대화창에 Ctrl+V 붙여넣거나 클라이언트 외부에서 사용할 수 있습니다."
+
+msgid "battleSession/kickedFromQueue"
+msgstr "특수 전투에 맞는 상대를 찾을 수 없습니다. 팀을 다시 구성하십시오."
+
+msgid "battleSession/memberJoined"
+msgstr "%s 님이 팀에 참여했습니다."
+
+msgid "battleSession/memberLeave"
+msgstr "%s 님이 팀을 떠났습니다."
+
+msgid "battleSession/memberNotReady"
+msgstr "%s 님이 전투 준비 상태가 아닙니다."
+
+msgid "battleSession/memberOffline"
+msgstr "%s 님과의 연결이 끊겼습니다."
+
+msgid "battleSession/memberReady"
+msgstr "%s 님이 전투 준비 상태가 되었습니다."
+
+msgid "battlesession/error/AddObserver"
+msgstr "팀의 최대 관전자 수는 %(numPlayers)s명입니다."
+
+msgid "battlesession/error/AddPlayer"
+msgstr "팀의 최대 구성원 수는 %(numPlayers)s명입니다."
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "다른 플레이어를 옮길 권한이 부족합니다."
+
+msgid "battlesession/error/Limits"
+msgstr "팀의 최대 구성원 수를 초과했습니다."
+
+msgid "blueprints/conversion/disable"
+msgstr "변환에 필요한 조각이 부족합니다."
+
+msgid "blueprints/conversion/error"
+msgstr "퇴역 처리할 수 없습니다. 현재 서버를 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "blueprints/switch_off"
+msgstr "전차 설계도면: 해당 기능을 일시적으로 이용할 수 없습니다. 불편을 드려 죄송합니다."
+
+msgid "blueprints/switch_on"
+msgstr "전차 설계도면 기능을 다시 이용할 수 있습니다."
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "작업을 수행할 수 없습니다. 개인 물자를 이미 사용 중입니다."
+
+msgid "booster_activate/DISABLED"
+msgstr "작업을 수행할 수 없습니다. 개인 물자를 활성화할 수 없습니다."
+
+msgid "booster_activate/EXCEPTION"
+msgstr "작업을 수행할 수 없습니다. 개인 물자를 활성화할 수 없습니다."
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "작업을 수행할 수 없습니다. 개인 물자를 사용할 수 없거나 선택하지 않았습니다."
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "작업을 수행할 수 없습니다. 개인 물자를 활성화할 수 없습니다."
+
+msgid "booster_activate/server_error"
+msgstr "개인 물자를 활성화할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "booster_activate/success"
+msgstr "\"%(boosterName)s\" 개인 물자 활성화! 남은 시간: %(time)s"
+
+msgid "booster_buy/not_enough_credits"
+msgstr "\"%(boosterName)s\" 개인 물자를 구매할 수 없습니다. 크레딧이 부족합니다."
+
+msgid "booster_buy/not_enough_gold"
+msgstr "\"%(boosterName)s\" 개인 물자를 구매할 수 없습니다. 골드가 부족합니다."
+
+msgid "booster_buy/server_error"
+msgstr "\"%(boosterName)s\" 개인 물자를 구매할 수 없습니다."
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "\"%(boosterName)s\" 개인 물자를 구매할 수 없습니다. 일시적으로 서버를 이용할 수 없습니다."
+
+msgid "booster_buy/success"
+msgstr "\"%(boosterName)s\" 개인 물자 %(count)s개를 구매했습니다. %(money)s 소모"
+
+msgid "booster_buy/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "booster_sell/server_error"
+msgstr "\"%(boosterName)s\" 개인 물자를 판매할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "\"%(boosterName)s\" 개인 물자를 판매할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "booster_sell/success"
+msgstr "\"%(boosterName)s\" 개인 물자 %(count)s개를 판매했습니다. %(money)s 획득"
+
+msgid "buttons/goToPoll"
+msgstr "설문 조사 진행"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "승무원 충원 및 재훈련 실패! 특별 승무원이 탑승하는 전차입니다."
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "하루에 무료로 충원할 수 있는 승무원 숫자를 초과했습니다."
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "승무원 충원 및 재훈련 실패! 올바르지 않은 전차입니다."
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "승무원 충원 및 재훈련 실패! 크레딧이 부족합니다."
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "승무원 충원 및 재훈련 실패! 골드가 부족합니다."
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "승무원 충원 및 재훈련 실패! 나중에 다시 시도하십시오."
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "승무원 충원 및 재훈련 실패! 전차가 현재 잠겨 있습니다."
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "승무원 충원 및 재훈련 실패! 특별 승무원이 탑승하는 전차입니다."
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "하루에 무료로 충원할 수 있는 승무원 숫자를 초과했습니다."
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "승무원 충원 및 교체 실패! 올바르지 않은 전차입니다."
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "승무원 충원 및 교체 실패! 크레딧이 부족합니다."
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "승무원 충원 및 교체 실패! 골드가 부족합니다."
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "승무원 충원 및 교체 실패! 승무원을 충원하려면 빈 침상이 필요합니다. 침상을 비우거나 막사에 추가 침상을 구매하십시오."
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "승무원 충원 및 교체 실패! 나중에 다시 시도하십시오."
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "승무원 충원 및 교체 실패! 전차가 현재 잠겨 있습니다."
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "무료 전차를 더는 구매할 수 없습니다. 내일 다시 시도하십시오."
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "막사 확장 실패! 크레딧이 부족합니다."
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "막사 확장 실패! 골드가 부족합니다."
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "막사를 확장할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "buy_tankmen_berths/success"
+msgstr "막사를 확장했습니다.\n골드 소모: %(money)s"
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "buy_vehicle_slot_error"
+msgstr "\"%s\" 전차 구매 불가! 차고에 빈 슬롯이 없습니다. 보유한 전차를 판매하거나 새로운 슬롯을 구매하십시오."
+
+msgid "buy_vehicle_slot_error2"
+msgstr "\"%s\" 전차 구매 불가! 차고에 빈 슬롯이 없습니다. 슬롯을 구매하십시오."
+
+msgid "challenges/activate/serverError"
+msgstr "시련의 장 임무를 활성화할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "challenges/activate/success/text"
+msgstr "해당 연속 임무의 첫 번째 임무가 활성화되었습니다. 전투에 참여하여 도전에 응해 보십시오!"
+
+msgid "challenges/activate/success/title"
+msgstr "시련의 장: %(challengeName)s 활성화!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "시련의 장으로 이동"
+
+msgid "challenges/challengeEnd/text"
+msgstr "지금 완료하여 보상을 획득해 보십시오."
+
+msgid "challenges/challengeEnd/title"
+msgstr "시련의 장 임무 만료 임박!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "축하합니다!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "시련의 장: %(challengeName)s 완료! 보상 획득:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "크레딧 소모:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "전쟁 채권 소모:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "골드 소모:"
+
+msgid "challenges/restart/free/text"
+msgstr "무료 재시작 기회를 1회 사용하였으며 임무 진행 상황이 초기화되었습니다."
+
+msgid "challenges/restart/free/title"
+msgstr "시련의 장: %(challengeName)s 무료 재시작"
+
+msgid "challenges/restart/paid/title"
+msgstr "시련의 장: %(challengeName)s 재시작"
+
+msgid "challenges/restart/serverError"
+msgstr "시련의 장 임무를 재시작할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "작업을 수행할 수 없습니다. 현재 진행 중인 작업이 완료될 때까지 기다려 주십시오."
+
+msgid "challenges/surrender/serverError"
+msgstr "시련의 장 임무를 포기할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "challenges/surrender/success/text"
+msgstr "시련의 장: %(challengeName)s 임무를 포기했습니다. 해당 연속 임무에 실패했습니다."
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "승무원 직책 변경 실패! 특별 승무원이 탑승하는 전차입니다."
+
+msgid "change_tankman_role/invalid_role"
+msgstr "직책을 변경할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "직책을 변경할 수 없습니다. 올바르지 않은 전차입니다."
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "전차가 차고에 없습니다. 직책을 변경하면 승무원은 막사로 이동합니다."
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "승무원 직책을 변경할 수 없습니다. 크레딧이 부족합니다."
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "승무원 직책을 변경할 수 없습니다. 골드가 부족합니다."
+
+msgid "change_tankman_role/server_error"
+msgstr "직책을 변경할 수 없습니다.\n나중에 다시 시도해 주십시오."
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "%(vehicle)s 전차에 이미 %(role)s 승무원이 있습니다. 직책을 변경하면 승무원은 막사로 이동합니다."
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "직책을 변경할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "charge/credits_error"
+msgstr "%s 크레딧과 %s 골드가 더 필요합니다. 포탄을 수동으로 채우십시오."
+
+msgid "charge/credits_error_credits"
+msgstr "%s 크레딧이 더 필요합니다. 포탄을 수동으로 채우십시오."
+
+msgid "charge/credits_error_gold"
+msgstr "%s 골드가 더 필요합니다. 포탄을 수동으로 채우십시오."
+
+msgid "charge/inventory_error"
+msgstr "%(vehicle)s 전차 포탄 보급에 실패했습니다. 수동으로 채우십시오."
+
+msgid "charge/money_spent"
+msgstr "포탄 구매에 사용된 %s"
+
+msgid "charge/server_error"
+msgstr "포탄 보급 오류! 나중에 다시 시도하십시오."
+
+msgid "charge/server_error_save"
+msgstr "포탄 보급 오류! 나중에 다시 시도하십시오."
+
+msgid "charge/success"
+msgstr "포탄이 보급되었습니다."
+
+msgid "charge/success_save"
+msgstr "포탄이 보관되었습니다."
+
+msgid "checkout_error"
+msgstr "사용자 정보 수신 실패! 나중에 다시 시도하십시오."
+
+msgid "clans/isClanProfileDisabled"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "clans/notifications/accept"
+msgstr "수락"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "이미 %(userName)s 님을 클랜에 초대했습니다."
+
+msgid "clans/notifications/decline"
+msgstr "거절"
+
+msgid "clans/notifications/from"
+msgstr "보낸이: %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "클랜 상세 정보 보기"
+
+msgid "clans/notifications/invite"
+msgstr "클랜 초대"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "클랜 초대를 수락했습니다."
+
+msgid "clans/notifications/invite/declined"
+msgstr "클랜 초대를 거절했습니다."
+
+msgid "clans/notifications/invite/expired"
+msgstr "유효하지 않은 클랜 초대입니다."
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s 님이 클랜 초대를 수락했습니다."
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s 님이 클랜 초대를 거절했습니다."
+
+msgid "clans/notifications/inviteSendError"
+msgstr "%(userName)s 님을 초대할 수 없습니다."
+
+msgid "clans/notifications/inviteSent"
+msgstr "%(userName)s 님을 클랜에 초대했습니다."
+
+msgid "clans/notifications/invites"
+msgstr "클랜 초대: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "알림 끄기"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "초대 보기"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "플레이어 %(userCount)d명을 초대할 수 없습니다."
+
+msgid "clans/notifications/invitesSent"
+msgstr "클랜이 %(userCount)d명을 초대했습니다."
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s 클랜\n가입 신청이 승인되었습니다."
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s 클랜\n가입 신청이 거절되었습니다."
+
+msgid "clans/notifications/request"
+msgstr "클랜 가입 신청서"
+
+msgid "clans/notifications/request/accepted"
+msgstr "가입 신청을 수락했습니다."
+
+msgid "clans/notifications/request/declined"
+msgstr "가입 신청을 거절했습니다."
+
+msgid "clans/notifications/requestSent"
+msgstr "클랜 가입 신청서 제출\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "플레이어 초대: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "가입 신청 보기"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s 님은 이미 초대한 플레이어입니다."
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "작업을 수행할 수 없습니다. 모집 조건과 일치하지 않는 플레이어입니다."
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "재가입 대기 시간이 아직 만료되지 않았습니다."
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 계정입니다."
+
+msgid "clans/request/errors/Account is banned"
+msgstr "작업을 수행할 수 없습니다. 차단된 계정입니다."
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "이미 클랜에 소속된 플레이어입니다."
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "작업을 수행할 수 없습니다. 클랜원이 아닙니다."
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "작업을 수행할 수 없습니다. 존재하지 않는 가입 신청서입니다."
+
+msgid "clans/request/errors/Application is not active"
+msgstr "작업을 수행할 수 없습니다. 가입 신청서가 만료되었습니다."
+
+msgid "clans/request/errors/Bad request"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "초대장을 보낼 권한이 없습니다."
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "클랜원 모집을 중단했습니다."
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "클랜 정원 한도를 초과했습니다."
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "작업을 수행할 수 없습니다. 존재하지 않는 클랜입니다."
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "작업을 수행할 수 없습니다. 클랜 정원 한도를 초과했습니다."
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "작업을 수행할 수 없습니다. 해산한 클랜입니다."
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "작업을 수행할 수 없습니다. 비활성화된 클랜입니다."
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "해당 계정으로는 수행할 수 없는 작업입니다."
+
+msgid "clans/request/errors/Forbidden"
+msgstr "작업을 수행할 수 없습니다. 권한이 없습니다."
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "작업을 수행할 수 없습니다. 존재하지 않는 초대입니다."
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "작업을 수행할 수 없습니다. 만료된 초대입니다."
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "작업을 수행할 수 없습니다. 요새를 이용할 수 없습니다."
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "작업을 수행할 수 없습니다. 가입 신청 한도에 도달했습니다."
+
+msgid "clans/request/errors/Too many invites"
+msgstr "작업을 수행할 수 없습니다. 초대 한도에 도달했습니다."
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s 님은 이미 클랜에 소속되어 있습니다."
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" 장착 불가!"
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" 호환 불가! 포탑을 교체하십시오."
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" 호환 불가 전차!"
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" 호환 불가 국가 전차!"
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" 장착 불가!"
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" 호환 불가 전차!"
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" 호환 불가 국가 전차!"
+
+msgid "client_inactive"
+msgstr "클라이언트 비활성화"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "점검 중이므로 수집을 이용할 수 없습니다."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "수집 이용 불가"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "수집 기능 관련 문제가 해결되었습니다. 불편을 드려 죄송합니다."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "수집 이용 가능"
+
+msgid "connected"
+msgstr "월드 오브 탱크 %s 서버에 오신 것을 환영합니다!"
+
+msgid "consumables_apply/error"
+msgstr "소모품 구성 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "consumables_apply/not_enough_money"
+msgstr "소모품 구성 오류가 발생했습니다. 구매에 필요한 자금이 부족합니다."
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "conversion/error"
+msgstr "퇴역 처리할 수 없습니다. 현재 서버를 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "conversion/header"
+msgstr "일자: %(at)s\n추가:"
+
+msgid "conversion/success"
+msgstr "퇴역 처리된 미숙련 승무원: %(number)s명"
+
+msgid "conversion/title"
+msgstr "획득"
+
+msgid "conversionPerks/header"
+msgstr "일자: %(at)s\n제한을 초과한 승무원 능력의 경험치가 전환되었습니다. 획득:"
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "해당 지역 플레이어는 개인 메시지를 주고받을 수 없습니다."
+
+msgid "crewBooks/failed"
+msgstr "해당 승무원을 훈련할 수 없습니다.\n나중에 다시 시도해 주십시오."
+
+msgid "crewBooks/server_error"
+msgstr "서버 오류가 발생하여 승무원 훈련에 실패했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s"
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (%(count)s개)"
+
+msgid "crewBooksNotification/success"
+msgstr "승무원 훈련을 완료했습니다.\n소모:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "서버 오류가 발생하여 승무원 훈련서를 구매할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s개)\n크레딧 소모: %(money)s"
+
+msgid "crewBooks_sell/server_error"
+msgstr "서버 오류가 발생하여 승무원 훈련서를 판매할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s개)\n크레딧 획득: %(money)s"
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "승무원 스킨이 변경되었습니다."
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "승무원 스킨 추가: %(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "전차 교체: %s"
+
+msgid "customization/added/attachment"
+msgstr "%s 3D 부착물 추가"
+
+msgid "customization/added/attachmentValue"
+msgstr "%s 3D 부착물 추가: (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "%s 위장 추가"
+
+msgid "customization/added/camouflageValue"
+msgstr "%s 위장 추가: (x%s)"
+
+msgid "customization/added/decal"
+msgstr "%s 데칼 추가"
+
+msgid "customization/added/decalValue"
+msgstr "%s 데칼 추가: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "%s 문양 추가"
+
+msgid "customization/added/emblemValue"
+msgstr "%s 문양 추가: (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "%s 문자 추가"
+
+msgid "customization/added/inscriptionValue"
+msgstr "%s 문자 추가: (x%s)"
+
+msgid "customization/added/modification"
+msgstr "%s 효과 추가"
+
+msgid "customization/added/modificationValue"
+msgstr "%s 효과 추가: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "%s 도료 추가"
+
+msgid "customization/added/paintValue"
+msgstr "%s 도료 추가: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "%s 1자리 숫자 추가"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "%s 1자리 숫자 추가: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "%s 2자리 숫자 추가"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "%s 2자리 숫자 추가: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "%s 3자리 숫자 추가"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "%s 3자리 숫자 추가: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "%s 데칼 추가"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "%s 데칼 추가: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "전적 표시기: %s 추가"
+
+msgid "customization/added/statTrackerValue"
+msgstr "전적 표시기: %s 추가: (x%s)"
+
+msgid "customization/added/style"
+msgstr "%s 스타일 추가"
+
+msgid "customization/added/styleValue"
+msgstr "%s 스타일 추가: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "전차 꾸미기 불가! 크레딧과 골드가 부족합니다."
+
+msgid "customization/credits_not_enough"
+msgstr "전차 꾸미기 불가! 크레딧이 부족합니다."
+
+msgid "customization/currency_not_enough"
+msgstr "아이템 구매에 필요한 통화가 부족합니다."
+
+msgid "customization/gold_not_enough"
+msgstr "전차 꾸미기 불가! 골드가 부족합니다."
+
+msgid "customization/igr_type_changed_error"
+msgstr "프리미엄 PC방 상태가 변경되었습니다. 현재 작업이 취소되었습니다."
+
+msgid "customization/invalidVehicle"
+msgstr "적용 불가: 적합하지 않은 전차"
+
+msgid "customization/personal_number_prohibited"
+msgstr "%(value)s 숫자를 이용할 수 없습니다.\n%(itemName)s %(itemType)s는 %(seasonName)s 지도에서 제거되었습니다."
+
+msgid "customization/progression/down/style"
+msgstr "%s 스타일 %s레벨로 감소"
+
+msgid "customization/progression/up/style"
+msgstr "%s 스타일 %s레벨로 상승"
+
+msgid "customization/prohibited"
+msgstr "적용 불가: 보유한 %(itemName)s 요소가 없습니다."
+
+msgid "customization/removed/attachment"
+msgstr "%s 3D 부착물 제거"
+
+msgid "customization/removed/attachmentValue"
+msgstr "%s 3D 부착물 제거: (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "%s 위장 제거"
+
+msgid "customization/removed/camouflageValue"
+msgstr "%s 위장 제거: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "%s 데칼 제거"
+
+msgid "customization/removed/decalValue"
+msgstr "%s 데칼 제거: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "%s 문양 제거"
+
+msgid "customization/removed/emblemValue"
+msgstr "%s 문양 제거: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "%s 문자 제거"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "%s 문자 제거: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "%s 효과 제거"
+
+msgid "customization/removed/modificationValue"
+msgstr "%s 효과 제거: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "%s 도료 제거"
+
+msgid "customization/removed/paintValue"
+msgstr "%s 도료 제거: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "%s 1자리 숫자 제거"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "%s 1자리 숫자 제거: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "%s 2자리 숫자 제거"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "%s 2자리 숫자 제거: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "%s 3자리 숫자 제거"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "%s 3자리 숫자 제거: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "%s 데칼 제거"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "%s 데칼 제거: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "전적 표시기: %s 제거"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "전적 표시기: %s 제거: (x%s)"
+
+msgid "customization/removed/style"
+msgstr "%s 스타일 제거"
+
+msgid "customization/removed/styleValue"
+msgstr "%s 스타일 제거: (x%s)"
+
+msgid "customization/server_error"
+msgstr "전차 꾸미기 기능을 이용할 수 없습니다."
+
+msgid "customization/unavailable"
+msgstr "기술적 문제로 전차 꾸미기 기능을 일시적으로 사용할 수 없습니다."
+
+msgid "customization/vehicle_damaged"
+msgstr "전차 꾸미기를 사용할 수 없습니다. 전차를 먼저 수리하십시오."
+
+msgid "customization/vehicle_destroyed"
+msgstr "전차 꾸미기를 사용할 수 없습니다. 전차를 먼저 수리하십시오."
+
+msgid "customization/vehicle_exploded"
+msgstr "전차 꾸미기를 사용할 수 없습니다. 전차를 먼저 수리하십시오."
+
+msgid "customization/vehicle_locked"
+msgstr "전차 꾸미기를 사용할 수 없습니다. 전차가 잠겨 있습니다."
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "일반 임무 변경 불가: 이미 완료한 임무입니다."
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "일반 임무 변경 불가: 기능 비활성화 상태입니다."
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "일반 임무 변경 불가: 재사용 대기 중입니다."
+
+msgid "daily_quests/reroll/success"
+msgstr "일반 임무를 변경했습니다."
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "일반 임무를 변경할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "daily_quests/switch_off/body"
+msgstr "해당 기능은 현재 기술적인 문제로 이용할 수 없습니다.\n불편을 드려 죄송합니다."
+
+msgid "daily_quests/switch_off/title"
+msgstr "일반 임무 이용 불가"
+
+msgid "daily_quests/switch_on/body"
+msgstr "기술적 문제가 해결되었습니다. 불편을 드려 죄송합니다."
+
+msgid "daily_quests/switch_on/title"
+msgstr "일반 임무 다시 이용 가능"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "해당 기능은 현재 기술적인 문제로 이용할 수 없습니다.\n불편을 드려 죄송합니다."
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "선택식 경험치 보너스 이용 불가"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "기술적 문제가 해결되었습니다. 불편을 드려 죄송합니다."
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "선택식 경험치 보너스 다시 이용 가능"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "서버 점검으로 인해 일시적으로 장비 해체 도구 관련 작업을 수행할 수 없습니다."
+
+msgid "demountKit_restored/switchedOn"
+msgstr "장비 해체 도구 관련 작업을 다시 수행할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "denunciation/success"
+msgstr "\"%(topic)s\" 신고가 제출되었습니다. 대상: %(name)s"
+
+msgid "disconnected"
+msgstr "클라이언트와 서버 간의 연결이 끊겼습니다."
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "승무원 해산 실패! 특별 승무원이 탑승하는 전차입니다."
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "승무원 해산 중 오류 발생! 올바르지 않은 전차입니다."
+
+msgid "dismiss_tankman/server_error"
+msgstr "해당 승무원을 퇴역 처리할 수 없습니다.\n나중에 다시 시도해 주십시오."
+
+msgid "dismiss_tankman/success"
+msgstr "승무원이 퇴역하였습니다."
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "승무원 해산 중 오류 발생! 전차가 잠금 상태입니다."
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "승무원 해산 중 오류 발생! 전차를 수리해 주십시오."
+
+msgid "dog_tags/switch_off/body"
+msgstr "해당 기능은 현재 기술적인 문제로 이용할 수 없습니다.\n불편을 드려 죄송합니다."
+
+msgid "dog_tags/switch_off/title"
+msgstr "일시적으로 인식표 이용 불가"
+
+msgid "dog_tags/switch_on/body"
+msgstr "기술적 문제가 해결되었습니다. 불편을 드려 죄송합니다."
+
+msgid "dog_tags/switch_on/title"
+msgstr "인식표 다시 이용 가능"
+
+msgid "dossiers_unavailable"
+msgstr "계정이 준비되지 않았습니다 (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "모든 능력이 초기화되었습니다.\n크레딧 소모: %(money)s"
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "모든 능력이 초기화되었습니다.\n골드 소모: %(money)s"
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "능력 초기화 오류 발생! 올바르지 않은 전차입니다."
+
+msgid "drop_tankman_skill/server_error"
+msgstr "능력을 초기화할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "drop_tankman_skill/success"
+msgstr "모든 능력이 초기화되었습니다."
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "능력 초기화 중 오류 발생! 전차가 잠금 상태입니다."
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "능력 초기화 중 오류 발생! 전차를 수리하십시오."
+
+msgid "drr_scale/step_down"
+msgstr "동적 해상도가 %(scale)d%%까지 감소합니다."
+
+msgid "drr_scale/step_up"
+msgstr "동적 해상도가 최대 %(scale)d%%까지 증가합니다."
+
+msgid "earning/button/multiple"
+msgstr "공적으로 이동"
+
+msgid "earning/button/single"
+msgstr "공적으로 이동"
+
+msgid "earning/common/multiple"
+msgstr "공적 %(value)s개 해제!"
+
+msgid "earning/common/single"
+msgstr "%(value)s 공적 해제!"
+
+msgid "earning/title"
+msgstr "축하합니다!"
+
+msgid "earning/trophy/multiple"
+msgstr "트로피 %(value)s개 획득!"
+
+msgid "earning/trophy/single"
+msgstr "%(value)s 트로피 획득!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "빠른 정비를 다시 이용할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "점검 중이므로 빠른 정비를 일시적으로 이용할 수 없습니다."
+
+msgid "easyTankEquip_apply/error"
+msgstr "빠른 정비 구성 적용 중 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "빠른 정비 구성 적용 중 오류가 발생했습니다. 구매에 필요한 자금이 부족합니다."
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "빠른 정비 작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "epicBattles/levelUp/awards"
+msgstr "획득한 보상:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "전선 대격돌 <font color='#E9E2BF'>%(tier)s</font>단계를 달성했습니다."
+
+msgid "epicBattles/levelUp/title"
+msgstr "축하합니다!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "전선 대격돌 모드를 이용할 수 없습니다. 공식 포털 소식을 확인해 주십시오."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "보상 선택 중 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "%(name)s 획득"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "일반 장비 획득: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "시제 장비 획득: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "전선 대격돌 시즌이 종료되었습니다.<br/>시즌 기간에 선택하지 않은 모든 보상 자동 선택 및 지급 완료:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "전선 대격돌"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "승무원 재훈련 실패! 특별 승무원이 탑승하는 전차입니다."
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "승무원 재훈련 중 오류 발생! 올바르지 않은 전차입니다."
+
+msgid "equip_tankman/not_enough_space"
+msgstr "승무원을 막사로 보낼 수 없습니다. 막사에 침상이 부족합니다."
+
+msgid "equip_tankman/server_error"
+msgstr "승무원이 해당 전차에 탑승할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "equip_tankman/success"
+msgstr "승무원이 %(vehName)s 전차에 탑승하였습니다."
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "승무원 교체 중 오류 발생! 전차가 잠금 상태입니다."
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "승무원 교체 중 오류 발생! 전차를 수리하십시오."
+
+msgid "exchange/not_enough_gold"
+msgstr "골드가 부족합니다."
+
+msgid "exchange/server_error"
+msgstr "%(gold)s 골드 전환 중 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "골드가 부족하여 %(xp)s경험치를 전환할 수 없습니다."
+
+msgid "exchangeXP/server_error"
+msgstr "%(xp)s 경험치 전환 중 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "filling_untrained_perks/server_error"
+msgstr "새로운 능력을 훈련할 수 없습니다.\n서버를 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "filling_untrained_perks/success"
+msgstr "모든 승무원이 새로운 능력을 훈련 완료했습니다."
+
+msgid "fortification/addOrder"
+msgstr "물자 %(count)s개를 비축합니다. 남은 시간: %(time)s"
+
+msgid "fortification/buildingProcess"
+msgstr "%(buildingName)s 건설을 시작합니다. 건설이 중단되지 않으려면 필요한 자원을 계속 보급해야 합니다."
+
+msgid "fortification/created"
+msgstr "축하합니다!\n요새가 건설되었습니다."
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "48시간 동안 요새 방어가 비활성화됩니다. 요새 설정에서 방어를 다시 활성화할 수 있습니다."
+
+msgid "fortification/defenceHourSet"
+msgstr "14일간 방어 시간이 적용됩니다. 새로운 방어 시간: %(defenceHour)s"
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "휴전 설정은 14일간 유지됩니다. 새로운 휴전 날짜가 설정되지 않았습니다."
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "휴전 설정은 14일간 유지됩니다. 새로운 휴전 날짜—%(offDay)s"
+
+msgid "fortification/demountBuilding"
+msgstr "%(buildingName)s 군영을 철거했습니다."
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "작업을 수행할 수 없습니다. 해당 군영에 이미 소속 중입니다."
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "작업을 수행할 수 없습니다. 이미 요새를 건설했습니다."
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "작업을 수행할 수 없습니다. 이미 즐겨찾기에 포함된 클랜입니다."
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "작업을 수행할 수 없습니다. 같은 클랜에 대한 공격 계획은 한 번만 세울 수 있습니다."
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "작업을 수행할 수 없습니다. 공격 날짜가 아닙니다."
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "작업을 수행할 수 없습니다. 같은 클랜은 다시 공격하려면 일주일 동안 대기해야 합니다."
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "작업을 수행할 수 없습니다. 다른 원정군이 해당 교두보를 장악하고 있습니다."
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "작업을 수행할 수 없습니다. 공격 일정이 없습니다."
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "작업을 수행할 수 없습니다. 최소 15분 이내에 시작하는 공격 계획만 세울 수 있습니다."
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "선택한 날에는 공격을 진행할 수 없습니다."
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 클랜 ID입니다."
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 휴전 날짜입니다."
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 날짜입니다."
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 원정 ID입니다."
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 방어 시간입니다."
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "선택한 클랜 공격 불가: 요새가 2레벨 이상 차이 납니다. 다른 클랜을 선택하십시오."
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 물자 수입니다."
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "작업을 수행할 수 없습니다. 자원 보급량이 올바르지 않습니다."
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 편성입니다."
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "작업을 수행할 수 없습니다. 쟁탈전 세부 정보를 수신하지 못했습니다."
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "현재 이 서버에서는 전투가 제한됩니다."
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "작업을 수행할 수 없습니다. 중립 기간이 올바르지 않습니다."
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 중립일입니다."
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "작업을 수행할 수 없습니다. 사령부를 수리하십시오."
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "작업을 수행할 수 없습니다. 사령부가 파괴되었습니다."
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "작업을 수행할 수 없습니다. 사령부가 손상되지 않았습니다."
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "작업을 수행할 수 없습니다. 존재하지 않는 전투입니다."
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "죄송합니다. 전투 결과를 확인할 수 없습니다."
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "작업을 수행할 수 없습니다. 요새에 군영이 포함되어 있습니다."
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "작업을 수행할 수 없습니다. 군영이 손상되었습니다."
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "작업을 수행할 수 없습니다. 군영이 건설되지 않았습니다."
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "작업을 수행할 수 없습니다. 클랜 상세 정보를 찾을 수 없습니다."
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "작업을 수행할 수 없습니다. 클랜을 찾을 수 없습니다."
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "작업을 수행할 수 없습니다. 보급할 수 없습니다."
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "작업을 수행할 수 없습니다. 군영을 강화할 수 없습니다."
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "작업을 수행할 수 없습니다. 서버가 일시적으로 응답하지 않습니다."
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "작업을 수행할 수 없습니다. 클랜이 휴전을 활성화했습니다."
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "작업을 수행할 수 없습니다. 클랜이 중립을 활성화했습니다."
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "작업을 수행할 수 없습니다. 지정된 시간으로는 방어 시간을 설정할 수 없습니다."
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "작업을 수행할 수 없습니다. 다른 원정군이 해당 교두보를 장악하고 있습니다."
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "작업을 수행할 수 없습니다. 방어 일정이 설정되지 않았습니다."
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 정보입니다."
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "작업을 수행할 수 없습니다. 방어가 활성화되지 않았습니다."
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "일시적으로 요새를 모드를 이용할 수 없습니다."
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "작업을 수행할 수 없습니다. 이미 군영이 건설되었습니다."
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "작업을 수행할 수 없습니다. 현재 진행 중인 작업이 완료될 때까지 기다리십시오."
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "작업을 수행할 수 없습니다. 다른 클랜 공격 중입니다."
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "요청한 시간에 해당 클랜을 공격할 수 없습니다."
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "오류가 발생했습니다. 요새 모드를 이용할 수 없습니다."
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "작업을 수행할 수 없습니다. 요새 레벨이 너무 낮습니다."
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "작업을 수행할 수 없습니다. 모든 군영 건설이 일시 중지되었습니다."
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "작업을 수행할 수 없습니다. 인증되지 않았습니다."
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "작업을 수행할 수 없습니다. 전투에 참여할 수 없습니다."
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "일시적으로 작업을 수행할 수 없습니다."
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "작업을 수행할 수 없습니다. 시간이 동기화되지 않았습니다."
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "작업을 수행할 수 없습니다. 해당 군영에 소속되지 않았습니다."
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "작업을 수행할 수 없습니다. 소속 클랜원이 아닙니다."
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "작업을 수행할 수 없습니다. 클랜원이 부족합니다."
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "작업을 수행할 수 없습니다. 군영 창고에 자원이 부족합니다."
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "작업을 수행할 수 없습니다. 즐겨찾기 목록에 없는 클랜입니다."
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "작업을 수행할 수 없습니다. 군영을 건설하지 않았습니다."
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "작업을 수행할 수 없습니다. 소속 클랜이 없습니다."
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "작업을 수행할 수 없습니다. 지금은 물자를 활성화할 수 없습니다."
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 군영입니다."
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "작업을 수행할 수 없습니다. 사용할 수 없거나 물자를 선택하지 않았습니다."
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 물자입니다."
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 물자입니다."
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "작업을 수행할 수 없습니다. 이미 건설 중인 군영입니다."
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "작업을 수행할 수 없습니다. 존재하지 않는 공격입니다."
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "작업을 수행할 수 없습니다. 물자를 이미 사용했습니다."
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "작업을 수행할 수 없습니다. 물자가 이미 비축 중입니다."
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "작업을 수행할 수 없습니다. 건설이 이미 일시 중지 상태입니다."
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "작업을 수행할 수 없습니다. 물자를 사용할 수 없습니다."
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "작업을 수행할 수 없습니다. 건설이 일시 중지 상태가 아닙니다."
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "작업을 수행할 수 없습니다. 서버 연결이 끊어졌습니다."
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "작업을 수행할 수 없습니다. 이미 슬롯을 차지하고 있습니다."
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "작업을 수행할 수 없습니다. 방어가 이미 종료되었습니다."
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "작업을 수행할 수 없습니다. 방어가 아직 종료되지 않았습니다."
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "작업을 수행할 수 없습니다. 훈련이 완료되지 않았습니다."
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "작업을 수행할 수 없습니다. 창고가 가득 찼습니다."
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "작업을 수행할 수 없습니다. 해당 날짜에는 이미 방어 일정이 설정되어 있습니다."
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "즐겨찾기 클랜 한도에 도달했습니다."
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "작업을 수행할 수 없습니다. 비축된 물자가 최대치에 도달했습니다."
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "작업을 수행할 수 없습니다. 군영 주둔군 인원이 가득 찼습니다."
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "작업을 수행할 수 없습니다. 쟁탈전 한도를 초과했습니다."
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "작업을 수행할 수 없습니다. 일시적으로 보급할 수 없습니다."
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "작업을 수행할 수 없습니다. 보급 한도를 초과했습니다."
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "작업을 수행할 수 없습니다. 플레이어가 준비되지 않았습니다."
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "작업을 수행할 수 없습니다. 사령부는 철거할 수 없습니다."
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 클랜입니다."
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 서버입니다."
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "작업을 수행할 수 없습니다. 해당 지역에는 군영을 건설할 수 없습니다."
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "%(buildingName)s에 소속되었습니다."
+
+msgid "fortification/fortBattleFinished"
+msgstr "서버의 기술적인 문제로 원정이 강제 종료되었습니다."
+
+msgid "fortification/modernizationBuilding"
+msgstr "강화 완료! %(buildingName)s: 레벨 %(buildingLevel)s"
+
+msgid "fortification/notification/turnedOff"
+msgstr "요새 모드를 이용할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "fortification/notification/turnedOn"
+msgstr "요새 전투를 이용할 수 없습니다."
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "물자 활성화"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "군영 건설"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "즐겨찾기 클랜"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "물자 추가"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "주둔군에 플레이어 추가"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "방어 시간 활성화"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "방어 시간 설정"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "휴전 설정"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "서버 변경"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "설정 변경"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "중립 설정"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "요새 생성"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "원정군 조직"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "군영 철거"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "요새 제거"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "공격 일정"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "즐겨찾기 클랜 제거"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "클랜 상세 정보 보기"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "클랜 상세 정보 보기"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "원정군 세부 정보 요청"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "방어 시간 비활성화"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "보급"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "군영 강화"
+
+msgid "fortification/transport"
+msgstr "보급을 완료했습니다. %(fromBuilding)s 군영에서 자원을 %(res)s만큼 %(toBuilding)s 군영으로 보급했습니다."
+
+msgid "fortification/vacationSet"
+msgstr "요새가 %(vacationPeriod)s 동안 중립 상태가 됩니다."
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "작전을 이용할 수 없습니다."
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "승무원 훈련 중 오류 발생! 자유 경험치가 부족합니다."
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "승무원 훈련 중 오류 발생! 승무원이 존재하지 않습니다."
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "승무원 훈련 중 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "승무원 훈련 중 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "자유 경험치로 승무원을 훈련할 수 없습니다.\n나중에 다시 시도해 주십시오."
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "승무원 훈련을 완료했습니다.\n자유 경험치 소모: %(money)s"
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "청소년 보호법에 따라 만 16세 미만 청소년에게 심야 시간대 게임 제공이 금지됩니다. %(blockTime)s에 서버로부터 접속이 끊깁니다."
+
+msgid "gameSessionControl/korea/note"
+msgstr "과도한 게임이용은 정상적인 일상생활에 지장을 줄 수 있습니다."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "접속 제한까지 남은 시간: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "허용된 접속 시간이 초과되어 새로운 전투에 참가할 수 없습니다. %s에 서버로부터 접속이 끊깁니다."
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "현재까지 플레이한 시간: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "청소년 접속 제한(밤 12시)까지 남은 시간: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "허용된 접속 시간이 초과되어 새로운 전투에 참가할 수 없습니다. %(kickTime)s에 서버 접속이 종료됩니다."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "계정 접속 시간 제한 해제"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "자녀 보호 설정이 변경되었습니다."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "%(timeLimit)s에 서버 접속이 종료됩니다."
+
+msgid "graficsOptionsFail"
+msgstr "그래픽 카드가 적합하지 않습니다. 그래픽 설정 적용 실패: %s"
+
+msgid "graficsPresetFail"
+msgstr "그래픽 카드가 적합하지 않습니다. 선택된 그래픽 품질 적용에 실패했습니다."
+
+msgid "igr/customization/begin"
+msgstr "PC방 전용 무료 위장, 문장, 문양은 프리미엄 %(igrIcon)s에서만 이용할 수 있습니다."
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s 사용 기한이 만료되었습니다. 무료 위장무늬, 문자, 문양이 전차에서 삭제됩니다."
+
+msgid "info/noAvailable"
+msgstr "세부 정보를 확인할 수 없습니다."
+
+msgid "install_component"
+msgstr "%s \"%s\" 장착 완료!"
+
+msgid "install_vehicle_broken"
+msgstr "%s \"%s\" 장착 불가! 전차가 손상되었습니다. 전차를 수리하고 다시 시도해 주십시오."
+
+msgid "install_vehicle_locked"
+msgstr "%s \"%s\" 장착 불가! 전차가 잠겨 있습니다."
+
+msgid "inventory/item/already_exists"
+msgstr "보관소에 \"%(userString)s\" %(typeString)s 부품을 이미 보유 중입니다."
+
+msgid "inventory/item/equip_in_processing"
+msgstr "부품 장착을 위한 요청을 보냈습니다. 서버 응답을 기다리고 있습니다."
+
+msgid "inventory/item/not_found"
+msgstr "보관소에서 \"%(userString)s\" %(typeString)s 부품을 찾을 수 없습니다."
+
+msgid "inventory/vehicle/already_exists"
+msgstr "%(userString)s 전차를 이미 보유 중입니다."
+
+msgid "inventory/vehicle/not_found"
+msgstr "보관소에서 %(userString)s 전차를 찾을 수 없습니다."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "%(name)s 님을 용병으로 초대할 수 없습니다."
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "%(name)s 님을 초대할 수 없습니다. 소속 클랜이 아닙니다."
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "\"%(vehName)s\" 정비 실패! 소모품을 보급할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "\"%(vehName)s\" 정비 실패! 소모품을 보급할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "\"%(vehName)s\" 정비 실패! 소모품을 보급할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "\"%(vehName)s\" 정비 실패! 포탄을 보급할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "\"%(vehName)s\" 정비 실패! 포탄을 보급할 수 없습니다. 이미 포탄 적재를 마쳤습니다."
+
+msgid "layout_apply/Component is not in shop"
+msgstr "\"%(vehName)s\" 정비 실패! 소모품을 보급할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "\"%(vehName)s\" 정비 실패! 소모품을 구매할 크레딧이 부족합니다. 나중에 다시 시도하십시오."
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "\"%(vehName)s\" 정비 실패! 소모품을 구매할 전쟁 채권이 부족합니다."
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "\"%(vehName)s\" 정비 실패! 소모품을 구매할 골드가 부족합니다. 나중에 다시 시도하십시오."
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "\"%(vehName)s\" 정비 실패! 소모품을 보급할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "\"%(vehName)s\" 정비 실패! 올바르지 않은 전차입니다."
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "\"%(vehName)s\" 정비 실패! 포탄을 보급할 수 없습니다. 크레딧이 부족합니다."
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "\"%(vehName)s\" 정비 실패! 포탄을 보급할 수 없습니다. 골드가 부족합니다."
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "\"%(vehName)s\" 정비 실패! 전차가 잠겨 있습니다."
+
+msgid "layout_apply/error"
+msgstr "\"%(vehName)s\" 정비 실패! 나중에 다시 시도하십시오."
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "\"%(vehName)s\" 정비 실패! 올바르지 않은 전차입니다."
+
+msgid "layout_apply/success_money_spent"
+msgstr "포탄 구매에 사용된 %(money)s"
+
+msgid "layout_apply/vehicle_locked"
+msgstr "\"%(vehName)s\" 정비 실패! 전차가 잠겨 있습니다."
+
+msgid "layout_apply/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "limitedUI/switchOff"
+msgstr "숨겨진 인터페이스 요소가 단계적으로 표시되는 기능이 일시적으로 비활성화되었습니다."
+
+msgid "limitedUI/switchOn"
+msgstr "숨겨진 인터페이스 요소가 단계적으로 표시되는 기능이 다시 활성화되었습니다. 설정에서 해당 기능을 비활성화할 수 있습니다."
+
+msgid "locked_vehicle_error"
+msgstr "사전 구성 전차에는 해당 작업을 수행할 수 없습니다."
+
+msgid "login_to_other_game_unknown"
+msgstr "게임 세션 중단: Wargaming.net&nbsp;ID가 다른 게임에서 사용되었습니다."
+
+msgid "login_to_other_game_web"
+msgstr "현재 게임 세션이 손상되었습니다. 서버로부터 연결이 끊겼습니다."
+
+msgid "login_to_other_game_wot"
+msgstr "게임 세션 중단: Wargaming.net&nbsp;ID가 World&nbsp;of&nbsp;Tanks에서 사용되었습니다."
+
+msgid "login_to_other_game_wotb"
+msgstr "게임 세션 중단: Wargaming.net&nbsp;ID가 World&nbsp;of&nbsp;Tanks&nbsp;Blitz에서 사용되었습니다."
+
+msgid "login_to_other_game_wotg"
+msgstr "게임 세션 중단: Wargaming.net&nbsp;ID가 World&nbsp;of&nbsp;Tanks&nbsp;Generals에서 사용되었습니다."
+
+msgid "login_to_other_game_wowp"
+msgstr "게임 세션 중단: Wargaming.net&nbsp;ID가 World&nbsp;of&nbsp;Warplanes에서 사용되었습니다."
+
+msgid "login_to_other_game_wows"
+msgstr "게임 세션 중단: Wargaming.net&nbsp;ID가 World&nbsp;of&nbsp;Warships에서 사용되었습니다."
+
+msgid "lootboxes/open/server_error"
+msgstr "선물 획득 오류: 서버 오류가 발생했습니다."
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "선물 획득 중 오류가 발생했습니다. 이전 작업이 완료될 때까지 기다려 주십시오."
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "일시적으로 작업을 수행할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "mapbox/notification/primeTime"
+msgstr "휴전 종료 시까지 정찰 임무를 이용할 수 없습니다."
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "휴전"
+
+msgid "maps_black_list/select/server_error"
+msgstr "서버 오류"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "작업을 수행할 수 없습니다. 현재 진행 중인 작업이 완료될 때까지 기다리십시오."
+
+msgid "maps_black_list/select/success"
+msgstr "%(mapName)s 지도가 무작위 전투에서 제외되었습니다. %(time)s 후 변경할 수 있습니다."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "%(mapName)s 지도가 무작위 전투에서 제외되었습니다. %(time)s 후 변경할 수 있습니다. 월드 오브 탱크 프리미엄 계정 또는 WoT 플러스를 활성화하면 추가 슬롯을 해제할 수 있습니다."
+
+msgid "maps_black_list/select/success/premium"
+msgstr "%(mapName)s 지도가 무작위 전투에서 제외되었습니다. %(time)s 후 변경할 수 있습니다. WoT 플러스를 활성화하면 추가 슬롯을 해제할 수 있습니다."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "%(mapName)s 지도가 무작위 전투에서 제외되었습니다. %(time)s 후 변경할 수 있습니다. 월드 오브 탱크 프리미엄 계정을 활성화하면 추가 슬롯을 해제할 수 있습니다."
+
+msgid "maps_black_list/switch_off/body"
+msgstr "해당 기능은 현재 기술적인 문제로 이용할 수 없습니다.\n불편을 드려 죄송합니다."
+
+msgid "maps_black_list/switch_off/title"
+msgstr "지도 제외 이용 불가"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "기술적 문제가 해결되었습니다. 불편을 드려 죄송합니다."
+
+msgid "maps_black_list/switch_on/title"
+msgstr "지도 제외 다시 이용 가능"
+
+msgid "maps_training/switch/title"
+msgstr "지형학"
+
+msgid "maps_training/switch_off/body"
+msgstr "해당 모드는 비활성화 상태입니다."
+
+msgid "maps_training/switch_on/body"
+msgstr "해당 모드는 활성화 상태입니다."
+
+msgid "memberRosterChangedMain"
+msgstr "%s 님이 %s 님을 정규팀으로 변경했습니다."
+
+msgid "memberRosterChangedSecond"
+msgstr "%s 님이 %s 님을 예비팀으로 변경했습니다."
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "메모리가 부족합니다. 게임을 재시작해 주십시오."
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "메모리가 부족합니다. 낮은 그래픽 질감 품질을 사용합니다."
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "메모리가 부족합니다. 중간 그래픽 질감 품질을 사용합니다."
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "메모리가 부족합니다. 그래픽 설정이 변경되었습니다. 게임을 재시작해 주십시오."
+
+msgid "missingEvents/button"
+msgstr "열기"
+
+msgid "missingEvents/header"
+msgstr "이벤트"
+
+msgid "missingEvents/text"
+msgstr "놓친 중요 이벤트: "
+
+msgid "module_apply/error_is_current"
+msgstr "\"%(name)s\" %(kind)s 부품은 이미 장착 중입니다."
+
+msgid "module_apply/error_need_gun"
+msgstr "\"%(name)s\" %(kind)s 장착 불가!"
+
+msgid "module_apply/error_need_turret"
+msgstr "\"%(name)s\" %(kind)s 호환 불가! 포탑을 교체하십시오."
+
+msgid "module_apply/error_no_gun"
+msgstr "\"%(name)s\" %(kind)s 장착 실패! 주포와 호환되지 않습니다."
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "\"%(name)s\" %(kind)s 호환 불가! 포탑을 교체하십시오."
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "\"%(name)s\" %(kind)s 장착 불가!"
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "\"%(name)s\" %(kind)s 부품은 \"%s\" 소모품과 호환되지 않습니다."
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "\"%(name)s\" %(kind)s 호환 불가 전차!"
+
+msgid "module_apply/error_wrong_nation"
+msgstr "\"%(name)s\" %(kind)s 호환 불가 국가 전차!"
+
+msgid "module_apply/incompatibleEqs"
+msgstr "\"%(items)s\" 소모품이 보관소로 보내졌습니다. 장비와 호환이 되지 않습니다."
+
+msgid "module_apply/invalid_vehicle"
+msgstr "\"%(name)s\" %(kind)s 장착 불가! 올바르지 않은 전차입니다."
+
+msgid "module_apply/server_error"
+msgstr "\"%(name)s\" %(kind)s 장착 중 서버 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "module_apply/success"
+msgstr "\"%(name)s\" %(kind)s 장착 완료!"
+
+msgid "module_apply/success_gun_change"
+msgstr "\"%(name)s\" %(kind)s \"%(gun)s\"에 장착 완료!"
+
+msgid "module_apply/vehicle_locked"
+msgstr "\"%(name)s\" %(kind)s 장착 불가! 전차가 잠겨 있습니다."
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "\"%(name)s\" %(kind)s 장착 불가! 전차를 수리하십시오."
+
+msgid "module_buy/error_is_current"
+msgstr "\"%(name)s\" %(kind)s 부품은 이미 장착 중입니다."
+
+msgid "module_buy/error_need_gun"
+msgstr "\"%(name)s\" %(kind)s 장착 불가!"
+
+msgid "module_buy/error_need_turret"
+msgstr "\"%(name)s\" %(kind)s 호환 불가! 포탑을 교체하십시오."
+
+msgid "module_buy/error_no_gun"
+msgstr "\"%(name)s\" %(kind)s 장착 불가! 주포와 호환되지 않습니다."
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "\"%(name)s\" %(kind)s 호환 불가! 포탑을 교체하십시오."
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "\"%(name)s\" %(kind)s 장착 불가!"
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "\"%(name)s\" %(kind)s 부품은 \"%s\" 소모품과 호환되지 않습니다."
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "\"%(name)s\" %(kind)s 호환 불가 전차!"
+
+msgid "module_buy/error_wrong_nation"
+msgstr "\"%(name)s\" %(kind)s 호환 불가 국가 전차!"
+
+msgid "module_buy/invalid_module"
+msgstr "\"'%(name)s\" %(kind)s 구매 불가! 올바르지 않은 부품입니다."
+
+msgid "module_buy/invalid_vehicle"
+msgstr "\"%(name)s\" %(kind)s 장착 불가! 호환되지 않는 전차입니다."
+
+msgid "module_buy/not_enough_credits"
+msgstr "\"%(name)s\" %(kind)s 구매 불가! 크레딧이 부족합니다."
+
+msgid "module_buy/not_enough_gold"
+msgstr "\"%(name)s\" %(kind)s 구매 불가! 골드가 부족합니다."
+
+msgid "module_buy/server_error"
+msgstr "\"%(name)s\" %(kind)s 구매 불가! 나중에 다시 시도하십시오."
+
+msgid "module_buy/server_error_centerDown"
+msgstr "\"%(name)s\" %(kind)s 구매 불가! 서버가 일시적으로 응답하지 않습니다."
+
+msgid "module_buy/success"
+msgstr "\"%(name)s\" %(kind)s %(count)s개를 구매했습니다. %(money)s 소모"
+
+msgid "module_buy/vehicle_locked"
+msgstr "\"%(name)s\" %(kind)s 장착 불가! 전차가 잠겨 있습니다."
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "\"%(name)s\" %(kind)s 장착 불가! 전차를 먼저 수리하십시오."
+
+msgid "module_buy/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "module_sell/invalid_module"
+msgstr "\"%(name)s\" %(kind)s 판매 실패! 올바르지 않은 부품입니다."
+
+msgid "module_sell/server_error"
+msgstr "\"%(name)s\" %(kind)s 판매 실패! 나중에 다시 시도하십시오."
+
+msgid "module_sell/success"
+msgstr "\"%(name)s\" %(kind)s 부품 (%(count)s개). 획득 %(money)s"
+
+msgid "multipleSelling/success"
+msgstr "%(money)s 획득"
+
+msgid "nation_change/FAILED"
+msgstr "구성 변경 오류"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "구성 변경 오류"
+
+msgid "nation_change/error"
+msgstr "구성 변경 오류"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: 국가 구성 변경"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "기술적 문제로 일일 임무가 갱신되었습니다. 임무 진행 상황은 유지됩니다."
+
+msgid "notrecruit_window/success"
+msgstr "승무원을 충원했습니다.\n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "일시적으로 작업을 진행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "선물 수령 오류: 서버 오류"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "선물 획득 오류: 일부 보상 지급이 지연됩니다. 나중에 다시 수령해 주십시오."
+
+msgid "offers/switch_off/body"
+msgstr "현재 전방 지원 보급품 기능을 이용할 수 없습니다."
+
+msgid "offers/unavailable_many"
+msgstr "이벤트 이용 불가: 아이템 %(count)s개"
+
+msgid "offers/unavailable_one"
+msgstr "이벤트 이용 불가"
+
+msgid "optionalDevices_apply/error"
+msgstr "장비 구성 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "장비 구성 오류가 발생했습니다. 구매에 필요한 자금이 부족합니다."
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "optionalDevices_remove/error"
+msgstr "장비 구성 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "해당 계정으로는 친구 목록에 없는 플레이어와 개인 메시지를 주고받을 수 없습니다."
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "해당 계정으로는 개인 메시지를 주고받을 수 없습니다."
+
+msgid "parentControl/linkText"
+msgstr "일자 입력"
+
+msgid "parentControl/mainText"
+msgstr "생년월일을 입력해 주십시오."
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "자녀 보호 설정으로 인해 친구 목록에 없는 플레이어와 개인 메시지를 주고받을 수 없습니다."
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "자녀 보호 설정으로 인해 개인 메시지를 주고받을 수 없습니다."
+
+msgid "parentControl/title"
+msgstr "나이 확인"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "이전할 수 없습니다. 지역 서버를 정의하지 못했습니다."
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "획득한 보상:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "작전으로 이동"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "임무 완료"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "임무를 완료하려면 전차를 변경하십시오."
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "작전: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "완료: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "%(campaignName)s 캠페인 우수 등급으로 완료!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "%(operationName)s 작전 완료!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "%(operationName)s 작전 우수 등급으로 완료!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "서버 점검으로 인해 일시적으로 캠페인을 이용할 수 없습니다."
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "캠페인을 다시 이용할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "서버 점검으로 인해 일시적으로 %(campaignName)s 캠페인을 이용할 수 없습니다."
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "%(campaignName)s 캠페인을 다시 이용할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "서버 점검으로 인해 일시적으로 %(operationName)s 작전 %(missionName)s 임무를 이용할 수 없습니다."
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "%(operationName)s 작전 %(missionName)s 임무를 다시 이용할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "서버 점검으로 인해 일시적으로 %(campaignName)s 캠페인 %(operationName)s 작전을 이용할 수 없습니다."
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "%(campaignName)s 캠페인 %(operationName)s 작전을 다시 이용할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "캠페인 전환 중 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "personalMissions/badge"
+msgstr "%(name)s 증표를 획득했습니다."
+
+msgid "personalMissions/camouflageGiven"
+msgstr "%(vehicleName)s 전차 특별 위장을 획득했습니다."
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "%(vehicleName)s 전차의 특별 위장을 %(nation)s 국가 모든 전차에 이용할 수 있습니다."
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "작전 진행 상황이 모두 저장되었습니다. 언제든지 캠페인을 재개할 수 있습니다."
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "%(campaignName1)s 캠페인 및 %(campaignName2)s 캠페인 일시 중지"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "일시 중지된 작전 및 임무가 재개되었습니다."
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "%(campaignName1)s 캠페인 및 %(campaignName2)s 캠페인 재개"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "작전 진행 상황이 모두 저장되었습니다. 언제든지 캠페인을 재개할 수 있습니다."
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "%(campaignName)s 캠페인 일시 중지"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "일시 중지된 작전이 재개되었습니다."
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "%(campaignName)s 캠페인 재개"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "%(detailName)s 부품을 장착했습니다."
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "작전: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "임무를 초기화할 수 없습니다. 다시 시도해 주십시오."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "작업을 수행할 수 없습니다. 일시적으로 임무를 이용할 수 없습니다."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "현재 임무를 초기화할 수 없습니다. 다시 시도해 주십시오."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "현재 임무를 초기화할 수 없습니다. 해당 유형 전차가 전투를 종료할 때까지 기다려 주십시오."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "현재 임무를 초기화할 수 없습니다. 해당 그룹 전차가 전투를 종료할 때까지 기다려 주십시오."
+
+msgid "personalMissions/discard/success"
+msgstr "%(quest)s 임무를 초기화했습니다."
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "획득한 명령서: %(count)s."
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "명령서 회수 완료: %(count)s.\n명령서를 다시 사용할 수 있습니다."
+
+msgid "personalMissions/operationActivation/body"
+msgstr "각 임무 세트 첫 번째 임무가 활성화되었습니다."
+
+msgid "personalMissions/operationActivation/title"
+msgstr "%(operationName)s 작전 활성화!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "보상 획득\n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "%(name)s 작전 완료!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "임무 진행 상황이 모두 저장되었습니다. 언제든지 작전을 재개할 수 있습니다."
+
+msgid "personalMissions/operationPaused/title"
+msgstr "%(operationName)s 작전 일시 중지"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "일시 중지된 임무가 재개되었습니다."
+
+msgid "personalMissions/operationResumed/title"
+msgstr "%(operationName)s 작전 재개"
+
+msgid "personalMissions/pause/server_error"
+msgstr "임무가 일시 중지되지 않았습니다. 나중에 다시 시도해 주십시오."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "작업을 수행할 수 없습니다. 일시적으로 임무를 이용할 수 없습니다."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "현재 임무를 일시 중지할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "현재 임무를 일시 중지할 수 없습니다. 해당 유형 전차가 전투를 종료할 때까지 기다려 주십시오."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "%(quest)s 임무가 일시 중지되었습니다."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "%(quest)s 임무 진행이 재개되었습니다."
+
+msgid "personalMissions/pawn/server_error"
+msgstr "오류가 발생하여 현재 명령서를 사용할 수 없습니다."
+
+msgid "personalMissions/pawn/success"
+msgstr "%(questName)s 임무에 사용한 명령서: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "보상 수령 중 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "%(detail_name)s 부품을 장착했습니다."
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "보상을 요청할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "작업을 수행할 수 없습니다. 일시적으로 임무를 이용할 수 없습니다."
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "보상을 요청할 수 없습니다. 보상을 받을 수 없습니다."
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "보상을 요청할 수 없습니다. 보상을 받을 수 없습니다."
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "보상을 요청할 수 없습니다. 올바르지 않은 정보입니다."
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "보상을 요청할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "작업을 수행할 수 없습니다. 일시적으로 임무를 이용할 수 없습니다."
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "보상을 요청할 수 없습니다. 보상을 받을 수 없습니다."
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "보상을 요청할 수 없습니다. 보상을 받을 수 없습니다."
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "보상을 요청할 수 없습니다. 올바르지 않은 정보입니다."
+
+msgid "personalMissions/select/server_error"
+msgstr "%(questNames)s 임무 선택 실패! 나중에 다시 시도하십시오."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "작업을 수행할 수 없습니다. 일시적으로 임무를 이용할 수 없습니다."
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "%(questNames)s 임무 선택 실패! 나중에 다시 시도해 주십시오."
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "주의! 임무를 변경하려면 해당 임무가 활성화되어 있는 모든 전차가 차고로 복귀할 때까지 기다려야 합니다."
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "%(questNames)s 임무 선택 실패! 이전 단계 임무를 먼저 완료해야 합니다."
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "%(questNames)s 임무 선택 실패! 임무 슬롯이 부족합니다."
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "%(questNames)s 임무 선택 실패! 보상을 요청하십시오."
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "%(questNames)s 임무 선택 실패! 임무를 진행할 수 없습니다."
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "%(questNames)s 임무 선택 실패! 임무를 이미 완료했습니다."
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "%(questNames)s 임무 선택 실패!"
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "%(questNames)s 임무 선택 실패! 이미 선택한 임무입니다."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "%(questNames)s 임무 선택 실패! 올바르지 않은 정보입니다."
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "%(questNames)s 임무 선택 실패! 올바르지 않은 정보입니다."
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "임무를 선택할 수 없습니다. 전투가 종료될 때까지 기다리십시오."
+
+msgid "personalMissions/select/success"
+msgstr "임무를 선택했습니다. 현재 %(questNames)s 임무를 선택 중입니다."
+
+msgid "personalMissions/tankmenGain"
+msgstr "추가: 여성 승무원"
+
+msgid "personalMissions30/select/server_error"
+msgstr "작전 활성화 중 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "piggyBank/piggyBankFull"
+msgstr "크레딧 금고 최고치 도달, %(timeValue)s 후 개방 예정"
+
+msgid "piggybank/switch_off/body"
+msgstr "해당 기능은 현재 기술적인 문제로 이용할 수 없습니다.\n불편을 드려 죄송합니다."
+
+msgid "piggybank/switch_off/title"
+msgstr "일시적으로 크레딧 금고 이용 불가"
+
+msgid "piggybank/switch_on/body"
+msgstr "기술적 문제가 해결되었습니다. 불편을 드려 죄송합니다."
+
+msgid "piggybank/switch_on/title"
+msgstr "크레딧 금고 다시 이용 가능"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "해당 기능은 현재 기술적인 문제로 이용할 수 없습니다.\n불편을 드려 죄송합니다."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "구독 불가"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "기술적 문제가 해결되었습니다. 불편을 드려 죄송합니다."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "구독 가능"
+
+msgid "post_progression/server_error"
+msgstr "이미 승무원 합동 과정\n보상 지급 완료"
+
+msgid "post_progression/success"
+msgstr "일자: %(at)s\n보관소에 추가: %(book_name)s (x%(amount)s)\n합동 과정 경험치가 전환되었습니다."
+
+msgid "post_progression/success/title"
+msgstr "획득"
+
+msgid "prebattle/hasLockedState"
+msgstr "전투 대기 중이므로 초대를 수락할 수 없습니다. 전투 대기실을 나오거나 전투를 종료하고 다시 시도해 주십시오."
+
+msgid "prebattle/invites/sendInvite"
+msgstr "초대를 보냈습니다."
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "%(name)s 님을 초대했습니다."
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "오류 ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "오류 AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "오류 BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "오류 CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "지휘관이 팀을 떠났습니다."
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "팀이 해체되었습니다."
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "일시적으로 모드 이용 불가"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "추방되었습니다."
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "오류 PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "시간을 초과했습니다."
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "알 수 없는 오류"
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "오류 VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "소대에서 제외됐습니다."
+
+msgid "prebattle/kick/type/unknown"
+msgstr "팀에서 제외됐습니다."
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "해당 모드에 적합한 전차를 3대 이상 보유하고 있어야 합니다. 격전 정보 페이지에서 자세한 내용을 확인해 보십시오."
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "자동 검색"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "음성 대화 변경"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "편성 변경"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "모드 선택"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "하위 모드 변경"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "모드 선택"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "설정 변경"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "팀 편집"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "관전 모드 설정"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "슬롯 잠금"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "검색"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "팀에 초대"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "준비 확인"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "팀 준비 확인"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "전차 선택"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "팀 변경"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "검색"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "가장 적은 숫자로 구성된 팀만이 전투에 참여할 수 있습니다: %(minCount)d."
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "총 단계수가 %(minTotalLevel)d와 %(maxTotalLevel)d 사이인 팀만이 전투에 참여할 수 있습니다."
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "%(minLevel)d와 %(maxLevel)d 사이 단계의 전차만 참여할 수 있습니다."
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "참여할 수 있는 전차가 없습니다."
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "모든 팀원에게 관전을 허용하지 않습니다."
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "선택한 전차는 전선 대격돌 모드에서만 운용할 수 있는 전차입니다."
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "선택한 전차는 무한 결사전에서만 운용할 수 있는 전차입니다."
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "전차에 탑재한 소모품과 포탄이 전장 조건에 맞지 않습니다."
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "전차 단계가 전투 조건에 맞지 않습니다. 다음 유형의 전차만 사용하실 수 있습니다. 최소 %s단계~최대 %s단계"
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "전투 조건에 맞지 않는 유형의 전차입니다. 사용 가능 유형: %s"
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "전차에 장착한 장비가 전투 조건에 맞지 않습니다."
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "전차 단계가 전투 조건에 맞지 않습니다. 다음 단계의 전차만 사용하실 수 있습니다. 최소 %s단계~최대 %s단계"
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "해당 국가 전차로 현재 전투에 참가할 수 없습니다. 허용 국가: %s"
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "유효하지 않은 전차"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "전차에 탑재된 포탄이 전투 조건에 맞지 않습니다."
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "유효하지 않은 전차"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "선택한 전차가 전투 조건에 맞지 않습니다."
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "선택한 전차가 준비 완료 상태가 아닙니다."
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "작업을 수행할 수 없습니다. 전차를 먼저 선택하십시오."
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "팀에 참가할 수 없습니다."
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "유효하지 않은 전차"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "선택한 전차는 전투 중 해제됩니다."
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "팀에 맞는 상대를 찾을 수 없습니다. 팀을 다시 구성해 주십시오."
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "소대에 맞는 상대를 찾을 수 없습니다. 팀을 재구성해 주십시오."
+
+msgid "premium/buyingSuccess"
+msgstr "프리미엄 계정 %(period)d일을 구매했습니다. %(money)s 소모"
+
+msgid "premium/continueSuccess"
+msgstr "프리미엄 계정이 %(period)d일 연장되었습니다. %(money)s 소모"
+
+msgid "premium/not_enough_gold"
+msgstr "골드가 부족하여 프리미엄 계정 %(period)d일을 구매할 수 없습니다."
+
+msgid "premium/post_battle_premium"
+msgstr "프리미엄 계정을 구매하면 %(xpDiff)d 경험치와 %(creditDiff)d 크레딧을 획득합니다."
+
+msgid "premium/server_error"
+msgstr "프리미엄 계정 %(period)d일 결제 실패! 나중에 다시 시도하십시오."
+
+msgid "premium/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "작업을 수행할 수 없습니다. 현재 진행 중인 작업이 완료될 때까지 기다리십시오."
+
+msgid "premium_quests/switch_off/body"
+msgstr "해당 기능은 현재 기술적인 문제로 이용할 수 없습니다.\n불편을 드려 죄송합니다."
+
+msgid "premium_quests/switch_off/title"
+msgstr "프리미엄 임무 이용 불가"
+
+msgid "premium_quests/switch_on/body"
+msgstr "기술적 문제가 해결되었습니다. 불편을 드려 죄송합니다."
+
+msgid "premium_quests/switch_on/title"
+msgstr "프리미엄 임무 다시 이용 가능"
+
+msgid "progressiveReward/error"
+msgstr "현재 작업을 진행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "progressiveReward/switch_off"
+msgstr "공로 보상: 해당 기능을 일시적으로 이용할 수 없습니다. 불편을 드려 죄송합니다."
+
+msgid "progressiveReward/switch_on"
+msgstr "공로 보상 기능을 다시 이용할 수 있습니다."
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "임무를 진행할 수 없습니다. 세부 정보를 확인할 수 없습니다."
+
+msgid "queue/isInQueue"
+msgstr "현재 작업을 진행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "rally/leaveDisabled"
+msgstr "작업을 수행할 수 없습니다.\n모드를 종료할 수 없습니다. 전투 준비가 완료된 팀에 소속되어 있습니다."
+
+msgid "ranked/notification/available"
+msgstr "휴전 종료: 랭크 전투를 다시 이용할 수 있습니다."
+
+msgid "ranked/notification/available/title"
+msgstr "랭크 전투 이용 가능"
+
+msgid "ranked/notification/congratulations"
+msgstr "축하합니다!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "랭크 전투를 이용할 수 없습니다. 게임 포털에서 최신 소식을 확인하십시오."
+
+msgid "ranked/notification/notSet"
+msgstr "선택한 서버에서는 해당 모드를 이용할 수 없습니다."
+
+msgid "ranked/notification/notSet/title"
+msgstr "랭크 전투 이용 불가"
+
+msgid "ranked/notification/primeTime"
+msgstr "랭크 전투는 휴전이 끝날 때까지 이용할 수 없습니다."
+
+msgid "ranked/notification/primeTime/title"
+msgstr "휴전"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "랭크 전투 2020/2021 시즌에서 뛰어난 성적을 기록하여 상위 순위를 달성했습니다!"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "축하합니다!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "랭크 전투 2020/2021 시즌에서 뛰어난 성적을 기록하여 상위 %(playerPosition)s위를 달성했습니다!"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "축하합니다!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "증표 획득:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "증표 획득:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "크레딧 획득:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "전쟁 채권 획득:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "기념일 코인 획득:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "골드 획득:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "선택한 강화 장비 추가: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "스타일 획득:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "스타일 획득:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "랭크 토큰 획득: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "워게이밍 프리미엄 계정"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "워게이밍 프리미엄 계정 (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "월드 오브 탱크 프리미엄 계정"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "월드 오브 탱크 프리미엄 계정 (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "스테이지 %(number)s 결과"
+
+msgid "ranked/notifications/league"
+msgstr "리그: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "골드"
+
+msgid "ranked/notifications/league2"
+msgstr "실버"
+
+msgid "ranked/notifications/league3"
+msgstr "브론즈"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "골드 리그 랭크 토큰 획득: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "최고 랭크: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "순위: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "예선 완료"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "해당 시즌 랭크 토큰 획득: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "랭크 전투 결과, 시즌 %(seasonNumber)s"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "랭크 %(rankName)s (%(divisionName)s) 달성"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "스프린터 표식을 획득했습니다. 보상이 향상되었습니다."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "스프린터 표식 획득"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "승무원 충원 실패! 특별 승무원이 탑승하는 전차입니다."
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "승무원을 충원할 수 없습니다. 일시적으로 해당 기능을 이용할 수 없습니다."
+
+msgid "recruit_window/financial_success"
+msgstr "%(vehName)s 전차에 승무원을 충원했습니다. 크레딧 소모: %(credits)s"
+
+msgid "recruit_window/financial_success_credits"
+msgstr "%(vehName)s 전차에 승무원을 충원했습니다.\n크레딧 소모: %(price)s"
+
+msgid "recruit_window/financial_success_gold"
+msgstr "%(vehName)s 전차에 승무원을 충원했습니다.\n골드 소모: %(price)s"
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "하루에 무료로 충원할 수 있는 승무원 숫자를 초과했습니다."
+
+msgid "recruit_window/not_enough_credits"
+msgstr "승무원 충원 실패! 크레딧이 부족합니다."
+
+msgid "recruit_window/not_enough_gold"
+msgstr "승무원 충원 실패! 골드가 부족합니다."
+
+msgid "recruit_window/not_enough_space"
+msgstr "승무원 충원에 실패했습니다. 막사에 남는 침상이 없습니다. 불필요한 승무원을 해산하여 침상을 확보하거나 막사에 침상을 추가하십시오."
+
+msgid "recruit_window/server_error"
+msgstr "승무원을 충원할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "recruit_window/success"
+msgstr "무료로 %(vehName)s 전차에 승무원을 충원했습니다."
+
+msgid "recruit_window/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "승무원 재훈련 실패! 특별 승무원이 탑승하는 전차입니다."
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "승무원 교체 중 오류 발생! 올바르지 않은 전차입니다."
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "승무원을 막사로 보낼 수 없습니다. 막사에 침상이 부족합니다."
+
+msgid "reequip_tankman/server_error"
+msgstr "승무원을 교체할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "reequip_tankman/success"
+msgstr "승무원을 교체했습니다."
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "승무원 교체 중 오류 발생! 전차가 잠겨있습니다."
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "승무원 교체 중 오류 발생! 전차를 수리하십시오."
+
+msgid "remove_component"
+msgstr "%s \"%s\" 해체 완료!"
+
+msgid "remove_vehicle_broken"
+msgstr "%s \"%s\" 제거 불가! 전차가 손상되었습니다. 전차를 수리하고 다시 시도해 주십시오."
+
+msgid "remove_vehicle_locked"
+msgstr "%s \"%s\" 제거 불가! 전차가 잠금 상태입니다."
+
+msgid "repair/credits_error"
+msgstr "%s 크레딧이 부족하여 '%s' 전차를 수리할 수 없습니다."
+
+msgid "repair/server_error"
+msgstr "%s 수리 중 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "repair/success"
+msgstr "%s 수리 완료! %s 소모"
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "승무원 신상 정보 변경 실패! 특별 승무원이 탑승하는 전차입니다."
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "신상 정보 변경 중 오류 발생! 올바르지 않은 전차입니다."
+
+msgid "replace_tankman/not_enough_money"
+msgstr "신상 정보 변경 중 오류 발생! 크레딧이 부족합니다."
+
+msgid "replace_tankman/server_error"
+msgstr "신상 정보 변경 실패! 나중에 다시 시도하십시오."
+
+msgid "replace_tankman/success"
+msgstr "외관을 변경했습니다."
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "신상 정보 변경 중 오류 발생! 전차가 잠금 상태입니다."
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "신상 정보 변경 중 오류 발생! 전차를 수리하십시오."
+
+msgid "request/isInCoolDown"
+msgstr "%(coolDown)s초 동안 \"%(request)s\" 작업이 중단됩니다."
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "능력을 초기화할 수 없습니다.\n서버를 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "모든 승무원의 능력이 모두\n무료로 초기화되었습니다."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "자원 사용 중 오류가 발생했습니다. 다시 시도해 주십시오."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "자원 반환 중 오류가 발생하였습니다. 다시 시도해 주십시오."
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "복구할 수 있는 전차가 있습니다. 해당 전차를 복구하려면 상점으로 이동하십시오."
+
+msgid "restore_tankman/DISABLED"
+msgstr "승무원 복구 기능을 일시적으로 이용할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "승무원을 복구할 수 없습니다."
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "골드가 부족하여 승무원을 복구할 수 없습니다."
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "승무원을 복구할 수 없습니다. 복구 기간이 만료되었습니다."
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "승무원을 복구할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "승무원을 복구할 수 없습니다. 승무원 복구 기능을 일시적으로 이용할 수 없습니다."
+
+msgid "restore_tankman/error"
+msgstr "더는 %(tankman)s 승무원을 복구할 수 없습니다."
+
+msgid "restore_tankman/financial_success"
+msgstr "승무원을 복구했습니다.\n크레딧 소모: %(money)s"
+
+msgid "restore_tankman/not_enough_space"
+msgstr "승무원을 복구할 수 없습니다. 막사에 침상이 부족합니다."
+
+msgid "restore_tankman/server_error"
+msgstr "해당 승무원을 복구할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "restore_tankman/success"
+msgstr "승무원을 복구했습니다."
+
+msgid "retraining_change_tankman_role/success"
+msgstr "승무원 직책을 변경했습니다."
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "승무원 재훈련 실패! 특별 승무원이 탑승하는 전차입니다."
+
+msgid "retraining_crew/empty_list"
+msgstr "승무원 재훈련 중 오류 발생! 승무원을 선택하지 않았습니다."
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "크레딧 소모: %(money)s"
+
+msgid "retraining_crew/financial_success_free"
+msgstr "승무원을 무료로 %(vehName)s 전차에 재훈련했습니다."
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "골드 소모: %(money)s"
+
+msgid "retraining_crew/invalid_operation"
+msgstr "승무원 재훈련 중 오류 발생! 작업을 수행할 수 없습니다."
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "승무원 재훈련 중 오류 발생! 올바르지 않은 전차입니다."
+
+msgid "retraining_crew/server_error"
+msgstr "승무원을 재훈련할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "retraining_crew/success"
+msgstr "승무원을 %(vehName)s 전차에 재훈련했습니다."
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "승무원 재훈련 실패! 해당 전차가 잠겼습니다."
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "승무원 재훈련 실패! 전차를 수리하십시오."
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "승무원 재훈련 실패! 특별 승무원이 탑승하는 전차입니다."
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "크레딧 소모: %(money)s"
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "승무원을 무료로 %(vehName)s 전차에 재훈련했습니다."
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "골드 소모: %(money)s"
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "승무원 재훈련 중 오류 발생! 작업을 수행할 수 없습니다."
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "승무원 재훈련 중 오류 발생! 올바르지 않은 전차입니다."
+
+msgid "retraining_tankman/server_error"
+msgstr "승무원을 재훈련할 수 없습니다.\n나중에 다시 시도해 주십시오."
+
+msgid "retraining_tankman/success"
+msgstr "승무원을 %(vehName)s 전차에 재훈련했습니다."
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "승무원 재훈련 중 오류 발생! 전차가 잠금 상태입니다."
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "승무원 재훈련 중 오류 발생! 전차를 수리해 주십시오."
+
+msgid "return_crew/FORBIDDEN"
+msgstr "승무원 막사 복귀 실패! 특별 승무원이 탑승하는 전차입니다."
+
+msgid "return_crew/invalid_vehicle"
+msgstr "승무원 복귀 실패! 올바르지 않은 전차입니다."
+
+msgid "return_crew/not_enough_space"
+msgstr "승무원을 막사로 보낼 수 없습니다. 막사에 침상이 부족합니다."
+
+msgid "return_crew/return_unavailable"
+msgstr "전차에 복귀할 수 없는 승무원이 있습니다."
+
+msgid "return_crew/server_error"
+msgstr "승무원을 복귀시킬 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "return_crew/success"
+msgstr "승무원 전송이 완료되었습니다."
+
+msgid "return_crew/vehicle_locked"
+msgstr "승무원 복귀 중 오류 발생! 해당 전차가 잠겼습니다."
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "승무원 복귀 중 오류 발생! 전차를 수리하십시오."
+
+msgid "rotation/lock"
+msgstr "잠겨있으며 전투에 참여할 수 없는 그룹: %(groupNum)s."
+
+msgid "rotation/unlock"
+msgstr "잠김 해제되어 전투에 참여할 수 있는 그룹: %(groupNum)s."
+
+msgid "rotation/vehicleIsLocked"
+msgstr "해당 전차는 잠겨있으며 전투에 참여할 수 없습니다."
+
+msgid "royale/notification/congratulations"
+msgstr "축하합니다!"
+
+msgid "royale/notification/primeTime"
+msgstr "휴전 종료까지 배틀 로얄을 이용할 수 없습니다. 달력에서 일정을 확인해 주십시오."
+
+msgid "royale/notification/primeTime/title"
+msgstr "휴전"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "레벨 달성: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "해당 서버에서 전략 기술 전투에 다시 참여할 수 있습니다."
+
+msgid "rts/notification/available/title"
+msgstr "전투 참여 가능"
+
+msgid "rts/notification/notAvailable"
+msgstr "전략 기술 이벤트에 참여할 수 없습니다. 공식 포털에서 소식을 확인해 주십시오."
+
+msgid "rts/notification/notSet"
+msgstr "해당 서버에서 전략 기술 전투에 참여할 수 업습니다."
+
+msgid "rts/notification/notSet/title"
+msgstr "전투 참여 불가"
+
+msgid "rts/notification/primeTime"
+msgstr "휴전이 적용 중입니다. 일시적으로 전략 기술 전투에 참여할 수 없습니다."
+
+msgid "rts/notification/primeTime/title"
+msgstr "휴전"
+
+msgid "securityMessage/bad_email"
+msgstr "의심스러운 서버에 고객님의 이메일 주소가 등록되었습니다. 계정 보안 안정성을 높일수 있도록 고객님의 이메일 주소를 변경해 주십시오. %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "계정 설정 변경"
+
+msgid "securityMessage/no_phone"
+msgstr "계정 보안 안정성을 높일수 있도록 고객님의 계정에 휴대전화 번호를 추가해 주십시오. %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "비밀번호를 초기화하려면 계정 관리 메뉴에서 비밀번호 찾기 질문을 지정하십시오. %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "30일 동안 비밀번호를 변경하지 않으셨습니다. 계정 보안 안정성을 높일 수 있도록 비밀번호를 변경하십시오. %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "계정 가입 시 사용한 비밀번호가 보안에 취약합니다. 비밀번호를 변경하십시오. %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "%s 판매 불가! 전차가 손상되었습니다. 전차를 수리하고 다시 시도해 주십시오."
+
+msgid "sell_vehicle_locked"
+msgstr "%s 판매 불가! 전차가 잠금 상태입니다."
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "연차 보상 이벤트가 재개되었습니다. 불편을 드려 죄송합니다."
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "점검 중이므로 연차 보상 이벤트를 이용할 수 없습니다."
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "보상 획득 중 오류가 발생했습니다. 작업을 일시적으로 수행할 수 없습니다."
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "보상 획득 중 오류가 발생했습니다. 고객 지원에 문의해 주십시오."
+
+msgid "seniority_awards/selection_timeout"
+msgstr "연차 보상 지급이 지연되고 있습니다. 나중에 다시 시도해 주십시오."
+
+msgid "serverInstallError"
+msgstr "%s \"%s\" 장착 중 서버 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "serverRemoveError"
+msgstr "%s \"%s\" 제거 중 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "server_shut_down"
+msgstr "게임 서버를 재시작합니다"
+
+msgid "session_tracker_kick"
+msgstr "고객님의 Wargaming.net&nbsp;계정이 다른 게임에서 접속되었습니다. 현재 게임 세션을 중지합니다."
+
+msgid "shell_buy/invalid_module"
+msgstr "%(name)s 구매 실패! 올바르지 않은 포탄입니다."
+
+msgid "shell_buy/not_enough_credits"
+msgstr "%(name)s 구매 실패! 크레딧이 부족합니다."
+
+msgid "shell_buy/not_enough_gold"
+msgstr "%(name)s 구매 실패! 골드가 부족합니다."
+
+msgid "shell_buy/server_error"
+msgstr "%(name)s 구매 실패! 나중에 다시 시도하십시오."
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "%(name)s 포탄 구매 실패! 서버가 일시적으로 응답하지 않습니다."
+
+msgid "shell_buy/success"
+msgstr "%(name)s 포탄 %(count)s개를 구매했습니다. %(money)s 소모"
+
+msgid "shell_buy/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "shell_sell/invalid_module"
+msgstr "\"%(name)s\" 판매 실패! 올바르지 않은 포탄입니다."
+
+msgid "shell_sell/server_error"
+msgstr "\"%(name)s\" 판매 실패! 나중에 다시 시도하십시오."
+
+msgid "shell_sell/success"
+msgstr "\"%(name)s\" 포탄 (%(count)s개). 획득 %(money)s"
+
+msgid "shells_apply/error"
+msgstr "포탄 구성 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "shells_apply/not_enough_money"
+msgstr "포탄 구성 오류가 발생했습니다. 구매에 필요한 자금이 부족합니다."
+
+msgid "shells_apply/success_money_spent"
+msgstr "포탄 구매에 사용된 %(money)s"
+
+msgid "shells_apply/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "부품 구매 및 장착을 위한 요청을 보냈습니다. 서버 응답을 기다리고 있습니다."
+
+msgid "shop/item/buy_server_error"
+msgstr "\"%(userString)s\" %(typeString)s 구매 불가! 나중에 다시 시도하십시오."
+
+msgid "shop/item/buy_success"
+msgstr "\"%(userString)s\" %(typeString)s 부품을 %(count)d개 구매했습니다. %(price)s 소모"
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "현재 수행할 수 없습니다."
+
+msgid "shop/item/not_enough_money"
+msgstr "\"%(userString)s\" %(typeString)s 구매에 %(price)s 부족"
+
+msgid "shop/item/not_found"
+msgstr "상점에서 \"%(userString)s\" %(typeString)s 부품을 찾을 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "작업을 수행할 수 없습니다."
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "%(userString)s 구매에 %(price)s가 더 필요합니다."
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "%(userString)s 전차를 대여하려면 %(price)s만큼 더 필요합니다."
+
+msgid "shop/vehicle/not_found"
+msgstr "상점에서 %(userString)s 전차를 찾을 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "shop_resync"
+msgstr "서버 변경으로 %(date)s %(time)s에 인터페이스가 업데이트되었습니다."
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) 지휘명령이 <font color='#E9E2BF'>\"{newName}\"</font> ({amount}) 지휘명령으로 전환"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "일자: %(date)s\n지휘명령 전환 완료: %(items)s"
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "획득"
+
+msgid "squad/createError"
+msgstr "프리미엄 계정 사용자만이 소대를 만들 수 있습니다."
+
+msgid "squad/kickedFromQueue"
+msgstr "소대에 맞는 상대를 찾을 수 없습니다. 팀을 재구성해 주십시오."
+
+msgid "squad/leaveDisabled"
+msgstr "작업을 수행할 수 없습니다.\n소대 소속으로 전투 준비를 완료하여 소대를 떠날 수 없습니다."
+
+msgid "squad/memberJoined"
+msgstr "%s 님이 전투에 참가했습니다."
+
+msgid "squad/memberLeave"
+msgstr "%s 님이 팀에서 나갔습니다."
+
+msgid "squad/memberNotReady"
+msgstr "%s 님이 준비 상태가 아닙니다."
+
+msgid "squad/memberOffline"
+msgstr "%s 님과의 연결이 끊겼습니다."
+
+msgid "squad/memberReady"
+msgstr "%s 님이 준비 완료했습니다."
+
+msgid "squad/notSetReadyStatus"
+msgstr "소대로는 전투에 참여할 수 없습니다."
+
+msgid "squad/notValidDeleted"
+msgstr "소대장 전차 단계와 일치하지 않아 %(vehName)s 전차를 소대에서 제외합니다. 단계가 같은 전차를 선택하십시오."
+
+msgid "squad/notValidDeletedFilter"
+msgstr "소대장이 조건을 변경하여 %(vehName)s 전차가 소대에서 제외되었습니다."
+
+msgid "squad/notValidEnqueueData"
+msgstr "소대장이 조건을 변경하여 소대에서 제외되었거나 전차가 조건과 일치하지 않아 소대에 참여할 수 없습니다. 다른 전차를 선택해 주십시오."
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "소대당 특정 전차 수 제한으로 인해 %(vehName)s 전차가 소대에서 제외되었습니다. 다른 전차를 선택하십시오."
+
+msgid "squad_bonus/switch_off/body"
+msgstr "해당 기능은 현재 기술적인 문제로 이용할 수 없습니다.\n불편을 드려 죄송합니다."
+
+msgid "squad_bonus/switch_off/title"
+msgstr "소대 보너스 이용 불가"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "기술적 문제가 해결되었습니다. 불편을 드려 죄송합니다."
+
+msgid "squad_bonus/switch_on/title"
+msgstr "소대 보너스 다시 이용 가능"
+
+msgid "ssr/unavailable"
+msgstr "다시 보기 다운로드 불가"
+
+msgid "steam_login_not_allowed"
+msgstr "해당 응용프로그램을 사용하여 플레이 불가: Steam 계정이 이미 Wargaming.net 계정과 연동되어 있습니다. 자세한 내용은 고객 지원을 통해 확인할 수 있습니다."
+
+msgid "tankman/tankmanToRemove"
+msgstr "승무원이 퇴역 처리되었습니다."
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s일"
+
+msgid "techtree/action/header"
+msgstr "\"%(actionName)s\" 이벤트"
+
+msgid "techtree/action/text"
+msgstr "이벤트 종료까지 "
+
+msgid "techtree/action/text/closest"
+msgstr "이벤트 종료까지: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "사유: Prime Gaming 가입자 전용 전차입니다. Prime Gaming 가입 상태를 확인해 주십시오."
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "사용할 수 없는 전차"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "일자:%(datetime)s\n전차 추가:%(vehicles)s\n추가: 차고 슬롯 1개, %(crew)s 3D 스타일"
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "일자: %(datetime)s\n전차 추가: %(vehicles)s\n추가: 차고 슬롯 1개,%(crew)s 특별 위장"
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " 100%% 숙련도 승무원%(skills)s,"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "전차 추가"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "일자: %(datetime)s\n제거: %(vehicles)s, 차고 슬롯 1개"
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "사유: Prime Gaming 가입자 전용 전차입니다. Prime Gaming 가입 상태를 확인해 주십시오."
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "전차 삭제 완료"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "해당 전차 다시 이용 가능"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "T-44-100 Igrovoy 전차가 추가되었습니다. 제거: %(tanks)s"
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "T-44-100 Igrovoy로 임무를 완료할 수 있습니다."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " 및 "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s크레딧"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "%(tanks)s 전차의 모든 승무원이 T-44-100 Igrovoy 전차 승무원으로 재훈련되었습니다."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "장비를 해체하여 보관소로 보냈습니다.\n전차 꾸미기 요소를 보관소로 보냈습니다.\n포탄 및 지휘명령을 보관소로 보냈습니다."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "무장, 전차 꾸미기 요소, 일반 경험치, 전적, 업적이 %(mergedTank)s에서 T-44-100 Igrovoy로 이전되었습니다."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s 자유 경험치"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "야전 개량 경험치 보상: %(compensation)s 추가"
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "구매한 진행 데칼 보상: %(value)s골드 추가"
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "%(mergedTank)s의 게임 전적 및 업적이 T-44-100 Igrovoy로 이전되었습니다."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "일반 경험치가 합산되어 T-44-100 Igrovoy로 이전되었습니다."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "전장에서 행운을 빕니다!"
+
+msgid "telecomMergeResults/title"
+msgstr "\"Igrovoy\" 요금제 변경 사항"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "전차 선택 및 대여가 보류 상태입니다."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "전차 대여 불가"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "전차 대여 가능"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "축하합니다! %(count)s토큰을 획득했습니다."
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "골드 이체에 실패하였습니다. 수령인 측이 수령를 거부하였습니다."
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "골드 이체가 불가능합니다."
+
+msgid "tradingError/NO_WARES"
+msgstr "골드 이체를 할 수 없습니다. 골드가 부족합니다."
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "한도에 도달했습니다. 내일 다시 시도하십시오."
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "골드 이체에 실패하였습니다. 나중에 다시 시도하십시오."
+
+msgid "training/error/AddPlayer"
+msgstr "연습 전투 오류입니다. 팀의 최대 구성원 수를 초과했습니다."
+
+msgid "training/error/doAction"
+msgstr "연습 전투 오류입니다. 나중에 다시 시도하십시오."
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "연습 전투 오류입니다. 격전 모드 팀 최대 구성원 수는 %(numPlayers)s명입니다."
+
+msgid "training/error/selectObserver"
+msgstr "연습 전투 오류입니다. 팀의 최대 구성원 수는 %(numPlayers)s명입니다."
+
+msgid "training/error/swapTeams"
+msgstr "팀을 전환하는 중 서버에서 오류가 발생하였습니다. 나중에 다시 시도하십시오."
+
+msgid "transferXP/server_error"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "작업을 수행할 수 없습니다. 권한이 부족합니다."
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "작업을 수행할 수 없습니다. 소속 클랜이 없습니다."
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "오류: 선택한 전차를 운용 가능 상태로 복구할 수 없습니다."
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "오류: 전차를 운용 가능 상태로 복구하는 데 필요한 수리 부품이 부족합니다."
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "오류: 선택한 전차의 복구 비용이 변경되었습니다."
+
+msgid "unit/error/wgshEvent/common"
+msgstr "오류: 작업을 완료할 수 없습니다."
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "소대 참여 오류: 해당 게임 모드 이용이 차단된 상태입니다."
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "작업을 수행할 수 없습니다. 계정이 복구되었습니다."
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "해당 플레이어는 팀에 참가할 수 없습니다."
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "작업을 수행할 수 없습니다. 슬롯을 차지하고 있습니다."
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "플레이어가 이미 팀에 참가한 상태입니다."
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "지휘 권한 이전 불가"
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 계정 유형입니다."
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 클랜입니다."
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "팀에 참가할 수 없습니다."
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "전차 단계 총합 제한을 초과했습니다."
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "작업을 수행할 수 없습니다. 올바르지 않은 원정군 목록입니다."
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "올바르지 않은 슬롯 번호"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "작업을 수행할 수 없습니다. 소대로 전투에 참여할 수 없는 전차 유형입니다."
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "팀 참가 중 오류 발생! 잘못된 전차 단계입니다."
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "제한 시간에는 편성을 변경할 수 없습니다."
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "팀을 찾을 수 없습니다."
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "초대를 보낼 수 없습니다."
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "소대 참여 오류: 사전 평가를 완료하기 전까지 소대로 전투에 참여할 수 없습니다."
+
+msgid "unit/errors/COOLDOWN"
+msgstr "작업을 일시적으로 진행할 수 없습니다."
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "팀과 관련된 최근 작업을 완료하지 못했습니다."
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "전차가 전투 준비가 되지 않았거나 차고에 전차가 없습니다."
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "슬롯에 전차를 배정할 수 없습니다."
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "작업을 수행할 수 없습니다. 일부 원정군 구성원이 아직 전투 중입니다."
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "해당 작업에 대한 권한이 없습니다."
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "계정이 잠겼습니다."
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "팀이 대기열에 등록되었거나 검색 결과에 있는 상태입니다."
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "팀에 참가할 수 없습니다. 허가가 거절되었습니다."
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "팀이 대기열에 등록되지 않았습니다."
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "팀이 검색 결과에 없습니다."
+
+msgid "unit/errors/NOT_READY"
+msgstr "팀이 준비되지 않았습니다."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "소대 참여 오류: 선택한 게임 모드에 적합한 전차가 없습니다."
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "팀에 플레이어를 추가할 수 없습니다."
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "작업을 수행할 수 없습니다. 플레이어를 찾을 수 없습니다."
+
+msgid "unit/errors/NO_UNIT"
+msgstr "팀을 찾을 수 없습니다."
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "팀이 없습니다."
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "작업을 수행할 수 없습니다. 전차 목록에 오류가 발생했습니다."
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "작업을 수행할 수 없습니다. 플레이어가 오프라인입니다."
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "팀장의 차단 목록에 이름이 추가되었습니다."
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "작업을 수행할 수 없습니다. 아직 전투 진행 중입니다."
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "팀에서 해당 플레이어를 제외시킬 수 없습니다."
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "작업을 수행할 수 없습니다. 초대를 수락하지 않은 플레이어가 있습니다."
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "용병은 해당 작업을 수행할 수 없습니다."
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "작업을 수행할 수 없습니다. 슬롯이 잠겨있지 않습니다."
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "작업을 수행할 수 없습니다. 슬롯을 차지하고 있습니다."
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "사용할 수 없는 슬롯입니다."
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "제한 시간에는 쟁탈전을 진행할 수 없습니다."
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "다른 모드로 전환할 수 없습니다. 소대 인원 제한을 초과했습니다."
+
+msgid "unit/errors/TIMEOUT"
+msgstr "작업을 수행할 수 없습니다. 시간이 만료되었습니다."
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "작업을 수행할 수 없습니다. 슬롯이 모두 잠겼습니다."
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "작업을 수행할 수 없습니다. 용병 수 한도를 초과했습니다."
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "팀을 구성하거나 참여할 수 없습니다."
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "팀을 구성할 수 없습니다."
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "작업을 수행할 수 없습니다. 원정군이 복구되었습니다."
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "작업을 수행할 수 없습니다. 전차 조건이 일치하지 않습니다."
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "작업을 수행할 수 없습니다. 전차를 먼저 선택하십시오."
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "팀이 없습니다."
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "작업을 수행할 수 없습니다. 전차가 준비되지 않았거나 조건을 만족하지 않습니다."
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "전시 물자 관리 권한이 부여되었습니다."
+
+msgid "unit/notification/changeDivision"
+msgstr "지휘관 %(name)s 님이 %(division)s 편성을 선택했습니다."
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "무제한"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "챔피언"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "미디움"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s 님이 지휘관이 되었습니다."
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s 님이 참가했습니다."
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s 님이 %(tierRange)s단계 전차 전투 소대에 참여했습니다."
+
+msgid "unit/notification/playerOffline"
+msgstr "%(userName)s 님과의 연결이 끊겼습니다."
+
+msgid "unit/notification/playerOnline"
+msgstr "%(userName)s 님과의 연결이 복원되었습니다."
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s 님이 원정군을 탈퇴했습니다."
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "이미 초대를 보냈습니다."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "지휘관 권한이 다른 플레이어로 이전되었습니다."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "지휘관 권한 및 전시 물자 관리 권한이 다른 플레이어로 이전되었습니다."
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "전시 물자 관리 권한이 다른 플레이어로 이전되었습니다."
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "원정군이 해산하여 제외되었습니다."
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "원정군에서 제외되었습니다. 클랜이 변경되었습니다."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "허용된 접속 시간이 초과되어 새로운 전투에 참가할 수 없습니다. %(expiredTime)s에 서버로부터 접속이 끊깁니다."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "한 플레이어에게 허용된 접속 시간이 부족하여 전투에 참여할 수 없습니다. 소대는 현재 준비 상태입니다."
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "용병 모집이 중단되었습니다."
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "작업을 수행할 수 없습니다. 대기 시간을 초과했습니다."
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "팀 참여 오류: 팀에서 제외되었습니다."
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "대기 명단에서 자동으로 제외되었습니다."
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "팀에서 제외되었습니다."
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "원정군이 해산하여 제외되었습니다."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "원정군 지휘관이 되었습니다."
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "원정군 지휘관이 되었습니다.\n전시 물자 관리 권한을 획득했습니다."
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "원정을 진행할 다른 교두보를 선택했습니다."
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "다른 전투 유형을 선택했습니다."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "일시적으로 검색 불가: 서버에 소대가 너무 많습니다."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "서버 오류로 인해 플레이어를 검색할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "검색 취소: 선택한 게임 모드에 적합한 전차를 보유하지 않은 소대원이 존재합니다."
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "검색 시간이 초과되었습니다. 필요 플레이어를 찾을 수 없습니다."
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "플레이어 참가가 진행 중입니다. 잠시 기다려 주십시오."
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "운용 가능 상태로 복구: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "팀 참여 준비가 되었는지 확인할 수 없습니다."
+
+msgid "unload/button"
+msgstr "막사로 이동"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "승무원 막사 이동 실패!. 특별 승무원이 탑승하는 전차입니다."
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "승무원을 막사로 보내는 중 오류 발생! 올바르지 않은 전차입니다."
+
+msgid "unload_crew/server_error"
+msgstr "승무원을 막사로 보낼 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "unload_crew/success"
+msgstr "승무원을 막사로 보냈습니다."
+
+msgid "unload_crew/vehicle_locked"
+msgstr "승무원을 막사로 보내는 중 오류 발생! 전차가 잠겨있습니다."
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "승무원을 막사로 보내는 중 오류 발생! 전차를 수리하십시오."
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "승무원 막사 이동 실패!. 특별 승무원이 탑승하는 전차입니다."
+
+msgid "unload_tankman/button"
+msgstr "막사로 이동"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "승무원을 막사로 보내는 중 오류 발생! 올바르지 않은 전차입니다."
+
+msgid "unload_tankman/not_enough_space"
+msgstr "해당 승무원을 막사로 보낼 수 없습니다. 막사에 침상이 부족합니다."
+
+msgid "unload_tankman/server_error"
+msgstr "승무원을 막사에 보낼 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "unload_tankman/success"
+msgstr "승무원을 막사로 보냈습니다."
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "승무원을 막사로 보내는 중 오류 발생! 전차를 수리하십시오."
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "승무원을 막사로 보내는 중 오류 발생! 전차를 수리하십시오."
+
+msgid "unlocks/drawFailed"
+msgstr "설정이 잘못되어 연구소를 표시할 수 없습니다."
+
+msgid "unlocks/item/already_unlocked"
+msgstr "\"%(userString)s\" %(typeString)s 연구 완료!"
+
+msgid "unlocks/item/in_processing"
+msgstr "연구 요구를 발송했습니다. 서버 응답을 기다리고 있습니다."
+
+msgid "unlocks/item/server_error"
+msgstr "\"%(userString)s\" %(typeString)s 부품 연구 중 서버 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "unlocks/item/unlock_success"
+msgstr "\"%(userString)s\" %(typeString)s 부품 연구 완료! 해당 전차 경험치 소모: %(vehXP)s / 자유 경험치 소모: %(freeXP)s"
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "%(userString)s 연구 완료"
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "연구 요구를 발송했습니다. 서버 응답을 기다리고 있습니다."
+
+msgid "unlocks/vehicle/server_error"
+msgstr "전차 %(userString)s 연구 중 오류가 발생하였습니다. 나중에 다시 시도하십시오."
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "전차 %(userString)s 연구가 완료되었습니다. 전차 경험치: %(vehXP)s / 자유 경험치: %(freeXP)s"
+
+msgid "upgradeTankman/server_error"
+msgstr "승무원 훈련 중 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "upgradeTankman/success"
+msgstr "훈련이 성공적으로 완료되었습니다."
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "기술적인 문제로 포상 장비 강화 기능을 이용할수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "포상 장비 강화 기능을 다시 이용할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "vehicle/restore/finished"
+msgstr "%(vehicleName)s 전차를 복구할 수 없습니다. 복구 기간이 만료되었습니다."
+
+msgid "vehicle/restoreDuration/days"
+msgstr "상점에서 %(time)s일 안에 전차를 복구할 수 있습니다."
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "상점에서 %(time)s시간 안에 전차를 복구할 수 있습니다."
+
+msgid "vehicleCompare/disabled"
+msgstr "일시적으로 작업을 진행할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "%(vehicle)s 미리 보기는 정식 버전을 다운로드한 후에만 진행할 수 있습니다."
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "부품 장착을 위한 요청을 보냈습니다. 서버 응답을 기다리고 있습니다."
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "\"%(userString)s\" %(typeString)s 구매 불가! 나중에 다시 시도하십시오."
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "\"%(userString)s\" %(typeString)s 부품을 %(count)d개 구매했습니다. %(price)s 소모"
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "보관소에 \"%(userString)s\" %(typeString)s 부품을 이미 보유 중입니다."
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "\"%(userString)s\" %(typeString)s 연구 완료!"
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "\"%(userString)s\" %(typeString)s 구매에 %(price)s 부족"
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "보관소에서 \"%(userString)s\" %(typeString)s 부품을 찾을 수 없습니다."
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "상점에서 \"%(userString)s\" %(typeString)s 부품을 찾을 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "\"%(userString)s\" %(typeString)s 연구 완료! 해당 전차 경험치 소모: %(unspentXP)s / 자유 경험치 소모: %(freeXP)s"
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "연구 요구를 발송했습니다. 서버 응답을 기다리고 있습니다."
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "%(userString)s 전차를 이미 소지 중입니다."
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "%(userString)s 연구 완료"
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "%(userString)s 구매에 %(price)s가 더 필요합니다."
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "보관소에서 %(userString)s 전차를 찾을 수 없습니다."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "상점에서 %(userString)s 전차를 찾을 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "%(userString)s을 연구했습니다. 해당 전차 경험치 소모량: %(unspentXP)s / 자유 경험치 소모량: %(freeXP)s."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "이제 %(vehicle)s 정예 보상 시스템을 이용할 수 있습니다."
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "정예 보상"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "%(vehicle)s %(modification)s 개량 구매가 완료되었습니다."
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "개량 구매"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "%(vehicle)s 두 번째 슬롯에 %(category)s 범주가 지정되었습니다."
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "슬롯 범주 지정"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "크레딧 소모: %(value)s"
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "%(vehicle)s 집중 개량이 모두 제거되었습니다."
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "%(vehicle)s %(modification)s 개량이 제거되었습니다."
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "개량 제거"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "%(vehicle)s %(modifications)s 개량이 제거되었습니다."
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "일반 경험치 소모: %(value)s"
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "자유 경험치 소모: %(value)s"
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "개량 계통도 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "오류"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "%(vehicle)s 일반 개량 레벨 %(level)s 연구 및 구매가 완료되었습니다."
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "%(vehicle)s 일반 개량 레벨 %(levels)s 연구 및 구매가 완료되었습니다."
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "개량 연구 완료"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "%(vehicle)s 두 번째 슬롯에 %(category)s 범주가 지정되었습니다."
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "슬롯 범주 지정"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "이제 %(vehicle)s 보조 보급품을 이용할 수 있습니다."
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "보조 보급품"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "이제 %(vehicle)s 두 번째 슬롯 범주를 지정할 수 있습니다."
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "슬롯 범주 지정 가능"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "이제 %(vehicle)s 핵심 보급품을 이용할 수 있습니다."
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "핵심 보급품"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "이제 %(vehicle)s 개량 계통도를 이용할 수 있습니다."
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "야전 개량"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "전차 개량 계통도를 이용할 수 있습니다. 역할에 따라 전차를 구성하고 다양한 개량 요소를 사용하여 성능을 조정할 수 있습니다."
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "강화 오류가 발생했습니다. 나중에 다시 시도해 주십시오."
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "오류"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "%(vehicle)s \"%(perk)s\" 노드를 연구했습니다."
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "노드 연구 완료"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "%(vehicle)s 노드 %(perk)s개를 연구했습니다."
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "노드 연구 완료"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "작업을 수행할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "%(vehName)s 구매 실패! 올바르지 않은 전차입니다."
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "%(vehName)s 구매 실패! 크레딧이 부족합니다."
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "%(vehName)s 구매 실패! 골드가 부족합니다."
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "수행 불가! 해당 국가 전차를 연구하지 않았습니다."
+
+msgid "vehicle_buy/server_error"
+msgstr "%(vehName)s 구매 실패! 서버 오류가 발생했습니다. 나중에 다시 시도하십시오."
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "%(vehName)s 구매 실패! 서버가 일시적으로 응답하지 않습니다."
+
+msgid "vehicle_buy/success"
+msgstr "%(vehName)s 구매 완료! %(price)s 소모"
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "%(vehName)s 제거 불가! 나중에 다시 시도하십시오."
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "%(vehName)s 제거 불가! 올바르지 않은 전차입니다."
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "%(vehName)s 제거 불가! 크레딧이 부족합니다."
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "%(vehName)s 제거 불가! 골드가 부족합니다."
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "%(vehName)s 제거 불가! 막사에 침상이 부족합니다."
+
+msgid "vehicle_remove/server_error"
+msgstr "%(vehName)s 판매 불가! 해당 전차가 전투에 참여 중인지 확인한 후에 다시 시도하십시오."
+
+msgid "vehicle_remove/success/default"
+msgstr "%(vehName)s 전차를 제거했습니다.\n%(money)s"
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "%(vehName)s 전차를 제거했습니다."
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "%(vehName)s 전차를 제거했습니다.\n%(gainMoney)s\n%(spendMoney)s"
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "%(vehName)s 제거 불가! 해당 전차는 자동으로 제거됩니다."
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "%(vehName)s 제거 불가! 잠긴 전차입니다."
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "%(vehName)s 제거 불가! 전차를 먼저 수리하십시오."
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "%(vehName)s 제거 불가! 하루 전차 판매 제한에 도달했습니다."
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "vehicle_rent/buyOption"
+msgstr "주의! 해당 전차는 추후 할인될 예정이므로 나중에 구매하는 것이 좋습니다."
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "%(vehName)s 대여 불가! 올바르지 않은 전차입니다."
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "%(vehName)s 대여 불가! 크레딧이 부족합니다."
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "%(vehName)s 대여 불가! 골드가 부족합니다."
+
+msgid "vehicle_rent/server_error"
+msgstr "%(vehName)s 대여 불가! 서버 오류가 발생했습니다. 나중에 다시 시도하십시오."
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "%(vehName)s 대여 불가! 일시적으로 대여 기능을 이용할 수 없습니다."
+
+msgid "vehicle_rent/success"
+msgstr "%(vehName)s %(rentPackageName)s 대여 완료! %(price)s 소모. %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "%(days)d일"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "vehicle_repair/credits_error"
+msgstr "%(vehName)s 전차를 수리하려면 %(needed)s 크레딧이 필요합니다."
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "%(vehName)s 전차를 수리하려면 %(needed)s 크레딧이 필요합니다."
+
+msgid "vehicle_repair/server_error"
+msgstr "%(vehName)s 수리 중 오류 발생! 나중에 다시 시도하십시오."
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)s 수리 완료! %(money)s 소모"
+
+msgid "vehicle_restore/DISABLED"
+msgstr "전차 복구를 일시적으로 이용할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "%(vehName)s 복구 불가! 전차 복구를 일시적으로 이용할 수 없습니다."
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "%(vehName)s 복구 불가! 올바르지 않은 전차입니다."
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "%(vehName)s 복구 불가! 크레딧이 부족합니다."
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "%(vehName)s 복구 불가! 골드가 부족합니다."
+
+msgid "vehicle_restore/server_error"
+msgstr "%(vehName)s 복구 불가! 서버 오류가 발생했습니다. 나중에 다시 시도하십시오."
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "%(vehName)s 복구 불가! 전차 복구를 일시적으로 이용할 수 없습니다."
+
+msgid "vehicle_restore/success"
+msgstr "%(vehName)s 복구 완료! %(price)s 사용"
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "장비 해체 도구 사용 (%(countDK)s개)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "%(vehName)s 판매 불가! 나중에 다시 시도하십시오."
+
+msgid "vehicle_sell/disabledService"
+msgstr "%(vehName)s 판매 불가! 나중에 다시 시도하십시오."
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "%(vehName)s 전차를 판매할 수 없습니다. 장비 해체에 필요한 부속품이 부족합니다."
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "%(vehName)s 판매 불가! 올바르지 않은 전차입니다."
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "%(vehName)s 판매 불가! 크레딧이 부족합니다."
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "%(vehName)s 판매 불가! 골드가 부족합니다."
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "%(vehName)s 판매 불가! 막사에 침상이 부족합니다."
+
+msgid "vehicle_sell/server_error"
+msgstr "%(vehName)s 판매 불가! 해당 전차가 전투에 참여 중인지 확인한 후에 다시 시도하십시오."
+
+msgid "vehicle_sell/success"
+msgstr "%(vehName)s 전차를 판매했습니다.\n%(money)s\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "%(vehName)s 전차를 판매했습니다.\n%(gainMoney)s\n%(spendMoney)s\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "%(vehName)s 판매 불가! 해당 전차는 이벤트 종료 후 자동으로 삭제됩니다."
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "%(vehName)s 판매 불가! 전차가 잠금 상태입니다."
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "%(vehName)s 판매 불가! 전차를 수리하십시오."
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "%(vehName)s 판매 불가! 하루 전차 판매 제한에 도달했습니다."
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "차고 슬롯을 구매하지 못했습니다. 크레딧이 부족합니다."
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "차고 슬롯을 구매하지 못했습니다. 골드가 부족합니다."
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "차고 슬롯을 구매하지 못했습니다. 나중에 다시 시도해 주시기 바랍니다."
+
+msgid "vehicle_slot_buy/success"
+msgstr "차고 추가 슬롯 구매! %(money)s 소모"
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "%(vehName)s 승무원 급속 훈련 실패! 올바르지 않은 전차입니다."
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "%(vehName)s 전차의 승무원 급속 훈련을 변경할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "%(vehName)s 승무원 급속 훈련을 비활성화했습니다."
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "%(vehName)s 승무원 급속 훈련을 활성화했습니다."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "%(vehName)s 승무원 급속 훈련 실패! 전차가 잠금 상태입니다."
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "%(vehName)s 승무원 급속 훈련 실패! 전차를 수리하십시오."
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "%(vehName)s 전차 보상 판매에 실패했습니다. 올바르지 않은 전차를 선택했습니다."
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "%(vehName)s 보상 판매 불가! 크레딧이 부족합니다."
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "%(vehName)s 보상 판매 불가! 골드가 부족합니다."
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "%(tradeOffVehName)s 보상 판매 불가! 막사에 침상이 부족합니다."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "보상 판매 상품 이용 가능!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "보상 판매 상품 이용 불가!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "%(vehName)s 전차 보상 판매에 실패했습니다. 서버 오류가 발생했습니다. 나중에 다시 시도하십시오."
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "%(vehName)s 전차 보상 판매에 실패했습니다. 구매 및 보상 판매 기능을 일시적으로 이용할 수 없습니다."
+
+msgid "vehicle_trade_in/success"
+msgstr "%(tradeOffVehName)s 전차가 제거되고 %(price)s 골드를 사용하여 %(vehName)s 전차를 구매했습니다."
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "%(tradeOffVehName)s 전차 보상 판매에 실패했습니다. 해당 전차는 자동으로 제거됩니다."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "%(vehName)s 전차 보상 판매에 실패했습니다. 해당 전차는 보상 판매가 불가능합니다."
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "%(tradeOffVehName)s 보상 판매 불가! 해당 전차는 보상 판매가 불가능합니다."
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "%(tradeOffVehName)s 보상 판매 불가! 이용할 수 없는 전차입니다."
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "%(tradeOffVehName)s 보상 판매 불가! 전차를 수리하십시오."
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "%(tradeOffVehName)s 보상 판매 불가! 보관소에 없는 전차입니다."
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "작업을 수행할 수 없습니다. 잠시 후 계정 통합 계좌가 복구되는대로 다시 골드를 사용하실 수 있습니다."
+
+msgid "video/error"
+msgstr "비디오 재생 오류. 오류 코드: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "미니맵 전투 구역을 일시적으로 이용할 수 없습니다."
+
+msgid "w2gt/switchOff/header"
+msgstr "기술적인 문제"
+
+msgid "w2gt/switchOn/description"
+msgstr "다시 미니맵 전투 구역을 이용할 수 있습니다. 계속 전투를 이어가십시오!"
+
+msgid "w2gt/switchOn/header"
+msgstr "기능 복구"
+
+msgid "wallet/available"
+msgstr "계정 통합 계좌 동기화가 완료되었습니다. 골드, 전쟁 채권, 크레딧, 자유 경험치를 사용할 수 있습니다."
+
+msgid "wallet/available_freexp"
+msgstr "계정 통합 계좌 동기화가 완료되었습니다. 자유 경험치를 사용하실 수 있습니다."
+
+msgid "wallet/available_gold"
+msgstr "계정 통합 계좌 동기화가 완료되었습니다. 골드를 사용하실 수 있습니다."
+
+msgid "wallet/not_available"
+msgstr "계정 통합 계좌 동기화가 진행 중입니다. 곧 골드, 전쟁 채권, 크레딧, 자유 경험치를 사용할 수 있습니다."
+
+msgid "wallet/not_available_freexp"
+msgstr "계정 통합 계좌 동기화가 진행 중입니다. 곧 자유 경험치를 사용하실 수 있습니다."
+
+msgid "wallet/not_available_gold"
+msgstr "계정 통합 계좌 동기화가 진행 중입니다. 곧 골드를 사용하실 수 있습니다."
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "주간 임무 변경 불가: 기능 비활성화 상태입니다."
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "주간 임무 변경 불가: 임무가 유효하지 않습니다."
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "주간 임무 변경 불가: 이미 완료한 임무입니다."
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "주간 임무 변경 불가: 재사용 대기 중입니다."
+
+msgid "weekly_quests/reroll/success"
+msgstr "주간 임무를 변경했습니다."
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "주간 임무를 변경할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "weekly_quests/switch_off/body"
+msgstr "일시적으로 주간 임무를 이용할 수 없습니다. 불편을 드려 죄송합니다."
+
+msgid "weekly_quests/switch_on/body"
+msgstr "주간 임무를 다시 이용할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "winback/turnOffBattlesError"
+msgstr "준비 운동을 종료할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "window/buttons/close"
+msgstr "닫기"
+
+msgid "wrong_slot"
+msgstr "%s \"%s\" %s 슬롯에 호환 불가"

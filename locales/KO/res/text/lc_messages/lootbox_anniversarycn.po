@@ -1,0 +1,71 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "boxTooltip/description/text/bronze"
+msgstr "해당 상자를 개봉하면 전차, 게임 내 통화 등 값진 보상을 획득할 수 있습니다."
+
+msgid "boxTooltip/description/text/gold"
+msgstr "해당 상자를 개봉하면 전차, 게임 내 통화, 전차 꾸미기 요소 등 값진 보상을 획득할 수 있습니다."
+
+msgid "boxTooltip/description/text/silver"
+msgstr "해당 상자를 개봉하면 전차, 게임 내 통화, 전차 꾸미기 요소 등 값진 보상을 획득할 수 있습니다."
+
+msgid "boxTooltip/howGet/text/bronze"
+msgstr "게임 내 상점에서 획득하거나 다른 종류의 상자 개봉 시 획득할 수 있습니다."
+
+msgid "boxTooltip/howGet/text/gold"
+msgstr "다른 종류의 상자 개봉 시 획득할 수 있습니다."
+
+msgid "boxTooltip/howGet/text/silver"
+msgstr "다른 종류의 상자 개봉 시 획득할 수 있습니다."
+
+msgid "common/boxCategory/lowerCase/bronze"
+msgstr "풍요의 상자"
+
+msgid "common/boxCategory/lowerCase/gold"
+msgstr "은총의 상자"
+
+msgid "common/boxCategory/lowerCase/silver"
+msgstr "축복의 상자"
+
+msgid "common/boxCategory/upperCase/bronze"
+msgstr "풍요의 상자"
+
+msgid "common/boxCategory/upperCase/gold"
+msgstr "은총의 상자"
+
+msgid "common/boxCategory/upperCase/silver"
+msgstr "축복의 상자"
+
+msgid "entryPoint/tooltip/description"
+msgstr "신규 및 특별 아이템이 포함된 특별한 상자입니다. 게임 내 상점에서 획득할 수 있습니다."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "이벤트 종료까지"
+
+msgid "eventName/lowerCase"
+msgstr "속삭임의 금고"
+
+msgid "eventName/upperCase"
+msgstr "속삭임의 금고"
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "이미 모든 전차를 보유 중이라면 은총의 상자가 대신 지급됩니다."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "상자에서 획득할 수 있는 전차를 모두 보유하고 있다면 전차 대신 은총의 상자가 보상으로 지급됩니다."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "풍요의 상자 %(guaranteed0)s개, 축복의 상자 %(guaranteed1)s개, 은총의 상자 %(guaranteed2)s개를 개봉할 때마다 전차를 확정 획득합니다. 상자를 개봉하였지만 전차가 나오지 않았다면 상자 유형에 따라 %(guaranteed0)s번째/%(guaranteed1)s번째/%(guaranteed2)s번째 상자 개봉 시 보유하지 않은 전차를 확정 획득합니다. 전차 획득 시 개봉 횟수 집계가 초기화됩니다."
+
+msgid "infoPage/footer/title/compensation"
+msgstr "대체 보상"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "확정 보상"
+
+msgid "infoPage/header/rewards/description"
+msgstr "보상은 그룹당 하나만 획득 가능"

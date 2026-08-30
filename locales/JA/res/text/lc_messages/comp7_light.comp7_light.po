@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/button/changeServer"
+msgstr "サーバー変更"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "詳細"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "こちらのモードは選択中のサーバーでは休止中%(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "こちらのモードはどのサーバーでもプレイできません"
+
+msgid "alertMessage/modeOffline"
+msgstr "データベース・エラーによりモードを選択できません。"
+
+msgid "alertMessage/noVehicles"
+msgstr "ガレージ内に適合車輌がありません%(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "了解!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "オンスロート・ライト"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "最終ステージを達成!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ステージ%(level)sを達成!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "全ミッションを制覇!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "達成済み"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "期限切れまで%(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "「オンスロート・ライト」ミッション"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "新たな「オンスロート・ライト」ミッションまで%(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "報酬"
+msgstr[1] "報酬"
+msgstr[2] "報酬"
+
+msgid "battleResult/header/deserter"
+msgstr "ペナルティーが科されました"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "「オンスロート・ライト」の進捗"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s～%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "「オンスロート・ライト」モードの終了まで残り%(days)d日"
+msgstr[1] "「オンスロート・ライト」モードの終了まで残り%(days)d日"
+msgstr[2] "「オンスロート・ライト」モードの終了まで残り%(days)d日"
+
+msgid "calendarDay/title"
+msgstr "スケジュール"
+
+msgid "closeButtonLabel"
+msgstr "閉じる"
+
+msgid "countDown/text"
+msgstr "イベント開始まで\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Tier %(levels)s車輌でのハイペースな7対7ゲームモードです。「オンスロート」モードのゲームプレイを測定ラウンド、ランク、実績といった要素抜きで楽しむことができます。またデイリーミッションを達成すればで報酬も獲得できます。"
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "モード"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — ゲームモードの詳細を確認できます"
+
+msgid "entryPointTooltip/modeName"
+msgstr "オンスロート・ライト"
+
+msgid "entryPointTooltip/status/active"
+msgstr "モードの残り期間: %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "残り休止時間: %(timer)s"
+
+msgid "featureName"
+msgstr "オンスロート・ライト"
+
+msgid "featureNameCapitalized"
+msgstr "オンスロート・ライト"
+
+msgid "intro/confirmButton"
+msgstr "了解！"
+
+msgid "intro/description/lightGameplay"
+msgstr "「オンスロート・ライト」には、「測定ラウンド」や「ランク」といった要素は登場しません。また、本モードでの成績は「実績」にカウントされません。"
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "本モードには専用の調整因子が導入されており、車輌HP、消耗品のクールダウン時間、被発見状態の持続時間など、車輌のパラメーターの一部が変動します。"
+
+msgid "intro/description/pointsOfInterest"
+msgstr "本モードでは、どのマップにも「戦術サークル」と呼ばれる特殊なエリアが登場します。「戦術サークル」を占領すると対応する「タクティカル・アビリティー」を発動できるようになります。「戦術サークル」には「砲兵センター」と「諜報センター」の2種類が存在し、前者には指定したエリアへの砲兵射撃を行う「アーティーストライク」が、後者には全敵車輌の位置を捕捉する「ディビジョンレーダー」が割り当てられています。「戦術サークル」の位置や数はマップによって異なります。"
+
+msgid "intro/description/roleSkills"
+msgstr "本モードでは、各車輌に「ロール」が割り当てられており、どの車輌も「ロール」に応じた独自の「ロール・アビリティー」を発動できるようになっています。「ロール・アビリティー」にはそれぞれ3段階のレベルが存在し、レベルが上がると効果も上昇します。レベルを上げるには、戦闘中に「戦術サークル」の占領や「タクティカル・アビリティー」の発動といったさまざまな条件を満たして「プレステージ・ポイント」を集める必要があります。\n\n「プレステージ・ポイント」の取得方法の詳細はイベントのレギュレーションで確認できます。"
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "本モードでは、自走砲および一部車輌を除くTier %(levels)s車輌しか使用できません。戦闘開始前のカウントダウン中にマップや味方の車輌編成を確認した上で使用する車輌や構成を変更できるため、さまざまなシチュエーションに対応できるようガレージで入念な準備を行っておくのが大切です。"
+
+msgid "intro/title/lightGameplay"
+msgstr "気楽に楽しめる《ライト》なモード"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "「オンスロート」専用のパラメーター調整因子"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "戦術サークル"
+
+msgid "intro/title/roleSkills"
+msgstr "ロール・アビリティー"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "マップや編成を見て車輌を変更可能"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "勝利"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "敗北 / 分け"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "すべての報酬を入手しました。"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "ステージの進捗に必要となるポイントは、専用ミッションを達成したり、「オンスロート・ライト」の戦闘で上位にランクインしたりすると取得できます。"
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "取得できる「進捗ポイント」は、取得した「プレステージ・ポイント」の順位によって異なります。"
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "モード終了まで%(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "メイン進捗を制覇"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "オンスロート・ライト"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "取得ポイントでTOP2"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "取得ポイントでTOP5"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "取得ポイントでTOP7"
+
+msgid "listSeparator"
+msgstr "、"
+
+msgid "noVehicles/howTo/premium"
+msgstr "WoTプレミアムアカウントの利用"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "パーソナルリザーブの活用"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "様々なミッションへの挑戦"
+
+msgid "noVehicles/howTo/title"
+msgstr "Tier %(levels)s車輌を最速で入手するには?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "「オンスロート・ライト」モードで戦闘を行うにはモードと互換性のあるTier %(levels)s車輌が必要です。\nTier %(levels)sプレミアム車輌は技術ツリーまたはゲーム内ショップにて購入することができます。"
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "「オンスロート・ライト」モードで戦闘を行うにはモードと互換性のあるTier %(levels)s車輌が必要です。\nリカバリー可能なTier %(levels)s車輌が存在します。"
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "「オンスロート・ライト」モードで戦闘を行うにはモードと互換性のあるTier %(levels)s車輌が必要です。"
+
+msgid "noVehicles/title"
+msgstr "ガレージ内に適合車輌がありません。"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "詳細は「オンスロート・ライト」モードについてのページでご確認いただけます。"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "プレステージ・ポイント"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "ダメージを与える\n発見によりダメージをアシストする\n履帯を切断する\n重大な損害を与える\n敵車輌を撃破する\nその他の戦闘アクション"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "「プレステージ・ポイント」は、戦闘中の以下のアクションを通して取得できます。"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "%(server)sサーバーではシーズンが終了しています。"
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "%(server)sサーバーではシーズンが終了しています。"
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "%(server)sサーバーではシーズンが終了しています。"
+
+msgid "progressionEntryPoint/complete"
+msgstr "メイン進捗を制覇!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "ステージ%(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s または %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "新たなミッションまで"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "イベント終了まで"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "ミッションの更新まで"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "全デイリーミッションを達成済み"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "進行ステージを制覇しました。「オンスロート・ライト」のプレイを続行すれば、さらなる報酬が手に入ります。"
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "ステージの進捗に必要となるポイントは、専用ミッションを達成したり、\n「オンスロート・ライト」の戦闘で上位にランクインしたりすると取得できます。%(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "「オンスロート・ライト」モードでプレイしたり、専用ミッションを達成したりすると取得できる専用リソースです。モードを進めるうえで必要になります。"
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "オンスロート・ライトポイント"
+
+msgid "selectorTooltip/desc"
+msgstr "ランク・システムなし 7対7 | Tier %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "オンスロート・ライト"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "新シーズンの開幕日は公式HPのニュースでご確認ください。"
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "技術的な理由によりこちらのモードは一時的にご利用いただけません。"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "本モードは%(time)sからプレイ可能"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "オンスロート・ライトポイント取得"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "詳細"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "オンスロート・ライト"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "入手した報酬"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "「%(progressionName)s」モードの進捗ステージ%(stage)sを達成しました。"
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "おめでとうございます!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "休止時間のため「オンスロート・ライト」モードは一時的にプレイできません。"
+
+msgid "system_messages/primeTime/end/title"
+msgstr "休止時間"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "休止時間が終了しました。「オンスロート・ライト」モードで再び戦闘を行えます。"
+
+msgid "system_messages/primeTime/start/title"
+msgstr "休止時間"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "「オンスロート・ライト」モードについて"

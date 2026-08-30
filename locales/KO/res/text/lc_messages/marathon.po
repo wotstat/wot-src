@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "3dObject/showVideo"
+msgstr "동영상 재생"
+
+msgid "reward/confirm"
+msgstr "차고에서 보기"
+
+msgid "reward/confirmStyle"
+msgstr "확인"
+
+msgid "reward/goToVehicleBtn"
+msgstr "차고에서 보기"
+
+msgid "reward/nameStyle"
+msgstr "호랑이 발톱"
+
+msgid "reward/nameVehicle"
+msgstr "%(level)s %(type)s %(name)s"
+
+msgid "reward/rest"
+msgstr "외 %(count)s개"
+
+msgid "reward/secondary"
+msgstr "전차 꾸미기로 이동"
+
+msgid "reward/stage"
+msgstr "챕터 %(stage)s: %(text)s"
+
+msgid "reward/stageAllComplete"
+msgstr "모든 스테이지 보상을 획득했습니다."
+
+msgid "reward/stageCompleteLast"
+msgstr "마지막 스테이지를 완료했습니다."
+
+msgid "reward/stageNotAllComplete"
+msgstr "완료하지 않은 스테이지의 보상입니다."
+
+msgid "reward/stageStyle"
+msgstr "호랑이 도약"
+
+msgid "reward/styleTitle"
+msgstr "스타일 획득!"
+
+msgid "reward/title"
+msgstr "Renegade 마라톤"
+
+msgid "reward/vehicleTitle"
+msgstr "전차 획득!"
+
+msgid "reward/viewRewardsBtn"
+msgstr "보상 확인"
+
+msgid "rewardTooltip/tankmen/header"
+msgstr "숙련도 100% 승무원 (전우애 능력 보유)"
+
+msgid "rewardTooltip/title"
+msgstr "보상:"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/label/buy"
+msgstr "전차 구매로 이동"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/active/body"
+msgstr "아이템을 구매하려면 클릭하십시오."
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/inactive/body"
+msgstr "%(event_name)s 시작 후 전차를 구매할 수 있습니다.\n%(addInfo)s"
+
+msgid "vehiclePreview/buyingPanel/buyBtn/tooltip/inactive/header"
+msgstr "이용 불가"
+
+msgid "vehiclePreview/buyingPanel/customOffer/discount"
+msgstr "나의 개인 할인:"
+
+msgid "vehiclePreview/buyingPanel/title"
+msgstr "미완료 스테이지 전차 및 보상"
+
+msgid "vehiclePreview/title/tooltip/body/addInfo/announce"
+msgstr ".\n%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/body/addInfo/progress"
+msgstr " %(endVehicleSellDate)s까지 전차를 구매할 수 있습니다.\n%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/body/marathon/announce"
+msgstr "%(marathonStartDate)s 이벤트가 시작됩니다."
+
+msgid "vehiclePreview/title/tooltip/body/marathon/inprogress"
+msgstr "중국 9단계 프리미엄 중전차 WZ-114 구매 시 아직 완료하지 않은 이벤트 스테이지 보상을 획득할 수 있습니다."
+
+msgid "vehiclePreview/title/tooltip/header"
+msgstr "%(event_name)s"
+
+msgid "vehiclePreview/title/tooltip/info/body/announce"
+msgstr "%(event_name)s 기간에 전차 및 관련 보상을 구매할 수 있습니다."
+
+msgid "vehiclePreview/title/tooltip/info/body/progress"
+msgstr "%(event_name)s 기간에 전차 및 관련 보상 구매 가능%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/info/body/progress/withDiscount"
+msgstr "%(event_name)s 기간에 전차 및 관련 보상 구매 가능%(addInfo)s"
+
+msgid "vehiclePreview/title/tooltip/rewards"
+msgstr "보상 세트"
+
+msgid "vehiclePreview/tooltip/dateTime"
+msgstr "%(year)s년 %(monthName)s %(day)s일, %(hour)s:%(min)s"

@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Enlarge"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Retire Undertrained"
+
+msgid "barracks/bunks/title"
+msgstr "Bunks:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Specify the number of bunks for purchase. Bunks available in the Barracks: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Discount Cost"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "New cost: %(currency)s per %(bunksCount)s bunks"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Previous cost: %(currency)s per %(bunksCount)s bunks"
+
+msgid "barracks/enlarge/header"
+msgstr "Enlarge the Barracks?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Undertrained crew members in your Barracks who have less than the {whiteSpanish_Open}210,060{whiteSpanish_Close}{icon} XP required to train their first crew perk to {whiteSpanish_Open}100%{whiteSpanish_Close} can be retired."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Undertrained Crew Members"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "You do not have undertrained crew members"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "You will not receive any compensation for retiring undertrained crew members. Once retired, they cannot be recovered, and all their XP will be lost."
+
+msgid "barracks/title"
+msgstr "BARRACKS"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Click to enlarge the Barracks."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Enlarge Barracks"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Location"
+
+msgid "common/imageNotAvailable"
+msgstr "Image Not Available"
+
+msgid "common/inBarracks"
+msgstr "In the Barracks"
+
+msgid "common/inBattle"
+msgstr "In Battle"
+
+msgid "common/inPrebattle"
+msgstr "In Tactical Unit"
+
+msgid "common/navigation/aboutCrew"
+msgstr "ABOUT CREW"
+
+msgid "common/navigation/toBarracks"
+msgstr "TO BARRACKS"
+
+msgid "common/navigation/toGarage"
+msgstr "TO GARAGE"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "TO PROFILE"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Affirmative!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Your crew members have been converted to Crew Books."
+
+msgid "conversionAwards/title"
+msgstr "CONVERSION SUCCESSFUL"
+
+msgid "conversionAwards/underTitle"
+msgstr "The following items have been added to your account."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Cancel"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Retire"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Crew members to be retired: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Retire undertrained crew members?"
+
+msgid "conversionConfirm/warning"
+msgstr "You will not receive any compensation for retiring undertrained crew members. Once retired, they cannot be recovered, and all their XP will be lost."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Autoselect Perks"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "There are no crew members with untrained perks."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Unable to Autoselect Perks"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "All untrained perks marked with plus signs will be replaced by perks automatically selected with special logic for all crews."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Autoselect Untrained Perks for All"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Reset Perks for All"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "There are no crew members with trained perks."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Unable to Reset Perks"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "All perks will be reset for all crew members on your account. This operation cannot be undone."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Reset Perks for All"
+
+msgid "crewBanner/infoText"
+msgstr "Free perk reset or autoselection of untrained perks for all crew members on your account"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Accelerate Crew Training is enabled"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Efficiency bonus: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Perk efficiency"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Perks are unavailable because the crew member is not trained for this vehicle."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Specialization:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Perks Unavailable"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Bonus perks:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Major qualification perks:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(China)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Czechoslovakia)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(France)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Germany)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italy)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japan)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Poland)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Sweden)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(U.K.)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(U.S.A.)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(U.S.S.R.)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "All Premium tank destroyers {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "All Premium SPGs {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "All Premium heavy tanks {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "All Premium light tanks {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "All Premium medium tanks\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Details"
+
+msgid "filter/group/details/title"
+msgstr "Details"
+
+msgid "filter/group/nation/title"
+msgstr "Nation"
+
+msgid "filter/group/other/title"
+msgstr "Other"
+
+msgid "filter/group/special/title"
+msgstr "Special"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Qualification"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Tier"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Tier"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Specialization"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Vehicle Type"
+
+msgid "filter/popup/button/title"
+msgstr "Filter"
+
+msgid "filter/popup/default/title"
+msgstr "Filter"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filter by Nation"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filter by Vehicles"
+
+msgid "filter/reset"
+msgstr "Reset Filter"
+
+msgid "filter/search/placeholder"
+msgstr "Search by name"
+
+msgid "filter/search/tooltip/header"
+msgstr "Search by Name"
+
+msgid "filter/title"
+msgstr "Displayed:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Show/hide crew members in vehicles with all available modules and technical branches researched."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Elite Vehicles"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Show/hide crew members trained for Premium vehicles."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Premium Vehicles"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Show/hide crew members in primary vehicles."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Primary Vehicles"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Show/hide crew members for this type of vehicles."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Show/hide crew members of this nation."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Show/hide skins of this nation."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Show/hide vehicles of this nation."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Show/hide retired."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Retired"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Show recruits."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Recruits"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Show crew members."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Crew Members"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Show/hide crew members of this qualification."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Show/hide Premium vehicles."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Premium Vehicles"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Show/hide vehicles of this type."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Tank Destroyers"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "SPGs"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Heavy Tanks"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Light Tanks"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Medium Tanks"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "No vehicles found that meet\nthe search criteria"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Sort by vehicle name."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Name"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Sort by vehicle tier."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Tier"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Sort by vehicle type."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Type"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Name"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Click to reset filter settings."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Reset All Filters"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Affirmative!"
+
+msgid "junkTankmen/description"
+msgstr "These crew members have less than the {bond_Open}210,060{bond_Close}{icon} XP required to train their first crew perk to {whiteSpanish_Open}100%{whiteSpanish_Close}.\nThey will be removed from your account."
+
+msgid "junkTankmen/title"
+msgstr "Retire undertrained crew members?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "There is a limit of {whiteSpanish_Open}three{whiteSpanish_Close} perks for each additional qualification. Access to a new bonus perk will open after reaching the {whiteSpanish_Open}first{whiteSpanish_Close}, {whiteSpanish_Open}third{whiteSpanish_Close}, and {whiteSpanish_Open}fifth{whiteSpanish_Close} major qualification perks."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Bonus Perks"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "When retraining a crew member for another vehicle with a different set of qualifications, you will be able to choose the perks for their new additional qualification again."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Bonus perks are trained twice as slowly as major qualification perks."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "XP is not required to train bonus perks."
+
+msgid "matrix/freeResetButton"
+msgstr "Reset for Free"
+
+msgid "matrix/increaseButton"
+msgstr "Accelerate Training"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "The crew member has reached the training limit."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Unable to accelerate training"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Train perks using Free XP and Crew Books."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Quick Training"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Incompatible Qualification"
+
+msgid "matrix/qualification/1"
+msgstr "Major Qualification"
+
+msgid "matrix/qualification/2"
+msgstr "Second Qualification"
+
+msgid "matrix/qualification/3"
+msgstr "Third Qualification"
+
+msgid "matrix/qualification/4"
+msgstr "Fourth Qualification"
+
+msgid "matrix/qualification/5"
+msgstr "Fifth Qualification"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Zero perks unavailable for second qualification"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Zero perks unavailable for third qualification"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Zero perks unavailable for fourth qualification"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Second qualification unavailable for this vehicle"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Third qualification unavailable for this vehicle"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Fourth qualification unavailable for this vehicle"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Fifth qualification unavailable for this vehicle"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "There is a limit of {whiteSpanish_Open}three{whiteSpanish_Close} bonus perks for each additional qualification. Only perks specific to this qualification can be selected as bonus perks."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "There is a limit of {whiteSpanish_Open}six{whiteSpanish_Close} major qualification perks (including zero perks)."
+
+msgid "matrix/resetButton"
+msgstr "Reset"
+
+msgid "matrix/resetButtonHint"
+msgstr "CLICK TO RESET PERKS"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "You have no trained perks."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Unable to Reset Perks"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Click to reset perks."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Reset Perks"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Bonus Perk Available for Training"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "Crew XP is not required to train bonus perks."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Unavailable"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Unlocked when training the third major qualification perk. Does not require XP."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Unlocked when training the fifth major qualification perk. Does not require XP."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Training level"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "The total amount of XP required is discounted because the crew member has one zero perk."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "The total amount of XP required is discounted because the crew member has two zero perks."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Perk Available for Training"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Unavailable"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "The previous perk must be trained to 100%."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Zero Perk Available for Training"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Zero perks are always trained first, even if several perks are selected at once. Crew XP is not required to train them."
+
+msgid "matrix/skills/allSkills"
+msgstr "All additional perks trained for this vehicle"
+
+msgid "matrix/skills/available"
+msgstr "Perks available for training:"
+
+msgid "matrix/skills/bonus"
+msgstr "Bonus Perks"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Perks are not available"
+
+msgid "matrix/skills/locked"
+msgstr "Perks are not available"
+
+msgid "matrix/skills/main/disabled"
+msgstr "All perks are disabled for this vehicle"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Major Qualification Perks"
+
+msgid "matrix/skills/reduced"
+msgstr "Perk efficiency reduced"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Commander's Perks"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Driver's Perks"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Commander's Perks"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Driver's Perks"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Gunner's Perks"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Loader's Perks"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Radio Operator's Perks"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Gunner's Perks"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Loader's Perks"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Radio Operator's Perks"
+
+msgid "matrix/skills/training"
+msgstr "Perk training"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Zero perks available for training:"
+
+msgid "memberChange/action/recruit"
+msgstr "Recruit {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% DISCOUNT ON QUALIFICATION CHANGE DISCOUNT"
+
+msgid "memberChange/title"
+msgstr "SELECT {role}: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}In Depot{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "After confirmation, the crew member who transfers their XP will be removed from your account."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "A Mentoring License allows you to transfer Crew XP from one crew member to another crew member of the same nation."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Mentoring License"
+
+msgid "personalData/card/edit"
+msgstr "Edit"
+
+msgid "personalData/card/remove"
+msgstr "Remove"
+
+msgid "personalData/card/restrictions"
+msgstr "Restrictions: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Click to replace a crew member's name and appearance."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Appearance"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "This crew member already has a unique name and appearance."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Unable to Replace Name and Appearance"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Nothing found. Change settings or reset the filter."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Configure the display of skins by their nation."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filter by Parameters"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Show documents."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Documents"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Show suitable skins."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Suitable Skins"
+
+msgid "personalData/filter/type/title"
+msgstr "Type"
+
+msgid "personalData/title"
+msgstr "REPLACE NAME AND APPEARANCE"
+
+msgid "personalFile/changeVehicle"
+msgstr "Change"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Unable to train this crew member for a different vehicle."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Operation Unavailable"
+
+msgid "personalFile/discount/full"
+msgstr "Discount on crew retraining available"
+
+msgid "personalFile/discount/short"
+msgstr "Discount available"
+
+msgid "personalFile/inVehicle"
+msgstr "In the vehicle: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Increase"
+
+msgid "personalFile/isUntrained"
+msgstr "Not trained for this vehicle"
+
+msgid "personalFile/premiumVehicle"
+msgstr "All {icon} Premium vehicles"
+
+msgid "personalFile/retrain"
+msgstr "Retrain"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Perk efficiency: "
+
+msgid "personalFile/specialization"
+msgstr "Specialization:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Specialization"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Click to listen to this Commander's voiceover sample."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Unique Voiceover"
+
+msgid "postProgression/button/claim"
+msgstr "Claim Reward"
+
+msgid "postProgression/description"
+msgstr "All crew members who have all six major qualification perks trained get access to the joint Post-Progression. For every 100,000 XP earned in the Post-Progression, you will receive a Universal Guide that can be used to train other crews."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "The Post-Progression consists of a unified scale for all crew members with six fully trained major qualification perks on a player's account."
+
+msgid "postProgression/tips/2"
+msgstr "Only Combat XP counts toward the Post-Progression. Half of the Combat XP earned in battle by a crew member is divided by the total number of crew members in the vehicle and added to the Post-Progression scale."
+
+msgid "postProgression/tips/3"
+msgstr "Losing XP from perks or efficiency pools does not affect the Post-Progression."
+
+msgid "postProgression/title"
+msgstr "CREW POST-PROGRESSION"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "All crew members who had access to the Post-Progression have low perk efficiency."
+
+msgid "postProgression/warning/retire"
+msgstr "All crew members who had access to the Post-Progression have been retired or lost XP from their last perk(s)."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "All Premium tank destroyers"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "All Premium SPGs"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Premium tank destroyers"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Premium SPGs"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Premium heavy tanks"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Premium light tanks"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Premium medium tanks"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "All Premium heavy tanks"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "All Premium light tanks"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "All Premium medium tanks"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "AWARDS"
+
+msgid "serviceRecord/averageXP"
+msgstr "Average Experience per Battle"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Battles Fought"
+
+msgid "serviceRecord/noAchievements"
+msgstr "No achievements or awards earned in battles."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Ratio of total experience points earned to the number of battles fought by this vehicle, to which the crew member is assigned."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Average Experience per Battle"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "A crew member's rank depends on their experience and number of trained perks."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rank"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "Crew member has trained all perks for this vehicle"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Perks available for training"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "All perks disabled for this vehicle"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "XP is not needed to train additional qualification perks, which are trained twice as slowly as major qualification perks."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Cancel"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Train"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "BONUS QUALIFICATION"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "MAJOR QUALIFICATION"
+
+msgid "tankChange/title"
+msgstr "TRAIN FOR VEHICLE"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Show vehicles in the Garage."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "In Garage"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Configure the display of vehicles by their type and tier."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filter by Parameters"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "You do not need to train crew members for Premium vehicles. You can transfer crew to a Premium vehicle of the same type without penalty."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Premium Vehicle"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Vehicle name must contain up to %(maxLength)s characters."
+
+msgid "tankman/action/dismiss/title"
+msgstr "RETIRE"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Retire this crew member."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Unable to retire this crew member."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Operation Unavailable"
+
+msgid "tankman/action/recruit/title"
+msgstr "RECRUIT"
+
+msgid "tankman/action/restore/title"
+msgstr "RECOVER"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Recover this crew member."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Click to listen to this Commander's voiceover sample."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Unique Voiceover"
+
+msgid "tankman/recruit"
+msgstr "Recruit"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Appearance"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Profile"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Service Record"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Recruit"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Reset Filter"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Nothing found. Change settings or reset the filter."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Nothing found. Recruit a crew member."
+
+msgid "tankmanList/filter/title"
+msgstr "Crew members:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Not enough bunks in the Barracks."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Show/hide only retired crew members."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Retired"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Show crew members in the Barracks."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "In Barracks"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Show crew members in vehicles."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "In Vehicles"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Show/hide skins of this nation."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Configure the display of crew members by their qualification, specialization, and other parameters."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filter by Parameters"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Recruit a new crew member."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Name must contain up to %(maxLength)s characters."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Hovering over a perk shows how it affects the corresponding characteristics when trained to 100% with the current level of perk efficiency."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Affirmative!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Two new perks for each qualification have been introduced, Reliable Placement has been reworked, and a new option lets you hide perks in the battle HUD."
+
+msgid "welcomeScreen/item2/description"
+msgstr "A convenient new operation allows you to retire undertrained crew members in one click."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Perks can now be reset using only credits, without losing XP."
+
+msgid "welcomeScreen/subTitle"
+msgstr "New perks and features have been added, and an existing perk has been updated."
+
+msgid "welcomeScreen/title"
+msgstr "UPDATES TO CREW"

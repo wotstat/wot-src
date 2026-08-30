@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_aggressive_detection/descr/active"
+msgstr "ระยะการมองเห็นจะเพิ่มขึ้น {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} เป็นเวลา {colorTagOpen}%(duration)s วิ{colorTagClose}\n\nนาฬิกานับถอยหลังจะเริ่มใหม่เมื่อมีพาหนะข้าศึกถูกทำลายจากการชี้เป้าของคุณ"
+
+msgid "comp7_aggressive_detection/name"
+msgstr "การลาดตระเวนต่อเนื่อง"
+
+msgid "comp7_ally_support/descr/active"
+msgstr "เป็นเวลา {colorTagOpen}%(duration)s วิ {colorTagClose} พลรถถังของคุณจะได้รับโบนัส {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} ให้กับประสิทธิภาพสำหรับพาหนะแต่ละคันของทีมคุณที่มีบทบาทแตกต่างกัน\n\nพาหนะของคุณจะถูกรวมในการคำนวณโบนัสนี้เสมอ"
+
+msgid "comp7_ally_support/name"
+msgstr "รวมกันเป็นหนึ่ง"
+
+msgid "comp7_aoe_heal/descr/active"
+msgstr "เป็นเวลา {colorTagOpen}%(duration)s วิ{colorTagClose} พื้นที่รอบรัศมี {colorTagOpen}%(radius)s เมตร{colorTagClose} จะเกิดขึ้นรอบพาหนะของคุณที่จะคืนความทนทาน {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} หน่วยให้พาหนะและพันธมิตรของคุณ"
+
+msgid "comp7_aoe_heal/name"
+msgstr "การซ่อมภาคสนาม"
+
+msgid "comp7_aoe_inspire/descr/active"
+msgstr "เป็นเวลา {colorTagOpen}%(duration)s วิ{colorTagClose} พลรถถังของคุณและพันธมิตรจะได้รับโบนัส {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} ให้กับขั้นประสิทธิภาพ"
+
+msgid "comp7_aoe_inspire/name"
+msgstr "ปลุกใจ"
+
+msgid "comp7_berserk/descr/active"
+msgstr "เป็นเวลา {colorTagOpen}%(duration)s วิ{colorTagClose} เวลาบรรจุกระสุนจะลดลงอีก {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose} นอกจากนี้ การกระจายของกระสุนหลังยิง, ระหว่างแล่นและหมุนตัวถังหรือป้อมปืนจะลดลงอีก {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}\n\nเวลานับถอยหลังจะตั้งใหม่เมื่อคุณทำความเสียหายได้ด้วยการพุ่งชนหรือการยิงจากระยะที่น้อยกว่า {colorTagOpen}%(damageDistance)s เมตร{colorTagClose}"
+
+msgid "comp7_berserk/name"
+msgstr "เกรี้ยวกราด"
+
+msgid "comp7_concentration/descr/active"
+msgstr "เป็นเวลา {colorTagOpen}%(duration)sวิ{colorTagClose}, เวลาเล็งและการกระจายระหว่างแล่น, หมุนตัวถังและป้อมปืนนั้นลดลงอีก{colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}\n\nระหว่างที่ทักษะบทบาทนี้มีผลอยู่ เวลาบรรจุระหว่างนัดจะลดลงอีก{colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)sวิ{colorTagClose}"
+
+msgid "comp7_concentration/name"
+msgstr "มุ่งเป้าหมาย"
+
+msgid "comp7_fast_recharge/descr/active"
+msgstr "• สำหรับระบบป้อนซองกระสุน:\nเวลาบรรจุของซองกระสุนที่เหลือจะลดลงอีก: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• สำหรับระบบเติมกระสุนอัตโนมัติ:\nกระสุนทั้งหมดที่ยิงในรอบปัจจุบันจะถูกบรรจุ: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nทักษะนี้สามารถเปิดใช้ได้ในช่วงกระบวนการบรรจุใหม่เท่านั้น\n\n• สำหรับปืนใหญ่อัตโนมัติควบคุมความร้อน:\nความร้อนปืนลดลงอีก {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} จากความร้อนสูงสุดที่เป็นไปได้\n\nทักษะนี้สามารถเปิดใช้ได้ต่อเมื่อปืนร้อนแล้วเท่านั้น"
+
+msgid "comp7_fast_recharge/name"
+msgstr "ความว่องไว"
+
+msgid "comp7_hunter/descr/active"
+msgstr "ตั้งจำนวนพาหนะข้าศึกที่ได้รับความเสียหายจากกระสุนใหม่\n\nเป็นเวลา {colorTagOpen}%(duration)s วิ{colorTagClose} พาหนะของคุณจะคืนความทนทาน {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} หน่วยสำหรับพาหนะข้าศึกแต่ละคันที่ได้รับความเสียหายจากกระสุนเมื่อทำการใช้งานทักษะ"
+
+msgid "comp7_hunter/descr/passive"
+msgstr "เวลาบรรจุกระสุนถูกลดลงอีก {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} สำหรับพาหนะข้าศึกแต่ละคันที่ได้รับความเสียหายจากนัดที่ยิง"
+
+msgid "comp7_hunter/name"
+msgstr "นักล่าเงินรางวัล"
+
+msgid "comp7_juggernaut/descr/active"
+msgstr "เป็นเวลา {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s วิ{colorTagClose}:\n• ความเสียหายที่ได้รับลดลงอีก{colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• ความเร็วเดินหน้าสูงสุดเพิ่มขึ้น{colorTagOpen}%(fwMaxSpeedBonus)s กม./ชม.{colorTagClose}\n• ความเร็วถอยหลังสูงสุดเพิ่มขึ้น {colorTagOpen}%(bkMaxSpeedBonus)s กม./ชม.{colorTagClose}\n• กำลังเครื่องยนต์เพิ่มขึ้นอีก {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• ความเสียหายจากการพุ่งชนพาหนะข้าศึกเพิ่มขึ้นอีก {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\nเมื่อทักษะบทบาททำงาน ตีนตะขาบของคุณจะถูกทำลายด้วยการยิงเพียงนัดเดียว"
+
+msgid "comp7_juggernaut/name"
+msgstr "ยักษ์ใหญ่"
+
+msgid "comp7_march/descr/active"
+msgstr "เป็นเวลา {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s วิ{colorTagClose} กำลังเครื่องยนต์พาหนะของคุณจะเพิ่มขึ้นอีก {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose} ความเร็วสูงสุดของพาหนะจะเพิ่มขึ้นอีก{colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} กม./ชม.และค่าอำพรางจะเพิ่มขึ้นอีก {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}"
+
+msgid "comp7_march/name"
+msgstr "เร่งเดินขบวน"
+
+msgid "comp7_recon/descr/active"
+msgstr "เครื่องบินลาดตระเวนจะบินเหนือพื้นที่ที่เลือกเอาไว้ในช่วงเวลา {colorTagOpen}%(delay)s วินาที{colorTagClose} พาหนะข้าศึกที่พบในช่วงรัศมี{colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s ม.{colorTagClose} จะคงปรากฎเป็นเวลา {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;วินาที{colorTagClose} ไอคอนแยกจะปรากฎสำหรับผู้เล่นที่ถูกพบด้วยทักษะนี้โดยมีเวลาหน่วง {colorTagOpen}%(lampDelay)s วินาที{colorTagClose}\n\nทักษะนี้จะมีให้ใช้ {colorTagOpen}%(startupDelay)s วิ{colorTagClose} หลังจากเริ่มการรบ"
+
+msgid "comp7_recon/name"
+msgstr "การบินลาดตระเวน"
+
+msgid "comp7_redline/descr/active"
+msgstr "พื้นที่ที่เลือกไว้จะถูกโจมตีโดยปืนใหญ่ในช่วงเวลา{colorTagOpen}%(delay)s วิ{colorTagClose}\n\nเป้าหมายที่เสียหายในรัศมี{colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s ม.{colorTagClose} จะได้รับความเสียหาย {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} หน่วยและมึนงงเป็นเวลา {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s วิ{colorTagClose}"
+
+msgid "comp7_redline/name"
+msgstr "การยิงคุ้มกัน"
+
+msgid "comp7_risky_attack/descr/active"
+msgstr "การเร่ง\n\nเป็นเวลา {colorTagOpen}%(duration)s วิ{colorTagClose} กำลังเครื่องยนต์เพิ่มขึ้นอีก {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose} ความเร็วเดินหน้าสูงสุดเพิ่มขึ้นอีก{colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} กม./ชม.และความเร็วถอยหลังสูงสุดเพิ่มขึ้นอีก{colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} กม./ชม.\n\nการคืนสภาพ\n\nเป็นเวลา {colorTagOpen}%(healDuration)s วิ{colorTagClose} พาหนะของคุณจะคืนความทนทาน {colorTagOpen}%(baseHeal)s{colorTagClose} หน่วย{colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} ให้ความทนทานที่เสียไปในขณะที่การเร่งยังมีผลใช้งานอยู่"
+
+msgid "comp7_risky_attack/name"
+msgstr "แรงฮึดสู้"
+
+msgid "comp7_role_skill/descr/startLevel"
+msgstr " \n\nในช่วงเริ่มการรบ ขั้นการใช้งานของทักษะบทบาทจะอยู่ที่{colorTagOpen} %(startLevel)s{colorTagClose}"
+
+msgid "comp7_sniper/descr/active"
+msgstr "เป็นเวลา {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s วิ{colorTagClose} การกระจายกระสุนที่ 100 เมตรจะเท่ากับ{colorTagOpen}%(dispersionFactor)s เมตร{colorTagClose}\n\nถ้าพาหนะของคุณไม่ถูกพบเมื่อทำการยิง ความเสียหายที่ทำด้วยกระสุนของคุณจะเพิ่มขึ้นอีก{colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}\n\nเวลานับถอยหลังจะตั้งใหม่จากการทำความเสียหายด้วยการยิงที่ระยะเกินกว่า {colorTagOpen}%(damageDistance)s เมตร{colorTagClose}"
+
+msgid "comp7_sniper/name"
+msgstr "เข้าเป้า"
+
+msgid "comp7_sure_shot/descr/active"
+msgstr "เป็นเวลา {colorTagOpen}%(duration)s วิ{colorTagClose} การกระจายของกระสุนระหว่างเคลื่อนที่และระหว่างการหมุนป้อมปืนและตัวถังจะลดลงอีก {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}\n\nในขณะที่ทักษะนี้ยังมีผลใช้งานอยู่ ความเสียหายจากการยิงจะลดเวลาบรรจุกระสุนลงอีก {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} ของเปอร์เซนต์ความทนทานพาหนะข้าศึกที่ลดลง\n\nการทำลายพาหนะข้าศึกได้จะลดเวลาบรรจุกระสุนอีก{colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}"
+
+msgid "comp7_sure_shot/name"
+msgstr "ยิงกวาดล้าง"

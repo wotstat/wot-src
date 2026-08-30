@@ -1,0 +1,308 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "closeButtonLabel"
+msgstr "닫기"
+
+msgid "featureName"
+msgstr "다시 보기"
+
+msgid "filter/apply"
+msgstr "필터 적용"
+
+msgid "filter/group/nation/title"
+msgstr "국가"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "단계"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "단계"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "특화 전차"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "전차 유형"
+
+msgid "filter/reset"
+msgstr "필터 초기화"
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "해당 국가 승무원을 표시합니다."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "해당 국가 스킨을 표시합니다."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "해당 국가 전차를 표시합니다."
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "해당 유형 전차를 표시합니다."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "구축전차"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "자주포"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "중전차"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "경전차"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "중형전차"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "검색 조건에 맞는\n전차 없음"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "전차 이름으로 정렬"
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "이름"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "전차 단계로 정렬"
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "단계"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "전차 유형으로 정렬합니다."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "유형"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "이름"
+
+msgid "filterPanel/counter/apply/body"
+msgstr "필터를 적용합니다."
+
+msgid "filterPanel/counter/apply/header"
+msgstr "선택한 필터 적용"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "필터를 초기화합니다."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "모든 필터 초기화"
+
+msgid "filterPopover/checkboxes/primeTime"
+msgstr "작전 개시 시간 다시 보기만 표시"
+
+msgid "filterPopover/lastDays"
+msgid_plural "plural/filterPopover/lastDays"
+msgstr[0] "지난 %(count)s일"
+msgstr[1] "지난 %(count)s일"
+msgstr[2] "지난 %(count)s일"
+
+msgid "filterPopover/title"
+msgstr "다시 보기 필터"
+
+msgid "filterPopover/tooltip/body"
+msgstr "전차 유형, 단계, 국가 등 다양한 조건에 따라 다시 보기 필터를 설정합니다."
+
+msgid "filterPopover/tooltip/header"
+msgstr "항목별 필터"
+
+msgid "findReplay/buttonText/find"
+msgstr "다시 보기 검색"
+
+msgid "findReplay/buttonText/refresh"
+msgstr "입력 초기화"
+
+msgid "findReplay/buttonText/watch"
+msgstr "다시 보기 감상"
+
+msgid "findReplay/errorMessage"
+msgstr "검색 결과가 없습니다. 조건을 변경해 보십시오."
+
+msgid "findReplay/inputPlaceholder"
+msgstr "ARENA_ID 입력..."
+
+msgid "findReplay/successMessage"
+msgstr "AI가 전차장님이 원하는 다시 보기를 찾았습니다! 감상해 보십시오."
+
+msgid "page/heading/bestReplays"
+msgstr "최고의 다시 보기"
+
+msgid "page/heading/findReplay"
+msgstr "다시 보기 검색 (DEV용)"
+
+msgid "page/heading/myReplays"
+msgstr "나의 다시 보기"
+
+msgid "sidebar/tabs/tooltip/body/bestReplays"
+msgstr "모든 월드 오브 탱크 플레이어의 최고의 다시 보기 관련 정보"
+
+msgid "sidebar/tabs/tooltip/body/findReplay"
+msgstr "특정 조건에 기반하여 다시 보기 검색"
+
+msgid "sidebar/tabs/tooltip/body/myReplays"
+msgstr "나의 최고의 다시 보기 관련 정보"
+
+msgid "sidebar/tabs/tooltip/header/bestReplays"
+msgstr "최고의 다시 보기"
+
+msgid "sidebar/tabs/tooltip/header/findReplay"
+msgstr "다시 보기 검색"
+
+msgid "sidebar/tabs/tooltip/header/myReplays"
+msgstr "나의 다시 보기"
+
+msgid "statsParam/damageAssisted"
+msgstr "도움 피해 1위"
+
+msgid "statsParam/damageBlockedByArmor"
+msgstr "막은 피해 1위"
+
+msgid "statsParam/damageDealt"
+msgstr "입힌 피해 1위"
+
+msgid "statsParam/earnedXp"
+msgstr "경험치 획득 1위"
+
+msgid "statsParam/kills"
+msgstr "전차 격파 1위"
+
+msgid "table/error/buttonText"
+msgstr "업데이트"
+
+msgid "table/error/description"
+msgstr "불편을 드려 죄송합니다. 나중에 다시 시도해 주십시오."
+
+msgid "table/error/title"
+msgstr "정보 불러오는 중 오류"
+
+msgid "table/header/damageAssisted"
+msgstr "도움 피해"
+
+msgid "table/header/damageBlockedByArmor"
+msgstr "막은 피해"
+
+msgid "table/header/damageDealt"
+msgstr "입힌 피해"
+
+msgid "table/header/date"
+msgstr "일자"
+
+msgid "table/header/earnedXp"
+msgstr "경험치 획득"
+
+msgid "table/header/kills"
+msgstr "전차 격파"
+
+msgid "table/header/map"
+msgstr "지도"
+
+msgid "table/header/marksOfMastery"
+msgstr "숙련의 증표"
+
+msgid "table/header/player"
+msgstr "플레이어 이름"
+
+msgid "table/header/vehicle"
+msgstr "전차"
+
+msgid "table/noRecords/buttonText"
+msgstr "필터 초기화"
+
+msgid "table/noRecords/title"
+msgstr "검색 결과가 없습니다. 설정을 변경하거나 필터를 초기화하십시오."
+
+msgid "table/noRecords/tooltip/body"
+msgstr "필터를 초기화합니다."
+
+msgid "table/noRecords/tooltip/header"
+msgstr "모든 필터 초기화"
+
+msgid "table/tooltip/damageAssisted/body"
+msgstr "해당 다시 보기에서 플레이어가 기록했던 도움 피해"
+
+msgid "table/tooltip/damageAssisted/header"
+msgstr "도움 피해"
+
+msgid "table/tooltip/damageBlockedByArmor/body"
+msgstr "해당 다시 보기에서 플레이어가 기록했던 막은 피해"
+
+msgid "table/tooltip/damageBlockedByArmor/header"
+msgstr "장갑으로 막은 피해"
+
+msgid "table/tooltip/damageDealt/body"
+msgstr "해당 다시 보기에서 플레이어가 기록했던 입힌 피해"
+
+msgid "table/tooltip/damageDealt/header"
+msgstr "입힌 피해"
+
+msgid "table/tooltip/date/body"
+msgstr "다시 보기가 녹화된 일자"
+
+msgid "table/tooltip/date/header"
+msgstr "다시 보기 일자"
+
+msgid "table/tooltip/earnedXp/body"
+msgstr "해당 다시 보기에서 플레이어가 획득했던 경험치"
+
+msgid "table/tooltip/earnedXp/header"
+msgstr "경험치 획득"
+
+msgid "table/tooltip/epicMedals/body"
+msgstr "해당 다시 보기에서 플레이어가 획득했던 특무 훈장"
+
+msgid "table/tooltip/epicMedals/header"
+msgstr "특무 훈장"
+
+msgid "table/tooltip/favorite/body"
+msgstr "해당 다시 보기를 즐겨찾기에 추가합니다."
+
+msgid "table/tooltip/favorite/header"
+msgstr "즐겨찾기"
+
+msgid "table/tooltip/favoriteActive/body"
+msgstr "해당 다시 보기를 즐겨찾기에서 제거합니다."
+
+msgid "table/tooltip/kills/body"
+msgstr "해당 다시 보기에서 플레이어가 격파했던 전차 수"
+
+msgid "table/tooltip/kills/header"
+msgstr "격파"
+
+msgid "table/tooltip/map/body"
+msgstr "다시 보기의 지도"
+
+msgid "table/tooltip/map/header"
+msgstr "지도"
+
+msgid "table/tooltip/marksOfMastery/body"
+msgstr "해당 다시 보기에서 플레이어가 획득했던 주요 증표"
+
+msgid "table/tooltip/marksOfMastery/header"
+msgstr "숙련의 증표"
+
+msgid "table/tooltip/player/body"
+msgstr "다시 보기 내 플레이어 이름"
+
+msgid "table/tooltip/player/header"
+msgstr "플레이어 이름"
+
+msgid "table/tooltip/vehicle/body"
+msgstr "다시 보기가 녹화된 플레이어의 전차"
+
+msgid "table/tooltip/vehicle/header"
+msgstr "전차"
+
+msgid "tableInfo/amount"
+msgstr "표시된 다시 보기: %(amount)s"
+
+msgid "tableInfo/filter"
+msgstr "필터"
+
+msgid "waitingSpinner/message"
+msgstr "콘텐츠 불러오는 중..."

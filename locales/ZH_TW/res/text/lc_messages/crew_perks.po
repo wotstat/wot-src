@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "受到傷害會中斷血量恢復。\n\n血量恢復率與恢復上限以車輛的總血量為基準，包括所有套用的變項。"
+
+msgid "armorPatching/alt/info"
+msgstr "就團體歷練而言，會考量所有乘員的平均訓練程度。歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。"
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "使用工具包後可在 5 秒期間恢復車輛 %(hpRecover)s 的{yellow_Start}血量{yellow_End}，每場戰鬥最多恢復 20%。即便未受到嚴重傷害，也能使用工具包。"
+
+msgid "armorPatching/hudDescription"
+msgstr "血量已恢復。"
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "當所有乘員完成這項訓練時，使用工具包後可在 5 秒期間恢復車輛 %(hpRecover)s 的{yellow_Start}血量{yellow_End}，每場戰鬥最多恢復 20%。即便未受到嚴重傷害，也能使用工具包。"
+
+msgid "armorPatching/name"
+msgstr "裝甲修補"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ 增加車輛的基本隱蔽性。"
+
+msgid "brotherhood/alt/description"
+msgstr "乘員熟練度加成會提升乘員在戰鬥中的效率，也會提升所有已學習歷練的效率，但此歷練除外。\n藉由安裝具有類似效果的裝備或消耗品，或使用\n「淨化通風管」技術指南，可進一步提升此參數。車長的「應急手段」歷練和通訊員的「並排奮戰」與「通訊技術」歷練，亦可提升此參數。"
+
+msgid "brotherhood/alt/info"
+msgstr "就團體歷練而言，會考量所有乘員的平均訓練程度。歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。"
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "整組乘員的{greenBright_Start}乘員熟練度加成{greenBright_End}已提高 %(crewLevelIncrease)s&zwnbsp;。"
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "當所有乘員完成這項訓練時，整組乘員的{greenBright_Start}乘員熟練度加成{greenBright_End}提高 %(crewLevelIncrease)s&zwnbsp;。"
+
+msgid "brotherhood/name"
+msgstr "情同手足"
+
+msgid "brotherhood/shortDescription"
+msgstr "提升一般乘員表現。"
+
+msgid "camouflage/alt/description"
+msgstr "此歷練影響車輛的隱蔽性。使用「天然掩蔽」技術指南可進一步改善此歷練。\n\n此外，藉由套用迷彩塗裝或風格，以及安裝具有類似效果的裝備，亦可提升車輛的隱蔽性。"
+
+msgid "camouflage/alt/info"
+msgstr "就團體歷練而言，會考量所有乘員的平均訓練程度。歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。"
+
+msgid "camouflage/currentLvlDescription"
+msgstr "車輛{greenBright_Start}隱蔽性{greenBright_End}已提高 %(maskingFactor)s&zwnbsp;。"
+
+msgid "camouflage/maxLvlDescription"
+msgstr "當所有乘員完成這項訓練時，{greenBright_Start}隱蔽性{greenBright_End}提高 %(maskingFactor)s&zwnbsp;。"
+
+msgid "camouflage/name"
+msgstr "偽裝"
+
+msgid "camouflage/shortDescription"
+msgstr "增加車輛的基本隱蔽性。"
+
+msgid "commander_coordination/alt/description"
+msgstr "效果會在每次偵察到敵方車輛時啟用，但當偵察到多輛車輛時，效果不會疊加。\n\n藉由訓練炮手的「快速瞄準」歷練或安裝具有類似效果的裝備，可進一步提高瞄準速度。"
+
+msgid "commander_coordination/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "{yellow_Start}瞄準速度{yellow_End}在偵察到敵方車輛後將提高 %(vehicleGunAimSpeed)s，持續 15 秒。"
+
+msgid "commander_coordination/hudDescription"
+msgstr "瞄準速度已提高。"
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "當完成這項訓練時，{yellow_Start}瞄準速度{yellow_End}在偵察到敵方車輛後提高 %(vehicleGunAimSpeed)s，持續 15 秒。\t"
+
+msgid "commander_coordination/name"
+msgstr "協調合作"
+
+msgid "commander_coordination/shortDescription"
+msgstr "瞄準速度已提高。"
+
+msgid "commander_eagleEye/alt/description"
+msgstr "藉由訓練通訊員的「預測形勢」歷練或安裝具有類似效果的裝備，可進一步擴大可視範圍。\n使用「光學校準」技術指南會改善效果。"
+
+msgid "commander_eagleEye/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "{greenBright_Start}可視範圍{greenBright_End}已擴大 %(circularVisionRadius)s&zwnbsp;。{greenBright_Start}受損觀測裝置的削弱幅度{greenBright_End}已降低 %(penaltyToDamagedSurveyingDevice)s&zwnbsp;。"
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "受損觀測裝置的削弱幅度已降低。"
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "當完成這項訓練時，{greenBright_Start}可視範圍{greenBright_End}將擴大 %(circularVisionRadius)s&zwnbsp; 且{greenBright_Start}受損觀測裝置的削弱幅度{greenBright_End}降低 %(penaltyToDamagedSurveyingDevice)s&zwnbsp;。"
+
+msgid "commander_eagleEye/name"
+msgstr "偵察"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "擴大可視範圍，特別是在觀測裝置受損時。"
+
+msgid "commander_emergency/alt/description"
+msgstr "當反覆受到敵人傷害時，效果不會疊加。\n乘員熟練度加成會提升乘員在戰鬥中的效率。\n藉由安裝具有類似效果的裝備或消耗品，或使用\n「淨化通風管」技術指南，可進一步提升此參數。團體歷練「情同手足」、通訊員的「並排奮戰」與「通訊技術」歷練，亦可提升此參數。"
+
+msgid "commander_emergency/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "{yellow_Start}乘員熟練度加成{yellow_End}在受到敵人傷害後提升 %(crewLevelIncrease)s，持續 15 秒。"
+
+msgid "commander_emergency/hudDescription"
+msgstr "乘員熟練度加成已提升。"
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "當完成這項訓練時，{yellow_Start}乘員熟練度加成{yellow_End}在您受到敵人傷害後提升 %(crewLevelIncrease)s，持續 15 秒。"
+
+msgid "commander_emergency/name"
+msgstr "應急手段"
+
+msgid "commander_emergency/shortDescription"
+msgstr "乘員熟練度加成已提升。"
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "針對敵方自走炮射擊時啟用的警告，但會有些許延遲。\n\n可使用「高度警戒」技術指南改善此歷練。"
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "將在{yellow_Start}敵方自走炮射擊{yellow_End}的 %(artNotificationDelayFactor)s延遲後發出警告以提示砲彈來向。{greenBright_Start}震盪的負面效果{greenBright_End}已降低 %(stunResistanceEffectFactor)s&zwnbsp;。"
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "當完成這項訓練時，{yellow_Start}敵方自走炮射擊{yellow_End}的 %(artNotificationDelayFactor)s延遲後會收到警告提示砲彈來向。使{greenBright_Start}震盪的負面效果{greenBright_End}降低 %(stunResistanceEffectFactor)s&zwnbsp;。"
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "聲音偵測"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "敵方自走炮開火的提示。"
+
+msgid "commander_holdLine/alt/description"
+msgstr "乘員熟練度加成會提升乘員在戰鬥中的效率。\n\n藉由安裝具有類似效果的裝備或消耗品或使用「淨化通風管」技術指南，可進一步提升此參數。其他多種乘員歷練亦可提升此參數。"
+
+msgid "commander_holdLine/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "若在戰鬥中敵方隊伍車輛數比我方多出至少三輛，{yellow_Start}乘員熟練度加成{yellow_End}將提升 %(crewLevelIncrease)s&zwnbsp;。"
+
+msgid "commander_holdLine/hudDescription"
+msgstr "乘員熟練度加成已提升（敵方數量佔優勢）。"
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "當完成這項訓練時，若在戰鬥中敵方隊伍車輛數比我方多出至少三輛，{yellow_Start}乘員熟練度加成{yellow_End}提升 %(crewLevelIncrease)s&zwnbsp;。"
+
+msgid "commander_holdLine/name"
+msgstr "以寡敵眾"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ 提升乘員熟練度加成"
+
+msgid "commander_practical/alt/description"
+msgstr "此歷練適用於您車輛上安裝之任何類型的消耗品。\n\n藉由使用「萬全準備」技術指南，可進一步提升其效果。"
+
+msgid "commander_practical/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}消耗品冷卻時間{greenBright_End}已縮短 %(equipmentPreparationTime)s&zwnbsp;。"
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "當完成這項訓練時，{greenBright_Start}消耗品的冷卻時間{greenBright_End}縮短 %(equipmentPreparationTime)s&zwnbsp;。"
+
+msgid "commander_practical/name"
+msgstr "熟能生巧"
+
+msgid "commander_practical/shortDescription"
+msgstr "縮短消耗品冷卻時間。"
+
+msgid "commander_sixthSense/alt/description"
+msgstr "車長受傷時，「第六感」將停用。通訊員若已訓練「訊號攔截」歷練，可縮短啟用「第六感」的所需時間。"
+
+msgid "commander_sixthSense/alt/info"
+msgstr "此為特殊車長特長，不需訓練且預設為車長已擁有。"
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "使車長能夠確定車輛是否已被敵人發現。在車輛被偵察到 %(delay)s後啟用。"
+
+msgid "commander_sixthSense/name"
+msgstr "第六感"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "使車長能夠確定車輛是否已被敵人發現。"
+
+msgid "commander_staySharp/alt/description"
+msgstr "乘員熟練度加成會提升乘員在戰鬥中的效率。\n\n藉由安裝具有類似效果的裝備或消耗品或使用「淨化通風管」技術指南，可進一步提升此參數。其他多種乘員歷練亦可提升此參數。"
+
+msgid "commander_staySharp/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "使用急救包後，{yellow_Start}乘員熟練度加成{yellow_End}將提升 %(crewLevelIncrease)s，持續 15&nbsp;秒。即使未有乘員受傷，也能使用急救包&zwnbsp;。"
+
+msgid "commander_staySharp/hudDescription"
+msgstr "乘員熟練度加成已提升（已使用急救包）。"
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "當完成這項訓練時，使用急救包後，{yellow_Start}乘員熟練度加成{yellow_End}提升 %(crewLevelIncrease)s，持續 15 秒。即使未有乘員受傷，也能使用急救包&zwnbsp;。"
+
+msgid "commander_staySharp/name"
+msgstr "保持警覺"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ 提升乘員熟練度加成"
+
+msgid "commander_tutor/alt/description"
+msgstr "受傷的車長無法替代其他乘員。加成僅套用到戰鬥中獲得之乘員經驗的基本數量。\n\n使用乘員書籍或將自由經驗轉換為乘員經驗可額外獲得乘員經驗。"
+
+msgid "commander_tutor/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "所有乘員獲得的{greenBright_Start}經驗{greenBright_End}數量已增加 %(xpBonusFactorPerLevel)s。車長能以 %(woundedCrewEfficiency)s 的效率{greenBright_Start}替代昏迷乘員{greenBright_End} 。"
+
+msgid "commander_tutor/hudDescription"
+msgstr "車長已替代昏迷乘員。"
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "當完成這項訓練時，所有乘員所獲{greenBright_Start}經驗{greenBright_End}數量增加 %(xpBonusFactorPerLevel)s。讓車長能以 %(woundedCrewEfficiency)s 的效率{greenBright_Start}替代昏迷乘員{greenBright_End}。"
+
+msgid "commander_tutor/name"
+msgstr "良師益友"
+
+msgid "commander_tutor/shortDescription"
+msgstr "車長已替代昏迷乘員。"
+
+msgid "commander_universalist/alt/description"
+msgstr "車長僅可替代昏迷乘員的主要專長。替代效果會隨昏迷乘員數增加而降低。"
+
+msgid "commander_universalist/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效。效果隨進一步訓練提升。"
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "車長可{greenBright_Start}替代昏迷乘員{greenBright_End}，且僅具 %(woundedCrewEfficiency)s 的效率。"
+
+msgid "commander_universalist/hudDescription"
+msgstr "車長執行昏迷乘員的職責。"
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "當完成這項訓練時，使車長能夠{greenBright_Start}替代昏迷乘員{greenBright_End}，且僅具 %(woundedCrewEfficiency)s 的效率。"
+
+msgid "commander_universalist/name"
+msgstr "半桶水"
+
+msgid "commander_universalist/shortDescription"
+msgstr "使車長能夠替代昏迷的乘員。"
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "降低在一般軟地上行駛時，對車輛操控性與加速性的削弱幅度。大幅降低在軟地上行駛時，對這些特性的削弱幅度，來使之與在一般軟地上行駛時的狀況一致。\n在一般軟地與軟地上的操控性無法超過在硬地上的操控性。"
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}在一般軟地上行駛時的速度損失{greenBright_End}已降低 %(mediumGroundFactor)s&zwnbsp;，{greenBright_Start}在軟地上行駛時的速度損失{greenBright_End}已降低至一般軟地上行駛時結果數值的 %(softGroundFactor)s。"
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "當完成這項訓練時，{greenBright_Start}在一般軟地上行駛時的速度損失{greenBright_End}降低 %(mediumGroundFactor)s&zwnbsp;，{greenBright_Start}在軟地上行駛時的速度損失{greenBright_End}降低至一般軟地上行駛時結果數值的 %(softGroundFactor)s。"
+
+msgid "driver_badRoadsKing/name"
+msgstr "越野達人"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "乘員熟練度加成會提升乘員在戰鬥中的效率。\n\n藉由安裝具有類似效果的裝備或消耗品或使用「淨化通風管」技術指南，可進一步提升此參數。其他多種乘員歷練亦可提升此參數。"
+
+msgid "driver_bulletproof/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "若您阻擋的傷害超過您車輛的初始血量，{yellow_Start}乘員熟練度加成{yellow_End}將提升 %(crewLevelIncrease)s。"
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "乘員熟練度加成已提升（已阻擋足夠傷害）。"
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "當完成這項訓練時，若您阻擋的傷害超過您車輛的初始血量，{yellow_Start}乘員熟練度加成{yellow_End}提升 %(crewLevelIncrease)s。"
+
+msgid "driver_bulletproof/name"
+msgstr "鋼筋鐵骨"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "藉由安裝具有類似效果的裝備，可進一步提高車輛的最高速度，以及進一步降低引擎受損時，車輛特性的削弱幅度。"
+
+msgid "driver_motorExpert/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "您車輛的{greenBright_Start}最高前進速度{greenBright_End}與{greenBright_Start}後退速度{greenBright_End}已提高 %(vehicleForwardMaxSpeed)s。{greenBright_Start}受損引擎的削弱幅度{greenBright_End}已降低 %(vehPenaltyForDamagedEngine)s&zwnbsp;。"
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "受損引擎的削弱幅度已降低。"
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "當完成這項訓練時，您車輛的{greenBright_Start}最高前進速度{greenBright_End}與{greenBright_Start}後退速度{greenBright_End}提高 %(vehicleForwardMaxSpeed)s。{greenBright_Start}受損引擎的削弱幅度{greenBright_End}降低 %(vehPenaltyForDamagedEngine)s&zwnbsp;。"
+
+msgid "driver_motorExpert/name"
+msgstr "工程知識"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "受損引擎的削弱幅度已降低。"
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "該歷練在兩輛同隊車輛碰撞時無效。\n\n藉由安裝具有類似效果的裝備，可進一步降低您車輛受到的衝撞傷害。"
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}對敵方車輛的衝撞傷害{greenBright_End}已提高 %(damageEnemiesByRamming)s&zwnbsp;。 {greenBright_Start}您自身車輛受到的衝撞傷害{greenBright_End}已降低 %(vehicleRamDamageResistance)s&zwnbsp;，同時{greenBright_Start}您懸吊遭受的衝撞傷害{greenBright_End}已降低 %(vehicleRamChassisDamageResistance)s&zwnbsp;。"
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "當完成這項訓練時，{greenBright_Start}對敵方車輛的衝撞傷害{greenBright_End}提高 %(damageEnemiesByRamming)s&zwnbsp;。 {greenBright_Start}您自身車輛受到的衝撞傷害{greenBright_End}降低 %(vehicleRamDamageResistance)s&zwnbsp;，同時{greenBright_Start}您懸吊遭受的衝撞傷害{greenBright_End}降低 %(vehicleRamChassisDamageResistance)s&zwnbsp;。"
+
+msgid "driver_rammingMaster/name"
+msgstr "撞擊緩衝"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "減少自身車輛的衝撞傷害並增加對敵方車輛的衝撞傷害。"
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "藉由安裝具有類似效果的裝備，可進一步降低受到 HE 彈的傷害。"
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "{greenBright_Start}吸收的 HE 彈傷害{greenBright_End}已提高 %(vehicleHEShellDamageResistance)s&zwnbsp;。&nbsp;{greenBright_Start}引擎起火機率{greenBright_End}已降低 %(vehicleFireChance)s，且{greenBright_Start}對您懸吊造成的傷害{greenBright_End}已降低 %(suspensionDamageReduction)s&zwnbsp;。"
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "當完成這項訓練時，{greenBright_Start}吸收的 HE 彈傷害{greenBright_End}提高 %(vehicleHEShellDamageResistance)s&zwnbsp;。{greenBright_Start}引擎起火機率{greenBright_End}降低 %(vehicleFireChance)s且{greenBright_Start}對您懸吊造成的傷害{greenBright_End}降低 %(suspensionDamageReduction)s&zwnbsp;。"
+
+msgid "driver_reliablePlacement/name"
+msgstr "可靠配置"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "不會影響車輛靜止或車身迴轉時的準度。\n\n可使用「變速箱的奧妙」技術指南改善此歷練。藉由安裝具有類似效果的裝備或使用「穩定器潤滑」技術指南，可進一步改善移動時射擊的準度。"
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "移動時射擊的{greenBright_Start}炮管擴散度{greenBright_End}已降低 %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;。"
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "當完成這項訓練時，移動時射擊的{greenBright_Start}炮管擴散度{greenBright_End}降低 %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;。"
+
+msgid "driver_smoothDriving/name"
+msgstr "平穩駕駛"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "提高移動時的射擊準確度。"
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "距離隊友車輛 50 公尺內時，此歷練影響懸吊從「紅色」狀態轉為「黃色」狀態的修理速度。"
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "若距離隊友車輛少於 50 公尺，{yellow_Start}懸吊修理速度{yellow_End}將提高 %(suspensionRepairSpeed)s。"
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "懸吊修理速度已提高（隊友在附近）。"
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "當完成這項訓練時，若距離隊友少於 50 公尺，{yellow_Start}懸吊修理速度{yellow_End}提高 %(suspensionRepairSpeed)s。"
+
+msgid "driver_suspensionRepair/name"
+msgstr "戰場支援"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "安裝具有類似效果的裝備或消耗品可進一步提高車輛的防火性。若起火，「滅火」歷練將加速撲滅火災。"
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效。\n效果隨進一步訓練提升。"
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "{greenBright_Start}引擎起火機率{greenBright_End}已降低 %(vehicleFireChance)s&zwnbsp;。"
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "當完成這項訓練時，{greenBright_Start}引擎起火機率{greenBright_End}降低 %(vehicleFireChance)s&zwnbsp;。"
+
+msgid "driver_tidyPerson/name"
+msgstr "保養"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "降低引擎起火的機率。"
+
+msgid "driver_virtuoso/alt/description"
+msgstr "安裝具有類似效果的裝備或消耗品可進一步提高車身迴轉速度。"
+
+msgid "driver_virtuoso/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}車身迴轉速度{greenBright_End}已提高 %(vehicleAllGroundRotationSpeed)s&zwnbsp;。\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "當完成這項訓練時，您車輛的{greenBright_Start}車身迴轉速度{greenBright_End}提高 %(vehicleAllGroundRotationSpeed)s。"
+
+msgid "driver_virtuoso/name"
+msgstr "甩尾"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "提高車身迴轉速度。"
+
+msgid "fireFighting/alt/description"
+msgstr "此歷練影響火災造成的傷害與火災的持續時間。\n\n若兩名通訊員有此歷練，則會套用訓練程度的平均值。\n\n可使用「老練消防員」技術指南改善此歷練。"
+
+msgid "fireFighting/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}滅火速度{greenBright_End}已提高 %(fireExtinguishingRate)s&zwnbsp;。"
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "當完成這項訓練時，{greenBright_Start}滅火速度{greenBright_End}將提高 %(fireExtinguishingRate)s&zwnbsp;。"
+
+msgid "fireFighting/name"
+msgstr "滅火"
+
+msgid "fireFighting/shortDescription"
+msgstr "提高撲滅火災的能力。"
+
+msgid "gunner_armorer/alt/description"
+msgstr "預設條件下，潛在傷害與穿透力之範圍為基本數值的 ±25%。舉例來說，若砲彈可穿透厚達 100 毫米\n的裝甲並造成 100 血量的傷害，在命中目標時，\n此單發砲彈的實際穿透力數值可能落在 75 至 125 毫米之間，而實際造成的傷害則會在 75 至 125 血量之間。降低此變項將讓射擊結果較容易預測。\n\n若兩名炮手均有此歷練，則會套用訓練程度的平均值。"
+
+msgid "gunner_armorer/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "{greenBright_Start}潛在傷害{greenBright_End}與{greenBright_Start}潛在穿透力數值{greenBright_End}的浮動範圍已降低\n{greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s。{greenBright_Start}炮管擴散度{greenBright_End}已降低 %(shotDispersionAngle)s&zwnbsp;。"
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "當完成這項訓練時，{greenBright_Start}潛在傷害{greenBright_End}與{greenBright_Start}潛在穿透力數值{greenBright_End}的浮動範圍降低 {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s。{greenBright_Start}炮管擴散度{greenBright_End}降低 %(shotDispersionAngle)s&zwnbsp;。"
+
+msgid "gunner_armorer/name"
+msgstr "軍械士"
+
+msgid "gunner_focus/alt/description"
+msgstr "效果在車輛停止移動 3 秒後啟用且於再次移動後\n重置。\n\n若兩名炮手均有此歷練，則會套用訓練程度的平均值。"
+
+msgid "gunner_focus/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "車輛靜止時的{yellow_Start}炮管擴散度{yellow_End}將降低 %(shotDispersionAngle)s&zwnbsp;。"
+
+msgid "gunner_focus/hudDescription"
+msgstr "炮管擴散度已降低。"
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "當完成這項訓練時，車輛靜止時的{yellow_Start}炮管擴散度{yellow_End}降低 %(shotDispersionAngle)s&zwnbsp;。"
+
+msgid "gunner_focus/name"
+msgstr "屏氣凝神"
+
+msgid "gunner_focus/shortDescription"
+msgstr "降低車輛靜止時的炮管擴散度。"
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "藉由訓練相應乘員歷練，或安裝具有類似效果的裝備，可進一步改善炮管擴散度與瞄準速度。\n\n若兩名炮手均有此歷練，則會套用訓練程度的平均值。"
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "若半徑 300 公尺內無隊友，{yellow_Start}炮管擴散度{yellow_End}降低 %(vehicleGunAimSpeed)s，且{yellow_Start}瞄準速度{yellow_End}提高 %(vehicleGunAimSpeed)s。"
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "炮管擴散度與瞄準速度已改善（附近無隊友）。"
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "當完成這項訓練時，若半徑 300 公尺內無隊友車輛，{yellow_Start}炮管擴散度{yellow_End}降低，且{yellow_Start}瞄準速度{yellow_End}提高 %(vehicleGunAimSpeed)s。"
+
+msgid "gunner_loneWolf/name"
+msgstr "戰地孤狼"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ 炮管擴散度已降低。瞄準速度已提高。"
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "預設條件下，潛在最高穿透力為基本數值的 +25%。舉例來說，若砲彈可穿透厚達 100 毫米的裝甲，在命中目標時，此單發砲彈的最高潛在穿透力數值可達 125 毫米。提高此變項可提升穿透效率。\n\n若兩名炮手均有此歷練，則會套用訓練程度的平均值。"
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "若對距離少於 50 公尺的敵方車輛開火，您砲彈{yellow_Start}最高潛在穿透力{yellow_End}將提高 %(piercingHEShellsDistributionUpperBound)s。"
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "當完成這項訓練時，若對距離少於 50 公尺的敵方車輛開火，{yellow_Start}最高潛在穿透力{yellow_End}將提高 %(piercingHEShellsDistributionUpperBound)s。"
+
+msgid "gunner_pointBlast/name"
+msgstr "短兵相接"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ 提高您砲彈的最高潛在穿透力"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "若兩名炮手均有此歷練，則會套用訓練程度的平均值。\n\n藉由訓練車長的「協調合作」歷練或安裝具有類似效果的裝備，可進一步提高瞄準速度。\n\n藉由安裝具有類似效果的裝備或消耗品，可進一步提高炮塔迴轉速度。"
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}瞄準速度{greenBright_End}與{greenBright_Start}炮塔迴轉速度{greenBright_End}已提高 %(vehicleGunAimSpeed)s&zwnbsp;。"
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "當完成這項訓練時，{greenBright_Start}瞄準速度{greenBright_End}與{greenBright_Start}炮塔迴轉速度{greenBright_End}提高 %(vehicleGunAimSpeed)s&zwnbsp;。"
+
+msgid "gunner_quickAiming/name"
+msgstr "快速瞄準"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "瞄準速度已提高。"
+
+msgid "gunner_rancorous/alt/description"
+msgstr "在炮手的可視範圍內，探知目標車輛的配件受損情況，在直接與間接射擊模式均有效。\n炮手的可視區域定義為車輛之炮管與可視範圍正前方的 ±10 度扇形區域（共 20 度）。\n若兩名炮手均有此歷練，則會套用訓練程度的平均值。\n可使用「全神貫注」技術指南進一步改善此歷練。藉由安裝「改良型通訊設備組」，可進一步延長敵方車輛可持續被見到的時間。"
+
+msgid "gunner_rancorous/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "在炮手可視範圍內，{greenBright_Start}敵方車輛可持續被見到{greenBright_End}的{greenBright_Start}時間{greenBright_End}已延長 %(vehicleEnemySpottingTime)s。{yellow_Start}探知受損配件{yellow_End}的延遲時間已縮短為 %(damageMonitoringDelay)s&zwnbsp;。"
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "當完成這項訓練時，在炮手可視範圍內之{greenBright_Start}敵方車輛可持續被見到{greenBright_End}的{greenBright_Start}時間{greenBright_End}延長 %(vehicleEnemySpottingTime)s。在 %(damageMonitoringDelay)s的延遲後，可{yellow_Start}探知受損配件{yellow_End}。"
+
+msgid "gunner_rancorous/name"
+msgstr "鎖定目標"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "延長炮手可視範圍內敵方車輛可持續被見到的時間。可探知受損配件。"
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "若兩名炮手均有此歷練，則會套用訓練程度的平均值。\n\n可使用「沉穩的手法」技術指南改善此歷練。藉由安裝具有類似效果的裝備或使用「穩定器潤滑」技術指南，可進一步降低炮塔迴轉時的炮管擴散度。"
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "炮塔迴轉時的{greenBright_Start}炮管擴散度{greenBright_End}已降低 %(turretAimingDispersion)s&zwnbsp;。"
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "當完成這項訓練時，炮塔迴轉時的{greenBright_Start}炮管擴散度{greenBright_End}降低 %(turretAimingDispersion)s&zwnbsp;。"
+
+msgid "gunner_smoothTurret/name"
+msgstr "猛然一擊"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "降低炮塔迴轉時的炮管擴散度。"
+
+msgid "gunner_sniper/alt/description"
+msgstr "效果適用於所有類型的砲彈，但不包括自動火炮車輛的砲彈。\n\n若兩名炮手均有此歷練，則會套用訓練程度的平均值。"
+
+msgid "gunner_sniper/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "使用任何類型砲彈對敵方{greenBright_Start}車輛配件{greenBright_End}造成{greenBright_Start}嚴重傷害{greenBright_End}的機率與使敵方{greenBright_Start}乘員{greenBright_End}受傷的機率已提高 %(enemyModulesCrewCritChance)s&zwnbsp;。"
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "當完成這項訓練時，以任何類型砲彈對敵方{greenBright_Start}車輛配件{greenBright_End}造成{greenBright_Start}嚴重傷害{greenBright_End}的機率與使敵方{greenBright_Start}乘員{greenBright_End}受傷的機率提高 %(enemyModulesCrewCritChance)s&zwnbsp;。"
+
+msgid "gunner_sniper/name"
+msgstr "死亡之眼"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "預設條件下，潛在傷害與穿透力的最小值為基本數值的 -25%。舉例來說，若砲彈可穿透厚達 100 毫米\n的裝甲並造成 100 血量的傷害，在命中目標時，\n此單發砲彈的最低穿透力數值可能落在 75 毫米，\n而可能造成的最低傷害則為 75 血量。\n提高此變項可提升射擊效率。\n\n若兩名裝填手有此歷練，則會套用訓練程度的平均值。"
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}最低潛在傷害{greenBright_End}與{greenBright_Start}最低潛在穿透力數值{greenBright_End}已提高\n%(damageAndPiercingDistributionLowerBound)s&zwnbsp;。"
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "當完成這項訓練時，{greenBright_Start}最低潛在傷害{greenBright_End}與{greenBright_Start}最低潛在穿透力數值{greenBright_End}提高 %(damageAndPiercingDistributionLowerBound)s&zwnbsp;。"
+
+msgid "loader_ammunitionImprove/name"
+msgstr "砲彈調節"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "提高平均傷害與穿透力數值。"
+
+msgid "loader_desperado/alt/description"
+msgstr "若兩名裝填手有此歷練，則會套用訓練程度的平均值。\n\n藉由訓練裝填手的「近距離作戰」歷練或安裝具有類似效果的裝備，可進一步縮短裝填時間。使用\n「整齊的彈藥架」技術指南會改善效果。"
+
+msgid "loader_desperado/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "若車輛血量低於 25%，{yellow_Start}炮管裝填時間{yellow_End}將縮短\n%(vehicleGunReloadTime)s。"
+
+msgid "loader_desperado/hudDescription"
+msgstr "炮管裝填時間已縮短（車輛耐久性偏低）。"
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "當完成這項訓練時，若您車輛的血量低於 25%，{yellow_Start}炮管裝填時間{yellow_End}縮短 %(vehicleGunReloadTime)s。"
+
+msgid "loader_desperado/name"
+msgstr "腎上腺素激升"
+
+msgid "loader_desperado/shortDescription"
+msgstr "若車輛血量低於 25% ，炮管裝填速度加快。"
+
+msgid "loader_intuition/alt/description"
+msgstr "要啟用此歷練，炮管、雙管火炮或彈匣必須已裝填好。標準炮管切換砲彈的最短時間為 1 秒，\n而雙管火炮與彈匣式炮管為 2.5 秒。\n\n若兩名裝填手有此歷練，則會套用訓練程度的平均值。"
+
+msgid "loader_intuition/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "已裝填炮管{greenBright_Start}切換砲彈類型的時間{greenBright_End}已縮短 %(vehicleReloadTimeAfterShellChange)s&zwnbsp;。"
+
+msgid "loader_intuition/hudDescription"
+msgstr "已裝填炮管切換砲彈類型的時間已縮短。\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "當完成這項訓練時，已裝填炮管{greenBright_Start}切換砲彈類型的時間{greenBright_End}縮短 %(vehicleReloadTimeAfterShellChange)s&zwnbsp;。"
+
+msgid "loader_intuition/name"
+msgstr "直覺"
+
+msgid "loader_intuition/shortDescription"
+msgstr "大幅提高已裝填炮管內切換砲彈類型的速度。"
+
+msgid "loader_magMastery/alt/description"
+msgstr "此歷練僅縮短彈匣式炮管的裝填時間，且不影響其他類型的炮管系統。\n\n若兩名裝填手有此歷練，則會套用訓練程度的平均值。"
+
+msgid "loader_magMastery/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "彈匣{greenBright_Start}裝填時間{greenBright_End}已縮短 %(magazineGunReloadSpeed)s。"
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "當完成這項訓練時，彈匣{greenBright_Start}裝填時間{greenBright_End}縮短 %(magazineGunReloadSpeed)s。"
+
+msgid "loader_magMastery/name"
+msgstr "彈匣精通"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ 縮短彈匣裝填時間"
+
+msgid "loader_melee/alt/description"
+msgstr "若兩名裝填手有此歷練，則會套用訓練程度的平均值。\n\n藉由訓練裝填手的「腎上腺素激升」歷練或安裝具有類似效果的裝備，可進一步縮短炮管裝填時間。使用「整齊的彈藥架」技術指南會改善效果。"
+
+msgid "loader_melee/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "若距離敵人少於 50 公尺，{yellow_Start}炮管裝填時間{yellow_End}將縮短\n%(vehicleGunReloadTime)s。"
+
+msgid "loader_melee/hudDescription"
+msgstr "炮管裝填時間已縮短（附近有敵人）。\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "當完成這項訓練時，若距離敵人少於 50 公尺，{yellow_Start}炮管裝填時間{yellow_End}縮短 %(vehicleGunReloadTime)s。"
+
+msgid "loader_melee/name"
+msgstr "近距離作戰"
+
+msgid "loader_melee/shortDescription"
+msgstr "加快近距離戰鬥下的炮管裝填。"
+
+msgid "loader_pedant/alt/description"
+msgstr "裝填手受傷不會影響此歷練的效率。\n\n若兩名裝填手有此歷練，則會套用訓練程度的平均值。\n\n可使用「砲彈分類」技術指南改善此歷練。藉由安裝具有類似效果的裝備，可進一步提高彈藥架的耐久性。"
+
+msgid "loader_pedant/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}彈藥架耐久性{greenBright_End}已提高 %(vehicleAmmoBayStrength)s&zwnbsp;。\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "當完成這項訓練時，您車輛的{greenBright_Start}彈藥架耐久性{greenBright_End}提高 %(vehicleAmmoBayStrength)s&zwnbsp;。"
+
+msgid "loader_pedant/name"
+msgstr "安全堆放"
+
+msgid "loader_pedant/shortDescription"
+msgstr "提高彈藥架耐久性。"
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "效果適用於所有類型的砲彈。\n\n裝填手受傷不會影響此歷練的效率。\n\n若兩名裝填手有此歷練，則會套用訓練程度的平均值。"
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}砲彈速度{greenBright_End}已提高 %(shellVelocity)s&zwnbsp;。"
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "當完成這項訓練時，發射的{greenBright_Start}砲彈速度{greenBright_End}提高 %(shellVelocity)s&zwnbsp;。"
+
+msgid "loader_perfectCharge/name"
+msgstr "完美彈速"
+
+msgid "loader_secondChance/alt/description"
+msgstr "此歷練對彈匣式炮管或自動火炮無效，且對雙管火炮的效果不會疊加。\n\n對於具有選擇性裝填系統的炮管，若兩門炮管均已開火且均未造成傷害，炮管裝填時間縮短的效果將同時套用於兩門炮管。\n\n若兩名裝填手有此歷練，則會套用訓練程度的平均值。\n\n藉由訓練裝填手的「腎上腺素激升」或「近距離作戰」歷練，或安裝具有類似效果的裝備，可進一步縮短炮管裝填時間。使用「整齊的彈藥架」技術指南會改善效果。"
+
+msgid "loader_secondChance/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "若前一發砲彈未對敵方車輛造成傷害，下一發砲彈的{yellow_Start}炮管裝填時間{yellow_End}將縮短 %(vehicleGunReloadTime)s。"
+
+msgid "loader_secondChance/hudDescription"
+msgstr "炮管裝填時間縮短（未命中）。"
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "當完成這項訓練時，若前一發砲彈未對敵方車輛造成傷害，下一發砲彈的{yellow_Start}炮管裝填時間{yellow_End}縮短 %(vehicleGunReloadTime)s。"
+
+msgid "loader_secondChance/name"
+msgstr "二次機會"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ 縮短炮管裝填時間"
+
+msgid "measureType/meters"
+msgstr "%s 公尺"
+
+msgid "measureType/mph"
+msgstr "%s 公里/小時"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s 秒"
+
+msgid "offspring_brotherhood/name"
+msgstr "樂團兄弟"
+
+msgid "perkRole/commander"
+msgstr "車長"
+
+msgid "perkRole/common"
+msgstr "團體"
+
+msgid "perkRole/driver"
+msgstr "駕駛"
+
+msgid "perkRole/gunner"
+msgstr "炮手"
+
+msgid "perkRole/loader"
+msgstr "裝填手"
+
+msgid "perkRole/radioman"
+msgstr "通訊員"
+
+msgid "popularity/tooltip/common"
+msgstr "的全體玩家所偏好"
+
+msgid "popularity/tooltip/header"
+msgstr "此車輛專屬"
+
+msgid "popularity/tooltip/legendary"
+msgstr "的「傳奇」評價玩家所偏好"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "若兩名通訊員有此歷練，則會套用訓練程度的平均值。\n\n效果可藉由車長的「聲音偵測」歷練進一步改善。"
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "每當乘員受到震盪，{greenBright_Start}震盪的負面效果{greenBright_End}降低 %(stunResistanceEffectFactor)s，最高可達 30%。"
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "當完成這項訓練時，若車輛乘員受到震盪，{greenBright_Start}震盪的負面效果{greenBright_End}降低 %(stunResistanceEffectFactor)s&nbsp;，最高可達 30%。"
+
+msgid "radioman_battleTempered/name"
+msgstr "戰鬥淬鍊"
+
+msgid "radioman_expert/alt/description"
+msgstr "乘員熟練度加成會提升乘員在戰鬥中的效率。若兩名通訊員有此歷練，則會套用訓練程度的平均值。藉由安裝具有類似效果的裝備或消耗品，或使用\n「淨化通風管」技術指南，可進一步提升此參數。團體歷練「情同手足」、車長的「應急手段」歷練或通訊員的「並排奮戰」歷練，亦可提升此參數。"
+
+msgid "radioman_expert/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "若您協助傷害的血量，超過您車輛的初始血量，{yellow_Start}乘員熟練度加成{yellow_End}將提升 %(crewLevelIncrease)s&zwnbsp;。"
+
+msgid "radioman_expert/hudDescription"
+msgstr "乘員熟練度加成已提升（協助傷害已達標）。"
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "當完成這項訓練時，若您協助傷害的血量超過您車輛的初始血量，{yellow_Start}乘員熟練度加成{yellow_End}提升 %(crewLevelIncrease)s&zwnbsp;。"
+
+msgid "radioman_expert/name"
+msgstr "通訊技術"
+
+msgid "radioman_expert/shortDescription"
+msgstr "乘員表現已提升。"
+
+msgid "radioman_finder/alt/description"
+msgstr "若兩名通訊員有此歷練，則會套用訓練程度的平均值。\n\n藉由訓練「偵察」歷練或安裝具有類似效果的裝備可進一步擴大可視範圍。使用「光學校準」技術指南會改善效果。"
+
+msgid "radioman_finder/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}可視範圍{greenBright_End}已擴大 %(vehicleCircularVisionRadius)s&zwnbsp;。"
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "當完成這項訓練時，您車輛的 {greenBright_Start}可視範圍{greenBright_End}擴大 %(vehicleCircularVisionRadius)s&zwnbsp;。"
+
+msgid "radioman_finder/name"
+msgstr "預測形勢"
+
+msgid "radioman_finder/shortDescription"
+msgstr "擴大可視範圍。"
+
+msgid "radioman_interference/alt/description"
+msgstr "若兩名通訊員有此歷練，則會套用訓練程度的平均值。\n\n藉由安裝具有類似效果的裝備，可進一步縮短您車輛持續被偵察到的時間。"
+
+msgid "radioman_interference/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "敵人可{greenBright_Start}持續偵察到您車輛的時間{greenBright_End}已縮短 %(vehicleOwnSpottingTime)s&zwnbsp;。"
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "當完成這項訓練時，敵人可{greenBright_Start}持續偵察到您車輛的時間{greenBright_End}縮短 %(vehicleOwnSpottingTime)s&zwnbsp;。"
+
+msgid "radioman_interference/name"
+msgstr "訊號干擾"
+
+msgid "radioman_interference/shortDescription"
+msgstr "縮短您車輛可持續被敵人見到的時間。"
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "若兩名通訊員有此歷練，僅會套用較高的數值。效果僅會在車輛遭摧毀且通訊員未受傷時啟用。\n\n此歷練可在使用「勤務優先」技術指南時進一步改善。"
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效。效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "在您車輛遭摧毀後，通訊員有額外 %(radiomanDurationPerLevel)s的時間{yellow_Start}回報敵人位置{yellow_End}。"
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "回報位置中。"
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "當完成這項訓練時，在您車輛遭摧毀後，通訊員有額外 %(radiomanDurationPerLevel)s的時間{yellow_Start}回報敵人位置{yellow_End}。"
+
+msgid "radioman_lastEffort/name"
+msgstr "垂死掙扎"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "在您車輛遭摧毀後的一小段時間內，回報敵人位置。"
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "乘員熟練度加成會提升乘員在戰鬥中的效率。若兩名通訊員有此歷練，則會套用訓練程度的平均值。藉由安裝具有類似效果的裝備或消耗品，或使用\n「淨化通風管」技術指南，可進一步提升此參數。團體歷練「情同手足」、車長的「應急手段」歷練或通訊員的「通訊技術」歷練，亦可提升此參數。"
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "若距離同類型的隊友車輛少於 50 公尺，{yellow_Start}乘員熟練度加成{yellow_End}將提升 %(crewLevelIncrease)s&zwnbsp;。"
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "乘員熟練度加成已提升（附近有同類型的隊友車輛）。"
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "當完成這項訓練時，若您距離同類型的隊友車輛少於 50 公尺，{yellow_Start}乘員熟練度加成{yellow_End}提升 %(crewLevelIncrease)s&zwnbsp;。"
+
+msgid "radioman_sideBySide/name"
+msgstr "並排奮戰"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "乘員表現已提升。"
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "效果會改善車長的「第六感」特長，加快其啟用速度。\n\n若兩名通訊員有此歷練，則會套用訓練程度的平均值。"
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "歷練會在訓練到至少 1% 時生效，效果隨進一步訓練提升。"
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "判斷敵人{greenBright_Start}是否已發現您車輛{greenBright_End}所需的{greenBright_Start}時間{greenBright_End}已縮短\n%(commanderLampDelay)s。"
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "當完成這項訓練時，判斷敵人{greenBright_Start}是否已發現您車輛{greenBright_End}所需的{greenBright_Start}時間{greenBright_End}縮短 %(commanderLampDelay)s。"
+
+msgid "radioman_signalInterception/name"
+msgstr "訊號攔截"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "此歷練會在「第六感」警示車輛已經被偵察到時啟用。\n\n若兩名通訊員有此歷練，則會套用訓練程度的平均值。\n\n藉由訓練「偵察」或「預測形勢」歷練，或安裝具有類似效果的裝備，可進一步擴大可視範圍。使用「光學校準」技術指南會改善效果。"
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "具有觸發式效果的歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。在戰鬥中滿足特定條件時，將啟動觸發式效果。"
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "收到「第六感」警示後，{yellow_Start}可視範圍{yellow_End}將擴大 %(vehicleCircularVisionRadius)s，持續 5 秒。"
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "可視範圍已擴大。"
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "當完成這項訓練時，收到「第六感」警示後，{yellow_Start}可視範圍{yellow_End}擴大 %(vehicleCircularVisionRadius)s，持續 5 秒。"
+
+msgid "radioman_threatSearch/name"
+msgstr "威脅感應"
+
+msgid "repair/alt/description"
+msgstr "此歷練影響車輛內部與外部配件從「紅色」狀態轉為「黃色」狀態的修理速度。\n\n藉由安裝具有類似效果的裝備或消耗品，可進一步提升此參數。"
+
+msgid "repair/alt/info"
+msgstr "就團體歷練而言，會考量所有乘員的平均訓練程度。歷練會在訓練到至少 1% 時生效且效果隨進一步訓練提升。"
+
+msgid "repair/currentLvlDescription"
+msgstr "車輛受損配件的{greenBright_Start}修理速度{greenBright_End}已提高 %(vehicleRepairSpeed)s&zwnbsp;。"
+
+msgid "repair/maxLvlDescription"
+msgstr "當所有乘員完成這項訓練時，車輛受損配件的{greenBright_Start}修理速度{greenBright_End}提高 %(vehicleRepairSpeed)s&zwnbsp;。"
+
+msgid "repair/name"
+msgstr "修理"
+
+msgid "repair/shortDescription"
+msgstr "提高受損配件的修理速度。"
+
+msgid "sabaton_brotherhood/name"
+msgstr "樂團兄弟"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "熱門"
+
+msgid "sorting/fallback"
+msgstr "預設"
+
+msgid "sorting/legendary"
+msgstr "傳奇"
+
+msgid "sorting/title"
+msgstr "排序方式："
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)s熱門：%(whiteSpanish_Close)s根據全體《戰車世界》玩家當前的歷練使用趨勢"
+
+msgid "sorting/tooltip/header"
+msgstr "「戰車世界 Plus」的好處"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "獲取根據上百萬場戰鬥分析得來的準確乘員歷練資料並在每場戰鬥中充分發揮"
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)s傳奇：%(whiteSpanish_Close)s根據《戰車世界》評價為「傳奇」之玩家當前偏好的裝配組合"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "歷練排序已關閉"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "無資料可用"
+
+msgid "sorting/tooltip/title"
+msgstr "乘員助手"
+
+msgid "sorting/tooltip/types"
+msgstr "歷練排序類型"
+
+msgid "sorting/tooltip/warning"
+msgstr "歷練排序不可用"
+
+msgid "sorting/tooltip/warningText"
+msgstr "此車輛尚無完整的歷練資料，因此已套用預設的歷練排序。"
+
+msgid "witches_brotherhood/name"
+msgstr "女巫連心"
+
+msgid "yha_brotherhood/name"
+msgstr "兔子兄弟"

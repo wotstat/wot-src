@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "军团的{role}"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "账号状态"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "返回"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "您可以在{}替换地图。"
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "显示/隐藏此地图类型。"
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "沙漠地图"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "夏季地图"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "冬季地图"
+
+msgid "mapsBlacklist/header"
+msgstr "屏蔽地图"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "从游戏轮换地图中屏蔽一张不想要的地图。若有《坦克世界》高级账号可再屏蔽一张地图，若有“坦克世界Plus”则能再屏蔽%(mapCount)s张。若其中一个订阅到期，已屏蔽地图槽位中最右方的地图，将重新回到轮换列表。"
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "屏蔽地图"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "这些地图仅会从随机战中屏蔽。"
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "您可每隔%(maxCooldownTimeStr)s替换一张屏蔽的地图。"
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "此功能仅限IV级与以上战车可用。"
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "在小队中，只会屏蔽小队指挥官选择的地图。"
+
+msgid "mapsBlacklist/mapName"
+msgstr "“{mapName}”"
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "显示地图：{count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "显示地图：{count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "地图类型："
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "取消"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "关闭"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "所选地图将被替换为 {mapNameStr}。您在{cooldownStr}后可以更改选择。"
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "您想替换哪张地图？"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "屏蔽"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "选择一张你想替换的地图"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "取消"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "关闭"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "您在{cooldownStr}后可更改选择。"
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "确定在随机战中屏蔽{mapNameStr}吗？"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "屏蔽"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "屏蔽"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "屏蔽地图{mapNameStr}吗？"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "包含"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "确定在随机战中包含{mapNameStr}？"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "您在{cooldownStr}后可替换这张地图。"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "无法替换地图"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "您在{cooldownStr}后可替换这张地图。"
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "无法替换地图"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "未选择"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "点击选择一张要在随机战中屏蔽的地图。"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "未选择地图"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "被屏蔽的地图{mapName}可以替换为另一张地图。"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "可以替换地图"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "您在{cooldownStr}后可替换地图{mapName}。"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "无法替换地图"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "只有激活《坦克世界》高级账号才开放额外车位。"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "车位不可用"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "从下面的列表中选择一张要在随机战中屏蔽的地图。"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "未选择地图"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "从下面的列表中选择一张要在随机战中屏蔽的地图。"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "可以替换地图"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "您在{cooldownStr}后可替换这张地图。"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "无法替换地图"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "只有激活《坦克世界》高级账号才能获得额外的屏蔽地图槽位。"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "车位不可用"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "取消"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "您在{whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}后可更改选择。"
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "替换"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "屏蔽"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "确定在随机战中屏蔽%(mapName)s地图吗？"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "所选地图将被替换为{whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}地图。您可以在%(cooldownTimeStr)s后更改选择。"
+
+msgid "mapsBlacklistReplace/title"
+msgstr "您想替换哪张地图？"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "此地图将被替换为{whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}地图。您可以在%(cooldownTimeStr)s后更改选择。"
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "您是否要替换此地图？"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "此账号已启用家长控制。\n您可以{link}了解有关家长控制限制的更多信息。"
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "家长控制"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "在游戏门户网站上"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "银币储备"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s天"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s时"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1分钟"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s分钟"

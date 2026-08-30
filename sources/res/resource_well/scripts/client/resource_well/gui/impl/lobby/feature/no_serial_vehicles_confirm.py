@@ -1,0 +1,70 @@
+from __future__ import absolute_import
+from frameworks.wulf import ViewSettings
+from gui.impl.gen import R
+from gui.impl.lobby.dialogs.full_screen_dialog_view import FullScreenDialogView
+from helpers import dependency
+from resource_well.gui.feature.resource_well_helpers import fillVehicleCounter
+from resource_well.gui.impl.gen.view_models.views.lobby.no_serial_vehicles_confirm_model import NoSerialVehiclesConfirmModel
+from resource_well.gui.impl.lobby.feature.sounds import RESOURCE_WELL_SOUND_SPACE
+from skeletons.gui.resource_well import IResourceWellController
+
+class NoSerialVehiclesConfirm(FullScreenDialogView):
+    _COMMON_SOUND_SPACE = RESOURCE_WELL_SOUND_SPACE
+    __resourceWell = dependency.descriptor(IResourceWellController)
+
+    def __init__(self, rewardID, *args, **kwargs):
+        settings = ViewSettings(R.views.resource_well.mono.lobby.no_serial_vehicles_confirm(), model=NoSerialVehiclesConfirmModel(), args=args, kwargs=kwargs)
+        super(NoSerialVehiclesConfirm, self).__init__(settings)
+        self.__rewardID = rewardID
+        self.__additionalData = {}
+        return
+
+    @property
+    def viewModel(self):
+        return super(NoSerialVehiclesConfirm, self).getViewModel()
+
+    def _onLoading(self, *args, **kwargs):
+        super(NoSerialVehiclesConfirm, self)._onLoading(*args, **kwargs)
+        with self.viewModel.transaction() as model:
+            fillVehicleCounter(self.__rewardID, vehicleCounterModel=model.vehicleCounter, resourceWell=self.__resourceWell)
+            model.setVehicleName(self.__resourceWell.getRewardVehicle(self.__rewardID).shortUserName)
+        return
+
+    def _addListeners(self):
+        self.viewModel.confirm += self._onAccept
+        self.viewModel.cancel += self.__onCancelAction
+        self.viewModel.close += self.__onCancelAction
+        self.__resourceWell.onNumberRequesterUpdated += self.__onNumberRequesterUpdated
+        self.__resourceWell.onEventUpdated += self.__onEventStateUpdated
+        self.__resourceWell.onSettingsChanged += self.__onEventStateUpdated
+        return
+
+    def _removeListeners(self):
+        self.viewModel.confirm -= self._onAccept
+        self.viewModel.cancel -= self.__onCancelAction
+        self.viewModel.close -= self.__onCancelAction
+        self.__resourceWell.onNumberRequesterUpdated -= self.__onNumberRequesterUpdated
+        self.__resourceWell.onEventUpdated -= self.__onEventStateUpdated
+        self.__resourceWell.onSettingsChanged -= self.__onEventStateUpdated
+        return
+
+    def _getAdditionalData(self):
+        return self.__additionalData
+
+    def _setBaseParams(self, model):
+        return
+
+    def __onNumberRequesterUpdated(self):
+        with self.viewModel.transaction() as model:
+            fillVehicleCounter(self.__rewardID, vehicleCounterModel=model.vehicleCounter, resourceWell=self.__resourceWell)
+        return
+
+    def __onEventStateUpdated(self):
+        if not self.__resourceWell.isActive():
+            self._onCancel()
+        return
+
+    def __onCancelAction(self):
+        self.__additionalData[b'isUserCancelAction'] = True
+        self._onCancel()
+        return

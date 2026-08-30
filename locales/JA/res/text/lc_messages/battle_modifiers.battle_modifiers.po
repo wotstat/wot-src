@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "砲弾が命中するか否かに影響する各種のパラメーターです。"
+
+msgid "domain/accuracy/name"
+msgstr "射撃精度"
+
+msgid "domain/armorPiercing/description"
+msgstr "敵の装甲を貫通できるか否かに影響する各種のパラメーターです。"
+
+msgid "domain/armorPiercing/name"
+msgstr "貫通性能"
+
+msgid "domain/battleParams/description"
+msgstr "ゲームプレイに影響する各種の基礎的なパラメーターです。"
+
+msgid "domain/battleParams/name"
+msgstr "基礎性能"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "本モードの戦闘では、モード専用の「パラメーター調整因子」が有効になっています。"
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "「オンスロート・ライト」専用のパラメーター調整因子"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "「オンスロート」の戦闘では、モード専用の「パラメーター調整因子」が有効になっています。"
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "「オンスロート」専用のパラメーター調整因子"
+
+msgid "domain/concealment/description"
+msgstr "敵に発見されるか否かに影響する各種のパラメーターです。"
+
+msgid "domain/concealment/name"
+msgstr "隠蔽性能"
+
+msgid "domain/damageDealing/description"
+msgstr "敵に与えられるダメージ量に影響する各種のパラメーターです。"
+
+msgid "domain/damageDealing/name"
+msgstr "火力性能"
+
+msgid "domain/mobility/description"
+msgstr "走行速度や動力性能など総合的な機動力に影響する各種のパラメーターです。"
+
+msgid "domain/mobility/name"
+msgstr "機動性能"
+
+msgid "domain/randomization/description"
+msgstr "潜在的なダメージや貫通力の変動幅に影響する各種のパラメーターです。"
+
+msgid "domain/randomization/name"
+msgstr "ランダム要素"
+
+msgid "domain/sustaining/description"
+msgstr "損傷または大破したモジュールの修理速度や負傷した搭乗員の回復速度に影響する各種のパラメーターです。"
+
+msgid "domain/sustaining/name"
+msgstr "復旧性能"
+
+msgid "domain/visibility/description"
+msgstr "敵を発見できるか否かに影響する各種のパラメーターです。"
+
+msgid "domain/visibility/name"
+msgstr "視認性能"
+
+msgid "domain/vitality/description"
+msgstr "どれだけのダメージに耐えられるかに影響する各種のパラメーターです。"
+
+msgid "domain/vitality/name"
+msgstr "耐久性能"
+
+msgid "modifier/name/aimingTime"
+msgstr "照準時間"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "弾薬庫の耐久性"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "自動再装填時間"
+
+msgid "modifier/name/battleLength"
+msgstr "戦闘時間"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "最大後退速度"
+
+msgid "modifier/name/burstInterval"
+msgstr "完全装填時間"
+
+msgid "modifier/name/chassisHealth"
+msgstr "履帯の耐久性"
+
+msgid "modifier/name/clipInterval"
+msgstr "弾倉内装填時間"
+
+msgid "modifier/name/damageRandomization"
+msgstr "与ダメージの変動幅"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "内部モジュールへのダメージ"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "射撃に伴う散布界の拡大"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "移動に伴う散布界の拡大"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "車体旋回に伴う散布界の拡大"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "砲塔旋回に伴う散布界の拡大"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "主砲損傷に伴う散布界の拡大"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "エンジンの火災発生率"
+
+msgid "modifier/name/engineHealth"
+msgstr "エンジンの耐久性"
+
+msgid "modifier/name/enginePower"
+msgstr "エンジン出力"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "衝撃によるサスペンションへのダメージ"
+
+msgid "modifier/name/envHullDamage"
+msgstr "衝撃による車体へのダメージ"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "衝撃による他のモジュールへのダメージ発生率"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "衝撃による搭乗員の負傷率"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "消耗品のクールダウン時間"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "燃料タンクの耐久性"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "最大前進速度"
+
+msgid "modifier/name/gravityFactor"
+msgstr "車輌に作用する重力"
+
+msgid "modifier/name/gunHealth"
+msgstr "主砲の耐久性"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "主砲の旋回速度 (無砲塔車輌)"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "移動中の隠蔽率"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "静止中の隠蔽率"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "砲弾の標準化"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "貫通力の変動幅"
+
+msgid "modifier/name/radioDistance"
+msgstr "通信範囲"
+
+msgid "modifier/name/reloadTime"
+msgstr "装填時間"
+
+msgid "modifier/name/repairSpeed"
+msgstr "修理速度"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "跳弾角度 (命中時の弾道が装甲に対して平行に近いほど跳弾する確率が上昇)"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "車体の旋回速度"
+
+msgid "modifier/name/shellGravity"
+msgstr "砲弾に作用する重力"
+
+msgid "modifier/name/shellSpeed"
+msgstr "弾速"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "100 mでの散布界"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "観測装置の耐久性"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "吹き飛んだ砲塔の圧力により生じるダメージ"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "吹き飛んだ砲塔が命中した際に生じるダメージ"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "砲塔の旋回速度"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "砲塔旋回装置の耐久性"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "斉射モードでの装填時間"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "描画範囲"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "車輌HP"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "圧力によるダメージ"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "体当たりによるダメージ"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "強制発見範囲"
+
+msgid "modifier/name/visionRadius"
+msgstr "視認範囲"
+
+msgid "modifier/name/visionTime"
+msgstr "被発見状態の持続時間"
+
+msgid "modifier/name/zeroDamage"
+msgstr "自車輌の射撃と体当たりによる与ダメージ"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "モードの戦闘で消費または獲得するリソース"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "最大{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "最低{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(※{restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(※{min}～{max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "こちらの調整因子によって変動するのは以下のパラメーターです。"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "こちらの調整因子によって変動するのは以下のパラメーターです。"

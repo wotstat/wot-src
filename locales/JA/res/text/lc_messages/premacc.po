@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "クランの{role}"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "アカウントステータスへ"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "戻る"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "マップが変更可能になるまで残り {}"
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "このタイプのマップの表示/非表示を切り替えます。"
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "砂漠マップ"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "夏季マップ"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "冬季マップ"
+
+msgid "mapsBlacklist/header"
+msgstr "マップフィルター"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "選択したマップをローテーションから除外できます。除外スロットは、WoTプレミアムアカウントがあれば追加でもう1枠、「WoT Plus」でさらに%(mapCount)s枠増やすことができます。いずれかのサブスクリプションの期限が切れると、除外されたマップは右端のスロットから順にローテーションに戻ります。"
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "マップフィルター"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "これらのマップは「ランダム戦」でのみ除外されます。"
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "除外するマップは%(maxCooldownTimeStr)sごとに選択し直すことができます。"
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "この機能はTier IV以上の車輌が対象です。"
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "小隊プレイ時は、指揮官が選択したマップのみが除外されます。"
+
+msgid "mapsBlacklist/mapName"
+msgstr "{mapName}"
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "表示中のマップ: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "表示中のマップ: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "マップタイプ"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "キャンセル"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "閉じる"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "選択中のマップを「{mapNameStr}」に変更します。マップ変更可能まで {cooldownStr}"
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "変更したいマップを選択してください"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "除外"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "変更したいマップを選択"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "キャンセル"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "閉じる"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "マップ変更可能まで {cooldownStr}"
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "「ランダム戦」からマップ「{mapNameStr}」を除外しますか?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "除外"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "除外"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "マップ「{mapNameStr}」を除外しますか？"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "追加"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "マップ「{mapNameStr}」をランダム戦に追加しますか？"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "マップ変更可能まで {cooldownStr}"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "マップ変更不可"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "マップ変更可能まで {cooldownStr}"
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "マップ変更不可"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "未選択"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "「ランダム戦」から除外するマップを1つ選択できます。"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "マップ未選択"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "除外中のマップ「{mapName}」を別のマップに変更できます。"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "マップ変更可能"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "マップ「{mapName}」の変更が可能になるまで\n{cooldownStr}"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "マップ変更不可"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "WoTプレミアムアカウントを利用すると、さらにもう1つマップを除外できます。"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "スロット利用不可"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "マップを選択するとそのマップが「ランダム戦」モードに登場しなくなります。"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "マップ未選択"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "マップを選択するとそのマップが「ランダム戦」モードに登場しなくなります。"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "マップ変更可能"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "マップ変更可能まで {cooldownStr}"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "マップ変更不可"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "WoTプレミアムアカウントを利用すると、さらにもう1つマップを除外できます。"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "スロット利用不可"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "キャンセル"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "除外するマップを選択すると{whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}が経過するまで変更できません。"
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "変更"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "除外"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "マップ「%(mapName)s」を「ランダム戦」から除外しますか？"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "選択中のマップを「{whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}」に変更します。マップ変更可能まで %(cooldownTimeStr)s"
+
+msgid "mapsBlacklistReplace/title"
+msgstr "変更したいマップを選択してください"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "こちらのマップが{whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}と入れ替わります。マップ変更可能まで %(cooldownTimeStr)s"
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "こちらのマップを入れ替えますか?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "ペアレンタルコントロールが有効化されています。\nペアレンタルコントロールの詳細は{link}でご確認ください。"
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "ペアレンタルコントロール"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "公式HP"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "クレジット庫"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s日"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s時間"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1分"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s分"

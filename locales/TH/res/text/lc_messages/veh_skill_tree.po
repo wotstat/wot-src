@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "วิจัยเต็มที่่แล้ว"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "ปัจจุบัน"
+
+msgid "comparison/title"
+msgstr "การยกระดับ"
+
+msgid "comparison/tooltip/body"
+msgstr "แผงการปรับแต่งจะแสดงว่าส่วนยกระดับมีผลกับคุณลักษณะของพาหนะอย่างไร เลือกแบบวิจัยเต็มที่เพื่อดูผลแบบเต็มสำหรับส่วนยกระดับที่มีให้ทั้งหมด"
+
+msgid "comparison/tooltip/header"
+msgstr "การยกระดับ"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "ยังไม่วิจัย"
+
+msgid "dialog/altConfiguration/description"
+msgstr "รักษาให้ตัวเลือกเหล่านี้เปิดเอาไว้เพื่อให้เปลี่ยนชุดการติดตั้งก่อนการรบได้"
+
+msgid "dialog/altConfiguration/info"
+msgstr "คุณสามารถเปลี่ยนการตั้งค่าเหล่านี้เมื่อใดก็ได้"
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "การติดตั้งช่วย"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "การติดตั้งหลัก"
+
+msgid "dialog/altConfiguration/title"
+msgstr "การตั้งค่าตัวเลือก"
+
+msgid "dialog/common/accept"
+msgstr "ยืนยัน"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "%(perks)s จุดต่อ"
+msgstr[2] "%(perks)s จุดต่อ"
+
+msgid "footer/button/label"
+msgstr "วิจัย"
+
+msgid "footer/description/text/allResearched"
+msgstr "ทำการวิจัยจุดต่อทั้งหมดแล้ว ตอนนี้คุณสามารถเข้าถึงระบบรางวัลชั้นยอดได้"
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "WG Wallet ไม่มีให้ชั่วคราว ทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "footer/description/text/inBattle"
+msgstr "ไม่มีจุดต่อให้ พาหนะยังอยู่ในการรบ"
+
+msgid "footer/description/text/inFormation"
+msgstr "ไม่มีจุดต่อให้ พาหนะยังอยู่ในหน่วยยุทธวิธี"
+
+msgid "footer/description/text/needsRepair"
+msgstr "ไม่มีจุดต่อให้ พาหนะต้องถูกซ่อมก่อน"
+
+msgid "footer/description/text/notInInventory"
+msgstr "คุณจำเป็นต้องมีพาหนะคันนี้เพื่อให้สามารถวิจัยจุดต่อได้"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "เลือกจุดต่อหรือสายจุดต่อเพื่อทำการวิจัย"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} จุดต่อ"
+
+msgid "footer/text/selectedItem"
+msgstr "เลือกไว้: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "WG Wallet ไม่มีให้ชั่วคราว ทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "ไม่มีจุดต่อให้ พาหนะยังอยู่ในการรบ"
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "ไม่มีจุดต่อให้ พาหนะยังอยู่ในหน่วยยุทธวิธี"
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "ไม่มีจุดต่อให้ พาหนะต้องถูกซ่อมก่อน"
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "ประสบการณ์ไม่พอวิจัยจุดต่อที่เลือกเอาไว้"
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "กำลังทำการวิจัยอยู่ โปรดรอสักครู่..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "ไม่มีให้"
+
+msgid "footer/tooltip/header/info"
+msgstr "จุดต่อที่เลือกเอาไว้"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}"
+msgstr[2] "• {{selectedPerks}}"
+
+msgid "intro/button"
+msgstr "รับทราบ!"
+
+msgid "intro/button/tooltip"
+msgstr "เกี่ยวกับการยกระดับ"
+
+msgid "intro/improvements/description"
+msgstr "หาประสบการณ์การรบเพื่อปลดล็อคจุดต่อที่จะเสริมคุณลักษณะพาหนะของคุณ คุณลักษณะสุดท้ายนั้นอาจจะมีค่าสูงกว่าหรือต่ำกว่าค่าที่กำหนดไว้อันเนื่องด้วยค่าปรับบวกและปรับคูณอื่นๆที่ใช้งานหลังโบนัสของจุดต่อ"
+
+msgid "intro/improvements/title"
+msgstr "วิธีการทำงาน"
+
+msgid "intro/progression/description"
+msgstr "มีให้เฉพาะพาหนะระดับ XI ส่วนยกระดับทำให้คุณสามารถเสริมคุณลักษณะของพาหนะคุณได้มากยิ่งขึ้น"
+
+msgid "intro/progression/title"
+msgstr "การยกระดับ"
+
+msgid "intro/vanity/description"
+msgstr "หลังจากทำการวิจัยจุดต่อทั้งหมดแล้ว คุณจะสามารถเข้าถึงรางวัลชั้นยอดได้ซึ่งคุณสามารถได้รับเมื่อทำการเพิ่มขั้นชั้นยอดขั้นหนึ่ง รางวัลที่มีนั้นรวมไปถึงรูปแบบทรงปริมาตรเฉพาะ, ตัวติดตามสถิติและปลอกหุ้มปืน!"
+
+msgid "intro/vanity/title"
+msgstr "รางวัลชั้นยอด"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr "อัน"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr "องศา/วิ"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr "องศา"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr "เมตร"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr "มม."
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr "กม/ชม"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr "ม./วิ"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr "แรงม้า"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr "วิ"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr "หน่วย"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "การใช้งานนี้ยังใช้ไม่ได้ในปัจจุบัน"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "ไปยังส่วนยกระดับ"
+
+msgid "notifications/perkAvailable/title"
+msgstr "คุณมีประสบการณ์พอปรับปรุงพาหนะของคุณ!"
+
+msgid "rewardScreen/button/accept"
+msgstr "รับทราบ"
+
+msgid "rewardScreen/button/check"
+msgstr "ดูในโครงภายนอก"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "สำหรับการไต่ถึงขั้ันชั้นยอด {{prestigeLevel}} ด้วย {{level}} {{type}} {{name}}"
+
+msgid "rewardScreen/title"
+msgstr "รางวัลชั้นยอด"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "มีให้เฉพาะพาหนะระดับ XI ส่วนยกระดับทำให้คุณสามารถเสริมคุณลักษณะของพาหนะคุณได้มากยิ่งขึ้น"
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "การยกระดับ"
+
+msgid "tooltips/common/cost"
+msgstr "ราคา: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "เพิ่มความสามารถพาหนะคุณในการซับความเสียหายกระสุนระเบิดแรงสูงและพุ่งชน"
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "เพิ่มความเสียหายจากกระสุนระเบิดแรงสูง"
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "เพิ่มความเร็วกระสุนระเบิดแรงสูง"
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "ลดการกระจายกระสุนนัดที่สองในรูปแบบยิงชุดลง {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "ลดช่วงพักสำหรับการยิงในการยิงชุดลง {colorTagOpen}{value}วิ{colorTagClose}"
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "เพิ่มโบนัสให้กับความเร็วบรรจุต่อขั้นประสิทธิภาพอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "เพิ่มระยะเวลาขั้นประสิทธิภาพการบรรจุอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "เพิ่มระยะเวลาขั้นประสิทธิภาพการบรรจุอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "เพิ่มโบนัสให้กับความเร็วบรรจุต่อขั้นประสิทธิภาพอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "ลดเวลาพักใช้ก่อนกลไกจะสามารถใช้ได้อีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "ลดเวลาพักใช้ก่อนกลไกจะสามารถใช้ได้อีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "เพิ่มระยะใช้งานของกลไกอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "เพิ่มระยะใช้งานของกลไกอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "ลดการกระจายกระสุนที่ 100 เมตรสำหรับกระสุนประจุเดียวอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "เพิ่มความเสียหายจากกระสุนประจุเดียวด้วยกระสุนปกติและกระสุนพิเศษอีก {colorTagOpen}{value} หน่วย{colorTagClose}"
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "เพิ่มความเร็วสำหรับกระสุนประจุเดียวอีก {colorTagOpen}{value} เมตร/วิ{colorTagClose}"
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "ลดเวลาบรรรจุกระสุนประจุเดียวอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "เพิ่มความทนทานช่วงล่างและความเร็วในการซ่อม"
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "ลดผลเสียเมื่อรางกระสุนหรือเครื่องยนต์พาหนะเสียหายและลดโอกาสที่พลรถถังได้รับบาดเจ็บเมื่อพาหนะเสียหาย"
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "ลดขนาดวงการเล็งของคุณหลังทำการยิง"
+
+msgid "tooltips/description/aimingTime"
+msgstr "ลดเวลาเล็งของพาหนะคุณ"
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "ลดเวลาการเล็งพาหนะของคุณในรูปแบบการยิงทีละนัด"
+
+msgid "tooltips/description/allShellDamage"
+msgstr "เพิ่มความเสียหายจากกระสุนทุกชนิด"
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "เพิ่มความเร็วกระสุนทั้งหมดของคุณ"
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "เพิ่มความเสียหายที่รางกระสุนสามารถได้รับก่อนที่จะถูกทำลาย"
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "ลดข้อเสียเมื่อรางกระสุนพาหนะเสียหาย"
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "เพิ่มความเสียหายจากกระสุนมาตรฐาน"
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "เพิ่มความเร็วการหมุนระหว่างที่ตัวเร่งทำงานอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "เพิ่มความเร็วสูงสุดระหว่างที่ตัวเร่งทำงานอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "ลดเวลาช่วงพักจนกว่าตัวเร่งจะเติมจนเต็มอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "เพิ่มระยะใช้งานสูงสุดของตัวเร่งอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "เพิ่มการเร่งกำลังเครื่องยนต์จากไอพ่นอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "ลดเวลาพักใช้ก่อนไอพ่นจะสามารถใช้ได้อีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "เพิ่มการเร่งกำลังเครื่องยนต์จากไอพ่นอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "เพิ่มจำนวนครั้งสูงสุดที่ไอพ่นสามารถใช้ในการรบหนึ่งครั้งอีก {colorTagOpen}{value}{colorTagClose}"
+
+msgid "tooltips/description/crewProtection"
+msgstr "ลดโอกาสที่สมาชิกพลรถถังจะบาดเจ็บเมื่อพาหนะได้รับความเสียหาย"
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "ลดการกระจายกระสุนเมื่อปืนได้รับความเสียหาย"
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "เพิ่มความเร็วเดินหน้าของพาหนะในรูปแบบเดินทาง"
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "เพิ่มความเร็วถอยหลังของพาหนะในรูปแบบเดินทาง"
+
+msgid "tooltips/description/enginePenalty"
+msgstr "ลดผลเสียเมื่อเครื่องยนต์ได้รับความเสียหาย"
+
+msgid "tooltips/description/enginePower"
+msgstr "เพิ่มกำลังเครื่องยนต์ทำให้สามารถเร่งและแล่นขึ้นเนินได้เร็วขึ้น"
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "ลดเวลาในการเริ่มบรรจุลง {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "ลดเวลาหน่วงก่อนยิงหลังจากที่พักการบรรจุลง {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "ลดผลเสียของเวลาบรรจุหลังจากยิงกระสุนนัดสุดท้ายในตลับลง {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "ลดผลเสียการกระจายกระสุนที่ 100 เมตรอีก {colorTagOpen}{value0}%{colorTagClose} และผลเสียเวลาการเล็งปืนอีก {colorTagOpen}{value1}%{colorTagClose} เมื่อเกินขีดจำกัด"
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "เพิ่มความเร็วการสะสมประจุอีก {colorTagOpen}{value} %/วิ {colorTagClose}"
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "ลดจำนวนประจุที่เสียหลังการยิงอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "เพิ่มค่าความเสียหายพุ่งพ้นขีดจำกัดอีก {colorTagOpen}{value0} หน่วย {colorTagClose} และโบนัสความเสียหายพ้นขีดจำกัดสูงสุดอีก {colorTagOpen}{value1}%{colorTagClose}"
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "เพิ่มความเร็วพาหนะระหว่างแล่นไปข้างหน้า"
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "เพิ่มโบนัสการกระจายกระสุนต่อขั้นความแม่นยำอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "เพิ่มความเร็วสูงสุดที่สามารถได้รับขัั้นความแม่นยำอีก {colorTagOpen}{value}กม./ชม.{colorTagClose}"
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "ลดเวลาที่ต้องใช้ในการเพิ่มขั้นความแม่นยำถัดไปอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "เพิ่มโบนัสการปรับเสถียรต่อขั้นความแม่นยำอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "ลดเวลาบรรจุของปืนรองลง {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "ลดเวลาบรรจุของปืนรองลง {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "เพิ่มเวลาที่ข้าศึกถูกระบุจะปรากฎอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "ลดเวลาพักใช้ก่อนกลไกจะสามารถใช้ได้อีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "ลดเวลาพักใช้แรกเริ่มก่อนกลไกจะสามารถใช้ได้อีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "เพิ่มความเสียหายเพิ่มเติมที่กระสุนพันธมิตรยิงใส่พาหนะข้าศึกถูกระบุอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "เพิ่มความเร็วสูงสุดที่การเพิ่มความร้อนล่วงหน้ามอบให้อีก {colorTagOpen}{value}กม./ชม.{colorTagClose}"
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "เพิ่มโบนัสการกระจายกระสุนสูงสุดจากการเพิ่มความร้อนล่วงหน้าอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "เพิ่มโบนัสความเสียหายสูงสุดจากการเพิ่มความร้อนล่วงหน้าอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "ลดเวลาที่ต้องใช้ในการเพิ่มความร้อนล่วงหน้าสูงสุดอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "ลดการกระจายกระสุนอีก {colorTagOpen}{value}เมตร {colorTagClose} ในรูปแบบระดมยิง"
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "เพิ่มความเร็วการหมุนป้อมปืนอีก {colorTagOpen}{value} องศา {colorTagClose} ในรูปแบบระดมยิง"
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "ลดเวลาเล็งอีก {colorTagOpen}{value} วิ {colorTagClose} ในรูปแบบระดมยิง"
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "เพิ่มความเร็วเดินหน้าอีก {colorTagOpen}{value} องศา {colorTagClose} ในรูปแบบระดมยิง"
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "ลดเวลาที่ใช้ในการเปลี่ยนเป็นรูปแบบกำลังขับตรงอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "ลดเวลาที่ใช้ในการถึงสมรรถนะสูงสุดในรูปแบบกำลังขับตรงอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "เพิ่มกำลังเครื่องยนต์อีก {colorTagOpen}{value}%{colorTagClose} ในรูปแบบกำลังขับตรง"
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "เพิ่มความเร็วเดินหน้าอีก {colorTagOpen}{value}%{colorTagClose} ในรูปแบบกำลังขับตรง"
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "เพิ่มการเร่งกำลังเครื่องยนต์ที่ระบบช่วยตัวอัดอากาศเทอร์โบมอบให้อีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "เพิ่มความเร็วถอยหลังสูงสุดระหว่างที่ระบบช่วยตัวอัดอากาศเทอร์โบทำงานอีก {colorTagOpen}{value} กม./ชม. {colorTagClose}"
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "เพิ่มช่วงใช้งานของระบบช่วยตัวอัดอากาศเทอร์โบอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "ลดเวลาพักใช้ก่อนระบบช่วยตัวอัดอากาศเทอร์โบใช้งานได้อีกครั้งอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/gunDepression"
+msgstr "เพิ่มมุมกดปืน"
+
+msgid "tooltips/description/gunDispersion"
+msgstr "ทำให้กลุ่มกระสุนในวงการเล็งดีขึ้น"
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "ทำให้กลุ่มกระสุนในวงการเล็งในแบบยิงทีละนัดดีขึ้น"
+
+msgid "tooltips/description/gunStabilization"
+msgstr "เพิ่มการปรับเสถียรปืนในทุกสถานการณ์"
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "เพิ่มการปรับเสถียรปืนระหว่างการขยับและหมุนตัวถัง"
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "เพิ่มการปรับเสถียรปืนระหว่างขยับตัวถัง"
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "เพิ่มการปรับเสถียรปืนระหว่างหมุนตัวถัง"
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "เพิ่มการปรับเสถียรปืนระหว่างการขยับและหมุนตัวถังในรูปแบบยิงทีละนัด"
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "เพิ่มการปรับเสถียรปืนระหว่างหมุนป้อมปืน"
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "เพิ่มการปรับเสถียรปืนระหว่างหมุนป้อมปืนในรูปแบบยิงทีละนัด"
+
+msgid "tooltips/description/gunTraverse"
+msgstr "เพิ่มมุมการหันปืนแนวระนาบสูงสุด"
+
+msgid "tooltips/description/hitPoints"
+msgstr "เพิ่มความสามารถอยู่รอดพาหนะทำให้มันสามารถได้รับความเสียหายมากขึ้นก่อนถูกทำลาย"
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "ลดเวลาบรรจุระหว่างนัดในโม่กระสุนของคุณ"
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "ลดโอกาสถูกพบโดยพาหนะข้าศึกระหว่างยิง"
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "ลดเวลาการหน่วงการหล่อเย็นปืนลง {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "ลดความร้อนปืนต่อการยิงลง {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "เพิ่มความเร็วการหล่อเย็นปืนที่ร้อนอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "เพิ่มความเสียหายจากกระสุนไม่ใช่ระเบิดแรงสูง"
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "ทำให้คุณสามารถปรับแต่งการติดตั้งตัวเลือกอุปกรณ์และคำสั่งได้"
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "ลดการหน่วงการหล่อเย็นปืนลง {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "เพิ่มความเร็วหล่อเย็นปืนที่ร้อนและร้อนเกินไปอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "ลดความร้อนปืนต่อการยิงลง {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "เพิ่มความเร็วหล่อเย็นปืนที่ร้อนเกินไปอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "ลดเวลาที่ใช้ในการเปลี่ยนระหว่างรูปแบบอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "เพิ่มจำนวนพลังงานที่เกิดขึ้นต่อวินาทีในในรูปแบบเทอร์โบอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "เพิ่มจำนวนพลังงานที่เกิดขึ้นต่อวินาทีในในรูปแบบเข้าปะทะอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "เพิ่มระยะเวลาของผลอีก {colorTagOpen}{value} วิ{colorTagClose}ในทั้งรูปแบบเทอร์โบและเข้าปะทะ"
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "เพิ่มความเสียหายพุ่งชนพาหนะข้าศึกอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "เพิ่มความเสียหายพุ่งชนช่วงล่างพาหนะข้าศึกอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "เพิ่มความเสียหายพุ่งชนพาหนะข้าศึกอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "เพิ่มความเสียหายพุ่งชนพาหนะข้าศึกอีก {colorTagOpen}{value}%{colorTagClose}"
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "ลดเวลาก่อนที่การยิงอีกครั้งหลังจากร้อนเกินพิกัดอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "เพิ่มเวลาให้ทำการยิงที่ขั้นความร้อนสูงสุดอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "ลดเวลาก่อนที่การยิงอีกครั้งหลังจากร้อนเกินพิกัดอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "เพิ่มโบนัสความเสียหายต่อขั้นความร้อนอีก {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose}"
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "ลดความเสียหายที่ได้รับจากการพุ่งชนของข้าศึก"
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "ลดเวลาบรรจุปืนทั้งในรูปแบบระดมยิงและทีละนัด"
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "เพิ่มความเร็วถอยหลังของพาหนะ"
+
+msgid "tooltips/description/roleSlot"
+msgstr "จัดประเภทเป็นช่องอุปกรณ์ที่สอง"
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "เพิ่มความเร็วการหมุนตัวถังและความเร็วการยกปืนอีก {colorTagOpen}{value}%{colorTagClose}ในรูปแบบรังปืน"
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "ลดเวลาที่ใช้ในการออกจากรูปแบบรังปืนอีก {colorTagOpen}{value} วิ{colorTagClose}"
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "ลดการกระจายกระสุนอีก {colorTagOpen}{value}%{colorTagClose} ในรูปแบบรังปืน"
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "ลดเวลาบรรจุปืนอีก {colorTagOpen}{value}%{colorTagClose} ในรูปแบบรังปืน"
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "เพิ่มความทนทานถังน้ำมันและชิ้นส่วนเครื่องยนต์พาหนะของคุณ"
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "ลดข้อเสียต่อชั้นวางกระสุนและเครื่องยนต์ที่เสียหาย"
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "เพิ่มความเสียหายที่กระสุนของคุณทำได้ต่อชิ้นส่วนพาหนะข้าศึก"
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "ทำให้คุณสามารถปรับแต่งการติดตั้งตัวเลือกกระสุนและยุทธปัจจัยได้"
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "เพิ่มความเสียหายจากกระสุนพิเศษ"
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "เพิ่มการเจาะเกราะความเร็วกระสุนพิเศษ"
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "เพิ่มความเร็วกระสุนพิเศษ"
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "ลดการซ่อนตัวของพาหนะข้าศึกที่กำลังซ่อนหลังพุ่มไม้"
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "ลดการอำพรางของพาหนะข้าศึกกำลังแล่น"
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "เพิ่มความเสียหายจากกระสุนมาตรฐาน"
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "เพิ่มการเจาะเกราะความเร็วกระสุนมาตรฐาน"
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "เพิ่มความเร็วกระสุนมาตรฐาน"
+
+msgid "tooltips/description/stunDuration"
+msgstr "ลดเวลาที่พาหนะของคุณมึนงงจากกระสุนข้าศึก"
+
+msgid "tooltips/description/turretTraverse"
+msgstr "เพิ่มมุมการหันป้อมปืนแนวระนาบสูงสุด"
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "ลดการกระจายกระสุนระหว่างหมุนป้อมปืนในรูปแบบเข้าปะทะ"
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "เพิ่มความเร็วพาหนะระหว่างแล่นเดินหน้าและถอยหลัง"
+
+msgid "tooltips/description/viewRange"
+msgstr "ทำให้คุณตรวจจับพาหนะข้าศึกจากระยะไกล"
+
+msgid "tooltips/large/eliteStatus"
+msgstr "ทำให้พาหนะได้สถานะชั้นยอด"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "วิจัยจุดต่ออื่นทั้งหมดก่อนเพื่อให้วิจัยจุดต่อนี้ได้"
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "ประเภท: การอำพราง"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "ประเภท: อำนาจการยิง"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "การยกระดับกลไก"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "ประเภท: ความคล่องตัว"
+
+msgid "tooltips/perk/category/special"
+msgstr "ส่วนยกระดับพิเศษ"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "ประเภท: การตรวจจับ"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "ประเภท: ความสามารถอยู่รอด"
+
+msgid "tooltips/special/tapToModify"
+msgstr "คลิกเพื่อปรับหลังวิจัยจุดต่อดังกล่าว"
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "การซับความเสียหายกระสุนระเบิดแรงสูง"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "ความเสียหายกระสุนระเบิดแรงสูง"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "การเจาะเกราะกระสุนระเบิดแรงสูง"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "ความเร็วกระสุนระเบิดแรงสูง"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "มวลหน่วงกึ่งทำงาน"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "การเสริมเครื่องป้อนโซ่ขับ"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "เครื่องดึงแรงบิดกึ่งอัตโนมัติ"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "ระบบกรองอากาศก้าวหน้าของห้องทำการรบ"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "พัดลมแรงดันหนีศูนย์กลาง"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "ตัวหนีบกระสุนปรับแต่ง"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "เครื่องอัดแรงดันกำลังสูง"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "ลูกสูบแรงดัน 6,000 PSI"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "ระบบอัดลม 6,000 PSI"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "กระบอกความดันสูงเสริม"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "การเสริมความสม่ำเสมอขีปณวิถี"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "ประจุเดียวเพิ่มขนาด"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "ประจุเดียวพุ่งชน"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "ตัวแยกประจุน้ำหนักเบา"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "พิกัดกระสุนเสริม"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "การป้องกันระบบช่วงล่างก้าวหน้า"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "การป้องกันพลรถถังและชิ้นส่วนก้าวหน้า"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "ขนาดวงการเล็ง"
+
+msgid "tooltips/title/aimingTime"
+msgstr "เวลาเล็ง"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "เวลาเล็ง"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "ความเสียหายกระสุนทั้งหมด"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "ความเร็วกระสุน"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "ความทนทานรางกระสุน"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "ข้อเสียรางกระสุน"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "ความเสียหายกระสุนมาตรฐาน"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "การควบคุมเวกเตอร์แรงขับ"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "ปั้มขับการไหลสูง"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "การหล่อเย็นไอระเหย"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "หัวฉีดหล่อเย็นระเหยน้ำ"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "ดินขับกำลังสูง"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "เครื่องดึงแรงบิดกึ่งอัตโนมัติ"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "การปรับทรงแกน"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "ห้องเก็บตัวเร่งขยาย"
+
+msgid "tooltips/title/chassisHP"
+msgstr "ความทนทานช่วงล่าง"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "ความเร็วการซ่อมช่วงล่าง"
+
+msgid "tooltips/title/crewProtection"
+msgstr "การป้องกันพลรถถัง"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "การกระจายกระสุนตามสถานการณ์"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "ความเร็วเดินหน้ารูปแบบเดินทาง"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "ความเร็วถอยหลังรูปแบบเดินทาง"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "โอกาสไฟไหม้เครื่องยนต์"
+
+msgid "tooltips/title/engineHP"
+msgstr "ความทนทานเครื่องยนต์"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "ข้อเสียเครื่องยนต์"
+
+msgid "tooltips/title/enginePower"
+msgstr "กำลังเครื่องยนต์"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "การปรับแต่งสายไฮโดรลิค"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "การปรับลำดับการบรจุ"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "กลไกบรรจุรุ่นปรับปรุง"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "ฉนวนความร้อนลำกล้อง"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "ตัวแปลงไฟกำลังสูง"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "การเดินสายแรงต้านต่ำ"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "ตัวจำกัดปรับค่าประจุ"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "ความเร็วเดินหน้า"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "ความทนทานถังน้ำมัน"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "เซนเซอร์แรงคอริออลิส"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "เซนเซอร์ความโน้มเอียงไจโรสโคป"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "เครื่องป้อนข้อมูลรุ่นปรับปรุง"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "เซนเซอร์ตัดข้ามความแม่นยำสูง"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "กล่องเก็บกระสุนรองปรับปรุง"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "เครื่องป้อนปืนรอง"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "กลไกติดตามก้าวหน้า"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "แผงระบายความร้อนประสิทธิภาพสูง"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "เครื่องกำเนิดไฟกำลังแอมป์สูง"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "เลเซอร์ทับทีมการกระจายต่ำ"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "เกียร์ฝากปรับปรุง"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "เซนเซอร์ควบคุมความร้อนคู่"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "ระบบควบคุมความร้อนแม่นยำ"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "ตัวแปลงไฟกำลังสูง"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "แคร่ปืนบรรจุล่วงหน้า"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "ระบบหมุนก้าวหน้า"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "ระบบควบคุมการเอียง"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "ตัวควบคุมแรงบิดแบบปล่อย"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "การปรับอัตราทดเฟือง"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "การปรับเหมาะสมเรขาคณิตกังหัน"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "การปรับเหมาะสมท่อร่วมกังหัน"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "ตัวจำกัดรอบเครื่องยนต์ปรับแต่ง"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "ตัวปรับแรงดันแก้ไข"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "ท่อร่วมไอเสียทันสมัย"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "ถังอากาศเพิ่มพิกัดบรรจุ"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "ตัวอัดอากาศประสิทธิภาพสูง"
+
+msgid "tooltips/title/gunDepression"
+msgstr "การกดปืน"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "การกระจายกระสุน"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "การกระจายกระสุน"
+
+msgid "tooltips/title/gunElevation"
+msgstr "มุมยกปืน"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "การปรับเสถียรปืนรวม"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "การปรับเสถียรปืนบางส่วน"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "การปรับเสถียรการแล่น"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "การปรับเสถียรการหมุน"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "การปรับเสถียรปืนบางส่วน"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "การปรับเสถียรปืนบางส่วน"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "การปรับเสถียรปืนบางส่วน"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "การหมุนปืนดีขึ้น"
+
+msgid "tooltips/title/hitPoints"
+msgstr "ความทนทาน (HP)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "ความเร็วการยกตัวถัง"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "ความเร็วการหมุนตัวถัง"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "เวลาบรรจุในโม่"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "การอำพรางหลังการยิง"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "สารนำความร้อนอุณหภูมิต่ำ"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "ห้องความร้อนเหนี่ยวนำสูง"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "การปรับท่อความร้อน"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "ความเสียหายกระสุนที่ไม่ใช่ระเบิดแรงสูง"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "การติดตั้งอุปกรณ์และคำสั่ง"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "การเคลือบผิวโครเมียม"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "ลำกล้องปืนเหนี่ยวนำสูง"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "ดินขับจุดวาบไฟต่ำ"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "ระบบบังคับระบายอากาศ"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "กังหันใบพัดน้ำหนักเบา"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "ตัวแปลงไฟช่วยกำลังสูง"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "การควบคุมตั้งระดับรุ่นก้าวหน้า"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "แผงประจุไฟผสม"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "การชุบขอบแข็ง"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "ตีนตะขาบเหล็กอัลลอยสูง"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "การเพิ่มคาร์บอนเชิงลึก"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "การเคลือบคาร์บอนพื้นผิวบางส่วน"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "เซนเซอร์ความร้อนความแม่นยำสูง"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "ระบบปรับความร้อนกระบอกปืนแรงเฉื่อยต่ำ"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "ถาดประจุกล"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "การเพิ่มกำลังความร้อนเกินพิกัด"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "ลดความเสียหายพุ่งชน"
+
+msgid "tooltips/title/reloadTime"
+msgstr "เวลาบรรจุ"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "เวลาบรรจุ"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "ความเร็วถอยหลัง"
+
+msgid "tooltips/title/roleSlot"
+msgstr "ประเภทช่องที่สอง"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "ปั้มลูกสูบแกนไฮโดรลิค"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "ตัวประสานกำลังไฟหลายโคน"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "ใบพัดปรับสมดุลความแม่นยำสูง"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "เครื่องป้อนไฮโดรลิค"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "การเพิ่มความทนทานเลือกชิ้นส่วน"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "การป้องกันเลือกชิ้นส่วน"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "ความเสียหายชิ้นส่วนกระสุน"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "การติดตั้งกระสุนและยุทธปัจจัย"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "ความเสียหายกระสุนพิเศษ"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "การเจาะเกราะกระสุนพิเศษ"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "ความเร็วกระสุนพิเศษ"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "โบนัสการตรวจจับ: แมกไม้"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "โบนัสการตรวจจับ: ความเคลื่อนไหว"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "ความเสียหายกระสุนมาตรฐาน"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "การเจาะเกราะกระสุนมาตรฐาน"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "ความเร็วกระสุนมาตรฐาน"
+
+msgid "tooltips/title/stunDuration"
+msgstr "ระยะเวลามึนงง"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "การหมุนป้อมปืนปรับปรุง"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "ความเร็วการหมุนป้อมปืน"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "การปรับเสถียรการหมุนป้อมปืน"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "ความเร็วพาหนะ"
+
+msgid "tooltips/title/viewRange"
+msgstr "ระยะการมองเห็นเพิ่มขึ้น"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "วิจัยจุดต่อสุดท้ายเพื่อปลดล็อค"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "รับรางวัลเฉพาะสำหรับพาหนะระดับ XI ที่ประกอบด้วยรูปแบบทรงปริมาตร, ตัวติดตามสถิติและปลอกหุ้มปืน"
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "รางวัลชั้นยอด"
+
+msgid "vanity/available/subtitle"
+msgstr "รับรางวัลสำหรับขั้นชั้นยอดพาหนะของคุณ"
+
+msgid "vanity/available/tooltip"
+msgstr "ขั้นชั้นยอดปัจจุบัน"
+
+msgid "vanity/completed/subtitle"
+msgstr "ยินดีด้วยได้รับรางวัลทั้งหมดแล้ว"
+
+msgid "vanity/completed/tooltip"
+msgstr "ขั้นชั้นยอดปัจจุบัน"
+
+msgid "vanity/disabled/subtitle"
+msgstr "สามารถได้รับหลังจากวิจัยจุดต่อสุดท้าย"
+
+msgid "vanity/disabled/tooltip"
+msgstr "พาหนะไม่มีสถานะชั้นยอด"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "จำเป็นต้องมีขั้นชั้นยอดเพื่อรับรางวัล"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "ปลอกหุ้มปืนเฉพาะที่จะทำให้ยานเกราะของคุณโดดเด่นในสนามรบ"
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "องค์ประกอบปรับแต่งเฉพาะใหม่ที่แสดงว่าคุณได้ทำลายพาหนะไปกี่คัน"
+
+msgid "vanity/rewardType/description/style"
+msgstr "รูปแบบสองมิติพิเศษที่มีเอฟเฟคภาพเฉพาะที่ดูเหมือนเป็นสามมิติที่มีให้เฉพาะพาหนะระดับ XI"
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "ชุดติดตั้งสามมิติปลอกหุ้มปืน"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "ตัวติดตามสถิติ"
+
+msgid "vanity/rewardType/title/style"
+msgstr "รูปแบบทรงปริมาตร"
+
+msgid "vanity/title"
+msgstr "รางวัลชั้นยอด"

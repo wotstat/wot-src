@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_light_aggressive_detection/descr/active"
+msgstr "{colorTagOpen}%(duration)s초{colorTagClose} 동안 관측 범위가 {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} 증가합니다.\n\n자신이 발견한 적 전차가 파괴되면 지속 시간이 초기화됩니다."
+
+msgid "comp7_light_aggressive_detection/name"
+msgstr "전투 정찰"
+
+msgid "comp7_light_ally_support/descr/active"
+msgstr "{colorTagOpen}%(duration)s초{colorTagClose} 동안 팀에 속한 전차 역할당 승무원 숙련도에 {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} 보너스가 적용됩니다.\n\n자신의 전차는 보너스 집계 시 항상 포함됩니다."
+
+msgid "comp7_light_ally_support/name"
+msgstr "핵심 전력"
+
+msgid "comp7_light_aoe_heal/descr/active"
+msgstr "자신 및 아군 전차 내구도를 {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} 회복하는 반경 {colorTagOpen}%(radius)sm{colorTagClose} 넓이의 구역을 자신의 전차 주변에 {colorTagOpen}%(duration)s초{colorTagClose} 동안 생성합니다."
+
+msgid "comp7_light_aoe_heal/name"
+msgstr "야전 수리"
+
+msgid "comp7_light_aoe_inspire/descr/active"
+msgstr "{colorTagOpen}%(duration)s초{colorTagClose} 동안 자신 및 아군 승무원 숙련도에 {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} 보너스가 적용됩니다."
+
+msgid "comp7_light_aoe_inspire/name"
+msgstr "사기 강화"
+
+msgid "comp7_light_berserk/descr/active"
+msgstr "{colorTagOpen}%(duration)s초{colorTagClose} 동안 주포 재장전 시간이 {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose} 단축됩니다. 또한, 사격 후/기동 시/차체 및 포탑 회전 시 주포 분산도가 {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose} 감소합니다.\n\n충돌 또는 {colorTagOpen}%(damageDistance)sm{colorTagClose} 안에서의 사격으로 피해를 입히면 지속 시간이 초기화됩니다."
+
+msgid "comp7_light_berserk/name"
+msgstr "전투 중독"
+
+msgid "comp7_light_concentration/descr/active"
+msgstr "{colorTagOpen}%(duration)s초{colorTagClose} 동안 기동 시/차체 회전 시/포탑 회전 시 조준 시간과 주포 분산도가 {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose} 감소합니다.\n\n해당 역할 기술이 활성화된 동안 포탄 재장전 시간이 {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s초{colorTagClose} 감소합니다."
+
+msgid "comp7_light_concentration/name"
+msgstr "표적 집중"
+
+msgid "comp7_light_fast_recharge/descr/active"
+msgstr "• 클립식 장전 시스템\n남은 탄창 재장전 시간이 {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose} 감소합니다.\n\n• 자동 재장전 시스템\n현재 탄창에서 발사된 모든 포탄이 {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose} 더 빠르게 재장전됩니다.\n\n해당 기술은 재장전 중에만 활성화할 수 있습니다.\n\n• 과열 제어 자동포\n주포 포열이 최대치의 {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose}만큼 감소합니다.\n\n해당 기술은 주포가 가열되었을 때만 활성화할 수 있습니다."
+
+msgid "comp7_light_fast_recharge/name"
+msgstr "숙련 장전"
+
+msgid "comp7_light_hunter/descr/active"
+msgstr "사격으로 피해를 입힌 적 전차 수가 초기화됩니다.\n\n전차 내구도가 사격으로 피해를 입힌 적 전차 한 대당 {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose}씩 {colorTagOpen}%(duration)s초{colorTagClose} 동안 회복됩니다."
+
+msgid "comp7_light_hunter/descr/passive"
+msgstr "주포 재장전 시간이 사격으로 피해를 입힌 적 전차 한 대당 {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} 감소합니다."
+
+msgid "comp7_light_hunter/name"
+msgstr "전차 사냥"
+
+msgid "comp7_light_juggernaut/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s초{colorTagClose} 동안\n• 받는 피해 {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose} 감소\n• 최고 전진 속력 {colorTagOpen}%(fwMaxSpeedBonus)skm/h{colorTagClose} 증가\n• 최고 후진 속력 {colorTagOpen}%(bkMaxSpeedBonus)skm/h{colorTagClose} 증가\n• 엔진 출력 {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose} 증가\n• 충돌로 적 전차에 입히는 피해 {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose} 증가\n\n해당 역할 기술이 활성화된 동안에는 포탄 한 발에 궤도가 파괴됩니다."
+
+msgid "comp7_light_juggernaut/name"
+msgstr "강행군"
+
+msgid "comp7_light_march/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s초{colorTagClose} 동안 엔진 출력이 {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose} 증가하고 최고 전진 속력이 {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose}km/h 증가하며 위장률이 {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}증가합니다."
+
+msgid "comp7_light_march/name"
+msgstr "급속 전진"
+
+msgid "comp7_light_recon/descr/active"
+msgstr "정찰기가 {colorTagOpen}%(delay)s초{colorTagClose} 내로 선택한 지역을 비행합니다. {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)sm{colorTagClose} 안에서 발견된 적 전차는 {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s초{colorTagClose} 동안 발견된 상태로 유지됩니다. 해당 기술에 의해 발견된 플레이어는 {colorTagOpen}%(lampDelay)s초{colorTagClose} 뒤 특정 아이콘으로 표시됩니다.\n\n해당 기술은 전투 시작 후 {colorTagOpen}%(startupDelay)s초{colorTagClose} 뒤부터 사용할 수 있습니다."
+
+msgid "comp7_light_recon/name"
+msgstr "공중 정찰"
+
+msgid "comp7_light_redline/descr/active"
+msgstr "{colorTagOpen}%(delay)s초{colorTagClose} 후 선택한 지역을 포격합니다.\n\n{colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)sm{colorTagClose} 안에 있는 전차는 {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose}의 피해를 입고 {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s초{colorTagClose} 동안 폭발 충격을 받습니다."
+
+msgid "comp7_light_redline/name"
+msgstr "화력 지원"
+
+msgid "comp7_light_risky_attack/descr/active"
+msgstr "가속\n\n{colorTagOpen}%(duration)s초{colorTagClose} 동안 엔진 출력이 {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose} 증가하고 최고 전진 속력이 {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose}km/h, 최고 후진 속력이 {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose}km/h 증가합니다.\n\n회복\n\n{colorTagOpen}%(healDuration)s초{colorTagClose} 동안 전차 내구도가 {colorTagOpen}%(baseHeal)s{colorTagClose} 회복되고 가속 활성화 상태에서 잃은 내구도의 {colorTagOpen}%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose}도 회복합니다."
+
+msgid "comp7_light_risky_attack/name"
+msgstr "전의 상승"
+
+msgid "comp7_light_role_skill/descr/startLevel"
+msgstr " \n\n전투 시작 시 역할 기술 충전 레벨은{colorTagOpen} %(startLevel)s{colorTagClose}입니다."
+
+msgid "comp7_light_sniper/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s초{colorTagClose} 동안 100m에서의 분산도가 {colorTagOpen}%(dispersionFactor)sm{colorTagClose}와 같아집니다.\n\n사격 시 전차가 발각되지 않은 상태면 포탄 피해량이 {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose} 증가합니다.\n\n{colorTagOpen}%(damageDistance)sm{colorTagClose} 밖에서 사격으로 피해를 입히면 지속 시간이 초기화됩니다."
+
+msgid "comp7_light_sniper/name"
+msgstr "정밀 사격"
+
+msgid "comp7_light_sure_shot/descr/active"
+msgstr "{colorTagOpen}%(duration)s초{colorTagClose} 동안 기동 시/차체 회전 시/포탑 회전 시 주포 분산도가 {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose} 감소합니다.\n\n해당 기술이 활성화된 상태에서 사격으로 피해를 입히면 입힌 피해량의 {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose}만큼 주포 재장전 시간이 감소합니다.\n\n적 전차 격파 시 주포 재장전 시간이 {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose} 감소합니다."
+
+msgid "comp7_light_sure_shot/name"
+msgstr "정밀 조준"

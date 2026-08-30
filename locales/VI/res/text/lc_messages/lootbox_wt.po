@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "Còn %(count) Module"
+msgstr[1] "Còn %(count) Module"
+msgstr[2] "Còn %(count) Module"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Quay lại Module"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "Khi được mở, các Module này có thể đem lại xe Premium, tiền tệ trong game và nhiều quà khác đầy giá trị cho bạn."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Bạn có thể sở hữu Paradoxmodul ở Cửa hàng trong game hoặc Shop Premium."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoxmodul"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOXMODUL"
+
+msgid "common/getButton/lowerCase"
+msgstr "Lấy Module"
+
+msgid "common/getButton/upperCase"
+msgstr "LẤY MODULE"
+
+msgid "common/loader"
+msgstr "Đang mở Module..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Mở Module để xem thống kê."
+
+msgid "common/statistics/header"
+msgstr "Số Module đã mở: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Mọi thông tin về các Module đã mở sẽ bị xóa."
+
+msgid "entryPoint/boxes"
+msgstr "ĐẾN MODULE"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Đây là những Module đặc biệt chứa đồ mới và độc đáo, gồm cả xe Premium, tùy biến, tiền tệ trong game, cũng như nhiều quà khác đầy giá trị.\nBạn có thể sở hữu Module từ Cửa hàng trong game hoặc Shop Premium."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Hiện không thể mở hay sở hữu Module vì lý do kỹ thuật. Chúng tôi rất tiếc và xin lỗi về vấn đề nhất thời này."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Module Tạm thời Không khả dụng"
+
+msgid "eventName/lowerCase"
+msgstr "Break the Paradox"
+
+msgid "eventName/upperCase"
+msgstr "BREAK THE PARADOX"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Phần thưởng Chắc chắn ở Module tiếp theo!"
+
+msgid "guaranteedTitle/text"
+msgstr "Số Module nhiều nhất trước P.thưởng Chắc chắn: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Nếu bạn không mở Module trước khi sự kiện kết thúc, chúng sẽ được mở tự động."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Nếu đã sở hữu mọi chiếc thuộc danh sách khả dĩ trong Module rồi, tất cả xe mà bạn nhận sau đó từ Module sẽ được đền bù theo vàng đúng toàn bộ giá trị của chúng."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Mỗi %(guaranteed0)s Module chắc chắn đem lại một xe Premium. Nếu mở chúng mà không xuất hiện chiếc nào như thế, bạn sẽ ẵm về một xe Premium chưa sở hữu khi khui Module thứ %(guaranteed0)s. Lúc điều đó xảy ra, bộ đếm sẽ tính lại từ đầu."
+
+msgid "infoPage/header/description"
+msgstr "Mở Module để có cơ hội ẵm hàng giá trị trong game! Xem chi tiết dưới đây."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Từ %(name) (đã mở %(boxesCount) Module)"
+
+msgid "noBoxesView/description/"
+msgstr "Không có Module nào. Bạn có thể sở hữu chúng\ntừ Cửa hàng trong game hoặc Shop Premium."
+
+msgid "preview/backLabel"
+msgstr "ĐẾN MODULE"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Module khả dụng: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Không Module khả dụng"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Nếu đã sở hữu mọi phương tiện thuộc danh sách khả dĩ trong Module rồi, tất cả xe mà bạn nhận sau đó từ Module sẽ được đền bù theo vàng."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Module"
+msgstr[1] "%(remainingCount) Module"
+msgstr[2] "%(remainingCount) Module"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Phần thưởng Chắc chắn là một xe thuộc danh sách khả dĩ trong Module.\nNếu mở %(remainingCount) cái mà chưa nhận được xe nào như thế, bạn sẽ ẵm về một chiếc khi khui Module thứ %(count). Lúc điều đó xảy ra, bộ đếm sẽ tính lại từ đầu."

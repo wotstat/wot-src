@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "您的帳號已成功恢復"
+
+msgid "achievements/server_error"
+msgstr "尚未儲存稀有獎項勛帶的變更。"
+
+msgid "actionAchievement/title"
+msgstr "特惠成就"
+
+msgid "actionAchievements/title"
+msgstr "特惠成就"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "學習歷練時發生錯誤。錯誤的車輛。"
+
+msgid "add_tankman_skill/server_error"
+msgstr "無法訓練新歷練。\n伺服器無法使用。請稍後再試。"
+
+msgid "add_tankman_skill/success"
+msgstr "已訓練新歷練：%(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "學習歷練時發生錯誤：車輛已鎖定。"
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "學習歷練時發生錯誤：請修復車輛。"
+
+msgid "add_tankman_skills/server_error"
+msgstr "無法訓練新歷練。\n伺服器無法使用。請稍後再試。"
+
+msgid "add_tankman_skills/success"
+msgstr "已訓練新歷練：%(skill)s"
+
+msgid "another_periphery"
+msgstr "您仍登入在其它伺服器上。"
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "加入戰鬥發生錯誤：您已加入隊伍。"
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "加入戰鬥時發生錯誤：錯誤的隊伍編號。"
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "加入發生錯誤：操作暫時被禁止。請稍後再試。"
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "此活動目前無法使用。請前往遊戲入口網站關注最新消息。"
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "加入戰鬥發生錯誤：邀請逾時。"
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "加入發生錯誤：權限不足。"
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "無法加入戰鬥。目前無法使用佇列。請稍後再試。"
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "無法操作。目前佇列已滿。請稍後再試。"
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "加入戰鬥發生錯誤：隊伍已滿。"
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "加入戰鬥發生錯誤：連線逾時。"
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "加入發生錯誤：該類型帳號無法使用。"
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "加入戰鬥時發生錯誤"
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "加入發生錯誤：WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "加入發生錯誤：所選史實戰鬥為不可使用。"
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "連線失敗。請選擇%s伺服器。"
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "連線失敗。請選擇其他伺服器。"
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "加入戰鬥發生錯誤：當前車輛尚未準備好。"
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "錯誤：此階級車輛無法參與這個戰鬥模式。"
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "無法加入戰鬥：車輛尚未準備好。"
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "請購買一輛車來加入戰鬥。"
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "加入戰鬥時發生錯誤 (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "加入戰鬥時發生錯誤 (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "加入戰鬥時發生錯誤 (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "加入戰鬥時發生錯誤 (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "加入戰鬥時發生錯誤 (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "加入戰鬥時發生錯誤 (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "加入戰鬥時發生錯誤 (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "加入戰鬥時發生錯誤 (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "加入戰鬥時發生錯誤 (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "加入戰鬥時發生錯誤 (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "加入戰鬥時發生錯誤 (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "已超過加入戰鬥的最長佇列時間。請選擇其它車輛或稍後再試。"
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s「%(name)s」並不適合此車輛。"
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "錯誤的車輛。%(kind)s「%(name)s」尚未安裝。"
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s「%(name)s」已從車輛上拆卸下來。您已花費了 %(money)s。"
+
+msgid "artefact_apply/server_error"
+msgstr "安裝 %(kind)s「%(name)s」時伺服器發生錯誤。請稍後再試。"
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s「%(name)s」已安裝於車輛上。"
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "車輛已被鎖。%(kind)s「%(name)s」尚未安裝。"
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "車輛已受損。%(kind)s「%(name)s」尚未安裝。請修復車輛後再試一次。"
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s「%(name)s」並不適合此車輛。"
+
+msgid "artefact_buy/invalid_module"
+msgstr "無法購買 %(kind)s「%(name)s」。錯誤的配件。"
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "錯誤的車輛。無法購買並安裝 %(kind)s「%(name)s」。"
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "無法購買 %(kind)s「%(name)s」。銀幣不足。"
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "無法購買 %(kind)s「%(name)s」。點券不足。"
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "無法購買 %(kind)s「%(name)s」。週年紀念幣不足。"
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "無法購買 %(kind)s「%(name)s」。金幣不足。"
+
+msgid "artefact_buy/server_error"
+msgstr "無法購買 %(kind)s「%(name)s」。請稍後再試。"
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "無法購買 %(kind)s「%(name)s」。伺服器暫時無法使用。"
+
+msgid "artefact_buy/success"
+msgstr "已成功地購買 %(kind)s「%(name)s」（%(count)s 個）。花費 %(money)s。"
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "車輛已鎖定。無法購買並安裝 %(kind)s「%(name)s」。"
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "無法購買並安裝 %(kind)s「%(name)s」。請修復車輛後再試一次。"
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "無法拆解「%(name)s」。錯誤的配件。"
+
+msgid "artefact_deconstructing/server_error"
+msgstr "無法拆解「%(name)s」。請稍後再試。"
+
+msgid "artefact_deconstructing/success"
+msgstr "已拆解裝備：「%(name)s」（x%(count)s）。您已獲得 %(money)s。"
+
+msgid "artefact_deconstructingMult/success"
+msgstr "已拆解裝備：「%(names)s」。您已獲得%(money)s。"
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "「%(equipment)s」尚未拆卸。資金不足。"
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "錯誤的車輛。%(kind)s「%(name)s」尚未摧毀。"
+
+msgid "artefact_destroy/server_error"
+msgstr "摧毀 %(kind)s「%(name)s」時伺服器發生錯誤。請稍後再試。"
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s「%(name)s」於拆卸時摧毀。"
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "車輛已被鎖。%(kind)s「%(name)s」尚未摧毀。"
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "車輛已受損。%(kind)s「%(name)s」尚未摧毀。請修復車輛後再試一次。"
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s「%(name)s」已從車輛上拆卸下來。您用掉了拆卸器。"
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "由於消耗品「%s」與當前配件不相容所以被送回到倉庫。"
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "錯誤的車輛。%(kind)s「%(name)s」尚未拆卸。"
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s「%(name)s」已從車輛上拆卸下來。您已花費了 %(money)s。"
+
+msgid "artefact_remove/server_error"
+msgstr "拆卸 %(kind)s「%(name)s」時伺服器發生錯誤。請稍後再試。"
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s「%(name)s」已從車輛上拆卸下來。"
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "車輛已被鎖，%(kind)s「%(name)s」尚未拆卸。"
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "車輛已受損，%(kind)s「%(name)s」尚未拆卸。請修復車輛後再試一次。"
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s「%(name)s」透過您已啟用的「戰車世界 Plus」訂閱，已從車輛上免費拆卸下來。"
+
+msgid "artefact_sell/invalid_module"
+msgstr "無法出售 %(kind)s「%(name)s」。錯誤的配件。"
+
+msgid "artefact_sell/server_error"
+msgstr "無法出售 %(kind)s「%(name)s」。請稍後再試。"
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s「%(name)s」(%(count)s 個)。獲得 %(money)s。"
+
+msgid "artefact_upgrade/server_error"
+msgstr "升級裝備時發生錯誤。請稍後再試。"
+
+msgid "artefact_upgrade/success"
+msgstr "已成功地升級 %(kind)s「%(name)s」。特性已提升。花費 %(money)s。"
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "%(name)s%(kind)s已成功升級，且特性已改善。花費 %(money)s。\n\n來自另一組配置的類似裝備已送回倉庫。"
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "車輛已受損，%(kind)s「%(name)s」尚未升級。請修復車輛後再試一次。"
+
+msgid "badges/select/server_error"
+msgstr "伺服器錯誤"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "無法操作。請等到當前的操作完成為止。"
+
+msgid "battle/request/SEND_INVITES"
+msgstr "送出邀請"
+
+msgid "battleAbilities_apply/error"
+msgstr "戰鬥儲備配置錯誤。請稍後再試。"
+
+msgid "battleBooster_buy/credits_error"
+msgstr "無法購買 %(kind)s「%(name)s」。銀幣不足。"
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "無法購買 %(kind)s「%(name)s」。點券不足。"
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s「%(name)s」並不適合此車輛。"
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "無法購買 %(kind)s「%(name)s」。週年紀念幣不足。"
+
+msgid "battleBooster_buy/gold_error"
+msgstr "無法購買 %(kind)s「%(name)s」。金幣不足。"
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "無法購買 %(kind)s「%(name)s」。錯誤的配件。"
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "無法購買並安裝 %(kind)s「%(name)s」。錯誤的車輛。"
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "無法購買 %(kind)s「%(name)s」。銀幣不足。"
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "無法購買 %(kind)s「%(name)s」。點券不足。"
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "無法購買 %(kind)s「%(name)s」。週年紀念幣不足。"
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "無法購買 %(kind)s「%(name)s」。金幣不足。"
+
+msgid "battleBooster_buy/server_error"
+msgstr "技術指南相關操作因維護中而暫時無法使用。"
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "無法購買 %(kind)s「%(name)s」。伺服器暫時無法使用。"
+
+msgid "battleBooster_buy/success"
+msgstr "已成功地購買 %(kind)s「%(name)s」(%(count)s 個)。您花費了 %(money)s。"
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "車輛已鎖定。無法購買並安裝 %(kind)s「%(name)s」。"
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "無法購買並安裝 %(kind)s「%(name)s」。請修復車輛後再試一次。"
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "battleBooster_sell/server_error"
+msgstr "技術指南相關操作因維護中而暫時無法使用。"
+
+msgid "battleBooster_sell/success"
+msgstr "%(kind)s「%(name)s」已出售（%(count)s個）。獲得：%(money)s。"
+
+msgid "battleBoosters_apply/error"
+msgstr "技術指南操作錯誤。請稍後再試。"
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "技術指南操作錯誤。沒有足夠的資金可進行購買。"
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "無法操作。您的金幣將會在 WG Wallet 操作恢復後可用。"
+
+msgid "battlePass/activateChapter/success"
+msgstr "「%(chapter)s」章節已啟用"
+
+msgid "battlePass/extraFinish/body"
+msgstr "「%(name)s」已結束。感謝您的參與！"
+
+msgid "battlePass/extraFinish/header"
+msgstr "戰車遠征：「%(name)s」章節"
+
+msgid "battlePass/extraStarted/body"
+msgstr "車長！「%(name)s」活動已隨戰車遠征展開，活動期間您有機會獲取特殊獎勵！"
+
+msgid "battlePass/extraStarted/header"
+msgstr "戰車遠征：新章節開放了！"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "車長！「%(name)s」章節很快就要結束了。動作要快！"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "戰車遠征：「%(name)s」章節"
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "車長們！別忘了您可在排名戰獲得戰車遠征點數！"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "車長們！別忘了您可在前線獲得戰車遠征點數！"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "車長們！別忘了您可在偵察任務獲得戰車遠征點數！"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "車長們！別忘了您可在天梯戰獲得戰車遠征點數！"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "戰車遠征賽季 %(seasonNum)d"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "選擇獎勵時發生錯誤。請稍後再試。"
+
+msgid "battlePass/seasonEnd/text"
+msgstr "戰車遠征賽季已結束。您在賽季期間尚未選擇的所有獎勵，已依預設規則頒發給您："
+
+msgid "battlePass/switchChapter/error"
+msgstr "選擇章節時發生錯誤。請再試一次。"
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "選擇一個章節。您可隨時切換到其他章節。"
+
+msgid "battlePass/switchChapter/success"
+msgstr "您已切換到另一個章節。「%(chapter)s」章節現已啟用。"
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "戰車遠征因維護中而暫時無法在大逃殺中使用。我們為帶來的不便感到抱歉。"
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "正在進行維護，因此無法在「天梯戰」模式獲得戰車遠征點數。"
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "正在進行維護，因此無法在「天梯戰輕裝版」模式獲得戰車遠征點數。"
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "戰車遠征因維護中而暫時無法在前線中使用。"
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "戰車遠征因維護中而暫時無法在排名戰中使用。"
+
+msgid "battlePass/switch_enabled/body"
+msgstr "戰車遠征已可再次進行。我們為帶來的不便感到抱歉。\n賽季將延長至 %(expiryTime)s。"
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "已可再次於天梯戰獲得戰車遠征點數。我們為帶來的不便感到抱歉。"
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "已可再次於「天梯戰輕裝版」獲得戰車遠征點數。我們為帶來的不便感到抱歉。"
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "戰車遠征已再次在前線中可用。我們為帶來的不便感到抱歉。"
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "戰車遠征已再次在排名戰中可用。我們為帶來的不便感到抱歉。"
+
+msgid "battlePass/switch_pause/body"
+msgstr "戰車遠征因維護中而暫時無法使用。"
+
+msgid "battlePass/switch_started/body"
+msgstr "車長們！為獨特戰車遠征獎勵而戰的時刻又來了"
+
+msgid "battlePass/switch_started/title"
+msgstr "戰車遠征賽季 %(seasonNum)d"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "戰車遠征：%(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "戰車遠征已結束。所有您尚未選擇的獎勵，已依預設規則頒發給您："
+
+msgid "battlePassH/switch_disable/body"
+msgstr "章節已結束。下次見！"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "戰車遠征：%(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "戰車遠征已可再次進行。我們為帶來的不便感到抱歉。"
+
+msgid "battlePassH/switch_started/body"
+msgstr "車長們好！您肯定已經發現，這其實是戰車遠征特殊活動。\n\n完成進度後，您將獲得附帶獨特 3D 風格的加值車輛、自訂要素等許多獎勵！"
+
+msgid "battlePassH/switch_started/title"
+msgstr "戰車遠征：%(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "購買進度階段時發生錯誤。請稍後再試。"
+
+msgid "battlePass_buy/server_error"
+msgstr "購買遠征通行證時發生錯誤。請稍後再試。"
+
+msgid "battleResults/sharing/success"
+msgstr "連結已複製到剪貼簿。您可以透過按下 Ctrl+V 將其貼於聊天上或是用於遊戲客戶端以外。"
+
+msgid "battleSession/kickedFromQueue"
+msgstr "無法為當前的裝甲連找到對手，請考慮重組您的隊伍。"
+
+msgid "battleSession/memberJoined"
+msgstr "%s 加入了隊伍。"
+
+msgid "battleSession/memberLeave"
+msgstr "%s 離開了隊伍。"
+
+msgid "battleSession/memberNotReady"
+msgstr "%s 尚未準備好戰鬥。"
+
+msgid "battleSession/memberOffline"
+msgstr "與 %s 連線中斷。"
+
+msgid "battleSession/memberReady"
+msgstr "%s 已經準備好戰鬥。"
+
+msgid "battlesession/error/AddObserver"
+msgstr "一隊中最高觀察者數：%(numPlayers)s。"
+
+msgid "battlesession/error/AddPlayer"
+msgstr "一隊中最高玩家數：%(numPlayers)s。"
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "沒有足夠的權限來移動其他玩家。"
+
+msgid "battlesession/error/Limits"
+msgstr "已超出一隊中最高玩家數。"
+
+msgid "blueprints/conversion/disable"
+msgstr "沒有足夠的碎片可以轉換。"
+
+msgid "blueprints/conversion/error"
+msgstr "無法解雇：伺服器無法使用。請稍後再試。"
+
+msgid "blueprints/switch_off"
+msgstr "車輛藍圖：本功能暫時關閉。我們為造成的任何不便感到抱歉。"
+
+msgid "blueprints/switch_on"
+msgstr "車輛藍圖已再次可用。"
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "無法操作。個人儲備已在使用中。"
+
+msgid "booster_activate/DISABLED"
+msgstr "無法啟用個人儲備。無法操作。"
+
+msgid "booster_activate/EXCEPTION"
+msgstr "無法啟用個人儲備。無法操作。"
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "無法操作。個人儲備無法使用或尚未選擇。"
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "無法啟用個人儲備。無法操作。"
+
+msgid "booster_activate/server_error"
+msgstr "無法啟用個人儲備。請稍後再試。"
+
+msgid "booster_activate/success"
+msgstr "個人儲備「%(boosterName)s」已啟用。剩餘時間：%(time)s。"
+
+msgid "booster_buy/not_enough_credits"
+msgstr "無法購買個人儲備「%(boosterName)s」。銀幣不足。"
+
+msgid "booster_buy/not_enough_gold"
+msgstr "無法購買個人儲備「%(boosterName)s」。金幣不足。"
+
+msgid "booster_buy/server_error"
+msgstr "無法購買個人儲備「%(boosterName)s」。"
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "無法購買個人儲備「%(boosterName)s」。伺服器暫時無法使用。"
+
+msgid "booster_buy/success"
+msgstr "個人儲備「%(boosterName)s」(%(count)s 個) 購買成功。花費%(money)s。"
+
+msgid "booster_buy/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "booster_sell/server_error"
+msgstr "無法出售個人儲備「%(boosterName)s」。請稍後再試。"
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "無法出售個人儲備「%(boosterName)s」。請稍後再試。"
+
+msgid "booster_sell/success"
+msgstr "個人儲備「%(boosterName)s」(%(count)s 個) 出售成功。獲得%(money)s。"
+
+msgid "buttons/goToPoll"
+msgstr "進行投票"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "無法招募與調動乘員：該戰車擁有獨特的永久乘員。"
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "您已達到今天的免費乘員招募上限。"
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "無法招募與調動乘員。錯誤的車輛。"
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "無法招募並調動乘員。銀幣不足。"
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "無法招募並調動乘員。金幣不足。"
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "無法招募並調動乘員。請稍後再試。"
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "無法招募並調動乘員。車輛已鎖定。"
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "無法招募與調動乘員：該戰車擁有獨特的永久乘員。"
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "您已達到今天的免費乘員招募上限。"
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "無法招募與更換乘員。錯誤的車輛。"
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "無法招募並更換乘員。銀幣不足。"
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "無法招募並更換乘員。金幣不足。"
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "無法招募與更換乘員。想要招募一名乘員，您尚需一個空床位。請在兵營中清出一個床位或購買額外的床位。"
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "無法招募並更換乘員。請稍後再試。"
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "無法招募並更換乘員。車輛已鎖定。"
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "您已達到購買免費車輛的次數上限，請明天再試。"
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "擴充兵營發生錯誤，銀幣不足。"
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "擴充兵營發生錯誤，金幣不足。"
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "無法擴充兵營。請稍後再試。"
+
+msgid "buy_tankmen_berths/success"
+msgstr "兵營已擴充。\n花費金幣：%(money)s。"
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "buy_vehicle_slot_error"
+msgstr "無法購買「%s」。車庫中沒有可用的車位。請考慮出售一輛車或購買一個新的車位。"
+
+msgid "buy_vehicle_slot_error2"
+msgstr "無法購買「%s」。車庫中沒有可用的車位。請空出一個車位。"
+
+msgid "challenges/activate/serverError"
+msgstr "無法啟用「淬鍊」任務。請稍後再試。"
+
+msgid "challenges/activate/success/text"
+msgstr "此系列的首個任務已開放。進入戰鬥並迎接挑戰！"
+
+msgid "challenges/activate/success/title"
+msgstr "「淬鍊：%(challengeName)s」已啟用！"
+
+msgid "challenges/challengeEnd/button"
+msgstr "前往「淬鍊」"
+
+msgid "challenges/challengeEnd/text"
+msgstr "立即完成並獲取獎勵。"
+
+msgid "challenges/challengeEnd/title"
+msgstr "「淬鍊」任務即將結束！"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "恭喜！"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "您已完成「淬鍊：%(challengeName)s」！獎勵已獲得："
+
+msgid "challenges/formatter/spent/credits"
+msgstr "花費銀幣："
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "花費點券："
+
+msgid "challenges/formatter/spent/gold"
+msgstr "花費金幣："
+
+msgid "challenges/restart/free/text"
+msgstr "已使用一次免費重新開始次數，任務進度已重置。"
+
+msgid "challenges/restart/free/title"
+msgstr "「淬鍊：%(challengeName)s」已免費重新開始"
+
+msgid "challenges/restart/paid/title"
+msgstr "「淬鍊：%(challengeName)s」已重新開始"
+
+msgid "challenges/restart/serverError"
+msgstr "無法重新開始「淬鍊」任務。請稍後再試。"
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "無法操作。請等待當前操作完成。"
+
+msgid "challenges/surrender/serverError"
+msgstr "無法放棄「淬鍊」任務。請稍後再試。"
+
+msgid "challenges/surrender/success/text"
+msgstr "您已放棄「淬鍊：%(challengeName)s」。該系列任務已失敗。"
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "無法變更乘員的專長：該戰車擁有獨特的永久乘員。"
+
+msgid "change_tankman_role/invalid_role"
+msgstr "無法變更專長。請稍後再試。"
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "無法變更專長。錯誤的車輛。"
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "車輛不在車庫中。已變更專長的乘員將被送回兵營。"
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "無法變更乘員專長。銀幣不足。"
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "無法變更乘員專長。金幣不足。"
+
+msgid "change_tankman_role/server_error"
+msgstr "無法變更專長。\n請稍後再試。"
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "%(vehicle)s 已有%(role)s。已變更專長的乘員將被送回兵營。"
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "無法變更專長。請稍後再試。"
+
+msgid "charge/credits_error"
+msgstr "尚需 %s 銀幣與 %s 金幣。請手動裝載彈藥。"
+
+msgid "charge/credits_error_credits"
+msgstr "尚需 %s 銀幣。請手動裝載彈藥。"
+
+msgid "charge/credits_error_gold"
+msgstr "尚需 %s 金幣。請手動裝載彈藥。"
+
+msgid "charge/inventory_error"
+msgstr "%(vehicle)s 的彈藥未被裝載。請手動裝載彈藥。"
+
+msgid "charge/money_spent"
+msgstr "彈藥共花費%s。"
+
+msgid "charge/server_error"
+msgstr "載入彈藥設定發生錯誤，稍後再試。"
+
+msgid "charge/server_error_save"
+msgstr "儲存彈藥設定發生錯誤，稍後再試。"
+
+msgid "charge/success"
+msgstr "成功載入彈藥設定。"
+
+msgid "charge/success_save"
+msgstr "成功儲存彈藥設定。"
+
+msgid "checkout_error"
+msgstr "接收玩家詳情時發生錯誤。請再試一次。"
+
+msgid "clans/isClanProfileDisabled"
+msgstr "無法操作。請稍後再試。"
+
+msgid "clans/notifications/accept"
+msgstr "接受"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "公會邀請已送出給 %(userName)s。"
+
+msgid "clans/notifications/decline"
+msgstr "拒絕"
+
+msgid "clans/notifications/from"
+msgstr "來自 %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "檢視公會詳情"
+
+msgid "clans/notifications/invite"
+msgstr "邀請加入公會"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "公會邀請已接受。"
+
+msgid "clans/notifications/invite/declined"
+msgstr "公會邀請已拒絕。"
+
+msgid "clans/notifications/invite/expired"
+msgstr "公會邀請為無效。"
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s 已接受該公會邀請。"
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s 已拒絕該公會邀請。"
+
+msgid "clans/notifications/inviteSendError"
+msgstr "無法送出公會邀請給 %(userName)s。"
+
+msgid "clans/notifications/inviteSent"
+msgstr "公會邀請已送出給 %(userName)s。"
+
+msgid "clans/notifications/invites"
+msgstr "公會邀請：%(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "關閉通知"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "檢視邀請"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "給 %(userCount)d 位玩家的公會邀請沒有送出。"
+
+msgid "clans/notifications/invitesSent"
+msgstr "給 %(userCount)d 位玩家的邀請已送出。"
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "您已獲准加入公會\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "您的加入公會\n%(nameStartTag)s%(name)s%(nameEndTag)s 申請已被拒絕。"
+
+msgid "clans/notifications/request"
+msgstr "申請加入公會"
+
+msgid "clans/notifications/request/accepted"
+msgstr "申請已接受。"
+
+msgid "clans/notifications/request/declined"
+msgstr "申請已拒絕。"
+
+msgid "clans/notifications/requestSent"
+msgstr "申請已送出給公會：\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "來自玩家的邀請：%(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "檢視申請"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s 已經被邀請加入您的公會。"
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "無法操作。該玩家並不符合招募要求。"
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "離開您先前公會的一天懲罰還尚未到期。"
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "無法操作。不正確的帳號。"
+
+msgid "clans/request/errors/Account is banned"
+msgstr "無法操作。帳號已被禁止。"
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "此玩家已經是公會的一員。"
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "無法操作。玩家不是公會成員。"
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "無法操作。申請並不存在。"
+
+msgid "clans/request/errors/Application is not active"
+msgstr "無法操作。該申請已到期。"
+
+msgid "clans/request/errors/Bad request"
+msgstr "無法操作。請稍後再試。"
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "沒有足夠的權限以送出邀請給該公會。"
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "公會招募已關閉。"
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "公會已滿。"
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "無法操作。公會並不存在。"
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "無法操作。公會已滿。"
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "無法操作。公會已解散。"
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "無法操作。公會為非活躍。"
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "無法操作。請稍後再試。"
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "無法操作。請稍後再試。"
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "此類型帳號無法操作。"
+
+msgid "clans/request/errors/Forbidden"
+msgstr "無法操作。權限不足。"
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "無法操作。請稍後再試。"
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "無法操作。邀請並不存在。"
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "無法操作。邀請已到期。"
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "無法操作。請稍後再試。"
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "無法操作。請稍後再試。"
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "無法操作。根據地無法使用。"
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "無法操作。已送出了最高申請數。"
+
+msgid "clans/request/errors/Too many invites"
+msgstr "無法操作。已送出了最高邀請數。"
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "無法操作。請稍後再試。"
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "無法操作。請稍後再試。"
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "無法操作。請稍後再試。"
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "無法操作。請稍後再試。"
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s 已經是公會的一員。"
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s「%s」並不適合此車輛。"
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s「%s」並不適合此炮塔。請更換炮塔。"
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s「%s」為錯誤的類型。"
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s「%s」為錯誤的國家。"
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s「%s」並不適合此車輛。"
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s「%s」為錯誤的類型。"
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s「%s」為錯誤的國家。"
+
+msgid "client_inactive"
+msgstr "客戶端非使用中"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "收藏車輛因為排定的維修而暫時無法使用。"
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "收藏車輛無法使用"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "收藏車輛問題已得到解決。我們為帶來的不便感到抱歉。"
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "收藏車輛已再次可用"
+
+msgid "connected"
+msgstr "歡迎來到《戰車世界》%s 伺服器！"
+
+msgid "consumables_apply/error"
+msgstr "消耗品配置錯誤。請稍後再試。"
+
+msgid "consumables_apply/not_enough_money"
+msgstr "消耗品配置錯誤。沒有足夠的資金可進行購買。"
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "無法操作。您的金幣將會在 WG Wallet 操作恢復後可用。"
+
+msgid "conversion/error"
+msgstr "無法解雇：伺服器無法使用。請稍後再試。"
+
+msgid "conversion/header"
+msgstr "日期：%(at)s\n已新增："
+
+msgid "conversion/success"
+msgstr "已解雇訓練不足的乘員：%(number)s"
+
+msgid "conversion/title"
+msgstr "獲得明細"
+
+msgid "conversionPerks/header"
+msgstr "日期：%(at)s\n從超過數量上限的歷練轉換經驗。已獲得："
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "您所在地區的玩家無法進行私人聊天。"
+
+msgid "crewBooks/failed"
+msgstr "無法訓練此組乘員。\n請稍後再試。"
+
+msgid "crewBooks/server_error"
+msgstr "由於伺服器錯誤而導致乘員訓練失敗。請稍後再試。"
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s"
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s（x%(count)s）"
+
+msgid "crewBooksNotification/success"
+msgstr "已訓練乘員。\n花費："
+
+msgid "crewBooks_buy/server_error"
+msgstr "由於伺服器錯誤而無法購買乘員書籍。請稍後再試。"
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s（%(count)s 個）。\n花費銀幣：%(money)s。"
+
+msgid "crewBooks_sell/server_error"
+msgstr "由於伺服器錯誤而無法出售乘員書籍。請稍後再試。"
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s（%(count)s 個）。\n獲得銀幣：%(money)s。"
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "已變更乘員外表。"
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "已新增乘員外表：%(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "當前車輛已更換為 %s。"
+
+msgid "customization/added/attachment"
+msgstr "已新增「%s」3D 配飾"
+
+msgid "customization/added/attachmentValue"
+msgstr "已新增「%s」3D 配飾：(x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "「%s」迷彩已新增"
+
+msgid "customization/added/camouflageValue"
+msgstr "「%s」迷彩已新增：(x%s)"
+
+msgid "customization/added/decal"
+msgstr "「%s」花樣已新增"
+
+msgid "customization/added/decalValue"
+msgstr "「%s」花樣已新增：(x%s)"
+
+msgid "customization/added/emblem"
+msgstr "「%s」標誌已新增"
+
+msgid "customization/added/emblemValue"
+msgstr "「%s」標誌已新增：(x%s)"
+
+msgid "customization/added/inscription"
+msgstr "「%s」標語已新增"
+
+msgid "customization/added/inscriptionValue"
+msgstr "「%s」標語已新增：(x%s)"
+
+msgid "customization/added/modification"
+msgstr "「%s」特效已新增"
+
+msgid "customization/added/modificationValue"
+msgstr "「%s」特效已新增：(x%s)"
+
+msgid "customization/added/paint"
+msgstr "「%s」油漆已新增"
+
+msgid "customization/added/paintValue"
+msgstr "「%s」油漆已新增：(x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "「%s」一位數已新增"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "「%s」一位數已新增：(x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "「%s」二位數已新增"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "「%s」二位數已新增：(x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "「%s」三位數已新增"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "「%s」三位數已新增：(x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "「%s」花樣已新增"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "「%s」花樣已新增：(x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "數據追蹤器：「%s」已新增"
+
+msgid "customization/added/statTrackerValue"
+msgstr "數據追蹤器：「%s」已新增：(x%s)"
+
+msgid "customization/added/style"
+msgstr "「%s」風格已新增"
+
+msgid "customization/added/styleValue"
+msgstr "「%s」風格已新增：(x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "無法自訂，銀幣和金幣不足。"
+
+msgid "customization/credits_not_enough"
+msgstr "無法自訂，銀幣不足。"
+
+msgid "customization/currency_not_enough"
+msgstr "沒有足夠的貨幣可購買物品。"
+
+msgid "customization/gold_not_enough"
+msgstr "無法自訂，金幣不足。"
+
+msgid "customization/igr_type_changed_error"
+msgstr "IGR 狀態已變更。當前的操作已取消。"
+
+msgid "customization/invalidVehicle"
+msgstr "無法套用：不適用的車輛"
+
+msgid "customization/personal_number_prohibited"
+msgstr "數字 %(value)s 無法使用。\n已移除%(seasonName)s地圖的%(itemType)s %(itemName)s。"
+
+msgid "customization/progression/down/style"
+msgstr "「%s」風格降級到等級 %s"
+
+msgid "customization/progression/up/style"
+msgstr "「%s」風格升級到等級 %s"
+
+msgid "customization/prohibited"
+msgstr "無法套用：%(itemName)s 不在庫存中。"
+
+msgid "customization/removed/attachment"
+msgstr "「%s」3D 配飾已移除"
+
+msgid "customization/removed/attachmentValue"
+msgstr "「%s」3D 配飾已移除：(x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "「%s」迷彩已移除"
+
+msgid "customization/removed/camouflageValue"
+msgstr "「%s」迷彩已移除：(x%s)"
+
+msgid "customization/removed/decal"
+msgstr "「%s」花樣已移除"
+
+msgid "customization/removed/decalValue"
+msgstr "「%s」花樣已移除：(x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "「%s」標誌已移除"
+
+msgid "customization/removed/emblemValue"
+msgstr "「%s」標誌已移除：(x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "「%s」標語已移除"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "「%s」標語已移除：(x%s)"
+
+msgid "customization/removed/modification"
+msgstr "「%s」特效已移除"
+
+msgid "customization/removed/modificationValue"
+msgstr "「%s」特效已移除：(x%s)"
+
+msgid "customization/removed/paint"
+msgstr "「%s」油漆已移除"
+
+msgid "customization/removed/paintValue"
+msgstr "「%s」油漆已移除：(x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "「%s」一位數已移除"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "「%s」一位數已移除：(x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "「%s」二位數已移除"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "「%s」二位數已移除：(x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "「%s」三位數已移除"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "「%s」 三位數已移除：(x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "「%s」花樣已移除"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "「%s」花樣已移除：(x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "數據追蹤器：「%s」已移除"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "數據追蹤器：「%s」已移除：(x%s)"
+
+msgid "customization/removed/style"
+msgstr "「%s」風格已移除"
+
+msgid "customization/removed/styleValue"
+msgstr "「%s」風格已移除」：(x%s)"
+
+msgid "customization/server_error"
+msgstr "無法自訂。"
+
+msgid "customization/unavailable"
+msgstr "車輛自訂功能由於技術性因素而暫時被關閉。"
+
+msgid "customization/vehicle_damaged"
+msgstr "無法自訂。車輛已受損，需要修理。"
+
+msgid "customization/vehicle_destroyed"
+msgstr "無法自訂。車輛已半毀，需要修理。"
+
+msgid "customization/vehicle_exploded"
+msgstr "無法自訂。車輛已全毀，需要修理。"
+
+msgid "customization/vehicle_locked"
+msgstr "無法自訂。車輛已被鎖。"
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "無法重骰一般任務：任務已經完成。"
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "無法重骰一般任務：操作被封鎖。"
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "無法重骰一般任務：操作被暫停。"
+
+msgid "daily_quests/reroll/success"
+msgstr "一般任務已成功重骰。"
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "無法重骰一般任務。請稍後再試。"
+
+msgid "daily_quests/switch_off/body"
+msgstr "由於技術性原因，這項功能目前無法使用。\n我們為帶來的不便感到抱歉。"
+
+msgid "daily_quests/switch_off/title"
+msgstr "一般任務暫時無法使用"
+
+msgid "daily_quests/switch_on/body"
+msgstr "技術性問題已得到解決。我們為帶來的不便感到抱歉。"
+
+msgid "daily_quests/switch_on/title"
+msgstr "一般任務已再次可用"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "由於技術性原因，這項功能目前無法使用。\n我們為帶來的不便感到抱歉。"
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "可控經驗加成暫時無法使用"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "技術性問題已得到解決。 我們為帶來的不便感到抱歉。"
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "可控經驗加成已再次可用"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "拆卸器相關操作因維護中而暫時無法使用。"
+
+msgid "demountKit_restored/switchedOn"
+msgstr "拆卸器相關操作已恢復。我們為帶來的不便感到抱歉。"
+
+msgid "denunciation/success"
+msgstr "已接受對 %(name)s 有關「%(topic)s」的檢舉。"
+
+msgid "disconnected"
+msgstr "客戶端與伺服器間的連線中斷。"
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "無法解雇乘員：該戰車擁有獨特的永久乘員。"
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "解雇乘員時發生錯誤：錯誤的車輛。"
+
+msgid "dismiss_tankman/server_error"
+msgstr "無法解雇此名乘員。\n請稍後再試。"
+
+msgid "dismiss_tankman/success"
+msgstr "已解雇乘員。"
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "解雇乘員時發生錯誤。車輛已鎖定。"
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "解雇乘員時發生錯誤。請修理車輛。"
+
+msgid "dog_tags/switch_off/body"
+msgstr "由於技術性原因，這項功能目前無法使用。\n我們為帶來的不便感到抱歉。"
+
+msgid "dog_tags/switch_off/title"
+msgstr "兵籍牌暫時無法使用"
+
+msgid "dog_tags/switch_on/body"
+msgstr "技術性問題已得到解決。我們為帶來的不便感到抱歉。"
+
+msgid "dog_tags/switch_on/title"
+msgstr "兵籍牌已再次可用"
+
+msgid "dossiers_unavailable"
+msgstr "帳號尚未準備好 (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "已重置所有歷練。\n花費銀幣：%(money)s。"
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "已重置所有歷練。\n花費金幣：%(money)s。"
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "重置歷練時發生錯誤。錯誤的車輛。"
+
+msgid "drop_tankman_skill/server_error"
+msgstr "無法重置歷練。請稍後再試。"
+
+msgid "drop_tankman_skill/success"
+msgstr "已重置所有歷練。"
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "重置歷練時發生錯誤。車輛已鎖定。"
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "重置歷練時發生錯誤。請修理車輛。"
+
+msgid "drr_scale/step_down"
+msgstr "動態解析度被降低到 %(scale)d%%。"
+
+msgid "drr_scale/step_up"
+msgstr "動態解析度被提高到 %(scale)d%%。"
+
+msgid "earning/button/multiple"
+msgstr "前往成就"
+
+msgid "earning/button/single"
+msgstr "前往成就"
+
+msgid "earning/common/multiple"
+msgstr "已解鎖 %(value)s 個成就！"
+
+msgid "earning/common/single"
+msgstr "已解鎖「%(value)s」成就！"
+
+msgid "earning/title"
+msgstr "恭喜！"
+
+msgid "earning/trophy/multiple"
+msgstr "已獲得 %(value)s 個戰利品！"
+
+msgid "earning/trophy/single"
+msgstr "已獲得「%(value)s」戰利品！"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "「快速備戰」已再次可用。我們為帶來的不便感到抱歉。"
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "「快速備戰」因維護中而暫時無法使用。"
+
+msgid "easyTankEquip_apply/error"
+msgstr "套用「快速備戰」配置時發生錯誤。請稍後再試。"
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "套用「快速備戰」配置時發生錯誤。沒有足夠的資金可進行購買。"
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "無法進行「快速備戰」操作。您的金幣將會在 WG Wallet 操作恢復後可用。"
+
+msgid "epicBattles/levelUp/awards"
+msgstr "已獲得獎勵："
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "您達到了前線進度的階級 <font color='#E9E2BF'>%(tier)s</font>。"
+
+msgid "epicBattles/levelUp/title"
+msgstr "恭喜！"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "前線無法使用。請留意遊戲入口網站上的最新消息。"
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "選擇獎勵時發生錯誤。請稍後再試。"
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "已獲得%(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "已獲得裝備技術指南：%(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "已獲得試驗型裝備：%(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "前線賽季已結束。<br/>您在賽季期間尚未選擇的所有獎勵，已依預設規則頒發給您："
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "前線"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "無法調動乘員：該戰車擁有獨特的永久乘員。"
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "調動乘員到該車輛時發生錯誤。錯誤的車輛。"
+
+msgid "equip_tankman/not_enough_space"
+msgstr "無法將乘員送回兵營。兵營中的床位不足。"
+
+msgid "equip_tankman/server_error"
+msgstr "無法將乘員調動到車輛。請稍後再試。"
+
+msgid "equip_tankman/success"
+msgstr "乘員已調動到 %(vehName)s。"
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "調動乘員到該車輛時發生錯誤。車輛已鎖定。"
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "調動乘員到該車輛時發生錯誤。請修理車輛。"
+
+msgid "exchange/not_enough_gold"
+msgstr "沒有足夠的金幣可以兌換。"
+
+msgid "exchange/server_error"
+msgstr "轉換 %(gold)s 金幣時發生錯誤，請稍後再試。"
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "沒有足夠的金幣可以轉換 %(xp)s 經驗。"
+
+msgid "exchangeXP/server_error"
+msgstr "轉換 %(xp)s 經驗時發生錯誤，請稍後再試。"
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "filling_untrained_perks/server_error"
+msgstr "無法訓練新歷練。\n伺服器無法使用。請稍後再試。"
+
+msgid "filling_untrained_perks/success"
+msgstr "已為所有乘員訓練新歷練。"
+
+msgid "fortification/addOrder"
+msgstr "%(count)s 軍用儲備的製備工作已開始。剩餘時間：%(time)s。"
+
+msgid "fortification/buildingProcess"
+msgstr "建築 %(buildingName)s 已開始建造。請運送需要的工業資源量來確保建造不會間斷。"
+
+msgid "fortification/created"
+msgstr "恭喜！\n根據地已成功地建立。"
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "您根據地的防禦將於 48 小時後關閉。在此期間您可以到根據地設定中重新啟動防禦。"
+
+msgid "fortification/defenceHourSet"
+msgstr "防禦期將於 14 天後進行調整。新的防禦期：%(defenceHour)s。"
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "停火日將於 14 天後進行調整。新的停火日 — 尚未設置。"
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "停火日將於 14 天後進行調整。新的停火日 — %(offDay)s。"
+
+msgid "fortification/demountBuilding"
+msgstr "建築 %(buildingName)s 已拆除。"
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "無法操作。您已經入駐此建築。"
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "無法操作。根據地已建立。"
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "無法操作。公會已加入書籤名單中。"
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "無法操作。您無法對同一個公會制定一次以上的攻擊。"
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "無法操作。攻擊資料尚未載入。"
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "無法操作。自對該公會的最後一次攻擊後必須再經過一週。"
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "無法操作。其它分遣隊控制了橋頭堡。"
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "無法操作。攻擊尚未預定。"
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "無法操作。您只能在開始的 15 分鐘內制定好攻擊。"
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "無法在所選日排定攻擊。"
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "無法操作。不正確的公會 ID。"
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "無法操作。不正確的停火日數值。"
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "無法操作。不正確的日期。"
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "無法操作。不正確的進階戰 ID。"
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "無法操作。不正確的防禦期數值。"
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "無法攻擊選擇的公會：根據地等級的差異大於一級。請選擇其它公會。"
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "無法操作。不正確的軍用儲備數。"
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "無法操作。無效的工業資源運送量。"
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "無法操作。不正確的分組。"
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "無法操作。尚未收到前哨戰的詳情。"
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "目前戰鬥被限制在這個伺服器。"
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "無法操作。無效的中立期。"
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "無法操作。無效的中立日期。"
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "無法操作。修理指揮中心。"
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "無法操作。指揮中心已摧毀。"
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "無法操作。指揮中心尚未受損。"
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "無法操作。戰鬥不存在。"
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "很抱歉，詳細戰鬥結果無法使用。"
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "無法移除。根據地尚存在著建築。"
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "無法操作。建築已受損。"
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "無法操作。建築尚未建造。"
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "無法操作。無法檢索公會詳情。"
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "無法操作。無法尋找公會。"
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "無法操作。無法使用交通運輸。"
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "無法操作。無法升級建築。"
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "操作被拒絕。該伺服器暫時無法使用。"
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "無法操作。公會已啟用停火日。"
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "無法操作。公會已啟用中立。"
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "無法操作。無法將防禦期設置在指定的時間。"
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "無法操作。其它分遣隊控制了橋頭堡。"
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "無法操作。防禦尚未預定。"
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "無法操作。無效的資料。"
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "無法操作。防禦未開啟。"
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "根據地暫時無法使用。"
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "無法操作。建築已經建造。"
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "無法操作。請等到當前的操作完成為止。"
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "無法操作。您已在那個時間攻擊其它公會。"
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "無法在要求的時間預定攻擊此公會。"
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "錯誤。根據地暫時無法使用。"
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "無法操作。根據地等級過低。"
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "無法操作。所有建築的建造已被暫停。"
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "無法操作。未經授權。"
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "操作無法使用。無法加入該戰術單位。"
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "操作暫時無法使用。"
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "無法操作。時間尚未同步。"
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "無法操作。您尚未入駐該建築。"
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "無法操作。該玩家並非是公會成員。"
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "無法操作。公會玩家數不足。"
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "無法操作。該建築之貨棧中的工業資源不足。"
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "無法操作。公會尚未加入書籤清單中。"
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "無法操作。該建築尚未建造。"
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "無法操作。您還不是任何公會的一員。"
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "無法操作。目前不能啟用儲備。"
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "無法操作。錯誤的建築。"
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "無法操作。軍用儲備無法使用或尚未選擇。"
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "無法操作。錯誤的軍用儲備。"
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "無法操作。錯誤的軍用儲備。"
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "無法操作。建築已經開始建造。"
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "無法操作。攻擊不存在。"
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "無法操作。軍用儲備已在使用中。"
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "無法操作。軍用儲備已在進行製備。"
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "無法操作。建造已經被暫停。"
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "無法操作。軍用儲備無法使用。"
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "無法操作。建造尚未暫停。"
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "無法操作。伺服器下線。"
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "無法操作。位置已被占用。"
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "無法操作。防禦已經被關閉。"
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "無法操作。防禦還尚未關閉。"
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "無法操作。訓練尚未完成。"
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "無法操作。貨棧已滿。"
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "無法操作。防禦已經預定在這一天。"
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "已達到將公會加入書籤的上限。"
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "無法操作。已達軍用儲備的最高製備量。"
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "無法操作。建築的駐軍已滿。"
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "無法操作。已超出前哨戰限制。"
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "無法操作。交通運輸暫時無法使用。"
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "無法操作。已超出交通運輸限制。"
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "無法操作。玩家尚未準備好。"
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "無法操作。無法拆除指揮中心。"
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "無法操作。不正確的公會。"
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "無法操作。不正確的伺服器。"
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "無法操作。無法在此地區建造建築。"
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "您已入駐建築 %(buildingName)s。"
+
+msgid "fortification/fortBattleFinished"
+msgstr "由於伺服器的技術性問題，進階戰被強制停止。"
+
+msgid "fortification/modernizationBuilding"
+msgstr "升級已成功地完成。建築 %(buildingName)s 的等級提升為 %(buildingLevel)s。"
+
+msgid "fortification/notification/turnedOff"
+msgstr "根據地暫時無法使用。請稍後再試。"
+
+msgid "fortification/notification/turnedOn"
+msgstr "根據地：戰鬥模式已再次可用。"
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "啟用軍用儲備"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "建造建築"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "將公會加入書籤"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "啟用軍用儲備"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "增加玩家到駐軍"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "重新啟動防禦期"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "調整防禦期"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "調整停火"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "變更伺服器"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "變更設定"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "調整中立"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "建立根據地"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "建立分遣隊"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "移除建築"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "移除根據地"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "預定攻擊"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "移除已加入書籤的公會"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "檢視公會詳情"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "檢視公會的詳情"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "取得分遣隊詳情"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "關閉防禦期"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "交通運輸"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "建築升級"
+
+msgid "fortification/transport"
+msgstr "交通運輸已成功地完成。%(res)s 工業資源已從 %(fromBuilding)s 運送到 %(toBuilding)s 建築。"
+
+msgid "fortification/vacationSet"
+msgstr "根據地維持中立 %(vacationPeriod)s。"
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "無法使用的操作。"
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "訓練乘員時發生錯誤，自由經驗不足。"
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "訓練乘員時發生錯誤，這名乘員並不存在。"
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "訓練乘員時發生錯誤，請稍後再試。"
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "訓練乘員時發生錯誤，請稍後再試。"
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "無法使用自由經驗訓練乘員。\n請稍後再試。"
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "已訓練乘員。\n花費自由經驗：%(money)s。"
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "為了防止兒童與青少年遊戲成癮，將禁止加入戰鬥。您將會在 %(blockTime)s 中斷與伺服器的連線。"
+
+msgid "gameSessionControl/korea/note"
+msgstr "Excessive video game playing may interfere with your daily life."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "可進行遊戲的剩餘時間：%(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "已超過遊玩時間上限，您無法再加入新的戰鬥。您將會在 %s 後中斷與伺服器的連線。"
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "可進行遊戲的持續時間：%(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "到午夜前的剩餘時間：%(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "您的遊玩時間已結束。您無法再加入新的戰鬥。您將會在 %(kickTime)s 中斷與伺服器的連線。"
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "您的帳號已移除遊玩時間限制"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "家長監護設定已變更。"
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "您將在 %(timeLimit)s 被登出伺服器。"
+
+msgid "graficsOptionsFail"
+msgstr "顯示卡不相容，套用畫面設定失敗：%s。"
+
+msgid "graficsPresetFail"
+msgstr "顯示卡不相容，套用指定畫質失敗。"
+
+msgid "igr/customization/begin"
+msgstr "在 %(igrIcon)s 下可以使用免費的迷彩、標誌、以及標語。"
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s 已經過期。將會從您車輛上移除掉免費的迷彩、標誌、以及標語。"
+
+msgid "info/noAvailable"
+msgstr "詳細資訊無法使用。"
+
+msgid "install_component"
+msgstr "%s「%s」已安裝於車輛上。"
+
+msgid "install_vehicle_broken"
+msgstr "無法安裝配件 %s「%s」：車輛已受損。請修理您的車輛後再試一次。"
+
+msgid "install_vehicle_locked"
+msgstr "車輛已鎖定，無法安裝配件 %s「%s」。"
+
+msgid "inventory/item/already_exists"
+msgstr "配件 %(typeString)s「%(userString)s」已存在在倉庫中。"
+
+msgid "inventory/item/equip_in_processing"
+msgstr "安裝裝備請求已送出，等待伺服器回應。"
+
+msgid "inventory/item/not_found"
+msgstr "配件 %(typeString)s「%(userString)s」不在倉庫中。"
+
+msgid "inventory/vehicle/already_exists"
+msgstr "車輛 %(userString)s 已存在在車庫中。"
+
+msgid "inventory/vehicle/not_found"
+msgstr "車輛 %(userString)s 不在車庫中。"
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "給傭兵 %(name)s 的邀請無法送出。"
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "給玩家 %(name)s 的邀請無法送出：錯誤的公會。"
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "「%(vehName)s」的後勤發生錯誤。無法補充消耗品。請稍後再試。"
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "「%(vehName)s」的後勤發生錯誤。無法補充消耗品。請稍後再試。"
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "「%(vehName)s」的後勤發生錯誤。無法補充消耗品。請稍後再試。"
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "「%(vehName)s」的後勤發生錯誤。無法補充砲彈。請稍後再試。"
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "「%(vehName)s」的後勤發生錯誤。無法補充砲彈。已裝載了最高數量的砲彈。"
+
+msgid "layout_apply/Component is not in shop"
+msgstr "「%(vehName)s」的後勤發生錯誤。無法補充消耗品。請稍後再試。"
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "「%(vehName)s」的後勤發生錯誤。沒有足夠的銀幣以購買消耗品。請稍後再試。"
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "「%(vehName)s」的後勤發生錯誤。沒有足夠的點券以購買消耗品。"
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "「%(vehName)s」的後勤發生錯誤。沒有足夠的金幣以購買消耗品。請稍後再試。"
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "「%(vehName)s」的後勤發生錯誤。無法補充消耗品。請稍後再試。"
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "「%(vehName)s」的後勤發生錯誤。錯誤的車輛。"
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "「%(vehName)s」的後勤發生錯誤。沒有足夠的銀幣以購買砲彈。"
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "「%(vehName)s」的後勤發生錯誤。沒有足夠的金幣以購買砲彈。"
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "「%(vehName)s」的後勤發生錯誤。車輛已被鎖。"
+
+msgid "layout_apply/error"
+msgstr "「%(vehName)s」的後勤發生錯誤。請稍後再試。"
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "「%(vehName)s」的後勤發生錯誤。錯誤的車輛。"
+
+msgid "layout_apply/success_money_spent"
+msgstr "彈藥共花費%(money)s。"
+
+msgid "layout_apply/vehicle_locked"
+msgstr "「%(vehName)s」的後勤發生錯誤。車輛已被鎖。"
+
+msgid "layout_apply/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "limitedUI/switchOff"
+msgstr "隱藏之介面元素的逐步顯示已暫時關閉。"
+
+msgid "limitedUI/switchOn"
+msgstr "隱藏之介面元素的逐步顯示已再次開啟。您可在設定中將其關閉。"
+
+msgid "locked_vehicle_error"
+msgstr "無法對預先配置的車輛進行此操作。"
+
+msgid "login_to_other_game_unknown"
+msgstr "當前的遊戲階段被中斷。您的 Wargaming.net&nbsp;ID 被用來登入到其它遊戲中"
+
+msgid "login_to_other_game_web"
+msgstr "當前的遊戲階段被中斷。透過遊戲的入口網站中斷了您與伺服器的連線。"
+
+msgid "login_to_other_game_wot"
+msgstr "當前的遊戲階段被中斷。您的 Wargaming.net&nbsp;ID 被用來登入到 World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotb"
+msgstr "當前的遊戲階段被中斷。您的 Wargaming.net&nbsp;ID 被用來登入到 World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "當前的遊戲階段被中斷。您的 Wargaming.net&nbsp;ID 被用來登入到 World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "當前的遊戲階段被中斷。您的 Wargaming.net&nbsp;ID 被用來登入到 World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "當前的遊戲階段被中斷。您的 Wargaming.net&nbsp;ID 被用來登入到 World&nbsp;of&nbsp;Warships"
+
+msgid "lootboxes/open/server_error"
+msgstr "獲得禮物時發生錯誤：伺服器錯誤。"
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "獲得禮物時發生錯誤。請等到前一個操作完成為止。"
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "操作暫時無法使用。請稍後再試。"
+
+msgid "mapbox/notification/primeTime"
+msgstr "休戰結束前無法進行偵察任務。"
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "休戰期"
+
+msgid "maps_black_list/select/server_error"
+msgstr "伺服器錯誤"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "無法操作。請等到當前的操作完成為止。"
+
+msgid "maps_black_list/select/success"
+msgstr "%(mapName)s 地圖已從隨機戰鬥中排除。您可以在 %(time)s後變更自己的選擇。"
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "%(mapName)s 地圖已從隨機戰鬥中排除。您可以在 %(time)s後變更自己的選擇，或透過啟用《戰車世界》加值帳號或訂閱「戰車世界 Plus」解鎖一個額外的欄位。"
+
+msgid "maps_black_list/select/success/premium"
+msgstr "%(mapName)s 地圖已從隨機戰鬥中排除。您可以在 %(time)s後變更自己的選擇，或透過訂閱「戰車世界 Plus」解鎖一個額外的欄位。"
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "%(mapName)s 地圖已從隨機戰鬥中排除。您可以在 %(time)s後變更自己的選擇，或透過啟用《戰車世界》加值帳號解鎖一個額外的欄位。"
+
+msgid "maps_black_list/switch_off/body"
+msgstr "由於技術性原因，這項功能目前無法使用。\n我們為帶來的不便感到抱歉。"
+
+msgid "maps_black_list/switch_off/title"
+msgstr "地圖排除暫時無法使用"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "技術性問題已得到解決。 我們為帶來的不便感到抱歉。"
+
+msgid "maps_black_list/switch_on/title"
+msgstr "地圖排除已再次可用"
+
+msgid "maps_training/switch/title"
+msgstr "地圖勘查"
+
+msgid "maps_training/switch_off/body"
+msgstr "此模式已關閉。"
+
+msgid "maps_training/switch_on/body"
+msgstr "此模式已開啟。"
+
+msgid "memberRosterChangedMain"
+msgstr "%s 調換 %s 到常備隊伍。"
+
+msgid "memberRosterChangedSecond"
+msgstr "%s 調換 %s 到後備隊伍。"
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "記憶體不足，請重啟遊戲。"
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "記憶體不足，變更為低等級貼圖品質。"
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "記憶體不足，變更為中等級貼圖品質。"
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "記憶體不足，已變更畫質設定。請重啟遊戲。"
+
+msgid "missingEvents/button"
+msgstr "打開"
+
+msgid "missingEvents/header"
+msgstr "活動"
+
+msgid "missingEvents/text"
+msgstr "您錯過的重要活動： "
+
+msgid "module_apply/error_is_current"
+msgstr "配件 %(kind)s「%(name)s」已安裝。"
+
+msgid "module_apply/error_need_gun"
+msgstr "無法安裝 %(kind)s「%(name)s」到使用當前炮管的車輛上。"
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s「%(name)s」與當前的炮塔不相容。請更換炮塔。"
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s「%(name)s」尚未安裝。倉庫中沒有相容的炮管。"
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s「%(name)s」與當前的炮塔不相容。請更換炮塔。"
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s「%(name)s」並不適合此車輛。"
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "配件 %(kind)s「%(name)s」與消耗品「%s」不相容。"
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s「%(name)s」為錯誤的類型。"
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s「%(name)s」為錯誤的國家。"
+
+msgid "module_apply/incompatibleEqs"
+msgstr "由於消耗品「%(items)s」與當前配件不相容所以被送回到倉庫。"
+
+msgid "module_apply/invalid_vehicle"
+msgstr "錯誤的車輛。無法安裝配件 %(kind)s「%(name)s」。"
+
+msgid "module_apply/server_error"
+msgstr "安裝配件 %(kind)s「%(name)s」時伺服器發生錯誤。請稍後再試。"
+
+msgid "module_apply/success"
+msgstr "%(kind)s「%(name)s」已安裝於車輛上。"
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s「%(name)s」已安裝於使用炮管「%(gun)s」的車輛上。"
+
+msgid "module_apply/vehicle_locked"
+msgstr "車輛已被鎖；無法安裝配件 %(kind)s「%(name)s」。"
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "無法安裝配件 %(kind)s「%(name)s」：車輛已受損，請修理您的車輛後再試一次。"
+
+msgid "module_buy/error_is_current"
+msgstr "配件 %(kind)s「%(name)s」已安裝。"
+
+msgid "module_buy/error_need_gun"
+msgstr "無法安裝 %(kind)s「%(name)s」到使用當前炮管的車輛上。"
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s「%(name)s」與當前的炮塔不相容。請更換炮塔。"
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s「%(name)s」尚未安裝。倉庫中沒有相容的炮管。"
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s「%(name)s」並不適合此炮塔。請更換炮塔。"
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s「%(name)s」並不適合此車輛。"
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "配件 %(kind)s「%(name)s」與消耗品「%s」不相容。"
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s「%(name)s」為錯誤的類型。"
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s「%(name)s」為錯誤的國家。"
+
+msgid "module_buy/invalid_module"
+msgstr "無法購買 %(kind)s「%(name)s」。錯誤的配件。"
+
+msgid "module_buy/invalid_vehicle"
+msgstr "錯誤的車輛。無法購買並安裝 %(kind)s「%(name)s」。"
+
+msgid "module_buy/not_enough_credits"
+msgstr "無法購買 %(kind)s「%(name)s」。銀幣不足。"
+
+msgid "module_buy/not_enough_gold"
+msgstr "無法購買 %(kind)s「%(name)s」。金幣不足。"
+
+msgid "module_buy/server_error"
+msgstr "無法購買 %(kind)s「%(name)s」。請稍後再試。"
+
+msgid "module_buy/server_error_centerDown"
+msgstr "無法購買 %(kind)s「%(name)s」。伺服器暫時無法使用。"
+
+msgid "module_buy/success"
+msgstr "已成功地購買配件 %(kind)s「%(name)s」（%(count)s 個）。花費 %(money)s。"
+
+msgid "module_buy/vehicle_locked"
+msgstr "車輛已被鎖。無法購買並安裝 %(kind)s「%(name)s」。"
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "無法購買並安裝 %(kind)s「%(name)s」。請修復車輛後再試一次。"
+
+msgid "module_buy/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "module_sell/invalid_module"
+msgstr "無法出售 %(kind)s「%(name)s」。錯誤的配件。"
+
+msgid "module_sell/server_error"
+msgstr "無法出售 %(kind)s「%(name)s」。請稍後再試。"
+
+msgid "module_sell/success"
+msgstr "配件 %(kind)s「%(name)s」(%(count)s 個)。獲得%(money)s。"
+
+msgid "multipleSelling/success"
+msgstr "已獲得 %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "切換配置時發生錯誤"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "切換配置時發生錯誤"
+
+msgid "nation_change/error"
+msgstr "切換配置時發生錯誤"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s：已切換國籍配置"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "每日任務由於技術性問題而更新。任務進度已保留。"
+
+msgid "notrecruit_window/success"
+msgstr "已招募乘員。\n%(colorTagOpen)s%(rank)s %(fullName)s\n（%(role)s，%(vehicleName)s）%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "操作暫時無法使用。請稍後再試。"
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "獲得禮物時發生錯誤：伺服器錯誤"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "獲得禮物時發生錯誤：部分獎勵發送延遲，請稍後再領取。"
+
+msgid "offers/switch_off/body"
+msgstr "目前無法使用戰線空投補給。"
+
+msgid "offers/unavailable_many"
+msgstr "無法使用的特惠：%(count)s 個。"
+
+msgid "offers/unavailable_one"
+msgstr "無法使用特惠。"
+
+msgid "optionalDevices_apply/error"
+msgstr "裝備配置錯誤。請稍後再試。"
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "裝備配置錯誤。沒有足夠的資金可進行購買。"
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "無法操作。您的金幣將會在 WG Wallet 操作恢復後可用。"
+
+msgid "optionalDevices_remove/error"
+msgstr "裝備配置錯誤。請稍後再試。"
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "您的帳號無法與未在聯絡人名單的玩家進行私人聊天。"
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "您的帳號無法進行私人聊天。"
+
+msgid "parentControl/linkText"
+msgstr "輸入日期"
+
+msgid "parentControl/mainText"
+msgstr "請輸入您的出生日期。"
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "家長監護已禁止與未在聯絡人名單的玩家進行私人聊天。"
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "家長監護已禁止進行私人聊天。"
+
+msgid "parentControl/title"
+msgstr "年齡確認"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "轉移無法使用，無法定義該伺服器。"
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "獎勵已獲得："
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "前往行動"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "任務已完成"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "變更車輛以繼續完成任務。"
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "行動：%(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "已完成：%(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "「%(campaignName)s」戰役已優異地完成！"
+
+msgid "personalMission/operationComplete/title"
+msgstr "%(operationName)s 行動已完成！"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "%(operationName)s 行動已優異地完成！"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "戰役因維護中而暫時無法進行。"
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "戰役已可再次使用。我們為帶來的不便感到抱歉。"
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "「%(campaignName)s」戰役因維護中而暫時無法進行。"
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "「%(campaignName)s」戰役已再次可用。我們為帶來的不便感到抱歉。"
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "%(operationName)s 行動中的「%(missionName)s」任務因維護中而暫時無法進行。"
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "%(operationName)s 行動中的「%(missionName)s」任務已可再次進行。我們為帶來的不便感到抱歉。"
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "「%(campaignName)s」戰役中的 %(operationName)s 行動因維護中而暫時無法進行。"
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "「%(campaignName)s」戰役中的 %(operationName)s 行動已可再次進行。我們為帶來的不便感到抱歉。"
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "切換戰役時發生錯誤。請稍後再試。"
+
+msgid "personalMissions/badge"
+msgstr "徽章 %(name)s 已獲得。"
+
+msgid "personalMissions/camouflageGiven"
+msgstr "%(vehicleName)s 的獨特迷彩已獲得。"
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "%(vehicleName)s 的獨特迷彩可用於該國的所有車輛：%(nation)s。"
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "所有行動進度已儲存。您可隨時繼續戰役。"
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "「%(campaignName1)s」與「%(campaignName2)s」戰役已暫停"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "暫停的行動與相應任務已繼續。"
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "「%(campaignName1)s」與「%(campaignName2)s」戰役已繼續"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "所有行動進度已儲存。您可隨時繼續戰役。"
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "「%(campaignName)s」戰役已暫停"
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "暫停的行動已繼續。"
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "「%(campaignName)s」戰役已繼續"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "「%(detailName)s」已成功安裝。"
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "行動：%(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "無法重置任務。請稍後再試。"
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "無法操作。任務暫時關閉。"
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "目前無法重置任務。請稍後再試。"
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "目前無法重置任務。請等候此類型車輛離開戰鬥。"
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "目前無法重置任務。請等候團隊的車輛離開戰鬥。"
+
+msgid "personalMissions/discard/success"
+msgstr "已成功重置 %(quest)s 任務。"
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "已獲得命令：%(count)s。"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "已取回命令：%(count)s。\n可再次使用。"
+
+msgid "personalMissions/operationActivation/body"
+msgstr "每個系列的首個任務已啟用。"
+
+msgid "personalMissions/operationActivation/title"
+msgstr "%(operationName)s 行動已啟用！"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "獎勵已獲得：\n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "%(name)s 行動已完成！"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "所有任務進度已儲存。您可隨時繼續行動。"
+
+msgid "personalMissions/operationPaused/title"
+msgstr "%(operationName)s 行動已暫停"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "暫停的任務已繼續。"
+
+msgid "personalMissions/operationResumed/title"
+msgstr "%(operationName)s 行動已繼續"
+
+msgid "personalMissions/pause/server_error"
+msgstr "任務沒有被暫停。請稍後再試。"
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "無法操作。任務暫時關閉。"
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "目前無法暫停任務。請稍後再試。"
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "目前無法暫停任務。請等候此類型車輛離開戰鬥。"
+
+msgid "personalMissions/pause/success_pause"
+msgstr "已成功暫停 %(quest)s 任務。"
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "已成功繼續完成 %(quest)s 任務。"
+
+msgid "personalMissions/pawn/server_error"
+msgstr "錯誤。目前無法託付命令。"
+
+msgid "personalMissions/pawn/success"
+msgstr "命令已託付給 %(questName)s 任務：%(count)s。"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "獲得獎勵時發生錯誤。請稍後再試。"
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "「%(detail_name)s」已成功安裝。"
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "無法領取獎勵。請稍後再試。"
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "無法操作。任務暫時關閉。"
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "無法領取獎勵。獎勵無法使用。"
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "無法領取獎勵。獎勵無法使用。"
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "無法領取獎勵。不正確的資料。"
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "無法領取獎勵。請稍後再試。"
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "無法操作。任務暫時關閉。"
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "無法領取獎勵。獎勵無法使用。"
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "無法領取獎勵。獎勵無法使用。"
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "無法領取獎勵。不正確的資料。"
+
+msgid "personalMissions/select/server_error"
+msgstr "任務尚未選擇：%(questNames)s。請稍後再試。"
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "無法操作。任務暫時關閉。"
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "任務尚未選擇：%(questNames)s。請稍後再試。"
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "注意！想要改變任務，請等候所有進行此任務的車輛返回車庫。"
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "任務尚未選擇：%(questNames)s。請完成先前的行動。"
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "任務尚未選擇：%(questNames)s。車位不足。"
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "任務尚未選擇：%(questNames)s。請領取獎勵。"
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "任務尚未選擇：%(questNames)s。任務無法使用。"
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "任務尚未選擇：%(questNames)s。任務已經完成。"
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "任務尚未選擇：%(questNames)s。"
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "任務尚未選擇：%(questNames)s。此套組的任務已經選擇。"
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "任務尚未選擇：%(questNames)s。不正確的資料。"
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "任務尚未選擇：%(questNames)s。不正確的資料。"
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "目前無法選擇任務。請等候團隊的車輛離開戰鬥。"
+
+msgid "personalMissions/select/success"
+msgstr "已成功地選擇任務。當前所選任務：%(questNames)s。"
+
+msgid "personalMissions/tankmenGain"
+msgstr "已增加：女性乘員"
+
+msgid "personalMissions30/select/server_error"
+msgstr "啟用行動時發生錯誤。請稍後再試。"
+
+msgid "piggyBank/piggyBankFull"
+msgstr "銀幣儲備已滿，不過將於 %(timeValue)s 後打開"
+
+msgid "piggybank/switch_off/body"
+msgstr "由於技術性原因，這項功能目前無法使用。\n我們為帶來的不便感到抱歉。"
+
+msgid "piggybank/switch_off/title"
+msgstr "銀幣儲備暫時無法使用"
+
+msgid "piggybank/switch_on/body"
+msgstr "技術性問題已得到解決。 我們為帶來的不便感到抱歉。"
+
+msgid "piggybank/switch_on/title"
+msgstr "銀幣儲備已再次可用"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "由於技術性原因，這項功能目前無法使用。\n我們為帶來的不便感到抱歉。"
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "已無法使用玩家訂閱！"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "技術性問題已得到解決。我們為帶來的不便感到抱歉。"
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "現可使用玩家訂閱"
+
+msgid "post_progression/server_error"
+msgstr "已獲得乘員完訓進度的獎勵"
+
+msgid "post_progression/success"
+msgstr "日期：%(at)s\n已加入倉庫：%(book_name)s（x%(amount)s）。\n已使用完訓進度經驗兌換。"
+
+msgid "post_progression/success/title"
+msgstr "獲得明細"
+
+msgid "prebattle/hasLockedState"
+msgstr "當您已經在等待戰鬥時無法接受邀請。請離開戰鬥準備大廳或結束該戰鬥後再試一次。"
+
+msgid "prebattle/invites/sendInvite"
+msgstr "邀請已發送給玩家。"
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "給玩家 %(name)s 的邀請已送出。"
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "發生錯誤 ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "發生錯誤 AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "發生錯誤 BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "發生錯誤 CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "指揮官已離開隊伍。"
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "該隊伍已被解散。"
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "模式暫時無法使用"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "解除職務。"
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "發生錯誤 PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "逾時。"
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "未知的錯誤。"
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "發生錯誤 VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "您被裝甲排逐出。"
+
+msgid "prebattle/kick/type/unknown"
+msgstr "您被隊伍逐出。"
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "您必須擁有至少 3 輛適用於此模式的車輛。詳情請參閱「關於天梯戰」頁面。"
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "自動搜尋"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "變更語音聊天"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "變更分組"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "模式選擇"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "子模式切換"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "模式選擇"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "變更設定"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "編輯隊伍"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "變更觀察者模式"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "鎖定位置"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "搜尋"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "邀請加入隊伍"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "確認準備就緒"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "確認該隊伍準備就緒"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "選擇車輛"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "變更隊伍"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "搜尋"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "只有車輛數最少的隊伍能加入戰鬥：%(minCount)d。"
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "只有總等級介於 %(minTotalLevel)d 與 %(maxTotalLevel)d 之間的隊伍能加入戰鬥。"
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "只允許 %(minLevel)d 到 %(maxLevel)d 階級的車輛"
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "車輛不適合此戰鬥。"
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "所有隊伍成員都無法成為觀察者。"
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "所選車輛只適用於前線模式。"
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "所選車輛只適用於大亂鬥模式。"
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "所選車輛上裝載的砲彈與消耗品並不符合戰鬥條件。"
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "車輛階級不適用此戰鬥。此類型的最低階級：%s，此類型的最高階級：%s。"
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "不適用此戰鬥的車輛類型，可用類型：%s。"
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "所選車輛上安裝的配件並不符合戰鬥條件。"
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "車輛階級不適合此戰鬥。最低階級：%s，最高階級：%s。"
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "該車輛國籍不適用此戰鬥。可用國家：%s。"
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "不相容的車輛"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "所選車輛上裝載的砲彈並不符合戰鬥條件。"
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "不相容的車輛"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "車輛不適合此戰鬥。"
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "所選車輛尚未準備好。"
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "無法操作。請先選擇車輛。"
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "無法加入隊伍。"
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "不相容的車輛"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "選擇的車輛將在戰鬥期間解鎖。"
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "無法找到適合的敵人。請試著重新建立隊伍。"
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "目前裝甲排無法找到對手，請考慮重組您的隊伍。"
+
+msgid "premium/buyingSuccess"
+msgstr "購買加值帳號 %(period)d 天，花費 %(money)s。"
+
+msgid "premium/continueSuccess"
+msgstr "延長加值帳號 %(period)d 天，花費 %(money)s。"
+
+msgid "premium/not_enough_gold"
+msgstr "沒有足夠的金幣以購買 %(period)d 天加值帳號。"
+
+msgid "premium/post_battle_premium"
+msgstr "您因為購買加值帳號而獲得 %(xpDiff)d 經驗與 %(creditDiff)d 銀幣。"
+
+msgid "premium/server_error"
+msgstr "無法購買 %(period)d 天加值帳號，請稍後再試。"
+
+msgid "premium/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "無法操作。請稍後再試。"
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "無法操作。請等到當前的操作完成為止。"
+
+msgid "premium_quests/switch_off/body"
+msgstr "由於技術性原因，這項功能目前無法使用。\n我們為帶來的不便感到抱歉。"
+
+msgid "premium_quests/switch_off/title"
+msgstr "加值任務暫時無法使用"
+
+msgid "premium_quests/switch_on/body"
+msgstr "技術性問題已得到解決。 我們為帶來的不便感到抱歉。"
+
+msgid "premium_quests/switch_on/title"
+msgstr "加值任務已再次可用"
+
+msgid "progressiveReward/error"
+msgstr "操作目前無法使用。請稍後再試。"
+
+msgid "progressiveReward/switch_off"
+msgstr "功績獎勵：本功能暫時關閉。我們為造成的任何不便感到抱歉。"
+
+msgid "progressiveReward/switch_on"
+msgstr "功績獎勵已再次可用。"
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "任務已過期，無法使用詳細說明。"
+
+msgid "queue/isInQueue"
+msgstr "操作目前無法使用。請稍後再試。"
+
+msgid "rally/leaveDisabled"
+msgstr "無法操作。\n您無法離開該模式。您已是該戰術單位的一員且已準備好加入戰鬥。"
+
+msgid "ranked/notification/available"
+msgstr "休戰期結束：可再次使用排名戰。"
+
+msgid "ranked/notification/available/title"
+msgstr "有排名戰可用"
+
+msgid "ranked/notification/congratulations"
+msgstr "恭喜！"
+
+msgid "ranked/notification/notAvailable"
+msgstr "排名戰無法使用。請留意遊戲入口網站上的最新資訊。"
+
+msgid "ranked/notification/notSet"
+msgstr "此模式不適用於所選伺服器。"
+
+msgid "ranked/notification/notSet/title"
+msgstr "排名戰無法使用"
+
+msgid "ranked/notification/primeTime"
+msgstr "休戰結束前都無法使用排名戰。"
+
+msgid "ranked/notification/primeTime/title"
+msgstr "休戰期"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "您在 2020/2021 年排名戰賽季表現傑出，獲得置身頂尖玩家的排名！"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "恭喜！"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "您在 2020/2021 年排名戰賽季表現傑出，獲得置身頂尖玩家第 %(playerPosition)s 名的排名！"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "恭喜！"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "已獲得徽章："
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "已獲得徽章："
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "已獲得銀幣："
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "已獲得點券："
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "已獲得週年紀念幣："
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "已獲得金幣："
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "已新增可選擇的改良型裝備：%(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "已獲得風格："
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "已獲得風格："
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "已獲得軍階代幣：%(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "戰遊網加值帳號天數"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "戰遊網加值帳號天數 (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "《戰車世界》加值帳號天數"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "《戰車世界》加值帳號天數 (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "階段 %(number)s 結果"
+
+msgid "ranked/notifications/league"
+msgstr "聯賽：%(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "黃金"
+
+msgid "ranked/notifications/league2"
+msgstr "白銀"
+
+msgid "ranked/notifications/league3"
+msgstr "青銅"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "已獲得黃金聯賽的軍階代幣：%(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "最高軍階：%(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s，%(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "排行榜上的名次：%(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "您已完成外圍賽"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "已獲得賽季的軍階代幣：%(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "排名戰，賽季 %(seasonNumber)s 的結果"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "您已達成軍階 %(rankName)s (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "已獲得衝刺型玩家印記。獎勵提升。"
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "已獲得衝刺型玩家印記"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "無法招募新的乘員：該戰車擁有獨特的永久乘員。"
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "無法招募乘員。服務暫時無法使用。"
+
+msgid "recruit_window/financial_success"
+msgstr "已為 %(vehName)s 招募乘員。花費銀幣：%(credits)s。"
+
+msgid "recruit_window/financial_success_credits"
+msgstr "已為 %(vehName)s 招募乘員。\n花費銀幣：%(price)s。"
+
+msgid "recruit_window/financial_success_gold"
+msgstr "已為 %(vehName)s 招募乘員。\n花費金幣：%(price)s。"
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "您已達到今天的免費乘員招募上限。"
+
+msgid "recruit_window/not_enough_credits"
+msgstr "招募乘員時發生錯誤，銀幣不足。"
+
+msgid "recruit_window/not_enough_gold"
+msgstr "招募乘員時發生錯誤，金幣不足。"
+
+msgid "recruit_window/not_enough_space"
+msgstr "招募與調動乘員到車輛上時發生錯誤。兵營中的床位不足。請於兵營中空出床位或是購買額外的床位。"
+
+msgid "recruit_window/server_error"
+msgstr "無法招募乘員。請稍後再試。"
+
+msgid "recruit_window/success"
+msgstr "已免費為 %(vehName)s 招募乘員。"
+
+msgid "recruit_window/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "無法調動乘員：該戰車擁有獨特的永久乘員。"
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "調動乘員時發生錯誤。錯誤的車輛。"
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "無法將乘員送回兵營。兵營中的床位不足。"
+
+msgid "reequip_tankman/server_error"
+msgstr "無法調動乘員，請稍後再試。"
+
+msgid "reequip_tankman/success"
+msgstr "已取代乘員。"
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "調動乘員時發生錯誤，車輛已鎖定。"
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "調動乘員時發生錯誤，請修理您的車輛。"
+
+msgid "remove_component"
+msgstr "%s「%s」已從車輛上拆卸。"
+
+msgid "remove_vehicle_broken"
+msgstr "無法移除 %s「%s」：車輛已受損。請修理您的車輛後再試一次。"
+
+msgid "remove_vehicle_locked"
+msgstr "無法移除 %s「%s」：車輛已鎖定。"
+
+msgid "repair/credits_error"
+msgstr "尚需 %s 銀幣才能修理 %s。"
+
+msgid "repair/server_error"
+msgstr "修理 %s 時發生錯誤。請稍後再試。"
+
+msgid "repair/success"
+msgstr "%s 已修理。您花費了 %s。"
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "無法變更您乘員的個人履歷：該戰車擁有獨特的永久乘員。"
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "變更個人履歷時發生錯誤。錯誤的車輛。"
+
+msgid "replace_tankman/not_enough_money"
+msgstr "變更個人履歷時發生錯誤，銀幣不足。"
+
+msgid "replace_tankman/server_error"
+msgstr "變更個人履歷時失敗，請稍後再試。"
+
+msgid "replace_tankman/success"
+msgstr "已成功替換外表。"
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "變更個人履歷時發生錯誤：車輛已鎖定。"
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "變更個人履歷時發生錯誤：請修理車輛。"
+
+msgid "request/isInCoolDown"
+msgstr "操作「%(request)s」被凍結 %(coolDown)s 秒。"
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "無法重置歷練。\n伺服器無法使用。請稍後再試。"
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "已免費重置所有乘員的\n所有歷練。"
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "花費資源錯誤。請稍後再試。"
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "退回資源時發生錯誤。請稍後再試。"
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "您還有可重新找回的車輛。前往商店來將符合的車輛送回車庫。"
+
+msgid "restore_tankman/DISABLED"
+msgstr "重新找回乘員功能暫時無法使用。請稍後再試。"
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "無法重新找回乘員。"
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "沒有足夠的金幣來重新找回乘員。"
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "無法重新找回乘員。操作時間已到期。"
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "無法重新找回乘員。請稍後再試。"
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "無法重新找回乘員。重新找回乘員功能暫時無法使用。"
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)s 再也無法重新找回。"
+
+msgid "restore_tankman/financial_success"
+msgstr "已重新找回乘員。\n花費銀幣：%(money)s。"
+
+msgid "restore_tankman/not_enough_space"
+msgstr "無法重新找回乘員。兵營中的床位不足。"
+
+msgid "restore_tankman/server_error"
+msgstr "無法重新找回此名乘員。請稍後再試。"
+
+msgid "restore_tankman/success"
+msgstr "已重新找回乘員。"
+
+msgid "retraining_change_tankman_role/success"
+msgstr "已變更乘員專長。"
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "無法重新訓練您的乘員：該戰車擁有獨特的永久乘員。"
+
+msgid "retraining_crew/empty_list"
+msgstr "重新訓練乘員時發生錯誤，尚未選擇乘員。"
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "花費銀幣：%(money)s。"
+
+msgid "retraining_crew/financial_success_free"
+msgstr "已免費為 %(vehName)s 重新訓練乘員。"
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "花費金幣：%(money)s。"
+
+msgid "retraining_crew/invalid_operation"
+msgstr "重新訓練乘員發生錯誤，操作無法使用。"
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "重新訓練乘員時發生錯誤。錯誤的車輛。"
+
+msgid "retraining_crew/server_error"
+msgstr "無法重新訓練乘員，請稍後再試。"
+
+msgid "retraining_crew/success"
+msgstr "已為 %(vehName)s 重新訓練乘員。"
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "重新訓練乘員時發生錯誤，車輛已鎖定。"
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "重新訓練乘員時發生錯誤，請修理您的車輛。"
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "無法重新訓練您的乘員：該戰車擁有獨特的永久乘員。"
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "花費銀幣：%(money)s。"
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "乘員已免費接受 %(vehName)s 的重新訓練。"
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "花費金幣：%(money)s。"
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "重新訓練乘員時發生錯誤。操作無法使用。"
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "重新訓練乘員時發生錯誤。錯誤的車輛。"
+
+msgid "retraining_tankman/server_error"
+msgstr "無法重新訓練乘員。\n請稍後再試。"
+
+msgid "retraining_tankman/success"
+msgstr "乘員已接受 %(vehName)s 的重新訓練。"
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "重新訓練乘員時發生錯誤：車輛已鎖定。"
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "重新訓練乘員時發生錯誤：請修理車輛。"
+
+msgid "return_crew/FORBIDDEN"
+msgstr "無法送回乘員：該戰車擁有獨特的永久乘員。"
+
+msgid "return_crew/invalid_vehicle"
+msgstr "送回乘員時發生錯誤。錯誤的車輛。"
+
+msgid "return_crew/not_enough_space"
+msgstr "無法將乘員送回兵營。兵營中的床位不足。"
+
+msgid "return_crew/return_unavailable"
+msgstr "部分乘員無法調回此車輛。"
+
+msgid "return_crew/server_error"
+msgstr "無法送回乘員，請稍後再試。"
+
+msgid "return_crew/success"
+msgstr "乘員已成功地調動。"
+
+msgid "return_crew/vehicle_locked"
+msgstr "送回乘員時發生錯誤，車輛已鎖定。"
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "送回乘員時發生錯誤，請修理您的車輛。"
+
+msgid "rotation/lock"
+msgstr "下列群組已被鎖定且不再適用於戰鬥：%(groupNum)s。"
+
+msgid "rotation/unlock"
+msgstr "下列群組已被解除鎖定且現在可用於戰鬥：%(groupNum)s。"
+
+msgid "rotation/vehicleIsLocked"
+msgstr "該車輛已被鎖定且不適用於戰鬥。"
+
+msgid "royale/notification/congratulations"
+msgstr "恭喜！"
+
+msgid "royale/notification/primeTime"
+msgstr "大逃殺戰鬥一直到停戰期結束前都無法使用。請查看行事曆上的時間表。"
+
+msgid "royale/notification/primeTime/title"
+msgstr "休戰期"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "已達到等級：%(level)s"
+
+msgid "rts/notification/available"
+msgstr "「戰略之道」的戰鬥再次可於此伺服器上進行。"
+
+msgid "rts/notification/available/title"
+msgstr "戰鬥可進行"
+
+msgid "rts/notification/notAvailable"
+msgstr "「戰略之道」活動未開放。請前往遊戲入口網站查看最新消息。"
+
+msgid "rts/notification/notSet"
+msgstr "「戰略之道」的戰鬥未在選擇的伺服器上開放。"
+
+msgid "rts/notification/notSet/title"
+msgstr "戰鬥無法進行"
+
+msgid "rts/notification/primeTime"
+msgstr "已實施休戰。「戰略之道」戰鬥暫時無法進行。"
+
+msgid "rts/notification/primeTime/title"
+msgstr "休戰期"
+
+msgid "securityMessage/bad_email"
+msgstr "您在一個可疑伺服器上登錄了您的電子郵件地址。為安全起見，請變更您的電子郵件。%(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "變更安全性設定"
+
+msgid "securityMessage/no_phone"
+msgstr "為安全起見，請增加一組電話號碼到您的帳號中。%(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "如需密碼重設，請在您的帳號管理中指定一組安全問題。%(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "您已有 30 天未變更過您的密碼了。為安全起見，請變更其密碼。%(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "您在建立帳號時所填寫之密碼的強度不足。請變更密碼。%(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "無法出售 %s：車輛已受損。請修理您的車輛後再試一次。"
+
+msgid "sell_vehicle_locked"
+msgstr "無法出售 %s：車輛已鎖定。"
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "「『戰有應得』獎勵」活動已恢復進行。我們為帶來的不便感到抱歉。"
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "「『戰有應得』獎勵」活動因維護中而暫時中止。"
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "獲得禮物時發生錯誤。操作暫時無法使用。"
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "獲得獎勵時發生錯誤。請聯絡玩家服務。"
+
+msgid "seniority_awards/selection_timeout"
+msgstr "服役資歷獎勵發放延遲。請稍後再試。"
+
+msgid "serverInstallError"
+msgstr "安裝配件 %s「%s」時伺服器發生錯誤。請稍後再試。"
+
+msgid "serverRemoveError"
+msgstr "移除配件 %s「%s」時發生錯誤。請稍後再試。"
+
+msgid "server_shut_down"
+msgstr "遊戲伺服器重新啟動中。"
+
+msgid "session_tracker_kick"
+msgstr "您的 Wargaming.net&nbsp;ID 被用於登入其它的遊戲。當前遊戲階段被中斷。"
+
+msgid "shell_buy/invalid_module"
+msgstr "無法購買 %(name)s。錯誤的砲彈。"
+
+msgid "shell_buy/not_enough_credits"
+msgstr "無法購買 %(name)s，銀幣不足。"
+
+msgid "shell_buy/not_enough_gold"
+msgstr "無法購買 %(name)s，金幣不足。"
+
+msgid "shell_buy/server_error"
+msgstr "無法購買 %(name)s，請稍後再試。"
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "無法購買 %(name)s 砲彈，伺服器暫時無法使用。"
+
+msgid "shell_buy/success"
+msgstr "砲彈 %(name)s (%(count)s 顆)購買成功，花費%(money)s。"
+
+msgid "shell_buy/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "shell_sell/invalid_module"
+msgstr "無法出售「%(name)s」。錯誤的砲彈。"
+
+msgid "shell_sell/server_error"
+msgstr "無法出售「%(name)s」。請稍後再試。"
+
+msgid "shell_sell/success"
+msgstr "砲彈「%(name)s」(%(count)s 個)。獲得%(money)s。"
+
+msgid "shells_apply/error"
+msgstr "彈藥配置錯誤。請稍後再試。"
+
+msgid "shells_apply/not_enough_money"
+msgstr "彈藥配置錯誤。沒有足夠的資金可進行購買。"
+
+msgid "shells_apply/success_money_spent"
+msgstr "彈藥共花費%(money)s。"
+
+msgid "shells_apply/wallet_not_available"
+msgstr "無法操作。您的金幣將會在 WG Wallet 操作恢復後可用。"
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "購買並安裝配件請求已送出，等待伺服器回應。"
+
+msgid "shop/item/buy_server_error"
+msgstr "無法購買 %(typeString)s「%(userString)s」。請稍後再試。"
+
+msgid "shop/item/buy_success"
+msgstr "已成功地購買配件 %(typeString)s「%(userString)s」 (%(count)d)。花費 %(price)s。"
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "行動目前無法使用。"
+
+msgid "shop/item/not_enough_money"
+msgstr "想要購買 %(typeString)s「%(userString)s」，您還需要 %(price)s。"
+
+msgid "shop/item/not_found"
+msgstr "配件 %(typeString)s「%(userString)s」不在商店中。請稍後再試。"
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "目前無法操作。"
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "購買 %(userString)s 您還需要 %(price)s。"
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "想要租用 %(userString)s，您還需要 %(price)s。"
+
+msgid "shop/vehicle/not_found"
+msgstr "車輛 %(userString)s 不在商店中，請稍後再試。"
+
+msgid "shop_resync"
+msgstr "由於伺服器變動，介面將於 %(date)s 的 %(time)s 更新。"
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>「{oldName}」</font>（{amount}）已轉換為<font color='#E9E2BF'>「{newName}」</font>（{amount}）"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "日期：%(date)s\n已轉換的技術指南：%(items)s。"
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "獲得明細"
+
+msgid "squad/createError"
+msgstr "只有加值帳號的玩家才能建立裝甲排。"
+
+msgid "squad/kickedFromQueue"
+msgstr "目前裝甲排無法找到對手，請考慮重組您的隊伍。"
+
+msgid "squad/leaveDisabled"
+msgstr "無法操作。\n您無法離開該裝甲排。您是裝甲排成員之一且已準備好加入戰鬥。"
+
+msgid "squad/memberJoined"
+msgstr "%s 加入了戰術單位。"
+
+msgid "squad/memberLeave"
+msgstr "%s 離開了戰術單位。"
+
+msgid "squad/memberNotReady"
+msgstr "%s 尚未準備好。"
+
+msgid "squad/memberOffline"
+msgstr "與 %s 的連線中斷。"
+
+msgid "squad/memberReady"
+msgstr "%s 已經準備好。"
+
+msgid "squad/notSetReadyStatus"
+msgstr "無法用裝甲排來加入戰鬥。"
+
+msgid "squad/notValidDeleted"
+msgstr "%(vehName)s 因為其階級不符合指揮官的車輛階級而被裝甲排逐出。請選擇同階的車輛。"
+
+msgid "squad/notValidDeletedFilter"
+msgstr "%(vehName)s 被裝甲排逐出。指揮官已變更需求。"
+
+msgid "squad/notValidEnqueueData"
+msgstr "已將您從裝甲排中移除，因為指揮官已變更需求或您因車輛不符合需求而無法加入。請選擇其他車輛。"
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "此類型車輛在裝甲排中有數量限制，因此 %(vehName)s 已移除。請選擇其他車輛。"
+
+msgid "squad_bonus/switch_off/body"
+msgstr "由於技術性原因，這項功能目前無法使用。\n我們為帶來的不便感到抱歉。"
+
+msgid "squad_bonus/switch_off/title"
+msgstr "裝甲排加成暫時無法使用"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "技術性問題已得到解決。 我們為帶來的不便感到抱歉。"
+
+msgid "squad_bonus/switch_on/title"
+msgstr "裝甲排加成已再次可用"
+
+msgid "ssr/unavailable"
+msgstr "無法下載重播"
+
+msgid "steam_login_not_allowed"
+msgstr "您無法使用此應用程式進行遊戲：您的 Steam 帳號已與戰遊網帳號連結。請前往玩家服務了解更多。"
+
+msgid "tankman/tankmanToRemove"
+msgstr "乘員已解雇。"
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s 天"
+
+msgid "techtree/action/header"
+msgstr "特惠「%(actionName)s」"
+
+msgid "techtree/action/text"
+msgstr "特惠結束於"
+
+msgid "techtree/action/text/closest"
+msgstr "特惠結束於："
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "原因：此車輛僅適用於 Prime Gaming 會員。請檢查您的 Prime Gaming 訂閱狀態。"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "車輛無法使用"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "日期：%(datetime)s\n已新增車輛：%(vehicles)s\n已新增：一個車庫車位，%(crew)s 3D 風格。"
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "日期：%(datetime)s\n已新增車輛：%(vehicles)s\n已新增：一個車庫車位，%(crew)s 一款獨家迷彩。"
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " 100%% 熟練度的乘員 %(skills)s，"
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "已新增車輛"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "日期：%(datetime)s\n已移除：%(vehicles)s，一個車庫車位。"
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "原因：此車輛僅適用於 Prime Gaming 會員。請檢查您的 Prime Gaming 訂閱狀態。"
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "車輛已移除"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "車輛再次可用"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "已新增 T-44-100 Igrovoy 戰車。已移除：%(tanks)s。"
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "現在可駕駛 T-44-100 Igrovoy 來完成任務。"
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " 與 "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s 銀幣"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "%(tanks)s 的所有乘員將接受 T-44-100 Igrovoy 的重新訓練。"
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "已拆卸裝備並送回倉庫。\n自訂要素已送回倉庫。\n砲彈與技術指南已送回倉庫。"
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "%(mergedTank)s 的武裝、自訂要素、戰鬥經驗、統計與獎項已轉移到 T-44-100 Igrovoy。"
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s 自由經驗"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr "、"
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "已補償戰地升級的經驗：已新增 %(compensation)s。"
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "已補償購買的漸變花樣：已新增 %(value)s 金幣。"
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "%(mergedTank)s 的遊戲統計與獎項已轉移到 T-44-100 Igrovoy。"
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "已總結戰鬥經驗並轉移到 T-44-100 Igrovoy。"
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "祝您在戰場上武運昌隆！"
+
+msgid "telecomMergeResults/title"
+msgstr "「Igrovoy」方案的變更"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "車輛選擇與租用已被暫停。"
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "車輛租用目前無法使用"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "車輛租用已可用"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "恭喜！您獲得了 %(count)s 個代幣。"
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "轉送金幣失敗，對方拒絕交易。"
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "無法轉送金幣。"
+
+msgid "tradingError/NO_WARES"
+msgstr "無法轉送金幣，金幣不足。"
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "您已達到轉送的上限，請明天再試。"
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "轉送金幣失敗，請稍後再試。"
+
+msgid "training/error/AddPlayer"
+msgstr "訓練房錯誤。已超出一隊中最高玩家數。"
+
+msgid "training/error/doAction"
+msgstr "訓練房發生錯誤，請稍後再試。"
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "訓練房發生錯誤。天梯戰模式的隊伍最高人數：%(numPlayers)s。"
+
+msgid "training/error/selectObserver"
+msgstr "訓練房錯誤。一隊中最高玩家數：%(numPlayers)s。"
+
+msgid "training/error/swapTeams"
+msgstr "試圖交換隊伍時伺服器發生錯誤，請稍後再試。"
+
+msgid "transferXP/server_error"
+msgstr "無法進行此操作。請稍後再試。"
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "無法操作。權限不足。"
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "無法操作。您還不是任何公會的一員。"
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "錯誤：無法將所選車輛恢復至戰備狀態。"
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "錯誤：修理用零件不足，無法將車輛恢復至戰備狀態。"
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "錯誤：將所選車輛恢復至戰備狀態的費用已變更。"
+
+msgid "unit/error/wgshEvent/common"
+msgstr "錯誤：無法完成操作。"
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "加入裝甲排錯誤：您的帳號已暫時遭此遊戲模式封鎖。"
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "無法操作。帳號已被恢復。"
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "玩家無法加入該隊伍。"
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "無法操作。位置已被占用。"
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "玩家已經加入該隊伍。"
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "無法轉移指揮官的職權"
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "無法操作。無效的帳號類型。"
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "無法操作。無效的公會。"
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "無法加入該隊伍。"
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "超出車輛總階數。"
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "無法操作。無效的分遣隊成員名單。"
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "不正確的位置編號"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "無法操作。裝甲排中用來加入戰鬥的車輛類型錯誤。"
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "加入隊伍發生錯誤，錯誤的車輛階級。"
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "於指定的時間下無法變更分組。"
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "無法尋找隊伍。"
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "無法送出邀請。"
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "加入裝甲排錯誤：您必須先完成外圍賽才能加入裝甲排。"
+
+msgid "unit/errors/COOLDOWN"
+msgstr "操作暫時無法使用。"
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "無法完成隊伍的上一個操作。"
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "車輛尚未準備好加入戰鬥或車庫中無此車輛。"
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "無法設置該位置的車輛。"
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "無法操作。一些分遣隊成員仍在戰鬥中。"
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "沒有權限執行此操作。"
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "帳號已鎖定。"
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "隊伍在佇列中或搜尋結果中。"
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "無法加入該隊伍。存取被拒。"
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "隊伍不在佇列中。"
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "隊伍不在搜尋結果中。"
+
+msgid "unit/errors/NOT_READY"
+msgstr "隊伍尚未準備好。"
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "加入裝甲排錯誤：您沒有適用於所選遊戲模式的車輛。"
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "無法將該玩家加入到隊伍成員。"
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "無法操作。找不到玩家。"
+
+msgid "unit/errors/NO_UNIT"
+msgstr "隊伍尚未找到。"
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "隊伍不存在。"
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "無法操作。顯示車輛清單時發生錯誤。"
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "無法操作。玩家已離線。"
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "您在指揮官的黑名單中。"
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "無法操作。先前的戰鬥還尚未結束。"
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "無法從隊伍中逐出該玩家。"
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "無法操作。一個或以上的玩家還尚未接受邀請。"
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "傭兵無法操作。"
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "無法操作。位置未鎖定。"
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "無法操作。位置已被占用。"
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "此位置無法操作。"
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "於指定的時間下將不允許前哨戰。"
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "無法切換到另一種遊戲模式。已超過裝甲排成員上限。"
+
+msgid "unit/errors/TIMEOUT"
+msgstr "無法操作。時間已超過。"
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "無法操作。已鎖定最高的位置數。"
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "無法操作。已達最高的傭兵數。"
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "無法建立或加入一支隊伍。"
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "無法建立一支隊伍。"
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "無法操作。分遣隊已被恢復。"
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "無法操作。車輛並不符合需求。"
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "無法操作。請先選擇車輛。"
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "隊伍不存在。"
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "無法操作。車輛尚未準備好或沒有符合要求。"
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "您獲得了戰鬥儲備的控制權。"
+
+msgid "unit/notification/changeDivision"
+msgstr "指揮官 %(name)s 選擇了 %(division)s 分組。"
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "達人"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "鬥士"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "一般"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s 已被任命為該隊伍的指揮官。"
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s 加入了分遣隊。"
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s 已經加入了裝甲排來以 %(tierRange)s 階車輛戰鬥。"
+
+msgid "unit/notification/playerOffline"
+msgstr "失去與 %(userName)s 的連線。"
+
+msgid "unit/notification/playerOnline"
+msgstr "恢復與 %(userName)s 的連線。"
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s 離開了分遣隊。"
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "邀請已經送出。"
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "指揮官的權限已轉交給其他玩家。"
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "指揮官的權限與對戰鬥儲備的控制權已轉交給其他玩家。"
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "戰鬥儲備的控制權已轉交給其他玩家。"
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "您已被逐出分遣隊：分遣隊已解散。"
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "您已被該分遣隊逐出。公會已變更。"
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "您的遊玩時間已結束。您無法再加入新的戰鬥。您將會在 %(expiredTime)s 中斷與伺服器的連線。"
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "其中一名玩家可進行遊戲的剩餘時間不足以完成戰鬥。裝甲排現處準備狀態。"
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "召集傭兵已暫停。"
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "操作無法使用。請等到時間過去。"
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "加入隊伍發生錯誤。"
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "您將從志願兵名單中自動逐出。"
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "您已被指揮官逐出。"
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "您已被逐出分遣隊：分遣隊已解散。"
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "您成為了分遣隊指揮官。"
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "您成為了分遣隊指揮官。\n您已獲得戰鬥儲備的控制權。"
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "已選擇了另一個橋頭堡來進行進階戰。"
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "已選擇了另一個戰鬥類型。"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "搜尋暫時關閉：伺服器上有太多裝甲排。"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "由於伺服器錯誤而無法尋找玩家。請稍後再試。"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "搜尋已取消：至少一名裝甲排成員沒有適合所選遊戲模式的車輛。"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "搜尋逾時。找不到所需的玩家。"
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "處理玩家的加入中，請等待。"
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "已恢復至戰備狀態的車輛：%(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "無法確認準備就緒以加入隊伍。"
+
+msgid "unload/button"
+msgstr "前往兵營"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "無法將乘員送回兵營：該戰車擁有獨特的永久乘員。"
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "乘員送回兵營時發生錯誤。錯誤的車輛。"
+
+msgid "unload_crew/server_error"
+msgstr "乘員送回兵營發生錯誤，請稍後再試。"
+
+msgid "unload_crew/success"
+msgstr "乘員已送回兵營。"
+
+msgid "unload_crew/vehicle_locked"
+msgstr "乘員送回兵營時發生錯誤，車輛已鎖定。"
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "乘員送回兵營時發生錯誤，請修理您的車輛。"
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "無法將乘員送回兵營：該戰車擁有獨特的永久乘員。"
+
+msgid "unload_tankman/button"
+msgstr "前往兵營"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "乘員送回兵營時發生錯誤。錯誤的車輛。"
+
+msgid "unload_tankman/not_enough_space"
+msgstr "無法將此名乘員送回兵營。兵營中的床位不足。"
+
+msgid "unload_tankman/server_error"
+msgstr "無法將乘員送回兵營，請稍後再試。"
+
+msgid "unload_tankman/success"
+msgstr "乘員已送回兵營。"
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "乘員送回兵營時發生錯誤，車輛已鎖定。"
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "乘員送回兵營時發生錯誤，請修理您的車輛。"
+
+msgid "unlocks/drawFailed"
+msgstr "錯誤的設定，科技樹已鎖定。"
+
+msgid "unlocks/item/already_unlocked"
+msgstr "已研發配件 %(typeString)s「%(userString)s」。"
+
+msgid "unlocks/item/in_processing"
+msgstr "研發請求已送出，等待伺服器回應。"
+
+msgid "unlocks/item/server_error"
+msgstr "研發配件 %(typeString)s「%(userString)s」時伺服器發生錯誤。請稍後再試。"
+
+msgid "unlocks/item/unlock_success"
+msgstr "已研發配件 %(typeString)s「%(userString)s」。花費未分配經驗：%(vehXP)s。花費自由經驗：%(freeXP)s。"
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "車輛 %(userString)s 已研發。"
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "研發請求已送出，等待伺服器回應。"
+
+msgid "unlocks/vehicle/server_error"
+msgstr "研發車輛 %(userString)s 時伺服器發生錯誤，請稍後再試。"
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "車輛 %(userString)s 已研發，花費未分配經驗：%(vehXP)s、花費自由經驗：%(freeXP)s。"
+
+msgid "upgradeTankman/server_error"
+msgstr "訓練乘員時發生錯誤，請稍後再試。"
+
+msgid "upgradeTankman/success"
+msgstr "訓練完成。"
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "戰勛裝備升級由於技術性問題而暫時無法使用。請稍後再試。"
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "戰勛裝備升級已經恢復。我們為帶來的不便感到抱歉。"
+
+msgid "vehicle/restore/finished"
+msgstr "無法重新找回 %(vehicleName)s：已逾該操作的時間。"
+
+msgid "vehicle/restoreDuration/days"
+msgstr "再過 %(time)s 天您就可以到商店中重新找回該車輛。"
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "再過 %(time)s 小時您就可以到商店中重新找回該車輛。"
+
+msgid "vehicleCompare/disabled"
+msgstr "操作暫時無法使用。請稍後再試。"
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "%(vehicle)s 預覽將於完整客戶端下載後可用。"
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "安裝裝備請求已送出，等待伺服器回應。"
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "無法購買 %(typeString)s「%(userString)s」。請稍後再試。"
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "已成功地購買配件 %(typeString)s「%(userString)s」 (%(count)d)。花費 %(price)s。"
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "配件 %(typeString)s「%(userString)s」已存在在倉庫中。"
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "已研發配件 %(typeString)s「%(userString)s」。"
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "想要購買 %(typeString)s「%(userString)s」，您還需要 %(price)s。"
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "配件 %(typeString)s「%(userString)s」不在倉庫中。"
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "配件 %(typeString)s「%(userString)s」不在商店中。請稍後再試。"
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "已研發 %(typeString)s「%(userString)s」。 花費未分配經驗：%(unspentXP)s。花費自由經驗：%(freeXP)s。"
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "研發請求已送出，等待伺服器回應。"
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "車輛 %(userString)s 已存在在車庫中。"
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "車輛 %(userString)s 已研發。"
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "購買 %(userString)s 您還需要 %(price)s。"
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "車輛 %(userString)s 不在車庫中。"
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "車輛 %(userString)s 不在商店中，請稍後再試。"
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "%(userString)s 已研發。 花費戰鬥經驗：%(unspentXP)s、花費自由經驗：%(freeXP)s。"
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "已解鎖 %(vehicle)s 的精英獎勵"
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "精英獎勵"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "已成功購買 %(vehicle)s 的%(modification)s改裝。"
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "已購買改裝"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "已成功為 %(vehicle)s 的第二個欄位指派%(category)s類別。"
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "欄位類別指派"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "花費銀幣：%(value)s。"
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "已取消 %(vehicle)s 的所有成對改裝。"
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "已取消 %(vehicle)s 的%(modification)s改裝。"
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "改裝已取消"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "已取消 %(vehicle)s 的%(modifications)s改裝。"
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr "、"
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "花費戰鬥經驗：%(value)s。"
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "花費自由經驗：%(value)s。"
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "改裝樹錯誤。請稍後再試。"
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "錯誤"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "已成功研發並購買 %(vehicle)s 的標準改裝等級 %(level)s。"
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "已成功研發並購買 %(vehicle)s 的標準改裝等級 %(levels)s。"
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr "、"
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "改裝已研發"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "已成功為 %(vehicle)s 的第二個欄位指派%(category)s類別。"
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "欄位類別指派"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "輔助武裝現在可用於 %(vehicle)s。"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "輔助武裝"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "第二個欄位類別的指派現在可用於 %(vehicle)s。"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "欄位類別可用"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "核心武裝現在可用於 %(vehicle)s。"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "核心武裝"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "改裝樹現在可用於 %(vehicle)s。"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "戰地升級"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "車輛改裝樹可用。您可根據您車輛的角色進行配置並使用各種改裝變更其特性。"
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "升級時發生錯誤。請稍後再試。"
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "錯誤"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "已成功研發 %(vehicle)s 的「%(perk)s」節點。"
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "節點已研發"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "已成功研發 %(vehicle)s 的 %(perk)s 個節點。"
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "節點已研發"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "無法進行此操作。請稍後再試。"
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "無法購買 %(vehName)s。錯誤的車輛。"
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "無法購買 %(vehName)s。銀幣不足。"
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "無法購買 %(vehName)s。金幣不足。"
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "無法操作。尚未研發此國家的車輛。"
+
+msgid "vehicle_buy/server_error"
+msgstr "由於伺服器錯誤而無法購買 %(vehName)s。請稍後再試。"
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "無法購買 %(vehName)s 車輛。伺服器暫時無法使用。"
+
+msgid "vehicle_buy/success"
+msgstr "已成功地購買 %(vehName)s。花費 %(price)s。"
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "無法移除 %(vehName)s。請稍後再試。"
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "無法移除 %(vehName)s。錯誤的車輛。"
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "無法移除 %(vehName)s。銀幣不足。"
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "無法移除 %(vehName)s。金幣不足。"
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "無法移除 %(vehName)s。兵營中的床位不足。"
+
+msgid "vehicle_remove/server_error"
+msgstr "無法出售 %(vehName)s。請確認該車輛不在任何戰術單位中或是稍後再試。"
+
+msgid "vehicle_remove/success/default"
+msgstr "已成功移除 %(vehName)s。\n%(money)s。"
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "已成功移除 %(vehName)s。"
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "已成功移除 %(vehName)s。\n%(gainMoney)s。\n%(spendMoney)s。"
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "無法移除 %(vehName)s。車輛會被自動移除。"
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "無法移除 %(vehName)s。車輛被封鎖。"
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "無法移除 %(vehName)s。車輛需要修理。"
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "無法移除 %(vehName)s。您已達今天的車輛上限。"
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "vehicle_rent/buyOption"
+msgstr "注意！萬一您決定稍後要購買這輛車，它將會以折扣的價格來提供給您。"
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "無法租用 %(vehName)s。錯誤的車輛。"
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "無法租用 %(vehName)s。銀幣不足。"
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "無法租用 %(vehName)s。金幣不足。"
+
+msgid "vehicle_rent/server_error"
+msgstr "由於伺服器錯誤而無法租用 %(vehName)s。請稍後再試。"
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "無法租用 %(vehName)s。車輛租用選項暫時無法使用。"
+
+msgid "vehicle_rent/success"
+msgstr "您已租用了 %(vehName)s %(rentPackageName)s。您花費了 %(price)s。%(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "%(days)d 天"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "vehicle_repair/credits_error"
+msgstr "需要 %(needed)s 來修理 %(vehName)s。"
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "需要 %(needed)s 來修理 %(vehName)s。"
+
+msgid "vehicle_repair/server_error"
+msgstr "修理 %(vehName)s 時發生錯誤。請稍後再試。"
+
+msgid "vehicle_repair/success"
+msgstr "%(vehName)s 已修復。您花費了 %(money)s。"
+
+msgid "vehicle_restore/DISABLED"
+msgstr "重新找回車輛功能暫時無法使用。請稍後再試。"
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "無法重新找回 %(vehName)s。重新找回車輛功能暫時無法使用。"
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "無法重新找回 %(vehName)s。錯誤的車輛。"
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "無法重新找回 %(vehName)s。銀幣不足。"
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "無法重新找回 %(vehName)s。金幣不足。"
+
+msgid "vehicle_restore/server_error"
+msgstr "由於伺服器錯誤而無法重新找回 %(vehName)s。請稍後再試。"
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "無法重新找回 %(vehName)s。重新找回車輛功能暫時無法使用。"
+
+msgid "vehicle_restore/success"
+msgstr "已成功地重新找回 %(vehName)s。花費 %(price)s。"
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "已使用拆卸器（x%(countDK)s）"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "無法出售 %(vehName)s。請稍後再試。"
+
+msgid "vehicle_sell/disabledService"
+msgstr "無法出售 %(vehName)s。請稍後再試。"
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "無法出售 %(vehName)s。沒有足夠的部件來拆卸裝備。"
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "無法出售 %(vehName)s。錯誤的車輛。"
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "無法出售 %(vehName)s。銀幣不足。"
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "無法出售 %(vehName)s。金幣不足。"
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "無法出售 %(vehName)s。兵營中的床位不足。"
+
+msgid "vehicle_sell/server_error"
+msgstr "無法出售 %(vehName)s。請確認該車輛不在任何戰術單位中或是稍後再試。"
+
+msgid "vehicle_sell/success"
+msgstr "已成功出售 %(vehName)s。\n%(money)s。\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "已成功出售 %(vehName)s。\n%(gainMoney)s。\n%(spendMoney)s。\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "無法出售 %(vehName)s。車輛會被自動移除。"
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "無法出售 %(vehName)s。車輛已鎖定。"
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "無法出售 %(vehName)s。請修理您的車輛。"
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "無法出售 %(vehName)s。您已達今天的車輛限制。"
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "購買車位發生錯誤。銀幣不足。"
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "購買車位發生錯誤。金幣不足。"
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "購買車位發生錯誤，請稍後再試。"
+
+msgid "vehicle_slot_buy/success"
+msgstr "已購買車庫中額外的車位，花費%(money)s。"
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "變更 %(vehName)s 的加速乘員訓練時發生錯誤。錯誤的車輛。"
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "無法變更 %(vehName)s 的加速乘員訓練。請稍後再試。"
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "%(vehName)s 的加速乘員訓練未開啟。"
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "%(vehName)s 的加速乘員訓練已開啟。"
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "變更 %(vehName)s 的加速乘員訓練時發生錯誤。車輛已被鎖。"
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "變更 %(vehName)s 的加速乘員訓練時發生錯誤。請修理車輛。"
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "無法折價貼換成 %(vehName)s。所選的車輛不正確。"
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "無法折價貼換成 %(vehName)s。銀幣不足。"
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "無法折價貼換成 %(vehName)s。金幣不足。"
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "無法折價貼換 %(tradeOffVehName)s。兵營中的床位不足。"
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "折價貼換優惠現已可用！"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "折價貼換優惠不再可用！"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "無法折價貼換成 %(vehName)s。伺服器錯誤。請稍後再試。"
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "無法折價貼換成 %(vehName)s。購買/折價貼換服務暫時無法使用。"
+
+msgid "vehicle_trade_in/success"
+msgstr "%(tradeOffVehName)s 已被移除。%(vehName)s 已被購買並花費 %(price)s。"
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "無法折價貼換 %(tradeOffVehName)s。車輛將會被自動移除。"
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "無法折價貼換 %(vehName)s。無法用折價貼換來得到這輛車。"
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "無法折價貼換 %(tradeOffVehName)s。車輛無法用於折價貼換。"
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "無法折價貼換 %(tradeOffVehName)s。車輛無法使用。"
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "無法折價貼換 %(tradeOffVehName)s。請修理車輛。"
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "無法折價貼換 %(tradeOffVehName)s。車輛不在車庫中。"
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "無法操作。您所有的金幣將會在 WG Wallet 操作自動恢復後可用。"
+
+msgid "video/error"
+msgstr "影片播放發生錯誤。錯誤代碼：%(code)s。"
+
+msgid "w2gt/switchOff/description"
+msgstr "小地圖戰鬥區域暫時無法使用。"
+
+msgid "w2gt/switchOff/header"
+msgstr "技術性問題"
+
+msgid "w2gt/switchOn/description"
+msgstr "小地圖戰鬥區域現已可用。繼續戰鬥！"
+
+msgid "w2gt/switchOn/header"
+msgstr "功能已恢復"
+
+msgid "wallet/available"
+msgstr "已成功同步 WG Wallet。現在已可使用您所有的金幣、點券、銀幣，以及自由經驗。"
+
+msgid "wallet/available_freexp"
+msgstr "已成功同步 WG Wallet。現在已可使用您所有的自由經驗。"
+
+msgid "wallet/available_gold"
+msgstr "已成功同步 WG Wallet。現在已可使用您所有的金幣。"
+
+msgid "wallet/not_available"
+msgstr "正在進行餘額資料的收集。您所有的金幣、點券、銀幣，以及自由經驗將很快可以使用。"
+
+msgid "wallet/not_available_freexp"
+msgstr "正在進行餘額資料的收集。您所有的自由經驗將很快可以使用。"
+
+msgid "wallet/not_available_gold"
+msgstr "正在進行餘額資料的收集。您所有的金幣將很快可以使用。"
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "無法重骰每週任務：操作不可用。"
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "無法重骰每週任務：任務無效。"
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "無法重骰每週任務：任務已完成。"
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "無法重骰每週任務：操作暫不可用。"
+
+msgid "weekly_quests/reroll/success"
+msgstr "每週任務重骰成功。"
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "無法重骰每週任務。請稍後再試。"
+
+msgid "weekly_quests/switch_off/body"
+msgstr "每週任務暫時無法使用。我們為帶來的不便感到抱歉。"
+
+msgid "weekly_quests/switch_on/body"
+msgstr "每週任務已再次可用。我們為帶來的不便感到抱歉。"
+
+msgid "winback/turnOffBattlesError"
+msgstr "無法離開熱身。請稍後再試。"
+
+msgid "window/buttons/close"
+msgstr "關閉"
+
+msgid "wrong_slot"
+msgstr "%s「%s」與 %s 位置不相符。"

@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "mode/comp7/battlePassTooltip/body"
+msgstr "10단계 전차로 {whiteSpanish_open}격전{whiteSpanish_close} 참여 시 배틀 패스 진행 점수를 획득할 수 있습니다."
+
+msgid "mode/comp7/battlePassTooltip/header"
+msgstr "배틀 패스 점수"
+
+msgid "mode/comp7/calendarTooltip"
+msgstr "%(date)s에 이벤트 종료"
+
+msgid "mode/comp7/description"
+msgstr "경쟁 모드: 7 대 7 %(parSecondary_open)sI%(parSecondary_close)s 10단계"
+
+msgid "mode/comp7/progress"
+msgstr "%(score)s/%(scoreToNextDivision)s"
+
+msgid "mode/comp7/seasonEnd/first"
+msgstr "하늘색 드래곤 시즌 종료"
+
+msgid "mode/comp7/seasonEnd/second"
+msgstr "진홍색 드래곤 시즌 종료"
+
+msgid "mode/comp7/seasonEnd/third"
+msgstr "비취색 드래곤 시즌 종료"
+
+msgid "mode/comp7/seasonStart/first"
+msgstr "하늘색 드래곤 시즌 시작: %(date)s"
+
+msgid "mode/comp7/seasonStart/second"
+msgstr "진홍색 드래곤 시즌 시작: %(date)s"
+
+msgid "mode/comp7/seasonStart/third"
+msgstr "비취색 드래곤 시즌 시작: %(date)s"
+
+msgid "mode/comp7/warning"
+msgstr "랭크 휴면: %(count)s"
+
+msgid "mode/comp7/widgetDescription/qualification"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "사전 평가를 완료하려면\n전투에 %(maxBattlesCount)s회 참여하십시오."
+msgstr[1] "사전 평가를 완료하려면\n전투에 %(maxBattlesCount)s회 참여하십시오."
+msgstr[2] "사전 평가를 완료하려면\n전투에 %(maxBattlesCount)s회 참여하십시오."
+
+msgid "mode/comp7/widgetDescription/status"
+msgstr "%(rank)s\n%(division)s"
+
+msgid "mode/comp7/yearEnd"
+msgstr "드래곤의 해 종료"

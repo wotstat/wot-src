@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Giai đoạn {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Chương Đặc biệt"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Đã hoàn tất"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Xem Tiến trình mới"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Chọn Chương"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Tạm thời không khả dụng"
+
+msgid "battle_pass_widget/title"
+msgstr "Giấy phép Quân sự"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Crucible: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} ng"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} ng {{hours}} giờ"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} giờ"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} giờ {{minutes}} phút"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} m"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Nhiệm vụ Đặc cách\nHoàn thành 3 Nhiệm vụ Tiêu chuẩn để mở khóa"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Thời gian còn để làm Nhiệm vụ Đặc cách"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Nhiệm Vụ Hàng Ngày Mới sau"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Xong hết rồi. Nhiệm vụ hàng ngày mới sẽ sớm khả dụng."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Hoàn thành nhiệm vụ trước đó để mở khóa cái này"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Nhiệm vụ Premium tạm thời không khả dụng"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Mua Premium"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Cần Tài khoản WoT Premium"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Nhiệm vụ Premium"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Nhiệm vụ Hàng Ngày tạm thời không khả dụng"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Đổi mới"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "HÀNG NGÀY"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Đến Chiến dịch"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Cải thiện Kết quả"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Đến Chiến dịch"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Thử thách thật cho dân cày cứng, phần thưởng là xe độc đáo."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Bạn đã hoàn tất hoạt động {{currentOperationName}}! Có thể tiếp tục cải thiện kết quả đến mức xuất sắc—hoặc nhận thử thách mới trong hoạt động {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Bạn vẫn có thể cải thiện kết quả trong {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Bạn đã hoàn thành xuất sắc hoạt động {{currentOperationName}}! {{nextOperationName}} bắt đầu khả dụng."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Điểm Chiến dịch có thể được kiếm bằng cách hoàn thành Nhiệm vụ Cá nhân, Nhiệm vụ Hàng ngày và Nhiệm vụ Hàng tuần."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Hoàn thành đủ {{totalProgress}} nhiệm vụ để kết thúc chiến dịch với thành tích xuất sắc và nhận thêm phần thưởng."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Lắp ráp tất cả bộ phận và nhận phần thưởng của bạn—{{vehicleName}}. Để thu thập các bộ phận xe, hãy kiếm Điểm Chiến dịch bằng cách hoàn thành Nhiệm vụ Cá nhân, cũng như Nhiệm vụ Hàng ngày và Hàng tuần."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Lắp ráp tất cả bộ phận và nhận phần thưởng của bạn—{{vehicleName}}. Để thu thập các bộ phận xe, hãy kiếm Điểm Chiến dịch bằng cách hoàn thành Nhiệm vụ Cá nhân, cũng như Nhiệm vụ Hàng ngày và Hàng tuần."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Nhiệm vụ đã hoàn tất: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Chiến dịch Sector 3 mới khả dụng!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Hoạt động: {{nextOperationName}} khả dụng!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Hoạt động: {{currentOperationName}} hoàn thành xuất sắc!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Hoạt động: {{nextOperationName}} khả dụng!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Hoạt động: {{currentOperationName}} | Giai đoạn: {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Hoàn thành xuất sắc hoạt động {{currentOperationName}}"
+
+msgid "hub/basic_missions/title"
+msgstr "NHIỆM VỤ THƯỜNG"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "HÀNG TUẦN"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Cập nhật mỗi {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Nhiệm vụ đang làm"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "HOẶC"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Nhiệm vụ mới sắp ra..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "FIGHTER"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "ACE"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELITE"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Có ba hạng nhiệm vụ: Fighter, Elite và Ace. Mỗi hạng mang đến những thử thách riêng, phần thưởng cũng giá trị."
+
+msgid "hub/challenge_missions/header"
+msgstr "CRUCIBLE"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Kích hoạt"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Khởi động lại Miễn phí"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Khởi động lại"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Từ bỏ"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Đến Nhiệm vụ"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Nhiệm vụ Crucible Hoàn tất"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "khiên còn lại"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "khởi động lại miễn phí"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Hoàn tất nhiệm vụ Crucible đang làm"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Sẽ hết sau %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Không khả dụng: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Cần xe Cấp VI trở lên"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "ĐANG LÀM"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Đã hoàn tất"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} nhiệm vụ"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Nhiệm vụ Thử thách"
+
+msgid "hub/challenge_missions/new"
+msgstr "MỚI"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Đến Crucible"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Đến Crucible"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "CRUCIBLE: {{ challengeName }} ĐÃ HOÀN TẤT!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Đến Crucible"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Crucible: {{ challenge }} chưa xong. Hãy khởi động lại và kiếm phần thưởng tiếp!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Đến Crucible"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "NHIỆM VỤ {{ mission }} ĐÃ HOÀN TẤT!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Đến Crucible"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Nhiệm vụ {{ mission }} thất bại"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "KHIÊN CÒN LẠI"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Đến Crucible"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Bước vào Crucible, nhận nhiệm vụ đầy thách thức với phần thưởng giá trị cho ai chinh phục."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "NHIỆM VỤ CRUCIBLE MỚI KHẢ DỤNG!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Rèn lối vinh quang trong Crucible: Đối đầu nhiệm vụ thử thách, phần thưởng giá trị cho ai chinh phục."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "BƯỚC VÀO CRUCIBLE"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Đã hoàn tất"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Bộ Phụ tùng 3D"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Thiết bị Tiên tiến"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "Kiểu mẫu 2D"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Thành viên kíp lái"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Xe"
+
+msgid "hub/challenge_missions/title"
+msgstr "NHIỆM VỤ CRUCIBLE"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Giới thiệu Crucible"
+
+msgid "hub/common_missions/title"
+msgstr "NHIỆM VỤ THÊM"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Lấy Thưởng"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Phần thưởng Kinh điển tạm thời không khả dụng"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Mỗi Nhiệm vụ Tiêu chuẩn, Premium hoặc Đặc cách được hoàn thành đều đóng góp vào tiến trình của bạn."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Khả dụng"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Làm Nhiệm vụ Hàng ngày để nhận Phần thưởng Kinh điển"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Lấy Thưởng"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Lấy Thưởng"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Mỗi Nhiệm vụ Tiêu chuẩn, Premium hoặc Đặc cách được hoàn thành đều đóng góp vào tiến trình của bạn."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Khả dụng"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Trở lại Khói lửa! Làm Nhiệm vụ Hàng ngày để nhận Quà Kinh điển: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Sau khi hoàn thành 3 Nhiệm vụ Tiêu chuẩn, 1 Nhiệm vụ Đặc cách sẽ khả dụng (hạn chót đến cuối ngày, nếu không làm sẽ mất) với nhiều phần thưởng giá trị hơn."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Nhiệm vụ Đặc cách"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Một số nhiệm vụ phải được hoàn thành trong một trận, số khác thuộc loại tích lũy và có thể hoàn tất sau số trận bất kì. Nhiệm vụ tích lũy hiển thị dưới dạng thanh tiến trình. Bạn có thể làm nhiệm vụ trong Trận đấu Ngẫu nhiên."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Điều kiện"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Bạn có thể tráo Nhiệm vụ Tiêu chuẩn không ưng ý lấy cái mới, ngẫu nhiên. Sau khi làm thế, nút Đổi mới Nhiệm vụ sẽ vô tác dụng trong {{time}}. Đổi mới nhiệm vụ có thể làm mất tiến trình nếu còn xe đang trong trận."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Đổi mới Nhiệm vụ"
+
+msgid "info_page/additional/reward/description"
+msgstr "Phần thưởng Kinh điển là một chu kỳ kiểu marathon, hoàn thành các Nhiệm vụ Tiêu chuẩn, Premium và Đặc cách đều góp phần vào tiến độ. Khi xong một chu kỳ, nó sẽ reset và bắt đầu lại. Chu kỳ này không giới hạn thời gian, bạn có thể hoàn thành bất cứ lúc nào."
+
+msgid "info_page/additional/reward/title"
+msgstr "Phần thưởng Kinh điển"
+
+msgid "info_page/header"
+msgstr "CHI TIẾT VỀ NHIỆM VỤ"
+
+msgid "info_page/main/premium/description"
+msgstr "Với Tài Khoản Premium WoT, bạn được truy cập ba Nhiệm vụ Premium tuần tự, có thể hoàn thành trong Trận Ngẫu Nhiên và Cường Kích, tiến độ cập nhật sau mỗi trận. Khi có sự kiện, Nhiệm vụ Premium còn thưởng thêm theo sự kiện đó."
+
+msgid "info_page/main/premium/title"
+msgstr "Nhiệm vụ Premium"
+
+msgid "info_page/main/standard/description"
+msgstr "Nhiệm vụ Tiêu chuẩn là các điều kiện ngẫu nhiên mỗi ngày, tiến độ cập nhật từng trận. Nên xử lý trong hôm nhận, vì để sang bữa sau sẽ dồn đống và chặn nhiệm vụ mới. Hoàn thành để lấy điểm GPQS và phần thưởng theo sự kiện riêng khác."
+
+msgid "info_page/main/standard/title"
+msgstr "Nhiệm vụ Tiêu chuẩn"
+
+msgid "info_page/main/weekly/description"
+msgstr "Nhiệm vụ Hàng tuần là bộ nhiệm vụ mới mỗi bảy ngày. Tiến độ cập nhật từng trận, xong thì sang tuần có bộ mới. Bạn có thể làm Nhiệm vụ Hàng tuần trong Trận đấu Ngẫu nhiên và Cường kích để được thưởng thêm."
+
+msgid "info_page/main/weekly/title"
+msgstr "Nhiệm vụ Hàng tuần"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Đã xong hết nhiệm vụ thường của hôm nay"
+
+msgid "quests/daily_quests/completed"
+msgstr "Đã xong hết Nhiệm vụ Hàng ngày"
+
+msgid "tooltip/common/timer"
+msgstr "Khả dụng sau {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Tất cả nhiệm vụ thường đã hoàn thành! Bạn có thể tìm thấy nhiều nữa trong tab Nhiệm Vụ Thêm."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Nhiệm vụ Đặc cách"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Đã hoàn tất"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Nhiệm vụ Hàng ngày"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Hết hạn sau {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nhiệm vụ Hàng ngày mới sau {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Nhiệm vụ Premium"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Phần thưởng:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Bạn có thể tráo nhiệm vụ không ưng ý \nlấy cái mới mỗi {time}."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Đổi mới Nhiệm vụ"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Nhiệm vụ hoàn thành, đã nhận phần thưởng."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Hoàn thành nhiệm vụ trước đó để mở khóa cái này. Tất cả nhiệm vụ trong một chuỗi phải được làm theo thứ tự."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Click để biết thêm thông tin"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Chi tiết Nhiệm vụ"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Chuỗi nhiệm vụ này có thể chơi lại được sau khi hoàn thành. Tiến trình và khiên sẽ về điểm xuất phát, bạn cũng có thể nhận phần thưởng lần nữa."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Chơi lại Nhiệm vụ"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Bạn có thể khởi động lại một chuỗi nhiệm vụ sau khi mất hết khiên. Tiến trình và khiên sẽ về điểm xuất phát, phần thưởng cũng có thể nhận lần nữa."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Chi phí các lần khởi động lại sau này: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Có thể khởi động lại miễn phí: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Mỗi lần khởi động lại có chi phí: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Khởi động lại"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Khiên giúp bảo vệ tiến trình. Mỗi nhiệm vụ thất bại sẽ làm mất 1 khiên; chuỗi nhiệm vụ hỏng khi không còn khiên nào. Nếu khởi động lại, khiên sẽ được khôi phục."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Khiên"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Giới hạn Xe:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Nhiệm vụ Hàng tuần"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Bạn có thể đổi mới Nhiệm vụ Hàng tuần này mỗi {{time}}."
+
+msgid "welcome/button"
+msgstr "Đã rõ!"

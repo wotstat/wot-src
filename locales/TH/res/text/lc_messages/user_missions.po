@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "ด่าน {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "บทพิเศษ"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "สำเร็จแล้ว"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "ดูความก้าวหน้าใหม่"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "เลือกบท"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "ไม่มีให้ชั่วคราว"
+
+msgid "battle_pass_widget/title"
+msgstr "บัตรผ่านการรบ"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "เตาหลอม: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} วัน"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} วัน {{hours}} ชม."
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} ชม."
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} ชม. {{minutes}} น."
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} น."
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "ภารกิจโบนัส\nปฏิบัติ 3 ภารกิจปกติให้สำเร็จเพื่อปลดล็อค"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "เวลาเหลือในการปฏิบัติภารกิจโบนัส"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "ภารกิจประจำวันใหม่ใน"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "นั่นคือทั้งหมดในตอนนี้ ภารกิจประจำวันใหม่จะมีให้ในไม่ช้า"
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "ปฏิบัติภารกิจก่อนหน้าให้สำเร็จเพื่อปลดล็อคภารกิจนี้"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "ภารกิจพิเศษไม่มีให้ชั่วคราว"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "ซื้อบัญชีพิเศษ"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "ต้องใช้บัญชีพิเศษ WoT"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "ภารกิจพิเศษ"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "ภารกิจประจำวันไม่มีให้ชั่วคราว"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "เปลี่ยน"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "ประจำวัน"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "ไปยังสมรภูมิ"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "ปรับปรุงผลงาน"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "ไปยังปฏิบัติการ"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "คำท้าทายแท้จริงสำหรับนักสู้มีประสบการณ์มีพาหนะเฉพาะเป็นรางวัล"
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "คุณได้ผ่านปฏิบัติการ {{currentOperationName}} แล้ว! คุณยังสามารถปรับปรุงผลงานของคุณเพื่อผ่านปฏิบัติการพร้อมเกียรตินิยมหรือไปลองความท้าทายใหม่ในปฏิบัติการ {{nextOperationName}}"
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "คุณยังสามารถปรับปรุงผลของคุณใน {{nextOperationName}}"
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "คุณผ่านปฏิบัติการ {{currentOperationName}} พร้อมเกียรตินิยม! ปฏิบัติการ {{nextOperationName}} มีให้แล้ว"
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "สามารถหาคะแนนสมรภูมิได้ด้วยการปฏิบัติภารกิจส่วนตัว, ภารกิจประจำวันและภารกิจประจำสัปดาห์"
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "ปฏิบัติภารกิจทั้งหมด {{totalProgress}} ภารกิจเพื่อผ่านปฏิบัติการพร้อมเกียรตินิยมและรับรางวัลเพิ่มเติม"
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "ติดตั้งชิ้นอะไหล่ทั้งหมดเพื่อรับรางวัลของคุณ {{vehicleName}} ในการสะสมชิ้นอะไหล่พาหนะ ให้หาคะแนนสมรภูมิด้วยการปฏิบัติภารกิจส่วนตัวรวมไปถึงภารกิจประจำวันและประจำสัปดาห์ให้สำเร็จ"
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "ติดตั้งชิ้นอะไหล่ทั้งหมดเพื่อรับรางวัลของคุณ {{vehicleName}} ในการสะสมชิ้นอะไหล่พาหนะ ให้หาคะแนนสมรภูมิด้วยการปฏิบัติภารกิจส่วนตัวรวมไปถึงภารกิจประจำวันและประจำสัปดาห์ให้สำเร็จ"
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "ภารกิจสำเร็จ: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "มีสมรภูมิเขต 3 ใหม่ให้!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "มีปฏิบัติการ: {{nextOperationName}} ให้!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "ผ่านปฏิบัติการ: {{currentOperationName}} พร้อมด้วยเกียรตินิยม!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "มีปฏิบัติการ: {{nextOperationName}} ให้!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "ปฏิบัติการ: {{currentOperationName}} | ด่าน {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "การผ่านปฏิบัติการ {{currentOperationName}} พร้อมเกียรตินิยม"
+
+msgid "hub/basic_missions/title"
+msgstr "ภารกิจปกติ"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "ประจำสัปดาห์"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "ปรับใหม่ในทุกๆ {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "ภารกิจดำเนินอยู่"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "หรือ"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "ภารกิจใหม่กำลังจะเข้ามา..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "นักสู้"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "ยอดฝีมือ"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "หน่วยชั้นยอด"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "ทั้งนี้จะมีสามประเภทของภารกิจคือ: นักสู้, หน่วยชั้นยอดและยอดฝีมือ โดยแต่ละประเภทจะมีความท้าทายที่เป็นเอกลักษณ์และรางวัลที่มีค่า"
+
+msgid "hub/challenge_missions/header"
+msgstr "เตาหลอม"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "เปิดใช้งาน"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "เริ่มใหม่ได้ฟรี"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "เริ่มใหม่"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "ละทิ้ง"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "ไปยังภารกิจ"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) ภารกิจเตาหลอมสำเร็จแล้ว"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "x%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "โล่คงเหลือ"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "การเริ่มใหม่ฟรี"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "ปฏิบัติภารกิจเตาหลอมที่มีอยู่ให้สำเร็จ"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "จะจบลงใน %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)ไม่มีให้:%(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "ต้องใช้พาหนะระดับ VI หรือสูงกว่า"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "ดำเนินการ"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "สำเร็จแล้ว"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} ภารกิจ"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "ภารกิจคำท้า"
+
+msgid "hub/challenge_missions/new"
+msgstr "ใหม่"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "ไปยังเตาหลอม"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "ไปยังเตาหลอม"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "เตาหลอม: {{ challengeName }} สำเร็จแล้ว!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "ไปยังเตาหลอม"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "เตาหลอม: {{ challenge }} ยังไม่สำเร็จ มาเริ่มใหม่แล้วไปคว้ารางวัลอีกครั้งกัน!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "ไปยังเตาหลอม"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "ภารกิจ {{ mission }} สำเร็จแล้ว!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "ไปยังเตาหลอม"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "ภารกิจ {{ mission }} ล้มเหลว"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "โล่คงเหลือ"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "ไปยังเตาหลอม"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "เข้าสู่เตาหลอมแล้วปฏิบัติชุดภารกิจที่ท้าทายพร้อมรางวัลมีค่าสำหรับคนที่พิชิตมันได้"
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "มีภารกิจเตาหลอมใหม่ให้!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "เบิกทางสู่ความเกรียงไกรของคุณกันในเตาหลอม: มาปฏิบัติชุดภารกิจที่ยากลำบากมีรางวัลมีค่าสำหรับคนที่พิชิตภารกิจได้"
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "เข้าสู่เตาหลอม"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "สำเร็จแล้ว"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "กลุ่มชุดติดตั้งสามมิติ"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "อุปกรณ์รุ่นปรับปรุง"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "รูปแบบสองมิติ"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "สมาชิกพลรถถัง"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "พาหนะ"
+
+msgid "hub/challenge_missions/title"
+msgstr "ภารกิจเตาหลอม"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "เกี่ยวกับเตาหลอม"
+
+msgid "hub/common_missions/title"
+msgstr "ภารกิจเพิ่มเติม"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "รับรางวัล"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "รางวัลมหากาพย์ไม่มีให้ชั่วคราว"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "ทุกๆภารกิจปกติ, ภารกิจพิเศษหรือภารกิจโบนัสทั้งหมดจะเพิ่มความก้าวหน้าให้คุณ"
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "มีให้"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "ปฏิบัติภารกิจประจำวันให้สำเร็จเพื่อรับรางวัลมหากาพย์"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "รับรางวัล"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "รับรางวัล"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "ทุกๆภารกิจปกติ, ภารกิจพิเศษหรือภารกิจโบนัสทั้งหมดจะเพิ่มความก้าวหน้าให้คุณ"
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "มีให้"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "กลับมาออกรบ! ปฏิบัติภารกิจประจำวันเพื่อรับรางวัลมหากาพย์: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "เมื่อคุณปฏิบัติสามภารกิจปกติสำเร็จ ก็จะมีภารกิจโบนัสให้โดยจะมีรางวัลให้มากกว่าเดิม ภารกิจโบนัสจะต้องปฏิบัติให้สำเร็จภายในวันที่ได้รับก่อนที่มันจะหมดอายุไป"
+
+msgid "info_page/additional/bonus/title"
+msgstr "ภารกิจโบนัส"
+
+msgid "info_page/additional/conditions/description"
+msgstr "บางภารกิจจะต้องปฏิบัติให้สำเร็จในการรบหนึ่งครั้งในขณะที่ภารกิจอื่นจะเป็นแบบสะสมและสามารถปฏิบัติให้สำเร็จในช่วงการรบกี่ครั้งก็ได้ ภารกิจสะสมจะมีแถบความก้าวหน้าให้ คุณสามารถปฏิบัติภารกิจให้สำเร็จได้ในการรบแบบสุ่ม"
+
+msgid "info_page/additional/conditions/title"
+msgstr "เงื่อนไข"
+
+msgid "info_page/additional/reroll/description"
+msgstr "คุณสามารถเปลี่ยนภารกิจปกติที่ไม่ต้องการเพื่อรับภารกิจใหม่แบบสุ่ม หลังจากนี้ ปุ่มเปลี่ยนภารกิจจะไม่มีให้เป็นเวลา {{time}} การเปลี่ยนภารกิจอาจจะทำให้คุณเส่ียความก้าวหน้าถ้าพาหนะหนึ่งคันหรือมากกว่าของคุณอยู่ในการรบ"
+
+msgid "info_page/additional/reroll/title"
+msgstr "การเปลี่ยนภารกิจ"
+
+msgid "info_page/additional/reward/description"
+msgstr "รางวัลมหากาพย์นั้นเป็นเหมือนรอบการแข่งมาราธอนโดยที่ภารกิจปกติ, พิเศษและภารกิจโบนัสที่สำเร็จจะเพิ่มความก้าวหน้าให้ เมื่อครบรอบแล้ว รอบจะทำการตั้งใหม่และเริ่มขึ้นอีกครั้ง รอบรางวัลมหากาพย์จะไม่มีเวลาจำกัดและสามารถปฏิบัติให้สำเร็จกี่ครั้งก็ได้"
+
+msgid "info_page/additional/reward/title"
+msgstr "รางวัลมหากาพย์"
+
+msgid "info_page/header"
+msgstr "เกี่ยวกับภารกิจ"
+
+msgid "info_page/main/premium/description"
+msgstr "ด้วยบัญชีพิเศษ WoT คุณสามารถเข้าถึงสามภารกิจพิเศษตามลำดับ ภารกิจเหล่านี้สามารถปฏิบัติให้สำเร็จได้ในการรบแบบสุ่มและการบุกรุก โดยความก้าวหน้าจะปรับใหม่หลังการรบแต่ละครั้ง ในช่วงกิจกรรมเกม ภารกิจพิเศษจะมอบรางวัลเฉพาะสำหรับกิจกรรมให้ด้วย"
+
+msgid "info_page/main/premium/title"
+msgstr "ภารกิจพิเศษ"
+
+msgid "info_page/main/standard/description"
+msgstr "ภารกิจปกติเป็นเงื่อนไขประจำวันแบบสุ่มซึ่งจะมีการปรับความก้าวหน้าหลังการรบแต่ละครั้ง ทางเราขอแนะนำให้คุณปฏิบัติภารกิจนี้ให้สำเร็จในวันที่คุณได้รับเพราะภารกิจที่ไม่สำเร็จจะถูกส่งต่อไปยังวันถัดไปและกันไม่ให้ได้รับภารกิจใหม่ ภารกิจปกติจะมอบคะแนนบัตรผ่านการรบให้ในช่วงบัตรผ่านการรบและรางวัลเฉพาะกิจกรรมในช่วงกิจกรรมเกมอื่นๆ"
+
+msgid "info_page/main/standard/title"
+msgstr "ภารกิจปกติ"
+
+msgid "info_page/main/weekly/description"
+msgstr "ภารกิจประจำสัปดาห์นั้นเป็นชุดของงานที่มีให้ในทุกสัปดาห์ ความก้าวหน้าจะปรับใหม่หลังการรบแต่ละครั้งและภารกิจที่สำเร็จจะแทนที่ด้วยภารกิจใหม่เมื่อรอบสัปดาห์ถัดไปเริ่มขึ้น คุณสามารถปฏิบัติภารกิจประจำสัปดาห์ให้สำเร็จในการรบแบบสุ่มและการบุกรุกเพื่อรับโบนัสเพิ่มเติม"
+
+msgid "info_page/main/weekly/title"
+msgstr "ภารกิจประจำสัปดาห์"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "ภารกิจปกติทั้งหมดที่สำเร็จสำหรับวันนี้"
+
+msgid "quests/daily_quests/completed"
+msgstr "ภารกิจประจำวันทั้งหมดสำเร็จแล้ว"
+
+msgid "tooltip/common/timer"
+msgstr "มีให้ใน {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "ภารกิจปกติทั้งหมดสำเร็จแล้ว! คุณสามารถดูเพิ่มได้ที่แถบภารกิจเพิ่มเติม"
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "ภารกิจโบนัส"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "สำเร็จแล้ว"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "ภารกิจประจำวัน"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "หมดอายุใน {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "ภารกิจประจำวันใหม่ใน {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "ภารกิจพิเศษ"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "รางวัล:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "คุณสามารถเปลี่ยนภารกิจที่ไม่ต้องการเป็น\nอันใหม่ได้ในทุกๆ {time}"
+
+msgid "tooltip/daily_reroll/header"
+msgstr "การเปลี่ยนภารกิจ"
+
+msgid "tooltip/hub/card/completed"
+msgstr "ผ่านภารกิจและได้รับรางวัลแล้ว"
+
+msgid "tooltip/hub/card/disabled"
+msgstr "ปฏิบัติภารกิจก่อนหน้าให้สำเร็จเพื่อปลดล็อคภารกิจนี้ ภารกิจทั้งหมดในชุดจะต้องปฏิบัติให้สำเร็จตามลำดับ"
+
+msgid "tooltip/hub/info_button/body"
+msgstr "คลิกเพื่อดูข้อมูลเพิ่มเติม"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "เกี่ยวกับภารกิจ"
+
+msgid "tooltip/hub/replay/body"
+msgstr "ชุดภารกิจนี้สามารถเล่นซ้ำได้หลังจากผ่านแล้ว ความก้าวหน้าของคุณจะถูกตั้งใหม่และโล่ถูกคืนสภาพและคุณจะสามารถรับรางวัลได้ใหม่อีกครั้ง"
+
+msgid "tooltip/hub/replay/header"
+msgstr "เล่นภารกิจซ้ำ"
+
+msgid "tooltip/hub/restart/description"
+msgstr "คุณสามารถเริ่มชุดภารกิจใหม่หลังจากเสียโล่ทั้งหมดไป ความก้าวหน้าภารกิจของคุณจะถูกตั้งใหม่, โล่ของคุณจำกลับมาและคุณสามารถได้รับรางวัลอีกครั้ง"
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "การเริ่มใหม่ครั้งต่อไปมีราคา: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "การเริ่มใหม่ฟรีมีให้: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "การเริ่มใหม่แต่ละครั้งมีราคา: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "เริ่มใหม่"
+
+msgid "tooltip/hub/shields/description"
+msgstr "โล่จะมีให้ป้องกันความก้าวหน้าของคุณ แต่ละภารกิจที่ล้มเหลวจะทำให้เสียโล่หนึ่งอันและเมื่อคุณเสียโล่ทั้งหมด สายภารกิจดังกล่าวก็จะล้มเหลว ถ้าคุณเริ่มใหม่ โล่ของคุณก็จะถูกตั้งใหม่เช่นกัน"
+
+msgid "tooltip/hub/shields/title"
+msgstr "โล่"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "ข้อจำกัดพาหนะ:"
+
+msgid "tooltip/weekly_mission"
+msgstr "ภารกิจประจำสัปดาห์"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "คุณสามารถเลือกภารกิจประจำสัปดาห์ นี้ใหม่ได้ในทุกๆ{{time}}"
+
+msgid "welcome/button"
+msgstr "รับทราบ!"

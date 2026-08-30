@@ -1,0 +1,35 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-07-06 18:34+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "player_errors/equipment/fastRecharge/gunTemperatureLow"
+msgstr "砲身に蓄熱していないため発動不可"
+
+msgid "player_errors/equipment/fastRecharge/vehicleIsNotRecharged"
+msgstr "装填中でないため発動不可"
+
+msgid "player_errors/equipment/fastRecharge/vehicleIsOnFastRecharge"
+msgstr "装填時間が短縮済みのため発動不可 "
+
+msgid "player_errors/equipment/hunter/noDamagedEnemyVehicles"
+msgstr "敵車輌にダメージを与えていないため発動不可"
+
+msgid "player_errors/equipment/hunter/vehicleIsNotDamaged"
+msgstr "車輌HPが満タンのため発動不可"
+
+msgid "player_errors/equipment/roleSkill/alreadyActivated"
+msgstr "アビリティー「%(name)s」はすでに発動中"
+
+msgid "player_errors/equipment/roleSkill/cooldown"
+msgstr "アビリティー「%(name)s」はクールダウン中"
+
+msgid "player_errors/equipment/roleSkill/unavailable"
+msgstr "アビリティー「%(name)s」のチャージが不足"
+
+msgid "player_messages/equipment/roleSkill/applied"
+msgstr "アビリティー「%(name)s」を発動！"
+
+msgid "player_messages/equipment/roleSkill/promoted"
+msgstr "アビリティー「%(name)s」のレベルが上昇！"
+
+msgid "player_messages/equipment/roleSkill/ready"
+msgstr "アビリティー「%(equipment)s」を発動可能"

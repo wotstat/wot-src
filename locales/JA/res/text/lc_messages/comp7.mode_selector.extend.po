@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "mode/comp7/battlePassTooltip/body"
+msgstr "Tier X車輌を使用して「{whiteSpanish_open}オンスロート{whiteSpanish_close}」モードで戦闘を行うとパフォーマンスに応じて「バトルパス進捗ポイント」を取得できます。"
+
+msgid "mode/comp7/battlePassTooltip/header"
+msgstr "バトルパス進捗ポイント"
+
+msgid "mode/comp7/calendarTooltip"
+msgstr "イベントの開始日: %(date)s"
+
+msgid "mode/comp7/description"
+msgstr "コンペティティブ・モード 7v7%(parSecondary_open)s|%(parSecondary_close)sTier&nbsp;X"
+
+msgid "mode/comp7/progress"
+msgstr "%(score)s/%(scoreToNextDivision)s"
+
+msgid "mode/comp7/seasonEnd/first"
+msgstr "シーズン「アジュール・ドラゴン」は終了しています。"
+
+msgid "mode/comp7/seasonEnd/second"
+msgstr "シーズン「クリムゾン・ドラゴン」は終了しています。"
+
+msgid "mode/comp7/seasonEnd/third"
+msgstr "シーズン「ジェイド・ドラゴン」は終了しています。"
+
+msgid "mode/comp7/seasonStart/first"
+msgstr "シーズン「アジュール・ドラゴン」は%(date)sに開幕します。"
+
+msgid "mode/comp7/seasonStart/second"
+msgstr "シーズン「クリムゾン・ドラゴン」は%(date)sに開幕します。"
+
+msgid "mode/comp7/seasonStart/third"
+msgstr "シーズン「ジェイド・ドラゴン」は%(date)sに開幕します。"
+
+msgid "mode/comp7/warning"
+msgstr "一定期間を超える不参加: %(count)s"
+
+msgid "mode/comp7/widgetDescription/qualification"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "「測定ラウンド」を突破するには\n戦闘を%(maxBattlesCount)s回行う必要があります。"
+msgstr[1] "「測定ラウンド」を突破するには\n戦闘を%(maxBattlesCount)s回行う必要があります。"
+msgstr[2] "「測定ラウンド」を突破するには\n戦闘を%(maxBattlesCount)s回行う必要があります。"
+
+msgid "mode/comp7/widgetDescription/status"
+msgstr "%(rank)s\n%(division)s"
+
+msgid "mode/comp7/yearEnd"
+msgstr "「ドラゴン・イヤー」は終了済み"

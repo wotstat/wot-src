@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2011-03-18 10:00+0300\nPO-Revision-Date: 2011-03-18 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "notifications/count"
+msgstr "x{count}"
+
+msgid "notifications/manualClaim/button"
+msgstr "รับรางวัล"
+
+msgid "notifications/manualClaim/title"
+msgstr "รางวัลสำหรับปีประจำการของคุณกำลังรอคุณอยู่!"
+
+msgid "notifications/selectVehicles/button"
+msgstr "เลือก"
+
+msgid "notifications/selectVehicles/title"
+msgstr "พาหนะที่มีให้สำหรับปี\nที่ประจำการ"
+
+msgid "notifications/tokens/button"
+msgstr "ไปยังร้านค้า"
+
+msgid "notifications/tokens/title"
+msgstr "นำเหรียญปีประจำการของคุณมาแลกเป็นรางวัล!"
+
+msgid "notifications/vehicleSelectionAvailable/title"
+msgstr "เลือกพาหนะคันที่คุณต้องการ!"
+
+msgid "rewardsView/applyBtn"
+msgstr "รับทราบ!"
+
+msgid "rewardsView/exchangeCoins"
+msgstr "นำเหรียญของคุณมาแลกเป็นรางวัลจากร้านค้า"
+
+msgid "rewardsView/gotoHangarBtn"
+msgstr "ดูในโรงรถ"
+
+msgid "rewardsView/gotoRewardsBtn"
+msgstr "ไปยังร้านค้า"
+
+msgid "rewardsView/info"
+msgstr "เพิ่มเติมเกี่ยวกับยศ"
+
+msgid "rewardsView/moreRewardsBtn"
+msgstr "รางวัลมากขึ้น!"
+
+msgid "rewardsView/moreRewardsWithCountBtn"
+msgstr "รางวัลมากขึ้น! ({count})"
+
+msgid "rewardsView/selection/available"
+msgstr "มีพาหนะ {{count}} คันให้สำหรับปีที่ประจำการ"
+
+msgid "rewardsView/selection/received"
+msgstr "ได้รับรางวัล"
+
+msgid "rewardsView/subTitle/otherRewards"
+msgstr "คุณจะยังได้รับ:"
+
+msgid "rewardsView/subTitle/rank/ctg1"
+msgstr "เกณฑ์"
+
+msgid "rewardsView/subTitle/rank/ctg2"
+msgstr "นักรบ"
+
+msgid "rewardsView/subTitle/rank/ctg3"
+msgstr "ผู้บังคับการ"
+
+msgid "rewardsView/subTitle/rank/ctg4"
+msgstr "ทหารสัญญาบัตร"
+
+msgid "rewardsView/subTitle/rank/ctg5"
+msgstr "ทหารผ่านศึก"
+
+msgid "rewardsView/subTitle/rank/ctg6"
+msgstr "ตำนาน"
+
+msgid "rewardsView/subTitle/text"
+msgstr "ได้ยศ {rank}"
+
+msgid "rewardsView/textButton/select"
+msgstr "เลือก"
+
+msgid "rewardsView/title"
+msgstr "ยินดีด้วย!"
+
+msgid "rewardsView/wdrcoin/counter"
+msgstr "x%(count)s"
+
+msgid "specialItem/body"
+msgstr "มอบให้กับเกียรติคุณในการรบ ทันทีที่กิจกรรมจบลง เหรียญที่เหลือทั้งหมดจะถูกลบออกไป"
+
+msgid "specialItem/header"
+msgstr "เหรียญสำหรับปีประจำการ: {count}"
+
+msgid "tooltip/congratulation/ctg1"
+msgstr "ยินดีด้วยสำหรับการได้รับยศทหารเกณฑ์"
+
+msgid "tooltip/congratulation/ctg2"
+msgstr "ยินดีด้วยสำหรับการได้รับยศนักรบ"
+
+msgid "tooltip/congratulation/ctg3"
+msgstr "ยินดีด้วยสำหรับการได้รับยศผู้การ"
+
+msgid "tooltip/congratulation/ctg4"
+msgstr "ยินดีด้วยสำหรับการได้รับยศทหารสัญญาบัตร"
+
+msgid "tooltip/congratulation/ctg5"
+msgstr "ยินดีด้วยสำหรับการได้รับยศทหารผ่านศึก"
+
+msgid "tooltip/congratulation/ctg6"
+msgstr "ยินดีด้วยสำหรับการได้รับยศตำนาน"
+
+msgid "tooltip/medalBlock/label/and"
+msgstr "{abLabel} และ {yearsLabel}"
+
+msgid "tooltip/medalBlock/label/ca"
+msgstr "สำหรับการเข้าร่วมทดสอบอัลฟา"
+
+msgid "tooltip/medalBlock/label/cb"
+msgstr "สำหรับการเข้าร่วมทดสอบเบต้า"
+
+msgid "tooltip/medalBlock/label/duration"
+msgid_plural "plural/tooltip/medalBlock/label/duration"
+msgstr[0] "{{count}} ปีประจำการ"
+msgstr[1] "{{count}} ปีประจำการ"
+msgstr[2] "{{count}} ปีประจำการ"
+
+msgid "tooltip/rank/ctg1"
+msgstr "ทหารเกณฑ์"
+
+msgid "tooltip/rank/ctg2"
+msgstr "นักรบ"
+
+msgid "tooltip/rank/ctg3"
+msgstr "ผู้บัญชาการ"
+
+msgid "tooltip/rank/ctg4"
+msgstr "ทหารสัญญาบัตร"
+
+msgid "tooltip/rank/ctg5"
+msgstr "ทหารผ่านศึก"
+
+msgid "tooltip/rank/ctg6"
+msgstr "ตำนาน"
+
+msgid "tooltip/segment/ctg1"
+msgstr "น้อยกว่าหนึ่งปี"
+
+msgid "tooltip/segment/ctg2"
+msgstr "1–3 ปี"
+
+msgid "tooltip/segment/ctg3"
+msgstr "4–6 ปี"
+
+msgid "tooltip/segment/ctg4"
+msgstr "7–9 ปี"
+
+msgid "tooltip/segment/ctg5"
+msgstr "10–14 ปี"
+
+msgid "tooltip/segment/ctg6"
+msgstr "15 ปี"
+
+msgid "vehicle/A134_M24E2_SuperChaffee"
+msgstr "รถถังเบาที่เป็นตำนานมีความคล่องตัวชั้นยอด รถถังคันนี้ทำความเสียหายต่อนาทีได้ดีพอตัวและมีมุมกดกับมุมยกปืนที่ดีทำให้มันสามารถใช้ภูมิประเทศไม่ราบเรียบเป็นที่กำบังในการรบได้"
+
+msgid "vehicle/G158_VK2801_105_SPXXI"
+msgstr "รถถังคันนี้มีปืนลำกล้องใหญ่และมีเกราะที่ใช้ได้ แม้ว่าเกราะจะมีผลกับความคล่องตัวและความว่องไวก็ตาม การควบคุมนั้นอาจจะลำบากเล็กน้อยแต่ก็ทำให้รถถังคันนี้เหมาะกับการวิ่งชนยานรบที่เกราะบางอย่างมาก"
+
+msgid "vehicle/R160_T_50_2"
+msgstr "รถถังเบาสมบูรณ์แบบสำหรับการลาดตระเวนเคลื่อนที่ในทุกช่วง รูปทรงที่เล็กและความเร็วที่สูงของมันทำให้สามารถหลบหลีกกระสุนข้าศึกได้ดีซึ่งจะเป็นการชดเชยให้กับอำนาจการยิงที่ไม่ได้มากนัก"
+
+msgid "vehicle/R197_KV_1S_MZ"
+msgstr "นี่คือยานเกราะคันเดียวของระดับที่มีระบบป้อนกระสุนอัตโนมัติย้อนกลับ มันเหมาะที่สุดในการทำความเสียหายเป็นชุดใส่พาหนะข้าศึกหรือทำการยิงสนับสนุนพันธมิตร"

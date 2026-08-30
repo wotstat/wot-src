@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "拆除"
+
+msgid "demountKit/gained/count"
+msgstr "拆卸工具（x%(count)s）"
+
+msgid "demountKit/sell/header"
+msgstr "出售："
+
+msgid "demountKit/sell_success"
+msgstr "拆卸工具消耗品（%(count)s个）。获得银币：%(count)s。"
+
+msgid "demountKit/tooltip/description/common"
+msgstr "拆除一件装备。"
+
+msgid "dialogue/description/common"
+msgstr "拆除一件标准装备或赏金装备。"
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "售价低于平时价格—您可以享受折扣价购买。"
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "拆除的装备将发送至仓库。"
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "注意！此装备级别对应战车类型已经发生了改变。\n此装备可以免费拆除，但一旦拆除，您将{red_Open}无法{red_Close}再安装在这辆战车上。"
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "拆除装备%(equipment)s？"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "确认拆除%(equipment)s以安装新装备吗？"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "通过战斗或活动奖励获得。"
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "点券不足"
+
+msgid "equipmentDemount/optionFree"
+msgstr "免费"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "坦克世界Plus"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "取消"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "安装在替代配置中的此装备副本可以免费拆除。"
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "拆除"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "从此槽位拆除%(equipment)s装备吗？"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "确认拆除%(equipment)s以安装新装备吗？"
+
+msgid "equipmentDemountPrice"
+msgstr "拆除价格："
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s<br />或%(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s或%(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s、%(countDK)s<br />或%(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "可用%(count)s拆除后出售或换装在另一辆战车上，或者摧毁它。"
+
+msgid "shop/DemountOptions/common"
+msgstr "可用%(count)s拆除后出售或换装在另一辆战车上，%(iconDK)s拆卸工具或摧毁它。"
+
+msgid "storage/description/common"
+msgstr "拆除标准装备或赏金装备。在激活时消耗。"
+
+msgid "storage/userName/common"
+msgstr "拆卸工具"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "折扣：%(actionPrc)s，原价：%(oldPrice)s"
+
+msgid "userName/common"
+msgstr "拆卸工具"

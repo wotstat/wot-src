@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "구매"
+
+msgid "buttons/cancel"
+msgstr "취소"
+
+msgid "buttons/learn"
+msgstr "사용"
+
+msgid "buttons/postProgression/claim"
+msgstr "수령"
+
+msgid "buttons/postProgression/hint"
+msgstr "합동 과정으로 이동"
+
+msgid "buttons/postProgression/howTo"
+msgstr "획득 방법"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}전환 비율:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "선택한 승무원에 적용됩니다.\n자유 경험치를 사용하여 현재 능력 훈련을 가속해 보십시오."
+
+msgid "card/freeExp/title"
+msgstr "자유 경험치"
+
+msgid "card/nationBook/additionalText"
+msgstr "• 능력 숙련도: 100%\n• 특화 전차: %(vehicleName)"
+
+msgid "card/nationBook/mainText"
+msgstr "전체 승무원에 적용됩니다.\n각 승무원이 %(xp)를 획득합니다."
+
+msgid "card/nationBook/title/brochure"
+msgstr "훈련 책자 (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "훈련 교본 (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "훈련 지침 (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "제한 없이 적용됩니다."
+
+msgid "card/personalBook/mainText"
+msgstr "선택한 승무원에 적용됩니다.\n해당 승무원이 %(xp)를 획득합니다."
+
+msgid "card/personalBook/title"
+msgstr "개인 훈련 교본"
+
+msgid "card/universalBook/additionalText"
+msgstr "• 능력 숙련도: 100%\n• 특화 전차: %(vehicleName)"
+
+msgid "card/universalBook/mainText"
+msgstr "전체 승무원에 적용됩니다.\n각 승무원이 %(xp)를 획득합니다."
+
+msgid "card/universalBook/title/universalBook"
+msgstr "범용 교본"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "범용 책자"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "범용 지침"
+
+msgid "confirm/crewLabel"
+msgstr "각 승무원 %(xpValue) 획득"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "각 승무원 %(xpValue) 획득, "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) %(xpValue) 추가 획득"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) %(xpValue) 획득"
+
+msgid "confirm/postProgressionLabel"
+msgstr "일부 승무원 %(xpValue) 획득 "
+
+msgid "items/brochure/Name"
+msgstr "훈련 책자 (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "훈련 책자"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "훈련 책자"
+
+msgid "items/crewBook/Descr"
+msgstr "각 승무원이 {expTagOpen}+%(exp)s{expTagClose} 승무원 경험치를 획득합니다."
+
+msgid "items/crewBook/Name"
+msgstr "훈련 교본 (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "훈련 교본"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "훈련 교본"
+
+msgid "items/guide/Name"
+msgstr "훈련 지침 (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "훈련 지침"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "훈련 지침"
+
+msgid "items/personalBook/Descr"
+msgstr "선택한 승무원이 {expTagOpen}+%(exp)s{expTagClose} 경험치를 획득합니다."
+
+msgid "items/personalBook/Name"
+msgstr "개인 훈련 교본"
+
+msgid "items/universalBook/Descr"
+msgstr "각 승무원이 {expTagOpen}+%(exp)s{expTagClose} 승무원 경험치를 획득합니다."
+
+msgid "items/universalBook/Name"
+msgstr "범용 교본"
+
+msgid "items/universalBrochure/Descr"
+msgstr "각 승무원이 {expTagOpen}+%(exp)s{expTagClose} 경험치를 획득합니다."
+
+msgid "items/universalBrochure/Name"
+msgstr "범용 책자"
+
+msgid "items/universalGuide/Descr"
+msgstr "각 승무원이 {expTagOpen}+%(exp)s{expTagClose} 경험치를 획득합니다."
+
+msgid "items/universalGuide/Name"
+msgstr "범용 지침"
+
+msgid "page/mentoringLicense/hint"
+msgstr "인수인계로 이동"
+
+msgid "page/mentoringLicense/title"
+msgstr "인수인계 허가증"
+
+msgid "page/title"
+msgstr "속성 훈련"
+
+msgid "tooltip/buyManual"
+msgstr "훈련 교본 구매"
+
+msgid "tooltip/mouseWheel"
+msgstr "{mouseIcon} 휠을 스크롤하여 승무원 훈련서 개수를 조정합니다."
+
+msgid "tooltip/outOfStock"
+msgstr "승무원 훈련서 부족"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "승무원 훈련서가 부족합니다. 상점에서 승무원 훈련서를 구매하십시오."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "선택한 승무원에 적용됩니다. 해당 승무원이 %(xp)s를 획득합니다."
+
+msgid "tooltip/postProgression"
+msgstr "합동 과정으로 이동"
+
+msgid "tooltip/sale/header"
+msgstr "수익성 있는 전환 비율"
+
+msgid "tooltip/sale/newRate"
+msgstr "변경 전환 비율: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "기존 전환 비율: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "%(controlsImg) 클릭 시 능력 훈련 수준을 1% 올리거나 내릴 수 있습니다."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "%(pgupImg) 키 입력 시 능력 훈련 수준이 100%로 올라가고 %(pgdownImg) 키 입력 시 이전 능력으로 돌아갑니다."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "전체 승무원에 적용됩니다. 각 승무원이 %(xp)s를 획득합니다."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "전체 승무원에 적용됩니다. 각 승무원이 %(xp)s를 획득합니다."

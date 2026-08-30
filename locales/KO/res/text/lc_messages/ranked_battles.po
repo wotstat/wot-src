@@ -1,0 +1,1547 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "모든 서버에 휴전이 적용 중입니다. %(primeDelta)s 후 전투에 참여할 수 있습니다."
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "시즌 %(leftSeasonName)s 종료"
+
+msgid "alertMessage/allNotSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "alertMessage/button/changeServer"
+msgstr "다른 서버 선택"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "세부 정보"
+
+msgid "alertMessage/notAvailable"
+msgstr "%(serverName)s 서버에 휴전 적용 중"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "%(serverName)s 서버에 휴전 적용 중"
+
+msgid "alertMessage/notSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "해당 서버에 휴전이 적용 중입니다. %(primeDelta)s 후 전투에 참여할 수 있습니다."
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "시즌 %(leftSeasonName)s 종료"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s일"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s시간 %(min)s분"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1분"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s분"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "차고에 적합한 %(levels)s단계 전차 없음"
+
+msgid "awards/bonusBattles/efficiency"
+msgstr "일반 보너스 전투(완료한 스테이지 성적 기준): %(amount)s"
+
+msgid "awards/bonusBattles/header"
+msgstr "획득한 보너스 전투:"
+
+msgid "awards/bonusBattles/label"
+msgstr "획득한 보너스 전투: %(count)s"
+
+msgid "awards/bonusBattles/steps/daily"
+msgstr " \n일일 보너스 전투(예선에서 획득한 계급장 수 기준): %(amount)s"
+
+msgid "awards/bonusBattles/steps/persistent"
+msgstr " \n일반 보너스 전투(예선에서 획득한 계급장 수 기준): %(amount)s"
+
+msgid "awards/congratulation"
+msgstr "축하합니다!"
+
+msgid "awards/gotDivision"
+msgstr "다음 편성 진출"
+
+msgid "awards/gotLeague"
+msgstr "리그 진출"
+
+msgid "awards/gotQualification"
+msgstr "예선을 완료하여 세 번째 편성에 진출합니다."
+
+msgid "awards/gotQualificationQuest"
+msgstr "예선 보상을 획득했습니다. 참전 횟수: %(count)s"
+
+msgid "awards/gotRank"
+msgstr "새로운 랭크 달성"
+
+msgid "awards/yes"
+msgstr "확인"
+
+msgid "battleResult/losers"
+msgstr "패배 팀"
+
+msgid "battleResult/rank/lose"
+msgstr "랭크 강등"
+
+msgid "battleResult/rank/progress/lose"
+msgstr "계급장 잃음"
+
+msgid "battleResult/rank/progress/up"
+msgstr "계급장 획득"
+
+msgid "battleResult/rank/unchanged"
+msgstr "계급장 유지"
+
+msgid "battleResult/rank/up"
+msgstr "랭크 달성"
+
+msgid "battleResult/winners"
+msgstr "승리 팀"
+
+msgid "battleResult/yes"
+msgstr "확인"
+
+msgid "battleresult/bonusBattlesEarned"
+msgstr " \n\n보너스 전투 추가:"
+
+msgid "battleresult/bonusBattlesEarned/efficiency"
+msgstr " \n일반 보너스 전투(완료한 스테이지 성적 기준): %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/daily"
+msgstr " \n일일 보너스 전투(예선에서 획득한 계급장 수 기준): %(amount)s"
+
+msgid "battleresult/bonusBattlesEarned/steps/persistent"
+msgstr " \n일반 보너스 전투(예선에서 획득한 계급장 수 기준): %(amount)s"
+
+msgid "battleresult/bonusBattlesUsed"
+msgstr ". 보너스 전투에 참여했습니다."
+
+msgid "battleresult/divisionEarned"
+msgstr "새로운\n편성"
+
+msgid "battleresult/first/inTop/lose"
+msgstr "패배 팀 경험치 획득량 1위 기록"
+
+msgid "battleresult/first/inTop/win"
+msgstr "승리 팀 경험치 획득량 1위 기록"
+
+msgid "battleresult/first/notInTop/lose"
+msgstr "패배 팀 경험치 획득량 1위 기록 실패"
+
+msgid "battleresult/first/notInTop/win"
+msgstr "승리 팀 경험치 획득량 1위 기록 실패"
+
+msgid "battleresult/headerText"
+msgstr "전투 결과"
+
+msgid "battleresult/inTop/lose"
+msgstr "패배 팀 경험치 획득량 상위 %(topNumber)s위 이내 기록"
+
+msgid "battleresult/inTop/win"
+msgstr "승리 팀 경험치 획득량 상위 %(topNumber)s위 이내 기록"
+
+msgid "battleresult/leagueEarned"
+msgstr "리그로\n이동"
+
+msgid "battleresult/leagueUnavailable"
+msgstr "순위표 산출 후 리그가 결정됩니다.\n "
+
+msgid "battleresult/notInTop/lose"
+msgstr "패배 팀 경험치 획득량 상위 %(topNumber)s위 이내 기록 실패"
+
+msgid "battleresult/notInTop/minXP"
+msgstr "최소 경험치를 획득하지 못했습니다."
+
+msgid "battleresult/notInTop/stageSaved"
+msgstr "해당 스테이지 계급장 잃지 않음"
+
+msgid "battleresult/notInTop/win"
+msgstr "승리 팀 경험치 획득량 상위 %(topNumber)s위 이내 기록 실패"
+
+msgid "battleresult/rankEarned"
+msgstr "랭크\n달성"
+
+msgid "battleresult/rankLost"
+msgstr "랭크\n강등"
+
+msgid "battleresult/rankUnburnable"
+msgstr "변동\n없음"
+
+msgid "battleresult/shieldLose"
+msgstr "랭크 방어 점수\n고갈"
+
+msgid "battleresult/shieldLoseStep"
+msgstr "랭크 방어 점수\n감소"
+
+msgid "battleresult/stageEarned"
+msgstr "계급장\n획득"
+
+msgid "battleresult/stageLost"
+msgstr "계급장\n잃음"
+
+msgid "battleresult/stageNotEarned"
+msgstr "계급장\n유지"
+
+msgid "battleresult/stageSaved"
+msgstr "계급장\n유지"
+
+msgid "battleresult/stagesEarned"
+msgstr "계급장\n획득"
+
+msgid "battleresult/status/rankEarned"
+msgstr "랭크 복구"
+
+msgid "battleresult/status/rankLost"
+msgstr "랭크 강등"
+
+msgid "battleresult/status/rankUnburnable"
+msgstr "변동 없음"
+
+msgid "battleresult/status/shieldCount"
+msgstr " \n보유 랭크 방어 점수: %(count)s"
+
+msgid "battleresult/status/shieldLose"
+msgstr "랭크 방어 점수 고갈!"
+
+msgid "battleresult/status/shieldLoseStep"
+msgstr "랭크 방어 점수 감소!"
+
+msgid "battleresult/status/shieldRenew"
+msgstr " \n랭크 방어 점수 회복!"
+
+msgid "battleresult/status/shieldWarning"
+msgstr " \n다시 패배하면 랭크가 강등될 수 있습니다."
+
+msgid "battleresult/status/stageEarned"
+msgstr "계급장 획득"
+
+msgid "battleresult/status/stageLost"
+msgstr "계급장 잃음"
+
+msgid "battleresult/status/stageNotEarned"
+msgstr "계급장 유지"
+
+msgid "battleresult/status/stageSaved"
+msgstr "계급장 유지"
+
+msgid "battleresult/status/stagesEarned"
+msgstr "계급장 획득"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s~%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgstr "시즌 %(seasonName)s 종료까지 %(days)s일"
+
+msgid "calendarDay/title"
+msgstr "일정"
+
+msgid "calendarStepsTooltip/title"
+msgstr "스테이지 일정"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "해당 모드에서 사용 불가"
+
+msgid "division/bronze"
+msgstr "편성 3"
+
+msgid "division/classification"
+msgstr "예선"
+
+msgid "division/gold"
+msgstr "편성 1"
+
+msgid "division/silver"
+msgstr "편성 2"
+
+msgid "division/status/completed"
+msgstr "편성 통과"
+
+msgid "division/status/completed/description"
+msgstr "선택한 편성을 통과했습니다."
+
+msgid "division/status/locked"
+msgstr "편성 이용 불가"
+
+msgid "division/status/locked/description"
+msgstr "이전 편성을 통과하지 않았습니다."
+
+msgid "division/status/qualification"
+msgstr "참전 횟수: %(progress)s"
+
+msgid "division/status/qualification/progress"
+msgstr "%(current)s / %(total)s"
+
+msgid "division/status/qualificationDescr/complete"
+msgstr "예선 완료"
+
+msgid "division/status/qualificationDescr/progress"
+msgstr "전투에 %(battlesTotal)s회 참여하면 예선을 완료할 수 있습니다.\n예선 완료 시 전투 %(battlesList)s회 참여에 따른 보상이 지급됩니다."
+
+msgid "division/tooltip/battlesDescription"
+msgstr "%(battlesCount)s회 전투로 구성"
+
+msgid "division/tooltip/desc/completed/text"
+msgstr "해당 편성에서 모든 랭크를 달성했습니다."
+
+msgid "division/tooltip/desc/completedFinal/text"
+msgstr "해당 리그에서 모든 랭크를 달성하고 리그로 진출했습니다."
+
+msgid "division/tooltip/desc/completedQual/text"
+msgstr "필요한 예선 전투에 모두 참여했습니다."
+
+msgid "division/tooltip/desc/current/text"
+msgstr "편성을 통과하면 다음 편성으로 이동하며 더욱 빠르게 진행할 수 있는 보너스 전투를 획득합니다."
+
+msgid "division/tooltip/desc/currentFinal/text"
+msgstr "통과 시 리그로 진출하며 순위표에서 순위를 확보하거나 올릴 수 있는 보너스 전투를 획득합니다."
+
+msgid "division/tooltip/desc/currentQual/text"
+msgstr "예선 완료 시 전투 %(battles)s회 참여에 따른 보상이 지급됩니다.\n예선을 완료하면 세 번째 편성에 진출하게 되며 진행을 가속할 수 있는 보너스 전투가 지급됩니다."
+
+msgid "division/tooltip/desc/locked/text"
+msgstr "편성을 통과하면 다음 편성으로 이동하며 더욱 빠르게 진행할 수 있는 보너스 전투를 획득합니다."
+
+msgid "division/tooltip/desc/lockedFinal/text"
+msgstr "통과 시 리그로 진출하며 순위표에서 순위를 확보하거나 올릴 수 있는 보너스 전투를 획득합니다."
+
+msgid "division/tooltip/desc/title"
+msgstr "설명"
+
+msgid "division/tooltip/rankDescription"
+msgstr "%(ranksCount)s개 랭크로 구성"
+
+msgid "division/tooltip/status/completed"
+msgstr "편성 통과"
+
+msgid "division/tooltip/status/completedQual"
+msgstr "완료"
+
+msgid "division/tooltip/status/current"
+msgstr "편성 미통과"
+
+msgid "division/tooltip/status/currentQual"
+msgstr "미완료"
+
+msgid "division/tooltip/status/locked"
+msgstr "편성 이용 불가"
+
+msgid "division/tooltip/status/locked/desc"
+msgstr "먼저 이전 편성을 통과하십시오."
+
+msgid "division/tooltip/status/locked/descQual"
+msgstr "예선을 완료하지 않았습니다."
+
+msgid "introPage/alert/beforeSeason"
+msgstr "이벤트 시작까지:"
+
+msgid "introPage/alert/disabled"
+msgstr "일시적으로 해당 모드를 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "introPage/blocks/block1/description"
+msgstr "일반 전투 규칙에 따라 특정 지도에서 10단계 일반 및 수집 전차로 10대10 형식의 전투가 진행됩니다."
+
+msgid "introPage/blocks/block1/title"
+msgstr "10단계 전차"
+
+msgid "introPage/blocks/block2/description"
+msgstr "실력이 비슷한 플레이어와 경쟁하여 3개 편성을 통과하고 리그에 진출해 보십시오."
+
+msgid "introPage/blocks/block2/title"
+msgstr "랭크 전투 진행"
+
+msgid "introPage/blocks/block3/description"
+msgstr "3개 시즌을 각각 완료 시 10단계 전차 전용 특별 스타일을 획득할 수 있습니다. 또한, 2021~2022 시즌 종료 시 값진 보상과 10단계 특별 전차도 획득할 수 있습니다."
+
+msgid "introPage/blocks/block3/title"
+msgstr "특별 보상"
+
+msgid "introPage/blocks/yearRewardDisabled"
+msgstr "각 랭크 달성 시 값진 보상이 지급됩니다. 또한 시즌 3개를 모두 완료하면 10단계 전차 전용 특별 스타일도 획득할 수 있습니다."
+
+msgid "introPage/btns/accept"
+msgstr "확인"
+
+msgid "introPage/btns/detailed"
+msgstr "모드 세부 정보"
+
+msgid "introPage/btns/toHangar"
+msgstr "차고로 이동"
+
+msgid "introPage/description"
+msgstr "10대10 전투, 10단계 전차, 3개 편성"
+
+msgid "introPage/timeLeft/days"
+msgstr "%(day)s일 %(hour)s시간"
+
+msgid "introPage/timeLeft/hours"
+msgstr "%(hour)s시간 %(min)s분"
+
+msgid "introPage/timeLeft/lessMin"
+msgstr "1분"
+
+msgid "introPage/timeLeft/min"
+msgstr "%(min)s분"
+
+msgid "notification/rankEarned"
+msgstr "랭크 달성"
+
+msgid "notification/rankLost"
+msgstr "랭크 강등"
+
+msgid "notification/rankedMessage"
+msgstr "축하합니다!\n랭크 달성: %(rankRoman)s\n크레딧 획득: %(creditsCount)s\n점수 획득: %(expCount)s\n업적 달성:%(medalsCount)s"
+
+msgid "notification/stageEarned"
+msgstr "계급장 획득"
+
+msgid "notification/stageLost"
+msgstr "계급장 잃음"
+
+msgid "notification/stageNotEarned"
+msgstr "계급장 유지"
+
+msgid "notification/vehicleRankEarned"
+msgstr "전차 랭크 획득"
+
+msgid "notification/vehicleRankLost"
+msgstr "전차 랭크 강등"
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "%(serverName)s 서버\n%(primeDelta)s 후 전투 참여 가능"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "%(serverName)s 서버\n시즌 %(leftSeasonName)s 종료"
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "%(serverName)s 서버\n%(primeDelta)s 동안 전투 참여 가능"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "%(serverName)s 서버\n%(primeDelta)s 후 전투 참여 가능"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "%(serverName)s 서버\n시즌 %(leftSeasonName)s 종료"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "%(serverName)s 서버\n%(primeDelta)s 후 전투 참여 가능"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "%(serverName)s 서버\n시즌 %(leftSeasonName)s 종료"
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s일"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s시간"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "1분"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s분"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "모든 서버 휴전 적용 중"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "%(serverName)s 서버 시즌 %(leftSeasonName)s 종료"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "%(primeDeltaDate)s %(primeDeltaTime)s까지 %(serverName)s 서버 휴전 적용"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "%(serverName)s 서버 시즌 %(leftSeasonName)s 종료"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "%(primeDeltaDate)s %(primeDeltaTime)s까지 %(serverName)s 서버 휴전 적용"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "%(serverName)s 서버 시즌 %(leftSeasonName)s 종료"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "%(serverName)s 서버 해당 모드 이용 불가"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "%(serverName)s 서버 %(primeDelta)s 후 전투 시작"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "%(serverName)s 서버 시즌 %(leftSeasonName)s 종료"
+
+msgid "primeTimes/timeText/available"
+msgstr "%(serverName)s 서버 %(primeDelta)s 동안 전투 참여 가능"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "%(serverName)s 서버 %(primeDelta)s 후 전투 시작"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "%(serverName)s 서버 시즌 %(leftSeasonName)s 종료"
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "%(serverName)s 서버 %(primeDelta)s 후 전투 시작"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "%(serverName)s 서버 시즌 %(leftSeasonName)s 종료"
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "qualificationRewards/battlesNeeded"
+msgstr "예선을 완료하려면 %(battlesCount)s회 전투에 참여하십시오."
+
+msgid "qualificationRewards/battlesPlayed"
+msgstr "참전 횟수:"
+
+msgid "qualificationRewards/description"
+msgstr "예선을 완료하면 보상을 획득할 수 있습니다."
+
+msgid "quests/detailed/allServersPrime"
+msgstr "휴전"
+
+msgid "quests/detailed/notInLeagues"
+msgstr "리그 진출 필요"
+
+msgid "quests/detailed/seasonEnd/days"
+msgstr "시즌 종료까지 %(day)s일"
+
+msgid "quests/detailed/seasonEnd/default"
+msgstr "곧 시즌 종료"
+
+msgid "quests/detailed/seasonEnd/hours"
+msgstr "시즌 종료까지 %(hour)s시간"
+
+msgid "quests/detailed/seasonEnd/lessMin"
+msgstr "시즌 종료까지 1분 미만"
+
+msgid "quests/detailed/seasonEnd/min"
+msgstr "시즌 종료까지 %(min)s분"
+
+msgid "quests/detailed/unavailableLabel"
+msgstr "이용 불가:"
+
+msgid "quests/tooltip/unavailable/body/allServersPrime"
+msgstr "랭크 전투 휴전 종료 후 임무를 진행할 수 있습니다."
+
+msgid "quests/tooltip/unavailable/body/notInLeagues"
+msgstr "리그 진출 필요"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/days"
+msgstr "시즌 종료까지 %(day)s일"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/default"
+msgstr "곧 시즌 종료"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/hours"
+msgstr "시즌 종료까지 %(hour)s시간"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/lessMin"
+msgstr "시즌 종료까지 1분 미만"
+
+msgid "quests/tooltip/unavailable/body/seasonEnd/min"
+msgstr "시즌 종료까지 %(min)s분"
+
+msgid "quests/tooltip/unavailable/bottom"
+msgstr "임무 진행 불가"
+
+msgid "quests/tooltip/unavailable/header/allServersPrime"
+msgstr "휴전"
+
+msgid "quests/tooltip/unavailable/header/notInLeagues"
+msgstr "리그 미진출"
+
+msgid "quests/tooltip/unavailable/header/seasonEnd"
+msgstr "시즌 종료"
+
+msgid "questsTooltip/available"
+msgstr "시즌 종료까지 %(timeDelta)s"
+
+msgid "questsTooltip/available/days"
+msgstr "%(day)s일"
+
+msgid "questsTooltip/available/hours"
+msgstr "%(hour)s시간"
+
+msgid "questsTooltip/available/lessMin"
+msgstr "1분 미만"
+
+msgid "questsTooltip/available/min"
+msgstr "%(min)s분"
+
+msgid "questsTooltip/bottom"
+msgstr "추가 임무: %(number)d"
+
+msgid "questsTooltip/cooldown/days"
+msgstr "%(day)s일 후 새로운 임무 진행 가능"
+
+msgid "questsTooltip/cooldown/hours"
+msgstr "%(hour)s시간 후 새로운 임무 진행 가능"
+
+msgid "questsTooltip/cooldown/lessMin"
+msgstr "1분 후 새로운 임무 진행 가능"
+
+msgid "questsTooltip/cooldown/min"
+msgstr "%(min)s분 후 새로운 임무 진행 가능"
+
+msgid "questsTooltip/header"
+msgstr "랭크 전투 임무"
+
+msgid "questsTooltip/unavailable/allServersPrime"
+msgstr "이용 불가: 휴전 적용 중"
+
+msgid "questsTooltip/unavailable/notInLeagues"
+msgstr "이용 불가: 리그 진출 필요"
+
+msgid "questsTooltip/unavailable/seasonEnd/days"
+msgstr "이용 불가: 시즌 종료까지 %(day)s일"
+
+msgid "questsTooltip/unavailable/seasonEnd/hours"
+msgstr "이용 불가: 시즌 종료까지 %(hour)s시간"
+
+msgid "questsTooltip/unavailable/seasonEnd/lessMin"
+msgstr "이용 불가: 시즌 종료까지 1분 미만"
+
+msgid "questsTooltip/unavailable/seasonEnd/min"
+msgstr "이용 불가: 시즌 종료까지 %(min)s분"
+
+msgid "rankedAwards/awardsBlock/awardsHeaderTxt"
+msgstr "달성한 랭크 보상"
+
+msgid "rankedAwards/awardsBlock/crystal"
+msgstr "전쟁 채권"
+
+msgid "rankedAwards/awardsBlock/description"
+msgstr "최고 랭크 기록"
+
+msgid "rankedAwards/awardsBlock/points"
+msgstr "점수"
+
+msgid "rankedAwards/awardsBlock/title"
+msgstr "스테이지 %(cycleNumber)s 결과"
+
+msgid "rankedBattle/title"
+msgstr "랭크 전투"
+
+msgid "rankedBattleCyclesView/tabs/final"
+msgstr "파이널"
+
+msgid "rankedBattleCyclesView/tabs/ranks"
+msgstr "랭크"
+
+msgid "rankedBattleCyclesView/title"
+msgstr "시즌 보상"
+
+msgid "rankedBattleHeader/points/current"
+msgstr "진행 중"
+
+msgid "rankedBattleHeader/points/final"
+msgstr "점수 총합: %(points)s"
+
+msgid "rankedBattleHeader/points/past"
+msgstr "점수: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/body"
+msgstr "현재 스테이지 %(date)s 종료"
+
+msgid "rankedBattleHeader/tooltip/cycle/current/header"
+msgstr "스테이지 %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/body"
+msgstr "이전 스테이지에서 획득한 모든 점수는 시즌 파이널에 합산되며 그에 따라 보상이 지급됩니다.\n시즌 파이널—%(date)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/final/header"
+msgstr "시즌 파이널"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/body"
+msgstr "스테이지 %(date)s 시작"
+
+msgid "rankedBattleHeader/tooltip/cycle/future/header"
+msgstr "스테이지 %(cycle)d"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/body"
+msgstr "점수 획득: %(points)s"
+
+msgid "rankedBattleHeader/tooltip/cycle/past/header"
+msgstr "스테이지 %(cycle)d 종료"
+
+msgid "rankedBattleHeader/tooltip/date"
+msgstr "%y.%m.%d"
+
+msgid "rankedBattleMainView/bonusBattles"
+msgstr "보너스 전투: %(battlesCount)s"
+
+msgid "rankedBattleMainView/date/days"
+msgstr "종료까지 %(day)s일"
+
+msgid "rankedBattleMainView/date/hours"
+msgstr "종료까지 %(hour)s시간"
+
+msgid "rankedBattleMainView/date/lessMin"
+msgstr "종료까지 1분 미만 남음"
+
+msgid "rankedBattleMainView/date/min"
+msgstr "종료까지 %(min)s분"
+
+msgid "rankedBattleMainView/date/period"
+msgstr "%(start)s–%(finish)s"
+
+msgid "rankedBattleMainView/divisions/currentRank"
+msgstr "내 랭크"
+
+msgid "rankedBattleMainView/divisions/rank"
+msgstr "랭크 %(rank)s"
+
+msgid "rankedBattleMainView/emptyBubble"
+msgstr " "
+
+msgid "rankedBattleMainView/infoPage/header"
+msgstr "10단계 전차, 역할 경험치, 보너스 전투, 3개 편성 진행, 리그 전투"
+
+msgid "rankedBattleMainView/leaguesView/descr"
+msgstr "순위표에서 상위 %(count)d위 이내를 달성하려면 뛰어난 성과를 기록하고 계급장을 획득하십시오."
+
+msgid "rankedBattleMainView/leaguesView/league1"
+msgstr "골드 리그"
+
+msgid "rankedBattleMainView/leaguesView/league2"
+msgstr "실버 리그"
+
+msgid "rankedBattleMainView/leaguesView/league3"
+msgstr "브론즈 리그"
+
+msgid "rankedBattleMainView/leaguesView/top"
+msgstr "상위 %(count)d위"
+
+msgid "rankedBattleMainView/leaguesView/topDescr"
+msgstr "순위표에서 상위 %(count)d위 이내를 유지하려면 뛰어난 성과를 기록하고 계급장을 획득하십시오."
+
+msgid "rankedBattleMainView/leaguesView/unavailableDescr"
+msgstr "리그 계산 중입니다. 곧 결과를 확인할 수 있습니다."
+
+msgid "rankedBattleMainView/leaguesView/unavailableTitle"
+msgstr "리그 계산되지 않음"
+
+msgid "rankedBattleMainView/leaguesView/yearLeaderboardDisabled"
+msgstr "리그에서 순위를 유지하려면 뛰어난 성과를 기록하고 계급장을 획득하십시오."
+
+msgid "rankedBattleMainView/season"
+msgstr "시즌 %(season)s"
+
+msgid "rankedBattleMainView/seasonComplete"
+msgstr "시즌 %(season)s 종료"
+
+msgid "rankedBattleMainView/seasonCompleteSingle"
+msgstr "시즌 %(season)s 종료"
+
+msgid "rankedBattleMainView/seasonGap"
+msgstr "시즌 %(newSeason)s 시작: %(date)s"
+
+msgid "rankedBattleMainView/seasonGap/bannedDivision/descr"
+msgstr "운영 정책 위반으로 해당 시즌에 획득한 모든 랭크 토큰이 제거됩니다."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/descr"
+msgstr "운영 정책 위반으로 순위표에서 제외되며 해당 시즌에 획득한 모든 랭크 토큰이 제거됩니다."
+
+msgid "rankedBattleMainView/seasonGap/bannedLeague/withoutPoints/descr"
+msgstr "운영 정책 위반으로 순위표에서 제외되었습니다."
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInDivisions/descr"
+msgstr "운영 정책 위반으로 랭크 토큰 제거"
+
+msgid "rankedBattleMainView/seasonGap/bannedNotInSeason/descr"
+msgstr "운영 정책 위반으로 해당 시즌에 획득한 모든 랭크 토큰이 제거됩니다."
+
+msgid "rankedBattleMainView/seasonGap/division/descr"
+msgstr "해당 시즌 최고 달성 랭크"
+
+msgid "rankedBattleMainView/seasonGap/division/ratingBtn"
+msgstr "순위표"
+
+msgid "rankedBattleMainView/seasonGap/division/title"
+msgstr "랭크 %(rank)s (%(division)s)"
+
+msgid "rankedBattleMainView/seasonGap/league/descr"
+msgstr "시즌 완료를 축하합니다!"
+
+msgid "rankedBattleMainView/seasonGap/league/ratingBtn"
+msgstr "순위표로 이동"
+
+msgid "rankedBattleMainView/seasonGap/league1"
+msgstr "골드 리그"
+
+msgid "rankedBattleMainView/seasonGap/league2"
+msgstr "실버 리그"
+
+msgid "rankedBattleMainView/seasonGap/league3"
+msgstr "브론즈 리그"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/descr"
+msgstr "이번 시즌 최고 기록"
+
+msgid "rankedBattleMainView/seasonGap/notInDivisions/title"
+msgstr "예선 완료"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/descr"
+msgstr "해당 시즌에 달성한 랭크 없음"
+
+msgid "rankedBattleMainView/seasonGap/notInSeason/title"
+msgstr "랭크 없음"
+
+msgid "rankedBattleMainView/seasonGap/rolledDivision/descr"
+msgstr "계정 복구 후 순위표에서 제외되었습니다."
+
+msgid "rankedBattleMainView/seasonGap/rolledLeague/descr"
+msgstr "계정 복구 후 순위표에서 제외되었습니다."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInDivisions/descr"
+msgstr "계정 복구 후 순위표에서 제외되었습니다."
+
+msgid "rankedBattleMainView/seasonGap/rolledNotInSeason/descr"
+msgstr "계정 복구 후 순위표에서 제외되었습니다."
+
+msgid "rankedBattleMainView/seasonGap/stats/efficiency"
+msgstr "성적"
+
+msgid "rankedBattleMainView/seasonGap/stats/outOfRating"
+msgstr "순위표 미진출"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/descr"
+msgstr "산출 작업 종료 후 최종 결과 확인 및 보상 획득 가능"
+
+msgid "rankedBattleMainView/seasonGap/waitingLeague/title"
+msgstr "결과 산출"
+
+msgid "rankedBattleMainView/specialSeason"
+msgstr "X"
+
+msgid "rankedBattleMainView/stats/battlesInLeague"
+msgstr "리그 전투"
+
+msgid "rankedBattleMainView/stats/battlesTotal"
+msgstr "총 전투"
+
+msgid "rankedBattleMainView/stats/divisionEfficiency"
+msgstr "편성 성적"
+
+msgid "rankedBattleMainView/stats/qualificationEfficiency"
+msgstr "예선\n성적"
+
+msgid "rankedBattleMainView/stats/qualificationSteps"
+msgstr "예선\n계급장"
+
+msgid "rankedBattleMainView/stats/rating/title"
+msgstr "순위"
+
+msgid "rankedBattleMainView/stats/rating/tooltip"
+msgstr "순위표는 %(minutes)s분마다 업데이트됩니다. 최근 업데이트: %(time)s"
+
+msgid "rankedBattleMainView/stats/rating/unavailableTooltip"
+msgstr "기술적인 문제가 발생하여 순위표가 업데이트되지 않았습니다."
+
+msgid "rankedBattleMainView/stats/seasonEfficiency"
+msgstr "전체 성적"
+
+msgid "rankedBattleMainView/stats/stripesInLeague"
+msgstr "리그 계급장"
+
+msgid "rankedBattleMainView/stats/stripesTotal"
+msgstr "총 계급장"
+
+msgid "rankedBattleMainView/yearGap/header"
+msgstr "2021~2022년 성적"
+
+msgid "rankedBattlePage/closeBtn"
+msgstr "닫기"
+
+msgid "rankedBattleView/awardBlock/emptyLeague"
+msgstr "—"
+
+msgid "rankedBattleView/awardBlock/points/currLeagueHeader"
+msgstr "현재 리그"
+
+msgid "rankedBattleView/awardBlock/points/header"
+msgstr "순위표"
+
+msgid "rankedBattleView/awardBlock/points/noLeagueHeader"
+msgstr "순위표 미진출"
+
+msgid "rankedBattleView/awardBlock/points/noPriseHeader"
+msgstr "우드 리그"
+
+msgid "rankedBattleView/awardBlock/points/totalLabel"
+msgstr "총 점수: "
+
+msgid "rankedBattleView/awardBlock/pointsAlt/description"
+msgstr "시즌 순위표 확인"
+
+msgid "rankedBattleView/awardBlock/quest/description/battlesLeft"
+msgstr "남은 전투"
+
+msgid "rankedBattleView/awardBlock/quest/description/noQuest"
+msgstr "임무 없음"
+
+msgid "rankedBattleView/awardBlock/quest/header"
+msgstr "임무"
+
+msgid "rankedBattleView/awardBlock/seasonAward/description"
+msgstr "보상 확인"
+
+msgid "rankedBattleView/awardBlock/seasonAward/header"
+msgstr "시즌 보상"
+
+msgid "rankedBattleView/closeBtn"
+msgstr "뒤로"
+
+msgid "rankedBattleView/closeBtnDescr"
+msgstr "차고로 이동"
+
+msgid "rankedBattleView/nextStageBlock/stage"
+msgstr "스테이지 %(cycleNumber)s"
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/body"
+msgstr "랭크 전투를 시작해 보십시오."
+
+msgid "rankedBattleView/notRankedBlock/okTooltip/header"
+msgstr "출동!"
+
+msgid "rankedBattleView/playVideoBtn"
+msgstr "랭크 전투 정보 영상"
+
+msgid "rankedBattleView/progressBlock/bestRank"
+msgstr "시즌 기록"
+
+msgid "rankedBattleView/progressBlock/continue"
+msgstr "점수를 획득하여 파이널에서 보상을 획득해 보십시오."
+
+msgid "rankedBattleView/progressBlock/currentRank"
+msgstr "현재 랭크: %(rank)s"
+
+msgid "rankedBattleView/progressBlock/finalRank"
+msgstr "축하합니다! 시즌 최고 랭크 %(rank)s 랭크를 달성했습니다."
+
+msgid "rankedBattleView/progressBlock/steps"
+msgstr "계급장: %(numbers)s"
+
+msgid "rankedBattleView/progressBlock/vehicleRank"
+msgstr "랭크 토큰"
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/body"
+msgstr "전체 시즌 스테이지 정보를 확인합니다."
+
+msgid "rankedBattleView/statusBlock/calendarBtnTooltip/header"
+msgstr "달력"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/attentionText"
+msgstr "%(timeLeft)s 후 스테이지 %(cycleNumber)s 결과"
+
+msgid "rankedBattleView/statusBlock/calendarPopover/cycleItem"
+msgstr "시즌 %(cycleNumber)s: %(day0)s/%(month0)s~%(day1)s/%(month1)s"
+
+msgid "rankedBattleView/statusBlock/statusText"
+msgstr "시즌 결과 산출까지: "
+
+msgid "rankedBattleView/title"
+msgstr "랭크 전투"
+
+msgid "rankedBattlesBattleResults/animationCheckBoxLabel"
+msgstr "애니메이션 표시"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s로 랭크 전투에 참여할 수 없습니다."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehClass/header"
+msgstr "유효하지 않은 전차 유형"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/body"
+msgstr "랭크 전투에 참여하려면 %(levelSubStr)s를 선택하십시오."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/header"
+msgstr "유효하지 않은 전차 단계"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s 단계 전차"
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s 전차로 랭크 전투에 참여할 수 없습니다."
+
+msgid "rankedBattlesCarousel/lockedTooltip/vehType/header"
+msgstr "유효하지 않은 전차"
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/body"
+msgstr "스테이지 종료 시 획득하며 다양한 보상이 포함되어 있습니다. 순위에 따라 보상이 결정됩니다."
+
+msgid "rankedBattlesCyclesView/awardBlock/boxTooltip/header"
+msgstr "보상 상자"
+
+msgid "rankedBattlesCyclesView/btnClose"
+msgstr "닫기"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/awardRecieved"
+msgstr "보상 획득"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/body"
+msgstr "스테이지 종료 시 획득하며 다양한 보상이 포함되어 있습니다. 순위에 따라 보상이 결정됩니다."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/boxTooltip/header"
+msgstr "보상 상자"
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/body"
+msgstr "강화 장비 및 지휘명령을 구매할 수 있습니다. 전쟁 채권을 더 많이 획득할수록 더욱 값진 아이템을 얻을 수 있습니다."
+
+msgid "rankedBattlesCyclesView/currentCycle/item/crystalTooltip/header"
+msgstr "전쟁 채권"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rank"
+msgstr "랭크"
+
+msgid "rankedBattlesCyclesView/currentCycle/tableHeader/rankAward"
+msgstr "랭크 달성 보상"
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/body"
+msgstr "스테이지 중 달성한 최고 랭크에 따라 보상이 지급됩니다. 랭크가 강등되더라도 최고 결과가 초기화되지 않습니다."
+
+msgid "rankedBattlesCyclesView/currentCycle/tooltip/cycleAward/header"
+msgstr "스테이지 종료 보상"
+
+msgid "rankedBattlesCyclesView/currentCycle/vehicleRankComment"
+msgstr "일반 보상"
+
+msgid "rankedBattlesCyclesView/final/btnLadder"
+msgstr "순위표로 이동"
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/body"
+msgstr "순위표에서 본인 순위를 확인합니다."
+
+msgid "rankedBattlesCyclesView/final/btnLadderTooltip/header"
+msgstr "순위표"
+
+msgid "rankedBattlesCyclesView/final/first"
+msgstr "상위 %(count)s"
+
+msgid "rankedBattlesCyclesView/final/intermediate"
+msgstr "다음 %(count)s"
+
+msgid "rankedBattlesCyclesView/final/last"
+msgstr "우드 리그"
+
+msgid "rankedBattlesCyclesView/final/lastComment"
+msgstr "점수를 획득하여 순위를 올려 보십시오.\n최종으로 획득하는 보상은\n현재 리그에 따라 달라집니다."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/noLeagueDataTooltip"
+msgstr "일시적으로 소속 리그 관련 정보를 이용할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "rankedBattlesCyclesView/final/tableHeader/position"
+msgstr "순위"
+
+msgid "rankedBattlesCyclesView/final/tableHeader/seasonAward"
+msgstr "최종 보상"
+
+msgid "rankedBattlesCyclesView/noAchievements/future/footer"
+msgstr "%(start)s부터 %(end)s까지"
+
+msgid "rankedBattlesCyclesView/noAchievements/past/footer"
+msgstr "이 스테이지에서 달성한 랭크가 없습니다.\n획득한 점수: %(points)s"
+
+msgid "rankedBattlesUnreachableView/bottom/missions"
+msgstr "개인 임무 완료"
+
+msgid "rankedBattlesUnreachableView/bottom/premium"
+msgstr "%(premiumType)s 프리미엄 계정 사용"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/basic"
+msgstr "워게이밍"
+
+msgid "rankedBattlesUnreachableView/bottom/premium/plus"
+msgstr "월드 오브 탱크"
+
+msgid "rankedBattlesUnreachableView/bottom/reserves"
+msgstr "개인 물자 활성화"
+
+msgid "rankedBattlesUnreachableView/bottomText"
+msgstr "%(levels)s단계 전차를 빠르게 연구할 수 있는 방법이 있습니다."
+
+msgid "rankedBattlesUnreachableView/closeBtnLabel"
+msgstr "닫기"
+
+msgid "rankedBattlesUnreachableView/subtitleText"
+msgstr "모드 이용 불가"
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForBuy"
+msgstr "랭크 전투에 참여하려면 차고에 %(levels)s단계 전차를 보유해야 합니다.\n연구는 했지만, 아직 구매하지 않은 %(levels)s단계 전차가 있습니다."
+
+msgid "rankedBattlesUnreachableView/vehicleAvailableForRestore"
+msgstr "랭크 전투에 참여하려면 차고에 %(levels)s단계 전차를 보유해야 합니다.\n복구할 수 있는 %(levels)s단계 전차가 있습니다."
+
+msgid "rankedBattlesUnreachableView/vehicleUnavailable"
+msgstr "랭크 전투에 참여하려면 차고에 %(levels)s단계 전차를 보유해야 합니다."
+
+msgid "rankedBattlesViewHeader/tabs/current"
+msgstr "랭크"
+
+msgid "rankedBattlesViewHeader/tabs/final"
+msgstr "파이널"
+
+msgid "rankedBattlesWidget/bonusMultiplier"
+msgstr "x%(count)s"
+
+msgid "rankedBattlesWidget/bonusSteps"
+msgstr "보너스 전투"
+
+msgid "rankedBattlesWidget/league0"
+msgstr "알 수 없음"
+
+msgid "rankedBattlesWidget/league1"
+msgstr "골드"
+
+msgid "rankedBattlesWidget/league2"
+msgstr "실버"
+
+msgid "rankedBattlesWidget/league3"
+msgstr "브론즈"
+
+msgid "rankedBattlesWidget/leagueDecrease/info"
+msgstr "%(leagueName)s 리그로 복귀"
+
+msgid "rankedBattlesWidget/leagueDecrease/title"
+msgstr "리그 변경 완료"
+
+msgid "rankedBattlesWidget/leagueIncrease/info"
+msgstr "%(leagueName)s 리그로 이동"
+
+msgid "rankedBattlesWidget/leagueIncrease/title"
+msgstr "리그 변경 완료"
+
+msgid "rankedBattlesWidget/leaguesAchievment/info"
+msgstr "이제 순위표 경쟁 가능"
+
+msgid "rankedBattlesWidget/leaguesAchievment/title"
+msgstr "리그 진행 가능"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/info"
+msgstr "다음 편성 진출"
+
+msgid "rankedBattlesWidget/newDivisionCongrat/title"
+msgstr "새로운 편성"
+
+msgid "rankedBattlesWidget/newRankCongrat"
+msgstr "축하합니다!\n랭크를 달성했습니다!"
+
+msgid "rankedBattlesWidget/noChanges"
+msgstr "변동 없음"
+
+msgid "rankedBattlesWidget/qualificationIdleText"
+msgstr "예선 완료까지 남은 전투:\n%(currentBattles)s / %(totalBattles)s"
+
+msgid "rewardsView/common/currentReward"
+msgstr "보상 도전자"
+
+msgid "rewardsView/tabs/leagues"
+msgstr "리그 보상"
+
+msgid "rewardsView/tabs/leagues/awardDescr/style"
+msgstr "%(styleName)s 스타일 및 %(badgeName)s 증표"
+
+msgid "rewardsView/tabs/leagues/description"
+msgstr "보상 스타일 및 증표는 기간제이며 다음 시즌 종료 시까지 이용할 수 있습니다. 다음 시즌에도 계속 해당 스타일 및 증표를 적용하려면 같은 리그에 다시 진출해야 합니다. 리그 진출에 실패한 플레이어는 보상 스타일과 증표를 사용할 수 없게 됩니다. 플레이어가 다른 리그에 진출하면 진출한 리그에 해당하는 스타일과 증표로 교체됩니다."
+
+msgid "rewardsView/tabs/leagues/description/league1"
+msgstr "모든 편성을 통과하고 성적 상위 20%% 이내를 기록하거나 가장 먼저 리그에 진출한 시즌 승자에게 지급되는 스타일입니다. 전차에 적용하여 플레이어의 업적을 자랑할 수 있습니다. 해당 스타일을 적용할 수 있는 타이틀은 랭크 전투 모드 시즌마다 방어해야 합니다."
+
+msgid "rewardsView/tabs/leagues/description/league2"
+msgstr "실력과 노력을 겸비하여 시즌 종료 전까지 실버 리그에 진출한 시즌 승자에게 지급되는 스타일입니다. 전차에 적용하여 플레이어의 업적을 자랑할 수 있습니다. 해당 스타일을 적용할 수 있는 타이틀은 랭크 전투 모드 매 시즌 방어해야 합니다."
+
+msgid "rewardsView/tabs/leagues/description/league3"
+msgstr "시즌 종료 전까지 브론즈 리그에 진출한 시즌 승자에게 지급되는 스타일입니다. 전차에 적용하여 플레이어의 업적을 자랑할 수 있습니다. 해당 스타일을 적용할 수 있는 타이틀은 랭크 전투 모드 매 시즌 방어해야 합니다."
+
+msgid "rewardsView/tabs/leagues/league1"
+msgstr "골드 리그"
+
+msgid "rewardsView/tabs/leagues/league2"
+msgstr "실버 리그"
+
+msgid "rewardsView/tabs/leagues/league3"
+msgstr "브론즈 리그"
+
+msgid "rewardsView/tabs/ranks"
+msgstr "랭크 보상"
+
+msgid "rewardsView/tabs/year"
+msgstr "연간 보상"
+
+msgid "rewardsView/tabs/year/compensation/extraPoints"
+msgstr "%(points)s %(rankedImg)s에 대한 보상으로 %(crystal)s %(crystalImg)s 획득"
+
+msgid "rewardsView/tabs/year/compensation/notEnough"
+msgstr "보상으로 %(crystal)s %(crystalImg)s 획득"
+
+msgid "rewardsView/tabs/year/current"
+msgstr "보상 도전자"
+
+msgid "rewardsView/tabs/year/currentChoose"
+msgstr "보상 선택"
+
+msgid "rewardsView/tabs/year/currentFinal"
+msgstr "보상 획득"
+
+msgid "rewardsView/tabs/year/title/awarded"
+msgstr "랭크 토큰: %(points)s"
+
+msgid "rewardsView/tabs/year/title/notAwarded"
+msgstr "랭크 토큰: %(points)s"
+
+msgid "seasonComplete/bestRank"
+msgstr "최고 달성 랭크 기록"
+
+msgid "seasonComplete/bigTitle"
+msgstr "시즌 %(season)s 결과"
+
+msgid "seasonComplete/division/tooltip/header"
+msgstr "랭크 %(rank)s (%(division)s)"
+
+msgid "seasonComplete/effectLabel"
+msgstr "성적"
+
+msgid "seasonComplete/leadersButton"
+msgstr "순위표"
+
+msgid "seasonComplete/outOfRating"
+msgstr "순위표 미진출"
+
+msgid "seasonComplete/placeInRating"
+msgstr "순위"
+
+msgid "seasonComplete/smallTitle"
+msgstr "랭크 전투"
+
+msgid "seasonComplete/sprinterImproved"
+msgstr "가장 먼저 리그로 진출한 플레이어 중 한 명으로 골드 리그에 해당하는 보상이 지급됩니다."
+
+msgid "seasonComplete/sprinterTop"
+msgstr "가장 먼저 리그로 진출한 플레이어 중 한 명입니다."
+
+msgid "seasonComplete/tooltip/body"
+msgstr "시즌 %(season)s 성적"
+
+msgid "selectableReward/subTitle"
+msgstr "보상 선택"
+
+msgid "selectableReward/title"
+msgstr "랭크 전투: %(rewardName)s"
+
+msgid "selectableReward/tooltip/equipmentChoice/limit"
+msgstr "목록 내 각 아이템은 한 번만 수령할 수 있습니다."
+
+msgid "selectableReward/tooltip/equipmentChoice/list"
+msgstr "• 개조 환기장치\n• 안정 장치\n• 개조 장전 장치\n• 내마모 주포 구동 장치\n• 개조 광학장비\n• 개량형 구성장치\n• 개조 과급기\n• 개조 경화강"
+
+msgid "selectableReward/tooltip/equipmentChoice/title"
+msgstr "강화 장비(선택)"
+
+msgid "selectorTooltip/desc"
+msgstr "일반 전투 규정에 따라 10단계 일반 및 수집 전차로 전투가 진행됩니다. 랭크가 비슷한 플레이어로 팀이 구성됩니다."
+
+msgid "selectorTooltip/tillEnd"
+msgstr "시즌 종료까지:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/time"
+msgstr "%(start)s~%(end)s"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "전투 일정"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "오늘"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "내일"
+
+msgid "selectorTooltip/title"
+msgstr "랭크 전투"
+
+msgid "statistic/playersRaiting"
+msgstr "순위표"
+
+msgid "statistic/vehicleRank"
+msgstr "랭크 토큰 획득"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s일"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s시간"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1분"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s분"
+
+msgid "tooltip/closeButton/body"
+msgstr "보상은 자동으로 지급됩니다."
+
+msgid "tooltip/closeButton/header"
+msgstr "차고로 복귀"
+
+msgid "tooltip/step/conditions"
+msgstr "%(team)s 경험치 획득량에서\n상위 %(battlesNum)s위 이내 기록"
+
+msgid "tooltip/step/conditions/header"
+msgstr "획득"
+
+msgid "tooltip/step/decommission/description"
+msgstr "패배 팀 경험치 획득량 %(fromTill)s위 기록 시 해당됩니다."
+
+msgid "tooltip/step/decommission/header"
+msgstr "계급장 잃음"
+
+msgid "tooltip/step/decommissionWin/description"
+msgstr "승리 팀 경험치 획득량 %(fromTill)s위 기록 시 해당됩니다."
+
+msgid "tooltip/step/description"
+msgstr "계급장 획득을 통해 다음 랭크 달성 가능"
+
+msgid "tooltip/step/fromTill"
+msgstr "%(fromPlace)s–%(tillPlace)s"
+
+msgid "tooltip/step/header"
+msgstr "계급장"
+
+msgid "tooltip/step/losers"
+msgstr "패배 팀"
+
+msgid "tooltip/step/notCharged/description"
+msgstr "승리 팀 경험치 획득량 상위 %(battlesNum)s 이내를 기록하지 못했지만, %(fromTill)s위를 기록하면 해당됩니다."
+
+msgid "tooltip/step/notCharged/header"
+msgstr "유지"
+
+msgid "tooltip/step/notChargedLose/description"
+msgstr "패배 팀 경험치 획득량 상위 %(battlesNum)s 이내를 기록하지 못했지만, %(fromTill)s위를 기록하면 해당됩니다."
+
+msgid "tooltip/step/or"
+msgstr "또는"
+
+msgid "tooltip/step/winners"
+msgstr "승리 팀"
+
+msgid "welcomeScreen/btn"
+msgstr "출동!"
+
+msgid "welcomeScreen/centerRule"
+msgstr "적합한 상대와 전투를 벌여\n더 높은 랭크 달성"
+
+msgid "welcomeScreen/centerRuleTooltip/body"
+msgstr "소속 팀과 상대 팀은 모두 비슷한 랭크로 구성됩니다."
+
+msgid "welcomeScreen/centerRuleTooltip/header"
+msgstr "적합한 상대"
+
+msgid "welcomeScreen/closeBtn"
+msgstr "닫기"
+
+msgid "welcomeScreen/closeBtnTooltip/body"
+msgstr "화면을 닫고 차고로 돌아갑니다."
+
+msgid "welcomeScreen/closeBtnTooltip/header"
+msgstr "닫기"
+
+msgid "welcomeScreen/equalityText"
+msgstr "="
+
+msgid "welcomeScreen/header"
+msgstr "환영합니다!"
+
+msgid "welcomeScreen/leftRule"
+msgstr "가장 좋아하는\n10단계 전차 운용"
+
+msgid "welcomeScreen/leftRuleTooltip/body"
+msgstr "선호하는\n10단계 전차 운용"
+
+msgid "welcomeScreen/leftRuleTooltip/header"
+msgstr "10단계"
+
+msgid "welcomeScreen/negative/body"
+msgstr "{team}, 하지만 아군 경험치 획득량 상위 {topNumber}위 이내를 기록했습니다."
+
+msgid "welcomeScreen/negative/team"
+msgstr "전투 패배"
+
+msgid "welcomeScreen/positive/body"
+msgstr "{team}, 또한 아군 경험치 획득량 상위 {topNumber}위 이내를 기록했습니다."
+
+msgid "welcomeScreen/positive/team"
+msgstr "전투 승리"
+
+msgid "welcomeScreen/rankDescr"
+msgstr "랭크 1 달성"
+
+msgid "welcomeScreen/ranks/header"
+msgstr "경험치 획득량 상위를 기록하고 더 높은 랭크를 달성해 보십시오!"
+
+msgid "welcomeScreen/ranksDescr"
+msgstr "랭크가 높을수록 더욱 값진 보상을 획득할 수 있습니다."
+
+msgid "welcomeScreen/rightRule"
+msgstr "랭크가 높을수록\n더욱 값진 보상 획득 가능"
+
+msgid "welcomeScreen/rightRuleTooltip/body"
+msgstr "랭크가 높을수록 더욱 값진 보상을 획득할 수 있습니다."
+
+msgid "welcomeScreen/rightRuleTooltip/header"
+msgstr "값진 보상"
+
+msgid "welcomeScreen/rulesDelimeter"
+msgstr "또는"
+
+msgid "yearLeaderboard/rewardView/battleType"
+msgstr "랭크 전투"
+
+msgid "yearLeaderboard/rewardView/clanDescr"
+msgstr "[%(clan)s] "
+
+msgid "yearLeaderboard/rewardView/leaderboardBtn/label"
+msgstr "순위표로 이동"
+
+msgid "yearLeaderboard/rewardView/positionDescr"
+msgstr "순위표 내 {name} {clan}순위"
+
+msgid "yearLeaderboard/rewardView/reward/label"
+msgstr "닉네임 옆에 표시할 수 있는 %(name) 특별 증표를 획득했습니다."
+
+msgid "yearLeaderboard/rewardView/reward/nameTemplate"
+msgstr "\"{name}\""
+
+msgid "yearLeaderboard/rewardView/title"
+msgstr "상위 {total}위 달성"
+
+msgid "yearRewards/box/big/title"
+msgstr "고급 보상"
+
+msgid "yearRewards/box/large/title"
+msgstr "최고 보상"
+
+msgid "yearRewards/box/medium/title"
+msgstr "일반 보상"
+
+msgid "yearRewards/box/small/title"
+msgstr "소형 보상"
+
+msgid "yearRewards/tooltip/any/reward/title"
+msgstr "보상"
+
+msgid "yearRewards/tooltip/box/big/title"
+msgstr "고급 보상"
+
+msgid "yearRewards/tooltip/box/large/title"
+msgstr "최고 보상"
+
+msgid "yearRewards/tooltip/box/medium/title"
+msgstr "일반 보상"
+
+msgid "yearRewards/tooltip/box/small/title"
+msgstr "소형 보상"
+
+msgid "yearRewards/tooltip/box/subTitle"
+msgstr "연간 보상은 랭크 전투 3개 시즌 종료 시 랭크 토큰을 충분히 획득한 플레이어에게만 지급됩니다."
+
+msgid "yearRewards/tooltip/equipmentChoice/description/1"
+msgstr "보상으로 강화 장비 1개 선택 가능"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/2"
+msgstr "보상으로 강화 장비 2개 선택 가능 (중복 선택 불가)"
+
+msgid "yearRewards/tooltip/equipmentChoice/description/3"
+msgstr "보상으로 강화 장비 3개 선택 가능 (중복 선택 불가)"
+
+msgid "yearRewards/tooltip/equipmentChoice/list"
+msgstr "• 개조 환기장치\n• 안정 장치\n• 개조 장전 장치\n• 내마모 주포 구동 장치\n• 개조 광학장비\n• 개량형 구성장치\n• 개조 과급기\n• 개조 경화강"
+
+msgid "yearRewards/tooltip/equipmentChoice/title"
+msgstr "강화 장비"
+
+msgid "yearRewards/tooltip/needPoints"
+msgstr "랭크 토큰 필요"
+
+msgid "yearRewards/tooltip/status/current/description"
+msgstr "랭크 토큰을 일정 수 이상 수집하여 해당 연간 보상 도전자가 되었습니다."
+
+msgid "yearRewards/tooltip/status/current/title"
+msgstr "내 현재 보상"
+
+msgid "yearRewards/tooltip/status/currentChoose/description"
+msgstr "연간 보상을 획득했습니다! 보상 선택 버튼을 클릭하면 강화 장비를 선택할 수 있습니다."
+
+msgid "yearRewards/tooltip/status/currentChoose/title"
+msgstr "보상을 획득했습니다! 강화 장비를 선택할 수 있습니다."
+
+msgid "yearRewards/tooltip/status/currentFinal/description"
+msgstr "연간 보상을 획득했습니다!"
+
+msgid "yearRewards/tooltip/status/currentFinal/title"
+msgstr "보상 획득!"
+
+msgid "yearRewards/tooltip/status/locked/description"
+msgstr "랭크 전투에서 편성을 통과하고 리그에서 플레이하여 획득해 보십시오."
+
+msgid "yearRewards/tooltip/status/locked/title"
+msgstr "랭크 토큰 부족"
+
+msgid "yearRewards/tooltip/status/lockedFinal/description"
+msgstr "해당 보상 획득에 필요한 랭크 토큰이 부족합니다."
+
+msgid "yearRewards/tooltip/status/lockedFinal/title"
+msgstr "랭크 토큰 부족"
+
+msgid "yearRewards/tooltip/status/passed/description"
+msgstr "이미 더 값진 연간 보상 도전자로 등록"
+
+msgid "yearRewards/tooltip/status/passed/title"
+msgstr "보상 획득 불가"
+
+msgid "yearRewards/tooltip/status/passedFinal/description"
+msgstr "이미 더 값진 연간 보상 획득 완료"
+
+msgid "yearRewards/tooltip/status/passedFinal/title"
+msgstr "보상 획득 불가"
+
+msgid "year_award/acceptButton/acceptLabel"
+msgstr "확인"
+
+msgid "year_award/acceptButton/hangarLabel"
+msgstr "차고에서 보기"
+
+msgid "year_award/compensationLabel"
+msgstr "{total} {pointsIcon} 획득. {compensated} {pointsIcon}에 대한 보상으로 {crystals} {crystalIcon} 획득."
+
+msgid "year_award/rankedLabel"
+msgstr "랭크 전투"
+
+msgid "year_award/rewardSelected"
+msgstr "보상 획득"
+
+msgid "year_award/rewardsToSelect"
+msgstr "선택 가능 보상: {count}"

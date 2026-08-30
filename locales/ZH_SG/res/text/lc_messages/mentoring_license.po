@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "请输入已选乘员需要转移的经验数量以确认操作。"
+
+msgid "assignmentDialog/price"
+msgstr "价格："
+
+msgid "assignmentDialog/subtitle"
+msgstr "在乘员之间转移全部乘员经验"
+
+msgid "assignmentDialog/title"
+msgstr "确认指导课程"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "此乘员将从\n您的账号中被移除且无法恢复。"
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "将损失多余的{xpLose}点经验。"
+
+msgid "dialogue/description"
+msgstr "消耗品，可将一名乘员的所有乘员经验转移给同国家的另一名乘员。"
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}将损失多余的经验：{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "选择"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "总经验：%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}指导许可证：{yellow_Close}%(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "没有合适的乘员"
+
+msgid "mentorAssigment/tips/info"
+msgstr "选择一名乘员作为指导员。\n在将乘员经验全部转移给{cream_Open}%(name)s{cream_Close}后，这名指导员将从您的账号上移除。"
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "转移乘员经验后，{cream_Open}%(name)s{cream_Close}将达到特长上限，多余的经验将丢失。"
+
+msgid "mentorAssigment/title"
+msgstr "选择指导员"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close}已达到特长上限，不能被选择用于经验转移。"
+
+msgid "multipleUserName"
+msgstr "指导许可证"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "已使用指导许可证：%(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "转移的乘员经验："
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "指导课程"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>丢失的多余乘员经验：<font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "可将一名乘员的所有乘员经验\n转移给同国家的另一名乘员。"
+
+msgid "storage/userName"
+msgstr "指导许可证"
+
+msgid "userName"
+msgstr "指导许可证"

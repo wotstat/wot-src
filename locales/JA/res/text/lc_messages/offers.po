@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "報酬を選択"
+
+msgid "banner/giftsAvailable"
+msgstr "支援物資到着！"
+
+msgid "banner/giftsForOffer"
+msgstr "「%(name)s」への参加報酬。"
+
+msgid "banner/selectNowOrLater"
+msgstr "今すぐ報酬を選択するか、後で倉庫から選択してください。"
+
+msgid "banner/title"
+msgstr "銃後支援物資"
+
+msgid "description/rentValue/battles"
+msgstr "%(value)s回の戦闘を行うまで"
+
+msgid "description/rentValue/days"
+msgstr "%(value)s日間"
+
+msgid "description/rentValue/wins"
+msgstr "%(value)s回勝利するまで"
+
+msgid "giftDescription/tank/base"
+msgstr "選択した車輌に加えて、%(items)sも無料で受け取れます。"
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}搭乗員{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}搭乗員{neutralClose}と{neutralOpen}ガレージスロット{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}ガレージスロット{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "キャンセル"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)sが%(rentValue)sレンタルされます"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)sがガレージに送られます"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "%(tankName)sのレンタルが%(rentValue)s延長されます"
+
+msgid "giftDialog/submit"
+msgstr "確定"
+
+msgid "giftDialog/title/common"
+msgstr "受領確認: \n「%(name)s」"
+
+msgid "giftDialog/title/tank"
+msgstr "車輌を入手"
+
+msgid "giftDialog/title/tankRent"
+msgstr "車輌をレンタル"
+
+msgid "giftsWindow/availableCount"
+msgstr "利用可能: %(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "取得期限: %(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "利用可能な報酬: %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "ガレージ内"
+
+msgid "giftsWindow/multiplier"
+msgstr "×%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "利用可能な期間"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "プレビュー"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value)回の戦闘を行うまで"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value)日間"
+
+msgid "giftsWindow/rent/title"
+msgstr "%(amount)レンタルする"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value)回勝利するまで"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "入手する"
+
+msgid "giftsWindow/tokens"
+msgstr "利用可能: %(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "所有中のトークン: %(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "利用不可"
+
+msgid "rewardWindow/btnLabel"
+msgstr "了解！"
+
+msgid "rewardWindow/title"
+msgstr "報酬獲得"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "入手！"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "レンタル延長！"
+
+msgid "tankPreview/description/newRent"
+msgstr "%(tankName)sが%(rentValue)s無料でレンタル可能"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)sと搭乗員"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)sと搭乗員およびガレージスロット"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)sとガレージスロット"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "%(tankName)sのレンタルを%(rentValue)s延長"

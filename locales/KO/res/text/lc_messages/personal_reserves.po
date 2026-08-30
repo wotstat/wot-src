@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "활성화"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "구매 및 활성화"
+
+msgid "activation/activateBonus"
+msgstr "물자 활성화: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "물자 활성화"
+
+msgid "activation/activateButtonClan"
+msgstr "요새로 이동"
+
+msgid "activation/battleXPDescription"
+msgstr "일반 경험치 1시간 보너스"
+
+msgid "activation/battleXPTitle"
+msgstr "일반 경험치"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "%(boosterTerm)s %(boosterBonus)s 강화 개인 물자를 구매 및 활성화하시겠습니까?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "골드 구매"
+
+msgid "activation/buyGoldTitle"
+msgstr "%(boosterTerm)s %(boosterBonus)s 강화 개인 물자 구매에 필요한 골드를 구매하시겠습니까?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}강화 개인 물자 구매에 필요한 골드:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "크레딧 및 일반 경험치"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "자유/승무원 경험치"
+
+msgid "activation/clanBoostersTitle"
+msgstr "클랜 물자"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "요새에서 물자 활성화"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "요새에서 보기"
+
+msgid "activation/comboXPDescription"
+msgstr "자유/승무원 경험치 1시간 보너스"
+
+msgid "activation/comboXPTitle"
+msgstr "자유/승무원 경험치"
+
+msgid "activation/creditsDescription"
+msgstr "크레딧 1시간 보너스"
+
+msgid "activation/creditsTitle"
+msgstr "크레딧"
+
+msgid "activation/footer"
+msgstr "곧 만료되는 기한 물자: %(expirableTime) 후 %(expirableAmount)개"
+
+msgid "activation/frontLineXPDescription"
+msgstr "전선 대격돌 경험치 1시간 보너스"
+
+msgid "activation/frontLineXPTitle"
+msgstr "전선 대격돌 경험치"
+
+msgid "activation/informationButton"
+msgstr "정보"
+
+msgid "activation/price"
+msgstr "가격:"
+
+msgid "activation/subFooter/depot"
+msgstr "보관소"
+
+msgid "activation/subFooter/main"
+msgstr "만료 기간이 가장 짧은 물자가 먼저 활성화됩니다. %(depot)에서 보유 중인 모든 물자를 확인할 수 있습니다."
+
+msgid "activation/subTitle/main"
+msgstr "개인 물자를 활성화하면 전투에서 크레딧과 경험치를 추가로 획득할 수 있습니다. {whiteSpanish_Open}개인 물자는 최대 3개까지{whiteSpanish_Close} 활성화할 수 있습니다. %(store)s에서 개인 물자를 추가로 구매해 보십시오."
+
+msgid "activation/subTitle/store"
+msgstr "상점"
+
+msgid "activation/terms/booster_credits"
+msgstr "크레딧"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "전선 대격돌 경험치"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "자유/승무원 경험치"
+
+msgid "activation/terms/booster_xp"
+msgstr "일반 경험치"
+
+msgid "activation/title"
+msgstr "개인 물자"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}활성화된 %(previousBoosterTerm)s %(previousBoosterBonus)s 일반 개인 물자는 사라집니다.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "활성화된 일반 개인 물자 대신 %(boosterTerm)s %(boosterBonus)s 강화 개인 물자를 활성화하시겠습니까?"
+
+msgid "battleView/notice"
+msgstr "개인 물자는 전투 중 언제든 활성화할 수 있습니다. 전투 중 물자가 만료되더라도 보너스를 획득할 수 있습니다."
+
+msgid "battleView/title"
+msgstr "개인 물자 활성화"
+
+msgid "depot/buyButton"
+msgstr "구매"
+
+msgid "disabledReserveTooltip/text"
+msgstr "이미 같은 유형 물자가 활성화되어있음"
+
+msgid "finishedReserveTooltip/text"
+msgstr "해당 개인 물자가 전투 중 만료되었습니다. 해당 전투에도 개인 물자 보너스는 적용됩니다."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)분"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "해당 모드에서는 활성화된 개인 물자가 적용되지 않습니다."
+
+msgid "intro/buttons/close"
+msgstr "확인"
+
+msgid "intro/buttons/details"
+msgstr "세부 정보"
+
+msgid "intro/description"
+msgstr "기한 물자는 획득 후 일정 기간이 지나면 만료되는 물자입니다. 기간이 만료된 물자는 사라집니다. 무기한 물자는 유형이 같은 기한 물자를 보유하고 있을 땐 사용할 수 없습니다."
+
+msgid "intro/title"
+msgstr "기한 개인 물자"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "보관소에 해당 유형의 개인 물자를 보유하고 있지 않습니다. 나중에 구매하거나 차고에서 활성화할 수 있습니다."
+
+msgid "noReserveTooltip/infoText"
+msgstr "임무를 완료하거나 게임 이벤트에 참여하여 개인 물자를 획득할 수 있습니다."
+
+msgid "noReserveTooltip/text"
+msgstr "보관소에 해당 유형의 개인 물자를 보유하고 있지 않습니다."

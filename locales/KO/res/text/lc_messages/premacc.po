@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "클랜 {role}"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "계정 상태로 이동"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "뒤로"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "{} 후 지도를 교체할 수 있습니다."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "해당 유형 지도를 표시합니다."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "사막 지도"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "하계 지도"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "동계 지도"
+
+msgid "mapsBlacklist/header"
+msgstr "지도 제외"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "원하지 않는 지도를 제외해 보십시오. 월드 오브 탱크 프리미엄 계정을 활성화하면 지도 1개를, WoT 플러스 구독을 활성화하면 %(mapCount)s개를 추가로 제외할 수 있습니다. 둘 중 하나가 만료되면 제외된 지도 중 가장 오른쪽 지도부터 전투에 포함됩니다."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "지도 제외"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "해당 지도는 무작위 전투에서만 제외됩니다."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "제외한 지도는 %(maxCooldownTimeStr)s마다 교체할 수 있습니다."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "4단계 이상 전차로 이용할 수 있는 기능입니다."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "소대 플레이 시 소대장이 선택한 지도만 제외됩니다."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "표시 지도: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "표시 지도: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "지도 유형:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "취소"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "닫기"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "선택한 지도가 {mapNameStr} 지도와 교체됩니다. {cooldownStr} 후 변경할 수 있습니다."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "교체 대상 지도"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "제외"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "교체할 지도 선택"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "취소"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "닫기"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "{cooldownStr} 후 선택을 변경할 수 있습니다."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "{mapNameStr} 지도를 무작위 전투에서 제외하시겠습니까?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "제외"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "제외"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "{mapNameStr} 지도를 제외하시겠습니까?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "포함"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "{mapNameStr} 지도를 무작위 전투에 포함하시겠습니까?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "{cooldownStr} 후 해당 지도를 교체할 수 있습니다."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "지도 교체 불가"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "{cooldownStr} 후 해당 지도를 교체할 수 있습니다."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "지도 교체 불가"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "선택되지 않음"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "무작위 전투에서 제외할 지도를 선택합니다."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "지도 선택되지 않음"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "제외된 {mapName} 지도를 다른 지도로 교체할 수 있습니다."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "지도 교체 가능"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "{mapName} 지도를 {cooldownStr} 후 교체할 수 있습니다."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "지도 교체 불가"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "추가 슬롯은 월드 오브 탱크 프리미엄 계정 활성화 시에만 이용할 수 있습니다."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "슬롯 이용 불가"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "아래 목록에서 무작위 전투에서 제외할 지도를 선택하십시오."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "지도 선택되지 않음"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "아래 목록에서 무작위 전투에서 제외할 지도를 선택하십시오."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "지도 교체 가능"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "{cooldownStr} 후 해당 지도를 교체할 수 있습니다."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "지도 교체 불가"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "지도 제외 추가 슬롯은 월드 오브 탱크 프리미엄 계정 활성화 시에만 이용할 수 있습니다."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "슬롯 이용 불가"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "취소"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "{whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close} 후 선택을 변경할 수 있습니다."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "확인"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "제외"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "%(mapName)s 지도를 무작위 전투에서 제외하시겠습니까?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "선택한 지도가 {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close} 지도와 교체됩니다. %(cooldownTimeStr)s 후 변경할 수 있습니다."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "교체 대상 지도"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "해당 지도가 {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close} 지도와 교체됩니다. %(cooldownTimeStr)s 후 변경할 수 있습니다."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "지도를 교체하시겠습니까?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "자녀 보호 설정이 적용된 계정입니다.\n자녀 보호 설정에 관한 자세한 정보는 {link}에서 확인할 수 있습니다."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "자녀 보호 설정"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "게임 포털"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "크레딧 금고"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s일"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s시간"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1분"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s분"

@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_aggressive_detection/descr/active"
+msgstr "Tầm nhìn sẽ bị giảm đi {colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose} trong {colorTagOpen}%(duration)s s{colorTagClose}.\n\nĐồng hồ sẽ đếm lại khi một xe địch bị tiêu diệt nhờ bạn phát hiện."
+
+msgid "comp7_aggressive_detection/name"
+msgstr "Active Recon"
+
+msgid "comp7_ally_support/descr/active"
+msgstr "Trong {colorTagOpen}%(duration)s s{colorTagClose}, kíp lái của bạn nhận được một khoản tăng {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} cho hiệu suất với mỗi xe phe ta có vai trò khác biệt.\n\nXe của bạn sẽ luôn được tính vào công thức này."
+
+msgid "comp7_ally_support/name"
+msgstr "One for All"
+
+msgid "comp7_aoe_heal/descr/active"
+msgstr "Trong {colorTagOpen}%(duration)s s{colorTagClose}, một khu vực với bán kính {colorTagOpen}%(radius)s m{colorTagClose} sẽ được tạo quanh xe của bạn, giúp khôi phục {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} sức kháng cự cho xe mình và đồng đội."
+
+msgid "comp7_aoe_heal/name"
+msgstr "Field Repairs"
+
+msgid "comp7_aoe_inspire/descr/active"
+msgstr "Trong {colorTagOpen}%(duration)s s{colorTagClose}, kíp lái của bạn và đồng đội nhận được một khoản tăng {colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose} cho hiệu suất."
+
+msgid "comp7_aoe_inspire/name"
+msgstr "Inspire"
+
+msgid "comp7_berserk/descr/active"
+msgstr "Trong {colorTagOpen}%(duration)s s{colorTagClose}, thời gian nạp đạn được giảm đi {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}. Đồng thời, độ phân tán sau khai hỏa, khi di chuyển và xoay tháp pháo được giảm đi {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nBộ đếm sẽ tính lại khi bạn gây thiệt hại bằng cách đâm/húc hoặc bắn ở khoảng cách dưới {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_berserk/name"
+msgstr "Fury"
+
+msgid "comp7_concentration/descr/active"
+msgstr "Trong {colorTagOpen}%(duration)s s{colorTagClose}, thời gian ngắm và độ phân tán của súng lúc di chuyển, quay thân và tháp pháo sẽ được giảm đi {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nTrong khi Kỹ Vai trò này phát huy tác dụng, thời gian tái nạp giữa các viên được giảm đi {colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s s{colorTagClose}."
+
+msgid "comp7_concentration/name"
+msgstr "Focus on the Target"
+
+msgid "comp7_fast_recharge/descr/active"
+msgstr "• Cho hệ thống nạp theo băng:\nThời gian tái nạp băng còn lại được giảm đi: {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• Cho hệ thống tái nạp tự động:\nMọi viên đã bắn trong chu kỳ hiện tại sẽ được tái nạp nhanh hơn {colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\nKỹ năng này chỉ có thể được kích hoạt trong quá trình tái nạp.\n\n• Cho Autocannon Kiểm Thermal Overheat:\nLượng nhiệt sinh ra được giảm đi {colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose} so với tối đa có thể.\n\nKỹ năng này chỉ có thể kích hoạt nếu súng được làm nóng."
+
+msgid "comp7_fast_recharge/name"
+msgstr "Sleight of Hand"
+
+msgid "comp7_hunter/descr/active"
+msgstr "Đặt lại số xe địch bị sát thương bởi các phát bắn.\n\nTrong {colorTagOpen}%(duration)s s{colorTagClose}, xe của bạn sẽ khôi phục {colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose} HP cho mỗi xe địch bị sát thương bởi một phát đạn tại thời điểm kích hoạt."
+
+msgid "comp7_hunter/descr/passive"
+msgstr "Thời gian tái nạp súng được giảm đi {colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose} cho mỗi xe địch bị sát thương bởi một phát đạn."
+
+msgid "comp7_hunter/name"
+msgstr "Bounty Hunter"
+
+msgid "comp7_juggernaut/descr/active"
+msgstr "Trong {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}:\n• Giảm {colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose} thiệt hại hứng chịu\n• Tăng {colorTagOpen}%(fwMaxSpeedBonus)s km/h{colorTagClose} tốc độ tiến tối đa\n• Tăng {colorTagOpen}%(bkMaxSpeedBonus)s km/h{colorTagClose} tốc độ lùi tối đa\n• Tăng {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose} công suất động cơ\n• Tăng {colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose} sát thương đâm/húc vào xe địch\n\nKhi Kỹ Vai trò này có tác dụng, hệ giảm xóc/xích của bạn sẽ bị phá hủy với chỉ một phát bắn."
+
+msgid "comp7_juggernaut/name"
+msgstr "Juggernaut"
+
+msgid "comp7_march/descr/active"
+msgstr "Trong {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, công suất động cơ trên xe của bạn sẽ được tăng thêm {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, tốc độ tiến tối đa sẽ được tăng thêm {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h, còn giá trị ngụy trang sẽ được tăng thêm {colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}."
+
+msgid "comp7_march/name"
+msgstr "Forced March"
+
+msgid "comp7_recon/descr/active"
+msgstr "Một máy bay trinh sát sẽ bay qua khu vực được chỉ định trong {colorTagOpen}%(delay)s s{colorTagClose}. Xe địch bị phát hiện thuộc bán kính {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} sẽ không mất hình trong {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s&nbsp;s{colorTagClose}. Một biểu tượng riêng sẽ hiển thị cho người chơi bị kỹ vai trò này làm lộ diện với độ trễ {colorTagOpen}%(lampDelay)s s{colorTagClose}.\n\nKỹ Vai trò này có thể sử dụng {colorTagOpen}%(startupDelay)s s{colorTagClose} sau khi trận đấu bắt đầu."
+
+msgid "comp7_recon/name"
+msgstr "Recon Flight"
+
+msgid "comp7_redline/descr/active"
+msgstr "Khu vực được chỉ định sẽ bị pháo kích oanh tạc trong {colorTagOpen}%(delay)s s{colorTagClose}.\n\nCác mục tiêu bị sát thương nội trong bán kính {colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s m{colorTagClose} sẽ hứng chịu {colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose} HP thiệt hại và bị choáng trong {colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s s{colorTagClose}."
+
+msgid "comp7_redline/name"
+msgstr "Fire Cover"
+
+msgid "comp7_risky_attack/descr/active"
+msgstr "Tăng tốc\n\nTrong {colorTagOpen}%(duration)s s{colorTagClose}, công suất động cơ được tăng thêm {colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}, tốc độ tiến tối đa thêm {colorTagOpen}%(fwdSpeedBoost)s{colorTagClose} km/h, còn tốc độ lùi tối đa thêm {colorTagOpen}%(bkwSpeedBoost)s{colorTagClose} km/h.\n\nHồi phục\n\nTrong {colorTagOpen}%(healDuration)s s{colorTagClose}, xe của bạn khôi phục {colorTagOpen}%(baseHeal)s{colorTagClose} HP {colorTagOpen}+%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose} HP bị mất trong khi Tăng tốc có tác dụng."
+
+msgid "comp7_risky_attack/name"
+msgstr "Second Wind"
+
+msgid "comp7_role_skill/descr/startLevel"
+msgstr " \n\nKhi trận đấu bắt đầu, cấp sạc của Kỹ Vai trò này là{colorTagOpen} %(startLevel)s{colorTagClose}."
+
+msgid "comp7_sniper/descr/active"
+msgstr "Trong {colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s s{colorTagClose}, độ phân tán ở cự ly 100 m bằng {colorTagOpen}%(dispersionFactor)s m{colorTagClose}.\n\nNếu xe của bạn không bị phát hiện ở thời điểm bắn, sát thương gây ra sẽ tăng thêm {colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}. \n\nBộ đếm sẽ tính lại khi gây thiệt hại bằng cách bắn ở khoảng cách hơn {colorTagOpen}%(damageDistance)s m{colorTagClose}."
+
+msgid "comp7_sniper/name"
+msgstr "Bullseye"
+
+msgid "comp7_sure_shot/descr/active"
+msgstr "Trong {colorTagOpen}%(duration)s s{colorTagClose}, độ phân tán của súng khi di chuyển, quay thân và tháp pháo được giảm đi {colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}.\n\nTrong khi Kỹ Chiến lược này có tác dụng, sát thương bằng cách bắn sẽ làm giảm thời gian tái nạp đi {colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose} theo số phần trăm HP địch đánh tụt được.\n\nDiệt một kẻ thù làm giảm thời gian tái nạp đạn vào súng đi {colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}."
+
+msgid "comp7_sure_shot/name"
+msgstr "Clean Shot"

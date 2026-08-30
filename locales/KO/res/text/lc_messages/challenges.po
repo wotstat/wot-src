@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "awards_view/additional_reward/title"
+msgstr "그 외 보상"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "해당 연속 임무는 반복하여 진행할 수 있습니다."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "확인"
+
+msgid "awards_view/footer/title/close"
+msgstr "닫기"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "차고에서 보기"
+
+msgid "awards_view/footer/title/replay"
+msgstr "반복 진행"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "시련의 장으로 이동"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "월드 오브 탱크 프리미엄 계정"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "프리미엄 전차"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "대여 전차"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "및 스타일 “{{styleName}}”"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day)일"
+msgstr[1] "%(day)일"
+msgstr[2] "%(day)일"
+
+msgid "awards_view/title"
+msgstr "시련의 장 완료!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "전투당 경험치 5배 획득 임무"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "설계도면 조각: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "범용 설계도면 조각"
+
+msgid "bonuses/bpcoin"
+msgstr "배틀 패스 토큰"
+
+msgid "bonuses/crewBonusX3"
+msgstr "승무원 경험치 3배 획득 임무"
+
+msgid "bonuses/description/attachments_set"
+msgstr "3D 부착물 세트"
+
+msgid "bonuses/description/booster"
+msgstr "개인 물자"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "포상 장비"
+
+msgid "bonuses/description/crewSkin"
+msgstr "승무원 스킨"
+
+msgid "bonuses/description/directive"
+msgstr "지휘명령"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "시제 장비"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "강화 장비"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "및 스타일 “%(styleName)s”"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "일반 장비"
+
+msgid "bonuses/description/style"
+msgstr "2D 스타일"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D 스타일"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "여성 승무원"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "신병"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "승무원"
+
+msgid "condition/achievement"
+msgstr "%(achievement)s 업적 획득"
+
+msgid "condition/achievement/title"
+msgstr "전장의 영웅"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "입힌 피해와 도움 피해 총 %(goal)s 기록"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "입힌 피해, 받은 피해, 막은 피해 총 %(goal)s 기록"
+
+msgid "condition/aggregated/title"
+msgstr "복합 조건"
+
+msgid "condition/classes/AT-SPG"
+msgstr "구축전차"
+
+msgid "condition/classes/SPG"
+msgstr "자주포"
+
+msgid "condition/classes/heavyTank"
+msgstr "중전차"
+
+msgid "condition/classes/lightTank"
+msgstr "경전차"
+
+msgid "condition/classes/mediumTank"
+msgstr "중형전차"
+
+msgid "condition/critsCount"
+msgstr "적 전차 내부 또는 외부 부품 파괴/손상 %(goal)s회 기록"
+
+msgid "condition/critsCount/title"
+msgstr "이동 불가 상태 유발"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "막은 피해 %(goal)s 기록"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "막은 피해를 본인 전차 내구도의 %(goal)s배 이상 기록"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "막은 피해"
+
+msgid "condition/damageDealt"
+msgstr "적 전차에 %(goal)s 피해 기록"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "입힌 피해를 본인 전차 내구도의 %(goal)s배 이상 기록"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "%(distance)sm 이내에서 적 전차 %(goal)s회 명중"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "%(distance)sm 밖에서 적 전차 %(goal)s회 명중"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "충돌로 적 전차에 피해 %(goal)s회 기록"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "관측 범위 내에 있는 적 전차에 공격 %(goal)s회 명중"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "전투 시작 후 %(timeLimit)s분 이내에 적 전차에 피해 %(goal)s 기록"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "%(distance)sm 이내에서 적 전차에 피해 %(goal)s 기록"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "%(distance)sm 밖에서 적 전차에 피해 %(goal)s 기록"
+
+msgid "condition/damageDealt/ramming"
+msgstr "충돌로 피해 %(goal)s 기록"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "충돌"
+
+msgid "condition/damageDealt/title"
+msgstr "입힌 피해"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "발견되지 않은 적 전차에 피해 %(goal)s 기록"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "관측 범위 내에 있는 적 전차에 피해 %(goal)s 기록"
+
+msgid "condition/kills"
+msgstr "적 전차 %(goal)s대 격파"
+
+msgid "condition/kills/classes"
+msgstr "적 %(vehicleClass)s %(goal)s대 격파"
+
+msgid "condition/kills/classesDiversity"
+msgstr "서로 다른 %(classCount)s가지 유형의 적 전차 %(goal)s대 격파"
+
+msgid "condition/kills/title"
+msgstr "격파"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "피해를 받지 않고 적 전차 %(goal)s대 격파"
+
+msgid "condition/kills/whileInvisible"
+msgstr "발견되지 않은 상태로 적 전차 %(goal)s대 격파"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "아군 전체 피해 기록 중 %(goal)s%% 기록"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "입힌 피해"
+
+msgid "condition/piercingEnemyHits"
+msgstr "적 장갑 %(goal)s회 관통"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "관통"
+
+msgid "condition/spotted"
+msgstr "적 전차 %(goal)s대 발견"
+
+msgid "condition/spotted/title"
+msgstr "전차 발견"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "발견되지 않은 상태로 적 전차 %(goal)s대 발견"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "전차 발견"
+
+msgid "condition/top/damageDealt"
+msgstr "입힌 피해량 아군 %(rank)s위 이내 기록"
+
+msgid "condition/top/damageDealt/total"
+msgstr "입힌 피해량 양 팀 전체 %(rank)s위 이내 기록"
+
+msgid "condition/top/title"
+msgstr "상위권 기록"
+
+msgid "condition/top/xp"
+msgstr "경험치 획득량 아군 %(rank)s위 이내 기록"
+
+msgid "condition/unknown"
+msgstr "가장 적합한 임무 검색 중..."
+
+msgid "condition/unknown/title"
+msgstr "대기 중"
+
+msgid "postbattle/name"
+msgstr "시련의 장: "

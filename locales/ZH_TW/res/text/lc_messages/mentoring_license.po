@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "若要確認，輸入選擇用來轉移經驗之乘員的經驗數量。"
+
+msgid "assignmentDialog/price"
+msgstr "費用："
+
+msgid "assignmentDialog/subtitle"
+msgstr "在乘員間轉移所有的乘員經驗"
+
+msgid "assignmentDialog/title"
+msgstr "確認進行指導課程"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "此名乘員將從您的帳號中移除\n且無法重新找回。"
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "將失去多餘的 {xpLose}。"
+
+msgid "dialogue/description"
+msgstr "消耗品，讓您將一名乘員的全部乘員經驗轉移給同一國家的另一名乘員。"
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}將失去多餘的經驗：{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "選擇"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "總經驗：%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}指導許可證：{yellow_Close} %(amount)s 個"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "沒有適合的乘員"
+
+msgid "mentorAssigment/tips/info"
+msgstr "選擇乘員來將經驗轉移給\n{cream_Open}「%(name)s」{cream_Close} 且該名乘員會從您的帳號中移除。"
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "乘員經驗轉移後，{cream_Open}「%(name)s」{cream_Close}將達歷練數量上限，且將失去超過上限的所有經驗。"
+
+msgid "mentorAssigment/title"
+msgstr "選擇指導員"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}「%(name)s」{bond_Close}已達歷練數量上限，無法選擇來轉移經驗。"
+
+msgid "multipleUserName"
+msgstr "指導許可證"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "指導許可證已使用：%(amount)s 個"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "已轉移乘員經驗："
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "指導課程"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>失去多餘的乘員經驗：<font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "讓您將一名乘員的全部乘員經驗轉移給\n同一國家的另一名乘員。"
+
+msgid "storage/userName"
+msgstr "指導許可證"
+
+msgid "userName"
+msgstr "指導許可證"

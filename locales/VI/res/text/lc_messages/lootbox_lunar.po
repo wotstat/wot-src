@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Quay lại Kho báu"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Kho báu Blazing"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "KHO BÁU BLAZING"
+
+msgid "common/getButton/lowerCase"
+msgstr "Lấy Kho báu"
+
+msgid "common/getButton/upperCase"
+msgstr "LẤY KHO BÁU"
+
+msgid "common/loader"
+msgstr "Đang mở Kho báu Blazing..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Mở Kho báu để xem thống kê."
+
+msgid "common/statistics/header"
+msgstr "Kho báu Blazing đã mở: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Mọi thông tin về các Kho báu Blazing đã mở sẽ bị xóa."
+
+msgid "entryPoint/boxes"
+msgstr "ĐẾN KHO BÁU"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Đây là hộp đặc biệt chứa đồ mới và độc, gồm cả xe Premium, kiểu mẫu 2D, vân vân. Bạn có thể mua chúng ở Cửa hàng trong-game."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Hiện không thể mở hay mua Kho báu Blazing vì lý do kỹ thuật. Chúng tôi mong được thông cảm về vấn đề nhất thời này."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Kho báu Blazing Tạm thời Không khả dụng"
+
+msgid "eventName/lowerCase"
+msgstr "Lunar Bounty"
+
+msgid "eventName/upperCase"
+msgstr "LUNAR BOUNTY"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Phần thưởng Chắc chắn ở Kho báu tiếp theo!"
+
+msgid "guaranteedTitle/text"
+msgstr "Số Kho báu Blazing nhiều nhất trước P.thưởng Chắc chắn: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Nếu bạn không mở Kho báu Blazing trước khi sự kiện kết thúc, chúng sẽ tự động được khui."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Nếu đã sở hữu mọi chiếc thuộc danh sách khả dĩ trong Kho báu Blazing rồi, tất cả xe mà bạn nhận sau đó từ Kho báu Blazing sẽ được đền bù theo vàng đúng toàn bộ giá trị của chúng."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Mỗi %(guaranteed0)s Kho báu Blazing chắc chắn đem lại một xe Cấp VIII–IX. Nếu mở chúng mà không xuất hiện chiếc nào như thế, bạn sẽ ẵm về một chiếc Cấp VIII–IX chưa sở hữu khi khui Kho báu Blazing thứ&zwnbsp;%(guaranteed0)s. Lúc điều đó xảy ra, bộ đếm sẽ tính lại từ đầu."
+
+msgid "infoPage/header/description"
+msgstr "Mở Kho báu Blazing để có cơ hội ẵm hàng giá trị trong game! Xem chi tiết dưới đây."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Từ %(name) (đã mở %(boxesCount) Kho báu Blazing)"
+
+msgid "noBoxesView/description/"
+msgstr "Không có Kho báu Blazing nào.\nBạn có thể sở hữu chúng từ Cửa hàng trong game."
+
+msgid "preview/backLabel"
+msgstr "ĐẾN KHO BÁU"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Kho báu khả dụng: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Không có Kho báu khả dụng"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Nếu đã sở hữu mọi chiếc thuộc danh sách khả dĩ trong Kho báu Blazing rồi, tất cả xe mà bạn nhận sau đó từ Kho báu Blazing sẽ được đền bù theo vàng."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) Kho báu Blazing"
+msgstr[1] "%(remainingCount) Kho báu Blazing"
+msgstr[2] "%(remainingCount) Kho báu Blazing"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "Phần thưởng Chắc chắn là một xe thuộc danh sách khả dĩ trong Kho báu Blazing.\nNếu mở %(remainingCount) cái mà chưa nhận được xe nào như thế, bạn sẽ ẵm về một chiếc khi khui Kho báu Blazing thứ %(count). Lúc điều đó xảy ra, bộ đếm sẽ tính lại từ đầu."

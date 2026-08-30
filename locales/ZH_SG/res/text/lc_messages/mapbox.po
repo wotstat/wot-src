@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "收到！"
+
+msgid "awardsView/subTitle"
+msgstr "战斗场次：{number}"
+
+msgid "awardsView/title"
+msgstr "侦察任务"
+
+msgid "buttonDisable/tooltip"
+msgstr "不可用"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "时间表"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "无法进入战斗"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "战斗已结束"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "无法进入战斗"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "此服务器处于停战期。请选择其他服务器。"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "您在%(levelSubStr)s后才能进入战斗。"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "战车等级不匹配"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "%(levels)s级战车"
+
+msgid "intro/button"
+msgstr "收到！"
+
+msgid "intro/interviewInfoDescription"
+msgstr "您的反馈会帮助改进游戏。请针对全新地图机制提出意见，我们会从玩家建议中选出最优秀的来引入游戏。"
+
+msgid "intro/interviewInfoTitle"
+msgstr "重要反馈"
+
+msgid "intro/modeInfoDescription"
+msgstr "使用VIII–X级战车在采用新机制的地图上战斗，完成问卷并获得奖励。进度将在一周后重置，之后您可以再次获取奖励。"
+
+msgid "intro/modeInfoTitle"
+msgstr "帮助我们开发新机制！"
+
+msgid "intro/startEvent"
+msgstr "活动开始于："
+
+msgid "intro/taskInfoDescription"
+msgstr "在侦察任务的战斗过程中，您可以完成每日任务和战令任务，以及达成渐变贴花的解锁条件。"
+
+msgid "intro/taskInfoTitle"
+msgstr "在随机战的规则下进行战斗"
+
+msgid "intro/time/period/day"
+msgstr "{day}天"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day}天{hours}小时"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours}小时{min}分钟"
+
+msgid "intro/time/period/minute"
+msgstr "{min}分钟"
+
+msgid "intro/title"
+msgstr "侦察任务"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s不能参加侦察任务。"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "战车类型不匹配"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "选择一辆%(levelSubStr)s参加侦察任务。"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "战车等级不匹配"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s级战车"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s不能参加侦察任务。"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "战车不匹配"
+
+msgid "mapboxTab"
+msgstr "侦察任务"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "%(server)s服务器上的阶段已结束"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s服务器\n战斗将再持续%(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s服务器\n战斗将在%(time)s后开放"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "所有服务器处于停战期"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "此模式在%(server)s服务器上不开放"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "%(server)s服务器上的战斗将再持续%(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "战斗将在%(server)s服务器上于%(time)s后开始"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "此模式的战斗不可用：赛季已结束。"
+
+msgid "primeTimeView/status/untill"
+msgstr "%(server)s服务器实行停战期至%(startTime)s"
+
+msgid "primeTimeView/title"
+msgstr "侦察任务"
+
+msgid "primeTimes/availableServer"
+msgstr "可用服务器："
+
+msgid "primeTimes/availableServers"
+msgstr "可用服务器："
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "战斗已结束"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "此模式在%(serverName)s服务器上不开放"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "进行战斗"
+
+msgid "progression/cardTitle/rating"
+msgstr "获得的经验排名前{rating}"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "在火灾天气的地图上获得的经验排名前{rating}"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "在浓雾天气的地图上获得的经验排名前{rating}"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "在豪雨天气的地图上获得的经验排名前{rating}"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "在沙尘暴天气的地图上获得的经验排名前{rating}"
+
+msgid "progression/changeAnswer"
+msgstr "变更回答"
+
+msgid "progression/counter"
+msgstr "%(current)/%(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "使用VIII–X级战车在采用新机制的地图上战斗，完成问卷调查并获得奖励。"
+
+msgid "progression/info/restart"
+msgstr "奖励进度将重置于%(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "获得的经验排名前%(rating)：%(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "关于活动"
+
+msgid "progression/map_01_karelia"
+msgstr "卡累利阿"
+
+msgid "progression/map_02_malinovka"
+msgstr "马利诺夫卡"
+
+msgid "progression/map_05_prohorovka"
+msgstr "普罗霍罗夫卡"
+
+msgid "progression/map_18_cliff"
+msgstr "韦斯特菲尔德"
+
+msgid "progression/map_all"
+msgstr "游戏\n机制"
+
+msgid "progression/map_fire"
+msgstr "火灾"
+
+msgid "progression/map_fog"
+msgstr "浓雾"
+
+msgid "progression/map_heavy_rain"
+msgstr "豪雨"
+
+msgid "progression/map_sandstorm"
+msgstr "沙尘暴"
+
+msgid "progression/redirect"
+msgstr "前往模式"
+
+msgid "progression/startInterview"
+msgstr "参与问卷调查"
+
+msgid "progression/startInterviewTooltip"
+msgstr "满足以上条件，即可参与问卷调查。"
+
+msgid "progression/startSpecialInterview"
+msgstr "参与问卷调查"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "满足以上条件，即可参与问卷调查。"
+
+msgid "progression/subtitle"
+msgstr "在这里您可以参与关于新机制的问卷调查"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s天"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s小时%(min)s分钟"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1分钟"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s分钟"
+
+msgid "progression/title"
+msgstr "侦察任务"
+
+msgid "progressionError/description/line1"
+msgstr "您的进度已保存。您可以继续游玩。"
+
+msgid "progressionError/description/line2"
+msgstr "不久后您将可以查看进度并参与问卷调查。"
+
+msgid "progressionError/title"
+msgstr "侦察任务详情暂时不可用"
+
+msgid "questFlag/complete"
+msgstr "已获得所有奖励"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s/%(total)s"
+
+msgid "questFlag/description"
+msgstr "使用%(highlightedText)s参战，完成问卷并获得奖励。"
+
+msgid "questFlag/frozen/header"
+msgstr "侦察任务不可用"
+
+msgid "questFlag/frozen/text"
+msgstr "由于技术原因，侦察任务战斗不可用。"
+
+msgid "questFlag/highlightedText"
+msgstr "VIII–X级战车在采用新机制的地图上"
+
+msgid "questFlag/incomplete"
+msgstr "获得下个奖励所需的战斗场次：%(count)s"
+
+msgid "questFlag/progressTitle"
+msgstr "战斗场次："
+
+msgid "questFlag/surveysTitle"
+msgstr "参与问卷数：%(count)s"
+
+msgid "selector/startEvent"
+msgstr "采用新机制的地图的探索开始于%(day)s"
+
+msgid "selector/tooltip/body"
+msgstr "采用新机制的地图的探索持续至%(day)s"
+
+msgid "selector/tooltip/title"
+msgstr "时间表"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "赛季结束于:"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "战斗时间表"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "今天"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "明天"
+
+msgid "serverAlertMessage/button"
+msgstr "选择其他服务器"
+
+msgid "survey/backBtn"
+msgstr "返回"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "自行火炮"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "重型坦克"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "轻型坦克"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "中型坦克"
+
+msgid "survey/fire/question/q1"
+msgstr "您喜欢穆勒万卡地图上火灾机制的游玩体验吗？"
+
+msgid "survey/fire/question/q2"
+msgstr "您如何看待穆勒万卡地图上火灾的视觉设计？"
+
+msgid "survey/fire/question/q3"
+msgstr "您希望调整穆勒万卡地图上火灾对玩法的影响程度吗？"
+
+msgid "survey/fire/question/q4"
+msgstr "您具体希望怎样调整穆勒万卡地图上火灾对玩法的影响？"
+
+msgid "survey/fire/question/q5"
+msgstr "您在穆勒万卡地图上使用的是哪种类型的战车？"
+
+msgid "survey/fire/question/q6_0"
+msgstr "穆勒万卡地图上的{value}玩法有怎样的变化？"
+
+msgid "survey/fire/question/q6_1"
+msgstr "穆勒万卡地图上的{value}玩法有怎样的变化？"
+
+msgid "survey/fire/question/q7"
+msgstr "您想在随机战地图上看到火灾天气吗？"
+
+msgid "survey/fire/question/q8"
+msgstr "您不喜欢穆勒万卡地图上火灾机制的哪些方面？"
+
+msgid "survey/fire/question/q9"
+msgstr "请指出需要改进的地方。"
+
+msgid "survey/fire/response/q1_1"
+msgstr "是，我喜欢"
+
+msgid "survey/fire/response/q1_2"
+msgstr "不，我不喜欢"
+
+msgid "survey/fire/response/q1_3"
+msgstr "不确定"
+
+msgid "survey/fire/response/q2_1"
+msgstr "我喜欢"
+
+msgid "survey/fire/response/q2_2"
+msgstr "还可以"
+
+msgid "survey/fire/response/q2_3"
+msgstr "我不喜欢"
+
+msgid "survey/fire/response/q2_4"
+msgstr "不确定"
+
+msgid "survey/fire/response/q3_1"
+msgstr "是，希望"
+
+msgid "survey/fire/response/q3_2"
+msgstr "不，不希望"
+
+msgid "survey/fire/response/q3_3"
+msgstr "不确定"
+
+msgid "survey/fire/response/q4_1"
+msgstr "增加影响"
+
+msgid "survey/fire/response/q4_2"
+msgstr "减弱影响"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "自行火炮"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "重型坦克"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "轻型坦克"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "中型坦克"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "不记得"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "更好了"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "更差了"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "没有变化"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "不确定"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "更好了"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "更差了"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "没有变化"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "不确定"
+
+msgid "survey/fire/response/q7_1"
+msgstr "是，希望"
+
+msgid "survey/fire/response/q7_2"
+msgstr "不，不希望"
+
+msgid "survey/fire/response/q7_3"
+msgstr "不确定"
+
+msgid "survey/fire/response/q8_1"
+msgstr "火灾大幅减少了可利用的位置"
+
+msgid "survey/fire/response/q8_10"
+msgstr "其中一方团队获得了优势"
+
+msgid "survey/fire/response/q8_11"
+msgstr "技术问题"
+
+msgid "survey/fire/response/q8_12"
+msgstr "其他"
+
+msgid "survey/fire/response/q8_2"
+msgstr "火灾造成的伤害过高"
+
+msgid "survey/fire/response/q8_3"
+msgstr "区域外的敌人看不见我，我也看不见敌人"
+
+msgid "survey/fire/response/q8_4"
+msgstr "地图上的火灾区域"
+
+msgid "survey/fire/response/q8_5"
+msgstr "火灾的视觉效果"
+
+msgid "survey/fire/response/q8_6"
+msgstr "对地图玩法的影响太大"
+
+msgid "survey/fire/response/q8_7"
+msgstr "对地图玩法的影响太小"
+
+msgid "survey/fire/response/q8_8"
+msgstr "火灾特效干扰了战斗"
+
+msgid "survey/fire/response/q8_9"
+msgstr "火灾会强迫玩家近距离作战"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "前哨"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "北欧峡湾"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "前哨"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "北欧峡湾"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "前哨"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "北欧峡湾"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "自行火炮"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "重型坦克"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "轻型坦克"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "中型坦克"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "自行火炮"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "重型坦克"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "轻型坦克"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "中型坦克"
+
+msgid "survey/fog/question/q1"
+msgstr "您喜欢以下地图上浓雾机制的游玩体验吗？"
+
+msgid "survey/fog/question/q10"
+msgstr "您想在随机战地图上看到浓雾天气吗？"
+
+msgid "survey/fog/question/q11"
+msgstr "您不喜欢北欧峡湾地图上浓雾机制的哪些方面？"
+
+msgid "survey/fog/question/q12"
+msgstr "您不喜欢前哨地图上浓雾机制的哪些方面？"
+
+msgid "survey/fog/question/q13"
+msgstr "请指出需要改进的地方。"
+
+msgid "survey/fog/question/q2"
+msgstr "您如何看待以下地图上浓雾的视觉设计？"
+
+msgid "survey/fog/question/q3"
+msgstr "您希望调整地图上浓雾对玩法的影响程度吗？"
+
+msgid "survey/fog/question/q4"
+msgstr "您具体希望怎样调整北欧峡湾地图上浓雾对玩法的影响？"
+
+msgid "survey/fog/question/q5"
+msgstr "您具体希望怎样调整前哨地图上浓雾对玩法的影响？"
+
+msgid "survey/fog/question/q6"
+msgstr "您在北欧峡湾地图上使用的是哪种类型的战车？"
+
+msgid "survey/fog/question/q7_0"
+msgstr "北欧峡湾地图上的{value}玩法有怎样的变化？"
+
+msgid "survey/fog/question/q7_1"
+msgstr "北欧峡湾地图上的{value}玩法有怎样的变化？"
+
+msgid "survey/fog/question/q8"
+msgstr "您在前哨地图上使用的是哪种类型的战车？"
+
+msgid "survey/fog/question/q9_0"
+msgstr "前哨地图上的{value}玩法有怎样的变化？"
+
+msgid "survey/fog/question/q9_1"
+msgstr "前哨地图上的{value}玩法有怎样的变化？"
+
+msgid "survey/fog/response/q10_1"
+msgstr "是，希望"
+
+msgid "survey/fog/response/q10_2"
+msgstr "不，不希望"
+
+msgid "survey/fog/response/q10_3"
+msgstr "不确定"
+
+msgid "survey/fog/response/q11_1"
+msgstr "区域外的敌人看不见我，我也看不见敌人"
+
+msgid "survey/fog/response/q11_10"
+msgstr "其他"
+
+msgid "survey/fog/response/q11_2"
+msgstr "地图上的浓雾区域"
+
+msgid "survey/fog/response/q11_3"
+msgstr "浓雾的视觉效果"
+
+msgid "survey/fog/response/q11_4"
+msgstr "对地图玩法的影响太大"
+
+msgid "survey/fog/response/q11_5"
+msgstr "对地图玩法的影响太小"
+
+msgid "survey/fog/response/q11_6"
+msgstr "浓雾特效干扰了战斗"
+
+msgid "survey/fog/response/q11_7"
+msgstr "浓雾会强迫玩家近距离作战"
+
+msgid "survey/fog/response/q11_8"
+msgstr "其中一方团队获得了优势"
+
+msgid "survey/fog/response/q11_9"
+msgstr "技术问题"
+
+msgid "survey/fog/response/q12_1"
+msgstr "区域外的敌人看不见我，我也看不见敌人"
+
+msgid "survey/fog/response/q12_10"
+msgstr "其他"
+
+msgid "survey/fog/response/q12_2"
+msgstr "地图上的浓雾区域"
+
+msgid "survey/fog/response/q12_3"
+msgstr "浓雾的视觉效果"
+
+msgid "survey/fog/response/q12_4"
+msgstr "对地图玩法的影响太大"
+
+msgid "survey/fog/response/q12_5"
+msgstr "对地图玩法的影响太小"
+
+msgid "survey/fog/response/q12_6"
+msgstr "浓雾特效干扰了战斗"
+
+msgid "survey/fog/response/q12_7"
+msgstr "浓雾会强迫玩家近距离作战"
+
+msgid "survey/fog/response/q12_8"
+msgstr "其中一方团队获得了优势"
+
+msgid "survey/fog/response/q12_9"
+msgstr "技术问题"
+
+msgid "survey/fog/response/q1_1"
+msgstr "是，我喜欢"
+
+msgid "survey/fog/response/q1_2"
+msgstr "不，我不喜欢"
+
+msgid "survey/fog/response/q1_3"
+msgstr "不确定"
+
+msgid "survey/fog/response/q2_1"
+msgstr "我喜欢"
+
+msgid "survey/fog/response/q2_2"
+msgstr "还可以"
+
+msgid "survey/fog/response/q2_3"
+msgstr "我不喜欢"
+
+msgid "survey/fog/response/q2_4"
+msgstr "不确定"
+
+msgid "survey/fog/response/q3_1"
+msgstr "是，希望"
+
+msgid "survey/fog/response/q3_2"
+msgstr "不，不希望"
+
+msgid "survey/fog/response/q3_3"
+msgstr "不确定"
+
+msgid "survey/fog/response/q4_1"
+msgstr "增加影响"
+
+msgid "survey/fog/response/q4_2"
+msgstr "减弱影响"
+
+msgid "survey/fog/response/q5_1"
+msgstr "增加影响"
+
+msgid "survey/fog/response/q5_2"
+msgstr "减弱影响"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "自行火炮"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "重型坦克"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "轻型坦克"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "中型坦克"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "不记得"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "更好了"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "更差了"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "没有变化"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "不确定"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "更好了"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "更差了"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "没有变化"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "不确定"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "自行火炮"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "重型坦克"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "轻型坦克"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "中型坦克"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "不记得"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "更好了"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "更差了"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "没有变化"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "不确定"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "更好了"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "更差了"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "没有变化"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "不确定"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "韦斯特菲尔德"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "费舍尔湾"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "韦斯特菲尔德"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "费舍尔湾"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "韦斯特菲尔德"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "费舍尔湾"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "自行火炮"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "重型坦克"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "轻型坦克"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "中型坦克"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "自行火炮"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "重型坦克"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "轻型坦克"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "中型坦克"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "您喜欢以下地图上豪雨机制的游玩体验吗？"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "您想在随机战地图上看到豪雨天气吗？"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "您不喜欢韦斯特菲尔德地图上豪雨机制的哪些方面？"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "您不喜欢费舍尔湾地图上豪雨机制的哪些方面？"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "请指出需要改进的地方。"
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "您如何看待以下地图上豪雨的视觉设计？"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "您希望调整地图上豪雨对玩法的影响程度吗？"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "您具体希望怎样调整韦斯特菲尔德地图上豪雨对玩法的影响？"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "您具体希望怎样调整费舍尔湾地图上豪雨对玩法的影响？"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "您在韦斯特菲尔德地图上使用的是哪种类型的战车？"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "韦斯特菲尔德地图上的{value}玩法有怎样的变化？"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "韦斯特菲尔德地图上的{value}玩法有怎样的变化？"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "您在费舍尔湾地图上使用的是哪种类型的战车？"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "费舍尔湾地图上的{value}玩法有怎样的变化？"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "费舍尔湾地图上的{value}玩法有怎样的变化？"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "是，希望"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "不，不希望"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "不确定"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "豪雨区域内太滑了"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "技术问题"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "其他"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "区域外的敌人看不见我，我也看不见敌人"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "地图上的豪雨区域"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "豪雨的视觉效果"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "对地图玩法的影响太大"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "对地图玩法的影响太小"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "豪雨特效干扰了战斗"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "豪雨会强迫玩家近距离作战"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "其中一方团队获得了优势"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "豪雨区域内太滑了"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "技术问题"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "其他"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "区域外的敌人看不见我，我也看不见敌人"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "地图上的豪雨区域"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "豪雨的视觉效果"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "对地图玩法的影响太大"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "对地图玩法的影响太小"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "豪雨特效干扰了战斗"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "豪雨会强迫玩家近距离作战"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "其中一方团队获得了优势"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "是，我喜欢"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "不，我不喜欢"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "不确定"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "我喜欢"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "还可以"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "我不喜欢"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "不确定"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "是，希望"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "不，不希望"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "不确定"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "增加影响"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "减弱影响"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "增加影响"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "减弱影响"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "自行火炮"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "重型坦克"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "轻型坦克"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "中型坦克"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "不记得"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "更好了"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "更差了"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "没有变化"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "不确定"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "更好了"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "更差了"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "没有变化"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "不确定"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "自行火炮"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "重型坦克"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "轻型坦克"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "中型坦克"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "不记得"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "更好了"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "更差了"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "没有变化"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "不确定"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "更好了"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "更差了"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "没有变化"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "不确定"
+
+msgid "survey/listSeparator"
+msgstr "、"
+
+msgid "survey/nextBtn"
+msgstr "下一个"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "收到！"
+
+msgid "survey/required"
+msgstr "回答问题以继续。"
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "自行火炮"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "重型坦克"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "轻型坦克"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "中型坦克"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "您喜欢荒漠小镇地图上沙尘暴机制的游玩体验吗？"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "您如何看待荒漠小镇地图上沙尘暴的视觉设计？"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "您希望调整荒漠小镇地图上沙尘暴对玩法的影响吗？"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "您具体希望怎样调整荒漠小镇地图上沙尘暴对玩法的影响？"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "您在荒漠小镇地图上使用的是哪种类型的战车？"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "荒漠小镇地图上的{value}玩法有怎样的变化？"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "荒漠小镇地图上的{value}玩法有怎样的变化？"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "您想在随机战地图上看到沙尘暴天气吗？"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "您不喜欢荒漠小镇地图上沙尘暴机制的哪些方面？"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "请指出需要改进的地方。"
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "是，我喜欢"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "不，我不喜欢"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "不确定"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "我喜欢"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "还可以"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "我不喜欢"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "不确定"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "是，希望"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "不，不希望"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "不确定"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "增加影响"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "减弱影响"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "坦克歼击车"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "自行火炮"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "重型坦克"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "轻型坦克"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "中型坦克"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "不记得"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "更好了"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "更差了"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "没有变化"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "不确定"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "更好了"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "更差了"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "没有变化"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "不确定"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "是，希望"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "不，不希望"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "不确定"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "区域外的敌人看不见我，我也看不见敌人"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "其他"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "地图上的沙尘暴区域"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "沙尘暴的视觉效果"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "对地图玩法的影响太大"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "对地图玩法的影响太小"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "沙尘暴特效干扰了战斗"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "沙尘暴会强迫玩家近距离作战"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "其中一方团队获得了优势"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "技术问题"
+
+msgid "survey/subTitle"
+msgstr "感谢您抽出时间参与此次调查！调查大约耗时两分钟。您的回答将仅被用于该调查，任何个人信息将根据隐私政策删除。"
+
+msgid "survey/template/final/title"
+msgstr "感谢您抽出时间参与此次调查！"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "点击地图选择位置"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "您在地图上可以选择最多三个位置"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "详细说明(最多%(maxLength)s个字符)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "位置"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "移除位置"
+
+msgid "survey/template/opened/description"
+msgstr "问题详细说明(最多%(maxLength)s个字符)"
+
+msgid "survey/title/common"
+msgstr "请对新内容做出评价"
+
+msgid "survey/title/map"
+msgstr "评价%(map)s地图"

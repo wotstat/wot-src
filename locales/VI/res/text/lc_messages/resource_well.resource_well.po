@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Đã nhận được xe"
+
+msgid "awardView/end"
+msgstr "SỰ KIỆN ĐÃ KẾT THÚC"
+
+msgid "awardView/info"
+msgstr "Số hiệu Kiểu mẫu"
+
+msgid "awardView/toHangar"
+msgstr "Xem trong Ga-ra"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) với kiểu mẫu số hiệu"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "ĐÃ NHẬN ĐƯỢC XE"
+
+msgid "awardView/vehicleTitle"
+msgstr "ĐÃ NHẬN ĐƯỢC XE"
+
+msgid "commonTexts/aboutButton"
+msgstr "CHI TIẾT SỰ KIỆN"
+
+msgid "commonTexts/closeBtn"
+msgstr "TẮT"
+
+msgid "commonTexts/eventTitle"
+msgstr "XƯỞNG LẮP RÁP"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Hủy bỏ"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Tiêu"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Không còn xe với kiểu mẫu có số hiệu. Bạn sẽ nhận được %(vehicleName)s mà không kèm số hiệu.\nChắc chắn muốn tiêu nguồn lực?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Bạn sẽ nhận được %(vehicleName)s mà không có số hiệu"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Trở lại Ga-ra"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Mọi nguồn lực đã tiêu sẽ sớm hoàn trả lại vào tài khoản của bạn."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Rất tiếc, Hết Xe Rồi"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Hủy bỏ"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Tiêu"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Tiến trình sau khi tiêu: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Tiêu nguồn lực?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Hoàn trả Nguồn lực"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Mọi nguồn lực định tiêu sẽ được trả lại tài khoản, còn tiến độ lắp ráp của bạn sẽ bị tính lại từ đầu. Miễn là sự kiện còn diễn ra, bạn sẽ có thể tiêu nguồn lực để lấy xe."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Hoàn trả mọi nguồn lực đã tiêu?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Tất cả tài nguyên đã dùng sẽ được hoàn trả vào tài khoản của bạn, còn tiến trình lắp ráp reset về không. %(vehicleName) sẽ được chọn và bạn có thể tiêu tài nguyên để sở hữu nó."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Trả lại tất cả tài nguyên đã dùng và chọn %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Chọn Xe"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Bạn có thể mua cả hai xe trong sự kiện."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Trong sự kiện, bạn sẽ có thể mua một gói chứa xe kèm kiểu mẫu 3D với biển số."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "%(styleTanksCount) người đầu tiên sẽ được xe với kiểu mẫu 3D số hiệu,{{@ class $br}}{{/}}%(withoutStyleTanksCount) chiếc sau đó sẽ không kèm kiểu mẫu 3D có biển."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "SỰ KIỆN ĐÃ KẾT THÚC"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "ĐÃ NHẬN ĐƯỢC XE"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "ĐÃ NHẬN ĐƯỢC XE"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Lượng xe còn lại"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Xe này đã có trong Ga-ra rồi"
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Đã nhận được xe"
+
+msgid "eventInfo/tanksOver"
+msgstr "HẾT HÀNG"
+
+msgid "eventInfo/top/styleText"
+msgstr "Có số hiệu"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Lượng xe có số hiệu còn lại"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "Quá trình chuyển giao %(regularRewardVehiclesCount) xe theo cấu hình chuẩn sẽ bắt đầu\nsau khi không còn xe có số hiệu."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "Theo cấu hình chuẩn"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Lượng xe còn lại"
+
+msgid "mainView/affirmative/button"
+msgstr "Rõ"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Đến Hoàn trả Nguồn lực"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Nguồn lực đã thu thập:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Nguồn lực đã thu thập cho:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Trở lại Ga-ra"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Chọn Nguồn lực"
+
+msgid "mainView/footer/description/text"
+msgstr "Nếu không còn xe, mọi nguồn lực đã tiêu sẽ được hoàn trả."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Loại tài khoản của bạn không thể tham gia sự kiện này."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Bạn Không thể Tham gia"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Bạn có thể mua cả hai, nhưng chỉ được đầu tư tài nguyên vào một chiếc tại một thời điểm."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Chọn xe và đầu tư nguồn lực cần thiết để lắp ráp nó—nhưng phải nhanh!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Nhanh tiêu nguồn lực cần có để lắp và sở hữu %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Mọi nguồn lực đã tiêu sẽ sớm hoàn trả lại vào tài khoản của bạn."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Rất tiếc, Hết Xe Rồi"
+
+msgid "mainView/navbar/backBtn"
+msgstr "ĐẾN XƯỞNG LẮP RÁP"
+
+msgid "mainView/navbar/title"
+msgstr "XƯỞNG LẮP RÁP"
+
+msgid "mainView/preview/label"
+msgstr "Xem trước"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Cho đến"
+
+msgid "mainView/timer/leftTime"
+msgstr "Thời gian còn lại:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Tắt"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Tiêu Nguồn lực"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Dữ liệu tạm thời không khả dụng"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Không còn xe"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Lượng xe có số hiệu còn lại: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Lượng xe còn lại: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Phổ dụng"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Nguồn lực tối đa %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "%(maxValue)d %(iconInfo) tối đa"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Nguồn lực đã thu thập %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Phân đoạn Bản vẽ"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Tiền tệ"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "THU THẬP NGUỒN LỰC"
+
+msgid "tankPreview/button"
+msgstr "Chọn Nguồn lực"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Trong sự kiện, bạn sẽ có thể mua một gói chứa xe kèm kiểu mẫu 3D với biển số."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "%(topPlayers) người chơi đầu tiên sẽ nhận được xe kèm kiểu mẫu 3D có số hiệu,\n %(basePlayers) chiếc sau đó sẽ không kèm kiểu mẫu 3D có số hiệu."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Bạn có thể mua cả hai xe trong sự kiện."
+
+msgid "tankPreview/title"
+msgstr "Thu thập và tiêu 100% tài nguyên cần thiết để nhận %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Bạn có thể xem nguồn lực đã tiêu bất cứ lúc nào, cũng như lấy lại nếu cần bằng cách click nút Hoàn trả Nguồn lực.\nTiến độ lắp ráp sẽ bị tính lại từ đầu, nhưng có thể tiêu tiếp chúng hoặc các nguồn lực khác để lấy xe."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Hoàn trả Nguồn lực"
+
+msgid "tooltips/counter/error/text"
+msgstr "Dữ liệu tạm thời không khả dụng.\nChúng tôi đang khắc phục vấn đề này."
+
+msgid "tooltips/counter/warning/text"
+msgstr "Lượng được hiển thị theo độ trễ nhất định và có thể sai khác so với số xe thực tế."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Tiêu nguồn lực để nhận %(vehicleName1) và %(vehicleName2). Lượng xe có hạn."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Tiêu nguồn lực để nhận %(vehicleName) kèm kiểu mẫu 3D với số hiệu. Lượng xe có hạn."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Sẽ khả dụng: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s – %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Khả dụng trong %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Khả dụng sau:%(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Xưởng Lắp ráp"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Click để tìm hiểu thêm về sự kiện"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Chọn một xe để đầu tư tài nguyên vào.\nNếu đã làm thế cho phương tiện khác, chúng sẽ được hoàn trả vào tài khoản của bạn."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Thời gian còn lại: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Để lắp ráp một xe, hãy tiêu 100% số nguồn lực cần có. Tỷ lệ các loại nguồn lực khác nhau có thể thay đổi được."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Nếu không còn xe, mọi nguồn lực đã tiêu sẽ được hoàn trả."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Đã chọn"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Đã tiêu"
+
+msgid "tooltips/progressbar/title"
+msgstr "Thu thập Nguồn lực"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "Tiêu nguồn lực tạm thời không khả dụng. Vui lòng thử lại sau."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Phân đoạn bản vẽ phổ dụng và quốc gia."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Phân đoạn Bản vẽ"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Được thưởng từ những hoạt động giao chiến tích cực. Cũng có thể mua bằng tiền thật."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Tiền tệ"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Đã tiêu:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "Lượng nguồn lực tối đa có thể tiêu với nguồn lực này: %(maxAmount)d."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Bạn đã thu thập đủ lượng nguồn lực để lấy xe. Một loại nguồn lực có thể được thay bằng cái khác."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Đã đủ Nguồn lực"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Đây là xe độc đáo có biển hiệu riêng cũng như ngoại quan đặc biệt."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "Số hiệu được hiển thị ở cả hai bên súng cũng như phía sau thân xe. Loại biển này không bao giờ trùng lặp và có giới hạn."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "Nếu muốn bảo mật thông tin, những đặc điểm nhận dạng nói trên có thể ẩn đi bằng cách bỏ kiểu mẫu 3D kèm số hiệu ở màn hình Tùy biến."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Xe có Biển Số"

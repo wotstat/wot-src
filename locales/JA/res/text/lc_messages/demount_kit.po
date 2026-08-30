@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "解除"
+
+msgid "demountKit/gained/count"
+msgstr "解除キット（x%(count)s）"
+
+msgid "demountKit/sell/header"
+msgstr "売却:"
+
+msgid "demountKit/sell_success"
+msgstr "消耗品「解除キット」（%(count)sアイテム）。受け取ったクレジット: %(count)s。"
+
+msgid "demountKit/tooltip/description/common"
+msgstr "拡張パーツを1つ解除できます。"
+
+msgid "dialogue/description/common"
+msgstr "通常拡張パーツまたは報酬拡張パーツを1つ解除する。"
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "販売価格が割引中です。通常よりも安い価格で購入できます。"
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "解除された拡張パーツは倉庫に送られます。"
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "注意！この拡張パーツは、クラスの変更により現在搭載中の車輌と\n互換性がなくなっています。解除は無料でできますが、1度解除す\nると現在の車輌には{red_Open}再搭載不可能{red_Close}になります。"
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "拡張パーツ「%(equipment)s」\nを解除しますか？"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "%(equipment)sを解除しますか？"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "戦闘やゲームイベントで報酬として入手できます。"
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "ボンズが足りません"
+
+msgid "equipmentDemount/optionFree"
+msgstr "無料"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WoT Plus"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "キャンセル"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "この拡張パーツは重複しているため選択中の「構成」から無料で解除することができます。"
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "解除"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "拡張パーツ「%(equipment)s」を\nこのスロットから解除しますか？"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "「%(equipment)s」\nを解除して別の拡張パーツに換装しますか？"
+
+msgid "equipmentDemountPrice"
+msgstr "解除費用:"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> または %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)sまたは%(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s、%(countDK)s<br />または%(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "%(count)sで解除して売却したり他の車輌に搭載するか、無料で破棄できます。"
+
+msgid "shop/DemountOptions/common"
+msgstr "%(count)sまたは%(iconDK)sで解除して売却したり他の車輌に搭載するか、無料で破棄できます。"
+
+msgid "storage/description/common"
+msgstr "通常拡張パーツや報酬拡張パーツの解除を行う。1度使用すると消費される。"
+
+msgid "storage/userName/common"
+msgstr "解除キット"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "割引価格: %(actionPrc)s （通常価格: %(oldPrice)s）"
+
+msgid "userName/common"
+msgstr "解除キット"

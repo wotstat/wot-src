@@ -1,0 +1,7445 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "PromoPremiumIgrWindow/applyButtonLabel"
+msgstr "了解!"
+
+msgid "PromoPremiumIgrWindow/text"
+msgstr "%(iconIgr)s でプレイすることにより、多数の様々な車輌を、購入することなくレンタルして戦闘に参加することができます。スペシャルが終了してもレンタルした車輌はガレージ内に留まっていますので、安全に拡張パーツや消耗品を解除し、搭乗員を兵舎に送ることができます。"
+
+msgid "PromoPremiumIgrWindow/title"
+msgstr "特別なスペシャル!"
+
+msgid "PromoPremiumIgrWindow/windowTitle"
+msgstr "IGR の特別車輌"
+
+msgid "Time/timeLeftShort/days"
+msgstr "%(day)s日"
+
+msgid "Time/timeLeftShort/hours"
+msgstr "%(hour)s時間"
+
+msgid "Time/timeLeftShort/lessMin"
+msgstr "1 分未満"
+
+msgid "Time/timeLeftShort/min"
+msgstr "%(min)s分"
+
+msgid "Time/timeValue/days"
+msgstr "%(day)s 日 %(hour)s 時間 %(min)s 分"
+
+msgid "Time/timeValue/hours"
+msgstr "%(hour)s 時間 %(min)s 分"
+
+msgid "Time/timeValue/lessMin"
+msgstr "1 分"
+
+msgid "Time/timeValue/min"
+msgstr "%(min)s 分"
+
+msgid "Time/timeValueShort/days"
+msgstr "%(day)s日%(hour)s時間"
+
+msgid "Time/timeValueShort/hours"
+msgstr "%(hour)s時間%(min)s分"
+
+msgid "Time/timeValueShort/lessMin"
+msgstr "1分"
+
+msgid "Time/timeValueShort/min"
+msgstr "%(min)s分"
+
+msgid "Time/timeValueShort/noLeadingZeroes/days"
+msgstr "%(day)s日%(hour)s時間"
+
+msgid "Time/timeValueShort/noLeadingZeroes/hours"
+msgstr "%(hour)s時間%(min)s分"
+
+msgid "Time/timeValueShort/noLeadingZeroes/lessMin"
+msgstr "1分"
+
+msgid "Time/timeValueShort/noLeadingZeroes/min"
+msgstr "%(min)s分"
+
+msgid "Time/timeValueWithSecs/days"
+msgstr "%(day)s日%(hour)s時間"
+
+msgid "Time/timeValueWithSecs/hours"
+msgstr "%(hour)s時間%(min)s分"
+
+msgid "Time/timeValueWithSecs/lessMin"
+msgstr "%(sec)s秒"
+
+msgid "Time/timeValueWithSecs/min"
+msgstr "%(min)s分%(sec)s秒"
+
+msgid "account/profile/emptyBattleList"
+msgstr "戦闘に未参加"
+
+msgid "accountInfo/credits"
+msgstr "クレジット:"
+
+msgid "accountInfo/crystal"
+msgstr "ボンズ:"
+
+msgid "accountInfo/eventCoin"
+msgstr "アニバーサリー・コイン:"
+
+msgid "accountInfo/experience"
+msgstr "合計EXP:"
+
+msgid "accountInfo/gold"
+msgstr "ゴールド:"
+
+msgid "accountTypes/base"
+msgstr "標準アカウント"
+
+msgid "accountTypes/demo"
+msgstr "テストアカウント"
+
+msgid "accountTypes/free"
+msgstr "標準アカウント"
+
+msgid "accountTypes/guest"
+msgstr "ゲスト アカウント"
+
+msgid "accountTypes/premium"
+msgstr "Wargamingプレミアム"
+
+msgid "accountTypes/premiumPlus"
+msgstr "WoTプレミアム"
+
+msgid "accountTypes/premiumPlusShort"
+msgstr "WoT"
+
+msgid "accountTypes/premiumShort"
+msgstr "Wargaming"
+
+msgid "accountTypes/subscription"
+msgstr "プレミアムサブスクリプション"
+
+msgid "ammoReload/additionBuy"
+msgstr "購入"
+
+msgid "ammoReload/ammunition"
+msgstr "砲弾:"
+
+msgid "ammoReload/autoFill"
+msgstr "自動補給"
+
+msgid "ammoReload/cancel"
+msgstr "キャンセル"
+
+msgid "ammoReload/clearAmmunition"
+msgstr "砲弾のクリア"
+
+msgid "ammoReload/damage/title"
+msgstr "ダメージ:"
+
+msgid "ammoReload/damage/units"
+msgstr "?empty?"
+
+msgid "ammoReload/fill"
+msgstr "補給"
+
+msgid "ammoReload/inTank"
+msgstr "搭載中"
+
+msgid "ammoReload/onInventory"
+msgstr "倉庫"
+
+msgid "ammoReload/piercingPower/title"
+msgstr "貫通: 最大"
+
+msgid "ammoReload/piercingPower/units"
+msgstr "mm"
+
+msgid "ammoReload/reloadTitle"
+msgstr "砲弾"
+
+msgid "ammoReload/title"
+msgstr "砲弾の補給"
+
+msgid "ammoReload/totalcost"
+msgstr "合計:"
+
+msgid "awardWindow/boosterAward/activateBtn/label"
+msgstr "パーソナルリザーブ確認"
+
+msgid "awardWindow/boosterAward/additional"
+msgstr "このミッションを達成すると、パーソナルリザーブが使用可能になります。パーソナルリザーブは、プレイヤー名のコンテキストメニューから開く専用ウィンドウで使用可能です。"
+
+msgid "awardWindow/boosterAward/description/tillTime"
+msgstr "期間: "
+
+msgid "awardWindow/boosterAward/description/timeValue/defined"
+msgstr "%(effectTime)s (%(tillTime)s まで有効)"
+
+msgid "awardWindow/boosterAward/description/timeValue/undefined"
+msgstr "%(effectTime)s (無期限)"
+
+msgid "awardWindow/boosterAward/header"
+msgstr "パーソナルリザーブ取得: %(boosterName)s"
+
+msgid "awardWindow/closeButton"
+msgstr "閉じる"
+
+msgid "awardWindow/mission/additionalComplete"
+msgstr "副条件達成"
+
+msgid "awardWindow/mission/additionalNotComplete"
+msgstr "副条件は未達成"
+
+msgid "awardWindow/mission/available"
+msgstr "利用可能なミッション: %(count)s"
+
+msgid "awardWindow/mission/complete"
+msgstr "ミッション達成!"
+
+msgid "awardWindow/mission/conditionComplete"
+msgstr "条件達成!"
+
+msgid "awardWindow/mission/mainConditionComplete"
+msgstr "主条件達成!"
+
+msgid "awardWindow/mission/nextButton"
+msgstr "ミッションへ"
+
+msgid "awardWindow/mission/nextButton/tooltip/body"
+msgstr "挑戦できるミッションを確認します。"
+
+msgid "awardWindow/mission/nextButton/tooltip/header"
+msgstr "ミッションへ"
+
+msgid "awardWindow/okButton"
+msgstr "了解!"
+
+msgid "awardWindow/personalDiscountAward/activateBtn/label"
+msgstr "ミッション表示"
+
+msgid "awardWindow/personalDiscountAward/additional/experience/rent"
+msgstr "この車輌を気に入ったのであれば、購入して無制限に使用しましょう。"
+
+msgid "awardWindow/personalDiscountAward/additional/slot"
+msgstr "戦闘で使用する車輌のレベルが高いほど、戦闘後に取得できるクレジットが多くなりますが、ゲームの難易度も高くなります。"
+
+msgid "awardWindow/personalDiscountAward/award/experience"
+msgstr "フリーEXPへの変換の 100% 割引 1 回 (最大 2,000EXP)"
+
+msgid "awardWindow/personalDiscountAward/award/slot"
+msgstr "スロット 1 個購入の 100% 割引 1 回"
+
+msgid "awardWindow/personalDiscountAward/award/training"
+msgstr "新車輌搭乗員に対するタンクアカデミー訓練の 100% 割引 1 回"
+
+msgid "awardWindow/personalDiscountAward/description/experience"
+msgstr "この車輌で所要の戦闘数に参加しました。"
+
+msgid "awardWindow/personalDiscountAward/description/experience/rent"
+msgstr "このレンタル車輌で所要の戦闘数に参加しました。"
+
+msgid "awardWindow/personalDiscountAward/description/slot"
+msgstr "より高い Tier の車輌を購入しました。"
+
+msgid "awardWindow/personalDiscountAward/description/training"
+msgstr "戦闘EXPをフリーEXPへと変換する手順を習得しました。"
+
+msgid "awardWindow/personalDiscountAward/header"
+msgstr "おめでとうございます！"
+
+msgid "awardWindow/personalDiscountAward/rewardText"
+msgstr "完了\n報酬"
+
+msgid "awardWindow/personalDiscountAward/title"
+msgstr "おめでとうございます"
+
+msgid "awardWindow/personalMission/alreadyCompleted"
+msgstr " (達成済み)"
+
+msgid "awardWindow/personalMission/available"
+msgstr "次のミッションを利用可能"
+
+msgid "awardWindow/personalMission/complete"
+msgstr "ミッション達成!"
+
+msgid "awardWindow/personalMission/completeWithHonors"
+msgstr "ミッション\n名誉達成!"
+
+msgid "awardWindow/personalMission/mainConditionCompleted"
+msgstr "主条件達成!"
+
+msgid "awardWindow/personalMission/nextButton"
+msgstr "ミッションを表示"
+
+msgid "awardWindow/personalMission/nextButton/tooltip/body"
+msgstr "次のミッションの達成条件と報酬を確認します。"
+
+msgid "awardWindow/personalMission/nextButton/tooltip/header"
+msgstr "ミッションを表示"
+
+msgid "awardWindow/personalMission/nextButtonAward"
+msgstr "女性搭乗員を採用"
+
+msgid "awardWindow/personalMission/nextButtonAward/tooltip/body"
+msgstr "最終ミッションの達成報酬として入手した女性搭乗員を採用します。"
+
+msgid "awardWindow/personalMission/nextButtonAward/tooltip/header"
+msgstr "採用"
+
+msgid "awardWindow/personalMission/sideConditionCompleted"
+msgstr "副条件達成!"
+
+msgid "awardWindow/personalMission/sideConditionNotCompleted"
+msgstr "副条件は未達成"
+
+msgid "awardWindow/quests/medals/header"
+msgstr "報酬が与えられました!"
+
+msgid "awardWindow/quests/taskComplete/additional"
+msgstr "副条件達成報酬: %(award)s"
+
+msgid "awardWindow/quests/taskComplete/additionalNotComplete"
+msgstr "副条件は未達成です。"
+
+msgid "awardWindow/quests/taskComplete/awardForComlete"
+msgstr "達成\n報酬"
+
+msgid "awardWindow/quests/taskComplete/awardRecieved"
+msgstr "主条件達成報酬は既に取得済みです。"
+
+msgid "awardWindow/quests/taskComplete/description"
+msgstr "最高司令部は、このミッションの達成に感謝し、有用な報酬を授与します。"
+
+msgid "awardWindow/quests/taskComplete/header"
+msgstr "ミッション %(taskName)s 達成!"
+
+msgid "awardWindow/quests/taskComplete/nextTaskAutoChoice"
+msgstr "ミッション \"%(taskName)s\" 開始"
+
+msgid "awardWindow/quests/vehicle/description"
+msgstr "最高司令部は、このオペレーションの全ミッションの達成に感謝し、あなたに特別車輌を授与します。"
+
+msgid "awardWindow/quests/vehicle/header"
+msgstr "報酬 %(vehicleName)s がガレージで待っています!"
+
+msgid "awardWindow/recruitButton"
+msgstr "募集"
+
+msgid "awardWindow/recruiterAward/description"
+msgstr "あなたは指揮官になる要件を全て満たしており、共にプレイする友達を招待することが可能です。"
+
+msgid "awardWindow/recruiterAward/header"
+msgstr "条件に適合!"
+
+msgid "awardWindow/recruiterAward/okButton"
+msgstr "進行"
+
+msgid "awardWindow/recruiterAward/title"
+msgstr "フレンド招待プログラム"
+
+msgid "awardWindow/takeNextButton"
+msgstr "次のミッションを選択"
+
+msgid "awardWindow/telecomAward/button/label/default"
+msgstr "ガレージで表示"
+
+msgid "awardWindow/telecomAward/description/full/Twitchprime"
+msgstr "おめでとう！ Prime Gamingの特典ドロップが届いたぞ！\n%(vehicles)s\n• ガレージスロット"
+
+msgid "awardWindow/telecomAward/description/full/default"
+msgstr "おめでとう！ 料金プラン「Igrovoy」の特典ドロップが届いたぞ！\n%(vehicles)s\n• %(prem)s (料金プランの契約期間中)\n• ガレージスロット"
+
+msgid "awardWindow/telecomAward/description/prem/default"
+msgstr "WoTプレミアムアカウント"
+
+msgid "awardWindow/telecomAward/description/withBrotherhood/Twitchprime"
+msgstr "おめでとう！ Prime Gamingの特典ドロップが届いたぞ！\n%(vehicles)s\n• パーク「戦友」を習得済みの搭乗員\n• ガレージスロット"
+
+msgid "awardWindow/telecomAward/description/withBrotherhood/default"
+msgstr "おめでとう！ 料金プラン「Igrovoy」の特典ドロップが届いたぞ！\n%(vehicles)s\n• パーク「戦友」を習得済み搭乗員\n• %(prem)s (料金プランの契約期間中)\n• ガレージスロット"
+
+msgid "awardWindow/telecomAward/description/withoutCrew/Twitchprime"
+msgstr "おめでとう！ Prime Gamingの特典ドロップが届いたぞ！\n%(vehicles)s\n• ガレージスロット"
+
+msgid "awardWindow/telecomAward/description/withoutCrew/default"
+msgstr "おめでとう！ 料金プラン「Igrovoy」の特典ドロップが届いたぞ！\n%(vehicles)s\n• %(prem)s (料金プランの契約期間中)\n• ガレージスロット"
+
+msgid "awardWindow/telecomAward/header/default"
+msgstr "報酬が与えられました!"
+
+msgid "awardWindow/telecomAward/subdescription/default"
+msgstr "この車輌を売却したり削除したりすることはできません。"
+
+msgid "awardWindow/telecomAward/title/default"
+msgstr "広報"
+
+msgid "awardWindow/telecomAward/vehicles/Twitchprime"
+msgstr "• %(nation)sTier %(level)s %(type)s「%(vehicle)s」 (限定スタイル付き)"
+
+msgid "awardWindow/telecomAward/vehicles/default"
+msgstr "• %(nation)sTier %(level)s %(type)s「%(vehicle)s」 (限定迷彩付き)"
+
+msgid "awardWindow/title/boosterAward"
+msgstr "達成おめでとうございます"
+
+msgid "awardWindow/title/credits"
+msgstr "給付金"
+
+msgid "awardWindow/title/newMedals"
+msgstr "推薦"
+
+msgid "awardWindow/title/newTankman"
+msgstr "兵舎の新搭乗員"
+
+msgid "awardWindow/title/newVehicle"
+msgstr "ガレージの新車輌"
+
+msgid "awardWindow/title/taskComplete"
+msgstr "達成おめでとうございます"
+
+msgid "awardWindow/title/tokens"
+msgstr "推薦"
+
+msgid "awardWindow/vehicleCollector/description"
+msgstr "おめでとうざいます！ %(nation)sのコレクション車輌をすべて入手したことに対して、記念勲章が授与されます。"
+
+msgid "awardWindow/vehicleCollector/header"
+msgstr "コレクション完成"
+
+msgid "awardWindow/vehicleCollector/okButton"
+msgstr "了解！"
+
+msgid "awardWindow/vehicleCollector/title"
+msgstr "%(nation)sのコレクション車輌"
+
+msgid "awardWindow/vehicleCollectorOfEverything/description"
+msgstr "おめでとうざいます！ すべての国のコレクション車輌をすべて入手したことに対して、記念勲章が授与されます。"
+
+msgid "awardWindow/vehicleCollectorOfEverything/header"
+msgstr "報酬を獲得！"
+
+msgid "awardWindow/vehicleCollectorOfEverything/okButton"
+msgstr "了解！"
+
+msgid "awardWindow/vehicleCollectorOfEverything/title"
+msgstr "コレクション車輌"
+
+msgid "badge/confirm"
+msgstr "了解！"
+
+msgid "badge/new"
+msgstr "報酬を獲得！"
+
+msgid "badgePage/tutorial/newSuffixBadge"
+msgstr "バナーを適用可能"
+
+msgid "barracks/btnDissmiss"
+msgstr "解任"
+
+msgid "barracks/btnUnload"
+msgstr "兵舎に送る"
+
+msgid "barracks/notRecruitedActivateBefore"
+msgstr "期限: %(date)s"
+
+msgid "battleAbility/title"
+msgstr "戦闘リザーブ"
+
+msgid "blueprints/conversionView/btnCancel"
+msgstr "キャンセル"
+
+msgid "blueprints/conversionView/btnConvert"
+msgstr "作成"
+
+msgid "blueprints/conversionView/multiConversion/description"
+msgstr "作成できる車輌ピースの数: {fragCount}"
+
+msgid "blueprints/conversionView/multiConversion/title"
+msgstr "{vehName}の車輌設計図のピースを作成"
+
+msgid "blueprints/conversionView/title"
+msgstr "{vehName}の車輌設計図のピースを作成"
+
+msgid "bonusType/0"
+msgstr "不明"
+
+msgid "bonusType/1"
+msgstr "ランダム戦"
+
+msgid "bonusType/10"
+msgstr "前衛戦"
+
+msgid "bonusType/11"
+msgstr "進撃戦"
+
+msgid "bonusType/12"
+msgstr "チームバトル: ランク戦"
+
+msgid "bonusType/13"
+msgstr "グローバルマップ"
+
+msgid "bonusType/16"
+msgstr "戦車訓練"
+
+msgid "bonusType/18"
+msgstr "制圧戦"
+
+msgid "bonusType/19"
+msgstr "スチールハント"
+
+msgid "bonusType/2"
+msgstr "チームトレーニング"
+
+msgid "bonusType/20"
+msgstr "前衛戦"
+
+msgid "bonusType/21"
+msgstr "進撃戦"
+
+msgid "bonusType/22"
+msgstr "ランク戦"
+
+msgid "bonusType/24"
+msgstr "グランドバトル"
+
+msgid "bonusType/27"
+msgstr "フロントライン"
+
+msgid "bonusType/29"
+msgstr "「STEEL HUNTER」"
+
+msgid "bonusType/37"
+msgstr "先行偵察ミッション"
+
+msgid "bonusType/38"
+msgstr "地誌学"
+
+msgid "bonusType/4"
+msgstr "特別戦"
+
+msgid "bonusType/42"
+msgstr "「%(modeName)s」"
+
+msgid "bonusType/43"
+msgstr "オンスロート"
+
+msgid "bonusType/44"
+msgstr "ウォームアップ"
+
+msgid "bonusType/49"
+msgstr "オンスロート・ライト"
+
+msgid "bonusType/5"
+msgstr "特別戦"
+
+msgid "bonusType/6"
+msgstr "戦闘訓練"
+
+msgid "bonusType/7"
+msgstr "チームバトル"
+
+msgid "bonusType/8"
+msgstr "ヒストリカルバトル"
+
+msgid "bonusType/9"
+msgstr "特別モード"
+
+msgid "booster/bonus/booster_credits"
+msgstr "戦闘で取得するクレジット %(effectValue)s (%(effectHours)s)"
+
+msgid "booster/bonus/booster_crew_xp"
+msgstr "戦闘で取得する搭乗員EXP%(effectValue)s (%(effectHours)s)"
+
+msgid "booster/bonus/booster_fl_xp"
+msgstr "戦闘で取得するフロントラインEXP %(effectValue)s (%(effectHours)s)"
+
+msgid "booster/bonus/booster_free_xp"
+msgstr "戦闘で取得するフリーEXP%(effectValue)s (%(effectHours)s)"
+
+msgid "booster/bonus/booster_free_xp_and_crew_xp"
+msgstr "フリーEXPと搭乗員EXP%(effectValue)s （%(effectHours)s時間）"
+
+msgid "booster/bonus/booster_xp"
+msgstr "戦闘で取得するEXP%(effectValue)s (%(effectHours)s)"
+
+msgid "booster/description/bonusValueTime/booster_credits"
+msgstr "戦闘で取得するクレジットに対するボーナス %(effectValue)s (%(effectTime)s)"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "戦闘で取得する搭乗員EXPに対するボーナス %(effectValue)s (%(effectTime)s)"
+
+msgid "booster/description/bonusValueTime/booster_fl_xp"
+msgstr "戦闘で取得するフロントラインEXPに対するボーナス %(effectValue)s (%(effectTime)s)"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "戦闘で取得するフリーEXPに対するボーナス %(effectValue)s (%(effectTime)s)"
+
+msgid "booster/description/bonusValueTime/booster_free_xp_and_crew_xp"
+msgstr "フリーEXPと搭乗員EXP%(effectValue)s （%(effectTime)s時間）"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "戦闘で取得するEXPに対するボーナス %(effectValue)s (%(effectTime)s)"
+
+msgid "booster/description/booster_credits"
+msgstr "戦闘で取得するクレジット %(effectValue)s"
+
+msgid "booster/description/booster_crew_xp"
+msgstr "戦闘で取得する搭乗員EXP %(effectValue)s"
+
+msgid "booster/description/booster_fl_xp"
+msgstr "戦闘で取得するフロントラインEXP %(effectValue)s"
+
+msgid "booster/description/booster_free_xp"
+msgstr "戦闘で取得するフリーEXP %(effectValue)s"
+
+msgid "booster/description/booster_free_xp_and_crew_xp"
+msgstr "フリーEXPと搭乗員EXP%(effectValue)s"
+
+msgid "booster/description/booster_repair"
+msgstr "修理費用 %(effectValue)s"
+
+msgid "booster/description/booster_xp"
+msgstr "戦闘で取得するEXP %(effectValue)s"
+
+msgid "booster/description/effectTime"
+msgstr " （持続時間: %(effectTime)s）"
+
+msgid "booster/description/effectValueTime"
+msgstr "%(effectValue)s (%(effectTime)s)"
+
+msgid "booster/influence/booster_credits"
+msgstr "戦闘で取得するクレジット"
+
+msgid "booster/influence/booster_crew_xp"
+msgstr "戦闘で取得する搭乗員EXP"
+
+msgid "booster/influence/booster_fl_xp"
+msgstr "戦闘で取得するフロントラインEXP"
+
+msgid "booster/influence/booster_free_xp"
+msgstr "戦闘で取得するフリーEXP"
+
+msgid "booster/influence/booster_free_xp_and_crew_xp"
+msgstr "戦闘で取得するフリーEXPと搭乗員EXP"
+
+msgid "booster/influence/booster_xp"
+msgstr "戦闘で取得するEXP"
+
+msgid "booster/label/booster_credits"
+msgstr "クレジット %(effectValue)s"
+
+msgid "booster/label/booster_crew_xp"
+msgstr "搭乗員EXP %(effectValue)s"
+
+msgid "booster/label/booster_free_xp"
+msgstr "フリーEXP %(effectValue)s"
+
+msgid "booster/label/booster_free_xp_and_crew_xp"
+msgstr "フリーEXPと搭乗員EXP %(effectValue)s"
+
+msgid "booster/label/booster_xp"
+msgstr "戦闘EXP %(effectValue)s"
+
+msgid "booster/limit/booster_fl_xp"
+msgstr "フロントラインモード用"
+
+msgid "booster/quality/big"
+msgstr "(大)"
+
+msgid "booster/quality/medium"
+msgstr "(中)"
+
+msgid "booster/quality/small"
+msgstr "(小)"
+
+msgid "booster/userName/booster_credits"
+msgstr "各戦でのクレジット増加"
+
+msgid "booster/userName/booster_crew_xp"
+msgstr "各戦での搭乗員EXP増加"
+
+msgid "booster/userName/booster_fl_xp"
+msgstr "各戦でのフロントラインEXP増加"
+
+msgid "booster/userName/booster_free_xp"
+msgstr "各戦でのフリーEXP増加"
+
+msgid "booster/userName/booster_free_xp_and_crew_xp"
+msgstr "フリーEXPと搭乗員EXP増加"
+
+msgid "booster/userName/booster_repair"
+msgstr "車輌の修理費用を軽減"
+
+msgid "booster/userName/booster_xp"
+msgstr "各戦でのEXP増加"
+
+msgid "boosterBuyWindow/buyButtonLabel"
+msgstr "購入"
+
+msgid "boosterBuyWindow/cancelButtonLabel"
+msgstr "キャンセル"
+
+msgid "boosterBuyWindow/pricePerItem"
+msgstr "アイテム 1 個の購入価格:"
+
+msgid "boosterBuyWindow/rearmCheckboxLabel"
+msgstr "自動補給"
+
+msgid "boosterBuyWindow/title"
+msgstr "ディレクティブ \"{name}\" を購入しますか?"
+
+msgid "boosterInfo/closeBtn"
+msgstr "閉じる"
+
+msgid "boosterSelectPopover/rearmCheckBoxLabel"
+msgstr "自動補給"
+
+msgid "boosterSellWindow/pricePerItem"
+msgstr "アイテム 1 個の販売価格:"
+
+msgid "boosterSellWindow/title"
+msgstr "ディレクティブ \"{name}\" を売りますか?"
+
+msgid "boosters/common/effect_time"
+msgstr "期間"
+
+msgid "boosters/common/effect_value"
+msgstr "ボーナス値"
+
+msgid "boosters/common/name"
+msgstr "パーソナルリザーブ"
+
+msgid "boosters/timeLeft/days"
+msgstr "%(day)s 日 %(hour)s 時間"
+
+msgid "boosters/timeLeft/hours"
+msgstr "%(hour)s 時間 %(min)s 分"
+
+msgid "boosters/timeLeft/lessMin"
+msgstr "1 分"
+
+msgid "boosters/timeLeft/min"
+msgstr "%(min)s 分"
+
+msgid "boostersWindow/activeBoosters"
+msgstr "現在有効: %(activeNo)s / %(allNo)s"
+
+msgid "boostersWindow/boostersTable/noInfo/empty/message"
+msgstr "表示対象なし"
+
+msgid "boostersWindow/boostersTable/noInfo/notFound/message"
+msgstr "有効なパーソナルリザーブ・フィルターを確認 (あれば)"
+
+msgid "boostersWindow/boostersTable/noInfo/notFound/title"
+msgstr "該当なし"
+
+msgid "boostersWindow/boostersTableRenderer/activateBtnLabel"
+msgstr "使用"
+
+msgid "boostersWindow/boostersTableRenderer/buyBtnLabel"
+msgstr "購入"
+
+msgid "boostersWindow/boostersTableRenderer/goToQuestBtnLabel"
+msgstr "ミッションに移動"
+
+msgid "boostersWindow/boostersTableRenderer/questForOpen"
+msgstr "パーソナルリザーブを取得するには、%(questName)s を達成してください"
+
+msgid "boostersWindow/boostersTableRenderer/time"
+msgstr "期間: %(tillTime)s まで"
+
+msgid "boostersWindow/boostersTableRenderer/undefineTime"
+msgstr "無期限"
+
+msgid "boostersWindow/closeBtn/label"
+msgstr "閉じる"
+
+msgid "boostersWindow/levelFilters/label"
+msgstr "サイズ:"
+
+msgid "boostersWindow/returnBtn/label"
+msgstr "一覧に戻る"
+
+msgid "boostersWindow/tabs/availableLabel"
+msgstr "使用 (%(count)s)"
+
+msgid "boostersWindow/tabs/buyLabel"
+msgstr "購入 (%(count)s)"
+
+msgid "boostersWindow/tabs/notAvailableLabel"
+msgstr "獲得 (%(count)s)"
+
+msgid "boostersWindow/title"
+msgstr "パーソナルリザーブ"
+
+msgid "boostersWindow/typeFilters/label"
+msgstr "タイプ:"
+
+msgid "browser/customTitle/fort/congratulation"
+msgstr "おめでとうございます"
+
+msgid "browser/customTitle/fort/offensiveResult"
+msgstr "進撃戦結果"
+
+msgid "browser/dataUnavailable/description"
+msgstr "情報は一時的にご利用いただけません。"
+
+msgid "browser/dataUnavailable/header"
+msgstr "注意!"
+
+msgid "browser/window/title"
+msgstr "ブラウザ"
+
+msgid "carouselFilter/igr"
+msgstr "IGR"
+
+msgid "carousel_tank_filter/AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "carousel_tank_filter/SPG"
+msgstr "自走砲"
+
+msgid "carousel_tank_filter/all"
+msgstr "全て"
+
+msgid "carousel_tank_filter/assault"
+msgstr "攻撃的"
+
+msgid "carousel_tank_filter/break"
+msgstr "突破型"
+
+msgid "carousel_tank_filter/canInstallAttachments"
+msgstr "3D付属品"
+
+msgid "carousel_tank_filter/heavyTank"
+msgstr "重戦車"
+
+msgid "carousel_tank_filter/lightTank"
+msgstr "軽戦車"
+
+msgid "carousel_tank_filter/mediumTank"
+msgstr "中戦車"
+
+msgid "carousel_tank_filter/own3DStyle"
+msgstr "3Dスタイル"
+
+msgid "carousel_tank_filter/ready"
+msgstr "メインのみ"
+
+msgid "carousel_tank_filter/sniper"
+msgstr "狙撃型"
+
+msgid "carousel_tank_filter/support"
+msgstr "支援型"
+
+msgid "carousel_tank_filter/universal"
+msgstr "万能型"
+
+msgid "carousel_tank_filter/wheeled"
+msgstr "装輪式"
+
+msgid "centerIsAvailable"
+msgstr "全サーバーがご利用頂けます。"
+
+msgid "centerIsUnAvailable"
+msgstr "ゲームサービスは一時的にご利用頂けません。"
+
+msgid "classes/AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "classes/SPG"
+msgstr "自走砲"
+
+msgid "classes/anyType"
+msgstr "全てのタイプ"
+
+msgid "classes/heavyTank"
+msgstr "重戦車"
+
+msgid "classes/lightTank"
+msgstr "軽戦車"
+
+msgid "classes/mediumTank"
+msgstr "中戦車"
+
+msgid "classes/short/AT-SPG"
+msgstr "TD"
+
+msgid "classes/short/Alliance-France"
+msgstr "Coalition (フランス、チェコスロバキア、スウェーデン、イタリア)"
+
+msgid "classes/short/Alliance-Germany"
+msgstr "Bloc (ドイツ、日本)"
+
+msgid "classes/short/Alliance-USA"
+msgstr "Alliance (アメリカ、イギリス、ポーランド)"
+
+msgid "classes/short/Alliance-USSR"
+msgstr "Union (ソ連、中国)"
+
+msgid "classes/short/SPG"
+msgstr "SPG"
+
+msgid "classes/short/heavyTank"
+msgstr "HT"
+
+msgid "classes/short/lightTank"
+msgstr "LT"
+
+msgid "classes/short/mediumTank"
+msgstr "MT"
+
+msgid "common/premiumBuy"
+msgstr "アップグレード"
+
+msgid "common/premiumContinue"
+msgstr "プレミアムの延長"
+
+msgid "contextMenu/acceptInvitationToSquad"
+msgstr "招待を承諾して小隊に参加"
+
+msgid "contextMenu/addToFriends"
+msgstr "フレンドリストに追加"
+
+msgid "contextMenu/addToIgnored"
+msgstr "ブラックリストに追加"
+
+msgid "contextMenu/appeal"
+msgstr "通報する"
+
+msgid "contextMenu/assignOfficer"
+msgstr "昇格"
+
+msgid "contextMenu/assignPrivate"
+msgstr "降格"
+
+msgid "contextMenu/bot"
+msgstr "放置行為/Bot"
+
+msgid "contextMenu/botNoActions"
+msgstr "利用可能なアクションなし"
+
+msgid "contextMenu/buy"
+msgstr "購入"
+
+msgid "contextMenu/buyAndEquip"
+msgstr "購入し搭載する"
+
+msgid "contextMenu/buyOrTradeIn"
+msgstr "購入または下取り"
+
+msgid "contextMenu/cancelBuy"
+msgstr "購入のキャンセル"
+
+msgid "contextMenu/clanInfo"
+msgstr "プレイヤークラン・プロフィール"
+
+msgid "contextMenu/commendBack"
+msgstr "「いいぞ」を返す"
+
+msgid "contextMenu/commendFirst"
+msgstr "「いいぞ」を送る"
+
+msgid "contextMenu/compare"
+msgstr "比較対象に追加"
+
+msgid "contextMenu/copyClanName"
+msgstr "クラン名をコピー"
+
+msgid "contextMenu/copyToClipBoard"
+msgstr "クリップボードにコピー"
+
+msgid "contextMenu/createBattleRoyaleSquad"
+msgstr "ハンター小隊の作成"
+
+msgid "contextMenu/createComp7LightSquad"
+msgstr "オンスロート・ライト小隊を作成"
+
+msgid "contextMenu/createComp7Squad"
+msgstr "オンスロート小隊の作成"
+
+msgid "contextMenu/createContactNote"
+msgstr "ノート作成"
+
+msgid "contextMenu/createEventSquad"
+msgstr "イベント小隊の作成"
+
+msgid "contextMenu/createMapboxSquad"
+msgstr "先行偵察小隊の作成"
+
+msgid "contextMenu/createPlaylist"
+msgstr "プレイリストを作成"
+
+msgid "contextMenu/createPrivateChannel"
+msgstr "メッセージ送信"
+
+msgid "contextMenu/createSquad"
+msgstr "小隊の作成"
+
+msgid "contextMenu/crewWidgetChangeCrewMember"
+msgstr "別の搭乗員に変更"
+
+msgid "contextMenu/crewWidgetChangeSpecialization"
+msgstr "車輌適性を変更"
+
+msgid "contextMenu/crewWidgetDismiss"
+msgstr "解任"
+
+msgid "contextMenu/crewWidgetPersonalFile"
+msgstr "個人ファイル"
+
+msgid "contextMenu/crewWidgetQuickTraining"
+msgstr "急速訓練"
+
+msgid "contextMenu/crewWidgetRetrain"
+msgstr "再訓練"
+
+msgid "contextMenu/crewWidgetSendToToBarracks"
+msgstr "兵舎に送還"
+
+msgid "contextMenu/disableCommunications"
+msgstr "この戦闘中はブロック"
+
+msgid "contextMenu/dismiss"
+msgstr "解任"
+
+msgid "contextMenu/editContactNote"
+msgstr "ノート編集"
+
+msgid "contextMenu/enableCommunications"
+msgstr "ブロック解除"
+
+msgid "contextMenu/equip"
+msgstr "搭載"
+
+msgid "contextMenu/exchange"
+msgstr "変換"
+
+msgid "contextMenu/excludedFromSquad"
+msgstr "小隊から除外"
+
+msgid "contextMenu/forbiddenNick"
+msgstr "不適切なプレイヤー/クラン名"
+
+msgid "contextMenu/giveArtilleryEquipmentCommander"
+msgstr "「砲兵」に任命"
+
+msgid "contextMenu/giveInspireEquipmentCommander"
+msgstr "「輜重兵」に任命"
+
+msgid "contextMenu/giveLeadership"
+msgstr "指揮官権限を移譲"
+
+msgid "contextMenu/goToBlueprint"
+msgstr "設計図へ"
+
+msgid "contextMenu/goToCollection"
+msgstr "コレクションに移動"
+
+msgid "contextMenu/goToNationTree"
+msgstr "技術ツリー"
+
+msgid "contextMenu/goToNextVehicle"
+msgstr "モジュールの研究"
+
+msgid "contextMenu/inSquad"
+msgstr "プレイヤーは小隊に参加中"
+
+msgid "contextMenu/incorrectBehavior"
+msgstr "チャットでの不適切なふるまい"
+
+msgid "contextMenu/invite"
+msgstr "戦術ユニットへ招待"
+
+msgid "contextMenu/kickPlayerFromPrebattle"
+msgstr "戦術ユニットから除外"
+
+msgid "contextMenu/kickPlayerFromUnit"
+msgstr "戦術ユニットから除外"
+
+msgid "contextMenu/leaveSquad"
+msgstr "小隊から脱退"
+
+msgid "contextMenu/lockSlot"
+msgstr "スロットのロック"
+
+msgid "contextMenu/managePlaylists"
+msgstr "プレイリスト"
+
+msgid "contextMenu/mentorAssignment"
+msgstr "引き継ぎ研修"
+
+msgid "contextMenu/messenger/closeAllExceptCurrent"
+msgstr "現在以外を全て閉じる"
+
+msgid "contextMenu/messenger/closeCurrent"
+msgstr "現在のチャンネルを閉じる"
+
+msgid "contextMenu/messenger/minimizeAll"
+msgstr "全チャンネルを最小化"
+
+msgid "contextMenu/moduleInfo"
+msgstr "特性"
+
+msgid "contextMenu/moneyTransfer"
+msgstr "ゴールドの送付"
+
+msgid "contextMenu/mutualCommendation"
+msgstr "「いいぞ」を送り合いました"
+
+msgid "contextMenu/nationChange"
+msgstr "国籍変更"
+
+msgid "contextMenu/notFairPlay"
+msgstr "非スポーツマン行為"
+
+msgid "contextMenu/outgoingCommendation"
+msgstr "「いいぞ」を送りました"
+
+msgid "contextMenu/personalCase/statsBlockTitle"
+msgstr "プレミアム車輌上"
+
+msgid "contextMenu/profileVehicleCompare"
+msgstr "比較対象に追加"
+
+msgid "contextMenu/rejectFriendship"
+msgstr "フレンドリクエストを拒否"
+
+msgid "contextMenu/rejectInvitationToSquad"
+msgstr "小隊への招待を拒否"
+
+msgid "contextMenu/removeContactNote"
+msgstr "ノート削除"
+
+msgid "contextMenu/removeFromFriends"
+msgstr "フレンドリストから削除"
+
+msgid "contextMenu/removeFromIgnored"
+msgstr "ブラックリストから削除"
+
+msgid "contextMenu/requestFriendship"
+msgstr "フレンドリクエストを再送"
+
+msgid "contextMenu/restore"
+msgstr "リカバリー"
+
+msgid "contextMenu/selectVehicleInHangar"
+msgstr "ガレージで車輌を選択"
+
+msgid "contextMenu/sell"
+msgstr "売却"
+
+msgid "contextMenu/sellFromInventory"
+msgstr "倉庫から売却"
+
+msgid "contextMenu/sendClanInvite"
+msgstr "クランへ招待"
+
+msgid "contextMenu/sendInvitationToSquad"
+msgstr "小隊へ招待"
+
+msgid "contextMenu/setMuted"
+msgstr "音声チャット無効"
+
+msgid "contextMenu/showVehiclePreview"
+msgstr "車輌プレビュー"
+
+msgid "contextMenu/showVehicleStatistics"
+msgstr "成績"
+
+msgid "contextMenu/takeArtilleryEquipmentCommander"
+msgstr "「砲兵」から解任"
+
+msgid "contextMenu/takeInspireEquipmentCommander"
+msgstr "「輜重兵」から解任"
+
+msgid "contextMenu/takeLeadership"
+msgstr "指揮官権限を取得"
+
+msgid "contextMenu/telecomRent"
+msgstr "レンタル車輌を表示"
+
+msgid "contextMenu/unequip"
+msgstr "無効化"
+
+msgid "contextMenu/unload"
+msgstr "倉庫に送る"
+
+msgid "contextMenu/unlock"
+msgstr "研究"
+
+msgid "contextMenu/unlockSlot"
+msgstr "スロットのアンロック"
+
+msgid "contextMenu/unsetMuted"
+msgstr "音声チャット有効"
+
+msgid "contextMenu/userInfo"
+msgstr "プレイヤーの実績"
+
+msgid "contextMenu/userVehicleCompare"
+msgstr "比較対象に追加"
+
+msgid "contextMenu/vehSkillTree"
+msgstr "アップグレードへ"
+
+msgid "contextMenu/vehicleBuy"
+msgstr "購入する"
+
+msgid "contextMenu/vehicleCheck"
+msgstr "メインに設定"
+
+msgid "contextMenu/vehicleInfo"
+msgstr "車輌の詳細"
+
+msgid "contextMenu/vehicleInfoEx"
+msgstr "車輌の詳細"
+
+msgid "contextMenu/vehiclePostProgression"
+msgstr "野戦改修"
+
+msgid "contextMenu/vehiclePreview"
+msgstr "車輌プレビュー"
+
+msgid "contextMenu/vehicleRemove"
+msgstr "削除"
+
+msgid "contextMenu/vehicleResearch"
+msgstr "研究"
+
+msgid "contextMenu/vehicleRestore"
+msgstr "リカバリーする"
+
+msgid "contextMenu/vehicleSell"
+msgstr "売却"
+
+msgid "contextMenu/vehicleUncheck"
+msgstr "サブに設定"
+
+msgid "contextMenu/viewClanProfile"
+msgstr "クラン・プロフィール"
+
+msgid "contextMenu/withdrawInvitationToSquad"
+msgstr "小隊への招待を取り消す"
+
+msgid "copy"
+msgstr "© 2009–2026 Wargaming.net. All rights reserved."
+
+msgid "counter/newCounter"
+msgstr "NEW"
+
+msgid "crystals/info/tab/earn/events/description"
+msgstr "ボンズは以下の方法でも入手可能\n%(types)"
+
+msgid "crystals/info/tab/earn/events/descriptionContent"
+msgstr "特定のイベント開催期間にデイリーミッション\nを達成したり、特定のスペシャルに参加する"
+
+msgid "crystals/info/tab/earn/events/title"
+msgstr "イベントでのボンズ取得"
+
+msgid "crystals/info/tab/earn/level/description"
+msgstr "インジケーターが表示される%(level10And11)車輌または%(level9)プレミアム車輌\nで以下のモードをプレイするとボンズを取得できます。"
+
+msgid "crystals/info/tab/earn/level/descriptionContent/level10And11"
+msgstr "Tier X～XI"
+
+msgid "crystals/info/tab/earn/level/descriptionContent/level9"
+msgstr "Tier IX"
+
+msgid "crystals/info/tab/earn/level/mod/0"
+msgstr "ランダム戦"
+
+msgid "crystals/info/tab/earn/level/title"
+msgstr "車輌Tier"
+
+msgid "crystals/info/tab/earn/marker/description/1"
+msgstr "各車輌で毎週取得できるボンズ数には%(week)"
+
+msgid "crystals/info/tab/earn/marker/description/2"
+msgstr "ボンズを入手できる車輌には、車輌パネルの\n下部に紫のインジケーターが表示されます。"
+
+msgid "crystals/info/tab/earn/marker/description/3"
+msgstr "制限は毎週リセットされます。"
+
+msgid "crystals/info/tab/earn/marker/descriptionContent/week"
+msgstr "制限があります。"
+
+msgid "crystals/info/tab/earn/marker/title"
+msgstr "ボンズ・インジケーター"
+
+msgid "crystals/info/tab/earnTab"
+msgstr "取得方法"
+
+msgid "crystals/info/tab/get/card/condition"
+msgstr "条件"
+
+msgid "crystals/info/tab/get/card/defeat"
+msgstr "敗北 / 引き分け"
+
+msgid "crystals/info/tab/get/card/description"
+msgstr "取得EXPでTOP%(position)s"
+
+msgid "crystals/info/tab/get/card/win"
+msgstr "勝利"
+
+msgid "crystals/info/tab/get/description"
+msgstr "ボンズ・インジケーターが表示される車輌でランダム戦をプレイすると、取得基本EXPでの順位に応じてボンズを入手できます。"
+
+msgid "crystals/info/tab/get/random"
+msgstr "ランダム戦"
+
+msgid "crystals/info/tab/getTab"
+msgstr "取得条件"
+
+msgid "crystals/info/tab/spend/card/instructions/description"
+msgstr "搭載した拡張パーツの効果を向上させる。"
+
+msgid "crystals/info/tab/spend/card/instructions/title"
+msgstr "ディレクティブ"
+
+msgid "crystals/info/tab/spend/card/price"
+msgstr "%(price)s  より"
+
+msgid "crystals/info/tab/spend/card/specialEquipment/description"
+msgstr "車輌特性を向上させる。通常の拡張パーツより高い効果を発揮。"
+
+msgid "crystals/info/tab/spend/card/specialEquipment/title"
+msgstr "改良型\n拡張パーツ"
+
+msgid "crystals/info/tab/spend/card/specialTanks/description"
+msgstr "ボンズでのみ購入可能な限定車輌。"
+
+msgid "crystals/info/tab/spend/card/specialTanks/title"
+msgstr "ボンズ用車輌"
+
+msgid "crystals/info/tab/spend/card/toShop"
+msgstr "ショップへ"
+
+msgid "crystals/info/tab/spend/description"
+msgstr "ボンズを集めると、限定車輌、拡張パーツ用ディレクティブ、そして車輌特性を大幅に強化する改良型拡張パーツが購入できます。"
+
+msgid "crystals/info/tab/spendTab"
+msgstr "用途"
+
+msgid "crystals/info/title"
+msgstr "ボンズ"
+
+msgid "crystals/promoWindow/title"
+msgstr "ボンズ"
+
+msgid "cst_item_ctx_menu/activate"
+msgstr "使用"
+
+msgid "cst_item_ctx_menu/addToCompare"
+msgstr "比較対象に追加"
+
+msgid "cst_item_ctx_menu/allowSale"
+msgstr "選択"
+
+msgid "cst_item_ctx_menu/autoprolongationOff"
+msgstr "自動延長のキャンセル"
+
+msgid "cst_item_ctx_menu/autoprolongationOn"
+msgstr "レンタル期間の延長"
+
+msgid "cst_item_ctx_menu/baseStyle"
+msgstr "初期設定に戻す"
+
+msgid "cst_item_ctx_menu/buy"
+msgstr "購入"
+
+msgid "cst_item_ctx_menu/buyMore"
+msgstr "購入"
+
+msgid "cst_item_ctx_menu/convertBlueprint"
+msgstr "ピースを 1 個作成"
+
+msgid "cst_item_ctx_menu/convertBlueprintMax"
+msgstr "ピースを作成"
+
+msgid "cst_item_ctx_menu/convertBlueprintMaxCount"
+msgstr "ピースを %(count)d 個作成"
+
+msgid "cst_item_ctx_menu/deconstruct"
+msgstr "分解"
+
+msgid "cst_item_ctx_menu/demount"
+msgstr "解除して倉庫へ"
+
+msgid "cst_item_ctx_menu/demountFromSetup"
+msgstr "このスロットから解除"
+
+msgid "cst_item_ctx_menu/demountFromSetups"
+msgstr "すべての構成から解除"
+
+msgid "cst_item_ctx_menu/destroy"
+msgstr "破棄"
+
+msgid "cst_item_ctx_menu/editStyle"
+msgstr "変更"
+
+msgid "cst_item_ctx_menu/exchange"
+msgstr "変換"
+
+msgid "cst_item_ctx_menu/goToCollection"
+msgstr "コレクションに移動"
+
+msgid "cst_item_ctx_menu/information"
+msgstr "詳細"
+
+msgid "cst_item_ctx_menu/nationChange"
+msgstr "国籍変更"
+
+msgid "cst_item_ctx_menu/preview"
+msgstr "車輌プレビュー"
+
+msgid "cst_item_ctx_menu/previewCustomization"
+msgstr "プレビュー"
+
+msgid "cst_item_ctx_menu/prohibitSale"
+msgstr "選択をキャンセル"
+
+msgid "cst_item_ctx_menu/putOnFirst"
+msgstr "スロット1に追加"
+
+msgid "cst_item_ctx_menu/putOnSecond"
+msgstr "スロット2に追加"
+
+msgid "cst_item_ctx_menu/putOnThird"
+msgstr "スロット3に追加"
+
+msgid "cst_item_ctx_menu/remove"
+msgstr "削除"
+
+msgid "cst_item_ctx_menu/removeFromTank"
+msgstr "現在の車輌から解除"
+
+msgid "cst_item_ctx_menu/removeFromTank/desert"
+msgstr "砂漠マップで解除"
+
+msgid "cst_item_ctx_menu/removeFromTank/summer"
+msgstr "夏季マップで解除"
+
+msgid "cst_item_ctx_menu/removeFromTank/winter"
+msgstr "冬季マップで解除"
+
+msgid "cst_item_ctx_menu/rentRenew"
+msgstr "レンタル期間の延長"
+
+msgid "cst_item_ctx_menu/restore"
+msgstr "リカバリー"
+
+msgid "cst_item_ctx_menu/select"
+msgstr "スロットに追加"
+
+msgid "cst_item_ctx_menu/sell"
+msgstr "売却"
+
+msgid "cst_item_ctx_menu/showBlueprint"
+msgstr "設計図へ"
+
+msgid "cst_item_ctx_menu/showInHangar"
+msgstr "ガレージで表示"
+
+msgid "cst_item_ctx_menu/showVehicleStatistics"
+msgstr "成績"
+
+msgid "cst_item_ctx_menu/styleInfo"
+msgstr "スタイルの詳細"
+
+msgid "cst_item_ctx_menu/takeOff"
+msgstr "スロットから解除"
+
+msgid "cst_item_ctx_menu/unload"
+msgstr "解除して倉庫に送る"
+
+msgid "cst_item_ctx_menu/upgrade"
+msgstr "アップグレード"
+
+msgid "currentVehicleStatus/ammoNotFull"
+msgstr "砲弾不足"
+
+msgid "currentVehicleStatus/ammoNotFullEvents"
+msgstr "砲弾不足"
+
+msgid "currentVehicleStatus/battle"
+msgstr "戦闘中"
+
+msgid "currentVehicleStatus/clanLocked"
+msgstr "?empty?"
+
+msgid "currentVehicleStatus/crewNotFull"
+msgstr "搭乗員不足"
+
+msgid "currentVehicleStatus/damaged"
+msgstr "修理が必要"
+
+msgid "currentVehicleStatus/dealIsOver"
+msgstr "選択不可"
+
+msgid "currentVehicleStatus/destroyed"
+msgstr "修理が必要"
+
+msgid "currentVehicleStatus/disabled"
+msgstr "利用不可"
+
+msgid "currentVehicleStatus/exploded"
+msgstr "修理が必要"
+
+msgid "currentVehicleStatus/fallout_broken"
+msgstr "グループの準備が未完了"
+
+msgid "currentVehicleStatus/fallout_max"
+msgstr "グループの準備が未完了"
+
+msgid "currentVehicleStatus/fallout_min"
+msgstr "グループの準備が未完了"
+
+msgid "currentVehicleStatus/fallout_only"
+msgstr "不適合"
+
+msgid "currentVehicleStatus/fallout_required"
+msgstr "グループの準備が未完了"
+
+msgid "currentVehicleStatus/group_is_not_ready"
+msgstr "グループの準備が未完了"
+
+msgid "currentVehicleStatus/igrRentalIsOver"
+msgstr "スペシャルは終了しました。"
+
+msgid "currentVehicleStatus/inPrebattle"
+msgstr "戦術ユニット内"
+
+msgid "currentVehicleStatus/inPremiumIgrOnly"
+msgstr "%(icon)s のみで利用可能。スペシャルの期限: %(time)s"
+
+msgid "currentVehicleStatus/isRentable"
+msgstr "車輌をレンタル可能"
+
+msgid "currentVehicleStatus/locked"
+msgstr "?empty?"
+
+msgid "currentVehicleStatus/notValidVehicle"
+msgstr "車輌が不適合"
+
+msgid "currentVehicleStatus/notpresent"
+msgstr "車輌の購入\nが必要"
+
+msgid "currentVehicleStatus/rentable"
+msgstr "車輌をレンタル可能"
+
+msgid "currentVehicleStatus/rentableAgain"
+msgstr "レンタル延長"
+
+msgid "currentVehicleStatus/rentalIsOver"
+msgstr "レンタル終了"
+
+msgid "currentVehicleStatus/rotationGroupLocked"
+msgstr "使用不能"
+
+msgid "currentVehicleStatus/rotationGroupUnlocked"
+msgstr "戦闘準備完了!"
+
+msgid "currentVehicleStatus/serverRestriction"
+msgstr "サーバー制限"
+
+msgid "currentVehicleStatus/subscription_suspended"
+msgstr "「WoT Plus」の延長が必要"
+
+msgid "currentVehicleStatus/undamaged"
+msgstr "戦闘準備完了!"
+
+msgid "currentVehicleStatus/unsuitableToQueue"
+msgstr "不適合"
+
+msgid "currentVehicleStatus/unsuitableToUnit"
+msgstr "不適合"
+
+msgid "currentVehicleStatus/waitingPlayer"
+msgstr "もう 1 名のプレイヤーが必要"
+
+msgid "currentVehicleStatus/willBeUnlockedInBattle"
+msgstr "戦闘中にアンロック"
+
+msgid "currentVehicleStatus/wot_plus_exclusive_vehicle_disabled"
+msgstr "「WoT Plus」の限定車輌は使用不可"
+
+msgid "customization/title"
+msgstr "塗装"
+
+msgid "dateTime/fromToWithYear"
+msgstr "{fromMonth} 月 {fromDay} 日から {toMonth} 月 {toDay} 日 ({toYear} 年) まで"
+
+msgid "dateTime/months/1"
+msgstr "1月"
+
+msgid "dateTime/months/10"
+msgstr "10月"
+
+msgid "dateTime/months/11"
+msgstr "11月"
+
+msgid "dateTime/months/12"
+msgstr "12月"
+
+msgid "dateTime/months/2"
+msgstr "2月"
+
+msgid "dateTime/months/3"
+msgstr "3月"
+
+msgid "dateTime/months/4"
+msgstr "4月"
+
+msgid "dateTime/months/5"
+msgstr "5月"
+
+msgid "dateTime/months/6"
+msgstr "6月"
+
+msgid "dateTime/months/7"
+msgstr "7月"
+
+msgid "dateTime/months/8"
+msgstr "8月"
+
+msgid "dateTime/months/9"
+msgstr "9月"
+
+msgid "dateTime/months/full/1"
+msgstr "1月"
+
+msgid "dateTime/months/full/10"
+msgstr "10月"
+
+msgid "dateTime/months/full/11"
+msgstr "11月"
+
+msgid "dateTime/months/full/12"
+msgstr "12月"
+
+msgid "dateTime/months/full/2"
+msgstr "2月"
+
+msgid "dateTime/months/full/3"
+msgstr "3月"
+
+msgid "dateTime/months/full/4"
+msgstr "4月"
+
+msgid "dateTime/months/full/5"
+msgstr "5月"
+
+msgid "dateTime/months/full/6"
+msgstr "6月"
+
+msgid "dateTime/months/full/7"
+msgstr "7月"
+
+msgid "dateTime/months/full/8"
+msgstr "8月"
+
+msgid "dateTime/months/full/9"
+msgstr "9月"
+
+msgid "dateTime/months/fullSmall/1"
+msgstr "1月"
+
+msgid "dateTime/months/fullSmall/10"
+msgstr "10月"
+
+msgid "dateTime/months/fullSmall/11"
+msgstr "11月"
+
+msgid "dateTime/months/fullSmall/12"
+msgstr "12月"
+
+msgid "dateTime/months/fullSmall/2"
+msgstr "2月"
+
+msgid "dateTime/months/fullSmall/3"
+msgstr "3月"
+
+msgid "dateTime/months/fullSmall/4"
+msgstr "4月"
+
+msgid "dateTime/months/fullSmall/5"
+msgstr "5月"
+
+msgid "dateTime/months/fullSmall/6"
+msgstr "6月"
+
+msgid "dateTime/months/fullSmall/7"
+msgstr "7月"
+
+msgid "dateTime/months/fullSmall/8"
+msgstr "8月"
+
+msgid "dateTime/months/fullSmall/9"
+msgstr "9月"
+
+msgid "dateTime/months/short/1"
+msgstr "1月"
+
+msgid "dateTime/months/short/10"
+msgstr "10月"
+
+msgid "dateTime/months/short/11"
+msgstr "11月"
+
+msgid "dateTime/months/short/12"
+msgstr "12月"
+
+msgid "dateTime/months/short/2"
+msgstr "2月"
+
+msgid "dateTime/months/short/3"
+msgstr "3月"
+
+msgid "dateTime/months/short/4"
+msgstr "4月"
+
+msgid "dateTime/months/short/5"
+msgstr "5月"
+
+msgid "dateTime/months/short/6"
+msgstr "6月"
+
+msgid "dateTime/months/short/7"
+msgstr "7月"
+
+msgid "dateTime/months/short/8"
+msgstr "8月"
+
+msgid "dateTime/months/short/9"
+msgstr "9月"
+
+msgid "dateTime/months/shortSmall/1"
+msgstr "1月"
+
+msgid "dateTime/months/shortSmall/10"
+msgstr "10月"
+
+msgid "dateTime/months/shortSmall/11"
+msgstr "11月"
+
+msgid "dateTime/months/shortSmall/12"
+msgstr "12月"
+
+msgid "dateTime/months/shortSmall/2"
+msgstr "2月"
+
+msgid "dateTime/months/shortSmall/3"
+msgstr "3月"
+
+msgid "dateTime/months/shortSmall/4"
+msgstr "4月"
+
+msgid "dateTime/months/shortSmall/5"
+msgstr "5月"
+
+msgid "dateTime/months/shortSmall/6"
+msgstr "6月"
+
+msgid "dateTime/months/shortSmall/7"
+msgstr "7月"
+
+msgid "dateTime/months/shortSmall/8"
+msgstr "8月"
+
+msgid "dateTime/months/shortSmall/9"
+msgstr "9月"
+
+msgid "dateTime/order"
+msgstr "%(year)s年 %(month)s %(day)s日"
+
+msgid "dateTime/shortDateFormatWithoutYear"
+msgstr "%(month)s %(monthDay)d 日 (%(weekDay)s)"
+
+msgid "dateTime/trade_in/undefined"
+msgstr "時間は表示不可"
+
+msgid "dateTime/unlimited"
+msgstr "未定義"
+
+msgid "dateTime/weekDays/full/1"
+msgstr "月曜日"
+
+msgid "dateTime/weekDays/full/2"
+msgstr "火曜日"
+
+msgid "dateTime/weekDays/full/3"
+msgstr "水曜日"
+
+msgid "dateTime/weekDays/full/4"
+msgstr "木曜日"
+
+msgid "dateTime/weekDays/full/5"
+msgstr "金曜日"
+
+msgid "dateTime/weekDays/full/6"
+msgstr "土曜日"
+
+msgid "dateTime/weekDays/full/7"
+msgstr "日曜日"
+
+msgid "dateTime/weekDays/short/1"
+msgstr "月"
+
+msgid "dateTime/weekDays/short/2"
+msgstr "火"
+
+msgid "dateTime/weekDays/short/3"
+msgstr "水"
+
+msgid "dateTime/weekDays/short/4"
+msgstr "木"
+
+msgid "dateTime/weekDays/short/5"
+msgstr "金"
+
+msgid "dateTime/weekDays/short/6"
+msgstr "土"
+
+msgid "dateTime/weekDays/short/7"
+msgstr "日"
+
+msgid "demonstrator/map/disabled"
+msgstr "選択中の車輌が\nマップに不適合"
+
+msgid "demonstrator/maps/label"
+msgstr "マップ"
+
+msgid "demonstrator/window/any"
+msgstr "ランダム"
+
+msgid "demonstrator/window/button"
+msgstr "戦闘を検索"
+
+msgid "demonstrator/window/lvl"
+msgstr "車輌Tierで戦闘を検索"
+
+msgid "demonstrator/window/spawn/green"
+msgstr "緑"
+
+msgid "demonstrator/window/spawn/red"
+msgstr "赤"
+
+msgid "demonstrator/window/spawnLabel"
+msgstr "陣地の選択"
+
+msgid "demonstrator/window/title"
+msgstr "ランダム戦の基本設定"
+
+msgid "denunciation/1"
+msgstr "非スポーツマン行為"
+
+msgid "denunciation/2"
+msgstr "不適切なプレイヤー/クラン名"
+
+msgid "denunciation/3"
+msgstr "放置行為/Bot"
+
+msgid "denunciation/7"
+msgstr "チャットでの不適切なふるまい"
+
+msgid "descriptions/mutableDamageShell"
+msgstr "平均与ダメージ: %(avgMutableDamage)s"
+
+msgid "descriptions/mutableDamageShellFull"
+msgstr "貫通力: %(avgPiercingPower)s mm\n平均ダメージ: %(avgMutableDamage)s"
+
+msgid "descriptions/shell"
+msgstr "平均与ダメージ: %(avgDamage)s"
+
+msgid "descriptions/shellFull"
+msgstr "貫通力: %(avgPiercingPower)s mm\n平均ダメージ: %(avgDamage)s"
+
+msgid "descriptions/vehicle"
+msgstr "%(weight)s t; 装甲: 最高 %(hullArmor)s mm; 主砲 %(caliber)s mm"
+
+msgid "descriptions/vehicleChassis"
+msgstr "旋回速度: 最大%(rotationSpeed)s度/秒"
+
+msgid "descriptions/vehicleEngine"
+msgstr "出力: %(enginePower)s 馬力\n火災発生率: %(fireStartingChance)s"
+
+msgid "descriptions/vehicleGun"
+msgstr "%(reloadTime)s 発/分; 平均ダメージ: %(avgDamageList)s\n平均貫通力: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleGun/autoReload"
+msgstr "装填: %(autoReloadTime)s 秒、平均ダメージ: %(avgDamageList)s\n平均貫通力: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleGun/autoShoot"
+msgstr "%(continuousShotsPerMinute)s 発/分; 平均ダメージ: %(avgDamageList)s\n平均貫通力: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleGun/dualGun"
+msgstr "装填: %(reloadTimeSecs)s秒、平均ダメージ: %(avgDamageList)s\n平均貫通力: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleGun/twinGun"
+msgstr "装填: %(reloadTimeSingleGun)s/%(reloadTimeTwinGun)s秒、平均ダメージ: %(avgDamageList)s\n平均貫通力: %(avgPiercingPower)s mm"
+
+msgid "descriptions/vehicleRadio"
+msgstr "通信範囲: 最大 %(radioDistance)s m"
+
+msgid "descriptions/vehicleTurret"
+msgstr "装甲: %(armor)s mm; 旋回速度: %(rotationSpeed)s 度/秒\n視認範囲: 約 %(circularVisionRadius)s m"
+
+msgid "descriptions/vehicleWheeledChassis"
+msgstr "車輪の最大舵角: 最大%(maxSteeringLockAngle)s度"
+
+msgid "disconnect/codes/0"
+msgstr "<?empty?>"
+
+msgid "disconnect/codes/1001"
+msgstr "「車輌」関連コンポーネントの非同期 (1001)"
+
+msgid "disconnect/codes/1002"
+msgstr "「サスペンション」関連コンポーネントの非同期 (1002)"
+
+msgid "disconnect/codes/1003"
+msgstr "「砲塔」関連コンポーネントの非同期 (1003)"
+
+msgid "disconnect/codes/1004"
+msgstr "「主砲」関連コンポーネントの非同期 (1004)"
+
+msgid "disconnect/codes/1005"
+msgstr "「エンジン」関連コンポーネントの非同期 (1005)"
+
+msgid "disconnect/codes/1006"
+msgstr "「燃料タンク」関連コンポーネントの非同期 (1006)"
+
+msgid "disconnect/codes/1007"
+msgstr "「無線機」に関連したコンポーネントの非同期 (1007)"
+
+msgid "disconnect/codes/1008"
+msgstr "「搭乗員」関連コンポーネントの非同期 (1008)"
+
+msgid "disconnect/codes/1009"
+msgstr "「拡張パーツ」関連コンポーネントの非同期 (1009)"
+
+msgid "disconnect/codes/1010"
+msgstr "「砲弾」関連コンポーネントの非同期 (1010)"
+
+msgid "disconnect/codes/1011"
+msgstr "「消耗品」関連コンポーネントの非同期 (1011)"
+
+msgid "disconnect/codes/1012"
+msgstr "\"搭乗員\" 関連コンポーネントの非同期 (1012)"
+
+msgid "disconnect/codes/1013"
+msgstr "「カスタマイズ」関連コンポーネントの非同期化 (1013)"
+
+msgid "disconnect/codes/1014"
+msgstr "研究した要素の非同期（1014）"
+
+msgid "discount/description/pet"
+msgstr "ペット購入価格が%(effectValue)sOFF"
+
+msgid "discount/description/vehicle"
+msgstr "%(targetName)s 購入時の %(effectValue)s 割引"
+
+msgid "discount/userName/vehicle"
+msgstr "車輌購入時の個人割引"
+
+msgid "epicTraining/title"
+msgstr "フロントラインモードでのチームトレーニング"
+
+msgid "epic_training/create/title"
+msgstr "フロントラインモード用のトレーニング・ルームを作成"
+
+msgid "epic_training/info/settings/title"
+msgstr "フロントラインモード用のトレーニング・ルーム設定の変更"
+
+msgid "exchange/cancel"
+msgstr "キャンセル"
+
+msgid "exchange/no_gold"
+msgstr "変換に必要なゴールドが不足しています。"
+
+msgid "exchange/onhand"
+msgstr "現在の残高:"
+
+msgid "exchange/rate"
+msgstr "変換レート"
+
+msgid "exchange/result"
+msgstr "変換後の残高:"
+
+msgid "exchange/submit"
+msgstr "変換"
+
+msgid "exchange/title"
+msgstr "ゴールドの変換"
+
+msgid "exchange/toexchange"
+msgstr "変換:"
+
+msgid "exchangeXP/available"
+msgstr "使用可能なEXP:"
+
+msgid "exchangeXP/available/forFree/label"
+msgstr "  無償、期限: "
+
+msgid "exchangeXP/available/forFree/value"
+msgstr "%(icon)s%(forFree)s"
+
+msgid "exchangeXP/cancel"
+msgstr "キャンセル"
+
+msgid "exchangeXP/change"
+msgstr "変換 ({%d} から {%d} へ):"
+
+msgid "exchangeXP/pay"
+msgstr "合計:"
+
+msgid "exchangeXP/submit"
+msgstr "変換"
+
+msgid "exchangeXP/title"
+msgstr "フリーEXPへの変換"
+
+msgid "extraParams/desc"
+msgstr "攻撃性能には直接影響しないパラメーター"
+
+msgid "extraParams/header"
+msgstr "%(paramName)s"
+
+msgid "extraParams/multiDesc"
+msgstr "ボーナスやペナルティーの中には効果が掛け合わされるものも存在するため、表示される数値と実際の数値が異なる場合もあります。"
+
+msgid "extraParams/name/artNotificationDelayFactor"
+msgstr "敵自走砲に狙われた際に自走砲弾の飛来方向を示す通知が表示されるまでの時間を表します。"
+
+msgid "extraParams/name/commanderLampDelay"
+msgstr "自車輌が敵に発見されたことを把握するまでの時間を表します。数値が高いほど、把握するまでの時間は短くなります。"
+
+msgid "extraParams/name/crewHitChance"
+msgstr "全搭乗員の安全性がどれだけ変動しているかを表します。ボーナス値が高いほど搭乗員が負傷しにくくなります。"
+
+msgid "extraParams/name/crewRepeatedStunDuration"
+msgstr "すでにスタンを受けている状態でさらにスタンを受けた際にスタン状態から回復するのに要する時間がどれだけ変動するかを表します。"
+
+msgid "extraParams/name/crewStunDuration"
+msgstr "スタン状態から回復するのに要する時間がどれだけ変動するかを表します。"
+
+msgid "extraParams/name/damageAndPiercingDistributionLowerBound"
+msgstr "与ダメージと貫通力の振れ幅の下限がどれだけ変動しているかを表します。基本値は−25%に設定されています。"
+
+msgid "extraParams/name/damageAndPiercingDistributionUpperBound"
+msgstr "与ダメージと貫通力の振れ幅の上限がどれだけ変動しているかを表します。基本値は+25%に設定されています。"
+
+msgid "extraParams/name/damageEnemiesByRamming"
+msgstr "体当たりによって与えられるダメージがどれだけ変動するかを表します。体当たりによって実際に与えられるダメージは、自車輌と敵車輌の総重量の差、衝突時の移動速度、そして衝突箇所の装甲厚に基づいて算出されます。"
+
+msgid "extraParams/name/damagedModulesDetectionTime"
+msgstr "敵車輌に照準をあわせた際に重大な損傷が発生しているモジュールを識別できるようになるまでの時間を表します。"
+
+msgid "extraParams/name/demaskFoliageFactor"
+msgstr "茂みや樹木の陰に完全に隠れている敵車輌の隠蔽率をどれだけ変動させられるかを表します。敵車輌が静止中か移動中かは問いません。"
+
+msgid "extraParams/name/demaskMovingFactor"
+msgstr "移動中の敵車輌の隠蔽率をどれだけ変動させられるかを表します。敵車輌の隠蔽率を下げれば発見できる可能性が高まります。"
+
+msgid "extraParams/name/enemyModulesCrewCritChance"
+msgstr "敵車輌を攻撃した際に搭乗員の負傷やモジュールの損傷を誘発する確率がどれだけ変動しているかを表します。砲弾の種類は問わず効果を発揮しますが、自動連射砲を搭載した車輌は対象外です。"
+
+msgid "extraParams/name/equipmentPreparationTime"
+msgstr "消耗品のクールダウン時間がどれだけ変動しているかを表します。"
+
+msgid "extraParams/name/fireExtinguishingRate"
+msgstr "消火速度がどれだけ変動しているかを表します。消火に要する時間が短くなれば火災によって被るダメージが少なくなります。"
+
+msgid "extraParams/name/foliageMaskingFactor"
+msgstr "茂みや樹木の陰に潜伏した際に隠蔽率が追加でどれだけ変動するかを表します。"
+
+msgid "extraParams/name/hpRecover"
+msgstr "「修理キット」を使用した際に回復する車輌HPの増加量を示します。値が高いほど、回復量が多くなります。"
+
+msgid "extraParams/name/mediumGroundFactor"
+msgstr "通常地盤での速度維持性能がどれだけ変動しているかを表します。ボーナス値が高いほど機動性が低下しにくくなります。"
+
+msgid "extraParams/name/penaltyToDamagedSurveyingDevice"
+msgstr "観測装置が損傷した際の最大視認範囲へのペナルティーをどれだけ軽減するかを表します。マイナスの値が大きいほど、視認性能が高くなります。"
+
+msgid "extraParams/name/piercingHEShellsDistributionUpperBound"
+msgstr "50 m未満の距離における砲弾の貫通力の振れ幅の上限の増加量を示します。値が高いほど、貫通力が高くなります。"
+
+msgid "extraParams/name/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "自車輌が大破してから味方に敵車輌の位置を伝達し続けられる時間がどれだけ変動しているかを表します。"
+
+msgid "extraParams/name/radiomanHitChance"
+msgstr "無線手の安全性がどれだけ変動しているかを表します。ボーナス値が高いほど負傷しにくくなります。"
+
+msgid "extraParams/name/shellVelocity"
+msgstr "全弾種の弾速の上昇率を表します。数値が高いほど、弾速が高くなります。"
+
+msgid "extraParams/name/softGroundFactor"
+msgstr "軟地盤での速度維持性能がどれだけ変動しているかを表します。ボーナス値が高いほど機動性が低下しにくくなります。"
+
+msgid "extraParams/name/stunResistanceEffectFactor"
+msgstr "スタンによるペナルティーがどれだけ変動するかを表します。"
+
+msgid "extraParams/name/suspensionDamageReduction"
+msgstr "サスペンションへの被ダメージの軽減量を示します。値が高いほど、受けるダメージが少なくなります。"
+
+msgid "extraParams/name/vehPenaltyForDamagedAmmorack"
+msgstr "弾薬庫が損傷した際の主砲の装填時間へのペナルティーをどれだけ軽減するかを表します。マイナスの値が大きいほど、装填時間が短くなります。"
+
+msgid "extraParams/name/vehPenaltyForDamagedEngine"
+msgstr "エンジンが損傷した際のエンジン出力の低下をどれだけ軽減するかを表します。マイナスの値が大きいほど、エンジン出力の低下が軽減されます。"
+
+msgid "extraParams/name/vehicleAmmoBayEngineFuelStrength"
+msgstr "内部モジュール「弾薬庫」、「燃料タンク」、「エンジン」の耐久性がどれだけ変動しているかを表します。モジュールの耐久性が高いほど損傷や大破しにくくなります。"
+
+msgid "extraParams/name/vehicleAmmoBayStrength"
+msgstr "弾薬庫の耐久性がどれだけ変動しているかを表します。ボーナス値が高いほど誘爆しにくくなります。"
+
+msgid "extraParams/name/vehicleChassisFallDamage"
+msgstr "衝撃によってサスペンションが損傷した際に車体に発生するダメージがどれだけ変動するかを表します。砲塔上部や砲塔側面に発生するダメージには影響がありません。"
+
+msgid "extraParams/name/vehicleChassisRepairSpeed"
+msgstr "サスペンションの修理に要する時間がどれだけ変動しているかを表します。ボーナス値が高ければサスペンションが大破しても短い時間で再び移動できるようになります。"
+
+msgid "extraParams/name/vehicleChassisStrength"
+msgstr "サスペンションの耐久性がどれだけ変動しているかを表します。ボーナス値が高いほど射撃、衝撃、体当たりなどあらゆる攻撃に対する耐性が上がります。"
+
+msgid "extraParams/name/vehicleEnemySpottingTime"
+msgstr "自ら視認した敵車輌が完全に姿を隠してから再び非発見状態に戻るまでの時間がどれだけ変動するかを表します。発見状態の持続時間はデフォルトでは10秒に設定されています。実際の数値は敵車輌の装備や搭乗員の能力によってさらに変動する可能性があります。"
+
+msgid "extraParams/name/vehicleFallingDamageResistance"
+msgstr "車輌への衝撃によるダメージをどれだけ軽減するかを表します。マイナスの値が大きいほど、受けるダメージが少なくなります。"
+
+msgid "extraParams/name/vehicleFireChance"
+msgstr "エンジンの火災発生率がどれだけ変動しているかを表します。"
+
+msgid "extraParams/name/vehicleFuelTankLesionChance"
+msgstr "燃料タンクの耐久性がどれだけ変動しているかを表します。燃料タンクが大破すると必ず火災が発生します。"
+
+msgid "extraParams/name/vehicleGunShotDispersion"
+msgstr "射撃、移動、車体旋回、主砲旋回に伴う散布界の拡大率がどれだけ変動しているかを表します。数値が低いほど散布界が拡大しにくくなるため命中率が向上します。"
+
+msgid "extraParams/name/vehicleGunShotDispersionAfterShot"
+msgstr "射撃後の散布界"
+
+msgid "extraParams/name/vehicleGunShotDispersionChassisMovement"
+msgstr "移動に伴う散布界の拡大率がどれだけ変動しているかを表します。"
+
+msgid "extraParams/name/vehicleGunShotDispersionChassisRotation"
+msgstr "車体旋回に伴う散布界の拡大率がどれだけ変動しているかを表します。"
+
+msgid "extraParams/name/vehicleGunShotDispersionTurretRotation"
+msgstr "主砲旋回に伴う散布界の拡大率がどれだけ変動しているかを表します。"
+
+msgid "extraParams/name/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "主砲損傷時の射撃精度へのペナルティーがどれだけ変動しているかを表します。"
+
+msgid "extraParams/name/vehicleHEShellDamageResistance"
+msgstr "HE弾によって受けるダメージがどれだけ変動するかを表します。砲弾の命中箇所の装甲が厚いほど、実際に受けるダメージが減少します。"
+
+msgid "extraParams/name/vehicleInvisibilityAfterShot"
+msgstr "射撃後の隠蔽率がどれだけ変動しているかを表します。"
+
+msgid "extraParams/name/vehicleOwnSpottingTime"
+msgstr "自車輌が敵に発見された際にその視認範囲から逃れてから非発見状態に戻るのに要する時間がどれだけ変動しているかを表します。基本値は10秒に設定されています。"
+
+msgid "extraParams/name/vehicleRamChassisDamageResistance"
+msgstr "体当たり時にサスペンションが受けるダメージがどれだけ変動するかを表します。体当たり時にサスペンションが実際に受けるダメージは、自車輌と敵車輌の総重量の差、衝突時の移動速度、そして衝突箇所の装甲厚に基づいて算出されます。"
+
+msgid "extraParams/name/vehicleRamDamageResistance"
+msgstr "体当たりによって受けるダメージがどれだけ変動するかを表します。体当たりによって実際に受けるダメージは、自車輌と敵車輌の総重量の差、衝突時の移動速度、そして衝突箇所の装甲厚に基づいて算出されます。　"
+
+msgid "extraParams/name/vehicleReloadTimeAfterShellChange"
+msgstr "主砲や弾倉の装填が完了している状態での弾種の切り替え速度がどれだけ変動しているかを表します。"
+
+msgid "extraParams/name/vehicleRepairSpeed"
+msgstr "モジュールの修理速度がどれだけ変動しているかを表します。ボーナス値が高いほどモジュールが大破して赤い状態になった際に黄色の損傷状態に戻るまでの時間が短くなります。"
+
+msgid "extraParams/name/vehicleSpeedGain"
+msgstr "速度維持性能がどれだけ変動しているかを表します。速度維持性能が高いほど悪路でも機動性が低下しにくくなります。"
+
+msgid "extraParams/name/wheelsRotationSpeed"
+msgstr "方向転換速度がどれだけ変動しているかを表します。"
+
+msgid "extraParams/name/woundedCrewEfficiency"
+msgstr "車長以外の搭乗員1名が負傷した際のペナルティーがどれだけ変動しているかを表します。"
+
+msgid "finalStatistic/commonStats/resultlabel/ended"
+msgstr "戦闘終了"
+
+msgid "finalStatistic/commonStats/resultlabel/lose"
+msgstr "敗北"
+
+msgid "finalStatistic/commonStats/resultlabel/techWin"
+msgstr "技術的勝利"
+
+msgid "finalStatistic/commonStats/resultlabel/tie"
+msgstr "引き分け"
+
+msgid "finalStatistic/commonStats/resultlabel/win"
+msgstr "勝利!"
+
+msgid "finalStatistic/tabs/commonStats"
+msgstr "個別スコア"
+
+msgid "finalStatistic/tabs/detailsStats"
+msgstr "詳細レポート"
+
+msgid "finalStatistic/tabs/epicStats"
+msgstr "個別スコア"
+
+msgid "finalStatistic/tabs/teamStats"
+msgstr "チームスコア"
+
+msgid "finalStatistic/window/title"
+msgstr "戦闘結果"
+
+msgid "fittingListItemRenderer/replace"
+msgstr "順番の変更"
+
+msgid "fittingListItemRenderer/unload"
+msgstr "倉庫に送る"
+
+msgid "fittingPopover/manageAbilities"
+msgstr "リザーブの管理"
+
+msgid "fittingSelectPopover/descText"
+msgstr "この拡張パーツは、%(currencyName)s を使用することで購入できます。購入は、「改良型」タブで可能です。"
+
+msgid "fittingSelectPopover/descText/crystal"
+msgstr "ボンズ"
+
+msgid "fortification/installName"
+msgstr "有効"
+
+msgid "fortification/unloadName"
+msgstr "無効化"
+
+msgid "fortificationCtx/assignedPlayers"
+msgstr "配属済みプレイヤー"
+
+msgid "fortificationCtx/clanDescription/clanCrew"
+msgstr "クランメンバー"
+
+msgid "fortificationCtx/clanDescription/clanStatistics"
+msgstr "クラン成績"
+
+msgid "fortificationCtx/clanDescription/openClanCard"
+msgstr "クランプロフィールを開く"
+
+msgid "fortificationCtx/prepareOrder"
+msgstr "リザーブの準備"
+
+msgid "hangar/ammunitionPanel/easyTankEquipBtn"
+msgstr "クイック整備"
+
+msgid "hangar/ammunitionPanel/maitenanceBtn"
+msgstr "修理"
+
+msgid "hangar/ammunitionPanel/nationChangeBtn"
+msgstr "国籍変更"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/checkboxAuto"
+msgstr "自動補給"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/label"
+msgstr "砲弾"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/buy"
+msgstr "購入"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/inventory"
+msgstr "倉庫内"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/list/price"
+msgstr "費用"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/ammo/not_ready"
+msgstr "戦闘に参加するには\n砲弾の補給が必要です。"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/ammo"
+msgstr "補給"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/apply"
+msgstr "承諾"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/close"
+msgstr "閉じる"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/equipment"
+msgstr "補給"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/labelTotal"
+msgstr "合計:"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/buttons/repair"
+msgstr "修理"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/checkboxAuto"
+msgstr "自動補給"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/label"
+msgstr "消耗品"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/buy"
+msgstr "購入"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/inventory"
+msgstr "倉庫内"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipment/list/price"
+msgstr "費用"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/equipmentDisabled"
+msgstr "この車輌は消耗品の変更ができません"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/repair/checkboxAuto"
+msgstr "自動修理"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/repair/label"
+msgstr "修理"
+
+msgid "hangar/ammunitionPanel/technicalMaitenance/title"
+msgstr "修理・補給"
+
+msgid "hangar/ammunitionPanel/tuningBtn"
+msgstr "塗装"
+
+msgid "hangar/crew/rody/dog/moreInfoLabel"
+msgstr "詳細"
+
+msgid "hangar/crew/rody/dog/poland/name"
+msgstr "Szarik"
+
+msgid "hangar/crew/rody/dog/ussr/name"
+msgstr "Szarik"
+
+msgid "hangar/crew/tooltip/drop_skill"
+msgstr "クリックしてスキルを削除。"
+
+msgid "hangar/crew/tooltip/new_skill"
+msgstr "クリックして追加スキルを訓練。"
+
+msgid "hangar/vehicle_locked"
+msgstr "車輌はロック中"
+
+msgid "hangar/xpToTmenCheckbox/tooltip"
+msgstr "有効にすると、この車輌で取得した車輌EXPが搭乗員の訓練のために使用されるようになります。レベルが最も低い搭乗員は2倍の速度で訓練されます。"
+
+msgid "hangar_header/battle_quests_label/active"
+msgstr "%(total)s"
+
+msgid "hangar_header/battle_quests_label/inactive"
+msgstr "?empty?"
+
+msgid "hangar_header/mapbox_progression_label/active"
+msgstr "%(total)s"
+
+msgid "hangar_header/mapbox_progression_label/inactive"
+msgstr "?empty?"
+
+msgid "hangar_header/million"
+msgstr "%(value)s M"
+
+msgid "hangar_header/personal_quests_label/active"
+msgstr "#%(current)s"
+
+msgid "hangar_header/personal_quests_label/all_done"
+msgstr "%(icon)s"
+
+msgid "hangar_header/personal_quests_label/empty"
+msgstr "- -"
+
+msgid "hangar_header/personal_quests_label/inactive"
+msgstr "?empty?"
+
+msgid "header/account/popover/achieves/battles"
+msgstr "戦闘数"
+
+msgid "header/account/popover/achieves/rating"
+msgstr "パーソナルレーティング"
+
+msgid "header/account/popover/achieves/wins"
+msgstr "勝利"
+
+msgid "header/account/popover/boosters/blockTitle"
+msgstr "パーソナルリザーブ"
+
+msgid "header/account/popover/clan/clanInvite"
+msgstr "クラン招待"
+
+msgid "header/account/popover/clan/enabled/btnLabel"
+msgstr "クラン・プロフィール"
+
+msgid "header/account/popover/clan/header"
+msgstr "クラン"
+
+msgid "header/account/popover/clan/not_enabled/btnLabel"
+msgstr "クラン成績"
+
+msgid "header/account/popover/clan/position/commander"
+msgstr "戦闘士官"
+
+msgid "header/account/popover/clan/position/diplomat"
+msgstr "情報将校"
+
+msgid "header/account/popover/clan/position/junior"
+msgstr "下級士官"
+
+msgid "header/account/popover/clan/position/leader"
+msgstr "クランマスター"
+
+msgid "header/account/popover/clan/position/private"
+msgstr "上等兵"
+
+msgid "header/account/popover/clan/position/recruit"
+msgstr "新兵"
+
+msgid "header/account/popover/clan/position/recruiter"
+msgstr "採用担当官"
+
+msgid "header/account/popover/clan/position/reservist"
+msgstr "予備兵"
+
+msgid "header/account/popover/clan/position/staff"
+msgstr "人事担当官"
+
+msgid "header/account/popover/clan/position/treasurer"
+msgstr "需品科士官"
+
+msgid "header/account/popover/clan/position/vice_leader"
+msgstr "副司令官"
+
+msgid "header/account/popover/clan/searchClan1"
+msgstr "クランを検索"
+
+msgid "header/account/popover/clan/searchClan2"
+msgstr "クラン検索"
+
+msgid "header/account/popover/crew/btnLabel"
+msgstr "チームプロフィール"
+
+msgid "header/account/popover/crew/header"
+msgstr "チーム"
+
+msgid "header/account/popover/crew/position/commander"
+msgstr "戦闘士官"
+
+msgid "header/account/popover/crew/position/diplomat"
+msgstr "情報将校"
+
+msgid "header/account/popover/crew/position/leader"
+msgstr "クランマスター"
+
+msgid "header/account/popover/crew/position/private"
+msgstr "上等兵"
+
+msgid "header/account/popover/crew/position/recruit"
+msgstr "新兵"
+
+msgid "header/account/popover/crew/position/recruiter"
+msgstr "採用担当官"
+
+msgid "header/account/popover/crew/position/treasurer"
+msgstr "需品科士官"
+
+msgid "header/account/popover/crew/position/vice_leader"
+msgstr "副司令官"
+
+msgid "header/account/popover/crewButton/disabledTooltip"
+msgstr "チームプロフィールは、ゲーム完全版のダウンロード後にご利用可能になります。"
+
+msgid "header/account/popover/stats/fights"
+msgstr "戦闘数"
+
+msgid "header/account/popover/stats/rating"
+msgstr "パーソナルレーティング"
+
+msgid "header/account/popover/stats/ratio"
+msgstr "勝率"
+
+msgid "header/account/popover/toAllProgress"
+msgstr "実績"
+
+msgid "header/account/popover/tutorial/newBadge"
+msgstr "バッジ利用可能"
+
+msgid "header/account/popover/tutorial/newSuffixBadge"
+msgstr "バナーを適用可能"
+
+msgid "header/account/premium/days"
+msgstr "日"
+
+msgid "header/account/premium/hours"
+msgstr "時間"
+
+msgid "header/customization/season/desert"
+msgstr "砂漠"
+
+msgid "header/customization/season/summer"
+msgstr "夏季"
+
+msgid "header/customization/season/winter"
+msgstr "冬季"
+
+msgid "header/demonstration/btnLabel"
+msgstr "設定を変更"
+
+msgid "header/demonstration/info"
+msgstr "ランダム戦の基本設定"
+
+msgid "header/level"
+msgstr "Tier %(vTypeName)s"
+
+msgid "header/level/1"
+msgstr "I"
+
+msgid "header/level/10"
+msgstr "X"
+
+msgid "header/level/11"
+msgstr "XI"
+
+msgid "header/level/2"
+msgstr "II"
+
+msgid "header/level/3"
+msgstr "III"
+
+msgid "header/level/4"
+msgstr "IV"
+
+msgid "header/level/5"
+msgstr "V"
+
+msgid "header/level/6"
+msgstr "VI"
+
+msgid "header/level/7"
+msgstr "VII"
+
+msgid "header/level/8"
+msgstr "VIII"
+
+msgid "header/level/9"
+msgstr "IX"
+
+msgid "header/notificationSign"
+msgstr "!"
+
+msgid "header/serverInfo"
+msgstr "サーバー"
+
+msgid "header/vehicleType/AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "header/vehicleType/Alliance-France"
+msgstr "フランス、チェコスロバキア、スウェーデン、イタリア"
+
+msgid "header/vehicleType/Alliance-Germany"
+msgstr "ドイツ、日本"
+
+msgid "header/vehicleType/Alliance-USA"
+msgstr "アメリカ、イギリス、ポーランド"
+
+msgid "header/vehicleType/Alliance-USSR"
+msgstr "ソ連、中国"
+
+msgid "header/vehicleType/SPG"
+msgstr "自走砲"
+
+msgid "header/vehicleType/elite/AT-SPG"
+msgstr "エリート駆逐戦車"
+
+msgid "header/vehicleType/elite/SPG"
+msgstr "エリート自走砲"
+
+msgid "header/vehicleType/elite/heavyTank"
+msgstr "エリート重戦車"
+
+msgid "header/vehicleType/elite/lightTank"
+msgstr "エリート軽戦車"
+
+msgid "header/vehicleType/elite/mediumTank"
+msgstr "エリート中戦車"
+
+msgid "header/vehicleType/heavyTank"
+msgstr "重戦車"
+
+msgid "header/vehicleType/lightTank"
+msgstr "軽戦車"
+
+msgid "header/vehicleType/mediumTank"
+msgstr "中戦車"
+
+msgid "header/wotPlusExclusiveVehicleType/AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-France"
+msgstr "フランス、チェコスロバキア、スウェーデン、イタリア"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-Germany"
+msgstr "ドイツ、日本"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-USA"
+msgstr "アメリカ、イギリス、ポーランド"
+
+msgid "header/wotPlusExclusiveVehicleType/Alliance-USSR"
+msgstr "ソ連、中国"
+
+msgid "header/wotPlusExclusiveVehicleType/SPG"
+msgstr "自走砲"
+
+msgid "header/wotPlusExclusiveVehicleType/heavyTank"
+msgstr "重戦車"
+
+msgid "header/wotPlusExclusiveVehicleType/lightTank"
+msgstr "軽戦車"
+
+msgid "header/wotPlusExclusiveVehicleType/mediumTank"
+msgstr "中戦車"
+
+msgid "headerButtons/account/accountRefill"
+msgstr "ゴールドの購入"
+
+msgid "headerButtons/account/expGathering"
+msgstr "EXPの変換"
+
+msgid "headerButtons/account/goldExchange"
+msgstr "ゴールドの変換"
+
+msgid "headerButtons/account/premium"
+msgstr "延長"
+
+msgid "headerButtons/barracks"
+msgstr "兵舎"
+
+msgid "headerButtons/battle/availableSince"
+msgstr "開始: %(datetime)s"
+
+msgid "headerButtons/battle/availableSinceSoon"
+msgstr "利用開始まで: %(time)s"
+
+msgid "headerButtons/battle/availableUntil"
+msgstr "期限: %(datetime)s"
+
+msgid "headerButtons/battle/availableUntilSoon"
+msgstr "終了: %(time)s"
+
+msgid "headerButtons/battle/button/battle"
+msgstr "戦闘開始!"
+
+msgid "headerButtons/battle/menu/attention/lowPerformance"
+msgstr "低パフォーマンス"
+
+msgid "headerButtons/battle/menu/attention/reducedPerformance"
+msgstr "低パフォーマンス"
+
+msgid "headerButtons/battle/menu/battle_session"
+msgstr "特別戦"
+
+msgid "headerButtons/battle/menu/epicBattle"
+msgstr "フロントライン"
+
+msgid "headerButtons/battle/menu/event"
+msgstr "戦車護衛"
+
+msgid "headerButtons/battle/menu/fallout"
+msgstr "乱戦"
+
+msgid "headerButtons/battle/menu/fallout/14"
+msgstr "制圧戦"
+
+msgid "headerButtons/battle/menu/fallout/15"
+msgstr "スチールハント"
+
+msgid "headerButtons/battle/menu/historical"
+msgstr "ヒストリカルバトル"
+
+msgid "headerButtons/battle/menu/squad"
+msgstr "小隊"
+
+msgid "headerButtons/battle/menu/standart"
+msgstr "ランダム戦"
+
+msgid "headerButtons/battle/menu/training"
+msgstr "チームトレーニング"
+
+msgid "headerButtons/battle/menu/unit"
+msgstr "チームバトル"
+
+msgid "headerButtons/battle/modeInfo"
+msgstr "{{mode}}"
+
+msgid "headerButtons/battle/types/battleRoyale"
+msgstr "STEEL HUNTER"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/currentCycle"
+msgstr "シーズン%(season)s エピソード%(cycle)s"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/finished"
+msgstr "シーズン終了"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/frozen"
+msgstr "モードは一時的に利用不可"
+
+msgid "headerButtons/battle/types/battleRoyale/extra/startsAt"
+msgstr "%(time)s"
+
+msgid "headerButtons/battle/types/battleRoyaleSquad"
+msgstr "ハンター小隊"
+
+msgid "headerButtons/battle/types/battleRoyaleSquad/description"
+msgstr "2名編成の小隊を作成"
+
+msgid "headerButtons/battle/types/comp7LightSquad"
+msgstr "オンスロート・ライト小隊を作成"
+
+msgid "headerButtons/battle/types/comp7Squad"
+msgstr "オンスロート小隊を作成"
+
+msgid "headerButtons/battle/types/epic"
+msgstr "フロントライン"
+
+msgid "headerButtons/battle/types/epic/descr"
+msgstr "敵味方が自動マッチングされるモードです。"
+
+msgid "headerButtons/battle/types/epic/extra/frozen"
+msgstr "モード利用不可"
+
+msgid "headerButtons/battle/types/epic/extra/startsAt"
+msgstr "%(time)s から"
+
+msgid "headerButtons/battle/types/epicBattle"
+msgstr "フロントライン・ロビー"
+
+msgid "headerButtons/battle/types/epicBattle/descr"
+msgstr "フロントライン—ロビーに入る"
+
+msgid "headerButtons/battle/types/epicTraining"
+msgstr "チームトレーニング"
+
+msgid "headerButtons/battle/types/epicTraining/descr"
+msgstr "フロントライン"
+
+msgid "headerButtons/battle/types/event"
+msgstr "イベント戦闘"
+
+msgid "headerButtons/battle/types/eventSquad"
+msgstr "イベント小隊"
+
+msgid "headerButtons/battle/types/fallout"
+msgstr "乱戦"
+
+msgid "headerButtons/battle/types/fort"
+msgstr "拠点戦"
+
+msgid "headerButtons/battle/types/fortLeave"
+msgstr "拠点戦"
+
+msgid "headerButtons/battle/types/historicalBattles"
+msgstr "ヒストリカルバトル"
+
+msgid "headerButtons/battle/types/historicalBattles/descr"
+msgstr "重大な戦車戦の再現。"
+
+msgid "headerButtons/battle/types/historicalBattlesLeave"
+msgstr "ヒストリカルバトル"
+
+msgid "headerButtons/battle/types/historicalBattlesLeave/descr"
+msgstr "クリックしてモード終了"
+
+msgid "headerButtons/battle/types/leaveFort/descr"
+msgstr "クリックしてモード終了"
+
+msgid "headerButtons/battle/types/leaveSpec/descr"
+msgstr "クリックしてモード終了"
+
+msgid "headerButtons/battle/types/leaveTraining/descr"
+msgstr "クリックしてモード終了"
+
+msgid "headerButtons/battle/types/leaveUnit/descr"
+msgstr "クリックしてモード終了"
+
+msgid "headerButtons/battle/types/mapbox"
+msgstr "先行偵察ミッション"
+
+msgid "headerButtons/battle/types/mapbox/availability/days"
+msgstr "%(day)s 日"
+
+msgid "headerButtons/battle/types/mapbox/availability/hours"
+msgstr "%(hour)s 時間"
+
+msgid "headerButtons/battle/types/mapbox/availability/lessThanHour"
+msgstr "1時間未満"
+
+msgid "headerButtons/battle/types/mapbox/extra/endsIn"
+msgstr "イベント終了まで残り%(timeLeft)s"
+
+msgid "headerButtons/battle/types/mapbox/extra/finished"
+msgstr "イベント終了済み"
+
+msgid "headerButtons/battle/types/mapbox/extra/frozen"
+msgstr "モードは一時的にプレイ不可"
+
+msgid "headerButtons/battle/types/mapbox/extra/startsAt"
+msgstr "開始: %(time)s"
+
+msgid "headerButtons/battle/types/mapboxSquad"
+msgstr "小隊の作成"
+
+msgid "headerButtons/battle/types/mapsTraining"
+msgstr "地誌学"
+
+msgid "headerButtons/battle/types/ranked"
+msgstr "ランク戦"
+
+msgid "headerButtons/battle/types/ranked/availability"
+msgstr "モード利用可否: "
+
+msgid "headerButtons/battle/types/ranked/availability/days"
+msgstr "%(day)s 日"
+
+msgid "headerButtons/battle/types/ranked/availability/ended"
+msgstr "シーズン終了"
+
+msgid "headerButtons/battle/types/ranked/availability/frozen"
+msgstr "モードは一時的に利用不可"
+
+msgid "headerButtons/battle/types/ranked/availability/hours"
+msgstr "%(hour)s 時間"
+
+msgid "headerButtons/battle/types/ranked/availability/lessMin"
+msgstr "1 分未満"
+
+msgid "headerButtons/battle/types/ranked/availability/min"
+msgstr "%(min)s 分"
+
+msgid "headerButtons/battle/types/ranked/availability/notSet"
+msgstr "戦闘が利用できません"
+
+msgid "headerButtons/battle/types/ranked/availability/season"
+msgstr "シーズン %(season)s"
+
+msgid "headerButtons/battle/types/ranked/availability/until"
+msgstr "%(date)s %(time)sより。"
+
+msgid "headerButtons/battle/types/ranked/availability/yearEnded"
+msgstr "シーズン終了"
+
+msgid "headerButtons/battle/types/ranked/descr"
+msgstr "リーダーボードの上位を目指して戦い、ランクや報酬を獲得しましょう。\n• 戦闘タイプ: 通常戦\n• 適合車輌: 研究可能なTier X車輌およびTier Xコレクション車輌限定"
+
+msgid "headerButtons/battle/types/rankedLeave/descr"
+msgstr "戦闘終了"
+
+msgid "headerButtons/battle/types/rts"
+msgstr "Art of Strategy"
+
+msgid "headerButtons/battle/types/rts/availability/afterCycle"
+msgstr "イベントは終了済み"
+
+msgid "headerButtons/battle/types/rts/availability/beforeCycle"
+msgstr "%(rightCycleDate)s %(rightCycleTime)sに開始"
+
+msgid "headerButtons/battle/types/rts/availability/betweenCycles"
+msgstr "%(rightCycleDate)s %(rightCycleTime)sに開始"
+
+msgid "headerButtons/battle/types/rts/availability/default"
+msgstr "イベント開催中"
+
+msgid "headerButtons/battle/types/rts/availability/frozen"
+msgstr "イベント停止中"
+
+msgid "headerButtons/battle/types/simpleSquad"
+msgstr "小隊"
+
+msgid "headerButtons/battle/types/spec"
+msgstr "特別戦"
+
+msgid "headerButtons/battle/types/spec/descr"
+msgstr "チャンピオンシップ、トーナメント、クランウォーズへの参加"
+
+msgid "headerButtons/battle/types/specLeave"
+msgstr "特別戦"
+
+msgid "headerButtons/battle/types/squad"
+msgstr "小隊"
+
+msgid "headerButtons/battle/types/squad/description"
+msgstr "3輌編成の小隊でプレイ"
+
+msgid "headerButtons/battle/types/standart"
+msgstr "ランダム戦"
+
+msgid "headerButtons/battle/types/standart/descr"
+msgstr "自動編成の味方とランダムな敵を相手に戦います"
+
+msgid "headerButtons/battle/types/standartLeave/descr"
+msgstr "戦闘終了"
+
+msgid "headerButtons/battle/types/strongholds"
+msgstr "拠点戦"
+
+msgid "headerButtons/battle/types/training"
+msgstr "チームトレーニング"
+
+msgid "headerButtons/battle/types/training/descr"
+msgstr "敵味方を手動で編成してのトレーニング戦です"
+
+msgid "headerButtons/battle/types/trainingLeave"
+msgstr "チームトレーニング"
+
+msgid "headerButtons/battle/types/trainingLeaveOwner"
+msgstr "チームトレーニング"
+
+msgid "headerButtons/battle/types/unit"
+msgstr "チームバトル"
+
+msgid "headerButtons/battle/types/unit/descr"
+msgstr "同等のチーム同士での戦闘です"
+
+msgid "headerButtons/battle/types/unitLeave"
+msgstr "チームバトル"
+
+msgid "headerButtons/battle/types/winback"
+msgstr "【ランダム戦】ウォームアップ"
+
+msgid "headerButtons/battle/vehicleInfo"
+msgstr "{{level}}{{type}}{{name}}で「{{mode}}」をプレイ"
+
+msgid "headerButtons/browser"
+msgstr "ブラウザ"
+
+msgid "headerButtons/btnLabel/credits"
+msgstr "変換"
+
+msgid "headerButtons/btnLabel/crystal"
+msgstr "取得"
+
+msgid "headerButtons/btnLabel/freeXP"
+msgstr "変換"
+
+msgid "headerButtons/btnLabel/gold"
+msgstr "購入"
+
+msgid "headerButtons/btnLabel/premShop"
+msgstr "プレミアムショップ"
+
+msgid "headerButtons/btnLabel/premium"
+msgstr "プレミアム"
+
+msgid "headerButtons/clan"
+msgstr "クラン"
+
+msgid "headerButtons/clans"
+msgstr "クラン"
+
+msgid "headerButtons/defaultCounter"
+msgstr "！"
+
+msgid "headerButtons/fightBtn/tooltip/battleRoyaleDisabled/body"
+msgstr "本モードはご利用中のサーバーでは休止中です。"
+
+msgid "headerButtons/fightBtn/tooltip/battleRoyaleDisabled/header"
+msgstr "戦闘参加不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7BanIsSet/body"
+msgstr "こちらのモードでの戦闘参加が一時的に禁止されています。"
+
+msgid "headerButtons/fightBtn/tooltip/comp7BanIsSet/header"
+msgstr "出撃不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7BattleOnly/body"
+msgstr "選択中の車輌は「オンスロート」モードでしか使用できません。"
+
+msgid "headerButtons/fightBtn/tooltip/comp7BattleOnly/header"
+msgstr "戦闘参加不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Disabled/body"
+msgstr "休止時間中は戦闘を行えません。"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Disabled/header"
+msgstr "戦闘参加不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightDisabled/body"
+msgstr "こちらのモードはご利用のサーバーでは休止中です。別のサーバーを選択してください。"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightDisabled/header"
+msgstr "出撃不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightNotSet/body"
+msgstr "こちらのモードは選択中のサーバーではプレイできません。"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightNotSet/header"
+msgstr "出撃不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightVehLevel/body"
+msgstr "適合するTier %(levels)s車輌がガレージにありません"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightVehLevel/delimiter"
+msgstr "、"
+
+msgid "headerButtons/fightBtn/tooltip/comp7LightVehLevel/header"
+msgstr "出撃不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotEnoughSuitableVehicles/body"
+msgstr "このモードには、少なくとも%(minVehiclesRequired)s輌の適合車輌が必要です。詳細は「オンスロート」モードについてのページでご確認ください。"
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotEnoughSuitableVehicles/header"
+msgstr "出撃不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotSet/body"
+msgstr "選択中のサーバーではこのモードをプレイできませんが、別のサーバーでプレイできます。"
+
+msgid "headerButtons/fightBtn/tooltip/comp7NotSet/header"
+msgstr "戦闘参加不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Offline/body"
+msgstr "データベース・エラーによりモードを選択できません。"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Offline/header"
+msgstr "戦闘参加不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Preannounce/body"
+msgstr "シーズンが始まっていません。"
+
+msgid "headerButtons/fightBtn/tooltip/comp7Preannounce/header"
+msgstr "戦闘参加不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7QualificationCalculation/body"
+msgstr "初期ランクが確定していないため出撃できません。「測定ラウンド」を終了してからレーティングが算出されるまでに5分ほどの時間を要する場合があります。ご了承ください。"
+
+msgid "headerButtons/fightBtn/tooltip/comp7QualificationCalculation/header"
+msgstr "出撃不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7SeasonEnd/header"
+msgstr "出撃不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7UnsuitableVehicle/header"
+msgstr "出撃不可"
+
+msgid "headerButtons/fightBtn/tooltip/comp7VehLevel/body"
+msgstr "適合するTier %(levels)s車輌がガレージにありません。"
+
+msgid "headerButtons/fightBtn/tooltip/comp7VehLevel/delimiter"
+msgstr ", "
+
+msgid "headerButtons/fightBtn/tooltip/comp7VehLevel/header"
+msgstr "出撃不可"
+
+msgid "headerButtons/fightBtn/tooltip/crewNotFull/body"
+msgstr "<b>%(crewList)s</b>を配属してください。"
+
+msgid "headerButtons/fightBtn/tooltip/crewNotFull/header"
+msgstr "搭乗員不足"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/body"
+msgstr "戦闘に出撃するには%(forStartBattle)sが必要です。\n攻撃チームが第2防衛線にあたるゾーンD、E、Fを1つでも占領すると両チームともに%(willBeUnlocked)s車輌を使用できるようになります。"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/header"
+msgstr "戦闘参加不可"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/levels/forStartBattle"
+msgstr "Tier %(levels)s車輌"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleSituationalVehicle/levels/willBeUnlocked"
+msgstr "Tier %(levels)s"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleVehLevel/body"
+msgstr "戦闘に出撃するには %(requirements)s が必要です。"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleVehLevel/header"
+msgstr "車輌が不適合"
+
+msgid "headerButtons/fightBtn/tooltip/epicBattleVehLevel/requirements"
+msgstr "Tier %(level)s車輌"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotEnoughPlayer/body"
+msgstr "戦闘に参加するには、指揮官と少なくとももう1名のメンバーが準備完了を確定する必要があります。"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotEnoughPlayer/header"
+msgstr "戦闘参加不能"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotReady/body"
+msgstr "車輌を選択してください: 完全なグループのみが戦闘参加可能です。"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotReady/header"
+msgstr "戦闘参加不能"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotSelected/body"
+msgstr "乱戦モードに参加するには、戦闘タイプを選択してください。"
+
+msgid "headerButtons/fightBtn/tooltip/falloutNotSelected/header"
+msgstr "戦闘参加不能"
+
+msgid "headerButtons/fightBtn/tooltip/falloutOnly/body"
+msgstr "選択した車輌は、乱戦モードのみに適合します。"
+
+msgid "headerButtons/fightBtn/tooltip/falloutOnly/header"
+msgstr "戦闘参加不能"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehLevelRequired/body"
+msgstr "Tier %(level)s 車輌を選択"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehLevelRequired/header"
+msgstr "戦闘参加不能"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehMin/body"
+msgstr "Tier %(level)s 車輌を選択"
+
+msgid "headerButtons/fightBtn/tooltip/falloutVehMin/header"
+msgstr "戦闘参加不能"
+
+msgid "headerButtons/fightBtn/tooltip/inPremiumIgrOnly/body"
+msgstr "他の車輌を選択してください。"
+
+msgid "headerButtons/fightBtn/tooltip/inPremiumIgrOnly/header"
+msgstr "車輌は %(icon)s 専用"
+
+msgid "headerButtons/fightBtn/tooltip/noVehicle/body"
+msgstr "条件を満たす車輌を購入してください。"
+
+msgid "headerButtons/fightBtn/tooltip/noVehicle/header"
+msgstr "使用できる車輌なし"
+
+msgid "headerButtons/fightBtn/tooltip/notSupported/body"
+msgstr "モードを変更するか条件を満たす車輌を選択してください。"
+
+msgid "headerButtons/fightBtn/tooltip/notSupported/header"
+msgstr "車輌がモードに不適合"
+
+msgid "headerButtons/fightBtn/tooltip/rankedDisabled/body"
+msgstr "サーバーで帰営時間が有効"
+
+msgid "headerButtons/fightBtn/tooltip/rankedDisabled/header"
+msgstr "戦闘参加不能"
+
+msgid "headerButtons/fightBtn/tooltip/rankedNotSet/body"
+msgstr "選択されたサーバーでは、このモードが利用できません。"
+
+msgid "headerButtons/fightBtn/tooltip/rankedNotSet/header"
+msgstr "戦闘参加不可"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehClass/body"
+msgstr "%(forbiddenClass)sはランク戦に参加できません。"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehClass/header"
+msgstr "車輌タイプが不適合"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehLevel/body"
+msgstr "戦闘に参加するには%(levelSubStr)sが必要です。"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehLevel/header"
+msgstr "車輌Tierが不適合"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehLevel/levelSubStr"
+msgstr "Tier %(levels)s車輌"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehType/body"
+msgstr "%(forbiddenType)sはランク戦に参加できません。"
+
+msgid "headerButtons/fightBtn/tooltip/rankedVehType/header"
+msgstr "車輌が不適合"
+
+msgid "headerButtons/fightBtn/tooltip/rentalIsOver/body"
+msgstr "他の車輌を選択してください。"
+
+msgid "headerButtons/fightBtn/tooltip/rentalIsOver/header"
+msgstr "車輌のレンタル期間が終了済み"
+
+msgid "headerButtons/fightBtn/tooltip/telecomRentalIsOver/body"
+msgstr "他の車輌を選択してください。"
+
+msgid "headerButtons/fightBtn/tooltip/telecomRentalIsOver/header"
+msgstr "車輌が使用不可"
+
+msgid "headerButtons/fightBtn/tooltip/unsutableToBattleRoyale/body"
+msgstr "「STEEL HUNTER」モードでは専用車輌でしか出撃できません。"
+
+msgid "headerButtons/fightBtn/tooltip/unsutableToBattleRoyale/header"
+msgstr "車輌が不適合"
+
+msgid "headerButtons/fightBtn/tooltip/vehicleIsBroken/body"
+msgstr "車輌を修理してください。"
+
+msgid "headerButtons/fightBtn/tooltip/vehicleIsBroken/header"
+msgstr "車輌が損傷中"
+
+msgid "headerButtons/fightBtn/tooltip/wotPlusExclusiveUnavailable/body"
+msgstr "他の車輌を選択してください。"
+
+msgid "headerButtons/fightBtn/tooltip/wotPlusExclusiveUnavailable/header"
+msgstr "限定車輌は使用不可"
+
+msgid "headerButtons/hangar"
+msgstr "ガレージ"
+
+msgid "headerButtons/menu"
+msgstr "メニュー"
+
+msgid "headerButtons/missions"
+msgstr "ミッション"
+
+msgid "headerButtons/modeSelector"
+msgstr "戦闘タイプ"
+
+msgid "headerButtons/navigation/back"
+msgstr "戻る"
+
+msgid "headerButtons/notReady"
+msgstr "準備中"
+
+msgid "headerButtons/personalMissions"
+msgstr "キャンペーン"
+
+msgid "headerButtons/profile"
+msgstr "実績"
+
+msgid "headerButtons/rating"
+msgstr "レーティング"
+
+msgid "headerButtons/ready"
+msgstr "準備完了"
+
+msgid "headerButtons/shop"
+msgstr "ショップ"
+
+msgid "headerButtons/storage"
+msgstr "倉庫"
+
+msgid "headerButtons/techtree"
+msgstr "技術ツリー"
+
+msgid "headerButtons/tournament"
+msgstr "トーナメント"
+
+msgid "headerButtons/wiki"
+msgstr "訓練センター"
+
+msgid "igr/info"
+msgstr "You are playing at %(igrIcon)s."
+
+msgid "infinitySymbol"
+msgstr "∞"
+
+msgid "ingame_menu/buttons/back"
+msgstr "ゲームに戻る"
+
+msgid "ingame_menu/buttons/help"
+msgstr "ヘルプ"
+
+msgid "ingame_menu/buttons/logoff"
+msgstr "ガレージに戻る"
+
+msgid "ingame_menu/buttons/replayExit"
+msgstr "終了"
+
+msgid "ingame_menu/buttons/settings"
+msgstr "設定"
+
+msgid "ingame_menu/links/report_bug"
+msgstr "エラーを報告"
+
+msgid "ingame_menu/serverStats/server"
+msgstr "サーバー:"
+
+msgid "ingame_menu/title"
+msgstr "メニュー"
+
+msgid "internet_provider/BeelineKZ/name"
+msgstr "Beeline Казахстан"
+
+msgid "internet_provider/BeelineKZ/tariff"
+msgstr "Игровой"
+
+msgid "internet_provider/Kazakhtelecom/name"
+msgstr "Казахтелеком"
+
+msgid "internet_provider/Kazakhtelecom/tariff"
+msgstr "Игровой"
+
+msgid "internet_provider/LocalPartner2/name"
+msgstr "LocalPartner2"
+
+msgid "internet_provider/LocalPartner2/tariff"
+msgstr "Igrovoy"
+
+msgid "internet_provider/LocalPartner3/name"
+msgstr "LocalPartner3"
+
+msgid "internet_provider/LocalPartner3/tariff"
+msgstr "Igrovoy"
+
+msgid "internet_provider/LocalPartner4/name"
+msgstr "LocalPartner4"
+
+msgid "internet_provider/LocalPartner4/tariff"
+msgstr "Igrovoy"
+
+msgid "inventory/device/errors/not_removable"
+msgstr " "
+
+msgid "inventory/device/errors/reserved"
+msgstr " "
+
+msgid "inventory/errors/reserved"
+msgstr " "
+
+msgid "inventory/header/equipment/myVehicle"
+msgstr "%(vehicle)s 用の消耗品:"
+
+msgid "inventory/header/equipment/myVehicles"
+msgstr "%(nation)s 車輌用の消耗品:"
+
+msgid "inventory/header/equipment/otherVehicles"
+msgstr "%(nation)s とは非互換の消耗品:"
+
+msgid "inventory/header/module/myVehicle"
+msgstr "%(vehicle)s 用の %(type)s:"
+
+msgid "inventory/header/module/myVehicles"
+msgstr "%(nation)s 車輌用の %(type)s:"
+
+msgid "inventory/header/module/otherVehicles"
+msgstr "%(nation)s と互換性のない %(type)s:"
+
+msgid "inventory/header/optionalDevice/myVehicle"
+msgstr "%(vehicle)s 用の拡張パーツ:"
+
+msgid "inventory/header/optionalDevice/myVehicles"
+msgstr "%(nation)s 車輌用の拡張パーツ:"
+
+msgid "inventory/header/optionalDevice/otherVehicles"
+msgstr "%(nation)s と互換性のない拡張パーツ:"
+
+msgid "inventory/header/shell/myInventoryGuns"
+msgstr "%(nation)s 倉庫内の主砲用の砲弾:"
+
+msgid "inventory/header/shell/myVehicleGun"
+msgstr "%(vehicle)s に搭載中の主砲用の砲弾:"
+
+msgid "inventory/header/shell/myVehiclesInventoryGuns"
+msgstr "%(nation)s の全ての所有主砲用の砲弾:"
+
+msgid "inventory/header/shell/otherGuns"
+msgstr "%(nation)s の主砲とは非互換の砲弾:"
+
+msgid "inventory/header/vehicle"
+msgstr "所有する全ての %(type)s %(nation)s:"
+
+msgid "inventory/menu/battleBooster/name"
+msgstr "ディレクティブ"
+
+msgid "inventory/menu/battleBooster/targetType/allKind/name"
+msgstr "全て"
+
+msgid "inventory/menu/battleBooster/targetType/forCrew/name"
+msgstr "搭乗員用"
+
+msgid "inventory/menu/battleBooster/targetType/forEquipment/name"
+msgstr "拡張パーツ用"
+
+msgid "inventory/menu/equipment/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/equipment/fits/myVehicles/name"
+msgstr "所有車輌"
+
+msgid "inventory/menu/equipment/fits/name"
+msgstr "互換性あり:"
+
+msgid "inventory/menu/equipment/fits/otherVehicles/name"
+msgstr "所有車輌とは非互換"
+
+msgid "inventory/menu/equipment/name"
+msgstr "消耗品"
+
+msgid "inventory/menu/module/extra/name"
+msgstr "表示"
+
+msgid "inventory/menu/module/extra/onVehicle/name"
+msgstr "搭載中"
+
+msgid "inventory/menu/module/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/module/fits/myVehicles/name"
+msgstr "所有車輌"
+
+msgid "inventory/menu/module/fits/name"
+msgstr "互換性:"
+
+msgid "inventory/menu/module/fits/otherVehicles/name"
+msgstr "所有車輌とは非互換"
+
+msgid "inventory/menu/module/name"
+msgstr "モジュール"
+
+msgid "inventory/menu/module/types/name"
+msgstr "モジュールタイプ:"
+
+msgid "inventory/menu/module/types/vehicleChassis/name"
+msgstr "サスペンション"
+
+msgid "inventory/menu/module/types/vehicleEngine/name"
+msgstr "エンジン"
+
+msgid "inventory/menu/module/types/vehicleGun/name"
+msgstr "主砲"
+
+msgid "inventory/menu/module/types/vehicleRadio/name"
+msgstr "無線機"
+
+msgid "inventory/menu/module/types/vehicleTurret/name"
+msgstr "砲塔"
+
+msgid "inventory/menu/optionalDevice/extra/name"
+msgstr "表示"
+
+msgid "inventory/menu/optionalDevice/extra/onVehicle/name"
+msgstr "搭載中"
+
+msgid "inventory/menu/optionalDevice/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "inventory/menu/optionalDevice/fits/myVehicles/name"
+msgstr "所有車輌"
+
+msgid "inventory/menu/optionalDevice/fits/name"
+msgstr "互換性あり:"
+
+msgid "inventory/menu/optionalDevice/fits/otherVehicles/name"
+msgstr "所有車輌とは非互換"
+
+msgid "inventory/menu/optionalDevice/name"
+msgstr "拡張パーツ"
+
+msgid "inventory/menu/shell/fits/myInventoryGuns/name"
+msgstr "倉庫内の主砲"
+
+msgid "inventory/menu/shell/fits/myVehicleGun/name"
+msgstr "搭載中の主砲"
+
+msgid "inventory/menu/shell/fits/myVehiclesInventoryGuns/name"
+msgstr "全ての所有主砲"
+
+msgid "inventory/menu/shell/fits/name"
+msgstr "互換性あり:"
+
+msgid "inventory/menu/shell/fits/otherGuns/name"
+msgstr "所有主砲とは非互換"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING/name"
+msgstr "徹甲弾"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING_CR/name"
+msgstr "硬芯徹甲弾"
+
+msgid "inventory/menu/shell/kinds/ARMOR_PIERCING_HE/name"
+msgstr "徹甲榴弾"
+
+msgid "inventory/menu/shell/kinds/HIGH_EXPLOSIVE/name"
+msgstr "榴弾"
+
+msgid "inventory/menu/shell/kinds/HOLLOW_CHARGE/name"
+msgstr "対戦車榴弾"
+
+msgid "inventory/menu/shell/kinds/name"
+msgstr "弾種"
+
+msgid "inventory/menu/shell/name"
+msgstr "砲弾"
+
+msgid "inventory/menu/vehicle/extra/brocken/name"
+msgstr "損傷した車輌"
+
+msgid "inventory/menu/vehicle/extra/locked/name"
+msgstr "戦闘中の車輌"
+
+msgid "inventory/menu/vehicle/extra/name"
+msgstr "表示"
+
+msgid "inventory/menu/vehicle/extra/premiumIGR/name"
+msgstr "車輌 %(icon)s"
+
+msgid "inventory/menu/vehicle/extra/rentals/name"
+msgstr "レンタル中の車輌"
+
+msgid "inventory/menu/vehicle/name"
+msgstr "車輌"
+
+msgid "inventory/menu/vehicle/tags/all/name"
+msgstr "全てのタイプ"
+
+msgid "inventory/menu/vehicle/tags/at-spg/name"
+msgstr "駆逐戦車"
+
+msgid "inventory/menu/vehicle/tags/heavyTank/name"
+msgstr "重戦車"
+
+msgid "inventory/menu/vehicle/tags/lightTank/name"
+msgstr "軽戦車"
+
+msgid "inventory/menu/vehicle/tags/mediumTank/name"
+msgstr "中戦車"
+
+msgid "inventory/menu/vehicle/tags/name"
+msgstr "車輌タイプ"
+
+msgid "inventory/menu/vehicle/tags/spg/name"
+msgstr "自走砲"
+
+msgid "inventory/table/buttonSell"
+msgstr "売却"
+
+msgid "inventory/table/header/count"
+msgstr "数"
+
+msgid "inventory/table/header/price"
+msgstr "価格"
+
+msgid "legal"
+msgstr "法律情報"
+
+msgid "legalInfo/closeBtn"
+msgstr "閉じる"
+
+msgid "levels/1"
+msgstr "Tier I"
+
+msgid "levels/10"
+msgstr "Tier X"
+
+msgid "levels/11"
+msgstr "Tier XI"
+
+msgid "levels/2"
+msgstr "Tier II"
+
+msgid "levels/3"
+msgstr "Tier III"
+
+msgid "levels/4"
+msgstr "Tier IV"
+
+msgid "levels/5"
+msgstr "Tier V"
+
+msgid "levels/6"
+msgstr "Tier VI"
+
+msgid "levels/7"
+msgstr "Tier VII"
+
+msgid "levels/8"
+msgstr "Tier VIII"
+
+msgid "levels/9"
+msgstr "Tier IX"
+
+msgid "levels/all"
+msgstr "全ての Tier"
+
+msgid "levels/roman/1"
+msgstr "Tier I"
+
+msgid "levels/roman/10"
+msgstr "Tier X"
+
+msgid "levels/roman/11"
+msgstr "Tier XI"
+
+msgid "levels/roman/2"
+msgstr "Tier II"
+
+msgid "levels/roman/3"
+msgstr "Tier III"
+
+msgid "levels/roman/4"
+msgstr "Tier IV"
+
+msgid "levels/roman/5"
+msgstr "Tier V"
+
+msgid "levels/roman/6"
+msgstr "Tier VI"
+
+msgid "levels/roman/7"
+msgstr "Tier VII"
+
+msgid "levels/roman/8"
+msgstr "Tier VIII"
+
+msgid "levels/roman/9"
+msgstr "Tier IX"
+
+msgid "loading/battleTypes/0"
+msgstr "特別戦"
+
+msgid "loading/battleTypes/1"
+msgstr "ランダム戦"
+
+msgid "loading/battleTypes/10"
+msgstr "チームバトル: ランク戦"
+
+msgid "loading/battleTypes/11"
+msgstr "戦車訓練"
+
+msgid "loading/battleTypes/12"
+msgstr "戦車訓練"
+
+msgid "loading/battleTypes/13"
+msgstr "制圧戦"
+
+msgid "loading/battleTypes/14"
+msgstr "スチールハント"
+
+msgid "loading/battleTypes/15"
+msgstr "前衛戦"
+
+msgid "loading/battleTypes/16"
+msgstr "進撃戦"
+
+msgid "loading/battleTypes/17"
+msgstr "ランク戦"
+
+msgid "loading/battleTypes/19"
+msgstr "ランダム戦"
+
+msgid "loading/battleTypes/2"
+msgstr "チームトレーニング"
+
+msgid "loading/battleTypes/20"
+msgstr "チームトレーニング"
+
+msgid "loading/battleTypes/21"
+msgstr "フロントライン"
+
+msgid "loading/battleTypes/22"
+msgstr "フロントライン"
+
+msgid "loading/battleTypes/23"
+msgstr "STEEL HUNTER"
+
+msgid "loading/battleTypes/24"
+msgstr "先行偵察ミッション"
+
+msgid "loading/battleTypes/25"
+msgstr "地誌学"
+
+msgid "loading/battleTypes/26"
+msgstr "Art of Strategy"
+
+msgid "loading/battleTypes/28"
+msgstr "司令官トレーニング"
+
+msgid "loading/battleTypes/29"
+msgstr "%(modeName)s"
+
+msgid "loading/battleTypes/30"
+msgstr "オンスロート"
+
+msgid "loading/battleTypes/31"
+msgstr "ウォームアップ"
+
+msgid "loading/battleTypes/33"
+msgstr "オンスロート"
+
+msgid "loading/battleTypes/34"
+msgstr "「オンスロート」トレーニング"
+
+msgid "loading/battleTypes/35"
+msgstr "オンスロート・ライト"
+
+msgid "loading/battleTypes/4"
+msgstr "戦闘訓練"
+
+msgid "loading/battleTypes/5"
+msgstr "チームバトル"
+
+msgid "loading/battleTypes/6"
+msgstr "ヒストリカルバトル"
+
+msgid "loading/battleTypes/7"
+msgstr "Waffenträger Hyperion"
+
+msgid "loading/battleTypes/8"
+msgstr "前衛戦"
+
+msgid "loading/battleTypes/9"
+msgstr "クランに対する戦闘"
+
+msgid "loading/battleTypes/desc/0"
+msgstr " "
+
+msgid "loading/battleTypes/desc/1"
+msgstr " "
+
+msgid "loading/battleTypes/desc/10"
+msgstr " "
+
+msgid "loading/battleTypes/desc/11"
+msgstr " "
+
+msgid "loading/battleTypes/desc/12"
+msgstr " "
+
+msgid "loading/battleTypes/desc/13"
+msgstr " "
+
+msgid "loading/battleTypes/desc/14"
+msgstr " "
+
+msgid "loading/battleTypes/desc/15"
+msgstr "勝利条件: 敵陣地を占領するか、敵車輌を殲滅せよ!"
+
+msgid "loading/battleTypes/desc/16"
+msgstr "勝利条件: 敵陣地を占領するか、敵車輌を殲滅せよ!"
+
+msgid "loading/battleTypes/desc/17"
+msgstr " "
+
+msgid "loading/battleTypes/desc/19"
+msgstr " "
+
+msgid "loading/battleTypes/desc/2"
+msgstr "戦友と共に\n戦闘スキルを磨きます。\nEXPは取得できません。"
+
+msgid "loading/battleTypes/desc/20"
+msgstr " "
+
+msgid "loading/battleTypes/desc/21"
+msgstr " "
+
+msgid "loading/battleTypes/desc/22"
+msgstr " "
+
+msgid "loading/battleTypes/desc/23"
+msgstr " "
+
+msgid "loading/battleTypes/desc/24"
+msgstr " "
+
+msgid "loading/battleTypes/desc/25"
+msgstr " "
+
+msgid "loading/battleTypes/desc/26"
+msgstr " "
+
+msgid "loading/battleTypes/desc/28"
+msgstr " "
+
+msgid "loading/battleTypes/desc/29"
+msgstr " "
+
+msgid "loading/battleTypes/desc/30"
+msgstr " "
+
+msgid "loading/battleTypes/desc/31"
+msgstr " "
+
+msgid "loading/battleTypes/desc/33"
+msgstr " "
+
+msgid "loading/battleTypes/desc/34"
+msgstr " "
+
+msgid "loading/battleTypes/desc/35"
+msgstr " "
+
+msgid "loading/battleTypes/desc/4"
+msgstr " "
+
+msgid "loading/battleTypes/desc/5"
+msgstr " "
+
+msgid "loading/battleTypes/desc/6"
+msgstr " "
+
+msgid "loading/battleTypes/desc/7"
+msgstr "?empty?"
+
+msgid "loading/battleTypes/desc/8"
+msgstr " "
+
+msgid "loading/battleTypes/desc/9"
+msgstr " "
+
+msgid "loading/battleTypes/subTitle/23"
+msgstr "STEEL HUNTER SHAMROCK"
+
+msgid "loading/helpTip"
+msgstr "F1 キー: 戦闘中にヘルプを閲覧"
+
+msgid "loading/team1"
+msgstr "味方チーム"
+
+msgid "loading/team2"
+msgstr "敵チーム"
+
+msgid "loading/teams/allies"
+msgstr "味方チーム"
+
+msgid "loading/teams/enemies"
+msgstr "敵チーム"
+
+msgid "lobby_menu/buttons/back"
+msgstr "ゲームに戻る"
+
+msgid "lobby_menu/buttons/exit"
+msgstr "ゲーム終了"
+
+msgid "lobby_menu/buttons/logoff"
+msgstr "サーバーからの切断"
+
+msgid "lobby_menu/buttons/post"
+msgstr "戦闘情報"
+
+msgid "lobby_menu/buttons/refuse-training"
+msgstr "一時中断"
+
+msgid "lobby_menu/buttons/restart-training"
+msgstr "訓練再開"
+
+msgid "lobby_menu/buttons/settings"
+msgstr "設定"
+
+msgid "lobby_menu/manyServers/title"
+msgstr "サーバーと Ping (ms):"
+
+msgid "lobby_menu/oneServer/title"
+msgstr "サーバー: %(sName)s"
+
+msgid "lobby_menu/title"
+msgstr "メニュー"
+
+msgid "login/account"
+msgstr "アカウント:"
+
+msgid "login/auto"
+msgstr "自動"
+
+msgid "login/caps"
+msgstr "Caps"
+
+msgid "login/changeAaccount"
+msgstr "アカウント切り替え"
+
+msgid "login/fastEnter"
+msgstr "クイックログイン:"
+
+msgid "login/healthNotice"
+msgstr "?empty?"
+
+msgid "login/licenses/header_1"
+msgstr "Portions of this software include the following copyrighted material, the use of which is hereby acknowledged:"
+
+msgid "login/licenses/header_2"
+msgstr "Portions of this software are copyright:"
+
+msgid "login/login"
+msgstr "メールアドレス:"
+
+msgid "login/ok"
+msgstr "接続開始!"
+
+msgid "login/password"
+msgstr "パスワード:"
+
+msgid "login/quitFromAutoLogin"
+msgstr "待機を中止"
+
+msgid "login/recoveryLink"
+msgstr "ログインできませんか?"
+
+msgid "login/registrationLink"
+msgstr "アカウント作成"
+
+msgid "login/rememberPassword"
+msgstr "記憶する"
+
+msgid "login/rememberPasswordIgr"
+msgstr "E メールとパスワードを保存 (不安全)"
+
+msgid "login/rememberPasswordIgrWarning"
+msgstr "公共の場でこのオプションを用いることは危険です。"
+
+msgid "login/rss/readMore"
+msgstr "詳細"
+
+msgid "login/server"
+msgstr "サーバーと Ping (ms):"
+
+msgid "login/social/status/SYSTEM_ERROR"
+msgstr "ソーシャルネットワークまたは Wargaming.net ID 経由での認証エラー。メールアドレスとパスワードでの通常ログインをお試しください。"
+
+msgid "login/social/status/WGC_ERROR"
+msgstr "認証エラー。E メールアドレスとパスワードを入力してください。"
+
+msgid "login/social/warning/SOCIAL_NETWORK_LOGOUT"
+msgstr "アカウント %(userName)s からログアウトしました。セキュリティ対策のため、%(socialNetworkLink)s アカウントからもログアウトしてください。"
+
+msgid "login/social/warning/SOCIAL_NETWORK_LOGOUT_BOTH"
+msgstr "アカウント %(userName)s からログアウトしました。セキュリティ対策のため、%(socialNetworkLink)s および %(wargamingNetLink)s アカウントからもログアウトしてください。"
+
+msgid "login/status/ALREADY_ONLINE_LOCALLY"
+msgstr "クライアントは既にローカルでオンライン状態にあります (オフラインスペースを検索中です)。"
+
+msgid "login/status/CANCELLED"
+msgstr "サーバーへの接続がユーザーによって中断されました。"
+
+msgid "login/status/CLIENT_SERVER_VERSIONS_ARE_DIFFERENT"
+msgstr "このサーバーは一時的にご利用いただけません。お使いのクライアントをアップデートするか、予定のアップデートまでお待ちください。"
+
+msgid "login/status/CONNECTION_FAILED"
+msgstr "ネットワークに接続できません。"
+
+msgid "login/status/DNS_LOOKUP_FAILED"
+msgstr "サーバーへの接続に失敗しました。\nサーバーが停止中か、もしくはネットワーク接続設定に問題がある可能性があります。"
+
+msgid "login/status/LOGIN_BAD_PROTOCOL_VERSION"
+msgstr "ゲームクライアントをアップデートしてください。"
+
+msgid "login/status/LOGIN_CUSTOM_DEFINED_ERROR"
+msgstr "サーバーは現在ご利用になれません。理由: %(reason)s。"
+
+msgid "login/status/LOGIN_MALFORMED_REQUEST"
+msgstr "サーバーログインできません。アプリケーションが古いか、壊れている可能性があります。"
+
+msgid "login/status/LOGIN_REJECTED_ACTIVATING"
+msgstr "アカウント作成中..."
+
+msgid "login/status/LOGIN_REJECTED_ALREADY_LOGGED_IN"
+msgstr "同名のプレイヤーが既に存在します。"
+
+msgid "login/status/LOGIN_REJECTED_BAD_DIGEST"
+msgstr "ゲームクライアントをアップデートしてください。"
+
+msgid "login/status/LOGIN_REJECTED_BAN"
+msgstr "アカウントが %(time)s までロック中です。理由: %(reason)s"
+
+msgid "login/status/LOGIN_REJECTED_BAN_UNLIMITED"
+msgstr "アカウントが一時停止中です。理由: %(reason)s"
+
+msgid "login/status/LOGIN_REJECTED_BASEAPPMGR_TIMEOUT"
+msgstr "サーバーエラー (BASEAPPMGR_TIMEOUT)"
+
+msgid "login/status/LOGIN_REJECTED_BASEAPP_OVERLOAD"
+msgstr "サーバーがビジーです。後で再試行してください。"
+
+msgid "login/status/LOGIN_REJECTED_BASEAPP_TIMEOUT"
+msgstr "サーバーエラー (BASEAPP_TIMEOUT)"
+
+msgid "login/status/LOGIN_REJECTED_CELLAPP_OVERLOAD"
+msgstr "サーバーがビジーです。後で再試行してください。"
+
+msgid "login/status/LOGIN_REJECTED_DBMGR_OVERLOAD"
+msgstr "サーバーがビジーです。後で再試行してください。"
+
+msgid "login/status/LOGIN_REJECTED_DB_GENERAL_FAILURE"
+msgstr "サーバーエラー (DB_GENERAL_FAILURE)"
+
+msgid "login/status/LOGIN_REJECTED_DB_NOT_READY"
+msgstr "サーバーエラー (DB_NOT_READY)"
+
+msgid "login/status/LOGIN_REJECTED_ILLEGAL_CHARACTERS"
+msgstr "プレイヤー名またはパスワードに使用できない記号が含まれています。"
+
+msgid "login/status/LOGIN_REJECTED_INACCESSIBLE_REALM"
+msgstr "選択されたサーバーは一時的にご利用頂けません。"
+
+msgid "login/status/LOGIN_REJECTED_INVALID_PASSWORD"
+msgstr "パスワードまたはメールアドレスが正しくありません。<a href='event:passwordRecovery'>パスワードの復旧</a> "
+
+msgid "login/status/LOGIN_REJECTED_IP_ADDRESS_BAN"
+msgstr "接続エラー: お客様の IP アドレスによるアクセスは一時的に制限されています。"
+
+msgid "login/status/LOGIN_REJECTED_LOGINS_NOT_ALLOWED"
+msgstr "定期メンテナンスのため、サーバーが一時的にご利用頂けません。"
+
+msgid "login/status/LOGIN_REJECTED_LOGIN_QUEUE"
+msgstr "サーバーがビジーです。接続待機中です。待機番号: %d。"
+
+msgid "login/status/LOGIN_REJECTED_NICKNAME_ALREADY_EXIST"
+msgstr "こちらのプレイヤー名はすでに使用されています。別のプレイヤー名を入力してください。"
+
+msgid "login/status/LOGIN_REJECTED_NO_BASEAPPS"
+msgstr "サーバーエラー (NO_BASEAPPS)"
+
+msgid "login/status/LOGIN_REJECTED_NO_BASEAPP_RESPONSE"
+msgstr "サーバーからの応答がありません。後で再試行してください。"
+
+msgid "login/status/LOGIN_REJECTED_NO_LOGINAPP"
+msgstr "サーバーへの接続に失敗しました。\nサーバーが停止中か、もしくはネットワーク接続設定に問題がある可能性があります。"
+
+msgid "login/status/LOGIN_REJECTED_NO_LOGINAPP_RESPONSE"
+msgstr "サーバーへの接続に失敗しました。\nサーバーが停止中か、もしくはネットワーク接続設定に問題がある可能性があります。"
+
+msgid "login/status/LOGIN_REJECTED_NO_SUCH_USER"
+msgstr "メールアドレスまたはパスワードが正しくありません。"
+
+msgid "login/status/LOGIN_REJECTED_RATE_LIMITED"
+msgstr "サーバーがビジーです。サーバーへの接続を保留しています。"
+
+msgid "login/status/LOGIN_REJECTED_REGISTRATION_NOT_ALLOWED"
+msgstr "アカウント作成は一時的に中止されています。"
+
+msgid "login/status/LOGIN_REJECTED_REGISTRATION_NOT_CONFIRMED"
+msgstr "ログインできません。メールボックスで登録確認メールをご確認ください。"
+
+msgid "login/status/LOGIN_REJECTED_SERVER_NOT_READY"
+msgstr "サーバーの準備が整っていません。後で再試行してください。"
+
+msgid "login/status/LOGIN_REJECTED_UNABLE_TO_PARSE_JSON"
+msgstr "プレイヤー名に使用できない記号が含まれています。別のプレイヤー名を入力してください。"
+
+msgid "login/status/LOGIN_REJECTED_USERS_LIMIT"
+msgstr "サーバーがビジーです。別のサーバーを選択するか、後で再試行してください。"
+
+msgid "login/status/NOT_SET"
+msgstr "サーバーから切断されました。"
+
+msgid "login/status/PUBLIC_KEY_LOOKUP_FAILED"
+msgstr "クライアントの公開キーが見つかりません。"
+
+msgid "login/status/SESSION_END"
+msgstr "自動ログイン・セッションが期間切れとなりました。パスワードをもう一度入力してください。"
+
+msgid "login/status/SOCIAL_SESSION_END"
+msgstr "認証エラー。ゲームにログインするには、ログインをクリックしてください。"
+
+msgid "login/status/UNKNOWN_ERROR"
+msgstr "不明なエラーが発生しました。"
+
+msgid "login/status/WGC_LOGOUT"
+msgstr "アカウント %(userName)s からログアウトしました。ログインするには、E メールアドレスとパスワードを入力してください。"
+
+msgid "login/status/accessForbiddenToPeriphery"
+msgstr "お使いのアカウントでは選択中のサーバーにアクセスできません。利用できるサーバー: %(peripheries)s"
+
+msgid "login/status/accountNotReady"
+msgstr "アカウントの準備が整っていません。後で再試行してください。"
+
+msgid "login/status/another_periphery"
+msgstr "まだ他のサーバーにログイン中です。"
+
+msgid "login/status/centerRestart"
+msgstr "このサーバーは一時的にご利用いただけません。サーバーが再始動するまでお待ちください。"
+
+msgid "login/status/checkout_error"
+msgstr "プレイヤー詳細の受信エラー。後で再試行してください。"
+
+msgid "login/status/connecting"
+msgstr "?empty?"
+
+msgid "login/status/empty_login"
+msgstr "メールアドレスを入力してください。"
+
+msgid "login/status/empty_password"
+msgstr "パスワードを入力してください。"
+
+msgid "login/status/empty_server"
+msgstr "サーバーを選択してください。"
+
+msgid "login/status/invalid_login"
+msgstr "メールアドレスを利用してログインしてください。"
+
+msgid "login/status/invalid_login_length"
+msgstr "プレイヤー名は%(count)d文字以上でなければなりません。"
+
+msgid "login/status/invalid_nickname"
+msgstr "プレイヤー名には半角アルファベット、数字、アンダーバー以外は使用できません。"
+
+msgid "login/status/launchernotfound"
+msgstr "WOTLauncher.exe が見つかりません。アプリケーションを再インストールしてください。"
+
+msgid "login/status/unavailable"
+msgstr "サーバーがご利用頂けません"
+
+msgid "login/status/versionMismatch"
+msgstr "この地域は一時的にご利用いただけません。予定のアップデートまでお待ちください。"
+
+msgid "login/submitBySocial"
+msgstr "ログイン"
+
+msgid "login/updateURLAvaialbleAt"
+msgstr "クライアント・アプリケーション (%s) をアップデートしてください。"
+
+msgid "login/version"
+msgstr "World of Tanks"
+
+msgid "mapBlackList/timeLeftShort/days"
+msgstr "%(day)s 日"
+
+msgid "mapBlackList/timeLeftShort/hours"
+msgstr "%(hour)s 時間"
+
+msgid "mapBlackList/timeLeftShort/lessMin"
+msgstr "1 分"
+
+msgid "mapBlackList/timeLeftShort/min"
+msgstr "%(min)s 分"
+
+msgid "moduleFits/already_installed"
+msgstr "?empty?"
+
+msgid "moduleFits/center_unavailable"
+msgstr "一時的にご利用不能"
+
+msgid "moduleFits/credits_error"
+msgstr "?empty?"
+
+msgid "moduleFits/crystal_error"
+msgstr "?empty?"
+
+msgid "moduleFits/destroyBtn/tooltip/body"
+msgstr "拡張パーツを破棄する"
+
+msgid "moduleFits/destroyBtn/tooltip/header"
+msgstr "?empty?"
+
+msgid "moduleFits/destroyDescr"
+msgstr "拡張パーツを破棄して\n拡張パーツ用スロットを空ける。"
+
+msgid "moduleFits/destroyEquipment"
+msgstr "拡張パーツ「%(equipment)s」\nを破棄しますか？"
+
+msgid "moduleFits/gold_error"
+msgstr "?empty?"
+
+msgid "moduleFits/need_gun"
+msgstr "主砲が非互換"
+
+msgid "moduleFits/need_turret"
+msgstr "砲塔が非互換"
+
+msgid "moduleFits/not_for_current_vehicle"
+msgstr "現在の構成とは非互換です。"
+
+msgid "moduleFits/not_for_this_vehicle_type"
+msgstr "主砲が非互換"
+
+msgid "moduleFits/not_with_installed_equipment"
+msgstr "非互換"
+
+msgid "moduleFits/removeDescr"
+msgstr "拡張パーツを解除して倉庫に送る"
+
+msgid "moduleFits/removeName"
+msgstr "解除"
+
+msgid "moduleFits/removeToolTip"
+msgstr " "
+
+msgid "moduleFits/similar_device_already_installed"
+msgstr "?empty?"
+
+msgid "moduleFits/title"
+msgstr "%(vehicleName)s 用の %(moduleName)s"
+
+msgid "moduleFits/unlock_error"
+msgstr "研究"
+
+msgid "moduleFits/upgradeBtn/tooltip/body"
+msgstr "拡張パーツをアップグレードすると、ボーナス値が向上します。"
+
+msgid "moduleFits/wrong_slot"
+msgstr "?empty?"
+
+msgid "moduleInfo/additionalInfo"
+msgstr "砲弾の特性は主砲に依存します。"
+
+msgid "moduleInfo/autoLoaderGun"
+msgstr "自動再装填砲"
+
+msgid "moduleInfo/autoLoaderGunBoost"
+msgstr "【改良型自動再装填システム】\n砲弾の再装填時間を短縮可能"
+
+msgid "moduleInfo/autoShootGun"
+msgstr "連射システムを採用した主砲"
+
+msgid "moduleInfo/closeBtn"
+msgstr "閉じる"
+
+msgid "moduleInfo/compatible/clipVehicles"
+msgstr "自動装填装置を搭載した車輌:"
+
+msgid "moduleInfo/compatible/guns"
+msgstr "互換性のある主砲:"
+
+msgid "moduleInfo/compatible/shellGuns"
+msgstr "互換性のある主砲:"
+
+msgid "moduleInfo/compatible/shells"
+msgstr "互換性のある砲弾:"
+
+msgid "moduleInfo/compatible/turrets"
+msgstr "互換性のある砲塔:"
+
+msgid "moduleInfo/compatible/uniChargedVehicles"
+msgstr "単発砲として使用:"
+
+msgid "moduleInfo/compatible/vehicles"
+msgstr "互換性のある車輌:"
+
+msgid "moduleInfo/damageMutable"
+msgstr "【深溝ライフル砲】星型弾底弾を発射可能"
+
+msgid "moduleInfo/dualAccuracy"
+msgstr "砲身冷却システム"
+
+msgid "moduleInfo/dualGun"
+msgstr "2連装砲システム"
+
+msgid "moduleInfo/heatingZonesGun"
+msgstr "アクティブ砲身冷却システム搭載の主砲"
+
+msgid "moduleInfo/hydraulicChassis"
+msgstr "油気圧サスペンション、射撃モードと移動モードを切り替え可能"
+
+msgid "moduleInfo/hydraulicWheeledChassis"
+msgstr "【伸縮式油気圧サスペンション】\n車輌の追加車輪の位置を変更可能"
+
+msgid "moduleInfo/hydroAutoSiegeChassis"
+msgstr "【油気圧サスペンション】\n車体の傾斜角を変更可能"
+
+msgid "moduleInfo/lowChargeShot"
+msgstr "主砲性能を損なう代わりに装填が完全に終わる前に射撃可能"
+
+msgid "moduleInfo/magazineGun"
+msgstr "自動装填装置"
+
+msgid "moduleInfo/nonPiercingDamageLabel"
+msgstr "敵車輌の装甲を貫通しなかった場合でも小ダメージを与えることができる"
+
+msgid "moduleInfo/overheatGun"
+msgstr "過熱制御式自動連射砲"
+
+msgid "moduleInfo/parametersClipGunLabel"
+msgstr "<img src='%s' vspace='-4'/> 自動装填装置に対応した主砲用:"
+
+msgid "moduleInfo/parametersLabel"
+msgstr "特性:"
+
+msgid "moduleInfo/params/aimingTime"
+msgstr "照準時間"
+
+msgid "moduleInfo/params/areaRadius"
+msgstr "ダメージエリア半径"
+
+msgid "moduleInfo/params/areaSquare"
+msgstr "ダメージエリア"
+
+msgid "moduleInfo/params/armor"
+msgstr "装甲"
+
+msgid "moduleInfo/params/artDelayRange"
+msgstr "砲撃準備時間"
+
+msgid "moduleInfo/params/autoReloadTime"
+msgstr "単発自動再装填時間"
+
+msgid "moduleInfo/params/autoReloadTime/boost"
+msgstr "通常の単発自動再装填時間"
+
+msgid "moduleInfo/params/avgDamage"
+msgstr "平均ダメージ"
+
+msgid "moduleInfo/params/avgDamageList"
+msgstr "平均ダメージ"
+
+msgid "moduleInfo/params/avgDamagePerMinute"
+msgstr "平均分間ダメージ"
+
+msgid "moduleInfo/params/avgDamagePerSecond"
+msgstr "秒間ダメージ"
+
+msgid "moduleInfo/params/avgMutableDamage"
+msgstr "平均ダメージ"
+
+msgid "moduleInfo/params/avgPiercingPower"
+msgstr "平均貫通力"
+
+msgid "moduleInfo/params/bombDamage"
+msgstr "爆弾の単発ダメージ"
+
+msgid "moduleInfo/params/bombsNumberRange"
+msgstr "爆撃1回の爆弾数"
+
+msgid "moduleInfo/params/burstCount"
+msgstr "弾倉内の挿弾子数"
+
+msgid "moduleInfo/params/burstFireRate"
+msgstr "挿弾子"
+
+msgid "moduleInfo/params/burstSize"
+msgstr "挿弾子の装弾数"
+
+msgid "moduleInfo/params/burstTimeInterval"
+msgstr "挿弾子の連射間隔"
+
+msgid "moduleInfo/params/caliber"
+msgstr "口径"
+
+msgid "moduleInfo/params/chargeTime"
+msgstr "斉射の準備時間"
+
+msgid "moduleInfo/params/chassisRepairTime"
+msgstr "サスペンションの修理時間"
+
+msgid "moduleInfo/params/chassisRepairTimeYoh"
+msgstr "サスペンションの修理時間"
+
+msgid "moduleInfo/params/circularVisionRadius"
+msgstr "視認範囲"
+
+msgid "moduleInfo/params/commonAreaRadius"
+msgstr "効果半径"
+
+msgid "moduleInfo/params/commonDelay"
+msgstr "配備時間"
+
+msgid "moduleInfo/params/continuousDamagePerSecond"
+msgstr "秒間ダメージ"
+
+msgid "moduleInfo/params/continuousShotsPerMinute"
+msgstr "連射速度"
+
+msgid "moduleInfo/params/cooldownSeconds"
+msgstr "クールダウン時間"
+
+msgid "moduleInfo/params/crewRolesFactor"
+msgstr "搭乗員の能力"
+
+msgid "moduleInfo/params/damage"
+msgstr "ダメージ"
+
+msgid "moduleInfo/params/dispertionRadius"
+msgstr "100 mでの散布界"
+
+msgid "moduleInfo/params/drivingControl"
+msgstr "移動中の操作性"
+
+msgid "moduleInfo/params/dualAccuracyCoolingDelay"
+msgstr "射撃後の砲身冷却時間"
+
+msgid "moduleInfo/params/duration"
+msgstr "効果持続時間"
+
+msgid "moduleInfo/params/enginePower"
+msgstr "エンジン出力"
+
+msgid "moduleInfo/params/enginePowerPerTon"
+msgstr "出力重量比 (馬力/t)"
+
+msgid "moduleInfo/params/explosionRadius"
+msgstr "ダメージ半径"
+
+msgid "moduleInfo/params/fireStartingChance"
+msgstr "火災発生率"
+
+msgid "moduleInfo/params/flyDelayRange"
+msgstr "飛行時間"
+
+msgid "moduleInfo/params/forwardMaxSpeed"
+msgstr "最大速度"
+
+msgid "moduleInfo/params/guaranteedDamage/footnote"
+msgstr "主装甲に命中した場合、必ずダメージを与える"
+
+msgid "moduleInfo/params/hullAndChassisWeight"
+msgstr "重量"
+
+msgid "moduleInfo/params/hullArmor"
+msgstr "車体装甲"
+
+msgid "moduleInfo/params/hullWeight"
+msgstr "車体重量"
+
+msgid "moduleInfo/params/inactivationDelay"
+msgstr "効果残存時間"
+
+msgid "moduleInfo/params/level_lbl"
+msgstr "レベル %(level)s 戦闘リザーブ"
+
+msgid "moduleInfo/params/maxAvgMutableDamageList"
+msgstr "50 mでの平均ダメージ"
+
+msgid "moduleInfo/params/maxDamage"
+msgstr "最大ダメージ"
+
+msgid "moduleInfo/params/maxHealth"
+msgstr "HP"
+
+msgid "moduleInfo/params/maxHullHealth"
+msgstr "HP"
+
+msgid "moduleInfo/params/maxShotDistance"
+msgstr "射程距離"
+
+msgid "moduleInfo/params/maxShotDistance/footnote"
+msgstr "* この主砲での砲弾の最長飛翔距離"
+
+msgid "moduleInfo/params/maxSteeringLockAngle"
+msgstr "車輪の最大舵角"
+
+msgid "moduleInfo/params/minAvgMutableDamageList"
+msgstr "%(dist)s mでの平均ダメージ"
+
+msgid "moduleInfo/params/noPiercingDistance/footnote"
+msgstr "この砲弾は飛翔距離が伸びても貫通力が減衰することはありません"
+
+msgid "moduleInfo/params/noPiercingDistance/footnote/maxDistance"
+msgstr "、最長飛翔距離—400 m"
+
+msgid "moduleInfo/params/normalizationAngle"
+msgstr "標準化角度"
+
+msgid "moduleInfo/params/penetrationLoss"
+msgstr "貫通力減衰"
+
+msgid "moduleInfo/params/penetrationLoss/footnote"
+msgstr " この弾種は最初の装甲板を貫通した後、距離に応じて貫通力が減衰し始めます。"
+
+msgid "moduleInfo/params/piercingDistance"
+msgstr "%(dist)s m"
+
+msgid "moduleInfo/params/piercingDistance/footnote"
+msgstr "%(minDist)s～%(maxDist)s mの範囲で飛翔距離に応じて貫通力が減衰します"
+
+msgid "moduleInfo/params/piercingDistanceHeader"
+msgstr "平均貫通力 (mm)—距離"
+
+msgid "moduleInfo/params/piercingPower"
+msgstr "貫通力"
+
+msgid "moduleInfo/params/radarCooldown"
+msgstr "無線探知のクールダウン"
+
+msgid "moduleInfo/params/radarRadius"
+msgstr "探知半径"
+
+msgid "moduleInfo/params/radioDistance"
+msgstr "通信範囲"
+
+msgid "moduleInfo/params/rateTime"
+msgstr "射撃後の主砲の切り替え"
+
+msgid "moduleInfo/params/reloadCooldownSeconds"
+msgstr "クールダウン"
+
+msgid "moduleInfo/params/reloadMagazineTime"
+msgstr "完全装填時間"
+
+msgid "moduleInfo/params/reloadTime"
+msgstr "発射速度"
+
+msgid "moduleInfo/params/reloadTimeSecs"
+msgstr "装填時間"
+
+msgid "moduleInfo/params/reloadTimeSingleGun"
+msgstr "単発モードでの装填時間"
+
+msgid "moduleInfo/params/reloadTimeTwinGun"
+msgstr "斉射モードでの装填時間"
+
+msgid "moduleInfo/params/ricochetAngle"
+msgstr "跳弾角度"
+
+msgid "moduleInfo/params/rocketAccelerationEnginePower"
+msgstr "エンジン出力 (ブースト)"
+
+msgid "moduleInfo/params/rotationSpeed"
+msgstr "旋回速度"
+
+msgid "moduleInfo/params/screensArmorMultiplier"
+msgstr "空間装甲倍率"
+
+msgid "moduleInfo/params/screensArmorMultiplier/footnote"
+msgstr " この弾種は追加装甲を貫通した際、その厚さの3倍の数値が貫通力から差し引かれます。"
+
+msgid "moduleInfo/params/screensArmorMultiplier/value"
+msgstr "x%(multiplier)s"
+
+msgid "moduleInfo/params/shellLoadingTime"
+msgstr "弾帯装填時間"
+
+msgid "moduleInfo/params/shellReloadingTime"
+msgstr "弾倉内装填時間"
+
+msgid "moduleInfo/params/shellsCount"
+msgstr "弾倉装弾数"
+
+msgid "moduleInfo/params/short/crewRolesFactor"
+msgstr "搭乗員の能力"
+
+msgid "moduleInfo/params/shotSpeed"
+msgstr "弾速"
+
+msgid "moduleInfo/params/shotsNumberRange"
+msgstr "砲撃1回の弾数"
+
+msgid "moduleInfo/params/stunDurationList"
+msgstr "スタン時間"
+
+msgid "moduleInfo/params/stunMaxDuration"
+msgstr "最大スタン時間"
+
+msgid "moduleInfo/params/stunMaxDurationList"
+msgstr "最大スタン時間"
+
+msgid "moduleInfo/params/stunMinDuration"
+msgstr "最小スタン時間"
+
+msgid "moduleInfo/params/stunMinDurationList"
+msgstr "最小スタン時間"
+
+msgid "moduleInfo/params/turboshaftEnginePower"
+msgstr "エンジン出力 (ターボ)"
+
+msgid "moduleInfo/params/weight"
+msgstr "重量"
+
+msgid "moduleInfo/propellantAfterburnerGun"
+msgstr "【電磁誘導アフターバーナー】平均ダメージを強化可能"
+
+msgid "moduleInfo/rocketAcceleration"
+msgstr "【ジェットブースター】車輌の機動性を一時的に強化可能"
+
+msgid "moduleInfo/stagedJetBoosters"
+msgstr "【連続式ロケット・スラスター】\n車輌の加速性能、機動性、俊敏性を強化可能"
+
+msgid "moduleInfo/title"
+msgstr " "
+
+msgid "moduleInfo/trackWithinTrack"
+msgstr "【予備履帯】主要履帯を切断されても一定の機動性で移動可能"
+
+msgid "moduleInfo/turboshaftEngine"
+msgstr "ガスタービンエンジン:\n車輌の最大速度を向上させる"
+
+msgid "moduleInfo/twinGun"
+msgstr "切り替え可能な砲撃モード・システム"
+
+msgid "moduleInfo/wheeledDash"
+msgstr "数秒間にわたり加速性能、エンジン出力、最大前進速度と最大後退速度を大幅に強化可能"
+
+msgid "nation_tree/blueprint_title/china"
+msgstr "中国車輌の設計図"
+
+msgid "nation_tree/blueprint_title/czech"
+msgstr "チェコスロバキア車輌の設計図"
+
+msgid "nation_tree/blueprint_title/france"
+msgstr "フランス車輌の設計図"
+
+msgid "nation_tree/blueprint_title/germany"
+msgstr "ドイツ車輌の設計図"
+
+msgid "nation_tree/blueprint_title/italy"
+msgstr "イタリア車輌の設計図"
+
+msgid "nation_tree/blueprint_title/japan"
+msgstr "日本車輌の設計図"
+
+msgid "nation_tree/blueprint_title/poland"
+msgstr "ポーランド車輌の設計図"
+
+msgid "nation_tree/blueprint_title/sweden"
+msgstr "スウェーデン車輌の設計図"
+
+msgid "nation_tree/blueprint_title/uk"
+msgstr "イギリス車輌の設計図"
+
+msgid "nation_tree/blueprint_title/usa"
+msgstr "アメリカ車輌の設計図"
+
+msgid "nation_tree/blueprint_title/ussr"
+msgstr "ソ連車輌の設計図"
+
+msgid "nation_tree/title/china"
+msgstr "中国"
+
+msgid "nation_tree/title/czech"
+msgstr "チェコスロバキア"
+
+msgid "nation_tree/title/france"
+msgstr "フランス"
+
+msgid "nation_tree/title/germany"
+msgstr "ドイツ"
+
+msgid "nation_tree/title/italy"
+msgstr "イタリア"
+
+msgid "nation_tree/title/japan"
+msgstr "日本"
+
+msgid "nation_tree/title/poland"
+msgstr "ポーランド"
+
+msgid "nation_tree/title/sweden"
+msgstr "スウェーデン"
+
+msgid "nation_tree/title/uk"
+msgstr "イギリス"
+
+msgid "nation_tree/title/usa"
+msgstr "アメリカ"
+
+msgid "nation_tree/title/ussr"
+msgstr "ソ連"
+
+msgid "nations/all"
+msgstr "全ての国"
+
+msgid "nations/china"
+msgstr "中国"
+
+msgid "nations/czech"
+msgstr "チェコスロバキア"
+
+msgid "nations/france"
+msgstr "フランス"
+
+msgid "nations/germany"
+msgstr "ドイツ"
+
+msgid "nations/italy"
+msgstr "イタリア"
+
+msgid "nations/japan"
+msgstr "日本"
+
+msgid "nations/poland"
+msgstr "ポーランド"
+
+msgid "nations/sweden"
+msgstr "スウェーデン"
+
+msgid "nations/title"
+msgstr "国"
+
+msgid "nations/uk"
+msgstr "イギリス"
+
+msgid "nations/usa"
+msgstr "アメリカ"
+
+msgid "nations/ussr"
+msgstr "ソ連"
+
+msgid "onlineCounter/delimiter"
+msgstr " / "
+
+msgid "onlineCounter/total"
+msgstr "計"
+
+msgid "onlineCounter/unavailable"
+msgstr "- -"
+
+msgid "opponents"
+msgstr "%(firstOpponent)s vs. %(secondOpponent)s"
+
+msgid "optionalDeviceFits/title"
+msgstr "拡張パーツ選択"
+
+msgid "prebattle/CompaniesTitle/ABSOLUTE"
+msgstr "無制限"
+
+msgid "prebattle/CompaniesTitle/CHAMPION"
+msgstr "チャンプ"
+
+msgid "prebattle/CompaniesTitle/EVENT"
+msgstr "スチールハント 15x15"
+
+msgid "prebattle/CompaniesTitle/EVENT_10x10"
+msgstr "スチールハント 10x10"
+
+msgid "prebattle/CompaniesTitle/JUNIOR"
+msgstr "ジュニア"
+
+msgid "prebattle/CompaniesTitle/MIDDLE"
+msgstr "ミディアム"
+
+msgid "prebattle/already_in_awaiting_battle"
+msgstr "既に戦闘待機中です。"
+
+msgid "prebattle/battleReady"
+msgstr "戦闘準備完了!"
+
+msgid "prebattle/battleRoyale/solo"
+msgstr "ソロプレイ"
+
+msgid "prebattle/battleRoyale/squad"
+msgstr "小隊でのプレイ"
+
+msgid "prebattle/description"
+msgstr "prebattle/description"
+
+msgid "prebattle/exitButton"
+msgstr "戦闘終了"
+
+msgid "prebattle/groupsLabel"
+msgstr "待機中のチーム:"
+
+msgid "prebattle/invitations/buttons/cancel"
+msgstr "閉じる"
+
+msgid "prebattle/invitations/buttons/search"
+msgstr "検索"
+
+msgid "prebattle/invitations/buttons/send"
+msgstr "招待"
+
+msgid "prebattle/invitations/errors/addIgnoredUser"
+msgstr "ブラックリストに登録中のプレイヤーを追加することはできません。"
+
+msgid "prebattle/invitations/errors/existsInReceiveList"
+msgstr "ユーザーは既に招待リストに含まれます。"
+
+msgid "prebattle/invitations/errors/notFoundUsers"
+msgstr "オンラインプレイヤー (ブラックリスト登録者を除く) が見つかりませんでした。"
+
+msgid "prebattle/invitations/errors/receiverListEmpty"
+msgstr "招待リストが空です。"
+
+msgid "prebattle/invitations/errors/selectUserToAdd"
+msgstr "招待リストに追加するプレイヤーを選択してください。"
+
+msgid "prebattle/invitations/errors/selectUserToRemove"
+msgstr "招待リストから削除するプレイヤーを選択してください。"
+
+msgid "prebattle/invitations/errors/userListEmpty"
+msgstr "プレイヤーリストが空です。"
+
+msgid "prebattle/invitations/errors/userOffline"
+msgstr "ユーザーはオンラインである必要があります。"
+
+msgid "prebattle/invitations/labels/defaultInviteText"
+msgstr "招待テキスト"
+
+msgid "prebattle/invitations/labels/defaultInviteText/tooltip"
+msgstr "このテキストは最大 %(maxChars)s 文字です。"
+
+msgid "prebattle/invitations/labels/isOnline"
+msgstr "オフラインプレイヤーを非表示"
+
+msgid "prebattle/invitations/labels/mailingList"
+msgstr "プレイヤーを招待"
+
+msgid "prebattle/playersLabel"
+msgstr "待機中のプレイヤー:"
+
+msgid "prebattle/rts/tankLabel"
+msgstr "役割:"
+
+msgid "prebattle/searchPlayers"
+msgstr "プレイヤー検索"
+
+msgid "prebattle/sideA"
+msgstr "サイド A:"
+
+msgid "prebattle/sideB"
+msgstr "サイド B:"
+
+msgid "prebattle/startButton"
+msgstr "戦闘開始"
+
+msgid "prebattle/startingTankLabel"
+msgstr "開始車輌: "
+
+msgid "prebattle/tankLabel"
+msgstr "選択車輌:"
+
+msgid "prebattle/timerLabel"
+msgstr "経過時間:"
+
+msgid "prebattle/title"
+msgstr "通常戦"
+
+msgid "prebattle/waitingTimeWarning"
+msgstr "*自走砲の場合、他の車輌タイプより待機時間が長くなる傾向がありますのでご了承ください。"
+
+msgid "premium/bonus"
+msgstr "各戦での\nクレジットとEXP"
+
+msgid "premium/buyMessage"
+msgstr "プレミアムアカウントの購入"
+
+msgid "premium/buyTitle"
+msgstr "プレミアムアカウントの購入"
+
+msgid "premium/cancel"
+msgstr "キャンセル"
+
+msgid "premium/continueMessage"
+msgstr "プレミアムアカウントの延長"
+
+msgid "premium/continueTitle"
+msgstr "プレミアムアカウントの延長"
+
+msgid "premium/gold"
+msgstr "ゴールド"
+
+msgid "premium/ofCreditsAndExperience"
+msgstr "クレジットとEXP"
+
+msgid "premium/packet/days1"
+msgstr "1 日間"
+
+msgid "premium/packet/days14"
+msgstr "14 日間"
+
+msgid "premium/packet/days180"
+msgstr "180 日間"
+
+msgid "premium/packet/days3"
+msgstr "3 日間"
+
+msgid "premium/packet/days30"
+msgstr "30 日間"
+
+msgid "premium/packet/days360"
+msgstr "360 日間"
+
+msgid "premium/packet/days7"
+msgstr "7 日間"
+
+msgid "premium/packet/days90"
+msgstr "90 日間"
+
+msgid "premium/packet/longDescriptionSpecial"
+msgstr "プレミアムアカウントでは、各戦で取得するクレジットとEXPが増加しますので、より速くゲームを進めることが可能です。プレミアムアカウントは、World of Tanks、World of Warships、World of Warplanes で統合されていますので、ひとつのゲームで購入するだけで、他のゲームにも適用されます。"
+
+msgid "premium/packet/shortDescriptionSpecial"
+msgstr "戦闘で取得するEXP、クレジット、搭乗員EXP+50%"
+
+msgid "premium/perEverButtle"
+msgstr "戦闘について"
+
+msgid "premium/percentFactor"
+msgstr "+50%"
+
+msgid "premium/periods/days1"
+msgstr "1 日 (24 時間)"
+
+msgid "premium/periods/days14"
+msgstr "2 週間 (14 日間)"
+
+msgid "premium/periods/days180"
+msgstr "6 ヶ月間 (180 日間)"
+
+msgid "premium/periods/days3"
+msgstr "3 日間 (72 時間)"
+
+msgid "premium/periods/days30"
+msgstr "1 ヶ月間 (30 日間)"
+
+msgid "premium/periods/days360"
+msgstr "12 ヶ月間 (360 日間)"
+
+msgid "premium/periods/days7"
+msgstr "1 週間 (7 日間)"
+
+msgid "premium/periods/days90"
+msgstr "3 ヶ月間 (90 日間)"
+
+msgid "premium/promoMessage"
+msgstr "1 戦あたり 1.5 倍のクレジットとEXPが提供されます。"
+
+msgid "premium/submitBuy"
+msgstr "購入"
+
+msgid "premium/submitContinue"
+msgstr "延長"
+
+msgid "premium/tariffs/duration"
+msgstr "%d 日間:"
+
+msgid "premium/tariffs/header"
+msgstr "期間を選択"
+
+msgid "price/bpbit"
+msgstr "バトルパス進捗ポイント"
+
+msgid "price/bpcoin"
+msgstr "バトルパス・トークン"
+
+msgid "price/credits"
+msgstr "クレジット"
+
+msgid "price/crystal"
+msgstr "ボンズ"
+
+msgid "price/equipCoin"
+msgstr "コンポーネント"
+
+msgid "price/eventCoin"
+msgstr "アニバーサリー・コイン"
+
+msgid "price/gold"
+msgstr "ゴールド"
+
+msgid "price/received"
+msgstr "取得: %s"
+
+msgid "price/spent"
+msgstr "消費: %s"
+
+msgid "primeTime/server"
+msgstr "利用可能なサーバー: %(server)s"
+
+msgid "primeTime/servers"
+msgstr "利用可能なサーバー:"
+
+msgid "profile/clan/label"
+msgstr "クラン:"
+
+msgid "profile/creationTime"
+msgstr "開始日時:"
+
+msgid "profile/credits"
+msgstr "クレジット:"
+
+msgid "profile/crystal"
+msgstr "ボンズ:"
+
+msgid "profile/eventCoin"
+msgstr "アニバーサリー・コイン:"
+
+msgid "profile/exchange"
+msgstr "変換"
+
+msgid "profile/gold"
+msgstr "ゴールド:"
+
+msgid "profile/header/clan/joinDate"
+msgstr "加入日: %s"
+
+msgid "profile/header/clan/position"
+msgstr "役職: %s"
+
+msgid "profile/header/clan/position/commander"
+msgstr "戦闘士官"
+
+msgid "profile/header/clan/position/diplomat"
+msgstr "情報将校"
+
+msgid "profile/header/clan/position/junior"
+msgstr "下級士官"
+
+msgid "profile/header/clan/position/leader"
+msgstr "クランマスター"
+
+msgid "profile/header/clan/position/private"
+msgstr "上等兵"
+
+msgid "profile/header/clan/position/recruit"
+msgstr "新兵"
+
+msgid "profile/header/clan/position/recruiter"
+msgstr "採用担当官"
+
+msgid "profile/header/clan/position/reservist"
+msgstr "予備兵"
+
+msgid "profile/header/clan/position/staff"
+msgstr "人事担当官"
+
+msgid "profile/header/clan/position/treasurer"
+msgstr "需品科士官"
+
+msgid "profile/header/clan/position/vice_leader"
+msgstr "副司令官"
+
+msgid "profile/header/fights"
+msgstr "戦闘数"
+
+msgid "profile/header/lastBattleDateTitle"
+msgstr "前回の戦闘:"
+
+msgid "profile/header/registrationDateTitle"
+msgstr "開始日時:"
+
+msgid "profile/header/wins"
+msgstr "勝利"
+
+msgid "profile/list/descr"
+msgstr "%s の結果"
+
+msgid "profile/list/totalName"
+msgstr "総合結果"
+
+msgid "profile/premiumBuy"
+msgstr "プレミアムアカウントの購入"
+
+msgid "profile/premiumContinue"
+msgstr "プレミアムアカウントの延長"
+
+msgid "profile/premiunExpirationDate"
+msgstr "%s に期限切れ"
+
+msgid "profile/stats/blocks/battleeffect"
+msgstr "戦闘パフォーマンス"
+
+msgid "profile/stats/blocks/common"
+msgstr "戦闘EXP"
+
+msgid "profile/stats/blocks/credits"
+msgstr "EXP"
+
+msgid "profile/stats/blocks/studying"
+msgstr "訓練"
+
+msgid "profile/stats/items/avgExperience"
+msgstr "1 戦の平均EXP"
+
+msgid "profile/stats/items/battlesCount"
+msgstr "参加戦闘数"
+
+msgid "profile/stats/items/damageDealt"
+msgstr "ダメージ"
+
+msgid "profile/stats/items/defender"
+msgstr "防衛者:"
+
+msgid "profile/stats/items/effectiveShots"
+msgstr "命中率"
+
+msgid "profile/stats/items/empty"
+msgstr "--"
+
+msgid "profile/stats/items/frags"
+msgstr "撃破数"
+
+msgid "profile/stats/items/fragsBeast"
+msgstr "1 戦中の最大撃破数"
+
+msgid "profile/stats/items/heroes"
+msgstr "戦功章:"
+
+msgid "profile/stats/items/invader"
+msgstr "侵略者:"
+
+msgid "profile/stats/items/lastBattleTime"
+msgstr "前回の戦闘:"
+
+msgid "profile/stats/items/losses"
+msgstr "敗北"
+
+msgid "profile/stats/items/maxFrags"
+msgstr "1 戦中の最大撃破数"
+
+msgid "profile/stats/items/maxXP"
+msgstr "1 戦中の最大EXP"
+
+msgid "profile/stats/items/medalKay"
+msgstr "ケイ勲章:"
+
+msgid "profile/stats/items/nextSkillBattlesLeft"
+msgstr "所要戦闘数 (約)"
+
+msgid "profile/stats/items/nextSkillXPLeft"
+msgstr "次のパークの習得に必要なEXP"
+
+msgid "profile/stats/items/ready"
+msgstr "パークを習得可能"
+
+msgid "profile/stats/items/readyToLearn"
+msgstr "新たなパークを習得可能"
+
+msgid "profile/stats/items/scout"
+msgstr "偵察者:"
+
+msgid "profile/stats/items/sniper"
+msgstr "砲撃の名手:"
+
+msgid "profile/stats/items/steelwall"
+msgstr "鋼鉄の壁:"
+
+msgid "profile/stats/items/supporter"
+msgstr "共謀者:"
+
+msgid "profile/stats/items/survivedBattles"
+msgstr "生還率"
+
+msgid "profile/stats/items/timeUntilNextLevel"
+msgstr "所要時間 (教育プログラム)"
+
+msgid "profile/stats/items/unknown"
+msgstr "不明"
+
+msgid "profile/stats/items/warrior"
+msgstr "戦士:"
+
+msgid "profile/stats/items/wins"
+msgstr "勝利"
+
+msgid "profile/stats/items/xp"
+msgstr "合計EXP"
+
+msgid "progressiveReward/widget/desc"
+msgstr "戦闘を重ね、研究可能な車輌の設計図、支援報酬、その他の報酬を入手しましょう。"
+
+msgid "progressiveReward/widget/title"
+msgstr "支援報酬"
+
+msgid "promo/teaser/title"
+msgstr "戦闘情報"
+
+msgid "promo/teaserTimeFormat/days"
+msgstr "%(day)sd:%(hour)s:%(min)s:%(sec)s"
+
+msgid "promo/teaserTimeFormat/hours"
+msgstr "%(hour)s:%(min)s:%(sec)s"
+
+msgid "promo/teaserTimeFormat/lessMin"
+msgstr "%(hour)s:%(min)s:%(sec)s"
+
+msgid "promo/teaserTimeFormat/min"
+msgstr "%(hour)s:%(min)s:%(sec)s"
+
+msgid "quote"
+msgstr "%(string)s"
+
+msgid "rangeDelimiter"
+msgstr "—"
+
+msgid "rating/messages/addToFriends"
+msgstr "フレンドリストに追加"
+
+msgid "rating/messages/addToIgnor"
+msgstr "ブラックリストに追加"
+
+msgid "rating/messages/createPrivate"
+msgstr "個人チャット開始"
+
+msgid "rating/messages/dropFromFriends"
+msgstr "フレンドリストから削除"
+
+msgid "rating/messages/dropFromIgnor"
+msgstr "ブラックリストから削除"
+
+msgid "rating/messages/userInfo"
+msgstr "プレイヤー詳細の表示"
+
+msgid "rating/table/headers/c1"
+msgstr "#"
+
+msgid "rating/table/headers/c2"
+msgstr "プレイヤー名"
+
+msgid "rating/table/headers/c3"
+msgstr "参加戦闘数"
+
+msgid "rating/table/headers/c4"
+msgstr "EXP"
+
+msgid "rating/table/headers/c5"
+msgstr "撃破車輌"
+
+msgid "rating/table/headers/c6"
+msgstr "撃破"
+
+msgid "rating/title"
+msgstr "レーティング"
+
+msgid "repair/button"
+msgstr "修理"
+
+msgid "repair/curiency"
+msgstr "クレジット"
+
+msgid "repair/repairstatus"
+msgstr "修理:"
+
+msgid "report_content"
+msgstr "コンテンツを報告"
+
+msgid "research/labels/button/addToCompare"
+msgstr "比較対象に追加"
+
+msgid "research/labels/button/buy"
+msgstr "購入"
+
+msgid "research/labels/button/nationChange"
+msgstr "国籍変更"
+
+msgid "research/labels/button/rent"
+msgstr "レンタル最小費用"
+
+msgid "research/labels/button/restore"
+msgstr "リカバリー"
+
+msgid "research/labels/button/showInHangar"
+msgstr "ガレージで表示"
+
+msgid "research/labels/button/toCollection"
+msgstr "コレクションへ"
+
+msgid "research/labels/button/trade-in"
+msgstr "下取り"
+
+msgid "research/labels/button/vehiclePreview"
+msgstr "プレビュー"
+
+msgid "research/labels/freeXP"
+msgstr "フリーEXP"
+
+msgid "research/labels/totalXP"
+msgstr "合計EXP"
+
+msgid "research/labels/vehXP"
+msgstr "戦闘EXP"
+
+msgid "research/premium/benefits/first"
+msgstr "戦闘におけるクレジット取得量の優遇"
+
+msgid "research/premium/benefits/fourth"
+msgstr "戦闘EXPからフリーEXPへの変換を初戦から利用可能"
+
+msgid "research/premium/benefits/second"
+msgstr "各戦闘における戦闘EXPと搭乗員EXP取得量の優遇"
+
+msgid "research/premium/benefits/third"
+msgstr "搭乗員訓練の促進、搭乗員をペナルティなしで乗せ換え"
+
+msgid "research/premium/discount"
+msgstr "購入時の割引:"
+
+msgid "research/restore/commmonInfo"
+msgstr "リカバリー可能"
+
+msgid "research/restore/dueDate"
+msgstr "期限 %(date)s"
+
+msgid "research/status/historicalModules"
+msgstr "この車輌は史実装備です。"
+
+msgid "research/status/rentLeft"
+msgstr "レンタル期限"
+
+msgid "research/status/tradeIn"
+msgstr "下取り可能"
+
+msgid "roleExp/action/blockAndTakeDamage"
+msgstr "ダメージ交換する ＆ ダメージを阻む"
+
+msgid "roleExp/action/blockDamage"
+msgstr "ダメージを阻む"
+
+msgid "roleExp/action/doFarDamage"
+msgstr "長距離からダメージを与える"
+
+msgid "roleExp/action/doGroupStun"
+msgstr "1発で複数の敵車輌をスタンさせる"
+
+msgid "roleExp/action/doInvisAssist"
+msgstr "非発見状態で敵車輌を発見する"
+
+msgid "roleExp/action/doNearDamage"
+msgstr "近距離からダメージを与える"
+
+msgid "roleExp/action/doNearDamageSq"
+msgstr "近距離または中距離からダメージを与える"
+
+msgid "roleExp/action/doOwnDamage"
+msgstr "敵車輌を発見してダメージを与える"
+
+msgid "roleExp/action/doSpgDamage"
+msgstr "自走砲にダメージを与える"
+
+msgid "roleExp/action/doStun"
+msgstr "スタンにより味方をアシストする"
+
+msgid "roleExp/action/fragAssist"
+msgstr "敵車輌の撃破をアシストする"
+
+msgid "roleExp/action/searchEnemy"
+msgstr "敵車輌を発見する"
+
+msgid "roleExp/roleDescr/role_ATSPG_assault"
+msgstr "機動性が低い代わりに頑丈な前面装甲を備えた車輌です。最前線で敵と真正面から撃ち合ってこそ輝きを放ちます。"
+
+msgid "roleExp/roleDescr/role_ATSPG_sniper"
+msgstr "装甲の防御性能には期待できないものの、強力な主砲を備えた車輌です。茂みや遮蔽物の陰に身を潜め、不用心な敵に奇襲を仕掛けるのを得意としています。"
+
+msgid "roleExp/roleDescr/role_ATSPG_support"
+msgstr "とりわけ瞬間火力の高い優秀な主砲を搭載した車輌です。わずか数秒のうちに大ダメージを与えることができるため、特定の状況下で圧倒的な力を発揮します。"
+
+msgid "roleExp/roleDescr/role_ATSPG_universal"
+msgstr "駆逐戦車に求められる性能をバランスよく備えた車輌です。距離を問わず、柔軟かつ効果的に立ち回ることができます。"
+
+msgid "roleExp/roleDescr/role_HT_assault"
+msgstr "特に頑丈な装甲を備え、生存性に優れた車輌です。最前線に堂々と構えて攻撃を阻み、あるいはダメージ交換をしながら敵の進軍を押しとどめるのを得意としています。"
+
+msgid "roleExp/roleDescr/role_HT_break"
+msgstr "信頼のおける装甲と重戦車らしからぬ優れた機動性を両立した車輌です。先陣を切って前線に構えて近距離で撃ち合うもよし。足を活かして側背面から攻撃を仕掛けるもよし。様々な局面で活躍が期待できます。"
+
+msgid "roleExp/roleDescr/role_HT_support"
+msgstr "とりわけ瞬間火力の高い優秀な主砲を搭載した車輌です。わずか数秒のうちに大ダメージを与えることができるため、特定の状況下で圧倒的な力を発揮します。"
+
+msgid "roleExp/roleDescr/role_HT_universal"
+msgstr "その名の通り、様々な役目をそつなくこなせる優秀な車輌です。あらゆる戦局に冷静かつ柔軟に対処できます。"
+
+msgid "roleExp/roleDescr/role_LT_universal"
+msgstr "走行速度に優れ、そして小回りが利く車輌です。慎重な偵察はもちろん、果敢に敵の側背面を取ってダメージを与えるのに必要な性能も備えています。"
+
+msgid "roleExp/roleDescr/role_LT_wheeled"
+msgstr "他の追随を許さない圧倒的な動力性能を誇る車輌です。大きな戦果を上げるには、マップを熟知して戦局の変化に機敏に対応できるだけの豊富な経験と高い技術が求められます。"
+
+msgid "roleExp/roleDescr/role_MT_assault"
+msgstr "平均的な中戦車よりも頑丈な装甲を備えた車輌です。必要とあらば近距離で敵の重戦車と撃ち合うことも不可能ではありません。"
+
+msgid "roleExp/roleDescr/role_MT_sniper"
+msgstr "装甲には難があるものの、素晴らしい主砲を備えた車輌です。長距離での戦いに大きな力を発揮します。"
+
+msgid "roleExp/roleDescr/role_MT_support"
+msgstr "とりわけ瞬間火力の高い優秀な主砲を搭載した車輌です。わずか数秒のうちに大ダメージを与えることができるため、特定の状況下で圧倒的な力を発揮します。"
+
+msgid "roleExp/roleDescr/role_MT_universal"
+msgstr "様々な役目をそつなくこなせるバランスの取れた車輌です。マップの特徴やその時々の局面に柔軟に対応できます。"
+
+msgid "roleExp/roleDescr/role_SPG"
+msgstr "遠距離からの砲撃により味方を支援する車輌です。敵味方の位置取りや戦局の移り変わりによってパフォーマンスが大きく影響される傾向があります。"
+
+msgid "roleExp/roleGroupName/role_ATSPG_assault"
+msgstr "攻撃的駆逐戦車"
+
+msgid "roleExp/roleGroupName/role_ATSPG_sniper"
+msgstr "狙撃型駆逐戦車"
+
+msgid "roleExp/roleGroupName/role_ATSPG_support"
+msgstr "支援型駆逐戦車"
+
+msgid "roleExp/roleGroupName/role_ATSPG_universal"
+msgstr "万能型駆逐戦車"
+
+msgid "roleExp/roleGroupName/role_HT_assault"
+msgstr "攻撃的重戦車"
+
+msgid "roleExp/roleGroupName/role_HT_break"
+msgstr "突破型重戦車"
+
+msgid "roleExp/roleGroupName/role_HT_support"
+msgstr "支援型重戦車"
+
+msgid "roleExp/roleGroupName/role_HT_universal"
+msgstr "万能型重戦車"
+
+msgid "roleExp/roleGroupName/role_LT_universal"
+msgstr "万能型軽戦車"
+
+msgid "roleExp/roleGroupName/role_LT_wheeled"
+msgstr "装輪式軽戦車"
+
+msgid "roleExp/roleGroupName/role_MT_assault"
+msgstr "攻撃的中戦車"
+
+msgid "roleExp/roleGroupName/role_MT_sniper"
+msgstr "狙撃型中戦車"
+
+msgid "roleExp/roleGroupName/role_MT_support"
+msgstr "支援型中戦車"
+
+msgid "roleExp/roleGroupName/role_MT_universal"
+msgstr "万能型中戦車"
+
+msgid "roleExp/roleGroupName/role_SPG"
+msgstr " "
+
+msgid "roleExp/roleLabel"
+msgstr "ロール:"
+
+msgid "roleExp/roleName/role_ATSPG_assault"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_ATSPG_sniper"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_ATSPG_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_ATSPG_universal"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_HT_assault"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_HT_break"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_HT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_HT_universal"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_universal"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_LT_wheeled"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_MT_assault"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_MT_sniper"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_MT_support"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_MT_universal"
+msgstr "%(groupName)s"
+
+msgid "roleExp/roleName/role_SPG"
+msgstr "自走砲 %(groupName)s"
+
+msgid "screenshot/save"
+msgstr "スクリーンショット保存 %(path)s"
+
+msgid "serverStats/arenasCount"
+msgstr "戦闘数:"
+
+msgid "serverStats/playersCount"
+msgstr "プレイヤー:"
+
+msgid "serverStats/playersInArenaCount"
+msgstr "戦闘中:"
+
+msgid "shell/caliber/units"
+msgstr "mm"
+
+msgid "shop/actions/filter/label"
+msgstr "全ての特別オファーを表示"
+
+msgid "shop/errors/centerIsDown"
+msgstr "一時的に使用不能です"
+
+msgid "shop/errors/inHangar"
+msgstr "ガレージ内"
+
+msgid "shop/errors/lockedNation"
+msgstr "利用不可"
+
+msgid "shop/errors/unlockNeeded"
+msgstr "未研究"
+
+msgid "shop/header/equipment/myVehicle"
+msgstr "%(vehicle)s 用の消耗品:"
+
+msgid "shop/header/equipment/myVehicles"
+msgstr "%(nation)s 車輌用の消耗品:"
+
+msgid "shop/header/equipment/otherVehicles"
+msgstr "%(nation)s の消耗品:"
+
+msgid "shop/header/module/myVehicle"
+msgstr "%(vehicle)s 用の %(type)s:"
+
+msgid "shop/header/module/myVehicles"
+msgstr "%(nation)s 車輌用の %(type)s:"
+
+msgid "shop/header/module/otherVehicles"
+msgstr "%(type)s %(nation)s:"
+
+msgid "shop/header/optionalDevice/myVehicle"
+msgstr "%(vehicle)s 用の拡張パーツ:"
+
+msgid "shop/header/optionalDevice/myVehicles"
+msgstr "%(nation)s 車輌用の拡張パーツ:"
+
+msgid "shop/header/optionalDevice/otherVehicles"
+msgstr "%(nation)s の拡張パーツ:"
+
+msgid "shop/header/shell/myInventoryGuns"
+msgstr "%(nation)s 倉庫内の主砲用の砲弾:"
+
+msgid "shop/header/shell/myVehicleGun"
+msgstr "%(vehicle)s に搭載中の主砲用の砲弾:"
+
+msgid "shop/header/shell/myVehiclesInventoryGuns"
+msgstr "%(nation)s の全ての所有主砲用の砲弾:"
+
+msgid "shop/header/shell/otherGuns"
+msgstr "全ての主砲用の砲弾%(nation)s:"
+
+msgid "shop/header/vehicle"
+msgstr "全ての %(type)s %(nation)s:"
+
+msgid "shop/menu/battleBooster/name"
+msgstr "ディレクティブ"
+
+msgid "shop/menu/battleBooster/targetType/allKind/name"
+msgstr "全て"
+
+msgid "shop/menu/battleBooster/targetType/forCrew/name"
+msgstr "搭乗員用"
+
+msgid "shop/menu/battleBooster/targetType/forEquipment/name"
+msgstr "拡張パーツ用"
+
+msgid "shop/menu/equipment/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/equipment/fits/myVehicles/name"
+msgstr "所有車輌"
+
+msgid "shop/menu/equipment/fits/name"
+msgstr "互換性あり:"
+
+msgid "shop/menu/equipment/fits/otherVehicles/name"
+msgstr "全ての車輌"
+
+msgid "shop/menu/equipment/name"
+msgstr "消耗品"
+
+msgid "shop/menu/module/extra/inHangar/name"
+msgstr "倉庫内"
+
+msgid "shop/menu/module/extra/locked/name"
+msgstr "未研究"
+
+msgid "shop/menu/module/extra/name"
+msgstr "表示"
+
+msgid "shop/menu/module/extra/onVehicle/name"
+msgstr "搭載中"
+
+msgid "shop/menu/module/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/module/fits/myVehicles/name"
+msgstr "所有車輌"
+
+msgid "shop/menu/module/fits/name"
+msgstr "互換性あり:"
+
+msgid "shop/menu/module/fits/otherVehicles/name"
+msgstr "全ての車輌"
+
+msgid "shop/menu/module/name"
+msgstr "モジュール"
+
+msgid "shop/menu/module/types/vehicleChassis/name"
+msgstr "サスペンション"
+
+msgid "shop/menu/module/types/vehicleEngine/name"
+msgstr "エンジン"
+
+msgid "shop/menu/module/types/vehicleGun/name"
+msgstr "主砲"
+
+msgid "shop/menu/module/types/vehicleRadio/name"
+msgstr "無線機"
+
+msgid "shop/menu/module/types/vehicleTurret/name"
+msgstr "砲塔"
+
+msgid "shop/menu/optionalDevice/extra/name"
+msgstr "表示"
+
+msgid "shop/menu/optionalDevice/extra/onVehicle/name"
+msgstr "搭載中"
+
+msgid "shop/menu/optionalDevice/fits/myVehicle/name"
+msgstr "?empty?"
+
+msgid "shop/menu/optionalDevice/fits/myVehicles/name"
+msgstr "所有車輌"
+
+msgid "shop/menu/optionalDevice/fits/name"
+msgstr "互換性あり:"
+
+msgid "shop/menu/optionalDevice/fits/otherVehicles/name"
+msgstr "全ての車輌"
+
+msgid "shop/menu/optionalDevice/name"
+msgstr "拡張パーツ"
+
+msgid "shop/menu/shell/fits/myInventoryGuns/name"
+msgstr "倉庫内の主砲"
+
+msgid "shop/menu/shell/fits/myVehicleGun/name"
+msgstr "搭載中の主砲"
+
+msgid "shop/menu/shell/fits/myVehiclesInventoryGuns/name"
+msgstr "全ての所有主砲"
+
+msgid "shop/menu/shell/fits/name"
+msgstr "互換性あり:"
+
+msgid "shop/menu/shell/fits/otherGuns/name"
+msgstr "全ての主砲"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING/name"
+msgstr "徹甲弾"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING_CR/name"
+msgstr "硬芯徹甲弾"
+
+msgid "shop/menu/shell/kinds/ARMOR_PIERCING_HE/name"
+msgstr "徹甲榴弾"
+
+msgid "shop/menu/shell/kinds/HIGH_EXPLOSIVE/name"
+msgstr "榴弾"
+
+msgid "shop/menu/shell/kinds/HOLLOW_CHARGE/name"
+msgstr "対戦車榴弾"
+
+msgid "shop/menu/shell/kinds/name"
+msgstr "弾種"
+
+msgid "shop/menu/shell/name"
+msgstr "砲弾"
+
+msgid "shop/menu/vehicle/extra/inHangar/name"
+msgstr "ガレージ内の車輌"
+
+msgid "shop/menu/vehicle/extra/locked/name"
+msgstr "未研究の車輌"
+
+msgid "shop/menu/vehicle/extra/name"
+msgstr "表示"
+
+msgid "shop/menu/vehicle/extra/rentals/name"
+msgstr "レンタル中の車輌"
+
+msgid "shop/menu/vehicle/levels/header"
+msgstr "Tier"
+
+msgid "shop/menu/vehicle/name"
+msgstr "車輌"
+
+msgid "shop/menu/vehicle/obtainingType/restoreVehicle/name"
+msgstr "クレジットでリカバリー"
+
+msgid "shop/menu/vehicle/obtainingType/tradeInVehicle/name"
+msgstr "車輌下取り"
+
+msgid "shop/menu/vehicle/obtainingType/vehicle/name"
+msgstr "購入"
+
+msgid "shop/menu/vehicle/rent/available"
+msgstr "%(price)s からレンタル可能"
+
+msgid "shop/menu/vehicle/rent/cycle"
+msgstr "%(seasonType)dのステージ%(cycle)d"
+
+msgid "shop/menu/vehicle/rent/days"
+msgstr "期間: %(days)d 日間"
+
+msgid "shop/menu/vehicle/rent/discount"
+msgstr "最大 %(discount)s 割引"
+
+msgid "shop/menu/vehicle/rent/forever"
+msgstr "無期限"
+
+msgid "shop/menu/vehicle/rent/season"
+msgstr "%(seasonType)d のシーズン %(season)d"
+
+msgid "shop/menu/vehicle/restore"
+msgstr "リカバリー"
+
+msgid "shop/menu/vehicle/tradeInVehicle/price"
+msgstr "最大 %(discountValue)s"
+
+msgid "shop/menu/vehicle/tradeInVehicle/saving"
+msgstr "割引き"
+
+msgid "shop/menu/vehicle/tradeInVehicle/vehForTrade"
+msgstr "下取り可能"
+
+msgid "shop/menu/vehicle/type/header"
+msgstr "車輌タイプ"
+
+msgid "shop/table/buttonBuy"
+msgstr "購入"
+
+msgid "shop/table/buyActionOr"
+msgstr "または"
+
+msgid "shop/table/find"
+msgstr "発見:"
+
+msgid "shop/table/header/compare"
+msgstr "比較"
+
+msgid "shop/table/header/count/battleBooster"
+msgstr "搭載中/倉庫"
+
+msgid "shop/table/header/count/equipment"
+msgstr "搭載中/倉庫"
+
+msgid "shop/table/header/count/module"
+msgstr "搭載中/倉庫"
+
+msgid "shop/table/header/count/optionalDevice"
+msgstr "搭載中/倉庫"
+
+msgid "shop/table/header/count/shell"
+msgstr "倉庫"
+
+msgid "shop/table/header/count/vehicle"
+msgstr "?empty?"
+
+msgid "shop/table/header/price"
+msgstr "価格"
+
+msgid "shop/table/header/sale"
+msgstr "割引"
+
+msgid "shop/table/notForSale"
+msgstr "非売品"
+
+msgid "specPrebetles/listTitle"
+msgstr "チームルーム"
+
+msgid "specPrebetles/ownerTitle"
+msgstr "チーム指揮官"
+
+msgid "specPrebetles/playersTitle"
+msgstr "プレイヤー"
+
+msgid "specPrebetles/title"
+msgstr "チームバトル"
+
+msgid "steam/cancel"
+msgstr "キャンセル"
+
+msgid "steam/goldPacketSelect"
+msgstr "ゴールドの選択:"
+
+msgid "steam/otherMethods"
+msgstr "他のお支払い方法"
+
+msgid "steam/submit"
+msgstr "承諾"
+
+msgid "steam/title"
+msgstr "Steam によるお支払い"
+
+msgid "store/backButton/description"
+msgstr "スペシャルへ"
+
+msgid "store/backButton/label"
+msgstr "戻る"
+
+msgid "store/menu/noItems"
+msgstr "該当なし\n有効な検索フィルターをご確認ください"
+
+msgid "store/vehicleStates/ammoNotFull"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/ammoNotFullEvents"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/battle"
+msgstr "戦闘中"
+
+msgid "store/vehicleStates/buySlot"
+msgstr "スロットの購入"
+
+msgid "store/vehicleStates/buyTank"
+msgstr "車輌の購入"
+
+msgid "store/vehicleStates/buyTankEmptyCount"
+msgstr "空きスロット:"
+
+msgid "store/vehicleStates/clanLocked"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/crewNotFull"
+msgstr "搭乗員不足"
+
+msgid "store/vehicleStates/damaged"
+msgstr "修理が必要"
+
+msgid "store/vehicleStates/dealIsOver"
+msgstr "選択不可"
+
+msgid "store/vehicleStates/destroyed"
+msgstr "修理が必要"
+
+msgid "store/vehicleStates/disabled"
+msgstr "車輌はロック中"
+
+msgid "store/vehicleStates/exploded"
+msgstr "修理が必要"
+
+msgid "store/vehicleStates/fallout_broken"
+msgstr "グループの準備が未完了"
+
+msgid "store/vehicleStates/fallout_max"
+msgstr "グループの準備が未完了"
+
+msgid "store/vehicleStates/fallout_min"
+msgstr "グループの準備が未完了"
+
+msgid "store/vehicleStates/fallout_only"
+msgstr " "
+
+msgid "store/vehicleStates/fallout_required"
+msgstr "グループの準備が未完了"
+
+msgid "store/vehicleStates/group_is_not_ready"
+msgstr "グループの準備が未完了"
+
+msgid "store/vehicleStates/igrRentalIsOver"
+msgstr "スペシャルは終了しました。"
+
+msgid "store/vehicleStates/inPrebattle"
+msgstr "戦術ユニット内"
+
+msgid "store/vehicleStates/inPremiumIgrOnly"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/locked"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/notpresent"
+msgstr "車輌の購入\nが必要"
+
+msgid "store/vehicleStates/rentable"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/rentable/epic"
+msgstr "フロントライン限定"
+
+msgid "store/vehicleStates/rentable/ranked"
+msgstr "ランク戦モード限定"
+
+msgid "store/vehicleStates/rentableAgain"
+msgstr "レンタル延長"
+
+msgid "store/vehicleStates/rentableAgain/epic"
+msgstr "レンタル延長"
+
+msgid "store/vehicleStates/rentableAgain/ranked"
+msgstr "レンタル延長"
+
+msgid "store/vehicleStates/rentalIsOver"
+msgstr "レンタル終了"
+
+msgid "store/vehicleStates/rented/epic"
+msgstr "ステージ%(cycles)s用のレンタル"
+
+msgid "store/vehicleStates/rotationGroupLocked"
+msgstr "使用不能"
+
+msgid "store/vehicleStates/serverRestriction"
+msgstr "サーバー制限"
+
+msgid "store/vehicleStates/undamaged"
+msgstr "?empty?"
+
+msgid "store/vehicleStates/unsuitableToQueue"
+msgstr "不適合"
+
+msgid "store/vehicleStates/willBeUnlockedInBattle"
+msgstr "?empty?"
+
+msgid "storeTab/actions"
+msgstr "スペシャル"
+
+msgid "storeTab/inventory"
+msgstr "倉庫"
+
+msgid "storeTab/shop"
+msgstr "ショップ"
+
+msgid "tankCarousel/statsStatus/unavailable"
+msgstr "情報なし"
+
+msgid "tankCarousel/vehicleStates/ammoNotFull"
+msgstr "砲弾不足"
+
+msgid "tankCarousel/vehicleStates/ammoNotFullEvents"
+msgstr "砲弾不足"
+
+msgid "tankCarousel/vehicleStates/battle"
+msgstr "戦闘中"
+
+msgid "tankCarousel/vehicleStates/buySlot"
+msgstr "スロットの購入"
+
+msgid "tankCarousel/vehicleStates/buyTank"
+msgstr "車輌の購入"
+
+msgid "tankCarousel/vehicleStates/buyTankEmptyCount"
+msgstr "空きスロット: %(count)d"
+
+msgid "tankCarousel/vehicleStates/clanLocked"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/crewNotFull"
+msgstr "搭乗員不足"
+
+msgid "tankCarousel/vehicleStates/damaged"
+msgstr "修理が必要"
+
+msgid "tankCarousel/vehicleStates/dealIsOver"
+msgstr "選択不可"
+
+msgid "tankCarousel/vehicleStates/destroyed"
+msgstr "修理が必要"
+
+msgid "tankCarousel/vehicleStates/disabled"
+msgstr "車輌はロック中"
+
+msgid "tankCarousel/vehicleStates/exploded"
+msgstr "修理が必要"
+
+msgid "tankCarousel/vehicleStates/fallout_broken"
+msgstr "グループの準備が未完了"
+
+msgid "tankCarousel/vehicleStates/fallout_max"
+msgstr "グループの準備が未完了"
+
+msgid "tankCarousel/vehicleStates/fallout_min"
+msgstr "グループの準備が未完了"
+
+msgid "tankCarousel/vehicleStates/fallout_only"
+msgstr "不適合"
+
+msgid "tankCarousel/vehicleStates/fallout_required"
+msgstr "グループの準備が未完了"
+
+msgid "tankCarousel/vehicleStates/group_is_not_ready"
+msgstr "グループの準備が未完了"
+
+msgid "tankCarousel/vehicleStates/igrRentalIsOver"
+msgstr "スペシャルは終了しました。"
+
+msgid "tankCarousel/vehicleStates/inPrebattle"
+msgstr "戦術ユニット内"
+
+msgid "tankCarousel/vehicleStates/inPremiumIgrOnly"
+msgstr "%(icon)s のみで利用可能。"
+
+msgid "tankCarousel/vehicleStates/locked"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/notpresent"
+msgstr "ガレージになし"
+
+msgid "tankCarousel/vehicleStates/rentable"
+msgstr "車輌をレンタル可能"
+
+msgid "tankCarousel/vehicleStates/rentable/epic"
+msgstr "フロントライン限定"
+
+msgid "tankCarousel/vehicleStates/rentable/hover"
+msgstr "レンタル"
+
+msgid "tankCarousel/vehicleStates/rentable/ranked"
+msgstr "ランク戦モード限定"
+
+msgid "tankCarousel/vehicleStates/rentableAgain/epic"
+msgstr "レンタル延長"
+
+msgid "tankCarousel/vehicleStates/rentableAgain/ranked"
+msgstr "レンタル延長"
+
+msgid "tankCarousel/vehicleStates/rentalIsOver"
+msgstr "レンタル期間が終了"
+
+msgid "tankCarousel/vehicleStates/restoreTank"
+msgstr "車輌のリカバリー"
+
+msgid "tankCarousel/vehicleStates/restoreTankCount"
+msgstr "利用可能: %(count)d"
+
+msgid "tankCarousel/vehicleStates/rotationGroupLocked"
+msgstr "使用不能"
+
+msgid "tankCarousel/vehicleStates/rotationGroupUnlocked"
+msgstr "使用可能戦闘数: %(battlesLeft)s"
+
+msgid "tankCarousel/vehicleStates/serverRestriction"
+msgstr "サーバー制限"
+
+msgid "tankCarousel/vehicleStates/subscription_suspended"
+msgstr "ロック中"
+
+msgid "tankCarousel/vehicleStates/unavailable"
+msgstr "選択不可"
+
+msgid "tankCarousel/vehicleStates/undamaged"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/unsuitableToQueue"
+msgstr "モードに不適合"
+
+msgid "tankCarousel/vehicleStates/unsuitableToUnit"
+msgstr "小隊には不適合"
+
+msgid "tankCarousel/vehicleStates/willBeUnlockedInBattle"
+msgstr "?empty?"
+
+msgid "tankCarousel/vehicleStates/wot_plus_exclusive_vehicle_disabled"
+msgstr "ロック中"
+
+msgid "tankCarousel/vehicleStates/xpMultReceived"
+msgstr "x%(factor)s を要求"
+
+msgid "tankCarousel/vehicleStates/xpMultReceived/not"
+msgstr "x%(factor)s を要求"
+
+msgid "tankCarousel/wotPlusSelectionAvailable"
+msgstr "車輌のレンタル"
+
+msgid "tankCarousel/wotPlusSelectionPending"
+msgstr "レンタル保留中"
+
+msgid "tank_params/accuracyDispersionCap"
+msgstr "最大精度レベルでの散布界"
+
+msgid "tank_params/accuracyDispersionPerLevel"
+msgstr "精度レベルごとの100 mでの散布界"
+
+msgid "tank_params/accuracyLevelGainTime"
+msgstr "精度レベルの上昇速度"
+
+msgid "tank_params/accuracySpeedLimit"
+msgstr "制限速度"
+
+msgid "tank_params/accuracyWhileMovingDispersionCap"
+msgstr "最大精度レベルでの移動および旋回に伴う散布界の拡大"
+
+msgid "tank_params/activeCoincideceShootingCharge"
+msgstr "同時計測エレキ・サイトのチャージ (ダメージごとの%) (交戦モード発動中)"
+
+msgid "tank_params/aimingTime"
+msgstr "照準時間"
+
+msgid "tank_params/aimingTimeCoincidenceElectromechanicalSight"
+msgstr "照準時間 (秒) (同時計測エレキ・サイト)"
+
+msgid "tank_params/aimingTimeTurbo"
+msgstr "照準時間 (秒) (ターボモード)"
+
+msgid "tank_params/attainableSpeed"
+msgstr "5秒間加速後の走行速度"
+
+msgid "tank_params/autoReloadTime"
+msgstr "単発自動再装填時間"
+
+msgid "tank_params/autoShootClipFireRate"
+msgstr "連射性能"
+
+msgid "tank_params/autoShootClipSec"
+msgstr "(弾倉交換/容量)"
+
+msgid "tank_params/avgDamage"
+msgstr "平均ダメージ"
+
+msgid "tank_params/avgDamagePerMinute"
+msgstr "平均分間ダメージ"
+
+msgid "tank_params/avgDamagePerSecond"
+msgstr "秒間ダメージ"
+
+msgid "tank_params/avgPiercingPower"
+msgstr "平均貫通力"
+
+msgid "tank_params/boosterCoolingTime"
+msgstr "ブースター冷却時間"
+
+msgid "tank_params/boosterDuration"
+msgstr "ブースター持続時間"
+
+msgid "tank_params/burstFireRate"
+msgstr "挿弾子"
+
+msgid "tank_params/burstSec"
+msgstr "(連射間隔 / 挿弾子数 / 砲弾数)"
+
+msgid "tank_params/chargeTime"
+msgstr "斉射の準備時間"
+
+msgid "tank_params/chargeableBurstDispersion"
+msgstr "2発目の100 mでの散布界"
+
+msgid "tank_params/chargeableBurstPenetrationCount"
+msgstr "モードの発動に必要な貫通数"
+
+msgid "tank_params/chargeableBurstReload"
+msgstr "バースト・モードの装填回数"
+
+msgid "tank_params/chargeableBurstSize"
+msgstr "カセット内の砲弾数"
+
+msgid "tank_params/chassisModuleRotationSpeed"
+msgstr "旋回速度"
+
+msgid "tank_params/chassisRepairTime"
+msgstr "サスペンションの修理時間"
+
+msgid "tank_params/chassisRepairTimeYoh"
+msgstr "サスペンションの修理時間"
+
+msgid "tank_params/chassisRotationSpeed"
+msgstr "旋回速度"
+
+msgid "tank_params/circularVisionRadius"
+msgstr "視認範囲"
+
+msgid "tank_params/clipFireRate"
+msgstr "連射性能"
+
+msgid "tank_params/clipSec"
+msgstr "(弾倉交換 / 弾倉内装填または挿弾子交換 / 容量)"
+
+msgid "tank_params/cnt"
+msgstr "(個)"
+
+msgid "tank_params/coincidenceElectromechanicalSightDuration"
+msgstr "同時計測エレキ・サイトの持続時間"
+
+msgid "tank_params/concentrationModeCooldown"
+msgstr "クールダウン"
+
+msgid "tank_params/concentrationModeDuration"
+msgstr "持続時間"
+
+msgid "tank_params/continuousShotsPerMinute"
+msgstr "連射速度"
+
+msgid "tank_params/coolingDelay"
+msgstr "冷却遅延時間"
+
+msgid "tank_params/coolingTime"
+msgstr "最大蓄熱時の主砲の冷却時間"
+
+msgid "tank_params/damage"
+msgstr "標準砲弾のダメージ"
+
+msgid "tank_params/designatorCooldownS"
+msgstr "クールダウン"
+
+msgid "tank_params/designatorInitialCooldownS"
+msgstr "1回目のクールダウン時間"
+
+msgid "tank_params/designatorMarkDurationS"
+msgstr "マークの表示時間"
+
+msgid "tank_params/designatorMarkedEnemiesAdditionalDamage"
+msgstr "マークした敵車輌への追加ダメージ"
+
+msgid "tank_params/dispersionAt100mCoincidenceElectromechanicalSight"
+msgstr "100 mでの散布界 (%) (同時計測エレキ・サイト)"
+
+msgid "tank_params/dualAccuracyCoolingDelay"
+msgstr "砲身の冷却時間"
+
+msgid "tank_params/enginePower"
+msgstr "エンジン出力"
+
+msgid "tank_params/enginePowerPerTon"
+msgstr "出力重量比"
+
+msgid "tank_params/enginePowerWithBoosters"
+msgstr "エンジン出力 (ブースター使用時)"
+
+msgid "tank_params/engineTurboPowerCap"
+msgstr "エンジン出力 (馬力) (ターボ・モード)"
+
+msgid "tank_params/explosionRadius"
+msgstr "ダメージ半径"
+
+msgid "tank_params/extendedTitle/dualAccuracyCoolingDelay"
+msgstr "射撃後の砲身冷却時間"
+
+msgid "tank_params/extraRepairSpeed"
+msgstr "修理速度"
+
+msgid "tank_params/extraShotClipReloadTime"
+msgstr "装填時間へのペナルティー"
+
+msgid "tank_params/faceFrontBoardInMM"
+msgstr "(前面 / 側面 / 背面 mm)"
+
+msgid "tank_params/factor"
+msgstr "(%)"
+
+msgid "tank_params/forwardMaxSpeed"
+msgstr "最大速度"
+
+msgid "tank_params/furyMaxReloadEffAvgDpm"
+msgstr "最大装填レベルでの平均分間ダメージ"
+
+msgid "tank_params/furyMaxReloadEfficiencyLevel"
+msgstr "最大装填レベル"
+
+msgid "tank_params/furyReloadEfficiencyLevelDuration"
+msgstr "装填レベルの持続時間"
+
+msgid "tank_params/furyReloadEfficiencyLevelPerDestruction"
+msgstr "撃破ごとに貯まる装填レベル"
+
+msgid "tank_params/furyReloadEfficiencyLevelPerHit"
+msgstr "命中ごとに貯まる装填レベル"
+
+msgid "tank_params/furyReloadSpeedBonusPerEfficiencyLevel"
+msgstr "装填レベルごとの装填速度へのボーナス"
+
+msgid "tank_params/gps"
+msgstr "(度/秒)"
+
+msgid "tank_params/grads"
+msgstr "(度)"
+
+msgid "tank_params/gunModuleAvgDamageList"
+msgstr "平均ダメージ"
+
+msgid "tank_params/gunTraverseDispersionTurbo"
+msgstr "主砲の旋回に伴う散布界の拡大 (%) (ターボモード)"
+
+msgid "tank_params/gunYawLimits"
+msgstr "主砲の旋回範囲"
+
+msgid "tank_params/h"
+msgstr "(発)"
+
+msgid "tank_params/heatAvgDmgPerLvl"
+msgstr "ヒート・レベルごとの平均ダメージへのボーナス"
+
+msgid "tank_params/heatChargeOverheatDuration"
+msgstr "オーバーヒートの持続時間"
+
+msgid "tank_params/heatTimeBeforeOverheat"
+msgstr "オーバーヒートするまでの時間"
+
+msgid "tank_params/heatTimeToReachLevel"
+msgstr "ヒート・レベル上昇の所要時間"
+
+msgid "tank_params/heatingPerShot"
+msgstr "1発あたりの発熱"
+
+msgid "tank_params/hullArmor"
+msgstr "車体装甲"
+
+msgid "tank_params/hullTraverseDispersionTurbo"
+msgstr "車体の旋回に伴う散布界の拡大 (%) (ターボモード)"
+
+msgid "tank_params/improvedDamageEnemiesByRamming"
+msgstr "体当たりによる与ダメージ"
+
+msgid "tank_params/improvedDamageEnemiesChassisByRamming"
+msgstr "体当たりによるサスペンションへの与ダメージ"
+
+msgid "tank_params/increaseHealth"
+msgstr "車輌HPの増加"
+
+msgid "tank_params/invisibilityMovingFactor"
+msgstr "移動中 (%)"
+
+msgid "tank_params/invisibilityStillFactor"
+msgstr "静止中 (%)"
+
+msgid "tank_params/ionAfterburnerActiveTurboCharge"
+msgstr "イオン・ブースターのチャージ (1秒ごとの%) (ターボ・モード発動中)"
+
+msgid "tank_params/ionAfterburnerDuration"
+msgstr "イオン・ブースターの持続時間"
+
+msgid "tank_params/ionAfterburnerDurationEnginePower"
+msgstr "エンジン出力 (馬力) (イオン・ブースター)"
+
+msgid "tank_params/ionAfterburnerDurationSpeedCap"
+msgstr "最大前進速度/最大後退速度 (km/h) (イオン・ブースター)"
+
+msgid "tank_params/ionAfterburnerPassiveTurboCharge"
+msgstr "イオン・ブースターのチャージ (1秒ごとの%) (ターボ・モード、受動型)"
+
+msgid "tank_params/kg"
+msgstr "(kg)"
+
+msgid "tank_params/lowChargeShotAvgDamage"
+msgstr "平均ダメージ (HP)"
+
+msgid "tank_params/lowChargeShotBlockDuration"
+msgstr "砲撃ロック持続時間 (秒)"
+
+msgid "tank_params/lowChargeShotDispertion"
+msgstr "100 mでの散布界 (m)"
+
+msgid "tank_params/lowChargeShotPenetration"
+msgstr "平均貫通力 (mm)"
+
+msgid "tank_params/lowChargeShotRateOfFire"
+msgstr "発射速度 (発/分)"
+
+msgid "tank_params/lowChargeShotVelocity"
+msgstr "弾速 (m/秒)"
+
+msgid "tank_params/m"
+msgstr "(m)"
+
+msgid "tank_params/maxAccuracyLevel"
+msgstr "最大精度レベル"
+
+msgid "tank_params/maxAmmo"
+msgstr "砲弾"
+
+msgid "tank_params/maxHealth"
+msgstr "HP"
+
+msgid "tank_params/maxSteeringLockAngle"
+msgstr "車輪の最大舵角"
+
+msgid "tank_params/mm"
+msgstr "(mm)"
+
+msgid "tank_params/movementTraverseDispersionTurbo"
+msgstr "移動中の散布界の拡大 (%) (ターボモード)"
+
+msgid "tank_params/mph"
+msgstr "(km/h)"
+
+msgid "tank_params/mps"
+msgstr "(m/s)"
+
+msgid "tank_params/no_brackets/kg"
+msgstr "kg"
+
+msgid "tank_params/no_brackets/mm"
+msgstr "mm"
+
+msgid "tank_params/no_brackets/s"
+msgstr "秒"
+
+msgid "tank_params/overheatDuration"
+msgstr "過熱した主砲の冷却時間"
+
+msgid "tank_params/p"
+msgstr "(馬力)"
+
+msgid "tank_params/param12"
+msgstr "地盤走破性"
+
+msgid "tank_params/passiveCoincideceShootingCharge"
+msgstr "同時計測エレキ・サイトのチャージ (1秒ごとの%) (交戦モード停止中)"
+
+msgid "tank_params/penetrationLoss"
+msgstr "(%/100 mm)"
+
+msgid "tank_params/perActivation"
+msgstr "(発動ごと)"
+
+msgid "tank_params/percent"
+msgstr " "
+
+msgid "tank_params/percent_per_s"
+msgstr "(%/秒)"
+
+msgid "tank_params/piercingPower"
+msgstr "標準砲弾の貫通力"
+
+msgid "tank_params/pillboxHorizontalRotationSpeed"
+msgstr "車体の水平旋回速度"
+
+msgid "tank_params/pillboxSwitchOffTime"
+msgstr "移動モードへの切り替え時間"
+
+msgid "tank_params/pillboxSwitchOnTime"
+msgstr "要塞モードへの切り替え時間"
+
+msgid "tank_params/pillboxVerticalRotationSpeed"
+msgstr "車体の垂直旋回速度"
+
+msgid "tank_params/pitchLimits"
+msgstr "主砲の俯 / 仰角"
+
+msgid "tank_params/powerModeDuration"
+msgstr "最大性能までの到達時間"
+
+msgid "tank_params/powerModeThreshold"
+msgstr "モードの発動に必要な時間"
+
+msgid "tank_params/preheatDispersionCap"
+msgstr "最大予熱レベルでの散布界"
+
+msgid "tank_params/preheatDmgCap"
+msgstr "最大予熱レベルでの平均ダメージ"
+
+msgid "tank_params/preheatSpeedLimit"
+msgstr "制限速度"
+
+msgid "tank_params/preheatTimeToFull"
+msgstr "最大予熱レベルまでの時間"
+
+msgid "tank_params/preheatTimeToZero"
+msgstr "予熱レベルゼロまでの時間"
+
+msgid "tank_params/preheatTransitionDelay"
+msgstr "予熱レベル移行遅延"
+
+msgid "tank_params/propellantChargeLimit"
+msgstr "チャージ上限"
+
+msgid "tank_params/propellantChargeSpendingAfterShot"
+msgstr "1発あたりの消費チャージ"
+
+msgid "tank_params/propellantChargingPerSec"
+msgstr "チャージ蓄積速度"
+
+msgid "tank_params/propellantDischargingPerSec"
+msgstr "チャージ減少速度"
+
+msgid "tank_params/propellantOverchargeSwitchCooldown"
+msgstr "リミッター切り替えクールダウン"
+
+msgid "tank_params/propellantPostLimitAimingTime"
+msgstr "リミッター解除後の照準時間"
+
+msgid "tank_params/propellantPostLimitDamageBonus"
+msgstr "リミッター解除後のダメージへの最大ボーナス"
+
+msgid "tank_params/propellantPostLimitDamageSpike"
+msgstr "リミッター解除後のダメージ上昇"
+
+msgid "tank_params/propellantPostLimitDispersion"
+msgstr "リミッター解除後の100 mでの散布界"
+
+msgid "tank_params/propellantPreLimitDamageBonus"
+msgstr "リミッター解除前のダメージへの最大ボーナス"
+
+msgid "tank_params/pt"
+msgstr "(馬力/t)"
+
+msgid "tank_params/qpt"
+msgstr "(回数 / 持続時間)"
+
+msgid "tank_params/quantity"
+msgstr "(発)"
+
+msgid "tank_params/radarCooldown"
+msgstr "無線探知のクールダウン"
+
+msgid "tank_params/radarRadius"
+msgstr "探知半径"
+
+msgid "tank_params/radioDistance"
+msgstr "通信範囲"
+
+msgid "tank_params/reactivationDelay"
+msgstr "再使用までの遅延"
+
+msgid "tank_params/reactivationLimit"
+msgstr "再使用できる最大蓄熱水準"
+
+msgid "tank_params/relativeArmor"
+msgstr "生存性"
+
+msgid "tank_params/relativeCamouflage"
+msgstr "隠蔽性"
+
+msgid "tank_params/relativeMobility"
+msgstr "機動性"
+
+msgid "tank_params/relativePower"
+msgstr "火力"
+
+msgid "tank_params/relativeVisibility"
+msgstr "索敵性"
+
+msgid "tank_params/reloadTime"
+msgstr "発射速度"
+
+msgid "tank_params/reloadTimeCoincidence"
+msgstr "装填時間 (%) (同時計測エレキ・サイト)"
+
+msgid "tank_params/reloadTimeSecs"
+msgstr "装填時間"
+
+msgid "tank_params/reverseSpeedReductionWithBoosters"
+msgstr "後退速度の減少 (ブースター使用時)"
+
+msgid "tank_params/rocketAccelerationEnginePower"
+msgstr "エンジン出力 (ブースト)"
+
+msgid "tank_params/rocketAccelerationReuseAndDuration"
+msgstr "ジェットブースター"
+
+msgid "tank_params/rocketAccelerationSpeedLimits"
+msgstr "最大速度 / 後退速度 (ブースト)"
+
+msgid "tank_params/s"
+msgstr "(秒)"
+
+msgid "tank_params/secondaryAvgDamage"
+msgstr "砲弾ごとの平均ダメージ"
+
+msgid "tank_params/secondaryAvgPiercingPower"
+msgstr "砲弾の平均貫通力"
+
+msgid "tank_params/secondaryReloadTimeSecs"
+msgstr "補助兵装の装填時間"
+
+msgid "tank_params/secondaryTotalBurstSize"
+msgstr "補助兵装の砲弾"
+
+msgid "tank_params/shellLoadingTime"
+msgstr "弾帯装填時間"
+
+msgid "tank_params/shortened/avgPiercingPower"
+msgstr "貫通力"
+
+msgid "tank_params/shotDispersionAngle"
+msgstr "100 mでの散布界"
+
+msgid "tank_params/shotSpeed"
+msgstr "弾速"
+
+msgid "tank_params/speedLimits"
+msgstr "最大速度 / 後退速度"
+
+msgid "tank_params/spm"
+msgstr "(発/分)"
+
+msgid "tank_params/sqm"
+msgstr "(m²)"
+
+msgid "tank_params/stagedJetBoostersChargeDuration"
+msgstr "ブースト持続時間 (秒)"
+
+msgid "tank_params/stagedJetBoostersChargesCount"
+msgstr "ブースト発動可能回数"
+
+msgid "tank_params/stagedJetBoostersCooldownTime"
+msgstr "スラスターのクールダウン (秒)"
+
+msgid "tank_params/stagedJetBoostersEnginePower"
+msgstr "スラスター使用時のエンジン出力 (馬力)"
+
+msgid "tank_params/stagedJetBoostersRotationSpeed"
+msgstr "スラスター使用時の旋回速度 (度/秒)"
+
+msgid "tank_params/stagedJetBoostersSpeedLimits"
+msgstr "スラスター使用時の後退速度 (km/h)"
+
+msgid "tank_params/stagedJetBoostersTopSpeed"
+msgstr "スラスター使用時の最大速度 (km/h)"
+
+msgid "tank_params/stationaryReloadSwitchOffTime"
+msgstr "装填の中断時間"
+
+msgid "tank_params/stationaryReloadSwitchOnTime"
+msgstr "装填開始までの時間"
+
+msgid "tank_params/stunDurationList"
+msgstr "スタン時間"
+
+msgid "tank_params/stunMaxDuration"
+msgstr "最大スタン時間"
+
+msgid "tank_params/stunMinDuration"
+msgstr "最小スタン時間"
+
+msgid "tank_params/switchEngineModeBothModes"
+msgstr "エンジンモードの切り替え時間"
+
+msgid "tank_params/switchOffTime"
+msgstr "移動モードへの切り替え"
+
+msgid "tank_params/switchOnTime"
+msgstr "射撃モードへの切り替え"
+
+msgid "tank_params/switchTime"
+msgstr "射撃 / 移動モードの切り替え"
+
+msgid "tank_params/t"
+msgstr "(t)"
+
+msgid "tank_params/temperatureAvgDamagePerMinute"
+msgstr "平均分間ダメージ"
+
+msgid "tank_params/temperatureReloadTime"
+msgstr "発射速度"
+
+msgid "tank_params/timeOfReaching"
+msgstr "100 m走破の所要時間"
+
+msgid "tank_params/timeToOverheat"
+msgstr "過熱するまでの連続砲撃"
+
+msgid "tank_params/topSpeedWithBoosters"
+msgstr "最大速度 (ブースター使用時)"
+
+msgid "tank_params/traverseSpeedReductionWithBoosters"
+msgstr "旋回速度低下 (ブースター使用時)"
+
+msgid "tank_params/turboSpeedCap"
+msgstr "最大速度 / 後退速度 (km/h) (ターボ・モード)"
+
+msgid "tank_params/turboshaftBurstFireRate"
+msgstr "挿弾子 (ターボ)"
+
+msgid "tank_params/turboshaftEnginePower"
+msgstr "エンジン出力 (ターボ)"
+
+msgid "tank_params/turboshaftInvisibilityMovingFactor"
+msgstr "移動中 (ターボ) (%)"
+
+msgid "tank_params/turboshaftInvisibilityStillFactor"
+msgstr "静止中 (ターボ) (%)"
+
+msgid "tank_params/turboshaftSpeedModeSpeed"
+msgstr "最大速度 / 後退速度 (ターボ)"
+
+msgid "tank_params/turboshaftSwitchTime"
+msgstr "エンジンモードの切り替え"
+
+msgid "tank_params/turretArmor"
+msgstr "砲塔装甲"
+
+msgid "tank_params/turretModuleRotationSpeed"
+msgstr "砲塔の旋回速度"
+
+msgid "tank_params/turretRotationSpeed"
+msgstr "主砲の旋回速度"
+
+msgid "tank_params/turretYawLimits"
+msgstr "砲塔の旋回範囲"
+
+msgid "tank_params/twinGunReloadTime"
+msgstr "装填時間 (単発モード / 斉射モード)"
+
+msgid "tank_params/twinGunSwitchFireModeTime"
+msgstr "砲撃モードの切り替え時間"
+
+msgid "tank_params/twinGunTopSpeed"
+msgstr "最大速度 / 後退速度 (斉射モード)"
+
+msgid "tank_params/val"
+msgstr "(HP)"
+
+msgid "tank_params/values/param10/value0"
+msgstr "優良"
+
+msgid "tank_params/values/param10/value1"
+msgstr "良"
+
+msgid "tank_params/values/param10/value2"
+msgstr "普通"
+
+msgid "tank_params/values/param10/value3"
+msgstr "悪い"
+
+msgid "tank_params/values/param11/value0"
+msgstr "優良"
+
+msgid "tank_params/values/param11/value1"
+msgstr "良"
+
+msgid "tank_params/values/param11/value2"
+msgstr "普通"
+
+msgid "tank_params/values/param11/value3"
+msgstr "悪い"
+
+msgid "tank_params/values/param12/value0"
+msgstr "優良"
+
+msgid "tank_params/values/param12/value1"
+msgstr "良"
+
+msgid "tank_params/values/param12/value2"
+msgstr "普通"
+
+msgid "tank_params/values/param12/value3"
+msgstr "悪い"
+
+msgid "tank_params/vehicleWeight"
+msgstr "重量"
+
+msgid "tank_params/vpm"
+msgstr "(HP/分)"
+
+msgid "tank_params/vps"
+msgstr "(HP/秒)"
+
+msgid "tank_params/wheeledDashAbilityDuration"
+msgstr "持続時間 (秒)"
+
+msgid "tank_params/wheeledDashAbilityReloadTime"
+msgstr "クールダウン (秒)"
+
+msgid "tank_params/wheeledDashAbilityReloadTimeBonus"
+msgstr "クールダウン・ボーナス (%)"
+
+msgid "tank_params/wheeledDashEnginePower"
+msgstr "エンジン出力 (%)"
+
+msgid "tank_params/wheeledDashReverseSpeed"
+msgstr "後退速度 (%)"
+
+msgid "tank_params/wheeledDashSpeedLimits"
+msgstr "クールダウン短縮発動速度 (km/h)"
+
+msgid "tank_params/wheeledDashTopSpeed"
+msgstr "最大速度 (%)"
+
+msgid "tank_params/wheeledSpeedModeSpeed"
+msgstr "最大速度 / 後退速度 (スピード)"
+
+msgid "tank_params/wheeledSwitchOffTime"
+msgstr "コントロールモードへの切り替え"
+
+msgid "tank_params/wheeledSwitchOnTime"
+msgstr "スピードモードへの切り替え"
+
+msgid "tank_params/wheeledSwitchTime"
+msgstr "走行モードの切り替え"
+
+msgid "tank_params/yoh_s_s"
+msgstr "(主要 / 予備) (秒)"
+
+msgid "tankmanRecruitRenderer/commander"
+msgstr "車長の採用"
+
+msgid "tankmanRecruitRenderer/descr"
+msgstr "搭乗員の採用"
+
+msgid "tankmanRecruitRenderer/driver"
+msgstr "操縦手の採用"
+
+msgid "tankmanRecruitRenderer/gunner"
+msgstr "砲手の採用"
+
+msgid "tankmanRecruitRenderer/loader"
+msgstr "装填手の採用"
+
+msgid "tankmanRecruitRenderer/personalCase"
+msgstr "個人ファイルに移動"
+
+msgid "tankmanRecruitRenderer/radioman"
+msgstr "無線手の採用"
+
+msgid "tankmanRecruitRenderer/unload"
+msgstr "兵舎に送る"
+
+msgid "tankmanRetrainingBtn/free"
+msgstr "フリー"
+
+msgid "tankmanTrainingButton2/retrainingTo"
+msgstr "再訓練目標レベル:"
+
+msgid "tankmanTrainingButton2/trainingTo"
+msgstr "訓練目標レベル:"
+
+msgid "tankmanTrainingWindow/academy"
+msgstr "タンクアカデミー"
+
+msgid "tankmanTrainingWindow/blank"
+msgstr "再訓練"
+
+msgid "tankmanTrainingWindow/closeBtn"
+msgstr "キャンセル"
+
+msgid "tankmanTrainingWindow/free"
+msgstr "速成コース"
+
+msgid "tankmanTrainingWindow/free/price"
+msgstr "フリー"
+
+msgid "tankmanTrainingWindow/scool"
+msgstr "軍士学校"
+
+msgid "tankmanTrainingWindow/title"
+msgstr "搭乗員の訓練"
+
+msgid "tankmanTrainingWindow/trainingTo"
+msgstr "訓練レベル:"
+
+msgid "tankmen/AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "tankmen/SPG"
+msgstr "自走砲"
+
+msgid "tankmen/heavyTank"
+msgstr "重戦車"
+
+msgid "tankmen/lightTank"
+msgstr "軽戦車"
+
+msgid "tankmen/lockReason/broken"
+msgstr "(車輌損傷)"
+
+msgid "tankmen/lockReason/disabled"
+msgstr "(利用不可)"
+
+msgid "tankmen/lockReason/inbattle"
+msgstr "(戦闘中)"
+
+msgid "tankmen/lockReason/prebattle"
+msgstr "(戦闘待機中)"
+
+msgid "tankmen/mediumTank"
+msgstr "中戦車"
+
+msgid "timeLeft/full/day"
+msgstr "{day} 日 {hour} 時間"
+
+msgid "timeLeft/full/hour"
+msgstr "{hour} 時間 {min} 分"
+
+msgid "timeLeft/full/lessMin"
+msgstr "1 分"
+
+msgid "timeLeft/full/min"
+msgstr "{min} 分"
+
+msgid "timeLeft/short/day"
+msgstr "{day} 日"
+
+msgid "timeLeft/short/hour"
+msgstr "{hour} 時間"
+
+msgid "timeLeft/short/lessMin"
+msgstr "1 分"
+
+msgid "timeLeft/short/min"
+msgstr "{min} 分"
+
+msgid "trade/in"
+msgstr "下取り可能"
+
+msgid "training/additionalInfo/freeSuppliesComp7"
+msgstr "「オンスロート」モードのマップでは弾薬、消耗品、ディレクティブを無料で使用できます"
+
+msgid "training/additionalInfo/vehicleRequired3"
+msgstr "このモードには、少なくとも3輌の適合車輌が必要です。詳細は「オンスロート」モードについてのページでご確認ください。"
+
+msgid "training/create/battleTime"
+msgstr "戦闘時間:"
+
+msgid "training/create/battleTime/disabled/body"
+msgstr "この戦闘タイプでは戦闘時間を変更できません。"
+
+msgid "training/create/closeButton"
+msgstr "閉じる"
+
+msgid "training/create/createButton"
+msgstr "作成"
+
+msgid "training/create/description"
+msgstr "説明:"
+
+msgid "training/create/mapSelect"
+msgstr "マップの選択:"
+
+msgid "training/create/maxPlayers"
+msgstr "プレイヤー数の制限:"
+
+msgid "training/create/privacy"
+msgstr "招待のみ"
+
+msgid "training/create/title"
+msgstr "トレーニング・ルームの作成"
+
+msgid "training/createButton"
+msgstr "ルームの作成"
+
+msgid "training/description"
+msgstr "チームトレーニングではクレジットやEXPは取得できません。砲弾、消耗品、ディレクティブは有償ですが、修理その他は無料です。"
+
+msgid "training/info/deleteButton"
+msgstr "ルーム削除"
+
+msgid "training/info/exitButton"
+msgstr "ルームから退出"
+
+msgid "training/info/inviteButton"
+msgstr "招待..."
+
+msgid "training/info/map"
+msgstr "{%s}:"
+
+msgid "training/info/maxPlayers"
+msgstr "プレイヤー:"
+
+msgid "training/info/notUseChat"
+msgstr "いいえ"
+
+msgid "training/info/observer"
+msgstr "オブザーバー"
+
+msgid "training/info/otherLabel"
+msgstr "未分配のプレイヤー: %(total)s"
+
+msgid "training/info/owner"
+msgstr "指揮官:"
+
+msgid "training/info/settings/okButton"
+msgstr "変更"
+
+msgid "training/info/settings/title"
+msgstr "トレーニング・ルーム設定の変更"
+
+msgid "training/info/settingsButton"
+msgstr "ルーム設定"
+
+msgid "training/info/startButton"
+msgstr "戦闘開始"
+
+msgid "training/info/states/state0"
+msgstr "?empty?"
+
+msgid "training/info/states/state1"
+msgstr "退出中"
+
+msgid "training/info/states/state17"
+msgstr "オフライン"
+
+msgid "training/info/states/state2"
+msgstr "退出中"
+
+msgid "training/info/states/state20"
+msgstr "オフライン"
+
+msgid "training/info/states/state24"
+msgstr "オフライン"
+
+msgid "training/info/states/state4"
+msgstr "?empty?"
+
+msgid "training/info/states/state8"
+msgstr "戦闘中"
+
+msgid "training/info/team1Label"
+msgstr "チーム 1 [%(total)s]"
+
+msgid "training/info/team2Label"
+msgstr "チーム 2 [%(total)s]"
+
+msgid "training/info/timeout/label"
+msgstr "戦闘時間:"
+
+msgid "training/info/timeout/value"
+msgstr "%(roundLength)s分"
+
+msgid "training/info/title"
+msgstr "トレーニング・ルーム (%(arenaName)s)"
+
+msgid "training/info/useCommonVoiceChat"
+msgstr "一般"
+
+msgid "training/info/useSeparateVoipChat"
+msgstr "チーム"
+
+msgid "training/info/voiceChat"
+msgstr "音声チャット:"
+
+msgid "training/invitations/title"
+msgstr "招待の送信"
+
+msgid "training/joinButton"
+msgstr "入室"
+
+msgid "training/leaveButton"
+msgstr "モード終了"
+
+msgid "training/listTitle"
+msgstr "トレーニング・ルーム"
+
+msgid "training/notificationText/freeSupplies"
+msgstr "無料の消耗品"
+
+msgid "training/notificationText/onlyTierX"
+msgstr "Tier X 車輌限定"
+
+msgid "training/notificationText/vehicleRequired3"
+msgstr "複数の車輌が必要"
+
+msgid "training/ownerTitle"
+msgstr "指揮官"
+
+msgid "training/playersLabel"
+msgstr "プレイヤー: %(playersTotal)s"
+
+msgid "training/playersTitle"
+msgstr "プレイヤー"
+
+msgid "training/roomsLabel"
+msgstr "トレーニング・ルーム: %(roomsTotal)s"
+
+msgid "training/title"
+msgstr "チームトレーニング"
+
+msgid "unlocks/exchangeButton"
+msgstr "変換"
+
+msgid "unlocks/unlockButton"
+msgstr "研究"
+
+msgid "unlocks/xpToTmenCheckbox"
+msgstr "搭乗員訓練の促進"
+
+msgid "validation/publicInfo/abbrev/invalid"
+msgstr "無効な文字、または文字数超過!\n使用可能: 半角英数、\"-\" および \"_\"\nクエリー例: \"[WG-A]\""
+
+msgid "validation/publicInfo/abbrev/invalid/CN"
+msgstr "無効な文字、または文字数超過!\n使用可能: 半角英数、日本語、\"-\" および \"_\"\nクエリー例: \"[WG-A]\""
+
+msgid "validation/publicInfo/abbrev/invalid/KR"
+msgstr "無効な文字、または文字数超過!\n使用可能: 半角英数、日本語、\"-\" および \"_\"\nクエリー例: \"[WG-A]\""
+
+msgid "validation/publicInfo/abbrev/ours"
+msgstr "あなたのクランのタグを入力しました。 "
+
+msgid "vehParams/armor"
+msgstr "生存性"
+
+msgid "vehParams/firepower"
+msgstr "火力"
+
+msgid "vehParams/mobility"
+msgstr "機動性"
+
+msgid "vehParams/reconnaissance"
+msgstr "索敵性"
+
+msgid "vehicle/igrRentLeft/days"
+msgstr "日数: %(days)s"
+
+msgid "vehicle/igrRentLeft/hours"
+msgstr "時間: %(hours)s"
+
+msgid "vehicle/rentLeft/battles"
+msgstr "残り戦闘数: %(battles)s"
+
+msgid "vehicle/rentLeft/days"
+msgstr "レンタル日数: %(days)s"
+
+msgid "vehicle/rentLeft/epic/base"
+msgstr "「フロントライン」用にレンタル"
+
+msgid "vehicle/rentLeft/epic/days"
+msgstr "%(days)s 日レンタル"
+
+msgid "vehicle/rentLeft/epic/season"
+msgstr "シーズン %(season)s"
+
+msgid "vehicle/rentLeft/hours"
+msgstr "レンタル時間: %(hours)s"
+
+msgid "vehicle/rentLeft/wins"
+msgstr "残勝利数: %(wins)s"
+
+msgid "vehicle/restoreCooldownLeft/days"
+msgstr "%(time)s 日後にリカバリー可能"
+
+msgid "vehicle/restoreCooldownLeft/hours"
+msgstr "%(time)s 時間後にリカバリー可能"
+
+msgid "vehicle/restoreLeft/days"
+msgstr "あと %(time)s 日はリカバリー可能"
+
+msgid "vehicle/restoreLeft/disabledByRent"
+msgstr "レンタル終了まで利用不能"
+
+msgid "vehicle/restoreLeft/hours"
+msgstr "あと %(time)s 時間はリカバリー可能"
+
+msgid "vehicle/restoreLeft/unlim"
+msgstr "リカバリー可能"
+
+msgid "vehicleIgr/days"
+msgstr "特別車輌 %(igrIcon)s の利用可能日数: %(days)s"
+
+msgid "vehicleIgr/hours"
+msgstr "特別車輌 %(igrIcon)s の利用可能時間: %(hours)s"
+
+msgid "vehicleInfo/closeBtn"
+msgstr "閉じる"
+
+msgid "vehicleInfo/compareBtn/label"
+msgstr "比較対象に追加"
+
+msgid "vehicleInfo/compareBtn/tooltip/body"
+msgstr "車輌を比較対象に追加するには、比較リストから一部車輌を削除してください"
+
+msgid "vehicleInfo/compareBtn/tooltip/header"
+msgstr "追加不能"
+
+msgid "vehicleInfo/nationChangeBtn/label"
+msgstr "国籍変更"
+
+msgid "vehicleInfo/params/aimingTime"
+msgstr "照準時間 (秒)"
+
+msgid "vehicleInfo/params/autoReloadTime"
+msgstr "単発自動再装填時間 (秒)"
+
+msgid "vehicleInfo/params/autoReloadTimeBoost"
+msgstr "通常の単発自動再装填時間 (秒)"
+
+msgid "vehicleInfo/params/autoShootClipFireRate"
+msgstr "装填 (弾倉交換/容量)"
+
+msgid "vehicleInfo/params/avgDamage"
+msgstr "平均単発ダメージ"
+
+msgid "vehicleInfo/params/avgDamagePerMinute"
+msgstr "平均分間ダメージ"
+
+msgid "vehicleInfo/params/avgDamagePerSecond"
+msgstr "秒間ダメージ (HP/秒)"
+
+msgid "vehicleInfo/params/avgPiercingPower"
+msgstr "平均貫通力"
+
+msgid "vehicleInfo/params/burstFireRate"
+msgstr "挿弾子 (連射間隔 / 挿弾子数 / 砲弾数)"
+
+msgid "vehicleInfo/params/chargeTime"
+msgstr "斉射の準備時間 (秒)"
+
+msgid "vehicleInfo/params/chassisRepairTime"
+msgstr "サスペンションの修理時間 (秒)"
+
+msgid "vehicleInfo/params/chassisRepairTimeYoh"
+msgstr "サスペンションの修理時間 (主要 / 予備) (秒)"
+
+msgid "vehicleInfo/params/chassisRotationSpeed"
+msgstr "旋回速度 (度/秒)"
+
+msgid "vehicleInfo/params/circularVisionRadius"
+msgstr "視認範囲 (m)"
+
+msgid "vehicleInfo/params/clipFireRate"
+msgstr "連射性能 (弾倉交換 / 弾倉内装填 または 挿弾子交換 / 容量)"
+
+msgid "vehicleInfo/params/continuousShotsPerMinute"
+msgstr "連射速度 (発/分)"
+
+msgid "vehicleInfo/params/dualAccuracyCoolingDelay"
+msgstr "射撃後の砲身冷却時間 (秒)"
+
+msgid "vehicleInfo/params/enginePower"
+msgstr "エンジン出力 (馬力)"
+
+msgid "vehicleInfo/params/enginePowerPerTon"
+msgstr "出力重量比 (馬力/t)"
+
+msgid "vehicleInfo/params/gunYawLimits"
+msgstr "主砲の旋回範囲 (度)"
+
+msgid "vehicleInfo/params/hullArmor"
+msgstr "車体装甲 (前面 / 側面 / 背面 mm)"
+
+msgid "vehicleInfo/params/invisibility"
+msgstr "移動中 / 静止中の隠蔽率 (%)"
+
+msgid "vehicleInfo/params/invisibilityMovingFactor"
+msgstr "移動中の隠蔽率 (%)"
+
+msgid "vehicleInfo/params/invisibilityStillFactor"
+msgstr "静止中の隠蔽率 (%)"
+
+msgid "vehicleInfo/params/maxHealth"
+msgstr "耐久力 (HP)"
+
+msgid "vehicleInfo/params/maxSteeringLockAngle"
+msgstr "車輪の最大舵角 (度)"
+
+msgid "vehicleInfo/params/piercingPower"
+msgstr "平均貫通力 (mm)"
+
+msgid "vehicleInfo/params/pitchLimits"
+msgstr "主砲の俯 / 仰角 (度)"
+
+msgid "vehicleInfo/params/radioDistance"
+msgstr "通信範囲 (m)"
+
+msgid "vehicleInfo/params/rateTime"
+msgstr "射撃後の主砲の切り替え (秒)"
+
+msgid "vehicleInfo/params/reloadTime"
+msgstr "発射速度 (発/分)"
+
+msgid "vehicleInfo/params/reloadTimeSecs"
+msgstr "装填時間 (秒)"
+
+msgid "vehicleInfo/params/rocketAccelerationEnginePower"
+msgstr "エンジン出力 (ブースト) (馬力)"
+
+msgid "vehicleInfo/params/rocketAccelerationReuseAndDuration"
+msgstr "ジェットブースター (回数 / 持続時間)"
+
+msgid "vehicleInfo/params/rocketAccelerationSpeedLimits"
+msgstr "最大速度 / 後退速度 (ブースト) (km/h)"
+
+msgid "vehicleInfo/params/shotDispersionAngle"
+msgstr "100 mでの散布界 (m)"
+
+msgid "vehicleInfo/params/shotSpeed"
+msgstr "飛翔速度"
+
+msgid "vehicleInfo/params/speedLimits"
+msgstr "最大速度 / 後退速度 (km/h)"
+
+msgid "vehicleInfo/params/stunMaxDuration"
+msgstr "最大スタン時間 (秒)"
+
+msgid "vehicleInfo/params/stunMinDuration"
+msgstr "最小スタン時間 (秒)"
+
+msgid "vehicleInfo/params/switchOffTime"
+msgstr "移動モードへの切り替え (秒)"
+
+msgid "vehicleInfo/params/switchOnTime"
+msgstr "射撃モードへの切り替え (秒)"
+
+msgid "vehicleInfo/params/switchTime"
+msgstr "射撃 / 移動モードの切り替え (秒)"
+
+msgid "vehicleInfo/params/temperatureAvgDamagePerMinute"
+msgstr "平均分間ダメージ"
+
+msgid "vehicleInfo/params/temperatureReloadTime"
+msgstr "発射速度 (発/分)"
+
+msgid "vehicleInfo/params/turboshaftBurstFireRate"
+msgstr "挿弾子 (ターボ) (連射間隔 / 挿弾子数 / 砲弾数)"
+
+msgid "vehicleInfo/params/turboshaftEnginePower"
+msgstr "エンジン出力 （ターボ）（馬力）"
+
+msgid "vehicleInfo/params/turboshaftInvisibilityMovingFactor"
+msgstr "移動中の隠蔽率 (ターボ) (%)"
+
+msgid "vehicleInfo/params/turboshaftInvisibilityStillFactor"
+msgstr "静止中の隠蔽率 (ターボ) (%)"
+
+msgid "vehicleInfo/params/turboshaftSpeedModeSpeed"
+msgstr "最大速度 / 後退速度 (ターボ) (km/h)"
+
+msgid "vehicleInfo/params/turboshaftSwitchTime"
+msgstr "ターボモード / 通常モードへの切り替え (秒)"
+
+msgid "vehicleInfo/params/turretArmor"
+msgstr "砲塔装甲 (前面 / 側面 / 背面 mm)"
+
+msgid "vehicleInfo/params/turretRotationSpeed"
+msgstr "主砲の旋回速度 (度/秒)"
+
+msgid "vehicleInfo/params/turretYawLimits"
+msgstr "砲塔の旋回範囲 (度)"
+
+msgid "vehicleInfo/params/twinGunReloadTime"
+msgstr "装填時間 (単発モード / 斉射モード) (秒)"
+
+msgid "vehicleInfo/params/twinGunSwitchFireModeTime"
+msgstr "砲撃モードの切り替え時間 (秒)"
+
+msgid "vehicleInfo/params/twinGunTopSpeed"
+msgstr "最大速度 / 後退速度 (単発モード / 斉射モード) (km/h)"
+
+msgid "vehicleInfo/params/vehicleWeight"
+msgstr "重量 (t)"
+
+msgid "vehicleInfo/params/wheeledSpeedModeSpeed"
+msgstr "最大速度 / 後退速度 (スピード) (km/h)"
+
+msgid "vehicleInfo/params/wheeledSwitchOffTime"
+msgstr "コントロールモードへの切り替え (秒)"
+
+msgid "vehicleInfo/params/wheeledSwitchOnTime"
+msgstr "スピードモードへの切り替え (秒)"
+
+msgid "vehicleInfo/params/wheeledSwitchTime"
+msgstr "走行モードの切り替え (秒)"
+
+msgid "vehicleInfo/stats/avgExperience"
+msgstr "1 戦の平均EXP"
+
+msgid "vehicleInfo/stats/battlesCount"
+msgstr "参加戦闘数"
+
+msgid "vehicleInfo/stats/damageDealt"
+msgstr "与ダメージ"
+
+msgid "vehicleInfo/stats/defender"
+msgstr "防衛者"
+
+msgid "vehicleInfo/stats/frags"
+msgstr "撃破数"
+
+msgid "vehicleInfo/stats/heroes"
+msgstr "戦功章"
+
+msgid "vehicleInfo/stats/hits"
+msgstr "命中弾数"
+
+msgid "vehicleInfo/stats/invader"
+msgstr "侵略者"
+
+msgid "vehicleInfo/stats/lastBattleTime"
+msgstr "前回の戦闘"
+
+msgid "vehicleInfo/stats/losses"
+msgstr "敗北"
+
+msgid "vehicleInfo/stats/medalKay"
+msgstr "ケイ勲章"
+
+msgid "vehicleInfo/stats/scout"
+msgstr "偵察者"
+
+msgid "vehicleInfo/stats/shots"
+msgstr "射撃数"
+
+msgid "vehicleInfo/stats/sniper"
+msgstr "スナイパー"
+
+msgid "vehicleInfo/stats/steelwall"
+msgstr "鋼鉄の壁"
+
+msgid "vehicleInfo/stats/supporter"
+msgstr "共謀者"
+
+msgid "vehicleInfo/stats/survivedBattles"
+msgstr "生還"
+
+msgid "vehicleInfo/stats/warrior"
+msgstr "トップガン"
+
+msgid "vehicleInfo/stats/wins"
+msgstr "勝利"
+
+msgid "vehicleInfo/stats/xp"
+msgstr "合計EXP"
+
+msgid "vehicleInfo/tabs/base"
+msgstr "構成"
+
+msgid "vehicleInfo/tabs/crew"
+msgstr "搭乗員"
+
+msgid "vehicleInfo/tabs/properties"
+msgstr "特性"
+
+msgid "vehicleInfo/tabs/statistic"
+msgstr "実績"
+
+msgid "vehicleInfo/title"
+msgstr "— 特性"
+
+msgid "vehiclePreview/endTime"
+msgstr "オファー期限切れ"
+
+msgid "vehiclePreview/timeLeft/hours"
+msgstr "%(hour)s 時間 %(min)s 分"
+
+msgid "vehiclePreview/timeLeft/lessMin"
+msgstr "1 分"
+
+msgid "vehiclePreview/timeLeft/min"
+msgstr "%(min)s 分"
+
+msgid "vehiclePreview/timeLeftShort/hours"
+msgstr "%(hour)s 時間"
+
+msgid "vehiclePreview/timeLeftShort/lessMin"
+msgstr "01 分"
+
+msgid "vehiclePreview/timeLeftShort/min"
+msgstr "%(min)s 分"
+
+msgid "vehicleRestore/timeLeftShort/days"
+msgstr "%(day)sd"
+
+msgid "vehicleRestore/timeLeftShort/hours"
+msgstr "%(hour)sh %(min)smin"
+
+msgid "vehicleRestore/timeLeftShort/lessMin"
+msgstr "01m。"
+
+msgid "vehicleRestore/timeLeftShort/min"
+msgstr "%(min)s分。"
+
+msgid "vehiclesCarousel/contextMenu/vehicleCheck"
+msgstr "メインに設定"
+
+msgid "vehiclesCarousel/contextMenu/vehicleInfo"
+msgstr "詳細の表示"
+
+msgid "vehiclesCarousel/contextMenu/vehicleResearch"
+msgstr "技術ツリー"
+
+msgid "vehiclesCarousel/contextMenu/vehicleSell"
+msgstr "売却"
+
+msgid "vehiclesCarousel/contextMenu/vehicleUncheck"
+msgstr "サブに設定"
+
+msgid "viewHeader/aboutBtn/label"
+msgstr "イベント概要"
+
+msgid "viewHeader/backBtn/descrLabel/battleMatters"
+msgstr "タンクアカデミーへ"
+
+msgid "viewHeader/backBtn/descrLabel/hangar"
+msgstr "ガレージへ"
+
+msgid "viewHeader/backBtn/descrLabel/preview"
+msgstr "プレビューへ"
+
+msgid "viewHeader/backBtn/descrLabel/research"
+msgstr "%(tankName)sへ"
+
+msgid "viewHeader/backBtn/descrLabel/storage"
+msgstr "倉庫へ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree"
+msgstr "技術ツリーへ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/china"
+msgstr "中国技術ツリーへ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/czech"
+msgstr "チェコスロバキア技術ツリーへ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/france"
+msgstr "フランス技術ツリーへ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/germany"
+msgstr "ドイツ技術ツリーへ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/italy"
+msgstr "イタリア技術ツリーへ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/japan"
+msgstr "日本技術ツリーへ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/poland"
+msgstr "ポーランド技術ツリーへ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/sweden"
+msgstr "スウェーデン技術ツリーへ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/uk"
+msgstr "イギリス技術ツリーへ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/usa"
+msgstr "アメリカ技術ツリーへ"
+
+msgid "viewHeader/backBtn/descrLabel/techtree/ussr"
+msgstr "ソ連技術ツリーへ"
+
+msgid "viewHeader/backBtn/label"
+msgstr "戻る"
+
+msgid "viewHeader/closeBtn/label"
+msgstr "閉じる"
+
+msgid "viewHeader/infoBtn/label"
+msgstr "インフォメーション"

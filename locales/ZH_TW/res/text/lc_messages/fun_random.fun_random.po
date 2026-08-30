@@ -1,0 +1,1310 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "alertMessage/afterCycle"
+msgstr "「%(leftDetailedSeasonName)s」戰鬥已結束"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "所有伺服器都已實施休戰。戰鬥將於 %(primeDelta)s後可進行"
+
+msgid "alertMessage/allNotAvailableEnd"
+msgstr "「%(leftDetailedSeasonName)s」戰鬥已結束"
+
+msgid "alertMessage/allNotSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "alertMessage/button/changeServer"
+msgstr "選擇其他伺服器"
+
+msgid "alertMessage/notAvailable"
+msgstr "%(serverName)s 伺服器已實施休戰"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "%(serverName)s 伺服器已實施休戰"
+
+msgid "alertMessage/notSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "此伺服器已實施休戰。戰鬥將於 %(primeDelta)s後可進行"
+
+msgid "alertMessage/standaloneNotAvailableEnd"
+msgstr "「%(leftDetailedSeasonName)s」戰鬥已結束"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s 天"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s 小時 %(min)s 分鐘"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "<1 分鐘"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s 分鐘"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "沒有適合的車輛"
+
+msgid "banner/progression/steps"
+msgstr "{{done}}/{{total}}"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/title"
+msgstr "時間表"
+
+msgid "entryPoint/tooltip/modeBtnText"
+msgstr "模式"
+
+msgid "entryPoint/tooltip/modeDescription"
+msgstr "{{mode}} — 切換為另一個遊戲模式"
+
+msgid "entryPoint/tooltip/state/announce"
+msgstr "模式將可用於"
+
+msgid "entryPoint/tooltip/state/ceasefire"
+msgstr "休戰期 {{timer}}"
+
+msgid "entryPoint/tooltip/state/finished/description"
+msgstr "戰鬥已結束"
+
+msgid "entryPoint/tooltip/state/finished/title"
+msgstr "模式不再可用"
+
+msgid "entryPoint/tooltip/state/progress"
+msgstr "模式將可用 {{timer}}"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)s無法參與「%(modeName)s」戰鬥。"
+
+msgid "funRandomCarousel/lockedTooltip/vehClass/header"
+msgstr "不相容的車輛類型"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/body"
+msgstr "選擇一輛 %(levelSubStr)s車輛來參與「%(modeName)s」模式。"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/header"
+msgstr "不相容的車輛階級"
+
+msgid "funRandomCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "%(levels)s 階"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)s無法參與「%(modeName)s」模式。"
+
+msgid "funRandomCarousel/lockedTooltip/vehType/header"
+msgstr "不相容的車輛"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/body"
+msgstr "此伺服器已實施休戰。請選擇其他伺服器。"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomDisabled/header"
+msgstr "無法進入戰鬥"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/body"
+msgstr "此模式不適用於所選伺服器。"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomNotSet/header"
+msgstr "無法進入戰鬥"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/body"
+msgstr "「%(subModeName)s」戰鬥已結束"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomSubModeEnded/header"
+msgstr "無法進入戰鬥"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/body"
+msgstr "變更模式或選擇符合條件的車輛。"
+
+msgid "headerButtons/fightBtn/tooltip/funRandomVehLimits/header"
+msgstr "車輛不適用於此模式"
+
+msgid "headerButtons/tooltips/funRandomSquad/body"
+msgstr "建立一支 2 到 3 名玩家的戰術單位來一同加入「%(modeName)s」戰鬥。"
+
+msgid "headerButtons/tooltips/funRandomSquad/header"
+msgstr "裝甲排"
+
+msgid "invite/text/detailedTitle"
+msgstr "加入「%(detailedModeName)s」裝甲排的邀請"
+
+msgid "invite/tooltip/noVehicles"
+msgstr "您車庫中至少要有一輛車輛。"
+
+msgid "lootboxTooltip/chance"
+msgstr "開出機率：%(percent)s"
+
+msgid "lootboxTooltip/description"
+msgstr "來自下方清單的一項遊戲內物品："
+
+msgid "metaProgressionTooltip/header/completedFinal"
+msgstr "已完成所有階段"
+
+msgid "metaProgressionTooltip/header/completedResettable"
+msgstr "已完成當前任務的\n所有階段"
+
+msgid "metaProgressionTooltip/reward/header/common"
+msgstr "下一個階段獎勵 — 達到 %(stagePoints)s 點時解鎖"
+
+msgid "metaProgressionTooltip/reward/header/infinite"
+msgstr "下一個階段獎勵"
+
+msgid "metaProgressionTooltip/timer/untilFinish"
+msgstr "距離活躍階段結束還剩 %(time)s"
+
+msgid "metaProgressionTooltip/timer/untilRelaunch"
+msgstr "距離下一次開放還剩 %(time)s"
+
+msgid "modeSelector/notStarted"
+msgstr "此模式即將展開"
+
+msgid "modeSelector/progression/steps"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "modeSelector/progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close}/%(total)s"
+
+msgid "modeSelector/status/timeLeft/days"
+msgstr "%(day)s 天"
+
+msgid "modeSelector/status/timeLeft/hours"
+msgstr "%(hour)s 小時"
+
+msgid "modeSelector/status/timeLeft/lessMin"
+msgstr "<1 分鐘"
+
+msgid "modeSelector/status/timeLeft/min"
+msgstr "%(min)s 分鐘"
+
+msgid "modeSubSelector/backBtn/label"
+msgstr "前往模式"
+
+msgid "modeSubSelector/disabledCard/tooltip/body"
+msgstr "由於技術性問題而無法使用"
+
+msgid "modeSubSelector/progression/header/completedResettable"
+msgstr "您已完成當前任務的所有階段"
+
+msgid "modeSubSelector/progression/rewards"
+msgstr "獎勵：%(count)s"
+
+msgid "modeSubSelector/subModeCard/finished"
+msgstr "戰鬥已結束"
+
+msgid "modeSubSelector/subModeCard/soonWillStart"
+msgstr "即將推出"
+
+msgid "modeSubSelector/subModeCard/startTimer"
+msgstr "將開始於"
+
+msgid "modeSubSelector/subtitle"
+msgstr "選擇子模式"
+
+msgid "modes/development/banner/progression/finish"
+msgstr "Dev 所有階段已完成"
+
+msgid "modes/development/banner/progression/resettable"
+msgstr "Dev 進度更新"
+
+msgid "modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "modes/development/detailedUserName"
+msgstr "?empty?"
+
+msgid "modes/development/entryPoint/inProgress/description"
+msgstr "進入戰鬥！"
+
+msgid "modes/development/entryPoint/intro/description"
+msgstr "加入激戰！"
+
+msgid "modes/development/entryPoint/tooltip/description"
+msgstr "遊戲廳活動獨具特色、限時開放，為您帶來與眾不同的內容！在規則截然不同的模式進行戰鬥，完成任務，獲得稀有獎勵。"
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/lootbox/fep_epic"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_legendary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_ordinary"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_rare"
+msgstr "?empty?"
+
+msgid "modes/development/lootbox/fep_unusual"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/header/active"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/reward/tip"
+msgstr "?empty?"
+
+msgid "modes/development/metaProgressionTooltip/subheader"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/info"
+msgstr "?empty?"
+
+msgid "modes/development/modeSubSelector/progression/timer"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/description"
+msgstr "?empty?"
+
+msgid "modes/development/mode_selector/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "modes/development/mode_selector/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "modes/development/mode_selector/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "modes/development/mode_selector/progression/resettable"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/finishSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/newSubModes/withoutProgression"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOffSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/notification/switchOnSubModes"
+msgstr "?empty?"
+
+msgid "modes/development/progression/cardsFan/listOfRandomRewards"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/complete/title"
+msgstr "Dev 您已完成進度"
+
+msgid "modes/development/progression/infinite/congratulations"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/infinityStep"
+msgstr "?empty?"
+
+msgid "modes/development/progression/infinite/mainProgressionFinished"
+msgstr "?empty?"
+
+msgid "modes/development/progression/questsList/quest/infinityStageProgress"
+msgstr "Dev 盡可能獲取越多的獎勵："
+
+msgid "modes/development/progression/questsList/totalPointsEarned"
+msgstr "獲得的 Dev 點數：{{progressionSteps}}"
+
+msgid "modes/development/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "?empty?"
+
+msgid "modes/development/progression/title"
+msgstr "?empty?"
+
+msgid "modes/development/progressionQuests/quest/completed"
+msgstr "已完成："
+
+msgid "modes/development/progressionQuests/quest/infinityProgress"
+msgstr "可重複"
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "完成："
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "戰敗："
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "勝利："
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/points"
+msgstr "點數："
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "已獲得："
+
+msgid "modes/development/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}}{{value}}"
+
+msgid "modes/development/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/development/progressionQuests/questSlot/allCompleted"
+msgstr "所有當前可用的任務已完成"
+
+msgid "modes/development/progressionQuests/questSlot/resettable"
+msgstr "任務將在進度開始時出現"
+
+msgid "modes/development/progressionQuests/tooltip/allCompleted"
+msgstr "您已完成所有當前可用的任務。更多任務將在下一次輪替時出現。"
+
+msgid "modes/development/progressionQuests/tooltip/expiresCurrent"
+msgstr "開放 {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/expiresInfinite"
+msgstr "開放 {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/newMissions"
+msgstr "新任務可用於 {{timeLeft}}"
+
+msgid "modes/development/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}}狀態"
+
+msgid "modes/development/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}}任務"
+
+msgid "modes/development/rewardsView/header"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/available/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/modeEnded/title"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime"
+msgstr "?empty?"
+
+msgid "modes/development/scheduler/notification/primeTime/title"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/description"
+msgstr "?empty?"
+
+msgid "modes/development/tierList/title"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/body"
+msgstr "?empty?"
+
+msgid "modes/development/tooltip/filter/header"
+msgstr "?empty?"
+
+msgid "modes/development/userName"
+msgstr "?empty?"
+
+msgid "modes/fall_tanks/banner/progression/finish"
+msgstr "所有階段已完成"
+
+msgid "modes/fall_tanks/banner/progression/resettable"
+msgstr "進度更新"
+
+msgid "modes/fall_tanks/capsUserName"
+msgstr "霓虹競速"
+
+msgid "modes/fall_tanks/detailedUserName"
+msgstr "%(modeName)s"
+
+msgid "modes/fall_tanks/entryPoint/inProgress/description"
+msgstr "終點等著您！"
+
+msgid "modes/fall_tanks/entryPoint/intro/description"
+msgstr "準備來競速了嗎？"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/description"
+msgstr "「霓虹競速」為獨特且限時開放的活動，帶給您與眾不同的內容！在險惡的賽道上競速與戰鬥，完成任務並獲得獎勵。"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/description"
+msgstr "此模式需要較高的電腦效能。您可能遇到地圖載入、圖形運算，以及車輛移動的相關問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/highRisk/header"
+msgstr "效能可能會降低"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "此模式需要較高的電腦效能。您可能遇到地圖載入、圖形運算，以及車輛移動的相關問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
+
+msgid "modes/fall_tanks/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "效能可能會降低"
+
+msgid "modes/fall_tanks/lootbox/fep_epic"
+msgstr "史詩隨機獎勵"
+
+msgid "modes/fall_tanks/lootbox/fep_legendary"
+msgstr "傳奇隨機獎勵"
+
+msgid "modes/fall_tanks/lootbox/fep_ordinary"
+msgstr "普通隨機獎勵"
+
+msgid "modes/fall_tanks/lootbox/fep_rare"
+msgstr "稀有隨機獎勵"
+
+msgid "modes/fall_tanks/lootbox/fep_unusual"
+msgstr "罕見隨機獎勵"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/header/active"
+msgstr "霓虹競速任務 — 階段：%(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/reward/tip"
+msgstr "計入您在任何「霓虹競速」競賽中的進度。"
+
+msgid "modes/fall_tanks/metaProgressionTooltip/subheader"
+msgstr "霓虹競速任務"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/info"
+msgstr "計入您在任何遊戲廳子模式中的進度。"
+
+msgid "modes/fall_tanks/modeSubSelector/progression/timer"
+msgstr "後開放新的遊戲廳任務"
+
+msgid "modes/fall_tanks/mode_selector/battleCondition"
+msgstr "15–30"
+
+msgid "modes/fall_tanks/mode_selector/description"
+msgstr "在這個各自為戰的競速模式中全力奮戰並直奔終點。"
+
+msgid "modes/fall_tanks/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} 所有階級"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/description"
+msgstr "若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的電腦效能。激烈戰鬥期間，每秒幀率可能降低。"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/header"
+msgstr "建議使用最高的畫質設定"
+
+msgid "modes/fall_tanks/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) 建議使用最高的畫質設定"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/description"
+msgstr "若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的電腦效能。激烈戰鬥期間，每秒幀率可能降低。"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/header"
+msgstr "建議使用最高的畫質設定"
+
+msgid "modes/fall_tanks/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) 建議使用最高的畫質設定"
+
+msgid "modes/fall_tanks/mode_selector/progression/resettable"
+msgstr "新的霓虹競速任務開放於："
+
+msgid "modes/fall_tanks/notification/finishSubModes/withProgression"
+msgstr "「%(subModeName)s」子模式已結束。進度已重置。"
+
+msgid "modes/fall_tanks/notification/finishSubModes/withoutProgression"
+msgstr "「%(subModeName)s」子模式已結束。"
+
+msgid "modes/fall_tanks/notification/newSubModes/withProgression"
+msgstr "全新獎勵與「%(subModeName)s」子模式已開放。"
+
+msgid "modes/fall_tanks/notification/newSubModes/withoutProgression"
+msgstr "已開放新的子模式：%(subModeName)s。"
+
+msgid "modes/fall_tanks/notification/switchOffSubModes"
+msgstr "「%(subModeName)s」子模式因維護中而無法進行。"
+
+msgid "modes/fall_tanks/notification/switchOnSubModes"
+msgstr "「%(subModeName)s」子模式已可再次進行。"
+
+msgid "modes/fall_tanks/progression/cardsFan/listOfRandomRewards"
+msgstr "獎勵清單"
+
+msgid "modes/fall_tanks/progression/complete/congratulations"
+msgstr "恭喜!"
+
+msgid "modes/fall_tanks/progression/complete/title"
+msgstr "您已完成進度"
+
+msgid "modes/fall_tanks/progression/infinite/congratulations"
+msgstr "恭喜!"
+
+msgid "modes/fall_tanks/progression/infinite/infinityStep"
+msgstr "可無限次完成的進度後系統"
+
+msgid "modes/fall_tanks/progression/infinite/mainProgressionFinished"
+msgstr "您已完成主要進度"
+
+msgid "modes/fall_tanks/progression/questsList/quest/infinityStageProgress"
+msgstr "此階段可重複完成，次數不限。"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarned"
+msgstr "獲得的點數：{{progressionSteps}}"
+
+msgid "modes/fall_tanks/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "獲得的點數："
+
+msgid "modes/fall_tanks/progression/title"
+msgstr "霓虹競速任務"
+
+msgid "modes/fall_tanks/progressionQuests/quest/completed"
+msgstr "已完成："
+
+msgid "modes/fall_tanks/progressionQuests/quest/infinityProgress"
+msgstr "可重複"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "完成："
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "戰敗："
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "勝利："
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/points"
+msgstr "點數："
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "已獲得："
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}}{{value}}"
+
+msgid "modes/fall_tanks/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/allCompleted"
+msgstr "所有當前可用的任務已完成"
+
+msgid "modes/fall_tanks/progressionQuests/questSlot/resettable"
+msgstr "任務將在進度開始時出現"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/allCompleted"
+msgstr "您已完成所有當前可用的任務。更多任務將在下一次輪替時出現。"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresCurrent"
+msgstr "開放 {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/expiresInfinite"
+msgstr "開放 {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/newMissions"
+msgstr "新任務可用於 {{timeLeft}}"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}}狀態"
+
+msgid "modes/fall_tanks/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}}任務"
+
+msgid "modes/fall_tanks/rewardsView/header"
+msgstr "已獲得傳奇獎勵"
+
+msgid "modes/fall_tanks/scheduler/notification/available"
+msgstr "%(subModeName)s已可再次進行。"
+
+msgid "modes/fall_tanks/scheduler/notification/available/title"
+msgstr "維修站"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded"
+msgstr "%(subModeName)s已結束。"
+
+msgid "modes/fall_tanks/scheduler/notification/modeEnded/title"
+msgstr "維修站"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime"
+msgstr "該進維修站囉！「%(subModeName)s」競賽暫時無法進行。"
+
+msgid "modes/fall_tanks/scheduler/notification/primeTime/title"
+msgstr "維修站"
+
+msgid "modes/fall_tanks/tierList/description"
+msgstr "每個隨機獎勵均為來自下方清單的一項物品，有特定的獲取機率。"
+
+msgid "modes/fall_tanks/tierList/title"
+msgstr "裡頭有什麼呢？"
+
+msgid "modes/fall_tanks/tooltip/filter/body"
+msgstr "所有車輛均可用於霓虹競速。"
+
+msgid "modes/fall_tanks/tooltip/filter/header"
+msgstr "霓虹競速車輛"
+
+msgid "modes/fall_tanks/userName"
+msgstr "霓虹競速"
+
+msgid "modes/undefined/banner/progression/finish"
+msgstr "所有階段已完成"
+
+msgid "modes/undefined/banner/progression/resettable"
+msgstr "進度更新"
+
+msgid "modes/undefined/capsUserName"
+msgstr "遊戲廳"
+
+msgid "modes/undefined/detailedUserName"
+msgstr "%(modeName)s：%(subModeName)s"
+
+msgid "modes/undefined/entryPoint/inProgress/description"
+msgstr "進入戰鬥！"
+
+msgid "modes/undefined/entryPoint/intro/description"
+msgstr "加入激戰！"
+
+msgid "modes/undefined/entryPoint/tooltip/description"
+msgstr "遊戲廳活動獨具特色、限時開放，為您帶來與眾不同的內容！在規則截然不同的模式進行戰鬥，完成任務，獲得稀有獎勵。"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/description"
+msgstr "這個模式需要較高的電腦效能。您可能遇到地圖載入、畫質及車輛移動的問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/highRisk/header"
+msgstr "效能可能會降低"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/description"
+msgstr "這個模式需要較高的電腦效能。您可能遇到地圖載入、畫質及車輛移動的問題。在效能不足的情況下，可試著降低設定中的畫面品質。"
+
+msgid "modes/undefined/entryPoint/tooltip/performance/mediumRisk/header"
+msgstr "效能可能會降低"
+
+msgid "modes/undefined/lootbox/fep_epic"
+msgstr "史詩隨機獎勵"
+
+msgid "modes/undefined/lootbox/fep_legendary"
+msgstr "傳奇隨機獎勵"
+
+msgid "modes/undefined/lootbox/fep_ordinary"
+msgstr "普通隨機獎勵"
+
+msgid "modes/undefined/lootbox/fep_rare"
+msgstr "稀有隨機獎勵"
+
+msgid "modes/undefined/lootbox/fep_unusual"
+msgstr "罕見隨機獎勵"
+
+msgid "modes/undefined/metaProgressionTooltip/header/active"
+msgstr "遊戲廳任務 — 階段：%(done)s{par_Open}/%(total)s{par_Close}"
+
+msgid "modes/undefined/metaProgressionTooltip/reward/tip"
+msgstr "計入您在任何遊戲廳子模式中的進度。"
+
+msgid "modes/undefined/metaProgressionTooltip/subheader"
+msgstr "遊戲廳任務"
+
+msgid "modes/undefined/modeSubSelector/progression/info"
+msgstr "計入您在任何遊戲廳子模式中的進度。"
+
+msgid "modes/undefined/modeSubSelector/progression/timer"
+msgstr "後開放新的遊戲廳任務"
+
+msgid "modes/undefined/mode_selector/battleCondition"
+msgstr "15v15"
+
+msgid "modes/undefined/mode_selector/description"
+msgstr "採用非標準規則的實驗性戰鬥。"
+
+msgid "modes/undefined/mode_selector/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s&nbsp;階"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/description"
+msgstr "若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的電腦效能。激烈戰鬥期間，每秒幀率可能降低。"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/header"
+msgstr "建議使用最高的畫質設定"
+
+msgid "modes/undefined/mode_selector/performance/highRisk/headerIcon"
+msgstr "%(icon) 建議使用最高的畫質設定"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/description"
+msgstr "若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的電腦效能。激烈戰鬥期間，每秒幀率可能降低。"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/header"
+msgstr "建議使用最高的畫質設定"
+
+msgid "modes/undefined/mode_selector/performance/mediumRisk/headerIcon"
+msgstr "%(icon) 建議使用最高的畫質設定"
+
+msgid "modes/undefined/mode_selector/progression/resettable"
+msgstr "新的遊戲廳任務開放於："
+
+msgid "modes/undefined/notification/finishSubModes/withProgression"
+msgstr "「%(subModeName)s」子模式已結束。進度已重置。"
+
+msgid "modes/undefined/notification/finishSubModes/withoutProgression"
+msgstr "「%(subModeName)s」子模式已結束。"
+
+msgid "modes/undefined/notification/newSubModes/withProgression"
+msgstr "已開放全新獎勵與「%(subModeName)s」子模式。"
+
+msgid "modes/undefined/notification/newSubModes/withoutProgression"
+msgstr "已開放新的子模式：%(subModeName)s。"
+
+msgid "modes/undefined/notification/switchOffSubModes"
+msgstr "「%(subModeName)s」子模式因維護中而無法進行。"
+
+msgid "modes/undefined/notification/switchOnSubModes"
+msgstr "%(subModeName)s已可再次進行。"
+
+msgid "modes/undefined/progression/cardsFan/listOfRandomRewards"
+msgstr "獎勵清單"
+
+msgid "modes/undefined/progression/complete/congratulations"
+msgstr "恭喜！"
+
+msgid "modes/undefined/progression/complete/title"
+msgstr "您已完成進度"
+
+msgid "modes/undefined/progression/infinite/congratulations"
+msgstr "恭喜!"
+
+msgid "modes/undefined/progression/infinite/infinityStep"
+msgstr "可重複完成的階段"
+
+msgid "modes/undefined/progression/infinite/mainProgressionFinished"
+msgstr "您已完成主要進度"
+
+msgid "modes/undefined/progression/questsList/quest/infinityStageProgress"
+msgstr "盡可能獲取越多的獎勵："
+
+msgid "modes/undefined/progression/questsList/totalPointsEarned"
+msgstr "獲得的點數：{{progressionSteps}}"
+
+msgid "modes/undefined/progression/questsList/totalPointsEarnedStandAloneTitle"
+msgstr "獲得的點數："
+
+msgid "modes/undefined/progression/title"
+msgstr "遊戲廳任務"
+
+msgid "modes/undefined/progressionQuests/quest/completed"
+msgstr "已完成："
+
+msgid "modes/undefined/progressionQuests/quest/infinityProgress"
+msgstr "可重複"
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forCompletion"
+msgstr "完成："
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forLoss"
+msgstr "戰敗："
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/forWin"
+msgstr "勝利："
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/points"
+msgstr "點數："
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/pointsEarned"
+msgstr "已獲得："
+
+msgid "modes/undefined/progressionQuests/quest/progressChangeLabel/template"
+msgstr "{{reason}}{{value}}"
+
+msgid "modes/undefined/progressionQuests/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "modes/undefined/progressionQuests/questSlot/allCompleted"
+msgstr "所有當前可用的任務已完成"
+
+msgid "modes/undefined/progressionQuests/questSlot/resettable"
+msgstr "任務將在進度開始時出現"
+
+msgid "modes/undefined/progressionQuests/tooltip/allCompleted"
+msgstr "您已完成所有當前可用的任務。更多任務將在下一次輪替時出現。"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresCurrent"
+msgstr "開放 {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/expiresInfinite"
+msgstr "開放 {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/newMissions"
+msgstr "新任務可用於 {{timeLeft}}"
+
+msgid "modes/undefined/progressionQuests/tooltip/noQuestsTitle"
+msgstr "{{eventName}}狀態"
+
+msgid "modes/undefined/progressionQuests/tooltip/questTitle"
+msgstr "{{eventName}}任務"
+
+msgid "modes/undefined/rewardsView/header"
+msgstr "已獲得傳奇獎勵"
+
+msgid "modes/undefined/scheduler/notification/available"
+msgstr "%(subModeName)s戰鬥已可再次進行。"
+
+msgid "modes/undefined/scheduler/notification/available/title"
+msgstr "休戰期"
+
+msgid "modes/undefined/scheduler/notification/modeEnded"
+msgstr "「%(subModeName)s」戰鬥已結束"
+
+msgid "modes/undefined/scheduler/notification/modeEnded/title"
+msgstr "休戰期"
+
+msgid "modes/undefined/scheduler/notification/primeTime"
+msgstr "已實施休戰。%(subModeName)s戰鬥暫時無法進行。"
+
+msgid "modes/undefined/scheduler/notification/primeTime/title"
+msgstr "休戰期"
+
+msgid "modes/undefined/tierList/description"
+msgstr "每個隨機獎勵均為來自下方清單的一項物品，有特定的獲取機率。"
+
+msgid "modes/undefined/tierList/title"
+msgstr "裡頭有什麼呢？"
+
+msgid "modes/undefined/tooltip/filter/body"
+msgstr "顯示/隱藏適合遊戲廳模式的車輛。"
+
+msgid "modes/undefined/tooltip/filter/header"
+msgstr "遊戲廳車輛"
+
+msgid "modes/undefined/userName"
+msgstr "遊戲廳"
+
+msgid "notification/congratulation"
+msgstr "恭喜！"
+
+msgid "notification/finishSubModes"
+msgstr "「%(modeName)s」活動已結束。"
+
+msgid "notification/finishSubModes/withProgression"
+msgstr "「%(subModesNames)s」子模式已結束。進度已重置。"
+
+msgid "notification/finishSubModes/withoutProgression"
+msgstr "「%(subModesNames)s」子模式已結束。"
+
+msgid "notification/lootboxAutoOpen/rewardText"
+msgstr "隨機獎勵"
+
+msgid "notification/newProgression"
+msgstr "已重置活動進度 — 您可再次獲得獎勵！"
+
+msgid "notification/newSubModes/withProgression"
+msgstr "已重置活動進度。已開放新的子模式：%(subModesNames)s。"
+
+msgid "notification/newSubModes/withoutProgression"
+msgstr "已開放新的子模式：%(subModesNames)s。"
+
+msgid "notification/progressionComplete"
+msgstr "您已完成所有可進行的「%(modeName)s」任務。已獲得獎勵："
+
+msgid "notification/progressionComplete/infiniteStarted"
+msgstr "您已完成所有可進行的「%(modeName)s」任務。可重複完成的階段已開放。已獲得獎勵："
+
+msgid "notification/progressionComplete/resetLessDay"
+msgstr "進度將在 1 天內重置。重置後，您將可再次完成任務。"
+
+msgid "notification/progressionComplete/resetTimeLeft"
+msgstr "進度將在 %(days)d 天內重置。重置後，您將可再次完成任務。"
+
+msgid "notification/progressionStageComplete"
+msgstr "您已完成「%(modeName)s」的階段：%(stage)s。已獲得獎勵："
+
+msgid "notification/subModesSeparator"
+msgstr "、"
+
+msgid "notification/switchOffSubModes"
+msgstr "「%(subModesNames)s」子模式因維護中而無法進行。"
+
+msgid "notification/switchOnSubModes"
+msgstr "「%(subModesNames)s」已可再次進行。"
+
+msgid "platoonView/title"
+msgstr "裝甲排：%(subModeName)s"
+
+msgid "primeTimes/availableServer"
+msgstr "可用伺服器：%(server)s。"
+
+msgid "primeTimes/availableServers"
+msgstr "可用伺服器："
+
+msgid "primeTimes/serverTooltip/allNotAvailable"
+msgstr "伺服器 %(serverName)s\n戰鬥將於 %(primeDelta)s後可進行"
+
+msgid "primeTimes/serverTooltip/allNotAvailableEnd"
+msgstr "%(serverName)s 伺服器\n「%(leftDetailedSeasonName)s」戰鬥已結束。"
+
+msgid "primeTimes/serverTooltip/available"
+msgstr "伺服器 %(serverName)s\n戰鬥將再持續 %(primeDelta)s"
+
+msgid "primeTimes/serverTooltip/notAvailable"
+msgstr "伺服器 %(serverName)s\n戰鬥將於 %(primeDelta)s後可進行"
+
+msgid "primeTimes/serverTooltip/notAvailableEnd"
+msgstr "%(serverName)s 伺服器\n「%(leftDetailedSeasonName)s」戰鬥已結束。"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailable"
+msgstr "伺服器 %(serverName)s\n戰鬥將於 %(primeDelta)s後可進行"
+
+msgid "primeTimes/serverTooltip/standaloneNotAvailableEnd"
+msgstr "%(serverName)s 伺服器\n「%(leftDetailedSeasonName)s」戰鬥已結束。"
+
+msgid "primeTimes/serverTooltip/timeLeft/days"
+msgstr "%(day)s 天"
+
+msgid "primeTimes/serverTooltip/timeLeft/hours"
+msgstr "%(hour)s 小時 %(min)s 分鐘"
+
+msgid "primeTimes/serverTooltip/timeLeft/lessMin"
+msgstr "<1 分鐘"
+
+msgid "primeTimes/serverTooltip/timeLeft/min"
+msgstr "%(min)s 分鐘"
+
+msgid "primeTimes/serverTooltip/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/statusText/allNotAvailable"
+msgstr "所有伺服器都已實施休戰。\n戰鬥將於 %(primeDelta)s後可進行"
+
+msgid "primeTimes/statusText/allNotAvailableEnd"
+msgstr "「%(leftDetailedSeasonName)s」戰鬥已結束"
+
+msgid "primeTimes/statusText/allNotSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "%(serverName)s 伺服器已實施休戰，直到 %(primeDeltaDate)s%(primeDeltaTime)s"
+
+msgid "primeTimes/statusText/notAvailableEnd"
+msgstr "%(serverName)s 伺服器已實施休戰"
+
+msgid "primeTimes/statusText/notSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "primeTimes/statusText/standaloneNotAvailable"
+msgstr "%(serverName)s 伺服器已實施休戰。\n戰鬥將於 %(primeDelta)s後可進行"
+
+msgid "primeTimes/statusText/standaloneNotAvailableEnd"
+msgstr "「%(leftDetailedSeasonName)s」戰鬥已結束"
+
+msgid "primeTimes/statusText/standaloneNotSet"
+msgstr "此模式不適用於 %(serverName)s 伺服器"
+
+msgid "primeTimes/statusText/undefined"
+msgstr "?empty?"
+
+msgid "primeTimes/timeText/allNotAvailable"
+msgstr "%(serverName)s 伺服器上的戰鬥將開始於 %(primeDelta)s"
+
+msgid "primeTimes/timeText/allNotAvailableEnd"
+msgstr "%(serverName)s 伺服器上的「%(leftDetailedSeasonName)s」戰鬥已結束。"
+
+msgid "primeTimes/timeText/available"
+msgstr "%(serverName)s 伺服器上的戰鬥將再持續 %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailable"
+msgstr "%(serverName)s 伺服器上的戰鬥將開始於 %(primeDelta)s"
+
+msgid "primeTimes/timeText/notAvailableEnd"
+msgstr "%(serverName)s 伺服器上的「%(leftDetailedSeasonName)s」戰鬥已結束。"
+
+msgid "primeTimes/timeText/standaloneNotAvailable"
+msgstr "%(serverName)s 伺服器上的戰鬥將開始於 %(primeDelta)s"
+
+msgid "primeTimes/timeText/standaloneNotAvailableEnd"
+msgstr "%(serverName)s 伺服器上的「%(leftDetailedSeasonName)s」戰鬥已結束。"
+
+msgid "primeTimes/timeText/undefined"
+msgstr "?empty?"
+
+msgid "progression/cards/points"
+msgstr "點數"
+
+msgid "progression/complete/affirmative"
+msgstr "了解！"
+
+msgid "progression/defaultCondition/text"
+msgstr "獲得點數並挺進進度。"
+
+msgid "progression/infinite/pointsEarned"
+msgstr "獲得的點數："
+
+msgid "progression/questsList/battlesFinishedTitle"
+msgstr "活躍階段已結束。戰鬥已結束"
+
+msgid "progression/questsList/quest/completed"
+msgstr "已完成："
+
+msgid "progression/questsList/quest/infinityProgress"
+msgstr "可重複"
+
+msgid "progression/questsList/quest/pointsPlus"
+msgstr "+%(pointsCount)s"
+
+msgid "progression/questsList/quest/progressChangeLabel/forCompletion"
+msgstr "完成："
+
+msgid "progression/questsList/quest/progressChangeLabel/forLoss"
+msgstr "戰敗："
+
+msgid "progression/questsList/quest/progressChangeLabel/forWin"
+msgstr "勝利："
+
+msgid "progression/questsList/quest/progressChangeLabel/pointsEarned"
+msgstr "已獲得："
+
+msgid "progression/questsList/quest/progressChangeLabel/template"
+msgstr "{{reason}} {{value}}"
+
+msgid "progression/questsList/quest/progressTitle"
+msgstr "{{completed}} {{currentPoints}} {{delimeter}} {{totalPoints}}"
+
+msgid "progression/questsList/questsFinishTimerOnelineTitle"
+msgstr "活躍階段結束於：{{time}}"
+
+msgid "progression/questsList/questsFinishTimerTitle"
+msgstr "活躍階段結束於："
+
+msgid "progression/questsList/questsRenewTimerTitle"
+msgstr "下一次開放於："
+
+msgid "progression/steps"
+msgstr "{{done}} {{delimeter}} {{total}}"
+
+msgid "progression/stepsCurrent"
+msgstr "{yellow_Open}%(done)s{yellow_Close} / %(total)s"
+
+msgid "progression/stepsNoProgress"
+msgstr "{bond_Open}%(done)s{bond_Close} / %(total)s"
+
+msgid "quests/limitedProgression/awards/nearest/header"
+msgstr "下一個階段獎勵 — 達到 %(count)d 點時解鎖"
+
+msgid "rewardsView/additionalRewards/title"
+msgstr "您還獲得了："
+
+msgid "rewardsView/footer/acceptButton"
+msgstr "了解！"
+
+msgid "rewardsView/subheader"
+msgstr "%(subModeName)s"
+
+msgid "scheduler/notification/squadModeSwitch"
+msgstr "裝甲排指揮官已切換到%(subModeName)s子模式。"
+
+msgid "scheduler/notification/squadModeSwitch/title"
+msgstr "子模式切換"
+
+msgid "sub_modes/development/capsUserName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelp/page2/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/development/detailsHelpTitle"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s&nbsp;階"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/description"
+msgstr "Dev High risks description."
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/header"
+msgstr "Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) Dev Low Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/description"
+msgstr "Dev Medium risks description."
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/header"
+msgstr "Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Dev Reduced Performance"
+
+msgid "sub_modes/development/subModeCard/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/development/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName"
+msgstr "?empty?"
+
+msgid "sub_modes/development/userName/quoted"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/capsUserName"
+msgstr "霓虹競速"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/description"
+msgstr "全力朝終點衝刺並阻止其他玩家到達。使用「衝刺」與「護盾」能力來帶給對手更多麻煩！"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page1/title"
+msgstr "小心：移動平台"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/description"
+msgstr "閃避雷射並謹慎抓準跳躍時機，更要加速衝向終點！"
+
+msgid "sub_modes/fall_tanks/detailsHelp/page2/title"
+msgstr "小心：雷射與跳躍"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/description"
+msgstr "以深入了解此模式"
+
+msgid "sub_modes/fall_tanks/detailsHelpHint/press"
+msgstr "按下"
+
+msgid "sub_modes/fall_tanks/detailsHelpTitle"
+msgstr "霓虹競速"
+
+msgid "sub_modes/fall_tanks/subModeCard/battleCondition"
+msgstr "15–30"
+
+msgid "sub_modes/fall_tanks/subModeCard/description"
+msgstr "全力奮戰\n並直奔終點"
+
+msgid "sub_modes/fall_tanks/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} 所有階級"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/description"
+msgstr "若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的效能，激烈戰鬥期間，每秒幀率可能降低。"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/header"
+msgstr "建議使用最高的畫質設定"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) 建議使用最高的畫質設定"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/description"
+msgstr "若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的電腦效能。激烈戰鬥期間，您的每秒幀率可能降低。"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/header"
+msgstr "建議使用最高的畫質設定"
+
+msgid "sub_modes/fall_tanks/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) 建議使用最高的畫質設定"
+
+msgid "sub_modes/fall_tanks/subModeCard/title"
+msgstr "霓虹競速"
+
+msgid "sub_modes/fall_tanks/tips/tip1/description"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/tips/tip1/title"
+msgstr "?empty?"
+
+msgid "sub_modes/fall_tanks/userName"
+msgstr "霓虹競速"
+
+msgid "sub_modes/fall_tanks/userName/quoted"
+msgstr "霓虹競速"
+
+msgid "sub_modes/undefined/capsUserName"
+msgstr "UNKNOWN SUB MODE NAME"
+
+msgid "sub_modes/undefined/detailsHelp/page1/description"
+msgstr "Unknown sub mode F1 description text"
+
+msgid "sub_modes/undefined/detailsHelp/page1/title"
+msgstr "Unknown sub mode F1 screen title"
+
+msgid "sub_modes/undefined/detailsHelpHint/description"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpHint/press"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/detailsHelpTitle"
+msgstr "Unknown sub mode F1 screen common title"
+
+msgid "sub_modes/undefined/subModeCard/battleCondition"
+msgstr "?empty?"
+
+msgid "sub_modes/undefined/subModeCard/description"
+msgstr "Unknown subModeCard description"
+
+msgid "sub_modes/undefined/subModeCard/levelCondition"
+msgstr "{parSecondary_open}I{parSecondary_close} %(levels)s&nbsp;階"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/description"
+msgstr "若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的電腦效能。激烈戰鬥期間，每秒幀率可能降低。"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/header"
+msgstr "建議使用最高的畫質設定"
+
+msgid "sub_modes/undefined/subModeCard/performance/highRisk/headerIcon"
+msgstr "%(icon) 建議使用最高的畫質設定"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/description"
+msgstr "若畫質設定較低，可能發生視覺殘像與其他問題。我們建議選擇最高的畫質設定來獲取最佳的視覺體驗，前提是您的電腦滿足相關硬體需求條件。此模式需要較高的電腦效能。激烈戰鬥期間，每秒幀率可能降低。"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/header"
+msgstr "建議使用最高的畫質設定"
+
+msgid "sub_modes/undefined/subModeCard/performance/mediumRisk/headerIcon"
+msgstr "%(icon) 建議使用最高的畫質設定"
+
+msgid "sub_modes/undefined/subModeCard/title"
+msgstr "Unknown subModeCard title"
+
+msgid "sub_modes/undefined/tips/tip1/description"
+msgstr "Unknown sub mode first tip description"
+
+msgid "sub_modes/undefined/tips/tip1/title"
+msgstr "Unknown sub mode first tip title"
+
+msgid "sub_modes/undefined/userName"
+msgstr "Unknown sub mode name"
+
+msgid "sub_modes/undefined/userName/quoted"
+msgstr "\"Unknown sub mode name\""
+
+msgid "widget/steps"
+msgstr "{cream_Open}%(current)s{cream_Close}/%(total)s"

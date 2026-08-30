@@ -1,0 +1,122 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "crewBooks/button/label"
+msgstr "เปิด"
+
+msgid "crewBooks/description"
+msgstr "ไปทำการศึกษาหนังสือพลรถถัง"
+
+msgid "crewBooks/error/locked"
+msgstr "ไม่สามารถดำเนินการได้"
+
+msgid "crewBooks/title"
+msgstr "หนังสือพลรถถัง ({count})"
+
+msgid "crewBooks/tutorial/crewOperations"
+msgstr "สามารถทำการศึกษา\nหนังสือพลรถถังได้แล้ว"
+
+msgid "crewBooks/tutorial/readBook"
+msgstr "ไปทำการศึกษา\nหนังสือพลรถถัง"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/body"
+msgstr "พลรถถังดังกล่าวยังอยู่ในการรบ"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/header"
+msgstr "ข้อผิดพลาด"
+
+msgid "crewOperations/btn/tooltip/body"
+msgstr "ส่งพลรถถังไปยังค่ายทหาร ฝึกใหม่ หรือคืนพลรถถังทั้งหมดไปยังยานเกราะทันที รวมไปถึงการใช้หนังสือพลรถถัง"
+
+msgid "crewOperations/btn/tooltip/header"
+msgstr "ปฏิบัติการของพลรถถัง"
+
+msgid "dropInBarrack/button/label"
+msgstr "ส่ง"
+
+msgid "dropInBarrack/description"
+msgstr "ส่งสมาชิกพลรถถังไปยังค่ายทหาร"
+
+msgid "dropInBarrack/error/noCrew"
+msgstr "ไม่มีพลรถถัง"
+
+msgid "dropInBarrack/title"
+msgstr "ส่งพลรถถังไปยังค่ายทหาร"
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/body"
+msgstr "ไม่สามารถส่งสมาชิกพลรถถังทั้งหมดไปยังค่ายทหารได้"
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/header"
+msgstr "ไม่สามารถดำเนินการได้"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/body"
+msgstr "พลรถถังในการรบ"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/header"
+msgstr "ข้อผิดพลาด"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/body"
+msgstr "มีเตียงในค่ายทหารไม่พอ"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/header"
+msgstr "ไม่มีปฏิบัติการให้"
+
+msgid "retrain/button/label"
+msgstr "ฝึกใหม่"
+
+msgid "retrain/description"
+msgstr "คืนพลรถถังทั้งหมดของยานเกราะนี้"
+
+msgid "retrain/error/alreadyRetrained"
+msgstr "พลรถถังได้รับการฝึกแล้ว"
+
+msgid "retrain/error/locked"
+msgstr "ไม่มีปฏิบัติการให้"
+
+msgid "retrain/error/noCrew"
+msgstr "ไม่มีพลรถถัง"
+
+msgid "retrain/title"
+msgstr "การฝึกใหม่พลรถถัง"
+
+msgid "return/button/label"
+msgstr "กลับ"
+
+msgid "return/description"
+msgstr "คืนพลรถถังที่เข้ารบด้วยยานเกราะรุ่นนี้ในการรบครั้งก่อน"
+
+msgid "return/error/allDemobilized"
+msgstr "พลรถถังทั้งหมดถูกปลดแล้ว"
+
+msgid "return/error/alreadyOnPlaces"
+msgstr "พลรถถังอยู่ในยานเกราะแล้ว"
+
+msgid "return/error/noPrevious"
+msgstr "ออกรบอย่างน้อยหนึ่งครั้ง\nด้วยยานเกราะนี้"
+
+msgid "return/error/vehicleInBattle"
+msgstr "พาหนะคันนี้อยู่ในการรบ"
+
+msgid "return/title"
+msgstr "คืนพลรถถังไปยังยานเกราะ"
+
+msgid "return/toggle/description"
+msgstr "ทำการส่งคืนพลรถถังที่ออกรบด้วยพาหนะคันนี้ในการรบครั้งก่อนโดยอัตโนมัติ"
+
+msgid "return/toggle/label"
+msgstr "คืนกลับอัตโนมัติ"
+
+msgid "return/warning/memberDemobilized/tooltip/body"
+msgstr "สมาชิกบางคนของพลรถถังก่อนหน้าถูกปลดเกษียณและไม่สามารถคืนกลับมาพาหนะดังกล่าวได้ คุณสามารถกู้คืนพวกเขาในค่ายทหารก่อนที่เวลาจะหมดไป ไม่เช่นนั้น พวกเขาจะถูกลบจากบัญชีของคุณเป็นการถาวร"
+
+msgid "return/warning/memberDemobilized/tooltip/header"
+msgstr "เตือน"
+
+msgid "return/warning/membersInBattle/tooltip/body"
+msgstr "สมาชิกพลรถถังเดิมบางคนยังอยู่ในการรบ"
+
+msgid "return/warning/membersInBattle/tooltip/header"
+msgstr "ข้อผิดพลาด"
+
+msgid "window/title"
+msgstr "ปฏิบัติการของพลรถถัง"

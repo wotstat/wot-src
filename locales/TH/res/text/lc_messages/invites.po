@@ -1,0 +1,452 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/application/comment"
+msgstr "%(linkStartTag)sดู%(linkEndTag)s รายละเอียดผู้เล่น"
+
+msgid "clan/application/title"
+msgstr "%(titleStartTag)sใบสมัครเข้ากองทัพ%(titleEndTag)s\nจาก %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/applications/buttons/details"
+msgstr "ดูใบสมัคร"
+
+msgid "clan/applications/comment"
+msgstr "%(linkStartTag)sปิด%(linkEndTag)s การแจ้งเตือน"
+
+msgid "clan/applications/title"
+msgstr "%(titleStartTag)sใบสมัครจากผู้เล่น: %(appsCount)s %(titleEndTag)s"
+
+msgid "clan/invite/comment"
+msgstr "%(linkStartTag)sดู%(linkEndTag)s รายละเอียดกองทัพ"
+
+msgid "clan/invite/title"
+msgstr "%(titleStartTag)sคำเชิญเข้ากองทัพ%(titleEndTag)s\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clan/personal/invites/buttons/details"
+msgstr "ดูคำเชิญ"
+
+msgid "clan/personal/invites/title"
+msgstr "%(titleStartTag)sคำเชิญกองทัพ: %(appsCount)s %(titleEndTag)s"
+
+msgid "clans/state/app/accepted"
+msgstr "ผู้เล่นถูกรับเข้ากองทัพแล้ว"
+
+msgid "clans/state/app/declined"
+msgstr "ใบสมัครถูกปฏิเสธ"
+
+msgid "clans/state/app/error/inClanEnterCooldown"
+msgstr "การลงโทษผู้เล่นหนึ่งวันจากการออกจากกองทัพก่อนหน้ายังไม่ได้หมดลง"
+
+msgid "clans/state/invite/accepted"
+msgstr "คุณถูกรับเข้ากองทัพแล้ว"
+
+msgid "clans/state/invite/declined"
+msgstr "คำเชิญถูกปฏิเสธ"
+
+msgid "clans/state/invite/error/inClanEnterCooldown"
+msgstr "การลงโทษหนึ่งวันจากการออกกองทัพก่อนของคุณยังไม่ได้หมดลง"
+
+msgid "errors/creationNotAllowed"
+msgstr "คำอนุญาตไม่พอที่จะสร้างคำเชิญ"
+
+msgid "errors/invalid"
+msgstr "คำเชิญไม่ถูกต้อง"
+
+msgid "errors/inviteNotSupported"
+msgstr "คำเชิญชนิดนี้ยังไม่สามารถใช้งานได้ โปรดลองใหม่อีกครั้ง"
+
+msgid "errors/receiverIgnoreSender"
+msgstr "ผู้รับคำเชิญตั้งคุณไว้ในรายชื่อกีดกัน"
+
+msgid "errors/selfinvite"
+msgstr "คุณไม่สามารถเชิญตัวคุณเองได้"
+
+msgid "errors/unknownuser"
+msgstr "ผู้ใช้คนนี้ยังไม่ได้ลงทะเบียนในระบบ"
+
+msgid "errors/useroffline"
+msgstr "ผู้ใช้ไม่ได้เข้ามาใช้งาน"
+
+msgid "errors/vehicleBrokenOrLocked"
+msgstr "พาหนะในโรงรถนั้นเสียหายหรือถูกล๊อคเอาไว้ เลือกพาหนะคันอื่น"
+
+msgid "friendship/note/approved"
+msgstr "ผู้เล่นถูกเพิ่มเข้ารายชื่อเพื่อนแล้ว"
+
+msgid "friendship/note/canceled"
+msgstr "คำขอถูกปฏิเสธ"
+
+msgid "friendship/note/maxRoster"
+msgstr "จำนวนรายชื่อติดต่อสูงสุดในรายการ: %(rosterMaxCount)s ในการเพิ่มผู้เล่นคนนี้เข้ารายชื่อเพื่อน ให้ลบบางคนออกไปก่อน"
+
+msgid "friendship/note/notConnected"
+msgstr "ไม่สามารถเชื่อมกับเซิร์ฟเวอร์ได้ โปรดรอ"
+
+msgid "friendship/note/process"
+msgstr "กำลังรอการตอบของเซิร์ฟเวอร์"
+
+msgid "friendship/request/text"
+msgstr "%(titleStartTag)sคำขอเป็นเพื่อน%(titleEndTag)s\nจาก %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "gui/buttons/accept"
+msgstr "ยอมรับ"
+
+msgid "gui/buttons/cancel"
+msgstr "ยกเลิก"
+
+msgid "gui/buttons/reject"
+msgstr "ปฏิเสธ"
+
+msgid "gui/buttons/send"
+msgstr "ส่ง"
+
+msgid "gui/labels/additionalText"
+msgstr "ข้อความคำเชิญเพิ่มเติม:"
+
+msgid "gui/labels/inviteText"
+msgstr "ข้อความคำเชิญ:"
+
+msgid "gui/labels/receiver"
+msgstr "ผู้รับ:"
+
+msgid "gui/titles/barter"
+msgstr "คำเชิญการค้า"
+
+msgid "gui/titles/clan"
+msgstr "คำเชิญเข้ากองทัพ"
+
+msgid "gui/titles/invite"
+msgstr "คำเชิญ"
+
+msgid "gui/titles/receivedInvites"
+msgstr "คำเชิญ"
+
+msgid "invites/comment"
+msgstr "\"%(comment)s\""
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหน่วยยุทธวิธีโดยอัตโนมัติและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหน่วยยุทธวิธีโดยอัตโนมัติและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_CLAN"
+msgstr "ทันทีที่คุณรับคำเชิญ คุณจะถูกปลดออกจากการรบบนแผนที่โลกและถูกโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหน่วยยุทธวิธีโดยอัตโนมัติและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_COMP7_LIGHT"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหน่วยยุทธวิธีโดยอัตโนมัติและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหน่วยยุทธวิธีโดยอัตโนมัติและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_EPIC_TRAINING"
+msgstr "เมื่อคุณได้ตอบรับคำเชิญแล้ว คุณจะถูกปลดออกจากการฝึกทีมในรูปแบบแนวรบโดยอัตโนมัติและถูกโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_EVENT"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหน่วยยุทธวิธีโดยอัตโนมัติและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "ทันทีที่คุณได้รับคำเชิญ คุณจะถูกปลดออกจากทีมถูกโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_FALLOUT"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหมวดรถถังโดยอัตโนมัติและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_BATTLE"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจากฐานที่มั่น: การรบและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_FORT_COMMON"
+msgstr "เมื่อคุณตอบรับคำเชิญ คุณจะออกจากรูปแบบการรบรุกคืบและถูกโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_MAPBOX"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหมวดรถถังภารกิจลาดตระเวนโดยอัตโนมัติและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_RTS_TRAINING"
+msgstr "ทันทีที่คุณรับคำเชิญ คุณจะถูกปลดออกจากการฝึกทีมและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_SORTIE"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจากฐานที่มั่น: การรบและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_SQUAD"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหมวดรถถังโดยอัตโนมัติและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_STRONGHOLD"
+msgstr "เมื่อคุณตอบรับคำเชิญ คุณจะออกจากกองเฉพาะกิจและถูกโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_TOURNAMENT"
+msgstr "ถ้าคุณรับคำเชิญ คุณจะถูกปลดออกจากทัวร์นาเมนต์และถูกโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING"
+msgstr "ทันทีที่คุณรับคำเชิญ คุณจะถูกปลดออกจากการฝึกทีมและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_TRAINING_COMP7"
+msgstr "เมื่อคุณได้ตอบรับคำเชิญแล้ว คุณจะถูกปลดออกจากการฝึกทีมในรูปแบบการบุกรุกโดยอัตโนมัติและถูกโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/PREBATTLE_UNIT"
+msgstr "ทันทีที่คุณได้รับคำเชิญ คุณจะถูกปลดออกจากทีมถูกโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจากพรานเหล็กและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจากการล่าครั้งใหญ่และโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะออกจากรูปแบบการบุกรุกและถูกโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/QUEUE_COMP7_LIGHT"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะออกจากรูปแบบการบุกรุกรุ่นเบาและถูกโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/QUEUE_EPIC"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจากแนวรบและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/QUEUE_EVENT_BATTLES"
+msgstr "ทันทีที่คุณตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจาก+++การรบกิจกรรม+++และโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/QUEUE_MAPBOX"
+msgstr "ทันทีที่คุณตอบรับคำเชิญ คุณจะออกจากภารกิจลาดตระเวนและถูกโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/QUEUE_MAPS_TRAINING"
+msgstr "ทันทีที่คุณตอบรับคำเชิญ คุณจะออกจากภูมิประเทศและถูกโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/QUEUE_RANDOMS"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจากการรบแบบสุ่มและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave/QUEUE_RANKED"
+msgstr "ทันทีที่คุณตอบรับคำเชิญ คุณจะออกจากการรบจัดอันดับและถูกโอนไปยังเซิร์ฟเวอร์ %(host)s โดยอัตโนมัติ"
+
+msgid "invites/note/change_and_leave/QUEUE_WINBACK"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจากการอุ่นเครื่องและโอนไปยังเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/note/change_and_leave_permanently/QUEUE_WINBACK"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจากการอุ่นเครื่องและโอนไปยังเซิร์ฟเวอร์ %(host)s คุณจะไม่สามารถเริ่มมันได้อีกครั้ง"
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหน่วยยุทธวิธีโดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหน่วยยุทธวิธีโดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_CLAN"
+msgstr "ทันทีที่คุณรับคำเชิญ คุณจะถูกถอดจากการรบบนแผนที่โลกโดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_COMP7"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหน่วยยุทธวิธีโดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_COMP7_LIGHT"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหน่วยยุทธวิธีโดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_EPIC"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหน่วยยุทธวิธีโดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_EPIC_TRAINING"
+msgstr "ทันทีที่คุณตอบรับคำเชิญแล้ว คุณจะถูกปลดออกจากการฝึกทีมในรูปแบบแนวรบโดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_EVENT"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหน่วยยุทธวิธีโดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_E_SPORT_COMMON"
+msgstr "ทันทีที่คุณได้รับคำเชิญ คุณจะถูกปลดออกจากทีม"
+
+msgid "invites/note/leave/PREBATTLE_FALLOUT"
+msgstr "ทันทีที่คุณรับคำเชิญ คุณจะถูกถอดออกจากหมวดรถถังโดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_FORT_BATTLE"
+msgstr "ทันทีที่คุณรับคำเชิญ คุณจะออกจากฐานที่มั่น: การรบ"
+
+msgid "invites/note/leave/PREBATTLE_FORT_COMMON"
+msgstr "เมื่อคุณตอบรับคำเชิญแล้วคุณจะออกจากการรบรุกคืบ"
+
+msgid "invites/note/leave/PREBATTLE_MAPBOX"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกปลดจากหมวดรถถังภารกิจลาดตระเวนโดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_RTS_TRAINING"
+msgstr "ทันทีที่คุณรับคำเชิญ คุณจะถูกปลดออกจากการฝึกทีม"
+
+msgid "invites/note/leave/PREBATTLE_SORTIE"
+msgstr "ทันทีที่คุณรับคำเชิญ คุณจะออกจากฐานที่มั่น: การรบ"
+
+msgid "invites/note/leave/PREBATTLE_SQUAD"
+msgstr "ทันทีที่คุณรับคำเชิญ คุณจะถูกถอดออกจากหมวดรถถังโดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_STRONGHOLD"
+msgstr "เมื่อคุณตอบรับคำเชิญแล้วคุณจะออกจากกองเฉพาะกิจ"
+
+msgid "invites/note/leave/PREBATTLE_TOURNAMENT"
+msgstr "ทันทีที่คุณรับคำเชิญ คุณจะถูกปลดออกจากทัวร์นาเมนต์โดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_TRAINING"
+msgstr "ทันทีที่คุณรับคำเชิญ คุณจะถูกปลดออกจากการฝึกทีม"
+
+msgid "invites/note/leave/PREBATTLE_TRAINING_COMP7"
+msgstr "ทันทีที่คุณตอบรับคำเชิญแล้ว คุณจะถูกปลดออกจากการฝึกทีมในรูปแบบการบุกรุกโดยอัตโนมัติ"
+
+msgid "invites/note/leave/PREBATTLE_UNIT"
+msgstr "ทันทีที่คุณได้รับคำเชิญ คุณจะถูกปลดออกจากทีม"
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE"
+msgstr "ทันทีที่คุณรับคำเชิญ คุณจะออกจากพรานเหล็ก"
+
+msgid "invites/note/leave/QUEUE_BATTLE_ROYALE_TOURNAMENT"
+msgstr "ทันทีที่คุณตอบรับคำเชิญดังกล่าว คุณจะออกจากการล่าครั้งใหญ่"
+
+msgid "invites/note/leave/QUEUE_COMP7"
+msgstr "ทันทีที่คุณตอบรับคำเชิญ คุณจะออกจากการบุกรุก"
+
+msgid "invites/note/leave/QUEUE_COMP7_LIGHT"
+msgstr "ทันทีที่คุณตอบรับคำเชิญ คุณจะออกจากการบุกรุกรุ่นเบา"
+
+msgid "invites/note/leave/QUEUE_EPIC"
+msgstr "ทันทีที่คุณตอบรับคำเชิญดังกล่าว คุณจะออกจากแนวรบ"
+
+msgid "invites/note/leave/QUEUE_EVENT_BATTLES"
+msgstr "ทันทีที่คุณตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจาก+++การรบกิจกรรม+++"
+
+msgid "invites/note/leave/QUEUE_MAPBOX"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะออกจากภารกิจลาดตระเวน"
+
+msgid "invites/note/leave/QUEUE_MAPS_TRAINING"
+msgstr "ทันทีที่คุณตอบรับคำเชิญดังกล่าว คุณจะออกจากภูมิประเทศ"
+
+msgid "invites/note/leave/QUEUE_RANDOMS"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจากการรบแบบสุ่ม"
+
+msgid "invites/note/leave/QUEUE_RANKED"
+msgstr "เมื่อคุณตอบรับคำเชิญ คุณจะออกจากรูปแบบการรบจัดอันดับ"
+
+msgid "invites/note/leave/QUEUE_WINBACK"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจากการอุ่นเครื่อง"
+
+msgid "invites/note/leave_permanently/QUEUE_WINBACK"
+msgstr "ทันทีที่คุณได้รับตอบรับคำเชิญดังกล่าวแล้ว คุณจะถูกออกจากการอุ่นเครื่อง คุณจะไม่สามารถเริ่มมันได้อีกครั้ง"
+
+msgid "invites/note/serverSelectionIsRemembered"
+msgstr "การเปลี่ยนเซิร์ฟเวอร์จะถูกบันทึกไว้"
+
+msgid "invites/note/server_change"
+msgstr "คุณจะถูกโอนไปยังเซิร์ฟเวอร์ %(host)s โดยอัตโนมัติ"
+
+msgid "invites/prebattle/acceptNotAllowed/otherPeriphery"
+msgstr "คุณไม่สามารถตอบรับคำเชิญดังกล่าวได้ ในการตอบรับคำเชิญดังกล่าว โปรดเลือกเซิร์ฟเวอร์ %(host)s"
+
+msgid "invites/prebattle/acceptNotAllowed/undefinedPeriphery"
+msgstr "คุณไม่สามารถที่จะรับคำเชิญได้ ในการจะตอบรับคำเชิญกรุณาเลือกเซิร์ฟเวอร์อื่น"
+
+msgid "invites/prebattle/alreadyJoined/BATTLE_ROYALE"
+msgstr "คุณอยู่ในหมวดรถถังอยู่แล้ว"
+
+msgid "invites/prebattle/alreadyJoined/CLAN"
+msgstr "คุณเข้าร่วมการรบบนแผนที่โลกอยู่แล้ว"
+
+msgid "invites/prebattle/alreadyJoined/EPIC_TRAINING"
+msgstr "คุณอยู่ในห้องฝึกทีมอยู่แล้ว"
+
+msgid "invites/prebattle/alreadyJoined/FALLOUT"
+msgstr "คุณอยู่ในหมวดรถถังอยู่แล้ว"
+
+msgid "invites/prebattle/alreadyJoined/MAPBOX"
+msgstr "คุณอยู่ในหมวดรถถังอยู่แล้ว"
+
+msgid "invites/prebattle/alreadyJoined/SORTIE"
+msgstr "คุณอยู่ในกองเฉพาะกิจอยู่แล้ว"
+
+msgid "invites/prebattle/alreadyJoined/SQUAD"
+msgstr "คุณอยู่ในหมวดรถถังอยู่แล้ว"
+
+msgid "invites/prebattle/alreadyJoined/TOURNAMENT"
+msgstr "คุณอยู่ในทัวร์นาเมนต์อยู่แล้ว"
+
+msgid "invites/prebattle/alreadyJoined/TRAINING"
+msgstr "คุณอยู่ในห้องฝึกทีมอยู่แล้ว"
+
+msgid "invites/prebattle/alreadyJoined/TRAINING_COMP7"
+msgstr "คุณอยู่ในห้องฝึกทีมอยู่แล้ว"
+
+msgid "invites/prebattle/alreadyJoined/UNIT"
+msgstr "คุณอยู่ในทีมอยู่แล้ว"
+
+msgid "invites/state/ACCEPTED"
+msgstr "รับคำเชิญแล้ว"
+
+msgid "invites/state/DECLINED"
+msgstr "คำเชิญถูกปฏิเสธ"
+
+msgid "invites/state/ERROR"
+msgstr "คำเชิญไม่ถูกต้อง"
+
+msgid "invites/state/EXPIRED"
+msgstr "คำเชิญไม่ถูกต้อง"
+
+msgid "invites/state/REVOKED"
+msgstr "คำเชิญถูกถอนแล้ว"
+
+msgid "invites/text/BATTLE_ROYALE"
+msgstr "คำเชิญเพื่อเข้าหมวดรถถังพรานเหล็ก"
+
+msgid "invites/text/COMP7"
+msgstr "คำเชิญเข้าร่วมหมวดรถถังการบุกรุก"
+
+msgid "invites/text/COMP7_LIGHT"
+msgstr "คำเชิญเข้าร่วมหมวดรถถังการบุกรุกรุ่นเบา"
+
+msgid "invites/text/EPIC"
+msgstr "คำเชิญเข้าร่วมหมวดรถถังแนวรบ"
+
+msgid "invites/text/EPIC_TRAINING"
+msgstr "คำเชิญเพื่อเข้าร่วมการฝึกทีมในรูปแบบแนวรบ"
+
+msgid "invites/text/EVENT"
+msgstr "คำเชิญเข้าร่วมหมวดรถถัง"
+
+msgid "invites/text/FALLOUT"
+msgstr "คำเชิญเข้าร่วมหมวดรถถังสำหรับ %(battleType)s"
+
+msgid "invites/text/FALLOUT/FALLOUT_CLASSIC"
+msgstr "การรบครอบครอง"
+
+msgid "invites/text/FALLOUT/FALLOUT_MULTITEAM"
+msgstr "การล่ายักษ์เหล็ก"
+
+msgid "invites/text/FORT_BATTLE"
+msgstr "คำเชิญเข้าร่วมการรบ"
+
+msgid "invites/text/MAPBOX"
+msgstr "คำเชิญเข้าร่วมหมวดรถถังภารกิจลาดตระเวน"
+
+msgid "invites/text/MAPS_TRAINING"
+msgstr "คำเชิญเข้าร่วมสำรวจแผนที่"
+
+msgid "invites/text/SORTIE"
+msgstr "คำเชิเข้าร่วมกองเฉพาะกิจ"
+
+msgid "invites/text/SQUAD"
+msgstr "คำเชิญเข้าร่วมหมวดรถถัง"
+
+msgid "invites/text/STRONGHOLD"
+msgstr "คำเชิเข้าร่วมกองเฉพาะกิจ"
+
+msgid "invites/text/TRAINING"
+msgstr "คำเชิญเข้าร่วมการฝึกทีม"
+
+msgid "invites/text/UNIT"
+msgstr "คำเชิญเข้าร่วมทีมดังกล่าว"
+
+msgid "invites/text/creatorName"
+msgstr "จาก %(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "invites/text/fort/defence"
+msgstr "ช่วงเวลาป้องกัน"
+
+msgid "invites/text/fort/direction"
+msgstr "หัวหาด"
+
+msgid "invites/text/fort/offence"
+msgstr "การโจมตีที่"
+
+msgid "invites/warning/anonymized"
+msgstr "ทันทีที่คุณตอบรับคำเชิญ ชื่อจริงและป้ายชื่อกองทัพจริงของคุณจะถูกแสดงให้สมาชิกหน่วยยุทธวิธีเห็นตลอดช่วงการรบ"
+
+msgid "stronghold/invite/sendInviteToUsername"
+msgstr "คำเชิญถูกส่งไปยัง %(name)s"

@@ -1,0 +1,35 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "mode/last_stand/battlePassTooltip/body"
+msgstr "คุณสามารถได้รับคะแนนบัตรผ่านการรบในรูปแบบ{whiteSpanish_open}การยืนหยัดครั้งสุดท้าย{whiteSpanish_close}"
+
+msgid "mode/last_stand/battlePassTooltip/header"
+msgstr "คะแนนบัตรผ่านกาารบ"
+
+msgid "mode/last_stand/calendar"
+msgstr "กิจกรรมจะมีระยะเวลา %(date)s"
+
+msgid "mode/last_stand/calendarDay"
+msgstr "กิจกรรมจะจบลงใน %(date)s"
+
+msgid "mode/last_stand/description"
+msgstr "ออกต่อสู้กับระลอกข้าศึก\nทำการรบด้วยพาหนะระดับ VIII"
+
+msgid "mode/last_stand/performance/highRisk/description"
+msgstr "สมรรถนะคอมพิวเตอร์ของคุณนั้นไม่เพียงพอสำหรับรูปแบบนี้ คุณอาจจะพบปัญหาทางเทคนิคกับกราฟฟิคและการเคลื่อนที่ของพาหนะ และเป็นไปได้ที่โปรแกรมลูกข่ายเกมจะล่ม"
+
+msgid "mode/last_stand/performance/highRisk/header"
+msgstr "สมรรถนะต่ำ"
+
+msgid "mode/last_stand/performance/highRisk/headerIcon"
+msgstr "%(icon) สมรรถนะต่ำ"
+
+msgid "mode/last_stand/performance/mediumRisk/description"
+msgstr "รูปแบบนี้จำเป็นต้องใช้คอมพิวเตอร์สมรรถนะสูงกว่าปกติ\nคุณอาจจะประสบปัญหากับการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนะเครื่องไม่เพียงพอ โปรดลองลดคุณภาพกราฟฟิคในการตั้งค่าของคุณลง"
+
+msgid "mode/last_stand/performance/mediumRisk/header"
+msgstr "สมรรถนะที่ลดลง"
+
+msgid "mode/last_stand/performance/mediumRisk/headerIcon"
+msgstr "%(icon) สมรรถนะที่ลดลง"

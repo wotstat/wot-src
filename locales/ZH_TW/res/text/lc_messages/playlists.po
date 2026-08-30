@@ -1,0 +1,116 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "card/about_vehicle"
+msgstr "關於車輛"
+
+msgid "card/unknown"
+msgstr "未知車輛"
+
+msgid "defaultName"
+msgstr "新遊玩清單 {{count}}"
+
+msgid "dialogs/delete/button/cancel"
+msgstr "取消"
+
+msgid "dialogs/delete/button/submit"
+msgstr "刪除"
+
+msgid "dialogs/delete/title"
+msgstr "要刪除「{{playlistTitle}}」遊玩清單？"
+
+msgid "dialogs/import/button/submit"
+msgstr "匯入"
+
+msgid "dialogs/import/input/alert"
+msgstr "代碼錯誤"
+
+msgid "dialogs/import/input/message"
+msgstr "遊玩清單代碼"
+
+msgid "dialogs/import/title"
+msgstr "匯入遊玩清單："
+
+msgid "dialogs/save/button/cancel"
+msgstr "離開"
+
+msgid "dialogs/save/button/submit"
+msgstr "儲存並離開"
+
+msgid "dialogs/save/title"
+msgstr "要在離開前儲存遊玩清單？"
+
+msgid "editScreen/button/exit"
+msgstr "離開"
+
+msgid "editScreen/button/save"
+msgstr "儲存遊玩清單"
+
+msgid "editScreen/create/body"
+msgstr "按下 + 或拖曳車輛到此區域來新增遊玩清單"
+
+msgid "editScreen/create/title"
+msgstr "新增車輛"
+
+msgid "editScreen/input/placeholder"
+msgstr "輸入遊玩清單名稱"
+
+msgid "edit_button/body"
+msgstr "使用編輯模式來編輯或刪除遊玩清單"
+
+msgid "edit_button/title"
+msgstr "編輯模式"
+
+msgid "empty_state/empty_list/body"
+msgstr "進入編輯模式來將車輛加入此遊玩清單。"
+
+msgid "empty_state/empty_list/title"
+msgstr "遊玩清單無內容"
+
+msgid "empty_state/not_found/body"
+msgstr "嘗試調整過濾設定來查看更多內容。"
+
+msgid "empty_state/not_found/title"
+msgstr "找不到車輛"
+
+msgid "imports/trigger"
+msgstr "匯入遊玩清單"
+
+msgid "list/create"
+msgstr "建立遊玩清單"
+
+msgid "list/remove"
+msgstr "刪除遊玩清單"
+
+msgid "managaeble_playlists/buttons/cancel/title"
+msgstr "取消"
+
+msgid "managaeble_playlists/buttons/create/tooltipBody"
+msgstr "建立遊玩清單"
+
+msgid "managaeble_playlists/buttons/manage/tooltipBody"
+msgstr "遊玩清單"
+
+msgid "managaeble_playlists/buttons/save/title"
+msgstr "儲存"
+
+msgid "managaeble_playlists/header/title"
+msgstr "選擇遊玩清單"
+
+msgid "share/copy_button/body"
+msgstr "使用遊玩清單代碼來匯入遊玩清單"
+
+msgid "share/copy_button/title"
+msgstr "複製遊玩清單代碼"
+
+msgid "trigger/explain"
+msgstr "使用下拉式選單來檢視並切換清單"
+
+msgid "unnamedTemplate"
+msgstr "未命名的遊玩清單 {{count}}"
+
+msgid "validation/unavailable/body"
+msgstr "此遊玩清單中有您未在車庫中擁有的車輛。\n您可在編輯模式檢視此遊玩清單中的所有車輛。"
+
+msgid "validation/unavailable/title"
+msgstr "不可用車輛（{{display}}/{{total}}）"

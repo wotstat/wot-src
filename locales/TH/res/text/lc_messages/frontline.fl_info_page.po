@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "เกี่ยวกับบัตรผ่านการรบ"
+
+msgid "about/position/header"
+msgstr "การแจกจ่ายคะแนนบัตรผ่านการรบ"
+
+msgid "about/position/text"
+msgstr "ภายหลังการรบแต่ละครั้ง คุณจะได้รับคะแนนบัตรผ่านการรบจำนวนหนึ่งตามตำแหน่งของคุณ คุณจะได้รับคะแนนบัตรผ่านการรบเพิ่มเติมถ้าคุณเพิ่มระดับแนวรบของคุณได้"
+
+msgid "about/scores/header"
+msgstr "คะแนนบัตรผ่านการรบ"
+
+msgid "about/scores/text"
+msgstr "สกุลเงินบัตรผ่านการรบพิเศษที่สามารถหาได้จากการรบแบบสุ่มและรูปแบบแนวรบ คะแนนบัตรผ่านการรบจะมอบให้กับการไต่ถึงระดับแนวรบและอันดับของคุณในผลหลังการรบ พาหนะแนวรบจะไม่มีการจำกัดจำนวนคะแนนที่สามารถหาได้"
+
+msgid "about/scoresTable/loseHeader"
+msgstr "แพ้"
+
+msgid "about/scoresTable/topCell"
+msgstr "{{top}} อันดับแรกตาม XP ที่ได้รับ"
+
+msgid "about/scoresTable/winHeader"
+msgstr "ชนะ"
+
+msgid "about/text"
+msgstr "บัตรผ่านการรบเป็นกิจกรรมระยะยาวที่ผู้เล่นจะก้าวหน้าจากการผ่านด่านต่างๆด้วยการหาคะแนนบัตรผ่านการรบ แต่ละด่านที่ผ่านจะทำให้ผู้เล่นได้รับรางวัลที่มีค่า เมื่อผ่านด่านได้เป็นจำนวนหนึ่ง ผู้เล่นสามาาถได้รับเหรียญบัตรผ่านการรบซึ่งเป็นสกุลเงินพิเศษที่สามารถนำไปใช้ในการซื้อพาหนะเฉพาะและรางวัลที่มีค่าอื่นๆในส่วนของบัตรผ่านการรบในร้านค้า"
+
+msgid "addons/cellRent/header"
+msgstr "การเช่าพาหนะ"
+
+msgid "addons/cellRent/text_10"
+msgstr "จะมีพาหนะระดับ {{vehiclesLevel}} ที่ต่างๆกันให้เลือกเช่าด้วยการใช้เงิน สมาชิกพลรถถังของพาหนะชนิดและประเทศเดียวกันสามารถถูกโอนมาประจำพาหนะเหล่านี้ได้โดยไม่มีข้อเสียหรือต้องฝึกใหม่แต่อย่างใด"
+
+msgid "addons/cellRent/text_9"
+msgstr "จะมีพาหนะระดับ {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} ที่ต่างๆกันให้เลือกเช่าด้วยการใช้เงิน สมาชิกพลรถถังของพาหนะชนิดและประเทศเดียวกันสามารถถูกโอนมาประจำพาหนะเหล่านี้ได้โดยไม่มีข้อเสียหรือต้องฝึกใหม่แต่อย่างใด"
+
+msgid "addons/cellSpectator/header"
+msgstr "รูปแบบผู้สังเกตการณ์"
+
+msgid "addons/cellSpectator/text"
+msgstr "ในระหว่างที่คุณรอเกิดใหม่ คุณสามารถเข้า รูปแบบผู้สังเกตการณ์เพื่อดูรอบๆสนามรบและ ทำการวางแผนรบต่อไปได้"
+
+msgid "addons/cellTime/header"
+msgstr "เวลาเพิ่มเติม"
+
+msgid "addons/cellTime/text"
+msgstr "ถ้าฐานกำลังถูกยึดเมื่อเวลาการรบหมดลง ทีมของคุณจะได้รับเวลาเพิ่มเติม ถ้าทีม ป้องกันขัดขวางการยึดฐานได้ เวลาเพิ่มเติม จะกลายเป็นศูนย์"
+
+msgid "addons/header"
+msgstr "ข้อมูลเพิ่มเติม"
+
+msgid "levelUp/sectionHeader"
+msgstr "พาหนะระดับ {{level}}"
+
+msgid "levelUp/text"
+msgstr "เหมือนครั้งก่อนๆหน้าที่ในเบื้องต้นคุณสามารถนำได้เพียงพาหนะระดับ {{vehiclesLevelFrom}} เข้าสู่การรบแต่พาหนะระดับ {{vehiclesLevelTo}} นั้นสามารถถูกเตรียมไว้ในโรงรถของคุณได้ ทันทีที่มีการยึดฐานใดก็ตามของแนวรบสอง ( D, E, F) ทั้งสองทีมก็จะสามารถวางกำลังได้ด้วยพาหนะระดับ {{vehiclesLevelTo}}"
+
+msgid "main/cellDuration/header"
+msgstr "ช่วงเวลา"
+
+msgid "main/cellDuration/text"
+msgstr "แนวรบจะมีระยะเวลา {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}วัน วันของการเปิดตัวครั้งถัดไปจะถูกประกาศแยกออกจากกัน"
+
+msgid "main/cellFrontline/header"
+msgstr "แนวรบ"
+
+msgid "main/cellFrontline/text_8"
+msgstr "การรบขนาดใหญ่ 30ต่อ30 ด้วยพาหนะระดับ {{vehiclesLevel}} ในแผนที่{{@ colorLegacy 'FFE4C0'}}นอร์มังดี, โรงไฟฟ้า{{/}}และ{{@ colorLegacy 'FFE4C0'}}ภาพลวงตา{{/}} ทีมจู่โจมจะต้องทำลายป้อมปืนลำกล้องใหญ่ 3 ป้อมจาก 5 ป้อมในขณะที่ทีมป้องกันป้อมปืนดังกล่าวให้ได้"
+
+msgid "main/cellFrontline/text_9"
+msgstr "การรบขนาดใหญ่ 30ต่อ30 ด้วยพาหนะระดับ {{vehiclesLevelFrom}}–{{vehiclesLevelTo}} ในแผนที่{{@ colorLegacy 'FFE4C0'}}นอร์มังดี, โรงไฟฟ้า{{/}}และ{{@ colorLegacy 'FFE4C0'}}ภาพลวงตา{{/}} ทีมจู่โจมจะต้องทำลายป้อมปืนลำกล้องใหญ่ 3 ป้อมจาก 5 ป้อมในขณะที่ทีมป้องกันป้อมปืนดังกล่าวให้ได้"
+
+msgid "main/cellLevel9/header"
+msgstr "พาหนะระดับ {{vehiclesLevel}}"
+
+msgid "main/cellLevel9/text"
+msgstr "หลังจากเมื่อมีฐานของแนวที่สอง (D, E หรือ F) ถูกยึด คุณจะสามารถนำพาหนะระดับ {{vehiclesLevel}} ออกรบได้"
+
+msgid "main/cellLevels/header"
+msgstr "พาหนะระดับ {{vehiclesLevel}}"
+
+msgid "main/cellLevels/text_8"
+msgstr "มีพาหนะระดับ {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} ให้ใช้ในการรบเท่านั้น"
+
+msgid "main/cellLevels/text_9"
+msgstr "มีเพียงพาหนะระดับ {{vehiclesLevel}} เท่านั้นที่สามารถออกรบได้"
+
+msgid "main/cellPass/header"
+msgstr "บัตรผ่านการรบ"
+
+msgid "main/cellPass/text"
+msgstr "แนวรบนี้ถือเป็นโอกาสชั้นยอดสำหรับ การหาคะแนนบัตรผ่านการรบด้วยการ เข้าร่วมการรบแล้วไต่สู่ระดับแนวรบใหม่"
+
+msgid "main/cellReserves/header"
+msgstr "ประเภทกำลังสำรองรบ"
+
+msgid "main/cellReserves/text"
+msgstr "จะมีกำลังสำรองสามประเภทด้วยกัน โดยแต่ละประเภทจะผูกเข้ากับช่องใดช่องหนึ่ง ลำดับการปลดล็อคและปรับปรุงช่องจะขึ้นกับ ชนิดของพาหนะนั้นๆด้วย"
+
+msgid "main/cellScenarios/header"
+msgstr "สถานการณ์"
+
+msgid "main/cellScenarios/text"
+msgstr "การรบในรูปแบบแนวรบที่ใช้หนึ่งในสถานการณ์ดังต่อไปนี้: {{@ colorLegacy 'FFE4C0'}}การรบมาตรฐาน{{/}}, {{@ colorLegacy 'FFE4C0'}}การสนับสนุนปฏิบัติการ{{/}} หรือ {{@ colorLegacy 'FFE4C0'}}ชะตาพลิกผัน{{/}} ข้อมูลเกี่ยวกับสถานการณ์การรบปัจจุบันจะแสดงบนหน้าจอโหลดการรบ, ในช่วงก่อนนับถอยหลังการรบหรือเมื่อทำการกดปุ่ม Tab"
+
+msgid "main/sectionHeader"
+msgstr "ข้อมูลทั่วไป"
+
+msgid "page/backBtn"
+msgstr "กลับ"
+
+msgid "page/headerUpper"
+msgstr "แนวรบ"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "คุณจะได้รับประสบการณ์แนวรบพร้อมกับประสบการณ์การรบโดยขึ้นกับยศที่คุณได้รับประสบการณ์แนวรบจะใช้ในการเพิ่มระดับแนวรบของคุณ โดยรวมแล้วจะมี {{@ colorLegacy 'FFE4C0'}}20 ระดับ{{/}}ด้วยกัน"
+
+msgid "progression/levelsSection/header"
+msgstr "ระดับแนวรบ"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}ระดับแนวรบ{{/}}จะมอบรางวัลให้คุณเป็นคะแนนบัตรผ่านการรบ, คะแนนกำลังสำรองรบ, พันธบัตร, คำสั่ง, คำสั่งฝึกใหม่, ใบอนุญาตฝึกสอนและหนังสือพลรถถัง"
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}ระดับแนวรบ{{/}} จะมอบรางวัลให้คุณเป็นคะแนนกำลังสำรองรบ, พันธบัตร, คำสั่ง, คำสั่งฝึกใหม่และหนังสือพลรถถัง"
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}ยศ{{/}} ไม่ได้เป็นเพียงการสะท้อนให้เห็นประสิทธิภาพของคุณในการรบแต่ยังมอบโบนัสประสบการณ์การรบให้อีกด้วย โบนัสนี้จะมีผลกับประสบการณ์ฐานรวมที่ได้รับในพาหนะของคุณทั้งหมดที่ได้เข้าร่วมการรบ เมื่อคุณหรือพันธมิตรของคุณไต่ถึงยศนายพล ทั้งทีมจะได้รับโบนัสให้กับสมรรถนะของพลรถถัง (ขั้นคุณสมบัติหลัก) จาก {{@ colorLegacy 'FFE4C0'}}1.5%{{/}} เป็น {{@ colorLegacy 'FFE4C0'}}15%{{/}}"
+
+msgid "progression/ranksSection/header"
+msgstr "ยศ"
+
+msgid "progression/ranksSection/text"
+msgstr "รูปแบบนี้จะมีระบบยศหกยศโดยผู้เล่นจะไต่จากยศพลทหารไปถึงยศนายพล คุณจะได้เลื่อนยศจากผลงานที่โดดเด่นในการรบ (การยึดหรือป้องกันฐาน การทำลายเป้าหมายหลัก) และการได้รับประสบการณ์โดยจะนับประสบการณ์ทั้งหมดจากพาหนะทุกคันที่คุณใช้ในการรบครั้งนั้นๆ"
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "โบนัสให้กับประสบการณ์การรบ"
+
+msgid "progression/ranksTable/captain"
+msgstr "ร้อยเอก"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "โบนัสให้สมรรถนะพลรถถัง"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "ประสบการณ์แนวรบ"
+
+msgid "progression/ranksTable/general"
+msgstr "พลเอก"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "ร้อยโท"
+
+msgid "progression/ranksTable/major"
+msgstr "พันตรี"
+
+msgid "progression/ranksTable/private"
+msgstr "พลทหาร"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "สิบเอก"
+
+msgid "progression/sectionHeader"
+msgstr "ความก้าวหน้าแนวรบ"
+
+msgid "progression/text"
+msgstr "เมื่อออกรบในรูปแบบนี้ คุณจะได้รับเลื่อนยศ เพิ่มความก้าวหน้าแนวรบและรับรางวัลต่างๆ"
+
+msgid "reserveCategories/categories/additional"
+msgstr "รอง"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "ช่องกำลังสำรอง 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "ช่องกำลังสำรอง 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "ช่องกำลังสำรอง 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "หลัก"
+
+msgid "reserveCategories/categories/support"
+msgstr "ช่วย"
+
+msgid "reserveCategories/config/footerText"
+msgstr "ในสถานการณ์ {{@ colorLegacy 'FFE4C0'}}ชะตาพลิกผัน{{/}} ลำดับการปลดล็อคกำลังสำรองรบนั้นไม่ขึ้นกับชนิดของพาหนะ"
+
+msgid "reserveCategories/config/header"
+msgstr "การตั้งค่ากำลังสำรองตามชนิดพาหนะ"
+
+msgid "reserveCategories/config/text"
+msgstr "ในสถานการณ์ {{@ colorLegacy 'FFE4C0'}}การรบมาตรฐาน{{/}} และ {{@ colorLegacy 'FFE4C0'}}การสนับสนุนปฏิบัติการ{{/}} ทั้งสามช่องกำลังสำรองรบจะมีให้สำหรับพาหนะทุกชนิด อย่างไรก็ตาม ลำดับที่จะทำการปลดล็อคนั้นจะขึ้นอยู่กับชนิดของพาหนะนั้นๆ"
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "รถถังหนัก"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "รถถังเบา"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "รถถังกลาง"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "ปืนใหญ่อัตตาจร"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* การปรับปรุงมาถึงขั้นนี้มีให้เฉพาะสำหรับกำลังสำรองรบที่{{@ colorLegacy 'FFE4C0'}}ซื้อ{{/}}ในสถานการณ์ {{@ colorLegacy 'FFE4C0'}}ชะตาพลิกผัน{{/}} เท่านั้น"
+
+msgid "reserveCategories/levels/header"
+msgstr "วิธีการปลดล็อคช่องและเพิ่มขั้นกำลังสำรองรบ"
+
+msgid "reserveCategories/levels/text"
+msgstr "โดยมาตรฐานแล้ว จะมีกำลังสำรองรบหนึ่งแบบให้คุณ แบบอื่นๆจะทำการปลดล็อคให้เมื่อได้ยศสิบเอกและร้อยโท กำลังสำรองทั้งสามแบบจะถูกปรับปรุงหลังจากการได้เลื่อนยศถึงร้อยเอกและพันตรี"
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "ขั้น {{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} หรือ {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "ร้อยเอก"
+
+msgid "reserveCategories/ranks/general"
+msgstr "พลเอก"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "ร้อยโท"
+
+msgid "reserveCategories/ranks/major"
+msgstr "พันตรี"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "สิบเอก"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "พลทหาร"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "ชะตาพลิกผัน"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "ในการรบ ผู้เล่นสามารถเลือกกกำลังสำรองแบบสุ่มที่มีให้สำหรับพาหนะของทุกชนิด การวางกำลังสำรองในช่องก่อนการรบจะเพิ่มโอกาสได้รับมันในการรบอีก {{@ colorLegacy 'FFE4C0'}}10%{{/}} การซื้อกำลังสำรองจะเพิ่มขั้นของมันอีก {{@ colorLegacy 'FFE4C0'}}I{{/}} และทำให้มีโอกาสในการเพิ่มกำลังสำรองถึงชั้น {{@ colorLegacy 'FFE4C0'}}IV{{/}}"
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "สถานการณ์แนวรบ"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "การรบมาตรฐาน"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "มีการใช้กฎแนวรบปกติอยู่ เงื่อนไขการใช้กำลังสำรองรบนั้นไม่ได้ถูกเปลี่ยน"
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "การสนับสนุนปฏิบัติการ"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "เมื่อทำการปลดล็อคกำลังสำรอง: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "เมื่อกลับสู่การรบ: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "สถานการณ์ที่รวดเร็วยิ่งขึ้นซึ่งเวลาพักใช้กำลังสำรองรบสั้นลง"
+
+msgid "reserveCategories/scenarios/text"
+msgstr "การรบในรูปแบบแนวรบที่ใช้หนึ่งในสถานการณ์ดังต่อไปนี้: {{@ colorLegacy 'FFE4C0'}}การรบมาตรฐาน{{/}}, {{@ colorLegacy 'FFE4C0'}}การสนับสนุนปฏิบัติการ{{/}} หรือ {{@ colorLegacy 'FFE4C0'}}ชะตาพลิกผัน{{/}} สถานการณ์เหล่านี้จะเปลี่ยนเงื่อนไขสำหรับการใช้กำลังสำรองรบในการรบ ข้อมูลเกี่ยวกับสถานการณ์การรบปัจจุบันจะแสดงบนหน้าจอโหลดการรบ, ในช่วงก่อนนับถอยหลังการรบหรือเมื่อทำการกดปุ่ม Tab"
+
+msgid "reserveCategories/sectionHeader"
+msgstr "ประเภทกำลังสำรองรบ"
+
+msgid "reserveCategories/text"
+msgstr "กำลังสำรองรบจะถูกแบ่งออกเป็นสามประเภทโดยจะมีประเภทละสามกำลังสำรอง เมื่ออกรบ คุณสามารถวางกำลังสำรองรบหนึ่งชุดจากหนึ่งประเภทลงในช่องที่กำหนดไว้เท่านั้น"
+
+msgid "reserveCategories/types/firesupport"
+msgstr "กำลังสำรองโจมตี"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "กำลังสำรองลาดตระเวน"
+
+msgid "reserveCategories/types/tactics"
+msgstr "กำลังสำรองยุทธวิธี"
+
+msgid "reserves/sectionHeader"
+msgstr "กำลังสำรองด่วน"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "การเริ่มอย่างรวดเร็ว"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "เวลาเตรียมการของกำลังสำรองรบนั้นจะลดลง 50% เมื่อเริ่มการรบ"
+
+msgid "reserves/sectionReload/header"
+msgstr "มีให้ทันที"
+
+msgid "reserves/sectionReload/text"
+msgstr "กำลังสำรองรบจะพร้อมใช้ทันทีที่ทำการปลดล็อคได้"
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "แรงฮึดสู้"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "เวลาเตรียมการของกำลังสำรองรบนั้นลดลงอีก 70% เมื่อกลับสู่การรบด้วยพาหนะใหม่"
+
+msgid "rules/backToFight/header"
+msgstr "การกลับสู่การรบ"
+
+msgid "rules/backToFight/text"
+msgstr "ถ้าพาหนะของคุณถูกทำลาย ให้เลือกพาหนะคันอื่นที่มีเพื่อกลับเข้าสู่การรบและทำการต่อสู้เพื่อคว้าชัยชนะให้ได้ คุณสามารถเลือกหนึ่งในจุดวางกำลังที่มีบนแนวรบได้รวมถึงจุดเกิดในแนวหลังที่จะช่วยให้คุณวางแผนการรบของคุณเองได้ ผู้เล่นทีมป้องกันจะมีตัวเลือกจุดเกิดที่หลากหลายมากกว่าซึ่งหมายความว่าพวกเขาสามารถรวมตัวกันป้องกันฐานป้อมปืนใหญ่ได้ในกรณีที่มีการบุกทะลวงฉับพลัน ระบบจะยังมีเครื่องหมายพิเศษที่เตือนผู้เล่นว่าจุดเกิดดังกล่าวนั้นมีอันตรายสูงหากเลือกจะวางกำลังในจุดที่เลือกเอาไว้"
+
+msgid "rules/base/header"
+msgstr "การยึดฐาน"
+
+msgid "rules/base/textBottom"
+msgstr "การทำความเสียหายพาหนะ (หรือชิ้นส่วน) ในระหว่างการยึดฐานจะไม่ตั้งการยึดใหม่ แต่จะทำให้การยึดหยุดลงชั่วคราว ในการลบการยึดทั้งหมด ทีมป้องกันต้องทำลายพาหนะข้าศึกทุกคันในวงฐานหรือขับไล่ข้าศึกออกจากวงฐานให้ได้ ทีมป้องกันจะไม่สามารถยึดฐานกลับได้เมื่อทีมจู่โจมยึดไปแล้ว"
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}ทีมจู่โจม{FFE4C0_End}จะต้องยึดฐานตามลำดับเพื่อเข้าสู่เป้าหมายหลัก ฐานที่ยึดได้จะเพิ่มเวลาการรบให้ 2 นาที การยึดฐานสุดท้ายจะเพิ่มเวลาให้ 4 นาที"
+
+msgid "rules/sectionHeader"
+msgstr "กฎทั่วไป"
+
+msgid "rules/service/header"
+msgstr "วงเติมเสบียง"
+
+msgid "rules/service/text"
+msgstr "วงเติมเสบียงจะคืนความทนทาน พาหนะ รักษาพลรถถังที่บาดเจ็บ ทุกนาย และเติมกระสุนให้ {FFE4C0_Start}อัตราการเติมจะเป็นดังต่อไปนี้: 100 ความทนทาน / หนึ่งพลรถถัง / 10%{FFE4C0_End} ของกระสุนต่อวินาที"
+
+msgid "rules/weapons/header"
+msgstr "เป้าหมาย: 3 จาก 5 ป้อมปืนลำกล้องใหญ่"
+
+msgid "rules/weapons/list/back"
+msgstr "เกราะหลัง: {{@ colorLegacy 'FFE4C0'}}90 มม.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "กระสุน {{@ colorLegacy 'FFE4C0'}}ไม่สามารถเจาะ{{/}} เกราะหน้าและเกราะหลังคาได้"
+
+msgid "rules/weapons/list/sides"
+msgstr "เกราะข้าง: {{@ colorLegacy 'FFE4C0'}}180 มม.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "เกราะข้าง: {{@ colorLegacy 'FFE4C0'}}210 มม.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "จุดอ่อน: {{@ colorLegacy 'FFE4C0'}}ประตู (70มม.) และปล่องอากาศ (25 มม.){{/}}"
+
+msgid "rules/weapons/text"
+msgstr "จะมีป้อมปืนห้าป้อมในส่วนแนวหลัง ของทีมป้องกันซึ่งเป็นเป้าหมายหลัก ของการรบ ทีมจู่โจมจะต้องทำลาย ป้อมปืน 3 ป้อมให้ไ ในขณะที่ทีมป้องกัน จะต้องปกป้องป้อมปืนดังกล่าวให้ถึงที่สุด"
+
+msgid "subTitle/differentMonth"
+msgstr "ตั้งแต่ {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}{{/}} ถึง{{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "ตั้งแต่ {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}, {{startYear}},{{/}} ถึง {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}, {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "ตั้งแต่ {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}{{/}} ถึง{{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "เขต A B และ C {{@ colorLegacy 'FFE4C0'}}ของแนวแรก{{/}}จะเป็นจุดเริ่มทำการรบของทั้งสองทีม"
+
+msgid "winStrategy/header"
+msgstr "ยุทธศาสตร์ชนะการรบ"
+
+msgid "winStrategy/mapZones"
+msgstr "แผนที่ของรูปแบบจะมีแนวป้องกันระนาบนอนสามแนว:"
+
+msgid "winStrategy/secondLine"
+msgstr "ทันทีที่เขตของแนวแรกถูกยึด การรบจะดำเนินต่อในเขต D, E, และ F {{@ colorLegacy 'FFE4C0'}}ของแนวสอง{{/}}"
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}แนวที่สาม{{/}}จะไม่ถูกแบ่งเป็นเขต แต่จะเป็นแนวที่เป็นด่านสุดท้ายของ การรบมีป้อมปืนขนาดลำกล้องใหญ่ ประจำอยู่ในแนวรบนี้และการทำลาย ป้อมปืนดังกล่าวได้จะทำให้ทีมจู่โจมชนะ ทีมจู่โจมจะเข้าถึงเป้าหมายหลักได้ ก็ต่อเมื่อได้ทำการยึดเขตอย่างน้อย หนึ่งเขตของแนวที่สอง ทันทีที่เสีย เขตไป ผู้เล่นทีมป้องกันจะมีเวลา 1 นาทีในการออกจากเขตก่อนที่จะมีการทิ้งระเบิด การโจมตีทางอากาศจะทำความเสียหายผู้เล่นทีมป้องกันใดๆที่ยังคงอยู่ในเขตดังกล่าว ผู้เล่นทีมโจมตีใดๆที่พยายามไปถึงพื้นที่ในแนวที่สองหรือสามโดยไม่ยึดเขตก่อนหน้าจะถูกทำลายโดยการโจมตีทางอากาศเช่นกัน"

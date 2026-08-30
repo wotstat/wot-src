@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "이대로 참여"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "장착"
+
+msgid "abilitiesIncomplete/title"
+msgstr "전술 장비 누락"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "선택한 전차의 전술 장비가 1개 이상 누락되어 있습니다. 이는 전투 성과에 큰 영향을 미칠 수 있습니다. 그래도 전투에 참여하시겠습니까?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "이벤트 기본값으로 설정된 포탄 단축키와 전술 장비 단축키를 서로 맞바꿀 수 있습니다.\n해당 설정은 이벤트 전투에서만 적용되며 다른 게임 모드에 영향을 미치지 않습니다.\n개별 단축키도 메뉴 — 설정 — 조작(소모품 항목)에서 변경할 수 있습니다."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "소모품 단축키 전환"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s천"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "본 임무 완료 시 \"최후의 저항: 판도라 작전\" 특별 증표 지급:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "특별 업적 임무"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "연구 시 모든 전술 장비의 {EDCB9E_Start}미륨 비용{EDCB9E_End}이 {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End} 감소합니다."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "미륨 효율"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "연구 시 {EDCB9E_Start}전술 장비의 효과 지속 시간{EDCB9E_End}이 {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End} 증가합니다."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "장비 효과 지속 시간"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "연구 시 {EDCB9E_Start}전술 장비의 효과 범위{EDCB9E_End}가 {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End} 증가합니다."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "장비 효과 범위"
+
+msgid "booster/booster_heal/description"
+msgstr "연구 시 전차에 적용되는 모든 {EDCB9E_Start}회복 효과{EDCB9E_End}가 {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End} 증가합니다."
+
+msgid "booster/booster_heal/name"
+msgstr "회복 효과"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "연구 시 {EDCB9E_Start}오벨리스크를 통해 적 전차에 전이되는 피해{EDCB9E_End}가 {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End} 증가합니다."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "오벨리스크 전이 피해"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "연구 시 {EDCB9E_Start}미륨 획득 범위{EDCB9E_End}가 {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End} 증가합니다."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "미륨 획득 범위"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "연구 시 파괴된 전차로부터 {EDCB9E_Start}수집하는 미륨 수량{EDCB9E_End}이 {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End} 증가합니다."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "미륨 수집"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "연구 시 {EDCB9E_Start}웨이브 격파로 획득하는 미륨 수량{EDCB9E_End}이 {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End} 증가합니다."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "웨이브당 미륨"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "연구 시 재생성 후 회수하는 {EDCB9E_Start}미륨 수량{EDCB9E_End}이 {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End} 증가합니다."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "재생성 시 회수 미륨"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "연구 시 {EDCB9E_Start}전차의 최대 미륨 보유량{EDCB9E_End}이 {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End} 증가합니다."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "최대 미륨 보유량"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "수호자 패키지"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "열쇠 구매 완료"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "경험치를 5배 획득할 수 있는 임무입니다. 당일 두 번째로 승리한 전투부터 적용되며 모든 전차로 진행할 수 있습니다."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "경험치 5배 획득 임무"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "전차 유형과 국가 등 다양한 조건에 따라 전차를 표시합니다."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "항목 필터"
+
+msgid "common/back"
+msgstr "뒤로"
+
+msgid "common/close"
+msgstr "닫기"
+
+msgid "common/modifierInline"
+msgstr "x{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "이벤트로 이동"
+
+msgid "common/toRewardPath"
+msgstr "진행 상황으로 이동"
+
+msgid "common/yes"
+msgstr "확인"
+
+msgid "difficult/daily"
+msgstr "일일 열쇠 임무 해제"
+
+msgid "difficult/disabled/body"
+msgstr "소대 참여 중입니다. 소대장만 난이도를 변경할 수 있습니다."
+
+msgid "difficult/disabled/header"
+msgstr "난이도 변경 불가"
+
+msgid "difficult/level_1"
+msgstr "일반"
+
+msgid "difficult/level_2"
+msgstr "상급"
+
+msgid "difficult/level_3"
+msgstr "잔혹"
+
+msgid "difficult/new"
+msgstr "신규"
+
+msgid "difficult/searching/body"
+msgstr "검색 중에는 이용할 수 없습니다."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "적의 내구도가 낮고 장갑이 약합니다. 전투당 데이터 획득량이 평범합니다."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "적의 장갑이 견고합니다. 전투당 데이터 획득량이 {{modifier}} 증가합니다."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "장갑이 견고한 적이 더 많이 등장합니다. 전투당 데이터 획득량이 {{modifier}} 증가합니다."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "마지막 웨이브 최초 격파 시 보상"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "일반 난이도"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "상급 난이도"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "잔혹 난이도"
+
+msgid "difficult/tooltip/locked"
+msgstr "난이도 잠김"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "일반 난이도 완료 시 해제됩니다."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "상급 난이도 완료 시 해제됩니다."
+
+msgid "difficult/tooltip/state/default"
+msgstr "난이도 이용 가능"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "선택한 난이도"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "저지한 웨이브: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "일반"
+
+msgid "difficult/uppercase/level_2"
+msgstr "상급"
+
+msgid "difficult/uppercase/level_3"
+msgstr "잔혹"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "적의 장갑이 더 견고합니다. 전투당 더 많은 크레딧을 획득하고 데이터 획득량이 {{modifier}}배 증가합니다."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "장갑이 견고한 적군이 더 많이 등장합니다. 전투당 더 많은 크레딧을 획득하고, 데이터 획득량이 {{modifier}}배 증가합니다."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "전투에 참여하여 적군의 웨이브를 저지하고 순위표 상위권에 진출하여 실력을 증명해 보십시오. 특별한 보상이 기다리고 있습니다."
+
+msgid "difficultyWindow/header/level_2"
+msgstr "상급 난이도"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "잔혹 난이도"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "최후의 저항 모드"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "상급"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "잔혹"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "'최후의 저항'"
+
+msgid "difficultyWindow/rewards"
+msgstr "완료 보상"
+
+msgid "difficultyWindow/title"
+msgstr "이용 가능"
+
+msgid "hangar/exit"
+msgstr "이벤트 나가기"
+
+msgid "hangar/narration"
+msgstr "스토리"
+
+msgid "hangar/tooltip/about"
+msgstr "최후의 저항: 북부 전선 이벤트 세부 정보"
+
+msgid "hangar/tooltip/narration"
+msgstr "이벤트 스토리 세부 정보"
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "전술 장비"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "구성"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "최후의 저항"
+
+msgid "iconButton/comparison/default"
+msgstr "전차 비교"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "전차 비교 불가"
+
+msgid "iconButton/preview/default"
+msgstr "전차 미리 보기"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "전차 미리 보기 불가"
+
+msgid "keyCard/name"
+msgstr "해독 열쇠"
+
+msgid "meta/btn/decrypt"
+msgstr "해독"
+
+msgid "meta/btn/skip"
+msgstr "건너뛰기"
+
+msgid "meta/btn/view"
+msgstr "표시"
+
+msgid "meta/receive/description"
+msgstr "%(keys) / %(decrypt) %(icon) 수집 시\n해당 기록 해독 가능"
+
+msgid "metaIntro/description/fight"
+msgstr "이벤트 전투에 참여하여 데이터를 획득하고 이벤트를 진행해 보십시오."
+
+msgid "metaIntro/description/progress"
+msgstr "데이터를 수집하여 전차 강화 요소를 연구하고 더 어려운 전투에 도전해 보십시오."
+
+msgid "metaIntro/description/reward"
+msgstr "진행 스테이지를 완료하여 특별 이벤트 보상을 획득해 보십시오. 세부 정보는 해독 보상에서 확인할 수 있습니다."
+
+msgid "metaIntro/header/fight"
+msgstr "이벤트 전투"
+
+msgid "metaIntro/header/progress"
+msgstr "강화 요소"
+
+msgid "metaIntro/header/reward"
+msgstr "특별 보상"
+
+msgid "metaIntro/title"
+msgstr "진행 상황"
+
+msgid "missionWidget/complete"
+msgstr "임무 완료\n내일 새 임무 추가"
+
+msgid "missionWidget/tooltipBody"
+msgstr "24시간마다 진행 가능한 일일 임무를 완료하고 보상을 획득해 보십시오. 오늘의 임무:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "일일 임무"
+
+msgid "narration/actions/voiceover"
+msgstr "음성"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}일급 기밀{{/}}{{titleParagraph}}{{@ class $highlightText}}구역: N-07 (\"오로라\" 경계){{/}}{{pargraphStart}}예측이 적중했습니다. 관측소에서 사건 발생 11일 전에 이상 현상의 접근을 포착했습니다. 사전에 접근을 감지한 것은 이번이 처음입니다.{{pargraphStart}}폭풍전야의 고요 속에서 아틀라스 복합체 생산이 표준화되었습니다. 새로운 부품은 더 빠르게 조립되고 더 정밀하게 보정되었습니다. 우리는 훈련을 실시하고, 대형을 점검하고, 예비 분대를 준비했습니다. 전면 경계 태세였습니다.{{pargraphStart}}하지만 이상 현상은 예상대로 움직이지 않았습니다.{{pargraphStart}}균열은 예상 구역에서 열리지 않았고, 기반 시설에서 한참 떨어진 북부의 외딴곳에 출현했습니다. 어째서 균열이 이곳에 나타났는지는 밝혀진 바가 없습니다. 어떤 예측 모델도 해당 구역을 지목하지 않았습니다. 즉시 긴급 재배치가 시작되었지만 지형과 거리는 우리에게 불리한 편이고, 일부 전차와 분대는 늦게 도착할 것입니다.{{pargraphStart}}운반한 아틀라스 복합체 하나하나가 매우 중요한 시점입니다.{{pargraphStart}}이번에는 전투에 대비하였으나, 장소 예측이 빗나가고 말았습니다.{{pargraphStart}}서명: 관측관 (프로젝트 M)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}분석 기록 27/C \"침공 위치 선정\"{{/}}{{titleParagraph}} \"접근 제한\" 내부 문서{{pargraphStart}}저는 답해야 하지만 답할 수 없는 질문을 떠올려 보았습니다. \"왜 이곳인가?\"{{pargraphStart}}이곳은 상대에게 전략적 가치가 없습니다. 이곳에는 아무것도 없습니다. 기반 시설도, 정착지도 없습니다. 섬에 있는 비운용 군사 기지가 전부입니다. 공명 전차는 바다를 건널 수 없습니다. 그렇다면 대체 어째서 공격조차 이어갈 수 없는 장소를 점령하려 한 것일까요?{{pargraphStart}}저는 해당 지역의 전체 작전 기록을 요청했습니다. 전달된 자료는 상당 부분 수정되어 있었고, 통째로 삭제된 구간도 있었습니다. 다시 자료 공유를 요청했지만 \" {{@ class $highlightSecondaryText}}[삭제된 데이터]{{/}}의 권한에 따라 접근이 제한됨\"이라는 메모가 첨부되어 돌아왔습니다. 이곳의 방어 전략을 담당하는 연구 부서장인 저조차도 관련 정보를 확인할 수 없는 것입니다!{{pargraphStart}}현장 데이터를 통해 추론한 것은 다음과 같습니다. 이번 균열의 행동 양상은 R-22 구역에서 관찰한 것과 일치하지 않습니다. 이전에는 접한 적이 없는 새로운 유형의 공명 전차가 출현했습니다. 해당 공명 전차는 아군의 원거리 구축전차와 비슷하며, 이러한 지형에서 매우 효과적입니다. 적은 우리의 전술을 학습하고 대응책을 마련했습니다. 이제는 우리가 적응할 차례입니다.{{pargraphStart}}어쩌면 균열은 정말 이 장소가 필요했을지도 모릅니다. 아니면 우리가 알 수 없는 무언가를 원했을지도 모르죠.{{pargraphStart}}지금으로서는 알 수 없습니다. 하지만 진실을 알고 있는 누군가가 침묵을 지키고 있다는 점이 제게 불안감을 안겨주고 있습니다.{{pargraphStart}}서명: 관측관 (프로젝트 M)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}관측관의 개인 일지{{/}}{{pargraphStart}}제가 세운 가설 세 가지를 다시 검토해 보았습니다.{{pargraphStart}}  1. 이상 현상은 우리를 파괴하려 한다.{{pargraphStart}}  2. 이상 현상은 실험하고 있다. 우리의 전술을 연구하고, 우리의 대응을 관찰하며, 조정 및 학습을 거듭한다.{{pargraphStart}}  3. 이상 현상은 훈련하고 있다. 각 웨이브는 새로운 전술을 시험하는 훈련이고, 모든 전투는 실전 환경에서 진행한다.{{pargraphStart}}세 가설은 모두 하나의 전제를 공유합니다. 바로 우리를 침공하는 것이죠.{{pargraphStart}}하지만 우리가 목표가 아니라면 어떨까요?{{pargraphStart}}만약 이상 현상이 다른 무언가를 위해 이러한 일을 벌이고 있고, 우리는 그저 그 길을 가로막는 방해물일지도 모릅니다. 도로를 건설하는 과정에서 물에 잠기는 개미집처럼 말이죠. 건설업자는 개미와 전쟁을 벌이지 않습니다. 그저 개미를 인지하지 못할 뿐이죠.{{pargraphStart}}우리를 파괴하려는 목표를 가진 적은 저지할 수 있습니다. 협상을 할 수도 있습니다. 하지만 우리의 존재 자체를 인지하지 못하는 적에게는 그 어떤 위협도 가할 수 없습니다. 속일 수도 없습니다. 멈출 수도 없습니다. 우리는 애초에 계산에 포함되지 않았기 때문입니다.{{pargraphStart}}우리는 잘못된 질문을 하고 있었던 것 같습니다. 왜 우리를 공격하는지 물을 것이 아니라, 우리의 존재를 인지하고는 있는지 질문해야 합니다.{{pargraphStart}}서명: 관측관 (프로젝트 M)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}최종 보고서{{/}}{{titleParagraph}}{{@ class $highlightText}}상태: 부분 기밀 해제{{/}}{{pargraphStart}}3시 47분, 균열이 붕괴했습니다. 이상 현상의 활동이 멈췄습니다. 이제 구역은 안전합니다.{{pargraphStart}}붕괴 직전 마지막 순간, 아틀라스 측정기가 이전에 기록된 모든 값을 초과하는 에너지 급증 현상을 감지했습니다. 승무원들은 이상 현상의 중심에서 물리적 실체가 나타나는 것을 목격했습니다. 해당 현상은 12초 이후에 사라졌고, 이후 균열은 닫혔습니다.{{pargraphStart}}공식 성명: 사건은 종결되었습니다. 해당 구역의 방어를 성공적으로 마무리하였으며, 구역 격리가 해제되었습니다.{{pargraphStart}}{{@ class $highlightText}}관측관의 개인 일지 (특정 인원 열람 가능){{/}}{{pargraphStart}}우리가 이긴 것이 아닙니다. 그저 현상이 끝난 것입니다.{{pargraphStart}}이것은 침공이 아니었습니다. 위장이었습니다. 붕괴 직전, 균열 중심에 나타난 무언가를 둘러싼 보호 행위였습니다.{{pargraphStart}}수십 개의 오벨리스크가 동시에 나타났습니다. 그것들이 무엇을 하고 있었는지는 아직 모릅니다. 아틀라스가 모든 수치를 기록했지만, 해석하는 데는 시간이 걸릴 것입니다. 한 가지 확실한 것은 이상 현상이 어떤 과정을 완료했다는 것입니다.{{pargraphStart}}무엇을 하고 있었든, 우리는 다음 공격에 대비해야 합니다. 이제 데이터는 충분합니다. 우리 기술자들은 이미 기록을 검토하고 있으며, 솔직히 말해서 그들이 그렇게 흥분한 것은 처음 봅니다. 기술자들은 우리 전차를 대폭 강화할 수 있다고 생각합니다. 다음 균열이 발생하기 전에 모든 목표를 달성해야 합니다.{{pargraphStart}}한 가지 생각이 머리에서 떠나지 않습니다. 이러한 현상이 이곳에서 짧은 시간 동안 반복해서 일어났다면, 이전에는 과연 몇 번이나 발생했던 것일까요? 아틀라스의 부재로 그 누구도 목격할 수 없던 환경에서 말입니다...{{pargraphStart}}서명: 관측관 (프로젝트 M)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. 만반의 준비"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. 어째서 이곳인가?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. 잘못된 질문"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. 종결"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "일반 난이도를 완료하면 다음 스토리를 진행할 수 있습니다."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "상급 난이도를 완료하면 다음 스토리를 진행할 수 있습니다."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "잔혹 난이도를 완료하면 마지막 스토리를 진행할 수 있습니다."
+
+msgid "narration/tooltips/nextStory"
+msgstr "다음 스토리"
+
+msgid "preBattle/leave"
+msgstr "대기열 나가기"
+
+msgid "preBattle/searching"
+msgstr "아군 검색 중..."
+
+msgid "preBattle/tip"
+msgstr "작전 부대를 찾는 시간이 너무 길어지면 난이도를 변경해 보십시오."
+
+msgid "preBattle/uppercase/leave"
+msgstr "대기열 나가기"
+
+msgid "promoWindow/header"
+msgstr "최후의 저항"
+
+msgid "promoWindow/subheader"
+msgstr "PvE 모드 \"최후의 저항\" 신규 챕터가 {dateRange}부터 진행됩니다.\n테마 {cream_open}3D 부착물{cream_close}, 시제 장비 등 특별 보상을 획득할 기회를 놓치지 마십시오."
+
+msgid "questCard/allCompleted"
+msgstr "모든 일일 임무 완료"
+
+msgid "questCard/completed"
+msgstr "일일 임무 완료\n내일 이용 가능"
+
+msgid "reward/rest"
+msgstr "외 %(count)s개"
+
+msgid "rewardPath/about"
+msgstr "목표 정보"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "이벤트 진행 세부 정보"
+
+msgid "rewardPath/boostTitle"
+msgstr "진행 가속 및 데이터 추가 획득 {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "상점에서 보기"
+
+msgid "rewardPath/completed"
+msgstr "모든 데이터 및 보상 획득"
+
+msgid "rewardPath/completedTitle"
+msgstr "상점으로 이동하여 특별 테마 전차 꾸미기 요소 확인"
+
+msgid "rewardPath/intro"
+msgstr "인트로"
+
+msgid "rewardPath/introTooltip"
+msgstr "인트로 영상 시청"
+
+msgid "rewardPath/progress"
+msgstr "스테이지 {artefactIndex}에서 획득한 데이터: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "진행 상황"
+
+msgid "rewardPathCard/completed"
+msgstr "완료"
+
+msgid "rewardPathCard/name"
+msgstr "해독 보상"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "이벤트 패키지"
+
+msgid "squad/goToAnother/cancel"
+msgstr "취소"
+
+msgid "squad/goToAnother/message"
+msgstr "소대가 해산됩니다."
+
+msgid "squad/goToAnother/submit"
+msgstr "확인"
+
+msgid "squad/goToAnother/title"
+msgstr "최후의 저항: 북부 전선 이벤트를 종료하시겠습니까?"
+
+msgid "squad/leave/cancel"
+msgstr "취소"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "소대가 해산됩니다."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "확인"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "최후의 저항: 북부 전선 이벤트 종료"
+
+msgid "squad/leave/message"
+msgstr "소대가 해산됩니다."
+
+msgid "squad/leave/submit"
+msgstr "확인"
+
+msgid "squad/leave/title"
+msgstr "최후의 저항: 북부 전선 소대를 떠나시겠습니까?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "계속"
+
+msgid "squad/leaveDisabled/message"
+msgstr "소대에 참여 중이며 전투 준비가 완료되었습니다."
+
+msgid "squad/leaveDisabled/title"
+msgstr "소대를 떠날 수 없습니다!"
+
+msgid "stageReward/rewards/received"
+msgstr "그 외 보상"
+
+msgid "stageReward/special/header"
+msgstr "잔혹 난이도 완료!"
+
+msgid "stageReward/special/subheader"
+msgstr "특별 보상 획득"
+
+msgid "stageReward/stage/header"
+msgstr "보상 획득"
+
+msgid "stageReward/stage/subheader"
+msgstr "최후의 저항: 스테이지 {{number}} 완료"
+
+msgid "stageReward/stageFinal/header"
+msgstr "모든 보상 획득 완료"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "최후의 저항: 최종 스테이지 완료"

@@ -1,0 +1,116 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "card/about_vehicle"
+msgstr "เกี่ยวกับพาหนะ"
+
+msgid "card/unknown"
+msgstr "พาหนะไม่รู้จัก"
+
+msgid "defaultName"
+msgstr "{{count}} รายชื่อใช้เล่นใหม่"
+
+msgid "dialogs/delete/button/cancel"
+msgstr "ยกเลิก"
+
+msgid "dialogs/delete/button/submit"
+msgstr "ลบ"
+
+msgid "dialogs/delete/title"
+msgstr "ลบรายชื่อใช้เล่น {{playlistTitle}} ?"
+
+msgid "dialogs/import/button/submit"
+msgstr "นำเข้า"
+
+msgid "dialogs/import/input/alert"
+msgstr "รหัสไม่ถูกต้อง"
+
+msgid "dialogs/import/input/message"
+msgstr "รหัสรายชื่อใช้เล่น"
+
+msgid "dialogs/import/title"
+msgstr "นำเข้ารายชื่อใช้เล่น:"
+
+msgid "dialogs/save/button/cancel"
+msgstr "ออก"
+
+msgid "dialogs/save/button/submit"
+msgstr "บันทึกแล้วออก"
+
+msgid "dialogs/save/title"
+msgstr "บันทึกรายชื่อใช้เล่นก่อนออก?"
+
+msgid "editScreen/button/exit"
+msgstr "ออก"
+
+msgid "editScreen/button/save"
+msgstr "บันทึกรายชื่อใช้เล่น"
+
+msgid "editScreen/create/body"
+msgstr "กด \\+\\ หรือลากพาหนะมายังพื้นที่นี้เพื่อสร้างรายชื่อใช้เล่นใหม่"
+
+msgid "editScreen/create/title"
+msgstr "เพิ่มพาหนะ"
+
+msgid "editScreen/input/placeholder"
+msgstr "ใส่ชื่อรายชื่อใช้เล่น"
+
+msgid "edit_button/body"
+msgstr "ใช้รูปแบบแก้ไขเพื่อปรับแก้หรือลบรายชื่อใช้เล่น"
+
+msgid "edit_button/title"
+msgstr "รูปแบบแก้ไข"
+
+msgid "empty_state/empty_list/body"
+msgstr "เข้าสู่รูปแบบแก้ไขเพื่อเพิ่มพาหนะสู่รายชื่อใช้เล่นนี้"
+
+msgid "empty_state/empty_list/title"
+msgstr "รายชื่อใช้เล่นไม่มีพาหนะ"
+
+msgid "empty_state/not_found/body"
+msgstr "ลองปรับการตั้งค่าตัวกรองเพื่อให้เห็นมากขึ้น"
+
+msgid "empty_state/not_found/title"
+msgstr "ไม่พบพาหนะ"
+
+msgid "imports/trigger"
+msgstr "นำเข้ารายชื่อใช้เล่น"
+
+msgid "list/create"
+msgstr "สร้างรายชื่อใช้เล่น"
+
+msgid "list/remove"
+msgstr "ลบรายชื่อใช้เล่น"
+
+msgid "managaeble_playlists/buttons/cancel/title"
+msgstr "ยกเลิก"
+
+msgid "managaeble_playlists/buttons/create/tooltipBody"
+msgstr "สร้างรายชื่อใช้เล่น"
+
+msgid "managaeble_playlists/buttons/manage/tooltipBody"
+msgstr "รายชื่อใช้เล่น"
+
+msgid "managaeble_playlists/buttons/save/title"
+msgstr "บันทึก"
+
+msgid "managaeble_playlists/header/title"
+msgstr "เลือกรายชื่อเล่น"
+
+msgid "share/copy_button/body"
+msgstr "ใช้รหัสรายชื่อใช้เล่นเพื่อนำเข้ารายชื่อใช้เล่น"
+
+msgid "share/copy_button/title"
+msgstr "คัดลอกรหัสรายชื่อใช้เล่น"
+
+msgid "trigger/explain"
+msgstr "ใช้รายการลากลงเพื่อดูและเปลี่ยนรายชื่อใช้เล่น"
+
+msgid "unnamedTemplate"
+msgstr "รายชื่อใช้เล่นไม่ได้ตั้งชื่อ {{count}}"
+
+msgid "validation/unavailable/body"
+msgstr "รายชื่อใช้เล่นนี้ประกอบด้วยพาหนะที่ไม่ได้อยู่ในโรงรถของคุณ\nคุณสามารถดูพาหนะทั้งหมดในรายชื่อใช้เล่นในรูปแบบแก้ไข"
+
+msgid "validation/unavailable/title"
+msgstr "ไม่มีพาหนะให้ ({{display}}/{{total}})"

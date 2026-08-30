@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "Một bộ các thông số thể hiện cái nhìn tổng quan về hiệu quả khai hỏa vào địch."
+
+msgid "domain/accuracy/name"
+msgstr "Hiệu quả Khai hỏa"
+
+msgid "domain/armorPiercing/description"
+msgstr "Một bộ các thông số thể hiện khả năng xuyên giáp xe địch."
+
+msgid "domain/armorPiercing/name"
+msgstr "Độ xuyên"
+
+msgid "domain/battleParams/description"
+msgstr "Một bộ các thông số thể hiện cơ chế cốt lõi của lối chơi."
+
+msgid "domain/battleParams/name"
+msgstr "Thông số Chiến đấu"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "Chế độ này có hệ số điều chỉnh riêng, làm thay đổi đặc tính của các xe."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "Hệ số chỉnh Cường kích Giản thể"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "Chế độ này có hệ số điều chỉnh riêng, làm thay đổi đặc tính của các xe."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "Hệ số Chỉnh Cường kích"
+
+msgid "domain/concealment/description"
+msgstr "Một bộ các thông số thể hiện khả năng tránh bị phát hiện của xe."
+
+msgid "domain/concealment/name"
+msgstr "Ngụy trang"
+
+msgid "domain/damageDealing/description"
+msgstr "Một bộ các thông số thể hiện khả năng gây thiệt hại của xe."
+
+msgid "domain/damageDealing/name"
+msgstr "Sát thương"
+
+msgid "domain/mobility/description"
+msgstr "Một bộ các thông số thể hiện khả năng cơ động và tốc độ của xe."
+
+msgid "domain/mobility/name"
+msgstr "Cơ động và Tốc độ"
+
+msgid "domain/randomization/description"
+msgstr "Một bộ các thông số thể hiện khoảng giá trị lý thuyết của sát thương và độ xuyên."
+
+msgid "domain/randomization/name"
+msgstr "Giá trị Ngẫu nhiên"
+
+msgid "domain/sustaining/description"
+msgstr "Một bộ các thông số thể hiện khả năng hồi phục của mô-đun bị hư hại/kíp lái bị thương."
+
+msgid "domain/sustaining/name"
+msgstr "Sửa chữa"
+
+msgid "domain/visibility/description"
+msgstr "Một bộ các thông số thể hiện khả năng phát hiện xe địch."
+
+msgid "domain/visibility/name"
+msgstr "Tầm Nhìn"
+
+msgid "domain/vitality/description"
+msgstr "Một bộ các thông số thể hiện khả năng sống sót của xe trong trận đánh."
+
+msgid "domain/vitality/name"
+msgstr "Kháng cự"
+
+msgid "modifier/name/aimingTime"
+msgstr "Thời gian Ngắm"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "Độ bền gác đạn"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "Thời gian tái nạp cho xe có hệ thống tái nạp tự động"
+
+msgid "modifier/name/battleLength"
+msgstr "Thời gian đánh"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "Tốc độ lùi tối đa"
+
+msgid "modifier/name/burstInterval"
+msgstr "Thời gian tái nạp đạn trong băng"
+
+msgid "modifier/name/chassisHealth"
+msgstr "Độ bền khung gầm"
+
+msgid "modifier/name/clipInterval"
+msgstr "Thời gian nạp giữa các viên trong băng"
+
+msgid "modifier/name/damageRandomization"
+msgstr "Khoảng sát thương lý thuyết"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "Sát thương mô-đun trong"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "Độ phân tán sau khi bắn"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "Điều khiển khi di chuyển"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "Độ phân tán khi xoay thân"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "Độ phân tán khi xoay tháp pháo"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "Độ phân tán của súng bị hư hại"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "Xác suất cháy động cơ"
+
+msgid "modifier/name/engineHealth"
+msgstr "Độ bền động cơ"
+
+msgid "modifier/name/enginePower"
+msgstr "Công suất động cơ"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "Tổn hại hệ giảm xóc khi va chạm"
+
+msgid "modifier/name/envHullDamage"
+msgstr "Tổn hại thân xe khi va chạm"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "Tổn hại lên các mô-đun khác khi va chạm"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "Chấn thương kíp lái khi va chạm"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "Thời gian hồi phục vật phẩm"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "Độ bền thùng nhiên liệu"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "Tốc độ tiến tối đa"
+
+msgid "modifier/name/gravityFactor"
+msgstr "Trọng lực xe"
+
+msgid "modifier/name/gunHealth"
+msgstr "Độ bền súng"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "Tốc độ quay súng trong cabin cố định"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "Độ ẩn giấu khi di chuyển"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "Độ ẩn giấu khi xe đứng yên"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "Góc thường hóa của đạn"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "Khoảng xuyên giáp lý thuyết"
+
+msgid "modifier/name/radioDistance"
+msgstr "Tầm tín hiệu"
+
+msgid "modifier/name/reloadTime"
+msgstr "Thời gian tái nạp"
+
+msgid "modifier/name/repairSpeed"
+msgstr "Tốc độ sửa chữa"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "Góc nảy đạn. Góc càng nhọn, xác suất nảy đạn càng cao"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "Tốc độ xoay thân"
+
+msgid "modifier/name/shellGravity"
+msgstr "Trọng lực đạn"
+
+msgid "modifier/name/shellSpeed"
+msgstr "Vận tốc đạn"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "Độ phân tán ở 100 m"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "Độ bền thiết bị quan sát"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "Thiệt hại từ áp lực của tháp pháo văng ra đè lên"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "Thiệt hại từ tháp pháo văng trúng"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "Tốc độ quay tháp pháo"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "Độ bền cơ chế xoay tháp"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "Nạp Đạn trong Chế độ Bắn Song song"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "Khoảng cách đồ họa"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "Sức kháng cự của xe"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "Thiệt hại từ áp lực"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "Thiệt hại từ đâm/húc"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "Bán kính hiển nhiên phát hiện"
+
+msgid "modifier/name/visionRadius"
+msgstr "Tầm nhìn"
+
+msgid "modifier/name/visionTime"
+msgstr "Thời gian lộ hình"
+
+msgid "modifier/name/zeroDamage"
+msgstr "Thiệt hại gây ra từ bắn và đâm húc"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "Tài nguyên đã tiêu & kiếm từ các trận ở chế độ"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "không&nbsp;quá&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "không&nbsp;ít hơn&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(nhưng {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(nhưng {min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "Hệ số điều chỉnh ảnh hưởng đến những số sau:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "Điều chỉnh ảnh hưởng đến thông số sau:"

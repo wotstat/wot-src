@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "1発ずつ砲弾を発射し、時間経過により次の砲弾が自動で装填されます。"
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "1発ずつ砲弾を発射し、時間経過により次の砲弾が自動で装填されます。装填中、次の砲弾の装填速度にボーナスが加算されます。"
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "急速な連射を行い、短時間で高ダメージを与えます。貫通力と精度は低いものの、近接戦闘で最も効果的です。"
+
+msgid "abilities/common/description/damageMutable"
+msgstr "50 m以内の至近距離で砲弾を貫通させると最大火力を発揮する星型弾底弾を発射します。敵との距離が開くほどダメージが減少するため、近接戦で最も効果的です。"
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "装填を行ってから一定時間が経過すると、主砲の射撃精度が向上する砲身冷却システムです。向上した射撃精度は2つ目の小さな照準サークルで示されます。"
+
+msgid "abilities/common/description/dualGun"
+msgstr "両方の主砲を個別または同時に発射できる2連装砲システムです。斉射では高いダメージを与えることができますが、装填時間が長くなります。"
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "車体の仰角を変え、戦闘中により多くのポジションから射撃できるようになります。さまざまな条件を満たすことで発動します。"
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "追加の車輪の位置を変更することで速度を大幅に向上させますが、代わりに旋回性能が低下します。長距離の移動や奇襲に有効です。"
+
+msgid "abilities/common/description/magazineGun"
+msgstr "弾倉内の砲弾を連射できる一方で、砲弾を撃ち切った後に長時間の装填が必要となります。瞬間的に高いダメージを与えられるものの、長い装填中は大きな隙となります。弾倉全体でしか再装填は行えません。"
+
+msgid "abilities/common/description/overheatGun"
+msgstr "装填を挟まずに連続で砲撃できる主砲。砲撃を行うたびに熱が発生し、温度が上がるほど一部のパラメーターがさらに変化する。連続砲撃を続けると主砲が過熱し、冷えるまで射撃不能となる。"
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "エンジン出力と最大速度を向上させて、戦場を迅速に移動します。ただしジェットブースターを発動すると旋回性能が低下し、一度発動すると手動では解除できません。"
+
+msgid "abilities/common/description/siegeMode"
+msgstr "発動すると特定の戦闘パラメーターが向上、または変化します。ポジションに到着し、敵車輌と交戦する準備が整ってからの使用が最適です。"
+
+msgid "abilities/common/description/stun"
+msgstr "一定の爆発範囲内の敵車輌にスタン効果を与え、直撃しなくても一時的に機動性、射撃精度、装填速度を低下させます。敵車輌がスタンすると特殊インジケーターが表示されます。"
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "主要履帯を切断されても移動し続けることができます。ただし移動速度は大幅に低下します。外側の予備履帯も切断されると機動性がさらに低下しますが、それでも旋回および移動が可能です。"
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "超高速で走行します。一方で砲塔の操作に関するパラメーターは著しく減少します。"
+
+msgid "abilities/common/description/twinGun"
+msgstr "発動すると与ダメージが2倍になるほか、特定の戦闘パラメーターが向上、または変化します。近接戦闘での使用に最も適しています。"
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "自動再装填砲"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "改良型自動再装填砲"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "自動連射砲"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "深溝ライフル砲"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "砲身冷却"
+
+msgid "abilities/common/name/dualGun"
+msgstr "2連装砲"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "油気圧サスペンション"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "スピードモード"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "自動装填砲"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "過熱制御式自動連射砲"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "ジェットブースター"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "射撃モード"
+
+msgid "abilities/common/name/stun"
+msgstr "スタン"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "予備履帯"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "ターボモード"
+
+msgid "abilities/common/name/twinGun"
+msgstr "斉射モード"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "静止または低速で移動している間、次の射撃の精度を向上させる「精度レベル」が貯まっていく。\n最大レベルまで貯まると、射撃精度が大幅に向上するほか、移動や砲塔および車体の旋回に伴う散布界の拡大が著しく抑えられる。"
+
+msgid "abilities/special/description/battleFury"
+msgstr "敵に砲弾を命中させるたびに、「装填レベル」が貯まっていく。貯まったレベルに応じて、主砲の装填速度が一時的に向上する。\n射撃により敵車輌を撃破すると、追加のレベルが貯まる。"
+
+msgid "abilities/special/description/chargeShot"
+msgstr "主砲の装填が完了している間、次の射撃の与ダメージを向上させる「ヒート・レベル」が貯まっていく。レベルが高いほど、与ダメージも増加する。\nただし、最大レベルまで貯まった状態で、射撃を行わないまま一定時間が経過するとオーバーヒートを起こし、一時的に射撃不能になる。"
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "敵車輌の装甲を2回貫通すると「バースト・モード」が発動して、挿弾子が装填されるようになる。モードの発動中は、2連射のバースト射撃が可能になり、特大の瞬間ダメージを与えることができる。"
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "「油気圧式ジャイロ安定装置」が発動すると、移動中、車体および砲塔の旋回中の主砲の安定性が最大まで向上する。これにより、さらに正確な射撃が可能になるほか、敵の奇襲に対して迅速に対応したり、遮蔽物を挟んでの撃ち合いをより優位に進めることができるようになる。"
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "砲弾カセットが残り1発になった時点で、次のカセットの装填が開始され、交戦中の隙を短くすることができる。次のカセットの装弾中でも現在のカセット内の最後の砲弾を撃つことができるが、その場合、装填中のカセットの装填時間に数秒が加算される。"
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "システムによって主砲が冷却状態に保たれ、射撃精度が向上する。発射すると主砲は加熱するものの、装填中に冷却が始まり、パラメーターが良好な値へと戻っていく。温度が高いほど、一部パラメーターの変動が大きくなる。"
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "過去の車輌の設計や戦場での経験に基づいて、体当たり攻撃を強化するための特殊な改良が施されている。構造的な強度が増しているため、敵に与える体当たりダメージが増加しており、近距離での戦闘を優位に進めることができる。"
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "本車輌の主砲は、装填が完全に終わるのを待たずとも射撃できるようになっている。装填中の射撃は「単一チャージ」砲撃となり、主砲の性能が低下する。一方で、装填完了後に発射する「完全チャージ」砲撃では、諸元通りの主砲性能が発揮される。"
+
+msgid "abilities/special/description/overheatGun"
+msgstr "装填を挟まずに連続で砲撃できる主砲。砲撃を行うたびに熱が発生し、温度が上がるほど一部のパラメーターがさらに変化する。連続砲撃を続けると主砲が過熱し、冷えるまで射撃不能となる。"
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "静止または低速で移動している間、次の射撃のダメージと精度を向上させる「予熱レベル」が貯まっていく。最大レベルまで貯まった状態で、自車輌の平均ダメージより、HPが少ない敵車輌を貫通すると、必ず弾薬庫が誘爆する。"
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "「要塞」モードに切り替えると、車輌が実質的に装甲要塞に変わり、射撃精度と装填速度が飛躍的に向上する。その代償として、前進速度と後退速度、そして垂直方向と水平方向への車体の旋回速度が極端に低下する。"
+
+msgid "abilities/special/description/powerMode"
+msgstr "このモードでは、エンジン出力と最大速度が大幅に上昇する。さらに、前進すればするほど速度が上がっていくようになり、マップを高速で駆け抜け、長い距離であっても素早く移動できる。"
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "時間経過とともにシステムが自動的にチャージを蓄積し、チャージ量が多いほどダメージへのボーナスが大きくなる。チャージはリミッターによって上限が設定されているものの、リミッターは解除できる。リミッターを解除して主砲の取り回しの良さを犠牲にすることで、さらに大きなダメージへのボーナスを得られる。"
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "「液体燃料ブースター」を使用すると、短い間、機動性が大幅に向上する。また使用しても、クールダウンさえ終われば繰り返し発動できる。ただしオーバーヒートすると、一時的に完全に使用不能になる。"
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "数秒間、車輌の加速性能、機動性、俊敏性を強化する固体燃料スラスター。通常のジェットブースターと異なり、左右スラスターを独立作動させて車体旋回速度をさらに高められ、後退性能も制限されない。"
+
+msgid "abilities/special/description/stanceDance"
+msgstr "有効になっているモードと貯まったレベルに応じて、次のふたつの効果のいずれかが発動する。\n【イオン・ブースター】エンジン出力と速度を向上させる。\n【同時計測エレキ・サイト】散布界を縮小し、装填速度と射撃精度を向上させる。"
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "弾倉内の装填が1発でも終わっていれば、装填を中断して射撃できる。専用キーを押すと装填を中断でき、短い遅延を挟んで射撃が可能になる。その後、再び専用キーを押すと装填を再開できるほか、弾倉内の砲弾を撃ち切ると自動的に装填が始まる。"
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "専用キーを押すと、照準中の敵に補助兵装による射撃を行うことができる。補助兵装の装填サイクルは、主砲の装填サイクルとは独立している。"
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "次弾が敵車輌に命中した場合、その敵車輌の発見ステータスに応じた効果が発動する。被発見状態の敵車輌に命中した場合、その車輌はマークされ、被発見状態の持続時間が延長されるとともに、被ダメージが増加する。非発見状態の敵車輌に命中した場合、その車輌の位置が専用のマーカーでハイライト表示される。"
+
+msgid "abilities/special/description/twinGun"
+msgstr "機動性、射撃精度、砲塔旋回速度、照準速度を犠牲に、与ダメージが2倍になるほか、移動や旋回に伴う散布界の拡大がほぼなくなる。近接戦闘での使用に最も適している。"
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "機械的な改良により、車輌の加速性能、エンジン出力、最大前進および後退速度が短時間、大幅に向上し、敵の攻撃に素早く反応したり、ダイナミックな機動で敵の不意を突いたりできるようになる。"
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "アナログ弾道演算装置"
+
+msgid "abilities/special/name/battleFury"
+msgstr "セミオート装填"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "放熱弾道チャージ"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "バースト・モード"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "油気圧式ジャイロ安定装置"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "カセット式装填システム"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "アクティブ砲身冷却システム"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "ラミング特化構成"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "マルチチャージ機構"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "過熱制御式自動連射砲"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "サーモ推進制御システム"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "要塞モード"
+
+msgid "abilities/special/name/powerMode"
+msgstr "直結駆動モード"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "電磁誘導アフターバーナー"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "液体燃料ブースター"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "連続式ロケット・スラスター"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "戦術的バッテリーパック"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "外付け給弾モジュール"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "補助兵装"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "レーザー照射器"
+
+msgid "abilities/special/name/twinGun"
+msgstr "斉射モード"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "高圧ターボチャージャー・アシスト"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "次の射撃の精度を向上させる。最大レベルでは散布界の拡大が著しく抑えられる。"
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "敵に砲弾を命中させるたびに、主砲の装填速度が一時的に向上する。"
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "「ヒート・レベル」を貯めて次弾の与ダメージを増加させる。"
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "2連射のバースト射撃が可能な挿弾子に装填を切り替える。"
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "移動中、車体および砲塔の旋回中の主砲の安定性を最大まで向上させることにより、さらに正確な射撃が可能になる。"
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "砲弾カセットが残り1発になった時点で、次のカセットの装填が開始される。次のカセットの装弾中でも現在のカセット内の最後の砲弾を撃つこともできる。"
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "主砲の冷却状態を保ち、射撃精度を向上させるシステム。"
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "敵車輌に与える体当たりダメージを増加させる。"
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "主砲性能を損なう代わりに装填が完全に終わる前に射撃可能"
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "装填を挟まずに連続で砲撃でき、砲撃時に主砲がどのように熱を発生させるかを制御する。"
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "静止、または低速で移動している間、次弾の与ダメージと射撃精度を向上させる。"
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "主砲の射撃精度と装填速度を飛躍的に向上させる一方で、機動性が極端に下がる。"
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "エンジン出力を強化するとともに、車輌が走行を続ければ続けるほど最大速度が上がっていく。"
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "システムをチャージすることで与ダメージが増加する。チャージ量が多いほど、与ダメージも大きくなる。"
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "発動すると、短時間、急激に速度が上昇する。条件を満たせば繰り返し発動できる。"
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "加速性能、機動性、俊敏性を強化する固体燃料スラスター。"
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "移動速度か、主砲の射撃精度のどちらかを向上させる。"
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "弾倉内の装填が1発でも終わっていれば、必要に応じて装填を中断して射撃できる。"
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "追加兵装を搭載しており、主砲以外にもダメージを与える手段を持っている。"
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "敵の被発見状態を延長し、被ダメージを増加させる、または専用マーカーで敵の位置をハイライトする。"
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "射撃後の装填速度が低下する代わりに、2連装砲から同時に射撃する。"
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "短時間、エンジン出力、加速性能、最大速度を向上させる特殊システム。"
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "静止、または一定の速度以下で移動している間、次の射撃の精度を向上させる「精度レベル」が「アナログ弾道演算装置」に貯まっていく。自車輌が一定の速度を超えた場合、再び速度が下がるまで、レベルの上昇が一時停止する。最大レベルまで貯まると、射撃精度が大幅に向上するほか、移動や砲塔および車体の旋回に伴う散布界の拡大が著しく抑えられる。射撃を行うと効果はリセットされる。"
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "発見状態の敵に砲弾を命中させるたびに、「装填レベル」が貯まっていく。貯まったレベルに応じて、主砲の装填速度が一時的に向上する。射撃により敵車輌を撃破すると、追加のレベルが貯まる。"
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "主砲の装填が完了している間、次の射撃の平均ダメージを増加させる「ヒート・レベル」が貯まっていく。レベルが高いほど、平均ダメージへのボーナスも増加する。ただし、レベルが上昇している間は弾種を変更できない。最大レベルまで貯まると、カウントダウンが始まり、カウントが終わるまでに射撃を行わないとオーバーヒートを起こし、数秒間にわたり射撃不能になる。"
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "敵車輌の装甲を2回貫通すると、「バースト・モード」が発動します。発動中は砲弾が挿弾子に装填され、2連射のバースト射撃になるため、特大の瞬間ダメージを与えることができます。"
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "「油気圧式ジャイロ安定装置」が発動すると、移動中、車体および砲塔の旋回中の主砲の安定性が短い間、最大まで向上する。これにより、さらに正確な射撃が可能になるほか、敵の奇襲に対して迅速に対応できるようになる。"
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "砲弾カセットが残り1発になった時点で、次のカセットの装填が開始される。次のカセットの装弾中でも現在のカセット内の最後の砲弾を撃つことができるが、その場合、装填中のカセットの装填時間に数秒が加算される。「装填」のショートカット・キーを押すと、残りの1発の除くカセット内の砲弾の装填をリセットする。「装填」のショートカット・キーを2度押しすると、完全装填済みのカセットの装填をリセットする。"
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "システムによって主砲が冷却状態に保たれ、射撃精度が向上する。発射すると主砲は加熱するものの、装填中に冷却が始まり、パラメーターが良好な値へと戻っていく。温度が高いほど、一部パラメーターの変動が大きくなる。"
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "体当たり攻撃を強化するための特殊な改良が施されており、与える体当たりダメージが増加する。"
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "本車輌の主砲は、装填が完全に終わるのを待たずとも射撃できるようになっている。装填中の射撃は「単一チャージ」砲撃となり、主砲の性能が低下する。一方で、装填完了後に発射する「完全チャージ」砲撃では、諸元通りの主砲性能が発揮される。"
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "装填を挟まずに連続で砲撃できる主砲。砲撃を行うたびに熱が発生し、温度が上がるほど一部のパラメーターがさらに変化する。連続砲撃を続けると主砲が過熱し、冷えるまで発射不能となる。"
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "静止、または一定の速度以下で移動している間、次の射撃の平均ダメージと精度を向上させる「予熱レベル」が貯まっていく。自車輌が一定の速度を超えた場合、ボーナスが徐々に減っていく。また、射撃したり、弾種を変更したりすると、効果が即座にリセットされる。最大レベルまで貯まった状態で、レベルによるボーナスを加味した自車輌の平均ダメージより、HPが少ない敵車輌を貫通すると、必ず弾薬庫が誘爆する。"
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "このモードに切り替えると、射撃精度と装填速度が飛躍的に向上し、仰俯角も広がる。その代償として、前進速度と後退速度、そして垂直方向と水平方向への車体の旋回速度が極端に低下する。"
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "直結駆動モードでは、エンジン出力と最大速度が大幅に上昇する。前進すればするほど速度が上がっていくようになり、マップを高速で駆け抜けることができる。"
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "時間経過とともにシステムが自動的にチャージを蓄積し、砲撃時にその一部を消費してダメージを増加させる。チャージが多いほど、与ダメージへのボーナスも大きくなる。デフォルトでは、システムは一定の上限までしかチャージを蓄積できない。リミッターを解除すると、さらに多くチャージを蓄積でき、より大きなダメージへのボーナスを得られるが、主砲の取り回しは悪化する。"
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "「液体燃料ブースター」を使用すると、短い間、機動性が大幅に向上し、素早く射撃ポジションへ向かうことができる。一方で、後退速度と旋回速度が下がる。「ブースター」は、オーバーヒート状態の時を除き、オンとオフを自由に切り替えられる。使用中は熱が蓄積していくため、クールダウンを挟まずに使用し続けることはできず、オーバーヒートすると、一時的に完全に使用不能になる。大きな隙を生むことを避けるには、計画的な使用が求められる。"
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "数秒間、車輌の加速性能、機動性、俊敏性を強化する固体燃料スラスター。通常のジェットブースターと異なり、左右のスラスターを独立作動させて車体旋回速度をさらに高められ、後退性能も制限されない。1戦につき複数回使用できるが、再使用までにクールダウンが必要。"
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "発動中のモードとチャージのレベルに応じて、次のふたつの効果のいずれかが発動する。\n 【イオン・ブースター】エンジン出力、最大速度、旋回速度を一時的に向上させる。【同時計測エレキ・サイト】射撃精度を向上させ、装填時間を短縮する。"
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "「外付け給弾モジュール」により、弾倉内の装填が1発でも終わっていれば、装填を中断して射撃できるようになっている。装填中は、自車輌の砲塔と外付け給弾ポッドが、モジュールによりロックされ、装填を中断しない限り、一時的に照準や射撃ができなくなる。"
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "主砲とは独立した装填サイクルを持った「補助兵装」が搭載されている。これにより、重要な場面で追加のダメージを与えることができる。"
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "「レーザー照射器」を使用すると、次弾が敵車輌に命中した際に、その敵車輌の発見ステータスに応じた効果が発動する。被発見状態の敵車輌に命中した場合、その車輌はマークされ、被発見状態の持続時間が延長されるとともに、射撃による被ダメージが増加する。非発見状態の敵車輌に命中した場合、その車輌の位置が専用のマーカーでハイライト表示される。"
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "機動性、射撃精度、砲塔旋回速度、照準速度を犠牲に、与ダメージが2倍になるほか、移動や旋回に伴う散布界の拡大がほぼなくなる。近接戦闘での使用に最も適している。"
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "機械的な改良により、車輌の加速性能、エンジン出力、最大前進および後退速度が短時間、大幅に向上し、敵の攻撃に素早く反応したり、ダイナミックな機動で敵の不意を突いたりできるようになる。また、高い移動速度を維持すると、本メカニズムのクールダウンが短縮される。"
+
+msgid "characteristics/abilities/special/notes"
+msgstr "表示されている数値は、この車輌で発揮できる最大値です。拡張パーツ、ディレクティブ、消耗品によって数値はさらに変化しますが、こちらには反映されません。"
+
+msgid "characteristics/templates/upTo"
+msgstr "最大%(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "購入して搭載"
+
+msgid "modules/controls/button/field_modification"
+msgstr "野戦改修"
+
+msgid "modules/controls/button/mount"
+msgstr "搭載"
+
+msgid "modules/controls/button/research"
+msgstr "研究"
+
+msgid "modules/controls/button/sell"
+msgstr "倉庫から売却"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "この車輌は戦闘中です。車輌のモジュールの変更は戦闘終了後に行えます。"
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "この車輌は損傷しています。車輌のモジュールを変更するには修理する必要があります。"
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "現在の「{{module}}」と互換性がないため搭載できません。"
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "車輌が小隊に参加中です。"
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "このモジュールを研究するにはこの車輌を購入する必要があります。"
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "このモジュールを研究するには先行するモジュールを研究する必要があります。"
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "このモジュールを研究するにはこの車輌を研究する必要があります。"
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "全モジュールを研究済みです。"
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "このモジュールは搭載済みです。"
+
+msgid "modules/controls/descriptor/researched"
+msgstr "研究するモジュールまたは車輌を選択してください。"
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "この車輌は戦闘中です。車輌のモジュールの変更は戦闘終了後に行えます。"
+
+msgid "modules/controls/name"
+msgstr "選択中: {{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr "、"
+
+msgid "modules/name/vehicleChassis"
+msgstr "履帯"
+
+msgid "modules/name/vehicleEngine"
+msgstr "エンジン"
+
+msgid "modules/name/vehicleGun"
+msgstr "主砲"
+
+msgid "modules/name/vehicleRadio"
+msgstr "無線機"
+
+msgid "modules/name/vehicleTurret"
+msgstr "砲塔"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "車輪"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "コレクション車輌"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "ボンズを取得可能"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "戦闘での取得クレジットへのボーナス"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "車輌タイプに適性があれば乗せ換え時のペナルティーなし"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "戦闘での取得EXPや搭乗員EXPへのボーナス"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "ボンズ"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "クレジット"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "搭乗員"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "EXP"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "ボンズ取得可能"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "取得クレジット増加"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "無料転属"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "取得EXP増加"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "無料修理キット"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "ボンズを取得可能"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "戦闘での取得クレジットへのボーナス"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "車輌タイプを問わずペナルティーなし"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "戦闘での取得EXPや搭乗員EXPへのボーナス"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "ボンズ"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "クレジット"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "搭乗員"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "EXP"
+
+msgid "overview/crew/name"
+msgstr "搭乗員 {{@ class $classBracket}}({{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}){{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "メカニズムを確認"
+
+msgid "overview/title/generalDescription"
+msgstr "車輌説明"
+
+msgid "overview/title/historicalReference"
+msgstr "歴史的背景"
+
+msgid "researchPurchase/discountTimer"
+msgstr "{{date}}まで"
+
+msgid "researchPurchase/recover"
+msgstr "{{date}}までリカバリー可能"
+
+msgid "tabs/armor"
+msgstr "装甲"
+
+msgid "tabs/modules"
+msgstr "モジュール"
+
+msgid "tabs/overview"
+msgstr "概要"
+
+msgid "tabs/stats"
+msgstr "性能"
+
+msgid "tabs/vehSkillTree"
+msgstr "アップグレード"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "レンタル期間終了"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "サブスクリプションが停止中"

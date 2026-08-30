@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} trong Clan"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "ĐẾN TÌNH HÌNH TÀI KHOẢN"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "QUAY LẠI"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Bạn sẽ có thể thay thế một bản đồ sau {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Hiện/ẩn bản đồ thuộc loại này."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Bản đồ Sa mạc"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Bản đồ Mùa hè"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Bản đồ Mùa đông"
+
+msgid "mapsBlacklist/header"
+msgstr "Bản đồ Tẩy chay"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Loại bản đồ không thích khỏi vòng chơi. Có WoT Premium loại thêm 1 bản đồ, WoT Plus thêm %(mapCount)s bản đồ nữa. Nếu bất cứ thuê bao nào hết hạn, bản đồ tẩy chay sẽ trở lại vòng chơi từ cái bên phải ngoài cùng."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Bản đồ Tẩy chay"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Những bản đồ này chỉ bị tẩy chay khỏi Trận đấu Ngẫu nhiên."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Mỗi %(maxCooldownTimeStr)s, bạn được đổi một bản đồ tẩy chay."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Tính năng này khả dụng cho xe Cấp IV trở lên."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "Trong Trung đội, chỉ những bản đồ do Chỉ huy chọn mới bị loại."
+
+msgid "mapsBlacklist/mapName"
+msgstr "\"{mapName}\""
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Bản đồ được hiển thị: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Bản đồ được hiển thị: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Loại bản đồ:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Hủy bỏ"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Tắt"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Bản đồ đã chọn sẽ được thay thế bằng bản đồ {mapNameStr}. Bạn có thể sửa đổi lựa chọn của mình sau {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Bạn muốn thay thế bản đồ nào?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Tẩy chay"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Chọn bản đồ mà bạn muốn thay thế"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Hủy bỏ"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Tắt"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Bạn có thể thay đổi lựa chọn của mình sau {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Tẩy chay bản đồ {mapNameStr} khỏi Trận đấu Ngẫu nhiên?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Tẩy chay"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Tẩy chay"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Tẩy chay bản đồ {mapNameStr}?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Chấp nhận"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Chấp nhận bản đồ {mapNameStr} trong Trận đấu Ngẫu nhiên?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Bạn có thể thay thế bản đồ này sau {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Thay thế Bản đồ Không khả dụng"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Bạn có thể thay thế bản đồ này sau {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Thay thế Bản đồ Không khả dụng"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Chưa được chọn"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Click chọn một bản đồ để tẩy chay khỏi Trận đấu Ngẫu nhiên."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Chưa Chọn Bản đồ"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Bản đồ {mapName} đã tẩy chay có thể được thay bằng bản đồ khác."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Thay thế Bản đồ Khả dụng"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Bạn có thể thay thế bản đồ {mapName}sau {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Thay thế Bản đồ Không khả dụng"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Thêm một ô nữa chỉ khả dụng khi có Tài khoản Premium WoT."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Ô không khả dụng"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Chọn một bản đồ từ danh sách dưới đây để tẩy chay nó khỏi Trận đấu Ngẫu nhiên."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Chưa Chọn Bản đồ"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Chọn một bản đồ từ danh sách dưới đây để tẩy chay nó khỏi Trận đấu Ngẫu nhiên."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Thay thế Bản đồ Khả dụng"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Bạn có thể thay thế bản đồ này sau {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Thay thế Bản đồ Không khả dụng"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Ô để tẩy chay thêm một bản đồ nữa chỉ khả dụng khi có Tài khoản Premium WoT."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Ô không khả dụng"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Hủy bỏ"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Bạn có thể thay đổi lựa chọn của mình trong {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Thay thế"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Tẩy chay"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Tẩy chay bản đồ %(mapName)s khỏi Trận đấu Ngẫu nhiên?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Bản đồ đã chọn sẽ được thay thế bằng {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Bạn có thể đổi quyết định sau %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Bạn muốn thay thế bản đồ nào?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Bản đồ này sẽ được thay thế bằng {whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}. Bạn có thể đổi quyết định sau %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Bạn có muốn thay thế bản đồ này?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Kiểm soát hạn chế từ phụ huynh đã được áp dụng cho tài khoản này.\nBạn có thể xem chi tiết về việc này {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Phụ huynh Kiểm soát"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "trên trang chủ game"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Kho Bạc Dự trữ"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s ng"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s giờ"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 ph"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s ph"

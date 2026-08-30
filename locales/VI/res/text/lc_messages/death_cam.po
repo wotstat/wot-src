@@ -1,0 +1,194 @@
+msgid "fatal_shell/penetration_range"
+msgstr "%(from)d-%(to)d mm"
+
+msgid "fatal_shell/penetration_value"
+msgstr "%(penetration)d mm"
+
+msgid "hints/camera_flow/buttonText"
+msgstr "SPACE"
+
+msgid "hints/camera_flow/pause"
+msgstr "Chế độ Nâng cao (%(duration))"
+
+msgid "hints/camera_flow/pauseSimplified"
+msgstr "Dừng (%(duration))"
+
+msgid "hints/camera_flow/resume"
+msgstr "Tiếp tục (%(duration))"
+
+msgid "hints/death_reason/destroyed"
+msgstr "Xe đã bị tiêu diệt"
+
+msgid "hints/death_reason/legacyHE"
+msgstr "Thiệt hại từ mảnh đạn nổ"
+
+msgid "hints/death_reason/modernHE"
+msgstr "Thiệt hại từ mảnh giáp vỡ"
+
+msgid "hints/death_reason/nonPenetrationDamage"
+msgstr "Sát thương Bề mặt"
+
+msgid "hints/death_reason/penetration"
+msgstr "Trúng trực tiếp"
+
+msgid "hints/follow_pt1"
+msgstr "Click chuột trái"
+
+msgid "hints/follow_pt2"
+msgstr "để theo dõi xe này"
+
+msgid "hints/free_cam/return_previous"
+msgstr "Click chuột phải để quay lại xe trước đó"
+
+msgid "hints/height/label"
+msgstr "Chiều cao"
+
+msgid "hints/height/text"
+msgstr "Chỉnh độ cao camera nội trong giới hạn nhất định."
+
+msgid "hints/movement/label"
+msgstr "Di chuyển"
+
+msgid "hints/movement/text"
+msgstr "Để di chuyển camera, hãy sử dụng các phím %(forward)s, %(left)s, %(backward)s, %(right)s."
+
+msgid "hints/skip/buttonText"
+msgstr "ESC"
+
+msgid "hints/skip/label"
+msgstr "Bỏ qua"
+
+msgid "hints/spectatorDown"
+msgstr "SHIFT"
+
+msgid "hints/spectatorUp"
+msgstr "SPACE"
+
+msgid "hints/speed/label"
+msgstr "Tốc độ"
+
+msgid "hints/speed/text"
+msgstr "Điều chỉnh tốc độ camera."
+
+msgid "hints/spotted_status/spotted"
+msgstr "Bị lộ diện"
+
+msgid "hints/spotted_status/unspotted"
+msgstr "Bắn Mù"
+
+msgid "marker/paramName/angleFailure"
+msgstr "Góc không xuyên"
+
+msgid "marker/paramName/angleImpact"
+msgstr "Góc xuyên"
+
+msgid "marker/paramName/angleRicochet"
+msgstr "Góc nảy"
+
+msgid "marker/paramName/armorNominal"
+msgstr "Giáp danh nghĩa {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/armorRelative"
+msgstr "Giáp {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/damageDistanceModifier"
+msgstr "Hệ số chỉnh khoảng cách {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/deathReason/crew"
+msgstr "Kíp lái bị hạ!"
+
+msgid "marker/paramName/deathReason/detonation"
+msgstr "Gác đạn bị nổ!"
+
+msgid "marker/paramName/deathReason/ignition"
+msgstr "Bị cháy!"
+
+msgid "marker/paramName/is2CaliberRuleApplied"
+msgstr "Nguyên tắc Cỡ nòng gấp 2"
+
+msgid "marker/paramName/is3CaliberRuleApplied"
+msgstr "Nguyên tắc Cỡ nòng gấp 3"
+
+msgid "marker/paramName/nonArmored"
+msgstr "Không có giáp"
+
+msgid "marker/paramName/shellArmorAngleGain"
+msgstr "Giáp nhận thêm bởi độ nghiêng {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellCaliber"
+msgstr "Cỡ nòng {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBasic"
+msgstr "Sát thương trung bình {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageBurst"
+msgstr "Sát thương tiềm năng {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/legacyHE"
+msgstr "Sát thương gây ra từ mảnh đạn nổ {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/modernHE"
+msgstr "Sát thương gây ra từ mảnh giáp vỡ {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/nonPenetrationDamage"
+msgstr "Sát thương Bề mặt Đã gây ra {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageEffective/penetration"
+msgstr "Sát thương gây ra {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossDistance"
+msgstr "Giảm theo khoảng cách {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionHe"
+msgstr "Chặn được bởi giáp {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageLossProtectionSpallLiner"
+msgstr "Giảm bởi thiết bị {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellDamageRandomizationFactor"
+msgstr "Độ ngẫu nhiên sát thương {colorTagOpen}(HP){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationBasic"
+msgstr "Độ xuyên trung bình {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellPenetrationEffective"
+msgstr "Độ xuyên {colorTagOpen}(mm){colorTagClose}"
+
+msgid "marker/paramName/shellVelocityBasic"
+msgstr "Tốc độ đạn bay {colorTagOpen}(m/s){colorTagClose}"
+
+msgid "marker/paramName/shootDistance"
+msgstr "Khoảng cách {colorTagOpen}(m){colorTagClose}"
+
+msgid "marker/paramName/shootDistanceUnspotted"
+msgstr "Địch chưa bị phát hiện"
+
+msgid "marker/value/angle/exact"
+msgstr "%(value)s°"
+
+msgid "marker/value/angle/less"
+msgstr "< %(value)s°"
+
+msgid "marker/value/angle/more"
+msgstr "> %(value)s°"
+
+msgid "marker/value/applied"
+msgstr "Được áp dụng"
+
+msgid "marker/value/dashes"
+msgstr "--"
+
+msgid "marker/value/failed"
+msgstr "Không"
+
+msgid "marker/value/notAffected"
+msgstr "--"
+
+msgid "marker/value/signNegative"
+msgstr "- %(value)s"
+
+msgid "marker/value/signPositive"
+msgstr "+ %(value)s"
+
+msgid "marker/value/unspotted"
+msgstr "Không bị phát hiện"

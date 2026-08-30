@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "เติมคลังกระสุน"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "ปิด"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "เคลื่อนที่ถอยหลังโดยไม่ต้องกดปุ่ม"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "เคลื่อนที่ไปข้างหน้าโดยไม่ต้องกดปุ่ม"
+
+msgid "battleControls/disableLockTarget"
+msgstr "ยกเลิกการเล็งอัตโนมัติ"
+
+msgid "battleControls/fire"
+msgstr "ยิง"
+
+msgid "battleControls/hideInterface"
+msgstr "แสดง/ซ่อน หน้าจอ"
+
+msgid "battleControls/hideMinimap"
+msgstr "ซ่อน/แสดง แผนที่ย่อ"
+
+msgid "battleControls/makeScreenshort"
+msgstr "บันทึกภาพลงแฟ้ม"
+
+msgid "battleControls/movementBackward"
+msgstr "เคลื่อนที่ถอยหลัง"
+
+msgid "battleControls/movementForward"
+msgstr "เคลื่อนที่ไปข้างหน้า"
+
+msgid "battleControls/movementLeft"
+msgstr "เลี้ยวซ้าย"
+
+msgid "battleControls/movementRight"
+msgstr "เลี้ยวขวา"
+
+msgid "battleControls/pageTitle"
+msgstr "ข้อมูลทั่วไป"
+
+msgid "battleControls/showCursor"
+msgstr "เครื่องหมายแสดงตำแหน่ง"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(สำหรับแผนที่ย่อ, รายชื่อผู้เล่น, และอื่นๆ)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "แสดงเครื่องหมายอีกแบบ"
+
+msgid "battleControls/stopFire"
+msgstr "หยุดและยิง"
+
+msgid "battleControls/switchAutorotation"
+msgstr "ล็อคตัวถัง/เปลี่ยนรูปแบบ"
+
+msgid "battleControls/title"
+msgstr "แบบการรบ"
+
+msgid "battleControls/toggleAFL"
+msgstr "เปิด/ปิดไฟแสดงจุดอ่อนเกราะ"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "มีให้เฉพาะในการเล็งประณีตเท่านั้น"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "เปิด/ปิดการเล็งอัตโนมัติ"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(พร้อมด้วยศูนย์เล็งบนเป้าหมาย)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "แสดง/ซ่อนรายชื่อทีม"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "หรือชมเชยกลับ"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "เปิด/ปิดการเล็งประณีต"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "หรือการเล็งปืนใหญ่"
+
+msgid "battleControls/voiceChatMute"
+msgstr "เปิดการสนทนาเสียง"
+
+msgid "chatControls/change"
+msgstr "ถึงทีม / ถึงหมวดรถถัง"
+
+msgid "chatControls/enterToChatMode"
+msgstr "เข้าสู่การสนทนา"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "ออกจากการสนทนา"
+
+msgid "chatControls/send"
+msgstr "ส่งข้อความ"
+
+msgid "chatControls/title"
+msgstr "แบบการสนทนา"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "จำนวนกระสุนที่เหลือ"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "ทิศทางการยิง"
+
+msgid "crosshairControls/dispercion"
+msgstr "การกระจายกระสุน"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "ตำแหน่งปืน"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "ความคงทนของผู้เล่นที่เหลืออยู่"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "มาตรวัดความทนทาน"
+
+msgid "crosshairControls/hpValues"
+msgstr "ความทนทานเป้าหมาย (%/ความทนทานเหลือ/ทั้งหมด)"
+
+msgid "crosshairControls/marker"
+msgstr "จุดเล็ง"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "กำลังบรรจุกระสุน"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "ระยะบรรจุกระสุน เป็นวินาที"
+
+msgid "crosshairControls/targetClass"
+msgstr "เครื่องหมายชนิดยานเกราะ"
+
+msgid "crosshairControls/targetDistance"
+msgstr "ระยะทางถึงเป้าหมาย"
+
+msgid "crosshairControls/targetIcon"
+msgstr "สัญลักษณ์ยานเกราะ"
+
+msgid "crosshairControls/targetLevel"
+msgstr "ระดับ"
+
+msgid "crosshairControls/targetName"
+msgstr "รุ่นยานเกราะ / ชื่อผู้เล่น"
+
+msgid "crosshairControls/title"
+msgstr "ปืนและศูนย์เล็งชี้เป้า"
+
+msgid "detailsHelp/default/title"
+msgstr "การช่วยเหลือ"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "คุณลักษณะของแผนที่"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "จุดเกิดเหตุการณ์สุ่มจะทำเครื่องหมายด้วย\nควันบนแผนที่และเครื่องหมายบนแผนที่ย่อ\nแผนที่มีเหตุการณ์สุ่มจะสามารถปิดได้ด้วยการตั้งค่าในแถบเกม"
+
+msgid "detailsHelp/devMaps/title"
+msgstr "แผนที่มีเหตุการณ์สุ่ม"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "พาหนะของคุณสามารถถูกทำลายได้ในพื้นที่เหตุการณ์สุ่ม (ตัวอย่างเช่นเมื่อเครื่องบินตกใส่)\nแผนที่มีเหตุการณ์สุ่มจะสามารถปิดได้ด้วยการตั้งค่าในแถบเกม"
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "พาหนะที่มีระบบการยิงนี้จะเปลี่ยนปืนที่ใช้หลังจากการยิงไปแล้ว กระบอกที่ยิงไปจะเริ่มบรรจุอัตโนมัติ ในขณะที่กระบอกที่สองจะต้องรอใช้งานชั่วขณะหนึ่ง"
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "ยิงเร็ว"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "รถถังติดตั้งระบบปืนลำกล้องคู่นั้นมีกลไกการระดมยิงพิเศษที่ใช้งานด้วยการกดปุ่มที่กำหนดค้างไว้ กระสุนที่ยิงออกไปจะพุ่งขนานไปด้วยกัน ปุ่มควบคุมการยิงนั้นสามารถถูกเปลี่ยนได้ที่การตั้งค่า"
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "การระดมยิง"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "คุณสามารถเปลี่ยนรูปแบบเครื่องยนต์ให้เหมาะกับสถานการณ์ในการรบได้ การเปลี่ยนรูปแบบเครื่องยนต์จำเป็นต้องทำการหยุดแล่นและใช้เวลาพักหนึ่งซึ่งไม่ได้ขึ้นกับสถานะของชิ้นส่วนดังกล่าว"
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "กลไกการแล่นแบบใหม่"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "รูปแบบกังหันเพิ่มกำลังจะเพิ่มกำลังเครื่องยนต์ ความเร็วเดินหน้าและถอยหลัง อย่างไรก็ตาม รูปแบบนี้จะทำให้พาหนะของคุณถูกพบได้ง่ายขึ้น ลดการปรับเสถียรของปืนและเพิ่มเวลาการเล็ง"
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "จุดเด่นและจุดด้อย"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "คุณลักษณะของแผนที่"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "พาหนะที่อยู่ในพื้นที่สภาพอากาศท้องถิ่นจะไม่สามารถตรวจจับพาหนะนอกพื้นที่ได้แต่พาหนะนอกพื้นที่ก็จะไม่สามารถตรวจจับพาหนะภายในพื้นที่ได้เช่นกันการแลกเปลี่ยนข้อมูลของตำแหน่งพาหนะนอกพื้นที่ก็จะไม่สามารถทำได้ ไฟไหม้จะทำความเสียหายพาหนะ"
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "สภาพอากาศท้องถิ่น"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "อยู่นิ่งหรือแล่นต่ำกว่าความเร็วระดับหนึ่งเพื่อทำให้พาหนะของคุณปรับอุปกรณ์คำนวณขีปนวิถีอุปมานและเพิ่มขั้นความแม่นยำของกระสุนนัดถัดไปของคุณ\nแต่ละขั้นจะเพิ่มความแม่นยำของการยิงครั้งต่อไปของคุณและหายไปเมื่อทำการยิง"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "อุปกรณ์คำนวณขีปนวิถีอุปมาน"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "เมื่อปรับเต็มที่แล้ว พาหนะของคุณจะมีขั้นความแม่นยำสูงสุดและมีการปรับเสถียรปืนที่ดีโดยมีการกระจายกระสุนลดลงในระหว่างการหมุนตัวถัง\nป้อมปืนผลนี้จะหายไปเมื่อทำการยิง"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "การปรับเต็มที่"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "ชนิดของปืนอัตโนมัติที่มีอัตราการยิงที่สูงมาก ประสิทธิภาพการยิงนั้นจะแสดงด้วยตัววัดในวงการเล็ง"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "ปืนอัตโนมัติ"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "ปืนนี้สามารถยิงต่อเนื่องโดยไม่ต้องบรรจุใหม่ แต่ละนัดจะทำให้เกิดความร้อนและการยิงไม่หยุดจะทำให้ปืนร้อนเกินและยิงไม่ได้จนกว่าปืนจะเย็นลง"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "ปืนใหญ่อัตโนมัติควบคุมความร้อน"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "ทุกครั้งคุณยิงกระสุนเข้าข้าศึก คุณก็จะได้ขั้นประสิทธิภาพการบรรจุซึ่งเพิ่มความเร็วการบรรจุกระสุนเป็นการชั่วคราว การยิงเข้าแต่ละครั้งนั้นจะเป็นการสะสมขั้น\nการทำลายพาหนะข้าศึกได้ด้วยกระสุนจะทำให้มีขั้นประสิทธิภาพการบรรจุเพิ่มเติม"
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "รางกระสุนกึ่งอัตโนมัติ"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "ถ้าปืนของคุณบรรจุกระสุนไว้ คุณจะเริ่มเพิ่มความร้อนกระสุนนัดต่อไป ยิ่งมีขั้นความร้อนเพิ่มขึ้นเท่าใด โบนัสความเสียหายเฉลี่ยก็จะเพิ่มขึ้นตาม\nในการเริ่มกระบวนการทำความร้อนให้กด:"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "การเร่งพลังดินขับ"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "เมื่อคุณมีขั้นความร้อนสูงสุด ก็จะเริ่มทำการนับถอยหลัง ถ้าคุณไม่ได้ยิงก่อนที่เวลาหมดลง คุณจะไม่สามารถยิงหรือเปลี่ยนกระสุนเป็นเวลาหลายวินาที"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "ประจุความร้อนเกินพิกัด"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "ทำการยิงเจาะเกราะพาหนะข้าศึกสองครั้งเพื่อเปิดใช้การยิงชุดโดยเป็นการบรรจุตลับยิงชุดเพื่อทำให้ยิงกระสุนสองนัดต่อเนื่องในการยิงครั้งต่อไป"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "การยิงชุด"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "วงแหวนปรับเสถียรลมนั้นเพิ่มการปรับเสถียรให้สูงสุดระหว่างที่หมุนป้อมปืนและตัวถังเป็นเวลาสั้นๆทำให้ทำการยิงระหว่างแล่นได้แม่นยำกว่าเดิมและตอบสนองกับภัยฉับพลันได้รวดเร็ว\nในการเปิดใช้ให้กดปุ่มลัด:"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "วงแหวนปรับเสถียรลม"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "ถ้าปืนลดความร้อนได้เพียงพอหลังทำการยิง การกระจายกระสุนก็จะลดลง วงการเล็งที่สองที่มีขนาดเล็กกว่าก็จะปรากฎขึ้นซึ่งจะกำหนดตำบลกระสุนตก นี่จะมีผลจนกระทั่งทำการยิงนัดถัดไป"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "การเล็งสองระดับ"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "ระบบจะเริ่มทำการบรรจุตลับใหม่เมื่อมีกระสุนหนึ่งนัดเลือกในตลับปัจจุบัน\nการยิงกระสุนนัดสุดท้ายระหว่างที่กำลังบรรจุตลับใหม่จะเพิ่มเวลาอีกหลายวินาทีให้กับเวลาบรรจุที่เหลืออยู่"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "ระบบบรรจุตลับ"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "ระบบจะทำการหล่อเย็นให้กับตัวปืนและทำให้ยิงอย่างแม่นยำได้ ปืนจะค่อยๆเพิ่มความร้อนเมือ่ทำการยิงแต่จะเริ่มเย็นลงและคืนค่าคุณลักษณะระหว่างบรรจุใหม่ ยิ่งอุณหภูมิสูงเท่าใด ค่าคุณลักษณะของปืนบางอย่างก็จะเปลี่ยนมากขึ้น "
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "การหล่อเย็นปืนต่อเนื่อง"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "พาหนะคันนี้ปรับแต่งมาเป็นการพิเศษสำหรับการพุ่งชน ด้วยการปรับแก้การออกแบบที่ช่วยให้มันทำความเสียหายได้มากขึ้น"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "การปรับการป้อนกระสุน"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "ปืนยานเกราะคันนี้สามารถยิงก่อนได้ในแบบกระสุนประจุเดียว, ยิงในช่วงบรรจุ, มีประสิทธิภาพลดลง ในขณะที่กระสุนประจุเต็มที่จะยิงหลังบรรจแต่มีคุณลักษณะขีปนวิถีที่เหมาะสมกว่า"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "ระบบประจุหลายชุด"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "การอยู่นิ่งหรือแล่นต่ำกว่าความเร็วระดับหนึ่งจะเริ่มทำการประจุความร้อนที่จะเพิ่มความเสียหายเฉลี่ยและความแม่นยำของการยิงนัดต่อไป\nการเร่งความเร็วเกินจำกัดจะค่อยๆลดโบนัสดังกล่าว เมื่อทำการยิงหรือเปลี่ยนกระสุนจะล้างโบนัสที่มีทั้งหมด"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "ระบบควบคุมความร้อนเชื้อเพลิงขับเคลื่อน"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "ที่ขั้นประจุความร้อนสูงสุด การยิงเจาะเกราะพาหนะข้าศึกที่มีความทนทานน้อยกว่าความเสียหายเฉลี่ยของคุณรวมโบนัสประจุความร้อนที่สะสมเอาไว้ด้วย ก็จะทำให้รางกระสุนพาหนะดังกล่าวระเบิดและทำลายพาหนะโดยทันที"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "ความเสียหายขั้นเด็ดขาด"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "กำลังขับตรงจะทำการเร่งกำลังเครื่องยนต์และความเร็วเดินหน้าอย่างมาก ยิ่งคุณแล่นเดินหน้านานเท่าใด ความเร็วก็จะเพิ่มขึ้นมากขึ้นตามทำให้คุณสามารถพุ่งข้ามสนามรบและเข้าตำแหน่งได้ง่ายขึ้น"
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "กำลังขับตรง"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "ระบบจะทำการสะสมประจุเรื่อยๆซึ่งจะถูกใช้ไปบางส่วนในการเร่งความเสียหายขณะยิง ยิ่งจำนวนประจุมากเท่าใด โบนัสความเสียหายก็จะเพิ่มขึ้นตาม"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "ไอพ่นดินขับเหนี่ยวนำ"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "โดยมาตรฐานแล้วระบบจะบันทึกประจุจนถึงขีดจำกัดหนึ่งเท่านั้น การปิดตัวจำกัดจะทำให้สามารถเก็บประจุได้มากกว่าเดิมและมีโบนัสความเสียหายมากขึ้นแต่ลดการควบคุมปืน ในการเปิดหรือปิดตัวจำกัด ให้กด:"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "ตัวจำกัด"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "จรวดเชื้อเพลิงเหลวจะเพิ่มกำลังเครื่องยนต์ให้ชั่วคราวและทำให้สามารถแล่นข้ามสนามรบได้อย่างรวดเร็วแต่ก็จำกัดความเร็วการเลี้ยวและถอยหลัง จรวดสามารถปิดหรือเปิดเมื่อใดก็ได้ยกเว้นที่ขั้นความร้อนวิกฤติ\nในการเร่งให้กดปุ่มหรือกดค้าง:"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "จรวดเชื้อเพลิงเหลว"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "จรวดจะร้อนเกินพิกัดเมื่อใช้งานจนกระทั่งถึงระดับร้อนเกินพิกัดซึ่งจะทำให้จรวดใช้งานอีกครั้งไม่ได้เป็นการชั่วคราวจนกว่าจะเย็นลง วางแผนการใช้ของคุณให้ดีเพื่อไม่ให้เสียจังหวะการใช้งาน"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "ขั้นร้อนวิกฤต"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "การใช้ตัวเร่งไอพ่นจะเพิ่มความคล่องตัวของรถถัง มันจะทำให้คุณสามารถเข้ายึดจุดยิงที่ได้เปรียบหรือแล่นข้ามพื้นที่อันตรายได้เร็วขึ้น ตัวเร่งไอพ่นสามารถถูกใช้งานเป็นช่วงเวลาหนึ่งและมีจำนวนการใช้จำกัดต่อการรบ จรวดนี้ไม่สามารถถูกปิดหรือทำลายได้"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "ตัวเร่งไอพ่น"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "ก่อนการเปิดใช้งาน ตัวเร่งไอพ่นจะเพิ่มกำลังเครื่องยนต์และความเร็วเดินหน้าสูงสุด อย่างไรก็ตาม รถถังจะเลี้ยวได้ยากขึ้นและเสียความเร็วถอยหลังไป"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "จุดเด่นและจุดด้อย"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "จรวดไอพ่นเชื้อเพลิงแข็งที่เพิ่มอัตราการเร่ง, ความคล่องตัวและความว่องไวเป็นเวลาหลายวินาที ไอพ่นซ้ายและขวาสามารถทำงานแยกจากกันได้เพื่อให้หันตัวถังได้เร็วขึ้นและไม่จำกัดการถอยหลัง"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "จรวดไอพ่นตามลำดับ"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "พาหนะคันนี้มีสองแบบการใช้งานคือเทอร์โบและเข้าปะทะที่สามารถเปลี่ียนไปมาเมื่อใดก็ได้ ชุดพลังงานยุทธวิธีจะสะสมพลังงานสำหรับรูปแบบใช้งาน\nในการเปลี่ยนรูปแบบไปมา ให้กด"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "สองรูปแบบ"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "เมื่อชุดพลังงานยุทธวิธีเก็บประจุเต็มที่ ความสามารถเฉพาะรูปแบบก็จะมีให้ใช้งาน การเปิดใช้พลังงานนี้จะใช้พลังงานที่สะสมเอาไว้ทั้งหมดและมอบโบนัสที่ทรงพลังเป็นช่วงเวลาสั้นๆ\nในการเปิดความสามารถรูปแบบเฉพาะ ให้กด:"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "ความสามารถรูปแบบ"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "ชุดเสบียงกระสุนเพิ่มเติมทำให้คุณสามารถหยุดการบรรจุและเริ่มทำการยิงเมื่อใดก็ได้ ตราบเท่าที่คุณยังมีกระสุนบรรจุเอาไว้แล้วอย่างน้อยหนึ่งนัด ในการหยุดหรือคืนกระบวนการบรรจุ ให้กดปุ่มลัด:"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "ชุดเสบียงกระสุนเพิ่มเติม"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "ระหว่างบรรจุ ชิ้นส่วนจะล็อคป้อมปืนและกระเปาะกระสุนภายนอกของรถและทำให้คุณไม่สามารถเล็งหรือยิ่งได้ชั่วคราวจนกว่าคุณเลือกจะหยุดกระบวนการดังกล่าว"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "ชุดเสบียงกระสุนเพิ่มเติม"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "ยานเกราะคันนี้ติดตั้งชุดอาวุธรองที่มีรอบการบรรจุแยกออกจากปืนหลักทำให้คุณสามารถทำความเสียหายเพิ่มเติมในจังหวะที่คุณต้องการได้ ในการเปิดใช้อาวุธรอง ให้กดปุ่มลัด:"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "อาวุธรอง"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "อุปกรณ์ชี้เป้าเลเซอร์นั้นเพิ่มผลพิเศษให้กับการยิงครั้งต่อไปของคุณที่จะมีผลกับข้าศึกคันใดก็ตามที่คุณยิงเข้า ผลจะแตกต่างกันไปโดยขึ้นกับว่าข้าศึกนั้นถูกพบระหว่างที่กระสุนกระทบหรือไม่\nในการเปิดอุปกรณ์ชี้เป้าเลเซอร์ ให้กด:"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "อุปกรณ์ชี้เป้าเลเซอร์"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "การยิงเข้าพาหนะข้าศึกที่ถูกพบจะเป็นการระบุข้าศึกและเพิ่มระยะเวลาที่ข้าศึกปรากฎและเพิ่มความเสียหายที่ได้รับจากการถูกยิงด้วยกระสุน\nการยิงเข้าพาหนะข้าศึกที่ยังไม่ถูกพบจะเป็นการระบุตำแหน่งของพาหนะด้วยเครื่องหมายพิเศษ"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "การระบุเป้าหมาย"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "คุณสามารถเปลี่ยนรูปแบบการยิงแบบยิงทีละนัดเป็นระดมยิงโดยขึ้นกับสถานการณ์ในสนามรบ"
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "กลไกการเปลี่ยนรูปแบบการยิง"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "รูปแบบระดมยิงจะเพิ่มความเสียหายและเวลาบรรจุเป็นสองเท่าและกระสุนจะมีการกระจายแย่ลงที่ระยะ 100 เมตร*"
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "จุดเด่นและจุดด้อย"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "การปรับแต่งกลไกนี้จะเพิ่มการเร่งความเร็วเดินหน้าและถอยหลัง, กำลังเครื่องยนต์และความเร็วเดินหน้าและถอยหลังสูงสุดอย่างมากในช่วงเวลาสั้นๆ การรักษาความเร็วเคลื่อนที่สูงจะทำให้เร่งช่วงพักใช้ได้"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "ระบบช่วยตัวอัดอากาศเทอร์โบแรงดันสูง"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "ยังไม่ได้ตั้งปุ่มหลักเอาไว้ โปรดตั้งปุ่มในการตั้งค่าเกม"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "ในรูปแบบนี้ ความแม่นยำปืน, ความเร็วบรรจุและมุมยก/มุมกดปืนจะเพิ่มขึ้นอย่างมากแต่ความคล่องตัว (ความเร็วเดินหน้า/ถอยหลังและความเร็วการขยับแนวตั้ง/แนวระนาบ) นั้นจะจำกัดอย่างมาก ในการเปิดใช้รูปแบบ %(pressAndHold)s ปุ่มลัด:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "กดค้าง"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "รูปแบบรังปืน"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "ในรูปแบบนี้ ความแม่นยำปืน, ความเร็วบรรจุและมุมยก/มุมกดปืนจะเพิ่มขึ้น แต่ความคล่องตัว (ความเร็วเดินหน้า/ถอยหลัง) นั้นจะลดลง ในการเปิดใช้รูปแบบ ให้กดปุ่มลัด:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "รูปแบบยิงเร็ว"
+
+msgid "detailsHelp/role/description"
+msgstr "รับโบนัสให้กับประสบการณ์ด้วยการปฏิบัติการตามบทบาท:"
+
+msgid "detailsHelp/role/title"
+msgstr "บทบาทพาหนะในการรบ"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "ทำให้ยังสามารถแล่นได้แม้ตีนตะขาบหลักจะถูกทำลาย"
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "ตีนตะขาบสำรอง"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "ยานเกราะล้อเบาฝรั่งเศสนั้นมีความเร็วและความคล่องตัวสูงที่สุดแต่มีระยะการมองเห็นที่ปานกลาง ยานเกราะล้อไม่สามารถหมุนตัวถังขณะอยู่กับที่ได้"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "ทั้งหมด"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "กดปุ่ม %(key2)s และ %(key1)s ค้างไว้พร้อมกัน แถบพลังด้านล่างจะมีผลกับกำลังการเร่ง ปล่อยปุ่ม %(key1)s เพื่อใช้งานการเร่งหรือปล่อยปุ่ม %(key2)s เพื่อยกเลิกการเร่ง การเร่งจะทำให้สามารถเร่งความเร็วได้มากซึ่งนำไปใช้ในการลอบโจมตีหรือเดินกลยุทธ์หลบหลีก โปรดทราบ! การเร่งสามารถใช้ได้ต่อเมื่อพาหนะหยุดอยู่กับที่แล้วเท่านั้น การเปิดใช้การเร่งจะทำให้เครื่องยนต์ของคุณเสียหายได้"
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "ระบบเร่ง"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "ยานเกราะล้อได้รับความเสียหายน้อยลงเมื่อใช้ล้อรับแรงกระแทก ยานเกราะล้อจะยังเคลื่อนที่ได้แม้จะมีหนึ่งล้อถูกทำลายก็ตาม แต่ยิ่งมีล้อถูกทำลายมากขึ้น ความเร็วและความง่ายในการควบคุมพาหนะก็จะลดลง ยานเกราะล้อนั้นถูกทำให้เคลื่อนที่ไม่ได้ยากเพราะ้อที่ถูกทำลายจะทำการซ่อมจนกลับมาสภาพเดิมหลังจากระยะเวลาหนึ่ง"
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "ระบบช่วงล่างที่ทนทาน"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "กด %(key1)s เพื่อเปลี่ยนรูปแบบ พาหนะจะมีความเร็ว ความคล่องตัวและการควบคุมที่ต่างกันในแต่ละแบบ"
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "สองรูปแบบการเคลื่อนที่"
+
+msgid "markerColors/enemy"
+msgstr "ศัตรู"
+
+msgid "markerColors/friend"
+msgstr "พันธมิตร"
+
+msgid "markerColors/squadPlayer"
+msgstr "เพื่อนร่วมหมวดรถถัง"
+
+msgid "markerColors/teamKiller"
+msgstr "ผู้ฆ่าผู้เล่นฝ่ายเดียวกัน"
+
+msgid "markerColors/title"
+msgstr "สีเครื่องหมาย"
+
+msgid "markerMarks/attack"
+msgstr "กำลังโจมตี"
+
+msgid "markerMarks/follow"
+msgstr "ตามมา!"
+
+msgid "markerMarks/help"
+msgstr "ช่วยด้วย!"
+
+msgid "markerMarks/target/sau"
+msgstr "เป้าหมายของปืนใหญ่อัตตาจร"
+
+msgid "markerMarks/target/tank"
+msgstr "เป้าหมายของพาหนะ"
+
+msgid "markerMarks/title"
+msgstr "ปุ่มลัดบนแผนที่ย่อ:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "ป้องกัน!"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "ฉันกำลังป้องกัน!"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "กำลังเล็งไปที่นี่!"
+
+msgid "radialMenu/attack_enemy"
+msgstr "ต้องการการยิงเสริม!"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "กำลังโจมตีเป้าหมาย!"
+
+msgid "radialMenu/attacking_base"
+msgstr "ฉันจะเข้ายึด!"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "กำลังโจมตีเป้าหมาย!"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "ยึด!"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "ป้องกัน!"
+
+msgid "radialMenu/attention_to_position"
+msgstr "ระวังตำแหน่ง!"
+
+msgid "radialMenu/cancel_reply"
+msgstr "ปฏิเสธ"
+
+msgid "radialMenu/defending_base"
+msgstr "ฉันจะป้องกันเอง!"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "โจมตี!"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "ฉันกำลังโจมตี!"
+
+msgid "radialMenu/going_there"
+msgstr "กำลังแล่นไปที่ตำแหน่ง!"
+
+msgid "radialMenu/helpMe"
+msgstr "ช่วยด้วย!"
+
+msgid "radialMenu/helpMeEx"
+msgstr "ต้องการความช่วยเหลือ!"
+
+msgid "radialMenu/overheated_gun"
+msgstr "ปืนร้อนเกินไป!"
+
+msgid "radialMenu/positive"
+msgstr "รับทราบ!"
+
+msgid "radialMenu/reloadingGun"
+msgstr "กำลังบรรจุ!"
+
+msgid "radialMenu/reply_to_player"
+msgstr "ขอยืนยัน!"
+
+msgid "radialMenu/supporting_ally"
+msgstr "ฉันจะช่วยคุณเอง!"
+
+msgid "radialMenu/thanks"
+msgstr "ขอบคุณ!"
+
+msgid "radialMenu/turn_back"
+msgstr "ถอนตัว!"
+
+msgid "returnToGame"
+msgstr "Esc – กลับเข้าสู่การรบ"
+
+msgid "roleDescription/msg"
+msgstr "รับโบนัสให้กับประสบการณ์ด้วยการปฏิบัติการตามบทบาท:"
+
+msgid "settings/button"
+msgstr "การตั้งค่า"
+
+msgid "settings/help"
+msgstr "ถ้าต้องการที่จะดูและปรับแต่งการควบคุมเกม เลือก การตั้งค่า"
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "กำหนดเป้าหมายใช้งาน"
+
+msgid "teamComm/highlightLocation"
+msgstr "ระบุตำแหน่ง"
+
+msgid "teamComm/show"
+msgstr "แสดงรายการคำสั่ง"
+
+msgid "teamComm/show/ext"
+msgstr "(รายการคำสั่งนั้นขึ้นกับเป้าหมาย)"
+
+msgid "teamComm/title"
+msgstr "การสื่อสารกับทีม"
+
+msgid "vehicleTypes/title"
+msgstr "เครื่องหมายชนิดพาหนะ"

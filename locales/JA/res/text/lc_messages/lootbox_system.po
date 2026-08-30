@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "搭乗員と訓練"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "カスタマイズ"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "拡張パーツとディレクティブ"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "その他"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "車輌"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "了解！"
+
+msgid "autoOpenView/title"
+msgstr "入手した報酬"
+
+msgid "awardViews/footer/backButton/"
+msgstr "了解!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "ディレクティブ"
+
+msgid "bonuses/description/booster"
+msgstr "パーソナルリザーブ"
+
+msgid "bonuses/description/crewSkin"
+msgstr "搭乗員スキン"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "通常拡張パーツ"
+
+msgid "bonuses/description/style"
+msgstr "2Dスタイル"
+
+msgid "bonuses/description/style3D"
+msgstr "3Dスタイル"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "設計図のピース (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "汎用設計図のピース"
+
+msgid "bonuses/label/bpcoin"
+msgstr "バトルパス・トークン"
+
+msgid "boxTooltip/description/text/default"
+msgstr "開封すると、車輌やエコノミー関連のリソース、その他の貴重なアイテムがそれぞれ一定の確率でドロップします。\nボックスはゲーム内ショップから入手できます。"
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "確約報酬までの残り開封数 (それ以前にドロップしなかった場合)"
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "ボックスはゲーム内ショップから入手できます。"
+
+msgid "common/backButton"
+msgstr "戻る"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "タクティカル・ボックス"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "タクティカル・ボックス"
+
+msgid "common/closeButton"
+msgstr "閉じる"
+
+msgid "common/footer/checkbox"
+msgstr "開封アニメーション"
+
+msgid "common/getButton/lowerCase"
+msgstr "さらに入手"
+
+msgid "common/getButton/upperCase"
+msgstr "さらに入手"
+
+msgid "common/infoButton"
+msgstr "報酬リスト"
+
+msgid "common/loader"
+msgstr "ボックスを開封中……"
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count)個"
+msgstr[1] "%(count)個"
+msgstr[2] "%(count)個"
+
+msgid "common/rewards/multiplier"
+msgstr "×{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "日"
+msgstr[1] "日"
+msgstr[2] "日"
+
+msgid "common/selectTooltip"
+msgstr "一度に{{count}}個開封するにはボックスが不足しています。"
+
+msgid "common/statistics/emptyHeader"
+msgstr "ボックスを開封して統計を確認"
+
+msgid "common/statistics/header"
+msgstr "開封したボックス: %(count)"
+
+msgid "common/statsButton"
+msgstr "統計"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "キャンセル"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "報酬履歴が削除されます。"
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "リセット"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "統計をリセットしますか？"
+
+msgid "entryPoint/boxes"
+msgstr "ボックスへ"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "新登場の限定アイテムが一定の確率でドロップする特別なボックスです。ゲーム内ショップから入手できます。"
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "イベント終了まで"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "技術的な問題が発生しました。復旧作業のため、イベントを一時的に停止しています。"
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "一時的に停止中"
+
+msgid "eventName/lowerCase"
+msgstr "戦場の支援物資"
+
+msgid "eventName/upperCase"
+msgstr "戦場の支援物資"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)個"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)個"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)個"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)個"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "%(count)開封すると"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "車輌"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "%(count)少なくとも%(item)が1輌ドロップします。それより前にドロップした場合、カウンターはリセットされます。"
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "ドロップしうる車輌をすべてガレージに所有済みの場合は、代わりにゴールドを受け取ることができます。"
+
+msgid "guaranteedTitle/text"
+msgstr "もう%(count)個開封すると%(name)がドロップ"
+
+msgid "guaranteedTitle/textName"
+msgstr "確約報酬"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "開封"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s枚"
+
+msgid "homeView/subtitle"
+msgstr "イベント終了まで%(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "未開封のボックスは、イベント終了時に自動的に開封されます。"
+
+msgid "infoPage/footer/description/compensation"
+msgstr "ボックスからドロップしうる車輌をすべてガレージに所有済みの状態で「確約報酬」または車輌がドロップすると補償として車輌価格の全額に相当するゴールドが支払われます。"
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "%(guaranteed0)s個開封すると、Tier VIII～X車輌が最低でも1輌はドロップするようになっています。Tier VIII～X車輌が1輌もドロップしていない状態で、%(guaranteed0)s&zwnbsp;個目 (ボックスの種類によって変化) のボックスを開封すると、ガレージに所有していないTier VIII～X車輌が必ずドロップします。車輌がドロップすると、カウンターはリセットされます。"
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "自動開封"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "補償"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "確約報酬"
+
+msgid "infoPage/header/lootListLink"
+msgstr "アイテム一覧を公式HPで確認"
+
+msgid "infoPage/header/probability/description"
+msgstr "ドロップ率"
+
+msgid "infoPage/header/probability/title"
+msgstr "グループ"
+
+msgid "infoPage/header/rewards/description"
+msgstr "ひとつのグループからドロップする報酬はひとつまでです"
+
+msgid "infoPage/header/rewards/title"
+msgstr "報酬"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "さらに開封"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "%(name)からドロップ（%(boxesCount)箱開封）"
+
+msgid "multipleRewardView/header/title/"
+msgstr "入手した報酬"
+
+msgid "noBoxesView/description/"
+msgstr "ボックスはゲーム内ショップから入手できます。"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "ショップへ"
+
+msgid "noBoxesView/goToButton/"
+msgstr "所有中のボックスへ"
+
+msgid "preview/backLabel"
+msgstr "ボックスへ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "所有中のボックス: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "ボックスなし"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "続行"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "%(vehicleInfo)専用"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "3Dスタイル「%(style)」"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "イベント「%(eventName)s」は終了しました"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "所有中のボックスがすべて開封され、ドロップしたアイテムが自動的にアカウントに追加されます。"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "報酬を確認"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "報酬を入手!"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "イベント期間中に受け取らなかったアイテムを追加しました。"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "メンテナンスのためイベントは一時的に停止しています。"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "イベントが再開しました。ご不便をおかけして申し訳ございません。"
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s個)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "入手した報酬"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "エラー"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "前の操作が完了するまでお待ちください。"
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "こちらの操作は一時的に実行できません。時間をおいて再度お試しください。"
+
+msgid "serviceChannelMessages/start/button"
+msgstr "イベントに移動"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "イベント「%(eventName)s」が開幕しました"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "プレミアム車輌や貴重なアイテムを入手できるのは%(date)sまで！"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "ボックス統計をリセットできません。時間をおいて再度お試しください。"
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "その他の報酬"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "さらに開封"
+
+msgid "singleRewardView/header/title/"
+msgstr "入手した報酬"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "限定搭乗員"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D付属品"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "取得EXP5倍ミッション"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "ディレクティブ"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "設計図のピース"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "基礎教本、汎用基礎教本"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "基礎教本"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "消耗品"
+
+msgid "statisticsRewards/label/credits"
+msgstr "クレジット"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "中級～上級教本、汎用教本"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "搭乗員教本"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "搭乗員EXP3倍ミッション"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "ボンズ"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "カスタマイズ"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "ボンズ拡張パーツ"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "コンポーネント"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "試作拡張パーツ"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "フリーEXP"
+
+msgid "statisticsRewards/label/gold"
+msgstr "ゴールド"
+
+msgid "statisticsRewards/label/guide"
+msgstr "初級教本、汎用初級教本"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "初級教本"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "引き継ぎ指令書"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "通常拡張パーツ"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "パーソナルリザーブ"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "WoTプレミアムアカウント"
+
+msgid "statisticsRewards/label/rations"
+msgstr "糧食消耗品"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "特訓修了証"
+
+msgid "statisticsRewards/label/style"
+msgstr "2Dスタイル"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3Dスタイル"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "搭乗員"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "報酬拡張パーツ"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "車輌"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "統計をリセット"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "すべてのボックス統計をリセットします。"
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "その他の報酬: %(count)"
+msgstr[1] "その他の報酬: %(count)"
+msgstr[2] "その他の報酬: %(count)"
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "「%(label)」"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "国別設計図のピース"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). %(vehicleInfo)用の「%(label)」"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "補償されたスタイル: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "補償された車輌: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "ガレージに所有中の車輌に対する補填"

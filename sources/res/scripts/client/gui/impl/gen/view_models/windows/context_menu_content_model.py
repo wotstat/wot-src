@@ -1,0 +1,39 @@
+from frameworks.wulf import ViewModel
+from gui.impl.gen.view_models.ui_kit.list_model import ListModel
+
+class ContextMenuContentModel(ViewModel):
+    __slots__ = (b'onItemClicked',)
+
+    def __init__(self, properties=3, commands=1):
+        super(ContextMenuContentModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    @property
+    def contextMenuList(self):
+        return self._getViewModel(0)
+
+    @staticmethod
+    def getContextMenuListType():
+        return ListModel
+
+    def getItemsCount(self):
+        return self._getNumber(1)
+
+    def setItemsCount(self, value):
+        self._setNumber(1, value)
+        return
+
+    def getSeparatorsCount(self):
+        return self._getNumber(2)
+
+    def setSeparatorsCount(self, value):
+        self._setNumber(2, value)
+        return
+
+    def _initialize(self):
+        super(ContextMenuContentModel, self)._initialize()
+        self._addViewModelProperty(b'contextMenuList', ListModel())
+        self._addNumberProperty(b'itemsCount', 0)
+        self._addNumberProperty(b'separatorsCount', 0)
+        self.onItemClicked = self._addCommand(b'onItemClicked')
+        return

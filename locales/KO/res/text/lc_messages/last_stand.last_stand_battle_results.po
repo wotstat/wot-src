@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, 전투 시간: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "일반 난이도"
+
+msgid "info/difficult/2"
+msgstr "상급 난이도"
+
+msgid "info/difficult/3"
+msgstr "잔혹 난이도"
+
+msgid "info/mapName"
+msgstr "최후의 저항 • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "재생성 횟수: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "아군 전차가 모두 파괴되었습니다."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "제로를 저지하지 못했습니다."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "시간이 종료되었습니다."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "아군이 모두 전장을 떠났습니다."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "훌륭합니다! 더 어려운 임무에 도전할 준비가 되셨습니까?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "일반 난이도의 모든 적을 제거했습니다."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "훌륭한 성적입니다! 아무나 도달할 수 없는 수준입니다."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "잔혹 난이도의 모든 적을 제거했습니다."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "대단합니다! 이제 진정한 도전에 응할 시간입니다."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "상급 난이도의 모든 적을 제거했습니다."
+
+msgid "ribbon/ban"
+msgstr "제재 적용: 자리 비움/전장 이탈\n보상이 지급되지 않습니다."
+
+msgid "ribbon/banRecord"
+msgstr "제재 적용: 자리 비움/전장 이탈 사실이 확인되었습니다.\n보상이 지급되지 않습니다. 웨이브 저지 기록이 업데이트되지 않습니다."
+
+msgid "ribbon/noReward"
+msgstr "첫 번째 웨이브 방어 실패\n보상이 지급되지 않습니다."
+
+msgid "status/lose"
+msgstr "전투 종료"
+
+msgid "status/win"
+msgstr "승리"
+
+msgid "subtitle/lose"
+msgstr "방어 실패"
+
+msgid "subtitle/win"
+msgstr "훌륭합니다! 새로운 데이터를 수집했습니다."
+
+msgid "teamList/actions"
+msgstr "빠른 작업"
+
+msgid "teamList/teammates"
+msgstr "아군"
+
+msgid "time/record"
+msgstr "신규\n기록!"
+
+msgid "title/lose/noWaves"
+msgstr "전투 종료"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "웨이브 %(phaseNumber)s 완료"
+msgstr[1] "웨이브 %(phaseNumber)s 완료"
+msgstr[2] "웨이브 %(phaseNumber)s 완료"
+
+msgid "title/win"
+msgstr "모든 웨이브 완료"
+
+msgid "tooltip/ban"
+msgstr "제재 적용: 자리 비움/전장 이탈 사실이 확인되었습니다. 웨이브 저지 기록이 업데이트되지 않습니다."

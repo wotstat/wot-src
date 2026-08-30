@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "ยอมรับ"
+
+msgid "EULA/labels/agree"
+msgstr "ฉันยอมรับ"
+
+msgid "EULA/title"
+msgstr "ข้อตกลงอนุญาตใช้สิทธิ์ผู้ใช้ขั้นสุดท้าย"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "ที่อยู่อีเมล์นี้ถูกเชื่อมเข้าบัญชีของคุณอยู่แล้ว"
+
+msgid "accountCompletion/activate/button"
+msgstr "ส่งรหัส/เปลี่ยนอีเมล์"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "ส่งรหัสอีกครั้งหรือเปลี่ยนอีเมล์ของคุณใน %(timer) วิ"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "โปรดกรอกอีเมล์ของคุณอีกครั้ง"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "รหัสหมดอายุแล้ว โปรดกรอกอีเมล์ของคุณอีกครั้ง"
+
+msgid "accountCompletion/activate/keyError"
+msgstr "รหัสไม่ถูกต้อง"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "ถ้าคุณหาอีเมล์ดังกล่าวไม่เจอ โปรดตรวจสอบที่อยู่อีเมล์ของคุณเพราะอาจจะมีการกรอกผิดไป"
+
+msgid "accountCompletion/activate/text"
+msgstr "อีเมล์มีรหัสยืนยันจากทาง Wargaming.net ได้ถูกส่งไปยังที่อยู่  {whiteSpanish_Open}%(email){whiteSpanish_Close} โปรดกรอกรหัส 4 ตัวเลขเพื่อยืนยันอีเมล์ของคุณแล้วรับรางวัล"
+
+msgid "accountCompletion/activate/title"
+msgstr "ยืนยันที่อยู่อีเมล์"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "คุณกรอกรหัสผิดหลายครั้งเกินไป"
+
+msgid "accountCompletion/add"
+msgstr "เพิ่ม"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "ที่อยู่อีเมล์นี้ถูกเชื่อมเข้าบัญชีของคุณอยู่แล้ว"
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "อีเมล์ได้ถูกเชื่อมไว้แล้ว"
+
+msgid "accountCompletion/cancel"
+msgstr "ภายหลัง"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "อีเมล์ของคุณ"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "อีเมล์"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "เพิ่มอีเมล์ของคุณเพื่อรับรางวัลแล้วเข้ากิจกรรมเกมทั้งหมดได้เต็มที่"
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "เข้าเกมได้เต็มที่"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "เพิ่มและยืนยันที่อยู่อีเมล์ของคุณเพื่อรับรางวัลและ ปลดล็อคเนื้อหาใหม่ %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "สร้างบัญชีให้เสร็จสิ้น"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "บัญชีได้ถูกลงทะเบียนไว้กับที่อยู่อีเมล์นี้แล้ว"
+
+msgid "accountCompletion/emailForbidden"
+msgstr "ที่อยู่อีเมล์นี้ถูกห้ามใช้"
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "อีเมล์นั้นต้องไม่มีอักษรมากกว่า %(amount)s อักษร"
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "อีเมล์นั้นต้องมีอักษรอย่างน้อย %(amount)s อักษร"
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "อีเมล์ของคุณได้รับการยืนยันไปแล้ว"
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "ยืนยันอีเมล์แล้ว"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "คุณทำการขอเกินจำนวนที่ทำได้ คุณสามารถเปลี่ยนที่อยู่อีเมล์ของคุณ หรือส่งอีเมล์อีกครั้งใน %(timer)"
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "บริการอีเมล์นี้ถูกบล็อคในประเทศของคุณ"
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "บริการอีเมล์นี้ถูกห้ามใช้ในประเทศของคุณ"
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "ไม่สามารถทำการเชื่อมอีเมล์ได้"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "อีเมล์สามารถประกอบด้วยตัวอักษรอังกฤษ, ตัวเลข, เครื่องหมาย @, มหัพภาคและขีดเส้นใต้เท่านั้น"
+
+msgid "accountCompletion/later"
+msgstr "ภายหลัง"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "รางวัลสำหรับการยืนยันอีเมล์"
+
+msgid "accountCompletion/submit"
+msgstr "ยืนยัน"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "กำลังรอคิวอยู่ในเซิร์ฟเวอร์\nนี่อาจจะใช้เวลาซักครู่หนึ่ง"
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) บริการดังกล่าวไม่มีให้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon)ไม่มีบริการดังกล่าวให้เป็นการชั่วคราว\nโปรดลองใหม่ใน%(time)s"
+
+msgid "barracksExpand/cancel"
+msgstr "ยกเลิก"
+
+msgid "barracksExpand/message"
+msgstr "ใช้ทอง %(price)s แท่งขยายค่ายทหารด้วยเพื่อการเพิ่มเตียงเป็นจำนวน: %(count)s?"
+
+msgid "barracksExpand/submit"
+msgstr "ขยาย"
+
+msgid "barracksExpand/title"
+msgstr "ขยายค่ายทหาร"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "ตกลง"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "ทองไม่พอ"
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "ตกลง"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "ขยายค่ายทหาร"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "ยกเลิก"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "ผู้เล่นบางคนไม่พร้อมออกรบหรือมีจำนวนต่ำกว่าที่กำหนดไว้"
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "เริ่มการรบ"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "ไม่ครบ"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "เปิดใช้โบนัส %(newBoosterName)s"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "ยืนยัน"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "ยืนยันการเปิดใช้งาน"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "ถ้ากำลังสำรองส่วนตัว %(newBoosterName)s ถูกใช้งาน กำลังสำรองส่วนตัว %(curBoosterName)s ที่กำลังใช้อยู่จะถูกยกเลิกและถูกทำลายไป"
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "ยืนยัน"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "ยืนยันการเปิดใช้งาน"
+
+msgid "buyConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "buyConfirmation/message"
+msgstr "ซื้อ %(product)s ในราคา %(price)s?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "ซื้อ \"{%name}\" {%count} ชิ้น?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "ซื้ออุปกรณ์ '%(equipment)s'?"
+
+msgid "buyConfirmation/submit"
+msgstr "ซื้อ"
+
+msgid "buyConfirmation/title"
+msgstr "ยืนยันการซื้อ"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "เข้ากันไม่ได้"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " ด้วยชิ้นส่วนปัจจุบัน"
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "ยุทธปัจจัย \"%(conflicted)s\" จะถูกส่งไปยังโรงเก็บเนื่องจาก "
+
+msgid "buyInstallConfirmation/message"
+msgstr "ซื้อและติดตั้ง %(kind)s \"%(name)s\" บนพาหนะปัจจุบันในราคา %(price)s%(creditsIcon)s? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "ซื้อและติดตั้ง %(kind)s \"%(name)s\" บนพาหนะปัจจุบันเป็นเงิน %(price)s?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "ซื้อ"
+
+msgid "buyInstallConfirmation/title"
+msgstr "ยืนยันการซื้อ"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "ซื้อบัญชีพิเศษเป็นเวลา %(days)s ด้วย %(gold)s?\n %(alertIcon)s %(alertColorTagOpen)s เนื่องจากความขัดข้องทางเทคนิค คุณจะไม่ได้รับค่าประสบการณ์หรือเงินเพิ่มเติม พยายามเลือกการรบอื่นหรือซื้อบัญชีพิเศษผ่านทางรายการซื้อบัญชีพิเศษ%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "ซื้อ"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "ยืนยันการซื้อ"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "ช่องเก็บในโรงรถ"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "buySlotConfirmation/message"
+msgstr "ซื้อช่องเพิ่มเติมโรงรถในราคา %(goldCost)s?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "ซื้อ"
+
+msgid "buySlotConfirmation/title"
+msgstr "ยืนยันการซื้อ"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "ตกลง"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "เงินไม่มากพอที่จะทำการซื้อช่องเก็บ"
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "ตกลง"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "เงินไม่พอ"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "ตกลง"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "ไม่มีทองพอสำหรับการซื้อช่องเก็บเพิ่ม"
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "ตกลง"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "ทองไม่พอ"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "ไม่มีช่องในโรงรถให้ ซื้อช่องเพิ่มเติมด้วยเงิน {%d} เหรียญ?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "ซื้อ"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "ยืนยันการซื้อ"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "บรรจุกระสุนมาตรฐาน"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "ยกเลิก"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "คุณมีพลรถถังสำหรับพาหนะคันนี้แล้ว"
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "ในช่วงการเช่าพาหนะ คุณจะได้รับช่องเก็บเพิ่มโดยไม่เสียเงิน"
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "ไม่สามารถบรรจุกระสุนได้: พาหนะที่เลือกไว้มีกระสุนเต็มแล้ว"
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "ไม่สามารถบรรจุกระสุนได้: พาหนะที่เลือกไว้มีกระสุนอยู่บางส่วน"
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "ราคา: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "ช่องเก็บเพิ่มในโรงรถ"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "ซื้อ"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "ซื้อ"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "แลกซื้อ"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "ซื้อรถถังโดยไม่มีพลรถถัง"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "ฝึกฝนพลรถถัง"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "พลรถถัง %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "ซื้อ %(vehiclename)s"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "รวม:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "คุณใส่ข้อมูลไม่ถูกต้อง"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "ใส่จำนวนทองจากช่อง \"รวม\""
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "ยืนยันการปฏิบัติการ:"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "คุณไม่มีพาหนะเหมาะสมสำหรับการนำไปแลกคันใหม่"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "ค่าที่ประเมินไว้คือ %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "ฝึกพลรถถัง: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "รวม:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "เลือกพาหนะ"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "เลือกพาหนะพิเศษ\nที่สามารถนำไปแลกได้"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "ยกเลิก"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "ราคาเพิ่มเติมสำหรับ %(vehiclename)s:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "แลกเปลี่ยน"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "ซื้อรถถังโดยไม่มีพลรถถัง"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "แลกซื้อ %(vehiclename)s"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "อุปกรณ์และยุทธปัจจัยที่ซื้อจะไม่ถูกคืนเป็นทองทันทีที่คุณคลิกปุ่มแลกซื้อด้านล่าง โปรดตรวจสอบรายละเอียดทั้งหมดให้ดี"
+
+msgid "buyVehicleWindow/warning"
+msgstr "สินค้าที่ซื้อไปแล้วจะไม่มีการคืนเป็นทองเมื่อคุณคลิกที่ปุ่ม \"ซื้อ\" ด้านล่าง โปรดตรวจสินค้าให้แน่ใจก่อนยืนยัน"
+
+msgid "challenge_missions/activation/cancel"
+msgstr "ยกเลิก"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "เปิดใช้งาน"
+
+msgid "challenge_missions/activation/description"
+msgstr "เมื่อเปิดใช้งานแล้ว ชุดภารกิจเตาหลอมจะสามารถ{{@ style (color #FFE4C0)}}ปฏิบัติให้สำเร็จ, ล้มเหลวหรือละทิ้งได้{{/}}ถ้าคุณล้มเหลวภารกิจในชุด คุณจะเสียโล่หนึ่งอัน"
+
+msgid "challenge_missions/activation/title"
+msgstr "เปิดใช้เตาหลอม: {{challengeName}}?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "ยกเลิก"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "เริ่มใหม่"
+
+msgid "challenge_missions/restart/description"
+msgstr "ความก้าวหน้าภารกิจของคุณจะถูกตั้งใหม่ โล่ของคุณจะถูกคืนสภาพและคุณจะสามารถได้รับรางวัลอีีกครั้ง ชุดภารกิจนั้นจะเปิดใช้ทันทีีหลังจากทำการเริ่มใหม่"
+
+msgid "challenge_missions/restart/free/title"
+msgstr "เริ่มเตาหลอมใหม่: {{challengeName}} ฟรี?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "เริ่มเตาหลอมใหม่: {{challengeName}} ด้วย {{cost}}?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "ยกเลิก"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "ละทิ้ง"
+
+msgid "challenge_missions/surrender/description"
+msgstr "การละทิ้งจะจบชุดภารกิจเตาหลอมนี้และตั้งความก้าวหน้าและโล่ใหม่ทั้งหมด คุณสามารถเริ่มใหม่เมื่อใดก็ได้"
+
+msgid "challenge_missions/surrender/title"
+msgstr "ละทิ้งเตาหลอม: {{challengeName}}?"
+
+msgid "changeGraphics/cancel"
+msgstr "ยกเลิก"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s กราฟฟิคถูกเปลี่ยนแปลงอย่างมากในอัพเดตนี้ คุณสามารถเลือกการตั้งค่ากราฟฟิคโดยอัตโนมัติหรือยกเลิกการเลือกอัตโนมัติและเปลี่ยนการตั้งค่าด้วยตัวเองได้"
+
+msgid "changeGraphics/submit"
+msgstr "เลือกอัตโนมัติ"
+
+msgid "changeGraphics/title"
+msgstr "การเลือกค่ากราฟฟิคอัตโนมัติ"
+
+msgid "changePeriphery/cancel"
+msgstr "ยกเลิก"
+
+msgid "changePeriphery/message"
+msgstr "โอนไปยังเซิร์ฟเวอร์อื่น?"
+
+msgid "changePeriphery/submit"
+msgstr "ดำเนินการ"
+
+msgid "changePeriphery/title"
+msgstr "ยืนยันการโอน"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "ยกเลิก"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "จะทำการบันทึกการเปลี่ียนเซิร์ฟเวอร์ คุณสามารถเปิดหรือปิดการเข้าเล่นโดยอัตโนมัติได้ที่ส่วนการตั้งค่า"
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "ดำเนินการ"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "เปลี่ยนไปยังเซิร์ฟเวอร์อื่น?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "ยกเลิก"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "ยืนยันการโอนไปยังเซิร์ฟเวอร์อื่น?\n\nถ้าคุณเปลี่ยนเซิร์ฟเวอร์ คุณจะเผชิญกับข้อจำกัดดังต่อไปนี้:\n\t• ยานเกราะบางคันจะใช้ไม่ได้\n\t• ตราสัญลักษณ์และคำจารึกจะไม่ถูกแสดง\n\t• จะไม่มีภารกิจและกำลังสำรองส่วนตัวและสนามทดสอบให้\n\nคุณอาจจะเจอข้อผิดพลาดและปัญหากับการเชื่อมต่อ และโปรดเคารพผู้เล่นของภูมิภาคอื่นๆที่คุณย้ายไปด้วย"
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "ดำเนินการ"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "ยืนยันการโอน"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "ยกเลิก"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "โอนไปยังเซิร์ฟเวอร์อื่น?\n\nถ้าคุณเปลี่ยนเซิร์ฟเวอร์ คุณจะเผชิญกับข้อจำกัดดังต่อไปนี้:\n\t• ยานเกราะบางคันจะใช้ไม่ได้\n\t• ตราสัญลักษณ์และคำจารึกจะไม่ถูกแสดง\n\t• จะไม่มีภารกิจ กำลังสำรองส่วนตัวและสนามทดสอบให้\n\nคุณอาจจะเจอข้อผิดพลาดและปัญหากับการเชื่อมต่อ และโปรดเคารพผู้เล่นของภูมิภาคอื่นๆที่คุณย้ายไปด้วย\n\n\nจะทำการบันทึกการเปลี่ียนเซิร์ฟเวอร์ไว้\nคุณสามารถไปยังการตั้งค่าเพื่อเปิดหรือปิดการเข้าเล่นอัตโนมัติได้"
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "ดำเนินการ"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "ยืนยันการโอน"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "ยกเลิก"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)sคุณกำลังจะเข้าร่วมกองทัพ:\n%(clanName)s\n\nในการยืนยันเจตนาของคุณที่จะเข้าร่วมกองทัพ จะถือว่าคุณยอมรับกฏและกติกาของกองทัพอีกทั้งตกลงที่จะเข้าร่วมกิจกรรมและการพัฒนากองทัพอย่างต่อเนื่อง\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "ภายหลังที่คุณออกจากกองทัพ จะมีข้อจำกัดชั่วคราวไม่ให้คุณเข้าร่วมกองทัพอื่นได้"
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "ยืนยัน"
+
+msgid "clanConfirmJoining/title"
+msgstr "ยืนยันการเข้าร่วมกองทัพ"
+
+msgid "clan_data_not_available/cancel"
+msgstr "ปิด"
+
+msgid "clan_data_not_available/message"
+msgstr "ประวัติย่อกองทัพผู้เล่นนี้ไม่มีให้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "clan_data_not_available/title"
+msgstr "โปรดทราบ!"
+
+msgid "common/cancel"
+msgstr "ยกเลิก"
+
+msgid "common/confirm/cancel"
+msgstr "ไม่"
+
+msgid "common/confirm/submit"
+msgstr "ใช่"
+
+msgid "common/cost"
+msgstr "ราคา:"
+
+msgid "common/error/cancel"
+msgstr "ปิด"
+
+msgid "common/submit"
+msgstr "ดำเนินการต่อ"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "ยกเลิก"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "ซื้อ"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "ซื้อและติดตั้งคำสั่ง"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "ยกเลิก"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "โปรดทราบ! ไม่ได้ติดตั้ง %(devices)s คำสั่ง %(font_tag_open)s จะใช้งานไม่ได้%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "ใช้งาน"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "ติดตั้งคำสั่ง"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "ยกเลิก"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "โปรดทราบ! คุณไม่มีอุปกรณ์ที่ใช้ได้กับคำสั่งที่เลือกไว้ คำสั่ง %(font_tag_open)s จะใช้งานไม่ได้%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "ใช้งาน"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "ติดตั้งคำสั่ง"
+
+msgid "confirmBuy/title"
+msgstr "ซื้อ %(moduleName)s?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "ยกเลิก"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "ชิ้นส่วนดังกล่าวจะถูกส่งไปยังโรงเก็บ"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "จำนวนที่ต้องใช้ในการซื้อ:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "หาเงินเพิ่มได้จากการรบ ขายของเหลือใช้ในโรงเก็บ หรือแลกเปลี่ยนเงินเพิ่มด้วยทอง"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "เงินไม่พอ"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "ราคาชิ้นส่วน:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "ขายชิ้นส่วนที่ถูกเปลี่ยน %(previousModuleName) ในราคา %(previousModulePrice)"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "ชิ้นส่วนนี้ใช้ได้กับ:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "คุณสามารถขายชิ้นส่วนดังกล่าวตอนนี้หรือส่งมันไปโรงเก็บที่คุณขายหรือติดตั้งมันได้ในภายหลัง"
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "ซื้อ"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "ซื้อและติดตั้ง%(moduleName)s?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "ซื้อและติดตั้งอุปกรณ์ '%(equipment)s'?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "ติดตั้ง"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "ยกเลิก"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "ไม่ต้องทำการแลกเปลี่ยน\nคุณมีเงินพอ"
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "ไม่สามารถซื้อได้: การแลกเปลี่ยนล้มเหลว จำเป็นต้องใช้ทอง %(gold)s สำหรับการแลกเปลี่ยน"
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "แลกเปลี่ยน %(gold)s เป็นจำนวนเงินที่ขาดไป?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "ต้องใช้เงิน:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "จำนวนที่ต้องใช้ในการซื้อ: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "แลกเปลี่ยน"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "ยืนยันการแลกเปลี่ยนเพื่อทำการซื้อ"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "ยกเลิก"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "ไม่จำเป็นต้องทำการแปลง\nคุณมีทองพออยู่แล้ว"
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "ไม่สามารถทำการวิจัยได้: การแปลงล้มเหลว\nจำเป็นต้องมีทอง %(gold)s ในการแปลง"
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "แปลงค่าประสบการณ์ด้วยทอง %(gold)s?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "ค่าประสบการณ์ที่ต้องการ:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "จำนวนที่ต้องใช้ในการวิจัย: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "เลือกพาหนะ"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "ยืนยันการแลกเปลี่ยนสำหรับการวิจัย"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "รวม:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "ยกเลิก"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "ไม่จำเป็นต้องทำการแลกเปลี่ยนเพื่อกู้คืน คุณมีเงินพอ"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "ไม่สามารถทำการแลกเปลี่ยนเพื่อกู้คืนได้ จำเป็นต้องมีทอง %(gold)s ในการแลกเปลี่ยน"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "แลกเปลี่ยน %(gold)s เป็นจำนวนเงินที่ขาดไป?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "ต้องใช้เงิน:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "จำนวนที่ต้องใช้ในการคืนสภาพ: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "แลกเปลี่ยน"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "ยืนยันการแลกเปลี่ยนเพื่อทำการกู้คืน"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "รวม:"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "จำนวน"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "ทั้งหมด"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "ราคา:"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "ราคา"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "รวม:"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "ทั้งหมด"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "รวม:"
+
+msgid "confirmUnlock/cancel"
+msgstr "ไม่"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} (รวม {{freeXP}})?"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "วิจัย {{items}} ด้วย"
+
+msgid "confirmUnlock/item/message"
+msgstr "วิจัย %(typeString)s %(userString)s สำหรับ %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (รวมถึง %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "confirmUnlock/submit"
+msgstr "ใช่"
+
+msgid "confirmUnlock/title"
+msgstr "ยืนยันการวิจัย"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "วิจัย %(userString)s เป็นจำนวน %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s (รวมถึง %(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s)?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "ยกเลิก"
+
+msgid "controlsWrongNotification/message"
+msgstr "มีปุ่มที่ยังไม่ได้รับการกำหนดค่า คุณต้องการที่จะบันทึกค่าการควบคุม?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "บันทึก"
+
+msgid "controlsWrongNotification/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "ยกเลิก"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "ไฟล์สำหรับการแจ้งเตือนด้วยเสียงเสียหายหรือไม่มีอยู่ เสียงการแจ้งเตือนจะถูกตั้งเป็นค่ามาตรฐาน\nมีปุ่มหรือหลายปุ่มไม่ได้รับการกำหนด บันทึกการตั้งค่า?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "บันทึก"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "createOrderConfirmation/submit"
+msgstr "ยืนยัน"
+
+msgid "createOrderConfirmation/title"
+msgstr "ยืนยันการเตรียมการกำลังสำรอง"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "เงินไม่พอทำการซื้อ"
+
+msgid "crewBookPurchase/description/crew"
+msgstr "ใช้กับพลรถถังทั้งหมด เมื่อทำการศึกษาแล้ว %(book)s จะทำให้สมาชิกพลรถถังแต่ละคนได้รับประสบการณ์ %(exp)s หน่วย"
+
+msgid "crewBookPurchase/description/personal"
+msgstr "ใช้กับสมาชิกพลรถถังที่เลือกไว้ เมื่อศึกษาแล้ว %(book)s จะมอบประสบการณ์ %(exp)s หน่วยให้กับสมาชิกพลรถถังคนนี้"
+
+msgid "crewBookPurchase/purchase"
+msgstr "ซื้อ"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "ซื้อ %(book)s?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "ยกเลิก"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "ลวดลายแผนที่ {season} ทั้งหมดที่ใช้อยู่จะถูก {removed} ไปจากพาหนะของคุณ\nเพราะช่องนี้ไม่มีให้สำหรับ {this}"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "ยืนยัน"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "แผนที่เหล่านี้"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "แผนที่นี้"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "ใช้ลวดลายนี้ในช่องนี้สำหรับทุกแผนที่?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "เมื่อซื้อแล้ว องค์ประกอบสามารถนำไปใช้กับพาหนะคันปัจจุบันได้ องค์ประกอบต่างๆที่ทำเครื่องหมายดอกจันไว้จะไม่สามารถใช้กับพาหนะอื่นได้"
+
+msgid "customization/buy_install_bound/title"
+msgstr "การยืนยันการซื้อองค์ประกอบ"
+
+msgid "customization/change_install_bound/message"
+msgstr "เมื่อเลือกไว้แล้ว องค์ประกอบสามารถนำไปใช้กับพาหนะคันปัจจุบันได้ องค์ประกอบต่างๆที่ทำเครื่องหมายดอกจันไว้จะไม่สามารถใช้กับพาหนะอื่นได้"
+
+msgid "customization/change_install_bound/title"
+msgstr "การยืนยันการเปลี่ยนองค์ประกอบ"
+
+msgid "customization/close/cancel"
+msgstr "ยกเลิก"
+
+msgid "customization/close/submit"
+msgstr "ออก"
+
+msgid "customization/close/title"
+msgstr "ออกไปยังโรงรถโดยไม่บันทึกการเปลี่ยนแปลง?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "ยกเลิก"
+
+msgid "customization/exitToShop/submit"
+msgstr "ดำเนินการ"
+
+msgid "customization/exitToShop/title"
+msgstr "ไปยังร้านค้าโดยไม่บันทึกการเปลี่ยนแปลง?"
+
+msgid "customization/filter/cancel"
+msgstr "ยกเลิก"
+
+msgid "customization/filter/message"
+msgstr "ส่วนประกอบทั้งหมดจะถูกลบ ดำเนินการต่อ?"
+
+msgid "customization/filter/submit"
+msgstr "ลบทั้งหมด"
+
+msgid "customization/filter/title"
+msgstr "ลบส่วนประกอบ"
+
+msgid "customization/install_bound/cancel"
+msgstr "ยกเลิก"
+
+msgid "customization/install_bound/submit"
+msgstr "ดำเนินการ"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "ยกเลิก"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "โปรดทราบ! ภายหลังคุณได้ใช้งานส่วนประกอบ (%(cTypeName)s %(itemName)s) กับพาหนะปัจจุบันแล้ว คุณจะสามารถใช้ส่วนประกอบนี้กับพาหนะได้อีก %(numberLeft)s คัน ใช้งานส่วนประกอบ?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "ใช้งาน"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "ใช้งานส่วนประกอบ"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "ยกเลิก"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "โปรดทราบ! ภายหลังคุณได้ใช้งานส่วนประกอบ (%(cTypeName)s %(itemName)s) กับพาหนะปัจจุบันแล้ว คุณจะไม่สามารถใช้ส่วนประกอบนี้กับพาหนะอื่นได้อีก ใช้งานส่วนประกอบ?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "ใช้งาน"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "ใช้งานส่วนประกอบ"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "ยกเลิก"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "โปรดทราบ! ภายหลังคุณได้ใช้งานส่วนประกอบ (%(cTypeName)s %(itemName)s) กับพาหนะปัจจุบันแล้ว คุณจะไม่สามารถใช้ส่วนประกอบนี้กับพาหนะอื่นได้อีก ส่วนประกอบ %(willBeDeleted)s ถ้าถูกลบ ใช้งานส่วนประกอบ?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "ใช้งาน"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "ใช้งานส่วนประกอบ"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "จะถูกลบ"
+
+msgid "customization/remove_element/cancel"
+msgstr "ยกเลิก"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "ลบ"
+
+msgid "customization/remove_element/title"
+msgstr "ลบส่วนประกอบ"
+
+msgid "customizationConfirmSell/message"
+msgstr "ขาย %(name)s ในราคา %(price)s%(creditsIcon)s?"
+
+msgid "customizationConfirmSell/title"
+msgstr "ยืนยันการขาย"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "ทุกๆ %(days)s วัน"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "ทุกๆ %(days)s วัน %(hours)s ชั่วโมง"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "ทุกๆ %(hours)s ชม."
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "ทุกๆ %(hours)s ชม. %(mins)s นาที"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "ทุกๆ %(mins)s นาที"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "การเปลี่ยนภารกิจมีให้ {timeLimitMsg} ครั้ง"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "เปลี่ยน"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "เปลี่ยนภารกิจ?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} พาหนะบางคันของคุณกำลังอยู่ในการรบ คุณอาจจะเสียความก้าวหน้าไปภายหลังการเปลี่ยนภารกิจ การเปลี่ยนภารกิจมีให้ {timeLimitMsg} ครั้ง"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "เปลี่ยน"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "เปลี่ยนภารกิจ?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "คำเตือน!"
+
+msgid "dedication/headline"
+msgstr "ได้รับรางวัลวีรบุรุษแห่งยุคเรา"
+
+msgid "dedication/sub-headline"
+msgstr "สำหรับการรบ {battlesNum} ครั้งที่เข้าร่วม"
+
+msgid "dialogTemplates/cancel"
+msgstr "ยกเลิก"
+
+msgid "dialogTemplates/confirm"
+msgstr "ยืนยัน"
+
+msgid "dialogTemplates/ok"
+msgstr "รับทราบ!"
+
+msgid "disconnect/cancel"
+msgstr "ไม่"
+
+msgid "disconnect/message"
+msgstr "คุณต้องการที่จะยกเลิกการเชื่อมต่อจากเซิร์ฟเวอร์?"
+
+msgid "disconnect/submit"
+msgstr "ใช่"
+
+msgid "disconnect/title"
+msgstr "ยกเลิกการเชื่อมต่อเซิร์ฟเวอร์"
+
+msgid "disconnected/cancel"
+msgstr "ตกลง"
+
+msgid "disconnected/message"
+msgstr "คุณได้ยกเลิกการเชื่อมต่อกับเซิรฟ์เวอร์ กดปุ่มตกลงเพื่อทำการเชื่อมต่อใหม่"
+
+msgid "disconnected/messageBan"
+msgstr "บัญชีของคุณถูกยับยั้งการใช้งาน %(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "บัญชีของคุณถูกยังยั้งการใช้งานจนกว่า %(expiryTime)s.%(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "การเชื่อมต่อกับเซิร์ฟเวอร์ถูกขัดขวาง %(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \nเหตุผล: %s"
+
+msgid "disconnected/title"
+msgstr "การเชื่อมต่อเกิดชะงัก"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "ปลดเกษียณ"
+
+msgid "dismissTankman/description/perk"
+msgstr "สำหรับการดำเนินการนี้ ให้กรอกขั้นการฝึกความสามารถ: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "สำหรับการดำเนินการนี้ ให้กรอกขั้นการฝึกของความสามารถที่ฝึกไว้ล่าสุด ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "สมาชิกพลรถถังที่เลือกเอาไว้จะปลดเกษียณ คุณสามารถกู้คืนพลรถถังได้ภายใน {whiteOrange_Open}%(time)s วัน{whiteOrange_Close}."
+
+msgid "dismissTankman/header"
+msgstr "การปลดเกษียณสมาชิกพลรถถัง"
+
+msgid "dismissTankman/limited"
+msgstr "ถึงขีดจำกัดการปลดเกษียณแล้ว สมาชิกพลรถถังปลดเกษียณจะแทนที่ %(name)s (%(role)s, %(vehicle)s)"
+
+msgid "dismissTankman/noRecovery"
+msgstr "การกู้คืนจะไม่สามารถทำได้"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "ยกเลิก"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "โปรดทราบ! เมื่อคุณปลดเกษียณ %(dismissedName)sเขาจะถูกแทนที่ %(deletedStr)s ยืนยันการเปลี่ยนแปลง?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "ยืนยัน"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "ยืนยันการเปลี่ยนแปลง"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "ยกเลิก"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "โปรดทราบ! เมื่อคุณปลดเกษียณพลรถถัง ระบบจะทำการ %(deletedStr)s และ %(extraCount)s นาย ยืนยันการเปลี่ยนแปลง?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "ยืนยัน"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "ช่วงพักสมาชิกพลรถถังปลดเกษียณเต็มแล้ว"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "เปลี่ยน"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "ชื่อ"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "นามสกุล"
+
+msgid "documentChangeDialog/title"
+msgstr "เปลี่ยนชื่อและหน้าตา?"
+
+msgid "dropSkill/cancel"
+msgstr "ยกเลิก"
+
+msgid "dropSkill/message"
+msgstr "ตั้งความสามารถใหม่ทั้งหมด?"
+
+msgid "dropSkill/submit"
+msgstr "ตั้งค่าใหม่"
+
+msgid "dropSkill/title"
+msgstr "ยืนยันการตั้งใหม่"
+
+msgid "elementType/chassis"
+msgstr "ช่วงล่าง"
+
+msgid "elementType/engine"
+msgstr "เครื่องยนต์"
+
+msgid "elementType/gun"
+msgstr "ปืน"
+
+msgid "elementType/radiostation"
+msgstr "วิทยุ"
+
+msgid "elementType/turret"
+msgstr "ป้อมปืน"
+
+msgid "elenDisabled/cancel"
+msgstr "ปิด"
+
+msgid "elenDisabled/message"
+msgstr "การแข่งขันไม่มีให้ชั่วคราาวเนื่องด้วยการบำรุงรักษาตามกำหนด"
+
+msgid "elenDisabled/title"
+msgstr "โปรดทราบ!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "ยกเลิก"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "อย่าแสดงการเตือนนี้อีก"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "คุณจะเผชิญปัญหาอัตราภาพต่ำและภาพบิดเบี้ยวในรูปแบบนี้เนื่องจากการตั้งค่าอุปกรณ์ของคุณ การโหลดการรบจะต้องใช้เวลานานกว่าเดิมและโปรแกรมลูกข่ายอาจจะล่มได้ ยืนยันการเข้าการรบ?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "ออกรบ!"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "คำเตือนสมรรถนะเครื่อง"
+
+msgid "equipmentBuyInstall/price"
+msgstr "ราคาซื้อ:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "ถอดส่วนประกอบ %(equipment)s?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "ยกเลิก"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "ถอดส่วนประกอบและยกระดับ"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "ถอดส่วนประกอบ"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "อุปกรณ์ที่ถูกปลดนี้จะ {white_Open}ถูกทำลาย{white_Close}\nอุปกรณ์สามารถถูกปลดอย่างปลอดภัยได้ด้วยการใช้พันธบัตร"
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "อุปกรณ์ที่ถูกปลดนี้จะ {white_Open}ถูกทำลาย{white_Close}\nอุปกรณ์สามารถถูกปลดอย่างปลอดภัยได้ด้วยการใช้ทองหรือด้วยชุดเครื่องมือปลด"
+
+msgid "equipmentDestroy/conformation"
+msgstr "ทำลายอุปกรณ์ '%(equipment)s'?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "ติดตั้งอุปกรณ์ '%(equipment)s'?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "ขายอุปกรณ์ '%(equipment)s'?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "ยกเลิก"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "ยกระดับ"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "ไปยังการถอดชิ้นส่วน"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "ไม่มีอุปกรณ์รุ่นทดลองให้ถอดชิ้นส่วน"
+
+msgid "eula/p1"
+msgstr "โปรดอ่าน <BR/><A HREF='event:%(eulaURL)s'><U>ข้อตกลงอนุญาตการใช้สิทธิ์ผู้ใช้ขั้นสุดท้าย</U></A> ก่อนที่จะดำเนินการต่อ"
+
+msgid "eula/p2"
+msgstr "โดยการกด \"ยอมรับ\" เท่ากับคุณได้ยอมรับว่าคุณได้อ่าน เข้าใจ และตกลงกับข้อกำหนดที่ระบุไว้โดยข้อตกลงอนุญาตใช้สิทธิ์ผู้ใช้ขั้นสุดท้ายและจะต้องรับผิดชอบต่อการละเมิดข้อตกลงใดๆก็ตาม ข้อตกลงผู้ใช้และการแก้ไขที่ระบุไว้จะมีผลผูกผันต่อสมาชิกโครงการทั้งหมด"
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "แลกเปลี่ยน %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s กับ %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "แลกเปลี่ยน"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "แลกเปลี่ยนทอง"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "จะใช้ส่วนลดการแปลงค่าประสบการณ์ได้มากถึง %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s หน่วยไปเป็นค่าประสบการณ์อิสระ ครั้งต่อไป ค่าประสบการณ์จะถูกแปลงได้ด้วยทอง"
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "แปลง %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s ประสบการณ์ไปยังประสบการณ์อิสระด้วย %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "แปลง"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "แปลงเป็นค่าประสบการณ์อิสระ"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "ค่าประสบการณ์การรบไม่พอสำหรับการแปลง"
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "ค่าประสบการณ์การรบไม่พอสำหรับการแปลง"
+
+msgid "fillAllPerks/button/cancel"
+msgstr "ยกเลิก"
+
+msgid "fillAllPerks/button/fill"
+msgstr "เลือกอัตโนมัติ"
+
+msgid "fillAllPerks/checkbox"
+msgstr "การเลือกความสามารถอัตโนมัติให้พลรถถังในค่ายทหาร"
+
+msgid "fillAllPerks/description"
+msgstr "อัลกอริทึมจะทำการเลือกความสามารถแรกจากตารางด้านล่างโดยขึ้นกับคุณสมบัติของสมาชิกพลรถถังที่มีช่องความสามารถว่างอยู่ ถ้าสมาชิกพลรถถังมีความสามารถแรกแล้ว อัลกอริทึมก็จะเลือกอันที่สองแทนและทำการเลือกจนกว่าจะไม่มีช่องความสามารถว่างเหลือ ตัวเลือกนี้อาจจะใช้เวลาช่วงหนึ่งเพื่อดำเนินการ"
+
+msgid "fillAllPerks/subTitle"
+msgstr "จะทำการเลือกความสามารถอัตโนมัติให้กับสมาชิกพลรถถังในพาหนะเท่านั้น"
+
+msgid "fillAllPerks/title"
+msgstr "เลือกความสามารถที่ยังไม่ฝึกอัตโนมัติ สำหรับสมาชิกพลรถถังทั้งหมด"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "ยกเลิก"
+
+msgid "finance_dialog/header"
+msgstr "ยืนยัน"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "ใส่รหัสการเงินเพื่อยืนยันการทำงาน"
+
+msgid "finance_dialog/results/invalid"
+msgstr "รหัสไม่ถูกต้อง"
+
+msgid "finance_dialog/results/limit"
+msgstr "คุณใส่รหัสไม่ถูกต้องหลายครั้ง ลองใหม่ใน 24 ชั่วโมงหน้า <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">ลืมรหัสผ่าน?</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษรและต้องเป็นอักขระอังกฤษ ตัวเลข หรือ _"
+
+msgid "finance_dialog/submitBtn"
+msgstr "ยืนยัน"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "รับ %(product)s ในราคา %(price)s?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "รับ"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "ยืนยัน"
+
+msgid "fortDisabled/cancel"
+msgstr "ปิด"
+
+msgid "fortDisabled/message"
+msgstr "ข้อมูลของกองทัพไม่มีให้ในขณะนี้เนื่องด้วยการบำรุงรักษาตามหมายกำหนด"
+
+msgid "fortDisabled/title"
+msgstr "โปรดทราบ!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "ตกลง"
+
+msgid "fortTurnedOff/message"
+msgstr "ฐานที่มั่นไม่มีให้ชั่วคราว ลองใหม่ภายหลัง"
+
+msgid "fortTurnedOff/title"
+msgstr "โปรดทราบ!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "ไม่"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "ใช่"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "ยกเลิก"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "คุณจะไม่ออกจากอาคาร %(oldBuilding)s อีกต่อไป คุณจะไปประจำการที่อาคาร %(newBuilding)s"
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "ยืนยัน"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "ติดเข้ากับอาคาร"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "freeObtainConfirmation/message"
+msgstr "รับ %(product)s ในราคา %(price)s?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "รับ"
+
+msgid "freeObtainConfirmation/title"
+msgstr "ยืนยัน"
+
+msgid "freeSkillsLearning/message"
+msgstr "ความสามารถศูนย์นั้นไม่จำเป็นต้องฝึกด้วยประสบการณ์ มันจะสร้างความได้เปรียบด้วยการลดจำนวนประสบการณ์ที่ต้องใช้ในการฝึกต่อสำหรับสมาชิกพลรถถังอย่างมาก"
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "เลือก %(skillName)s เป็นความสามารถศูนย์?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "ฝึกใหม่ %(skillName)s ให้เป็นความสามารถศูนย์?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "freeSlotConfirmation/message"
+msgstr "ใช้ส่วนลด 100% ในการเพิ่มช่องเก็บในโรงรถโดยไม่ต้องเสียเงิน?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "เพิ่ม"
+
+msgid "freeSlotConfirmation/title"
+msgstr "เพิ่มช่องเก็บ"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "ปิด"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "คุณได้ซื้อพาหนะฟรีจนถึงจำนวนสูงสุดแล้ว โปรดลองใหม่ในวันพรุ่งนี้"
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "ปิด"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "ขีดจำกัดในการซื้อ"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)sค่าประสบการณ์%(orangeText_close)s%(simpleText_open)s เป็นทรัพยากรในเกมที่ได้จากการเข้ารบ\n\nซึ่งประกอบด้วย:%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)sค่าประสบการณ์การรบ%(orangeText_close)s%(simpleText_open)s นั้นใช้ในการวิจัยชิ้นส่วนใหม่ของยานพาหนะคันนั้นๆ รวมไปถึงความก้าวหน้าของเกมในจักรวาลของ Wargaming ที่ค่าประสบการณ์นั้นถูกใช้%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)sค่าประสบการณ์อิสระ%(orangeText_close)s%(simpleText_open)s นั้นใช้ในการวิจัยชิ้นส่วนและยานพาหนะรวมไปถึงการเร่งฝึกพลรถถัง โปรดใช้ค่าประสบการณ์อิสระอย่างระมัดระวัง %(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "ดำเนินการต่อ"
+
+msgid "freeXPInfo/title"
+msgstr "ค่าประสบการณ์"
+
+msgid "gammaDialog/cancel"
+msgstr "เริ่ม"
+
+msgid "gammaDialog/message/description"
+msgstr "ผู้การ! ตั้งค่าหน้าจอของคุณเพื่อให้ได้แสงสว่างของสีที่ถูกต้องและเพิ่มคุณภาพของภาพบนจอของคุณ\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "ตั้งค่าหน้าจอของคุณเดี๋ยวนี้!"
+
+msgid "gammaDialog/title"
+msgstr "การตั้งค่าเกม"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "หลังการแปลง:"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "ก่อนการแปลง:"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "ยกเลิก"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "แปลง"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "รวม:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "พลรถถัง"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "พาหนะ"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "ประสบการณ์"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "ยานเกราะทั้งหมด"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "เรียงตามยานเกราะที่เลือกไว้"
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "เรียงตามชื่อยานเกราะ"
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "พาหนะ"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "เรียงตามค่าประสบการณ์ที่ได้รับ"
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "ประสบการณ์"
+
+msgid "gatheringXPForm/title"
+msgstr "แปลงเป็นค่าประสบการณ์อิสระ"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "แปลงค่าประสบการณ์:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "การฝึกฝนพลรถถังเร็วขึ้นกว่าปกติ"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "การฝึกฝนพลรถถังอยู่ที่อัตราปกติ"
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "รวม:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "รวม:"
+
+msgid "graphics/message/alert"
+msgstr "โปรดทราบ!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "โหมดจอภาพถูกเปลี่ยน คืนการตั้งค่าเป็นค่าก่อนหน้าภายใน %(time)s วินาที บันทึกการตั้งค่าที่เลือกไว้?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "บันทึก"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "บันทึกการตั้งค่าหน้าจอ"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "ไม่"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "โปรดทราบ การเปลี่ยนแปลงทั้งหมดจะไม่ได้รับการบันทึก ดำเนินการ?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "ใช่"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "ตรวจสอบคุณภาพกราฟิกส์อัตโนมัติ"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "ไม่"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "โปรดทราบ! การประยุกต์ค่ากราฟิคส์บางรายการอาจจะใช้เวลาพอสมควร ดำเนินการต่อ?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "ใช่"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "ปรับการตั้งค่า"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "ปิด"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "ไม่สามารถตั้งค่าตัวแปรเป็นค่าสูงสุดได้ จะถูกตั้งเป็นคุณภาพกราฟฟิคตามความต้องการผู้ใช้แทน"
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "โปรดทราบ"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "ปิด"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "ค่าพื้นผิวคุณภาพสูงนั้นมีเฉพาะในระบบ 64 บิตเท่านั้น"
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "คุณภาพพื้นผิวไม่มีให้เลือกใช้"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "เริ่มใหม่ทีหลัง"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "การตั้งค่าบางอย่างจะมีผลเมื่อเริ่มเกมใหม่"
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "เริ่มใหม่"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "ปรับการตั้งค่า"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "ตกลง"
+
+msgid "haveNoEmptySlots/message"
+msgstr "โรงรถไม่มีที่พอ ซื้อช่องเก็บเพิ่มหรือขายพาหนะเพื่อเพิ่มที่ว่างให้กับพาหนะที่คุณจะซื้อ"
+
+msgid "haveNoEmptySlots/submit"
+msgstr "ตกลง"
+
+msgid "haveNoEmptySlots/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "hof/excludeRating/cancel"
+msgstr "ยกเลิก"
+
+msgid "hof/excludeRating/message"
+msgstr "ผู้เล่นคนอื่นจะไม่เห็นความสำเร็จของคุณอีกต่อไป แต่คุณจะทำให้พวกเขาเห็นได้ในหน้าหลักของหอเกียรติยศ"
+
+msgid "hof/excludeRating/submit"
+msgstr "ซ่อนผล"
+
+msgid "hof/excludeRating/title"
+msgstr "แสดงผลในการจัดอันดับ"
+
+msgid "hofDisabled/cancel"
+msgstr "ปิด"
+
+msgid "hofDisabled/message"
+msgstr "หอเกียรติยศไม่มีให้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "hofDisabled/title"
+msgstr "โปรดทราบ!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "ยกเลิก"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}พลรถถังไม่ครบ{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}สมาชิกพลรถถังหนึ่งคนหรือมากกว่าไม่เหมาะสม{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "พาหนะที่เลือกเอาไว้ไม่เหมาะด้วยหนึ่งในเหตุดังต่อไปนี้:"
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "มีเพียงหนึ่งพลรถถังที่จะได้รับโบนัสดังกล่าว โบนัสดังกล่าวจะถูกโอนจาก"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "ไปยัง"
+
+msgid "idleCrewBonus/submit"
+msgstr "ยืนยัน"
+
+msgid "idleCrewBonus/title"
+msgstr "เปิดการฝึกพลรถถังเข้มข้น?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "ลองปิดการเร่งฮาร์ดแวร์บราวเซอร์ในการตั้งค่า (แถบกราฟฟิค)"
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "ข้อผิดพลาดการโหลด"
+
+msgid "interviewQuit/cancel"
+msgstr "กลับ"
+
+msgid "interviewQuit/message"
+msgstr "คุณสามารถปฏิเสธแบบสำรวจในตอนนี้และทำมันในภายหลังได้ด้วยการเปิดข้อความพร้อมด้วยคำเชิญในศูนย์การแจ้งเตือนของคุณ ข้อความนั้นจะมีผลในช่วงการเล่นเกมเดียว"
+
+msgid "interviewQuit/submit"
+msgstr "ปฏิเสธ"
+
+msgid "interviewQuit/title"
+msgstr "ปฏิเสธแบบสำรวจ"
+
+msgid "koreaParentNotification/cancel"
+msgstr "รับทราบ!"
+
+msgid "koreaParentNotification/message"
+msgstr "เพื่อป้องกันไม่ให้เด็กและวัยรุ่นติดเกม การเข้ารบหลัง %(preBlockTime)s ถูกห้ามเอาไว้ คุณจะถูกตัดการเชื่อมต่อจากเซิร์ฟเวอร์ภายใน %(blockTime)s"
+
+msgid "koreaParentNotification/submit"
+msgstr "รับทราบ!"
+
+msgid "koreaParentNotification/title"
+msgstr "การจำกัดการเล่น"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "รับทราบ!"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "เวลาจำกัดหมดลงแล้ว คุณไม่สามารถเข้าร่วมการรบใหม่ได้อีก"
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "รับทราบ!"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "การควบคุมของผู้ปกครอง"
+
+msgid "leaveEvent/cancel"
+msgstr "ยกเลิก"
+
+msgid "leaveEvent/message"
+msgstr "ผลการรบของคุณในการแข่งขันจะถูกตั้งใหม่ภายหลังทำการอัพเดตการจัดอันดับแล้ว คุณจะไม่สามารถได้ตำแหน่งในการจัดอันดับและรับรางวัล\n\nภายหลังที่คุณออกจากการแข่งขันแล้ว %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "คุณจะไม่สามารถกลับมาเข้าได้อีก"
+
+msgid "leaveEvent/submit"
+msgstr "ออกจากการแข่งขัน"
+
+msgid "leaveEvent/title"
+msgstr "ออกจากการแข่งขัน"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "ยกเลิก"
+
+msgid "leaveStartedEvent/message"
+msgstr "ผลของการรบของคุณจะไม่ถูกนับสำหรับการแข่งขันนี้ คุณจะไม่สามารถได้ตำแหน่งในการจัดอันดับและได้รับรางวัล\n\nภายหลังที่คุณออกจากการแข่งขันแล้ว %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "ออกจากการแข่งขัน"
+
+msgid "leaveStartedEvent/title"
+msgstr "ออกจากการแข่งขัน"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "ยกเลิก"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "คุณกำลังอยู่ในห้องรอการรบ คุณต้องการที่จะออกเพื่อที่จะรับคำเชิญ?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "ตกลง"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "คำเชิญ"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "ยกเลิก"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "คุณกำลังอยู่ในหมวดรถถัง คุณต้องการที่จะออกเพื่อจะรับคำเชิญ?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "ตกลง"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "คำเชิญ"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "ยกเลิก"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "คุณกำลังอยู่ในห้องฝึก คุณต้องการที่จะออกเพื่อรับคำเชิญ?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "ตกลง"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "คำเชิญ"
+
+msgid "legalInfoWindow/title"
+msgstr "ข้อมูลทางกฏหมาย"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "ยกเลิก"
+
+msgid "limitedUIOffNotification/message"
+msgstr "คุณแน่ใจว่าคุณต้องการจะปิดการค่อยๆแสดงองค์ประกอบโต้ตอบที่ซ่อนเอาไว้ในโรงรถ?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "หลังการปิดตัวเลือกนี้ คุณจะไม่สามารถเปิดมันได้อีกครั้ง"
+
+msgid "limitedUIOffNotification/submit"
+msgstr "ปิด"
+
+msgid "limitedUIOffNotification/title"
+msgstr "ปรับการตั้งค่า"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "ยกเลิก"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "จะทำการบันทึกการเปลี่ียนเซิร์ฟเวอร์ คุณสามารถเปิดหรือปิดการเข้าเล่นโดยอัตโนมัติได้ที่ส่วนการตั้งค่า"
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "ดำเนินการ"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "บันทึกการเปลี่ยนเซิร์ฟเวอร์?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "กระสุนในการตั้งค่าตัวเลือกนั้นมีไม่พอ ยืนยันการเข้ารบ?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "กระสุนไม่ครบ"
+
+msgid "lowAmmo/cancel"
+msgstr "ยกเลิก"
+
+msgid "lowAmmo/message"
+msgstr "พาหนะที่เลือกมีกระสุนไม่ครบ กระสุนจะถูกเติมโดยอัตโนมัติก่อนเข้าการรบ"
+
+msgid "lowAmmo/submit"
+msgstr "ซื้อเติม"
+
+msgid "lowAmmo/title"
+msgstr "เติมกระสุนโดยอัตโนมัติ"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "ยกเลิก"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "กระสุนในพาหนะที่เลือกไว้ไม่พอ ยืนยันการเข้ารบ?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "ออกรบ!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "กระสุนไม่ครบ"
+
+msgid "lowFpsWarning/cancel"
+msgstr "ไม่"
+
+msgid "lowFpsWarning/message"
+msgstr "การตั้งค่าของเกมปัจจุบันทำให้เกมทำงานได้ไม่ดี คุณต้องการที่จะลดการตั้งค่าคุณภาพกราฟฟิคหรือไม่?"
+
+msgid "lowFpsWarning/submit"
+msgstr "ใช่"
+
+msgid "lowFpsWarning/title"
+msgstr "สมรรถนะเกมต่ำ"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "ตกลง"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "รายละเอียดของผู้เล่น %(userName)s นั้นถูกลีอค"
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "ตกลง"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "รายละเอียดผู้เล่นถูกล๊อค"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "ตกลง"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "ข้อมูลสำหรับผู้ใช้ %(userName)s ยังไม่มีในขณะนี้"
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "ตกลง"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "ไม่สามารถให้ข้อมูลได้ในขณะนี้"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "ยกเลิก"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s การเปิดการตั้งค่านี้จะลดสมรรถนะของเครื่องคอมพิวเตอร์ในการรบ"
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "โปรดทราบ!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "เปิด"
+
+msgid "minimapAlphaNotification/title"
+msgstr "ความโปร่งใสของแผนที่ย่อ"
+
+msgid "moduleSale/conformation/header"
+msgstr "ขาย %(moduleType)s '%(moduleName)s'?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "ยกเลิก"
+
+msgid "moneyTransfer/labelClan"
+msgstr "กองทัพ:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "เงิน"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "ทอง"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "ค่าใช้จ่าย:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "โอน:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "ปกติ:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "เงิน"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "ทอง"
+
+msgid "moneyTransfer/labelTo"
+msgstr "ถึง:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "รวม:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(ไม่ใช่สมาชิกกองทัพ)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "ส่ง"
+
+msgid "moneyTransfer/title"
+msgstr "โอนทอง"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "คุณต้องการโอนทอง {gold} <img src='icon_gold' /> เหรียญไปยังผู้เล่น {player} ? จะมีค่าโอนเป็นทอง {fee} <img src='icon_gold' /> เหรียญ."
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "แปลง"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "ยืนยันการโอน"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">ตั้งรหัสผ่านการเงิน</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "ตกลง"
+
+msgid "moneyTransferRestriction/message"
+msgstr "การโอนทองไม่ได้รับอนุญาต เหตุผล: %s"
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "ข้อจำกัดการโอนหมดอายุ: %s"
+
+msgid "moneyTransferRestriction/submit"
+msgstr "ตกลง"
+
+msgid "moneyTransferRestriction/title"
+msgstr "การโอนทองไม่ได้รับอนุญาต"
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "ไม่"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "การเปลี่ยนแปลงการตั้งค่าบางอย่างจะใช้งานในการรบครั้งต่อไป ดำเนินการต่อ?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "ใช่"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "ปรับการตั้งค่า"
+
+msgid "perkLearnConfirm/desc"
+msgstr "ขั้นความสามารถหลังการฝึก: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "ฝึก"
+
+msgid "perkLearnConfirm/title"
+msgstr "ฝึกความสามารถ %(skillName)s?"
+
+msgid "perksReset/after"
+msgstr "หลังตั้งใหม่:"
+
+msgid "perksReset/before"
+msgstr "ก่อนตั้งใหม่:"
+
+msgid "perksReset/cancel"
+msgstr "ยกเลิก"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "ตัวเลือกนี้ไม่มีให้เนื่องจากคุณมีส่วนลด 100% ให้กับการตั้งค่าสามารถใหม่ในวิทยาลัยรถถังอยู่แล้ว"
+
+msgid "perksReset/discountTooltip/header"
+msgstr "ไม่มีให้"
+
+msgid "perksReset/free/description"
+msgstr "ความสามารถถึง {yellow_Open}1%{yellow_Close} ความสามารถสามารถตั้งใหม่ได้ฟรี"
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "สมาชิกพลรถถังคนนี้มีการตั้งความสามารถแรกใหม่ฟรี"
+
+msgid "perksReset/graceLabel"
+msgstr "การตั้งความสามารถใหม่ฟรีจะมีให้เป็นเวลา: "
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "จำนวนประสบการณ์ความสามารถรวมจะลดลง จะมีความสามารถให้ฝึกน้อยลง"
+
+msgid "perksReset/noNewPerks"
+msgstr "ประสบการณ์ทั้งหมดจากความสามารถที่ฝึกเอาไว้จะถูกเพิ่มให้กับขั้นคุณสมบัติหลัก"
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "จากประสบการณ์ความสามารถทั้งหมด"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "โรงเรียนกรมทหาร"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "จากประสบการณ์ความสามารถทั้งหมด"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "หลักสูตรเร่งรัด"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "ตั้งความสามารถใหม่\nโดยไม่เสียประสบการณ์"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "ใช้เงินเพื่อตั้งความสามารถใหม่โดยไม่เสียประสบการณ์"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "วิทยาลัยยานเกราะ"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "ตั้งความสามารถใหม่\nโดยไม่เสียประสบการณ์"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "ตั้งใหม่"
+
+msgid "perksReset/title"
+msgstr "ตั้งความสามารถสมาชิกพลรถถังทั้งหมดใหม่?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "ยกเลิก"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "คุณภาพฟิสิกส์เสียงที่เลือกไว้ต่างจากการตั้งค่าอัตโนมัติที่โปรแกรมลูกข่ายเกมตั้งเอาไว้ การเปิดตัวเลือกนี้อาจจะมีผลกับสมรรถนะของเกม ทางเราขอแนะนำให้ทดสอบสมรรถนะก่อนทำการยืนยัน คุณต้องการใช้งานการเปลี่ยนแปลงนี้หรือไม่?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "ยืนยัน"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "คุณภาพฟิสิกส์เสียงไม่ตรงกัน"
+
+msgid "postmortem/cancel"
+msgstr "ออก"
+
+msgid "postmortem/message"
+msgstr "พาหนะถูกทำลาย คุณต้องการที่จะอยู่ในการรบหรือออกไปยังโรงรถ?"
+
+msgid "postmortem/submit"
+msgstr "คงอยู่"
+
+msgid "postmortem/title"
+msgstr "พาหนะที่ถูกทำลาย"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "ซื้อบัญชีพิเศษเป็นเวลา %(days)s วันด้วยทอง %(gold)s เหรียญ?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "ซื้อ"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "ยืนยันการซื้อ"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "ยืดระยะบัญชีพิเศษเป็นเวลา %(days)s วันด้วยทอง %(gold)s แท่ง?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "ขยายเวลา"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "ยืนยัน"
+
+msgid "priceCard/credits/title"
+msgstr "โรงเรียนกรมทหาร"
+
+msgid "priceCard/free/title"
+msgstr "หลักสูตรเร่งรัด"
+
+msgid "priceCard/gold/title"
+msgstr "วิทยาลัยยานเกราะ"
+
+msgid "priceCard/price/free"
+msgstr "ฟรี"
+
+msgid "priceCard/recertification/title"
+msgstr "คำสั่งฝึกใหม่"
+
+msgid "punishmentWindow/cancel"
+msgstr "รับทราบ"
+
+msgid "punishmentWindow/header/ban"
+msgstr "คุณถูกบล็อคเป็นเวลา %(time)s"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "คุณถูกลงโทษ"
+
+msgid "punishmentWindow/header/warning"
+msgstr "การประพฤติตนไม่เป็นนักกีฬา"
+
+msgid "punishmentWindow/info"
+msgstr "ถ้าสถานการณ์ของคุณเกิดขึ้นจากปัญหาการเชื่อมต่อหรือปัญหาทางเทคนิคอื่นๆ\nโปรดติดต่อฝ่ายสนับสนุนผู้เล่น"
+
+msgid "punishmentWindow/message/ban"
+msgstr "คุณละเมิดกฎของเกมบนแผนที่ {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} เมื่อ {whiteSpanish_Open}%(time)s{whiteSpanish_Close}.\nคุณถูกบล็อคชั่วคราวไม่ให้เข้ารบในรูปแบบ {whiteSpanish_Open}%(mode)s{whiteSpanish_Close} "
+
+msgid "punishmentWindow/message/penalty"
+msgstr "คุณละเมิดกฎของเกมในแผนที่ {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} เมื่อ {whiteSpanish_Open}%(time)s{whiteSpanish_Close}\nคุณจะไม่ได้เงิน, ประสบการณ์และรางวัลที่ได้รับในการรบ"
+
+msgid "punishmentWindow/message/warning"
+msgstr "คุณละเมิดกฎของเกมบนแผนที่ {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} เมื่อ {whiteSpanish_Open}%(time)s{whiteSpanish_Close}\nในกรณีที่มีการละเมิดซ้ำ คุณจะไม่ได้เงิน, ประสบการณ์และรางวัลทั้งหมดที่ได้รับในการรบ"
+
+msgid "punishmentWindow/reason/afk"
+msgstr "การเพิกเฉยในการรบ"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "ออกก่อนการรบสิ้นสุดหรือก่อนพาหนะถูกทำลาย"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "การนิ่งเฉยในการรบ/ออกจากการรบก่อนเวลา"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "ตั้งใจทำลายตัวเอง"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s วัน %(hour)s ชม."
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s ชม. %(min)s น."
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1 นาที"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s นาที"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "ยกเลิก"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "อย่าถามอีก"
+
+msgid "questsConfirmDialog/message"
+msgstr "ถ้าคุณเลือกภารกิจ \"%(newQuest)s\"ภารกิจ \"%(oldQuest)s\" จะถูกยกเลิก"
+
+msgid "questsConfirmDialog/submit"
+msgstr "ยืนยัน"
+
+msgid "questsConfirmDialog/title"
+msgstr "ยืนยันการเลือกภารกิจ"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "ยกเลิก"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "ความก้าวหน้าทั้งหมดบนภารกิจ %(curQuest)s จะถูกตั้งใหม่\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "โปรดทราบ! จะเสียความก้าวหน้าทั้งหมดของภารกิจปัจจุบันไป"
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "ยืนยัน"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "ตั้งค่าความคืบหน้าใหม่"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "ยกเลิก"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "ถ้าคุณเลือกภารกิจ %(newQuest)s ความก้าวหน้าของคุณในภารกิจ %(oldQuest)s จะถูกตั้งใหม่\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "โปรดทราบ! จะเสียความก้าวหน้าทั้งหมดของภารกิจปัจจุบันไป"
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "ยืนยัน"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "ยืนยันการเลือกภารกิจ"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "ยกเลิก"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "ภารกิจ %(quest)s จะถูกยกเลิก\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "โปรดทราบ! จะเสียความก้าวหน้าทั้งหมดของภารกิจปัจจุบันไป"
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "ใช่"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "ยืนยันการยกเลิกภารกิจ"
+
+msgid "quit/cancel"
+msgstr "คงอยู่"
+
+msgid "quit/submit"
+msgstr "ออก"
+
+msgid "quit/title"
+msgstr "ออกจากเกม?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "ยกเลิก"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "ทีมคุณยังต้องการคุณอยู่! การออกก่อนสิ้นสุดการรบหรือก่อนพาหนะของคุณถูกทำลายจะถือว่าเป็นการละทิ้งกองทัพ นี่อาจะนำไปสู่การลงโทษและการเสียโบนัสทั้งหมดสำหรับการรบใน IGR"
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "ทะเลทราย"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "ละทิ้งสนามรบ?"
+
+msgid "quitBattle/cancel"
+msgstr "ยกเลิก"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "ยกเลิก"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "ทีมคุณยังต้องการคุณอยู่! การออกก่อนสิ้นสุดการรบหรือก่อนพาหนะของคุณถูกทำลายจะถือว่าเป็นการละทิ้งกองทัพ นี่อาจะนำไปสู่การลงโทษ"
+
+msgid "quitBattle/leaver/submit"
+msgstr "ทะเลทราย"
+
+msgid "quitBattle/leaver/title"
+msgstr "ละทิ้งสนามรบ?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "ยกเลิก"
+
+msgid "quitBattle/replay/submit"
+msgstr "ออก"
+
+msgid "quitBattle/replay/title"
+msgstr "ออกจากรูปแบบผู้สังเกตการณ์?"
+
+msgid "quitBattle/submit"
+msgstr "ออก"
+
+msgid "quitBattle/title"
+msgstr "ออกจากการรบ?"
+
+msgid "quitPreBattle/cancel"
+msgstr "ไม่"
+
+msgid "quitPreBattle/message"
+msgstr "คุณต้องการที่จะออกจากห้องเตรียมการรบ?"
+
+msgid "quitPreBattle/submit"
+msgstr "ใช่"
+
+msgid "quitPreBattle/title"
+msgstr "ออกจากห้องเตรียมการรบ"
+
+msgid "rally/autoSearch/cancel"
+msgstr "ไม่"
+
+msgid "rally/autoSearch/message"
+msgstr "ค้นหาช่องให้เข้าร่วมโดยอัตโนมัติ?"
+
+msgid "rally/autoSearch/submit"
+msgstr "ใช่"
+
+msgid "rally/autoSearch/title"
+msgstr "ค้นหาอัตโนมัติ"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "ยกเลิก"
+
+msgid "rally/changePeriphery/message"
+msgstr "คุณจะถูกโอนไปยังเซิร์ฟเวอร์อื่นโดยอัตโนมัติ (%(host)s) ดำเนินการต่อ?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "ดำเนินการ"
+
+msgid "rally/changePeriphery/title"
+msgstr "โอนไปยังเซิร์ฟเวอร์อื่น"
+
+msgid "rally/goToAnother/cancel"
+msgstr "ยกเลิก"
+
+msgid "rally/goToAnother/message"
+msgstr "ถ้าคุณเปลี่ยนรูปแบบการรบ คุณจะถูกปลดออกจากหน่วยยุทธวิธีโดยอัตโนมัติ"
+
+msgid "rally/goToAnother/submit"
+msgstr "ดำเนินการ"
+
+msgid "rally/goToAnother/title"
+msgstr "เปลี่ยนรูปแบบ"
+
+msgid "rally/goToIntro/cancel"
+msgstr "ยกเลิก"
+
+msgid "rally/goToIntro/message"
+msgstr "คุณแน่ใจว่าคุณต้องการออกจากหน่วยยุทธวิธีนี้?"
+
+msgid "rally/goToIntro/submit"
+msgstr "ยืนยัน"
+
+msgid "rally/goToIntro/title"
+msgstr "ยืนยันการออก"
+
+msgid "rally/goToSquad/cancel"
+msgstr "ยกเลิก"
+
+msgid "rally/goToSquad/message"
+msgstr "ถ้าคุณสร้างหมวดรถถัง คุณจะออกจากรูปแบบการเล่นโดยอัตโนมัติ"
+
+msgid "rally/goToSquad/submit"
+msgstr "สร้าง"
+
+msgid "rally/goToSquad/title"
+msgstr "สร้างหมวดรถถัง"
+
+msgid "rally/leave/cancel"
+msgstr "ยกเลิก"
+
+msgid "rally/leave/message"
+msgstr "คุณต้องการที่จะออกจากหน่วยยุทธวิธีและออกจากรูปแบบการรบนี้?"
+
+msgid "rally/leave/submit"
+msgstr "ยืนยัน"
+
+msgid "rally/leave/title"
+msgstr "ยืนยันการออก"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "ดำเนินการต่อ"
+
+msgid "rally/leaveDisabled/message"
+msgstr "ไม่สามารถออกได้ ยานเกราะของคุณอยู่ในช่องพร้อมทำการรบ"
+
+msgid "rally/leaveDisabled/title"
+msgstr "โปรดทราบ"
+
+msgid "rally/startBattle/cancel"
+msgstr "ไม่"
+
+msgid "rally/startBattle/message"
+msgstr "ค้นหาข้าศึก?"
+
+msgid "rally/startBattle/submit"
+msgstr "ใช่"
+
+msgid "rally/startBattle/title"
+msgstr "ค้นหาข้าศึก"
+
+msgid "recruit/cancel"
+msgstr "ยกเลิก"
+
+msgid "recruit/submit"
+msgstr "ทหารเกณฑ์"
+
+msgid "recruit/title"
+msgstr "เกณฑ์ %(role)s ใหม่สำหรับ %(vehicleName)s?"
+
+msgid "recruit/voiceoverText"
+msgstr "เสียงพากย์เฉพาะของสมาชิกพลรถถังจะใช้ได้กับคุณสมบัติผู้บังคับการรถถังเท่านั้น"
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "คุณไม่จำเป็นต้องเกณฑ์ สมาชิกพลรถถังสำหรับพาหนะพิเศษ คุณสามารถโอนพลรถถังไปยังพาหนะพิเศษของชนิดเดียวกัน ได้โดยไม่มีผลเสียใดๆ"
+
+msgid "recruit/warning/slotChanged"
+msgstr "สมาชิกพลรถถังนี้ไม่สามารถเกณฑ์สำหรับพาหนะที่เลือกเอาไว้และจะถูกส่งกลับไปยังค่ายทหาร"
+
+msgid "recruitConversionConfirm/warning"
+msgstr "สมาชิกพลรถถังมีความสามารถที่ล้าสมัยซึ่งจะตั้งใหม่โดยอัตโนมัติโดยไม่เสียประสบการณ์"
+
+msgid "recruitDialog/name/title"
+msgstr "เกณฑ์สมาชิกพลรถถังใหม่ (%(name)s)?"
+
+msgid "recruitDialog/title"
+msgstr "เกณฑ์สมาชิกพลรถถังใหม่?"
+
+msgid "recruitWindow/cancel"
+msgstr "ยกเลิก"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "ไม่ได้เลือก"
+
+msgid "recruitWindow/nation"
+msgstr "ประเทศ"
+
+msgid "recruitWindow/specialization"
+msgstr "การคัดเลือก"
+
+msgid "recruitWindow/submit"
+msgstr "ทหารเกณฑ์"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "ชนิดพาหนะ"
+
+msgid "recruitWindow/vehicleType"
+msgstr "พาหนะ"
+
+msgid "referralReward/cancel"
+msgstr "ยกเลิก"
+
+msgid "referralReward/message"
+msgstr "รับ %(product)s?"
+
+msgid "referralReward/submit"
+msgstr "ยืนยัน"
+
+msgid "referralReward/title"
+msgstr "การยืนยันการรับ"
+
+msgid "refuseTraining/cancel"
+msgstr "ไม่"
+
+msgid "refuseTraining/message"
+msgstr "ออกจากการฝึก?"
+
+msgid "refuseTraining/submit"
+msgstr "ใช่"
+
+msgid "refuseTraining/title"
+msgstr "ยืนยัน"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "ทำลาย"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "ยกเลิก"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "ยุทธปัจจัย \"%(name)s\" จะถูกย้ายไปยังโรงเก็บเนื่องจาก %(reason)s กับชิ้นส่วนปัจจุบัน"
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "เข้ากันไม่ได้"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "ปลด"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "ยืนยันการถอด"
+
+msgid "rentConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "rentConfirmation/event"
+msgstr "สำหรับรูปแบบ %(eventName)s"
+
+msgid "rentConfirmation/message"
+msgstr "เช่า %(name)s %(event)sในราคา %(price)s?"
+
+msgid "rentConfirmation/submit"
+msgstr "ยืนยัน"
+
+msgid "rentConfirmation/title"
+msgstr "ยืนยันการเช่า"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "ยกเลิก"
+
+msgid "rentConfirmationRenew/message"
+msgstr "ขยายช่วงการเช่าสำหรับ %(name)s %(event)s ในราคา%(price)s?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "ยืนยัน"
+
+msgid "rentConfirmationRenew/title"
+msgstr "ยืนยันการเช่า"
+
+msgid "replacePassport/unique/cancel"
+msgstr "ยกเลิก"
+
+msgid "replacePassport/unique/message"
+msgstr "นี่เป็นพลรถถังเฉพาะและข้อมูลส่วนตัวของเขาไม่สามารถถูกแก้คืนได้ในภายหลัง คุณแน่ใจที่จะทำการเปลี่ยนข้อมูลส่วนบุคคลด้วยทอง %(gold)s?"
+
+msgid "replacePassport/unique/submit"
+msgstr "เปลี่ยน"
+
+msgid "replacePassport/unique/title"
+msgstr "ยืนยันการเปลี่ยน"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "replacePassportConfirmation/message"
+msgstr "คุณต้องการเปลี่ยนข้อมูลส่วนตัวของพลรถถังคนนี้ด้วยทอง %(gold)s?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "เปลี่ยน"
+
+msgid "replacePassportConfirmation/title"
+msgstr "เปลี่ยนข้อมูลส่วนตัว"
+
+msgid "replayNotification/cancel"
+msgstr "ไม่"
+
+msgid "replayNotification/message"
+msgstr "World of Tanks Version ปัจจุบันนั้นไม่เข้ากับการบันทึกการรบ ซึ่งอาจจะก่อให้เกิดปัญหาในวิดิโอบันทึกได้ จะยืนยันการบันทึกหรือไม่?"
+
+msgid "replayNotification/submit"
+msgstr "ใช่"
+
+msgid "replayNotification/title"
+msgstr "เตือน"
+
+msgid "replayStopped/cancel"
+msgstr "ยกเลิก"
+
+msgid "replayStopped/message"
+msgstr "การเล่นบันทึกย้อนหลังเสร็จสิ้น คลิก เสร็จสิ้นเพื่อออกจากเกม"
+
+msgid "replayStopped/submit"
+msgstr "เสร็จสิ้น"
+
+msgid "replayStopped/title"
+msgstr "การเล่นบันทึกย้อนหลังเสร็จสิ้น"
+
+msgid "reportBug/cancel"
+msgstr "ยกเลิก"
+
+msgid "reportBug/message"
+msgstr "การคลิกที่นี่จะเป็นการเปิดบราวเซอร์มาตรฐานของคุณและพาคุณไปยังเวบไซต์ฝ่ายสนับสนุนผู้เล่น World of Tanks เพื่อทำการรายงานข้อผิดพลาด ดำเนินการต่อ?"
+
+msgid "reportBug/submit"
+msgstr "ดำเนินการต่อ"
+
+msgid "reportBug/title"
+msgstr "ไปยังฝ่ายสนับสนุนผู้เล่น"
+
+msgid "resetAllPerks/cancel"
+msgstr "ยกเลิก"
+
+msgid "resetAllPerks/submit"
+msgstr "ตั้งใหม่"
+
+msgid "resetAllPerks/title"
+msgstr "ตั้งความสามารถทั้งหมดของสมาชิก พลรถถังทั้งหมดใหม่?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}ความสามารถทั้งหมดจะถูกตั้งใหม่สำหรับสมาชิกพลรถถังทั้งหมดในบัญชีของคุณ{orangeEnd}\n{orangeStart}การดำเนินการนี้ไม่สามารถแก้คืนได้{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "ดำเนินการต่อ"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s การตั้งค่ากราฟฟิคถูกตั้งให้แสดงภาพด้วยคุณภาพสูงสุดโดยอัตโนมัติ\nในการเพิ่มประสิทธิภาพของการเล่นเกม ลดค่าคุณภาพของกราฟฟิคในหัวข้อการตั้งค่า"
+
+msgid "resetGraphics/submit"
+msgstr "การตั้งค่า"
+
+msgid "resetGraphics/title"
+msgstr "เปลี่ยนการตั้งค่ากราฟฟิค"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "กู้คืน"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s จะถูกกู้คืน"
+
+msgid "restoreTankman/free"
+msgstr "ราคา: ฟรี"
+
+msgid "restoreTankman/header"
+msgstr "กู้คืนสมาชิกพลรถถังคนนี้?"
+
+msgid "restoreTankman/price"
+msgstr "ราคา:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "ยกเลิก"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "กู้คืน %(vehiclename)s"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "กู้คืน"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "ไม่มีพลรถถัง"
+
+msgid "restoreVehicleDialog/title"
+msgstr "กู้คืน %(vehiclename)s"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "ภายหลังที่คุณคลิกกู้คืน คุณจะไม่สามารถทำการแลกเปลี่ยนอุปกรณ์และยุทธปัจจัยที่ซื้อมาด้วยทองได้ โปรดตรวจสอบรายละเอียดทั้งหมดให้ถี่ถ้วนก่อน"
+
+msgid "retrain/cancel"
+msgstr "ยกเลิก"
+
+msgid "retrain/changeRole"
+msgstr "เปลี่ยนคุณสมบัติ"
+
+msgid "retrain/discountLabel"
+msgstr "ส่วนลดนี้จะมีให้เนื่องจากความสามารถแรกยังไม่ได้ฝึกถึง 100%"
+
+msgid "retrain/discountTooltip/body"
+msgstr "ตัวเลือกนี้ไม่มีให้เนื่องจากคุณมีส่วนลด 100% ให้กับการฝึกใหม่ความสามารถในวิทยาลัยรถถังอยู่แล้ว"
+
+msgid "retrain/discountTooltip/header"
+msgstr "ไม่มีให้"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "สมาชิกพลรถถังที่จะทำการฝึกใหม่: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "คุณไม่จำเป็นต้องฝึกสมาชิกพลรถถังสำหรับพาหนะพิเศษ\nคุณสามารถโอนพลรถถังไปยังพาหนะพิเศษของชนิดเดียวกันได้โดยไม่มีผลเสียใดๆ"
+
+msgid "retrain/price"
+msgstr "ราคา:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "ประสิทธิภาพความสามารถ\nหลังการฝึกใหม่: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "โรงเรียนกรมทหาร"
+
+msgid "retrain/priceCard/free/description"
+msgstr "ประสิทธิภาพความสามารถ\nหลังการฝึกใหม่: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "หลักสูตรเร่งรัด"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "ประสิทธิภาพความสามารถ\nหลังการฝึกใหม่: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "วิทยาลัยยานเกราะ"
+
+msgid "retrain/submit"
+msgstr "ฝึกใหม่"
+
+msgid "retrain/title/massive"
+msgstr "ฝึกพลรถถังใหม่สำหรับ %(vehicleName)s&zwnbsp;?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "ฝึกใหม่สำหรับ %(vehicleName)s\nและเปลี่ยนคุณสมบัติเป็น %(role)?"
+
+msgid "retrain/title/single/simple"
+msgstr "ฝึกใหม่สำหรับ %(vehicleName)s"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "ความสามารถของคุณสมบัติที่ไม่เหมาะสมจะถูกปิดเอาไว้ โปรดตั้งมันใหม่ด้วยตัวเอง"
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "พลรถถังสามารถย้ายไปประจำพาหนะพิเศษชนิดเดียวกันโดยไม่ต้องทำการฝึกหรือมีข้อเสียใดๆแต่จะต้องทำการตั้งความสามารถที่ไม่เหมาะสมใหม่ด้วยตัวเอง"
+
+msgid "rudyInfo/message"
+msgstr "\"สี่พลรถถังและเจ้าตูบ\" (โปแลนด์ \"Czterej pancerni i pies\") เป็นละครทีวีขาวดำดั้งเดิมอันเป็นอมตะของโปแลนด์ที่มาจากนวนิยายชื่อเดียวกันของ Janusz Przymanowski ได้เข้ามาอยู่ในเกมแล้ว! ละครทีวีนี้ออกอากาศครั้งแรกเมื่อ 9 พฤษภาคม 1966 เป็นเรื่องเกี่ยวกับการผจญภัยของพลรถถัง T-34-85 ชื่อว่า Rudy (หรือ Ginger) และหมาที่ชื่อ Szarik ในช่วงสงครามโลกครั้งที่สอง"
+
+msgid "rudyInfo/submit"
+msgstr "รับทราบ!"
+
+msgid "rudyInfo/title"
+msgstr "สี่พลรถถังและเจ้าตูบ"
+
+msgid "selectVehicle/counter"
+msgstr "พาหนะที่แสดง:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "เลือกพาหนะจู่โจม"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "เลือกพาหนะนี้"
+
+msgid "sellConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "sellConfirmation/submit"
+msgstr "ขาย"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "ขาย"
+
+msgid "sellModuleConfirmation/title"
+msgstr "ยืนยันการขาย"
+
+msgid "sellShellConfirmation/submit"
+msgstr "ขายกระสุน '%(shellName)s'?"
+
+msgid "sendInvites/common/title"
+msgstr "เชิญเข้าหน่วยยุทธวิธี"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "ยกเลิก"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "สถิติช่วงการเล่นจะถูกตั้งใหม่โดยอัตโนมัติภายใน {}"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "ตั้งค่าใหม่"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s ชม. %(minutes)s นาที"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "ตั้งค่าสถิติช่วงการเล่นใหม่?"
+
+msgid "shopSyncError/cancel"
+msgstr "ดำเนินการต่อ"
+
+msgid "shopSyncError/message"
+msgstr "อัพเดตโปรแกรมก่อน ถ้ายังเกิดข้อผิดพลาดอีก ให้อัพเดตเซิร์ฟเวอร์"
+
+msgid "shopSyncError/title"
+msgstr "ไม่ได้ทำการเทียบเคียง"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "ยกเลิก"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "ฝึกความสามารถที่เลือกไว้?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "ฝึก"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "ใช้งาน"
+
+msgid "soundModeInvalid/cancel"
+msgstr "ยกเลิก"
+
+msgid "soundModeInvalid/message"
+msgstr "ไฟล์สำหรับการแจ้งเตือนด้วยข้อความที่เลือกไว้เสียหายหรือไม่มีอยู่ เสียงแจ้งเตือนจะถูกตั้งเป็นค่ามาตรฐาน"
+
+msgid "soundModeInvalid/submit"
+msgstr "บันทึก"
+
+msgid "soundModeInvalid/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "ยกเลิก"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "ระบบเสียงที่เลือกไว้ต่างจากระบบที่ถูกระบุโดยอัตโนมัติจากโปรแกรมลูกข่ายเกม เสียงบางเสียงอาจจะไม่มีให้ เราขอแนะนำให้คุณทดสอบความต่างของเสียงได้ ยืนยันการเปลี่ยนแปลง?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "ยืนยัน"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "ระบบเสียงไม่ตรงกัน"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "ไม่"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "ระบบเสียงที่เลือกไว้ต่างจากระบบที่ถูกระบุโดยอัตโนมัติจากโปรแกรมลูกข่ายเกม เสียงบางเสียงอาจจะไม่มีให้ ใช้งานการตั้งค่าเสียงที่เหมาะสม?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "ใช่"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "ระบบเสียงไม่ตรงกัน"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "รับทราบ!"
+
+msgid "squad/eventDisabled/message"
+msgstr "กิจกรรมดังกล่าวไม่มีให้ หมวดดังกล่าวจะถูกยุบ"
+
+msgid "squad/eventDisabled/title"
+msgstr "กิจกรรมจบลงแล้ว"
+
+msgid "squad/goToAnother/cancel"
+msgstr "ยกเลิก"
+
+msgid "squad/goToAnother/message"
+msgstr "คุณกำลังอยู่ในหมวดรถถัง ถ้าคุณเปลี่ยนรูปแบบ คุณจะถูกปลดออกจากหมวดรถถัง"
+
+msgid "squad/goToAnother/submit"
+msgstr "ดำเนินการ"
+
+msgid "squad/goToAnother/title"
+msgstr "เปลี่ยนรูปแบบ"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "ยกเลิก"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "เมื่อทำการเปลี่ยนรูปแบบเกม หมวดรถถังปัจจุบันของคุณจะถูกยุบลง คุณต้องการเปลี่ยนชนิดการรบ?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "ยืนยัน"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "การเปลี่ยนรูปแบบเกม"
+
+msgid "squad/goToSquad/cancel"
+msgstr "ยกเลิก"
+
+msgid "squad/goToSquad/message"
+msgstr "ออกจากหน่วยยุทธวิธีและสร้างหมวดรถถังกับผู้เล่นคนดังกล่าว?"
+
+msgid "squad/goToSquad/submit"
+msgstr "สร้าง"
+
+msgid "squad/goToSquad/title"
+msgstr "สร้างหมวดรถถัง"
+
+msgid "squad/leave/cancel"
+msgstr "ยกเลิก"
+
+msgid "squad/leave/message"
+msgstr "คุณแน่ใจที่จะออกจากหมวดรถถัง?"
+
+msgid "squad/leave/submit"
+msgstr "ยืนยัน"
+
+msgid "squad/leave/title"
+msgstr "ยืนยันการออก"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "ดำเนินการต่อ"
+
+msgid "squad/leaveDisabled/message"
+msgstr "คุณไม่สามารถออกจากหมวดรถถังได้ คุณเป็นสมาชิกหมวดรถถังและพร้อมเข้ารบแล้ว"
+
+msgid "squad/leaveDisabled/title"
+msgstr "โปรดทราบ"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "ยกเลิก"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "หมวดรถถังยังไม่ครบ จะทำการเพิ่มผู้เล่นอีกหนึ่งคนโดยอัตโนมัติ เข้าร่วมการรบ?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "ออกรบ!"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "หมวดรถถังยังไม่พร้อม"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "ยกเลิก"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "หมวดรถถังไม่ครบ ยืนยันการเข้าร่วมรบ?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "ออกรบ!"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "หมวดรถถังยังไม่พร้อม"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "ยกเลิก"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "หมวดรถถังยังไม่ครบ เพิ่มผู้เล่นโดยอัตโนมัติแล้วเข้าร่วมการรบ?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "ออกรบ!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "หมวดรถถังยังไม่พร้อม"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "ยกเลิก"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "หนึ่งในสมาชิกหมวดรถถังไม่พร้อมรบ ยืนยันที่จะเข้ารบ?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "ออกรบ!"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "หมวดรถถังยังไม่พร้อม"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "ยกเลิก"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "ผู้เล่นไม่ได้ยืนยันว่าตัวเองพร้อมจะถูกปลดจากหน่วยยุทธวิธี ผู้เล่นอีกหนึ่งคนจะถูกเพิ่มเข้าโดยอัตโนมัติ เข้าร่วมการรบ?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "ออกรบ!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "หมวดรถถังยังไม่พร้อม"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "ยกเลิก"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "ไม่มีสมาชิกหมวดรถถังพร้อม ยืนยันที่จะเข้าการรบ?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "ออกรบ!"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "หมวดรถถังยังไม่พร้อม"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "ยกเลิก"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "หมวดรถถังยังมีสมาชิกไม่ครบ ผู้เล่นที่ยังไม่ได้ยืนยันว่าตัวเองพร้อมจะถูกแยกออกจากหน่วยยุทธวิธี เพิ่มผู้เล่นอัตโนมัติแล้วเข้าร่วมการรบ?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "ออกรบ!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "หมวดรถถังยังไม่พร้อม"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "ล้มเหลวในการเข้าร่วมการรบใหม่ ผู้เล่นหลายคนยังไม่ได้กลับมา รอจนกว่าการรบปัจจุบันสิ้นสุด"
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "รับทราบ!"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "หมวดรถถังยังไม่พร้อม"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "ตกลง"
+
+msgid "squadPremiumNeeded/message"
+msgstr "ผู้เล่นบัญชีพิเศษเท่านั้นที่จะสามารถสร้างหมวดรถถังได้\nผู้เล่นที่สร้างหมวดรถถังสามารถผู้เล่นบัญชีแบบใดก็ได้"
+
+msgid "squadPremiumNeeded/title"
+msgstr "บัญชีพิเศษเท่านั้น"
+
+msgid "steamStartNeeded/cancel"
+msgstr "ปิดเกม"
+
+msgid "steamStartNeeded/message"
+msgstr "เกมต้องถูกเปิดผ่าน Steam เพื่อให้เข้าใช้ได้อย่างถูกต้อง"
+
+msgid "steamStartNeeded/title"
+msgstr "ไม่สามารถลงชื่อใช้ได้"
+
+msgid "stronghold/leave/cancel"
+msgstr "ยกเลิก"
+
+msgid "stronghold/leave/message"
+msgstr "คุณแน่ใจที่จะออกจากกองเฉพาะกิจ"
+
+msgid "stronghold/leave/submit"
+msgstr "ยืนยัน"
+
+msgid "stronghold/leave/title"
+msgstr "ยืนยันการออก"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "ทันทีที่คุณออกจากกองเฉพาะกิจกองจะถูกยุบ\nกองทัพจะสามารถถูกลงโทษจากการไม่เข้าร่วมการรบได้\nคุณแน่ใจที่จะออกจากกองเฉพาะกิจ?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "ยืนยันการออก"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "ยกเลิก"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "ดำเนินการ"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "โอนไปยังเซิร์ฟเวอร์อื่น"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)s จะถูกส่งเข้าและไม่มีให้กู้คืนอีก %(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " เพิ่มเติม %(operations)s"
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "พลรถถังจะถูกส่งไปยังค่ายทหาร"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "ยุทธปัจจัยจะถูกส่งไปยังโรงเก็บ"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "อุปกรณ์จะถูกถอดโดยไม่เสียค่าใช้จ่าย"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "การปรับแต่งแบบคู่ทั้งหมดที่ซื้อไว้จะถูกยกเลิกแต่จะทำการบันทึกความก้าวหน้าการปรับแต่งมาตรฐานเอาไว้"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "กระสุนจะถูกส่งกลับไปยังโรงเก็บ"
+
+msgid "tradeInConfirmation/submit"
+msgstr "แลกซื้อ"
+
+msgid "tradeInConfirmation/title"
+msgstr "การแลกซื้อพาหนะ"
+
+msgid "tradeInPopover/descr"
+msgstr "พาหนะพิเศษที่มีในโรงรถ"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "แสดงประเทศของพาหนะที่เลือกไว้"
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "ประเทศ"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "แสดงว่าคุณประหยัดได้เพียงใดเมื่อพาหนะดังกล่าวถูกนำมาแลกซื้อ"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "การประเมิน\nพาหนะ"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "การประเมินพาหนะ"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "แสดงระดับของพาหนะที่เลือกไว้"
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "ระดับ"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "แสดงชื่อของพาหนะที่เลือกไว้"
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "ชื่อ"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "แสดงชนิดของพาหนะที่เลือกไว้"
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "ชนิด"
+
+msgid "tradeInPopover/title"
+msgstr "เลือกพาหนะเพื่อทำการแลกซื้อ"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "เลือกพาหนะ"
+
+msgid "updateNeeded/cancel"
+msgstr "เริ่มใหม่ทีหลัง"
+
+msgid "updateNeeded/message"
+msgstr "กรุณาอัพเดทโปรแกรมของคุณ"
+
+msgid "updateNeeded/submit"
+msgstr "อัพเดต"
+
+msgid "updateNeeded/title"
+msgstr "จำเป็นต้องมีการอัพเดท"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "ฝึกพลรถถังด้วยทอง {%d} เหรียญ?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "ฝึก"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "ยืนยันการฝึก"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "ตกลง"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "ทองไม่พอสำหรับการฝึก"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "ตกลง"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "ทองไม่พอ"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "ฝึกพลรถถังด้วยเงิน {%d} เหรียญ?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "ฝึก"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "ยืนยันการฝึก"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "ตกลง"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "เงินไม่พอสำหรับการฝึก"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "ตกลง"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "เงินไม่พอ"
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "ยกเลิก"
+
+msgid "vehConf/exitDialog/message"
+msgstr "การปรับแต่งจะไม่ถูกบันทึก ออกจากรายการการตั้งค่าพาหนะ?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "ยืนยัน"
+
+msgid "vehConf/exitDialog/title"
+msgstr "ยกเลิกการเปลี่ยน"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "ถอดออกจากโรงรถ %(name)s"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "ยกเลิก"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "โปรดทราบ! นี่เป็นพาหนะพิเศษ ถ้าคุณขายมัน คุณจำเป็นต้องรอ %(cooldown)s วันเพื่อทำการกู้คืน ทำการขายพาหนะ?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "ยืนยัน"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "ยืนยันการขาย"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "ยกเลิก"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "โปรดทราบ! นี่เป็นพาหนะพิเศษ อย่างไรก็ตาม ถ้าคุณขายมัน คุณจะยังสามารถกู้คืนมันได้ ทำการขายพาหนะ?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "ยืนยัน"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "ยืนยันการขาย"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "ยกเลิก"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "ยกเลิก"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "โปรดทราบ! รถถังนี้เป็นรถถังเฉพาะและจะไม่สามารถกู้คืนได้ พลรถถังจะถูกปลดเป็นการถาวรด้วย"
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "ยืนยัน"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "ยืนยันการขาย"
+
+msgid "vehicleSell/unique/message"
+msgstr "โปรดทราบ! นี่เป็นพาหนะที่มอบให้เป็นการพิเศษ คุณจะไม่สามารถซื้อได้อีกในร้านค้า ดำเนินการต่อ?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "ใช่"
+
+msgid "vehicleSell/unique/title"
+msgstr "ยืนยันการขาย"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "ยืนยันการขาย"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "เพื่อยืนยัน ใส่จำนวนเงินขายจากคอลัมน์ \"รวม\" (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "คุณใส่ข้อมูลไม่ถูกต้อง"
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "กระสุน:"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "คำสั่ง:"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "ยกเลิก"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "ทั้งหมด:"
+
+msgid "vehicleSellDialog/count"
+msgstr "อัน"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "ปลดเกษียณ"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "ส่งไปยังค่ายทหาร"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "พลรถถัง:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "โครงภายนอก:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "ถอดส่วนประกอบ"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "ยุทธปัจจัย:"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "รายละเอียด"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "โรงเก็บ:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "ใช้ไป:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "รวมการปรับแต่งตามชาติทั้งหมดของพาหนะดังกล่าว!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "ชิ้นส่วน"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "อุปกรณ์:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "ทันทีที่ขายพาหนะไป ระดับการปรับแต่งภาคสนามปัจจุบันจะยังคงอยู่ แต่การปรับแต่งคู่ทั้งหมดจะถูกยกเลิกไป"
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "ได้รับ:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "ปลด"
+
+msgid "vehicleSellDialog/submit"
+msgstr "ขาย"
+
+msgid "vehicleSellDialog/title"
+msgstr "ขาย %(name)s"
+
+msgid "vehicleSellDialog/unload"
+msgstr "ส่งไปโรงเก็บ"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "ชั้นยอด"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "ราคา"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "ระดับ "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "บทบาท: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "รถถังเบา"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "รับทราบ!"
+
+msgid "voiceChatInitFailed/message"
+msgstr "เกิดข้อผิดพลาดในการเริ่มใช้สนทนาเสียง: บริการไม่มีให้ในขณะนี้"
+
+msgid "voiceChatInitFailed/title"
+msgstr "เริ่มการสนทนาด้วยเสียง"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "ตกลง"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "การสนทนาด้วยเสียงเริ่มขึ้นเรียบร้อย"
+
+msgid "voiceChatInitSucceded/title"
+msgstr "เริ่มการสนทนาด้วยเสียง"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "ปิด"
+
+msgid "waterQualityNotPossible/message"
+msgstr "คุณภาพการแสดงผลน้ำระดับสูงนั้นสามารถเลือกได้ต่อเมื่อตัวเลือกการเก็บกวาดเพิ่มเติมเปิดใช้งาน"
+
+msgid "waterQualityNotPossible/title"
+msgstr "คุณภาพการแสดงผลน้ำไม่สามารถเลือกได้"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "ยกเลิก"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "ตรวจสอบว่ามีพาหนะในโรงรถหรือไม่"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "ราคา: %(price)s%(icon)s (มีให้: %(balance)s%(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "ผู้เล่น: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "พาหนะที่เลือกไว้: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "คืนสภาพปฏิบัติการ"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "คืนสภาพปฏิบัติการ?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "ผู้ช่วย"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "รางวัลการเข้าร่วม"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "โบนัสการรบ"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "บัตรผ่านการรบเสริม"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "แผนที่ที่ยกเว้น"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "พาหนะมีให้เฉพาะ"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "พาหนะมีให้เฉพาะ"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "การปลดอุปกรณ์ฟรี"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "คลังทอง"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "การฝึกพลรถถังเข้มข้น"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "ตัวคุณประสบการณ์จัดการได้"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "ตัวเร่ง Pro"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "การปรับแต่งบันทึกประจำการ"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "ป้ายพลรถถัง"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "เปิดใช้ WOT PLUS แล้ว"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "ทุกอย่างเรียบร้อย"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "ต่ออายุเมื่อ {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "เปิดใช้ WOT PLUS CORE แล้ว"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "รายละเอียด"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "ช่วงเวลา 360 วัน"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "ช่วงเวลา 180 วัน"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}} ต่ออายุเมื่อ {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "เปิดใช้ WOT PLUS PRO แล้ว"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "เปิดใช้งาน"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}คุณจะไม่สามารถเร่งพาหนะอื่นได้อีกเป็นเวลา {{@ style (color #fff)}}{{boostInterval}}ชั่วโมง{{/}}{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "การเปิดใช้ตัวเร่ง Pro ทำให้พาหนะคันนี้ได้รับเงินและประสบการณ์มากขึ้น {{@ style (color #fff)}}{{bonusPercent}}{{/}} ใช้กับพาหนะคันเดียวเท่านั้น"
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "เปิดใช้ตัวเร่ง Pro สำหรับ {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "เปลี่ยน"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}มีเพียงพาหนะคันเดียวเท่านั้นที่จะได้รับตัวเร่ง คุณจะไม่สามารถเร่งพาหนะคันอื่นได้อีกเป็นเวลา {{@ style (color #fff)}}{{boostInterval}} ชั่วโมง {{/}}{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "การเปิดใช้ตัวเร่ง Pro ทำให้พาหนะคันนี้ได้รับเงินและประสบการณ์มากขึ้น {{@ style (color #fff)}}{{bonusPercent}}{{/}} ใช้กับพาหนะคันเดียวเท่านั้น"
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "เปลี่ยนตัวเร่ง Pro ให้กับ {{vehicle}}?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "ยกเลิก"
+
+msgid "wotPlusRental/description"
+msgstr "ช่วงการเช่าพาหนะถัดไปจะมีให้ใน {white_Open}%s{white_Close}"
+
+msgid "wotPlusRental/submit"
+msgstr "เช่า"
+
+msgid "wotPlusRental/title"
+msgstr "เช่า {cream_Open}%s{cream_Close}?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "บันทึก"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "คุณต้องการบันทึกการปรับแต่งบันทึกประจำการ?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "ยกเลิก"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "ใช้ประสบการณ์ที่รถถังคันนี้ได้มาฝึกพลรถถัง พลรถถังที่ประสบการณ์น้อยที่สุดจะฝึกเร็วขึ้นเป็นสองเท่า"
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "เปิด"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "เร่งการฝึกพลรถถัง?"

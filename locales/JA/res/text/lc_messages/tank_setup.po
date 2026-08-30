@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "categories/body/firepower"
+msgstr "敵車輌を撃破する能力に関連する各種パラメーター。フィルターの使用により、これらのパラメーターにボーナスを追加する拡張パーツの表示/非表示を切り替えることができます。"
+
+msgid "categories/body/mobility"
+msgstr "戦場において位置取りを迅速に変更する能力に関連する各種パラメーター。フィルターの使用により、これらのパラメーターにボーナスを追加する拡張パーツの表示/非表示を切り替えることができます。"
+
+msgid "categories/body/stealth"
+msgstr "隠蔽能力と偵察能力に関連する各種パラメーター。フィルターの使用により、これらのパラメーターにボーナスを追加する拡張パーツの表示/非表示を切り替えることができます。"
+
+msgid "categories/body/survivability"
+msgstr "車輌が受けるダメージに耐える能力を示す各種パラメーター。フィルターの使用により、これらのパラメーターにボーナスを追加する拡張パーツの表示/非表示を切り替えることができます。"
+
+msgid "categories/empty"
+msgstr "第2スロットのカテゴリー"
+
+msgid "categories/firepower"
+msgstr "火力"
+
+msgid "categories/mobility"
+msgstr "機動性"
+
+msgid "categories/slotEffect/empty"
+msgstr "拡張パーツの第2スロットにカテゴリーを割り当てることができます。"
+
+msgid "categories/slotEffect/firepower"
+msgstr "火力カテゴリーの通常拡張パーツをこのスロットに搭載すると、効果に追加ボーナスが加算されます。"
+
+msgid "categories/slotEffect/mobility"
+msgstr "機動性カテゴリーの通常拡張パーツをこのスロットに搭載すると、効果に追加ボーナスが加算されます。"
+
+msgid "categories/slotEffect/stealth"
+msgstr "偵察性能カテゴリーの通常拡張パーツをこのスロットに搭載すると、効果に追加ボーナスが加算されます。"
+
+msgid "categories/slotEffect/survivability"
+msgstr "生存性カテゴリーの通常拡張パーツをこのスロットに搭載すると、効果に追加ボーナスが加算されます。"
+
+msgid "categories/stealth"
+msgstr "偵察性能"
+
+msgid "categories/survivability"
+msgstr "生存性"
+
+msgid "categories/universal"
+msgstr "カテゴリーなし"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "搭載可能なディレクティブをリストから1つ選択してください。"
+
+msgid "compare/section/description/consumables"
+msgstr "搭載可能な消耗品をリストから1つ選択してください。"
+
+msgid "compare/section/description/optDevices"
+msgstr "搭載可能な拡張パーツをリストから1つ選択してください。"
+
+msgid "compare/section/title/battleBoosters"
+msgstr "{name}のディレクティブ"
+
+msgid "compare/section/title/consumables"
+msgstr "{name}の消耗品"
+
+msgid "compare/section/title/optDevices"
+msgstr "{name}の拡張パーツ"
+
+msgid "dealPanel/autoRenew"
+msgstr "自動補給"
+
+msgid "dealPanel/button/apply"
+msgstr "適用"
+
+msgid "dealPanel/button/applyType"
+msgstr "タイプに適用"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "車輌に適用"
+
+msgid "dealPanel/button/cancel"
+msgstr "キャンセル"
+
+msgid "dealPanel/button/purchase"
+msgstr "購入"
+
+msgid "dealPanel/fromStorage"
+msgstr "倉庫内"
+
+msgid "dealPanel/fromVehicle"
+msgstr "搭載中:"
+
+msgid "dealPanel/repair"
+msgstr "修理が必要"
+
+msgid "dealPanel/toBePaid"
+msgstr "合計額"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "倉庫内"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "車輌に搭載中"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "残高不足により購入できません。"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "クレジットで購入します"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "ボンズで購入します"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "倉庫から搭載"
+
+msgid "deconstructionDeviceView/available"
+msgstr "所有中:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "キャンセル"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "続行"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "倉庫に保管中:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "車輌に搭載中:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( %(red_Open)s不足中%(red_Close)s: %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "入手できる総量:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "選択中の車輌"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "倉庫に保管中: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "車輌に搭載中: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "試作拡張パーツを選択して%(whiteSpanish_Open)sコンポーネント%(whiteSpanish_Close)s %(icon)s に分解できます。コンポーネントは試作拡張パーツをアップグレードする際などに必要になります。"
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s 不要な試作拡張パーツを分解して不足分のコンポーネントを集める必要があります。"
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "ワークベンチ"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "アップグレード不可\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s"
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "操作を続行するには分解したい不要な試作拡張パーツを選択する必要があります。"
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "操作を続行するには不足分のコンポーネントを集める必要があります。"
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "変更をキャンセル"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "キャンセル"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "キャンセル"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "キャンセル"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "変更をキャンセル"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "保存"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "購入"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "購入して搭載"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "搭載"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "解除するには %(price)s で倉庫に送るか無料で破棄する必要があります。"
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "搭載した拡張パーツを解除するには、破棄するか、あるいは%(price)sを消費して「倉庫」に送る必要があります。 「WoT Plus」サブスクリプションを利用すると解除費用が{whiteSpanish_Open}無料{whiteSpanish_Close}になります。"
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "搭載した拡張パーツを解除するには、破棄するか、あるいは%(demountKit)sや%(price)sを消費して「倉庫」に送る必要があります。 「WoT Plus」サブスクリプションを利用すると解除費用が{whiteSpanish_Open}無料{whiteSpanish_Close}になります。"
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "「WoT Plus」の利用期間中は大部分の拡張パーツを{whiteSpanish_Open}無料{whiteSpanish_Close}で解除して「倉庫」に送ることができます。"
+
+msgid "dialogs/confirm/demount/items"
+msgstr "解除した拡張パーツは倉庫に保管されます。"
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "効果を発揮しません"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "ディレクティブ"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "こちらの「二元的改修案」を購入すると適用中のもう一方が自動的に破棄されます。"
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "消耗品"
+
+msgid "dialogs/confirm/item/module"
+msgstr "モジュール"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "拡張パーツ"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "二元的改修案"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "ディレクティブ"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "消耗品"
+
+msgid "dialogs/confirm/items/module"
+msgstr "モジュール"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "拡張パーツ"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " と "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "ディレクティブ・スロットの変更を保存しますか？"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "消耗品スロットの変更を保存しますか？"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "拡張パーツの変更を保存しますか？"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "{type}%(name)sを購入しますか？"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "{type}%(name)sを購入して搭載しますか？"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "{type}%(name)sを搭載しますか？"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "{type}%(name)sを全%(vehicle)sにセットしますか？"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "{type}を購入しますか？"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "{type}を購入して搭載しますか？"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "{type}を搭載しますか？"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "{type}を全%(vehicle)sにセットしますか？"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "自走砲"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "重戦車"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "軽戦車"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "中戦車"
+
+msgid "dialogs/confirm/warning"
+msgstr "【注意】%(devices)sが搭載されていないためディレクティブは%(doesNotWork)s。"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "【注意】現在所有している最後の試作拡張パーツを分解しようとしています。"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "キャンセル"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "分解"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "分解"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "入手できる総量:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "1基につき入手できる量:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "%(name)sを\n分解しますか？"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "%(name)sを\n分解しますか？"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "この拡張パーツを分解してしまうと、もとに戻したり、買い戻すことができない点にご注意ください。"
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "キャンセル"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "分解"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "以下の拡張パーツをコンポーネントに分解しますか？"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "以下の拡張パーツをコンポーネントに分解して\n%(deviceName)sをアップグレードしますか？"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "倉庫に保管中: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "車輌に搭載中: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "分解時に入手できる量: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "入手できる総量:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "アップグレード費用:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "【注意】現在所有している最後の試作拡張パーツを分解しようとしています。"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "【注意】車輌に搭載中の試作拡張パーツを分解しようとしています。"
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "変換"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "拡張パーツ"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "%(name)sをアップグレードするにはさらに%(credits)sが必要です"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "拡張パーツ"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "拡張パーツをアップグレードするにはさらに%(credits)sが必要です"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "拡張パーツをアップグレードできません。%(gold)sをクレジットに変換する必要があります。"
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "拡張パーツのアップグレードを行うのに充分なクレジットがあります。"
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "変換不要"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "分解できる試作拡張パーツがありません。"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "不要な試作拡張パーツを分解して不足分のコンポーネントを集める必要があります。"
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "%(name)sを\nアップグレードしますか？"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "不足: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "費用:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "購入"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "購入"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "変換"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "変換レート: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "「クイック整備」の利用にはあと%(credits)s必要です"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "ディレクティブ"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "消耗品"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "モジュール"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "拡張パーツ"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "二元的改修案"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "{type}「%(name)s」を{action}するにはさらに%(credits)sが必要です"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "ディレクティブ"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "消耗品"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "モジュール"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "拡張パーツ"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "{type}を{action}するにはさらに%(credits)sが必要です"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "修理するにはさらに%(credits)sが必要です"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "変換に失敗したため購入できません。変換にはあと%(gold)sが必要です。"
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "購入"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "改修案を購入"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "十分なクレジットがあるためゴールドを変換する必要はありません。"
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "ゴールドを変換せずに{action}できます"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "砲弾を補給するにはさらに%(credits)sが必要です"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "自動修理"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "修理"
+
+msgid "dialogs/needRepair/durability"
+msgstr "HP"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "車輌が自動的に無料で修理されます。"
+
+msgid "dialogs/needRepair/price"
+msgstr "修理費用"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "残高不足により修理できません。"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "了解！"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "修理不要"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "補給"
+
+msgid "dialogs/refillShells/price"
+msgstr "補給費用"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "砲弾を補給しますか？"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "砲弾の変更を保存しますか？"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "ボンズ拡張パーツを売却しようとしています。"
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "この拡張パーツを売却してしまうと、もとに戻したり、買い戻すことができない点にご注意ください。"
+
+msgid "dialogs/sell/button/cancel"
+msgstr "キャンセル"
+
+msgid "dialogs/sell/button/sell"
+msgstr "売却"
+
+msgid "dialogs/sell/header"
+msgstr "以下の拡張パーツを売却しますか？\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "アイテム 1 個の販売価格:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "リソースが不足しているため拡張パーツを解除できません。"
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "選択した車輌では利用できません"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "搭載不可"
+
+msgid "easyTankEquipView/applied"
+msgstr "適用中"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "改良"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "代替"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "標準"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "消耗品"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "寝台が不足しているため搭乗員の転属や移動を行うことができません。「兵舎」に寝台を追加する必要があります。"
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "既存の搭乗員"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "新規の搭乗員"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\n上記の人数の新たな搭乗員を採用"
+msgstr[1] "{{count}}\n上記の人数の新たな搭乗員を採用"
+msgstr[2] "{{count}}\n上記の人数の新たな搭乗員を採用"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "搭乗員"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "改良"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "標準"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "拡張パーツ"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "改良"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "標準"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "砲弾"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "すでにスタイルを適用しています"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{price}}で{{battlesCount}}戦"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "プリセットスタイル"
+
+msgid "easyTankEquipView/title"
+msgstr "クイック整備"
+
+msgid "effects/name"
+msgstr "効果"
+
+msgid "effects/template"
+msgstr "%(icon)s%(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "クールダウン時間: %(cooldown)s&nbsp;秒"
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "コンポーネントを入手"
+
+msgid "filters/shown"
+msgstr "表示中"
+
+msgid "hints/dragAndDrop/section"
+msgstr "拡張パーツを\nドラッグ&ドロップ"
+
+msgid "hints/filters/specialization"
+msgstr "カテゴリーへの\n追加ボーナス"
+
+msgid "hints/tabs/equipment"
+msgstr "新タイプの\n拡張パーツ"
+
+msgid "introduction/currency/deluxe"
+msgstr "ボンズ"
+
+msgid "introduction/currency/modernized"
+msgstr "コンポーネント"
+
+msgid "introduction/message/deluxe"
+msgstr "原則として%(currencyName)s (%(currencyIcon)s) でしか購入できない希少価値の高い強力な拡張パーツです。ゲーム内で一定の条件を満たしたり、特定のゲーム内イベントに参加すると、報酬として入手できる場合があります。"
+
+msgid "introduction/message/modernized"
+msgstr "3段階のレベルを備えた特殊なタイプの拡張パーツで、特定のゲーム内イベントやミッションの達成報酬として手に入れることができます。アップグレードするたびに性能が上昇します。他の拡張パーツと異なり破棄できない代わりに、%(currencyName)s ( %(currencyIcon)s ) と呼ばれるリソースに分解できます。分解して入手したコンポーネントは他の試作拡張パーツのアップグレードなどに使用できます。"
+
+msgid "introduction/message/trophy"
+msgstr "2段階の性能を備えた特殊なタイプの拡張パーツです。入手時のボーナス値は対応する通常拡張パーツと変わらないものの、クレジットを支払ってアップグレードすると性能が上昇します。ゲーム内通貨では購入できず、入手するには特定のゲーム内イベントに参加する必要があります。"
+
+msgid "introduction/showButton"
+msgstr "拡張パーツを表示"
+
+msgid "introduction/slide/1/description"
+msgstr "新たな拡張パーツが追加されました。また、既存の拡張パーツのうち、%(repairBox)s、%(wetAmmo)s、%(CO2Cistern)s、そして%(cycloneFilter)sの4種類が%(changedConfiguration)sとして1つに統合されたほか、%(forcedChassis)sの各バージョンがすべて%(forcedMetal)sに置換されました。従来の全ボーナスに加えて新たなボーナスも追加されています。"
+
+msgid "introduction/slide/1/title"
+msgstr "拡張パーツの新システム"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "火力"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "機動性"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "偵察性能"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "生存性"
+
+msgid "introduction/slide/2/description"
+msgstr "拡張パーツのカテゴリーと搭載するスロットのカテゴリーが一致している場合、効果に追加ボーナスが加算されます。カテゴリーが一致していない場合や、スロットにカテゴリーが割り当てられていない場合には、効果は通常値となります。"
+
+msgid "introduction/slide/2/subtitle"
+msgstr "カテゴリーの一致"
+
+msgid "introduction/slide/2/title"
+msgstr "拡張パーツのカテゴリー"
+
+msgid "introduction/slide/3/description/left"
+msgstr "拡張パーツの価格は、原則として、Tier II～IV車輌では50,000クレジット以内、Tier V～VII車輌では300,000クレジット以内、Tier VIII～XI車輌では600,000クレジット以内に設定されています。"
+
+msgid "introduction/slide/3/description/right"
+msgstr "一部の拡張パーツには、複数のクラスが用意されています。クラスはそれぞれ特定のTier範囲に対応しており、クラスが異なっても効果に違いは生じませんが、クラスの高い拡張パーツほど価格が高く設定されています。"
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "価格の変更"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "クラス分け"
+
+msgid "introduction/slide/3/title"
+msgstr "価格とクラス"
+
+msgid "introduction/slide/4/description"
+msgstr "Tier I車輌には拡張パーツを搭載できません。Tier II車輌には1つ、Tier III車輌には2つ、Tier IV以上の車輌には3つずつ拡張パーツを搭載できます。アップデートに伴い削除されたスロットに搭載していた拡張パーツは、自動的に解除されて倉庫に保管されています。"
+
+msgid "introduction/slide/4/title"
+msgstr "拡張パーツのスロット数"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "CO2充填式燃料タンク"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "改良型モジュール構造"
+
+msgid "introduction/slide/confirm"
+msgstr "了解！"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "サイクロン・フィルター"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "改良型サスペンション"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "改良型装甲材"
+
+msgid "introduction/slide/repairBox"
+msgstr "工具箱"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "湿式弾薬庫"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "改良型拡張パーツ"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "試作拡張パーツ"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "報酬拡張パーツ"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "試作拡張パーツなし"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "報酬拡張パーツなし"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "自車輌が敵に発見されたことを把握するまでの時間"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "スタン中に受ける追加スタン時間"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "茂みや樹木の陰で移動中または潜伏中の敵車輌の隠蔽率"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "全弾種の弾速"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "モジュール損傷時の装填速度へのペナルティー"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "モジュール損傷時のエンジン出力へのペナルティー"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "移動中および静止中の隠蔽率"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "移動中および静止中の隠蔽率ボーナス (ボーナス値は車輌タイプにより異なる)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "衝撃によるサスペンション損傷時に車体が受けるダメージ"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "視認範囲 (最大範囲は445 mで最大値に到達後は敵車輌を発見する能力が向上)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "自車輌への衝撃によるダメージ"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "射撃、移動、車体旋回、主砲旋回に伴う散布界の拡大"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "装甲によるHE弾のダメージ軽減率"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "自車輌の被発見状態の持続時間"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "全地盤タイプでの速度維持性能"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "移動停止から3秒経過後の隠蔽率"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "移動停止から1.5秒経過後の隠蔽率"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "移動停止から3秒経過後の隠蔽率ボーナス (ボーナス値は車輌タイプにより異なる)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "移動停止から1.5秒経過後の隠蔽率ボーナス (ボーナス値は車輌タイプにより異なる)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "移動停止から3秒経過後の視認範囲 (最大範囲は445 mで最大値に到達後は敵車輌を発見する能力が向上)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "移動停止から1.5秒経過後の視認範囲 (最大範囲は445 mで最大値に到達後は敵車輌を発見する能力が向上)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "車輌HP (端数は切り上げ)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "主砲または砲塔の旋回速度"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "自車輌が敵に発見されたことを把握するまでの時間"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "スタン中に受ける追加スタン時間"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "移動中および茂みや樹木の陰の敵車輌の隠蔽率"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "全弾種の弾速"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "モジュール損傷時の装填速度へのペナルティー"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "モジュール損傷時のエンジン出力へのペナルティー"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "移動中および静止中の隠蔽率"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "移動中および静止中の隠蔽率ボーナス (ボーナス値は車輌タイプにより異なる)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "衝撃によるサスペンション損傷時に車体が受けるダメージ"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "視認範囲 (最大範囲は445 mで、最大値到達後は敵車輌を発見する能力が向上)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "自車輌への衝撃によるダメージ"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "射撃、移動、車体旋回、主砲旋回に伴う散布界の拡大"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "装甲によるHE弾のダメージ軽減率"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "自車輌の被発見状態の持続時間"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "全地盤タイプでの速度維持性能"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "移動停止から3秒経過後の隠蔽率"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "移動停止から1.5秒経過後の隠蔽率"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "移動停止から3秒経過後の隠蔽率 (ボーナス値は車輌タイプにより異なる)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "移動停止から1.5秒経過後の隠蔽率 (ボーナス値は車輌タイプにより異なる)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "移動停止から3秒経過後の視認範囲 (最大範囲は445 mで、最大値到達後は敵車輌を発見する能力が向上)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "移動停止から1.5秒経過後の視認範囲 (最大範囲は445 mで最大値に到達後は敵車輌を発見する能力が向上)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "車輌HP (端数は切り上げ)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "砲塔旋回速度または主砲旋回速度"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "「音響探知」の効果が\n発動するまでの時間"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "被発見状態を把握するまでの時間"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "砲冷却速度"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "全搭乗員の安全性"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "職能適性へのボーナス"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "追加スタン時間"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "スタン時間"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "ダメージと貫通力の振れ幅の下限"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "ダメージと貫通力の振れ幅の上限"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "体当たりによる与ダメージ"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "敵車輌のモジュールの\n状態識別に要する時間"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "茂みや樹木の陰の敵車輌の隠蔽率"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "移動中の敵車輌の隠蔽率"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "攻撃時にモジュールの損傷や\n搭乗員の負傷を誘発する確率"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "消耗品のクールダウン時間"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "消火速度"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "茂みや樹木を挟んだ際の隠蔽率"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "「修理キット」によるHP回復量"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "通常地盤での速度維持性能"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "観測装置損傷時の\n視認範囲へのペナルティー"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "貫通力の振れ幅の上限"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "「報復要請」の持続時間"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "無線手の安全性"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "弾速"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "軟地盤での速度維持性能"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "搭乗員スタンによる\nペナルティー"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "サスペンションへの被ダメージ"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "サスペンションの修理速度"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "装填速度へのペナルティー"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "エンジンが損傷した際のペナルティー"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "車体の旋回速度"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "内部モジュールの耐久性"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "弾薬庫の耐久性"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "最大後退速度"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "隠蔽率"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "隠蔽率ボーナス"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "衝撃によるダメージ"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "サスペンションの修理速度"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "サスペンションの耐久性"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "視認範囲"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "敵車輌の発見状態の持続時間"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "エンジン出力"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "衝撃によるダメージ"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "火災発生率"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "最大前進速度"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "燃料タンクが損傷する確率"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "照準速度"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "装填時間"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "射撃、移動、旋回に伴う散布界の拡大"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "射撃後の散布界"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "移動に伴う散布界の拡大"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "車体旋回に伴う散布界の拡大"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "主砲旋回に伴う散布界の拡大"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "主砲損傷に伴う散布界の拡大"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "照準サークルのサイズ"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "HE弾のダメージ"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "射撃後の隠蔽率"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "自車輌の被発見状態の持続時間"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "体当たりに伴う衝撃による\nサスペンションへのダメージ"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "体当たりによる被ダメージ"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "装填完了時の弾種の切り替え速度"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "修理速度"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "全地盤タイプでの速度維持性能"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "静止中の隠蔽率"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "静止中の隠蔽率"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "静止中の隠蔽率ボーナス"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "静止中の隠蔽率ボーナス"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "静止中の視認範囲"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "静止中の視認範囲"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "車輌HP"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "主砲または砲塔の旋回速度"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "砲塔の旋回速度"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "方向転換速度"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "車長以外の搭乗員ひとりが\n負傷した際のペナルティー"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "「音響探知」の効果が\n発動するまでの時間"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "敵車輌のモジュールの\n状態識別に要する時間"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "「報復要請」の持続時間"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "HE弾のダメージ"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "HE弾の貫通力"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "HE弾の弾速"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "総弾数"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "全弾種のダメージ"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "全弾種の弾速"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "「音響探知」の効果が\n発動するまでの時間"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "通常砲弾のダメージ"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "被発見状態を把握するまでの時間"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "砲冷却速度"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "全搭乗員の安全性"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "職能適性へのボーナス"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "追加スタン時間"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "スタン時間"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "ダメージと貫通力の振れ幅の下限"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "ダメージと貫通力の振れ幅の上限"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "体当たりによる与ダメージ"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "敵車輌のモジュールの\n状態識別に要する時間"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "茂みや樹木の陰の敵車輌の隠蔽率"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "移動中の敵車輌の隠蔽率"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "攻撃時にモジュールの損傷や\n搭乗員の負傷を誘発する確率"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "エンジンHP"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "消耗品のクールダウン時間"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "消火速度"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "茂みや樹木を挟んだ際の隠蔽率"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "燃料タンクHP"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "主砲の俯角"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "主砲の仰角"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "主砲の安定性"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "主砲の旋回範囲"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "「修理キット」によるHP回復量"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "車体上昇速度"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "通常地盤での速度維持性能"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "HE弾以外のダメージ"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "観測装置損傷時の\n視認性能へのペナルティー"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "最大貫通力"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "「報復要請」の持続時間"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "無線手の安全性"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "弾倉内装填時間"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "装填時間 (斉射モード)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "装填時間 (単発モード)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "砲弾による敵のモジュールへのダメージ"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "弾速"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "軟地盤での速度維持性能"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "特別砲弾のダメージ"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "特別砲弾の貫通力"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "特別砲弾の弾速"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "通常砲弾のダメージ"
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "通常砲弾の貫通力"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "通常砲弾の弾速"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "スタンによるペナルティー"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "サスペンションへの被ダメージ"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "サスペンションの修理速度"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "砲塔の旋回範囲"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "装填速度へのペナルティー"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "エンジンが損傷した際のペナルティー"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "車体の旋回速度"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "内部モジュールの耐久性"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "弾薬庫の耐久性"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "最大後退速度"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "隠蔽率"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "隠蔽率ボーナス"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "衝撃によるダメージ"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "サスペンションの修理速度"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "サスペンションの耐久性"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "視認範囲 (最大445m)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "敵車輌の発見状態の持続時間"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "エンジン出力"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "衝撃によるダメージ"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "火災発生率"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "最大前進速度"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "燃料タンクが損傷する確率"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "照準速度"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "装填時間"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "射撃、移動、旋回に伴う散布界の拡大"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "射撃後の散布界"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "移動に伴う散布界の拡大"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "車体旋回に伴う散布界の拡大"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "主砲旋回に伴う散布界の拡大"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "主砲損傷に伴う散布界の拡大"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "照準サークルのサイズ"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "HE弾のダメージ"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "射撃後の隠蔽率"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "被発見状態の持続時間"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "体当たりに伴う衝撃による\nサスペンションへのダメージ"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "体当たりによる被ダメージ"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "装填完了時の弾種の切り替え速度"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "修理速度"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "最大前進速度/最大後退速度"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "全地盤タイプでの速度維持性能"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "静止中の隠蔽率"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "静止中の隠蔽率"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "静止中の隠蔽率ボーナス"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "静止中の隠蔽率ボーナス"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "静止中の視認範囲 (最大445m)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "静止中の視認範囲 (最大445m)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "車輌HP"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "砲塔旋回速度または主砲旋回速度"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "砲塔旋回速度"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "方向転換速度"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "車長以外の搭乗員ひとりが\n負傷した際のペナルティー"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "被発見状態を把握するまでの時間"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "全搭乗員の安全性"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "職能適性へのボーナス"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "追加スタン時間"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "スタン時間"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "体当たりによる与ダメージ"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "敵車輌のモジュールの\n状態識別に要する時間"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "茂みや樹木の陰の\n敵車輌の隠蔽率"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "移動中の敵車輌の隠蔽率"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "「修理キット」によるHP回復量"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "弾倉交換時間"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "最大貫通力"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "無線手の安全性"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "全弾種の弾速"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "主砲の散布界"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "サスペンションの修理速度"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "主砲旋回中の散布界の拡大"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "装填速度へのペナルティー"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "エンジン損傷時の出力に\n対するペナルティー"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "車体の旋回速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "内部モジュールの耐久性"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "弾薬庫の耐久性"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "最大後退速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "隠蔽率"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "衝撃によるダメージ"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "サスペンションの修理速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "サスペンションの耐久性"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "視認範囲"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "敵車輌の発見状態の持続時間"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "エンジン出力"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "衝撃によるダメージ"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "火災発生率"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "最大前進速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "照準速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "装填時間"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "射撃、移動、旋回に伴う散布界の拡大"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "射撃後の散布界"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "移動に伴う散布界の拡大"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "車体旋回に伴う散布界の拡大"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "主砲旋回に伴う\n散布界の拡大"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "主砲損傷に伴う散布界の拡大"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "照準サークルのサイズ"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "HE弾のダメージ"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "射撃後の隠蔽率"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "自車輌の被発見状態の持続時間"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "体当たりによる被ダメージ"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "装填完了時の弾種の切り替え速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "修理速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "速度維持性能"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "静止中の隠蔽率"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "静止中の隠蔽率"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "視認範囲"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "視認範囲"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "車輌HP"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "主砲または砲塔の旋回速度"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "砲塔の旋回速度"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "車長以外の搭乗員ひとりが\n負傷した際のペナルティー"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "被発見状態を把握するまでの時間"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "全搭乗員の安全性"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "職能適性へのボーナス"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "職能適性へのボーナス"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "追加スタン時間"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "スタン時間"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "ダメージと貫通力の振れ幅の下限"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "体当たりによる与ダメージ"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "茂みや樹木の陰の\n敵車輌の隠蔽率"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "移動中の敵車輌の隠蔽率"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "攻撃時にモジュールの損傷や\n搭乗員の負傷を誘発する確率"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "消火速度"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "「修理キット」によるHP回復量"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "弾倉交換時間"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "隠蔽率"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "通常地盤での速度維持性能"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "最大貫通力"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "通信範囲"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "無線手の安全性"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "全弾種の弾速"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "軟地盤での速度維持性能"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "サスペンションの修理速度"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "自車輌の通信範囲内の\n味方車輌の通信範囲"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "装填速度へのペナルティー"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "エンジン損傷時の出力に\n対するペナルティー"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "旋回速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "内部モジュールの耐久性"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "弾薬庫の耐久性"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "最大後退速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "隠蔽率"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "衝撃によるダメージ"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "サスペンションの修理速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "サスペンションの耐久性"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "視認範囲\n(最大445m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "敵車輌の発見状態の持続時間"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "エンジン出力"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "衝撃によるダメージ"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "火災発生率"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "最大前進速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "照準速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "装填時間"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "射撃、移動、旋回に伴う散布界の拡大"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "射撃後の散布界"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "移動に伴う散布界の拡大"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "車体旋回に伴う散布界の拡大"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "主砲旋回に伴う\n散布界の拡大"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "主砲損傷に伴う散布界の拡大"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "照準サークルのサイズ"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "HE弾のダメージ"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "射撃後の隠蔽率"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "被発見状態の持続時間"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "体当たりによる被ダメージ"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "装填完了時の弾種の切り替え速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "修理速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "速度維持性能"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "静止中の隠蔽率"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "静止中の隠蔽率"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "静止中の視認範囲\n（最大445 m）"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "静止中の視認範囲\n（最大445 m）"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "車輌HP"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "主砲または砲塔の旋回速度"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "砲塔旋回速度"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "戦闘で取得できる搭乗員EXP"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "秒"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "秒"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "秒"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "秒"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "秒"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "秒"
+
+msgid "popularLoadouts/common"
+msgstr "人気"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "人気構成"
+
+msgid "popularLoadouts/legendary"
+msgstr "レジェンド"
+
+msgid "popularLoadouts/noData"
+msgstr "データなし"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "データなし"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)s【人気構成】%(whiteSpanish_Close)s『World of Tanks』の全プレイヤーの間でトレンドとなっている拡張パーツの構成をもとにした提案です。"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "データ集計"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "現行の「オンスロート」シーズンのデータを使用できない場合は、昨シーズンのデータが使用されます。"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "「%(whiteSpanish_Open)sランダム戦%(whiteSpanish_Close)s」および「%(whiteSpanish_Open)sオンスロート%(whiteSpanish_Close)s」から集計したデータに基づいています。"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "同じ拡張パーツの全タイプのデータが合算されています。"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "「WoT Plus」の特典"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "数多くの戦闘から集計したデータをもとに、おススメの拡張パーツの構成を提案します。"
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "拡張パーツ選択アシスト"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)s【レジェンド構成】%(whiteSpanish_Close)sWTRレーティングが「レジェンド」の上級者の間でよく使用されている拡張パーツの構成をもとにした提案です。"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "構成の種類"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "プレイスタイルが類似している車輌で人気が高い構成が提案されています。"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "プレイスタイルが類似している以下の車輌のデータが表示されています。"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "選択した車輌の構成データを取得できません"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "選択した車輌はこのモードでは使用できません"
+
+msgid "section/battleAbilities"
+msgstr "戦闘リザーブ"
+
+msgid "section/battleBoosters"
+msgstr "ディレクティブ"
+
+msgid "section/consumables"
+msgstr "消耗品"
+
+msgid "section/modules"
+msgstr "モジュール"
+
+msgid "section/optDevices"
+msgstr "拡張パーツ"
+
+msgid "section/shells"
+msgstr "砲弾"
+
+msgid "section/toggleCamouflage"
+msgstr "迷彩"
+
+msgid "section/toggleShells"
+msgstr "砲弾"
+
+msgid "shells/ammunitionFull"
+msgstr "砲弾は補給済み"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "砲弾不足"
+
+msgid "shells/autoFillOff"
+msgstr "自動補給無効"
+
+msgid "shells/autofillOn"
+msgstr "自動補給有効"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "倉庫内:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "弾薬庫内:"
+
+msgid "shells/shortSpecification/price"
+msgstr "購入"
+
+msgid "shells/specification/inStorage"
+msgstr "倉庫内"
+
+msgid "shells/specification/inVehicle"
+msgstr "弾薬庫内"
+
+msgid "shells/specification/price"
+msgstr "購入"
+
+msgid "shells/title"
+msgstr "砲弾"
+
+msgid "shells/type/base"
+msgstr "標準砲弾 (AP)"
+
+msgid "shells/type/special"
+msgstr "特殊砲弾 (HE)"
+
+msgid "shells/type/tactical"
+msgstr "戦術砲弾 (APCR)"
+
+msgid "tabs/crew"
+msgstr "搭乗員用"
+
+msgid "tabs/deluxe"
+msgstr "ボンズ"
+
+msgid "tabs/modernized"
+msgstr "試作"
+
+msgid "tabs/optDevice"
+msgstr "拡張パーツ用"
+
+msgid "tabs/simple"
+msgstr "通常"
+
+msgid "tabs/trophy"
+msgstr "報酬"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "戦闘終了後、ディレクティブが自動的に補給されるようになります。対象のディレクティブが倉庫にない場合は、ゲーム内通貨で自動購入されます。"
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "戦闘終了後、必要に応じて消耗品が自動的に補給されるようになります。"
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "戦闘終了後、必要に応じて車輌が自動的に修理されるようになります。"
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "戦闘終了後、必要に応じて砲弾が自動的に補給されるようになります。"
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "自動補給"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "自動修理"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "倉庫に保管中: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "車輌に搭載中: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr "、"
+
+msgid "tooltips/action/description/add_one"
+msgstr "このスロットに搭載するアイテムを新たに購入します。"
+
+msgid "tooltips/action/description/demount"
+msgstr "この拡張パーツを現在のスロットから解除します。"
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "この拡張パーツを現在のスロットから解除します。"
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "この拡張パーツをすべての構成から解除します。"
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "この拡張パーツを現在のスロットから解除します。「WoT Plus」を利用しているため費用は発生しません。"
+
+msgid "tooltips/action/description/destroy"
+msgstr "この拡張パーツを破棄します。「WoT Plus」を利用している場合は解除費用が発生しないため、破棄せず解除するのがおススメです。"
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "「ワークベンチ」に移動して拡張パーツをコンポーネントに分解できます。"
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "この拡張パーツを破棄します。"
+
+msgid "tooltips/action/description/swap"
+msgstr "スロット間でアイテムを移動できます。"
+
+msgid "tooltips/action/description/upgrade"
+msgstr "拡張パーツをアップグレードすると、ボーナス値が向上します。"
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "拡張パーツをアップグレードするとボーナス値が上昇します。"
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "拡張パーツをアップグレードするとボーナス値が上昇します。"
+
+msgid "tooltips/action/title/add_one"
+msgstr "購入"
+
+msgid "tooltips/action/title/cancel"
+msgstr "倉庫に送る"
+
+msgid "tooltips/action/title/demount"
+msgstr "解除"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "解除"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "すべての構成から解除"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "無料で解除"
+
+msgid "tooltips/action/title/destroy"
+msgstr "破棄"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "分解"
+
+msgid "tooltips/action/title/swap"
+msgstr "順番の変更"
+
+msgid "tooltips/action/title/undo"
+msgstr "スロットから解除"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "アップグレード"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "アップグレード"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "アップグレード"
+
+msgid "tooltips/additional"
+msgstr "追加情報"
+
+msgid "tooltips/categories/list"
+msgstr "モジュールの一覧を確認できます。"
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "第2スロットに割り当てたカテゴリーは「野戦改修」のメニュー画面または「拡張パーツ」の選択画面で変更できます。"
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "カテゴリーの変更"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "アイコンをクリックするとカテゴリーを変更できます。"
+
+msgid "tooltips/equipmentList"
+msgstr "搭載可能な拡張パーツの一覧を確認できます。"
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "試作拡張パーツを所有していないため分解を行うことができません。"
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "拡張パーツをコンポーネントに分解します。"
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "拡張パーツ・スロットが火力カテゴリーに割り当てられているのは駆逐戦車と自走砲のみです。選択中のスロットは火力カテゴリーに割り当てられていないため、この拡張パーツを搭載しても効果にボーナスは追加されません。"
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "通常の効果にさらにボーナスを追加することができます。"
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "追加ボーナスを得るには、この拡張パーツを、以下のカテゴリーのいずれかが割り当てられたスロットに搭載してください: %(category)s。"
+
+msgid "tooltips/howToIncrease/single"
+msgstr "追加ボーナスを得るには、この拡張パーツを、次のカテゴリーが割り当てられたスロットに搭載してください: %(category)s。"
+
+msgid "tooltips/placeEquipment"
+msgstr "拡張パーツ・スロット"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "戦闘開始前のカウントダウン中に「砲弾」と「消耗品」からなる「必須物資」の構成を変更するオプションがOFFになっています。この状態で出撃すると現在表示されている構成が自動的に選択されます。変更オプションのON/OFFの切り替えは「野戦改修」の画面で行うことができます。"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "戦闘開始前のカウントダウン中に「拡張パーツ」と「ディレクティブ」からなる「補助物資」の構成を変更するオプションがOFFになっています。この状態で出撃すると現在表示されている構成が自動的に選択されます。変更オプションのON/OFFの切り替えは「野戦改修」の画面で行うことができます。"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "戦闘開始前のカウントダウン中に「砲弾」と「消耗品」からなる「必須物資」の構成を変更するオプションがOFFになっています。この状態で出撃すると現在表示されている構成が自動的に選択されます。変更オプションのON/OFFの切り替えは「野戦改修」の画面で行うことができます。"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "戦闘開始前のカウントダウン中に「砲弾」と「消耗品」からなる「必須物資」の構成を変更するオプションがOFFになっています。この状態で出撃すると現在表示されている構成が自動的に選択されます。変更オプションのON/OFFの切り替えはアップグレード画面で行うことができます。"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "戦闘開始前のカウントダウン中に「拡張パーツ」と「ディレクティブ」からなる「補助物資」の構成を変更するオプションがOFFになっています。この状態で出撃すると現在表示されている構成が自動的に選択されます。変更オプションのON/OFFの切り替えは「野戦改修」の画面で行うことができます。"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "戦闘開始前のカウントダウン中に「拡張パーツ」と「ディレクティブ」からなる「補助物資」の構成を変更するオプションがOFFになっています。この状態で出撃すると現在表示されている構成が自動的に選択されます。変更オプションのON/OFFの切り替えはアップグレード画面で行うことができます。"
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "カウントダウン中の変更オプションがOFF"
+
+msgid "tooltips/separator/last"
+msgstr " と "
+
+msgid "tooltips/separator/other"
+msgstr "、 "
+
+msgid "tooltips/specializationDesc"
+msgstr "このスロットに%(spec)sカテゴリーの標準拡張パーツを搭載すると、効果に追加ボーナスが加算されます。他のカテゴリーの拡張パーツを搭載した場合、効果は通常値となります。"
+
+msgid "tooltips/specializationName"
+msgstr "カテゴリー"
+
+msgid "tooltips/specializationType"
+msgstr "火力"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "とくに価値の高い拡張パーツです。他のタイプの拡張パーツよりもボーナス値が高く設定されています。"
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "3段階のレベルを備えた特殊な拡張パーツです。アップグレードするとボーナス値が上昇します。"
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "最も基本的なタイプの拡張パーツです。車輌性能を強化できます。"
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "2段階の性能を備えた特殊な拡張パーツです。入手時の性能は対応する通常拡張パーツと変わらないものの、アップグレードするとボーナス値が上昇します。"
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "改良型拡張パーツ"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "試作拡張パーツ"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "通常拡張パーツ"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "報酬拡張パーツ"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "原則として%(whiteSpanish_Open)sボンズ%(whiteSpanish_Close)sでしか購入できない希少価値の高い強力な拡張パーツです。ゲーム内で一定の条件を満たしたり、特定のゲーム内イベントに参加すると、報酬として入手できる場合があります。"
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "特定のゲーム内イベントの報酬としてしか入手できない特殊なタイプの拡張パーツです。"
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "最も基本的なタイプの拡張パーツです。ゲーム内通貨で購入できるほか、ゲーム内で一定の条件を満たしたり、特定のゲーム内イベントに参加した際にも、報酬として入手できます。通常拡張パーツは複数のカテゴリーに分類されており、同じカテゴリーが割り当てられた拡張パーツ・スロットに搭載すると効果に追加ボーナスが加算されます。"
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "特定のゲーム内イベントの報酬としてしか入手できない特殊なタイプの拡張パーツです。"
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "入手方法"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "入手方法"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "拡張パーツ・スロット"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "報酬拡張パーツは購入不可"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "試作拡張パーツは「%(whiteSpanish_Open)sコンポーネント%(whiteSpanish_Close)s」を使用してアップグレードすることで性能を強化できます。コンポーネントを入手するには不要な試作拡張パーツを分解する必要があります。"
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "報酬拡張パーツはゲーム内通貨を使用してアップグレードすることで性能を強化できます。"
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "試作拡張パーツのアップグレード"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "報酬拡張パーツのアップグレード"

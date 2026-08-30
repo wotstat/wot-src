@@ -1,0 +1,233 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2025-04-22 10:00+0300\nPO-Revision-Date: 2025-04-22 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bonus/credits/description"
+msgstr "獲得銀幣加成來增加戰鬥收益！"
+
+msgid "bonus/credits/title"
+msgstr "銀幣"
+
+msgid "bonus/crew/description"
+msgstr "獲得乘員經驗加成來增加戰鬥收益！"
+
+msgid "bonus/crew/title"
+msgstr "乘員經驗"
+
+msgid "bonus/crystal/description"
+msgstr "獲得點券加成來增加戰鬥收益！"
+
+msgid "bonus/crystal/title"
+msgstr "點券"
+
+msgid "bonus/events/description"
+msgstr "在過程中獲取帶有獎勵的獨特故事！"
+
+msgid "bonus/events/title"
+msgstr "軼事"
+
+msgid "bonus/freeXP/title"
+msgstr "自由經驗"
+
+msgid "bonus/gold/title"
+msgstr "金幣"
+
+msgid "bonus/showoff/description"
+msgstr "向全世界展示您的忠實夥伴！"
+
+msgid "bonus/showoff/title"
+msgstr "展示"
+
+msgid "bonus/tankmenXP/description"
+msgstr "獲得戰鬥經驗加成來增加戰鬥收益！"
+
+msgid "bonus/tankmenXP/title"
+msgstr "戰鬥經驗"
+
+msgid "breedName/dog_1"
+msgstr "德國牧羊犬"
+
+msgid "breedName/dog_2"
+msgstr "拉布拉多犬"
+
+msgid "eventView/button"
+msgstr "了解"
+
+msgid "infoPageEntryPoint"
+msgstr "我該如何與寵物成為好友？"
+
+msgid "message/petAdded/button"
+msgstr "前往寵物小窩"
+
+msgid "message/petAdded/header"
+msgstr "新%(petType)s已新增到您的帳號"
+
+msgid "message/petAdded/text"
+msgstr "%(petBreed)s已新增到寵物小窩"
+
+msgid "message/petBuy/success"
+msgstr "已成功地購買 %(petName)s。花費 %(price)s。"
+
+msgid "message/server_error"
+msgstr "操作暫時無法使用。請稍後再試。"
+
+msgid "message/synergyLevelUp/header"
+msgstr "%(petName)s的默契程度已提升！"
+
+msgid "message/synergyLevelUp/text"
+msgstr "新動畫現已可用。繼續與之互動來解鎖更多！"
+
+msgid "message/synergyMaxLevel/header"
+msgstr "%(petName)s的默契程度已提升！"
+
+msgid "message/synergyMaxLevel/text"
+msgstr "有新動畫可用"
+
+msgid "petDescription/dog_1"
+msgstr "德國牧羊犬在戰場上悄悄移動，同時保持警戒。當牠的管理者遭炮擊倒下後，牧羊犬將這名士兵拖到掩體後方，保護他並等待支援。儘管同樣受傷，仍舊忠心耿耿，絕不離開士兵寸步。牠可說是士兵真正的守護者。"
+
+msgid "petDescription/dog_2"
+msgstr "這隻活潑的拉布拉多犬總是渴望冒險，更是人類忠實的夥伴；聽到有人在笑時會贊同地吠叫，結交新朋友時則會搖尾巴。據說他曾同時在兩個地方被目擊，但至今沒人知道他是怎麼辦到的。"
+
+msgid "petEventTooltip/body"
+msgstr "%(petName)s在您離開時找到了某個東西！快來瞧瞧！"
+
+msgid "petHouseMarker/default"
+msgstr "寵物小窩"
+
+msgid "petHouseMarker/pet"
+msgstr "寵物小窩：{{petName}}"
+
+msgid "petSettings/cancelButton"
+msgstr "取消"
+
+msgid "petSettings/naming/subtitle"
+msgstr "您可自行變更寵物名稱"
+
+msgid "petSettings/naming/tip/subtitle"
+msgstr "變更寵物名稱"
+
+msgid "petSettings/naming/tip/title"
+msgstr "變更名字"
+
+msgid "petSettings/naming/title"
+msgstr "寵物名字"
+
+msgid "petSettings/saveButton/label"
+msgstr "儲存"
+
+msgid "petSettings/uniqueName/tip/subtitle"
+msgstr "此寵物有獨特名字且無法變更。"
+
+msgid "petSettings/uniqueName/tip/title"
+msgstr "不可用"
+
+msgid "petSettings/visibility/select/always"
+msgstr "總是顯示"
+
+msgid "petSettings/visibility/select/disableAnimation"
+msgstr "關閉動畫"
+
+msgid "petSettings/visibility/select/onlyIntoPetPlace"
+msgstr "僅在車庫中顯示"
+
+msgid "petSettings/visibility/subtitle"
+msgstr "要是您的寵物不乖，可以把它送回車庫。"
+
+msgid "petSettings/visibility/tip/subtitle"
+msgstr "變更寵物的顯示模式"
+
+msgid "petSettings/visibility/tip/title"
+msgstr "寵物顯示"
+
+msgid "petSettings/visibility/title"
+msgstr "寵物顯示"
+
+msgid "petStorage/petBonus/title"
+msgstr "啟用中的加成："
+
+msgid "petStorage/petBonus/tooltip/content"
+msgstr "無論戰鬥結果為何，加成都會套用到獎勵。若達到上限則不會套用加成。"
+
+msgid "petStorage/petCard/promo"
+msgstr "新"
+
+msgid "petStorage/progressbarBonuses"
+msgstr "加成適用於隨機戰鬥。"
+
+msgid "petStorage/progressbarDescription"
+msgstr "每天為限定場數的戰鬥增加獲得的獎勵。"
+
+msgid "petStorage/progressbarTitle"
+msgstr "剩餘的戰鬥加成"
+
+msgid "petStorage/progressbarTooltip/content"
+msgstr "可用的戰鬥加成數將在明天重置。每場戰鬥可使用一個加成，無論戰鬥結果都能獲取相應的獎勵。"
+
+msgid "petStorage/progressbarTooltip/title"
+msgstr "可用的加成"
+
+msgid "petStorage/progressbarWarning"
+msgstr "模式不適合。無法套用加成。"
+
+msgid "petStorage/status/select"
+msgstr "選擇"
+
+msgid "petStorage/status/selected"
+msgstr "已選擇"
+
+msgid "petStorage/title"
+msgstr "寵物小窩"
+
+msgid "petStorageTooltip/bonus/caption"
+msgstr "剩餘的戰鬥場數。明天重置"
+
+msgid "petStorageTooltip/bonus/currentBonus"
+msgstr "{{value}}（每場戰鬥）"
+
+msgid "petStorageTooltip/bonus/inProgress"
+msgstr "剩餘的戰鬥場數"
+
+msgid "petStorageTooltip/bonus/title"
+msgstr "加成"
+
+msgid "petStorageTooltip/warning/unsuitableMode"
+msgstr "模式不適合。無法套用加成。"
+
+msgid "petType/dog"
+msgstr "狗狗"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "promotion/bonuses/text_1"
+msgstr "加成僅適用於隨機戰鬥，且並非每場戰鬥皆可用。"
+
+msgid "promotion/bonuses/text_2"
+msgstr "可在隨機戰鬥查看軼事。"
+
+msgid "promotion/button/challenge"
+msgstr "任務"
+
+msgid "promotion/button/purchase"
+msgstr "前往商店"
+
+msgid "promotion/challengeInfo/text_1"
+msgstr "任務說明"
+
+msgid "promotion/challengeInfo/text_2"
+msgstr "可於遊戲內商店的特殊活動組合包中購買。"
+
+msgid "promotion/challengeInfo/title_1"
+msgstr "任務"
+
+msgid "promotion/challengeInfo/title_2"
+msgstr "如何獲得"
+
+msgid "synergyTooltip/description/done"
+msgstr "每達到新的默契等級，將讓您們的友誼更加穩固。有了「最佳戰友」在身邊，您就再也不需要另覓夥伴。若您許久未登入遊戲，將會讓等級降低。"
+
+msgid "synergyTooltip/description/inProgress"
+msgstr "與您的寵物互動以提升默契程度。達到最高等級時，您將獲得「最佳戰友」狀態。若您許久未登入遊戲，將會讓等級降低。"
+
+msgid "synergyTooltip/title"
+msgstr "戰友狀態"

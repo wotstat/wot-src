@@ -1,0 +1,998 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilityInfo/manage_abilities"
+msgstr "물자 관리"
+
+msgid "abilityInfo/manage_abilities_desc"
+msgstr "사용할 수 있는 전시 물자를 선택합니다."
+
+msgid "abilityInfo/params/airstrike/bombsNumber"
+msgstr "폭탄"
+
+msgid "abilityInfo/params/airstrike/dropArea"
+msgstr "타격 범위"
+
+msgid "abilityInfo/params/airstrike/stun"
+msgstr "폭발 충격 기록"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/activationDelay"
+msgstr "배치 시간"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/bombsNumber"
+msgstr "지뢰 개수"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/lifetime"
+msgstr "지뢰 지속 시간"
+
+msgid "abilityInfo/params/arcade_minefield_epic_battle/shell"
+msgstr "폭발 충격 기록"
+
+msgid "abilityInfo/params/artillery/areaRadius"
+msgstr "피해 범위"
+
+msgid "abilityInfo/params/artillery/duration"
+msgstr "지속 시간"
+
+msgid "abilityInfo/params/artillery/shotsNumber"
+msgstr "포탄"
+
+msgid "abilityInfo/params/common/cooldownTime"
+msgstr "재사용 시간"
+
+msgid "abilityInfo/params/common/delay"
+msgstr "배치 시간"
+
+msgid "abilityInfo/params/fl_regenerationKit/healTime"
+msgstr "지속 시간"
+
+msgid "abilityInfo/params/fl_regenerationKit/healthRegenPerTick"
+msgstr "내구도 회복량"
+
+msgid "abilityInfo/params/fl_regenerationKit/initialHeal"
+msgstr "활성화 시 즉각적인 내구도 회복량"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor"
+msgstr "지뢰로 인한 피해 감소"
+
+msgid "abilityInfo/params/fl_regenerationKit/minesDamageReduceFactor/value"
+msgstr "30%"
+
+msgid "abilityInfo/params/fl_regenerationKit/resupplyHealthPointsFactor"
+msgstr "정비 구역 내 내구도 회복 속도 보너스"
+
+msgid "abilityInfo/params/inspire/crewRolesFactor"
+msgstr "승무원 숙련도"
+
+msgid "abilityInfo/params/inspire/duration"
+msgstr "지속 시간"
+
+msgid "abilityInfo/params/inspire/inactivationDelay"
+msgstr "적용 추가 시간"
+
+msgid "abilityInfo/params/inspire/radius"
+msgstr "효과 범위"
+
+msgid "abilityInfo/params/inspire/selfIncreaseFactors"
+msgstr "자신의 전차 승무원 숙련도"
+
+msgid "abilityInfo/params/passive_engineering/captureBlockBonusTime"
+msgstr "방어 능력 향상"
+
+msgid "abilityInfo/params/passive_engineering/captureSpeedFactor"
+msgstr "점령 보너스"
+
+msgid "abilityInfo/params/passive_engineering/resupplyCooldownFactor"
+msgstr "정비 구역 재사용 시간"
+
+msgid "abilityInfo/params/passive_engineering/resupplyShellsFactor"
+msgstr "포탄 재보급 속도"
+
+msgid "abilityInfo/params/recon/delay"
+msgstr "도달 시간"
+
+msgid "abilityInfo/params/recon/revealedArea"
+msgstr "타격 범위"
+
+msgid "abilityInfo/params/recon/revealedArea/value"
+msgstr "300x750m"
+
+msgid "abilityInfo/params/recon/spottingDuration"
+msgstr "발견 유지 시간"
+
+msgid "abilityInfo/params/smoke/crewRolesFactor"
+msgstr "승무원 숙련도 감소"
+
+msgid "abilityInfo/params/smoke/projectilesNumber"
+msgstr "연막탄"
+
+msgid "abilityInfo/params/smoke/targetedArea"
+msgstr "타격 범위"
+
+msgid "abilityInfo/params/smoke/totalDuration"
+msgstr "지속 시간"
+
+msgid "abilityInfo/params/smoke/visionRadiusFactor"
+msgstr "적 전차 관측 범위 저하"
+
+msgid "abilityInfo/params/stealth_radar/demaskFoliageFactor"
+msgstr "수풀 뒤 적 전차 위장률 저하"
+
+msgid "abilityInfo/params/stealth_radar/demaskMovingFactor"
+msgstr "기동 중인 적 전차 위장률 저하"
+
+msgid "abilityInfo/params/stealth_radar/duration"
+msgstr "지속 시간"
+
+msgid "abilityInfo/params/stealth_radar/invisibilityAdditiveTerm"
+msgstr "정지 시 위장률 보너스"
+
+msgid "abilityInfo/params/stealth_radar/passiveCircularVisionRadius"
+msgstr "관측 범위 보너스"
+
+msgid "abilityInfo/properties/dynamic"
+msgstr "물자 레벨"
+
+msgid "abilityInfo/properties/static"
+msgstr "영구적 성능"
+
+msgid "abilityInfo/units/meter"
+msgstr "m"
+
+msgid "abilityInfo/units/seconds"
+msgstr "초"
+
+msgid "advance_message_txt"
+msgstr "전선 대격돌 모드 참여"
+
+msgid "advance_mission_txt"
+msgstr "전선 대격돌 모드 참여"
+
+msgid "ammunitionSetup/btn/info/hint"
+msgstr "시나리오 세부 정보"
+
+msgid "awards/acceptButton"
+msgstr "확인"
+
+msgid "awards/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "awards/subTitle1"
+msgstr "보상 획득"
+
+msgid "awards/subTitle2"
+msgstr "보상 획득"
+
+msgid "awards/title"
+msgstr "전선 대격돌"
+
+msgid "base/contested_atk"
+msgstr "교전"
+
+msgid "base/contested_def"
+msgstr "교전"
+
+msgid "battleResults/armor"
+msgstr "장갑 활용"
+
+msgid "battleResults/assistance"
+msgstr "도움 피해"
+
+msgid "battleResults/crits"
+msgstr "전차 손상"
+
+msgid "battleResults/damage"
+msgstr "피해 기록"
+
+msgid "battleResults/kill"
+msgstr "파괴 기록"
+
+msgid "battleResults/spotting"
+msgstr "전차 발견"
+
+msgid "booster/description/bonusValueTime/booster_crew_xp"
+msgstr "x1 개인 물자: %(effectValue)s 승무원 경험치 %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_free_xp"
+msgstr "x1 개인 물자: %(effectValue)s 자유 경험치 %(effectTime)s"
+
+msgid "booster/description/bonusValueTime/booster_xp"
+msgstr "x1 개인 물자: %(effectValue)s 일반 경험치 %(effectTime)s"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "%(int32Arg1)s 군사 시설을 공격하라!"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "%(int32Arg1)s 군사 시설을 방어하라!"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "지정한 위치를 주목하라!"
+
+msgid "command_shortcut/title"
+msgstr "명령"
+
+msgid "deploymentMap/lanePlayerLimitReached"
+msgstr "전선 제한 - 인원 제한 도달"
+
+msgid "deploymentMap/respawnWarning"
+msgstr "위험 지역"
+
+msgid "deploymentMap/spgLimitReached"
+msgstr "전선 제한 - 전차 유형 제한 도달"
+
+msgid "dialogs/quotedName"
+msgstr "\"%(name)s\""
+
+msgid "dialogs/title/buy/item"
+msgstr "%(name)s %(type)s를 구매하시겠습니까?"
+
+msgid "dialogs/title/buy/items"
+msgstr "%(type)s를 구매하시겠습니까?"
+
+msgid "dialogs/title/install/item"
+msgstr "%(name)s %(type)s를 활성화하시겠습니까?"
+
+msgid "dialogs/title/install/items"
+msgstr "%(type)s를 활성화하시겠습니까?"
+
+msgid "epicBattleItem/supplyPoints/body"
+msgstr "점수를 수집하여 전선 대격돌 전시 물자를 활성화하십시오."
+
+msgid "epicBattleItem/supplyPoints/description"
+msgstr "점수를 수집하여 전선 대격돌 전시 물자를 활성화하십시오."
+
+msgid "epicBattleItem/supplyPoints/header"
+msgstr "보급 점수"
+
+msgid "epicBattlesCarousel/lobby/levelInfo"
+msgstr "2차 방어선(D, E, F) 중 한 구역이 점령되면 %(level)s 전차가 해제됩니다."
+
+msgid "epicBattlesCarousel/lobby/levelInfo/level"
+msgstr "%(lvl)s단계"
+
+msgid "epicBattlesCarousel/lockedTooltip/body"
+msgstr "전선 대격돌 모드에 참여하려면 8단계 전차를 선택하십시오."
+
+msgid "epicBattlesCarousel/lockedTooltip/header"
+msgstr "유효하지 않은 전차"
+
+msgid "epic_battle_meta_view/Acquire_skill"
+msgstr "해제"
+
+msgid "epic_battle_meta_view/Max_skill"
+msgstr "최고"
+
+msgid "epic_battle_meta_view/abilities"
+msgstr "전시 물자"
+
+msgid "epic_battle_meta_view/commander_level"
+msgstr "전차장 단계"
+
+msgid "epictraining/info/otherLabel"
+msgstr "배치되지 않은 플레이어: %(total)s"
+
+msgid "epictraining/info/team1LaneLabel"
+msgstr "공격팀(%(lane1)s/%(lane2)s/%(lane3)s)"
+
+msgid "epictraining/info/team2LaneLabel"
+msgstr "방어팀(%(lane1)s/%(lane2)s/%(lane3)s)"
+
+msgid "game/all_enemies_defeated"
+msgstr "모든 적 전차 격파 완료"
+
+msgid "game/all_hqs_destroyed"
+msgstr "모든 군사 시설 파괴 완료"
+
+msgid "game/all_tanks_defeated"
+msgstr "모든 아군 전차 파괴"
+
+msgid "game/defeat"
+msgstr "패배"
+
+msgid "game/draw"
+msgstr "무승부"
+
+msgid "game/time_over"
+msgstr "군사 시설 생존"
+
+msgid "game/victory"
+msgstr "승리!"
+
+msgid "global_msg/atk/focus_hq_short"
+msgstr "군사 시설을 파괴하라!"
+
+msgid "global_msg/atk/time_short"
+msgstr "기지를 점령하라!"
+
+msgid "global_msg/def/focus_hq_short"
+msgstr "군사 시설을 방어하라!"
+
+msgid "global_msg/def/time_short"
+msgstr "기지를 방어하라!"
+
+msgid "global_msg/lane/center_short"
+msgstr "%(strArg1)s 기지를 지원하라!"
+
+msgid "global_msg/lane/east_short"
+msgstr "%(strArg1)s 기지를 지원하라!"
+
+msgid "global_msg/lane/west_short"
+msgstr "%(strArg1)s 기지를 지원하라!"
+
+msgid "global_msg/save_tanks_short"
+msgstr "주의하라!"
+
+msgid "help_window/communication"
+msgstr "통신 범위"
+
+msgid "help_window/communication/description"
+msgstr "아군이나 명령 대상이 현재 미니맵에 표시되는 지역 내에 있을 때만 통신이 가능합니다."
+
+msgid "help_window/overview_map"
+msgstr "전체 지도"
+
+msgid "help_window/overview_map/description"
+msgstr "전체 지도를 통해 전장 전체의 전술적, 전략적 상황을 확인할 수 있습니다. 전체 지도를 열면 아군 전체와 통신할 수 있습니다."
+
+msgid "help_window/recovery"
+msgstr "전차 포기"
+
+msgid "help_window/recovery/description"
+msgstr "전차 포기 기능은 지형에 끼어 움직일 수 없을 때 자폭하는 기능으로 일반 전투보다 전투 시간이 길고 전차 재생성 기능을 사용할 수 있으므로 플레이어가 계속 전투에 참여할 수 있도록 도입한 기능입니다."
+
+msgid "help_window/reserves"
+msgstr "예비 전차"
+
+msgid "help_window/reserves/description"
+msgstr "일정 시간마다 운용할 수 있는 전차가 추가됩니다. 운용 가능 예비 전차는 최대 2대이며 남은 예비 전차가 없으면 추가될 때까지 전투에 배치되지 않습니다."
+
+msgid "hq/under_attack_atk"
+msgstr "교전"
+
+msgid "hq/under_attack_def"
+msgstr "교전"
+
+msgid "in_game_rank/experience_text"
+msgstr "경험치"
+
+msgid "lane_central_name"
+msgstr "중부"
+
+msgid "lane_east_name"
+msgstr "동부"
+
+msgid "lane_west_name"
+msgstr "서부"
+
+msgid "metaAbilityScreen/Ability_level"
+msgstr "레벨 %(lvl)s"
+
+msgid "metaAbilityScreen/Ability_locked"
+msgstr "해제 불가: 보유한 보급 점수가 없습니다."
+
+msgid "metaAbilityScreen/Ability_max_level"
+msgstr "해당 전시 물자가 최고 레벨에 도달했습니다."
+
+msgid "metaAbilityScreen/Ability_not_points"
+msgstr "강화 불가: 보유한 보급 점수가 없습니다."
+
+msgid "metaAbilityScreen/Ability_not_unlocked"
+msgstr "전시 물자 미구매"
+
+msgid "metaAbilityScreen/activation_depends"
+msgstr "전투 중 대위 및 소령 계급을 달성하면 각각 전시 물자 레벨이 상승합니다. 최고 레벨은 전투 시나리오에 따라 달라집니다."
+
+msgid "metaAbilityScreen/how_to_activate"
+msgstr "구매 비용: %(price)s %(img)s"
+
+msgid "mission/primary/title"
+msgstr "군사 시설"
+
+msgid "mission/title"
+msgstr "임무"
+
+msgid "mission/zone_closing_atk"
+msgstr "기지 개방까지: "
+
+msgid "mission/zone_closing_def"
+msgstr "적군 폭격 개시까지: "
+
+msgid "missions/primary/atk/base"
+msgstr "기지 점령"
+
+msgid "missions/primary/atk/hq"
+msgstr "군사 시설 파괴"
+
+msgid "missions/primary/atk/hq_additional_info"
+msgstr "%(positiveOpen)s%(destroyed)s%(positiveClose)s / %(toDestroy)s"
+
+msgid "missions/primary/atk/hq_sub_title"
+msgstr "파괴한 군사 시설:"
+
+msgid "missions/primary/atk/longdescription"
+msgstr "기지를 점령하고 군사 시설에 접근하여 파괴하십시오."
+
+msgid "missions/primary/def/base"
+msgstr "기지 방어"
+
+msgid "missions/primary/def/hq"
+msgstr "군사 시설 방어"
+
+msgid "missions/primary/def/hq_additional_info"
+msgstr "%(negativeOpen)s%(destroyed)s%(negativeClose)s / %(toDestroy)s"
+
+msgid "missions/primary/def/hq_sub_title"
+msgstr "파괴된 군사 시설:"
+
+msgid "missions/primary/def/longdescription"
+msgstr "전투 제한 시간 동안 군사 시설을 방어하거나 공격팀 전차를 모두 격파하십시오."
+
+msgid "missions/unlockTankLevel"
+msgstr "9단계 전차 운용 가능"
+
+msgid "overtime/label"
+msgstr "전투 시간 연장"
+
+msgid "player_errors/equipment/isWorking"
+msgstr "같은 물자 2개 활성화 불가"
+
+msgid "player_errors/minefieldIsIntersected"
+msgstr "지뢰를 매설할 수 없습니다. 매설 지역이 겹칩니다."
+
+msgid "primeTime/applyBtn"
+msgstr "변경"
+
+msgid "primeTime/cancelBtn"
+msgstr "취소"
+
+msgid "primeTime/continueBtn"
+msgstr "계속"
+
+msgid "primeTime/endOfCycle"
+msgstr "%(server)s 서버에서 해당 모드가 종료되었습니다."
+
+msgid "primeTime/manyServersAvailable"
+msgstr "이용 가능 서버:"
+
+msgid "primeTime/oneServerAvailable"
+msgstr "이용 가능 서버: %(serverPing)s"
+
+msgid "primeTime/primeIsAvailable"
+msgstr "%(server)s 서버에서 %(time)s 동안 전투 참여 가능"
+
+msgid "primeTime/primeWillBeAvailable"
+msgstr "%(time)s 후 %(server)s 서버 전투 참여 가능"
+
+msgid "primeTime/serverTooltip"
+msgstr "%(server)s 서버\n%(time)s 동안 전투 참여 가능"
+
+msgid "primeTime/serverUnavailableTooltip"
+msgstr "%(time)s 후 전투 참여 가능"
+
+msgid "primeTime/servers"
+msgstr "이용 가능 서버: %(server)s"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "%(server)s 서버 전투 종료"
+
+msgid "primeTime/status/disable"
+msgstr "전선 대격돌 일정은 다음과 같습니다."
+
+msgid "primeTime/status/disabledOnThisServer"
+msgstr "%(server)s 서버 해당 모드 이용 불가"
+
+msgid "primeTime/status/noPrimeTimeOnThisServer"
+msgstr "%(startTime)s까지 %(server)s 서버 휴전 적용"
+
+msgid "primeTime/status/noPrimeTimesOnAllServers"
+msgstr "모든 서버 휴전 적용 중"
+
+msgid "primeTime/status/thisEnable"
+msgstr "%(server)s 서버에서 전선 대격돌 모드를 %(time)s 동안 이용할 수 있습니다."
+
+msgid "primeTime/steelhunter/title"
+msgstr "배틀 로얄"
+
+msgid "primeTime/title"
+msgstr "전선 대격돌"
+
+msgid "primeTime/titleWelcome"
+msgstr "전선 대격돌에\n오신 것을 환영합니다."
+
+msgid "progress_timers/active"
+msgstr "시작"
+
+msgid "progress_timers/fully_equipped"
+msgstr "정비 완료"
+
+msgid "progress_timers/resupply"
+msgstr "정비 구역"
+
+msgid "progress_timers/unavailable"
+msgstr "이용 불가"
+
+msgid "questsTooltip/epicBattle/header"
+msgstr "전선 대격돌 임무"
+
+msgid "questsTooltip/epicBattle/lessThanDay"
+msgstr "1일 미만"
+
+msgid "questsTooltip/epicBattle/restrict/level"
+msgstr "%(level)s단계 달성"
+
+msgid "questsTooltip/epicBattle/startIn"
+msgstr "%(time)s 후 새로운 임무 진행 가능"
+
+msgid "questsTooltip/epicBattle/steelhunter/header"
+msgstr "배틀 로얄 임무"
+
+msgid "questsTooltip/epicBattle/timeLeft"
+msgstr "전선 대격돌 종료까지: %(time)s"
+
+msgid "questsTooltip/epicBattle/unavailable"
+msgstr "진행 불가: %(reason)s"
+
+msgid "rank/allReserveUpgraded"
+msgstr "모든 전시 물자 레벨 상승"
+
+msgid "rank/crewRolesFactorPromotion"
+msgstr "아군 전체 승무원 숙련도 보너스 +%(percent)s%% 증가"
+
+msgid "rank/crewRolesFactorPromotion1"
+msgstr "승무원 숙련도 보너스는 최대 +%(percent)s%%까지 적용"
+
+msgid "rank/crewRolesFactorSelf"
+msgstr "아군 전체 승무원 숙련도 보너스 +%(percent)s%%"
+
+msgid "rank/no_name"
+msgstr "플레이어"
+
+msgid "rank/promotion"
+msgstr "%(rank)s%(placeholder)s 계급으로 진급"
+
+msgid "rank/rank1"
+msgstr "이병"
+
+msgid "rank/rank2"
+msgstr "병장"
+
+msgid "rank/rank3"
+msgstr "중위"
+
+msgid "rank/rank4"
+msgstr "대위"
+
+msgid "rank/rank5"
+msgstr "소령"
+
+msgid "rank/rank6"
+msgstr "대장"
+
+msgid "rank/recerveUnlocked"
+msgstr "%(reserveName)s 전시 물자 해제"
+
+msgid "rank/reserveUpgraded"
+msgstr "%(reserveName)s 전시 물자 강화"
+
+msgid "rank/slotUnlocked"
+msgstr "%(slotNumber)s 전시 물자 해제"
+
+msgid "rank/slot_2"
+msgstr "두 번째"
+
+msgid "rank/slot_3"
+msgstr "세 번째"
+
+msgid "recovery/Blocked"
+msgstr "일시적\n비활성화"
+
+msgid "recovery/disabled"
+msgstr "전차 포기 불가"
+
+msgid "recovery_panel/base_text"
+msgstr "J를 눌러\n전차 포기"
+
+msgid "recovery_panel/recovery_cancel"
+msgstr "취소하려면 이동 또는 사격하십시오."
+
+msgid "recovery_panel/recovery_cancelled"
+msgstr "전차 포기\n취소"
+
+msgid "recovery_panel/recovery_requested"
+msgstr "전차 포기\n요청 완료"
+
+msgid "reinforcement/capture_next_base_text"
+msgstr "다음 기지 점령"
+
+msgid "reinforcement/reinforcement_in_text"
+msgstr "증원까지: "
+
+msgid "reinforcement/unavailable"
+msgstr "증원 불가"
+
+msgid "reinforcementsPanel/inText"
+msgstr " "
+
+msgid "reserve/level/1"
+msgstr "1"
+
+msgid "reserve/level/2"
+msgstr "2"
+
+msgid "reserve/level/3"
+msgstr "3"
+
+msgid "reserve/level/4"
+msgstr "4"
+
+msgid "respawn/auto_timer_txt"
+msgstr "자동 배치까지 %(seconds)s초 남았습니다."
+
+msgid "respawn/deploy_button"
+msgstr "전투 시작!"
+
+msgid "respawn/gold_ammo_not_available"
+msgstr "전투 중에는 개량형 소모품을 구매할 수 없습니다."
+
+msgid "respawn/shop_title"
+msgstr "정비"
+
+msgid "respawn/tanks_left"
+msgstr "남은 전차"
+
+msgid "respawnScreen/deploymentLane1"
+msgstr "1"
+
+msgid "respawnScreen/deploymentLane2"
+msgstr "2"
+
+msgid "respawnScreen/deploymentLane3"
+msgstr "3"
+
+msgid "respawnScreen/headerTitle"
+msgstr "전차 및 배치 지역 선택"
+
+msgid "respawnScreen/respawnWarning"
+msgstr "해당 지역에 배치하는 것은 위험합니다."
+
+msgid "respawnScreen/secondsTimerText"
+msgstr "%(seconds)s초"
+
+msgid "retreat_message_txt"
+msgstr "후퇴"
+
+msgid "retreat_mission_txt"
+msgstr "다음 기지로 후퇴"
+
+msgid "rewardSelection/subTitle"
+msgstr "보상 선택"
+
+msgid "rewardSelection/title"
+msgstr "전선 대격돌"
+
+msgid "scorePanel/stage1"
+msgstr "스테이지 1"
+
+msgid "scorePanel/stage2"
+msgstr "스테이지 2"
+
+msgid "scorePanel/stage3"
+msgstr "스테이지 3"
+
+msgid "season/201902/name"
+msgstr "2019"
+
+msgid "season/202002/name"
+msgstr "2020"
+
+msgid "season/202108/name"
+msgstr "2021"
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/description"
+msgstr "사용 중인 컴퓨터 사양이 해당 모드를 플레이하기에 부족합니다. 그래픽 왜곡 및 전차 이동 시 문제를 경험할 수 있으며 게임 클라이언트가 충돌할 수도 있습니다."
+
+msgid "selectorTooltip/epicBattle/attention/assuredLowPerformance/title"
+msgstr "고사양 모드"
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/description"
+msgstr "사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "selectorTooltip/epicBattle/attention/informativeLowPerformance/title"
+msgstr "고사양 컴퓨터가 필요한 모드입니다."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/description"
+msgstr "고사양 컴퓨터가 필요한 모드입니다. 지도 불러오기 시간 지연, 그래픽 왜곡, 전차 이동 문제 등을 경험할 수도 있습니다. 사용 중인 컴퓨터 사양에 따라 그래픽 품질을 설정해 주십시오."
+
+msgid "selectorTooltip/epicBattle/attention/possibleLowPerformance/title"
+msgstr "고사양 모드"
+
+msgid "selectorTooltip/epicBattle/body"
+msgstr "%(bodyVehicleLevel)s로 참여하는 30 대 30 전투입니다. 전차 재생성 시스템, 전시 물자, 정비 구역을 활용할 수 있습니다."
+
+msgid "selectorTooltip/epicBattle/bodyVehicleLevel"
+msgstr "%(level)s단계 전차"
+
+msgid "selectorTooltip/epicBattle/ended/body"
+msgstr "%(bodyVehicleLevel)s로 참여하는 30 대 30 전투입니다. 전투 중 전차 재생성 시스템, 전시 물자, 정비 구역을 활용할 수 있습니다."
+
+msgid "selectorTooltip/epicBattle/frozen"
+msgstr "해당 모드는 현재 기술적인 문제로 이용할 수 없습니다."
+
+msgid "selectorTooltip/epicBattle/header"
+msgstr "전선 대격돌"
+
+msgid "selectorTooltip/epicBattle/startIn"
+msgstr "전투 시작까지: "
+
+msgid "selectorTooltip/epicBattle/timeLeft"
+msgstr "전투 종료까지: "
+
+msgid "selectorTooltip/epicBattle/timeTable/dash"
+msgstr "—"
+
+msgid "selectorTooltip/epicBattle/timeTable/title"
+msgstr "전투 일정"
+
+msgid "selectorTooltip/epicBattle/timeTable/today"
+msgstr "오늘"
+
+msgid "selectorTooltip/epicBattle/timeTable/tomorrow"
+msgstr "내일"
+
+msgid "skill/category/firesupport"
+msgstr "공격 물자"
+
+msgid "skill/category/reconnaissance"
+msgstr "정찰 물자"
+
+msgid "skill/category/tactics"
+msgstr "전술 물자"
+
+msgid "spectator_mode/camera_controls_title"
+msgstr "관전 시점"
+
+msgid "spectator_mode/camera_mouse_rotate"
+msgstr "마우스로 시점을 회전합니다."
+
+msgid "spectator_mode/camera_wasd"
+msgstr "W, A, S, D로 지도에서 시점을 이동할 수 있습니다."
+
+msgid "spectator_mode/follow_text"
+msgstr "클릭하면 따라가기를 시작합니다."
+
+msgid "spectator_mode/follow_title"
+msgstr "따라가기"
+
+msgid "spectator_mode/msg_text"
+msgstr "전차 도착까지"
+
+msgid "spectator_mode/msg_title"
+msgstr "모든 전차가 파괴되었습니다!"
+
+msgid "spectator_mode/unfollow_text"
+msgstr "다시 클릭하여 따라가기를 중단합니다."
+
+msgid "spectator_mode/unfollow_title"
+msgstr "따라가기 중단"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s일"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s시간"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1분"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s분"
+
+msgid "statusNotificationTimers/captureBlock/blocked"
+msgstr "차단"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "구역을 벗어나십시오!"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "내구도 회복"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "내구도 회복"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "사기 강화 활성화"
+
+msgid "statusNotificationTimers/inspire/inspiring"
+msgstr "사기 강화 활성화"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "정비 구역"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "연막 진입: 위장률 향상"
+
+msgid "statusNotificationTimers/smoke/enemy"
+msgstr "연막 범위 내에 있습니다. 관측 범위 및 승무원 숙련도가 감소합니다."
+
+msgid "statusNotificationTimers/smoke/enemyPostEffect"
+msgstr "연막에서 벗어났습니다. 곧 관측 범위 및 승무원 숙련도가 복구됩니다."
+
+msgid "statusNotificationTimers/stealthRadar/active"
+msgstr "사주 경계 활성화"
+
+msgid "statusNotificationTimers/stealthRadar/inactive"
+msgstr "전차 정지 후 %(activationDelay)s초 뒤 활성화"
+
+msgid "super_platoon_panel/title"
+msgstr "소대"
+
+msgid "tab_screen/generalBonusDescr"
+msgstr "—대장 계급 보유에 따른 아군 전체 승무원 숙련도 보너스"
+
+msgid "tab_screen/generalBonusValue"
+msgstr "+%(value)s%%"
+
+msgid "tab_screen/show_all_lanes"
+msgstr "모든 전선"
+
+msgid "tab_screen/show_my_lane"
+msgstr "소속 전선"
+
+msgid "team1Name"
+msgstr "공격팀"
+
+msgid "team2Name"
+msgstr "방어팀"
+
+msgid "tooltips/chooseRewards/desc"
+msgstr "전선 대격돌 단계 완료 보상(%(number)s개)을 선택하십시오."
+
+msgid "tooltips/common/disabled"
+msgstr "모드 이용 불가"
+
+msgid "tooltips/common/title"
+msgstr "전선 대격돌"
+
+msgid "tooltips/end"
+msgstr "이벤트 종료"
+
+msgid "tooltips/slotSetupInfo/open/desc"
+msgstr "전시 물자 해제 순서는 전차 유형에 따라 달라집니다. 전투 시작 시 사용 가능한 전시 물자는 하나이며 나머지는 병장 및 중위 계급 달성 시 각각 해제됩니다."
+
+msgid "tooltips/slotSetupInfo/open/title"
+msgstr "해제: %(desc)s"
+
+msgid "tooltips/slotSetupInfo/reserve/locked"
+msgstr "<font color='#E9E2BF'>운명의 장난</font> 시나리오에서는 전시 물자를 구매하면 해당 물자 레벨을 1 올린 상태로 전투에 참여할 수 있으며 레벨을 최대 <font color='#E9E2BF'>4</font>까지 올릴 수 있게 됩니다."
+
+msgid "tooltips/slotSetupInfo/reserve/purchased"
+msgstr "<font color='#E9E2BF'>운명의 장난</font> 시나리오에서는 전투에 참여하기 전에 슬롯에 전시 물자를 추가하면 해당 물자가 등장할 확률이 <font color='#E9E2BF'>10%</font> 증가합니다."
+
+msgid "tooltips/slotSetupInfo/scheme"
+msgstr "전투 중 물자 해제 및 강화"
+
+msgid "tooltips/slotSetupInfo/subtitle"
+msgstr "전차 유형 및 전투 중 달성한 계급에 따라 전시 물자가 해제 및 강화됩니다."
+
+msgid "tooltips/slotSetupInfo/title/AT-SPG"
+msgstr "구축전차 물자 구성"
+
+msgid "tooltips/slotSetupInfo/title/SPG"
+msgstr "자주포 물자 구성"
+
+msgid "tooltips/slotSetupInfo/title/heavyTank"
+msgstr "중전차 물자 구성"
+
+msgid "tooltips/slotSetupInfo/title/lightTank"
+msgstr "경전차 물자 구성"
+
+msgid "tooltips/slotSetupInfo/title/mediumTank"
+msgstr "중형전차 물자 구성"
+
+msgid "tooltips/slotSetupInfo/upgrade/desc"
+msgstr "새로운 계급을 달성하여 모든 전시 물자가 해제되었다면 전시 물자를 강화할 수도 있습니다. 가장 먼저 해제된 전시 물자는 레벨 3까지 강화할 수 있으며 두 번째로 해제된 전시 물자는 레벨 2까지 강화가 가능합니다."
+
+msgid "tooltips/slotSetupInfo/upgrade/title"
+msgstr "강화: %(desc)s"
+
+msgid "tooltips/slotUnlocked/message"
+msgstr "%(rank)s 계급 달성 시 슬롯이 해제됩니다."
+
+msgid "tooltips/timeToEnd"
+msgstr "모드 이용 가능: %(timeLeft)s"
+
+msgid "tooltips/timeToStart"
+msgstr "전투 시작까지: %(timeLeft)s"
+
+msgid "tooltips/widget/finished"
+msgstr "이벤트 종료"
+
+msgid "tooltips/widget/level"
+msgstr "%(level)s단계"
+
+msgid "tooltips/widget/reachedMaxLevel"
+msgstr "최고 단계 도달"
+
+msgid "tutorial/hint/epicReservesSlotHint"
+msgstr "전시 물자"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "모든 서버에 휴전이 적용 중입니다. %(time)s 후 전투에 참여할 수 있습니다."
+
+msgid "widgetAlertMessageBlock/announcement"
+msgstr "전투 진행 중"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "다른 서버 선택"
+
+msgid "widgetAlertMessageBlock/details"
+msgstr "세부 정보"
+
+msgid "widgetAlertMessageBlock/finished"
+msgstr "전선 대격돌 모드가 종료되었습니다."
+
+msgid "widgetAlertMessageBlock/modification"
+msgstr "전선 대격돌 시나리오"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "해당 서버에 휴전이 적용 중입니다. %(time)s 후 전투에 참여할 수 있습니다."
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "%(serverName)s에 휴전 적용 중"
+
+msgid "widgetAlertMessageBlock/startIn"
+msgstr "전투 시작까지: %(time)s"
+
+msgid "widgetAlertMessageBlock/tooltip/body"
+msgstr "전선 대격돌 시나리오 관련 세부 정보를\n확인하려면 클릭하십시오."
+
+msgid "zone/arrived_text"
+msgstr "도착!"
+
+msgid "zone/capture_text"
+msgstr "점령"
+
+msgid "zone/captured_text"
+msgstr "점령 완료"
+
+msgid "zone/defend_text"
+msgstr "방어"
+
+msgid "zone/destroy_text"
+msgstr "파괴"
+
+msgid "zone/destroyed_text"
+msgstr "파괴 기록"
+
+msgid "zone/enemy_reinforced_text"
+msgstr "적군 증원"
+
+msgid "zone/headquarters_text"
+msgstr "군사 시설"
+
+msgid "zone/leave_zone"
+msgstr "해당 지역에서 벗어나라!"
+
+msgid "zone/lost_text"
+msgstr "함락"
+
+msgid "zone/reached_text"
+msgstr "완료"
+
+msgid "zone/reinforcement_timer_atk"
+msgstr "적군 증원:"
+
+msgid "zone/reinforcement_timer_def"
+msgstr "증원:"
+
+msgid "zone/reinforcements_text"
+msgstr "증원"
+
+msgid "zone/time_added"
+msgstr "시간 추가: %(minutes)s"
+
+msgid "zone/time_left"
+msgstr "%(minutes)s분 남음"
+
+msgid "zone/zone_text"
+msgstr "기지"

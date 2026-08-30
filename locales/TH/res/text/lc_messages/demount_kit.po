@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "ปลด"
+
+msgid "demountKit/gained/count"
+msgstr "ชุดเครื่องมือปลด (x%(count)s)"
+
+msgid "demountKit/sell/header"
+msgstr "ขาย:"
+
+msgid "demountKit/sell_success"
+msgstr "ยุทธปัจจัย ชุดเครื่องมือปลด (x%(count)s ชิ้น) ได้รับเงิน: %(count)s"
+
+msgid "demountKit/tooltip/description/common"
+msgstr "ปลดอุปกรณ์หนึ่งชิ้น"
+
+msgid "dialogue/description/common"
+msgstr "ปลดอุปกรณ์หรืออุปกรณ์เงินรางวัลหนึ่งชิ้น"
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "ราคาขายนั้นต่ำกว่าปกติ คุณสามารถซื้อได้โดยมีส่วนลด"
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "อุปกรณ์ที่ถูกปลดจะถูกส่งไปยังโรงเก็บ"
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "โปรดทราบ! อุปกรณ์นี้เปลี่ยนชั้นของมันตามชนิดพาหนะปัจจุบัน\nอุปกรณ์สามารถถูกถอดได้ฟรี แต่ถ้าคุณทำการถอดอุปกรณ์ไป คุณ{red_Open}จะไม่สามารถ{red_Close}ติดตั้งมันกลับบนพาหนะคันนี้ได้"
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "ปลดอุปกรณ์ '%(equipment)s'?"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "ปลด %(equipment)s เพื่อติดตั้งอุปกรณ์ใหม่?"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "หามันจากในการรบหรือได้รับเป็นรางวัลสำหรับกิจกรรมในเกม"
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "พันธบัตรไม่พอ"
+
+msgid "equipmentDemount/optionFree"
+msgstr "ฟรี"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WoT Plus"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "ยกเลิก"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "อุปกรณ์คัดลอกที่ติดตั้งเอาไว้ในชุดตัวเลือกนี้สามารถถูกปลดออกได้ฟรี"
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "ปลด"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "ปลดอุปกรณ์ %(equipment)s จากช่องนี้?"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "ปลด%(equipment)sปัจจุบันเพื่อติดตั้งอุปกรณ์ใหม่?"
+
+msgid "equipmentDemountPrice"
+msgstr "ค่าการปลด:"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> หรือ %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s หรือ %(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s, %(countDK)s <br /> หรือ %(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "สามารถถูกปลดเพื่อนำไปขายหรือติดตั้งบนพาหนะคันอื่นด้วย %(count)s หรือถูกทำลายทิ้งไป"
+
+msgid "shop/DemountOptions/common"
+msgstr "สามารถถูกปลดเพื่อนำไปขายหรือติดตั้งบนพาหนะคันอื่นด้วย %(count)s หรือด้วย %(iconDK)s ชุดเครื่องมือปลดหรือถูกทำลายทิ้งไป"
+
+msgid "storage/description/common"
+msgstr "ปลดอุปกรณ์มาตรฐานหรืออุปกรณ์เงินรางวัล จะถูกใช้ไปเมื่อมีการสั่งใช้งาน"
+
+msgid "storage/userName/common"
+msgstr "ชุดเครื่องมือปลด"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "ส่วนลด: %(actionPrc)s, ราคาเดิม: %(oldPrice)s"
+
+msgid "userName/common"
+msgstr "ชุดเครื่องมือปลด"

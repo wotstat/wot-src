@@ -1,0 +1,98 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "comp7_aggressive_detection/descr/active"
+msgstr "视野范围将扩大{colorTagOpen}%(visionBuff_1)s/%(visionBuff_2)s/%(visionBuff_3)s%%{colorTagClose}，持续{colorTagOpen}%(duration)s秒{colorTagClose}。\n\n若您侦察到的敌方战车被摧毁，计时器将会重置。"
+
+msgid "comp7_aggressive_detection/name"
+msgstr "主动侦察"
+
+msgid "comp7_ally_support/descr/active"
+msgstr "团队中每有一种不同角色的战车，您的乘员将获得{colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose}熟练度加成，效果持续{colorTagOpen}%(duration)s秒{colorTagClose}。\n\n您的战车始终包含在此加成的计算范围内。"
+
+msgid "comp7_ally_support/name"
+msgstr "我为人人"
+
+msgid "comp7_aoe_heal/descr/active"
+msgstr "在您的战车周围制造一个半径{colorTagOpen}%(radius)s米{colorTagClose}的区域，您和区域内队友的战车将逐渐恢复{colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose}点血量，持续{colorTagOpen}%(duration)s秒{colorTagClose}。"
+
+msgid "comp7_aoe_heal/name"
+msgstr "战地修复"
+
+msgid "comp7_aoe_inspire/descr/active"
+msgstr "您和队友的乘员获得{colorTagOpen}%(crewBuff_1)s/%(crewBuff_2)s/%(crewBuff_3)s%%{colorTagClose}熟练度加成，效果持续{colorTagOpen}%(duration)s秒{colorTagClose}。"
+
+msgid "comp7_aoe_inspire/name"
+msgstr "激励"
+
+msgid "comp7_berserk/descr/active"
+msgstr "火炮装填时间缩短{colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}，持续{colorTagOpen}%(duration)s秒{colorTagClose}。同时，射击后、移动时、车体与炮塔转向时的散布误差降低{colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}。\n\n若您通过撞击或{colorTagOpen}%(damageDistance)s米{colorTagClose}内的射击造成伤害，计时器将会重置。"
+
+msgid "comp7_berserk/name"
+msgstr "狂怒"
+
+msgid "comp7_concentration/descr/active"
+msgstr "移动时、车体与炮塔转向时的瞄准时间和散布误差降低{colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}，持续{colorTagOpen}%(duration)s秒{colorTagClose}。\n\n此角色技能激活时，射击间的装填时间缩短{colorTagOpen}%(clipReloadTimeBoost_1)s/%(clipReloadTimeBoost_2)s/%(clipReloadTimeBoost_3)s秒{colorTagClose}。"
+
+msgid "comp7_concentration/name"
+msgstr "聚焦目标"
+
+msgid "comp7_fast_recharge/descr/active"
+msgstr "• 弹匣装填系统：\n弹匣装填的剩余时间缩短：{colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n• 自动再装填系统：\n当前循环中所有射出炮弹的装填时间缩短：{colorTagOpen}%(gunReloadTimeBuff_1)s/%(gunReloadTimeBuff_2)s/%(gunReloadTimeBuff_3)s%%{colorTagClose}\n\n此技能仅可在装填过程中激活。\n\n• 过热调节自动火炮：\n火炮热能可降低其最大值的{colorTagOpen}%(gunTemperatureBuff_1)s/%(gunTemperatureBuff_2)s/%(gunTemperatureBuff_3)s%%{colorTagClose}。\n\n此技能仅可在火炮升温时激活。"
+
+msgid "comp7_fast_recharge/name"
+msgstr "得心应手"
+
+msgid "comp7_hunter/descr/active"
+msgstr "重置被击伤的敌方坦克计数。\n\n激活时，已计数的每辆被击伤敌方坦克将令您的坦克逐渐恢复{colorTagOpen}%(heal_1)s/%(heal_2)s/%(heal_3)s{colorTagClose}点血量，持续{colorTagOpen}%(duration)s秒{colorTagClose}。"
+
+msgid "comp7_hunter/descr/passive"
+msgstr "每击伤一辆敌方战车，火炮装填时间缩短{colorTagOpen}%(gunReloadTimeBuff)s%%{colorTagClose}。"
+
+msgid "comp7_hunter/name"
+msgstr "赏金猎人"
+
+msgid "comp7_juggernaut/descr/active"
+msgstr "{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s秒{colorTagClose}内：\n• 受到的伤害降低{colorTagOpen}%(dmgAbsorbBuff_1)s/%(dmgAbsorbBuff_2)s/%(dmgAbsorbBuff_3)s%%{colorTagClose}\n• 最高前进速度提高{colorTagOpen}%(fwMaxSpeedBonus)s公里/小时{colorTagClose}\n• 最高倒车速度提高{colorTagOpen}%(bkMaxSpeedBonus)s公里/小时{colorTagClose}\n• 发动机功率提高{colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}\n• 对敌方战车造成的撞击伤害提高{colorTagOpen}%(rammingDamageBuff)s%%{colorTagClose}\n\n激活此角色技能时，您的履带被命中一次就会损坏。"
+
+msgid "comp7_juggernaut/name"
+msgstr "强力猛冲"
+
+msgid "comp7_march/descr/active"
+msgstr "您战车的发动机功率提高{colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}，最高前进速度提高{colorTagOpen}%(fwdSpeedBoost)s{colorTagClose}公里/小时，隐蔽值提高{colorTagOpen}%(invisibilityFactor)s%%{colorTagClose}，持续{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s秒{colorTagClose}。"
+
+msgid "comp7_march/name"
+msgstr "潜行速进"
+
+msgid "comp7_recon/descr/active"
+msgstr "一架侦察机在{colorTagOpen}%(delay)s秒{colorTagClose}后飞越选定区域。侦察半径{colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s米{colorTagClose}内的敌方战车，使其保持可见{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s秒{colorTagClose}。被此技能发现的玩家，将在{colorTagOpen}%(lampDelay)s秒{colorTagClose}的延迟后看到特殊图标。\n\n战斗开始{colorTagOpen}%(startupDelay)s秒{colorTagClose}后才能使用此技能。"
+
+msgid "comp7_recon/name"
+msgstr "空中侦察"
+
+msgid "comp7_redline/descr/active"
+msgstr "{colorTagOpen}%(delay)s秒{colorTagClose}后，选定区域将被大量火炮轰击。\n\n半径{colorTagOpen}%(radius_1)s/%(radius_2)s/%(radius_3)s米{colorTagClose}内被击中的敌人将受到{colorTagOpen}%(damage_1)s/%(damage_2)s/%(damage_3)s{colorTagClose}点伤害，而任何被击中的战车都将被震晕{colorTagOpen}%(stunDuration_1)s/%(stunDuration_2)s/%(stunDuration_3)s秒{colorTagClose}。"
+
+msgid "comp7_redline/name"
+msgstr "火力掩护"
+
+msgid "comp7_risky_attack/descr/active"
+msgstr "加速\n\n发动机功率提高{colorTagOpen}%(enginePowerBuff)s%%{colorTagClose}，最高前进速度提高{colorTagOpen}%(fwdSpeedBoost)s{colorTagClose}公里/小时，最高倒车速度提高{colorTagOpen}%(bkwSpeedBoost)s{colorTagClose}公里/小时，持续{colorTagOpen}%(duration)s秒{colorTagClose}。\n\n恢复\n\n您的战车将逐渐恢复{colorTagOpen}%(baseHeal)s{colorTagClose}血量{colorTagOpen}外加%(extraHealFactor_1)s/%(extraHealFactor_2)s/%(extraHealFactor_3)s%%{colorTagClose}加速激活期间损失的血量，持续{colorTagOpen}%(healDuration)s秒{colorTagClose}。"
+
+msgid "comp7_risky_attack/name"
+msgstr "重振旗鼓"
+
+msgid "comp7_role_skill/descr/startLevel"
+msgstr " \n\n战斗开始时，角色技能的充能等级为{colorTagOpen}%(startLevel)s{colorTagClose}。"
+
+msgid "comp7_sniper/descr/active"
+msgstr "100米散布误差变为{colorTagOpen}%(dispersionFactor)s米{colorTagClose}，持续{colorTagOpen}%(duration_1)s/%(duration_2)s/%(duration_3)s秒{colorTagClose}。\n\n如果射击时您的战车未被发现，您的炮弹造成的伤害提高{colorTagOpen}%(damageFactors_1)s/%(damageFactors_2)s/%(damageFactors_3)s%%{colorTagClose}。\n\n若您通过{colorTagOpen}%(damageDistance)s米{colorTagClose}外的射击造成伤害，计时器将会重置。"
+
+msgid "comp7_sniper/name"
+msgstr "正中红心"
+
+msgid "comp7_sure_shot/descr/active"
+msgstr "移动时、车体和炮塔转向时的火炮散布误差降低{colorTagOpen}%(shotDispersionFactorsBuff_1)s/%(shotDispersionFactorsBuff_2)s/%(shotDispersionFactorsBuff_3)s%%{colorTagClose}，持续{colorTagOpen}%(duration)s秒{colorTagClose}。\n\n此技能激活时，通过射击造成伤害可缩短火炮装填时间，百分比等同于敌方战车减少血量百分比的{colorTagOpen}%(gunReloadBuffDamage_1)s/%(gunReloadBuffDamage_2)s/%(gunReloadBuffDamage_3)s%%{colorTagClose}。\n\n击毁一辆敌方战车可缩短{colorTagOpen}%(gunReloadBuffDestroy_1)s/%(gunReloadBuffDestroy_2)s/%(gunReloadBuffDestroy_3)s%%{colorTagClose}火炮装填时间。"
+
+msgid "comp7_sure_shot/name"
+msgstr "利落一击"

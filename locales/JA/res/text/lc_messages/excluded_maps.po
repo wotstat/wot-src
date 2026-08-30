@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "backButton/label"
+msgstr "戻る"
+
+msgid "backButton/to"
+msgstr "アカウントステータスへ"
+
+msgid "filteredMapsDisplayed"
+msgstr "表示中のマップ: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "このタイプのマップのみを表示します。"
+
+msgid "filtersTooltip/header/desert"
+msgstr "砂漠マップ"
+
+msgid "filtersTooltip/header/summer"
+msgstr "夏季マップ"
+
+msgid "filtersTooltip/header/winter"
+msgstr "冬季マップ"
+
+msgid "header/cooldown"
+msgstr "除外するマップを変更するには%(cooldownEndTime)が経過するのを待つ必要があります。"
+
+msgid "header/title"
+msgstr "マップフィルター"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "除外するマップを変更するにはスロットのロックが解除されるのを待つ必要があります。"
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "マップ変更不可"
+
+msgid "mapTile/hoverExclude"
+msgstr "マップ「%(mapName)」を除外しますか?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "除外"
+
+msgid "mapTile/hoverInclude"
+msgstr "マップ「%(mapName)」を「ランダム戦」に追加しますか?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "追加"
+
+msgid "mapsFilterLabel"
+msgstr "マップタイプ"
+
+msgid "notSelected"
+msgstr "未選択"
+
+msgid "premium"
+msgstr "WoTプレミアム"
+
+msgid "slot/disabledTooltipBody"
+msgstr "「WoTプレミアムアカウント」や「WoT Plus」サブスクリプションを利用すると除外できるマップの数が増加します。"
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "追加スロットはWoTプレミアムアカウントの特典としてアンロックできます。"
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "追加スロットは「WoT Plus」のサブスクリプション特典としてアンロックできます。"
+
+msgid "slot/replaceTooltipBody"
+msgstr "「ランダム戦」モードから除外するマップを変更できます。"
+
+msgid "slot/selectTooltipBody"
+msgstr "マップを選択するとそのマップが「ランダム戦」モードに登場しなくなります。"
+
+msgid "slot/selectTooltipHeader"
+msgstr "スロット利用可能"
+
+msgid "totalMapsDisplayed"
+msgstr "表示中のマップ: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "%(linkPremium)があればマップをもう1つ除外できます。また「%(linkWotPlus)」があれば、マップをさらにもう%(mapCount)sつ除外できます。"
+msgstr[1] "%(linkPremium)があればマップをもう1つ除外できます。また「%(linkWotPlus)」があれば、マップをさらにもう%(mapCount)sつ除外できます。"
+
+msgid "unlock/premium"
+msgstr "%(linkPremium)があればマップをもう1つ除外できます。"
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "「%(linkWotPlus)」があればマップをさらにもう%(mapCount)sつ除外できます。"
+msgstr[1] "「%(linkWotPlus)」があればマップをさらにもう%(mapCount)sつ除外できます。"
+
+msgid "wotplus"
+msgstr "WoT Plus"

@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "awards_view/additional_reward/title"
+msgstr "同時獲得："
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "此系列任務可再次進行。"
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "了解!"
+
+msgid "awards_view/footer/title/close"
+msgstr "關閉"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "在車庫中檢視"
+
+msgid "awards_view/footer/title/replay"
+msgstr "再次進行"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "前往「淬鍊」"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "《戰車世界》加值帳號"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "加值車輛"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "租用車輛"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "與「{{styleName}}」風格"
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) 天"
+msgstr[1] "%(day) 天"
+msgstr[2] "%(day) 天"
+
+msgid "awards_view/title"
+msgstr "「淬鍊」已完成！"
+
+msgid "bonuses/battleBonusX5"
+msgstr "5 倍經驗加成任務"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "藍圖碎片：（%(nation)s）"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "通用藍圖碎片"
+
+msgid "bonuses/bpcoin"
+msgstr "戰車遠征代幣"
+
+msgid "bonuses/crewBonusX3"
+msgstr "3 倍乘員經驗加成任務"
+
+msgid "bonuses/description/attachments_set"
+msgstr "3D 配飾套組"
+
+msgid "bonuses/description/booster"
+msgstr "個人儲備"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "戰勛裝備"
+
+msgid "bonuses/description/crewSkin"
+msgstr "乘員外表"
+
+msgid "bonuses/description/directive"
+msgstr "技術指南"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "試驗型裝備"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "改良型裝備"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "與「%(styleName)s」風格"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "標準裝備"
+
+msgid "bonuses/description/style"
+msgstr "2D 風格"
+
+msgid "bonuses/description/style_3d"
+msgstr "3D 風格"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "女性乘員"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "新兵"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "乘員"
+
+msgid "condition/achievement"
+msgstr "獲得「%(achievement)s」獎項"
+
+msgid "condition/achievement/title"
+msgstr "戰鬥英雄"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "造成與協助造成總計 %(goal)s 血量傷害"
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "造成、受到與阻擋總計 %(goal)s 血量傷害"
+
+msgid "condition/aggregated/title"
+msgstr "複雜條件"
+
+msgid "condition/classes/AT-SPG"
+msgstr "驅逐戰車"
+
+msgid "condition/classes/SPG"
+msgstr "自走炮"
+
+msgid "condition/classes/heavyTank"
+msgstr "重型戰車"
+
+msgid "condition/classes/lightTank"
+msgstr "輕型戰車"
+
+msgid "condition/classes/mediumTank"
+msgstr "中型戰車"
+
+msgid "condition/critsCount"
+msgstr "對敵方車輛的內部或外部配件造成 %(goal)s 次重傷"
+
+msgid "condition/critsCount/title"
+msgstr "使車輛無法移動"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "阻擋 %(goal)s 血量傷害"
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "阻擋自身車輛血量 %(goal)s 倍以上的傷害"
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "阻擋"
+
+msgid "condition/damageDealt"
+msgstr "對敵方車輛造成 %(goal)s 血量傷害"
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "造成自身車輛血量 %(goal)s 倍以上的傷害"
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "從 %(distance)s 公尺或更近的距離命中敵方車輛 %(goal)s 次"
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "從 %(distance)s 公尺或更遠的距離命中敵方車輛 %(goal)s 次"
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "透過衝撞對敵方車輛造成傷害 %(goal)s 次"
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "命中自身車輛可視範圍內的敵方車輛 %(goal)s 次"
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "在戰鬥首 %(timeLimit)s 分鐘內造成 %(goal)s 血量傷害"
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "從 %(distance)s 公尺或更近的距離對敵方車輛造成 %(goal)s 血量傷害"
+
+msgid "condition/damageDealt/minDistance"
+msgstr "從 %(distance)s 公尺或更遠的距離對敵方車輛造成 %(goal)s 血量傷害"
+
+msgid "condition/damageDealt/ramming"
+msgstr "透過衝撞造成 %(goal)s 血量傷害"
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "衝撞"
+
+msgid "condition/damageDealt/title"
+msgstr "傷害"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "對未偵察到的敵方車輛造成 %(goal)s 血量傷害"
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "對自身車輛可視範圍內的敵方車輛造成 %(goal)s 血量傷害"
+
+msgid "condition/kills"
+msgstr "摧毀 %(goal)s 輛敵方車輛"
+
+msgid "condition/kills/classes"
+msgstr "摧毀 %(goal)s 輛敵方%(vehicleClass)s"
+
+msgid "condition/kills/classesDiversity"
+msgstr "摧毀 %(classCount)s 種不同類型的 %(goal)s 輛敵方車輛"
+
+msgid "condition/kills/title"
+msgstr "摧毀"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "在未受到任何傷害的情況下，摧毀 %(goal)s 輛敵方車輛"
+
+msgid "condition/kills/whileInvisible"
+msgstr "在保持不被發現的情況下，摧毀 %(goal)s 輛敵方車輛"
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "造成的傷害佔您隊伍造成傷害總量的 %(goal)s%%"
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "傷害"
+
+msgid "condition/piercingEnemyHits"
+msgstr "穿透敵方裝甲 %(goal)s 次"
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "穿透"
+
+msgid "condition/spotted"
+msgstr "偵察到 %(goal)s 輛敵方車輛"
+
+msgid "condition/spotted/title"
+msgstr "偵察"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "在保持不被發現的情況下，偵察到 %(goal)s 輛敵方車輛"
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "偵察"
+
+msgid "condition/top/damageDealt"
+msgstr "造成置身己方隊伍前 %(rank)s 名的傷害"
+
+msgid "condition/top/damageDealt/total"
+msgstr "造成置身雙方隊伍前 %(rank)s 名的傷害"
+
+msgid "condition/top/title"
+msgstr "頂尖玩家"
+
+msgid "condition/top/xp"
+msgstr "獲得置身己方隊伍前 %(rank)s 名的經驗"
+
+msgid "condition/unknown"
+msgstr "正在尋找最適合的任務…"
+
+msgid "condition/unknown/title"
+msgstr "等待中"
+
+msgid "postbattle/name"
+msgstr "淬鍊："

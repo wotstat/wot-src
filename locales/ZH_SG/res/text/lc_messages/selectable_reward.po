@@ -1,0 +1,107 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "error/button"
+msgstr "收到！"
+
+msgid "error/description"
+msgstr "信息暂时不可用。我们对给您造成的不便表示歉意。请稍后重试。"
+
+msgid "error/title"
+msgstr "无法开启奖励选择"
+
+msgid "footer/closeBtn/label"
+msgstr "稍后选择"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "从提供的类别中选择奖励。"
+msgstr[1] "从提供的类别中选择奖励。"
+msgstr[2] "从提供的类别中选择奖励。"
+
+msgid "footer/okBtn/label"
+msgstr "领取"
+
+msgid "footer/rewardsSelected"
+msgstr "已选择奖励："
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "从提供的类别中选择奖励。"
+msgstr[1] "从提供的类别中选择奖励。"
+msgstr[2] "从提供的类别中选择奖励。"
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "已达到上限"
+
+msgid "reward/state_received"
+msgstr "已获得"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "此类别选择的道具已达到上限。您可以取消一个已选择的道具并添加另一个。"
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "已达到上限"
+
+msgid "tabs/counter"
+msgstr "%(count)s/%(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "装备\n指令"
+
+msgid "tabs/items/battle_booster"
+msgstr "装备指令"
+
+msgid "tabs/items/blueprint"
+msgstr "蓝图碎片"
+
+msgid "tabs/items/brochure"
+msgstr "训练参考"
+
+msgid "tabs/items/crewbook"
+msgstr "训练手册"
+
+msgid "tabs/items/deluxe"
+msgstr "改进型装备"
+
+msgid "tabs/items/expequipments"
+msgstr "试验型\n装备"
+
+msgid "tabs/items/guide"
+msgstr "训练指南"
+
+msgid "tabs/items/modernized_device"
+msgstr "试验型装备"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "试验型装备等级1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "试验型装备等级2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "试验型装备等级3"
+
+msgid "tabs/items/new_device"
+msgstr "标准装备"
+
+msgid "tabs/items/trophy"
+msgstr "赏金装备"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "点击“领取”按钮以获得选择的奖励。"
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr "，"
+
+msgid "tooltips/selectedRewards/title"
+msgstr "已选择奖励：%(white_open)s%(count)s%(white_close)s"

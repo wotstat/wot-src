@@ -1,0 +1,152 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "collection/error/description"
+msgstr "컬렉션에 쌓인 먼지를 털고 있습니다. 정리가 완료될 때까지 전투에 참여해 보십시오."
+
+msgid "collection/error/title"
+msgstr "컬렉션 복원 중"
+
+msgid "collection/tooltip/completed"
+msgstr "\"%(name)s, %(season)s / %(year)s\" 컬렉션을 완성했습니다."
+
+msgid "collection/tooltip/progress"
+msgstr "\"%(name)s, %(season)s / %(year)s\" 컬렉션 요소 수집 현황입니다."
+
+msgid "footer/buttonText"
+msgstr "컬렉션으로 이동"
+
+msgid "footer/collectionCompleted"
+msgstr "컬렉션 완성!"
+
+msgid "footer/progressbar/activeState/receivedElements/text"
+msgstr "수집한 요소: %(received)s / %(total)s"
+
+msgid "footer/progressbar/tooltip/body"
+msgstr "컬렉션 요소를 수집하여 컬렉션 진행도를 높이십시오. 컬렉션 요소는 이벤트 기간에 획득할 수 있으며 기회가 있다면 이벤트 종료 후에도 획득 가능합니다. 컬렉션 아이템 위에 마우스를 올리면 획득 방법을 확인할 수 있습니다."
+
+msgid "footer/progressbar/tooltip/note"
+msgstr "컬렉션에는 해당 컬렉션 요소 수집에 대한 보상으로 지급되는 요소가 포함될 수도 있습니다. 해당 요소는 수집 대상 요소 수에 반영되지 않으며 수집 시 컬렉션 진행도가 상승하지 않습니다. 해당 요소에는 세부적인 이야기가 담겨 있습니다."
+
+msgid "footer/progressbar/tooltip/title"
+msgstr "컬렉션 요소 수집"
+
+msgid "header/overhead"
+msgstr "컬렉션"
+
+msgid "header/seasonText/defaultConfig"
+msgstr "시즌 이름"
+
+msgid "header/subtitle"
+msgstr "컬렉션 완성!"
+
+msgid "header/title/defaultConfig"
+msgstr "견본 컬렉션"
+
+msgid "intro/buttonClose/text"
+msgstr "컬렉션으로 이동"
+
+msgid "intro/content/description/text"
+msgstr "컬렉션은 다양한 이벤트를 통해 수집할 수 있는 특별 요소 세트입니다. 일반적인 게임 플레이로는 획득할 수 없는 특별 스타일, 데칼 등 여러 아이템으로 구성됩니다."
+
+msgid "intro/header/text"
+msgstr "월드 오브 탱크 컬렉션"
+
+msgid "main/backText"
+msgstr "컬렉션으로 이동"
+
+msgid "mainLayout/header/title"
+msgstr "월드 오브 탱크 컬렉션"
+
+msgid "mainLayout/header/tooltip/body"
+msgstr "컬렉션은 다양한 이벤트를 통해 수집할 수 있는 특별 요소 세트입니다. 일반적인 게임 플레이로는 획득할 수 없는 특별 스타일, 데칼 등 여러 아이템으로 구성됩니다."
+
+msgid "mainLayout/header/tooltip/header"
+msgstr "월드 오브 탱크 컬렉션"
+
+msgid "navigation/pageCounter"
+msgstr " / %(pageCount)s"
+
+msgid "notifications/button/goToCollection"
+msgstr "컬렉션으로 이동"
+
+msgid "notifications/button/goToCollections"
+msgstr "컬렉션으로 이동"
+
+msgid "notifications/button/goToReward"
+msgstr "보상으로 이동"
+
+msgid "notifications/eventDisabled/text"
+msgstr "일시적으로 컬렉션을 이용할 수 없습니다."
+
+msgid "notifications/eventEnabled/text"
+msgstr "컬렉션을 다시 이용할 수 있습니다. 불편을 드려 죄송합니다."
+
+msgid "notifications/eventStart/text"
+msgstr "전차장님, 새로운 콘텐츠를 준비했습니다! \"%(feature)s\" 컬렉션 요소를 수집하여 특별 보상을 획득해 보십시오."
+
+msgid "notifications/eventStart/title"
+msgstr "\"%(feature)s\" 컬렉션 이용 가능!"
+
+msgid "notifications/feature/battle_pass_10"
+msgstr "배틀 패스"
+
+msgid "notifications/feature/battle_pass_11"
+msgstr "배틀 패스"
+
+msgid "notifications/feature/battle_pass_12"
+msgstr "배틀 패스"
+
+msgid "notifications/finalReceived/text"
+msgstr "\"%(feature)s: %(season)s\" 컬렉션 완성"
+
+msgid "notifications/newItemsReceived/text"
+msgstr "새로운 컬렉션 요소 획득:\n\n%(items)s"
+
+msgid "notifications/newRewardsReceived/text"
+msgstr "컬렉션 요소 수집 보상 획득:\n\n%(items)s"
+
+msgid "notifications/renew/text"
+msgstr "컬렉션 이용 가능"
+
+msgid "notifications/renew/title"
+msgstr "%(feature)s, %(season)s"
+
+msgid "notifications/season/battle_pass_10"
+msgstr "시즌 10"
+
+msgid "notifications/season/battle_pass_11"
+msgstr "시즌 11"
+
+msgid "notifications/season/battle_pass_12"
+msgstr "시즌 12"
+
+msgid "notifications/title/collectionName"
+msgstr "\"%(feature)s: %(season)s\" 컬렉션"
+
+msgid "notifications/title/congratulation"
+msgstr "축하합니다!"
+
+msgid "notifications/updatedEntry/text"
+msgstr "월드 오브 탱크 컬렉션"
+
+msgid "notifications/updatedEntry/title"
+msgstr "전적 메뉴 업데이트"
+
+msgid "overlays/preview/previewButton/text"
+msgstr "미리 보기"
+
+msgid "overlays/preview/style/title/text"
+msgstr "%(vehicleInfo) 전용 %(styleName)s"
+
+msgid "tooltips/item/achievement"
+msgstr "%(name)s 훈장"
+
+msgid "tooltips/receivedStatus"
+msgstr "획득"
+
+msgid "tooltips/title"
+msgstr "컬렉션 요소"
+
+msgid "tooltips/unreceivedStatus"
+msgstr "미획득"

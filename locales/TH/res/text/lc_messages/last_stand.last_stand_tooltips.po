@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/available"
+msgstr "กิจกรรมมีให้ %(timer)"
+
+msgid "bannerTooltip/callToAction"
+msgstr "รูปแบบเกม %(mode) คลิกเพื่อสำรวจ"
+
+msgid "bannerTooltip/description"
+msgstr "รูปแบบ PvE พิเศษที่คุณจะได้เข้าปะทะกับระลอกข้าศึก เลือกพาหนะคันโปรดของคุณ, ทำลายรถถังเสียงสะท้อนและต้านทานการโจมตีให้ได้ รางวัลเฉพาะและอื่นๆอีกมากกำลังรอคุณอยู่!"
+
+msgid "bannerTooltip/header"
+msgstr "การยืนหยัดครั้งสุดท้าย: โลกแดนเหนือ"
+
+msgid "bannerTooltip/performanceRisk/text/highRisk"
+msgstr "สมรรถนะคอมพิวเตอร์ของคุณนั้นไม่เพียงพอสำหรับรูปแบบนี้ คุณอาจจะพบปัญหาทางเทคนิคกับกราฟฟิคและการเคลื่อนที่ของพาหนะ และเป็นไปได้ที่โปรแกรมลูกข่ายเกมจะล่ม"
+
+msgid "bannerTooltip/performanceRisk/text/mediumRisk"
+msgstr "รูปแบบนี้ต้องใช้สมรรถนะคอมพิวเตอร์ที่สูง คุณจะเผชิญปัญหาในการโหลดแผนที่ กราฟฟิค และการเคลื่อนที่ของพาหนะ ในกรณีที่สมรรถนเครื่องไม่เพียงพอ ให้ลองลดคุณภาพกราฟฟิคในการตั้งค่าลง"
+
+msgid "bannerTooltip/performanceRisk/title/highRisk"
+msgstr "สมรรถนะต่ำ"
+
+msgid "bannerTooltip/performanceRisk/title/mediumRisk"
+msgstr "สมรรถนะอาจจะต่ำลง"
+
+msgid "battlePass/playGame"
+msgstr "หาคะแนนในการยืนหยัดครั้งสุดท้ายด้วยการก้าวหน้าผ่านทางกิจกรรม (ต้องใช้พาหนะระดับ VIII)"
+
+msgid "battleResult/interaction/friend/friend"
+msgstr "คุณเป็นเพื่อนกันอยู่แล้ว"
+
+msgid "battleResult/interaction/friend/inviteSent"
+msgstr "กำลังรอการยืนยันคำขอเป็นเพื่อน"
+
+msgid "battleResult/interaction/friend/removeFromBlacklist"
+msgstr "ปลดผู้เล่นจากรายชื่อกีดกันของคุณ"
+
+msgid "battleResult/interaction/friend/sendInvite"
+msgstr "เพิ่มเข้ารายชื่อเพื่อน"
+
+msgid "battleResult/interaction/menu"
+msgstr "คลิกเพื่อเปิดรายการโต้ตอบกับผู้เล่นคนนี้"
+
+msgid "battleResult/interaction/platoon/platoonCanMade"
+msgstr "เพิ่มเข้าหมวดรถถัง"
+
+msgid "battleResult/interaction/platoon/platoonDone"
+msgstr "ผู้เล่นอยู่ในหมวดรถถังแล้ว"
+
+msgid "battleResult/interaction/platoon/platoonSent"
+msgstr "ส่งคำเชิญแล้ว"
+
+msgid "battleResult/interaction/platoon/platoonUnavailable"
+msgstr "มีเพียงผู้การหมวดรถถังเท่านั้นที่จะเชิญผู้เล่นเข้าหมวดรถถังได้"
+
+msgid "booster/activated"
+msgstr "เปิดใช้งานแล้ว"
+
+msgid "booster/howItWorks"
+msgstr "วิธีการทำงาน"
+
+msgid "consumables/params/cooldownSeconds"
+msgstr "ช่วงพัก: %(cooldownSeconds)s วิ"
+
+msgid "consumables/params/usageCost"
+msgstr "ค่า Mirium: %(cost)s"
+
+msgid "daily/timer/body"
+msgstr "เวลาเหลือในการปฏิบัติภารกิจประจำวัน"
+
+msgid "daily/timer/bodyCompleted"
+msgstr "เวลาจนกว่าภารกิจประจำวันถัดไป"
+
+msgid "dailyQuests/completed"
+msgstr "สำเร็จแล้ว"
+
+msgid "dailyQuests/completedAll"
+msgstr "คุณได้ปฏิบัติภารกิจประจำวันทั้งหมดที่มีของกิจกรรมนี้แล้ว"
+
+msgid "dailyQuests/completedDescr"
+msgstr "คุณได้ผ่านภารกิจประจำวันนี้แล้ว ภารกิจใหม่จะมีให้ในวันพรุ่งนี้"
+
+msgid "dailyQuests/rewards"
+msgstr "รางวัล:"
+
+msgid "dailyQuests/status"
+msgstr "ภารกิจประจำวันใหม่ใน %(timer)"
+
+msgid "dailyQuests/statusEventEnd"
+msgstr "กิจกรรมมีให้ %(timer)"
+
+msgid "hangar/startBtn/lock/body"
+msgstr "เลือกพาหหนะที่มีให้เพื่อออกรบ"
+
+msgid "hangar/startBtn/lock/header"
+msgstr "ไม่มีให้"
+
+msgid "hangar/startBtn/offline/body"
+msgstr "การรบในระดับความยากที่เลือกเอาไว้ไม่มีให้ชั่วคราวอันเนื่องด้วยเหตุทางเทคนิค"
+
+msgid "hangar/startBtn/offline/header"
+msgstr "ไม่มีให้"
+
+msgid "hangar/startBtn/squadInBattle/body"
+msgstr "รอจนกว่าหมวดรถถังจะกลับจากการรบครั้งก่อนเพื่อเข้าการรบครั้งใหม่"
+
+msgid "hangar/startBtn/squadInBattle/header"
+msgstr "ไม่มีให้"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/body"
+msgstr "ความยากไม่พอสำหรับหมวดรถถัง"
+
+msgid "hangar/startBtn/squadNotAvailableLevel/header"
+msgstr "ไม่มีให้"
+
+msgid "points/accrued"
+msgstr "ได้รับ"
+
+msgid "points/battles"
+msgstr "• ออกรบในการรบกิจกรรม"
+
+msgid "points/body"
+msgstr "กลักบัตรเจาะนั้นใช้ในการก้าวหน้าในการยืนหยัดครั้งสุดท้ายและหาทรัพยากรที่มีค่า กลักนี้สามารถหาได้จากการต่อสู้ในการรบกิจกรรม, การปฏิบัติภารกิจประจำวันสำเร็จหรือการซื้อ {{bundle_name}}"
+
+msgid "points/bottom"
+msgstr "กิจกรรมจบ: (%(date)s)"
+
+msgid "points/completeMissionDaily"
+msgstr "• ปฏิบัติภารกิจประจำวันแต่ละวันให้สำเร็จ"
+
+msgid "points/effective"
+msgstr "• ประสิทธิภาพในการรบ:"
+
+msgid "points/gold"
+msgstr "• ซื้อ {{bundle_name}} ในร้านค้า"
+
+msgid "points/header"
+msgstr "กลักบัตรเจาะ"
+
+msgid "points/howToEarn"
+msgstr "วิธีการหา"
+
+msgid "points/missionDaily"
+msgstr "• ภารกิจประจำวันสำเร็จแล้ว"
+
+msgid "points/obelisk"
+msgstr "• เสาหินถูกทำลาย:"
+
+msgid "points/vehicleDaily"
+msgstr "• ได้รับโบนัสพาหนะประจำวัน:"
+
+msgid "rewardPath/info/first"
+msgstr "คุณสามารถหากลักบัตรเจาะเพิ่มได้ด้วยการปฏิบัติภารกิจประจำวันให้สำเร็จซึ่งจะมีปรับใหม่ในแต่ละวันผ่านทางกิจกรรม"
+
+msgid "rewardPath/info/header"
+msgstr "กลักบัตรเจาะเพิ่มเติม"
+
+msgid "rewardPath/info/second"
+msgstr "ชุดสินค้ากิจกรรมพิเศษมีให้ในร้านค้านั้นยังมีกลักบัตรเจาะที่จะเพิ่มความก้าวหน้าของคุณด้วย"
+
+msgid "rewardPath/tooltip/bonus/main"
+msgstr "โบนัสพาหนะ:"
+
+msgid "rewardPath/tooltip/bonus/other"
+msgstr "รางวัลอื่นๆ:"
+
+msgid "rewardPath/tooltip/booster"
+msgstr "{EDCB9E_Start}โบนัสพาหนะ{EDCB9E_End} - {{boosterName}}"
+
+msgid "rewardPath/tooltip/counter/final"
+msgstr "ได้กลักบัตรเจาะและรางวัลทั้งหมดแล้ว"
+
+msgid "rewardPath/tooltip/counter/progress"
+msgstr "กลักบัตรเจาะที่ได้รับ{{current}}/{{max}}"
+
+msgid "rewardPath/tooltip/description"
+msgstr "เก็บกลักบัตรเจาะในการรบแล้วก้าวหน้าในการยืนหยัดครั้งสุดท้าย แต่ละด่านจะมอบรางวัลให้คุณเป็นสิ่งของที่มีค่าและโบนัสพาหนะที่จะช่วยให้คุณเอาชนะข้าศึกที่น่ากลัวได้มากขึ้น"
+
+msgid "rewardPath/tooltip/finalStage"
+msgstr "ด่านสุดท้าย"
+
+msgid "rewardPath/tooltip/stage"
+msgstr "ด่านปัจจุบัน"
+
+msgid "rewardPath/tooltip/timer"
+msgstr "กิจกรรมมีให้ {{timer}}"
+
+msgid "rewardPath/tooltip/title"
+msgstr "ความก้าวหน้า"
+
+msgid "shopWidget/body"
+msgstr "คลิกเพื่อเปิดส่วนพิเศษของร้านค้าในเกมพร้อมด้วยสิ่งของกิจกรรมเฉพาะ"
+
+msgid "shopWidget/header"
+msgstr "ชุดสินค้ากิจกรรม"
+
+msgid "teamList/actions/body"
+msgstr "การดำเนินการด่วนสำหรับการสร้างหมวดรถถังและเพิ่ม/ลบเพื่อน"
+
+msgid "teamList/actions/header"
+msgstr "การดำเนินการด่วน"
+
+msgid "teamList/damage/body"
+msgstr "เรียงตามความเสียหายที่ทำได้"
+
+msgid "teamList/damage/header"
+msgstr "ความเสียหายที่ทำได้"
+
+msgid "teamList/keys/body"
+msgstr "เรียงตามกลักบัตรเจาะที่ได้รับ ค่าที่แสดงนี้จะไม่นับกลักบัตรเจาะที่ได้รับเพิ่มเติมจากการผ่านภารกิจประจำวันหรือจากโบนัสพาหนะประจำวัน"
+
+msgid "teamList/keys/header"
+msgstr "กลักบัตรเจาะ"
+
+msgid "teamList/kills/body"
+msgstr "เรียงตามพาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "teamList/kills/header"
+msgstr "พาหนะข้าศึกที่ถูกทำลาย"
+
+msgid "teamList/name/header"
+msgstr "ผู้เล่น"
+
+msgid "teamList/place/body"
+msgstr "เรียงตามตำแหน่งในทีม"
+
+msgid "teamList/place/header"
+msgstr "ตำแหน่งในทีม"
+
+msgid "teamList/squad/header"
+msgstr "หมวดรถถังเป็นหน่วยรบสำหรับผู้เล่นร่วมมือกันในการรบ"
+
+msgid "teamList/vehicle/body"
+msgstr "เรียงตามชนิดและชื่อพาหนะ"
+
+msgid "teamList/vehicle/header"
+msgstr "พาหนะ"
+
+msgid "teamList/warned/body"
+msgstr "ผู้เล่นนี้ถูกลงโทษจากการนิ่งเฉยและการหนีการรบและจะไม่ได้รับรางวัลใดสำหรับการรบนี้"
+
+msgid "teamList/warned/header"
+msgstr "เตือน"
+
+msgid "teamList/warned/self/body"
+msgstr "คุณถูกลงโทษจากการนิ่งเฉยและการหนีการรบและจะไม่ได้รับรางวัลใดสำหรับการรบนี้"
+
+msgid "vehicle/lowEfficiency"
+msgstr "ประสิทธิภาพพลรถถังต่ำ"
+
+msgid "vehicle/rentState"
+msgstr "ถูกล็อก"
+
+msgid "vehicleDaily/header"
+msgstr "โบนัสพาหนะประจำวัน"

@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "休止期間: {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}}～{{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "イベント開始:"
+
+msgid "bannerTooltip/description"
+msgstr "Tier {{vehicleTier}}車輌による30対30の大規模な戦闘を楽しめるモードです。戦闘は「ノルマンディー」、「クラフトワーク」、「ファタ・モルガーナ」という3つの広大な専用マップで行われます。マップには大口径砲を備えた5基のトーチカが登場し、攻撃チームはそのうち3基の破壊すれば勝利、逆に防衛チームはそれを死守すれば勝利となります。"
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "広大なマップでの熾烈な戦闘を楽しめるモードです。独自の階級システムが登場するほか、モード専用の進捗ステージを進めると貴重な報酬が手に入ります。"
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "イベントは終了しましたが、フロントラインTierの到達報酬を選択できます。"
+
+msgid "bannerTooltip/header"
+msgstr "フロントライン"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "フロントライン | Tier {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} - ゲームモードの詳細を確認できます"
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "本モードを快適にプレイいただくには高性能PCが必要です。お使いのPCではマップの読み込み、グラフィック、車輌の操作などに不具合が生じる可能性があります。パフォーマンスに問題がある場合は、「設定」画面で「グラフィック品質」を変更してください。"
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "パフォーマンス低下の可能性あり"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "フロントラインTier ({{value}}) の到達報酬を選択できます。"
+
+msgid "battleAbilities/button/notEnough"
+msgstr "リソースが不足しているため購入できません。"
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "全駆逐戦車に変更が適用されます。"
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "全自走砲に変更が適用されます。"
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "全重戦車に変更が適用されます。"
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "全軽戦車に変更が適用されます。"
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "全中戦車に変更が適用されます。"
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "車輌が不適合"
+
+msgid "battleAbilities/points/body"
+msgstr "一定数を集めると新たな「戦闘リザーブ」をアンロックできます。"
+
+msgid "battleAbilities/points/header"
+msgstr "戦闘リザーブポイント"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "攻撃用リザーブを表示"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "攻撃用リザーブ"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "偵察用リザーブを表示"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "偵察用リザーブ"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "強化用リザーブを表示"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "強化用リザーブ"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "「戦闘リザーブ」は、戦闘中に「大尉」および「少佐」に昇格した際にアップグレードされます。到達しうる最大レベルは「シナリオ」によって異なります。"
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "追加情報"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "攻撃用リザーブ"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "偵察用リザーブ"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "強化用リザーブ"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "効果の制限"
+
+msgid "battleAbilityTooltip/description"
+msgstr "シナリオ「{{@ colorLegacy 'FFE4C0'}}運命の悪戯{{/}}」では、出撃前に特定の「戦闘リザーブ」をスロットにセットしておくと、戦闘中にその「戦闘リザーブ」が選択肢として表示される確率が{{@ colorLegacy 'FFE4C0'}}10%{{/}}上昇します。"
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "リザーブレベル"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "未購入"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "イベントは終了しました。"
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "イベントは間もなく開始"
+
+msgid "infoButton/body"
+msgstr "詳細はこちら"
+
+msgid "infoButton/header"
+msgstr "イベント概要"
+
+msgid "levelReserves/desc"
+msgstr "階級が上がると「戦闘リザーブ」のレベルが向上します。"
+
+msgid "levelReserves/info"
+msgstr "シナリオ「{{@ colorLegacy 'FFE4C0'}}運命の悪戯{{/}}」では、専用ガレージで「戦闘リザーブ」を購入ておくと、その初期レベルが1段階上昇し、レベル{{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}までアップグレードできるようになります。"
+
+msgid "levelReserves/level"
+msgstr "次の階級に到達すると増加: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "次の階級で利用可能: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "レベル - {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "シナリオ「{{@ colorLegacy 'FFE4C0'}}運命の悪戯{{/}}」で{{@ colorLegacy 'FFE4C0'}}購入済みの「戦闘リザーブ」{{/}}向け"
+
+msgid "levelReserves/title"
+msgstr "戦闘リザーブのレベル"
+
+msgid "playlist/warning/body"
+msgstr "このプレイリストには本モードと互換性のない、またはガレージに所有していない車輌が含まれています。"
+
+msgid "playlist/warning/header"
+msgstr "車輌使用不可 (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "「戦闘リザーブ」の効果が上昇"
+
+msgid "randomReserve/disable"
+msgstr "このスロットはすでに使用されています。"
+
+msgid "randomReserve/notPurchased"
+msgstr "戦闘リザーブは未購入"
+
+msgid "randomReserve/purchased"
+msgstr "戦闘リザーブは購入済み"
+
+msgid "skillOrderTooltip/body"
+msgstr "車輌タイプとリザーブスロットの構成の関係"
+
+msgid "skillOrderTooltip/header"
+msgstr "「戦闘リザーブ」がアンロックされる順番"
+
+msgid "skillOrderTooltip/info"
+msgstr "シナリオ「{{@ colorLegacy 'whiteSpanish'}}運命の悪戯{{/}}」では、アンロックできる「戦闘リザーブ」がランダムに決定されます。「戦闘リザーブ」のカテゴリーや使用している車輌のタイプには影響されません。"

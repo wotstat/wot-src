@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "이용 가능한 모든 서버에 휴전이 적용 중입니다."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "해당 서버에 휴전이 적용 중입니다."
+
+msgid "alertMessage/changeServerButton"
+msgstr "서버 변경"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "배틀 로얄 종료"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "해당 서버에서 모드 이용 불가"
+
+msgid "banner/info/disabled"
+msgstr "휴전"
+
+msgid "banner/info/seasonActive"
+msgstr "두 번째 기회와 보상"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "%(month)s %(day)s일까지"
+
+msgid "banner/subtitle"
+msgstr "값진 보상을 획득할 기회"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s시간"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s시간 %(minutes)s분"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s분"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "배틀 로얄"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "새로운 지점에서 전투를 재개합니다."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "곧 재생성"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "재생성 중"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "이제 두 번째 기회는 없습니다."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "재생성 불가"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "곧 재생성 기능 비활성화!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "이번에는 더 신중히 전투에 임하십시오."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "전차 전투 준비 완료!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "전투 복귀"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "전투 상태입니다."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "재생성 불가"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "아군 전차를 위해 재생성 기회를 확보하십시오."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "아군 전차 파괴"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "재생성 중"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "전차는 한 대 보다 두 대가 낫습니다!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "아군 전차 재생성 완료"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "전투에서 벗어난 상태를 유지하십시오!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "아군 전차 재생성"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "보너스 적용!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "1위 보상"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "전투에서 획득"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "승리"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "챕터를 선택하지 않았습니다. 잔여 점수: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "모든 챕터를 완료했습니다. 계속 플레이하며 배틀 패스 점수를 수집할 수 있습니다."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "배틀 패스로 이동"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "배틀 패스"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "챕터 선택"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "활성 챕터 진행 상황으로 이동"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "배틀 패스로 이동"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "전투당 완료한 임무: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "임무"
+
+msgid "battleResult/battleReward/title"
+msgstr "전투 수익"
+
+msgid "battleResult/button/hangar"
+msgstr "차고로 이동"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "해당 전투 종료 시 점수 및 보상이 분배되며 임무도 전투 결과에 따라 완료됩니다."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "애니메이션을 건너뛰려면 %(esc) 키 입력"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "소대에 초대"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "소대원"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "무작위 플레이어"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "전투 유형"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "개인 전투"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "월드 오브 탱크 프리미엄 계정 적용 시:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "월드 오브 탱크 적용 시 수치"
+
+msgid "battleResult/progressStage"
+msgstr "스테이지 {stage} 진행"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "전투 중 다른 플레이어에게 실제 닉네임과 클랜 태그가 표시되지 않습니다."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "플레이어의 실제 닉네임: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "닉네임 변경: {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "전차 장갑으로 막은 피해량입니다."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "적 전차에 입힌 피해량입니다."
+
+msgid "battleResult/stats/body/kills"
+msgstr "격파한 적 전차 수입니다."
+
+msgid "battleResult/stats/body/place"
+msgstr "순위는 전투 결과에 따라 결정됩니다."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "소대가 격파한 적 전차 수입니다."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "장갑 활용"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "피해 기록"
+
+msgid "battleResult/stats/header/kills"
+msgstr "전차 격파"
+
+msgid "battleResult/stats/header/place"
+msgstr "순위"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "전차 격파(소대)"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "장갑 활용"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "피해 기록"
+
+msgid "battleResult/stats/title/kills"
+msgstr "전차 격파"
+
+msgid "battleResult/stats/title/place"
+msgstr "순위"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "전차 격파(소대)"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "순위표"
+
+msgid "battleResult/tab/result"
+msgstr "전투 결과"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "소대 파괴"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "전차 파괴"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "승리"
+
+msgid "battleResult/title/victoryOther"
+msgstr "명예 순위"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "배틀 로얄 전용 특별 전차를 선택하십시오."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "유효하지 않은 전차"
+
+msgid "button/modules"
+msgstr "연구 계통도"
+
+msgid "button/repair"
+msgstr "수리"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "일시적으로 전투 참여 불가"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "일시적으로 전투 참여 불가"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "모드 이용 불가"
+
+msgid "ceasefire/header/schedule"
+msgstr "전투 일정"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}~{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "이용 가능한 모든 서버에 휴전이 적용 중입니다. 아래에서 일정을 확인할 수 있습니다."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "해당 서버에 휴전이 적용 중입니다. 다른 서버로 전환하여 해당 모드를 이용할 수 있습니다."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "해당 서버에서 배틀 로얄을 이용할 수 없습니다. 다른 서버로 전환하여 해당 모드를 이용할 수 있습니다."
+
+msgid "commanderInfo/commonRank"
+msgstr "전차장"
+
+msgid "commanderInfo/description/china"
+msgstr "\"나는 이미 승리했다. 머지않아 모두 깨닫게 될 것이다.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"내가 곧 법이다!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"오늘은 영광의 날로 남을 것이다\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"예의를 차릴 시간 따위는 없다.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"모든 것은 계획대로 되고 있다.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"무엇이든 최고가 되리라\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"갈고닦은 실력을 선보일 때가 왔다\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"승자가 모든 영광을 차지한다\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "능력"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\n배틀 로얄 특별 전차"
+
+msgid "fragPanel/squadsCount"
+msgstr "소대: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "순위표"
+
+msgid "hangarResults/btns/summary"
+msgstr "전투 결과"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "닫기"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "부품은 전투 중에만 강화할 수 있습니다. 강화 메뉴를 보려면 전투 중에 %(key)s 키를 누르십시오."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s 또는 %(highlight2)s을 통해 경험치를 획득할 수 있습니다. 전차 단계가 오를 때마다 강화 메뉴에서 부품을 강화할 수 있으며 강화 시 전차 성능이 향상됩니다."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "적 전차에 피해 기록"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "전리품 수집"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "전차 강화"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "1단계 전차로 전투에 참여합니다."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "부품은 전투 중에 강화 메뉴(기본값: %(treeKey)s 키)에서 강화하거나 %(leftModuleKey)s 키와 %(rightModuleKey)s 키를 눌러 강화할 수 있습니다.\n\n부품은 전투 중에만 강화할 수 있습니다."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "전투 중:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "배틀 로얄에서는 적 전차에 피해를 기록하거나 전리품 수집 시 경험치를 획득합니다. 경험치가 일정량 쌓이면 전차 단계가 오르고 부품을 강화할 수 있습니다."
+
+msgid "levelUp/severalTitles"
+msgstr "레벨 달성: %(firstLevel)s~%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "레벨 %(level)s 달성!"
+
+msgid "levelUp/twoTitles"
+msgstr "레벨 달성: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "임무를 완료하고 값진 보상을 획득해 보십시오."
+
+msgid "level_up/max_level_info/title"
+msgstr "새로운 일일 임무 진행 가능"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "시즌\n곧 시작"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "%(date)s 시즌 시작"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "장갑 활용"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "피해 기록"
+
+msgid "playerStats/killsStat/name"
+msgstr "격파 기록"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "격파 기록"
+
+msgid "playerStats/placeStat/name"
+msgstr "순위"
+
+msgid "playerStats/title"
+msgstr "개인 점수"
+
+msgid "player_errors/radarInCooldown"
+msgstr "무선 탐지 사용 불가: 재사용 대기 중"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "전차에 이상이 없습니다. 정비가 필요하지 않습니다."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "전투 로봇 파괴"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s에 의해 %(target)s 님 파괴"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s에 의해 적군 %(target)s 님 파괴"
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "화공전차 파괴"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "지뢰 소멸"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "지뢰 매설"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "무선 탐지 사용 가능"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "전차 최고 단계 도달"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "%(level)s단계 달성"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "부품 유형: %(moduleType)s, 강화 부품: %(module)s"
+
+msgid "player_messages/moduleType/hull"
+msgstr "차체"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "현가장치"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "엔진"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "주포"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "무선 탐지"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "포탑"
+
+msgid "playersPanel/title"
+msgstr "팀"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "소대원 전차로 시야 변경"
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "관전 모드"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > [차고로 복귀]를 눌러\n다른 전차에 탑승할 수 있습니다."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "차고로 복귀"
+
+msgid "preBattle/buttonTitle"
+msgstr "전투 시작!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "지도 선택"
+
+msgid "preBattle/listTitle"
+msgstr "플레이어 준비 상태"
+
+msgid "preBattle/mapArzagir"
+msgstr "아자기르 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "드림랜드"
+
+msgid "preBattle/mapRandom"
+msgstr "무작위 지도"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "소대 전차"
+
+msgid "preBattle/title"
+msgstr "배틀 로얄 격전"
+
+msgid "preBattle/userFooterTitle"
+msgstr "선택한 전차"
+
+msgid "preBattle/userNotReady"
+msgstr "준비 취소"
+
+msgid "preBattle/userReady"
+msgstr "준비 완료"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "%(server)s 서버 시즌 %(cycleNo)s 종료"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "%(server)s 서버에서 해당 시즌이 종료되었습니다."
+
+msgid "proxyPanel/button"
+msgstr "상점"
+
+msgid "proxyPanel/label"
+msgstr "강철\n인장"
+
+msgid "proxyPanel/store"
+msgstr "상점"
+
+msgid "questsTooltip/timeLeft"
+msgstr "시즌 종료까지: %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "무선 탐지에 설정된 키가 없습니다."
+
+msgid "radar/hint/press"
+msgstr "단축키"
+
+msgid "radar/hint/text"
+msgstr "입력 시 무선 탐지 활성화"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "시작"
+
+msgid "selectRespawn/button/land"
+msgstr "시작"
+
+msgid "selectRespawn/description"
+msgstr "표시된 지점 중 한 곳을 클릭하십시오. 지점을 선택하지 않으면 표시된 지점 중 한 곳에서 자동으로 시작합니다."
+
+msgid "selectRespawn/header"
+msgstr "시작 지점 선택"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "표시된 지점 중 한 곳을 클릭하십시오. 지점을 선택하지 않으면 표시된 지점 중 한 곳에서 자동으로 시작합니다."
+
+msgid "selectRespawn/text/startHere"
+msgstr "이곳에서 전투 시작"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "시작 지점 선택"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s일"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s시간 %(min)s분"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1분"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s분"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "광폭!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "장갑 부식!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "구역이 폐쇄되었습니다! 즉시 구역을 벗어나지 않으면 전차가 파괴됩니다!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "구역 곧 폐쇄"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "기동력 저하!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "정상 궤도 복귀..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "내구도 회복"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "내구도 회복"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "피해 전환"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "전차 성능 향상"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "포탄 및 복구"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "항공 보급품"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "수리 도구 또는 능력 충전"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "전리품"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "복합 전리품: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "수집: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "수리 구역"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "과부하!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "연막 적용"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "장갑 부식 중!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "기동력 저하!"
+
+msgid "techParams/type/damage"
+msgstr "화력"
+
+msgid "techParams/type/difficulty"
+msgstr "난이도"
+
+msgid "techParams/type/mobility"
+msgstr "기동"
+
+msgid "techParams/type/spotting"
+msgstr "정찰"
+
+msgid "techParams/type/survivability"
+msgstr "생존"
+
+msgid "techtree/body_armor"
+msgstr "장갑"
+
+msgid "techtree/body_health"
+msgstr "내구도"
+
+msgid "techtree/body_mobility"
+msgstr "기동성"
+
+msgid "techtree/engine_acceleration"
+msgstr "엔진 출력"
+
+msgid "techtree/engine_speed"
+msgstr "최고 속력"
+
+msgid "techtree/gun_alpha"
+msgstr "포탄 공격력"
+
+msgid "techtree/gun_auto_loader"
+msgstr "자동 재장전 주포"
+
+msgid "techtree/gun_clip"
+msgstr "클립식 주포"
+
+msgid "techtree/gun_dpm"
+msgstr "장전 속도"
+
+msgid "techtree/gun_dualgun"
+msgstr "이중포신 주포"
+
+msgid "techtree/gun_he"
+msgstr "고폭탄 공격력"
+
+msgid "techtree/gun_machinegun"
+msgstr "대전차 기관포"
+
+msgid "techtree/gun_piercing"
+msgstr "관통력"
+
+msgid "techtree/radar_cooldown"
+msgstr "무선 탐지 재사용 시간"
+
+msgid "techtree/radar_distance"
+msgstr "탐지 범위"
+
+msgid "techtree/turret_armor"
+msgstr "장갑"
+
+msgid "techtree/turret_health"
+msgstr "내구도"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "회전 속도"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "최대 {{credits}} 크레딧"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "최대 {{experience}} 경험치"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "소대 전투 보너스"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "무작위 플레이어와 소대를 조직하여 전투에 참여합니다. 서로 협력하여 9개의 소대를 상대로 전투를 펼치게 됩니다. 해당 모드에서 소대 임무를 완료할 수 있습니다. 전투 종료 시 해당 소대는 자동으로 해산됩니다."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "기본 배틀 로얄입니다. 각 플레이어는 자신의 생존만을 위해 전투를 펼칩니다. 자원을 수집하여 전차를 강화하고 특수 능력을 활용하여 마지막까지 살아남아 보십시오!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "친구와 소대로 전투에 참여합니다. 서로 협력하여 9개의 소대를 상대로 전투를 펼치게 됩니다. 해당 모드에서 소대 임무를 완료할 수 있습니다."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "무작위 소대"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "개인 모드"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "친구 소대"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "개인"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "소대"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "점수 획득 규칙"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s위"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s위"
+
+msgid "tooltips/awards/achievement"
+msgstr "훈장"
+
+msgid "tooltips/awards/badge"
+msgstr "증표"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "전차가 파괴된 후에도 다시 전장으로 복귀할 수 있습니다. 전차 재생성 시 강화 단계는 그대로 유지됩니다. 각 전투에서 정해진 시간 동안만 재생성이 가능합니다."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "재생성 횟수는 항공 보급품을 통해 충전할 수 있습니다."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "아군을 재생성하려면 {brown_Open}%(timeToResurrect)s초{brown_Close} 동안 전투에서 벗어난 상태를 유지해야 합니다. 해당 시스템은 전투 시작 후 {brown_Open}%(duration)s분{brown_Close} 동안만 적용됩니다. 재생성 횟수는 소대원 간에 공유됩니다."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "소대 플레이 시"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "전차 파괴 시 자동으로 재생성됩니다. 해당 시스템은 전투 시작 후 {brown_Open}%(duration)s분{brown_Close} 동안만 적용됩니다."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "개인 플레이 시"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "소모성"
+
+msgid "tooltips/respawn/title"
+msgstr "재생성"
+
+msgid "tooltips/vehicle/description"
+msgstr "배틀 로얄 모드 전차"
+
+msgid "tournament/description"
+msgstr "배틀 로얄 격전"
+
+msgid "tournament/fightButton/notReady"
+msgstr "준비 취소"
+
+msgid "tournament/fightButton/ready"
+msgstr "준비 완료!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "토너먼트에 입장할 수 없습니다. 오류 코드: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "배틀 로얄 격전 토너먼트 오류가 발생했습니다. 오류 코드: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "배틀 로얄 격전"
+
+msgid "tournament/type/solo"
+msgstr "유형: 개인"
+
+msgid "tournament/type/squad"
+msgstr "유형: 소대"
+
+msgid "upgradePanel/alert/0"
+msgstr "전차를 강화할 수 없습니다!"
+
+msgid "upgradePanel/alert/1"
+msgstr "교전 중에는 전차를 강화할 수 없습니다!"
+
+msgid "upgradePanel/alert/2"
+msgstr "침수 상태에서는 전차를 강화할 수 없습니다!"
+
+msgid "upgradePanel/alert/3"
+msgstr "전복 상태에서는 전차를 강화할 수 없습니다!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "강화 메뉴를 보려면 %(key)s 키 입력"
+
+msgid "upgradePanel/title/default"
+msgstr "새로운 부품 이용 가능"
+
+msgid "upgradePanel/title/hull"
+msgstr "새로운 차체 이용 가능"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "새로운 현가장치 이용 가능"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "새로운 엔진 이용 가능"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "새로운 주포 이용 가능"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "새로운 무전기 이용 가능"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "새로운 포탑 이용 가능"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "또는"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "장갑"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "포탄 공격력"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "장전 속도"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "내구도"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "관통력"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "무선 탐지"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "클립식 장전 장치"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "속력"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "전차 특징"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "장점"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "단점"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "모든 서버에 휴전이 적용 중입니다. %(time)s 후 전투에 참여할 수 있습니다."
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "다른 서버 선택"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "에피소드 %(cycle)s 종료"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "에피소드 종료"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "해당 서버에 휴전이 적용 중입니다. %(time)s 후 전투에 참여할 수 있습니다."
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "%(serverName)s에 휴전 적용 중"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "%(time)s 후 에피소드 %(cycle)s 시작"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "%(time)s 후 첫 번째 에피소드 시작"

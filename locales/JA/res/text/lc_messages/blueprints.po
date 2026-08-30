@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "設計図完成済み"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "設計図  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "設計図{values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "購入する"
+
+msgid "blueprintScreen/button/research"
+msgstr "研究する"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "ガレージで表示"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "未研究の車輌の設計図を作成すると、数に応じてその車輌の研究に\n必要なEXPが減少します。ただし、実際に研究や購入を行うには、\n先行車輌の必要なモジュールを研究する必要があります。"
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "了解!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "研究不可"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "車輌ピース1個あたりの作成コスト"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "以下のいずれか"
+
+msgid "blueprintScreen/createFragment"
+msgstr "車輌ピースを作成"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "ピースを作成"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "ピースの\n変換可能"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "ピースの\n変換不可"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "リソース不足\n車輌ピースの\n作成不可"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "車輌に移動"
+
+msgid "blueprintScreen/or"
+msgstr "＝"
+
+msgid "blueprintScreen/research"
+msgstr "研究"
+
+msgid "blueprintScreen/researchFree"
+msgstr "車輌をEXPなしで研究"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "研究不可"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "研究に必要なEXPの減少率:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "設計図が完成しているため購入できます"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "この車輌はすでに購入済みです"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "倉庫内"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "先行車輌の必要なモジュールを研究すると、\n{vehicleName}をEXPなしで研究できます。"
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "設計図完成"
+
+msgid "blueprintScreen/unlocked"
+msgstr "車輌\n研究済み"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Coalition:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Bloc:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Alliance:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "Union:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "汎用:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Coalition"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Bloc"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Alliance"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "Union"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr " （フランス、チェコスロバキア、スウェーデン、イタリア） "
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr " （ドイツ、日本） "
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr " （アメリカ、イギリス、ポーランド） "
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr " （ソ連、中国） "
+
+msgid "conversionView/topMessage/multi"
+msgstr "車輌設計図のピースの作成に使用する国別ピースの数を指定してください。\n以下の国家の国別ピースを使用できます。\n%(allianceIcon) %(allianceName) %(allianceNations) "
+
+msgid "conversionView/topMessage/single"
+msgstr "車輌設計図のピースを1個作成するために使用する国別ピースを選択してください。\n以下の国家の国別ピースを使用できます。\n%(allianceIcon) %(allianceName) %(allianceNations) "
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "合計コスト:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "コスト:"
+
+msgid "nations/china"
+msgstr "中国"
+
+msgid "nations/czech"
+msgstr "チェコスロバキア"
+
+msgid "nations/france"
+msgstr "フランス"
+
+msgid "nations/germany"
+msgstr "ドイツ"
+
+msgid "nations/italy"
+msgstr "イタリア"
+
+msgid "nations/japan"
+msgstr "日本"
+
+msgid "nations/poland"
+msgstr "ポーランド"
+
+msgid "nations/sweden"
+msgstr "スウェーデン"
+
+msgid "nations/uk"
+msgstr "イギリス"
+
+msgid "nations/usa"
+msgstr "アメリカ"
+
+msgid "nations/ussr"
+msgstr "ソ連"

@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "에너지 포탄을 사용할 수 있습니다."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "흡혈 포탄을 사용할 수 있습니다."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "충격 포탄을 사용할 수 있습니다."
+
+msgid "LS_damageShieldReady"
+msgstr "에너지 보호막을 사용할 수 있습니다."
+
+msgid "LS_doubleDamageReady"
+msgstr "이중 피해를 사용할 수 있습니다."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "가변적 피해를 사용할 수 있습니다."
+
+msgid "LS_fastReloadReady"
+msgstr "재장전 가속을 사용할 수 있습니다."
+
+msgid "LS_healSituationalReady"
+msgstr "가변적 수리를 사용할 수 있습니다."
+
+msgid "LS_invisibilityReady"
+msgstr "암영 회복을 사용할 수 있습니다."
+
+msgid "LS_nitroReady"
+msgstr "터보 과급기를 사용할 수 있습니다."
+
+msgid "LS_pickupSouls"
+msgstr "미륨 %(souls)s개 수집 완료"
+
+msgid "LS_selfRepairReady"
+msgstr "긴급 수리를 사용할 수 있습니다."
+
+msgid "LS_situationalNitroReady"
+msgstr "가변적 기동을 사용할 수 있습니다."
+
+msgid "LS_teamRepairKitReady"
+msgstr "종합 정비를 사용할 수 있습니다."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s 님이 종합 정비를 활성화했습니다."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "종합 정비를 활성화했습니다."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "%(gridId)s 지역을 주시하라"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "아틀라스를 보호하라!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "아틀라스 방어"
+
+msgid "arena/marker/move_to_camp"
+msgstr "구역으로 이동 중!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "아틀라스 방어 중"
+
+msgid "arena/phase"
+msgstr "페이즈: %(current)s / %(total)s"
+
+msgid "arena/wave"
+msgstr "웨이브 %(current)s / %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "고슴도치가 접근하고 있습니다!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "알파 고슴도치가 접근하고 있습니다!"
+
+msgid "battleHint/clearTheArea"
+msgstr "구역 내 적군을 소탕하십시오!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "서두르십시오! 제로가 아틀라스에 근접했습니다!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "제로 격파 완료!\n남은 적군: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "격파해야 하는 적: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "데이터 및 %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "전차 수리"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "보호막 획득"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "적군 기절"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "%(name)s 오벨리스크 파괴!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "재생"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "방벽"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "충격"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "생성 지점 포착! 적군 접근 중!"
+
+msgid "battleHint/hunter"
+msgstr "사냥꾼이 접근하고 있습니다!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "웨이브 저지 성공!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "격파해야 하는 적:"
+
+msgid "battleHint/missing_squad"
+msgstr "실종체 소대가 접근하고 있습니다!"
+
+msgid "battleHint/newWave"
+msgstr "웨이브 {current} / {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "오벨리스크가 나타났습니다!"
+
+msgid "battleHint/stopConvoy"
+msgstr "제로를 저지하십시오!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "제로가 아틀라스에\n도달하기 전에 저지하십시오!"
+
+msgid "battleHint/trapper"
+msgstr "덫꾼을 격파하여 폐쇄 구역이 생성되는 것을 막으십시오."
+
+msgid "battleHint/turret"
+msgstr "모기가 깨어났습니다!"
+
+msgid "battleHint/waveFinished"
+msgstr "웨이브를 저지했습니다!\n다시 뭉쳐서 대비하십시오!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "다시 뭉쳐서 대비하십시오!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "적군의 지원 병력이 도착했습니다!"
+
+msgid "common/close"
+msgstr "닫기"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "지속 시간: %(time)s초"
+
+msgid "damageLog/personal_death_zone"
+msgstr "구역 피해"
+
+msgid "damageLog/static_death_zone"
+msgstr "구역 피해"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "염화로 화재 유발"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "에너지 충격 피해"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "폭발 피해"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "에너지 강탈 피해"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "가변적 피해 활성화"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "가변적 수리 활성화"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "에너지 포탄 피해"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "흡혈 포탄 피해"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "충격 포탄 피해"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "부품 피해 면역"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "가변적 기동 활성화"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "회복"
+
+msgid "efficiencyRibbons/repair"
+msgstr "전차 수리"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "전차 수리 완료:"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "아군에 의해 전차 수리"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "아군 전차 수리"
+
+msgid "eventStats/activeWave"
+msgstr "웨이브 %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "난이도: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "최후의 저항: 북부 전선"
+
+msgid "eventStats/globalTask"
+msgstr "목표: 적군의 모든 웨이브 격파"
+
+msgid "eventStats/mission"
+msgstr "적군의 모든 웨이브 격파"
+
+msgid "eventStats/tableCaption"
+msgstr "부대원"
+
+msgid "help/description_0"
+msgstr "적군의 모든 웨이브를 격파하여 승리하십시오.\n적군은 웨이브가 거듭될수록 점점 강해집니다."
+
+msgid "help/description_1"
+msgstr "전술 장비는 적절한 조합으로 사용하면 굉장히 뛰어난 성능을 발휘할 수 있습니다.\n최후의 저항 모드에서는 지휘명령과 모든 유형의 포탄을 무료로 사용할 수 있습니다."
+
+msgid "help/description_2"
+msgstr "오벨리스크에 피해를 입히면 피해 일부가 적 전차에 전이되며, 오벨리스크를 격파하면 무작위 보너스를 획득합니다."
+
+msgid "help/description_3"
+msgstr "최종 공명 전차 제로를 저지하여 아틀라스를 보호하십시오.\n제로가 아틀라스에 도달하면 아틀라스가 파괴되어 전투에서 패배합니다."
+
+msgid "help/title"
+msgstr "최후의 저항: 북부 전선"
+
+msgid "help/title_0"
+msgstr "적군의 공격 웨이브"
+
+msgid "help/title_1"
+msgstr "생존 대책"
+
+msgid "help/title_2"
+msgstr "전투 내 오벨리스크 활용"
+
+msgid "help/title_3"
+msgstr "아틀라스 방어"
+
+msgid "helpScreen/hint/description"
+msgstr "입력 시 모드 규칙 표시"
+
+msgid "helpScreen/hint/press"
+msgstr "단축키"
+
+msgid "hitMarker/useless"
+msgstr "소용없습니다!"
+
+msgid "loading/description_0"
+msgstr "적군의 모든 웨이브를 격파하여 승리하십시오.\n적군은 웨이브가 거듭될수록 점점 강해집니다."
+
+msgid "loading/description_1"
+msgstr "전술 장비는 적절한 조합으로 사용하면 굉장히 뛰어난 성능을 발휘할 수 있습니다.\n최후의 저항 모드에서는 지휘명령과 모든 유형의 포탄을 무료로 사용할 수 있습니다."
+
+msgid "loading/description_2"
+msgstr "오벨리스크에 피해를 입히면 피해 일부가 적 전차에 전이되며, 오벨리스크를 격파하면 무작위 보너스를 획득합니다."
+
+msgid "loading/description_3"
+msgstr "최종 공명 전차 제로를 저지하여 아틀라스를 보호하십시오.\n제로가 아틀라스에 도달하면 아틀라스가 파괴되어 전투에서 패배합니다."
+
+msgid "loading/title"
+msgstr "불러오는 중..."
+
+msgid "loading/title_0"
+msgstr "적군의 공격 웨이브"
+
+msgid "loading/title_1"
+msgstr "생존 대책"
+
+msgid "loading/title_2"
+msgstr "전투 내 오벨리스크 활용"
+
+msgid "loading/title_3"
+msgstr "아틀라스 방어"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "[%(name)s] 사용 불가: 엔진이 손상되었습니다."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "[%(name)s] 사용 불가: 주포가 손상되었습니다."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "주포가 장전되어 있습니다."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "[%(name)s] 사용 불가: 장비를 활성화할 미륨이 부족합니다."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "전차가 손상되지 않았습니다."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "[%(name)s] 사용 불가: 전차가 침수되고 있습니다."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "[%(name)s] 사용 불가: 전차에 화재가 발생했습니다."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "[%(name)s] 사용 불가: 전차가 전복되어 있습니다."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "적군 %(attacker)s 폭발에 의해 아군 %(target)s 파괴"
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "아군 %(target)s 충돌"
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "폐쇄 구역에 의해 아군 %(target)s 파괴"
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "아군 %(target)s 파괴"
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "소대가 해당 웨이브 저지 시"
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "플레이어의 전차 재생성"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "전투가 끝났습니다.\n잘하셨습니다!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "폐쇄 구역에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "에너지 충격에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "염화에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "에너지 강탈에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "폭발에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "전차 충돌"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "사격으로 [%(device)s] 부품 폭발"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "화재에 의해 전차 파괴"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "전차가 파괴되었습니다. 시간이 종료되었습니다."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "적 포탄에 의해 전차 파괴"
+
+msgid "prebattle/description/message"
+msgstr "목표: 적군의 모든 웨이브 격파"
+
+msgid "prebattle/description/title"
+msgstr "최후의 저항: %(difficulty)s 난이도"
+
+msgid "prebattle/difficulty/107"
+msgstr "일반"
+
+msgid "prebattle/difficulty/108"
+msgstr "상급"
+
+msgid "prebattle/difficulty/109"
+msgstr "잔혹"
+
+msgid "prebattle/waiting/title"
+msgstr "플레이어를 기다리는 중..."
+
+msgid "radialMenu/attention_here"
+msgstr "방어 요청"
+
+msgid "radialMenu/cancel"
+msgstr "취소"
+
+msgid "radialMenu/confirm"
+msgstr "확인"
+
+msgid "radialMenu/move_to_camp"
+msgstr "구역으로 이동 중!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "방어 중"
+
+msgid "radialMenu/obelisk"
+msgstr "오벨리스크를 처리하겠다!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "오벨리스크를 파괴하라!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "에너지 보호막"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "정상 궤도 복귀..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "위험 구역을\n벗어나십시오!"
+
+msgid "teamList/teammates"
+msgstr "아군"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "음성 대화 비활성화"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "음성 대화 활성화"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "눌러서 말하기"

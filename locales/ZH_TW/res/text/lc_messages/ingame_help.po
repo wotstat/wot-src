@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "裝填砲管"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "關閉"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "巡航模式 - 後退"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "巡航模式 - 前進"
+
+msgid "battleControls/disableLockTarget"
+msgstr "取消自動瞄準"
+
+msgid "battleControls/fire"
+msgstr "射擊"
+
+msgid "battleControls/hideInterface"
+msgstr "顯示/隱藏介面"
+
+msgid "battleControls/hideMinimap"
+msgstr "顯示/隱藏小地圖"
+
+msgid "battleControls/makeScreenshort"
+msgstr "螢幕擷圖"
+
+msgid "battleControls/movementBackward"
+msgstr "後退"
+
+msgid "battleControls/movementForward"
+msgstr "前進"
+
+msgid "battleControls/movementLeft"
+msgstr "迴轉/左轉"
+
+msgid "battleControls/movementRight"
+msgstr "迴轉/右轉"
+
+msgid "battleControls/pageTitle"
+msgstr "一般資訊"
+
+msgid "battleControls/showCursor"
+msgstr "顯示游標"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(用於小地圖、玩家清單，等。)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "顯示選擇性標示"
+
+msgid "battleControls/stopFire"
+msgstr "停下並射擊"
+
+msgid "battleControls/switchAutorotation"
+msgstr "鎖定車身 / 切換模式"
+
+msgid "battleControls/title"
+msgstr "戰鬥模式"
+
+msgid "battleControls/toggleAFL"
+msgstr "開啟/關閉「裝甲解析儀」"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "僅適用於狙擊模式"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "開啟/關閉自動瞄準"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(準星置於目標)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "顯示/隱藏隊伍列表"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "或稱讚回去"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "開啟/關閉狙擊模式"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "或火炮模式"
+
+msgid "battleControls/voiceChatMute"
+msgstr "開啟語音聊天"
+
+msgid "chatControls/change"
+msgstr "通知隊伍/裝甲排"
+
+msgid "chatControls/enterToChatMode"
+msgstr "聊天輸入模式"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "離開聊天模式"
+
+msgid "chatControls/send"
+msgstr "送出訊息"
+
+msgid "chatControls/title"
+msgstr "聊天模式"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "剩餘砲彈"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "遭受攻擊方向"
+
+msgid "crosshairControls/dispercion"
+msgstr "擴散度"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "炮管位置"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "玩家血量"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "血量條"
+
+msgid "crosshairControls/hpValues"
+msgstr "目標血量 (百分比/血量 剩餘/總量)"
+
+msgid "crosshairControls/marker"
+msgstr "瞄準點"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "彈藥裝填"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "炮管裝填時間，以秒計"
+
+msgid "crosshairControls/targetClass"
+msgstr "車輛類型標示"
+
+msgid "crosshairControls/targetDistance"
+msgstr "目標距離"
+
+msgid "crosshairControls/targetIcon"
+msgstr "車輛圖示"
+
+msgid "crosshairControls/targetLevel"
+msgstr "車輛階級"
+
+msgid "crosshairControls/targetName"
+msgstr "車輛類型 / 玩家名字"
+
+msgid "crosshairControls/title"
+msgstr "炮管與準星指示器"
+
+msgid "detailsHelp/default/title"
+msgstr "幫助"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "地圖特色"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "隨機事件的發生位置將在地圖上以煙霧標記\n並在小地圖上以標示標記。\n具隨機事件的地圖可在遊戲設定中關閉。"
+
+msgid "detailsHelp/devMaps/title"
+msgstr "具隨機事件的地圖"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "您的車輛可能在發生隨機事件的區域遭摧毀（如飛機墜毀的區域）。\n具隨機事件的地圖可在遊戲設定中關閉。"
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "擁有此開火機制的車輛能在射擊後切換炮管。第一個炮管開火後隨即開始自動裝填，第二個（裝填好的）炮管稍候便能接著開火。"
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "快速射擊"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "搭載雙管火炮系統的車輛擁有特殊的「雙管齊射」機制，在按住指定按鍵後便可啟用。兩發砲彈將平行射出。控制開火的按鍵可在設定中進行更改。"
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "雙管齊射"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "您可依特定戰術需要切換引擎模式。變更引擎模式必須完全靜止且需要特定一段時間，與配件狀況無關。"
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "全新移動機制"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "渦輪模式啟用後可增加引擎功率、前進與後退速度。然而此模式會讓車輛更可見、降低炮管穩定度與增加裝填時間。"
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "優勢與劣勢"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "地圖特色"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "在局部天氣區域內的車輛無法偵察到區域外的車輛，反之亦然；也無法與區域外友軍交換敵方車輛的位置資訊。火災事件會對車輛造成傷害。"
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "局部天氣"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "保持靜止或以低於特定數值的速度移動，可讓您校正車輛的「類比彈道計算裝置」並累積準度等級。\n每提高一個等級，會讓您下一發砲彈的準度提高，效果會在射擊後移除。"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "類比彈道計算裝置"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "在完整校正狀態下，您的車輛達到最高準度等級且具有不錯的炮管穩定性，移動時或炮塔/車身迴轉時的擴散度亦會降低。\n此效果會在射擊後移除。"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "完整校正"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "自動武器的一種類型，具備極高的射速。射擊效率會藉由瞄準圈內的指示來顯示。"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "自動火炮"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "此炮管可持續射擊而不需要進行裝填。每次發射砲彈都會產生熱能，且持續射擊將導致炮管過熱，直到降溫前，炮管將無法再次射擊。"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "過熱調控自動火炮"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "每當您以砲彈命中一輛敵方車輛時，您會獲得一個裝填效率等級，可暫時提高炮管的裝填速度。等級隨每次命中累積。\n藉由射擊摧毀一輛敵方車輛，可額外累積裝填效率等級。"
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "半自動彈藥架"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "若您的炮管已完成裝填，您可開始加熱下一發砲彈。您達到的加熱等級越高，平均傷害的加成也將越高。\n若要開始加熱，請按下："
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "彈道加熱超載"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "當您達到最高加熱等級時，會開始倒數計時。若您未在倒數結束前發射砲彈，您將在數秒內無法射擊或變更砲彈。"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "砲彈過熱"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "對敵方車輛造成兩次裝甲擊穿即可啟用點射模式，在此模式下，會裝填可進行連發的短彈匣，讓兩發砲彈能快速射出。"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "點射模式"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "「氣壓式陀螺穩定器」能在作用的一小段時間內，於車身與炮塔迴轉時確保最高的穩定性，讓移動時的射擊更為準確且能快速因應突如其來的威脅。\n若要啟用，請按下快捷鍵："
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "氣壓式陀螺穩定器"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "炮管在開火後若充分降溫，擴散度將會降低。半徑較小的第二個瞄準圈將會出現，其將決定砲彈的彈著區域。此效果將持續至下一發砲彈射擊為止。"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "雙重瞄準"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "當前的短彈匣內剩餘一發砲彈時，系統會自動開始裝填新的卡匣。\n在裝填新短彈匣的過程中發射最後一發砲彈，會讓剩餘的裝填時間延長數秒。"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "短彈匣裝填系統"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "此系統能讓炮管維持在較低的溫度，藉此讓其擁有極高準度。射擊時炮管會升溫，但會在裝填期間開始降溫並回到較佳的參數。炮管溫度越高，部分受影響參數的變動就越顯著。"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "主動炮管降溫系統"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "此車輛專為進行衝撞攻擊而配置，具有的一系列設計改裝，能助其造成較高的衝撞傷害。"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "衝撞配置"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "此車輛的炮管可提前射擊：裝填期間的半充能射擊射擊效率會降低，而在裝填後的一般完全充能射擊則有最佳的射擊參數。"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "分段充能系統"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "保持靜止或以低於特定數值的速度移動來進行預熱，可藉此提高您下一發砲彈的傷害與準度。\n超過速限將逐漸降低加成，射擊或切換砲彈將立即重置加成。"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "推進劑溫控系統"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "達到最高預熱等級時，擊穿血量低於自身車輛平均傷害（計入您累積的預熱加成）之敵方車輛的裝甲時，將引爆其彈藥架並立即將之摧毀。"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "決定性傷害"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "「直接驅動」模式會為引擎功率與最高前進速度提供顯著提升。您向前移動的時間越久，累積的速度就越高，讓您輕鬆穿越戰場。"
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "直接驅動"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "系統會隨著時間自動累積充能，在射擊時消耗部分充能來提高傷害。充能越高，傷害加成也越高。"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "感應式彈藥推進劑助燃"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "預設情況下，系統僅會累積充能至特定上限。關閉限制器可讓其累積更高的充能，藉此提供更高的傷害加成，但會降低炮管操控性。若要切換限制器開關，請按下："
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "限制器"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "「液態燃料助推器」會提升引擎功率，讓您在戰場上快速移動，然而也會限制車輛的後退與迴轉速度。助推器可隨時開啟或關閉，要是達到臨界加熱等級將無法操作。\n若要啟用，請按下或按住："
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "液態燃料助推器"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "助推器會在啟用時升溫，一旦達到臨界溫度，需要冷卻後才能再次啟用。謹慎計劃使用時機，避免反遭對手突襲。"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "臨界加熱等級"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "噴射助推器可用來提高車輛的機動性，讓您更快佔據優勢位置或穿越危險區域。噴射助推器啟用後可持續特定時間且每場戰鬥有使用次數限制。噴射助推器啟用後無法手動停用且不會被摧毀。"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "噴射助推器"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "啟用後，噴射助推器可提高引擎功率與最高前進速度。然而，車輛操控性與後退速度也會降低。"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "優勢與劣勢"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "固態燃料推進器，可持續數秒提升加速度、機動性與操控性。左側與右側的推進器可獨立作業，藉此提高車身迴轉速度，同時不會限制後退能力。"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "分段火箭推進器"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "此車輛具有兩種模式，即渦輪與交戰模式。可隨時切換模式。「戰術能量包」可為當前模式充能。\n若要切換模式，請按下："
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "兩種模式"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "一旦「戰術能量包」完成充能，模式相應的能力將變為可用。啟用此能力會消耗累積的所有能量並在短時間內提供強大加成。\n若要啟用模式的獨特能力，請按下："
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "模式能力"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "「外部彈藥供應模組」讓您隨時中斷裝填並開始射擊，前提為您仍有一發裝填完畢的砲彈。若要中斷或繼續裝填，請按下快捷鍵："
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "外部彈藥供應模組"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "裝填期間，模組會鎖定車輛的炮塔與外部彈藥艙，在您中斷前暫時無法瞄準或射擊。"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "外部彈藥供應模組"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "此車輛裝備有一組輔助武器，該武器的裝填獨立於主要炮管，讓您在關鍵時刻額外造成傷害。若要啟用輔助武器，請按下快捷鍵："
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "輔助武器"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "「雷射目標指示器」會為您的下一次射擊帶來特殊效果，並套用到您命中的任何敵方車輛。命中敵方車輛時是否已偵察到對方，將影響造成的效果。\n若要啟用「雷射目標指示器」，請按下："
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "雷射目標指示器"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "命中已偵察到的車輛將會標記該車輛，延長其持續被偵察到的時間並提高砲彈對其造成的傷害。\n若該敵方車輛尚未被偵察到，命中時則會以特殊標示標記它的位置。"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "目標標定"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "您可依據戰場上的戰術情況來從單發射擊切換到齊射模式。"
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "射擊模式切換機制"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "齊射模式可造成雙倍傷害，但裝填時間會延長為兩倍，且您車輛炮管的 100 公尺處擴散度會變差*。"
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "優勢與劣勢"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "此機械改裝可在一小段時間內顯著提高車輛的前進與後退加速度、引擎功率，以及最高前進與後退速度。保持高速移動可加快其冷卻速度。"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "高壓渦輪增壓器輔助"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "核心按鍵尚未被指派。請到遊戲設定中指派它們。"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "在此模式下，炮管準度、裝填速度與炮管俯角/仰角會大幅提升，但機動性（前進/後退速度與垂直俯仰/水平迴轉速度）會嚴重受限。若要啟用此模式，請%(pressAndHold)s快捷鍵："
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "按下並按住"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "碉堡模式"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "在此模式下，炮管準度、瞄準速度與俯角/仰角會提升，但機動性（前進與後退速度）會降低。若要啟用此模式，請按下快捷鍵："
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "圍城模式"
+
+msgid "detailsHelp/role/description"
+msgstr "透過執行角色行為來獲得經驗加成："
+
+msgid "detailsHelp/role/title"
+msgstr "戰鬥中的車輛角色"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "當主要履帶遭摧毀時，得以維持部分的機動性。"
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "備用履帶"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "法國輪式輕型車輛能展現出最高速度與動力，但是擁有十分平庸的可視範圍。靜止的輪式車輛無法進行迴轉。"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "總共"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "同時按住 %(key2)s 與 %(key1)s 鍵。動力條的多寡會影響增壓力道。可放開 %(key1)s 鍵來啟用增壓，或放開 %(key2)s 鍵來取消增壓。增壓會讓加速更快，可用於突襲或假動作。注意！只有在車輛完全停止後才能使用增壓。啟用增壓會損壞您的車輛引擎。"
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "加成"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "輪式車輛的車輪在墜落時會降低受到的傷害。輪式車輛不會因為一條輪胎壞掉而停下。隨著壞掉的車輪越多，車輛的速度與操控性會進而降低。輪式車輛不太可能動彈不得──壞掉的車輪在過段時間後就會完全修復。"
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "耐用的懸吊"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "按下 %(key1)s 鍵來切換模式，車輛在每種模式下會展現出不同的速度、動力，以及操控性。"
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "兩種移動模式"
+
+msgid "markerColors/enemy"
+msgstr "敵方"
+
+msgid "markerColors/friend"
+msgstr "隊友"
+
+msgid "markerColors/squadPlayer"
+msgstr "裝甲排隊友"
+
+msgid "markerColors/teamKiller"
+msgstr "殺害隊友"
+
+msgid "markerColors/title"
+msgstr "圖示顏色："
+
+msgid "markerMarks/attack"
+msgstr "攻擊"
+
+msgid "markerMarks/follow"
+msgstr "跟著我！"
+
+msgid "markerMarks/help"
+msgstr "需要支援！"
+
+msgid "markerMarks/target/sau"
+msgstr "自走炮的目標"
+
+msgid "markerMarks/target/tank"
+msgstr "車輛的目標"
+
+msgid "markerMarks/title"
+msgstr "小地圖路徑："
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "防守！"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "我正在防守！"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "鎖定這裡！"
+
+msgid "radialMenu/attack_enemy"
+msgstr "請求火力支援！"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "攻擊目標！"
+
+msgid "radialMenu/attacking_base"
+msgstr "我來佔領！"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "攻擊目標！"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "佔領！"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "防守！"
+
+msgid "radialMenu/attention_to_position"
+msgstr "注意位置！"
+
+msgid "radialMenu/cancel_reply"
+msgstr "拒絕"
+
+msgid "radialMenu/defending_base"
+msgstr "我來防守！"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "攻擊！"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "我正在攻擊！"
+
+msgid "radialMenu/going_there"
+msgstr "前往位置！"
+
+msgid "radialMenu/helpMe"
+msgstr "需要支援！"
+
+msgid "radialMenu/helpMeEx"
+msgstr "我需要支援！"
+
+msgid "radialMenu/overheated_gun"
+msgstr "過熱！"
+
+msgid "radialMenu/positive"
+msgstr "了解！"
+
+msgid "radialMenu/reloadingGun"
+msgstr "裝填中！"
+
+msgid "radialMenu/reply_to_player"
+msgstr "確認！"
+
+msgid "radialMenu/supporting_ally"
+msgstr "我來支援您！"
+
+msgid "radialMenu/thanks"
+msgstr "謝謝您！"
+
+msgid "radialMenu/turn_back"
+msgstr "撤退！"
+
+msgid "returnToGame"
+msgstr "Esc—回到戰鬥"
+
+msgid "roleDescription/msg"
+msgstr "透過執行角色行為來獲得經驗加成："
+
+msgid "settings/button"
+msgstr "設定"
+
+msgid "settings/help"
+msgstr "檢視遊戲自訂的遊戲控制，點選設定。"
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "指出活躍目標"
+
+msgid "teamComm/highlightLocation"
+msgstr "指出位置"
+
+msgid "teamComm/show"
+msgstr "顯示命令選單"
+
+msgid "teamComm/show/ext"
+msgstr "(於目標旁顯示命令清單)"
+
+msgid "teamComm/title"
+msgstr "隊伍通訊"
+
+msgid "vehicleTypes/title"
+msgstr "車輛圖示"

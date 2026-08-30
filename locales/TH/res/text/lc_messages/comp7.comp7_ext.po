@@ -1,0 +1,2291 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/allNotAvailable"
+msgstr "การรบในเซิร์ฟเวอร์จะมีให้ภายใน %(primeDelta)s"
+
+msgid "alertMessage/allNotSet"
+msgstr "รูปแบบนี้ไม่มีให้บนทุกเซิร์ฟเวอร์"
+
+msgid "alertMessage/ban"
+msgstr "คุณถูกบล็อคจากรูปแบบนี้ชั่วคราว เวลาเหลือ: %(expiryTime)s"
+
+msgid "alertMessage/button/changeServer"
+msgstr "เปลี่ยนเซิร์ฟเวอร์"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "รายละเอียด"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "รูปแบบนี้ไม่มีให้ในเซิร์ฟเวอร์ปัจจุบันของคุณ %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "รูปแบบนี้ไม่มีให้บนทุกเซิร์ฟเวอร์"
+
+msgid "alertMessage/icon/tooltipBody"
+msgstr "คุณต้องมีพาหนะเหมาะสมอย่างน้อย %(count)s คันสำหรับรูปแบบ ดูที่หน้าเกี่ยวกับการบุกรุกสำหรับรายละเอียด"
+
+msgid "alertMessage/icon/tooltipHeader"
+msgstr "มีพาหนะเหมาะสมไม่พอ"
+
+msgid "alertMessage/modeOffline"
+msgstr "ข้อผิดพลาดฐานข้อมูล ไม่มีรูปแบบเกมให้"
+
+msgid "alertMessage/noVehicles"
+msgstr "ไม่มีพาหนะระดับ %(levels)s ที่เหมาะสมในโรงรถ%(button)s"
+
+msgid "alertMessage/notAvailable"
+msgstr "การรบไม่มีให้บนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "alertMessage/notAvailableEnd"
+msgstr "การรบไม่มีให้บนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "alertMessage/notEnoughVehicles"
+msgstr "มีพาหนะเหมาะสมไม่พอ %(info)s"
+
+msgid "alertMessage/notSet"
+msgstr "รูปแบบนี้ไม่มีให้บนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "alertMessage/preannounce/first"
+msgstr "ฤดูกาลแห่งมังกรน้ำเงินจะเริ่มขึ้นใน: %(date)s"
+
+msgid "alertMessage/preannounce/second"
+msgstr "ฤดูกาลแห่งมังกรโลหิตจะเริ่มขึ้นใน: %(date)s"
+
+msgid "alertMessage/preannounce/third"
+msgstr "ฤดูกาลแห่งมังกรหยกจะเริ่มขึ้นใน: %(date)s"
+
+msgid "alertMessage/qualification"
+msgstr "กำลังรอผลการคัดเลือกเพื่อรับอันดับของคุณ"
+
+msgid "alertMessage/seasonEnd/first"
+msgstr "ฤดูกาลแห่งมังกรน้ำเงินจบลงแล้ว"
+
+msgid "alertMessage/seasonEnd/second"
+msgstr "ฤดูกาลแห่งมังกรโลหิตจบลงแล้ว"
+
+msgid "alertMessage/seasonEnd/third"
+msgstr "ฤดูกาลแห่งมังกรหยกจบลงแล้ว"
+
+msgid "alertMessage/standaloneNotAvailable"
+msgstr "การรบในเซิร์ฟเวอร์นี้จะมีให้ภายใน %(primeDelta)s"
+
+msgid "alertMessage/standaloneNotSet"
+msgstr "รูปแบบนี้ไม่มีให้บนเซิร์ฟเวอร์ %(serverName)s"
+
+msgid "alertMessage/timeLeft/days"
+msgstr "%(day)s วัน"
+
+msgid "alertMessage/timeLeft/hours"
+msgstr "%(hour)s ชม %(min)s น"
+
+msgid "alertMessage/timeLeft/lessMin"
+msgstr "1 นาที"
+
+msgid "alertMessage/timeLeft/min"
+msgstr "%(min)s นาที"
+
+msgid "alertMessage/undefined"
+msgstr "?empty?"
+
+msgid "alertMessage/unsuitableVehicles"
+msgstr "ไม่มีพาหนะระดับ %(levels)s ที่เหมาะสมในโรงรถ"
+
+msgid "awardsWidget/description/award"
+msgstr "คลิกเพื่อเลือกแล้วรับรางวัลของคุณ"
+
+msgid "awardsWidget/description/awardDisabled"
+msgstr "รางวัลสุดท้ายไม่มีให้ชั่วคราว ทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "awardsWidget/title"
+msgid_plural "plural/awardsWidget/title"
+msgstr[0] "รับ\nรางวัล"
+msgstr[1] "รับ\nรางวัล"
+msgstr[2] "รับ\nรางวัล"
+
+msgid "banView/actionButtons/confirm"
+msgstr "ลงคะแนน"
+
+msgid "banView/actionButtons/description/confirmed/bannedVehicle"
+msgstr "คุณได้ลงคะแนนสำหรับ %(vehicleName)s แล้ว"
+
+msgid "banView/actionButtons/description/confirmed/withoutBan"
+msgstr "ไม่แบน"
+
+msgid "banView/actionButtons/description/notSelectedVehicle"
+msgstr "เสนอพาหนะที่จะทำการแบน"
+
+msgid "banView/actionButtons/description/prepick"
+msgstr "คุณสามารถลงคะแนน\nได้ในช่วงลงคะแนนแบนเท่านั้น"
+
+msgid "banView/actionButtons/description/selectedVehicle/bannedVehicle"
+msgstr "คุณกำลังเสนอ: \n%(vehicleName)s"
+
+msgid "banView/actionButtons/description/teamAffect"
+msgstr "บางคันในทีมของคุณ\nได้เลือกพาหนะที่คุณต้องการแบนเอาไว้"
+
+msgid "banView/actionButtons/description/wait"
+msgstr "โปรดรอให้ช่วงการลงคะแนนจบลงก่อน"
+
+msgid "banView/button/back"
+msgstr "กลับ"
+
+msgid "banView/button/ban"
+msgstr "ไปยังการเลือกแบน"
+
+msgid "banView/button/description"
+msgstr "ไปยังการเลือกพาหนะ"
+
+msgid "banView/description/prepick"
+msgstr "เลือกพาหนะที่เหมาะสมที่สุดสำหรับแผนที่นี้และการจัดทีมของคุณ"
+
+msgid "banView/description/voting"
+msgstr "เลือกพาหนะที่คุณต้องการจะปลดออกจากการรบนี้"
+
+msgid "banView/factory/candidate"
+msgstr "ตัวเลือกการแบน: %(vehicleName)s"
+
+msgid "banView/factory/candidates"
+msgstr "ตัวเลือกการแบนทีม"
+
+msgid "banView/factory/noCandidates"
+msgstr "ไม่มีตัวเลือกการแบน"
+
+msgid "banView/factory/pick"
+msgstr "ตัวเลือกแบนคุณ: %(vehicleName)s"
+
+msgid "banView/noBan"
+msgstr "ไม่แบน"
+
+msgid "banView/title/prepick"
+msgstr "ช่วงก่อนการเลือกพาหนะ"
+
+msgid "banView/title/voting"
+msgstr "ช่วงลงคะแนนแบน"
+
+msgid "banView/tooltip/confirmed"
+msgstr "การลงคะแนนยืนยันแล้ว"
+
+msgid "banView/tooltip/noAction"
+msgstr "ไม่มีการดำเนินการใดๆ"
+
+msgid "banView/tooltip/noActionDescription"
+msgstr "ผู้เล่นนี้ยังไม่ได้เสนอการแบนพาหนะใดๆ"
+
+msgid "banView/tooltip/notConfirmed"
+msgstr "เสนอแล้ว"
+
+msgid "banView/vehicleTypes/AT_SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "banView/vehicleTypes/heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "banView/vehicleTypes/lightTank"
+msgstr "รถถังเบา"
+
+msgid "banView/vehicleTypes/mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "banView/withoutBan"
+msgstr "ไม่แบน"
+
+msgid "banWidget/allies"
+msgstr "การเสนอของพันธมิตร"
+
+msgid "banWidget/enemies"
+msgstr "การเสนอของข้าศึก"
+
+msgid "banWidget/tooltip"
+msgstr "ทางทีมไม่สามารถตกลงได้ว่าจะทำการแบนพาหนะใดเลยทำการแบนพาหนะแบบสุ่มโดยเลือกจากคันที่ได้รับการลงคะแนนมากที่สุดแทน"
+
+msgid "battleCarousel/filterButtonTooltip/body"
+msgstr "ปรับการแสดงพาหนะตามชนิด, บทบาทและประเทศ"
+
+msgid "battleCarousel/filterButtonTooltip/header"
+msgstr "กรองตามค่า"
+
+msgid "battleCarousel/filterPopover/desc"
+msgstr "จะแสดงเพียงพาหนะที่สามารถใช้ในรูปแบบนี้เท่านั้น"
+
+msgid "battleCarousel/noFilteredVehiclesMessage"
+msgstr "ไม่มีพาหนะตรงกับค่าที่เลือกเอาไว้"
+
+msgid "battleMessages/enableVOIP"
+msgstr "ทำการรวมทีมแล้ว เลือกพาหนะของคุณและออกรบกัน\nเข้าร่วมการสนทนาเสียง (%(keyName)s)"
+
+msgid "battleMessages/specifyVOIP"
+msgstr "ทำการรวมทีมแล้ว เลือกพาหนะของคุณและออกรบกัน\nตั้งปุ่มลัดเพื่อให้เข้าร่วมการสนทนาเสียงอย่างรวดเร็ว"
+
+msgid "battleMessages/withoutVOIP"
+msgstr "ทำการรวมทีมแล้ว เลือกพาหนะของคุณและออกรบกัน\nในการเข้าร่วมการสนทนาเสียง ให้เปิดการใช้งานดังกล่าวในการตั้งค่าเกมของคุณ"
+
+msgid "battlePage/rulesButtonLabel"
+msgstr "รายละเอียดรูปแบบ (F1)"
+
+msgid "battlePage/statusNotificationTimers/aggressiveDetection"
+msgstr "เพิ่มระยะการมองเห็นพาหนะ"
+
+msgid "battlePage/statusNotificationTimers/allySupport"
+msgstr "เพิ่มคุณลักษณะพลรถถัง"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healed"
+msgstr "คืนความทนทาน"
+
+msgid "battlePage/statusNotificationTimers/aoeHeal/healing"
+msgstr "คืนความทนทาน"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspired"
+msgstr "เพิ่มคุณลักษณะพลรถถัง"
+
+msgid "battlePage/statusNotificationTimers/aoeInspire/inspiring"
+msgstr "เพิ่มคุณลักษณะพลรถถัง"
+
+msgid "battlePage/statusNotificationTimers/berserk"
+msgstr "เพิ่มความเร็วการบรรจุกระสุน"
+
+msgid "battlePage/statusNotificationTimers/concentration"
+msgstr "เพิ่มคุณลักษณะพาหนะ"
+
+msgid "battlePage/statusNotificationTimers/hunter"
+msgstr "คืนความทนทาน"
+
+msgid "battlePage/statusNotificationTimers/juggernaut"
+msgstr "เพิ่มคุณลักษณะพาหนะ"
+
+msgid "battlePage/statusNotificationTimers/march"
+msgstr "เพิ่มคุณลักษณะพาหนะ"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/buff"
+msgstr "เพิ่มความคล่องตัว"
+
+msgid "battlePage/statusNotificationTimers/riskyAttack/heal"
+msgstr "คืนความทนทาน"
+
+msgid "battlePage/statusNotificationTimers/sniper"
+msgstr "ลดการกระจายกระสุน"
+
+msgid "battlePage/statusNotificationTimers/sureShot"
+msgstr "เพิ่มคุณลักษณะพาหนะ"
+
+msgid "battleResult/header/deserter"
+msgstr "คุณถูกลงโทษกับคะแนนการจัดอันดับ"
+
+msgid "battleResult/header/deserterQualification"
+msgstr "คุณถูกลงโทษ: หลังจากผ่านการคัดเลือก การจัดอันดับของคุณจะลดลง"
+
+msgid "battleResult/label/deserter"
+msgstr "การหนีการรบ"
+
+msgid "battleResult/message/deserter"
+msgstr "คุณถูกลงโทษ\nเสียคะแนนการจัดอันดับ: %(penalty)s"
+
+msgid "battleResult/message/deserterQualification"
+msgstr "คุณหนีสนามรบ\nหลังจากผ่านการคัดเลือก การจัดอันดับของคุณจะลดลง"
+
+msgid "battleResult/message/header/deserter"
+msgstr "การประพฤติตนไม่เป็นนักกีฬา"
+
+msgid "battleResult/personal/label"
+msgstr "คะแนนจัดอันดับ"
+
+msgid "battleResult/personal/tooltip/descr"
+msgstr "เป็นเครื่องสะท้อนความก้าวหน้าปัจจุบันของผู้เล่นในระบบการจัดอันดับ คะแนนจัดอันดับสามารถได้รับหรือเสียไปโดยขึ้นกับความสำเร็จของคุณในรูปแบบ"
+
+msgid "battleResult/personal/tooltip/loseDescr"
+msgstr "• การแพ้/เสมอในการรบของรูปแบบ\n• การถูกลงโทษ\n• อันดับไม่เคลื่อนไหว"
+
+msgid "battleResult/personal/tooltip/loseTitle"
+msgstr "ทำการลดคะแนนจัดอันดับสำหรับ:"
+
+msgid "battleResult/personal/tooltip/title"
+msgstr "คะแนนจัดอันดับ"
+
+msgid "battleResult/qualification/descr/main"
+msgstr "การรบคัดเลือก"
+
+msgid "battleResult/qualification/descr/stats"
+msgstr "%(battleNumber)s — %(battleResult)s"
+
+msgid "battleResult/qualification/title"
+msgstr "การคัดเลือก"
+
+msgid "battleResult/subTask/descr/getEliteRating"
+msgstr "ได้รับคะแนนจัดอันดับ ในการป้องกันอันดับตำนานของคุณ ให้รักษาตำแหน่งให้อยู่ใน %(topPercentage)d%% ของผู้เล่นอันดับสูงสุดในกระดานผู้นำ"
+
+msgid "battleResult/subTask/descr/getMasterRating"
+msgstr "ได้รับคะแนนจัดอันดับ ในการได้รับอันดับตำนาน ให้คุณเป็นหนึ่งใน %(topPercentage)d%% ของผู้เล่นอันดับสูงสุดในกระดานผู้นำ"
+
+msgid "battleResult/subTask/descr/getRating"
+msgstr "ได้รับคะแนนจัดอันดับ"
+
+msgid "battleResult/subTask/descr/loseEliteRating"
+msgstr "เสียคะแนนจัดอันดับไป ในการป้องกันอันดับตำนานของคุณ ให้รักษาตำแหน่งให้อยู่ใน %(topPercentage)d%% ของผู้เล่นอันดับสูงสุดในกระดานผู้นำ"
+
+msgid "battleResult/subTask/descr/loseMasterRating"
+msgstr "เสียคะแนนจัดอันดับไป ในการได้รับอันดับตำนาน ให้คุณเป็นหนึ่งใน %(topPercentage)d%% ของผู้เล่นอันดับสูงสุดในกระดานผู้นำ"
+
+msgid "battleResult/subTask/descr/loseRating"
+msgstr "เสียคะแนนจัดอันดับ"
+
+msgid "battleResult/subTask/rating"
+msgstr "คะแนนจัดอันดับ: %(rating)d"
+
+msgid "battleResult/subTask/title/decrease"
+msgstr "คุณถูกลดอันดับเป็น %(division)s %(rank)s"
+
+msgid "battleResult/subTask/title/noRaise"
+msgstr "%(rank)s %(division)s"
+
+msgid "battleResult/subTask/title/raise"
+msgstr "คุณถูกเพิ่มอันดับเป็น %(division)s %(rank)s!"
+
+msgid "battlesIndicatorTooltip/day/heading"
+msgstr "การรบที่เข้าร่วม (วัน): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/listHeading"
+msgstr "โดยรวม:"
+
+msgid "battlesIndicatorTooltip/season/heading"
+msgstr "การรบที่เข้าร่วม (ฤดูกาล): %(battlesCount)s"
+
+msgid "battlesIndicatorTooltip/soloBattlesCount"
+msgstr "เดี่ยว/หมวดรถถัง: %(soloBattlesCount)s"
+
+msgid "battlesIndicatorTooltip/superPlatoonBattlesCount"
+msgstr "หมวดรถถังใหญ่: %(superPlatoonBattlesCount)s"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft/first"
+msgid_plural "plural/calendarDay/timeLeft/first"
+msgstr[0] "ฤดูกาลแห่งมังกรน้ำเงินจะมีระยะเวลา %(days)d วัน"
+msgstr[1] "ฤดูกาลแห่งมังกรน้ำเงินจะมีระยะเวลา %(days)d วัน"
+msgstr[2] "ฤดูกาลแห่งมังกรน้ำเงินจะมีระยะเวลา %(days)d วัน"
+
+msgid "calendarDay/timeLeft/second"
+msgid_plural "plural/calendarDay/timeLeft/second"
+msgstr[0] "ฤดูกาลแห่งมังกรโลหิตจะมีระยะเวลา %(days)d วัน"
+msgstr[1] "ฤดูกาลแห่งมังกรโลหิตจะมีระยะเวลา %(days)d วัน"
+msgstr[2] "ฤดูกาลแห่งมังกรโลหิตจะมีระยะเวลา %(days)d วัน"
+
+msgid "calendarDay/timeLeft/third"
+msgid_plural "plural/calendarDay/timeLeft/third"
+msgstr[0] "ฤดูกาลแห่งมังกรหยกจะมีระยะเวลา %(days)d วัน"
+msgstr[1] "ฤดูกาลแห่งมังกรหยกจะมีระยะเวลา %(days)d วัน"
+msgstr[2] "ฤดูกาลแห่งมังกรหยกจะมีระยะเวลา %(days)d วัน"
+
+msgid "calendarDay/title"
+msgstr "หมายกำหนด"
+
+msgid "carousel/banned"
+msgstr "แบนแล้ว"
+
+msgid "claimRewards/button"
+msgstr "รับรางวัล"
+
+msgid "claimRewards/rewardsUnavailable"
+msgstr "การดำเนินการนี้ไม่มีให้ชั่วคราวอันเนื่องด้วยเหตุทางเทคนิค ทางเรากำลังดำเนินการแก้ไขอยู่"
+
+msgid "closeButtonLabel"
+msgstr "ปิด"
+
+msgid "controls/compare"
+msgstr "เพิ่มเข้าการเปรียบเทียบ"
+
+msgid "controls/preview"
+msgstr "ตัวอย่าง"
+
+msgid "countDown/text"
+msgstr "กิจกรรมจะเริ่มขึ้นใน:\n%(timeLeft)s"
+
+msgid "countdown/lastMinute"
+msgstr "<1 นาที"
+
+msgid "crewMembersTooltip/description"
+msgstr "พลรถถังพิเศษนี้ประกอบด้วยผู้การจากทั่วทุกมุมโลกที่รวมตัวกันภายใต้การบัญชาการของผู้บัญชาการของตน ทุกคนมีพี่น้องร่วมรบเป็นความสามารถศูนย์และมีประสบการณ์พลรถถังมากพอที่จะฝึกอีกสองความสามารถทำให้พวกเขาเพิ่มสมรรถนะของพาหนะได้สูงขึ้นอีกทั้งยังมีรูปแบบของตัวเองในสนามรบ"
+
+msgid "crewMembersTooltip/perks"
+msgstr "ความสามารถ"
+
+msgid "crewMembersTooltip/subHeading"
+msgstr "การบุกรุก ปีแห่งมังกร"
+
+msgid "crewMembersTooltip/zeroPerks"
+msgstr "ความสามารถศูนย์"
+
+msgid "damageIndicatorTooltip/damage/day/heading"
+msgstr "ความเสียหายเฉลี่ย (วัน): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damage/description"
+msgstr "อัตราความเสียหายทั้งหมดที่ทำได้ต่อการรบที่เข้าร่วม"
+
+msgid "damageIndicatorTooltip/damage/season/heading"
+msgstr "ความเสียหายเฉลี่ย (ฤดูกาล): %(averageDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/day/heading"
+msgstr "สถิติความเสียหายประจำวัน: %(recordDamageDealt)s"
+
+msgid "damageIndicatorTooltip/damageRecord/description"
+msgstr "ความเสียหายที่ทำได้สูงสุดในการรบด้วย %(vehicleName)s"
+
+msgid "damageIndicatorTooltip/damageRecord/season/heading"
+msgstr "สถิติความเสียหายประจำฤดูกาล: %(recordDamageDealt)s"
+
+msgid "dash"
+msgstr "—"
+
+msgid "dataError/description"
+msgstr "ทางเราต้องขออภัยในความไม่สะดวกเป็นการชั่วคราว โปรดลองปรับหน้าดังกล่าวภายหลัง"
+
+msgid "dataError/title"
+msgstr "เกิดข้อผิดพลาดในการโหลดข้อมูล"
+
+msgid "dayTooltip/day"
+msgstr "วัน %(index)s"
+
+msgid "dayTooltip/dayNoBattles"
+msgstr "วัน %(index)s: ไม่มีการรบ"
+
+msgid "dayTooltip/noBattles"
+msgstr "แม้หวังตั้งสงบ จงเตรียมรบให้พร้อมสรรพ์"
+
+msgid "dayTooltip/rankInactivity"
+msgstr "อันดับไม่เคลื่อนไหว: %(penalty)s"
+
+msgid "dayTooltip/rankInactivityPenalty"
+msgid_plural "dayTooltip/rankInactivityPenalty"
+msgstr[0] "%(pointsCount)s คะแนนจัดอันดับ"
+msgstr[1] "%(pointsCount)s คะแนนจัดอันดับ"
+msgstr[2] "%(pointsCount)s คะแนนจัดอันดับ"
+
+msgid "dayTooltip/ratingDiff"
+msgstr "การเปลี่ยนคะแนนอันดับ: %(diff)s"
+
+msgid "dayTooltip/today"
+msgstr "วัน %(index)s (วันนี้)"
+
+msgid "dayTooltip/todayNoBattles"
+msgstr "วัน %(index)s: ไม่มีการรบในวันนี้"
+
+msgid "division/A"
+msgstr "A"
+
+msgid "division/B"
+msgstr "B"
+
+msgid "division/C"
+msgstr "C"
+
+msgid "division/D"
+msgstr "D"
+
+msgid "division/E"
+msgstr "E"
+
+msgid "division/note"
+msgstr "ดิวิชัน"
+
+msgid "division/text"
+msgstr "ดิวิชัน %(division)s"
+
+msgid "divisionTooltip/description"
+msgstr "ดิวิชันนี้มีให้กับผู้เล่นที่มีคะแนนจัดอันดับ {eeede9e6_Open}%(fromScore)&nbsp;ถึง&nbsp;%(toScore){eeede9e6_Close}&nbsp;"
+
+msgid "divisionTooltip/heading"
+msgstr "ดิวิชัน %(divisionName)s"
+
+msgid "entryPoint/points"
+msgstr "คะแนนจัดอันดับ"
+
+msgid "entryPoint/pointsCounter"
+msgstr "%(score)s%(divider)s%(scoreToNextDivision)s"
+
+msgid "entryPoint/qualification/battles"
+msgstr "การรบที่เข้าร่วม"
+
+msgid "entryPoint/qualification/battlesCounter"
+msgstr "%(battleIcon)s%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "entryPoint/qualification/waiting"
+msgstr "%(timer)s ผลกำลังมา..."
+
+msgid "entryPoint/qualification/waitingShort"
+msgstr "%(timer)s ผลกำลังมา"
+
+msgid "entryPointTooltip/description"
+msgstr "รูปแบบการแข่งขันที่เป็นการรบแบบ 7ต่อ7 ด้วยพาหนะระดับ %(levels)s ไต่ผ่านอันดับต่างๆเพื่อรับ องค์ประกอบปรับแต่งเฉพาะ, พาหนะ, พันธบัตรและรางวัลมีค่าอื่นๆ"
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "รูปแบบ"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "รูปแบบเกม %(mode)s คลิกเพื่อสำรวจ"
+
+msgid "entryPointTooltip/status/active"
+msgstr "มีให้ %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "การหยุดยิง %(timer)s"
+
+msgid "entryPointTooltip/status/notStarted"
+msgstr "จะมีให้:\n%(timer)s"
+
+msgid "featureName"
+msgstr "การบุกรุก"
+
+msgid "featureNameCapitalized"
+msgstr "การบุกรุก"
+
+msgid "fifthRankTooltip/description"
+msgstr "อันดับ{eeede9e6_Open}แชมป์{eeede9e6_Close}นั้นมอบให้กับผู้เล่นที่ได้รับคะแนนจัดอันดับอย่างน้อย{eeede9e6_Open}%(fromScore){eeede9e6_Close}"
+
+msgid "forVehicle"
+msgstr "สำหรับ %(vehicleName)s"
+
+msgid "generalRankTooltip/body/first"
+msgstr "อันดับ{eeede9e6_Open}เหล็ก{eeede9e6_Close} นั้นมอบให้กับผู้เล่นที่ได้รับคะแนนจัดอันดับ{eeede9e6_Open}%(fromScore) ถึง %(toScore){eeede9e6_Close}"
+
+msgid "generalRankTooltip/body/fourth"
+msgstr "อันดับ{eeede9e6_Open}ทอง{eeede9e6_Close} นั้นมอบให้กับผู้เล่นที่ได้รับคะแนนจัดอันดับ{eeede9e6_Open}%(fromScore) ถึง %(toScore){eeede9e6_Close}"
+
+msgid "generalRankTooltip/body/second"
+msgstr "อันดับ{eeede9e6_Open}ทองแดง{eeede9e6_Close} นั้นมอบให้กับผู้เล่นที่ได้รับคะแนนจัดอันดับ{eeede9e6_Open}%(fromScore) ถึง %(toScore){eeede9e6_Close}"
+
+msgid "generalRankTooltip/body/third"
+msgstr "อันดับ{eeede9e6_Open}เงิน{eeede9e6_Close} นั้นมอบให้กับผู้เล่นที่ได้รับคะแนนจัดอันดับ{eeede9e6_Open}%(fromScore) ถึง %(toScore){eeede9e6_Close}"
+
+msgid "generalRankTooltip/subheading"
+msgstr "ประกอบด้วยดิวิชัน: %(divisions)s"
+
+msgid "infoPageButtonLabel"
+msgstr "เกี่ยวกับกิจกรรม"
+
+msgid "intro/confirmButton"
+msgstr "รับทราบ!"
+
+msgid "intro/description/banPhase"
+msgstr "แต่ละทีมสามารถแบนพาหนะจากการรบได้ ประสานการลงคะแนนกับพันธมิตรเพื่อปลดยานเกราะที่เป็นภัย กับคุณที่สุดหรือเตรียมรายชื่อยานเกราะที่ข้าศึกไม่คาดเอาไว้ ถ้าพาหนะของคุณถูกแบน คุณสามารถเลือกจากพาหนะเช่าที่ปรับเอาไว้ล่วงหน้าหลายคันได้แทน"
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "รูปแบบนี้มีตัวปรับที่เปลี่ยนค่าบางอย่างของพาหนะเช่นความทนทานพาหนะ, เวลาพักใช้ยุทธปัจจัย, เวลาที่ยังปรากฎและอื่นๆอีกมากมาย"
+
+msgid "intro/description/pointsOfInterest"
+msgstr "ทันทีที่คุณยึดบางพื้นที่ของแผนที่ได้ คุณจะสามารถใช้ทักษะยุทธวิธ๊ได้ จุดสนใจจะมีสองชนิดด้วยกันคือ: กองบัญชาการปืนใหญ่ที่ทำให้คุณสามารถสั่งปืนอัตตาจรโจมตีพื้นที่ตามกำหนดและศูนย์สื่อสารที่จะทำการตรวจจับพาหนะข้าศึกทั้งหมด การมีอยู่และตำแหน่งของจุดสนใจเหล่านี้สามารถเปลี่ยนไปในแต่ละแผนที่ได้"
+
+msgid "intro/description/qualification"
+msgid_plural "plural/intro/description/qualification"
+msgstr[0] "เข้าการรบคัดเลือก %(count)s ครั้งเพื่อกำหนดระดับทักษะและอันดับของคุณ เมื่อผ่านแล้ว คุณจะได้รับรางวัลสำหรับอันดับที่่คุณได้และอันดับอื่นๆที่ผ่านมาก่อน\n\nการหนีการรบหรือการเสมอในการคัดเลือกจะถือว่าเป็นการแพ้"
+msgstr[1] "เข้าการรบคัดเลือก %(count)s ครั้งเพื่อกำหนดระดับทักษะและอันดับของคุณ เมื่อผ่านแล้ว คุณจะได้รับรางวัลสำหรับอันดับที่่คุณได้และอันดับอื่นๆที่ผ่านมาก่อน\n\nการหนีการรบหรือการเสมอในการคัดเลือกจะถือว่าเป็นการแพ้"
+msgstr[2] "เข้าการรบคัดเลือก %(count)s ครั้งเพื่อกำหนดระดับทักษะและอันดับของคุณ เมื่อผ่านแล้ว คุณจะได้รับรางวัลสำหรับอันดับที่่คุณได้และอันดับอื่นๆที่ผ่านมาก่อน\n\nการหนีการรบหรือการเสมอในการคัดเลือกจะถือว่าเป็นการแพ้"
+
+msgid "intro/description/ranks"
+msgstr "ระบบที่เป็นการสะท้อนทักษะของผู้เล่น ก้าวหน้าผ่านอันดับจากเหล็กถึงตำนานและรับรางวัลที่มีค่าต่างๆ ต่อสู็ตลอดช่วงปีของมังกรแล้วรับรางวัลเฉพาะประจำปี"
+
+msgid "intro/description/roleSkills"
+msgstr "พาหนะแต่ละคันต่างก็มีความสามารถพิเศษที่มีระดับใช้งานสามขั้นโดยขึ้นกับบทบาทของพาหนะ ยิ่งระดับใช้งานสูงเท่าใดเมื่อใช้งาน ผลที่เกิดขึ้นก็จะเพิ่มขึ้นตาม ระดับใช้งานจะขึ้นกับจำนวนคะแนนเกียรติภูมิที่สามารถหาได้จากการแสดงผลงานที่ดีในการรบ, การยึดจุดสนใจและการใช้ทักษะยุทธวิธีและอื่นๆ\n\nโปรดอ่านกติกาของรูปแบบเพื่อเรียนรู้วิธีอื่นๆที่ทำให้คุณสามารถได้รับคะแนนเกียรติภูมิมากกว่าเดิม"
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "คุณสามารถออกรบได้ด้วยพาหนะวิจัยได้ระดับ %(levels)s (ยกเว้นปืนอัตตาจร) รวมไปถึงพาหนะนักสะสมและพาหนะช่วงพิเศษบางคัน เตรียมพาหนะของคุณในโรงรถแล้วเลือกคันที่ดีที่สุดตามคุณลักษณะของแผนที่ที่กำหนดไว้เมื่อคุณเข้าการรบ เมื่อทำการเลือกพาหนะ คุณยังต้องพิจารณาพาหนะที่พันธมิตรของคุณเลือกเอาไว้อีกด้วย"
+
+msgid "intro/title/banPhase"
+msgstr "การแบนพาหนะ"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "ตัวปรับการบุกรุก"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "จุดสนใจ"
+
+msgid "intro/title/qualification"
+msgstr "การคัดเลือก"
+
+msgid "intro/title/ranks"
+msgstr "ระบบการจัดอันดับ"
+
+msgid "intro/title/roleSkills"
+msgstr "ทักษะบทบาท"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "เลือกพาหนะสำหรับแผนที่เฉพาะ"
+
+msgid "lastUpdateNote/info"
+msgstr "ปรับใหม่: %(date)s"
+
+msgid "lastUpdateNote/lastBestUserPoints/description"
+msgstr "คะแนนจัดอันดับของผู้เล่นอันดับล่างสุดของอันดับตำนาน\nจะปรับในทุกๆ%(count)sนาที"
+
+msgid "lastUpdateNote/lastBestUserPoints/update"
+msgstr "กำลังปรับข้อมูล..."
+
+msgid "lastUpdateNote/ratingPositions/description"
+msgstr "กระดานผู้นำจะทำการปรับในทุกๆ %(count)s นาที"
+
+msgid "lastUpdateNote/tooltip/info"
+msgstr "ปรับล่าสุด: %(date)s"
+
+msgid "leaderboard/currentPosition/body"
+msgstr "ตำแหน่งของฉัน"
+
+msgid "leaderboard/currentPosition/none"
+msgstr "ได้รับอันดับแชมป์หรือตำนานเพื่อเข้าสู่กระดานผู้นำ"
+
+msgid "leaderboard/error/buttonText"
+msgstr "ปรับ"
+
+msgid "leaderboard/noRecords/subtitle"
+msgstr "ผู้เล่นในอันดับแชมป์และตำนานนั้นจะได้เข้าสู่กระดานผู้นำ หาคะแนนจัดอันดับ {eeede9e6_Open}%(pointsCount)s{eeede9e6_Close}แล้วไปให้ถึงยอดกระดานกัน!"
+
+msgid "leaderboard/noRecords/title"
+msgstr "ไม่มีผู้เล่นในกระดานผู้นำของฤดูกาลปัจจุบัน"
+
+msgid "leaderboard/table/header/battlesCount"
+msgstr "การรบที่ได้เข้าร่วม"
+
+msgid "leaderboard/table/header/order"
+msgstr "#"
+
+msgid "leaderboard/table/header/player"
+msgstr "ชื่อผู้เล่น"
+
+msgid "leaderboard/table/header/score"
+msgstr "คะแนนจัดอันดับ"
+
+msgid "leaderboard/table/tooltip/battlesCount/body"
+msgstr "จำนวนการรบที่ผู้เล่นเข้าร่วมในการบุกรุกในช่วงฤดูกาลปัจจุบัน"
+
+msgid "leaderboard/table/tooltip/battlesCount/header"
+msgstr "การรบที่ได้เข้าร่วม"
+
+msgid "leaderboard/table/tooltip/order/body"
+msgstr "ตำแหน่งของผู้เล่นในการจัดอันดับ"
+
+msgid "leaderboard/table/tooltip/order/header"
+msgstr "ตำแหน่ง"
+
+msgid "leaderboard/table/tooltip/player/body"
+msgstr "ชื่อของผู้เล่นที่มีตำแหน่งในการจัดอันดับ"
+
+msgid "leaderboard/table/tooltip/player/header"
+msgstr "ชื่อผู้เล่น"
+
+msgid "leaderboard/table/tooltip/score/body"
+msgstr "จำนวนคะแนนจัดอันดับที่ได้รับในฤดูกาลปัจจุบัน"
+
+msgid "leaderboard/table/tooltip/score/header"
+msgstr "คะแนนจัดอันดับ"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "membersWindow/memberCountDropdown/description"
+msgstr "ผู้เล่นในหมวดรถถังดังกล่าว"
+
+msgid "noVehicles/howTo/premium"
+msgstr "ใช้บัญชีพิเศษ WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "เปิดใช้กำลังสำรองส่วนตัว"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "ปฏิบัติภารกิจให้สำเร็จ"
+
+msgid "noVehicles/howTo/title"
+msgstr "วิธีใดเป็นวิธีที่เร็วที่สุดในการไปถึงพาหนะระดับ %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "ในการเข้าร่วมการบุกรุก คุณจำเป็นต้องมีพาหนะระดับ %(levels)s อย่างน้อยหนึ่งคันในโรงรถของคุณที่เหมาะกับรูปแบบ\nคุณมีได้พาหนะวิจัยแล้วระดับ %(levels)s หนึ่งคันที่ยังไม่ได้ทำการซื้อมา"
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "ในการเข้าร่วมการบุกรุก คุณจำเป็นต้องมีพาหนะระดับ %(levels)s อย่างน้อยหนึ่งคันในโรงรถของคุณที่เหมาะกับรูปแบบ\nคุณมีพาหนะระดับ %(levels)s หนึ่งคันที่สามารถกู้คืนได้"
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "ในการเข้าร่วมการบุกรุก คุณจำเป็นต้องมีพาหนะระดับ %(levels)s อย่างน้อยหนึ่งคันในโรงรถของคุณที่เหมาะกับรูปแบ"
+
+msgid "noVehicles/title"
+msgstr "ไม่มีพาหนะที่เหมาะในโรงรถของคุณ"
+
+msgid "page/heading/leaderboard"
+msgstr "กระดานผู้นำ"
+
+msgid "page/heading/progression"
+msgstr "ระบบการจัดอันดับ"
+
+msgid "page/heading/qualification"
+msgstr "การคัดเลือก"
+
+msgid "page/heading/rankRewards"
+msgstr "รางวัลสำหรับอันดับ"
+
+msgid "page/heading/shop"
+msgstr "ร้านค้าการบุกรุก"
+
+msgid "page/heading/weeklyQuests"
+msgstr "ภารกิจประจำสัปดาห์"
+
+msgid "page/heading/yearlyRewards"
+msgstr "รางวัลประจำปี"
+
+msgid "page/heading/yearlyStatistics"
+msgstr "สถิติประจำปี"
+
+msgid "pagination/dots"
+msgstr "…"
+
+msgid "pagination/next"
+msgstr "เดินหน้า"
+
+msgid "pagination/prev"
+msgstr "กลับ"
+
+msgid "pbs/bans/title"
+msgstr "พาหนะถูกแบน"
+
+msgid "pbs/missionsProgress/customization/title"
+msgstr "รูปแบบสองมิติการบุกรุก"
+
+msgid "pbs/missionsProgress/notificationTabs/customization"
+msgstr "ภารกิจรูปแบบสองมิติสำเร็จแล้ว!"
+
+msgid "pbs/missionsProgress/notificationTabs/tokenRewards"
+msgstr "ภารกิจประจำสัปดาห์ #%(count)s สำเร็จแล้ว!"
+
+msgid "pbs/missionsProgress/notificationTabs/weekly"
+msgstr "ผ่านภารกิจประจำสัปดาห์แล้ว!"
+
+msgid "pbs/missionsProgress/weekly/title"
+msgstr "การบุกรุกประจำสัปดาห์"
+
+msgid "pbs/overview/extraLeaveStatus/lose"
+msgstr "การแพ้ เพราะคุณ"
+
+msgid "pbs/overview/extraLeaveStatus/tie"
+msgstr "การเสมอ เพราะคุณ"
+
+msgid "pbs/overview/extraLeaveStatus/win"
+msgstr "การชนะ แต่คุณ"
+
+msgid "pbs/overview/highRank/promoted"
+msgstr "เลื่อนขั้นเป็น %(rank)s"
+
+msgid "pbs/overview/lowRank/default"
+msgstr "%(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/demoted"
+msgstr "ถูกลดเป็น %(rank)s, %(division)s"
+
+msgid "pbs/overview/lowRank/promoted"
+msgstr "ได้เลื่อนเป็น %(rank)s, %(division)s"
+
+msgid "pbs/overview/qualification/description"
+msgstr "การรบที่เข้าร่วม"
+
+msgid "pbs/overview/qualification/title"
+msgstr "การคัดเลือก"
+
+msgid "pbs/overview/warning/leave/default"
+msgstr "คุณถูกลงโทษทางวินัย: การทำโทษคะแนนจัดอันดับ"
+
+msgid "pbs/overview/warning/leave/qualification"
+msgstr "คุณถูกลงโทษทางวินัย: หลังจากผ่านการคัดเลือก การจัดอันดับของคุณจะลดลง"
+
+msgid "pbs/rankDescription/fifth"
+msgstr "ในการไปถึงอันดับตำนาน ให้เป็นหนึ่งใน {ede6d9e5_Open}%(topPercentage)% อันดับแรก{ede6d9e5_Close}ของผู้เล่นในกระดานผู้นำ"
+
+msgid "pbs/rankDescription/sixth"
+msgstr "ในการคงอยู่ในอันดับตำนาน ให้เป็นหนึ่งใน {ede6d9e5_Open}%(topPercentage) อันดับแรก%{ede6d9e5_Close}ของผู้เล่นในกระดานผู้นำ"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "ดูที่หน้าเกี่ยวกับการบุกรุกสำหรับรายละเอียด"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "คะแนนเกียรติภูมิ"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "การทำความเสียหาย\nการช่วยชี้เป้า\nการทำลายตีนตะขาบ\nการทำความเสียหายร้ายแรง\nการทำลายพาหนะข้าศึก\nและอื่นๆอีกมาก"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "ทรัพยากรพิเศษนี้มีผลกับจำนวนคะแนนจัดอันดับที่ได้รับและเสียในการรบ คะแนนเกียรติภูมิสามารถได้รับจากการดำเนินการในการรบที่รวมไปถึง:"
+
+msgid "percentage"
+msgstr "%(percentageValue)s%"
+
+msgid "prestigeIndicatorTooltip/prestige/day/heading"
+msgstr "คะแนนเกียรติภูมิเฉลี่ย (วัน): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestige/description"
+msgstr "อัตราส่วนของคะแนนเกียรติภูมิทั้งหมดที่ได้จากการรบที่เข้าร่วม"
+
+msgid "prestigeIndicatorTooltip/prestige/season/heading"
+msgstr "คะแนนเกียรติภูมิเฉลี่ย (ฤดูกาล): %(averagePrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/day/heading"
+msgstr "สถิติคะแนนเกียรติภูมิประจำวัน: %(recordPrestige)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/description"
+msgstr "คะแนนเกียรติภูมิที่ทำได้สูงสุดในการรบด้วย %(vehicleName)s"
+
+msgid "prestigeIndicatorTooltip/prestigeRecord/season/heading"
+msgstr "สถิติคะแนนเกียรติภูมิฤดูกาล: %(recordPrestige)s"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "ฤดูกาลแห่งมังกรเงินบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "ฤดูกาลแห่งมังกรโลหิตบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "ฤดูกาลแห่งมังกรหยกบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+
+msgid "products/actions/buy"
+msgstr "ซื้อ"
+
+msgid "products/actions/restore"
+msgstr "ไปยังโรงเก็บ"
+
+msgid "products/actions/toCustomization"
+msgstr "ไปยังรูปแบบ"
+
+msgid "products/actions/toHangar"
+msgstr "ดูในโรงรถ"
+
+msgid "products/customizationUnavailable/body"
+msgstr "ไม่สามารถไปยังรูปแบบได้ นี่อาจจะเนื่องด้วย คุณยังไม่ได้มีพาหนะนี้, พาหนะอยู่ในกระบวนรบ, พาหนะอยู่ในการรบหรือจำเป็นต้องทำการซ่อมก่อน"
+
+msgid "products/customizationUnavailable/title"
+msgstr "ไม่มีให้"
+
+msgid "products/discount"
+msgstr "-%(discountPercentage)s%"
+
+msgid "products/discountDescription"
+msgstr "เมื่อเริ่มฤดูกาลถัดไป คุณจะสามารถเข้าถึงสิ่งของและส่วนลดโดยขึ้นกับ{eeede9e6_Open}อันดับ{eeede9e6_Close}{eeede9e6_Open}สูงสุด{eeede9e6_Close}ที่คุณ{eeede9e6_Open}ได้รับ{eeede9e6_Close}"
+
+msgid "products/discountSectionName"
+msgstr "เงื่อนไขการเข้าถึงและส่วนลด"
+
+msgid "products/inProgress"
+msgstr "โปรดรอซักครู่ การซื้อของคุณกำลังถูกประมวล"
+
+msgid "products/limitedQuantitySeason"
+msgstr "จำนวนครั้งที่ซื้อได้ต่อฤดูกาล: %(count)s"
+
+msgid "products/message/notEnough"
+msgstr "เงินทุนไม่พอทำการซื้อ"
+
+msgid "products/message/rankAccess"
+msgstr "เงื่อนไขการซื้อ\n%(rank)s"
+
+msgid "products/newLabel"
+msgstr "ใหม่"
+
+msgid "products/priceSectionName"
+msgstr "ราคา"
+
+msgid "products/productAccess"
+msgstr "อันดับ\nเข้าถึง"
+
+msgid "products/purchased"
+msgstr "ซื้อแล้ว"
+
+msgid "products/rankAccess"
+msgstr "อันดับเข้าถึง %(rank)s"
+
+msgid "products/readyToRestore"
+msgstr "มีการกู้คืนได้"
+
+msgid "products/readyToRestoreDescription"
+msgstr "มีให้กู้คืนในโรงเก็บ"
+
+msgid "products/style3d"
+msgstr "รูปแบบสามมิติ %(name)s"
+
+msgid "progressionPage/chartHeader/backToGeneral"
+msgstr "กลับไปยังสถิติฤดูกาล"
+
+msgid "progressionPage/chartHeader/general"
+msgstr "สถิติฤดูกาล"
+
+msgid "progressionPage/chartHeader/statisticDay"
+msgstr "สถิติของวัน %(day)s"
+
+msgid "progressionPage/chartHeader/todayStatistic"
+msgstr "สถิติของวันนี้"
+
+msgid "progressionPage/chartHeader/tooltip/info"
+msgstr "แต่ละแถวแสดงข้อมูลของช่วงระหว่างการรบหลักในวันที่เลือกไว้และเวลารบหลักของวันถัดมา ในบางกรณี ก็อาจจะรวมการรบของสองวันปฏิทินเข้าด้วย"
+
+msgid "progressionPage/chartHeader/tooltip/todayInfo"
+msgstr "แต่ละแถวแสดงข้อมูลของช่วงระหว่างการรบหลักในวันที่เลือกไว้และเวลารบหลักของวันถัดมา ในบางกรณี ก็อาจจะรวมการรบของสองวันปฏิทินเข้าด้วย"
+
+msgid "progressionPage/chartHeader/tooltip/update"
+msgstr "ส่วนนี้จะปรับก็ต่อเมื่อมีข้อมูลใหม่ให้ คุณสามารถขอการปรับได้ด้วยการกดปุ่มปรับใหม่"
+
+msgid "progressionPage/chartHeader/update"
+msgstr "ปรับแล้ว: %(time)s %(info)s"
+
+msgid "progressionPage/customization/completed"
+msgstr "ยินดีด้วย!"
+
+msgid "progressionPage/customization/completedDescription"
+msgstr "คุณได้ผ่านภารกิจรูปแบบสองมิติทั้งหมดแล้ว"
+
+msgid "progressionPage/customization/counter"
+msgstr "%(currentProgress)s / %(maxProgress)s"
+
+msgid "progressionPage/customization/headingTooltip"
+msgstr "ชุดภารกิจเพื่อจะปลดล็อคองค์ประกอบใหม่สำหรับรูปแบบสองมิติก้าวหน้าของฤดูกาลปัจจุบัน"
+
+msgid "progressionPage/customization/tasks"
+msgid_plural "progressionPage/customization/tasks"
+msgstr[0] "ภารกิจรูปแบบสองมิติ: %(taskNumber)s"
+msgstr[1] "ภารกิจรูปแบบสองมิติ: %(taskNumber)s"
+msgstr[2] "ภารกิจรูปแบบสองมิติ: %(taskNumber)s"
+
+msgid "progressionPage/customization/tasksDone"
+msgstr "ภารกิจรูปแบบสองมิติ"
+
+msgid "progressionPage/customization/toStyle"
+msgstr "ไปยังรูปแบบ"
+
+msgid "progressionPage/error/noStylesForVehicle"
+msgstr "รูปแบบทั้งหมดกำลังถูกใช้กับพาหนะที่ไม่มีให้"
+
+msgid "progressionPage/error/noVehiclesForStyle"
+msgstr "ไม่มีพาหนะให้ใช้รูปแบบด้วย"
+
+msgid "progressionPage/error/refresh"
+msgstr "ปรับใหม่"
+
+msgid "progressionPage/error/refreshing"
+msgstr "กำลังปรับใหม่..."
+
+msgid "progressionPage/statistic/averageDamage"
+msgstr "ความเสียหายเฉลี่ย"
+
+msgid "progressionPage/statistic/averagePrestigePoints"
+msgstr "ค่าเกียรติภูมิเฉลี่ย"
+
+msgid "progressionPage/statistic/dayRecordDescription"
+msgstr "การเปลี่ยนอันดับ: %(diff)s"
+
+msgid "progressionPage/statistic/seasonRecordDescription"
+msgstr "ทำสถิติเมื่อ %(seasonRecordDescriptionDay)s"
+
+msgid "progressionPage/statistic/seasonRecordDescriptionDay"
+msgstr "วัน %(day)s"
+
+msgid "progressionPage/toAllStatistic"
+msgstr "ไปยังสถิติทั้งหมด"
+
+msgid "progressionPage/tooltips/body/assist"
+msgstr "ประกอบด้วย:\n • ความเสียหายจากการชี้เป้า (รวมไปถึงความเสียหายจากการใช้ทักษะช่วย)\n • ความเสียหายจากการทำลายตีนตะขาบ และทำให้ข้าศึกแล่นไม่ได้ของคุณ (รวมไปถึงความเสียหายจากการใช้ทักษะช่วย)\n • ความเสียหายที่พันธมิตรทำได้ด้วยการใช้ทักษะช่วย\n • ความเสียหายที่พันธมิตรทำต่อข้าศึกที่มึนงง (รวมไปถึงการมึนงงด้วยการใช้ทักษะของคุณ)"
+
+msgid "progressionPage/tooltips/body/battles"
+msgstr "จำนวนการรบที่เข้าร่วมทั้งหมด"
+
+msgid "progressionPage/tooltips/body/damage"
+msgstr "อัตราส่วนความเสียหายต่อการรบที่เข้าร่วม"
+
+msgid "progressionPage/tooltips/body/destruction"
+msgstr "อัตราการทำลายพาหนะข้าศึกต่อจำนวนครั้งที่พาหนะผู้เล่นถูกทำลาย"
+
+msgid "progressionPage/tooltips/body/maxFrags"
+msgstr "อัตราความเสียหายที่ทำได้ต่อความเสียหายที่ได้รับ"
+
+msgid "progressionPage/tooltips/body/prestigePoints"
+msgstr "อัตราส่วนของคะแนนเกียรติภูมิทั้งหมดที่ได้จากการรบที่เข้าร่วม"
+
+msgid "progressionPage/tooltips/body/vehicles"
+msgstr "พาหนะที่เข้าร่วมการรบมากที่สุด"
+
+msgid "progressionPage/tooltips/body/winSeries"
+msgstr "อัตราชัยชนะทั้งหมด"
+
+msgid "progressionPage/tooltips/header/assist"
+msgstr "ความเสียหายโดยเฉลี่ยจากการช่วยของคุณ"
+
+msgid "progressionPage/tooltips/header/battles"
+msgstr "การรบ"
+
+msgid "progressionPage/tooltips/header/damage"
+msgstr "ความเสียหายเฉลี่ยที่ทำได้"
+
+msgid "progressionPage/tooltips/header/destruction"
+msgstr "อัตราส่วนการทำลาย"
+
+msgid "progressionPage/tooltips/header/maxFrags"
+msgstr "อัตราส่วนความเสียหาย"
+
+msgid "progressionPage/tooltips/header/prestigePoints"
+msgstr "จำนวนคะแนนเกียรติภูมิเฉลี่ยต่อการรบ"
+
+msgid "progressionPage/tooltips/header/vehicles"
+msgstr "ชื่อพาหนะ"
+
+msgid "progressionPage/tooltips/header/winSeries"
+msgstr "ชัยชนะ"
+
+msgid "progressionPage/vehicleStatistic"
+msgstr "สถิติพาหนะ:"
+
+msgid "progressionTableTooltip/pointsFrom"
+msgstr "%(from)s+"
+
+msgid "progressionTableTooltip/pointsRange"
+msgstr "%(from)s-%(to)s"
+
+msgid "progressionTableTooltip/rankInactivity/daysLeft"
+msgstr "วันจนกว่าจะลดการจัดอันดับ: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTableTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/active"
+msgstr[0] "การไม่ได้ออกรบในการบุกรุกจะ ทำให้คุณเสียคะแนนจัดอันดับ {eeede9e6_Open}%(count)s{eeede9e6_Close} คะแนน"
+msgstr[1] "การไม่ได้ออกรบในการบุกรุกจะ ทำให้คุณเสียคะแนนจัดอันดับ {eeede9e6_Open}%(count)s{eeede9e6_Close} คะแนน"
+msgstr[2] "การไม่ได้ออกรบในการบุกรุกจะ ทำให้คุณเสียคะแนนจัดอันดับ {eeede9e6_Open}%(count)s{eeede9e6_Close} คะแนน"
+
+msgid "progressionTableTooltip/rankInactivity/description/formula"
+msgid_plural "plural/progressionTableTooltip/rankInactivity/description/formula"
+msgstr[0] "(1&nbsp;การต่อสู้&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;คะแนนความเคลื่อนไหว)"
+msgstr[1] "(1&nbsp;การต่อสู้&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;คะแนนความเคลื่อนไหว)"
+msgstr[2] "(1&nbsp;การต่อสู้&nbsp;=&nbsp;{white_Open}%(count)s{white_Close}&nbsp;คะแนนความเคลื่อนไหว)"
+
+msgid "progressionTableTooltip/rankInactivity/description/notActive"
+msgstr "คุณจะไม่เสียคะแนนจัดอันดับจากการไม่ได้เล่นในรูปแบบที่อันดับปัจจุบันของคุณ แต่คุณอาจจะเสียถ้าคุณไปถึงอันดับดังต่อไปนี้: %(rankList)s"
+
+msgid "progressionTableTooltip/rankInactivity/header/active"
+msgstr "อันดับของคุณได้รับผลจากการที่ไม่มีความเคลื่อนไหว"
+
+msgid "progressionTableTooltip/rankInactivity/header/notActive"
+msgstr "อันดับของคุณไม่ได้รับผลจากการที่ไม่มีความเคลื่อนไหว"
+
+msgid "progressionTableTooltip/table/heading/rank"
+msgstr "อันดับ"
+
+msgid "progressionTableTooltip/topRank"
+msgstr "ผู้เล่น %(topPercentage)s% สูงสุดในกระดานผู้นำ"
+
+msgid "progressionTooltip/division"
+msgstr "ดิวิชัน %(divisionName)s"
+
+msgid "progressionTooltip/divisionDescription"
+msgstr "ดิวิชันนี้มีให้กับผู้เล่นที่มีคะแนนจัดอันดับ {eeede9e6_Open}%(fromScore) ถึง %(toScore){eeede9e6_Close}"
+
+msgid "progressionTooltip/info/fifth"
+msgstr "อันดับแชมป์นั้นมอบให้กับผู้เล่นที่ได้รับคะแนนจัดอันดับอย่างน้อย {eeede9e6_Open}%(fromScore){eeede9e6_Close} คะแนน"
+
+msgid "progressionTooltip/info/sixth"
+msgstr "อันดับตำนานนั้นมอบให้กับ{eeede9e6_Open}%(topPercentage)อันดับแรก%{eeede9e6_Close}ของผู้เล่นในกระดานผู้นำ"
+
+msgid "progressionTooltip/qualification/condition"
+msgid_plural "plural/progressionTooltip/qualification/condition"
+msgstr[0] "ออกรบ %(maxBattlesCount)s ครั้งในรูปแบบเพื่อกำหนดระดับทักษะและอันดับของคุณ"
+msgstr[1] "ออกรบ %(maxBattlesCount)s ครั้งในรูปแบบเพื่อกำหนดระดับทักษะและอันดับของคุณ"
+msgstr[2] "ออกรบ %(maxBattlesCount)s ครั้งในรูปแบบเพื่อกำหนดระดับทักษะและอันดับของคุณ"
+
+msgid "progressionTooltip/qualificationName"
+msgstr "การคัดเลือก"
+
+msgid "progressionTooltip/rankInactivity/daysLeft"
+msgstr "วันจนกว่าจะลดการจัดอันดับ: {eeede9e6_Open}%(rankInactivityCount)s{eeede9e6_Close}"
+
+msgid "progressionTooltip/rankInactivity/description/active"
+msgid_plural "plural/progressionTooltip/rankInactivity/description/active"
+msgstr[0] "การไม่ได้ออกรบในการบุกรุกจะทำให้คุณเสียคะแนนจัดอันดับ {eeede9e6_Open}%(count)s{eeede9e6_Close} คะแนน"
+msgstr[1] "การไม่ได้ออกรบในการบุกรุกจะทำให้คุณเสียคะแนนจัดอันดับ {eeede9e6_Open}%(count)s{eeede9e6_Close} คะแนน"
+msgstr[2] "การไม่ได้ออกรบในการบุกรุกจะทำให้คุณเสียคะแนนจัดอันดับ {eeede9e6_Open}%(count)s{eeede9e6_Close} คะแนน"
+
+msgid "progressionTooltip/rankInactivity/header/active"
+msgstr "%(icon)s การจัดอันดับของคุณได้รับผลจากการที่อันดับไม่เคลื่อนไหว"
+
+msgid "progressionTooltip/rankInactivity/warning"
+msgstr "เล่นก่อนหมดวันเพื่อจะรักษาอันดับของคุณ"
+
+msgid "progressionTooltip/ratingScore"
+msgstr "คะแนนจัดอันดับ"
+
+msgid "purchase/affirmative"
+msgstr "รับทราบ!"
+
+msgid "purchase/cancelButton"
+msgstr "กลับ"
+
+msgid "purchase/confirmButton"
+msgstr "ซื้อ"
+
+msgid "purchase/error/description"
+msgstr "ไม่สามารถทำการซื้อได้ โปรดลองใหม่ภายหลัง"
+
+msgid "purchase/error/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "purchase/noSuitableVehicle"
+msgstr "%(alertIcon)s คุณไม่มีพาหนะเหมาะสมสำหรับรูปแบบนี้ในโรงรถ"
+
+msgid "purchase/price"
+msgstr "ราคาซื้อ:"
+
+msgid "purchase/success/heading"
+msgstr "ขอขอบคุณที่ทำการซื้อ!"
+
+msgid "purchase/success/receiving"
+msgstr "%(icon)s การซื้อดังกล่าวจะถูกส่งไปยังบัญชีของคุณในไม่ช้า"
+
+msgid "purchase/success/style3d"
+msgstr "%(name)sรูปแบบสามมิติสำหรับ%(vehicleName)s"
+
+msgid "purchase/title/style3d"
+msgstr "ซื้อรูปแบบสามมิติ %(name)s?"
+
+msgid "purchase/title/vehicle"
+msgstr "ซื้อ %(name)s?"
+
+msgid "qualification/battlesCounter"
+msgstr "%(battleIcon)s{cream_Open}%(battlesCount)s{cream_Close} / %(maxBattlesCount)s"
+
+msgid "qualification/condition"
+msgid_plural "plural/qualification/condition"
+msgstr[0] "ออกรบ {eeede9_Open}%(maxBattlesCount)s ครั้ง{eeede9_Close}ในรูปแบบเพื่อกำหนดระดับทักษะและอันดับของคุณ"
+msgstr[1] "ออกรบ {eeede9_Open}%(maxBattlesCount)s ครั้ง{eeede9_Close}ในรูปแบบเพื่อกำหนดระดับทักษะและอันดับของคุณ"
+msgstr[2] "ออกรบ {eeede9_Open}%(maxBattlesCount)s ครั้ง{eeede9_Close}ในรูปแบบเพื่อกำหนดระดับทักษะและอันดับของคุณ"
+
+msgid "qualification/conditionTooltip/body"
+msgid_plural "plural/qualification/conditionTooltip/body"
+msgstr[0] "ในการผ่านการคัดเลือก ให้เข้าร่วมการรบ %(maxBattlesCount)s ครั้งและรอให้การคำนวณจัดอันดับเสร็จสิ้น ผลงานการรบของคุณในช่วงการคัดเลือกจะมีผลกับอันดับสุดท้ายที่คุณจะได้รับ\nการหนีการรบในการคัดเลือกจะนำไปสู่ผลงานที่แย่ลงซึ่งเลวร้ายกว่าการแพ้ที่แย่ที่สุด"
+msgstr[1] "ในการผ่านการคัดเลือก ให้เข้าร่วมการรบ %(maxBattlesCount)s ครั้งและรอให้การคำนวณจัดอันดับเสร็จสิ้น ผลงานการรบของคุณในช่วงการคัดเลือกจะมีผลกับอันดับสุดท้ายที่คุณจะได้รับ\nการหนีการรบในการคัดเลือกจะนำไปสู่ผลงานที่แย่ลงซึ่งเลวร้ายกว่าการแพ้ที่แย่ที่สุด"
+msgstr[2] "ในการผ่านการคัดเลือก ให้เข้าร่วมการรบ %(maxBattlesCount)s ครั้งและรอให้การคำนวณจัดอันดับเสร็จสิ้น ผลงานการรบของคุณในช่วงการคัดเลือกจะมีผลกับอันดับสุดท้ายที่คุณจะได้รับ\nการหนีการรบในการคัดเลือกจะนำไปสู่ผลงานที่แย่ลงซึ่งเลวร้ายกว่าการแพ้ที่แย่ที่สุด"
+
+msgid "qualification/conditionTooltip/header"
+msgstr "กฎการคัดเลือก"
+
+msgid "qualification/counter"
+msgstr "%(battlesCount)s%(divider)s%(maxBattlesCount)s"
+
+msgid "qualification/counterWithDescription"
+msgstr "การรบที่เข้าร่วม"
+
+msgid "qualification/ratingCalculationDescription"
+msgstr "%(timerIcon)s กำลังรอผลการคัดเลือกเพื่อรับอันดับของคุณ"
+
+msgid "qualification/ratingCalculationTooltip"
+msgstr "อาจจะต้องใช้เวลาถึงห้านาทีในการคำนวณอันดับของคุณตามผลการคัดเลือก หลังจากนั้น คุณจะได้รับอันดับและสามารถเข้าเล่นการบุกรุกได้"
+
+msgid "qualification/rewardsButton"
+msgstr "ไปยังรางวัล"
+
+msgid "qualification/rewardsDescription"
+msgstr "เมื่อผ่านการคัดเลือกแล้ว คุณจะได้รับรางวัลสำหรับอันดับที่คุณได้และอันดับก่อนหน้าทั้งหมด"
+
+msgid "quotesWrapper"
+msgstr "%(name)s"
+
+msgid "rank/achieved"
+msgstr "สำเร็จ"
+
+msgid "rank/current"
+msgstr "ปัจจุบัน"
+
+msgid "rank/fifth"
+msgstr "แชมป์"
+
+msgid "rank/first"
+msgstr "เหล็ก"
+
+msgid "rank/fourth"
+msgstr "ทอง"
+
+msgid "rank/qualification"
+msgstr "การคัดเลือก"
+
+msgid "rank/second"
+msgstr "ทองแดง"
+
+msgid "rank/sixth"
+msgstr "ตำนาน"
+
+msgid "rank/text"
+msgstr "อันดับ %(rank)s"
+
+msgid "rank/third"
+msgstr "เงิน"
+
+msgid "rankCompatibilityTable/playersRank"
+msgstr "อันดับผู้เล่น"
+
+msgid "rankCompatibilityTable/teammatesRank"
+msgstr "อันดับเพื่อนหมวดรถถัง"
+
+msgid "rankCompatibilityTooltip/description"
+msgstr "หมวดรถถังจะมีเพียงผู้เล่นที่มีอันดับใกล้เคียงกันเท่านั้น"
+
+msgid "rankCompatibilityTooltip/heading"
+msgstr "การจำกัดอันดับของหมวดรถถัง %(count)s ผู้เล่น"
+
+msgid "rankInactivityTooltip/description"
+msgstr "ถ้าคุณไม่ได้เล่นในรูปแบบดังกล่าว คุณจะเสียคะแนนจัดอันดับ"
+
+msgid "rankInactivityTooltip/heading"
+msgstr "อันดับไม่เคลื่อนไหว"
+
+msgid "rankInactivityTooltip/timeLeft"
+msgstr "วันก่อนที่การจัดอันดับของคุณตกลง: %(count)s"
+
+msgid "rankIndicatorTooltip/day/ratingDescription"
+msgstr "อันดับประจำวัน"
+
+msgid "rankIndicatorTooltip/day/ratingDiff"
+msgstr "การเปลี่ยนคะแนนอันดับ: %(diff)s"
+
+msgid "rankIndicatorTooltip/day/ratingDiffDescription"
+msgstr "ความต่างคะแนนอันดับของวันที่เลือกไว้และวันก่อนหน้าวันดังกล่าว"
+
+msgid "rankIndicatorTooltip/day/ratingRecord"
+msgstr "สถิติอันดับประจำวัน: %(maxAchievedRatingPoints)s"
+
+msgid "rankIndicatorTooltip/day/ratingRecordDescription"
+msgstr "อันดับสูงสุดที่ได้ในวันที่เลือกเอาไว้"
+
+msgid "rankIndicatorTooltip/season/dayOfRecord"
+msgstr "วัน %(day)s"
+
+msgid "rankIndicatorTooltip/season/ratingDescription"
+msgstr "สถิติอันดับฤดูกาลที่ทำได้ในวัน %(dayOfRecord)s"
+
+msgid "rankInfo/current/fifth"
+msgstr "อันดับแชมป์นั้นมอบให้กับผู้เล่นที่ได้รับคะแนน จัดอันดับอย่างน้อย {eeede9e6_Open}%(fromScore){eeede9e6_Close} คะแนน"
+
+msgid "rankInfo/current/sixth"
+msgstr "อันดับตำนานนั้นมอบให้กับ{eeede9e6_Open}%(topPercentage)%อันดับแรก{eeede9e6_Close}ของผู้เล่นในกระดานผู้นำ"
+
+msgid "rankItemStatus/current/description/fifth"
+msgstr "ในการได้อันดับตำนาน ให้เป็นหนึ่งใน {eeede9e6_Open}%(topPercentage)%อันดับแรก{eeede9e6_Close}ของผู้เล่นในกระดานผู้นำตามคะแนนจัดอันดับที่มี"
+
+msgid "rankItemStatus/current/description/sixth"
+msgstr "ในการป้องกันอันดับตำนาน ให้เป็นรักษาตำแหน่งเป็นหนึ่งใน {eeede9e6_Open}%(topPercentage)%อันดับแรก{eeede9e6_Close}ของผู้เล่นในกระดานผู้นำตามคะแนนจัดอันดับที่มี"
+
+msgid "rankItemStatus/current/extendedDescription/fifth"
+msgstr "ในการได้อันดับตำนาน ให้เป็นหนึ่งใน {eeede9e6_Open}%(topPercentage)%อันดับแรก{eeede9e6_Close} ของผู้เล่นในกระดานผู้นำ ตามคะแนนจัดอันดับที่มี คะแนนจัดอันดับที่ได้รับ โดยผู้เล่นอันดับล่างสุดของอันดับ&nbsp;ตำนาน&nbsp;:{eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankItemStatus/current/extendedDescription/sixth"
+msgstr "ในการป้องกันอันดับตำนาน ให้คงเป็นหนึ่งใน {eeede9e6_Open}%(topPercentage)%อันดับแรก{eeede9e6_Close}ของผู้เล่นในกระดานผู้นำตามคะแนนจัดอันดับที่มี คะแนนจัดอันดับที่ได้รับโดยผู้เล่นอันดับล่างสุดของอันดับ&nbsp;ตำนาน&nbsp;:{eeede9e6_Open}%(pointsCount){eeede9e6_Close}"
+
+msgid "rankUpper/fifth"
+msgstr "แชมป์"
+
+msgid "rankUpper/first"
+msgstr "เหล็ก"
+
+msgid "rankUpper/fourth"
+msgstr "ทอง"
+
+msgid "rankUpper/second"
+msgstr "ทองแดง"
+
+msgid "rankUpper/sixth"
+msgstr "ตำนาน"
+
+msgid "rankUpper/text"
+msgstr "อันดับ %(rank)s"
+
+msgid "rankUpper/third"
+msgstr "เงิน"
+
+msgid "rewardSelection/tooltip/selectableRewardList/deluxe"
+msgstr "คุณสามารถเลือกอุปกรณ์รุ่นปรับปรุงหนึ่งชิ้นจากรายการเป็นรางวัล:\n\n• ระบบไอเสียล่องหน\n• ระบบจับเป้าหมายก้าวหน้า\n• ชุดขับสุดท้ายปรับปรุง\n• เครื่องอัดอากาศรุ่นปรับปรุง\n• การเพิ่มความต้านทานกระสุน\n•การปรับแต่งปรับปรุง\n• กล้องรุ่นทดลอง\n• นวัตกรรมระบบป้อนกระสุน\n• ระบบระบายอากาศ\n• รางขับปืนกันเสื่อมสภาพ\n• ระบบปรับเสถียรอุปกรณ์\n• ระบบสังเกตการณ์ระยะไกล\n• ตาข่ายอำพรางยุทธวิธี"
+
+msgid "rewardSelection/tooltip/selectableRewardList/modernized_devices_t3"
+msgstr "คุณสามารถเลือกอุปกรณ์ทดลองหนึ่งอันได้จากรายการด้านล่าง:\n\n• ระบบควบคุมการยิง T3\n• ชุดเสริมความสามารถอยู่รอด T3\n• ะบบปรับปรุงความคล่องตัว T3\n• ระบบปรับปรุงความแม่นยำ T3"
+
+msgid "rewards/bonus/style_progress"
+msgstr "ลายพราง %(name)s"
+
+msgid "rewards/preview"
+msgstr "ตัวอย่าง"
+
+msgid "rewards/status/achieved"
+msgstr "ได้รับรางวัล"
+
+msgid "rewards/subtitle/customizations"
+msgstr "{b2afab_Open}สำหรับพาหนะระดับ%(vehicleLevel)s{b2afab_Close}"
+
+msgid "rewards/subtitle/styleProgress"
+msgstr "{b2afab_Open}สำหรับรูปแบบ %(progressionStyleName)s{b2afab_Close}"
+
+msgid "rewards/subtitle/vehicles_rent"
+msgstr "ระดับ %(vehicleLevel)s"
+
+msgid "rewardsScreen/additionalRewards"
+msgstr "คุณจะยังได้รับ:"
+
+msgid "rewardsScreen/button"
+msgstr "รับทราบ!"
+
+msgid "rewardsScreen/buttonToRewards"
+msgstr "ไปยังรางวัล"
+
+msgid "rewardsScreen/buttonToSelectedRewards"
+msgstr "เลือกรางวัล"
+
+msgid "rewardsScreen/buttonToShop"
+msgstr "ไปยังการซื้อ"
+
+msgid "rewardsScreen/description/qualificationEnded"
+msgstr "การบุกรุก ผ่านการคัดเลือกแล้ว"
+
+msgid "rewardsScreen/description/season/first"
+msgstr "การบุกรุก ฤดูกาลแห่งมังกรน้ำเงิน"
+
+msgid "rewardsScreen/description/season/second"
+msgstr "การบุกรุก ฤดูกาลแห่งมังกรโลหิต"
+
+msgid "rewardsScreen/description/season/third"
+msgstr "การบุกรุก ฤดูกาลแห่งมังกรหยก"
+
+msgid "rewardsScreen/description/year"
+msgstr "การบุกรุก ปีแห่งมังกร"
+
+msgid "rewardsScreen/goToVehicle"
+msgstr "Ashbringer ฉันอยู่ไหน?"
+
+msgid "rewardsScreen/noSeasonResult"
+msgstr "ไม่มีอันดับ"
+
+msgid "rewardsScreen/notice/subTitle"
+msgstr "ภายหลังจากการได้รับอันดับนี้แล้ว คุณสามารถเสียคะแนนจัดอันดับถ้าคุณหยุดเล่นรูปแบบการบุกรุก"
+
+msgid "rewardsScreen/notice/title"
+msgstr "อันดับไม่เคลื่อนไหว"
+
+msgid "rewardsScreen/seasonPointsAmount"
+msgstr "ธงสัญลักษณ์การบุกรุก\nทั้งหมด"
+
+msgid "rewardsScreen/selectEquipment"
+msgstr "เลือกอุปกรณ์"
+
+msgid "rewardsScreen/selectRewards"
+msgstr "เลือกรางวัล"
+
+msgid "rewardsScreen/shopInfo/header/discount"
+msgstr "มีส่วนลดใหม่ให้ในร้านค้าการบุกรุก!"
+
+msgid "rewardsScreen/shopInfo/header/open"
+msgstr "มีสิ่งของใหม่ให้ในร้านค้าการบุกรุก!"
+
+msgid "rewardsScreen/shopInfo/text/discount"
+msgstr "เมื่อเริ่มฤดูกาลถัดไป คุณจะสามารถเข้าถึงสิ่งของและส่วนลดโดยขึ้นกับอันดับที่คุณได้รับสูงสุด"
+
+msgid "rewardsScreen/shopInfo/text/open"
+msgstr "เมื่อเริ่มฤดูกาลถัดไป คุณจะสามารถเข้าถึงสิ่งของและส่วนลดโดยขึ้นกับอันดับที่คุณได้รับสูงสุด"
+
+msgid "rewardsScreen/subtitle/division"
+msgstr "{ffe4c0_Open}อันดับ %(rank)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewards"
+msgstr "คุณได้รับรางวัลสำหรับอันดับตราผลการคัดเลือก: {ffe4c0_Open}%(ranks)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/qualificationRewardsSeparator"
+msgstr ", "
+
+msgid "rewardsScreen/subtitle/rankRewards"
+msgstr "คุณได้รับรางวัลสำหรับการเลื่อนขั้นของคุณไปยังอันดับ{ffe4c0_Open}%(rank)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/subtitle/tokensRewards"
+msgid_plural "plural/rewardsScreen/subtitle/tokensRewards"
+msgstr[0] "รางวัลสำหรับการปฏิบัติ {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} ภารกิจประจำสัปดาห์สำเร็จ"
+msgstr[1] "รางวัลสำหรับการปฏิบัติ {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} ภารกิจประจำสัปดาห์สำเร็จ"
+msgstr[2] "รางวัลสำหรับการปฏิบัติ {ffe4c0_Open}%(tokensCount)s{ffe4c0_Close} ภารกิจประจำสัปดาห์สำเร็จ"
+
+msgid "rewardsScreen/title/division"
+msgstr "เข้าถึงดิวิชัน%(division)s"
+
+msgid "rewardsScreen/title/qualificationRank"
+msgstr "ได้อันดับ {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/qualificationRewards"
+msgstr "รางวัลสำหรับอันดับที่ได้"
+
+msgid "rewardsScreen/title/rank"
+msgstr "ได้อันดับ {ffe4c0_Open}%(rankUpperName)s{ffe4c0_Close}"
+
+msgid "rewardsScreen/title/rankRewards"
+msgstr "รางวัลสำหรับอันดับใหม่ของคุณ"
+
+msgid "rewardsScreen/title/selectedRewards"
+msgid_plural "plural/rewardsScreen/title/selectedRewards"
+msgstr[0] "ได้รับรางวัล"
+msgstr[1] "ได้รับรางวัล"
+msgstr[2] "ได้รับรางวัล"
+
+msgid "rewardsScreen/title/tokensRewards"
+msgstr "รางวัลภารกิจประจำสัปดาห์"
+
+msgid "rewardsScreen/title/yearlyRewards"
+msgstr "รางวัลประจำปี"
+
+msgid "rewardsScreen/yearlyVehicleCrew"
+msgstr "มาพร้อมกับ:"
+
+msgid "rewardsSelectionScreen/description"
+msgstr "การบุกรุก"
+
+msgid "rewardsSelectionScreen/title"
+msgid_plural "plural/rewardsSelectionScreen/title"
+msgstr[0] "เลือกรางวัล"
+msgstr[1] "เลือกรางวัล"
+msgstr[2] "เลือกรางวัล"
+
+msgid "scoreTooltip/body"
+msgstr "คะแนนจัดอันดับที่คุณได้รับจะเป็นตัวกำหนดอันดับและดิวิชันของคุณในรูปแบบการบุกรุก ชนะการรบเพื่อมาเป็นยอดฝีมือกัน!"
+
+msgid "scoreTooltip/header"
+msgstr "คะแนนจัดอันดับ"
+
+msgid "season/daysLeft"
+msgstr "จบลงใน %(totalDays)s วัน"
+
+msgid "season/hoursLeft"
+msgstr "จบลงใน %(hours)s ชม"
+
+msgid "season/minutesLeft"
+msgstr "จบลงใน %(minutes)s นาที"
+
+msgid "season/over"
+msgstr "%(seasonName)s จบลงแล้ว"
+
+msgid "season/range"
+msgstr "%(startDate)s–%(endDate)s"
+
+msgid "season/secondsLeft"
+msgstr "จบลงใน %(seconds)s วิ"
+
+msgid "seasonName/first"
+msgstr "ฤดูกาลแห่งมังกรน้ำเงิน"
+
+msgid "seasonName/second"
+msgstr "ฤดูกาลแห่งมังกรโลหิต"
+
+msgid "seasonName/third"
+msgstr "ฤดูกาลแห่งมังกรหยก"
+
+msgid "seasonPointTooltip/header"
+msgstr "ธงสัญลักษณ์การบุกรุก"
+
+msgid "seasonPointTooltip/status/achieved"
+msgstr "ได้รับ"
+
+msgid "seasonPointTooltip/status/notAchieved"
+msgstr "ไม่ได้รับ"
+
+msgid "seasonPointTooltip/status/possible"
+msgstr "คุณเป็นผู้มีสิทธิ์ได้รับธงสัญลักษณ์การบุกรุก"
+
+msgid "seasonPointTooltip/text/compensate"
+msgstr "ธงสัญลักษณ์การบุกรุกที่ไม่ได้ถูกใช้จะแปลงเป็นพันธบัตรในอัตรานี้: {bond_Open}1 ธงสัญลักษณ์การบุกรุก{bond_Close} ต่อ {bond_Open}%(seasonPointExchangeRate)s%(bondsIcon)s{bond_Close}"
+
+msgid "seasonPointTooltip/text/season"
+msgstr "เมื่อจบแต่ละฤดูกาล คุณจะได้รับธงสัญลักษณ์การบุกรุกตามอันดับที่คุณได้"
+
+msgid "seasonPointTooltip/text/year"
+msgstr "ทุกๆ 3 ธงสัญลักษณ์การบุกรุกที่ได้รับจะทำให้รางวัลที่คุณได้รับในช่วงท้ายปีมีคุณภาพดียิ่งขึ้น"
+
+msgid "seasonStatistics/button/fifth"
+msgstr "รางวัลของฉันอยู่ไหน?"
+
+msgid "seasonStatistics/button/first"
+msgstr "นี่ก็ใช้ได้"
+
+msgid "seasonStatistics/button/fourth"
+msgstr "สมบัติของฉัน!"
+
+msgid "seasonStatistics/button/second"
+msgstr "รับทราบ!"
+
+msgid "seasonStatistics/button/sixth"
+msgstr "อย่างตำนาน!"
+
+msgid "seasonStatistics/button/third"
+msgstr "ฉันจะกลับมา"
+
+msgid "seasonStatistics/description/finalScore"
+msgstr "การจัดอันดับฤดูกาลสุดท้าย"
+
+msgid "seasonStatistics/description/leaderboardPosition"
+msgstr "ตำแหน่งบนกระดานผู้นำ: %(position)s"
+
+msgid "seasonStatistics/description/season"
+msgstr "การบุกรุก %(seasonNameUpper)s"
+
+msgid "seasonStatistics/description/seasonPoint"
+msgid_plural "plural/seasonStatistics/description/seasonPoint"
+msgstr[0] "ได้รับ %(points)s ธงสัญลักษณ์การบุกรุก"
+msgstr[1] "ได้รับ %(points)s ธงสัญลักษณ์การบุกรุก"
+msgstr[2] "ได้รับ %(points)s ธงสัญลักษณ์การบุกรุก"
+
+msgid "seasonStatistics/seasonNameUpper/first"
+msgstr "ฤดูกาลที่ I มังกรน้ำเงิน"
+
+msgid "seasonStatistics/seasonNameUpper/second"
+msgstr "ฤดูกาลที่ II มังกรโลหิต"
+
+msgid "seasonStatistics/seasonNameUpper/third"
+msgstr "ฤดูกาลที่ III มังกรหยก"
+
+msgid "seasonStatistics/section/statistics/battles/additional"
+msgstr "การชนะ: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/battles/main"
+msgstr "การรบ\nที่เข้าร่วม"
+
+msgid "seasonStatistics/section/statistics/damage/additional"
+msgstr "เฉลี่ย: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/damage/main"
+msgstr "สถิติ\nความเสียหาย"
+
+msgid "seasonStatistics/section/statistics/maxFrags/additional"
+msgstr "อัตราการทำลาย: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxFrags/main"
+msgstr "ทำลายพาหนะมากที่สุด\nในการรบ"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/additional"
+msgstr "เฉลี่ย: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/maxPrestigePoints/main"
+msgstr "สถิติ\nคะแนนเกียรติภูมิ"
+
+msgid "seasonStatistics/section/statistics/title"
+msgstr "สถิติฤดูกาล"
+
+msgid "seasonStatistics/section/statistics/winSeries/additional"
+msgstr "ในหมวดรถถังใหญ่: %(additional)s"
+
+msgid "seasonStatistics/section/statistics/winSeries/main"
+msgstr "สถิติการชนะ\n(เดี่ยว/หมวดรถถัง)"
+
+msgid "seasonStatistics/section/vehicles/battles"
+msgstr "การรบที่ได้เข้าร่วม"
+
+msgid "seasonStatistics/section/vehicles/noData"
+msgstr "—"
+
+msgid "seasonStatistics/section/vehicles/noVehicles"
+msgstr "ไม่มีพาหนะ"
+
+msgid "seasonStatistics/section/vehicles/title"
+msgstr "พาหนะหลัก"
+
+msgid "seasonStatistics/section/vehicles/wins"
+msgstr "ชัยชนะ/การรบ"
+
+msgid "seasonStatistics/title"
+msgstr "สถิติฤดูกาล %(name)s"
+
+msgid "seasonalBattleSelector/tillEnd"
+msgstr "ฤดูกาลสิ้นสุดใน:"
+
+msgid "seasonalBattleSelector/timeTable/empty"
+msgstr "—"
+
+msgid "seasonalBattleSelector/timeTable/interval"
+msgstr "%(start)s–%(end)s"
+
+msgid "seasonalBattleSelector/timeTable/title"
+msgstr "หมายกำหนดการแข่ง"
+
+msgid "seasonalBattleSelector/timeTable/today"
+msgstr "วันนี้"
+
+msgid "seasonalBattleSelector/timeTable/tomorrow"
+msgstr "พรุ่งนี้"
+
+msgid "selectorTooltip/desc"
+msgstr "รูปแบบการแข่งขัน 7 ต่อ 7 | ระดับ X"
+
+msgid "selectorTooltip/title"
+msgstr "การบุกรุก"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "ติดตามข่าวล่าสุดในเวบไซต์ของเกมสำหรับการเริ่มฤดูกาลใหม่"
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "รูปแบบดังกล่าวไม่มีให้เล่นชั่วคราวเนื่องจากปัญหาทางเทคนิค"
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "รูปแบบนี้จะมีให้ใน %(time)s"
+
+msgid "shortSeasonName/first"
+msgstr "มังกรน้ำเงิน"
+
+msgid "shortSeasonName/second"
+msgstr "มังกรโลหิต"
+
+msgid "shortSeasonName/third"
+msgstr "มังกรหยก"
+
+msgid "sidebar/tabs/tooltip/body/leaderboard"
+msgstr "ส่วนนี้ประกอบด้วยข้อมูลเกี่ยวกับผู้เล่นที่ดีที่สุดในฤดูกาลการบุกรุกปัจจุบัน"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "ส่วนนี้ประกอบด้วยข้อมูลสำหรับการคัดเลือกรวมไปถึงอันดับ, ดิวิชันและคะแนนจัดอันดับหลังจากที่จบลงแล้ว"
+
+msgid "sidebar/tabs/tooltip/body/rankRewards"
+msgstr "ส่วนนี้ประกอบด้วยข้อมูลเกี่ยวกับรางวัลที่มีให้สำหรับการได้รับอันดับที่สูงขึ้นในรูปแบบการบุกรุก"
+
+msgid "sidebar/tabs/tooltip/body/shop"
+msgstr "ส่วนนี้ประกอบด้วยข้อมูลเกี่ยวกับสิ่งของที่มีให้ในร้านค้าการบุกรุก"
+
+msgid "sidebar/tabs/tooltip/body/weeklyQuests"
+msgstr "ส่วนนี้มีข้อมูลเกี่ยวกับภารกิจประจำสัปดาห์ของรูปแบบการบุกรุก"
+
+msgid "sidebar/tabs/tooltip/body/yearlyRewards"
+msgstr "ส่วนนี้ประกอบด้วยรายละเอียดรางวัลประจำปีที่คุณสามารถได้รับจากการได้รับธงสัญลักษณ์การบุกรุก"
+
+msgid "sidebar/tabs/tooltip/body/yearlyStatistics"
+msgstr "ส่วนนี้ประกอบด้วยข้อมูลสำหรับความสำเร็จของคุณในแต่ละฤดูกาลการบุกรุกของปีปัจจุบัน"
+
+msgid "sidebar/tabs/tooltip/header/leaderboard"
+msgstr "กระดานผู้นำ"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "ระบบการจัดอันดับ"
+
+msgid "sidebar/tabs/tooltip/header/rankRewards"
+msgstr "รางวัลสำหรับอันดับ"
+
+msgid "sidebar/tabs/tooltip/header/shop"
+msgstr "ร้านค้าการบุกรุก"
+
+msgid "sidebar/tabs/tooltip/header/weeklyQuests"
+msgstr "ภารกิจประจำสัปดาห์"
+
+msgid "sidebar/tabs/tooltip/header/yearlyRewards"
+msgstr "รางวัลประจำปี"
+
+msgid "sidebar/tabs/tooltip/header/yearlyStatistics"
+msgstr "สถิติประจำปี"
+
+msgid "sixthRankTooltip/description"
+msgstr "อันดับ{eeede9e6_Open}ตำนาน{eeede9e6_Close}นั้นมอบให้กับ{eeede9e6_Open}ผู้เล่น %(topPercentage)%{eeede9e6_Close} อันดับแรกบนกระดานผู้นำตามคะแนนจัดอันดั"
+
+msgid "style3dTooltip/954"
+msgstr "หนามแหลมเงิน"
+
+msgid "style3dTooltip/955"
+msgstr "กรงเล็บทอง"
+
+msgid "style3dTooltip/956"
+msgstr "ปีกแชมป์"
+
+msgid "style3dTooltip/957"
+msgstr "สัตว์ร้ายในตำนาน"
+
+msgid "style3dTooltip/description"
+msgstr "แข็งแกร่งดังราชสีห์, เกรี้ยวกราดดั่งมังกรและอันตรายดั่งแมงป่อง สัตว์ร้ายตัวนี้คือตัวแทนแห่งสัตว์ร้ายที่เป็นที่เกรงขามนับแต่โบราณ"
+
+msgid "style3dTooltip/howToReceive"
+msgstr "วิธีการได้รับ"
+
+msgid "style3dTooltip/secondaryDescription/954"
+msgstr "มอบกับการได้รับธงสัญลักษณ์การบุกรุกอย่างน้อย 9 อันในปีแห่งแมนติคอร์ในรูปแบบการบุกรุก"
+
+msgid "style3dTooltip/secondaryDescription/955"
+msgstr "มอบกับการได้รับธงสัญลักษณ์การบุกรุกอย่างน้อย 12 อันในปีแห่งแมนติคอร์ในรูปแบบการบุกรุก แทนที่รูปแบบก่อนหน้า"
+
+msgid "style3dTooltip/secondaryDescription/956"
+msgstr "มอบกับการได้รับธงสัญลักษณ์การบุกรุกอย่างน้อย 15 อันในปีแห่งแมนติคอร์ในรูปแบบการบุกรุก แทนที่รูปแบบก่อนหน้า"
+
+msgid "style3dTooltip/secondaryDescription/957"
+msgstr "มอบกับการได้รับธงสัญลักษณ์การบุกรุกอย่างน้อย 18 อันในปีแห่งแมนติคอร์ในรูปแบบการบุกรุก แทนที่รูปแบบก่อนหน้า"
+
+msgid "style3dTooltip/suitableVehicles"
+msgstr "เหมาะสำหรับพาหนะ"
+
+msgid "system_messages/periodicReward/body"
+msgstr "คุณได้รับรางวัลประจำวันของคุณสำหรับการรักษาอันดับ %(rank)s\n%(rewards)s"
+
+msgid "system_messages/periodicReward/title"
+msgstr "รางวัลประจำวัน"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "ช่วงการหยุดยิงกำลังมีผลอยู่ การรบในการบุกรุกนั้นไม่มีให้ชั่วคราว"
+
+msgid "system_messages/primeTime/end/title"
+msgstr "การหยุดยิง"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "ช่วงการหยุดยิงจบลงแล้ว การรบในการบุกรุกมีให้อีกครั้ง"
+
+msgid "system_messages/primeTime/start/title"
+msgstr "การหยุดยิง"
+
+msgid "system_messages/qualificationReward/body"
+msgstr "ยินดีด้วย คุณได้มาถึงอันดับ %(maxRank)s แล้ว\nคุณได้รับรางวัลสำหรับการผ่านอันดับต่อไปนี้: %(ranks)s:\n%(rewards)s"
+
+msgid "system_messages/qualificationReward/title"
+msgstr "ผ่านการคัดเลือกแล้ว"
+
+msgid "system_messages/regularReward/body"
+msgstr "วัน: %(at)s\n%(rewards)s"
+
+msgid "system_messages/regularReward/title"
+msgstr "ใบเสร็จ"
+
+msgid "system_messages/shop/offer/button"
+msgstr "ไปยังร้านค้า"
+
+msgid "system_messages/shop/offer/newDiscounts/body"
+msgstr "มีส่วนลดใหม่ให้ในร้านค้าการบุกรุก!"
+
+msgid "system_messages/shop/offer/newDiscounts/title"
+msgstr "ส่วนลดเพิ่มขึ้น"
+
+msgid "system_messages/shop/offer/newItems/body"
+msgstr "มีสิ่งของใหม่ให้ในร้านค้าการบุกรุก!"
+
+msgid "system_messages/shop/offer/newItems/title"
+msgstr "มีสิ่งของใหม่ให้"
+
+msgid "system_messages/shop/purchase/error"
+msgstr "ข้อผิดพลาดในการจ่าย โปรดลองใหม่ภายหลัง"
+
+msgid "system_messages/tokenWeeklyReward/body"
+msgstr "วัน: %(at)s\n%(rewards)s"
+
+msgid "system_messages/tokenWeeklyReward/title"
+msgstr "รางวัลสำหรับการผ่านภารกิจประจำสัปดาห์"
+
+msgid "system_messages/weeklyReward/body"
+msgstr "วัน: %(at)s\n%(rewards)s"
+
+msgid "system_messages/weeklyReward/title"
+msgstr "รางวัลสำหรับภารกิจประจำสัปดาห์"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "เกี่ยวกับการบุกรุก"
+
+msgid "tooltip/whatsNewButton/header"
+msgstr "การปรับของฤดูกาล"
+
+msgid "tournament/LBFinals"
+msgstr "ชิงชนะเลิศ สายล่าง"
+
+msgid "tournament/LBRound1"
+msgstr "สายล่างรอบที่ 1"
+
+msgid "tournament/LBRound2"
+msgstr "สายล่างรอบที่ 2"
+
+msgid "tournament/LBSemifinals"
+msgstr "รองชนะเลิศ สายล่าง"
+
+msgid "tournament/UBFinals"
+msgstr "ชนะเลิศสายบน"
+
+msgid "tournament/UBSemifinals"
+msgstr "รองชนะเลิศ สายบน"
+
+msgid "tournament/battleResult/personal/tooltip/descr"
+msgstr "ไม่สามารถได้รับหรือเสียคะแนนจัดอันดับในทัวร์นาเมนต์ได้"
+
+msgid "tournament/bestOf"
+msgstr "ดีที่สุดของ %(number)s"
+
+msgid "tournament/cny"
+msgstr "%(amount)s หยวน"
+
+msgid "tournament/cnySign"
+msgstr "%(amount)s ¥"
+
+msgid "tournament/comeBack"
+msgstr "โปรดลองใหม่ภายหลัง"
+
+msgid "tournament/comingSoon"
+msgstr "กำลังจะมา %(addition)s"
+
+msgid "tournament/comingSoonAddition"
+msgstr "เวลาอาจแตกต่างตามระยะเวลาแข่ง"
+
+msgid "tournament/completed"
+msgstr "สำเร็จแล้ว"
+
+msgid "tournament/douyin"
+msgstr "ดูบน Douyin"
+
+msgid "tournament/drops/huya"
+msgstr "ดูบน Huya และรับ\nรางวัลเฉพาะของ Huya!"
+
+msgid "tournament/drops/twitch"
+msgstr "ดูบน Twitch และรับ\nรางวัลเฉพาะของ Twitch!"
+
+msgid "tournament/dropsShort/huya"
+msgstr "และรับรางวัลเฉพาะของ Huya!"
+
+msgid "tournament/dropsShort/twitch"
+msgstr "และรับรางวัลเฉพาะของ Twitch!"
+
+msgid "tournament/error"
+msgstr "เกิดข้อผิดพลาดในการโหลดข้อมูล"
+
+msgid "tournament/eur"
+msgstr "%(amount)s ยูโร"
+
+msgid "tournament/euroSign"
+msgstr "€%(amount)s"
+
+msgid "tournament/finalResult"
+msgstr "ผู้ชนะ"
+
+msgid "tournament/fundDistribution"
+msgstr "การแจกจ่ายชุดรางวัล"
+
+msgid "tournament/grandFinals"
+msgstr "รอบชิงชนะเลิศใหญ่"
+
+msgid "tournament/huya"
+msgstr "ดูบน Huya"
+
+msgid "tournament/lastPrizePoolUpdate"
+msgstr "ชุดรางวัลนั้นรวมจากการซื้อชุดสินค้าของผู้เล่น ปรับล่าสุดเมื่อ: %(lastPrizePoolUpdate)s"
+
+msgid "tournament/noMatches"
+msgstr "ไม่มีหมายกำหนดการแข่งอีก"
+
+msgid "tournament/ols/roundRobin"
+msgstr "ช่วง %(phase)s รอบ %(round)s"
+
+msgid "tournament/placement"
+msgstr "%(firstPlace)s - %(secondPlace)s"
+
+msgid "tournament/prize"
+msgstr "ชุดรางวัล %(addition)s"
+
+msgid "tournament/prizeAddition"
+msgstr "และโอกาสในการคว้าความเกรียงไกรอันไม่สิ้นสุด"
+
+msgid "tournament/refresh"
+msgstr "ปรับใหม่"
+
+msgid "tournament/refreshing"
+msgstr "กำลังปรับใหม่..."
+
+msgid "tournament/roundOf"
+msgstr "รอบที่ %(number)s"
+
+msgid "tournament/separator"
+msgstr "หรือ"
+
+msgid "tournament/tab/overview"
+msgstr "ภาพรวม"
+
+msgid "tournament/tab/schedule"
+msgstr "หมายกำหนด"
+
+msgid "tournament/teamPlaceholder"
+msgstr "รอการประกาศ"
+
+msgid "tournament/toShop"
+msgstr "ไปยังร้านค้า"
+
+msgid "tournament/tokenStore/button/ols"
+msgstr "แลกเปลี่ยน"
+
+msgid "tournament/tokenStore/ols"
+msgstr "เหรียญชุดตำนานการบุกรุก"
+
+msgid "tournament/tokenStore/unavailable"
+msgstr "มีให้ใน:"
+
+msgid "tournament/tooltip/infoPageButton/header"
+msgstr "เกี่ยวกับทัวร์นาเมนต์"
+
+msgid "tournament/twitch"
+msgstr "ดูบน Twitch"
+
+msgid "tournament/viewFull"
+msgstr "ดูทั้งหมด"
+
+msgid "tournament/visitShop/description/ols"
+msgstr "สนับสนุนชุดตำนานการบุกรุกและเร่งชุดรางวัลกันด้วยชุดสินค้าทัวร์นาเมนต์!"
+
+msgid "tournament/visitShop/description/wci"
+msgstr "แสดงวิญญาณอีสปอร์ตของคุณด้วยองค์ประกอบปรับแต่งเฉพาะแนวกิจกรรมและรถถังเฉพาะ!"
+
+msgid "tournament/visitShop/heading/ols"
+msgstr "เสริมชุดรางวัล"
+
+msgid "tournament/visitShop/heading/wci"
+msgstr "ชุดสินค้า WCI"
+
+msgid "tournament/vsBestOf"
+msgstr "ปะทะ\nดีที่สุดของ %(number)s"
+
+msgid "tournament/wci/roundRobin"
+msgstr "พบกันทุกทีม"
+
+msgid "tournament/winner"
+msgstr "ผู้ชนะ"
+
+msgid "tournament/youtube"
+msgstr "ดูบน YouTube"
+
+msgid "tournamentsEntryPointTooltip/description/ols"
+msgstr "ทีมยอดฝีมือของยุโรปกำลังปะทะกันเพื่อชิงตำแหน่งแชมป์ชุดตำนานการบุกรุกอยู่! มาชมการแข่งการบุกรุก 7 ต่อ 7 อันน่าตื่นเต้น, คว้ารางวัล Twitch และสนับสนุนทีมโปรดของคุณด้วยการเพิ่มชุดรางวัลจากการซื้อชุดสินค้าองค์ประกอบปรับแต่งเฉพาะ"
+
+msgid "tournamentsEntryPointTooltip/description/wci"
+msgstr "มหากาพย์แห่งการปะทะกำลังเกิดขึ้นในการแข่งขันชิงแชมป์นานาชาติ World of Tanks ที่ซู่โจวในประเทศจีนซึ่งทีมอันดุดันจากทั่วโลกจะมาเผชิญหน้ากันภายใต้กฎรูปแบบการบุกรุก ซึ่งทุกทีมจะมาแข่งขันเพื่อชิงตำแหน่งการเป็นแชมป์โลกที่มีเกียรติ มาสัมผัสความตื่นเต้นเมื่อตำนานเกิดขึ้นในสนามรบ!"
+
+msgid "tournamentsEntryPointTooltip/heading/ols"
+msgstr "OLS ฤดูกาล 6"
+
+msgid "tournamentsEntryPointTooltip/heading/wci"
+msgstr "WCI'25"
+
+msgid "tournamentsEntryPointTooltip/live"
+msgstr "การถ่ายทอดสดจะมีให้เป็นเวลา %(timer)s"
+
+msgid "tournamentsEntryPointTooltip/showmatch"
+msgstr "รอบการแข่งมากขึ้นใน %(timer)s"
+
+msgid "training/battleResult/personal/tooltip/descr"
+msgstr "ไม่สามารถได้รับคะแนนการจัดอันดับในการฝึกการบุกรุก"
+
+msgid "unit/message/modeOffline"
+msgstr "ไม่สามารถเข้าร่วมการรบได้: ข้อผิดพลาดฐานข้อมูล"
+
+msgid "unit/message/rankRangeRestriction"
+msgstr "เกินข้อจำกัดความต่างอันดับ"
+
+msgid "voiceChat/active"
+msgstr "ออกการสนทนาเสียง"
+
+msgid "voiceChat/inactive"
+msgstr "เข้าร่วมการสนทนาเสียง"
+
+msgid "waitingSpinner/message"
+msgstr "กำลังเริ่ม..."
+
+msgid "weeklyQuestWidgetTooltip/completed"
+msgstr "ภารกิจการบุกรุกสำเร็จแล้ว"
+
+msgid "weeklyQuestWidgetTooltip/completedDescription"
+msgstr "ดีมาก! คุณได้ผ่านภารกิจประจำสัปดาห์ทั้งหมดแล้วอย่าลืมมารับรางวัลของคุณแล้วพบกันใหม่ในฤดูกาลถัดไป!"
+
+msgid "weeklyQuestWidgetTooltip/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuestWidgetTooltip/description"
+msgstr "คุณจะได้รับรางวัลเพิ่มเติมสำหรับการผ่านภารกิจ {eeede9e5_Open}%(questsList)s{eeede9e5_Close} และ {eeede9e5_Open}%(lastQuest)s{eeede9e5_Close} "
+
+msgid "weeklyQuestWidgetTooltip/header"
+msgstr "ภารกิจการบุกรุกประจำสัปดาห์"
+
+msgid "weeklyQuestWidgetTooltip/missionsCounter"
+msgstr "สำเร็จแล้ว: %(counter)s"
+
+msgid "weeklyQuestWidgetTooltip/newMissions"
+msgid_plural "weeklyQuestWidgetTooltip/newMissions"
+msgstr[0] "%(value)s ภารกิจใหม่ใน:"
+msgstr[1] "%(value)s ภารกิจใหม่ใน:"
+msgstr[2] "%(value)s ภารกิจใหม่ใน:"
+
+msgid "weeklyQuestWidgetTooltip/rewards"
+msgid_plural "weeklyQuestWidgetTooltip/rewards"
+msgstr[0] "รางวัล:"
+msgstr[1] "รางวัล:"
+msgstr[2] "รางวัล:"
+
+msgid "weeklyQuests/CountdownStatus/active"
+msgid_plural "plural/weeklyQuests/CountdownStatus/active"
+msgstr[0] "%(value)sภารกิจใหม่ใน: %(countdown)s"
+msgstr[1] "%(value)sภารกิจใหม่ใน: %(countdown)s"
+msgstr[2] "%(value)sภารกิจใหม่ใน: %(countdown)s"
+
+msgid "weeklyQuests/CountdownStatus/done"
+msgstr "ภารกิจใหม่ในฤดูกาลถัดไป!"
+
+msgid "weeklyQuests/TokenProgress/header"
+msgstr "ภารกิจสำเร็จ: %(passed)s {eeede980_Open}/ %(total)s{eeede980_Close}"
+
+msgid "weeklyQuests/TokenProgress/subheader"
+msgid_plural "plural/weeklyQuests/TokenProgress/subheader"
+msgstr[0] "คุณจะได้รับ %(value)s ภารกิจใหม่ในทุกๆสัปดาห์ แต่ละภารกิจที่ผ่านจะนับเข้ารางวัลของคุณ!"
+msgstr[1] "คุณจะได้รับ %(value)s ภารกิจใหม่ในทุกๆสัปดาห์ แต่ละภารกิจที่ผ่านจะนับเข้ารางวัลของคุณ!"
+msgstr[2] "คุณจะได้รับ %(value)s ภารกิจใหม่ในทุกๆสัปดาห์ แต่ละภารกิจที่ผ่านจะนับเข้ารางวัลของคุณ!"
+
+msgid "weeklyQuests/card/progress/counter"
+msgstr "%(current)s / %(total)s"
+
+msgid "weeklyQuests/card/status/active"
+msgstr "กำลังดำเนินการ"
+
+msgid "weeklyQuests/card/status/completed"
+msgstr "สำเร็จแล้ว"
+
+msgid "weeklyQuests/card/status/locked"
+msgstr "ไม่มีให้"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByInactiveSeason"
+msgstr "ไม่มีให้ปฏิบัติ: รูปแบบนี้ไม่ได้มีใช้งานอยู่"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByNoXVehicles"
+msgstr "ในการปลดล็อคให้วิจัยและซื้อพาหนะระดับ X"
+
+msgid "weeklyQuests/card/statusLockedTooltip/body/lockedByPreviousQuest"
+msgstr "ปฏิบัติภารกิจก่อนหน้าให้สำเร็จเพื่อปลดล็อคภารกิจนี้"
+
+msgid "weeklyQuests/card/statusLockedTooltip/header"
+msgstr "ไม่มีภารกิจให้"
+
+msgid "weeklyQuestsWidget/claim"
+msgstr "รับรางวัลของคุณ!"
+
+msgid "weeklyQuestsWidget/completed"
+msgstr "สำเร็จ: %(current)s / %(total)s"
+
+msgid "weeklyQuestsWidget/counter"
+msgstr "%(current)s/%(total)s"
+
+msgid "weeklyQuestsWidget/missionsCounter"
+msgstr "ภารกิจ %(current)s / %(total)s"
+
+msgid "weeklyQuestsWidget/newMissions"
+msgid_plural "plural/weeklyQuestsWidget/newMissions"
+msgstr[0] "%(value)s ภารกิจใหม่ใน:"
+msgstr[1] "%(value)s ภารกิจใหม่ใน:"
+msgstr[2] "%(value)s ภารกิจใหม่ใน:"
+
+msgid "whatsNewButtonLabel"
+msgstr "การปรับของฤดูกาล"
+
+msgid "whatsNewView/banner/description"
+msgstr "ฤดูกาลนี้ถือเป็นโอกาสสุดท้ายของคุณในการคว้ารางวัล ที่มีค่ารวมไปถึงรถถังหนักเฉพาะ Ashbringer ระดับ X พร้อมด้วยรูปแบบสามมิติเฉพาะทั้งหมด ที่คุณได้รับสำหรับรถถังคันดังกล่าว และเหล่าพลรถถังที่ไร้ความกลัวมีพี่น้องร่วมรบเป็นความสามารถศูนย์พร้อม อุปกรณ์ปรับปรุงและอุปกรณ์ทดลองให้เลือกรับ, รูปแบบสองมิติที่เตะตาและอื่นๆอีกมากมาย อย่าพลาดล่ะ ชัยชนะรอคุณอยู่ในสนามรบ!"
+
+msgid "whatsNewView/banner/heading"
+msgstr "คว้าโอกาสสุดท้ายของปีแห่งมังกร!"
+
+msgid "whatsNewView/banner/title/large"
+msgstr "ฤดูกาลแห่งมังกรหยก"
+
+msgid "whatsNewView/banner/title/small"
+msgstr "การบุกรุก มีอะไรใหม่บ้าง?"
+
+msgid "whatsNewView/button/ok"
+msgstr "แบนเต็มที่!"
+
+msgid "whatsNewView/detailedBattleResults/description"
+msgstr "หน้าจอผลการรบปรับปรุงใหม่ด้วยการออกแบบล่าสุดในอัพเดต 2.0 จะทำให้คุณเห็นข้อมูลเกี่ยวกับรูปแบบเพิ่มเติมหลังการรบทุกครั้ง"
+
+msgid "whatsNewView/detailedBattleResults/heading"
+msgstr "ผลการรบแบบละเอียด"
+
+msgid "whatsNewView/equippedRentals/description"
+msgstr "ไม่ต้องกลัวไปถ้าพาหนะโปรดของคุณถูกยกเว้น พาหนะเช่าตอนนี้ก็มาพร้อมกับพลรถถัง, อุปกรณ์, กระสุนและยุทธปัจจัยปรับไว้ล่วงหน้าแล้ว"
+
+msgid "whatsNewView/equippedRentals/heading"
+msgstr "พาหนะเช่าพร้อมออกรบ%(tag)s"
+
+msgid "whatsNewView/intro/description"
+msgstr "ฤดูกาลนี้ แต่ละทีมจะสามารถแบนพาหนะหนึ่งคันจากการรบได้ ประสานการลงคะแนนกับพันธมิตรเพื่อปลดยานเกราะที่เป็นภัยกับคุณที่สุดหรือเตรียมรายชื่อยานเกราะที่ข้าศึกไม่คาดเอาไว้"
+
+msgid "whatsNewView/intro/heading"
+msgstr "การแบนพาหนะ %(tag)s"
+
+msgid "whatsNewView/mapChanges/heading"
+msgstr "แผนที่"
+
+msgid "whatsNewView/newAvailableVehicles/heading"
+msgstr "พาหนะใหม่มีให้ในการบุกรุก"
+
+msgid "whatsNewView/rentalVehicles/heading"
+msgstr "พาหนะเช่า"
+
+msgid "whatsNewView/roleSkillUpdate/description"
+msgstr "รถถังกลางสหรัฐฯ Ares 90 ระดับ X ที่เพิ่งเปิดตัวตอนนี้มีให้ในรูปแบบแล้วโดยมีทักษะบทบาทปรับใหม่"
+
+msgid "whatsNewView/roleSkillUpdate/heading"
+msgstr "การปรับทักษะบทบาท %(tag)s"
+
+msgid "whatsNewView/shopUpdates/description"
+msgstr "114 SP2 ตอนนี้มีให้ซื้อที่อันดับเงินในร้านค้าการบุกรุกแล้ว"
+
+msgid "whatsNewView/shopUpdates/heading"
+msgstr "การปรับร้านค้า %(tag)s"
+
+msgid "whatsNewView/stamp/removed"
+msgstr "ลบออก"
+
+msgid "whatsNewView/stamp/underDevelopment"
+msgstr "กำลังอยู่ในการพัฒนา"
+
+msgid "whatsNewView/tag/attention"
+msgstr "โปรดทราบ"
+
+msgid "whatsNewView/tag/changed"
+msgstr "เปลี่ยนแล้ว"
+
+msgid "whatsNewView/tag/experimental"
+msgstr "รุ่นทดลอง"
+
+msgid "whatsNewView/tag/new"
+msgstr "ใหม่"
+
+msgid "whatsNewView/tag/returned"
+msgstr "กลับคืนมา"
+
+msgid "whatsNewView/tag/revamped"
+msgstr "ปรับแก้ใหม่"
+
+msgid "whatsNewView/tag/seasonUpdate"
+msgstr "การปรับของฤดูกาล"
+
+msgid "whatsNewView/watchVideo"
+msgstr "ดูวีดิโอ"
+
+msgid "winsIndicatorTooltip/day/heading"
+msgstr "อัตราชนะ (วัน): %(winRate)s"
+
+msgid "winsIndicatorTooltip/defeats"
+msgstr "แพ้: %(count)s"
+
+msgid "winsIndicatorTooltip/draws"
+msgstr "เสมอ: %(count)s"
+
+msgid "winsIndicatorTooltip/season/heading"
+msgstr "อัตราชนะ (ฤดูกาล): %(winRate)s"
+
+msgid "winsIndicatorTooltip/winRate/description"
+msgstr "อัตราการชนะทังหมดต่อจำนวนการรบที่เข้าร่วม\nการรบตามผล:"
+
+msgid "winsIndicatorTooltip/wins"
+msgstr "ชนะ: %(count)s"
+
+msgid "yearlyRewards/banner/default"
+msgstr "รางวัลถูกส่งให้ในช่วงจบฤดูกาลที่สาม"
+
+msgid "yearlyRewards/banner/notAccruedRewards"
+msgstr "รางวัลจะถูกส่งให้ในไม่ช้า โปรดรอติดตาม"
+
+msgid "yearlyRewards/banner/rewardsReceived"
+msgstr "ได้รับรางวัลประจำปีแล้ว ไว้พบกันในปีหน้า!"
+
+msgid "yearlyRewards/banner/rewardsSelectionAvailable"
+msgstr "คุณมีอุปกรณ์ให้เลือกรับ"
+
+msgid "yearlyRewards/claim"
+msgstr "รับ"
+
+msgid "yearlyRewards/claimReward"
+msgstr "รับรางวัล"
+
+msgid "yearlyRewards/description/achieved"
+msgstr "คุณได้รับ 1 %(seasonPointIcon)s จากแต่ละอันดับเมื่อจบฤดูกาล"
+
+msgid "yearlyRewards/description/current"
+msgstr "คุณจะได้รับ 1 %(seasonPointIcon)s จากแต่ละอันดับเมื่อจบฤดูกาล"
+
+msgid "yearlyRewards/mainYearlyRewardTitle"
+msgstr "%(vehicle)s\nมีรูปแบบสามมิติเฉพาะ"
+
+msgid "yearlyRewards/preview/backButton"
+msgstr "ไปยังรางวัลประจำปี"
+
+msgid "yearlyRewards/preview/style2d"
+msgstr "ตัวอย่างรูปแบบสองมิติ"
+
+msgid "yearlyRewards/preview/style3d"
+msgstr "ตัวอย่างรูปแบบสามมิติ"
+
+msgid "yearlyRewards/rank/achieved"
+msgstr "ได้รับอันดับ: %(rank)s"
+
+msgid "yearlyRewards/rank/current"
+msgstr "อันดับปัจจุบัน: %(rank)s"
+
+msgid "yearlyRewards/rewards/crew"
+msgstr "สี่สมาชิกพลรถถังเฉพาะ"
+
+msgid "yearlyRewards/rewardsState/claimed"
+msgstr "ได้รับรางวัล"
+
+msgid "yearlyRewards/rewardsState/guaranteed"
+msgstr "รางวัลรับประกัน"
+
+msgid "yearlyRewards/rewardsState/notAvailable"
+msgstr "ได้รับธงสัญลักษณ์ทั้งหดม %(count)s เพื่อรับรางวัลด่าน"
+
+msgid "yearlyRewards/rewardsState/possible"
+msgstr "รางวัลที่เป็นไปได้"
+
+msgid "yearlyRewards/rewardsState/tooltip/guaranteed"
+msgstr "จะรับรองว่าคุณจะได้รับรางวัลนี้เมื่อจบปี"
+
+msgid "yearlyRewards/rewardsState/tooltip/notAvailable"
+msgstr "หาธงสัญลักษณ์การบุกรุกในจำนวนที่กำหนดเพื่อรับรางวัลของคุณเมื่อจบปี"
+
+msgid "yearlyRewards/rewardsState/tooltip/possible"
+msgstr "คุณจะได้รับรางวัลนี้เมื่อจบปีถ้าคุณยังรักษาอันดับปัจจุบันของคุณได้หรือเพิ่มให้ดีขึ้นก่อนที่จะจบฤดูกาล"
+
+msgid "yearlyRewards/stageDescription/active"
+msgstr "ด่านที่เล่นอยู่"
+
+msgid "yearlyStatistics/battles"
+msgstr "การรบ(เดี่ยว/หมวดรถถัง)"
+
+msgid "yearlyStatistics/generationOfStatistics"
+msgstr "กำลังคำนวณสถิติฤดูกาล..."
+
+msgid "yearlyStatistics/goToSeasonStatistics"
+msgstr "%(icon)sไปยังสถิติฤดูกาล"
+
+msgid "yearlyStatistics/rankStatus/notReceived"
+msgstr "ไม่มีอันดับ"
+
+msgid "yearlyStatistics/rankStatus/received"
+msgstr "อันดับ %(rank)s"
+
+msgid "yearlyStatistics/rating"
+msgstr "คะแนนจัดอันดับ"
+
+msgid "yearlyStatistics/seasonDate/0"
+msgstr "ฤดูใบไม้ร่วง 2025"
+
+msgid "yearlyStatistics/seasonDate/1"
+msgstr "ฤดูหนาว 2026"
+
+msgid "yearlyStatistics/seasonDate/2"
+msgstr "ฤดูใบไม้ผลิ 2026"
+
+msgid "yearlyStatistics/seasonDateInterval"
+msgstr "%(start)s–%(end)s"
+
+msgid "yearlyStatistics/seasonName/0"
+msgstr "ฤดูกาลที่ I มังกรน้ำเงิน"
+
+msgid "yearlyStatistics/seasonName/1"
+msgstr "ฤดูกาลที่ II มังกรโลหิต"
+
+msgid "yearlyStatistics/seasonName/2"
+msgstr "ฤดูกาลที่ III มังกรหยก"
+
+msgid "yearlyStatistics/seasonStatus/active"
+msgstr "ปัจจุบัน"
+
+msgid "yearlyStatistics/seasonStatus/end"
+msgstr "สิ้นสุดแล้ว"
+
+msgid "yearlyStatistics/superPlatoonBattles"
+msgstr "การรบ (หมวดรถถังใหญ่)"
+
+msgid "yearlyStatistics/wins"
+msgstr "อัตราชัยชนะ"

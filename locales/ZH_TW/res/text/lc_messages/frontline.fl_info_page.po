@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "關於戰車遠征"
+
+msgid "about/position/header"
+msgstr "戰車遠征點數分配"
+
+msgid "about/position/text"
+msgstr "每場戰鬥後，您將獲得與排名對應的戰車遠征點數。若您提升了前線階級，也將獲得額外的戰車遠征點數。"
+
+msgid "about/scores/header"
+msgstr "戰車遠征點數"
+
+msgid "about/scores/text"
+msgstr "可在隨機戰鬥與前線模式獲得的特殊戰車遠征貨幣。您可因達到前線階級或依戰鬥結果中的排名獲得戰車遠征點數。車輛可在前線獲得的點數並無上限限制。"
+
+msgid "about/scoresTable/loseHeader"
+msgstr "戰敗"
+
+msgid "about/scoresTable/topCell"
+msgstr "獲得置身前 {{top}} 名的經驗"
+
+msgid "about/scoresTable/winHeader"
+msgstr "勝利"
+
+msgid "about/text"
+msgstr "戰車遠征為一個讓玩家透過獲得戰車遠征點數來挺進階段的長期活動。玩家每完成一個階段可獲得珍貴獎勵。完成特定階段後還可獲取戰車遠征代幣，此特殊貨幣可用於商店的相應頁面購買獨特車輛與其他珍貴獎勵。"
+
+msgid "addons/cellRent/header"
+msgstr "車輛租用"
+
+msgid "addons/cellRent/text_10"
+msgstr "有數輛不同的 {{vehiclesLevel}} 階車輛可使用銀幣來租用。來自同類型與國家之車輛的乘員可調動到租用車輛，不會受到懲罰且不需要重新訓練。"
+
+msgid "addons/cellRent/text_9"
+msgstr "有數輛不同的 {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}} 階車輛{{/}}可使用銀幣來租用。來自同類型與國家之車輛的乘員可調動到租用車輛，不會受到懲罰且不需要重新訓練。"
+
+msgid "addons/cellSpectator/header"
+msgstr "觀察者模式"
+
+msgid "addons/cellSpectator/text"
+msgstr "等待重生時，您可以進入觀察者模式，研究戰況並制定作戰計畫。"
+
+msgid "addons/cellTime/header"
+msgstr "額外時間"
+
+msgid "addons/cellTime/text"
+msgstr "如果戰鬥時間用盡時，您的隊伍仍在佔領基地，您的隊伍將獲得額外時間。如果防守隊伍中斷您佔領基地，那麼額外時間將降為零。"
+
+msgid "addons/header"
+msgstr "其他資訊"
+
+msgid "levelUp/sectionHeader"
+msgstr "{{level}} 階車輛"
+
+msgid "levelUp/text"
+msgstr "與先前相同，您一開始僅能駕駛 {{vehiclesLevelFrom}} 階車輛進入戰鬥，但也可在車庫中準備 {{vehiclesLevelTo}} 階車輛。一旦第二條防線有任何基地（D、E、F）被佔領，雙方隊伍將能部署各自的 {{vehiclesLevelTo}} 階車輛。"
+
+msgid "main/cellDuration/header"
+msgstr "持續時間"
+
+msgid "main/cellDuration/text"
+msgstr "前線將持續 {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}。下次推出的日期將另行宣布。"
+
+msgid "main/cellFrontline/header"
+msgstr "前線"
+
+msgid "main/cellFrontline/text_8"
+msgstr "{{vehiclesLevel}} 階車輛的大規模 30v30 戰鬥，於 {{@ colorLegacy 'FFE4C0'}}Normandie、Kraftwerk{{/}} 與 {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}} 地圖上進行。攻擊者必須摧毀 5 座大口徑火炮中的至少 3 座，防守者則必須捍衛大口徑火炮。"
+
+msgid "main/cellFrontline/text_9"
+msgstr "{{vehiclesLevelFrom}}-{{vehiclesLevelTo}} 階車輛的大規模 30v30 戰鬥，於 {{@ colorLegacy 'FFE4C0'}}Normandie、Kraftwerk{{/}} 與 {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}} 地圖上進行。攻擊者必須摧毀 5 座大口徑火炮中的至少 3 座，防守者則必須捍衛大口徑火炮。"
+
+msgid "main/cellLevel9/header"
+msgstr "{{vehiclesLevel}} 階車輛"
+
+msgid "main/cellLevel9/text"
+msgstr "第二條防線（D、E、F）的其中一個基地被佔領後，您將能駕駛 {{vehiclesLevel}} 階車輛進入戰鬥。"
+
+msgid "main/cellLevels/header"
+msgstr "{{vehiclesLevel}} 階車輛"
+
+msgid "main/cellLevels/text_8"
+msgstr "此模式僅限使用 {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} 階車輛。"
+
+msgid "main/cellLevels/text_9"
+msgstr "僅有 {{vehiclesLevel}} 階車輛可進入戰鬥。"
+
+msgid "main/cellPass/header"
+msgstr "戰車遠征"
+
+msgid "main/cellPass/text"
+msgstr "前線為獲得戰車遠征點數的絕佳機會，您可藉由參與戰鬥與達到全新前線階級來獲得戰車遠征點數。"
+
+msgid "main/cellReserves/header"
+msgstr "戰鬥儲備類別"
+
+msgid "main/cellReserves/text"
+msgstr "戰鬥儲備共有三個類別，每個類別與特定欄位綁定。解鎖與改善的順序取決於車輛類型。"
+
+msgid "main/cellScenarios/header"
+msgstr "情境"
+
+msgid "main/cellScenarios/text"
+msgstr "「前線」模式的戰鬥採用下列情境之一：{{@ colorLegacy 'FFE4C0'}}一般戰鬥{{/}}、{{@ colorLegacy 'FFE4C0'}}作戰支援{{/}}或{{@ colorLegacy 'FFE4C0'}}命運交錯{{/}}。當前戰鬥情境的資訊會在載入畫面中顯示，或在按下 Tab 鍵後顯示。"
+
+msgid "main/sectionHeader"
+msgstr "一般資訊"
+
+msgid "page/backBtn"
+msgstr "返回"
+
+msgid "page/headerUpper"
+msgstr "前線"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "您獲得的前線經驗與戰鬥經驗數量取決於達到的軍階。前線經驗可用來提升您的前線階級。整體來說，共有 {{@ colorLegacy 'FFE4C0'}}20 個階級{{/}}。"
+
+msgid "progression/levelsSection/header"
+msgstr "前線階級"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "{{@ colorLegacy 'FFE4C0'}}前線階級{{/}}帶給您各種獎勵，包括戰車遠征點數、戰鬥儲備點數、點券、技術指南、重新訓練命令、指導許可證及乘員書籍。"
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "{{@ colorLegacy 'FFE4C0'}}前線階級{{/}}帶給您各種獎勵，包括戰鬥儲備點數、點券、技術指南、重新訓練命令及乘員書籍。"
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}軍階{{/}}不僅反映您在特定戰鬥中的效率，也會因此讓您獲得戰鬥經驗加成。此加成會套用到您用來進行該場戰鬥之所有車輛的總基本經驗。當您或隊友達到「上將」軍階後，整個隊伍就會獲得 {{@ colorLegacy 'FFE4C0'}}1.5%{{/}} 到 {{@ colorLegacy 'FFE4C0'}}15%{{/}} 不等的乘員表現加成（即熟練度等級）。"
+
+msgid "progression/ranksSection/header"
+msgstr "軍階"
+
+msgid "progression/ranksSection/text"
+msgstr "模式主打 6 個軍階的系統，玩家可從「士兵」軍階晉升到「 上將」軍階。\n您可透過有效的戰鬥表現（佔領或防守基地；摧毀主要目標）獲得經驗來提升軍階。計入您參與戰鬥之所有車輛獲得的總經驗。"
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "戰鬥經驗加成"
+
+msgid "progression/ranksTable/captain"
+msgstr "上尉"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "乘員表現加成"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "前線經驗"
+
+msgid "progression/ranksTable/general"
+msgstr "上將"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "中尉"
+
+msgid "progression/ranksTable/major"
+msgstr "少校"
+
+msgid "progression/ranksTable/private"
+msgstr "士兵"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "中士"
+
+msgid "progression/sectionHeader"
+msgstr "前線進度"
+
+msgid "progression/text"
+msgstr "在此模式中遊玩時，您將能夠晉升軍階、挺進前線進度並獲得獎勵。"
+
+msgid "reserveCategories/categories/additional"
+msgstr "次要"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "儲備欄位 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "儲備欄位 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "儲備欄位 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "主要"
+
+msgid "reserveCategories/categories/support"
+msgstr "輔助"
+
+msgid "reserveCategories/config/footerText"
+msgstr "在{{@ colorLegacy 'FFE4C0'}}命運交錯{{/}}情境中，戰鬥儲備的解鎖順序與車輛類型無關。"
+
+msgid "reserveCategories/config/header"
+msgstr "依車輛類型的儲備配置"
+
+msgid "reserveCategories/config/text"
+msgstr "在{{@ colorLegacy 'FFE4C0'}}一般戰鬥{{/}}和{{@ colorLegacy 'FFE4C0'}}作戰支援{{/}}情境中，所有車輛類型都能使用全部三個戰鬥儲備欄位。然而，其解鎖順序取決於車輛類型。"
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "驅逐戰車"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "重型戰車"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "輕型戰車"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "中型戰車"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "自走炮"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* 僅有在{{@ colorLegacy 'FFE4C0'}}命運交錯{{/}}情境下{{@ colorLegacy 'FFE4C0'}}購買{{/}}的戰鬥儲備才能提升到此等級。"
+
+msgid "reserveCategories/levels/header"
+msgstr "如何解鎖欄位並改善戰鬥儲備"
+
+msgid "reserveCategories/levels/text"
+msgstr "戰鬥開始時，您可以使用一個戰鬥儲備。其他儲備將在您達到「中士」與「中尉」軍階時解鎖。全部三個儲備將在達到「上尉」與「少校」軍階時改善。"
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "等級 {{@ colorLegacy 'FFE4C0'}}{{level}}{{/}}或 {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}}"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "上尉"
+
+msgid "reserveCategories/ranks/general"
+msgstr "上將"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "中尉"
+
+msgid "reserveCategories/ranks/major"
+msgstr "少校"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "中士"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "士兵"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "命運交錯"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "戰鬥中，玩家可以從適用於所有類型車輛的隨機儲備中進行選擇。在戰鬥前將儲備放入欄位，您在戰鬥中獲得它的機率會提高 {{@ colorLegacy 'FFE4C0'}}10%{{/}}。購買儲備將讓該儲備提升到等級 {{@ colorLegacy 'FFE4C0'}}II{{/}}，並有機會將該儲備提升到等級 {{@ colorLegacy 'FFE4C0'}}IV{{/}}。"
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "前線情境"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "一般戰鬥"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "採用一般前線規則。戰鬥儲備的使用條件不變。"
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "作戰支援"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "解鎖儲備時：{{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "回到戰鬥時：{{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "戰鬥儲備冷卻時間縮短而更緊湊的情境："
+
+msgid "reserveCategories/scenarios/text"
+msgstr "「前線」模式的戰鬥採用下列情境之一：{{@ colorLegacy 'FFE4C0'}}一般戰鬥{{/}}、{{@ colorLegacy 'FFE4C0'}}作戰支援{{/}}，或{{@ colorLegacy 'FFE4C0'}}命運交錯{{/}}。情境會改變在戰鬥中使用戰鬥儲備的條件。當前戰鬥情境的資訊會在載入畫面中顯示，或在按下 Tab 鍵後顯示。"
+
+msgid "reserveCategories/sectionHeader"
+msgstr "戰鬥儲備類別"
+
+msgid "reserveCategories/text"
+msgstr "戰鬥儲備分為三個類別，每個類別有三種儲備。進入戰鬥時，您僅能在一個欄位中放入一個相應類別的儲備。"
+
+msgid "reserveCategories/types/firesupport"
+msgstr "攻擊儲備"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "偵察儲備"
+
+msgid "reserveCategories/types/tactics"
+msgstr "戰術儲備"
+
+msgid "reserves/sectionHeader"
+msgstr "快速儲備"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "快速啟動"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "戰鬥一開始的戰鬥儲備準備時間縮短了 50%。"
+
+msgid "reserves/sectionReload/header"
+msgstr "立即可用"
+
+msgid "reserves/sectionReload/text"
+msgstr "戰鬥儲備將在解鎖後馬上可用。"
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "重振旗鼓"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "駕駛新車輛重返戰鬥時，戰鬥儲備的準備時間縮短 70%。"
+
+msgid "rules/backToFight/header"
+msgstr "返回戰鬥"
+
+msgid "rules/backToFight/text"
+msgstr "若您的車輛遭摧毀，選擇任何其他車輛並返回戰場繼續為勝利奮戰。您可在數個位於側翼與後方的部署區域（重生點）中擇一，從而助您決定戰鬥計畫。防守玩家有更多深入防線後方的重生點可選，也就是說，他們能在遭到突擊時趕緊防禦大口徑火炮。若部署時玩家所選擇的區域有危險，系統也將顯示特殊指示來警告玩家。"
+
+msgid "rules/base/header"
+msgstr "基地佔領"
+
+msgid "rules/base/textBottom"
+msgstr "傷害正在佔領基地的車輛或其配件並不會重置佔領進度，只會暫停佔領。要重置佔領進度，防守者必須摧毀基地圈內的敵方車輛，或將它們逐出基地圈。一旦基地被攻擊者佔領，防守隊伍將無法重新奪回。"
+
+msgid "rules/base/textTop"
+msgstr "{FFE4C0_Start}攻擊隊伍{FFE4C0_End}需依序佔領基地以到達主要目標。每佔領一個基地，將延長戰鬥持續時間 2 分鐘。佔領最後一個基地將會延長 4 分鐘。"
+
+msgid "rules/sectionHeader"
+msgstr "一般規則"
+
+msgid "rules/service/header"
+msgstr "補給環"
+
+msgid "rules/service/text"
+msgstr "補給環可恢復車輛血量、治療所有受傷乘員並補充彈藥。{FFE4C0_Start}補給率為：每秒 100 血量/一名乘員/10%{FFE4C0_End} 的彈藥。"
+
+msgid "rules/weapons/header"
+msgstr "目標：5 座大口徑火炮的 3 座"
+
+msgid "rules/weapons/list/back"
+msgstr "後方裝甲：{{@ colorLegacy 'FFE4C0'}}90 毫米。{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "砲彈{{@ colorLegacy 'FFE4C0'}}無法擊穿{{/}}頂部與正面裝甲。"
+
+msgid "rules/weapons/list/sides"
+msgstr "側面裝甲：{{@ colorLegacy 'FFE4C0'}}180 毫米。{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "側面裝甲：{{@ colorLegacy 'FFE4C0'}}210 毫米。{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "弱點：{{@ colorLegacy 'FFE4C0'}}艙口 (70 毫米) 與通風口 (25 毫米){{/}}。"
+
+msgid "rules/weapons/text"
+msgstr "戰鬥的主要目標是防守隊伍後方的五座炮塔。攻擊隊伍必須摧毀其中三座，而防守者則必須不計代價誓死保衛炮塔。"
+
+msgid "subTitle/differentMonth"
+msgstr "從 {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}} 日{{/}}到 {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}日{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "從 {{@ colorLegacy 'FFE4C0'}}{{startYear}} 年 {{startMonth}} {{from}} 日{{/}}到 {{endYear}} 年 {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}} 日{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "從 {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}日{{/}}到 {{@ colorLegacy 'FFE4C0'}}{{to}}日{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}第一條防線{{/}}的 A、B 及 C 區是雙方隊伍的起始點。"
+
+msgid "winStrategy/header"
+msgstr "制勝策略"
+
+msgid "winStrategy/mapZones"
+msgstr "模式地圖上有三條水平防線："
+
+msgid "winStrategy/secondLine"
+msgstr "第一條防線的區域被佔領後，戰鬥將推進至{{@ colorLegacy 'FFE4C0'}}第二條防線{{/}}的 D、E 及 F 區。"
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}第三條防線{{/}}不畫分區域。戰鬥的最終階段在此展開。大口徑火炮位於此處，而攻擊隊伍必須將其摧毀才能獲得勝利。攻擊者只有在成功佔領第二條防線中的至少一個區域後，才能開始摧毀主要目標。一旦區域失守，防守玩家有 1 分鐘的時間撤離，在那之後該區域將遭受空襲，仍在區域內的所有防守車輛將會被轟炸。另一方面，如果攻擊者在尚未佔領前一塊區域下，就進入第二條或第三條防線的區域，同樣也會遭空襲摧毀。"

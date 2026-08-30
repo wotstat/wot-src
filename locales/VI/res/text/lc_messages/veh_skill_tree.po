@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "Nghiên cứu hết"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "Hiện tại"
+
+msgid "comparison/title"
+msgstr "Nâng cấp"
+
+msgid "comparison/tooltip/body"
+msgstr "Mục cấu hình hiển thị các Nâng cấp ảnh hưởng đến đặc tính xe như thế nào. Chọn Nghiên Cứu Hết để xem toàn bộ hiệu quả từ mọi Nâng cấp hiện có."
+
+msgid "comparison/tooltip/header"
+msgstr "Nâng cấp"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "Chưa nghiên cứu"
+
+msgid "dialog/altConfiguration/description"
+msgstr "Bật các tùy chọn này để có thể chuyển đổi thiết đặt trước trận."
+
+msgid "dialog/altConfiguration/info"
+msgstr "Bạn có thể điều chỉnh chúng bất kỳ lúc nào."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "Thiết đặt Phụ trợ"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "Thiết đặt Cốt yếu"
+
+msgid "dialog/altConfiguration/title"
+msgstr "Cấu hình Khác"
+
+msgid "dialog/common/accept"
+msgstr "Xác nhận"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "%(perks)s nốt"
+msgstr[2] "%(perks)s nốt"
+
+msgid "footer/button/label"
+msgstr "Nghiên cứu"
+
+msgid "footer/description/text/allResearched"
+msgstr "Tất cả các nốt đã được nghiên cứu. Bạn đã có thể truy cập hệ thống Phần thưởng Elite."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "Ví WG tạm thời không khả dụng. Chúng tôi mong các bạn thông cảm."
+
+msgid "footer/description/text/inBattle"
+msgstr "Nốt không khả dụng. Xe đang trong trận."
+
+msgid "footer/description/text/inFormation"
+msgstr "Nốt không khả dụng. Xe đang trong đơn vị tác chiến."
+
+msgid "footer/description/text/needsRepair"
+msgstr "Nốt không khả dụng. Xe cần sửa chữa."
+
+msgid "footer/description/text/notInInventory"
+msgstr "Bạn cần sở hữu xe này để có thể nghiên cứu các nút của nó"
+
+msgid "footer/description/text/researchAvailable"
+msgstr "Chọn một nốt hoặc nhánh nốt để nghiên cứu"
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} nốt"
+
+msgid "footer/text/selectedItem"
+msgstr "Đã chọn: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "Ví WG tạm thời không khả dụng. Chúng tôi mong các bạn thông cảm."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "Nốt không khả dụng. Xe đang trong trận."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "Nốt không khả dụng. Xe đang trong đơn vị tác chiến."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "Nốt không khả dụng. Xe cần sửa chữa."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "Không đủ XP để nghiên cứu nốt đã chọn."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "Đang nghiên cứu, vui lòng chờ..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "Bất khả dụng"
+
+msgid "footer/tooltip/header/info"
+msgstr "Nốt đã chọn"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}."
+msgstr[2] "• {{selectedPerks}}."
+
+msgid "intro/button"
+msgstr "Rõ!"
+
+msgid "intro/button/tooltip"
+msgstr "Chi tiết về Nâng cấp"
+
+msgid "intro/improvements/description"
+msgstr "Kiếm XP Chiến đấu để mở khóa các nốt tăng cường đặc tính xe của bạn. Kết quả cuối cùng có thể cao hoặc thấp hơn giá trị hiển thị do các hệ số cộng và nhân bổ sung được áp dụng sau Bonus từ nốt."
+
+msgid "intro/improvements/title"
+msgstr "Cách Hoạt Động"
+
+msgid "intro/progression/description"
+msgstr "Dành riêng cho xe Cấp XI, các \"Nâng cấp\" giúp bạn tăng cường đặc tính của phương tiện hơn nữa."
+
+msgid "intro/progression/title"
+msgstr "Nâng cấp"
+
+msgid "intro/vanity/description"
+msgstr "Sau khi nghiên cứu mọi nốt, bạn sẽ truy cập Phần thưởng Elite, vốn có thể lấy lúc đạt Mức Uy tín nhất định. Quà bao gồm kiểu mẫu có chiều sâu độc đáo, Stat Tracker và ống bọc nòng Gun Sleeve!"
+
+msgid "intro/vanity/title"
+msgstr "Phần thưởng Elite"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr " (đơn vị)"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr " độ/giây"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr " độ"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/h"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/s"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr " mã lực"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr " s"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr " HP"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "Chức năng này hiện không khả dụng"
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "Đến Nâng cấp"
+
+msgid "notifications/perkAvailable/title"
+msgstr "Bạn có đủ XP để cải thiện xe mình!"
+
+msgid "rewardScreen/button/accept"
+msgstr "Rõ"
+
+msgid "rewardScreen/button/check"
+msgstr "Xem ở Ngoại thất"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rarity}} {{rewardName}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "Cho việc đạt Mức Uy tín {{prestigeLevel}} bằng {{level}} {{type}} {{name}}"
+
+msgid "rewardScreen/title"
+msgstr "PHẦN THƯỞNG ELITE"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "Dành riêng cho xe Cấp XI, các \"Nâng cấp\" giúp bạn tăng cường đặc tính của phương tiện hơn nữa."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "Nâng cấp"
+
+msgid "tooltips/common/cost"
+msgstr "Chi phí: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "Cải thiện khả năng hấp thụ thiệt hại từ đạn HE và đâm/húc."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "Tăng sát thương gây ra bởi đạn HE."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "Tăng vận tốc bay của đạn nổ mạnh (HE)."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} phân tán của phát thứ hai trong cơ chế Burst."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} cooldown khi bắn trong cơ chế Burst."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} Bonus cho tốc độ reload mỗi mức hiệu quả tái nạp."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "Kéo dài thời lượng mức hiệu quả tái nạp thêm {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "Kéo dài thời lượng mức hiệu quả tái nạp thêm {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} Bonus cho tốc độ tái nạp mỗi mức hiệu quả."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cooldown trước khi cơ chế có thể sử dụng lại."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cooldown trước khi cơ chế có thể sử dụng lại."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "Kéo dài thời lượng của cơ chế thêm {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "Kéo dài thời lượng của cơ chế thêm {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "Giảm độ phân tán ở 100 m đối với các phát sạc-đơn: {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "Tăng sát thương gây ra bởi các phát sạc-đơn sử dụng đạn tiêu chuẩn và đạn đặc biệt: {colorTagOpen}{value} HP{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "Tăng vận tốc đạn của các phát sạc đơn: {colorTagOpen}{value} m/s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} thời gian nạp lại phát sạc-đơn."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "Tăng HP của hệ giảm xóc và đẩy nhanh tốc sửa chữa."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "Giảm khoản phạt khi gác đạn hoặc động cơ bị hư hỏng, đồng thời giảm khả năng kíp lái chấn thương lúc xe chịu thiệt hại."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "Giảm kích thước vòng ngắm sau khi bắn."
+
+msgid "tooltips/description/aimingTime"
+msgstr "Giảm thời gian ngắm của xe."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "Giảm thời gian ngắm của xe trong cơ chế Bắn Đơn."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "Tăng sát thương gây ra bởi mọi loại đạn."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "Tăng tốc độ bay của mọi loại đạn."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "Tăng lượng thiệt hại mà gác đạn có thể chịu trước khi bị nổ."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "Giảm khoản phạt khi gác đạn bị hư hại."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "Tăng sát thương gây ra bởi đạn Thường."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} tốc độ xoay khi Booster đang hoạt động."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} tốc độ tối đa khi Booster đang hoạt động."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cooldown cho đến khi Booster sạc đầy."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "Kéo dài thời lượng tối đa của Booster thêm {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} Boost công suất động cơ do Thruster cung cấp."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cooldown trước khi Thruster có thể sử dụng lại."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} Boost công suất động cơ do Thruster cung cấp."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "Tăng số lần dùng Thruster tối đa trong một trận thêm {colorTagOpen}{value}{colorTagClose}."
+
+msgid "tooltips/description/crewProtection"
+msgstr "Giảm xác suất chấn thương thành viên kíp lái khi xe chịu thiệt hại."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "Giảm phân tán khi súng bị hư hại."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "Tăng tốc độ tiến của xe trong cơ chế Hành trình."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "Tăng tốc độ lùi của xe trong cơ chế Hành trình."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "Giảm khoản phạt khi động cơ bị hư hại."
+
+msgid "tooltips/description/enginePower"
+msgstr "Tăng công suất động cơ, giúp xe bứt tốc và lên dốc nhanh hơn."
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} thời gian để bắt đầu tái nạp."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} độ trễ để bắn sau khi tái nạp bị gián đoạn."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} khoản phạt thời gian tái nạp sau khi bắn viên đạn cuối cùng trong cassette."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value0}%{colorTagClose} mức phạt độ phân tán ở 100 m và {colorTagOpen}{value1}%{colorTagClose} mức phạt thời gian ngắm của súng khi vượt quá giới hạn."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "Tăng tốc độ tích lũy sạc: {colorTagOpen}{value}%/giây{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "Giảm lượng sạc hao hụt sau khi bắn: {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "Tăng {colorTagOpen}{value0} HP{colorTagClose} đột biến sát thương hậu-hạn và {colorTagOpen}{value1}%{colorTagClose} Bonus sát thương tối đa hậu-hạn."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "Tăng tốc độ tiến của xe."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "Tăng Bonus phân tán mỗi mức chính xác thêm {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "Tăng {colorTagOpen}{value} km/h{colorTagClose} tốc độ tối đa mà mức chính xác có thể tích được."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cần đạt mức chính xác tiếp theo."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} Bonus ổn định nòng ở mức chính xác tối đa."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} thời gian nạp đạn của súng phụ."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} thời gian nạp đạn của súng phụ."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "Tăng {colorTagOpen}{value} s{colorTagClose} thời gian lộ hình của xe địch bị đánh dấu."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cooldown trước khi cơ chế có thể sử dụng lại."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cooldown ban đầu trước khi cơ chế có thể sử dụng."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "Tăng thêm {colorTagOpen}{value}%{colorTagClose} thiệt hại gây ra từ đạn đồng minh lên xe địch bị đánh dấu."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "Tăng {colorTagOpen}{value} km/h{colorTagClose} tốc độ tối đa mà làm nóng có thể tạo được."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} Bonus tối đa cho độ phân tán nhờ làm nóng."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} Bonus tối đa cho sát thương nhờ làm nóng."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cần để đạt mức làm nóng cao nhất."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value} mét{colorTagClose} phân tán của súng trong cơ chế Bắn Song song."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "Tăng {colorTagOpen}{value} độ/s{colorTagClose} tốc xoay tháp pháo trong cơ chế Bắn Song song."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian ngắm trong cơ chế Bắn Song song."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "Tăng {colorTagOpen}{value} km/h{colorTagClose} tốc độ tiến tối đa trong cơ chế Bắn Song song."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cần để vào cơ chế Direct Drive."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cần để đạt hiệu suất cao nhất trong cơ chế Direct Drive."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} công suất động cơ trong cơ chế Direct Drive."
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} tốc độ tiến trong cơ chế Direct Drive."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} mức boost công suất động cơ mà Assist Áp mang lại."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "Tăng {colorTagOpen}{value} km/h{colorTagClose} tốc độ lùi tối đa khi Assist Áp có tác dụng."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "Kéo dài thời lượng Assist Áp thêm {colorTagOpen}{value} s{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cooldown trước khi Assist Áp có thể sử dụng lại."
+
+msgid "tooltips/description/gunDepression"
+msgstr "Tăng góc hạ nòng của súng."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "Cải thiện độ chụm đạn nội trong vòng ngắm."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "Cải thiện độ chụm đạn nội trong vòng ngắm ở cơ chế Bắn Đơn."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "Cải thiện độ ổn định của nòng súng trong mọi tình huống."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "Cải thiện độ ổn định của nòng súng khi di chuyển và xoay thân."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "Cải thiện độ ổn định của nòng súng khi di chuyển thân."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "Cải thiện độ ổn định của nòng súng khi xoay thân."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "Cải thiện độ ổn định của nòng súng khi di chuyển và xoay thân ở cơ chế Bắn Đơn."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "Cải thiện độ ổn định của nòng súng khi xoay tháp pháo."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "Cải thiện độ ổn định của nòng súng khi xoay tháp pháo ở cơ chế Bắn Đơn."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "Tăng góc xoay ngang tối đa của súng."
+
+msgid "tooltips/description/hitPoints"
+msgstr "Tăng độ sống sót của xe, giúp chịu được nhiều thiệt hại hơn trước khi bị hạ."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "Giảm thời gian giãn cách trong băng (nạp giữa các viên)."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "Giảm khả năng bị địch phát hiện khi khai hỏa."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian trễ làm mát súng."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} lượng nhiệt mà súng tạo ra mỗi phát bắn."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} tốc độ nguội súng bị nóng."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "Tăng sát thương gây ra bởi đạn khác HE."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "Cho phép bạn cấu hình một Loadout dự phòng về thiết bị và ứng dụng kỹ thuật."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} độ trễ làm mát súng."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} tốc độ nguội súng bị nóng và quá nhiệt."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} lượng nhiệt mà súng tạo ra mỗi phát bắn."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} tốc độ nguội súng bị quá nhiệt."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cần để đổi giữa các cơ chế."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} năng lượng được thụ động tạo ra mỗi giây trong cơ chế Turbo."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} năng lượng được thụ động tạo ra mỗi giây trong cơ chế Tiếp chiến."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "Kéo dài thời lượng hiệu ứng thêm {colorTagOpen}{value} s{colorTagClose} trong cả cơ chế Turbo và Tiếp chiến."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} sát thương đâm/húc gây ra cho xe địch."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} sát thương đâm/húc gây ra cho hệ giảm xóc của xe địch."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} sát thương đâm/húc gây ra cho xe địch."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "Tăng {colorTagOpen}{value}%{colorTagClose} sát thương đâm/húc gây ra cho xe địch."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian trước khi bắn lại sau lúc sạc quá nhiệt."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "Tăng {colorTagOpen}{value} s{colorTagClose} thời gian khả dụng để bắn ở mức nhiệt cao nhất."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian trước khi bắn lại sau lúc sạc quá nhiệt."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "Tăng {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose} Bonus sát thương mỗi mức nhiệt."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "Giảm thiệt hại hứng chịu từ địch đâm/húc."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "Giảm thời gian tái nạp súng trong cả cơ chế Bắn Song song và Bắn Đơn."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "Tăng tốc độ lùi của xe."
+
+msgid "tooltips/description/roleSlot"
+msgstr "Chỉ định một danh mục cho ô thiết bị thứ hai."
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "Cải thiện {colorTagOpen}{value}%{colorTagClose} tốc độ xoay thân và nâng súng trong cơ chế Lô-cốt."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "Giảm {colorTagOpen}{value} s{colorTagClose} thời gian cần để thoát cơ chế Lô-cốt."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} phân tán của súng trong cơ chế Lô-cốt."
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "Giảm {colorTagOpen}{value}%{colorTagClose} thời gian tái nạp súng trong cơ chế Lô-cốt."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "Tăng HP thùng nhiên liệu và các mô-đun động cơ của xe."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "Giảm khoản phạt khi gác đạn và động cơ bị hư hại."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "Tăng sát thương mà đạn của bạn gây ra cho mô-đun xe địch."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "Cho phép bạn cấu hình một Loadout dự phòng về đạn và vật phẩm."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "Tăng sát thương gây ra bởi đạn Đặc biệt."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "Tăng sức xuyên của đạn đặc biệt."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "Tăng tốc độ bay của đạn đặc biệt."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "Giảm độ ẩn giấu của xe địch nấp sau cành lá."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "Giảm độ ẩn giấu của xe địch đang di chuyển."
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "Tăng sát thương gây ra bởi đạn Thường."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "Tăng sức xuyên của đạn thường."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "Tăng tốc độ bay của đạn thường."
+
+msgid "tooltips/description/stunDuration"
+msgstr "Giảm thời gian xe bị choáng do đạn địch."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "Tăng góc xoay ngang tối đa của tháp pháo."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "Giảm phân tán của súng khi quay tháp pháo ở cơ chế Tiếp chiến."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "Tăng tốc độ xe khi lái tiến và lùi."
+
+msgid "tooltips/description/viewRange"
+msgstr "Cho phép bạn phát hiện xe địch từ khoảng cách xa hơn."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "Cấp trạng thái Elite cho xe"
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "Nghiên cứu hết các nốt khác để có thể nghiên cứu nốt này."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "Loại: Ẩn giấu"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "Loại: Hỏa lực"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "Nâng cấp Cơ chế"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "Loại: Cơ động"
+
+msgid "tooltips/perk/category/special"
+msgstr "Nâng cấp Đặc biệt"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "Loại: Trinh sát"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "Loại: Sống sót"
+
+msgid "tooltips/special/tapToModify"
+msgstr "Click để chỉnh sửa sau khi nghiên cứu nốt."
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "Hấp thụ Thiệt hại HE"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "Sát thương Đạn HE"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "Độ xuyên Đạn HE"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "Vận tốc đạn HE"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "Damper Khối lượng Bán-Chủ động"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "Rammer Cải tiến Chain-Driven"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "Extractor Thanh Xoắn Bán-Tự động"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "Air Filtration Khoang Chiến đấu Advanced"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "Quạt Ly tâm Overpressure"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "Clamp Đạn Modified"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "Compressor cao Output"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "Piston Compressor 6000 PSI"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "Hệ thống Pneumatic 6000 PSI"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "Xy-lanh Áp suất Cao Additional"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "Nâng cao nhất quán đạn đạo"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "Sạc đơn mở rộng"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "Sạc đơn nhồi"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "Tách sạc nhẹ"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "Thêm Cơ số Đạn"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "Bảo vệ Giảm xóc Nâng cao"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "Bảo vệ Kíp lái và Mô-đun Nâng cao"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "Kích thước Vòng ngắm"
+
+msgid "tooltips/title/aimingTime"
+msgstr "Thời gian Ngắm"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "Thời gian Ngắm"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "Sát thương Mọi loại Đạn"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "Vận tốc Đạn"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "HP Gác Đạn"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "Phạt Gác Đạn"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "Sát thương Đạn Thường"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "Vectoring lực đẩy"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "Pump đẩy High-Flow"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "Cooling bay hơi"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "Nozzle thẩm thấu Cooled"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "Chất đẩy High-Energy"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "Extractor Thruster Bán-Tự động"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "Optimization Hình Lõi"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "Bộ trữ Booster Expanded"
+
+msgid "tooltips/title/chassisHP"
+msgstr "HP hệ giảm xóc"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "Tốc độ Sửa hệ giảm xóc"
+
+msgid "tooltips/title/crewProtection"
+msgstr "Bảo vệ Kíp lái"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "Phân tán Súng tình huống"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "Tốc độ Tiến cơ chế Hành trình"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "Tốc độ Lùi cơ chế Hành trình"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "Xác suất Cháy Động cơ"
+
+msgid "tooltips/title/engineHP"
+msgstr "HP Động cơ"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "Phạt Động cơ"
+
+msgid "tooltips/title/enginePower"
+msgstr "Công suất Động cơ"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "Hose thủy lực Optimization"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "Sequence nạp Optimization"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "Mechanism nạp Improved"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "Áo cách nhiệt nòng"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "Phát xoay chiều cao Output"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "Dây dẫn điện trở thấp"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "Limiter đầu ra sửa đổi"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "Tốc độ Tiến"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "HP Thùng Nhiên liệu"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "Sensor lực Coriolis"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "Sensor hồi chuyển Inclination"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "Terminal nhập Enhanced"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "Sensor quay High-Precision"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "Stowage đạn phụ Improved"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "Rammer súng phụ"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "Mechanism bám sát Advanced"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "Heatsink hiệu suất High-Effi"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "Máy phát High-Amp"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "Laser Ruby Phân tán thấp"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "Take-Off nguồn Modified"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "Sensor Điều khiển Twin Thermal"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "Control nhiệt Accurate"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "Alternator cao Output"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "Cradle súng Preloaded"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "System xoay Advanced"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "System Điều khiển Inclination"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "Governor mô-men xoắn Released"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "Adjustment tỷ lệ Gear"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "Tuabin hình học Optimization"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "Manifold ống Optimization"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "Limiter vòng tua Modified"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "Van điều áp Adjusted"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "Cổ góp xả hiện đại hóa"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "Bình khí nén dung tích lớn"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "Máy nén khí hiệu suất cao"
+
+msgid "tooltips/title/gunDepression"
+msgstr "Hạ nòng"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "Phân tán của Súng"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "Phân tán của Súng"
+
+msgid "tooltips/title/gunElevation"
+msgstr "Nâng nòng"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "Ổn định Súng Toàn phần"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "Ổn định Súng Một phần"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "Ổn định Chuyển động"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "Ổn định Xoay"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "Ổn định Súng Một phần"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "Ổn định Súng Một phần"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "Ổn định Súng Một phần"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "Cải thiện Xoay Nòng"
+
+msgid "tooltips/title/hitPoints"
+msgstr "Sức Kháng cự (HP)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "Tốc độ Nâng Thân"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "Tốc độ Xoay Thân"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "Thời gian Giãn cách Trong băng"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "Ẩn giấu Sau bắn"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "Chất lưu Heat Transfer Low-Temp"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "Vỏ tản Thermal High-Conductivity"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "Tối ưu hóa Heat Pipe"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "Sát thương Đạn khác HE"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "Loadout Thiết bị và ỨDKT"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "Lớp phủ Chromium Liner"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "Nòng High-Conductivity Gun"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "Chất đẩy Lower Flame Temperature"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "System cưỡng bức Vent"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "Rotor tuabin Lightweight"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "Alternator phụ-cao Output"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "Control chỉnh lưu Advanced"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "Array tụ điện Hybrid"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "Hardening mép cục bộ"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "Track thép High-Alloy"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "Thấm cacbon Deep Local"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "Thấm cacbon Local Surface"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "Sensor nhiệt High-Accuracy"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "Heater buồng nạp Low-Inertia"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "Tray sạc Mechanized"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "Control quá tải Thermal"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "Giảm Thiệt hại Đâm/húc"
+
+msgid "tooltips/title/reloadTime"
+msgstr "Thời gian Nạp đạn"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "Thời gian Nạp đạn"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "Tốc độ lùi"
+
+msgid "tooltips/title/roleSlot"
+msgstr "Danh mục Ô thứ Hai"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "Pump thủy lực Piston trục"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "Synchronizer đa-nón Powerpack"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "Rotor cân bằng Precision"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "Rammer thủy lực Driven"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "Boost HP mô-đun Selective"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "Protection mô-đun Selective"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "Sát thương mô-đun của đạn"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "Loadout Đạn và Vật phẩm"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "Sát thương Đạn Đặc biệt"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "Độ xuyên Đạn đặc biệt"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "Vận tốc Đạn đặc biệt"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "Bonus Phát hiện: Tán lá"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "Bonus Phát hiện: Di chuyển"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "Sát thương Đạn Thường"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "Độ xuyên Đạn thường"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "Vận tốc Đạn thường"
+
+msgid "tooltips/title/stunDuration"
+msgstr "Thời lượng Choáng"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "Cải thiện xoay tháp pháo"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "Tốc độ Quay Tháp pháo"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "Ổn định Xoay Tháp pháo"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "Tốc độ xe"
+
+msgid "tooltips/title/viewRange"
+msgstr "Tăng tầm nhìn"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "Nghiên cứu nốt cuối cùng để mở khóa"
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Nhận thưởng đặc biệt cho xe Cấp XI gồm kiểu mẫu có chiều sâu, Stat Tracker và ống bọc nòng Gun Sleeve."
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "Phần thưởng Elite"
+
+msgid "vanity/available/subtitle"
+msgstr "Nhận quà cho Mức Uy tín của xe mình"
+
+msgid "vanity/available/tooltip"
+msgstr "Mức Uy tín Hiện tại"
+
+msgid "vanity/completed/subtitle"
+msgstr "Chúc mừng! Tất cả phần thưởng đã được nhận."
+
+msgid "vanity/completed/tooltip"
+msgstr "Mức Uy tín Hiện tại"
+
+msgid "vanity/disabled/subtitle"
+msgstr "Có thể kiếm được sau khi nghiên cứu nốt cuối cùng"
+
+msgid "vanity/disabled/tooltip"
+msgstr "Xe chưa đạt trạng thái Elite"
+
+msgid "vanity/reward/level/tooltip"
+msgstr "Mức Uy tín cần có để nhận thưởng"
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "Ống bọc nòng Gun Sleeve độc quyền, giúp xe của bạn nổi như cồn ngay trên chiến trường."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "Một tùy biến mới lạ, hiển thị số xe mà bạn đã diệt."
+
+msgid "vanity/rewardType/description/style"
+msgstr "Kiểu mẫu 2D đặc biệt với hiệu ứng thị giác, nhìn như 3D, dành riêng cho xe Cấp XI."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "Phụ tùng 3D Gun Sleeve"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "Stat Tracker"
+
+msgid "vanity/rewardType/title/style"
+msgstr "Kiểu mẫu chiều sâu"
+
+msgid "vanity/title"
+msgstr "PHẦN THƯỞNG ELITE"

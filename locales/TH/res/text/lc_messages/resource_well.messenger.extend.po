@@ -1,0 +1,50 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "โรงประกอบเปิดขึ้นอีกครั้ง!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr "ทางเรากำลังเริ่มทำงานในโครงการต่อไป เราจะแจ้งให้คุณทราบว่าเราทำการพัฒนาจนเสร็จสิ้นเมื่อใด ไว้พบกันใหม่นะ!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "โรงประกอบกำลังจะปิดลง"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr "การส่งพาหนะที่มีเลขสำเร็จแล้ว ทางเราจะเริ่มทำการประกอบ %(vehicle)s ในการปรับแต่งมาตรฐาน รีบเข้าล่ะ จำนวนพาหนะนั้นมีจำกัด!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr "ทำการประกอบพาหนะสำเร็จแล้ว พาหนะทั้งหมดได้ถูกส่งไปยังเหล่าเจ้าของแล้ว"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "รายงานโรงประกอบ"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/twoParallelProducts/text"
+msgstr "การส่ง %(soldOutVehicle)s สำเร็จแล้ว คุณจะยังมีโอกาสในการซื้อ %(availableVehicle)s ถ้าคุณใช้ทรัพยากรแต่ไม่ได้ทำการซื้อให้เสร็จสิ้นในเวลา พวกมันจะถูกส่งคืนบัญชีของคุณในไม่ช้า แต่รีบเข้าล่ะ จำนวนพาหนะนั้นมีจำกัด!"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr "ทำการประกอบพาหนะเรียบร้อย พาหนะทั้งหมดถูกส่งมอบให้เหล่าเจ้าของแล้ว ทรัพยากรทั้งหมดที่ใช้ไปจะถูกส่งคืนบัญชีของคุณในไม่ช้า"
+
+msgid "serviceChannelMessages/resourceWell/oneVehicleStart/text"
+msgstr "ผู้การ คุณมีโอกาสในการได้เป็นเจ้าของ %(vehicle)s พร้อมรูปแบบสามมิติมีเลข จำนวนพาหนะเหล่านี้นั้นมีจำกัดนะ!"
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr "โรงประกอบไม่มีให้ชั่วคราวเนื่องจากการซ่อมบำรุง"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/additionalText"
+msgstr "หมายเลขรูปแบบ: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/reward/serialVehicle/text"
+msgstr "ได้รับ %(vehicle)s เฉพาะจากโรงประกอบ"
+
+msgid "serviceChannelMessages/resourceWell/reward/title"
+msgstr "ได้รับ %(vehicle)s แล้ว!"
+
+msgid "serviceChannelMessages/resourceWell/reward/vehicle/text"
+msgstr "ได้รับ %(vehicle)s จากโรงประกอบ"
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "โรงประกอบกำลังเปิดอยู่"
+
+msgid "serviceChannelMessages/resourceWell/twoVehiclesStart/text"
+msgstr "ผู้การ นี่คือโอกาสของคุณในการคว้า %(firstVehicle)s และ %(secondVehicle)s! แต่รีบเข้าล่ะเพราะพวกมันมีจำนวนจำกัด!"

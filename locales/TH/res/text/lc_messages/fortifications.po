@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "ผู้เล่น"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "ต่อเดือน"
+
+msgid "ClanListWindow/table/role"
+msgstr "ตำแหน่ง"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "ต่อสัปดาห์"
+
+msgid "battleQueue/clanPosition"
+msgstr "ตำแหน่ง: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "ตำแหน่ง:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "กำลังหาข้าศึก:"
+
+msgid "battleQueue/waitBattle"
+msgstr "กำลังรอการรบ:"
+
+msgid "battleQueue/yourTeam"
+msgstr "กองเฉพาะกิจของคุณ:"
+
+msgid "disconnected/Warning"
+msgstr "โปรดทราบ!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "ฐานที่มั่นไม่มีให้ชั่วคราว ลองใหม่ภายหลัง"
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "ฐานที่มั่นไม่มีให้ในการร่อนเร่ ในการเข้าฐานที่มั่นให้ไปยังภูมิภาคของคุณ"
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "สมาชิกกองทัพ"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "ทหารไร้สังกัด"
+
+msgid "fortVehPopover/btnSave"
+msgstr "บันทึกการเลือก (%(count)d)"
+
+msgid "inspire/inspired"
+msgstr "การปลุกใจ"
+
+msgid "inspire/inspiring"
+msgstr "การปลุกใจ"
+
+msgid "mainWindow/maintenance/body"
+msgstr "เราขออภัยในความไม่สะดวก"
+
+msgid "mainWindow/maintenance/button"
+msgstr "อัพเดต"
+
+msgid "mainWindow/maintenance/header"
+msgstr "เกิดข้อผิดพลาดในการโหลดข้อมูล"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "บรรยายสรุปเพิ่มเติม"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "ค่าตอบแทนการรบ"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "การดำเนินกลยุทธ์"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "การฝึกทางยุทธวิธี"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "ผลเพิ่มเติม"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "สั่งการให้ปืนใหญ่ทำการระดมยิงในพื้นที่ที่เลือกเอาไว้ในการปะทะและการรบรุกคืบหนึ่งครั้ง"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "เพิ่มโบนัสให้คุณสมบัติหลักและความสามารถทั้งหมดของพลรถถังทุกคนในพาหนะของคุณรวมไปถึงพลรถถังของพันธมิตรที่อยู่ใกล้ๆ ในการปะทะและการรบรุกคืบหนึ่งครั้ง"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "กำลังสำรองสามารถเปิดใช้ก่อนการรบได้"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "กำลังสำรองสามารถเปิดใช้ได้ก่อนการรบรุกคืบเท่านั้น"
+
+msgid "reserves/tooltip/empty"
+msgstr "คุณไม่มีกำลังสำรองให้ใช้งาน"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "%(count)s ในโรงเก็บ"
+
+msgid "reserves/tooltip/level"
+msgstr "ระดับ %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "ผลเมื่อใช้งาน"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "สามารถเปิดใช้ได้"
+
+msgid "reserves/tooltip/selected"
+msgstr "เปิดใช้"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "คลิกเพื่อดูรายชื่อกำลังสำรองที่คุณเปิดใช้ได้"
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "กำลังสำรองสามารถเปิดใช้ได้โดยผู้บังคับการกองเฉพาะกิจในตำแหน่งผู้บังคับการ รองผู้บังคับการ นายทหารกำลังพล หรือนายทหารยุทธการเท่านั้น"
+
+msgid "roster/clanMembersNotEnough"
+msgstr "มีสมาชิกกองทัพในกองเฉพาะกิจไม่พอ: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "การรบจะเริ่มภายใน %(nextDate)s นาที"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "เวลาเริ่มจะถูกระบุภายหลัง"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "การรบสิ้นสุดใน %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "ทำการปะทะได้"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "การรบต่อไปจะเริ่มใน %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "การรบเริ่มขึ้นใน %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "การรบเริ่มขึ้นวันนี้ใน %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "การรบจะเริ่มพรุ่งนี้ใน %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "เวลาเริ่มจะถูกระบุภายหลัง"
+
+msgid "sortie/introView/title"
+msgstr "ฐานที่มั่น: การรบ"
+
+msgid "sortie/listView/enterBtn"
+msgstr "เข้าร่วม"
+
+msgid "sortie/listView/enterText"
+msgstr "คุณสามารถเข้าร่วมทีมในฐานะอาสาสมัครได้"
+
+msgid "sortie/listView/notSelected"
+msgstr "เลือกกองกำลังเฉพาะกิจจากรายชื่อทางด้านซ้าย\nคลิกเพื่อดูคำอธิบายโดยละเอียด"
+
+msgid "sortie/listView/teamMembers"
+msgstr "สมาชิกทีม: %(current)s / %(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "พาหนะ:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "ทหารไร้สังกัด"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "กำลังรวมโดยอัตโนมัติ"
+
+msgid "sortie/room/candidates"
+msgstr "อาสาสมัคร"
+
+msgid "sortie/room/chat"
+msgstr "ช่องสนทนา"
+
+msgid "sortie/room/description"
+msgstr "กองกำลังเฉพาะกิจที่สร้างขึ้นจะเข้ารบในการรบแบบสุ่มกับกองทัพข้าศึกบนพื้นที่ไร้ผู้ครอง ระดับยานเกราะจะถูกกำหนดโดยชนิดของกลุ่มที่เลือกไว้"
+
+msgid "sortie/room/fight"
+msgstr "ออกรบ!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "เชิญผู้เล่น"
+
+msgid "sortie/room/leaveBtn"
+msgstr "ไปยังการรวมกองเฉพาะกิจ"
+
+msgid "sortie/room/level"
+msgstr "ระดับ %(level)s"
+
+msgid "sortie/room/members"
+msgstr "สมาชิกทีม: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "ไม่พร้อม"
+
+msgid "sortie/room/ready"
+msgstr "พร้อม!"
+
+msgid "sortie/room/title"
+msgstr "กองกำลังเฉพาะกิจ"
+
+msgid "sortie/slot/emptySlot"
+msgstr "ว่าง"
+
+msgid "sortie/slot/takePlace"
+msgstr "เลือกช่อง"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "เลือกพาหนะะในการเข้าปะทะ เครื่องหมายสีแดงแสดงว่ายานเกราะยังไม่พร้อมรบ"
+
+msgid "stronghold/teamHeader"
+msgstr "สมาชิกกองเฉพาะกิจ"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "เลือกพาหนะสำหรับทหารไร้สังกัด"
+
+msgid "strongholdPopover/header"
+msgstr "การเลือกพาหนะ"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "พาหนะที่เลือก:"
+
+msgid "strongholdbuilds/direction"
+msgstr "หัวหาดพันธมิตร %(direction)s"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "ทางเหนือ"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "ทางตะวันออก"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "ด้านใต้"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "ด้านตะวันตก"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "หัวหาดข้าศึก"
+
+msgid "strongholdbuilds/mapName"
+msgstr "แผนที่: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "แผนที่จะถูกเลือกภายหลังเริ่มการรบรุกคืบ"
+
+msgid "strongholdbuilds/point1"
+msgstr "ปราการ"
+
+msgid "strongholdbuilds/point2"
+msgstr "แนวกำลังสำรอง"
+
+msgid "strongholdbuilds/point3"
+msgstr "แนวหน้า"
+
+msgid "strongholdbuilds/point4"
+msgstr "แนวหน้า"
+
+msgid "strongholdbuilds/point5"
+msgstr "แนวกำลังสำรอง"
+
+msgid "strongholdbuilds/point6"
+msgstr "ปราการ"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "x%(reward)s สำหรับชัยชนะแรกของแต่ละวันในการรบรุกคืบที่หัวหาดนี้"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "สำหรับการป้องกันปราการเมื่อเสียทั้งสองแนวรบ"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "สำหรับการป้องกันแนวกำลังสำรองเมื่อเสียแนวหน้าไป"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "สำหรับการป้องกันทั้งสองแนวรบโดยไม่ได้ยึดแนวรบข้าศึก"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "จากการยึดในแนวหน้าเท่านั้น"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "สำหรับการยึดทั้งสองแนวรบโดยไม่ได้ยึดปราการ"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "สำหรับการยึดปราการข้าศึก"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "จากกำลังสำรองใบเบิก"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "มอบให้หลังการรบรุกคืบ"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "ซ่อนจากทหารไร้สังกัด"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "แสดงกองเฉพาะกิจ"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "แสดงให้ทหารไร้สังกัดเห็น"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "ซ่อนกองเฉพาะกิจ"
+
+msgid "strongholddirection/A"
+msgstr "ทางเหนือ"
+
+msgid "strongholddirection/B"
+msgstr "ทางตะวันออก"
+
+msgid "strongholddirection/C"
+msgstr "ทางใต้"
+
+msgid "strongholddirection/D"
+msgstr "ทางตะวันตก"
+
+msgid "strongholdinfo/sortie"
+msgstr "การปะทะในดิวิชัน %(level)s"
+
+msgid "strongholdinfo/stronghold"
+msgstr "การรบรุกคืบจากหัวหาด %(direction)s"
+
+msgid "strongholdmap/randomMap"
+msgstr "แผนที่สุ่ม"
+
+msgid "strongholdreserve/boost"
+msgstr "สร้างแรงบันดาลใจ"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "ยานขนส่งพิกัดสูง"
+
+msgid "strongholdreserve/requisition"
+msgstr "ใบเบิก"
+
+msgid "strongholdreserve/support"
+msgstr "การโจมตีปืนใหญ่"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "ในการปะทะและการรบรุกคืบ 1 ครั้ง"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "สำหรับผลการรุกคืบ"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "เปิดใช้งานก่อนเริ่มการรบ"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "เปิดใช้งานในช่วงเริ่มการรบรุกคืบ"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "เปิดใช้เมื่อกำลังสำรองถูกใช้ในการรบ"
+
+msgid "strongholdtable/rating"
+msgstr "อันดับ"
+
+msgid "strongholdtable/roster"
+msgstr "การจัดทีม"
+
+msgid "strongholdtable/tech"
+msgstr "พาหนะ"
+
+msgid "strongholdtitle/sortie"
+msgstr "การปะทะ"
+
+msgid "strongholdtitle/stronghold"
+msgstr "การรบรุกคืบจากหัวหาด %(direction)s"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}Border{/HEADER}{BODY}ดินแดนเป็นกลาง ผู้ชนะจะโจมตีแนวรบข้าศึกในการรบถัดไป ถ้าการรบจบด้วยการเสมอ จะทำการเลือกทีมโจมตีรอบถัดไปด้วยการสุ่ม{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "การรบรุกคืบจากหัวหาด %(direction)s"
+
+msgid "strongholdtooltips/hours"
+msgstr "ชม."
+
+msgid "strongholdtooltips/minuts"
+msgstr "นาที"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "การปะทะในดิวิชัน %(level)s"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "ชนิดของพาหนะถูกกำหนดให้ทหารไร้สังกัดโดยอัตโนมัติภายหลังคุณคลิกปุ่ม ออกรบ!\n\nคลิกเพื่อยืนยันหรือยกเลิกชนิดพาหนะที่เลือกไว้สำหรับทหารไร้สังกัด"
+
+msgid "unit/window/willSearchPlayers"
+msgstr "ทหารไร้สังกัดจะถูกเพิ่มเข้าตำแหน่งว่างโดยอัตโนมัติ"

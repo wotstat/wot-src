@@ -1,0 +1,545 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-12-27 10:00+0300\nLast-Translator: \nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/common/description/autoLoaderGun"
+msgstr "逐一射击弹匣中的数发炮弹，每一发会随着时间自动装填。"
+
+msgid "abilities/common/description/autoLoaderGunBoost"
+msgstr "逐一射击弹匣中的数发炮弹，每一发会随着时间自动装填。装填期间，为下一发炮弹的装填速度提供加成。"
+
+msgid "abilities/common/description/autoShootGun"
+msgstr "快速发射完弹匣中的炮弹，藉此在短时间内造成较高伤害，但也牺牲了穿透力与准度。在近距离战斗时最为高效。"
+
+msgid "abilities/common/description/damageMutable"
+msgstr "发射星盘弹，在50米内造成的伤害最高。炮弹伤害随距离降低，因此在近距离战斗时最为高效。"
+
+msgid "abilities/common/description/dualAccuracy"
+msgstr "独特的降温系统，可实现双重瞄准：装填后稍作等待，可提升火炮准度。准度的提升程度会以第二个、较小的瞄准圈显示。"
+
+msgid "abilities/common/description/dualGun"
+msgstr "双管火炮系统，可单管逐一发射，或进行双管齐射。双管齐射可造成较高的齐射伤害，但发射后的装填时间较久。"
+
+msgid "abilities/common/description/hydraulicChassis"
+msgstr "改变坦克车体仰角，有机会在战斗中利用更多点位进行射击。激活取决于多种条件。"
+
+msgid "abilities/common/description/hydraulicWheeledChassis"
+msgstr "改变附加车轮位置来大幅提高速度，但会牺牲战车的操控性。最适合用于长距离移动并发动速攻。"
+
+msgid "abilities/common/description/magazineGun"
+msgstr "从弹匣中连续射击数发炮弹，之后需要完整装填。可造成高额爆发伤害，但坦克在装填时将无法进行反击。只能一次装填整个弹匣。"
+
+msgid "abilities/common/description/overheatGun"
+msgstr "火炮可持续射击而不需要进行装填。每次发射炮弹都会生成热能：温度越高，部分参数受到的影响越大。持续射击将导致火炮过热，直到降温前，火炮将无法再次射击。"
+
+msgid "abilities/common/description/rocketAcceleration"
+msgstr "提高发动机功率与最高速度，来快速穿越战场。激活时，火箭助推器会导致操控性降低，且无法手动关闭。"
+
+msgid "abilities/common/description/siegeMode"
+msgstr "激活时，此特殊模式提高且/或变更特定战斗参数。最适合在到达位置并准备与敌人交战时激活。"
+
+msgid "abilities/common/description/stun"
+msgstr "在特定爆炸半径内震晕敌方战车，未直接命中亦能震晕，会短暂降低受影响战车的机动性、准度与装填速度。遭震晕的敌人会以震晕指示标记。"
+
+msgid "abilities/common/description/trackWithinTrack"
+msgstr "当主要履带遭摧毁时，让战车维持移动能力但会降低速度。再失去一条外部履带会进一步降低机动性，但战车仍可转向与移动。"
+
+msgid "abilities/common/description/turboshaftEngine"
+msgstr "让战车大幅提高移动速度，同时也让火炮操控性参数显著降低。"
+
+msgid "abilities/common/description/twinGun"
+msgstr "激活时，此特殊模式能造成双倍伤害且/或变更特定战斗参数。最适合在近距离作战中使用。"
+
+msgid "abilities/common/name/autoLoaderGun"
+msgstr "自动再装填火炮"
+
+msgid "abilities/common/name/autoLoaderGunBoost"
+msgstr "改进型自动再装填火炮"
+
+msgid "abilities/common/name/autoShootGun"
+msgstr "自动火炮"
+
+msgid "abilities/common/name/damageMutable"
+msgstr "深膛线火炮"
+
+msgid "abilities/common/name/dualAccuracy"
+msgstr "火炮降温"
+
+msgid "abilities/common/name/dualGun"
+msgstr "双管火炮"
+
+msgid "abilities/common/name/hydraulicChassis"
+msgstr "液气悬挂"
+
+msgid "abilities/common/name/hydraulicWheeledChassis"
+msgstr "高速模式"
+
+msgid "abilities/common/name/magazineGun"
+msgstr "自动装填火炮"
+
+msgid "abilities/common/name/overheatGun"
+msgstr "过热调节自动火炮"
+
+msgid "abilities/common/name/rocketAcceleration"
+msgstr "火箭助推器"
+
+msgid "abilities/common/name/siegeMode"
+msgstr "围攻模式"
+
+msgid "abilities/common/name/stun"
+msgstr "震晕"
+
+msgid "abilities/common/name/trackWithinTrack"
+msgstr "备用履带"
+
+msgid "abilities/common/name/turboshaftEngine"
+msgstr "涡轮模式"
+
+msgid "abilities/common/name/twinGun"
+msgstr "齐射模式"
+
+msgid "abilities/special/description/accuracyStacks"
+msgstr "保持静止或缓慢移动，可累积准度等级来提升下一发炮弹的准度。\n当达到最高准度等级时，您的战车将具有不错的火炮稳定性，移动时或炮塔/车体转向时的散布误差亦会降低。"
+
+msgid "abilities/special/description/battleFury"
+msgstr "每当您以炮弹命中一辆敌方战车时，您会获得一个装填效率等级，可暂时提升您火炮的装填速度。等级随每次命中累积。\n藉由射击摧毁一辆敌方战车，可额外累积装填效率等级。"
+
+msgid "abilities/special/description/chargeShot"
+msgstr "若您的火炮已完成装填，您可开始加热下一发炮弹来提高伤害。加热等级越高，效果就越显著。\n达到最高热度时，您需在数秒内射击，否则您暂时无法射击。"
+
+msgid "abilities/special/description/chargeableBurst"
+msgstr "对敌方战车造成两次装甲击穿即可激活点射模式，在此模式下，会装填可进行连发的短弹匣，让两发炮弹能快速射出并造成大量伤害。"
+
+msgid "abilities/special/description/concentrationMode"
+msgstr "“气压式陀螺稳定器”能在作用的一小段时间内，于移动时、车体与炮塔转向时确保最高的稳定性，让移动时的射击更为准确且快速因应突如其来的威胁，亦能从掩体后高效交战。"
+
+msgid "abilities/special/description/extraShotClip"
+msgstr "当前短弹匣内剩余一发炮弹时，系统自动开始装填新短弹匣，让您随时准备交战。您仍可在过程中发射最后一发炮弹，然而若发射会让剩余的装填时间延长数秒。"
+
+msgid "abilities/special/description/heatingZonesGun"
+msgstr "此系统能让火炮维持在较低的温度，从而实现极高准度。射击时火炮会升温，但会在装填期间开始降温并回到较佳的参数。温度越高，部分参数受到的影响越大。"
+
+msgid "abilities/special/description/improvedRamming"
+msgstr "汲取过往战车的设计经验，此战车专为造成致命撞击攻击进行配置。结构上的强化让其可在撞击敌方战车时造成较高的伤害，并在近距交锋中取得优势。"
+
+msgid "abilities/special/description/lowChargeShot"
+msgstr "此战车的火炮可提早射击：装填期间的半充能射击会降低射击效率，而在装填后的普通完全充能射击则有最佳的弹道参数。"
+
+msgid "abilities/special/description/overheatGun"
+msgstr "火炮可持续射击而不需要进行装填。每次发射炮弹都会生成热能：温度越高，部分参数受到的影响越大。持续射击将导致火炮过热，直到降温前，火炮将无法再次射击。"
+
+msgid "abilities/special/description/overheatStacks"
+msgstr "保持静止或缓慢移动以累积预热，藉此提高您下一次射击的伤害与准度。当预热达最高温时，击穿血量比平均伤害低的战车时，会造成引爆对方的弹药架并将之摧毁。"
+
+msgid "abilities/special/description/pillboxSiegeMode"
+msgstr "此模式可将您的战车变为加固炮台，提供卓越的准度和更快的装填时间。作为增强火力的代价，战车机动性（前进/倒车速度、垂直/水平转向速度）大幅降低。"
+
+msgid "abilities/special/description/powerMode"
+msgstr "此模式为发动机功率与最高前进速度带来显著加成。您向前移动的时间越久，累积的速度就越高，让您快速穿越战场并轻松大范围移动。"
+
+msgid "abilities/special/description/propellantAfterburnerGun"
+msgstr "此系统会随着时间累积充能，累积的充能越高，伤害加成就越高。充能受限制器限制，可关闭以换取更高的伤害加成，但代价为火炮操控性降低。"
+
+msgid "abilities/special/description/rechargeableNitro"
+msgstr "在任何时候激活“液体燃料助推器”来获得最需要的速度提升。助推器会升温且再次使用前必须冷却，要是超过临界加热等级将暂时完全停用。"
+
+msgid "abilities/special/description/stagedJetBoosters"
+msgstr "固体燃料助推器，可持续数秒提升加速能力、机动性与操控性。左右两侧的助推器可独立工作，助您更快地旋转车体，同时不限制倒车能力。"
+
+msgid "abilities/special/description/stanceDance"
+msgstr "根据激活的模式与充能程度，战车可激活两种能力之一：\n离子流后燃器：暂时提高发动机功率与速度。\n重叠电机观测镜：降低散布误差，缩短装填时间与提升准度。"
+
+msgid "abilities/special/description/stationaryReload"
+msgstr "此模块让您在至少装填一发炮弹的情况下随时中断装填，进而保有射击机会。按下快捷键来停止装填，可在一小段延迟后开火，随后可手动接续装填，或在清空弹匣后自动装填。"
+
+msgid "abilities/special/description/supportWeapon"
+msgstr "按下激活按钮来朝目标发射坦克的辅助武器。此额外的火力有着独立的装填循环，与主要火炮各自进行。"
+
+msgid "abilities/special/description/targetDesignator"
+msgstr "根据是否侦察到敌方战车，来决定您下一次射击的特殊效果。命中已侦察到的战车将会标记该战车，延长其持续被侦察到的时间并提高炮弹对其造成的伤害，若命中尚未被侦察到的敌方战车，将以特殊标示标记它的位置。"
+
+msgid "abilities/special/description/twinGun"
+msgstr "造成双倍伤害并提升火炮稳定性，但会牺牲机动性、准度、炮塔转向速度与瞄准速度。最适合用于近距离战斗。"
+
+msgid "abilities/special/description/wheeledDash"
+msgstr "此机械改装可在短时间内大幅提升战车的加速能力、发动机功率，以及最高前进与倒车速度，让您快速应对敌人的攻击，展现动态机动来让对手措手不及。"
+
+msgid "abilities/special/name/accuracyStacks"
+msgstr "模拟弹道计算设备"
+
+msgid "abilities/special/name/battleFury"
+msgstr "半自动弹药架"
+
+msgid "abilities/special/name/chargeShot"
+msgstr "弹道加热超载"
+
+msgid "abilities/special/name/chargeableBurst"
+msgstr "点射模式"
+
+msgid "abilities/special/name/concentrationMode"
+msgstr "气压式陀螺稳定器"
+
+msgid "abilities/special/name/extraShotClip"
+msgstr "短弹匣装填系统"
+
+msgid "abilities/special/name/heatingZonesGun"
+msgstr "主动火炮降温系统"
+
+msgid "abilities/special/name/improvedRamming"
+msgstr "撞击配置"
+
+msgid "abilities/special/name/lowChargeShot"
+msgstr "分段充能系统"
+
+msgid "abilities/special/name/overheatGun"
+msgstr "过热调节自动火炮"
+
+msgid "abilities/special/name/overheatStacks"
+msgstr "推进剂温控系统"
+
+msgid "abilities/special/name/pillboxSiegeMode"
+msgstr "碉堡模式"
+
+msgid "abilities/special/name/powerMode"
+msgstr "直接驱动"
+
+msgid "abilities/special/name/propellantAfterburnerGun"
+msgstr "感应式弹药推进剂助燃"
+
+msgid "abilities/special/name/rechargeableNitro"
+msgstr "液体燃料助推器"
+
+msgid "abilities/special/name/stagedJetBoosters"
+msgstr "序列式火箭助推器"
+
+msgid "abilities/special/name/stanceDance"
+msgstr "战术能量包"
+
+msgid "abilities/special/name/stationaryReload"
+msgstr "外部弹药供应模块"
+
+msgid "abilities/special/name/supportWeapon"
+msgstr "辅助武器"
+
+msgid "abilities/special/name/targetDesignator"
+msgstr "激光目标指示器"
+
+msgid "abilities/special/name/twinGun"
+msgstr "齐射模式"
+
+msgid "abilities/special/name/wheeledDash"
+msgstr "高压涡轮增压器辅助"
+
+msgid "abilities/special/shortDescription/accuracyStacks"
+msgstr "提升您下一发炮弹的准度，在完全校准时具有不错的稳定性。"
+
+msgid "abilities/special/shortDescription/battleFury"
+msgstr "每命中一辆敌方战车，可在限定时间内加快火炮装填速度。"
+
+msgid "abilities/special/shortDescription/chargeShot"
+msgstr "累积加热等级来让下一发炮弹对敌方战车造成更高伤害。"
+
+msgid "abilities/special/shortDescription/chargeableBurst"
+msgstr "可进行点射的短弹匣，让您快速清空两发炮弹。"
+
+msgid "abilities/special/shortDescription/concentrationMode"
+msgstr "最大化移动与转向时的稳定性，来提升射击准度。"
+
+msgid "abilities/special/shortDescription/extraShotClip"
+msgstr "剩下最后一发炮弹时自动开始装填，装填过程中仍可射击这一发炮弹。"
+
+msgid "abilities/special/shortDescription/heatingZonesGun"
+msgstr "主动火炮降温系统，随着火炮降温来提升准度。"
+
+msgid "abilities/special/shortDescription/improvedRamming"
+msgstr "提高对敌方战车造成的撞击伤害。"
+
+msgid "abilities/special/shortDescription/lowChargeShot"
+msgstr "特殊火炮机制，牺牲射击效率来换取提早射击。"
+
+msgid "abilities/special/shortDescription/overheatGun"
+msgstr "该系统支持连续射击而无需重新装填，并控制火炮射击时产生的热能。"
+
+msgid "abilities/special/shortDescription/overheatStacks"
+msgstr "保持静止或缓慢移动，藉此提升下一发炮弹的伤害与准度。"
+
+msgid "abilities/special/shortDescription/pillboxSiegeMode"
+msgstr "显著提升火炮准度与装填速度，但严重限制机动性。"
+
+msgid "abilities/special/shortDescription/powerMode"
+msgstr "提供发动机功率加成，战车持续移动的时间越久，累积的最高速度就越高。"
+
+msgid "abilities/special/shortDescription/propellantAfterburnerGun"
+msgstr "系统会进行充能以提升伤害。充能越高，伤害就越大。"
+
+msgid "abilities/special/shortDescription/rechargeableNitro"
+msgstr "可随时激活助推器，来为速度带来大幅加成。"
+
+msgid "abilities/special/shortDescription/stagedJetBoosters"
+msgstr "固体燃料助推器，可提升加速能力、机动性与操控性。"
+
+msgid "abilities/special/shortDescription/stanceDance"
+msgstr "为两种独特能力之一进行充能，藉此提升速度或火炮准度。"
+
+msgid "abilities/special/shortDescription/stationaryReload"
+msgstr "让您中断装填并在关键时间点回击。"
+
+msgid "abilities/special/shortDescription/supportWeapon"
+msgstr "一些额外武器，来提供主炮以外的额外伤害。"
+
+msgid "abilities/special/shortDescription/targetDesignator"
+msgstr "延长敌方战车被侦察到的时间并提高其受到的伤害，或以特殊标示标记其位置。"
+
+msgid "abilities/special/shortDescription/twinGun"
+msgstr "可在牺牲装填时间的情况下，同时发射两门火炮。"
+
+msgid "abilities/special/shortDescription/wheeledDash"
+msgstr "特殊机制，可在短时间期间提升发动机功率、加速能力与最高速度。"
+
+msgid "characteristics/abilities/special/description/accuracyStacks"
+msgstr "保持静止或以低于特定数值的速度移动，可让您校正战车的“模拟弹道计算设备”并累计准度等级，提升您下一发炮弹的准度。若您超过速限，您的准度等级累计进度将暂停，直到您降低速度。当达到最高准度等级时，您的战车将具有不错的火炮稳定性，移动时或炮塔/车体转动时的散布误差亦会降低。此效果会在射击后移除。"
+
+msgid "characteristics/abilities/special/description/battleFury"
+msgstr "每当您以炮弹命中一辆已侦察到的敌方战车时，您会获得一个装填效率等级，可暂时提升您火炮的装填速度。等级随每次命中累积，借由射击摧毁一辆敌方战车，可额外累积装填效率等级。"
+
+msgid "characteristics/abilities/special/description/chargeShot"
+msgstr "若您的火炮已完成装填，您可开始加热下一发炮弹。您达到的加热等级越高，平均伤害的加成也将越高。加热过程中，您无法更改炮弹。当您达到最高加热等级时，会开始倒数计时。若您未在倒数结束前发射炮弹，您将在数秒内无法射击。"
+
+msgid "characteristics/abilities/special/description/chargeableBurst"
+msgstr "对敌方战车造成两次装甲击穿即可激活连发模式，在此模式下，会装填可进行连发的短弹匣，让两发炮弹能快速射出。"
+
+msgid "characteristics/abilities/special/description/concentrationMode"
+msgstr "“气压式陀螺稳定器”可在短时间内，于车体与炮塔转向时确保最高的稳定性，让移动时的射击更为准确且能快速因应突如其来的威胁。"
+
+msgid "characteristics/abilities/special/description/extraShotClip"
+msgstr "当前的短弹匣内剩余一发炮弹时，系统会自动开始装填新的短弹匣。在装填新短弹匣的过程中发射最后一发炮弹，会让剩余的装填时间延长数秒。按下“装填火炮”的快捷键，将丢弃除最后一发外的所有剩余炮弹。按下快捷键两次以完全重置一个已完全装填的短弹匣。"
+
+msgid "characteristics/abilities/special/description/heatingZonesGun"
+msgstr "此系统能让火炮维持在较低的温度，从而实现极高准度。射击时火炮会升温，但会在装填期间开始降温并回到较佳的参数。温度越高，部分参数受到的影响越大。"
+
+msgid "characteristics/abilities/special/description/improvedRamming"
+msgstr "此战车专为进行撞击攻击而配置，具备一系列设计改装，能助其在撞击敌方战车时造成较高的伤害。"
+
+msgid "characteristics/abilities/special/description/lowChargeShot"
+msgstr "此战车的火炮可提早射击：装填期间的半充能射击会降低射击效率，而在装填后的普通完全充能射击则有最佳的弹道参数。"
+
+msgid "characteristics/abilities/special/description/overheatGun"
+msgstr "火炮可持续射击而不需要进行装填。每次发射炮弹都会生成热能：温度越高，部分参数受到的影响越大。持续射击将导致火炮过热，直到降温前，火炮将无法再次射击。"
+
+msgid "characteristics/abilities/special/description/overheatStacks"
+msgstr "保持静止或以低于特定数值的速度移动来进行预热，可借此提高您下一发炮弹的伤害与准度。若您超过速限将逐渐降低加成，射击或更改炮弹将立即重置加成。达到最高预热等级时，击穿血量低于您平均伤害（计入您累积的预热加成）之敌方战车的装甲时，将引爆该战车的弹药架并立即摧毁它。"
+
+msgid "characteristics/abilities/special/description/pillboxSiegeMode"
+msgstr "在此模式中，火炮准度、装填速度与俯角/仰角会急剧提升，但机动性（前进/倒车速度与水平/垂直转向速度）会严重受限。百分比数值用于与围攻模式进行比较。"
+
+msgid "characteristics/abilities/special/description/powerMode"
+msgstr "直接驱动为发动机功率与最高前进速度带来显著加成。您向前移动的时间越久，累积的速度就越高，让您轻松穿越战场。"
+
+msgid "characteristics/abilities/special/description/propellantAfterburnerGun"
+msgstr "系统会随着时间自动累积充能，在射击时消耗部分充能来提高伤害。充能越高，伤害加成也越高。默认情况下，系统仅会储存充能至特定上限。关闭限制器可让其累积更高的充能，提供更高的伤害加成，但会降低火炮操控性。"
+
+msgid "characteristics/abilities/special/description/rechargeableNitro"
+msgstr "“液体燃料助推器”会提升发动机功率，让您在战场上获得抢占位置的优势，然而也会限制您战车的倒车与转向速度。助推器可随时开启或关闭，若超过重新激活次数限制将无法操作。助推器会在激活时升温，同时冷却期间将无法使用，代表无法不断使用助推器，要是超过临界加热等级更会遭暂时完全停用。谨慎计划使用时机，避免反遭对手突袭。"
+
+msgid "characteristics/abilities/special/description/stagedJetBoosters"
+msgstr "固体燃料助推器，可持续数秒提升战车的加速能力、机动性与操控性。与一般的火箭助推器不同，左右两侧的助推器可独立工作，助您更快地旋转车体，同时不限制倒车能力。助推器可在每场战斗期间使用数次，但再次激活前需要进行冷却。"
+
+msgid "characteristics/abilities/special/description/stanceDance"
+msgstr "根据激活的模式与充能程度，战车可激活两种能力之一：“离子流后燃器”或“重叠电机观测镜”。\n离子流后燃器可暂时提高发动机功率、最高前进速度与倒车速度。重叠电机观测镜可暂时提高准度，并缩短装填时间。"
+
+msgid "characteristics/abilities/special/description/stationaryReload"
+msgstr "“外部弹药供应模块”让您随时中断装填并开始射击，前提为您仍有一发炮弹剩余。装填期间，模块会锁定战车的炮塔与外部弹药舱，在您中断前暂时让您无法瞄准或射击。"
+
+msgid "characteristics/abilities/special/description/supportWeapon"
+msgstr "此战车装备有一组辅助武器，该武器的装填独立于主要火炮，让您在关键时刻额外造成伤害。"
+
+msgid "characteristics/abilities/special/description/targetDesignator"
+msgstr "“激光目标指示器”会为您的下一次射击带来特殊效果，并应用到您命中的任何敌方战车。命中敌方战车时是否已侦察到对方，将影响造成的效果。命中已侦察到的战车将会标记该战车，延长其持续被侦察到的时间并提高炮弹对其造成的伤害，然而若该敌方战车尚未被侦察到，则会以特殊标示标记它的位置。"
+
+msgid "characteristics/abilities/special/description/twinGun"
+msgstr "造成双倍伤害并提升火炮稳定性，但会牺牲机动性、准度、炮塔转向速度与瞄准速度。最适合用于近距离战斗。"
+
+msgid "characteristics/abilities/special/description/wheeledDash"
+msgstr "此机械改装可在短时间内大幅提升战车的加速能力、发动机功率，以及最高前进与倒车速度，让您快速应对敌人的攻击，展现动态机动来让对手措手不及。保持高速移动可加快此机制的冷却速度。"
+
+msgid "characteristics/abilities/special/notes"
+msgstr "显示的所有数值均为此战车的可能最大值。可以通过装备、指令与消耗品更改这些数值，但此处未反映相关变化。"
+
+msgid "characteristics/templates/upTo"
+msgstr "最多 %(value)%s"
+
+msgid "modules/controls/button/buyAndInstall"
+msgstr "购买并安装"
+
+msgid "modules/controls/button/field_modification"
+msgstr "战地升级"
+
+msgid "modules/controls/button/mount"
+msgstr "安装"
+
+msgid "modules/controls/button/research"
+msgstr "研发"
+
+msgid "modules/controls/button/sell"
+msgstr "从仓库中出售"
+
+msgid "modules/controls/button/tooltip/disableReason/battle"
+msgstr "此战车在战斗中。战斗结束后您才能替换其模块。"
+
+msgid "modules/controls/button/tooltip/disableReason/damaged"
+msgstr "此战车已受损。先修理才能替换其模块。"
+
+msgid "modules/controls/button/tooltip/disableReason/incompatible"
+msgstr "无法安装模块。{{module}}不兼容。"
+
+msgid "modules/controls/button/tooltip/disableReason/prebattle"
+msgstr "此战车正在作战部队中。"
+
+msgid "modules/controls/descriptor/buyVehicle"
+msgstr "购买此战车以替换其模块。"
+
+msgid "modules/controls/descriptor/disableModule"
+msgstr "研发前一个模块以研发此模块。"
+
+msgid "modules/controls/descriptor/disableVehicle"
+msgstr "研发此战车以研发其模块。"
+
+msgid "modules/controls/descriptor/eliteVehicle"
+msgstr "所有模块已研发。"
+
+msgid "modules/controls/descriptor/moduleMounted"
+msgstr "此模块已安装。"
+
+msgid "modules/controls/descriptor/researched"
+msgstr "选择模块或战车以进行研发。"
+
+msgid "modules/controls/descriptor/vehicleInBattle"
+msgstr "此战车在战斗中。战斗结束后您才能替换其模块。"
+
+msgid "modules/controls/name"
+msgstr "已选择：{{@ class $classModuleName}}{{name}}{{/}}"
+
+msgid "modules/name/separator"
+msgstr "、"
+
+msgid "modules/name/vehicleChassis"
+msgstr "底盘"
+
+msgid "modules/name/vehicleEngine"
+msgstr "发动机"
+
+msgid "modules/name/vehicleGun"
+msgstr "火炮"
+
+msgid "modules/name/vehicleRadio"
+msgstr "通信设备"
+
+msgid "modules/name/vehicleTurret"
+msgstr "炮塔"
+
+msgid "modules/name/vehicleWheeledChassis"
+msgstr "车轮"
+
+msgid "overview/benefits/collectorVehicle/name"
+msgstr "收藏战车"
+
+msgid "overview/benefits/premium/description/bonds"
+msgstr "可以获得"
+
+msgid "overview/benefits/premium/description/credits"
+msgstr "获得更多银币"
+
+msgid "overview/benefits/premium/description/crewsTrain"
+msgstr "转移乘员，无惩罚"
+
+msgid "overview/benefits/premium/description/experience"
+msgstr "战斗经验和乘员经验"
+
+msgid "overview/benefits/premium/name/bonds"
+msgstr "点券"
+
+msgid "overview/benefits/premium/name/credits"
+msgstr "每场战斗"
+
+msgid "overview/benefits/premium/name/crewsTrain"
+msgstr "免费"
+
+msgid "overview/benefits/premium/name/experience"
+msgstr "更多"
+
+msgid "overview/benefits/special/name/bonds"
+msgstr "获得点券"
+
+msgid "overview/benefits/special/name/credits"
+msgstr "更多银币"
+
+msgid "overview/benefits/special/name/crewsTrain"
+msgstr "免费调动"
+
+msgid "overview/benefits/special/name/experience"
+msgstr "更多经验"
+
+msgid "overview/benefits/special/name/repairKit"
+msgstr "免费修理箱"
+
+msgid "overview/benefits/wotPlus/description/bonds"
+msgstr "可以获得"
+
+msgid "overview/benefits/wotPlus/description/credits"
+msgstr "获得更多银币"
+
+msgid "overview/benefits/wotPlus/description/crewsTrain"
+msgstr "从任何类型的战车转移乘员，无惩罚"
+
+msgid "overview/benefits/wotPlus/description/experience"
+msgstr "战斗经验和乘员经验"
+
+msgid "overview/benefits/wotPlus/name/bonds"
+msgstr "点券"
+
+msgid "overview/benefits/wotPlus/name/credits"
+msgstr "更多"
+
+msgid "overview/benefits/wotPlus/name/crewsTrain"
+msgstr "免费"
+
+msgid "overview/benefits/wotPlus/name/experience"
+msgstr "更多"
+
+msgid "overview/crew/name"
+msgstr "乘员{{@ class $classBracket}}（{{/}}{{@ class $classAmount}}{{amount}}{{/}}{{@ class $classBracket}}）{{/}}"
+
+msgid "overview/mechanicsVideo/label"
+msgstr "查看机制"
+
+msgid "overview/title/generalDescription"
+msgstr "战车描述"
+
+msgid "overview/title/historicalReference"
+msgstr "历史参考"
+
+msgid "researchPurchase/discountTimer"
+msgstr "至{{date}}"
+
+msgid "researchPurchase/recover"
+msgstr "“找回”可用至{{date}}"
+
+msgid "tabs/armor"
+msgstr "装甲"
+
+msgid "tabs/modules"
+msgstr "模块"
+
+msgid "tabs/overview"
+msgstr "总览"
+
+msgid "tabs/stats"
+msgstr "参数"
+
+msgid "tabs/vehSkillTree"
+msgstr "升级"
+
+msgid "vehicleState/rentalIsOver"
+msgstr "租用期已结束"
+
+msgid "vehicleState/subscriptionSuspended"
+msgstr "订阅已暂停"

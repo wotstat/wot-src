@@ -1,0 +1,4475 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 19:30+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "account_was_restored"
+msgstr "บัญชีของคุณได้รับการกู้คืนเรียบร้อย"
+
+msgid "achievements/server_error"
+msgstr "การเปลี่ยนแปลงกับแพรแถบรางวัลที่มีค่าไม่ได้ถูกบันทึกเอาไว้"
+
+msgid "actionAchievement/title"
+msgstr "เหรียญสำหรับกิจกรรม"
+
+msgid "actionAchievements/title"
+msgstr "เหรียญสำหรับกิจกรรม"
+
+msgid "add_tankman_skill/invalid_vehicle"
+msgstr "เกิดข้อผิดพลาดในการฝึกความสามารถ พาหนะผิดคัน"
+
+msgid "add_tankman_skill/server_error"
+msgstr "ไม่สามารถฝึกความสามารถใหม่ได้\nเซิร์ฟเวอร์ไม่มีให้ โปรดลองใหม่ภายหลัง"
+
+msgid "add_tankman_skill/success"
+msgstr "ฝึกความสามารถใหม่แล้ว: %(skill)s"
+
+msgid "add_tankman_skill/vehicle_locked"
+msgstr "เกิดข้อผิดพลาดในการฝึกความสามารถ พาหนะถูกล็อคอยู่"
+
+msgid "add_tankman_skill/vehicle_need_repair"
+msgstr "เกิดข้อผิดพลาดในการฝึกความสามารถ ซ่อมพาหนะของคุณก่อน"
+
+msgid "add_tankman_skills/server_error"
+msgstr "ไม่สามารถฝึกความสามารถใหม่ได้\nเซิร์ฟเวอร์ไม่มีให้ โปรดลองใหม่ภายหลัง"
+
+msgid "add_tankman_skills/success"
+msgstr "ฝึกความสามารถใหม่แล้ว: %(skill)s"
+
+msgid "another_periphery"
+msgstr "คุณยังเข้าใช้อยู่ในเซิร์ฟเวอร์อื่น"
+
+msgid "arena_start_errors/join/ACCOUNT_LOCK"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ, คุณมีทีมอยู่แล้ว"
+
+msgid "arena_start_errors/join/CANNOT_CREATE"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ, หมายเลขทีมผิด"
+
+msgid "arena_start_errors/join/COOLDOWN"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วม, ปฏิบัติการนี้ได้ถูกระงับชั่วคราว โปรดลองใหม่อีกครั้ง"
+
+msgid "arena_start_errors/join/EVENT_DISABLED"
+msgstr "ยังไม่มีกิจกรรมนี้ให้ โปรดติดตามข่าวล่าสุดที่เวบท่าของเกม"
+
+msgid "arena_start_errors/join/NOT_FOUND"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วม, คำเชิญหมดอายุแล้ว"
+
+msgid "arena_start_errors/join/PRIVACY"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วม, มีสิทธิ์ไม่เพียงพอ"
+
+msgid "arena_start_errors/join/QUEUE_FAILURE"
+msgstr "ไม่สามารถเข้าร่วมการรบได้ ไม่มีคิวให้ในขณะนี้ โปรดลองใหม่ภายหลัง"
+
+msgid "arena_start_errors/join/QUEUE_FULL"
+msgstr "ไม่สามารถดำเนินการได้ คิวกำลังเต็มอยู่ในขณะนี้ โปรดลองใหม่ภายหลัง"
+
+msgid "arena_start_errors/join/TEAM_IS_FULL"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วม: ทำการตั้งทีมเรียบร้อยแล้ว"
+
+msgid "arena_start_errors/join/TIME_OUT"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วม, การเชื่อมต่อหมดเวลา"
+
+msgid "arena_start_errors/join/WRONG_ACCOUNT_TYPE"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วม, บัญชีประเภทนี้เข้าร่วมไม่ได้"
+
+msgid "arena_start_errors/join/WRONG_ARENA_STATE"
+msgstr "เกิดข้อผิดพลาดในขณะเข้าร่วมการรบ"
+
+msgid "arena_start_errors/join/WRONG_ARGS"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วม, WRONG_ARGS."
+
+msgid "arena_start_errors/join/WRONG_BATTLE_ID"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วม: การรบตามประวัติศาสตร์ที่เลือกไว้ใช้งานไม่ได้"
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
+msgstr "การเชื่อมต่อล้มเหลว โปรดเลือกเซิร์ฟเวอร์ %s"
+
+msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
+msgstr "การเชื่อมต่อล้มเหลว กรุณาเลือกเซิร์ฟเวอร์อื่น"
+
+msgid "arena_start_errors/join/WRONG_VEHICLE"
+msgstr "ไม่สามารถเข้าร่วมรบได้, พาหนะคันปัจจุบันไม่พร้อม"
+
+msgid "arena_start_errors/join/WRONG_VEHICLE_LVL"
+msgstr "ข้อผิดพลาด: พาหนะระดับนี้ไม่สามารถทำการรบในรูปแบบนี้ได้"
+
+msgid "arena_start_errors/join/no_readyVehicle"
+msgstr "ไม่สามารถเข้าร่วมรบได้: พาหนะไม่พร้อม"
+
+msgid "arena_start_errors/join/no_vehicle"
+msgstr "กรุณาซื้อพาหนะเพื่อเข้าร่วมรบ"
+
+msgid "arena_start_errors/kick/ARENA_CREATION_FAILURE"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ (ARENA_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/AVATAR_CREATION_FAILURE"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ (AVATAR_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/BASEAPP_CRASH"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ (BASEAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CELLAPP_CRASH"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ (CELLAPP_CRASH)"
+
+msgid "arena_start_errors/kick/CREATOR_LEFT"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ (CREATOR_LEFT)"
+
+msgid "arena_start_errors/kick/FINISHED"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ (FINISHED)"
+
+msgid "arena_start_errors/kick/PLAYERKICK"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ (PLAYERKICK)"
+
+msgid "arena_start_errors/kick/PREBATTLE_CREATION_FAILURE"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ (PREBATTLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/kick/TIMEOUT"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ (TIMEOUT)"
+
+msgid "arena_start_errors/kick/UNKNOWN_FAILURE"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ (UNKNOWN_FAILURE)"
+
+msgid "arena_start_errors/kick/VEHICLE_CREATION_FAILURE"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมรบ (VEHICLE_CREATION_FAILURE)"
+
+msgid "arena_start_errors/prb/kick/timeout"
+msgstr "เลยเวลาสูงสุดในคิวเข้ารบแล้ว ลองเลือกพาหนะคันอื่นหรือลองใหม่ภายหลัง"
+
+msgid "artefact_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" ใช้ไม่ได้กับพาหนะคันนี้"
+
+msgid "artefact_apply/invalid_vehicle"
+msgstr "พาหนะผิดคัน %(kind)s \"%(name)s\" ไม่ได้รับการติดตั้ง"
+
+msgid "artefact_apply/money_success"
+msgstr "%(kind)s \"%(name)s\" ถูกถอดจากพาหนะ คุณใช้ไป %(money)s"
+
+msgid "artefact_apply/server_error"
+msgstr "เกิดข้อผิดพลาดของเซิร์ฟเวอร์ในการติดตั้ง %(kind)s \"%(name)s\" ลองใหม่ภายหลัง"
+
+msgid "artefact_apply/success"
+msgstr "%(kind)s \"%(name)s\" ติดตั้งบนพาหนะแล้ว"
+
+msgid "artefact_apply/vehicle_locked"
+msgstr "พาหนะถูกล๊อคไว้ %(kind)s \"%(name)s\" ไม่ได้รับการติดตั้ง"
+
+msgid "artefact_apply/vehicle_need_repair"
+msgstr "พาหนะเสียหาย %(kind)s \"%(name)s\" ไม่ได้รับการติดตั้ง ซ่อมแซมพาหนะแล้วลองใหม่อีกครั้ง"
+
+msgid "artefact_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" ใช้ไม่ได้กับพาหนะคันนี้"
+
+msgid "artefact_buy/invalid_module"
+msgstr "ไม่สามารถซื้อ %(kind)s \"%(name)s\" ได้ ผิดชิ้นส่วน"
+
+msgid "artefact_buy/invalid_vehicle"
+msgstr "พาหนะผิดคัน ไม่สามารถซื้อและติดตั้ง %(kind)s \"%(name)s\" ได้"
+
+msgid "artefact_buy/not_enough_credits"
+msgstr "ไม่สามารถซื้อ %(kind)s \"%(name)s\" ได้ เงินไม่พอ"
+
+msgid "artefact_buy/not_enough_crystal"
+msgstr "ไม่สามารถซื้อ %(kind)s \"%(name)s\" ได้ พันธบัตรไม่พอ"
+
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "ไม่สามารถทำการซื้อ %(kind)s \"%(name)s\" ได้ มีเหรียญฉลองครบรอบไม่พอ"
+
+msgid "artefact_buy/not_enough_gold"
+msgstr "ไม่สามารถซื้อ %(kind)s \"%(name)s\" ได้ ทองไม่พอ"
+
+msgid "artefact_buy/server_error"
+msgstr "ไม่สามารถซื้อ %(kind)s \"%(name)s\" ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "artefact_buy/server_error_centerDown"
+msgstr "ไม่สามารถซื้อ %(kind)s \"%(name)s\" ได้ เซิร์ฟเวอร์ไม่มีให้ชั่วคราว"
+
+msgid "artefact_buy/success"
+msgstr "ทำการซื้อ %(kind)s \"%(name)s\" (%(count)s ชิ้น) ใช้ไป %(money)s"
+
+msgid "artefact_buy/vehicle_locked"
+msgstr "พาหนะถูกล็อค ไม่สามารถซื้อและติดตั้ง %(kind)s \"%(name)s\" ได้"
+
+msgid "artefact_buy/vehicle_need_repair"
+msgstr "ไม่สามารถซื้อและติดตั้ง %(kind)s \"%(name)s\" ได้ ซ่อมพาหนะก่อนแล้วลองใหม่อีกครั้ง"
+
+msgid "artefact_buy/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "artefact_deconstructing/invalid_module"
+msgstr "ไม่สามารถถอดส่วนประกอบ %(name)s ได้ ชิ้นส่วนผิด"
+
+msgid "artefact_deconstructing/server_error"
+msgstr "ไม่สามารถถอดส่วนประกอบ %(name)s ได้ ลองใหม่ภายหลัง"
+
+msgid "artefact_deconstructing/success"
+msgstr "ถอดส่วนประกอบอุปกรณ์แล้ว: %(name)s (x%(count)s) คุณได้รับ %(money)s"
+
+msgid "artefact_deconstructingMult/success"
+msgstr "ถอดส่วนประกอบอุปกรณ์แล้ว: %(names)s คุณได้รับ %(money)s"
+
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "'%(equipment)s' ไม่ได้ถูกปลด เงินทุนไม่พอ"
+
+msgid "artefact_destroy/invalid_vehicle"
+msgstr "พาหนะผิดคัน %(kind)s \"%(name)s\" ไม่ถูกทำลาย"
+
+msgid "artefact_destroy/server_error"
+msgstr "เกิดข้อผิดพลาดเซิร์ฟเวอร์ในการทำลาย %(kind)s \"%(name)s\" ลองใหม่ภายหลัง"
+
+msgid "artefact_destroy/success"
+msgstr "%(kind)s \"%(name)s\" ถูกทำลายจากการถอด"
+
+msgid "artefact_destroy/vehicle_locked"
+msgstr "พาหนะถูกล๊อค %(kind)s \"%(name)s\" ไม่ถูกทำลาย"
+
+msgid "artefact_destroy/vehicle_need_repair"
+msgstr "พาหนะเสียหาย %(kind)s \"%(name)s\" ไม่ถูกทำลาย ซ่อมยานเกราะก่อนแล้วลองใหม่อีกครั้ง"
+
+msgid "artefact_remove/demount_kit_success"
+msgstr "%(kind)s \"%(name)s\" ถูกปลดจากพาหนะ คุณใช้ชุดเครื่องมือปลดไป"
+
+msgid "artefact_remove/incompatibleEqs"
+msgstr "ยุทธปัจจัย \"%s\" ถูกย้ายไปยังโรงเก็บเนื่องจากไม่เข้ากันกับชิ้นส่วนที่ใช้อยู่"
+
+msgid "artefact_remove/invalid_vehicle"
+msgstr "พาหนะผิดคัน %(kind)s \"%(name)s\" ไม่ถูกปลดออก"
+
+msgid "artefact_remove/money_success"
+msgstr "%(kind)s \"%(name)s\" ถูกถอดจากพาหนะ คุณใช้ไป %(money)s"
+
+msgid "artefact_remove/server_error"
+msgstr "เกิดข้อผิดพลาดเซิร์ฟเวอร์ในการปลด %(kind)s \"%(name)s\" ลองใหม่ภายหลัง"
+
+msgid "artefact_remove/success"
+msgstr "%(kind)s \"%(name)s\" ถูกปลดจากพาหนะ"
+
+msgid "artefact_remove/vehicle_locked"
+msgstr "พาหนะถูกล็อค %(kind)s \"%(name)s\" ไม่ถูกปลดออก"
+
+msgid "artefact_remove/vehicle_need_repair"
+msgstr "พาหนะเสียหาย %(kind)s \"%(name)s\" ไม่ถูกปลด ให้ซ่อมพาหนะแล้วลองอีกครั้ง"
+
+msgid "artefact_remove/wot_plus_success"
+msgstr "%(kind)s \"%(name)s\" ถูกปลดจากพาหนะโดยไม่มีค่าใช้จ่ายผ่านทางการสมัคร WoT Plus ที่มีผลอยู่ของคุณ"
+
+msgid "artefact_sell/invalid_module"
+msgstr "ไม่สามารถขาย %(kind)s \"%(name)s\" ชิ้นส่วนไม่ถูกต้อง"
+
+msgid "artefact_sell/server_error"
+msgstr "ไม่สามารถขาย %(kind)s \"%(name)s\" ลองใหม่ภายหลัง"
+
+msgid "artefact_sell/success"
+msgstr "%(kind)s \"%(name)s\" (%(count)s อัน) ได้รับ %(money)s"
+
+msgid "artefact_upgrade/server_error"
+msgstr "เกิดข้อผิดพลาดในการยกระดับอุปกรณ์ โปรดลองใหม่ภายหลัง"
+
+msgid "artefact_upgrade/success"
+msgstr "ทำการยกระดับ %(kind)s \"%(name)s\" เรียบร้อย เพิ่มคุณลักษณะให้ดีขึ้น ใช้ไป %(money)s"
+
+msgid "artefact_upgrade/success/analogWasDemounted"
+msgstr "ทำการยกระดับ %(name)s %(kind)s เรียบร้อยแล้วและค่าคุณลักษณะก็ถูกเพิ่มขึ้น ใช้ไป %(money)s \n\nได้ทำการส่งอุปกรณ์แบบเดียวกันของชุดการติดตั้งตัวเลือกกลับไปยังโรงเก็บแล้ว"
+
+msgid "artefact_upgrade/vehicle_need_repair"
+msgstr "พาหนะเสียหาย %(kind)s \"%(name)s\" ไม่ได้ถูกยกระดับ ซ่อมพาหนะแล้วลองใหม่อีกครั้ง"
+
+msgid "badges/select/server_error"
+msgstr "เกิดข้อผิดพลาดเซิร์ฟเวอร์"
+
+msgid "badges/select/server_error/COOLDOWN"
+msgstr "ไม่สามารถดำเนินการได้ โปรดรอจนกว่าการปฏิบัติการปัจจุบันจะเสร็จสิ้น"
+
+msgid "battle/request/SEND_INVITES"
+msgstr "ส่งคำเชิญ"
+
+msgid "battleAbilities_apply/error"
+msgstr "เกิดข้อผิดพลาดการปรับกำลังสำรองรบ โปรดลองใหม่ภายหลัง"
+
+msgid "battleBooster_buy/credits_error"
+msgstr "ล้มเหลวในการซื้อ %(kind)s \"%(name)s\" เงินไม่พอ"
+
+msgid "battleBooster_buy/crystal_error"
+msgstr "ล้มเหลวในการซื้อ %(kind)s \"%(name)s\" พันธบัตรไม่พอ"
+
+msgid "battleBooster_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" ใช้ด้วยกันกับพาหนะนี้ไม่ได้"
+
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "ไม่สามารถทำการซื้อ %(kind)s \"%(name)s\" ได้ มีเหรียญฉลองครบรอบไม่พอ"
+
+msgid "battleBooster_buy/gold_error"
+msgstr "ล้มเหลวในการซื้อ %(kind)s \"%(name)s\" ทองไม่พอ"
+
+msgid "battleBooster_buy/invalid_module"
+msgstr "ล้มเหลวในการซื้อ %(kind)s \"%(name)s\" ผิดชิ้นส่วน"
+
+msgid "battleBooster_buy/invalid_vehicle"
+msgstr "ล้มเหลวในการซื้อและติดตั้ง %(kind)s \"%(name)s\" พาหนะผิดคัน"
+
+msgid "battleBooster_buy/not_enough_credits"
+msgstr "ล้มเหลวในการซื้อ %(kind)s \"%(name)s\" เงินไม่พอ"
+
+msgid "battleBooster_buy/not_enough_crystal"
+msgstr "ล้มเหลวในการซื้อ %(kind)s \"%(name)s\" พันธบัตรไม่พอ"
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "ไม่สามารถทำการซื้อ %(kind)s \"%(name)s\" ได้ มีเหรียญฉลองครบรอบไม่พอ"
+
+msgid "battleBooster_buy/not_enough_gold"
+msgstr "ล้มเหลวในการซื้อ %(kind)s \"%(name)s\" ทองไม่พอ"
+
+msgid "battleBooster_buy/server_error"
+msgstr "การดำเนินการกับคำสั่งไม่มีให้ชั่วคราวเนื่องจากยังอยู่ในช่วงการบำรุงรักษา"
+
+msgid "battleBooster_buy/server_error_centerDown"
+msgstr "ล้มเหลวในการซื้อ %(kind)s \"%(name)s\" เซิร์ฟเวอร์ไม่ว่างชั่วคราว"
+
+msgid "battleBooster_buy/success"
+msgstr "ซื้อ %(kind)s \"%(name)s\" เรียบร้อย (%(count)s ชิ้น) คุณใช้ไป %(money)s"
+
+msgid "battleBooster_buy/vehicle_locked"
+msgstr "พาหนะถูกล็อค ล้มเหลวในการซื้อและติดตั้ง %(kind)s \"%(name)s\""
+
+msgid "battleBooster_buy/vehicle_need_repair"
+msgstr "ล้มเหลวในการซื้อและติดตั้ง %(kind)s \"%(name)s\" โปรดซ่อมพาหนะแล้วลองใหม่อีกครั้ง"
+
+msgid "battleBooster_buy/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "battleBooster_sell/server_error"
+msgstr "การดำเนินการกับคำสั่งไม่มีให้ชั่วคราวเนื่องจากยังอยู่ในช่วงการบำรุงรักษา"
+
+msgid "battleBooster_sell/success"
+msgstr "ขาย %(kind)s \"%(name)s\" เป็นจำนวน (%(count)s ชิ้น) ได้รับ %(money)s"
+
+msgid "battleBoosters_apply/error"
+msgstr "การดำเนินการคำสั่งผิดพลาด โปรดลองใหม่ภายหลัง"
+
+msgid "battleBoosters_apply/not_enough_money"
+msgstr "การดำเนินการคำสั่งผิดพลาด เงินทุนไม่พอซื้อ"
+
+msgid "battleBoosters_apply/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนแล้ว"
+
+msgid "battlePass/activateChapter/success"
+msgstr "เปิดใช้งานบท %(chapter)s"
+
+msgid "battlePass/extraFinish/body"
+msgstr "กิจกรรม %(name)s จบลงแล้ว ขอขอบคุณที่มาเข้าร่วมเล่นกัน!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "บัตรผ่านการรบบท %(name)s"
+
+msgid "battlePass/extraStarted/body"
+msgstr "ผู้การ! ในบัตรผ่านการรบก็มีกิจกรรม %(name)s เริ่มขึ้นแล้วที่คุณสามารถคว้ารางวัลพิเศษได้!"
+
+msgid "battlePass/extraStarted/header"
+msgstr "บัตรผ่านการรบ: มีบทใหม่ให้!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "ผู้การ! มีเวลาเหลือไม่มากก่อนที่บท \"%(name)s\" จะจบลง รีบเข้าล่ะ!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "บัตรผ่านการรบบท %(name)s"
+
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr "ผู้การ! อย่าลืมว่าคุณสามารถได้รับคะแนนบัตรผ่านการรบจากการรบจัดอันดับ!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr "ผู้การ! อย่าลืมว่าคุณสามารถได้รับคะแนนบัตรผ่านการรบจากรูปแบบแนวรบ!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr "ผู้การ! อย่าลืมว่าคุณสามารถได้รับคะแนนบัตรผ่านการรบจากภารกิจลาดตระเวน!"
+
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr "ผู้การ! อย่าลืมว่าคุณสามารถหาคะแนนบัตรผ่านการรบจากรูปแบบการบุกรุกได้ด้วยล่ะ!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "บัตรผ่านการรบฤดูกาล %(seasonNum)d"
+
+msgid "battlePass/rewardChoice/error"
+msgstr "เกิดข้อผิดพลาดในการเลือกรางวัล โปรดลองใหม่อีกครั้ง"
+
+msgid "battlePass/seasonEnd/text"
+msgstr "ฤดูกาลบัตรผ่านการรบได้จบลงแล้ว รางวัลทั้งหมดที่คุณไม่ได้เลือกในช่วงฤดูกาลได้ถูกมอบให้คุณตามค่ามาตรฐาน:"
+
+msgid "battlePass/switchChapter/error"
+msgstr "เกิดข้อผิดพลาดในการเลือกบทดังกล่าว โปรดลองใหม่อีกครั้ง"
+
+msgid "battlePass/switchChapter/reminder"
+msgstr "เลือกบทที่ต้องการ คุณสามารถเปลี่ยนไปบทอื่นเมื่อใดก็ได้"
+
+msgid "battlePass/switchChapter/success"
+msgstr "คุณได้เปลี่ยนไปบทอื่น ตอนนี้กำลังใช้งานในบท %(chapter)s"
+
+msgid "battlePass/switch_disable/battle_royale/body"
+msgstr "บัตรผ่านการรบไม่มีให้ชั่วคราวในรูปแบบพรานเหล็กอันเนื่องจากการบำรุงรักษาที่เกิดขึ้น ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "battlePass/switch_disable/comp7/body"
+msgstr "ไม่สามารถหาคะแนนบัตรผ่านการรบได้ในขณะนี้อันเนื่องจากการซ่อมบำรุงระบบ"
+
+msgid "battlePass/switch_disable/comp7Light/body"
+msgstr "ไม่สามารถหาคะแนนบัตรผ่านการรบได้ในการบุกรุกรุ่นเบาขณะนี้อันเนื่องจากการซ่อมบำรุงระบบ"
+
+msgid "battlePass/switch_disable/epicBattle/body"
+msgstr "บัตรผ่านการรบไม่มีให้ชั่วคราวในแนวรบเนื่องจากการบำรุงรักษาที่เกิดขึ้น"
+
+msgid "battlePass/switch_disable/ranked/body"
+msgstr "บัตรผ่านการรบไม่มีให้ชั่วคราวในการรบจัดอันดับเนื่องจากการบำรุงรักษาที่เกิดขึ้น"
+
+msgid "battlePass/switch_enabled/body"
+msgstr "บัตรผ่านการรบมีให้อีกครั้ง ทางเราขออภัยในความไม่สะดวก\nฤดูกาลถูกขยายไปจนถึง %(expiryTime)s"
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr "สามารถหาคะแนนบัตรผ่านการรบในการบุกรุกได้อีกครั้ง ทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "battlePass/switch_enabled/comp7Light/body"
+msgstr "สามารถหาคะแนนบัตรผ่านการรบในการบุกรุกรุ่นเบาได้อีกครั้ง ทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "battlePass/switch_enabled/epicBattle/body"
+msgstr "บัตรผ่านการรบมีให้อีกครั้งในแนวรบ ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "battlePass/switch_enabled/ranked/body"
+msgstr "บัตรผ่านการรบมีให้อีกครั้งในการรบจัดอันดับ ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "battlePass/switch_pause/body"
+msgstr "บัตรผ่านการรบไม่มีให้ชั่วคราวเนื่องจากการบำรุงรักษาตามกำหนด"
+
+msgid "battlePass/switch_started/body"
+msgstr "ผู้การ! ถึงเวลาที่จะต่อสู้เพื่อคว้ารางวัลบัตรผ่านการรบเฉพาะกันอีกครั้ง!"
+
+msgid "battlePass/switch_started/title"
+msgstr "บัตรผ่านการรบฤดูกาล %(seasonNum)d"
+
+msgid "battlePassH/gameModeEnabled/header"
+msgstr "บัตรผ่านการรบ: %(seasonName)s"
+
+msgid "battlePassH/seasonEnd/text"
+msgstr "บัตรผ่านการรบได้จบลงแล้ว รางวัลทั้งหมดที่คุณไม่ได้เลือกได้ถูกมอบให้คุณตามค่ามาตรฐาน:"
+
+msgid "battlePassH/switch_disable/body"
+msgstr "บทดังกล่าวจบลงแล้ว ไว้เจอกันรอบหน้า!"
+
+msgid "battlePassH/switch_disable/title"
+msgstr "บัตรผ่านการรบ: %(seasonName)s"
+
+msgid "battlePassH/switch_enabled/body"
+msgstr "บัตรผ่านการรบมีให้อีกครั้ง ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "battlePassH/switch_started/body"
+msgstr "ผู้การ! ดั่งที่คุณจะได้ค้นพบว่านี่คือบัตรผ่านการรบพิเศษ\n\nเมื่อผ่านความก้าวหน้าได้ คุณจะได้รับพาหนะพิเศษมีรูปแบบสามมิติพิเศษเฉพาะ, องค์ประกอบปรับแต่งและอื่นๆอีกมากมาย!"
+
+msgid "battlePassH/switch_started/title"
+msgstr "บัตรผ่านการรบ: %(seasonName)s"
+
+msgid "battlePassLevels_buy/server_error"
+msgstr "เกิดข้อผิดพลาดในการซื้อด่านความก้าวหน้า โปรดลองใหม่อีกครั้ง"
+
+msgid "battlePass_buy/server_error"
+msgstr "เกิดข้อผิดพลาดในการซื้อบัตรผ่านปรับปรุง โปรดลองใหม่อีกครั้ง"
+
+msgid "battleResults/sharing/success"
+msgstr "ลิงค์ถูกคัดลอกไปยังกระดานชั่วคราว คุณสามารถตัดแปะบนช่องสนทนาด้วยการกด Ctrl+V หรือใช้มันนอกโปรแกรมลูกข่ายเกม"
+
+msgid "battleSession/kickedFromQueue"
+msgstr "ไม่สามารถค้นหาคู่ต่อสู้สำหรับกองร้อยรถถังปัจจุบัน ให้ลองจัดทีมคุณใหม่"
+
+msgid "battleSession/memberJoined"
+msgstr "%s เข้าร่วมทีมแล้ว"
+
+msgid "battleSession/memberLeave"
+msgstr "%s ออกจากทีมแล้ว"
+
+msgid "battleSession/memberNotReady"
+msgstr "%s ไม่พร้อมที่จะรบกับทีม"
+
+msgid "battleSession/memberOffline"
+msgstr "การเชื่อมต่อถูกระงับโดย %s."
+
+msgid "battleSession/memberReady"
+msgstr "%s พร้อมจะร่วมรบกับทีมแล้ว"
+
+msgid "battlesession/error/AddObserver"
+msgstr "จำนวนผู้สังเกตการณ์สูงสุดในทีม: %(numPlayers)s"
+
+msgid "battlesession/error/AddPlayer"
+msgstr "จำนวนผู้เล่นสูงสุดในทีม: %(numPlayers)s"
+
+msgid "battlesession/error/InsufficientRole"
+msgstr "ไม่มีอำนาจพอในการย้ายผู้เล่นคนอื่น"
+
+msgid "battlesession/error/Limits"
+msgstr "เกินจำนวนผู้เล่นสูงสุดในทีมแล้ว"
+
+msgid "blueprints/conversion/disable"
+msgstr "ไม่มีเศษแผ่นพอสำหรับการแปลง"
+
+msgid "blueprints/conversion/error"
+msgstr "ไม่สามารถปลดได้: เซิร์ฟเวอร์ไม่มีให้ โปรดลองใหม่ภายหลัง"
+
+msgid "blueprints/switch_off"
+msgstr "แผ่นพิมพ์เขียวพาหนะ: เนื้อหานี้ถูกปิดไว้ชั่วคราว ทางเราขออภัยในความไม่สะดวก"
+
+msgid "blueprints/switch_on"
+msgstr "มีแผ่นพิมพ์เขียวพาหนะให้อีกครั้ง"
+
+msgid "bonuses/booster/value"
+msgstr "%(name)s (x%(count)d)"
+
+msgid "booster_activate/ALREADY_USED"
+msgstr "ไม่สามารถดำเนินการได้ กำลังสำรองส่วนตัวกำลังถูกใช้อยู่"
+
+msgid "booster_activate/DISABLED"
+msgstr "ไม่สามารถเปิดใช้งานกำลังสำรองส่วนตัวได้ ไม่มีการดำเนินการให้ใช้"
+
+msgid "booster_activate/EXCEPTION"
+msgstr "ไม่สามารถเปิดใช้งานกำลังสำรองส่วนตัวได้ ไม่มีการดำเนินการให้ใช้"
+
+msgid "booster_activate/NO_BOOSTERS"
+msgstr "ไม่สามารถดำเนินการได้ กำลังสำรองส่วนตัวไม่มีหรือไม่ได้เลือกเอาไว้"
+
+msgid "booster_activate/WRONG_ARGS"
+msgstr "ไม่สามารถเปิดใช้งานกำลังสำรองส่วนตัวได้ ไม่มีการดำเนินการให้ใช้"
+
+msgid "booster_activate/server_error"
+msgstr "ไม่สามารถเปิดใช้งานกำลังสำรองส่วนตัวได้ ลองใหม่ภายหลัง"
+
+msgid "booster_activate/success"
+msgstr "ใช้งานกำลังสำรอง \"%(boosterName)s\" แล้ว เวลาที่เหลือ: %(time)s"
+
+msgid "booster_buy/not_enough_credits"
+msgstr "ไม่สามารถซื้อกำลังสำรอง \"%(boosterName)s\" ได้ เงินไม่พอ"
+
+msgid "booster_buy/not_enough_gold"
+msgstr "ไม่สามารถซื้อกำลังสำรอง \"%(boosterName)s\" ได้ ทองไม่พอ"
+
+msgid "booster_buy/server_error"
+msgstr "ไม่สามารถซื้อกำลังสำรองส่วนตัว \"%(boosterName)s\""
+
+msgid "booster_buy/server_error_centerDown"
+msgstr "ไม่สามารถซื้อกำลังสำรองส่วนตัว \"%(boosterName)s\" เซิร์ฟเวอร์ไม่ว่างชั่วคราว"
+
+msgid "booster_buy/success"
+msgstr "ซื้อกำลังสำรองส่วนตัว \"%(boosterName)s\" (%(count)s ชิ้น) เรียบร้อย ใช้ไป %(money)s"
+
+msgid "booster_buy/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "booster_sell/server_error"
+msgstr "ไม่สามารถขายกำลังสำรองส่วนตัวได้ \"%(boosterName)s\" ลองใหม่ภายหลัง"
+
+msgid "booster_sell/server_error_centerDown"
+msgstr "ไม่สามารถขายกำลังสำรองส่วนตัวได้ \"%(boosterName)s\" ลองใหม่ภายหลัง"
+
+msgid "booster_sell/success"
+msgstr "ขายกำลังสำรองส่วนตัว \"%(boosterName)s\" (%(count)s ชิ้น) เรียบร้อย ได้รับ %(money)s"
+
+msgid "buttons/goToPoll"
+msgstr "ไปยังการลงคะแนน"
+
+msgid "buy_and_equip_tankman/FORBIDDEN"
+msgstr "ไม่สามารถเกณฑ์และโอนสมาชิกพลรถถังได้: รถถังมีพลรถถังเฉพาะถาวร"
+
+msgid "buy_and_equip_tankman/free_tankmen_limit"
+msgstr "คุณได้ใช้พลรถถังฟรีครบตามกำหนดในวันนี้แล้ว"
+
+msgid "buy_and_equip_tankman/invalid_vehicle"
+msgstr "ไม่สามารถเกณฑ์และโอนพลรถถังได้ พาหนะผิดคัน"
+
+msgid "buy_and_equip_tankman/not_enough_credits"
+msgstr "ไม่สามารถเกณฑ์และโอนพลรถถังได้ เงินไม่พอ"
+
+msgid "buy_and_equip_tankman/not_enough_gold"
+msgstr "ไม่สามารถเกณฑ์และโอนพลรถถังได้ ทองไม่พอ"
+
+msgid "buy_and_equip_tankman/server_error"
+msgstr "ไม่สามารถเกณฑ์และโอนพลรถถังได้ ลองใหม่ภายหลัง"
+
+msgid "buy_and_equip_tankman/vehicle_locked"
+msgstr "ไม่สามารถเกณฑ์และโอนพลรถถังได้ พาหนะถูกล็อค"
+
+msgid "buy_and_equip_tankman/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "buy_and_reequip_tankman/FORBIDDEN"
+msgstr "ไม่สามารถเกณฑ์และโอนสมาชิกพลรถถังได้: รถถังมีพลรถถังเฉพาะถาวร"
+
+msgid "buy_and_reequip_tankman/free_tankmen_limit"
+msgstr "คุณได้ใช้พลรถถังฟรีครบตามกำหนดในวันนี้แล้ว"
+
+msgid "buy_and_reequip_tankman/invalid_vehicle"
+msgstr "ไม่สามารถเกณฑ์และเปลี่ยนพลรถถังได้ พาหนะผิดคัน"
+
+msgid "buy_and_reequip_tankman/not_enough_credits"
+msgstr "ไม่สามารถเกณฑ์และเปลี่ยนพลรถถังได้ เงินไม่พอ"
+
+msgid "buy_and_reequip_tankman/not_enough_gold"
+msgstr "ไม่สามารถเกณฑ์และเปลี่ยนพลรถถังได้ ทองไม่พอ"
+
+msgid "buy_and_reequip_tankman/not_enough_space"
+msgstr "ไม่สามารถที่จะเกณฑ์และเปลี่ยนพลรถถัง ในการเกณฑ์พลรถถังคุณจะต้องมีเตียงว่าง โปรดทำให้เตียงว่างหรือซื้อเตียงในค่ายทหารเพิ่มก่อน"
+
+msgid "buy_and_reequip_tankman/server_error"
+msgstr "ไม่สามารถเกณฑ์และเปลี่ยนพลรถถังได้ ลองใหม่ภายหลัง"
+
+msgid "buy_and_reequip_tankman/vehicle_locked"
+msgstr "ไม่สามารถเกณฑ์และเปลี่ยนพลรถถังได้ พาหนะถูกล็อค"
+
+msgid "buy_and_reequip_tankman/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "buy_free_vehicle_limit_error"
+msgstr "คุณได้ซื้อพาหนะฟรีจนถึงจำนวนสูงสุดแล้ว โปรดลองใหม่ในวันพรุ่งนี้"
+
+msgid "buy_tankmen_berths/not_enough_credits"
+msgstr "เกิดข้อผิดพลาดในการขยายค่ายทหาร มีเงินไม่พอ"
+
+msgid "buy_tankmen_berths/not_enough_gold"
+msgstr "เกิดข้อผิดพลาดในการขยายค่ายทหาร มีทองไม่พอ"
+
+msgid "buy_tankmen_berths/server_error"
+msgstr "ไม่สามารถขยายค่ายทหารได้ โปรดลองใหม่ภายหลัง"
+
+msgid "buy_tankmen_berths/success"
+msgstr "ขยายค่ายทหารแล้ว\nใช้ทองไป %(money)s"
+
+msgid "buy_tankmen_berths/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "buy_vehicle_slot_error"
+msgstr "ไม่สามารถซื้อ \"%s\" ได้ ไม่มีช่องเหลือในโรงรถ โปรดพิจารณาขายพาหนะเพื่อให้มีที่ว่างเพิ่ม หรือซื้อช่องเก็บใหม่"
+
+msgid "buy_vehicle_slot_error2"
+msgstr "ไม่สามารถซื้อ \"%s\" ได้ ไม่มีช่องเหลือในโรงรถ โปรดทำให้มีที่ว่างเพิ่ม"
+
+msgid "challenges/activate/serverError"
+msgstr "ไม่สามารถเปิดใช้ภารกิจเตาหลอมได้ โปรดลองใหม่ภายหลัง"
+
+msgid "challenges/activate/success/text"
+msgstr "ภารกิจแรกของชุดนี้มีให้ปฏิบัติแล้ว เข้าร่วมการรบแล้วพิชิตคำท้าเลย!"
+
+msgid "challenges/activate/success/title"
+msgstr "เตาหลอม: %(challengeName)s เปิดใช้แล้ว!"
+
+msgid "challenges/challengeEnd/button"
+msgstr "ไปยังเตาหลอม"
+
+msgid "challenges/challengeEnd/text"
+msgstr "ปฏิบัติให้สำเร็จตอนนี้แล้วรับรางวัลของคุณ"
+
+msgid "challenges/challengeEnd/title"
+msgstr "ภารกิจเตาหลอมจะจบในไม่ช้า!"
+
+msgid "challenges/challengeMissionComplete/header"
+msgstr "ยินดีด้วย!"
+
+msgid "challenges/challengeMissionComplete/text"
+msgstr "คุณผ่านเตาหลอม: %(challengeName)sแล้ว! ได้รับรางวัล:"
+
+msgid "challenges/formatter/spent/credits"
+msgstr "ใช้เงินไป:"
+
+msgid "challenges/formatter/spent/crystal"
+msgstr "ใช้พันธบัตรไป:"
+
+msgid "challenges/formatter/spent/gold"
+msgstr "ใช้ทองไป:"
+
+msgid "challenges/restart/free/text"
+msgstr "การเริ่มใหม่หนึ่งครั้งถูกใช้และความก้าวหน้าภารกิจถูกตั้งใหม่แล้ว"
+
+msgid "challenges/restart/free/title"
+msgstr "เตาหลอม: %(challengeName)s เริ่มใหม่ฟรี"
+
+msgid "challenges/restart/paid/title"
+msgstr "เตาหลอม: %(challengeName)s เริ่มใหม่แล้ว"
+
+msgid "challenges/restart/serverError"
+msgstr "ไม่สามารถเริ่มภารกิจเตาหลอมใหม่ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "challenges/serverError/COOLDOWN"
+msgstr "ไม่สามารถดำเนินการได้ โปรดรอจนกว่าการปฏิบัติการปัจจุบันจะเสร็จสิ้น"
+
+msgid "challenges/surrender/serverError"
+msgstr "ไม่สามารถละทิ้งภารกิจเตาหลอมใหม่ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "challenges/surrender/success/text"
+msgstr "คุณละทิ้งเตาหลอม: %(challengeName)s แล้ว ชุดภารกิจล้มเหลว"
+
+msgid "change_tankman_role/FORBIDDEN"
+msgstr "ไม่สามารถเปลี่ยนคุณสมบัติของพลรถถังได้: รถถังมีพลรถถังเฉพาะถาวร"
+
+msgid "change_tankman_role/invalid_role"
+msgstr "ไม่สามารถทำการเปลี่ยนคุณสมบัติได้ โปรดลองใหม่ทีหลัง"
+
+msgid "change_tankman_role/invalid_vehicle"
+msgstr "ไม่สามารถทำการเปลี่ยนคุณสมบัติได้ พาหนะผิดคัน"
+
+msgid "change_tankman_role/no_vehicle"
+msgstr "พาหนะไม่ได้อยู่ในโรงรถ พลรถถังที่ทำการฝึกคุณสมบัติใหม่แล้วจะถูกส่งไปยังค่ายทหาร"
+
+msgid "change_tankman_role/not_enough_credits"
+msgstr "ไม่สามารถเปลี่ยนคุณสมบัติพลรถถังได้ ทองไม่พอ"
+
+msgid "change_tankman_role/not_enough_gold"
+msgstr "ไม่สามารถเปลี่ยนคุณสมบัติพลรถถังได้ ทองไม่พอ"
+
+msgid "change_tankman_role/server_error"
+msgstr "ไม่สามารถทำการเปลี่ยนคุณสมบัติได้\nโปรดลองใหม่ภายหลัง"
+
+msgid "change_tankman_role/slot_is_taken"
+msgstr "มี %(role)s บน %(vehicle)s อยู่แล้ว พลรถถังที่ฝึกคุณสมบัติใหม่จะถูกส่งไปยังค่ายทหาร"
+
+msgid "change_tankman_role/wallet_not_available"
+msgstr "ไม่สามารถทำการเปลี่ยนคุณสมบัติได้ โปรดลองใหม่ทีหลัง"
+
+msgid "charge/credits_error"
+msgstr "ต้องการเงิน %s และโกลด์ %s เติมกระสุนด้วยตัวเอง"
+
+msgid "charge/credits_error_credits"
+msgstr "ต้องการเงินเพิ่มอีก %s . ให้เติมประสุนด้วยตัวเอง"
+
+msgid "charge/credits_error_gold"
+msgstr "ต้องการทองอีก %s ให้เติมกระสุนด้วยตัวเอง"
+
+msgid "charge/inventory_error"
+msgstr "เติมกระสุนให้ %(vehicle)s ไม่ได้ ให้เติมกระสุนด้วยตัวเอง"
+
+msgid "charge/money_spent"
+msgstr "ใช้ %s ในเรื่องกระสุน"
+
+msgid "charge/server_error"
+msgstr "ไม่สามารถโหลดกระสุนได้ ให้ลองใหม่อีกครั้ง"
+
+msgid "charge/server_error_save"
+msgstr "ไม่สามารถเซฟกระสุนได้ ให้ลองใหม่อีกครั้ง"
+
+msgid "charge/success"
+msgstr "โหลดกระสุนเรียบร้อยแล้ว"
+
+msgid "charge/success_save"
+msgstr "เซฟกระสุนเรียบร้อยแล้ว"
+
+msgid "checkout_error"
+msgstr "มีข้อผิดพลาดในการรับข้อมูลผู้เล่น โปรดลองอีกครั้ง"
+
+msgid "clans/isClanProfileDisabled"
+msgstr "ไม่สามารถดำเนินการได้ ลองใหม่ภายหลัง"
+
+msgid "clans/notifications/accept"
+msgstr "ยอมรับ"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "คำเชิญกองทัพถูกส่งไปยัง %(userName)s แล้ว"
+
+msgid "clans/notifications/decline"
+msgstr "ปฏิเสธ"
+
+msgid "clans/notifications/from"
+msgstr "จาก %(user)s"
+
+msgid "clans/notifications/info"
+msgstr "ดูรายละเอียดกองทัพ"
+
+msgid "clans/notifications/invite"
+msgstr "คำเชิญเข้ากองทัพ"
+
+msgid "clans/notifications/invite/accepted"
+msgstr "คำเชิญกองทัพถูกตอบรับ"
+
+msgid "clans/notifications/invite/declined"
+msgstr "คำเชิญกองทัพถูกปฏิเสธ"
+
+msgid "clans/notifications/invite/expired"
+msgstr "คำเชิญจากกองทัพไม่ถูกต้อง"
+
+msgid "clans/notifications/inviteAccepted"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s ตอบรับคำเชิญเข้ากองทัพ"
+
+msgid "clans/notifications/inviteDeclined"
+msgstr "%(nameStartTag)s%(name)s%(nameEndTag)s ปฏิเสธคำเชิญกองทัพ"
+
+msgid "clans/notifications/inviteSendError"
+msgstr "ไม่สามารถส่งคำเชิญกองทัพไปยังผู้เล่น %(userName)s"
+
+msgid "clans/notifications/inviteSent"
+msgstr "คำเชิญกองทัพถูกส่งไปยัง %(userName)s"
+
+msgid "clans/notifications/invites"
+msgstr "คำเชิญกองทัพ: %(count)s"
+
+msgid "clans/notifications/invites/turnOff"
+msgstr "ปิดการแจ้งเตือน"
+
+msgid "clans/notifications/invites/watchInvites"
+msgstr "ดูคำเชิญ"
+
+msgid "clans/notifications/invitesSendError"
+msgstr "คำเชิญกองทัพไม่ได้ถูกส่งไปยังผู้เล่น %(userCount)d คน"
+
+msgid "clans/notifications/invitesSent"
+msgstr "คำเชิญถูกส่งไปยังผู้เล่น %(userCount)d คน"
+
+msgid "clans/notifications/personal/appAccepted"
+msgstr "คุณถูกรับเข้ากองทัพ\n%(nameStartTag)s%(name)s%(nameEndTag)s"
+
+msgid "clans/notifications/personal/appDeclined"
+msgstr "ใบสมัครของคุณไปยังกองทัพ %(nameStartTag)s%(name)s%(nameEndTag)s ถูกปฏิเสธ"
+
+msgid "clans/notifications/request"
+msgstr "ใบสมัครเข้ากองทัพ"
+
+msgid "clans/notifications/request/accepted"
+msgstr "ใบสมัครถูกตอบรับแล้ว"
+
+msgid "clans/notifications/request/declined"
+msgstr "ใบสมัครถูกปฏิเสธ"
+
+msgid "clans/notifications/requestSent"
+msgstr "คำเชิญถูกส่งไปยังกองทัพ:\n%(clanName)s"
+
+msgid "clans/notifications/requests"
+msgstr "คำเชิญจากผู้เล่น: %(count)s"
+
+msgid "clans/notifications/requests/watchRequests"
+msgstr "ดูใบสมัคร"
+
+msgid "clans/request/errors/Account already invited"
+msgstr "%(userName)s ได้ถูกเชิญเข้ากองทัพของคุณแล้ว"
+
+msgid "clans/request/errors/Account does not meet requirements"
+msgstr "ไม่สามารถดำเนินการได้ ผู้เล่นไม่ได้เป็นไปตามข้อกำหนดการเกณฑ์"
+
+msgid "clans/request/errors/Account in cooldown"
+msgstr "การลงโทษหนึ่งวันจากการออกกองทัพก่อนของคุณยังไม่ได้หมดลง"
+
+msgid "clans/request/errors/Account in unknown"
+msgstr "ไม่สามารถดำเนินการได้ บัญชีไม่ถูกต้อง"
+
+msgid "clans/request/errors/Account is banned"
+msgstr "ไม่สามารถดำเนินการได้ บัญชีถูกแบน"
+
+msgid "clans/request/errors/Account is in clan already"
+msgstr "ผู้เล่นนี้เป็นสมาชิกกองทัพอยู่แล้ว"
+
+msgid "clans/request/errors/Account is not in clan"
+msgstr "ไม่สามารถดำเนินการได้ ผู้เล่นไม่ใช่สมาชิกกองทัพ"
+
+msgid "clans/request/errors/Application does not exist"
+msgstr "ไม่สามารถดำเนินการได้ ไม่มีใบสมัคร"
+
+msgid "clans/request/errors/Application is not active"
+msgstr "ไม่สามารถดำเนินการได้ ใบสมัครหมดอายุแล้ว"
+
+msgid "clans/request/errors/Bad request"
+msgstr "ไม่สามารถดำเนินการได้ ลองใหม่ภายหลัง"
+
+msgid "clans/request/errors/CANT_SEND_INVITES"
+msgstr "อำนาจไม่พอในการส่งคำเชิญไปยังกองทัพ"
+
+msgid "clans/request/errors/CLAN_CONSCRIPTION_CLOSED"
+msgstr "ปิดการเกณฑ์เข้ากองทัพไว้"
+
+msgid "clans/request/errors/CLAN_IS_FULL"
+msgstr "กองทัพเต็มแล้ว"
+
+msgid "clans/request/errors/Clan does not exist"
+msgstr "ไม่สามารถดำเนินการได้ ไม่มีกองทัพอยู่"
+
+msgid "clans/request/errors/Clan has not free space"
+msgstr "ไม่สามารถดำเนินการได้ กองทัพเต็มแล้ว"
+
+msgid "clans/request/errors/Clan is disbanded"
+msgstr "ไม่สามารถดำเนินการได้ กองทัพถูกยุบไปแล้ว"
+
+msgid "clans/request/errors/Clan is not active"
+msgstr "ไม่สามารถดำเนินการได้ กองทัพไม่ได้มีความเคลื่อนไหว"
+
+msgid "clans/request/errors/DEFAULT"
+msgstr "ไม่สามารถดำเนินการได้ ลองใหม่ภายหลัง"
+
+msgid "clans/request/errors/Exporter error was occurred"
+msgstr "ไม่สามารถดำเนินการได้ ลองใหม่ภายหลัง"
+
+msgid "clans/request/errors/FORBIDDEN_ACCOUNT_TYPE"
+msgstr "การดำเนินการไม่สามารถทำได้ในบัญชีชนิดนี้"
+
+msgid "clans/request/errors/Forbidden"
+msgstr "ไม่สามารถดำเนินการได้ คุณมีอำนาจไม่พอ"
+
+msgid "clans/request/errors/Global map error was occurred"
+msgstr "ไม่สามารถดำเนินการได้ ลองใหม่ภายหลัง"
+
+msgid "clans/request/errors/Invite does not exist"
+msgstr "ไม่สามารถดำเนินการได้ ไม่มีคำเชิญอยู่"
+
+msgid "clans/request/errors/Invite is not active"
+msgstr "ไม่สามารถดำเนินการได้ คำเชิญหมดอายุแล้ว"
+
+msgid "clans/request/errors/Recruiting policy mismatch"
+msgstr "ไม่สามารถดำเนินการได้ ลองใหม่ภายหลัง"
+
+msgid "clans/request/errors/SPA error was occurred"
+msgstr "ไม่สามารถดำเนินการได้ ลองใหม่ภายหลัง"
+
+msgid "clans/request/errors/Stronghold is not found"
+msgstr "ไม่สามารถดำเนินการได้ ฐานที่มั่นไม่มีให้"
+
+msgid "clans/request/errors/Too Many Applications"
+msgstr "ไม่สามารถดำเนินการได้ ทำการส่งใบสมัครเป็นจำนวนสูงสุดแล้ว"
+
+msgid "clans/request/errors/Too many invites"
+msgstr "ไม่สามารถดำเนินการได้ ทำการส่งคำเชิญเป็นจำนวนสูงสุดแล้ว"
+
+msgid "clans/request/errors/User is not authentificated"
+msgstr "ไม่สามารถดำเนินการได้ ลองใหม่ภายหลัง"
+
+msgid "clans/request/errors/WGCCBE error was occurred"
+msgstr "ไม่สามารถดำเนินการได้ ลองใหม่ภายหลัง"
+
+msgid "clans/request/errors/WGCCFE error was occurred"
+msgstr "ไม่สามารถดำเนินการได้ ลองใหม่ภายหลัง"
+
+msgid "clans/request/errors/Wgrs error was occurred"
+msgstr "ไม่สามารถดำเนินการได้ ลองใหม่ภายหลัง"
+
+msgid "clans/request/errors/user is in clan already"
+msgstr "%(userName)s เป็นสมาชิกกองทัพอยู่แล้ว"
+
+msgid "clientInstallError_not_for_this_vehicle_type"
+msgstr "%s \"%s\" ติดตั้งบนพาหนะคันนี้ไม่ได้"
+
+msgid "clientInstallError_vehicleGun_not_for_current_vehicle"
+msgstr "%s \"%s\" ติดตั้งกับป้อมปืนนี้ไม่ได้ โปรดเปลี่ยนป้อมปืน"
+
+msgid "clientInstallError_wrong_item_type"
+msgstr "%s \"%s\" ผิดชนิด"
+
+msgid "clientInstallError_wrong_nation"
+msgstr "%s \"%s\" ผิดประเทศ"
+
+msgid "clientRemoveError_not_in_list"
+msgstr "%s \"%s\" ติดตั้งบนพาหนะคันนี้ไม่ได้"
+
+msgid "clientRemoveError_wrong_item_type"
+msgstr "%s \"%s\" ผิดชนิด"
+
+msgid "clientRemoveError_wrong_nation"
+msgstr "%s \"%s\" ผิดประเทศ"
+
+msgid "client_inactive"
+msgstr "โปรแกรมลูกข่ายไม่ทำงาน"
+
+msgid "collectorVehicle/switch_off/body"
+msgstr "ชุดสะสมไม่มีให้ชั่วคราวเนื่องด้วยการบำรุงรักษา"
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "ชุดสะสมไม่มีให้"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "ชุดสะสมได้รับการแก้ไขแล้ว ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "ชุดสะสมมีให้อีกครั้ง"
+
+msgid "connected"
+msgstr "ยินดีต้อนรับสู่ World of Tanks เซิร์ฟเวอร์ %s!"
+
+msgid "consumables_apply/error"
+msgstr "เกิดข้อผิดพลาดการปรับยุทธปัจจัย โปรดลองใหม่ภายหลัง"
+
+msgid "consumables_apply/not_enough_money"
+msgstr "เกิดข้อผิดพลาดการปรับยุทธปัจจัย เงินทุนไม่พอซื้อ"
+
+msgid "consumables_apply/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนแล้ว"
+
+msgid "conversion/error"
+msgstr "ไม่สามารถปลดได้: เซิร์ฟเวอร์ไม่มีให้ โปรดลองใหม่ภายหลัง"
+
+msgid "conversion/header"
+msgstr "วัน: %(at)s\nเพิ่มเข้ามา:"
+
+msgid "conversion/success"
+msgstr "ทำการปลดสมาชิกพลรถถังฝึกน้อยไป: %(number)s"
+
+msgid "conversion/title"
+msgstr "ใบเสร็จ"
+
+msgid "conversionPerks/header"
+msgstr "วัน: %(at)s\nการแปลงประสบการณ์จากความสามารถพลรถถังไปยังขีดจำกัด ได้รับ:"
+
+msgid "countryRestriction/privateMessagesForbidden"
+msgstr "ข้อความส่วนตัวไม่มีให้กับผู้เล่นจากประเทศของคุณ"
+
+msgid "crewBooks/failed"
+msgstr "ไม่สามารถฝึกพลรถถังนี้ได้\nโปรดลองใหม่ภายหลัง"
+
+msgid "crewBooks/server_error"
+msgstr "การฝึกสมาชิกพลรถถังล้มเหลวจากข้อผิดพลาดของเซิร์ฟเวอร์ โปรดลองใหม่ภายหลัง"
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "%(name)s"
+
+msgid "crewBooksNotification/booksUsed"
+msgstr "%(name)s (x%(count)s)"
+
+msgid "crewBooksNotification/success"
+msgstr "ฝึกพลรถถังไป\nใช้ไป:"
+
+msgid "crewBooks_buy/server_error"
+msgstr "ไม่สามารถซื้อหนังสือพลรถถังได้เนื่องจากข้อผิดพลาดเซิร์ฟเวอร์ โปรดลองใหม่ภายหลัง"
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s อัน).\nใช้เงินไป: %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr "ไม่สามารถขายหนังสือพลรถถังได้เนื่องจากข้อผิดพลาดเซิร์ฟเวอร์ โปรดลองใหม่ภายหลัง"
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s อัน).\nได้รับเงิน: %(money)s."
+
+msgid "crewSkinsNotification/SkinChanged"
+msgstr "เปลี่ยนลายพลรถถังแล้ว"
+
+msgid "crewSkinsNotification/SkinGain"
+msgstr "เพิ่มลายพลรถถัง: %(count)s"
+
+msgid "current_vehicle_changed"
+msgstr "พาหนะปัจจุบันถูกเปลี่ยนด้วย %s"
+
+msgid "customization/added/attachment"
+msgstr "เพิ่ม %s ชุดติดตั้งสามมิติเข้ามา"
+
+msgid "customization/added/attachmentValue"
+msgstr "เพิ่ม %s ชุดติดตั้งสามมิติ: (x%s)"
+
+msgid "customization/added/camouflage"
+msgstr "เพิ่มลายพราง %s แล้ว"
+
+msgid "customization/added/camouflageValue"
+msgstr "เพิ่มลายพราง %s แล้ว: (x%s)"
+
+msgid "customization/added/decal"
+msgstr "เพิ่มลวดลาย %s แล้ว"
+
+msgid "customization/added/decalValue"
+msgstr "เพิ่มลวดลาย %s แล้ว: (x%s)"
+
+msgid "customization/added/emblem"
+msgstr "เพิ่มตราสัญลักษณ์ %s แล้ว"
+
+msgid "customization/added/emblemValue"
+msgstr "เพิ่มตราสัญลักษณ์ %s แล้ว: (x%s)"
+
+msgid "customization/added/inscription"
+msgstr "เพิ่มคำจารึก %s แล้ว"
+
+msgid "customization/added/inscriptionValue"
+msgstr "เพิ่มคำจารึก %s แล้ว: (x%s)"
+
+msgid "customization/added/modification"
+msgstr "เพิ่มเอฟเฟค %s แล้ว"
+
+msgid "customization/added/modificationValue"
+msgstr "เพิ่มเอฟเฟค %s แล้ว: (x%s)"
+
+msgid "customization/added/paint"
+msgstr "เพิ่มสี %s แล้ว"
+
+msgid "customization/added/paintValue"
+msgstr "เพิ่มสี %s แล้ว: (x%s)"
+
+msgid "customization/added/personalNumber_1"
+msgstr "%s เพิ่มตัวเลขหนึ่งหลัก"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "%s เพิ่มตัวเลขหนึ่งหลัก: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "%s เพิ่มตัวเลขสองหลัก"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "%s เพิ่มตัวเลขสองหลัก: (x%s)"
+
+msgid "customization/added/personalNumber_3"
+msgstr "เพิ่มเลขสามหลัก %s แล้ว"
+
+msgid "customization/added/personalNumber_3Value"
+msgstr "เพิ่มเลขสามหลัก %s แล้ว: (x%s)"
+
+msgid "customization/added/projectionDecal"
+msgstr "เพิ่มลวดลาย %s แล้ว"
+
+msgid "customization/added/projectionDecalValue"
+msgstr "เพิ่มลวดลาย %s แล้ว: (x%s)"
+
+msgid "customization/added/statTracker"
+msgstr "ตัวติดตามสถิติ: %s เพิ่มเข้ามา"
+
+msgid "customization/added/statTrackerValue"
+msgstr "ตัวติดตามสถิติ: %s เพิ่มเข้ามา: (x%s)"
+
+msgid "customization/added/style"
+msgstr "เพิ่มรูปแบบ %s แล้ว"
+
+msgid "customization/added/styleValue"
+msgstr "เพิ่มรูปแบบ %s แล้ว: (x%s)"
+
+msgid "customization/credits_and_gold_not_enough"
+msgstr "ไม่สามารถปรับแต่งได้ มีเงินกับทองไม่พอ"
+
+msgid "customization/credits_not_enough"
+msgstr "ไม่สามารถปรับแต่งได้ มีเงินไม่พอ"
+
+msgid "customization/currency_not_enough"
+msgstr "สกุลเงินไม่พอในการซื้อสิ่งของ"
+
+msgid "customization/gold_not_enough"
+msgstr "ไม่สามารถปรับแต่งได้ ทองไม่พอ"
+
+msgid "customization/igr_type_changed_error"
+msgstr "สถานะ IGR ถูกเปลี่ยน การปฏิบัติการปัจจุบันถูกยกเลิก"
+
+msgid "customization/invalidVehicle"
+msgstr "ไม่สามารถใช้ได้: พาหนะไม่เหมาะสม"
+
+msgid "customization/personal_number_prohibited"
+msgstr "เลข %(value)s ไม่มีให้ใช้\n%(itemType)s%(itemName)s ถูกปลดไปสำหรับแผนที่ %(seasonName)s"
+
+msgid "customization/progression/down/style"
+msgstr "รูปแบบ %s ถูกลดลงเป็นขั้น %s"
+
+msgid "customization/progression/up/style"
+msgstr "รูปแบบ %s ถูกเพิ่มขึ้นเป็นขั้น %s"
+
+msgid "customization/prohibited"
+msgstr "ไม่สามารถใช้งานได้: %(itemName)s ไม่ได้อยู่ในคลังเก็บ"
+
+msgid "customization/removed/attachment"
+msgstr "ลบ %s ชุดติดตั้งสามมิติออก"
+
+msgid "customization/removed/attachmentValue"
+msgstr "ลบ %s ชุดติดตั้งสามมิติออก: (x%s)"
+
+msgid "customization/removed/camouflage"
+msgstr "ลบลายพราง %s แล้ว"
+
+msgid "customization/removed/camouflageValue"
+msgstr "ลบลายพราง %s แล้ว: (x%s)"
+
+msgid "customization/removed/decal"
+msgstr "ลบลวดลาย %s แล้ว"
+
+msgid "customization/removed/decalValue"
+msgstr "ลบลวดลาย %s แล้ว: (x%s)"
+
+msgid "customization/removed/emblem"
+msgstr "ลบตราสัญลักษณ์ %s แล้ว"
+
+msgid "customization/removed/emblemValue"
+msgstr "ลบตราสัญลักษณ์ %s แล้ว: (x%s)"
+
+msgid "customization/removed/inscription"
+msgstr "ลบคำจารึก %s แล้ว"
+
+msgid "customization/removed/inscriptionValue"
+msgstr "ลบคำจารึก %s แล้ว: (x%s)"
+
+msgid "customization/removed/modification"
+msgstr "ลบเอฟเฟค %s แล้ว"
+
+msgid "customization/removed/modificationValue"
+msgstr "ลบเอฟเฟค %s แล้ว: (x%s)"
+
+msgid "customization/removed/paint"
+msgstr "ลบสี %s แล้ว"
+
+msgid "customization/removed/paintValue"
+msgstr "ลบสี %s แล้ว: (x%s)"
+
+msgid "customization/removed/personalNumber_1"
+msgstr "%s ลบตัวเลขหนึ่งหลัก"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "%s ลบตัวเลขหนึ่งหลัก: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "%s ลบตัวเลขสองหลัก"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "%s ลบตัวเลขสองหลัก: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
+msgstr "ลบเลขสามหลัก %s แล้ว"
+
+msgid "customization/removed/personalNumber_3Value"
+msgstr "ลบเลขสามหลัก %s แล้ว: (x%s)"
+
+msgid "customization/removed/projectionDecal"
+msgstr "ลบลวดลาย %s แล้ว"
+
+msgid "customization/removed/projectionDecalValue"
+msgstr "ลบลวดลาย %s แล้ว: (x%s)"
+
+msgid "customization/removed/statTracker"
+msgstr "ตัวติดตามสถิติ: %s ลบออกแล้ว"
+
+msgid "customization/removed/statTrackerValue"
+msgstr "ตัวติดตามสถิติ: %s ลบออกแล้ว: (x%s)"
+
+msgid "customization/removed/style"
+msgstr "ลบรูปแบบ %s แล้ว"
+
+msgid "customization/removed/styleValue"
+msgstr "ลบรูปแบบ %s แล้ว: (x%s)"
+
+msgid "customization/server_error"
+msgstr "ไม่สามารถปรับแต่งได้"
+
+msgid "customization/unavailable"
+msgstr "การใช้งานปรับแต่งพาหนะถูกปิดชั่วคราวด้วยเหตุทางเทคนิค"
+
+msgid "customization/vehicle_damaged"
+msgstr "ไม่สามารถปรับแต่งได้ พาหนะได้รับความเสียหาย กรุณาซ่อมพาหนะก่อน"
+
+msgid "customization/vehicle_destroyed"
+msgstr "ไม่สามารถปรับแต่งได้ พาหนะหมดสภาพ กรุณาซ่อมพาหนะก่อน"
+
+msgid "customization/vehicle_exploded"
+msgstr "ไม่สามารถปรับแต่งได้ พาหนะถูกทำลาย กรุณาซ่อมพาหนะก่อน"
+
+msgid "customization/vehicle_locked"
+msgstr "ไม่สามารถปรับแต่งได้ พาหนะถูกล็อค"
+
+msgid "daily_quests/reroll/quest_is_already_completed"
+msgstr "ไม่สามารถเปลี่ยนภารกิจปกติได้: ภารกิจสำเร็จไปแล้ว"
+
+msgid "daily_quests/reroll/reroll_disabled"
+msgstr "ไม่สามารถเปลี่ยนภารกิจปกติได้: การปฏิบัติการถูกบล็อค"
+
+msgid "daily_quests/reroll/reroll_in_cooldown"
+msgstr "ไม่สามารถเปลี่ยนภารกิจปกติได้: การปฏิบัติการถูกพักไว้"
+
+msgid "daily_quests/reroll/success"
+msgstr "ภารกิจปกติถูกเปลี่ยนเรียบร้อย"
+
+msgid "daily_quests/reroll/unknown_error"
+msgstr "ไม่สามารถเปลี่ยนภารกิจปกติได้ โปรดลองใหม่ภายหลัง"
+
+msgid "daily_quests/switch_off/body"
+msgstr "การใช้งานนี้ไม่มีให้ชั่วคราวเนื่องจากเหตุทางเทคนิค\nทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "daily_quests/switch_off/title"
+msgstr "ภารกิจปกติไม่มีให้ชั่วคราว"
+
+msgid "daily_quests/switch_on/body"
+msgstr "ทำการแก้ไขปัญหาทางเทคนิคแล้ว ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้นด้วย"
+
+msgid "daily_quests/switch_on/title"
+msgstr "ภารกิจปกติมีให้อีกครั้ง"
+
+msgid "daily_xp_bonus/switch_off/body"
+msgstr "การใช้งานนี้ไม่มีให้ชั่วคราวเนื่องจากเหตุทางเทคนิค\nทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "daily_xp_bonus/switch_off/title"
+msgstr "โบนัสประสบการณ์แบบจัดการได้ไม่มีให้ชั่วคราว"
+
+msgid "daily_xp_bonus/switch_on/body"
+msgstr "ทำการแก้ไขปัญหาทางเทคนิคเรียบร้อยแล้ว ทางเราต้องขออภัยด้วยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "daily_xp_bonus/switch_on/title"
+msgstr "โบนัสประสบการณ์แบบจัดการได้มีให้ใช้อีกครั้ง"
+
+msgid "demountKit_failed/switchedOff"
+msgstr "การดำเนินการด้วยชุดเครื่องมือปลดไม่มีให้ชั่วคราวเนื่องด้วยการบำรุงรักษาที่กำลังเกิดขึ้นอยู่"
+
+msgid "demountKit_restored/switchedOn"
+msgstr "การดำเนินการด้วยชุดเครื่องมือปลดทำได้อีกครั้งแล้ว ทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "denunciation/success"
+msgstr "ได้รับคำร้องเกี่ยวกับ %(name)s ในเรื่อง \"%(topic)s\" แล้ว"
+
+msgid "disconnected"
+msgstr "โปรแกรมลูกข่ายตัดการเชื่อมต่อกับเซิร์ฟเวอร์"
+
+msgid "dismiss_tankman/FORBIDDEN"
+msgstr "ไม่สามารถปลดสมาชิกพลรถถังได้: รถถังคันนี้มีพลรถถังเฉพาะถาวร"
+
+msgid "dismiss_tankman/invalid_vehicle"
+msgstr "เกิดข้อผิดพลาดในการปลดพลรถถัง พาหนะผิดคัน"
+
+msgid "dismiss_tankman/server_error"
+msgstr "ไม่สามารถปลดเกษียณสมาชิกพลรถถังคนนี้ได้\nโปรดลองใหม่ภายหลัง"
+
+msgid "dismiss_tankman/success"
+msgstr "ปลดเกษียณสมาชิกพลรถถังแล้ว"
+
+msgid "dismiss_tankman/vehicle_locked"
+msgstr "เกิดข้อผิดพลาดในการปลดพลรถ. พาหนะถูกล็อกอยู่"
+
+msgid "dismiss_tankman/vehicle_need_repair"
+msgstr "เกิดข้อผิดพลาดในการปลดพลรถ ซ่อมพาหนะก่อน."
+
+msgid "dog_tags/switch_off/body"
+msgstr "การใช้งานนี้ไม่มีให้ชั่วคราวเนื่องปัญหาทางเทคนิค\nทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "dog_tags/switch_off/title"
+msgstr "ป้ายชื่อไม่มีให้ชั่วคราว"
+
+msgid "dog_tags/switch_on/body"
+msgstr "ทำการแก้ไขปัญหาทางเทคนิคแล้ว ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้นด้วย"
+
+msgid "dog_tags/switch_on/title"
+msgstr "มีป้ายชื่อให้อีกครั้ง"
+
+msgid "dossiers_unavailable"
+msgstr "บัญชียังไม่พร้อม (DOSSIERS_UNAVAILABLE)"
+
+msgid "drop_tankman_skill/finance_success_credits"
+msgstr "ตั้งความสามารถใหม่ทั้งหมดแล้ว\nใช้เงินไป: %(money)s"
+
+msgid "drop_tankman_skill/finance_success_gold"
+msgstr "ตั้งความสามารถใหม่ทั้งหมดแล้ว\nใช้ทองไป: %(money)s"
+
+msgid "drop_tankman_skill/invalid_vehicle"
+msgstr "เกิดเกิดข้อผิดพลาดในการตั้งความสามารถใหม่ พาหนะผิดคัน"
+
+msgid "drop_tankman_skill/server_error"
+msgstr "ไม่สามารถตั้งความสามารถใหม่ได้ โปรดลองใหม่ในภายหลัง"
+
+msgid "drop_tankman_skill/success"
+msgstr "ทำการตั้งความสามารถใหม่แล้ว"
+
+msgid "drop_tankman_skill/vehicle_locked"
+msgstr "เกิดข้อผิดพลาดในการตั้งความสามารถใหม่ พาหนะถูกล็อคเอาไว้"
+
+msgid "drop_tankman_skill/vehicle_need_repair"
+msgstr "เกิดข้อผิดพลาดในการตั้งความสามารถใหม่ ซ่อมพาหนะก่อน"
+
+msgid "drr_scale/step_down"
+msgstr "รายละเอียดตามสถานการณ์ถูกลดลงเป็น %(scale)d%%"
+
+msgid "drr_scale/step_up"
+msgstr "ความละเอียดแบบปรับตามสถานการณ์เพิ่มขึ้นเป็น %(scale)d%%"
+
+msgid "earning/button/multiple"
+msgstr "ไปยังความสำเร็จ"
+
+msgid "earning/button/single"
+msgstr "ไปยังความสำเร็จ"
+
+msgid "earning/common/multiple"
+msgstr "ปลดล็อคความสำเร็จ %(value)s แล้ว!"
+
+msgid "earning/common/single"
+msgstr "ปลดล็อคความสำเร็จ %(value)s แล้ว!"
+
+msgid "earning/title"
+msgstr "ยินดีด้วย!"
+
+msgid "earning/trophy/multiple"
+msgstr "ได้รับที่ระลึกสงคราม %(value)s แล้ว!"
+
+msgid "earning/trophy/single"
+msgstr "ได้รับที่ระลึกสงคราม %(value)s แล้ว!"
+
+msgid "easyTankEquip/switch_pause_off/body"
+msgstr "การบำรุงรักษาด่วนมีให้อีกครั้ง ทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "easyTankEquip/switch_pause_on/body"
+msgstr "การบำรุงรักษาด่วนไม่มีให้ชั่วคราวเนื่องจากการบำรุงรักษาตามกำหนด"
+
+msgid "easyTankEquip_apply/error"
+msgstr "เกิดข้อผิดพลาดในการใช้การปรับแต่งบำรุงรักษาด่วน โปรดลองใหม่ในภายหลัง"
+
+msgid "easyTankEquip_apply/not_enough_money"
+msgstr "เกิดข้อผิดพลาดในการใช้การปรับแต่งบำรุงรักษาด่วน เงินไม่พอในการซื้อ"
+
+msgid "easyTankEquip_apply/wallet_not_available"
+msgstr "การดำเนินการบำรุงรักษาด่วนไม่มีให้ ทองของคุณจะมีให้ใช้อีกครั้งหลังจาก WG Wallet ถูกกู้คืนแล้ว"
+
+msgid "epicBattles/levelUp/awards"
+msgstr "ได้รับรางวัล:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr "คุณได้ไต่ถึงระดับ <font color='#E9E2BF'>%(tier)s</font>ของความก้าวหน้าแนวรบ"
+
+msgid "epicBattles/levelUp/title"
+msgstr "ยินดีด้วย!"
+
+msgid "epicBattles/notification/notAvailable"
+msgstr "ไม่มีรูปแบบแนวรบให้ โปรดติดตามอัพเดตบนเวบท่าของเกม"
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "เกิดข้อผิดพลาดในการเลือกรางวัล โปรดลองใหม่อีกครัั้ง"
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "ได้รับ %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "ได้รับคำสั่งสำหรับอุปกรณ์: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "ได้รับอุปกรณ์ทดลอง: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr "ฤดูกาลแนวรบได้จบลงแล้ว<br/>รางวัลทั้งหมดที่คุณไม่ได้เลือกในช่วงฤดูกาลได้ถูกมอบให้คุณตามค่ามาตรฐาน:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "แนวรบ"
+
+msgid "equip_tankman/FORBIDDEN"
+msgstr "ไม่สามารถโอนพลรถถังได้: รถถังมีพลรถถังเฉพาะถาวร"
+
+msgid "equip_tankman/invalid_vehicle"
+msgstr "เกิดข้อผิดพลาดในการโอนพลรถถัง พาหนะผิดคัน"
+
+msgid "equip_tankman/not_enough_space"
+msgstr "ไม่สามารถส่งสมาชิกพลรถถังไปยังค่ายทหารได้ มีเตียงในค่ายไม่พอ"
+
+msgid "equip_tankman/server_error"
+msgstr "ไม่สามารถโอนสมาชิกพลรถถังกลับไปพาหนะได้ โปรดลองใหม่ภายหลัง"
+
+msgid "equip_tankman/success"
+msgstr "สมาชิกพลรถถังถูกโอนไปยัง %(vehName)s"
+
+msgid "equip_tankman/vehicle_locked"
+msgstr "เกิดข้อผิดพลาดในการโอนพลรถ พาหนะถูกล็อกอยู่"
+
+msgid "equip_tankman/vehicle_need_repair"
+msgstr "เกิดข้อผิดพลาดในการโอนพลรถ ซ่อมพาหนะก่อน"
+
+msgid "exchange/not_enough_gold"
+msgstr "มีทองไม่พอสำหรับการแลกเปลี่ยน"
+
+msgid "exchange/server_error"
+msgstr "เกิดข้อผิดพลาดแปลงทอง %(gold)s ลองใหม่อีกครั้ง"
+
+msgid "exchange/success/information"
+msgstr "%(information)s"
+
+msgid "exchange/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "exchangeXP/not_enough_gold"
+msgstr "มีทองไม่พอสำหรับการแปลงค่าประสบการณ์ %(xp)s"
+
+msgid "exchangeXP/server_error"
+msgstr "เกิดข้อผิดพลาดระหว่างการแปลง ค่าประสบการณ์ %(xp)s. ลองใหม่อีกครั้ง"
+
+msgid "exchangeXP/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "filling_untrained_perks/server_error"
+msgstr "ไม่สามารถฝึกความสามารถใหม่ได้\nเซิร์ฟเวอร์ไม่มีให้ โปรดลองใหม่ภายหลัง"
+
+msgid "filling_untrained_perks/success"
+msgstr "ทำการฝึกความสามารถใหม่สำหรับสมาชิกพลรถถังทั้งหมดแล้ว"
+
+msgid "fortification/addOrder"
+msgstr "การเตรียมกำลังสำรอง %(count)s เริ่มขึ้นแล้ว เหลือเวลาอีก: %(time)s"
+
+msgid "fortification/buildingProcess"
+msgstr "ได้เริ่มการก่อสร้างอาคาร %(buildingName)s แล้ว จำเป็นต้องทำการขนส่งทรัพยากรอุตสาหกรรมตามจำนวนที่ระบุเพื่อให้การก่อสร้างเป็นไปอย่างต่อเนื่อง"
+
+msgid "fortification/created"
+msgstr "ยินดีด้วย!\nสร้างฐานที่มั่นเสร็จแล้ว"
+
+msgid "fortification/defenceHourDeactivated"
+msgstr "การป้องกันฐานที่มั่นของคุณจะถูกปิดเป็นเวลา 48 ชั่วโมง ในช่วงเวลาดังกล่าวคุณจะสามารถเปิดใช้การป้องกันใหม่ในการตั้งค่าฐานที่มั่น"
+
+msgid "fortification/defenceHourSet"
+msgstr "การตั้งค่าการป้องกันจะถูกปรับภายใน 14 วัน เวลาใหม่สำหรับการป้องกัน: %(defenceHour)s"
+
+msgid "fortification/defenceHourSet/noOffDay"
+msgstr "วันหยุดยิงจะถูกปรับภายใน 14 วัน วันหยุดยิงใหม่—ยังไม่ได้ตั้ง"
+
+msgid "fortification/defenceHourSet/offDay"
+msgstr "วันหยุดยิงจะถูกปรับภายใน 14 วัน วันหยุดยิงใหม่—%(offDay)s"
+
+msgid "fortification/demountBuilding"
+msgstr "อาคาร %(buildingName)s ถูกรื้อถอนแล้ว"
+
+msgid "fortification/errors/ALREADY_ATTACHED"
+msgstr "ไม่สามารถดำเนินการได้ คุณได้เข้าประจำในอาคารนี้แล้ว"
+
+msgid "fortification/errors/ALREADY_CREATED"
+msgstr "ไม่สามารถดำเนินการได้ ฐานที่มั่นถูกสร้างขึ้นแล้ว"
+
+msgid "fortification/errors/ALREADY_FAVORITE"
+msgstr "ไม่สามารถดำเนินการได้ กองทัพอยู่ในรายการบันทึกไว้แล้ว"
+
+msgid "fortification/errors/ALREADY_PLANNED_ATTACK"
+msgstr "ไม่สามารถดำเนินการได้ คุณไม่สามารถวางแผนการโจมตีกองทัพมากกว่าหนึ่งครั้งต่อกองทัพ"
+
+msgid "fortification/errors/ATTACKS_NOT_LOADED"
+msgstr "ไม่สามารถดำเนินการได้ ไม่ได้โหลดข้อมูลการโจมตี"
+
+msgid "fortification/errors/ATTACK_COOLDOWN"
+msgstr "ไม่สามารถดำเนินการได้ ต้องให้เวลาผ่านไปหนึ่งสัปดาห์ก่อนที่จะโจมตีกองทัพนั้นได้อีกครั้ง"
+
+msgid "fortification/errors/ATTACK_DIR_BUSY"
+msgstr "ไม่สามารถดำเนินการได้ กองเฉพาะกิจกองอื่นควบคุมหัวหาดอยู่"
+
+msgid "fortification/errors/ATTACK_NOT_PLANNED"
+msgstr "ไม่สามารถดำเนินการได้ ไม่มีการกำหนดการโจมตีเอาไว้"
+
+msgid "fortification/errors/ATTACK_PREORDER_FAILED"
+msgstr "ไม่สามารถดำเนินการได้ คุณสามารถวางแผนการโจมตีที่เริ่มภายใน 15 นาทีเท่านั้น"
+
+msgid "fortification/errors/ATTACK_TOO_LATE"
+msgstr "ไม่สามารถจัดตารางการโจมตีในวันที่เลือกไว้ได้"
+
+msgid "fortification/errors/BAD_CLAN_DBID"
+msgstr "ไม่สามารถดำเนินการได้ ID กองทัพไม่ถูกต้อง"
+
+msgid "fortification/errors/BAD_DAY_VALUE"
+msgstr "ไม่สามารถดำเนินการได้ ค่าวันหยุดยิงไม่ถูกต้อง"
+
+msgid "fortification/errors/BAD_DMG"
+msgstr "ไม่สามารถดำเนินการได้ วันไม่ถูกต้อง"
+
+msgid "fortification/errors/BAD_FORT_BATTLE_ID"
+msgstr "ไม่สามารถดำเนินการได้ ID ของการรบรุกคืบไม่ถูกต้อง"
+
+msgid "fortification/errors/BAD_HOUR_VALUE"
+msgstr "ไม่สามารถดำเนินการได้ ค่าสำหรับช่วงเวลาป้องกันไม่ถูกต้อง"
+
+msgid "fortification/errors/BAD_LEVEL_PLANNED_ATTACK"
+msgstr "ไม่สามารถโจมตีกองทัพที่เลือกไว้ได้: ความต่างของระดับฐานที่มั่นนั้นมากกว่าหนึ่ง ให้เลือกกองทัพอื่น"
+
+msgid "fortification/errors/BAD_ORDERS_COUNT"
+msgstr "ไม่สามารถดำเนินการได้ จำนวนกำลังสำรองไม่ถูกต้อง"
+
+msgid "fortification/errors/BAD_RESOURCE_COUNT"
+msgstr "ไม่สามารถดำเนินการได้ จำนวนการโอนทรัพยากรอุตสาหกรรมไม่ถูกต้อง"
+
+msgid "fortification/errors/BAD_SORTIE_DIVISION"
+msgstr "ไม่สามารถดำเนินการได้ กองพลไม่ถูกต้อง"
+
+msgid "fortification/errors/BAD_SORTIE_ID"
+msgstr "ไม่สามารถดำเนินการได้ ไม่ได้รับรายละเอียดการเข้าปะทะ"
+
+msgid "fortification/errors/BAD_SORTIE_PERIPHERY_ID"
+msgstr "การรบถูกจำกัดไว้บนเซิร์ฟเวอร์นี้ในขณะนี้"
+
+msgid "fortification/errors/BAD_VACATION_DURATION"
+msgstr "ไม่สามารถดำเนินการได้ ระยะเป็นกลางไม่ถูกต้อง"
+
+msgid "fortification/errors/BAD_VACATION_START"
+msgstr "ไม่สามารถดำเนินการได้ วันเป็นกลางไม่ถูกต้อง"
+
+msgid "fortification/errors/BASE_DAMAGED"
+msgstr "ไม่สามารถดำเนินการได้ ซ่อมศูนย์บัญชาการก่อน"
+
+msgid "fortification/errors/BASE_DESTROYED"
+msgstr "ไม่สามารถดำเนินการได้ ศูนย์บัญชาการถูกทำลาย"
+
+msgid "fortification/errors/BASE_NOT_DAMAGED"
+msgstr "ไม่สามารถดำเนินการได้ ศูนย์บัญชาการไม่ได้รับความเสียหาย"
+
+msgid "fortification/errors/BATTLE_DOES_NOT_EXIST"
+msgstr "ไม่สามารถดำเนินการได้ ไม่มีการรบ"
+
+msgid "fortification/errors/BATTLE_INFO_NOT_AVAILABLE"
+msgstr "ขออภัย ไม่มีผลการรบโดยละเอียดในตอนนี้"
+
+msgid "fortification/errors/BUILDINGS_STILL_PRESENT"
+msgstr "ไม่สามารถถอนได้ ฐานที่มั่นมีอาคารอยู่"
+
+msgid "fortification/errors/BUILDING_DAMAGED"
+msgstr "ไม่สามารถดำเนินการได้ อาคารเสียหาย"
+
+msgid "fortification/errors/BUILDING_NOT_READY"
+msgstr "ไม่สามารถดำเนินการได้ อาคารยังไม่ถูกสร้าง"
+
+msgid "fortification/errors/CANT_CREATE_CLAN"
+msgstr "ไม่สามารถดำเนินการได้ ไม่สามารถหาข้อมูลกองทัพได้"
+
+msgid "fortification/errors/CANT_LOOKUP_CLAN"
+msgstr "ไม่สามารถดำเนินการได้ ไม่สามารถหากองทัพได้"
+
+msgid "fortification/errors/CANT_TRANSPORT"
+msgstr "ไม่สามารถดำเนินการได้ การขนส่งใช้งานไม่ได้"
+
+msgid "fortification/errors/CANT_UPGRADE"
+msgstr "ไม่สามารถดำเนินการได้ การยกระดับอาคารไม่สามารถทำได้ในขณะนี้"
+
+msgid "fortification/errors/CENTER_NOT_AVAILABLE"
+msgstr "การปฏิบัติการถูกปฏิเสธ เซิร์ฟเวอร์ยังไม่สามารถใช้งานได้ในขณะนี้"
+
+msgid "fortification/errors/CLAN_HAS_OFF_DAY"
+msgstr "ไม่สามารถดำเนินการได้ กองทัพได้ใช้งานวันหยุดยิงแล้ว"
+
+msgid "fortification/errors/CLAN_ON_VACATION"
+msgstr "ไม่สามารถดำเนินการได้ กองทัพได้ใช้งานสภาวะเป็นกลางแล้ว"
+
+msgid "fortification/errors/CURFEW_HOUR"
+msgstr "ไม่สามารถดำเนินการได้ ไม่สามารถตั้งเวลาป้องกันในเวลาที่ระบุไว้"
+
+msgid "fortification/errors/DEFENCE_DIR_BUSY"
+msgstr "ไม่สามารถดำเนินการได้ กองเฉพาะกิจกองอื่นควบคุมหัวหาดอยู่"
+
+msgid "fortification/errors/DEFENCE_NOT_PLANNED"
+msgstr "ไม่สามารถดำเนินการได้ ไม่ได้มีการกำหนดเวลาป้องกัน"
+
+msgid "fortification/errors/DEFENCE_NOT_POSSIBLE"
+msgstr "ไม่สามารถดำเนินการได้ ข้อมูลไม่ถูกต้อง"
+
+msgid "fortification/errors/DEF_HOUR_NOT_ACTIVE"
+msgstr "ไม่สามารถดำเนินการได้ ยังไม่ได้เปิดการป้องกัน"
+
+msgid "fortification/errors/DISCONNECTED_FROM_CENTER"
+msgstr "ฐานที่มั่นไม่มีให้ชั่วคราว"
+
+msgid "fortification/errors/DUPLICATE_BUILDING_TYPE"
+msgstr "ไม่สามารถดำเนินการได้ อาคารถูกสร้างไว้แล้ว"
+
+msgid "fortification/errors/EVENT_COOLDOWN"
+msgstr "ไม่สามารถดำเนินการได้ โปรดรอจนกว่าการปฏิบัติการปัจจุบันจะเสร็จสิ้น"
+
+msgid "fortification/errors/FAILED_TO_BOOK_DIR"
+msgstr "ไม่สามารถดำเนินการได้ คุณกำลังโจมตีกองทัพอื่นในเวลานั้น"
+
+msgid "fortification/errors/FORBIDDEN_FORT_BATTLE_HOUR"
+msgstr "ไม่สามารถกำหนดการโจมตีกองทัพนี้ในเวลาที่ได้ทำการขอไว้"
+
+msgid "fortification/errors/FORT_DISABLED"
+msgstr "เกิดข้อผิดพลาด ฐานที่มั่นไม่มีให้ชั่วคราว"
+
+msgid "fortification/errors/FORT_LEVEL_TOO_LOW"
+msgstr "ไม่สามารถดำเนินการได้ ฐานที่มั่นระดับต่ำเกินไป"
+
+msgid "fortification/errors/GLOBAL_PRODUCTION_SUSPEND"
+msgstr "ไม่สามารถดำเนินการได้ การสร้างอาคารทั้งหมดถูกพักไว้"
+
+msgid "fortification/errors/INSUFFICIENT_CLAN_ROLE"
+msgstr "ไม่สามารถดำเนินการได้ คุณมีอำนาจไม่พอ"
+
+msgid "fortification/errors/JOIN_CTX_LOCKED"
+msgstr "ไม่มีการดำเนินการ ไม่สามารถเข้าร่วมหน่วยยุทธวิธีได้"
+
+msgid "fortification/errors/METHOD_COOLDOWN"
+msgstr "ไม่สามารถดำเนินการได้ชั่วคราว"
+
+msgid "fortification/errors/NON_ALIGNED_TIMESTAMP"
+msgstr "ไม่สามารถดำเนินการได้ เวลาไม่ตรงกัน"
+
+msgid "fortification/errors/NOT_ATTACHED_TO_BUILDING"
+msgstr "ไม่สามารถดำเนินการได้ คุณไม่ได้ประจำอยู่ที่อาคารดังกล่าว"
+
+msgid "fortification/errors/NOT_A_CLAN_MEMBER"
+msgstr "ไม่สามารถดำเนินการได้ ผู้เล่นไม่ได้เป็นสมาชิกกองทัพ"
+
+msgid "fortification/errors/NOT_ENOUGH_CLAN_MEMBERS"
+msgstr "ไม่สามารถดำเนินการได้ ผู้เล่นในกองทัพไม่พอ"
+
+msgid "fortification/errors/NOT_ENOUGH_RESOURCE"
+msgstr "ไม่สามารถดำเนินการได้ ทรัพยากรอุตสาหกรรมในห้องเก็บอาคารไม่พอ"
+
+msgid "fortification/errors/NOT_FAVORITE"
+msgstr "ไม่สามารถดำเนินการได้ กองทัพไม่ได้อยู่ในรายการบันทึก"
+
+msgid "fortification/errors/NO_BUILDING"
+msgstr "ไม่สามารถดำเนินการได้ อาคารยังไม่ถูกสร้างขึ้น"
+
+msgid "fortification/errors/NO_CLAN"
+msgstr "ไม่สามารถดำเนินการได้ คุณไม่ใช่สมาชิกกองทัพใดๆ"
+
+msgid "fortification/errors/NO_DATA_FOR_ACTIVATING_ORDER"
+msgstr "ไม่สามารถดำเนินการได้ กำลังสำรองไม่สามารถใช้งานได้ในขณะนี้"
+
+msgid "fortification/errors/NO_DEST_BUILDING"
+msgstr "ไม่สามารถดำเนินการได้ ผิดอาคาร"
+
+msgid "fortification/errors/NO_ORDER"
+msgstr "ไม่สามารถดำเนินการได้ ไม่มีกำลังสำรองหรือไม่ได้เลือกเอาไว้"
+
+msgid "fortification/errors/NO_ORDER_DEF"
+msgstr "ไม่สามารถดำเนินการได้ กำลังสำรองไม่ถูกต้อง"
+
+msgid "fortification/errors/NO_ORDER_LEVEL"
+msgstr "ไม่สามารถดำเนินการได้ กำลังสำรองไม่ถูกต้อง"
+
+msgid "fortification/errors/NO_PRODUCTION_ORDER"
+msgstr "ไม่สามารถดำเนินการได้ มีอาคารกำลังสร้างอยู่แล้ว"
+
+msgid "fortification/errors/NO_SUCH_ATTACK"
+msgstr "ไม่สามารถดำเนินการได้ ไม่มีการโจมตี"
+
+msgid "fortification/errors/ORDER_ALREADY_ACTIVATED"
+msgstr "ไม่สามารถดำเนินการได้ กำลังสำรองกำลังถูกใช้งานอยู่"
+
+msgid "fortification/errors/ORDER_ALREADY_IN_PRODUCTION"
+msgstr "ไม่สามารถดำเนินการได้ กำลังสำรองกำลังถูกเตรียมอยู่แล้ว"
+
+msgid "fortification/errors/ORDER_ALREADY_SUSPENDED"
+msgstr "ไม่สามารถดำเนินการได้ การสร้างถูกพักไว้แล้ว"
+
+msgid "fortification/errors/ORDER_NOT_SUPPORTED"
+msgstr "ไม่สามารถดำเนินการได้ ไม่มีกำลังสำรองให้"
+
+msgid "fortification/errors/ORDER_NOT_SUSPENDED"
+msgstr "ไม่สามารถดำเนินการได้ การสร้างไม่ได้ถูกพักไว้"
+
+msgid "fortification/errors/PERIPHERY_NOT_CONNECTED"
+msgstr "ไม่สามารถดำเนินการได้ เซิร์ฟเวอร์ออฟไลน์อยู่"
+
+msgid "fortification/errors/POSITION_OCCUPIED"
+msgstr "ไม่สามารถดำเนินการได้ ช่องถูกใช้แล้ว"
+
+msgid "fortification/errors/SHUTDOWN_ALREADY_REQUESTED"
+msgstr "ไม่สามารถดำเนินการได้ การป้องกันถูกปิดไว้"
+
+msgid "fortification/errors/SHUTDOWN_NOT_REQUESTED"
+msgstr "ไม่สามารถดำเนินการได้ การป้องกันยังไม่ถูกปิด"
+
+msgid "fortification/errors/START_SCENARIO_NOT_DONE"
+msgstr "ไม่สามารถดำเนินการได้ การฝึกไม่สำเร็จ"
+
+msgid "fortification/errors/STORAGE_OVERFLOW"
+msgstr "ไม่สามารถดำเนินการได้ ห้องเก็บเต็ม"
+
+msgid "fortification/errors/TOO_MANY_DEFENCES"
+msgstr "ไม่สามารถดำเนินการได้ มีการกำหนดเวลาป้องกันไว้สำหรับวันนี้แล้ว"
+
+msgid "fortification/errors/TOO_MANY_FAVORITES"
+msgstr "เต็มจำนวนกองทัพที่คั่นเครื่องหมายไว้แล้ว"
+
+msgid "fortification/errors/TOO_MANY_ORDERS"
+msgstr "ไม่สามารถดำเนินการได้ มีจำนวนกำลังสำรองเตรียมไว้เต็มที่แล้ว"
+
+msgid "fortification/errors/TOO_MANY_PLAYERS_ATTACHED"
+msgstr "ไม่สามารถดำเนินการได้ กองรักษาการณ์ประจำอาคารเต็มแล้ว"
+
+msgid "fortification/errors/TOO_MANY_SORTIES"
+msgstr "ไม่สามารถดำเนินการได้ เกินพิกัดการเข้าปะทะแล้ว"
+
+msgid "fortification/errors/TRANSPORT_COOLDOWN"
+msgstr "ไม่สามารถดำเนินการได้ การขนส่งไม่สามารถทำได้ชั่วคราว"
+
+msgid "fortification/errors/TRANSPORT_LIMIT_EXCEEDED"
+msgstr "ไม่สามารถดำเนินการได้ เกิดพิกัดการขนส่งแล้ว"
+
+msgid "fortification/errors/UNIT_NOT_READY"
+msgstr "ไม่สามารถดำเนินการได้ ผู้เล่นไม่พร้อม"
+
+msgid "fortification/errors/WRONG_BUILDING"
+msgstr "ไม่สามารถดำเนินการได้ ไม่สามารถทำการรื้อถอนศูนย์บัญชาการ"
+
+msgid "fortification/errors/WRONG_CLAN"
+msgstr "ไม่สามารถดำเนินการได้ ผิดกองทัพ"
+
+msgid "fortification/errors/WRONG_PERIPHERY"
+msgstr "ไม่สามารถดำเนินการได้ ผิดเซิร์ฟเวอร์"
+
+msgid "fortification/errors/WRONG_POS"
+msgstr "ไม่สามารถดำเนินการได้ ไม่สามารถสร้างอาคารได้ในพื้นที่นี้"
+
+msgid "fortification/fixedPlayerToBuilding"
+msgstr "คุณประจำการที่อาคาร %(buildingName)s"
+
+msgid "fortification/fortBattleFinished"
+msgstr "การรบรุกคืบถูกหยุดลงเนื่องจากปัญหาทางเทคนิคของเซิรฟ์เวอร์"
+
+msgid "fortification/modernizationBuilding"
+msgstr "ทำการยกระดับแล้วเรียบร้อย ระดับของอาคาร %(buildingName)s เพิ่มเป็น %(buildingLevel)s"
+
+msgid "fortification/notification/turnedOff"
+msgstr "ฐานที่มั่นไม่มีให้ชั่วคราว ลองใหม่ภายหลัง"
+
+msgid "fortification/notification/turnedOn"
+msgstr "รูปแบบฐานที่มัน: การรบมีให้เล่นอีกครั้ง"
+
+msgid "fortification/request/name/ACTIVATE_ORDER"
+msgstr "ใช้งานกำลังสำรอง"
+
+msgid "fortification/request/name/ADD_BUILDING"
+msgstr "การสร้างอาคาร"
+
+msgid "fortification/request/name/ADD_FAVORITE"
+msgstr "บันทึกกองทัพ"
+
+msgid "fortification/request/name/ADD_ORDER"
+msgstr "ใช้งานกำลังสำรอง"
+
+msgid "fortification/request/name/ATTACH"
+msgstr "เพิ่มผู้เล่นเข้ากองรักษาการณ์"
+
+msgid "fortification/request/name/CANCEL_SHUTDOWN_DEF_HOUR"
+msgstr "เปิดใช้ช่วงเวลาป้องกันอีกครั้ง"
+
+msgid "fortification/request/name/CHANGE_DEF_HOUR"
+msgstr "ปรับช่วงเวลาการป้องกัน"
+
+msgid "fortification/request/name/CHANGE_OFF_DAY"
+msgstr "ปรับเวลาหยุดยิง"
+
+msgid "fortification/request/name/CHANGE_PERIPHERY"
+msgstr "เปลี่ยนเซิร์ฟเวอร์"
+
+msgid "fortification/request/name/CHANGE_SETTINGS"
+msgstr "ปรับการตั้งค่า"
+
+msgid "fortification/request/name/CHANGE_VACATION"
+msgstr "ปรับความเป็นกลาง"
+
+msgid "fortification/request/name/CREATE_FORT"
+msgstr "การสร้างฐานที่มั่น"
+
+msgid "fortification/request/name/CREATE_SORTIE"
+msgstr "สร้างกองเฉพาะกิจ"
+
+msgid "fortification/request/name/DELETE_BUILDING"
+msgstr "รื้อถอนอาคาร"
+
+msgid "fortification/request/name/DELETE_FORT"
+msgstr "รื้อถอนฐานที่มั่น"
+
+msgid "fortification/request/name/PLAN_ATTACK"
+msgstr "การโจมตีตามกำหนดเวลา"
+
+msgid "fortification/request/name/REMOVE_FAVORITE"
+msgstr "ลบกองทัพที่บันทึกไว้"
+
+msgid "fortification/request/name/REQUEST_CLAN_CARD"
+msgstr "ดูรายละเอียดกองทัพ"
+
+msgid "fortification/request/name/REQUEST_PUBLIC_INFO"
+msgstr "ดูรายละเอียดกองทัพ"
+
+msgid "fortification/request/name/REQUEST_SORTIE_UNIT"
+msgstr "ร้องขอหน่วยกองกำลังเฉพาะกิจ"
+
+msgid "fortification/request/name/SHUTDOWN_DEF_HOUR"
+msgstr "ช่วงยกเลิกการปอ้งกัน"
+
+msgid "fortification/request/name/TRANSPORTATION"
+msgstr "การขนส่ง"
+
+msgid "fortification/request/name/UPGRADE"
+msgstr "การยกระดับอาคาร"
+
+msgid "fortification/transport"
+msgstr "การขนส่งสำเร็จเรียบร้อย ทรัพยากรอุตสาหกรรม %(res)s หน่วยถูกส่งจากอาคาร %(fromBuilding)s ไปยังอาคาร %(toBuilding)s"
+
+msgid "fortification/vacationSet"
+msgstr "ฐานที่มั่นยังคงสถานะเป็นกลาง %(vacationPeriod)s"
+
+msgid "free_xp_to_tman_skill/error/NOT_IMPLEMENTED"
+msgstr "ปฏิบัติการไม่สามารถเลือกได้"
+
+msgid "free_xp_to_tman_skill/error/NO_FREE_XP"
+msgstr "เกิดข้อผิดพลาดในการฝึกพลรถถัง มีค่าประสบการณ์อิสระไม่พอ"
+
+msgid "free_xp_to_tman_skill/error/No tankman with given id"
+msgstr "เกิดข้อผิดพลาดในการฝึกพลรถถัง พลรถถังนายนี้ไม่มีตัวตน"
+
+msgid "free_xp_to_tman_skill/error/SHOP_DESYNC"
+msgstr "เกิดข้อผิดพลาดในการฝึกพลรถถัง โปรดลองใหม่ภายหลัง"
+
+msgid "free_xp_to_tman_skill/error/WRONG_ARGS_VALUE"
+msgstr "เกิดข้อผิดพลาดในการฝึกพลรถถัง โปรดลองใหม่ภายหลัง"
+
+msgid "free_xp_to_tman_skill/server_error"
+msgstr "ไม่สามารถฝึกสมาชิกพลรถถังด้วยประสบการณ์อิสระได้\nโปรดลองใหม่ภายหลัง"
+
+msgid "free_xp_to_tman_skill/success"
+msgstr "ทำการฝึกสมาชิกพลรถถังแล้ว\nใช้ประสบการณ์อิสระไป: %(money)s"
+
+msgid "gameSessionControl/korea/midnightNotification"
+msgstr "เพื่อป้องกันไม่ให้เด็กและวัยรุ่นติดเกม การเข้ารบจะถูกห้ามเอาไว้ คุณจะถูกตัดการเชื่อมต่อจากเซิร์ฟเวอร์ภายใน %(blockTime)s"
+
+msgid "gameSessionControl/korea/note"
+msgstr "Excessive video game playing may interfere with your daily life."
+
+msgid "gameSessionControl/korea/playTimeLeft"
+msgstr "เวลาเกมที่เหลือ: %(timeLeft)s"
+
+msgid "gameSessionControl/korea/playTimeNotification"
+msgstr "เวลาจำกัดหมดลงแล้ว คุณไม่สามารถเข้าร่วมการรบใหม่ได้อีก คุณจะถูกตัดการเชื่อมต่อจากเซิร์ฟเวอร์ในเวลา %s"
+
+msgid "gameSessionControl/korea/sessionTime"
+msgstr "ระยะเวลาเกม: %(sessionTime)s"
+
+msgid "gameSessionControl/korea/timeTillMidnight"
+msgstr "เวลาเหลือจนกว่าเที่ยงคืน: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr "เวลาการเล่นของคุณจบลงแล้ว คุณไม่สามารถเข้าร่วมการรบใหม่ได้อีก คุณจะถูกตัดการเชื่อมต่อจากเซิร์ฟเวอร์ในเวลา %(kickTime)s"
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "การจำกัดเวลาการเล่นถูกปลดออกไปจากบัญชีของคุณแล้ว"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "มีการเปลี่ยนการตั้งค่าการควบคุมของผู้ปกครอง"
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "คุณจะลงชื่อออกจากเซิร์ฟเวอร์ภายใน %(timeLimit)s"
+
+msgid "graficsOptionsFail"
+msgstr "การ์ดจอเข้ากันไม่ได้. ไม่สามารถใช้การตั้งค่าภาพนี้ได้: %s."
+
+msgid "graficsPresetFail"
+msgstr "การ์ดจอเข้ากันไม่ได้ ไม่สามารถเลือกคุณภาพภาพได้"
+
+msgid "igr/customization/begin"
+msgstr "ลายพราง คำจารึกและตราสัญลักษณ์ที่ไม่ต้องเสียเงินนั่นมีให้เลือกใช้ใน %(igrIcon)s"
+
+msgid "igr/customization/end"
+msgstr "%(igrIcon)s หมดอายุแล้ว ลายพราง คำจารึกและตราสัญลักษณ์ที่ไม่ต้องเสียเงินจะถูกถอดจากพาหนะของคุณ"
+
+msgid "info/noAvailable"
+msgstr "ไม่มีข้อมูลโดยละเอียด"
+
+msgid "install_component"
+msgstr "%s \"%s\" ถูกติดตั้งเอาไว้บนพาหนะดังกล่าว"
+
+msgid "install_vehicle_broken"
+msgstr "ไม่สามารถติดตั้งชิ้นส่วน %s \"%s\" ได้: พาหนะเสียหายอยู่ ซ่อมพาหนะของคุณแล้วลองใหม่อีกครั้ง"
+
+msgid "install_vehicle_locked"
+msgstr "พาหนะถูกล็อก ไม่สามารถติดตั้งชิ้นส่วน %s \"%s\" ได้"
+
+msgid "inventory/item/already_exists"
+msgstr "ชิ้นส่วน %(typeString)s \"%(userString)s\" มีให้ในโรงเก็บอยู่แล้ว"
+
+msgid "inventory/item/equip_in_processing"
+msgstr "ส่งคำขอการติดตั้งอุปกรณ์แล้ว กรุณารอให้เซิร์ฟเวอร์ตอบกลับ"
+
+msgid "inventory/item/not_found"
+msgstr "ไม่พบชิ้นส่วน %(typeString)s \"%(userString)s\" ในโรงเก็บ"
+
+msgid "inventory/vehicle/already_exists"
+msgstr "รถถัง %(userString)s มีอยู่แล้วในโรงรถ"
+
+msgid "inventory/vehicle/not_found"
+msgstr "ไม่พบรถถัง %(userString)s ในโรงรถ."
+
+msgid "invite/status/LEGIONARIES_NOT_ALLOWED"
+msgstr "ไม่สามารถส่งคำเชิญไปยังทหารไร้สังกัด %(name)s ได้"
+
+msgid "invite/status/WRONG_CLAN"
+msgstr "ไม่สามารถส่งคำเชิญไปยังผู้เล่น %(name)s ได้: ผิดกองทัพ"
+
+msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" ไม่สามารถเติมยุทธปัจจัยได้ โปรดลองใหม่ในภายหลัง"
+
+msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" ไม่สามารถเติมยุทธปัจจัยได้ โปรดลองใหม่ในภายหลัง"
+
+msgid "layout_apply/Cannot equip equipment"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" ไม่สามารถเติมยุทธปัจจัยได้ โปรดลองใหม่ในภายหลัง"
+
+msgid "layout_apply/Cannot equip shells"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" ไม่สามารถเติมกระสุนได้ โปรดลองใหม่ในภายหลัง"
+
+msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" ไม่สามารถเติมกระสุนได้ บรรจุกระสุนเต็มที่แล้ว"
+
+msgid "layout_apply/Component is not in shop"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" ไม่สามารถเติมยุทธปัจจัยได้ โปรดลองใหม่ในภายหลัง"
+
+msgid "layout_apply/EQS_NO_CREDITS"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" มีเงินไม่พอซื้อยุทธปัจจัย โปรดลองใหม่ในภายหลัง"
+
+msgid "layout_apply/EQS_NO_CRYSTAL"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" มีพันธบัตรไม่พอซื้อยุทธปัจจัย โปรดลองใหม่ในภายหลัง"
+
+msgid "layout_apply/EQS_NO_GOLD"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" มีทองไม่พอซื้อยุทธปัจจัย โปรดลองใหม่ในภายหลัง"
+
+msgid "layout_apply/EQS_NO_WALLET_SESSION"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "layout_apply/NOT_RESEARCHED_ITEM"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" ไม่สามารถเติมยุทธปัจจัยได้ โปรดลองใหม่ในภายหลัง"
+
+msgid "layout_apply/No vehicle with given id"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" พาหนะผิดคัน"
+
+msgid "layout_apply/SHELLS_NO_CREDITS"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" มีเงินไม่พอซื้อกระสุน"
+
+msgid "layout_apply/SHELLS_NO_GOLD"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" มีทองไม่พอซื้อกระสุน"
+
+msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "layout_apply/Vehicle is locked"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" พาหนะถูกล็อค"
+
+msgid "layout_apply/error"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" โปรดลองใหม่ในภายหลัง"
+
+msgid "layout_apply/invalid_vehicle"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" พาหนะผิดคัน"
+
+msgid "layout_apply/success_money_spent"
+msgstr "ค่าใช้จ่ายกระสุนโดยรวม %(money)s."
+
+msgid "layout_apply/vehicle_locked"
+msgstr "ข้อผิดพลาดการซ่อมบำรุง \"%(vehName)s\" พาหนะถูกล็อค"
+
+msgid "layout_apply/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "limitedUI/switchOff"
+msgstr "การค่อยๆปรากฎองค์ประกอบแผงโต้ตอบที่ซ่อนเอาไว้ถูกปิดไว้ชั่วคราว"
+
+msgid "limitedUI/switchOn"
+msgstr "การค่อยๆปรากฎองค์ประกอบแผงโต้ตอบที่ซ่อนเอาไว้ถูกเปิดอีกครั้ง คุณสามารถเปิดมันมันได้ในการตั้งค่า"
+
+msgid "locked_vehicle_error"
+msgstr "การดำเนินการนี้ไม่สามารถทำได้กับพาหนะที่ปรับไว้ล่วงหน้า"
+
+msgid "login_to_other_game_unknown"
+msgstr "การเล่นเกมถูกขัดจังหวะ Wargaming.net&nbsp;ID ของคุณถูกใช้ในการเข้าเกมอื่น"
+
+msgid "login_to_other_game_web"
+msgstr "การเล่นเกมปัจจุบันถูกระงับ คุณถูกตัดการเชื่อมต่อจากเซิร์ฟเวอร์ผ่านจากเวบท่าของเกม"
+
+msgid "login_to_other_game_wot"
+msgstr "การเล่นเกมถูกขัดจังหวะ Wargaming.net&nbsp;ID ของคุณถูกใช้ในการเข้าเกม World&nbsp;of&nbsp;Tanks"
+
+msgid "login_to_other_game_wotb"
+msgstr "การเล่นเกมถูกขัดจังหวะ Wargaming.net&nbsp;ID ของคุณถูกใช้ในการเข้าเกม World&nbsp;of&nbsp;Tanks&nbsp;Blitz"
+
+msgid "login_to_other_game_wotg"
+msgstr "การเล่นเกมถูกขัดจังหวะ Wargaming.net&nbsp;ID ของคุณถูกใช้ในการเข้าเกม World&nbsp;of&nbsp;Tanks&nbsp;Generals"
+
+msgid "login_to_other_game_wowp"
+msgstr "การเล่นเกมถูกขัดจังหวะ Wargaming.net&nbsp;ID ของคุณถูกใช้ในการเข้าเกม World&nbsp;of&nbsp;Warplanes"
+
+msgid "login_to_other_game_wows"
+msgstr "การเล่นเกมถูกขัดจังหวะ Wargaming.net&nbsp;ID ของคุณถูกใช้ในการเข้าเกม World&nbsp;of&nbsp;Warships"
+
+msgid "lootboxes/open/server_error"
+msgstr "ข้อผิดพลาดในการรับของขวัญ: ข้อผิดพลาดเซิร์ฟเวอร์"
+
+msgid "lootboxes/open/server_error/COOLDOWN"
+msgstr "ข้อผิดพลาดในการรับของขวัญ: โปรดรอจนกว่าการดำเนินการก่อนหน้าจะเสร็จสิ้น"
+
+msgid "lootboxes/open/server_error/DISABLED"
+msgstr "การดำเนินการทำไม่ได้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "mapbox/notification/primeTime"
+msgstr "ภารกิจลาดตระเวนจะไม่มีให้จนกระทั่งจบช่วงหยุดยิง"
+
+msgid "mapbox/notification/primeTime/title"
+msgstr "การหยุดยิง"
+
+msgid "maps_black_list/select/server_error"
+msgstr "เกิดข้อผิดพลาดเซิร์ฟเวอร์"
+
+msgid "maps_black_list/select/server_error/COOLDOWN"
+msgstr "ไม่สามารถดำเนินการได้ โปรดรอจนกว่าการปฏิบัติการปัจจุบันจะเสร็จสิ้น"
+
+msgid "maps_black_list/select/success"
+msgstr "แผนที่ %(mapName)s ถูกยกเว้นจากการรบแบบสุ่ม คุณสามารถเปลี่ยนการเลือกของคุณได้ใน %(time)s"
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr "แผนที่ %(mapName)s ถูกยกเว้นจากการรบแบบสุ่ม คุณสามารถเปลี่ยนการเลือกของคุณได้ใน %(time)s หรือคุณสามารถปลดล็อคช่องเพิ่มเติมด้วยการเปิดใช้บัญชีพิเศษ WoT หรือการสมัคร WoT Plus"
+
+msgid "maps_black_list/select/success/premium"
+msgstr "แผนที่ %(mapName)s ถูกยกเว้นจากการรบแบบสุ่ม คุณสามารถเปลี่ยนการเลือกของคุณได้ใน %(time)s หรือคุณสามารถปลดล็อคช่องเพิ่มเติมด้วยการสมัคร WoT Plus"
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr "แผนที่ %(mapName)s ถูกยกเว้นจากการรบแบบสุ่ม คุณสามารถเปลี่ยนการเลือกของคุณได้ใน %(time)s หรือคุณสามารถปลดล็อคช่องเพิ่มเติมด้วยการเปิดใช้บัญชีพิเศษ WoT"
+
+msgid "maps_black_list/switch_off/body"
+msgstr "การใช้งานนี้ไม่มีให้ชั่วคราวเนื่องจากเหตุทางเทคนิค\nทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "maps_black_list/switch_off/title"
+msgstr "การยกเว้นแผนที่ไม่มีให้ชั่วคราว"
+
+msgid "maps_black_list/switch_on/body"
+msgstr "ทำการแก้ไขปัญหาทางเทคนิคเรียบร้อยแล้ว ทางเราต้องขออภัยด้วยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "maps_black_list/switch_on/title"
+msgstr "การยกเว้นแผนที่มีให้อีกครั้ง"
+
+msgid "maps_training/switch/title"
+msgstr "ภูมิประเทศ"
+
+msgid "maps_training/switch_off/body"
+msgstr "รูปแบบนี้ถูกปิดไว้"
+
+msgid "maps_training/switch_on/body"
+msgstr "รูปแบบนี้ถูกเปิดไว้"
+
+msgid "memberRosterChangedMain"
+msgstr "%s โอนย้าย %s ไปทีมปกติ"
+
+msgid "memberRosterChangedSecond"
+msgstr "%s โอนย้าย %s ไปทีมสำรอง"
+
+msgid "memory_critical/insufficient_memory_please_reboot"
+msgstr "หน่วยความจำไม่พอ กรุณาเริ่มเกมใหม่อีกครั้ง"
+
+msgid "memory_critical/tex_was_lowered_to_low"
+msgstr "หน่วยความจำไม่พอ คุณภาพพื้นผิวต่ำ"
+
+msgid "memory_critical/tex_was_lowered_to_medium"
+msgstr "หน่วยความจำไม่พอ คุณภาพรพื้นผิวปานกลาง"
+
+msgid "memory_critical/tex_was_lowered_to_min"
+msgstr "คุณภาพพื้นผิวถูกลดให้ต่ำสุดเนื่องจากมีหน่วยความจำไม่พอ โปรดเริ่มเกมใหม่"
+
+msgid "missingEvents/button"
+msgstr "เปิด"
+
+msgid "missingEvents/header"
+msgstr "เหตุการณ์"
+
+msgid "missingEvents/text"
+msgstr "เหตการณ์สำคัญที่คุณพลาดไป: "
+
+msgid "module_apply/error_is_current"
+msgstr "ติดตั้งชิ้นส่วน %(kind)s \"%(name)s\" ไว้อยู่แล้ว"
+
+msgid "module_apply/error_need_gun"
+msgstr "ไม่สามารถติดตั้ง %(kind)s \"%(name)s\" บนพาหนะด้วยปืนปัจจุบันได้"
+
+msgid "module_apply/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" ไม่เข้ากันกับป้อมปืนปัจจุบัน โปรดเปลี่ยนป้อมปืนก่อน"
+
+msgid "module_apply/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" ไม่ได้ถูกติดตั้งเอาไว้ ไม่มีปืนที่ใช้ร่วมกันได้ในโรงเก็บ"
+
+msgid "module_apply/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" ไม่เข้ากันกับป้อมปืนปัจจุบัน โปรดเปลี่ยนป้อมปืนก่อน"
+
+msgid "module_apply/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" ใช้ไม่ได้กับพาหนะคันนี้"
+
+msgid "module_apply/error_not_with_installed_equipment"
+msgstr "ชิ้นส่วน %(kind)s \"%(name)s\" ไม่เข้ากับยุทธปัจจัย \"%s\""
+
+msgid "module_apply/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" นั้นผิดชนิด"
+
+msgid "module_apply/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" นั้นผิดประเทศ"
+
+msgid "module_apply/incompatibleEqs"
+msgstr "ยุทธปัจจัย \"%(items)s\" ถูกส่งไปยังโรงเก็บเนื่องจากไม่เข้ากับชิ้นส่วนปัจจุบัน"
+
+msgid "module_apply/invalid_vehicle"
+msgstr "พาหนะผิดคัน ไม่สามารถติดตั้งชิ้นส่วน %(kind)s \"%(name)s\" ได้"
+
+msgid "module_apply/server_error"
+msgstr "เกิดข้อผิดพลาดเซิร์ฟเวอร์ในการติดตั้งชิ้นส่วน %(kind)s \"%(name)s\" โปรดลองใหม่ภายหลัง"
+
+msgid "module_apply/success"
+msgstr "%(kind)s \"%(name)s\" ติดตั้งบนพาหนะแล้ว"
+
+msgid "module_apply/success_gun_change"
+msgstr "%(kind)s \"%(name)s\" ถูกติดตั้งบนพาหนะพร้อมกับปืน \"%(gun)s\""
+
+msgid "module_apply/vehicle_locked"
+msgstr "พาหนะถูกล็อคไว้ ไม่สามารถติดตั้งชิ้นส่วน %(kind)s \"%(name)s\" ได้"
+
+msgid "module_apply/vehicle_need_repair"
+msgstr "ไม่สามารถติดตั้งชิ้นส่วน %(kind)s \"%(name)s\" ได้: พาหนะเสียหายอยู่ ซ่อมพาหนะของคุณแล้วลองใหม่อีกครั้ง"
+
+msgid "module_buy/error_is_current"
+msgstr "ชิ้นส่วน %(kind)s \"%(name)s\" ถูกติดตั้งเอาไว้แล้ว"
+
+msgid "module_buy/error_need_gun"
+msgstr "ไม่สามารถติดตั้ง %(kind)s \"%(name)s\" บนพาหนะด้วยปืนปัจจุบันได้"
+
+msgid "module_buy/error_need_turret"
+msgstr "%(kind)s \"%(name)s\" ไม่เข้ากันกับป้อมปืนปัจจุบัน โปรดเปลี่ยนป้อมปืนก่อน"
+
+msgid "module_buy/error_no_gun"
+msgstr "%(kind)s \"%(name)s\" ไม่ได้ถูกติดตั้งเอาไว้ ไม่มีปืนที่ใช้ร่วมกันได้ในโรงเก็บ"
+
+msgid "module_buy/error_not_for_current_vehicle"
+msgstr "%(kind)s \"%(name)s\" ติดตั้งกับป้อมปืนนี้ไม่ได้ โปรดเปลี่ยนป้อมปืน"
+
+msgid "module_buy/error_not_for_this_vehicle_type"
+msgstr "%(kind)s \"%(name)s\" ใช้ไม่ได้กับพาหนะคันนี้"
+
+msgid "module_buy/error_not_with_installed_equipment"
+msgstr "ชิ้นส่วน %(kind)s \"%(name)s\" ไม่เข้ากับยุทธปัจจัย \"%s\""
+
+msgid "module_buy/error_wrong_item_type"
+msgstr "%(kind)s \"%(name)s\" นั้นผิดชนิด"
+
+msgid "module_buy/error_wrong_nation"
+msgstr "%(kind)s \"%(name)s\" นั้นผิดประเทศ"
+
+msgid "module_buy/invalid_module"
+msgstr "ไม่สามารถซื้อ %(kind)s \"%(name)s\" ได้ ผิดชิ้นส่วน"
+
+msgid "module_buy/invalid_vehicle"
+msgstr "พาหนะผิดคัน ไม่สามารถซื้อและติดตั้ง %(kind)s \"%(name)s\" ได้"
+
+msgid "module_buy/not_enough_credits"
+msgstr "ไม่สามารถซื้อ %(kind)s \"%(name)s\" ได้ เงินไม่พอ"
+
+msgid "module_buy/not_enough_gold"
+msgstr "ไม่สามารถซื้อ %(kind)s \"%(name)s\" ได้ ทองไม่พอ"
+
+msgid "module_buy/server_error"
+msgstr "ไม่สามารถซื้อ %(kind)s \"%(name)s\" ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "module_buy/server_error_centerDown"
+msgstr "ไม่สามารถซื้อ %(kind)s \"%(name)s\" ได้ เซิร์ฟเวอร์ไม่มีให้ชั่วคราว"
+
+msgid "module_buy/success"
+msgstr "ทำการซื้อชิ้นส่วน %(kind)s \"%(name)s\" (%(count)s ชิ้น) เรียบร้อย ใช้ไป %(money)s"
+
+msgid "module_buy/vehicle_locked"
+msgstr "พาหนะถูกล็อค ไม่สามารถซื้อและติดตั้ง %(kind)s \"%(name)s\" ได้"
+
+msgid "module_buy/vehicle_need_repair"
+msgstr "ไม่สามารถซื้อและติดตั้ง %(kind)s \"%(name)s\" ได้ ซ่อมพาหนะก่อนแล้วลองใหม่อีกครั้ง"
+
+msgid "module_buy/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "module_sell/invalid_module"
+msgstr "ไม่สามารถขาย %(kind)s \"%(name)s\" ชิ้นส่วนไม่ถูกต้อง"
+
+msgid "module_sell/server_error"
+msgstr "ไม่สามารถขาย %(kind)s \"%(name)s\" ลองใหม่ภายหลัง"
+
+msgid "module_sell/success"
+msgstr "ชิ้นส่วน %(kind)s \"%(name)s\" เป็นจำนวน (%(count)s ชิ้น) ได้รับ %(money)s"
+
+msgid "multipleSelling/success"
+msgstr "ได้รับ %(money)s"
+
+msgid "nation_change/FAILED"
+msgstr "เกิดข้อผิดพลาดระหว่างเปลี่ยนการตั้งค่า"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "เกิดข้อผิดพลาดระหว่างเปลี่ยนการตั้งค่า"
+
+msgid "nation_change/error"
+msgstr "เกิดข้อผิดพลาดระหว่างเปลี่ยนการตั้งค่า"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: เปลี่ยนการตั้งค่าประเทศแล้ว"
+
+msgid "newbie_daily_quests/switch_off/body"
+msgstr "ทำการปรับภารกิจประจำวันเนื่องด้วยเหตุทางเทคนิค ความก้าวหน้าภารกิจถูกบันทึกไว้แล้ว"
+
+msgid "notrecruit_window/success"
+msgstr "ทำการเกณฑ์สมาชิกพลรถถัง \n%(colorTagOpen)s%(rank)s %(fullName)s\n(%(role)s, %(vehicleName)s)%(colorTagClose)s"
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "การดำเนินการทำไม่ได้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "เกิดข้อผิดพลาดในการรับของขวัญ: ข้อผิดพลาดเซิร์ฟเวอร์"
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr "เกิดข้อผิดพลาในการรับของขวัญ: รางวัลบางอย่างนั้นมีการล่าช้า โปรดลองรับรางวัลดังกล่าวในภายหลัง"
+
+msgid "offers/switch_off/body"
+msgstr "บริการเสบียงจากแนวหลังไม่มีให้ชั่วคราว"
+
+msgid "offers/unavailable_many"
+msgstr "ส่วนพิเศษไม่มีให้: %(count)s ชิ้น"
+
+msgid "offers/unavailable_one"
+msgstr "ส่วนพิเศษไม่มีให้"
+
+msgid "optionalDevices_apply/error"
+msgstr "เกิดข้อผิดพลาดการปรับอุปกรณ์ โปรดลองใหม่ภายหลัง"
+
+msgid "optionalDevices_apply/not_enough_money"
+msgstr "เกิดข้อผิดพลาดการปรับอุปกรณ์ เงินทุนไม่พอซื้อ"
+
+msgid "optionalDevices_apply/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนแล้ว"
+
+msgid "optionalDevices_remove/error"
+msgstr "เกิดข้อผิดพลาดการปรับอุปกรณ์ โปรดลองใหม่ภายหลัง"
+
+msgid "otherRestriction/nonFriendPrivateMessagesForbidden"
+msgstr "ข้อความส่วนตัวกับผู้เล่นไม่อยู่ในรายชื่อติดต่อของคุณนั้นไม่มีให้สำหรับบัญชีของคุณ"
+
+msgid "otherRestriction/privateMessagesForbidden"
+msgstr "ข้อความส่วนตัวไม่มีให้สำหรับบัญชีของคุณ"
+
+msgid "parentControl/linkText"
+msgstr "ระบุวัน"
+
+msgid "parentControl/mainText"
+msgstr "โปรดระบุวันเกิดของคุณ"
+
+msgid "parentControl/nonFriendPrivateMessagesForbidden"
+msgstr "ข้อความส่วนตัวกับผู้เล่นไม่ได้อยู่ในรายชื่อติดต่อของคุณนั้นถูกห้ามเอาไว้โดยการควบคุมของผู้ปกครอง"
+
+msgid "parentControl/privateMessagesForbidden"
+msgstr "ข้อความส่วนตัวถูกห้ามโดยการควบคุมของผู้ปกครอง"
+
+msgid "parentControl/title"
+msgstr "การยืนยันอายุ"
+
+msgid "periphery/errors/isNotAvailable"
+msgstr "ไม่สามารถทำการโอนได้ เนื่องจากไม่มีการระบุเซิรฟ์เวอร์"
+
+msgid "personalMission/CompletionNotification/body"
+msgstr "ได้รับรางวัล:"
+
+msgid "personalMission/awardsNotification/buttonLabel"
+msgstr "ไปยังปฏิบัติการ"
+
+msgid "personalMission/awardsNotification/missionCompleted"
+msgstr "ภารกิจสำเร็จ"
+
+msgid "personalMission/awardsNotification/notCompletedFooter"
+msgstr "เปลี่ยนพาหนะเพื่อทำการปฏิบัติภารกิจให้สำเร็จต่อ"
+
+msgid "personalMission/awardsNotification/operation"
+msgstr "ปฏิบัติการ: %(operation)s"
+
+msgid "personalMission/awardsNotification/status"
+msgstr "ผ่านแล้ว: %(completed)s%(all)s"
+
+msgid "personalMission/awardsNotification/status/all"
+msgstr " / %(all)d"
+
+msgid "personalMission/campaignCompleteHonor/title"
+msgstr "ผ่านสมรภูมิ %(campaignName)s พร้อมด้วยเกียรตินิยม!"
+
+msgid "personalMission/operationComplete/title"
+msgstr "ผ่านปฏิบัติการ %(operationName)s แล้ว!"
+
+msgid "personalMission/operationCompleteHonor/title"
+msgstr "ผ่านปฏิบัติการ %(operationName)s พร้อมด้วยเกียรตินิยม!"
+
+msgid "personalMission/switcherNotification/allCampaignsOff"
+msgstr "สมรภูมิไม่มีให้ชั่วคราวเนื่องด้วยช่วงการบำรุงรักษา"
+
+msgid "personalMission/switcherNotification/allCampaignsOn"
+msgstr "สมรภูมิมีให้อีกครั้ง ทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "personalMission/switcherNotification/campaignOff"
+msgstr "สมรภูมิ %(campaignName)s ไม่มีให้ชั่วคราวเนื่องจากการซ่อมบำรุง"
+
+msgid "personalMission/switcherNotification/campaignOn"
+msgstr "สมรภูมิ %(campaignName)s มีให้อีกครั้ง เราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "personalMission/switcherNotification/missionOff"
+msgstr "ภารกิจ %(missionName)s ในปฏิบัติการ %(operationName)s ไม่มีให้ชั่วคราวเนื่องจากช่วงการบำรุงรักษา"
+
+msgid "personalMission/switcherNotification/missionOn"
+msgstr "ภารกิจ %(missionName)s ในปฏิบัติการ %(operationName)s มีให้อีกครั้ง ทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "personalMission/switcherNotification/operationOff"
+msgstr "ปฏิบัติการ %(operationName)s ในสมรภูมิ %(campaignName)s ไม่มีให้ชั่วคราวเนื่องจากช่วงการบำรุงรักษา"
+
+msgid "personalMission/switcherNotification/operationOn"
+msgstr "ปฏิบัติการ %(operationName)s ในสมรภูมิ %(campaignName)s มีให้อีกครั้ง ทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "personalMissions/activateSeason/server_error"
+msgstr "เกิดข้อผิดพลาดในการเปลี่ยนสมรภูมิ โปรดลองใหม่ภายหลัง"
+
+msgid "personalMissions/badge"
+msgstr "ได้รับเหรียญตรา %(name)s"
+
+msgid "personalMissions/camouflageGiven"
+msgstr "ได้รับลายพรางเฉพาะตัวสำหรับ %(vehicleName)s"
+
+msgid "personalMissions/camouflageUnlocked"
+msgstr "ลายพรางเฉพาะตัวของ %(vehicleName)s มีให้สำหรับพาหนะทุกคันของประเทศ: %(nation)s"
+
+msgid "personalMissions/campaign12Paused/body"
+msgstr "ความก้าวหน้าปฏิบัติการได้ถูกบันทึกเอาไว้ คุณสามารถกลับมายังสมรภูมิเมื่อใดก็ได้"
+
+msgid "personalMissions/campaign12Paused/title"
+msgstr "สมรภูมิ %(campaignName1)s และ %(campaignName2)s ถูกพักไว้"
+
+msgid "personalMissions/campaign12Resumed/body"
+msgstr "ปฏิบัติการและภารกิจในปฏิบัติการที่ถูกพักไว้ได้กลับมาอีกครั้ง"
+
+msgid "personalMissions/campaign12Resumed/title"
+msgstr "สมรภูมิ %(campaignName1)s และ %(campaignName2)s กลับมาอีกครั้ง"
+
+msgid "personalMissions/campaign3Paused/body"
+msgstr "ความก้าวหน้าปฏิบัติการได้ถูกบันทึกเอาไว้ คุณสามารถกลับมายังสมรภูมิเมื่อใดก็ได้"
+
+msgid "personalMissions/campaign3Paused/title"
+msgstr "สมรภูมิ %(campaignName)s ถูกพักไว้ "
+
+msgid "personalMissions/campaign3Resumed/body"
+msgstr "ปฏิบัติการที่พักไว้กลับมาเล่นต่อแล้ว"
+
+msgid "personalMissions/campaign3Resumed/title"
+msgstr "สมรภูมิ %(campaignName)s กลับมาแล้ว"
+
+msgid "personalMissions/detailInstalled/body"
+msgstr "ทำการติดตั้ง %(detailName)s เรียบร้อยแล้ว"
+
+msgid "personalMissions/detailInstalled/title"
+msgstr "ปฏิบัติการ: %(operationName)s"
+
+msgid "personalMissions/discard/server_error"
+msgstr "ไม่สามารถตั้งภารกิจใหม่ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "ไม่สามารถดำเนินการได้ ภารกิจถูกปิดชั่วคราว"
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "ในปัจจุบันยังไม่สามารถตั้งภารกิจใหม่ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "ในปัจจุบันยังไม่สามารถตั้งภารกิจใหม่ได้ โปรดรอจนกว่าพาหนะชนิดนี้ออกจากการรบก่อน"
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "ในปัจจุบันยังไม่สามารถตั้งภารกิจใหม่ได้ โปรดรอจนกว่าพาหนะกลุ่มดังกล่าวออกจากการรบก่อน"
+
+msgid "personalMissions/discard/success"
+msgstr "ภารกิจ %(quest)s ถูกตั้งใหม่แล้ว"
+
+msgid "personalMissions/freeAwardListGain"
+msgstr "ได้รับคำสั่ง: %(count)s"
+
+msgid "personalMissions/freeAwardListReturn"
+msgstr "คืนคำสั่ง: %(count)s\nคำสั่งสามารถนำไปใช้ได้อีกครั้ง"
+
+msgid "personalMissions/operationActivation/body"
+msgstr "ภารกิจแรกของแต่ละชุดถูกเปิดใช้งานแล้ว"
+
+msgid "personalMissions/operationActivation/title"
+msgstr "เปิดใช้งานปฏิบัติการ %(operationName)s แล้ว!"
+
+msgid "personalMissions/operationComplete/body"
+msgstr "ได้รับรางวัล: \n%(reward list)s"
+
+msgid "personalMissions/operationComplete/title"
+msgstr "ผ่านปฏิบัติการ %(name)s แล้ว!"
+
+msgid "personalMissions/operationPaused/body"
+msgstr "ทำการบันทึกความก้าวหน้าภารกิจทั้งหมดแล้ว คุณสามารถกลับมายังปฏิบัติการเมื่อใดก็ได้"
+
+msgid "personalMissions/operationPaused/title"
+msgstr "ปฏิบัติการ %(operationName)s ถูกพักเอาไว้"
+
+msgid "personalMissions/operationResumed/body"
+msgstr "ภารกิจที่ถูกพักไว้กลับมาเล่นต่อแล้ว"
+
+msgid "personalMissions/operationResumed/title"
+msgstr "ปฏิบัติการ %(operationName)s กลับมาแล้ว"
+
+msgid "personalMissions/pause/server_error"
+msgstr "ภารกิจไม่ได้ถูกพักไว้ โปรดลองใหม่ภายหลัง"
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "ไม่สามารถดำเนินการได้ ภารกิจถูกปิดชั่วคราว"
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "ไม่สามารถพักภารกิจได้ในขณะนี้ โปรดลองใหม่ภายหลัง"
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "ไม่สามารถพักภารกิจได้ในขณะนี้ โปรดรอจนกว่าพาหนะชนิดนี้ไม่อยู่ในการรบก่อน"
+
+msgid "personalMissions/pause/success_pause"
+msgstr "ทำการพักภารกิจ %(quest)s แล้ว"
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "กลับเข้าปฏิบัติภารกิจ %(quest)s แล้ว"
+
+msgid "personalMissions/pawn/server_error"
+msgstr "เกิดข้อผิดพลาด ไม่สามารถยืนยันคำสั่งได้ในขณะนี้"
+
+msgid "personalMissions/pawn/success"
+msgstr "ยืนยันคำสั่งให้กับภารกิจ %(questName)s: %(count)s"
+
+msgid "personalMissions/reward/pm3/server_error"
+msgstr "เกิดข้อผิดพลาดในการรับรางวัล โปรดลองใหม่ในภายหลัง"
+
+msgid "personalMissions/reward/pm3/success"
+msgstr "ติดตั้ง %(detail_name)s เรียบร้อยแล้ว"
+
+msgid "personalMissions/reward/regular/server_error"
+msgstr "ไม่สามารถรับรางวัลได้ โปรดลองใหม่ภายหลัง"
+
+msgid "personalMissions/reward/regular/server_error/DISABLED"
+msgstr "ไม่สามารถดำเนินการได้ ภารกิจถูกปิดชั่วคราว"
+
+msgid "personalMissions/reward/regular/server_error/INVALID_STATE"
+msgstr "ไม่สามารถรับรางวัลได้: ไม่มีรางวัลให้"
+
+msgid "personalMissions/reward/regular/server_error/NO_REWARD"
+msgstr "ไม่สามารถรับรางวัลได้: ไม่มีรางวัลให้"
+
+msgid "personalMissions/reward/regular/server_error/WRONG_ARGS_TYPE"
+msgstr "ไม่สามารถรับรางวัลได้: ข้อมูลไม่ถูกต้อง"
+
+msgid "personalMissions/reward/tankwoman/server_error"
+msgstr "ไม่สามารถรับรางวัลได้ โปรดลองใหม่ภายหลัง"
+
+msgid "personalMissions/reward/tankwoman/server_error/DISABLED"
+msgstr "ไม่สามารถดำเนินการได้ ภารกิจถูกปิดชั่วคราว"
+
+msgid "personalMissions/reward/tankwoman/server_error/INVALID_STATE"
+msgstr "ไม่สามารถรับรางวัลได้: ไม่มีรางวัลให้"
+
+msgid "personalMissions/reward/tankwoman/server_error/NO_REWARD"
+msgstr "ไม่สามารถรับรางวัลได้: ไม่มีรางวัลให้"
+
+msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
+msgstr "ไม่สามารถรับรางวัลได้: ข้อมูลไม่ถูกต้อง"
+
+msgid "personalMissions/select/server_error"
+msgstr "ไม่ได้เลือกภารกิจ %(questNames)s โปรดลองใหม่ภายหลัง"
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "ไม่สามารถดำเนินการได้ ภารกิจถูกปิดชั่วคราว"
+
+msgid "personalMissions/select/server_error/INVALID_QUEST_ID"
+msgstr "ไม่ได้เลือกภารกิจ %(questNames)s โปรดลองใหม่ภายหลัง"
+
+msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr "โปรดทราบ! ในการเปลี่ยนภารกิจ โปรดรอให้พาหนะทุกคันที่ทำภารกิจนี้อยู่กลับสู่โรงรถก่อน"
+
+msgid "personalMissions/select/server_error/NOT_BOUGHT_TILE"
+msgstr "ไม่ได้เลือกภารกิจ: %(questNames)s ทำปฏิบัติการก่อนหน้าให้สำเร็จก่อน"
+
+msgid "personalMissions/select/server_error/NOT_ENOUGH_SLOTS"
+msgstr "ไม่ได้เลือกภารกิจ: %(questNames)s ไม่มีช่องเก็บพอ"
+
+msgid "personalMissions/select/server_error/NOT_GOTTEN_REWARD"
+msgstr "ไม่ได้เลือกภารกิจ: %(questNames)s โปรดรับรางวัล"
+
+msgid "personalMissions/select/server_error/NOT_UNLOCKED_QUEST"
+msgstr "ไม่ได้เลือกภารกิจ: %(questNames)s ไม่มีภารกิจให้"
+
+msgid "personalMissions/select/server_error/QUEST_ALREADY_COMPLETED"
+msgstr "ไม่ได้เลือกภารกิจ: %(questNames)s ภารกิจสำเร็จแล้ว"
+
+msgid "personalMissions/select/server_error/SEASON_LIMIT_THE_SAME_CLASS"
+msgstr "ภารกิจไม่ได้เลือกไว้: %(questNames)s"
+
+msgid "personalMissions/select/server_error/TOO_MANY_QUESTS_IN_CHAIN"
+msgstr "ไม่ได้เลือกภารกิจ: %(questNames)s ได้เลือกภารกิจของชุดนี้ไปแล้ว"
+
+msgid "personalMissions/select/server_error/WRONG_ARGS"
+msgstr "ไม่ได้เลือกภารกิจ: %(questNames)s ข้อมูลไม่ถูกต้อง"
+
+msgid "personalMissions/select/server_error/WRONG_ARGS_TYPE"
+msgstr "ไม่ได้เลือกภารกิจ: %(questNames)s ข้อมูลไม่ถูกต้อง"
+
+msgid "personalMissions/select/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr "ไม่สามารถเลือกภารกิจได้ในขณะนี้ โปรดรอจนกว่ากลุ่มพาหนะไม่ได้อยู่ในการรบแล้ว"
+
+msgid "personalMissions/select/success"
+msgstr "เลือกภารกิจแล้วเรียบร้อย ภารกิจที่เลือกไว้ในตอนนี้: %(questNames)s"
+
+msgid "personalMissions/tankmenGain"
+msgstr "เพิ่มเข้า: สมาชิกพลรถถังหญิง"
+
+msgid "personalMissions30/select/server_error"
+msgstr "เกิดข้อผิดพลาดในการเปิดใช้ปฏิบัติการ โปรดลองใหม่ในภายหลัง"
+
+msgid "piggyBank/piggyBankFull"
+msgstr "เงินทุนสำรองเต็มแล้ว แต่จะเปิดให้ภายใน %(timeValue)s"
+
+msgid "piggybank/switch_off/body"
+msgstr "การใช้งานนี้ไม่มีให้ชั่วคราวเนื่องจากเหตุทางเทคนิค\nทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "piggybank/switch_off/title"
+msgstr "เงินทุนสำรองไม่มีให้เป็นการชั่วคราว"
+
+msgid "piggybank/switch_on/body"
+msgstr "ทำการแก้ไขปัญหาทางเทคนิคเรียบร้อยแล้ว ทางเราต้องขออภัยด้วยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "piggybank/switch_on/title"
+msgstr "เงินทุนสำรองมีให้อีกครั้ง"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr "การใช้งานนี้ไม่มีให้ชั่วคราวเนื่องปัญหาทางเทคนิค\nทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "การสมัครของผู้เล่นไม่มีให้อีกต่อไป!"
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "ทำการแก้ไขปัญหาทางเทคนิคแล้ว ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้นด้วย"
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "ตอนนี้มีการสมัครของผู้เล่นให้"
+
+msgid "post_progression/server_error"
+msgstr "รางวัลสำหรับช่วงหลังความก้าวหน้าพลรถถัง\nถูกรับไปแล้ว"
+
+msgid "post_progression/success"
+msgstr "วัน: %(at)s\nเพิ่มเข้าโรงเก็บ: %(book_name)s (x%(amount)s)\nทำการแลกเปลี่ยนประสบการณ์หลังความก้าวหน้าแล้ว"
+
+msgid "post_progression/success/title"
+msgstr "ใบเสร็จ"
+
+msgid "prebattle/hasLockedState"
+msgstr "ไม่สามารถรับคำเชิญได้เนื่องจากคุณกำลังรอเข้ารบอยู่ ออกจากห้องรอเข้ารบหรือเข้ารบจนจบแล้วลองใหม่อีกครั้ง"
+
+msgid "prebattle/invites/sendInvite"
+msgstr "คำเชิญถูกส่งไปยังผู้เล่นแล้ว"
+
+msgid "prebattle/invites/sendInvite/name"
+msgstr "คำเชิญถูกส่งไปยัง %(name)s"
+
+msgid "prebattle/kick/reason/ARENA_CREATION_FAILURE"
+msgstr "เกิดข้อผิดพลาด ARENA_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/AVATAR_CREATION_FAILURE"
+msgstr "เกิดข้อผิดพลาด AVATAR_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/BASEAPP_CRASH"
+msgstr "เกิดข้อผิดพลาด BASEAPP_CRASH."
+
+msgid "prebattle/kick/reason/CELLAPP_CRASH"
+msgstr "เกิดข้อผิดพลาด CELLAPP_CRASH."
+
+msgid "prebattle/kick/reason/CREATOR_LEFT"
+msgstr "ผู้บังคับการออกจากทีมแล้ว"
+
+msgid "prebattle/kick/reason/FINISHED"
+msgstr "ทีมถูกยุบ"
+
+msgid "prebattle/kick/reason/MODE_DISABLED"
+msgstr "รูปแบบไม่ให้ชั่วคราว"
+
+msgid "prebattle/kick/reason/PLAYERKICK"
+msgstr "ทำให้เคลื่อนที่ไม่ได้"
+
+msgid "prebattle/kick/reason/PREBATTLE_CREATION_FAILURE"
+msgstr "เกิดข้อผิดพลาด PREBATTLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/reason/TIMEOUT"
+msgstr "เวลาที่ใช้"
+
+msgid "prebattle/kick/reason/UNKNOWN_FAILURE"
+msgstr "ข้อผิดพลาดที่ไม่ทราบ"
+
+msgid "prebattle/kick/reason/VEHICLE_CREATION_FAILURE"
+msgstr "เกิดข้อผิดพลาด VEHICLE_CREATION_FAILURE."
+
+msgid "prebattle/kick/type/squad"
+msgstr "คุณได้ออกจากหน่วยรบ"
+
+msgid "prebattle/kick/type/unknown"
+msgstr "คุณได้ออกจากทีม"
+
+msgid "prebattle/limits/notEnoughVehicles"
+msgstr "คุณต้องมีพาหนะเหมาะสมอย่างน้อย 3 คันสำหรับรูปแบบ ดูที่หน้าเกี่ยวกับการบุกรุกสำหรับรายละเอียด"
+
+msgid "prebattle/request/name/AUTO_SEARCH"
+msgstr "ค้นหาอัตโนมัติ"
+
+msgid "prebattle/request/name/CHANGE_ARENA_VOIP"
+msgstr "เปลี่ยนการสนทนาด้วยเสียง"
+
+msgid "prebattle/request/name/CHANGE_DIVISION"
+msgstr "เปลี่ยนดิวิชัน"
+
+msgid "prebattle/request/name/CHANGE_FALLOUT_QUEUE_TYPE"
+msgstr "การเลือกรูปแบบ"
+
+msgid "prebattle/request/name/CHANGE_FUN_SUB_MODE"
+msgstr "การเปลี่ยนรูปแบบย่อย"
+
+msgid "prebattle/request/name/CHANGE_RATED"
+msgstr "การเลือกรูปแบบ"
+
+msgid "prebattle/request/name/CHANGE_SETTINGS"
+msgstr "เปลี่ยนการตั้งค่า"
+
+msgid "prebattle/request/name/CHANGE_UNIT_STATE"
+msgstr "แก้ไขทีม"
+
+msgid "prebattle/request/name/CHANGE_USER_STATUS"
+msgstr "เปลี่ยนโหมดผู้สังเกตการณ์"
+
+msgid "prebattle/request/name/CLOSE_SLOT"
+msgstr "ล็อคช่อง"
+
+msgid "prebattle/request/name/PREBATTLES_LIST"
+msgstr "ค้นหา"
+
+msgid "prebattle/request/name/SEND_INVITE"
+msgstr "เชิญเข้าทีม"
+
+msgid "prebattle/request/name/SET_PLAYER_STATE"
+msgstr "ยืนยันความพร้อม"
+
+msgid "prebattle/request/name/SET_TEAM_STATE"
+msgstr "ยืนยันความพร้อมของทีม"
+
+msgid "prebattle/request/name/SET_VEHICLE_LIST"
+msgstr "การเลือกพาหนะ"
+
+msgid "prebattle/request/name/SWAP_TEAMS"
+msgstr "เปลี่ยนทีม"
+
+msgid "prebattle/request/name/UNITS_LIST"
+msgstr "ค้นหา"
+
+msgid "prebattle/teamInvalid/limit/minCount"
+msgstr "มีเพียงทีมที่มียานเกราะอย่างน้อยที่สุดตามที่กำหนดสามารถจะเข้าร่วมการรบได้: %(minCount)d"
+
+msgid "prebattle/teamInvalid/limit/totalLevel"
+msgstr "มีเพียงทีมที่มีระดับรวมระหว่าง %(minTotalLevel)d และ %(maxTotalLevel)d ที่สามารถเข้าร่วมการรบได้"
+
+msgid "prebattle/teamInvalid/limits/level"
+msgstr "มีเพียงยานเกราะระดับ %(minLevel)d ถึง %(maxLevel)d ที่อนุญาตให้ใช้ได้"
+
+msgid "prebattle/teamInvalid/limits/vehicles"
+msgstr "พาหนะไม่ถูกต้องสำหรับการรบนี้"
+
+msgid "prebattle/teamInvalid/observers"
+msgstr "สมาชิกทีมทั้งหมดจะเป็นผู้สังเกตการณ์ไม่ได้"
+
+msgid "prebattle/vehicleInvalid/epicOnly"
+msgstr "พาหนะที่เลือกไว้เหมาะกับรูปแบบแนวรบเท่านั้น"
+
+msgid "prebattle/vehicleInvalid/falloutOnly"
+msgstr "พาหนะที่เลือกไว้เหมาะกับรูปแบบการอาละวาดเท่านั้น"
+
+msgid "prebattle/vehicleInvalid/limits/ammo"
+msgstr "กระสุนและยุทธปัจจัยที่บรรจุอยู่บนพาหนะที่เลือกไว้ไม่ตรงตามข้อกำหนดของการรบ"
+
+msgid "prebattle/vehicleInvalid/limits/classLevel"
+msgstr "ระดับยานเกราะผิดสำหรับการรบนี้ ระดับขั้นต่ำสำหรับชนิดนี้: %s ระดับสูงสุดสำหรับชั้นนี้: %s"
+
+msgid "prebattle/vehicleInvalid/limits/classes"
+msgstr "ยานเกราะชนิดไม่ถูกต้องสำหรับการรบนี้ ชนิดที่อนุญาต: %s"
+
+msgid "prebattle/vehicleInvalid/limits/components"
+msgstr "ชิ้นส่วนที่ติดตั้งบนพาหนะคันที่เลือกไว้ไม่เป็นไปตามข้อกำหนดของการรบ"
+
+msgid "prebattle/vehicleInvalid/limits/level"
+msgstr "ระดับพาหนะผิดสำหรับการรบนี้ ระดับขั้นต่ำสำหรับชนิดนี้: %s ระดับสูงสุดสำหรับชั้นนี้: %s"
+
+msgid "prebattle/vehicleInvalid/limits/nations"
+msgstr "ยานเกราะของชาติดังกล่าวไม่สามารถเข้าร่วมการรบนี้ ชาติที่ใช้ได้: %s"
+
+msgid "prebattle/vehicleInvalid/limits/not_supported"
+msgstr "พาหนะใช้ด้วยไมไ่ด้"
+
+msgid "prebattle/vehicleInvalid/limits/shells"
+msgstr "กระสุนที่บรรจุบนพาหนะที่เลือกไม่เป็นไปตามข้อกำหนดของการรบ"
+
+msgid "prebattle/vehicleInvalid/limits/tags"
+msgstr "พาหนะใช้ด้วยไมไ่ด้"
+
+msgid "prebattle/vehicleInvalid/limits/vehicles"
+msgstr "พาหนะไม่ถูกต้องสำหรับการรบนี้"
+
+msgid "prebattle/vehicleInvalid/no_readyVehicle"
+msgstr "พาหนะที่เลือกไว้ไม่พร้อม"
+
+msgid "prebattle/vehicleInvalid/no_selectedVehicle"
+msgstr "ไม่สามารถดำเนินการได้ เลือกพาหนะก่อน"
+
+msgid "prebattle/vehicleInvalid/notSetReadyStatus"
+msgstr "ไม่สามารถเข้าร่วมทีมได้"
+
+msgid "prebattle/vehicleInvalid/vehicleNotSupported"
+msgstr "พาหนะใช้ด้วยไมไ่ด้"
+
+msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
+msgstr "พาหนะที่เลือกไว้จะถูกปลดล็อคในระหว่างการรบ"
+
+msgid "prebattle_start_failed/kickedFromQueue/deafult"
+msgstr "ไม่สามารถหาข้าศึกที่เหมาะสม ลองสร้างทีมใหม่อีกครั้ง"
+
+msgid "prebattle_start_failed/kickedFromQueue/squad"
+msgstr "ไม่สามารถหาคู่ต้อสู้ของหน่วยรบได้ ให้ลองปรับทีมใหม่"
+
+msgid "premium/buyingSuccess"
+msgstr "ซื้อบัญชีพิเศษเป็นเวลา %(period)d วัน ใช้ไป %(money)s"
+
+msgid "premium/continueSuccess"
+msgstr "บัญชีพิเศษถูกขยายระยะเวลาเป็น %(period)d วัน ใช้ไป %(money)s"
+
+msgid "premium/not_enough_gold"
+msgstr "ไม่มีทองพอในการซื้อบัญชีพิเศษเป็นเวลา %(period)d วัน"
+
+msgid "premium/post_battle_premium"
+msgstr "สำหรับการซื้อบัญชีพิเศษคุณได้ค่าประสบการณ์ %(xpDiff)d และเงิน %(creditDiff)d"
+
+msgid "premium/server_error"
+msgstr "มีทองไม่พอในการซื้อบัญชีพิเศษสำหรับเวลา %(period)d day(s) วัน ลองใหม่ภายหลัง"
+
+msgid "premium/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "premiumXPBonus/apply/server_error"
+msgstr "ไม่สามารถดำเนินการได้ ลองใหม่ภายหลัง"
+
+msgid "premiumXPBonus/apply/server_error/COOLDOWN"
+msgstr "ไม่สามารถดำเนินการได้ โปรดรอจนกว่าการปฏิบัติการปัจจุบันจะเสร็จสิ้น"
+
+msgid "premium_quests/switch_off/body"
+msgstr "การใช้งานนี้ไม่มีให้ชั่วคราวเนื่องจากเหตุทางเทคนิค\nทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "premium_quests/switch_off/title"
+msgstr "ภารกิจพิเศษไม่มีให้ชั่วคราว"
+
+msgid "premium_quests/switch_on/body"
+msgstr "ทำการแก้ไขปัญหาทางเทคนิคเรียบร้อยแล้ว ทางเราต้องขออภัยด้วยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "premium_quests/switch_on/title"
+msgstr "ภารกิจพิเศษมีให้อีกครั้ง"
+
+msgid "progressiveReward/error"
+msgstr "การปฏิบัติการไม่มีให้ชั่วคราว ลองใหม่ภายหลัง"
+
+msgid "progressiveReward/switch_off"
+msgstr "รางวัลเกียรติคุณ: เนื้อหานี้ถูกปิดไว้ชั่วคราว ทางเราขออภัยในความไม่สะดวก"
+
+msgid "progressiveReward/switch_on"
+msgstr "มีรางวัลเกียรติคุณให้อีกครั้ง"
+
+msgid "quests/noQuestsWithGivenID"
+msgstr "หมดเวลาภารกิจแล้ว ไม่มีคำอธิบายโดยละเอียด"
+
+msgid "queue/isInQueue"
+msgstr "การปฏิบัติการไม่มีให้ชั่วคราว ลองใหม่ภายหลัง"
+
+msgid "rally/leaveDisabled"
+msgstr "ไม่สามารถดำเนินการได้\nคุณไม่สามารถออกจากโหมดได้ คุณเป็นสมาชิกหน่วยยุทธวิธีและพร้อมทำการรบ"
+
+msgid "ranked/notification/available"
+msgstr "สิ้นสุดการหยุดยิง: การรบจัดอันดับมีให้เล่นอีกครั้ง"
+
+msgid "ranked/notification/available/title"
+msgstr "มีการรบจัดอันดับให้"
+
+msgid "ranked/notification/congratulations"
+msgstr "ยินดีด้วย!"
+
+msgid "ranked/notification/notAvailable"
+msgstr "การรบจัดอันดับไม่มีให้ โปรดติดตามอัพเดตบนเวบท่าของเกม"
+
+msgid "ranked/notification/notSet"
+msgstr "รูปแบบนี้ไม่มีให้ในเซิร์ฟเวอร์ที่เลือกไว้"
+
+msgid "ranked/notification/notSet/title"
+msgstr "ไม่มีการรบจัดอันดับให้"
+
+msgid "ranked/notification/primeTime"
+msgstr "การรบจัดอันดับไม่มีให้จนกว่าจะหมดช่วงการหยุดยิง"
+
+msgid "ranked/notification/primeTime/title"
+msgstr "การหยุดยิง"
+
+msgid "ranked/notification/yearLB/negative/body"
+msgstr "คุณได้แสดงผลงานอันยอดเยี่ยมในฤดูกาลการรบจัดอันดับปี 2020/2021 และได้รับตำแหน่งในกลุ่มผู้เล่นอันดับสูงสุด"
+
+msgid "ranked/notification/yearLB/negative/title"
+msgstr "ยินดีด้วย!"
+
+msgid "ranked/notification/yearLB/positive/body"
+msgstr "คุณได้แสดงผลงานอันยอดเยี่ยมในฤดูกาลการรบจัดอันดับปี 2020/2021 และได้รับตำแหน่งในกลุ่มผู้เล่น %(playerPosition)s อันดับสูงสุด"
+
+msgid "ranked/notification/yearLB/positive/title"
+msgstr "ยินดีด้วย!"
+
+msgid "ranked/notifications/bonusName/badge"
+msgstr "ตราที่ได้รับ:"
+
+msgid "ranked/notifications/bonusName/badges"
+msgstr "ตราที่ได้รับ:"
+
+msgid "ranked/notifications/bonusName/credits"
+msgstr "ได้รับเงิน:"
+
+msgid "ranked/notifications/bonusName/crystal"
+msgstr "ได้รับพันธบัตร:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "ได้รับเหรียญฉลองครบรอบ:"
+
+msgid "ranked/notifications/bonusName/gold"
+msgstr "ได้รับทอง:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "มีการเพิ่มอุปกรณ์ปรับปรุงให้เลือก: %(selectableRewardCount)s"
+
+msgid "ranked/notifications/bonusName/style"
+msgstr "รูปแบบที่ได้รับ:"
+
+msgid "ranked/notifications/bonusName/styles"
+msgstr "รูปแบบที่ได้รับ:"
+
+msgid "ranked/notifications/bonusName/yearPoints"
+msgstr "ได้รับเหรียญอันดับ: %(yearPoints)s"
+
+msgid "ranked/notifications/bonusValue/premiumDay"
+msgstr "วันบัญชีพิเศษ Wargaming"
+
+msgid "ranked/notifications/bonusValue/premiumDays"
+msgstr "วันบัญชีพิเศษ Wargaming (x%(daysCount)s)"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDay"
+msgstr "วันบัญชีพิเศษ WoT"
+
+msgid "ranked/notifications/bonusValue/premiumPlusDays"
+msgstr "วันบัญชีพิเศษ WoT (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "ผลของด่าน %(number)s"
+
+msgid "ranked/notifications/league"
+msgstr "ลีก: %(leagueName)s"
+
+msgid "ranked/notifications/league1"
+msgstr "ทอง"
+
+msgid "ranked/notifications/league2"
+msgstr "เงิน"
+
+msgid "ranked/notifications/league3"
+msgstr "ทองแดง"
+
+msgid "ranked/notifications/leaguePoints"
+msgstr "ได้รับเหรียญอันดับสำหรับลีกทอง: %(points)s"
+
+msgid "ranked/notifications/maxRank"
+msgstr "อันดับสูงสุด: %(result)s"
+
+msgid "ranked/notifications/maxRankResult"
+msgstr "%(rankName)s, %(divisionName)s"
+
+msgid "ranked/notifications/position"
+msgstr "ตำแหน่งบนกระดานผู้นำ: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "คุณผ่านรอบคัดเลือกแล้ว"
+
+msgid "ranked/notifications/seasonPoints"
+msgstr "ได้รับเหรียญอันดับสำหรับฤดูกาลดังกล่าว: %(points)s"
+
+msgid "ranked/notifications/seasonResults"
+msgstr "ผลการรบจัดอันดับ ฤดูกาล %(seasonNumber)s"
+
+msgid "ranked/notifications/singleRank/text"
+msgstr "คุณได้อันดับ %(rankName)s (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "ได้รับเครื่องหมายนักวิ่งเร็ว รางวัลดีขึ้นกว่าเดิม"
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "ได้รับเครื่องหมายนักวิ่งเร็ว"
+
+msgid "recruit_window/FORBIDDEN"
+msgstr "ไม่สามารถเกณฑ์สมาชิกพลรถถังใหม่ได้: รถถังมีพลรถถังเฉพาะถาวร"
+
+msgid "recruit_window/disconnected_from_center"
+msgstr "ไม่สามารถเกณฑ์สมาชิกพลรถถังได้ การบริการไม่มีให้ชั่วคราว"
+
+msgid "recruit_window/financial_success"
+msgstr "เกณฑ์สมาชิกพลรถถังสำหรับ %(vehName)s ใช้เงินไป: %(credits)s"
+
+msgid "recruit_window/financial_success_credits"
+msgstr "เกณฑ์สมาชิกพลรถถังสำหรับ %(vehName)s \nใช้เงินไป: %(price)s"
+
+msgid "recruit_window/financial_success_gold"
+msgstr "เกณฑ์สมาชิกพลรถถังสำหรับ %(vehName)s \nใช้ทองไป: %(price)s"
+
+msgid "recruit_window/free_tankmen_limit"
+msgstr "คุณได้ใช้พลรถถังฟรีครบตามกำหนดในวันนี้แล้ว"
+
+msgid "recruit_window/not_enough_credits"
+msgstr "เกิดข้อผิดพลาดเกณฑ์พลรถถัง เงินไม่พอ"
+
+msgid "recruit_window/not_enough_gold"
+msgstr "เกิดข้อผิดพลาดในการเกณฑ์พลรถถัง มีทองไม่พอ"
+
+msgid "recruit_window/not_enough_space"
+msgstr "เกิดข้อผิดพลาดในการเกณฑ์พลรถถัง เตียงในค่ายทหารไม่พอ ทำให้ค่ายทหารว่างหรือซื้อเตียงเพิ่ม"
+
+msgid "recruit_window/server_error"
+msgstr "ไม่สามารถเกณฑ์สมาชิกพลรถถังได้ โปรดลองใหม่ภายหลัง"
+
+msgid "recruit_window/success"
+msgstr "เกณฑ์สมาชิกพลรถถังสำหรับ %(vehName)s โดยไม่มีค่าใช้จ่าย"
+
+msgid "recruit_window/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "reequip_tankman/FORBIDDEN"
+msgstr "ไม่สามารถโอนพลรถถังได้: รถถังมีพลรถถังเฉพาะถาวร"
+
+msgid "reequip_tankman/invalid_vehicle"
+msgstr "มีข้อผิดพลาดในการเปลี่ยนพลรถถัง พาหนะผิดคัน"
+
+msgid "reequip_tankman/not_enough_space"
+msgstr "ไม่สามารถส่งสมาชิกพลรถถังไปยังค่ายทหารได้ มีเตียงในค่ายไม่พอ"
+
+msgid "reequip_tankman/server_error"
+msgstr "ไม่สามารถเปลี่ยนพลรถถังได้ อีกสักครู่ค่อยลองใหม่"
+
+msgid "reequip_tankman/success"
+msgstr "แทนที่สมาชิกพลรถถังแล้ว"
+
+msgid "reequip_tankman/vehicle_locked"
+msgstr "มีข้อผิดพลาดในการเปลี่ยนพลรถถัง พาหนะถูกล๊อค"
+
+msgid "reequip_tankman/vehicle_need_repair"
+msgstr "มีข้อผิดพลาดในการเปลี่ยนพลรถถัง ซ่อมพาหนะของคุณก่อน"
+
+msgid "remove_component"
+msgstr "%s \"%s\" ถูกปลดจากพาหนะ"
+
+msgid "remove_vehicle_broken"
+msgstr "ไม่สามารถลบ %s \"%s\" ได้: พาหนะเสียหาย ซ่อมพาหนะของคุณแล้วลองใหม่อีกครั้ง"
+
+msgid "remove_vehicle_locked"
+msgstr "ไม่สามารถลบ %s \"%s\" ได้: พาหนะถูกล็อค"
+
+msgid "repair/credits_error"
+msgstr "ต้องการเงินเพิ่ม %s สำหรับซ่อมรถถัง %s"
+
+msgid "repair/server_error"
+msgstr "เกิดข้อผิดพลาดในการซ่อม %s โปรดลองใหม่ภายหลัง"
+
+msgid "repair/success"
+msgstr "ทำการซ่อม %s แล้ว คุณใช้ไป %s"
+
+msgid "replace_tankman/FORBIDDEN"
+msgstr "ไม่สามารถเปลี่ยนข้อมูลส่วนตัวของพลรถถังได้: รถถังมีพลรถถังเฉพาะถาวร"
+
+msgid "replace_tankman/invalid_vehicle"
+msgstr "เกิดข้อผิดพลาดในการเปลี่ยนข้อมูลส่วนตัว พาหนะผิดคัน"
+
+msgid "replace_tankman/not_enough_money"
+msgstr "เกิดข้อผิดพลาดในการเปลี่ยนข้อมูลส่วนตัว มีเงินไม่พอ"
+
+msgid "replace_tankman/server_error"
+msgstr "ล้มเหลวในการเปลี่ยนข้อมูลส่วนตัว ให้ลองใหม่อีกครั้ง"
+
+msgid "replace_tankman/success"
+msgstr "เปลี่ยนหน้าตาเรียบร้อยแล้ว"
+
+msgid "replace_tankman/vehicle_locked"
+msgstr "เกิดข้อผิดพลาดในการเปลี่ยนข้อมูลส่วนตัว. พาหนะถูกล็อกอยู่"
+
+msgid "replace_tankman/vehicle_need_repair"
+msgstr "เกิดข้อผิดพลาดในการเปลี่ยนข้อมูลส่วนตัว ซ่อมพาหนะก่อน"
+
+msgid "request/isInCoolDown"
+msgstr "ปฏิบัติการ \"%(request)s\" ถูกพักเป็นเวลา %(coolDown)s วิ"
+
+msgid "reset_all_tankmen_skills/server_error"
+msgstr "ไม่สามารถตั้งความสามารถใหม่ได้\nเซิร์ฟเวอร์ไม่มีให้ โปรดลองใหม่ภายหลัง"
+
+msgid "reset_all_tankmen_skills/success"
+msgstr "ความสามารถทั้งหมดของสมาชิกพลรถถังทั้งหมดได้ถูก\nตั้งใหม่ให้ฟรี"
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "เกิดข้อผิดพลาดในการใช้ทรัพยากร โปรดลองใหม่ในภายหลัง"
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "เกิดข้อผิดพลาดระหว่างคืนทรัพยากร โปรดลองใหม่ในภายหลัง"
+
+msgid "restoreController/hasLimitedRestoreVehicles"
+msgstr "คุณยังมีพาหนะให้ทำการกู้คืนได้ ไปยังร้านค้าเพื่อส่งพาหนะดังกล่าวกลับไปยังโรงรถ"
+
+msgid "restore_tankman/DISABLED"
+msgstr "การกู้คืนสมาชิกพลรถถังไม่มีให้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "restore_tankman/INVALID_TMAN_ID"
+msgstr "ไม่สามารถกู้คืนสมาชิกพลรถถังได้"
+
+msgid "restore_tankman/NO_GOLD"
+msgstr "ไม่มีทองพอในการกู้คืนสมาชิกพลรถถัง"
+
+msgid "restore_tankman/RESTORE_TIME_EXPIRED"
+msgstr "ไม่สามารถทำการกู้คืนสมาชิกพลรถถังได้ เวลาในการทำการหมดลงแล้ว"
+
+msgid "restore_tankman/WRONG_ARGS_TYPE"
+msgstr "ไม่สามารถกู้คืนสมาชิกพลรถถังได้ ลองใหม่ภายหลัง"
+
+msgid "restore_tankman/disconnected_from_center"
+msgstr "ไม่สามารถกู้คืนสมาชิกพลรถถังได้ การกู้คืนสมาชิกพลรถถังไม่มีให้ชั่วคราว"
+
+msgid "restore_tankman/error"
+msgstr "%(tankman)s ไม่สามารถถูกกู้คืนได้"
+
+msgid "restore_tankman/financial_success"
+msgstr "กู้คืนสมาชิกพลรถถังแล้ว\nใช้เงินไป: %(money)s"
+
+msgid "restore_tankman/not_enough_space"
+msgstr "ไม่สามารถกู้คืนสมาชิกพลรถถังได้ ไม่มีเตียงนอนพอในค่ายทหาร"
+
+msgid "restore_tankman/server_error"
+msgstr "ไม่สามารถกู้คืนสมาชิกพลรถถังคนนี้ได้ ลองใหม่ภายหลัง"
+
+msgid "restore_tankman/success"
+msgstr "กู้คืนสมาชิกพลรถถังแล้ว"
+
+msgid "retraining_change_tankman_role/success"
+msgstr "ทำการเปลี่ยนคุณสมบัติสมาชิกพลรถถังแล้ว"
+
+msgid "retraining_crew/FORBIDDEN"
+msgstr "ไม่สามารถฝึกใหม่พลรถถังของคุณได้: รถถังมีพลรถถังเฉพาะถาวร"
+
+msgid "retraining_crew/empty_list"
+msgstr "เกิดข้อผิดพลาดในการฝึกใหม่พลรถถัง ไม่มีการเลือกพลรถถัง"
+
+msgid "retraining_crew/financial_success_credits"
+msgstr "ใช้เงินไป: %(money)s"
+
+msgid "retraining_crew/financial_success_free"
+msgstr "ฝึกใหม่พลรถถังสำหรับ %(vehName)s โดยไม่มีค่าใช้จ่าย"
+
+msgid "retraining_crew/financial_success_gold"
+msgstr "ใช้ทองไป: %(money)s"
+
+msgid "retraining_crew/invalid_operation"
+msgstr "เกิดข้อผิดพลาดในการฝึกใหม่พลรถถัง การปฏิบัติการไม่สามารถทำได้"
+
+msgid "retraining_crew/invalid_vehicle"
+msgstr "เกิดข้อผิดพลาดในการฝึกใหม่พลรถถัง พาหนะผิดคัน"
+
+msgid "retraining_crew/server_error"
+msgstr "ไม่สามารถฝึกใหม่พลรถถังได้ ลองใหม่ภายหลัง"
+
+msgid "retraining_crew/success"
+msgstr "ฝึกใหม่พลรถถังสำหรับ %(vehName)s"
+
+msgid "retraining_crew/vehicle_locked"
+msgstr "เกิดข้อผิดพลาดในการฝึกใหม่พลรถถัง พาหนะถูกล็อค"
+
+msgid "retraining_crew/vehicle_need_repair"
+msgstr "เกิดข้อผิดพลาดในการฝึกใหม่พลรถถัง ซ่อมพาหนะของคุณก่อน"
+
+msgid "retraining_tankman/FORBIDDEN"
+msgstr "ไม่สามารถฝึกใหม่สมาชิกพลรถถังของคุณได้: รถถังมีพลรถถังเฉพาะถาวร"
+
+msgid "retraining_tankman/financial_success_credits"
+msgstr "ใช้เงินไป: %(money)s"
+
+msgid "retraining_tankman/financial_success_free"
+msgstr "ฝึกใหม่สมาชิกพลรถถังสำหรับ %(vehName)sโดยไม่มีค่าใช้จ่าย"
+
+msgid "retraining_tankman/financial_success_gold"
+msgstr "ใช้ทองไป: %(money)s"
+
+msgid "retraining_tankman/invalid_operation"
+msgstr "เกิดข้อผิดพลาดในการฝึกใหม่พลรถถัง การปฏิบัติการไม่สามารถทำได้"
+
+msgid "retraining_tankman/invalid_vehicle"
+msgstr "ไม่สามารถฝึกพลรถใหม่ได้ พาหนะผิดคัน"
+
+msgid "retraining_tankman/server_error"
+msgstr "ไม่สามาถรฝึกใหม่สมาชิกพลรถถังได้\nโปรดลองใหม่ภายหลัง"
+
+msgid "retraining_tankman/success"
+msgstr "ฝึกใหม่สมาชิกพลรถถังสำหรับ %(vehName)s"
+
+msgid "retraining_tankman/vehicle_locked"
+msgstr "ไม่สามารถฝึกพลรถใหม่ได้ พาหนะถูกล็อกอยู่"
+
+msgid "retraining_tankman/vehicle_need_repair"
+msgstr "เกิดข้อผิดพลาดในการฝึกพลรถถังใหม่ ซ่อมพาหนะก่อน"
+
+msgid "return_crew/FORBIDDEN"
+msgstr "ไม่สามารถคืนพลรถถังได้: รถถังมีพลรถถังเฉพาะถาวร"
+
+msgid "return_crew/invalid_vehicle"
+msgstr "เกิดข้อผิดพลาดในการคืนพลรถถัง พาหนะผิดคัน"
+
+msgid "return_crew/not_enough_space"
+msgstr "ไม่สามารถส่งพลรถถังไปยังค่ายทหารได้ มีเตียงในค่ายไม่พอ"
+
+msgid "return_crew/return_unavailable"
+msgstr "สมาชิกพลรถถังบางคนไม่สามารถส่งคืนพาหนะดังกล่าวได้"
+
+msgid "return_crew/server_error"
+msgstr "ไม่สามารถคืนพลรถถังได้ ลองใหม่ภายหลัง"
+
+msgid "return_crew/success"
+msgstr "โอนพลรถถังเรียบร้อย"
+
+msgid "return_crew/vehicle_locked"
+msgstr "เกิดข้อผิดพลาดในการคืนพลรถถัง พาหนะถูกล็อคไว้"
+
+msgid "return_crew/vehicle_need_repair"
+msgstr "เกิดข้อผิดพลาดในการคืนพลรถถัง ซ่อมพาหนะของคุณก่อน"
+
+msgid "rotation/lock"
+msgstr "กลุ่มต่อไปนี้ถูกล็อคและไม่มีให้ทำการรบได้อีก: %(groupNum)s"
+
+msgid "rotation/unlock"
+msgstr "กลุ่มต่อไปนี้ถูกปลดล็อคและสามารถทำการรบได้แล้ว: %(groupNum)s"
+
+msgid "rotation/vehicleIsLocked"
+msgstr "พาหนะถูกล็อคและใช้ในการรบไม่ได้"
+
+msgid "royale/notification/congratulations"
+msgstr "ยินดีด้วย!"
+
+msgid "royale/notification/primeTime"
+msgstr "การรบพรานเหล็กไม่มีให้จนกว่าจะหมดระยะหยุดยิง ลองตรวจสอบกำหนดการในปฏิทิน"
+
+msgid "royale/notification/primeTime/title"
+msgstr "การหยุดยิง"
+
+msgid "royale/notifications/singleLevel/text"
+msgstr "ถึงขั้น: %(level)s"
+
+msgid "rts/notification/available"
+msgstr "การรบกิจกรรมศิลปะแห่งยุทธศาสตร์มีให้อีกครั้งบนเซิร์ฟเวอร์นี้"
+
+msgid "rts/notification/available/title"
+msgstr "มีการรบให้"
+
+msgid "rts/notification/notAvailable"
+msgstr "ไม่มีกิจกรรมศิลปะแห่งยุทธศาสตร์ให้ โปรดติดตามข่าวบนเวบท่าของเกมสำหรับข้อมูลเพิ่มเติม"
+
+msgid "rts/notification/notSet"
+msgstr "การรบกิจกรรมศิลปะแห่งยุทธศาสตร์ไม่มีให้บนเซิร์ฟเวอร์ที่เลือกเอาไว้"
+
+msgid "rts/notification/notSet/title"
+msgstr "การรบไม่มีให้"
+
+msgid "rts/notification/primeTime"
+msgstr "ช่วงหยุดยิงยังมีผลอยู่ การรบศิลปะแห่งยุทธศาสตร์ไม่มีให้เป็นการชั่วคราว"
+
+msgid "rts/notification/primeTime/title"
+msgstr "การหยุดยิง"
+
+msgid "securityMessage/bad_email"
+msgstr "คุณได้ทำการลงทะเบียนที่อยู่อีเมล์ของคุณบนเซิร์ฟเวอร์ที่ต้องสงสัย โปรดเปลี่ยนอีเมล์ของคุณเพื่อประโยชน์ในเรื่องความปลอดภัย %(link)s"
+
+msgid "securityMessage/change_setings"
+msgstr "เปลี่ยนการตั้งค่าความปลอดภัย"
+
+msgid "securityMessage/no_phone"
+msgstr "เพื่อความปลอดภัย โปรดเพิ่มหมายเลขโทรศัพท์เข้าบัญชีของคุณ %(link)s"
+
+msgid "securityMessage/no_question"
+msgstr "สำหรับการตั้งรหัสผ่านใหม่ โปรดระบุคำถามความปลอดภัยในการจัดการบัญชีของคุณ %(link)s"
+
+msgid "securityMessage/old_pass"
+msgstr "คุณไม่ได้เปลี่ยนรหััสผ่านเป็นเวลา 30 วันแล้ว โปรดเปลี่ยนรหัสผ่านเพื่อเพิ่มความปลอดภัย %(link)s"
+
+msgid "securityMessage/poor_pass"
+msgstr "รหัสผ่านที่คุณระบุไว้ในช่วงการสร้างบัญชีนั้นยากไม่พอ โปรดเปลี่ยนรหัสผ่าน %(link)s"
+
+msgid "sell_vehicle_broken"
+msgstr "ไม่สามารถขาย %s ได้: พาหนะเสียหาย ซ่อมพาหนะของคุณแล้วลองใหม่อีกครั้ง"
+
+msgid "sell_vehicle_locked"
+msgstr "ไม่สามารถขาย %s ได้: พาหนะถูกล็อค"
+
+msgid "seniorityAwards/switch_pause_off/body"
+msgstr "กิจกรรมรางวัลที่คู่ควรได้กลับมาแล้ว ทางเราต้องขออภัยในความสะดวกที่เกิดขึ้น"
+
+msgid "seniorityAwards/switch_pause_on/body"
+msgstr "กิจกรรมรางวัลที่คู่ควรถูกพักไว้ชั่วคราวอันเนื่องด้วยการบำรุงรักษาระบบ"
+
+msgid "seniority_awards/claim_reward_failed"
+msgstr "ข้อผิดพลาดในการรับรางวัล: การดำเนินการไม่มีให้ชั่วคราว"
+
+msgid "seniority_awards/selection_multiple_tokens"
+msgstr "เกิดข้อผิดพลาดในการรับรางวัล โปรดติดต่อฝ่ายสนับสนุนผู้เล่น"
+
+msgid "seniority_awards/selection_timeout"
+msgstr "รางวัลสำหรับปีประจำการของคุณนั้นมาถึงช้า โปรดลองใหม่ภายหลัง"
+
+msgid "serverInstallError"
+msgstr "ข้อผิดพลาดเซิร์ฟเวอร์ในการติดตั้งชิ้นส่วน %s \"%s\" โปรดลองใหม่ภายหลัง"
+
+msgid "serverRemoveError"
+msgstr "เกิดข้อผิดพลาดในการปลดชิ้นส่วน %s \"%s\" โปรดลองใหม่ภายหลัง"
+
+msgid "server_shut_down"
+msgstr "กำลังรีสตาร์ทเซิร์ฟเวอร์เกม"
+
+msgid "session_tracker_kick"
+msgstr "Wargaming.net&nbsp;ID ของคุณถูกใช้ในการลงชื่อเล่นเกมอื่น การเล่นเกมปัจจุบันถูกระงับ"
+
+msgid "shell_buy/invalid_module"
+msgstr "ไม่สามารถซื้อ %(name)s กระสุนผิดชนิด"
+
+msgid "shell_buy/not_enough_credits"
+msgstr "ไม่สามารถซื้อ %(name)s ได้ มีเงินไม่พอ"
+
+msgid "shell_buy/not_enough_gold"
+msgstr "ไม่สามารถซื้อ %(name)s ได้ มีเงินไม่พอ"
+
+msgid "shell_buy/server_error"
+msgstr "ไม่สามารถซื้อ %(name)s ลองใหม่ภายหลัง"
+
+msgid "shell_buy/server_error_centerDown"
+msgstr "ไม่สามารถซื้อกระสุน %(name)s ได้ เซิรฟ์เวอร์ใช้งานไม่ได้ชั่วคราว"
+
+msgid "shell_buy/success"
+msgstr "กระสุน %(name)s ถูกซื้อแล้ว (%(count)s นัด) ใช้เงินไป %(money)s"
+
+msgid "shell_buy/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "shell_sell/invalid_module"
+msgstr "ไม่สามารถขาย \"%(name)s\" ผิดกระสุน"
+
+msgid "shell_sell/server_error"
+msgstr "ไม่สามารถขาย \"%(name)s\" ลองใหม่ภายหลัง"
+
+msgid "shell_sell/success"
+msgstr "กระสุน \"%(name)s\" (%(count)s นัด) ได้รับ %(money)s"
+
+msgid "shells_apply/error"
+msgstr "เกิดข้อผิดพลาดการปรับกระสุน โปรดลองใหม่ภายหลัง"
+
+msgid "shells_apply/not_enough_money"
+msgstr "เกิดข้อผิดพลาดการปรับกระสุน เงินทุนไม่พอซื้อ"
+
+msgid "shells_apply/success_money_spent"
+msgstr "ค่าใช้จ่ายกระสุนโดยรวม %(money)s."
+
+msgid "shells_apply/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนแล้ว"
+
+msgid "shop/item/buy_and_equip_in_processing"
+msgstr "คำขอซื้อและติดตั้งชิ้นส่วนถูกส่งไปแล้ว กำลังรอการตอบกลับจากเซิร์ฟเวอร์"
+
+msgid "shop/item/buy_server_error"
+msgstr "ไม่สามารถซื้อ %(typeString)s \"%(userString)s\" ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "shop/item/buy_success"
+msgstr "ทำการซื้อชิ้นส่วน %(typeString)s \"%(userString)s\" (%(count)d) แล้วเรียบร้อย ใช้ไป %(price)s"
+
+msgid "shop/item/common_rent_or_buy_error"
+msgstr "ไม่สามารถปฏิบัติการได้ในขณะนี้"
+
+msgid "shop/item/not_enough_money"
+msgstr "ในการซื้อ %(typeString)s \"%(userString)s\" คุณจำเป็นต้องมีอีก %(price)s"
+
+msgid "shop/item/not_found"
+msgstr "ไม่พบชิ้นส่วน %(typeString)s \"%(userString)s\" ในร้านค้า โปรดลองใหม่ภายหลัง"
+
+msgid "shop/vehicle/common_rent_or_buy_error"
+msgstr "ไม่สามารถปฏิบัติการได้ในขณะนี้"
+
+msgid "shop/vehicle/not_enough_money"
+msgstr "ในการจะซื้อ %(userString)s คุณต้องมีเงินอีก %(price)s เหรียญ"
+
+msgid "shop/vehicle/not_enough_money_for_rent"
+msgstr "ในการเช่า %(userString)s คุณต้องมีอีก %(price)s"
+
+msgid "shop/vehicle/not_found"
+msgstr "ไม่พบรถถัง %(userString)s ในร้านค้า อีกสักครู่โปรดลองอีกครั้ง"
+
+msgid "shop_resync"
+msgstr "หน้าจอโต้ตอบได้รับการปรับปรุงในวันที่ %(date)s ณ เวลา %(time)s เนื่องจากเซิร์ฟเวอร์มีการเปลี่ยนแปลง"
+
+msgid "skillsCrewBoostersConversion/item"
+msgstr "<font color='#E9E2BF'>\"{oldName}\"</font> ({amount}) ถูกแปลงเป็น <font color='#E9E2BF'>\"{newName}\"</font> ({amount})"
+
+msgid "skillsCrewBoostersConversion/text"
+msgstr "วัน: %(date)s\nแปลงคำสั่งแล้ว: %(items)s."
+
+msgid "skillsCrewBoostersConversion/title"
+msgstr "ใบเสร็จ"
+
+msgid "squad/createError"
+msgstr "ผู้เล่นที่มีบัญชีพรีเมี่ยมเท่านั้นที่สามารถสร้างหน่วยรบได้"
+
+msgid "squad/kickedFromQueue"
+msgstr "ไม่สามารถหาคู่ต้อสู้ของหน่วยรบได้ ให้ลองปรับทีมใหม่"
+
+msgid "squad/leaveDisabled"
+msgstr "ไม่สามารถดำเนินการได้\nคุณไม่สามารถออกจากหมวดรถถังได้ คุณเป็นสมาชิกหมวดและพร้อมทำการรบแล้ว"
+
+msgid "squad/memberJoined"
+msgstr "%s เข้าร่วมหน่วยยุทธวิธีแล้ว"
+
+msgid "squad/memberLeave"
+msgstr "%s ออกจากหน่วยยุทธวิธี"
+
+msgid "squad/memberNotReady"
+msgstr "%s ไม่พร้อม"
+
+msgid "squad/memberOffline"
+msgstr "การเชื่อมต่อกับ %s ถูกระงับ"
+
+msgid "squad/memberReady"
+msgstr "%s พร้อมแล้ว"
+
+msgid "squad/notSetReadyStatus"
+msgstr "ไม่สามารถเข้าร่วมการรบด้วยหมวดรถถังได้"
+
+msgid "squad/notValidDeleted"
+msgstr "%(vehName)s ถูกแยกออกจากหมวดรถถังเนื่องจากระดับของมันไม่ตรงกับระดับของพาหนะผู้บังคับการ เลือกพาหนะที่อยู่ในระดับเดียวกัน"
+
+msgid "squad/notValidDeletedFilter"
+msgstr "%(vehName)s ถูกปลดจากหมวดรถถังเนื่องจากผู้บังคับการเปลี่ยนข้อกำหนด"
+
+msgid "squad/notValidEnqueueData"
+msgstr "คุณถูกปลดจากหมวดรถถังเนื่องจากผู้บังคับการได้เปลี่ยนข้อกำหนดหรือคุณไม่สามารถเข้าร่วมเพราะพาหนะคันดังกล่าวไม่ตรงกับข้อกำนหด โปรดเลือกพาหนะคันอื่น"
+
+msgid "squad/notValidMaxCountVehDeleted"
+msgstr "%(vehName)s ถูกลบเนื่องด้วยข้อจำกัดของจำนวนพาหนะที่อนุญาตให้มีต่อหมวดรถถัง โปรดเลือกพาหนะคันอื่น"
+
+msgid "squad_bonus/switch_off/body"
+msgstr "การใช้งานนี้ไม่มีให้ชั่วคราวเนื่องจากเหตุทางเทคนิค\nทางเราขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "squad_bonus/switch_off/title"
+msgstr "โบนัสหมวดรถถังไม่มีให้ชั่วคราว"
+
+msgid "squad_bonus/switch_on/body"
+msgstr "ทำการแก้ไขปัญหาทางเทคนิคเรียบร้อยแล้ว ทางเราต้องขออภัยด้วยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "squad_bonus/switch_on/title"
+msgstr "โบนัสหมวดรถถังมีให้อีกครั้ง"
+
+msgid "ssr/unavailable"
+msgstr "ไม่สามารถดาวน์โหลดบันทึกการเล่นย้อนหลังได้"
+
+msgid "steam_login_not_allowed"
+msgstr "คุณไม่สามารถใช้โปรแกรมนี้เล่นได้: บัญชี Steam ของคุณได้ถูกเชื่อมเข้ากับบัญชี Wargaming.net แล้ว โปรดอ่านเพิ่มเติมได้ที่ฝ่ายสนับสนุนผู้เล่น"
+
+msgid "tankman/tankmanToRemove"
+msgstr "ปลดสมาชิกพลรถถังแล้ว"
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s วัน"
+
+msgid "techtree/action/header"
+msgstr "ช่วงพิเศษ \"%(actionName)s\""
+
+msgid "techtree/action/text"
+msgstr "ช่วงพิเศษจบลงใน "
+
+msgid "techtree/action/text/closest"
+msgstr "ช่วงพิเศษถัดไปจบลงใน: "
+
+msgid "telecom/notifications/vehicleBlocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/Twitchprime"
+msgstr "เหตุผล: พาหนะนี้มีให้สำหรับสมาชิก Prime Gaming เท่านั้น โปรดตรวจสอบสถานะการสมัคร Prime Gaming ของคุณ"
+
+msgid "telecom/notifications/vehicleBlocked/subcomment/default"
+msgstr "?empty?"
+
+msgid "telecom/notifications/vehicleBlocked/title/default"
+msgstr "พาหนะใช้งานไม่ได้"
+
+msgid "telecom/notifications/vehicleReceived/comment/Twitchprime"
+msgstr "วัน:%(datetime)s\nเพิ่มพาหนะ: %(vehicles)s\nเพิ่ม: ช่องในโรงรถ%(crew)s รูปแบบสามมิติ"
+
+msgid "telecom/notifications/vehicleReceived/comment/default"
+msgstr "วัน: %(datetime)s\nเพิ่มพาหนะ: %(vehicles)s\nเพิ่ม: ช่องเก็บในโรงรถ,%(crew)s ลายพรางเฉพาะ"
+
+msgid "telecom/notifications/vehicleReceived/crew/default"
+msgstr " พลรถถัง 100%% %(skills)s "
+
+msgid "telecom/notifications/vehicleReceived/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleReceived/title/default"
+msgstr "เพิ่มพาหนะเข้ามา"
+
+msgid "telecom/notifications/vehicleRemoved/comment/default"
+msgstr "วััน: %(datetime)s\nลบ: %(vehicles)s, ช่องเก็บในโรงรถ"
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/Twitchprime"
+msgstr "เหตุผล: พาหนะนี้มีให้สำหรับสมาชิก Prime Gaming เท่านั้น โปรดตรวจสอบสถานะการสมัคร Prime Gamingของคุณ"
+
+msgid "telecom/notifications/vehicleRemoved/subcomment/default"
+msgstr "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе «Игровой»."
+
+msgid "telecom/notifications/vehicleRemoved/title/default"
+msgstr "ถอดยานเกราะแล้ว"
+
+msgid "telecom/notifications/vehicleUnblocked/comment/default"
+msgstr "%(vehicles)s"
+
+msgid "telecom/notifications/vehicleUnblocked/subcomment/default"
+msgstr " "
+
+msgid "telecom/notifications/vehicleUnblocked/title/default"
+msgstr "พาหนะมีให้อีกครั้ง"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "ทำการเพิ่มรถถัง T-44-100 Igrovoy เข้ามา ปลดออกไป: %(tanks)s"
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "ตอนนี้สามารถปฏิบัติภารกิจให้สำเร็จได้ด้วย T-44-100 Igrovoy แล้ว"
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " และ "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "เงิน %(value)s เหรียญ"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr "สมาชิกพลรถถังทั้งหมดของ %(tanks)s ถูกฝึกใหม่ไว้สำหรับ T-44-100 Igrovoy"
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr "ทำการถอดอุปกรณ์และส่งไปยังโรงเก็บ\nองค์ประกอบปรับแต่งถูกส่งไปยังโรงเก็บ\nกระสุนและคำสั่งถูกส่งไปยังโรงเก็บ"
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr "การติดตั้ง องค์ประกอบปรับแต่ง ประสบการณ์การรบ สถิติและรางวัลถูกโอนจาก %(mergedTank)s ไปยัง T-44-100 Igrovoy"
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "ประสบการณ์อิสระ %(value)s หน่วย"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr "ทำการชดเชยประสบการณ์การปรับแต่งภาคสนาม: เพิ่มเข้ามา %(compensation)s"
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr "ทำการชดเชยลวดลายก้าวหน้าที่ซื้อไป: เพิ่มทองเข้ามา %(value)s"
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr "สถิติเกมและรางวัลจาก %(mergedTank)s ได้ถูกโอนไปยัง T-44-100 Igrovoy"
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "ประสบการณ์การรบถูกรวมและโอนไปยัง T-44-100 Igrovoy"
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "ขอให้โชคดีในสนามรบ!"
+
+msgid "telecomMergeResults/title"
+msgstr "การเปลี่ยนค่าธรรมเนียม \"Igrovoy\""
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "การเลือกพาหนะและการเช่าถูกพักเอาไว้"
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "การเช่าพาหนะไม่มีให้ในขณะนี้"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "มีการเช่าพาหนะให้"
+
+msgid "tokens/notification/mark_acquired"
+msgstr "ยินดีด้วย! คุณได้รับ %(count)s เหรียญ"
+
+msgid "tradingError/DECLINED_BY_DEST"
+msgstr "ไม่สามารถโอนโกลด์ได้ ฝั่งรับปฏิเสธธุรกรรม"
+
+msgid "tradingError/NOT_ALLOWED"
+msgstr "การโอนโกลด์ไม่ได้"
+
+msgid "tradingError/NO_WARES"
+msgstr "ไม่สามารถโอนโกลด์ไม่ โกลด์ไม่พอ"
+
+msgid "tradingError/TOO_MANY_OUT_OFFERS"
+msgstr "คุณได้โอนย้ายครบตามจำนวนที่กำหนดแล้ว ให้ลองใหม่พรุ่งนี้"
+
+msgid "tradingError/UNEXPECTED_ERROR"
+msgstr "ไม่สามารถโอนโกลด์ได้ ลองใหม่อีกครั้ง"
+
+msgid "training/error/AddPlayer"
+msgstr "เกิดข้อผิดพลาดห้องฝึก เกินจำนวนผู้เล่นสูงสุดในทีมแล้ว"
+
+msgid "training/error/doAction"
+msgstr "เกิดข้อผิดพลาดในห้องฝึก โปรดลองใหม่ภายหลัง"
+
+msgid "training/error/onslaughtRosterLimit"
+msgstr "ข้อผิดพลาดห้องฝึก จำนวนทีมสูงสุดในรูปแบบการบุกรุก:%(numPlayers)s"
+
+msgid "training/error/selectObserver"
+msgstr "เกิดข้อผิดพลาดห้องฝึก จำนวนผู้เล่นสูงสุดในทีม: %(numPlayers)s"
+
+msgid "training/error/swapTeams"
+msgstr "เกิดข้อผิดพลาดเซิร์ฟเวอร์ในขณะกำลังเปลี่ยนทีม กรุณาลองใหม่ภายหลัง"
+
+msgid "transferXP/server_error"
+msgstr "การดำเนินการไม่มีให้ โปรดลองใหม่ภายหลัง"
+
+msgid "unit/error/wgshEvent/AccountDoesNotHavePermissions"
+msgstr "ไม่สามารถดำเนินการได้ อำนาจไม่เพียงพอ"
+
+msgid "unit/error/wgshEvent/AccountNotInClan"
+msgstr "ไม่สามารถดำเนินการได้ คุณไม่ใช่สมาชิกกองทัพใดๆ"
+
+msgid "unit/error/wgshEvent/AccountVehicleDoesNotExist"
+msgstr "ข้อผิดพลาด: ไม่สามารถคืนสภาพปฏิบัติการพาหนะได้"
+
+msgid "unit/error/wgshEvent/NotEnoughSpareParts"
+msgstr "ข้อผิดพลาด: ไม่มีชิ้นส่วนซ่อมแซมพอในการคืนสภาพปฏิบัติการพาหนะ"
+
+msgid "unit/error/wgshEvent/UnfreezeVehiclePriceMismatch"
+msgstr "ข้อผิดพลาด: ค่าการคืนสภาพของพาหนะที่เลือกไว้ถูกเปลี่ยน"
+
+msgid "unit/error/wgshEvent/common"
+msgstr "ข้อผิดพลาด: ไม่สามารถดำเนินการให้เสร็จสิ้นได้"
+
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมหมวดรถถัง: บัญชีของคุณถูกบล็อคชั่วคราวจากรูปแบบเกมนี้"
+
+msgid "unit/errors/ACCOUNT_RESTORED"
+msgstr "ไม่สามารถดำเนินการได้ บัญชีถูกกู้คืนแล้ว"
+
+msgid "unit/errors/ADD_PLAYER_FAIL"
+msgstr "ผู้เล่นไม่สามารถเข้าร่วมทีมได้"
+
+msgid "unit/errors/ALREADY_IN_SLOT"
+msgstr "ไม่สามารถดำเนินการได้ ช่องมีคนจองแล้ว"
+
+msgid "unit/errors/ALREADY_JOINED_UNIT"
+msgstr "ผู้เล่นได้เข้าร่วมทีมแล้ว"
+
+msgid "unit/errors/ASSIGN_MEMBER_FAIL"
+msgstr "ไม่สามารถโอนอำนาจผู้บังคับการได้"
+
+msgid "unit/errors/BAD_ACCOUNT_TYPE"
+msgstr "ไม่สามารถดำเนินการได้ ชนิดบัญชีไม่ถูกต้อง"
+
+msgid "unit/errors/BAD_CLAN"
+msgstr "ไม่สามารถดำเนินการได้ ผิดกองทัพ"
+
+msgid "unit/errors/BAD_JOINING_ACC"
+msgstr "ไม่สามารถเข้าร่วมทีมได้"
+
+msgid "unit/errors/BAD_POINTS_SUM"
+msgstr "ระดับรวมของยานเกราะทั้งหมดเกินที่กำหนดไว้"
+
+msgid "unit/errors/BAD_ROSTER_PACK"
+msgstr "ไม่สามารถดำเนินการได้ จำนวนสมาชิกกองเฉพาะกิจไม่ถูกต้อง"
+
+msgid "unit/errors/BAD_SLOT_IDX"
+msgstr "หมายเลขช่องผิด"
+
+msgid "unit/errors/BAD_VEHICLES_SET"
+msgstr "ไม่มีการดำเนินการให้ ชนิดพาหนะไม่ถูกต้องสำหรับการรบในหมวดรถถัง"
+
+msgid "unit/errors/BAD_VEHICLE_LEVEL"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมทีม ระดับยานเกราะไม่ถูกต้อง"
+
+msgid "unit/errors/CANT_CHANGE_DIVISION"
+msgstr "การเปลี่ยนดิวิชันไม่สามารถทำได้ในช่วงเวลาที่ระบุไว้"
+
+msgid "unit/errors/CANT_FIND_UNIT_MGR"
+msgstr "ไม่สามารถหาทีมได้"
+
+msgid "unit/errors/CANT_INVITE"
+msgstr "ไม่สามารถส่งคำเชิญได้"
+
+msgid "unit/errors/COMP7_QUALIFICATION"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมหมวดรถถัง: การเล่นหมวดรถถังไม่มีให้จนกว่าการคัดเลือกจะเสร็จสิ้น"
+
+msgid "unit/errors/COOLDOWN"
+msgstr "การปฏิบัติงานไม่สามารถใช้ได้ชั่วคราว"
+
+msgid "unit/errors/FAIL_UNIT_METHOD"
+msgstr "ล้มเหลวในการดำเนินการกับทีม"
+
+msgid "unit/errors/GET_READY_VEHICLE_FAIL"
+msgstr "ยานเกราะไม่พร้อมเข้ารบหรือไม่มียานเกราะในโรงรถ"
+
+msgid "unit/errors/GET_VEHICLE_FAIL"
+msgstr "ไม่สามารถตั้งยานเกราะเข้าลงในช่องได้"
+
+msgid "unit/errors/HAS_IN_ARENA_MEMBERS"
+msgstr "ไม่สามารถดำเนินการได้ สมาชิกกองเฉพาะกิจบางคนยังอยู่ในการรบ"
+
+msgid "unit/errors/INSUFFICIENT_ROLE"
+msgstr "ไม่อนุญาตให้ทำการปฏิบัติการนี้"
+
+msgid "unit/errors/JOIN_CTX_LOCK"
+msgstr "บัญชีถูกล็อค"
+
+msgid "unit/errors/NOT_IDLE"
+msgstr "ทีมอยู่ในคิวหรือผลการค้นหาแล้ว"
+
+msgid "unit/errors/NOT_INVITED"
+msgstr "ไม่สามารถเข้าร่วมทีมได้ การเข้าทีมถูกปฏิเสธ"
+
+msgid "unit/errors/NOT_IN_QUEUE"
+msgstr "ทีมไม่ได้อยู่ในคิว"
+
+msgid "unit/errors/NOT_IN_SEARCH"
+msgstr "ทีมไม่ได้อยู่ในผลการค้นหา"
+
+msgid "unit/errors/NOT_READY"
+msgstr "ทีมยังไม่พร้อม"
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมหมวดรถถัง: คุณไม่มีพาหนะที่เหมาะสมสำหรับรูปแบบเกมที่เลือกเอาไว้"
+
+msgid "unit/errors/NO_AVAILABLE_SLOTS"
+msgstr "ไม่สามารถเพิ่มผู้เล่นเข้าเป็นสมาชิกทีมได้"
+
+msgid "unit/errors/NO_PLAYER"
+msgstr "ไม่สามารถดำเนินการได้ ไม่พบผู้เล่น"
+
+msgid "unit/errors/NO_UNIT"
+msgstr "ไม่พบทีม"
+
+msgid "unit/errors/NO_UNIT_MGR"
+msgstr "ทีมนี้ไม่มีอยู่"
+
+msgid "unit/errors/NO_VEHICLES"
+msgstr "ไม่สามารถดำเนินการได้ เกิดข้อผิดพลาดในการแสดงรายชื่อยานพาหนะ"
+
+msgid "unit/errors/OFFLINE_PLAYER"
+msgstr "ไม่สามารถดำเนินการได้ ผู้เล่นออฟไลน์อยู่"
+
+msgid "unit/errors/PLAYER_IGNORED"
+msgstr "คุณอยู่ในบัญชีดำของผู้บังคับการ"
+
+msgid "unit/errors/PREV_RATED_BATTLE_IN_PROGRESS"
+msgstr "ไม่สามารถดำเนินการได้ การรบก่อนหน้ายังไม่จบ"
+
+msgid "unit/errors/REMOVE_PLAYER_FAIL"
+msgstr "ไม่สามารถปลดผู้เล่นออกจากทีมได้"
+
+msgid "unit/errors/RESTRICT_INVITED"
+msgstr "ไม่สามารถดำเนินการได้ มีผู้เล่นหนึ่งคนหรือมากกว่าไม่ได้ตอบรับคำเชิญ"
+
+msgid "unit/errors/RESTRICT_LEGIONARIES"
+msgstr "ไม่สามารถดำเนินการได้สำหรับทหารไร้สังกัด"
+
+msgid "unit/errors/SLOT_NOT_CLOSED"
+msgstr "ไม่สามารถดำเนินการได้ ช่องไม่ได้ถูกล็อค"
+
+msgid "unit/errors/SLOT_OCCUPIED"
+msgstr "ไม่สามารถดำเนินการได้ ช่องมีคนจองแล้ว"
+
+msgid "unit/errors/SLOT_RESERVED"
+msgstr "ไม่สามารถดำเนินการกับช่องนี้ได้"
+
+msgid "unit/errors/SORTIES_FORBIDDEN"
+msgstr "การปะทะจะไม่สามารถเกิดขึ้นได้ในช่วงเวลาที่ระบุไว้"
+
+msgid "unit/errors/SWITCH_SIZE_CONSTRAINTS"
+msgstr "ไม่สามารถเปลี่ยนรูปแบบเกมได้ จำนวนสมาชิกหมวดรถถังเกินที่กำหนดไว้"
+
+msgid "unit/errors/TIMEOUT"
+msgstr "ไม่สามารถดำเนินการได้ หมดเวลาแล้ว"
+
+msgid "unit/errors/TOO_MANY_CLOSED_SLOTS"
+msgstr "ไม่สามารถดำเนินการได้ จำนวนช่องถูกล็อคเต็มแล้ว"
+
+msgid "unit/errors/TOO_MANY_LEGIONARIES"
+msgstr "ไม่สามารถดำเนินการได้ ทหารไร้สังกัดจำนวนสูงสุดแล้ว"
+
+msgid "unit/errors/UNIT_ADD_FAIL"
+msgstr "ไม่สามารถสร้างทีมหรือเข้าร่วมทีมได้"
+
+msgid "unit/errors/UNIT_MGR_ENTITY_CREATION_FAIL"
+msgstr "ไม่สามารถสร้างทีมได้"
+
+msgid "unit/errors/UNIT_RESTORED"
+msgstr "ไม่สามารถดำเนินการได้ กองเฉพาะกิจถูกกู้คืนแล้ว"
+
+msgid "unit/errors/VEHICLE_MISMATCH"
+msgstr "ไม่สามารถดำเนินการได้ พาหนะไม่ได้ตรงตามข้อกำหนด"
+
+msgid "unit/errors/VEHICLE_NOT_CHOSEN"
+msgstr "ไม่สามารถดำเนินการได้ เลือกพาหนะก่อน"
+
+msgid "unit/errors/WRONG_UNIT_REQUISITES"
+msgstr "ทีมนี้ไม่มีอยู่"
+
+msgid "unit/errors/WRONG_VEHICLE"
+msgstr "การดำเนินการไม่มีให้ พาหนะยังไม่พร้อมหรือไม่ตรงตามข้อกำหนด"
+
+msgid "unit/notification/PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "คุณได้รับมอบหมายให้ควบคุมการใช้กำลังสำรองรบ"
+
+msgid "unit/notification/changeDivision"
+msgstr "ผู้บังคับการ %(name)s เลือกกองพล %(division)s"
+
+msgid "unit/notification/divisionType/ABSOLUTE"
+msgstr "สัมบูรณ์"
+
+msgid "unit/notification/divisionType/CHAMPION"
+msgstr "แชมป์"
+
+msgid "unit/notification/divisionType/MIDDLE"
+msgstr "กลาง"
+
+msgid "unit/notification/giveLeadership"
+msgstr "%(userName)s ได้รับแต่งตั้งให้เป็นผู้บังคับการทีม"
+
+msgid "unit/notification/playerAdded"
+msgstr "%(userName)s เข้าร่วมกองเฉพาะกิจแล้ว"
+
+msgid "unit/notification/playerAddedWithFilter"
+msgstr "%(userName)s เข้าร่วมหมวดรถถังและออกรบด้วยพาหนะระดับ %(tierRange)s"
+
+msgid "unit/notification/playerOffline"
+msgstr "เสียการติดต่อกับ %(userName)s"
+
+msgid "unit/notification/playerOnline"
+msgstr "คืนการติดต่อกับ %(userName)s แล้ว"
+
+msgid "unit/notification/playerRemoved"
+msgstr "%(userName)s ออกจากกองเฉพาะกิจแล้ว"
+
+msgid "unit/warnings/ALREADY_INVITED"
+msgstr "ส่งคำเชิญไปแล้ว"
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER"
+msgstr "อำนาจผู้บังคับการถูกโอนไปยังผู้เล่นคนอื่น"
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "อำนาจผู้บังคับการและการจัดการกำลังสำรองรบนั้นได้ถูกโอนไปยังผู้เล่นคนอื่น"
+
+msgid "unit/warnings/ANOTHER_PLAYER_BECOME_EQUIPMENT_COMMANDER"
+msgstr "การควบคุมกำลังสำรองรบถูกส่งไปยังผู้เล่นคนอื่น"
+
+msgid "unit/warnings/CANT_PICK_LEADER"
+msgstr "คุณถูกปลดออกจากกองเฉพาะกิจดังกล่าว กองเฉพาะกิจถูกยุบแล้ว"
+
+msgid "unit/warnings/CLAN_CHANGED"
+msgstr "คุณอออกจากกองเฉพาะกิจแล้ว ทำการเปลี่ยนกองทัพแล้ว"
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr "เวลาการเล่นของคุณจบลงแล้ว คุณไม่สามารถเข้าร่วมการรบใหม่ได้อีก คุณจะถูกตัดการเชื่อมต่อจากเซิร์ฟเวอร์ในเวลา %(expiredTime)s"
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr "หนึ่งในผู้เล่นมีเวลาช่วงเล่นไม่พอเหลือที่จะจบการรบ ตอนนี้หมวดรถถังอยู่ในสถานะกำลังเตรียมตัว"
+
+msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
+msgstr "การรวมทหารไร้สังกัดถูกพักไว้"
+
+msgid "unit/warnings/FORT_BATTLE_END"
+msgstr "ไม่สามารถดำเนินการได้ เกินเวลารอแล้ว"
+
+msgid "unit/warnings/INVITE_REMOVED"
+msgstr "เกิดข้อผิดพลาดในการเข้าร่วมทีม คุณถูกปลดออกจากทีม"
+
+msgid "unit/warnings/KICKED_CANDIDATE"
+msgstr "คุณถูกปลดออกจากรายชื่ออาสาสมัครโดยอัตโนมัติ"
+
+msgid "unit/warnings/KICKED_PLAYER"
+msgstr "คุณถูกปลดโดยผู้บังคับการ"
+
+msgid "unit/warnings/NO_CLAN_MEMBERS"
+msgstr "คุณถูกปลดออกจากกองเฉพาะกิจดังกล่าว กองเฉพาะกิจถูกยุบแล้ว"
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER"
+msgstr "คุณกลายเป็นผู้บังคับการหน่วยเฉพาะกิจ"
+
+msgid "unit/warnings/PLAYER_BECOME_COMMANDER_WITH_EQUIPMENT_PERMISSION"
+msgstr "คุณกลายเป็นผู้บังคับการหน่วยเฉพาะกิจ\nคุณสามารถจัดการกำลังสำรองรบได้"
+
+msgid "unit/warnings/STRONGHOLDS_DIRECTION_CHANGED"
+msgstr "หัวหาดอื่นถูกเลือกไว้สำหรับการรบรุกคืบ"
+
+msgid "unit/warnings/STRONGHOLDS_MODE_CHANGED"
+msgstr "เลือกชนิดการรบอื่นไว้"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_DISABLED"
+msgstr "การค้นหาถูกปิดชั่วคราว: มีหมวดรถถังมากเกินไปในเซิร์ฟเวอร์"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_DATE_RECEIVED"
+msgstr "ไม่สามารถค้นหาผู้เล่นได้เนื่องจากข้อผิดพลาดเซิร์ฟเวอร์ โปรดลองใหม่ภายหลัง"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_NO_MATCH_POSSIBLE"
+msgstr "การค้นหาถูกยกเลิก: มีสมาชิกหมวดรถถังอย่างน้อยหนึ่งคนที่ไม่มีพาหนะที่เหมาะกับรูปแบบเกมที่เลือกไว้"
+
+msgid "unit/warnings/UNIT_ASSEMBLER_TIMEOUT"
+msgstr "หมดเวลาการค้นหา ไม่พบผู้เล่นตามที่กำหนดไว้"
+
+msgid "unit/warnings/WAITING_FOR_JOIN"
+msgstr "ผู้เล่นกำลังเข้าร่วม โปรดรอสักครู่"
+
+msgid "unit/warnings/wgshEvent/vehicleUnfrozen"
+msgstr "คืนสภาพปฏิบัติการพาหนะ: %(vehicleName)s"
+
+msgid "unitBrowser/errors/BAD_ACCEPT_CONTEXT"
+msgstr "ไม่สามารถยืนยันความพร้อมที่จะเข้าร่วมทีมได้"
+
+msgid "unload/button"
+msgstr "ไปยังค่ายทหาร"
+
+msgid "unload_crew/FORBIDDEN"
+msgstr "ไม่สามารถส่งพลรถถังไปยังค่ายทหารได้: รถถังมีพลรถถังเฉพาะถาวร"
+
+msgid "unload_crew/invalid_vehicle"
+msgstr "มีข้อผิดพลาดในการส่งพลรถถังไปยังค่ายทหาร พาหนะผิดคัน"
+
+msgid "unload_crew/server_error"
+msgstr "ไม่สามารถส่งพลรถถังไปยังค่ายทหารได้ อีกซักพักค่อยลองใหม่"
+
+msgid "unload_crew/success"
+msgstr "ส่งพลรถถังไปยังค่ายทหารแล้ว"
+
+msgid "unload_crew/vehicle_locked"
+msgstr "มีข้อผิดพลาดในการส่งพลรถถังไปค่ายทหาร พาหนะถูกลีอค"
+
+msgid "unload_crew/vehicle_need_repair"
+msgstr "มีข้อผิดพลาดในการส่งพลรถถังไปค่ายทหาร ซ่อมพาหนะของคุณก่อน"
+
+msgid "unload_tankman/FORBIDDEN"
+msgstr "ไม่สามารถส่งสมาชิกพลรถถังไปค่ายทหารได้: รถถังมีพลรถถังเฉพาะถาวร"
+
+msgid "unload_tankman/button"
+msgstr "ไปยังค่ายทหาร"
+
+msgid "unload_tankman/invalid_vehicle"
+msgstr "เกิดข้อผิดพลาดในการส่งพลรถถังไปยังค่ายทหาร พาหนะผิดคัน"
+
+msgid "unload_tankman/not_enough_space"
+msgstr "ไม่สามารถส่งสมาชิกพลรถถังนี้ไปยังค่ายทหารได้ มีเตียงในค่ายไม่พอ"
+
+msgid "unload_tankman/server_error"
+msgstr "ไม่สามารถส่งสมาชิกพลรถถังกลับไปยังค่ายทหารได้ ลองใหม่ภายหลัง"
+
+msgid "unload_tankman/success"
+msgstr "ส่งสมาชิกพลรถถังไปยังค่ายทหารแล้ว"
+
+msgid "unload_tankman/vehicle_locked"
+msgstr "มีข้อผิดพลาดในการส่งพลรถถังไปยังค่ายทหาร ซ่อมพาหนะของคุณก่อน"
+
+msgid "unload_tankman/vehicle_need_repair"
+msgstr "มีข้อผิดพลาดในการส่งพลรถถังเข้าค่ายทหาร ซ่อมพาหนะของคุณก่อน"
+
+msgid "unlocks/drawFailed"
+msgstr "การตั้งค่าไม่ถูกต้อง แผนภูมิวิทยาการถูกล๊อค"
+
+msgid "unlocks/item/already_unlocked"
+msgstr "ทำการวิจัยชิ้นส่วน %(typeString)s \"%(userString)s\" แล้ว"
+
+msgid "unlocks/item/in_processing"
+msgstr "การร้องขอวิจัยส่งไปแล้ว กำลังรอการตอบกลับของเซิร์ฟเวอร์"
+
+msgid "unlocks/item/server_error"
+msgstr "เกิดข้อผิดพลาดเซิร์ฟเวอณ์ในการวิจัยชิ้นส่วน %(typeString)s \"%(userString)s\" โปรดลองใหม่ภายหลัง"
+
+msgid "unlocks/item/unlock_success"
+msgstr "ทำการวิจัยชิ้นส่วน %(typeString)s \"%(userString)s\" แล้ว ใช้ประสบการณ์ยังไม่ได้แจกจ่ายไป: %(vehXP)s ใช้ประสบการณ์อิสระไป: %(freeXP)s"
+
+msgid "unlocks/vehicle/already_unlocked"
+msgstr "รถ %(userString)s ได้รับการวิจัยแล้ว"
+
+msgid "unlocks/vehicle/in_processing"
+msgstr "การร้องขอวิจัยส่งไปแล้ว กำลังรอการตอบกลับของเซิร์ฟเวอร์"
+
+msgid "unlocks/vehicle/server_error"
+msgstr "เซิร์ฟเวอร์เกิดข้อผิดพลาดในการวิจัยยานเกราะ %(userString)s โปรดลองใหม่ภายหลัง"
+
+msgid "unlocks/vehicle/unlock_success"
+msgstr "ยานเกราะ %(userString)s ได้รับวิจัยแล้ว. ค่าประสบการณ์เดิมที่ใช้: %(vehXP)s. ค่าประสบการณ์อิสระที่ใช้: %(freeXP)s."
+
+msgid "upgradeTankman/server_error"
+msgstr "เกิดข้อผิดพลาดในการฝึกพลรถถัง ลองใหม่อีกครั้ง"
+
+msgid "upgradeTankman/success"
+msgstr "การฝึกสำเร็จแล้ว"
+
+msgid "upgradeTrophyDevice/switch_off/body"
+msgstr "การยกระดับอุปกรณ์เงินรางวัลไม่มีให้ชั่วคราวเนื่องด้วยเหตุทางเทคนิค โปรดลองใหม่ภายหลัง"
+
+msgid "upgradeTrophyDevice/switch_on/body"
+msgstr "การยกระดับอุปกรณ์เงินรางวัลมีให้อีกครั้ง ทางเราต้องขออภัยสำหรับความไม่สะดวกที่เกิดขึ้น"
+
+msgid "vehicle/restore/finished"
+msgstr "พาหนะ %(vehicleName)s ไม่มีให้กู้คืน: หมดเวลาดำเนินการแล้ว"
+
+msgid "vehicle/restoreDuration/days"
+msgstr "คุณจะสามารถกู้คืนพาหนะในร้านค้าได้อีกเป็นเวลา %(time)s วัน"
+
+msgid "vehicle/restoreDuration/hours"
+msgstr "คุณจะสามารถกู้คืนพาหนะในร้านค้าได้อีกเป็นเวลา %(time)s ชม."
+
+msgid "vehicleCompare/disabled"
+msgstr "การดำเนินการทำไม่ได้ชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "vehicleCompare/previewNotAllowed"
+msgstr "ตัวอย่าง %(vehicle)s จะมีให้ภายหลังได้ทำการดาวน์โหลดโปรแกรมลูกข่ายแบบเต็มแล้วเท่านั้น"
+
+msgid "vehicleComponents/equip_in_processing"
+msgstr "ส่งคำขอการติดตั้งอุปกรณ์แล้ว กรุณารอให้เซิร์ฟเวอร์ตอบกลับ"
+
+msgid "vehicleComponents/module_buy_server_error"
+msgstr "ไม่สามารถซื้อ %(typeString)s \"%(userString)s\" ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "vehicleComponents/module_buy_success"
+msgstr "ทำการซื้อชิ้นส่วน %(typeString)s \"%(userString)s\" (%(count)d) แล้วเรียบร้อย ใช้ไป %(price)s"
+
+msgid "vehicleComponents/module_has_in_inventory"
+msgstr "ชิ้นส่วน %(typeString)s \"%(userString)s\" มีให้ในโรงเก็บอยู่แล้ว"
+
+msgid "vehicleComponents/module_is_already_unlocked"
+msgstr "ทำการวิจัยชิ้นส่วน %(typeString)s \"%(userString)s\" แล้ว"
+
+msgid "vehicleComponents/module_not_enough_money"
+msgstr "ในการซื้อ %(typeString)s \"%(userString)s\" คุณจำเป็นต้องมีอีก %(price)s"
+
+msgid "vehicleComponents/module_not_found_in_inventory"
+msgstr "ไม่พบชิ้นส่วน %(typeString)s \"%(userString)s\" ในโรงเก็บ"
+
+msgid "vehicleComponents/module_not_found_in_shop"
+msgstr "ไม่พบชิ้นส่วน %(typeString)s \"%(userString)s\" ในร้านค้า โปรดลองใหม่ภายหลัง"
+
+msgid "vehicleComponents/module_unlock_success"
+msgstr "ทำการวิจัย %(typeString)s \"%(userString)s\" แล้ว ใช้ประสบการณ์ยังไม่ได้แจกจ่ายไป: %(unspentXP)s ใช้ประสบการณ์อิสระไป: %(freeXP)s"
+
+msgid "vehicleComponents/unlock_in_processing"
+msgstr "การร้องขอวิจัยส่งไปแล้ว กำลังรอการตอบกลับของเซิร์ฟเวอร์"
+
+msgid "vehicleComponents/vehicle_has_in_inventory"
+msgstr "รถถัง %(userString)s มีอยู่แล้วในโรงรถ"
+
+msgid "vehicleComponents/vehicle_is_already_unlocked"
+msgstr "รถ %(userString)s ได้รับการวิจัยแล้ว"
+
+msgid "vehicleComponents/vehicle_not_enough_money"
+msgstr "ในการจะซื้อ %(userString)s คุณต้องมีเงินอีก %(price)s เหรียญ"
+
+msgid "vehicleComponents/vehicle_not_found_in_inventory"
+msgstr "ไม่พบรถถัง %(userString)s ในโรงรถ."
+
+msgid "vehicleComponents/vehicle_not_found_in_shop"
+msgstr "ไม่พบรถถัง %(userString)s ในร้านค้า อีกสักครู่โปรดลองอีกครั้ง"
+
+msgid "vehicleComponents/vehicle_unlock_success"
+msgstr "ได้วิจัย %(userString)s แล้ว ใช้ค่าประสบการณ์: %(unspentXP)s. ใช้ค่าประสบการณ์อิสระ: %(freeXP)s."
+
+msgid "vehicleMilestones/vanityAvailable/text"
+msgstr "ระบบรางวัลชั้นยอดตอนนี้มีให้สำหรับ %(vehicle)s แล้ว"
+
+msgid "vehicleMilestones/vanityAvailable/title"
+msgstr "รางวัลชั้นยอด"
+
+msgid "vehiclePostProgression/buyPairModification/body"
+msgstr "ทำการซื้อการปรับแต่ง %(modification)s สำหรับ %(vehicle)s เรียบร้อยแล้ว"
+
+msgid "vehiclePostProgression/buyPairModification/title"
+msgstr "ซื้อการปรับแต่งแล้ว"
+
+msgid "vehiclePostProgression/changeSlotCategory/body"
+msgstr "ทำการจัดประเภท %(category)s สำหรับช่องที่สองของ %(vehicle)s เรียบร้อยแล้ว"
+
+msgid "vehiclePostProgression/changeSlotCategory/title"
+msgstr "การจัดประเภทช่อง"
+
+msgid "vehiclePostProgression/creditsSpent"
+msgstr "ใช้เงินไป: %(value)s"
+
+msgid "vehiclePostProgression/discardAllPairsModification/body"
+msgstr "ยกเลิกการปรับแต่งคู่ทั้งหมดสำหรับ %(vehicle)s แล้ว"
+
+msgid "vehiclePostProgression/discardPairModification/body"
+msgstr "ยกเลิกการปรับแต่ง %(modification)s สำหรับ %(vehicle)s แล้ว"
+
+msgid "vehiclePostProgression/discardPairModification/title"
+msgstr "ยกเลิกการปรับแต่งแล้ว"
+
+msgid "vehiclePostProgression/discardPairsModification/body"
+msgstr "ยกเลิกการปรับแต่ง %(modifications)s สำหรับ %(vehicle)s แล้ว"
+
+msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/experienceSpent"
+msgstr "ใช้ประสบการณ์การรบไป: %(value)s"
+
+msgid "vehiclePostProgression/freeExperienceSpent"
+msgstr "ใช้ประสบการณ์อิสระไป: %(value)s"
+
+msgid "vehiclePostProgression/modificationProcessorError/body"
+msgstr "เกิดข้อผิดพลาดกับผังการปรับแต่ง โปรดลองใหม่ภายหลัง"
+
+msgid "vehiclePostProgression/modificationProcessorError/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "vehiclePostProgression/researchStep/body"
+msgstr "ทำการวิจัยและซื้อการปรับแต่งมาตรฐานขั้น %(level)sสำหรับ %(vehicle)s แล้ว"
+
+msgid "vehiclePostProgression/researchSteps/body"
+msgstr "ทำการวิจัยและซื้อการปรับแต่งมาตรฐานขั้น %(levels)sสำหรับ %(vehicle)s แล้ว"
+
+msgid "vehiclePostProgression/researchSteps/levels/separator"
+msgstr ", "
+
+msgid "vehiclePostProgression/researchSteps/title"
+msgstr "ทำการวิจัยการปรับแต่งแล้ว"
+
+msgid "vehiclePostProgression/setSlotCategory/body"
+msgstr "ทำการจัดประเภท %(category)s สำหรับช่องที่สองของ %(vehicle)s เรียบร้อยแล้ว"
+
+msgid "vehiclePostProgression/setSlotCategory/title"
+msgstr "การจัดประเภทช่อง"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
+msgstr "การติดตั้งช่วยมีให้สำหรับ %(vehicle)s แล้ว"
+
+msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
+msgstr "การติดตั้งช่วย"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
+msgstr "ตอนนี้มีการจัดประเภทช่องที่สองให้กับ %(vehicle)s"
+
+msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
+msgstr "ประเภทช่องที่มีให้"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
+msgstr "การติดตั้งช่วยมีให้สำหรับ %(vehicle)s แล้ว"
+
+msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
+msgstr "การติดตั้งหลัก"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
+msgstr "ผังการปรับแต่งมีให้กับ %(vehicle)s แล้ว"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
+msgstr "การปรับแต่งภาคสนาม"
+
+msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
+msgstr "มีผังการปรับแต่งพาหนะให้ คุณสามารถตั้งค่าพาหนะของคุณตามบทบาทที่มีและเปลี่ยนคุณลักษณะได้ด้วยการใช้การปรับแต่งต่างๆ"
+
+msgid "vehicleSkillTreeProgression/processorError/body"
+msgstr "ข้อผิดพลาดการยกระดับ โปรดลองใหม่ภายหลัง"
+
+msgid "vehicleSkillTreeProgression/processorError/title"
+msgstr "ข้อผิดพลาด"
+
+msgid "vehicleSkillTreeProgression/researchStep/body"
+msgstr "ทำการวิจัยจุดต่อ \"%(perk)s\" แล้วสำหรับ %(vehicle)s"
+
+msgid "vehicleSkillTreeProgression/researchStep/title"
+msgstr "วิจัยจุดต่อแล้ว"
+
+msgid "vehicleSkillTreeProgression/researchSteps/body"
+msgstr "ทำการวิจัยจุดต่อ %(perk)s แล้วสำหรับ %(vehicle)s"
+
+msgid "vehicleSkillTreeProgression/researchSteps/title"
+msgstr "วิจัยจุดต่อแล้ว"
+
+msgid "vehicle_auto_return/server_error"
+msgstr "การดำเนินการไม่มีให้ โปรดลองใหม่ภายหลัง"
+
+msgid "vehicle_buy/invalid_vehicle"
+msgstr "ไม่สามารถซื้อ %(vehName)s ได้ พาหนะผิดคัน"
+
+msgid "vehicle_buy/not_enough_credits"
+msgstr "ไม่สามารถซื้อ %(vehName)s ได้ เงินไม่พอ"
+
+msgid "vehicle_buy/not_enough_gold"
+msgstr "ไม่สามารถซื้อ %(vehName)s ได้ ทองไม่พอ"
+
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "ไม่สามารถดำเนินการได้ ยังไม่ได้วิจัยพาหนะประเทศนี้"
+
+msgid "vehicle_buy/server_error"
+msgstr "ไม่สามารถซื้อ %(vehName)s เนื่องจากข้อผิดพลาดเซิร์ฟเวอร์ โปรดลองใหม่ภายหลัง"
+
+msgid "vehicle_buy/server_error_centerDown"
+msgstr "ไม่สามารถซื้อยานเกราะ %(vehName)s ได้ เซิร์ฟเวอร์ไม่มีให้ชั่วคราว"
+
+msgid "vehicle_buy/success"
+msgstr "ซื้อ %(vehName)s เรียบร้อย ใช้ไป %(price)s"
+
+msgid "vehicle_buy/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "vehicle_remove/demount_kit_disabled"
+msgstr "ไม่สามารถลบ %(vehName)s ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "vehicle_remove/invalid_vehicle"
+msgstr "ไม่สามารถลบ %(vehName)s ได้ พาหนะผิดคัน"
+
+msgid "vehicle_remove/not_enough_credits"
+msgstr "ไม่สามารถลบ %(vehName)s ได้ เงินไม่พอ"
+
+msgid "vehicle_remove/not_enough_gold"
+msgstr "ไม่สามารถลบ %(vehName)s ได้ ทองไม่พอ"
+
+msgid "vehicle_remove/not_enough_space"
+msgstr "ไม่สามารถลบ %(vehName)s ได้ เตียงในค่ายทหารไม่พอ"
+
+msgid "vehicle_remove/server_error"
+msgstr "ไม่สามารถขาย %(vehName)s ได้ โปรดตรวจสอบให้แน่ใจว่าพาหนะไม่ได้อยู่ในหน่วยยุทธวิธีใดๆหรือลองใหม่ภายหลัง"
+
+msgid "vehicle_remove/success/default"
+msgstr "%(vehName)s ถูกลบเรียบร้อยแล้ว \n%(money)s"
+
+msgid "vehicle_remove/success/zero_cost"
+msgstr "%(vehName)s ถูกลบเรียบร้อยแล้ว"
+
+msgid "vehicle_remove/success_dismantling"
+msgstr "%(vehName)s ถูกลบเรียบร้อยแล้ว \n%(gainMoney)s\n%(spendMoney)s."
+
+msgid "vehicle_remove/vehicle_cannot_be_sold"
+msgstr "ไม่สามารถลบ %(vehName)s ได้ พาหนะดังกล่าวจะถูกปลดไปโดยอัตโนมัติ"
+
+msgid "vehicle_remove/vehicle_locked"
+msgstr "ไม่สามารถลบ %(vehName)s ได้ พาหนะถูกบล็อค"
+
+msgid "vehicle_remove/vehicle_need_repair"
+msgstr "ไม่สามารถลบ %(vehName)s ได้ จำเป็นต้องซ่อมพาหนะ"
+
+msgid "vehicle_remove/vehicle_sell_limit"
+msgstr "ไม่สามารถลบ %(vehName)s ได้ คุณทำการปลดถึงจำนวนจำกัดต่อวันแล้ว"
+
+msgid "vehicle_remove/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "vehicle_rent/buyOption"
+msgstr "โปรดทราบ! หากคุณตัดสินใจซื้อภายหลัง พาหนะก็จะยังมีขายพร้อมกับส่วนลดให้กับคุณอยู่"
+
+msgid "vehicle_rent/invalid_vehicle"
+msgstr "ไม่สามารถเช่า %(vehName)s ได้ พาหนะผิดคัน"
+
+msgid "vehicle_rent/not_enough_credits"
+msgstr "ไม่สามารถเช่า %(vehName)s ได้ เงินไม่พอ"
+
+msgid "vehicle_rent/not_enough_gold"
+msgstr "ไม่สามารถเช่า %(vehName)s ได้ ทองไม่พอ"
+
+msgid "vehicle_rent/server_error"
+msgstr "ไม่สามารถเช่า %(vehName)s ได้เนื่องจากข้อผิดพลาดเซิร์ฟเวอร์ โปรดลองใหม่ภายหลัง"
+
+msgid "vehicle_rent/server_error_centerDown"
+msgstr "ไม่สามารถเช่า %(vehName)s ได้ ตัวเลือกการเช่าพาหนะไม่มีให้ชั่วคราว"
+
+msgid "vehicle_rent/success"
+msgstr "คุณได้ทำการเช่า %(vehName)s %(rentPackageName)s คุณใช้ไป %(price)s %(buyOption)s"
+
+msgid "vehicle_rent/timeRent"
+msgstr "เป็นเวลา %(days)d วัน"
+
+msgid "vehicle_rent/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "vehicle_repair/credits_error"
+msgstr "จำเป็นต้องมี %(needed)s ในการซ่อม %(vehName)s"
+
+msgid "vehicle_repair/not_enough_credits"
+msgstr "จำเป็นต้องมี %(needed)s ในการซ่อม %(vehName)s"
+
+msgid "vehicle_repair/server_error"
+msgstr "เกิดข้อผิดพลาดในการซ่อม %(vehName)s โปรดลองใหม่ภายหลัง"
+
+msgid "vehicle_repair/success"
+msgstr "ซ่อม %(vehName)s เสร็จแล้ว คุณใช้เงินไป %(money)s"
+
+msgid "vehicle_restore/DISABLED"
+msgstr "การกู้คืนพาหนะไม่มีให้ชั่วคราว ลองใหม่ภายหลัง"
+
+msgid "vehicle_restore/disconnected_from_center"
+msgstr "ไม่สามารถกู้คืน %(vehName)s ได้ การกู้คืนพาหนะไม่มีให้ชั่วคราว"
+
+msgid "vehicle_restore/invalid_vehicle"
+msgstr "ไม่สามารถกู้คืน %(vehName)s ได้ พาหนะผิดคัน"
+
+msgid "vehicle_restore/not_enough_credits"
+msgstr "ไม่สามารถกู้คืน %(vehName)s ได้ เงินไม่พอ"
+
+msgid "vehicle_restore/not_enough_gold"
+msgstr "ไม่สามารถทำการกู้คืน %(vehName)s ได้ ทองไม่พอ"
+
+msgid "vehicle_restore/server_error"
+msgstr "ไม่สามารถกู้คืน %(vehName)s ได้เนื่องจากข้อผิดพลาดเซิร์ฟเวอร์ โปรดลองใหม่ภายหลัง"
+
+msgid "vehicle_restore/server_error_centerDown"
+msgstr "ไม่สามารถกู้คืน %(vehName)s ได้ การกู้คืนพาหนะไม่มีให้ชั่วคราว"
+
+msgid "vehicle_restore/success"
+msgstr "%(vehName)s ได้รับการกู้คืนเรียบร้อยแล้ว ใช้ไป %(price)s"
+
+msgid "vehicle_restore/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "vehicle_sell/currencyUpdate/debited/demount_kit"
+msgstr "ใช้ชุดเครื่องมือปลด (x%(countDK)s)"
+
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "ไม่สามารถขาย %(vehName)s ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "vehicle_sell/disabledService"
+msgstr "ไม่สามารถขาย %(vehName)s ได้ โปรดลองใหม่ภายหลัง"
+
+msgid "vehicle_sell/equipCoin_error"
+msgstr "ไม่สามารถขาย %(vehName)sได้ มีส่วนประกอบไม่พอสำหรับการปลดอุปกรณ์"
+
+msgid "vehicle_sell/invalid_vehicle"
+msgstr "ไม่สามารถขาย %(vehName)s ได้ พาหนะผิดคัน"
+
+msgid "vehicle_sell/not_enough_credits"
+msgstr "ไม่สามารถขาย %(vehName)s ได้ เงินไม่พอ"
+
+msgid "vehicle_sell/not_enough_gold"
+msgstr "ไม่สามารถขาย %(vehName)s ได้ ทองไม่พอ"
+
+msgid "vehicle_sell/not_enough_space"
+msgstr "ไม่สามารถขาย %(vehName)s ได้ มีเตียงในค่ายทหารไม่พอ"
+
+msgid "vehicle_sell/server_error"
+msgstr "ไม่สามารถขาย %(vehName)s ได้ โปรดตรวจสอบให้แน่ใจว่าพาหนะไม่ได้อยู่ในหน่วยยุทธวิธีใดๆหรือลองใหม่ภายหลัง"
+
+msgid "vehicle_sell/success"
+msgstr "%(vehName)s ถูกขายเรียบร้อยแล้ว \n%(money)s\n\n%(restoreInfo)s"
+
+msgid "vehicle_sell/success_dismantling"
+msgstr "%(vehName)s ถูกขายเรียบร้อยแล้ว \n%(gainMoney)s\n%(spendMoney)s\n%(restoreInfo)s"
+
+msgid "vehicle_sell/vehicle_cannot_be_sold"
+msgstr "ไม่สามารถขาย %(vehName)s ได้ พาหนะจะถูกถอดไปโดยอัตโนมัติ"
+
+msgid "vehicle_sell/vehicle_locked"
+msgstr "ไม่สามารถขาย %(vehName)s ได้ พาหนะถูกล็อค"
+
+msgid "vehicle_sell/vehicle_need_repair"
+msgstr "ไม่สามารถขาย %(vehName)s ได้ ซ่อมพาหนะของคุณก่อน"
+
+msgid "vehicle_sell/vehicle_sell_limit"
+msgstr "ไม่สามารถขาย %(vehName)s ได้ คุณทำการลบถึงจำนวนจำกัดต่อวันแล้ว"
+
+msgid "vehicle_sell/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "เกิดข้อผิดพลาดในการซื้อช่องเก็บ เงินไม่พอ"
+
+msgid "vehicle_slot_buy/not_enough_gold"
+msgstr "เกิดข้อผิดพลาดในการซื้อช่องเก็บ ทองไม่พอ"
+
+msgid "vehicle_slot_buy/server_error"
+msgstr "เกิดข้อผิดพลาดในการซื้อช่องเพิ่ม กรุณาลองใหม่อีกครั้ง"
+
+msgid "vehicle_slot_buy/success"
+msgstr "ซื้อช่องในโรงรถเพิ่มแล้ว ใช้เงินไป %(money)s"
+
+msgid "vehicle_slot_buy/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "vehicle_tmenxp_accelerator/invalid_vehicle"
+msgstr "เกิดข้อผิดพลาดในการฝึกพลรถถังแบบเร่งด่วนบน %(vehName)s พาหนะผิดคัน"
+
+msgid "vehicle_tmenxp_accelerator/server_error"
+msgstr "ไม่สามารถเปลี่ยนการเร่งฝึกพลรถถังสำหรับ %(vehName)s ได้ โปรดลองภายหลัง"
+
+msgid "vehicle_tmenxp_accelerator/successFalse"
+msgstr "การฝึกพลรถถังแบบเร่งด่วนบน %(vehName)s ถูกปิดไว้"
+
+msgid "vehicle_tmenxp_accelerator/successTrue"
+msgstr "การฝึกพลรถถังแบบเร่งด่วนบน %(vehName)s ถูกเปิดไว้"
+
+msgid "vehicle_tmenxp_accelerator/vehicle_locked"
+msgstr "เกิดข้อผิดพลาดในการเปลี่ยนการฝึกพลรถถังแบบเร่งด่วนบน %(vehName)s พาหนะถูกล๊อคอยู่"
+
+msgid "vehicle_tmenxp_accelerator/vehicle_need_repair"
+msgstr "เกิดข้อผิดพลาดในการเปลี่ยนการฝึกพลรถถังแบบเร่งด่วนบน %(vehName)s ซ่อมพาหนะก่อน"
+
+msgid "vehicle_trade_in/invalid_vehicle"
+msgstr "ล้มเหลวในการแลกซื้อพาหนะ %(vehName)s เลือกพาหนะไว้ไม่ถูกต้อง"
+
+msgid "vehicle_trade_in/not_enough_credits"
+msgstr "ไม่สามารถแลกซื้อ %(vehName)s ได้ เงินไม่พอ"
+
+msgid "vehicle_trade_in/not_enough_gold"
+msgstr "ไม่สามารถแลกซื้อ %(vehName)s ได้ ทองไม่พอ"
+
+msgid "vehicle_trade_in/not_enough_space"
+msgstr "ไม่สามารถแลกซื้อ %(tradeOffVehName)s ได้ เตียงในค่ายทหารไม่พอ"
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "ข้อเสนอการแลกซื้อมีให้แล้ว!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "ข้อเสนอการแลกซื้อไม่มีให้อีกต่อไป!"
+
+msgid "vehicle_trade_in/server_error"
+msgstr "ล้มเหลวในการแลกซื้อ %(vehName)s เกิดข้อผิดพลาดเซิร์ฟเวอร์ โปรดลองใหม่ภายหลัง"
+
+msgid "vehicle_trade_in/server_error_centerDown"
+msgstr "ล้มเหลวในการแลกซื้อ %(vehName)s บริการซื้อ/แลกพาหนะไม่มีให้ใช้ชั่วคราว"
+
+msgid "vehicle_trade_in/success"
+msgstr "%(tradeOffVehName)s ถูกลบไปแล้ว %(vehName)s ถูกซื้อในราคา %(price)s"
+
+msgid "vehicle_trade_in/vehicle_cannot_be_sold"
+msgstr "ล้มเหลวในการแลกซื้อ %(tradeOffVehName)s พาหนะดังกล่าวจะถูกลบโดยอัตโนมัติ"
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_in"
+msgstr "ล้มเหลวในการแลกซื้อสำหรับ %(vehName)s พาหนะดังกล่าวไม่สามารถรับได้จากการแลกซื้อ"
+
+msgid "vehicle_trade_in/vehicle_cannot_trade_off"
+msgstr "ไม่สามารถแลกซื้อ %(tradeOffVehName)s ได้ พาหนะไม่ได้อยู่ในโครงการแลกซื้อ"
+
+msgid "vehicle_trade_in/vehicle_locked"
+msgstr "ไม่สามารถแลกซื้อ %(tradeOffVehName)s ได้ ไม่มีพาหนะดังกล่าวให้"
+
+msgid "vehicle_trade_in/vehicle_need_repair"
+msgstr "ไม่สามารถแลกซื้อ %(tradeOffVehName)s ได้ ซ่อมพาหนะก่อน"
+
+msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
+msgstr "ไม่สามารถแลกซื้อ %(tradeOffVehName)s ได้ พาหนะดังกล่าวไม่ได้อยู่ในโรงรถ"
+
+msgid "vehicle_trade_in/wallet_not_available"
+msgstr "ดำเนินการไม่ได้ ทองทั้งหมดของคุณจะมีให้ภายหลังที่การใช้งาน WG Wallet ถูกกู้คืนโดยอัตโนมัติ"
+
+msgid "video/error"
+msgstr "เกิดข้อผิดพลาดในการเล่นวิดิโอย้อนหลัง รหัสอ้างอิง: %(code)s."
+
+msgid "w2gt/switchOff/description"
+msgstr "เขตการรบแผนที่ย่อนั้นไม่มีให้ชั่วคราว"
+
+msgid "w2gt/switchOff/header"
+msgstr "ปัญหาทางเทคนิค"
+
+msgid "w2gt/switchOn/description"
+msgstr "เขตการรบในแผนที่ย่อมีให้แล้ว ไปลุยกันเลย!"
+
+msgid "w2gt/switchOn/header"
+msgstr "การทำงานกลับมาใช้ได้แล้ว"
+
+msgid "wallet/available"
+msgstr "WG Wallet ได้ทำการประสานข้อมูลเรียบร้อย ทอง พันธบัตร เงิน และค่าประสบการณ์อิสระทั้งหมดของคุณมีให้ใช้แล้ว"
+
+msgid "wallet/available_freexp"
+msgstr "WG Wallet ได้ทำการประสานข้อมูลเรียบร้อย ค่าประสบการณ์อิสระทั้งหมดของคุณสามารถใช้ได้แล้ว"
+
+msgid "wallet/available_gold"
+msgstr "WG Wallet ได้ทำการประสานข้อมูลเรียบร้อย ทองทั้งหมดของคุณสามารถใช้ได้แล้ว"
+
+msgid "wallet/not_available"
+msgstr "กำลังหาข้อมูลการเงิน คุณจะใช้ทอง พันธบัตร เงิน และค่าประสบการณ์อิสระทั้งหมดที่มีได้ในไม่ช้า"
+
+msgid "wallet/not_available_freexp"
+msgstr "กำลังดึงข้อมูลการเงิน ประสบการณ์อิสระทั้งหมดของคุณจะมีให้ใช้ในไม่ช้า"
+
+msgid "wallet/not_available_gold"
+msgstr "กำลังหาข้อมูลการเงิน ทองทั้งหมดของคุณจะใช้ได้ในไม่ช้า"
+
+msgid "weekly_quests/reroll/WQ_NOT_ENABLED"
+msgstr "ไม่สามารถเปลี่ยนภารกิจประจำสัปดาห์ได้: การดำเนินการถูกบล็อคไว้"
+
+msgid "weekly_quests/reroll/WQ_NO_SUCH_TOKEN"
+msgstr "ไม่สามารถเปลี่ยนภารกิจประจำสัปดาห์ได้: ภารกิจไม่ถูกต้อง"
+
+msgid "weekly_quests/reroll/WQ_QUEST_COMPLETED"
+msgstr "ไม่สามารถเปลี่ยนภารกิจประจำสัปดาห์ได้: ภารกิจสำเร็จไปแล้ว"
+
+msgid "weekly_quests/reroll/WQ_REROLL_TIMEOUT"
+msgstr "ไม่สามารถเปลี่ยนภารกิจประจำสัปดาห์ได้: การดำเนินการถูกพักไว้ชั่วคราว"
+
+msgid "weekly_quests/reroll/success"
+msgstr "ทำการเปลี่ยนภารกิจประจำสัปดาห์แล้วเรียบร้อย"
+
+msgid "weekly_quests/reroll/unknown_error"
+msgstr "ไม่สามารถเปลี่ยนภารกิจประจำสัปดาห์ได้: โปรดลองใหม่ภายหลัง"
+
+msgid "weekly_quests/switch_off/body"
+msgstr "ภารกิจประจำสัปดาห์ไม่มีให้ชั่วคราว ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "weekly_quests/switch_on/body"
+msgstr "ภารกิจประจำสัปดาห์มีให้อีกครั้ง ทางเราต้องขออภัยในความไม่สะดวกที่เกิดขึ้น"
+
+msgid "winback/turnOffBattlesError"
+msgstr "ไม่สามารถออกจากการอุ่นเครื่องได้ โปรดลองใหม่ภายหลัง"
+
+msgid "window/buttons/close"
+msgstr "ปิด"
+
+msgid "wrong_slot"
+msgstr "%s \"%s\" ไม่ตรงกับช่อง %s"

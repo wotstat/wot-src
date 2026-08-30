@@ -1,0 +1,254 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "閉じる"
+
+msgid "continueBtn"
+msgstr "続行"
+
+msgid "economy/double/credits"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できるクレジットの量が%(value)s%%増加します。"
+
+msgid "economy/double/free_xp"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できるフリーEXPの量が%(value)s%%増加します。"
+
+msgid "economy/double/tmen_xp"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できる搭乗員EXPの量が%(value)s%%増加します。"
+
+msgid "economy/double/xp"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できる戦闘EXPの量が%(value)s%%増加します。"
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "WoTプレミアムアカウントの利用期間中は戦闘で取得できる戦闘EXPおよびフリーEXPの量が%(value)s%%増加します。"
+
+msgid "efficiency/capturePoints"
+msgstr "陣地占領"
+
+msgid "efficiency/damageAssisted"
+msgstr "ダメージアシスト"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "スタン"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "阻ダメージ"
+
+msgid "efficiency/damageDealt"
+msgstr "与ダメージ"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "陣地防衛"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "撃破"
+
+msgid "efficiency/spotted"
+msgstr "発見"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "陣地占領"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "撃破アシスト"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "スタン"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "装甲活用"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "与ダメージ"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "陣地防衛"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "撃破した敵車輌"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "発見"
+
+msgid "finish"
+msgstr "戦闘終了"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "ボーナスは最新の勝利にしか適用できません。"
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "搭乗員訓練の促進が有効なため、ボーナスを適用できません。"
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "搭乗員訓練の促進が無効なため、ボーナスを適用できません。"
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "EXPボーナスは勝利した戦闘にしか適用できません。"
+
+msgid "premiumBonus/NoCrew"
+msgstr "搭乗員が見つからないため、WoTプレミアムEXPボーナスを適用できません。"
+
+msgid "premiumBonus/NoVehicle"
+msgstr "車輌が見つからないため、WoTプレミアムEXPボーナスを適用できません。"
+
+msgid "progress/title"
+msgstr "%(modeName)s: 専用ミッション【ステージ: %(done)s / %(total)s】"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: 専用ミッション"
+
+msgid "result/lose"
+msgstr "敗北"
+
+msgid "result/tie"
+msgstr "引き分け"
+
+msgid "result/win"
+msgstr "勝利"
+
+msgid "resultRace/battleStatus/finished"
+msgstr "終了済み"
+
+msgid "resultRace/battleStatus/inTop"
+msgstr "順位"
+
+msgid "resultRace/battleStatus/notFinished"
+msgstr "ゴール\n未到達"
+
+msgid "resultRace/finishReason/finished"
+msgstr "ゴール到達"
+
+msgid "resultRace/finishReason/notFinished"
+msgstr "ゴール未到達"
+
+msgid "resultRace/footerSubtitle/battleEnded"
+msgstr "戦闘終了: {{time}}"
+
+msgid "resultRace/footerSubtitle/finished"
+msgstr "悪くない!"
+
+msgid "resultRace/footerSubtitle/inTop"
+msgstr "TOP3入り"
+
+msgid "resultRace/footerSubtitle/notFinished"
+msgstr "次は上手くいくはずだ!"
+
+msgid "ribbon/applied"
+msgstr "ボーナス適用完了"
+
+msgid "ribbon/errorState"
+msgstr "適用エラー"
+
+msgid "ribbon/expBonus"
+msgstr "%(icon)s取得EXPへのボーナス+%(count)s"
+
+msgid "ribbon/timeLeft"
+msgstr "ボーナス更新まで:"
+
+msgid "ribbon/usesLeft"
+msgstr "利用可能なボーナス: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "(開発) 概要"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "(開発) チームスコア"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "プレイヤー"
+
+msgid "sub_modes/fall_tanks/efficiency/checkpointsPassed"
+msgstr "チェックポイント"
+
+msgid "sub_modes/fall_tanks/efficiency/deathCount"
+msgstr "復活"
+
+msgid "sub_modes/fall_tanks/efficiency/finishPosition"
+msgstr "順位"
+
+msgid "sub_modes/fall_tanks/efficiency/finishTime"
+msgstr "タイム"
+
+msgid "sub_modes/fall_tanks/efficiency/kills"
+msgstr "大破"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/checkpointsPassed"
+msgstr "通過したチェックポイントの数"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/deathCount"
+msgstr "自車輌が大破した後に復活した回数"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/destroyed"
+msgstr "撃破した敵車輌の総数"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishPosition"
+msgstr "レースの最終的な順位"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishTime"
+msgstr "ゴール到達までにかかった時間"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/checkpointsPassed"
+msgstr "チェックポイント"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/deathCount"
+msgstr "復活"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/destroyed"
+msgstr "大破"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishPosition"
+msgstr "順位"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishTime"
+msgstr "タイム"
+
+msgid "sub_modes/fall_tanks/navigation/battleResults"
+msgstr "個人スコア"
+
+msgid "sub_modes/fall_tanks/navigation/teamEfficiency"
+msgstr "参加者の結果"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/body"
+msgstr "順位で並べ替えます。"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/header"
+msgstr "順位"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/body"
+msgstr "順位で並べ替えます。"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/header"
+msgstr "タイム"
+
+msgid "sub_modes/fall_tanks/team/singleTeam"
+msgstr "プレイヤー"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/body"
+msgstr "順位で並べ替えます。"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/header"
+msgstr "車輌"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "概要"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "チームスコア"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "プレイヤー"
+
+msgid "team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "title"
+msgstr "戦闘結果"

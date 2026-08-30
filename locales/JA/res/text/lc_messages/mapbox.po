@@ -1,0 +1,1268 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardsView/button"
+msgstr "了解！"
+
+msgid "awardsView/subTitle"
+msgstr "戦闘数: {number}回"
+
+msgid "awardsView/title"
+msgstr "先行偵察ミッション"
+
+msgid "buttonDisable/tooltip"
+msgstr "出撃不可"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s～%(end)s"
+
+msgid "calendarDay/title"
+msgstr "スケジュール"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/header"
+msgstr "戦闘参加不可"
+
+msgid "headerButtons/fightBtn/tooltip/battlesEnded/text"
+msgstr "終了済み"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/header"
+msgstr "戦闘参加不可"
+
+msgid "headerButtons/fightBtn/tooltip/disabled/text"
+msgstr "本モードはご利用中のサーバーでは休止中です。別のサーバーを選択してください。"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/body"
+msgstr "%(levelSubStr)sでしか戦闘に参加できません。"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/header"
+msgstr "車輌Tierが不適合"
+
+msgid "headerButtons/fightBtn/tooltip/mapboxVehLevel/levelSubStr"
+msgstr "Tier %(levels)s車輌"
+
+msgid "intro/button"
+msgstr "了解！"
+
+msgid "intro/interviewInfoDescription"
+msgstr "本モードでは新メカニズムに関する意見や感想を開発チームに送信できるようになっています。とくに優れたアイデアは正式に採用される可能性もあります。"
+
+msgid "intro/interviewInfoTitle"
+msgstr "プレイヤーの意見でマップが変わる！"
+
+msgid "intro/modeInfoDescription"
+msgstr "今回はこれまでにない新たなメカニズムを備えたマップを体験できます。Tier VIII～X車輌で戦闘を重ねると、報酬が手に入るほか、アンケートにも回答できるようになります。1週間毎にモード内進捗がリセットされるため報酬を繰り返し入手できる点も見逃せません。"
+
+msgid "intro/modeInfoTitle"
+msgstr "新たなメカニズムが登場！"
+
+msgid "intro/startEvent"
+msgstr "イベント開始まで"
+
+msgid "intro/taskInfoDescription"
+msgstr "「先行偵察ミッション」モードではデイリーミッションやプログレッシブ・デカールの条件を達成できるだけでなくバトルパス進捗ポイントも手に入ります。"
+
+msgid "intro/taskInfoTitle"
+msgstr "ルールは「ランダム戦」と同じ！"
+
+msgid "intro/time/period/day"
+msgstr "{day}日"
+
+msgid "intro/time/period/dayHour"
+msgstr "{day}日{hours}時間"
+
+msgid "intro/time/period/hourMinute"
+msgstr "{hours}時間{min}分"
+
+msgid "intro/time/period/minute"
+msgstr "{min}分"
+
+msgid "intro/title"
+msgstr "先行偵察ミッション"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/body"
+msgstr "%(forbiddenClass)sは「先行偵察ミッション」モードでは使用できません。"
+
+msgid "mapboxCarousel/lockedTooltip/vehClass/header"
+msgstr "車輌タイプが不適合"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/body"
+msgstr "「先行偵察ミッション」モードでプレイするには%(levelSubStr)sを選択する必要があります。"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/header"
+msgstr "車輌Tierが不適合"
+
+msgid "mapboxCarousel/lockedTooltip/vehLvl/levelSubStr"
+msgstr "Tier %(levels)s車輌"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/body"
+msgstr "%(forbiddenType)sは「先行偵察ミッション」モードでは使用できません。"
+
+msgid "mapboxCarousel/lockedTooltip/vehType/header"
+msgstr "車輌が不適合"
+
+msgid "mapboxTab"
+msgstr "先行偵察ミッション"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "%(server)sサーバーではステージが終了しています"
+
+msgid "primeTimeView/serverTooltip"
+msgstr "%(server)s サーバー\n戦闘できなくなるまで残り%(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "%(server)s サーバー\n戦闘開始まで残り%(time)s"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "本モードは全サーバーで休止中です。"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "こちらのモードは%(server)sサーバーではプレイできません。"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "%(server)sサーバーで戦闘できなくなるまで残り%(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "%(server)sサーバーでの戦闘開始まで残り%(time)s"
+
+msgid "primeTimeView/status/seasonDisabled"
+msgstr "シーズンが終了しているためこのモードでは戦闘を行えません"
+
+msgid "primeTimeView/status/untill"
+msgstr "本モードは%(server)sサーバーでは%(startTime)sまで休止中です。"
+
+msgid "primeTimeView/title"
+msgstr "先行偵察ミッション"
+
+msgid "primeTimes/availableServer"
+msgstr "利用可能なサーバー:"
+
+msgid "primeTimes/availableServers"
+msgstr "利用可能なサーバー:"
+
+msgid "primeTimes/statusText/battlesEnded"
+msgstr "終了済み"
+
+msgid "primeTimes/statusText/notAvailable"
+msgstr "こちらのモードは%(serverName)sサーバーではプレイできません。"
+
+msgid "progression/cardTitle/mapBattles"
+msgstr "既定数の戦闘を行う"
+
+msgid "progression/cardTitle/rating"
+msgstr "取得EXPでTOP{rating}を達成する"
+
+msgid "progression/cardTitle/rating/map_fire"
+msgstr "火災が発生しているマップにおいて取得EXPでTOP{rating}を達成する"
+
+msgid "progression/cardTitle/rating/map_fog"
+msgstr "霧が発生しているマップにおいて取得EXPでTOP{rating}を達成する"
+
+msgid "progression/cardTitle/rating/map_heavy_rain"
+msgstr "豪雨が発生しているマップにおいて取得EXPでTOP{rating}を達成する"
+
+msgid "progression/cardTitle/rating/map_sandstorm"
+msgstr "砂塵嵐が発生しているマップにおいて取得EXPでTOP{rating}を達成する"
+
+msgid "progression/changeAnswer"
+msgstr "回答を変更"
+
+msgid "progression/counter"
+msgstr "%(current) / %(mapBattles)"
+
+msgid "progression/info/description"
+msgstr "Tier VIII～X車輌で戦闘を重ねると、報酬が手に入るほか、アンケートにも回答できるようにようになります。"
+
+msgid "progression/info/restart"
+msgstr "報酬進捗バーのリセットまで残り%(leftTime)s"
+
+msgid "progression/info/title"
+msgstr "取得EXPでTOP%(rating)を達成する: %(current) / %(total)"
+
+msgid "progression/infoButton"
+msgstr "イベントの概要"
+
+msgid "progression/map_01_karelia"
+msgstr "カレリア"
+
+msgid "progression/map_02_malinovka"
+msgstr "マリノフカ"
+
+msgid "progression/map_05_prohorovka"
+msgstr "プロホロフカ"
+
+msgid "progression/map_18_cliff"
+msgstr "ウエストフィールド"
+
+msgid "progression/map_all"
+msgstr "ゲーム\nメカニズム"
+
+msgid "progression/map_fire"
+msgstr "火災"
+
+msgid "progression/map_fog"
+msgstr "霧"
+
+msgid "progression/map_heavy_rain"
+msgstr "豪雨"
+
+msgid "progression/map_sandstorm"
+msgstr "砂塵嵐"
+
+msgid "progression/redirect"
+msgstr "モードに移動"
+
+msgid "progression/startInterview"
+msgstr "アンケートに回答"
+
+msgid "progression/startInterviewTooltip"
+msgstr "アンケートに回答するには既定の条件を満たす必要があります。"
+
+msgid "progression/startSpecialInterview"
+msgstr "アンケートに回答"
+
+msgid "progression/startSpecialInterviewTooltip"
+msgstr "アンケートに回答するには既定の条件を満たす必要があります。"
+
+msgid "progression/subtitle"
+msgstr "新メカニズムについてのアンケートにお答えいただきます。"
+
+msgid "progression/timeLeft/days"
+msgstr "%(day)s日"
+
+msgid "progression/timeLeft/hours"
+msgstr "%(hour)s時間%(min)s分"
+
+msgid "progression/timeLeft/lessMin"
+msgstr "1分"
+
+msgid "progression/timeLeft/min"
+msgstr "%(min)s分"
+
+msgid "progression/title"
+msgstr "先行偵察ミッション"
+
+msgid "progressionError/description/line1"
+msgstr "進捗は保存されています。引き続きゲームをお楽しみください。"
+
+msgid "progressionError/description/line2"
+msgstr "間もなく進捗の確認やアンケートへの回答を行えるようになります。"
+
+msgid "progressionError/title"
+msgstr "「先行偵察ミッション」の詳細は一時的に閲覧不可"
+
+msgid "questFlag/complete"
+msgstr "全報酬を獲得済み"
+
+msgid "questFlag/counter"
+msgstr "%(progress)s / %(total)s"
+
+msgid "questFlag/description"
+msgstr "%(highlightedText)sで戦闘を重ねると報酬が手に入るほか、アンケートにも回答できるようになります。"
+
+msgid "questFlag/frozen/header"
+msgstr "「先行偵察ミッション」はプレイ不可"
+
+msgid "questFlag/frozen/text"
+msgstr "技術的な理由により「先行偵察ミッション」モードは一時的にご利用いただけません。"
+
+msgid "questFlag/highlightedText"
+msgstr "Tier VIII～X車輌を使用して新メカニズムを備えたマップをひと足早く体験できるモード"
+
+msgid "questFlag/incomplete"
+msgstr "次の報酬を獲得するのに必要な戦闘数: %(count)s回"
+
+msgid "questFlag/progressTitle"
+msgstr "戦闘数:"
+
+msgid "questFlag/surveysTitle"
+msgstr "回答したアンケート: %(count)s件"
+
+msgid "selector/startEvent"
+msgstr "本モードの開始は%(day)sを予定しています。"
+
+msgid "selector/tooltip/body"
+msgstr "本モードの終了は%(day)sを予定しています。"
+
+msgid "selector/tooltip/title"
+msgstr "スケジュール"
+
+msgid "selectorTooltip/tillEnd"
+msgstr "シーズン終了まで残り"
+
+msgid "selectorTooltip/timeTable/empty"
+msgstr "—"
+
+msgid "selectorTooltip/timeTable/title"
+msgstr "戦闘スケジュール"
+
+msgid "selectorTooltip/timeTable/today"
+msgstr "今日"
+
+msgid "selectorTooltip/timeTable/tomorrow"
+msgstr "明日"
+
+msgid "serverAlertMessage/button"
+msgstr "別のサーバーを選択"
+
+msgid "survey/backBtn"
+msgstr "戻る"
+
+msgid "survey/fire/question/option/q6_1_AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "survey/fire/question/option/q6_1_SPG"
+msgstr "自走砲"
+
+msgid "survey/fire/question/option/q6_1_heavyTank"
+msgstr "重戦車"
+
+msgid "survey/fire/question/option/q6_1_lightTank"
+msgstr "軽戦車"
+
+msgid "survey/fire/question/option/q6_1_mediumTank"
+msgstr "中戦車"
+
+msgid "survey/fire/question/q1"
+msgstr "火災が発生したマップ「ムロヴァンカ」での戦闘は楽しめましたか？"
+
+msgid "survey/fire/question/q2"
+msgstr "マップ「ムロヴァンカ」における火災の視覚的デザインについてどう思いますか？"
+
+msgid "survey/fire/question/q3"
+msgstr "マップ「ムロヴァンカ」の火災が戦闘に与える影響を調整してほしいと思いますか？"
+
+msgid "survey/fire/question/q4"
+msgstr "マップ「ムロヴァンカ」の火災が戦闘に与える影響を、具体的にどのように調整してほしいと思いますか？"
+
+msgid "survey/fire/question/q5"
+msgstr "マップ「ムロヴァンカ」では、どのタイプの車輌を使用しましたか？"
+
+msgid "survey/fire/question/q6_0"
+msgstr "マップ「ムロヴァンカ」における{value}での戦闘は、どのように変化しましたか？"
+
+msgid "survey/fire/question/q6_1"
+msgstr "マップ「ムロヴァンカ」における{value}での戦闘は、どのように変化しましたか？"
+
+msgid "survey/fire/question/q7"
+msgstr "「ランダム戦」モードに火災を追加してほしいと思いますか？"
+
+msgid "survey/fire/question/q8"
+msgstr "マップ「ムロヴァンカ」における火災のメカニズムのどのような点が気に入りませんでしたか？"
+
+msgid "survey/fire/question/q9"
+msgstr "変えてほしいと思う点を具体的に教えてください。"
+
+msgid "survey/fire/response/q1_1"
+msgstr "はい"
+
+msgid "survey/fire/response/q1_2"
+msgstr "いいえ"
+
+msgid "survey/fire/response/q1_3"
+msgstr "分からない"
+
+msgid "survey/fire/response/q2_1"
+msgstr "良かった"
+
+msgid "survey/fire/response/q2_2"
+msgstr "まぁまぁ"
+
+msgid "survey/fire/response/q2_3"
+msgstr "良くなかった"
+
+msgid "survey/fire/response/q2_4"
+msgstr "よく分からない"
+
+msgid "survey/fire/response/q3_1"
+msgstr "はい"
+
+msgid "survey/fire/response/q3_2"
+msgstr "いいえ"
+
+msgid "survey/fire/response/q3_3"
+msgstr "分からない"
+
+msgid "survey/fire/response/q4_1"
+msgstr "強化してほしい"
+
+msgid "survey/fire/response/q4_2"
+msgstr "弱体化してほしい"
+
+msgid "survey/fire/response/q5_AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "survey/fire/response/q5_SPG"
+msgstr "自走砲"
+
+msgid "survey/fire/response/q5_heavyTank"
+msgstr "重戦車"
+
+msgid "survey/fire/response/q5_lightTank"
+msgstr "軽戦車"
+
+msgid "survey/fire/response/q5_mediumTank"
+msgstr "中戦車"
+
+msgid "survey/fire/response/q5_unknown"
+msgstr "覚えていない"
+
+msgid "survey/fire/response/q6_0_1"
+msgstr "良くなった"
+
+msgid "survey/fire/response/q6_0_2"
+msgstr "悪くなった"
+
+msgid "survey/fire/response/q6_0_3"
+msgstr "変わらない"
+
+msgid "survey/fire/response/q6_0_4"
+msgstr "分からない"
+
+msgid "survey/fire/response/q6_1_1"
+msgstr "良くなった"
+
+msgid "survey/fire/response/q6_1_2"
+msgstr "悪くなった"
+
+msgid "survey/fire/response/q6_1_3"
+msgstr "変わらない"
+
+msgid "survey/fire/response/q6_1_4"
+msgstr "分からない"
+
+msgid "survey/fire/response/q7_1"
+msgstr "はい"
+
+msgid "survey/fire/response/q7_2"
+msgstr "いいえ"
+
+msgid "survey/fire/response/q7_3"
+msgstr "分からない"
+
+msgid "survey/fire/response/q8_1"
+msgstr "火災が発生したことでポジションが減った"
+
+msgid "survey/fire/response/q8_10"
+msgstr "片方のチームが有利になりやすい"
+
+msgid "survey/fire/response/q8_11"
+msgstr "技術的問題"
+
+msgid "survey/fire/response/q8_12"
+msgstr "その他"
+
+msgid "survey/fire/response/q8_2"
+msgstr "火災によるダメージが大きすぎる"
+
+msgid "survey/fire/response/q8_3"
+msgstr "エリア内にいれば、エリア外の敵車輌が自車輌を発見できないが、自分もエリア外の敵車輌を発見できない"
+
+msgid "survey/fire/response/q8_4"
+msgstr "火災の発生位置"
+
+msgid "survey/fire/response/q8_5"
+msgstr "火災の見た目"
+
+msgid "survey/fire/response/q8_6"
+msgstr "マップのゲームプレイに与える影響が大きすぎる"
+
+msgid "survey/fire/response/q8_7"
+msgstr "マップのゲームプレイに与える影響が少なすぎる"
+
+msgid "survey/fire/response/q8_8"
+msgstr "火災のビジュアルが戦闘を邪魔する"
+
+msgid "survey/fire/response/q8_9"
+msgstr "火災のせいで近接戦を強いられる"
+
+msgid "survey/fog/question/option/q1_128_last_frontier_v_mb"
+msgstr "前哨地"
+
+msgid "survey/fog/question/option/q1_33_fjord_mb"
+msgstr "フィヨルド"
+
+msgid "survey/fog/question/option/q2_128_last_frontier_v_mb"
+msgstr "前哨地"
+
+msgid "survey/fog/question/option/q2_33_fjord_mb"
+msgstr "フィヨルド"
+
+msgid "survey/fog/question/option/q3_128_last_frontier_v_mb"
+msgstr "前哨地"
+
+msgid "survey/fog/question/option/q3_33_fjord_mb"
+msgstr "フィヨルド"
+
+msgid "survey/fog/question/option/q7_1_AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "survey/fog/question/option/q7_1_SPG"
+msgstr "自走砲"
+
+msgid "survey/fog/question/option/q7_1_heavyTank"
+msgstr "重戦車"
+
+msgid "survey/fog/question/option/q7_1_lightTank"
+msgstr "軽戦車"
+
+msgid "survey/fog/question/option/q7_1_mediumTank"
+msgstr "中戦車"
+
+msgid "survey/fog/question/option/q9_1_AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "survey/fog/question/option/q9_1_SPG"
+msgstr "自走砲"
+
+msgid "survey/fog/question/option/q9_1_heavyTank"
+msgstr "重戦車"
+
+msgid "survey/fog/question/option/q9_1_lightTank"
+msgstr "軽戦車"
+
+msgid "survey/fog/question/option/q9_1_mediumTank"
+msgstr "中戦車"
+
+msgid "survey/fog/question/q1"
+msgstr "霧が発生した下記のマップでの戦闘は楽しめましたか？"
+
+msgid "survey/fog/question/q10"
+msgstr "「ランダム戦」モードに霧を追加してほしいと思いますか？"
+
+msgid "survey/fog/question/q11"
+msgstr "マップ「フィヨルド」における霧のメカニズムのどのような点が気に入りませんでしたか？"
+
+msgid "survey/fog/question/q12"
+msgstr "マップ「前哨地」における霧のメカニズムのどのような点が気に入りませんでしたか？"
+
+msgid "survey/fog/question/q13"
+msgstr "変えてほしいと思う点を具体的に教えてください。"
+
+msgid "survey/fog/question/q2"
+msgstr "以下のマップにおける霧の視覚的デザインについてどう思いますか？"
+
+msgid "survey/fog/question/q3"
+msgstr "マップの霧が戦闘に与える影響を調整してほしいと思いますか？"
+
+msgid "survey/fog/question/q4"
+msgstr "マップ「フィヨルド」の霧が戦闘に与える影響を、具体的にどのように調整してほしいと思いますか？"
+
+msgid "survey/fog/question/q5"
+msgstr "マップ「前哨地」の霧が戦闘に与える影響を、具体的にどのように調整してほしいと思いますか？"
+
+msgid "survey/fog/question/q6"
+msgstr "マップ「フィヨルド」では、どのタイプの車輌を使用しましたか？"
+
+msgid "survey/fog/question/q7_0"
+msgstr "マップ「フィヨルド」における{value}での戦闘は、どのように変化しましたか？"
+
+msgid "survey/fog/question/q7_1"
+msgstr "マップ「フィヨルド」における{value}での戦闘は、どのように変化しましたか？"
+
+msgid "survey/fog/question/q8"
+msgstr "マップ「前哨地」では、どのタイプの車輌を使用しましたか？"
+
+msgid "survey/fog/question/q9_0"
+msgstr "マップ「前哨地」における{value}での戦闘は、どのように変化しましたか？"
+
+msgid "survey/fog/question/q9_1"
+msgstr "マップ「前哨地」における{value}での戦闘は、どのように変化しましたか？"
+
+msgid "survey/fog/response/q10_1"
+msgstr "はい"
+
+msgid "survey/fog/response/q10_2"
+msgstr "いいえ"
+
+msgid "survey/fog/response/q10_3"
+msgstr "分からない"
+
+msgid "survey/fog/response/q11_1"
+msgstr "エリア内にいれば、エリア外の敵車輌が自車輌を発見できないが、自分もエリア外の敵車輌を発見できない"
+
+msgid "survey/fog/response/q11_10"
+msgstr "その他"
+
+msgid "survey/fog/response/q11_2"
+msgstr "霧の発生位置"
+
+msgid "survey/fog/response/q11_3"
+msgstr "霧の見た目"
+
+msgid "survey/fog/response/q11_4"
+msgstr "マップのゲームプレイに与える影響が大きすぎる"
+
+msgid "survey/fog/response/q11_5"
+msgstr "マップのゲームプレイに与える影響が少なすぎる"
+
+msgid "survey/fog/response/q11_6"
+msgstr "霧のビジュアルが戦闘を邪魔する"
+
+msgid "survey/fog/response/q11_7"
+msgstr "霧のせいで近接戦を強いられる"
+
+msgid "survey/fog/response/q11_8"
+msgstr "片方のチームが有利になりやすい"
+
+msgid "survey/fog/response/q11_9"
+msgstr "技術的問題"
+
+msgid "survey/fog/response/q12_1"
+msgstr "エリア内にいれば、エリア外の敵車輌が自車輌を発見できないが、自分もエリア外の敵車輌を発見できない"
+
+msgid "survey/fog/response/q12_10"
+msgstr "その他"
+
+msgid "survey/fog/response/q12_2"
+msgstr "霧の発生位置"
+
+msgid "survey/fog/response/q12_3"
+msgstr "霧の見た目"
+
+msgid "survey/fog/response/q12_4"
+msgstr "マップのゲームプレイに与える影響が大きすぎる"
+
+msgid "survey/fog/response/q12_5"
+msgstr "マップのゲームプレイに与える影響が少なすぎる"
+
+msgid "survey/fog/response/q12_6"
+msgstr "霧のビジュアルが戦闘を邪魔する"
+
+msgid "survey/fog/response/q12_7"
+msgstr "霧のせいで近接戦を強いられる"
+
+msgid "survey/fog/response/q12_8"
+msgstr "片方のチームが有利になりやすい"
+
+msgid "survey/fog/response/q12_9"
+msgstr "技術的問題"
+
+msgid "survey/fog/response/q1_1"
+msgstr "はい"
+
+msgid "survey/fog/response/q1_2"
+msgstr "いいえ"
+
+msgid "survey/fog/response/q1_3"
+msgstr "分からない"
+
+msgid "survey/fog/response/q2_1"
+msgstr "良かった"
+
+msgid "survey/fog/response/q2_2"
+msgstr "まぁまぁ"
+
+msgid "survey/fog/response/q2_3"
+msgstr "良くなかった"
+
+msgid "survey/fog/response/q2_4"
+msgstr "よく分からない"
+
+msgid "survey/fog/response/q3_1"
+msgstr "はい"
+
+msgid "survey/fog/response/q3_2"
+msgstr "いいえ"
+
+msgid "survey/fog/response/q3_3"
+msgstr "分からない"
+
+msgid "survey/fog/response/q4_1"
+msgstr "強化してほしい"
+
+msgid "survey/fog/response/q4_2"
+msgstr "弱体化してほしい"
+
+msgid "survey/fog/response/q5_1"
+msgstr "強化してほしい"
+
+msgid "survey/fog/response/q5_2"
+msgstr "弱体化してほしい"
+
+msgid "survey/fog/response/q6_AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "survey/fog/response/q6_SPG"
+msgstr "自走砲"
+
+msgid "survey/fog/response/q6_heavyTank"
+msgstr "重戦車"
+
+msgid "survey/fog/response/q6_lightTank"
+msgstr "軽戦車"
+
+msgid "survey/fog/response/q6_mediumTank"
+msgstr "中戦車"
+
+msgid "survey/fog/response/q6_unknown"
+msgstr "覚えていない"
+
+msgid "survey/fog/response/q7_0_1"
+msgstr "良くなった"
+
+msgid "survey/fog/response/q7_0_2"
+msgstr "悪くなった"
+
+msgid "survey/fog/response/q7_0_3"
+msgstr "変わらない"
+
+msgid "survey/fog/response/q7_0_4"
+msgstr "分からない"
+
+msgid "survey/fog/response/q7_1_1"
+msgstr "良くなった"
+
+msgid "survey/fog/response/q7_1_2"
+msgstr "悪くなった"
+
+msgid "survey/fog/response/q7_1_3"
+msgstr "変わらない"
+
+msgid "survey/fog/response/q7_1_4"
+msgstr "分からない"
+
+msgid "survey/fog/response/q8_AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "survey/fog/response/q8_SPG"
+msgstr "自走砲"
+
+msgid "survey/fog/response/q8_heavyTank"
+msgstr "重戦車"
+
+msgid "survey/fog/response/q8_lightTank"
+msgstr "軽戦車"
+
+msgid "survey/fog/response/q8_mediumTank"
+msgstr "中戦車"
+
+msgid "survey/fog/response/q8_unknown"
+msgstr "覚えていない"
+
+msgid "survey/fog/response/q9_0_1"
+msgstr "良くなった"
+
+msgid "survey/fog/response/q9_0_2"
+msgstr "悪くなった"
+
+msgid "survey/fog/response/q9_0_3"
+msgstr "変わらない"
+
+msgid "survey/fog/response/q9_0_4"
+msgstr "分からない"
+
+msgid "survey/fog/response/q9_1_1"
+msgstr "良くなった"
+
+msgid "survey/fog/response/q9_1_2"
+msgstr "悪くなった"
+
+msgid "survey/fog/response/q9_1_3"
+msgstr "変わらない"
+
+msgid "survey/fog/response/q9_1_4"
+msgstr "分からない"
+
+msgid "survey/heavy_rain/question/option/q1_23_westfeld_mb"
+msgstr "ウエストフィールド"
+
+msgid "survey/heavy_rain/question/option/q1_36_fishing_bay_mb"
+msgstr "漁師の港"
+
+msgid "survey/heavy_rain/question/option/q2_23_westfeld_mb"
+msgstr "ウエストフィールド"
+
+msgid "survey/heavy_rain/question/option/q2_36_fishing_bay_mb"
+msgstr "漁師の港"
+
+msgid "survey/heavy_rain/question/option/q3_23_westfeld_mb"
+msgstr "ウエストフィールド"
+
+msgid "survey/heavy_rain/question/option/q3_36_fishing_bay_mb"
+msgstr "漁師の港"
+
+msgid "survey/heavy_rain/question/option/q7_1_AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "survey/heavy_rain/question/option/q7_1_SPG"
+msgstr "自走砲"
+
+msgid "survey/heavy_rain/question/option/q7_1_heavyTank"
+msgstr "重戦車"
+
+msgid "survey/heavy_rain/question/option/q7_1_lightTank"
+msgstr "軽戦車"
+
+msgid "survey/heavy_rain/question/option/q7_1_mediumTank"
+msgstr "中戦車"
+
+msgid "survey/heavy_rain/question/option/q9_1_AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "survey/heavy_rain/question/option/q9_1_SPG"
+msgstr "自走砲"
+
+msgid "survey/heavy_rain/question/option/q9_1_heavyTank"
+msgstr "重戦車"
+
+msgid "survey/heavy_rain/question/option/q9_1_lightTank"
+msgstr "軽戦車"
+
+msgid "survey/heavy_rain/question/option/q9_1_mediumTank"
+msgstr "中戦車"
+
+msgid "survey/heavy_rain/question/q1"
+msgstr "豪雨が発生した下記のマップでの戦闘は楽しめましたか？"
+
+msgid "survey/heavy_rain/question/q10"
+msgstr "「ランダム戦」モードに豪雨を追加してほしいと思いますか？"
+
+msgid "survey/heavy_rain/question/q11"
+msgstr "マップ「ウエストフィールド」における豪雨のメカニズムのどのような点が気に入りませんでしたか？"
+
+msgid "survey/heavy_rain/question/q12"
+msgstr "マップ「漁師の港」における豪雨のメカニズムのどのような点が気に入りませんでしたか？"
+
+msgid "survey/heavy_rain/question/q13"
+msgstr "変えてほしいと思う点を具体的に教えてください。"
+
+msgid "survey/heavy_rain/question/q2"
+msgstr "以下のマップにおける豪雨の視覚的デザインについてどう思いますか？"
+
+msgid "survey/heavy_rain/question/q3"
+msgstr "マップの豪雨が戦闘に与える影響を調整してほしいと思いますか？"
+
+msgid "survey/heavy_rain/question/q4"
+msgstr "マップ「ウエストフィールド」の豪雨が戦闘に与える影響を、具体的にどのように調整してほしいと思いますか？"
+
+msgid "survey/heavy_rain/question/q5"
+msgstr "マップ「漁師の港」の豪雨が戦闘に与える影響を、具体的にどのように調整してほしいと思いますか？"
+
+msgid "survey/heavy_rain/question/q6"
+msgstr "マップ「ウエストフィールド」では、どのタイプの車輌を使用しましたか？"
+
+msgid "survey/heavy_rain/question/q7_0"
+msgstr "マップ「ウエストフィールド」における{value}での戦闘は、どのように変化しましたか？"
+
+msgid "survey/heavy_rain/question/q7_1"
+msgstr "マップ「ウエストフィールド」における{value}での戦闘は、どのように変化しましたか？"
+
+msgid "survey/heavy_rain/question/q8"
+msgstr "マップ「漁師の港」では、どのタイプの車輌を使用しましたか？"
+
+msgid "survey/heavy_rain/question/q9_0"
+msgstr "マップ「漁師の港」における{value}での戦闘は、どのように変化しましたか？"
+
+msgid "survey/heavy_rain/question/q9_1"
+msgstr "マップ「漁師の港」における{value}での戦闘は、どのように変化しましたか？"
+
+msgid "survey/heavy_rain/response/q10_1"
+msgstr "はい"
+
+msgid "survey/heavy_rain/response/q10_2"
+msgstr "いいえ"
+
+msgid "survey/heavy_rain/response/q10_3"
+msgstr "分からない"
+
+msgid "survey/heavy_rain/response/q11_1"
+msgstr "豪雨エリアでは車輌が滑りすぎる"
+
+msgid "survey/heavy_rain/response/q11_10"
+msgstr "技術的問題"
+
+msgid "survey/heavy_rain/response/q11_11"
+msgstr "その他"
+
+msgid "survey/heavy_rain/response/q11_2"
+msgstr "エリア内にいれば、エリア外の敵車輌が自車輌を発見できないが、自分もエリア外の敵車輌を発見できない"
+
+msgid "survey/heavy_rain/response/q11_3"
+msgstr "豪雨の発生位置"
+
+msgid "survey/heavy_rain/response/q11_4"
+msgstr "豪雨の見た目"
+
+msgid "survey/heavy_rain/response/q11_5"
+msgstr "マップのゲームプレイに与える影響が大きすぎる"
+
+msgid "survey/heavy_rain/response/q11_6"
+msgstr "マップのゲームプレイに与える影響が少なすぎる"
+
+msgid "survey/heavy_rain/response/q11_7"
+msgstr "豪雨のビジュアルが戦闘を邪魔する"
+
+msgid "survey/heavy_rain/response/q11_8"
+msgstr "豪雨のせいで近接戦を強いられる"
+
+msgid "survey/heavy_rain/response/q11_9"
+msgstr "片方のチームが有利になりやすい"
+
+msgid "survey/heavy_rain/response/q12_1"
+msgstr "豪雨エリアでは車輌が滑りすぎる"
+
+msgid "survey/heavy_rain/response/q12_10"
+msgstr "技術的問題"
+
+msgid "survey/heavy_rain/response/q12_11"
+msgstr "その他"
+
+msgid "survey/heavy_rain/response/q12_2"
+msgstr "エリア内にいれば、エリア外の敵車輌が自車輌を発見できないが、自分もエリア外の敵車輌を発見できない"
+
+msgid "survey/heavy_rain/response/q12_3"
+msgstr "豪雨の発生位置"
+
+msgid "survey/heavy_rain/response/q12_4"
+msgstr "豪雨の見た目"
+
+msgid "survey/heavy_rain/response/q12_5"
+msgstr "マップのゲームプレイに与える影響が大きすぎる"
+
+msgid "survey/heavy_rain/response/q12_6"
+msgstr "マップのゲームプレイに与える影響が少なすぎる"
+
+msgid "survey/heavy_rain/response/q12_7"
+msgstr "豪雨のビジュアルが戦闘を邪魔する"
+
+msgid "survey/heavy_rain/response/q12_8"
+msgstr "豪雨のせいで近接戦を強いられる"
+
+msgid "survey/heavy_rain/response/q12_9"
+msgstr "片方のチームが有利になりやすい"
+
+msgid "survey/heavy_rain/response/q1_1"
+msgstr "はい"
+
+msgid "survey/heavy_rain/response/q1_2"
+msgstr "いいえ"
+
+msgid "survey/heavy_rain/response/q1_3"
+msgstr "分からない"
+
+msgid "survey/heavy_rain/response/q2_1"
+msgstr "良かった"
+
+msgid "survey/heavy_rain/response/q2_2"
+msgstr "まぁまぁ"
+
+msgid "survey/heavy_rain/response/q2_3"
+msgstr "良くなかった"
+
+msgid "survey/heavy_rain/response/q2_4"
+msgstr "分からない"
+
+msgid "survey/heavy_rain/response/q3_1"
+msgstr "はい"
+
+msgid "survey/heavy_rain/response/q3_2"
+msgstr "いいえ"
+
+msgid "survey/heavy_rain/response/q3_3"
+msgstr "分からない"
+
+msgid "survey/heavy_rain/response/q4_1"
+msgstr "強化してほしい"
+
+msgid "survey/heavy_rain/response/q4_2"
+msgstr "弱体化してほしい"
+
+msgid "survey/heavy_rain/response/q5_1"
+msgstr "強化してほしい"
+
+msgid "survey/heavy_rain/response/q5_2"
+msgstr "弱体化してほしい"
+
+msgid "survey/heavy_rain/response/q6_AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "survey/heavy_rain/response/q6_SPG"
+msgstr "自走砲"
+
+msgid "survey/heavy_rain/response/q6_heavyTank"
+msgstr "重戦車"
+
+msgid "survey/heavy_rain/response/q6_lightTank"
+msgstr "軽戦車"
+
+msgid "survey/heavy_rain/response/q6_mediumTank"
+msgstr "中戦車"
+
+msgid "survey/heavy_rain/response/q6_unknown"
+msgstr "覚えていない"
+
+msgid "survey/heavy_rain/response/q7_0_1"
+msgstr "良くなった"
+
+msgid "survey/heavy_rain/response/q7_0_2"
+msgstr "悪くなった"
+
+msgid "survey/heavy_rain/response/q7_0_3"
+msgstr "変わらない"
+
+msgid "survey/heavy_rain/response/q7_0_4"
+msgstr "分からない"
+
+msgid "survey/heavy_rain/response/q7_1_1"
+msgstr "良くなった"
+
+msgid "survey/heavy_rain/response/q7_1_2"
+msgstr "悪くなった"
+
+msgid "survey/heavy_rain/response/q7_1_3"
+msgstr "変わらない"
+
+msgid "survey/heavy_rain/response/q7_1_4"
+msgstr "分からない"
+
+msgid "survey/heavy_rain/response/q8_AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "survey/heavy_rain/response/q8_SPG"
+msgstr "自走砲"
+
+msgid "survey/heavy_rain/response/q8_heavyTank"
+msgstr "重戦車"
+
+msgid "survey/heavy_rain/response/q8_lightTank"
+msgstr "軽戦車"
+
+msgid "survey/heavy_rain/response/q8_mediumTank"
+msgstr "中戦車"
+
+msgid "survey/heavy_rain/response/q8_unknown"
+msgstr "覚えていない"
+
+msgid "survey/heavy_rain/response/q9_0_1"
+msgstr "良くなった"
+
+msgid "survey/heavy_rain/response/q9_0_2"
+msgstr "悪くなった"
+
+msgid "survey/heavy_rain/response/q9_0_3"
+msgstr "変わらない"
+
+msgid "survey/heavy_rain/response/q9_0_4"
+msgstr "分からない"
+
+msgid "survey/heavy_rain/response/q9_1_1"
+msgstr "良くなった"
+
+msgid "survey/heavy_rain/response/q9_1_2"
+msgstr "悪くなった"
+
+msgid "survey/heavy_rain/response/q9_1_3"
+msgstr "変わらない"
+
+msgid "survey/heavy_rain/response/q9_1_4"
+msgstr "分からない"
+
+msgid "survey/listSeparator"
+msgstr "、"
+
+msgid "survey/nextBtn"
+msgstr "次へ"
+
+msgid "survey/percentage"
+msgstr "%(percent)s%"
+
+msgid "survey/readyBtn"
+msgstr "了解！"
+
+msgid "survey/required"
+msgstr "次に進むには質問に回答する必要があります。"
+
+msgid "survey/sandstorm/question/option/q6_1_AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "survey/sandstorm/question/option/q6_1_SPG"
+msgstr "自走砲"
+
+msgid "survey/sandstorm/question/option/q6_1_heavyTank"
+msgstr "重戦車"
+
+msgid "survey/sandstorm/question/option/q6_1_lightTank"
+msgstr "軽戦車"
+
+msgid "survey/sandstorm/question/option/q6_1_mediumTank"
+msgstr "中戦車"
+
+msgid "survey/sandstorm/question/q1"
+msgstr "砂塵嵐が発生したマップ「砂の川」での戦闘は楽しめましたか？"
+
+msgid "survey/sandstorm/question/q2"
+msgstr "マップ「砂の川」における砂塵嵐の視覚的デザインについてどう思いますか？"
+
+msgid "survey/sandstorm/question/q3"
+msgstr "マップ「砂の川」の砂塵嵐が戦闘に与える影響を調整してほしいと思いますか？"
+
+msgid "survey/sandstorm/question/q4"
+msgstr "マップ「砂の川」の砂塵嵐が戦闘に与える影響を、具体的にどのように調整してほしいと思いますか？"
+
+msgid "survey/sandstorm/question/q5"
+msgstr "マップ「砂の川」では、どのタイプの車輌を使用しましたか？"
+
+msgid "survey/sandstorm/question/q6_0"
+msgstr "マップ「砂の川」における{value}での戦闘は、どのように変化しましたか？"
+
+msgid "survey/sandstorm/question/q6_1"
+msgstr "マップ「砂の川」における{value}での戦闘は、どのように変化しましたか？"
+
+msgid "survey/sandstorm/question/q7"
+msgstr "「ランダム戦」モードに砂塵嵐を追加してほしいと思いますか？"
+
+msgid "survey/sandstorm/question/q8"
+msgstr "マップ「砂の川」における砂塵嵐のメカニズムのどのような点が気に入りませんでしたか？"
+
+msgid "survey/sandstorm/question/q9"
+msgstr "変えてほしいと思う点を具体的に教えてください。"
+
+msgid "survey/sandstorm/response/q1_1"
+msgstr "はい"
+
+msgid "survey/sandstorm/response/q1_2"
+msgstr "いいえ"
+
+msgid "survey/sandstorm/response/q1_3"
+msgstr "分からない"
+
+msgid "survey/sandstorm/response/q2_1"
+msgstr "良かった"
+
+msgid "survey/sandstorm/response/q2_2"
+msgstr "まぁまぁ"
+
+msgid "survey/sandstorm/response/q2_3"
+msgstr "良くなかった"
+
+msgid "survey/sandstorm/response/q2_4"
+msgstr "分からない"
+
+msgid "survey/sandstorm/response/q3_1"
+msgstr "はい"
+
+msgid "survey/sandstorm/response/q3_2"
+msgstr "いいえ"
+
+msgid "survey/sandstorm/response/q3_3"
+msgstr "分からない"
+
+msgid "survey/sandstorm/response/q4_1"
+msgstr "強化してほしい"
+
+msgid "survey/sandstorm/response/q4_2"
+msgstr "弱体化してほしい"
+
+msgid "survey/sandstorm/response/q5_AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "survey/sandstorm/response/q5_SPG"
+msgstr "自走砲"
+
+msgid "survey/sandstorm/response/q5_heavyTank"
+msgstr "重戦車"
+
+msgid "survey/sandstorm/response/q5_lightTank"
+msgstr "軽戦車"
+
+msgid "survey/sandstorm/response/q5_mediumTank"
+msgstr "中戦車"
+
+msgid "survey/sandstorm/response/q5_unknown"
+msgstr "覚えていない"
+
+msgid "survey/sandstorm/response/q6_0_1"
+msgstr "良くなった"
+
+msgid "survey/sandstorm/response/q6_0_2"
+msgstr "悪くなった"
+
+msgid "survey/sandstorm/response/q6_0_3"
+msgstr "変わらない"
+
+msgid "survey/sandstorm/response/q6_0_4"
+msgstr "分からない"
+
+msgid "survey/sandstorm/response/q6_1_1"
+msgstr "良くなった"
+
+msgid "survey/sandstorm/response/q6_1_2"
+msgstr "悪くなった"
+
+msgid "survey/sandstorm/response/q6_1_3"
+msgstr "変わらない"
+
+msgid "survey/sandstorm/response/q6_1_4"
+msgstr "分からない"
+
+msgid "survey/sandstorm/response/q7_1"
+msgstr "はい"
+
+msgid "survey/sandstorm/response/q7_2"
+msgstr "いいえ"
+
+msgid "survey/sandstorm/response/q7_3"
+msgstr "分からない"
+
+msgid "survey/sandstorm/response/q8_1"
+msgstr "エリア内にいれば、エリア外の敵車輌が自車輌を発見できないが、自分もエリア外の敵車輌を発見できない"
+
+msgid "survey/sandstorm/response/q8_10"
+msgstr "その他"
+
+msgid "survey/sandstorm/response/q8_2"
+msgstr "砂塵嵐の発生位置"
+
+msgid "survey/sandstorm/response/q8_3"
+msgstr "砂塵嵐の見た目"
+
+msgid "survey/sandstorm/response/q8_4"
+msgstr "マップのゲームプレイに与える影響が大きすぎる"
+
+msgid "survey/sandstorm/response/q8_5"
+msgstr "マップのゲームプレイに与える影響が少なすぎる"
+
+msgid "survey/sandstorm/response/q8_6"
+msgstr "砂塵嵐のビジュアルが戦闘を邪魔する"
+
+msgid "survey/sandstorm/response/q8_7"
+msgstr "砂塵嵐のせいで近接戦を強いられる"
+
+msgid "survey/sandstorm/response/q8_8"
+msgstr "片方のチームが有利になりやすい"
+
+msgid "survey/sandstorm/response/q8_9"
+msgstr "技術的問題"
+
+msgid "survey/subTitle"
+msgstr "アンケートにご協力くださり誠にありがとうございます。アンケートの所要時間は約2分です。ご回答いただく内容はすべて本アンケートを実施する目的のためのみに使用し、個人情報が含まれる場合は弊社『プライバシーポリシー』に従って削除いたしますのでご安心ください。"
+
+msgid "survey/template/final/title"
+msgstr "アンケートは以上です！ ご協力ありがとうございます！"
+
+msgid "survey/template/mapInteractive/hint0"
+msgstr "マップをクリックしてポジションを選択"
+
+msgid "survey/template/mapInteractive/hint1"
+msgstr "最大で3か所まで選択可能"
+
+msgid "survey/template/mapInteractive/point/description"
+msgstr "詳しい説明 (最大で半角%(maxLength)s文字まで)"
+
+msgid "survey/template/mapInteractive/point/title"
+msgstr "ポジション"
+
+msgid "survey/template/mapInteractive/point/tooltip"
+msgstr "ポジションを削除"
+
+msgid "survey/template/opened/description"
+msgstr "不具合の詳しい内容 (最大で半角%(maxLength)s文字まで)"
+
+msgid "survey/title/common"
+msgstr "新メカニズムの評価"
+
+msgid "survey/title/map"
+msgstr "マップ「%(map)s」の評価"

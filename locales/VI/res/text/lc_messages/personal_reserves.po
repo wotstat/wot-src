@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Kích hoạt"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Mua và Kích hoạt"
+
+msgid "activation/activateBonus"
+msgstr "Kích hoạt Trợ cấp: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Kích hoạt Trợ cấp"
+
+msgid "activation/activateButtonClan"
+msgstr "Đến Pháo đài"
+
+msgid "activation/battleXPDescription"
+msgstr "Lợi ích XP Chiến đấu trong 1 giờ"
+
+msgid "activation/battleXPTitle"
+msgstr "XP Chiến đấu"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Mua và kích hoạt Trợ cấp Cá nhân Tiên tiến, đem lại %(boosterBonus)s đến %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Mua Vàng"
+
+msgid "activation/buyGoldTitle"
+msgstr "Mua vàng cần có cho kích hoạt Trợ cấp Cá nhân Tiên tiến, đem lại %(boosterBonus)s đến %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}Vàng cần có để mua Trợ cấp Cá nhân Tiên tiến:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Bạc và XP Chiến đấu"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "XP Kíp lái và XP Tự do"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Quân Dự bị Clan"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Kích hoạt Trợ cấp trong Pháo đài"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Xem trong Pháo đài"
+
+msgid "activation/comboXPDescription"
+msgstr "Lợi ích XP Tự do và Kíp lái trong 1 giờ"
+
+msgid "activation/comboXPTitle"
+msgstr "XP Kíp lái & Tự do"
+
+msgid "activation/creditsDescription"
+msgstr "Lợi ích bạc trong 1 giờ"
+
+msgid "activation/creditsTitle"
+msgstr "Bạc"
+
+msgid "activation/footer"
+msgstr "Trợ cấp có thời hạn cần phải tiêu: %(expirableAmount) trong %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Lợi ích XP Chiến tuyến trong 1 giờ"
+
+msgid "activation/frontLineXPTitle"
+msgstr "XP Chiến tuyến"
+
+msgid "activation/informationButton"
+msgstr "CHI TIẾT"
+
+msgid "activation/price"
+msgstr "Giá:"
+
+msgid "activation/subFooter/depot"
+msgstr "Kho"
+
+msgid "activation/subFooter/main"
+msgstr "Trợ cấp gần lúc hết hạn nhất được kích hoạt trước. Bạn có thể xem mọi Trợ cấp của mình trong %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Kích hoạt {whiteSpanish_Open}lên đến 3 Trợ cấp Cá nhân{whiteSpanish_Close} để kiếm thêm bạc và XP trong chiến trận. Mua thêm Trợ cấp Cá nhân ở %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Cửa hàng"
+
+msgid "activation/terms/booster_credits"
+msgstr "bạc"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "XP Chiến tuyến"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "XP Kíp lái & Tự do"
+
+msgid "activation/terms/booster_xp"
+msgstr "XP Chiến đấu"
+
+msgid "activation/title"
+msgstr "TRỢ CẤP CÁ NHÂN"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Trợ cấp Cá nhân Tiêu chuẩn đã kích hoạt, cung cấp %(previousBoosterBonus)s đến %(previousBoosterTerm)s sẽ bị mất.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Bạn có muốn kích hoạt Trợ cấp Cá nhân Tiên tiến, cung cấp %(boosterBonus)s đến %(boosterTerm)s thay vì Trợ cấp Cá nhân Tiêu chuẩn đã kích hoạt?"
+
+msgid "battleView/notice"
+msgstr "Trợ cấp Cá nhân có thể được kích hoạt bất cứ lúc nào trong trận. Bạn sẽ nhận lợi ích ngay cả khi Trợ cấp hết hạn giữa lúc tham chiến."
+
+msgid "battleView/title"
+msgstr "Kích hoạt Trợ cấp Cá nhân"
+
+msgid "depot/buyButton"
+msgstr "Đến mục Mua"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Một Trợ cấp khác thuộc loại này đã được kích hoạt rồi."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Trợ cấp Cá nhân này đã hết hạn trong trận. Lợi ích của nó vẫn áp dụng."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)ph"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Trợ cấp Cá nhân đã kích hoạt không áp dụng cho chế độ này."
+
+msgid "intro/buttons/close"
+msgstr "Rõ!"
+
+msgid "intro/buttons/details"
+msgstr "Chi tiết"
+
+msgid "intro/description"
+msgstr "Trợ cấp Cá nhân có thời hạn sẽ chỉ khả dụng trong khoảng nhất định sau khi nhận được. Nếu không kích hoạt trong thời gian đó, chúng sẽ bị mất. Bạn không thể dùng Trợ cấp Cá nhân vô-thời-hạn trong khi sở hữu dạng có-thời-hạn cùng loại."
+
+msgid "intro/title"
+msgstr "TRỢ CẤP CÁ NHÂN CÓ THỜI HẠN"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "Không có Trợ cấp Cá nhân thuộc loại này trong Kho. Bạn có thể mua chúng về sau hoặc kích hoạt ở Ga-ra."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Hoàn tất các nhiệm vụ và tham dự nhiều sự kiện game để nhận được Trợ cấp Cá nhân."
+
+msgid "noReserveTooltip/text"
+msgstr "Không có Trợ cấp Cá nhân thuộc loại này trong Kho."

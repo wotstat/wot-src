@@ -1,0 +1,305 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dailyQuestsIntroView/buttons/close"
+msgstr "닫기"
+
+msgid "dailyQuestsIntroView/buttons/confirm"
+msgstr "확인"
+
+msgid "dailyQuestsIntroView/info/mode/description"
+msgstr "준비 운동을 플레이하는 과정에서 게임의 기본 지식을 되살릴 수 있습니다. 인공 지능 전차를 상대로 전투를 벌이게 되며 결과는 전적에 반영되지 않습니다. 언제든 준비 운동을 종료하고 무작위 전투에 참여할 수 있습니다."
+
+msgid "dailyQuestsIntroView/info/mode/title"
+msgstr "준비 운동"
+
+msgid "dailyQuestsIntroView/info/quests/description"
+msgstr "임무를 완료하여 실전 복귀 진행 스테이지를 완료하면 값진 게임 아이템 보상이 지급됩니다. 일반 임무, 프리미엄 임무, 보너스 임무를 완료 시 각각 보상에 집계됩니다. 임무는 준비 운동 및 무작위 전투에서 완료할 수 있습니다."
+
+msgid "dailyQuestsIntroView/info/quests/descriptionBP"
+msgstr "임무를 완료하여 실전 복귀 진행 스테이지를 완료하면 값진 보상이 지급됩니다. 배틀 패스 기간에는 보상에 배틀 패스 점수가 포함됩니다. 임무는 준비 운동 및 무작위 전투에서 완료할 수 있습니다."
+
+msgid "dailyQuestsIntroView/info/quests/title"
+msgstr "실전 복귀"
+
+msgid "dailyQuestsIntroView/info/rewards/description"
+msgstr "보상으로 8단계 프리미엄 대여 전차와 6단계 일반 전차가 지급되고 전차 연구 및 구매 시 할인이 적용됩니다. 진행을 완료하면 주요 보상이 지급됩니다."
+
+msgid "dailyQuestsIntroView/info/rewards/title"
+msgstr "보상"
+
+msgid "dailyQuestsIntroView/title"
+msgstr "실전 복귀"
+
+msgid "mainRewardTooltip/description"
+msgstr "실전 복귀 진행 완료 보상:"
+
+msgid "mainRewardTooltip/title"
+msgstr "주요 보상"
+
+msgid "mainRewardTooltip/vehicleRewardLabel"
+msgstr "%(level)s단계 전차 연구 및 구매 비용 할인"
+
+msgid "modeInfoTooltip/description"
+msgstr "인공 지능 전차를 상대로 전투를 벌입니다. 결과는 전적에 반영되지 않습니다. 전투에서 승리하려면 적 기지를 점령하거나 적 전차를 모두 격파해야 합니다. 전투는 6단계~11단계에서는 15 대 15, 1단계~5단계에서는 10 대 10 형식으로 진행됩니다."
+
+msgid "modeInfoTooltip/maps"
+msgstr "호반 도시, 만네르하임 방어선, 말리노프카, 수도원, 광산, 루인베르크, 엔스크"
+
+msgid "modeInfoTooltip/subtitle"
+msgstr "지도:"
+
+msgid "modeInfoTooltip/title"
+msgstr "준비 운동"
+
+msgid "selectableRewardTooltip/basic/description"
+msgstr "원하는 %(level)s단계 일반 전차를 선택할 수 있습니다. 해당 전차는 연구가 완료된 부품, 승무원, 차고 슬롯이 함께 지급됩니다."
+
+msgid "selectableRewardTooltip/basic/title"
+msgstr "%(level)s단계 전차"
+
+msgid "selectableRewardTooltip/discount/description"
+msgstr "%(level)s단계 전차 연구 시 %(researchDiscount)s 할인, 구매 시 %(purchaseDiscount)s 할인이 적용됩니다. 일반 전차는 어떤 전차든 선택 가능합니다."
+
+msgid "selectableRewardTooltip/discount/footer"
+msgstr "{whiteSpanish_Open}연구{whiteSpanish_Close} 비용 할인은 전차 설계도면 조각 할인에 추가됩니다. {whiteSpanish_Open}구매{whiteSpanish_Close} 비용 할인은 가장 큰 할인이 적용됩니다."
+
+msgid "selectableRewardTooltip/discount/title"
+msgstr "%(level)s단계 전차 할인"
+
+msgid "vehicleDiscountRewardTooltip/description"
+msgstr "%(research)s 비용 할인은 전차 설계도면 조각 할인에 추가됩니다. %(purchase)s 비용 할인은 가장 큰 할인이 적용됩니다."
+
+msgid "vehicleDiscountRewardTooltip/description/purchase"
+msgstr "구매"
+
+msgid "vehicleDiscountRewardTooltip/description/research"
+msgstr "연구"
+
+msgid "winbackBattleQueue/footer/text"
+msgstr "준비 운동은 무작위 전투 설정 메뉴에서 종료할 수 있습니다."
+
+msgid "winbackBattleQueue/subTitle/battleRemaining"
+msgstr "남은 전투 횟수: %(battlesCount)s"
+
+msgid "winbackBattleQueue/subTitle/text"
+msgstr "인공 지능 전차를 상대로 전투를 벌입니다. 결과는 전적에 반영되지 않습니다."
+
+msgid "winbackBattleQueue/title"
+msgstr "무작위 전투: 준비 운동"
+
+msgid "winbackLeaveModeDialogView/alert"
+msgstr "준비 운동을 종료하면 다시 시작할 수 없습니다."
+
+msgid "winbackLeaveModeDialogView/buttons/cancel"
+msgstr "취소"
+
+msgid "winbackLeaveModeDialogView/buttons/close"
+msgstr "닫기"
+
+msgid "winbackLeaveModeDialogView/buttons/confirm"
+msgstr "종료"
+
+msgid "winbackLeaveModeDialogView/title"
+msgstr "준비 운동을 종료하시겠습니까?"
+
+msgid "winbackPopover/battlesCount"
+msgstr "남은 전투 횟수: %(battlesCount)s"
+
+msgid "winbackPopover/description"
+msgstr "인공 지능 전차를 상대로 전투를 벌입니다. 결과는 전적에 반영되지 않습니다."
+
+msgid "winbackPopover/title"
+msgstr "준비 운동"
+
+msgid "winbackPopover/turnOff"
+msgstr "종료"
+
+msgid "winbackRewardView/buttons/close"
+msgstr "닫기"
+
+msgid "winbackRewardView/buttons/confirm"
+msgstr "확인"
+
+msgid "winbackRewardView/buttons/selectReward"
+msgstr "보상 선택"
+
+msgid "winbackRewardView/buttons/showQuests"
+msgstr "임무로 이동"
+
+msgid "winbackRewardView/buttons/showVehicle"
+msgstr "차고에서 보기"
+
+msgid "winbackRewardView/premiumPlus"
+msgstr "월드 오브 탱크 프리미엄 계정"
+
+msgid "winbackRewardView/secondRowTitle"
+msgstr "그 외 보상:"
+
+msgid "winbackRewardView/selectableReward/discount"
+msgstr "%(level)s단계 전차 연구 비용 %(expDiscount)s 할인 및 구매 비용 %(priceDiscount)s 할인"
+
+msgid "winbackRewardView/selectableReward/expDiscount"
+msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+
+msgid "winbackRewardView/selectableReward/gift"
+msgstr "%(level)s단계 전차"
+
+msgid "winbackRewardView/selectableReward/priceDiscount"
+msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+
+msgid "winbackRewardView/selectableReward/reserveDiscount"
+msgstr "%(level)s단계 전차 할인"
+
+msgid "winbackRewardView/subtitle/regularProgressionCompleted"
+msgstr "임무 세트 완료 보상"
+
+msgid "winbackRewardView/subtitle/winback"
+msgstr "실전 복귀"
+
+msgid "winbackRewardView/title/progressionStep"
+msgstr "임무 보상"
+
+msgid "winbackRewardView/title/regularProgressionCompleted"
+msgstr "특무 보상 획득!"
+
+msgid "winbackRewardView/title/selectedRewards"
+msgstr "보상 획득"
+
+msgid "winbackRewardView/title/welcome"
+msgstr "전차장님, 복귀를 환영합니다!"
+
+msgid "winbackRewardView/title/winbackProgressionCompleted"
+msgstr "진행 완료"
+
+msgid "winbackRewardView/vehicleReward/discount"
+msgstr "연구 비용 %(expDiscount)s 할인 및\n구매 비용 %(priceDiscount)s 할인"
+
+msgid "winbackRewardView/vehicleReward/expDiscount"
+msgstr "{white_Open}%(expDiscount)s%{white_Close}"
+
+msgid "winbackRewardView/vehicleReward/inHangar"
+msgstr "보유 중"
+
+msgid "winbackRewardView/vehicleReward/priceDiscount"
+msgstr "{cream_Open}%(priceDiscount)s%{cream_Close}"
+
+msgid "winbackRewardView/vehicleReward/rent"
+msgstr "대여 기간: %(days)s일"
+
+msgid "winbackRewardView/vehicleReward/reserveDiscount"
+msgstr "연구 및 구매 비용 할인"
+
+msgid "winbackSelectableRewardView/bluePrintReward/value"
+msgstr "x%(value)s"
+
+msgid "winbackSelectableRewardView/buttons/cancel"
+msgstr "나중에 선택"
+
+msgid "winbackSelectableRewardView/buttons/close"
+msgstr "닫기"
+
+msgid "winbackSelectableRewardView/buttons/confirm"
+msgstr "수령"
+
+msgid "winbackSelectableRewardView/buttons/reset"
+msgstr "필터 초기화"
+
+msgid "winbackSelectableRewardView/category/rewardsAvailabilityCounter"
+msgstr "%(rewardsSelected)s/%(rewardsAvailable)s"
+
+msgid "winbackSelectableRewardView/category/title"
+msgstr "전차 할인"
+
+msgid "winbackSelectableRewardView/category/titleDiscount"
+msgstr "%(vehicleLevel)s단계 전차"
+
+msgid "winbackSelectableRewardView/error/button"
+msgstr "확인"
+
+msgid "winbackSelectableRewardView/error/description"
+msgstr "일시적으로 정보를 확인할 수 없습니다. 불편을 드려 죄송합니다. 나중에 다시 시도해 주십시오."
+
+msgid "winbackSelectableRewardView/error/title"
+msgstr "보상 선택 화면 열람 불가"
+
+msgid "winbackSelectableRewardView/filter/allTheVehiclesHaveBeenExplored"
+msgstr "%(vehicleLevel)s단계 전차를 모두 연구하였습니다. 국가 설계도면 조각이 보상으로 지급됩니다."
+
+msgid "winbackSelectableRewardView/filter/placeholder"
+msgstr "이름으로 검색"
+
+msgid "winbackSelectableRewardView/filter/searchResult"
+msgstr "%(itemsShown)s {par_Open}/ %(itemsAvailable)s{par_Close}"
+
+msgid "winbackSelectableRewardView/filter/shown"
+msgstr "표시:"
+
+msgid "winbackSelectableRewardView/filter/tooltip/body"
+msgstr "필터 설정을 기본값으로 초기화합니다."
+
+msgid "winbackSelectableRewardView/filter/tooltip/header"
+msgstr "기본값"
+
+msgid "winbackSelectableRewardView/footer/actionText/active"
+msgstr "선택한 보상: %(amountRewards)s %(infoIcon)s"
+
+msgid "winbackSelectableRewardView/footer/actionText/disable"
+msgstr "해당 범주 내에서 보상 선택"
+
+msgid "winbackSelectableRewardView/resetInf/text"
+msgstr "검색 결과가 없습니다. 필터 설정을 변경하거나 기본값으로 초기화하십시오."
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/blueprint/subtitle"
+msgstr "{white_Open}국가 설계도면 조각 %(bluePrintsAmount)s개{white_Close} (%(countryName)s)"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/subtitle"
+msgstr "{white_Open}%(name)s{white_Close} (연구 비용 %(expDiscount)s% 할인 및 구매 비용 %(priceDiscount)s% 할인)"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardDiscount/title"
+msgstr "%(level)s단계 전차 할인"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/subtitle"
+msgstr "{white_Open}%(name)s{white_Close} (연구 부품, 승무원, 차고 슬롯 포함)"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/rewardForGift/title"
+msgstr "%(level)s단계 전차"
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/subtitle"
+msgstr "\"수령\" 버튼을 클릭하면 선택한 보상을 획득할 수 있습니다."
+
+msgid "winbackSelectableRewardView/selectedReward/tooltip/title"
+msgstr "선택한 보상: %(amountRewards)s"
+
+msgid "winbackSelectableRewardView/tabs/buy"
+msgstr "구매"
+
+msgid "winbackSelectableRewardView/tabs/exp"
+msgstr "연구"
+
+msgid "winbackSelectableRewardView/title/additionText"
+msgstr "실전 복귀"
+
+msgid "winbackSelectableRewardView/title/text"
+msgstr "보상 선택"
+
+msgid "winbackSelectableRewardView/vehicleName"
+msgstr "{cream_Open}%(level)s{cream_Close} %(type)s %(name)s"
+
+msgid "winbackSelectableRewardView/vehicleType/AT-SPG"
+msgstr "구축전차"
+
+msgid "winbackSelectableRewardView/vehicleType/SPG"
+msgstr "자주포"
+
+msgid "winbackSelectableRewardView/vehicleType/heavyTank"
+msgstr "중전차"
+
+msgid "winbackSelectableRewardView/vehicleType/lightTank"
+msgstr "경전차"
+
+msgid "winbackSelectableRewardView/vehicleType/mediumTank"
+msgstr "중형전차"
+
+msgid "winbackTab"
+msgstr "실전 복귀"

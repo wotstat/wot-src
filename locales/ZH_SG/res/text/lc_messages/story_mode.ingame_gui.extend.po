@@ -1,0 +1,41 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "abilities/recon/startVehicle"
+msgstr "正在返回战车..."
+
+msgid "abilities/recon/stopVehicle"
+msgstr "正在离开战车..."
+
+msgid "player_errors/ability/on_cooldown"
+msgstr "不可用。[%(name)s]正在冷却中。"
+
+msgid "player_errors/ability/other_ability"
+msgstr "无法使用：[%(name)s]正在使用中"
+
+msgid "player_errors/ability/unable_fire"
+msgstr "无法开火：[%(name)s]正在使用中。"
+
+msgid "player_errors/ability/unable_move"
+msgstr "无法移动：[%(name)s]正在使用中。"
+
+msgid "player_messages/BUNKER_DESTROYED"
+msgstr "已摧毁岸防碉堡。"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BATTLESHIP"
+msgstr "战列舰已准备好射击。"
+
+msgid "player_messages/DISTRACTION_ABILITY"
+msgstr "假命令已准备就绪。"
+
+msgid "player_messages/RECON_ABILITY"
+msgstr "四处侦察已准备就绪。"
+
+msgid "player_messages/SCC_AIRSTRIKE_ABILITY"
+msgstr "空中支援已准备就绪。"
+
+msgid "postmortem_messages/DEATH_FROM_BOT"
+msgstr "战车被敌方炮火摧毁。"
+
+msgid "postmortem_messages/DEATH_FROM_BUNKER"
+msgstr "战车被岸防碉堡的射击摧毁。"

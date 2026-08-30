@@ -1,0 +1,6 @@
+class PROPELLANT_GUN_WIDGET_CONST(object):
+    READY_ENABLED = b'ready_enabled'
+    READY_DISABLED = b'ready_disabled'
+    ACTIVE_ENABLED = b'active_enabled'
+    ACTIVE_DISABLED = b'active_disabled'
+    PROPELLANT_GUN_WIDGET_STATE = [READY_ENABLED, READY_DISABLED, ACTIVE_ENABLED, ACTIVE_DISABLED]

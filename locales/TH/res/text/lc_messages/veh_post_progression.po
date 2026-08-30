@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "อำนาจการยิง"
+
+msgid "categories/mobility"
+msgstr "ความคล่องตัว"
+
+msgid "categories/stealth"
+msgstr "การลาดตระเวน"
+
+msgid "categories/survivability"
+msgstr "ความสามารถอยู่รอด"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "รับทราบ!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "ขอปฏิเสธ!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "หลังจากยกเลิกการปรับแต่งแล้ว คุณจะสามารถซื้อการปรับแต่งได้อีกครั้งด้วยการใช้เงิน"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "หลังจากยกเลิกการปรับแต่งแล้ว คุณจะสามารถซื้อการปรับแต่งดังกล่าวได้อีกครั้ง"
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "ยกเลิกการปรับแต่งแบบคู่ทั้งหมดโดยไม่มีค่าใช้จ่าย?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "หลังจากยกเลิกการปรับแต่งดังกล่าวแล้ว คุณจะสามารถซื้อการปรับแต่งได้อีกครั้งด้วยการใช้เงิน"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "หลังจากยกเลิกการปรับแต่งดังกล่าวไป คุณจะสามารถซื้อการปรับแต่งได้อีกครั้ง"
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "ยกเลิก%(modification)sการปรับแต่งแบบคู่โดยไม่มีค่าใช้จ่าย?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "ซื้อการปรับแต่ง"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "เลือกประเภทของช่อง"
+
+msgid "hint/entryPoint"
+msgstr "มีการปรับแต่งให้"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "คลิกเพื่อเปลี่ยนเป็น\nการตั้งค่าช่วย"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "คลิกเพื่อเปลี่ยนเป็น\nการตั้งค่าหลัก"
+
+msgid "hint/vehiclePreview"
+msgstr "เปลี่ยนค่าคุณลักษณะของพาหนะ"
+
+msgid "postProgressionIntro/okButton"
+msgstr "รับทราบ!"
+
+msgid "postProgressionIntro/title"
+msgstr "การปรับแต่งภาคสนาม"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "การปรับแต่งพิเศษ %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "คลิกเพื่อดูการเปลี่ยนแปลงคุณลักษณะพาหนะหลังจากเพิ่มเป็นขั้นดังกล่าวและระบุการปรับแต่งที่ทำการใช้ไป"
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "การปรับแต่งแบบคู่ %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "ขั้นการปรับแต่งภาคสนาม"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "มีให้หลังจากทำการซื้อพาหนะ"
+
+msgid "researchEntry/status/notResearched"
+msgstr "มีให้หลังจากได้รับสถานะชั้นยอด"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "มีให้หลังจากทำการซื้อพาหนะและได้รับสถานะชั้นยอด"
+
+msgid "researchEntry/title"
+msgstr "การปรับแต่งภาคสนาม"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "เพิ่ม"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "ยกเลิก"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} และ {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "การติดตั้งช่วย"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "ช่อง"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "การติดตั้งหลัก"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "เข้าถึงการปรับแต่งพิเศษ: {name1} และ {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "เข้าถึงการปรับแต่งพิเศษ: {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "เข้าถึงการปรับแต่งพิเศษ: {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "เข้าถึงการปรับแต่งพิเศษ: {name1}, {name2} และ {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "เข้าถึงการปรับแต่งแบบคู่ขั้น {numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "เข้าถึงการปรับแต่งแบบคู่ขั้น {number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "จะได้รับ: {unlockedItems}"
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "เพิ่มขั้นการปรับแต่งมาตรฐานเป็น {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "เพิ่มขั้นการปรับแต่งมาตรฐาน?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "รวม:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "การจัด"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "ประเภทที่มีให้: %(roles)"
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "ประเภทที่เลือกไว้: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "โอกาสในการกำหนดหมวดหมู่สำหรับช่องอุปกรณ์ที่สองของพาหนะคันนี้"
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "การจัดประเภทช่องที่หนึ่ง"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "การจัด (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "ประเภทช่องที่สอง"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "จัด"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "ซื้อและจัดใหม่"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "แลกเปลี่ยน"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "ยกเลิก"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "คุณสามารถจัดประเภทช่องใหม่ได้ในราคา %(price)"
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "ประเภทที่เลือกไว้จะถูกจัดไว้สำหรับช่องอุปกรณ์ที่สอง คุณสามารถจัดประเภทช่องใหม่ได้ในราคา %(price)"
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "อัตราแลกเปลี่ยน: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "การแลกเปลี่ยนล้มเหลว: จำเป็นต้องใช้อีก %(gold)"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "จัดประเภทสำหรับช่องอุปกรณ์ที่สอง"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "จัดประเภทใหม่สำหรับช่องอุปกรณ์ที่สอง"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "ไม่สามารถจัดประเภทช่องอุปกรณ์ที่สองใหม่ได้: จำเป็นต้องใช้อีก %(credits)"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "รวม:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "โอกาสในการติดตั้งหนึ่งชุดเพิ่มเติมของ{cream_Open}อุปกรณ์{cream_Open}และ{cream_Close}คำสั่ง{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "โอกาสในการติดตั้งหนึ่งชุดเพิ่มเติมของ{cream_Open}กระสุน{cream_Open}และ{cream_Close}ยุทธปัจจัย{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "การติดตั้งช่วย"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "การติดตั้งหลัก"
+
+msgid "setupTooltipView/tip"
+msgstr "คุณสามารถเปลี่ยนไปมาระหว่างการตั้งค่าหลักและการตั้งค่าตัวเลือกพาหนะได้ในโรงรถและช่วงนับถอยหลังก่อนทำการรบ"
+
+msgid "setupTooltipView/title"
+msgstr "การตั้งค่าตัวเลือก: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "%(accent)การติดตั้งช่วย%(/accent) เป็นส่วนของการตั้งค่าพาหนะที่ประกอบด้วย%(accent)อุปกรณ์และคำสั่ง%(/accent) หลังจากเข้าถึงการตั้งค่าตัวเลือกได้แล้ว คุณสามารถ%(accent)เปลี่ยนการตั้งค่า %(/accent)ของชุดการติดตั้งช่วยในช่วงนับถอยหลังก่อนทำการรบได้"
+
+msgid "slides/additionalEquipment/title"
+msgstr "การติดตั้งช่วย"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "หลังจากเพิ่มถึงขั้นการปรับแต่งภาคสนามระดับหนึ่ง ก็จะมี%(accent)การตั้งค่าตัวเลือก%(/accent)ให้กับพาหนะของคุณและคุณจะสามารถเตรียม%(accent)ชุดอุปกรณ์ กระสุน ยุทธปัจจัยและคำสั่งเพิ่มเติม%(/accent)ในโรงรถได้ ชุดดังกล่าวจะไม่มาแทนที่ชุดหลักที่มีแต่จะเป็นการเปิดโอกาสใหม่ให้คุณ คุณสามารถทำการประเมินแผนที่และการจัดทีมของคุณในช่วงนับถอยหลังก่อนเริ่มการรบและ%(accent)เลือกหนึ่งในสอง%(/accent)การตั้งค่าพาหนะที่มีและทำให้คุณพร้อมรับมือกับสถาวะการรบที่กำลังจะเกิดขึ้นได้ดีกว่าเดิม"
+
+msgid "slides/alternativeEquipment/title"
+msgstr "การตั้งค่าพาหนะตัวเลือก"
+
+msgid "slides/baseModifications/description"
+msgstr "%(accent)การปรับแต่งมาตรฐาน%(/accent)เพิ่มโบนัสให้กับ%(accent)หนึ่งค่าคุณลักษณะของพาหนะ%(/accent)และปลดล็อคการปรับแต่งแบบคู่ การปรับแต่งเหล่านี้สามารถติดตั้งได้ฟรีแต่คุณต้องใช้ประสบการณ์การรบหรือประสบการณ์อิสระในการวิจัยการปรับแต่งดังกล่าว"
+
+msgid "slides/baseModifications/title"
+msgstr "การปรับแต่งมาตรฐาน"
+
+msgid "slides/extraModification/description"
+msgstr "%(accent)การปรับแต่งพิเศษ%(/accent)จะปลดล็อคการตั้งค่าตัวเลือกให้กับพาหนะที่ทำให้คุณสามารถ%(accent)จัดประเภท%(/accent)ให้กับช่องอุปกรณ์ที่สอง (สำหรับพาหนะระดับ VIII - X) คุณสามารถจัดประเภทช่องที่เลือกไว้ได้ด้วยการใช้เงิน"
+
+msgid "slides/extraModification/title"
+msgstr "การปรับแต่งพิเศษ: ช่องบทบาท"
+
+msgid "slides/fieldModernization/description"
+msgstr "การปรับแต่งภาคสนามเป็นความสามารถในการตั้งค่าพาหนะโดยละเอียดเพื่อให้พาหนะเหมาะกับบทบาทที่มีมากขึ้นและ%(accent)เปลี่ยนคุณลักษณะบางอย่าง%(/accent)ด้วยผ่านทาง%(accent)การปรับแต่งต่างๆ%(/accent) การปรับแต่งขั้นถัดไปจะถูกปลดล็อคหลังจากที่ได้ทำการวิจัยการปรับแต่งขั้นก่อนหน้าไปแล้ว"
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "การปรับแต่งภาคสนาม"
+
+msgid "slides/fieldModernization/title"
+msgstr "กำลังเปลี่ยนคุณลักษณะพาหนะ"
+
+msgid "slides/modificationTree/description"
+msgstr "ผังการปรับแต่งจะมีให้กับพาหนะวิจัยได้และพาหนะนักสะสม%(accent)ระดับ VI–X%(/accent)ที่ได้รับ%(accent)สถานะชั้นยอด%(/accent)แล้ว การปรับแต่งสำหรับพาหนะพิเศษ, พาหนะรางวัล, พาหนะมอบให้เป็นรางวัลและพาหนะช่วงพิเศษจะมีให้หลังจากได้ทำการซื้อพาหนะคันดังกล่าวไป"
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "กำลังวิจัยการปรับแต่ง"
+
+msgid "slides/modificationTree/title"
+msgstr "กำลังวิจัยการปรับแต่ง"
+
+msgid "slides/pairedModifications/description"
+msgstr "%(accent)การปรับแต่งแบบคู่นั้นเพิ่มหนึ่ง%(/accent)ในคุณลักษณะของพาหนะและ%(accent)ลดอีกค่าหนึ่งลง%(/accent) คุณจำเป็นต้องใช้ประสบการณ์การรบหรือประสบการณ์อิสระในการวิจัยการปรับแต่งและใช้เงินในการติดตั้งการปรับแต่งดังกล่าว คุณสามารถ%(accent)ยกเลิก%(/accent)การปรับแต่ง %(accent)(ปลดจากพาหนะ)ได้ฟรี%(/accent)\nเมื่อทำการขายพาหนะ การปรับแต่งมาตรฐานและการปรับแต่งพิเศษจะถูกบันทึกเอาไว้ แต่การปรับแต่งแบบคู่จะถูกยกเลิกทั้งหมด"
+
+msgid "slides/pairedModifications/title"
+msgstr "การปรับแต่งแบบคู่"
+
+msgid "slides/requiredEquipment/description"
+msgstr "%(accent)การติดตั้งหลัก%(/accent) เป็นส่วนของการตั้งค่าพาหนะที่ประกอบด้วย%(accent)กระสุนและยุทธปัจจัย%(/accent) หลังจากเข้าถึงการตั้งค่าตัวเลือกได้แล้ว คุณสามารถ%(accent)เปลี่ยนการตั้งค่า%(accent)ของชุดการติดตั้งหลักในช่วงนับถอยหลังก่อนทำการรบได้"
+
+msgid "slides/requiredEquipment/title"
+msgstr "การติดตั้งหลัก"
+
+msgid "slides/roleInBattle/description"
+msgstr "บทบาทพาหนะนั้นต่างจากชนิดพาหนะจากการที่บทบาทจะสะท้อนให้เห็นถึง%(accent)ยุทธวิธีการรบ%(/accent)ที่เหมาะสมของพาหนะดังกล่าวมากกว่าและเป็นตัวกำหนดว่าพาหนะคันดังกล่าวจะมี%(accent)ผังการปรับแต่ง%(/accent)แบบใด"
+
+msgid "slides/roleInBattle/title"
+msgstr "บทบาทของพาหนะในการรบ"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "การปรับแต่งจะเปลี่ยนคุณลักษณะของพาหนะบางอย่าง ทำให้%(accent)สามารถเข้าถึงการตั้งค่าตัวเลือก%(/accent)และทำให้สามารถจัดประเภทของ%(accent)ช่องอุปกรณ์ที่สอง%(/accent)ได้"
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "การตั้งค่าตัวเลือกนั้นเป็นชุดที่สองของ%(accent)อุปกรณ์ กระสุน ยุทธปัจจัยและคำสั่ง%(/accent) ซึ่งทำให้คุณเปลี่ยนการตั้งค่าให้เหมาะสมกับสถานการณ์ที่จะพบก่อนเริ่มการรบได้"
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "ความสามารถในการเลือกและจัดประเภทของ%(accent)ช่องที่สอง%(/accent)ของอุปกรณ์ได้ จะมีผลโดยตรงกับประสิทธิภาพของพาหนะในการรบ"
+
+msgid "slides/specialModifications/title"
+msgstr "การปรับแต่ง, การตั้งค่าตัวเลือก, ประเภทช่องอุปกรณ์"
+
+msgid "tooltips/entry_point/description"
+msgstr "ความสามารถในการปรับคุณลักษณะพาหนะเพิ่มเติม"
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "ทำการวิจัยพาหนะกับชิ้นส่วนแล้ว: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "ทำการวิจัยชิ้นส่วนแล้ว: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "การปรับแต่งภาคสนาม"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "มีให้หลังจากทำการซื้อพาหนะดังกล่าว"
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "มีให้หลังจากได้รับสถานะชั้นยอด"
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "มีให้หลังจากทำการซื้อพาหนะและได้รับสถานะชั้นยอด"
+
+msgid "tooltips/feature/disabled/description"
+msgstr "เราขออภัยในความไม่สะดวกชั่วคราว โปรดลองใหม่ภายหลัง"
+
+msgid "tooltips/feature/disabled/title"
+msgstr "ไม่มีการปรับแต่งพิเศษให้"
+
+msgid "tooltips/feature/subTitle"
+msgstr "การปรับแต่งพิเศษ %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "หาได้จากในการรบ ขายสิ่งของเหลือใช้จากโรงเก็บของคุณหรือนำทองมาแลกเพิ่ม"
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "เงินไม่พอ"
+
+msgid "tooltips/pairModification/demount"
+msgstr "กำลังทำการปลด"
+
+msgid "tooltips/pairModification/level"
+msgstr "การปรับแต่งแบบคู่ %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "เปลี่ยนคุณลักษณะทางเทคนิค:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "การปลด ( %(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "การซื้อ (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "การซื้อ"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "คลิกเพื่อดูการเปลี่ยนแปลงกับคุณลักษณะทางเทคนิคของพาหนะหลังจากทำการซื้อการปรับแต่งนี้แล้ว"
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "ทันทีที่คุณยกเลิกการปรับแต่งนี้ คุณจะสามารถซื้อการปรับแต่งใดๆก็ได้ของคู่นี้ด้วยการใช้เงิน"
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "การซื้อการปรับแต่งนี้จะทำการยกเลิกการปรับแต่งแบบคู่ชนิดที่ติดตั้งเอาไว้แล้วโดยอัตโนมัติ"
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "ทำการซื้อการปรับแต่งอื่นแล้ว"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "เพิ่มการปรับแต่งภาคสนามให้ถึงขั้น %(level) เพื่อให้เข้าถึงการปรับแต่งนี้ได้"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "ไม่มีการปรับแต่งให้"
+
+msgid "tooltips/priceBlock/free"
+msgstr "ฟรี"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "จำเป็นต้องมี:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "เป็นตัวเลขโดยประมาณ ค่าอย่างแม่นยำจะถูกระบุไว้ในส่วนคุณลักษณะ"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "ใช้งาน"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "ยกเลิก"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "ตั้งใหม่"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "การปรับแต่ง %(title)s"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "เพิ่มเข้าการเปรียบเทียบ"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "ทำลายการปรับแต่งแบบคู่ทั้งหมด"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "คลิกเพื่อทำลายการปรับแต่งแบบคู่ทั้งหมด"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "ทำลาย"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "ตัวอย่าง"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "จัดใหม่"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "ก่อนการรบ"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "เลือก"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "เปิด/ปิดตัวเลือกในการเลือกชุดอุปกรณ์และคำสั่งในช่วงนับถอยหลังก่อนการรบ \n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "เปิด/ปิดตัวเลือกในการเลือกชุดกระสุนและยุทธปัจจัยในช่วงนับถอยหลังก่อนการรบ \n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "เมื่อปิดเอาไว้ ชุดที่เลือกเอาไว้ในโรงรถจะถูกใช้ในการรบ"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "การเปลี่ยนก่อนการรบ"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "พาหนะคันนี้อยู่ในการรบ"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "พาหนะคันนี้ถูกล็อคไว้"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "พาหนะคันนี้ต้องทำการซ่อม"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "พาหนะคันนี้อยู่ในหน่วยยุทธวิธี"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "ไม่สามารถจัดประเภทช่องได้ พาหนะดังกล่าวไม่ได้อยู่ในโรงรถ"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "หมดช่วงเช่าพาหนะคันดังกล่าวแล้ว"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "พาหนะคันนี้อยู่ในการรบ"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "พาหนะคันนี้ถูกล็อคไว้"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "พาหนะคันนี้ต้องทำการซ่อม"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "พาหนะคันนี้อยู่ในหน่วยยุทธวิธี"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "ไม่สามารถซื้อได้: พาหนะดังกล่าวไม่ได้อยู่ในโรงรถ"
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "หมดช่วงเช่าพาหนะคันดังกล่าวแล้ว"
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "คลิกเพื่อทำลายการปรับแต่งแบบคู่"
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "ทำลาย"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "หรือ"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "ขั้นสูงสุดของการปรับแต่งภาคสนาม"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "มีให้กับพาหนะระดับ {minAllowedLevel}—{maxAllowedLevel}"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "มีให้กับพาหนะระดับ {allowedLevel}"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "ซ่อนคุณลักษณะ"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "โบนัสถาวร: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "โบนัสถาวร: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "โบนัสถาวร: %(bonus1) และ %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "เพิ่มขั้นเพื่อให้ได้รับโบนัสถาวร: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "เพิ่มขั้นเพื่อให้ได้รับโบนัสถาวร: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "เพิ่มขั้นเพื่อให้ได้รับโบนัสถาวร: %(bonus1) และ %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "เพิ่มขั้น"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "เพิ่มขั้นให้ถึงขั้น %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "เพิ่มขั้นเพื่อให้ได้รับ:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "คุณลักษณะปรับปรุง"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "การปรับแต่งพิเศษ"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "การปรับแต่งพิเศษ {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "การปรับแต่งแบบคู่"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "การปรับแต่งแบบคู่ {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "ไปยังชิ้นส่วน"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "ไม่มีการปรับแต่งภาคสนามให้ พาหนะดังกล่าวยังอยู่ในการรบ"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "ไม่มีการปรับแต่งภาคสนามให้ พาหนะดังกล่าวถูกล็อคไว้"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "ไม่มีการปรับแต่งภาคสนามให้ พาหนะดังกล่าวต้องทำการซ่อม"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "ความสามารถในการเปลี่ยนคุณลักษณะพาหนะเพิ่มเติมจะมีให้ทันทีที่พาหนะได้รับสถานะชั้นยอดแล้ว"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "ไม่มีการปรับแต่งภาคสนามให้: พาหนะยังอยู่ในหน่วยยุทธวิธี"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "คุณจำเป็นต้องมีพาหนะในโรงรถเพื่อทำการวิจัยการปรับแต่งและเพิ่มขั้นการปรับแต่งภาคสนาม"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "การปรับแต่งภาคสนามไม่มีให้สำหรับพาหนะเช่า โปรดซื้อพาหนะดังกล่าวเพื่อทำการปลดล็อคการปรับแต่งภาคสนาม"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "ไม่มีการปรับแต่งภาคสนามให้: ช่วงเช่าพาหนะหมดลงแล้ว โปรดขยายช่วงเช่าเพื่อให้ปลดล็อคการปรับแต่งภาคสนามได้"
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "แสดงคุณลักษณะ"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "ความสามารถในการเปลี่ยนคุณลักษณะพาหนะเพิ่มเติม ความสามารถนี้จะมีให้ทันทีที่พาหนะได้รับสถานะชั้นยอดแล้ว"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "การปรับแต่งภาคสนาม"

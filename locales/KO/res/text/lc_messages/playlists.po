@@ -1,0 +1,116 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "card/about_vehicle"
+msgstr "전차 정보"
+
+msgid "card/unknown"
+msgstr "알 수 없는 전차"
+
+msgid "defaultName"
+msgstr "신규 목록 {{count}}"
+
+msgid "dialogs/delete/button/cancel"
+msgstr "취소"
+
+msgid "dialogs/delete/button/submit"
+msgstr "삭제"
+
+msgid "dialogs/delete/title"
+msgstr "{{playlistTitle}} 목록을 삭제하시겠습니까?"
+
+msgid "dialogs/import/button/submit"
+msgstr "가져오기"
+
+msgid "dialogs/import/input/alert"
+msgstr "올바르지 않은 코드"
+
+msgid "dialogs/import/input/message"
+msgstr "선별 전차 목록 코드"
+
+msgid "dialogs/import/title"
+msgstr "선별 전차 목록 가져오기"
+
+msgid "dialogs/save/button/cancel"
+msgstr "종료"
+
+msgid "dialogs/save/button/submit"
+msgstr "저장 후 종료"
+
+msgid "dialogs/save/title"
+msgstr "떠나기 전에 선별 전차 목록을 저장하시겠습니까?"
+
+msgid "editScreen/button/exit"
+msgstr "종료"
+
+msgid "editScreen/button/save"
+msgstr "목록 저장"
+
+msgid "editScreen/create/body"
+msgstr "+ 버튼을 누르거나 전차를 이곳으로 드래그하여 신규 목록에 추가"
+
+msgid "editScreen/create/title"
+msgstr "전차 추가"
+
+msgid "editScreen/input/placeholder"
+msgstr "선별 전차 목록 이름 입력"
+
+msgid "edit_button/body"
+msgstr "편집 모드에서 선별 전차 목록을 편집하거나 제거"
+
+msgid "edit_button/title"
+msgstr "편집 모드"
+
+msgid "empty_state/empty_list/body"
+msgstr "편집 모드에서 해당 선별 전차 목록에 전차를 추가하십시오."
+
+msgid "empty_state/empty_list/title"
+msgstr "목록 비어 있음"
+
+msgid "empty_state/not_found/body"
+msgstr "추가 결과를 보려면 필터 설정을 조정하십시오."
+
+msgid "empty_state/not_found/title"
+msgstr "전차 찾을 수 없음"
+
+msgid "imports/trigger"
+msgstr "선별 전차 목록 가져오기"
+
+msgid "list/create"
+msgstr "선별 전차 목록 생성"
+
+msgid "list/remove"
+msgstr "선별 전차 목록 삭제"
+
+msgid "managaeble_playlists/buttons/cancel/title"
+msgstr "취소"
+
+msgid "managaeble_playlists/buttons/create/tooltipBody"
+msgstr "선별 전차 목록 생성"
+
+msgid "managaeble_playlists/buttons/manage/tooltipBody"
+msgstr "선별 전차 목록"
+
+msgid "managaeble_playlists/buttons/save/title"
+msgstr "저장"
+
+msgid "managaeble_playlists/header/title"
+msgstr "선별 전차 목록 선택"
+
+msgid "share/copy_button/body"
+msgstr "선별 전차 목록 가져오기에 필요한 목록 코드 복사"
+
+msgid "share/copy_button/title"
+msgstr "선별 전차 목록 코드 복사"
+
+msgid "trigger/explain"
+msgstr "메뉴를 통해 선별 전차 목록 확인 및 전환"
+
+msgid "unnamedTemplate"
+msgstr "무제 목록 {{count}}"
+
+msgid "validation/unavailable/body"
+msgstr "해당 선별 전차 목록에는 차고에 없는 전차가 포함되어 있습니다.\n편집 모드에서 해당 목록에 포함된 전차를 모두 확인할 수 있습니다."
+
+msgid "validation/unavailable/title"
+msgstr "일부 전차 이용 불가({{display}}/{{total}})"

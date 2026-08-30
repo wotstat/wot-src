@@ -1,0 +1,689 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CSAnimation/applyBtn/label"
+msgstr "了解！"
+
+msgid "CSAnimation/description"
+msgstr "恭喜 您的隊伍已進入了下個分組。做得不錯！"
+
+msgid "CSAnimation/header"
+msgstr "變更分組"
+
+msgid "InvitesAndRequestsWindow/accepted"
+msgstr "已接受"
+
+msgid "InvitesAndRequestsWindow/cancelled"
+msgstr "已取消"
+
+msgid "InvitesAndRequestsWindow/officerDescription"
+msgstr "隊伍成員 — 手動建立有著好友及合適玩家的隊伍。"
+
+msgid "InvitesAndRequestsWindow/onlyInvitesCheckbox"
+msgstr "只顯示已送出的邀請"
+
+msgid "InvitesAndRequestsWindow/ownerDescription"
+msgstr "隊伍成員 — 手動建立有著好友及合適玩家的隊伍。"
+
+msgid "InvitesAndRequestsWindow/playerName"
+msgstr "名稱"
+
+msgid "InvitesAndRequestsWindow/rejected"
+msgstr "已拒絕"
+
+msgid "InvitesAndRequestsWindow/status"
+msgstr "狀態"
+
+msgid "InvitesAndRequestsWindow/title"
+msgstr "已送出的邀請和已送出的申請"
+
+msgid "InvitesAndRequestsWindow/windowTitle"
+msgstr "申請與邀請"
+
+msgid "StaticFormationStatsView/seasonFilter"
+msgstr "統計："
+
+msgid "TextLoading/loading"
+msgstr "載入中"
+
+msgid "button/chooseVehicles/info/tooltip/description/notSelected"
+msgstr "尚未選擇車輛。無法開始自動搜尋。"
+
+msgid "button/chooseVehicles/info/tooltip/description/notValid"
+msgstr "所選車輛尚未準備好。無法開始自動搜尋。"
+
+msgid "button/chooseVehicles/info/tooltip/description/valid"
+msgstr "已選擇所需的車輛。您可開始自動搜尋。"
+
+msgid "button/chooseVehicles/info/tooltip/title"
+msgstr "選擇車輛"
+
+msgid "button/chooseVehicles/selected"
+msgstr "所選車輛"
+
+msgid "button/medallion/addSlotSettings"
+msgstr "增加"
+
+msgid "button/medallion/availableQuantity"
+msgstr "需求："
+
+msgid "button/medallion/chooseVehicle"
+msgstr "選擇車輛"
+
+msgid "introView/leftBlock/btnLabel"
+msgstr "搜尋"
+
+msgid "introView/leftBlock/descr"
+msgstr "從現有名單中選擇一支合適的隊伍。您必須符合其指揮官的要求。"
+
+msgid "introView/leftBlock/header"
+msgstr "搜尋隊伍"
+
+msgid "introView/rightBlock/btnLabel"
+msgstr "建立"
+
+msgid "introView/rightBlock/descr"
+msgstr "跟有著合適車輛的好友或玩家一起建立隊伍。"
+
+msgid "introView/rightBlock/header"
+msgstr "建立隊伍"
+
+msgid "rallyInfo/profileBtn/Label"
+msgstr "隊伍資料"
+
+msgid "respawn/chatHeader"
+msgstr "聊天頻道"
+
+msgid "respawn/enemyTeamStatus/Header"
+msgstr "敵方隊伍："
+
+msgid "respawn/enemyTeamStatus/notReady"
+msgstr "尚未準備好"
+
+msgid "respawn/enemyTeamStatus/ready"
+msgstr "已經準備好！"
+
+msgid "respawn/fight/label"
+msgstr "隊伍已經準備好！"
+
+msgid "respawn/fight/status/commander"
+msgstr "請確認隊伍已經準備好。"
+
+msgid "respawn/fight/status/private"
+msgstr "等待戰鬥中..."
+
+msgid "respawn/status/info"
+msgstr "於分配的時間內選擇一輛車。"
+
+msgid "respawn/status/ready"
+msgstr "等待戰鬥開始..."
+
+msgid "respawn/status/warning"
+msgstr "請確認您已經準備好。"
+
+msgid "respawn/team/points"
+msgstr "車輛總階數："
+
+msgid "respawn/team/teamMembers"
+msgstr "隊伍成員：%(current)s / %(max)s"
+
+msgid "respawn/team/teamVehiclesStub"
+msgstr "車輛：VI–VIII"
+
+msgid "selectedFormation/JoinUnitSection/header"
+msgstr "選擇的戰鬥房"
+
+msgid "squadWindow/waitingForBattle"
+msgstr "裝甲排已在戰鬥佇列中"
+
+msgid "unitView/header"
+msgstr "戰鬥房"
+
+msgid "window/autoSearch/confirmation/cancelLbl"
+msgstr "取消"
+
+msgid "window/autoSearch/confirmation/ctxMessage"
+msgstr "剩餘確認時間："
+
+msgid "window/autoSearch/confirmation/ctxSeconds"
+msgstr "秒"
+
+msgid "window/autoSearch/confirmation/headerText"
+msgstr "已找到隊伍"
+
+msgid "window/autoSearch/confirmation/mainText"
+msgstr "確認準備就緒"
+
+msgid "window/autoSearch/confirmation/submitlLbl"
+msgstr "已經準備好！"
+
+msgid "window/autoSearch/errorState/cancelLbl"
+msgstr "取消"
+
+msgid "window/autoSearch/errorState/ctxMessage"
+msgstr "搜尋一個新的隊伍？"
+
+msgid "window/autoSearch/errorState/headerText"
+msgstr "已逾時"
+
+msgid "window/autoSearch/errorState/mainText"
+msgstr "已找到隊伍，\n但您沒有確認準備就緒。"
+
+msgid "window/autoSearch/errorState/submitlLbl"
+msgstr "搜尋"
+
+msgid "window/autoSearch/searchCommand/cancelLbl"
+msgstr "取消"
+
+msgid "window/autoSearch/searchCommand/ctxMessage"
+msgstr "平均等待時間："
+
+msgid "window/autoSearch/searchCommand/cxtDnmMessage"
+msgstr "%d 分"
+
+msgid "window/autoSearch/searchCommand/mainText"
+msgstr "搜索適合的隊伍"
+
+msgid "window/autoSearch/searchEnemy/mainText"
+msgstr "等待戰鬥中..."
+
+msgid "window/autoSearch/searchEnemyRespawn/mainText"
+msgstr "等待敵人中..."
+
+msgid "window/autoSearch/waitingPlayers/mainText"
+msgstr "等待玩家..."
+
+msgid "window/backBtnLbl"
+msgstr "返回"
+
+msgid "window/intro/auto/btn"
+msgstr "自動搜尋"
+
+msgid "window/intro/auto/btn/tooltip/description/disabled"
+msgstr "無法找到隊伍。車輛尚未選擇或尚未準備好加入戰鬥。"
+
+msgid "window/intro/auto/btn/tooltip/description/enabled"
+msgstr "點選以自動搜尋隊伍並立即加入戰鬥。"
+
+msgid "window/intro/auto/btn/tooltip/title"
+msgstr "自動搜尋"
+
+msgid "window/intro/auto/btnLbl"
+msgstr "開始自動搜尋"
+
+msgid "window/intro/auto/description"
+msgstr "隊伍玩家將會自動配對。"
+
+msgid "window/intro/auto/title"
+msgstr "按評價自動搜尋"
+
+msgid "window/intro/auto/vehicleLbl"
+msgstr "所選車輛："
+
+msgid "window/intro/create/btn/addPlayers"
+msgstr "邀請"
+
+msgid "window/intro/create/btn/assembleTeam"
+msgstr "集結隊伍"
+
+msgid "window/intro/create/btn/joinTeam"
+msgstr "加入"
+
+msgid "window/intro/create/btn/look"
+msgstr "隊伍名單"
+
+msgid "window/intro/create/btn/private/seeStaff"
+msgstr "隊伍成員"
+
+msgid "window/intro/description"
+msgstr "每隊各有 7 名玩家參加。\n車輛限定為 VI–VIII 階。隊伍的車輛總階數必須為 54。"
+
+msgid "window/intro/search/btn"
+msgstr "搜尋"
+
+msgid "window/intro/search/description"
+msgstr "從現有名單中選擇一支合適的隊伍。您必須符合其指揮官的要求。"
+
+msgid "window/intro/search/title"
+msgstr "搜尋隊伍"
+
+msgid "window/intro/team/description/createBattleRoom"
+msgstr "建立戰鬥房"
+
+msgid "window/intro/title"
+msgstr "隊伍戰鬥"
+
+msgid "window/intro/unavailableWaiting"
+msgstr "等待中..."
+
+msgid "window/rosterSlotSettings/bottomResult"
+msgstr "已選擇："
+
+msgid "window/rosterSlotSettings/tabBtnLbl/range"
+msgstr "範圍"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/vehicle"
+msgstr "車輛"
+
+msgid "window/rosterSlotSettings/title"
+msgstr "設置需求"
+
+msgid "window/rosterSlotSettings/vehicleTab/cancelBtn"
+msgstr "取消"
+
+msgid "window/rosterSlotSettings/vehicleTab/headerText"
+msgstr "指定您所需的隊友車輛。"
+
+msgid "window/rosterSlotSettings/vehicleTab/nationFieldSet"
+msgstr "國家"
+
+msgid "window/rosterSlotSettings/vehicleTab/submitBtn"
+msgstr "選擇"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleLevel"
+msgstr "車輛階級"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleType"
+msgstr "車輛類型"
+
+msgid "window/staticRallyInfo/cancelBtnLabel"
+msgstr "撤銷"
+
+msgid "window/staticRallyInfo/joinBtnLabel"
+msgstr "送出申請"
+
+msgid "window/staticRallyInfo/joinInfo/alreadyJoined"
+msgstr "您已經是隊伍的一員。"
+
+msgid "window/staticRallyInfo/joinInfo/applicationCooldown"
+msgstr "無法送出申請。"
+
+msgid "window/staticRallyInfo/joinInfo/inProcess"
+msgstr "申請正等待批准"
+
+msgid "window/staticRallyInfo/joinInfo/inProcessOther"
+msgstr "申請已經送出。"
+
+msgid "window/staticRallyInfo/joinInfo/join"
+msgstr "送出申請"
+
+msgid "window/staticRallyInfo/ladderInfo"
+msgstr "天梯 %(league)s。分組 %(division)s。"
+
+msgid "window/staticRallyInfo/noAwards"
+msgstr "沒有獎項"
+
+msgid "window/staticRallyInfo/noRallySelected"
+msgstr "從左邊名單上選擇隊伍\n以檢視詳細的描述。"
+
+msgid "window/staticRallyInfo/staticRally/statsWinsPercent"
+msgstr "勝利"
+
+msgid "window/staticRallyInfo/statsBattlesCount"
+msgstr "戰鬥"
+
+msgid "window/title"
+msgstr "隊伍戰鬥"
+
+msgid "window/unit/applySlotsSettings"
+msgstr "接受"
+
+msgid "window/unit/autoRecruit"
+msgstr "招募"
+
+msgid "window/unit/cancelSlotSettings"
+msgstr "取消"
+
+msgid "window/unit/candidates"
+msgstr "志願兵"
+
+msgid "window/unit/candidates/legionaries"
+msgstr "傭兵"
+
+msgid "window/unit/candidates/team"
+msgstr "隊伍"
+
+msgid "window/unit/chat"
+msgstr "聊天頻道"
+
+msgid "window/unit/closeRoom"
+msgstr "──房間已顯示"
+
+msgid "window/unit/description"
+msgstr "每隊各有 7 名參加者。\n車輛限制在 VI–VIII 階。一支隊伍的車輛總階數必須為 54。"
+
+msgid "window/unit/descriptionDefault"
+msgstr "增加描述 —"
+
+msgid "window/unit/fight"
+msgstr "加入戰鬥!"
+
+msgid "window/unit/inviteFriend"
+msgstr "邀請玩家"
+
+msgid "window/unit/leave"
+msgstr "離開房間"
+
+msgid "window/unit/lockSlot"
+msgstr "鎖定位置"
+
+msgid "window/unit/message/candidate"
+msgstr "隊伍指揮官會將您加入到隊伍中。"
+
+msgid "window/unit/message/curfew"
+msgstr "休戰期"
+
+msgid "window/unit/message/falloutGroupNotReady"
+msgstr "您的其中一輛車尚未準備好戰鬥"
+
+msgid "window/unit/message/falloutLevel"
+msgstr "您至少需要一輛 %(level)s 階車輛"
+
+msgid "window/unit/message/falloutMin/levelRange"
+msgstr "加入 %(level)s 階車輛到該團隊"
+
+msgid "window/unit/message/falloutMin/requiredLevel"
+msgstr "選擇 %(level)s 階車輛"
+
+msgid "window/unit/message/fortificationNotAvailable"
+msgstr "根據地：戰鬥模式暫時無法使用"
+
+msgid "window/unit/message/getNotReady"
+msgstr "點擊以表明您還尚未準備好"
+
+msgid "window/unit/message/getReady"
+msgstr "請確認您已準備好要加入戰鬥。"
+
+msgid "window/unit/message/has_frozen_vehicles"
+msgstr "分遣隊有一輛遭摧毀的車輛"
+
+msgid "window/unit/message/in_players_matching"
+msgstr "分遣隊已經準備好：自動召集傭兵..."
+
+msgid "window/unit/message/inactivePeriphery"
+msgstr " "
+
+msgid "window/unit/message/inactivePeripheryBattle"
+msgstr "您可以在進階戰開始前 10 分鐘確認自己是否已經就緒"
+
+msgid "window/unit/message/inactivePeripherySortie"
+msgstr "您可以在前哨戰開始前 10 分鐘確認自己是否已經就緒"
+
+msgid "window/unit/message/invalidLevelError/6"
+msgstr "每隊允許不超過一輛 VI 階車輛。"
+
+msgid "window/unit/message/invalidLevelError/6_7"
+msgstr "VI 階與 VII 階車輛不允許在同一隊伍。"
+
+msgid "window/unit/message/invalidLevelError/7"
+msgstr "每隊只允許兩輛 VII 階車輛。"
+
+msgid "window/unit/message/invalidLevelError/unresolved"
+msgstr "沒有滿足車輛階級的要求。"
+
+msgid "window/unit/message/level"
+msgstr "車輛的總階級數不足。需要：%(level)d"
+
+msgid "window/unit/message/maintenance"
+msgstr "模式暫時無法使用"
+
+msgid "window/unit/message/minSlots"
+msgstr "不完整"
+
+msgid "window/unit/message/play_limits_is_active"
+msgstr "已超過時間限制。您無法再加入新的戰鬥。"
+
+msgid "window/unit/message/previewVehicleIsPresent"
+msgstr "回到車庫以選擇車輛"
+
+msgid "window/unit/message/ready"
+msgstr "分遣隊已經準備好：搜尋敵人中..."
+
+msgid "window/unit/message/squadInBattle"
+msgstr "裝甲排戰鬥中"
+
+msgid "window/unit/message/takeSlotInRoster"
+msgstr "加入分遣隊"
+
+msgid "window/unit/message/unitIsFull"
+msgstr "指揮官會將您加入到隊伍中。"
+
+msgid "window/unit/message/unitIsLocked"
+msgstr "您不是隊伍成員。位置已固定。"
+
+msgid "window/unit/message/vehicleInNotReady/broken"
+msgstr "車輛尚未準備好加入戰鬥：需要修理。"
+
+msgid "window/unit/message/vehicleInNotReady/crewNotFull"
+msgstr "車輛尚未準備好加入戰鬥：乘員不完整。"
+
+msgid "window/unit/message/vehicleInNotReady/isInBattle"
+msgstr "車輛戰鬥中"
+
+msgid "window/unit/message/vehicleInNotReady/notEnoughVehicles"
+msgstr "適用車輛不足"
+
+msgid "window/unit/message/vehicleInNotReady/rentIsOver"
+msgstr "車輛尚未準備好加入戰鬥：租用期已結束。"
+
+msgid "window/unit/message/vehicleInNotReady/rotationGroupLocked"
+msgstr "車輛尚未準備好加入戰鬥：團隊 %(groupNum)s 已被鎖定。"
+
+msgid "window/unit/message/vehicleInNotReady/wrongMode"
+msgstr "所選擇的車輛並不適合此戰鬥模式"
+
+msgid "window/unit/message/vehicleInNotReady/wrongUnitData"
+msgstr "所選車輛不符合裝甲排指揮官參數"
+
+msgid "window/unit/message/vehicleNotSelected"
+msgstr "選擇用來加入戰鬥的車輛。"
+
+msgid "window/unit/message/vehicleNotValid"
+msgstr "車輛尚未準備好加入戰鬥。"
+
+msgid "window/unit/message/vehicleNotValidForEvent"
+msgstr "所選擇的車輛並不適合此模式"
+
+msgid "window/unit/message/waitCommander"
+msgstr "等候指揮官的決定中..."
+
+msgid "window/unit/message/waiting"
+msgstr "等待玩家準備好..."
+
+msgid "window/unit/notReady"
+msgstr "尚未準備好"
+
+msgid "window/unit/openRoom"
+msgstr "──房間已隱藏"
+
+msgid "window/unit/rangeValue"
+msgstr "%(minVal)s – %(maxVal)s"
+
+msgid "window/unit/ready"
+msgstr "已經準備好！"
+
+msgid "window/unit/rosterSettingsView/or"
+msgstr "或"
+
+msgid "window/unit/slot/battleRoyale"
+msgstr "還需要一名玩家"
+
+msgid "window/unit/slot/emptySlot"
+msgstr "空"
+
+msgid "window/unit/slot/freezed"
+msgstr "已固定"
+
+msgid "window/unit/slot/locked"
+msgstr "已鎖定"
+
+msgid "window/unit/slot/notAllowed"
+msgstr "已鎖定"
+
+msgid "window/unit/slot/notAvailable"
+msgstr "已鎖定"
+
+msgid "window/unit/slot/required"
+msgstr "邀請玩家。"
+
+msgid "window/unit/slot/takePlace"
+msgstr "就位"
+
+msgid "window/unit/slotHeaderText"
+msgstr "設置需求"
+
+msgid "window/unit/slotSecondText"
+msgstr "增加要求，指定您隊伍想要的車輛。當新增玩家到隊伍時，車輛要求就不予計算。"
+
+msgid "window/unit/team"
+msgstr "隊伍"
+
+msgid "window/unit/teamMembers"
+msgstr "位置：%(current)s / %(max)s"
+
+msgid "window/unit/teamPoints"
+msgstr "總階數："
+
+msgid "window/unit/teamVehicles"
+msgstr "車輛："
+
+msgid "window/unit/teamVehiclesLbl"
+msgstr "車輛：%(levelsRange)s"
+
+msgid "window/unit/teamVehiclesStub"
+msgstr "車輛：VI–VIII"
+
+msgid "window/unit/unitListView/captain"
+msgstr "隊伍指揮官"
+
+msgid "window/unit/unitListView/clubName"
+msgstr "隊伍名稱"
+
+msgid "window/unit/unitListView/commander"
+msgstr "指揮官"
+
+msgid "window/unit/unitListView/description"
+msgstr "描述"
+
+msgid "window/unit/unitListView/paginationDown"
+msgstr "較弱"
+
+msgid "window/unit/unitListView/paginationUp"
+msgstr "較強"
+
+msgid "window/unit/unitListView/players"
+msgstr "組成"
+
+msgid "window/unit/unitName"
+msgstr "隊伍 %(commanderName)s"
+
+msgid "window/unit/unlockSlot"
+msgstr "解鎖位置"
+
+msgid "window/unitListView/create/btn"
+msgstr "建立房間"
+
+msgid "window/unitListView/enterBtn/common"
+msgstr "志願兵"
+
+msgid "window/unitListView/enterBtn/legionary"
+msgstr "加入"
+
+msgid "window/unitListView/enterBtn/member"
+msgstr "加入"
+
+msgid "window/unitListView/enterText/legionary"
+msgstr "作為傭兵加入"
+
+msgid "window/unitListView/enterText/member"
+msgstr "加入隊伍"
+
+msgid "window/unitListView/foundTeamsDescription"
+msgstr "下面所列出的隊伍都正在尋找玩家且有著空位。"
+
+msgid "window/unitListView/noItems"
+msgstr "找不到隊伍。"
+
+msgid "window/unitListView/noSearchResults/btn"
+msgstr "回到名單"
+
+msgid "window/unitListView/noSearchResults/description"
+msgstr "找不到用此名稱的隊伍。"
+
+msgid "window/unitListView/noSearchResults/header"
+msgstr "沒有搜尋結果"
+
+msgid "window/unitListView/noTeams/description"
+msgstr "目前找不到符合搜尋條件的隊伍。請稍後再試。"
+
+msgid "window/unitListView/noTeams/header"
+msgstr "找不到隊伍"
+
+msgid "window/unitListView/noUnitSelected"
+msgstr "從左邊名單中選擇隊伍\n以檢視詳細說明。"
+
+msgid "window/unitListView/refreshList"
+msgstr "更新名單"
+
+msgid "window/unitListView/renderer/next"
+msgstr "下一個"
+
+msgid "window/unitListView/renderer/previous"
+msgstr "上一個"
+
+msgid "window/unitListView/renderer/requiredVehicles"
+msgstr "所需車輛"
+
+msgid "window/unitListView/renderer/showMore"
+msgstr "顯示 20 個以上"
+
+msgid "window/unitListView/selectedTeam"
+msgstr "隊伍"
+
+msgid "window/unitListView/sort/label"
+msgstr "評價："
+
+msgid "window/unitListView/team"
+msgstr "組成"
+
+msgid "window/unitListView/teamDescription"
+msgstr "隊伍說明"
+
+msgid "window/unitListView/title"
+msgstr "戰鬥房"
+
+msgid "window/unitListView/vehicles"
+msgstr "車輛"
+
+msgid "window/vehicleSelector/buttons/cancel"
+msgstr "取消"
+
+msgid "window/vehicleSelector/buttons/select"
+msgstr "選擇"
+
+msgid "window/vehicleSelector/filters/all"
+msgstr "所有"
+
+msgid "window/vehicleSelector/filters/allLevels"
+msgstr "所有階級"
+
+msgid "window/vehicleSelector/filters/level"
+msgstr "%(levelNum)d 階"
+
+msgid "window/vehicleSelector/filters/matches"
+msgstr "只顯示適合的車輛"
+
+msgid "window/vehicleSelector/info/intro"
+msgstr "您將會以所選之一的車輛加入戰鬥。允許階級： VI–VIII。\n\n要玩得更自在，請選擇輕型、中型或重型戰車。"
+
+msgid "window/vehicleSelector/info/respawn"
+msgstr "請選擇一輛您想用來加入戰鬥的 VI–VIII 階車輛。"
+
+msgid "window/vehicleSelector/info/search"
+msgstr "您會以所選之一的車輛來加入戰鬥。可用車階：VI–VIII"
+
+msgid "window/vehicleSelector/info/unit"
+msgstr "請選擇一輛您想用來加入戰鬥的 VI–VIII 階車輛。"
+
+msgid "window/vehicleSelector/title"
+msgstr "選擇車輛"

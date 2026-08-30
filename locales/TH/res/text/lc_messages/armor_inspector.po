@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "เกราะหลัก"
+
+msgid "armorValues/title/no_damage"
+msgstr "ไม่มีความเสียหาย"
+
+msgid "armorValues/title/other"
+msgstr "อื่นๆ"
+
+msgid "armorValues/title/penetration"
+msgstr "โอกาสเจาะเกราะ"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "สะท้อน"
+
+msgid "armorValues/title/spaced"
+msgstr "เกราะกลวง"
+
+msgid "armorValues/title/values"
+msgstr "(มม.)"
+
+msgid "attackerTitle"
+msgstr "การปรับหน่วยจู่โจม"
+
+msgid "attackerTooltip/body"
+msgstr "คลิกเพื่อเปลี่ยนยานเกราะจู่โจม"
+
+msgid "attackerTooltip/header"
+msgstr "ยานเกราะจู่โจม"
+
+msgid "menu/header"
+msgstr "ชนิดหน้าจอซ้อนทับ"
+
+msgid "menu/no_armor"
+msgstr "ไม่มีหน้าจอซ้อนทับ"
+
+msgid "menu/nominal"
+msgstr "เกราะตามกำหนด"
+
+msgid "menu/penetration"
+msgstr "โอกาสเจาะเกราะ"
+
+msgid "modules/current"
+msgstr "การปรับแต่งปัจจุบัน"
+
+msgid "modules/custom"
+msgstr "การปรับแต่งเฉพาะตัว"
+
+msgid "modules/standard"
+msgstr "การปรับแต่งมาตรฐาน"
+
+msgid "modules/title"
+msgstr "ชิ้นส่วนพาหนะ"
+
+msgid "modules/top"
+msgstr "การปรับแต่งสูงสุด"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}} x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "ตัวถัง"
+
+msgid "tooltip/armor/part/gun"
+msgstr "ปืน"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "แผ่นเกราะปืน"
+
+msgid "tooltip/armor/part/hull"
+msgstr "ตัวถัง"
+
+msgid "tooltip/armor/part/screen"
+msgstr "แผงเกราะ"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "กล้องสังเกตการณ์"
+
+msgid "tooltip/armor/part/turret"
+msgstr "ป้อมปืน"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "ล้อ"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} มม."
+
+msgid "tooltip/dcc/no_damage"
+msgstr "ไม่มีความเสียหาย"
+
+msgid "tooltip/dcc/penetration"
+msgstr "การเจาะเกราะ"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "สะท้อน"
+
+msgid "tooltip/minor/angle/description"
+msgstr "มุมของขีปนวิถีกระสุนและเส้นตั้งฉากกับแผ่นเกราะ\n\nขีปนวิถีกระสุนนั้นจะคำนวณราวกับว่ากระสุนพุ่งเป็นเส้นตรงจากกลางหน้าจอ"
+
+msgid "tooltip/minor/angle/header"
+msgstr "มุมปะทะ"
+
+msgid "tooltip/minor/damage/description"
+msgstr "โอกาสเจาะเกราะข้าศึกและทำความเสียหายพาหนะข้าศึก"
+
+msgid "tooltip/minor/damage/header"
+msgstr "โอกาสเจาะเกราะ"
+
+msgid "tooltip/minor/effective/description"
+msgstr "สำหรับชั้นเกราะเดียว เกราะใช้งานจริงคือค่าเกราะที่ปรับโดยมุมปะทะและการปรับค่ามาตรฐานกระสุน\n\nถ้ามีเกราะหลายชั้นที่จุดปะทะ ผลที่ได้จะเป็นค่ารวมของเกราะใช้งานจริงของแต่ละชั้น"
+
+msgid "tooltip/minor/effective/header"
+msgstr "เกราะใช้งานจริง"
+
+msgid "tooltip/minor/header"
+msgstr "คำอธิบาย"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "การยิงเข้าเกราะกลวงนั้นจะไม่ทำความเสียหายพาหนะเว้นเสียแต่กระสุนจะปะทะและเจาะเข้าเกราะหลักหลังจากนั้น"
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "ไม่มีความเสียหาย"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "ความกว้างจริงของแผ่นเกราะหลักหรือเกราะกลวง"
+
+msgid "tooltip/minor/nominal/header"
+msgstr "เกราะตามกำหนด"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "กระสุนที่กระทบเกราะข้าศึกในมุมสะท้อนจะสะท้อนออก อย่างไรก็ตาม กระสุนอาจจะพุ่งไปยังยานเกราะคันอื่นหรือสะท้อนไปยังจุดอื่นของยานเกราะคันเดิม"
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "สะท้อน"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "มีผลการคำนวณเกราะใช้งานจริงและโอกาสเจาะเกราะ\n\nจะใช้ระยะ 100 เมตรสำหรับการคำนวณทั้งหมด (กระสุนเจาะเกราะและเจาะเกราะหัวผสมแกนแข็งจะเจาะเกราะได้น้อยลงเมื่อระยะยิงไกลขึ้น)\n\nความสามารถพลรถถังและส่วนยกระดับยานเกราะจู่โจมจะไม่มีผลกับการคำนวณ"
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "การปรับหน่วยจู่โจม"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "โอกาสในการเจาะเกราะข้าศึกและทำความเสียหายยานเกราะ\n\nการยิงเข้าเกราะกลวงจะไม่ทำความเสียหายยานเกราะเว้นเสียแต่ว่ากระสุนยิงเข้าเป้าแล้วเจาะเกราะหลักที่อยู่หลังเกราะกลวงได้"
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "โอกาสเจาะเกราะ"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "พาหนะจะเสียหายก็ต่อเมื่อเกราะหลักถูกยิงและเจาะเข้า กระสุนระเบิดแรงสูงสามารถทำความเสียหายลดลงต่อพาหนะแม้จะเจาะไม่เข้า อย่างไรก็ตาม กระสุนยังต้องเจาะเข้าไปกระทบเกราะหลักได้"
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "เกราะหลัก"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "การยิงเข้าเกราะกลวงจะไม่ทำความเสียหายกับพาหนะเว้นเสียแต่กระสุนกระทบและเจาะเข้าเกราะหลักหลังจากนั้น\n\nการยิงเข้าและเจาะเกราะชิ้นส่วนภายนอกจะทำความเสียหายชิ้นส่วนดังกล่าวโดยตรง: การยิงเข้าตีนตะขาบเพื่อทำให้พาหนะแล่นไม่ได้, ยิงเข้าที่ตัวปืนเพื่อให้ยิงไม่ได้หรือยิงเข้ากล้องสังเกตการณ์เพื่อลดระยะการมองเห็นของพาหนะ"
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "ไม่มีความเสียหาย"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "มุมการสะท้อนของกระสุนจะอยู่ที่ 70 องศาสำหรับกระสุนเจาะเกราะและกระสุนเจาะเกราะหัวผสมแกนแข็งและมุม 85 องศาสำหรับกระสุนระเบิดแรงสูงต่อต้านรถถัง\n\nกระสุนเจาะเกราะและกระสุนเจาะเกราะหัวผสมแกนแข็งจะเสียการเจาะเกราะ 25% หลังสะท้อน\n\nกระสุนระเบิดแรงสูงจะไม่มีการสะท้อนการสะท้อนจะไม่เกิดขึ้นถ้าขนาดลำกล้องกระสุนนั้นมากกว่าความหนาเกราะตามกำหนดที่จุดปะทะสามเท่าขึ้นไป (นี่จะมีผลกับกระสุนเจาะเกราะและกระสุนเจาะเกราะหัวผสมแกนแข็งเท่านั้น)"
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "สะท้อน"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "การยิงเข้าเกราะกลวงจะไม่ทำความเสียหายกับพาหนะเว้นเสียแต่กระสุนกระทบและเจาะเข้าเกราะหลักหลังจากนั้น\n\nการยิงเข้าและเจาะเกราะชิ้นส่วนภายนอกจะทำความเสียหายชิ้นส่วนดังกล่าวโดยตรง: การยิงเข้าตีนตะขาบเพื่อทำให้พาหนะแล่นไม่ได้, ยิงเข้าที่ตัวปืนเพื่อให้ยิงไม่ได้หรือยิงเข้ากล้องสังเกตการณ์เพื่อลดระยะการมองเห็นของพาหนะ\n\nมุมปะทะนั้นจะไม่ใช้กับชิ้นส่วนภายนอก(เช่นตีนตะขาบและปืน) ซึ่งในส่วนนี้ เกราะใช้งานจริงจะเท่ากับค่าเกราะตามระบุ"
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "เกราะกลวง"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} มม."
+
+msgid "videoTooltip"
+msgstr "ชมวีดิโอกลไกการเจาะเกราะ"

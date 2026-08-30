@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "abilities/adaptationHealthRestore"
+msgstr "適應性裝甲"
+
+msgid "abilities/adaptationHealthRestoreDescription"
+msgstr "立即為車輛恢復部分血量。能力的作用期間，所有來自砲彈與戰鬥能力的傷害將累積並轉換為血量；並且能力作用結束時，將在特定半徑內額外恢復車輛的部分血量，多寡取決於受到的傷害。轉換的血量也能讓小範圍內的隊友車輛恢復血量。"
+
+msgid "abilities/airstrike"
+msgstr "空襲行動"
+
+msgid "abilities/airstrikeDescription"
+msgstr "在所選範圍內引發炸彈爆炸，震盪敵方車輛並造成傷害。"
+
+msgid "abilities/berserk"
+msgstr "淌血升能"
+
+msgid "abilities/berserkDescription"
+msgstr "大幅提升車輛特性與穿透力，但在特定時間內持續削減車輛血量。"
+
+msgid "abilities/brander"
+msgstr "自爆戰車"
+
+msgid "abilities/branderDescription"
+msgstr "部署自走地雷戰車，其將追逐鄰近敵人並在引爆時於小範圍內造成傷害。敵人可透過射擊或衝撞自爆戰車將其摧毀。自爆戰車在觸及目標時會造成額外的衝撞傷害。"
+
+msgid "abilities/clingBrander"
+msgstr "戰地機器人"
+
+msgid "abilities/clingBranderDescription"
+msgstr "呼叫裝備有敵我識別系統的自動戰車，會追逐並攻擊最鄰近的敵人。此戰車可被摧毀。"
+
+msgid "abilities/corrodingShot"
+msgstr "強酸砲彈"
+
+msgid "abilities/corrodingShotDescription"
+msgstr "為砲彈加入腐蝕特性。對敵方車輛造成傷害時，砲彈會對車輛套用暫時性的效果，在作用期間造成額外傷害。 「工具包」可用來移除此效果。"
+
+msgid "abilities/extremeConcentration"
+msgstr "目標追蹤"
+
+msgid "abilities/extremeConcentrationDescription"
+msgstr "暫時降低炮管擴散度，縮短瞄準時間，提高射速，以及改善炮管穩定性。不會影響發射一發砲彈後，直到彈匣、炮管或短彈匣中裝填下一發砲彈之間的間隔時間。"
+
+msgid "abilities/fireCircle"
+msgstr "熾熱火環"
+
+msgid "abilities/fireCircleDescription"
+msgstr "將敵方車輛包覆在熾熱火焰中，會對能力作用範圍內的車輛造成傷害並降低車輛的機動性。"
+
+msgid "abilities/minefield"
+msgstr "地雷區"
+
+msgid "abilities/minefieldDescription"
+msgstr "在所選範圍內部署具殺傷力的地雷區，效果持續一段時間。接觸地雷的敵方車輛將受到震盪與爆炸傷害。地雷可透過射擊摧毀。部署在敵方車輛下方的地雷將不會爆炸。"
+
+msgid "abilities/nitro"
+msgstr "渦輪增壓器"
+
+msgid "abilities/nitroDescription"
+msgstr "暫時增加車輛的引擎功率、最高速度與迴轉速度。"
+
+msgid "abilities/recoveryDot"
+msgstr "修理區"
+
+msgid "abilities/recoveryDotDescription"
+msgstr "建立一個臨時的固定區域，為自身車輛修理所有受損的配件，移除震盪效果，並恢復血量。作用區域內的隊友車輛也將恢復血量。"
+
+msgid "abilities/recoveryKit"
+msgstr "血量恢復"
+
+msgid "abilities/recoveryKitDescription"
+msgstr "恢復受損車輛的血量。"
+
+msgid "abilities/recoveryZone"
+msgstr "血量恢復區"
+
+msgid "abilities/recoveryZoneDescription"
+msgstr "在車輛周圍建立恢復區。恢復區內，玩家與裝甲排隊友車輛每秒都會恢復特定百分比的血量。"
+
+msgid "abilities/repairKit"
+msgstr "工具包"
+
+msgid "abilities/repairKitDescription"
+msgstr "修理配件並移除負面效果。"
+
+msgid "abilities/rustCloud"
+msgstr "腐蝕煙霧"
+
+msgid "abilities/rustCloudDescription"
+msgstr "為消耗品範圍內的所有車輛提供隱蔽性加成。同時對範圍內所有車輛造成傷害。此消耗品不會中斷物資的拾起，也不會摧毀車輛，會讓受影響的車輛保留至少 1 血量。"
+
+msgid "abilities/shotPassion"
+msgstr "鬥志漸漲"
+
+msgid "abilities/shotPassionDescription"
+msgstr "隨著瞄準與穩定性數值在一段時間內降低，每當砲彈穿透命中或以「電流猛擊」命中敵人，後續造成的傷害就會隨之增加。傷害可提高最多 5 次。未造成傷害的命中與未命中則會重置傷害參數。"
+
+msgid "abilities/thunderStrike"
+msgstr "電流猛擊"
+
+msgid "abilities/thunderStrikeDescription"
+msgstr "建立一個會產生一系列高頻率電擊的區域。每次電擊會對能力作用範圍內的每輛敵方車輛造成傷害並暫時降低其機動性。啟用能力至首次電擊間將有延遲。可用「工具包」移除其負面效果。"
+
+msgid "abilities/trap"
+msgstr "陷阱"
+
+msgid "abilities/trapDescription"
+msgstr "建立一個區域，降低敵方車輛的動力特性。"
+
+msgid "tanks/britain/description"
+msgstr "英國工程師繼續發揮技術力，打造吸引資深車長目光且嚇壞對手的完美車輛。這輛戰車獵手也不例外。準備再次於戰場上展現傳奇英倫鋼鐵鬥魂的王者風範。"
+
+msgid "tanks/britain/title"
+msgstr "Harbinger Mk. IV"
+
+msgid "tanks/china/description"
+msgstr "中國有著完整的情報體系，並藉此獲取最新的戰車建造技術。在「大逃殺」的極端環境下測試新硬體，對工程師來說是絕佳的機會。 "
+
+msgid "tanks/china/title"
+msgstr "Bái Láng"
+
+msgid "tanks/france/description"
+msgstr "重量輕、流線外型與典雅，是法國戰車建造工藝的三大支柱。設計完全不假他人之手且沒有任何一項科技是透過工業間諜偷得，這就是此車輛的設計基礎。完全出於原創、基於致力改善效率想法與解決方案。"
+
+msgid "tanks/france/title"
+msgstr "Arlequin"
+
+msgid "tanks/germany/description"
+msgstr "德國人無論在冶金工程與高品質組裝方面都是一等一的老手。此車輛堪稱完美無瑕的孤狼：可獨立作戰、功能多元且可輕易適應任何戰況進而在戰場存活。"
+
+msgid "tanks/germany/title"
+msgstr "Walküre"
+
+msgid "tanks/poland/description"
+msgstr "波蘭工程師明白將重點放在車輛其中一個強項的同時，也會導致另一項特性的削弱。這也是為何他們對車輛的武裝與戰鬥能力進行了充分考量，避免敵人發現車輛的弱點。時間證明了這是一項正確的決策。"
+
+msgid "tanks/poland/title"
+msgstr "Huragan"
+
+msgid "tanks/sweden/description"
+msgstr "瑞典人從未輕忽戰車建造的趨勢，「大逃殺」更是他們最優秀之工程師毫無侷限的發揮舞台。此車輛匯集了最冒險又最巧妙的想法，可造成並承受大量傷害，而且看來相當管用。"
+
+msgid "tanks/sweden/title"
+msgstr "Beowulf"
+
+msgid "tanks/usa/description"
+msgstr "此車輛可說是現代與經典的完美平衡。經過時間考驗的技術結合最新科技，為此戰車奠定基礎，駕駛起來肯定相當得心應手。當然，如果您不介意其生鏽金屬的外貌的話。"
+
+msgid "tanks/usa/title"
+msgstr "Raven"
+
+msgid "tanks/ussr/description"
+msgstr "從多家戰車生產廠匯集報銷零件與組件組裝而成，此戰車可對任何敵方車輛帶來威脅。能在戰場上立即打造出的真正猛獸，任何藍圖、技術文件也不甚重要了。"
+
+msgid "tanks/ussr/title"
+msgstr "Varyag"

@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "animations/blueprints"
+msgstr "設計図"
+
+msgid "animations/crew_close"
+msgstr "閉じる"
+
+msgid "animations/shop"
+msgstr "購入画面に移動"
+
+msgid "battleMattersTab"
+msgstr "タンクアカデミー"
+
+msgid "battleResults/descr"
+msgstr "【タンクアカデミー】{questID}. {questName}"
+
+msgid "battleResults/linkBtn/tooltip"
+msgstr "タンクアカデミー・ミッションへ"
+
+msgid "battleResults/progress/tooltip"
+msgstr "この戦闘での進捗度の変化を表します。"
+
+msgid "bonusDelayed/dialog/cancel"
+msgstr "キャンセル"
+
+msgid "bonusDelayed/dialog/closeBtn"
+msgstr "閉じる"
+
+msgid "bonusDelayed/dialog/confirm"
+msgstr "確定"
+
+msgid "bonusDelayed/dialog/description"
+msgstr "{whiteSpanish_Open}%(vehicleName)s{whiteSpanish_Close}に加えて搭乗員1組とガレージスロット1個も入手できます。"
+
+msgid "bonusDelayed/dialog/title"
+msgstr "「アカデミー・トークン」を%(vehicleName)sと交換しますか？"
+
+msgid "entryPoint/hint"
+msgstr "トレーニング用の\n一連のミッション"
+
+msgid "entryPointTooltip/header/progress"
+msgstr "達成したミッション: {cream_Open}%(done)s{cream_Close}/%(total)s"
+
+msgid "entryPointTooltip/header/title"
+msgstr "タンクアカデミー"
+
+msgid "entryPointTooltip/rewardsTitle"
+msgstr "達成報酬"
+
+msgid "entryPointTooltip/statusDescription/error"
+msgstr "技術的な問題により一時的にミッションに挑戦できません。ミッションの達成状況は保存されますのでご安心ください。"
+
+msgid "entryPointTooltip/statusTitle/completed"
+msgstr "全ミッションを達成済み"
+
+msgid "entryPointTooltip/statusTitle/error"
+msgstr "ミッションは一時的に挑戦不可"
+
+msgid "entryPointTooltip/task/condition"
+msgstr "条件"
+
+msgid "entryPointTooltip/task/progress"
+msgstr "{yellow_Open}%(done)s{yellow_Close}/%(total)s"
+
+msgid "entryPointTooltip/task/title"
+msgstr "%(index)s. %(title)s"
+
+msgid "entryPointTooltip/token"
+msgstr "トークンは技術ツリー上の好きなTier VI車輌と交換できます。"
+
+msgid "mainRewardsScreen/buttons/back"
+msgstr "戻る"
+
+msgid "mainRewardsScreen/buttons/backTo"
+msgstr "タンクアカデミー・ミッションへ"
+
+msgid "mainRewardsScreen/done"
+msgstr "ガレージ内"
+
+msgid "mainRewardsScreen/preview"
+msgstr "プレビュー"
+
+msgid "mainRewardsScreen/rentDays"
+msgstr "レンタル日数: %(value)s"
+
+msgid "mainRewardsScreen/subtitle"
+msgstr "トレーニングのための一連のミッションを制覇するとメイン報酬として3輌のTier VIIIプレミアム車輌を{cream_Open}14日間{cream_Close}に渡ってレンタルできるようになります。"
+
+msgid "mainRewardsScreen/title"
+msgstr "タンクアカデミー"
+
+msgid "mainScreen/exchangeToken"
+msgstr "選択"
+
+msgid "mainScreen/infoButton"
+msgstr "新兵のためのガイド"
+
+msgid "mainScreen/infoButtonSmall"
+msgstr "ガイド"
+
+msgid "mainScreen/list/arrow"
+msgstr "挑戦中のミッションに移動します。"
+
+msgid "mainScreen/mainRewardReceived"
+msgstr "メイン報酬を入手済み"
+
+msgid "mainScreen/progress"
+msgstr "達成したミッション: %(completed)s / %(total)s"
+
+msgid "mainScreen/quest/action"
+msgstr "達成方法"
+
+msgid "mainScreen/quest/progress"
+msgstr "%(current)s/%(max)s"
+
+msgid "mainScreen/quest/unavailableDescription"
+msgstr "前のミッションを要達成"
+
+msgid "mainScreen/quest/unavailableTitle"
+msgstr "挑戦不可"
+
+msgid "mainScreen/showMainReward"
+msgstr "メイン報酬を確認"
+
+msgid "mainScreen/target"
+msgstr "全ミッションを制覇すると3輌のTier VIIIプレミアム車輌をレンタルできます。"
+
+msgid "mainScreen/title"
+msgstr "タンクアカデミー"
+
+msgid "pausedScreen/buttonText"
+msgstr "ガレージへ"
+
+msgid "pausedScreen/description"
+msgstr "技術的な理由により「タンクアカデミー」は一時的にご利用いただけません。進捗はすべて保存されます。ご不便をお掛けして申し訳ありません。"
+
+msgid "pausedScreen/title"
+msgstr "一時的に利用不可"
+
+msgid "rewards/additionalTitle"
+msgstr "他に受け取った報酬"
+
+msgid "rewards/footer/confirm"
+msgstr "了解！"
+
+msgid "rewards/footer/more"
+msgstr "非表示の報酬: %(count)s"
+
+msgid "rewards/footer/nextTask"
+msgstr "次のミッションへ"
+
+msgid "rewards/footer/showVehicle"
+msgstr "ガレージで表示"
+
+msgid "rewards/previouslyCompleted"
+msgstr "作戦目標を完遂済み"
+
+msgid "rewards/rent"
+msgstr "レンタル日数: %(rentLength)s"
+
+msgid "rewards/subTitle/final"
+msgstr "最終作戦目標を完遂"
+
+msgid "rewards/subTitle/regular"
+msgstr "%(questNumber)s番目のミッションを達成"
+
+msgid "rewards/subTitle/tokenVehicle"
+msgstr "「アカデミー・トークン」と車輌の交換が完了"
+
+msgid "rewards/title"
+msgstr "タンクアカデミー"
+
+msgid "rewards/token/action"
+msgstr "車輌を選択"
+
+msgid "rewards/token/description"
+msgstr "トークンを利用すると好きなTier VI車輌が即座に手に入ります。"
+
+msgid "rewards/token/title"
+msgstr "「アカデミー・トークン」は車輌と交換可能"
+
+msgid "tokenTooltip/condition"
+msgstr "トークンを取得するには「タンクアカデミー」に用意された一連のミッションに挑戦して必要な分だけトレーニングを進める必要があります。"
+
+msgid "tokenTooltip/description"
+msgstr "取得したトークンは技術ツリー上の好きなTier VI車輌と交換できます。ガレージスロット1個もセットで入手できます。"
+
+msgid "tokenTooltip/timer/days"
+msgstr "トークンの使用期限まで{cream_open}%(days)s日{cream_close}"
+
+msgid "tokenTooltip/timer/fullDate"
+msgstr "トークンの使用期限: {cream_open}%(fullDate)s{cream_close}"
+
+msgid "tokenTooltip/timer/hours"
+msgstr "トークンの使用期限まで{cream_open}%(hours)s時間{cream_close}"
+
+msgid "tokenTooltip/timer/minutes"
+msgstr "トークンの使用期限まで{cream_open}%(minutes)s分{cream_close}"
+
+msgid "tokenTooltip/title"
+msgstr "アカデミー・トークン"
+
+msgid "vehicleSelection/additions/base"
+msgstr "車輌に加えて{cream_Open}%(crewIcon)s搭乗員1組{cream_Close}と{cream_Open}%(hangarIcon)sガレージ{cream_Close}{cream_Open}スロット1個{cream_Close}も手に入ります。"
+
+msgid "vehicleSelection/back"
+msgstr "戻る"
+
+msgid "vehicleSelection/backTo"
+msgstr "タンクアカデミー・ミッションへ"
+
+msgid "vehicleSelection/compare/tooltip/body"
+msgstr "比較対象に追加"
+
+msgid "vehicleSelection/filter/tooltip/body"
+msgstr "車輌タイプと国家で表示する車輌を切り替えられます。"
+
+msgid "vehicleSelection/filter/tooltip/header"
+msgstr "車輌フィルター"
+
+msgid "vehicleSelection/filter/tooltip/reset/description"
+msgstr "フィルター設定をリセットします。"
+
+msgid "vehicleSelection/filter/tooltip/reset/header"
+msgstr "フィルターをリセット"
+
+msgid "vehicleSelection/filterPopover/nation"
+msgstr "国家"
+
+msgid "vehicleSelection/filterPopover/title"
+msgstr "車輌フィルター"
+
+msgid "vehicleSelection/filterPopover/vehicleType"
+msgstr "車輌タイプ"
+
+msgid "vehicleSelection/noFilteredVehicles"
+msgstr "該当なし。フィルター設定を変更するかリセットしてください。"
+
+msgid "vehicleSelection/noFilteredVehiclesResetButton"
+msgstr "フィルターをリセット"
+
+msgid "vehicleSelection/noVehicles/subtitle"
+msgstr "「アカデミー・トークン」と交換できるTier VI車輌はすべて研究済みです。"
+
+msgid "vehicleSelection/noVehicles/title"
+msgstr "選択できる車輌なし"
+
+msgid "vehicleSelection/search/placeholder"
+msgstr "車輌名で検索"
+
+msgid "vehicleSelection/search/tooltip/body"
+msgstr "入力できるのは最大で%(maxLength)s文字に制限されています。"
+
+msgid "vehicleSelection/search/tooltip/header"
+msgstr "車輌名で検索"
+
+msgid "vehicleSelection/searchResults"
+msgstr "%(showedCount)s {par_Open}/ %(totalCount)s{par_Close}"
+
+msgid "vehicleSelection/showed"
+msgstr "表示中:"
+
+msgid "vehicleSelection/subtitle"
+msgstr "トークンを使用すると技術ツリー上の好きなTier VI車輌が手に入ります。\n搭乗員とガレージスロットも付属しています。"
+
+msgid "vehicleSelection/title"
+msgstr "技術ツリー上の好きなTier VI車輌を入手可能"
+
+msgid "vehicleSelection/vehicleName"
+msgstr "%(type)s {cream_Open}%(level)s{cream_Close} %(name)s"
+
+msgid "vehicleSelection/vehicleType/AT-SPG"
+msgstr "駆逐戦車"
+
+msgid "vehicleSelection/vehicleType/SPG"
+msgstr "自走砲"
+
+msgid "vehicleSelection/vehicleType/heavyTank"
+msgstr "重戦車"
+
+msgid "vehicleSelection/vehicleType/lightTank"
+msgstr "軽戦車"
+
+msgid "vehicleSelection/vehicleType/mediumTank"
+msgstr "中戦車"

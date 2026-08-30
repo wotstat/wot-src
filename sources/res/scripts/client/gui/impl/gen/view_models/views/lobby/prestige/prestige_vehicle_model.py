@@ -1,0 +1,22 @@
+from gui.impl.gen.view_models.views.lobby.common.vehicle_model import VehicleModel
+from gui.impl.gen.view_models.views.lobby.prestige.prestige_emblem_model import PrestigeEmblemModel
+
+class PrestigeVehicleModel(VehicleModel):
+    __slots__ = ()
+
+    def __init__(self, properties=11, commands=0):
+        super(PrestigeVehicleModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    @property
+    def emblem(self):
+        return self._getViewModel(10)
+
+    @staticmethod
+    def getEmblemType():
+        return PrestigeEmblemModel
+
+    def _initialize(self):
+        super(PrestigeVehicleModel, self)._initialize()
+        self._addViewModelProperty(b'emblem', PrestigeEmblemModel())
+        return

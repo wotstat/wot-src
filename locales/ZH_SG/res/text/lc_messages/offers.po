@@ -1,0 +1,140 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "banner/buttonLabel"
+msgstr "选择奖励"
+
+msgid "banner/giftsAvailable"
+msgstr "补给已送达！"
+
+msgid "banner/giftsForOffer"
+msgstr "参与“%(name)s”的奖励。"
+
+msgid "banner/selectNowOrLater"
+msgstr "现在或稍后在仓库中选择您的奖励。"
+
+msgid "banner/title"
+msgstr "家园补给"
+
+msgid "description/rentValue/battles"
+msgstr "战斗场次：%(value)s"
+
+msgid "description/rentValue/days"
+msgstr "天数：%(value)s"
+
+msgid "description/rentValue/wins"
+msgstr "胜利场次：%(value)s"
+
+msgid "giftDescription/tank/base"
+msgstr "除了选择的战车，您还将免费获得%(items)s。"
+
+msgid "giftDescription/tank/withCrew"
+msgstr "{neutralOpen}乘员{neutralClose}"
+
+msgid "giftDescription/tank/withCrewAndSlot"
+msgstr "{neutralOpen}乘员{neutralClose}和{neutralOpen}车位{neutralClose}"
+
+msgid "giftDescription/tank/withSlot"
+msgstr "{neutralOpen}车位{neutralClose}"
+
+msgid "giftDialog/cancel"
+msgstr "取消"
+
+msgid "giftDialog/description/newRent"
+msgstr "%(tankName)s租用%(rentValue)s"
+
+msgid "giftDialog/description/noRent"
+msgstr "%(tankName)s将被发送至车库"
+
+msgid "giftDialog/description/prolongRent"
+msgstr "%(tankName)s租期延长%(rentValue)s"
+
+msgid "giftDialog/submit"
+msgstr "确认"
+
+msgid "giftDialog/title/common"
+msgstr "确认获得\n“%(name)s”"
+
+msgid "giftDialog/title/tank"
+msgstr "获得战车"
+
+msgid "giftDialog/title/tankRent"
+msgstr "租用战车"
+
+msgid "giftsWindow/availableCount"
+msgstr "可用：%(count)"
+
+msgid "giftsWindow/backGoto"
+msgstr " "
+
+msgid "giftsWindow/expiration"
+msgstr "可用至：%(date) %(time)"
+
+msgid "giftsWindow/giftsAvailable"
+msgstr "可用奖励： %(current)"
+
+msgid "giftsWindow/inHangar"
+msgstr "在车库中"
+
+msgid "giftsWindow/multiplier"
+msgstr "X%(value)"
+
+msgid "giftsWindow/openFor"
+msgstr "开放"
+
+msgid "giftsWindow/previewButtonLabel"
+msgstr "预览"
+
+msgid "giftsWindow/rent/battles"
+msgstr "%(value)场战斗"
+
+msgid "giftsWindow/rent/days"
+msgstr "%(value)天"
+
+msgid "giftsWindow/rent/title"
+msgstr "租用：%(amount)"
+
+msgid "giftsWindow/rent/wins"
+msgstr "%(value)场胜利"
+
+msgid "giftsWindow/takeButtonLabel"
+msgstr "领取"
+
+msgid "giftsWindow/tokens"
+msgstr "可用：%(count)"
+
+msgid "giftsWindow/tokensAvailable"
+msgstr "持有代币：%(count)"
+
+msgid "giftsWindow/unavailable"
+msgstr "不可用"
+
+msgid "rewardWindow/btnLabel"
+msgstr "收到！"
+
+msgid "rewardWindow/title"
+msgstr "已获得奖励"
+
+msgid "tankPreview/buttonLabel/default"
+msgstr "领取！"
+
+msgid "tankPreview/buttonLabel/prolongRent"
+msgstr "延长租期！"
+
+msgid "tankPreview/description/newRent"
+msgstr "%(tankName)s免费租用%(rentValue)s"
+
+msgid "tankPreview/description/noRent/noItems"
+msgstr "%(tankName)s"
+
+msgid "tankPreview/description/noRent/withCrew"
+msgstr "%(tankName)s加乘员"
+
+msgid "tankPreview/description/noRent/withCrewAndSlot"
+msgstr "%(tankName)s加乘员和车位"
+
+msgid "tankPreview/description/noRent/withSlot"
+msgstr "%(tankName)s加车位"
+
+msgid "tankPreview/description/prolongRent"
+msgstr "延长%(tankName)s租期%(rentValue)s"

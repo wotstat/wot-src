@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ClanListWindow/table/memberName"
+msgstr "이름"
+
+msgid "ClanListWindow/table/monthMining"
+msgstr "매월"
+
+msgid "ClanListWindow/table/role"
+msgstr "직책"
+
+msgid "ClanListWindow/table/weekMining"
+msgstr "매주"
+
+msgid "battleQueue/clanPosition"
+msgstr "순위: %(position)s"
+
+msgid "battleQueue/position"
+msgstr "순위:"
+
+msgid "battleQueue/searchEnemy"
+msgstr "상대 검색 중:"
+
+msgid "battleQueue/waitBattle"
+msgstr "전투 대기 중:"
+
+msgid "battleQueue/yourTeam"
+msgstr "소속 원정군:"
+
+msgid "disconnected/Warning"
+msgstr "주의!"
+
+msgid "disconnected/WarningDescriptionCenterUnavailable"
+msgstr "요새 모드를 이용할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "disconnected/WarningDescriptionRoaming"
+msgstr "로밍 중에서는 요새를 사용할 수 없습니다. 요새에 접속하려면 등록된 서버로 이동하십시오."
+
+msgid "fortBattleRoom/listHeader/clanPlayers"
+msgstr "클랜원"
+
+msgid "fortBattleRoom/listHeader/legionariesPlayers"
+msgstr "용병"
+
+msgid "fortVehPopover/btnSave"
+msgstr "(%(count)d) 선택 저장"
+
+msgid "inspire/inspired"
+msgstr "사기 강화 활성화"
+
+msgid "inspire/inspiring"
+msgstr "사기 강화 활성화"
+
+msgid "mainWindow/maintenance/body"
+msgstr "불편을 드려 죄송합니다."
+
+msgid "mainWindow/maintenance/button"
+msgstr "업데이트"
+
+msgid "mainWindow/maintenance/header"
+msgstr "정보 불러오는 중 오류"
+
+msgid "orders/ADDITIONAL_BRIEFING_2_0"
+msgstr "추가 훈련"
+
+msgid "orders/COMBAT_PAYMENTS_2_0"
+msgstr "전투 수당"
+
+msgid "orders/MILITARY_EXERCISES_2_0"
+msgstr "군사 작전"
+
+msgid "orders/TACTICAL_TRAINING_2_0"
+msgstr "전술 훈련"
+
+msgid "reserves/tooltip/additionalApplyEffect"
+msgstr "추가 효과"
+
+msgid "reserves/tooltip/applyDescription/artillerySupport"
+msgstr "쟁탈전 및 원정 전투 1회에서 선택한 지역에 포격 지원 요청"
+
+msgid "reserves/tooltip/applyDescription/inspire"
+msgstr "쟁탈전 및 원정 전투 1회에서 플레이어 및 주변 아군 전차의 승무원 숙련도 향상"
+
+msgid "reserves/tooltip/disabledInBattle"
+msgstr "전투 시작 전 활성화 가능 물자"
+
+msgid "reserves/tooltip/disabledRequisition"
+msgstr "원정 시작 전 활성화 가능 물자"
+
+msgid "reserves/tooltip/empty"
+msgstr "사용 가능 물자 없음"
+
+msgid "reserves/tooltip/inStorage"
+msgstr "보관소 보유량: %(count)s"
+
+msgid "reserves/tooltip/level"
+msgstr "레벨 %(level)s"
+
+msgid "reserves/tooltip/mainApplyEffect"
+msgstr "사용 시 효과"
+
+msgid "reserves/tooltip/readyToSelect"
+msgstr "활성화 가능"
+
+msgid "reserves/tooltip/selected"
+msgstr "활성화 완료"
+
+msgid "reserves/tooltip/withPermission"
+msgstr "사용 가능 물자 확인"
+
+msgid "reserves/tooltip/withoutPermission"
+msgstr "물자는 직책이 클랜 사령관, 부사령관, 인사 장교, 작전 장교인 원정군 지휘관만 활성화할 수 있습니다."
+
+msgid "roster/clanMembersNotEnough"
+msgstr "원정군 클랜원 부족: %(actualClanMembers)s / %(minClanMembers)s"
+
+msgid "rosterIntroWindow/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "전투 시작까지: %(nextDate)s분"
+
+msgid "rosterIntroWindow/introView/fortBattles/unavailable"
+msgstr "시작 시간 추후 공개"
+
+msgid "sortie/introView/fortBattles/EndOfBattleSoon"
+msgstr "전투 종료까지: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/available"
+msgstr "쟁탈전 이용 가능"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattle"
+msgstr "전투 예정: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleSoon"
+msgstr "전투 시작까지: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleToday"
+msgstr "오늘 전투 시작 시간: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/nextTimeOfBattleTomorrow"
+msgstr "내일 전투 시작 시간: %(nextDate)s"
+
+msgid "sortie/introView/fortBattles/unavailable"
+msgstr "시작 시간 추후 공개"
+
+msgid "sortie/introView/title"
+msgstr "요새 전투"
+
+msgid "sortie/listView/enterBtn"
+msgstr "참가"
+
+msgid "sortie/listView/enterText"
+msgstr "대기열에 참여"
+
+msgid "sortie/listView/notSelected"
+msgstr "상세 내용을 확인하려면 왼쪽 목록에서\n원정군을 선택하십시오."
+
+msgid "sortie/listView/teamMembers"
+msgstr "슬롯: %(current)s/%(max)s"
+
+msgid "sortie/listView/teamVehiclesStub"
+msgstr "전차:"
+
+msgid "sortie/member/slot_for_legionary"
+msgstr "용병"
+
+msgid "sortie/member/slot_for_legionary_search"
+msgstr "용병 자동 모집"
+
+msgid "sortie/room/candidates"
+msgstr "대기 명단"
+
+msgid "sortie/room/chat"
+msgstr "대화 채널"
+
+msgid "sortie/room/description"
+msgstr "조직한 원정군이 중립 지역에서 무작위로 선택된 클랜과 전투를 벌입니다. 전차 단계는 선택한 편성에 따라 다릅니다."
+
+msgid "sortie/room/fight"
+msgstr "전투 시작!"
+
+msgid "sortie/room/inviteFriends"
+msgstr "플레이어 초대"
+
+msgid "sortie/room/leaveBtn"
+msgstr "원정군 구성으로 이동"
+
+msgid "sortie/room/level"
+msgstr "레벨 %(level)s"
+
+msgid "sortie/room/members"
+msgstr "구성원: %(current)s / %(max)s"
+
+msgid "sortie/room/notReady"
+msgstr "준비 취소"
+
+msgid "sortie/room/ready"
+msgstr "준비 완료!"
+
+msgid "sortie/room/title"
+msgstr "원정군"
+
+msgid "sortie/slot/emptySlot"
+msgstr "빈 슬롯"
+
+msgid "sortie/slot/takePlace"
+msgstr "참가"
+
+msgid "sortie/vehicleSelector/description"
+msgstr "전투에 참여할 전차를 선택하십시오. 준비가 완료되지 않은 전차는 빨간색으로 표시됩니다."
+
+msgid "stronghold/teamHeader"
+msgstr "원정군 구성원"
+
+msgid "strongholdPopover/commanderHeader"
+msgstr "용병 전차 선택"
+
+msgid "strongholdPopover/header"
+msgstr "전차 선택"
+
+msgid "strongholdSlot/selectedVehiclesCount"
+msgstr "선택한 전차:"
+
+msgid "strongholdbuilds/direction"
+msgstr "%(direction)s쪽 아군 교두보"
+
+msgid "strongholdbuilds/direction/A"
+msgstr "북"
+
+msgid "strongholdbuilds/direction/B"
+msgstr "동"
+
+msgid "strongholdbuilds/direction/C"
+msgstr "남"
+
+msgid "strongholdbuilds/direction/D"
+msgstr "서"
+
+msgid "strongholdbuilds/directionEnemy"
+msgstr "적군 교두보"
+
+msgid "strongholdbuilds/mapName"
+msgstr "지도: %(mapName)s"
+
+msgid "strongholdbuilds/mapUnknown"
+msgstr "원정 시작 시 지도 선정"
+
+msgid "strongholdbuilds/point1"
+msgstr "최후 방어선"
+
+msgid "strongholdbuilds/point2"
+msgstr "후방 방어선"
+
+msgid "strongholdbuilds/point3"
+msgstr "전방 방어선"
+
+msgid "strongholdbuilds/point4"
+msgstr "전방 방어선"
+
+msgid "strongholdbuilds/point5"
+msgstr "후방 방어선"
+
+msgid "strongholdbuilds/point6"
+msgstr "최후 방어선"
+
+msgid "strongholdbuilds/rewardFirstTime"
+msgstr "해당 교두보 첫 승리 시 x%(reward)s 보상 획득"
+
+msgid "strongholdbuilds/rewardPoint1"
+msgstr "최후 방어선 방어 성공, 두 방어선 손실"
+
+msgid "strongholdbuilds/rewardPoint2"
+msgstr "후방 방어선 방어 성공, 전방 방어선 손실"
+
+msgid "strongholdbuilds/rewardPoint3"
+msgstr "두 방어선 방어 성공, 적 방어선 장악 실패"
+
+msgid "strongholdbuilds/rewardPoint4"
+msgstr "전방 방어선만 장악 성공"
+
+msgid "strongholdbuilds/rewardPoint5"
+msgstr "두 방어선 장악 성공, 최후 방어선 장악 실패"
+
+msgid "strongholdbuilds/rewardPoint6"
+msgstr "적군 최후 방어선 장악 성공"
+
+msgid "strongholdbuilds/rewardRequisition"
+msgstr "자원 징발 물자 사용"
+
+msgid "strongholdbuilds/totalDescription"
+msgstr "원정 종료 후 보상 획득"
+
+msgid "strongholdbuttons/makeInvisible"
+msgstr "용병에 비공개"
+
+msgid "strongholdbuttons/makeInvisibleStatus"
+msgstr "용병이 원정군 검색 가능"
+
+msgid "strongholdbuttons/makeVisible"
+msgstr "용병에 공개"
+
+msgid "strongholdbuttons/makeVisibleStatus"
+msgstr "용병이 원정군 검색 불가능"
+
+msgid "strongholddirection/A"
+msgstr "북"
+
+msgid "strongholddirection/B"
+msgstr "동"
+
+msgid "strongholddirection/C"
+msgstr "남"
+
+msgid "strongholddirection/D"
+msgstr "서"
+
+msgid "strongholdinfo/sortie"
+msgstr "%(level)s 편성 쟁탈전"
+
+msgid "strongholdinfo/stronghold"
+msgstr "%(direction)s쪽 교두보로부터 원정 진행"
+
+msgid "strongholdmap/randomMap"
+msgstr "무작위 지도"
+
+msgid "strongholdreserve/boost"
+msgstr "사기 강화"
+
+msgid "strongholdreserve/heavyTrucks"
+msgstr "대량 수송"
+
+msgid "strongholdreserve/requisition"
+msgstr "자원 징발"
+
+msgid "strongholdreserve/support"
+msgstr "포격 지원"
+
+msgid "strongholdreserve/tooltip/condition"
+msgstr "쟁탈전 또는 원정 1회"
+
+msgid "strongholdreserve/tooltip/conditionRequisition"
+msgstr "원정 결과에 반영"
+
+msgid "strongholdreserve/tooltip/heavytrucksActivation"
+msgstr "전투 시작 시 활성화"
+
+msgid "strongholdreserve/tooltip/requisitionActivation"
+msgstr "원정 시작 시 활성화"
+
+msgid "strongholdreserve/tooltip/supportActivation"
+msgstr "전투 중 물자 사용 시 활성화"
+
+msgid "strongholdtable/rating"
+msgstr "순위"
+
+msgid "strongholdtable/roster"
+msgstr "구성원"
+
+msgid "strongholdtable/tech"
+msgstr "전차"
+
+msgid "strongholdtitle/sortie"
+msgstr "쟁탈전"
+
+msgid "strongholdtitle/stronghold"
+msgstr "%(direction)s쪽 교두보로부터 원정 진행"
+
+msgid "strongholdtooltips/crossSwords"
+msgstr "{HEADER}경계{/HEADER}{BODY}중립 지역입니다. 승리 시 다음 전투에서 적진을 공격할 수 있습니다. 전투가 무승부로 종료되면 공격팀이 무작위로 선정됩니다.{/BODY}"
+
+msgid "strongholdtooltips/fortTitle"
+msgstr "%(direction)s쪽 교두보로부터 원정 진행"
+
+msgid "strongholdtooltips/hours"
+msgstr "시간"
+
+msgid "strongholdtooltips/minuts"
+msgstr "분"
+
+msgid "strongholdtooltips/sortieTitle"
+msgstr "%(level)s 편성 쟁탈전"
+
+msgid "tooltip/vehicleTypes/body"
+msgstr "전투 시작! 버튼을 누르면 자동으로 용병에게 지정되는 전차 유형입니다.\n\n선택한 용병 전차 유형을 확인 또는 취소하십시오."
+
+msgid "unit/window/willSearchPlayers"
+msgstr "빈자리에 자동으로 용병 추가"

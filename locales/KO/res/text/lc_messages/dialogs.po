@@ -1,0 +1,3317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT 팀 <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "EULA/buttons/apply"
+msgstr "확인"
+
+msgid "EULA/labels/agree"
+msgstr "동의"
+
+msgid "EULA/title"
+msgstr "최종 이용자 라이선스 계약"
+
+msgid "accountCompletion/accountAlreadyHasEmail"
+msgstr "이미 계정에 연동된 이메일 주소입니다."
+
+msgid "accountCompletion/activate/button"
+msgstr "코드 발송/이메일 주소 변경"
+
+msgid "accountCompletion/activate/countdownText"
+msgstr "%(timer)초 후 코드 재발송 또는 이메일 주소 변경"
+
+msgid "accountCompletion/activate/enterCredentialsAgain"
+msgstr "이메일 주소 다시 입력"
+
+msgid "accountCompletion/activate/keyDied"
+msgstr "코드가 만료되었습니다. 이메일 주소를 다시 입력해 주십시오."
+
+msgid "accountCompletion/activate/keyError"
+msgstr "올바르지 않은 코드"
+
+msgid "accountCompletion/activate/misspell"
+msgstr "이메일을 찾을 수 없다면 이메일 주소에 문제가 없는지 확인해 보십시오."
+
+msgid "accountCompletion/activate/text"
+msgstr "Wargaming.net에서 {whiteSpanish_Open}%(email){whiteSpanish_Close} 주소로 인증 코드 이메일을 발송하였습니다. 4자리 코드를 입력하여 이메일을 인증하고 회원 가입을 완료하십시오."
+
+msgid "accountCompletion/activate/title"
+msgstr "이메일 인증"
+
+msgid "accountCompletion/activate/tooManyIncorrectTries"
+msgstr "잘못된 코드를 너무 많이 입력하셨습니다."
+
+msgid "accountCompletion/add"
+msgstr "확인"
+
+msgid "accountCompletion/alreadyLinked/subTitle"
+msgstr "이미 계정에 연동된 주소 이메일입니다."
+
+msgid "accountCompletion/alreadyLinked/title"
+msgstr "이미 연동된 이메일 주소"
+
+msgid "accountCompletion/cancel"
+msgstr "나중에"
+
+msgid "accountCompletion/email/fieldName"
+msgstr "나의 이메일 주소"
+
+msgid "accountCompletion/email/fieldPlaceholder"
+msgstr "이메일 주소"
+
+msgid "accountCompletion/email/fullAccess/subTitle"
+msgstr "보상을 획득하고 모든 게임 기능을 이용하려면 이메일 주소를 추가하십시오."
+
+msgid "accountCompletion/email/fullAccess/title"
+msgstr "모든 게임 기능 이용"
+
+msgid "accountCompletion/email/subTitle"
+msgstr "이메일을 추가하고 인증하여 보상을 획득하고 새로운 기능을 해제해 보십시오. %(emailIcon)"
+
+msgid "accountCompletion/email/title"
+msgstr "회원 가입 완료"
+
+msgid "accountCompletion/emailAlreadyTaken"
+msgstr "이미 사용 중인 이메일 주소입니다."
+
+msgid "accountCompletion/emailForbidden"
+msgstr "사용할 수 없는 이메일 주소입니다."
+
+msgid "accountCompletion/emailIsTooLong"
+msgstr "이메일 주소는 최대 %(amount)s자까지만 입력할 수 있습니다."
+
+msgid "accountCompletion/emailIsTooShort"
+msgstr "이메일 주소는 최소 %(amount)s자 이상 입력해야 합니다."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/subTitle"
+msgstr "이미 이메일 주소를 인증했습니다."
+
+msgid "accountCompletion/emailOverlay/alreadyConfirmed/title"
+msgstr "이메일 주소 인증 완료"
+
+msgid "accountCompletion/emailOverlay/error/codeAlreadySent"
+msgstr "요청 가능 횟수를 초과했습니다. %(timer) 후 이메일 주소를 변경하거나 이메일을 재발송할 수 있습니다."
+
+msgid "accountCompletion/emailProviderBanned"
+msgstr "해당 지역에서는 사용할 수 없는 이메일 주소입니다."
+
+msgid "accountCompletion/emailRestrictedByCountry"
+msgstr "해당 지역에서는 사용할 수 없는 이메일 주소입니다."
+
+msgid "accountCompletion/emailRestrictedByCountryHeader"
+msgstr "이메일 연동 불가"
+
+msgid "accountCompletion/errorIsWrong"
+msgstr "이메일 주소는 알파벳, 숫자, @ 기호, 마침표, 밑줄(_)로만 구성되어야 합니다."
+
+msgid "accountCompletion/later"
+msgstr "나중에"
+
+msgid "accountCompletion/rewardsTitle"
+msgstr "이메일 인증 보상"
+
+msgid "accountCompletion/submit"
+msgstr "인증"
+
+msgid "accountCompletion/waiting/queue"
+msgstr "서버 응답 대기 중입니다.\n해당 작업은 일정 시간이 소요될 수 있습니다."
+
+msgid "accountCompletion/warningServerUnavailable"
+msgstr "%(icon) 일시적으로 해당 서비스를 이용할 수 없습니다. 나중에 다시 시도해 주십시오."
+
+msgid "accountCompletion/warningServerUnavailableTimed"
+msgstr "%(icon) 일시적으로 해당 서비스를 이용할 수 없습니다.\n%(time)s 후 다시 시도해 주십시오."
+
+msgid "barracksExpand/cancel"
+msgstr "취소"
+
+msgid "barracksExpand/message"
+msgstr "%(price)s골드를 사용해 침상 %(count)s개를 추가하시겠습니까?"
+
+msgid "barracksExpand/submit"
+msgstr "확인"
+
+msgid "barracksExpand/title"
+msgstr "막사 확장"
+
+msgid "barracksExpandNotEnoughMoney/cancel"
+msgstr "확인"
+
+msgid "barracksExpandNotEnoughMoney/message"
+msgstr "골드가 부족합니다."
+
+msgid "barracksExpandNotEnoughMoney/submit"
+msgstr "확인"
+
+msgid "barracksExpandNotEnoughMoney/title"
+msgstr "막사 확장"
+
+msgid "battleRoyale/preBattle/cancel"
+msgstr "취소"
+
+msgid "battleRoyale/preBattle/message"
+msgstr "일부 플레이어가 전투 준비를 완료하지 않았거나 플레이어 수가 부족합니다."
+
+msgid "battleRoyale/preBattle/submit"
+msgstr "전투 시작"
+
+msgid "battleRoyale/preBattle/title"
+msgstr "인원 부족"
+
+msgid "boostersWindow/activationConfirmation/cancel"
+msgstr "취소"
+
+msgid "boostersWindow/activationConfirmation/message"
+msgstr "%(newBoosterName)s 활성화"
+
+msgid "boostersWindow/activationConfirmation/submit"
+msgstr "확인"
+
+msgid "boostersWindow/activationConfirmation/title"
+msgstr "활성화"
+
+msgid "boostersWindow/replaceConfirmation/cancel"
+msgstr "취소"
+
+msgid "boostersWindow/replaceConfirmation/message"
+msgstr "%(newBoosterName)s 개인 물자를 활성화하면 현재 활성화되어 있는 %(curBoosterName)s 개인 물자가 취소되고 파괴됩니다."
+
+msgid "boostersWindow/replaceConfirmation/submit"
+msgstr "확인"
+
+msgid "boostersWindow/replaceConfirmation/title"
+msgstr "활성화"
+
+msgid "buyConfirmation/cancel"
+msgstr "취소"
+
+msgid "buyConfirmation/message"
+msgstr "%(product)s 상품을 %(price)s에 구매하시겠습니까?"
+
+msgid "buyConfirmation/messageCombine"
+msgstr "\"{%name}\" {%count}개를 구매하시겠습니까?"
+
+msgid "buyConfirmation/stringEquipment/submit"
+msgstr "\"%(equipment)s\" 장비를 구매하시겠습니까?"
+
+msgid "buyConfirmation/submit"
+msgstr "확인"
+
+msgid "buyConfirmation/title"
+msgstr "구매 확인"
+
+msgid "buyInstallConfirmation/cancel"
+msgstr "취소"
+
+msgid "buyInstallConfirmation/conflictedMessage/highlightenText"
+msgstr "호환 불가"
+
+msgid "buyInstallConfirmation/conflictedMessage/postfix"
+msgstr " 부품"
+
+msgid "buyInstallConfirmation/conflictedMessage/prefix"
+msgstr "\"%(conflicted)s\" 소모품은 보관소로 이동됩니다. 이유: "
+
+msgid "buyInstallConfirmation/message"
+msgstr "%(price)s%(creditsIcon)s에 \"%(name)s\" %(kind)s 구매 후 해당 전차에 장착하시겠습니까? %(conflict)s"
+
+msgid "buyInstallConfirmation/messageCombine"
+msgstr "%(price)s크레딧에 \"%(name)s\" %(kind)s 구매 후 해당 전차에 장착하시겠습니까?"
+
+msgid "buyInstallConfirmation/submit"
+msgstr "확인"
+
+msgid "buyInstallConfirmation/title"
+msgstr "구매 확인"
+
+msgid "buyPremWithoutBenefitsConfirmation/cancel"
+msgstr "취소"
+
+msgid "buyPremWithoutBenefitsConfirmation/message"
+msgstr "프리미엄 계정 %(days)s을 %(gold)s에 구매하시겠습니까?\n %(alertIcon)s %(alertColorTagOpen)s 기술적인 문제로 추가 경험치 또는 크레딧을 획득하지 못할 수도 있습니다. 전투를 다시 진행하거나 프리미엄 계정 구매 메뉴를 통해 프리미엄 계정을 구매하십시오.%(tagClose)s"
+
+msgid "buyPremWithoutBenefitsConfirmation/submit"
+msgstr "확인"
+
+msgid "buyPremWithoutBenefitsConfirmation/title"
+msgstr "구매 확인"
+
+msgid "buySlot/hangarSlot/header"
+msgstr "차고 슬롯"
+
+msgid "buySlotConfirmation/cancel"
+msgstr "취소"
+
+msgid "buySlotConfirmation/message"
+msgstr "차고 슬롯을 %(goldCost)s에 구매하시겠습니까?"
+
+msgid "buySlotConfirmation/submit"
+msgstr "확인"
+
+msgid "buySlotConfirmation/title"
+msgstr "구매 확인"
+
+msgid "buySlotNotEnough/credits/cancel"
+msgstr "확인"
+
+msgid "buySlotNotEnough/credits/message"
+msgstr "크레딧이 부족합니다."
+
+msgid "buySlotNotEnough/credits/submit"
+msgstr "확인"
+
+msgid "buySlotNotEnough/credits/title"
+msgstr "크레딧 부족"
+
+msgid "buySlotNotEnough/gold/cancel"
+msgstr "확인"
+
+msgid "buySlotNotEnough/gold/message"
+msgstr "골드가 부족합니다."
+
+msgid "buySlotNotEnough/gold/submit"
+msgstr "확인"
+
+msgid "buySlotNotEnough/gold/title"
+msgstr "골드 부족"
+
+msgid "buySlotShopConfirmation/cancel"
+msgstr "취소"
+
+msgid "buySlotShopConfirmation/messageCombine"
+msgstr "차고에 남는 전차 슬롯이 없습니다. 차고 슬롯을 {%d}크레딧에 구매하시겠습니까?"
+
+msgid "buySlotShopConfirmation/submit"
+msgstr "확인"
+
+msgid "buySlotShopConfirmation/title"
+msgstr "구매 확인"
+
+msgid "buyVehicleWindow/ammoCheckbox"
+msgstr "기본 포탄 자동 구매"
+
+msgid "buyVehicleWindow/cancelBtn"
+msgstr "취소"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "이미 해당 전차에 탑승한 승무원이 있습니다."
+
+msgid "buyVehicleWindow/freeRentSlot"
+msgstr "전차 대여 중에는 차고에 슬롯이 하나 추가됩니다."
+
+msgid "buyVehicleWindow/fullAmmo"
+msgstr "포탄 보급 불가: 선택한 전차는 이미 포탄이 가득 찼습니다."
+
+msgid "buyVehicleWindow/notEmptyAmmo"
+msgstr "포탄 보급 불가: 해당 전차는 이미 포탄이 가득 찼습니다."
+
+msgid "buyVehicleWindow/priceLabel"
+msgstr "가격: %(vehiclename)s"
+
+msgid "buyVehicleWindow/slotCheckbox"
+msgstr "차고에 전차 슬롯 추가"
+
+msgid "buyVehicleWindow/submitBtn"
+msgstr "확인"
+
+msgid "buyVehicleWindow/tabs/buy"
+msgstr "일반 구매"
+
+msgid "buyVehicleWindow/tabs/trade"
+msgstr "보상 판매"
+
+msgid "buyVehicleWindow/tankmenCheckbox"
+msgstr "승무원 없이 전차 구매"
+
+msgid "buyVehicleWindow/tankmenLabel"
+msgstr "승무원 훈련"
+
+msgid "buyVehicleWindow/tankmenTotalLabel"
+msgstr "승무원 수: %(count)s"
+
+msgid "buyVehicleWindow/title"
+msgstr "%(vehiclename)s 구매"
+
+msgid "buyVehicleWindow/totalLabel"
+msgstr "총합:"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/errorMessage"
+msgstr "올바르지 않은 수치입니다."
+
+msgid "buyVehicleWindow/tradeIn/confirmation/question"
+msgstr "\"총합\" 란의 골드 입력"
+
+msgid "buyVehicleWindow/tradeIn/confirmation/title"
+msgstr "작업 확인"
+
+msgid "buyVehicleWindow/tradeIn/info/noVehicles"
+msgstr "보상 판매에 적합한\n전차 없음"
+
+msgid "buyVehicleWindow/tradeIn/info/saving"
+msgstr "평가액: %(cost)s"
+
+msgid "buyVehicleWindow/tradeIn/studyLabel"
+msgstr "승무원 훈련: %(count)s"
+
+msgid "buyVehicleWindow/tradeIn/totalLabel"
+msgstr "총합:"
+
+msgid "buyVehicleWindow/tradeIn/vehicle/choose"
+msgstr "전차 선택"
+
+msgid "buyVehicleWindow/tradeIn/warning/choose"
+msgstr "보상 판매 가능\n프리미엄 전차 선택"
+
+msgid "buyVehicleWindow/tradein/cancelBtn"
+msgstr "취소"
+
+msgid "buyVehicleWindow/tradein/priceLabel"
+msgstr "%(vehiclename)s 전차 가격:"
+
+msgid "buyVehicleWindow/tradein/submitBtn"
+msgstr "교환"
+
+msgid "buyVehicleWindow/tradein/tankmenCheckbox"
+msgstr "승무원 없이 전차 구매"
+
+msgid "buyVehicleWindow/tradein/title"
+msgstr "%(vehiclename)s 전차 보상 판매"
+
+msgid "buyVehicleWindow/tradein/warning"
+msgstr "보상 판매를 선택하면 구매한 장비 및 소모품은 골드로 환급되지 않습니다. 세부 정보를 자세히 확인하십시오."
+
+msgid "buyVehicleWindow/warning"
+msgstr "구매 시 변경할 수 없습니다. 다시 한 번 확인하십시오. (복구는 고객 지원 사이트 공지 사항의 ‘복구 정책’을 참고하시기 바랍니다.)"
+
+msgid "challenge_missions/activation/cancel"
+msgstr "취소"
+
+msgid "challenge_missions/activation/confirm"
+msgstr "활성화"
+
+msgid "challenge_missions/activation/description"
+msgstr "활성화된 시련의 장 연속 임무는 {{@ style (color #FFE4C0)}}완료하거나, 실패하거나, 포기{{/}}할 수 있습니다. 연속 임무 진행 중 임무에 실패하면 보호막 1개를 잃습니다."
+
+msgid "challenge_missions/activation/title"
+msgstr "시련의 장: {{challengeName}} 임무를 활성화하시겠습니까?"
+
+msgid "challenge_missions/restart/cancel"
+msgstr "취소"
+
+msgid "challenge_missions/restart/confirm"
+msgstr "재시작"
+
+msgid "challenge_missions/restart/description"
+msgstr "임무 진행 상황이 초기화되고 보호막이 복구되어 보상을 다시 획득할 수 있습니다. 재시작하면 연속 임무가 즉시 활성화됩니다."
+
+msgid "challenge_missions/restart/free/title"
+msgstr "시련의 장: {{challengeName}} 임무를 무료로 재시작하시겠습니까?"
+
+msgid "challenge_missions/restart/paid/title"
+msgstr "시련의 장: {{challengeName}} 임무를 {{cost}}에 재시작하시겠습니까?"
+
+msgid "challenge_missions/surrender/cancel"
+msgstr "취소"
+
+msgid "challenge_missions/surrender/confirm"
+msgstr "포기"
+
+msgid "challenge_missions/surrender/description"
+msgstr "포기하면 해당 시련의 장 연속 임무가 종료되어 모든 진행 상황과 보호막이 초기화됩니다. 언제든 다시 시작할 수 있습니다."
+
+msgid "challenge_missions/surrender/title"
+msgstr "시련의 장: {{challengeName}} 임무를 포기하시겠습니까?"
+
+msgid "changeGraphics/cancel"
+msgstr "취소"
+
+msgid "changeGraphics/message"
+msgstr "%(alert)s 그래픽 설정이 대규모 업데이트되었습니다. 그래픽 설정을 자동 선택하거나 자동 선택을 취소한 후 직접 설정할 수 있습니다."
+
+msgid "changeGraphics/submit"
+msgstr "자동 선택"
+
+msgid "changeGraphics/title"
+msgstr "그래픽 설정 자동 선택"
+
+msgid "changePeriphery/cancel"
+msgstr "취소"
+
+msgid "changePeriphery/message"
+msgstr "다른 지역 서버로 이동하시겠습니까?"
+
+msgid "changePeriphery/submit"
+msgstr "이동"
+
+msgid "changePeriphery/title"
+msgstr "이동 확인"
+
+msgid "changePeripheryAndRemember/cancel"
+msgstr "취소"
+
+msgid "changePeripheryAndRemember/message"
+msgstr "이제 서버 변경 사항이 저장됩니다. 설정에서 자동 로그인 기능을 활성화하거나 비활성화할 수 있습니다."
+
+msgid "changePeripheryAndRemember/submit"
+msgstr "이동"
+
+msgid "changePeripheryAndRemember/title"
+msgstr "다른 서버로 변경하시겠습니까?"
+
+msgid "changeRoamingPeriphery/cancel"
+msgstr "취소"
+
+msgid "changeRoamingPeriphery/message"
+msgstr "다른 지역 서버에서 플레이하시겠습니까?\n\n서버를 변경하면 다음의 조건에 따라 해당 지역에서 플레이할 수 있습니다.\n\t• 일부 전차는 사용할 수 없습니다.\n\t• 문자와 문양이 표시되지 않습니다.\n\t• 임무, 개인 물자, 전차 훈련소 모드를 사용할 수 없습니다.\n\n연결 상태에 따라 오류나 문제가 발생할 수 있습니다."
+
+msgid "changeRoamingPeriphery/submit"
+msgstr "이동"
+
+msgid "changeRoamingPeriphery/title"
+msgstr "이동 확인"
+
+msgid "changeRoamingPeripheryAndRemember/cancel"
+msgstr "취소"
+
+msgid "changeRoamingPeripheryAndRemember/message"
+msgstr "다른 서버에서 플레이하시겠습니까?\n\n서버를 변경하면 다음 제한이 적용될 수 있습니다.\n\t• 일부 전차는 사용할 수 없습니다.\n\t• 문자와 문양이 표시되지 않습니다.\n\t• 임무, 개인 물자, 전차 훈련소 모드를 사용할 수 없습니다.\n\n연결 상태에 따라 오류나 문제가 발생할 수 있습니다.\n\n\n서버 변경 사항이 저장됩니다.\n자동 로그인 기능을 비활성화하거나 활성화하려면 설정으로 이동하십시오."
+
+msgid "changeRoamingPeripheryAndRemember/submit"
+msgstr "이동"
+
+msgid "changeRoamingPeripheryAndRemember/title"
+msgstr "이동 확인"
+
+msgid "clanConfirmJoining/cancel"
+msgstr "취소"
+
+msgid "clanConfirmJoining/message"
+msgstr "%(icon)s클랜에 가입하려고 합니다.\n%(clanName)s\n\n클랜에 가입하면 규칙 및 규정에 따르고 클랜 활동 참여에 동의한 것으로 간주합니다.\n\n%(clanExit)s"
+
+msgid "clanConfirmJoining/message/clanExit"
+msgstr "클랜을 탈퇴하면 일시적으로 다른 클랜 가입이 제한됩니다."
+
+msgid "clanConfirmJoining/message/clanName"
+msgstr "[%(clanAbbr)s] %(clanName)s"
+
+msgid "clanConfirmJoining/submit"
+msgstr "확인"
+
+msgid "clanConfirmJoining/title"
+msgstr "클랜 가입 확인"
+
+msgid "clan_data_not_available/cancel"
+msgstr "닫기"
+
+msgid "clan_data_not_available/message"
+msgstr "해당 플레이어 소속 클랜 프로필을 일시적으로 확인할 수 있습니다. 나중에 다시 시도하십시오."
+
+msgid "clan_data_not_available/title"
+msgstr "주의!"
+
+msgid "common/cancel"
+msgstr "취소"
+
+msgid "common/confirm/cancel"
+msgstr "아니요"
+
+msgid "common/confirm/submit"
+msgstr "예"
+
+msgid "common/cost"
+msgstr "비용:"
+
+msgid "common/error/cancel"
+msgstr "닫기"
+
+msgid "common/submit"
+msgstr "계속"
+
+msgid "confirmBattleBoosterBuyAndInstall/cancel"
+msgstr "취소"
+
+msgid "confirmBattleBoosterBuyAndInstall/submit"
+msgstr "확인"
+
+msgid "confirmBattleBoosterBuyAndInstall/title"
+msgstr "지휘명령 구매 및 장착"
+
+msgid "confirmBattleBoosterInstall/cancel"
+msgstr "취소"
+
+msgid "confirmBattleBoosterInstall/message"
+msgstr "주의! %(devices)s 장비가 장착되지 않았습니다. 해당 지휘명령이 %(font_tag_open)s활성화되지 않습니다.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstall/submit"
+msgstr "장착"
+
+msgid "confirmBattleBoosterInstall/title"
+msgstr "지휘명령 장착"
+
+msgid "confirmBattleBoosterInstallNotSuitable/cancel"
+msgstr "취소"
+
+msgid "confirmBattleBoosterInstallNotSuitable/message"
+msgstr "주의! 선택한 지휘명령과 호환되는 장비를 장착하지 않았습니다. 해당 지휘명령이 %(font_tag_open)s활성화되지 않습니다.%(font_tag_close)s"
+
+msgid "confirmBattleBoosterInstallNotSuitable/submit"
+msgstr "장착"
+
+msgid "confirmBattleBoosterInstallNotSuitable/title"
+msgstr "지휘명령 장착"
+
+msgid "confirmBuy/title"
+msgstr "%(moduleName)s 부품을 구매하시겠습니까?"
+
+msgid "confirmBuyAndInstall/cancel"
+msgstr "취소"
+
+msgid "confirmBuyAndInstall/depotMessage"
+msgstr "부품 보관소 이동"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/amount"
+msgstr "구매에 필요한 자금:"
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/body"
+msgstr "크레딧은 전투에 참여하거나 사용하지 않는 전차와 부품 등을 판매하여 획득할 수 있으며 골드로 구매하는 것도 가능합니다."
+
+msgid "confirmBuyAndInstall/insufficientFundsTooltip/header"
+msgstr "크레딧 부족"
+
+msgid "confirmBuyAndInstall/message"
+msgstr "부품 가격:"
+
+msgid "confirmBuyAndInstall/sellMessage"
+msgstr "교체한 %(previousModuleName) 부품 %(previousModulePrice)에 판매"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/compatibleTanks"
+msgstr "해당 부품 호환 전차:"
+
+msgid "confirmBuyAndInstall/soldModuleInfo/description"
+msgstr "부품을 지금 판매할 수도 있지만, 보관소로 보내면 나중에 판매하거나 다시 장착할 수 있습니다."
+
+msgid "confirmBuyAndInstall/submit"
+msgstr "확인"
+
+msgid "confirmBuyAndInstall/title"
+msgstr "%(moduleName)s 부품을 구매하고 장착하시겠습니까?"
+
+msgid "confirmEquipmentBuyInstall/submit"
+msgstr "\"%(equipment)s\" 장비를 구매 및 장착하시겠습니까?"
+
+msgid "confirmEquipmentInstall/submit"
+msgstr "장착"
+
+msgid "confirmExchangeDialog/exchangeCredits/cancel"
+msgstr "취소"
+
+msgid "confirmExchangeDialog/exchangeCredits/exchangeNoNeedText"
+msgstr "구매할 필요가 없습니다.\n크레딧이 충분합니다."
+
+msgid "confirmExchangeDialog/exchangeCredits/goldNotEnoughText"
+msgstr "구매할 수 없습니다. 이유: 구매 실패\n구매하려면 %(gold)s골드가 더 필요합니다."
+
+msgid "confirmExchangeDialog/exchangeCredits/needGoldText"
+msgstr "%(gold)s를 사용하여 크레딧을 구매하시겠습니까?"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsStepperTitle"
+msgstr "필요한 크레딧:"
+
+msgid "confirmExchangeDialog/exchangeCredits/needItemsText"
+msgstr "구매에 필요한 금액: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeCredits/submit"
+msgstr "구매"
+
+msgid "confirmExchangeDialog/exchangeCredits/title"
+msgstr "크레딧 구매 확인"
+
+msgid "confirmExchangeDialog/exchangeXp/cancel"
+msgstr "취소"
+
+msgid "confirmExchangeDialog/exchangeXp/exchangeNoNeedText"
+msgstr "전환할 필요가 없습니다.\n경험치가 충분합니다."
+
+msgid "confirmExchangeDialog/exchangeXp/goldNotEnoughText"
+msgstr "연구할 수 없습니다. 이유: 전환 실패\n전환하려면 %(gold)s골드가 더 필요합니다."
+
+msgid "confirmExchangeDialog/exchangeXp/needGoldText"
+msgstr "%(gold)s를 사용하여 경험치를 전환하시겠습니까?"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsStepperTitle"
+msgstr "필요 경험치:"
+
+msgid "confirmExchangeDialog/exchangeXp/needItemsText"
+msgstr "연구에 필요한 경험치: %(value)s"
+
+msgid "confirmExchangeDialog/exchangeXp/submit"
+msgstr "전차 선택"
+
+msgid "confirmExchangeDialog/exchangeXp/title"
+msgstr "경험치 전환 확인"
+
+msgid "confirmExchangeDialog/goldItemsStepperTitle"
+msgstr "총합:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/cancel"
+msgstr "취소"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/exchangeNoNeedText"
+msgstr "크레딧 구매 없이\n복구할 수 있습니다."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/goldNotEnoughText"
+msgstr "복구할 수 없습니다.\n크레딧 구매에 %(gold)s골드가 필요합니다."
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needGoldText"
+msgstr "%(gold)s골드로 부족한 크레딧을 구매하시겠습니까?"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsStepperTitle"
+msgstr "필요한 크레딧:"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/needItemsText"
+msgstr "복구에 필요한 금액: %(value)s"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/submit"
+msgstr "구매"
+
+msgid "confirmExchangeDialog/restoreExchangeCredits/title"
+msgstr "복구 크레딧 구매 확인"
+
+msgid "confirmModuleDialog/countLabel"
+msgstr "수량"
+
+msgid "confirmModuleDialog/countLabel1"
+msgstr "개수"
+
+msgid "confirmModuleDialog/inventory/totalLabel1"
+msgstr "전체"
+
+msgid "confirmModuleDialog/priceLabel"
+msgstr "가격"
+
+msgid "confirmModuleDialog/priceLabel1"
+msgstr "가격"
+
+msgid "confirmModuleDialog/rezultLabel1"
+msgstr "총합"
+
+msgid "confirmModuleDialog/shop/totalLabel1"
+msgstr "전체"
+
+msgid "confirmModuleDialog/totalLabel"
+msgstr "총합"
+
+msgid "confirmUnlock/cancel"
+msgstr "취소"
+
+msgid "confirmUnlock/content/currencyBlock/text"
+msgstr "{{xp}} ({{freeXP}} 포함)"
+
+msgid "confirmUnlock/content/researchItem/text"
+msgstr "{{items}} 연구 비용:"
+
+msgid "confirmUnlock/item/message"
+msgstr "%(userString)s %(typeString)s 연구에 %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s(%(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s) 경험치를 사용합니다. 계속하시겠습니까?"
+
+msgid "confirmUnlock/submit"
+msgstr "예"
+
+msgid "confirmUnlock/title"
+msgstr "연구 승인"
+
+msgid "confirmUnlock/vehicle/message"
+msgstr "%(userString)s 연구에 %(color_tag_open)s%(xpCost)s%(color_tag_close)s%(xpCostIcon)s(%(color_tag_open)s%(freeXP)s%(color_tag_close)s%(freeXPIcon)s) 경험치를 사용합니다. 계속하시겠습니까?"
+
+msgid "controlsWrongNotification/cancel"
+msgstr "취소"
+
+msgid "controlsWrongNotification/message"
+msgstr "적용되지 않은 설정이 있습니다. 이대로 저장하시겠습니까?"
+
+msgid "controlsWrongNotification/submit"
+msgstr "확인"
+
+msgid "controlsWrongNotification/title"
+msgstr "오류"
+
+msgid "controlsWrongNotificationsoundModeInvalid/cancel"
+msgstr "취소"
+
+msgid "controlsWrongNotificationsoundModeInvalid/message"
+msgstr "선택된 음성 알림에 대한 파일이 손상되었거나 찾을 수 없어 알림 음성이 기본값으로 설정되었습니다.\n하나 이상의 값이 지정되지 않았습니다. 설정을 저장하시겠습니까?"
+
+msgid "controlsWrongNotificationsoundModeInvalid/submit"
+msgstr "확인"
+
+msgid "controlsWrongNotificationsoundModeInvalid/title"
+msgstr "오류"
+
+msgid "createOrderConfirmation/cancel"
+msgstr "취소"
+
+msgid "createOrderConfirmation/submit"
+msgstr "확인"
+
+msgid "createOrderConfirmation/title"
+msgstr "물자 비축 확인"
+
+msgid "crewBookPurchase/btnDisabledTooltip"
+msgstr "구매에 필요한 자금이 부족합니다."
+
+msgid "crewBookPurchase/description/crew"
+msgstr "전체 승무원에 적용합니다. %(book)s 사용 시 각 승무원에 %(exp)s 경험치가 적용됩니다."
+
+msgid "crewBookPurchase/description/personal"
+msgstr "선택한 승무원에 적용합니다. %(book)s 사용 시 각 승무원에 %(exp)s 경험치가 적용됩니다."
+
+msgid "crewBookPurchase/purchase"
+msgstr "구매"
+
+msgid "crewBookPurchase/purchase/title"
+msgstr "%(book)s 아이템을 구매하시겠습니까?"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/cancel"
+msgstr "취소"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/message"
+msgstr "{this}에서 해당 슬롯을 이용할 수 없으므로\n{season} 속성 지도에 적용한 모든 데칼이 전차에서 {removed}됩니다."
+
+msgid "customization/applyProjectionDecalToOtherSeasons/submit"
+msgstr "확인"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/these"
+msgstr "해당 지도"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/this"
+msgstr "해당 지도"
+
+msgid "customization/applyProjectionDecalToOtherSeasons/title"
+msgstr "모든 지도 속성 슬롯에 해당 데칼을 적용하시겠습니까?"
+
+msgid "customization/buy_install_bound/message"
+msgstr "구매 시 해당 요소가 현재 전차에 적용됩니다. 별표가 표시된 요소는 다른 전차에서 사용할 수 없습니다."
+
+msgid "customization/buy_install_bound/title"
+msgstr "요소 구매 확인"
+
+msgid "customization/change_install_bound/message"
+msgstr "선택 시 해당 요소가 현재 전차에 적용됩니다. 별표가 표시된 요소는 다른 전차에서 사용할 수 없습니다."
+
+msgid "customization/change_install_bound/title"
+msgstr "요소 변경 확인"
+
+msgid "customization/close/cancel"
+msgstr "취소"
+
+msgid "customization/close/submit"
+msgstr "확인"
+
+msgid "customization/close/title"
+msgstr "변경 사항을 적용하지 않고 차고로 복귀하시겠습니까?"
+
+msgid "customization/exitToShop/cancel"
+msgstr "취소"
+
+msgid "customization/exitToShop/submit"
+msgstr "확인"
+
+msgid "customization/exitToShop/title"
+msgstr "변경 사항을 적용하지 않고 상점으로 이동하시겠습니까?"
+
+msgid "customization/filter/cancel"
+msgstr "취소"
+
+msgid "customization/filter/message"
+msgstr "전차 꾸미기 요소를 모두 제거합니다. 계속하시겠습니까?"
+
+msgid "customization/filter/submit"
+msgstr "확인"
+
+msgid "customization/filter/title"
+msgstr "모든 요소 제거"
+
+msgid "customization/install_bound/cancel"
+msgstr "취소"
+
+msgid "customization/install_bound/submit"
+msgstr "계속"
+
+msgid "customization/install_invoice_item/permanent/cancel"
+msgstr "취소"
+
+msgid "customization/install_invoice_item/permanent/message"
+msgstr "주의! (%(cTypeName)s %(itemName)s) 전차 꾸미기를 현재 선택한 전차에 적용하면 앞으로 %(numberLeft)s대에만 추가로 해당 전차 꾸미기를 적용할 수 있습니다. 전차 꾸미기를 적용하시겠습니까?"
+
+msgid "customization/install_invoice_item/permanent/submit"
+msgstr "적용"
+
+msgid "customization/install_invoice_item/permanent/title"
+msgstr "전차 꾸미기 적용"
+
+msgid "customization/install_invoice_item/permanent_last/cancel"
+msgstr "취소"
+
+msgid "customization/install_invoice_item/permanent_last/message"
+msgstr "주의! (%(cTypeName)s %(itemName)s) 전차 꾸미기를 현재 선택한 전차에 적용하면 앞으로 해당 전차 꾸미기를 적용할 수 없습니다. 전차 꾸미기를 적용하시겠습니까?"
+
+msgid "customization/install_invoice_item/permanent_last/submit"
+msgstr "적용"
+
+msgid "customization/install_invoice_item/permanent_last/title"
+msgstr "전차 꾸미기 적용"
+
+msgid "customization/install_invoice_item/temporary/cancel"
+msgstr "취소"
+
+msgid "customization/install_invoice_item/temporary/message"
+msgstr "주의! (%(cTypeName)s %(itemName)s) 전차 꾸미기를 현재 선택한 전차에 적용하면 앞으로 해당 전차 꾸미기를 적용할 수 없으며 %(willBeDeleted)s 전차 꾸미기는 제거됩니다. 전차 꾸미기를 적용하시겠습니까?"
+
+msgid "customization/install_invoice_item/temporary/submit"
+msgstr "적용"
+
+msgid "customization/install_invoice_item/temporary/title"
+msgstr "전차 꾸미기 적용"
+
+msgid "customization/install_invoice_item/will_be_deleted"
+msgstr "삭제됩니다."
+
+msgid "customization/remove_element/cancel"
+msgstr "취소"
+
+msgid "customization/remove_element/message"
+msgstr "%(description)s"
+
+msgid "customization/remove_element/submit"
+msgstr "제거"
+
+msgid "customization/remove_element/title"
+msgstr "전차 꾸미기 제거"
+
+msgid "customizationConfirmSell/message"
+msgstr "%(name)s 항목을 %(price)s%(creditsIcon)s 크레딧에 판매하시겠습니까?"
+
+msgid "customizationConfirmSell/title"
+msgstr "판매 확인"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDays"
+msgstr "%(days)s일마다"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgDaysHours"
+msgstr "%(days)s일 %(hours)s시간마다"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHours"
+msgstr "%(hours)s시간마다"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgHoursMins"
+msgstr "%(hours)s시간 %(mins)s분마다"
+
+msgid "dailyQuests/dialogConfirmReroll/timeLimitMsgMins"
+msgstr "%(mins)s분마다"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/message"
+msgstr "{timeLimitMsg} 임무 변경 가능"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/submit"
+msgstr "변경"
+
+msgid "dailyQuests/dialogInfoConfirmReroll/title"
+msgstr "임무를 변경하시겠습니까?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/message"
+msgstr "{warning} 전투 중인 전차가 있습니다. 임무 변경 시 진행 상황을 잃을 수도 있습니다. {timeLimitMsg} 임무 변경 가능"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/submit"
+msgstr "변경"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/title"
+msgstr "임무를 변경하시겠습니까?"
+
+msgid "dailyQuests/dialogWarningConfirmReroll/warning"
+msgstr "주의!"
+
+msgid "dedication/headline"
+msgstr "우리 시대의 영웅 업적 획득"
+
+msgid "dedication/sub-headline"
+msgstr "전투 {battlesNum}회 참여"
+
+msgid "dialogTemplates/cancel"
+msgstr "취소"
+
+msgid "dialogTemplates/confirm"
+msgstr "확인"
+
+msgid "dialogTemplates/ok"
+msgstr "확인"
+
+msgid "disconnect/cancel"
+msgstr "취소"
+
+msgid "disconnect/message"
+msgstr "서버와 연결을 끊으시겠습니까?"
+
+msgid "disconnect/submit"
+msgstr "예"
+
+msgid "disconnect/title"
+msgstr "접속 종료"
+
+msgid "disconnected/cancel"
+msgstr "확인"
+
+msgid "disconnected/message"
+msgstr "서버와 연결이 종료되었습니다. 확인을 눌러 다시 연결하십시오."
+
+msgid "disconnected/messageBan"
+msgstr "계정이 정지되었습니다. %(reason)s"
+
+msgid "disconnected/messageBanPeriod"
+msgstr "%(expiryTime)s 까지 접속이 제한됩니다. %(reason)s"
+
+msgid "disconnected/messageKick"
+msgstr "서버와 접속이 끊겼습니다. %(reason)s"
+
+msgid "disconnected/reason"
+msgstr " \n이유: %s"
+
+msgid "disconnected/title"
+msgstr "접속 제한 안내"
+
+msgid "dismissTankman/buttons/dismiss"
+msgstr "퇴역"
+
+msgid "dismissTankman/description/perk"
+msgstr "해당 작업을 수행하려면 능력 훈련 수치 입력: {cream_Open}%(perk)s{cream_Close} ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/qualification"
+msgstr "승무원을 퇴역 처리하려면 가장 최근에 훈련한 능력의 훈련 수치 입력 ({whiteOrange_Open}%(level)s{whiteOrange_Close})"
+
+msgid "dismissTankman/description/time"
+msgstr "선택한 승무원이 퇴역합니다. {whiteOrange_Open}%(time)s일{whiteOrange_Close} 내로 복구할 수 있습니다."
+
+msgid "dismissTankman/header"
+msgstr "승무원 퇴역"
+
+msgid "dismissTankman/limited"
+msgstr "퇴역 대기 제한에 도달했습니다. 퇴역 대기 중인 승무원이 %(name)s(%(role)s, %(vehicle)s) 승무원으로 대체됩니다."
+
+msgid "dismissTankman/noRecovery"
+msgstr "복구 불가"
+
+msgid "dismissedBufferOverFlaw/cancel"
+msgstr "취소"
+
+msgid "dismissedBufferOverFlaw/message"
+msgstr "주의! %(dismissedName)s 승무원 퇴역 시 %(deletedStr)s 승무원은 사라집니다. 계속하시겠습니까?"
+
+msgid "dismissedBufferOverFlaw/submit"
+msgstr "확인"
+
+msgid "dismissedBufferOverFlaw/title"
+msgstr "대체 확인"
+
+msgid "dismissedBufferOverFlawMultiple/cancel"
+msgstr "취소"
+
+msgid "dismissedBufferOverFlawMultiple/message"
+msgstr "주의! 승무원 퇴역 시 %(deletedStr)s 외 %(extraCount)s명이 대기 막사에서 사라집니다. 계속하시겠습니까?"
+
+msgid "dismissedBufferOverFlawMultiple/submit"
+msgstr "확인"
+
+msgid "dismissedBufferOverFlawMultiple/title"
+msgstr "승무원 퇴역 대기 막사 공간 부족"
+
+msgid "documentChangeDialog/button/submit"
+msgstr "변경"
+
+msgid "documentChangeDialog/dropdown/firstName"
+msgstr "이름"
+
+msgid "documentChangeDialog/dropdown/lastName"
+msgstr "성"
+
+msgid "documentChangeDialog/title"
+msgstr "이름 및 외관을 변경하시겠습니까?"
+
+msgid "dropSkill/cancel"
+msgstr "취소"
+
+msgid "dropSkill/message"
+msgstr "모든 능력을 초기화하시겠습니까?"
+
+msgid "dropSkill/submit"
+msgstr "확인"
+
+msgid "dropSkill/title"
+msgstr "초기화"
+
+msgid "elementType/chassis"
+msgstr "현가장치"
+
+msgid "elementType/engine"
+msgstr "엔진"
+
+msgid "elementType/gun"
+msgstr "주포"
+
+msgid "elementType/radiostation"
+msgstr "무전기"
+
+msgid "elementType/turret"
+msgstr "포탑"
+
+msgid "elenDisabled/cancel"
+msgstr "닫기"
+
+msgid "elenDisabled/message"
+msgstr "점검 중이므로 경쟁을 이용할 수 없습니다."
+
+msgid "elenDisabled/title"
+msgstr "주의!"
+
+msgid "epicBattleConfirmDialog/cancel"
+msgstr "취소"
+
+msgid "epicBattleConfirmDialog/checkBox"
+msgstr "경고 다시 표지하지 않음"
+
+msgid "epicBattleConfirmDialog/message"
+msgstr "사용 중인 하드웨어 구성에 따라 해당 모드에 낮은 FPS와 그래픽 왜곡 현상을 경험할 수 있습니다. 전투 불러오기 시간이 지연되거나 게임이 중단될 수도 있습니다. 전투에 입장하시겠습니까?"
+
+msgid "epicBattleConfirmDialog/submit"
+msgstr "확인"
+
+msgid "epicBattleConfirmDialog/title"
+msgstr "성능 경고"
+
+msgid "equipmentBuyInstall/price"
+msgstr "구매 가격:"
+
+msgid "equipmentDeconstruct/confirmation/header"
+msgstr "%(equipment)s 장비를 분해하시겠습니까?"
+
+msgid "equipmentDeconstruction/cancelButton"
+msgstr "취소"
+
+msgid "equipmentDeconstruction/confirmAndUpgradeButton"
+msgstr "분해 및 강화"
+
+msgid "equipmentDeconstruction/confirmButton"
+msgstr "분해"
+
+msgid "equipmentDestroy/DemountOptions/bonds"
+msgstr "해당 장비는 해체 시 {white_Open}파괴{white_Close}됩니다.\n전쟁 채권 사용 시 해당 장비를 온전하게 해체할 수 있습니다."
+
+msgid "equipmentDestroy/DemountOptions/goldOrDemoKit"
+msgstr "해당 장비는 해체 시 {white_Open}파괴{white_Close}됩니다.\n골드 또는 장비 해체 도구 사용 시 해당 장비를 온전하게 해체할 수 있습니다."
+
+msgid "equipmentDestroy/conformation"
+msgstr "\"%(equipment)s\" 장비를 파괴하시겠습니까?"
+
+msgid "equipmentPurcase/conformation/all"
+msgstr "\"%(equipment)s\" 장비를 장착하시겠습니까?"
+
+msgid "equipmentSale/conformation/header"
+msgstr "\"%(equipment)s\" 장비를 판매하시겠습니까?"
+
+msgid "equipmentUpgrade/cancelButton"
+msgstr "취소"
+
+msgid "equipmentUpgrade/confirmButton"
+msgstr "강화"
+
+msgid "equipmentUpgrade/getMoreCurrencyButton"
+msgstr "분해로 이동"
+
+msgid "equipmentUpgrade/getMoreCurrencyButtonTooltip/body"
+msgstr "분해할 수 있는 시제 장비가 없습니다."
+
+msgid "eula/p1"
+msgstr "계속하기 전에 <BR/><A HREF='event:%(eulaURL)s'><U>최종 이용자 라이선스 계약</U></A>을 확인하십시오."
+
+msgid "eula/p2"
+msgstr "귀하는 “계속”을 클릭함으로써, 최종 이용자 라이선스 계약의 조항을 읽고, 이해하고, 이에 제한을 받아 이를 준수하는데 동의하며, 이의 위반에 관한 책임이 있음을 인정합니다. 최종 이용자 라이선스 계약 및 이의 개정은 모든 구성원에게 매우 중요하며, 이들을 구속합니다."
+
+msgid "exchangeGoldConfirmation/cancel"
+msgstr "취소"
+
+msgid "exchangeGoldConfirmation/message"
+msgstr "%(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s를 %(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s으로 전환하시겠습니까?"
+
+msgid "exchangeGoldConfirmation/submit"
+msgstr "확인"
+
+msgid "exchangeGoldConfirmation/title"
+msgstr "크레딧 구매"
+
+msgid "exchangeXPConfirmation/available/forFree/message"
+msgstr "최대 %(resultCurrencyColorTagOpen)s%(freeXPLimit)s%(tagClose)s%(resultCurrencyIcon)s 경험치를 자유 경험치로 무료 전환할 수 있습니다. 다음부터는 골드가 차감됩니다."
+
+msgid "exchangeXPConfirmation/cancel"
+msgstr "취소"
+
+msgid "exchangeXPConfirmation/message"
+msgstr "%(resultCurrencyColorTagOpen)s%(resultCurrencyAmount)s%(tagClose)s%(resultCurrencyIcon)s경험치를 %(primaryCurrencyColorTagOpen)s%(primaryCurrencyAmount)s%(tagClose)s%(primaryCurrencyIcon)s를 소모하여 자유 경험치로 전환하겠습니까?"
+
+msgid "exchangeXPConfirmation/submit"
+msgstr "확인"
+
+msgid "exchangeXPConfirmation/title"
+msgstr "자유 경험치 전환"
+
+msgid "exchangeXpWindow/error/noEliteVehicleInHangar"
+msgstr "전환할 경험치가 부족합니다."
+
+msgid "exchangeXpWindow/error/noVehiclesWithXp"
+msgstr "전환할 경험치가 부족합니다."
+
+msgid "fillAllPerks/button/cancel"
+msgstr "취소"
+
+msgid "fillAllPerks/button/fill"
+msgstr "자동 선택"
+
+msgid "fillAllPerks/checkbox"
+msgstr "막사 내 승무원 능력 자동 선택"
+
+msgid "fillAllPerks/description"
+msgstr "능력 슬롯이 열려있는 승무원의 직책에 따라 알고리즘이 적용되어 아래 표의 첫 번째 능력이 선택됩니다. 승무원이 이미 첫 번째 능력을 보유하고 있다면 두 번째 능력이 대신 선택됩니다. 빈 능력 슬롯이 모두 채워질 때까지 이와 같은 방식으로 능력이 선택됩니다. 해당 작업은 완료되기까지 일정 시간이 소요될 수 있습니다."
+
+msgid "fillAllPerks/subTitle"
+msgstr "전차에 탑승 중인 승무원의 능력만 자동으로 선택됩니다."
+
+msgid "fillAllPerks/title"
+msgstr "모든 승무원의 미훈련 능력을 자동으로 선택하시겠습니까?"
+
+msgid "finance_dialog/cancelBtn"
+msgstr "취소"
+
+msgid "finance_dialog/header"
+msgstr "작업 확인"
+
+msgid "finance_dialog/results/defaultMessage"
+msgstr "작업을 승인하려면 이체 비밀번호를 입력하십시오."
+
+msgid "finance_dialog/results/invalid"
+msgstr "비밀번호가 올바르지 않습니다."
+
+msgid "finance_dialog/results/limit"
+msgstr "잘못된 비밀번호를 너무 많이 입력하였습니다. 24시간 후에 다시 시도하십시오. <u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">비밀번호 찾기</a></u>"
+
+msgid "finance_dialog/results/valid"
+msgstr "finance_dialog/results/valid"
+
+msgid "finance_dialog/results/wrong"
+msgstr "비밀번호는 알파벳, 숫자 및 밑줄('_') 포함하여 최소 6글자 이상이어야 합니다."
+
+msgid "finance_dialog/submitBtn"
+msgstr "확인"
+
+msgid "forCoinsObtainConfirmation/cancel"
+msgstr "취소"
+
+msgid "forCoinsObtainConfirmation/message"
+msgstr "%(price)s에 %(product)s 아이템을 획득하시겠습니까?"
+
+msgid "forCoinsObtainConfirmation/submit"
+msgstr "획득"
+
+msgid "forCoinsObtainConfirmation/title"
+msgstr "확인"
+
+msgid "fortDisabled/cancel"
+msgstr "닫기"
+
+msgid "fortDisabled/message"
+msgstr "점검 중이므로 현재 클랜 정보를 확인할 수 없습니다."
+
+msgid "fortDisabled/title"
+msgstr "주의!"
+
+msgid "fortTurnedOff/cancel"
+msgstr "확인"
+
+msgid "fortTurnedOff/message"
+msgstr "요새 모드를 이용할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "fortTurnedOff/title"
+msgstr "주의!"
+
+msgid "fortificationCloseDirection/cancel"
+msgstr "취소"
+
+msgid "fortificationCloseDirection/submit"
+msgstr "예"
+
+msgid "fortificationFixedPlayers/cancel"
+msgstr "취소"
+
+msgid "fortificationFixedPlayers/message"
+msgstr "현재 주둔 중인 %(oldBuilding)s에서 나와 %(newBuilding)s에 소속됩니다."
+
+msgid "fortificationFixedPlayers/submit"
+msgstr "확인"
+
+msgid "fortificationFixedPlayers/title"
+msgstr "주둔지 변경"
+
+msgid "freeObtainConfirmation/cancel"
+msgstr "취소"
+
+msgid "freeObtainConfirmation/message"
+msgstr "%(price)s에 %(product)s 아이템을 획득하시겠습니까?"
+
+msgid "freeObtainConfirmation/submit"
+msgstr "획득"
+
+msgid "freeObtainConfirmation/title"
+msgstr "확인"
+
+msgid "freeSkillsLearning/message"
+msgstr "기본 보유 능력은 훈련 시 경험치가 필요하지 않습니다. 따라서 승무원이 능력을 추가로 훈련할 때 필요한 경험치도 크게 줄어듭니다."
+
+msgid "freeSkillsLearning/title/learning"
+msgstr "%(skillName)s 능력을 기본 보유 능력으로 선택하시겠습니까?"
+
+msgid "freeSkillsLearning/title/relearning"
+msgstr "%(skillName)s 능력을 기본 보유 능력으로 재훈련하시겠습니까?"
+
+msgid "freeSlotConfirmation/cancel"
+msgstr "취소"
+
+msgid "freeSlotConfirmation/message"
+msgstr "무료로 차고에 슬롯을 추가하시겠습니까?"
+
+msgid "freeSlotConfirmation/submit"
+msgstr "확인"
+
+msgid "freeSlotConfirmation/title"
+msgstr "슬롯 추가"
+
+msgid "freeVehicleLeftLimit/cancel"
+msgstr "닫기"
+
+msgid "freeVehicleLeftLimit/message"
+msgstr "무료 전차를 더는 구매할 수 없습니다. 내일 다시 시도하십시오."
+
+msgid "freeVehicleLeftLimit/submit"
+msgstr "닫기"
+
+msgid "freeVehicleLeftLimit/title"
+msgstr "구매 제한"
+
+msgid "freeXPInfo/message"
+msgstr "%(orangeText_open)s경험치%(orangeText_close)s%(simpleText_open)s는 전투에서 획득할 수 있는 게임 자원입니다.\n\n경험치는 두 가지로 분류됩니다.%(simpleText_close)s\n%(xpIcon)s%(orangeText_open)s일반 경험치%(orangeText_close)s%(simpleText_open)s는 획득한 전차에 귀속되어 해당 전차의 새로운 부품 연구나 다음 단계 전차 연구에 사용할 수 있습니다.%(simpleText_close)s\n\n%(freeXPIcon)s%(orangeText_open)s자유 경험치%(orangeText_close)s%(simpleText_open)s는 원하는 전차와 부품 연구 및 승무원 급속 훈련에 사용할 수 있습니다. 신중하게 사용하십시오.%(simpleText_close)s"
+
+msgid "freeXPInfo/submitBtnLbl"
+msgstr "계속"
+
+msgid "freeXPInfo/title"
+msgstr "일반 경험치"
+
+msgid "gammaDialog/cancel"
+msgstr "시작"
+
+msgid "gammaDialog/message/description"
+msgstr "전차장님! 모니터의 색상, 감마를 조정하고 화면 이미지 품질을 향상해 보십시오.\n\n "
+
+msgid "gammaDialog/message/header"
+msgstr "모니터 설정 조정!"
+
+msgid "gammaDialog/title"
+msgstr "감마 설정"
+
+msgid "gatheringXPForm/afterOperation"
+msgstr "전환 후"
+
+msgid "gatheringXPForm/beforeOperation"
+msgstr "전환 전"
+
+msgid "gatheringXPForm/btnCancel"
+msgstr "취소"
+
+msgid "gatheringXPForm/btnSubmit"
+msgstr "전환"
+
+msgid "gatheringXPForm/currentAmount"
+msgstr "총합:"
+
+msgid "gatheringXPForm/headerButtons/crew"
+msgstr "승무원"
+
+msgid "gatheringXPForm/headerButtons/vehicle"
+msgstr "전차"
+
+msgid "gatheringXPForm/headerButtons/xp"
+msgstr "경험치"
+
+msgid "gatheringXPForm/selectAllLabel"
+msgstr "모든 전차"
+
+msgid "gatheringXPForm/sortBy/selection/body"
+msgstr "선택한 전차순으로 정렬"
+
+msgid "gatheringXPForm/sortBy/selection/header"
+msgstr "?empty?"
+
+msgid "gatheringXPForm/sortBy/vehicle/body"
+msgstr "전차명으로 정렬"
+
+msgid "gatheringXPForm/sortBy/vehicle/header"
+msgstr "전차"
+
+msgid "gatheringXPForm/sortBy/xp/body"
+msgstr "획득한 경험치로 정렬"
+
+msgid "gatheringXPForm/sortBy/xp/header"
+msgstr "경험치"
+
+msgid "gatheringXPForm/title"
+msgstr "자유 경험치로 전환"
+
+msgid "gatheringXPForm/toChangeLabel"
+msgstr "전환 경험치:"
+
+msgid "gatheringXPForm/tooltips/checkboxCrewSelected"
+msgstr "승무원 훈련을 가속합니다."
+
+msgid "gatheringXPForm/tooltips/checkboxCrewUnselected"
+msgstr "승무원 훈련을 일반 상태로 전환했습니다."
+
+msgid "gatheringXPForm/totalLabel"
+msgstr "총합:"
+
+msgid "gatheringXPForm/totalXP"
+msgstr "총합:"
+
+msgid "graphics/message/alert"
+msgstr "주의!"
+
+msgid "graphicsChangeConfirmation/cancel"
+msgstr "취소"
+
+msgid "graphicsChangeConfirmation/message"
+msgstr "전체 화면 모드가 변경되었습니다. %(time)s초 후에 이전 설정으로 돌아갑니다. 선택한 설정을 저장하시겠습니까?"
+
+msgid "graphicsChangeConfirmation/submit"
+msgstr "확인"
+
+msgid "graphicsChangeConfirmation/title"
+msgstr "전체 화면 모드 설정"
+
+msgid "graphicsPresetAutodetectConfirmation/cancel"
+msgstr "취소"
+
+msgid "graphicsPresetAutodetectConfirmation/message"
+msgstr "주의! 변경한 설정이 저장되지 않았습니다. 계속하시겠습니까?"
+
+msgid "graphicsPresetAutodetectConfirmation/submit"
+msgstr "예"
+
+msgid "graphicsPresetAutodetectConfirmation/title"
+msgstr "그래픽 설정 자동 감지"
+
+msgid "graphicsPresetDelayedConfirmation/cancel"
+msgstr "취소"
+
+msgid "graphicsPresetDelayedConfirmation/message"
+msgstr "주의! 설정을 변경하려면 다소 시간이 걸릴 수 있습니다. 계속하시겠습니까?"
+
+msgid "graphicsPresetDelayedConfirmation/submit"
+msgstr "예"
+
+msgid "graphicsPresetDelayedConfirmation/title"
+msgstr "설정 변경"
+
+msgid "graphicsPresetNotInstalled/cancel"
+msgstr "닫기"
+
+msgid "graphicsPresetNotInstalled/message"
+msgstr "최고 설정을 사용할 수 없습니다. 사용자 설정값으로 대체됩니다."
+
+msgid "graphicsPresetNotInstalled/title"
+msgstr "경고"
+
+msgid "graphicsPresetNotPossible/cancel"
+msgstr "닫기"
+
+msgid "graphicsPresetNotPossible/message"
+msgstr "고품질 그래픽 질감 옵션은 64비트 운영체제에서만 사용할 수 있습니다."
+
+msgid "graphicsPresetNotPossible/title"
+msgstr "질감 품질 설정 불가"
+
+msgid "graphicsPresetRestartConfirmation/cancel"
+msgstr "취소"
+
+msgid "graphicsPresetRestartConfirmation/delay"
+msgstr "나중에 재시작"
+
+msgid "graphicsPresetRestartConfirmation/message"
+msgstr "설정을 변경하려면 게임을 재실행하여야 합니다."
+
+msgid "graphicsPresetRestartConfirmation/submit"
+msgstr "확인"
+
+msgid "graphicsPresetRestartConfirmation/title"
+msgstr "설정 변경"
+
+msgid "haveNoEmptySlots/cancel"
+msgstr "확인"
+
+msgid "haveNoEmptySlots/message"
+msgstr "차고에 빈 슬롯이 없습니다. 전차를 구매하려면 추가 슬롯을 구매하거나 필요없는 전차를 판매해야 합니다."
+
+msgid "haveNoEmptySlots/submit"
+msgstr "확인"
+
+msgid "haveNoEmptySlots/title"
+msgstr "오류"
+
+msgid "hof/excludeRating/cancel"
+msgstr "취소"
+
+msgid "hof/excludeRating/message"
+msgstr "다른 플레이어가 전적을 확인할 수 없지만, 명예의 전당 페이지에 표시되도록 할 수 있습니다."
+
+msgid "hof/excludeRating/submit"
+msgstr "결과 숨김"
+
+msgid "hof/excludeRating/title"
+msgstr "성적에 결과 표시"
+
+msgid "hofDisabled/cancel"
+msgstr "닫기"
+
+msgid "hofDisabled/message"
+msgstr "명예의 전당을 일시적으로 이용할 수 없습니다. 나중에 다시 시도하십시오."
+
+msgid "hofDisabled/title"
+msgstr "주의!"
+
+msgid "idleCrewBonus/cancel"
+msgstr "취소"
+
+msgid "idleCrewBonus/message/crewIncomplete"
+msgstr "{orange_Open}승무원 부족{orange_Close}"
+
+msgid "idleCrewBonus/message/crewUnsuitable"
+msgstr "{orange_Open}적합하지 않은 승무원 탑승 중{orange_Close}"
+
+msgid "idleCrewBonus/message/crewWarning"
+msgstr "선택한 전차는 다음 이유 중 한 가지에 해당하여 적합하지 않습니다."
+
+msgid "idleCrewBonus/message/dot"
+msgstr "{parNoWidth_Open}.{parNoWidth_Close}"
+
+msgid "idleCrewBonus/message/removeName"
+msgstr "{white_Open}%(vehicleName)s{white_Close}"
+
+msgid "idleCrewBonus/message/removeTypeFrom"
+msgstr "전차 한 대의 승무원에만 보너스를 적용할 수 있습니다.\n보너스 제거 전차:"
+
+msgid "idleCrewBonus/message/removeTypeTo"
+msgstr "/ 보너스 적용 전차:"
+
+msgid "idleCrewBonus/submit"
+msgstr "확인"
+
+msgid "idleCrewBonus/title"
+msgstr "승무원 집중 훈련을 활성화하시겠습니까?"
+
+msgid "inGameBrowser/textureLoadingFailed/message"
+msgstr "설정 내 그래픽 메뉴에서 브라우저 하드웨어 가속을 비활성화해 보십시오."
+
+msgid "inGameBrowser/textureLoadingFailed/title"
+msgstr "불러오기 오류"
+
+msgid "interviewQuit/cancel"
+msgstr "뒤로"
+
+msgid "interviewQuit/message"
+msgstr "시스템 알림창 메시지를 클릭하여 다시 설문조사에 참여할 수 있으며 로그아웃한 후에는 유효하지 않습니다. 설문조사에 참여하지 않으시겠습니까?"
+
+msgid "interviewQuit/submit"
+msgstr "확인"
+
+msgid "interviewQuit/title"
+msgstr "설문조사 거절"
+
+msgid "koreaParentNotification/cancel"
+msgstr "확인"
+
+msgid "koreaParentNotification/message"
+msgstr "청소년 보호법에 따라 만 16세 미만 청소년에게 심야 시간대 게임 제공이 금지됩니다. %(preBlockTime)s부터 전투 참여가 중단되며 %(blockTime)s에 서버로부터 접속이 끊깁니다."
+
+msgid "koreaParentNotification/submit"
+msgstr "확인"
+
+msgid "koreaParentNotification/title"
+msgstr "게임 이용 제한"
+
+msgid "koreaPlayTimeNotification/cancel"
+msgstr "확인"
+
+msgid "koreaPlayTimeNotification/message"
+msgstr "허용된 접속 시간이 초과되었습니다. 새로운 전투에 참가할 수 없습니다."
+
+msgid "koreaPlayTimeNotification/submit"
+msgstr "확인"
+
+msgid "koreaPlayTimeNotification/title"
+msgstr "접속 제한 안내"
+
+msgid "leaveEvent/cancel"
+msgstr "취소"
+
+msgid "leaveEvent/message"
+msgstr "경쟁에서의 전투 결과는 레이팅 초기화 후 갱신됩니다. 레이팅에 진입하거나 보상을 획득할 수 없습니다.\n\n경쟁을 중단하면 %(warning)s"
+
+msgid "leaveEvent/message/warning"
+msgstr "다시 참여할 수 없습니다."
+
+msgid "leaveEvent/submit"
+msgstr "경쟁 중단"
+
+msgid "leaveEvent/title"
+msgstr "경쟁 중단"
+
+msgid "leaveStartedEvent/cancel"
+msgstr "취소"
+
+msgid "leaveStartedEvent/message"
+msgstr "전투 결과는 해당 경쟁에 집계되지 않습니다. 레이팅에 진입하거나 보상을 획득할 수 없습니다.\n\n경쟁을 중단하면 %(warning)s"
+
+msgid "leaveStartedEvent/submit"
+msgstr "경쟁 중단"
+
+msgid "leaveStartedEvent/title"
+msgstr "경쟁 중단"
+
+msgid "leftPrebattleAndAcceptInvite/cancel"
+msgstr "취소"
+
+msgid "leftPrebattleAndAcceptInvite/message"
+msgstr "전투 대기실에서 대기 중입니다. 초대를 수락하시겠습니까?"
+
+msgid "leftPrebattleAndAcceptInvite/submit"
+msgstr "확인"
+
+msgid "leftPrebattleAndAcceptInvite/title"
+msgstr "초대"
+
+msgid "leftSquadAndAcceptInvite/cancel"
+msgstr "취소"
+
+msgid "leftSquadAndAcceptInvite/message"
+msgstr "이미 소대에 참가 중입니다. 현재 소대를 떠나 초대 받은 새로운 소대로 이동하시겠습니까?"
+
+msgid "leftSquadAndAcceptInvite/submit"
+msgstr "확인"
+
+msgid "leftSquadAndAcceptInvite/title"
+msgstr "초대"
+
+msgid "leftTrainingAndAcceptInvite/cancel"
+msgstr "취소"
+
+msgid "leftTrainingAndAcceptInvite/message"
+msgstr "이미 연습 전투에 참가 중입니다. 초대를 수락하시겠습니까?"
+
+msgid "leftTrainingAndAcceptInvite/submit"
+msgstr "확인"
+
+msgid "leftTrainingAndAcceptInvite/title"
+msgstr "초대"
+
+msgid "legalInfoWindow/title"
+msgstr "저작권 정보"
+
+msgid "limitedUIOffNotification/cancel"
+msgstr "취소"
+
+msgid "limitedUIOffNotification/message"
+msgstr "숨겨진 차고 인터페이스 요소가 단계적으로 표시되는 기능을 비활성화하시겠습니까?\n%(icon)s%(alert)s"
+
+msgid "limitedUIOffNotification/message/alert"
+msgstr "해당 기능을 비활성화하면 다시 활성화할 수 없습니다."
+
+msgid "limitedUIOffNotification/submit"
+msgstr "비활성화"
+
+msgid "limitedUIOffNotification/title"
+msgstr "설정 변경"
+
+msgid "loginToPeripheryAndRemember/cancel"
+msgstr "취소"
+
+msgid "loginToPeripheryAndRemember/message"
+msgstr "이제 서버 변경 사항이 저장됩니다. 설정에서 자동 로그인 기능을 활성화하거나 비활성화할 수 있습니다."
+
+msgid "loginToPeripheryAndRemember/submit"
+msgstr "이동"
+
+msgid "loginToPeripheryAndRemember/title"
+msgstr "서버 변경 사항을 저장하시겠습니까?"
+
+msgid "lowAlternativeAmmoAutoLoad/message"
+msgstr "대체 구성 포탄이 부족합니다. 이대로 전투에 참여하시겠습니까?"
+
+msgid "lowAlternativeAmmoAutoLoad/title"
+msgstr "포탄 부족"
+
+msgid "lowAmmo/cancel"
+msgstr "취소"
+
+msgid "lowAmmo/message"
+msgstr "선택한 전차에 적재된 포탄이 없습니다. 포탄은 전투 참여 전 자동으로 재보급됩니다."
+
+msgid "lowAmmo/submit"
+msgstr "재보급"
+
+msgid "lowAmmo/title"
+msgstr "포탄 자동 재보급"
+
+msgid "lowAmmoAutoLoad/cancel"
+msgstr "취소"
+
+msgid "lowAmmoAutoLoad/message"
+msgstr "선택한 전차에 포탄이 부족합니다. 이대로 전투에 참여하시겠습니까?"
+
+msgid "lowAmmoAutoLoad/submit"
+msgstr "전투 시작!"
+
+msgid "lowAmmoAutoLoad/title"
+msgstr "포탄 부족"
+
+msgid "lowFpsWarning/cancel"
+msgstr "아니요"
+
+msgid "lowFpsWarning/message"
+msgstr "현재 게임 설정은 게임 성능을 저하시킵니다. 그래픽 품질 설정을 낮추시겠습니까?"
+
+msgid "lowFpsWarning/submit"
+msgstr "예"
+
+msgid "lowFpsWarning/title"
+msgstr "게임 성능 저하"
+
+msgid "messenger/userInfoHidden/cancel"
+msgstr "확인"
+
+msgid "messenger/userInfoHidden/message"
+msgstr "%(userName)s 님의 세부 정보는 비공개 상태입니다."
+
+msgid "messenger/userInfoHidden/submit"
+msgstr "확인"
+
+msgid "messenger/userInfoHidden/title"
+msgstr "사용자 세부 정보 비공개"
+
+msgid "messenger/userInfoNotAvailable/cancel"
+msgstr "확인"
+
+msgid "messenger/userInfoNotAvailable/message"
+msgstr "현재 %(userName)s 사용자에 대한 정보를 찾을 수 없습니다."
+
+msgid "messenger/userInfoNotAvailable/submit"
+msgstr "확인"
+
+msgid "messenger/userInfoNotAvailable/title"
+msgstr "검색 실패"
+
+msgid "minimapAlphaNotification/cancel"
+msgstr "취소"
+
+msgid "minimapAlphaNotification/message"
+msgstr "%(icon)s%(alert)s 해당 설정을 활성화하면 전투 중 컴퓨터 성능이 저하될 수 있습니다."
+
+msgid "minimapAlphaNotification/message/alert"
+msgstr "주의!"
+
+msgid "minimapAlphaNotification/submit"
+msgstr "확인"
+
+msgid "minimapAlphaNotification/title"
+msgstr "미니맵 투명도"
+
+msgid "moduleSale/conformation/header"
+msgstr "%(moduleType)s \"%(moduleName)s\" 부품을 판매하시겠습니까?"
+
+msgid "moneyTransfer/cancelBtn"
+msgstr "취소"
+
+msgid "moneyTransfer/labelClan"
+msgstr "클랜:"
+
+msgid "moneyTransfer/labelClanCredits"
+msgstr "크레딧"
+
+msgid "moneyTransfer/labelClanGold"
+msgstr "골드"
+
+msgid "moneyTransfer/labelFeePrice"
+msgstr "수수료:"
+
+msgid "moneyTransfer/labelGold"
+msgstr "이체:"
+
+msgid "moneyTransfer/labelNormal"
+msgstr "정상:"
+
+msgid "moneyTransfer/labelNormalCredits"
+msgstr "크레딧"
+
+msgid "moneyTransfer/labelNormalGold"
+msgstr "골드"
+
+msgid "moneyTransfer/labelTo"
+msgstr "대상:"
+
+msgid "moneyTransfer/labelTotalPrice"
+msgstr "총합:"
+
+msgid "moneyTransfer/not_a_clan"
+msgstr "(클랜원이 아님)"
+
+msgid "moneyTransfer/submitBtn"
+msgstr "보내기"
+
+msgid "moneyTransfer/title"
+msgstr "골드 이체"
+
+msgid "moneyTransferConfirmation/cancel"
+msgstr "취소"
+
+msgid "moneyTransferConfirmation/message"
+msgstr "수수료 {fee} <img src='icon_gold' /> 가 청구될 것입니다. 정말로 {gold} <img src='icon_gold' /> 를 사용자 {player} 에게 이체하겠습니까?"
+
+msgid "moneyTransferConfirmation/submit"
+msgstr "이체"
+
+msgid "moneyTransferConfirmation/title"
+msgstr "이체 승인"
+
+msgid "moneyTransferLink/set_password"
+msgstr "<u><a href=\"asfunction:_root.openRestoreFinPasswordWebPage\">이체 비밀번호 설정</a></u>"
+
+msgid "moneyTransferRestriction/cancel"
+msgstr "확인"
+
+msgid "moneyTransferRestriction/message"
+msgstr "골드를 이체할 수 없습니다. 이유: %s."
+
+msgid "moneyTransferRestriction/message_expiry"
+msgstr "이체 제한이 %s에 해제됩니다."
+
+msgid "moneyTransferRestriction/submit"
+msgstr "확인"
+
+msgid "moneyTransferRestriction/title"
+msgstr "골드를 이체할 수 없습니다."
+
+msgid "nextBattleOptionConfirmation/cancel"
+msgstr "취소"
+
+msgid "nextBattleOptionConfirmation/message"
+msgstr "일부 설정 변경 사항은 다음 전투에 적용됩니다. 계속하시겠습니까?"
+
+msgid "nextBattleOptionConfirmation/submit"
+msgstr "예"
+
+msgid "nextBattleOptionConfirmation/title"
+msgstr "설정 변경"
+
+msgid "perkLearnConfirm/desc"
+msgstr "능력 훈련 수준: {yellow_Open}%(level)s%%{yellow_Close}"
+
+msgid "perkLearnConfirm/learn"
+msgstr "훈련"
+
+msgid "perkLearnConfirm/title"
+msgstr "%(skillName)s 능력을 훈련하시겠습니까?"
+
+msgid "perksReset/after"
+msgstr "초기화 후:"
+
+msgid "perksReset/before"
+msgstr "초기화 전:"
+
+msgid "perksReset/cancel"
+msgstr "취소"
+
+msgid "perksReset/discountTooltip/body"
+msgstr "이미 기갑학교에서 능력 초기화 100% 할인이 적용되어 있으므로 해당 초기화 방식은 이용할 수 없습니다."
+
+msgid "perksReset/discountTooltip/header"
+msgstr "이용 불가"
+
+msgid "perksReset/free/description"
+msgstr "능력은 숙련도가 {yellow_Open}1%{yellow_Close} 이하라면 무료로 초기화할 수 있습니다."
+
+msgid "perksReset/freeFirstResetLabel"
+msgstr "해당 승무원은 능력 초기화가 처음이므로 비용 무료 처리"
+
+msgid "perksReset/graceLabel"
+msgstr "능력 무료 초기화 종료까지:"
+
+msgid "perksReset/lostSkill/tooltip/description"
+msgstr "능력 경험치 총량이 감소합니다. 훈련할 수 있는 능력 수가 줄어들 수 있습니다."
+
+msgid "perksReset/noNewPerks"
+msgstr "훈련한 능력의 경험치는 모두 기본 숙련도에 추가됩니다."
+
+msgid "perksReset/priceCard/credits/description"
+msgstr "능력 경험치 총량"
+
+msgid "perksReset/priceCard/credits/title"
+msgstr "연대 훈련소"
+
+msgid "perksReset/priceCard/free/description"
+msgstr "능력 경험치 총량"
+
+msgid "perksReset/priceCard/free/title"
+msgstr "속성 과정"
+
+msgid "perksReset/priceCard/freeGold/description"
+msgstr "경험치 손실 없이\n능력 초기화"
+
+msgid "perksReset/priceCard/gold/description"
+msgstr "크레딧을 사용하여 경험치 손실 없이 능력 초기화"
+
+msgid "perksReset/priceCard/gold/title"
+msgstr "기갑학교"
+
+msgid "perksReset/priceCard/recertification/description"
+msgstr "경험치 손실 없이\n능력 초기화"
+
+msgid "perksReset/priceCard/xpLoose"
+msgstr "{percentAmount}&nbsp;({xpAmount})"
+
+msgid "perksReset/submit"
+msgstr "초기화"
+
+msgid "perksReset/title"
+msgstr "모든 승무원의 능력을 초기화하시겠습니까?"
+
+msgid "physicsSoundQualityDoesNotMatch/cancel"
+msgstr "취소"
+
+msgid "physicsSoundQualityDoesNotMatch/message"
+msgstr "선택한 음향 물리 효과 품질 설정이 게임 클라이언트에서 자동으로 감지한 음향 물리 효과 품질과 다릅니다. 해당 설정을 활성화하면 게임 성능에 영향을 미칠 수 있습니다. 먼저 성능 변화를 테스트하는 것을 권장합니다. 변경 사항을 적용하시겠습니까?"
+
+msgid "physicsSoundQualityDoesNotMatch/submit"
+msgstr "확인"
+
+msgid "physicsSoundQualityDoesNotMatch/title"
+msgstr "음향 물리 효과 품질 불일치"
+
+msgid "postmortem/cancel"
+msgstr "닫기"
+
+msgid "postmortem/message"
+msgstr "전차가 격파되었습니다. 차고로 이동하시겠습니까?"
+
+msgid "postmortem/submit"
+msgstr "확인"
+
+msgid "postmortem/title"
+msgstr "전차 파괴"
+
+msgid "premiumBuyConfirmation/cancel"
+msgstr "취소"
+
+msgid "premiumBuyConfirmation/message"
+msgstr "프리미엄 계정 %(days)s일을 %(gold)s골드로 구매하시겠습니까?"
+
+msgid "premiumBuyConfirmation/submit"
+msgstr "확인"
+
+msgid "premiumBuyConfirmation/title"
+msgstr "구매 확인"
+
+msgid "premiumContinueConfirmation/cancel"
+msgstr "취소"
+
+msgid "premiumContinueConfirmation/message"
+msgstr "프리미엄 계정을 %(gold)s골드로 %(days)s일 연장하시겠습니까?"
+
+msgid "premiumContinueConfirmation/submit"
+msgstr "확인"
+
+msgid "premiumContinueConfirmation/title"
+msgstr "확인"
+
+msgid "priceCard/credits/title"
+msgstr "연대 훈련소"
+
+msgid "priceCard/free/title"
+msgstr "속성 과정"
+
+msgid "priceCard/gold/title"
+msgstr "기갑학교"
+
+msgid "priceCard/price/free"
+msgstr "무료"
+
+msgid "priceCard/recertification/title"
+msgstr "재훈련 명령서"
+
+msgid "punishmentWindow/cancel"
+msgstr "확인"
+
+msgid "punishmentWindow/header/ban"
+msgstr "%(time)s 동안 차단"
+
+msgid "punishmentWindow/header/penalty"
+msgstr "제재 적용"
+
+msgid "punishmentWindow/header/warning"
+msgstr "비신사적인 행동"
+
+msgid "punishmentWindow/info"
+msgstr "인터넷 연결이나 다른 기술적 문제가 있었다면\n고객 지원에 문의하십시오."
+
+msgid "punishmentWindow/message/ban"
+msgstr "{whiteSpanish_Open}%(time)s{whiteSpanish_Close}에 {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} 지도에서 게임 규정을 위반한 사실이 확인되었습니다.\n일정 시간 {whiteSpanish_Open}%(mode)s{whiteSpanish_Close} 모드 전투 참여가 차단됩니다."
+
+msgid "punishmentWindow/message/penalty"
+msgstr "{whiteSpanish_Open}%(time)s{whiteSpanish_Close}에 {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} 지도에서 게임 규정을 위반한 사실이 확인되었습니다.\n전투에서 획득한 크레딧, 경험치, 보상이 몰수됩니다."
+
+msgid "punishmentWindow/message/warning"
+msgstr "{whiteSpanish_Open}%(time)s{whiteSpanish_Close}에 {whiteSpanish_Open}%(arenaName)s{whiteSpanish_Close} 지도에서 게임 규정을 위반한 사실이 확인되었습니다.\n반복하여 규정 위반 시 전투에서 획득한 크레딧, 경험치, 보상이 몰수될 수 있습니다."
+
+msgid "punishmentWindow/reason/afk"
+msgstr "자리 비움"
+
+msgid "punishmentWindow/reason/deserter"
+msgstr "전차가 파괴되지 않은 상태에서 전투 중 전장 이탈"
+
+msgid "punishmentWindow/reason/mixed"
+msgstr "자리 비움/전장 이탈"
+
+msgid "punishmentWindow/reason/suicide"
+msgstr "고의적인 자폭"
+
+msgid "punishmentWindow/time/days"
+msgstr "%(day)s일 %(hour)s시간"
+
+msgid "punishmentWindow/time/hours"
+msgstr "%(hour)s시간 %(min)s분"
+
+msgid "punishmentWindow/time/lessMin"
+msgstr "1분"
+
+msgid "punishmentWindow/time/min"
+msgstr "%(min)s분"
+
+msgid "questsConfirmDialog/cancel"
+msgstr "취소"
+
+msgid "questsConfirmDialog/checkBox"
+msgstr "다시 보지 않기"
+
+msgid "questsConfirmDialog/message"
+msgstr "\"%(newQuest)s\" 임무를 선택하면 \"%(oldQuest)s\" 임무는 취소됩니다."
+
+msgid "questsConfirmDialog/submit"
+msgstr "확인"
+
+msgid "questsConfirmDialog/title"
+msgstr "임무 선택"
+
+msgid "questsConfirmDiscardDialog/cancel"
+msgstr "취소"
+
+msgid "questsConfirmDiscardDialog/message"
+msgstr "%(curQuest)s 임무의 진행 상황이 모두 초기화됩니다.\n%(alert)s"
+
+msgid "questsConfirmDiscardDialog/message/alert"
+msgstr "주의! 현재 임무의 진행 상황이 모두 초기화됩니다."
+
+msgid "questsConfirmDiscardDialog/submit"
+msgstr "확인"
+
+msgid "questsConfirmDiscardDialog/title"
+msgstr "진행 상황 초기화"
+
+msgid "questsConfirmProgressDialog/cancel"
+msgstr "취소"
+
+msgid "questsConfirmProgressDialog/message"
+msgstr "%(newQuest)s 임무를 선택하면 %(oldQuest)s 임무의 진행 상황이 모두 초기화됩니다.\n%(alert)s"
+
+msgid "questsConfirmProgressDialog/message/alert"
+msgstr "주의! 현재 임무의 진행 상황이 모두 초기화됩니다."
+
+msgid "questsConfirmProgressDialog/submit"
+msgstr "확인"
+
+msgid "questsConfirmProgressDialog/title"
+msgstr "임무 선택"
+
+msgid "questsDismissProgressDialog/cancel"
+msgstr "취소"
+
+msgid "questsDismissProgressDialog/message"
+msgstr "%(quest)s 임무가 취소됩니다.\n%(alert)s"
+
+msgid "questsDismissProgressDialog/message/alert"
+msgstr "주의! 현재 임무의 진행 상황이 모두 초기화됩니다."
+
+msgid "questsDismissProgressDialog/submit"
+msgstr "확인"
+
+msgid "questsDismissProgressDialog/title"
+msgstr "임무 진행 취소 확인"
+
+msgid "quit/cancel"
+msgstr "취소"
+
+msgid "quit/submit"
+msgstr "종료"
+
+msgid "quit/title"
+msgstr "게임을 종료하시겠습니까?"
+
+msgid "quitBattle/IGR/leaver/cancel"
+msgstr "취소"
+
+msgid "quitBattle/IGR/leaver/descriptionAlive"
+msgstr "팀에 전차장님이 필요합니다! 전투가 종료되기 전이나 전차가 파괴되지 않은 상태에서 전장을 이탈하면 제재가 적용되며 PC방 보너스가 모두 박탈됩니다."
+
+msgid "quitBattle/IGR/leaver/submit"
+msgstr "탈주"
+
+msgid "quitBattle/IGR/leaver/title"
+msgstr "전장을 이탈하시겠습니까?"
+
+msgid "quitBattle/cancel"
+msgstr "취소"
+
+msgid "quitBattle/leaver/cancel"
+msgstr "취소"
+
+msgid "quitBattle/leaver/descriptionAlive"
+msgstr "팀에 전차장님이 필요합니다! 전투가 종료되기 전이나 전차가 파괴되지 않은 상태에서 전장을 이탈하면 제재가 적용됩니다."
+
+msgid "quitBattle/leaver/submit"
+msgstr "탈주"
+
+msgid "quitBattle/leaver/title"
+msgstr "전장을 이탈하시겠습니까?"
+
+msgid "quitBattle/replay/cancel"
+msgstr "취소"
+
+msgid "quitBattle/replay/submit"
+msgstr "확인"
+
+msgid "quitBattle/replay/title"
+msgstr "다시보기 모드를 종료하시겠습니까?"
+
+msgid "quitBattle/submit"
+msgstr "확인"
+
+msgid "quitBattle/title"
+msgstr "전장을 떠나시겠습니까?"
+
+msgid "quitPreBattle/cancel"
+msgstr "아니요"
+
+msgid "quitPreBattle/message"
+msgstr "전투 대기실에서 나오시겠습니까?"
+
+msgid "quitPreBattle/submit"
+msgstr "예"
+
+msgid "quitPreBattle/title"
+msgstr "전투 대기실 나오기"
+
+msgid "rally/autoSearch/cancel"
+msgstr "아니요"
+
+msgid "rally/autoSearch/message"
+msgstr "참여 가능한 슬롯을 자동으로 검색하시겠습니까?"
+
+msgid "rally/autoSearch/submit"
+msgstr "예"
+
+msgid "rally/autoSearch/title"
+msgstr "자동 검색"
+
+msgid "rally/changePeriphery/cancel"
+msgstr "취소"
+
+msgid "rally/changePeriphery/message"
+msgstr "자동으로 다른 지역 서버 (%(host)s)로 이동합니다. 계속하시겠습니까?"
+
+msgid "rally/changePeriphery/submit"
+msgstr "이동"
+
+msgid "rally/changePeriphery/title"
+msgstr "다른 지역 서버로 이동"
+
+msgid "rally/goToAnother/cancel"
+msgstr "취소"
+
+msgid "rally/goToAnother/message"
+msgstr "전투 모드를 변경하면 자동으로 전투에서 제외됩니다. 계속하시겠습니까?"
+
+msgid "rally/goToAnother/submit"
+msgstr "확인"
+
+msgid "rally/goToAnother/title"
+msgstr "모드 변경"
+
+msgid "rally/goToIntro/cancel"
+msgstr "취소"
+
+msgid "rally/goToIntro/message"
+msgstr "팀에서 떠나시겠습니까?"
+
+msgid "rally/goToIntro/submit"
+msgstr "확인"
+
+msgid "rally/goToIntro/title"
+msgstr "전투 종료"
+
+msgid "rally/goToSquad/cancel"
+msgstr "취소"
+
+msgid "rally/goToSquad/message"
+msgstr "소대를 조직하면 현재 전투 모드가 자동으로 종료됩니다. 계속하시겠습니까?"
+
+msgid "rally/goToSquad/submit"
+msgstr "확인"
+
+msgid "rally/goToSquad/title"
+msgstr "소대 조직"
+
+msgid "rally/leave/cancel"
+msgstr "취소"
+
+msgid "rally/leave/message"
+msgstr "팀을 떠나 모드를 종료하시겠습니까?"
+
+msgid "rally/leave/submit"
+msgstr "확인"
+
+msgid "rally/leave/title"
+msgstr "전투 종료"
+
+msgid "rally/leaveDisabled/cancel"
+msgstr "계속"
+
+msgid "rally/leaveDisabled/message"
+msgstr "전투 모드를 종료할 수 없습니다. 전차가 준비 완료 상태로 대기 중입니다."
+
+msgid "rally/leaveDisabled/title"
+msgstr "경고"
+
+msgid "rally/startBattle/cancel"
+msgstr "아니요"
+
+msgid "rally/startBattle/message"
+msgstr "적을 검색하시겠습니까?"
+
+msgid "rally/startBattle/submit"
+msgstr "예"
+
+msgid "rally/startBattle/title"
+msgstr "적 검색"
+
+msgid "recruit/cancel"
+msgstr "취소"
+
+msgid "recruit/submit"
+msgstr "충원"
+
+msgid "recruit/title"
+msgstr "%(vehicleName)s에 %(role)s 직책 승무원을 충원하시겠습니까?"
+
+msgid "recruit/voiceoverText"
+msgstr "직책이 전차장일 때 특별 음성이 적용되는 승무원입니다."
+
+msgid "recruit/warning/premiumVehicle"
+msgstr "프리미엄 전차는 같은 유형의 다른 전차 승무원이 탑승하더라도 불이익이 적용되지 않으므로 승무원을 새로 충원하지 않고도 운용할 수 있습니다."
+
+msgid "recruit/warning/slotChanged"
+msgstr "해당 승무원은 선택한 전차에 충원할 수 없으며 막사로 보내집니다."
+
+msgid "recruitConversionConfirm/warning"
+msgstr "더는 사용되지 않는 능력이 경험치 손실 없이 자동으로 초기화됩니다."
+
+msgid "recruitDialog/name/title"
+msgstr "새로운 승무원(%(name)s)을 충원하시겠습니까?"
+
+msgid "recruitDialog/title"
+msgstr "새로운 승무원을 충원하시겠습니까?"
+
+msgid "recruitWindow/cancel"
+msgstr "취소"
+
+msgid "recruitWindow/menuEmptyRow"
+msgstr "선택되지 않음"
+
+msgid "recruitWindow/nation"
+msgstr "국가"
+
+msgid "recruitWindow/specialization"
+msgstr "직책"
+
+msgid "recruitWindow/submit"
+msgstr "충원"
+
+msgid "recruitWindow/vehicleClass"
+msgstr "전차 유형"
+
+msgid "recruitWindow/vehicleType"
+msgstr "전차"
+
+msgid "referralReward/cancel"
+msgstr "취소"
+
+msgid "referralReward/message"
+msgstr "%(product)s 아이템을 수령하시겠습니까?"
+
+msgid "referralReward/submit"
+msgstr "확인"
+
+msgid "referralReward/title"
+msgstr "수령 확인"
+
+msgid "refuseTraining/cancel"
+msgstr "취소"
+
+msgid "refuseTraining/message"
+msgstr "훈련을 종료하시겠습니까?"
+
+msgid "refuseTraining/submit"
+msgstr "예"
+
+msgid "refuseTraining/title"
+msgstr "확인"
+
+msgid "removeConfirmationNotRemovable/submit"
+msgstr "확인"
+
+msgid "removeIncompatibleEqs/cancel"
+msgstr "취소"
+
+msgid "removeIncompatibleEqs/message"
+msgstr "\"%(name)s\" 소모품이 현재 부품과 %(reason)s하여 보관소로 보내집니다."
+
+msgid "removeIncompatibleEqs/message/reason"
+msgstr "호환 불가"
+
+msgid "removeIncompatibleEqs/submit"
+msgstr "해체"
+
+msgid "removeIncompatibleEqs/title"
+msgstr "해체 승인"
+
+msgid "rentConfirmation/cancel"
+msgstr "취소"
+
+msgid "rentConfirmation/event"
+msgstr "%(eventName)s 모드 전용"
+
+msgid "rentConfirmation/message"
+msgstr "%(price)s에 %(event)s %(name)s 전차를 대여하시겠습니까?"
+
+msgid "rentConfirmation/submit"
+msgstr "확인"
+
+msgid "rentConfirmation/title"
+msgstr "대여 확인"
+
+msgid "rentConfirmationRenew/cancel"
+msgstr "취소"
+
+msgid "rentConfirmationRenew/message"
+msgstr "%(price)s에 %(event)s %(name)s 전차의 대여 기간을 연장하시겠습니까?"
+
+msgid "rentConfirmationRenew/submit"
+msgstr "확인"
+
+msgid "rentConfirmationRenew/title"
+msgstr "대여 확인"
+
+msgid "replacePassport/unique/cancel"
+msgstr "취소"
+
+msgid "replacePassport/unique/message"
+msgstr "특별 승무원입니다. 이후에는 승무원 정보를 초기화할 수 없습니다. %(gold)s골드를 사용하여 신상 정보를 변경하시겠습니까?"
+
+msgid "replacePassport/unique/submit"
+msgstr "확인"
+
+msgid "replacePassport/unique/title"
+msgstr "신상 정보 변경"
+
+msgid "replacePassportConfirmation/cancel"
+msgstr "취소"
+
+msgid "replacePassportConfirmation/message"
+msgstr "%(gold)s골드를 사용하여 승무원 신상 정보를 변경하시겠습니까?"
+
+msgid "replacePassportConfirmation/submit"
+msgstr "확인"
+
+msgid "replacePassportConfirmation/title"
+msgstr "신상 정보 변경"
+
+msgid "replayNotification/cancel"
+msgstr "취소"
+
+msgid "replayNotification/message"
+msgstr "다시보기 파일과 월드 오브 탱크 클라이언트 버전이 다릅니다. 다시보기 중 오류가 발생할 수도 있습니다. 무시하고 재생하겠습니까?"
+
+msgid "replayNotification/submit"
+msgstr "예"
+
+msgid "replayNotification/title"
+msgstr "경고"
+
+msgid "replayStopped/cancel"
+msgstr "취소"
+
+msgid "replayStopped/message"
+msgstr "다시보기가 종료되었습니다. 게임에서 나가려면 종료를 누르십시오."
+
+msgid "replayStopped/submit"
+msgstr "종료"
+
+msgid "replayStopped/title"
+msgstr "다시보기 종료"
+
+msgid "reportBug/cancel"
+msgstr "취소"
+
+msgid "reportBug/message"
+msgstr "클릭 시 오류를 제보할 수 있도록 기본 브라우저에서 월드 오브 탱크 고객 지원 웹사이트가 열립니다. 계속하시겠습니까?"
+
+msgid "reportBug/submit"
+msgstr "확인"
+
+msgid "reportBug/title"
+msgstr "고객 지원으로 이동"
+
+msgid "resetAllPerks/cancel"
+msgstr "취소"
+
+msgid "resetAllPerks/submit"
+msgstr "초기화"
+
+msgid "resetAllPerks/title"
+msgstr "모든 승무원의 모든 능력을 초기화하시겠습니까?"
+
+msgid "resetAllPerks/warning"
+msgstr "{orangeStart}모든 승무원의 능력이 모두 초기화됩니다.{orangeEnd}\n{orangeStart}해당 작업은 되돌릴 수 없습니다.{orangeEnd}"
+
+msgid "resetGraphics/cancel"
+msgstr "계속"
+
+msgid "resetGraphics/message"
+msgstr "%(alert)s 월드 오브 탱크를 즐기기에 적절한 그래픽 품질이 자동으로 설정되었습니다.\n게임 내 처리 속도를 향상하려면 설정에서 그래픽 품질을 낮추십시오."
+
+msgid "resetGraphics/submit"
+msgstr "설정"
+
+msgid "resetGraphics/title"
+msgstr "그래픽 설정 변경"
+
+msgid "restoreTankman/buttons/recover"
+msgstr "복구"
+
+msgid "restoreTankman/description"
+msgstr "%(name)s 승무원이 복구됩니다."
+
+msgid "restoreTankman/free"
+msgstr "비용: 무료"
+
+msgid "restoreTankman/header"
+msgstr "승무원을 복구하시겠습니까?"
+
+msgid "restoreTankman/price"
+msgstr "비용:"
+
+msgid "restoreVehicleDialog/cancelBtn"
+msgstr "취소"
+
+msgid "restoreVehicleDialog/priceLabel"
+msgstr "%(vehiclename)s 복구"
+
+msgid "restoreVehicleDialog/submitBtn"
+msgstr "복구"
+
+msgid "restoreVehicleDialog/tankmenCheckbox"
+msgstr "승무원 없이 복구"
+
+msgid "restoreVehicleDialog/title"
+msgstr "%(vehiclename)s 복구"
+
+msgid "restoreVehicleDialog/warning"
+msgstr "복구를 클릭하면 구매한 장비와 골드로 구매한 소모품은 전환할 수 없습니다. 복구 내용을 다시 한 번 확인해 주십시오."
+
+msgid "retrain/cancel"
+msgstr "취소"
+
+msgid "retrain/changeRole"
+msgstr "직책 변경"
+
+msgid "retrain/discountLabel"
+msgstr "첫 번째 능력을 100% 훈련 완료하지 않았으므로 할인 이용 가능"
+
+msgid "retrain/discountTooltip/body"
+msgstr "이미 기갑학교에서 재훈련 100% 할인이 적용되어 있으므로 해당 훈련 방식은 이용할 수 없습니다."
+
+msgid "retrain/discountTooltip/header"
+msgstr "이용 불가"
+
+msgid "retrain/massive/tankmenCount"
+msgstr "재훈련 승무원: {whiteSpanish_Open}%(count)s{whiteSpanish_Close}"
+
+msgid "retrain/premium/description"
+msgstr "프리미엄 전차는 같은 유형의 다른 전차 승무원이 탑승하더라도\n불이익이 적용되지 않으므로 승무원을 재훈련하지 않고도 운용할 수 있습니다."
+
+msgid "retrain/price"
+msgstr "비용:"
+
+msgid "retrain/priceCard/credits/description"
+msgstr "재훈련 후\n능력 숙련도: %(value)s"
+
+msgid "retrain/priceCard/credits/title"
+msgstr "연대 훈련소"
+
+msgid "retrain/priceCard/free/description"
+msgstr "재훈련 후\n능력 숙련도: %(value)s"
+
+msgid "retrain/priceCard/free/title"
+msgstr "속성 과정"
+
+msgid "retrain/priceCard/gold/description"
+msgstr "재훈련 후\n능력 숙련도: %(value)s"
+
+msgid "retrain/priceCard/gold/title"
+msgstr "기갑학교"
+
+msgid "retrain/submit"
+msgstr "재훈련"
+
+msgid "retrain/title/massive"
+msgstr "승무원 특화 전차를 %(vehicleName)s 전차로 재훈련하시겠습니까?"
+
+msgid "retrain/title/massiveVehicleTag"
+msgstr "%(vehicleName)s?"
+
+msgid "retrain/title/single/complex"
+msgstr "특화 전차를 %(vehicleName)s 전차로 재훈련하고\n%(role) 직책으로 변경하시겠습니까?"
+
+msgid "retrain/title/single/simple"
+msgstr "특화 전차를 %(vehicleName)s 전차로 재훈련"
+
+msgid "retrain/warning/irrelevantPerk"
+msgstr "적합하지 않은 직책의 능력이 비활성화됩니다. 능력을 직접 초기화할 수 있습니다."
+
+msgid "retrain/warning/irrelevantPerkAndPrem"
+msgstr "유형이 같은 프리미엄 전차는 훈련하지 않고도 불이익 없이 탑승할 수 있습니다. 하지만 적합하지 않은 능력은 직접 초기화해야 합니다."
+
+msgid "rudyInfo/message"
+msgstr "불멸의 고전 명작이 게임에 등장했습니다! Four Tank-Men and a Dog(Czterej pancerni i pies)은 Janusz Przymanowski의 동명 소설을 바탕으로 만들어진 폴란드의 TV 시리즈입니다. 제2차 세계대전을 배경으로 Rudy(Ginger)라고 불리는 T-34-85 전차의 승무원과 군견 Szarik이 주인공입니다. 1966년 5월 9일부터 방영이 시작되었습니다."
+
+msgid "rudyInfo/submit"
+msgstr "확인"
+
+msgid "rudyInfo/title"
+msgstr "Four Tank-Men and a Dog"
+
+msgid "selectVehicle/counter"
+msgstr "표시된 전차:"
+
+msgid "selectVehicle/selectAttackerTitle"
+msgstr "공격 전차 선택"
+
+msgid "selectVehicle/selectVehicle"
+msgstr "해당 전차 선택"
+
+msgid "sellConfirmation/cancel"
+msgstr "취소"
+
+msgid "sellConfirmation/submit"
+msgstr "판매"
+
+msgid "sellModuleConfirmation/cancel"
+msgstr "취소"
+
+msgid "sellModuleConfirmation/submit"
+msgstr "판매"
+
+msgid "sellModuleConfirmation/title"
+msgstr "판매 확인"
+
+msgid "sellShellConfirmation/submit"
+msgstr "\"%(shellName)s\" 포탄을 판매하시겠습니까?"
+
+msgid "sendInvites/common/title"
+msgstr "플레이어 초대"
+
+msgid "sessionStats/confirmReset/cancel"
+msgstr "취소"
+
+msgid "sessionStats/confirmReset/message"
+msgstr "{}에 세션 통계 자동 초기화"
+
+msgid "sessionStats/confirmReset/submit"
+msgstr "초기화"
+
+msgid "sessionStats/confirmReset/time"
+msgstr ": %(hours)s시 %(minutes)s분"
+
+msgid "sessionStats/confirmReset/title"
+msgstr "세션 통계를 초기화하시겠습니까?"
+
+msgid "shopSyncError/cancel"
+msgstr "계속"
+
+msgid "shopSyncError/message"
+msgstr "응용프로그램을 업데이트하십시오. 오류가 반복된다면 서버를 업데이트하십시오."
+
+msgid "shopSyncError/title"
+msgstr "동기화 해제"
+
+msgid "skillsTrainingConfirm/cancel"
+msgstr "취소"
+
+msgid "skillsTrainingConfirm/message"
+msgstr "선택한 능력을 훈련하시겠습니까?"
+
+msgid "skillsTrainingConfirm/submit"
+msgstr "훈련"
+
+msgid "skinApplyDialog/button/submit"
+msgstr "적용"
+
+msgid "soundModeInvalid/cancel"
+msgstr "취소"
+
+msgid "soundModeInvalid/message"
+msgstr "선택된 음성 알림에 대한 파일이 손상되었거나 찾을 수 없어 음성 알림이 기본값으로 설정되었습니다."
+
+msgid "soundModeInvalid/submit"
+msgstr "저장"
+
+msgid "soundModeInvalid/title"
+msgstr "오류"
+
+msgid "soundSpeakersPresetDoesNotMatch/cancel"
+msgstr "취소"
+
+msgid "soundSpeakersPresetDoesNotMatch/message"
+msgstr "선택한 사운드 시스템이 게임 클라이언트에서 자동으로 감지한 사운드 시스템과 다릅니다. 일부 사운드는 재생되지 않을 수 있습니다. 먼저 사운드 차이를 테스트하는 것을 권장합니다. 변경하시겠습니까?"
+
+msgid "soundSpeakersPresetDoesNotMatch/submit"
+msgstr "확인"
+
+msgid "soundSpeakersPresetDoesNotMatch/title"
+msgstr "사운드 시스템 불일치"
+
+msgid "soundSpeakersPresetReset/cancel"
+msgstr "취소"
+
+msgid "soundSpeakersPresetReset/message"
+msgstr "선택한 사운드 시스템이 게임 클라이언트에서 자동으로 감지한 사운드 시스템과 다릅니다. 일부 사운드는 재생되지 않을 수 있습니다. 최적화된 사운드 설정을 적용하시겠습니까?"
+
+msgid "soundSpeakersPresetReset/submit"
+msgstr "적용"
+
+msgid "soundSpeakersPresetReset/title"
+msgstr "사운드 시스템 불일치"
+
+msgid "squad/eventDisabled/cancel"
+msgstr "확인"
+
+msgid "squad/eventDisabled/message"
+msgstr "이벤트에 참여할 수 없습니다. 소대가 해산됩니다."
+
+msgid "squad/eventDisabled/title"
+msgstr "이벤트 종료"
+
+msgid "squad/goToAnother/cancel"
+msgstr "취소"
+
+msgid "squad/goToAnother/message"
+msgstr "소대에 소속되어 있습니다. 모드를 변경하면 소대에서 제외됩니다."
+
+msgid "squad/goToAnother/submit"
+msgstr "확인"
+
+msgid "squad/goToAnother/title"
+msgstr "모드 변경"
+
+msgid "squad/goToAnotherSubMode/cancel"
+msgstr "취소"
+
+msgid "squad/goToAnotherSubMode/message"
+msgstr "게임 모드 변경 시 현재 소대가 해산됩니다. 전투 유형을 변경하시겠습니까?"
+
+msgid "squad/goToAnotherSubMode/submit"
+msgstr "확인"
+
+msgid "squad/goToAnotherSubMode/title"
+msgstr "게임 모드 변경"
+
+msgid "squad/goToSquad/cancel"
+msgstr "취소"
+
+msgid "squad/goToSquad/message"
+msgstr "팀을 떠나 다른 플레이어와 소대를 조직하시겠습니까?"
+
+msgid "squad/goToSquad/submit"
+msgstr "조직"
+
+msgid "squad/goToSquad/title"
+msgstr "소대 조직"
+
+msgid "squad/leave/cancel"
+msgstr "취소"
+
+msgid "squad/leave/message"
+msgstr "소대를 떠나시겠습니까?"
+
+msgid "squad/leave/submit"
+msgstr "확인"
+
+msgid "squad/leave/title"
+msgstr "소대 탈퇴"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "계속"
+
+msgid "squad/leaveDisabled/message"
+msgstr "소대를 떠날 수 없습니다. 소대 소속으로 전투 준비를 완료했습니다."
+
+msgid "squad/leaveDisabled/title"
+msgstr "경고"
+
+msgid "squadHaveNoPlayerAuto/cancel"
+msgstr "취소"
+
+msgid "squadHaveNoPlayerAuto/message"
+msgstr "소대원이 부족합니다. 플레이어 한 명이 자동으로 추가됩니다. 전투에 참여하시겠습니까?"
+
+msgid "squadHaveNoPlayerAuto/submit"
+msgstr "확인"
+
+msgid "squadHaveNoPlayerAuto/title"
+msgstr "소대 대기 중"
+
+msgid "squadHaveNoPlayers/cancel"
+msgstr "취소"
+
+msgid "squadHaveNoPlayers/message"
+msgstr "소대원이 부족합니다. 계속 진행하시겠습니까?"
+
+msgid "squadHaveNoPlayers/submit"
+msgstr "확인"
+
+msgid "squadHaveNoPlayers/title"
+msgstr "소대 대기 중"
+
+msgid "squadHaveNoPlayersAuto/cancel"
+msgstr "취소"
+
+msgid "squadHaveNoPlayersAuto/message"
+msgstr "소대원이 부족합니다. 플레이어를 자동 추가하고 전투에 참여하시겠습니까?"
+
+msgid "squadHaveNoPlayersAuto/submit"
+msgstr "전투 시작!"
+
+msgid "squadHaveNoPlayersAuto/title"
+msgstr "소대 대기 중"
+
+msgid "squadHaveNotReadyPlayer/cancel"
+msgstr "취소"
+
+msgid "squadHaveNotReadyPlayer/message"
+msgstr "준비 완료되지 않은 소대원이 있습니다. 계속 진행하시겠습니까?"
+
+msgid "squadHaveNotReadyPlayer/submit"
+msgstr "확인"
+
+msgid "squadHaveNotReadyPlayer/title"
+msgstr "소대 대기 중"
+
+msgid "squadHaveNotReadyPlayerAuto/cancel"
+msgstr "취소"
+
+msgid "squadHaveNotReadyPlayerAuto/message"
+msgstr "전투 준비를 완료하지 않은 플레이어는 소대에서 제외되고 남은 소대원이 자동 추가됩니다. 전투에 참여하시겠습니까?"
+
+msgid "squadHaveNotReadyPlayerAuto/submit"
+msgstr "전투 시작!"
+
+msgid "squadHaveNotReadyPlayerAuto/title"
+msgstr "소대 대기 중"
+
+msgid "squadHaveNotReadyPlayers/cancel"
+msgstr "취소"
+
+msgid "squadHaveNotReadyPlayers/message"
+msgstr "준비 완료되지 않은 소대원이 있습니다. 계속 진행하시겠습니까?"
+
+msgid "squadHaveNotReadyPlayers/submit"
+msgstr "확인"
+
+msgid "squadHaveNotReadyPlayers/title"
+msgstr "소대 대기 중"
+
+msgid "squadHaveNotReadyPlayersAuto/cancel"
+msgstr "취소"
+
+msgid "squadHaveNotReadyPlayersAuto/message"
+msgstr "소대원이 부족합니다. 전투 준비를 완료하지 않은 플레이어는 소대에서 제외됩니다. 플레이어를 자동 추가하고 전투에 참여하시겠습니까?"
+
+msgid "squadHaveNotReadyPlayersAuto/submit"
+msgstr "전투 시작!"
+
+msgid "squadHaveNotReadyPlayersAuto/title"
+msgstr "소대 대기 중"
+
+msgid "squadHavePlayersInBattle/message"
+msgstr "새 전투 입장 실패: 일부 플레이어가 아직 복귀하지 않았습니다. 현재 전투가 끝날 때까지 기다리시기 바랍니다."
+
+msgid "squadHavePlayersInBattle/submit"
+msgstr "확인"
+
+msgid "squadHavePlayersInBattle/title"
+msgstr "소대 대기 중"
+
+msgid "squadPremiumNeeded/cancel"
+msgstr "확인"
+
+msgid "squadPremiumNeeded/message"
+msgstr "프리미엄 계정 사용자만 소대를 만들 수 있습니다.\n프리미엄 계정을 사용하지 않아도 초대받을 수 있습니다."
+
+msgid "squadPremiumNeeded/title"
+msgstr "프리미엄 계정 전용"
+
+msgid "steamStartNeeded/cancel"
+msgstr "게임 종료"
+
+msgid "steamStartNeeded/message"
+msgstr "올바르게 로그인하려면 스팀을 통해 게임을 시작해야 합니다."
+
+msgid "steamStartNeeded/title"
+msgstr "로그인 불가"
+
+msgid "stronghold/leave/cancel"
+msgstr "취소"
+
+msgid "stronghold/leave/message"
+msgstr "원정군을 탈퇴하시겠습니까?"
+
+msgid "stronghold/leave/submit"
+msgstr "확인"
+
+msgid "stronghold/leave/title"
+msgstr "탈퇴 확인"
+
+msgid "stronghold/leaveDefeat/message"
+msgstr "원정군을 탈퇴하면 해당 원정군이 해산됩니다.\n전투에 참여하지 않은 클랜에는 페널티가 적용됩니다.\n원정군을 탈퇴하시겠습니까?"
+
+msgid "stronghold/leaveDefeat/title"
+msgstr "탈퇴 확인"
+
+msgid "switchPeripheryWindow/btnCancel"
+msgstr "취소"
+
+msgid "switchPeripheryWindow/btnSwitch"
+msgstr "이동"
+
+msgid "switchPeripheryWindow/windowTitle"
+msgstr "다른 서버로 이동"
+
+msgid "tradeInConfirmation/cancel"
+msgstr "취소"
+
+msgid "tradeInConfirmation/message"
+msgstr "%(vehName)s 전차를 보상 판매하면 복구할 수 없습니다.%(addition)s"
+
+msgid "tradeInConfirmation/message/addition"
+msgstr " %(operations)s"
+
+msgid "tradeInConfirmation/message/crew"
+msgstr "승무원 막사 이동"
+
+msgid "tradeInConfirmation/message/equipments"
+msgstr "소모품 보관소 이동"
+
+msgid "tradeInConfirmation/message/optionalDevices"
+msgstr "장비 무료 해체"
+
+msgid "tradeInConfirmation/message/pairModifications"
+msgstr "구매한 집중 개량은 모두 제거되지만, 일반 개량 진행 상황은 유지됩니다"
+
+msgid "tradeInConfirmation/message/shells"
+msgstr "포탄 보관소 이동"
+
+msgid "tradeInConfirmation/submit"
+msgstr "보상 판매"
+
+msgid "tradeInConfirmation/title"
+msgstr "전차 보상 판매"
+
+msgid "tradeInPopover/descr"
+msgstr "차고에 보유한 프리미엄 전차"
+
+msgid "tradeInPopover/sorting/nation/body"
+msgstr "선택한 전차 국가입니다."
+
+msgid "tradeInPopover/sorting/nation/header"
+msgstr "국가"
+
+msgid "tradeInPopover/sorting/saving/body"
+msgstr "선택한 전차 보상 판매 시 절약할 수 있는 금액"
+
+msgid "tradeInPopover/sorting/saving/formatted"
+msgstr "평가액"
+
+msgid "tradeInPopover/sorting/saving/header"
+msgstr "전차 평가액"
+
+msgid "tradeInPopover/sorting/vehLvl/body"
+msgstr "선택한 전차 단계입니다."
+
+msgid "tradeInPopover/sorting/vehLvl/header"
+msgstr "단계"
+
+msgid "tradeInPopover/sorting/vehName/body"
+msgstr "선택한 전차 이름입니다."
+
+msgid "tradeInPopover/sorting/vehName/header"
+msgstr "이름"
+
+msgid "tradeInPopover/sorting/vehType/body"
+msgstr "선택한 전차 유형입니다."
+
+msgid "tradeInPopover/sorting/vehType/header"
+msgstr "유형"
+
+msgid "tradeInPopover/title"
+msgstr "보상 판매할 전차 선택"
+
+msgid "tradeOffWidget/selectVehicle"
+msgstr "전차 선택"
+
+msgid "updateNeeded/cancel"
+msgstr "나중에 재시작"
+
+msgid "updateNeeded/message"
+msgstr "프로그램을 최신 버전으로 업데이트해 주시기 바랍니다."
+
+msgid "updateNeeded/submit"
+msgstr "업데이트"
+
+msgid "updateNeeded/title"
+msgstr "업데이트 필요"
+
+msgid "upgradeTankmanAcademyConfirmation/cancel"
+msgstr "취소"
+
+msgid "upgradeTankmanAcademyConfirmation/messageCombine"
+msgstr "{%d} 골드로 승무원을 훈련하시겠습니까?"
+
+msgid "upgradeTankmanAcademyConfirmation/submit"
+msgstr "훈련"
+
+msgid "upgradeTankmanAcademyConfirmation/title"
+msgstr "훈련 승인"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/cancel"
+msgstr "확인"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/message"
+msgstr "훈련에 필요한 골드가 부족합니다."
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/submit"
+msgstr "확인"
+
+msgid "upgradeTankmanAcademyNotEnoughMoney/title"
+msgstr "골드 부족"
+
+msgid "upgradeTankmanScoolConfirmation/cancel"
+msgstr "취소"
+
+msgid "upgradeTankmanScoolConfirmation/messageCombine"
+msgstr "{%d} 크레딧으로 승무원을 훈련하시겠습니까?"
+
+msgid "upgradeTankmanScoolConfirmation/submit"
+msgstr "훈련"
+
+msgid "upgradeTankmanScoolConfirmation/title"
+msgstr "훈련 승인"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/cancel"
+msgstr "확인"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/message"
+msgstr "훈련에 필요한 크레딧이 부족합니다."
+
+msgid "upgradeTankmanScoolNotEnoughMoney/submit"
+msgstr "확인"
+
+msgid "upgradeTankmanScoolNotEnoughMoney/title"
+msgstr "크레딧이 부족합니다."
+
+msgid "vehConf/exitDialog/cancel"
+msgstr "취소"
+
+msgid "vehConf/exitDialog/message"
+msgstr "변경 사항은 저장되지 않습니다. 전차 설정 화면에서 나가시겠습니까?"
+
+msgid "vehConf/exitDialog/submit"
+msgstr "확인"
+
+msgid "vehConf/exitDialog/title"
+msgstr "취소"
+
+msgid "vehicleRemoveDialog/title"
+msgstr "%(name)s 제거"
+
+msgid "vehicleSell/restoreCooldown/cancel"
+msgstr "취소"
+
+msgid "vehicleSell/restoreCooldown/message"
+msgstr "주의! 특별 전차는 판매 후 복구하려면 %(cooldown)s일 동안 대기해야 합니다. 전차를 판매하시겠습니까?"
+
+msgid "vehicleSell/restoreCooldown/submit"
+msgstr "확인"
+
+msgid "vehicleSell/restoreCooldown/title"
+msgstr "판매 확인"
+
+msgid "vehicleSell/restoreUnlimited/cancel"
+msgstr "취소"
+
+msgid "vehicleSell/restoreUnlimited/message"
+msgstr "주의! 특별 전차입니다. 판매 후에 복구할 수 있습니다. 전차를 판매하시겠습니까?"
+
+msgid "vehicleSell/restoreUnlimited/submit"
+msgstr "확인"
+
+msgid "vehicleSell/restoreUnlimited/title"
+msgstr "판매 확인"
+
+msgid "vehicleSell/unique/cancel"
+msgstr "취소"
+
+msgid "vehicleSell/unique/crewLocked/cancel"
+msgstr "취소"
+
+msgid "vehicleSell/unique/crewLocked/message"
+msgstr "주의! 복구할 수 없는 특별 전차입니다. 승무원 역시 영구 해산됩니다."
+
+msgid "vehicleSell/unique/crewLocked/submit"
+msgstr "확인"
+
+msgid "vehicleSell/unique/crewLocked/title"
+msgstr "판매 확인"
+
+msgid "vehicleSell/unique/message"
+msgstr "주의! 상점에서 다시 구매할 수 없는 전차입니다. 계속하시겠습니까?"
+
+msgid "vehicleSell/unique/submit"
+msgstr "예"
+
+msgid "vehicleSell/unique/title"
+msgstr "판매 확인"
+
+msgid "vehicleSellDialog/CtrlQuestion/Header"
+msgstr "판매 확인"
+
+msgid "vehicleSellDialog/CtrlQuestion/Question"
+msgstr "승인하려면 판매 총액을 입력해 주십시오. (%(control_tag_open)s%(controlNumber)s%(control_tag_close)s)"
+
+msgid "vehicleSellDialog/CtrlQuestion/errorMessage"
+msgstr "올바르지 않은 수치입니다."
+
+msgid "vehicleSellDialog/ammo/label"
+msgstr "포탄"
+
+msgid "vehicleSellDialog/battleBoster"
+msgstr "지휘명령"
+
+msgid "vehicleSellDialog/cancel"
+msgstr "취소"
+
+msgid "vehicleSellDialog/commonResult"
+msgstr "판매 총액:"
+
+msgid "vehicleSellDialog/count"
+msgstr "개"
+
+msgid "vehicleSellDialog/crew/Dissmiss"
+msgstr "퇴역"
+
+msgid "vehicleSellDialog/crew/Unload"
+msgstr "막사로 보내기"
+
+msgid "vehicleSellDialog/crew/label"
+msgstr "승무원:"
+
+msgid "vehicleSellDialog/customization"
+msgstr "전차 꾸미기:"
+
+msgid "vehicleSellDialog/deconstruct"
+msgstr "분해"
+
+msgid "vehicleSellDialog/equipment"
+msgstr "소모품"
+
+msgid "vehicleSellDialog/expandBtnLabel"
+msgstr "자세히"
+
+msgid "vehicleSellDialog/inventory"
+msgstr "보관소:"
+
+msgid "vehicleSellDialog/loss"
+msgstr "비용:"
+
+msgid "vehicleSellDialog/message"
+msgstr "vehicleSellDialog/message"
+
+msgid "vehicleSellDialog/message/multinational"
+msgstr "전차의 모든 국가 구성 포함!"
+
+msgid "vehicleSellDialog/notInstalled/modules"
+msgstr "부품"
+
+msgid "vehicleSellDialog/optionalDevice"
+msgstr "장비:"
+
+msgid "vehicleSellDialog/postProgressionInfo"
+msgstr "전차 판매 시 야전 개량 레벨은 유지되지만, 집중 개량은 모두 제거됩니다."
+
+msgid "vehicleSellDialog/price/sign/add"
+msgstr "+"
+
+msgid "vehicleSellDialog/proffit"
+msgstr "판매 금액:"
+
+msgid "vehicleSellDialog/remove"
+msgstr "확인"
+
+msgid "vehicleSellDialog/submit"
+msgstr "판매"
+
+msgid "vehicleSellDialog/title"
+msgstr "%(name)s 판매"
+
+msgid "vehicleSellDialog/unload"
+msgstr "보관소로 보내기"
+
+msgid "vehicleSellDialog/vehicle/elite"
+msgstr "정예"
+
+msgid "vehicleSellDialog/vehicle/emptySellPrice"
+msgstr "가격"
+
+msgid "vehicleSellDialog/vehicle/level"
+msgstr "단계 "
+
+msgid "vehicleSellDialog/vehicle/role"
+msgstr "역할: "
+
+msgid "vehicleSellDialog/vehicleType/AT-SPG"
+msgstr "구축전차"
+
+msgid "vehicleSellDialog/vehicleType/SPG"
+msgstr "자주포"
+
+msgid "vehicleSellDialog/vehicleType/heavyTank"
+msgstr "중전차"
+
+msgid "vehicleSellDialog/vehicleType/lightTank"
+msgstr "경전차"
+
+msgid "vehicleSellDialog/vehicleType/mediumTank"
+msgstr "중형전차"
+
+msgid "voiceChatInitFailed/cancel"
+msgstr "확인"
+
+msgid "voiceChatInitFailed/message"
+msgstr "음성 대화 초기 설정 실패: 현재 서비스를 이용할 수 없습니다."
+
+msgid "voiceChatInitFailed/title"
+msgstr "음성 대화 초기 설정 중"
+
+msgid "voiceChatInitSucceded/cancel"
+msgstr "확인"
+
+msgid "voiceChatInitSucceded/message"
+msgstr "음성 대화 초기 설정이 완료되었습니다."
+
+msgid "voiceChatInitSucceded/title"
+msgstr "음성 대화 초기 설정 중"
+
+msgid "waterQualityNotPossible/cancel"
+msgstr "닫기"
+
+msgid "waterQualityNotPossible/message"
+msgstr "높은 사양의 수면 품질은 '사후 처리' 기능이 활성화되야 사용 가능합니다."
+
+msgid "waterQualityNotPossible/title"
+msgstr "수면 품질 사용 안 함"
+
+msgid "wgshEventUnfreezeVehicle/cancel"
+msgstr "취소"
+
+msgid "wgshEventUnfreezeVehicle/message"
+msgstr "%(first_part)s\n%(second_part)s\n%(third_part)s\n%(fourth_part)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/first"
+msgstr "전차가 차고에 대기 중인지 확인"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/fourth"
+msgstr "가격: %(price)s %(icon)s (보유: %(balance)s %(icon)s)"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/second"
+msgstr "플레이어: %(player_name)s"
+
+msgid "wgshEventUnfreezeVehicle/messagePart/third"
+msgstr "선택한 전차: %(vehicle_name)s"
+
+msgid "wgshEventUnfreezeVehicle/submit"
+msgstr "운용 가능 상태로 복구"
+
+msgid "wgshEventUnfreezeVehicle/title"
+msgstr "운용 가능 상태로 복구하시겠습니까?"
+
+msgid "wotPlusActivationDialog/benefits/assistant"
+msgstr "어시스턴트"
+
+msgid "wotPlusActivationDialog/benefits/attendanceRewards"
+msgstr "점호 보상"
+
+msgid "wotPlusActivationDialog/benefits/battleBonus"
+msgstr "전투 보너스"
+
+msgid "wotPlusActivationDialog/benefits/battlePassPlus"
+msgstr "배틀 패스 플러스"
+
+msgid "wotPlusActivationDialog/benefits/excludedMap"
+msgstr "지도 제외"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicle"
+msgstr "특전 전차"
+
+msgid "wotPlusActivationDialog/benefits/exclusiveVehicles"
+msgstr "특전 전차"
+
+msgid "wotPlusActivationDialog/benefits/freeEquipmentDemounting"
+msgstr "장비 무료 해체"
+
+msgid "wotPlusActivationDialog/benefits/goldReserve"
+msgstr "골드 금고"
+
+msgid "wotPlusActivationDialog/benefits/intensiveCrewRegimen"
+msgstr "승무원 집중 훈련"
+
+msgid "wotPlusActivationDialog/benefits/manageableXpMultiplier"
+msgstr "선택식 경험치 보너스"
+
+msgid "wotPlusActivationDialog/benefits/proBoost"
+msgstr "프로 부스트"
+
+msgid "wotPlusActivationDialog/benefits/serviceRecordCustomization"
+msgstr "전적 꾸미기"
+
+msgid "wotPlusActivationDialog/benefits/tankerBanner"
+msgstr "전차장 깃발"
+
+msgid "wotPlusActivationDialog/cn/heading"
+msgstr "WoT 플러스 활성화"
+
+msgid "wotPlusActivationDialog/confirmation"
+msgstr "확인"
+
+msgid "wotPlusActivationDialog/core/description"
+msgstr "연장 일자: {{date}}"
+
+msgid "wotPlusActivationDialog/core/heading"
+msgstr "WoT 플러스 코어 활성화"
+
+msgid "wotPlusActivationDialog/details"
+msgstr "세부 정보"
+
+msgid "wotPlusActivationDialog/planInterval12"
+msgstr "360일 플랜"
+
+msgid "wotPlusActivationDialog/planInterval6"
+msgstr "180일 플랜"
+
+msgid "wotPlusActivationDialog/pro/description"
+msgstr "{{planInterval}}, 연장 일자: {{date}}"
+
+msgid "wotPlusActivationDialog/pro/heading"
+msgstr "WoT 플러스 프로 활성화"
+
+msgid "wotPlusProBoostActivationDialog/confirm"
+msgstr "활성화"
+
+msgid "wotPlusProBoostActivationDialog/description"
+msgstr "{{@ split}}{{@ style (color #fff)}}{{boostInterval}}시간{{/}} 동안 다른 전차에 부스트를 활성화할 수 없습니다.{{/}}"
+
+msgid "wotPlusProBoostActivationDialog/footer"
+msgstr "해당 전차에 프로 부스트를 활성화하면 {{@ style (color #fff)}}크레딧과 경험치를 {{bonusPercent}} 추가{{/}} 획득합니다. 한 전차에만 활성화할 수 있습니다."
+
+msgid "wotPlusProBoostActivationDialog/title"
+msgstr "{{vehicle}} 전차에 프로 부스트를 활성화하시겠습니까?"
+
+msgid "wotPlusProBoostSwitchDialog/confirm"
+msgstr "변경"
+
+msgid "wotPlusProBoostSwitchDialog/description"
+msgstr "{{@ split}}부스트는 한 전차에만 활성화할 수 있습니다. {{@ style (color #fff)}}{{boostInterval}}시간{{/}} 동안 다른 전차에 부스트를 활성화할 수 없습니다.{{/}}"
+
+msgid "wotPlusProBoostSwitchDialog/footer"
+msgstr "해당 전차에 프로 부스트를 활성화하면 {{@ style (color #fff)}}크레딧과 경험치를 {{bonusPercent}} 추가{{/}} 획득합니다. 한 전차에만 활성화할 수 있습니다."
+
+msgid "wotPlusProBoostSwitchDialog/title"
+msgstr "프로 부스트 활성화 대상을 {{vehicle}} 전차로 변경하시겠습니까?"
+
+msgid "wotPlusProBoostSwitchDialog/vehicle"
+msgstr "{{tier}} {{type_image}} {{name}}"
+
+msgid "wotPlusRental/cancel"
+msgstr "취소"
+
+msgid "wotPlusRental/description"
+msgstr "다음 전차 대여는 {white_Open}%s{white_Close}에 이용 가능"
+
+msgid "wotPlusRental/submit"
+msgstr "대여"
+
+msgid "wotPlusRental/title"
+msgstr "{cream_Open}%s{cream_Close} 전차를 대여하시겠습니까?"
+
+msgid "wotPlusServiceRecordCustomizationDialog/save"
+msgstr "저장"
+
+msgid "wotPlusServiceRecordCustomizationDialog/title"
+msgstr "전적 꾸미기를 저장하시겠습니까?"
+
+msgid "xpToTmenCheckbox/cancel"
+msgstr "취소"
+
+msgid "xpToTmenCheckbox/message"
+msgstr "모든 경험치를 승무원 훈련에 사용합니다. 숙련도가 가장 낮은 승무원은 두 배로 훈련됩니다."
+
+msgid "xpToTmenCheckbox/submit"
+msgstr "활성화"
+
+msgid "xpToTmenCheckbox/title"
+msgstr "승무원 급속 훈련을 활성화하시겠습니까?"

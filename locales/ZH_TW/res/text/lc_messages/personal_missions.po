@@ -1,0 +1,713 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "PersonalMissionAwardView/award/freeSheet"
+msgstr "您獲得了命令！"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/additionalAwards"
+msgstr "優異地完成所有任務的獎勵"
+
+msgid "PersonalMissionAwardView/bottomTabs/awards/mainAwards"
+msgstr "主要獎勵"
+
+msgid "PersonalMissionAwardView/subTitle"
+msgstr "點擊您的暱稱以選擇和裝備徽章。"
+
+msgid "PersonalMissionAwardView/title"
+msgstr "因完成行動而獲得徽章！"
+
+msgid "PersonalMissionAwardView/title/one"
+msgstr "因行動「%(vehicleName)s」而獲得徽章！"
+
+msgid "PersonalMissionAwardView/title/perfect"
+msgstr "您因優異地完成而獲得徽章！"
+
+msgid "PersonalMissionFirstEntryView/acknowledgeBtn"
+msgstr "了解！"
+
+msgid "PersonalMissionFirstEntryView/detailedDescription/btnBack"
+msgstr "返回"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintChassis"
+msgstr "懸吊藍圖"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintEngine"
+msgstr "引擎藍圖"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintGun"
+msgstr "炮管藍圖"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHull"
+msgstr "車身藍圖"
+
+msgid "PersonalMissionsPlanRegion/mainAward/blueprintHullAndTurret"
+msgstr "車身與炮塔藍圖"
+
+msgid "PersonalMissionsPlanRegion/mainAward/chassis"
+msgstr "懸吊"
+
+msgid "PersonalMissionsPlanRegion/mainAward/engine"
+msgstr "動力裝置"
+
+msgid "PersonalMissionsPlanRegion/mainAward/gun"
+msgstr "炮管"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hull"
+msgstr "車身"
+
+msgid "PersonalMissionsPlanRegion/mainAward/hullAndTurret"
+msgstr "車身與炮塔"
+
+msgid "PersonalMissionsPlanRegion/mainAward/radio"
+msgstr "通訊設備"
+
+msgid "alliance/0/details"
+msgstr "聯邦部隊的登陸及推進集結地。"
+
+msgid "alliance/0/name"
+msgstr "聯邦"
+
+msgid "alliance/1/details"
+msgstr "集團部隊的登陸及推進集結地。"
+
+msgid "alliance/1/name"
+msgstr "集團"
+
+msgid "alliance/2/details"
+msgstr "同盟部隊的登陸及推進集結地。"
+
+msgid "alliance/2/name"
+msgstr "同盟"
+
+msgid "alliance/3/details"
+msgstr "聯盟部隊的登陸及推進集結地。"
+
+msgid "alliance/3/name"
+msgstr "聯盟"
+
+msgid "awardsScreen/acceptBtn/label"
+msgstr "了解！"
+
+msgid "awardsScreen/closeBtn/label"
+msgstr "關閉"
+
+msgid "awardsScreen/description/emailConfirmation"
+msgstr "確認您電子郵件的獎勵"
+
+msgid "awardsScreen/header"
+msgstr "已完成「%(missionName)s」行動"
+
+msgid "awardsScreen/header/fullyCompleted"
+msgstr "已優異地完成「%(missionName)s」行動"
+
+msgid "awardsScreen/headerExtra"
+msgstr "已獲得獎勵!"
+
+msgid "awardsView/closeBtn/label"
+msgstr "關閉"
+
+msgid "awardsView/description"
+msgstr "行動的主要獎勵"
+
+msgid "awardsView/mainAwards/title"
+msgstr "主要獎勵"
+
+msgid "awardsView/vehicleAward/mainAward"
+msgstr "主要獎勵"
+
+msgid "bonus/descr/attempts/card"
+msgstr "完成次要條件，使當前進度增加 %(value)s。"
+
+msgid "bonus/descr/attempts/postBattle"
+msgstr "任務主要部分的進度已增加 %(value)s。"
+
+msgid "bonus/descr/progress/card"
+msgstr "完成次要條件，使該場戰鬥中獲得的主要條件完成進度增加為 %(value)s 倍。"
+
+msgid "bonus/descr/progress/postBattle"
+msgstr "在這場戰鬥中獲得的主要條件進度已增加為 %(value)s 倍"
+
+msgid "bonus/multiplier/attempts"
+msgstr "進度加速："
+
+msgid "bonus/multiplier/progress"
+msgstr "x%(value)s 獎勵："
+
+msgid "chainTooltipData/description/text/alliance0"
+msgstr "只能用指定國家的車輛來完成行動任務。"
+
+msgid "chainTooltipData/description/text/alliance1"
+msgstr "只能用指定國家的車輛來完成行動任務。"
+
+msgid "chainTooltipData/description/text/alliance2"
+msgstr "只能用指定國家的車輛來完成行動任務。"
+
+msgid "chainTooltipData/description/text/alliance3"
+msgstr "只能用指定國家的車輛來完成行動任務。"
+
+msgid "chainTooltipData/description/title"
+msgstr "說明："
+
+msgid "conditions/battlesLeft/bottomLabel"
+msgstr "剩餘戰鬥數：%(count)s"
+
+msgid "conditions/biathlon/label/add"
+msgstr "用 %(limit)s 場戰鬥中的 %(goal)s 場來完成次要條件"
+
+msgid "conditions/biathlon/label/main"
+msgstr "用 %(limit)s 場戰鬥中的 %(goal)s 場來完成主要條件"
+
+msgid "conditions/completed/bottomLabel"
+msgstr "已完成"
+
+msgid "conditions/counter/label/add"
+msgstr "完成指定次數的次要條件：%(count)s"
+
+msgid "conditions/counter/label/main"
+msgstr "完成指定次數的主要條件：%(count)s"
+
+msgid "conditions/currentProgress/bottomLabel"
+msgstr "已完成：%(currentProgress)s"
+
+msgid "conditions/failed/bottomLabel"
+msgstr "失敗"
+
+msgid "conditions/limited/label/add"
+msgstr "在指定的戰鬥數中完成次要條件：%(count)s"
+
+msgid "conditions/limited/label/main"
+msgstr "在指定的戰鬥數中完成主要條件：%(count)s"
+
+msgid "conditions/limiter/label"
+msgstr "限制！"
+
+msgid "conditions/orGroup"
+msgstr "或"
+
+msgid "conditions/series/label/add"
+msgstr "在連續 %(count)s 場戰鬥中完成條件"
+
+msgid "conditions/series/label/main"
+msgstr "在連續 %(count)s 場戰鬥中完成條件"
+
+msgid "conditions/unlimited/label/add"
+msgstr "在任何場數的戰鬥中完成次要條件"
+
+msgid "conditions/unlimited/label/main"
+msgstr "在任何場數的戰鬥中完成主要條件"
+
+msgid "detailedView/completeBtnLabel"
+msgstr "用 %(count)d %(icon)s 完成"
+
+msgid "detailedView/conditionLabel"
+msgstr "條件"
+
+msgid "detailedView/conditionsFullylabel"
+msgstr "優異地完成"
+
+msgid "detailedView/conditionslabel"
+msgstr "主要條件"
+
+msgid "detailedView/discardBtnLabel"
+msgstr "重置"
+
+msgid "detailedView/infoPanel/header"
+msgstr "說明與提示"
+
+msgid "detailedView/orCondition"
+msgstr "或"
+
+msgid "detailedView/recruitBtnLabel"
+msgstr "領取獎勵"
+
+msgid "detailedView/retryBtnLabel"
+msgstr "優異地完成"
+
+msgid "detailedView/startBtnLabel"
+msgstr "開始"
+
+msgid "detailedView/status/NA"
+msgstr "無法使用"
+
+msgid "detailedView/status/completed"
+msgstr "已完成主要條件"
+
+msgid "detailedView/status/fullyCompleted"
+msgstr "優異地完成"
+
+msgid "detailedView/status/inProgress"
+msgstr "啟用"
+
+msgid "detailedView/status/returnSheet"
+msgstr "已託付命令：%(icon)sx1"
+
+msgid "detailedView/status/sheetUsed"
+msgstr "完成以獲得%(icon)sx1"
+
+msgid "detailedView/tooltips/additionalConditions/body"
+msgstr "這是您在戰鬥中必須跟主要條件一起滿足的目標，如此才能優異地完成任務並獲得額外獎勵。"
+
+msgid "detailedView/tooltips/additionalConditions/header"
+msgstr "次要條件"
+
+msgid "detailedView/tooltips/commonConditions/body"
+msgstr "這是您必須在戰鬥中滿足的目標，如此才能獲得完成任務的主要獎勵。"
+
+msgid "detailedView/tooltips/commonConditions/header"
+msgstr "主要條件"
+
+msgid "detailedView/tooltips/discardBtn/body"
+msgstr "點擊以重置任務的所有當前進度。"
+
+msgid "detailedView/tooltips/discardBtn/header"
+msgstr "重置進度"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/body"
+msgstr "點擊以託付命令到任務並完成主要條件。"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/body"
+msgstr "想要獲得命令，請於任何行動內優異地完成任一套組的最後一個任務。"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/disabled/header"
+msgstr "命令不足"
+
+msgid "detailedView/tooltips/holdAwardSheetBtn/header"
+msgstr "託付命令"
+
+msgid "detailedView/tooltips/locked"
+msgstr "當您完成主要條件後才算完成次要條件。"
+
+msgid "detailedView/tooltips/recruitBtn/body"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/recruitBtn/header"
+msgstr "?empty?"
+
+msgid "detailedView/tooltips/retryBtn/body"
+msgstr "點擊以透過完成主要和次要條件來改善結果。"
+
+msgid "detailedView/tooltips/retryBtn/header"
+msgstr "優異地完成"
+
+msgid "detailedView/tooltips/returnAwardListBtn/body"
+msgstr "點擊以完成主要和次要條件。如果您優異地完成任務，就能取回自己的命令。"
+
+msgid "detailedView/tooltips/returnAwardListBtn/header"
+msgstr "取回命令"
+
+msgid "detailedView/tooltips/startBtn/body"
+msgstr "點擊以開始任務。完成條件並領取您的獎勵。"
+
+msgid "detailedView/tooltips/startBtn/header"
+msgstr "開始"
+
+msgid "fourFreeSheetsObtainedPopup/button"
+msgstr "繼續"
+
+msgid "fourFreeSheetsObtainedPopup/header"
+msgstr "車輛可以使用"
+
+msgid "fourFreeSheetsObtainedPopup/pm2/descr"
+msgstr "託付 3 個命令給 %(questName)s 任務，就能獲得缺少的車輛藍圖。"
+
+msgid "fourFreeSheetsObtainedPopup/pm2/pawnedDescr"
+msgstr "從任務中取回 %(pawnedCount)s 命令，以便託付 3 個命令給 %(questName)s 任務，就能獲得缺少的車輛藍圖。"
+
+msgid "fourFreeSheetsObtainedPopup/regular/descr"
+msgstr "託付 4 個命令給 %(questName)s 任務，就能獲得缺少的車輛藍圖。"
+
+msgid "fourFreeSheetsObtainedPopup/regular/pawnedDescr"
+msgstr "取回任務的 %(pawnedCount)s 個命令，以便託付 4 個命令到 %(questName)s 任務並獲得缺少的車輛零組件。"
+
+msgid "freeSheetObtainedPopup/pm2/descrLeft"
+msgstr "您能使用命令來完成第二前線戰役套組中的任何任務。"
+
+msgid "freeSheetObtainedPopup/pm2/descrRight"
+msgstr "優異地完成「第二前線」戰役任一套組中的最後一個任務。"
+
+msgid "freeSheetObtainedPopup/pm2/title"
+msgstr "您獲得了第二前線戰役的命令"
+
+msgid "freeSheetObtainedPopup/pm2/titleLeft"
+msgstr "如何使用"
+
+msgid "freeSheetObtainedPopup/pm2/titleRight"
+msgstr "如何獲得"
+
+msgid "freeSheetObtainedPopup/regular/descrLeft"
+msgstr "您可以使用命令來完成\n套組中的任何任務。"
+
+msgid "freeSheetObtainedPopup/regular/descrRight"
+msgstr "優異地完成任一套組中的最後一個任務。"
+
+msgid "freeSheetObtainedPopup/regular/title"
+msgstr "您獲得了命令"
+
+msgid "freeSheetObtainedPopup/regular/titleLeft"
+msgstr "如何使用"
+
+msgid "freeSheetObtainedPopup/regular/titleRight"
+msgstr "如何獲得"
+
+msgid "freeSheetPopover/freeSheetsInfo/descr"
+msgstr "完成套組中的最後一個任務就能獲得。"
+
+msgid "freeSheetPopover/freeSheetsInfo/title"
+msgstr "可用：%(count)d"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr"
+msgstr "想要取回託付的命令，請優異地重新完成該任務。"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/descr/noOne"
+msgstr "您可以使用命令來完成\n套組中的任何任務。"
+
+msgid "freeSheetPopover/pawnedSheetsInfo/title"
+msgstr "已託付到任務：%(count)d"
+
+msgid "freeSheetPopover/title"
+msgstr "命令"
+
+msgid "header/backBtn/descrLabel/campaign"
+msgstr "前往地圖"
+
+msgid "header/backBtn/descrLabel/hangar"
+msgstr "前往車庫"
+
+msgid "header/backBtn/descrLabel/operation"
+msgstr "前往行動"
+
+msgid "header/backBtn/label"
+msgstr "返回"
+
+msgid "navigation/backButton/assembling"
+msgstr "前往組裝"
+
+msgid "navigation/backButton/campaignSelector"
+msgstr "前往行動地圖"
+
+msgid "navigation/backButton/dashboard"
+msgstr "前往行動"
+
+msgid "navigation/backButton/missions"
+msgstr "前往任務"
+
+msgid "navigation/backButton/rewards"
+msgstr "前往行動獎勵"
+
+msgid "operationInfo/awardsButton/label"
+msgstr "行動獎勵"
+
+msgid "operationInfo/chainVehReq"
+msgstr "%(minLevel)s-%(maxLevel)s 階 %(vehs)s"
+
+msgid "operationInfo/label"
+msgstr "戰役"
+
+msgid "operationInfo/operationBtn/postponed/days"
+msgstr "%(days)s天"
+
+msgid "operationInfo/operationBtn/postponed/lessThanDay"
+msgstr "少於 1 天"
+
+msgid "operationInfo/title"
+msgstr "行動地圖"
+
+msgid "operationTitle/label/done"
+msgstr "命令：%(icon)s%(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/excellentDone"
+msgstr "已優異地完成所有任務"
+
+msgid "operationTitle/label/inProgress/pm2"
+msgstr "可用 %(vehData)s 車輛完成"
+
+msgid "operationTitle/label/inProgress/regular"
+msgstr "可用 %(vehData)s 車輛完成"
+
+msgid "operationTitle/label/locked"
+msgstr "無法使用：請完成前一個行動"
+
+msgid "operationTitle/label/noVehicle/pm2"
+msgstr "無法使用：%(vehData)s 不適合"
+
+msgid "operationTitle/label/noVehicle/regular"
+msgstr "無法使用：%(vehData)s 不適合"
+
+msgid "operationTitle/label/notStarted"
+msgstr "%(currentOperation)s 行動已可用！%(infoIcon)s"
+
+msgid "operationTitle/label/notStartedNoVehicle"
+msgstr "不可用：個人任務僅限以 %(minLevel)s 階或更高階的車輛完成"
+
+msgid "operationTitle/label/toMaster"
+msgstr "任務，已優異地完成：%(count)s/%(total)s  %(infoIcon)s"
+
+msgid "operationTitle/label/unlocked/pm2"
+msgstr "選擇要用 %(vehData)s 完成的任務"
+
+msgid "operationTitle/label/unlocked/regular"
+msgstr "選擇要用 %(vehData)s 完成的任務"
+
+msgid "operationTitle/title"
+msgstr "行動：%(title)s"
+
+msgid "operationUnlockedWindow/awardText"
+msgstr "恭喜！您現在可以繼續完成 %(title)s 行動。"
+
+msgid "operationUnlockedWindow/descr"
+msgstr "按下 %(label)s 以選擇任務並試著領取新的獎勵。"
+
+msgid "operationUnlockedWindow/header"
+msgstr "行動：%(title)s"
+
+msgid "operationUnlockedWindow/nextButton"
+msgstr "開始"
+
+msgid "operationUnlockedWindow/title"
+msgstr "行動已解開"
+
+msgid "operations/completed/desc"
+msgstr "車輛已獲得"
+
+msgid "operations/current/desc"
+msgstr "啟用"
+
+msgid "operations/fullyCompleted/desc"
+msgstr "優異地\n完成"
+
+msgid "operations/locked/desc"
+msgstr "無法使用"
+
+msgid "operations/title1"
+msgstr "StuG IV"
+
+msgid "operations/title10"
+msgstr "Black Rock"
+
+msgid "operations/title2"
+msgstr "T28 HTC"
+
+msgid "operations/title3"
+msgstr "T 55A"
+
+msgid "operations/title4"
+msgstr "Object 260"
+
+msgid "operations/title5"
+msgstr "Excalibur"
+
+msgid "operations/title6"
+msgstr "Chimera"
+
+msgid "operations/title7"
+msgstr "Object 279 (e)"
+
+msgid "operations/title8"
+msgstr "Windhund"
+
+msgid "operations/title9"
+msgstr "Dravec"
+
+msgid "operations/unlocked/desc"
+msgstr "可以使用"
+
+msgid "pages/button/infopage/description"
+msgstr "關於個人任務"
+
+msgid "pages/button/video/description"
+msgstr "觀看個人任務的介紹影片"
+
+msgid "personalMissions/tankgirlsPopover/recruitBtn"
+msgstr "招募"
+
+msgid "personalMissions/tankgirlsPopover/title"
+msgstr "女性乘員"
+
+msgid "personalMissions/video/title"
+msgstr "更新的概述影片"
+
+msgid "questAwardScreen/continueBtn/label"
+msgstr "繼續"
+
+msgid "questAwardScreen/nextQuest/title/questAccept"
+msgstr "將自動接受下列任務："
+
+msgid "questAwardScreen/nextQuest/title/questImprove"
+msgstr "您將自動繼續改善以下任務的結果："
+
+msgid "questAwardScreen/nextQuestBtn/label"
+msgstr "下一個任務"
+
+msgid "questAwardScreen/okBtn/label"
+msgstr "了解！"
+
+msgid "questAwardScreen/operation"
+msgstr "%(operation)s 行動"
+
+msgid "questAwardScreen/quest"
+msgstr "已完成「%(quest)s」任務！"
+
+msgid "questAwardScreen/recruitBtn/label"
+msgstr "招募"
+
+msgid "questProgressTracking/status/onPause"
+msgstr "已暫停"
+
+msgid "questProgressTracking/trackingStatus"
+msgstr "這兩項任務目前都已完成"
+
+msgid "questStatus/tankCondition"
+msgstr "不適用於所選車輛"
+
+msgid "sidebar/completed"
+msgstr "已完成"
+
+msgid "sidebar/fullCompleted"
+msgstr "優異地"
+
+msgid "sidebar/notSelected"
+msgstr "沒有啟用"
+
+msgid "sidebar/vehicles/AT-SPG"
+msgstr "驅逐戰車"
+
+msgid "sidebar/vehicles/SPG"
+msgstr "自走炮"
+
+msgid "sidebar/vehicles/heavyTank"
+msgstr "重型戰車"
+
+msgid "sidebar/vehicles/lightTank"
+msgstr "輕型戰車"
+
+msgid "sidebar/vehicles/mediumTank"
+msgstr "中型戰車"
+
+msgid "statusPanel/freeSheetBtn/label"
+msgstr "用 %(count)d %(icon)s 完成"
+
+msgid "statusPanel/freeSheets"
+msgstr "可以使用：%(count)s"
+
+msgid "statusPanel/pawnedSheets"
+msgstr "已託付到任務：%(count)s"
+
+msgid "statusPanel/proceedExecution/label"
+msgstr "啟用"
+
+msgid "statusPanel/resumeCompaing/label"
+msgstr "繼續戰役"
+
+msgid "statusPanel/status/allDone"
+msgstr "已完成 %(vehicleClass)s 的所有任務"
+
+msgid "statusPanel/status/allExcellentDone"
+msgstr "已優異地完成 %(vehicleClass)s 的所有任務"
+
+msgid "statusPanel/status/freeSheet"
+msgstr "命令已託付"
+
+msgid "statusPanel/status/improve"
+msgstr "(結果改善)"
+
+msgid "statusPanel/status/locked"
+msgstr "無法使用：請完成前一個行動"
+
+msgid "statusPanel/status/pawned"
+msgstr "(取回 %(count)d %(icon)s)"
+
+msgid "statusPanel/status/selectTask"
+msgstr "選擇要完成的任務"
+
+msgid "statusPanel/status/suspended"
+msgstr "「%(campaignName)s」戰役已暫停。%(infoIcon)s"
+
+msgid "tankmoduleTooltipData/alliance/help/body"
+msgstr "可在滿足 %(vehType)s 最後一個任務的主要條件後獲得。"
+
+msgid "tankmoduleTooltipData/alliance/info"
+msgstr "需要藍圖才能得到 %(vehName)s"
+
+msgid "tankmoduleTooltipData/help/body"
+msgstr "可在滿足 %(vehType)s 最後一個任務的主要條件後獲得。"
+
+msgid "tankmoduleTooltipData/help/title"
+msgstr "如何獲得"
+
+msgid "tankmoduleTooltipData/info"
+msgstr "需要此零組件才能獲得 %(vehName)s"
+
+msgid "tankmoduleTooltipData/status/alliance/notObtained"
+msgstr "尚未得到藍圖"
+
+msgid "tankmoduleTooltipData/status/alliance/obtained"
+msgstr "已得到藍圖"
+
+msgid "tankmoduleTooltipData/status/available"
+msgstr "可用 %(count)d %(img)s"
+
+msgid "tankmoduleTooltipData/status/notObtained"
+msgstr "尚未獲得零組件"
+
+msgid "tankmoduleTooltipData/status/obtained"
+msgstr "已獲得零組件"
+
+msgid "tankwomanTooltipData/advantages/brotherhood"
+msgstr "情同手足歷練已訓練到 100%。"
+
+msgid "tankwomanTooltipData/advantages/newPerk"
+msgstr "可自選額外一個已訓練到 100% 的歷練。"
+
+msgid "tankwomanTooltipData/advantages/title"
+msgstr "優勢："
+
+msgid "tankwomanTooltipData/desc/body"
+msgstr "可在滿足任一套組中最後一個任務的主要條件後獲得。"
+
+msgid "tankwomanTooltipData/desc/title"
+msgstr "如何獲得："
+
+msgid "tankwomanTooltipData/subTitle"
+msgstr "獨特的乘員"
+
+msgid "tankwomanTooltipData/title"
+msgstr "女性乘員"
+
+msgid "taskDetailsView/additionalConditions"
+msgstr "次要條件"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheet"
+msgstr "取回命令"
+
+msgid "taskDetailsView/btnLabel/returnAwardSheets"
+msgstr "取回命令"
+
+msgid "taskDetailsView/mainConditions"
+msgstr "主要條件"
+
+msgid "useAwardSheetWindow/cancelBtn"
+msgstr "取消"
+
+msgid "useAwardSheetWindow/info"
+msgstr "優異地完成任務以取回命令。"
+
+msgid "useAwardSheetWindow/locked"
+msgstr "完成套組中的所有任務以取回命令。"
+
+msgid "useAwardSheetWindow/needAmount"
+msgstr "完成所需："
+
+msgid "useAwardSheetWindow/pm2/noVehicle"
+msgstr "取回命令所需的車輛：%(vehicleClass)s。"
+
+msgid "useAwardSheetWindow/regular/noVehicle"
+msgstr "取回命令所需的車輛：%(vehicleClass)s。"
+
+msgid "useAwardSheetWindow/sheetsTotal"
+msgstr "總共可用："
+
+msgid "useAwardSheetWindow/submitBtn"
+msgstr "完成"
+
+msgid "useAwardSheetWindow/title"
+msgstr "完成主要條件"

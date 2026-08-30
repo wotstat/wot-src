@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนทุกเซิร์ฟเวอร์ที่มีให้"
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนเซิร์ฟเวอร์นี้"
+
+msgid "alertMessage/changeServerButton"
+msgstr "เปลี่ยนเซิร์ฟเวอร์"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "พรานเหล็กจบลงแล้ว"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "รูปแบบไม่มีให้บนเซิร์ฟเวอร์นี้"
+
+msgid "banner/info/disabled"
+msgstr "การหยุดยิง"
+
+msgid "banner/info/seasonActive"
+msgstr "โอกาสที่สองและรางวัล"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "จนถึง %(day)s %(month)s"
+
+msgid "banner/subtitle"
+msgstr "การรบชิงการอยู่รอดมีรางวัลมีค่า"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s ชม"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s ช. %(minutes)s น."
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s นาที"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "พรานเหล็ก"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "การรบจะดำเนินต่อจากตำแหน่งใหม่"
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "คุณจะเกิดใหม่ในไม่ช้า"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "กำลังเกิดใหม่"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "จะไม่มีโอกาสที่สอง"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "การเกิดใหม่ไม่มีให้อีกต่อไป"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "อีกไม่นานการเกิดใหม่จะไม่มีให้อีก!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "คราวนี้ระวังให้มากขึ้นล่ะ"
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "พาหนะของคุณพร้อมออกรบแล้ว!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "กำลังกลับสู่การรบ"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "กำลังมีการรบต่อเนื่องอยู่"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "การเกิดใหม่ไม่มีให้"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "หาจำนวนการเกิดใหม่เพื่อนำมันกลับเข้าการรบ"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "พาหนะพันธมิตรถูกทำลาย"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "กำลังเกิดใหม่"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "พาหนะสองคนนั้นดีกว่าคันเดียว!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "พาหนะพันธมิตรเกิดใหม่แล้ว"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "อยู่นอกการรบ!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "กำลังทำให้พันธมิตรเกิดใหม่"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "เปิดใช้โบนัสแล้ว!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "รางวัลสำหรับอันดับแรก"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "ได้รับในการรบ"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "ชัยชนะ"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "ไม่ได้เลือกบทเอาไว้ คะแนนบัตรผ่านการรบที่ยังไม่ได้ใช้: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "ผ่านทุกบทแล้ว คุณสามารถเล่นต่อและหาคะแนนบัตรผ่านการรบต่อได้"
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "ไปยังบัตรผ่านการรบ"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "บัตรผ่านการรบ"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "เลือกบท"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "ไปยังความก้าวหน้าบทที่เปิดใช้อยู่"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "ไปยังบัตรผ่านการรบ"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "ภารกิจปฏิบัติสำเร็จต่อการรบ: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "ภารกิจ"
+
+msgid "battleResult/battleReward/title"
+msgstr "ได้รับจากการรบ"
+
+msgid "battleResult/button/hangar"
+msgstr "ไปยังโรงรถ"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "คะแนนและรางวัลจะถูกแจกจ่ายหลังจากที่ผู้เล่นทั้งหมดจบการรบนี้แล้ว ภารกิจจะได้รับการประเมินตามผลของการรบ"
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "กด %(esc) เพื่อข้ามภาพเคลื่อนไหว"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "เชิญเข้าหมวดรถถัง"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "พันธมิตร"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "พันธมิตรแบบสุ่ม"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "ชนิดการรบ"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "การรบเดี่ยว"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "ด้วยบัญชีพิเศษ WoT คุณสามารถได้รับ:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "มูลค่ารวมของบัญชีพิเศษ WoT"
+
+msgid "battleResult/progressStage"
+msgstr "ความก้าวหน้าด่าน {stage}"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "ชื่อใช้งานจริงของผู้เล่นและป้ายชื่อกองทัพจะไม่ถูกแสดงให้ผู้เล่นอื่นเห็นในการรบ"
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "ชื่อจริงของผู้เล่น: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "ชื่อใช้งานจริงของผู้เล่นถูกเปลี่ยนเป็น {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "จำนวนความเสียหายที่เกราะพาหนะคุณกันได้"
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "จำนวนความเสียหายที่คุณทำได้"
+
+msgid "battleResult/stats/body/kills"
+msgstr "จำนวนพาหนะข้าศึกที่คุณทำลายได้"
+
+msgid "battleResult/stats/body/place"
+msgstr "ตำแหน่งของคุณตามผลการรบ"
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "จำนวนพาหนะข้าศึกที่หมวดรถถังของคุณทำลายได้"
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "ความเสียหายที่กันได้"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "ทำความเสียหาย"
+
+msgid "battleResult/stats/header/kills"
+msgstr "ถูกทำลายโดยคุณ"
+
+msgid "battleResult/stats/header/place"
+msgstr "ตำแหน่ง"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "ถูกทำลายโดยหมวดรถถัง"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "ความเสียหายที่กันได้"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "ทำความเสียหาย"
+
+msgid "battleResult/stats/title/kills"
+msgstr "ถูกทำลายโดยคุณ"
+
+msgid "battleResult/stats/title/place"
+msgstr "ตำแหน่ง"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "ถูกทำลายโดยหมวดรถถัง"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "กระดานผู้นำ"
+
+msgid "battleResult/tab/result"
+msgstr "ผลการรบ"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "หมวดรถถังถูกทำลาย"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "พาหนะถูกทำลาย"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "ชัยชนะ"
+
+msgid "battleResult/title/victoryOther"
+msgstr "อันดับเกียรติยศ"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "เลือกหนึ่งในพาหนะพิเศษของพรานเหล็ก"
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "พาหนะไม่เหมาะสม"
+
+msgid "button/modules"
+msgstr "ผังวิทยาการ"
+
+msgid "button/repair"
+msgstr "ซ่อม"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "การรบไม่มีให้ชั่วคราว"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "การรบไม่มีให้ชั่วคราว"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "รูปแบบไม่มีให้"
+
+msgid "ceasefire/header/schedule"
+msgstr "หมายกำหนดการรบ"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "การหยุดยิงมีผลกับเซิร์ฟเวอร์ที่มีทั้งหมด คุณสามารถดูกำหนดการได้ที่ด้านล่าง"
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "การหยุดยิงมีผลกับเซิร์ฟเวอร์นี้ คุณสามารถเปลี่ยนเป็นเซิร์ฟเวอร์อื่นเพื่อเข้ารูปแบบนี้ได้"
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "พรานเหล็กไม่มีให้ในเซิร์ฟเวอร์นี้ คุณสามารถเปลี่ยนเป็นเซิร์ฟเวอร์อื่นเพื่อเข้ารูปแบบนี้ได้"
+
+msgid "commanderInfo/commonRank"
+msgstr "ผู้บังคับการ"
+
+msgid "commanderInfo/description/china"
+msgstr "\"ฉันชนะไปนานแล้ว คุณได้รู้ในไม่ช้า\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"ข้าคือกฎหมาย!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"วันนี้คือวันที่จะจารึกในประวัติศาสตร์\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"ไม่มีเวลาสำหรับมารยาทแล้ว\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"ทกอย่างเป็นไปตามแผน\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"ไม่ว่าคุณจะเป็นอะไร ก็ขอให้ทำดีที่สุด\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"ขุดขวานมาล้างขัดและลับคมอย่างดี\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"ผู้ชนะจะกวาดไปทั้งหมด\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "ความสามารถ"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nพาหนะช่วงพิเศษสำหรับพรานเหล็ก"
+
+msgid "fragPanel/squadsCount"
+msgstr "หมวดรถถัง: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "กระดานผู้นำ"
+
+msgid "hangarResults/btns/summary"
+msgstr "ผลการรบ"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "ปิด"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "ชิ้นส่วนสามารถถูกยกระดับได้ในการรบเท่านั้น ในการเปิดรายการยกระดับให้กด %(key)s ในการรบ"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s และ %(highlight2)s เพื่อให้ได้รับประสบการณ์ แต่ละระดับที่ไปถึงทำให้ผู้เล่นสามารถยกระดับชิ้นส่วนจากรายการส่วนยกระดับและเพิ่มคุณลักษณะของพาหนะอย่างมาก"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "ทำความเสียหายพาหนะข้าศึก"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "สะสมรางวัลสงครามในแผนที่"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "ส่วนยกระดับพาหนะในการรบ"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "คุณเข้าการรบด้วยพาหนะระดับ I"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "ชิ้นส่วนสามารถถูกยกระดับได้จากทั้งรายการส่วนยกระดับในช่วงการรบ (ปุ่ม %(treeKey)s โดยมาตรฐาน) และจากการกด %(leftModuleKey)s และ %(rightModuleKey)s ร่วมกัน\n\nชิ้นส่วนจะมีให้ทำการยกระดับได้ในการรบเท่านั้น"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "อยู่ในการรบ:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "พรานเหล็กของคุณได้รับประสบการณ์ในการรบด้วยการทำความเสียหายและเก็บรางวัลสงคราม ทันทีที่ได้รับประสบการณ์ตามที่กำหนด พาหนะคุณจะเลื่อนเป็นระดับถัดไปและทำการเลือกส่วนยกระดับสำหรับหนึ่งในชิ้นส่วนที่มีได้"
+
+msgid "levelUp/severalTitles"
+msgstr "ขั้นที่ได้รับ: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "ได้รับขั้น %(level)s แล้ว!"
+
+msgid "levelUp/twoTitles"
+msgstr "ขั้นที่ได้รับ: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "ปฏิบัติภารกิจให้สำเร็จแล้วรับรางวัลที่มีค่า"
+
+msgid "level_up/max_level_info/title"
+msgstr "มีภารกิจประจำวันใหม่ให้"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "ฤดูกาล\nกำลังจะเริ่มในไม่ช้า"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "ฤดูกาลจะเริ่มใน %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "กันได้"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "ความเสียหาย"
+
+msgid "playerStats/killsStat/name"
+msgstr "ทำลายได้"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "ทำลายได้"
+
+msgid "playerStats/placeStat/name"
+msgstr "ตำแหน่ง"
+
+msgid "playerStats/title"
+msgstr "คะแนนส่วนตัว"
+
+msgid "player_errors/radarInCooldown"
+msgstr "การตรวจจับวิทยุไม่มีให้: กำลังเตรียมการอยู่"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "พาหนะใช้งานได้สมบูรณ์ ไม่จำเป็นต้องทำการกู้คืน"
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "หุ่นยนต์รบถูกทำลาย"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s ทำลาย %(target)s"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s ทำลายข้าศึก %(target)s"
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "ลูกไฟถูกทำลาย"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "ทุ่นระเบิดหมดอายุแล้ว"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "วางทุ่นระเบิดแล้ว"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "การตรวจจับวิทยุพร้อมใช้งานแล้ว"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "พาหนะมีระดับสูงสุดแล้ว"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "ถึงระดับ %(level)s"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "ติดตั้ง: %(moduleType)s ยกระดับ: %(module)s"
+
+msgid "player_messages/moduleType/hull"
+msgstr "ตัวถัง"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "ระบบช่วงล่าง"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "เครื่องยนต์"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "ปืน"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "การตรวจจับวิทยุ"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "ป้อมปืน"
+
+msgid "playersPanel/title"
+msgstr "ทีม"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "เปลี่ยนไปยังพาหนะหมวดรถถังคันอื่น"
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "รูปแบบผู้สังเกตการณ์"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > ออกไปยังโรงรถ\nเข้ารบด้วยพาหนะคันอื่น"
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "กลับไปยังโรงรถ"
+
+msgid "preBattle/buttonTitle"
+msgstr "ออกรบ!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "เลือกแผนที่"
+
+msgid "preBattle/listTitle"
+msgstr "ความพร้อมผู้เล่น"
+
+msgid "preBattle/mapArzagir"
+msgstr "อัลซาเกียร์ 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "เขต 404"
+
+msgid "preBattle/mapRandom"
+msgstr "แผนที่สุ่ม"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "พาหนะหมวดรถถัง"
+
+msgid "preBattle/title"
+msgstr "การล่าครั้งใหญ่"
+
+msgid "preBattle/userFooterTitle"
+msgstr "พาหนะที่เลือกไว้"
+
+msgid "preBattle/userNotReady"
+msgstr "ไม่พร้อม"
+
+msgid "preBattle/userReady"
+msgstr "พร้อม"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "ฤดูกาล %(cycleNo)s บนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "ฤดูกาลบนเซิร์ฟเวอร์ %(server)s จบลงแล้ว"
+
+msgid "proxyPanel/button"
+msgstr "ร้านค้า"
+
+msgid "proxyPanel/label"
+msgstr "ผนึก\nเหล็กกล้า"
+
+msgid "proxyPanel/store"
+msgstr "ร้านค้า"
+
+msgid "questsTooltip/timeLeft"
+msgstr "ฤดูกาลจบลงใน %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "ไม่มีการตั้งปุ่มสำหรับการตรวจจับวิทยุ"
+
+msgid "radar/hint/press"
+msgstr "กด"
+
+msgid "radar/hint/text"
+msgstr "เพื่อเปิดใช้งานการตรวจจับวิทยุ"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "วางกำลัง"
+
+msgid "selectRespawn/button/land"
+msgstr "วางกำลัง"
+
+msgid "selectRespawn/description"
+msgstr "คลิกหนึ่งในจุดที่แนะนำไว้ หากไม่ได้เลือกจุด คุณจะวางกำลังในจุดใดจุดหนึ่งที่มีการแนะนำ"
+
+msgid "selectRespawn/header"
+msgstr "เลือกจุดวางกำลัง"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "คลิกหนึ่งในจุดที่แนะนำไว้ หากไม่ได้เลือกจุด คุณจะวางกำลังในจุดใดจุดหนึ่งที่มีการแนะนำ"
+
+msgid "selectRespawn/text/startHere"
+msgstr "การรบของคุณเริ่มที่นี่"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "เลือกจุดวางกำลัง"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s วัน"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s ชม. %(min)s น."
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 นาที"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s นาที"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "การอาละวาด!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "กระสุนกรดกำลังกร่อนเกราะ!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "เขตถูกปิดแล้ว! ออกจากเขตทันทีไม่เช่นนั้นพาหนะของคุณจะถูกทำลาย!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "เขตจะกลายเป็นสีแดงในไม่ช้า"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "ความคล่องตัวลดลง!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "กลับลำรถ..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "คืนความทนทาน"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "คืนความทนทาน"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "กำลังแปลงความเสียหาย"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "เพิ่มค่าคุณลักษณะเทคนิค"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "กระสุนและการคืนสภาพ"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "เสบียงอากาศ"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "ชุดซ่อมแซมหรือจำนวนการใช้ความสามารถ"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "รางวัลสงคราม"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "รางวัลสงครามรวม: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "กำลังรวบรวม: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "เขตซ่อมแซม"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "พลังฮึกเหิม!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "ในม่านควัน"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "เกราะเรากำลังถูกกร่อน!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "ความคล่องตัวลดลง!"
+
+msgid "techParams/type/damage"
+msgstr "ความเสียหาย"
+
+msgid "techParams/type/difficulty"
+msgstr "ความยาก"
+
+msgid "techParams/type/mobility"
+msgstr "ความคล่องตัว"
+
+msgid "techParams/type/spotting"
+msgstr "การตรวจจับ"
+
+msgid "techParams/type/survivability"
+msgstr "ความสามารถในการอยู่รอด"
+
+msgid "techtree/body_armor"
+msgstr "เกราะ"
+
+msgid "techtree/body_health"
+msgstr "ความทนทาน"
+
+msgid "techtree/body_mobility"
+msgstr "ความคล่องตัว"
+
+msgid "techtree/engine_acceleration"
+msgstr "ความว่องไว"
+
+msgid "techtree/engine_speed"
+msgstr "ความเร็วสูงสุด"
+
+msgid "techtree/gun_alpha"
+msgstr "ความเสียหายต่อนัด"
+
+msgid "techtree/gun_auto_loader"
+msgstr "ระบบป้อนกระสุนอัตโนมัติ"
+
+msgid "techtree/gun_clip"
+msgstr "การบรรจุซองกระสุน"
+
+msgid "techtree/gun_dpm"
+msgstr "ความเร็วบรรจุ"
+
+msgid "techtree/gun_dualgun"
+msgstr "ปืนคู่"
+
+msgid "techtree/gun_he"
+msgstr "ความเสียหายกระสุนระเบิดแรงสูง"
+
+msgid "techtree/gun_machinegun"
+msgstr "ปืนกลต่อต้านรถถัง"
+
+msgid "techtree/gun_piercing"
+msgstr "การเจาะเกราะ"
+
+msgid "techtree/radar_cooldown"
+msgstr "ช่วงพักการตรวจจับวิทยุ"
+
+msgid "techtree/radar_distance"
+msgstr "ระยะการตรวจจับ"
+
+msgid "techtree/turret_armor"
+msgstr "เกราะ"
+
+msgid "techtree/turret_health"
+msgstr "ความทนทาน"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "ความเร็วการหมุน"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "ได้เงินถึง {{credits}} เหรียญ"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "ได้ประสบการณ์ถึง {{experience}} หน่วย"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "โบนัสการรบหมวดรถถัง"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "การรบในหมวดรถถังมีพันธมิตรแบบสุ่ม เล่นเป็นทีมต่อสู้กับเก้าหมวดรถถังข้าศึก ภารกิจหมวดรถถังสามารถปฏิบัติให้สำเร็จในรูปแบบนี้ได้ หมวดรถถังจะถูกยุบโดยอัตโนมัติหลังการรบ"
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "พรานเหล็กแบบดั้งเดิม ผู้เล่นแต่ละคนจะต้องต่อสู้เพื่อให้ตัวเองรอด สะสมทรัพยากร, ยกระดับพาหนะของตนแล้วใช้ความสามารถเฉพาะเพื่อให้เป็นคนสุดท้ายที่รอด!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "การรบในหมวดรถถังกับเพื่อน เล่นเป็นทีมต่อสู้กับเก้าหมวดรถถังข้าศึก ภารกิจหมวดรถถังสามารถปฏิบัติให้สำเร็จในรูปแบบนี้ได้"
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "หมวดรถถังแบบสุ่ม"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "แบบคนเดียว"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "หมวดรถถังกับเพื่อน"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "คนเดียว"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "หมวดรถถัง"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "กฎในการได้รับคะแนน"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s อันดับ"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s อันดับ"
+
+msgid "tooltips/awards/achievement"
+msgstr "เหรียญ"
+
+msgid "tooltips/awards/badge"
+msgstr "ตรา"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "ทำให้คุณสามารถกลับเข้าการรบหลังพาหนะถูกทำลาย เมื่อนี่เกิดขึ้น ขั้นการยกระดับของพาหนะจะไม่เสียไป สามารถใช้ได้ในจำนวนจำกัดต่อการรบ"
+
+msgid "tooltips/respawn/footer/text"
+msgstr "สามารถได้รับจำนวนครั้งการเกิดใหม่จากเสบียงอากาศ"
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "ในการคืนชีพพันธมิตร ให้อยู่นอกการรบเป็นเวลา {brown_Open}%(timeToResurrect)sวินาที{brown_Close} กลไกนี้จะทำงานในช่วง {brown_Open}%(duration)s นาทีแรก{brown_Close} ของการรบ จำนวนครั้งการเกิดใหม่จะถูกแบ่งใช้กันระหว่างสมาชิกหมวดรถถัง"
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "เมื่อออกรบในหมวดรถถัง"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "เมื่อถูกทำลาย พาหนะของคุณจะเกิดใหม่โดยอัตโนมัติ กลไกนี้จะทำงานภายในช่วง {brown_Open}%(duration)s นาทีแรก {brown_Close} ของการรบ"
+
+msgid "tooltips/respawn/solo/title"
+msgstr "เมื่อออกรบเพียงคนเดียว"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "ใช้ครั้งเดียว"
+
+msgid "tooltips/respawn/title"
+msgstr "เกิดใหม่"
+
+msgid "tooltips/vehicle/description"
+msgstr "พาหนะสำหรับรูปแบบนายพรานเหล็ก"
+
+msgid "tournament/description"
+msgstr "การล่าครั้งใหญ่"
+
+msgid "tournament/fightButton/notReady"
+msgstr "ไม่พร้อม"
+
+msgid "tournament/fightButton/ready"
+msgstr "พร้อม!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "ไม่สามารถเข้าทัวร์นาเมนต์ได้ รหัสผิดพลาด: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "ทัวร์นาเมนต์การล่าครั้งใหญ่ผิดพลาด รหัสผิดพลาด: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "การล่าครั้งใหญ่"
+
+msgid "tournament/type/solo"
+msgstr "ชนิด: เดี่ยว"
+
+msgid "tournament/type/squad"
+msgstr "ชนิด: หมวดรถถัง"
+
+msgid "upgradePanel/alert/0"
+msgstr "คุณยกระดับพาหนะไม่ได้!"
+
+msgid "upgradePanel/alert/1"
+msgstr "คุณไม่สามารถยกระดับพาหนะในระหว่างทำการต่อสู้ได้!"
+
+msgid "upgradePanel/alert/2"
+msgstr "คุณยกระดับพาหนะไม่ได้ พาหนะกำลังจมน้ำ!"
+
+msgid "upgradePanel/alert/3"
+msgstr "คุณยกระดับพาหนะไม่ได้ พาหนะกำลังคว่ำอยู่"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "กด %(key)s เพื่อเปิดรายการยกระดับ"
+
+msgid "upgradePanel/title/default"
+msgstr "มีชิ้นส่วนใหม่ให้"
+
+msgid "upgradePanel/title/hull"
+msgstr "มีตัวถังใหม่ให้"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "มีช่วงล่างใหม่ให้"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "มีเครื่องยนต์ใหม่ให้"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "มีปืนใหม่ให้"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "มีวิทยุใหม่ให้"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "มีป้อมปืนใหม่ให้"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "หรือ"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "เกราะ"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "ความเสียหายต่อนัด"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "ความเร็วบรรจุ"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "ความทนทาน"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "การเจาะเกราะ"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "ปฏิบัติการตรวจจับวิทยุ"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "ระบบการบรรจุซองกระสุน"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "ความเร็ว"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "คุณลักษณะพาหนะ"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "ข้อได้เปรียบ"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "ข้อเสียเปรียบ"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนทุกเซิร์ฟเวอร์ การรบจะมีให้ภายใน %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "เลือกเซิร์ฟเวอร์อื่น"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "ตอน %(cycle)s จบลงแล้ว"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "ตอนจบลงแล้ว"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "ช่วงหยุดยิงกำลังมีผลบนเซิร์ฟเวอร์นี้ การรบจะมีให้ภายใน %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "ช่วงหยุดยิงกำลังมีผลบน %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "ตอน %(cycle)s จะเริ่มภายใน %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "ตอนที่หนึ่งจะเริ่มขึ้นใน %(time)s"

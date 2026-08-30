@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "本モードは選択できる全サーバーで休止中です。"
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "本モードはご利用中のサーバーでは休止中です。"
+
+msgid "alertMessage/changeServerButton"
+msgstr "サーバー変更"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "「STEEL HUNTER」は終了済み"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "本モードはこのサーバーではご利用いただけません。"
+
+msgid "banner/info/disabled"
+msgstr "休止時間"
+
+msgid "banner/info/seasonActive"
+msgstr "「復活」機能と貴重な報酬！"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "～%(month)s%(day)s日"
+
+msgid "banner/subtitle"
+msgstr "貴重な報酬が手に入るバトルロイヤル・モード"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s時間"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s時間%(minutes)s分"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s分"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "STEEL HUNTER"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "新たな地点からの再出撃に備えよ！"
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "間もなく復活"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "復活中"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "やられてしまえばお終いだ！ 気を付けろ！"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "「復活」の発動期限が到来"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "「復活」の発動期限まで残りわずか"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "今回はもう少し慎重に立ち回るんだ！"
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "復活に成功"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "戦線に復帰中"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "味方が敵と交戦中のため復活できない！"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "アビリティー「復活」は停止中"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "アビリティー「復活」のチャージを探すんだ！"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "味方車輌が大破"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "復活中"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "やはり2輌の方が心強い！"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "味方車輌が復活"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "敵との交戦を回避せよ！"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "味方が復活中"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "ボーナス適用条件を達成"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "TOP達成ボーナス"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "戦闘で取得"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "勝利！"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "チャプターが未選択。未使用の「進捗ポイント」: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "全チャプターを制覇済み。プレイを続ければ「進捗ポイント」がさらに手に入ります。"
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "バトルパスへ"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "バトルパス"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "チャプターを選択"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "挑戦中のチャプターの進捗画面へ"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "バトルパスへ"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "達成したミッション数: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "ミッション"
+
+msgid "battleResult/battleReward/title"
+msgstr "戦闘で取得"
+
+msgid "battleResult/button/hangar"
+msgstr "ガレージへ"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "ポイントと報酬は、全プレイヤーの戦闘終了後に付与されます。ミッションの評価は、戦闘結果に基づいて行われます。"
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "%(esc)を押してアニメーションをスキップ"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "小隊へ招待"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "味方"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "ランダムな味方"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "戦闘タイプ"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "ソロモード"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "WoTプレミアムアカウントの特典"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "WoTプレミアムアカウント利用時の総額"
+
+msgid "battleResult/progressStage"
+msgstr "ステージ{stage}の進行"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "戦闘中、他のプレイヤーには実際のプレイヤー名とクランタグが表示されていません。"
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "実際のプレイヤー名: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "プレイヤー名は{name}に変更済み"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "自車輌の装甲で阻んだダメージの総量"
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "自車輌が与えたダメージの総量"
+
+msgid "battleResult/stats/body/kills"
+msgstr "自車輌が撃破した敵車輌の総数"
+
+msgid "battleResult/stats/body/place"
+msgstr "戦闘結果に基づく順位"
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "所属する小隊が撃破した敵車輌の総数"
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "阻んだダメージ"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "与えたダメージ"
+
+msgid "battleResult/stats/header/kills"
+msgstr "自車輌が撃破"
+
+msgid "battleResult/stats/header/place"
+msgstr "順位"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "小隊による撃破数"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "阻んだダメージ"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "与えたダメージ"
+
+msgid "battleResult/stats/title/kills"
+msgstr "自車輌が撃破"
+
+msgid "battleResult/stats/title/place"
+msgstr "順位"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "小隊による撃破数"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "リーダーボード"
+
+msgid "battleResult/tab/result"
+msgstr "戦闘結果"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "小隊全滅"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "車輌大破"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "勝利！"
+
+msgid "battleResult/title/victoryOther"
+msgstr "上位入賞"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "モード専用の「ハンター車輌」しか選択できません。"
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "車輌が不適合です。"
+
+msgid "button/modules"
+msgstr "技術ツリー"
+
+msgid "button/repair"
+msgstr "修理"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "一時的に戦闘不可"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "一時的に戦闘不可"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "モード利用不可"
+
+msgid "ceasefire/header/schedule"
+msgstr "戦闘スケジュール"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}～{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "本モードは全サーバーで休止中です。以下よりスケジュールをご確認ください。"
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "本モードはご利用中のサーバーでは休止中です。本モードをプレイするには別のサーバーを選択してください。"
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "「STEEL HUNTER」は本サーバーではご利用いただけません。本モードをプレイするには別のサーバーを選択してください。"
+
+msgid "commanderInfo/commonRank"
+msgstr "車長"
+
+msgid "commanderInfo/description/china"
+msgstr "「私の辞書に《敗北》の文字はない」"
+
+msgid "commanderInfo/description/france"
+msgstr "「戦場では私が法だ！」"
+
+msgid "commanderInfo/description/germany"
+msgstr "「今日という輝かしい日を歴史に刻もうではないか」"
+
+msgid "commanderInfo/description/poland"
+msgstr "「愛想よく振る舞うのは柄じゃなくってね」"
+
+msgid "commanderInfo/description/sweden"
+msgstr "「すべては私の計画通り」"
+
+msgid "commanderInfo/description/uk"
+msgstr "「何をするにせよ、頂点を目指してなんぼだろ？」"
+
+msgid "commanderInfo/description/usa"
+msgstr "「遊びは終わりだ。出撃命令はまだか」"
+
+msgid "commanderInfo/description/ussr"
+msgstr "「すべてを手にするのは勝者のみである！」"
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "パーク"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nハンター車輌"
+
+msgid "fragPanel/squadsCount"
+msgstr "小隊: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "リーダーボード"
+
+msgid "hangarResults/btns/summary"
+msgstr "戦闘結果"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "閉じる"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "モジュールは戦闘中にしか強化できません。強化メニューを開くには戦闘中に %(key)s キーを押してください。"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)sか、%(highlight2)sすると、EXPを取得できます。車輌Tierが上昇すると、強化メニューからモジュールを1つ選択して、車輌特性を大幅に向上させることができます。"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "敵車輌にダメージを与える"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "マップ上に出現するアイテムを回収"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "戦闘中の車輌強化"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "戦闘には、Tier I 車輌で出撃します。"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "モジュールを強化するには、戦闘中に強化メニューを開く（デフォルトでは「%(treeKey)s」キーを押す）か、「%(leftModuleKey)s」キーと 「%(rightModuleKey)s」キーを同時に押してください。\n\nモジュールの強化は、戦闘中のみ可能です。"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "戦闘中"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "「STEEL HUNTER」モードでは、戦闘中に敵車輌にダメージを与えるか戦場に出現するアイテムを回収するとEXPが手に入ります。一定量のEXPを集めると車輌のTierが上昇してモジュールを1基強化できるようになります。"
+
+msgid "levelUp/severalTitles"
+msgstr "レベル%(firstLevel)s～%(lastLevel)s到達！"
+
+msgid "levelUp/title"
+msgstr "レベル%(level)s到達！"
+
+msgid "levelUp/twoTitles"
+msgstr "レベル%(firstLevel)s～%(secondLevel)s到達！"
+
+msgid "level_up/max_level_info/description"
+msgstr "ミッションを達成して貴重な報酬を獲得しましょう。"
+
+msgid "level_up/max_level_info/title"
+msgstr "新たなデイリーミッションに挑戦可能"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "シーズンは\nまもなく開幕"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "シーズン開幕日: %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "阻んだダメージ"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "与ダメージ"
+
+msgid "playerStats/killsStat/name"
+msgstr "撃破数"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "撃破数"
+
+msgid "playerStats/placeStat/name"
+msgstr "順位"
+
+msgid "playerStats/title"
+msgstr "個人スコア"
+
+msgid "player_errors/radarInCooldown"
+msgstr "無線探知不能: 現在準備中……"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "回復不要: 車輌は完全な状態"
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "自律型攻撃兵器が大破"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s が味方 %(target)s を撃破"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s が敵 %(target)s を撃破"
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "自動追尾爆弾が大破"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "地雷の効果消滅"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "地雷の設置完了"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "無線探知の準備完了"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "最高Tierに到達"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Tier %(level)sに到達"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "搭載: %(moduleType)s　強化: %(module)s"
+
+msgid "player_messages/moduleType/hull"
+msgstr "車体"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "サスペンション"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "エンジン"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "主砲"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "無線探知"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "砲塔"
+
+msgid "playersPanel/title"
+msgstr "チーム"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "小隊内で視点を切り替え可能"
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "観戦モード"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Escキーでガレージに戻り\n他の車輌で戦闘参加可能"
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "ガレージに戻る"
+
+msgid "preBattle/buttonTitle"
+msgstr "戦闘開始！"
+
+msgid "preBattle/dropDownTitle"
+msgstr "マップを選択"
+
+msgid "preBattle/listTitle"
+msgstr "プレイヤーの準備状況"
+
+msgid "preBattle/mapArzagir"
+msgstr "アルザギール4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "ドリームランド"
+
+msgid "preBattle/mapRandom"
+msgstr "ランダムマップ"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "小隊の車輌"
+
+msgid "preBattle/title"
+msgstr "BIG HUNT"
+
+msgid "preBattle/userFooterTitle"
+msgstr "選択中の車輌"
+
+msgid "preBattle/userNotReady"
+msgstr "準備中"
+
+msgid "preBattle/userReady"
+msgstr "準備完了"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "%(server)sサーバーではシーズン%(cycleNo)sが終了済み"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "%(server)sサーバーではシーズンが終了しています。"
+
+msgid "proxyPanel/button"
+msgstr "ショップ"
+
+msgid "proxyPanel/label"
+msgstr "「鋼印」\nトークン"
+
+msgid "proxyPanel/store"
+msgstr "ショップ"
+
+msgid "questsTooltip/timeLeft"
+msgstr "シーズン終了まで%(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "無線探知へのキー割り当てなし"
+
+msgid "radar/hint/press"
+msgstr "ショートカット:"
+
+msgid "radar/hint/text"
+msgstr "で無線探知"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "戦闘開始"
+
+msgid "selectRespawn/button/land"
+msgstr "戦闘開始"
+
+msgid "selectRespawn/description"
+msgstr "戦闘開始地点を選択してください。選択しない場合は、いずれかの地点から戦闘が開始されます。"
+
+msgid "selectRespawn/header"
+msgstr "戦闘開始地点の選択"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "戦闘開始地点を選択してください。選択しない場合は、いずれかの地点から戦闘が開始されます。"
+
+msgid "selectRespawn/text/startHere"
+msgstr "この地点から戦闘開始"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "戦闘開始地点の選択"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s日"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s時間%(min)s分"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1分"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s分"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "バーサーク発動！"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "腐蝕弾が装甲を侵食中！"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "ゾーン閉鎖！ 車輌が大破する前に脱出せよ！"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "このエリアは間もなく「破壊ゾーン」になります"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "機動性が低下中！"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "車輌が横転中……"
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "HPを回復中……"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "HPを回復中……"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "ダメージを変換中！"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "技術特性値が向上！"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "砲弾と回復"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "投下物資"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "修理キットまたはチャージ"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "戦利品"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "複合戦利品: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "%(lootType)sを回収中…"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "修復エリア"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "ダメージ特化！"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "煙幕内"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "装甲が腐食されている！"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "機動性が低下中！"
+
+msgid "techParams/type/damage"
+msgstr "与ダメージ"
+
+msgid "techParams/type/difficulty"
+msgstr "難易度"
+
+msgid "techParams/type/mobility"
+msgstr "機動性"
+
+msgid "techParams/type/spotting"
+msgstr "発見"
+
+msgid "techParams/type/survivability"
+msgstr "生存性"
+
+msgid "techtree/body_armor"
+msgstr "装甲"
+
+msgid "techtree/body_health"
+msgstr "車輌HP"
+
+msgid "techtree/body_mobility"
+msgstr "機動性"
+
+msgid "techtree/engine_acceleration"
+msgstr "加速力"
+
+msgid "techtree/engine_speed"
+msgstr "最大速度"
+
+msgid "techtree/gun_alpha"
+msgstr "単発ダメージ"
+
+msgid "techtree/gun_auto_loader"
+msgstr "自動再装填"
+
+msgid "techtree/gun_clip"
+msgstr "弾倉式自動装填"
+
+msgid "techtree/gun_dpm"
+msgstr "装填速度"
+
+msgid "techtree/gun_dualgun"
+msgstr "2連装砲"
+
+msgid "techtree/gun_he"
+msgstr "HE弾ダメージ"
+
+msgid "techtree/gun_machinegun"
+msgstr "対戦車機関銃"
+
+msgid "techtree/gun_piercing"
+msgstr "貫通力"
+
+msgid "techtree/radar_cooldown"
+msgstr "無線探知のクールダウン"
+
+msgid "techtree/radar_distance"
+msgstr "探知範囲"
+
+msgid "techtree/turret_armor"
+msgstr "装甲"
+
+msgid "techtree/turret_health"
+msgstr "HP"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "旋回速度"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "最大{{credits}}クレジット"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "最大{{experience}}EXP"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "小隊戦闘ボーナス"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "ランダムな味方と小隊を組んで戦闘に参加し、ほかの9個の小隊と戦います。このモードでは小隊ミッションに挑戦できます。戦闘が終わると小隊は自動的に解散されます。"
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "通常版の「STEEL HUNTER」モードです。各プレイヤーが最後の1人となるべく、ほかのすべてのプレイヤーを相手に戦います。マップ上に出現するアイテムを回収して、車輌をアップグレードしたり、専用アビリティーを活用することが勝利のカギとなります。"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "フレンドと小隊を組んで戦闘に参加し、ほかの9個の小隊と戦います。このモードでは小隊ミッションに挑戦できます。"
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "ランダム小隊"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "ソロ・モード"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "フレンドと小隊を組む"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "ソロ"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "小隊"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "ポイントの取得ルール"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s位"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s位"
+
+msgid "tooltips/awards/achievement"
+msgstr "勲章"
+
+msgid "tooltips/awards/badge"
+msgstr "バッジ"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: 「%(userName)s」"
+
+msgid "tooltips/respawn/common/description"
+msgstr "車輌が大破した際にアップグレードレベルを維持したまま自動的に戦線に復帰することができます。1戦中に使用できる回数に制限が設けられている点に注意が必要です。"
+
+msgid "tooltips/respawn/footer/text"
+msgstr "「投下物資」を回収すると一定の確率で「復活」がチャージされます。"
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "小隊でプレイする場合はアビリティー「復活」のチャージがメンバー間で共有されます。ただし、味方を復活させるには{brown_Open}%(timeToResurrect)s秒間{brown_Close}にわたって交戦を回避し続けなければならず、戦闘開始から{brown_Open}%(duration)s分{brown_Close}が経過するとアビリティーそのものが効果を発揮しなくなる点に注意が必要です。"
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "小隊プレイ時の効果と制限"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "車輌が大破しても自動的に戦線に復帰できます。戦闘開始から{brown_Open}%(duration)s分{brown_Close}が経過すると効果を発揮しなくなる点に注意が必要です。"
+
+msgid "tooltips/respawn/solo/title"
+msgstr "ソロプレイ時の効果と制限"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "1度使用するとなくなります。"
+
+msgid "tooltips/respawn/title"
+msgstr "復活"
+
+msgid "tooltips/vehicle/description"
+msgstr "ハンター車輌"
+
+msgid "tournament/description"
+msgstr "BIG HUNT"
+
+msgid "tournament/fightButton/notReady"
+msgstr "準備中"
+
+msgid "tournament/fightButton/ready"
+msgstr "準備完了！"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "トーナメント参加不可。エラーコード:%(errorString)s。"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "トーナメント「BIG HUNT」エラー。エラーコード:%(errorString)s。"
+
+msgid "tournament/title"
+msgstr "BIG HUNT"
+
+msgid "tournament/type/solo"
+msgstr "タイプ: ソロ"
+
+msgid "tournament/type/squad"
+msgstr "タイプ: 小隊"
+
+msgid "upgradePanel/alert/0"
+msgstr "車輌の強化不能！"
+
+msgid "upgradePanel/alert/1"
+msgstr "交戦中は車輌の強化不能！"
+
+msgid "upgradePanel/alert/2"
+msgstr "冠水中は車輌の強化不能！"
+
+msgid "upgradePanel/alert/3"
+msgstr "横転中は車輌の強化不能！"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "強化メニューを開くには%(key)sキーを押してください"
+
+msgid "upgradePanel/title/default"
+msgstr "モジュールを強化可能"
+
+msgid "upgradePanel/title/hull"
+msgstr "車体を強化可能"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "サスペンションを強化可能"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "エンジンを強化可能"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "主砲を強化可能"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "無線を強化可能"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "砲塔を強化可能"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "または"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "装甲"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "単発ダメージ"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "装填速度"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "HP"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "貫通力"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "無線探知能力"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "自動装填装置"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "速度"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "車輌の特徴"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "長所"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "短所"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "本モードは全サーバーで休止中です。あと%(time)sで再開します。"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "別のサーバーを選択"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "エピソード%(cycle)sは終了しています"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "エピソードは終了しています"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "本モードはご利用中のサーバーでは休止中です。あと%(time)sで再開します。"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "本モードは%(serverName)sでは休止中です。"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "エピソード%(cycle)sはあと%(time)sで開幕します"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "エピソード1はあと%(time)sで開幕します"

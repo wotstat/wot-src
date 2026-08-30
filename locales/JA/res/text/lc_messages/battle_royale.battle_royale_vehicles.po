@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "abilities/adaptationHealthRestore"
+msgstr "自動修復装甲"
+
+msgid "abilities/adaptationHealthRestoreDescription"
+msgstr "発動と同時に車輌HPの一部が即座に回復する。さらに効果発動中に敵の砲弾やアビリティーから受けたダメージがカウントされ、車輌HPに変換される。また効果終了時に、合計被ダメージの一定の割合分、自車輌のHPが回復する。自車輌の周囲にいる味方の車輌HPの一部も回復する。"
+
+msgid "abilities/airstrike"
+msgstr "空爆"
+
+msgid "abilities/airstrikeDescription"
+msgstr "選択したエリアに爆撃を行い、爆発により敵車輌をスタンさせると同時に、ダメージを与える。"
+
+msgid "abilities/berserk"
+msgstr "バーサーク"
+
+msgid "abilities/berserkDescription"
+msgstr "車輌特性と貫通力が大幅に強化されるが、車輌のHPが一定時間減少する。"
+
+msgid "abilities/brander"
+msgstr "自動追尾爆弾"
+
+msgid "abilities/branderDescription"
+msgstr "直近の敵車輌を追跡し、爆発により小範囲にダメージを与える自動追尾型の爆弾を起動する。「自動追尾爆弾」は敵の砲撃または体当たりを受けると破壊される。目標に到達すると、追加の体当たりダメージを与える。"
+
+msgid "abilities/clingBrander"
+msgstr "自律型攻撃兵器"
+
+msgid "abilities/clingBranderDescription"
+msgstr "敵と味方を識別できる自律型の攻撃兵器を召喚して直近の敵車輌を攻撃させる。一定のダメージを受けると大破してしまう。"
+
+msgid "abilities/corrodingShot"
+msgstr "腐蝕弾"
+
+msgid "abilities/corrodingShotDescription"
+msgstr "砲弾に腐蝕効果を追加する。射撃により敵にダメージを与えると一定時間が経過するまで追加でダメージが発生する。腐蝕効果は「修理キット」で取り除くことができる。"
+
+msgid "abilities/extremeConcentration"
+msgstr "照準ブースト"
+
+msgid "abilities/extremeConcentrationDescription"
+msgstr "一時的に散布界を縮小し、照準時間を短縮するとともに、主砲の安定性と発射速度を向上させる。ただし、弾倉や挿弾子の連射間隔には影響しない。"
+
+msgid "abilities/fireCircle"
+msgstr "火炎輪"
+
+msgid "abilities/fireCircleDescription"
+msgstr "自車輌の周囲に炎の輪を展開することで効果範囲内の敵車輌に対してダメージを与えると同時に機動性を低下させる。"
+
+msgid "abilities/minefield"
+msgstr "地雷原"
+
+msgid "abilities/minefieldDescription"
+msgstr "指定したエリアに地雷を設置する。地雷は一定時間のみ有効で、敵車輌がそのエリアを通過すると起爆してダメージとスタン効果を与える。敵の攻撃を受けると破壊されるほか、敵車輌の真下に配置しても地雷は爆発しない。"
+
+msgid "abilities/nitro"
+msgstr "スーパーチャージャー"
+
+msgid "abilities/nitroDescription"
+msgstr "一定時間、車輌のエンジン出力、最大速度、および旋回速度を向上させる。"
+
+msgid "abilities/recoveryDot"
+msgstr "修復エリア"
+
+msgid "abilities/recoveryDotDescription"
+msgstr "損傷した全モジュールを修理し、ペナルティーを取り除くとともに、自車輌のHPを回復させる固定エリアを一時的に展開する。効果範囲内の味方の車輌HPも回復する。"
+
+msgid "abilities/recoveryKit"
+msgstr "回復"
+
+msgid "abilities/recoveryKitDescription"
+msgstr "車輌HPを回復する。"
+
+msgid "abilities/recoveryZone"
+msgstr "エリア回復"
+
+msgid "abilities/recoveryZoneDescription"
+msgstr "自車輌の周囲に、自車輌および小隊メンバー車輌のHPを毎秒一定の割合で回復させるエリアを展開する。"
+
+msgid "abilities/repairKit"
+msgstr "修理キット"
+
+msgid "abilities/repairKitDescription"
+msgstr "全モジュールを即座に修理してペナルティーを取り除く。"
+
+msgid "abilities/rustCloud"
+msgstr "酸性ミスト"
+
+msgid "abilities/rustCloudDescription"
+msgstr "効果範囲内の全車輌に隠蔽率ボーナスを付与すると同時に、ダメージを与える。ただし、アイテムの回収の進捗はリセットされない。また、必ず1HP以上残るため、「酸性ミスト」のダメージで車輌が大破することはない。"
+
+msgid "abilities/shotPassion"
+msgstr "ダメージ特化"
+
+msgid "abilities/shotPassionDescription"
+msgstr "一定時間が経過するまで砲弾を貫通させるか「電磁エリア」でダメージを与える度に照準性能を犠牲に次の砲弾で与えられるダメージを上昇させる。与ダメージは最大で5倍まで上昇する。敵装甲を貫通できないと効果がリセットされる。"
+
+msgid "abilities/thunderStrike"
+msgstr "電磁エリア"
+
+msgid "abilities/thunderStrikeDescription"
+msgstr "電磁波を発生させることで効果範囲内に複数回の放電を起こし、敵車輌に対してダメージを与えると同時に一時的に機動性を低下させる。アビリティーの発動から最初の放電まで数秒を要する。このアビリティーが与えるペナルティーは「修理キット」で取り除くことができる。"
+
+msgid "abilities/trap"
+msgstr "トラップ"
+
+msgid "abilities/trapDescription"
+msgstr "一定時間、敵車輌の移動性能を低下させるエリアを展開する。"
+
+msgid "tanks/britain/description"
+msgstr "ベテラン戦車兵を魅了し、敵に恐怖を植え付けるイギリス技師たちの技術と努力の結晶。伝説のイギリス製装甲車輌として、再び戦場を支配する時を待つ。"
+
+msgid "tanks/britain/title"
+msgstr "Harbinger Mk. IV"
+
+msgid "tanks/china/description"
+msgstr "最新の技術とアイデアを数多く採用した中国の試作車輌で、その開発者たちは「STEEL HUNTER」という過酷な環境で実験できるのを何よりも楽しみにしている。"
+
+msgid "tanks/china/title"
+msgstr "Bái Láng"
+
+msgid "tanks/france/description"
+msgstr "フランス車輌の三大要素は軽量性、滑らかな形状、そして気品。本車輌の開発には、技術協力や産業スパイ活動で得た他国の設計や技術は一切使用されず、フランス独自の優れた着想や技術が採用されている。"
+
+msgid "tanks/france/title"
+msgstr "Arlequin"
+
+msgid "tanks/germany/description"
+msgstr "ドイツの優れた金属工学と装甲車輌製造技術によって生み出された単独行動特化型の車輌。まさに一匹狼の如く、単独でどんな戦況にも対応し、戦場を生き抜く。"
+
+msgid "tanks/germany/title"
+msgstr "Walküre"
+
+msgid "tanks/poland/description"
+msgstr "兵器の長所を無暗に伸ばそうとすれば別の側面で何らかの不具合が生じてしまうということをよく理解している技術者たちによって開発されたポーランド車輌で、弱点を狙われても対処できるだけの兵装とアビリティーが搭載されている。"
+
+msgid "tanks/poland/title"
+msgstr "Huragan"
+
+msgid "tanks/sweden/description"
+msgstr "戦車設計の流行を柔軟に取り入れるスウェーデンの技術者たちが、\n「STEEL HUNTER」への参戦が決まったことに伴い実験的に開発した車輌で、特にハイリスクで高度な技術を要するアビリティーを搭載している。敵に大ダメージを与えられるのはもちろん、相当のダメージにも耐えることができる。"
+
+msgid "tanks/sweden/title"
+msgstr "Beowulf"
+
+msgid "tanks/usa/description"
+msgstr "温故知新を体現した車輌。長きにわたって有効性が証明されてきた装甲車輌開発の伝統に最新の技術で磨きをかけ、抜群の操縦性を誇る。ところどころ金属に錆が目につくのが玉にキズ。"
+
+msgid "tanks/usa/title"
+msgstr "Raven"
+
+msgid "tanks/ussr/description"
+msgstr "設計や試作段階で廃棄された部品の数々を各地の製造工場から集めて作り上げられた怪物車輌。実験的な設計図や技術文書を組み合わせると戦場の脅威を生み出すことができる、まさにその証明。"
+
+msgid "tanks/ussr/title"
+msgstr "Varyag"

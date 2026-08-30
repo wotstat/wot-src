@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "categories/body/firepower"
+msgstr "ชุดค่าที่แสดงประสิทธิภาพในการทำลายพาหนะข้าศึก ตัวกรองนี้จะแสดง/ซ่อนอุปกรณ์ที่ช่วยค่าเหล่านี้"
+
+msgid "categories/body/mobility"
+msgstr "ชุดค่าที่แสดงว่าพาหนะจะเปลี่ยนตำแหน่งของตนในสนามรบได้เร็วเพียงใด ตัวกรองนี้จะแสดง/ซ่อนอุปกรณ์ที่ช่วยค่าเหล่านี้"
+
+msgid "categories/body/stealth"
+msgstr "ชุดค่าที่แสดงประสิทธิภาพการอำพรางตัวของพาหนะและความสามารถในการตรวจจับพาหนะข้าศึก ตัวกรองนี้จะแสดง/ซ่อนอุปกรณ์ที่ช่วยค่าเหล่านี้"
+
+msgid "categories/body/survivability"
+msgstr "ชุดค่าที่แสดงความทนทานต่อความเสียหายของพาหนะ ตัวกรองนี้จะแสดง/ซ่อนอุปกรณ์ที่ช่วยค่าเหล่านี้"
+
+msgid "categories/empty"
+msgstr "ประเภทช่องที่สอง"
+
+msgid "categories/firepower"
+msgstr "อำนาจการยิง"
+
+msgid "categories/mobility"
+msgstr "ความคล่องตัว"
+
+msgid "categories/slotEffect/empty"
+msgstr "โอกาสในการจัดประเภทของช่องอุปกรณ์ที่สองสำหรับพาหนะคันนี้"
+
+msgid "categories/slotEffect/firepower"
+msgstr "อุปกรณ์มาตรฐานจากประเภทอำนาจการยิงจะมีประสิทธิภาพมากกว่าหากติดตั้งในช่องนี้"
+
+msgid "categories/slotEffect/mobility"
+msgstr "อุปกรณ์มาตรฐานจากประเภทความคล่องตัวจะมีประสิทธิภาพมากกว่าหากติดตั้งในช่องนี้"
+
+msgid "categories/slotEffect/stealth"
+msgstr "อุปกรณ์มาตรฐานจากประเภทการลาดตระเวนจะมีประสิทธิภาพมากกว่าหากติดตั้งในช่องนี้"
+
+msgid "categories/slotEffect/survivability"
+msgstr "อุปกรณ์มาตรฐานจากประเภทความสามารถในการอยู่รอดจะมีประสิทธิภาพมากกว่าหากติดตั้งในช่องนี้"
+
+msgid "categories/stealth"
+msgstr "การลาดตระเวน"
+
+msgid "categories/survivability"
+msgstr "ความสามารถในการอยู่รอด"
+
+msgid "categories/universal"
+msgstr "ไม่มีประเภท"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "เลือกคำสั่งที่ใช้ได้หนึึ่งอย่างจากรายการ"
+
+msgid "compare/section/description/consumables"
+msgstr "เลือกยุทธปัจจัยที่ใช้ได้หนึึ่งอย่างจากรายการ"
+
+msgid "compare/section/description/optDevices"
+msgstr "เลือกอุปกรณ์ที่ใช้ได้หนึึ่งอย่างจากรายการ"
+
+msgid "compare/section/title/battleBoosters"
+msgstr "คำสั่งสำหรับ {name}"
+
+msgid "compare/section/title/consumables"
+msgstr "ยุทธปัจจัยสำหรับ {name}"
+
+msgid "compare/section/title/optDevices"
+msgstr "อุปกรณ์สำหรับ {name}"
+
+msgid "dealPanel/autoRenew"
+msgstr "ซื้อเติมอัตโนมัติ"
+
+msgid "dealPanel/button/apply"
+msgstr "ใช้งาน"
+
+msgid "dealPanel/button/applyType"
+msgstr "ใช้กับชนิด"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "ใช้กับพาหนะ"
+
+msgid "dealPanel/button/cancel"
+msgstr "ยกเลิก"
+
+msgid "dealPanel/button/purchase"
+msgstr "ซื้อ"
+
+msgid "dealPanel/fromStorage"
+msgstr "จากโรงเก็บ:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "ติดตั้งเอาไว้:"
+
+msgid "dealPanel/repair"
+msgstr "จำเป็นต้องทำการซ่อม"
+
+msgid "dealPanel/toBePaid"
+msgstr "รวม:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "ในโรงเก็บ"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "ติดตั้งเอาไว้บนพาหนะ"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "เงินทุนไม่พอเพื่อทำการซื้อ"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "จะซื้อด้วยเงิน"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "จะซื้อด้วยพันธบัตร"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "จะถูกติดตั้งจากโรงเก็บ"
+
+msgid "deconstructionDeviceView/available"
+msgstr "สามารถใช้ได้:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "ยกเลิก"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "ดำเนินการ"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "จากโรงเก็บ:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "จากพาหนะ:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "( ต้องใช้อีก %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)sเพื่อทำการยกระดับ%(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "จะได้รับ:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "พาหนะใช้งาน"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "ในโรงรถ: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "บนพาหนะ %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "เลือกอุปกรณ์ที่คุณต้องการถอดเป็น%(whiteSpanish_Open)sส่วนประกอบ%(whiteSpanish_Close)s%(icon)s ส่วนประกอบที่ได้รับสามารถใช้ในการยกระดับอุปกรณ์รุ่นทดลองได้"
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s ในการหาส่วนประกอบเพิ่ม ให้ทำการถอดส่วนประกอบอุปกรณ์รุ่นทดลองที่ไม่ได้ใช้"
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "โต๊ะทำงาน"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "ส่วนประกอบไม่พอสำหรับการยกระดับ\n%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s"
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "ในการดำเนินการต่อ ให้ถอดส่วนประกอบอุปกรณ์ที่ไม่ใช้เป็นส่วนประกอบ"
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "ในการดำเนินการต่อ ให้หาส่วนประกอบในจำนวนที่กำหนด"
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "ยกเลิกการเปลี่ยน"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "ยกเลิก"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "ยกเลิก"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "ยกเลิก"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "ยกเลิกการเปลี่ยน"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "บันทึก"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "ซื้อ"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "ซื้อและติดตั้ง"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "ติดตั้ง"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "คุณสามารถปลดอุปกรณ์ด้วย %(price)s เพื่อส่งไปยังโรงเก็บหรือคุณสามารถทำลายมันทิ้งได้"
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "คุณสามารถปลดอุปกรณ์ได้ด้วย %(price)s หรือ {whiteSpanish_Open}ไม่มีค่าใช้จ่าย{whiteSpanish_Close} ด้วย WoT Plus แล้วทำการส่งไปยังโรงเก็บหรือทำลายมันทิ้ง"
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "คุณสามารถปลดอุปกรณ์ได้ด้วย %(demountKit)s, %(price)s หรือ {whiteSpanish_Open}ไม่มีค่าใช้จ่าย{whiteSpanish_Close} ด้วย WoT Plus แล้วทำการส่งไปยังโรงเก็บหรือทำลายมันทิ้ง"
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "คุณสามารถปลดอุปกรณ์ได้โดย {whiteSpanish_Open}ไม่มีค่าใช้จ่าย{whiteSpanish_Close} ด้วย WoT Plus แล้วทำการส่งไปยังโรงเก็บ"
+
+msgid "dialogs/confirm/demount/items"
+msgstr "คุณสามารถปลดอุปกรณ์เพื่อส่งไปยังโรงเก็บ"
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "จะใช้ไม่ได้"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "คำสั่ง"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "เมื่อทำการซื้อการปรับแต่งแบบคู่ชุดนี้ อีกชุดจะถูกยกเลิกไป"
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "ยุทธปัจจัย"
+
+msgid "dialogs/confirm/item/module"
+msgstr "ชิ้นส่วน"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "อุปกรณ์"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "การปรับแต่งแบบคู่"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "คำสั่ง"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "ยุทธปัจจัย"
+
+msgid "dialogs/confirm/items/module"
+msgstr "ชิ้นส่วน"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "อุปกรณ์"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " และ "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "บันทึกการเปลี่ยนแปลงช่องคำสั่ง?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "บันทึกการเปลี่ยนแปลงช่องยุทธปัจจัย?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "บันทึกการเปลี่ยนแปลงช่องอุปกรณ์?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "ซื้อ {type} %(name)s?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "ซื้อและติดตั้ง {type} %(name)s?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "ติดตั้ง {type} %(name)s?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "เปิดใช้ {type} %(name)s สำหรับ %(vehicle)s ทั้งหมด?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "ซื้อ {type}?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "ซื้อและติดตั้ง {type}?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "ติดตั้ง {type}?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "เปิดใช้ {type} สำหรับ %(vehicle)sทั้งหมด?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "ยานพิฆาตรถถัง"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "ปืนอัตตาจร"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "รถถังหนัก"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "รถถังเบา"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "รถถังกลาง"
+
+msgid "dialogs/confirm/warning"
+msgstr "โปรดทราบ! ไม่ได้ติดตั้ง %(devices)s เอาไว้ คำสั่ง %(doesNotWork)s"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "โปรดทราบ! หลังทำการถอดส่วนประกอบ คุณจะไม่มีอุปกรณ์รุ่นทดลอง!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "ยกเลิก"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "ถอดส่วนประกอบ"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "ถอดส่วนประกอบ"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "ที่จะได้รับทั้งหมด:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "จะได้รับสำหรับ 1 ชิ้น:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "ถอดส่วนประกอบ\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "ถอดส่วนประกอบ\n%(name)s?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "โปรดทราบ: หลังทำการถอดชิ้นส่วน คุณจะไม่สามารถกู้คืนหรือซื้ออุปกรณ์นี้ได้"
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "ยกเลิก"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "ถอดส่วนประกอบ"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "ถอดส่วนประกอบอุปกรณ์ดังต่อไปนี้เป็นส่วนประกอบ?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "ถอดส่วนประกอบอุปกรณ์ดังต่อไปนี้แล้วยกระดับ\n%(deviceName)s?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "จะถูกถอดส่วนประกอบจากโรงเก็บ: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "จะถูกถอดส่วนประกอบจากพาหนะ: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "เมื่อทำการถอดส่วนประกอบ คุณจะได้รับ: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "ที่จะได้รับทั้งหมด:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "ค่าการยกระดับ:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "โปรดทราบ! หลังทำการถอดส่วนประกอบ คุณจะไม่มีอุปกรณ์รุ่นทดลอง!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "โปรดทราบ! อุปกรณ์รุ่นทดลองจากพาหนะของคุณจะถูกถอดส่วนประกอบ"
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "แลกเปลี่ยน"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "อุปกรณ์"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "จำเป็นต้องใช้อีก %(credits)sในการยกระดับ %(name)s"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "อุปกรณ์"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "จำเป็นต้องใช้อีก %(credits)s ในการยกระดับ"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "ไม่สามารถยกระดับอุปกรณ์ได้ คุณจำเป็นต้องมี %(gold)s เพื่อแลกเป็นเงิน"
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "คุณมีเงินพอที่จะทำการยกระดับอุปกรณ์"
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "ไม่จำเป็นต้องทำการแลกเปลี่ยน"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "คุณไม่มีอุปกรณ์รุ่นทดลองให้ทำการถอดส่วนประกอบ"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "ในการหาส่วนประกอบเพิ่ม ให้ทำการถอดส่วนประกอบอุปกรณ์รุ่นทดลอง"
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "ยกระดับ\n%(name)s?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "ต้องใช้: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "ราคา:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "ในการซื้อ"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "ในการซื้อ"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "แลกเปลี่ยน"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "อัตราแลกเปลี่ยน: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "ต้องมีอีก %(credits)s สำหรับการบำรุงรักษาเร่งด่วน"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "คำสั่ง"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "ยุทธปัจจัย"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "ชิ้นส่วน"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "อุปกรณ์"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "การปรับแต่งแบบคู่"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "จำเป็นต้องใช้ %(credits)s {action} %(name)s {type}"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "คำสั่ง"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "ยุทธปัจจัย"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "ชิ้นส่วน"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "อุปกรณ์"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "ต้องใช้อีก %(credits)s {action}{type}"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "ต้องใช้อีก %(credits)sเพื่อทำการซ่อม"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "ไม่สามารถทำการซื้อได้: การแลกเปลี่ยนล้มเหลว จำเป็นต้องใช้อีก %(gold)s สำหรับการแลกเปลี่ยน"
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "ในการซื้อ"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "สำหรับการปรับแต่ง"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "ไม่จำเป็นต้องทำการแลกเปลี่ยน คุณมีเงินพออยู่แล้ว"
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "มีเงินพอ {action}"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "จำเป็นต้องใช้อีก %(credits)s ในการเติมกระสุน"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "ซ่อมอัตโนมัติ"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "ซ่อม"
+
+msgid "dialogs/needRepair/durability"
+msgstr "ความทนทาน:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "พาหนะจะซ่อมให้โดยอัตโนมัติและไม่มีค่าใช้จ่าย"
+
+msgid "dialogs/needRepair/price"
+msgstr "ค่าการซ่อม:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "เงินไม่พอทำการซ่อม"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "รับทราบ!"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "ไม่จำเป็นต้องซ่อม"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "ซื้อเติม"
+
+msgid "dialogs/refillShells/price"
+msgstr "ค่าการซื้อเติม:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "เติมกระสุน?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "บันทึกการเปลี่ยนแปลงกับกระสุน?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "โปรดทราบ: คุณกำลังขายอุปกรณ์รุ่นปรับปรุง"
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "โปรดทราบ: หลังทำการขาย คุณจะไม่สามารถกู้คืนหรือซื้ออุปกรณ์นี้"
+
+msgid "dialogs/sell/button/cancel"
+msgstr "ยกเลิก"
+
+msgid "dialogs/sell/button/sell"
+msgstr "ขาย"
+
+msgid "dialogs/sell/header"
+msgstr "ขายอุปกรณ์ดังต่อไปนี้?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "ราคาขายสำหรับ 1 ชิ้น:"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "ทรัพยากรไม่พอสำหรับการปลด"
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "การแนะนำไม่มีให้สำหรับพาหนะคันนี้"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "ไม่สามารถติดตั้งได้"
+
+msgid "easyTankEquipView/applied"
+msgstr "ใช้แล้ว"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "ก้าวหน้า"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "รุ่นปรับปรุง"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "ปกติ"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "ยุทธปัจจัย"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "ไม่มีเตียงพอสำหรับการโอนและเปลี่ยนพลรถถัง โปรดเพิ่มเตียงในค่ายทหาร"
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "พลรถถังมีประสบการณ์"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "พลรถถังใหม่"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "จะทำการเกณฑ์ {{count}}\n สมาชิกพลรถถังใหม่"
+msgstr[1] "จะทำการเกณฑ์ {{count}}\n สมาชิกพลรถถังใหม่"
+msgstr[2] "จะทำการเกณฑ์ {{count}}\n สมาชิกพลรถถังใหม่"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "พลรถถัง"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "ก้าวหน้า"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "ปกติ"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "อุปกรณ์"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "ก้าวหน้า"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "ปกติ"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "กระสุน"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "คุณมีรูปแบบใช้อยู่แล้ว"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "{{battlesCount}} การรบในราคา {{price}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "รูปแบบพร้อมใช้งาน"
+
+msgid "easyTankEquipView/title"
+msgstr "บำรุงรักษาด่วน"
+
+msgid "effects/name"
+msgstr "ผล"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "เวลาพักใช้นั้นอยู่ที่ %(cooldown)s&nbsp; วิ"
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "หาส่วนประกอบ"
+
+msgid "filters/shown"
+msgstr "แสดงไว้: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "อุปกรณ์\nลากแล้วปล่อย"
+
+msgid "hints/filters/specialization"
+msgstr "โบนัสเพิ่มเติม\nให้กับประเภท"
+
+msgid "hints/tabs/equipment"
+msgstr "ชนิดอุปกรณ์\nใหม่"
+
+msgid "introduction/currency/deluxe"
+msgstr "พันธบัตร"
+
+msgid "introduction/currency/modernized"
+msgstr "ส่วนประกอบ"
+
+msgid "introduction/message/deluxe"
+msgstr "อุปกรณ์ชนิดนี้จะมีให้แลกด้วย %(currencyName)s (%(currencyIcon)s) คุณยังสามารถได้รับเป็นรางวัลจากความสำเร็จในเกมบางอย่างและในช่วงกิจกรรมเกมพิเศษ"
+
+msgid "introduction/message/modernized"
+msgstr "อุปกรณ์ชนิดพิเศษมีขั้นยกระดับสามขั้นที่มอบให้กับการปฏิบัติภารกิจสำเร็จและในช่วงกิจกรรมเกมบางกิจกรรม อุปกรณ์นี้ไม่สามารถถูกทำลายหรือขายได้แต่สามารถถอดชิ้นส่วนเพื่อรับชิ้นส่วนพิิเศษ %(currencyName)s (%(currencyIcon)s) ชิ้นส่วนที่ได้รับสามารถใช้ในการยกระดับอุปกรณ์รุ่นทดลองได้"
+
+msgid "introduction/message/trophy"
+msgstr "ชนิดอุปกรณ์พิเศษซึ่งเมื่อได้รับจะมีคุณลักษณะของอุปกรณ์มาตรฐานแต่สามารถยกระดับด้วยการใช้เงินได้ คุณไม่สามารถซื้ออุปกรณ์เงินรางวัลด้วยสกุลเงินในเกม แต่สามารถได้รับอุปกรณ์ดังกล่าวเป็นรางวัลในช่วงกิจกรรมพิเศษบางกิจกรรมในเกม"
+
+msgid "introduction/showButton"
+msgstr "แสดงอุปกรณ์"
+
+msgid "introduction/slide/1/description"
+msgstr "เพิ่มอุปกรณ์ใหม่เข้ามา นอกจากนี้ %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s, และ %(cycloneFilter)s ถูกรวมเข้าเป็นอุปกรณ์ %(changedConfiguration)s อุปกรณ์ใกล้เคียงของ %(forcedChassis)s ถูกแทนที่ด้วย %(forcedMetal)s โบนัสเดิมยังคงอยู่และเพิ่มโบนัสใหม่เข้ามา"
+
+msgid "introduction/slide/1/title"
+msgstr "อุปกรณ์ใหม่"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "—อำนาจการยิง"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "—ความคล่องตัว"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "—การลาดตระเวน"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "—ความสามารถในการอยู่รอด"
+
+msgid "introduction/slide/2/description"
+msgstr "ถ้าอุปกรณ์ติดตั้งบนช่องของประเภทเดียวกัน ก็จะมีประสิทธิภาพมากขึ้น ไม่เช่นนั้นก็จะให้โบนัสแบบปกติ"
+
+msgid "introduction/slide/2/subtitle"
+msgstr "ประเภทตรงกัน"
+
+msgid "introduction/slide/2/title"
+msgstr "ประเภทอุปกรณ์"
+
+msgid "introduction/slide/3/description/left"
+msgstr "ราคาอุปกรณ์ส่วนใหญ่นั้นจะไม่เกินเงิน 50,000 เหรียญสำหรับพาหนะระดับ II–IV เงิน 300,000 เหรียญสำหรับระดับ V–VII และเงิน 600,000 เหรียญสำหรับระดับ VIII–XI"
+
+msgid "introduction/slide/3/description/right"
+msgstr "อุปกรณ์ใหม่บางชิ้นจะมีชั้นอยู่สามชั้นด้วยกัน แม้ว่าชั้นจะต่างกัน ผลที่ให้ของอุปกรณ์ดังกล่าวก็จะเหมือนกัน ยิ่งชั้นสูงเท่าใด ราคาอุปกรณ์ก็จะสูงขึ้น ชั้นอุปกรณ์แต่ละชั้นจะชึ้นกับช่วงระดับของพาหนะนั้นๆ"
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "การเปลี่ยนแปลงกับอุปกรณ์"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "อุปกรณ์ใหม่"
+
+msgid "introduction/slide/3/title"
+msgstr "ราคาอุปกรณ์"
+
+msgid "introduction/slide/4/description"
+msgstr "อุปกรณ์ไม่มีให้กับพาหนะระดับ I คุณสามารถติดอุปกรณ์ได้เพียงชิ้นเดียวบนพาหนะระดับ II สองชิ้นบนพาหนระดับ III และสามชิ้นบนพาหนะระดับ IV–XI อุปกรณ์ที่ติดตั้งไว้ในช่องที่ถูกลบไปจะถูกปลดและส่งไปยังโรงเก็บแทน"
+
+msgid "introduction/slide/4/title"
+msgstr "ช่องอุปกรณ์"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "เติม CO2 ใส่ถังน้ำมัน"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "การปรับแต่งดัดแปลง"
+
+msgid "introduction/slide/confirm"
+msgstr "รับทราบ!"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "ตัวกรองไซโคลน"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "ระบบช่วงล่างรุ่นปรับปรุง"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "การเสริมความแข็งแรง"
+
+msgid "introduction/slide/repairBox"
+msgstr "กล่องเครื่องมือ"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "รางกระสุนแบบเปียก"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "อุปกรณ์รุ่นปรับปรุง"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "อุปกรณ์รุ่นทดลอง"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "อุปกรณ์เงินรางวัล"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "คุณไม่มีอุปกรณ์รุ่นทดลองที่เหมาะสม"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "คุณไม่มีอุปกรณ์เงินรางวัลที่เหมาะสม"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "ให้กับเวลาหน่วงก่อนผู้การระบุว่าพาหนะของคุณถูกพบโดยข้าศึกหรือไม่"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "ให้เวลามึนงงเพิ่มเติมถ้าพาหนะมึนงงอยู่แล้ว"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "ให้การซ่อนตัวของพาหนะข้าศึกหลังพุ่มไม้ (ทั้งแล่นและอยู่นิ่ง)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "ให้ความเร็วกระสุนสำหรับกระสุนทุกชนิด"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "ให้กับผลเสียเวลาบรรจุเมื่อชิ้นส่วนได้รับความเสียหาย"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "ให้กับการเสียกำลังเครื่องยนต์เมื่อชิ้นส่วนได้รับความเสียหาย"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "ให้การอำพรางตัวของพาหนะที่อยู่นิ่งหรือกำลังแล่น"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "ให้กับการเพิ่มการอำพรางไม่ว่าพาหนะจะอยู๋นิ่งหรือแล่น (ประสิทธิภาพจะขึ้นกับชนิดของพาหนะ)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "ให้ความเสียหายตัวถังที่เกิดจากช่วงล่างเมื่อมีการกระแทก"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "ให้ระยะการมองเห็น (มากถึง 445 ม.) การเพิ่มค่าเกิน 445 ม.จะทำให้ตรวจจับข้าศึกที่อยู่ในระยะได้อย่างมีประสิทธิภาพมากขึ้น"
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "ให้กับความเสียหายเมื่อกระแทก"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "ให้กับการกระจายขของกระสุนหากยิงขณะแล่นหรือหมนุตัวถังรวมไปถึงการยิงขณะหมุนปืนหรือหลังการยิง"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "ให้กับความเสียหายกระสุนระเบิดแรงสูงที่เกราะซับไว้ได้"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "ให้กับระยะเวลาที่พาหนะของคุณจะปรากฎ"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "ให้กับการรักษาความเร็ว\nเมื่อแล่นข้ามทุกภูมิประเทศ"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "ให้การอำพรางของพาหนะที่อยู่นิ่งตั้งแต่ 3 วินาทีหลังจากที่ได้หยุดรถ"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "ให้การอำพรางของพาหนะที่อยู่นิ่ง\nตั้งแต่ 1.5 วินาทีหลังจากที่ได้หยุดรถ"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "ให้กับการอำพรางของพาหนะที่อยู่นิ่งตั้งแต่ 3 วินาทีหลังจากที่ได้หยุดอยู่นิ่ง (ประสิทธิภาพจะขึ้นกับชนิดของพาหนะ)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "ให้กับการอำพรางของพาหนะที่อยู่นิ่งตั้งแต่ 1.5 วินาทีหลังจากที่ได้หยุดอยู่นิ่ง (ประสิทธิภาพจะขึ้นกับชนิดของพาหนะ)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "ให้กับระยะการมองเห็นของพาหนะที่อยู่นิ่งเป็นเวลา 3 วินาทีขึ้นไป (ได้ถึง 445 ม.) การเพิ่มค่าเกิน 445 ม.จะทำให้ตรวจจับข้าศึกที่อยู่ในระยะได้อย่างมีประสิทธิภาพมากขึ้น"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "ให้กับระยะการมองเห็นของพาหนะที่อยู่นิ่งเป็นเวลา 1.5 วินาทีขึ้นไป (ได้ถึง 445 ม.) การเพิ่มค่าเกิน 445 ม.จะทำให้ตรวจจับข้าศึกที่อยู่ในระยะได้อย่างมีประสิทธิภาพมากขึ้น"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "ให้ความทนทานของพาหนะ (ปัดเศษขึ้น)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "ให้ความเร็วการหมุนป้อมปืนหรือการหมุนปืนสำหรับพาหนะที่ไม่มีป้อมปืน"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "ให้กับเวลาหน่วงก่อนผู้การระบุว่าพาหนะของคุณถูกพบโดยข้าศึกหรือไม่"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "ให้เวลามึนงงเพิ่มเติมถ้าพาหนะมึนงงอยู่แล้ว"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "ให้กับการอำพรางของทั้งข้าศึกที่กำลังแล่นและกำลังซ่อนหลังพุ่มไม้"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "ให้ความเร็วกระสุนสำหรับกระสุนทุกชนิด"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "ให้กับผลเสียเวลาบรรจุเมื่อชิ้นส่วนได้รับความเสียหาย"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "ให้กับการเสียกำลังเครื่องยนต์เมื่อชิ้นส่วนได้รับความเสียหาย"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "ให้การอำพรางตัวของพาหนะที่อยู่นิ่งหรือกำลังแล่น"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "ให้กับการเพิ่มการอำพรางไม่ว่าพาหนะจะอยู่นิ่งหรือกำลังแล่น (ประสิทธิภาพนั้นขึ้นกับชนิดของพาหนะ)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "ให้ความเสียหายตัวถังที่เกิดจากช่วงล่างเมื่อมีการกระแทก"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "ให้ระยะการมองเห็น (มากถึง 445 ม.) การเพิ่มค่าเกิน 445 ม.จะทำให้ตรวจจับข้าศึกได้มีประสิทธิภาพขึ้น"
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "ให้กับความเสียหายเมื่อกระแทก"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "ให้กับการกระจายขของกระสุนหากยิงขณะแล่นหรือหมนุตัวถังรวมไปถึงการยิงขณะหมุนปืนหรือหลังการยิง"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "ให้กับความเสียหายกระสุนระเบิดแรงสูงที่เกราะซับไว้ได้"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "ให้กับระยะเวลาที่พาหนะของคุณจะปรากฎ"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "ให้กับการรักษาความเร็ว\nเมื่อแล่นข้ามทุกภูมิประเทศ"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "ให้การอำพรางของพาหนะที่อยู่นิ่งตั้งแต่ 3 วินาทีหลังจากที่ได้หยุดรถ"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "ให้การอำพรางของพาหนะที่อยู่นิ่ง\nตั้งแต่ 1.5 วินาทีหลังจากที่ได้หยุดรถ"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "ให้กับการอำพรางพาหนะที่อยู่นิ่งตั้งแต่ 3 วินาทีขึ้นไป (ประสิทธิภาพจะขึ้นกับชนิดของพาหนะ)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "ให้กับการอำพรางพาหนะที่อยู่นิ่งตั้งแต่ 1.5 วินาทีขึ้นไป (ประสิทธิภาพจะขึ้นกับชนิดของพาหนะ)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "ให้กับระยะการมองเห็นของพาหนะที่อยู่นิ่งตั้งแต่ 3 วินาทีหลังจากที่ได้หยุดอยู่นิ่ง (ได้ถึง 445 ม.) การเพิ่มค่าเกิน 445 ม.จะทำให้ตรวจจับข้าศึกได้ดียิ่งขึ้น"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "ให้กับระยะการมองเห็นของพาหนะที่อยู่นิ่งเป็นเวลา 1.5 วินาทีขึ้นไป (ได้ถึง 445 ม.) การเพิ่มค่าเกิน 445 ม.จะทำให้ตรวจจับข้าศึกที่อยู่ในระยะได้อย่างมีประสิทธิภาพมากขึ้น"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "ให้ความทนทานของพาหนะ (ปัดเศษขึ้น)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "ให้ความเร็วการหมุนป้อมปืนหรือการหมุนปืนสำหรับพาหนะที่ไม่มีป้อมปืน"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "เวลาหน่วงก่อนการเปิดใช้\nการตรวจจับเสียง"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "ให้เวลาหน่วงก่อนระบุว่าถูกพบโดยข้าศึก"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "ให้กับความเร็วการหล่อเย็นปืน"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "ในการป้องกันพลรถถังจากการได้รับบาดเจ็บ"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "ให้เวลามึนงงเพิ่มเติม"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "ให้เวลามึนงง"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "ให้กับความเสียหาย\nและการเจาะเกราะต่ำสุดที่เป็นไปได้"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "ให้กับความเสียหาย\nและการเจาะเกราะสูงสุดที่เป็นไปได้"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "ให้กับความเสียหายการพุ่งชนที่ทำได้"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "เวลาหน่วงก่อนจะแสดงความเสียหายร้ายแรง\nของพาหนะในศูนย์เล็ง"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "ให้การซ่อนตัวของพาหนะข้าศึกหลังพุ่มไม้"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "ให้การซ่อนตัวของพาหนะข้าศึก"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "ให้กับโอกาสในการทำให้ชิ้นส่วน\nและพลรถถังข้าศึกเสียหาย"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "ให้กับเวลาพักใช้ยุทธปัจจัย"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "ให้ความเร็วการดับเพลิง"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "ให้การอำพรางหลังพุ่มไม้"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "ให้กับความทนทานคืนให้โดยชุดซ่อมแซม"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "ให้กับการรักษาความเร็ว\nบนภูมิประเทศค่อนข้างอ่อน"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "ให้กับผลเสียกับระยะการมองเห็นเมื่ออุปกรณ์\nสังเกตการณ์เสียหาย"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "ให้กับศักยภาพเจาะเกราะสูงสุด"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "ให้เวลารายงานตำแหน่ง\nพาหนะข้าศึก\nหลังถูกทำลาย"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "ให้กับการป้องกันพลวิทยุ\nบาดเจ็บ"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "ให้ความเร็วกระสุน"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "ให้กับการรักษาความเร็ว\nบนภูมิประเทศอ่อน"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "ให้กับผลเสีย\nจากการมึนงงของพลรถถัง"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "ให้กับความเสียหายต่อช่วงล่างที่กำลังเข้ามา"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "ให้กับความเร็วการซ่อมช่วงล่าง"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "ให้กับผลเสียความเร็วบรรจุกระสุน"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "ให้กับผลเสียของเครื่องยนต์ที่เสียหาย"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "ให้กับความเร็วการหมุนตัวถัง"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "ให้กับความทนทานชิ้นส่วนภายใน"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "ให้ความทนทานรางกระสุน"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "ให้กับความเร็วถอยหลังสูงสุด"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "ให้กับการอำพรางตัว"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "ให้กับการเพิ่มค่าอำพรางตัว"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "ให้กับความเสียหายจากการกระแทก"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "ให้กับความเร็วการซ่อมช่วงล่าง"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "ให้กับความทนทานช่วงล่าง"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "ให้กับระยะการมองเห็น"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "ให้กับระยะเวลาที่พาหนะข้าศึก\nปรากฎให้คุณเห็น"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "ให้กำลังเครื่องยนต์"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "ให้กับความเสียหายจากการกระแทก"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "ให้โอกาสเครื่องยนต์ไฟไหม้"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "ให้ความเร็วเดินหน้าสูงสุด"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "ให้กับโอกาสที่จะเกิดความเสียหายร้ายแรง\nกับถังเชื้อเพลิง"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "ให้กับความเร็วการเล็ง"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "ให้กับเวลาบรรจุ"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "ให้กับการกระจายเมื่อพาหนะแล่นหรือหมุนตัว"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "ให้กับวงการเล็งหลังยิง"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "ให้กับการกระจายระหว่างแล่น"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "ให้กับการกระจายระหว่างหมุนตัวถัง"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "ให้กับการกระจายระหว่างหมุนปืน"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "ให้กับการกระจายของปืนที่เสียหาย"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "ให้กับขนาดวงกลมการเล็ง"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "ให้กับความเสียหายกระสุนระเบิดแรงสูง"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "ให้กับการอำพรางหลังทำการยิง"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "ให้ระยะเวลาที่พาหนะของคุณปรากฎ"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "ให้กับความเสียหายการพุ่งชน\nที่ช่วงล่างได้รับ"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "ให้กับความเสียหายจากการถูกพุ่งชน"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "ให้กับความเร็วการเปลี่ยนชนิดกระสุน\nในปืนที่บรรจุกระสุนอยู่แล้ว"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "ให้ความเร็วการซ่อม"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "ให้กับการรักษาความเร็วเมื่อแล่นบนทุกภูมิประเทศ"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "ให้การอำพรางของพาหนะอยู่นิ่ง"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "ให้การอำพรางของพาหนะอยู่นิ่ง"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "ให้กับการอำพรางของพาหนะอยู่นิ่ง"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "ให้กับการอำพรางของพาหนะอยู่นิ่ง"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "ให้กับระยะการมองเห็นของพาหนะอยู่นิ่ง"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "ให้กับระยะการมองเห็นของพาหนะอยู่นิ่ง"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "ให้ความทนทานพาหนะ"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "ให้ความเร็วการหมุนป้อมปืนหรือการหมุนปืนสำหรับพาหนะที่ไม่มีป้อมปืน"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "ให้ความเร็วการหมุนป้อมปืน"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "ให้กับความเร็วการเลี้ยวล้อ"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "ให้กับพลเสียเมื่อสมาชิกพลรถถัง\nได้รับบาดเจ็บยกเว้นผู้การรถถัง"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "เวลาหน่วงก่อนการเปิดใช้\nการตรวจจับเสียง"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "เวลาหน่วงก่อนจะแสดงความเสียหายร้ายแรง\nของพาหนะในศูนย์เล็ง"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "เวลาของการตรวจจับข้าศึก\nหลังถูกทำลาย"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "ให้กับความเสียหายกระสุนระเบิดแรงสูง"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "ให้กับการเจาะเกราะกระสุนระเบิดแรงสูง"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "ให้กับความเร็วกระสุนระเบิดแรงสูง"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "ให้พิกัดบรรทุกกระสุน"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "ให้ความเสียหายกระสุนทุกแบบ"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "ให้ความเร็วกระสุนสำหรับกระสุนทุกชนิด"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "เวลาหน่วงก่อนการเปิดใช้\nการตรวจจับเสียง"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "ให้ความเสียหายกระสุนมาตรฐาน"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "ให้เวลาหน่วงก่อนระบุว่าถูกพบโดยข้าศึก"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "ให้กับความเร็วการหล่อเย็นปืน"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "ในการป้องกันพลรถถังจากการได้รับบาดเจ็บ"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "ให้เวลามึนงงเพิ่มเติม"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "ให้เวลามึนงง"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "ให้กับความเสียหายและการเจาะเกราะต่ำสุดที่เป็นไปได้"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "ให้กับความเสียหาย\nและการเจาะเกราะสูงสุดที่เป็นไปได้"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "ให้กับความเสียหายการพุ่งชนที่ทำได้"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "เวลาหน่วงก่อนจะแสดงความเสียหายร้ายแรง\nของพาหนะในศูนย์เล็ง"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "ให้การซ่อนตัวของพาหนะข้าศึกหลังพุ่มไม้"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "ให้การซ่อนตัวของพาหนะข้าศึก"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "ให้กับโอกาสในการทำให้ชิ้นส่วน\nและพลรถถังข้าศึกเสียหาย"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "ให้ความทนทานเครื่องยนต์"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "ให้กับเวลาพักใช้ยุทธปัจจัย"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "ให้ความเร็วการดับเพลิง"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "ให้การอำพรางหลังพุ่มไม้"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "ให้ความทนทานถังน้ำมัน"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "ให้มุมกดปืน"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "ให้มุมยกปืน"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "ให้การปรับเสถียรปืน"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "ให้มุมจำกัดการหันปืน"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "ให้กับความทนทานคืนให้โดยชุดซ่อมแซม"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "ให้ความเร็วการยกตัวถัง"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "ให้กับการรักษาความเร็ว\nบนภูมิประเทศค่อนข้างอ่อน"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "ให้ความเสียหายกระสุนที่ไม่ใช่ระเบิดแรงสูง"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "ให้กับผลเสียต่อการมองเห็นเมื่ออุปกรณ์\nสังเกตการณ์เสียหาย"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "ให้กับศักยภาพเจาะเกราะสูงสุด"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "ให้เวลารายงานตำแหน่ง\nพาหนะข้าศึก\nหลังถูกทำลาย"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "ให้กับการป้องกันพลวิทยุ\nบาดเจ็บ"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "ให้เวลาบรรจุระหว่างโม่"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "ให้เวลาบรรจุ (รูปแบบระดมยิง)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "ให้เวลาบรรจุ (รูปแบบยิงทีละนัด)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "ให้ความเสียหายกระสุนต่อชิ้นส่วนข้าศึก"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "ให้ความเร็วกระสุน"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "ให้กับการรักษาความเร็ว\nบนภูมิประเทศอ่อน"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "ให้ความเสียหายกระสุนพิเศษ"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "ให้การเจาะเกราะกระสุนพิเศษ"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "ให้ความเร็วกระสุนพิเศษ"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "ให้ความเสียหายกระสุนมาตรฐาน"
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "ให้การเจาะเกราะกระสุนมาตรฐาน"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "ให้ความเร็วกระสุนมาตรฐาน"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "ให้กับผลเสียจากการมึนงงของพลรถถัง"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "ให้กับความเสียหายต่อช่วงล่างที่กำลังเข้ามา"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "ให้กับความเร็วการซ่อมช่วงล่าง"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "ให้มุมจำกัดการหมุนป้อมปืน"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "ให้กับผลเสียความเร็วบรรจุกระสุน"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "ให้กับผลเสียของเครื่องยนต์ที่เสียหาย"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "ให้กับความเร็วการหมุนตัวถัง"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "ให้กับความทนทานชิ้นส่วนภายใน"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "ให้ความทนทานรางกระสุน"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "ให้กับความเร็วถอยหลังสูงสุด"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "ให้กับการอำพรางตัว"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "ให้กับการเพิ่มค่าอำพรางตัว"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "ให้กับความเสียหายเมื่อกระแทก"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "ให้กับความเร็วการซ่อมช่วงล่าง"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "ให้กับความทนทานช่วงล่าง"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "ให้กับระยะการมองเห็น (ถึง 445 ม.)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "ให้กับระยะเวลาที่พาหนะข้าศึก\nปรากฎให้คุณเห็น"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "ให้กำลังเครื่องยนต์"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "ให้กับความเสียหายจากการกระแทก"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "ให้โอกาสเครื่องยนต์ไฟไหม้"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "ให้ความเร็วเดินหน้าสูงสุด"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "ให้กับโอกาสที่จะเกิดความเสียหายร้ายแรง\nกับถังเชื้อเพลิง"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "ให้กับความเร็วการเล็ง"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "ให้กับเวลาบรรจุ"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "ให้กับการกระจายเมื่อพาหนะแล่นหรือหมุนตัว"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "ให้กับขนาดวงการเล็งหลังทำการยิง"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "ให้กับการกระจายระหว่างแล่น"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "ให้กับการกระจายระหว่างหมุนตัวถัง"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "ให้กับการกระจายระหว่างหมุนปืน"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "ให้กับการกระจายของปืนที่เสียหาย"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "ให้กับขนาดวงการเล็ง"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "ให้กับความเสียหายกระสุนระเบิดแรงสูง"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "ให้กับการอำพรางหลังทำการยิง"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "ให้ระยะเวลาที่พาหนะของคุณปรากฎ"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "ให้กับความเสียหายการพุ่งชน\nที่ช่วงล่างได้รับ"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "ให้กับความเสียหายจากการถูกพุ่งชน"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "ให้กับความเร็วการเปลี่ยนชนิดกระสุน\nในปืนที่บรรจุกระสุนอยู่แล้ว"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "ให้ความเร็วการซ่อม"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "ให้ความเร็วเดินหน้า/ถอยหลังสูงสุด"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "ให้กับการรักษาความเร็วเมื่อแล่นบนทุกภูมิประเทศ"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "ให้การอำพรางของพาหนะอยู่นิ่ง"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "ให้การอำพรางของพาหนะอยู่นิ่ง"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "ให้กับการเพิ่มการอำพรางพาหนะอยู่นิ่ง"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "ให้กับการเพิ่มการอำพรางพาหนะอยู่นิ่ง"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "ให้ระยะการมองเห็นของพาหนะอยู่นิ่ง (ถึง 445 ม.)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "ให้ระยะการมองเห็นของพาหนะอยู่นิ่ง (ถึง 445 ม.)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "ให้ความทนทานพาหนะ"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "ให้ความเร็วการหมุนป้อมปืนหรือการหมุนปืนสำหรับพาหนะที่ไม่มีป้อมปืน"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "ให้ความเร็วการหมุนป้อมปืน"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "ให้กับความเร็วการเลี้ยวล้อ"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "ให้กับผลเสียเมื่อสมาชิกพลรถถังได้รับบาดเจ็บ\nยกเว้นผู้การรถถัง"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "ให้เวลาหน่วงก่อนระบุว่าถูกพบโดยข้าศึก"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "ให้กับการป้องกันพลรถถัง\nบาดเจ็บ"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "ให้เวลามึนงงเพิ่มเติม"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "ให้เวลามึนงง"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "ให้กับความเสียหายการพุ่งชนที่ทำได้"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "เวลาหน่วงก่อนจะแสดงความเสียหายร้ายแรง\nของพาหนะในศูนย์เล็ง"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "ให้การอำพรางของพาหนะข้าศึก\nหลังพุ่มไม้"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "ให้การอำพรางของพาหนะข้าศึก\nกำลังแล่น"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "ให้กับความทนทานคืนให้โดยชุดซ่อมแซม"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "ให้กับเวลาบรรจุซองกระสุน"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "ให้กับศักยภาพเจาะเกราะสูงสุด"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "ให้กับการป้องกันพลวิทยุจากการได้รับบาดเจ็บ"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "ให้ความเร็วกระสุนสำหรับกระสุนทุกชนิด"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "ให้กับการกระจายกระสุน"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "ให้กับความเร็วการซ่อมช่วงล่าง"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "ให้กับการกระจายระหว่างหมุนปืน"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "ให้กับผลเสียความเร็วบรรจุกระสุน"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "ให้กับการเสียกำลังเครื่องยนต์\nเมื่อเสียหาย"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "ให้ความเร็วการหมุนตัวพาหนะ"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "ให้กับความทนทานชิ้นส่วนภายใน"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "ให้ความทนทานรางกระสุน"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "ให้กับความเร็วถอยหลังสูงสุด"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "ให้กับการอำพรางตัว"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "ให้กับความเสียหายจากการกระแทก"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "ให้กับความเร็วการซ่อมช่วงล่าง"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "ให้กับความทนทานช่วงล่าง"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "ให้กับระยะการมองเห็น"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "ให้กับระยะเวลาที่พาหนะข้าศึก\nปรากฎให้คุณเห็น"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "ให้กำลังเครื่องยนต์"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "ให้กับความเสียหายจากการกระแทก"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "ให้โอกาสเครื่องยนต์ไฟไหม้"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "ให้ความเร็วเดินหน้าสูงสุด"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "ให้กับความเร็วการเล็ง"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "ให้กับเวลาบรรจุ"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "ให้กับการกระจายเมื่อพาหนะแล่นหรือหมุนตัว"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "ให้กับขนาดวงการเล็งหลัง\nทำการยิง"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "ให้กับการกระจายระหว่างแล่น"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "ให้กับการกระจายระหว่างหมุนตัวถัง"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "ให้กับการกระจายขณะ\nหมุนปืน "
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "ให้กับการกระจายของปืนที่เสียหาย"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "ให้กับขนาดวงกลมการเล็ง"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "ให้กับความเสียหายกระสุนระเบิดแรงสูง"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "ให้กับการอำพรางหลังทำการยิง"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "ให้ระยะเวลาที่พาหนะของคุณปรากฎ"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "ให้กับความเสียหายจากการถูกพุ่งชน"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "ให้กับความเร็วการเปลี่ยนชนิดกระสุน"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "ให้ความเร็วการซ่อม"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "ให้การรักษาความเร็ว"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "ให้กับการอำพรางของพาหนะ\nอยู่นิ่ง"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "ให้กับการอำพรางของพาหนะ\nอยู่นิ่ง"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "ให้กับระยะการมองเห็น"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "ให้กับระยะการมองเห็น"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "ให้ความทนทานพาหนะ"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "ให้กับความเร็วการหมุนปืน"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "ให้ความเร็วการหมุนป้อมปืน"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "ให้กับผลเสียเมื่อสมาชิกพลรถถังได้รับบาดเจ็บ\nยกเว้นผู้การรถถัง"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "ให้เวลาหน่วงก่อนระบุว่าถูกพบโดยข้าศึก"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "ให้กับการป้องกันพลรถถัง\nบาดเจ็บ"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "ให้โบนัสประสิทธิภาพพลรถถัง"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "ให้เวลามึนงงเพิ่มเติม"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "ให้เวลามึนงง"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "ให้กับความเสียหาย\nและการเจาะเกราะต่ำสุดที่เป็นไปได้"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "ให้กับความเสียหายการพุ่งชนที่ทำได้"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "ให้การอำพรางของพาหนะข้าศึก\nหลังพุ่มไม้"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "ให้การอำพรางของพาหนะข้าศึก\nกำลังแล่น"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "ให้กับโอกาสในการทำให้ชิ้นส่วนและ\nพลรถถังข้าศึกเสียหาย"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "ให้ความเร็วการดับเพลิง"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "ให้กับความทนทานคืนให้โดยชุดซ่อมแซม"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "ให้กับเวลาบรรจุซองกระสุน"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "ให้กับการอำพรางขอพาหนะ"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "ให้กับการรักษาความเร็ว\nบนภูมิประเทศค่อนข้างอ่อน"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "ให้กับศักยภาพเจาะเกราะสูงสุด"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "ให้กับระยะสัญญาณวิทยุ"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "ให้กับการป้องกันพลวิทยุจากการได้รับบาดเจ็บ"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "ให้ความเร็วกระสุนสำหรับกระสุนทุกชนิด"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "ให้กับการรักษาความเร็ว\nบนภูมิประเทศอ่อน"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "ให้กับความเร็วการซ่อมช่วงล่าง"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "ให้กับระยะสัญญาณของพันธมิตรในระยะส่งของวิทยุ"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "ให้กับผลเสียความเร็วบรรจุกระสุน"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "ให้กับการเสียกำลังเครื่องยนต์\nเมื่อเสียหาย"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "ให้ความเร็วการหมุนตัวพาหนะ"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "ให้กับความทนทานชิ้นส่วนภายใน"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "ให้ความทนทานรางกระสุน"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "ให้กับความเร็วถอยหลังสูงสุด"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "ให้กับการอำพรางตัว"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "ให้กับความเสียหายเมื่อกระแทก"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "ให้กับความเร็วการซ่อมช่วงล่าง"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "ให้กับความทนทานช่วงล่าง"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "ให้กับระยะการมองเห็น\n(ถึง 445 ม.)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "ให้กับระยะเวลาที่พาหนะข้าศึก\nปรากฎให้คุณเห็น"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "ให้กำลังเครื่องยนต์"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "ให้กับความเสียหายจากการกระแทก"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "ให้โอกาสเครื่องยนต์ไฟไหม้"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "ให้ความเร็วเดินหน้าสูงสุด"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "ให้กับความเร็วการเล็ง"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "ให้กับเวลาบรรจุ"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "ให้กับการกระจายขณะเคลื่อน\nและหมุนพาหนะ"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "ให้กับขนาดวงการเล็งหลัง\nทำการยิง"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "ให้กับการกระจายระหว่างแล่น"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "ให้กับการกระจายระหว่างหมุนตัวถัง"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "ให้กับการกระจายขณะ \nหมุนปืน"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "ให้กับการกระจายของปืนที่เสียหาย"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "ให้กับขนาดวงการเล็ง"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "ให้กับความเสียหายกระสุนระเบิดแรงสูง"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "ให้กับการอำพรางหลังทำการยิง"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "ให้ระยะเวลาที่พาหนะของคุณปรากฎ"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "ให้กับความเสียหายจากการถูกพุ่งชน"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "ให้กับความเร็วการเปลี่ยนชนิดกระสุน"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "ให้ความเร็วการซ่อม"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "ให้การรักษาความเร็ว"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "ให้การอำพรางของพาหนะอยู่นิ่ง"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "ให้การอำพรางของพาหนะอยู่นิ่ง"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "ให้ระยะการมองเห็นของพาหนะอยู่นิ่ง\n(ถึง 445 ม.)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "ให้ระยะการมองเห็นของพาหนะอยู่นิ่ง\n(ถึง 445 ม.)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "ให้ความทนทานพาหนะ"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "ให้กับความเร็วการหมุนปืน"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "ให้ความเร็วการหมุนป้อมปืน"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "ให้กับประสบการณ์พลรถถังที่ได้รับในการรบ"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "วิ"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "วิ"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "วิ"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "วิ"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "กม./ชม."
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "วิ"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "กม./ชม."
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "วิ"
+
+msgid "popularLoadouts/common"
+msgstr "เป็นที่นิยม"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "ใช้อย่างแพร่หลาย"
+
+msgid "popularLoadouts/legendary"
+msgstr "ตำนาน"
+
+msgid "popularLoadouts/noData"
+msgstr "ไม่มีข้อมูลให้"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "ไม่มีข้อมูลให้"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)sเป็นที่นิยม%(whiteSpanish_Close)sปรับตามแนวโน้มการติดตั้งอุปกรณ์ของผู้เล่น World of Tanks โดยรวม"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "การเก็บข้อมูล"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "ถ้าข้อมูลฤดูกาลการบุกรุกปัจจุบันยังไม่มีให้ ก็จะใช้ข้อมูลจากฤดูกาลก่อนหน้าแทน"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "ผู้ช่วยนั้นมีให้สำหรับ %(whiteSpanish_Open)sการรบแบบสุ่ม%(whiteSpanish_Close)sและ%(whiteSpanish_Open)sการบุกรุก%(whiteSpanish_Close)s"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "จะทำการรวบรวมข้อมูลจากชนิดอุปกรณ์ทั้งหมด"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "สิทธิประโยชน์ WoT Plus"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "รับข้อมูลอุปกรณ์ที่แม่นยำโดยมีฐานจากการเล่นนับล้านครั้งและได้รับประโยชน์จากการรบทุกครั้งมากที่สุด"
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "ผู้ช่วยอุปกรณ์"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sตำนาน%(whiteSpanish_Close)sมาจากอุปกรณ์ที่กำลังเป็นที่นิยมโดยผู้เล่นที่มีอัตราชนะระดับตำนาน"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "ชนิดการติดตั้งอุปกรณ์"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "การติดที่เสนอไว้นั้นมาจากการติดที่กำลังเป็นที่นิยมสำหรับพาหนะที่มีแนวการเล่นเหมือนกัน"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "จะทำการแสดงข้อมูลสำหรับพาหนะที่มีแนวการเล่นเดียวกันไว้ที่ด้านล่าง:"
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "ไม่มีข้อมูลการติดตั้งให้"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "พาหนะที่เลือกเอาไว้ไม่มีให้สำหรับรูปแบบเกมนี้"
+
+msgid "section/battleAbilities"
+msgstr "กำลังสำรองรบ"
+
+msgid "section/battleBoosters"
+msgstr "คำสั่ง"
+
+msgid "section/consumables"
+msgstr "ยุทธปัจจัย"
+
+msgid "section/modules"
+msgstr "ชิ้นส่วน"
+
+msgid "section/optDevices"
+msgstr "อุปกรณ์"
+
+msgid "section/shells"
+msgstr "กระสุน"
+
+msgid "section/toggleCamouflage"
+msgstr "ลายพราง"
+
+msgid "section/toggleShells"
+msgstr "กระสุน"
+
+msgid "shells/ammunitionFull"
+msgstr "กระสุนเต็ม"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "กระสุนไม่ครบ"
+
+msgid "shells/autoFillOff"
+msgstr "ปิดการซื้อเติมอัตโนมัติเอาไว้"
+
+msgid "shells/autofillOn"
+msgstr "เปิดการซื้อเติมอัตโนมัติเอาไว้"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "ในโรงเก็บ:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "ในรางกระสุน:"
+
+msgid "shells/shortSpecification/price"
+msgstr "ซื้อ:"
+
+msgid "shells/specification/inStorage"
+msgstr "ในโรงเก็บ"
+
+msgid "shells/specification/inVehicle"
+msgstr "ในรางกระสุน"
+
+msgid "shells/specification/price"
+msgstr "ซื้อ"
+
+msgid "shells/title"
+msgstr "กระสุน"
+
+msgid "shells/type/base"
+msgstr "มาตรฐาน (AP)"
+
+msgid "shells/type/special"
+msgstr "พิเศษ (HE)"
+
+msgid "shells/type/tactical"
+msgstr "ยุทธวิธี (APCR)"
+
+msgid "tabs/crew"
+msgstr "สำหรับพลรถถัง"
+
+msgid "tabs/deluxe"
+msgstr "รุ่นปรับปรุง"
+
+msgid "tabs/modernized"
+msgstr "รุ่นทดลอง"
+
+msgid "tabs/optDevice"
+msgstr "สำหรับอุปกรณ์"
+
+msgid "tabs/simple"
+msgstr "ปกติ"
+
+msgid "tabs/trophy"
+msgstr "เงินรางวัล"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "คำสั่งดังกล่าวจะถูกเติมโดยอัตโนมัติหลังจากที่พาหนะออกจากการรบ โดยจะถูกดึงจากโรงเก็บ (ถ้าคุณมีคำสั่งสำรองเอาไว้) หรือซื้อด้วยสกุลเงินในเกม"
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "ยุทธปัจจัยจะเติมโดยอัตโนมัติถ้าจำเป็นหลังจากพาหนะออกจากการรบแล้ว"
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "การซ่อมจะเกิดขึ้นโดยอัตโนมัติถ้าจำเป็นหลังจากพาหนะออกจากการรบแล้ว"
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "กระสุนจะเติมโดยอัตโนมัติถ้าจำเป็นหลังจากพาหนะออกจากการรบแล้ว"
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "ซื้อเติมอัตโนมัติ"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "ซ่อมอัตโนมัติ"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "จะถูกถอดส่วนประกอบจากโรงเก็บ: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "จะถูกถอดส่วนประกอบจากพาหนะ: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "คลิกเพื่อซื้ออุปกรณ์เพิ่มเติมสำหรับช่องนี้"
+
+msgid "tooltips/action/description/demount"
+msgstr "คลิกเพื่อปลดอุปกรณ์จากช่องนี้"
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "คลิกเพื่อปลดอุปกรณ์จากช่องนี้"
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "คลิกเพื่อทำการปลดอุปกรณ์จากการตั้งค่าทุกแบบ"
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "คลิกเพื่อปลดอุปกรณ์จากช่องนี้ได้ฟรีด้วยการสมัคร WoT Plus ของคุณที่ใช้งานอยู่"
+
+msgid "tooltips/action/description/destroy"
+msgstr "คลิกเพื่อทำลายอุปกรณ์จากช่องนี้หรือปลดได้ฟรีถ้าคุณมีการสมัคร WoT Plus ที่ใช้งานอยู่"
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "คลิกเพื่อถอดส่วนประกอบอุปกรณ์เป็นส่วนประกอบ"
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "คลิกเพื่อทำลายอุปกรณ์ในช่องนี้"
+
+msgid "tooltips/action/description/swap"
+msgstr "คลิกเพื่อสลับช่องติดตั้งอุปกรณ์"
+
+msgid "tooltips/action/description/upgrade"
+msgstr "การปรับปรุงจะเพิ่มค่าคุณลักษณะของอุปกรณ์ให้"
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "การปรับปรุงจะเพิ่มค่าคุณลักษณะของอุปกรณ์ให้"
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "การปรับปรุงจะเพิ่มค่าคุณลักษณะของอุปกรณ์ให้"
+
+msgid "tooltips/action/title/add_one"
+msgstr "ซื้อ"
+
+msgid "tooltips/action/title/cancel"
+msgstr "ส่งไปโรงเก็บ"
+
+msgid "tooltips/action/title/demount"
+msgstr "ปลด"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "ปลด"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "ปลดจากการตั้งค่าทุกแบบ"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "ปลดได้ฟรี"
+
+msgid "tooltips/action/title/destroy"
+msgstr "ทำลาย"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "ถอดส่วนประกอบ"
+
+msgid "tooltips/action/title/swap"
+msgstr "เปลี่ยนลำดับ"
+
+msgid "tooltips/action/title/undo"
+msgstr "ปลดจากช่อง"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "ยกระดับ"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "ยกระดับ"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "ยกระดับ"
+
+msgid "tooltips/additional"
+msgstr "ข้อมูลเพิ่มเติม"
+
+msgid "tooltips/categories/list"
+msgstr "คลิกเพื่อดูรายชื่อชิ้นส่วน"
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "ประเภทช่องนี้สามารถถูกจัดใหม่ได้ในรายการการปรับแต่งภาคสนามหรือในหน้าจอการเลือกอุปกรณ์"
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "ประเภทจัดใหม่ได้"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "คลิกเพื่อจัดประเภทช่องใหม่"
+
+msgid "tooltips/equipmentList"
+msgstr "คลิกเพื่อดูรายการของอุปกรณ์ที่ใช้ได้"
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "ไม่สามารถถอดอุปกรณ์รุ่นทดลองเป็นส่วนประกอบได้: คุณไม่มีอุปกรณ์ชนิดนี้อยู่"
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "คลิกเพื่อทำการถอดอุปกรณ์เป็นส่วนประกอบ"
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "เมื่อติดตั้งเอาไว้ อุปกรณ์เหล่านี้จะมอบโบนัสปกติเพราะมีเพียงยานพิฆาตรถถังและปืนอัตตาจรช่องประเภทอำนาจการยิงและอุปกรณ์นี้ไม่ได้ติดตั้งในช่องประเภทอำนาจการยิง"
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "พาหนะของคุณได้รับโบนัสคุณลักษณะเพิ่ม"
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "ในการเพิ่มโบนัสคุณลักษณะ ให้ติดตั้งอุปกรณ์นี้ในช่องที่มีหนึ่งในประเภทดังต่อไปนี้: %(category)s"
+
+msgid "tooltips/howToIncrease/single"
+msgstr "ในการเพิ่มโบนัสคุณลักษณะ ให้ติดตั้งอุปกรณ์นี้ในช่องที่มีประเภทดังต่อไปนี้: %(category)s"
+
+msgid "tooltips/placeEquipment"
+msgstr "ช่องอุปกรณ์"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "คุณสามารถเปิด/ปิดตัวเลือกสำหรับการเลือกชุดกระสุนและยุทธปัจจัยในช่วงนับถอยหลังก่อนการรบได้ในแผงโต้ตอบการปรับแต่งภาคสนาม"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "คุณสามารถเปิด/ปิดตัวเลือกสำหรับการเลือกชุดอุปกรณ์และคำสั่งในช่วงนับถอยหลังก่อนการรบได้ในแผงโต้ตอบการปรับแต่งภาคสนาม"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "คุณสามารถเปิด/ปิดตัวเลือกสำหรับการเลือกชุดกระสุนและยุทธปัจจัยในช่วงนับถอยหลังก่อนการรบได้ในแผงโต้ตอบการปรับแต่งภาคสนาม"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "คุณสามารถเปิด/ปิดตัวเลือกสำหรับการเลือกชุดกระสุนและยุทธปัจจัยในช่วงนับถอยหลังก่อนการรบได้ในแผงโต้ตอบส่วนยกระดับ"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "คุณสามารถเปิด/ปิดตัวเลือกสำหรับการเลือกชุดอุปกรณ์และคำสั่งในช่วงนับถอยหลังก่อนการรบได้ในแผงโต้ตอบการปรับแต่งภาคสนาม"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "คุณสามารถเปิด/ปิดตัวเลือกสำหรับการเลือกชุดอุปกรณ์และคำสั่งในช่วงนับถอยหลังก่อนการรบได้ในแผงโต้ตอบส่วนยกระดับ"
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "การเปลี่ียนระหว่างชุดถูกปิดเอาไว้"
+
+msgid "tooltips/separator/last"
+msgstr " และ "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "อุปกรณ์มาตรฐานของประเภท %(spec)s จะมีประสิทธิภาพมากกว่าถ้าติดตั้งในช่องนี้ อุปกรณ์จากประเภทอื่นจะมอบโบนัสปกติให้เท่านั้น"
+
+msgid "tooltips/specializationName"
+msgstr "ประเภท:"
+
+msgid "tooltips/specializationType"
+msgstr "อำนาจการยิง"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "ชนิดอุปกรณ์ที่มีค่าและมีคุณลักษณะดีกว่าชนิดอุปกรณ์แบบอื่นๆ"
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "อุปกรณ์พิเศษที่มีสามขั้นการยกระดับ"
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "อุปกรณ์ที่เพิ่มคุณลักษณะพาหนะของคุณ"
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "ชนิดอุปกรณ์ที่มีคุณลักษณะอุปกรณ์มาตรฐานแต่สามารถยกระดับให้ดีขึ้นได้"
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "อุปกรณ์รุ่นปรับปรุง"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "อุปกรณ์รุ่นทดลอง"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "อุปกรณ์มาตรฐาน"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "อุปกรณ์เงินรางวัล"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "อุปกรณ์ชนิดนี้จะมีให้แลกด้วย%(whiteSpanish_Open)sพันธบัตร%(whiteSpanish_Close)s คุณยังสามารถได้รับเป็นรางวัลจากความสำเร็จในเกมบางอย่างและในช่วงกิจกรรมเกมพิเศษ"
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "อุปกรณ์ชนิดนี้สามารถได้รับเป็นรางวัลในช่วงกิจกรรมพิเศษบางกิจกรรมของเกม"
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "ชนิดอุปกรณ์นี้จะมีให้ซื้อด้วยสกุลเงินในเกม คุณยังสามารถได้รับอุปกรณ์ชนิดนี้เป็นรางวัลจากความสำเร็จในเกมบางอย่างและในช่วงกิจกรรมเกมพิเศษ คุณลักษณะของอุปกรณ์มาตรฐานสามารถเพิ่มขึ้นได้ด้วยการวางมันในช่องที่เหมาะสม"
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "อุปกรณ์ชนิดนี้สามารถได้รับเป็นรางวัลในช่วงกิจกรรมพิเศษบางกิจกรรมของเกม"
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "วิธีการหา"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "วิธีการหา"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "ช่องอุปกรณ์"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "ไม่สามารถซื้ออุปกรณ์เงินรางวัลได้"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "คุณสามารถยกระดับคุณลักษณะของอุปกรณ์รุ่นทดลองด้วยการใช้%(whiteSpanish_Open)sส่วนประกอบ%(whiteSpanish_Close)sที่สามารถหาได้จากการถอดอุปกรณ์ชนิดนี้"
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "คุณสามารถยกระดับคุณลักษณะอุปกรณ์เงินรางวัลได้ด้วยการใช้สกุลเงินในเกม"
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "การยกระดับอุปกรณ์รุ่นทดลอง"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "การยกระดับอุปกรณ์เงินรางวัล"

@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "ชุดค่าตัวแปรที่แสดงประสิทธิภาพโดยรวมของการยิงใส่ข้าศึก"
+
+msgid "domain/accuracy/name"
+msgstr "ประสิทธิภาพการยิง"
+
+msgid "domain/armorPiercing/description"
+msgstr "ชุดค่าตัวแปรที่แสดงความสามารถของพาหนะในการเจาะเกราะข้าศึก"
+
+msgid "domain/armorPiercing/name"
+msgstr "การเจาะเกราะ"
+
+msgid "domain/battleParams/description"
+msgstr "ชุดค่าตัวแปรที่แสดงกลไกหลักของการเล่นเกม"
+
+msgid "domain/battleParams/name"
+msgstr "ค่าตัวแปรการรบ"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "ตัวปรับเฉพาะรูปแบบที่เปลี่ยนค่าคุณลักษณะของพาหนะ"
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "ตัวปรับการบุกรุกรุ่นเบา"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "ตัวปรับเฉพาะรูปแบบที่เปลี่ยนค่าคุณลักษณะของพาหนะ"
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "ตัวปรับการบุกรุก"
+
+msgid "domain/concealment/description"
+msgstr "ชุดค่าตัวแปรที่แสดงความสามารถของพาหนะในการอำพรางตัว"
+
+msgid "domain/concealment/name"
+msgstr "การซ่อนตัว"
+
+msgid "domain/damageDealing/description"
+msgstr "ชุดค่าตัวแปรที่แสดงความสามารถของพาหนะในการทำความเสียหาย"
+
+msgid "domain/damageDealing/name"
+msgstr "การทำความเสียหาย"
+
+msgid "domain/mobility/description"
+msgstr "ชุดค่าตัวแปรที่แสดงความคล่องตัวและความเร็วของพาหนะคุณ"
+
+msgid "domain/mobility/name"
+msgstr "ความคล่องตัวและความว่องไว"
+
+msgid "domain/randomization/description"
+msgstr "ชุดค่าตัวแปรที่แสดงช่วงศักยภาพความเสียหายและการเจาะเกราะที่เป็นไปได้"
+
+msgid "domain/randomization/name"
+msgstr "ค่าแบบสุ่ม"
+
+msgid "domain/sustaining/description"
+msgstr "ชุดค่าตัวแปรที่แสดงการคืนสภาพชิ้นส่วนที่เสียหาย/พลรถถังบาดเจ็บ"
+
+msgid "domain/sustaining/name"
+msgstr "การซ่อมแซม"
+
+msgid "domain/visibility/description"
+msgstr "ชุดค่าตัวแปรที่แสดงความสามารถของพาหนะในการตรวจจับข้าศึก"
+
+msgid "domain/visibility/name"
+msgstr "ระยะการมองเห็น"
+
+msgid "domain/vitality/description"
+msgstr "ชุดค่าตัวแปรที่แสดงความสามารถพาหนะของคุณในการรอดจากการรบ"
+
+msgid "domain/vitality/name"
+msgstr "การต่อต้าน"
+
+msgid "modifier/name/aimingTime"
+msgstr "เวลาการเล็ง"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "ความทนทานรางกระสุน"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "เวลาบรรจุของพาหนะที่ใช้ระบบป้อนกระสุนอัตโนมัติ"
+
+msgid "modifier/name/battleLength"
+msgstr "เวลาการรบ"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "ความเร็วถอยหลังสูงสุด"
+
+msgid "modifier/name/burstInterval"
+msgstr "เวลาบรรจุกระสุนในโม่กระสุน"
+
+msgid "modifier/name/chassisHealth"
+msgstr "ความทนทานตัวถัง"
+
+msgid "modifier/name/clipInterval"
+msgstr "เวลาการบรรจุกระสุนระหว่างโม่"
+
+msgid "modifier/name/damageRandomization"
+msgstr "ช่วงความเสียหายที่เป็นไปได้"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "ความเสียหายชิ้นส่วนภายใน"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "การกระจายกระสุนหลังการยิง"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "การกระจายกระสุนขณะแล่น"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "การกระจายกระสุนขณะหมุนตัวถัง"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "การกระจายกระสุนขณะหมุนป้อมปืน"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "การกระจายกระสุนของปืนที่เสียหาย"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "โอกาสไฟไหม้เครื่องยนต์"
+
+msgid "modifier/name/engineHealth"
+msgstr "ความทนทานเครื่องยนต์"
+
+msgid "modifier/name/enginePower"
+msgstr "กำลังเครื่องยนต์"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "ความเสียหายช่วงล่างเมื่อเกิดการกระแทก"
+
+msgid "modifier/name/envHullDamage"
+msgstr "ความเสียหายตัวถังเมื่อเกิดการกระแทก"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "ความเสียหายต่อชิ้นส่วนอื่นเมื่อเกิดการกระแทก"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "พลรถถังบาดเจ็บในช่วงการกระแทก"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "เวลาพักใช้ยุทธปัจจัย"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "ความทนทานถังเชื้อเพลิง"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "ความเร็วเดินหน้าสูงสุด"
+
+msgid "modifier/name/gravityFactor"
+msgstr "แรงโน้มถ่วงของพาหนะ"
+
+msgid "modifier/name/gunHealth"
+msgstr "ความทนทานปืน"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "ความเร็วการขยับปืนของห้องทำการรบแบบนิ่ง"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "การอำพรางตัวขณะแล่น"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "การอำพรางตัวพาหนะขณะอยู่นิ่ง"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "การปรับมุมค่าเสถียรกระสุน"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "ช่วงการเจาะเกราะที่เป็นไปได้"
+
+msgid "modifier/name/radioDistance"
+msgstr "ระยะวิทยุ"
+
+msgid "modifier/name/reloadTime"
+msgstr "เวลาบรรจุ"
+
+msgid "modifier/name/repairSpeed"
+msgstr "ความเร็วการซ่อม"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "มุมการสะท้อนของกระสุน ยิ่งมุมแหลมเท่าใด โอกาสการสะท้อนก็จะมากขึ้นตาม"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "ความเร็วการหมุนตัวถัง"
+
+msgid "modifier/name/shellGravity"
+msgstr "แรงโน้มถ่วงกระสุน"
+
+msgid "modifier/name/shellSpeed"
+msgstr "ความเร็วกระสุน"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "การกระจายที่ 100 ม."
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "ความทนทานกล้องสังเกตการณ์"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "ความเสียหายแรงดันป้อมปืนที่ฉีกออก"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "ความเสียหายจากป้อมปืนที่ฉีกออก"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "ความเร็วการหมุนป้อมปืน"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "ความทนทานวงแหวนป้อมปืน"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "การบรรจุของปืนในรูปแบบระดมยิง"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "ระยะการวาดภาพ"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "ความทนทานพาหนะ"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "ความเสียหายจากแรงดัน"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "ความเสียหายจากการพุ่งชน"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "รัศมีการตรวจจับระยะใกล้"
+
+msgid "modifier/name/visionRadius"
+msgstr "ระยะการมองเห็น"
+
+msgid "modifier/name/visionTime"
+msgstr "เวลาปรากฎที่เหลือ"
+
+msgid "modifier/name/zeroDamage"
+msgstr "ความเสียหายจากการยิงและการพุ่งชน"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "ทรัพยากรที่หามาได้และใช้ไปในการรบของรูปแบบ"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "ไม่&nbsp;มากกว่า&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "ไม่&nbsp;น้อยกว่า&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(แต่ {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(แต่ {min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "ตัวปรับดังกล่าวจะมีผลกับค่าคุณลักษณะดังต่อไปนี้:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "ค่าปรับดังกล่าวจะมีผลกับตัวแปรดังต่อไปนี้:"

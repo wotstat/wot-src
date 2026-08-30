@@ -1,0 +1,2171 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=1; plural=0;"
+
+msgid "categories/body/firepower"
+msgstr "전차의 화력과 관련된 매개 변수입니다. 필터를 사용하여 해당 매개 변수와 관련된 장비를 표시할 수 있습니다."
+
+msgid "categories/body/mobility"
+msgstr "전차의 기동성과 관련된 매개 변수입니다. 필터를 사용하여 해당 매개 변수와 관련된 장비를 표시할 수 있습니다."
+
+msgid "categories/body/stealth"
+msgstr "전차의 정찰 성능과 관련된 매개 변수입니다. 필터를 사용하여 해당 매개 변수와 관련된 장비를 표시할 수 있습니다."
+
+msgid "categories/body/survivability"
+msgstr "전차의 생존 능력과 관련된 매개 변수입니다. 필터를 사용하여 해당 매개 변수와 관련된 장비를 표시할 수 있습니다."
+
+msgid "categories/empty"
+msgstr "두 번째 슬롯 범주"
+
+msgid "categories/firepower"
+msgstr "화력"
+
+msgid "categories/mobility"
+msgstr "기동"
+
+msgid "categories/slotEffect/empty"
+msgstr "해당 전차 두 번째 장비 슬롯에 범주를 지정할 수 있습니다."
+
+msgid "categories/slotEffect/firepower"
+msgstr "화력 범주 일반 장비를 해당 슬롯에 장착하면 장비 성능이 향상됩니다."
+
+msgid "categories/slotEffect/mobility"
+msgstr "기동 범주 일반 장비를 해당 슬롯에 장착하면 장비 성능이 향상됩니다."
+
+msgid "categories/slotEffect/stealth"
+msgstr "정찰 범주 일반 장비를 해당 슬롯에 장착하면 장비 성능이 향상됩니다."
+
+msgid "categories/slotEffect/survivability"
+msgstr "생존 범주 일반 장비를 해당 슬롯에 장착하면 장비 성능이 향상됩니다."
+
+msgid "categories/stealth"
+msgstr "정찰"
+
+msgid "categories/survivability"
+msgstr "생존"
+
+msgid "categories/universal"
+msgstr "범주 없음"
+
+msgid "compare/section/description/battleBoosters"
+msgstr "목록 내에서 적용 가능한 지휘명령을 하나 선택하십시오."
+
+msgid "compare/section/description/consumables"
+msgstr "목록 내에서 적용 가능한 소모품을 하나 선택하십시오."
+
+msgid "compare/section/description/optDevices"
+msgstr "목록 내에서 적용 가능한 장비를 하나 선택하십시오."
+
+msgid "compare/section/title/battleBoosters"
+msgstr "{name} 지휘명령"
+
+msgid "compare/section/title/consumables"
+msgstr "{name} 소모품"
+
+msgid "compare/section/title/optDevices"
+msgstr "{name} 장비"
+
+msgid "dealPanel/autoRenew"
+msgstr "자동 재보급"
+
+msgid "dealPanel/button/apply"
+msgstr "적용"
+
+msgid "dealPanel/button/applyType"
+msgstr "전차 유형에 적용"
+
+msgid "dealPanel/button/applyVehicle"
+msgstr "전차에 적용"
+
+msgid "dealPanel/button/cancel"
+msgstr "취소"
+
+msgid "dealPanel/button/purchase"
+msgstr "구매"
+
+msgid "dealPanel/fromStorage"
+msgstr "보유:"
+
+msgid "dealPanel/fromVehicle"
+msgstr "장착:"
+
+msgid "dealPanel/repair"
+msgstr "전차 수리 필요"
+
+msgid "dealPanel/toBePaid"
+msgstr "총합:"
+
+msgid "dealPanel/tooltip/fromStorage"
+msgstr "보유 중"
+
+msgid "dealPanel/tooltip/fromVehicle"
+msgstr "전차에 장착"
+
+msgid "dealPanel/tooltip/notEnough"
+msgstr "구매에 필요한 자금 부족"
+
+msgid "dealPanel/tooltip/purchasedWith/credits"
+msgstr "크레딧으로 구매"
+
+msgid "dealPanel/tooltip/purchasedWith/crystal"
+msgstr "전쟁 채권으로 구매"
+
+msgid "dealPanel/tooltip/purchasedWith/depot"
+msgstr "보관소 재고 장착"
+
+msgid "deconstructionDeviceView/available"
+msgstr "보유:"
+
+msgid "deconstructionDeviceView/btn/cancel"
+msgstr "취소"
+
+msgid "deconstructionDeviceView/btn/deconstruct"
+msgstr "계속"
+
+msgid "deconstructionDeviceView/footer/fromStorage"
+msgstr "보관소에 보유 중:"
+
+msgid "deconstructionDeviceView/footer/fromVehicles"
+msgstr "전차에 장착 중:"
+
+msgid "deconstructionDeviceView/footer/notEnoughMoney"
+msgstr "(강화하려면 %(whiteSpanish_Open)s%(coins)s%(whiteSpanish_Close)s %(red_Open)s더 필요%(red_Close)s )"
+
+msgid "deconstructionDeviceView/footer/willReceive"
+msgstr "획득 수량:"
+
+msgid "deconstructionDeviceView/header/activeVehicle"
+msgstr "현재 선택한 전차"
+
+msgid "deconstructionDeviceView/header/inStorage"
+msgstr "보관소에 보유 중: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/header/onVehicles"
+msgstr "전차에 장착 중: %(par_Open)s%(value)s%(par_Close)s"
+
+msgid "deconstructionDeviceView/subTitle/enoughMoney"
+msgstr "%(whiteSpanish_Open)s부속품%(whiteSpanish_Close)s%(icon)s으로 분해할 장비를 선택하십시오. 획득한 부속품은 시제 장비 강화에 사용할 수 있습니다."
+
+msgid "deconstructionDeviceView/subTitle/notEnoughMoney"
+msgstr "%(icon)s 사용하지 않는 시제 장비를 분해하면 부속품을 더 확보할 수 있습니다."
+
+msgid "deconstructionDeviceView/title/enoughMoney"
+msgstr "작업대"
+
+msgid "deconstructionDeviceView/title/notEnoughMoney"
+msgstr "%(whiteSpanish_Open)s%(equipment)s%(whiteSpanish_Close)s 강화에 필요한\n부속품이 부족합니다."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/enoughMoney"
+msgstr "사용하지 않는 장비를 분해하여 부속품을 더 확보해야 강화할 수 있습니다."
+
+msgid "deconstructionDeviceView/tooltip/deconstruct/notEnoughMoney"
+msgstr "부속품을 더 확보해야 강화할 수 있습니다."
+
+msgid "dialogs/confirm/cancel/changeSlots"
+msgstr "취소"
+
+msgid "dialogs/confirm/cancel/modification"
+msgstr "취소"
+
+msgid "dialogs/confirm/cancel/payment"
+msgstr "취소"
+
+msgid "dialogs/confirm/cancel/setup"
+msgstr "취소"
+
+msgid "dialogs/confirm/cancel/withRollback"
+msgstr "취소"
+
+msgid "dialogs/confirm/confirm/changeSlots"
+msgstr "저장"
+
+msgid "dialogs/confirm/confirm/modification"
+msgstr "구매"
+
+msgid "dialogs/confirm/confirm/payment"
+msgstr "구매 후 장착"
+
+msgid "dialogs/confirm/confirm/setup"
+msgstr "장착"
+
+msgid "dialogs/confirm/demount/itemDeluxe"
+msgstr "%(price)s 사용 시 장비를 해체하여 보관소로 보낼 수 있으며 장비를 파괴하여 해체할 수도 있습니다."
+
+msgid "dialogs/confirm/demount/itemDeluxeWotPlus"
+msgstr "%(price)s 사용 시 장비를 해체하여 보관소로 보낼 수 있습니다. WoT 플러스가 활성화되어 있다면 {whiteSpanish_Open}무료로{whiteSpanish_Close} 해제할 수 있습니다. 장비를 파괴하여 해체할 수도 있습니다."
+
+msgid "dialogs/confirm/demount/itemWithDemountKit"
+msgstr "%(demountKit)s 또는 %(price)s 사용 시 장비를 해체하여 보관소로 보낼 수 있습니다. WoT 플러스가 활성화되어 있다면 {whiteSpanish_Open}무료로{whiteSpanish_Close} 해체할 수 있습니다. 장비를 파괴하여 해체할 수도 있습니다."
+
+msgid "dialogs/confirm/demount/itemWotPlus"
+msgstr "WoT 플러스가 활성화되어 있다면 장비를 {whiteSpanish_Open}무료로{whiteSpanish_Close} 해체하여 보관소로 보낼 수 있습니다."
+
+msgid "dialogs/confirm/demount/items"
+msgstr "장비를 해체하여 보관소로 보낼 수 있습니다."
+
+msgid "dialogs/confirm/doesNotWork"
+msgstr "활성화되지 않습니다"
+
+msgid "dialogs/confirm/item/battleBooster"
+msgstr "지휘명령"
+
+msgid "dialogs/confirm/item/demountPairModification"
+msgstr "해당 집중 개량 구매 시 적용 중인 집중 개량은 제거됩니다."
+
+msgid "dialogs/confirm/item/equipment"
+msgstr "소모품"
+
+msgid "dialogs/confirm/item/module"
+msgstr "부품"
+
+msgid "dialogs/confirm/item/optionalDevice"
+msgstr "장비"
+
+msgid "dialogs/confirm/item/postProgressionPairModification"
+msgstr "집중 개량"
+
+msgid "dialogs/confirm/items/battleBooster"
+msgstr "지휘명령"
+
+msgid "dialogs/confirm/items/equipment"
+msgstr "소모품"
+
+msgid "dialogs/confirm/items/module"
+msgstr "부품"
+
+msgid "dialogs/confirm/items/optionalDevice"
+msgstr "장비"
+
+msgid "dialogs/confirm/message/lastSeparation"
+msgstr " 및 "
+
+msgid "dialogs/confirm/title/changeSlots/battleBooster"
+msgstr "지휘명령 슬롯 변경 사항을 저장하시겠습니까?"
+
+msgid "dialogs/confirm/title/changeSlots/equipment"
+msgstr "소모품 슬롯 변경 사항을 저장하시겠습니까?"
+
+msgid "dialogs/confirm/title/changeSlots/optionalDevice"
+msgstr "장비 슬롯 변경 사항을 저장하시겠습니까?"
+
+msgid "dialogs/confirm/title/item/modification"
+msgstr "%(name)s {type} 아이템을 구매하시겠습니까?"
+
+msgid "dialogs/confirm/title/item/payment"
+msgstr "%(name)s {type} 아이템을 구매하고 장착하시겠습니까?"
+
+msgid "dialogs/confirm/title/item/setup"
+msgstr "%(name)s {type} 아이템을 장착하시겠습니까?"
+
+msgid "dialogs/confirm/title/itemForAllVehiclesByType/setup/"
+msgstr "모든 %(vehicle)s에 %(name)s {type}를 활성화하시겠습니까?"
+
+msgid "dialogs/confirm/title/items/modification"
+msgstr "{type} 요소를 구매하시겠습니까?"
+
+msgid "dialogs/confirm/title/items/payment"
+msgstr "{type} 아이템을 구매 후 장착하시겠습니까?"
+
+msgid "dialogs/confirm/title/items/setup"
+msgstr "{type} 아이템을 장착하시겠습니까?"
+
+msgid "dialogs/confirm/title/itemsForAllVehiclesByType/setup/"
+msgstr "모든 %(vehicle)s에 {type}를 활성화하시겠습니까?"
+
+msgid "dialogs/confirm/vehicleType/AT-SPG"
+msgstr "구축전차"
+
+msgid "dialogs/confirm/vehicleType/SPG"
+msgstr "자주포"
+
+msgid "dialogs/confirm/vehicleType/heavyTank"
+msgstr "중전차"
+
+msgid "dialogs/confirm/vehicleType/lightTank"
+msgstr "경전차"
+
+msgid "dialogs/confirm/vehicleType/mediumTank"
+msgstr "중형전차"
+
+msgid "dialogs/confirm/warning"
+msgstr "주의! %(devices)s 장비가 장착되지 않았습니다. 지휘명령이 %(doesNotWork)s."
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/alert/text"
+msgstr "주의! 현재 보유 중인 마지막 시제 장비가 분해됩니다!"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/cancel"
+msgstr "취소"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromSlots"
+msgstr "분해"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/button/deconstructFromStorage"
+msgstr "분해"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromSlots"
+msgstr "획득 수량 총합:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/content/deconstructFromStorage"
+msgstr "아이템 1개로부터 획득 수량:"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromSlots"
+msgstr "%(name)s\n분해하시겠습니까?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/title/deconstructFromStorage"
+msgstr "%(name)s\n분해하시겠습니까?"
+
+msgid "dialogs/confirmActionsWithEquipmentDialog/warning"
+msgstr "참고: 분해 시 해당 장비를 복구하거나 구매할 수 없습니다."
+
+msgid "dialogs/deconstructConfirm/button/cancel"
+msgstr "취소"
+
+msgid "dialogs/deconstructConfirm/button/deconstruct"
+msgstr "분해"
+
+msgid "dialogs/deconstructConfirm/content/header/deconstruct"
+msgstr "다음 장비를 부속품으로 분해하시겠습니까?"
+
+msgid "dialogs/deconstructConfirm/content/header/upgrade"
+msgstr "다음 장비를 분해하고\n%(deviceName)s 장비를 강화하시겠습니까?"
+
+msgid "dialogs/deconstructConfirm/content/items/inventory"
+msgstr "보관소 재고 분해: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/content/items/vehicle"
+msgstr "전차에 장착 중인 장비 분해: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/additionalInf/upgrade"
+msgstr "분해 시 획득하는 부속품: %(counter)s"
+
+msgid "dialogs/deconstructConfirm/footer/deconstruct"
+msgstr "획득 수량 총합:"
+
+msgid "dialogs/deconstructConfirm/footer/upgrade"
+msgstr "강화 비용:"
+
+msgid "dialogs/deconstructConfirm/footer/warning/noEquipmentLeft"
+msgstr "주의! 현재 보유 중인 마지막 시제 장비가 분해됩니다!"
+
+msgid "dialogs/deconstructConfirm/footer/warning/vehicleDeconstruct"
+msgstr "주의! 전차에 장착된 시제 장비가 분해됩니다."
+
+msgid "dialogs/exchangeToUpgrade/confirm"
+msgstr "구매"
+
+msgid "dialogs/exchangeToUpgrade/item/optionalDevice"
+msgstr "장비"
+
+msgid "dialogs/exchangeToUpgrade/item/title"
+msgstr "%(name)s 장비를 강화하려면 %(credits)s 더 필요"
+
+msgid "dialogs/exchangeToUpgrade/items/optionalDevice"
+msgstr "장비"
+
+msgid "dialogs/exchangeToUpgrade/items/title"
+msgstr "장비를 강화하려면 %(credits)s 더 필요"
+
+msgid "dialogs/exchangeToUpgrade/notPossible/status"
+msgstr "장비를 강화할 수 없습니다. 크레딧을 구매하려면 %(gold)s가 필요합니다."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/status"
+msgstr "장비 강화에 필요한 크레딧을 보유하고 있습니다."
+
+msgid "dialogs/exchangeToUpgrade/notRequired/title"
+msgstr "구매할 필요 없음"
+
+msgid "dialogs/experimentEquipment/alert/notEnoughEquip"
+msgstr "분해할 시제 장비가 없습니다."
+
+msgid "dialogs/experimentEquipment/alert/notEnoughMoney"
+msgstr "시제 장비를 분해하면 부속품을 더 확보할 수 있습니다."
+
+msgid "dialogs/experimentEquipment/header/dialogText"
+msgstr "%(name)s\n강화하시겠습니까?"
+
+msgid "dialogs/experimentEquipment/level/decription"
+msgstr "%(description)s (%(unit)s)"
+
+msgid "dialogs/experimentEquipment/moneyShortage"
+msgstr "부족: %(money)s"
+
+msgid "dialogs/experimentEquipment/priceBlock/price"
+msgstr "비용:"
+
+msgid "dialogs/goldExchange/action/buy"
+msgstr "구매"
+
+msgid "dialogs/goldExchange/action/modification"
+msgstr "구매"
+
+msgid "dialogs/goldExchange/confirm"
+msgstr "구매"
+
+msgid "dialogs/goldExchange/default/status"
+msgstr "구매 비율: %(gold)s = %(credits)s"
+
+msgid "dialogs/goldExchange/easyTankEquip/title"
+msgstr "빠른 정비를 실시하려면 %(credits)s 더 필요"
+
+msgid "dialogs/goldExchange/item/battleBooster"
+msgstr "지휘명령"
+
+msgid "dialogs/goldExchange/item/equipment"
+msgstr "소모품"
+
+msgid "dialogs/goldExchange/item/module"
+msgstr "부품품"
+
+msgid "dialogs/goldExchange/item/optionalDevice"
+msgstr "장비"
+
+msgid "dialogs/goldExchange/item/postProgressionPairModification"
+msgstr "집중 개량"
+
+msgid "dialogs/goldExchange/item/title"
+msgstr "%(name)s {type} 아이템을 {action}하려면 %(credits)s 더 필요"
+
+msgid "dialogs/goldExchange/items/battleBooster"
+msgstr "지휘명령"
+
+msgid "dialogs/goldExchange/items/equipment"
+msgstr "소모품"
+
+msgid "dialogs/goldExchange/items/module"
+msgstr "부품"
+
+msgid "dialogs/goldExchange/items/optionalDevice"
+msgstr "장비"
+
+msgid "dialogs/goldExchange/items/title"
+msgstr "{type} 아이템을 {action}하려면 %(credits)s 더 필요"
+
+msgid "dialogs/goldExchange/needRepair/title"
+msgstr "수리하려면 %(credits)s 더 필요"
+
+msgid "dialogs/goldExchange/notPossible/status"
+msgstr "구매 불가: 구매하려면 %(gold)s가 더 필요합니다."
+
+msgid "dialogs/goldExchange/notRequired/action/buy"
+msgstr "구매"
+
+msgid "dialogs/goldExchange/notRequired/action/modification"
+msgstr "개량"
+
+msgid "dialogs/goldExchange/notRequired/status"
+msgstr "구매할 필요가 없습니다. 크레딧이 충분합니다."
+
+msgid "dialogs/goldExchange/notRequired/title"
+msgstr "{action}에 필요한 크레딧 보유 중"
+
+msgid "dialogs/goldExchange/refillShells/title"
+msgstr "포탄을 재보급하려면 %(credits)s 더 필요"
+
+msgid "dialogs/needRepair/autoRepair"
+msgstr "자동 수리"
+
+msgid "dialogs/needRepair/confirm"
+msgstr "수리"
+
+msgid "dialogs/needRepair/durability"
+msgstr "내구도:"
+
+msgid "dialogs/needRepair/durabilityPercentage"
+msgstr "%(value)s%"
+
+msgid "dialogs/needRepair/freeAutoRepair"
+msgstr "자동으로 전차 무료 수리"
+
+msgid "dialogs/needRepair/price"
+msgstr "수리 비용:"
+
+msgid "dialogs/needRepair/tooltip/notEnough"
+msgstr "수리에 필요한 자금 부족"
+
+msgid "dialogs/notNeedRepair/confirm"
+msgstr "확인"
+
+msgid "dialogs/notNeedRepair/title"
+msgstr "수리할 필요 없음"
+
+msgid "dialogs/refillShells/confirm"
+msgstr "재보급"
+
+msgid "dialogs/refillShells/price"
+msgstr "재보급 비용:"
+
+msgid "dialogs/refillShells/title/dealPanel"
+msgstr "포탄을 재보급하시겠습니까?"
+
+msgid "dialogs/refillShells/title/saveSlotsContent"
+msgstr "포탄 변경 사항을 저장하시겠습니까?"
+
+msgid "dialogs/sell/alertText/equipment/improved"
+msgstr "참고: 강화 장비를 판매하고 있습니다."
+
+msgid "dialogs/sell/alertText/equipment/trophy"
+msgstr "참고: 판매 시 해당 장비를 복구하거나 구매할 수 없습니다."
+
+msgid "dialogs/sell/button/cancel"
+msgstr "취소"
+
+msgid "dialogs/sell/button/sell"
+msgstr "판매"
+
+msgid "dialogs/sell/header"
+msgstr "다음 장비를 판매하시겠습니까?\n%(equipmentName)s"
+
+msgid "dialogs/sell/text"
+msgstr "아이템 1개 판매 가격"
+
+msgid "easyTankEquipView/alert/demountNotPossible"
+msgstr "해체에 필요한 자원이 부족합니다."
+
+msgid "easyTankEquipView/alert/notFormed"
+msgstr "해당 전차는 추천 구성 이용 불가"
+
+msgid "easyTankEquipView/alert/unableToMount"
+msgstr "장착 불가"
+
+msgid "easyTankEquipView/applied"
+msgstr "적용"
+
+msgid "easyTankEquipView/consumables/presetNames/advanced"
+msgstr "고급"
+
+msgid "easyTankEquipView/consumables/presetNames/improved"
+msgstr "실속"
+
+msgid "easyTankEquipView/consumables/presetNames/standard"
+msgstr "일반"
+
+msgid "easyTankEquipView/consumables/title"
+msgstr "소모품"
+
+msgid "easyTankEquipView/crew/bunksAlert"
+msgstr "승무원 이동 및 교체에 필요한 침상이 부족합니다. 막사에 침상을 추가하십시오."
+
+msgid "easyTankEquipView/crew/multiplier"
+msgstr "x{{count}}"
+
+msgid "easyTankEquipView/crew/presetNames/experienced"
+msgstr "숙련된 승무원"
+
+msgid "easyTankEquipView/crew/presetNames/newCrew"
+msgstr "새로운 승무원"
+
+msgid "easyTankEquipView/crew/recruit"
+msgid_plural "plural/easyTankEquipView/crew/recruit"
+msgstr[0] "{{count}}\n새로운 승무원 충원"
+msgstr[1] "{{count}}\n새로운 승무원 충원"
+msgstr[2] "{{count}}\n새로운 승무원 충원"
+
+msgid "easyTankEquipView/crew/title"
+msgstr "승무원"
+
+msgid "easyTankEquipView/discount"
+msgstr "-{{value}}"
+
+msgid "easyTankEquipView/optDevices/presetNames/advanced"
+msgstr "고급"
+
+msgid "easyTankEquipView/optDevices/presetNames/standard"
+msgstr "일반"
+
+msgid "easyTankEquipView/optDevices/title"
+msgstr "장비"
+
+msgid "easyTankEquipView/shells/presetNames/advanced"
+msgstr "고급"
+
+msgid "easyTankEquipView/shells/presetNames/standard"
+msgstr "일반"
+
+msgid "easyTankEquipView/shells/title"
+msgstr "포탄"
+
+msgid "easyTankEquipView/styles/builtInStyle"
+msgstr "이미 스타일 적용 중"
+
+msgid "easyTankEquipView/styles/rent"
+msgstr "전투 {{battlesCount}}회: {{price}}"
+
+msgid "easyTankEquipView/styles/title"
+msgstr "사전 설정 스타일"
+
+msgid "easyTankEquipView/title"
+msgstr "빠른 정비"
+
+msgid "effects/name"
+msgstr "효과"
+
+msgid "effects/template"
+msgstr "%(icon)s %(title)s: %(descr)s"
+
+msgid "equipment/cooldown"
+msgstr "/ 재사용 시간: %(cooldown)s초"
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s %(extendedDescr)s"
+
+msgid "experimentalEquipCoinBlock/name"
+msgstr "부속품 확보"
+
+msgid "filters/shown"
+msgstr "표시: "
+
+msgid "hints/dragAndDrop/section"
+msgstr "끌어다\n놓기"
+
+msgid "hints/filters/specialization"
+msgstr "범주\n보너스"
+
+msgid "hints/tabs/equipment"
+msgstr "새로운\n장비 유형"
+
+msgid "introduction/currency/deluxe"
+msgstr "전쟁 채권"
+
+msgid "introduction/currency/modernized"
+msgstr "부속품"
+
+msgid "introduction/message/deluxe"
+msgstr "%(currencyName)s(%(currencyIcon)s)으로 구매할 수 있는 장비 유형입니다. 특정 게임 업적을 달성하거나 특별 게임 이벤트에 참여하여 보상으로 획득할 수도 있습니다."
+
+msgid "introduction/message/modernized"
+msgstr "임무를 완료하거나 특정 게임 이벤트 기간에 보상으로 획득할 수 있으며 레벨 3까지 강화 가능한 특별 장비 유형입니다. 파괴하거나 판매할 수 없지만, 분해하여 %(currencyName)s(%(currencyIcon)s)을 획득할 수 있습니다. 획득한 부속품은 원하는 시제 장비 강화 시 사용할 수 있습니다."
+
+msgid "introduction/message/trophy"
+msgstr "기본 성능은 일반 장비와 같지만, 크레딧을 사용하여 성능을 강화할 수 있는 특별한 장비 유형입니다. 포상 장비는 게임 내 통화로는 구매할 수 없지만, 특정 게임 이벤트 기간에 보상으로 획득할 수 있습니다."
+
+msgid "introduction/showButton"
+msgstr "장비 확인"
+
+msgid "introduction/slide/1/description"
+msgstr "새로운 장비가 추가되었으며 %(repairBox)s, %(wetAmmo)s, %(CO2Cistern)s, %(cycloneFilter)s 장비가 %(changedConfiguration)s 장비로 통합되었습니다. %(forcedChassis)s 유형 장비는 %(forcedMetal)s 장비로 대체되었으며 기존 보너스는 모두 유지되고 새로운 보너스가 추가되었습니다."
+
+msgid "introduction/slide/1/title"
+msgstr "신규 장비"
+
+msgid "introduction/slide/2/categories/firepower"
+msgstr "화력"
+
+msgid "introduction/slide/2/categories/mobility"
+msgstr "기동"
+
+msgid "introduction/slide/2/categories/stealth"
+msgstr "정찰"
+
+msgid "introduction/slide/2/categories/survivability"
+msgstr "생존"
+
+msgid "introduction/slide/2/description"
+msgstr "범주가 같은 슬롯에 해당 장비를 장착하면 장비 성능이 향상됩니다. 슬롯 범주와 장비 범주가 다르다면 기본 성능이 적용됩니다."
+
+msgid "introduction/slide/2/subtitle"
+msgstr "범주 일치"
+
+msgid "introduction/slide/2/title"
+msgstr "장비 범주"
+
+msgid "introduction/slide/3/description/left"
+msgstr "2단계~4단계 전차 장비 가격은 대부분 50,000크레딧을 초과하지 않으며 5단계~7단계 전차 장비 가격은 300,000크레딧을, 8단계~11단계 전차 장비 가격은 600,000크레딧을 초과하지 않습니다."
+
+msgid "introduction/slide/3/description/right"
+msgstr "일부 신규 장비는 3가지 급수로 나누어집니다. 급수가 다르더라도 장비 성능은 같지만, 급수가 높을수록 가격이 높아지고 급수에 따라 장착할 수 있는 전차 단계가 달라집니다."
+
+msgid "introduction/slide/3/subtitle/left"
+msgstr "장비 변경 사항"
+
+msgid "introduction/slide/3/subtitle/right"
+msgstr "신규 장비"
+
+msgid "introduction/slide/3/title"
+msgstr "장비 가격"
+
+msgid "introduction/slide/4/description"
+msgstr "1단계 전차에는 장비를 장착할 수 없으며 2단계 전차에는 1가지 장비만 장착할 수 있고 3단계 전차에는 2가지 장비를, 4단계~11단계 전차에는 3가지 장비를 장착할 수 있습니다. 제거된 슬롯에 장착되어 있던 장비는 해체되어 보관소에 보관되었습니다."
+
+msgid "introduction/slide/4/title"
+msgstr "장비 슬롯"
+
+msgid "introduction/slide/CO2Cistern"
+msgstr "탄산가스 충전 연료탱크"
+
+msgid "introduction/slide/changedConfiguration"
+msgstr "맞춤형 구성장치"
+
+msgid "introduction/slide/confirm"
+msgstr "확인"
+
+msgid "introduction/slide/cycloneFilter"
+msgstr "사이클론 필터"
+
+msgid "introduction/slide/forcedChassis"
+msgstr "개량형 현가장치"
+
+msgid "introduction/slide/forcedMetal"
+msgstr "개량형 경화강"
+
+msgid "introduction/slide/repairBox"
+msgstr "공구 상자"
+
+msgid "introduction/slide/wetAmmo"
+msgstr "\"습식\" 탄약 적재함"
+
+msgid "introduction/title/withEquipments/deluxe"
+msgstr "강화 장비"
+
+msgid "introduction/title/withEquipments/modernized"
+msgstr "시제 장비"
+
+msgid "introduction/title/withEquipments/trophy"
+msgstr "포상 장비"
+
+msgid "introduction/title/withoutEquipments/modernized"
+msgstr "적합한 시제 장비 없음"
+
+msgid "introduction/title/withoutEquipments/trophy"
+msgstr "적합한 포상 장비 없음"
+
+msgid "kpi/bonus/longDescr/negative/commanderLampDelay"
+msgstr "전차장이 적에게 전차가 발각되었는지 파악하는 시간"
+
+msgid "kpi/bonus/longDescr/negative/crewRepeatedStunDuration"
+msgstr "추가 폭발 충격 지속 시간"
+
+msgid "kpi/bonus/longDescr/negative/demaskFoliageFactor"
+msgstr "수풀 뒤 적 전차 위장률 (기동 중/정지 중 모두 포함)"
+
+msgid "kpi/bonus/longDescr/negative/shellVelocity"
+msgstr "모든 유형 포탄 속도"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedAmmorack"
+msgstr "부품 손상으로 인한 장전 속도 저하 효과"
+
+msgid "kpi/bonus/longDescr/negative/vehPenaltyForDamagedEngine"
+msgstr "부품 손상으로 인한 엔진 출력 저하 효과"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflage"
+msgstr "정지 시/기동 시 위장률"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCamouflageGroup"
+msgstr "정지 시/기동 시 위장률 상승치 (전차 유형에 따라 다른 효율)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleChassisFallDamage"
+msgstr "충돌 시 현가장치 피해로 인한 차체 피해"
+
+msgid "kpi/bonus/longDescr/negative/vehicleCircularVisionRadius"
+msgstr "관측 범위 (최대 445m)\n관측 범위 445m 초과 시 적 전차를 더 효율적으로 관측할 수 있습니다."
+
+msgid "kpi/bonus/longDescr/negative/vehicleFallingDamageResistance"
+msgstr "충격 피해"
+
+msgid "kpi/bonus/longDescr/negative/vehicleGunShotDispersion"
+msgstr "기동 시/차체 회전 시/주포 회전 시/사격 후 분산도"
+
+msgid "kpi/bonus/longDescr/negative/vehicleHEShellDamageResistance"
+msgstr "장갑이 흡수하는 고폭탄 피해"
+
+msgid "kpi/bonus/longDescr/negative/vehicleOwnSpottingTime"
+msgstr "자신의 전차 발각 유지 시간"
+
+msgid "kpi/bonus/longDescr/negative/vehicleSpeedGain"
+msgstr "모든 지형에서 속도 유지력"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflage"
+msgstr "정지 시 3초 뒤 위장률"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageDeluxe"
+msgstr "정지 시 1.5초 뒤 위장률"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroup"
+msgstr "정지 시 3초 뒤 위장률 상승치 (전차 유형에 따라 다른 효율)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "정지 시 1.5초 뒤 위장률 상승치 (전차 유형에 따라 다른 효율)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadius"
+msgstr "정지 시 3초 뒤 관측 범위 (최대 445m)\n관측 범위 445m 초과 시 적 전차를 더 효율적으로 관측할 수 있습니다."
+
+msgid "kpi/bonus/longDescr/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "정지 시 1.5초 뒤 관측 범위 (최대 445m)\n관측 범위 445m 초과 시 적 전차를 더 효율적으로 관측할 수 있습니다."
+
+msgid "kpi/bonus/longDescr/negative/vehicleStrength"
+msgstr "전차 내구도 (반올림)"
+
+msgid "kpi/bonus/longDescr/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "포탑 회전 속도 및 주포 회전 속도"
+
+msgid "kpi/bonus/longDescr/positive/commanderLampDelay"
+msgstr "전차장이 적에게 전차가 발각되었는지 파악하는 시간"
+
+msgid "kpi/bonus/longDescr/positive/crewRepeatedStunDuration"
+msgstr "추가 폭발 충격 지속 시간"
+
+msgid "kpi/bonus/longDescr/positive/demaskFoliageFactor"
+msgstr "수풀 뒤 기동 중/정지 중인 적 전차 위장률"
+
+msgid "kpi/bonus/longDescr/positive/shellVelocity"
+msgstr "모든 유형 포탄 속도"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedAmmorack"
+msgstr "부품 손상으로 인한 장전 속도 저하 효과"
+
+msgid "kpi/bonus/longDescr/positive/vehPenaltyForDamagedEngine"
+msgstr "부품 손상으로 인한 엔진 출력 저하 효과"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflage"
+msgstr "정지 시/기동 시 위장률"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCamouflageGroup"
+msgstr "정지 시/기동 시 위장률 상승치 (전차 유형에 따라 다른 효율)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleChassisFallDamage"
+msgstr "충돌 시 현가장치 피해로 인한 차체 피해"
+
+msgid "kpi/bonus/longDescr/positive/vehicleCircularVisionRadius"
+msgstr "관측 범위 (최대 445m)\n관측 범위 445m 초과 시 적 전차를 더 효율적으로 관측할 수 있습니다."
+
+msgid "kpi/bonus/longDescr/positive/vehicleFallingDamageResistance"
+msgstr "충격 피해"
+
+msgid "kpi/bonus/longDescr/positive/vehicleGunShotDispersion"
+msgstr "기동 시/차체 회전 시/주포 회전 시/사격 후 분산도"
+
+msgid "kpi/bonus/longDescr/positive/vehicleHEShellDamageResistance"
+msgstr "장갑이 흡수하는 고폭탄 피해"
+
+msgid "kpi/bonus/longDescr/positive/vehicleOwnSpottingTime"
+msgstr "자신의 전차 발각 유지 시간"
+
+msgid "kpi/bonus/longDescr/positive/vehicleSpeedGain"
+msgstr "모든 지형에서 속도 유지력"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflage"
+msgstr "정지 시 3초 뒤 위장률"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageDeluxe"
+msgstr "정지 시 1.5초 뒤 위장률"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroup"
+msgstr "정지 시 3초 뒤 위장률 (전차 유형에 따라 다른 효율)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "정지 시 1.5초 뒤 위장률 (전차 유형에 따라 다른 효율)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadius"
+msgstr "정지 시 3초 뒤 관측 범위 (최대 445m)\n관측 범위 445m 초과 시 적 전차를 더 효율적으로 관측할 수 있습니다."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "정지 시 1.5초 뒤 관측 범위 (최대 445m)\n관측 범위 445m 초과 시 적 전차를 더 효율적으로 관측할 수 있습니다."
+
+msgid "kpi/bonus/longDescr/positive/vehicleStrength"
+msgstr "전차 내구도 (반올림)"
+
+msgid "kpi/bonus/longDescr/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "포탑 회전 속도 및 주포 회전 속도"
+
+msgid "kpi/bonus/negative/artNotificationDelayFactor"
+msgstr "음향 탐지 발동 지연 시간"
+
+msgid "kpi/bonus/negative/commanderLampDelay"
+msgstr "발각되었는지 파악하는 시간"
+
+msgid "kpi/bonus/negative/coolingPerSec"
+msgstr "주포 냉각 속도"
+
+msgid "kpi/bonus/negative/crewHitChance"
+msgstr "승무원 부상 방지 확률"
+
+msgid "kpi/bonus/negative/crewLevel"
+msgstr "승무원 숙련도 보너스"
+
+msgid "kpi/bonus/negative/crewRepeatedStunDuration"
+msgstr "추가 폭발 충격 지속 시간"
+
+msgid "kpi/bonus/negative/crewStunDuration"
+msgstr "폭발 충격 지속 시간"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionLowerBound"
+msgstr "최소 기대 피해 및 기대 관통 수치"
+
+msgid "kpi/bonus/negative/damageAndPiercingDistributionUpperBound"
+msgstr "최대 기대 피해 및 기대 관통 수치"
+
+msgid "kpi/bonus/negative/damageEnemiesByRamming"
+msgstr "충돌로 입히는 피해"
+
+msgid "kpi/bonus/negative/damagedModulesDetectionTime"
+msgstr "조준선 내 적 전차 부품 피해 정도 파악에 걸리는 시간"
+
+msgid "kpi/bonus/negative/demaskFoliageFactor"
+msgstr "수풀 뒤 적 전차 위장률"
+
+msgid "kpi/bonus/negative/demaskMovingFactor"
+msgstr "기동 중인 적 전차 위장률"
+
+msgid "kpi/bonus/negative/enemyModulesCrewCritChance"
+msgstr "적 전차 부품 손상 및 승무원 부상 유발 확률"
+
+msgid "kpi/bonus/negative/equipmentPreparationTime"
+msgstr "소모품 재사용 시간"
+
+msgid "kpi/bonus/negative/fireExtinguishingRate"
+msgstr "화재 진압 속도"
+
+msgid "kpi/bonus/negative/foliageMaskingFactor"
+msgstr "수풀 뒤 위장률"
+
+msgid "kpi/bonus/negative/hpRecover"
+msgstr "수리 도구로 회복되는 내구도"
+
+msgid "kpi/bonus/negative/mediumGroundFactor"
+msgstr "다소 무른 지형에서 속도 유지력"
+
+msgid "kpi/bonus/negative/penaltyToDamagedSurveyingDevice"
+msgstr "관측 장치 손상으로 인한 관측 범위 저하 효과"
+
+msgid "kpi/bonus/negative/piercingHEShellsDistributionUpperBound"
+msgstr "최대 기대 관통력"
+
+msgid "kpi/bonus/negative/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "전차 파괴 후 적 전차의 위치를 송신하는 시간"
+
+msgid "kpi/bonus/negative/radiomanHitChance"
+msgstr "무전수 부상 방지 확률"
+
+msgid "kpi/bonus/negative/shellVelocity"
+msgstr "포탄 속도"
+
+msgid "kpi/bonus/negative/softGroundFactor"
+msgstr "무른 지형에서 속도 유지력"
+
+msgid "kpi/bonus/negative/stunResistanceEffectFactor"
+msgstr "승무원 폭발 충격 시 성능 저하 효과"
+
+msgid "kpi/bonus/negative/suspensionDamageReduction"
+msgstr "현가장치가 받는 피해"
+
+msgid "kpi/bonus/negative/suspensionRepairSpeed"
+msgstr "현가장치 수리 속도"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedAmmorack"
+msgstr "장전 속도 저하 효과"
+
+msgid "kpi/bonus/negative/vehPenaltyForDamagedEngine"
+msgstr "엔진 손상으로 인한 저하 효과"
+
+msgid "kpi/bonus/negative/vehicleAllGroundRotationSpeed"
+msgstr "차체 회전 속도"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "내부 부품 내구력"
+
+msgid "kpi/bonus/negative/vehicleAmmoBayStrength"
+msgstr "탄약고 내구력"
+
+msgid "kpi/bonus/negative/vehicleBackwardMaxSpeed"
+msgstr "최고 후진 속력"
+
+msgid "kpi/bonus/negative/vehicleCamouflage"
+msgstr "위장률"
+
+msgid "kpi/bonus/negative/vehicleCamouflageGroup"
+msgstr "위장률 상승치"
+
+msgid "kpi/bonus/negative/vehicleChassisFallDamage"
+msgstr "충격 피해"
+
+msgid "kpi/bonus/negative/vehicleChassisRepairSpeed"
+msgstr "현가장치 수리 속도"
+
+msgid "kpi/bonus/negative/vehicleChassisStrength"
+msgstr "현가장치 내구력"
+
+msgid "kpi/bonus/negative/vehicleCircularVisionRadius"
+msgstr "관측 범위"
+
+msgid "kpi/bonus/negative/vehicleEnemySpottingTime"
+msgstr "적 전차 발견 유지 시간"
+
+msgid "kpi/bonus/negative/vehicleEnginePower"
+msgstr "엔진 출력"
+
+msgid "kpi/bonus/negative/vehicleFallingDamageResistance"
+msgstr "충격 피해"
+
+msgid "kpi/bonus/negative/vehicleFireChance"
+msgstr "화재 발생 확률"
+
+msgid "kpi/bonus/negative/vehicleForwardMaxSpeed"
+msgstr "최고 전진 속력"
+
+msgid "kpi/bonus/negative/vehicleFuelTankLesionChance"
+msgstr "연료 탱크 손상 확률"
+
+msgid "kpi/bonus/negative/vehicleGunAimSpeed"
+msgstr "조준 속도"
+
+msgid "kpi/bonus/negative/vehicleGunReloadTime"
+msgstr "재장전 시간"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersion"
+msgstr "기동 시/차체 회전 시 분산도"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionAfterShot"
+msgstr "사격 후 조준원 크기"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "기동 시 분산도"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "차체 회전 시 분산도"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "주포 회전 시 분산도"
+
+msgid "kpi/bonus/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "주포 손상 시 분산도"
+
+msgid "kpi/bonus/negative/vehicleGunShotFullDispersion"
+msgstr "조준원 크기"
+
+msgid "kpi/bonus/negative/vehicleHEShellDamageResistance"
+msgstr "고폭탄 피해"
+
+msgid "kpi/bonus/negative/vehicleInvisibilityAfterShot"
+msgstr "사격 후 위장률"
+
+msgid "kpi/bonus/negative/vehicleOwnSpottingTime"
+msgstr "자신의 전차 발각 유지 시간"
+
+msgid "kpi/bonus/negative/vehicleRamChassisDamageResistance"
+msgstr "충돌로 입는 현가장치 피해"
+
+msgid "kpi/bonus/negative/vehicleRamDamageResistance"
+msgstr "충돌로 입는 피해"
+
+msgid "kpi/bonus/negative/vehicleReloadTimeAfterShellChange"
+msgstr "장전된 포탄 유형 변경 속도"
+
+msgid "kpi/bonus/negative/vehicleRepairSpeed"
+msgstr "수리 속도"
+
+msgid "kpi/bonus/negative/vehicleSpeedGain"
+msgstr "모든 지형에서 속도 유지력"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflage"
+msgstr "정지 시 위장률"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageDeluxe"
+msgstr "정지 시 위장률"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroup"
+msgstr "정지 시 위장률 상승치"
+
+msgid "kpi/bonus/negative/vehicleStillCamouflageGroupDeluxe"
+msgstr "정지 시 위장률 상승치"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadius"
+msgstr "정지 시 관측 범위"
+
+msgid "kpi/bonus/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "정지 시 관측 범위"
+
+msgid "kpi/bonus/negative/vehicleStrength"
+msgstr "전차 내구도"
+
+msgid "kpi/bonus/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "포탑 회전 속도 및 주포 회전 속도"
+
+msgid "kpi/bonus/negative/vehicleTurretRotationSpeed"
+msgstr "포탑 회전 속도"
+
+msgid "kpi/bonus/negative/wheelsRotationSpeed"
+msgstr "차륜 전차 선회 속도"
+
+msgid "kpi/bonus/negative/woundedCrewEfficiency"
+msgstr "승무원(전차장 제외) 부상 시 저하 효과"
+
+msgid "kpi/bonus/neutral/artNotificationDelayFactor"
+msgstr "음향 탐지 발동 지연 시간"
+
+msgid "kpi/bonus/neutral/damageMonitoringDelay"
+msgstr "조준선 내 적 전차 부품 피해 정도 파악에 걸리는 시간"
+
+msgid "kpi/bonus/neutral/radiomanDurationPerLevel"
+msgstr "전차 파괴 후 적 전차 발견 유지 시간"
+
+msgid "kpi/bonus/positive/HEShellDamage"
+msgstr "고폭탄 공격력"
+
+msgid "kpi/bonus/positive/HEShellPenetration"
+msgstr "고폭탄 관통력"
+
+msgid "kpi/bonus/positive/HEshellVelocity"
+msgstr "고폭탄 포탄 속도"
+
+msgid "kpi/bonus/positive/additionalShellAmmoCapacity"
+msgstr "탄약 적재량"
+
+msgid "kpi/bonus/positive/allShellDamage"
+msgstr "모든 포탄 공격력"
+
+msgid "kpi/bonus/positive/allShellsVelocity"
+msgstr "모든 유형 포탄 속도"
+
+msgid "kpi/bonus/positive/artNotificationDelayFactor"
+msgstr "음향 탐지 발동 지연 시간"
+
+msgid "kpi/bonus/positive/basicShellDamage"
+msgstr "기본 포탄 공격력"
+
+msgid "kpi/bonus/positive/commanderLampDelay"
+msgstr "발각되었는지 파악하는 시간"
+
+msgid "kpi/bonus/positive/coolingPerSec"
+msgstr "주포 냉각 속도"
+
+msgid "kpi/bonus/positive/crewHitChance"
+msgstr "승무원 부상 방지 확률"
+
+msgid "kpi/bonus/positive/crewLevel"
+msgstr "승무원 숙련도 보너스"
+
+msgid "kpi/bonus/positive/crewRepeatedStunDuration"
+msgstr "추가 폭발 충격 지속 시간"
+
+msgid "kpi/bonus/positive/crewStunDuration"
+msgstr "폭발 충격 지속 시간"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionLowerBound"
+msgstr "최소 기대 피해 및 기대 관통 수치"
+
+msgid "kpi/bonus/positive/damageAndPiercingDistributionUpperBound"
+msgstr "최대 기대 피해 및 기대 관통 수치"
+
+msgid "kpi/bonus/positive/damageEnemiesByRamming"
+msgstr "충돌로 입히는 피해"
+
+msgid "kpi/bonus/positive/damagedModulesDetectionTime"
+msgstr "조준선 내 적 전차 부품 피해 정도 파악에 걸리는 시간"
+
+msgid "kpi/bonus/positive/demaskFoliageFactor"
+msgstr "수풀 뒤 적 전차 위장률"
+
+msgid "kpi/bonus/positive/demaskMovingFactor"
+msgstr "기동 중인 적 전차 위장률"
+
+msgid "kpi/bonus/positive/enemyModulesCrewCritChance"
+msgstr "적 전차 부품 손상 및 승무원 부상 유발 확률"
+
+msgid "kpi/bonus/positive/engineHP"
+msgstr "엔진 내구력"
+
+msgid "kpi/bonus/positive/equipmentPreparationTime"
+msgstr "소모품 재사용 시간"
+
+msgid "kpi/bonus/positive/fireExtinguishingRate"
+msgstr "화재 진압 속도"
+
+msgid "kpi/bonus/positive/foliageMaskingFactor"
+msgstr "수풀 뒤 위장률"
+
+msgid "kpi/bonus/positive/fuelTankHP"
+msgstr "연료 탱크 내구력"
+
+msgid "kpi/bonus/positive/gunDepression"
+msgstr "주포 내림각"
+
+msgid "kpi/bonus/positive/gunElevation"
+msgstr "주포 올림각"
+
+msgid "kpi/bonus/positive/gunStabilization"
+msgstr "주포 안정성"
+
+msgid "kpi/bonus/positive/gunTraverse"
+msgstr "주포 회전 한계"
+
+msgid "kpi/bonus/positive/hpRecover"
+msgstr "수리 도구로 회복되는 내구도"
+
+msgid "kpi/bonus/positive/hullElevationSpeed"
+msgstr "차체 고각 조절 속도"
+
+msgid "kpi/bonus/positive/mediumGroundFactor"
+msgstr "다소 무른 지형에서 속도 유지력"
+
+msgid "kpi/bonus/positive/nonHEShellDamage"
+msgstr "고폭탄 이외의 포탄 공격력"
+
+msgid "kpi/bonus/positive/penaltyToDamagedSurveyingDevice"
+msgstr "관측 장치 손상으로 인한 관측 범위 저하 효과"
+
+msgid "kpi/bonus/positive/piercingHEShellsDistributionUpperBound"
+msgstr "최대 기대 관통력"
+
+msgid "kpi/bonus/positive/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "전차 파괴 후 적 전차의 위치를 송신하는 시간"
+
+msgid "kpi/bonus/positive/radiomanHitChance"
+msgstr "무전수 부상 방지 확률"
+
+msgid "kpi/bonus/positive/reloadTimeInClip"
+msgstr "클립 내 재장전 시간"
+
+msgid "kpi/bonus/positive/reloadTimeSalvo"
+msgstr "재장전 시간(일제 사격 모드)"
+
+msgid "kpi/bonus/positive/reloadTimeSingle"
+msgstr "재장전 시간(단발 사격 모드)"
+
+msgid "kpi/bonus/positive/shellModuleDamage"
+msgstr "포탄으로 적 부품에 입히는 피해"
+
+msgid "kpi/bonus/positive/shellVelocity"
+msgstr "포탄 속도"
+
+msgid "kpi/bonus/positive/softGroundFactor"
+msgstr "무른 지형에서 속도 유지력"
+
+msgid "kpi/bonus/positive/specialShellDamage"
+msgstr "특별 포탄 공격력"
+
+msgid "kpi/bonus/positive/specialShellPenetration"
+msgstr "특별 포탄 관통력"
+
+msgid "kpi/bonus/positive/specialShellVelocity"
+msgstr "특별 포탄 속도"
+
+msgid "kpi/bonus/positive/standardShellDamage"
+msgstr "기본 포탄 공격력"
+
+msgid "kpi/bonus/positive/standardShellPenetration"
+msgstr "기본 포탄 관통력"
+
+msgid "kpi/bonus/positive/standardShellVelocity"
+msgstr "기본 포탄 속도"
+
+msgid "kpi/bonus/positive/stunResistanceEffectFactor"
+msgstr "승무원 폭발 충격 시 성능 저하 효과"
+
+msgid "kpi/bonus/positive/suspensionDamageReduction"
+msgstr "현가장치가 받는 피해"
+
+msgid "kpi/bonus/positive/suspensionRepairSpeed"
+msgstr "현가장치 수리 속도"
+
+msgid "kpi/bonus/positive/turretTraverse"
+msgstr "포탑 회전 한계"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedAmmorack"
+msgstr "장전 속도 저하 효과"
+
+msgid "kpi/bonus/positive/vehPenaltyForDamagedEngine"
+msgstr "엔진 손상으로 인한 저하 효과"
+
+msgid "kpi/bonus/positive/vehicleAllGroundRotationSpeed"
+msgstr "차체 회전 속도"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "내부 부품 내구력"
+
+msgid "kpi/bonus/positive/vehicleAmmoBayStrength"
+msgstr "탄약고 내구력"
+
+msgid "kpi/bonus/positive/vehicleBackwardMaxSpeed"
+msgstr "최고 후진 속력"
+
+msgid "kpi/bonus/positive/vehicleCamouflage"
+msgstr "위장률"
+
+msgid "kpi/bonus/positive/vehicleCamouflageGroup"
+msgstr "위장률 상승치"
+
+msgid "kpi/bonus/positive/vehicleChassisFallDamage"
+msgstr "추락 피해"
+
+msgid "kpi/bonus/positive/vehicleChassisRepairSpeed"
+msgstr "현가장치 수리 속도"
+
+msgid "kpi/bonus/positive/vehicleChassisStrength"
+msgstr "현가장치 내구력"
+
+msgid "kpi/bonus/positive/vehicleCircularVisionRadius"
+msgstr "관측 범위 (최대 445m)"
+
+msgid "kpi/bonus/positive/vehicleEnemySpottingTime"
+msgstr "적 전차 발견 유지 시간"
+
+msgid "kpi/bonus/positive/vehicleEnginePower"
+msgstr "엔진 출력"
+
+msgid "kpi/bonus/positive/vehicleFallingDamageResistance"
+msgstr "충격 피해"
+
+msgid "kpi/bonus/positive/vehicleFireChance"
+msgstr "화재 발생 확률"
+
+msgid "kpi/bonus/positive/vehicleForwardMaxSpeed"
+msgstr "최고 전진 속력"
+
+msgid "kpi/bonus/positive/vehicleFuelTankLesionChance"
+msgstr "연료 탱크 손상 확률"
+
+msgid "kpi/bonus/positive/vehicleGunAimSpeed"
+msgstr "조준 속도"
+
+msgid "kpi/bonus/positive/vehicleGunReloadTime"
+msgstr "재장전 시간"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersion"
+msgstr "기동 시/차체 회전 시 분산도"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionAfterShot"
+msgstr "사격 후 조준원 크기"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "기동 시 분산도"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "차체 회전 시 분산도"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "주포 회전 시 분산도"
+
+msgid "kpi/bonus/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "주포 손상 시 분산도"
+
+msgid "kpi/bonus/positive/vehicleGunShotFullDispersion"
+msgstr "조준원 크기"
+
+msgid "kpi/bonus/positive/vehicleHEShellDamageResistance"
+msgstr "고폭탄 피해"
+
+msgid "kpi/bonus/positive/vehicleInvisibilityAfterShot"
+msgstr "사격 후 위장률"
+
+msgid "kpi/bonus/positive/vehicleOwnSpottingTime"
+msgstr "자신의 전차 발각 유지 시간"
+
+msgid "kpi/bonus/positive/vehicleRamChassisDamageResistance"
+msgstr "충돌로 입는 현가장치 피해"
+
+msgid "kpi/bonus/positive/vehicleRamDamageResistance"
+msgstr "충돌로 입는 피해"
+
+msgid "kpi/bonus/positive/vehicleReloadTimeAfterShellChange"
+msgstr "장전된 포탄 유형 변경 속도"
+
+msgid "kpi/bonus/positive/vehicleRepairSpeed"
+msgstr "수리 속도"
+
+msgid "kpi/bonus/positive/vehicleSpeed"
+msgstr "최고 전진/후진 속력"
+
+msgid "kpi/bonus/positive/vehicleSpeedGain"
+msgstr "모든 지형에서 속도 유지력"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflage"
+msgstr "정지 시 위장률"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageDeluxe"
+msgstr "정지 시 위장률"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroup"
+msgstr "정지 시 위장률 상승치"
+
+msgid "kpi/bonus/positive/vehicleStillCamouflageGroupDeluxe"
+msgstr "정지 시 위장률 상승치"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadius"
+msgstr "정지 시 관측 범위 (최대 445m)"
+
+msgid "kpi/bonus/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "정지 시 관측 범위 (최대 445m)"
+
+msgid "kpi/bonus/positive/vehicleStrength"
+msgstr "전차 내구도"
+
+msgid "kpi/bonus/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "포탑 회전 속도 및 주포 회전 속도"
+
+msgid "kpi/bonus/positive/vehicleTurretRotationSpeed"
+msgstr "포탑 회전 속도"
+
+msgid "kpi/bonus/positive/wheelsRotationSpeed"
+msgstr "차륜 전차 선회 속도"
+
+msgid "kpi/bonus/positive/woundedCrewEfficiency"
+msgstr "승무원(전차장 제외) 부상 시 저하 효과"
+
+msgid "kpi/bonus/ttc/negative/commanderLampDelay"
+msgstr "발각되었는지 파악하는 시간"
+
+msgid "kpi/bonus/ttc/negative/crewHitChance"
+msgstr "승무원 부상 방지 확률"
+
+msgid "kpi/bonus/ttc/negative/crewLevel"
+msgstr "승무원 숙련도 보너스"
+
+msgid "kpi/bonus/ttc/negative/crewRepeatedStunDuration"
+msgstr "추가 폭발 충격 지속 시간"
+
+msgid "kpi/bonus/ttc/negative/crewStunDuration"
+msgstr "폭발 충격 지속 시간"
+
+msgid "kpi/bonus/ttc/negative/damageEnemiesByRamming"
+msgstr "충돌로 입히는 피해"
+
+msgid "kpi/bonus/ttc/negative/damageMonitoringDelay"
+msgstr "조준선 내 적 전차 부품 피해 정도 파악에 걸리는 시간"
+
+msgid "kpi/bonus/ttc/negative/demaskFoliageFactor"
+msgstr "수풀 뒤 적 전차 위장률"
+
+msgid "kpi/bonus/ttc/negative/demaskMovingFactor"
+msgstr "기동 중인 적 전차 위장률"
+
+msgid "kpi/bonus/ttc/negative/hpRecover"
+msgstr "수리 도구로 회복되는 내구도"
+
+msgid "kpi/bonus/ttc/negative/magazineGunReloadSpeed"
+msgstr "클립 재장전 시간"
+
+msgid "kpi/bonus/ttc/negative/piercingHEShellsDistributionUpperBound"
+msgstr "최대 기대 관통력"
+
+msgid "kpi/bonus/ttc/negative/radiomanChanceToHitPerLevel"
+msgstr "무전수 부상 방지 확률"
+
+msgid "kpi/bonus/ttc/negative/shellVelocity"
+msgstr "모든 유형 포탄 속도"
+
+msgid "kpi/bonus/ttc/negative/shotDispersionAngle"
+msgstr "주포 분산도"
+
+msgid "kpi/bonus/ttc/negative/suspensionRepairSpeed"
+msgstr "현가장치 수리 속도"
+
+msgid "kpi/bonus/ttc/negative/turretAimingDispersion"
+msgstr "주포 회전 시 분산도"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedAmmorack"
+msgstr "장전 속도 저하 효과"
+
+msgid "kpi/bonus/ttc/negative/vehPenaltyForDamagedEngine"
+msgstr "피해로 인한 엔진 출력 감소 효과"
+
+msgid "kpi/bonus/ttc/negative/vehicleAllGroundRotationSpeed"
+msgstr "차체 회전 속도"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayEngineFuelStrength"
+msgstr "내부 부품 내구력"
+
+msgid "kpi/bonus/ttc/negative/vehicleAmmoBayStrength"
+msgstr "탄약고 내구력"
+
+msgid "kpi/bonus/ttc/negative/vehicleBackwardMaxSpeed"
+msgstr "최고 후진 속력"
+
+msgid "kpi/bonus/ttc/negative/vehicleCamouflage"
+msgstr "위장률"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisFallDamage"
+msgstr "충격 피해"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisRepairSpeed"
+msgstr "현가장치 수리 속도"
+
+msgid "kpi/bonus/ttc/negative/vehicleChassisStrength"
+msgstr "현가장치 내구력"
+
+msgid "kpi/bonus/ttc/negative/vehicleCircularVisionRadius"
+msgstr "관측 범위"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnemySpottingTime"
+msgstr "적 전차 발견 유지 시간"
+
+msgid "kpi/bonus/ttc/negative/vehicleEnginePower"
+msgstr "엔진 출력"
+
+msgid "kpi/bonus/ttc/negative/vehicleFallingDamageResistance"
+msgstr "충격 피해"
+
+msgid "kpi/bonus/ttc/negative/vehicleFireChance"
+msgstr "화재 발생 확률"
+
+msgid "kpi/bonus/ttc/negative/vehicleForwardMaxSpeed"
+msgstr "최고 전진 속력"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunAimSpeed"
+msgstr "조준 속도"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunReloadTime"
+msgstr "재장전 시간"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersion"
+msgstr "기동 시/차체 회전 시 분산도"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionAfterShot"
+msgstr "사격 후 조준원 크기"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisMovement"
+msgstr "기동 시 분산도"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionChassisRotation"
+msgstr "차체 회전 시 분산도"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionTurretRotation"
+msgstr "주포 회전 시 분산도"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "주포 손상 시 분산도"
+
+msgid "kpi/bonus/ttc/negative/vehicleGunShotFullDispersion"
+msgstr "조준원 크기"
+
+msgid "kpi/bonus/ttc/negative/vehicleHEShellDamageResistance"
+msgstr "고폭탄 피해"
+
+msgid "kpi/bonus/ttc/negative/vehicleInvisibilityAfterShot"
+msgstr "사격 후 위장률"
+
+msgid "kpi/bonus/ttc/negative/vehicleOwnSpottingTime"
+msgstr "자신의 전차 발각 유지 시간"
+
+msgid "kpi/bonus/ttc/negative/vehicleRamDamageResistance"
+msgstr "충돌로 입는 피해"
+
+msgid "kpi/bonus/ttc/negative/vehicleReloadTimeAfterShellChange"
+msgstr "포탄 유형 변경 속도"
+
+msgid "kpi/bonus/ttc/negative/vehicleRepairSpeed"
+msgstr "수리 속도"
+
+msgid "kpi/bonus/ttc/negative/vehicleSpeedGain"
+msgstr "속도 유지력"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflage"
+msgstr "정지 시 위장률"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCamouflageDeluxe"
+msgstr "정지 시 위장률"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadius"
+msgstr "관측 범위"
+
+msgid "kpi/bonus/ttc/negative/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "관측 범위"
+
+msgid "kpi/bonus/ttc/negative/vehicleStrength"
+msgstr "전차 내구도"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretOrCuttingRotationSpeed"
+msgstr "주포 회전 속도"
+
+msgid "kpi/bonus/ttc/negative/vehicleTurretRotationSpeed"
+msgstr "포탑 회전 속도"
+
+msgid "kpi/bonus/ttc/negative/woundedCrewEfficiency"
+msgstr "승무원 부상으로 인한 저하 효과 (전차장 제외)"
+
+msgid "kpi/bonus/ttc/positive/commanderLampDelay"
+msgstr "발각되었는지 파악하는 시간"
+
+msgid "kpi/bonus/ttc/positive/crewHitChance"
+msgstr "승무원 부상 방지 확률"
+
+msgid "kpi/bonus/ttc/positive/crewLevel"
+msgstr "승무원 숙련도 보너스"
+
+msgid "kpi/bonus/ttc/positive/crewLevelIncrease"
+msgstr "승무원 숙련도 보너스"
+
+msgid "kpi/bonus/ttc/positive/crewRepeatedStunDuration"
+msgstr "추가 폭발 충격 지속 시간"
+
+msgid "kpi/bonus/ttc/positive/crewStunDuration"
+msgstr "폭발 충격 지속 시간"
+
+msgid "kpi/bonus/ttc/positive/damageAndPiercingDistributionLowerBound"
+msgstr "최소 기대 피해 및 기대 관통 수치"
+
+msgid "kpi/bonus/ttc/positive/damageEnemiesByRamming"
+msgstr "충돌로 입히는 피해"
+
+msgid "kpi/bonus/ttc/positive/demaskFoliageFactor"
+msgstr "수풀 뒤 적 전차 위장률"
+
+msgid "kpi/bonus/ttc/positive/demaskMovingFactor"
+msgstr "기동 중인 적 전차 위장률"
+
+msgid "kpi/bonus/ttc/positive/enemyModulesCrewCritChance"
+msgstr "적 전차 부품 손상 및 승무원 부상 유발 확률"
+
+msgid "kpi/bonus/ttc/positive/fireExtinguishingRate"
+msgstr "화재 진압 속도"
+
+msgid "kpi/bonus/ttc/positive/hpRecover"
+msgstr "수리 도구로 회복되는 내구도"
+
+msgid "kpi/bonus/ttc/positive/magazineGunReloadSpeed"
+msgstr "클립 재장전 시간"
+
+msgid "kpi/bonus/ttc/positive/maskingFactor"
+msgstr "전차 위장률"
+
+msgid "kpi/bonus/ttc/positive/mediumGroundFactor"
+msgstr "다소 무른 지형에서 속도 유지력"
+
+msgid "kpi/bonus/ttc/positive/piercingHEShellsDistributionUpperBound"
+msgstr "최대 기대 관통력"
+
+msgid "kpi/bonus/ttc/positive/radioDistance"
+msgstr "통신 범위"
+
+msgid "kpi/bonus/ttc/positive/radiomanChanceToHitPerLevel"
+msgstr "무전수 부상 방지 확률"
+
+msgid "kpi/bonus/ttc/positive/shellVelocity"
+msgstr "모든 유형 포탄 속도"
+
+msgid "kpi/bonus/ttc/positive/softGroundFactor"
+msgstr "무른 지형에서 속도 유지력"
+
+msgid "kpi/bonus/ttc/positive/suspensionRepairSpeed"
+msgstr "현가장치 수리 속도"
+
+msgid "kpi/bonus/ttc/positive/teamRadioBonusFactor"
+msgstr "자신의 전차 통신 범위 안에 있는 아군 전차 통신 범위"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedAmmorack"
+msgstr "장전 속도 저하 효과"
+
+msgid "kpi/bonus/ttc/positive/vehPenaltyForDamagedEngine"
+msgstr "피해로 인한 엔진 출력 감소 효과"
+
+msgid "kpi/bonus/ttc/positive/vehicleAllGroundRotationSpeed"
+msgstr "차체 회전 속도"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayEngineFuelStrength"
+msgstr "내부 부품 내구력"
+
+msgid "kpi/bonus/ttc/positive/vehicleAmmoBayStrength"
+msgstr "탄약고 내구력"
+
+msgid "kpi/bonus/ttc/positive/vehicleBackwardMaxSpeed"
+msgstr "최고 후진 속력"
+
+msgid "kpi/bonus/ttc/positive/vehicleCamouflage"
+msgstr "위장률"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisFallDamage"
+msgstr "추락 피해"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisRepairSpeed"
+msgstr "현가장치 수리 속도"
+
+msgid "kpi/bonus/ttc/positive/vehicleChassisStrength"
+msgstr "현가장치 내구력"
+
+msgid "kpi/bonus/ttc/positive/vehicleCircularVisionRadius"
+msgstr "관측 범위 (최대 445m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnemySpottingTime"
+msgstr "적 전차 발견 유지 시간"
+
+msgid "kpi/bonus/ttc/positive/vehicleEnginePower"
+msgstr "엔진 출력"
+
+msgid "kpi/bonus/ttc/positive/vehicleFallingDamageResistance"
+msgstr "충격 피해"
+
+msgid "kpi/bonus/ttc/positive/vehicleFireChance"
+msgstr "화재 발생 확률"
+
+msgid "kpi/bonus/ttc/positive/vehicleForwardMaxSpeed"
+msgstr "최고 전진 속력"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunAimSpeed"
+msgstr "조준 속도"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunReloadTime"
+msgstr "재장전 시간"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersion"
+msgstr "기동 시/차체 회전 시 분산도"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionAfterShot"
+msgstr "사격 후 조준원 크기"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisMovement"
+msgstr "기동 시 분산도"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionChassisRotation"
+msgstr "차체 회전 시 분산도"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionTurretRotation"
+msgstr "주포 회전 시 분산도"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotDispersionWhileGunDamaged"
+msgstr "주포 손상 시 분산도"
+
+msgid "kpi/bonus/ttc/positive/vehicleGunShotFullDispersion"
+msgstr "조준원 크기"
+
+msgid "kpi/bonus/ttc/positive/vehicleHEShellDamageResistance"
+msgstr "고폭탄 피해"
+
+msgid "kpi/bonus/ttc/positive/vehicleInvisibilityAfterShot"
+msgstr "사격 후 위장률"
+
+msgid "kpi/bonus/ttc/positive/vehicleOwnSpottingTime"
+msgstr "자신의 전차 발각 유지 시간"
+
+msgid "kpi/bonus/ttc/positive/vehicleRamDamageResistance"
+msgstr "충돌로 입는 피해"
+
+msgid "kpi/bonus/ttc/positive/vehicleReloadTimeAfterShellChange"
+msgstr "포탄 유형 변경 속도"
+
+msgid "kpi/bonus/ttc/positive/vehicleRepairSpeed"
+msgstr "수리 속도"
+
+msgid "kpi/bonus/ttc/positive/vehicleSpeedGain"
+msgstr "속도 유지력"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflage"
+msgstr "정지 시 위장률"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCamouflageDeluxe"
+msgstr "정지 시 위장률"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadius"
+msgstr "정지 시 관측 범위 (최대 445m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStillCircularVisionRadiusDeluxe"
+msgstr "정지 시 관측 범위 (최대 445m)"
+
+msgid "kpi/bonus/ttc/positive/vehicleStrength"
+msgstr "전차 내구도"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretOrCuttingRotationSpeed"
+msgstr "주포 회전 속도"
+
+msgid "kpi/bonus/ttc/positive/vehicleTurretRotationSpeed"
+msgstr "포탑 회전 속도"
+
+msgid "kpi/bonus/ttc/positive/xpBonusFactorPerLevel"
+msgstr "전투당 승무원 경험치"
+
+msgid "kpi/bonus/valueTypes/artNotificationDelayFactor"
+msgstr "초"
+
+msgid "kpi/bonus/valueTypes/brackets"
+msgstr "(%(value)s)"
+
+msgid "kpi/bonus/valueTypes/commanderLampDelay"
+msgstr "초"
+
+msgid "kpi/bonus/valueTypes/damagedModulesDetectionTime"
+msgstr "초"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/radiomanActivityTimeAfterVehicleDestroy"
+msgstr "초"
+
+msgid "kpi/bonus/valueTypes/vehicleBackwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleEnemySpottingTime"
+msgstr "초"
+
+msgid "kpi/bonus/valueTypes/vehicleForwardMaxSpeed"
+msgstr "km/h"
+
+msgid "kpi/bonus/valueTypes/vehicleOwnSpottingTime"
+msgstr "초"
+
+msgid "popularLoadouts/common"
+msgstr "인기"
+
+msgid "popularLoadouts/commonlyUsed"
+msgstr "인기 구성"
+
+msgid "popularLoadouts/legendary"
+msgstr "레전드"
+
+msgid "popularLoadouts/noData"
+msgstr "데이터 없음"
+
+msgid "popularLoadouts/noDataLegendary"
+msgstr "데이터 없음"
+
+msgid "popularLoadouts/tooltip/commonlyUsed"
+msgstr "%(whiteSpanish_Open)s인기:%(whiteSpanish_Close)s 월드 오브 탱크의 모든 플레이어를 기준으로 한 현재 장비 동향"
+
+msgid "popularLoadouts/tooltip/conditions"
+msgstr "데이터 수집"
+
+msgid "popularLoadouts/tooltip/dataForOnslaught"
+msgstr "격전 현재 시즌 데이터가 아직 준비되지 않았다면 지난 시즌 데이터를 대신 사용"
+
+msgid "popularLoadouts/tooltip/dataTaken"
+msgstr "어시스턴트는 %(whiteSpanish_Open)s무작위 전투%(whiteSpanish_Close)s와 %(whiteSpanish_Open)s격전%(whiteSpanish_Close)s에서 이용 가능"
+
+msgid "popularLoadouts/tooltip/genericItems"
+msgstr "모든 유형의 장비 데이터 집계"
+
+msgid "popularLoadouts/tooltip/header"
+msgstr "WoT 플러스 혜택"
+
+msgid "popularLoadouts/tooltip/headerDescription"
+msgstr "수많은 플레이어의 통계를 바탕으로 제공되는 정확한 장비 데이터를 확인하고 전투 효율을 최대로 높여 보십시오."
+
+msgid "popularLoadouts/tooltip/headerTitle"
+msgstr "장비 어시스턴트"
+
+msgid "popularLoadouts/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)s레전드:%(whiteSpanish_Close)s 월드 오브 탱크 레이팅이 레전드 레벨인 플레이어를 기준으로 한 현재 장비 동향"
+
+msgid "popularLoadouts/tooltip/loadoutTypes"
+msgstr "구성 유형"
+
+msgid "popularLoadouts/tooltip/notEnoughData/combinedDescription"
+msgstr "플레이 스타일이 비슷한 전차에 인기 있는 구성을 기준으로 한 구성이 표시됩니다."
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerDescription"
+msgstr "플레이 스타일이 비슷한 아래 전차의 데이터가 표시됩니다."
+
+msgid "popularLoadouts/tooltip/notEnoughData/headerTitle"
+msgstr "구성 데이터 이용 불가"
+
+msgid "popularLoadouts/vehicleNotAvailable"
+msgstr "선택한 전차는 해당 게임 모드에서 이용 불가"
+
+msgid "section/battleAbilities"
+msgstr "전시 물자"
+
+msgid "section/battleBoosters"
+msgstr "지휘명령"
+
+msgid "section/consumables"
+msgstr "소모품"
+
+msgid "section/modules"
+msgstr "부품"
+
+msgid "section/optDevices"
+msgstr "장비"
+
+msgid "section/shells"
+msgstr "포탄"
+
+msgid "section/toggleCamouflage"
+msgstr "위장"
+
+msgid "section/toggleShells"
+msgstr "포탄"
+
+msgid "shells/ammunitionFull"
+msgstr "최대 포탄"
+
+msgid "shells/ammunitionIncomplete"
+msgstr "포탄 부족"
+
+msgid "shells/autoFillOff"
+msgstr "자동 재보급 비활성화"
+
+msgid "shells/autofillOn"
+msgstr "자동 재보급 활성화"
+
+msgid "shells/shortSpecification/inStorage"
+msgstr "보유 중:"
+
+msgid "shells/shortSpecification/inVehicle"
+msgstr "탑재 중:"
+
+msgid "shells/shortSpecification/price"
+msgstr "구매:"
+
+msgid "shells/specification/inStorage"
+msgstr "보유 중"
+
+msgid "shells/specification/inVehicle"
+msgstr "탑재 중"
+
+msgid "shells/specification/price"
+msgstr "구매"
+
+msgid "shells/title"
+msgstr "포탄"
+
+msgid "shells/type/base"
+msgstr "일반 (AP)"
+
+msgid "shells/type/special"
+msgstr "특별 (HE)"
+
+msgid "shells/type/tactical"
+msgstr "전술 (APCR)"
+
+msgid "tabs/crew"
+msgstr "승무원"
+
+msgid "tabs/deluxe"
+msgstr "강화"
+
+msgid "tabs/modernized"
+msgstr "시제"
+
+msgid "tabs/optDevice"
+msgstr "장비"
+
+msgid "tabs/simple"
+msgstr "일반"
+
+msgid "tabs/trophy"
+msgstr "포상"
+
+msgid "tooltip/autoRenewal/body/boosters"
+msgstr "전투 종료 시 지휘명령을 자동으로 재보급합니다. 보관소에 보유 중인 지휘명령을 사용하거나 게임 내 통화로 구매합니다."
+
+msgid "tooltip/autoRenewal/body/consumables"
+msgstr "전투 종료 시 사용한 소모품을 자동으로 재보급합니다."
+
+msgid "tooltip/autoRenewal/body/repair"
+msgstr "전투 종료 시 손상된 전차를 자동으로 수리합니다."
+
+msgid "tooltip/autoRenewal/body/shells"
+msgstr "전투 종료 시 사용한 포탄을 자동으로 재보급합니다."
+
+msgid "tooltip/autoRenewal/header/general"
+msgstr "자동 재보급"
+
+msgid "tooltip/autoRenewal/header/repair"
+msgstr "자동 수리"
+
+msgid "tooltip/deconstructConfirm/deconstructFromInventory"
+msgstr "보관소 재고 분해: %(amount)s"
+
+msgid "tooltip/deconstructConfirm/deconstructFromVehicle"
+msgstr "전차에 장착 중인 장비 분해: %(vehicleNames)s"
+
+msgid "tooltip/deconstructConfirm/listSeparator"
+msgstr ", "
+
+msgid "tooltips/action/description/add_one"
+msgstr "해당 슬롯의 추가 아이템을 구매합니다."
+
+msgid "tooltips/action/description/demount"
+msgstr "해당 슬롯에 장착된 장비를 해체합니다."
+
+msgid "tooltips/action/description/demount_from_setup"
+msgstr "해당 슬롯에 장착된 장비를 해체합니다."
+
+msgid "tooltips/action/description/demount_from_setups"
+msgstr "모든 구성에 장착된 장비를 해체합니다."
+
+msgid "tooltips/action/description/demount_plus"
+msgstr "WoT 플러스 활성화에 따른 혜택으로 해당 슬롯에 장착된 장비를 무료로 해체합니다."
+
+msgid "tooltips/action/description/destroy"
+msgstr "해당 슬롯에 장착된 장비를 파괴합니다. WoT 플러스를 활성화하면 무료로 해체할 수 있습니다."
+
+msgid "tooltips/action/description/destroy_modernized"
+msgstr "장비를 부속품으로 분해합니다."
+
+msgid "tooltips/action/description/destroy_without_wotplus_demount"
+msgstr "해당 슬롯에 장착된 장비를 파괴합니다."
+
+msgid "tooltips/action/description/swap"
+msgstr "슬롯 간의 아이템을 변경합니다."
+
+msgid "tooltips/action/description/upgrade"
+msgstr "장비 강화 시 성능이 향상됩니다."
+
+msgid "tooltips/action/description/upgrade_last_modernized"
+msgstr "장비 강화 시 성능이 향상됩니다."
+
+msgid "tooltips/action/description/upgrade_modernized"
+msgstr "장비 강화 시 성능이 향상됩니다."
+
+msgid "tooltips/action/title/add_one"
+msgstr "구매"
+
+msgid "tooltips/action/title/cancel"
+msgstr "보관소로 보내기"
+
+msgid "tooltips/action/title/demount"
+msgstr "해체"
+
+msgid "tooltips/action/title/demount_from_setup"
+msgstr "해체"
+
+msgid "tooltips/action/title/demount_from_setups"
+msgstr "모든 구성에서 해체"
+
+msgid "tooltips/action/title/demount_plus"
+msgstr "무료로 해체"
+
+msgid "tooltips/action/title/destroy"
+msgstr "파괴"
+
+msgid "tooltips/action/title/destroy_modernized"
+msgstr "분해"
+
+msgid "tooltips/action/title/swap"
+msgstr "순서 변경"
+
+msgid "tooltips/action/title/undo"
+msgstr "슬롯에서 제거"
+
+msgid "tooltips/action/title/upgrade"
+msgstr "강화"
+
+msgid "tooltips/action/title/upgrade_last_modernized"
+msgstr "강화"
+
+msgid "tooltips/action/title/upgrade_modernized"
+msgstr "강화"
+
+msgid "tooltips/additional"
+msgstr "추가 정보"
+
+msgid "tooltips/categories/list"
+msgstr "부품 목록을 확인합니다."
+
+msgid "tooltips/dynamicCategory/desc"
+msgstr "야전 개량 메뉴나 장비 선택 화면에서 해당 슬롯 범주를 다시 지정할 수 있습니다."
+
+msgid "tooltips/dynamicCategory/title"
+msgstr "범주 재지정"
+
+msgid "tooltips/dynamicCategoryClickable/desc"
+msgstr "슬롯 범주를 다시 지정합니다."
+
+msgid "tooltips/equipmentList"
+msgstr "호환 장비 목록을 확인합니다."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/disabled/text"
+msgstr "시제 장비를 부속품으로 분해 불가: 해당 유형의 장비를 보유하고 있지 않습니다."
+
+msgid "tooltips/experimentalEquipCoinBlock/actions/button/notDisabled/text"
+msgstr "장비를 부속품으로 분해합니다."
+
+msgid "tooltips/howToIncrease/impossible"
+msgstr "해당 장비 장착 시 기본 성능으로 적용됩니다. 화력 범주 슬롯에 장착 시 성능이 향상되며 화력 범주 슬롯은 구축전차와 자주포에만 적용됩니다."
+
+msgid "tooltips/howToIncrease/increased"
+msgstr "전차 성능에 추가 보너스가 적용됩니다."
+
+msgid "tooltips/howToIncrease/multiple"
+msgstr "%(category)s 범주 슬롯에 해당 장비를 장착하면 전차 성능이 더욱 향상됩니다."
+
+msgid "tooltips/howToIncrease/single"
+msgstr "%(category)s 범주 슬롯에 해당 장비를 장착하면 전차 성능이 더욱 향상됩니다."
+
+msgid "tooltips/placeEquipment"
+msgstr "장비 슬롯"
+
+msgid "tooltips/prebattleSwitchIndicator/desc/1"
+msgstr "야전 개량 화면에서 전투 시작 전 초읽기 중 포탄 및 소모품 구성 전환 기능을 활성화/비활성화할 수 있습니다."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/2"
+msgstr "야전 개량 화면에서 전투 시작 전 초읽기 중 장비 및 지휘명령 구성 전환 기능을 활성화/비활성화할 수 있습니다."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/field"
+msgstr "야전 개량 화면에서 전투 시작 전 초읽기 중 포탄 및 소모품 구성 전환 기능을 활성화/비활성화할 수 있습니다."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_1/progression"
+msgstr "강화 화면에서 전투 시작 전 초읽기 중 포탄 및 소모품 구성 전환 기능을 활성화/비활성화할 수 있습니다."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/field"
+msgstr "야전 개량 화면에서 전투 시작 전 초읽기 중 장비 및 지휘명령 구성 전환 기능을 활성화/비활성화할 수 있습니다."
+
+msgid "tooltips/prebattleSwitchIndicator/desc/c_2/progression"
+msgstr "강화 화면에서 전투 시작 전 초읽기 중 장비 및 지휘명령 구성 전환 기능을 활성화/비활성화할 수 있습니다."
+
+msgid "tooltips/prebattleSwitchIndicator/title"
+msgstr "구성 전환 기능 비활성화"
+
+msgid "tooltips/separator/last"
+msgstr " 및 "
+
+msgid "tooltips/separator/other"
+msgstr ", "
+
+msgid "tooltips/specializationDesc"
+msgstr "해당 슬롯에 %(spec)s 범주 일반 장비를 장착하면 더욱 효과적입니다. 다른 범주 장비 장착 시에는 기본 성능으로 적용됩니다."
+
+msgid "tooltips/specializationName"
+msgstr "범주:"
+
+msgid "tooltips/specializationType"
+msgstr "화력"
+
+msgid "tooltips/tabs/description/body/deluxe"
+msgstr "다른 장비 유형보다 성능이 뛰어난 장비 유형입니다."
+
+msgid "tooltips/tabs/description/body/modernized"
+msgstr "레벨 3까지 강화할 수 있는 특별 장비입니다."
+
+msgid "tooltips/tabs/description/body/simple"
+msgstr "장비를 장착하면 전차 성능을 향상할 수 있습니다."
+
+msgid "tooltips/tabs/description/body/trophy"
+msgstr "일반 장비와 성능이 같지만, 강화할 수 있는 장비 유형입니다."
+
+msgid "tooltips/tabs/description/header/deluxe"
+msgstr "강화 장비"
+
+msgid "tooltips/tabs/description/header/modernized"
+msgstr "시제 장비"
+
+msgid "tooltips/tabs/description/header/simple"
+msgstr "일반 장비"
+
+msgid "tooltips/tabs/description/header/trophy"
+msgstr "포상 장비"
+
+msgid "tooltips/tabs/obtain/body/deluxe"
+msgstr "%(whiteSpanish_Open)s전쟁 채권%(whiteSpanish_Close)s으로 구매할 수 있는 장비 유형입니다. 특정 게임 업적을 달성하거나 특별 게임 이벤트에 참여하여 보상으로 획득할 수도 있습니다."
+
+msgid "tooltips/tabs/obtain/body/modernized"
+msgstr "해당 장비 유형은 특별 게임 이벤트 기간에 보상으로 획득할 수 있습니다."
+
+msgid "tooltips/tabs/obtain/body/simple"
+msgstr "게임 내 통화로 구매할 수 있는 장비 유형입니다. 특정 게임 업적을 달성하거나 특별 게임 이벤트에 참여하여 보상으로 획득할 수도 있습니다. 특정 슬롯에 장착하면 일반 장비 성능이 향상될 수도 있습니다."
+
+msgid "tooltips/tabs/obtain/body/trophy"
+msgstr "해당 장비 유형은 특별 게임 이벤트 기간에 보상으로 획득할 수 있습니다."
+
+msgid "tooltips/tabs/obtain/header/deluxe"
+msgstr "획득 방법"
+
+msgid "tooltips/tabs/obtain/header/modernized"
+msgstr "획득 방법"
+
+msgid "tooltips/tabs/obtain/header/simple"
+msgstr "장비 슬롯"
+
+msgid "tooltips/tabs/obtain/header/trophy"
+msgstr "포상 장비 구매 불가"
+
+msgid "tooltips/tabs/upgrade/body/modernized"
+msgstr "시제 장비는 %(whiteSpanish_Open)s부속품%(whiteSpanish_Close)s을 사용하여 성능을 강화할 수 있습니다. 부속품은 시제 장비를 분해하여 확보할 수 있습니다."
+
+msgid "tooltips/tabs/upgrade/body/trophy"
+msgstr "게임 내 통화를 사용하여 포상 장비 성능을 강화할 수 있습니다."
+
+msgid "tooltips/tabs/upgrade/header/modernized"
+msgstr "시제 장비 강화"
+
+msgid "tooltips/tabs/upgrade/header/trophy"
+msgstr "포상 장비 강화"

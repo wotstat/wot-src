@@ -1,0 +1,1301 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "clan/header/chatChannelBtn"
+msgstr "军团聊天"
+
+msgid "clan/header/chatChannelBtn/tooltip/body"
+msgstr "点击在军团聊天中发送一条信息。"
+
+msgid "clan/header/chatChannelBtn/tooltip/header"
+msgstr "军团聊天"
+
+msgid "clan/header/creationDate"
+msgstr "创建于%(creationDate)s"
+
+msgid "clan/header/invitesAndRequests"
+msgstr "申请和邀请"
+
+msgid "clan/header/requestSent"
+msgstr "申请已提交"
+
+msgid "clan/header/sendRequestBtn"
+msgstr "提交申请"
+
+msgid "clan/header/sendRequestBtn/tooltip/body"
+msgstr "点击申请加入这个军团。"
+
+msgid "clan/header/sendRequestBtn/tooltip/header"
+msgstr "提交申请"
+
+msgid "clan/post/combatOfficer"
+msgstr "指战官"
+
+msgid "clan/post/commander"
+msgstr "总指挥"
+
+msgid "clan/post/executiveOfficer"
+msgstr "副指挥官"
+
+msgid "clan/post/intelligenceOfficer"
+msgstr "情报官"
+
+msgid "clan/post/juniorOfficer"
+msgstr "初级军官"
+
+msgid "clan/post/personnelOfficer"
+msgstr "人事官"
+
+msgid "clan/post/private"
+msgstr "士兵"
+
+msgid "clan/post/quartermaster"
+msgstr "军需官"
+
+msgid "clan/post/recruit"
+msgstr "新兵"
+
+msgid "clan/post/recruiter"
+msgstr "征募官"
+
+msgid "clan/post/reservist"
+msgstr "预备役"
+
+msgid "clanInvite/notification/userNameError"
+msgstr "显示名称错误"
+
+msgid "clanInvitesWindow/dataUpdated"
+msgstr "表格中的数据已更新"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/link"
+msgstr "征募条件"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/text"
+msgstr "可编辑"
+
+msgid "clanInvitesWindow/dummy/noActualRequests/title"
+msgstr "军团没有未处理的申请。"
+
+msgid "clanInvitesWindow/dummy/noExpiredRequests/title"
+msgstr "军团没有过期的申请。"
+
+msgid "clanInvitesWindow/dummy/noInvites/invite"
+msgstr "邀请进入军团"
+
+msgid "clanInvitesWindow/dummy/noInvites/text"
+msgstr "点击 %(invite)s发送邀请\n给新玩家。"
+
+msgid "clanInvitesWindow/dummy/noInvites/title"
+msgstr "军团在过去28天内未发送任何邀请。"
+
+msgid "clanInvitesWindow/dummy/noInvitesActual/title"
+msgstr "军团在过去28天内无未处理的邀请。"
+
+msgid "clanInvitesWindow/dummy/noInvitesExpired/title"
+msgstr "军团在过去28天内无过期的邀请。"
+
+msgid "clanInvitesWindow/dummy/noInvitesProcessed/title"
+msgstr "军团在过去28天内无已处理的邀请。"
+
+msgid "clanInvitesWindow/dummy/noProcessedRequests/title"
+msgstr "军团在过去28天内无已处理的申请。"
+
+msgid "clanInvitesWindow/dummy/serverError/text"
+msgstr "从服务器接收不到数据。\n请稍候再试。"
+
+msgid "clanInvitesWindow/dummy/serverError/title"
+msgstr "服务器错误"
+
+msgid "clanInvitesWindow/filters/actual"
+msgstr "未处理 (%(value)s)"
+
+msgid "clanInvitesWindow/filters/all"
+msgstr "全部 (%(value)s)"
+
+msgid "clanInvitesWindow/filters/expired"
+msgstr "过期 (%(value)s)"
+
+msgid "clanInvitesWindow/filters/hasAnswer"
+msgstr "已收到回复 (%(value)s)"
+
+msgid "clanInvitesWindow/filters/processed"
+msgstr "已处理(%(value)s)"
+
+msgid "clanInvitesWindow/header/freePlacesInClan"
+msgstr "军团空位:%(count)s"
+
+msgid "clanInvitesWindow/header/inviteInClan"
+msgstr "邀请到军团"
+
+msgid "clanInvitesWindow/header/tooltips/info"
+msgstr "您有3天时间处理加入军团的申请。申请和邀请会保存28天，之后会自动被删除。"
+
+msgid "clanInvitesWindow/header/tooltips/noPlaces"
+msgstr "邀请玩家失败:军团已满。"
+
+msgid "clanInvitesWindow/header/tooltips/recruitementStopped"
+msgstr "邀请玩家失败:军团征募已关闭。"
+
+msgid "clanInvitesWindow/status/accepted"
+msgstr "接受"
+
+msgid "clanInvitesWindow/status/daysLeft"
+msgstr "%(days)d 天待处理"
+
+msgid "clanInvitesWindow/status/declined"
+msgstr "拒绝"
+
+msgid "clanInvitesWindow/status/error"
+msgstr "错误"
+
+msgid "clanInvitesWindow/status/expired"
+msgstr "过期"
+
+msgid "clanInvitesWindow/status/hoursLeft"
+msgstr "%(hours)d 小时待处理"
+
+msgid "clanInvitesWindow/status/minutesLeft"
+msgstr "%(min)d 分钟处理"
+
+msgid "clanInvitesWindow/status/sent"
+msgstr "已发送"
+
+msgid "clanInvitesWindow/tabInvites"
+msgstr "邀请 (%(value)s)"
+
+msgid "clanInvitesWindow/tabRequests"
+msgstr "申请 (%(value)s)"
+
+msgid "clanInvitesWindow/table/actions"
+msgstr "操作"
+
+msgid "clanInvitesWindow/table/inviteButton"
+msgstr "邀请"
+
+msgid "clanInvitesWindow/table/sent"
+msgstr "已发"
+
+msgid "clanInvitesWindow/table/showMore"
+msgstr "显示更多"
+
+msgid "clanInvitesWindow/table/status"
+msgstr "状态"
+
+msgid "clanInvitesWindow/table/userName"
+msgstr "玩家"
+
+msgid "clanInvitesWindow/title"
+msgstr "申请和邀请"
+
+msgid "clanInvitesWindow/tooltips/header/inviteButton"
+msgstr "点击邀请玩家到军团。"
+
+msgid "clanInvitesWindow/tooltips/invite/byUser"
+msgstr "邀请来自:"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteAccepted"
+msgstr "邀请已接受。"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteDeclined"
+msgstr "邀请被拒绝。"
+
+msgid "clanInvitesWindow/tooltips/invite/inviteSent"
+msgstr "邀请已发送。"
+
+msgid "clanInvitesWindow/tooltips/invite/sender"
+msgstr "发送人:"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "这个按钮将在收到服务器新数据后开启。"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "点击显示新申请和邀请。"
+
+msgid "clanInvitesWindow/tooltips/refreshButton/enabledTryToRefresh"
+msgstr "刷新列表。"
+
+msgid "clanInvitesWindow/tooltips/request/byUser"
+msgstr "决策者:"
+
+msgid "clanInvitesWindow/tooltips/request/requestAccepted"
+msgstr "申请通过。"
+
+msgid "clanInvitesWindow/tooltips/request/requestDeclined"
+msgstr "申请被拒绝。"
+
+msgid "clanInvitesWindow/tooltips/request/requestExpired"
+msgstr "申请已过期"
+
+msgid "clanInvitesWindow/tooltips/request/requestSent"
+msgstr "申请已提交。"
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequest/body"
+msgstr "邀请玩家失败:军团已满。"
+
+msgid "clanInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "该玩家最近退出了一个军团。您在这之后才能接受该玩家加入军团的申请："
+
+msgid "clanInvitesWindow/tooltips/table/cantSendInvite/body"
+msgstr "邀请玩家失败:军团已满。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "所邀请玩家的场均经验获取量。(包含高级账号收益）"
+
+msgid "clanInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "场均经验"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "所邀请玩家的战斗场次。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "战斗"
+
+msgid "clanInvitesWindow/tooltips/table/invites/inviteButton"
+msgstr "点击邀请这名玩家加入军团。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/body"
+msgstr "包含军团邀请的信息。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/message/header"
+msgstr "信息"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/body"
+msgstr "所邀请玩家的个人评级"
+
+msgid "clanInvitesWindow/tooltips/table/invites/personalRating/header"
+msgstr "个人评级"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/body"
+msgstr "已发军团邀请的日期和时间。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/sent/header"
+msgstr "已发"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/body"
+msgstr "军团邀请状态。\n邀请状态分为:未处理,过期和已处理。"
+
+msgid "clanInvitesWindow/tooltips/table/invites/status/header"
+msgstr "状态"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/body"
+msgstr "所邀请玩家的名称"
+
+msgid "clanInvitesWindow/tooltips/table/invites/userName/header"
+msgstr "玩家"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "所邀请玩家的胜率"
+
+msgid "clanInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "胜利"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "申请可以被接受或拒绝。"
+
+msgid "clanInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "操作"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/body"
+msgstr "所邀请玩家的场均经验获取量(包含高级账号收益）"
+
+msgid "clanInvitesWindow/tooltips/table/requests/awgExp/header"
+msgstr "场均经验"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/body"
+msgstr "申请玩家的总战斗场次"
+
+msgid "clanInvitesWindow/tooltips/table/requests/battlesCount/header"
+msgstr "战斗"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/body"
+msgstr "包含申请的玩家信息"
+
+msgid "clanInvitesWindow/tooltips/table/requests/message/header"
+msgstr "信息"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/body"
+msgstr "申请玩家的个人评级"
+
+msgid "clanInvitesWindow/tooltips/table/requests/personalRating/header"
+msgstr "个人评级"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/body"
+msgstr "军团申请状态。\n申请状态分为:未处理，已过期和已处理。"
+
+msgid "clanInvitesWindow/tooltips/table/requests/status/header"
+msgstr "状态"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/body"
+msgstr "申请玩家的名称"
+
+msgid "clanInvitesWindow/tooltips/table/requests/userName/header"
+msgstr "玩家"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/body"
+msgstr "申请玩家的胜率"
+
+msgid "clanInvitesWindow/tooltips/table/requests/wins/header"
+msgstr "胜利"
+
+msgid "clanLanding/notification/archived"
+msgstr "信息已发送至存档。"
+
+msgid "clanLanding/notification/commonError"
+msgstr "技术性错误：无法完成信息操作。"
+
+msgid "clanLanding/notification/deleted"
+msgstr "信息已移除。"
+
+msgid "clanLanding/notification/edited"
+msgstr "信息已发布。"
+
+msgid "clanLanding/notification/lengthExceeded"
+msgstr "已超过最大字符数量限制。"
+
+msgid "clanLanding/notification/limitReached"
+msgstr "军团中已发布的信息达到最大数量限制。"
+
+msgid "clanLanding/notification/noPermission"
+msgstr "权限不足以管理军团信息：您的职位已变更。"
+
+msgid "clanLanding/notification/notExist"
+msgstr "信息已移除或发送至存档。"
+
+msgid "clanLanding/notification/rulesViolated"
+msgstr "信息包含违反<a href=\"event:clanRulesLink\">军团规则</a>的内容。"
+
+msgid "clanPersonalInvitesWindow/actualInvites"
+msgstr "未处理邀请: %(count)s"
+
+msgid "clanPersonalInvitesWindow/declineSelected"
+msgstr "拒绝所选(%(count)s)"
+
+msgid "clanPersonalInvitesWindow/headerText"
+msgstr "我的军团邀请"
+
+msgid "clanPersonalInvitesWindow/loading"
+msgstr "正在接收数据..."
+
+msgid "clanPersonalInvitesWindow/noInvites"
+msgstr "您还没收到任何军团的邀请。"
+
+msgid "clanPersonalInvitesWindow/selectAll"
+msgstr "全选申请"
+
+msgid "clanPersonalInvitesWindow/table/actions"
+msgstr "操作"
+
+msgid "clanPersonalInvitesWindow/table/clanName"
+msgstr "军团名"
+
+msgid "clanPersonalInvitesWindow/table/status"
+msgstr "状态"
+
+msgid "clanPersonalInvitesWindow/title"
+msgstr "军团邀请"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/disabled"
+msgstr "您在接收新数据后可以更新列表"
+
+msgid "clanPersonalInvitesWindow/tooltips/refreshButton/enabled"
+msgstr "点击更新表格。"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/cantAcceptRequestDueToCD/body"
+msgstr "您最近退出了一个军团。您在这之后才能接受军团邀请："
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/body"
+msgstr "发出邀请的军团中所有成员场均经验获取量（随机战模式中的加权平均）。"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/awgExp/header"
+msgstr "场均经验"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/body"
+msgstr "发出邀请的军团，所有成员平均战斗总场次(只统计随机战模式的战绩)。"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/battlesCount/header"
+msgstr "军团战"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/body"
+msgstr "发出邀请的军团名"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/clanName/header"
+msgstr "军团名"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/body"
+msgstr "包含军团邀请的信息。"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/message/header"
+msgstr "信息"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/body"
+msgstr "发出邀请的军团等级"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/rating/header"
+msgstr "军团等级"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/body"
+msgstr "显示军团邀请状态和过期时间"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/status/header"
+msgstr "状态"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/body"
+msgstr "发出邀请的军团中所有成员的平均胜率（随机战模式中的加权平均）。"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/invites/wins/header"
+msgstr "军团胜利场次"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/body"
+msgstr "您可以选择接受或拒绝来自各个军团的邀请。接受其中的一个将自动拒绝其他邀请。"
+
+msgid "clanPersonalInvitesWindow/tooltips/table/requests/actions/header"
+msgstr "操作"
+
+msgid "clanProfile/clanJoinAward/btnAction"
+msgstr "军团信息"
+
+msgid "clanProfile/clanJoinAward/btnClose"
+msgstr "关闭"
+
+msgid "clanProfile/clanJoinAward/header"
+msgstr "欢迎来到军团！"
+
+msgid "clanProfile/clanJoinAward/secondaryText"
+msgstr "现在你可以在世界地图上进行战斗了，建造自己的要塞并做好防御工作，完成特殊作战任务。"
+
+msgid "clanProfile/clanJoinAward/title"
+msgstr "公告栏"
+
+msgid "clanProfile/clanJoinAward/yourClan"
+msgstr "您的军团: [%(tag)s] %(clanName)s"
+
+msgid "clanProfile/fortificationInfo/dummy/body"
+msgstr "我们对给您造成的不便深表歉意。请稍后重试。"
+
+msgid "clanProfile/fortificationInfo/dummy/header"
+msgstr "要塞暂时不可用"
+
+msgid "clanProfile/mainWindow/dummy/body"
+msgstr "我们对给您造成的不便深表歉意。\n请稍后再试。"
+
+msgid "clanProfile/mainWindow/dummy/header"
+msgstr "加载数据出错"
+
+msgid "clanProfile/mainWindow/title"
+msgstr "军团信息"
+
+msgid "clanProfile/mainWindowTab/fortification"
+msgstr "要塞"
+
+msgid "clanProfile/mainWindowTab/globalMap"
+msgstr "世界地图"
+
+msgid "clanProfile/mainWindowTab/personnel"
+msgstr "军团成员"
+
+msgid "clanProfile/mainWindowTab/strongholds"
+msgstr "要塞"
+
+msgid "clanProfile/mainWindowTab/summary"
+msgstr "总结"
+
+msgid "clanProfile/sendInvitesWindow/title"
+msgstr "邀请玩家到军团"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/attention"
+msgstr "操作失败，你只能逐一邀请玩家加入军团。"
+
+msgid "clanProfile/sendInvitesWindow/tooltip/massSendBlocked/body"
+msgstr "添加全部到收件人。"
+
+msgid "clanProfile/summaryView/blockLbl/battlesCount"
+msgstr "过去28天内战斗"
+
+msgid "clanProfile/summaryView/blockLbl/battlesPerDay"
+msgstr "过去28天内攻城战"
+
+msgid "clanProfile/summaryView/blockLbl/commander"
+msgstr "军团指挥官"
+
+msgid "clanProfile/summaryView/blockLbl/emptyFort"
+msgstr "还未创建"
+
+msgid "clanProfile/summaryView/blockLbl/emptyGlobalMap"
+msgstr "未参加战斗。\n未拥有领地。"
+
+msgid "clanProfile/summaryView/blockLbl/fortLevel"
+msgstr "要塞等级"
+
+msgid "clanProfile/summaryView/blockLbl/gold"
+msgstr "财政部"
+
+msgid "clanProfile/summaryView/blockLbl/hasNoBattles"
+msgstr "未参加战斗"
+
+msgid "clanProfile/summaryView/blockLbl/provinces"
+msgstr "领地"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel10"
+msgstr "X级Elo评级"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel6"
+msgstr "VI级Elo评级"
+
+msgid "clanProfile/summaryView/blockLbl/rageLevel8"
+msgstr "VIII级Elo评级"
+
+msgid "clanProfile/summaryView/blockLbl/sortiesPerDay"
+msgstr "过去28天内的突击战"
+
+msgid "clanProfile/summaryView/blockLbl/totalPlayers"
+msgstr "总成员"
+
+msgid "clanProfile/summaryView/buttonLbl/details"
+msgstr "详情"
+
+msgid "clanProfile/summaryView/buttonLbl/navigation"
+msgstr "继续"
+
+msgid "clanProfile/summaryView/buttonLbl/request"
+msgstr "提交申请"
+
+msgid "clanProfile/summaryView/defaultClanDescr"
+msgstr "这个军团没有口号。"
+
+msgid "clanProfile/summaryView/links/detailsMap"
+msgstr "世界地图详情"
+
+msgid "clanProfile/summaryView/links/gotoMap"
+msgstr "进入地图"
+
+msgid "clanProfile/summaryView/noData"
+msgstr "详细信息暂时不可用"
+
+msgid "clanProfile/summaryView/statusMsg/banned"
+msgstr "加入军团失败。"
+
+msgid "clanProfile/summaryView/statusMsg/detailsConditions"
+msgstr "查看征募需要 %(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/inAnotherClan"
+msgstr "您已经\n加入其他军团。"
+
+msgid "clanProfile/summaryView/statusMsg/invitationSubmitted"
+msgstr "您已收到\n这个军团的邀请。"
+
+msgid "clanProfile/summaryView/statusMsg/inviteLimit"
+msgstr "%(icon)s 暂时禁用"
+
+msgid "clanProfile/summaryView/statusMsg/requestLimit"
+msgstr "%(icon)s 暂时禁用"
+
+msgid "clanProfile/summaryView/statusMsg/requestNotBeConsidered"
+msgstr "这个军团不接受任何申请%(icon)s"
+
+msgid "clanProfile/summaryView/statusMsg/requestSubmitted"
+msgstr "申请已提交"
+
+msgid "clanProfile/summaryView/statusMsg/resynchronize"
+msgstr "正在同步数据..."
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/body"
+msgstr "军团X级部队Elo评级"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_10/header"
+msgstr "X级Elo评级"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/body"
+msgstr "军团VI级部队Elo评级"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_6/header"
+msgstr "VI级Elo评级"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/body"
+msgstr "军团VIII级部队Elo评级"
+
+msgid "clanProfile/summaryView/tooltip/fort_ELO_rage_8/header"
+msgstr "VIII级Elo评级"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/body"
+msgstr "军团过去28天内的攻城战"
+
+msgid "clanProfile/summaryView/tooltip/fort_battles_count_28/header"
+msgstr "过去28天内攻城战"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/body"
+msgstr "要塞的等级与指挥中心等级相同。"
+
+msgid "clanProfile/summaryView/tooltip/fort_level/header"
+msgstr "要塞等级"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/body"
+msgstr "军团过去28天内的突击战"
+
+msgid "clanProfile/summaryView/tooltip/fort_sortie_count_28/header"
+msgstr "过去28天内的突击战"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/body"
+msgstr "军团X级部队在世界地图的战斗的Elo评级"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_10/header"
+msgstr "X级Elo评级"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/body"
+msgstr "军团VI级部队在世界地图的战斗的Elo评级"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_6/header"
+msgstr "VI级Elo评级"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/body"
+msgstr "军团VIII级部队在世界地图的战斗的评级"
+
+msgid "clanProfile/summaryView/tooltip/gMap_ELO_rage_8/header"
+msgstr "VIII级Elo评级"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/body"
+msgstr "军团在世界地图上28天内进行的战斗"
+
+msgid "clanProfile/summaryView/tooltip/gMap_battles_count/header"
+msgstr "过去28天内战斗"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/body"
+msgstr "军团当前在世界地图上拥有的领地。"
+
+msgid "clanProfile/summaryView/tooltip/gMap_province/header"
+msgstr "领地"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/body"
+msgstr "最多可提交申请数。"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/invitesHasBeenReached/header"
+msgstr "不能提交申请"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/body"
+msgstr "最多可提交申请数。"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/limitHasBeenReached/header"
+msgstr "不能提交申请"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/body"
+msgstr "军团不接受申请。"
+
+msgid "clanProfile/summaryView/tooltip/joinUnavailable/receivingRequestsClosed/header"
+msgstr "不能提交申请"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/body"
+msgstr "军团过去28天内的评级未更新。"
+
+msgid "clanProfile/summaryView/tooltip/ratingOutdated/header"
+msgstr "过期的信息"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/body"
+msgstr "评级取决于军团在要塞模式中和世界地图上领土战的表现。"
+
+msgid "clanProfile/summaryView/tooltip/totalRating/header"
+msgstr "总评级"
+
+msgid "clanProfile/summaryView/totalRage"
+msgstr "总评级"
+
+msgid "fort/header/clanProfileBtnLbl"
+msgstr "军团信息"
+
+msgid "globalMap/disabled"
+msgstr "世界地图的战斗当前在\n您的地区不可用"
+
+msgid "globalMapView/level10"
+msgstr "X级"
+
+msgid "globalMapView/level6"
+msgstr "VI级"
+
+msgid "globalMapView/level8"
+msgstr "VIII级"
+
+msgid "globalMapView/noIncome/tooltip/body"
+msgstr "该领地目前不产生收入，原因为与指挥中心联系中断，或遭到掠夺。"
+
+msgid "globalMapView/noIncome/tooltip/header"
+msgstr "不产生收入"
+
+msgid "globalMapView/noProvince"
+msgstr "军团未拥有任何领地。"
+
+msgid "globalMapView/popularPrimeTime"
+msgstr "热门黄金时段：%(time)s"
+
+msgid "globalMapView/promo/description"
+msgstr "世界地图是军团之间进行战略性对抗的舞台。军团的领导层需要花费大量的时间，规划作战策略和战略方向。"
+
+msgid "globalMapView/promo/header"
+msgstr "世界地图"
+
+msgid "globalMapView/promo/infoLink"
+msgstr "世界地图详情"
+
+msgid "globalMapView/promo/mapLink"
+msgstr "进入地图"
+
+msgid "globalMapView/statistics10/battles"
+msgstr "战斗"
+
+msgid "globalMapView/statistics10/battles/tooltip/body"
+msgstr "在世界地图上X级部队的总战斗场次"
+
+msgid "globalMapView/statistics10/battles/tooltip/header"
+msgstr "战斗"
+
+msgid "globalMapView/statistics10/eloRating"
+msgstr "Elo评级"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/body"
+msgstr "军团在世界地图上X级部队的战绩评级"
+
+msgid "globalMapView/statistics10/eloRating/tooltip/header"
+msgstr "Elo评级"
+
+msgid "globalMapView/statistics10/favoriteMap"
+msgstr "最喜爱的地图"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/body"
+msgstr "在过去28天内，军团X级部队战斗次数最多的地图"
+
+msgid "globalMapView/statistics10/favoriteMap/tooltip/header"
+msgstr "最喜爱的地图: %(value)s"
+
+msgid "globalMapView/statistics10/place"
+msgstr "排行榜名次"
+
+msgid "globalMapView/statistics10/place/tooltip/body"
+msgstr "军团在世界地图上X级部队的评级排名"
+
+msgid "globalMapView/statistics10/place/tooltip/header"
+msgstr "排行榜名次"
+
+msgid "globalMapView/statistics10/wins"
+msgstr "胜利"
+
+msgid "globalMapView/statistics10/wins/tooltip/body"
+msgstr "军团在世界地图上X级部队战斗的总胜率"
+
+msgid "globalMapView/statistics10/wins/tooltip/header"
+msgstr "胜利"
+
+msgid "globalMapView/statistics6/battles"
+msgstr "战斗"
+
+msgid "globalMapView/statistics6/battles/tooltip/body"
+msgstr "在世界地图上VI级部队战斗的总战斗场次"
+
+msgid "globalMapView/statistics6/battles/tooltip/header"
+msgstr "战斗"
+
+msgid "globalMapView/statistics6/eloRating"
+msgstr "Elo评级"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/body"
+msgstr "军团在世界地图上VI级部队的评级"
+
+msgid "globalMapView/statistics6/eloRating/tooltip/header"
+msgstr "Elo评级"
+
+msgid "globalMapView/statistics6/favoriteMap"
+msgstr "最喜爱的地图"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/body"
+msgstr "在过去28天内，军团VI级部队战斗次数最多的地图"
+
+msgid "globalMapView/statistics6/favoriteMap/tooltip/header"
+msgstr "最喜爱的地图: %(value)s"
+
+msgid "globalMapView/statistics6/place"
+msgstr "排行榜名次"
+
+msgid "globalMapView/statistics6/place/tooltip/body"
+msgstr "军团在世界地图上VI级部队评级的排名"
+
+msgid "globalMapView/statistics6/place/tooltip/header"
+msgstr "排行榜名次"
+
+msgid "globalMapView/statistics6/wins"
+msgstr "胜利"
+
+msgid "globalMapView/statistics6/wins/tooltip/body"
+msgstr "军团在世界地图上VI级部队战斗的总胜率"
+
+msgid "globalMapView/statistics6/wins/tooltip/header"
+msgstr "胜利"
+
+msgid "globalMapView/statistics8/battles"
+msgstr "战斗"
+
+msgid "globalMapView/statistics8/battles/tooltip/body"
+msgstr "在世界地图上VIII级部队战斗的总战斗场次"
+
+msgid "globalMapView/statistics8/battles/tooltip/header"
+msgstr "战斗"
+
+msgid "globalMapView/statistics8/eloRating"
+msgstr "Elo评级"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/body"
+msgstr "军团在世界地图上VI级部队的评级"
+
+msgid "globalMapView/statistics8/eloRating/tooltip/header"
+msgstr "Elo评级"
+
+msgid "globalMapView/statistics8/favoriteMap"
+msgstr "最喜爱的地图"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/body"
+msgstr "在过去28天内，军团VIII级部队战斗次数最多的地图"
+
+msgid "globalMapView/statistics8/favoriteMap/tooltip/header"
+msgstr "最喜爱的地图: %(value)s"
+
+msgid "globalMapView/statistics8/place"
+msgstr "排行榜名次"
+
+msgid "globalMapView/statistics8/place/tooltip/body"
+msgstr "军团在世界地图上VIII级部队评级的排名"
+
+msgid "globalMapView/statistics8/place/tooltip/header"
+msgstr "排行榜名次"
+
+msgid "globalMapView/statistics8/wins"
+msgstr "胜利"
+
+msgid "globalMapView/statistics8/wins/tooltip/body"
+msgstr "军团在世界地图上VIII级部队战斗的总胜率"
+
+msgid "globalMapView/statistics8/wins/tooltip/header"
+msgstr "胜利"
+
+msgid "globalMapView/stats/battles"
+msgstr "世界地图的战斗"
+
+msgid "globalMapView/stats/battles/tooltip/body"
+msgstr "军团在世界地图上的战斗总场次"
+
+msgid "globalMapView/stats/battles/tooltip/header"
+msgstr "世界地图的战斗"
+
+msgid "globalMapView/stats/seized"
+msgstr "拥有的领地"
+
+msgid "globalMapView/stats/seized/tooltip/body"
+msgstr "军团拥有的总领地数，拥有后失去的领地也统计在内。"
+
+msgid "globalMapView/stats/seized/tooltip/header"
+msgstr "拥有的领地"
+
+msgid "globalMapView/stats/wins"
+msgstr "军团胜利"
+
+msgid "globalMapView/stats/wins/tooltip/body"
+msgstr "军团成员在世界地图上战斗的总胜率"
+
+msgid "globalMapView/stats/wins/tooltip/header"
+msgstr "军团胜利"
+
+msgid "globalMapView/table/days"
+msgstr "天数"
+
+msgid "globalMapView/table/days/tooltip/body"
+msgstr "军团在世界地图上拥有领地的时间"
+
+msgid "globalMapView/table/days/tooltip/header"
+msgstr "天数"
+
+msgid "globalMapView/table/front"
+msgstr "前线"
+
+msgid "globalMapView/table/front/tooltip/body"
+msgstr "所选前线的名称"
+
+msgid "globalMapView/table/front/tooltip/header"
+msgstr "前线"
+
+msgid "globalMapView/table/income"
+msgstr "收入"
+
+msgid "globalMapView/table/income/tooltip/body"
+msgstr "领地每天带来的金币收入"
+
+msgid "globalMapView/table/income/tooltip/header"
+msgstr "收入"
+
+msgid "globalMapView/table/map"
+msgstr "地图"
+
+msgid "globalMapView/table/map/tooltip/body"
+msgstr "参加争夺的领地名称"
+
+msgid "globalMapView/table/map/tooltip/header"
+msgstr "地图"
+
+msgid "globalMapView/table/primeTime"
+msgstr "黄金时段"
+
+msgid "globalMapView/table/primeTime/tooltip/body"
+msgstr "计划的领地战开始时间。"
+
+msgid "globalMapView/table/primeTime/tooltip/header"
+msgstr "黄金时段"
+
+msgid "globalMapView/table/province"
+msgstr "领地"
+
+msgid "globalMapView/table/province/tooltip/body"
+msgstr "所选领地的名称"
+
+msgid "globalMapView/table/province/tooltip/header"
+msgstr "领地"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/noIncome"
+msgstr "该领地遭到掠夺，暂时无法产生收入。"
+
+msgid "globalMapView/table/provinceRobbed/tooltip/restoreTime"
+msgstr "再次产生收入所需时间:\n%(date)s"
+
+msgid "globalMapView/tabs/provinces"
+msgstr "领地"
+
+msgid "globalMapView/tabs/stats"
+msgstr "统计"
+
+msgid "globalMapView/tooltip/ratingOutdated"
+msgstr "军团过去28天内的评级未更新。"
+
+msgid "globalMapView/totalIncome"
+msgstr "每日总收入: %(icon)s%(value)s"
+
+msgid "personnelView/clanStats/avgBattlesCount"
+msgstr "平均\n战斗场次"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/body"
+msgstr "所有军团成员在随机战模式和连队战模式下战斗的平均场次。只统计当前军团成员的数据。"
+
+msgid "personnelView/clanStats/avgBattlesCount/tooltip/header"
+msgstr "军团成员平均战斗场次"
+
+msgid "personnelView/clanStats/avgExp"
+msgstr "平均经验"
+
+msgid "personnelView/clanStats/avgExp/tooltip/body"
+msgstr "军团成员在随机战模式和坦克连队战模式下的经验加权平均。每名成员的战斗总场次都会影响权重。仅当前军团成员的数据将纳入统计。"
+
+msgid "personnelView/clanStats/avgExp/tooltip/header"
+msgstr "军团成员平均经验"
+
+msgid "personnelView/clanStats/avgPersonalRating"
+msgstr "平均个人评级"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/body"
+msgstr "军团成员的平均个人评级。只统计当前军团成员的数据。"
+
+msgid "personnelView/clanStats/avgPersonalRating/tooltip/header"
+msgstr "军团成员平均个人评级"
+
+msgid "personnelView/clanStats/avgWins"
+msgstr "平均胜率"
+
+msgid "personnelView/clanStats/avgWins/tooltip/body"
+msgstr "军团成员在随机战模式和坦克连队战模式下的胜率加权平均。每名成员战斗总场次都会影响权重。仅当前军团成员的数据将纳入统计。"
+
+msgid "personnelView/clanStats/avgWins/tooltip/header"
+msgstr "军团成员平均胜率"
+
+msgid "personnelView/table/avgExp/tooltip/body"
+msgstr "玩家在随机战模式和连队战模式下获得的总经验比率。"
+
+msgid "personnelView/table/avgExp/tooltip/header"
+msgstr "平均经验"
+
+msgid "personnelView/table/battlesCount/tooltip/body"
+msgstr "玩家随机战和连队战的总战斗场次。"
+
+msgid "personnelView/table/battlesCount/tooltip/header"
+msgstr "战斗总场次"
+
+msgid "personnelView/table/daysInClan/tooltip/body"
+msgstr "玩家在军团中的总天数"
+
+msgid "personnelView/table/daysInClan/tooltip/header"
+msgstr "加入军团天数"
+
+msgid "personnelView/table/personalRating/tooltip/body"
+msgstr "玩家个人评级"
+
+msgid "personnelView/table/personalRating/tooltip/header"
+msgstr "个人评级"
+
+msgid "personnelView/table/player"
+msgstr "玩家 (%(count)s / %(max)s)"
+
+msgid "personnelView/table/player/tooltip/body"
+msgstr "军团成员名称"
+
+msgid "personnelView/table/player/tooltip/header"
+msgstr "玩家"
+
+msgid "personnelView/table/post"
+msgstr "职位"
+
+msgid "personnelView/table/post/tooltip/body"
+msgstr "军团中的军衔"
+
+msgid "personnelView/table/post/tooltip/header"
+msgstr "职位"
+
+msgid "personnelView/table/wins/tooltip/body"
+msgstr "玩家在随机战模式和连队战模式下的胜率"
+
+msgid "personnelView/table/wins/tooltip/header"
+msgstr "胜利"
+
+msgid "personnelView/title"
+msgstr "军团成员在随机战和连队战模式中的战绩统计："
+
+msgid "search/clansList"
+msgstr "军团列表: %(value)s"
+
+msgid "search/emptyResult/body"
+msgstr "未找到匹配的问题。请搜索其他关键字。"
+
+msgid "search/emptyResult/button"
+msgstr "返回列表"
+
+msgid "search/emptyResult/button/tooltip/body"
+msgstr "点击返回找到的军团列表。"
+
+msgid "search/emptyResult/button/tooltip/header"
+msgstr "返回列表"
+
+msgid "search/emptyResult/header"
+msgstr "未找到结果"
+
+msgid "search/foundClans"
+msgstr "已找到军团: %(value)s"
+
+msgid "search/info/banned/tooltip/body"
+msgstr "加入军团失败。"
+
+msgid "search/info/banned/tooltip/header"
+msgstr "不能提交申请"
+
+msgid "search/info/clanProfileBtn"
+msgstr "军团信息"
+
+msgid "search/info/forbiddenAccountType/tooltip/body"
+msgstr "提交军团申请失败。"
+
+msgid "search/info/forbiddenAccountType/tooltip/header"
+msgstr "操作失败"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/attention"
+msgstr "您已收到这个军团的邀请。"
+
+msgid "search/info/inviteAlreadyAchieved/tooltip/header"
+msgstr "不能提交申请"
+
+msgid "search/info/ratingDescription"
+msgstr "总评级"
+
+msgid "search/info/ratingDescription/tooltip/body"
+msgstr "评级取决于军团在要塞模式中和世界地图上领土战的表现。"
+
+msgid "search/info/ratingDescription/tooltip/header"
+msgstr "总评级"
+
+msgid "search/info/ratingTitle"
+msgstr "统计包含所有战斗类型："
+
+msgid "search/info/requestAlreadySent/tooltip/attention"
+msgstr "您已经向这个军团提交过申请。"
+
+msgid "search/info/requestAlreadySent/tooltip/header"
+msgstr "不能提交申请"
+
+msgid "search/info/requestSent"
+msgstr "申请已提交"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/attention"
+msgstr "军团不接受申请。"
+
+msgid "search/info/requestsAreNotAccepted/tooltip/header"
+msgstr "不能提交申请"
+
+msgid "search/info/requestsLimitExceeded/tooltip/attention"
+msgstr "最多可提交申请数。"
+
+msgid "search/info/requestsLimitExceeded/tooltip/header"
+msgstr "不能提交申请"
+
+msgid "search/info/sendRequestBtn"
+msgstr "提交申请"
+
+msgid "search/info/serverUnavailable/body"
+msgstr "未接收到服务器数据。请稍后重试。"
+
+msgid "search/info/serverUnavailable/header"
+msgstr "服务器错误"
+
+msgid "search/info/stats/avgExp"
+msgstr "平均经验"
+
+msgid "search/info/stats/avgExp/tooltip/body"
+msgstr "军团成员在所有战斗模式下的经验获取量加权平均。每名成员的战斗总场次都会影响权重。仅当前军团成员的数据将纳入统计。"
+
+msgid "search/info/stats/avgExp/tooltip/header"
+msgstr "军团成员平均经验"
+
+msgid "search/info/stats/battles"
+msgstr "平均\n战斗场次"
+
+msgid "search/info/stats/battles/tooltip/body"
+msgstr "军团成员在所有战斗模式下的平均战斗场次。只统计当前军团成员数据。"
+
+msgid "search/info/stats/battles/tooltip/header"
+msgstr "军团成员平均战斗场次"
+
+msgid "search/info/stats/wins"
+msgstr "平均胜率"
+
+msgid "search/info/stats/wins/tooltip/body"
+msgstr "军团成员在所有战斗模式下的胜率加权平均。每名成员的战斗总场次都会影响权重。仅当前军团成员的数据将纳入统计。"
+
+msgid "search/info/stats/wins/tooltip/header"
+msgstr "军团成员平均胜率"
+
+msgid "search/nextBtn"
+msgstr "下一个"
+
+msgid "search/nextBtn/tooltip/body"
+msgstr "点击显示下一部分的军团列表。"
+
+msgid "search/nextBtn/tooltip/header"
+msgstr "下一个"
+
+msgid "search/previousBtn"
+msgstr "上一个"
+
+msgid "search/previousBtn/tooltip/body"
+msgstr "点击显示上一部分的军团列表。"
+
+msgid "search/previousBtn/tooltip/header"
+msgstr "上一个"
+
+msgid "search/promoText/body"
+msgstr "搜索一个军团，输入军团的名称或标签点击搜索。"
+
+msgid "search/promoText/header"
+msgstr "军团搜索"
+
+msgid "search/requestTooShort/body"
+msgstr "要搜索军团，输入至少2个字符并重试。"
+
+msgid "search/requestTooShort/button"
+msgstr "返回列表"
+
+msgid "search/requestTooShort/button/tooltip/header"
+msgstr "返回列表"
+
+msgid "search/requestTooShort/header"
+msgstr "数据不足"
+
+msgid "search/searchBtn"
+msgstr "搜索"
+
+msgid "search/searchBtn/tooltip/body"
+msgstr "在左侧输入军团名称或标签(不少于2个字符）。"
+
+msgid "search/searchBtn/tooltip/header"
+msgstr "军团搜索"
+
+msgid "search/searchInputPrompt"
+msgstr "输入军团名称或标签"
+
+msgid "search/serverUnavailable/body"
+msgstr "未接收到服务器数据。请稍后重试。"
+
+msgid "search/serverUnavailable/header"
+msgstr "服务器错误"
+
+msgid "search/table/clan"
+msgstr "军团"
+
+msgid "search/table/clan/tooltip/body"
+msgstr "军团属性:标签或名称"
+
+msgid "search/table/clan/tooltip/header"
+msgstr "军团"
+
+msgid "search/table/creationDate"
+msgstr "关闭"
+
+msgid "search/table/creationDate/tooltip/body"
+msgstr "军团创建日期"
+
+msgid "search/table/creationDate/tooltip/header"
+msgstr "关闭"
+
+msgid "search/table/players"
+msgstr "玩家"
+
+msgid "search/table/players/tooltip/body"
+msgstr "军团成员数"
+
+msgid "search/table/players/tooltip/header"
+msgstr "玩家"
+
+msgid "search/table/rating"
+msgstr "评级"
+
+msgid "search/table/rating/tooltip/body"
+msgstr "军团总等级"
+
+msgid "search/table/rating/tooltip/header"
+msgstr "评级"
+
+msgid "search/title"
+msgstr "军团搜索"
+
+msgid "search/titleDescription"
+msgstr "这里你可以搜索一个军团，\n查看详细信息，\n然后申请加入。通过军团名或标签来进行搜索。"
+
+msgid "search/windowTitle"
+msgstr "军团搜索"
+
+msgid "section/fort/bodyBar/label/scheme"
+msgstr "方案"
+
+msgid "section/fort/bodyBar/label/statistics"
+msgstr "统计"
+
+msgid "section/fort/building/tooltip/body"
+msgstr "等级 %(level)s\n\n%(description)s"
+
+msgid "section/fort/defence/notActivated"
+msgstr "未设置"
+
+msgid "section/fort/view/schema/labels/dayoff"
+msgstr "停战期："
+
+msgid "section/fort/view/schema/labels/defenceHour"
+msgstr "防御期:"
+
+msgid "section/fort/view/schema/labels/server"
+msgstr "主服务器:"
+
+msgid "section/fort/view/schema/labels/totalBuildings"
+msgstr "已建造:"
+
+msgid "section/fort/view/schema/labels/vacation"
+msgstr "中立:"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordResource"
+msgstr "工业资源最高获取量"
+
+msgid "section/fort/view/statistics/sorties/detailed/recordWinSeries"
+msgstr "最高连胜"

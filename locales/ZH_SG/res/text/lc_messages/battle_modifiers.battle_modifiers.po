@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "显示向敌人射击总体效率的一组参数。"
+
+msgid "domain/accuracy/name"
+msgstr "射击效率"
+
+msgid "domain/armorPiercing/description"
+msgstr "显示穿透敌方装甲能力的一组参数。"
+
+msgid "domain/armorPiercing/name"
+msgstr "穿透力"
+
+msgid "domain/battleParams/description"
+msgstr "显示玩法核心机制的一组参数。"
+
+msgid "domain/battleParams/name"
+msgstr "战斗参数"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "更改战车参数的模式特定变项。"
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "天梯战轻装版变项"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "更改战车参数的模式专属变项。"
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "天梯战变项"
+
+msgid "domain/concealment/description"
+msgstr "显示战车保持不被侦察能力的一组参数。"
+
+msgid "domain/concealment/name"
+msgstr "隐蔽性"
+
+msgid "domain/damageDealing/description"
+msgstr "显示战车造成伤害能力的一组参数。"
+
+msgid "domain/damageDealing/name"
+msgstr "造成伤害"
+
+msgid "domain/mobility/description"
+msgstr "显示您的战车动力和速度属性的一组参数。"
+
+msgid "domain/mobility/name"
+msgstr "机动性和动力"
+
+msgid "domain/randomization/description"
+msgstr "显示潜在伤害范围和潜在穿透范围的一组参数。"
+
+msgid "domain/randomization/name"
+msgstr "随机值"
+
+msgid "domain/sustaining/description"
+msgstr "显示受损模块/受伤乘员恢复能力的一组参数。"
+
+msgid "domain/sustaining/name"
+msgstr "修复性"
+
+msgid "domain/visibility/description"
+msgstr "显示战车侦察敌人能力的一组参数。"
+
+msgid "domain/visibility/name"
+msgstr "视野范围"
+
+msgid "domain/vitality/description"
+msgstr "显示您的战车在战斗中生存能力的一组参数。"
+
+msgid "domain/vitality/name"
+msgstr "耐受性"
+
+msgid "modifier/name/aimingTime"
+msgstr "瞄准时间"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "弹药架耐久度"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "拥有自动再装填火炮的战车的装填时间"
+
+msgid "modifier/name/battleLength"
+msgstr "战斗时间"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "最高倒车速度"
+
+msgid "modifier/name/burstInterval"
+msgstr "弹匣中炮弹的装填时间"
+
+msgid "modifier/name/chassisHealth"
+msgstr "底盘耐久度"
+
+msgid "modifier/name/clipInterval"
+msgstr "弹匣中两次射击之间装填所需的时间"
+
+msgid "modifier/name/damageRandomization"
+msgstr "潜在伤害范围"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "内部模块伤害"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "射击后的散布误差"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "移动中的散布误差"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "车体转向时的散布误差"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "炮塔转动时的散布误差"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "火炮受损时的散布误差"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "发动机起火几率"
+
+msgid "modifier/name/engineHealth"
+msgstr "发动机耐久度"
+
+msgid "modifier/name/enginePower"
+msgstr "发动机功率"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "受冲击时的悬挂伤害"
+
+msgid "modifier/name/envHullDamage"
+msgstr "受冲击时的车体伤害"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "受冲击时其他模块受损几率"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "受冲击时的乘员受伤几率"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "消耗品冷却时间"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "油箱耐久度"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "最高前进速度"
+
+msgid "modifier/name/gravityFactor"
+msgstr "战车重力"
+
+msgid "modifier/name/gunHealth"
+msgstr "火炮耐久度"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "固定舱中的火炮转向速度"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "移动中的隐蔽性"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "战车静止时的隐蔽性"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "炮弹转正效应"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "潜在穿透范围"
+
+msgid "modifier/name/radioDistance"
+msgstr "通信范围"
+
+msgid "modifier/name/reloadTime"
+msgstr "装填时间"
+
+msgid "modifier/name/repairSpeed"
+msgstr "修复速度"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "炮弹跳弹角度。角度越小，跳弹几率越高"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "车体转向速度"
+
+msgid "modifier/name/shellGravity"
+msgstr "炮弹重力"
+
+msgid "modifier/name/shellSpeed"
+msgstr "炮弹速度"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "100米散布误差"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "观测设备耐久度"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "被击飞炮塔砸中受到的碾压伤害"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "被击飞炮塔砸中受到的伤害"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "炮塔转向速度"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "炮塔环耐久度"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "齐射模式下的火炮装填"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "成像范围"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "战车耐久度"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "重压伤害"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "撞击伤害"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "近发侦察半径"
+
+msgid "modifier/name/visionRadius"
+msgstr "视野范围"
+
+msgid "modifier/name/visionTime"
+msgstr "保持可见的时间"
+
+msgid "modifier/name/zeroDamage"
+msgstr "射击和撞击造成的伤害"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "在模式战斗中消耗和获得的资源"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "不超过{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "不少于{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "（但{restriction}）"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "（但{min}，且{max}）"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "变项会影响以下参数："
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "变项会影响以下参数："
