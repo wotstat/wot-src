@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-05-01 10:00+0300\nPO-Revision-Date: 2022-05-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "info/dateAndDuration"
+msgstr "%(date)s, duración: %(duration)s"
+
+msgid "info/difficult/1"
+msgstr "Dificultad Regular"
+
+msgid "info/difficult/2"
+msgstr "Dificultad Avanzada"
+
+msgid "info/difficult/3"
+msgstr "Dificultad Brutal"
+
+msgid "info/mapName"
+msgstr "Batalla final • {mapName} • {difficulty}"
+
+msgid "info/respawnCount"
+msgstr "Reapariciones: {count}"
+
+msgid "ls_finish/reason/1/lose"
+msgstr "Todos los vehículos aliados fueron destruidos."
+
+msgid "ls_finish/reason/10/lose"
+msgstr "No lograste detener al Cero."
+
+msgid "ls_finish/reason/3/lose"
+msgstr "Se acabó el tiempo."
+
+msgid "ls_finish/reason/5/lose"
+msgstr "Todos los aliados abandonaron la batalla."
+
+msgid "ls_finish/reason/last_stand/1/win"
+msgstr "¡Muy bien! ¿Quieres una misión más difícil?"
+
+msgid "ls_finish/reason/last_stand/11/win"
+msgstr "Eliminaste a todos los enemigos en dificultad Regular."
+
+msgid "ls_finish/reason/last_stand_hard/1/win"
+msgstr "¡Estuviste excelente! Pocos llegan a este nivel."
+
+msgid "ls_finish/reason/last_stand_hard/11/win"
+msgstr "Eliminaste a todos los enemigos en dificultad Brutal."
+
+msgid "ls_finish/reason/last_stand_medium/1/win"
+msgstr "¡Impresionante! Es hora del verdadero desafío."
+
+msgid "ls_finish/reason/last_stand_medium/11/win"
+msgstr "Eliminaste a todos los enemigos en dificultad Avanzada."
+
+msgid "ribbon/ban"
+msgstr "Desempeño inaceptable: inactividad/abandono.\nNo recibiste la recompensa."
+
+msgid "ribbon/banRecord"
+msgstr "Rendimiento inaceptable: inactividad/deserción.\nRecompensa no recibida. Tu registro de destrucción de oleadas no se actualizó."
+
+msgid "ribbon/noReward"
+msgstr "Tu equipo no pudo con la primera oleada.\nNo recibiste la recompensa."
+
+msgid "status/lose"
+msgstr "TERMINÓ LA BATALLA"
+
+msgid "status/win"
+msgstr "VICTORIA"
+
+msgid "subtitle/lose"
+msgstr "No resistieron el ataque"
+
+msgid "subtitle/win"
+msgstr "¡Buen trabajo! Se obtuvieron nuevos datos."
+
+msgid "teamList/actions"
+msgstr "Acciones rápidas"
+
+msgid "teamList/teammates"
+msgstr "Aliados"
+
+msgid "time/record"
+msgstr "¡NUEVO\nRÉCORD!"
+
+msgid "title/lose/noWaves"
+msgstr "TERMINÓ LA BATALLA"
+
+msgid "title/lose/waves"
+msgid_plural "plural/title/lose/waves"
+msgstr[0] "%(phaseNumber)s OLEADA COMPLETADA"
+msgstr[1] "%(phaseNumber)s OLEADAS COMPLETADAS"
+msgstr[2] "%(phaseNumber)s OLEADAS COMPLETADAS"
+
+msgid "title/win"
+msgstr "TODAS LAS OLEADAS COMPLETADAS"
+
+msgid "tooltip/ban"
+msgstr "Rendimiento inaceptable: inactividad/deserción. Tu registro de destrucción de oleadas no se actualizó."

@@ -1,0 +1,13 @@
+from server_side_replay.gui.impl.gen.view_models.views.lobby.table_base_model import TableBaseModel
+
+class FindReplayModel(TableBaseModel):
+    __slots__ = (b'onFind',)
+
+    def __init__(self, properties=7, commands=5):
+        super(FindReplayModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def _initialize(self):
+        super(FindReplayModel, self)._initialize()
+        self.onFind = self._addCommand(b'onFind')
+        return

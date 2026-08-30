@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-09-03 10:00+0300\nPO-Revision-Date: 2024-09-03 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "assignmentDialog/confirm"
+msgstr "Para confirmar, digite a quantidade de XP do tripulante selecionado para transferir."
+
+msgid "assignmentDialog/price"
+msgstr "Preço:"
+
+msgid "assignmentDialog/subtitle"
+msgstr "Transfira toda a sua XP de Tripulação entre tripulantes"
+
+msgid "assignmentDialog/title"
+msgstr "Confirme o Curso de Mentoria"
+
+msgid "assignmentDialog/warning/oneWay"
+msgstr "Este tripulante será removido da\nsua conta sem chance de recuperação."
+
+msgid "assignmentDialog/warning/xpLose"
+msgstr "{xpLose} XP extra será perdida."
+
+msgid "dialogue/description"
+msgstr "Um consumível que permite transferir toda a XP de Tripulação entre tripulantes da mesma nação."
+
+msgid "mentorAssigment/card/lostXP"
+msgstr "{orange_Open}XP extra será perdida:{orange_Close}%(amount)s"
+
+msgid "mentorAssigment/card/select"
+msgstr "SELECIONAR"
+
+msgid "mentorAssigment/card/totalXP"
+msgstr "XP Total:%(amount)s"
+
+msgid "mentorAssigment/licensesAmount"
+msgstr "{yellow_Open}Licença(s) de Mentoria:{yellow_Close} %(amount)s"
+
+msgid "mentorAssigment/noSuitableTankman"
+msgstr "Nenhum tripulante compatível"
+
+msgid "mentorAssigment/tips/info"
+msgstr "Escolha o tripulante que vai transferir sua XP\npara{cream_Open}%(name)s{cream_Close} e será removido da sua conta."
+
+msgid "mentorAssigment/tips/lostXP"
+msgstr "Depois que a XP de Tripulação for transferida, {cream_Open}%(name)s{cream_Close} vai alcançar o limite da habilidade e toda a XP acima do limite será perdida."
+
+msgid "mentorAssigment/title"
+msgstr "ESCOLHER MENTOR"
+
+msgid "mentorAssigment/tooltip/fullyTrainedMentor"
+msgstr "{bond_Open}%(name)s{bond_Close}, atingiu o limite da habilidade e não pode ser selecionado para a transferência de XP."
+
+msgid "multipleUserName"
+msgstr "Licenças de Mentoria"
+
+msgid "serviceChannelMessages/TransferUsed/body"
+msgstr "Licença(s) de Mentoria usada(s): %(amount)s"
+
+msgid "serviceChannelMessages/TransferXP/body"
+msgstr "XP de Tripulação transferida: "
+
+msgid "serviceChannelMessages/TransferXP/header"
+msgstr "Curso de Mentoria"
+
+msgid "serviceChannelMessages/TransferXP/lost"
+msgstr "<font color='#8C8C7E'>XP de Tripulação extra perdida: <font color='#E9E2BF'>%(xpLost)s</font><br>"
+
+msgid "storage/description"
+msgstr "Permite que você transfira XP de Tripulação entre tripulantes\nda mesma nação."
+
+msgid "storage/userName"
+msgstr "LICENÇA DE MENTORIA"
+
+msgid "userName"
+msgstr "LICENÇA DE MENTORIA"

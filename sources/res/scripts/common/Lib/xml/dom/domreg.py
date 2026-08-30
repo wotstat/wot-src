@@ -1,0 +1,70 @@
+from xml.dom.minicompat import *
+import sys
+well_known_implementations = {b'minidom': b'xml.dom.minidom', 
+   b'4DOM': b'xml.dom.DOMImplementation'}
+registered = {}
+
+def registerDOMImplementation(name, factory):
+    registered[name] = factory
+    return
+
+
+def _good_enough(dom, features):
+    for f, v in features:
+        if not dom.hasFeature(f, v):
+            return 0
+
+    return 1
+
+
+def getDOMImplementation(name=None, features=()):
+    import os
+    creator = None
+    mod = well_known_implementations.get(name)
+    if mod:
+        mod = __import__(mod, {}, {}, [b'getDOMImplementation'])
+        return mod.getDOMImplementation()
+    else:
+        if name:
+            return registered[name]()
+        if not sys.flags.ignore_environment and b'PYTHON_DOM' in os.environ:
+            return getDOMImplementation(name=os.environ[b'PYTHON_DOM'])
+        if isinstance(features, StringTypes):
+            features = _parse_feature_string(features)
+        for creator in registered.values():
+            dom = creator()
+            if _good_enough(dom, features):
+                return dom
+
+        for creator in well_known_implementations.keys():
+            try:
+                dom = getDOMImplementation(name=creator)
+            except StandardError:
+                continue
+
+            if _good_enough(dom, features):
+                return dom
+
+        raise ImportError, b'no suitable DOM implementation found'
+        return
+
+
+def _parse_feature_string(s):
+    features = []
+    parts = s.split()
+    i = 0
+    length = len(parts)
+    while i < length:
+        feature = parts[i]
+        if feature[0] in b'0123456789':
+            raise ValueError, b'bad feature name: %r' % (feature,)
+        i = i + 1
+        version = None
+        if i < length:
+            v = parts[i]
+            if v[0] in b'0123456789':
+                i = i + 1
+                version = v
+        features.append((feature, version))
+
+    return tuple(features)

@@ -1,0 +1,356 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: Equipo de WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleProgress/hint"
+msgstr "Presiona %(hintKey)s para ver las misiones activas"
+
+msgid "buttons/battleSession/leave"
+msgstr "Salir"
+
+msgid "companyListView/filterButton/label"
+msgstr "Buscar"
+
+msgid "dialogs/buttons/notReady"
+msgstr "No preparado"
+
+msgid "dialogs/buttons/ready"
+msgstr "¡Preparado!"
+
+msgid "hints/confirmDialog/confirm"
+msgstr "¡Afirmativo!"
+
+msgid "hints/confirmDialog/message"
+msgstr "¡Estás en camino de convertirte en un tanquista profesional! A partir de ahora, las pantallas de carga de las batallas mostrarán la composición del equipo en lugar de los consejos para principiantes. Siempre puedes volver a activar los consejos en la Configuración, en el Menú del juego."
+
+msgid "hints/confirmDialog/title"
+msgstr "Nuevas pantallas de carga de batalla"
+
+msgid "hints/hint1/description"
+msgstr "No pierdas de vista el marcador de penetración situado en el centro de la retícula de tu cañón; su color te indica dónde puedes penetrar el blindaje del enemigo."
+
+msgid "hints/hint1/green/description"
+msgstr "Alta probabilidad de penetración"
+
+msgid "hints/hint1/green/header"
+msgstr "Marcador verde"
+
+msgid "hints/hint1/header"
+msgstr "Penetración de blindaje"
+
+msgid "hints/hint1/red/description"
+msgstr "Baja probabilidad de penetración"
+
+msgid "hints/hint1/red/header"
+msgstr "Marcador rojo"
+
+msgid "hints/hint10/description"
+msgstr "El cañón de tu vehículo siempre se desplaza hacia el centro de la pantalla, pero su velocidad de desplazamiento es limitada, por lo que puede tomar algún tiempo."
+
+msgid "hints/hint10/header"
+msgstr "Retícula del cañón"
+
+msgid "hints/hint10/penetration/description"
+msgstr "El verde indica los puntos débiles del blindaje enemigo"
+
+msgid "hints/hint10/penetration/header"
+msgstr "Indicador de penetración"
+
+msgid "hints/hint10/reloading/description"
+msgstr "Círculo verde si está completamente cargado"
+
+msgid "hints/hint10/reloading/header"
+msgstr "Recarga del cañón"
+
+msgid "hints/hint10/spread/description"
+msgstr "Impactos al azar en el interior"
+
+msgid "hints/hint10/spread/header"
+msgstr "Círc. disper. del cañón"
+
+msgid "hints/hint12/description"
+msgstr "La cantidad de blindaje que debe penetrar un disparo depende del ángulo en el que impacte: ¡el ángulo de impacto es un factor crucial que afecta a la penetración del disparo!"
+
+msgid "hints/hint12/header"
+msgstr "Ángulo de blindaje"
+
+msgid "hints/hint12/notPenetrated/description"
+msgstr "Inclin.: blindaje grueso"
+
+msgid "hints/hint12/notPenetrated/header"
+msgstr "No penetra"
+
+msgid "hints/hint12/penetrated/description"
+msgstr "Ángulo recto: blindaje más delgado"
+
+msgid "hints/hint12/penetrated/header"
+msgstr "Penetración"
+
+msgid "hints/hint13/description"
+msgstr "La comunicación por radio entre aliados funciona automáticamente. Si un vehículo es detectado por un enemigo, se vuelve visible para todos los enemigos dentro de su alcance de señal."
+
+msgid "hints/hint13/header"
+msgstr "Comunicación"
+
+msgid "hints/hint13/invisible/description"
+msgstr "Escondido detrás de un objeto"
+
+msgid "hints/hint13/invisible/header"
+msgstr "Oculto"
+
+msgid "hints/hint13/visible/description"
+msgstr "Detectado por un aliado"
+
+msgid "hints/hint13/visible/header"
+msgstr "Detectado"
+
+msgid "hints/hint2/description"
+msgstr "Controlas un poderoso vehículo, pero su potencia tiene un costo. Las velocidades de rotación de tu vehículo y tu torreta son limitadas, así que piensa bien tus movimientos."
+
+msgid "hints/hint2/firing"
+msgstr "Disparo"
+
+msgid "hints/hint2/freeCam"
+msgstr "Cámara libre"
+
+msgid "hints/hint2/header"
+msgstr "Controles del vehículo"
+
+msgid "hints/hint2/movement"
+msgstr "Movimiento"
+
+msgid "hints/hint2/turret"
+msgstr "Rotación de la torreta"
+
+msgid "hints/hint3/description"
+msgstr "Puedes girar la rueda del mouse o pulsar la tecla Mayús para entrar en el modo Francotirador."
+
+msgid "hints/hint3/header"
+msgstr "Modo Francotirador"
+
+msgid "hints/hint3/orLabel"
+msgstr "o"
+
+msgid "hints/hint4/description"
+msgstr "Dañar módulos externos no hace que un vehículo pierda puntos de vida, pero sí reduce su rendimiento en combate."
+
+msgid "hints/hint4/header"
+msgstr "Daño crítico"
+
+msgid "hints/hint4/immobilized/description"
+msgstr "Daño crítico del chasis"
+
+msgid "hints/hint4/immobilized/header"
+msgstr "Inmovilizado"
+
+msgid "hints/hint4/shooting/description"
+msgstr "Daño crítico del cañón"
+
+msgid "hints/hint4/shooting/header"
+msgstr "No es posible disparar"
+
+msgid "hints/hint4/view/description"
+msgstr "Daño crítico en los dispositivos de vigilancia"
+
+msgid "hints/hint4/view/header"
+msgstr "Alcance de visión reducido"
+
+msgid "hints/hint5/aid/description"
+msgstr "Sirve para curar a la tripulación"
+
+msgid "hints/hint5/aid/header"
+msgstr "Bot. prim. auxilios"
+
+msgid "hints/hint5/description"
+msgstr "Equipa tu vehículo antes de una batalla para lidiar con el daño crítico a los módulos, las heridas de la tripulación y el fuego."
+
+msgid "hints/hint5/fire/description"
+msgstr "Sirve para apagar incendios"
+
+msgid "hints/hint5/fire/header"
+msgstr "Matafuegos"
+
+msgid "hints/hint5/header"
+msgstr "Consumibles"
+
+msgid "hints/hint5/repair/description"
+msgstr "Sirve para reparar módulos dañados"
+
+msgid "hints/hint5/repair/header"
+msgstr "Kit de reparación"
+
+msgid "hints/hint6/area"
+msgstr "Moverse por campo abierto"
+
+msgid "hints/hint6/description"
+msgstr "A un vehículo solo lo podrán detectar si permanece dentro del radio de visión de un enemigo. El follaje, el terreno y los objetos proporcionan ocultamiento adicional."
+
+msgid "hints/hint6/header"
+msgstr "Ocultamiento"
+
+msgid "hints/hint6/invisible"
+msgstr "Oculto"
+
+msgid "hints/hint6/object"
+msgstr "Escondido detrás de un objeto"
+
+msgid "hints/hint6/shot"
+msgstr "Detectado después de disparar"
+
+msgid "hints/hint6/vegetation"
+msgstr "Oculto por la vegetación"
+
+msgid "hints/hint6/visible"
+msgstr "Detectado"
+
+msgid "hints/hint7/base"
+msgstr "Base enemiga capturada"
+
+msgid "hints/hint7/description"
+msgstr "Son muchos los caminos que llevan a la victoria. Actúa según la situación."
+
+msgid "hints/hint7/header"
+msgstr "Condiciones de victoria"
+
+msgid "hints/hint7/orLabel"
+msgstr "O"
+
+msgid "hints/hint7/vehicles"
+msgstr "Todos los vehículos enemigos destruidos"
+
+msgid "hints/hint7/victory"
+msgstr "¡Victoria!"
+
+msgid "hints/hint8/description"
+msgstr "El cañón de un vehículo tiene mayor dispersión en movimiento. No te muevas, observa el círculo de dispersión del cañón alrededor de la retícula y dispara cuando hayas terminado de apuntar."
+
+msgid "hints/hint8/header"
+msgstr "Dispersión"
+
+msgid "hints/hint8/high"
+msgstr "35 km/h"
+
+msgid "hints/hint8/low"
+msgstr "0 km/h"
+
+msgid "hints/hint9/description"
+msgstr "En algunas posiciones, las limitaciones de ángulo de tu cañón pueden impedirte apuntar al enemigo."
+
+msgid "hints/hint9/header"
+msgstr "Ángulos de depresión y elevación del cañón"
+
+msgid "hints/loading"
+msgstr "Cargando"
+
+msgid "hints/manual"
+msgstr "Más en el Centro de entrenamiento en el Menú del juego"
+
+msgid "hints/skip"
+msgstr "Pulsa cualquier tecla para entrar en batalla"
+
+msgid "labels/company/queue"
+msgstr "Cola:"
+
+msgid "labels/level"
+msgstr "Nivel"
+
+msgid "labels/members"
+msgstr "Miembros: %(openTag)s%(membersCount)d%(closeTag)s / %(maxMembersCount)d"
+
+msgid "labels/player"
+msgstr "Jugador"
+
+msgid "labels/sort/byName"
+msgstr "Por nombre"
+
+msgid "labels/sort/byOrder"
+msgstr "Por momento agregado"
+
+msgid "labels/sort/byStatus"
+msgstr "Por preparación"
+
+msgid "labels/sort/byVehicles"
+msgstr "Por tipo de vehículo"
+
+msgid "labels/stats/level"
+msgstr "Nivel:"
+
+msgid "labels/stats/maxPlayers"
+msgstr "Jugadores:"
+
+msgid "labels/stats/sumLevel"
+msgstr "Nivel total:"
+
+msgid "labels/stats/totalLevel"
+msgstr "Nivel total: %(totalLevel)s"
+
+msgid "labels/stats/vehicleLevel"
+msgstr "Máximo nivel de vehículo:"
+
+msgid "labels/stats/vehicleSPGLevel"
+msgstr "Máximo nivel de AAP:"
+
+msgid "labels/vehicle"
+msgstr "Vehículo"
+
+msgid "memberList/empty/label"
+msgstr "Selecciona jugadores de la fila y transfiérelos al equipo regular."
+
+msgid "stats/battleSession/commonLevel"
+msgstr "Nivel:"
+
+msgid "stats/battleSession/required"
+msgstr "Requerido:"
+
+msgid "stats/battleSession/vehicleType"
+msgstr "Tipo:"
+
+msgid "switchPeripheryWindow/fort/applySwitchLabel"
+msgstr "Para planear y combatir en Escaramuzas, ve al servidor %(server)s."
+
+msgid "switchPeripheryWindow/fort/description"
+msgstr "Estás conectado al servidor %(server)s. Las restricciones de Escaramuzas están activadas en este servidor."
+
+msgid "switchPeripheryWindow/fort/header"
+msgstr "¡Atención!"
+
+msgid "switchPeripheryWindow/fort/selectServerLabel"
+msgstr "Para planear y combatir en Escaramuzas, ve a otro servidor:"
+
+msgid "switchPeripheryWindow/ranked/applySwitchLabel"
+msgstr "Para jugar en el modo Batalla Clasificatoria, por favor selecciona otro servidor."
+
+msgid "switchPeripheryWindow/ranked/description"
+msgstr "El cese al fuego está en efecto en el servidor %(server)s. Las Batallas Clasificatorias no están disponibles."
+
+msgid "switchPeripheryWindow/ranked/header"
+msgstr "¡Atención!"
+
+msgid "switchPeripheryWindow/ranked/selectServerLabel"
+msgstr "Para jugar en el modo Batalla Clasificatoria, por favor selecciona otro servidor:"
+
+msgid "title/battleSession/arenaType"
+msgstr "Mapa:"
+
+msgid "title/battleSession/battlesLimit"
+msgstr "Batallas/Victorias:"
+
+msgid "title/battleSession/clanBattle/startTime"
+msgstr "%(startTime)s, %(peripheryName)s, %(arenaName)s"
+
+msgid "title/battleSession/comment"
+msgstr "Descripción:"
+
+msgid "title/battleSession/header/battleSettings"
+msgstr "Ajustes de batalla:"
+
+msgid "title/battleSession/header/startTime"
+msgstr "La batalla comienza en:"
+
+msgid "title/battleSession/startTime"
+msgstr "Tiempo de inicio:"
+
+msgid "title/battleSession/unit"
+msgstr "Compañía"
+
+msgid "upButton/hint"
+msgstr "Haz click para unirte"

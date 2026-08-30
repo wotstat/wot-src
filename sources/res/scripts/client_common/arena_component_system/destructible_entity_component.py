@@ -1,0 +1,103 @@
+from __future__ import absolute_import, division
+from future.utils import viewitems, viewvalues
+import Event
+from arena_component_system.client_arena_component_system import ClientArenaComponent
+
+class DestructibleEntitiesComponent(ClientArenaComponent):
+    destructibleEntities = property((lambda self: self.__destructibleEntities))
+
+    def __init__(self, componentSystem):
+        ClientArenaComponent.__init__(self, componentSystem)
+        self.__destructibleEntities = {}
+        self.onDestructibleEntityAdded = Event.Event(self._eventManager)
+        self.onDestructibleEntityRemoved = Event.Event(self._eventManager)
+        self.onDestructibleEntityHealthChanged = Event.Event(self._eventManager)
+        self.onDestructibleEntityIsActiveChanged = Event.Event(self._eventManager)
+        self.onDestructibleEntityStateChanged = Event.Event(self._eventManager)
+        self.onDestructibleEntityFeedbackReceived = Event.Event(self._eventManager)
+        return
+
+    def destroy(self):
+        ClientArenaComponent.destroy(self)
+        self.__destructibleEntities = {}
+        return
+
+    def addDestructibleEntity(self, destEntity):
+        self.__destructibleEntities[destEntity.destructibleEntityID] = destEntity
+        self.onDestructibleEntityAdded(destEntity)
+        return
+
+    def updateDestructibleEntityHealth(self, destEntity, newHealth, attackerID, attackReason, hitFlags):
+        self.onDestructibleEntityHealthChanged(destEntity.destructibleEntityID, newHealth, destEntity.maxHealth, attackerID, attackReason, hitFlags)
+        return
+
+    def updateDestructibleEntityActiveState(self, destEntity):
+        self.onDestructibleEntityIsActiveChanged(destEntity.destructibleEntityID, destEntity.isActive)
+        return
+
+    def updateDestructibleEntityDestructionState(self, destEntity):
+        self.onDestructibleEntityStateChanged(destEntity.destructibleEntityID)
+        return
+
+    def updateDestructibleEntityFeedback(self, destEntity, eventID, gunInstallationIndex, damage):
+        self.onDestructibleEntityFeedbackReceived(eventID, destEntity.destructibleEntityID, (gunInstallationIndex, damage))
+        return
+
+    def removeDestructibleEntity(self, destEntity):
+        if destEntity.destructibleEntityID in self.__destructibleEntities:
+            self.onDestructibleEntityRemoved(destEntity.destructibleEntityID)
+            del self.__destructibleEntities[destEntity.destructibleEntityID]
+        return
+
+    def getNumDestructibleEntities(self):
+        return len(self.__destructibleEntities)
+
+    def getNumDestroyedEntities(self):
+        count = 0
+        for destEntity in viewvalues(self.__destructibleEntities):
+            if destEntity.health <= 0:
+                count += 1
+
+        return count
+
+    def getTotalRemainingHealthPercentage(self):
+        totalMaxHealth = 0.0
+        totalRemainingHealth = 0.0
+        for object_ in viewvalues(self.__destructibleEntities):
+            totalMaxHealth += object_.maxHealth
+            totalRemainingHealth += object_.health
+
+        remainingHealthPercentage = totalRemainingHealth / (totalMaxHealth / 100)
+        return remainingHealthPercentage
+
+    def getDestroyedEntityIds(self):
+        destroyed = []
+        for entityId, destEntity in viewitems(self.__destructibleEntities):
+            if destEntity.health <= 0:
+                destroyed.append(entityId)
+
+        return destroyed
+
+    def getDestructibleEntity(self, destId):
+        return self.__destructibleEntities.get(destId, None)
+
+    def getDestructibleEntityAndDestructibleIDByEntityID(self, entityID):
+        for destID, entity in viewitems(self.__destructibleEntities):
+            if entity.id == entityID:
+                return (entity, destID)
+
+        return (None, -1)
+
+    def getNearestDestructibleEntityID(self, position):
+
+        def getDistance(entity):
+            return entity.position.flatDistTo(position)
+
+        aliveHQs = [hq for hq in viewvalues(self.__destructibleEntities) if hq.health > 0]
+        if not aliveHQs:
+            return (None, None)
+        else:
+            closestHQ = min(aliveHQs, key=getDistance)
+            if closestHQ:
+                return (closestHQ.destructibleEntityID, getDistance(closestHQ))
+            return (None, None)

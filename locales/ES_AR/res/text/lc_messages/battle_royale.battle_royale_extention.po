@@ -1,0 +1,287 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To:\nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "battleQuestAwards/button"
+msgstr "¡Afirmativo!"
+
+msgid "battleQuestAwards/stPatrick/subTitle"
+msgstr "CAZADOR DE ACERO: ENFRENTAMIENTO DEL TRÉBOL"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "CAZADOR DE ACERO"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "¡ETAPA FINAL COMPLETADA!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "¡ETAPA %(level)s COMPLETADA!"
+
+msgid "dailyBonus/description"
+msgstr "Un %(dailyBonus)s de bonificación a los sellos de la suerte por posicionarte entre los %(soloTopPlaces)s mejores en batallas en solitario o entre los %(squadTopPlaces)s mejores en batallas de pelotón. La bonificación se puede activar una vez al día para cada vehículo del evento."
+
+msgid "eventShop"
+msgstr "Tienda del evento"
+
+msgid "leaveBattleView/confirmation/cancel"
+msgstr "Quedarse"
+
+msgid "leaveBattleView/confirmation/submit"
+msgstr "Desertar"
+
+msgid "leaveBattleView/description"
+msgstr "Tu vehículo aún puede luchar. Si te vas ahora, no recibirás recompensas por esta batalla. ¿Quieres irte de todos modos?"
+
+msgid "leaveBattleView/title"
+msgstr "Deserción del campo de batalla"
+
+msgid "leaveBattleView/warning"
+msgstr "¡No recibirás recompensas!"
+
+msgid "progress/counter"
+msgstr "{{current}}{{divider}}{{total}}"
+
+msgid "progressionComplete"
+msgstr "¡Completaste el progreso principal!"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s o %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/questsTotal/text"
+msgstr "Misiones completadas: "
+
+msgid "progressionView/battleQuests/timer/eventResetTime/text"
+msgstr "Fin del evento:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "Actualización de las misiones:"
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/seasonRange"
+msgstr "%(startDate)s – %(endDate)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Progreso completado. Sigue jugando a Cazador de acero para ganar más recompensas."
+
+msgid "progressionView/subTitle/endEvent"
+msgstr "El evento terminó. Ya no puedes acceder a las misiones o el progreso."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Completa misiones para ganar puntos de progreso.\nLa cantidad de puntos que obtengas también depende de tu posición en batalla. %(infotip)s"
+
+msgid "proxy_currency_tooltip/earn/description/brcoin"
+msgstr "Obtén sellos de acero por buen rendimiento en batalla, por alcanzar buenas posiciones en función de los resultados de batalla y por completar las misiones del modo."
+
+msgid "proxy_currency_tooltip/earn/description/stpcoin"
+msgstr "Obtén sellos de la suerte por recoger botines de guerra en batalla, completar etapas de progreso y alcanzar las primeras posiciones en Cazador de acero."
+
+msgid "proxy_currency_tooltip/earn/title/brcoin"
+msgstr "Cómo conseguir sellos"
+
+msgid "proxy_currency_tooltip/earn/title/stpcoin"
+msgstr "Cómo conseguir sellos"
+
+msgid "proxy_currency_tooltip/spend/description/brcoin"
+msgstr "Usa los sellos de acero que obtuviste para comprar estilos de Cazador de acero."
+
+msgid "proxy_currency_tooltip/spend/description/stpcoin"
+msgstr "Canjea los sellos de la suerte que obtuviste por valiosas recompensas en la Tienda del trébol."
+
+msgid "proxy_currency_tooltip/spend/title/brcoin"
+msgstr "En qué gastar sellos"
+
+msgid "proxy_currency_tooltip/spend/title/stpcoin"
+msgstr "En qué gastar sellos"
+
+msgid "proxy_currency_tooltip/title/brcoin"
+msgstr "Sellos de acero"
+
+msgid "proxy_currency_tooltip/title/stpcoin"
+msgstr "Sellos de la suerte"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Se otorga por completar misiones especiales en Cazador de acero. Permite avanzar en el progreso."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Puntos de progreso de Cazador de acero"
+
+msgid "rewardCurrencyTooltip/body/battlePassPoints"
+msgstr "Puedes obtener puntos luchando en batallas y completando misiones especiales. Se agregan de forma automática al progreso del Pase de batalla."
+
+msgid "rewardCurrencyTooltip/body/brProgressionToken"
+msgstr "Se otorga por completar misiones de Cazador de acero y por lograr buenos resultados en batalla. Permiten avanzar en el progreso."
+
+msgid "rewardCurrencyTooltip/body/brcoin"
+msgstr "Puedes obtener sellos de acero por buen rendimiento en batalla, por alcanzar buenas posiciones en función de los resultados de batalla y por completar misiones especiales."
+
+msgid "rewardCurrencyTooltip/body/credits"
+msgstr "La moneda principal del juego, que se gana en batallas o se compra con oro."
+
+msgid "rewardCurrencyTooltip/body/crystal"
+msgstr "Una moneda especial y poco común que se usa para comprar objetos únicos que no se pueden obtener por otros medios."
+
+msgid "rewardCurrencyTooltip/body/stpcoin"
+msgstr "Moneda que se puede ganar en las batallas de Cazador de acero. Los sellos se pueden canjear por recompensas únicas en la Tienda del trébol. Al jugar en un pelotón, los sellos se dividen equitativamente entre sus miembros. La cantidad especificada es tu parte de las ganancias totales."
+
+msgid "rewardCurrencyTooltip/body/xp"
+msgstr "La experiencia que ganas en vehículos especiales se puede convertir en experiencia libre."
+
+msgid "rewardCurrencyTooltip/dailyBonus/stpcoin"
+msgstr "¡Bonificación aplicada! La cantidad de sellos que obtuviste en batalla se multiplica por %(count)s."
+
+msgid "rewardCurrencyTooltip/header/battlePassPoints"
+msgstr "Puntos del Pase de batalla"
+
+msgid "rewardCurrencyTooltip/header/brProgressionToken"
+msgstr "Puntos de progreso de Cazador de acero"
+
+msgid "rewardCurrencyTooltip/header/brcoin"
+msgstr "Sellos de acero"
+
+msgid "rewardCurrencyTooltip/header/credits"
+msgstr "Créditos"
+
+msgid "rewardCurrencyTooltip/header/crystal"
+msgstr "Bonos"
+
+msgid "rewardCurrencyTooltip/header/stpcoin"
+msgstr "Sellos de la suerte"
+
+msgid "rewardCurrencyTooltip/header/xp"
+msgstr "Experiencia de combate"
+
+msgid "rewardCurrencyTooltip/premiumBonus/brcoin"
+msgstr "Una Cuenta Premium de WoT aumenta en un 50 % la cantidad obtenida de esta moneda."
+
+msgid "rewardCurrencyTooltip/premiumBonus/credits"
+msgstr "Una Cuenta Premium de WoT aumenta en un 50 % la cantidad obtenida de esta moneda."
+
+msgid "rewardCurrencyTooltip/premiumBonus/xp"
+msgstr "Una Cuenta Premium de WoT aumenta en un 50 % la experiencia de combate obtenida."
+
+msgid "serviceChannelMessages/awards"
+msgstr "Recompensa recibida:"
+
+msgid "serviceChannelMessages/body"
+msgstr "Completaste la etapa de progreso %(stage)s en el modo %(progressionName)s."
+
+msgid "serviceChannelMessages/header"
+msgstr "¡Felicitaciones!"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detalles"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Cazador de acero"
+
+msgid "tab/label/platoon"
+msgstr "PELOTÓN"
+
+msgid "tab/label/solo"
+msgstr "INDIVIDUAL"
+
+msgid "tab/label/team"
+msgstr "CON UN AMIGO"
+
+msgid "tooltip/banner/description"
+msgstr "Una dinámica batalla de todos contra todos en la que solo queda uno en pie, en un escenario postapocalíptico. Lucha a bordo de ocho vehículos especiales que se pueden mejorar a medida que avanzas en la batalla para fortalecerte con cada nivel. ¡Hay recompensas exclusivas y mucho más!"
+
+msgid "tooltip/banner/mode/description"
+msgstr "- Modo de juego; haz clic para ver"
+
+msgid "tooltip/banner/mode/label"
+msgstr "MODO"
+
+msgid "tooltip/banner/performanceRisk/description/high"
+msgstr "El rendimiento de tu computadora es insuficiente para este modo. Podrías experimentar problemas con los gráficos y el movimiento de vehículos. También es probable que el cliente presente errores graves."
+
+msgid "tooltip/banner/performanceRisk/description/medium"
+msgstr "Este modo requiere de un alto rendimiento de la computadora. Podrías experimentar problemas con la carga de mapas, gráficos y movimiento de vehículos. En caso de que el desempeño sea insuficiente, cambia a una calidad inferior de gráficos en la Configuración."
+
+msgid "tooltip/banner/performanceRisk/title/high"
+msgstr "Bajo rendimiento"
+
+msgid "tooltip/banner/performanceRisk/title/medium"
+msgstr "Posibilidad de rendimiento reducido"
+
+msgid "tooltip/banner/stPatrickDescription"
+msgstr "Una dinámica \"battle royale\" en la que solo queda uno en pie, con un toque de magia verde. Lucha a bordo de ocho vehículos especiales que se pueden mejorar mientras peleas para hacerte más fuerte con cada nivel. ¡Hay recompensas exclusivas y mucho más!"
+
+msgid "tooltip/banner/stPatrickTitle"
+msgstr "Enfrentamiento del trébol"
+
+msgid "tooltip/banner/timer/text/accent"
+msgstr "Evento disponible por %(timer)s"
+
+msgid "tooltip/banner/timer/text/cooldown"
+msgstr "Cese de hostilidades %(timer)s"
+
+msgid "tooltip/banner/title"
+msgstr "Cazador de acero"
+
+msgid "tooltip/daily_quests/header"
+msgstr "Completado"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Nuevas misiones de Cazador de acero en {{timeLeft}}"
+
+msgid "tooltip/daily_quests/reward"
+msgid_plural "plural/tooltip/daily_quests/reward"
+msgstr[0] "Recompensa:"
+msgstr[1] "Recompensas:"
+msgstr[2] "Recompensas:"
+
+msgid "tooltip/daily_quests/text"
+msgstr "¡Completaste todas las misiones!"
+
+msgid "tooltip/progressionWidget/description/completed"
+msgstr "Buen trabajo, comandante. ¡Sigue así!"
+
+msgid "tooltip/progressionWidget/description/header"
+msgstr "¡Completaste el progreso principal!"
+
+msgid "tooltip/progressionWidget/description/inProgress"
+msgstr "Para avanzar en el progreso, completa misiones y alcanza las mejores posiciones en las batallas de Cazador de acero."
+
+msgid "tooltip/progressionWidget/subTitle"
+msgstr "El modo termina en %(value)s"
+
+msgid "tooltip/progressionWidget/title"
+msgstr "Cazador de acero"
+
+msgid "tooltip/quest/header"
+msgstr "Misión de Cazador de acero"
+
+msgid "tooltip/shop/stPatrick/subtitle"
+msgstr "Cambia tus {ede6d9_Open}sellos de la suerte{ede6d9_Close} por recompensas especiales."
+
+msgid "tooltip/shop/stPatrick/text"
+msgstr "Obtén sellos de la suerte por recoger botines de guerra en batalla, completar etapas de progreso y alcanzar las primeras posiciones en el modo \"battle royale\"."
+
+msgid "tooltip/shop/stPatrick/title"
+msgstr "Tienda del trébol"
+
+msgid "tooltip/shop/subtitle"
+msgstr "Cambia tus {ede6d9_Open}sellos de acero{ede6d9_Close} por recompensas especiales."
+
+msgid "tooltip/shop/text"
+msgstr "Gana sellos de acero logrando un buen desempeño en batalla, obteniendo una buena posición en los resultados postbatalla y completando misiones."
+
+msgid "tooltip/shop/title"
+msgstr "Tienda de Cazador de acero"
+
+msgid "upgrades/description"
+msgstr "Causa daño a los vehículos enemigos y recoge botín de guerra en el mapa para recibir experiencia y avanzar por los niveles. Con cada nivel que alcances, podrás mejorar un módulo desde el menú de mejoras para potenciar notablemente las características de tu vehículo."
+
+msgid "upgrades/footer"
+msgstr "Los módulos solo se pueden mejorar en batalla."
+
+msgid "upgrades/subtitle"
+msgstr "Sales a pelear con un vehículo de nivel I."
+
+msgid "upgrades/title"
+msgstr "Mejoras de vehículo en batalla"

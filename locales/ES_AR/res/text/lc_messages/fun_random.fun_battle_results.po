@@ -1,0 +1,254 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "closeBtn"
+msgstr "CERRAR"
+
+msgid "continueBtn"
+msgstr "Continuar"
+
+msgid "economy/double/credits"
+msgstr "La Cuenta Premium de WoT aumenta un %(value)s %% la cantidad de créditos ganados."
+
+msgid "economy/double/free_xp"
+msgstr "La Cuenta Premium de WoT aumenta un %(value)s %% la cantidad de XP libre ganada."
+
+msgid "economy/double/tmen_xp"
+msgstr "La Cuenta Premium de WoT aumenta un %(value)s %% la cantidad de XP de tripulación ganada."
+
+msgid "economy/double/xp"
+msgstr "La Cuenta Premium de WoT aumenta un %(value)s %% la cantidad de XP de combate ganada."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "La Cuenta Premium de WoT aumenta un %(value)s %% la cantidad de XP libre y de combate ganada."
+
+msgid "efficiency/capturePoints"
+msgstr "Captura de la base"
+
+msgid "efficiency/damageAssisted"
+msgstr "Daño por asistencia"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Aturdimiento"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Daño bloqueado"
+
+msgid "efficiency/damageDealt"
+msgstr "Daño"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Defensa de la base"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "Destruidos"
+
+msgid "efficiency/spotted"
+msgstr "Detección"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Captura de la base"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Asistencia en destruir"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Aturdimiento"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Uso del blindaje"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "Daño"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Defensa de la base"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Enemigo destruido"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Detección"
+
+msgid "finish"
+msgstr "La batalla terminó"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Se aplica a la batalla más reciente en el mismo vehículo."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "No se puede aplicar la bonificación: el entrenamiento acelerado de la tripulación está habilitado."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "No se puede aplicar la bonificación: el entrenamiento acelerado de la tripulación está deshabilitado."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "Los multiplicadores solo se pueden aplicar a las batallas victoriosas."
+
+msgid "premiumBonus/NoCrew"
+msgstr "No se puede aplicar la bonificación flexible: no se encontró la tripulación."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "No se puede aplicar la bonificación flexible: no se encontró el vehículo."
+
+msgid "progress/title"
+msgstr "%(modeName)s: Misión especial. Etapa: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: Misión especial"
+
+msgid "result/lose"
+msgstr "DERROTA"
+
+msgid "result/tie"
+msgstr "EMPATE"
+
+msgid "result/win"
+msgstr "VICTORIA"
+
+msgid "resultRace/battleStatus/finished"
+msgstr "LLEGASTE"
+
+msgid "resultRace/battleStatus/inTop"
+msgstr "PUESTO"
+
+msgid "resultRace/battleStatus/notFinished"
+msgstr "NO\nLLEGASTE"
+
+msgid "resultRace/finishReason/finished"
+msgstr "Llegaste a la meta"
+
+msgid "resultRace/finishReason/notFinished"
+msgstr "No llegaste a la meta"
+
+msgid "resultRace/footerSubtitle/battleEnded"
+msgstr "La batalla terminó: {{time}}"
+
+msgid "resultRace/footerSubtitle/finished"
+msgstr "¡Nada mal!"
+
+msgid "resultRace/footerSubtitle/inTop"
+msgstr "¡Mejores 3!"
+
+msgid "resultRace/footerSubtitle/notFinished"
+msgstr "¡Mejor suerte la próxima vez!"
+
+msgid "ribbon/applied"
+msgstr "Bonificación aplicada con éxito"
+
+msgid "ribbon/errorState"
+msgstr "Error de aplicación"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s de bonificación a la XP"
+
+msgid "ribbon/timeLeft"
+msgstr "La bonificación se renueva en:"
+
+msgid "ribbon/usesLeft"
+msgstr "Usos disponibles: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "Dev RESUMEN"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "Dev PUNTUACIÓN DEL EQUIPO"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Jugadores"
+
+msgid "sub_modes/fall_tanks/efficiency/checkpointsPassed"
+msgstr "Puntos de control"
+
+msgid "sub_modes/fall_tanks/efficiency/deathCount"
+msgstr "Reapariciones"
+
+msgid "sub_modes/fall_tanks/efficiency/finishPosition"
+msgstr "Puesto"
+
+msgid "sub_modes/fall_tanks/efficiency/finishTime"
+msgstr "Tiempo"
+
+msgid "sub_modes/fall_tanks/efficiency/kills"
+msgstr "Desintegrado"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/checkpointsPassed"
+msgstr "Cantidad de puntos de control que pasaste"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/deathCount"
+msgstr "Cantidad de veces que reapareciste después de que tu vehículo quedara desintegrado"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/destroyed"
+msgstr "Cantidad de vehículos enemigos que desintegraste"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishPosition"
+msgstr "Tu posición final en la tabla de la carrera"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishTime"
+msgstr "Tiempo que tardaste en llegar a la meta"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/checkpointsPassed"
+msgstr "Puntos de control"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/deathCount"
+msgstr "Reapariciones"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/destroyed"
+msgstr "Desintegrado"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishPosition"
+msgstr "Puesto"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishTime"
+msgstr "Tiempo"
+
+msgid "sub_modes/fall_tanks/navigation/battleResults"
+msgstr "PUNTUACIÓN PERSONAL"
+
+msgid "sub_modes/fall_tanks/navigation/teamEfficiency"
+msgstr "RESULTADOS DE PARTICIPANTES"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/body"
+msgstr "Ordenar por puesto"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/header"
+msgstr "Puesto"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/body"
+msgstr "Ordenar por tiempo"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/header"
+msgstr "Tiempo"
+
+msgid "sub_modes/fall_tanks/team/singleTeam"
+msgstr "Jugadores"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/body"
+msgstr "Ordenar por vehículo"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/header"
+msgstr "Vehículos"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "RESUMEN"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "PUNTUACIÓN DEL EQUIPO"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Jugadores"
+
+msgid "team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "title"
+msgstr "RESULTADOS DE BATALLA"

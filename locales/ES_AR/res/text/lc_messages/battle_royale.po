@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "El cese de hostilidades está activo en todos los servidores disponibles."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "El cese de hostilidades está activo en este servidor."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Cambiar servidor"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Cazador de acero terminó"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Modo no disponible en este servidor"
+
+msgid "banner/info/disabled"
+msgstr "Cese de hostilidades"
+
+msgid "banner/info/seasonActive"
+msgstr "Segunda oportunidad y recompensas"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Hasta el %(day)s de %(month)s"
+
+msgid "banner/subtitle"
+msgstr "\"Battle royale\" con recompensas valiosas"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s h"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s h %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "CAZADOR DE ACERO"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "La batalla continuará desde una nueva posición."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "Reaparecerás pronto"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Reapareciendo"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "No habrá otra oportunidad."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Reaparición ya no está disponible"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "¡Reaparición dejará de estar disponible pronto!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Ten más cuidado."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "¡Tu vehículo está listo para la batalla!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Volver a la batalla"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Se libran batallas ahora mismo."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Reaparición no disponible"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Busca una carga de Reaparición para que vuelva a la acción."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Vehículo aliado destruido"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Reapareciendo"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "¡Dos vehículos son mejor que uno!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "El vehículo aliado reapareció"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "¡Mantente fuera de combate!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Aliado reapareciendo"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "¡Bonificación activada!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Recompensa por el primer puesto"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Obtenido en batalla"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "VICTORIA"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Capítulo no elegido. Puntos del Pase de batalla sin gastar: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "Completaste todos los capítulos. Sigue jugando y junta más puntos del Pase de batalla."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "A Pase de batalla"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Pase de Batalla"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Elige un capítulo"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Al progreso del capítulo activo"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "A Pase de batalla"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Misiones completadas por batalla: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Misiones"
+
+msgid "battleResult/battleReward/title"
+msgstr "RECIBIDO POR LA BATALLA"
+
+msgid "battleResult/button/hangar"
+msgstr "Al Garage"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Los puntos y las recompensas se distribuirán cuando todos los jugadores terminen la batalla. Las misiones también se evaluarán según los resultados de la batalla."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Pulsa %(esc) para omitir la animación"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Invitar al pelotón"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Aliado"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Aliado aleatorio"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Tipo de batalla"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "BATALLA INDIVIDUAL"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "Con una Cuenta Premium de WoT, puedes recibir lo siguiente:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Valores totales con Cuenta Premium de WoT"
+
+msgid "battleResult/progressStage"
+msgstr "Progreso de etapa {stage}"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Los demás jugadores no podrán ver la etiqueta de clan y el apodo verdaderos."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Nombre real del jugador: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "El apodo real del jugador se cambió a {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "Cantidad de daño bloqueado por el blindaje de tu vehículo."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "Cantidad de daño que infligiste."
+
+msgid "battleResult/stats/body/kills"
+msgstr "La cantidad de vehículos enemigos que destruiste."
+
+msgid "battleResult/stats/body/place"
+msgstr "Tu puesto en función de los resultados de batalla."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "La cantidad de vehículos enemigos que destruyó tu pelotón."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Daño bloqueado"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Daño infligido"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Enemigos que destruiste"
+
+msgid "battleResult/stats/header/place"
+msgstr "Posición"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Destruidos por pelotón"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Daño bloqueado"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Daño infligido"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Enemigos que destruiste"
+
+msgid "battleResult/stats/title/place"
+msgstr "Posición"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Destruidos por pelotón"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Tabla de clasificación"
+
+msgid "battleResult/tab/result"
+msgstr "Resultados de batalla"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "PELOTÓN DESTRUIDO"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "VEHÍCULO DESTRUIDO"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "VICTORIA"
+
+msgid "battleResult/title/victoryOther"
+msgstr "POSICIÓN DE HONOR"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Elige uno de los vehículos especiales para Cazador de Acero."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Vehículo incompatible"
+
+msgid "button/modules"
+msgstr "ÁRBOL TECNOLÓGICO"
+
+msgid "button/repair"
+msgstr "Reparar"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Batallas no disponibles temporalmente"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Batallas no disponibles temporalmente"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Modo no disponible"
+
+msgid "ceasefire/header/schedule"
+msgstr "Cronograma de batalla"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}-{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "El cese de hostilidades está activo en todos los servidores disponibles. Puedes ver el cronograma a continuación."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "El cese de hostilidades está activo en este servidor. Puedes cambiar a otro servidor para acceder al modo."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Cazador de acero no está disponible en este servidor. Puedes cambiar a otro servidor para acceder al modo."
+
+msgid "commanderInfo/commonRank"
+msgstr "Comandante"
+
+msgid "commanderInfo/description/china"
+msgstr "\"Ya gané. Pronto te darás cuenta\"."
+
+msgid "commanderInfo/description/france"
+msgstr "\"¡Soy la ley!\"."
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Hoy es un día glorioso. Pasará la historia\"."
+
+msgid "commanderInfo/description/poland"
+msgstr "\"No hay tiempo para ser educados\"."
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Todo va de acuerdo al plan\"."
+
+msgid "commanderInfo/description/uk"
+msgstr "\"No importa quién seas, pero sé el mejor\"."
+
+msgid "commanderInfo/description/usa"
+msgstr "\"El hacha está desenterrada, recién pulida y afilada\"."
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"¡El ganador se lleva todo!\"."
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Pericias"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nVehículo especial para Cazador de acero"
+
+msgid "fragPanel/squadsCount"
+msgstr "Pelotones: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Tabla de clasificación"
+
+msgid "hangarResults/btns/summary"
+msgstr "Resultados de batalla"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "CERRAR"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Los módulos solo pueden mejorarse en combate. Para abrir el menú de mejoras, pulsa %(key)s en la batalla."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s y %(highlight2)s para recibir experiencia. Por cada nivel, el jugador puede mejorar un módulo en el menú de mejora y perfeccionar las características del vehículo."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Inflige daño a vehículos enemigos"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "consigue botín de guerra en el mapa"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Mejora tu vehículo en la batalla"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "Entras en combate con un vehículo de nivel I."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Los módulos se pueden mejorar en el menú de mejora durante la batalla (tecla %(treeKey)s de forma predeterminada) y pulsando la combinación de teclas %(leftModuleKey)s y %(rightModuleKey)s.\n\nLos módulos solo pueden mejorarse en combate."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "En batalla:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Tu cazador de acero recibe experiencia en combate por causar daño y conseguir botines de guerra. Tras acumular la cantidad de experiencia necesaria, puedes alcanzar el siguiente nivel y elegir una mejora para uno de los módulos."
+
+msgid "levelUp/severalTitles"
+msgstr "NIVELES RECIBIDOS: ¡%(firstLevel)s - %(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "¡NIVEL %(level)s RECIBIDO!"
+
+msgid "levelUp/twoTitles"
+msgstr "NIVELES RECIBIDOS: ¡%(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Completa misiones y recibe recompensas valiosas."
+
+msgid "level_up/max_level_info/title"
+msgstr "Nuevas misiones diarias disponibles"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "La temporada\nempieza pronto"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "La temporada comenzará el %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Bloqueo"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Daño"
+
+msgid "playerStats/killsStat/name"
+msgstr "Destruidos"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Destruido"
+
+msgid "playerStats/placeStat/name"
+msgstr "Posición"
+
+msgid "playerStats/title"
+msgstr "Puntuación personal"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Detección por radio no disponible: preparación en curso"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "El vehículo está totalmente operativo. No hace falta utilizar Restauración."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Robot de batalla destruido"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s destruyó a %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s destruyó al enemigo %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Bola de fuego destruida"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Minas expiradas"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Minas desplegadas"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "La Detección por radio está lista"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "El vehículo alcanzó el nivel máximo"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Nivel %(level)s alcanzado"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Montado: %(moduleType)s. Mejorado: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Chasís"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Suspensión"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Motor"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Cañón"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Detección por radio"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Torreta"
+
+msgid "playersPanel/title"
+msgstr "EQUIPO"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Alterna entre vehículos de pelotón."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Modo Espectador"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Volver al garage.\nIngresar a una batalla en otro vehículo."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Volver a garage"
+
+msgid "preBattle/buttonTitle"
+msgstr "¡BATALLA!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Elige un mapa"
+
+msgid "preBattle/listTitle"
+msgstr "DISPOSICIÓN DE LOS JUGADORES"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Área 404"
+
+msgid "preBattle/mapRandom"
+msgstr "Mapa aleatorio"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "VEHÍCULOS DEL PELOTÓN"
+
+msgid "preBattle/title"
+msgstr "GRAN CACERÍA"
+
+msgid "preBattle/userFooterTitle"
+msgstr "VEHÍCULOS SELECCIONADOS"
+
+msgid "preBattle/userNotReady"
+msgstr "No preparado"
+
+msgid "preBattle/userReady"
+msgstr "Preparado"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "La temporada %(cycleNo)s en el servidor %(server)s ha terminado."
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "La temporada en el servidor %(server)s ha terminado."
+
+msgid "proxyPanel/button"
+msgstr "Tienda"
+
+msgid "proxyPanel/label"
+msgstr "Sellos\nde acero"
+
+msgid "proxyPanel/store"
+msgstr "TIENDA"
+
+msgid "questsTooltip/timeLeft"
+msgstr "La temporada termina en %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "No se asignó ninguna tecla a la Detección por radio"
+
+msgid "radar/hint/press"
+msgstr "Pulsa"
+
+msgid "radar/hint/text"
+msgstr "para activar la Detección por radio"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Desplegar"
+
+msgid "selectRespawn/button/land"
+msgstr "Desplegar"
+
+msgid "selectRespawn/description"
+msgstr "Haz clic en uno de los puntos sugeridos. Si no eliges ninguno, se te desplegará en cualquiera de los puntos sugeridos."
+
+msgid "selectRespawn/header"
+msgstr "Elige un punto de despliegue"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Haz clic en uno de los puntos sugeridos. Si no eliges ninguno, se te desplegará en cualquiera de los puntos sugeridos."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Tu batalla empieza aquí"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Elige un punto de despliegue"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "¡MASACRE!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "¡El ácido corroe el blindaje!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "¡La zona está cerrada! ¡Sal de ella o tu vehículo quedará destruido!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "La zona se volverá roja pronto"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "¡Movilidad reducida!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "De vuelta al buen camino..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Restauración de puntos de vida"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Restauración de puntos de vida"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Convirtiendo daño"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Características técnicas mejoradas"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Proyectiles y restauración"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Entrega aérea"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Kit de reparación o carga de habilidad"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Botín de guerra"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Botín de guerra combinado: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Recogiendo: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Zona de reparación"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "¡Fervor emergente!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "Detrás del humo"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "¡Nuestro blindaje se corroe!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "¡Movilidad reducida!"
+
+msgid "techParams/type/damage"
+msgstr "Daño"
+
+msgid "techParams/type/difficulty"
+msgstr "Dificultad"
+
+msgid "techParams/type/mobility"
+msgstr "Movilidad"
+
+msgid "techParams/type/spotting"
+msgstr "Detección"
+
+msgid "techParams/type/survivability"
+msgstr "Resistencia"
+
+msgid "techtree/body_armor"
+msgstr "Blindaje"
+
+msgid "techtree/body_health"
+msgstr "Puntos de vida"
+
+msgid "techtree/body_mobility"
+msgstr "Movilidad"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dinámicas"
+
+msgid "techtree/engine_speed"
+msgstr "Velocidad máxima"
+
+msgid "techtree/gun_alpha"
+msgstr "Daño por disparo"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Autocargador"
+
+msgid "techtree/gun_clip"
+msgstr "Recarga de cargador"
+
+msgid "techtree/gun_dpm"
+msgstr "Velocidad de recarga"
+
+msgid "techtree/gun_dualgun"
+msgstr "Cañón doble"
+
+msgid "techtree/gun_he"
+msgstr "Daño de proyectiles HE"
+
+msgid "techtree/gun_machinegun"
+msgstr "Ametralladora antitanque"
+
+msgid "techtree/gun_piercing"
+msgstr "Penetración"
+
+msgid "techtree/radar_cooldown"
+msgstr "Recuperación de Detección por radio"
+
+msgid "techtree/radar_distance"
+msgstr "Alcance de detección"
+
+msgid "techtree/turret_armor"
+msgstr "Blindaje"
+
+msgid "techtree/turret_health"
+msgstr "Puntos de vida"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Velocidad de rotación"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15 %"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Hasta {{credits}} créditos"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Hasta {{experience}} de XP"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Bonificación de batalla de pelotón"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Forma equipo con un aliado aleatorio y enfrenten a nueve pelotones enemigos. En este modo, se pueden completar las misiones de pelotón. El pelotón se separará automáticamente al terminar la batalla."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Cazador de acero clásico. Todos contra todos. ¡Obtén recursos, mejora tu vehículo y usa sus habilidades únicas para ser el último que quede en pie!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Juega con un amigo en un pelotón y enfrenten a nueve pelotones enemigos. En este modo, se pueden completar las misiones de pelotón."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Pelotón aleatorio"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Modo individual"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Pelotón con un amigo"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Solitario"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Pelotón"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Reglas para ganar puntos"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "Puesto %(place)s"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "Puestos %(place)s"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medalla"
+
+msgid "tooltips/awards/badge"
+msgstr "Insignia"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Permite volver a luchar luego de que destruyan tu vehículo. Cuando sucede, el nivel de mejora no se pierde. Solo se puede utilizar una cantidad de veces limitada en cada batalla."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Puedes conseguir cargas de reaparición en entregas aéreas."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "Para ayudar a que un aliado reaparezca, mantente fuera de combate durante {brown_Open}%(timeToResurrect)s s{brown_Close}. Esta mecánica funciona durante los primeros {brown_Open}%(duration)s min{brown_Close} de batalla. Las cargas de Reaparición se comparten entre miembros del mismo pelotón."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "Al jugar en pelotón"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Tu vehículo reaparecerá automáticamente cuando lo destruyan. Esta mecánica funciona durante los primeros {brown_Open}%(duration)s min{brown_Close} de batalla."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "Al jugar solo"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Uso único"
+
+msgid "tooltips/respawn/title"
+msgstr "Reaparición"
+
+msgid "tooltips/vehicle/description"
+msgstr "Vehículo para el modo Cazador de acero"
+
+msgid "tournament/description"
+msgstr "GRAN CACERÍA"
+
+msgid "tournament/fightButton/notReady"
+msgstr "No preparado"
+
+msgid "tournament/fightButton/ready"
+msgstr "¡Preparado!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "No se puede ingresar al torneo. Código del error: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Error en el torneo Gran Cacería. Código del error: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "GRAN CACERÍA"
+
+msgid "tournament/type/solo"
+msgstr "Tipo: Solitario"
+
+msgid "tournament/type/squad"
+msgstr "Tipo: Pelotón"
+
+msgid "upgradePanel/alert/0"
+msgstr "¡No puedes mejorar tu vehículo!"
+
+msgid "upgradePanel/alert/1"
+msgstr "¡No puedes mejorar el vehículo mientras estás es una refriega!"
+
+msgid "upgradePanel/alert/2"
+msgstr "¡No puedes mejorar el vehículo porque se está hundiendo!"
+
+msgid "upgradePanel/alert/3"
+msgstr "¡No puedes mejorar el vehículo porque está dado vuelta!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Pulsa %(key)s para abrir el menú de mejora"
+
+msgid "upgradePanel/title/default"
+msgstr "Nuevo módulo disponible"
+
+msgid "upgradePanel/title/hull"
+msgstr "Nuevo chasís disponible"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "Nueva suspensión disponible"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "Nuevo motor disponible"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "Nuevo cañón disponible"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "Nueva radio disponible"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "Nueva torreta disponible"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "O"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Blindaje"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Daño por disparo"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Velocidad de recarga"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Puntos de vida"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Penetración"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Operación de Detección por radio"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Sistema de carga por tambor"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Velocidad"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Funciones del vehículo"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Ventajas"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Desventajas"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "El cese de hostilidades está activo en todos los servidores. Las batallas estarán disponibles en %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Elige otro servidor"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "El episodio %(cycle)s ha terminado"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Episodio terminado"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "El cese de hostilidades está activo en este servidor. Las batallas estarán disponibles en %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "El cese de hostilidades está activo en %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "El episodio %(cycle)s comenzará en %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "El primer episodio comenzará en %(time)s"

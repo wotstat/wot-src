@@ -1,0 +1,689 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2012-07-30 12:00+0300\nPO-Revision-Date: 2010-07-30 12:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: Equipo de WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CSAnimation/applyBtn/label"
+msgstr "¡Afirmativo!"
+
+msgid "CSAnimation/description"
+msgstr "¡Felicitaciones! Tu equipo ha ingresado en la siguiente división. ¡Bien hecho!"
+
+msgid "CSAnimation/header"
+msgstr "Cambiar de División"
+
+msgid "InvitesAndRequestsWindow/accepted"
+msgstr "Aceptada"
+
+msgid "InvitesAndRequestsWindow/cancelled"
+msgstr "Cancelada"
+
+msgid "InvitesAndRequestsWindow/officerDescription"
+msgstr "Miembros del equipo—un equipo creado manualmente de amigos y jugadores adecuados."
+
+msgid "InvitesAndRequestsWindow/onlyInvitesCheckbox"
+msgstr "Mostrar solo invitaciones enviadas"
+
+msgid "InvitesAndRequestsWindow/ownerDescription"
+msgstr "Miembros del equipo—un equipo creado manualmente de amigos y jugadores adecuados."
+
+msgid "InvitesAndRequestsWindow/playerName"
+msgstr "Nombre"
+
+msgid "InvitesAndRequestsWindow/rejected"
+msgstr "Rechazada"
+
+msgid "InvitesAndRequestsWindow/status"
+msgstr "Estado"
+
+msgid "InvitesAndRequestsWindow/title"
+msgstr "Invitaciones y Solicitudes de Ingreso Enviadas"
+
+msgid "InvitesAndRequestsWindow/windowTitle"
+msgstr "Solicitudes de Ingreso e Invitaciones"
+
+msgid "StaticFormationStatsView/seasonFilter"
+msgstr "Estadísticas para:"
+
+msgid "TextLoading/loading"
+msgstr "Cargando"
+
+msgid "button/chooseVehicles/info/tooltip/description/notSelected"
+msgstr "No se seleccionaron vehículos. No es posible iniciar Autobúsqueda."
+
+msgid "button/chooseVehicles/info/tooltip/description/notValid"
+msgstr "El vehículo seleccionado no está listo. No es posible iniciar Autobúsqueda."
+
+msgid "button/chooseVehicles/info/tooltip/description/valid"
+msgstr "Los vehículos requeridos están seleccionados. Puede iniciar la Autobúsqueda."
+
+msgid "button/chooseVehicles/info/tooltip/title"
+msgstr "Seleccionar vehículo"
+
+msgid "button/chooseVehicles/selected"
+msgstr "Vehículos seleccionados"
+
+msgid "button/medallion/addSlotSettings"
+msgstr "Añadir"
+
+msgid "button/medallion/availableQuantity"
+msgstr "Requeridos:"
+
+msgid "button/medallion/chooseVehicle"
+msgstr "Seleccionar vehículo"
+
+msgid "introView/leftBlock/btnLabel"
+msgstr "Buscar"
+
+msgid "introView/leftBlock/descr"
+msgstr "Selecciona un equipo adecuado de la lista de equipos disponibles. Debes cumplir con los requisitos del comandante."
+
+msgid "introView/leftBlock/header"
+msgstr "Buscar Equipo"
+
+msgid "introView/rightBlock/btnLabel"
+msgstr "Crear"
+
+msgid "introView/rightBlock/descr"
+msgstr "Crear un equipo con amigos o jugadores que tengan vehículos adecuados."
+
+msgid "introView/rightBlock/header"
+msgstr "Crear equipo"
+
+msgid "rallyInfo/profileBtn/Label"
+msgstr "Perfil del equipo"
+
+msgid "respawn/chatHeader"
+msgstr "Canal de Chat"
+
+msgid "respawn/enemyTeamStatus/Header"
+msgstr "Equipo enemigo:"
+
+msgid "respawn/enemyTeamStatus/notReady"
+msgstr "No preparado"
+
+msgid "respawn/enemyTeamStatus/ready"
+msgstr "¡Preparado!"
+
+msgid "respawn/fight/label"
+msgstr "¡Equipo Preparado!"
+
+msgid "respawn/fight/status/commander"
+msgstr "Confirma que el equipo está preparado."
+
+msgid "respawn/fight/status/private"
+msgstr "Esperando batalla..."
+
+msgid "respawn/status/info"
+msgstr "Selecciona un vehículo dentro del tiempo permitido."
+
+msgid "respawn/status/ready"
+msgstr "Esperando que comience la batalla..."
+
+msgid "respawn/status/warning"
+msgstr "Confirma que estás preparado."
+
+msgid "respawn/team/points"
+msgstr "Nivel total de los vehículos:"
+
+msgid "respawn/team/teamMembers"
+msgstr "Miembros del equipo: %(current)s / %(max)s"
+
+msgid "respawn/team/teamVehiclesStub"
+msgstr "Vehículos: VI–VIII"
+
+msgid "selectedFormation/JoinUnitSection/header"
+msgstr "Sala de Batalla seleccionada"
+
+msgid "squadWindow/waitingForBattle"
+msgstr "El Pelotón está en la fila de batalla"
+
+msgid "unitView/header"
+msgstr "Sala de Batalla"
+
+msgid "window/autoSearch/confirmation/cancelLbl"
+msgstr "Cancelar"
+
+msgid "window/autoSearch/confirmation/ctxMessage"
+msgstr "Tiempo restante para confirmar:"
+
+msgid "window/autoSearch/confirmation/ctxSeconds"
+msgstr "s"
+
+msgid "window/autoSearch/confirmation/headerText"
+msgstr "Equipo encontrando"
+
+msgid "window/autoSearch/confirmation/mainText"
+msgstr "Confirmar preparación"
+
+msgid "window/autoSearch/confirmation/submitlLbl"
+msgstr "¡Preparado!"
+
+msgid "window/autoSearch/errorState/cancelLbl"
+msgstr "Cancelar"
+
+msgid "window/autoSearch/errorState/ctxMessage"
+msgstr "¿Buscar un nuevo equipo?"
+
+msgid "window/autoSearch/errorState/headerText"
+msgstr "Se acabó el tiempo"
+
+msgid "window/autoSearch/errorState/mainText"
+msgstr "Un equipo fue encontrado,\npero no confirmaste tu preparación."
+
+msgid "window/autoSearch/errorState/submitlLbl"
+msgstr "Buscar"
+
+msgid "window/autoSearch/searchCommand/cancelLbl"
+msgstr "Cancelar"
+
+msgid "window/autoSearch/searchCommand/ctxMessage"
+msgstr "Tiempo promedio de espera:"
+
+msgid "window/autoSearch/searchCommand/cxtDnmMessage"
+msgstr "%d min"
+
+msgid "window/autoSearch/searchCommand/mainText"
+msgstr "Buscando un equipo adecuado"
+
+msgid "window/autoSearch/searchEnemy/mainText"
+msgstr "Esperando batalla…"
+
+msgid "window/autoSearch/searchEnemyRespawn/mainText"
+msgstr "Esperando enemigo..."
+
+msgid "window/autoSearch/waitingPlayers/mainText"
+msgstr "Esperando jugadores..."
+
+msgid "window/backBtnLbl"
+msgstr "VOLVER"
+
+msgid "window/intro/auto/btn"
+msgstr "Autobúsqueda"
+
+msgid "window/intro/auto/btn/tooltip/description/disabled"
+msgstr "No es posible encontrar un equipo. Los vehículos no están seleccionados o no están listos para la batalla."
+
+msgid "window/intro/auto/btn/tooltip/description/enabled"
+msgstr "Clic para encontrar un equipo automáticamente y unirse a la batalla inmediatamente."
+
+msgid "window/intro/auto/btn/tooltip/title"
+msgstr "Autobúsqueda"
+
+msgid "window/intro/auto/btnLbl"
+msgstr "Comenzar Autobúsqueda"
+
+msgid "window/intro/auto/description"
+msgstr "Los jugadores de los equipos serán emparejados automáticamente."
+
+msgid "window/intro/auto/title"
+msgstr "Autobúscar por Puntuación"
+
+msgid "window/intro/auto/vehicleLbl"
+msgstr "Vehículos seleccionados:"
+
+msgid "window/intro/create/btn/addPlayers"
+msgstr "Invitar"
+
+msgid "window/intro/create/btn/assembleTeam"
+msgstr "Armar Equipo"
+
+msgid "window/intro/create/btn/joinTeam"
+msgstr "Unirse"
+
+msgid "window/intro/create/btn/look"
+msgstr "Lista de Equipos"
+
+msgid "window/intro/create/btn/private/seeStaff"
+msgstr "Miembros del Equipo"
+
+msgid "window/intro/description"
+msgstr "Los participantes son equipos emparejados con 7 jugadores cada uno.\nLos vehículos están limitados a los Niveles VI-VIII. El nivel total de los vehículos de un equipo debe ser 54."
+
+msgid "window/intro/search/btn"
+msgstr "Buscar"
+
+msgid "window/intro/search/description"
+msgstr "Selecciona un equipo adecuado de la lista de equipos disponibles. Debes cumplir con los requisitos del comandante."
+
+msgid "window/intro/search/title"
+msgstr "Buscar Equipo"
+
+msgid "window/intro/team/description/createBattleRoom"
+msgstr "Crear una sala de batalla"
+
+msgid "window/intro/title"
+msgstr "Batalla de Equipo"
+
+msgid "window/intro/unavailableWaiting"
+msgstr "Esperando..."
+
+msgid "window/rosterSlotSettings/bottomResult"
+msgstr "Seleccionados:"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/range"
+msgstr "Rango"
+
+msgid "window/rosterSlotSettings/tabBtnLbl/vehicle"
+msgstr "Vehículos"
+
+msgid "window/rosterSlotSettings/title"
+msgstr "Establecer requerimientos"
+
+msgid "window/rosterSlotSettings/vehicleTab/cancelBtn"
+msgstr "Cancelar"
+
+msgid "window/rosterSlotSettings/vehicleTab/headerText"
+msgstr "Especifica los requerimientos para los vehículos de tus compañeros de equipo."
+
+msgid "window/rosterSlotSettings/vehicleTab/nationFieldSet"
+msgstr "Nación"
+
+msgid "window/rosterSlotSettings/vehicleTab/submitBtn"
+msgstr "Elegir"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleLevel"
+msgstr "Nivel del vehículo"
+
+msgid "window/rosterSlotSettings/vehicleTab/vehicleType"
+msgstr "Tipo de Vehículo"
+
+msgid "window/staticRallyInfo/cancelBtnLabel"
+msgstr "Retirar"
+
+msgid "window/staticRallyInfo/joinBtnLabel"
+msgstr "Enviar Solicitud"
+
+msgid "window/staticRallyInfo/joinInfo/alreadyJoined"
+msgstr "Ya eres miembro de un equipo."
+
+msgid "window/staticRallyInfo/joinInfo/applicationCooldown"
+msgstr "No es posible enviar la solicitud de ingreso."
+
+msgid "window/staticRallyInfo/joinInfo/inProcess"
+msgstr "Solicitud de ingreso esperando aprobación"
+
+msgid "window/staticRallyInfo/joinInfo/inProcessOther"
+msgstr "La solicitud de ingreso ya ha sido enviada."
+
+msgid "window/staticRallyInfo/joinInfo/join"
+msgstr "Enviar solicitud de ingreso"
+
+msgid "window/staticRallyInfo/ladderInfo"
+msgstr "Liga: %(league)s. División: %(division)s"
+
+msgid "window/staticRallyInfo/noAwards"
+msgstr "Sin logros"
+
+msgid "window/staticRallyInfo/noRallySelected"
+msgstr "Selecciona un equipo de la lista a la izquierda\npara ver la descripción detallada."
+
+msgid "window/staticRallyInfo/staticRally/statsWinsPercent"
+msgstr "Victorias"
+
+msgid "window/staticRallyInfo/statsBattlesCount"
+msgstr "Batallas"
+
+msgid "window/title"
+msgstr "Batalla de Equipo"
+
+msgid "window/unit/applySlotsSettings"
+msgstr "Aceptar"
+
+msgid "window/unit/autoRecruit"
+msgstr "Reclutar"
+
+msgid "window/unit/cancelSlotSettings"
+msgstr "Cancelar"
+
+msgid "window/unit/candidates"
+msgstr "Voluntarios"
+
+msgid "window/unit/candidates/legionaries"
+msgstr "Legionarios"
+
+msgid "window/unit/candidates/team"
+msgstr "Equipo"
+
+msgid "window/unit/chat"
+msgstr "Chat"
+
+msgid "window/unit/closeRoom"
+msgstr "— Sala visible"
+
+msgid "window/unit/description"
+msgstr "Los participantes son equipos de pares con 7 jugadores cada uno.\nLos vehículos están limitados a los Niveles VI–VIII. El Nivel total de los vehículos de un equipo debe ser 54."
+
+msgid "window/unit/descriptionDefault"
+msgstr "Añadir descripción —"
+
+msgid "window/unit/fight"
+msgstr "¡Batalla!"
+
+msgid "window/unit/inviteFriend"
+msgstr "Invitar jugadores"
+
+msgid "window/unit/leave"
+msgstr "Abandonar la sala"
+
+msgid "window/unit/lockSlot"
+msgstr "Bloquear espacio"
+
+msgid "window/unit/message/candidate"
+msgstr "El Comandante del equipo te añadió al equipo."
+
+msgid "window/unit/message/curfew"
+msgstr "Cese de hostilidades"
+
+msgid "window/unit/message/falloutGroupNotReady"
+msgstr "Uno de tus vehículos no está listo para la batalla"
+
+msgid "window/unit/message/falloutLevel"
+msgstr "Necesitas al menos un vehículo de Nivel %(level)s"
+
+msgid "window/unit/message/falloutMin/levelRange"
+msgstr "Añadir vehículos de Nivel %(level)s al grupo"
+
+msgid "window/unit/message/falloutMin/requiredLevel"
+msgstr "Selecciona un vehículo de Nivel %(level)s"
+
+msgid "window/unit/message/fortificationNotAvailable"
+msgstr "El modo Fortaleza: Batallas no está disponible por el momento"
+
+msgid "window/unit/message/getNotReady"
+msgstr "Haz clic para indicar que no estás preparado"
+
+msgid "window/unit/message/getReady"
+msgstr "Confirma que estás preparado para unirte a la batalla."
+
+msgid "window/unit/message/has_frozen_vehicles"
+msgstr "El destacamento tiene un vehículo destruido"
+
+msgid "window/unit/message/in_players_matching"
+msgstr "El destacamento está listo: autoensamblado de legionarios..."
+
+msgid "window/unit/message/inactivePeriphery"
+msgstr " "
+
+msgid "window/unit/message/inactivePeripheryBattle"
+msgstr "Puedes confirmar tu preparación 10 minutos antes del comienzo de un Avance"
+
+msgid "window/unit/message/inactivePeripherySortie"
+msgstr "Puedes confirmar tu preparación 10 minutos antes del comienzo de una Escaramuza"
+
+msgid "window/unit/message/invalidLevelError/6"
+msgstr "No se permite más de un vehículo Nivel VI por equipo."
+
+msgid "window/unit/message/invalidLevelError/6_7"
+msgstr "No se permite tener un vehículo de Nivel VI y otro de Nivel VII en el mismo equipo."
+
+msgid "window/unit/message/invalidLevelError/7"
+msgstr "Solo se permiten dos vehículos de Nivel VII por equipo."
+
+msgid "window/unit/message/invalidLevelError/unresolved"
+msgstr "Requisitos para los niveles de los vehículos sin cumplir."
+
+msgid "window/unit/message/level"
+msgstr "Nivel total de vehículos insuficiente. Requerido: %(level)d"
+
+msgid "window/unit/message/maintenance"
+msgstr "Modo temporalmente no disponible"
+
+msgid "window/unit/message/minSlots"
+msgstr "Incompleto"
+
+msgid "window/unit/message/play_limits_is_active"
+msgstr "El límite de tiempo expiró. No puedes entrar a una batalla nueva."
+
+msgid "window/unit/message/previewVehicleIsPresent"
+msgstr "Vuelve al garage para seleccionar un vehículo"
+
+msgid "window/unit/message/ready"
+msgstr "El destacamento está listo: buscando al enemigo..."
+
+msgid "window/unit/message/squadInBattle"
+msgstr "Pelotón en batalla"
+
+msgid "window/unit/message/takeSlotInRoster"
+msgstr "Unirse al destacamento"
+
+msgid "window/unit/message/unitIsFull"
+msgstr "El Comandante te añadirá al equipo."
+
+msgid "window/unit/message/unitIsLocked"
+msgstr "No eres un miembro del equipo. Los espacios están congelados."
+
+msgid "window/unit/message/vehicleInNotReady/broken"
+msgstr "Vehículo no preparado para la batalla: hacen falta reparaciones."
+
+msgid "window/unit/message/vehicleInNotReady/crewNotFull"
+msgstr "Vehículo no preparado para la batalla: tripulación incompleta."
+
+msgid "window/unit/message/vehicleInNotReady/isInBattle"
+msgstr "Vehículo en batalla"
+
+msgid "window/unit/message/vehicleInNotReady/notEnoughVehicles"
+msgstr "No hay suficientes vehículos adecuados"
+
+msgid "window/unit/message/vehicleInNotReady/rentIsOver"
+msgstr "Vehículo no preparado para la batalla: terminó el periodo de alquiler."
+
+msgid "window/unit/message/vehicleInNotReady/rotationGroupLocked"
+msgstr "El vehículo no está listo: grupo %(groupNum)s bloqueado."
+
+msgid "window/unit/message/vehicleInNotReady/wrongMode"
+msgstr "El vehículo seleccionado no es adecuado para este modo de batalla."
+
+msgid "window/unit/message/vehicleInNotReady/wrongUnitData"
+msgstr "El vehículo seleccionado no coincide con los parámetros del comandante del pelotón."
+
+msgid "window/unit/message/vehicleNotSelected"
+msgstr "Selecciona un vehículo para entrar en la batalla."
+
+msgid "window/unit/message/vehicleNotValid"
+msgstr "El vehículo no está listo para la batalla."
+
+msgid "window/unit/message/vehicleNotValidForEvent"
+msgstr "El vehículo seleccionado no es adecuado para el evento"
+
+msgid "window/unit/message/waitCommander"
+msgstr "Esperando la decisión del Comandante..."
+
+msgid "window/unit/message/waiting"
+msgstr "Esperando a que los jugadores estén preparados..."
+
+msgid "window/unit/notReady"
+msgstr "No preparado"
+
+msgid "window/unit/openRoom"
+msgstr "— Sala oculta"
+
+msgid "window/unit/rangeValue"
+msgstr "%(minVal)s – %(maxVal)s"
+
+msgid "window/unit/ready"
+msgstr "¡Preparado!"
+
+msgid "window/unit/rosterSettingsView/or"
+msgstr "o"
+
+msgid "window/unit/slot/battleRoyale"
+msgstr "Se necesita un jugador más"
+
+msgid "window/unit/slot/emptySlot"
+msgstr "Vacío"
+
+msgid "window/unit/slot/freezed"
+msgstr "Congelado"
+
+msgid "window/unit/slot/locked"
+msgstr "Bloqueado"
+
+msgid "window/unit/slot/notAllowed"
+msgstr "Bloqueado"
+
+msgid "window/unit/slot/notAvailable"
+msgstr "Bloqueado"
+
+msgid "window/unit/slot/required"
+msgstr "Invita jugadores."
+
+msgid "window/unit/slot/takePlace"
+msgstr "Ocupar Espacio"
+
+msgid "window/unit/slotHeaderText"
+msgstr "Establecer requerimientos"
+
+msgid "window/unit/slotSecondText"
+msgstr "Añade requisitos, indicando los vehículos que te gustaría tener en tu equipo. Cuando añades jugadores al equipo, los requisitos de vehículos no cuentan."
+
+msgid "window/unit/team"
+msgstr "Equipo"
+
+msgid "window/unit/teamMembers"
+msgstr "Espacios: %(current)s / %(max)s"
+
+msgid "window/unit/teamPoints"
+msgstr "Nivel total:"
+
+msgid "window/unit/teamVehicles"
+msgstr "Vehículos:"
+
+msgid "window/unit/teamVehiclesLbl"
+msgstr "Vehículos: %(levelsRange)s"
+
+msgid "window/unit/teamVehiclesStub"
+msgstr "Vehículos: VI-VIII"
+
+msgid "window/unit/unitListView/captain"
+msgstr "Comandante del Equipo"
+
+msgid "window/unit/unitListView/clubName"
+msgstr "Nombre del Equipo"
+
+msgid "window/unit/unitListView/commander"
+msgstr "Comandante"
+
+msgid "window/unit/unitListView/description"
+msgstr "Descripción"
+
+msgid "window/unit/unitListView/paginationDown"
+msgstr "Más débil"
+
+msgid "window/unit/unitListView/paginationUp"
+msgstr "Más fuerte"
+
+msgid "window/unit/unitListView/players"
+msgstr "Composición"
+
+msgid "window/unit/unitName"
+msgstr "Equipo %(commanderName)s"
+
+msgid "window/unit/unlockSlot"
+msgstr "Desbloquear espacio"
+
+msgid "window/unitListView/create/btn"
+msgstr "Crear Sala"
+
+msgid "window/unitListView/enterBtn/common"
+msgstr "Ofrecerse de voluntario"
+
+msgid "window/unitListView/enterBtn/legionary"
+msgstr "Unirse"
+
+msgid "window/unitListView/enterBtn/member"
+msgstr "Unirse"
+
+msgid "window/unitListView/enterText/legionary"
+msgstr "Unirse como legionario"
+
+msgid "window/unitListView/enterText/member"
+msgstr "Unirse al equipo"
+
+msgid "window/unitListView/foundTeamsDescription"
+msgstr "Los equipos que hay debajo están buscando jugadores y tienen espacios vacantes."
+
+msgid "window/unitListView/noItems"
+msgstr "Equipo no encontrado."
+
+msgid "window/unitListView/noSearchResults/btn"
+msgstr "Volver a la Lista"
+
+msgid "window/unitListView/noSearchResults/description"
+msgstr "No se encontraron equipos con este nombre."
+
+msgid "window/unitListView/noSearchResults/header"
+msgstr "No hay resultados de la búsqueda"
+
+msgid "window/unitListView/noTeams/description"
+msgstr "No se encontraron equipos que coincidan con el criterio de búsqueda. Intenta de nuevo más tarde."
+
+msgid "window/unitListView/noTeams/header"
+msgstr "Equipos no Encontrados"
+
+msgid "window/unitListView/noUnitSelected"
+msgstr "Seleccionar equipos de la lista a la izquierda\npara ver una descripción detallada."
+
+msgid "window/unitListView/refreshList"
+msgstr "Actualizar lista"
+
+msgid "window/unitListView/renderer/next"
+msgstr "Siguiente"
+
+msgid "window/unitListView/renderer/previous"
+msgstr "Anterior"
+
+msgid "window/unitListView/renderer/requiredVehicles"
+msgstr "Vehículos requeridos"
+
+msgid "window/unitListView/renderer/showMore"
+msgstr "Mostrar 20 más"
+
+msgid "window/unitListView/selectedTeam"
+msgstr "Equipo"
+
+msgid "window/unitListView/sort/label"
+msgstr "Clasificación:"
+
+msgid "window/unitListView/team"
+msgstr "Composición"
+
+msgid "window/unitListView/teamDescription"
+msgstr "Descripción del equipo"
+
+msgid "window/unitListView/title"
+msgstr "Salas de Batalla"
+
+msgid "window/unitListView/vehicles"
+msgstr "Vehículos"
+
+msgid "window/vehicleSelector/buttons/cancel"
+msgstr "Cancelar"
+
+msgid "window/vehicleSelector/buttons/select"
+msgstr "Elegir"
+
+msgid "window/vehicleSelector/filters/all"
+msgstr "Todos"
+
+msgid "window/vehicleSelector/filters/allLevels"
+msgstr "Todos los niveles"
+
+msgid "window/vehicleSelector/filters/level"
+msgstr "Nivel %(levelNum)d"
+
+msgid "window/vehicleSelector/filters/matches"
+msgstr "Mostrar solo vehículos adecuados"
+
+msgid "window/vehicleSelector/info/intro"
+msgstr "Te unirás a la batalla en uno de los vehículos seleccionados. Niveles permitidos: VI–VIII.\n\nPara jugar más cómodamente, selecciona un tanque ligero, mediano o pesado."
+
+msgid "window/vehicleSelector/info/respawn"
+msgstr "Selecciona un vehículo de nivel VI–VIII con el que quieras entrar a la batalla."
+
+msgid "window/vehicleSelector/info/search"
+msgstr "Te unirás a la batalla en uno de los vehículos seleccionados. Niveles permitidos: VI–VIII"
+
+msgid "window/vehicleSelector/info/unit"
+msgstr "Selecciona un vehículo de Nivel VI–VIII para unirte a la batalla."
+
+msgid "window/vehicleSelector/title"
+msgstr "Seleccionar vehículo"

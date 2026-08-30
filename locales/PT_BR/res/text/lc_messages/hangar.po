@@ -1,0 +1,245 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "buyVehicleWindow/buyBtn"
+msgstr "Comprar"
+
+msgid "buyVehicleWindow/consumablesTooltip/body"
+msgstr "Os seguintes consumíveis serão montados: %(consumables)s."
+
+msgid "buyVehicleWindow/consumablesTooltip/header"
+msgstr "Comprar Consumíveis"
+
+msgid "buyVehicleWindow/consumablesTooltip/listSeparator"
+msgstr ", "
+
+msgid "buyVehicleWindow/countCrewLbl"
+msgstr "%(count)s tripulantes"
+
+msgid "buyVehicleWindow/crewInVehicle"
+msgstr "Você já possui tripulação para este veículo"
+
+msgid "buyVehicleWindow/crewTooltip/body"
+msgstr "%(count)s tripulantes."
+
+msgid "buyVehicleWindow/crewTooltip/header"
+msgstr "Recrutar Novos Tripulantes"
+
+msgid "buyVehicleWindow/disclaimer/button"
+msgstr "aqui."
+
+msgid "buyVehicleWindow/disclaimer/text"
+msgstr "A Wargaming está usando a combinação alfanumérica T-34 em seu uso comum para indicar tanques reais e não está relacionada de forma alguma com quaisquer detentores de direitos autorais de marcas comerciais com o mesmo nome. Saiba mais {link}"
+
+msgid "buyVehicleWindow/equipment/ammo"
+msgstr "Carregar munição"
+
+msgid "buyVehicleWindow/equipment/consumables"
+msgstr "Carregar consumíveis"
+
+msgid "buyVehicleWindow/equipment/slot"
+msgstr "Vaga na Garagem"
+
+msgid "buyVehicleWindow/exchange"
+msgstr "Trocar"
+
+msgid "buyVehicleWindow/freePrice"
+msgstr "Gratuito"
+
+msgid "buyVehicleWindow/recruitCrewLbl"
+msgstr "Recrutar %(count)s tripulantes"
+
+msgid "buyVehicleWindow/rent/title"
+msgstr "Aluguel"
+
+msgid "buyVehicleWindow/rentBtn"
+msgstr "Alugar"
+
+msgid "buyVehicleWindow/rentBtnLabel30Days"
+msgstr "Alugar por 30 dias"
+
+msgid "buyVehicleWindow/rentBtnLabel3Days"
+msgstr "Alugar por 3 dias"
+
+msgid "buyVehicleWindow/rentBtnLabel7Days"
+msgstr "Alugar por 7 dias"
+
+msgid "buyVehicleWindow/rentBtnLabelAny"
+msgstr "Alugar por %(days)s dias"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicCycle"
+msgstr "Estágio do Linha de Frente"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/epicSeason"
+msgstr "Temporada da Linha da Frente"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedCycle"
+msgstr "Etapa de Batalhas Ranqueadas"
+
+msgid "buyVehicleWindow/rentBtnLabelSeason/rankedSeason"
+msgstr "Temporada de Batalhas Ranqueadas"
+
+msgid "buyVehicleWindow/restore"
+msgstr "Recuperar"
+
+msgid "buyVehicleWindow/termSlotUnlim"
+msgstr "Ilimitado"
+
+msgid "buyVehicleWindow/title"
+msgstr "Configuração"
+
+msgid "buyVehicleWindow/title_restore"
+msgstr "Recuperação"
+
+msgid "buyVehicleWindow/toggleBtn/buy"
+msgstr "Comprar"
+
+msgid "buyVehicleWindow/toggleBtn/rent"
+msgstr "Troca"
+
+msgid "buyVehicleWindow/tradeInBtnLabel"
+msgstr "Troca"
+
+msgid "carousel/filters/allVehicle"
+msgstr "Todos os Meus Veículos"
+
+msgid "myVehicles/buttons/crewToggle"
+msgstr "Tripulação"
+
+msgid "myVehicles/buttons/ttcToggle"
+msgstr "Características"
+
+msgid "rentalCounter/count/battles"
+msgid_plural "plural/rentalCounter/count/battles"
+msgstr[0] "{{count}} batalha"
+msgstr[1] "{{count}} batalhas"
+msgstr[2] "{{count}} batalhas"
+
+msgid "rentalCounter/count/days"
+msgid_plural "plural/rentalCounter/count/days"
+msgstr[0] "{{count}} dia"
+msgstr[1] "{{count}} dias"
+msgstr[2] "{{count}} dias"
+
+msgid "rentalCounter/count/hours"
+msgid_plural "plural/rentalCounter/count/hours"
+msgstr[0] "{{count}} hora"
+msgstr[1] "{{count}} horas"
+msgstr[2] "{{count}} horas"
+
+msgid "rentalCounter/count/wins"
+msgid_plural "plural/rentalCounter/count/wins"
+msgstr[0] "{{count}} vitória"
+msgstr[1] "{{count}} vitórias"
+msgstr[2] "{{count}} vitórias"
+
+msgid "tooltip/filters/myVehicle/body"
+msgstr "Clique para acessar suas listas de veículos"
+
+msgid "tooltip/filters/myVehicle/header"
+msgstr "Meus Veículos"
+
+msgid "vehicleMenu/menuButton/tooltip/crew/body"
+msgstr "Treinamento da tripulação, retreinamento e gerenciamento."
+
+msgid "vehicleMenu/menuButton/tooltip/crew/header"
+msgstr "Gerenciamento da Tripulação"
+
+msgid "vehicleMenu/menuButton/tooltip/customization/body"
+msgstr "Customização do veículo: aplicando estilos 2D/3D e outros elementos."
+
+msgid "vehicleMenu/menuButton/tooltip/customization/header"
+msgstr "Customização"
+
+msgid "vehicleMenu/menuButton/tooltip/hotkey/title"
+msgstr "Pressione para abrir"
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/body"
+msgstr "Informação do veículo, pesquisa, comparação e reparos."
+
+msgid "vehicleMenu/menuButton/tooltip/vehicle/header"
+msgstr "Gerenciamento do Veículo"
+
+msgid "vehicleMenu/menuItem/aboutVehicle/title"
+msgstr "SOBRE O VEÍCULO"
+
+msgid "vehicleMenu/menuItem/armorInspector/title"
+msgstr "BLINDAGEM"
+
+msgid "vehicleMenu/menuItem/compare/title"
+msgstr "COMPARAR"
+
+msgid "vehicleMenu/menuItem/counter"
+msgstr " [{{count}}]"
+
+msgid "vehicleMenu/menuItem/crewAutoReturn/title"
+msgstr "RETORNO AUTOMÁTICO"
+
+msgid "vehicleMenu/menuItem/crewBack/title"
+msgstr "RETORNAR TRIPULAÇÃO"
+
+msgid "vehicleMenu/menuItem/crewOut/title"
+msgstr "ENVIAR AO QUARTEL"
+
+msgid "vehicleMenu/menuItem/crewRetrain/title"
+msgstr "RETREINAR TRIPULAÇÃO"
+
+msgid "vehicleMenu/menuItem/easyEquip/title"
+msgstr "SERVIÇO RÁPIDO"
+
+msgid "vehicleMenu/menuItem/fieldModification/title"
+msgstr "MODIFICAÇÃO DE CAMPO"
+
+msgid "vehicleMenu/menuItem/nationChange/title"
+msgstr "MUDAR NAÇÃO"
+
+msgid "vehicleMenu/menuItem/proBoost/active"
+msgstr "ATIVAR"
+
+msgid "vehicleMenu/menuItem/proBoost/title"
+msgstr "IMPULSO PRO {{activeOrCountdown}}"
+
+msgid "vehicleMenu/menuItem/quickTraining/title"
+msgstr "TREINAMENTO RÁPIDO"
+
+msgid "vehicleMenu/menuItem/repairs/title"
+msgstr "CONSERTOS"
+
+msgid "vehicleMenu/menuItem/research/title"
+msgstr "PESQUISA"
+
+msgid "vehicleMenu/menuItem/vehSkillTree/title"
+msgstr "MELHORIAS"
+
+msgid "vehicleMenu/proBoostTooltips/active/body"
+msgstr "Pode você mudar essa escolha a qualquer momento."
+
+msgid "vehicleMenu/proBoostTooltips/active/header"
+msgstr "Impulso Pro ativo para este veículo"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/body"
+msgstr "Você só pode impulsionar veículos em Batalhas Aleatórias, para os modos Investida, Fortaleza, Mapa Global e Torneios."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleMode/header"
+msgstr "Modo incompatível para o Impulso Pro"
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/body"
+msgstr "Você só pode impulsionar veículos pesquisáveis e de Colecionador do Nível I-X."
+
+msgid "vehicleMenu/proBoostTooltips/incompatibleVehicle/header"
+msgstr "Veículo incompatível para o Impulso Pro"
+
+msgid "vehicleMenu/proBoostTooltips/locked/body"
+msgstr "Seu Impulso Pro atualmente está ativo para o {{vehicle}}. Você pode mudar essa escolha em {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/locked/header"
+msgstr "Volte mais tarde!"
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/body"
+msgstr "Pode você mudar essa escolha em {{time}}."
+
+msgid "vehicleMenu/proBoostTooltips/lockedActive/header"
+msgstr "Impulso Pro ativo para este veículo"

@@ -1,0 +1,19 @@
+from __future__ import absolute_import
+import logging
+from BigWorld import DynamicScriptComponent
+import SoundGroups
+from gui.shared.utils import showAFKWarningInWindowsBar
+from messenger.proto.events import g_messengerEvents
+from messenger.proto.shared_messages import ClientActionTemplateMessage, ACTION_MESSAGE_TYPE
+_logger = logging.getLogger(__name__)
+AFK_WARNING_MESSAGE_SOUND = b'afk_warning_message'
+
+class AvatarFairplayMessageComponent(DynamicScriptComponent):
+
+    def showWarningMessage(self, templateKey):
+        _logger.debug(b'AvatarFairplayMessageComponent.showMessage: %s', templateKey)
+        message = ClientActionTemplateMessage(templateKey, ACTION_MESSAGE_TYPE.FAIRPLAY_WARNING)
+        g_messengerEvents.onCustomMessage(message)
+        showAFKWarningInWindowsBar()
+        SoundGroups.g_instance.playSound2D(AFK_WARNING_MESSAGE_SOUND)
+        return

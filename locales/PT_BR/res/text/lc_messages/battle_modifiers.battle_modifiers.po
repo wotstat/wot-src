@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "domain/accuracy/description"
+msgstr "Um conjunto de parâmetros que exibe a efetividade geral para disparar no inimigo."
+
+msgid "domain/accuracy/name"
+msgstr "Efetividade de Disparo"
+
+msgid "domain/armorPiercing/description"
+msgstr "Um conjunto de parâmetros que exibe a habilidade dos veículos em penetrar a blindagem inimiga."
+
+msgid "domain/armorPiercing/name"
+msgstr "Penetração"
+
+msgid "domain/battleParams/description"
+msgstr "Um conjunto de parâmetros que exibe as principais mecânicas de jogabilidade."
+
+msgid "domain/battleParams/name"
+msgstr "Parâmetros de Batalha"
+
+msgid "domain/comp7LightSeasonModifiers/description"
+msgstr "Modificadores específicos do modo que mudam os parâmetros do veículo."
+
+msgid "domain/comp7LightSeasonModifiers/name"
+msgstr "Modificadores do Investida Leve"
+
+msgid "domain/comp7SeasonModifiers/description"
+msgstr "Modificadores específicos do modo que mudam os parâmetros do veículo."
+
+msgid "domain/comp7SeasonModifiers/name"
+msgstr "Modificadores do Investida"
+
+msgid "domain/concealment/description"
+msgstr "Um conjunto de parâmetros que exibe a habilidade dos veículos em não ser detectado."
+
+msgid "domain/concealment/name"
+msgstr "Ocultação"
+
+msgid "domain/damageDealing/description"
+msgstr "Um conjunto de parâmetros que exibe a habilidade dos veículos em provocar dano."
+
+msgid "domain/damageDealing/name"
+msgstr "Provocando Dano"
+
+msgid "domain/mobility/description"
+msgstr "Um conjunto de parâmetros que exibe a dinâmica e as características de velocidade do seu veículo."
+
+msgid "domain/mobility/name"
+msgstr "Manobrabilidade e Dinâmicas"
+
+msgid "domain/randomization/description"
+msgstr "Um conjunto de parâmetros que exibem o alcance do dano potencial e a penetração."
+
+msgid "domain/randomization/name"
+msgstr "Valores Aleatórios"
+
+msgid "domain/sustaining/description"
+msgstr "Um conjunto de parâmetros que exibem a recuperação de módulos danificados / tripulantes feridos."
+
+msgid "domain/sustaining/name"
+msgstr "Reparabilidade"
+
+msgid "domain/visibility/description"
+msgstr "Um conjunto de parâmetros que exibem a habilidade dos veículos em detectar os inimigos."
+
+msgid "domain/visibility/name"
+msgstr "Alcance de Visão"
+
+msgid "domain/vitality/description"
+msgstr "Um conjunto de parâmetros que exibem a habilidade do seu veículo para sobreviver uma batalha."
+
+msgid "domain/vitality/name"
+msgstr "Resistência"
+
+msgid "modifier/name/aimingTime"
+msgstr "Tempo de Mira"
+
+msgid "modifier/name/ammoBayHealth"
+msgstr "Durabilidade da caixa de munição"
+
+msgid "modifier/name/autoreloadTime"
+msgstr "Tempo de recarga para veículos com carregadores"
+
+msgid "modifier/name/battleLength"
+msgstr "Tempo de batalha"
+
+msgid "modifier/name/bkMaxSpeed"
+msgstr "Velocidade reversa máxima"
+
+msgid "modifier/name/burstInterval"
+msgstr "Tempo para recarregar os projéteis no carregador"
+
+msgid "modifier/name/chassisHealth"
+msgstr "Durabilidade do chassi"
+
+msgid "modifier/name/clipInterval"
+msgstr "Tempo para carregar os projéteis entre disparos no carregador"
+
+msgid "modifier/name/damageRandomization"
+msgstr "Alcance do dano potencial"
+
+msgid "modifier/name/deviceDamageFirst"
+msgstr "Dano nos módulos internos"
+
+msgid "modifier/name/dispFactorAfterShot"
+msgstr "Dispersão após disparar"
+
+msgid "modifier/name/dispFactorChassisMovement"
+msgstr "Dispersão em movimento"
+
+msgid "modifier/name/dispFactorChassisRotation"
+msgstr "Dispersão durante a rotação do casco"
+
+msgid "modifier/name/dispFactorTurretRotation"
+msgstr "Dispersão durante a rotação da torre"
+
+msgid "modifier/name/dispFactorWhileGunDamaged"
+msgstr "Dispersão com um canhão danificado"
+
+msgid "modifier/name/engineFireFactor"
+msgstr "Chance de incêndio no motor"
+
+msgid "modifier/name/engineHealth"
+msgstr "Durabilidade do motor"
+
+msgid "modifier/name/enginePower"
+msgstr "Potência do Motor"
+
+msgid "modifier/name/envChassisDamage"
+msgstr "Dano na suspensão durante o impacto"
+
+msgid "modifier/name/envHullDamage"
+msgstr "Dano no casco durante o impacto"
+
+msgid "modifier/name/envModuleDamageChance"
+msgstr "Dano à outros módulos durante o impacto"
+
+msgid "modifier/name/envTankmanDamageChance"
+msgstr "Ferimentos nos tripulantes durante o impacto"
+
+msgid "modifier/name/equipmentCooldown"
+msgstr "Tempo de recarga dos consumíveis"
+
+msgid "modifier/name/fuelTankHealth"
+msgstr "Durabilidade do tanque de combustível"
+
+msgid "modifier/name/fwMaxSpeed"
+msgstr "Velocidade máxima"
+
+msgid "modifier/name/gravityFactor"
+msgstr "Gravidade do veículo"
+
+msgid "modifier/name/gunHealth"
+msgstr "Durabilidade do canhão"
+
+msgid "modifier/name/gunRotationSpeed"
+msgstr "Velocidade de movimentação do canhão em uma cabine estacionária"
+
+msgid "modifier/name/invisibilityOnMove"
+msgstr "Ocultamento durante o movimento"
+
+msgid "modifier/name/invisibilityOnStill"
+msgstr "Ocultamento em um veiculo parado"
+
+msgid "modifier/name/normalizationAngle"
+msgstr "Normalização do projétil"
+
+msgid "modifier/name/piercingPowerRandomization"
+msgstr "Alcance da penetração em potencial"
+
+msgid "modifier/name/radioDistance"
+msgstr "Alcance de sinal"
+
+msgid "modifier/name/reloadTime"
+msgstr "Tempo de recarga"
+
+msgid "modifier/name/repairSpeed"
+msgstr "Velocidade de Reparo"
+
+msgid "modifier/name/ricochetAngle"
+msgstr "Ângulo de ricochete do projétil. Quanto mais angulado, maiores serão as chances para um ricochete"
+
+msgid "modifier/name/rotationSpeedOnStill"
+msgstr "Velocidade de rotação do casco"
+
+msgid "modifier/name/shellGravity"
+msgstr "Gravidade do projétil"
+
+msgid "modifier/name/shellSpeed"
+msgstr "Velocidade do projétil"
+
+msgid "modifier/name/shotDispersionRadius"
+msgstr "Dispersão a 100 m"
+
+msgid "modifier/name/surveyingDeviceHealth"
+msgstr "Durabilidade do dispositivo de observação"
+
+msgid "modifier/name/turretPressureDamage"
+msgstr "Dano da pressão provocada por uma torre desacoplada"
+
+msgid "modifier/name/turretRammingDamage"
+msgstr "Dano de uma torre desacoplada"
+
+msgid "modifier/name/turretRotationSpeed"
+msgstr "Velocidade de Rotação da Torre"
+
+msgid "modifier/name/turretRotatorHealth"
+msgstr "Durabilidade do anel da torre"
+
+msgid "modifier/name/twinGunReloadTime"
+msgstr "Carregamento do Canhão no Modo de Salva de Disparo"
+
+msgid "modifier/name/vehicleAoIRadius"
+msgstr "Distância de renderização"
+
+msgid "modifier/name/vehicleHealth"
+msgstr "Durabilidade do veículo"
+
+msgid "modifier/name/vehiclePressureDamage"
+msgstr "Dano da pressão"
+
+msgid "modifier/name/vehicleRammingDamage"
+msgstr "Dano de colisão"
+
+msgid "modifier/name/visionMinRadius"
+msgstr "Raio de detecção por proximidade"
+
+msgid "modifier/name/visionRadius"
+msgstr "Alcance de Visão"
+
+msgid "modifier/name/visionTime"
+msgstr "Tempo visível restante"
+
+msgid "modifier/name/zeroDamage"
+msgstr "Dano provocado por disparos e por batida"
+
+msgid "modifier/name/zeroEconomy"
+msgstr "Recursos investidos e obtidos nas batalhas do modo"
+
+msgid "modifiersDomainTooltip/restrict/max"
+msgstr "não&nbsp;mais do que&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/min"
+msgstr "não&nbsp;menos do que&nbsp;{value}"
+
+msgid "modifiersDomainTooltip/restrict/oneRestriction"
+msgstr "(mas {restriction})"
+
+msgid "modifiersDomainTooltip/restrict/twoRestriction"
+msgstr "(mas {min}, {max})"
+
+msgid "modifiersDomainTooltip/subtitle/plural"
+msgstr "Os modificadores afetam os seguintes parâmetros:"
+
+msgid "modifiersDomainTooltip/subtitle/single"
+msgstr "O modificador afeta o seguinte parâmetro:"

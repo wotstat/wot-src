@@ -1,0 +1,257 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-01-11 10:00+0300\nPO-Revision-Date: 2022-01-11 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "awards_view/additional_reward/title"
+msgstr "También recibiste lo siguiente:"
+
+msgid "awards_view/footer/sub_title/reply"
+msgstr "Esta serie de misiones se puede volver a jugar."
+
+msgid "awards_view/footer/title/affirmative"
+msgstr "¡Afirmativo!"
+
+msgid "awards_view/footer/title/close"
+msgstr "Cerrar"
+
+msgid "awards_view/footer/title/in_garage"
+msgstr "Ver en garage"
+
+msgid "awards_view/footer/title/replay"
+msgstr "Volver a jugar"
+
+msgid "awards_view/footer/title/to_challenge"
+msgstr "A Crisol"
+
+msgid "awards_view/reward/description/premium_plus"
+msgstr "Cuenta Premium de WoT"
+
+msgid "awards_view/reward/description/vehicle_elite"
+msgstr "Vehículo premium"
+
+msgid "awards_view/reward/description/vehicle_for_rent"
+msgstr "Vehículo para alquilar"
+
+msgid "awards_view/reward/description/vehicle_with_style"
+msgstr "y estilo \"{{styleName}}\""
+
+msgid "awards_view/reward/multi"
+msgstr "×{{count}}"
+
+msgid "awards_view/reward/title/premium_plus"
+msgid_plural "plural/awards_view/reward/title/premium_plus"
+msgstr[0] "%(day) día"
+msgstr[1] "%(day) días"
+msgstr[2] "%(day) días"
+
+msgid "awards_view/title"
+msgstr "¡CRISOL COMPLETADO!"
+
+msgid "bonuses/battleBonusX5"
+msgstr "Misión de XP ×5 por batalla"
+
+msgid "bonuses/blueprints/nationalFragment"
+msgstr "Fragmento de plano: (%(nation)s)"
+
+msgid "bonuses/blueprints/universalFragment"
+msgstr "Fragmento de plano universal"
+
+msgid "bonuses/bpcoin"
+msgstr "Ficha del Pase de batalla"
+
+msgid "bonuses/crewBonusX3"
+msgstr "Misión de XP de tripulación ×3"
+
+msgid "bonuses/description/attachments_set"
+msgstr "Conjunto de accesorios 3D"
+
+msgid "bonuses/description/booster"
+msgstr "Reserva personal"
+
+msgid "bonuses/description/bounty_equipment"
+msgstr "Equipamiento de recompensa"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Diseño de tripulación"
+
+msgid "bonuses/description/directive"
+msgstr "Directiva"
+
+msgid "bonuses/description/experimental_equipment"
+msgstr "Equipamiento experimental"
+
+msgid "bonuses/description/improved_equipment"
+msgstr "Equipamiento mejorado"
+
+msgid "bonuses/description/lockedStyle"
+msgstr "y estilo \"%(styleName)s\""
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Equipamiento estándar"
+
+msgid "bonuses/description/style"
+msgstr "Estilo 2D"
+
+msgid "bonuses/description/style_3d"
+msgstr "Estilo 3D"
+
+msgid "bonuses/standardCrewMember/female"
+msgstr "Tripulante femenina"
+
+msgid "bonuses/standardCrewMember/male"
+msgstr "Recluta"
+
+msgid "bonuses/uniqueCrewMember"
+msgstr "Tripulante"
+
+msgid "condition/achievement"
+msgstr "Consigue el premio %(achievement)s"
+
+msgid "condition/achievement/title"
+msgstr "Héroes de batalla"
+
+msgid "condition/aggregated/damageAssistedRadioStunTrack/damageDealt"
+msgstr "Inflige y asiste un total de %(goal)s PV de daño."
+
+msgid "condition/aggregated/damageBlockedByArmor/damageDealt/damageReceived"
+msgstr "Infligir, recibir y bloquear un total de %(goal)s PV de daño."
+
+msgid "condition/aggregated/title"
+msgstr "Condición compleja"
+
+msgid "condition/classes/AT-SPG"
+msgstr "Cazatanques"
+
+msgid "condition/classes/SPG"
+msgstr "AAP"
+
+msgid "condition/classes/heavyTank"
+msgstr "Tanque pesado"
+
+msgid "condition/classes/lightTank"
+msgstr "Tanque ligero"
+
+msgid "condition/classes/mediumTank"
+msgstr "Tanque mediano"
+
+msgid "condition/critsCount"
+msgstr "Asestar %(goal)s impactos críticos a módulos internos o externos de vehículos enemigos."
+
+msgid "condition/critsCount/title"
+msgstr "Inmovilizar"
+
+msgid "condition/damageBlockedByArmor"
+msgstr "Bloquear %(goal)s PV de daño."
+
+msgid "condition/damageBlockedByArmor/compareWithMaxHealth"
+msgstr "Bloquear %(goal)s veces más daño que la cantidad de PV de tu vehículo."
+
+msgid "condition/damageBlockedByArmor/title"
+msgstr "Bloquear"
+
+msgid "condition/damageDealt"
+msgstr "Infligir %(goal)s PV de daño a vehículos enemigos."
+
+msgid "condition/damageDealt/compareWithMaxHealth"
+msgstr "Infligir %(goal)s veces más daño que la cantidad de PV de tu vehículo."
+
+msgid "condition/damageDealt/eventCount/maxDistance"
+msgstr "Impactar contra vehículos enemigos desde una distancia de %(distance)s m o menos %(goal)s veces."
+
+msgid "condition/damageDealt/eventCount/minDistance"
+msgstr "Impactar contra vehículos enemigos desde una distancia de %(distance)s m o más %(goal)s veces."
+
+msgid "condition/damageDealt/eventCount/ramming"
+msgstr "Infligir daño a vehículos enemigos con embestidas %(goal)s veces."
+
+msgid "condition/damageDealt/eventCount/withinViewRange"
+msgstr "Impactar contra vehículos enemigos dentro del alcance de visión de tu vehículo %(goal)s veces."
+
+msgid "condition/damageDealt/limittedTime"
+msgstr "Infligir %(goal)s PV de daño durante los primeros %(timeLimit)s minutos de batalla."
+
+msgid "condition/damageDealt/maxDistance"
+msgstr "Infligir %(goal)s PV de daño a vehículos enemigos desde una distancia de %(distance)s m o menos."
+
+msgid "condition/damageDealt/minDistance"
+msgstr "Infligir %(goal)s PV de daño a vehículos enemigos desde una distancia de %(distance)s m o más."
+
+msgid "condition/damageDealt/ramming"
+msgstr "Infligir %(goal)s PV de daño con embestidas."
+
+msgid "condition/damageDealt/ramming/title"
+msgstr "Embestida"
+
+msgid "condition/damageDealt/title"
+msgstr "Daño"
+
+msgid "condition/damageDealt/whileEnemyInvisible"
+msgstr "Infligir %(goal)s PV de daño a vehículos enemigos no detectados."
+
+msgid "condition/damageDealt/withinViewRange"
+msgstr "Infligir %(goal)s PV de daño a vehículos enemigos que estén dentro del alcance de visión de tu vehículo."
+
+msgid "condition/kills"
+msgstr "Destruir %(goal)s vehículos enemigos."
+
+msgid "condition/kills/classes"
+msgstr "Destruir %(goal)s vehículos de tipo %(vehicleClass)s del enemigo."
+
+msgid "condition/kills/classesDiversity"
+msgstr "Destruir %(goal)s vehículos enemigos de %(classCount)s tipos diferentes."
+
+msgid "condition/kills/title"
+msgstr "Destruir"
+
+msgid "condition/kills/whileFullHealth"
+msgstr "Destruir %(goal)s vehículos enemigos sin recibir daño."
+
+msgid "condition/kills/whileInvisible"
+msgstr "Destruir %(goal)s vehículos enemigos sin que te detecten."
+
+msgid "condition/percentFromTotalTeamDamage"
+msgstr "Infligir el %(goal)s %% de la cantidad total de daño causado por tu equipo."
+
+msgid "condition/percentFromTotalTeamDamage/title"
+msgstr "Daño"
+
+msgid "condition/piercingEnemyHits"
+msgstr "Penetrar el blindaje enemigo %(goal)s veces."
+
+msgid "condition/piercingEnemyHits/title"
+msgstr "Penetración"
+
+msgid "condition/spotted"
+msgstr "Detectar %(goal)s vehículos enemigos."
+
+msgid "condition/spotted/title"
+msgstr "Detectar"
+
+msgid "condition/spottedBeforeWeBecameSpotted"
+msgstr "Detectar %(goal)s vehículos enemigos sin que te detecten."
+
+msgid "condition/spottedBeforeWeBecameSpotted/title"
+msgstr "Detectar"
+
+msgid "condition/top/damageDealt"
+msgstr "Quedar entre los %(rank)s mejores de tu equipo según daño infligido."
+
+msgid "condition/top/damageDealt/total"
+msgstr "Quedar entre los %(rank)s mejores de ambos equipos según daño infligido."
+
+msgid "condition/top/title"
+msgstr "Mejor jugador"
+
+msgid "condition/top/xp"
+msgstr "Quedar entre los %(rank)s mejores de tu equipo según experiencia obtenida."
+
+msgid "condition/unknown"
+msgstr "Buscando la misión más adecuada..."
+
+msgid "condition/unknown/title"
+msgstr "Esperando"
+
+msgid "postbattle/name"
+msgstr "CRISOL: "

@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "main/backText"
+msgstr "ACESSAR DETALHES DO CLÃ"
+
+msgid "main/eventCurrencyTooltip/body"
+msgstr "Você ganha Pontos do Dever por cumprir missões. Os Pontos são necessários para explorar novas regiões."
+
+msgid "main/eventCurrencyTooltip/header"
+msgstr "Pontos do Dever"
+
+msgid "main/infoPageButtonLabel"
+msgstr "SOBRE O TOUR DO DEVER"
+
+msgid "main/mdash"
+msgstr "—"
+
+msgid "messages/claimRewards/error"
+msgstr "Ação temporariamente indisponível. Tente novamente mais tarde."
+
+msgid "progressionPage/errorScreen/button/refresh"
+msgstr "Atualizar"
+
+msgid "progressionPage/errorScreen/description"
+msgstr "Lamentamos o inconveniente temporário."
+
+msgid "progressionPage/errorScreen/heading"
+msgstr "Erro Ao Carregar Dados"
+
+msgid "progressionPage/header/heading"
+msgstr "TOUR DO DEVER"
+
+msgid "progressionPage/header/headingCompleted"
+msgstr "O TOUR DO DEVER TERMINOU"
+
+msgid "progressionPage/header/subheading"
+msgstr "Ganhe Pontos do Dever por cumprir missões de clã. Os Pontos do Dever são usados para explorar novas regiões e obter recompensas valiosas. Você pode receber um veículo de Nível X quando o Tour terminar."
+
+msgid "progressionPage/header/subheadingCompleted"
+msgstr "Veículo recebido: %(vehicle)s"
+
+msgid "progressionPage/loading"
+msgstr "Carregando conteúdo..."
+
+msgid "progressionPage/stageInfo/"
+msgstr "Explore a região anterior conectada."
+
+msgid "progressionPage/stageInfo/completed/description"
+msgstr "Região já explorada"
+
+msgid "progressionPage/stageInfo/completed/rewardsLabel"
+msgstr "Recompensa recebida:"
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/description"
+msgstr "Explore a região anterior conectada."
+
+msgid "progressionPage/stageInfo/disabledByPreviousStage/exploreButtonTooltip/title"
+msgstr "Não é possível explorar esta região"
+
+msgid "progressionPage/stageInfo/errorMessage"
+msgstr "Erro Ao Carregar Dados"
+
+msgid "progressionPage/stageInfo/exploreButton"
+msgstr "Explorar região"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/description"
+msgstr "%(value)s mais Pontos do Dever necessários para explorar a região."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByPoints/title"
+msgstr "Não é possível explorar esta região"
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/description"
+msgstr "Explore a região anterior conectada."
+
+msgid "progressionPage/stageInfo/exploreButtonTooltip/disabledByStageStatus/title"
+msgstr "Não é possível explorar esta região"
+
+msgid "progressionPage/stageInfo/getRewardButton"
+msgstr "Resgatar Recompensa"
+
+msgid "progressionPage/stageInfo/loadingMessage"
+msgstr "Carregando conteúdo..."
+
+msgid "progressionPage/stageInfo/onBuyLoadingMessage"
+msgstr "Esperando a recompensa ser adicionada..."
+
+msgid "progressionPage/stageInfo/refreshButtonText"
+msgstr "Atualizar"
+
+msgid "progressionPage/stageInfo/rewardsLabel"
+msgstr "RECOMPENSA POR EXPLORAR REGIÃO:"
+
+msgid "progressionPage/stageInfo/rewardsReceivedLabel"
+msgstr "RECOMPENSA RECEBIDA:"
+
+msgid "progressionPage/vehicleInfo/preview"
+msgstr "Prévia"
+
+msgid "questsPage/errorScreen/button/refresh"
+msgstr "Atualizar"
+
+msgid "questsPage/errorScreen/description"
+msgstr "Lamentamos o inconveniente temporário."
+
+msgid "questsPage/errorScreen/heading"
+msgstr "Erro Ao Carregar Dados"
+
+msgid "questsPage/footer/button/claimTheReward"
+msgstr "Resgatar Recompensa"
+
+msgid "questsPage/footer/button/nonClanMember"
+msgstr "Busca automática de clãs"
+
+msgid "questsPage/footer/message/nonClanMember"
+msgstr "Entre em um clã para cumprir missões e receber a recompensa."
+
+msgid "questsPage/footer/message/rewardNotClaimed"
+msgstr "O progresso da missão está pausado. Resgate sua recompensa para continuar: %(reward)s"
+
+msgid "questsPage/header/heading"
+msgstr "MISSÕES DO TOUR"
+
+msgid "questsPage/header/subheading"
+msgstr "Complete as missões e ganhe recompensas. A 2ª e a 3ª missão só podem ser cumpridas em Pelotão/destacamento de um colega de clã."
+
+msgid "questsPage/loading"
+msgstr "Carregando conteúdo..."
+
+msgid "questsPage/questCard/condition/exp/platoon/win/detachment"
+msgstr "Em veículos de Nível VIII–XI, ganhe pelo menos {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} XP Base em uma batalha jogando em Pelotão ou vença uma batalha em um destacamento."
+
+msgid "questsPage/questCard/condition/exp/soloAndPlatoon/win/detachment"
+msgstr "Em veículos de Nível VI–XI, ganhe pelo menos {whiteSpanish_Open}%(exp_earned)s{whiteSpanish_Close} XP Base em uma batalha ou vença uma batalha em um destacamento."
+
+msgid "questsPage/questCard/condition/frags/platoon/win/detachment"
+msgstr "Em veículos de Nível VIII–XI, destrua {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} inimigos em uma batalha jogando em Pelotão ou vença uma batalha em um destacamento."
+
+msgid "questsPage/questCard/condition/frags/soloAndPlatoon/win/detachment"
+msgstr "Em veículos de Nível VI–XI, destrua {whiteSpanish_Open}%(frags_count)s{whiteSpanish_Close} inimigos em uma batalha ou vença uma batalha em um destacamento."
+
+msgid "questsPage/questCard/condition/fullDamage/platoon/win/detachment"
+msgstr "Em veículos de Nível VIII–XI, provoque ou ajude a causar {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} HP de dano em uma batalha em Pelotão ou vença uma batalha de destacamento."
+
+msgid "questsPage/questCard/condition/fullDamage/soloAndPlatoon/win/detachment"
+msgstr "Em veículos de Nível VI–XI, provoque ou ajude a causar {whiteSpanish_Open}%(full_damage)s{whiteSpanish_Close} HP de dano em uma batalha ou vença uma batalha de destacamento."
+
+msgid "questsPage/questCard/reward/tooltip/industrialResource/header"
+msgstr "Recurso Industrial"
+
+msgid "questsPage/questCard/reward/tooltip/tourcoin/header"
+msgstr "Pontos do Dever"
+
+msgid "questsPage/questCard/status/available"
+msgstr "Você pode resgatar a recompensa"
+
+msgid "questsPage/questCard/status/completed"
+msgstr "Recompensa Recebida"
+
+msgid "questsPage/questCard/status/disabled"
+msgstr "Indisponível"
+
+msgid "questsPage/questCard/status/pending"
+msgstr "A recompensa será adicionada na sua conta em breve."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousCycleRewardNotClaimed"
+msgstr "Resgate recompensas por cumprir as missões anteriores."
+
+msgid "questsPage/questCard/tooltip/status/disabled/body/previousQuestRewardNotClaimed"
+msgstr "Cumpra a missão anterior."
+
+msgid "questsPage/questCard/tooltip/status/disabled/header"
+msgstr "Missão Indisponível"
+
+msgid "questsPage/timer/dash"
+msgstr "—"
+
+msgid "questsPage/timer/heading"
+msgstr "Tempo Restante Para Coletar Pontos do Dever"
+
+msgid "questsPage/tooltip/proxy/body"
+msgstr "Você ganha Pontos do Dever por cumprir missões. Os Pontos são necessários para explorar novas regiões."
+
+msgid "questsPage/tooltip/proxy/header"
+msgstr "Pontos do Dever"
+
+msgid "rewardsView/additionalRewards"
+msgstr "Você também recebeu:"
+
+msgid "rewardsView/button/close"
+msgstr "FECHAR"
+
+msgid "rewardsView/button/confirm"
+msgstr "Afirmativo!"
+
+msgid "rewardsView/button/showInHangar"
+msgstr "Exibir na Garagem"
+
+msgid "rewardsView/heading"
+msgstr "RECOMPENSAS RECEBIDAS"
+
+msgid "rewardsView/style/317"
+msgstr "Estilo 2D \"Chama\""
+
+msgid "rewardsView/style/345"
+msgstr "Estilo 2D \"Profecia\""
+
+msgid "rewardsView/style/435"
+msgstr "Estilo 2D \"Retribuição\""
+
+msgid "rewardsView/style/436"
+msgstr "Estilo 2D \"Ceifador\""
+
+msgid "rewardsView/subheading"
+msgstr "TOUR DO DEVER"
+
+msgid "sidebar/tabs/tooltip/body/progression"
+msgstr "Progresso do Tour do Dever"
+
+msgid "sidebar/tabs/tooltip/body/quests"
+msgstr "Progresso das missões do Tour"
+
+msgid "sidebar/tabs/tooltip/header/progression"
+msgstr "Tour do Dever"
+
+msgid "sidebar/tabs/tooltip/header/quests"
+msgstr "Missões do Tour"

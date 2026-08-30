@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Al recibir daño, se interrumpe la recuperación de PV.\n\nLa tasa de recuperación de PV y al límite máximo de recuperación están determinados por los PV totales del vehículo con todos los modificadores incluidos."
+
+msgid "armorPatching/alt/info"
+msgstr "Para las pericias grupales, se tiene en cuenta el nivel de entrenamiento promedio entre todos los tripulantes. Se activa al entrenarla al 1 % y su efectividad aumenta con más entrenamiento."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "El kit de reparación restaura %(hpRecover)s de los {yellow_Start}PV{yellow_End} del vehículo en 5 s, hasta un máximo del 20 % por batalla. Permite el uso del kit de reparación sin daño crítico."
+
+msgid "armorPatching/hudDescription"
+msgstr "Puntos de vida restaurados."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Al entrenarla por completo para todos los tripulantes, restaura %(hpRecover)s de los {yellow_Start}PV{yellow_End} del vehículo en 5 s luego de usar un kit de reparación, hasta un máximo del 20 % por batalla. Permite el uso del kit de reparación sin daño crítico."
+
+msgid "armorPatching/name"
+msgstr "Reparación de blindaje"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Aumenta el ocultamiento base del vehículo."
+
+msgid "brotherhood/alt/description"
+msgstr "La bonificación de la eficiencia de tripulación mejora la eficacia del tripulante en combate, así como la eficacia de todas sus pericias aprendidas, excepto esta. Este parámetro se puede aumentar más con equipamiento o consumibles que tengan un efecto similar, o usando la directiva Purga de ventilación. La pericia Emergencia del comandante, así como las pericias Lado a lado y Experto en comunicaciones del operador de radio, también puede aumentar el parámetro."
+
+msgid "brotherhood/alt/info"
+msgstr "Para las pericias grupales, se tiene en cuenta el nivel de entrenamiento promedio entre todos los tripulantes. Se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "La {greenBright_Start}bonificación de la eficiencia de tripulación{greenBright_End} de todos los tripulantes aumenta un %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Al entrenarla por completo para todos los tripulantes, aumenta la {greenBright_Start}bonificación de la eficiencia de tripulación{greenBright_End} de todos los tripulantes un %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Hermanos en armas"
+
+msgid "brotherhood/shortDescription"
+msgstr "Aumenta el rendimiento general de la tripulación."
+
+msgid "camouflage/alt/description"
+msgstr "Esta pericia afecta al ocultamiento del vehículo. Se puede mejorar con la directiva Cobertura natural.\n\nEl ocultamiento puede mejorar aún más con un patrón de camuflaje o un estilo, además de con equipamiento que tenga un efecto similar."
+
+msgid "camouflage/alt/info"
+msgstr "Para las pericias grupales, se tiene en cuenta el nivel de entrenamiento promedio entre todos los tripulantes. Se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "El {greenBright_Start}ocultamiento{greenBright_End} del vehículo aumenta un %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Al entrenarla por completo para todos los tripulantes, aumenta el {greenBright_Start}ocultamiento{greenBright_End} del vehículo un %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Camuflaje"
+
+msgid "camouflage/shortDescription"
+msgstr "Aumenta el ocultamiento base del vehículo."
+
+msgid "commander_coordination/alt/description"
+msgstr "El efecto se activa cada vez que se detecta un vehículo enemigo y no se acumula por detectar varios.\n\nLa velocidad de apuntamiento se puede aumentar aún más entrenando la pericia Apuntamiento rápido del artillero o con equipamiento que tenga un efecto similar."
+
+msgid "commander_coordination/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "La {yellow_Start}velocidad de apuntamiento{yellow_End} aumentará un %(vehicleGunAimSpeed)s durante 15 s después de detectar un vehículo enemigo."
+
+msgid "commander_coordination/hudDescription"
+msgstr "Aumenta la velocidad de apuntamiento."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Al entrenarla por completo, aumenta la {yellow_Start}velocidad de apuntamiento{yellow_End} un %(vehicleGunAimSpeed)s durante 15 s después de detectar un vehículo enemigo.\t"
+
+msgid "commander_coordination/name"
+msgstr "Coordinación"
+
+msgid "commander_coordination/shortDescription"
+msgstr "Aumenta la velocidad de apuntamiento."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "El alcance de visión se puede aumentar más entrenando la pericia Conciencia situacional del operador de radio o con equipamiento que tenga un efecto similar. Al usar la directiva Calibración de ópticas, también se aumenta el efecto."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "El {greenBright_Start}alcance de visión{greenBright_End} aumenta en %(circularVisionRadius)s&zwnbsp;. La {greenBright_Start}penalización a los dispositivos de observación dañados{greenBright_End} se reduce un %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "Se reduce la penalización a los dispositivos de observación dañados."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Al entrenarla por completo, aumenta el {greenBright_Start}alcance de visión{greenBright_End} un %(circularVisionRadius)s&zwnbsp; y reduce la {greenBright_Start}penalización a los dispositivos de observación dañados{greenBright_End} un %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Reconocimiento"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Aumenta el alcance de visión, sobre todo cuando los dispositivos de observación están dañados."
+
+msgid "commander_emergency/alt/description"
+msgstr "Al recibir daño de un enemigo repetidamente, el efecto no se acumula. La bonificación de la eficiencia de tripulación mejora la eficacia del tripulante en combate. Este parámetro se puede aumentar aún más con equipamiento o consumibles que tienen un efecto similar, o usando la directiva Purga de ventilación. La pericia grupal Hermanos en armas, así como las pericias de operador de radio Lado a lado y Experto en comunicaciones, también puede aumentar el parámetro."
+
+msgid "commander_emergency/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "La {yellow_Start}bonificación de la eficiencia de tripulación{yellow_End}aumentará en %(crewLevelIncrease)s durante 15 s tras recibir daño de un enemigo."
+
+msgid "commander_emergency/hudDescription"
+msgstr "Aumenta la bonificación de la eficiencia de tripulación."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Al entrenarla por completo, aumenta la {yellow_Start}bonificación de la eficiencia de tripulación{yellow_End} un %(crewLevelIncrease)s durante 15 s tras recibir daño de un enemigo."
+
+msgid "commander_emergency/name"
+msgstr "Emergencia"
+
+msgid "commander_emergency/shortDescription"
+msgstr "Aumenta la bonificación de la eficiencia de tripulación."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "Poco después de que una AAP enemiga dispara, se activa una alerta sobre el disparo.\n\nLa pericia se puede mejorar con la directiva Vigilancia aumentada."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "Se emitirá una {yellow_Start}alerta sobre el ataque de una AAP enemiga{yellow_End} y la dirección del disparo con %(artNotificationDelayFactor)s de demora. El {greenBright_Start}efecto negativo de aturdimiento{greenBright_End} disminuye un %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Al entrenarla por completo, emite una {yellow_Start}alerta sobre el ataque de una AAP enemiga{yellow_End} con una demora de %(artNotificationDelayFactor)s y determina la dirección del disparo. Reduce el {greenBright_Start}efecto negativo del aturdimiento{greenBright_End} un %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Detección de sonido"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Indica el disparo de una AAP enemiga."
+
+msgid "commander_holdLine/alt/description"
+msgstr "La bonificación de la eficiencia de tripulación mejora la efectividad de un tripulante en batalla.\n\nEl parámetro puede mejorarse más usando equipamiento o consumibles que tengan un efecto similar o con la directiva Purga de ventilación. También hay otras pericias de tripulación que aumentan el parámetro."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "La {yellow_Start}bonificación de la eficiencia de tripulación{yellow_End} aumenta en %(crewLevelIncrease)s cuando el equipo enemigo tiene al menos tres vehículos más en batalla que el equipo aliado&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "Aumenta la bonificación de la eficiencia de tripulación (mayoría enemiga)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Al entrenarla por completo, la {yellow_Start}bonificación de la eficiencia de tripulación{yellow_End} aumenta en %(crewLevelIncrease)s cuando el equipo enemigo tiene al menos tres vehículos más en batalla que el equipo aliado&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Fila inquebrantable"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Aumenta la bonificación de la eficiencia de tripulación."
+
+msgid "commander_practical/alt/description"
+msgstr "La pericia funciona con todos los tipos de consumibles montados en el vehículo.\n\nEl efecto se puede aumentar aún más con la directiva Preparativos minuciosos."
+
+msgid "commander_practical/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "El {greenBright_Start}tiempo de recuperación del consumible{greenBright_End} se reduce en %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Al entrenarla por completo, reduce el {greenBright_Start}tiempo de recuperación del consumible{greenBright_End} en %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Practicidad"
+
+msgid "commander_practical/shortDescription"
+msgstr "Reduce el tiempo de recuperación del consumible."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "Cuando el comandante está herido, Sexto sentido está deshabilitada. Su tiempo de activación se puede reducir con la pericia Interceptar señal del operador de radio."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Es una función de comandante especial que no necesita entrenamiento y está disponible de forma predeterminada."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Le permite al comandante saber si el enemigo detectó su vehículo. Se activa %(delay)s después de que detectan el vehículo."
+
+msgid "commander_sixthSense/name"
+msgstr "Sexto sentido"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Permite que el comandante determine si los enemigos detectaron el vehículo."
+
+msgid "commander_staySharp/alt/description"
+msgstr "La bonificación de la eficiencia de tripulación mejora la efectividad de un tripulante en batalla.\n\nEl parámetro puede mejorarse más usando equipamiento o consumibles que tengan un efecto similar o con la directiva Purga de ventilación. También hay otras pericias de tripulación que aumentan el parámetro."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "La {yellow_Start}bonificación de la eficiencia de tripulación{yellow_End} aumenta en %(crewLevelIncrease)s durante 15&nbsp; s luego de usar un kit de primeros auxilios. Permite usar un kit de primeros auxilios, aunque no haya tripulantes heridos&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "Aumenta la bonificación de la eficiencia de tripulación (uso de kit de primeros auxilios)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Al entrenarla por completo, la {yellow_Start}bonificación de la eficiencia de tripulación{yellow_End} aumenta en %(crewLevelIncrease)s durante 15 s luego de usar un kit de primeros auxilios. Permite usar un kit de primeros auxilios, aunque no haya tripulantes heridos&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Concentrados"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Aumenta la bonificación de la eficiencia de tripulación."
+
+msgid "commander_tutor/alt/description"
+msgstr "Un comandante herido no puede reemplazar a otro tripulante. La bonificación solo se aplica a la cantidad de XP de tripulación básica obtenida en batalla.\n\nSe puede ganar XP de tripulación adicional con libros de tripulación o convirtiendo XP libre."
+
+msgid "commander_tutor/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "La cantidad de {greenBright_Start}XP{greenBright_End} ganada aumenta un %(xpBonusFactorPerLevel)s para todos los tripulantes. El comandante puede {greenBright_Start}reemplazar a los miembros que están fuera de combate{greenBright_End} con un %(woundedCrewEfficiency)s de eficacia."
+
+msgid "commander_tutor/hudDescription"
+msgstr "El comandante reemplaza al tripulante fuera de combate."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Al entrenarla por completo, la cantidad de {greenBright_Start}XP{greenBright_End} ganada aumenta un %(xpBonusFactorPerLevel)s para todos los tripulantes. Permite que el comandante {greenBright_Start}reemplace a los miembros que están fuera de combate{greenBright_End} con un %(woundedCrewEfficiency)s de eficacia."
+
+msgid "commander_tutor/name"
+msgstr "Mentor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "El comandante reemplaza al tripulante fuera de combate."
+
+msgid "commander_universalist/alt/description"
+msgstr "El comandante puede reemplazar solo la cualificación principal del tripulante que quede fuera de combate. El efecto de reemplazo disminuye con cada tripulante que quede fuera de combate."
+
+msgid "commander_universalist/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %. Su efectividad aumenta con más entrenamiento."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "El comandante puede {greenBright_Start}reemplazar a los tripulantes fuera de combate{greenBright_End} con un %(woundedCrewEfficiency)s de efectividad."
+
+msgid "commander_universalist/hudDescription"
+msgstr "El comandante puede asumir el rol de un tripulante que quede fuera de combate."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Al entrenarla por completo, permite que el comandante {greenBright_Start}reemplace a los tripulantes fuera de combate{greenBright_End} con un %(woundedCrewEfficiency)s de efectividad."
+
+msgid "commander_universalist/name"
+msgstr "Comodín"
+
+msgid "commander_universalist/shortDescription"
+msgstr "Permite al comandante reemplazar a los tripulantes fuera de combate."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Reduce las penalizaciones a la maniobrabilidad y aceleración del vehículo al conducir en terreno moderadamente blando. Disminuye en gran medida estas penalizaciones al conducir en terreno blando, y las equipara a las de terreno moderadamente blando.\nLa maniobrabilidad en terreno moderadamente blando y blando no puede exceder la maniobrabilidad en terreno duro."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}La pérdida de velocidad en terreno moderadamente blando{greenBright_End} se reduce un %(mediumGroundFactor)s&zwnbsp;, mientras que la {greenBright_Start}pérdida de velocidad en terreno blando{greenBright_End} se reduce al %(softGroundFactor)s del valor sobre terreno moderadamente blando."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Al entrenarla por completo, reduce la {greenBright_Start}pérdida de velocidad en terreno moderadamente blando{greenBright_End} a un %(mediumGroundFactor)s&zwnbsp;, mientras que la {greenBright_Start}pérdida de velocidad en terreno blando{greenBright_End} se reduce a un %(softGroundFactor)s del valor sobre terreno moderadamente blando."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Conducción todoterreno"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "La bonificación de la eficiencia de tripulación mejora la efectividad de un tripulante en batalla.\n\nEl parámetro puede mejorarse más usando equipamiento o consumibles que tengan un efecto similar o con la directiva Purga de ventilación. También hay otras pericias de tripulación que aumentan el parámetro."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "La {yellow_Start}bonificación de la eficiencia de tripulación{yellow_End} aumentará un %(crewLevelIncrease)s si la cantidad de daño que bloqueas supera los puntos de vida iniciales de tu vehículo."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "Aumenta la bonificación de la eficiencia de tripulación (daño bloqueado)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Al entrenarla por completo, aumenta la {yellow_Start}bonificación de la eficiencia de tripulación{yellow_End} un %(crewLevelIncrease)s si la cantidad de daño que bloqueas supera los puntos de vida iniciales de tu vehículo."
+
+msgid "driver_bulletproof/name"
+msgstr "Impenetrable"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "La velocidad máxima del vehículo se puede aumentar aún más y la penalización a un motor dañado se puede reducir aún más con equipamiento que tenga un efecto similar."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "La {greenBright_Start}velocidad máxima hacia adelante{greenBright_End} y {greenBright_Start}en reversa{greenBright_End} del vehículo aumentan un %(vehicleForwardMaxSpeed)s. La {greenBright_Start}penalización a un motor dañado{greenBright_End} se reduce un %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "Se reduce la penalización a un motor dañado."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Al entrenarla por completo, la {greenBright_Start}velocidad máxima hacia adelante{greenBright_End} y {greenBright_Start}en reversa{greenBright_End} del vehículo aumentan un %(vehicleForwardMaxSpeed)s. La {greenBright_Start}penalización a un motor dañado{greenBright_End} se reduce un %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Ingeniero"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "Se reduce la penalización a un motor dañado."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "La pericia no sirve cuando dos vehículos aliados colisionan.\n\nEl daño de embestida a tu vehículo se puede reducir más con equipamiento que tenga un efecto similar."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "El {greenBright_Start}daño por embestida a los vehículos enemigos{greenBright_End} aumenta un %(damageEnemiesByRamming)s&zwnbsp;. El {greenBright_Start}daño por embestida a tu vehículo{greenBright_End} disminuye un %(vehicleRamDamageResistance)s&zwnbsp;, mientras que el daño a {greenBright_Start}tu suspensión{greenBright_End} se reduce un %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Al entrenarla por completo, el {greenBright_Start}daño por embestida a los vehículos enemigos{greenBright_End} aumenta un %(damageEnemiesByRamming)s&zwnbsp;. El {greenBright_Start}daño por embestida a tu vehículo{greenBright_End} disminuye un %(vehicleRamDamageResistance)s&zwnbsp;, mientras que el daño a {greenBright_Start}tu suspensión{greenBright_End} se reduce un %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Impacto controlado"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Disminuye el daño de embestida a tu vehículo y aumenta el daño de embestida a un vehículo enemigo."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "El daño recibido por proyectiles HE se puede reducir aún más con equipamiento que tenga un efecto similar."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "La {greenBright_Start}absorción de daño de proyectiles HE{greenBright_End} aumenta en %(vehicleHEShellDamageResistance)s&zwnbsp;. La&nbsp;{greenBright_Start}probabilidad de incendio en el motor{greenBright_End} se reduce en %(vehicleFireChance)s, mientras que el {greenBright_Start}daño a la suspensión{greenBright_End} disminuye en %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Al entrenarla por completo, la {greenBright_Start}absorción de daño de proyectiles HE{greenBright_End} aumenta en %(vehicleHEShellDamageResistance)s&zwnbsp;. Reduce la {greenBright_Start}probabilidad de incendio en el motor{greenBright_End} en %(vehicleFireChance)s, mientras que el {greenBright_Start}daño a la suspensión{greenBright_End} disminuye en %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Colocación confiable"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "No afecta a la precisión de un vehículo inmóvil ni a la precisión durante la rotación del chasis.\n\nLa pericia se puede mejorar con la directiva Caja de cambios intrincada. La precisión al disparar en movimiento se puede aumentar con equipamiento que tenga un efecto similar o usando la directiva Engrasado del estabilizador."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "La {greenBright_Start}dispersión del cañón{greenBright_End} al disparar en movimiento disminuye un %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Al entrenarla por completo, la {greenBright_Start}dispersión del cañón{greenBright_End} al disparar en movimiento disminuye un %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Marcha suave"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Mejora la precisión al disparar en movimiento."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Esta pericia afecta la velocidad a la que se repara una suspensión del estado rojo al amarillo mientras se está a 50 m de distancia o menos de un vehículo aliado."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "La {yellow_Start}velocidad de reparación de la suspensión{yellow_End} aumenta en %(suspensionRepairSpeed)s al estar a una distancia de 50 m o menos de un vehículo aliado."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "Aumenta la velocidad de reparación de la suspensión (aliado cerca)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Al entrenarla por completo, la {yellow_Start}velocidad de reparación de la suspensión{yellow_End} aumenta en %(suspensionRepairSpeed)s al estar a una distancia de 50 m o menos de un vehículo aliado."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Apoyo de campo"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "La resistencia a incendios del vehículo se puede aumentar aún más con equipamiento o consumibles que tengan efectos similares. La pericia Lucha contra incendios aumentará la velocidad a la que se apaga un incendio."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %. Su efectividad aumenta con más entrenamiento."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Redujo la {greenBright_Start}probabilidad de incendio en el motor{greenBright_End} en %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Al entrenarla por completo, reduce la {greenBright_Start}probabilidad de incendio en el motor{greenBright_End} en %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Mantenimiento preventivo"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Reduce la probabilidad de incendio en el motor."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "La velocidad de rotación del chasis se puede aumentar más con equipamiento o consumibles que tengan un efecto similar."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "La {greenBright_Start}velocidad de rotación del chasis{greenBright_End} aumenta un %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Al entrenarla por completo, aumenta la {greenBright_Start}velocidad de rotación del chasis{greenBright_End} un %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Freno con embrague"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Aumenta la velocidad de rotación del chasis."
+
+msgid "fireFighting/alt/description"
+msgstr "Esta pericia afecta al daño recibido por fuego y a su duración.\n\nSi dos operadores de radio tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento.\n\nLa pericia se puede mejorar con la directiva Bomberos experimentados."
+
+msgid "fireFighting/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "La {greenBright_Start}velocidad de extinción de fuego{greenBright_End} aumenta un %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Al entrenarla por completo, la {greenBright_Start}velocidad de extinción de fuego{greenBright_End} aumenta un %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Lucha contra incendios"
+
+msgid "fireFighting/shortDescription"
+msgstr "Mejora la capacidad de extinguir incendios."
+
+msgid "gunner_armorer/alt/description"
+msgstr "De forma predeterminada, los rangos de daño potencial y de penetración son ±25 % de los valores base. Por ejemplo, si un proyectil penetra un blindaje de hasta 100 mm y causa 100 PV de daño, al impactar en un objetivo, la penetración real de este único disparo puede oscilar entre 75 y 125 mm, y el daño real puede oscilar entre 75 y 125 PV. Si se reduce este modificador, los resultados de disparo serán más predecibles.\n\nSi dos artilleros tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "Los rangos de {greenBright_Start}daño potencial{greenBright_End} y {greenBright_Start}penetración potencial{greenBright_End} se reducen un {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}La dispersión del cañón{greenBright_End} se reduce un %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Al entrenarla por completo, los rangos de {greenBright_Start}daño potencial{greenBright_End} y {greenBright_Start}penetración potencial{greenBright_End} se reducen un {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Disminuye la {greenBright_Start}dispersión del cañón {greenBright_End} un %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Armero"
+
+msgid "gunner_focus/alt/description"
+msgstr "El efecto comienza 3 s después de que el vehículo se detenga y se restablece al moverse.\n\nSi dos artilleros tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento."
+
+msgid "gunner_focus/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "La {yellow_Start}dispersión del cañón{yellow_End} de un vehículo inmóvil disminuirá un %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/hudDescription"
+msgstr "Disminuye la dispersión del cañón."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Al entrenarla por completo, reduce la {yellow_Start}dispersión del cañón{yellow_End} de un vehículo inmóvil un %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Concentración"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Reduce la dispersión del cañón de un vehículo inmóvil."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "La dispersión del cañón y la velocidad de apuntamiento se pueden mejorar aún más entrenando pericias o usando equipamiento que tenga un efecto similar.\n\nSi dos artilleros tienen esta pericia, se toma el valor promedio del nivel de entrenamiento."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "La {yellow_Start}dispersión del cañón{yellow_End} disminuye en %(vehicleGunAimSpeed)s y la {yellow_Start}velocidad de apuntamiento{yellow_End} aumenta en %(vehicleGunAimSpeed)s cuando no hay aliados dentro de un radio de 300 m."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "Mejoran la dispersión del cañón y la velocidad de apuntamiento (sin aliados cerca)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Al entrenarla por completo, reduce la {yellow_Start}dispersión del cañón{yellow_End} y aumenta la {yellow_Start}velocidad de apuntamiento{yellow_End} en %(vehicleGunAimSpeed)s cuando no hay aliados dentro de un radio de 300 m."
+
+msgid "gunner_loneWolf/name"
+msgstr "Lobo solitario"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ Reduce la dispersión del cañón. Aumenta la velocidad de apuntamiento."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "De forma predeterminada, la penetración máxima potencial es un 25 % superior al valor base. Por ejemplo, si un proyectil penetra hasta 100 mm de blindaje, al impactar un objetivo, el valor máximo de penetración posible es de 125 mm para ese disparo. Aumentar este modificador permite tener mejores penetraciones.\n\nSi dos artilleros tienen esta pericia, se toma el valor promedio del nivel de entrenamiento."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "La {yellow_Start}penetración máxima potencial{yellow_End} de tus proyectiles aumenta en %(piercingHEShellsDistributionUpperBound)s al atacar vehículos enemigos que están a menos de 50 m de distancia."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Al entrenarla por completo, aumenta la {yellow_Start}penetración máxima potencial{yellow_End} en %(piercingHEShellsDistributionUpperBound)s cuando atacas vehículos enemigos que están a menos de 50 m de distancia."
+
+msgid "gunner_pointBlast/name"
+msgstr "A quemarropa"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Aumenta la penetración máxima potencial de tus proyectiles."
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Si dos artilleros tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento.\n\nLa velocidad de apuntamiento se puede aumentar aún más entrenando la pericia Coordinación del comandante o con equipamiento que tenga un efecto similar.\n\nLa velocidad de rotación de la torreta se puede aumentar aún más con equipamiento o consumibles que tengan un efecto similar."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "La {greenBright_Start}velocidad de apuntamiento{greenBright_End} y la {greenBright_Start}velocidad de rotación de la torreta{greenBright_End} aumentan un %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Al entrenarla por completo, la {greenBright_Start}velocidad de apuntamiento{greenBright_End} y la {greenBright_Start}velocidad de rotación de la torreta{greenBright_End} aumentan un %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Apuntamiento rápido"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "Aumenta la velocidad de apuntamiento."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identifica módulos críticamente dañados en vehículos objetivo que estén dentro del alcance de visión del artillero, tanto en modo de fuego indirecto como directo.\nEl área de visión del artillero se define por el sector de ±10° (20° en total) delante del cañón del vehículo y su alcance de visión.\nSi dos artilleros tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento.\nLa pericia se puede mejorar aún más con la directiva Concentrado sobre el objetivo. Si se usa Equipo de radio mejorado, aumentará aún más el tiempo antes de que el vehículo enemigo deje de ser visible."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "El {greenBright_Start}tiempo{greenBright_End} antes de que un vehículo enemigo {greenBright_Start}deje de ser visible{greenBright_End} dentro del área de visión del artillero aumenta en %(vehicleEnemySpottingTime)s. El tiempo para {yellow_Start}identificar módulos dañados{yellow_End} se reduce a %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Al entrenarla por completo, el {greenBright_Start}tiempo{greenBright_End} antes de que un {greenBright_Start}vehículo enemigo deje de ser visible{greenBright_End} dentro del área de visión del artillero aumenta en %(vehicleEnemySpottingTime)s. Permite {yellow_Start}identificar módulos dañados{yellow_End} con una demora de %(damageMonitoringDelay)s."
+
+msgid "gunner_rancorous/name"
+msgstr "Objetivo designado"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Aumenta la cantidad de tiempo antes de que un vehículo enemigo deje de ser visible dentro del rango de visión del artillero. Permite identificar módulos dañados."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Si dos artilleros tienen la pericia, se aplica el valor promedio de su nivel de entrenamiento.\n\nLa pericia se puede mejorar con la directiva Mano firme. La dispersión durante la rotación de la torreta se puede reducir aún más con equipamiento que tenga un efecto similar o usando la directiva Engrasado del estabilizador."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "La {greenBright_Start}dispersión del cañón{greenBright_End} durante la rotación de la torreta se reduce en %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Al entrenarla por completo, reduce la {greenBright_Start}dispersión del cañón{greenBright_End} durante la rotación de la torreta un %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Disparo instantáneo"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Reduce la dispersión del cañón durante la rotación de la torreta."
+
+msgid "gunner_sniper/alt/description"
+msgstr "El efecto funciona para todos los tipos de proyectiles, excepto en vehículos que tienen cañones automáticos.\n\nSi dos artilleros tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "La {greenBright_Start}probabilidad de causar daño crítico{greenBright_End} a los {greenBright_Start}módulos de vehículos enemigos{greenBright_End} y de herir a los {greenBright_Start}tripulantes enemigos{greenBright_End} con todo tipo de proyectiles aumenta un %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Al entrenarla por completo, la {greenBright_Start}probabilidad de causar daño crítico{greenBright_End} a los {greenBright_Start}módulos de vehículos enemigos{greenBright_End} y de herir a los {greenBright_Start}tripulantes enemigos{greenBright_End} con todo tipo de proyectiles aumenta un %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Ojo mortal"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "De forma predeterminada, los rangos de daño mínimo potencial y de penetración son -25 % de los valores base. Por ejemplo, si un proyectil penetra un blindaje de hasta 100 mm y causa 100 PV de daño, al impactar en un objetivo, la penetración mínima posible de este único disparo puede ser 75 mm, y el daño mínimo posible puede ser 75 PV. Si se aumenta este modificador, los resultados de disparo serán más efectivos.\n\nSi dos cargadores tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "El {greenBright_Start}daño mínimo potencial{greenBright_End} y la {greenBright_Start}penetración mínima potencial{greenBright_End} aumentan un %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Al entrenarla por completo, el {greenBright_Start}daño mínimo potencial{greenBright_End} y la {greenBright_Start}penetración mínima potencial{greenBright_End} aumentan un %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Ajuste de munición"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Aumenta los valores promedio de daño y penetración."
+
+msgid "loader_desperado/alt/description"
+msgstr "Si dos cargadores tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento.\n\nEl tiempo de recarga del cañón se puede reducir aún más entrenando la pericia Combate cercano del cargador o con equipamiento que tenga un efecto similar. El uso de la directiva Compartimiento ordenado de munición mejora el efecto."
+
+msgid "loader_desperado/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "El {yellow_Start}tiempo de recarga del cañón{yellow_End} disminuirá en %(vehicleGunReloadTime)s si al vehículo le quedan menos del 25 % de sus puntos de vida."
+
+msgid "loader_desperado/hudDescription"
+msgstr "El tiempo de recarga del cañón disminuye (baja durabilidad del vehículo)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Al entrenarla por completo, la {yellow_Start}recarga del cañón{yellow_End} se reduce en %(vehicleGunReloadTime)s si al vehículo le quedan menos del 25 % de sus puntos de vida."
+
+msgid "loader_desperado/name"
+msgstr "Subidón de adrenalina"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Acelera la carga del cañón si al vehículo le quedan menos del 25 % de puntos de vida."
+
+msgid "loader_intuition/alt/description"
+msgstr "Para activar la pericia, el cañón, ambos cañones o el cargador deben estar completamente cargados. El tiempo mínimo para cambiar el tipo de proyectil en cañones estándar es de 1 s; en cañones dobles y cañones con cargador, es de 2.5 s.\n\nSi dos cargadores tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento."
+
+msgid "loader_intuition/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "Disminuye el {greenBright_Start}tiempo de cambio de tipos de proyectil{greenBright_End} en un cañón cargado en %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "El tiempo de cambio de tipo de proyectil en un cañón cargado disminuye.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Al entrenarla por completo, reduce el {greenBright_Start}tiempo de cambio de tipos de proyectil{greenBright_End} en un cañón cargado en %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuición"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Aumenta notablemente la velocidad de cambio de tipos de proyectil en un cañón cargado."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Esta pericia reduce el tiempo de recarga solo de los cañones con cargador. No afecta a otros sistemas de cañón.\n\nSi dos cargadores tienen esta pericia, se toma el valor promedio del nivel de entrenamiento."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 % y su efectividad aumenta con más entrenamiento."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "El {greenBright_Start}tiempo de recarga{greenBright_End} del cargador se reduce en %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Al entrenarla por completo, reduce el {greenBright_Start}tiempo de recarga{greenBright_End} del cargador en %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "As de cargadores"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Reduce el tiempo de recarga de tus cargadores."
+
+msgid "loader_melee/alt/description"
+msgstr "Si dos cargadores tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento.\n\nEl tiempo de recarga del cañón se puede reducir aún más entrenando la pericia Subidón de adrenalina del cargador o con equipamiento que tenga un efecto similar. El uso de la directiva Compartimiento ordenado de munición mejora el efecto."
+
+msgid "loader_melee/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "El {yellow_Start}tiempo de recarga del cañón{yellow_End} disminuirá en %(vehicleGunReloadTime)s a distancias inferiores a 50 m del vehículo enemigo."
+
+msgid "loader_melee/hudDescription"
+msgstr "El tiempo de recarga del cañón disminuye (el enemigo está cerca).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Al entrenarla por completo, disminuye el {yellow_Start}tiempo de recarga del cañón{yellow_End} en %(vehicleGunReloadTime)s a distancias inferiores a 50 m del vehículo enemigo."
+
+msgid "loader_melee/name"
+msgstr "Combate cercano"
+
+msgid "loader_melee/shortDescription"
+msgstr "Acelera la carga del cañón en combate cercano."
+
+msgid "loader_pedant/alt/description"
+msgstr "Tener un cargador herido no afecta a la eficacia de la pericia.\n\nSi dos cargadores tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento.\n\nLa pericia se puede mejorar con la directiva Organizador de proyectiles. La resistencia del compartimento de municiones se puede aumentar con equipamiento que tenga un efecto similar."
+
+msgid "loader_pedant/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "La {greenBright_Start}durabilidad del compartimento de municiones{greenBright_End} aumenta un %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Al entrenarla por completo, aumenta la {greenBright_Start}resistencia del compartimento de municiones{greenBright_End} en %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Almacenamiento seguro"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Aumenta la resistencia del compartimento de municiones."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "El efecto funciona para todos los tipos de proyectiles.\n\nTener un cargador herido no afecta a la eficiencia de la pericia.\n\nSi dos cargadores tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "La {greenBright_Start}velocidad del proyectil{greenBright_End} aumenta un %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Al entrenarla por completo, aumenta la {greenBright_Start}velocidad del proyectil{greenBright_End} un %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Carga perfecta"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Esta pericia no surte efecto alguno en cañones con cargador o automáticos, ni tampoco se acumula para cañones duales.\n\nEn el caso de los que tienen sistema de carga selectivos, si se disparan ambos cañones, pero ninguno inflige daño, la reducción al tiempo de recarga se aplica en los dos cañones.\n\nSi dos cargadores tienen esta pericia, se toma el valor promedio del nivel de entrenamiento.\n\nEl tiempo de recarga se puede disminuir aún más entrenando las pericias de cargador Subidón de adrenalina o Combate cercano, aparte de con equipamiento que tenga un efecto similar. La directiva Compartimento ordenado de munición mejora el efecto."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "El {yellow_Start}tiempo de recarga del cañón{yellow_End} se reduce en %(vehicleGunReloadTime)s para el siguiente proyectil si el disparo anterior no dañó un vehículo enemigo."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "Reduce el tiempo de recarga del cañón (disparo fallido)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Al entrenarla por completo, el {yellow_Start}tiempo de recarga del cañón{yellow_End} se reduce en %(vehicleGunReloadTime)s para el siguiente proyectil si el disparo anterior no dañó un vehículo enemigo."
+
+msgid "loader_secondChance/name"
+msgstr "Segunda oportunidad"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Reduce el tiempo de recarga del cañón."
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s %%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Hermanos de guerra"
+
+msgid "perkRole/commander"
+msgstr "Comandante"
+
+msgid "perkRole/common"
+msgstr "Grupo"
+
+msgid "perkRole/driver"
+msgstr "Conductor"
+
+msgid "perkRole/gunner"
+msgstr "Artillero"
+
+msgid "perkRole/loader"
+msgstr "Cargador"
+
+msgid "perkRole/radioman"
+msgstr "Operador de radio"
+
+msgid "popularity/tooltip/common"
+msgstr "de todos los jugadores"
+
+msgid "popularity/tooltip/header"
+msgstr "Para este vehículo, preferido por el"
+
+msgid "popularity/tooltip/legendary"
+msgstr "de los jugadores de WTR legendario"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Si dos operadores de radio tienen esta pericia, se toma el valor promedio del nivel de entrenamiento.\n\nEl efecto se puede mejorar más con la pericia de comandante Detección de sonido."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 % y su efectividad aumenta con más entrenamiento."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "Cuando la tripulación queda aturdida, el {greenBright_Start}efecto negativo de aturdimiento{greenBright_End} se reduce en %(stunResistanceEffectFactor)s, hasta un máximo del 30 %."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Al entrenarla por completo, cuando la tripulación queda aturdida, el {greenBright_Start}efecto negativo de aturdimiento{greenBright_End} se reduce en %(stunResistanceEffectFactor)s&nbsp;, hasta un máximo del 30 %."
+
+msgid "radioman_battleTempered/name"
+msgstr "Veteranos de combate"
+
+msgid "radioman_expert/alt/description"
+msgstr "La bonificación de la eficiencia de tripulación mejora la eficacia del tripulante en combate. Si dos operadores de radio tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento. Este parámetro se puede aumentar aún más con equipamiento o consumibles que tengan un efecto similar, o usando la directiva Purga de ventilación. La pericia grupal Hermanos en armas, así como la pericia de comandante Emergencia o Lado a lado del operador de radio, también puede aumentar el parámetro."
+
+msgid "radioman_expert/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "La {yellow_Start}bonificación de la eficiencia de tripulación{yellow_End} aumentará un %(crewLevelIncrease)s si la cantidad de daño por asistencia supera los puntos de vida iniciales de tu vehículo&zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "Aumenta la bonificación de la eficiencia de tripulación (se tradujeron suficientes datos de reconocimiento)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Al entrenarla por completo, aumenta la {yellow_Start}bonificación de la eficiencia de tripulación{yellow_End} un %(crewLevelIncrease)s si la cantidad de daño por asistencia supera los puntos de vida iniciales de tu vehículo&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Experto en comunicaciones"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Mejora el rendimiento de la tripulación."
+
+msgid "radioman_finder/alt/description"
+msgstr "Si dos operadores de radio tienen la pericia, se aplica el valor promedio de su nivel de entrenamiento.\n\nEl alcance de visión se puede aumentar más entrenando la pericia Reconocimiento o con equipamiento que tenga un efecto similar. Usar la directiva Calibración de ópticas mejora el efecto."
+
+msgid "radioman_finder/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "El {greenBright_Start}alcance de visión{greenBright_End} aumenta un %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Al entrenarla por completo, aumenta el {greenBright_Start}alcance de visión{greenBright_End} en %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Conciencia situacional"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Aumenta el alcance de visión."
+
+msgid "radioman_interference/alt/description"
+msgstr "Si dos operadores de radio tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento.\n\nEl tiempo que tu vehículo permanece detectado se puede reducir aún más con equipamiento que tenga un efecto similar."
+
+msgid "radioman_interference/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "El {greenBright_Start}tiempo que tu vehículo permanece detectado {greenBright_End} por el enemigo disminuye en %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Al entrenarla por completo, reduce el {greenBright_Start}tiempo que tu vehículo permanece detectado{greenBright_End} por el enemigo en %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Interferencia"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Reduce el tiempo que tu vehículo permanece visible a ojos del enemigo."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Si dos operadores de radio tienen la pericia, solo se aplica el valor más alto. El efecto solo funciona si el operador de radio no está herido cuando destruyen el vehículo.\n\nLa pericia se puede mejorar más con la directiva El deber primero."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %. Su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "El operador de radio puede {yellow_Start}informar de las posiciones enemigas{yellow_End} durante %(radiomanDurationPerLevel)s luego de que destruyen el vehículo."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Informa de posiciones enemigas."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Al entrenarla por completo, permite {yellow_Start}informar de las posiciones enemigas{yellow_End} durante %(radiomanDurationPerLevel)s luego de que destruyen el vehículo."
+
+msgid "radioman_lastEffort/name"
+msgstr "Llamar por venganza"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Informa de las posiciones enemigas durante un breve lapso luego de que destruyen tu vehículo."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "La bonificación de la eficiencia de tripulación mejora la eficacia del tripulante en combate. Si dos operadores de radio tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento. Este parámetro se puede aumentar aún más con equipamiento o consumibles que tengan un efecto similar, o usando la directiva Purga de ventilación. La pericia grupal Hermanos en armas, así como la pericia de comandante Emergencia o Experto en comunicaciones del operador de radio, también pueden aumentar el parámetro."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "La {yellow_Start}bonificación de la eficiencia de tripulación{yellow_End} aumentará un %(crewLevelIncrease)s a distancias inferiores a 50 m de un vehículo aliado del mismo tipo&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "Aumenta la bonificación de la eficiencia de tripulación (hay un aliado del mismo tipo cerca)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Al entrenarla por completo, la {yellow_Start}bonificación de la eficiencia de tripulación{yellow_End} aumentará un %(crewLevelIncrease)s a distancias inferiores a 50 m de un vehículo aliado del mismo tipo&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Lado a lado"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Mejora el rendimiento de la tripulación."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "El efecto mejora la característica especial Sexto sentido del comandante, lo que acelera su activación.\n\nSi dos operadores de radio tienen esta pericia, se aplica el valor promedio de su nivel de entrenamiento."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Una pericia se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "El {greenBright_Start}tiempo que toma determinar{greenBright_End} si el enemigo {greenBright_Start}detectó tu vehículo{greenBright_End} disminuye en %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Al entrenarla por completo, disminuye el {greenBright_Start}tiempo que toma determinar{greenBright_End} si el enemigo {greenBright_Start}detectó tu vehículo{greenBright_End} en %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Interceptar señal"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Esta pericia se activa cuando la alerta de Sexto sentido indica que alguien detectó tu vehículo.\n\nSi dos operadores de radio tienen esta pericia, se toma el valor promedio del nivel de entrenamiento.\n\nEl alcance de visión se puede aumentar aún más entrenando las pericias Reconocimiento o Conciencia situacional, aparte de montando equipamiento que tenga un efecto similar. La directiva Calibración de ópticas mejora el efecto."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Una pericia con efecto situacional se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento. El efecto situacional se activa cuando se cumplen determinadas condiciones en combate."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "El {yellow_Start}alcance de visión{yellow_End} aumenta en %(vehicleCircularVisionRadius)s durante 5 s tras recibir la alerta de Sexto sentido."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "Aumenta el alcance de visión."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Al entrenarla por completo, aumenta el {yellow_Start}alcance de visión{yellow_End} en %(vehicleCircularVisionRadius)s durante 5 s tras recibir la alerta de Sexto sentido."
+
+msgid "radioman_threatSearch/name"
+msgstr "Búsqueda de amenaza"
+
+msgid "repair/alt/description"
+msgstr "Esta pericia afecta a la velocidad de reparación de los módulos internos y externos de \"rojo\" a \"amarillo\".\n\nEste parámetro se puede mejorar más con equipamiento o consumibles que tengan un efecto similar."
+
+msgid "repair/alt/info"
+msgstr "Para las pericias grupales, se tiene en cuenta el nivel de entrenamiento promedio entre todos los tripulantes. Se activa al entrenarla al 1 %, y su efectividad aumenta con más entrenamiento."
+
+msgid "repair/currentLvlDescription"
+msgstr "La {greenBright_Start}velocidad de reparación{greenBright_End} de los módulos dañados del vehículo aumenta en %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Al entrenarla por completo para todos los tripulantes, aumenta la {greenBright_Start}velocidad de reparación{greenBright_End} de los módulos dañados del vehículo en %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Reparaciones"
+
+msgid "repair/shortDescription"
+msgstr "Aumenta la velocidad de reparación de los módulos dañados."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Hermanos de guerra"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Popular"
+
+msgid "sorting/fallback"
+msgstr "Predeterminado"
+
+msgid "sorting/legendary"
+msgstr "Legendario"
+
+msgid "sorting/title"
+msgstr "Ordenado por:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopular.%(whiteSpanish_Close)s Basado en las tendencias actuales de pericia entre todos los jugadores de World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "Beneficio de WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Recibe datos precisos de las pericias de la tripulación basados en millones de juegos y sácale el máximo partido a cada batalla."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLegendario.%(whiteSpanish_Close)s Basado en las pericias que prefieren actualmente los jugadores de WTR legendario"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Clasificación de pericia desactivada"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "No hay datos disponibles"
+
+msgid "sorting/tooltip/title"
+msgstr "Asistente de la tripulación"
+
+msgid "sorting/tooltip/types"
+msgstr "Tipos de clasificación de pericias"
+
+msgid "sorting/tooltip/warning"
+msgstr "Clasificación de pericias no disponible"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Los datos completos de pericia no están disponibles para este vehículo, por lo que se aplicó la clasificación de pericia predeterminada."
+
+msgid "witches_brotherhood/name"
+msgstr "Aquelarre"
+
+msgid "yha_brotherhood/name"
+msgstr "Hermandad de las liebres"

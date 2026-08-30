@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Ampliar"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Retirar tripulante"
+
+msgid "barracks/bunks/title"
+msgstr "Literas:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Detalla cuántas literas quieres comprar. Literas disponibles en el Cuartel: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Precio con descuento"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Nuevo costo: %(currency)s por %(bunksCount)s literas"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Costo anterior: %(currency)s por %(bunksCount)s literas"
+
+msgid "barracks/enlarge/header"
+msgstr "¿Quieres ampliar el Cuartel?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Podrás retirar a los tripulantes poco entrenados en el Cuartel que tengan menos que los {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon} de XP necesarios para entrenar la primera pericia al {whiteSpanish_Open}100%{whiteSpanish_Close}."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Tripulantes poco entrenados"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "No tienes tripulantes poco entrenados."
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "No recibirás compensación al retirar tripulantes poco entrenados. Cuando los retires, no los podrás recuperar, y su XP se perderá."
+
+msgid "barracks/title"
+msgstr "CUARTEL"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Haz clic para ampliar el Cuartel."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Ampliar cuartel"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Ubicación"
+
+msgid "common/imageNotAvailable"
+msgstr "Imagen no disponible"
+
+msgid "common/inBarracks"
+msgstr "En el Cuartel"
+
+msgid "common/inBattle"
+msgstr "En batalla"
+
+msgid "common/inPrebattle"
+msgstr "En unidad táctica"
+
+msgid "common/navigation/aboutCrew"
+msgstr "SOBRE LA TRIPULACIÓN"
+
+msgid "common/navigation/toBarracks"
+msgstr "A CUARTEL"
+
+msgid "common/navigation/toGarage"
+msgstr "A GARAGE"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "A PERFIL"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s %"
+
+msgid "conversionAwards/button/submit"
+msgstr "¡Afirmativo!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Tus tripulantes se convirtieron en libros de tripulación."
+
+msgid "conversionAwards/title"
+msgstr "CONVERSIÓN COMPLETADA"
+
+msgid "conversionAwards/underTitle"
+msgstr "Se añadieron los siguientes objetos a tu cuenta."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Cancelar"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Retirar"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Tripulantes a retirar: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "¿Quieres retirar tripulantes poco entrenados?"
+
+msgid "conversionConfirm/warning"
+msgstr "No recibirás compensación al retirar tripulantes poco entrenados. Cuando los retires, no los podrás recuperar, y su XP se perderá."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Autoseleccionar pericias"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "No hay tripulantes con pericias no entrenadas."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "No puedes autoseleccionar las pericias"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Todas las pericias no entrenadas marcadas con el signo de suma se sustituirán por pericias elegidas automáticamente con una lógica especial para todas las tripulaciones."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Autoseleccionar pericias no entrenadas para todos"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Reiniciar pericias para todos"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "No hay tripulantes con pericias entrenadas."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "No puedes reiniciar las pericias"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Se reiniciarán todas las pericias de todos los tripulantes de tu cuenta. Esta operación no se puede deshacer."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Reiniciar pericias para todos"
+
+msgid "crewBanner/infoText"
+msgstr "Reinicio gratuito de pericias o selección automática de pericias no entrenadas para todos los tripulantes de tu cuenta"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Entrenamiento acelerado de la tripulación habilitado"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Bonificación de eficiencia: {{@ style (color $color)}}+{{value}} %{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Eficiencia de pericias"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "No puedes acceder a las pericias porque el tripulante no está entrenado para este vehículo."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Especialización:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Pericias no disponibles"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Pericias adicionales:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Pericias de la cualificación principal:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(China)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Checoslovaquia)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Francia)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Alemania)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Italia)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japón)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polonia)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Suecia)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Reino Unido)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(EE. UU.)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(USSR)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Todos los cazatanques premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Todas las AAP premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Todos los tanques pesados premium\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Todos los tanques ligeros premium\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Todos los tanques medianos premium\n {{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Detalles"
+
+msgid "filter/group/details/title"
+msgstr "Detalles"
+
+msgid "filter/group/nation/title"
+msgstr "Nación"
+
+msgid "filter/group/other/title"
+msgstr "Otro"
+
+msgid "filter/group/special/title"
+msgstr "Especial"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Clasificación"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Nivel"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Nivel"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Especialización"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Tipo de vehículo"
+
+msgid "filter/popup/button/title"
+msgstr "Filtro"
+
+msgid "filter/popup/default/title"
+msgstr "Filtro"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtrar por nación"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filtrar por vehículos"
+
+msgid "filter/reset"
+msgstr "Restablecer filtro"
+
+msgid "filter/search/placeholder"
+msgstr "Buscar por nombre"
+
+msgid "filter/search/tooltip/header"
+msgstr "Buscar por nombre"
+
+msgid "filter/title"
+msgstr "Mostrado:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Mostrar/ocultar tripulantes en vehículos con todos los módulos y ramas técnicas investigadas."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Vehículos de élite"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Mostrar/ocultar tripulantes entrenados para vehículos premium."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Vehículos premium"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Mostrar/ocultar tripulantes en vehículos primarios."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Vehículos primarios"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Mostrar/ocultar tripulantes para este tipo de vehículos."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Mostrar/ocultar tripulantes de esta nación."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Mostrar/ocultar diseños de esta nación."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Mostrar/ocultar vehículos de esta nación."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Mostrar/ocultar retirados."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Retirado"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Mostrar reclutas."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Reclutas"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Mostrar tripulantes."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Tripulantes"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Mostrar/ocultar tripulantes de esta cualificación."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Mostrar/ocultar vehículos premium."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Vehículos premium"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Mostrar/ocultar vehículo de este tipo."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Cazatanques"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "AAP"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tanques pesados"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Tanques ligeros"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Tanques medianos"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "No se encontrar vehículos que cumplimenten\nel criterio de búsqueda"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Ordenar por el nombre de los vehículos."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nombre"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Ordenar por niveles de vehículos."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Nivel"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Ordenar por el tipo de vehículo."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tipo"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nombre"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Haz clic para restablecer los ajustes de filtros."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Restablecer todos los filtros"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "¡Afirmativo!"
+
+msgid "junkTankmen/description"
+msgstr "Estos tripulantes tienen menos que los {bond_Open}210 060{bond_Close}{icon} de XP necesarios para entrenar la primera pericia al {whiteSpanish_Open}100%{whiteSpanish_Close}.\nSe eliminarán de tu cuenta."
+
+msgid "junkTankmen/title"
+msgstr "¿Quieres retirar tripulantes poco entrenados?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Hay un límite de {whiteSpanish_Open}tres {whiteSpanish_Close} pericias por cada cualificación adicional. Podrás acceder a una nueva pericia adicional después de alcanzar la {whiteSpanish_Open}primera{whiteSpanish_Close}, la {whiteSpanish_Open}tercera{whiteSpanish_Close} y la {whiteSpanish_Open}quinta{whiteSpanish_Close} pericia de la cualificación principal."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Pericias adicionales"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Cuando vuelvas a entrenar a un tripulante para otro vehículo con un conjunto diferente de cualificaciones, podrás volver a elegir las pericias para su nueva cualificación adicional."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "Las pericias adicionales se entrenan a la mitad de velocidad que las pericias de la cualificación mayor."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "No se necesita XP para entrenar las pericias adicionales."
+
+msgid "matrix/freeResetButton"
+msgstr "Reiniciar gratis"
+
+msgid "matrix/increaseButton"
+msgstr "Acelerar entrenamiento"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "El tripulante alcanzó el límite de entrenamiento."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "No se puede acelerar el entrenamiento"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Entrena las pericias con XP libre y libros de tripulación."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Entrenamiento rápido"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Cualificación incompatible"
+
+msgid "matrix/qualification/1"
+msgstr "Cualificación principal"
+
+msgid "matrix/qualification/2"
+msgstr "Segunda cualificación"
+
+msgid "matrix/qualification/3"
+msgstr "Tercera cualificación"
+
+msgid "matrix/qualification/4"
+msgstr "Cuarta cualificación"
+
+msgid "matrix/qualification/5"
+msgstr "Quinta cualificación"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Pericias a cero no disponibles para la segunda cualificación"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Pericias a cero no disponibles para la tercera cualificación"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Pericias a cero no disponibles para la cuarta cualificación"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Segunda cualificación no disponible para este vehículo."
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Tercera cualificación no disponible para este vehículo."
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Cuarta cualificación no disponible para este vehículo."
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Quinta cualificación no disponible para este vehículo."
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Hay un límite de {whiteSpanish_Open}tres{whiteSpanish_Close} pericias adicionales por cada cualificación adicional. Solo las pericias específicas de esta cualificación pueden seleccionarse como pericias adicionales."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Hay un límite de {whiteSpanish_Open}seis {whiteSpanish_Close} pericias de la cualificación principal (incluidas las pericias a cero)."
+
+msgid "matrix/resetButton"
+msgstr "Restablecer"
+
+msgid "matrix/resetButtonHint"
+msgstr "HAZ CLIC PARA REINICIAR LAS PERICIAS"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "No tienes pericias entrenadas."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "No puedes reiniciar las pericias"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Haz clic para reiniciar las pericias."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Reiniciar las pericias"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Pericia adicional disponible para entrenar"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "No se necesita XP de tripulación para entrenar las pericias adicionales."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "No disponible"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Se desbloquea al entrenar la tercera pericia de la cualificación principal. No requiere XP."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Se desbloquea al entrenar la quinta pericia de la cualificación principal. No requiere XP."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Nivel de entrenamiento"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "La cantidad total de XP requerida se descuenta porque el tripulante tiene una pericia a cero."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "La cantidad total de XP requerida se descuenta porque el tripulante tiene dos pericias a cero."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Pericia disponible para entrenamiento"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "No disponible"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "La pericia anterior debe entrenarse al 100 %."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Pericia a cero disponible para entrenamiento"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "Las pericias a cero siempre se entrenan primero, aunque se seleccionen varias pericias a la vez. No se necesita XP de tripulación para entrenarlas."
+
+msgid "matrix/skills/allSkills"
+msgstr "Pericias adicionales entrenadas para este vehículo"
+
+msgid "matrix/skills/available"
+msgstr "Pericias disponibles para entrenamiento:"
+
+msgid "matrix/skills/bonus"
+msgstr "Pericias adicionales"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Las pericias no están disponibles"
+
+msgid "matrix/skills/locked"
+msgstr "Las pericias no están disponibles"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Todas las pericias están desactivadas para este vehículo"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Pericias de la cualificación principal"
+
+msgid "matrix/skills/reduced"
+msgstr "Eficiencia de pericias reducida"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Pericias del comandante"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Pericias del conductor"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Pericias del comandante"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Pericias del conductor"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Pericias del artillero"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Pericias del cargador"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Pericias del operador de radio"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Pericias del artillero"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Pericias del cargador"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Pericias del operador de radio"
+
+msgid "matrix/skills/training"
+msgstr "Entrenamiento de pericias"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Pericias a cero disponibles para entrenamiento:"
+
+msgid "memberChange/action/recruit"
+msgstr "Reclutar {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount} % DE DESCUENTO EN CAMBIO DE CUALIFICACIÓN"
+
+msgid "memberChange/title"
+msgstr "ELEGIR {role}: {vehicle} "
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}En Depósito{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Tras la confirmación, se eliminará de tu cuenta al tripulante que transfiera su XP."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Una licencia de mentoría te permite transferir XP de tripulación de un tripulante a otro de la misma nación."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Licencia de mentoría"
+
+msgid "personalData/card/edit"
+msgstr "Editar"
+
+msgid "personalData/card/remove"
+msgstr "Quitar"
+
+msgid "personalData/card/restrictions"
+msgstr "Restricciones: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Haz clic para remplazar el nombre y la apariencia de un tripulante."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Apariencia"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Este tripulante ya tiene un nombre y una apariencia únicos."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "No puedes reemplazar el nombre y la apariencia"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Sin resultados. Cambia los ajustes o restablece el filtro."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Configurar la visualización de diseños según la nación."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filtrar por parámetros"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Mostrar documentos."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Documentos"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Mostrar diseños adecuados."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Diseños adecuados"
+
+msgid "personalData/filter/type/title"
+msgstr "Tipo"
+
+msgid "personalData/title"
+msgstr "REMPLAZAR NOMBRE Y APARIENCIA"
+
+msgid "personalFile/changeVehicle"
+msgstr "Cambiar"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "No puedes entrenar a este tripulante para otro vehículo."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Operación no disponible"
+
+msgid "personalFile/discount/full"
+msgstr "Descuento en reentrenamiento de tripulación disponible"
+
+msgid "personalFile/discount/short"
+msgstr "Descuento disponible"
+
+msgid "personalFile/inVehicle"
+msgstr "En el vehículo: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Incrementar"
+
+msgid "personalFile/isUntrained"
+msgstr "No está entrenado para este vehículo"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Todos los {icon} premium"
+
+msgid "personalFile/retrain"
+msgstr "Reentrenar"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Eficiencia de pericias: "
+
+msgid "personalFile/specialization"
+msgstr "Especialización:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Especialización"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Haz clic para escuchar una muestra de voz de este comandante."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Líneas de voz únicas"
+
+msgid "postProgression/button/claim"
+msgstr "Recoger recompensa"
+
+msgid "postProgression/description"
+msgstr "Los tripulantes que tengan entrenadas las seis pericias de la cualificación principal podrán acceder al postprogreso conjunto. Por cada 100 000 de XP obtenidos en el postprogreso, recibirás una guía universal que podrás usar para entrenar a otras tripulaciones."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "El postprogreso tiene una escala unificada para todos los tripulantes con seis pericias de la cualificación principal completamente entrenadas en la cuenta de un jugador."
+
+msgid "postProgression/tips/2"
+msgstr "Solo la XP de combate se toma en cuenta para el postprogreso. La mitad de la XP de combate que un tripulante obtiene en batalla se divide por la cantidad total de tripulantes del vehículo y se suma a la escala del postprogreso."
+
+msgid "postProgression/tips/3"
+msgstr "La pérdida de XP por pericias o eficiencia no afecta al postprogreso."
+
+msgid "postProgression/title"
+msgstr "POSTPROGRESO DE LA TRIPULACIÓN"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Todos los tripulantes que tuvieron acceso al postprogreso tienen una eficiencia de pericias baja."
+
+msgid "postProgression/warning/retire"
+msgstr "Todos los tripulantes que tenían acceso al postprogreso se retiraron o perdieron XP de sus últimas pericias."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Todos los cazatanques premium"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Todas las AAP premium"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Cazatanques premium"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "AAP premium"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Tanques pesados premium"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Tanques ligeros premium"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Tanques medianos premium"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Todos los tanques pesados premium"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Todos los tanques ligeros premium"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Todos los tanques medianos premium"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "PREMIOS"
+
+msgid "serviceRecord/averageXP"
+msgstr "XP media por batalla"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Batallas libradas"
+
+msgid "serviceRecord/noAchievements"
+msgstr "No se obtuvieron logros o premios en batallas."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Relación entre los puntos de experiencia totales obtenidos y la cantidad de batallas libradas en el vehículo al que está asignado el tripulante."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Experiencia media por batalla"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "El rango de un tripulante depende de su experiencia y de la cantidad de pericias entrenadas."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rango"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "El tripulante entrenó todas las pericias para este vehículo."
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Pericias disponibles para entrenamiento"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Todas las pericias están desactivadas para este vehículo."
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "No se necesita XP para entrenar las pericias de la cualificación adicional, y estas se entrenan a la mitad de la velocidad que las pericias de la cualificación principal."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Cancelar"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Entrenar"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "CUALIFICACIÓN ADICIONAL"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "CUALIFICACIÓN PRINCIPAL"
+
+msgid "tankChange/title"
+msgstr "ENTRENAR PARA EL VEHÍCULO"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Mostrar vehículos en el garage."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "En garage"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Configura la visualización de los vehículos por tipo y nivel."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filtrar por parámetros"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "No necesitas entrenar tripulantes para los vehículos premium. Puedes transferir una tripulación a un vehículo premium del mismo tipo sin penalización."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Vehículo premium"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Como máximo, el nombre del vehículo puede contener hasta %(maxLength)s caracteres."
+
+msgid "tankman/action/dismiss/title"
+msgstr "RETIRAR"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Retirar a este tripulante."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "No se puede retirar a este tripulante."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Operación no disponible"
+
+msgid "tankman/action/recruit/title"
+msgstr "RECLUTAR"
+
+msgid "tankman/action/restore/title"
+msgstr "RECUPERAR"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Recuperar este tripulante."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Haz clic para escuchar una muestra de voz de este comandante."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Líneas de voz únicas"
+
+msgid "tankman/recruit"
+msgstr "Reclutar"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Apariencia"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Perfil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Hoja de Servicio"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Reclutar"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Restablecer filtro"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Sin resultados. Cambia los ajustes o restablece el filtro."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Sin resultados. Recluta un tripulante."
+
+msgid "tankmanList/filter/title"
+msgstr "Tripulantes:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "No hay suficientes literas en el Cuartel."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Mostrar/ocultar solo los tripulantes retirados."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Retirado"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Mostrar tripulantes en el Cuartel."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "En el Cuartel"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Mostrar tripulantes en vehículos."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "En vehículos"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Mostrar/ocultar diseños de esta nación."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Configurar la visualización de tripulantes según su cualificación, especialización y otros parámetros."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filtrar por parámetros"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Recluta a un nuevo tripulante."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Como máximo, el nombre puede contener hasta %(maxLength)s caracteres."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Al posar el mouse sobre una pericia, se puede ver cómo esta afecta a las características correspondientes cuando está al 100 % con el nivel de eficiencia de pericias actual."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "¡Afirmativo!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Hay dos nuevas pericias para cada cualificación, rediseñamos Colocación confiable, y hay una nueva opción que sirve para ocultar pericias en el HUD de batalla."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Incorporamos una nueva operación que permite retirar tripulantes poco entrenados con un solo clic."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Ahora se pueden reiniciar las pericias solo con créditos, sin gastar XP."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Agregamos nuevas pericias y funciones, además de actualizar una pericia existente."
+
+msgid "welcomeScreen/title"
+msgstr "ACTUALIZACIONES A LA TRIPULACIÓN"

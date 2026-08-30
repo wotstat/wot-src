@@ -1,0 +1,2615 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Tradutor WoT <noreply@wargaming.net>\nLanguage-Team: Time WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "actionStub/name"
+msgstr "Modificação"
+
+msgid "adaptationHealthRestore/battleDescr"
+msgstr "Restaura instantaneamente %(immediatelyRestore)s pontos de vida do veículo. Ao ativar a habilidade, todo o dano provocado por projéteis e habilidades de combate será acumulado e convertido em pontos de vida durante %(duration)s s, além dos %(restoringCoefficient)s adicionais do dano total recebido assim que a habilidade terminar. \n\n*A recuperação da HP convertida também afeta veículos aliados dentro de um pequeno alcance."
+
+msgid "adaptationHealthRestore/descr"
+msgstr "Restaura instantaneamente %(immediatelyRestore)s pontos de vida do veículo. Ao ativar a habilidade, todo o dano provocado por projéteis e habilidades de combate será acumulado e convertido em pontos de vida durante %(duration)s s, além dos %(restoringCoefficient)s adicionais do dano total recebido assim que a habilidade terminar. \n\n*A recuperação da HP convertida também afeta veículos aliados dentro de um pequeno alcance."
+
+msgid "adaptationHealthRestore/longDescr"
+msgstr "Restaura {green_Open}instantaneamente %(immediatelyRestore)s{green_Close} dos pontos de vida do veículo. Ao ativar a habilidade por {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}, todo o dano recebido dos projéteis e habilidades de combate será acumulado e convertido em pontos de vida, além dos {green_Open}adicionais %(restoringCoefficient)s do dano total recebido {green_Close} assim que a habilidade terminar.\n\n*A recuperação da HP convertida também afeta veículos aliados dentro de um pequeno alcance."
+
+msgid "adaptationHealthRestore/name"
+msgstr "Blindagem Adaptativa"
+
+msgid "adaptationHealthRestore/shortDescr"
+msgstr "Restaura {green_Open}instantaneamente %(immediatelyRestore)s{green_Close} dos pontos de vida do veículo. Ao ativar a habilidade por {whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}, todo o dano recebido dos projéteis e habilidades de combate será acumulado e convertido em pontos de vida, além dos {green_Open}adicionais %(restoringCoefficient)s do dano total recebido {green_Close} assim que a habilidade terminar.\n\n*A recuperação da HP convertida também afeta veículos aliados dentro de um pequeno alcance."
+
+msgid "additInvisibilityDeviceBattleBooster/descr"
+msgstr "%s para a ocultação de um veículo parado ou em movimento com o Sistema de Escapamento Silenciado (qualquer classe) ou Sistema de Escapamento de Recompensa montado."
+
+msgid "additInvisibilityDeviceBattleBooster/gain/deluxe"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/gain/simple"
+msgstr "+2%"
+
+msgid "additInvisibilityDeviceBattleBooster/long_special"
+msgstr "Melhora o efeito do Sistema de Escapamento Silenciado ou do Sistema de Escapamento de Recompensa durante a batalha. A diretiva só vai funcionar se você tiver o equipamento correspondente montado."
+
+msgid "additInvisibilityDeviceBattleBooster/name"
+msgstr "Isolamento de Exaustão"
+
+msgid "additInvisibilityDeviceBattleBooster/short_special"
+msgstr "Aumenta a ocultação de um veículo parado ou em movimento"
+
+msgid "additionalInvisibilityDevice/long_special"
+msgstr "A eficácia depende do tipo de veículo. Aumenta a ocultação de um veículo parado ou em movimento. Útil para detecção ativa, bem como para detecção passiva em posições de risco."
+
+msgid "additionalInvisibilityDevice/name"
+msgstr "Sistema de Escapamento Silenciado"
+
+msgid "additionalInvisibilityDevice/short_special"
+msgstr "Aumenta a ocultação de um veículo parado ou em movimento."
+
+msgid "additionalInvisibilityDevice_tier1/name"
+msgstr "Sistema de Escapamento Silenciado Classe 1"
+
+msgid "additionalInvisibilityDevice_tier2/name"
+msgstr "Sistema de Escapamento Silenciado Classe 2"
+
+msgid "additionalInvisibilityDevice_tier3/name"
+msgstr "Sistema de Escapamento Silenciado Classe 3"
+
+msgid "additional_armor_plates_1/name"
+msgstr "Revestimento de Blindagem Adicional (Tipo 1)"
+
+msgid "additional_armor_plates_2/name"
+msgstr "Revestimento de Blindagem Adicional (Tipo 2)"
+
+msgid "afterburning/descr"
+msgstr "Aumenta a velocidade e aceleração de seu veículo por tempo limitado."
+
+msgid "afterburning/name"
+msgstr "Turbocompressor"
+
+msgid "aimingStabilizer/long_special"
+msgstr "Reduzir a dispersão do seu canhão é fundamental: quanto menor a dispersão inicial, menor o círculo de mira e menor o tempo necessário para a mira fechar. Além disso, um disparo despreparado (que é disparado sem mirar totalmente ou em movimento) tem uma chance melhor de acertar o alvo."
+
+msgid "aimingStabilizer/name"
+msgstr "Estabilizador Vertical"
+
+msgid "aimingStabilizerBattleBooster/descr"
+msgstr "%s para a dispersão após disparar, durante o movimento e rotação da torre com o Estabilizador Vertical, Sistema de Equipamento Estabilizador ou Estabilizador de Recompensa montado."
+
+msgid "aimingStabilizerBattleBooster/gain/deluxe"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/gain/simple"
+msgstr "-5%"
+
+msgid "aimingStabilizerBattleBooster/long_special"
+msgstr "Melhora o efeito do Estabilizador Vertical (qualquer classe), Sistema de Equipamento Estabilizador e Estabilizador de Recompensas no decorrer da batalha. Para equipar e ativar esta diretiva, esses equipamento devem estar montados em seu veículo."
+
+msgid "aimingStabilizerBattleBooster/name"
+msgstr "Lubrificação do Estabilizador"
+
+msgid "aimingStabilizerBattleBooster/short_special"
+msgstr "Melhora o efeito do estabilizador"
+
+msgid "aimingStabilizer_Mk1/name"
+msgstr "Estabilizador Vertical Classe 1"
+
+msgid "aimingStabilizer_Mk2/name"
+msgstr "Estabilizador Vertical Classe 2"
+
+msgid "aimingStabilizer_tier1/name"
+msgstr "Estabilizador Vertical Classe 1"
+
+msgid "aimingStabilizer_tier2/name"
+msgstr "Estabilizador Vertical Classe 2"
+
+msgid "antifragmentationLining/long_special"
+msgstr "Reforço de Blindagem absorvem danos; isso significa que eles reduzem os danos causados por colisões e Projéteis Explosivos. Reforços de blindagem serão benéficos para tanques pesados com blindagem confiável e enorme potencial de colisão que lutam principalmente em combate de curta distância."
+
+msgid "antifragmentationLining/name"
+msgstr "Revestimento Anti-Fragmentação"
+
+msgid "antifragmentationLining/short_special"
+msgstr "Protege o veículo e a tripulação dos projéteis, ferimentos, atordoamento e batidas"
+
+msgid "antifragmentationLining_tier1/name"
+msgstr "Revestimento Anti-Fragmentação S. Pesado"
+
+msgid "antifragmentationLining_tier2/name"
+msgstr "Revestimento Anti-Fragmentação Pesado"
+
+msgid "antifragmentationLining_tier3/name"
+msgstr "Revestimento Anti-Fragmentação Médio"
+
+msgid "antifragmentationLining_tier4/name"
+msgstr "Revestimento Anti-Fragmentação Leve"
+
+msgid "archetype/additionalInvisibilityDevice/name"
+msgstr "Sistema de Escapamento Silenciado"
+
+msgid "archetype/aimingStabilizer/name"
+msgstr "Estabilizador"
+
+msgid "archetype/antifragmentationLining/name"
+msgstr "Revestimento Anti-Fragmentação"
+
+msgid "archetype/camouflageNet/name"
+msgstr "Rede de Camuflagem"
+
+msgid "archetype/coatedOptics/name"
+msgstr "Lentes"
+
+msgid "archetype/commandersView/name"
+msgstr "Sistema de Visão"
+
+msgid "archetype/enhancedAimDrives/name"
+msgstr "Mira do Canhão Melhorada"
+
+msgid "archetype/extraHealthReserve/name"
+msgstr "Durabilidade Melhorada"
+
+msgid "archetype/grousers/name"
+msgstr "Garras Adicionais"
+
+msgid "archetype/improvedConfiguration/name"
+msgstr "Configuração"
+
+msgid "archetype/improvedRadioCommunication/name"
+msgstr "Conjunto de Rádio"
+
+msgid "archetype/improvedRotationMechanism/name"
+msgstr "Mecanismo de Rotação"
+
+msgid "archetype/improvedSights/name"
+msgstr "Mira"
+
+msgid "archetype/improvedVentilation/name"
+msgstr "Ventilação"
+
+msgid "archetype/modernizedAimDrivesAimingStabilizer/name/noTemplate"
+msgstr "Sistema de Controle de Disparo"
+
+msgid "archetype/modernizedExtraHealthReserveAntifragmentationLining/name/noTemplate"
+msgstr "Conjunto de Melhorias de Sobrevivência"
+
+msgid "archetype/modernizedImprovedSightsEnhancedAimDrives/name/noTemplate"
+msgstr "Sistema de Melhoria de Precisão"
+
+msgid "archetype/modernizedTurbochargerRotationMechanism/name/noTemplate"
+msgstr "Sistema de Melhoria de Mobilidade"
+
+msgid "archetype/stereoscope/name"
+msgstr "Telescópio Binocular"
+
+msgid "archetype/tankRammer/name"
+msgstr "Percursor"
+
+msgid "archetype/template"
+msgstr "\"%(name)s\" equipamento da categoria"
+
+msgid "archetype/turbocharger/name"
+msgstr "Turbocompressor"
+
+msgid "artillery/longDescr"
+msgstr "Comanda a artilharia a disparar em uma área pequena com projéteis HE. Veículos no centro da área de impacto recebem a maior quantidade de dano. Particularmente efetivo contra veículos muito blindados."
+
+msgid "artillery/name"
+msgstr "Barragem Artilharia"
+
+msgid "artillery/shortDescr"
+msgstr "Provoca um dano considerável à veículos inimigos dentro de um pequeno raio."
+
+msgid "autoExtinguishers/always"
+msgstr "%(vehicleFireChance)s para a chance de fogo no motor"
+
+msgid "autoExtinguishers/descr"
+msgstr "Extintor de incêndio automático em seu veículo."
+
+msgid "autoExtinguishers/long_special"
+msgstr "Extingue automaticamente o fogo e reduz a possibilidade de incêndio do veículo. Este consumível é adequado para todos os tipos de veículos de qualquer nação."
+
+msgid "autoExtinguishers/name"
+msgstr "Extintor de Incêndio Automático"
+
+msgid "autoExtinguishers/onUse"
+msgstr "Apaga incêndio automaticamente em seu veículo. Pode ser utilizado múltiplas vezes em uma batalha. O consumível é removido após a batalha caso tenha sido utilizado ao menos uma vez."
+
+msgid "autoExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "autoExtinguishers/short_special"
+msgstr "Extingue automaticamente o incêndio"
+
+msgid "berserker/battleDescr"
+msgstr "Aumenta a penetração e taxa de disparo %(gunPiercing)s vezes, e ao mesmo tempo aumenta a estabilização do canhão em %(gunAimingTime)s, mas reduz %(healthDebuff)s da quantidade total dos pontos de vida do veículo durante %(duration)s s.\n\n*O dano provocado pela habilidade Berserker não pode destruir seu veículo."
+
+msgid "berserker/descr"
+msgstr "Aumenta a penetração e taxa de disparo %(gunPiercing)s vezes, e ao mesmo tempo aumenta a estabilização do canhão em %(gunAimingTime)s, mas reduz %(healthDebuff)s da quantidade total dos pontos de vida do veículo durante %(duration)s s.\n\n*O dano provocado pela habilidade Berserker não pode destruir seu veículo."
+
+msgid "berserker/longDescr"
+msgstr "Aumenta a penetração e taxa de disparo {green_Open}%(gunPiercing)s vezes{green_Close}, e, ao mesmo tempo, aumenta a estabilização do canhão {green_Open}em %(gunAimingTime)s{green_Close}, mas reduz {red_Open}%(healthDebuff)s{red_Close} da quantidade total dos pontos de vida do veículo durante{whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}.\n\n*O dano provocado pela habilidade Berserker não pode destruir seu veículo."
+
+msgid "berserker/name"
+msgstr "Berserker"
+
+msgid "berserker/shortDescr"
+msgstr "Aumenta a penetração e taxa de disparo {green_Open}%(gunPiercing)s vezes{green_Close}, e, ao mesmo tempo, aumenta a estabilização do canhão {green_Open}em %(gunAimingTime)s{green_Close}, mas reduz {red_Open}%(healthDebuff)s{red_Close} da quantidade total dos pontos de vida do veículo durante{whiteSpanish_Open}%(duration)s s{whiteSpanish_Close}.\n\n*O dano provocado pela habilidade Berserker não pode destruir seu veículo."
+
+msgid "blackout_headlights_1/name"
+msgstr "Escurecimento dos Faróis (Tipo 1)"
+
+msgid "bomber/longDescr"
+msgstr "Comanda um avião de ataque terrestre a soltar bombas na área selecionada, atordoando e provocando dano aos veículos inimigos. Veículos no centro da área de impacto recebem a maior quantidade de dano. Particularmente efetivo contra veículos com blindagem leve ou moderada."
+
+msgid "bomber/name"
+msgstr "Bombardeiro"
+
+msgid "bomber/shortDescr"
+msgstr "Atordoa veículos inimigos e provoca um dano médio em uma grande área."
+
+msgid "brRegenerationKit/battleDescr"
+msgstr "Restaura gradualmente %(healPerTickDuration)s dos pontos de vida do veículo dentro de %(duration)s s. Pode ser interrompido ao levar dano."
+
+msgid "brRegenerationKit/descr"
+msgstr "Restaura gradualmente %(healPerTickDuration)s dos pontos de vida do veículo dentro de %(duration)s s. Pode ser interrompido ao levar dano."
+
+msgid "brRegenerationKit/long_special"
+msgstr "Restaura {green_Open}gradualmente %(healPerTickDuration)s{green_Close} dos pontos de vida do veículo {whiteSpanish_Open}dentro de %(duration)s s.{whiteSpanish_Close} Pode ser interrompido ao levar dano."
+
+msgid "brRegenerationKit/name"
+msgstr "Recuperação"
+
+msgid "brRegenerationKit/short_special"
+msgstr "Restaura {green_Open}gradualmente %(healPerTickDuration)s{green_Close} dos pontos de vida do veículo {whiteSpanish_Open}dentro de %(duration)s s.{whiteSpanish_Close} Pode ser interrompido ao levar dano."
+
+msgid "brRepairkit/descr"
+msgstr "Conserta módulos e remove efeitos negativos."
+
+msgid "brRepairkit/long_special"
+msgstr "Conserta módulos e remove efeitos negativos."
+
+msgid "brRepairkit/name"
+msgstr "Kit de Conserto"
+
+msgid "brRepairkit/short_special"
+msgstr "Conserta módulos e remove efeitos negativos."
+
+msgid "br_bomber/battleDescr"
+msgstr "Atordoa e provoca %(minDamage)s até %(maxDamage)s de dano em veículos inimigos. Os veículos no centro da área de impacto levam danos mais severos.\n\n*Existe um delay de %(delay)s s antes do impacto."
+
+msgid "br_bomber/descr"
+msgstr "Atordoa e provoca %(minDamage)s até %(maxDamage)s de dano em veículos inimigos. Os veículos no centro da área de impacto levam danos mais severos.\n\n*Existe um delay de %(delay)s s antes do impacto."
+
+msgid "br_bomber/longDescr"
+msgstr "Atordoa e provoca {whiteSpanish_Open}%(minDamage)s até %(maxDamage)s de dano{whiteSpanish_Close} em veículos inimigos. Os veículos no centro da área de impacto levam danos mais severos.\n\n*Existe um delay de %(delay)s s antes do impacto."
+
+msgid "br_bomber/name"
+msgstr "Bombardeiro"
+
+msgid "br_bomber/shortDescr"
+msgstr "Atordoa e provoca {whiteSpanish_Open}%(minDamage)s até %(maxDamage)s de dano{whiteSpanish_Close} em veículos inimigos. Os veículos no centro da área de impacto levam danos mais severos.\n\n*Existe um delay de %(delay)s s antes do impacto."
+
+msgid "br_minefield/battleDescr"
+msgstr "Implanta um campo minado ativo na área selecionada durante %(duration)s s. Os inimigos que entrarem em contato com as minas serão atordoados e vão receber um dano explosivo. \n\n*As Minas podem ser destruídas com disparos. As Minas implantadas embaixo de veículos inimigos NÃO vão explodir."
+
+msgid "br_minefield/descr"
+msgstr "Implanta um campo minado ativo na área selecionada durante %(duration)s s. Os inimigos que entrarem em contato com as minas serão atordoados e vão receber um dano explosivo. \n\n*As Minas podem ser destruídas com disparos. As Minas implantadas embaixo de veículos inimigos NÃO vão explodir."
+
+msgid "br_minefield/longDescr"
+msgstr "Implanta um campo minado ativo na área selecionada {whiteSpanish_Open}durante %(duration)s s{whiteSpanish_Close}. Os inimigos que entrarem em contato com as minas serão atordoados e vão receber um dano explosivo. \n\n*As Minas podem ser destruídas com disparos. As Minas implantadas embaixo de veículos inimigos NÃO vão explodir."
+
+msgid "br_minefield/name"
+msgstr "Campo Minado"
+
+msgid "br_minefield/shortDescr"
+msgstr "Implanta um campo minado ativo na área selecionada {whiteSpanish_Open}durante %(duration)s s{whiteSpanish_Close}. Os inimigos que entrarem em contato com as minas serão atordoados e vão receber um dano explosivo. \n\n*As Minas podem ser destruídas com disparos. As Minas implantadas embaixo de veículos inimigos NÃO vão explodir."
+
+msgid "br_respawn/name"
+msgstr "Respawn"
+
+msgid "br_respawn/platoon/descr"
+msgstr "Permite que você volte para a batalha após seu veículo ser destruído. Esta mecânica funciona dentro do primeiro %(duration)sminuto da batalha.\n\nPara dar respawn em um aliado, é preciso ficar fora de qualquer conflito durante %(timeToResurrect)s s. As cargas de respawn são compartilhadas entre os membros do Pelotão."
+
+msgid "br_respawn/solo/descr"
+msgstr "Permite que você volte para a batalha após seu veículo ser destruído. Esta mecânica funciona dentro do primeiro %(duration)sminuto da batalha.\n\nAssim que for destruído, seu veículo dá respawn automaticamente."
+
+msgid "br_smoke/battleDescr"
+msgstr "Adiciona um bônus de ocultação de %(duration)s segundos a todos os veículos dentro do alcance do consumível."
+
+msgid "br_smoke/descr"
+msgstr "Adiciona um bônus de ocultação a todos os veículos dentro do alcance do consumível."
+
+msgid "br_smoke/longDescr"
+msgstr "Adiciona um bônus de ocultação de %(duration)s segundos a todos os veículos dentro do alcance do consumível."
+
+msgid "br_smoke/name"
+msgstr "Cortina de Fumaça"
+
+msgid "br_smoke/shortDescr"
+msgstr "Adiciona um bônus de ocultação a todos os veículos dentro do alcance do consumível."
+
+msgid "br_smoke_with_damage/battleDescr"
+msgstr "Adiciona um bônus na ocultação para todos os veículos dentro da área do consumível, e irá danificar TODOS os veículos dentro do seu alcance provocando %(damagePerTick)s dos seus pontos de vida totais por segundo. O tempo de duração é %(duration)s s.\n\n*O dano da Névoa Corrosiva não interrompe a aquisição dos drops, deixando os veículos com pelo menos 1 HP."
+
+msgid "br_smoke_with_damage/descr"
+msgstr "Adiciona um bônus na ocultação para todos os veículos dentro da área do consumível, e irá danificar TODOS os veículos dentro do seu alcance provocando %(damagePerTick)s dos seus pontos de vida totais por segundo. O tempo de duração é %(duration)s s.\n\n*O dano da Névoa Corrosiva não interrompe a aquisição dos drops, deixando os veículos com pelo menos 1 HP."
+
+msgid "br_smoke_with_damage/longDescr"
+msgstr "Adiciona um bônus na ocultação para todos os veículos dentro da área do consumível, e irá danificar TODOS os veículos dentro do seu alcance {whiteSpanish_Open}provocando %(damagePerTick)s{whiteSpanish_Close}dos seus pontos de vida totais por segundo. O tempo de duração é {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*O dano da Névoa Corrosiva não interrompe a aquisição dos drops, deixando os veículos com pelo menos 1 HP."
+
+msgid "br_smoke_with_damage/name"
+msgstr "Névoa Corrosiva"
+
+msgid "br_smoke_with_damage/shortDescr"
+msgstr "Adiciona um bônus na ocultação para todos os veículos dentro da área do consumível, e irá danificar TODOS os veículos dentro do seu alcance {whiteSpanish_Open}provocando %(damagePerTick)s{whiteSpanish_Close}dos seus pontos de vida totais por segundo. O tempo de duração é {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}\n\n*O dano da Névoa Corrosiva não interrompe a aquisição dos drops, deixando os veículos com pelo menos 1 HP."
+
+msgid "builtinRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s para a velocidade de reparo do módulo"
+
+msgid "builtinRepairkit/long_special"
+msgstr "Repara todos os módulos danificados ao mesmo tempo. O efeito passivo aumenta a velocidade do conserto. Este consumível é adequado para certos veículos."
+
+msgid "builtinRepairkit/name"
+msgstr "Kit Grande de Conserto"
+
+msgid "builtinRepairkit/onUse"
+msgstr "Repara todos os módulos danificados. Pode ser utilizado múltiplas vezes em batalha. Não se gasta.\nEste consumível não pode ser removido, mas pode ser movido para outro espaço."
+
+msgid "builtinRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "camouflageBattleBooster/action/boost"
+msgstr "Fornece mais 10% de ocultação ao veículo"
+
+msgid "camouflageBattleBooster/action/perk"
+msgstr "Fornece a todos os tripulantes a habilidade Ocultação treinada em 100%"
+
+msgid "camouflageBattleBooster/long_special"
+msgstr "A habilidade Ocultação reduz a visibilidade de veículos parados e em movimento durante a batalha. Se a habilidade estiver treinada em 100%, a diretiva equipada aumenta seu efeito; caso contrário, a diretiva fornece a habilidade treinada em 100%."
+
+msgid "camouflageBattleBooster/name"
+msgstr "Cobertura Natural"
+
+msgid "camouflageBattleBooster/short_special"
+msgstr "Fornece a habilidade Ocultação treinada em 100% ou aumenta seu efeito"
+
+msgid "camouflageNet/battleDescr"
+msgstr "Aumenta a ocultação de um veículo estacionário 3s após ele parar"
+
+msgid "camouflageNet/long_special"
+msgstr "A eficácia depende do tipo de veículo. A Rede de Camuflagem combina principalmente com veículos furtivos: artilharias e caça-tanques com perfil baixo. Aumenta o efeito da habilidade Ocultação. A combinação dos dois fornece um bônus a mais para o seu veículo. A Rede de Camuflagem é ativada 3 segundos após o veículo parar de se mover."
+
+msgid "camouflageNet/name"
+msgstr "Rede de Camuflagem"
+
+msgid "camouflageNet/short_special"
+msgstr "Aumenta a ocultação de um veículo parado"
+
+msgid "camouflageNet_tier2/name"
+msgstr "Rede de Camuflagem Classe 2"
+
+msgid "camouflageNet_tier3/name"
+msgstr "Rede de Camuflagem Classe 3"
+
+msgid "chocolate/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} para o bônus da eficiência da tripulação durante uma batalha."
+
+msgid "chocolate/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para o bônus da eficiência da tripulação"
+
+msgid "chocolate/long_special"
+msgstr "Automaticamente ativado no início da batalha e fornece efeito para o curso da batalha. Apenas adequado para veículos alemães."
+
+msgid "chocolate/name"
+msgstr "Chocolate"
+
+msgid "chocolate/onUse"
+msgstr "?empty?"
+
+msgid "chocolate/restriction"
+msgstr "Compatível apenas para veículos alemães."
+
+msgid "chocolate/short_special"
+msgstr "Melhora o desempenho dos tripulantes alemães"
+
+msgid "clingBrander/battleDescr"
+msgstr "Chama um tanque autônomo equipado com um sistema de Identificação de Amigo ou Inimigo que vai perseguir e atacar o inimigo mais próximo por até %(botLifeTime)s s.\n\n*Este tanque pode ser destruído."
+
+msgid "clingBrander/descr"
+msgstr "Chama um tanque autônomo equipado com um sistema de Identificação de Amigo ou Inimigo que vai perseguir e atacar o inimigo mais próximo por até %(botLifeTime)s s.\n\n*Este tanque pode ser destruído."
+
+msgid "clingBrander/longDescr"
+msgstr "Chama um tanque autônomo equipado com um sistema de Identificação de Amigo ou Inimigo que vai perseguir e atacar o inimigo mais próximo por {whiteSpanish_Open}até%(botLifeTime)s s.{whiteSpanish_Close}\n\n*Este tanque pode ser destruído."
+
+msgid "clingBrander/name"
+msgstr "Tanque Autônomo de Combate"
+
+msgid "clingBrander/shortDescr"
+msgstr "Chama um tanque autônomo equipado com um sistema de Identificação de Amigo ou Inimigo que vai perseguir e atacar o inimigo mais próximo por {whiteSpanish_Open}até%(botLifeTime)s s.{whiteSpanish_Close}\n\n*Este tanque pode ser destruído."
+
+msgid "clutches_replace_1/name"
+msgstr "Substituição de Acopladores de Fricção (Tipo 1)"
+
+msgid "clutches_replace_2/name"
+msgstr "Substituição de Acopladores de Fricção (Tipo 2)"
+
+msgid "coatedOptics/long_special"
+msgstr "Ao contrário do Telescópio Binocular, as Lentes Revestidas (de qualquer tipo) oferecem bônus menor, mas permanente, que não desaparece com o movimento do veículo. Como resultado, as Lentes Revestidas são altamente benéficas para veículos com jogabilidade ativa - tanques leves e médios."
+
+msgid "coatedOptics/name"
+msgstr "Lentes Revestidas"
+
+msgid "coatedOpticsBattleBooster/descr"
+msgstr "%s para o alcance de visão (até 445 m) com Lentes Revestidas (qualquer classe), Lentes Experimentais ou Lente de Recompensa montada."
+
+msgid "coatedOpticsBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "coatedOpticsBattleBooster/long_special"
+msgstr "Melhora o efeito das Lentes Revestidas, Lentes Experimentais ou Lente de Recompensa para o curso da batalha. Para equipar e ativar esta diretiva esses equipamento devem estar montados em seu veículo."
+
+msgid "coatedOpticsBattleBooster/name"
+msgstr "Calibragem Ótica"
+
+msgid "coatedOpticsBattleBooster/short_special"
+msgstr "Melhora o efeito da lente"
+
+msgid "coatedOptics_tier1/name"
+msgstr "Lentes Revestidas Classe 1"
+
+msgid "coatedOptics_tier2/name"
+msgstr "Lentes Revestidas Classe 2"
+
+msgid "coatedOptics_tier3/name"
+msgstr "Lentes Revestidas Classe 3"
+
+msgid "cocacola/always"
+msgstr "{colorTagOpen}%(crewLevel)s{colorTagClose} para o bônus da eficiência da tripulação durante uma batalha."
+
+msgid "cocacola/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para o bônus da eficiência da tripulação"
+
+msgid "cocacola/long_special"
+msgstr "Automaticamente ativado no início da batalha e fornece efeito para o curso da batalha. Adequado apenas para veículos americanos."
+
+msgid "cocacola/name"
+msgstr "Caixa de Refrigerante"
+
+msgid "cocacola/onUse"
+msgstr "?empty?"
+
+msgid "cocacola/restriction"
+msgstr "Compatível apenas para veículos americanos."
+
+msgid "cocacola/short_special"
+msgstr "Melhora o desempenho dos tripulantes americanos"
+
+msgid "commandersView/long_special"
+msgstr "Reduz a ocultação dos inimigos em movimento e os coeficientes de ocultação de folhagem em que os inimigos estão durante a detecção. Isso permite que você detecte inimigos em movimento a distâncias maiores, além de detectá-los com mais eficiência, ocultos por arbustos ou árvores caídas."
+
+msgid "commandersView/name"
+msgstr "Sistema de Visão do Comandante"
+
+msgid "commandersView/short_special"
+msgstr "Reduz a ocultação de veículos inimigos, em movimento ou atrás de folhagem"
+
+msgid "corrodingShot/battleDescr"
+msgstr "Adiciona propriedades corrosivas para um projétil que aumenta sua penetração e potencial de dano. Ao provocar dano num veículo inimigo, o projétil aplica um efeito temporário nele, removendo até %(damagePerDotEffectDuration)s dos pontos de vida inimigos dentro de %(dotEffectDuration)s s.\n\n*O efeito negativo pode ser removido com um Kit de Consertos."
+
+msgid "corrodingShot/descr"
+msgstr "Adiciona propriedades corrosivas para um projétil que aumenta sua penetração e potencial de dano. Ao provocar dano num veículo inimigo, o projétil aplica um efeito temporário nele, removendo até %(damagePerDotEffectDuration)s dos pontos de vida inimigos dentro de %(dotEffectDuration)s s.\n\n*O efeito negativo pode ser removido com um Kit de Consertos."
+
+msgid "corrodingShot/longDescr"
+msgstr "Adiciona propriedades corrosivas para um projétil que aumenta sua penetração e potencial de dano. Ao provocar dano num veículo inimigo, o projétil aplica um efeito temporário nele, removendo {whiteSpanish_Open}até %(damagePerDotEffectDuration)s{whiteSpanish_Close}dos pontos de vida inimigos {whiteSpanish_Open}dentro de %(dotEffectDuration)s s{whiteSpanish_Close}.\n\n*O efeito negativo pode ser removido com um Kit de Consertos."
+
+msgid "corrodingShot/name"
+msgstr "Projétil Ácido"
+
+msgid "corrodingShot/shortDescr"
+msgstr "Adiciona propriedades corrosivas para um projétil que aumenta sua penetração e potencial de dano. Ao provocar dano num veículo inimigo, o projétil aplica um efeito temporário nele, removendo {whiteSpanish_Open}até %(damagePerDotEffectDuration)s{whiteSpanish_Close}dos pontos de vida inimigos {whiteSpanish_Open}dentro de %(dotEffectDuration)s s{whiteSpanish_Close}.\n\n*O efeito negativo pode ser removido com um Kit de Consertos."
+
+msgid "crewBattleBooster/descr/boost"
+msgstr "Melhora o seguinte"
+
+msgid "crewBattleBooster/descr/commander_special"
+msgstr "Recurso do Comandante"
+
+msgid "crewBattleBooster/descr/common"
+msgstr "{colorTagOpen}{action}{colorTagClose} {skillOrPerk} \"{name}\""
+
+msgid "crewBattleBooster/descr/perk"
+msgstr "habilidade:"
+
+msgid "crewBattleBooster/descr/replace"
+msgstr "Dá o seguinte"
+
+msgid "crewBattleBooster/descr/skill"
+msgstr "habilidade:"
+
+msgid "deluxAimingStabilizer/long_special"
+msgstr "Uma versão melhorada do Estabilizador Vertical ({colorTagOpen}–20%{colorTagClose} para dispersão após disparar, durante o movimento e rotação da torre) que fornece um efeito mais forte: {colorTagOpen}–27.5%{colorTagClose} para a dispersão após disparar, durante o movimento e rotação da torre. Este equipamento é adequado para veículos de todas as nações e tipos. Só pode ser desmontado usando títulos."
+
+msgid "deluxAimingStabilizer/name"
+msgstr "Sistema de Equipamento Estabilizador"
+
+msgid "deluxCoatedOptics/long_special"
+msgstr "Uma versão melhorada das Lentes Revestidas ({colorTagOpen}+10%{colorTagClose} para o alcance de visão) que fornece um efeito mais forte: {colorTagOpen}+13.5%{colorTagClose} para o alcance de visão. Este equipamento é adequado para veículos de todas as nações e tipos. Só pode ser desmontado usando títulos."
+
+msgid "deluxCoatedOptics/name"
+msgstr "Lentes Experimentais"
+
+msgid "deluxEnhancedAimDrives/long_special"
+msgstr "Uma versão melhorada da Mira do Canhão Melhorada ({colorTagOpen}+10%{colorTagClose} para o tempo de mira) que fornece um efeito mais forte: {colorTagOpen}+13.5%{colorTagClose} para o tempo de mira. Este equipamento é adequado para veículos de todas as nações e tipos. Só pode ser desmontado usando títulos."
+
+msgid "deluxEnhancedAimDrives/name"
+msgstr "Mira do Canhão Resistente ao Desgaste"
+
+msgid "deluxImprovedConfiguration/long_special"
+msgstr "Um análogo da Configuração Modificada que fornece um efeito mais forte. Este equipamento é adequado para veículos de todas as nações e tipos. Só pode ser desmontado usando títulos."
+
+msgid "deluxImprovedConfiguration/name"
+msgstr "Configuração Melhorada"
+
+msgid "deluxImprovedConfiguration/short_special"
+msgstr "Acelera os reparos, protege o rack de munição, tanques de combustível e motor"
+
+msgid "deluxImprovedVentilation/long_special"
+msgstr "Uma versão melhorada da Ventilação ({colorTagOpen}+5%{colorTagClose} ao bônus da eficiência da tripulação) que fornece um efeito mais forte: {colorTagOpen}+8.5%{colorTagClose} para a eficiência da tripulação. Este equipamento pode ser montado em todos os veículos de todas as nações e tipos. Ele só pode ser desmontado usando títulos."
+
+msgid "deluxImprovedVentilation/name"
+msgstr "Sistema de Ventilação"
+
+msgid "deluxRammer/long_special"
+msgstr "Uma versão melhorada do Percursor ({colorTagOpen}-10%{colorTagClose} para o tempo de recarga) que fornece um efeito mais forte: {colorTagOpen}-13.5%{colorTagClose} para o tempo de recarga. Este equipamento é adequado para veículos de todas as nações e tipos. Só pode ser desmontado usando títulos."
+
+msgid "deluxRammer/name"
+msgstr "Sistema Inovador de Carregamento"
+
+msgid "deluxeAdditionalInvisibilityDevice/long_special"
+msgstr "Uma versão melhorada do Sistema de Escapamento Silenciado que fornece um efeito mais potente: ele aumenta a ocultação de um veículo parado ou em movimento. Útil para a função de batedor ativo e para o passivo em posições arriscadas.\nEste equipamento é compatível para os veículos de todas as nações e tipos, mas sua eficiência depende do tipo do veículo. Ele pode ser desmontado usando título."
+
+msgid "deluxeAdditionalInvisibilityDevice/name"
+msgstr "Unidade de Exaustor Silencioso"
+
+msgid "deluxeAdditionalInvisibilityDevice/short_special"
+msgstr "Aumenta a ocultação de um veículo parado ou em movimento em {colorTagOpen}6{colorTagClose}/{colorTagOpen}8{colorTagClose}/{colorTagOpen}10%{colorTagClose}"
+
+msgid "deluxeCamouflageNet/battleDescr"
+msgstr "Aumenta a ocultação de um veículo estacionário 1.5 s após ele parar"
+
+msgid "deluxeCamouflageNet/long_special"
+msgstr "Uma versão melhorada da Rede de Camuflagem cuja efetividade depende do tipo do veículo. A Rede de Ocultação Tática auxilia especialmente os veículos furtivos: artilharias e caça-tanques com perfil baixo. Ela aumenta o efeito da habilidade Ocultação. Combina-la com outros itens irá fornecer um bônus considerável ao seu veículo. A Rede de Ocultação Tática é ativada depois de 1.5 segundos que o veículo parar de se mover."
+
+msgid "deluxeCamouflageNet/name"
+msgstr "Rede de Ocultação Tática"
+
+msgid "deluxeCamouflageNet/short_special"
+msgstr "{colorTagOpen}+17.5{colorTagClose}/{colorTagOpen}12.5{colorTagClose}/{colorTagOpen}7.5%{colorTagClose} para a ocultação de um veículo estacionário"
+
+msgid "deluxeExtraHealthReserve/additional_descr"
+msgstr "Restaura totalmente os pontos de vida da suspensão após os reparos."
+
+msgid "deluxeExtraHealthReserve/effect/chassisRestoration"
+msgstr "Restaura a suspensão após os reparos"
+
+msgid "deluxeExtraHealthReserve/long_special"
+msgstr "Uma versão melhorada da Durabilidade Melhorada: {colorTagOpen}+12.5%{colorTagClose} para os pontos de vida do veículo, {colorTagOpen}+75%{colorTagClose} para a durabilidade da suspensão, {colorTagOpen}+30%{colorTagClose} para a velocidade de reparo da suspensão, {colorTagOpen}–75%{colorTagClose} para os danos no casco causados por danos na suspensão durante o impacto. Restaura totalmente os pontos de vida da suspensão após os reparos. Reduz a chance de destruição de uma esteira ao receber danos, permitindo que seu veículo permaneça em movimento pelo maior tempo possível. Este equipamento é adequado para veículos de todas as nações e tipos (exceto AAPs). Só pode ser desmontado usando títulos."
+
+msgid "deluxeExtraHealthReserve/name"
+msgstr "Resistência do Revestimento Aumentada"
+
+msgid "deluxeExtraHealthReserve/short_special"
+msgstr "Aumenta a durabilidade do veículo e protege a suspensão"
+
+msgid "deluxeImprovedRotationMechanism/long_special"
+msgstr "Uma versão aprimorada do Mecanismo de Rotação Melhorado que fornece um efeito mais forte: {colorTagOpen}+17.5% {colorTagClose}para a movimentação do canhão, {colorTagOpen}+17.5% {colorTagClose}para a velocidade de rotação e {colorTagOpen}-17.5% {colorTagClose}para a dispersão durante o movimento e rotação da torre. Este equipamento é adequado para veículos de todas as nações e tipos. Só pode ser desmontado usando títulos."
+
+msgid "deluxeImprovedRotationMechanism/name"
+msgstr "Transmissão Melhorada"
+
+msgid "deluxeImprovedRotationMechanism/short_special"
+msgstr "Aumenta a velocidade de rotação e reduz a dispersão do canhão durante o movimento e a rotação"
+
+msgid "deluxeImprovedSights/long_special"
+msgstr "Uma versão aprimorada da Mira Melhorada que fornece um efeito mais forte: reduz o tamanho do círculo da mira de um canhão mirando, ou, totalmente mirado em {colorTagOpen}9%{colorTagClose}. Como resultado, seu canhão possui maior chance de acertar o alvo. Este equipamento pode ser montado em todos os veículos de todas as nações e tipos, exceto nas artilharias. É preciso usar títulos para desmontar."
+
+msgid "deluxeImprovedSights/name"
+msgstr "Mira Inovativa"
+
+msgid "deluxeImprovedSights/short_special"
+msgstr "Reduz a dispersão do canhão"
+
+msgid "deluxeStereoscope/battleDescr"
+msgstr "Aumenta o alcance da visão de um veículo estacionário 1.5 s após ele parar (até 445 m)"
+
+msgid "deluxeStereoscope/long_special"
+msgstr "Uma versão melhorada do Telescópio Binocular. Um bom alcance de visão fornece uma vantagem sólida para os veículos em batalha. Esse tipo de equipamento é benéfico para os caça-tanques com perfil baixo e canhões precisos. É ativado 1.5 segundos depois que o veículo parar de se mover."
+
+msgid "deluxeStereoscope/name"
+msgstr "Sistema de Observação Telescópica"
+
+msgid "deluxeStereoscope/short_special"
+msgstr "{colorTagOpen}+27.5%{colorTagClose} para o alcance de visão de um veículo estacionário (até 445 m)"
+
+msgid "deluxeTurbocharger/long_special"
+msgstr "Uma versão melhorada do Turbocompressor ({colorTagOpen}+7.5%{colorTagClose} para a potência do motor, {colorTagOpen}+4 km/h{colorTagClose} para a velocidade máxima, {colorTagOpen}+2 km/h{colorTagClose} para a velocidade de ré): {colorTagOpen}+12.5%{colorTagClose} para a potência do motor, {colorTagOpen}+6 km/h{colorTagClose} para a velocidade máxima, {colorTagOpen}+4 km/h{colorTagClose} para a velocidade de ré. Este equipamento é adequado para veículos de todas as nações e tipos (exceto veículos com rodas). Só pode ser desmontado usando títulos."
+
+msgid "deluxeTurbocharger/name"
+msgstr "Compressor Melhorado"
+
+msgid "deluxeTurbocharger/short_special"
+msgstr "Aumenta a potência do motor e a velocidade máxima"
+
+msgid "eb_minefield/descr"
+msgstr "Lança um campo minado ativo na área selecionada por um determinado período de tempo."
+
+msgid "eb_minefield/long_descr"
+msgstr "Implanta um campo de minas terrestres ativas na área selecionada durante um período de tempo. Ao serem detonadas, as minas atordoam e danificam veículos inimigos. Os inimigos podem detectar as minas em distâncias curtas ou com as Reservas de Combate Voo de Reconhecimento ou Sentinela. As minas podem ser destruídas com disparos ou explosões."
+
+msgid "eb_minefield/name"
+msgstr "Campo Minado"
+
+msgid "eb_minefield/short_descr"
+msgstr "Lança um campo minado ativo na área selecionada por um determinado período de tempo."
+
+msgid "eb_regenerationKit/descr"
+msgstr "Restaura gradualmente uma certa porcentagem dos pontos de vida do seu veículo."
+
+msgid "eb_regenerationKit/long_descr"
+msgstr "Restaura gradualmente uma certa porcentagem dos pontos de vida do seu veículo. Aumenta a velocidade de reparos dentro do Círculo de Reabastecimento. Quando ativa, reduz os danos das minas."
+
+msgid "eb_regenerationKit/name"
+msgstr "Reparos de Campo"
+
+msgid "eb_regenerationKit/short_descr"
+msgstr "Restaura gradualmente uma certa porcentagem dos pontos de vida do seu veículo."
+
+msgid "empty"
+msgstr "?empty?"
+
+msgid "empty_slot/descr"
+msgstr "Vaga na Garagem"
+
+msgid "empty_slot/name"
+msgstr "Vaga na Garagem"
+
+msgid "empty_slot/short_descr"
+msgstr "A vaga da Reserva de Combate foi usada."
+
+msgid "enemyShotPredictorBattleBooster/action/boost"
+msgstr "Aumenta o efeito da habilidade Detecção de Som em 1.5 vezes"
+
+msgid "enemyShotPredictorBattleBooster/action/perk"
+msgstr "Fornece a habilidade Detecção de Som treinada em 100%"
+
+msgid "enemyShotPredictorBattleBooster/long_special"
+msgstr "A habilidade Detecção de Som emite um alerta sobre o disparo da artilharia inimiga e reduz o efeito negativo do atordoamento. Se a habilidade estiver treinada em 100%, a diretiva equipada aumenta seu efeito; caso contrário, a diretiva fornece a habilidade treinada em 100% para o veículo."
+
+msgid "enemyShotPredictorBattleBooster/name"
+msgstr "Vigilância Intensificada"
+
+msgid "enemyShotPredictorBattleBooster/short_special"
+msgstr "Fornece a habilidade Detecção de Som treinada em 100% ou aumenta seu efeito"
+
+msgid "enhancedAimDrives/long_special"
+msgstr "A mira melhorada reduz o tempo de mira. Um veículo que está equipado com a Mira do Canhão Melhorada demonstra um disparo mais preciso (além disso, ele melhora a taxa de disparo, já que o carregamento é algumas vezes mais rápido que a mira completa)."
+
+msgid "enhancedAimDrives/name"
+msgstr "Mira do Canhão Melhorada"
+
+msgid "enhancedAimDrivesBattleBooster/descr"
+msgstr "%s para a velocidade de mira com a Mira do Canhão Melhorada (qualquer classe), a Mira do Canhão Resistente ao Desgaste, a Mira do Canhão de Recompensa ou Sistema de Controle de Disparo montados."
+
+msgid "enhancedAimDrivesBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "enhancedAimDrivesBattleBooster/long_special"
+msgstr "Melhora o efeito do Mira do Canhão de Recompensa, Mira do Canhão Melhorada ou Mira do Canhão Resistente ao Desgaste para o curso da batalha. Para equipar e ativar esta diretiva esses equipamento devem estar montados em seu veículo."
+
+msgid "enhancedAimDrivesBattleBooster/name"
+msgstr "Afinação de Mira"
+
+msgid "enhancedAimDrivesBattleBooster/short_special"
+msgstr "Melhora o efeito das mira do canhão melhoradas"
+
+msgid "enhancedAimDrives_tier1/name"
+msgstr "Mira do Canhão Melhorada Classe 1"
+
+msgid "enhancedAimDrives_tier2/name"
+msgstr "Mira do Canhão Melhorada Classe 2"
+
+msgid "enhancedAimDrives_tier3/name"
+msgstr "Mira do Canhão Melhorada Classe 3"
+
+msgid "enhancedBelwillWashers/name"
+msgstr "Molas Belleville Melhoradas"
+
+msgid "enhancedExtraHealthReserve/additional_descr"
+msgstr "Restaura totalmente os pontos de vida da suspensão após os reparos."
+
+msgid "enhancedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Restaura totalmente os pontos de vida da suspensão após os reparos"
+
+msgid "enhancedLevers/name"
+msgstr "Niveladores Melhorados"
+
+msgid "enhancedLongitudinalTorsions/name"
+msgstr "Barras de Torção Longitudinais Melhoradas"
+
+msgid "enhancedSprings/name"
+msgstr "Molas Melhoradas"
+
+msgid "enhancedTorsions1t/name"
+msgstr "Barras de Torção Melhoradas Classe 1 t"
+
+msgid "enhancedTorsions3t/name"
+msgstr "Barras de Torção Melhoradas Classe 3 t"
+
+msgid "enhancedTorsions5t/name"
+msgstr "Barras de Torção Melhoradas Classe 5 t"
+
+msgid "exampleAbility/descr"
+msgstr "Habilidade de Teste para Script Visual"
+
+msgid "exampleAbility/name"
+msgstr "Habilidade de Teste"
+
+msgid "excellentFuel/always"
+msgstr "%(vehicleEnginePower)s para a potência do motor e à velocidade de rotação da torre durante uma batalha."
+
+msgid "excellentFuel/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para a potência ao motor e velocidade de rotação da torre."
+
+msgid "excellentFuel/long_special"
+msgstr "Adiciona {colorTagOpen}10%{colorTagClose} para a potência do motor e velocidade de rotação da torre durante o curso da batalha. Ativado automaticamente no início da batalha e efetiva durante a batalha."
+
+msgid "excellentFuel/name"
+msgstr "Combustível Excelente"
+
+msgid "excellentFuel/onUse"
+msgstr "?empty?"
+
+msgid "excellentFuel/restriction"
+msgstr "?empty?"
+
+msgid "excellentFuel/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} para a potência do motor e velocidade de rotação da torre"
+
+msgid "extraHealthReserve/additional_descr"
+msgstr "Restaura totalmente os pontos de vida da suspensão após os reparos."
+
+msgid "extraHealthReserve/effect/chassisRestoration"
+msgstr "Restaura a suspensão após os reparos"
+
+msgid "extraHealthReserve/long_special"
+msgstr "Aumenta a durabilidade do veículo, a capacidade de carga e a velocidade de reparo. Reduz os danos ao casco causados por danos na suspensão durante o impacto. Restaura totalmente os pontos de vida da suspensão após os reparos. Reduz a chance de destruição de uma esteira ao receber danos, permitindo que seu veículo permaneça em movimento."
+
+msgid "extraHealthReserve/name"
+msgstr "Durabilidade Melhorada"
+
+msgid "extraHealthReserve/short_special"
+msgstr "Aumenta a durabilidade do veículo e protege a suspensão"
+
+msgid "extraHealthReserve_tier1/name"
+msgstr "Durabilidade Melhorada Classe 1"
+
+msgid "extraHealthReserve_tier2/name"
+msgstr "Durabilidade Melhorada Classe 2"
+
+msgid "extraHealthReserve_tier3/name"
+msgstr "Durabilidade Melhorada Classe 3"
+
+msgid "fireCircle/battleDescr"
+msgstr "Cria um círculo em volta do seu veículo que reduz a mobilidade dos veículos inimigos dentro da área de efeito da habilidade, removendo até %(damagePerTickForInterval)s dos pontos de vida inimigos totais durante %(timer)s s.\n\n*O efeito da área do círculo de fogo é fixo e não irá seguir o movimento do seu veículo."
+
+msgid "fireCircle/descr"
+msgstr "Cria um círculo em volta do seu veículo que reduz a mobilidade dos veículos inimigos dentro da área de efeito da habilidade, removendo até %(damagePerTickForInterval)s dos pontos de vida inimigos totais durante %(timer)s s.\n\n*O efeito da área do círculo de fogo é fixo e não irá seguir o movimento do seu veículo."
+
+msgid "fireCircle/longDescr"
+msgstr "Cria um círculo de fogo em volta do seu veículo que reduz a mobilidade dos veículos inimigos dentro da área de efeito da habilidade, removendo {whiteSpanish_Open}até %(damagePerTickForInterval)s{whiteSpanish_Close}dos pontos de vida inimigos totais {whiteSpanish_Open}durante %(timer)s s{whiteSpanish_Close}.\n\n*O efeito da área do círculo de fogo é fixo e não irá seguir o movimento do seu veículo."
+
+msgid "fireCircle/name"
+msgstr "Anel de Fogo"
+
+msgid "fireCircle/shortDescr"
+msgstr "Cria um círculo de fogo em volta do seu veículo que reduz a mobilidade dos veículos inimigos dentro da área de efeito da habilidade, removendo {whiteSpanish_Open}até %(damagePerTickForInterval)s{whiteSpanish_Close}dos pontos de vida inimigos totais {whiteSpanish_Open}durante %(timer)s s{whiteSpanish_Close}.\n\n*O efeito da área do círculo de fogo é fixo e não irá seguir o movimento do seu veículo."
+
+msgid "fireFightingBattleBooster/action/boost"
+msgstr "Aumenta o efeito da habilidade Combate a Incêndio em 1.5 vezes"
+
+msgid "fireFightingBattleBooster/action/perk"
+msgstr "Fornece a habilidade Combate a Incêndio treinada em 100%"
+
+msgid "fireFightingBattleBooster/long_special"
+msgstr "A habilidade Combate a Incêndios aumenta as eficiência de apagar o incêndio do seu veículo durante uma batalha. Se a habilidade estiver treinada em 100%, a diretiva equipada aumenta o seu efeito, caso contrário, a diretiva fornece a habilidade treinada em 100%."
+
+msgid "fireFightingBattleBooster/name"
+msgstr "Bombeiros Experientes"
+
+msgid "fireFightingBattleBooster/short_special"
+msgstr "Fornece a habilidade Combate a Incêndio treinada em 100% ou aumenta seu efeito"
+
+msgid "fort_aoe_artillery/longDescr"
+msgstr "Comanda a artilharia para atingir a área selecionada, danificando todos os veículos dentro dela."
+
+msgid "fort_aoe_artillery/name"
+msgstr "Ataque da Artilharia"
+
+msgid "fort_aoe_artillery/shortDescr"
+msgstr "Comanda a artilharia para atingir a área selecionada, danificando todos os veículos dentro dela."
+
+msgid "fort_inspire/longDescr"
+msgstr "Fornece um bônus para as qualificações principais e todas as habilidades da tripulação do seu veículo, bem como para as tripulações de veículos aliados próximos."
+
+msgid "fort_inspire/name"
+msgstr "Inspiração"
+
+msgid "fort_inspire/shortDescr"
+msgstr "Fornece um bônus para as qualificações principais e todas as habilidades da tripulação do seu veículo, bem como para as tripulações de veículos aliados próximos."
+
+msgid "fuel_system_revision_1/name"
+msgstr "Revisão do Sistema de Combustível (Tipo 1)"
+
+msgid "grousers/long_special"
+msgstr "Aumenta a velocidade de rotação do veículo e mantém a velocidade ao passar por todos os tipos de terreno. É consideravelmente eficaz ao dirigir em terreno macio e moderadamente macio. É mais eficaz quando combinada com as habilidades de Rotacionador e Direção Fora de Estrada."
+
+msgid "grousers/name"
+msgstr "Garras Adicionais"
+
+msgid "grousers/short_special"
+msgstr "Aumenta a velocidade de deslocamento do veículo e melhora a aceleração"
+
+msgid "grousers_tier1/name"
+msgstr "Garras Adicionais Classe 1"
+
+msgid "grousers_tier2/name"
+msgstr "Garras Adicionais Classe 2"
+
+msgid "grousers_tier3/name"
+msgstr "Garras Adicionais Classe 3"
+
+msgid "gun_balancing_1/name"
+msgstr "Balanceamento do Canhão (Tipo 1)"
+
+msgid "handExtinguishers/always"
+msgstr "?empty?"
+
+msgid "handExtinguishers/descr"
+msgstr "Extintor de incêndio em seu veículo."
+
+msgid "handExtinguishers/long_special"
+msgstr "Apaga o incêndio em seu veículo após a ativação. Adequado para todos os tipos de veículos de qualquer nação. O consumível é removido após uma batalha, se tiver sido usado pelo menos uma vez."
+
+msgid "handExtinguishers/name"
+msgstr "Extintor de Incêndio Manual"
+
+msgid "handExtinguishers/onUse"
+msgstr "Apaga incêndio no seu veículo. Pode ser utilizado várias vezes em uma batalha. O consumível é removido após uma batalha se for utilizado pelo menos uma vez."
+
+msgid "handExtinguishers/restriction"
+msgstr "?empty?"
+
+msgid "handExtinguishers/short_special"
+msgstr "Apaga incêndio"
+
+msgid "healPoint/battleDescr"
+msgstr "Cria uma área ao redor do veículo. Nesta área, o jogador e os membros do Pelotão restauram %(healPerTick)s dos pontos de vida dos seus veículos a cada segundo durante %(duration)s s."
+
+msgid "healPoint/descr"
+msgstr "Cria uma área ao redor do veículo. Nesta área, o jogador e os membros do Pelotão restauram %(healPerTick)s dos pontos de vida dos seus veículos a cada segundo durante %(duration)s s."
+
+msgid "healPoint/longDescr"
+msgstr "Cria uma área ao redor do veículo. Nesta área, o jogador e os membros do Pelotão {green_Open}restauram %(healPerTick)s{green_Close} dos pontos de vida dos seus veículos a cada segundo durante {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "healPoint/name"
+msgstr "Área de Recuperação"
+
+msgid "healPoint/shortDescr"
+msgstr "Cria uma área ao redor do veículo. Nesta área, o jogador e os membros do Pelotão {green_Open}restauram %(healPerTick)s{green_Close} dos pontos de vida dos seus veículos a cada segundo durante {whiteSpanish_Open}%(duration)s s.{whiteSpanish_Close}"
+
+msgid "hotCoffee/always"
+msgstr "%(crewLevel)s para o bônus da eficiência da tripulação durante uma batalha."
+
+msgid "hotCoffee/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para o bônus da eficiência da tripulação"
+
+msgid "hotCoffee/long_special"
+msgstr "Automaticamente ativado no início da batalha e fornece efeito para o curso da batalha. Adequado apenas para veículos franceses."
+
+msgid "hotCoffee/name"
+msgstr "Café Forte"
+
+msgid "hotCoffee/onUse"
+msgstr "?empty?"
+
+msgid "hotCoffee/restriction"
+msgstr "Compatível apenas para veículos franceses."
+
+msgid "hotCoffee/short_special"
+msgstr "Melhora o desempenho dos tripulantes franceses"
+
+msgid "improvedConfiguration/additional_descr"
+msgstr "Previne o incêndio do tanque de combustível, explosão do rack de munição e destruição do motor em uma batalha onde estes módulos são destruídos."
+
+msgid "improvedConfiguration/battleDescr"
+msgstr "Previne o incêndio do tanque de combustível, explosão do rack de munição e destruição do motor em uma batalha onde estes módulos são destruídos."
+
+msgid "improvedConfiguration/battleStatus/ammoBay/ready"
+msgstr "O rack de munição está protegido contra detonação"
+
+msgid "improvedConfiguration/battleStatus/ammoBay/used"
+msgstr "Detonação do rack de munição impedida"
+
+msgid "improvedConfiguration/battleStatus/engine/ready"
+msgstr "O motor está protegido"
+
+msgid "improvedConfiguration/battleStatus/engine/used"
+msgstr "Destruição do motor impedida"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/ready"
+msgstr "Os tanques de combustível são protegidos contra incêndio"
+
+msgid "improvedConfiguration/battleStatus/fuelTank/used"
+msgstr "Prevenção contra incêndio no tanque de combustível"
+
+msgid "improvedConfiguration/effect/ammoBayFuelEngineRestoration"
+msgstr "Previne o incêndio do tanque de combustível, explosão do rack de munição e destruição do motor em uma batalha onde estes módulos são destruídos."
+
+msgid "improvedConfiguration/long_special"
+msgstr "Acelera os reparos. Aumenta a durabilidade do rack de munição, tanques de combustível e motor. Reduz a penalidade no tempo de carregamento e a perda de potência do motor ao danificar os módulos correspondentes. Reduz a chance de incêndio do motor. Previne o incêndio do tanque de combustível, explosão do rack de munição e destruição do motor em uma batalha onde estes módulos são destruídos. É mais eficaz quando combinado com as habilidades Consertos, Estocagem Segura e Manutenção Preventiva."
+
+msgid "improvedConfiguration/name"
+msgstr "Configuração Modificada"
+
+msgid "improvedConfiguration/short_special"
+msgstr "Acelera os reparos, protege o rack de munição, tanques de combustível e motor"
+
+msgid "improvedConfigurationBattleBooster/descr"
+msgstr "%s para a velocidade de reparo com Configuração Modificada (qualquer classe), Configuração Melhorada ou Tecnologia de Proteção de Recompensa montada."
+
+msgid "improvedConfigurationBattleBooster/gain/deluxe"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/gain/simple"
+msgstr "+10%"
+
+msgid "improvedConfigurationBattleBooster/long_special"
+msgstr "Melhora o efeito da Configuração Modificada, Configuração Melhorada ou Tecnologia de Proteção de Recompensa para o curso da batalha. Para equipar e ativar esta diretiva esses equipamento devem estar montados em seu veículo."
+
+msgid "improvedConfigurationBattleBooster/name"
+msgstr "Manutenção Pré-Batalha"
+
+msgid "improvedConfigurationBattleBooster/short_special"
+msgstr "Melhora o efeito da Configuração Modificada"
+
+msgid "improvedConfiguration_tier1/name"
+msgstr "Configuração Modificada Classe 1"
+
+msgid "improvedConfiguration_tier2/name"
+msgstr "Configuração Modificada Classe 2"
+
+msgid "improvedRadioCommunication/long_special"
+msgstr "Aumenta o tempo que um inimigo permanece detectado após sair do alcance de visão do seu veículo. Reduz o tempo em que você é detectado pelos inimigos. É mais eficaz quando combinado com as habilidades Alvo Marcado e Chamada por Vingança."
+
+msgid "improvedRadioCommunication/name"
+msgstr "Conjunto de Rádio Melhorado"
+
+msgid "improvedRadioCommunication/short_special"
+msgstr "Aumenta o tempo que um inimigo permanece detectado e reduz o tempo em que você fica detectado"
+
+msgid "improvedRotationMechanism/long_special"
+msgstr "Aumenta a velocidade de rotação do casco e torre para veículos com torre. Aumenta a velocidade de rotação do casco e do canhão para veículos com cabines estacionárias. Reduz a dispersão do canhão durante o movimento, rotação do casco e torre, e após disparar. É mais efetiva ao ser combinada com a habilidade Rotacionador."
+
+msgid "improvedRotationMechanism/name"
+msgstr "Mecanismo de Rotação Melhorado"
+
+msgid "improvedRotationMechanism/short_special"
+msgstr "Aumenta a velocidade de rotação e reduz a dispersão do canhão durante o movimento e a rotação"
+
+msgid "improvedRotationMechanism_tier1/name"
+msgstr "Mecanismo de Rotação Melhorado Classe 1"
+
+msgid "improvedRotationMechanism_tier2/name"
+msgstr "Mecanismo de Rotação Melhorado Classe 2"
+
+msgid "improvedSights/long_special"
+msgstr "Reduz o tamanho do círculo de mira para aumentar a precisão de uma mira ou um canhão totalmente mirado. Como resultado, seu canhão tem mais chances de atingir o alvo."
+
+msgid "improvedSights/name"
+msgstr "Mira Melhorada"
+
+msgid "improvedSights/short_special"
+msgstr "Reduz a dispersão do canhão"
+
+msgid "improvedSightsBattleBooster/descr"
+msgstr "%s para o tamanho do círculo da mira com a Mira Melhorada (qualquer classe) ou a Mira de Recompensa montada."
+
+msgid "improvedSightsBattleBooster/gain/deluxe"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/gain/simple"
+msgstr "–2%"
+
+msgid "improvedSightsBattleBooster/long_special"
+msgstr "Melhora o efeito da Mira Melhorada ou Mira de Recompensa para o curso da batalha. A diretiva só vai funcionar se você tiver o equipamento correspondente montado."
+
+msgid "improvedSightsBattleBooster/name"
+msgstr "Lentes Polidas"
+
+msgid "improvedSightsBattleBooster/short_special"
+msgstr "Reduz o tamanho do círculo de mira"
+
+msgid "improvedSights_tier1/name"
+msgstr "Mira Melhorada Classe 1"
+
+msgid "improvedSights_tier2/name"
+msgstr "Mira Melhorada Classe 2"
+
+msgid "improvedSights_tier3/name"
+msgstr "Mira Melhorada Classe 3"
+
+msgid "improvedVentilation/long_special"
+msgstr "Melhora várias características do seu veículo: alcance de visão, taxa de disparo, tempo de mira, características dinâmicas e outras. No entanto, o bônus fornecido por este equipamento só será perceptível na combinação com a habilidade Irmãos de Armas treinada em 100% pela sua tripulação."
+
+msgid "improvedVentilation/name"
+msgstr "Ventilação Aperfeiçoada"
+
+msgid "improvedVentilationBattleBooster/descr"
+msgstr "%s para a eficiência da tripulação com Ventilação Aperfeiçoada (qualquer classe), Sistema de Ventilação ou Ventilação de Recompensa montado."
+
+msgid "improvedVentilationBattleBooster/gain/deluxe"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/gain/simple"
+msgstr "+2.5%"
+
+msgid "improvedVentilationBattleBooster/long_special"
+msgstr "Melhora o efeito da Ventilação Aperfeiçoada (qualquer classe), Sistema de Ventilação ou Ventilação de Recompensa para o curso da batalha. Para equipar e ativar esta diretiva esses equipamento devem estar montados em seu veículo."
+
+msgid "improvedVentilationBattleBooster/name"
+msgstr "Ventilação Forçada"
+
+msgid "improvedVentilationBattleBooster/short_special"
+msgstr "Melhora o efeito da ventilação"
+
+msgid "improvedVentilation_class1/name"
+msgstr "Ventilação Aperfeiçoada Classe 1"
+
+msgid "improvedVentilation_class2/name"
+msgstr "Ventilação Aperfeiçoada Classe 2"
+
+msgid "improvedVentilation_class3/name"
+msgstr "Ventilação Aperfeiçoada Classe 3"
+
+msgid "improvedVentilation_tier1/name"
+msgstr "Ventilação Aperfeiçoada Classe 1"
+
+msgid "improvedVentilation_tier2/name"
+msgstr "Ventilação Aperfeiçoada Classe 2"
+
+msgid "improvedVentilation_tier3/name"
+msgstr "Ventilação Aperfeiçoada Classe 3"
+
+msgid "improved_suspension_1/name"
+msgstr "Suspensão Melhorada (Tipo 1)"
+
+msgid "improved_suspension_2/name"
+msgstr "Suspensão Melhorada (Tipo 2)"
+
+msgid "inspire/longDescr"
+msgstr "Melhora o desempenho da tripulação do veículo e de todos os aliados dentro de um raio especificado, adicionando um bônus de % à qualificação principal de cada tripulante. Um jogador que a aplica vai receber um efeito melhorado."
+
+msgid "inspire/name"
+msgstr "Inspirar"
+
+msgid "inspire/shortDescr"
+msgstr "Adiciona um bônus à qualificação principal da tripulação do jogador e das tripulações aliadas."
+
+msgid "largeCaliberHowitzerRammer/name"
+msgstr "Percursor de Projétil - AAP Cal. Grande"
+
+msgid "largeCaliberTankRammer/name"
+msgstr "Percursor de Projétil - Calibre Grande"
+
+msgid "largeMedkit/always"
+msgstr "%(crewStunDuration)s para a duração do atordoamento\n%(crewHitChance)s para a proteção da tripulação contra ferimentos"
+
+msgid "largeMedkit/descr"
+msgstr "Tratamento de todos os tripulantes feridos e remove o efeito de atordoamento."
+
+msgid "largeMedkit/long_special"
+msgstr "Cura todos os tripulantes feridos e remove o efeito de atordoamento após a ativação. O efeito passivo protege a tripulação de ferimentos. Este consumível é adequado para todos os tipos de veículos de qualquer nação."
+
+msgid "largeMedkit/name"
+msgstr "Kit Grande de Primeiros-Socorros"
+
+msgid "largeMedkit/onUse"
+msgstr "Tratamento de todos os tripulantes feridos. Pode ser utilizado múltiplas vezes em uma batalha. O consumível é removido após a batalha caso tenha sido utilizado ao menos uma vez."
+
+msgid "largeMedkit/removingStun/onUse"
+msgstr "Trata todos os tripulantes feridos e remove o efeito de atordoamento. Pode ser utilizado várias vezes em uma batalha. O consumível é removido após uma batalha se for utilizado pelo menos uma vez."
+
+msgid "largeMedkit/restriction"
+msgstr "?empty?"
+
+msgid "largeMedkit/short_special"
+msgstr "Cura todos os membros feridos da tripulação e remove o efeito do atordoamento"
+
+msgid "largeRepairkit/always"
+msgstr "%(vehicleRepairSpeed)s para a velocidade de reparo do módulo"
+
+msgid "largeRepairkit/descr"
+msgstr "Conserta todos os módulos danificados."
+
+msgid "largeRepairkit/long_special"
+msgstr "Conserta todos os módulos danificados cada vez após a ativação. O efeito passivo aumenta a velocidade de conserto. Este consumível é adequado para todos os tipos de veículos de qualquer nação."
+
+msgid "largeRepairkit/name"
+msgstr "Kit Grande de Conserto"
+
+msgid "largeRepairkit/onUse"
+msgstr "Conserta todos os módulos danificados. Pode ser utilizada múltiplas vezes em uma batalha. O consumível é removido após a batalha caso tenha sido utilizado ao menos uma vez."
+
+msgid "largeRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "largeRepairkit/short_special"
+msgstr "Conserta todos os módulos danificados"
+
+msgid "lastEffortBattleBooster/action/boost"
+msgstr "50% adicionais para a habilidade Chamado por Vingança"
+
+msgid "lastEffortBattleBooster/action/perk"
+msgstr "Fornece a melhoria Chamado de Vingança treinado em 100%"
+
+msgid "lastEffortBattleBooster/long_special"
+msgstr "A habilidade Chamado por Vingança dá a chance de relatar posições inimigas por mais 2 segundos após a destruição de um veículo durante o curso da batalha. Se a habilidade estiver treinada em 100%, a diretiva equipada adicionará 1 segundo à sua duração (3 segundos no total). Caso contrário, a diretiva fornece ao seu veículo a habilidade treinada em 100% (2 segundos no total)."
+
+msgid "lastEffortBattleBooster/name"
+msgstr "O Dever Primeiro"
+
+msgid "lastEffortBattleBooster/short_special"
+msgstr "Fornece a habilidade Chamado por Vingança treinada em 100% ou aumenta seu efeito"
+
+msgid "mediumCaliberHowitzerRammer/name"
+msgstr "Percursor de Projétil - AAP Cal. Médio"
+
+msgid "mediumCaliberTankRammer/name"
+msgstr "Percursor de Projétil - Calibre Médio"
+
+msgid "modernizedAimDrivesAimingStabilizer1/long_special"
+msgstr "Sistema de Controle de Disparo T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/name"
+msgstr "Sistema de Controle de Disparo T1"
+
+msgid "modernizedAimDrivesAimingStabilizer1/short_special"
+msgstr "Sistema de Controle de Disparo T1"
+
+msgid "modernizedAimDrivesAimingStabilizer2/long_special"
+msgstr "Sistema de Controle de Disparo T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/name"
+msgstr "Sistema de Controle de Disparo T2"
+
+msgid "modernizedAimDrivesAimingStabilizer2/short_special"
+msgstr "Sistema de Controle de Disparo T2"
+
+msgid "modernizedAimDrivesAimingStabilizer3/long_special"
+msgstr "Sistema de Controle de Disparo T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/name"
+msgstr "Sistema de Controle de Disparo T3"
+
+msgid "modernizedAimDrivesAimingStabilizer3/short_special"
+msgstr "Sistema de Controle de Disparo T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/long_special"
+msgstr "Conjunto de Melhorias de Sobrevivência T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/name"
+msgstr "Conjunto de Melhorias de Sobrevivência T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining1/short_special"
+msgstr "Conjunto de Melhorias de Sobrevivência T1"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/long_special"
+msgstr "Conjunto de Melhorias de Sobrevivência T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/name"
+msgstr "Conjunto de Melhorias de Sobrevivência T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining2/short_special"
+msgstr "Conjunto de Melhorias de Sobrevivência T2"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/long_special"
+msgstr "Conjunto de Melhorias de Sobrevivência T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/name"
+msgstr "Conjunto de Melhorias de Sobrevivência T3"
+
+msgid "modernizedExtraHealthReserveAntifragmentationLining3/short_special"
+msgstr "Conjunto de Melhorias de Sobrevivência T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/long_special"
+msgstr "Sistema de Melhoria de Precisão T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/name"
+msgstr "Sistema de Melhoria de Precisão T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives1/short_special"
+msgstr "Sistema de Melhoria de Precisão T1"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/long_special"
+msgstr "Sistema de Melhoria de Precisão T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/name"
+msgstr "Sistema de Melhoria de Precisão T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives2/short_special"
+msgstr "Sistema de Melhoria de Precisão T2"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/long_special"
+msgstr "Sistema de Melhoria de Precisão T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/name"
+msgstr "Sistema de Melhoria de Precisão T3"
+
+msgid "modernizedImprovedSightsEnhancedAimDrives3/short_special"
+msgstr "Sistema de Melhoria de Precisão T3"
+
+msgid "modernizedTurbochargerRotationMechanism1/long_special"
+msgstr "Sistema de Melhoria de Mobilidade T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/name"
+msgstr "Sistema de Melhoria de Mobilidade T1"
+
+msgid "modernizedTurbochargerRotationMechanism1/short_special"
+msgstr "Sistema de Melhoria de Mobilidade T1"
+
+msgid "modernizedTurbochargerRotationMechanism2/long_special"
+msgstr "Sistema de Melhoria de Mobilidade T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/name"
+msgstr "Sistema de Melhoria de Mobilidade T2"
+
+msgid "modernizedTurbochargerRotationMechanism2/short_special"
+msgstr "Sistema de Melhoria de Mobilidade T2"
+
+msgid "modernizedTurbochargerRotationMechanism3/long_special"
+msgstr "Sistema de Melhoria de Mobilidade T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/name"
+msgstr "Sistema de Melhoria de Mobilidade T3"
+
+msgid "modernizedTurbochargerRotationMechanism3/short_special"
+msgstr "Sistema de Melhoria de Mobilidade T3"
+
+msgid "nitro/battleDescr"
+msgstr "Aumenta temporariamente a potência do motor do seu veículo em %(enginePowerFactor)s e a velocidade máxima em %(maxSpeedFactor)s vezes durante %(consumeSeconds)s s."
+
+msgid "nitro/descr"
+msgstr "Aumenta temporariamente a potência do motor do seu veículo em %(enginePowerFactor)s e a velocidade máxima em %(maxSpeedFactor)s vezes durante %(consumeSeconds)s s."
+
+msgid "nitro/long_special"
+msgstr "Aumenta temporariamente a potência do motor do seu veículo {green_Open}em %(enginePowerFactor)s{green_Close} e a velocidade máxima {green_Open}em %(maxSpeedFactor)s vezes{green_Close}{whiteSpanish_Open} durante %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "nitro/name"
+msgstr "Turbocompressor"
+
+msgid "nitro/short_special"
+msgstr "Aumenta temporariamente a potência do motor do seu veículo {green_Open}em %(enginePowerFactor)s{green_Close} e a velocidade máxima {green_Open}em %(maxSpeedFactor)s vezes{green_Close}{whiteSpanish_Open} durante %(consumeSeconds)s s.{whiteSpanish_Close}"
+
+msgid "opt_dev_boosters_switch/name"
+msgstr "Configuração Alternativa: Carregamento Auxiliar"
+
+msgid "passive_engineering/longDescr"
+msgstr "Fornece um bônus para a velocidade de captura e reabastecimento. Impulsiona a velocidade de reabastecimento reduzindo o tempo necessário para renovar os Círculos de Reabastecimento e capturar ou ganhar o controle novamente dos pontos de controle."
+
+msgid "passive_engineering/longFilterAlert"
+msgstr "Você não pode aplicar esta Reserva de Combate a AAPs."
+
+msgid "passive_engineering/name"
+msgstr "Engenharia"
+
+msgid "passive_engineering/shortDescr"
+msgstr "Oferece um bônus para a velocidade de captura, bloqueio de captura e reabastecimento."
+
+msgid "passive_engineering/shortFilterAlert"
+msgstr "Não adequado para AAPs"
+
+msgid "pedantBattleBooster/action/boost"
+msgstr "Triplica o efeito da habilidade Estocagem Segura"
+
+msgid "pedantBattleBooster/action/perk"
+msgstr "Fornece a habilidade Estocagem Segura treinada em 100%"
+
+msgid "pedantBattleBooster/long_special"
+msgstr "A habilidade Estocagem Segura melhora a durabilidade da sua caixa de munição durante o curso da batalha. Se a habilidade estiver treinada em 100%, a diretiva equipada aumenta o seu efeito, caso contrário, a diretiva vai fornecer ao seu veículo a habilidade treinada em 100%."
+
+msgid "pedantBattleBooster/name"
+msgstr "Organizador de Projéteis"
+
+msgid "pedantBattleBooster/short_special"
+msgstr "Fornece a habilidade Estocagem Segura treinada em 100% ou aumenta seu efeito"
+
+msgid "poi_artillery_aoe/descr"
+msgstr "Dentro de {colorTagOpen}%(delay)d s{colorTagClose}, a área selecionada será alvo do Ataque de Artilharia. Quaisquer alvos danificados em um raio de {colorTagOpen}%(radius)d {colorTagClose} vão receber {colorTagOpen}%(damage)d{colorTagClose} HP de dano e serão atordoados por {colorTagOpen}%(stunDuration)d s{colorTagClose}."
+
+msgid "poi_artillery_aoe/name"
+msgstr "Ataque da Artilharia"
+
+msgid "poi_radar/descr"
+msgstr "Quando ativado, todos os veículos inimigos permanecerão detectados por {colorTagOpen}%(duration)d s{colorTagClose}."
+
+msgid "poi_radar/name"
+msgstr "Radar Divisional"
+
+msgid "practicalityBattleBooster/action/boost"
+msgstr "Dobra o efeito da habilidade Praticidade"
+
+msgid "practicalityBattleBooster/action/perk"
+msgstr "Fornece a habilidade Praticidade treinada em 100%"
+
+msgid "practicalityBattleBooster/long_special"
+msgstr "A habilidade Praticidade reduz o tempo de recarga dos consumíveis durante uma batalha. Se a habilidade estiver treinada em 100%, a diretiva equipada aumenta seu efeito; caso contrário, a diretiva fornece um treinamento em 100% para a habilidade."
+
+msgid "practicalityBattleBooster/name"
+msgstr "Preparações Completas"
+
+msgid "practicalityBattleBooster/short_special"
+msgstr "Fornece a habilidade Praticidade treinada em 100% ou aumenta seu efeito"
+
+msgid "qualityFuel/always"
+msgstr "%(vehicleEnginePower)s para a potência do motor e à velocidade de rotação da torre durante uma batalha."
+
+msgid "qualityFuel/descr"
+msgstr "{colorTagOpen}+5%{colorTagClose} para a potência do motor e velocidade de rotação da torre."
+
+msgid "qualityFuel/long_special"
+msgstr "Adiciona {colorTagOpen}5%{colorTagClose} para a potência do motor e velocidade de rotação da torre durante uma batalha. Ativado automaticamente no início da batalha e efetiva durante a mesma."
+
+msgid "qualityFuel/name"
+msgstr "Combustível de Qualidade"
+
+msgid "qualityFuel/onUse"
+msgstr "?empty?"
+
+msgid "qualityFuel/restriction"
+msgstr "?empty?"
+
+msgid "qualityFuel/short_special"
+msgstr "{colorTagOpen}+5%{colorTagClose} para a potência do motor e velocidade de rotação da torre"
+
+msgid "radar/descr"
+msgstr "Detecta veículos inimigos e Espólios de Guerra no minimapa."
+
+msgid "radar/name"
+msgstr "Detecção de Rádio"
+
+msgid "rammer/long_special"
+msgstr "Taxa de disparo apresenta as características mais importantes do seu veículo. Este equipamento é bastante benéfico em uma batalha e deve ser montado em seus veículos. No entanto, os percussores não podem ser montados em veículos com sistema de carregamento de pente."
+
+msgid "rammerBattleBooster/descr"
+msgstr "%s para o tempo de carregamento com o Percursor (qualquer tipo de canhão ou calibre), Sistema Inovador de Carregamento ou Percursor de Recompensa montados."
+
+msgid "rammerBattleBooster/gain/deluxe"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/gain/simple"
+msgstr "-2.5%"
+
+msgid "rammerBattleBooster/long_special"
+msgstr "Melhora o efeito do Percursor (qualquer tipo de canhão e calibre), Percursor de Recompensa ou Sistema Inovador de Carregamento para o curso da batalha. Para equipar e ativar esta diretiva esses equipamento devem estar montados em seu veículo."
+
+msgid "rammerBattleBooster/name"
+msgstr "Caixa de Munição Organizada"
+
+msgid "rammerBattleBooster/short_special"
+msgstr "Melhora o efeito do pilão"
+
+msgid "rancorousBattleBooster/action/boost"
+msgstr "Dobra o efeito da habilidade Alvo Marcado"
+
+msgid "rancorousBattleBooster/action/perk"
+msgstr "Fornece a habilidade Alvo Marcado treinada em 100%"
+
+msgid "rancorousBattleBooster/long_special"
+msgstr "A habilidade Alvo Marcado torna um veículo inimigo visível por mais dois segundos durante o curso da batalha. Se a habilidade estiver treinada em 100%, a diretiva equipada aumentará seu efeito, caso contrário, a diretiva fornece a habilidade treinada em 100%."
+
+msgid "rancorousBattleBooster/name"
+msgstr "Foco no Alvo"
+
+msgid "rancorousBattleBooster/short_special"
+msgstr "Fornece a habilidade Alvo Marcado treinada em 100% ou aumenta seu efeito"
+
+msgid "ration/always"
+msgstr "%(crewLevel)s para o bônus da eficiência da tripulação durante uma batalha."
+
+msgid "ration/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para o bônus da eficiência da tripulação"
+
+msgid "ration/long_special"
+msgstr "Automaticamente ativado no início da batalha e fornece efeito para o curso da batalha. Adequado apenas para veículos soviéticos."
+
+msgid "ration/name"
+msgstr "Rações de Combate Extra"
+
+msgid "ration/onUse"
+msgstr "?empty?"
+
+msgid "ration/restriction"
+msgstr "Compatível apenas para veículos soviéticos."
+
+msgid "ration/short_special"
+msgstr "Melhora o desempenho dos tripulantes soviéticos"
+
+msgid "ration_china/always"
+msgstr "%(crewLevel)s para o bônus da eficiência da tripulação durante uma batalha."
+
+msgid "ration_china/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para o bônus da eficiência da tripulação"
+
+msgid "ration_china/long_special"
+msgstr "Automaticamente ativado no início da batalha e fornece efeito para o curso da batalha. Adequado apenas para veículos chineses."
+
+msgid "ration_china/name"
+msgstr "Ração de Combate Reforçada"
+
+msgid "ration_china/onUse"
+msgstr "?empty?"
+
+msgid "ration_china/restriction"
+msgstr "Compatível apenas para veículos chineses."
+
+msgid "ration_china/short_special"
+msgstr "Melhora o desempenho dos tripulantes chineses"
+
+msgid "ration_czech/always"
+msgstr "%(crewLevel)s para o bônus da eficiência da tripulação durante uma batalha."
+
+msgid "ration_czech/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para o bônus da eficiência da tripulação"
+
+msgid "ration_czech/long_special"
+msgstr "Automaticamente ativado no início da batalha e fornece efeito para o curso da batalha. Adequado apenas para veículos checoslovacos."
+
+msgid "ration_czech/name"
+msgstr "Buchty"
+
+msgid "ration_czech/onUse"
+msgstr "?empty?"
+
+msgid "ration_czech/restriction"
+msgstr "Compatível apenas para veículos checos."
+
+msgid "ration_czech/short_special"
+msgstr "Melhora o desempenho dos tripulantes checoslovacos"
+
+msgid "ration_italy/always"
+msgstr "%(crewLevel)s para o bônus da eficiência da tripulação durante uma batalha."
+
+msgid "ration_italy/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para o bônus da eficiência da tripulação"
+
+msgid "ration_italy/long_special"
+msgstr "Automaticamente ativado no início da batalha e fornece efeito para o curso da batalha. Adequado apenas para veículos italianos."
+
+msgid "ration_italy/name"
+msgstr "Espaguete com Molho de Carne"
+
+msgid "ration_italy/onUse"
+msgstr "?empty?"
+
+msgid "ration_italy/restriction"
+msgstr "Compatível apenas para veículos italianos."
+
+msgid "ration_italy/short_special"
+msgstr "Melhora o desempenho dos tripulantes italianos"
+
+msgid "ration_japan/always"
+msgstr "%(crewLevel)s para o bônus da eficiência da tripulação durante uma batalha."
+
+msgid "ration_japan/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para o bônus da eficiência da tripulação"
+
+msgid "ration_japan/long_special"
+msgstr "Automaticamente ativado no início da batalha e fornece efeito para o curso da batalha. Adequado apenas para veículos japoneses."
+
+msgid "ration_japan/name"
+msgstr "Onigiri"
+
+msgid "ration_japan/onUse"
+msgstr "?empty?"
+
+msgid "ration_japan/restriction"
+msgstr "Compatível apenas para veículos japoneses."
+
+msgid "ration_japan/short_special"
+msgstr "Melhora o desempenho dos tripulantes japoneses"
+
+msgid "ration_poland/always"
+msgstr "%(crewLevel)s para o bônus da eficiência da tripulação durante uma batalha."
+
+msgid "ration_poland/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para o bônus da eficiência da tripulação"
+
+msgid "ration_poland/long_special"
+msgstr "Automaticamente ativado no início da batalha e fornece efeito para o curso da batalha. Adequado apenas para veículos poloneses."
+
+msgid "ration_poland/name"
+msgstr "Pão com Smalec"
+
+msgid "ration_poland/onUse"
+msgstr "?empty?"
+
+msgid "ration_poland/restriction"
+msgstr "Compatível apenas para veículos poloneses."
+
+msgid "ration_poland/short_special"
+msgstr "Melhora o desempenho dos tripulantes poloneses"
+
+msgid "ration_sweden/always"
+msgstr "%(crewLevel)s para o bônus da eficiência da tripulação durante uma batalha."
+
+msgid "ration_sweden/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para o bônus da eficiência da tripulação"
+
+msgid "ration_sweden/long_special"
+msgstr "Automaticamente ativado no início da batalha e fornece efeito para o curso da batalha. Adequado apenas para veículos suecos."
+
+msgid "ration_sweden/name"
+msgstr "Café com Pães de Canela"
+
+msgid "ration_sweden/onUse"
+msgstr "?empty?"
+
+msgid "ration_sweden/restriction"
+msgstr "Compatível apenas para veículos suecos."
+
+msgid "ration_sweden/short_special"
+msgstr "Melhora o desempenho dos tripulantes suecos"
+
+msgid "ration_uk/always"
+msgstr "%(crewLevel)s para o bônus da eficiência da tripulação durante uma batalha."
+
+msgid "ration_uk/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para o bônus da eficiência da tripulação"
+
+msgid "ration_uk/long_special"
+msgstr "Automaticamente ativado no início da batalha e fornece efeito para o curso da batalha. Adequado apenas para veículos britânicos."
+
+msgid "ration_uk/name"
+msgstr "Chá e Pudim"
+
+msgid "ration_uk/onUse"
+msgstr "?empty?"
+
+msgid "ration_uk/restriction"
+msgstr "Compatível apenas para veículos britânicos."
+
+msgid "ration_uk/short_special"
+msgstr "Melhora o desempenho dos tripulantes britânicos"
+
+msgid "recon/longDescr"
+msgstr "Comanda um avião de reconhecimento para detectar uma linha em uma grande área. Os veículos na linha de visão são avistados e permanecem detectados por um determinado período. Detecta campos minados."
+
+msgid "recon/name"
+msgstr "Voo de Reconhecimento"
+
+msgid "recon/shortDescr"
+msgstr "Detecta veículos inimigos e campos minados."
+
+msgid "removedRpmLimiter/always"
+msgstr "?empty?"
+
+msgid "removedRpmLimiter/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} para a potência do motor, mas o danifica."
+
+msgid "removedRpmLimiter/long_special"
+msgstr "Acrescenta a potência do motor em {colorTagOpen}10%{colorTagClose}, mas, enquanto ativa, gradualmente drena energia do motor. Pode ser habilitada ou desabilitada nas batalhas várias vezes. Apenas adequado para veículos chineses e soviéticos."
+
+msgid "removedRpmLimiter/name"
+msgstr "Remover Limitador de Velocidade"
+
+msgid "removedRpmLimiter/onUse"
+msgstr "%(vehicleEnginePower)s para a potência do motor, mas o danifica.. Pode ser usado várias vezes em uma batalha."
+
+msgid "removedRpmLimiter/restriction"
+msgstr "Compatível apenas para veículos soviéticos e chineses."
+
+msgid "removedRpmLimiter/short_special"
+msgstr "{colorTagOpen}+10%{colorTagClose} à potência do motor, mas o danifica"
+
+msgid "repairpoint/battleDescr"
+msgstr "Cria uma área estática temporária que repara todos os módulos danificados, remove TODOS os efeitos negativos e restaura %(healPerTick)s dos pontos de vida do seu veículo por segundo durante %(timer)s s.\n\n*Os veículos aliados dentro da área de efeito também recuperam HP."
+
+msgid "repairpoint/descr"
+msgstr "Cria uma área estática temporária que repara todos os módulos danificados, remove TODOS os efeitos negativos e restaura %(healPerTick)s dos pontos de vida do seu veículo por segundo durante %(timer)s s.\n\n*Os veículos aliados dentro da área de efeito também recuperam HP."
+
+msgid "repairpoint/long_special"
+msgstr "Cria uma área estática temporária que repara todos os módulos danificados, remove TODOS os efeitos negativos e {green_Open}restaura %(healPerTick)s{green_Close} dos pontos de vida do seu veículo {whiteSpanish_Open}por segundo durante %(timer)s{whiteSpanish_Close} s.\n\n*Os veículos aliados dentro da área de efeito também recuperam HP."
+
+msgid "repairpoint/name"
+msgstr "Zona de Reparo"
+
+msgid "repairpoint/short_special"
+msgstr "Cria uma área estática temporária que repara todos os módulos danificados, remove TODOS os efeitos negativos e {green_Open}restaura %(healPerTick)s{green_Close} dos pontos de vida do seu veículo {whiteSpanish_Open}por segundo durante %(timer)s{whiteSpanish_Close} s.\n\n*Os veículos aliados dentro da área de efeito também recuperam HP."
+
+msgid "rifled_barrels_cleaning_1/name"
+msgstr "Limpeza das Estrias do Cano (Tipo 1)"
+
+msgid "roleSlot/name"
+msgstr "Segunda categoria da vaga de equipamento"
+
+msgid "role_ATSPG_assault_pair_4_1/name"
+msgstr "Sistema de Segurança Passiva"
+
+msgid "role_ATSPG_assault_pair_4_1/splitName"
+msgstr "Sistema de\nSegurança Passiva"
+
+msgid "role_ATSPG_assault_pair_4_2/name"
+msgstr "Reconfiguração do Rack de Munição"
+
+msgid "role_ATSPG_assault_pair_4_2/splitName"
+msgstr "Reconfiguração do\nRack de Munição"
+
+msgid "role_ATSPG_assault_pair_5_1/name"
+msgstr "Esteiras Reparáveis"
+
+msgid "role_ATSPG_assault_pair_5_1/splitName"
+msgstr "Esteiras\nReparáveis"
+
+msgid "role_ATSPG_assault_pair_5_2/name"
+msgstr "Ajuste do Compartimento do Motor"
+
+msgid "role_ATSPG_assault_pair_5_2/splitName"
+msgstr "Ajuste do\nCompartimento do Motor"
+
+msgid "role_ATSPG_pair_1_1/name"
+msgstr "Suspensão Reforçada"
+
+msgid "role_ATSPG_pair_1_1/splitName"
+msgstr "Suspensão\nReforçada"
+
+msgid "role_ATSPG_pair_1_2/name"
+msgstr "Suspensão Leve"
+
+msgid "role_ATSPG_pair_1_2/splitName"
+msgstr "Suspensão\nLeve"
+
+msgid "role_ATSPG_pair_2_1/name"
+msgstr "Equipamento de Mira Polido"
+
+msgid "role_ATSPG_pair_2_1/splitName"
+msgstr "Equipamento de\nMira Polido"
+
+msgid "role_ATSPG_pair_2_2/name"
+msgstr "Ajuste de Paralaxe"
+
+msgid "role_ATSPG_pair_2_2/splitName"
+msgstr "Ajuste de\nParalaxe"
+
+msgid "role_ATSPG_pair_3_1/name"
+msgstr "Ajuste do Ejetor"
+
+msgid "role_ATSPG_pair_3_1/splitName"
+msgstr "Ajuste do\nEjetor"
+
+msgid "role_ATSPG_pair_3_2/name"
+msgstr "Periscópio de Ângulo Correto"
+
+msgid "role_ATSPG_pair_3_2/splitName"
+msgstr "Periscópio de\nÂngulo Correto"
+
+msgid "role_ATSPG_sniper_pair_4_1/name"
+msgstr "Ajuste do Mecanismo de Carregamento"
+
+msgid "role_ATSPG_sniper_pair_4_1/splitName"
+msgstr "Ajuste do Mecanismo\nde Carregamento"
+
+msgid "role_ATSPG_sniper_pair_4_2/name"
+msgstr "Ajuste do Mecanismo de Mira"
+
+msgid "role_ATSPG_sniper_pair_4_2/splitName"
+msgstr "Ajuste do Mecanismo\nde Mira"
+
+msgid "role_ATSPG_sniper_pair_5_1/name"
+msgstr "Ajuste PTO"
+
+msgid "role_ATSPG_sniper_pair_5_1/splitName"
+msgstr "Ajuste\nPTO"
+
+msgid "role_ATSPG_sniper_pair_5_2/name"
+msgstr "Unidade de Mira Elétrica"
+
+msgid "role_ATSPG_sniper_pair_5_2/splitName"
+msgstr "Unidade de\nMira Elétrica"
+
+msgid "role_ATSPG_support_pair_4_1/name"
+msgstr "Novas Engrenagens de Mira"
+
+msgid "role_ATSPG_support_pair_4_1/splitName"
+msgstr "Novas Engrenagens\nde Mira"
+
+msgid "role_ATSPG_support_pair_4_2/name"
+msgstr "Ajustes da Culatra"
+
+msgid "role_ATSPG_support_pair_4_2/splitName"
+msgstr "Ajustes da\nCulatra"
+
+msgid "role_ATSPG_support_pair_5_1/name"
+msgstr "Redução Geral de Peso"
+
+msgid "role_ATSPG_support_pair_5_1/splitName"
+msgstr "Redução Geral\nde Peso"
+
+msgid "role_ATSPG_support_pair_5_2/name"
+msgstr "Aumento da Durabilidade Geral"
+
+msgid "role_ATSPG_support_pair_5_2/splitName"
+msgstr "Aumento da\nDurabilidade Geral"
+
+msgid "role_ATSPG_universal_pair_4_1/name"
+msgstr "Tintas Foscas"
+
+msgid "role_ATSPG_universal_pair_4_1/splitName"
+msgstr "Tintas\nFoscas"
+
+msgid "role_ATSPG_universal_pair_4_2/name"
+msgstr "Engrenagem Reversa Adicional"
+
+msgid "role_ATSPG_universal_pair_4_2/splitName"
+msgstr "Engrenagem\nReversa Adicional"
+
+msgid "role_ATSPG_universal_pair_5_1/name"
+msgstr "Motor do Eixo de Comando Suspenso"
+
+msgid "role_ATSPG_universal_pair_5_1/splitName"
+msgstr "Motor do Eixo de\nComando Suspenso"
+
+msgid "role_ATSPG_universal_pair_5_2/name"
+msgstr "Percursor de Projétil Melhorado"
+
+msgid "role_ATSPG_universal_pair_5_2/splitName"
+msgstr "Percursor de\nProjétil Melhorado"
+
+msgid "role_HT_assault_pair_4_1/name"
+msgstr "Isolamento de Ruído Adicional"
+
+msgid "role_HT_assault_pair_4_1/splitName"
+msgstr "Isolamento de\nRuído Adicional"
+
+msgid "role_HT_assault_pair_4_2/name"
+msgstr "Remoção do Preenchimento"
+
+msgid "role_HT_assault_pair_4_2/splitName"
+msgstr "Remoção do\nPreenchimento"
+
+msgid "role_HT_assault_pair_5_1/name"
+msgstr "Sistema Auxiliar de Segurança"
+
+msgid "role_HT_assault_pair_5_1/splitName"
+msgstr "Sistema Auxiliar\nde Segurança"
+
+msgid "role_HT_assault_pair_5_2/name"
+msgstr "Pontos de Montagem Leve"
+
+msgid "role_HT_assault_pair_5_2/splitName"
+msgstr "Pontos de\nMontagem Leve"
+
+msgid "role_HT_break_pair_4_1/name"
+msgstr "Reinstalação da Fonte de Alimentação (Configuração 1)"
+
+msgid "role_HT_break_pair_4_1/splitName"
+msgstr "Reinstalação da Fonte\nde Alimentação (Configuração 1)"
+
+msgid "role_HT_break_pair_4_2/name"
+msgstr "Reinstalação da Fonte de Alimentação (Configuração 2)"
+
+msgid "role_HT_break_pair_4_2/splitName"
+msgstr "Reinstalação da Fonte\nde Alimentação (Configuração 2)"
+
+msgid "role_HT_break_pair_5_1/name"
+msgstr "Plataforma Reforçada"
+
+msgid "role_HT_break_pair_5_1/splitName"
+msgstr "Plataforma\nReforçada"
+
+msgid "role_HT_break_pair_5_2/name"
+msgstr "Plataforma Leve"
+
+msgid "role_HT_break_pair_5_2/splitName"
+msgstr "Plataforma\nLeve"
+
+msgid "role_HT_support_pair_4_1/name"
+msgstr "Foco na Mobilidade"
+
+msgid "role_HT_support_pair_4_1/splitName"
+msgstr "Foco na\nMobilidade"
+
+msgid "role_HT_support_pair_4_2/name"
+msgstr "Foco no Poder de Fogo"
+
+msgid "role_HT_support_pair_4_2/splitName"
+msgstr "Foco no\nPoder de Fogo"
+
+msgid "role_HT_support_pair_5_1/name"
+msgstr "Canhão Peso-Pesado"
+
+msgid "role_HT_support_pair_5_1/splitName"
+msgstr "Canhão\nPeso-Pesado"
+
+msgid "role_HT_support_pair_5_2/name"
+msgstr "Canhão Leve"
+
+msgid "role_HT_support_pair_5_2/splitName"
+msgstr "Canhão\nLeve"
+
+msgid "role_HT_universal_pair_4_1/name"
+msgstr "Ajuste de Saída de Potência (Configuração 1)"
+
+msgid "role_HT_universal_pair_4_1/splitName"
+msgstr "Ajuste de Saída\nde Potência (Configuração 1)"
+
+msgid "role_HT_universal_pair_4_2/name"
+msgstr "Ajuste de Saída de Potência (Configuração 2)"
+
+msgid "role_HT_universal_pair_4_2/splitName"
+msgstr "Ajuste de Saída\nde Potência (Configuração 2)"
+
+msgid "role_HT_universal_pair_5_1/name"
+msgstr "Casco Reforçado"
+
+msgid "role_HT_universal_pair_5_1/splitName"
+msgstr "Casco\nReforçado"
+
+msgid "role_HT_universal_pair_5_2/name"
+msgstr "Casco Leve"
+
+msgid "role_HT_universal_pair_5_2/splitName"
+msgstr "Casco\nLeve"
+
+msgid "role_LT_universal_pair_4_1/name"
+msgstr "Revestimento Óptico Antirreflexo"
+
+msgid "role_LT_universal_pair_4_1/splitName"
+msgstr "Revestimento Óptico\nAntirreflexo"
+
+msgid "role_LT_universal_pair_4_2/name"
+msgstr "Sistema de Visão Externa"
+
+msgid "role_LT_universal_pair_4_2/splitName"
+msgstr "Sistema de\nVisão Externa"
+
+msgid "role_LT_universal_pair_5_1/name"
+msgstr "Triplex Panorâmico"
+
+msgid "role_LT_universal_pair_5_1/splitName"
+msgstr "Triplex\nPanorâmico"
+
+msgid "role_LT_universal_pair_5_2/name"
+msgstr "Dispositivo de Observação de Ângulo Estreito"
+
+msgid "role_LT_universal_pair_5_2/splitName"
+msgstr "Dispositivo de Observação\nde Ângulo Estreito"
+
+msgid "role_LT_wheeled_pair_4_1/name"
+msgstr "Estrutura Primária Reforçada"
+
+msgid "role_LT_wheeled_pair_4_1/splitName"
+msgstr "Estrutura Primária\nReforçada"
+
+msgid "role_LT_wheeled_pair_4_2/name"
+msgstr "Expansão da Câmara da Torre"
+
+msgid "role_LT_wheeled_pair_4_2/splitName"
+msgstr "Expansão da Câmara\nda Torre"
+
+msgid "role_LT_wheeled_pair_5_1/name"
+msgstr "Kit de Reconhecimento"
+
+msgid "role_LT_wheeled_pair_5_1/splitName"
+msgstr "Kit de\nReconhecimento"
+
+msgid "role_LT_wheeled_pair_5_2/name"
+msgstr "Kit de Ataque"
+
+msgid "role_LT_wheeled_pair_5_2/splitName"
+msgstr "Kit de\nAtaque"
+
+msgid "role_MT_assault_pair_4_1/name"
+msgstr "Reforço de Durabilidade Avançado"
+
+msgid "role_MT_assault_pair_4_1/splitName"
+msgstr "Reforço de\nDurabilidade Avançado"
+
+msgid "role_MT_assault_pair_4_2/name"
+msgstr "Melhoria de Mira Avançada"
+
+msgid "role_MT_assault_pair_4_2/splitName"
+msgstr "Melhoria de\nMira Avançada"
+
+msgid "role_MT_assault_pair_5_1/name"
+msgstr "Dispositivos de Observação Adicionais"
+
+msgid "role_MT_assault_pair_5_1/splitName"
+msgstr "Dispositivos de\nObservação Adicionais"
+
+msgid "role_MT_assault_pair_5_2/name"
+msgstr "Juntas Reforçadas"
+
+msgid "role_MT_assault_pair_5_2/splitName"
+msgstr "Juntas\nReforçadas"
+
+msgid "role_MT_sniper_pair_4_1/name"
+msgstr "Ajuste do Mecanismo de Carregamento"
+
+msgid "role_MT_sniper_pair_4_1/splitName"
+msgstr "Ajuste do Mecanismo\nde Carregamento"
+
+msgid "role_MT_sniper_pair_4_2/name"
+msgstr "Ajuste do Mecanismo de Mira"
+
+msgid "role_MT_sniper_pair_4_2/splitName"
+msgstr "Ajuste do Mecanismo\nde Mira"
+
+msgid "role_MT_sniper_pair_5_1/name"
+msgstr "Ajuste PTO"
+
+msgid "role_MT_sniper_pair_5_1/splitName"
+msgstr "Ajuste\nPTO"
+
+msgid "role_MT_sniper_pair_5_2/name"
+msgstr "Unidade de Mira Elétrica"
+
+msgid "role_MT_sniper_pair_5_2/splitName"
+msgstr "Unidade de\nMira Elétrica"
+
+msgid "role_MT_support_pair_4_1/name"
+msgstr "Ajustes da Culatra"
+
+msgid "role_MT_support_pair_4_1/splitName"
+msgstr "Ajustes da\nCulatra"
+
+msgid "role_MT_support_pair_4_2/name"
+msgstr "Novas Engrenagens de Mira"
+
+msgid "role_MT_support_pair_4_2/splitName"
+msgstr "Novas Engrenagens\nde Mira"
+
+msgid "role_MT_support_pair_5_1/name"
+msgstr "Ajuste do Sistema de Injeção"
+
+msgid "role_MT_support_pair_5_1/splitName"
+msgstr "Ajuste do\nSistema de Injeção"
+
+msgid "role_MT_support_pair_5_2/name"
+msgstr "Ajuste do Campo de Visão"
+
+msgid "role_MT_support_pair_5_2/splitName"
+msgstr "Ajuste do\nCampo de Visão"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/name"
+msgstr "Aumento da Durabilidade do Módulo"
+
+msgid "role_MT_support_temperatureGun_pair_1_1/splitName"
+msgstr "Aumento da\nDurabilidade do Módulo"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/name"
+msgstr "Pontos de Montagem de Liga Leve"
+
+msgid "role_MT_support_temperatureGun_pair_1_2/splitName"
+msgstr "Pontos de Montagem\nde Liga Leve"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/name"
+msgstr "Ajustes da Culatra"
+
+msgid "role_MT_support_temperatureGun_pair_4_1/splitName"
+msgstr "Ajustes da\nCulatra"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/name"
+msgstr "Novas Engrenagens de Mira"
+
+msgid "role_MT_support_temperatureGun_pair_4_2/splitName"
+msgstr "Novas Engrenagens\nde Mira"
+
+msgid "role_MT_universal_pair_4_1/name"
+msgstr "Bicos de Medição Pesados"
+
+msgid "role_MT_universal_pair_4_1/splitName"
+msgstr "Bicos de\nMedição Pesados"
+
+msgid "role_MT_universal_pair_4_2/name"
+msgstr "Lentes Sensíveis"
+
+msgid "role_MT_universal_pair_4_2/splitName"
+msgstr "Lentes\nSensíveis"
+
+msgid "role_MT_universal_pair_5_1/name"
+msgstr "Rolos de Suporte Reforçados"
+
+msgid "role_MT_universal_pair_5_1/splitName"
+msgstr "Rolos de\nSuporte Reforçados"
+
+msgid "role_MT_universal_pair_5_2/name"
+msgstr "Rolos de Suporte Leves"
+
+msgid "role_MT_universal_pair_5_2/splitName"
+msgstr "Rolos de\nSuporte Leves"
+
+msgid "role_SPG_pair_1_1/name"
+msgstr "Ajustes de Suspensão"
+
+msgid "role_SPG_pair_1_1/splitName"
+msgstr "Ajustes de\nSuspensão"
+
+msgid "role_SPG_pair_1_2/name"
+msgstr "Ajuste do Motor"
+
+msgid "role_SPG_pair_1_2/splitName"
+msgstr "Ajuste\ndo Motor"
+
+msgid "role_SPG_pair_2_1/name"
+msgstr "Complexo \"Caçador S\""
+
+msgid "role_SPG_pair_2_1/splitName"
+msgstr "Complexo\n\"Caçador S\""
+
+msgid "role_SPG_pair_2_2/name"
+msgstr "Complexo \"Caçador C\""
+
+msgid "role_SPG_pair_2_2/splitName"
+msgstr "Complexo\n\"Caçador C\""
+
+msgid "role_SPG_pair_3_1/name"
+msgstr "Ajuste Hidráulico (Configuração 1)"
+
+msgid "role_SPG_pair_3_1/splitName"
+msgstr "Ajuste Hidráulico\n(Configuração 1)"
+
+msgid "role_SPG_pair_3_2/name"
+msgstr "Ajuste Hidráulico (Configuração 2)"
+
+msgid "role_SPG_pair_3_2/splitName"
+msgstr "Ajuste Hidráulico\n(Configuração 2)"
+
+msgid "role_SPG_pair_4_1/name"
+msgstr "Ajuste do Mecanismo de Carregamento"
+
+msgid "role_SPG_pair_4_1/splitName"
+msgstr "Ajuste do Mecanismo\nde Carregamento"
+
+msgid "role_SPG_pair_4_2/name"
+msgstr "Ajuste do Mecanismo de Mira"
+
+msgid "role_SPG_pair_4_2/splitName"
+msgstr "Ajuste do Mecanismo\nde Mira"
+
+msgid "role_SPG_pair_5_1/name"
+msgstr "Aumento da Sobrevivência"
+
+msgid "role_SPG_pair_5_1/splitName"
+msgstr "Aumento da\nSobrevivência"
+
+msgid "role_SPG_pair_5_2/name"
+msgstr "Redução de Peso"
+
+msgid "role_SPG_pair_5_2/splitName"
+msgstr "Redução\nde Peso"
+
+msgid "role_heavyTank_pair_1_1/name"
+msgstr "Suspensão Para Todo Tipo de Terreno"
+
+msgid "role_heavyTank_pair_1_1/splitName"
+msgstr "Suspensão Para Todo\nTipo de Terreno"
+
+msgid "role_heavyTank_pair_1_2/name"
+msgstr "Suspensão Leve"
+
+msgid "role_heavyTank_pair_1_2/splitName"
+msgstr "Suspensão\nLeve"
+
+msgid "role_heavyTank_pair_2_1/name"
+msgstr "Ajuste de Paralaxe"
+
+msgid "role_heavyTank_pair_2_1/splitName"
+msgstr "Ajuste de\nParalaxe"
+
+msgid "role_heavyTank_pair_2_2/name"
+msgstr "Equipamento de Mira Polido"
+
+msgid "role_heavyTank_pair_2_2/splitName"
+msgstr "Equipamento de\nMira Polido"
+
+msgid "role_heavyTank_pair_3_1/name"
+msgstr "Isolamento Sonoro"
+
+msgid "role_heavyTank_pair_3_1/splitName"
+msgstr "Isolamento\nSonoro"
+
+msgid "role_heavyTank_pair_3_2/name"
+msgstr "Movimentação Elétrica do Periscópio"
+
+msgid "role_heavyTank_pair_3_2/splitName"
+msgstr "Movimentação Elétrica\ndo Periscópio"
+
+msgid "role_lightTank_pair_1_1/name"
+msgstr "Ajuste de Válvulas (Configuração 1)"
+
+msgid "role_lightTank_pair_1_1/splitName"
+msgstr "Ajuste de Válvulas\n(Configuração 1)"
+
+msgid "role_lightTank_pair_1_2/name"
+msgstr "Ajuste de Válvulas (Configuração 2)"
+
+msgid "role_lightTank_pair_1_2/splitName"
+msgstr "Ajuste de Válvulas\n(Configuração 2)"
+
+msgid "role_lightTank_pair_2_1/name"
+msgstr "Ajuste do Mecanismo de Carregamento"
+
+msgid "role_lightTank_pair_2_1/splitName"
+msgstr "Ajuste do Mecanismo\nde Carregamento"
+
+msgid "role_lightTank_pair_2_2/name"
+msgstr "Ajuste do Mecanismo de Mira"
+
+msgid "role_lightTank_pair_2_2/splitName"
+msgstr "Ajuste do Mecanismo\nde Mira"
+
+msgid "role_lightTank_pair_3_1/name"
+msgstr "Proteção Reforçada Contra Fragmentação"
+
+msgid "role_lightTank_pair_3_1/splitName"
+msgstr "Proteção Reforçada\nContra Fragmentação"
+
+msgid "role_lightTank_pair_3_2/name"
+msgstr "Proteção Leve Contra Fragmentação"
+
+msgid "role_lightTank_pair_3_2/splitName"
+msgstr "Proteção Leve\nContra Fragmentação"
+
+msgid "role_mediumTank_pair_1_1/name"
+msgstr "Aumento da Durabilidade do Módulo"
+
+msgid "role_mediumTank_pair_1_1/splitName"
+msgstr "Aumento da\nDurabilidade do Módulo"
+
+msgid "role_mediumTank_pair_1_2/name"
+msgstr "Pontos de Montagem de Liga Leve"
+
+msgid "role_mediumTank_pair_1_2/splitName"
+msgstr "Pontos de Montagem\nde Liga Leve"
+
+msgid "role_mediumTank_pair_2_1/name"
+msgstr "Ajuste do Braço de Suspensão"
+
+msgid "role_mediumTank_pair_2_1/splitName"
+msgstr "Ajuste do Braço\nde Suspensão"
+
+msgid "role_mediumTank_pair_2_2/name"
+msgstr "Visão Melhorada"
+
+msgid "role_mediumTank_pair_2_2/splitName"
+msgstr "Visão\nMelhorada"
+
+msgid "role_mediumTank_pair_3_1/name"
+msgstr "Ajuste do Turbocompressor"
+
+msgid "role_mediumTank_pair_3_1/splitName"
+msgstr "Ajuste do\nTurbocompressor"
+
+msgid "role_mediumTank_pair_3_2/name"
+msgstr "Revestimento Antirreflexo Para os Faróis"
+
+msgid "role_mediumTank_pair_3_2/splitName"
+msgstr "Revestimento Antirreflexo\nPara os Faróis"
+
+msgid "selfBuff/battleDescr"
+msgstr "Reduz temporariamente a dispersão e o tempo de mira do canhão em %(gunAimingTime)s, e melhora a estabilização e taxa de disparo do mesmo durante%(duration)s s.\n\n*Não afeta o tempo entre o disparo de um projétil e a recarga do próximo projétil no pente, canhão ou contêiner."
+
+msgid "selfBuff/descr"
+msgstr "Reduz temporariamente a dispersão e o tempo de mira do canhão em %(gunAimingTime)s, e melhora a estabilização e taxa de disparo do mesmo durante%(duration)s s.\n\n*Não afeta o tempo entre o disparo de um projétil e a recarga do próximo projétil no pente, canhão ou contêiner."
+
+msgid "selfBuff/longDescr"
+msgstr "{whiteSpanish_Open}Durante %(duration)s s{whiteSpanish_Close} reduz temporariamente a dispersão e o {green_Open}tempo de mira do canhão em%(gunAimingTime)s{green_Close}, e melhora a estabilização e taxa de disparo do mesmo.\n\n*Não afeta o tempo entre o disparo de um projétil e a recarga do próximo projétil no pente, canhão ou contêiner."
+
+msgid "selfBuff/name"
+msgstr "Rastreamento de Alvos"
+
+msgid "selfBuff/shortDescr"
+msgstr "{whiteSpanish_Open}Durante %(duration)s s{whiteSpanish_Close} reduz temporariamente a dispersão e o {green_Open}tempo de mira do canhão em%(gunAimingTime)s{green_Close}, e melhora a estabilização e taxa de disparo do mesmo.\n\n*Não afeta o tempo entre o disparo de um projétil e a recarga do próximo projétil no pente, canhão ou contêiner."
+
+msgid "shells_consumables_switch/name"
+msgstr "Configuração Alternativa: Carregamento Essencial"
+
+msgid "shotPassion/battleDescr"
+msgstr "Durante %(duration)s s, prejudica o tempo de mira e a estabilização do canhão em %(gunAimingTime)s, mas cada disparo penetrante aumenta o dano provocado em %(damageIncreasePerShot)s. O efeito acumula até 5 vezes. Os disparos errados ou sem penetrações reiniciam o acúmulo de dano para 0.\n\n*Os disparos da Descarga Elétrica também contam para seu acúmulo de dano."
+
+msgid "shotPassion/descr"
+msgstr "Durante %(duration)s s, prejudica o tempo de mira e a estabilização do canhão em %(gunAimingTime)s, mas cada disparo penetrante aumenta o dano provocado em %(damageIncreasePerShot)s. O efeito acumula até 5 vezes. Os disparos errados ou sem penetrações reiniciam o acúmulo de dano para 0.\n\n*Os disparos da Descarga Elétrica também contam para seu acúmulo de dano."
+
+msgid "shotPassion/longDescr"
+msgstr "{whiteSpanish_Open}Durante %(duration)s s{whiteSpanish_Close}, prejudica o tempo de mira e a estabilização do canhão {red_Open}em %(gunAimingTime)s{red_Close}, mas cada disparo penetrante aumenta o dano provocado {green_Open}em %(damageIncreasePerShot)s. {green_Close}O efeito acumula{whiteSpanish_Open}até 5 vezes{whiteSpanish_Close}. Os disparos errados ou sem penetrações reiniciam o acúmulo de dano para 0.\n\n*Os disparos da Descarga Elétrica também contam para seu acúmulo de dano."
+
+msgid "shotPassion/name"
+msgstr "Fervor Crescente"
+
+msgid "shotPassion/shortDescr"
+msgstr "{whiteSpanish_Open}Durante %(duration)s s{whiteSpanish_Close}, prejudica o tempo de mira e a estabilização do canhão {red_Open}em %(gunAimingTime)s{red_Close}, mas cada disparo penetrante aumenta o dano provocado {green_Open}em %(damageIncreasePerShot)s. {green_Close}O efeito acumula{whiteSpanish_Open}até 5 vezes{whiteSpanish_Close}. Os disparos errados ou sem penetrações reiniciam o acúmulo de dano para 0.\n\n*Os disparos da Descarga Elétrica também contam para seu acúmulo de dano."
+
+msgid "sixthSenseBattleBooster/action/builtinPerkBooster"
+msgstr "O Sexto Sentido é ativado 1 s antes"
+
+msgid "sixthSenseBattleBooster/description/builtinPerkBooster"
+msgstr "O recurso Sexto Sentido permite ao comandante identificar se o veículo foi detectado pelo inimigo. Ativa 3 s após o seu veículo ser detectado."
+
+msgid "sixthSenseBattleBooster/long_special"
+msgstr "A habilidade Sexto Sentido permite que o comandante determine quando o veículo foi detectado por inimigos durante uma batalha. A diretiva equipada aumenta o efeito."
+
+msgid "sixthSenseBattleBooster/name"
+msgstr "Foco Aumentado"
+
+msgid "sixthSenseBattleBooster/short_special"
+msgstr "Aumenta o efeito do Sexto Sentido, um recurso do comandante"
+
+msgid "smallMedkit/always"
+msgstr "?empty?"
+
+msgid "smallMedkit/descr"
+msgstr "Cura todos os tripulantes feridos e remove o efeito de atordoamento."
+
+msgid "smallMedkit/long_special"
+msgstr "Cura todos os tripulantes feridos e remove o efeito do atordoamento quando ativado. Compatível com todos os tipos de veículos de qualquer nação. O consumível é removido após a batalha caso seja utilizado ao menos uma vez."
+
+msgid "smallMedkit/name"
+msgstr "Kit Pequeno de Primeiros-Socorros"
+
+msgid "smallMedkit/onUse"
+msgstr "Cura todos os tripulantes feridos e remove o efeito de atordoamento."
+
+msgid "smallMedkit/removingStun/onUse"
+msgstr "Cura todos os tripulantes feridos e remove o efeito de atordoamento."
+
+msgid "smallMedkit/restriction"
+msgstr "?empty?"
+
+msgid "smallMedkit/short_special"
+msgstr "Cura todos os tripulantes feridos e remove o efeito do atordoamento."
+
+msgid "smallRepairkit/always"
+msgstr "?empty?"
+
+msgid "smallRepairkit/descr"
+msgstr "Reparo de todos os módulos danificados."
+
+msgid "smallRepairkit/long_special"
+msgstr "Conserta todos os módulos danificados quando ativado. Compatível com todos os tipos de veículos e nações. O consumível é removido após a batalha caso seja utilizado ao menos uma vez."
+
+msgid "smallRepairkit/name"
+msgstr "Kit Pequeno de Conserto"
+
+msgid "smallRepairkit/onUse"
+msgstr "Conserta todos os módulos danificados. Compatível com todos os tipos de veículos e nações. O consumível é removido após a batalha caso seja utilizado ao menos uma vez."
+
+msgid "smallRepairkit/restriction"
+msgstr "?empty?"
+
+msgid "smallRepairkit/short_special"
+msgstr "Conserta todos os módulos danificados."
+
+msgid "smoke/longDescr"
+msgstr "Produz uma cortina de fumaça que esconde todos os veículos dentro e por detrás da fumaça. Veículos inimigos dentro da fumaça têm o alcance de visão e o desempenho da tripulação diminuídos."
+
+msgid "smoke/name"
+msgstr "Cortina de Fumaça"
+
+msgid "smoke/shortDescr"
+msgstr "A fumaça oculta os veículos nela/atrás dela. Os inimigos dentro dela terão menor visão e performance."
+
+msgid "smoothDrivingBattleBooster/action/boost"
+msgstr "Dobra o efeito da habilidade Direção Suave"
+
+msgid "smoothDrivingBattleBooster/action/perk"
+msgstr "Fornece a habilidade Direção Suave treinada em 100%"
+
+msgid "smoothDrivingBattleBooster/long_special"
+msgstr "A habilidade Direção Suave melhora a precisão ao disparar em movimento durante uma batalha. Se a habilidade estiver treinada em 100%, a diretiva equipada aumenta seu efeito; caso contrário, a diretiva fornece a habilidade treinada em 100%."
+
+msgid "smoothDrivingBattleBooster/name"
+msgstr "Complexidade da Caixa de Marchas"
+
+msgid "smoothDrivingBattleBooster/short_special"
+msgstr "Fornece a habilidade Direção Suave treinada em 100% ou aumenta seu efeito"
+
+msgid "smoothTurretBattleBooster/action/boost"
+msgstr "Dobra o efeito da habilidade Tiro Rápido"
+
+msgid "smoothTurretBattleBooster/action/perk"
+msgstr "Fornece a habilidade Tiro Rápido treinada em 100%"
+
+msgid "smoothTurretBattleBooster/long_special"
+msgstr "A habilidade Tiro Rápido melhora a precisão durante a rotação da torre em uma batalha. Se a habilidade estiver treinada em 100%, a diretiva equipada aumenta seu efeito; caso contrário, a diretiva fornece a habilidade treinada em 100%."
+
+msgid "smoothTurretBattleBooster/name"
+msgstr "Mão Firme"
+
+msgid "smoothTurretBattleBooster/short_special"
+msgstr "Fornece a habilidade Tiro Rápido treinada em 100% ou aumenta seu efeito"
+
+msgid "spawn_kamikaze/battleDescr"
+msgstr "Implanta uma mina autopropulsora que vai perseguir o inimigo mais próximo até %(botLifeTime)s s e provocar 400 a 600 HP de dano dentro de um curto alcance quando detonada.\n\n*Os inimigos podem destruir sua Bola de Fogo ao disparar e bater nela. A bola de fogo provoca dano por impacto adicional ao encostar no alvo."
+
+msgid "spawn_kamikaze/descr"
+msgstr "Implanta uma mina autopropulsora que vai perseguir o inimigo mais próximo até %(botLifeTime)s s e provocar 400 a 600 HP de dano dentro de um curto alcance quando detonada.\n\n*Os inimigos podem destruir sua Bola de Fogo ao disparar e bater nela. A bola de fogo provoca dano por impacto adicional ao encostar no alvo."
+
+msgid "spawn_kamikaze/longDescr"
+msgstr "Implanta uma mina autopropulsora que vai perseguir o inimigo mais próximo até {whiteSpanish_Open}%(botLifeTime)s s {whiteSpanish_Close} e provocar {whiteSpanish_Open}400 a 600 HP de dano{whiteSpanish_Close} dentro de um curto alcance quando detonada.\n\n*Os inimigos podem destruir sua Bola de Fogo ao disparar e bater nela. A bola de fogo provoca dano por impacto adicional ao encostar no alvo."
+
+msgid "spawn_kamikaze/name"
+msgstr "Bola de Fogo"
+
+msgid "spawn_kamikaze/shortDescr"
+msgstr "Implanta uma mina autopropulsora que vai perseguir o inimigo mais próximo até {whiteSpanish_Open}%(botLifeTime)s s {whiteSpanish_Close} e provocar {whiteSpanish_Open}400 a 600 HP de dano{whiteSpanish_Close} dentro de um curto alcance quando detonada.\n\n*Os inimigos podem destruir sua Bola de Fogo ao disparar e bater nela. A bola de fogo provoca dano por impacto adicional ao encostar no alvo."
+
+msgid "stealthRadar/descr"
+msgstr "Fornece um bônus para a ocultação e para o alcance de visão. Reduz a ocultação de veículos inimigos."
+
+msgid "stealthRadar/long_descr"
+msgstr "Aumenta o parâmetro de ocultação do seu veículo por %(activationDelay)s s e após isso, para e reduz a ocultação de veículos inimigos. Fornece um bônus passivo para o alcance de visão e para detectar minas inimigas. Não funciona durante o movimento do veículo."
+
+msgid "stealthRadar/name"
+msgstr "Sentinela"
+
+msgid "stealthRadar/short_descr"
+msgstr "Fornece um bônus para a ocultação e para o alcance de visão. Reduz a ocultação de veículos inimigos."
+
+msgid "stereoscope/battleDescr"
+msgstr "Aumenta o alcance da visão de um veículo estacionário 3s após ele parar (até 445 m)"
+
+msgid "stereoscope/long_special"
+msgstr "Um bom alcance de visão fornece uma sólida vantagem para veículos em batalha. Esse tipo de equipamento é benéfico para os caça-tanques com perfil baixo e canhões precisos. É ativado 3 segundos depois que o veículo para de se mover."
+
+msgid "stereoscope/name"
+msgstr "Telescópio Binocular"
+
+msgid "stereoscope_tier1/name"
+msgstr "Telescópio Binocular Classe 1"
+
+msgid "stereoscope_tier2/name"
+msgstr "Telescópio Binocular Classe 2"
+
+msgid "stereoscope_tier3/name"
+msgstr "Telescópio Binocular Classe 3"
+
+msgid "suspension_elements_replace_1/name"
+msgstr "Substituição dos Componentes da Suspensão (Tipo 1)"
+
+msgid "suspension_elements_replace_2/name"
+msgstr "Substituição dos Componentes da Suspensão (Tipo 2)"
+
+msgid "swing_mechanisms_lapping_1/name"
+msgstr "Mecanismo de Rotação Polido (Tipo 1)"
+
+msgid "tankRammer/name"
+msgstr "Percursor de Projétil"
+
+msgid "tankRammer_tier1/name"
+msgstr "Percursor de Projétil Classe 1"
+
+msgid "tankRammer_tier2/name"
+msgstr "Percursor de Projétil Classe 2"
+
+msgid "thunderStrike/battleDescr"
+msgstr "Cria uma zona onde uma série de %(thunderCount)s descargas elétricas são liberadas com alta frequência. Cada descarga provoca %(damage)s HP de dano e reduz temporariamente a mobilidade de todos os veículos inimigos dentro da área de efeito da habilidade.\n\n*Há um atraso de %(delay)s s entre a ativação da habilidade e a primeira descarga. Seu efeito negativo pode ser removido com um Kit de Conserto."
+
+msgid "thunderStrike/descr"
+msgstr "Cria uma zona onde uma série de %(thunderCount)s descargas elétricas são liberadas com alta frequência. Cada descarga provoca %(damage)s HP de dano e reduz temporariamente a mobilidade de todos os veículos inimigos dentro da área de efeito da habilidade.\n\n*Há um atraso de %(delay)s s entre a ativação da habilidade e a primeira descarga. Seu efeito negativo pode ser removido com um Kit de Conserto."
+
+msgid "thunderStrike/longDescr"
+msgstr "Cria uma zona onde uma série de %(thunderCount)s descargas elétricas são liberadas com alta frequência. Cada descarga provoca {whiteSpanish_Open}%(damage)s HP de dano {whiteSpanish_Close} e reduz temporariamente a mobilidade de todos os veículos inimigos dentro da área de efeito da habilidade.\n\n*Há um atraso de %(delay)s s entre a ativação da habilidade e a primeira descarga. Seu efeito negativo pode ser removido com um Kit de Conserto."
+
+msgid "thunderStrike/name"
+msgstr "Descarga Elétrica"
+
+msgid "thunderStrike/shortDescr"
+msgstr "Cria uma zona onde uma série de %(thunderCount)s descargas elétricas são liberadas com alta frequência. Cada descarga provoca {whiteSpanish_Open}%(damage)s HP de dano {whiteSpanish_Close} e reduz temporariamente a mobilidade de todos os veículos inimigos dentro da área de efeito da habilidade.\n\n*Há um atraso de %(delay)s s entre a ativação da habilidade e a primeira descarga. Seu efeito negativo pode ser removido com um Kit de Conserto."
+
+msgid "trappoint/battleDescr"
+msgstr "Durante %(duration)s s, cria uma área que reduz a mobilidade em %(vehicleMaxSpeed)s, aumentando o tempo de recarga e tempo de mira em %(gunReloadTime)s para todos os veículos inimigos dentro dela."
+
+msgid "trappoint/descr"
+msgstr "Durante %(duration)s s, cria uma área que reduz os parâmetros de mobilidade em %(vehicleMaxSpeed)s e aumenta o tempo de recarga, e tempo de mira em %(gunReloadTime)s para todos os veículos inimigos dentro dela."
+
+msgid "trappoint/long_special"
+msgstr "{whiteSpanish_Open}Durante %(duration)s s{whiteSpanish_Close}, cria uma área que reduz os parâmetros de mobilidade {whiteSpanish_Open}em %(vehicleMaxSpeed)s{whiteSpanish_Close} e aumenta o tempo de recarga, e tempo de mira {whiteSpanish_Open}em %(gunReloadTime)s{whiteSpanish_Close} para todos os veículos inimigos dentro dela."
+
+msgid "trappoint/name"
+msgstr "Armadilha"
+
+msgid "trappoint/short_special"
+msgstr "{whiteSpanish_Open}Durante %(duration)s s{whiteSpanish_Close}, cria uma área que reduz a mobilidade {whiteSpanish_Open}em %(vehicleMaxSpeed)s{whiteSpanish_Close}, aumentando o tempo de recarga e tempo de mira {whiteSpanish_Open}em %(gunReloadTime)s{whiteSpanish_Close} para todos os veículos inimigos dentro dela."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/long_special"
+msgstr "A eficácia depende do tipo de veículo. Aumenta a ocultação de um veículo parado ou em movimento. Útil para detecção ativa, bem como para detecção passiva em posições de risco."
+
+msgid "trophyBasicAdditionalInvisibilityDevice/name"
+msgstr "Sistema de Escapamento de Recompensa"
+
+msgid "trophyBasicAdditionalInvisibilityDevice/short_special"
+msgstr "Aumenta a ocultação de um veículo parado ou em movimento."
+
+msgid "trophyBasicAimDrives/name"
+msgstr "Mira do Canhão de Recompensa"
+
+msgid "trophyBasicAimDrives/short_special"
+msgstr "Aumenta a velocidade de mira do canhão para disparar com precisão mais rapidamente."
+
+msgid "trophyBasicAimingStabilizer/name"
+msgstr "Estabilizador de Recompensa"
+
+msgid "trophyBasicAimingStabilizer/short_special"
+msgstr "Reduz a dispersão do canhão ao disparar em movimento e durante a rotação do veículo."
+
+msgid "trophyBasicCoatedOptics/name"
+msgstr "Lente de Recompensa"
+
+msgid "trophyBasicCoatedOptics/short_special"
+msgstr "Amplia o alcance de visão de veículos parados e em movimento."
+
+msgid "trophyBasicExtraHealthReserve/additional_descr"
+msgstr "Restaura totalmente os pontos de vida da suspensão após os reparos."
+
+msgid "trophyBasicExtraHealthReserve/effect/chassisRestoration"
+msgstr "Restaura a suspensão após os reparos."
+
+msgid "trophyBasicExtraHealthReserve/long_special"
+msgstr "Aumenta a durabilidade do veículo, a capacidade de carga e a velocidade de reparo. Reduz os danos ao casco causados por danos na suspensão durante o impacto. Restaura totalmente os pontos de vida da suspensão após os reparos. Reduz a chance de destruição de uma esteira ao receber danos, permitindo que seu veículo permaneça em movimento."
+
+msgid "trophyBasicExtraHealthReserve/name"
+msgstr "Durabilidade Melhorada de Recompensa"
+
+msgid "trophyBasicExtraHealthReserve/short_special"
+msgstr "Aumenta a durabilidade do veículo e protege a suspensão"
+
+msgid "trophyBasicImprovedConfiguration/name"
+msgstr "Tecnologia de Proteção de Recompensa"
+
+msgid "trophyBasicImprovedRotationMechanism/name"
+msgstr "Mecanismo de Rotação de Recompensa"
+
+msgid "trophyBasicImprovedSights/long_special"
+msgstr "Reduz o tamanho do círculo de mira para aumentar a precisão de uma mira ou um canhão totalmente mirado. Como resultado, seu canhão tem mais chances de atingir o alvo."
+
+msgid "trophyBasicImprovedSights/name"
+msgstr "Mira de Recompensa"
+
+msgid "trophyBasicImprovedSights/short_special"
+msgstr "Reduz a dispersão do canhão"
+
+msgid "trophyBasicImprovedVentilation/name"
+msgstr "Ventilação de Recompensa"
+
+msgid "trophyBasicImprovedVentilation/short_special"
+msgstr "Melhora a eficiência da tripulação, que tem um efeito positivo na maioria das características do veículo."
+
+msgid "trophyBasicTankRammer/name"
+msgstr "Percursor de Recompensa"
+
+msgid "trophyBasicTankRammer/short_special"
+msgstr "Acelera o carregamento do canhão. Sem restrições às classes."
+
+msgid "trophyBasicTurbocharger/long_special"
+msgstr "Aumenta a potência do motor, proporcionando melhor aceleração, manobras e subida das encostas do terreno. Aumenta a velocidade máxima e ré do veículo, permitindo que você tome posições e escape mais rapidamente do fogo inimigo."
+
+msgid "trophyBasicTurbocharger/name"
+msgstr "Turbocompressor de Recompensa"
+
+msgid "trophyBasicTurbocharger/short_special"
+msgstr "Aumenta a potência do motor e a velocidade máxima"
+
+msgid "trophyOptics/descr"
+msgstr "{colorTagOpen}+10%{colorTagClose} {arrow} para o alcance de visão, até 445m"
+
+msgid "trophyOptics/name"
+msgstr "Lente de Recompensa"
+
+msgid "trophyUpgradedAdditionalInvisibilityDevice/name"
+msgstr "Sistema de Escapamento de Recompensa"
+
+msgid "trophyUpgradedAimDrives/name"
+msgstr "Mira do Canhão de Recompensa"
+
+msgid "trophyUpgradedAimingStabilizer/name"
+msgstr "Estabilizador de Recompensa"
+
+msgid "trophyUpgradedCoatedOptics/name"
+msgstr "Lente de Recompensa"
+
+msgid "trophyUpgradedExtraHealthReserve/additional_descr"
+msgstr "Restaura totalmente os pontos de vida da suspensão após os reparos."
+
+msgid "trophyUpgradedExtraHealthReserve/effect/chassisRestoration"
+msgstr "Restaura a suspensão após os reparos."
+
+msgid "trophyUpgradedExtraHealthReserve/name"
+msgstr "Durabilidade Melhorada de Recompensa"
+
+msgid "trophyUpgradedImprovedConfiguration/name"
+msgstr "Tecnologia de Proteção de Recompensa"
+
+msgid "trophyUpgradedImprovedRotationMechanism/name"
+msgstr "Mecanismo de Rotação de Recompensa"
+
+msgid "trophyUpgradedImprovedSights/name"
+msgstr "Mira de Recompensa"
+
+msgid "trophyUpgradedImprovedVentilation/name"
+msgstr "Ventilação de Recompensa"
+
+msgid "trophyUpgradedTankRammer/name"
+msgstr "Percursor de Recompensa"
+
+msgid "trophyUpgradedTurbocharger/name"
+msgstr "Turbocompressor de Recompensa"
+
+msgid "turbocharger/long_special"
+msgstr "Aumenta a potência do motor, proporcionando melhor aceleração, manobras e subida das encostas do terreno. Aumenta a velocidade máxima e ré do veículo, permitindo que você tome posições e escape mais rapidamente do fogo inimigo."
+
+msgid "turbocharger/name"
+msgstr "Turbocompressor"
+
+msgid "turbocharger/short_special"
+msgstr "Aumenta a potência do motor e a velocidade máxima"
+
+msgid "turbochargerBattleBooster/descr"
+msgstr "%s para a potência do motor com Turbocompressor (qualquer classe), Turbocompressor de Recompensa, Compressor Melhorado ou Sistema de Melhoria de Mobilidade."
+
+msgid "turbochargerBattleBooster/gain/deluxe"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/gain/simple"
+msgstr "+4%"
+
+msgid "turbochargerBattleBooster/long_special"
+msgstr "Melhora o efeito do Turbocompressor (qualquer classe), Turbocompressor de Recompensa ou Compressor Melhorado para uma batalha. A diretiva só funcionará se você tiver o equipamento correspondente montado."
+
+msgid "turbochargerBattleBooster/name"
+msgstr "Substituição do Filtro de Combustível"
+
+msgid "turbochargerBattleBooster/short_special"
+msgstr "Aumenta a potência do motor"
+
+msgid "turbocharger_tier1/name"
+msgstr "Turbocompressor Classe 1"
+
+msgid "turbocharger_tier2/name"
+msgstr "Turbocompressor Classe 2"
+
+msgid "turbocharger_tier3/name"
+msgstr "Turbocompressor Classe 3"
+
+msgid "virtuosoBattleBooster/action/boost"
+msgstr "Dobra o efeito da habilidade Rotacionador"
+
+msgid "virtuosoBattleBooster/action/perk"
+msgstr "Fornece a habilidade Rotacionador treinada em 100%"
+
+msgid "virtuosoBattleBooster/long_special"
+msgstr "A habilidade Rotacionador aumenta a velocidade de rotação de veículos parados e em movimento durante uma batalha. Se a habilidade estiver treinada em 100%, a diretiva equipada aumenta seu efeito; caso contrário, a diretiva fornece a habilidade treinada em 100%."
+
+msgid "virtuosoBattleBooster/name"
+msgstr "Curso de Combate"
+
+msgid "virtuosoBattleBooster/short_special"
+msgstr "Fornece a habilidade Rotacionador treinada em 100% ou aumenta seu efeito"

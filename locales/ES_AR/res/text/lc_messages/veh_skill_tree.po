@@ -1,0 +1,1124 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "comparison/fullUpgrades/title"
+msgstr "Investigado por completo"
+
+msgid "comparison/partialUpgrades/title"
+msgstr "Actual"
+
+msgid "comparison/title"
+msgstr "Mejoras"
+
+msgid "comparison/tooltip/body"
+msgstr "La pantalla de configuración muestra cómo las mejoras afectan las características del vehículo. Selecciona \"Investigado por completo\" para ver el efecto total de todas las mejoras disponibles."
+
+msgid "comparison/tooltip/header"
+msgstr "Mejoras"
+
+msgid "comparison/zeroUpgrades/title"
+msgstr "No investigado"
+
+msgid "dialog/altConfiguration/description"
+msgstr "Mantén activadas estas opciones si quieres cambiar las configuraciones de la selección antes de la batalla."
+
+msgid "dialog/altConfiguration/info"
+msgstr "Puedes cambiar la configuración en cualquier momento."
+
+msgid "dialog/altConfiguration/optDevBoostersSwitch"
+msgstr "Selección auxiliar"
+
+msgid "dialog/altConfiguration/shellsConsumablesSwitch"
+msgstr "Selección esencial"
+
+msgid "dialog/altConfiguration/title"
+msgstr "Configuración alternativa"
+
+msgid "dialog/common/accept"
+msgstr "Confirmar"
+
+msgid "dialog/confirmation/researchPerks"
+msgid_plural "plural/dialog/confirmation/researchPerks"
+msgstr[0] "%(perks)s"
+msgstr[1] "%(perks)s nodos"
+msgstr[2] "%(perks)s nodos"
+
+msgid "footer/button/label"
+msgstr "Investigar"
+
+msgid "footer/description/text/allResearched"
+msgstr "Ya investigaste todos los nodos. Ahora tienes acceso al sistema de recompensas de élite."
+
+msgid "footer/description/text/emergencyModeEnabled"
+msgstr "WG Wallet no está disponible en este momento. Pedimos disculpas por las molestias ocasionadas."
+
+msgid "footer/description/text/inBattle"
+msgstr "Nodo no disponible. El vehículo está en batalla."
+
+msgid "footer/description/text/inFormation"
+msgstr "Nodo no disponible. El vehículo está en una unidad táctica."
+
+msgid "footer/description/text/needsRepair"
+msgstr "Nodo no disponible. El vehículo necesita reparaciones."
+
+msgid "footer/description/text/notInInventory"
+msgstr "Debes tener este vehículo para poder investigar sus nodos."
+
+msgid "footer/description/text/researchAvailable"
+msgstr "Elige un nodo o una rama de nodos para investigar."
+
+msgid "footer/text/amountItems"
+msgstr "{{amount}} nodos"
+
+msgid "footer/text/selectedItem"
+msgstr "Seleccionado: {{selectedItem}}"
+
+msgid "footer/tooltip/body/emergencyModeEnabled"
+msgstr "WG Wallet no está disponible en este momento. Pedimos disculpas por las molestias ocasionadas."
+
+msgid "footer/tooltip/body/inBattle"
+msgstr "Nodo no disponible. El vehículo está en batalla."
+
+msgid "footer/tooltip/body/inFormation"
+msgstr "Nodo no disponible. El vehículo está en una unidad táctica."
+
+msgid "footer/tooltip/body/needsRepair"
+msgstr "Nodo no disponible. El vehículo necesita reparaciones."
+
+msgid "footer/tooltip/body/notEnoughExp"
+msgstr "No tienes suficiente XP para investigar los nodos seleccionados."
+
+msgid "footer/tooltip/body/researchInProgress"
+msgstr "Investigación en progreso, espera..."
+
+msgid "footer/tooltip/header/emergencyModeEnabled"
+msgstr "No disponible"
+
+msgid "footer/tooltip/header/info"
+msgstr "Nodos elegidos"
+
+msgid "footer/tooltip/listSelectedPerks"
+msgid_plural "plural/footer/tooltip/listSelectedPerks"
+msgstr[0] "• {{selectedPerks}},"
+msgstr[1] "• {{selectedPerks}}."
+msgstr[2] "• {{selectedPerks}}."
+
+msgid "intro/button"
+msgstr "¡Afirmativo!"
+
+msgid "intro/button/tooltip"
+msgstr "Sobre las mejoras"
+
+msgid "intro/improvements/description"
+msgstr "Obtén XP de combate para desbloquear nodos que mejoran las características de tu vehículo. Las características finales podrán ser mejores o peores que los valores indicados, dados los modificadores aditivos y multiplicativos adicionales que se aplican luego de las bonificaciones del nodo."
+
+msgid "intro/improvements/title"
+msgstr "Cómo funciona"
+
+msgid "intro/progression/description"
+msgstr "Las mejoras, que solo encontrarás para vehículos de nivel XI, permiten mejorar aún más las características de tus vehículos."
+
+msgid "intro/progression/title"
+msgstr "Mejoras"
+
+msgid "intro/vanity/description"
+msgstr "Luego de investigar todos los nodos, accederás a las recompensas de élite, que podrás recoger tras alcanzar ciertos niveles de élite. ¡Las recompensas incluyen un estilo volumétrico único, un registrador de estadísticas y una manga de cañón!"
+
+msgid "intro/vanity/title"
+msgstr "Recompensas de élite"
+
+msgid "kpi/bonus/valueTypes/cnt"
+msgstr " objeto/s"
+
+msgid "kpi/bonus/valueTypes/default"
+msgstr "%"
+
+msgid "kpi/bonus/valueTypes/gps"
+msgstr " grados/s"
+
+msgid "kpi/bonus/valueTypes/grads"
+msgstr " grados"
+
+msgid "kpi/bonus/valueTypes/m"
+msgstr " m"
+
+msgid "kpi/bonus/valueTypes/mm"
+msgstr " mm"
+
+msgid "kpi/bonus/valueTypes/mph"
+msgstr " km/h"
+
+msgid "kpi/bonus/valueTypes/mps"
+msgstr " m/s"
+
+msgid "kpi/bonus/valueTypes/p"
+msgstr " cv"
+
+msgid "kpi/bonus/valueTypes/s"
+msgstr " s"
+
+msgid "kpi/bonus/valueTypes/val"
+msgstr " PV"
+
+msgid "notifications/perkAvailable/disabledButtonTooltip"
+msgstr "Esta funcionalidad no está disponible actualmente."
+
+msgid "notifications/perkAvailable/goToProgression"
+msgstr "Ir a mejoras"
+
+msgid "notifications/perkAvailable/title"
+msgstr "¡Tienes suficiente XP para mejorar tu vehículo!"
+
+msgid "rewardScreen/button/accept"
+msgstr "Afirmativo"
+
+msgid "rewardScreen/button/check"
+msgstr "Ver en Exterior"
+
+msgid "rewardScreen/rewardName"
+msgstr "{{rewardName}} {{rarity}}"
+
+msgid "rewardScreen/subtitle"
+msgstr "Por alcanzar el nivel de élite {{prestigeLevel}} en el {{type}} {{level}} {{name}}"
+
+msgid "rewardScreen/title"
+msgstr "RECOMPENSA DE ÉLITE"
+
+msgid "tooltips/backToMainProgressionEntryPoint/text"
+msgstr "Las mejoras, que solo encontrarás para vehículos de nivel XI, permiten mejorar aún más las características de tus vehículos."
+
+msgid "tooltips/backToMainProgressionEntryPoint/title"
+msgstr "Mejoras"
+
+msgid "tooltips/common/cost"
+msgstr "Costo: {{amount}}"
+
+msgid "tooltips/description/HEDamageAbsorption"
+msgstr "Mejora la capacidad de tu vehículo para absorber el daño de proyectiles HE y el daño causado por embestidas."
+
+msgid "tooltips/description/HEShellDamage"
+msgstr "Aumenta el daño infligido por proyectiles HE."
+
+msgid "tooltips/description/HEshellVelocity"
+msgstr "Aumenta la velocidad de los proyectiles HE."
+
+msgid "tooltips/description/a179_mechanic_0"
+msgstr "Reduce un {colorTagOpen}{value}%{colorTagClose} la dispersión del segundo disparo cuando se activa el modo Ráfaga."
+
+msgid "tooltips/description/a179_mechanic_1"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo de recuperación entre disparos cuando se activa el modo Ráfaga."
+
+msgid "tooltips/description/a182_mechanic_0"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la bonificación de la velocidad de recarga por nivel de eficiencia."
+
+msgid "tooltips/description/a182_mechanic_1"
+msgstr "Extiende en {colorTagOpen}{value} s{colorTagClose} la duración de los niveles de eficiencia de recarga."
+
+msgid "tooltips/description/a182_mechanic_2"
+msgstr "Extiende en {colorTagOpen}{value} s{colorTagClose} la duración de los niveles de eficiencia de recarga."
+
+msgid "tooltips/description/a182_mechanic_3"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la bonificación de la velocidad de recarga por nivel de eficiencia."
+
+msgid "tooltips/description/a183_mechanic_0"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo de recuperación para volver a usar la mecánica."
+
+msgid "tooltips/description/a183_mechanic_1"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo de recuperación para volver a usar la mecánica."
+
+msgid "tooltips/description/a183_mechanic_2"
+msgstr "Extiende en {colorTagOpen}{value} s{colorTagClose} la duración de la mecánica."
+
+msgid "tooltips/description/a183_mechanic_3"
+msgstr "Extiende en {colorTagOpen}{value} s{colorTagClose} la duración de la mecánica."
+
+msgid "tooltips/description/a195_mechanic_1"
+msgstr "Reduce en un {colorTagOpen}{value}%{colorTagClose} la dispersión a 100 m en disparos de carga individual."
+
+msgid "tooltips/description/a195_mechanic_2"
+msgstr "El daño infligido con disparos de carga individual con proyectiles estándar y especiales aumenta en {colorTagOpen}{value} PV{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_3"
+msgstr "Aumenta la velocidad de proyectil en los disparos de carga individual en {colorTagOpen}{value} m/s{colorTagClose}."
+
+msgid "tooltips/description/a195_mechanic_4"
+msgstr "Reduce en un {colorTagOpen}{value}%{colorTagClose} el tiempo de recarga de los disparos de carga individual."
+
+msgid "tooltips/description/advancedChassisProtection"
+msgstr "Aumenta los puntos de vida de la suspensión y la velocidad de reparación."
+
+msgid "tooltips/description/advancedModuleAndCrewProtection"
+msgstr "Reduce la penalización cuando el compartimiento de municiones del vehículo o el motor reciben daño. También reduce las probabilidades de que los tripulantes sufran heridas cuando el vehículo recibe daño."
+
+msgid "tooltips/description/aimingCircleSize"
+msgstr "Reduce el tamaño del círculo de apuntamiento tras disparar."
+
+msgid "tooltips/description/aimingTime"
+msgstr "Reduce el tiempo de apuntamiento de tu vehículo."
+
+msgid "tooltips/description/aimingTimeSalvo"
+msgstr "Reduce el tiempo de apuntamiento de tu vehículo cuando se activa el modo Disparo individual."
+
+msgid "tooltips/description/allShellDamage"
+msgstr "Aumenta el daño infligido por todos los tipos de proyectiles."
+
+msgid "tooltips/description/allShellsVelocity"
+msgstr "Aumenta la velocidad de todos tus proyectiles."
+
+msgid "tooltips/description/ammoRackHP"
+msgstr "Aumenta la cantidad de daño que puede recibir el compartimento de municiones antes de que lo destruyan."
+
+msgid "tooltips/description/ammoRackPenalty"
+msgstr "Reduce la penalización cuando el compartimento de municiones del vehículo recibe daño."
+
+msgid "tooltips/description/basicShellDamage"
+msgstr "Aumenta el daño infligido por proyectiles estándar."
+
+msgid "tooltips/description/ch67_mechanic_0"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la velocidad de rotación cuando los propulsores están activos."
+
+msgid "tooltips/description/ch67_mechanic_1"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la velocidad máxima cuando los propulsores están activos."
+
+msgid "tooltips/description/ch67_mechanic_2"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo de recuperación para que los propulsores se recarguen completamente."
+
+msgid "tooltips/description/ch67_mechanic_3"
+msgstr "Extiende en {colorTagOpen}{value} s{colorTagClose} la duración máxima del propulsor."
+
+msgid "tooltips/description/ch70_mechanic_0"
+msgstr "Aumenta en un {colorTagOpen}{value}%{colorTagClose} la potencia del motor que brindan los impulsores."
+
+msgid "tooltips/description/ch70_mechanic_1"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo de recuperación para volver a usar los impulsores."
+
+msgid "tooltips/description/ch70_mechanic_2"
+msgstr "Aumenta en un {colorTagOpen}{value}%{colorTagClose} la potencia del motor que brindan los impulsores."
+
+msgid "tooltips/description/ch70_mechanic_3"
+msgstr "Aumenta a {colorTagOpen}{value}{colorTagClose} la cantidad máxima de veces que se pueden usar los impulsores en una misma batalla."
+
+msgid "tooltips/description/crewProtection"
+msgstr "Reduce las probabilidades de que los tripulantes sufran heridas cuando el vehículo recibe daño."
+
+msgid "tooltips/description/damagedGunDispersion"
+msgstr "Reduce la dispersión cuando tu cañón recibe daño."
+
+msgid "tooltips/description/driveModeForwardSpeed"
+msgstr "Aumenta la velocidad hacia delante del vehículo cuando se activa el modo Viaje."
+
+msgid "tooltips/description/driveModeReverseSpeed"
+msgstr "Aumenta la velocidad de reversa del vehículo cuando se activa el modo Viaje."
+
+msgid "tooltips/description/enginePenalty"
+msgstr "Reduce la penalización cuando el motor del vehículo recibe daño."
+
+msgid "tooltips/description/enginePower"
+msgstr "Aumenta la potencia del motor, lo que permite al vehículo acelerar y subir colinas con mayor velocidad."
+
+msgid "tooltips/description/f135_mechanic_0"
+msgstr "Reduce un {colorTagOpen}{value}%{colorTagClose} el tiempo de inicio de la recarga."
+
+msgid "tooltips/description/f135_mechanic_1"
+msgstr "Reduce un {colorTagOpen}{value}%{colorTagClose} la demora antes de disparar cuando se interrumpe la recarga."
+
+msgid "tooltips/description/f136_mechanic_0"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} la penalización al tiempo de recarga después de disparar el último proyectil en el cargador."
+
+msgid "tooltips/description/f143_mechanic_0"
+msgstr "Reduce en un {colorTagOpen}{value0}%{colorTagClose} la penalización a la dispersión a 100 m y en un {colorTagOpen}{value1}%{colorTagClose} la penalización al tiempo de apuntamiento cuando se supera el límite."
+
+msgid "tooltips/description/f143_mechanic_1"
+msgstr "Aumenta la velocidad de acumulación de carga en un {colorTagOpen}{value} %/s{colorTagClose}."
+
+msgid "tooltips/description/f143_mechanic_2"
+msgstr "Reduce en un {colorTagOpen}{value}%{colorTagClose} la cantidad de carga perdida después de disparar."
+
+msgid "tooltips/description/f143_mechanic_3"
+msgstr "Aumenta la subida de daño poslímite en {colorTagOpen}{value0} PV{colorTagClose} y la bonificación al daño máximo poslímite en un {colorTagOpen}{value1}%{colorTagClose}."
+
+msgid "tooltips/description/forwardSpeed"
+msgstr "Aumenta la velocidad del vehículo cuando avanza."
+
+msgid "tooltips/description/g185_mechanic_0"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la bonificación a la dispersión por nivel de precisión."
+
+msgid "tooltips/description/g185_mechanic_1"
+msgstr "Aumenta en {colorTagOpen}{value} km/h{colorTagClose} la velocidad máxima a la que se pueden obtener niveles de precisión."
+
+msgid "tooltips/description/g185_mechanic_2"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo que se necesita para alcanzar el siguiente nivel de precisión."
+
+msgid "tooltips/description/g185_mechanic_3"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la bonificación a la estabilización cuando se alcanza el nivel de precisión máximo."
+
+msgid "tooltips/description/g187_mechanic_0"
+msgstr "Reduce en un {colorTagOpen}{value}%{colorTagClose} el tiempo de recarga de los cañones auxiliares."
+
+msgid "tooltips/description/g187_mechanic_1"
+msgstr "Reduce en un {colorTagOpen}{value}%{colorTagClose} el tiempo de recarga de los cañones auxiliares."
+
+msgid "tooltips/description/g188_mechanic_0"
+msgstr "Aumenta en {colorTagOpen}{value} s{colorTagClose} el tiempo que un vehículo enemigo marcado permanece detectado."
+
+msgid "tooltips/description/g188_mechanic_1"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo de recuperación para volver a usar la mecánica."
+
+msgid "tooltips/description/g188_mechanic_2"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} la recuperación inicial antes de volver a usar la mecánica."
+
+msgid "tooltips/description/g188_mechanic_3"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la cantidad de daño adicional que infligen los proyectiles aliados a los vehículos enemigos."
+
+msgid "tooltips/description/g189_mechanic_0"
+msgstr "Aumenta en {colorTagOpen}{value} km/h{colorTagClose} la velocidad máxima a la que se puede provocar precalentamiento."
+
+msgid "tooltips/description/g189_mechanic_1"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la bonificación a la dispersión máxima de precalentamiento."
+
+msgid "tooltips/description/g189_mechanic_2"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la bonificación al daño máximo de precalentamiento."
+
+msgid "tooltips/description/g189_mechanic_3"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo que se necesita para alcanzar el nivel máximo de precalentamiento."
+
+msgid "tooltips/description/gb147_mechanic_0"
+msgstr "Reduce en {colorTagOpen}{value} m{colorTagClose} la dispersión del cañón cuando se activa el modo Disparo de salva."
+
+msgid "tooltips/description/gb147_mechanic_1"
+msgstr "Aumenta en {colorTagOpen}{value} grados/s{colorTagClose} la velocidad de rotación de la torreta cuando se activa el modo Disparo de salva."
+
+msgid "tooltips/description/gb147_mechanic_2"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo de apuntamiento cuando se activa el modo Disparo de salva."
+
+msgid "tooltips/description/gb147_mechanic_3"
+msgstr "Aumenta en {colorTagOpen}{value} km/h{colorTagClose} la velocidad máxima hacia delante cuando se activa el modo Disparo de salva."
+
+msgid "tooltips/description/gb152_mechanic_0"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo que se necesita para activar el modo Conducción directa."
+
+msgid "tooltips/description/gb152_mechanic_1"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo que se necesita para alcanzar el rendimiento máximo cuando se activa el modo Conducción directa."
+
+msgid "tooltips/description/gb152_mechanic_2"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la potencia del motor cuando se activa el modo Conducción directa."
+
+msgid "tooltips/description/gb152_mechanic_3"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la velocidad hacia delante cuando se activa el modo Conducción directa."
+
+msgid "tooltips/description/gb158_mechanic_0"
+msgstr "El aumento de la potencia del motor que proporciona Asistencia de turbocargador aumenta en un {colorTagOpen}{value}%{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_1"
+msgstr "La velocidad máxima en reversa cuando Asistencia de turbocargador está activa aumenta en {colorTagOpen}{value} km/h{colorTagClose}."
+
+msgid "tooltips/description/gb158_mechanic_2"
+msgstr "Extiende en {colorTagOpen}{value} s{colorTagClose} la duración de Asistencia de turbocargador."
+
+msgid "tooltips/description/gb158_mechanic_3"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo de recuperación para volver a usar Asistencia de turbocargador."
+
+msgid "tooltips/description/gunDepression"
+msgstr "Aumenta el ángulo de depresión del cañón."
+
+msgid "tooltips/description/gunDispersion"
+msgstr "Mejora la agrupación de proyectiles dentro del círculo de apuntamiento."
+
+msgid "tooltips/description/gunDispersionSalvo"
+msgstr "Mejora la agrupación de proyectiles dentro del círculo de apuntamiento cuando se activa el modo Disparo individual."
+
+msgid "tooltips/description/gunStabilization"
+msgstr "Mejora la estabilización del cañón en todas las situaciones."
+
+msgid "tooltips/description/gunStabilizationFromHull"
+msgstr "Mejora la estabilización del cañón en movimiento y durante la rotación del chasis."
+
+msgid "tooltips/description/gunStabilizationFromHullMovement"
+msgstr "Mejora la estabilización del cañón en movimiento."
+
+msgid "tooltips/description/gunStabilizationFromHullRotation"
+msgstr "Mejora la estabilización del cañón durante la rotación del chasis."
+
+msgid "tooltips/description/gunStabilizationFromHullSalvo"
+msgstr "Mejora la estabilización del cañón en movimiento y durante la rotación del chasis cuando se activa el modo Disparo individual."
+
+msgid "tooltips/description/gunStabilizationFromTurret"
+msgstr "Mejora la estabilización del cañón durante la rotación de la torreta."
+
+msgid "tooltips/description/gunStabilizationFromTurretSalvo"
+msgstr "Mejora la estabilización del cañón durante la rotación de la torreta cuando se activa el modo Disparo individual."
+
+msgid "tooltips/description/gunTraverse"
+msgstr "Aumenta los ángulos máximos de movimiento horizontal del cañón."
+
+msgid "tooltips/description/hitPoints"
+msgstr "Aumenta la capacidad de supervivencia del vehículo, que le permite recibir una mayor cantidad de daño antes de que lo destruyan."
+
+msgid "tooltips/description/innerClipReloadTime"
+msgstr "Reduce el tiempo de recarga de los proyectiles en el cargador del cañón."
+
+msgid "tooltips/description/invisibilityWhenShooting"
+msgstr "Reduce las probabilidades de que te detecten vehículos enemigos al disparar."
+
+msgid "tooltips/description/j52_mechanic_0"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo que tarda en enfriarse el cañón."
+
+msgid "tooltips/description/j52_mechanic_1"
+msgstr "Reduce en un {colorTagOpen}{value}%{colorTagClose} la cantidad de calor que genera el cañón tras disparar."
+
+msgid "tooltips/description/j52_mechanic_2"
+msgstr "Aumenta en un {colorTagOpen}{value}%{colorTagClose} la velocidad de enfriamiento del cañón sobrecalentado."
+
+msgid "tooltips/description/nonHEShellDamage"
+msgstr "Aumenta el daño infligido por proyectiles que no son HE."
+
+msgid "tooltips/description/opt_dev_boosters_switch"
+msgstr "Permite configurar una selección alternativa de equipamiento y directivas."
+
+msgid "tooltips/description/overheat_coolingDelay"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo que demora en enfriarse el cañón."
+
+msgid "tooltips/description/overheat_coolingPerSec"
+msgstr "Aumenta en un {colorTagOpen}{value}%{colorTagClose} la velocidad de enfriamiento de un cañón recalentado o sobrecalentado."
+
+msgid "tooltips/description/overheat_heatingPerShot"
+msgstr "Reduce en un {colorTagOpen}{value}%{colorTagClose} la cantidad de calor que genera el cañón tras disparar."
+
+msgid "tooltips/description/overheat_overheatedCoolingPerSec"
+msgstr "Aumenta en un {colorTagOpen}{value}%{colorTagClose} la velocidad de enfriamiento de un cañón sobrecalentado."
+
+msgid "tooltips/description/pl37_mechanic_0"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo que de demora al cambiar entre modos."
+
+msgid "tooltips/description/pl37_mechanic_1"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la cantidad de energía generada pasivamente cada segundo cuando se activa el modo Turbo."
+
+msgid "tooltips/description/pl37_mechanic_2"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la cantidad de energía generada pasivamente cada segundo cuando se activa el modo Combate."
+
+msgid "tooltips/description/pl37_mechanic_3"
+msgstr "Extiende en {colorTagOpen}{value} s{colorTagClose} la duración del efecto cuando se activan los modos Turbo o Combate."
+
+msgid "tooltips/description/r228_mechanic_0"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} el daño por embestida infligido a vehículos enemigos."
+
+msgid "tooltips/description/r228_mechanic_1"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} el daño por embestida infligido a la suspensión de vehículos enemigos."
+
+msgid "tooltips/description/r228_mechanic_2"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} el daño por embestida infligido a vehículos enemigos."
+
+msgid "tooltips/description/r228_mechanic_3"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} el daño por embestida infligido a vehículos enemigos."
+
+msgid "tooltips/description/r230_mechanic_0"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo necesario para volver a disparar después del sobrecalentamiento de carga."
+
+msgid "tooltips/description/r230_mechanic_1"
+msgstr "Aumenta en {colorTagOpen}{value} s{colorTagClose} el tiempo disponible para disparar al máximo nivel de calor."
+
+msgid "tooltips/description/r230_mechanic_2"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo necesario para volver a disparar después del sobrecalentamiento de carga."
+
+msgid "tooltips/description/r230_mechanic_3"
+msgstr "Aumenta la bonificación de daño por nivel de calor un {colorTagOpen}{value0}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value1}%{colorTagClose}&nbsp;/&nbsp;{colorTagOpen}{value2}%{colorTagClose}."
+
+msgid "tooltips/description/reducedRammingDamage"
+msgstr "Reduce la cantidad de daño recibido de ataques de embestida enemigos."
+
+msgid "tooltips/description/reloadTimeTwinGun"
+msgstr "Reduce el tiempo de recarga tanto en el modo Disparo de salva, como en Disparo individual."
+
+msgid "tooltips/description/reverseSpeed"
+msgstr "Aumenta la velocidad en reversa del vehículo."
+
+msgid "tooltips/description/roleSlot"
+msgstr "Asigna una categoría al segundo espacio de equipamiento."
+
+msgid "tooltips/description/s36_mechanic_0"
+msgstr "Aumenta un {colorTagOpen}{value}%{colorTagClose} la velocidad de rotación del chasis y de la elevación del cañón cuando se activa el modo Fortín."
+
+msgid "tooltips/description/s36_mechanic_1"
+msgstr "Reduce en {colorTagOpen}{value} s{colorTagClose} el tiempo que se necesita para desactivar el modo Fortín."
+
+msgid "tooltips/description/s36_mechanic_2"
+msgstr "Reduce un {colorTagOpen}{value}%{colorTagClose} la dispersión del cañón cuando se activa el modo Fortín."
+
+msgid "tooltips/description/s36_mechanic_3"
+msgstr "Reduce un {colorTagOpen}{value}%{colorTagClose} el tiempo de recarga cuando se activa el modo Fortín."
+
+msgid "tooltips/description/selectiveModuleHPBoost"
+msgstr "Aumenta los PV del tanque de combustible y los módulos del motor de tu vehículo."
+
+msgid "tooltips/description/selectiveModuleProtection"
+msgstr "Reduce la penalización por daños en el compartimento de municiones y en el motor."
+
+msgid "tooltips/description/shellModuleDamage"
+msgstr "Aumenta el daño que infligen tus proyectiles a los módulos de vehículos enemigos."
+
+msgid "tooltips/description/shells_consumables_switch"
+msgstr "Permite configurar una selección alternativa de munición y consumibles."
+
+msgid "tooltips/description/specialShellDamage"
+msgstr "Aumenta el daño infligido por proyectiles especiales."
+
+msgid "tooltips/description/specialShellPenetration"
+msgstr "Aumenta la capacidad de penetración de proyectiles especiales."
+
+msgid "tooltips/description/specialShellVelocity"
+msgstr "Aumenta la velocidad de los proyectiles especiales."
+
+msgid "tooltips/description/spottingBonusFoliage"
+msgstr "Reduce el ocultamiento de los vehículos enemigos que se esconden en el follaje."
+
+msgid "tooltips/description/spottingBonusMovement"
+msgstr "Reduce el ocultamiento de los vehículos enemigos en movimiento."
+
+msgid "tooltips/description/standardShellDamage"
+msgstr "Aumenta el daño infligido por proyectiles estándar."
+
+msgid "tooltips/description/standardShellPenetration"
+msgstr "Aumenta la capacidad de penetración de proyectiles estándares."
+
+msgid "tooltips/description/standardShellVelocity"
+msgstr "Aumenta la velocidad de los proyectiles estándares."
+
+msgid "tooltips/description/stunDuration"
+msgstr "Reduce el tiempo que tu vehículo permanece aturdido tras recibir impactos del enemigo."
+
+msgid "tooltips/description/turretTraverse"
+msgstr "Aumenta los ángulos máximos de movimiento horizontal de la torreta."
+
+msgid "tooltips/description/turretTraverseStability"
+msgstr "Reduce la dispersión del cañón durante la rotación de la torreta cuando se activa el modo Combate."
+
+msgid "tooltips/description/vehicleSpeed"
+msgstr "Aumenta la velocidad del vehículo tanto cuando avanza, como cuando va en reversa."
+
+msgid "tooltips/description/viewRange"
+msgstr "Permite detectar vehículos enemigos a mayor distancia."
+
+msgid "tooltips/large/eliteStatus"
+msgstr "Otorga al vehículo el estado de élite."
+
+msgid "tooltips/large/perksResearchRequired"
+msgstr "Debes investigar todos los otros nodos antes de investigar este."
+
+msgid "tooltips/paramNameWithUnit"
+msgstr "{paramName} ({unit})"
+
+msgid "tooltips/perk/category/concealment"
+msgstr "Categoría: ocultamiento"
+
+msgid "tooltips/perk/category/firepower"
+msgstr "Categoría: potencia de fuego"
+
+msgid "tooltips/perk/category/mechanics"
+msgstr "Mejora mecánica"
+
+msgid "tooltips/perk/category/mobility"
+msgstr "Categoría: movilidad"
+
+msgid "tooltips/perk/category/special"
+msgstr "Mejora especial"
+
+msgid "tooltips/perk/category/spotting"
+msgstr "Categoría: detección"
+
+msgid "tooltips/perk/category/survivability"
+msgstr "Categoría: supervivencia"
+
+msgid "tooltips/special/tapToModify"
+msgstr "Después de investigar el nodo, haz clic para modificar."
+
+msgid "tooltips/title/HEDamageAbsorption"
+msgstr "Absorción de daño de proyectiles HE"
+
+msgid "tooltips/title/HEShellDamage"
+msgstr "Daño de proyectiles HE"
+
+msgid "tooltips/title/HEShellPenetration"
+msgstr "Penetración de proyectiles HE"
+
+msgid "tooltips/title/HEshellVelocity"
+msgstr "Velocidad del proyectil HE"
+
+msgid "tooltips/title/a179_mechanic_0"
+msgstr "Amortiguador de masa semiactivo"
+
+msgid "tooltips/title/a179_mechanic_1"
+msgstr "Mejora de barra de carga con cadena de transmisión"
+
+msgid "tooltips/title/a182_mechanic_0"
+msgstr "Extractor de torsión semiautomático"
+
+msgid "tooltips/title/a182_mechanic_1"
+msgstr "Filtración de aire avanzada de compartimiento de batalla"
+
+msgid "tooltips/title/a182_mechanic_2"
+msgstr "Ventilador de sobrepresión centrífuga"
+
+msgid "tooltips/title/a182_mechanic_3"
+msgstr "Pinzas modificadas de munición"
+
+msgid "tooltips/title/a183_mechanic_0"
+msgstr "Compresor de gran capacidad"
+
+msgid "tooltips/title/a183_mechanic_1"
+msgstr "Compresor de pistón de 6000 psi"
+
+msgid "tooltips/title/a183_mechanic_2"
+msgstr "Sistema neumático de 6000 psi"
+
+msgid "tooltips/title/a183_mechanic_3"
+msgstr "Cilindro de alta presión adicional"
+
+msgid "tooltips/title/a195_mechanic_1"
+msgstr "Mejora de consistencia balística"
+
+msgid "tooltips/title/a195_mechanic_2"
+msgstr "Carga individual extendida"
+
+msgid "tooltips/title/a195_mechanic_3"
+msgstr "Carga individual embestida"
+
+msgid "tooltips/title/a195_mechanic_4"
+msgstr "Separador de carga liviano"
+
+msgid "tooltips/title/additionalShellAmmoCapacity"
+msgstr "Capacidad de munición adicional"
+
+msgid "tooltips/title/advancedChassisProtection"
+msgstr "Protección de suspensión avanzada"
+
+msgid "tooltips/title/advancedModuleAndCrewProtection"
+msgstr "Protección de módulo y de tripulación avanzada"
+
+msgid "tooltips/title/aimingCircleSize"
+msgstr "Tamaño del círculo de apuntamiento"
+
+msgid "tooltips/title/aimingTime"
+msgstr "Tiempo de apuntamiento"
+
+msgid "tooltips/title/aimingTimeSalvo"
+msgstr "Tiempo de apuntamiento"
+
+msgid "tooltips/title/allShellDamage"
+msgstr "Daño de todos los proyectiles"
+
+msgid "tooltips/title/allShellsVelocity"
+msgstr "Velocidad del proyectil"
+
+msgid "tooltips/title/ammoRackHP"
+msgstr "PV del compartimento de municiones"
+
+msgid "tooltips/title/ammoRackPenalty"
+msgstr "Penalización del compartimento de municiones"
+
+msgid "tooltips/title/basicShellDamage"
+msgstr "Daño del proyectil estándar"
+
+msgid "tooltips/title/ch67_mechanic_0"
+msgstr "Empuje vectorial"
+
+msgid "tooltips/title/ch67_mechanic_1"
+msgstr "Bomba propelente de gran caudal"
+
+msgid "tooltips/title/ch67_mechanic_2"
+msgstr "Refrigeración por evaporación"
+
+msgid "tooltips/title/ch67_mechanic_3"
+msgstr "Bocas enfriadas por transpiración"
+
+msgid "tooltips/title/ch70_mechanic_0"
+msgstr "Propelente de alta energía"
+
+msgid "tooltips/title/ch70_mechanic_1"
+msgstr "Extractor de impulsor semiautomático"
+
+msgid "tooltips/title/ch70_mechanic_2"
+msgstr "Optimización de la forma nuclear"
+
+msgid "tooltips/title/ch70_mechanic_3"
+msgstr "Almacenamiento ampliado del propulsor"
+
+msgid "tooltips/title/chassisHP"
+msgstr "PV de suspensión"
+
+msgid "tooltips/title/chassisRepairSpeed"
+msgstr "Velocidad de reparación de suspensión"
+
+msgid "tooltips/title/crewProtection"
+msgstr "Protección para tripulantes"
+
+msgid "tooltips/title/damagedGunDispersion"
+msgstr "Dispersión de cañón situacional"
+
+msgid "tooltips/title/driveModeForwardSpeed"
+msgstr "Velocidad de avance en el modo Viaje"
+
+msgid "tooltips/title/driveModeReverseSpeed"
+msgstr "Velocidad de reversa en el modo Viaje"
+
+msgid "tooltips/title/engineFireChance"
+msgstr "Probabilidad de incendio del motor"
+
+msgid "tooltips/title/engineHP"
+msgstr "PV del motor"
+
+msgid "tooltips/title/enginePenalty"
+msgstr "Penalización del motor"
+
+msgid "tooltips/title/enginePower"
+msgstr "Potencia del motor"
+
+msgid "tooltips/title/f135_mechanic_0"
+msgstr "Optimización de manguera hidráulica"
+
+msgid "tooltips/title/f135_mechanic_1"
+msgstr "Optimización de secuencia de recarga"
+
+msgid "tooltips/title/f136_mechanic_0"
+msgstr "Mecanismo de recarga mejorado"
+
+msgid "tooltips/title/f143_mechanic_0"
+msgstr "Aislante térmico del cañón"
+
+msgid "tooltips/title/f143_mechanic_1"
+msgstr "Generador de gran capacidad"
+
+msgid "tooltips/title/f143_mechanic_2"
+msgstr "Cables de baja resistencia"
+
+msgid "tooltips/title/f143_mechanic_3"
+msgstr "Limitador de potencia modificado"
+
+msgid "tooltips/title/forwardSpeed"
+msgstr "Velocidad de avance"
+
+msgid "tooltips/title/fuelTankHP"
+msgstr "PV de tanque de combustible"
+
+msgid "tooltips/title/g185_mechanic_0"
+msgstr "Sensor del efecto Coriolis"
+
+msgid "tooltips/title/g185_mechanic_1"
+msgstr "Sensor de inclinación giroscópico"
+
+msgid "tooltips/title/g185_mechanic_2"
+msgstr "Terminal de entrada mejorada"
+
+msgid "tooltips/title/g185_mechanic_3"
+msgstr "Sensor de rotación de gran precisión"
+
+msgid "tooltips/title/g187_mechanic_0"
+msgstr "Almacenamiento auxiliar de proyectiles mejorado"
+
+msgid "tooltips/title/g187_mechanic_1"
+msgstr "Barra auxiliar de carga de cañón"
+
+msgid "tooltips/title/g188_mechanic_0"
+msgstr "Mecanismo de rastreo avanzado"
+
+msgid "tooltips/title/g188_mechanic_1"
+msgstr "Disipador de calor de gran eficiencia"
+
+msgid "tooltips/title/g188_mechanic_2"
+msgstr "Generador de gran amperaje"
+
+msgid "tooltips/title/g188_mechanic_3"
+msgstr "Láser de rubí de baja dispersión"
+
+msgid "tooltips/title/g189_mechanic_0"
+msgstr "Toma de potencia modificada"
+
+msgid "tooltips/title/g189_mechanic_1"
+msgstr "Sensor de termorregulación doble"
+
+msgid "tooltips/title/g189_mechanic_2"
+msgstr "Termorregulación precisa"
+
+msgid "tooltips/title/g189_mechanic_3"
+msgstr "Generador de gran capacidad"
+
+msgid "tooltips/title/gb147_mechanic_0"
+msgstr "Montura para cañón precargada"
+
+msgid "tooltips/title/gb147_mechanic_1"
+msgstr "Sistema de rotación avanzado"
+
+msgid "tooltips/title/gb147_mechanic_2"
+msgstr "Sistema de control de inclinación"
+
+msgid "tooltips/title/gb147_mechanic_3"
+msgstr "Gobernador de par liberado"
+
+msgid "tooltips/title/gb152_mechanic_0"
+msgstr "Ajuste de relación de engranaje"
+
+msgid "tooltips/title/gb152_mechanic_1"
+msgstr "Optimización de la geometría de turbina"
+
+msgid "tooltips/title/gb152_mechanic_2"
+msgstr "Optimización de tubo multiforme"
+
+msgid "tooltips/title/gb152_mechanic_3"
+msgstr "Limitador de RPM modificado"
+
+msgid "tooltips/title/gb158_mechanic_0"
+msgstr "Regulador de presión ajustado"
+
+msgid "tooltips/title/gb158_mechanic_1"
+msgstr "Colector de escape moderno"
+
+msgid "tooltips/title/gb158_mechanic_2"
+msgstr "Tanque de aire extendido"
+
+msgid "tooltips/title/gb158_mechanic_3"
+msgstr "Compresor de aire de alta eficiencia"
+
+msgid "tooltips/title/gunDepression"
+msgstr "Depresión del cañón"
+
+msgid "tooltips/title/gunDispersion"
+msgstr "Dispersión del cañón"
+
+msgid "tooltips/title/gunDispersionSalvo"
+msgstr "Dispersión del cañón"
+
+msgid "tooltips/title/gunElevation"
+msgstr "Elevación del cañón"
+
+msgid "tooltips/title/gunStabilization"
+msgstr "Estabilización total del cañón"
+
+msgid "tooltips/title/gunStabilizationFromHull"
+msgstr "Estabilización parcial del cañón"
+
+msgid "tooltips/title/gunStabilizationFromHullMovement"
+msgstr "Estabilización de movimiento"
+
+msgid "tooltips/title/gunStabilizationFromHullRotation"
+msgstr "Estabilización de rotación"
+
+msgid "tooltips/title/gunStabilizationFromHullSalvo"
+msgstr "Estabilización parcial del cañón"
+
+msgid "tooltips/title/gunStabilizationFromTurret"
+msgstr "Estabilización parcial del cañón"
+
+msgid "tooltips/title/gunStabilizationFromTurretSalvo"
+msgstr "Estabilización parcial del cañón"
+
+msgid "tooltips/title/gunTraverse"
+msgstr "Rotación de cañón mejorada"
+
+msgid "tooltips/title/hitPoints"
+msgstr "Puntos de vida (PV)"
+
+msgid "tooltips/title/hullElevationSpeed"
+msgstr "Velocidad de elevación del chasis"
+
+msgid "tooltips/title/hullTraverseSpeed"
+msgstr "Velocidad de rotación del chasis"
+
+msgid "tooltips/title/innerClipReloadTime"
+msgstr "Tiempo de recarga del cargador interno"
+
+msgid "tooltips/title/invisibilityWhenShooting"
+msgstr "Ocultamiento tras disparar"
+
+msgid "tooltips/title/j52_mechanic_0"
+msgstr "Fluido de transferencia de calor de baja temperatura"
+
+msgid "tooltips/title/j52_mechanic_1"
+msgstr "Caja térmica de gran conductividad"
+
+msgid "tooltips/title/j52_mechanic_2"
+msgstr "Optimización del tubo térmico"
+
+msgid "tooltips/title/nonHEShellDamage"
+msgstr "Daño de proyectiles que no son HE"
+
+msgid "tooltips/title/opt_dev_boosters_switch"
+msgstr "Selección de equipamiento y directivas"
+
+msgid "tooltips/title/overheat_coolingDelay"
+msgstr "Revestimiento de cromo"
+
+msgid "tooltips/title/overheat_coolingPerSec"
+msgstr "Cañón de gran conductividad"
+
+msgid "tooltips/title/overheat_heatingPerShot"
+msgstr "Propelente de baja temperatura de llama"
+
+msgid "tooltips/title/overheat_overheatedCoolingPerSec"
+msgstr "Sistema de ventilación forzada"
+
+msgid "tooltips/title/pl37_mechanic_0"
+msgstr "Rotor de turbina ligero"
+
+msgid "tooltips/title/pl37_mechanic_1"
+msgstr "Generador auxiliar de gran capacidad"
+
+msgid "tooltips/title/pl37_mechanic_2"
+msgstr "Control de rectificación avanzado"
+
+msgid "tooltips/title/pl37_mechanic_3"
+msgstr "Disposición de condensador híbrido"
+
+msgid "tooltips/title/r228_mechanic_0"
+msgstr "Templado de bordes local"
+
+msgid "tooltips/title/r228_mechanic_1"
+msgstr "Orugas de acero de alta aleación"
+
+msgid "tooltips/title/r228_mechanic_2"
+msgstr "Cementación local profunda"
+
+msgid "tooltips/title/r228_mechanic_3"
+msgstr "Cementación superficial local"
+
+msgid "tooltips/title/r230_mechanic_0"
+msgstr "Sensor térmico de gran precisión"
+
+msgid "tooltips/title/r230_mechanic_1"
+msgstr "Calentador de recámara de baja inercia"
+
+msgid "tooltips/title/r230_mechanic_2"
+msgstr "Barra de carga mecanizada"
+
+msgid "tooltips/title/r230_mechanic_3"
+msgstr "Sobrecarga de termorregulación"
+
+msgid "tooltips/title/reducedRammingDamage"
+msgstr "Daño por embestida reducido"
+
+msgid "tooltips/title/reloadTime"
+msgstr "Tiempo de recarga"
+
+msgid "tooltips/title/reloadTimeTwinGun"
+msgstr "Tiempo de recarga"
+
+msgid "tooltips/title/reverseSpeed"
+msgstr "Velocidad en reversa"
+
+msgid "tooltips/title/roleSlot"
+msgstr "Categoría de segundo espacio"
+
+msgid "tooltips/title/s36_mechanic_0"
+msgstr "Bomba hidráulica de pistones axiales"
+
+msgid "tooltips/title/s36_mechanic_1"
+msgstr "Sincronizador de alimentación multicono"
+
+msgid "tooltips/title/s36_mechanic_2"
+msgstr "Rotor equilibrado por precisión"
+
+msgid "tooltips/title/s36_mechanic_3"
+msgstr "Barra de carga hidráulica"
+
+msgid "tooltips/title/selectiveModuleHPBoost"
+msgstr "Mejora de PV de módulo selectivo"
+
+msgid "tooltips/title/selectiveModuleProtection"
+msgstr "Protección de módulo selectivo"
+
+msgid "tooltips/title/shellModuleDamage"
+msgstr "Daño de módulo con proyectil"
+
+msgid "tooltips/title/shells_consumables_switch"
+msgstr "Selección de munición y consumibles"
+
+msgid "tooltips/title/specialShellDamage"
+msgstr "Daño del proyectil especial"
+
+msgid "tooltips/title/specialShellPenetration"
+msgstr "Penetración del proyectil especial"
+
+msgid "tooltips/title/specialShellVelocity"
+msgstr "Velocidad del proyectil especial"
+
+msgid "tooltips/title/spottingBonusFoliage"
+msgstr "Bonificación por detección: follaje"
+
+msgid "tooltips/title/spottingBonusMovement"
+msgstr "Bonificación por detección: movimiento"
+
+msgid "tooltips/title/standardShellDamage"
+msgstr "Daño del proyectil estándar"
+
+msgid "tooltips/title/standardShellPenetration"
+msgstr "Penetración del proyectil estándar"
+
+msgid "tooltips/title/standardShellVelocity"
+msgstr "Velocidad del proyectil estándar"
+
+msgid "tooltips/title/stunDuration"
+msgstr "Duración del aturdimiento"
+
+msgid "tooltips/title/turretTraverse"
+msgstr "Rotación de torreta mejorada"
+
+msgid "tooltips/title/turretTraverseSpeed"
+msgstr "Velocidad de rotación de torreta"
+
+msgid "tooltips/title/turretTraverseStability"
+msgstr "Estabilización de rotación de torreta"
+
+msgid "tooltips/title/vehicleSpeed"
+msgstr "Velocidad del vehículo"
+
+msgid "tooltips/title/viewRange"
+msgstr "Alcance de visión aumentado"
+
+msgid "tooltips/vanityEntryPoint/statusInfo"
+msgstr "Investiga el último nodo para desbloquear."
+
+msgid "tooltips/vanityEntryPoint/text"
+msgstr "Consigue recompensas exclusivas para vehículos de nivel XI, como un estilo volumétrico, un registrador de estadísticas y una cubierta para el cañón."
+
+msgid "tooltips/vanityEntryPoint/title"
+msgstr "Recompensas de élite"
+
+msgid "vanity/available/subtitle"
+msgstr "Consigue recompensas para el nivel de élite de tu vehículo."
+
+msgid "vanity/available/tooltip"
+msgstr "Nivel de élite actual"
+
+msgid "vanity/completed/subtitle"
+msgstr "¡Felicitaciones! Recibiste todas las recompensas."
+
+msgid "vanity/completed/tooltip"
+msgstr "Nivel de élite actual"
+
+msgid "vanity/disabled/subtitle"
+msgstr "Se puede obtener luego de investigar el último nodo."
+
+msgid "vanity/disabled/tooltip"
+msgstr "El vehículo no tiene estatus de élite."
+
+msgid "vanity/reward/level/tooltip"
+msgstr "Necesitas el nivel de élite para esta recompensa."
+
+msgid "vanity/rewardType/description/attachment"
+msgstr "Una cubierta exclusiva para el cañón con la que tu vehículo se destacará en el campo de batalla."
+
+msgid "vanity/rewardType/description/stattracker"
+msgstr "Nuevo elemento de personalización que muestra cuántos vehículos destruiste."
+
+msgid "vanity/rewardType/description/style"
+msgstr "Un estilo 2D que tiene un efecto visual con el que luce como uno 3D, exclusivo para vehículos de nivel XI."
+
+msgid "vanity/rewardType/title/attachment"
+msgstr "Accesorio 3D de la cubierta del cañón"
+
+msgid "vanity/rewardType/title/stattracker"
+msgstr "Registrador de estadísticas"
+
+msgid "vanity/rewardType/title/style"
+msgstr "Estilo volumétrico"
+
+msgid "vanity/title"
+msgstr "RECOMPENSAS DE ÉLITE"

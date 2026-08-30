@@ -1,0 +1,65 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Escolha o veículo que você deseja excluir dessa batalha"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Estágio de Votação Para Banimento"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Confirmar Seleção"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "Após a confirmação, você não vai poder selecionar outro veículo."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Estágio de Confirmação"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Selecione o veículo mais adequado para este mapa e para a composição da sua equipe"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Estágio de Pré-Seleção de Veículos"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Selecione o melhor veículo para o mapa atual e sua equipe."
+
+msgid "prebattleTimer/wait/header"
+msgstr "Aguardando jogadores..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Selecionar um veículo"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "O Estágio no servidor %(server)s terminou"
+
+msgid "primeTimeView/server"
+msgstr "Servidor disponível: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Servidor %(server)s\nAs Batalhas estarão disponíveis por mais %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Servidor%(server)s\nAs batalhas estarão disponíveis em %(time)s"
+
+msgid "primeTimeView/servers"
+msgstr "Servidores disponíveis:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "As batalhas estão indisponíveis em todos os servidores"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Este modo está indisponível no servidor %(server)s"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "As batalhas no servidor %(server)s estarão disponíveis por %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "As batalhas começarão em %(time)s no servidor %(server)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "As batalhas não vão estar disponíveis até às %(startTime)s no servidor %(server)s"

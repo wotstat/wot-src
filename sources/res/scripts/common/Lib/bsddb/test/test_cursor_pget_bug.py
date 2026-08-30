@@ -1,0 +1,48 @@
+import unittest, os, glob
+from test_all import db, test_support, get_new_environment_path, get_new_database_path
+
+class pget_bugTestCase(unittest.TestCase):
+    db_name = b'test-cursor_pget.db'
+
+    def setUp(self):
+        self.homeDir = get_new_environment_path()
+        self.env = db.DBEnv()
+        self.env.open(self.homeDir, db.DB_CREATE | db.DB_INIT_MPOOL)
+        self.primary_db = db.DB(self.env)
+        self.primary_db.open(self.db_name, b'primary', db.DB_BTREE, db.DB_CREATE)
+        self.secondary_db = db.DB(self.env)
+        self.secondary_db.set_flags(db.DB_DUP)
+        self.secondary_db.open(self.db_name, b'secondary', db.DB_BTREE, db.DB_CREATE)
+        self.primary_db.associate(self.secondary_db, (lambda key, data: data))
+        self.primary_db.put(b'salad', b'eggs')
+        self.primary_db.put(b'spam', b'ham')
+        self.primary_db.put(b'omelet', b'eggs')
+        return
+
+    def tearDown(self):
+        self.secondary_db.close()
+        self.primary_db.close()
+        self.env.close()
+        del self.secondary_db
+        del self.primary_db
+        del self.env
+        test_support.rmtree(self.homeDir)
+        return
+
+    def test_pget(self):
+        cursor = self.secondary_db.cursor()
+        self.assertEqual((b'eggs', b'salad', b'eggs'), cursor.pget(key=b'eggs', flags=db.DB_SET))
+        self.assertEqual((b'eggs', b'omelet', b'eggs'), cursor.pget(db.DB_NEXT_DUP))
+        self.assertEqual(None, cursor.pget(db.DB_NEXT_DUP))
+        self.assertEqual((b'ham', b'spam', b'ham'), cursor.pget(b'ham', b'spam', flags=db.DB_SET))
+        self.assertEqual(None, cursor.pget(db.DB_NEXT_DUP))
+        cursor.close()
+        return
+
+
+def test_suite():
+    return unittest.makeSuite(pget_bugTestCase)
+
+
+if __name__ == b'__main__':
+    unittest.main(defaultTest=b'test_suite')

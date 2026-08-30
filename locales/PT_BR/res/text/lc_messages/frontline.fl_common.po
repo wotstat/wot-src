@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Redefinir Filtros"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "Nenhum veículo compatível com os parâmetros selecionados.\nÉ necessário redefinir as configurações do filtro para ver os veículos apropriados"
+
+msgid "battleType/description/fast"
+msgstr "Um cenário com tempo de recarga das Reservas de Combate reduzido."
+
+msgid "battleType/description/random"
+msgstr "Um cenário onde os jogadores escolhem entre conjuntos de Reservas aleatórias e a oportunidade de aprimorá-las para o Nível IV."
+
+msgid "battleType/description/standard"
+msgstr "Um cenário com as regras padrões do Linha de Frente."
+
+msgid "battleType/postBattle/title"
+msgstr "Cenário de Batalha: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Tempo de recarga das Reservas reduzido."
+
+msgid "battleType/shortDescription/random"
+msgstr "As Reservas de Combate são fornecidas aleatoriamente."
+
+msgid "battleType/shortDescription/standard"
+msgstr "As regras padrões estão aplicadas."
+
+msgid "battleType/title/fast"
+msgstr "Suporte Operacional"
+
+msgid "battleType/title/random"
+msgstr "Reviravolta do Destino"
+
+msgid "battleType/title/standard"
+msgstr "Batalha Padrão"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "VOLTAR"
+
+msgid "button/close"
+msgstr "FECHAR"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} dia"
+msgstr[1] "{duration} dias"
+msgstr[2] "{duration} dias"
+
+msgid "filterPopover/note"
+msgstr "Apenas os veículos que podem ser usados no modo são exibidos aqui."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Os Níveis da Reserva de Combate aumentam ao atingir novos ranks."
+
+msgid "levelReservesTooltip/info"
+msgstr "No cenário {whiteSpanish_Start}Reviravolta do Destino{whiteSpanish_End}, a compra de uma Reserva de Combate vai aumentar seu nível em um e fornecerá uma oportunidade de melhorá-la para o Nível {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Aumenta ao atingir o seguinte rank: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Disponível no seguinte rank: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Nível {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "Para {whiteSpanish_Start}Reservas de Combate compradas{whiteSpanish_End} no cenário {whiteSpanish_Start}Reviravolta do Destino{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/title"
+msgstr "Níveis da Reserva de Combate"
+
+msgid "loading"
+msgstr "Carregando…"
+
+msgid "widget/eventStartSoon"
+msgstr "O evento vai começar em breve!"
+
+msgid "widget/maxTier"
+msgstr "Você atingiu o Nível mais alto!"

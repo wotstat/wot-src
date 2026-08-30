@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Voltar aos Baús"
+
+msgid "common/boxCategory/lowerCase/stPatrick"
+msgstr "Baú de Esmeralda"
+
+msgid "common/boxCategory/upperCase/stPatrick"
+msgstr "BAÚ DE ESMERALDA"
+
+msgid "common/getButton/lowerCase"
+msgstr "Obter Baús"
+
+msgid "common/getButton/upperCase"
+msgstr "OBTER BAÚS"
+
+msgid "common/loader"
+msgstr "Abrindo baú..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Abra os baús para ver as estatísticas."
+
+msgid "common/statistics/header"
+msgstr "Baús abertos: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Todas as informações dos baús abertos são excluídas automaticamente."
+
+msgid "entryPoint/boxes"
+msgstr "ACESSAR BAÚS"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Estes são baús especiais que contém veículos Premium, anexos 3D, créditos e outros itens valiosos no jogo.\nVocê pode obtê-los na Loja do jogo."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Os Baús não podem ser abertos ou comprados no momento por motivos técnicos. Pedimos desculpas pelo inconveniente temporário."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Baús Temporariamente Indisponíveis"
+
+msgid "eventName/lowerCase"
+msgstr "Verde Glorioso"
+
+msgid "eventName/upperCase"
+msgstr "VERDE GLORIOSO"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Recompensa Garantida no próximo baú!"
+
+msgid "guaranteedTitle/text"
+msgstr "Baús máximos antes de uma Recompensa Garantida: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Os baús fechados serão abertos automaticamente no fim do evento."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Se você já possui todos os veículos da lista de possíveis conteúdos do baú, todos os veículos subsequentes que você receber dos baús serão compensados ​​em ouro."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "A cada %(guaranteed0)s baús, é garantido conter um veículo de Nível VIII-IX. Se você abrir eles sem que um desses veículos seja dropado, um deles de Nível VIII–IX que você ainda não possui vai dropar quando você abrir o %(guaranteed0)s&zwnbsp;º baú. Quando um veículo dropar, o contador é zerado."
+
+msgid "infoPage/header/description"
+msgstr "Abra o baú para receber itens valiosos! Confira os detalhes abaixo."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Do %(name) (%(boxesCount) baús abertos)"
+
+msgid "noBoxesView/description/"
+msgstr "Você não possui nenhum baú.\nVocê pode comprá-los na Loja do jogo."
+
+msgid "preview/backLabel"
+msgstr "ACESSAR BAÚS"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Baús disponíveis: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Nenhum baú disponível"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Se você já possui todos os veículos da lista de possíveis conteúdos do baú, todos os veículos subsequentes que você receber dos baús serão compensados ​​em ouro."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) baú"
+msgstr[1] "%(remainingCount) baús"
+msgstr[2] "%(remainingCount) baús"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "A Recompensa Garantida é um veículo da lista de itens dos baús.\nCaso você abra %(remainingCount) sem obter um veículo, ele vai dropar no %(count)° baú. Quando isso acontecer, o contador será reiniciado."

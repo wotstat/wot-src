@@ -1,0 +1,482 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Tripulação e Treinamento"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Customização"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Equipamentos e Diretivas"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Outro"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Veículos"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Afirmativo!"
+
+msgid "autoOpenView/title"
+msgstr "RECOMPENSAS RECEBIDAS"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Afirmativo!"
+
+msgid "bonuses/description/battle_booster"
+msgstr "Diretiva"
+
+msgid "bonuses/description/booster"
+msgstr "Reserva Pessoal"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Skin de Tripulação"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Equipamento padrão"
+
+msgid "bonuses/description/style"
+msgstr "Estilo 2D"
+
+msgid "bonuses/description/style3D"
+msgstr "Estilo 3D"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Fragmento de Projeto (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Fragmentos de Projeto Universal"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Token do Passe de Batalha"
+
+msgid "boxTooltip/description/text/default"
+msgstr "Quando abertas elas podem dropar veículos, recursos econômicos e outros itens valiosos.\nAs Caixas estão disponíveis na Loja do jogo."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "aberturas restantes até a recompensa garantida, caso ela não drope antes."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "As Caixas estão disponíveis na Loja do jogo."
+
+msgid "common/backButton"
+msgstr "VOLTAR"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Caixa Tática"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "CAIXA TÁTICA"
+
+msgid "common/closeButton"
+msgstr "FECHAR"
+
+msgid "common/footer/checkbox"
+msgstr "Animação de Abertura"
+
+msgid "common/getButton/lowerCase"
+msgstr "Pegar mais"
+
+msgid "common/getButton/upperCase"
+msgstr "PEGAR MAIS"
+
+msgid "common/infoButton"
+msgstr "O que tem dentro?"
+
+msgid "common/loader"
+msgstr "Abrindo a caixa..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) pc."
+msgstr[1] "%(count) pcs."
+msgstr[2] "%(count) pcs."
+
+msgid "common/rewards/multiplier"
+msgstr "x{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "dia"
+msgstr[1] "dias"
+msgstr[2] "dias"
+
+msgid "common/selectTooltip"
+msgstr "Não há caixas suficientes para abrir {{count}} de uma vez"
+
+msgid "common/statistics/emptyHeader"
+msgstr "Abra as caixas para ver as estatísticas."
+
+msgid "common/statistics/header"
+msgstr "Caixas abertas: %(count)"
+
+msgid "common/statsButton"
+msgstr "Estatísticas"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Cancelar"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "O histórico das suas recompensas será deletado."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Reiniciar"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Reiniciar estatísticas?"
+
+msgid "entryPoint/boxes"
+msgstr "ACESSAR CAIXAS"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Estas são caixas especiais que incluem itens novos e únicos. Elas podem ser obtidas pela Loja do jogo."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "O evento vai terminar em."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Nos deparamos com um problema técnico e, portanto, o evento foi temporariamente pausado enquanto realizamos as correções."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Temporariamente indisponível"
+
+msgid "eventName/lowerCase"
+msgstr "Suprimentos para o Campo de Batalha"
+
+msgid "eventName/upperCase"
+msgstr "SUPRIMENTOS PARA O CAMPO DE BATALHA"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count) º"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count) º"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count) º"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count) º"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "a cada %(count) abertura"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "veículo"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "A obtenção de um %(item) é garantido %(count). O contador é redefinido caso ele drope mais cedo."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Caso todos os veículos sejam obtidos, você receberá ouro no lugar deles."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) a cada %(count) aberturas"
+
+msgid "guaranteedTitle/textName"
+msgstr "Recompensa Garantida"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Abrir"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "O evento vai terminar em %(time)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "As caixas fechadas serão abertas automaticamente no fim do evento."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Recebeu todos os veículos da lista? Se você obter qualquer outro em uma caixa, vai receber uma compensação em ouro pelo seu valor."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "A cada %(guaranteed0)s caixas, é garantido conter um veículo de Nível VIII-X. Se você abri-las sem que um desses veículos seja dropado, um deles de Nível VIII–X que você ainda não possui vai dropar quando você abrir a %(guaranteed0)s&zwnbsp;ª caixa (dependendo da caixa). Quando um veículo dropar, o contador é zerado."
+
+msgid "infoPage/footer/title/autoOpen"
+msgstr "Abertura Automática"
+
+msgid "infoPage/footer/title/compensation"
+msgstr "Compensação"
+
+msgid "infoPage/footer/title/guaranteed"
+msgstr "Recompensa Garantida"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Ver a lista de itens na página do jogo"
+
+msgid "infoPage/header/probability/description"
+msgstr "Probabilidade de drop"
+
+msgid "infoPage/header/probability/title"
+msgstr "Grupo"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Apenas uma recompensa pode dropar por grupo"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Recompensas"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Abrir Mais"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Das %(name) (%(boxesCount) foram abertas)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "RECOMPENSAS RECEBIDAS"
+
+msgid "noBoxesView/description/"
+msgstr "As Caixas estão disponíveis na Loja do jogo"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "Acessar Loja"
+
+msgid "noBoxesView/goToButton/"
+msgstr "Acessar Caixas Disponíveis"
+
+msgid "preview/backLabel"
+msgstr "ACESSAR CAIXAS"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Disponível: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Não há mais caixas"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Continuar"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "para %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "Estilo 3D %(style)"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "O evento «%(eventName)s» terminou."
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Todas as caixas restantes serão abertas e os conteúdos serão adicionados na sua conta."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Ver Recompensas"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Recompensas Recebidas"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Os itens que você não recebeu durante o evento foram adicionados na sua conta."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "O evento está temporariamente indisponível para manutenção."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "O evento está disponível novamente. Pedimos desculpas pela interrupção."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s pçs)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Recompensas recebidas:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Erro"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Aguarde até que a operação anterior seja concluída."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Ação temporariamente indisponível. Tente novamente mais tarde."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "Acessar Evento"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "O evento «%(eventName)s» começou."
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Somente até %(date)s: veículos Premium e itens valiosos no jogo!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Não é possível reiniciar as estatísticas. Tente novamente mais tarde."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "E também"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Abrir Mais"
+
+msgid "singleRewardView/header/title/"
+msgstr "RECOMPENSAS RECEBIDAS"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Tripulante Exclusivo"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "Anexos 3D"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Missões de x5 XP"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Diretivas"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Fragmentos de Projeto"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Livretos"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Livretos de Treinamento"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Consumíveis"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Créditos"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Manuais"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Manuais de Treinamento"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Missões de x3 XP de Tripulação"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Títulos"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Customização"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Equipamento Melhorado"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Componentes"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Equipamento Experimental"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "XP Livre"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Ouro"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Guias"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Guias de Treinamento"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Curso de Mentoria"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Equipamento padrão"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Reservas Pessoais"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "Conta Premium WoT"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Rações"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Ordens de Retreinamento"
+
+msgid "statisticsRewards/label/style"
+msgstr "Estilos 2D"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "Estilos 3D"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Tripulantes"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Equipamento de Recompensa"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Veículos"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Redefinir Estatísticas"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Clique para redefinir todas as estatísticas."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "E mais %(count) recompensa."
+msgstr[1] "E mais %(count) recompensas."
+msgstr[2] "E mais %(count) recompensa."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "«%(label)»"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "x%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Fragmentos de Projetos Nacionais"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). «%(label)» para %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Estilos Compensados: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Veículos Compensados: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Compensação para o veículo que já está na sua Garagem."

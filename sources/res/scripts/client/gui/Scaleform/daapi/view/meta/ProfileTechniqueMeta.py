@@ -1,0 +1,35 @@
+from gui.Scaleform.daapi.view.lobby.profile.ProfileSection import ProfileSection
+
+class ProfileTechniqueMeta(ProfileSection):
+
+    def setSelectedTableColumn(self, index, sortDirection):
+        self._printOverrideError(b'setSelectedTableColumn')
+        return
+
+    def setSeason(self, seasonId):
+        self._printOverrideError(b'setSeason')
+        return
+
+    def showVehiclesRating(self):
+        self._printOverrideError(b'showVehiclesRating')
+        return
+
+    def as_responseVehicleDossierS(self, data):
+        if self._isDAAPIInited():
+            return self.flashObject.as_responseVehicleDossier(data)
+        return
+
+    def as_setRatingButtonS(self, data):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setRatingButton(data)
+        return
+
+    def as_setBtnCountersS(self, counters):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setBtnCounters(counters)
+        return
+
+    def as_setPrestigeVisibleS(self, value):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setPrestigeVisible(value)
+        return

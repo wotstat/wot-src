@@ -1,0 +1,302 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "autoOpenView/bottomLabel"
+msgstr "Abrimos todas tus cajas de las Operaciones Festivas."
+
+msgid "autoOpenView/congratsLabel"
+msgstr "¡Felicitaciones!"
+
+msgid "autoOpenView/okBtnLabel"
+msgstr "¡Afirmativo!"
+
+msgid "buttonLabel/back"
+msgstr "Volver a garage"
+
+msgid "buttonLabel/buy"
+msgstr "Comprar"
+
+msgid "buttonLabel/buyMore"
+msgstr "Comprar cajas"
+
+msgid "buttonLabel/close"
+msgstr "Cerrar"
+
+msgid "buttonLabel/open"
+msgstr "Abrir"
+
+msgid "buttonLabel/openBox"
+msgstr "Abrir caja"
+
+msgid "buttonLabel/quest"
+msgstr "A misiones"
+
+msgid "buttonLabel/videoOff"
+msgstr "MOSTRAR ANIMACIÓN"
+
+msgid "buttonLabel/videoOn"
+msgstr "NO MOSTRAR ANIMACIÓN"
+
+msgid "compensationTooltip/after/header"
+msgstr "Compensación:"
+
+msgid "compensationTooltip/before/header"
+msgstr "Duplicado (x{count}):"
+
+msgid "compensationTooltip/crewSkin/header"
+msgstr "Compensación por un diseño de tripulación que ya tienes"
+
+msgid "compensationTooltip/vehicle/bottomText"
+msgstr "La recompensa otorgada como compensación por un vehículo que ya tienes."
+
+msgid "compensationTooltip/vehicle/header"
+msgstr "Compensación por un vehículo que ya está en tu garage."
+
+msgid "entryDesc/boxesCount"
+msgstr "x{count}"
+
+msgid "entryDesc/buySlot"
+msgstr "Puedes comprar cajas grandes en la Tienda Premium"
+
+msgid "entryDesc/newYear_premium"
+msgstr "Cajas grandes"
+
+msgid "entryDesc/newYear_usual"
+msgstr "Cajas pequeñas"
+
+msgid "entryDesc/questSlot"
+msgstr "Recibiste cajas pequeñas por completar misiones"
+
+msgid "entryDesc/restrictedMode"
+msgstr "Esta función no está disponible temporalmente. Vuelve a intentarlo más tarde."
+
+msgid "entryPoint/header"
+msgstr "Cajas"
+
+msgid "entryTooltip/body/h1"
+msgstr "Comprar cajas grandes:"
+
+msgid "entryTooltip/body/h2"
+msgstr "Ganar cajas pequeñas:"
+
+msgid "entryTooltip/body/p1"
+msgstr "Compra cajas con adornos para Año Nuevo para ti y tus amigos en la Tienda Premium."
+
+msgid "entryTooltip/body/p2"
+msgstr "Recibido por completar misiones de las Operaciones Festivas."
+
+msgid "entryTooltip/header"
+msgstr "Cajas"
+
+msgid "entryView/boxesCount"
+msgstr "{count} cajas más"
+
+msgid "entryView/buyLabel"
+msgstr "COMPRAR CAJAS"
+
+msgid "entryView/ended/newYear_premium"
+msgstr "No tienes cajas grandes en el Depósito.\nCompra más en la Tienda Premium."
+
+msgid "entryView/ended/newYear_usual"
+msgstr "No tienes cajas pequeñas.\nConsigue más en las batallas."
+
+msgid "entryView/lootboxesCount"
+msgstr "x{count}"
+
+msgid "entryView/title"
+msgstr "Operaciones Festivas {year}"
+
+msgid "entryView/year"
+msgstr "2019"
+
+msgid "multiOpenView/applyLabel"
+msgstr "¡Recibido!"
+
+msgid "multiOpenView/boxesInStorage"
+msgstr "Cajas disponibles: {count}"
+
+msgid "multiOpenView/boxesNotAvailable"
+msgstr "No hay cajas disponibles"
+
+msgid "multiOpenView/openBoxesLabel"
+msgstr "Abre otras {count} cajas"
+
+msgid "multiOpenView/openedCount"
+msgstr "x{count}"
+
+msgid "multiOpenView/title"
+msgstr "¡Felicitaciones!"
+
+msgid "notification/eventFinish/text"
+msgstr "Se abrirán todas las cajas de suministros que recibiste, y todo el contenido se enviará a tu cuenta."
+
+msgid "notification/eventFinish/title"
+msgstr "El evento de cajas de suministro Primavera cálida terminó"
+
+msgid "notification/eventStart/button"
+msgstr "Ir al evento"
+
+msgid "notification/eventStart/text"
+msgstr "Solo hasta %(date)s: ¡vehículos premium y objetos valiosos para el juego!"
+
+msgid "notification/eventStart/title"
+msgstr "El evento de cajas de suministro Primavera cálida ya empezó"
+
+msgid "notification/header"
+msgstr "¡Felicitaciones!"
+
+msgid "notification/lootBoxesAutoOpen/boxes"
+msgstr "Cajas de suministro abiertas: %(boxes)s"
+
+msgid "notification/lootBoxesAutoOpen/counter"
+msgstr "%(boxName)s (x%(count)d)"
+
+msgid "notification/lootBoxesAutoOpen/rewards"
+msgstr "Recibiste:\n%(rewards)s"
+
+msgid "notification/lootBoxesAutoOpen/text"
+msgstr "Cuando terminó el evento, abrimos todas tus cajas de suministros y añadimos su contenido a tu cuenta."
+
+msgid "notification/lootBoxesAutoOpen/title"
+msgstr "Apertura de cajas de suministros"
+
+msgid "notification/lootBoxesIsDisabled/text"
+msgstr "Las operaciones con las cajas de suministros no están disponibles temporalmente debido a tareas de mantenimiento."
+
+msgid "notification/lootBoxesIsDisabled/title"
+msgstr "Apertura de cajas de suministros"
+
+msgid "notification/lootBoxesIsEnabled/button"
+msgstr "Abrir"
+
+msgid "notification/lootBoxesIsEnabled/text"
+msgstr "Las operaciones con cajas de suministros están disponibles otra vez."
+
+msgid "notification/lootBoxesIsEnabled/title"
+msgstr "Apertura de cajas de suministros"
+
+msgid "notification/lootBoxesReceived/invoice"
+msgstr "Añadida"
+
+msgid "notification/ny19man"
+msgstr "Miembro de tripulación único: %(count)s"
+
+msgid "notification/rewards"
+msgstr "Recibes las siguientes recompensas:"
+
+msgid "restrictedMessage/body"
+msgstr "Las operaciones con cajas están suspendidas temporalmente. Mantén la calma y sigue adelante."
+
+msgid "restrictedMessage/header"
+msgstr "¡atención!"
+
+msgid "rewardView/boxesCount"
+msgstr "Cajas disponibles: {count}"
+
+msgid "rewardView/closeBtnLabel"
+msgstr "Cerrar"
+
+msgid "rewardView/congratsBtnLabel/style"
+msgstr "Ver estilo"
+
+msgid "rewardView/congratsBtnLabel/tankman"
+msgstr "Reclutar"
+
+msgid "rewardView/congratsBtnLabel/vehicle"
+msgstr "Ver en Garage"
+
+msgid "rewardView/congratsLabel/style"
+msgstr "Un estilo único para"
+
+msgid "rewardView/congratsLabel/tankman"
+msgstr "Un tripulante único"
+
+msgid "rewardView/congratsLabel/usual"
+msgstr "¡Felicitaciones!"
+
+msgid "rewardView/congratsLabel/vehicle"
+msgstr "¡QUÉ GIRO!"
+
+msgid "rewardView/nextOpenBtnLabel"
+msgstr "Abrir siguiente"
+
+msgid "rewardView/okOpenBtnLabel"
+msgstr "¡Recibido!"
+
+msgid "rewardView/openBtnLabel"
+msgstr "¡Recibido!"
+
+msgid "rewardView/rerollBtnLabel"
+msgstr "Volver a abrir"
+
+msgid "rewardView/zeroBoxes"
+msgstr "No hay cajas disponibles"
+
+msgid "specialReward/continueBtn"
+msgstr "Continuar"
+
+msgid "specialReward/style/goToBtn"
+msgstr "Ver estilo"
+
+msgid "specialReward/style/title"
+msgstr "Un estilo único para"
+
+msgid "specialReward/vehicle/goToBtn"
+msgstr "Ver en Garage"
+
+msgid "tooltip/category/header/Christmas"
+msgstr "Cajas Navideñas"
+
+msgid "tooltip/category/header/Fairytale"
+msgstr "Cajas Mágicas"
+
+msgid "tooltip/category/header/NewYear"
+msgstr "Cajas de Año Nuevo"
+
+msgid "tooltip/category/header/Oriental"
+msgstr "Cajas Lunares"
+
+msgid "tooltip/category/rewards/Christmas"
+msgstr "Colección de Navidad"
+
+msgid "tooltip/category/rewards/Fairytale"
+msgstr "Colección Mágica"
+
+msgid "tooltip/category/rewards/NewYear"
+msgstr "Colección de Año Nuevo"
+
+msgid "tooltip/category/rewards/Oriental"
+msgstr "Colección Lunar"
+
+msgid "tooltip/category/rewards/description"
+msgstr "Las cajas contienen adornos de {category} y otras recompensas valiosas."
+
+msgid "tooltip/category/rewards/header"
+msgstr "Logros:"
+
+msgid "tooltip/entryView/buyBoxes"
+msgstr "Compra cajas adicionales en la Tienda Premium."
+
+msgid "tooltip/entryView/openBoxes"
+msgstr "Abre varias cajas al mismo tiempo."
+
+msgid "tooltip/restrictedMode"
+msgstr "La acción no está disponible temporalmente. Intenta de nuevo más tarde."
+
+msgid "type/event_premium"
+msgstr "Caja de suministros Alba"
+
+msgid "type/newYear_premium"
+msgstr "CAJAS GRANDES"
+
+msgid "type/newYear_usual"
+msgstr "CAJAS PEQUEÑAS"
+
+msgid "type/wt_boss"
+msgstr "Arrancador de Ingeniero"
+
+msgid "type/wt_hunter"
+msgstr "Arrancador de Harriers"
+
+msgid "type/wt_special"
+msgstr "Cofres especiales"

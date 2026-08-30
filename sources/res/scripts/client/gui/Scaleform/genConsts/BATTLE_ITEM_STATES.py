@@ -1,0 +1,11 @@
+class BATTLE_ITEM_STATES(object):
+    DESTROYED = b'destroyed'
+    CRITICAL = b'critical'
+    NORMAL = b'normal'
+    REPAIRED = b'repaired'
+    REPAIRED_FULL = b'repairedFull'
+    RELOADED = b'reloaded'
+    PERMANENT = b'permanent'
+    COOLDOWN = b'cooldown'
+    SHOW = b'show'
+    HIDE = b'hide'

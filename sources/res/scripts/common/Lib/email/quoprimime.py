@@ -1,0 +1,194 @@
+__all__ = [
+ 0, 
+ 1, 
+ 2, 
+ 3, 
+ 4, 
+ 5, 
+ 6, 
+ 7, 
+ 8, 
+ 9, 
+ 10, 
+ 11, 
+ 12, 
+ 13]
+import re
+from string import hexdigits
+from email.utils import fix_eols
+CRLF = b'\r\n'
+NL = b'\n'
+MISC_LEN = 7
+hqre = re.compile(b'[^-a-zA-Z0-9!*+/ ]')
+bqre = re.compile(b'[^ !-<>-~\\t]')
+
+def header_quopri_check(c):
+    return bool(hqre.match(c))
+
+
+def body_quopri_check(c):
+    return bool(bqre.match(c))
+
+
+def header_quopri_len(s):
+    count = 0
+    for c in s:
+        if hqre.match(c):
+            count += 3
+        else:
+            count += 1
+
+    return count
+
+
+def body_quopri_len(str):
+    count = 0
+    for c in str:
+        if bqre.match(c):
+            count += 3
+        else:
+            count += 1
+
+    return count
+
+
+def _max_append(L, s, maxlen, extra=b''):
+    if not L:
+        L.append(s.lstrip())
+    elif len(L[-1]) + len(s) <= maxlen:
+        L[-1] += extra + s
+    else:
+        L.append(s.lstrip())
+    return
+
+
+def unquote(s):
+    return chr(int(s[1:3], 16))
+
+
+def quote(c):
+    return b'=%02X' % ord(c)
+
+
+def header_encode(header, charset=b'iso-8859-1', keep_eols=False, maxlinelen=76, eol=NL):
+    if not header:
+        return header
+    else:
+        if not keep_eols:
+            header = fix_eols(header)
+        quoted = []
+        if maxlinelen is None:
+            max_encoded = 100000
+        else:
+            max_encoded = maxlinelen - len(charset) - MISC_LEN - 1
+        for c in header:
+            if c == b' ':
+                _max_append(quoted, b'_', max_encoded)
+            elif not hqre.match(c):
+                _max_append(quoted, c, max_encoded)
+            else:
+                _max_append(quoted, b'=%02X' % ord(c), max_encoded)
+
+        joiner = eol + b' '
+        return joiner.join([b'=?%s?q?%s?=' % (charset, line) for line in quoted])
+
+
+def encode(body, binary=False, maxlinelen=76, eol=NL):
+    if not body:
+        return body
+    else:
+        if not binary:
+            body = fix_eols(body)
+        encoded_body = b''
+        lineno = -1
+        lines = body.splitlines(1)
+        for line in lines:
+            if line.endswith(CRLF):
+                line = line[:-2]
+            elif line[-1] in CRLF:
+                line = line[:-1]
+            lineno += 1
+            encoded_line = b''
+            prev = None
+            linelen = len(line)
+            for j in range(linelen):
+                c = line[j]
+                prev = c
+                if bqre.match(c):
+                    c = quote(c)
+                elif j + 1 == linelen:
+                    if c not in b' \t':
+                        encoded_line += c
+                    prev = c
+                    continue
+                if len(encoded_line) + len(c) >= maxlinelen:
+                    encoded_body += encoded_line + b'=' + eol
+                    encoded_line = b''
+                encoded_line += c
+
+            if prev and prev in b' \t':
+                if lineno + 1 == len(lines):
+                    prev = quote(prev)
+                    if len(encoded_line) + len(prev) > maxlinelen:
+                        encoded_body += encoded_line + b'=' + eol + prev
+                    else:
+                        encoded_body += encoded_line + prev
+                else:
+                    encoded_body += encoded_line + prev + b'=' + eol
+                encoded_line = b''
+            if lines[lineno].endswith(CRLF) or lines[lineno][-1] in CRLF:
+                encoded_body += encoded_line + eol
+            else:
+                encoded_body += encoded_line
+            encoded_line = b''
+
+        return encoded_body
+
+
+body_encode = encode
+encodestring = encode
+
+def decode(encoded, eol=NL):
+    if not encoded:
+        return encoded
+    decoded = b''
+    for line in encoded.splitlines():
+        line = line.rstrip()
+        if not line:
+            decoded += eol
+            continue
+        i = 0
+        n = len(line)
+        while i < n:
+            c = line[i]
+            if c != b'=':
+                decoded += c
+                i += 1
+            elif i + 1 == n:
+                i += 1
+                continue
+            elif i + 2 < n and line[i + 1] in hexdigits and line[i + 2] in hexdigits:
+                decoded += unquote(line[i:i + 3])
+                i += 3
+            else:
+                decoded += c
+                i += 1
+            if i == n:
+                decoded += eol
+
+    if not encoded.endswith(eol) and decoded.endswith(eol):
+        decoded = decoded[:-1]
+    return decoded
+
+
+body_decode = decode
+decodestring = decode
+
+def _unquote_match(match):
+    s = match.group(0)
+    return unquote(s)
+
+
+def header_decode(s):
+    s = s.replace(b'_', b' ')
+    return re.sub(b'=[a-fA-F0-9]{2}', _unquote_match, s)

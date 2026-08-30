@@ -1,0 +1,13 @@
+from gui.Scaleform.framework.entities.BaseDAAPIComponent import BaseDAAPIComponent
+
+class FrontlineOverviewMapScreenMeta(BaseDAAPIComponent):
+
+    def as_setKeyBindingsS(self, data):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setKeyBindings(data)
+        return
+
+    def as_updateLaneButtonNamesS(self, west, center, east):
+        if self._isDAAPIInited():
+            return self.flashObject.as_updateLaneButtonNames(west, center, east)
+        return

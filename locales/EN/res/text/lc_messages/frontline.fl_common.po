@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "battleCarousel/resetFilters/button"
+msgstr "Reset Filters"
+
+msgid "battleCarousel/resetFilters/title"
+msgstr "No vehicles matching the selected parameters.\nNeed to reset the filter settings to see the appropriate vehicles"
+
+msgid "battleType/description/fast"
+msgstr "A scenario with reduced Combat Reserve cooldown."
+
+msgid "battleType/description/random"
+msgstr "A scenario where players choose between sets of random Reserves with the opportunity to improve them to Level IV."
+
+msgid "battleType/description/standard"
+msgstr "A scenario with standard Frontline rules."
+
+msgid "battleType/postBattle/title"
+msgstr "Battle Scenario: %(name)s"
+
+msgid "battleType/shortDescription/fast"
+msgstr "Reduced Reserve cooldown."
+
+msgid "battleType/shortDescription/random"
+msgstr "Combat Reserves are given randomly."
+
+msgid "battleType/shortDescription/standard"
+msgstr "Standard rules are applied."
+
+msgid "battleType/title/fast"
+msgstr "Operational Support"
+
+msgid "battleType/title/random"
+msgstr "Twist of Fate"
+
+msgid "battleType/title/standard"
+msgstr "Standard Battle"
+
+msgid "battleType/title/wrapper"
+msgstr "%(name)s"
+
+msgid "button/back"
+msgstr "BACK"
+
+msgid "button/close"
+msgstr "CLOSE"
+
+msgid "day"
+msgid_plural "plural/day"
+msgstr[0] "{duration} day"
+msgstr[1] "{duration} days"
+msgstr[2] "{duration} days"
+
+msgid "filterPopover/note"
+msgstr "Only vehicles that can be used in the mode are displayed here."
+
+msgid "levelReservesTooltip/desc"
+msgstr "Combat Reserve Levels are increased upon reaching new ranks."
+
+msgid "levelReservesTooltip/info"
+msgstr "In the {whiteSpanish_Start}Twist of Fate{whiteSpanish_End} scenario, purchasing a Combat Reserve will increase its level by one and provide an opportunity to improve it to Level {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}."
+
+msgid "levelReservesTooltip/level"
+msgstr "Increases upon reaching the following rank: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelAvailable"
+msgstr "Available with the following rank: {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/levelTitle"
+msgstr "Level {whiteSpanish_Start}%(lvl)s{whiteSpanish_End}"
+
+msgid "levelReservesTooltip/optionalReserve"
+msgstr "For {whiteSpanish_Start}purchased Combat Reserves{whiteSpanish_End} in the {whiteSpanish_Start}Twist of Fate{whiteSpanish_End} scenario."
+
+msgid "levelReservesTooltip/title"
+msgstr "Combat Reserve Levels"
+
+msgid "loading"
+msgstr "Loading…"
+
+msgid "widget/eventStartSoon"
+msgstr "The event will start soon!"
+
+msgid "widget/maxTier"
+msgstr "You have reached the maximum Tier!"

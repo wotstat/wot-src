@@ -1,0 +1,473 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Estágio {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Capítulo Especial"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Concluído"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Ver a nova Progressão"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Selecionar Capítulo"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Temporariamente indisponível"
+
+msgid "battle_pass_widget/title"
+msgstr "Passe de Batalha"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Provação: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} - {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} d"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} d {{hours}} h"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} h"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} h {{minutes}} m"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} m"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Missão Bônus\nCumpra 3 Missões Padrões para desbloquear"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Tempo restante para completar a Missão Bônus"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Novas Missões Diárias em"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Isso é tudo por enquanto. Novas Missões Diárias vão ficar disponíveis em breve."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Cumpra a missão anterior para desbloquear esta."
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "As Missões Premium estão temporariamente indisponíveis"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Comprar Premium"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Necessita de uma Conta Premium WoT"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Missões Premium"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "As Missões Diárias estão temporariamente indisponíveis"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Repetir"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "DIÁRIAS"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "Acessar Campanhas"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Melhorar Resultado"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "Acessar Operação"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Um verdadeiro desafio para os veteranos, contendo veículos únicos como uma recompensa."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Você concluiu a operação {{currentOperationName}}! Você pode continuar melhorando seu resultado para completá-lo com honras, ou começar um novo desafio na operação {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Você ainda pode melhorar seu resultado na {{nextOperationName}}."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Você concluiu a operação {{currentOperationName}} com honras! A operação {{nextOperationName}} está disponível agora!"
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Os Pontos da Campanha podem ser obtidos ao cumprir Missões Pessoais, Missões Diárias e Missões Semanais."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Cumpra todas as {{totalProgress}} missões para concluir a operação com honras e ganhar mais recompensas."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Monte todas as partes para receber sua recompensa — o {{vehicleName}}. Ganhe Pontos da Campanha para coletar as partes do veículo cumprindo Missões Pessoais, além de Missões Diárias e Semanais."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Monte todas as partes para receber sua recompensa — o {{vehicleName}}. Ganhe Pontos da Campanha para coletar as partes do veículo cumprindo Missões Pessoais, além de Missões Diárias e Semanais."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Missões concluídas: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "A nova campanha Setor 3 está disponível!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Operação: {{nextOperationName}} disponível!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Operação: {{currentOperationName}} concluída com honras!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Operação: {{nextOperationName}} disponível!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Operação: {{currentOperationName}} | Estágio {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Concluindo a operação {{currentOperationName}} com honras"
+
+msgid "hub/basic_missions/title"
+msgstr "MISSÕES REGULARES"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "SEMANALMENTE"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Atualizado toda {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Missão Ativa"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "OU"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Novas missões em breve..."
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "LUTADOR"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "ÀS"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ELITE"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Existem três categorias de missões: Lutador, Elite e Às. Cada categoria oferece desafios únicos e recompensas valiosas."
+
+msgid "hub/challenge_missions/header"
+msgstr "PROVAÇÃO"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Ativar"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Reiniciar de Graça"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Reiniciar"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Abandonar"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "Acessar Missões"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Missões da Provação Concluídas"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "escudos restantes"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "reinícios gratuitos"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Cumpra as missões ativas da Provação"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Vai terminar em %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Indisponível: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "Veículo de Nível VI ou acima necessário"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "ATIVAR"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Concluídas"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} missões"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Missão do Desafio"
+
+msgid "hub/challenge_missions/new"
+msgstr "NOVO"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "Acessar Provação"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "Acessar Provação"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "PROVAÇÃO: {{ challengeName }} CONCLUÍDO!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "Acessar Provação"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "Provação: {{ challenge }} não concluído. Reinicie para obter as recompensas de novo!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "Acessar Provação"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "MISSÃO {{ mission }} CONCLUÍDA!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "Acessar Provação"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Missão {{ mission }} falhada"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "ESCUDOS RESTANTES"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "Acessar Provação"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Entre na Provação e encare conjuntos de missões desafiadoras com recompensas valiosas para quem ousar conquistá-las."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "NOVAS MISSÕES DA PROVAÇÃO DISPONÍVEIS!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Forje o seu caminho rumo à glória na Provação: encare conjuntos de missões desafiadoras com recompensas valiosas para quem ousar conquistá-las."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "PARTICIPE DA PROVAÇÃO"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Concluídas"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Conjunto de anexo 3D"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Equipamento melhorado"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "Estilo 2D"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Tripulante"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Veículo"
+
+msgid "hub/challenge_missions/title"
+msgstr "MISSÕES DA PROVAÇÃO"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "Sobre a Provação"
+
+msgid "hub/common_missions/title"
+msgstr "MISSÕES EXTRA"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Pegar Recompensas"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "A Recompensa Épica está temporariamente indisponível"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "Toda Missão Padrão, Premium ou Bônus contribui em direção ao seu progresso."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Disponível"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Cumpra Missões Diárias para ganhar Recompensas Épicas"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Resgatar Recompensa"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Pegar Recompensas"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "Toda Missão Padrão, Premium ou Bônus contribui em direção ao seu progresso."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Disponível"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Cumpra Missões Diárias para ganhar Recompensas Épicas: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Assim que você cumprir 3 Missões Padrão, uma Missão Bônus fica disponível com recompensas ainda mais valiosas. A Missão Bônus deve ser concluída até o final do dia. Caso contrário, ela irá expirar."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Missão Bônus"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Algumas missões devem ser concluídas em uma batalha, enquanto outras são acumulativas e podem ser concluídas em qualquer número de batalhas. As missões acumulativas têm uma barra de progresso. Você pode completar missões em Batalhas Aleatórias."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Condições"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Você pode mudar as Missões Padrões que não gostar para receber uma nova missão aleatória. Feito isso, o botão \"Mudar Missão\" vai ficar indisponível durante {{time}}. Mudar uma missão pode fazer com que você perca seu progresso se um ou mais dos seus veículos estiverem em batalha."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Mudar Missão"
+
+msgid "info_page/additional/reward/description"
+msgstr "A Recompensa Épica é um ciclo no estilo maratona, onde cada Missão Padrão, Premium ou Bônus concluída contribui em direção ao seu progresso. Assim que o ciclo por concluído, ele reinicia e começa tudo de novo. O ciclo da Recompensa Épica não possui limite de tempo e pode ser concluído a qualquer momento."
+
+msgid "info_page/additional/reward/title"
+msgstr "Recompensa Épica"
+
+msgid "info_page/header"
+msgstr "SOBRE AS MISSÕES"
+
+msgid "info_page/main/premium/description"
+msgstr "Com uma Conta Premium WoT você ganha acesso a três Missões Premium em sequência. Elas podem ser cumpridas nas Batalhas Aleatórias e no Investida, e seu progresso é atualizado a cada batalha. As Missões Premium garantem recompensas exclusivas dos eventos do jogo."
+
+msgid "info_page/main/premium/title"
+msgstr "Missões Premium"
+
+msgid "info_page/main/standard/description"
+msgstr "As Missões Padrões são condições diárias aleatórias, cujo progresso é atualizado após cada batalha. Recomendamos cumpri-las no dia que você recebê-las, pois as missões não concluídas continuam ativas no dia seguinte e bloqueiam as novas. As Missões padrões fornecem Pontos do Passe de Batalha durante o Passe de Batalha e recompensas específicas de acordo com cada evento."
+
+msgid "info_page/main/standard/title"
+msgstr "Missões Padrão"
+
+msgid "info_page/main/weekly/description"
+msgstr "As Missões Semanais são um conjunto de tarefas disponíveis toda semana. O Progresso é atualizado após cada batalha e as missões concluídas são substituídas por novas quando o próximo ciclo semanal começar. Você pode cumprir Missões Semanais nas Batalhas Aleatórias e no modo Investida para receber bônus adicionais."
+
+msgid "info_page/main/weekly/title"
+msgstr "Missões Semanais"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Todas as missões regulares cumpridas por hoje"
+
+msgid "quests/daily_quests/completed"
+msgstr "Todas as Missões Diárias cumpridas"
+
+msgid "tooltip/common/timer"
+msgstr "Disponível em {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Todas as missões regulares cumpridas! Você pode encontrar mais na aba Missões Extras."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Missão Bônus"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Concluído"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Missão Diária"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Expira em {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Novas Missões Diárias em {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Missão Premium"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Recompensas:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Você pode mudar uma missão que não gostar \npor uma nova a cada {time} horas."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Mudar Missão"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Missão concluída, recompensa recebida."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Conclua a missão anterior para desbloquear esta. Todas as missões da série devem ser completadas em ordem."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Clique para obter mais informações"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "Sobre as Missões"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Essa série de missões pode ser cumprida novamente. Seu progresso será reiniciado, os escudos serão restaurados e você poderá ganhar as recompensas novamente."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Repetir as Missões"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Você pode reiniciar uma série de missões depois de perder todos os seus escudos. O progresso da sua missão será reiniciado, os escudos serão restaurados e você poderá ganhar as recompensas novamente."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Reinícios subsequentes custam: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Reinícios gratuitos disponíveis: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Cada reinício custa: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Reinícios"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Os escudos protegem seu progresso. Cada missão falhada custa um escudo, e quando todos os escudos forem perdidos, a série de missões será considerada falhada. Seus escudos serão restaurados se você reiniciar a série."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Escudos"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Restrição de veículos:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Missão Semanal"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Você pode mudar essa Missão Semanal a cada {{time}}."
+
+msgid "welcome/button"
+msgstr "Afirmativo!"

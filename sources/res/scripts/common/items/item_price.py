@@ -1,0 +1,52 @@
+from __future__ import absolute_import
+from future.utils import old_div, viewvalues
+from goodies.GoodieResources import Gold, Credits
+
+class PRICE_TYPE:
+    DEFAULT = (0,)
+    PROMO = (1,)
+    PERSONAL = (2,)
+
+
+def getItemPrice(item, gameParams, goodies=None, goodieTarget=None):
+    priceType = PRICE_TYPE.DEFAULT
+    actualPrice = gameParams[b'items'][b'itemPrices'][item]
+    defaultPrice = gameParams[b'defaults'].get(b'items', {}).get(b'itemPrices', {}).get(item, None)
+    if not defaultPrice:
+        defaultPrice = actualPrice
+    else:
+        priceType = PRICE_TYPE.PROMO
+    if (actualPrice[0] == 0 or actualPrice[1] == 0) and goodies and goodieTarget:
+        personalDiscounts = goodies.test(goodieTarget, {Credits(defaultPrice[0]), Gold(defaultPrice[1])})
+        for discount in viewvalues(personalDiscounts):
+            if isinstance(discount, Gold) and discount.value <= actualPrice[1]:
+                actualPrice = (
+                 0, discount.value)
+                priceType = PRICE_TYPE.PERSONAL
+            elif isinstance(discount, Credits) and discount.value <= actualPrice[0]:
+                actualPrice = (
+                 discount.value, 0)
+                priceType = PRICE_TYPE.PERSONAL
+
+    return (
+     defaultPrice, actualPrice, priceType)
+
+
+def getNextSlotPrice(slots, slotsPrices):
+    addSlotNumber = slots - slotsPrices[0]
+    if addSlotNumber < 0:
+        if len(slotsPrices[1]):
+            return (slotsPrices[1][0][0], 0)
+        return (b'credits', 0)
+    if addSlotNumber < len(slotsPrices[1]):
+        return slotsPrices[1][addSlotNumber]
+    return slotsPrices[1][-1]
+
+
+def getNextBerthPackPrice(berths, berthsPrices):
+    addPackNumber = old_div(berths - berthsPrices[0], berthsPrices[1])
+    if addPackNumber < 0:
+        return 0
+    if addPackNumber < len(berthsPrices[2]):
+        return berthsPrices[2][addPackNumber]
+    return berthsPrices[2][-1]

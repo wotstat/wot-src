@@ -1,0 +1,431 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShotReady"
+msgstr "O Disparo de Energia está pronto."
+
+msgid "LS_aoeDrainEnemyHpInstantShotReady"
+msgstr "O Disparo Vampírico está pronto."
+
+msgid "LS_aoeStunInstantShotReady"
+msgstr "O Disparo de Atordoamento está pronto."
+
+msgid "LS_damageShieldReady"
+msgstr "O Escudo de Energia está pronto."
+
+msgid "LS_doubleDamageReady"
+msgstr "O Dano em Dobro está pronto."
+
+msgid "LS_extraDamageSituationalReady"
+msgstr "Dano Situacional pronto."
+
+msgid "LS_fastReloadReady"
+msgstr "O Recarregamento Rápido está pronto."
+
+msgid "LS_healSituationalReady"
+msgstr "Reparos Situacional pronto."
+
+msgid "LS_invisibilityReady"
+msgstr "O Curado Pelas Sombras está pronto."
+
+msgid "LS_nitroReady"
+msgstr "O Turbocompressor está pronto."
+
+msgid "LS_pickupSouls"
+msgstr "Você coletou %(souls)s item(ns) de Mirium"
+
+msgid "LS_selfRepairReady"
+msgstr "O Reparos de Emergência está pronto."
+
+msgid "LS_situationalNitroReady"
+msgstr "Mobilidade Situacional pronto."
+
+msgid "LS_teamRepairKitReady"
+msgstr "O Reparos de Grupo está pronto."
+
+msgid "LS_teamRepairKitUsed"
+msgstr "%(player)s ativou o Reparos de Grupo."
+
+msgid "LS_teamRepairKitUsedSelf"
+msgstr "Reparos de Grupo ativado."
+
+msgid "arena/marker/attention_to_camp"
+msgstr "Atenção na zona: %(gridId)s"
+
+msgid "arena/marker/attention_to_magnus"
+msgstr "Defenda o ATLAS!"
+
+msgid "arena/marker/defend_magnus"
+msgstr "Defenda o ATLAS"
+
+msgid "arena/marker/move_to_camp"
+msgstr "Indo para a zona!"
+
+msgid "arena/marker/move_to_magnus"
+msgstr "Defendendo o ATLAS!"
+
+msgid "arena/phase"
+msgstr "Fase %(current)s de %(total)s"
+
+msgid "arena/wave"
+msgstr "Onda %(current)s de %(total)s"
+
+msgid "battleHint/bomber"
+msgstr "Ouriços&nbsp;se aproximando!"
+
+msgid "battleHint/bomber_alpha"
+msgstr "Ouriço Alfa&nbsp;se aproximando!"
+
+msgid "battleHint/clearTheArea"
+msgstr "Limpe a área!"
+
+msgid "battleHint/convoyCloseToMagnus"
+msgstr "Rápido! O Zero está perto do&nbsp;ATLAS!"
+
+msgid "battleHint/convoyDestroyedEnemiesLeft"
+msgstr "Zero destruído!\nInimigos restantes: {num}"
+
+msgid "battleHint/destroyEnemies"
+msgstr "Inimigos para destruir: {num}"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus"
+msgstr "informações, %(buffBonus)s"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Veículos reparados"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_SHIELD"
+msgstr "Escudo concedido"
+
+msgid "battleHint/destroyObelisk/subtitle/bonus/LS_BOT_OBELISK_STUN"
+msgstr "Inimigos atordoados"
+
+msgid "battleHint/destroyObelisk/title"
+msgstr "%(name)s Obelisco destruído!"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_HP_REGEN"
+msgstr "Regen"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_SHIELD"
+msgstr "Barreira"
+
+msgid "battleHint/destroyObelisk/title/name/LS_BOT_OBELISK_STUN"
+msgstr "Glitch"
+
+msgid "battleHint/enemiesFromAbove"
+msgstr "Pontos de spawn detectados! Inimigos avançando!"
+
+msgid "battleHint/hunter"
+msgstr "Caçadores&nbsp;se aproximando!"
+
+msgid "battleHint/lastWaveFinished"
+msgstr "Onda destruída!"
+
+msgid "battleHint/leftToDestroy"
+msgstr "Inimigos para destruir:"
+
+msgid "battleHint/missing_squad"
+msgstr "O Pelotão Perdido se aproxima!"
+
+msgid "battleHint/newWave"
+msgstr "Onda {current} de {total}"
+
+msgid "battleHint/obelisk_spawn"
+msgstr "Um Obelisco apareceu!"
+
+msgid "battleHint/stopConvoy"
+msgstr "Impeça o Zero!"
+
+msgid "battleHint/stopConvoyBeforeMagnus"
+msgstr "Impeça o Zero\nantes que ele alcance o ATLAS!"
+
+msgid "battleHint/trapper"
+msgstr "Destrua o Caçador para&nbsp;impedir que as zonas de destruição apareçam."
+
+msgid "battleHint/turret"
+msgstr "Os Mosquitos despertaram!"
+
+msgid "battleHint/waveFinished"
+msgstr "Onda destruída!\nReagrupar para prosseguir!"
+
+msgid "battleHint/waveFinishedRegroup"
+msgstr "Reagrupar para prosseguir!"
+
+msgid "battleHint/waveReinforcements"
+msgstr "Reforços inimigos&nbsp;chegaram!"
+
+msgid "common/close"
+msgstr "FECHAR"
+
+msgid "consumablesPanel/tooltip/durationTime"
+msgstr "Duração: %(time)s s"
+
+msgid "damageLog/personal_death_zone"
+msgstr "Dano da zona"
+
+msgid "damageLog/static_death_zone"
+msgstr "Dano da zona"
+
+msgid "efficiencyRibbons/aoeBurn"
+msgstr "Incendiado com Pirocinese"
+
+msgid "efficiencyRibbons/aoeDamage"
+msgstr "Dano por Ataque de Energia"
+
+msgid "efficiencyRibbons/bomberExplosion"
+msgstr "Dano por explosão"
+
+msgid "efficiencyRibbons/damageVampire"
+msgstr "Dano por Vampirismo"
+
+msgid "efficiencyRibbons/extraDamageSituational"
+msgstr "Dano Situacional ativado"
+
+msgid "efficiencyRibbons/healSituational"
+msgstr "Reparos Situacionais ativado"
+
+msgid "efficiencyRibbons/instantShotAoeDamage"
+msgstr "Dano por Disparo de Energia"
+
+msgid "efficiencyRibbons/instantShotAoeDrainEnemyHp"
+msgstr "Dano por Disparo Vampírico"
+
+msgid "efficiencyRibbons/instantShotAoeStun"
+msgstr "Dano por Disparo de Atordoamento"
+
+msgid "efficiencyRibbons/modulesDamageBlocked"
+msgstr "Invulnerabilidade do Módulo"
+
+msgid "efficiencyRibbons/nitroActivated"
+msgstr "Mobilidade Situacional ativada"
+
+msgid "efficiencyRibbons/passiveVampire"
+msgstr "Restauração"
+
+msgid "efficiencyRibbons/repair"
+msgstr "Veículo reparado"
+
+msgid "efficiencyRibbons/repairByObelisk"
+msgstr "Veículo reparado por"
+
+msgid "efficiencyRibbons/repairByOther"
+msgstr "Veículo reparado por aliado"
+
+msgid "efficiencyRibbons/repairOther"
+msgstr "Aliados reparados"
+
+msgid "eventStats/activeWave"
+msgstr "Onda %(num)s"
+
+msgid "eventStats/difficulty"
+msgstr "Dificuldade: %(difficulty)s"
+
+msgid "eventStats/eventName"
+msgstr "Última Defesa: Terra Nord"
+
+msgid "eventStats/globalTask"
+msgstr "Objetivo: Destrua todas as ondas inimigas"
+
+msgid "eventStats/mission"
+msgstr "Destrua todas as ondas inimigas"
+
+msgid "eventStats/tableCaption"
+msgstr "Membros do Esquadrão"
+
+msgid "help/description_0"
+msgstr "Destrua todas as ondas inimigas para vencer.\nOs inimigos ficam mais fortes a cada onda sucessiva."
+
+msgid "help/description_1"
+msgstr "A combinação correta de Dispositivos Táticos pode ser muito poderosa.\nLembre-se: as diretivas e todos os tipos de projéteis são gratuitos no modo Última Defesa."
+
+msgid "help/description_2"
+msgstr "Danificar um Obelisco transfere parte desse dano aos veículos inimigos. Se você destruir um Obelisco, vai ganhar um bônus aleatório."
+
+msgid "help/description_3"
+msgstr "Proteja o ATLAS do último tanque eco, o Zero, a qualquer custo. Se ele alcançar o ATLAS, irá destrui-lo e a batalha será considerada perdida."
+
+msgid "help/title"
+msgstr "ÚLTIMA DEFESA: TERRA NORD"
+
+msgid "help/title_0"
+msgstr "ONDAS DE ATAQUE INIMIGO"
+
+msgid "help/title_1"
+msgstr "DICAS DE SOBREVIVÊNCIA"
+
+msgid "help/title_2"
+msgstr "USE OS OBELISCOS EM BATALHA"
+
+msgid "help/title_3"
+msgstr "DEFENDA O ATLAS"
+
+msgid "helpScreen/hint/description"
+msgstr "para ver as regras do modo"
+
+msgid "helpScreen/hint/press"
+msgstr "Pressione"
+
+msgid "hitMarker/useless"
+msgstr "Sem uso!"
+
+msgid "loading/description_0"
+msgstr "Destrua todas as ondas inimigas para vencer.\nOs inimigos ficam mais fortes a cada onda sucessiva."
+
+msgid "loading/description_1"
+msgstr "A combinação correta de Dispositivos Táticos pode ser muito poderosa.\nLembre-se: as diretivas e todos os tipos de projéteis são gratuitos no modo Última Defesa."
+
+msgid "loading/description_2"
+msgstr "Danificar um Obelisco transfere parte desse dano aos veículos inimigos. Se você destruir um Obelisco, vai ganhar um bônus aleatório."
+
+msgid "loading/description_3"
+msgstr "Proteja o ATLAS do último tanque eco, o Zero, a qualquer custo. Se ele alcançar o ATLAS, irá destrui-lo e a batalha será considerada perdida."
+
+msgid "loading/title"
+msgstr "Carregando..."
+
+msgid "loading/title_0"
+msgstr "ONDAS DE ATAQUE INIMIGO"
+
+msgid "loading/title_1"
+msgstr "DICAS DE SOBREVIVÊNCIA"
+
+msgid "loading/title_2"
+msgstr "USE OS OBELISCOS EM BATALHA"
+
+msgid "loading/title_3"
+msgstr "DEFENDA O ATLAS"
+
+msgid "player_errors/equipment/LS_engineIsDestroyed"
+msgstr "Não é possível usar [%(name)s]: o motor está destruído."
+
+msgid "player_errors/equipment/LS_gunDestroyed"
+msgstr "Não é possível usar [%(name)s]: o canhão está danificado."
+
+msgid "player_errors/equipment/LS_instantReload/notRequired"
+msgstr "O canhão está carregado."
+
+msgid "player_errors/equipment/LS_notEnoughSouls"
+msgstr "Não é possível usar [%(name)s]: não há Mirium suficiente para ativar o dispositivo."
+
+msgid "player_errors/equipment/LS_selfRepair/notRequired"
+msgstr "O veículo não está danificado."
+
+msgid "player_errors/equipment/LS_vehicleIsDrowning"
+msgstr "Não é possível usar [%(name)s]: o veículo está sofrendo afogamento."
+
+msgid "player_errors/equipment/LS_vehicleIsOnFire"
+msgstr "Não é possível usar [%(name)s]: o veículo está em chamas."
+
+msgid "player_errors/equipment/LS_vehicleIsOverturned"
+msgstr "Não é possível usar [%(name)s]: o veículo está virado."
+
+msgid "player_messages/killedAllyByBomberExplosion"
+msgstr "Aliado %(target)s destruído por uma explosão inimiga%(attacker)s."
+
+msgid "player_messages/killedAllyByDeathPit"
+msgstr "Aliado %(target)s se acidentou."
+
+msgid "player_messages/killedAllyByDeathZoneArtillery"
+msgstr "Aliados %(target)s destruídos pela zona de destruição."
+
+msgid "player_messages/killedByPhaseTimerAlly"
+msgstr "Aliado %(target)s destruído."
+
+msgid "postmortemPanel/doNotLeaveGame/desc"
+msgstr "Se o seu Esquadrão conseguir eliminar esta Onda."
+
+msgid "postmortemPanel/doNotLeaveGame/title"
+msgstr "VOCÊ VAI DAR RESPAWN"
+
+msgid "postmortemPanel/lastPhase/title"
+msgstr "Sua batalha terminou.\nVocê mandou bem!"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ARTILLERY"
+msgstr "Veículo destruído pela zona de destruição"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_AOE_DAMAGE"
+msgstr "Veículo destruído por Ataque de Energia"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_IGNITE"
+msgstr "Veículo destruído por Pirocinese"
+
+msgid "postmortem_messages/DEATH_FROM_LS_ABILITY_VAMPIRE"
+msgstr "Veículo destruído por Vampirismo"
+
+msgid "postmortem_messages/DEATH_FROM_LS_BOMBER_EXPLOSION"
+msgstr "Veículo destruído por uma explosão"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEATH_PIT"
+msgstr "Veículo acidentado"
+
+msgid "postmortem_messages/DEATH_FROM_LS_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Módulo [%(device)s] explodiu com disparo de jogador"
+
+msgid "postmortem_messages/DEATH_FROM_LS_FIRE"
+msgstr "Veículo destruído por incêndio"
+
+msgid "postmortem_messages/DEATH_FROM_LS_PHASE_TIMER_SELF_SUICIDE"
+msgstr "Veículo destruído. Tempo encerrado."
+
+msgid "postmortem_messages/DEATH_FROM_LS_SHOT"
+msgstr "Veículo destruído por um disparo inimigo"
+
+msgid "prebattle/description/message"
+msgstr "Objetivo: Destrua todas as ondas inimigas"
+
+msgid "prebattle/description/title"
+msgstr "Última Defesa: Dificuldade %(difficulty)s"
+
+msgid "prebattle/difficulty/107"
+msgstr "Regular"
+
+msgid "prebattle/difficulty/108"
+msgstr "Avançado"
+
+msgid "prebattle/difficulty/109"
+msgstr "Brutal"
+
+msgid "prebattle/waiting/title"
+msgstr "Esperando pelos jogadores..."
+
+msgid "radialMenu/attention_here"
+msgstr "Solicitar defesa"
+
+msgid "radialMenu/cancel"
+msgstr "Cancelar"
+
+msgid "radialMenu/confirm"
+msgstr "Afirmativo!"
+
+msgid "radialMenu/move_to_camp"
+msgstr "Indo para a zona!"
+
+msgid "radialMenu/move_to_magnus"
+msgstr "Defendendo"
+
+msgid "radialMenu/obelisk"
+msgstr "Vou enfrentar o Obelisco!"
+
+msgid "radialMenu/obeliskHelp"
+msgstr "Destrua o Obelisco!"
+
+msgid "statusNotificationTimers/obeliskShield"
+msgstr "Escudo de Energia"
+
+msgid "statusNotificationTimers/overturned"
+msgstr "Voltando para a batalha..."
+
+msgid "statusNotificationTimers/personalDeathZone"
+msgstr "Saia\nda zona de perigo!"
+
+msgid "teamList/teammates"
+msgstr "Aliados"
+
+msgid "voice_chat_panel/hint/chat/off"
+msgstr "Desativar chat de voz"
+
+msgid "voice_chat_panel/hint/chat/on"
+msgstr "Ativar chat de voz"
+
+msgid "voice_chat_panel/hint/talk"
+msgstr "Pressione para falar"

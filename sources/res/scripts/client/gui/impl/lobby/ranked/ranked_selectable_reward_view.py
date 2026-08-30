@@ -1,0 +1,79 @@
+import typing
+from AccountCommands import RES_SUCCESS
+from frameworks.wulf import WindowFlags
+from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.ranked.ranked_selectable_reward_view_model import RankedSelectableRewardViewModel
+from gui.impl.lobby.common.selectable_reward_base import SelectableRewardBase
+from gui.impl.pub.lobby_window import LobbyNotificationWindow
+from gui.ranked_battles.constants import YEAR_AWARDS_ORDER
+from gui.selectable_reward.common import RankedSelectableRewardManager
+from gui.server_events.bonuses import getMergedBonusesFromDicts
+from gui.shared.event_dispatcher import showRankedYearAwardWindow
+from helpers import dependency
+from skeletons.gui.game_control import IRankedBattlesController
+if typing.TYPE_CHECKING:
+    from gui.SystemMessages import ResultMsg
+
+class RankedSelectableRewardView(SelectableRewardBase):
+    __slots__ = (b'__allRewards', b'__points')
+    __rankedController = dependency.descriptor(IRankedBattlesController)
+    __REWARDS_ORDER = [
+     2, 3, 4, 5, 
+     6, 7, 8, 
+     9]
+    _helper = RankedSelectableRewardManager
+
+    def __init__(self, receivedRewards=None):
+        super(RankedSelectableRewardView, self).__init__(R.views.lobby.ranked.RankedSelectableRewardView(), self._helper.getAvailableSelectableBonuses(), RankedSelectableRewardViewModel)
+        self.__allRewards = receivedRewards or {}
+        self.__points = 0
+        completedYearQuest = self.__rankedController.getCompletedYearQuest()
+        if completedYearQuest is not None:
+            self.__points = next(completedYearQuest.iterkeys(), 0)
+        return
+
+    @property
+    def viewModel(self):
+        return super(RankedSelectableRewardView, self).getViewModel()
+
+    def _onLoading(self, *args, **kwargs):
+        super(RankedSelectableRewardView, self)._onLoading()
+        rankedType = self.__rankedController.getAwardTypeByPoints(self.__points) or YEAR_AWARDS_ORDER[0]
+        with self.viewModel.transaction() as tx:
+            tx.setRewardType(rankedType)
+        return
+
+    def _processReceivedRewards(self, result):
+        receivedRewards = result.auxData[RES_SUCCESS]
+        isFirstShow = bool(self.__allRewards)
+        self.__allRewards = getMergedBonusesFromDicts([self.__allRewards, receivedRewards])
+        self.__tryToShowRewardsWindow(not isFirstShow)
+        self.destroyWindow()
+        return
+
+    def _onCloseClick(self):
+        self.__tryToShowRewardsWindow()
+        super(RankedSelectableRewardView, self)._onCloseClick()
+        return
+
+    def _getItemsSortKey(self, _):
+        return self.__rewardsSortKey
+
+    def __tryToShowRewardsWindow(self, showRemainedSelection=False):
+        if self.__allRewards:
+            showRankedYearAwardWindow(self.__allRewards, self.__points, True, showRemainedSelection=showRemainedSelection)
+        return
+
+    def __rewardsSortKey(self, reward):
+        defaultKey = len(self.__REWARDS_ORDER)
+        rewardsList = self.__REWARDS_ORDER
+        if reward[0] in rewardsList:
+            return rewardsList.index(reward[0])
+        return defaultKey
+
+
+class RankedSelectableRewardWindow(LobbyNotificationWindow):
+
+    def __init__(self, rewards):
+        super(RankedSelectableRewardWindow, self).__init__(content=RankedSelectableRewardView(rewards), wndFlags=WindowFlags.WINDOW | WindowFlags.WINDOW_FULLSCREEN)
+        return

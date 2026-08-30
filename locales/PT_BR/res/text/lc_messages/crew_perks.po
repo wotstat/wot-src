@@ -1,0 +1,995 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "armorPatching/alt/description"
+msgstr "Receber dano interrompe a restauração da HP.\n\nA taxa de restauração da HP e limite máximo de recuperação são baseados na HP total dos veículos, incluindo todos os modificadores aplicados."
+
+msgid "armorPatching/alt/info"
+msgstr "Para habilidades de grupo, o nível médio de treinamento entre todos os tripulantes é levado em consideração. Ela entra em vigor quando é treinada em pelo menos 1% e sua eficácia aumenta com o treinamento adicional."
+
+msgid "armorPatching/currentLvlDescription"
+msgstr "Usar um Kit de Consertos restaura %(hpRecover)s da {yellow_Start}HP{yellow_End} do veículo durante 5 s, até um máximo de 20% por batalha. Permite o uso do Kit de Consertos sem a existência de danos críticos."
+
+msgid "armorPatching/hudDescription"
+msgstr "Pontos de vida são restaurados."
+
+msgid "armorPatching/maxLvlDescription"
+msgstr "Quando treinada por completo em todos os tripulantes, restaura %(hpRecover)s da {yellow_Start}HP{yellow_End} do veículo durante 5 s após usar um Kit de Consertos, até um máximo de 20% por batalha. Permite o uso do Kit de Consertos sem a existência de danos críticos."
+
+msgid "armorPatching/name"
+msgstr "Reparo da Blindagem"
+
+msgid "armorPatching/shortDescription"
+msgstr "@ Aumenta a ocultação base do veículo."
+
+msgid "brotherhood/alt/description"
+msgstr "O bônus da eficiência da tripulação melhora a eficácia do tripulante em batalha, além da efetividade de todas as habilidades aprendidas, exceto este aqui. Este parâmetro pode ser melhorado montando equipamentos ou consumíveis com efeito semelhante, ou usando a diretiva Ventilação Forçada. A habilidade do Comandante \"Emergência\", assim como a habilidade do Operador de Rádio \"Lado a Lado\" e \"Especialista em Comunicações\", também podem aumentar o parâmetro."
+
+msgid "brotherhood/alt/info"
+msgstr "Para habilidades de grupo, o nível médio de treinamento entre todos os tripulantes é levado em consideração. Ela entra em vigor quando é treinada em pelo menos 1% e sua eficácia aumenta com o treinamento adicional."
+
+msgid "brotherhood/currentLvlDescription"
+msgstr "Aumenta o {greenBright_Start}bônus da eficiência da tripulação{greenBright_End} de todos os tripulantes em %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/maxLvlDescription"
+msgstr "Quando treinada em todos os tripulantes, aumenta o {greenBright_Start}bônus da eficiência da tripulação{greenBright_End} de todos os tripulantes em %(crewLevelIncrease)s&zwnbsp;."
+
+msgid "brotherhood/name"
+msgstr "Irmãos de Armas"
+
+msgid "brotherhood/shortDescription"
+msgstr "Aumenta a performance geral da tripulação."
+
+msgid "camouflage/alt/description"
+msgstr "Esta habilidade afeta a ocultação do veículo. Ela pode ser melhorada com a diretiva Cobertura Natural.\n\nAlém disso, a ocultação do veículo pode ser aumentada ao aplicar um padrão de camuflagem/estilo, ou montando equipamentos com efeito semelhante."
+
+msgid "camouflage/alt/info"
+msgstr "Para habilidades de grupo, o nível médio de treinamento entre todos os tripulantes é levado em consideração. Ela entra em vigor quando é treinada em pelo menos 1% e sua eficácia aumenta com o treinamento adicional."
+
+msgid "camouflage/currentLvlDescription"
+msgstr "Aumenta a {greenBright_Start}ocultação{greenBright_End} do veículo em %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/maxLvlDescription"
+msgstr "Quando treinada em todos os tripulantes, aumenta a {greenBright_Start}ocultação do veículo{greenBright_End} em %(maskingFactor)s&zwnbsp;."
+
+msgid "camouflage/name"
+msgstr "Ocultação"
+
+msgid "camouflage/shortDescription"
+msgstr "Aumenta a ocultação base do veiculo."
+
+msgid "commander_coordination/alt/description"
+msgstr "O efeito ativa cada vez que um veículo inimigo for detectado e não se acumula quando vários veículos são detectados.\n\nA velocidade da mira pode ser aumentada ao treinar a habilidade do Artilheiro Mira Rápida ou ao montar um equipamento com efeito semelhante."
+
+msgid "commander_coordination/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "commander_coordination/currentLvlDescription"
+msgstr "A {yellow_Start}velocidade da mira{yellow_End} será aumentada em %(vehicleGunAimSpeed)s durante 15 s depois que você detectar um veículo inimigo."
+
+msgid "commander_coordination/hudDescription"
+msgstr "A velocidade da mira é aumentada."
+
+msgid "commander_coordination/maxLvlDescription"
+msgstr "Quando treinada por completo, aumenta a {yellow_Start}velocidade da mira{yellow_End} em %(vehicleGunAimSpeed)s durante 15 s após você detectar um veículo inimigo.\t"
+
+msgid "commander_coordination/name"
+msgstr "Coordenação"
+
+msgid "commander_coordination/shortDescription"
+msgstr "A velocidade da mira é aumentada."
+
+msgid "commander_eagleEye/alt/description"
+msgstr "O alcance de visão pode ser aumentado ao treinar o Operador de Rádio com a habilidade Visão de Jogo ou ao montar um equipamento com efeito semelhante. Usar a diretiva Calibragem Ótica melhora o efeito."
+
+msgid "commander_eagleEye/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "commander_eagleEye/currentLvlDescription"
+msgstr "O {greenBright_Start}alcance de visão{greenBright_End} é aumentado em %(circularVisionRadius)s&zwnbsp;. A {greenBright_Start}penalidade ao dano nos dispositivos de observação{greenBright_End} é reduzida em %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/hudDescription"
+msgstr "A penalidade ao dano nos dispositivos de observação é reduzida."
+
+msgid "commander_eagleEye/maxLvlDescription"
+msgstr "Quando totalmente treinada, aumenta o {greenBright_Start}alcance de visão{greenBright_End} em %(circularVisionRadius)s&zwnbsp; e reduz a {greenBright_Start}penalidade ao dano nos dispositivos de observação{greenBright_End} em %(penaltyToDamagedSurveyingDevice)s&zwnbsp;."
+
+msgid "commander_eagleEye/name"
+msgstr "Reconhecimento"
+
+msgid "commander_eagleEye/shortDescription"
+msgstr "Aumenta o alcance de visão principalmente quando os dispositivos de observação estão danificados."
+
+msgid "commander_emergency/alt/description"
+msgstr "O efeito não acumula ao receber dano inimigo repetidamente. O bônus da eficiência da tripulação melhora a eficiência do tripulante em combate. Este parâmetro pode ser aumentado ao montar equipamentos ou consumíveis com efeito semelhante, ou ao usar a diretiva Ventilação Forçada. A habilidade de grupo Irmãos de Armas, assim como a \"Lado a Lado\" e \"Especialista em Comunicações\" do Operador de Rádio, também podem aumentar o parâmetro."
+
+msgid "commander_emergency/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "commander_emergency/currentLvlDescription"
+msgstr "O {yellow_Start}bônus da eficiência da tripulação{yellow_End} será aumentado em %(crewLevelIncrease)s durante 15 segundos ao receber dano de um inimigo."
+
+msgid "commander_emergency/hudDescription"
+msgstr "O bônus da eficiência da tripulação é aumentado."
+
+msgid "commander_emergency/maxLvlDescription"
+msgstr "Quando treinado por completo, aumenta o {yellow_Start}bônus da eficiência da tripulação{yellow_End} em %(crewLevelIncrease)s durante 15 segundos ao receber dano de um inimigo."
+
+msgid "commander_emergency/name"
+msgstr "Emergência"
+
+msgid "commander_emergency/shortDescription"
+msgstr "O bônus da eficiência da tripulação é aumentado."
+
+msgid "commander_enemyShotPredictor/alt/description"
+msgstr "É ativado um alerta sobre o disparo da artilharia inimiga após ela atirar, dentro de um certo atraso.\n\nA habilidade pode ser melhorada com a diretiva Vigilância Intensificada."
+
+msgid "commander_enemyShotPredictor/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "commander_enemyShotPredictor/currentLvlDescription"
+msgstr "Um {yellow_Start}alerta sobre o disparo da artilharia inimiga{yellow_End} e a direção dele será exibido dentro de um %(artNotificationDelayFactor)s certo atraso. O {greenBright_Start}efeito negativo do atordoamento{greenBright_End} é reduzido em %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/maxLvlDescription"
+msgstr "Quando treinado por completo, exibe um {yellow_Start}alerta sobre o disparo da artilharia inimiga{yellow_End} com um %(artNotificationDelayFactor)s certo atraso e identifica a direção do tiro. Reduz o {greenBright_Start}efeito negativo do atordoamento{greenBright_End} em %(stunResistanceEffectFactor)s&zwnbsp;."
+
+msgid "commander_enemyShotPredictor/name"
+msgstr "Detecção de Som"
+
+msgid "commander_enemyShotPredictor/shortDescription"
+msgstr "Indica um disparo da artilharia inimiga."
+
+msgid "commander_holdLine/alt/description"
+msgstr "O bônus na eficiência da tripulação melhora a eficiência do tripulante em batalha.\n\nEsse parâmetro pode ser melhorado ao montar equipamentos ou consumíveis com efeito semelhante, ou ao usar a diretiva Ventilação Forçada. Várias outras habilidades da tripulação também podem aumentar o parâmetro."
+
+msgid "commander_holdLine/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "commander_holdLine/currentLvlDescription"
+msgstr "O {yellow_Start}bônus da eficiência da tripulação{yellow_End} será aumentado em %(crewLevelIncrease)s desde que a equipe inimiga tenha pelo menos mais três veículos em batalha do que a sua equipe&zwnbsp;."
+
+msgid "commander_holdLine/hudDescription"
+msgstr "O bônus da eficiência da tripulação é aumentado (maior número de inimigos)."
+
+msgid "commander_holdLine/maxLvlDescription"
+msgstr "Quando totalmente treinada, o {yellow_Start}bônus da eficiência da tripulação{yellow_End} será aumentado em %(crewLevelIncrease)s desde que a equipe inimiga tenha pelo menos mais três veículos em batalha do que a sua equipe&zwnbsp;."
+
+msgid "commander_holdLine/name"
+msgstr "Mantendo a Linha"
+
+msgid "commander_holdLine/shortDescription"
+msgstr "@ Aumenta o bônus da eficiência da tripulação"
+
+msgid "commander_practical/alt/description"
+msgstr "A habilidade funciona para todos os tipos de equipamentos montados no seu veículo.\n\nO efeito pode ser melhorado usando a diretiva Preparações Completas."
+
+msgid "commander_practical/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "commander_practical/currentLvlDescription"
+msgstr "{greenBright_Start}O tempo de recarga dos consumíveis{greenBright_End} é reduzido em %(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/maxLvlDescription"
+msgstr "Quando treinada por completo, reduz {greenBright_Start}o tempo de recarga de um consumível{greenBright_End} em%(equipmentPreparationTime)s&zwnbsp;."
+
+msgid "commander_practical/name"
+msgstr "Praticidade"
+
+msgid "commander_practical/shortDescription"
+msgstr "Reduz o tempo de recarga do consumível."
+
+msgid "commander_sixthSense/alt/description"
+msgstr "O Sexto Sentido é desativado enquanto o Comandante estiver ferido. O tempo para que ele seja ativado pode ser reduzido com a habilidade \"Interceptação de Sinal\" do Operador de Rádio."
+
+msgid "commander_sixthSense/alt/info"
+msgstr "Ela é um recurso especial do comandante que não necessita de treinamento e está disponível ao comandante por padrão."
+
+msgid "commander_sixthSense/currentLvlDescription"
+msgstr "Permite que o comandante a identifique se o veículo foi detectado pelo inimigo. É ativada %(delay)s após o veículo ser detectado."
+
+msgid "commander_sixthSense/name"
+msgstr "Sexto Sentido"
+
+msgid "commander_sixthSense/shortDescription"
+msgstr "Permite que o comandante identifique se seu veículo foi detectado pelo inimigo."
+
+msgid "commander_staySharp/alt/description"
+msgstr "O bônus na eficiência da tripulação melhora a eficiência do tripulante em batalha.\n\nEsse parâmetro pode ser melhorado ao montar equipamentos ou consumíveis com efeito semelhante, ou ao usar a diretiva Ventilação Forçada. Várias outras habilidades da tripulação também podem aumentar o parâmetro."
+
+msgid "commander_staySharp/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "commander_staySharp/currentLvlDescription"
+msgstr "O {yellow_Start}bônus da eficiência da tripulação{yellow_End} será aumentado em %(crewLevelIncrease)s durante 15&nbsp;s após usar um Kit de Primeiros-Socorros. Permite que um Kit de Primeiros-Socorros seja usado mesmo sem existir tripulantes feridos&zwnbsp;."
+
+msgid "commander_staySharp/hudDescription"
+msgstr "O bônus da eficiência da tripulação é aumentado (Kit de Primeiros-Socorros usado)."
+
+msgid "commander_staySharp/maxLvlDescription"
+msgstr "Quando totalmente treinada, o {yellow_Start}bônus da eficiência da tripulação{yellow_End} será aumentado em %(crewLevelIncrease)s durante 15 s após usar um Kit de Primeiros-Socorros. Permite que um Kit de Primeiros-Socorros seja usado mesmo sem existir tripulantes feridos&zwnbsp;."
+
+msgid "commander_staySharp/name"
+msgstr "Sempre Atento"
+
+msgid "commander_staySharp/shortDescription"
+msgstr "@ Aumenta o bônus da eficiência da tripulação"
+
+msgid "commander_tutor/alt/description"
+msgstr "Um Comandante ferido não pode substituir outro tripulante. O bônus é aplicado apenas na quantidade base de XP de Tripulação adquirida em batalha.\n\nMais XP de Tripulação pode ser recebida usando Livros da Tripulação ou convertendo XP Livre me XP de Tripulação."
+
+msgid "commander_tutor/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "commander_tutor/currentLvlDescription"
+msgstr "A quantidade de {greenBright_Start}XP{greenBright_End} obtida é aumentada em %(xpBonusFactorPerLevel)s para todos os tripulantes. O comandante pode {greenBright_Start}substituir membros feridos{greenBright_End} com %(woundedCrewEfficiency)s efetividade."
+
+msgid "commander_tutor/hudDescription"
+msgstr "Tripulantes feridos são substituídos pelo comandante."
+
+msgid "commander_tutor/maxLvlDescription"
+msgstr "Quando treinada por completo, aumenta a quantidade de {greenBright_Start}XP{greenBright_End} obtida em %(xpBonusFactorPerLevel)s para todos os tripulantes. Permite que o comandante {greenBright_Start} substitua membros feridos{greenBright_End} com %(woundedCrewEfficiency)s efetividade."
+
+msgid "commander_tutor/name"
+msgstr "Mentor"
+
+msgid "commander_tutor/shortDescription"
+msgstr "Tripulantes feridos são substituídos pelo comandante."
+
+msgid "commander_universalist/alt/description"
+msgstr "O comandante pode substituir as qualificações principais de qualquer tripulante ferido. O efeito de substituição diminui com cada tripulante nocauteado."
+
+msgid "commander_universalist/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1%. Sua efetividade aumenta com o progresso do treinamento."
+
+msgid "commander_universalist/currentLvlDescription"
+msgstr "O comandante pode {greenBright_Start}substituir{greenBright_End} tripulantes feridos com %(woundedCrewEfficiency)s de efetividade."
+
+msgid "commander_universalist/hudDescription"
+msgstr "O comandante cobre a função de um tripulante ferido."
+
+msgid "commander_universalist/maxLvlDescription"
+msgstr "Quando treinada por completo, permite que o comandante {greenBright_Start}substitua{greenBright_End} tripulantes feridos com com %(woundedCrewEfficiency)s de efetividade."
+
+msgid "commander_universalist/name"
+msgstr "Faz-Tudo"
+
+msgid "commander_universalist/shortDescription"
+msgstr "O Comandante pode substituir tripulantes feridos com efetividade."
+
+msgid "driver_badRoadsKing/alt/description"
+msgstr "Reduz as penalidades da manobrabilidade do veículo e a aceleração ao pilotar em terrenos moderadamente macios. Reduz significativamente estas penalidades ao pilotar em terrenos macios, alinhando-as com as de terrenos moderadamente macios.\nA manobrabilidade em terrenos moderadamente macios e terrenos macios não pode exceder a manobrabilidade em terrenos rígidos."
+
+msgid "driver_badRoadsKing/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "driver_badRoadsKing/currentLvlDescription"
+msgstr "{greenBright_Start}A perda de velocidade em terreno moderadamente macio{greenBright_End} é reduzida em %(mediumGroundFactor)s&zwnbsp;, {greenBright_Start}a perda de velocidade em terreno macio {greenBright_End} é reduzida para %(softGroundFactor)s do valor resultante no terreno moderadamente macio."
+
+msgid "driver_badRoadsKing/maxLvlDescription"
+msgstr "Quando 100% treinada reduz {greenBright_Start}a perda de velocidade em terreno moderadamente macio{greenBright_End} em %(mediumGroundFactor)s&zwnbsp;, reduz {greenBright_Start}a perda de velocidade em terreno macio{greenBright_End} para %(softGroundFactor)s do valor resultante no terreno moderadamente macio."
+
+msgid "driver_badRoadsKing/name"
+msgstr "Direção Fora-de-Estrada"
+
+msgid "driver_bulletproof/alt/description"
+msgstr "O bônus na eficiência da tripulação melhora a eficiência do tripulante em batalha.\n\nEsse parâmetro pode ser melhorado ao montar equipamentos ou consumíveis com efeito semelhante, ou ao usar a diretiva Ventilação Forçada. Várias outras habilidades da tripulação também podem aumentar o parâmetro."
+
+msgid "driver_bulletproof/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "driver_bulletproof/currentLvlDescription"
+msgstr "O {yellow_Start}bônus da eficiência da tripulação{yellow_End} será aumentado em %(crewLevelIncrease)s se a quantidade de dano bloqueado ultrapassar seus pontos de vida iniciais."
+
+msgid "driver_bulletproof/hudDescription"
+msgstr "O bônus da eficiência da tripulação é aumentado (quando uma certa quantidade de dano for bloqueado)."
+
+msgid "driver_bulletproof/maxLvlDescription"
+msgstr "Quando 100% treinada aumenta o {yellow_Start}bônus da eficiência da tripulação{yellow_End} em %(crewLevelIncrease)s se a quantidade de dano bloqueado ultrapassar seus pontos de vida iniciais."
+
+msgid "driver_bulletproof/name"
+msgstr "A Prova de Balas"
+
+msgid "driver_motorExpert/alt/description"
+msgstr "A velocidade máxima do seu veículo pode ser aumentada e a penalidade num motor danificado pode ser reduzida ao montar um equipamento com efeito semelhante."
+
+msgid "driver_motorExpert/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "driver_motorExpert/currentLvlDescription"
+msgstr "A {greenBright_Start}velocidade máxima frontal{greenBright_End} e {greenBright_Start} a velocidade de ré{greenBright_End} do seu veículo é aumentada em %(vehicleForwardMaxSpeed)s. A {greenBright_Start}penalidade de um motor danificado {greenBright_End} é reduzida em %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/hudDescription"
+msgstr "A penalidade de um motor danificado é reduzida."
+
+msgid "driver_motorExpert/maxLvlDescription"
+msgstr "Quando 100% treinada aumenta a {greenBright_Start}velocidade máxima frontal {greenBright_End} e{greenBright_Start} a velocidade de ré{greenBright_End} do seu veículo em %(vehicleForwardMaxSpeed)s. Reduz a {greenBright_Start}penalidade de um motor danificado{greenBright_End} em %(vehPenaltyForDamagedEngine)s&zwnbsp;."
+
+msgid "driver_motorExpert/name"
+msgstr "Engenheiro"
+
+msgid "driver_motorExpert/shortDescription"
+msgstr "A penalidade de um motor danificado é reduzida."
+
+msgid "driver_rammingMaster/alt/description"
+msgstr "A habilidade é ineficaz se dois veículos aliados se colidirem.\n\nO dano por impacto do seu veículo pode ser reduzido ao montar equipamentos com efeito semelhante."
+
+msgid "driver_rammingMaster/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "driver_rammingMaster/currentLvlDescription"
+msgstr "{greenBright_Start}O dano por impacto em veículos inimigos{greenBright_End} é aumentado em %(damageEnemiesByRamming)s&zwnbsp;. {greenBright_Start}O dano por impacto no seu veículo {greenBright_End} é reduzido em %(vehicleRamDamageResistance)s&zwnbsp; e na {greenBright_Start}sua suspensão{greenBright_End} em %(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/maxLvlDescription"
+msgstr "Quando 100% treinada aumenta o {greenBright_Start}dano por impacto em veículos inimigos {greenBright_End} em%(damageEnemiesByRamming)s&zwnbsp;. Reduz {greenBright_Start}o dano por impacto no seu veículo{greenBright_End} em %(vehicleRamDamageResistance)s&zwnbsp; e{greenBright_Start}na sua suspensão{greenBright_End} em%(vehicleRamChassisDamageResistance)s&zwnbsp;."
+
+msgid "driver_rammingMaster/name"
+msgstr "Impacto Controlado"
+
+msgid "driver_rammingMaster/shortDescription"
+msgstr "Reduz o dano por impacto no seu veículo e aumenta o dano por impacto provocado."
+
+msgid "driver_reliablePlacement/alt/description"
+msgstr "O dano recebido dos projéteis HE pode ser reduzido ao montar equipamentos com efeito semelhante."
+
+msgid "driver_reliablePlacement/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "driver_reliablePlacement/currentLvlDescription"
+msgstr "A {greenBright_Start}absorção de dano dos projéteis HE{greenBright_End} é aumentada em %(vehicleHEShellDamageResistance)s&zwnbsp;. A&nbsp;{greenBright_Start}chance de incêndio no motor{greenBright_End} é reduzida em %(vehicleFireChance)s e {greenBright_Start}o dano na sua suspensão{greenBright_End} em %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/maxLvlDescription"
+msgstr "Quando totalmente treinada, a {greenBright_Start}absorção de dano dos projéteis HE{greenBright_End} é aumentada em %(vehicleHEShellDamageResistance)s&zwnbsp;. Reduz a{greenBright_Start}chance de incêndio no motor{greenBright_End} em %(vehicleFireChance)s e {greenBright_Start}o dano na sua suspensão{greenBright_End} em %(suspensionDamageReduction)s&zwnbsp;."
+
+msgid "driver_reliablePlacement/name"
+msgstr "Posicionamento Confiável"
+
+msgid "driver_smoothDriving/alt/description"
+msgstr "Não afeta a precisão de um veículo estacionário e a precisão durante a rotação do casco.\n\nA habilidade pode ser melhorada usando a diretiva Complexidade da Caixa de Marchas. A precisão para disparar em movimento pode ser melhorada com um equipamento de efeito semelhante. Usar a diretiva Lubrificação do Estabilizador melhora o efeito."
+
+msgid "driver_smoothDriving/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "driver_smoothDriving/currentLvlDescription"
+msgstr "{greenBright_Start}A dispersão do canhão{greenBright_End} ao disparar em movimento é reduzida em %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/maxLvlDescription"
+msgstr "Quando 100% treinada reduz a {greenBright_Start}dispersão do canhão{greenBright_End} ao disparar em movimento em %(vehicleGunShotDispersionChassisMovement)s&zwnbsp;."
+
+msgid "driver_smoothDriving/name"
+msgstr "Direção Suave"
+
+msgid "driver_smoothDriving/shortDescription"
+msgstr "Melhora a mira ao disparar em movimento."
+
+msgid "driver_suspensionRepair/alt/description"
+msgstr "Essa habilidade afeta a velocidade dos reparos da suspensão do estado vermelho para o amarelo dentro de 50 m de um veículo aliado."
+
+msgid "driver_suspensionRepair/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "driver_suspensionRepair/currentLvlDescription"
+msgstr "{yellow_Start}A velocidade de reparos da suspensão{yellow_End} será aumentada em %(suspensionRepairSpeed)s em distâncias menores que 50 m de um veículo aliado."
+
+msgid "driver_suspensionRepair/hudDescription"
+msgstr "A velocidade de reparos da suspensão é aumentada (com um aliado por perto)."
+
+msgid "driver_suspensionRepair/maxLvlDescription"
+msgstr "Quando totalmente treinada, {yellow_Start}a velocidade de reparos da suspensão{yellow_End} será aumentada em %(suspensionRepairSpeed)s em distâncias menores que 50 m de um veículo aliado."
+
+msgid "driver_suspensionRepair/name"
+msgstr "Suporte de Campo"
+
+msgid "driver_tidyPerson/alt/description"
+msgstr "A resistência à incêndios no veículo pode ser aumentada ao montar equipamentos e consumíveis com efeitos semelhantes. A habilidade de Combate a Incêndios aumenta a eficiência da tripulação para apagar um incêndio."
+
+msgid "driver_tidyPerson/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1%. Sua efetividade aumenta com o progresso do treinamento."
+
+msgid "driver_tidyPerson/currentLvlDescription"
+msgstr "Reduz a {greenBright_Start}chance de incêndio no motor{greenBright_End} em %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/maxLvlDescription"
+msgstr "Quando treinada por completo, reduz a {greenBright_Start}chance de incêndio no motor{greenBright_End} em %(vehicleFireChance)s&zwnbsp;."
+
+msgid "driver_tidyPerson/name"
+msgstr "Manutenção Preventiva"
+
+msgid "driver_tidyPerson/shortDescription"
+msgstr "Reduz a chance de incêndio no motor."
+
+msgid "driver_virtuoso/alt/description"
+msgstr "A velocidade de rotação do casco pode ser melhorada ao montar um equipamento ou consumíveis com efeito semelhante."
+
+msgid "driver_virtuoso/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "driver_virtuoso/currentLvlDescription"
+msgstr "{greenBright_Start}A velocidade de rotação do casco{greenBright_End} é aumentada em %(vehicleAllGroundRotationSpeed)s&zwnbsp;.\t"
+
+msgid "driver_virtuoso/maxLvlDescription"
+msgstr "Quando 100% treinada aumenta a {greenBright_Start}velocidade de rotação do casco{greenBright_End} em %(vehicleAllGroundRotationSpeed)s."
+
+msgid "driver_virtuoso/name"
+msgstr "Rotacionador"
+
+msgid "driver_virtuoso/shortDescription"
+msgstr "Aumenta a velocidade de rotação do casco."
+
+msgid "fireFighting/alt/description"
+msgstr "Esta habilidade afeta o dano recebido e a duração de incêndios.\n\nSe dois Operadores de Rádio tiverem esta habilidade, será aplicado o valor médio do seu nível de treinamento.\n\nA habilidade pode ser melhorada com a diretiva Bombeiros Experientes."
+
+msgid "fireFighting/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "fireFighting/currentLvlDescription"
+msgstr "{greenBright_Start}A velocidade para apagar incêndios{greenBright_End} é aumentada em %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/maxLvlDescription"
+msgstr "Quando 100% treinada aumenta {greenBright_Start}a velocidade para apagar incêndios{greenBright_End} em %(fireExtinguishingRate)s&zwnbsp;."
+
+msgid "fireFighting/name"
+msgstr "Combate a incêndio"
+
+msgid "fireFighting/shortDescription"
+msgstr "Melhora as habilidades de combate à incêndios."
+
+msgid "gunner_armorer/alt/description"
+msgstr "Por padrão, o dano e a penetração potencial é de ±25% dos valores base. Por exemplo, se um projétil pode penetrar uma blindagem com até 100 mm e provoca 100 HP de dano alfa, ao atingir o alvo, a penetração do disparo pode variar entre 75 a 125 mm e o dano provocado também varia entre 75 a 125 HP. Reduzir este modificador vai lhe fornecer disparos mais previsíveis.\n\nSe dois Artilheiros possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento."
+
+msgid "gunner_armorer/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "gunner_armorer/currentLvlDescription"
+msgstr "As variações do {greenBright_Start}dano potencial{greenBright_End} e {greenBright_Start}penetração potencial{greenBright_End} são reduzidas em {greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. {greenBright_Start}A dispersão do canhão{greenBright_End} é reduzida em %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/maxLvlDescription"
+msgstr "Quando 100% treinada reduz as variações do {greenBright_Start}dano potencial{greenBright_End} e{greenBright_Start}penetração potencial{greenBright_End} em{greenBright_Start}±{greenBright_End}%(damageAndPiercingDistributionLowerBound)s. Reduz{greenBright_Start}a dispersão do canhão{greenBright_End} em %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_armorer/name"
+msgstr "Armeiro"
+
+msgid "gunner_focus/alt/description"
+msgstr "O efeito começa 3 segundos depois do veículo parar e reinicia ao movê-lo.\n\nSe dois Artilheiros possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento"
+
+msgid "gunner_focus/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "gunner_focus/currentLvlDescription"
+msgstr "A {yellow_Start}dispersão do canhão{yellow_End} de um veículo parado será reduzida em %(shotDispersionAngle)s&zwnbsp;"
+
+msgid "gunner_focus/hudDescription"
+msgstr "A dispersão do canhão é reduzida."
+
+msgid "gunner_focus/maxLvlDescription"
+msgstr "Quando 100% treinada reduz a {yellow_Start}dispersão do canhão{yellow_End} de um veículo parado em %(shotDispersionAngle)s&zwnbsp;."
+
+msgid "gunner_focus/name"
+msgstr "Concentração"
+
+msgid "gunner_focus/shortDescription"
+msgstr "Reduz a dispersão do canhão em um veículo estacionário."
+
+msgid "gunner_loneWolf/alt/description"
+msgstr "A dispersão do canhão e a velocidade do tempo de mira podem ser melhorados ao treinar as habilidades da tripulação ou montar equipamentos com um efeito semelhante.\n\nSe dois Artilheiros tiverem essa habilidade, será aplicado o valor médio do nível de treinamento."
+
+msgid "gunner_loneWolf/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "gunner_loneWolf/currentLvlDescription"
+msgstr "A {yellow_Start}dispersão do canhão{yellow_End} será reduzida em %(vehicleGunAimSpeed)s e {yellow_Start}a velocidade do tempo de mira{yellow_End} será aumentada em %(vehicleGunAimSpeed)s quando não houver veículos aliados dentro de um alcance de 300 m."
+
+msgid "gunner_loneWolf/hudDescription"
+msgstr "A dispersão do canhão e o tempo de mira são melhorados (sem aliados próximos)."
+
+msgid "gunner_loneWolf/maxLvlDescription"
+msgstr "Quando totalmente treinada, reduz a {yellow_Start}dispersão do canhão {yellow_End} e aumenta {yellow_Start} a velocidade do tempo de mira{yellow_End} em %(vehicleGunAimSpeed)s quando não houver veículos aliados dentro de um alcance de 300 m."
+
+msgid "gunner_loneWolf/name"
+msgstr "Lobo Solitário"
+
+msgid "gunner_loneWolf/shortDescription"
+msgstr "@ A dispersão do canhão é reduzida. A velocidade da mira é aumentada."
+
+msgid "gunner_pointBlast/alt/description"
+msgstr "Por padrão, a penetração potencial máxima é +25% a partir do valor base. Por exemplo, se um projétil penetrar uma blindagem de até 100 mm, ao atingir o alvo, o valor máximo possível de penetração para este único disparo pode ser 125 mm. Aumentar este modificador trará resultados de penetração mais efetivos.\n\nSe dois Artilheiros tiverem essa habilidade, será aplicado o valor médio do nível de treinamento."
+
+msgid "gunner_pointBlast/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "gunner_pointBlast/currentLvlDescription"
+msgstr "O {yellow_Start}potencial máximo da penetração {yellow_End} dos seus projéteis será aumentado em %(piercingHEShellsDistributionUpperBound)s ao disparar em veículos inimigos a menos de 50 m de distância."
+
+msgid "gunner_pointBlast/maxLvlDescription"
+msgstr "Quando totalmente treinada, o {yellow_Start}potencial máximo da penetração {yellow_End} dos seus projéteis será aumentado em %(piercingHEShellsDistributionUpperBound)s ao disparar em veículos inimigos a menos de 50 m de distância."
+
+msgid "gunner_pointBlast/name"
+msgstr "À Queima-Roupa"
+
+msgid "gunner_pointBlast/shortDescription"
+msgstr "@ Aumenta o potencial máximo de penetração dos seus projéteis"
+
+msgid "gunner_quickAiming/alt/description"
+msgstr "Se dois Artilheiros possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento.\n\nO tempo de mira pode ser aumentado ao treinar a habilidade \"Coordenação\" do comandante ou ao montar um equipamento com efeito semelhante.\n\nA velocidade de rotação da torre pode ser aumentada ao montar um equipamento ou consumíveis com efeito semelhante."
+
+msgid "gunner_quickAiming/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "gunner_quickAiming/currentLvlDescription"
+msgstr "{greenBright_Start}A velocidade para a mira fechar{greenBright_End} e a {greenBright_Start}velocidade de rotação da torre{greenBright_End} é aumentada em %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/maxLvlDescription"
+msgstr "Quando 100% treinada aumenta {greenBright_Start}a velocidade para a mira fechar{greenBright_End} e a{greenBright_Start}velocidade de rotação da torre{greenBright_End} em %(vehicleGunAimSpeed)s&zwnbsp;."
+
+msgid "gunner_quickAiming/name"
+msgstr "Mira Rápida"
+
+msgid "gunner_quickAiming/shortDescription"
+msgstr "A velocidade da mira é aumentada."
+
+msgid "gunner_rancorous/alt/description"
+msgstr "Identifica módulos com danos críticos ao mirar em veículos que estejam dentro do alcance de visão do Artilheiro, tanto no modo de disparo direto ou no indireto.\nA área de visão do Artilheiro é definida pelo setor ±10° (20° no total) na frente do canhão do veículo e seu alcance de visão.\nSe dois Artilheiros possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento.\nA habilidade pode ser melhorada com a diretiva Foco no Alvo. Usar o Conjunto de Rádio Melhorado vai aumentar a duração em que o veículo inimigo fica visível."
+
+msgid "gunner_rancorous/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "gunner_rancorous/currentLvlDescription"
+msgstr "A {greenBright_Start}duração{greenBright_End} em que um veículo inimigo {greenBright_Start}permanece detectado{greenBright_End} dentro da área de visão do Artilheiro é aumentada em %(vehicleEnemySpottingTime)s. A duração para {yellow_Start}identificar módulos danificados{yellow_End} é reduzida para %(damageMonitoringDelay)s&zwnbsp;."
+
+msgid "gunner_rancorous/maxLvlDescription"
+msgstr "Quando 100% treinada aumenta a {greenBright_Start}duração{greenBright_End} em que um veículo inimigo {greenBright_Start}fica visível{greenBright_End} dentro da área de visão do Artilheiro em %(vehicleEnemySpottingTime)s. Permite a {yellow_Start}identificação dos módulos danificados{yellow_End} com um certo %(damageMonitoringDelay)s atraso."
+
+msgid "gunner_rancorous/name"
+msgstr "Alvo Marcado"
+
+msgid "gunner_rancorous/shortDescription"
+msgstr "Aumenta o tempo em que um veículo inimigo fica visível dentro da área de visão do Artilheiro. Permite a identificação dos módulos danificados."
+
+msgid "gunner_smoothTurret/alt/description"
+msgstr "Se dois Artilheiros possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento.\n\nA habilidade pode ser melhorada com a diretiva Mão Firme. A dispersão durante a rotação da torre pode ser reduzida montando equipamentos com efeito semelhante ou usando a diretiva Lubrificação do Estabilizador."
+
+msgid "gunner_smoothTurret/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "gunner_smoothTurret/currentLvlDescription"
+msgstr "{greenBright_Start}A dispersão do canhão{greenBright_End} durante a rotação da torre é reduzida em %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/maxLvlDescription"
+msgstr "Quando 100% treinada reduz {greenBright_Start}a dispersão do canhão{greenBright_End} durante a rotação da torre em %(turretAimingDispersion)s&zwnbsp;."
+
+msgid "gunner_smoothTurret/name"
+msgstr "Tiro Rápido"
+
+msgid "gunner_smoothTurret/shortDescription"
+msgstr "Reduz a dispersão do canhão durante a rotação da torre."
+
+msgid "gunner_sniper/alt/description"
+msgstr "O efeito funciona para todos os tipos de projéteis, menos para os veículos com canhões automáticos.\n\nSe dois Artilheiros possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento."
+
+msgid "gunner_sniper/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "gunner_sniper/currentLvlDescription"
+msgstr "A {greenBright_Start}chance de provocar danos críticos{greenBright_End} nos{greenBright_Start}módulos de veiculos inimigos{greenBright_End} e ferir {greenBright_Start}tripulantes inimigos{greenBright_End} com todos os tipos de projéteis é aumentada em %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/maxLvlDescription"
+msgstr "Quando 100% treinada aumenta a {greenBright_Start}chance de provocar danos críticos{greenBright_End} nos{greenBright_Start}módulos de veículos inimigos{greenBright_End} e ferir {greenBright_Start}tripulantes inimigos{greenBright_End} com todos os tipos de projéteis em %(enemyModulesCrewCritChance)s&zwnbsp;."
+
+msgid "gunner_sniper/name"
+msgstr "Visão Mortal"
+
+msgid "loader_ammunitionImprove/alt/description"
+msgstr "Por padrão, o dano e a penetração potencial mínima é de -25% dos valores base. Por exemplo, se um projétil pode penetrar uma blindagem com até 100 mm e tem 100 HP de dano alfa, ao atingir o alvo, a possível penetração mínima do disparo pode ser 75 mm e o possível dano mínimo 75 HP. Aumentar este modificador vai lhe fornecer resultados mais efetivos.\n\nSe dois Municiadores possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento."
+
+msgid "loader_ammunitionImprove/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "loader_ammunitionImprove/currentLvlDescription"
+msgstr "{greenBright_Start}O dano potencial mínimo{greenBright_End} e {greenBright_Start}a penetração potencial mínima{greenBright_End} são aumentados em %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/maxLvlDescription"
+msgstr "Quando 100% treinada aumenta {greenBright_Start}o dano potencial mínimo{greenBright_End} e {greenBright_Start}a penetração potencial mínima{greenBright_End} em %(damageAndPiercingDistributionLowerBound)s&zwnbsp;."
+
+msgid "loader_ammunitionImprove/name"
+msgstr "Ajuste de Munição"
+
+msgid "loader_ammunitionImprove/shortDescription"
+msgstr "Aumenta os valores médios de dano e penetração."
+
+msgid "loader_desperado/alt/description"
+msgstr "Se dois Municiadores possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento.\n\nO tempo de recarga do canhão pode ser reduzido ao treinar a habilidade Combate Corpo a Corpo ou montando um equipamento com efeito parecido. Usar a diretiva Caixa de Munição Organizada aumenta o efeito."
+
+msgid "loader_desperado/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "loader_desperado/currentLvlDescription"
+msgstr "{yellow_Start}O tempo de recarga do canhão{yellow_End} será reduzido em %(vehicleGunReloadTime)s se o seu veículo tiver menos que 25% de pontos de vida."
+
+msgid "loader_desperado/hudDescription"
+msgstr "O tempo de recarga do canhão é reduzido (veículo com baixa durabilidade)."
+
+msgid "loader_desperado/maxLvlDescription"
+msgstr "Quando 100% treinada reduz {yellow_Start}o tempo de recarga do canhão{yellow_End} em %(vehicleGunReloadTime)s e o seu veículo tiver menos que 25% de pontos de vida."
+
+msgid "loader_desperado/name"
+msgstr "Adrenalina"
+
+msgid "loader_desperado/shortDescription"
+msgstr "Acelera a recarga do canhão se o veículo tiver menos que 25% dos seus pontos de vida sobrando."
+
+msgid "loader_intuition/alt/description"
+msgstr "Para ativar a habilidade, o canhão, os dois canhões ou o carregador precisam estar totalmente recarregados. O tempo mínimo para alterar entre os tipos de projéteis nos canhões padrões é 1 s; para os canhões duplos e carregadores é 2.5 s.\n\nSe dois Municiadores possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento."
+
+msgid "loader_intuition/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "loader_intuition/currentLvlDescription"
+msgstr "A {greenBright_Start}troca entre os tipos de projéteis{greenBright_End} num canhão carregado é reduzida em %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/hudDescription"
+msgstr "A troca entre os tipos de projéteis num canhão carregado é reduzida.\t"
+
+msgid "loader_intuition/maxLvlDescription"
+msgstr "Quando 100% treinada reduz a {greenBright_Start}troca entre os tipos de projéteis{greenBright_End} num canhão carregado em %(vehicleReloadTimeAfterShellChange)s&zwnbsp;."
+
+msgid "loader_intuition/name"
+msgstr "Intuição"
+
+msgid "loader_intuition/shortDescription"
+msgstr "Aumenta significativamente a velocidade na troca de projéteis em um canhão carregado."
+
+msgid "loader_magMastery/alt/description"
+msgstr "Essa habilidade reduz o tempo de recarga apenas para os canhões com carregador e não afeta canhões com outros sistemas.\n\nSe dois Municiadores tiverem essa habilidade, será aplicado o valor médio do nível de treinamento."
+
+msgid "loader_magMastery/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "loader_magMastery/currentLvlDescription"
+msgstr "O {greenBright_Start}tempo de recarga{greenBright_End} do carregador é reduzido em %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/maxLvlDescription"
+msgstr "Quando totalmente treinada, reduz o {greenBright_Start}tempo de recarga{greenBright_End} do carregador em %(magazineGunReloadSpeed)s."
+
+msgid "loader_magMastery/name"
+msgstr "Maestria do Carregador"
+
+msgid "loader_magMastery/shortDescription"
+msgstr "@ Reduz o tempo de recarga dos carregadores"
+
+msgid "loader_melee/alt/description"
+msgstr "Se dois Municiadores possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento.\n\nO tempo de recarga do canhão pode ser reduzido ao treinar a habilidade Adrenalina ou montando um equipamento com efeito semelhante. Usar a diretiva Caixa de Munição Organizada aumenta o efeito."
+
+msgid "loader_melee/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "loader_melee/currentLvlDescription"
+msgstr "{yellow_Start}O tempo de recarga do canhão{yellow_End} será reduzido em %(vehicleGunReloadTime)s em distâncias menores de 50 m do veículo inimigo."
+
+msgid "loader_melee/hudDescription"
+msgstr "O tempo de recarga do veículo é reduzido (quando o inimigo está perto).\t"
+
+msgid "loader_melee/maxLvlDescription"
+msgstr "Quando 100% treinada reduz o {yellow_Start}tempo de recarga do canhão{yellow_End} em %(vehicleGunReloadTime)s em distâncias menores de 50 m do veículo inimigo."
+
+msgid "loader_melee/name"
+msgstr "Combate Próximo"
+
+msgid "loader_melee/shortDescription"
+msgstr "Acelera a recarga do canhão em combate próximo."
+
+msgid "loader_pedant/alt/description"
+msgstr "Um Municiador ferido não afeta a eficiência da habilidade.\n\nSe dois Municiadores possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento.\n\nA habilidade pode ser melhorada usando a diretiva Organizador de Projéteis. A durabilidade da caixa de munição pode ser melhorada montando um equipamento de efeito semelhante."
+
+msgid "loader_pedant/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "loader_pedant/currentLvlDescription"
+msgstr "{greenBright_Start}A durabilidade da caixa de munição{greenBright_End} é aumentada em %(vehicleAmmoBayStrength)s&zwnbsp;.\t"
+
+msgid "loader_pedant/maxLvlDescription"
+msgstr "Quando treinada por completo, aumenta a {greenBright_Start}durabilidade da caixa de munição{greenBright_End} em %(vehicleAmmoBayStrength)s&zwnbsp;."
+
+msgid "loader_pedant/name"
+msgstr "Estocagem Segura"
+
+msgid "loader_pedant/shortDescription"
+msgstr "Aumenta a durabilidade da caixa de munição."
+
+msgid "loader_perfectCharge/alt/description"
+msgstr "O efeito funciona para todos os tipos de projéteis.\n\nUm Municiador ferido não afeta a eficiência da habilidade.\n\nSe dois Municiadores possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento."
+
+msgid "loader_perfectCharge/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "loader_perfectCharge/currentLvlDescription"
+msgstr "{greenBright_Start}A velocidade do projétil{greenBright_End} é aumentada em %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/maxLvlDescription"
+msgstr "Quando 100% treinada aumenta a {greenBright_Start}velocidade do projéti{greenBright_End} em %(shellVelocity)s&zwnbsp;."
+
+msgid "loader_perfectCharge/name"
+msgstr "Mudança Perfeita"
+
+msgid "loader_secondChance/alt/description"
+msgstr "Essa habilidade não afeta canhões carregador ou recarga automática, e não é cumulativa para canhões duplos.\n\nNo caso dos canhões com sistemas seletivos de recarga, se os dois canhões forem disparados e nenhum causar dano, a redução do tempo de recarga se aplica para os dois canhões. \n\nSe dois Municiadores tiverem essa habilidade, será aplicado o valor médio do nível de treinamento.\n\nO tempo de recarga do canhão pode ser reduzido ao treinar as habilidades Adrenalina ou Corpo a Corpo, ou ao montar equipamentos com efeito semelhante. Usar a diretiva Caixa de Munição Organizada melhora o efeito."
+
+msgid "loader_secondChance/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "loader_secondChance/currentLvlDescription"
+msgstr "O {yellow_Start}tempo de recarga do canhão{yellow_End} será reduzido em %(vehicleGunReloadTime)s para o próximo projétil se o disparo anterior não causou dano em um veículo inimigo."
+
+msgid "loader_secondChance/hudDescription"
+msgstr "O tempo de recarga do canhão é reduzido (ao errar um disparo)."
+
+msgid "loader_secondChance/maxLvlDescription"
+msgstr "Quando totalmente treinada, reduz o {yellow_Start}tempo de recarga do canhão{yellow_End} em %(vehicleGunReloadTime)s para o próximo projétil se o disparo anterior não causou dano em um veículo inimigo."
+
+msgid "loader_secondChance/name"
+msgstr "Segunda Chance"
+
+msgid "loader_secondChance/shortDescription"
+msgstr "@ Reduz o tempo de recarga do canhão"
+
+msgid "measureType/meters"
+msgstr "%s m"
+
+msgid "measureType/mph"
+msgstr "%s km/h"
+
+msgid "measureType/percents"
+msgstr "%s%%"
+
+msgid "measureType/seconds"
+msgstr "%s s"
+
+msgid "offspring_brotherhood/name"
+msgstr "Banda de Irmãos"
+
+msgid "perkRole/commander"
+msgstr "Comandante"
+
+msgid "perkRole/common"
+msgstr "Grupo"
+
+msgid "perkRole/driver"
+msgstr "Piloto"
+
+msgid "perkRole/gunner"
+msgstr "Artilheiro"
+
+msgid "perkRole/loader"
+msgstr "Municiador"
+
+msgid "perkRole/radioman"
+msgstr "Operador de Rádio"
+
+msgid "popularity/tooltip/common"
+msgstr "de todos os jogadores"
+
+msgid "popularity/tooltip/header"
+msgstr "Para este veículo, preferido por"
+
+msgid "popularity/tooltip/legendary"
+msgstr "jogadores com um nível WTR Lenda"
+
+msgid "radioman_battleTempered/alt/description"
+msgstr "Se dois Operadores de Rádio tiverem essa habilidade, será aplicado o valor médio do nível de treinamento.\n\nO efeito pode ser melhorado com a habilidade do Comandante Detecção de Som."
+
+msgid "radioman_battleTempered/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "radioman_battleTempered/currentLvlDescription"
+msgstr "O {greenBright_Start}efeito negativo do atordoamento{greenBright_End} será reduzido em %(stunResistanceEffectFactor)s, toda vez que a tripulação do veículo for atordoada, até um máximo de 30%."
+
+msgid "radioman_battleTempered/maxLvlDescription"
+msgstr "Quando totalmente treinada, o {greenBright_Start}efeito negativo do atordoamento{greenBright_End} será reduzido em %(stunResistanceEffectFactor)s&nbsp;, toda vez que a tripulação do veículo for atordoada, até um máximo de 30%."
+
+msgid "radioman_battleTempered/name"
+msgstr "Forjado no Combate"
+
+msgid "radioman_expert/alt/description"
+msgstr "O bônus da eficiência da tripulação melhora a eficácia do tripulante em combate. Se dois Operadores de Rádio possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento. Este parâmetro pode ser melhorado ao montar equipamentos ou consumíveis com efeito semelhante, ou usar a diretiva Ventilação Forçada. A habilidade de grupo \"Irmãos de Armas\", assim como a \"Emergência\" do Comandante ou \"Lado a Lado\" do Operador de Rádio, também podem aumentar este parâmetro."
+
+msgid "radioman_expert/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "radioman_expert/currentLvlDescription"
+msgstr "O {yellow_Start}bônus da eficiência da tripulação{yellow_End} será aumentado em %(crewLevelIncrease)s se sua quantidade de dano por assistência ultrapassar seus pontos de vida iniciais &zwnbsp;."
+
+msgid "radioman_expert/hudDescription"
+msgstr "O bônus da eficiência da tripulação é aumentado (é necessário ter a quantidade de dano por assistência requerida)."
+
+msgid "radioman_expert/maxLvlDescription"
+msgstr "Quando 100% treinada aumenta o {yellow_Start}bônus da eficiência da tripulação{yellow_End} em %(crewLevelIncrease)s se sua quantidade de dano por assistência ultrapassar seus pontos de vida iniciais&zwnbsp;."
+
+msgid "radioman_expert/name"
+msgstr "Especialista em Comunicações"
+
+msgid "radioman_expert/shortDescription"
+msgstr "Performance da tripulação melhorada."
+
+msgid "radioman_finder/alt/description"
+msgstr "Se dois Operadores de Rádio possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento.\n\nO alcance de visão pode ser melhorado treinando a habilidade Reconhecimento ou montando um equipamento com efeito semelhante. Usar a diretiva Calibração Ótica aumenta o efeito."
+
+msgid "radioman_finder/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "radioman_finder/currentLvlDescription"
+msgstr "{greenBright_Start}O alcance de visão {greenBright_End} é aumentado em %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/maxLvlDescription"
+msgstr "Quando treinada por completo, aumenta o {greenBright_Start}alcance de visão{greenBright_End}em %(vehicleCircularVisionRadius)s&zwnbsp;."
+
+msgid "radioman_finder/name"
+msgstr "Visão de Jogo"
+
+msgid "radioman_finder/shortDescription"
+msgstr "Aumenta o alcance de visão."
+
+msgid "radioman_interference/alt/description"
+msgstr "Se dois Operadores de Rádio possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento.\n\nO tempo em que seu veículo permanece visível pode ser reduzido ao montar um equipamento com efeito semelhante."
+
+msgid "radioman_interference/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "radioman_interference/currentLvlDescription"
+msgstr "O {greenBright_Start}tempo em que seu veículo permanece visível{greenBright_End} pelo inimigo é reduzido em%(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/maxLvlDescription"
+msgstr "Quando 100% treinada reduz o {greenBright_Start}tempo em que seu veículo permanece visível{greenBright_End} pelo inimigo em %(vehicleOwnSpottingTime)s&zwnbsp;."
+
+msgid "radioman_interference/name"
+msgstr "Bloqueio"
+
+msgid "radioman_interference/shortDescription"
+msgstr "Reduz o tempo que o seu veículo fica visível para o inimigo."
+
+msgid "radioman_lastEffort/alt/description"
+msgstr "Se dois operadores de rádio tiverem a mesma habilidade treinada, apenas a com maior valor será aplicada. O efeito só é ativo se o operador de rádio não estiver ferido quando o veículo for destruído.\n\nA habilidade pode ser melhorada com a diretiva \"O Dever Primeiro\"."
+
+msgid "radioman_lastEffort/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1%. Sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "radioman_lastEffort/currentLvlDescription"
+msgstr "O Operador de Rádio pode {yellow_Start}reportar as posições inimigas{yellow_End} por mais %(radiomanDurationPerLevel)sapós seu veículo ser destruído."
+
+msgid "radioman_lastEffort/hudDescription"
+msgstr "Reportando posições."
+
+msgid "radioman_lastEffort/maxLvlDescription"
+msgstr "Quando treinado por completo, permite {yellow_Start}reportar as posições inimigas{yellow_End} por mais %(radiomanDurationPerLevel)sapós seu veículo ser destruído."
+
+msgid "radioman_lastEffort/name"
+msgstr "Chamado por Vingança"
+
+msgid "radioman_lastEffort/shortDescription"
+msgstr "Reporta as posições inimigas durante um curto período depois que o seu veículo for destruído."
+
+msgid "radioman_sideBySide/alt/description"
+msgstr "O bônus da eficiência da tripulação melhora a eficiência do tripulante em combate. Se dois Operadores de Rádio possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento. Este parâmetro pode ser melhorado ao montar equipamentos ou consumíveis com efeito semelhante, ou usar a diretiva Ventilação Forçada. A habilidade de grupo \"Irmãos de Armas\", assim como a \"Emergência\" do Comandante ou \"Especialista em Comunicações\" do Operador de Rádio, também podem aumentar este parâmetro."
+
+msgid "radioman_sideBySide/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "radioman_sideBySide/currentLvlDescription"
+msgstr "O {yellow_Start}bônus da eficiência da tripulação{yellow_End} será aumentado em %(crewLevelIncrease)s numa distância menor que 50 m de um veículo aliado do mesmo tipo&zwnbsp;."
+
+msgid "radioman_sideBySide/hudDescription"
+msgstr "O bônus da eficiência da tripulação é aumentado (aliado do mesmo tipo próximo)."
+
+msgid "radioman_sideBySide/maxLvlDescription"
+msgstr "Quando 100% treinada aumenta o {yellow_Start}bônus da eficiência da tripulação{yellow_End} em %(crewLevelIncrease)s em distâncias menores que 50 m de um veículo aliado do mesmo tipo&zwnbsp;."
+
+msgid "radioman_sideBySide/name"
+msgstr "Lado a Lado"
+
+msgid "radioman_sideBySide/shortDescription"
+msgstr "Performance da tripulação melhorada."
+
+msgid "radioman_signalInterception/alt/description"
+msgstr "O efeito melhora o recurso especial do Comandante \"Sexto Sentido\", acelerando sua ativação.\n\nSe dois Operadores de Rádio possuírem esta habilidade, será aplicado o valor médio do seu nível de treinamento."
+
+msgid "radioman_signalInterception/alt/info"
+msgstr "Uma habilidade se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento."
+
+msgid "radioman_signalInterception/currentLvlDescription"
+msgstr "O {greenBright_Start}tempo para determinar{greenBright_End} se {greenBright_Start}o seu veículo foi detectado{greenBright_End} pelo inimigo é reduzido em %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/maxLvlDescription"
+msgstr "Quando 100% treinada reduz o {greenBright_Start}tempo para determinar{greenBright_End} se {greenBright_Start}o seu veículo foi detectado{greenBright_End} pelo inimigo em %(commanderLampDelay)s."
+
+msgid "radioman_signalInterception/name"
+msgstr "Interceptação de Sinal"
+
+msgid "radioman_threatSearch/alt/description"
+msgstr "Essa habilidade é ativada quando o alerta do Sexto Sentido indica que o seu veículo foi detectado.\n\nSe dois Operadores de Rádio tiverem essa habilidade, será aplicado o valor médio do nível de treinamento.\n\nO alcance de visão pode ser melhorado ao treinar as habilidades Reconhecimento ou Visão de Jogo, ou ao montar equipamentos com efeito semelhante. Usar a diretiva Calibragem Ótica melhora o efeito."
+
+msgid "radioman_threatSearch/alt/info"
+msgstr "Uma habilidade com efeito situacional se torna efetiva quando treinada em pelo menos 1% e sua efetividade aumenta com o progresso do treinamento. O efeito situacional é ativado quando certas condições ocorrem durante a batalha."
+
+msgid "radioman_threatSearch/currentLvlDescription"
+msgstr "O {yellow_Start}alcance de visão{yellow_End} será aumentado em %(vehicleCircularVisionRadius)s durante 5 s após receber o alerta do Sexto Sentido."
+
+msgid "radioman_threatSearch/hudDescription"
+msgstr "O alcance de visão é aumentado."
+
+msgid "radioman_threatSearch/maxLvlDescription"
+msgstr "Quando totalmente treinada, aumenta o {yellow_Start}alcance de visão{yellow_End} em %(vehicleCircularVisionRadius)s durante 5 s após receber o alerta do Sexto Sentido."
+
+msgid "radioman_threatSearch/name"
+msgstr "Detecção de Ameaças"
+
+msgid "repair/alt/description"
+msgstr "Esta habilidade afeta a velocidade de conserto dos módulos externos e internos do estado \"vermelho\" para o \"amarelo\".\n\nEste parâmetro pode ser melhorado ao montar equipamentos ou consumíveis com efeito semelhante."
+
+msgid "repair/alt/info"
+msgstr "Para habilidades de grupo, o nível médio de treinamento entre todos os tripulantes é levado em consideração. Ela entra em vigor quando é treinada em pelo menos 1% e sua eficácia aumenta com o treinamento adicional."
+
+msgid "repair/currentLvlDescription"
+msgstr "A {greenBright_Start}velocidade de conserto{greenBright_End} dos módulos danificados no veículo é aumentada em%(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/maxLvlDescription"
+msgstr "Quando 100% treinada em todos os tripulantes, aumenta a {greenBright_Start}velocidade de conserto{greenBright_End} dos módulos danificados no veículo em %(vehicleRepairSpeed)s&zwnbsp;."
+
+msgid "repair/name"
+msgstr "Reparos"
+
+msgid "repair/shortDescription"
+msgstr "Aumenta a velocidade de conserto dos módulos danificados."
+
+msgid "sabaton_brotherhood/name"
+msgstr "Banda de Irmãos"
+
+msgid "sign/minus"
+msgstr "-"
+
+msgid "sign/plus"
+msgstr "+"
+
+msgid "sorting/common"
+msgstr "Popular"
+
+msgid "sorting/fallback"
+msgstr "Padrão"
+
+msgid "sorting/legendary"
+msgstr "Lendário"
+
+msgid "sorting/title"
+msgstr "Ordenado por:"
+
+msgid "sorting/tooltip/common"
+msgstr "%(whiteSpanish_Open)sPopular.%(whiteSpanish_Close)s Baseado nas tendências de habilidades atuais entre todos os jogadores do World of Tanks"
+
+msgid "sorting/tooltip/header"
+msgstr "Benefícios da WoT Plus"
+
+msgid "sorting/tooltip/headerDescription"
+msgstr "Receba informações precisas sobre as habilidades da tripulação com base em milhões de jogos, obtendo o máximo de desempenho a cada batalha."
+
+msgid "sorting/tooltip/legendary"
+msgstr "%(whiteSpanish_Open)sLendário.%(whiteSpanish_Close)s Baseado nas habilidades atuais favoritas dos jogadores com um nível WTR Lenda"
+
+msgid "sorting/tooltip/sortingDisabled"
+msgstr "Ordenação de habilidades desativada"
+
+msgid "sorting/tooltip/sortingDisabledText"
+msgstr "Nenhuma informação disponível"
+
+msgid "sorting/tooltip/title"
+msgstr "Assistente de Tripulação"
+
+msgid "sorting/tooltip/types"
+msgstr "Tipos de ordenação de habilidades"
+
+msgid "sorting/tooltip/warning"
+msgstr "Ordenação de habilidades não disponível"
+
+msgid "sorting/tooltip/warningText"
+msgstr "Informações completas sobre habilidades indisponíveis para este veículo, portanto, a ordenação Padrão de habilidades foi aplicada."
+
+msgid "witches_brotherhood/name"
+msgstr "Conventículo"
+
+msgid "yha_brotherhood/name"
+msgstr "Irmandade de Hares"

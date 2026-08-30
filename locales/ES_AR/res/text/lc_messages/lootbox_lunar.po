@@ -1,0 +1,92 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Volver a Tesoros"
+
+msgid "common/boxCategory/lowerCase/lunar"
+msgstr "Tesoro ardiente"
+
+msgid "common/boxCategory/upperCase/lunar"
+msgstr "TESORO ARDIENTE"
+
+msgid "common/getButton/lowerCase"
+msgstr "Obtener tesoros"
+
+msgid "common/getButton/upperCase"
+msgstr "OBTENER TESOROS"
+
+msgid "common/loader"
+msgstr "Abriendo tesoro ardiente..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Abre tesoros para ver las estadísticas."
+
+msgid "common/statistics/header"
+msgstr "Tesoros ardientes abiertos: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "Se borrará toda la información sobre los tesoros ardientes abiertos."
+
+msgid "entryPoint/boxes"
+msgstr "A LOS TESOROS"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Se trata de cajas especiales que contienen objetos nuevos y únicos, como vehículos premium, estilos 2D y más. Pueden comprarse en la tienda del juego."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Debido a problemas técnicos, no se pueden abrir ni comprar tesoros ardientes en este momento. Te pedimos disculpas por las molestias ocasionadas."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Tesoros ardientes no disponibles temporalmente"
+
+msgid "eventName/lowerCase"
+msgstr "Botín lunar"
+
+msgid "eventName/upperCase"
+msgstr "BOTÍN LUNAR"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "¡Recompensa garantizada en el siguiente tesoro!"
+
+msgid "guaranteedTitle/text"
+msgstr "Tesoros ardientes máximos antes de una recompensa garantizada: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "Si no abres los tesoros ardientes antes de que termine el evento, se abrirán automáticamente."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "Si ya tienes todos los vehículos incluidos en los tesoros ardientes, las próximas veces que recibas vehículos de los tesoros obtendrás una compensación en oro equivalente al valor total del vehículo."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Se garantiza que hay un vehículo de nivel VIII - IX cada %(guaranteed0)s tesoros ardientes. Si los abres y no consigues un vehículo de este tipo, obtendrás uno de nivel VIII - IX que aún no tengas cuando abras el tesoro %(guaranteed0)s&zwnbsp;. Cuando suceda, el contador se reiniciará."
+
+msgid "infoPage/header/description"
+msgstr "¡Abre tesoros ardientes para tener la oportunidad de recibir objetos valiosos del juego! Más detalles a continuación."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "De %(name) (%(boxesCount) tesoros ardientes abiertos)"
+
+msgid "noBoxesView/description/"
+msgstr "No tienes tesoros ardientes.\nPuedes conseguirlos en la tienda del juego."
+
+msgid "preview/backLabel"
+msgstr "A LOS TESOROS"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Tesoros disponibles: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "No hay tesoros disponibles"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "Si ya tienes todos los vehículos incluidos en los tesoros ardientes, las próximas veces que recibas vehículos de los tesoros obtendrás una compensación en oro."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) tesoro ardiente"
+msgstr[1] "%(remainingCount) tesoros ardientes"
+msgstr[2] "%(remainingCount) tesoros ardientes"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "La recompensa garantizada es un vehículo de la lista del posible contenido del tesoro ardiente.\nSi abres %(remainingCount) y no recibes dicho vehículo, lo conseguirás cuando abras el tesoro ardiente %(count). Cuando esto suceda, el contador se reiniciará."

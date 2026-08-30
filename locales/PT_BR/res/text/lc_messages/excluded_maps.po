@@ -1,0 +1,96 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-01 10:00+0300\nPO-Revision-Date: 2023-03-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "backButton/label"
+msgstr "VOLTAR"
+
+msgid "backButton/to"
+msgstr "ACESSAR STATUS DA CONTA"
+
+msgid "filteredMapsDisplayed"
+msgstr "Mapas exibidos: %(count) / %(total)"
+
+msgid "filtersTooltip/desc"
+msgstr "Mostrar/ocultar mapas deste tipo."
+
+msgid "filtersTooltip/header/desert"
+msgstr "Mapas de Deserto"
+
+msgid "filtersTooltip/header/summer"
+msgstr "Mapas de Verão"
+
+msgid "filtersTooltip/header/winter"
+msgstr "Mapas de Inverno"
+
+msgid "header/cooldown"
+msgstr "Você pode substituir um mapa novamente em %(cooldownEndTime)."
+
+msgid "header/title"
+msgstr "Mapas Vetados"
+
+msgid "mapTile/cooldownTooltipBody"
+msgstr "Você pode substituir um mapa novamente após o cooldown."
+
+msgid "mapTile/cooldownTooltipHeader"
+msgstr "Substituição de Mapa Indisponível"
+
+msgid "mapTile/hoverExclude"
+msgstr "Vetar o mapa %(mapName)?"
+
+msgid "mapTile/hoverExcludeButton"
+msgstr "Vetar"
+
+msgid "mapTile/hoverInclude"
+msgstr "Incluir o mapa %(mapName) nas Batalhas Aleatórias?"
+
+msgid "mapTile/hoverIncludeButton"
+msgstr "Incluir"
+
+msgid "mapsFilterLabel"
+msgstr "Tipos de mapa:"
+
+msgid "notSelected"
+msgstr "Não Selecionado"
+
+msgid "premium"
+msgstr "WoT Premium"
+
+msgid "slot/disabledTooltipBody"
+msgstr "Uma vaga adicional está disponível apenas para uma Conta Premium WoT ativa ou uma assinatura WoT Plus."
+
+msgid "slot/disabledTooltipBodyPremium"
+msgstr "Desbloqueie com uma Conta Premium WoT."
+
+msgid "slot/disabledTooltipBodyWotplus"
+msgstr "Desbloqueie com uma assinatura ativa WoT Plus."
+
+msgid "slot/replaceTooltipBody"
+msgstr "Escolha um mapa da lista abaixo para ser substituído e vete ele das Batalhas Aleatórias."
+
+msgid "slot/selectTooltipBody"
+msgstr "Escolha um mapa da lista abaixo para ser vetado das Batalhas Aleatórias."
+
+msgid "slot/selectTooltipHeader"
+msgstr "Vaga Disponível"
+
+msgid "totalMapsDisplayed"
+msgstr "Mapas exibidos: %(count)"
+
+msgid "unlock/both"
+msgid_plural "plural/unlock/both"
+msgstr[0] "Exclua mais um mapa com %(linkPremium) e mais %(mapCount)s com %(linkWotPlus)."
+msgstr[1] "Exclua mais um mapa com %(linkPremium) e mais %(mapCount)s com %(linkWotPlus)."
+
+msgid "unlock/premium"
+msgstr "Exclua mais um mapa com %(linkPremium)."
+
+msgid "unlock/wotplus"
+msgid_plural "plural/unlock/wotplus"
+msgstr[0] "Exclua mais %(mapCount)s mapa com %(linkWotPlus)."
+msgstr[1] "Exclua mais %(mapCount)s mapas com %(linkWotPlus)."
+
+msgid "wotplus"
+msgstr "WoT Plus"

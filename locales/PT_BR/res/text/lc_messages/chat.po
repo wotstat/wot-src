@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Tradutor WoT <noreply@wargaming.net>\nLanguage-Team: Time WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "channels/battle/common"
+msgstr "Geral"
+
+msgid "channels/battle/team"
+msgstr "Time"
+
+msgid "channels/clan"
+msgstr "Clã"
+
+msgid "channels/common"
+msgstr "Geral"
+
+msgid "channels/epic_training"
+msgstr "Treino - Linha de Frente"
+
+msgid "channels/nubs"
+msgstr "Recrutas"
+
+msgid "channels/prebattle"
+msgstr "Pré-Batalha"
+
+msgid "channels/special_battles"
+msgstr "Batalha Especial"
+
+msgid "channels/squad"
+msgstr "Pelotão"
+
+msgid "channels/squadNotReady/tooltip/body"
+msgstr "Pelotão criado. Por favor, aguarde até que os jogadores estejam prontos."
+
+msgid "channels/squadNotReady/tooltip/header"
+msgstr "Pelotão"
+
+msgid "channels/squadReady/tooltip/body"
+msgstr "Pelotão criado. Todos os jogadores estão prontos."
+
+msgid "channels/squadReady/tooltip/header"
+msgstr "Pelotão"
+
+msgid "channels/system"
+msgstr "Sistema"
+
+msgid "channels/tournament"
+msgstr "Torneio"
+
+msgid "channels/trading"
+msgstr "Comércio"
+
+msgid "channels/training"
+msgstr "Treino"
+
+msgid "errors/addmoderatorchatadmin"
+msgstr "O Administrador do chat também é um moderador de canal"
+
+msgid "errors/addmoderatorowner"
+msgstr "O Proprietário do canal também é um moderador"
+
+msgid "errors/banchannelowner"
+msgstr "O Proprietário do canal não pode ser banido"
+
+msgid "errors/banchatadmin"
+msgstr "O Administrador do chat não pode ser banido"
+
+msgid "errors/banned"
+msgstr "Você foi banido pelo usuário %(banOwnerNick)s até %(banEndTime)s. Motivo: %(banReason)s"
+
+msgid "errors/bannedpermanent"
+msgstr "Você foi banido pelo usuário %(banOwnerNick)s. Motivo: %(banReason)s"
+
+msgid "errors/chatbanned"
+msgstr "Você foi banido até %(banEndTime)s. Motivo: %(banReason)s"
+
+msgid "errors/chatbannedpermanent"
+msgstr "Você foi banido. Motivo: %(banReason)s"
+
+msgid "errors/commandInCooldown"
+msgstr "O comando %(command)s está suspenso por %(cooldownPeriod)s s."
+
+msgid "errors/delmoderatorchatadmin"
+msgstr "As permissões de moderação não podem ser removidas do Administrador do chat."
+
+msgid "errors/delmoderatorowner"
+msgstr "As permissões de moderação não podem ser removidas do Proprietário do canal."
+
+msgid "errors/timeincorrect"
+msgstr "O parâmetro 'tempo' deve ser um valor positivo de minutos (1-1440) ou 'permanente'."
+
+msgid "errors/toomanyargs"
+msgstr "Muitos parâmetros."
+
+msgid "errors/toosmallargs"
+msgstr "Número insuficiente de parâmetros."
+
+msgid "errors/userbanhimself"
+msgstr "Você não pode banir a si mesmo."
+
+msgid "messages/userbanned"
+msgstr "Usuário %(banedUser)s foi banido pelo usuário %(banOwnerNick)s até %(banEndTime)s. Motivo: %(banReason)s"
+
+msgid "messages/userbannedpermanent"
+msgstr "Usuário %(banedUser)s foi banido pelo usuário %(banOwnerNick)s. Motivo: %(banReason)s"

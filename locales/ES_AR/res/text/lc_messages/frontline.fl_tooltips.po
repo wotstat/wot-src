@@ -1,0 +1,176 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "bannerTooltip/curfewTime"
+msgstr "Toque de queda: {{timer}}"
+
+msgid "bannerTooltip/dateRange"
+msgstr "{{icon}}{{startDate}} - {{endDate}}"
+
+msgid "bannerTooltip/dateRangeLabel"
+msgstr "Podrás acceder al evento desde"
+
+msgid "bannerTooltip/description"
+msgstr "Batallas enormes 30 contra 30 en vehículos de nivel {{vehicleTier}} en los mapas Normandía, Kraftwerk y Fata Morgana. Los atacantes deben destruir tres de cinco cañones de alto calibre, mientras que los defensores deben protegerlos."
+
+msgid "bannerTooltip/descriptionActive"
+msgstr "Demuestra tu destreza en intensas batallas para ganar fama, recoger valiosas recompensas y ascender en los rangos."
+
+msgid "bannerTooltip/descriptionEnded"
+msgstr "El evento terminó y tienes recompensas sin recoger por completar niveles de Línea del frente."
+
+msgid "bannerTooltip/header"
+msgstr "Línea del Frente"
+
+msgid "bannerTooltip/headerWithTier"
+msgstr "Línea del frente | Nivel {{curLevel}} {{@ class $maxTierClass}} / {{maxLevel}}{{/}}"
+
+msgid "bannerTooltip/mode"
+msgstr "{{mode}} - Modo de juego. Haz clic para ver."
+
+msgid "bannerTooltip/performanceRisk/text"
+msgstr "Este modo requiere de un alto rendimiento de la computadora. Podrías experimentar problemas con la carga de mapas, gráficos y movimiento de vehículos. En caso de que el desempeño sea insuficiente, cambia a una calidad inferior de gráficos en la Configuración."
+
+msgid "bannerTooltip/performanceRisk/title"
+msgstr "Posibilidad de rendimiento reducido"
+
+msgid "bannerTooltip/progress"
+msgstr "{{value}} / {{maxValue}}"
+
+msgid "bannerTooltip/rewardInfo"
+msgstr "Elige las recompensas de los niveles completados ({{value}})."
+
+msgid "battleAbilities/button/notEnough"
+msgstr "Fondos insuficientes para realizar la compra."
+
+msgid "battleAbilities/checkbox/AT-SPG"
+msgstr "Los cambios se aplicarán a todos los cazatanques."
+
+msgid "battleAbilities/checkbox/SPG"
+msgstr "Los cambios se aplicarán a todas las AAP."
+
+msgid "battleAbilities/checkbox/heavyTank"
+msgstr "Los cambios se aplicarán a todos los tanques pesados."
+
+msgid "battleAbilities/checkbox/lightTank"
+msgstr "Los cambios se aplicarán a todos los tanques ligeros."
+
+msgid "battleAbilities/checkbox/mediumTank"
+msgstr "Los cambios se aplicarán a todos los tanques medianos."
+
+msgid "battleAbilities/incompatibleVehicle"
+msgstr "Vehículo incompatible."
+
+msgid "battleAbilities/points/body"
+msgstr "Acumula la cantidad necesaria de puntos y activa las reservas de combate de Línea del frente."
+
+msgid "battleAbilities/points/header"
+msgstr "Puntos de reservas de combate"
+
+msgid "battleAbilityFilter/firesupport/body"
+msgstr "Ver reservas de ataque"
+
+msgid "battleAbilityFilter/firesupport/header"
+msgstr "Reservas de ataque"
+
+msgid "battleAbilityFilter/reconnaissance/body"
+msgstr "Ver reservas de reconocimiento"
+
+msgid "battleAbilityFilter/reconnaissance/header"
+msgstr "Reservas de reconocimiento"
+
+msgid "battleAbilityFilter/tactics/body"
+msgstr "Ver reservas tácticas"
+
+msgid "battleAbilityFilter/tactics/header"
+msgstr "Reservas tácticas"
+
+msgid "battleAbilityTooltip/activation_depends"
+msgstr "El nivel de la reserva de combate aumenta al alcanzar los rangos de capitán y mayor en batalla. El nivel máximo depende del escenario de batalla."
+
+msgid "battleAbilityTooltip/addInfo"
+msgstr "Información adicional"
+
+msgid "battleAbilityTooltip/category/firesupport"
+msgstr "Reservas de ataque"
+
+msgid "battleAbilityTooltip/category/reconnaissance"
+msgstr "Reservas de reconocimiento"
+
+msgid "battleAbilityTooltip/category/tactics"
+msgstr "Reservas tácticas"
+
+msgid "battleAbilityTooltip/characteristicsList"
+msgstr "{{label}}: {{@ class $valueClass}}{{value}}{{/}}"
+
+msgid "battleAbilityTooltip/characteristicsTitle"
+msgstr "Características permanentes:"
+
+msgid "battleAbilityTooltip/description"
+msgstr "Al colocar una reserva de combate en este espacio, la probabilidad de que se ofrezca en el escenario {{@ colorLegacy 'FFE4C0'}}Giro del destino{{/}} aumenta en un {{@ colorLegacy 'FFE4C0'}}10 %{{/}}."
+
+msgid "battleAbilityTooltip/levelsTitle"
+msgstr "Nivel de reserva:"
+
+msgid "battleAbilityTooltip/notPurchased"
+msgstr "¡No compraste!"
+
+msgid "commonTooltip/descriptionEnded"
+msgstr "El evento terminó."
+
+msgid "commonTooltip/eventStartSoon"
+msgstr "¡El evento comenzará pronto!"
+
+msgid "infoButton/body"
+msgstr "Haz clic para ver más información."
+
+msgid "infoButton/header"
+msgstr "Sobre el evento"
+
+msgid "levelReserves/desc"
+msgstr "Los niveles de reservas de combate aumentan al alcanzar nuevos rangos."
+
+msgid "levelReserves/info"
+msgstr "En el escenario {{@ colorLegacy 'FFE4C0'}}Giro del destino{{/}}, al comprar una reserva de combate, su nivel aumentará en uno y se podrá mejorar hasta nivel {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}."
+
+msgid "levelReserves/level"
+msgstr "Aumenta al alcanzar el siguiente rango: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelAvailable"
+msgstr "Disponible con el siguiente rango: {{@ colorLegacy 'FFE4C0'}}{{lvl}}{{/}}"
+
+msgid "levelReserves/levelTitle"
+msgstr "Nivel: {{lvl}}"
+
+msgid "levelReserves/optionalReserve"
+msgstr "Por {{@ colorLegacy 'FFE4C0'}}reservas de combate compradas{{/}} en el escenario {{@ colorLegacy 'FFE4C0'}}Giro del destino{{/}}."
+
+msgid "levelReserves/title"
+msgstr "Niveles de reserva de combate"
+
+msgid "playlist/warning/body"
+msgstr "La lista incluye vehículos que no son adecuados para este modo o que no tienes en el garage."
+
+msgid "playlist/warning/header"
+msgstr "Vehículos no disponibles (%(display)s/%(total)s)"
+
+msgid "randomReserve/characteristic/improved"
+msgstr "Características de la reserva de combate mejoradas"
+
+msgid "randomReserve/disable"
+msgstr "Usaste el espacio de la reserva de combate."
+
+msgid "randomReserve/notPurchased"
+msgstr "No compraste esta reserva de combate"
+
+msgid "randomReserve/purchased"
+msgstr "Compraste esta reserva de combate"
+
+msgid "skillOrderTooltip/body"
+msgstr "Cada tipo de vehículo tiene su orden para desbloquear las reservas:"
+
+msgid "skillOrderTooltip/header"
+msgstr "Orden de desbloqueo de reservas de combate"
+
+msgid "skillOrderTooltip/info"
+msgstr "En el escenario {{@ colorLegacy 'whiteSpanish'}}Giro del destino{{/}}, el orden en el que desbloqueas las reservas de combate no depende del tipo de vehículo."

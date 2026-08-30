@@ -1,0 +1,566 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "categories/firepower"
+msgstr "potencia de fuego"
+
+msgid "categories/mobility"
+msgstr "movilidad"
+
+msgid "categories/stealth"
+msgstr "exploración"
+
+msgid "categories/survivability"
+msgstr "resistencia"
+
+msgid "destroyPairModificationsDialog/acceptButton"
+msgstr "¡Afirmativo!"
+
+msgid "destroyPairModificationsDialog/cancelButton"
+msgstr "¡Negativo!"
+
+msgid "destroyPairModificationsDialog/destroyAll/description/credits"
+msgstr "Luego de cancelar todas las modificaciones, podrás comprarlas otra vez usando créditos."
+
+msgid "destroyPairModificationsDialog/destroyAll/description/default"
+msgstr "Luego de cancelar todas las modificaciones, podrás comprarlas otra vez."
+
+msgid "destroyPairModificationsDialog/destroyAll/title"
+msgstr "¿Quieres cancelar todas las modificaciones dobles gratis?"
+
+msgid "destroyPairModificationsDialog/destroyOne/description/credits"
+msgstr "Luego de cancelar la modificación, podrás comprarla otra vez usando créditos."
+
+msgid "destroyPairModificationsDialog/destroyOne/description/default"
+msgstr "Luego de cancelar la modificación, podrás comprarla otra vez."
+
+msgid "destroyPairModificationsDialog/destroyOne/title"
+msgstr "¿Quieres cancelar la modificación dobles %(modification)s gratis?"
+
+msgid "hint/CompareModificationsPanel"
+msgstr "COMPRAR MODIFICACIONES"
+
+msgid "hint/CompareSpecializationButton"
+msgstr "ELEGIR CATEGORÍA DE ESPACIO"
+
+msgid "hint/entryPoint"
+msgstr "MODIFICACIONES DISPONIBLES"
+
+msgid "hint/switchEquipment/auxiliaryLoadout"
+msgstr "HAZ CLIC PARA CAMBIAR\nA LA SELECCIÓN AUXILIAR"
+
+msgid "hint/switchEquipment/essentialsLoadout"
+msgstr "HAZ CLIC PARA CAMBIAR\nA LA SELECCIÓN ESENCIAL"
+
+msgid "hint/vehiclePreview"
+msgstr "CAMBIOS A LAS CARACTERÍSTICAS DE LOS VEHÍCULOS"
+
+msgid "postProgressionIntro/okButton"
+msgstr "¡Afirmativo!"
+
+msgid "postProgressionIntro/title"
+msgstr "MEJORA DE CAMPO"
+
+msgid "postProgressionLevelTooltipView/feature"
+msgstr "Modificación especial %(level): %(featureName)"
+
+msgid "postProgressionLevelTooltipView/lockedDescription"
+msgstr "Haz clic para ver los cambios a las características del vehículo luego de recibir el nivel y resaltar las modificaciones aplicadas."
+
+msgid "postProgressionLevelTooltipView/pairModification"
+msgstr "Modificación doble %(level)"
+
+msgid "postProgressionLevelTooltipView/title"
+msgstr "Nivel de Mejora de campo"
+
+msgid "researchEntry/status/notPurchased"
+msgstr "Disponible luego de comprar el vehículo"
+
+msgid "researchEntry/status/notResearched"
+msgstr "Disponible luego de adquirir el estado de élite"
+
+msgid "researchEntry/status/notResearchedNotPurchased"
+msgstr "Disponible luego de comprar el vehículo y adquirir el estado de élite"
+
+msgid "researchEntry/title"
+msgstr "MEJORA DE CAMPO"
+
+msgid "researchStepsDialog/acceptButton"
+msgstr "Incrementar"
+
+msgid "researchStepsDialog/bonus"
+msgstr "{unit} {text}"
+
+msgid "researchStepsDialog/cancelButton"
+msgstr "Cancelar"
+
+msgid "researchStepsDialog/description/bonuses/double"
+msgstr "{bonus1} y {bonus2}"
+
+msgid "researchStepsDialog/description/bonuses/multiple"
+msgstr "{bonuses}"
+
+msgid "researchStepsDialog/description/bonuses/single"
+msgstr "{bonus}"
+
+msgid "researchStepsDialog/description/feature/optDevBoostersSwitch"
+msgstr "Selección auxiliar"
+
+msgid "researchStepsDialog/description/feature/roleSlot"
+msgstr "Espacio"
+
+msgid "researchStepsDialog/description/feature/shellsConsumablesSwitch"
+msgstr "Selección esencial"
+
+msgid "researchStepsDialog/description/features/double"
+msgstr "acceso a modificaciones especiales {name1} y {name2}"
+
+msgid "researchStepsDialog/description/features/multiple"
+msgstr "acceso a modificaciones especiales {names}"
+
+msgid "researchStepsDialog/description/features/single"
+msgstr "acceso a modificación especial {name}"
+
+msgid "researchStepsDialog/description/features/triple"
+msgstr "acceso a modificaciones especiales {name1}, {name2} y {name3}"
+
+msgid "researchStepsDialog/description/pairModification/multiple"
+msgstr "acceso a niveles de modificaciones dobles {numbers}"
+
+msgid "researchStepsDialog/description/pairModification/single"
+msgstr "acceso a nivel de modificaciones dobles {number}"
+
+msgid "researchStepsDialog/description/separator"
+msgstr ", "
+
+msgid "researchStepsDialog/description/text"
+msgstr "Recibirás: {unlockedItems}."
+
+msgid "researchStepsDialog/title/multiple"
+msgstr "¿Quieres aumentar el nivel de modificación estándar a {level}?"
+
+msgid "researchStepsDialog/title/single"
+msgstr "¿Quieres aumentar el nivel de modificación estándar?"
+
+msgid "researchStepsDialog/totalPrice"
+msgstr "Total:"
+
+msgid "roleSlotTooltipView/appointment"
+msgstr "Asignación"
+
+msgid "roleSlotTooltipView/availableRoles"
+msgstr "Categorías disponibles: %(roles)."
+
+msgid "roleSlotTooltipView/currentRole"
+msgstr "Categoría elegida: %(roles)"
+
+msgid "roleSlotTooltipView/featureOpportunity"
+msgstr "Una oportunidad de asignar una categoría al segundo espacio de equipamiento de este vehículo."
+
+msgid "roleSlotTooltipView/firstChoice"
+msgstr "Asignación de categoría de primer espacio"
+
+msgid "roleSlotTooltipView/moneyShortage/appointment"
+msgstr "Asignación (%(notEnough) %(money))"
+
+msgid "roleSlotTooltipView/separator"
+msgstr ", "
+
+msgid "roleSlotTooltipView/title"
+msgstr "Categoría de segundo espacio"
+
+msgid "selectSlotSpecDialog/acceptButton/buyNotRequiredPanel"
+msgstr "Asignar"
+
+msgid "selectSlotSpecDialog/acceptButton/dealPanel"
+msgstr "Comprar y reasignar"
+
+msgid "selectSlotSpecDialog/acceptButton/exchangePanel"
+msgstr "Intercambiar"
+
+msgid "selectSlotSpecDialog/cancelButton"
+msgstr "Cancelar"
+
+msgid "selectSlotSpecDialog/desc/change"
+msgstr "Puedes reasignar la categoría del espacio por %(price)."
+
+msgid "selectSlotSpecDialog/desc/select"
+msgstr "La categoría seleccionada se asignará al segundo espacio de equipamiento. Puedes reasignar la categoría del espacio por %(price)."
+
+msgid "selectSlotSpecDialog/exchangeRate"
+msgstr "Tasa de intercambio: %(gold) = %(credits)"
+
+msgid "selectSlotSpecDialog/exchangeWarning"
+msgstr "Intercambio fallido: necesitas %(gold) más"
+
+msgid "selectSlotSpecDialog/title/buyNotRequiredPanel"
+msgstr "Asignar una categoría al segundo espacio de equipamiento"
+
+msgid "selectSlotSpecDialog/title/dealPanel"
+msgstr "Reasignar una categoría al segundo espacio de equipamiento"
+
+msgid "selectSlotSpecDialog/title/exchangePanel"
+msgstr "No puedes reasignar una categoría al segundo espacio de equipamiento: necesitas %(credits) más"
+
+msgid "selectSlotSpecDialog/totalPrice"
+msgstr "Total:"
+
+msgid "selectSlotSpecDialog/vehicleInfo"
+msgstr "%(level) %(typeIcon) %(name)"
+
+msgid "setupTooltipView/description/opt_dev_boosters_switch"
+msgstr "Una oportunidad para equipar un conjunto adicional de {cream_Open}equipamiento{cream_Close} y {cream_Open}directivas.{cream_Close}"
+
+msgid "setupTooltipView/description/shells_consumables_switch"
+msgstr "Una oportunidad para equipar un conjunto adicional de {cream_Open}proyectiles{cream_Close} y {cream_Open}consumibles.{cream_Close}"
+
+msgid "setupTooltipView/name/opt_dev_boosters_switch"
+msgstr "Selección auxiliar"
+
+msgid "setupTooltipView/name/shells_consumables_switch"
+msgstr "Selección esencial"
+
+msgid "setupTooltipView/tip"
+msgstr "Puedes intercambiar entre la configuración principal y la configuración alternativa del vehículo en el garage y durante la cuenta regresiva previa a la batalla."
+
+msgid "setupTooltipView/title"
+msgstr "Configuración alternativa: {name}"
+
+msgid "slides/additionalEquipment/description"
+msgstr "La %(accent)selección auxiliar%(/accent) es una parte de la configuración del vehículo que está compuesta por %(accent)equipamiento y directivas%(/accent). Luego de acceder a la configuración alternativa, podrás %(accent)intercambiar entre las distintas configuraciones%(/accent) de la selección auxiliar durante la cuenta regresiva previa a la batalla."
+
+msgid "slides/additionalEquipment/title"
+msgstr "SELECCIÓN AUXILIAR"
+
+msgid "slides/alternativeEquipment/description"
+msgstr "Luego de alcanzar cierto nivel de Mejora de campo, habrá disponible una %(accent)configuración alternativa%(/accent) para tu vehículo que te permitirá preparar %(accent)un conjunto de equipamiento, municiones, consumibles y directivas adicional%(/accent) en el garage. Esta configuración no reemplaza a la principal, pero te dará nuevas opciones para la batalla. Podrás evaluar el mapa y las composiciones de los equipos durante la cuenta regresiva previa a la batalla y %(accent)seleccionar una de las dos%(/accent) configuraciones del vehículo. De esta manera, te podrás preparar mejor para las próximas condiciones de batalla."
+
+msgid "slides/alternativeEquipment/title"
+msgstr "CONFIGURACIÓN ALTERNATIVA DEL VEHÍCULO"
+
+msgid "slides/baseModifications/description"
+msgstr "Las %(accent)modificaciones estándar%(/accent) agregan una bonificación a %(accent)una de las características del vehículo%(/accent) y desbloquean las modificaciones dobles. Estas modificaciones se pueden instalar de forma gratuita, y necesitas EXP de combate o EXP libre para investigarlas."
+
+msgid "slides/baseModifications/title"
+msgstr "MODIFICACIONES ESTÁNDAR"
+
+msgid "slides/extraModification/description"
+msgstr "Las %(accent)modificaciones especiales%(/accent) desbloquean una configuración alternativa para el vehículo y te permiten %(accent)asignar una categoría%(/accent) al segundo espacio de equipamiento (para vehículos de niveles VIII a X). Puedes reasignar la categoría de espacio seleccionada usando créditos."
+
+msgid "slides/extraModification/title"
+msgstr "MODIFICACIONES ESPECIALES: ESPACIO DE ROL"
+
+msgid "slides/fieldModernization/description"
+msgstr "Mejora de campo te permite llevar a cabo una configuración vehicular más específica teniendo en cuenta el rol del vehículo y %(accent)cambiar sus características%(/accent) usando varias %(accent)modificaciones%(/accent). Las siguientes modificaciones se desbloquean luego de investigar las anteriores."
+
+msgid "slides/fieldModernization/infoTitle"
+msgstr "MEJORA DE CAMPO"
+
+msgid "slides/fieldModernization/title"
+msgstr "CAMBIO DE LAS CARACTERÍSTICAS DEL VEHÍCULO"
+
+msgid "slides/modificationTree/description"
+msgstr "El árbol de modificación está disponible para los vehículos investigables y de coleccionista de %(accent)nivel VI a X%(/accent) que hayan adquirido el %(accent)estado de élite%(/accent). Las modificaciones para los vehículos de recompensa, especiales y premium estarán disponibles luego de la compra de dichos vehículos."
+
+msgid "slides/modificationTree/infoTitle"
+msgstr "INVESTIGACIÓN DE LAS MODIFICACIONES"
+
+msgid "slides/modificationTree/title"
+msgstr "INVESTIGACIÓN DE LAS MODIFICACIONES"
+
+msgid "slides/pairedModifications/description"
+msgstr "Las %(accent)modificaciones dobles mejoran una%(/accent) de las características del vehículo y %(accent)disminuyen otra%(/accent). Necesitas EXP de combate o EXP libre para investigar modificaciones, y créditos para instalarlas. Puedes %(accent)cancelar (quitarla del vehículo)%(/accent) la modificación %(accent)de forma gratuita%(/accent).\nCuando vendas el vehículo, las modificaciones estándar y especiales se guardan, pero las modificaciones dobles se cancelan."
+
+msgid "slides/pairedModifications/title"
+msgstr "MODIFICACIONES DOBLES"
+
+msgid "slides/requiredEquipment/description"
+msgstr "La %(accent)selección esencial%(/accent) es una parte de la configuración del vehículo que está compuesta por %(accent)municiones y consumibles%(/accent). Luego de acceder a la configuración alternativa, podrás %(accent)intercambiar entre las distintas configuraciones%(/accent) de la selección esencial durante la cuenta regresiva previa a la batalla."
+
+msgid "slides/requiredEquipment/title"
+msgstr "SELECCIÓN ESENCIAL"
+
+msgid "slides/roleInBattle/description"
+msgstr "A diferencia del tipo de vehículo, el rol refleja mejor las %(accent)tácticas de batalla%(/accent) óptimas y define qué %(accent)árbol de modificación%(/accent) estará disponible para un vehículo en particular."
+
+msgid "slides/roleInBattle/title"
+msgstr "ROL DEL VEHÍCULO EN BATALLA"
+
+msgid "slides/specialModifications/description/1/text"
+msgstr "Las modificaciones cambian las características de un vehículo, desbloquean el %(accent)acceso a la configuración alternativa%(/accent) y te permiten asignar una categoría al %(accent)segundo espacio%(/accent) del equipamiento."
+
+msgid "slides/specialModifications/description/2/text"
+msgstr "La configuración alternativa es un segundo conjunto de %(accent)equipamiento, municiones, consumibles y directivas%(/accent). Podrás alternar entre distintas configuraciones."
+
+msgid "slides/specialModifications/description/3/text"
+msgstr "La capacidad para seleccionar y asignar una categoría al %(accent)segundo espacio%(/accent) de equipamiento. Afecta directamente a la eficiencia del vehículo en batalla."
+
+msgid "slides/specialModifications/title"
+msgstr "MODIFICACIONES, CONFIGURACIÓN ALTERNATIVA Y CATEGORÍA DEL ESPACIO"
+
+msgid "tooltips/entry_point/description"
+msgstr "Una capacidad adicional de cambiar las características de los vehículos."
+
+msgid "tooltips/entry_point/footerModulesAndVehicles"
+msgstr "Módulos y vehículos investigados: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/footerOnlyModules"
+msgstr "Módulos investigados: %(explored)/%(total)"
+
+msgid "tooltips/entry_point/header"
+msgstr "Mejora de campo"
+
+msgid "tooltips/entry_point/status/notPurchased"
+msgstr "Disponible luego de comprar el vehículo."
+
+msgid "tooltips/entry_point/status/notResearched"
+msgstr "Disponible luego de adquirir el estado de élite."
+
+msgid "tooltips/entry_point/status/notResearchedNotPurchased"
+msgstr "Disponible luego de comprar el vehículo y adquirir el estado de élite."
+
+msgid "tooltips/feature/disabled/description"
+msgstr "Te pedimos disculpas por el inconveniente temporal. Vuelve a intentarlo más tarde."
+
+msgid "tooltips/feature/disabled/title"
+msgstr "Modificaciones especiales no disponibles"
+
+msgid "tooltips/feature/subTitle"
+msgstr "Modificación especial %(level)"
+
+msgid "tooltips/notEnoughCredits/description"
+msgstr "Gana créditos en batallas, vende artículos de sobra de tu Depósito o cambia oro para adquirir más."
+
+msgid "tooltips/notEnoughCredits/title"
+msgstr "No hay suficientes créditos"
+
+msgid "tooltips/pairModification/demount"
+msgstr "Desmontar"
+
+msgid "tooltips/pairModification/level"
+msgstr "Modificación doble %(level)"
+
+msgid "tooltips/pairModification/modifiers"
+msgstr "Cambios a las características técnicas:"
+
+msgid "tooltips/pairModification/moneyShortage/demount"
+msgstr "Desmontar (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/moneyShortage/mount"
+msgstr "Comprar (%(notEnough) %(money))"
+
+msgid "tooltips/pairModification/mount"
+msgstr "Compra"
+
+msgid "tooltips/pairModification/notInstalledFooter"
+msgstr "Haz clic para ver los cambios a las características técnicas del vehículo luego de la compra de esta modificación."
+
+msgid "tooltips/pairModification/status/received/description"
+msgstr "Cuando canceles la modificación, podrás comprar cualquier modificación de este par usando créditos."
+
+msgid "tooltips/pairModification/status/restricted/description"
+msgstr "Al comprar esta modificación, la modificación del mismo par instalada se cancelará automáticamente."
+
+msgid "tooltips/pairModification/status/restricted/title"
+msgstr "Se compró otra modificación"
+
+msgid "tooltips/pairModification/status/unavailableLocked/description"
+msgstr "Alcanza el nivel %(level) de Mejora de campo para acceder a esta modificación"
+
+msgid "tooltips/pairModification/status/unavailableLocked/title"
+msgstr "Modificación no disponible"
+
+msgid "tooltips/priceBlock/free"
+msgstr "Gratis"
+
+msgid "tooltips/priceBlock/notEnough"
+msgstr "requerido:"
+
+msgid "tooltips/ttc/approximately"
+msgstr "Número aproximado. Los valores precisos se especifican en las características."
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/apply"
+msgstr "Aplicar"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/cancel"
+msgstr "Cancelar"
+
+msgid "vehPostProgressionCmpView/compareControl/button/label/reset"
+msgstr "Restablecer"
+
+msgid "vehPostProgressionCmpView/title"
+msgstr "Modificaciones de %(title)s"
+
+msgid "vehPostProgressionView/button/compare"
+msgstr "Añadir a la comparación"
+
+msgid "vehPostProgressionView/button/demountAllPairs"
+msgstr "Destruir todas las modificaciones dobles"
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/body"
+msgstr "Haz clic para destruir todas las modificaciones dobles."
+
+msgid "vehPostProgressionView/button/demountAllPairs/tooltip/header"
+msgstr "Destruir"
+
+msgid "vehPostProgressionView/button/preview"
+msgstr "Vista previa"
+
+msgid "vehPostProgressionView/grid/featureButton/label/change"
+msgstr "Reasignar"
+
+msgid "vehPostProgressionView/grid/featureButton/label/prebattleSwitch"
+msgstr "Antes de batalla"
+
+msgid "vehPostProgressionView/grid/featureButton/label/select"
+msgstr "Elegir"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/optDevBoostersSwitch"
+msgstr "Habilitar/deshabilitar la opción para elegir conjuntos de equipamiento y directivas durante la cuenta regresiva precombate.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/body/shellsConsumablesSwitch"
+msgstr "Habilitar/deshabilitar la opción para elegir conjuntos de proyectiles y consumibles durante la cuenta regresiva precombate.\n{tip}"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/bodyTip"
+msgstr "Si está deshabilitada, durante la batalla se usarán los conjuntos elegidos en el garage."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/prebattleSwitch/header"
+msgstr "Cambio previo a la batalla"
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBattle"
+msgstr "Este vehículo está en la batalla."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBreaker"
+msgstr "Este vehículo está bloqueado."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableBroken"
+msgstr "Este vehículo necesita reparación."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableFormation"
+msgstr "Este vehículo está en una unidad táctica."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailablePurchase"
+msgstr "No se puede asignar una categoría de espacio; el vehículo no está en el garage."
+
+msgid "vehPostProgressionView/grid/featureButton/tooltip/unavailableRentOver"
+msgstr "El alquiler del vehículo ha terminado."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBattle"
+msgstr "Este vehículo está en la batalla."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBreaker"
+msgstr "Este vehículo está bloqueado."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableBroken"
+msgstr "Este vehículo necesita reparación."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableFormation"
+msgstr "Este vehículo está en una unidad táctica."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailablePurchase"
+msgstr "No se puede comprar; el vehículo no está en el garage."
+
+msgid "vehPostProgressionView/grid/pairModification/buyButton/tooltip/unavailableRentOver"
+msgstr "El alquiler del vehículo ha terminado."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/body"
+msgstr "Haz clic para destruir una modificación dobles."
+
+msgid "vehPostProgressionView/grid/pairModification/discardButton/tooltip/header"
+msgstr "Destruir"
+
+msgid "vehPostProgressionView/grid/pairModificationSeparator/label"
+msgstr "o"
+
+msgid "vehPostProgressionView/grid/progression/maxLevel"
+msgstr "Nivel máximo de Mejora de campo"
+
+msgid "vehPostProgressionView/grid/restrictions/label/multipleAllowedLevels"
+msgstr "Disponible para vehículos de nivel {minAllowedLevel} a {maxAllowedLevel}"
+
+msgid "vehPostProgressionView/grid/restrictions/label/singleAllowedLevel"
+msgstr "Disponible para vehículos de nivel {allowedLevel}"
+
+msgid "vehPostProgressionView/hideVehParams"
+msgstr "OCULTAR CARACTERÍSTICAS"
+
+msgid "vehPostProgressionView/persistentBonuses/bonusesSeparator"
+msgstr ", "
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepMultipleBonuses"
+msgstr "Bonificaciones permanentes: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepOneBonus"
+msgstr "Bonificación permanente: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/nonZeroStepTwoBonuses"
+msgstr "Bonificaciones permanentes: %(bonus1) y %(bonus2)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepMultipleBonuses"
+msgstr "Aumenta el nivel para obtener las bonificaciones permanentes: %(bonuses)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepOneBonus"
+msgstr "Aumenta el nivel para obtener la bonificación permanente: %(bonus)"
+
+msgid "vehPostProgressionView/persistentBonuses/zeroStepTwoBonuses"
+msgstr "Aumenta el nivel para obtener las bonificaciones permanentes %(bonus1) y %(bonus2)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUp"
+msgstr "Aumentar nivel"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/button/label/levelUpTo"
+msgstr "Aumentar nivel a %(level)"
+
+msgid "vehPostProgressionView/purchasePreview/mainContent/summary/label"
+msgstr "Aumenta el nivel para obtener lo siguiente:"
+
+msgid "vehPostProgressionView/purchasePreview/summaryBonusItem/label/multiple"
+msgstr "Características mejoradas"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/multiple"
+msgstr "Modificaciones especiales"
+
+msgid "vehPostProgressionView/purchasePreview/summaryFeatureItem/label/single"
+msgstr "Modificación especial {level}"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/multiple"
+msgstr "Modificaciones dobles"
+
+msgid "vehPostProgressionView/purchasePreview/summaryPairItem/label/single"
+msgstr "Modificación doble {level}"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/button/label"
+msgstr "A LOS MÓDULOS"
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBattle"
+msgstr "Mejora de campo no disponible; el vehículo está en batalla."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBreaker"
+msgstr "Mejora de campo no disponible; el vehículo está bloqueado."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableBroken"
+msgstr "Mejora de campo no disponible; el vehículo necesita reparaciones."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableElite"
+msgstr "La capacidad para cambiar de forma adicional las características de un vehículo que comienza a estar disponible cuando el vehículo adquiere el estado de élite."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableFormation"
+msgstr "Mejora de campo no disponible: el vehículo está en una unidad táctica."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailablePurchase"
+msgstr "Debes tener el vehículo en el garage para investigar modificaciones y aumentar el nivel de Mejora de campo."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRent"
+msgstr "Mejora de campo no está disponible para vehículos de alquiler. Compra este vehículo para desbloquear Mejora de campo."
+
+msgid "vehPostProgressionView/purchasePreview/unavailableContent/label/unavailableRentOver"
+msgstr "Mejora de campo no está disponible: el alquiler del vehículo ha terminado. Extiende el período de alquiler para desbloquear Mejora de campo."
+
+msgid "vehPostProgressionView/showVehParams"
+msgstr "MOSTRAR CARACTERÍSTICAS"
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/body"
+msgstr "La capacidad para cambiar de forma adicional las características de un vehículo. Estará disponible cuando el vehículo adquiera el estado de élite."
+
+msgid "vehiclePreviewPage/button/entryPoint/tooltip/header"
+msgstr "Mejora de campo"

@@ -1,0 +1,1540 @@
+from __future__ import absolute_import
+import logging, typing
+from collections import namedtuple
+from functools import partial
+from future.utils import lrange, viewvalues
+import BigWorld, wg_async as future_async
+from account_helpers import isLongDisconnectedFromCenter
+from account_helpers.AccountSettings import AccountSettings
+from adisp import adisp_async, adisp_process
+from constants import IS_EDITOR
+from exchange.personal_discounts_constants import MAX_DISCOUNT_VALUE
+from gui import DialogsInterface, makeHtmlString, SystemMessages
+from gui.Scaleform.Waiting import Waiting
+from gui.Scaleform.daapi.view.dialogs import CheckBoxDialogMeta, DIALOG_BUTTON_ID, HtmlMessageDialogMeta, HtmlMessageLocalDialogMeta, I18nConfirmDialogMeta, I18nInfoDialogMeta, IconDialogMeta, IconPriceDialogMeta, PMConfirmationDialogMeta
+from gui.Scaleform.daapi.view.dialogs.missions_dialogs_meta import UseAwardSheetDialogMeta
+from gui.Scaleform.locale.RES_ICONS import RES_ICONS
+from gui.SystemMessages import SM_TYPE
+from gui.goodies.demount_kit import getDemountKitForOptDevice
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.server_events.pm_constants import PM_SUIT_OP_PLUGIN_ERR_RESPONSE, PAUSABLE_OPERATIONS_IDS
+from gui.server_events.finders import BRANCH_TO_OPERATION_IDS
+from gui.shared.formatters.tankmen import formatDeletedTankmanStr
+from gui.shared.gui_items import GUI_ITEM_ECONOMY_CODE, GUI_ITEM_TYPE
+from gui.shared.gui_items.Vehicle import VEHICLE_TAGS
+from gui.shared.gui_items.artefacts import OptionalDevice
+from gui.shared.gui_items.vehicle_equipment import EMPTY_ITEM
+from gui.shared.money import Currency
+from gui.shared.utils.requesters import REQ_CRITERIA
+from gui.shared.utils.vehicle_collector_helper import isAvailableForPurchase
+from gui.veh_post_progression.models.ext_money import EXT_MONEY_UNDEFINED, ExtendedGuiItemEconomyCode
+from gui.veh_post_progression.models.purchase import PurchaseProvider
+from helpers import dependency
+from items import tankmen
+from items.components import skills_constants
+from items.components.c11n_constants import SeasonType
+from personal_missions import PM_BRANCH
+from skeletons.gui.game_control import IEpicBattleMetaGameController, IWotPlusController
+from skeletons.gui.goodies import IGoodiesCache
+from skeletons.gui.lobby_context import ILobbyContext
+from skeletons.gui.server_events import IEventsCache
+from skeletons.gui.shared import IItemsCache
+from soft_exception import SoftException
+if not IS_EDITOR:
+    from gui.impl.pub.dialog_window import DialogResult, DialogButtons, SingleDialogResult
+    from gui.impl.dialogs.gf_builders import ResDialogBuilder
+if typing.TYPE_CHECKING:
+    from gui.goodies.goodie_items import DemountKit
+    from gui.shared.gui_items.Vehicle import Vehicle
+    from post_progression_common import ACTION_TYPES
+_logger = logging.getLogger(__name__)
+PluginResult = namedtuple(b'PluginResult', b'success errorMsg ctx')
+
+def makeSuccess(**kwargs):
+    return PluginResult(True, b'', kwargs)
+
+
+def makeError(msg=b'', **kwargs):
+    return PluginResult(False, msg, kwargs)
+
+
+def showWarning(text, type=SM_TYPE.Warning):
+    SystemMessages.pushMessage(text=text, type=type)
+    return
+
+
+def _wrapHtmlMessage(message):
+    return makeHtmlString(b'html_templates:lobby/dialogs', b'questsDialogAlert', {b'message': message})
+
+
+class ProcessorPlugin(object):
+
+    class TYPE(object):
+        VALIDATOR = 0
+        CONFIRMATOR = 1
+
+    itemsCache = dependency.descriptor(IItemsCache)
+
+    def __init__(self, pluginType, isAsync=False, isEnabled=True):
+        self.type = pluginType
+        self.isAsync = isAsync
+        self.isEnabled = isEnabled
+        self.logWarnings = True
+        return
+
+
+class SyncValidator(ProcessorPlugin):
+
+    def __init__(self, isEnabled=True):
+        super(SyncValidator, self).__init__(self.TYPE.VALIDATOR, isEnabled=isEnabled)
+        return
+
+    def validate(self):
+        return self._validate()
+
+    def _validate(self):
+        return makeSuccess()
+
+
+class AsyncValidator(ProcessorPlugin):
+
+    def __init__(self, isEnabled=True):
+        super(AsyncValidator, self).__init__(self.TYPE.VALIDATOR, True, isEnabled=isEnabled)
+        return
+
+    @adisp_async
+    @adisp_process
+    def validate(self, callback):
+        result = yield self._validate()
+        callback(result)
+        return
+
+    @adisp_async
+    def _validate(self, callback):
+        callback(makeSuccess())
+        return
+
+
+class AsyncConfirmator(ProcessorPlugin):
+
+    def __init__(self, isEnabled=True):
+        super(AsyncConfirmator, self).__init__(self.TYPE.CONFIRMATOR, True, isEnabled=isEnabled)
+        return
+
+    @adisp_async
+    @adisp_process
+    def confirm(self, callback):
+        result = yield self._confirm()
+        callback(result)
+        return
+
+    @adisp_async
+    def _confirm(self, callback):
+        callback(makeSuccess())
+        return
+
+
+class AwaitConfirmator(ProcessorPlugin):
+
+    def __init__(self, isEnabled=True):
+        super(AwaitConfirmator, self).__init__(self.TYPE.CONFIRMATOR, isAsync=True, isEnabled=isEnabled)
+        return
+
+    @adisp_async
+    @future_async.wg_async
+    def confirm(self, callback):
+        Waiting.suspend(lockerID=id(self))
+        yield future_async.wg_await(self._confirm(callback))
+        Waiting.resume(lockerID=id(self))
+        return
+
+    @future_async.wg_async
+    def _confirm(self, callback):
+        callback(makeSuccess())
+        return
+
+
+class PreviousCrewValidator(SyncValidator):
+
+    def __init__(self, vehicle):
+        super(PreviousCrewValidator, self).__init__()
+        self.__vehicle = vehicle
+        self.logWarnings = False
+        return
+
+    def _validate(self):
+        lastCrewIDs = self.__vehicle.lastCrew
+        if lastCrewIDs is None:
+            return makeError()
+        else:
+            numTmanAlreadyInCurrentVehicle = 0
+            demobilizedMembersCounter = 0
+            for slotIdx, lastTankmenInvID in enumerate(lastCrewIDs):
+                actualLastTankman = self.itemsCache.items.getTankman(lastTankmenInvID)
+                if not actualLastTankman or actualLastTankman.isDismissed:
+                    demobilizedMembersCounter += 1
+                    continue
+                if self.__vehicle.descriptor.type.crewRoles[slotIdx][0] != actualLastTankman.role:
+                    continue
+                if actualLastTankman and actualLastTankman.isInTank:
+                    lastTankmanVehicle = self.itemsCache.items.getVehicle(actualLastTankman.vehicleInvID)
+                    if lastTankmanVehicle.isLocked:
+                        continue
+                    if lastTankmanVehicle.invID == self.__vehicle.invID:
+                        numTmanAlreadyInCurrentVehicle += 1
+
+            if demobilizedMembersCounter == len(lastCrewIDs):
+                return makeError(b'return_unavailable')
+            if numTmanAlreadyInCurrentVehicle == len(lastCrewIDs):
+                return makeError()
+            return makeSuccess()
+
+
+class AutoReturnValidator(SyncValidator):
+
+    def __init__(self, vehicle, isEnabled=True):
+        super(AutoReturnValidator, self).__init__(isEnabled)
+        self.vehicle = vehicle
+        self.logWarnings = False
+        return
+
+    def getCrewData(self):
+        hasSkipTmans = False
+        curCrewData = []
+        for slot, tmanInvID in enumerate(self.vehicle.lastCrew):
+            tankman = self.itemsCache.items.getTankman(tmanInvID)
+            crewRoles = self.vehicle.descriptor.type.crewRoles
+            if tankman:
+                vehicle = self.itemsCache.items.getVehicle(tankman.vehicleInvID)
+                vehicleInBattle = vehicle and vehicle.isInBattle
+                curCrewData.extend([tankman.vehicleNativeDescr.type.compactDescr, tankman.role,
+                 tankman.isInTank, vehicleInBattle])
+                if tankman.role != crewRoles[slot][0] or vehicleInBattle:
+                    hasSkipTmans = True
+
+        return (
+         hasSkipTmans, curCrewData)
+
+    def _validate(self):
+        vehicleIntCD = self.vehicle.intCD
+        cachedCrewData = BigWorld.player().crewAccountController.getAutoReturnCrewData(vehicleIntCD)
+        hasSkipTmans, curCrewData = self.getCrewData()
+        if hasSkipTmans and cachedCrewData == curCrewData:
+            return makeError(b'return_unavailable')
+        return makeSuccess()
+
+
+class VehicleValidator(SyncValidator):
+
+    def __init__(self, vehicle, setAll=True, prop=None, isEnabled=True):
+        super(VehicleValidator, self).__init__(isEnabled)
+        prop = prop or {}
+        self.vehicle = vehicle
+        self.isBroken = prop.get(b'isBroken', False) or setAll
+        self.isLocked = prop.get(b'isLocked', False) or setAll
+        self.isInInventory = prop.get(b'isInInventory', False) or setAll
+        return
+
+    def _validate(self):
+        if self.vehicle is None:
+            return makeError(b'invalid_vehicle')
+        else:
+            if self.isBroken and self.vehicle.isBroken:
+                return makeError(b'vehicle_need_repair')
+            if self.isLocked and self.vehicle.isLocked:
+                return makeError(b'vehicle_locked')
+            if self.isInInventory and not self.vehicle.isInInventory:
+                return makeError(b'vehicle_not_found_in_inventory')
+            return makeSuccess()
+
+
+class VehicleRoleValidator(SyncValidator):
+
+    def __init__(self, vehicle, role, tankman, isEnabled=True):
+        super(VehicleRoleValidator, self).__init__(isEnabled)
+        self.vehicle = vehicle
+        self.role = role
+        self.tankman = tankman
+        return
+
+    def _validate(self):
+        if self.vehicle is None:
+            return makeError(b'invalid_vehicle')
+        else:
+            if self.vehicle is not None:
+                mainRoles = set(r[0] for r in self.vehicle.descriptor.type.crewRoles)
+                if self.role not in mainRoles:
+                    return makeError(b'invalid_role')
+                td = self.tankman.descriptor
+                if not tankmen.tankmenGroupHasRole(td.nationID, td.gid, td.isPremium, self.role):
+                    return makeError(b'invalid_role')
+            return makeSuccess()
+
+
+class VehicleSellValidator(SyncValidator):
+
+    def __init__(self, vehicle, isEnabled=True):
+        super(VehicleSellValidator, self).__init__(isEnabled)
+        self.vehicle = vehicle
+        return
+
+    def _validate(self):
+        if self.vehicle.canNotBeSold:
+            return makeError(b'vehicle_cannot_be_sold')
+        return makeSuccess()
+
+
+class VehicleTradeInValidator(SyncValidator):
+
+    def __init__(self, vehicleToBuy, vehicleToTradeOff, isEnabled=True):
+        super(VehicleTradeInValidator, self).__init__(isEnabled)
+        self.vehicleToBuy = vehicleToBuy
+        self.vehicleToTradeOff = vehicleToTradeOff
+        return
+
+    def _validate(self):
+        if not self.vehicleToBuy.canTradeIn:
+            return makeError(b'vehicle_cannot_trade_in')
+        if not self.vehicleToTradeOff.canTradeOff:
+            return makeError(b'vehicle_cannot_trade_off')
+        return makeSuccess()
+
+
+class VehicleLockValidator(SyncValidator):
+
+    def __init__(self, vehicle, setAll=True, isEnabled=True):
+        super(VehicleLockValidator, self).__init__(isEnabled)
+        self.vehicle = vehicle
+        return
+
+    def _validate(self):
+        if self.vehicle is None:
+            return makeError(b'invalid_vehicle')
+        else:
+            if self.vehicle.isLocked:
+                return makeError(b'vehicle_locked')
+            return makeSuccess()
+
+
+class ModuleValidator(SyncValidator):
+
+    def __init__(self, module):
+        super(ModuleValidator, self).__init__()
+        self.module = module
+        return
+
+    def _validate(self):
+        if not self.module:
+            return makeError(b'invalid_module')
+        return makeSuccess()
+
+
+class ModuleTypeValidator(SyncValidator):
+
+    def __init__(self, module, allowableTypes):
+        super(ModuleTypeValidator, self).__init__()
+        self.module = module
+        self.allowableTypes = allowableTypes
+        return
+
+    def _validate(self):
+        if self.module.itemTypeID not in self.allowableTypes:
+            return makeError(b'invalid_module_type')
+        return makeSuccess()
+
+
+class ModuleConfigValidator(SyncValidator):
+
+    def __init__(self, module):
+        super(ModuleConfigValidator, self).__init__()
+        self.module = module
+        return
+
+    def _validate(self):
+        if not self.module.fullyConfigured:
+            return makeError()
+        return makeSuccess()
+
+
+class EliteVehiclesValidator(SyncValidator):
+
+    def __init__(self, vehiclesCD):
+        super(EliteVehiclesValidator, self).__init__()
+        self.vehiclesCD = vehiclesCD
+        return
+
+    def _validate(self):
+        for vehCD in self.vehiclesCD:
+            item = self.itemsCache.items.getItemByCD(int(vehCD))
+            if item is None:
+                return makeError(b'invalid_vehicle')
+            if item.itemTypeID is not GUI_ITEM_TYPE.VEHICLE:
+                return makeError(b'invalid_module_type')
+            if not item.isElite:
+                return makeError(b'vehicle_not_elite')
+
+        return makeSuccess()
+
+
+class CollectibleVehiclesValidator(SyncValidator):
+
+    def __init__(self, vehicleCD):
+        super(CollectibleVehiclesValidator, self).__init__()
+        self.__vehicleCD = vehicleCD
+        return
+
+    def _validate(self):
+        vehicle = self.itemsCache.items.getItemByCD(int(self.__vehicleCD))
+        if vehicle is None:
+            return makeError(b'invalid_vehicle')
+        else:
+            if vehicle.isCollectible and not isAvailableForPurchase(vehicle):
+                return makeError(b'not_unlocked_nation')
+            return makeSuccess()
+
+
+class CompatibilityValidator(SyncValidator):
+
+    def __init__(self, vehicle, module, slotIdx=0):
+        super(CompatibilityValidator, self).__init__()
+        self.vehicle = vehicle
+        self.module = module
+        self.slotIdx = slotIdx
+        return
+
+    def _checkCompatibility(self):
+        return makeSuccess()
+
+    def _validate(self):
+        success, errMsg = self._checkCompatibility()
+        if not success:
+            return makeError((b'error_{}').format(errMsg.replace(b' ', b'_')))
+        return makeSuccess()
+
+
+class CompatibilityInstallValidator(CompatibilityValidator):
+
+    def _checkCompatibility(self):
+        return self.module.mayInstall(self.vehicle, self.slotIdx)
+
+
+class TurretCompatibilityInstallValidator(SyncValidator):
+
+    def __init__(self, vehicle, module, gunCD=0):
+        super(TurretCompatibilityInstallValidator, self).__init__()
+        self.vehicle = vehicle
+        self.module = module
+        self.gunCD = gunCD
+        return
+
+    def _checkCompatibility(self):
+        return self.module.mayInstall(self.vehicle, 0, self.gunCD)
+
+    def _validate(self):
+        success, errMsg = self._checkCompatibility()
+        if not success:
+            return makeError((b'error_{}').format(errMsg.replace(b' ', b'_')))
+        return makeSuccess()
+
+
+class CompatibilityRemoveValidator(CompatibilityValidator):
+
+    def _checkCompatibility(self):
+        return self.module.mayRemove(self.vehicle)
+
+
+class MoneyValidator(SyncValidator):
+
+    def __init__(self, price, byCurrencyError=True):
+        super(MoneyValidator, self).__init__()
+        self.price = price
+        self.__byCurrencyError = byCurrencyError
+        return
+
+    def _validate(self):
+        stats = self.itemsCache.items.stats
+        shortage = stats.money.getShortage(self.price)
+        if shortage:
+            currency = shortage.getCurrency(byWeight=False)
+            if currency == Currency.GOLD and not stats.mayConsumeWalletResources:
+                error = GUI_ITEM_ECONOMY_CODE.WALLET_NOT_AVAILABLE
+            elif self.__byCurrencyError:
+                error = GUI_ITEM_ECONOMY_CODE.getCurrencyError(currency)
+            else:
+                error = GUI_ITEM_ECONOMY_CODE.NOT_ENOUGH_MONEY
+            return makeError(error)
+        return makeSuccess()
+
+
+class WalletValidator(SyncValidator):
+
+    def _validate(self):
+        stats = self.itemsCache.items.stats
+        if not stats.mayConsumeWalletResources:
+            return makeError(GUI_ITEM_ECONOMY_CODE.WALLET_NOT_AVAILABLE)
+        return makeSuccess()
+
+
+class VehicleSellsLeftValidator(SyncValidator):
+
+    def __init__(self, vehicle, isEnabled=True):
+        super(VehicleSellsLeftValidator, self).__init__(isEnabled)
+        self.vehicle = vehicle
+        return
+
+    def _validate(self):
+        if self.itemsCache.items.stats.vehicleSellsLeft <= 0:
+            return makeError(b'vehicle_sell_limit')
+        return makeSuccess()
+
+
+class FreeTankmanValidator(SyncValidator):
+
+    def _validate(self):
+        if not self.itemsCache.items.stats.freeTankmenLeft:
+            return makeError(b'free_tankmen_limit')
+        return makeSuccess()
+
+
+class TankmanDropSkillValidator(SyncValidator):
+
+    def __init__(self, tankman, isEnabled=True):
+        super(TankmanDropSkillValidator, self).__init__(isEnabled)
+        self.__tankman = tankman
+        return
+
+    def _validate(self):
+        if self.__tankman is not None and (self.__tankman.skills or self.__tankman.bonusSkills):
+            return makeSuccess()
+        else:
+            return makeError(b'server_error')
+
+
+class GroupOperationsValidator(SyncValidator):
+    AVAILABLE_OPERATIONS = lrange(3)
+
+    def __init__(self, group, operation=0, isEnabled=True):
+        super(GroupOperationsValidator, self).__init__(isEnabled)
+        self.group = group
+        self.operation = operation
+        return
+
+    def _validate(self):
+        if not self.group:
+            return makeError(b'empty_list')
+        if self.operation not in self.AVAILABLE_OPERATIONS:
+            return makeError(b'invalid_operation')
+        return makeSuccess()
+
+
+class DialogAbstractConfirmator(AsyncConfirmator):
+    _dialogsInterfaceMethod = staticmethod(DialogsInterface.showDialog)
+
+    def __init__(self, activeHandler=None, isEnabled=True):
+        super(DialogAbstractConfirmator, self).__init__(isEnabled=isEnabled)
+        self.activeHandler = activeHandler or (lambda : True)
+        return
+
+    def __del__(self):
+        self.activeHandler = None
+        return
+
+    def _makeMeta(self):
+        raise NotImplementedError
+        return
+
+    def _gfMakeMeta(self):
+        return
+
+    @adisp_async
+    def _showDialog(self, callback):
+        callback(None)
+        return
+
+    def _activeHandler(self):
+        return self.activeHandler()
+
+    @adisp_async
+    @adisp_process
+    def _confirm(self, callback):
+        yield lambda callback: callback(None)
+        if self._activeHandler():
+            gfMetaData = self._gfMakeMeta()
+            if gfMetaData:
+                isOk, data = yield gfMetaData
+                result = makeSuccess(**data) if isOk else makeError()
+                callback(result)
+                return
+            isOk = yield self._dialogsInterfaceMethod(meta=self._makeMeta())
+            if not isOk:
+                callback(makeError())
+                return
+        callback(makeSuccess())
+        return
+
+
+class I18nMessageAbstractConfirmator(DialogAbstractConfirmator):
+
+    def __init__(self, localeKey, ctx=None, activeHandler=None, isEnabled=True):
+        super(I18nMessageAbstractConfirmator, self).__init__(activeHandler, isEnabled)
+        self.localeKey = localeKey
+        self.ctx = ctx
+        return
+
+
+class MessageConfirmator(I18nMessageAbstractConfirmator):
+
+    def _makeMeta(self):
+        return I18nConfirmDialogMeta(self.localeKey, self.ctx, self.ctx, focusedID=DIALOG_BUTTON_ID.SUBMIT)
+
+
+class ModuleBuyerConfirmator(I18nMessageAbstractConfirmator):
+
+    def _makeMeta(self):
+        return I18nConfirmDialogMeta(self.localeKey, meta=HtmlMessageLocalDialogMeta(b'html_templates:lobby/dialogs', self.localeKey, ctx=self.ctx))
+
+
+class BuyAndInstallConfirmator(ModuleBuyerConfirmator):
+
+    def __init__(self, localeKey, ctx=None, activeHandler=None, isEnabled=True, item=None):
+        super(BuyAndInstallConfirmator, self).__init__(localeKey, ctx, activeHandler, isEnabled)
+        self.item = item
+        return
+
+    def _gfMakeMeta(self):
+        from gui.shared.event_dispatcher import showBuyModuleDialog
+        itemTypeIdx = self.item.itemTypeID
+        installedModule = self.itemsCache.items.getItemByCD(self.ctx[b'installedModuleCD'])
+        if itemTypeIdx in GUI_ITEM_TYPE.VEHICLE_MODULES:
+            return partial(showBuyModuleDialog, self.item, installedModule, self.ctx[b'currency'], self.ctx[b'installReason'])
+        else:
+            return
+
+
+class HtmlMessageConfirmator(I18nMessageAbstractConfirmator):
+
+    def __init__(self, localeKey, metaPath, metaKey, ctx=None, activeHandler=None, isEnabled=True, sourceKey=b'text'):
+        super(HtmlMessageConfirmator, self).__init__(localeKey, ctx, activeHandler, isEnabled)
+        self.metaPath = metaPath
+        self.metaKey = metaKey
+        self.sourceKey = sourceKey
+        self.ctx = ctx
+        return
+
+    def _makeMeta(self):
+        return I18nConfirmDialogMeta(self.localeKey, self.ctx, self.ctx, meta=HtmlMessageDialogMeta(self.metaPath, self.metaKey, self.ctx, sourceKey=self.sourceKey), focusedID=DIALOG_BUTTON_ID.SUBMIT)
+
+
+class BufferOverflowConfirmator(I18nMessageAbstractConfirmator):
+
+    def __init__(self, ctx, isEnabled=True):
+        if ctx.get(b'multiple'):
+            localeKey = b'dismissedBufferOverFlawMultiple'
+        else:
+            localeKey = b'dismissedBufferOverFlaw'
+        super(BufferOverflowConfirmator, self).__init__(localeKey, ctx, isEnabled=isEnabled)
+        return
+
+    def _makeMeta(self):
+        msgContext = {b'dismissedName': (self.ctx[b'dismissed'].fullUserName), 
+           b'deletedStr': (formatDeletedTankmanStr(self.ctx[b'deleted']))}
+        if self.ctx.get(b'multiple'):
+            msgContext[b'extraCount'] = self.ctx[b'extraCount']
+        return I18nConfirmDialogMeta(self.localeKey, messageCtx=msgContext, focusedID=DIALOG_BUTTON_ID.SUBMIT)
+
+
+class IconPriceMessageConfirmator(I18nMessageAbstractConfirmator):
+
+    def _makeMeta(self):
+        return IconPriceDialogMeta(self.localeKey, self.ctx, self.ctx, focusedID=DIALOG_BUTTON_ID.SUBMIT)
+
+
+class DemountDeviceConfirmator(IconPriceMessageConfirmator):
+    _goodiesCache = dependency.descriptor(IGoodiesCache)
+
+    def __init__(self, isEnabled=True, item=None, vehicle=None):
+        super(DemountDeviceConfirmator, self).__init__(None, isEnabled=isEnabled)
+        self.item = item
+        self.__vehicleToInstall = vehicle
+        return
+
+    def _gfMakeMeta(self):
+        from gui.shared import event_dispatcher
+        demountKit, _ = getDemountKitForOptDevice(self.item)
+        isDkEnabled = demountKit and demountKit.enabled
+        if self.item.isDeluxe or not isDkEnabled:
+            showDialog = partial(event_dispatcher.showOptionalDeviceDemountSinglePrice, self.item.intCD)
+        else:
+            showDialog = partial(event_dispatcher.showOptionalDeviceDemount, self.item.intCD)
+        return showDialog
+
+
+class IconMessageConfirmator(I18nMessageAbstractConfirmator):
+
+    def _makeMeta(self):
+        return IconDialogMeta(self.localeKey, self.ctx, self.ctx, focusedID=DIALOG_BUTTON_ID.SUBMIT)
+
+
+class DestroyDeviceConfirmator(IconMessageConfirmator):
+
+    def __init__(self, isEnabled=True, item=None):
+        super(DestroyDeviceConfirmator, self).__init__(None, isEnabled=isEnabled)
+        self.item = item
+        return
+
+    def _gfMakeMeta(self):
+        from gui.shared import event_dispatcher
+        return partial(event_dispatcher.showOptionalDeviceDestroy, self.item.intCD)
+
+
+class MessageInformator(I18nMessageAbstractConfirmator):
+
+    def _makeMeta(self):
+        return I18nInfoDialogMeta(self.localeKey, self.ctx, self.ctx)
+
+
+class VehicleSlotsConfirmator(MessageInformator):
+
+    def __init__(self, isEnabled=True):
+        super(VehicleSlotsConfirmator, self).__init__(b'haveNoEmptySlots', isEnabled=isEnabled)
+        return
+
+    def _activeHandler(self):
+        return self.itemsCache.items.inventory.getFreeSlots(self.itemsCache.items.stats.vehicleSlots) <= 0
+
+
+class VehicleFreeLimitConfirmator(MessageInformator):
+
+    def __init__(self, vehicle, crewType):
+        super(VehicleFreeLimitConfirmator, self).__init__(b'freeVehicleLeftLimit')
+        self.vehicle = vehicle
+        self.crewType = crewType
+        return
+
+    def _activeHandler(self):
+        return not self.vehicle.buyPrices.itemPrice.isDefined() and self.crewType < 1 and not self.itemsCache.items.stats.freeVehiclesLeft
+
+
+class PMValidator(SyncValidator):
+
+    def __init__(self, quests):
+        super(PMValidator, self).__init__()
+        self.quests = quests
+        return
+
+    def _validate(self):
+        for quest in self.quests:
+            if quest is None:
+                return makeError(b'WRONG_ARGS_TYPE')
+            if not quest.isUnlocked():
+                return makeError(b'NOT_UNLOCKED_QUEST')
+
+        return makeSuccess()
+
+
+class PMPawnValidator(SyncValidator):
+
+    def __init__(self, quests):
+        super(PMPawnValidator, self).__init__()
+        self.quests = quests
+        return
+
+    def _validate(self):
+        for quest in self.quests:
+            if quest is None:
+                return makeError(b'WRONG_ARGS_TYPE')
+            if not quest.canBePawned():
+                return makeError(b'CANNOT_BE_PAWNED')
+
+        return makeSuccess()
+
+
+class _EventsCacheValidator(SyncValidator):
+    eventsCache = dependency.descriptor(IEventsCache)
+
+
+class PMLockedByVehicle(_EventsCacheValidator):
+
+    def __init__(self, branch, quests, messageKeyPrefix=b''):
+        super(PMLockedByVehicle, self).__init__()
+        self._messageKeyPrefix = messageKeyPrefix
+        self.quests = quests
+        self._lockedChains = self.eventsCache.getLockedQuestTypes(branch)
+        return
+
+    def _validate(self):
+        for quest in self.quests:
+            if quest.getMajorTag() in self._lockedChains:
+                return makeError(self._messageKeyPrefix + b'LOCKED_BY_VEHICLE_QUEST', questName=quest.getShortUserName())
+
+        return makeSuccess()
+
+
+class PMLockedByOperation(_EventsCacheValidator):
+
+    def __init__(self, operation, messageKeyPrefix=b'', isEnabled=True):
+        super(PMLockedByOperation, self).__init__(isEnabled)
+        self._messageKeyPrefix = messageKeyPrefix
+        self.operation = operation
+        self._lockedChains = self.eventsCache.getLockedPersonalMissions()
+        return
+
+    def _validate(self):
+        if self.operation in BRANCH_TO_OPERATION_IDS[PM_BRANCH.PERSONAL_MISSION_3]:
+            for lockedPM in self._lockedChains:
+                if lockedPM.getOperationID in BRANCH_TO_OPERATION_IDS[PM_BRANCH.PERSONAL_MISSION_3]:
+                    return makeError(self._messageKeyPrefix + b'LOCKED_BY_VEHICLE_QUEST')
+
+        return makeSuccess()
+
+
+class PMSlotsValidator(SyncValidator):
+
+    def __init__(self, questsProgress, isEnabled=True, removedCount=0):
+        super(PMSlotsValidator, self).__init__(isEnabled)
+        self.__removedCount = removedCount
+        self._questsProgress = questsProgress
+        return
+
+    def _validate(self):
+        if not self._questsProgress.getPersonalMissionsFreeSlots(self.__removedCount):
+            return makeError(b'NOT_ENOUGH_SLOTS')
+        return makeSuccess()
+
+
+class PMRewardValidator(SyncValidator):
+
+    def __init__(self, quest):
+        super(PMRewardValidator, self).__init__()
+        self.quest = quest
+        return
+
+    def _validate(self):
+        if not self.quest.needToGetReward():
+            return makeError(b'NO_REWARD')
+        return makeSuccess()
+
+
+class PMFreeTokensValidator(_EventsCacheValidator):
+
+    def __init__(self, quest, isEnabled=True):
+        super(PMFreeTokensValidator, self).__init__(isEnabled)
+        self.quest = quest
+        self._branch = quest.getPMType().branch
+        return
+
+    def _validate(self):
+        if self.eventsCache.getPersonalMissions().getFreeTokensCount(self._branch) < self.quest.getPawnCost():
+            logging.warning(b'WARNING: There are not enough free tokens')
+            return makeError(b'NOT_ENOUGH_FREE_TOKENS')
+        return makeSuccess()
+
+
+class PMActiveCampaignValidator(_EventsCacheValidator):
+
+    def __init__(self, quest, isEnabled=True):
+        super(PMActiveCampaignValidator, self).__init__(isEnabled)
+        self._branch = quest.getPMType().branch
+        return
+
+    def _validate(self):
+        activeCampaigns = self.eventsCache.getPersonalMissions().getActiveCampaigns()
+        namePM3 = PM_BRANCH.TYPE_TO_NAME[PM_BRANCH.PERSONAL_MISSION_3]
+        if namePM3 in activeCampaigns:
+            logging.warning(b'WARNING: You are trying to activate the operation which not suitable for this branch')
+            return makeError(PM_SUIT_OP_PLUGIN_ERR_RESPONSE)
+        return makeSuccess()
+
+
+class PMActivateSameCampaignValidator(_EventsCacheValidator):
+
+    def __init__(self, branch, isEnabled=True):
+        super(PMActivateSameCampaignValidator, self).__init__(isEnabled)
+        self._branch = branch
+        return
+
+    def _validate(self):
+        activeCampaigns = self.eventsCache.getPersonalMissions().getActiveCampaigns()
+        if PM_BRANCH.TYPE_TO_NAME[self._branch] in activeCampaigns:
+            return makeError(PM_SUIT_OP_PLUGIN_ERR_RESPONSE)
+        return makeSuccess()
+
+
+class CheckBoxConfirmator(DialogAbstractConfirmator):
+    __ACC_SETT_MAIN_KEY = b'checkBoxConfirmator'
+
+    def __init__(self, settingFieldName, activeHandler=None, isEnabled=True):
+        super(CheckBoxConfirmator, self).__init__(activeHandler, isEnabled)
+        self.settingFieldName = settingFieldName
+        return
+
+    def _activeHandler(self):
+        return self._getSetting().get(self.settingFieldName)
+
+    @adisp_async
+    @adisp_process
+    def _confirm(self, callback):
+        yield lambda callback: callback(None)
+        if self._activeHandler():
+            success, selected = yield DialogsInterface.showDialog(meta=self._makeMeta())
+            if selected:
+                self._setSetting(not selected)
+            if not success:
+                callback(makeError())
+        callback(makeSuccess())
+        return
+
+    def _getSetting(self):
+        return AccountSettings.getSettings(CheckBoxConfirmator.__ACC_SETT_MAIN_KEY)
+
+    def _setSetting(self, value):
+        settings = self._getSetting()
+        settings[self.settingFieldName] = value
+        AccountSettings.setSettings(CheckBoxConfirmator.__ACC_SETT_MAIN_KEY, settings)
+        return
+
+
+class TmenXPAcceleratorConfirmator(AwaitConfirmator):
+
+    @future_async.wg_async
+    def _confirm(self, callback):
+        from gui.impl.dialogs import dialogs as dlg
+        builder = ResDialogBuilder()
+        builder.setMessagesAndButtons(R.strings.dialogs.xpToTmenCheckbox, buttons=R.strings.dialogs.xpToTmenCheckbox)
+        builder.setIcon(R.images.gui.maps.icons.tankmen.windows.crew_exp_speed_up())
+        result = yield future_async.wg_await(dlg.show(builder.build()))
+        if result.result != DialogButtons.SUBMIT:
+            callback(makeError())
+        callback(makeSuccess())
+        return
+
+
+class PMSelectConfirmator(CheckBoxConfirmator):
+
+    def __init__(self, quest, oldQuest, settingFieldName, activeHandler=None, isEnabled=True):
+        super(PMSelectConfirmator, self).__init__(settingFieldName=settingFieldName, activeHandler=activeHandler, isEnabled=isEnabled)
+        self.quest = quest
+        self.oldQuest = oldQuest
+        return
+
+    def _makeMeta(self):
+        return CheckBoxDialogMeta(b'questsConfirmDialog', messageCtx={b'newQuest': (self.quest.getUserName()), 
+           b'oldQuest': (self.oldQuest.getUserName())})
+
+
+class PMProgressResetConfirmator(DialogAbstractConfirmator):
+
+    def __init__(self, quest, oldQuest, activeHandler=None, isEnabled=True):
+        super(PMProgressResetConfirmator, self).__init__(activeHandler=activeHandler, isEnabled=isEnabled)
+        self.quest = quest
+        self.oldQuest = oldQuest
+        return
+
+    def _makeMeta(self):
+        return PMConfirmationDialogMeta(b'questsConfirmProgressDialog', messageCtx={b'newQuest': (self.quest.getUserName()), 
+           b'oldQuest': (self.oldQuest.getUserName()), 
+           b'icon': (RES_ICONS.MAPS_ICONS_LIBRARY_ICON_ALERT_90X84), 
+           b'alert': (_wrapHtmlMessage(backport.text(R.strings.dialogs.questsConfirmProgressDialog.message.alert())))})
+
+
+class PMDismissWithProgressConfirmator(DialogAbstractConfirmator):
+
+    def __init__(self, quest, activeHandler=None, isEnabled=True):
+        super(PMDismissWithProgressConfirmator, self).__init__(activeHandler=activeHandler, isEnabled=isEnabled)
+        self.quest = quest
+        return
+
+    def _makeMeta(self):
+        return PMConfirmationDialogMeta(b'questsDismissProgressDialog', messageCtx={b'quest': (self.quest.getUserName()), 
+           b'icon': (RES_ICONS.MAPS_ICONS_LIBRARY_ICON_ALERT_90X84), 
+           b'alert': (_wrapHtmlMessage(backport.text(R.strings.dialogs.questsDismissProgressDialog.message.alert())))})
+
+
+class PMDiscardConfirmator(DialogAbstractConfirmator):
+
+    def __init__(self, curQuest, activeHandler=None, isEnabled=True):
+        super(PMDiscardConfirmator, self).__init__(activeHandler=activeHandler, isEnabled=isEnabled)
+        self.curQuest = curQuest
+        return
+
+    def _makeMeta(self):
+        return PMConfirmationDialogMeta(b'questsConfirmDiscardDialog', messageCtx={b'curQuest': (self.curQuest.getUserName()), 
+           b'icon': (RES_ICONS.MAPS_ICONS_LIBRARY_ICON_ALERT_90X84), 
+           b'alert': (_wrapHtmlMessage(backport.text(R.strings.dialogs.questsConfirmDiscardDialog.message.alert())))})
+
+
+class PMPawnConfirmator(DialogAbstractConfirmator):
+    eventsCache = dependency.descriptor(IEventsCache)
+
+    def __init__(self, quest, activeHandler=None, isEnabled=True):
+        super(PMPawnConfirmator, self).__init__(activeHandler=activeHandler, isEnabled=isEnabled)
+        self.quest = quest
+        self._branch = quest.getPMType().branch
+        return
+
+    def _activeHandler(self):
+        return self.quest.canBePawned()
+
+    def _makeMeta(self):
+        return UseAwardSheetDialogMeta(self.quest, self.eventsCache.getPersonalMissions().getFreeTokensCount(self._branch))
+
+
+class DiscardSuitableOperationValidator(SyncValidator):
+
+    def __init__(self, isSuitableOperation, operationID):
+        super(DiscardSuitableOperationValidator, self).__init__()
+        self.isSuitableOperation = isSuitableOperation
+        self.operationID = operationID
+        return
+
+    def _validate(self):
+        if not self.isSuitableOperation:
+            logging.warning(b'WARNING: Trying to discard an operation %s that is not suitable for this', str(self.operationID))
+            return makeError(PM_SUIT_OP_PLUGIN_ERR_RESPONSE)
+        return makeSuccess()
+
+
+class PauseSuitableOperationValidator(SyncValidator):
+
+    def __init__(self, curQuest):
+        super(PauseSuitableOperationValidator, self).__init__()
+        self.curQuest = curQuest
+        return
+
+    def _validate(self):
+        if self.curQuest.getOperationID() not in PAUSABLE_OPERATIONS_IDS:
+            logging.warning(b'WARNING: Trying to pause an operation %s that is not suitable for this', str(self.curQuest.getOperationID()))
+            return makeError(PM_SUIT_OP_PLUGIN_ERR_RESPONSE)
+        return makeSuccess()
+
+
+class BoosterActivateValidator(SyncValidator):
+
+    def __init__(self, booster):
+        super(BoosterActivateValidator, self).__init__()
+        self.booster = booster
+        return
+
+    def _validate(self):
+        if not self.booster.isInAccount:
+            return makeError(b'NO_BOOSTERS')
+        if self.booster.inCooldown:
+            return makeError(b'ALREADY_USED')
+        return makeSuccess()
+
+
+class TankmanAddSkillValidator(SyncValidator):
+
+    def __init__(self, tankmanDscr, utilizationType, skillName):
+        super(TankmanAddSkillValidator, self).__init__()
+        self.tmanDscr = tankmanDscr
+        self.utilizationType = utilizationType
+        self.skillName = skillName
+        return
+
+    def _validate(self):
+        try:
+            if self.tmanDscr.isFreeSkillCompletionRequiped(self.utilizationType) and self.tmanDscr.validateSkillUtilization(self.skillName, skills_constants.SkillUtilization.FREE_SKILL):
+                return makeSuccess()
+            self.tmanDscr.validateSkill(self.skillName, self.utilizationType)
+        except SoftException as e:
+            logging.debug(str(e))
+            return makeError()
+
+        return makeSuccess()
+
+
+class TankmanAddSkillsValidator(TankmanAddSkillValidator):
+
+    def __init__(self, tmanDscr, utilizationType, skillNames):
+        super(TankmanAddSkillsValidator, self).__init__(tmanDscr, utilizationType, b'')
+        self.skillNames = skillNames
+        return
+
+    def _validate(self):
+        for skillName in self.skillNames:
+            self.skillName = skillName
+            res = super(TankmanAddSkillsValidator, self)._validate()
+            if not res.success:
+                return res
+
+        return makeSuccess()
+
+
+class IsLongDisconnectedFromCenter(SyncValidator):
+
+    def _validate(self):
+        if isLongDisconnectedFromCenter():
+            return makeError(b'disconnected_from_center')
+        return makeSuccess()
+
+
+class VehicleCrewLockedValidator(SyncValidator):
+
+    def __init__(self, vehicle):
+        super(VehicleCrewLockedValidator, self).__init__()
+        self.__vehicle = vehicle
+        return
+
+    def _validate(self):
+        if self.__vehicle.isCrewLocked:
+            return makeError(b'FORBIDDEN')
+        return makeSuccess()
+
+
+class TankmanLockedValidator(SyncValidator):
+
+    def __init__(self, tankman):
+        super(TankmanLockedValidator, self).__init__()
+        self._tankman = tankman
+        return
+
+    def _validate(self):
+        if self._tankman and tankmen.ownVehicleHasTags(self._tankman.strCD, (VEHICLE_TAGS.CREW_LOCKED,)):
+            return makeError(b'FORBIDDEN')
+        return makeSuccess()
+
+
+class TankmanChangePassportValidator(TankmanLockedValidator):
+
+    def _validate(self):
+        if self._tankman.descriptor.getRestrictions().isPassportReplacementForbidden():
+            return makeError(b'FORBIDDEN')
+        return super(TankmanChangePassportValidator, self)._validate()
+
+
+class BattleBoosterConfirmator(I18nMessageAbstractConfirmator):
+
+    def __init__(self, localeKey, notSuitableLocaleKey, vehicle, battleBooster, isEnabled=True):
+        self.__notSuitableLocaleKey = notSuitableLocaleKey
+        self.__vehicle = vehicle
+        self.__battleBooster = battleBooster
+        super(BattleBoosterConfirmator, self).__init__(localeKey, isEnabled=isEnabled)
+        return
+
+    def _activeHandler(self):
+        return not self.__battleBooster.isAffectsOnVehicle(self.__vehicle)
+
+    def _makeMeta(self):
+        data = viewvalues(self.itemsCache.items.getItems(GUI_ITEM_TYPE.OPTIONALDEVICE, REQ_CRITERIA.VEHICLE.SUITABLE([
+         self.__vehicle], [GUI_ITEM_TYPE.OPTIONALDEVICE])))
+        optDevicesList = [device for device in data if self.__battleBooster.isOptionalDeviceCompatible(device)]
+        ctx = {b'devices': ((b', ').join({device.userName for device in optDevicesList}))}
+        localeKey = self.localeKey if optDevicesList else self.__notSuitableLocaleKey
+        return I18nConfirmDialogMeta(localeKey, meta=HtmlMessageLocalDialogMeta(b'html_templates:lobby/dialogs', localeKey, ctx=ctx))
+
+
+class BadgesValidator(SyncValidator):
+
+    def __init__(self, badges):
+        super(BadgesValidator, self).__init__()
+        self.badges = badges
+        return
+
+    def _validate(self):
+        allBadges = self.itemsCache.items.getBadges()
+        for badgeID in self.badges:
+            if badgeID not in allBadges:
+                return makeError(b'WRONG_ARGS_TYPE')
+            badge = allBadges[badgeID]
+            if not badge.isAchieved:
+                return makeError(b'NOT_UNLOCKED_BADGE')
+
+        return makeSuccess()
+
+
+class BattleBoosterValidator(SyncValidator):
+    __lobbyContext = dependency.descriptor(ILobbyContext)
+
+    def __init__(self, boosters, isEnabled=True):
+        super(BattleBoosterValidator, self).__init__(isEnabled)
+        for booster in boosters:
+            if booster.itemTypeID != GUI_ITEM_TYPE.BATTLE_BOOSTER:
+                raise SoftException((b"Expected type 'BattleBoosters' for BattleBoosterValidator, not '{}'!").format(type(booster)))
+
+        self.boosters = boosters
+        return
+
+    def _validate(self):
+        if self.boosters and not self.__lobbyContext.getServerSettings().isBattleBoostersEnabled():
+            return makeError(b'disabledService')
+        return makeSuccess()
+
+
+class DismountForDemountKitValidator(SyncValidator):
+    goodiesCache = dependency.descriptor(IGoodiesCache)
+
+    def __init__(self, vehicle, itemsForDemountKit):
+        super(DismountForDemountKitValidator, self).__init__(isEnabled=bool(itemsForDemountKit))
+        self.vehicle = vehicle
+        self.itemsForDemountKit = itemsForDemountKit
+        return
+
+    def _validate(self):
+        spentDemountKits = {}
+        for opDev in self.itemsForDemountKit:
+            if opDev.itemTypeID != GUI_ITEM_TYPE.OPTIONALDEVICE or opDev.isRemovable:
+                return makeError()
+            if opDev.isDeluxe:
+                return makeError()
+            demountKit, _ = getDemountKitForOptDevice(opDev)
+            if demountKit is None:
+                return makeError()
+            if not demountKit.enabled:
+                return makeError(b'demount_kit_disabled')
+            spentDemountKits[demountKit.goodieID] = spentDemountKits.get(demountKit.goodieID, 0) + 1
+            if demountKit.inventoryCount < spentDemountKits[demountKit.goodieID]:
+                return makeError()
+
+        return makeSuccess()
+
+
+class FreeToDemountValidator(SyncValidator):
+    _wotPlusCtrl = dependency.descriptor(IWotPlusController)
+
+    def __init__(self, itemsFreeToDemount):
+        super(FreeToDemountValidator, self).__init__(isEnabled=bool(itemsFreeToDemount))
+        self.itemsFreeToDemount = itemsFreeToDemount
+        return
+
+    def _validate(self):
+        for device in self.itemsFreeToDemount:
+            if not self._wotPlusCtrl.isFreeToDemount(device):
+                return makeError()
+
+        return makeSuccess()
+
+
+class LayoutInstallValidator(SyncValidator):
+
+    def __init__(self, vehicle, isEnabled=True):
+        self._vehicle = vehicle
+        super(LayoutInstallValidator, self).__init__(isEnabled)
+        return
+
+    def _validate(self):
+        layout = self._getLayout()
+        if not all(item.itemTypeID == self._getItemType() for item in layout.getItems()):
+            return makeError(b'WRONG_ITEMS_TYPE')
+        if not all(item.mayInstall(self._vehicle, slotIdx=slotIdx) for slotIdx, item in enumerate(layout) if item != EMPTY_ITEM and item not in self._getInstalled()):
+            return makeError(b'IMPOSSIBLE_INSTALL')
+        return makeSuccess()
+
+    def _getLayout(self):
+        raise NotImplementedError
+        return
+
+    def _getInstalled(self):
+        raise NotImplementedError
+        return
+
+    def _getItemType(self):
+        raise NotImplementedError
+        return
+
+
+class OptionalDevicesInstallValidator(LayoutInstallValidator):
+
+    def _getLayout(self):
+        return self._vehicle.optDevices.layout
+
+    def _getInstalled(self):
+        return self._vehicle.optDevices.installed
+
+    def _getItemType(self):
+        return GUI_ITEM_TYPE.OPTIONALDEVICE
+
+
+class BattleAbilitiesValidator(LayoutInstallValidator):
+    __epicMetaGameCtrl = dependency.descriptor(IEpicBattleMetaGameController)
+
+    def _validate(self):
+        if not self.__epicMetaGameCtrl.isEnabled():
+            return makeError(b'epic_mode_disabled')
+        if not all(item.innationID in self.__epicMetaGameCtrl.getUnlockedAbilityIds() for item in self._getLayout() if item != EMPTY_ITEM and item not in self._getInstalled()):
+            return makeError(b'battle_abilities_locked')
+        return super(BattleAbilitiesValidator, self)._validate()
+
+    def _getLayout(self):
+        return self._vehicle.battleAbilities.layout
+
+    def _getInstalled(self):
+        return self._vehicle.battleAbilities.installed
+
+    def _getItemType(self):
+        return GUI_ITEM_TYPE.BATTLE_ABILITY
+
+
+class ConsumablesInstallValidator(LayoutInstallValidator):
+
+    def _getLayout(self):
+        return self._vehicle.consumables.layout
+
+    def _getInstalled(self):
+        return self._vehicle.consumables.installed
+
+    def _getItemType(self):
+        return GUI_ITEM_TYPE.EQUIPMENT
+
+
+class ShellsInstallValidator(LayoutInstallValidator):
+
+    def _getLayout(self):
+        return self._vehicle.shells.layout
+
+    def _getInstalled(self):
+        return self._vehicle.shells.installed
+
+    def _getItemType(self):
+        return GUI_ITEM_TYPE.SHELL
+
+
+class BattleBoostersInstallValidator(LayoutInstallValidator):
+
+    def _getLayout(self):
+        return self._vehicle.battleBoosters.layout
+
+    def _getInstalled(self):
+        return self._vehicle.battleBoosters.installed
+
+    def _getItemType(self):
+        return GUI_ITEM_TYPE.BATTLE_BOOSTER
+
+
+class CustomizationPurchaseValidator(SyncValidator):
+
+    def __init__(self, outfitData):
+        super(CustomizationPurchaseValidator, self).__init__()
+        self.outfitData = outfitData
+        return
+
+    def _validate(self):
+        seasons = []
+        styleID = None
+        if not self.outfitData:
+            return makeError(b'empty_request')
+        else:
+            for outfit, season in self.outfitData:
+                if season not in SeasonType.RANGE:
+                    return makeError(b'unsupported_season_type')
+                if season not in seasons:
+                    seasons.append(season)
+                else:
+                    return makeError(b'seasons_must_be_different')
+                outfitId = outfit.id
+                if styleID is None:
+                    styleID = outfitId
+                elif styleID != outfitId:
+                    return makeError(b'outfits_must_have_same_style')
+
+            return makeSuccess()
+
+
+class PostProgressionStateValidator(SyncValidator):
+    __slots__ = (b'__vehicle', b'__skipRentalIsOver')
+
+    def __init__(self, vehicle, skipRentalIsOver, isEnabled=True):
+        super(PostProgressionStateValidator, self).__init__(isEnabled)
+        self.__vehicle = vehicle
+        self.__skipRentalIsOver = skipRentalIsOver
+        return
+
+    def _validate(self):
+        progressionAvailability = self.__vehicle.postProgressionAvailability(unlockOnly=self.__skipRentalIsOver)
+        if not progressionAvailability:
+            return makeError(progressionAvailability.reason.value)
+        return makeSuccess()
+
+
+class PostProgressionStepsValidator(SyncValidator):
+    __slots__ = (b'__vehicle', b'__stepIDs', b'__actionTypes')
+
+    def __init__(self, vehicle, stepIDs, actionTypes, isEnabled=True):
+        super(PostProgressionStepsValidator, self).__init__(isEnabled)
+        self.__vehicle = vehicle
+        self.__stepIDs = stepIDs
+        self.__actionTypes = actionTypes
+        return
+
+    def _validate(self):
+        progression = self.__vehicle.postProgression
+        for stepID in self.__stepIDs:
+            if stepID not in progression.getRawTree().steps:
+                return makeError(b'step_tree_mismatch')
+            if progression.getStep(stepID).action.actionType not in self.__actionTypes:
+                return makeError(b'step_action_type_mismatch')
+
+        return makeSuccess()
+
+
+class PostProgressionChangeSetupValidator(SyncValidator):
+    __slots__ = (b'__vehicle', b'__groupID')
+
+    def __init__(self, vehicle, groupID, isEnabled=True):
+        super(PostProgressionChangeSetupValidator, self).__init__(isEnabled)
+        self.__vehicle = vehicle
+        self.__groupID = groupID
+        return
+
+    def _validate(self):
+        if not self.__vehicle.isSetupSwitchActive(self.__groupID):
+            return makeError(b'setup_switch_unavailable')
+        return makeSuccess()
+
+
+class PostProgressionDiscardPairsValidator(SyncValidator):
+    __slots__ = (b'__vehicle', b'__stepIDs')
+
+    def __init__(self, vehicle, stepIDs, isEnabled=True):
+        super(PostProgressionDiscardPairsValidator, self).__init__(isEnabled)
+        self.__vehicle = vehicle
+        self.__stepIDs = stepIDs
+        return
+
+    def _validate(self):
+        progression = self.__vehicle.postProgression
+        for stepID in self.__stepIDs:
+            checkResult = progression.getStep(stepID).action.mayDiscardInner()
+            if not checkResult:
+                return makeError(checkResult.reason)
+
+        return makeSuccess()
+
+
+class PostProgressionPurchasePairValidator(SyncValidator):
+    __itemsCache = dependency.descriptor(IItemsCache)
+    __slots__ = (b'__vehicle', b'__stepID', b'__modificationID')
+
+    def __init__(self, vehicle, stepID, modificationID, isEnabled=True):
+        super(PostProgressionPurchasePairValidator, self).__init__(isEnabled)
+        self.__vehicle = vehicle
+        self.__stepID = stepID
+        self.__modificationID = modificationID
+        return
+
+    def _validate(self):
+        multiStep = self.__vehicle.postProgression.getStep(self.__stepID)
+        balance = self.__itemsCache.items.stats.getMoneyExt(self.__vehicle.intCD)
+        checkResult = multiStep.action.mayPurchaseInner(balance, self.__modificationID)
+        if not checkResult:
+            return makeError(checkResult.reason)
+        return makeSuccess()
+
+
+class PostProgressionPurchaseStepsValidator(SyncValidator):
+    __itemsCache = dependency.descriptor(IItemsCache)
+    __slots__ = (b'__vehicle', b'__stepIDs')
+
+    def __init__(self, vehicle, stepIDs, isEnabled=True):
+        super(PostProgressionPurchaseStepsValidator, self).__init__(isEnabled)
+        self.__vehicle = vehicle
+        self.__stepIDs = stepIDs
+        return
+
+    def _validate(self):
+        totalPrice = EXT_MONEY_UNDEFINED
+        progression = self.__vehicle.postProgression
+        stepIDs = self.__stepIDs
+        for stepID in stepIDs:
+            step = progression.getStep(stepID)
+            if step.isRestricted():
+                return makeError(ExtendedGuiItemEconomyCode.STEP_RESTRICTED)
+            parentSteps = [progression.getStep(parentStepID) for parentStepID in step.getParentStepIDs() or [stepID]]
+            if not step.getUnlockStrategy()([not parentStep.isLocked() or parentStep.stepID in stepIDs for parentStep in parentSteps]):
+                return makeError(ExtendedGuiItemEconomyCode.STEP_LOCKED)
+            totalPrice += step.getPrice()
+
+        balance = self.__itemsCache.items.stats.getMoneyExt(self.__vehicle.intCD)
+        checkResult = PurchaseProvider.mayConsume(balance, totalPrice)
+        if not checkResult:
+            return makeError(checkResult.reason)
+        return makeSuccess()
+
+
+class PostProgressionSetSlotTypeValidator(SyncValidator):
+    __slots__ = (b'__vehicle', b'__slotID')
+
+    def __init__(self, vehicle, slotID, isEnabled=True):
+        super(PostProgressionSetSlotTypeValidator, self).__init__(isEnabled)
+        self.__vehicle = vehicle
+        self.__slotID = slotID
+        return
+
+    def _validate(self):
+        if not self.__vehicle.isRoleSlotActive:
+            return makeError(b'role_slot_switch_unavailable')
+        if self.__slotID not in [slot.slotID for slot in self.__vehicle.optDevices.dynSlotTypeOptions]:
+            return makeError(b'role_slot_invalid_option')
+        return makeSuccess()
+
+
+class AsyncDialogConfirmator(AsyncConfirmator):
+
+    def __init__(self, dialogMethod, *args, **kwargs):
+        super(AsyncDialogConfirmator, self).__init__(isEnabled=kwargs.pop(b'isEnabled', True))
+        self.__dialogMethod = dialogMethod
+        self.__dialogArgs = args
+        self.__dialogKwargs = kwargs
+        self.__dialogResult = None
+        return
+
+    def getResult(self):
+        return self.__dialogResult
+
+    @adisp_async
+    def _confirm(self, callback):
+        self._makeConfirm(callback)
+        return
+
+    @future_async.wg_async
+    def _makeConfirm(self, callback):
+        Waiting.suspend()
+        dialog = self.__dialogMethod(*self.__dialogArgs, **self.__dialogKwargs)
+        self.__dialogResult = yield future_async.wg_await(dialog)
+        Waiting.resume()
+        if isinstance(self.__dialogResult, DialogResult):
+            result = self.__dialogResult.result in DialogButtons.ACCEPT_BUTTONS
+        elif isinstance(self.__dialogResult, SingleDialogResult):
+            if isinstance(self.__dialogResult.result, tuple):
+                result, _ = self.__dialogResult.result
+            else:
+                result = self.__dialogResult.result
+        elif isinstance(self.__dialogResult, tuple):
+            result, _ = self.__dialogResult
+        else:
+            result = self.__dialogResult
+        if result:
+            callback(makeSuccess())
+            return
+        callback(makeError())
+        return
+
+
+class ExchangeValidator(SyncValidator):
+
+    def __init__(self, exchangeAmount):
+        self.__exchangeAmount = exchangeAmount
+        super(ExchangeValidator, self).__init__()
+        return
+
+    def _validate(self):
+        if self.__exchangeAmount > MAX_DISCOUNT_VALUE:
+            _logger.error(b'The error when exchanging the %d value is too large', self.__exchangeAmount)
+            return makeError(b'server_error')
+        return super(ExchangeValidator, self)._validate()
+
+
+class ExperiencePostProgressionValidator(SyncValidator):
+    __itemsCache = dependency.descriptor(IItemsCache)
+
+    def __init__(self, xppToConvert):
+        super(ExperiencePostProgressionValidator, self).__init__()
+        self.__xppToConvert = xppToConvert
+        return
+
+    def _validate(self):
+        count = self.__itemsCache.items.stats.postProgressionXP // self.__xppToConvert
+        if not count:
+            return makeError(b'lack_of_experience_to_acquire_books')
+        return makeSuccess()

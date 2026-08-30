@@ -1,0 +1,36 @@
+from __future__ import absolute_import
+from collections import defaultdict
+from future.utils import iteritems
+__all__ = (b'NamedVector',)
+
+class NamedVector(defaultdict):
+
+    def __init__(self, default_factory=int, args=None):
+        super(NamedVector, self).__init__(default_factory, args or [])
+        return
+
+    def __add__(self, other):
+        r = NamedVector(self.default_factory, iteritems(self))
+        r += other
+        return r
+
+    def __iadd__(self, other):
+        for k, v in iteritems(other):
+            self[k] += v
+
+        return self
+
+    __radd__ = __add__
+
+    def __sub__(self, other):
+        r = NamedVector(self.default_factory, iteritems(self))
+        r -= other
+        return r
+
+    def __isub__(self, other):
+        for k, v in iteritems(other):
+            self[k] -= v
+
+        return self
+
+    __rsub__ = __sub__

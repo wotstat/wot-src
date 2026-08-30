@@ -1,0 +1,353 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Tradutor WoT <noreply@wargaming.net>\nLanguage-Team: Equipe WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprints/buttonLabel/gotoblueprints"
+msgstr "Para o Projeto"
+
+msgid "blueprints/card/additional"
+msgstr "selecionar:"
+
+msgid "blueprints/card/convertAvailable"
+msgstr "Fragmentos disponíveis para criação: %(count)s"
+
+msgid "blueprints/card/convertRequired"
+msgstr "Fragmentos insuficientes"
+
+msgid "blueprints/card/plus"
+msgstr "+"
+
+msgid "blueprints/carousel/title"
+msgstr "PROJETOS DISPONÍVEIS PARA MONTAGEM:"
+
+msgid "blueprints/checkbox/label"
+msgstr "Disponível para criar um fragmento"
+
+msgid "blueprints/nationBar/title"
+msgstr "Fragmentos de Projetos Universais e Nacionais"
+
+msgid "blueprints/noItems/discount/body"
+msgstr "Cada fragmento adicionado à vaga do projeto oferece um desconto na pesquisa de veículos. Um projeto montado fornece uma opção para pesquisar este veículo sem gastar experiência."
+
+msgid "blueprints/noItems/discount/header"
+msgstr "Receba Descontos na Pesquisa"
+
+msgid "blueprints/noItems/fill/body"
+msgstr "Converta vários fragmentos universais e nacionais em um fragmento para um veículo específico."
+
+msgid "blueprints/noItems/fill/header"
+msgstr "Montar Projetos de Veículos"
+
+msgid "blueprints/noItems/receive/body"
+msgstr "As recompensas que você recebe por missões concluídas podem conter fragmentos de projetos. Os fragmentos duplicados são convertidos em fragmentos universais ou nacionais."
+
+msgid "blueprints/noItems/receive/header"
+msgstr "Coletar Fragmentos"
+
+msgid "blueprints/title"
+msgstr "PROJETOS DE VEÍCULOS NÃO PESQUISADOS"
+
+msgid "buttonDeconstruct/tooltip/body"
+msgstr "Clique para desmontar os equipamentos em componentes."
+
+msgid "buttonDeconstruct/tooltip/header"
+msgstr "Desmontar"
+
+msgid "buttonLabel/activate"
+msgstr "Acessar ativação"
+
+msgid "buttonLabel/preview"
+msgstr "Visualização"
+
+msgid "buttonLabel/remove"
+msgstr "Remover"
+
+msgid "buttonLabel/restore"
+msgstr "Ir para Recuperação"
+
+msgid "buttonLabel/select"
+msgstr "Selecionar"
+
+msgid "buttonLabel/sell"
+msgstr "Vender"
+
+msgid "buttonSell/tooltip/body"
+msgstr "Clique para vender equipamento."
+
+msgid "buttonSell/tooltip/header"
+msgstr "Vender"
+
+msgid "buttonUpgrade/tooltip/body"
+msgstr "Atualizar as especificações do equipamento."
+
+msgid "card/attachment/hover/partOfBundle/label"
+msgstr "Faz parte do %(bundleName)s.\nVocê pode conferir a lista de veículos compatíveis em Anexos 3D da seção Exterior."
+
+msgid "card/cannotSellTitle"
+msgstr "Não pode ser vendido"
+
+msgid "card/vehicle/hover/maxAdditionalPriceLabel"
+msgstr "+ valor de reembolso:"
+
+msgid "card/vehicle/hover/restoreAvailableLabel"
+msgstr "Recuperação disponível"
+
+msgid "card/vehicle/tradeOffPriceLabel"
+msgstr "Custo estimado:"
+
+msgid "crewBooks/filters/nation"
+msgstr "Nação"
+
+msgid "crewBooks/filters/nation/all"
+msgstr "Todos"
+
+msgid "crewBooks/filters/title"
+msgstr "Tipo"
+
+msgid "crewBooks/noItems/info"
+msgstr "Não há Livros da Tripulação. Eles podem ser obtidos com recompensas recebidas por missões concluídas."
+
+msgid "customization/noItems/navigationButton"
+msgstr "Ir Para o Exterior"
+
+msgid "customization/noItems/title"
+msgstr "Mostra os elementos de personalização que não são compatíveis com qualquer veículo na sua Garagem."
+
+msgid "customization/sectionTitle"
+msgstr "EXTERIOR"
+
+msgid "customizationSuitable/label"
+msgstr "Compatível com os veículos: "
+
+msgid "customizationSuitableForAll/label"
+msgstr "Compatível com todos os veículos"
+
+msgid "devices/filters/all"
+msgstr "Todos os equipamentos"
+
+msgid "devices/filters/deluxe"
+msgstr "Melhorado"
+
+msgid "devices/filters/modernized"
+msgstr "Experimental"
+
+msgid "devices/filters/simple"
+msgstr "Padrão"
+
+msgid "devices/filters/trophy"
+msgstr "Recompensa"
+
+msgid "equipment/cooldown"
+msgstr "O tempo de recarga é %(cooldown)s&nbsp;s."
+
+msgid "equipment/extendedDescription"
+msgstr "%(descr)s\n%(extendedDescr)s"
+
+msgid "filter/noResultsBtn/label"
+msgstr "Redefinir Filtro"
+
+msgid "filter/someTiersOnlyMessage"
+msgstr "Os fragmentos de projetos só podem ser criados para veículos de Nível II-X."
+
+msgid "filter/warningMessage"
+msgstr "Nada encontrado. Altere as configurações ou redefina o filtro."
+
+msgid "forSell/noItems/title"
+msgstr "Exibe módulos e projéteis incompatíveis com qualquer veículo"
+
+msgid "forSell/sectionTitle"
+msgstr "MÓDULOS E PROJÉTEIS À VENDA"
+
+msgid "inhangar/filterTitle"
+msgstr "EXIBIDO:"
+
+msgid "inhangar/noImage"
+msgstr "Imagem indisponível"
+
+msgid "inhangar/noItems/allTab/title"
+msgstr "Sem veículos na Garagem"
+
+msgid "inhangar/noItems/rentTab/title"
+msgstr "Veículos de aluguel não encontrados."
+
+msgid "inhangar/noItems/restoreTab/title"
+msgstr "Você pode usar créditos para recuperar veículos Premium e especiais vendidos.\nVocê não tem veículos para se recuperar."
+
+msgid "inhangar/sectionTitle"
+msgstr "VEÍCULOS NA GARAGEM"
+
+msgid "inhangar/tabs/all"
+msgstr "Veículos"
+
+msgid "inhangar/tabs/rent"
+msgstr "Aluguel"
+
+msgid "inhangar/tabs/restore"
+msgstr "Recuperação"
+
+msgid "inventory/filterType/consumables"
+msgstr "Consumíveis"
+
+msgid "inventory/filterType/instructions"
+msgstr "Diretivas"
+
+msgid "inventory/filterType/other"
+msgstr "Outro"
+
+msgid "markEverything"
+msgstr "Selecionar todos os itens para vender por:"
+
+msgid "moduleCompatible/label"
+msgstr "Compatível com veículos:"
+
+msgid "moduleCompatible/moreVehicles"
+msgstr "...e mais veículos: %(vehCount)s"
+
+msgid "notAvailable/navigationButton"
+msgstr "Voltar à Garagem"
+
+msgid "notAvailable/title"
+msgstr "Depósito indisponível devido à inventário"
+
+msgid "offers/expiration"
+msgstr "Até %(date)s %(time)s"
+
+msgid "offers/giftAmount"
+msgstr "Recompensas para selecionar: %(gifts)s"
+
+msgid "offers/giftsTitle"
+msgstr "Recompensas disponíveis: %(gifts)s"
+
+msgid "offers/noItems/title"
+msgstr "O serviço está temporariamente indisponível.\nPor favor, tente novamente mais tarde ou visite a Loja."
+
+msgid "offers/sectionTitle"
+msgstr "SUPRIMENTOS DA ÚLTIMA FRENTE"
+
+msgid "optDevice/hover/effect"
+msgstr "{effectTagOpen}Efeito: {effectTagClose}"
+
+msgid "personalreserves/activeCountLabel"
+msgstr "Reservas ativadas: %(activeCount)s / %(totalCount)s"
+
+msgid "personalreserves/card/activated"
+msgstr "Ativado"
+
+msgid "personalreserves/card/notAvailable"
+msgstr "Indisponível"
+
+msgid "personalreserves/durationFilter/btn/label"
+msgstr "%(durTime)s h"
+
+msgid "personalreserves/durationFilter/label"
+msgstr "Hora:"
+
+msgid "personalreserves/filterTitle"
+msgstr "EXIBIDO:"
+
+msgid "personalreserves/navigateToShopLabel"
+msgstr "Comprar na Loja"
+
+msgid "personalreserves/noItems/title"
+msgstr "Sem Reservas no Depósito. Você pode comprar Reservas adicionais na Loja"
+
+msgid "personalreserves/sectionTitle"
+msgstr "RESERVAS DE COMBATE"
+
+msgid "personalreserves/typeFilter/label"
+msgstr "Tipo"
+
+msgid "restoreTimeLeft/timeless"
+msgstr "Ilimitado"
+
+msgid "shellCompatible/label"
+msgstr "Compatível com canhões:"
+
+msgid "shellCompatible/moreGuns"
+msgstr "... e mais canhões: %(vehCount)s"
+
+msgid "storage/balanceLabel"
+msgstr "Disponível:"
+
+msgid "storage/filterTitle"
+msgstr "EXIBIDO:"
+
+msgid "storage/noItems/navigationButton"
+msgstr "Ir para a Loja"
+
+msgid "storage/noItems/title"
+msgstr "Sem itens no Depósito, você pode comprá-los na Loja"
+
+msgid "storage/noItems/titleShort"
+msgstr "Nenhum Item no Depósito"
+
+msgid "storage/sectionTitle"
+msgstr "Estoque"
+
+msgid "storage/tabs/all"
+msgstr "Todos"
+
+msgid "storage/tabs/consumable"
+msgstr "Consumíveis"
+
+msgid "storage/tabs/crewBooks"
+msgstr "Livros"
+
+msgid "storage/tabs/devices/filter/type/label"
+msgstr "Categoria"
+
+msgid "storage/tabs/equipment"
+msgstr "Equipamento"
+
+msgid "storage/tabs/modules"
+msgstr "Módulos"
+
+msgid "storage/tabs/modules/filter/appropriate/label"
+msgstr "Adequado para"
+
+msgid "storage/tabs/modules/filter/type/label"
+msgstr "Tipo"
+
+msgid "storage/tabs/shells"
+msgstr "Projéteis"
+
+msgid "storage/tabs/shells/filter/appropriate/label"
+msgstr "Adequado para"
+
+msgid "storage/tabs/shells/filter/type/label"
+msgstr "Tipo"
+
+msgid "storage/vehicleSelectPopover/label"
+msgstr "Escolha veículos da Garagem"
+
+msgid "stylePreview/tooltip"
+msgstr "Pré-Visualização do Estilo"
+
+msgid "vehicleSelectPopover/noVehicles"
+msgstr "Nenhum veículo encontrado\ncom os critérios de busca"
+
+msgid "vehicleSelectPopover/tooltips/level/body"
+msgstr "Ordenar por Níveis dos veículos."
+
+msgid "vehicleSelectPopover/tooltips/level/header"
+msgstr "Nível"
+
+msgid "vehicleSelectPopover/tooltips/nation/body"
+msgstr "Ordenar por nações."
+
+msgid "vehicleSelectPopover/tooltips/nation/header"
+msgstr "Nação"
+
+msgid "vehicleSelectPopover/tooltips/title/body"
+msgstr "Ordenar por nomes dos veículos."
+
+msgid "vehicleSelectPopover/tooltips/title/header"
+msgstr "Nome"
+
+msgid "vehicleSelectPopover/tooltips/type/body"
+msgstr "Ordenar por tipo do veículo."
+
+msgid "vehicleSelectPopover/tooltips/type/header"
+msgstr "Tipo"
+
+msgid "vehicleSelectPopover/vehicleName"
+msgstr "Nome"

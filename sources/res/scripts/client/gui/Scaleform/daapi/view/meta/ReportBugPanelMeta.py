@@ -1,0 +1,12 @@
+from gui.Scaleform.framework.entities.BaseDAAPIComponent import BaseDAAPIComponent
+
+class ReportBugPanelMeta(BaseDAAPIComponent):
+
+    def reportBug(self):
+        self._printOverrideError(b'reportBug')
+        return
+
+    def as_setHyperLinkS(self, value):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setHyperLink(value)
+        return

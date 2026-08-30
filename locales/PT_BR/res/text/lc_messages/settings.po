@@ -1,0 +1,2411 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: Tradutor WoT <noreply@wargaming.net>\nLanguage-Team: Time WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "CUSTOM_AA_MODE"
+msgstr "Antialiasing"
+
+msgid "CUSTOM_AA_MODE/description"
+msgstr "Determina o grau de processamento adicional para as linhas finas e contornos de objetos do jogo. Minimiza o efeito de aliasing.\n\n• Alto — FXAA\n• Máximo — Temporal Supersampling Antialiasing (TSSAA)"
+
+msgid "DRR_AUTOSCALER_ENABLED"
+msgstr "Ajuste Dinâmico"
+
+msgid "DRR_AUTOSCALER_ENABLED/description"
+msgstr "Ative ou desative o ajuste automático da resolução de renderização 3D dependendo da carga da placa de vídeo.\n\nHabilitar este parâmetro pode melhorar o desempenho do jogo. A resolução de renderização na Garagem sempre permanece a mesma."
+
+msgid "EFFECTS_QUALITY"
+msgstr "Qualidade dos Efeitos Extras"
+
+msgid "EFFECTS_QUALITY/description"
+msgstr "Determina a qualidade exibida de faíscas de ricochetes, explosões, fumaça e outros efeitos visuais.\n\nReduzir o valor desse parâmetro pode melhorar o desempenho do jogo."
+
+msgid "FAR_PLANE"
+msgstr "Distância de Renderização"
+
+msgid "FAR_PLANE/description"
+msgstr "Determina a distância de exibição de características do relevo, edifícios, veículos inimigos e outros objetos do jogo."
+
+msgid "FLORA_QUALITY"
+msgstr "Densidade da Grama"
+
+msgid "FLORA_QUALITY/description"
+msgstr "Determina a densidade da grama exibida nos modos Arcade e Sniper."
+
+msgid "HAVOK_ENABLED"
+msgstr "Física de Destruição Avançada"
+
+msgid "HAVOK_ENABLED/OFF"
+msgstr "DESLIGADO"
+
+msgid "HAVOK_ENABLED/ON"
+msgstr "LIGADO"
+
+msgid "HAVOK_ENABLED/description"
+msgstr "Permite um processamento mais detalhado e realista da destruição de objetos nos mapas.\n\nDesativar esse parâmetro pode melhorar o desempenho do jogo."
+
+msgid "HAVOK_ENABLED/warning"
+msgstr "A configuração será aplicada na próxima batalha, se estiver desativada na batalha atual."
+
+msgid "LANGUAGE_CODE"
+msgstr "pt_br"
+
+msgid "LIGHTING_QUALITY"
+msgstr "Qualidade da Iluminação"
+
+msgid "LIGHTING_QUALITY/description"
+msgstr "Precisão no ajuste da iluminação dos raios de sol e efeitos ópticos.\n\nReduzir o valor desse parâmetro pode melhorar significativamente o desempenho do jogo."
+
+msgid "MOTION_BLUR_QUALITY"
+msgstr "Efeito Motion Blur"
+
+msgid "MOTION_BLUR_QUALITY/description"
+msgstr "Determina a qualidade do efeito de borrão de movimento de uma imagem quando um veículo se move e a câmera rotaciona."
+
+msgid "MSAA_QUALITY"
+msgstr "Antialiasing"
+
+msgid "MSAA_QUALITY/description"
+msgstr "Determina o grau de processamento adicional para linhas finas e contornos de objetos do jogo. Minimiza o efeito de serrilhamento.\n\n• Baixa—MSAA 2x\n• Média—MSAA 4x\n• Alta—MSAA 8x"
+
+msgid "OBJECT_LOD"
+msgstr "Nível de Detalhe do Objeto"
+
+msgid "OBJECT_LOD/description"
+msgstr "Determina o número de objetos exibidos e sua qualidade."
+
+msgid "POST_PROCESSING_QUALITY"
+msgstr "Pós-Processamento"
+
+msgid "POST_PROCESSING_QUALITY/description"
+msgstr "Determina a qualidade dos efeitos visuais pós-processamento: efeitos de choque térmico e ondas de choque, aberração cromática, vinheta, granulação, etc.\n\nReduzir o valor desse parâmetro pode melhorar o desempenho do jogo."
+
+msgid "RENDER_PIPELINE_QUALITY"
+msgstr "Gráficos"
+
+msgid "RENDER_PIPELINE_QUALITY/description"
+msgstr "Melhorado: permite a máxima qualidade de imagem.\n\nSimplificado: permite o desempenho máximo ao simplificar ou desabilitar alguns efeitos visuais."
+
+msgid "RENDER_PIPELINE_QUALITY/label"
+msgstr "Gráficos:"
+
+msgid "RENDER_PIPELINE_QUALITY/warning"
+msgstr "As mudanças nestes parâmetros serão aplicadas após reiniciar o jogo."
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED"
+msgstr "Transparência da folhagem"
+
+msgid "SEMITRANSPARENT_LEAVES_ENABLED/description"
+msgstr "Determina como a folhagem de árvores e arbustos próximos é exibida. \n\nDesativando esse parâmetro a folhagem de árvores e arbustos próximos serão invisíveis, o que pode melhorar o desempenho do jogo."
+
+msgid "SHADER_VERSION_CAP"
+msgstr "Versão do Shader"
+
+msgid "SHADOWS_QUALITY"
+msgstr "Qualidade do Sombreamento"
+
+msgid "SHADOWS_QUALITY/description"
+msgstr "Determina a qualidade do processamento de sombra dinâmica em toda a distância de desenho.\n\nReduzir o valor desse parâmetro pode melhorar consideravelmente o desempenho do jogo."
+
+msgid "SMOKE_ENABLED"
+msgstr "Fumaça"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY"
+msgstr "Efeitos Extras no Modo Sniper"
+
+msgid "SNIPER_MODE_EFFECTS_QUALITY/description"
+msgstr "Determina a qualidade da exibição de faíscas de ricochetes, explosões, fumaça e outros efeitos realísticos no modo Sniper.\n\nReduzir o valor desse parâmetro pode melhorar o desempenho do jogo."
+
+msgid "SNIPER_MODE_GRASS_ENABLED"
+msgstr "Exibir grama no modo Sniper"
+
+msgid "SNIPER_MODE_GRASS_ENABLED/description"
+msgstr "Exibe a grama no modo Sniper.\n\nDesabilitando esse parâmetro pode melhorar o desempenho do jogo."
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED"
+msgstr "Tesselação de terreno no modo Sniper"
+
+msgid "SNIPER_MODE_TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Aumenta a qualidade do terreno dentro de um raio de 50 metros do seu veículo no modo Sniper. Disponível apenas com a opção Tesselação de Terreno habilitada.\n\nDesativar esse parâmetro pode melhorar o desempenho do jogo."
+
+msgid "SPEEDTREE_QUALITY"
+msgstr "Qualidade da Vegetação"
+
+msgid "SPEEDTREE_QUALITY/description"
+msgstr "Determina a qualidade da renderização das árvores, arbustos e grama."
+
+msgid "TERRAIN_QUALITY"
+msgstr "Qualidade do Terreno"
+
+msgid "TERRAIN_QUALITY/description"
+msgstr "Determina a qualidade dos aspectos de relevo do mapa.\n\nUse qualidade mínima de paisagem apenas em caso de baixo desempenho do computador.\n\nReduzindo o valor deste parâmetro pode causar dessincronização de exibição da paisagem entre o cliente e o servidor."
+
+msgid "TERRAIN_QUALITY/warning"
+msgstr "Aplicar o parâmetro especificado pode levar algum tempo."
+
+msgid "TERRAIN_TESSELLATION_ENABLED"
+msgstr "Tesselação de Terreno"
+
+msgid "TERRAIN_TESSELLATION_ENABLED/description"
+msgstr "Processo acelerado por hardware de adicionar novos triângulos à malha de polígonos para aumentar os detalhes da malha.\n\nEsta função só funcionará com:\n• Gráficos Melhorados\n• Qualidade de Terreno Alta, Máxima ou Ultra\n• DirectX 11 instalado.\n\nAs alterações de configurações não estão disponíveis em versões anteriores ao DirectX 11.\n\nDesativar este parâmetro pode melhorar o desempenho do jogo."
+
+msgid "TEXTURE_QUALITY"
+msgstr "Qualidade de Textura"
+
+msgid "TEXTURE_QUALITY/description"
+msgstr "Qualidade das superfícies dos objetos do jogo, especialmente sob exame minucioso.\n\nReduzir o valor desse parâmetro pode melhorar o desempenho do jogo."
+
+msgid "TEXTURE_QUALITY/warning"
+msgstr "Aplicar o parâmetro especificado pode levar algum tempo."
+
+msgid "TRACK_PHYSICS_QUALITY"
+msgstr "Física das Esteiras"
+
+msgid "TRACK_PHYSICS_QUALITY/description"
+msgstr "Determina a qualidade das simulações físicas para as esteiras quebradas e operacionais, bem como os detalhes da esteira.\n\nReduzir ou desabilitar este parâmetro pode melhorar o desempenho do jogo."
+
+msgid "VEHICLE_DUST_ENABLED"
+msgstr "Habilitar efeitos de esteira e rodas"
+
+msgid "VEHICLE_DUST_ENABLED/description"
+msgstr "Exibe terra, neve e respingos d'água atrás das esteiras e rodas.\n\nDesabilitando este parâmetro pode melhorar o desempenho do jogo."
+
+msgid "VEHICLE_TRACES_ENABLED"
+msgstr "Habilitar rastro da esteira e rodas"
+
+msgid "VEHICLE_TRACES_ENABLED/description"
+msgstr "Exibe os rastros de esteiras e rodas no chão.\n\nIndisponível com Gráficos Simplificados e Baixa Qualidade de Decalques."
+
+msgid "VISIBILITY_TUNNEL_ENABLED"
+msgstr "Esconda Anexos 3D no Modo Sniper"
+
+msgid "VISIBILITY_TUNNEL_ENABLED/description"
+msgstr "Esconde temporariamente os anexos 3D da mira do canhão no modo Sniper.\n\nReduz a poluição visual e melhora a precisão."
+
+msgid "WATER_QUALITY"
+msgstr "Qualidade da Água"
+
+msgid "WATER_QUALITY/description"
+msgstr "Determina a qualidade das superfícies aquosas."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/label"
+msgstr "Apenas blindagem frágil"
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/body"
+msgstr "Quando ativada, a Visualização destaca apenas a blindagem frágil do alvo.\n\nA blindagem com alta chance de penetração é destacada em verde sólido, enquanto a blindagem com chance penetração moderada possui um verde semi-transparente. As cores podem ser diferentes no modo daltônico."
+
+msgid "aim/armorFlashlight/colorSchema/greenShades/tooltip/header"
+msgstr "Destacar Apenas a Blindagem Frágil"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/label"
+msgstr "Apenas blindagem forte"
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/body"
+msgstr "Quando ativada, a Visualização destaca apenas a blindagem forte do alvo.\n\nA blindagem com baixa ou zero chance de penetração é destacada em vermelho sólido, enquanto a blindagem com chance de penetração moderada possui um vermelho semi-transparente. As cores podem ser diferentes no modo daltônico."
+
+msgid "aim/armorFlashlight/colorSchema/redShades/tooltip/header"
+msgstr "Destacar Apenas a Blindagem Forte"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/label"
+msgstr "Toda a blindagem"
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/body"
+msgstr "Quando ativada, a Visualização destaca toda a blindagem do alvo.\n\nA blindagem com baixa ou zero chance de penetração é destacada em vermelho, a blindagem com alta chance penetração é destacada em verde e a blindagem com chance moderada de penetração é destacada em amarelo. As cores podem ser diferentes no modo daltônico."
+
+msgid "aim/armorFlashlight/colorSchema/redYellowGreen/tooltip/header"
+msgstr "Destacar Toda a Blindagem"
+
+msgid "aim/armorFlashlight/colorSchemas"
+msgstr "Destaques da Blindagem"
+
+msgid "aim/armorFlashlight/enabled/label"
+msgstr "Habilitada no começo da batalha"
+
+msgid "aim/armorFlashlight/enabled/tooltip/body"
+msgstr "O modo padrão da Visualização no começo da batalha. Você pode ativar ou desativar a Visualização usando a tecla atribuída a qualquer momento.\n\nQuando habilitada, a Visualização só funciona no modo Sniper.\n\nModos de jogo suportados\n• Batalhas Aleatórias e Salas de Treinamento;\n• Linha de Frente;\n• Batalhas do Fliperama;\n• Investida;\n• Alguns outros modos e eventos. \n\nMais modos e eventos podem ser suportados no futuro."
+
+msgid "aim/armorFlashlight/enabled/tooltip/header"
+msgstr "Habilitada no começo da batalha"
+
+msgid "aim/armorFlashlight/fill/label"
+msgstr "Textura da Visualização"
+
+msgid "aim/armorFlashlight/fill/pattern1"
+msgstr "Sólida"
+
+msgid "aim/armorFlashlight/fill/pattern2"
+msgstr "Padrão Esparso"
+
+msgid "aim/armorFlashlight/fill/pattern3"
+msgstr "Padrão Denso"
+
+msgid "aim/armorFlashlight/opacity"
+msgstr "Opacidade"
+
+msgid "aim/armorFlashlight/performanceImpact"
+msgstr "Aviso de Desempenho"
+
+msgid "aim/armorFlashlight/resolution/high"
+msgstr "Alta"
+
+msgid "aim/armorFlashlight/resolution/low"
+msgstr "Baixa"
+
+msgid "aim/armorFlashlight/resolution/medium"
+msgstr "Média"
+
+msgid "aim/armorFlashlight/resolutionScaling"
+msgstr "Resolução da Visualização"
+
+msgid "aim/cassette"
+msgstr "Contêiner"
+
+msgid "aim/centralTag"
+msgstr "Marcador Central"
+
+msgid "aim/centralTag/type0"
+msgstr "Formato A I"
+
+msgid "aim/centralTag/type1"
+msgstr "Formato A II"
+
+msgid "aim/centralTag/type10"
+msgstr "Formato O I"
+
+msgid "aim/centralTag/type11"
+msgstr "Formato O II"
+
+msgid "aim/centralTag/type12"
+msgstr "Formato A IV"
+
+msgid "aim/centralTag/type13"
+msgstr "Formato A V"
+
+msgid "aim/centralTag/type2"
+msgstr "Formato A III"
+
+msgid "aim/centralTag/type3"
+msgstr "Formato V"
+
+msgid "aim/centralTag/type4"
+msgstr "Cruz I"
+
+msgid "aim/centralTag/type5"
+msgstr "Cruz II"
+
+msgid "aim/centralTag/type6"
+msgstr "Formato T"
+
+msgid "aim/centralTag/type7"
+msgstr "Formato I"
+
+msgid "aim/centralTag/type8"
+msgstr "Ponto I"
+
+msgid "aim/centralTag/type9"
+msgstr "Ponto II"
+
+msgid "aim/condition"
+msgstr "Condição"
+
+msgid "aim/gunTag"
+msgstr "Marcador do Canhão"
+
+msgid "aim/gunTag/type0"
+msgstr "Formato A I (com indicador de penetração de blindagem)"
+
+msgid "aim/gunTag/type1"
+msgstr "Formato A II (com indicador de carregamento)"
+
+msgid "aim/gunTag/type10"
+msgstr "Formato O II (com indicador de carregamento)"
+
+msgid "aim/gunTag/type11"
+msgstr "Formato O III"
+
+msgid "aim/gunTag/type12"
+msgstr "Formato A IV (com indicador de penetração de blindagem)"
+
+msgid "aim/gunTag/type13"
+msgstr "Formato A V (com indicador de carregamento)"
+
+msgid "aim/gunTag/type14"
+msgstr "Formato A VI"
+
+msgid "aim/gunTag/type2"
+msgstr "Formato A III"
+
+msgid "aim/gunTag/type3"
+msgstr "Cruz I (com indicador de penetração de blindagem)"
+
+msgid "aim/gunTag/type4"
+msgstr "Cruz II (com indicador de carregamento)"
+
+msgid "aim/gunTag/type5"
+msgstr "Cruz III"
+
+msgid "aim/gunTag/type6"
+msgstr "Ponto I (com indicador de penetração de blindagem)"
+
+msgid "aim/gunTag/type7"
+msgstr "Ponto II (com indicador de carregamento)"
+
+msgid "aim/gunTag/type8"
+msgstr "Ponto III"
+
+msgid "aim/gunTag/type9"
+msgstr "Formato O I (com indicador de penetração de blindagem)"
+
+msgid "aim/mixing"
+msgstr "Ponto"
+
+msgid "aim/mixing/type0"
+msgstr "Círculo I (com indicador de carregador) "
+
+msgid "aim/mixing/type1"
+msgstr "Círculo II (com indicador de carga de deslocamento)"
+
+msgid "aim/mixing/type2"
+msgstr "Círculo III (com indicador de carregador)"
+
+msgid "aim/mixing/type3"
+msgstr "Círculo IV (sólido)"
+
+msgid "aim/mixing/type4"
+msgstr "settings.po.aim/mixing/type4"
+
+msgid "aim/mixing/type5"
+msgstr "Cruz II"
+
+msgid "aim/mixing/type6"
+msgstr "Teste"
+
+msgid "aim/net"
+msgstr "Indicador"
+
+msgid "aim/net/type0"
+msgstr "Diagonal"
+
+msgid "aim/net/type1"
+msgstr "Horizontal"
+
+msgid "aim/net/type2"
+msgstr "Radial"
+
+msgid "aim/net/type3"
+msgstr "Tracejado"
+
+msgid "aim/reloader"
+msgstr "Carregar"
+
+msgid "aim/reloaderTimer"
+msgstr "Tempo de Carregamento"
+
+msgid "aim/spg/aimEntranceMode"
+msgstr "Mudando para Mira de Artilharia"
+
+msgid "aim/spg/aimEntranceMode/last"
+msgstr "Usada por último"
+
+msgid "aim/spg/aimEntranceMode/strategic"
+msgstr "Visão de cima"
+
+msgid "aim/spg/aimEntranceMode/trajectory"
+msgstr "Ver trajetória"
+
+msgid "aim/spg/autoChangeAimMode"
+msgstr "Mudar Modo de Mira Automaticamente"
+
+msgid "aim/spg/autoChangeAimMode/tooltip/body"
+msgstr "Ao girar a roda do mouse e atingir um determinado valor de zoom, o retículo mudará para a \"visão de cima\" ou \"visão da trajetória\"."
+
+msgid "aim/spg/autoChangeAimMode/tooltip/header"
+msgstr "Mudar Modo de Mira Automaticamente"
+
+msgid "aim/spg/scrollSmoothingEnabled"
+msgstr "Zoom suave da câmera"
+
+msgid "aim/spg/shotsResultIndicator"
+msgstr "Mostrar indicadores de linha\nde disparo"
+
+msgid "aim/spg/shotsResultIndicator/tooltip/body"
+msgstr "Exibe/oculta os indicadores que mostram se o projétil selecionado alcançará o ponto de mira. Eles também mostram o tempo de voo do projétil."
+
+msgid "aim/spg/shotsResultIndicator/tooltip/header"
+msgstr "Indicadores de Linha de Fogo"
+
+msgid "aim/spg/spgScaleWidget"
+msgstr "Mostrar indicador de posição da câmera"
+
+msgid "aim/spg/spgScaleWidget/tooltip/body"
+msgstr "Exibe/oculta o indicador que mostra o nível de zoom da câmera de mira da artilharia."
+
+msgid "aim/spg/spgScaleWidget/tooltip/header"
+msgstr "Indicador de Posição da Câmera"
+
+msgid "aim/spg/spgStrategicCamMode"
+msgstr "Controles de Câmera"
+
+msgid "aim/spg/spgStrategicCamMode/alt"
+msgstr "Alternativo"
+
+msgid "aim/spg/spgStrategicCamMode/base"
+msgstr "Padrão"
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/body"
+msgstr "No modo de controle de câmera padrão, a câmera se move para cima, para baixo, para a esquerda e para a direita. No modo de controle de câmera alternativo, a câmera se move para frente, para trás e ao redor da posição da artilharia."
+
+msgid "aim/spg/spgStrategicCamMode/tooltip/header"
+msgstr "Controles de Câmera"
+
+msgid "aim/x2"
+msgstr "x2"
+
+msgid "aim/zoomIndicator"
+msgstr "Indicador de Zoom"
+
+msgid "alternativeVoices/labels"
+msgstr "Mensagens de Voz em Batalha"
+
+msgid "alternativeVoices/labels/voiceBattle"
+msgstr "Mensagens de voz em batalha"
+
+msgid "apply_button"
+msgstr "Aplicar"
+
+msgid "autodetectButton"
+msgstr "Recomendado"
+
+msgid "autodetectButton/description"
+msgstr "Determina a qualidade ideal de imagem para seu computador. \n\nIsto pode levar algum tempo."
+
+msgid "battlecomm/enableCommendations"
+msgstr "Receba elogios em batalha"
+
+msgid "battlecomm/showCalloutMessages"
+msgstr "Mostrar comandos pessoais"
+
+msgid "battlecomm/showCommInPlayerlist"
+msgstr "Indicar comunicação no painel da equipe"
+
+msgid "battlecomm/showLocationMarkers"
+msgstr "Mostrar os marcadores de localização no mapa"
+
+msgid "battlecomm/showMarkers"
+msgstr "Mostrar marcadores de base nas Batalhas Aleatórias"
+
+msgid "battlecomm/showStickyMarkers"
+msgstr "Mostrar marcadores permanentes"
+
+msgid "borderlessSize"
+msgstr "Janela (sem borda)"
+
+msgid "borderlessSize/description"
+msgstr "Janela (sem borda)"
+
+msgid "cancel_button"
+msgstr "Cancelar"
+
+msgid "chat/censorshipMessages"
+msgstr "Censurar palavras ofensivas nas mensagens do chat"
+
+msgid "chat/chatContactsListOnly"
+msgstr "Receber mensagens apenas da lista de Contatos"
+
+msgid "chat/disableBattleChat"
+msgstr "Desativar chat com aliados"
+
+msgid "chat/enableStoreChannelsWindows"
+msgstr "Gravar posição da câmera e janelas de canais"
+
+msgid "chat/enableStoreManagementWindows"
+msgstr "Gravar posição da câmera e outras janelas"
+
+msgid "chat/invitesFromFriendsOnly"
+msgstr "Aceite convites apenas de amigos na Garagem"
+
+msgid "chat/receiveClanInvitesNotifications"
+msgstr "Receber Notificações de Clã"
+
+msgid "chat/receiveFriendshipRequest"
+msgstr "Aceitar pedido de amizade"
+
+msgid "chat/receiveInvitesInBattle"
+msgstr "Aceitar convites para Pelotões em batalha"
+
+msgid "chat/removeSpam"
+msgstr "Ocultar spam"
+
+msgid "chat/showDateMessage"
+msgstr "Exibir data nas mensagens"
+
+msgid "chat/showJoinLeaveMessages"
+msgstr "Notificar quando usuários conectam/desconectam"
+
+msgid "chat/showTimeMessage"
+msgstr "Exibir hora nas mensagens"
+
+msgid "colorCorrection"
+msgstr "Ajuste de Cor"
+
+msgid "colorCorrectionBtn/label"
+msgstr "Configurar"
+
+msgid "colorSettings/tab/customSettings"
+msgstr "Configurações Personalizadas"
+
+msgid "colorSettings/tab/customSettings/brightness"
+msgstr "Brilho"
+
+msgid "colorSettings/tab/customSettings/contrast"
+msgstr "Contraste"
+
+msgid "colorSettings/tab/customSettings/saturation"
+msgstr "Saturação"
+
+msgid "colorSettings/tab/default"
+msgstr "Padrão"
+
+msgid "colorSettings/tab/filters"
+msgstr "Filtros Predefinidos"
+
+msgid "colorSettings/tab/filters/intensity"
+msgstr "Intensidade do Filtro"
+
+msgid "colorSettings/view/after"
+msgstr "Depois"
+
+msgid "colorSettings/view/before"
+msgstr "Antes"
+
+msgid "colorSettings/view/closeBtn"
+msgstr "FECHAR"
+
+msgid "colorSettings/view/description"
+msgstr "Selecione uma das opções de ajuste de imagem"
+
+msgid "colorSettings/view/header"
+msgstr "Ajuste de Cor"
+
+msgid "colorSettings/view/resetBtn"
+msgstr "Reiniciar"
+
+msgid "colorSettings/view/subTitle"
+msgstr "Opções de Ajuste de Imagem"
+
+msgid "cursor/ArcadeTitle"
+msgstr "Visão Externa"
+
+msgid "cursor/ArmorFlashlight"
+msgstr "Visualização de Blindagem"
+
+msgid "cursor/ArtyTitle"
+msgstr "Artilharia"
+
+msgid "cursor/ContourTitle"
+msgstr "Contorno"
+
+msgid "cursor/ServerAim"
+msgstr "Habilitar mira pelo servidor"
+
+msgid "cursor/SnipperTitle"
+msgstr "Sniper"
+
+msgid "cursor/contour/type0"
+msgstr "Padrão"
+
+msgid "cursor/contour/type0/tooltip"
+msgstr "Ao mirar no veículo inimigo, todo o seu contorno é delineado, incluindo elementos não blindados aplicados com os quais os projéteis não podem interagir."
+
+msgid "cursor/contour/type1"
+msgstr "Simplificado"
+
+msgid "cursor/contour/type1/tooltip"
+msgstr "Ao mirar no veículo inimigo, parte de seu contorno é delineado, incluindo apenas elementos de blindagem com os quais os projéteis podem interagir."
+
+msgid "cursor/contourImpenetrableZone"
+msgstr "Área Impenetrável"
+
+msgid "cursor/contourImpenetrableZone/type0"
+msgstr "Nenhum"
+
+msgid "cursor/contourImpenetrableZone/type1"
+msgstr "Preenchimento"
+
+msgid "cursor/contourImpenetrableZone/type2"
+msgstr "Textura"
+
+msgid "cursor/contourLabel"
+msgstr "Tipo de Contorno"
+
+msgid "cursor/contourPenetrableZone"
+msgstr "Área Penetrável"
+
+msgid "cursor/contourPenetrableZone/type0"
+msgstr "Nenhum"
+
+msgid "cursor/contourPenetrableZone/type1"
+msgstr "Preenchimento"
+
+msgid "cursor/contourPenetrableZone/type2"
+msgstr "Textura"
+
+msgid "cursor/overlapContour"
+msgstr "Renderização de obstáculos"
+
+msgid "cursor/overlapContour/tooltip/attention"
+msgstr "Ativar a renderização pode prejudicar o desempenho."
+
+msgid "cursor/overlapContour/tooltip/body"
+msgstr "Exibindo obstáculos de projéteis ao mirar no veículo inimigo.\n "
+
+msgid "cursor/overlapContour/tooltip/header"
+msgstr "Renderização de Obstáculos"
+
+msgid "cursor/overlapContourLabel"
+msgstr "Renderização de Obstáculos"
+
+msgid "cursorTitle"
+msgstr "Mira"
+
+msgid "defaultBtn"
+msgstr "Padrão"
+
+msgid "defaultNamePrefix"
+msgstr "Jogador"
+
+msgid "dynamicCamera"
+msgstr "Habilitar câmera dinâmica"
+
+msgid "dynamicFov"
+msgstr "FoV Dinâmico"
+
+msgid "dynamicFov/description"
+msgstr "FoV Dinâmico permite ajustar o ângulo de visão mínino e máximo na mira Arcade.\n\nÂngulo máximo é usado quando a câmera se afasta do veículo.\n\nÂngulo mínimo é usado quando se aproxima do veículo."
+
+msgid "dynamicRenderer"
+msgstr "Resolução de Renderização 3D"
+
+msgid "dynamicRenderer/description"
+msgstr "Determina a qualidade da cena do jogo e seus detalhes.\n\nA resolução de renderização 3D numa batalha pode ser alterada utilizando [Shift direito +] e [Shift direito -]. Não influencia a interface.\n\nReduzindo este parâmetro pode melhorar o desempenho do jogo em computadores com placas de vídeo antigas."
+
+msgid "edgeDetectAA"
+msgstr "Detectar borda AA"
+
+msgid "feedBack"
+msgstr "Notificações de Batalha"
+
+msgid "feedback/tab/battleBorderMap"
+msgstr "Borda do Mapa"
+
+msgid "feedback/tab/battleEvents/checkbox/AssistStun"
+msgstr "Dano Após Seu Atordoamento"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCapture"
+msgstr "Pontos de captura de base"
+
+msgid "feedback/tab/battleEvents/checkbox/BaseCaptureDrop"
+msgstr "Pontos de captura restaurados"
+
+msgid "feedback/tab/battleEvents/checkbox/BlockedDamage"
+msgstr "Dano bloqueado"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyBurning"
+msgstr "Veículos inimigos incendiados"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyCriticalHit"
+msgstr "Dano crítico"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetection"
+msgstr "Detectando"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyDetectionDamage"
+msgstr "Dano após detectar"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyHpDamage"
+msgstr "Dano de disparo"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyKill"
+msgstr "Veículos inimigos destruídos"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyRamAttack"
+msgstr "Dano de colisão"
+
+msgid "feedback/tab/battleEvents/checkbox/EnemyTrackDamage"
+msgstr "Esteira destruída"
+
+msgid "feedback/tab/battleEvents/checkbox/EventName"
+msgstr "Nome de evento"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedCrits"
+msgstr "Dano crítico"
+
+msgid "feedback/tab/battleEvents/checkbox/ReceivedDamage"
+msgstr "Dano"
+
+msgid "feedback/tab/battleEvents/checkbox/ShowInBattle"
+msgstr "Exibir em batalha"
+
+msgid "feedback/tab/battleEvents/checkbox/VehicleInfo"
+msgstr "Informação de veículo"
+
+msgid "feedback/tab/battleEvents/checkbox/WorldCollision"
+msgstr "Dano por impacto"
+
+msgid "feedback/tab/battleEvents/checkbox/allSituationalPerks"
+msgstr "Todas as habilidades situacionais"
+
+msgid "feedback/tab/battleEvents/info"
+msgstr "Os três eventos mais recentes\nsão exibidos em batalha"
+
+msgid "feedback/tab/battleEvents/label/BattleEvents"
+msgstr "Eventos de batalha"
+
+msgid "feedback/tab/battleEvents/label/Information"
+msgstr "Notificações"
+
+msgid "feedback/tab/battleEvents/label/VisibleEvents"
+msgstr "Eventos"
+
+msgid "feedback/tab/battleEvents/label/crewPerks"
+msgstr "Habilidades da Tripulação"
+
+msgid "feedback/tab/battleEvents/label/negative"
+msgstr "Dano recebido"
+
+msgid "feedback/tab/battleEvents/label/positive"
+msgstr "Desempenho na Batalha"
+
+msgid "feedback/tab/battleEvents/receivedDamage"
+msgstr "Dano recebido"
+
+msgid "feedback/tab/borderMap/hideBorderWarning"
+msgstr "Ocultar a borda do mapa pode resultar em desorientação em uma batalha."
+
+msgid "feedback/tab/borderMap/showMode/alt"
+msgstr "Ao pressionar Alt"
+
+msgid "feedback/tab/borderMap/showMode/always"
+msgstr "Sempre destacado"
+
+msgid "feedback/tab/borderMap/showMode/alwaysHide"
+msgstr "Não destacar"
+
+msgid "feedback/tab/borderMap/showMode/hide"
+msgstr "Ao se aproximar"
+
+msgid "feedback/tab/borderMap/showMode/label"
+msgstr "Destaque adicional"
+
+msgid "feedback/tab/borderMap/typeBorder/dotted"
+msgstr "Linha pontilhada"
+
+msgid "feedback/tab/borderMap/typeBorder/hide"
+msgstr "Não exibir"
+
+msgid "feedback/tab/borderMap/typeBorder/label"
+msgstr "Tipo de Borda"
+
+msgid "feedback/tab/borderMap/typeBorder/wall"
+msgstr "Parede"
+
+msgid "feedback/tab/damageIndicator"
+msgstr "Indicador da Direção de Disparo"
+
+msgid "feedback/tab/damageIndicator/indicator/allyLabel"
+msgstr "Dano aliado"
+
+msgid "feedback/tab/damageIndicator/indicator/blockDamageCountTF"
+msgstr "Valor de dano"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedLabel"
+msgstr "Disparo bloqueado"
+
+msgid "feedback/tab/damageIndicator/indicator/blockedValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/indicator/critLabel"
+msgstr "Acerto crítico\nem seu veículo"
+
+msgid "feedback/tab/damageIndicator/indicator/critValue"
+msgstr "x3"
+
+msgid "feedback/tab/damageIndicator/indicator/damageLabel"
+msgstr "Dano recebido"
+
+msgid "feedback/tab/damageIndicator/indicator/damageModule"
+msgstr "Módulo danificado"
+
+msgid "feedback/tab/damageIndicator/indicator/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/damageIndicator/items"
+msgstr "Informação"
+
+msgid "feedback/tab/damageIndicator/items/animation"
+msgstr "Exibir animação"
+
+msgid "feedback/tab/damageIndicator/items/damage"
+msgstr "Valor de dano"
+
+msgid "feedback/tab/damageIndicator/items/dynamicIndicator"
+msgstr "Indicadores dinâmicos"
+
+msgid "feedback/tab/damageIndicator/items/tankName"
+msgstr "Informação de veículo"
+
+msgid "feedback/tab/damageIndicator/presets"
+msgstr "Exibir em batalha"
+
+msgid "feedback/tab/damageIndicator/presets/all"
+msgstr "Todos"
+
+msgid "feedback/tab/damageIndicator/presets/showAllies"
+msgstr "Dano aliado"
+
+msgid "feedback/tab/damageIndicator/presets/showCrits"
+msgstr "Acertos críticos"
+
+msgid "feedback/tab/damageIndicator/presets/withoutCrit"
+msgstr "Exceto crítico"
+
+msgid "feedback/tab/damageIndicator/type/extended"
+msgstr "Avançado"
+
+msgid "feedback/tab/damageIndicator/type/standard"
+msgstr "Padrão"
+
+msgid "feedback/tab/damageIndicator/typeLabel"
+msgstr "Tipo"
+
+msgid "feedback/tab/damageLogPanel"
+msgstr "Registro"
+
+msgid "feedback/tab/damageLogPanel/assistStun"
+msgstr "Provocado pelo seu atordoamento"
+
+msgid "feedback/tab/damageLogPanel/blockedDamage"
+msgstr "Bloqueado pela blindagem"
+
+msgid "feedback/tab/damageLogPanel/damageAssist"
+msgstr "Dano após sua detecção"
+
+msgid "feedback/tab/damageLogPanel/damageDone"
+msgstr "Dano causado por você"
+
+msgid "feedback/tab/damageLogPanel/details/always"
+msgstr "Sempre exibir"
+
+msgid "feedback/tab/damageLogPanel/details/byAlt"
+msgstr "Pressionar Alt para exibir"
+
+msgid "feedback/tab/damageLogPanel/details/hide"
+msgstr "Não exibir"
+
+msgid "feedback/tab/damageLogPanel/detailsLabel"
+msgstr "Dano detalhado"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/bottom"
+msgstr "Todos os eventos na parte inferior"
+
+msgid "feedback/tab/damageLogPanel/eventPositions/topBottom"
+msgstr "Dano recebido na parte superior"
+
+msgid "feedback/tab/damageLogPanel/eventPositionsLabel"
+msgstr "Posição dos eventos"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/both"
+msgstr "Todos os eventos"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/eventTypesLabel"
+msgstr "Tipo de evento"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/negative"
+msgstr "Dano recebido"
+
+msgid "feedback/tab/damageLogPanel/eventTypes/positive"
+msgstr "Desempenho na Batalha"
+
+msgid "feedback/tab/damageLogPanel/negative/value1"
+msgstr "490"
+
+msgid "feedback/tab/damageLogPanel/negative/value2"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/negative/value3"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/negative/value4"
+msgstr "x2"
+
+msgid "feedback/tab/damageLogPanel/positive/value1"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/positive/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/positive/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/positive/value4"
+msgstr "103"
+
+msgid "feedback/tab/damageLogPanel/screenAlert"
+msgstr "Ativar esta configuração não é recomendado\npara monitores com baixa resolução"
+
+msgid "feedback/tab/damageLogPanel/summLabel"
+msgstr "Dano resumido"
+
+msgid "feedback/tab/damageLogPanel/summaryAssist"
+msgstr "1200"
+
+msgid "feedback/tab/damageLogPanel/summaryAssistStun"
+msgstr "320"
+
+msgid "feedback/tab/damageLogPanel/summaryBlock"
+msgstr "700"
+
+msgid "feedback/tab/damageLogPanel/summaryDamage"
+msgstr "1240"
+
+msgid "feedback/tab/damageLogPanel/total/value1"
+msgstr "400"
+
+msgid "feedback/tab/damageLogPanel/total/value2"
+msgstr "151"
+
+msgid "feedback/tab/damageLogPanel/total/value3"
+msgstr "867"
+
+msgid "feedback/tab/damageLogPanel/total/value4"
+msgstr "750"
+
+msgid "feedback/tab/detailsInfoBlock"
+msgstr "Um bloco de informação de dano. Exibe a informação completa sobre sua eficiência em batalha."
+
+msgid "feedback/tab/eventsInfo"
+msgstr "Eventos de batalha"
+
+msgid "feedback/tab/questsProgress"
+msgstr "Relatório & Missões"
+
+msgid "feedback/tab/questsProgress/battleScoreLabel"
+msgstr "Placar da Batalha"
+
+msgid "feedback/tab/questsProgress/conditionsLabel"
+msgstr "Detalhes da Missão"
+
+msgid "feedback/tab/questsProgress/enableTierGrouping"
+msgstr "Exibir ícones de veículos\npor nível"
+
+msgid "feedback/tab/questsProgress/showHPBar"
+msgstr "Exibir barra de HP\nda equipe"
+
+msgid "feedback/tab/questsProgress/showHPDifference"
+msgstr "Exibir diferença de HP\ndas equipes"
+
+msgid "feedback/tab/questsProgress/showHPValues"
+msgstr "Exibir quantidade de HP\nda equipe"
+
+msgid "feedback/tab/questsProgress/standardConditions/showAll"
+msgstr "Exibir tudo"
+
+msgid "feedback/tab/questsProgress/standardConditions/showProgress"
+msgstr "Exibir apenas progresso"
+
+msgid "feedback/tab/questsProgress/type/alternative"
+msgstr "Alternativo"
+
+msgid "feedback/tab/questsProgress/type/hidden"
+msgstr "Não exibir"
+
+msgid "feedback/tab/questsProgress/type/standard"
+msgstr "Padrão"
+
+msgid "feedback/tab/questsProgress/typeLabel"
+msgstr "Exibir missões"
+
+msgid "feedback/tab/ribbons/armorValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/assistSpotValue"
+msgstr "654"
+
+msgid "feedback/tab/ribbons/assistStun"
+msgstr "320"
+
+msgid "feedback/tab/ribbons/assistTrackValue"
+msgstr "750"
+
+msgid "feedback/tab/ribbons/burnValue"
+msgstr "350"
+
+msgid "feedback/tab/ribbons/captureValue"
+msgstr "15"
+
+msgid "feedback/tab/ribbons/critValue"
+msgstr "x2"
+
+msgid "feedback/tab/ribbons/damageValue"
+msgstr "400"
+
+msgid "feedback/tab/ribbons/defenceValue"
+msgstr "80"
+
+msgid "feedback/tab/ribbons/ramValue"
+msgstr "250"
+
+msgid "feedback/tab/ribbons/visibleItemsCount"
+msgstr "3"
+
+msgid "fov"
+msgstr "Campo de Visão (FoV)"
+
+msgid "fov/description"
+msgstr "Alcance da visibilidade da câmera do jogo.\n\n95º é um FoV (campo de visão) normal. Quanto menor for o FoV, mais perto os objetos estarão enquanto a visão periférica diminuir.\n\nNão influencia o desempenho do jogo."
+
+msgid "game/anonymizer"
+msgstr "Anonimize seu nome de usuário na batalha"
+
+msgid "game/battleLoadingInfo"
+msgstr "Dicas na tela de carregamento da batalha"
+
+msgid "game/battleLoadingInfo/minimap"
+msgstr "Minimapa"
+
+msgid "game/battleLoadingInfo/textTip"
+msgstr "Apenas texto"
+
+msgid "game/battleLoadingInfo/visualTip"
+msgstr "Dicas ilustradas"
+
+msgid "game/battlePanelSettings"
+msgstr "Interface de batalha"
+
+msgid "game/carouselType"
+msgstr "Painel de veículo"
+
+msgid "game/carouselType/double"
+msgstr "Dois níveis"
+
+msgid "game/carouselType/single"
+msgstr "Um nível"
+
+msgid "game/carouselVehicle/checkbox/stats"
+msgstr "Exibe estatísticas ao posicionar sobre vaga na Garagem"
+
+msgid "game/commanderCamEnabled"
+msgstr "Habilitar Visão Tática"
+
+msgid "game/customizationDisplayType"
+msgstr "Exibição de elementos de personalização na batalha"
+
+msgid "game/customizationDisplayType/all"
+msgstr "Histórico, não histórico e fictício"
+
+msgid "game/customizationDisplayType/historical"
+msgstr "Histórico"
+
+msgid "game/customizationDisplayType/notHistorical"
+msgstr "Histórico e não histórico"
+
+msgid "game/displayPlatoonMembers"
+msgstr "Exibir veículos dos membros do Pelotão na Garagem"
+
+msgid "game/doubleCarousel/label"
+msgstr "Painel de veículo de dois níveis"
+
+msgid "game/doubleCarouselType/adaptive"
+msgstr "Adaptativo"
+
+msgid "game/doubleCarouselType/small"
+msgstr "Minimalista"
+
+msgid "game/dynamicCamera"
+msgstr "Habilitar câmera dinâmica"
+
+msgid "game/enableBattleNotifier"
+msgstr "Exibir resultado de batalha anterior no chat"
+
+msgid "game/enableMortalPostEffect"
+msgstr "Habilitar pós-efeito no Modo Postmortem"
+
+msgid "game/enableOpticalSnpEffect"
+msgstr "Habilita o efeito óptico no modo Sniper"
+
+msgid "game/enableRepairTimer"
+msgstr "Mostrar o tempo de reparo para módulos danificados"
+
+msgid "game/enableSpeedometer"
+msgstr "Mostra o medidor de velocidade dos veículos de roda"
+
+msgid "game/enableVoIP"
+msgstr "Chat de Voz"
+
+msgid "game/fieldset/headerBattleCommunication"
+msgstr "Comunicação de Batalha"
+
+msgid "game/fieldset/headerChat"
+msgstr "Chat"
+
+msgid "game/fieldset/headerMinimap"
+msgstr "Minimapa"
+
+msgid "game/fieldset/headerVehicleMarker"
+msgstr "Marcadores de Veículo"
+
+msgid "game/hangarCamCheckbox"
+msgstr "Animação da câmera da Garagem ao mover o mouse"
+
+msgid "game/hangarCamDropdownTitle"
+msgstr "Rotação da câmera da Garagem em inatividade em"
+
+msgid "game/hangarCamGroupTitle"
+msgstr "Animação da Câmera na Garagem"
+
+msgid "game/hangarCamPeriod/never"
+msgstr "Nunca"
+
+msgid "game/hangarCamPeriod/type0"
+msgstr "30 segundos"
+
+msgid "game/hangarCamPeriod/type1"
+msgstr "45 segundos"
+
+msgid "game/hangarCamPeriod/type2"
+msgstr "60 segundos"
+
+msgid "game/horStabilizationSnp"
+msgstr "Estabilização horizontal no Modo Sniper"
+
+msgid "game/hullLockEnabled"
+msgstr "Ativar bloqueio automático do casco em Sniper"
+
+msgid "game/increasedZoom/base"
+msgstr "Habilitar o %(zooms)s"
+
+msgid "game/increasedZoom/delimeter"
+msgstr " e "
+
+msgid "game/increasedZoom/zoomStr"
+msgstr "x%(zoom)d"
+
+msgid "game/loginServerSelection"
+msgstr "Exibir a seleção do servidor após o lançamento do jogo"
+
+msgid "game/minimapDrawRange"
+msgstr "Exibir o círculo desenhado"
+
+msgid "game/minimapGroupTitle"
+msgstr "Minimapa"
+
+msgid "game/minimapMaxViewRange"
+msgstr "Exibir o círculo do raio de visão máximo"
+
+msgid "game/minimapMinSpottingRange"
+msgstr "Mostrar o círculo de detecção de proximidade"
+
+msgid "game/minimapViewRange"
+msgstr "Exibir o círculo do raio de visão"
+
+msgid "game/newbeeTipsTitle"
+msgstr "Dicas"
+
+msgid "game/newbieBattleHints"
+msgstr "Habilitar dicas para novatos nas Batalhas Aleatórias"
+
+msgid "game/newbiePrebattleHints"
+msgstr "Habilitar dicas para novatos na tela de carregamento da batalha"
+
+msgid "game/optimizeGraphics"
+msgstr "Otimizar gráficos de interface"
+
+msgid "game/playersPanelState/large"
+msgstr "Painel Completo"
+
+msgid "game/playersPanelState/medium"
+msgstr "Painel Padrão"
+
+msgid "game/playersPanelState/none"
+msgstr "Sem Painel"
+
+msgid "game/playersPanelState/short"
+msgstr "Painel Reduzido"
+
+msgid "game/postmortemMode"
+msgstr "Modo Pós-Morte"
+
+msgid "game/postmortemMode/analysis"
+msgstr "Exibir o momento que o seu veículo foi destruído (detalhado)"
+
+msgid "game/postmortemMode/enemy"
+msgstr "Exibir o veículo inimigo que destruiu seu veículo"
+
+msgid "game/postmortemMode/self"
+msgstr "Exibir seu veículo"
+
+msgid "game/postmortemMode/simple"
+msgstr "Exibir o momento que o seu veículo foi destruído (curto)"
+
+msgid "game/ppShowLevels"
+msgstr "Exibir nível do veículo"
+
+msgid "game/ppShowTypes"
+msgstr "Exibir tipo de veículo"
+
+msgid "game/ppStartStateLabel"
+msgstr "Tipo"
+
+msgid "game/preCommanderCamEnabled"
+msgstr "Ativar Câmera do Comandante"
+
+msgid "game/replayEnabled"
+msgstr "Ativar gravação de batalha"
+
+msgid "game/replayEnabled/all"
+msgstr "Todos"
+
+msgid "game/replayEnabled/last"
+msgstr "Último"
+
+msgid "game/replayEnabled/none"
+msgstr "Nenhum"
+
+msgid "game/showArtyHitOnMap"
+msgstr "Exibir área que as artilharias vão atingir"
+
+msgid "game/showDamageIcon"
+msgstr "Exibir notificações quando não causar danos"
+
+msgid "game/showDogTag"
+msgstr "Exibir Dog Tag"
+
+msgid "game/showDogTagToKiller"
+msgstr "Exibir sua Dog Tag aplicada"
+
+msgid "game/showExInfoForDestroyVehicle"
+msgstr "Exibir informações de veículo destruído"
+
+msgid "game/showKillersDogTag"
+msgstr "Exibir a Dog Tag do jogador que te destruiu"
+
+msgid "game/showLanguageBar"
+msgstr "Exibir Painel de Idiomas"
+
+msgid "game/showMarksOnGun"
+msgstr "Exibir Marcas de Excelência"
+
+msgid "game/showPersonalAnimatedDogTag"
+msgstr "Ver a sua Dog Tag Animada"
+
+msgid "game/showSectorOnMap"
+msgstr "Exibir arco de tiro para a artilharia"
+
+msgid "game/showVectorOnMap"
+msgstr "Exibir feixe de direção da câmera"
+
+msgid "game/showVehModelsOnMap"
+msgstr "Ativar recursos estendidos do minimapa"
+
+msgid "game/showVehModelsOnMap/alt"
+msgstr "Ao pressionar Alt"
+
+msgid "game/showVehModelsOnMap/always"
+msgstr "Sempre"
+
+msgid "game/showVehModelsOnMap/never"
+msgstr "Nunca"
+
+msgid "game/showVehicleHPinMinimap"
+msgstr "Mostrar HP do veículo no minimapa"
+
+msgid "game/showVehicleHPinMinimap/alt"
+msgstr "Ao pressionar Alt"
+
+msgid "game/showVehicleHPinMinimap/always"
+msgstr "Sempre"
+
+msgid "game/showVehicleHPinMinimap/never"
+msgstr "Nunca"
+
+msgid "game/showVehicleHPinPlayersPanel"
+msgstr "Mostrar HP do veículo nos painéis de equipe"
+
+msgid "game/showVehicleHPinPlayersPanel/alt"
+msgstr "Ao pressionar Alt"
+
+msgid "game/showVehicleHPinPlayersPanel/always"
+msgstr "Sempre"
+
+msgid "game/showVehicleHPinPlayersPanel/never"
+msgstr "Nunca"
+
+msgid "game/showVehicleIcon"
+msgstr "Exibir ícones de veículos"
+
+msgid "game/showVehicleLevel"
+msgstr "Exibir nível do veículo"
+
+msgid "game/showVehiclesCounter"
+msgstr "Exibir marcadores no Painel de Pontuação"
+
+msgid "game/showVictimsDogTag"
+msgstr "Exibir Dog Tags de inimigos que você destruir"
+
+msgid "game/sniperModeByShift"
+msgstr "Restringir mudança do modo Sniper para a tecla Shift"
+
+msgid "game/sniperZoom"
+msgstr "Nível de Zoom do Modo Sniper Preferido"
+
+msgid "game/sniperZoom/double"
+msgstr "x2"
+
+msgid "game/sniperZoom/octuple"
+msgstr "x8"
+
+msgid "game/sniperZoom/quadruple"
+msgstr "x4"
+
+msgid "game/sniperZoom/remember"
+msgstr "Usado por Último"
+
+msgid "game/switchEquipment"
+msgstr "Mudança de configuração na tela de carregamento"
+
+msgid "game/w2gtEnable"
+msgstr "Habilita zonas de combate no minimapa"
+
+msgid "gameTitle"
+msgstr "Geral"
+
+msgid "gameplay/devMaps"
+msgstr "Jogue em mapas com os Eventos Aleatórios"
+
+msgid "gameplay/nations"
+msgstr "Confronto"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "gammaBtn/label"
+msgstr "Configurar"
+
+msgid "gammaWizard/apply"
+msgstr "Aplicar"
+
+msgid "gammaWizard/cancel"
+msgstr "Cancelar"
+
+msgid "gammaWizard/closeBtn"
+msgstr "FECHAR"
+
+msgid "gammaWizard/default"
+msgstr "Padrão"
+
+msgid "gammaWizard/description"
+msgstr "Mova o controle deslizante até que o fundo e o logotipo atinjam o mesmo brilho. Feche os olhos parcialmente ou afaste-se do monitor, para tornar os detalhes da imagem pouco visíveis."
+
+msgid "gammaWizard/header"
+msgstr "Gamma"
+
+msgid "gammaWizard/title"
+msgstr "Configurações Gamma"
+
+msgid "gammaWizard/tooltip/body"
+msgstr "Permite que o brilho seja configurado no jogo para alcançar a qualidade\nde imagem ideal na tela. Esta opção visa compensar os efeitos dos drivers \nda placa de vídeo e exibe configurações que afetam a qualidade visual do jogo."
+
+msgid "gammaWizard/tooltip/header"
+msgstr "Gamma"
+
+msgid "graficTitle"
+msgstr "Gráficos"
+
+msgid "graphics/block/effects"
+msgstr "Efeitos"
+
+msgid "graphics/block/greenery"
+msgstr "Vegetação"
+
+msgid "graphics/block/landscapeAndWater"
+msgstr "Terreno e água"
+
+msgid "graphics/block/lightingAndShadows"
+msgstr "Iluminação e pós-processamento"
+
+msgid "graphics/block/main"
+msgstr "Principal"
+
+msgid "graphics/tabAdvanced"
+msgstr "Detalhes"
+
+msgid "graphics/tabScreen"
+msgstr "Tela"
+
+msgid "graphicsQuality"
+msgstr "Qualidade Gráfica"
+
+msgid "graphicsQuality/description"
+msgstr "Determina a qualidade geral da imagem. Determina os parâmetros da guia Detalhes.\n\nReduzir a qualidade gráfica pode:\n• Melhorar o desempenho do jogo\n• Causa dessincronização da exibição da paisagem entre o cliente e o servidor.\n\nUse a qualidade mínima de gráficos somente no caso de desempenho baixo do computador."
+
+msgid "graphicsQualityHDSD"
+msgstr "Tipos de Clientes"
+
+msgid "graphicsQualityHDSD/HD"
+msgstr "Cliente HD instalado"
+
+msgid "graphicsQualityHDSD/SD"
+msgstr "Cliente Padrão (SD) instalado"
+
+msgid "graphicsQualityHDSD/description"
+msgstr "Cliente Padrão—jogo completo sem as texturas de qualidade máxima.\n\nCliente HD—jogo completo incluindo as texturas de qualidade máxima. Requer mais espaço em disco do que o Cliente Padrão."
+
+msgid "graphicsQualityHDSDHigh"
+msgstr "Tipos de Clientes"
+
+msgid "graphicsQualityHDSDHigh/description"
+msgstr "Cliente HD—jogo completo incluindo texturas de máxima qualidade. Requer mais espaço no disco rígido do que o Cliente Padrão.\n\nCliente Padrão (SD)—jogo completo sem texturas de máxima qualidade."
+
+msgid "graphicsQualityHDSDHigh/warning"
+msgstr "A qualidade de gráficos máxima (SD) e Ultra (SD) não fornecem o valor máximo do parâmetro de qualidade de textura. Para definir a qualidade máxima de gráficos, mude para o Cliente HD no launcher do jogo."
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_16X"
+msgstr "Anisotrópico 16x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_2X"
+msgstr "Anisotrópico 2x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_4X"
+msgstr "Anisotrópico 4x"
+
+msgid "graphicsSettingsOptions/ANISOTROPIC_8X"
+msgstr "Anisotrópico 8x"
+
+msgid "graphicsSettingsOptions/BILINEAR"
+msgstr "Bilinear"
+
+msgid "graphicsSettingsOptions/CUSTOM"
+msgstr "Personalizado"
+
+msgid "graphicsSettingsOptions/Colorization"
+msgstr "Filme dos anos 1940"
+
+msgid "graphicsSettingsOptions/Contrasty"
+msgstr "Contraste"
+
+msgid "graphicsSettingsOptions/DEFERRED"
+msgstr "Melhorado"
+
+msgid "graphicsSettingsOptions/FAR"
+msgstr "Longe"
+
+msgid "graphicsSettingsOptions/FORWARD"
+msgstr "Padrão"
+
+msgid "graphicsSettingsOptions/HIGH"
+msgstr "Alta"
+
+msgid "graphicsSettingsOptions/LOW"
+msgstr "Baixa"
+
+msgid "graphicsSettingsOptions/LOWEST"
+msgstr "Muito Baixa"
+
+msgid "graphicsSettingsOptions/MAX"
+msgstr "Máximo"
+
+msgid "graphicsSettingsOptions/MAX_SD"
+msgstr "Máxima (SD)"
+
+msgid "graphicsSettingsOptions/MEDIUM"
+msgstr "Média"
+
+msgid "graphicsSettingsOptions/MIN"
+msgstr "Minímo"
+
+msgid "graphicsSettingsOptions/Muted"
+msgstr "Mudo"
+
+msgid "graphicsSettingsOptions/NEAR"
+msgstr "Próximo"
+
+msgid "graphicsSettingsOptions/NONE"
+msgstr "Desligado"
+
+msgid "graphicsSettingsOptions/OFF"
+msgstr "Desligado"
+
+msgid "graphicsSettingsOptions/ON"
+msgstr "Ligado"
+
+msgid "graphicsSettingsOptions/PIPELINE_SIMPLIFIED"
+msgstr "Simplificado"
+
+msgid "graphicsSettingsOptions/PIPELINE_STANDARD"
+msgstr "Melhorado"
+
+msgid "graphicsSettingsOptions/POINT"
+msgstr "Ponto"
+
+msgid "graphicsSettingsOptions/Photochromatic"
+msgstr "Fotocromático"
+
+msgid "graphicsSettingsOptions/RANDOM"
+msgstr "Aleatório"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_0"
+msgstr "0"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_1"
+msgstr "1"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_2"
+msgstr "2"
+
+msgid "graphicsSettingsOptions/SHADER_MODEL_3"
+msgstr "3"
+
+msgid "graphicsSettingsOptions/STANDARD"
+msgstr "Padrão"
+
+msgid "graphicsSettingsOptions/Soft"
+msgstr "Profundo"
+
+msgid "graphicsSettingsOptions/Soft Colors"
+msgstr "Cores suaves"
+
+msgid "graphicsSettingsOptions/TRILINEAR"
+msgstr "Trilinear"
+
+msgid "graphicsSettingsOptions/ULTRA"
+msgstr "Ultra"
+
+msgid "graphicsSettingsOptions/ULTRA_SD"
+msgstr "Ultra (SD)"
+
+msgid "graphicsSettingsOptions/VERYHIGH"
+msgstr "Muito Alta"
+
+msgid "graphicsSettingsOptions/VERY_HIGH"
+msgstr "Muito Alta"
+
+msgid "igbHardwareAcceleration"
+msgstr "Aceleração de Hardware do Navegador"
+
+msgid "igbHardwareAcceleration/description"
+msgstr "Quando esta configuração está ativada, o conteúdo da web será renderizado usando GPU em vez de CPU.\n\nDesative-a se tiver problemas para renderizar o conteúdo de algumas janelas.\n\nA mudança será aplicada no reinício do jogo."
+
+msgid "interfaceScale"
+msgstr "Escala da Interface"
+
+msgid "interfaceScale/attention"
+msgstr "Elemento está sob testes;\nele não influencia o desempenho no jogo."
+
+msgid "interfaceScale/body"
+msgstr "Escala automática dos elementos da interface\nao maximizar a janela/tela do jogo."
+
+msgid "interfaceScale/description"
+msgstr "Escala automática dos elementos da interface ao maximizar a janela/tela do jogo."
+
+msgid "interfaceScale/header"
+msgstr "Escala da Interface"
+
+msgid "interfaceScale/warning"
+msgstr "Elemento está sob testes; ele não influencia o desempenho no jogo."
+
+msgid "interfaceScaleDisabled"
+msgstr "Escala da Interface"
+
+msgid "interfaceScaleDisabled/attention"
+msgstr "Disponível apenas para monitores 4k."
+
+msgid "interfaceScaleDisabled/body"
+msgstr "Redimensionamento automático de elementos da interface\nao maximizar a tela/janela do jogo."
+
+msgid "interfaceScaleDisabled/description"
+msgstr "Redimensionamento automático de elementos da interface ao maximizar a tela/janela do jogo."
+
+msgid "interfaceScaleDisabled/header"
+msgstr "Escala da Interface"
+
+msgid "interfaceScaleDisabled/warning"
+msgstr "Disponível apenas para monitores 4k."
+
+msgid "isColorBlind"
+msgstr "Modo daltônico"
+
+msgid "isColorBlind/description"
+msgstr "Adaptação da paleta de cores para pessoas com deficiência para ver cores."
+
+msgid "keyboard/backDraftInvert"
+msgstr "Inverter inversão"
+
+msgid "keyboard/keyboard"
+msgstr "Teclado"
+
+msgid "keyboard/keysBlocks/command/affirmative"
+msgstr "Afirmativo!"
+
+msgid "keyboard/keysBlocks/command/alternate_mode"
+msgstr "Alternar Modo de Mira"
+
+msgid "keyboard/keysBlocks/command/auto_rotation"
+msgstr "Travar Chassi / Alternar Modo"
+
+msgid "keyboard/keysBlocks/command/backward"
+msgstr "Voltar"
+
+msgid "keyboard/keysBlocks/command/backward_cruise"
+msgstr "Voltar"
+
+msgid "keyboard/keysBlocks/command/block_tracks"
+msgstr "\"Freio de Mão\""
+
+msgid "keyboard/keysBlocks/command/camera_down"
+msgstr "Baixo"
+
+msgid "keyboard/keysBlocks/command/camera_left"
+msgstr "Esquerda"
+
+msgid "keyboard/keysBlocks/command/camera_right"
+msgstr "Direita"
+
+msgid "keyboard/keysBlocks/command/camera_up"
+msgstr "Cima"
+
+msgid "keyboard/keysBlocks/command/chargeFire"
+msgstr "Realizar um Disparo Simultâneo"
+
+msgid "keyboard/keysBlocks/command/fallBack"
+msgstr "Recue!"
+
+msgid "keyboard/keysBlocks/command/fire"
+msgstr "Atirar"
+
+msgid "keyboard/keysBlocks/command/forward"
+msgstr "Frente"
+
+msgid "keyboard/keysBlocks/command/forward_cruise"
+msgstr "Frente"
+
+msgid "keyboard/keysBlocks/command/frontlineSelfDestruction"
+msgstr "Abandonar Veículo (na Linha de Frente)"
+
+msgid "keyboard/keysBlocks/command/help"
+msgstr "Ajuda!"
+
+msgid "keyboard/keysBlocks/command/highlightLocation"
+msgstr "Indicar posição"
+
+msgid "keyboard/keysBlocks/command/highlightTarget"
+msgstr "Indicar alvo ativo"
+
+msgid "keyboard/keysBlocks/command/item00"
+msgstr "Consumível 10"
+
+msgid "keyboard/keysBlocks/command/item01"
+msgstr "Consumível 1"
+
+msgid "keyboard/keysBlocks/command/item02"
+msgstr "Consumível 2"
+
+msgid "keyboard/keysBlocks/command/item03"
+msgstr "Consumível 3"
+
+msgid "keyboard/keysBlocks/command/item04"
+msgstr "Consumível 4"
+
+msgid "keyboard/keysBlocks/command/item05"
+msgstr "Consumível 5"
+
+msgid "keyboard/keysBlocks/command/item06"
+msgstr "Consumível 6"
+
+msgid "keyboard/keysBlocks/command/item07"
+msgstr "Consumível 7"
+
+msgid "keyboard/keysBlocks/command/item08"
+msgstr "Consumível 8"
+
+msgid "keyboard/keysBlocks/command/item09"
+msgstr "Consumível 9"
+
+msgid "keyboard/keysBlocks/command/left"
+msgstr "Esquerda"
+
+msgid "keyboard/keysBlocks/command/lock_target"
+msgstr "Mira Automática"
+
+msgid "keyboard/keysBlocks/command/lock_target_off"
+msgstr "Desativar Mira Automática"
+
+msgid "keyboard/keysBlocks/command/negative"
+msgstr "Negativo!"
+
+msgid "keyboard/keysBlocks/command/pushToTalk"
+msgstr "Push-to-Talk"
+
+msgid "keyboard/keysBlocks/command/reloadPartialClip"
+msgstr "Recarregar caixa de munição"
+
+msgid "keyboard/keysBlocks/command/reloading"
+msgstr "Recarregando!"
+
+msgid "keyboard/keysBlocks/command/right"
+msgstr "Direita"
+
+msgid "keyboard/keysBlocks/command/showHUD"
+msgstr "Ocultar interface de batalha"
+
+msgid "keyboard/keysBlocks/command/showPersonalReserves"
+msgstr "Ativação de Reservas Pessoais"
+
+msgid "keyboard/keysBlocks/command/showQuestProgress"
+msgstr "Progresso de Missões Pessoais"
+
+msgid "keyboard/keysBlocks/command/showRadialMenu"
+msgstr "Exibir Menu de Comando / Confirmar Comando"
+
+msgid "keyboard/keysBlocks/command/sizeDown"
+msgstr "Diminuir"
+
+msgid "keyboard/keysBlocks/command/sizeUp"
+msgstr "Aumentar"
+
+msgid "keyboard/keysBlocks/command/specialAbility"
+msgstr "Habilidade Especial"
+
+msgid "keyboard/keysBlocks/command/stop_fire"
+msgstr "Parar e Atirar"
+
+msgid "keyboard/keysBlocks/command/thankYou"
+msgstr "Obrigado!"
+
+msgid "keyboard/keysBlocks/command/toggleFlashlight"
+msgstr "Habilitar a Visualização de Blindagem"
+
+msgid "keyboard/keysBlocks/command/trajectory_view"
+msgstr "Visão da Trajetória"
+
+msgid "keyboard/keysBlocks/command/useHorn"
+msgstr "Sinal sonoro"
+
+msgid "keyboard/keysBlocks/command/visible"
+msgstr "Ocultar/Exibir"
+
+msgid "keyboard/keysBlocks/command/voicechat_enable"
+msgstr "Ativar/desativar chat de voz em Pelotões Dinâmicos"
+
+msgid "keyboard/keysBlocks/group/camera"
+msgstr "Câmera"
+
+msgid "keyboard/keysBlocks/group/cruis_control"
+msgstr "Piloto Automático"
+
+msgid "keyboard/keysBlocks/group/equipment"
+msgstr "Consumíveis"
+
+msgid "keyboard/keysBlocks/group/firing"
+msgstr "Atirar"
+
+msgid "keyboard/keysBlocks/group/minimap"
+msgstr "Minimapa"
+
+msgid "keyboard/keysBlocks/group/movement"
+msgstr "Mover"
+
+msgid "keyboard/keysBlocks/group/shortcuts"
+msgstr "Mensagens"
+
+msgid "keyboard/keysBlocks/group/team_communication"
+msgstr "Comunicação da Equipe"
+
+msgid "keyboard/keysBlocks/group/vehicle_other"
+msgstr "Outro"
+
+msgid "keyboard/keysBlocks/group/voicechat"
+msgstr "Chat de Voz"
+
+msgid "keyboard/mouse"
+msgstr "Mouse"
+
+msgid "keyboardTitle"
+msgstr "Controles"
+
+msgid "limitedUI/desc"
+msgstr "Aparecimento gradual de elementos ocultos da interface na Garagem"
+
+msgid "limitedUI/turnOffBtn"
+msgstr "Desativar"
+
+msgid "marker/AllyTitle"
+msgstr "Time Aliado"
+
+msgid "marker/DeadTitle"
+msgstr "Destruído"
+
+msgid "marker/EnemyTitle"
+msgstr "Time Inimigo"
+
+msgid "marker/aimMarker2D"
+msgstr "Indicador de Mira Automática"
+
+msgid "marker/alt"
+msgstr "Alternativo"
+
+msgid "marker/base"
+msgstr "Padrão"
+
+msgid "marker/damage"
+msgstr "Dano recebido"
+
+msgid "marker/dead"
+msgstr "Mostrar para destruídos"
+
+msgid "marker/hp"
+msgstr "Energia do veículo"
+
+msgid "marker/hp/type0"
+msgstr "Porcentagem %"
+
+msgid "marker/hp/type1"
+msgstr "Energia restante / total"
+
+msgid "marker/hp/type2"
+msgstr "Energia restante"
+
+msgid "marker/hp/type3"
+msgstr "Esconder"
+
+msgid "marker/hpIndicator"
+msgstr "Indicador de energia"
+
+msgid "marker/icon"
+msgstr "Ícone do veículo"
+
+msgid "marker/level"
+msgstr "Nível"
+
+msgid "marker/level/tooltip/body"
+msgstr "Um nível será exibido acima do veículo quando esta configuração estiver habilitada.\n\nO nível de atualização atual será exibido no Caçador de Aço."
+
+msgid "marker/level/tooltip/header"
+msgstr "Nível"
+
+msgid "marker/name"
+msgstr "Nome do veículo"
+
+msgid "marker/name/type2"
+msgstr "Esconder"
+
+msgid "marker/nickname"
+msgstr "Nome do Jogador"
+
+msgid "markerTitle"
+msgstr "Marcador"
+
+msgid "minimap/labels/alpha"
+msgstr "Transparência do minimapa"
+
+msgid "minimap/labels/size"
+msgstr "Tamanho máximo"
+
+msgid "monitor"
+msgstr "Monitor"
+
+msgid "monitor/description"
+msgstr "Selecione o monitor primário para o jogo."
+
+msgid "mouse/sensitivity/art"
+msgstr "Mira da artilharia"
+
+msgid "mouse/sensitivity/art2"
+msgstr "Ver trajetória"
+
+msgid "mouse/sensitivity/deathfreecam"
+msgstr "Câmera Livre"
+
+msgid "mouse/sensitivity/header"
+msgstr "Sensibilidade"
+
+msgid "mouse/sensitivity/invertationHor"
+msgstr "Inversão horizontal"
+
+msgid "mouse/sensitivity/invertationVert"
+msgstr "Inversão vertical"
+
+msgid "mouse/sensitivity/main"
+msgstr "Mira Arcade"
+
+msgid "mouse/sensitivity/sniper"
+msgstr "Mira Sniper"
+
+msgid "mouse/startDist"
+msgstr "Posição da câmera"
+
+msgid "ok_button"
+msgstr "OK"
+
+msgid "otherSettings/fieldset/header"
+msgstr "Som de Elementos do Ambiente"
+
+msgid "otherSettings/labels/bulb"
+msgstr "Som de Ativação de Sexto Sentido"
+
+msgid "otherTitle"
+msgstr "Outro"
+
+msgid "physicsQuality"
+msgstr "Qualidade da Física Sonora"
+
+msgid "refreshRate"
+msgstr "Taxa de Atualização do Monitor"
+
+msgid "refreshRate/default"
+msgstr "Padrão"
+
+msgid "refreshRate/description"
+msgstr "Taxa de atualização do monitor no jogo.\n\nTaxas não correspondentes com a do monitor podem causar efeito de piscar de tela.\n\nNão influencia no desempenho do jogo."
+
+msgid "resolution"
+msgstr "Resolução de tela"
+
+msgid "resolution/description"
+msgstr "Resolução horizontal e vertical da tela no modo de tela cheia. Resoluções mais altas melhoram a qualidade da imagem. Resoluções de modo tela cheia que não sejam correspondentes com a resolução atual do monitor, podem distorcer a imagem.\n\nAumentar este parâmetro também aumenta a carga na placa de vídeo e poder reduzir o desempenho do jogo.\n\nA carga na placa de vídeo pode ser reduzida pelo ajuste na resolução de renderização 3D."
+
+msgid "restartNewbieBattleHints"
+msgstr "Reiniciar Dicas Para Novatos"
+
+msgid "restartNewbieBattleHints/description"
+msgstr "Reiniciar o histórico de dicas para novatos para receber dicas que já foram exibidas."
+
+msgid "screenMode"
+msgstr "Modo de jogo"
+
+msgid "screenMode/borderless"
+msgstr "Janela (sem borda)"
+
+msgid "screenMode/description"
+msgstr "Alterando entre modos de jogo tela cheia, janela e janela (sem borda). O modo de jogo janela reduzirá o desempenho do jogo."
+
+msgid "screenMode/fullscreen"
+msgstr "Tela cheia"
+
+msgid "screenMode/label"
+msgstr "Modo:"
+
+msgid "screenMode/windowed"
+msgstr "Janela"
+
+msgid "smoothing/description"
+msgstr "Determina o grau de processamento adicional de linhas retas e contornos dos objetos do jogo no cenário do jogo. Minimiza o efeito de suavização. O contorno dos objetos parece mais natural."
+
+msgid "sound/artyBulbVoices/artillery_lightbulb"
+msgstr "Padrão"
+
+msgid "sound/artyBulbVoices/soundExploring"
+msgstr "Som de usuário"
+
+msgid "sound/bulbVoices/lightbulb"
+msgstr "Variante 1"
+
+msgid "sound/bulbVoices/lightbulb_02"
+msgstr "Variante 2"
+
+msgid "sound/bulbVoices/sixthSense"
+msgstr "Som de usuário"
+
+msgid "sound/dynamicRange/label"
+msgstr "Alcance dinâmico"
+
+msgid "sound/fieldset/header"
+msgstr "Volume"
+
+msgid "sound/players_notifications"
+msgstr "Notificações de outros jogadores"
+
+msgid "sound/presets/title"
+msgstr "Predefinições"
+
+msgid "sound/soundModes/U01"
+msgstr "Usuário 1"
+
+msgid "sound/soundModes/U02"
+msgstr "Usuário 2"
+
+msgid "sound/soundModes/U03"
+msgstr "Usuário 3"
+
+msgid "sound/soundModes/U04"
+msgstr "Usuário 4"
+
+msgid "sound/soundModes/default"
+msgstr "Padrão"
+
+msgid "sound/soundModes/nationalDefault"
+msgstr "Comandante"
+
+msgid "sound/special/field/set"
+msgstr "Volume de evento do jogo"
+
+msgid "sound/vivox/buttons/capture_devices_refresh"
+msgstr "Atualizar Dispositivos"
+
+msgid "sound/vivox/buttons/test_finish"
+msgstr "Finalizar o Teste"
+
+msgid "sound/vivox/buttons/test_start"
+msgstr "Iniciar o Teste"
+
+msgid "sound/vivox/fade_volume"
+msgstr "Volume do Ambiente Durante Chat"
+
+msgid "sound/vivox/master_volume"
+msgstr "Volume do Chat de Voz"
+
+msgid "sound/vivox/mic_sensitivity"
+msgstr "Sensibilidade do Microfone"
+
+msgid "sound/vivox/vivox_test"
+msgstr "Teste Vivox"
+
+msgid "soundTitle"
+msgstr "Som"
+
+msgid "sounds/acousticType/acoustics20"
+msgstr "2.0/2.1"
+
+msgid "sounds/acousticType/acoustics51"
+msgstr "5.1"
+
+msgid "sounds/acousticType/acoustics71"
+msgstr "7.1"
+
+msgid "sounds/acousticType/auto"
+msgstr "Seleção automática"
+
+msgid "sounds/acousticType/popover/acoustics20"
+msgstr "Sistema 2.0/2.1"
+
+msgid "sounds/acousticType/popover/acoustics51"
+msgstr "Sistema 5.1"
+
+msgid "sounds/acousticType/popover/acoustics71"
+msgstr "Sistema 7.1"
+
+msgid "sounds/acousticType/popover/headphones"
+msgstr "Fones do ouvido"
+
+msgid "sounds/acousticType/popover/item/center"
+msgstr "Central"
+
+msgid "sounds/acousticType/popover/item/left"
+msgstr "Esquerdo"
+
+msgid "sounds/acousticType/popover/item/leftBack"
+msgstr "Traseiro esquerdo"
+
+msgid "sounds/acousticType/popover/item/leftFront"
+msgstr "Frontal esquerdo"
+
+msgid "sounds/acousticType/popover/item/leftSide"
+msgstr "Lateral esquerdo"
+
+msgid "sounds/acousticType/popover/item/right"
+msgstr "Direito"
+
+msgid "sounds/acousticType/popover/item/rightBack"
+msgstr "Traseiro direito"
+
+msgid "sounds/acousticType/popover/item/rightFront"
+msgstr "Frontal direito"
+
+msgid "sounds/acousticType/popover/item/rightSide"
+msgstr "Lateral direito"
+
+msgid "sounds/acousticType/popover/item/sub"
+msgstr "Subwoofer"
+
+msgid "sounds/acousticType/popover/laptop"
+msgstr "notebook"
+
+msgid "sounds/acousticType/popover/title"
+msgstr "Teste de som:"
+
+msgid "sounds/acousticType/testButton"
+msgstr "Testar som"
+
+msgid "sounds/altVoice/NationalDefault/body"
+msgstr "Mensagens de voz dependem da nação do veículo e gênero do comandante"
+
+msgid "sounds/altVoice/NationalDefault/header"
+msgstr "Nacional"
+
+msgid "sounds/altVoice/default/body"
+msgstr "Voz masculina no idioma do cliente do jogo"
+
+msgid "sounds/altVoice/default/header"
+msgstr "Padrão"
+
+msgid "sounds/ambient"
+msgstr "Ambiente"
+
+msgid "sounds/arena"
+msgstr "Música em Batalha"
+
+msgid "sounds/artyBulbVoices"
+msgstr "Detecção de Som"
+
+msgid "sounds/artyBulbVoices/description"
+msgstr "Selecione uma das variantes para a ativação do Detecção de Som. Para usar seu próprio som, renomeie seu arquivo .mp3 para soundExploring e mova-o para a pasta res/audioww."
+
+msgid "sounds/artyBulbVoices/label"
+msgstr "Som de Ativação do Detecção de Som"
+
+msgid "sounds/bassBoost"
+msgstr "Melhoria de baixa frequência"
+
+msgid "sounds/bassBoost/description"
+msgstr "Eleva as baixas frequências com o volume geral do jogo no mesmo nível. A implementação do módulo pode ser diferente dependendo do sistema de som selecionado (alto-falantes, headphones ou laptop)."
+
+msgid "sounds/bulbVoices"
+msgstr "Sexto Sentido"
+
+msgid "sounds/bulbVoices/description"
+msgstr "Selecione uma das variantes do som de ativação do Sexto Sentido. Para utilizar seu próprio som, renomeie seu arquivo .mp3 para sixthSense e mova-o para a pasta res/audioww."
+
+msgid "sounds/effects"
+msgstr "Efeitos"
+
+msgid "sounds/gui"
+msgstr "Interface"
+
+msgid "sounds/hangar"
+msgstr "Música na Garagem"
+
+msgid "sounds/masterVolume"
+msgstr "Volume Principal"
+
+msgid "sounds/masterVolumeToggle"
+msgstr "Ativar som"
+
+msgid "sounds/masterVolumeToggle/description"
+msgstr "Desativar os efeitos de som do jogo pode melhorar o desempenho geral do jogo. Reinicie o cliente do jogo para aplicar as alterações."
+
+msgid "sounds/nightMode"
+msgstr "Modo noturno"
+
+msgid "sounds/nightMode/description"
+msgstr "Reduz a diferença de volume, reduz sons agudos e minimiza baixas frequências no jogo, tornando o ambiente sonoro agradável para jogos noturnos."
+
+msgid "sounds/physicsQuality/attention"
+msgstr "Habilitar este recurso pode impactar na performance."
+
+msgid "sounds/physicsQuality/body"
+msgstr "Controla a qualidade da física sonora.\n\nSimula como o som é combinado perto dos obstáculos e atravessa a superfície do mapa.\n\nUsa a geometria do mapa para gerar reflexos iniciais de som dos tanques ao refletirem em objetos próximos.\n "
+
+msgid "sounds/physicsQuality/header"
+msgstr "Qualidade da Física Sonora"
+
+msgid "sounds/physicsQuality/options/disabled"
+msgstr "Desativado"
+
+msgid "sounds/physicsQuality/options/high"
+msgstr "Alta"
+
+msgid "sounds/physicsQuality/options/low"
+msgstr "Baixa"
+
+msgid "sounds/physicsQuality/options/medium"
+msgstr "Média"
+
+msgid "sounds/physicsQualityRecommended"
+msgstr "Recomendado"
+
+msgid "sounds/physicsQualityRecommended/description"
+msgstr "Determina a qualidade ideal da física sonora para o seu computador.\n\nIsso pode demorar um pouco."
+
+msgid "sounds/physicsQualityRecommended/name"
+msgstr "Recomendado"
+
+msgid "sounds/sixthSense/body"
+msgstr "Som personalizado. Mova o arquivo sixthSense.mp3 para a pasta res/audioww."
+
+msgid "sounds/sixthSense/header"
+msgstr "Personalizado"
+
+msgid "sounds/soundDevice/acoustics20"
+msgstr "Sistema 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics20/body"
+msgstr "Ajusta o som do jogo para alto-falantes externos de gama completa (2.0) ou alto falantes de alta frequência + um alto-falante de baixa frequência (2.1)."
+
+msgid "sounds/soundDevice/acoustics20/header"
+msgstr "Sistema 2.0/2.1"
+
+msgid "sounds/soundDevice/acoustics51"
+msgstr "Sistema 5.1"
+
+msgid "sounds/soundDevice/acoustics51/body"
+msgstr "Ajusta o posicionamento do som do jogo para autofalantes externos e subwoofer no sistema multicanal 5.1."
+
+msgid "sounds/soundDevice/acoustics51/header"
+msgstr "Sistema 5.1"
+
+msgid "sounds/soundDevice/acoustics71"
+msgstr "Sistema 7.1"
+
+msgid "sounds/soundDevice/acoustics71/body"
+msgstr "Ajusta o posicionamento do som do jogo para autofalantes externos e subwoofer no sistema multicanal 7.1."
+
+msgid "sounds/soundDevice/acoustics71/header"
+msgstr "Sistema 7.1"
+
+msgid "sounds/soundDevice/auto"
+msgstr "Seleção automática"
+
+msgid "sounds/soundDevice/auto/body"
+msgstr "Determina automaticamente as configurações de áudio especificadas no sistema operacional"
+
+msgid "sounds/soundDevice/auto/header"
+msgstr "Seleção automática"
+
+msgid "sounds/soundDevice/headphones"
+msgstr "Headphones"
+
+msgid "sounds/soundDevice/headphones/body"
+msgstr "Ajusta os sons do jogo para headphones."
+
+msgid "sounds/soundDevice/headphones/header"
+msgstr "Headphones"
+
+msgid "sounds/soundDevice/laptop"
+msgstr "Laptop"
+
+msgid "sounds/soundDevice/laptop/body"
+msgstr "Utiliza o princípio de posicionamento do Sistema de Som 2.0/2.1, mas ajusta os sons do jogo para reprodução nos alto-falantes pequenos de laptops na melhor qualidade possível."
+
+msgid "sounds/soundDevice/laptop/header"
+msgstr "Laptop"
+
+msgid "sounds/soundQuality"
+msgstr "Baixa qualidade"
+
+msgid "sounds/soundQuality/description"
+msgstr "Reduzir a qualidade do som pode melhorar o desempenho geral do jogo em computadores mais fracos. Ativar este modo reduz significativamente o número de sons processados ao mesmo tempo."
+
+msgid "sounds/speakers/back/body"
+msgstr "Teste de som nos autofalantes direito/esquerdo."
+
+msgid "sounds/speakers/back/header"
+msgstr "Autofalantes esquerdo/direito traseiro"
+
+msgid "sounds/speakers/center/body"
+msgstr "Teste de som no autofalante central."
+
+msgid "sounds/speakers/center/header"
+msgstr "Autofalante central"
+
+msgid "sounds/speakers/front/body"
+msgstr "Teste de som nos autofalantes frontais direito/esquerdo."
+
+msgid "sounds/speakers/front/header"
+msgstr "Autofalantes frontais direito/esquerdo"
+
+msgid "sounds/speakers/optionalsub/body"
+msgstr "No sistema 2.0/2.1 um subwoofer apresenta um dispositivo opcional. Ele não pode ser testado sem autofalantes."
+
+msgid "sounds/speakers/optionalsub/header"
+msgstr "Subwoofer opcional"
+
+msgid "sounds/speakers/sidelong/body"
+msgstr "Teste de som nos autofalantes direito/esquerdo."
+
+msgid "sounds/speakers/sidelong/header"
+msgstr "Autofalantes direito/esquerdo"
+
+msgid "sounds/speakers/sides/body"
+msgstr "Teste de som nos autofalantes direito/esquerdo."
+
+msgid "sounds/speakers/sides/header"
+msgstr "Autofalantes direito/esquerdo"
+
+msgid "sounds/speakers/sub/body"
+msgstr "Teste de som no subwoofer."
+
+msgid "sounds/speakers/sub/header"
+msgstr "Subwoofer"
+
+msgid "sounds/subtitles"
+msgstr "Legendas"
+
+msgid "sounds/tabCommon"
+msgstr "Som Mestre"
+
+msgid "sounds/tabSpecial"
+msgstr "Evento do Jogo"
+
+msgid "sounds/tabVivox"
+msgstr "Chat de Voz"
+
+msgid "sounds/vehicles"
+msgstr "Veículos"
+
+msgid "sounds/voiceNotification"
+msgstr "Notificações de Voz"
+
+msgid "title"
+msgstr "Configurações"
+
+msgid "tripleBuffered"
+msgstr "Buffer Triplo"
+
+msgid "tripleBuffered/description"
+msgstr "Diminui ruídos durante a troca de frame (disponível apenas com a sincronização vertical ativada)."
+
+msgid "vertSync"
+msgstr "Sincronização vertical"
+
+msgid "vertSync/Off"
+msgstr "Desligado"
+
+msgid "vertSync/On"
+msgstr "Ligado"
+
+msgid "vertSync/description"
+msgstr "Sincronização de taxa de quadros com a taxa de atualização do monitor. \n\n60 quadros por segundo é um limite da taxa de quadros. Pode ser utilizado no caso de efeito de imagem trêmula ou atraso na imagem na parte inferior da tela relativo à parte superior."
+
+msgid "voice_chat/PTT"
+msgstr "Push-to-Talk"
+
+msgid "voice_chat/fieldset/header"
+msgstr "Volume"
+
+msgid "voice_chat/header/common"
+msgstr "Geral"
+
+msgid "voice_chat/header/microphone"
+msgstr "Microfone"
+
+msgid "voice_chat/header/speakers"
+msgstr "Fones de Ouvido"
+
+msgid "voice_chat/microphone"
+msgstr "Microfone"
+
+msgid "voice_chat/microphone/fieldset/header"
+msgstr "Microfone"
+
+msgid "voice_chat/microphoneEnabled"
+msgstr "Ativar microfone"
+
+msgid "voice_chat/voiceChatEnable"
+msgstr "Ativar chat de voz"
+
+msgid "windowSize"
+msgstr "Tamanho da janela"
+
+msgid "windowSize/description"
+msgstr "Resolução horizontal e vertical da tela na janela do jogo. Quando alterada para o modo tela cheia, as configurações mudam para \"Resolução da Tela\"."
+
+msgid "windowTitle"
+msgstr "Cliente do WoT"

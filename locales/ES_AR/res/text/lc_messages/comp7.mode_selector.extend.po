@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "mode/comp7/battlePassTooltip/body"
+msgstr "Cuando juegues en vehículos de nivel X en {whiteSpanish_open}Asedio{whiteSpanish_close}, ganarás puntos que te permitirán avanzar en el progreso del Pase de batalla."
+
+msgid "mode/comp7/battlePassTooltip/header"
+msgstr "Puntos del Pase de batalla"
+
+msgid "mode/comp7/calendarTooltip"
+msgstr "El evento terminará el %(date)s"
+
+msgid "mode/comp7/description"
+msgstr "Modo competitivo: 7 contra 7 %(parSecondary_open)s|%(parSecondary_close)s Nivel&nbsp;X"
+
+msgid "mode/comp7/progress"
+msgstr "%(score)s/%(scoreToNextDivision)s"
+
+msgid "mode/comp7/seasonEnd/first"
+msgstr "La Temporada del Dragón Azur terminó"
+
+msgid "mode/comp7/seasonEnd/second"
+msgstr "La Temporada del Dragón Carmesí terminó"
+
+msgid "mode/comp7/seasonEnd/third"
+msgstr "La Temporada del Dragón de Jade terminó"
+
+msgid "mode/comp7/seasonStart/first"
+msgstr "La Temporada del Dragón Azur comenzará el %(date)s"
+
+msgid "mode/comp7/seasonStart/second"
+msgstr "La Temporada del Dragón Carmesí comenzará el %(date)s"
+
+msgid "mode/comp7/seasonStart/third"
+msgstr "La Temporada del Dragón de Jade comenzará el %(date)s"
+
+msgid "mode/comp7/warning"
+msgstr "Inactividad de rango: %(count)s"
+
+msgid "mode/comp7/widgetDescription/qualification"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "Libra %(maxBattlesCount)s batalla para\ncompletar la clasificación."
+msgstr[1] "Libra %(maxBattlesCount)s batallas para\ncompletar la clasificación."
+msgstr[2] "Libra %(maxBattlesCount)s batallas para\ncompletar la clasificación."
+
+msgid "mode/comp7/widgetDescription/status"
+msgstr "%(division)s\n%(rank)s"
+
+msgid "mode/comp7/yearEnd"
+msgstr "El Año del Dragón terminó"

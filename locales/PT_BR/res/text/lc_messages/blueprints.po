@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "blueprintProgressBar/complete"
+msgstr "Projeto Montado"
+
+msgid "blueprintProgressBar/inProgress"
+msgstr "Projeto  {values}"
+
+msgid "blueprintProgressBar/inProgress/progress"
+msgstr "Projeto {values}"
+
+msgid "blueprintProgressBar/inProgress/values"
+msgstr "{current} / {total}"
+
+msgid "blueprintScreen/button/buy"
+msgstr "Para Comprar"
+
+msgid "blueprintScreen/button/research"
+msgstr "Para Pesquisar"
+
+msgid "blueprintScreen/button/showInHangar"
+msgstr "Exibir na Garagem"
+
+msgid "blueprintScreen/confirmation/description"
+msgstr "Pode montar um projeto para aplicar um desconto ao pesquisar um veículo que queira. No entanto, precisará pesquisar o veículo anterior\nno ramo para utilizar o desconto."
+
+msgid "blueprintScreen/confirmation/submitBtn"
+msgstr "Afirmativo!"
+
+msgid "blueprintScreen/confirmation/title"
+msgstr "Impossível Pesquisar"
+
+msgid "blueprintScreen/conversionCost"
+msgstr "Para criar um fragmento de projeto, você precisa de:"
+
+msgid "blueprintScreen/conversionCostAdditional"
+msgstr "selecionar:"
+
+msgid "blueprintScreen/createFragment"
+msgstr "CRIAR FRAGMENTO:"
+
+msgid "blueprintScreen/createMaxFrag"
+msgstr "Criar Fragmentos"
+
+msgid "blueprintScreen/itemHover/conversionAvailable"
+msgstr "Converter\nfragmento"
+
+msgid "blueprintScreen/itemHover/conversionNotAvailable"
+msgstr "Conversão\nindisponível"
+
+msgid "blueprintScreen/notAvailable"
+msgstr "INDISPONÍVEL:\nSem recursos\nsuficientes"
+
+msgid "blueprintScreen/openVehicleViewBtn"
+msgstr "Ir Para o Veículo"
+
+msgid "blueprintScreen/or"
+msgstr "ou"
+
+msgid "blueprintScreen/research"
+msgstr "PESQUISA"
+
+msgid "blueprintScreen/researchFree"
+msgstr "Pesquisando o veículo gratuitamente"
+
+msgid "blueprintScreen/researchImpossible"
+msgstr "Impossível Pesquisar"
+
+msgid "blueprintScreen/researchSale/label"
+msgstr "Desconto na pesquisa:"
+
+msgid "blueprintScreen/researchedAndAvailablePurchased"
+msgstr "Este veículo foi pesquisado e está disponível para compra"
+
+msgid "blueprintScreen/researchedAndPurchased"
+msgstr "Este veículo foi pesquisado e adquirido"
+
+msgid "blueprintScreen/resourcesOnStorage"
+msgstr "No Depósito:"
+
+msgid "blueprintScreen/unavailableConfirm/description"
+msgstr "Pode utilizar um desconto de 100% na pesquisa do {vehicleName} após ter pesquisado o veículo anterior no ramo."
+
+msgid "blueprintScreen/unavailableConfirm/title"
+msgstr "Projeto Montado"
+
+msgid "blueprintScreen/unlocked"
+msgstr "VEÍCULO\nPESQUISADO"
+
+msgid "blueprintsBalance/alliance/Alliance-France"
+msgstr "Coalizão:"
+
+msgid "blueprintsBalance/alliance/Alliance-Germany"
+msgstr "Bloco:"
+
+msgid "blueprintsBalance/alliance/Alliance-USA"
+msgstr "Aliança:"
+
+msgid "blueprintsBalance/alliance/Alliance-USSR"
+msgstr "União:"
+
+msgid "blueprintsBalance/allianceLabel"
+msgstr "{allianceIcon} {allianceName}"
+
+msgid "blueprintsBalance/allianceLabel/conversionView"
+msgstr "%(allianceIcon) %(allianceName)"
+
+msgid "blueprintsBalance/intelligenceBlueprints"
+msgstr "Universal:"
+
+msgid "conversionView/alliance/name/Alliance-France"
+msgstr "Coalizão"
+
+msgid "conversionView/alliance/name/Alliance-Germany"
+msgstr "Bloco"
+
+msgid "conversionView/alliance/name/Alliance-USA"
+msgstr "Aliança"
+
+msgid "conversionView/alliance/name/Alliance-USSR"
+msgstr "União"
+
+msgid "conversionView/alliance/nations/Alliance-France"
+msgstr "(França, Checoslováquia, Suécia e Itália)"
+
+msgid "conversionView/alliance/nations/Alliance-Germany"
+msgstr "(Alemanha e Japão)"
+
+msgid "conversionView/alliance/nations/Alliance-USA"
+msgstr "(E.U.A., Polônia e Reino Unido)"
+
+msgid "conversionView/alliance/nations/Alliance-USSR"
+msgstr "(U.R.S.S., China)"
+
+msgid "conversionView/topMessage/multi"
+msgstr "Selecione o número de fragmentos nacionais para criar fragmentos de projeto de veículo.\n%(allianceIcon)%(allianceName) %(allianceNations) fragmentos nacionais disponíveis."
+
+msgid "conversionView/topMessage/single"
+msgstr "Selecione fragmentos de uma das nações para criar um fragmento de projeto de veículo.\n%(allianceIcon)%(allianceName) %(allianceNations) fragmentos nacionais disponíveis."
+
+msgid "conversionView/totalPrice/multiple"
+msgstr "Custo final:"
+
+msgid "conversionView/totalPrice/single"
+msgstr "Custo de fragmentos de projeto:"
+
+msgid "nations/china"
+msgstr "China"
+
+msgid "nations/czech"
+msgstr "Checoslováquia"
+
+msgid "nations/france"
+msgstr "França"
+
+msgid "nations/germany"
+msgstr "Alemanha"
+
+msgid "nations/italy"
+msgstr "Itália"
+
+msgid "nations/japan"
+msgstr "Japão"
+
+msgid "nations/poland"
+msgstr "Polônia"
+
+msgid "nations/sweden"
+msgstr "Suécia"
+
+msgid "nations/uk"
+msgstr "Reino Unido"
+
+msgid "nations/usa"
+msgstr "E.U.A."
+
+msgid "nations/ussr"
+msgstr "U.R.S.S."

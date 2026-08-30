@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Dispositivo táctico"
+
+msgid "open_artefact/server_error"
+msgstr "La operación no está disponible temporalmente. Intenta de nuevo más tarde."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "No se pudieron reabastecer los dispositivos tácticos para el %s. Fallo técnico."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "No se pudieron reabastecer los dispositivos tácticos para el %s. Fondos insuficientes."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Se reabastecieron los dispositivos tácticos del %s. Gastaste "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Registros disponibles para descifrar"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Modo: Batalla final: Terra Nord"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "Batalla final: Terra Nord (Regular)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "Batalla final: Terra Nord (Avanzada)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "Batalla final: Terra Nord (Brutal)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Dificultad"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Regular"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Avanzada"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Brutal"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Datos"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "¡Objetivo completado!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "¡Objetivos completados!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Vehículo"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Oleadas completadas: %(curPhase)s de %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Gasto: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Transacción financiera"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Puedes seleccionar el nivel de dificultad en el panel de dificultad que hay en el garage de Batalla final."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Dificultad Avanzada desbloqueada"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Puedes seleccionar el nivel de dificultad en el panel de dificultad que hay en el garage de Batalla final."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Dificultad Brutal desbloqueada"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Puedes elegir el modo en el panel de dificultad que hay en el garage de Batalla final: Operación Pandora."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Modo Batalla final desbloqueado"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Llaves descifradoras recibidas: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Recibo"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Llaves eliminadas: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Descifrado exitoso"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "De momento, no puedes acceder a las batallas de Batalla final.\nInténtalo de nuevo más tarde."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "De momento, no puedes acceder a las batallas de dificultad %(difficulty)s. Inténtalo más tarde."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "De momento, no puedes acceder a Batalla final. Revisa las novedades en el portal del juego."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "El comandante del pelotón cambió el nivel de dificultad al siguiente: %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "El jugador %(userName)s no desbloqueó uno de los niveles de dificultad."

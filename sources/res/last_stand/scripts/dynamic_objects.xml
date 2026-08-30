@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<lsPhaseSwitch>
+		<effect>last_stand/gui/effects/phase_switch_effect.xml</effect>
+	</lsPhaseSwitch>
+	<lsBeamIdle>
+		<prefab>last_stand/content/CGFPrefabs/beams/idle.prefab</prefab>
+	</lsBeamIdle>
+	<lsBeamDamage>
+		<prefab>last_stand/content/CGFPrefabs/beams/damage.prefab</prefab>
+	</lsBeamDamage>
+</root>

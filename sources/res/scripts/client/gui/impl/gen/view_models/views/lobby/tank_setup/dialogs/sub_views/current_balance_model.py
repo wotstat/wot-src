@@ -1,0 +1,28 @@
+from frameworks.wulf import ViewModel
+
+class CurrentBalanceModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=2, commands=0):
+        super(CurrentBalanceModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getCurrencyType(self):
+        return self._getString(0)
+
+    def setCurrencyType(self, value):
+        self._setString(0, value)
+        return
+
+    def getCurrencyValue(self):
+        return self._getNumber(1)
+
+    def setCurrencyValue(self, value):
+        self._setNumber(1, value)
+        return
+
+    def _initialize(self):
+        super(CurrentBalanceModel, self)._initialize()
+        self._addStringProperty(b'currencyType', b'')
+        self._addNumberProperty(b'currencyValue', 0)
+        return

@@ -1,0 +1,602 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: Equipo de WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "Recargar contenedor de Munición"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "CERRAR"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "Avanzar en Modo de Crucero"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "Retroceder en Modo de Crucero"
+
+msgid "battleControls/disableLockTarget"
+msgstr "Desactivar Auto-Apuntar"
+
+msgid "battleControls/fire"
+msgstr "Fuego"
+
+msgid "battleControls/hideInterface"
+msgstr "Mostrar/Ocultar Interfaz de Batalla"
+
+msgid "battleControls/hideMinimap"
+msgstr "Mostrar/Ocultar Minimapa"
+
+msgid "battleControls/makeScreenshort"
+msgstr "Capturar Imagen de pantalla a carpeta"
+
+msgid "battleControls/movementBackward"
+msgstr "Avanzar"
+
+msgid "battleControls/movementForward"
+msgstr "Retroceder"
+
+msgid "battleControls/movementLeft"
+msgstr "Girar/moverse a la Derecha"
+
+msgid "battleControls/movementRight"
+msgstr "Girar/moverse a la Izquierda"
+
+msgid "battleControls/pageTitle"
+msgstr "INFORMACIÓN GENERAL"
+
+msgid "battleControls/showCursor"
+msgstr "Mostrar cursor"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(para el minimapa, lista de jugadores, etc)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "Mostrar Marcador Alternativo"
+
+msgid "battleControls/stopFire"
+msgstr "Frenar y Disparar"
+
+msgid "battleControls/switchAutorotation"
+msgstr "Fijar chasís/Cambiar modo"
+
+msgid "battleControls/title"
+msgstr "Modo de Batalla"
+
+msgid "battleControls/toggleAFL"
+msgstr "Activar/desactivar linterna de blindaje"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "solo disponible en el modo Francotirador"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "Activar/Desactivar Auto-Apuntar"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(con la retícula sobre el objetivo)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "Mostrar/ocultar Listas de Equipo"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "o devolver la recomendación"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "Activar/Desactivar Modo de Francotirador"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "o Modo de Artillería"
+
+msgid "battleControls/voiceChatMute"
+msgstr "Activar chat de voz"
+
+msgid "chatControls/change"
+msgstr "Al equipo / Al Pelotón"
+
+msgid "chatControls/enterToChatMode"
+msgstr "Entrar al Modo de Chat"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "Salir del Modo de Chat"
+
+msgid "chatControls/send"
+msgstr "Enviar mensaje"
+
+msgid "chatControls/title"
+msgstr "Modo de Chat"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "Proyectiles restantes"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "Dirección de fuego"
+
+msgid "crosshairControls/dispercion"
+msgstr "Dispersión"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "Posición del cañón"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "Vida del jugador"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "Indicador de salud"
+
+msgid "crosshairControls/hpValues"
+msgstr "Vida del objetivo (%/HP restante/total)"
+
+msgid "crosshairControls/marker"
+msgstr "Punto de mira"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "Cañón cargando"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "Tiempo de recarga del cañón, en segundos"
+
+msgid "crosshairControls/targetClass"
+msgstr "Marcador del tipo de vehículo"
+
+msgid "crosshairControls/targetDistance"
+msgstr "Rango al objetivo"
+
+msgid "crosshairControls/targetIcon"
+msgstr "Ícono del vehículo"
+
+msgid "crosshairControls/targetLevel"
+msgstr "Nivel del vehículo"
+
+msgid "crosshairControls/targetName"
+msgstr "Modelo del vehículo / Nombre del jugador"
+
+msgid "crosshairControls/title"
+msgstr "Indicadores de la retícula y el cañón"
+
+msgid "detailsHelp/default/title"
+msgstr "Ayuda"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "Características del mapa"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "La ubicación del evento aleatorio estará marcada con\nhumo en el mapa y con un marcador en el minimapa.\nLos mapas con eventos aleatorios se pueden desactivar en los ajustes de la pestaña General."
+
+msgid "detailsHelp/devMaps/title"
+msgstr "Mapas con eventos aleatorios"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "Pueden destruir a tu vehículo en un área de evento aleatorio (por ejemplo, cuando se estrella un avión).\nLos mapas con eventos aleatorios se pueden desactivar en la configuración de la pestaña General."
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "Los vehículos con este sistema cambian de cañón luego de cada disparo. Uno de los cañones empieza a recargar automáticamente tras disparar, mientras el otro debe esperar un poco."
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "Fuego rápido"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "Los vehículos con sistema de dos cañones tienen una mecánica especial de tiro en salvas que se activa manteniendo pulsada la tecla asignada. Los proyectiles disparados vuelan en paralelo. Puedes cambiar el botón que controla el disparo en la configuración."
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "Salva"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "Puedes cambiar los modos del motor para adaptarte a distintas situaciones tácticas. Para cambiar el modo del motor, deberás detener el vehículo por completo e invertir una cantidad de tiempo específica que no depende del estado del módulo."
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "Nuevas mecánicas de movimiento"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "El modo de turbina cargada aumenta la potencia del motor, la velocidad hacia delante y la velocidad hacia atrás. Sin embargo, el modo hará que tu vehículo sea más fácil de detectar, reducirá la estabilización del cañón y aumentará el tiempo de apuntamiento."
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "Ventajas y desventajas"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "Características del mapa"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "Los vehículos que están dentro de una zona de clima local no pueden detectar a los que están fuera (y viceversa) ni compartir información sobre la ubicación de los vehículos enemigos ubicados fuera de la zona. El fuego daña a los vehículos."
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "Clima local"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "Al permanecer inmóvil o moverse por debajo de cierta velocidad, tu vehículo calibra el dispositivo análogo de cálculo balístico y acumula niveles de precisión.\nCada nivel aumenta la precisión de tu próximo disparo y se elimina cuando disparas."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "Dispositivo análogo de cálculo balístico"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "Cuando está calibrado al máximo, tu vehículo alcanza el nivel de precisión más alto y obtiene una estabilización del cañón decente, con menos dispersión en movimiento o durante la rotación de la torreta o el chasis.\nEl efecto se elimina al disparar."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "Calibración completa"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "Un tipo de arma de fuego automática con una cadencia de fuego muy alta. La eficacia del disparo se muestra mediante un indicador en el círculo de apuntamiento."
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "Autocañón"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "Este cañón puede disparar continuamente sin necesidad de recargar. Cada disparo genera calor, y los disparos continuos causarán que el cañón se sobrecaliente, lo que impide volver a disparar hasta que se enfríe."
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "Autocañón con control térmico de sobrecalentamiento"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "Cuando golpeas al enemigo con un proyectil, obtienes un nivel de eficiencia de recarga, que aumenta temporalmente la velocidad de recarga del cañón. Los niveles se acumulan con cada impacto.\nAl destruir un vehículo enemigo con un proyectil, recibes niveles de eficiencia de recarga adicionales."
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "Compartimento de municiones semiautomático"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "Si tu cañón está cargado, puedes empezar a calentar tu próximo disparo. Cuanto más alto sea el nivel de calor, mejor será la bonificación al daño promedio.\nPara empezar el proceso de calentamiento, presiona lo siguiente:"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "Sobrecarga termobalística"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "Cuando alcanzas el nivel de calor máximo, comienza la cuenta regresiva. Si no disparas antes de que termine, no podrás disparar ni cambiar de proyectiles durante varios segundos."
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "Sobrecalentamiento de carga"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "Al asestar dos impactos penetrantes en vehículos enemigos, se activa el modo Ráfaga, que prepara un cargador con ráfaga de disparos para poder lanzar dos proyectiles rápidamente en el siguiente disparo."
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "Modo Ráfaga"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "El Giroestabilizador neumático otorga estabilización máxima durante la rotación del chasis y la torreta durante un período corto, lo que permite disparar con mayor precisión en movimiento y reaccionar rápido ante amenazas repentinas.\nPara activarlo, presiona la siguiente tecla:"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "Giroestabilizador neumático"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "Si un cañón se enfría lo suficiente luego de disparar, su dispersión se reduce. Aparecerá un segundo círculo de apuntamiento de un diámetro más pequeño que determina el área del impacto del proyectil. El efecto dura hasta el siguiente disparo."
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "Apuntamiento doble"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "El sistema empieza a preparar otro cargador automáticamente cuando solo queda un proyectil en el actual.\nSi disparas el último proyectil mientras se prepara el nuevo cargador, el tiempo de recarga restante aumenta varios segundos."
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "Sistema de carga del cargador"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "El sistema mantiene el cañón frío, lo que permite disparar con precisión. El cañón se caliente cuando dispara, pero empieza a enfriarse y recupera los parámetros mejorados mientras recarga. A mayor temperatura, más cambian algunos de sus parámetros."
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "Enfriamiento activo del cañón"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "El vehículo se diseñó para atacar con embestidas y tiene algunas modificaciones que le permiten infligir más daño de embestida."
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "Configuración de embestida"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "El cañón de este vehículo puede disparar antes de tiempo: los disparos de carga individual, realizados durante la recarga, tienen una eficacia reducida, mientras que los disparos normales de carga completa, realizados tras la recarga, presentan parámetros balísticos óptimos."
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "Sistema de carga multipaquete"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "Permanecer inmóvil o moverse por debajo de una determinada velocidad genera precalentamiento, lo que aumenta el daño promedio y la precisión de tu próximo disparo.\nAl superar el límite de velocidad, se reduce gradualmente la bonificación, mientras que al disparar o cambiar de proyectiles, se restablece al instante."
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "Sistema de control propulsor térmico"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "Al nivel máximo de precalentamiento, penetrar el blindaje de un vehículo enemigo con menos puntos de vida que tu daño promedio (incluida tu bonificación de precalentamiento acumulada) provocará la explosión de su compartimento de municiones y destruirá el vehículo enemigo al instante."
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "Daño decisivo"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "El modo Conducción directa otorga una mejora importante a la potencia del motor y a la velocidad máxima hacia delante. Cuanto más avances, más velocidad obtendrás, lo que permite cruzar el campo de batalla con facilidad."
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "Conducción directa"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "Con el tiempo, el sistema acumula automáticamente una carga, que se consume parcialmente para aumentar el daño al disparar. Cuanto mayor sea la carga, mayor será la cantidad de daño adicional."
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "Postquemador con propulsor por inducción"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "De forma predeterminada, el sistema solo almacena la carga hasta un límite determinado. Al desactivar el limitador, se permite acumular más cargas, lo que otorga una bonificación de daño mucho mayor, pero reduce el manejo del cañón. Para activar o desactivar el limitador, pulsa lo siguiente:"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "Limitador"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "Los Propulsores de combustible líquido otorgan un aumento repentino de la potencia del motor, que permite desplazarse rápido por el campo de batalla, pero limita la velocidad de reversa y de rotación. Se pueden activar o desactivar en cualquier momento, excepto cuando el nivel de calor es crítico.\nPara activarlos, presiona o mantén presionado lo siguiente:"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "Propulsores de combustible líquido"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "Mientras están activos, los propulsores se sobrecalientan hasta alcanzar su límite crítico de calor, momento en el que ya no puedes reactivarlos hasta que se enfríen. Planifica tus movimientos con cuidado para evitar que te encuentren desprevenido."
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "Nivel de calor crítico"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "El uso de propulsores aumenta la movilidad del vehículo y permite tomar posiciones favorables o atravesar más rápido las áreas peligrosas. Los propulsores se activan durante un tiempo determinado y una cantidad de veces limitada en cada batalla. No pueden desactivarse ni destruirse."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "Propulsores"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "Al activarlos, los propulsores aumentan la potencia del motor y la velocidad máxima hacia delante. Sin embargo, el vehículo pierde maniobrabilidad y velocidad en reversa."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "Ventajas y desventajas"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "Impulsores de combustible sólido que potencian la aceleración, la movilidad y la maniobrabilidad durante algunos segundos. Los impulsores derecho e izquierdo pueden activarse por separado para girar más rápido el chasis y no restringen la capacidad de moverse en reversa."
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "Impulsores cohete secuenciales"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "Este vehículo cuenta con dos modos: Turbo y Combate, entre los que puedes cambiar en cualquier momento. El Paquete de poder táctico acumula energía para el modo activo.\nPara cambiar de modo, presiona lo siguiente:"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "Dos modos"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "Cuando el Paquete de poder táctico está completamente cargado, se habilita una habilidad específica del modo. Al activar esta habilidad, se consume toda la energía acumulada y se obtienen potentes bonificaciones durante un breve período.\nPara activar la habilidad única del modo, presiona lo siguiente:"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "Habilidades del modo"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "El módulo externo de abastecimiento de munición permite interrumpir la recarga y comenzar a disparar en cualquier momento, siempre y cuando aún tengas un proyectil cargado. Para interrumpir o continuar la recarga, usa la siguiente tecla: "
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "Módulo externo de abastecimiento de munición"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "Durante la recarga, el módulo bloquea la torreta y los contenedores de munición externos del vehículo, lo que impide temporalmente apuntar y disparar, a menos que lo interrumpas."
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "Módulo externo de abastecimiento de munición"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "Este vehículo está equipado con un conjunto de armas auxiliares cuyos ciclos de recarga son autónomos con respecto al del cañón principal, lo que permite infligir daño adicional en momentos clave. Para activar las armas auxiliares, usa la siguiente tecla:"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "Armas auxiliares"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "El Indicador láser de objetivos añade un efecto especial a tu próximo disparo, que se aplica a cualquier enemigo al que alcanzas con un disparo. El efecto varía dependiendo de si el enemigo estaba detectado al momento del impacto.\nPara activar el Indicador láser de objetivos, presiona lo siguiente:"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "Indicador láser de objetivos"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "Al golpear a un vehículo enemigo detectado, este quedará marcado, lo que prolongará el tiempo que permanecerá detectado y aumentará el daño que reciba de los proyectiles.\nAl golpear a un vehículo enemigo no detectado, la ubicación de ese enemigo quedará resaltada con un marcador especial."
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "Objetivo designado"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "Puedes cambiar entre el modo Disparo individual o Disparo de salva según la situación en el campo de batalla."
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "Mecánica de cambio de modo de disparo"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "El modo Disparo de salva duplica tanto el daño como el tiempo de recarga, y el vehículo pierde dispersión a 100 m*."
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "Ventajas y desventajas"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "Durante un breve período, esta modificación mecánica aumenta considerablemente la aceleración del vehículo hacia delante y atrás, la potencia del motor y la velocidad máxima en ambas direcciones. Al mantener una velocidad de desplazamiento elevada, se acelera su enfriamiento."
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "Asistencia de turbocargador de alta presión"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "Las teclas clave no se han asignado. Asígnalas en los ajustes del juego."
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "En este modo, la precisión del cañón, la velocidad de recarga y los ángulos de depresión/elevación aumentan drásticamente, pero a cambio de perder mucha movilidad (velocidad hacia delante/en reversa y velocidad de rotación vertical/horizontal). Para activar el modo, %(pressAndHold)s la siguiente tecla:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "mantén presionada"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "Modo Fortín"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "En este modo, la precisión del cañón, la velocidad de recarga y los ángulos de depresión/elevación aumentan, pero a cambio de perder movilidad (velocidad hacia delante/en reversa). Para activar el modo, presiona la siguiente tecla:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "Modo Asedio"
+
+msgid "detailsHelp/role/description"
+msgstr "Recibe una bonificación a la experiencia por realizar acciones de rol:"
+
+msgid "detailsHelp/role/title"
+msgstr "Rol del vehículo en batalla"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "Permite mantener parcialmente la movilidad incluso cuando la oruga principal está destruida."
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "Oruga de reserva"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "Los vehículos con ruedas ligeros franceses demuestran tener las dinámicas y velocidades más altas de todos, pero tienen un rango de visión bastante mediocre. Un vehículo con ruedas que se quede quiete no puede girar."
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "Total"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "Pulsa y mantén las teclas %(key2)s y %(key1)s al mismo tiempo. El nivel de la barra de potencia afecta a la fuerza del impulso. Suelta la tecla %(key1)s para activar el impulso o la tecla %(key2)s para cancelarlo. El impulso ofrece una aceleración rápida que permite lanzar ataques sorpresa y realizar maniobras engañosas. ¡Atención! El impulso solo se puede activar cuando el vehículo está totalmente parado. Si activas el impulso, dañarás tu motor."
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "Potenciación"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "Los vehículos con ruedas reciben menos daños cuando aterrizan sobre las ruedas. Un vehículo con ruedas no se detiene si le rompen una de ellas. Mientras más ruedas se destruyan, menor será la velocidad y el control que se tiene sobre el vehículo. Los vehículos con ruedas son más difíciles de inmovilizar; las ruedas destruidas se reparan completamente luego de un período en particular."
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "Suspensión durable"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "Pulsa %(key1)s para cambiar de modo. Los vehículos demuestran tener velocidades, dinámicas y capacidades de control distintas en cada modo."
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "Dos modos de movimiento"
+
+msgid "markerColors/enemy"
+msgstr "Enemigo"
+
+msgid "markerColors/friend"
+msgstr "Aliado"
+
+msgid "markerColors/squadPlayer"
+msgstr "Compañero de Pelotón"
+
+msgid "markerColors/teamKiller"
+msgstr "Destructor de Aliados"
+
+msgid "markerColors/title"
+msgstr "Colores del Marcador:"
+
+msgid "markerMarks/attack"
+msgstr "Atacando"
+
+msgid "markerMarks/follow"
+msgstr "¡Siganme!"
+
+msgid "markerMarks/help"
+msgstr "¡Ayuda!"
+
+msgid "markerMarks/target/sau"
+msgstr "Objetivo de la AAP"
+
+msgid "markerMarks/target/tank"
+msgstr "Objetivo del Vehículo"
+
+msgid "markerMarks/title"
+msgstr "Atajos en el Minimapa:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "¡Defiende!"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "¡Estoy defendiendo!"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "¡Apunto aquí!"
+
+msgid "radialMenu/attack_enemy"
+msgstr "¡Necesito apoyo!"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "¡Atacando al objetivo!"
+
+msgid "radialMenu/attacking_base"
+msgstr "¡Iré a la captura!"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "¡Atacando al objetivo!"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "¡Captura!"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "¡Defiende!"
+
+msgid "radialMenu/attention_to_position"
+msgstr "¡Atención a la posición!"
+
+msgid "radialMenu/cancel_reply"
+msgstr "Negarse"
+
+msgid "radialMenu/defending_base"
+msgstr "¡Defenderé!"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "¡Ataquen!"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "¡Estoy atacando!"
+
+msgid "radialMenu/going_there"
+msgstr "¡De camino a la posición!"
+
+msgid "radialMenu/helpMe"
+msgstr "¡Ayuda!"
+
+msgid "radialMenu/helpMeEx"
+msgstr "¡Necesito ayuda!"
+
+msgid "radialMenu/overheated_gun"
+msgstr "¡Sobrecalentado!"
+
+msgid "radialMenu/positive"
+msgstr "¡Afirmativo!"
+
+msgid "radialMenu/reloadingGun"
+msgstr "¡Recargando!"
+
+msgid "radialMenu/reply_to_player"
+msgstr "¡Confirmado!"
+
+msgid "radialMenu/supporting_ally"
+msgstr "¡Te ayudaré!"
+
+msgid "radialMenu/thanks"
+msgstr "¡Gracias!"
+
+msgid "radialMenu/turn_back"
+msgstr "¡Retirada!"
+
+msgid "returnToGame"
+msgstr "Esc—Volver a la Batalla"
+
+msgid "roleDescription/msg"
+msgstr "Recibe una bonificación a la experiencia por realizar acciones de rol:"
+
+msgid "settings/button"
+msgstr "Configuración"
+
+msgid "settings/help"
+msgstr "Para ver y personalizar los controles del juego, haz clic en Configuración."
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "Indicar objetivo activo"
+
+msgid "teamComm/highlightLocation"
+msgstr "Indicar posición"
+
+msgid "teamComm/show"
+msgstr "Mostrar menú de comandos"
+
+msgid "teamComm/show/ext"
+msgstr "(La lista de comandos depende del objetivo)"
+
+msgid "teamComm/title"
+msgstr "Comunicación del equipo"
+
+msgid "vehicleTypes/title"
+msgstr "Marcadores de vehículo"

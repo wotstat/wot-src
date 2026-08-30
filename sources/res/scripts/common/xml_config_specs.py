@@ -1,0 +1,157 @@
+from __future__ import absolute_import
+import json
+from Math import Vector2, Vector3, Vector4
+from typing import TYPE_CHECKING
+if TYPE_CHECKING:
+    from typing import Any
+    from ResMgr import DataSection
+
+class IParam(object):
+
+    def read(self, section, name=b''):
+        raise NotImplementedError
+        return
+
+
+class SimpleParam(IParam):
+    _DEFAULT = None
+    _SIMPLE_METHOD = None
+
+    def __init__(self, default=None, name=None):
+        self._name = name
+        self._default = default
+        return
+
+    @property
+    def name(self):
+        return self._name
+
+    @property
+    def default(self):
+        if self._default is not None:
+            return self._default
+        else:
+            return self._DEFAULT
+
+    def read(self, section, name=b''):
+        if not section:
+            return self.default
+        else:
+            return self._read(section, self.name if self.name is not None else name)
+
+    def _read(self, section, name):
+        method = getattr(section, self._SIMPLE_METHOD)
+        return method(name, self.default)
+
+
+class IntParam(SimpleParam):
+    _DEFAULT = 0
+    _SIMPLE_METHOD = b'readInt'
+
+
+class BoolParam(SimpleParam):
+    _DEFAULT = False
+    _SIMPLE_METHOD = b'readBool'
+
+
+class FloatParam(SimpleParam):
+    _DEFAULT = 0.0
+    _SIMPLE_METHOD = b'readFloat'
+
+
+class StrParam(SimpleParam):
+    _DEFAULT = b''
+    _SIMPLE_METHOD = b'readString'
+
+
+class Vector2Param(SimpleParam):
+    _DEFAULT = Vector2()
+    _SIMPLE_METHOD = b'readVector2'
+
+
+class Vector3Param(SimpleParam):
+    _DEFAULT = Vector3()
+    _SIMPLE_METHOD = b'readVector3'
+
+
+class Vector4Param(SimpleParam):
+    _DEFAULT = Vector4()
+    _SIMPLE_METHOD = b'readVector4'
+
+
+class JsonParam(SimpleParam):
+
+    def _read(self, section, name):
+        res = json.loads(section.readString(name) or b'null')
+        if res is not None:
+            return res
+        else:
+            return self.default
+
+
+class ListParam(SimpleParam):
+    _DEFAULT = []
+
+    def __init__(self, valueParam=StrParam(), itemName=b'item', name=None):
+        super(ListParam, self).__init__(name=name)
+        self._itemName = itemName
+        self._valueParam = valueParam
+        return
+
+    def _read(self, section, name):
+        valueName = self._valueParam.name if self._valueParam.name is not None else b''
+        res = [self._valueParam.read(itemSection, valueName) for itemName, itemSection in section[name].items() if self._itemName is None or self._itemName == itemName]
+        return res
+
+
+class DictParam(SimpleParam):
+    _DEFAULT = {}
+
+    def __init__(self, valueParam=StrParam(), keyParam=StrParam(), itemName=b'item', name=None):
+        super(DictParam, self).__init__(name=name)
+        self._itemName = itemName
+        self._keyParam = keyParam
+        self._valueParam = valueParam
+        return
+
+    def _read(self, section, name):
+        keyName = self._keyParam.name if self._keyParam.name is not None else b'key'
+        valueName = self._valueParam.name if self._valueParam.name is not None else b'value'
+        res = {self._keyParam.read(itemSection, keyName): self._valueParam.read(itemSection, valueName) for itemName, itemSection in section[name].items() if self._itemName is None or self._itemName == itemName}
+        return res
+
+
+class ObjParam(SimpleParam):
+
+    class Obj(object):
+        pass
+
+    _DEFAULT = Obj()
+
+    def __init__(self, name=None, **specs):
+        super(ObjParam, self).__init__(name=name)
+        self._specs = {paramName: paramReader for paramName, paramReader in specs.items() if isinstance(paramReader, IParam)}
+        return
+
+    def _read(self, section, name):
+        obj = self.Obj()
+        paramSection = section[name]
+        for paramName, paramReader in self._specs.items():
+            setattr(obj, paramName, paramReader.read(paramSection, paramName))
+
+        return obj
+
+
+class EnumParam(StrParam):
+
+    def __init__(self, enum, default, name=None):
+        super(EnumParam, self).__init__(name=name)
+        self._enum = enum
+        self._defaultValue = default
+        return
+
+    def _read(self, section, name):
+        attrName = super(EnumParam, self)._read(section, name)
+        if not attrName:
+            return self._defaultValue
+        return getattr(self._enum, attrName)

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy">
+	<itemGroup>
+		<userString>#vehicle_customization:inscription/clan_content</userString>
+		<season>ALL</season>
+		<historical>1</historical>
+		<priceGroup>inscriptions 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<include>
+				<nations>japan</nations>
+			</include>
+			<exclude>
+				<tags>excluded_from_customization</tags>
+			</exclude>
+		</vehicleFilter>
+		<decal>
+			<id>15120</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/clan_content/inscription_04.dds</texture>
+			<userString>#vehicle_customization:inscription/clan_content/inscription_04</userString>
+			<mirror>false</mirror>
+		</decal>
+		<decal>
+			<id>15121</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/clan_content/inscription_14.dds</texture>
+			<userString>#vehicle_customization:inscription/clan_content/inscription_14</userString>
+			<mirror>false</mirror>
+		</decal>
+		<decal>
+			<id>15122</id>
+			<texture>gui/maps/vehicles/decals/inscriptions/clan_content/inscription_24.dds</texture>
+			<userString>#vehicle_customization:inscription/clan_content/inscription_24</userString>
+			<mirror>false</mirror>
+		</decal>
+		<name>Clan Content Japan</name>
+		<type>INSCRIPTION</type>
+	</itemGroup>
+</root>

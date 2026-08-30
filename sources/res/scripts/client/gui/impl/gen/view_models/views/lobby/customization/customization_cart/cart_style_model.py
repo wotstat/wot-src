@@ -1,0 +1,53 @@
+from frameworks.wulf import ViewModel
+from gui.impl.gen import R
+
+class CartStyleModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=5, commands=0):
+        super(CartStyleModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIsStyle(self):
+        return self._getBool(0)
+
+    def setIsStyle(self, value):
+        self._setBool(0, value)
+        return
+
+    def getStyleTypeName(self):
+        return self._getResource(1)
+
+    def setStyleTypeName(self, value):
+        self._setResource(1, value)
+        return
+
+    def getStyleName(self):
+        return self._getString(2)
+
+    def setStyleName(self, value):
+        self._setString(2, value)
+        return
+
+    def getIsEditable(self):
+        return self._getBool(3)
+
+    def setIsEditable(self, value):
+        self._setBool(3, value)
+        return
+
+    def getIsProlongStyleRent(self):
+        return self._getBool(4)
+
+    def setIsProlongStyleRent(self, value):
+        self._setBool(4, value)
+        return
+
+    def _initialize(self):
+        super(CartStyleModel, self)._initialize()
+        self._addBoolProperty(b'isStyle', False)
+        self._addResourceProperty(b'styleTypeName', R.invalid())
+        self._addStringProperty(b'styleName', b'')
+        self._addBoolProperty(b'isEditable', False)
+        self._addBoolProperty(b'isProlongStyleRent', False)
+        return

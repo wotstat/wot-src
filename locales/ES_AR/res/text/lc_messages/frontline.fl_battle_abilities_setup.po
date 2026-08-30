@@ -1,0 +1,56 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dealPanel/applyToType"
+msgstr "Aplicar a todos {{icon}} {{type}}"
+
+msgid "header/points"
+msgstr "Puntos de reservas de combate: {{value}}"
+
+msgid "header/title"
+msgstr "RESERVAS DE COMBATE"
+
+msgid "infoPanel/category/firesupport"
+msgstr "Reservas de ataque"
+
+msgid "infoPanel/category/reconnaissance"
+msgstr "Reservas de reconocimiento"
+
+msgid "infoPanel/category/tactics"
+msgstr "Reservas tácticas"
+
+msgid "infoPanel/category/title"
+msgstr "Categoría: {{icon}} {{category}}"
+
+msgid "infoPanel/description/locked"
+msgstr "En el escenario {{@ colorLegacy 'FFE4C0'}}Giro del destino{{/}}, al comprar una reserva de combate, su nivel aumentará en uno, y se podrá mejorar hasta nivel {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "infoPanel/description/unlocked"
+msgstr "En el escenario {{@ colorLegacy 'FFE4C0'}}Giro del destino{{/}}, la probabilidad de que se ofrezcan las reservas de combate colocadas en el espacio antes de la batalla aumenta en un {{@ colorLegacy 'FFE4C0'}}10 %{{/}}."
+
+msgid "infoPanel/level"
+msgstr "Nivel:"
+
+msgid "infoPanel/param/valueTemplate/default"
+msgstr "{{sign}}{{value}}"
+
+msgid "infoPanel/param/valueTemplate/meters"
+msgstr "{{sign}}{{value}} m"
+
+msgid "infoPanel/param/valueTemplate/percents"
+msgstr "{{sign}}{{value}} %"
+
+msgid "infoPanel/param/valueTemplate/percentsBySecond"
+msgstr "{{sign}}{{value}} %/s"
+
+msgid "infoPanel/param/valueTemplate/seconds"
+msgstr "{{sign}}{{value}} s"
+
+msgid "infoPanel/paramDiff"
+msgstr "({{diff}})"
+
+msgid "infoPanel/status/locked"
+msgstr "No compraste esta reserva de combate."
+
+msgid "infoPanel/status/unlocked"
+msgstr "Compraste esta reserva de combate."

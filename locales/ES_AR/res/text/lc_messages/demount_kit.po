@@ -1,0 +1,95 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "demountConfirmation/submit"
+msgstr "Desmontar"
+
+msgid "demountKit/gained/count"
+msgstr "Kit de desmonte (x%(count)s)"
+
+msgid "demountKit/sell/header"
+msgstr "Vendido:"
+
+msgid "demountKit/sell_success"
+msgstr "Consumible \"Kit de desmonte\" (%(count)s objeto(s)). Créditos recibidos: %(count)s."
+
+msgid "demountKit/tooltip/description/common"
+msgstr "Desmonta una pieza de equipamiento."
+
+msgid "dialogue/description/common"
+msgstr "Desmonta una pieza de equipamiento estándar o equipamiento de recompensa."
+
+msgid "discounts/tooltips/noSaleProfit"
+msgstr "El precio de venta es menor que el normal; podrás comprarlo con un descuento."
+
+msgid "equipmentDemount/confirmation/description"
+msgstr "El equipamiento desmontado se enviará al Depósito."
+
+msgid "equipmentDemount/confirmation/descriptionForInappropriateClass"
+msgstr "¡Atención! Esta pieza de equipamiento cambió su clase en relación al tipo de vehículo actual.\nEsta pieza de equipamiento se puede desmontar de forma gratuita, pero si la desmontas, {red_Open}no podrás{red_Close} volver a montarla en este vehículo."
+
+msgid "equipmentDemount/confirmation/title"
+msgstr "¿Desmontar equipamiento \"%(equipment)s\"?"
+
+msgid "equipmentDemount/confirmationForFitting/title"
+msgstr "¿Quieres desmontar %(equipment)s para montar equipamiento nuevo?"
+
+msgid "equipmentDemount/notEnoughBonds/description"
+msgstr "Consíguelos en batallas o recíbelos como recompensa en distintos eventos del juego."
+
+msgid "equipmentDemount/notEnoughBonds/text"
+msgstr "Bonos insuficientes"
+
+msgid "equipmentDemount/optionFree"
+msgstr "Gratis"
+
+msgid "equipmentDemount/wotPlus"
+msgstr "WoT Plus"
+
+msgid "equipmentDemountFromSlot/confirmation/cancel"
+msgstr "Cancelar"
+
+msgid "equipmentDemountFromSlot/confirmation/description"
+msgstr "Esta copia del equipamiento montado en el conjunto alternativo se puede desmontar gratis."
+
+msgid "equipmentDemountFromSlot/confirmation/submit"
+msgstr "Desmontar"
+
+msgid "equipmentDemountFromSlot/confirmation/title"
+msgstr "¿Quieres desmontar el equipamiento %(equipment)s de este espacio?"
+
+msgid "equipmentDemountFromSlot/confirmationForFitting/title"
+msgstr "¿Quieres desmontar %(equipment)s para montar equipamiento nuevo?"
+
+msgid "equipmentDemountPrice"
+msgstr "Costo de desmonte:"
+
+msgid "equipmentInstall/demount"
+msgstr "%(count)s"
+
+msgid "equipmentInstall/demountNoKitOr"
+msgstr "%(count)s <br /> o %(wotPlus)s"
+
+msgid "equipmentInstall/demountWithKit"
+msgstr "%(count)s o %(countDK)s"
+
+msgid "equipmentInstall/demountWithKitOr"
+msgstr "%(count)s, %(countDK)s <br /> o %(wotPlus)s"
+
+msgid "shop/DemountOptions/bonds"
+msgstr "Se puede desmontar para venderlo o montarlo en otro vehículo por %(count)s. También se puede destruir."
+
+msgid "shop/DemountOptions/common"
+msgstr "Se puede desmontar para venderlo o montarlo en otro vehículo por %(count)s o con un %(iconDK)s kit de desmonte. También se puede destruir."
+
+msgid "storage/description/common"
+msgstr "Desmonta equipamiento estándar o equipamiento de recompensa. Se gasta luego de activarlo."
+
+msgid "storage/userName/common"
+msgstr "Kit de desmonte"
+
+msgid "tooltips:vehicle/action_prc"
+msgstr "Descuento: %(actionPrc)s, costo previo: %(oldPrice)s"
+
+msgid "userName/common"
+msgstr "Kit de desmonte"

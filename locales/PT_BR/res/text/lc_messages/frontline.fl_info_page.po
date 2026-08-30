@@ -1,0 +1,386 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "about/header"
+msgstr "Sobre o Passe de Batalha"
+
+msgid "about/position/header"
+msgstr "Distribuição de Pontos do Passe de Batalha"
+
+msgid "about/position/text"
+msgstr "Após cada batalha, você recebe um número de Pontos do Passe de Batalha que corresponde à sua posição. Você receberá Pontos do Passe de Batalha adicionais se aumentar seu Nível do Linha de Frente."
+
+msgid "about/scores/header"
+msgstr "Pontos do Passe de Batalha"
+
+msgid "about/scores/text"
+msgstr "Uma moeda especial do Passe de Batalha que pode ser recebida nas Batalhas Aleatórias e no modo Linha de Frente. Os Pontos do Passe de Batalha são concedidos por alcançar os níveis do Linha de Frente e sua posição nos resultados da batalha. Os veículos do Linha de Frente não têm limite no número de pontos que podem ganhar."
+
+msgid "about/scoresTable/loseHeader"
+msgstr "Derrota"
+
+msgid "about/scoresTable/topCell"
+msgstr "Entre os {{top}} melhores por XP recebida"
+
+msgid "about/scoresTable/winHeader"
+msgstr "Vitória"
+
+msgid "about/text"
+msgstr "O Passe de Batalha é um evento longo no qual os jogadores progridem de Estágio a Estágio ganhando Pontos do Passe de Batalha. Cada Estágio concluído fornece recompensas valiosas para eles. Ao completar certos Estágios, os jogadores podem receber Tokens do Passe de Batalha — uma moeda especial que pode ser usada para comprar veículos exclusivos e outras recompensas valiosas na seção correspondente da Loja."
+
+msgid "addons/cellRent/header"
+msgstr "Veículo de Aluguel"
+
+msgid "addons/cellRent/text_10"
+msgstr "Existem vários veículos diferentes de Nível {{vehiclesLevel}} disponíveis para você alugar por créditos. Tripulantes de veículos do mesmo tipo e nação podem ser transferidos sem penalidades ou retreinamento."
+
+msgid "addons/cellRent/text_9"
+msgstr "Existem vários veículos diferentes de Nível {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} disponíveis para você alugar por créditos. Tripulantes de veículos do mesmo tipo e nação podem ser transferidos sem penalidades ou retreinamento."
+
+msgid "addons/cellSpectator/header"
+msgstr "Modo Espectador"
+
+msgid "addons/cellSpectator/text"
+msgstr "Enquanto espera pelo respawn, você pode entrar no modo Espectador e estudar melhor o campo de batalha para reformular sua estratégia."
+
+msgid "addons/cellTime/header"
+msgstr "Tempo Adicional"
+
+msgid "addons/cellTime/text"
+msgstr "Se uma base estiver sendo capturada quando o tempo da batalha terminar, sua equipe vai ganhar um tempo adicional. Se a equipe defensora interromper a captura de sua base, o tempo adicional cai para zero."
+
+msgid "addons/header"
+msgstr "Informação Adicional"
+
+msgid "levelUp/sectionHeader"
+msgstr "Veículos de Nível {{level}}"
+
+msgid "levelUp/text"
+msgstr "Assim como antes, você pode jogar apenas com veículos de Nível {{vehiclesLevelFrom}}, mas veículos de Nível {{vehiclesLevelTo}} também podem ser preparados na sua Garagem. Assim que qualquer base da segunda linha (D, E e F) for capturada, ambas equipes poderão jogar com seus veículos de Nível {{vehiclesLevelTo}}."
+
+msgid "main/cellDuration/header"
+msgstr "Duração"
+
+msgid "main/cellDuration/text"
+msgstr "O Linha de Frente vai ter duração de {{@ colorLegacy 'FFE4C0'}}{{days}}{{/}}. A data para a próxima iteração será anunciada separadamente."
+
+msgid "main/cellFrontline/header"
+msgstr "Linha de Frente"
+
+msgid "main/cellFrontline/text_8"
+msgstr "Batalhas massivas de 30x30 em veículos de Nível {{vehiclesLevel}} nos mapas {{@ colorLegacy 'FFE4C0'}}Normandia, Kraftwerk{{/}} e {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Os atacantes precisam destruir 3 dos cinco canhões de calibre grande, enquanto os defensores devem protegê-los."
+
+msgid "main/cellFrontline/text_9"
+msgstr "Batalhas massivas de 30x30 em veículos de Nível {{vehiclesLevelFrom}}-{{vehiclesLevelTo}} nos mapas {{@ colorLegacy 'FFE4C0'}}Normandia, Kraftwerk{{/}} e {{@ colorLegacy 'FFE4C0'}}Fata Morgana{{/}}. Os atacantes precisam destruir 3 dos cinco canhões de calibre grande, enquanto os defensores devem protegê-los."
+
+msgid "main/cellLevel9/header"
+msgstr "Veículos de Nível {{vehiclesLevel}}"
+
+msgid "main/cellLevel9/text"
+msgstr "Após uma das bases da segunda linha (D, E, ou F) ser capturada, você vai poder entrar em batalha com um veículo de Nível {{vehiclesLevel}}."
+
+msgid "main/cellLevels/header"
+msgstr "Veículos de Nível {{vehiclesLevel}}"
+
+msgid "main/cellLevels/text_8"
+msgstr "Apenas veículos de Nível {{@ colorLegacy 'FFE4C0'}}{{vehiclesLevel}}{{/}} estão disponíveis no modo."
+
+msgid "main/cellLevels/text_9"
+msgstr "Apenas veículos de Nível {{vehiclesLevel}} podem entrar em batalha."
+
+msgid "main/cellPass/header"
+msgstr "Passe de Batalha"
+
+msgid "main/cellPass/text"
+msgstr "O Linha de Frente é uma grande oportunidade de ganhar Pontos do Passe de Batalha por participar de batalhas e alcançar novos Níveis no Linha de Frente."
+
+msgid "main/cellReserves/header"
+msgstr "Categorias das Reservas de Combate"
+
+msgid "main/cellReserves/text"
+msgstr "Existem três categorias de Reserva de Combate, cada uma vinculada a uma vaga específica. A ordem do seu desbloqueio e melhoria depende do tipo de veículo."
+
+msgid "main/cellScenarios/header"
+msgstr "Cenários"
+
+msgid "main/cellScenarios/text"
+msgstr "As batalhas no modo Linha de Frente usam um dos seguintes cenários: {{@ colorLegacy 'FFE4C0'}}Batalha Padrão{{/}}, {{@ colorLegacy 'FFE4C0'}}Suporte Operacional{{/}}, ou {{@ colorLegacy 'FFE4C0'}}Reviravolta do Destino{{/}}. As informações sobre o cenário de batalha atual são exibidas na tela de carregamento, durante a contagem pré-batalha ou ao pressionar a tecla Tab."
+
+msgid "main/sectionHeader"
+msgstr "Informação Geral"
+
+msgid "page/backBtn"
+msgstr "VOLTAR"
+
+msgid "page/headerUpper"
+msgstr "LINHA DE FRENTE"
+
+msgid "percentValue"
+msgstr "{{value}}%"
+
+msgid "plusPercentValue"
+msgstr "+{{value}}%"
+
+msgid "plusValue"
+msgstr "+{{value}}"
+
+msgid "progression/levelsSection/experienceText"
+msgstr "Dependendo do rank que você alcançar, será possível receber XP do Linha de Frente além de XP de Combate. A XP do Linha de Frente é usada para aumentar seu Nível do Linha de Frente. No total, existem {{@ colorLegacy 'FFE4C0'}}20 Níveis{{/}}."
+
+msgid "progression/levelsSection/header"
+msgstr "Níveis do Linha de Frente"
+
+msgid "progression/levelsSection/rewardsText"
+msgstr "Os {{@ colorLegacy 'FFE4C0'}}Níveis do Linha de Frente{{/}} fornecem Pontos do Passe de Batalha, Pontos de Reserva de Combate, títulos, diretivas, Ordens de Retreinamento, Cursos de Mentoria e Livros da Tripulação."
+
+msgid "progression/levelsSection/rewardsTextNoBP"
+msgstr "Os {{@ colorLegacy 'FFE4C0'}}Níveis do Linha de Frente{{/}} fornecem Pontos de Reserva de Combate, títulos, diretivas, Ordens de Retreinamento, e Livros da Tripulação."
+
+msgid "progression/ranksSection/experience"
+msgstr "{{@ colorLegacy 'FFE4C0'}}Os Ranks{{/}} não afetam apenas sua efetividade em uma batalha específica, mas também fornecem um bônus na XP de Combate como resultado. Este bônus é aplicado na experiência base total recebida em todos os seus veículos que foram usados na batalha. Quando você ou seus aliados atingirem o rank General, toda a equipe recebe um bônus na performance da tripulação (nível principal de qualificação) de {{@ colorLegacy 'FFE4C0'}}1.5%{{/}} para {{@ colorLegacy 'FFE4C0'}}15%{{/}}."
+
+msgid "progression/ranksSection/header"
+msgstr "Ranks"
+
+msgid "progression/ranksSection/text"
+msgstr "O modo tem um sistema de seis ranks, onde os jogadores progridem do rank \"Soldado\" até o rank \"General\". Você será promovido por desempenho efetivo em batalha (capturando ou defendendo bases; destruindo objetivos principais) e ganhando experiência. A XP total recebida em todos os veículos que você jogou é contada."
+
+msgid "progression/ranksTable/bonusCell"
+msgstr "Bônus para a XP de Combate"
+
+msgid "progression/ranksTable/captain"
+msgstr "Capitão"
+
+msgid "progression/ranksTable/crewBonusCell"
+msgstr "Bônus para Performance da Tripulação"
+
+msgid "progression/ranksTable/frontExperienceCell"
+msgstr "Experiência da Linha da Frente"
+
+msgid "progression/ranksTable/general"
+msgstr "General"
+
+msgid "progression/ranksTable/lieutenant"
+msgstr "Tenente"
+
+msgid "progression/ranksTable/major"
+msgstr "Major"
+
+msgid "progression/ranksTable/private"
+msgstr "Soldado"
+
+msgid "progression/ranksTable/sergeant"
+msgstr "Sargento"
+
+msgid "progression/sectionHeader"
+msgstr "Progressão no Linha de Frente"
+
+msgid "progression/text"
+msgstr "Ao jogar este modo, você vai aumentar seu rank, avançar na Progressão do Linha de Frente e ganhar recompensas."
+
+msgid "reserveCategories/categories/additional"
+msgstr "Secundário"
+
+msgid "reserveCategories/categories/cell_1"
+msgstr "Vaga da Reserva 1"
+
+msgid "reserveCategories/categories/cell_2"
+msgstr "Vaga da Reserva 2"
+
+msgid "reserveCategories/categories/cell_3"
+msgstr "Vaga da Reserva 3"
+
+msgid "reserveCategories/categories/main"
+msgstr "Primário"
+
+msgid "reserveCategories/categories/support"
+msgstr "Auxiliar"
+
+msgid "reserveCategories/config/footerText"
+msgstr "No cenário {{@ colorLegacy 'FFE4C0'}}Reviravolta do Destino{{/}}, a ordem em que as Reservas de Combate são desbloqueadas não depende do tipo do veículo."
+
+msgid "reserveCategories/config/header"
+msgstr "Configurações das Reservas por Tipo de Veículo"
+
+msgid "reserveCategories/config/text"
+msgstr "Nos cenários {{@ colorLegacy 'FFE4C0'}}Batalha Padrão{{/}} e {{@ colorLegacy 'FFE4C0'}}Suporte Operacional{{/}}, todas as três vagas das Reservas de Combate estão disponíveis para todos os tipos de veículos. Entretanto, a ordem em que elas são desbloqueadas depende do tipo do veículo."
+
+msgid "reserveCategories/config/vehicles/destroyer"
+msgstr "Caça-Tanques"
+
+msgid "reserveCategories/config/vehicles/heavy"
+msgstr "Tanques Pesados"
+
+msgid "reserveCategories/config/vehicles/light"
+msgstr "Tanques Leves"
+
+msgid "reserveCategories/config/vehicles/middle"
+msgstr "Tanques Médios"
+
+msgid "reserveCategories/config/vehicles/selfPropelled"
+msgstr "Artilharias"
+
+msgid "reserveCategories/levelUpNote"
+msgstr "* O aprimoramento deste nível está disponível apenas para as Reservas de Combate {{@ colorLegacy 'FFE4C0'}}compradas{{/}} no cenário {{@ colorLegacy 'FFE4C0'}}Reviravolta do Destino{{/}}."
+
+msgid "reserveCategories/levels/header"
+msgstr "Como Desbloquear Vagas e Melhorar as Reservas de Combate"
+
+msgid "reserveCategories/levels/text"
+msgstr "Uma Reserva de Combate fica disponível para você por padrão. Outras desbloqueiam após alcançar os ranks Sargento e Tenente. Todas as três Reservas vão ser aprimoradas após alcançar os ranks Capitão e Major."
+
+msgid "reserveCategories/progression/tableCell"
+msgstr "{{@ colorLegacy 'FFE4C0'}}{{level}}{{/}} ou {{@ colorLegacy 'FFE4C0'}}{{levelNext}}*{{/}} Nível"
+
+msgid "reserveCategories/ranks/captain"
+msgstr "Capitão"
+
+msgid "reserveCategories/ranks/general"
+msgstr "General"
+
+msgid "reserveCategories/ranks/lieutenant"
+msgstr "Tenente"
+
+msgid "reserveCategories/ranks/major"
+msgstr "Major"
+
+msgid "reserveCategories/ranks/sergeant"
+msgstr "Sargento"
+
+msgid "reserveCategories/ranks/soldier"
+msgstr "Soldado"
+
+msgid "reserveCategories/scenarios/random/header"
+msgstr "Reviravolta do Destino"
+
+msgid "reserveCategories/scenarios/random/text"
+msgstr "Durante a batalha, os jogadores podem escolher entre Reservas aleatórias que estão disponíveis para todos os tipos de veículos. Colocar uma Reserva em uma vaga antes da batalha aumenta a chance de obtê-la na batalha em {{@ colorLegacy 'FFE4C0'}}10%{{/}}. Comprar uma Reserva aumenta seu Nível para {{@ colorLegacy 'FFE4C0'}}II{{/}} e fornece a oportunidade de melhorá-la para o Nível {{@ colorLegacy 'FFE4C0'}}IV{{/}}."
+
+msgid "reserveCategories/scenarios/sectionHeader"
+msgstr "Cenários do Linha de Frente"
+
+msgid "reserveCategories/scenarios/standard/header"
+msgstr "Batalha Padrão"
+
+msgid "reserveCategories/scenarios/standard/text"
+msgstr "As Regras Padrões do Linha de Frente estão habilitadas. As condições para usar as Reservas de Combate continuam as mesmas."
+
+msgid "reserveCategories/scenarios/support/header"
+msgstr "Suporte Operacional"
+
+msgid "reserveCategories/scenarios/support/list/reserveOpen"
+msgstr "Pós desbloquear um Reserva: {{@ colorLegacy 'FFE4C0'}}-50%{{/}}"
+
+msgid "reserveCategories/scenarios/support/list/respawn"
+msgstr "Após voltar para a batalha: {{@ colorLegacy 'FFE4C0'}}-70%{{/}}"
+
+msgid "reserveCategories/scenarios/support/text"
+msgstr "Um cenário mais rápido com tempo de recarga das Reservas de Combate reduzido."
+
+msgid "reserveCategories/scenarios/text"
+msgstr "As batalhas no modo Linha de Frente usam um dos seguintes cenários: {{@ colorLegacy 'FFE4C0'}}Batalha Padrão{{/}}, {{@ colorLegacy 'FFE4C0'}}Suporte Operacional{{/}}, ou {{@ colorLegacy 'FFE4C0'}}Reviravolta do Destino{{/}}. Os cenários mudam as condições para usar as Reservas de Combate nas batalhas. As informações sobre o cenário de batalha atual são exibidas na tela de carregamento, durante a contagem pré-batalha ou ao pressionar a tecla Tab."
+
+msgid "reserveCategories/sectionHeader"
+msgstr "Categorias das Reservas de Combate"
+
+msgid "reserveCategories/text"
+msgstr "As Reservas de Combate são divididas em três categorias e cada uma delas contém três reservas. Ao entrar em uma batalha, você pode colocar apenas uma reserva de uma categoria na vaga correspondente."
+
+msgid "reserveCategories/types/firesupport"
+msgstr "Reservas de Ataque"
+
+msgid "reserveCategories/types/reconnaissance"
+msgstr "Reservas de Reconhecimento"
+
+msgid "reserveCategories/types/tactics"
+msgstr "Reservas Táticas"
+
+msgid "reserves/sectionHeader"
+msgstr "Reservas Rápidas"
+
+msgid "reserves/sectionInitialTime/header"
+msgstr "Começando"
+
+msgid "reserves/sectionInitialTime/text"
+msgstr "O tempo de preparação das Reservas de Combate é reduzido em 50% no começo da batalha."
+
+msgid "reserves/sectionReload/header"
+msgstr "Disponível Instantaneamente"
+
+msgid "reserves/sectionReload/text"
+msgstr "As Reservas de Combate estarão prontas para uso assim que forem desbloqueadas."
+
+msgid "reserves/sectionSecondBreath/header"
+msgstr "Segundo Fôlego"
+
+msgid "reserves/sectionSecondBreath/text"
+msgstr "O tempo de preparação das Reservas de Combate é reduzido em 70% ao voltar com um novo veículo para a batalha."
+
+msgid "rules/backToFight/header"
+msgstr "Voltando para a Batalha"
+
+msgid "rules/backToFight/text"
+msgstr "Se o seu veículo for destruído, selecione qualquer outro veículo disponível e volte ao campo de batalha para continuar lutando pela vitória. Você pode selecionar uma das várias áreas de inserção (pontos de respawn) nos flancos, bem como na retaguarda, o que o ajudará a determinar seu plano de batalha. Os jogadores defensores têm uma seleção mais ampla de pontos de respawn atrás de suas linhas para escolher, o que significa que eles podem se reunir em defesa dos canhões de grande calibre em caso de um avanço repentino. O sistema também possui um indicador especial que avisa os jogadores se a área selecionada for perigosa naquele momento."
+
+msgid "rules/base/header"
+msgstr "Captura de Base"
+
+msgid "rules/base/textBottom"
+msgstr "Danificar um veículo - ou seus módulos - no processo de captura de uma base não zera o progresso da captura. O progresso da captura somente é temporariamente interrompido. Para zerar o progresso da captura, os defensores devem destruir qualquer veículo inimigo no círculo base ou forçá-los a deixar a base. A equipe defensora não pode recuperar uma base depois de ter sido tomada pelos atacantes."
+
+msgid "rules/base/textTop"
+msgstr "A {FFE4C0_Start}equipe de ataque{FFE4C0_End} tem que capturar as bases em sequência para alcançar os objetivos principais. Cada base capturada adiciona 2 minutos de duração ao tempo de batalha. Capturar a última concede 4 minutos."
+
+msgid "rules/sectionHeader"
+msgstr "Regras Gerais"
+
+msgid "rules/service/header"
+msgstr "Círculos de Abastecimento"
+
+msgid "rules/service/text"
+msgstr "Os Círculos de Abastecimento restauram os pontos de vida dos veículos, curam todos os tripulantes feridos, e reabastecem a munição. {FFE4C0_Start}A taxa de reabastecimento é a seguinte: 100 pontos de vida / um tripulante / 10%{FFE4C0_End} de munição por segundo."
+
+msgid "rules/weapons/header"
+msgstr "Objetivo: 3 dos 5 Canhões de Calibre Grande"
+
+msgid "rules/weapons/list/back"
+msgstr "Blindagem traseira: {{@ colorLegacy 'FFE4C0'}}90 mm.{{/}}"
+
+msgid "rules/weapons/list/roof"
+msgstr "O teto e a blindagem frontal {{@ colorLegacy 'FFE4C0'}}não podem ser penetrados{{/}} por projéteis."
+
+msgid "rules/weapons/list/sides"
+msgstr "Blindagem lateral: {{@ colorLegacy 'FFE4C0'}}180 mm.{{/}}"
+
+msgid "rules/weapons/list/sides_9"
+msgstr "Blindagem lateral: {{@ colorLegacy 'FFE4C0'}}210 mm.{{/}}"
+
+msgid "rules/weapons/list/vulnerable"
+msgstr "Pontos vulneráveis: {{@ colorLegacy 'FFE4C0'}}porta (70 mm) e ventilação (25 mm).{{/}}"
+
+msgid "rules/weapons/text"
+msgstr "Existem cinco torres localizadas no fim das linhas defensivas do território inimigo, e elas são os objetivos principais da batalha. A equipe atacante deve destruir 3 torres, enquanto que os defensores devem protegê-las a todo custo."
+
+msgid "subTitle/differentMonth"
+msgstr "entre {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}{{/}} e {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}{{/}}"
+
+msgid "subTitle/differentYears"
+msgstr "entre {{@ colorLegacy 'FFE4C0'}}{{startMonth}} {{from}}, {{startYear}},{{/}} e {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{to}}, {{endYear}}{{/}}"
+
+msgid "subTitle/sameMonth"
+msgstr "entre {{@ colorLegacy 'FFE4C0'}}{{endMonth}} {{from}}{{/}} e {{@ colorLegacy 'FFE4C0'}}{{to}}{{/}}"
+
+msgid "winStrategy/firstLine"
+msgstr "Os setores A, B e C {{@ colorLegacy 'FFE4C0'}}na primeira linha{{/}} são os pontos de partidas para as duas equipes."
+
+msgid "winStrategy/header"
+msgstr "Estratégia Vencedora"
+
+msgid "winStrategy/mapZones"
+msgstr "Esse modo de mapa tem três linhas de defesa horizontais:"
+
+msgid "winStrategy/secondLine"
+msgstr "Quando os setores da primeira linha são capturados, a batalha prossegue para os setores D, E e F {{@ colorLegacy 'FFE4C0'}}na segunda linha{{/}}."
+
+msgid "winStrategy/thirdLine"
+msgstr "{{@ colorLegacy 'FFE4C0'}}A terceira linha{{/}} não é dividida em setores; é a área onde o último estágio da batalha se conclui. Os canhões de grande calibre estão localizados ali, e ao serem destruídos, a equipe atacante vence a batalha. Os atacantes ganham acesso aos objetivos principais apenas depois que eles conseguirem capturar pelo menos um setor na segunda linha. Assim que um setor for perdido, os defensores tem 1 minuto para sair do setor atual antes que ele seja bombardeado. Qualquer defensor que permanecer neste setor será destruído por um ataque aéreo. Qualquer atacante que tentar cruzar os setores na segunda ou terceira linha sem capturar o setor anterior também será destruído por um ataque aéreo."

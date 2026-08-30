@@ -1,0 +1,111 @@
+from __future__ import absolute_import
+from typing import Dict, Optional
+from copy import deepcopy
+from future.utils import viewitems, viewvalues
+from items import vehicles
+from constants import CUSTOMIZATION_PROGRESS_PREFIX as PREFIX, EVENT_TYPE
+from items.components.c11n_components import CustomizationType, QuestProgressForCustomization as qpc
+SEPARATOR = b'_'
+TEMPLATE = PREFIX + SEPARATOR.join([b'{styleId}', b'{groupID}'])
+
+def validateToken(token):
+    if not token.startswith(PREFIX):
+        return False
+    words = token[len(PREFIX):].split(SEPARATOR)
+    if len([int(x) for x in words if x.isdigit()]) != 2:
+        return False
+    return True
+
+
+def serializeToken(styleId, group):
+    return TEMPLATE.format(styleId=styleId, groupID=group)
+
+
+def deserializeToken(token):
+    ws = token[len(PREFIX):].split(SEPARATOR)
+    return (int(ws[0]), int(ws[1]))
+
+
+def validateCustomizationQuestToken(id, token):
+    if validateToken(id):
+        if token[b'count'] > 0 and not (b'limit' in token and token[b'limit'] == token[b'count']):
+            return (False, (b'Use limits equale count for token: {}, count {}').format(id, token[b'count']))
+        styleId, _ = deserializeToken(id)
+        questStyles = vehicles.g_cache.customization20().getQuestProgressionStyles()
+        if styleId not in questStyles:
+            return (False, (b'Invalid styleId token format: {}').format(id))
+        if id not in questStyles[styleId].questsProgression.getGroupTokens():
+            return (False, (b'Invalid groupId token format: {}').format(id))
+    return (
+     True, b'')
+
+
+class CustQuestsCache(object):
+    __slots__ = (b'_groupByToken',)
+
+    def __init__(self, groupByToken=None):
+        if groupByToken is None:
+            self._groupByToken = groupByToken = {}
+            cache = vehicles.g_cache.customization20()
+            for style in viewvalues(cache.getQuestProgressionStyles()):
+                qp = style.questsProgression
+                for tokenId in qp.getGroupTokens():
+                    groupByToken[tokenId] = [{b'finishTime': finishTime, b'questIds': {et: [] for et in EVENT_TYPE.QUEST_USE_FOR_C11N_PROGRESS}} for finishTime in qp.getFinishTimes(tokenId)]
+
+        else:
+            self._groupByToken = groupByToken
+        return
+
+    def addQuest(self, et, quest):
+        if et not in EVENT_TYPE.QUEST_USE_FOR_C11N_PROGRESS:
+            return
+        cache = vehicles.g_cache.customization20()
+        groupByToken = self._groupByToken
+        for tokenId, info in viewitems(quest[b'bonus'].get(b'tokens', {})):
+            if validateToken(tokenId):
+                styleId, _ = deserializeToken(tokenId)
+                if tokenId not in groupByToken:
+                    continue
+                qp = cache.itemTypes[CustomizationType.STYLE][styleId].questsProgression
+                level = qp.getLevel(tokenId, info[b'count'])
+                groupByToken[tokenId][level][b'questIds'][et].append(quest[b'info'][b'id'])
+
+        return
+
+    def setFinishTime(self, tokenId, level, finishTime):
+        if tokenId in self._groupByToken:
+            levels = self._groupByToken[tokenId]
+            if -1 < level < len(levels):
+                levels[level][b'finishTime'] = finishTime
+        return
+
+    def __iter__(self):
+        for token, levels in viewitems(self._groupByToken):
+            for i, level in enumerate(levels):
+                for et, questIds in viewitems(level[b'questIds']):
+                    for id in questIds:
+                        yield (
+                         token, i, et, level[b'finishTime'], id)
+
+        return
+
+    def asDict(self):
+        return self._groupByToken
+
+    def copy(self):
+        return CustQuestsCache(deepcopy(self._groupByToken))
+
+    def updateQuests(self, custQuestCache):
+        groupByToken = self._groupByToken
+        for tokenId, levelsCombine in viewitems(custQuestCache.asDict()):
+            if tokenId not in groupByToken:
+                groupByToken[tokenId] = deepcopy(levelsCombine)
+                continue
+            for level, info in enumerate(levelsCombine):
+                destination = groupByToken[tokenId][level]
+                for et in EVENT_TYPE.QUEST_USE_FOR_C11N_PROGRESS:
+                    questIds = info[b'questIds'][et]
+                    if questIds:
+                        destination[b'questIds'][et] = deepcopy(questIds)
+
+        return

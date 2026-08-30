@@ -1,0 +1,123 @@
+import typing, game_loading_bindings
+from frameworks.state_machine import StateFlags
+from gui.game_loading import loggers
+from gui.game_loading.resources.consts import InfoStyles
+from gui.game_loading.state_machine.const import TickingMode
+from gui.game_loading.state_machine.models import ImageViewSettingsModel
+from gui.game_loading.state_machine.states.base import BaseViewResourcesTickingState, BaseState
+from gui.impl.utils.path import normalizeGfImagePath
+if typing.TYPE_CHECKING:
+    from frameworks.state_machine import StateEvent
+    from gui.game_loading.resources.models import LocalImageModel
+    from gui.game_loading.resources.base import BaseResources
+_logger = loggers.getStatesLogger()
+
+def _showImage(image, settings):
+    imagePath = normalizeGfImagePath(image.imageRelativePath)
+    if not imagePath:
+        _logger.warning(b'Broken image path: %s.', imagePath)
+        return
+    if not game_loading_bindings.isViewOpened():
+        _logger.debug(b'Opening GF view.')
+        game_loading_bindings.createLoadingView()
+    data = {b'backgroundPath': imagePath, 
+       b'text': (image.localizationText or b''), 
+       b'description': (image.descriptionText or b''), 
+       b'contentState': (settings.contentState), 
+       b'transitionTime': (image.transition), 
+       b'ageRatingPath': (settings.ageRatingPath), 
+       b'info': (settings.info), 
+       b'infoStyle': (InfoStyles.DEFAULT.value), 
+       b'showSmallLogo': (settings.showSmallLogo)}
+    game_loading_bindings.setViewData(data)
+    _logger.debug(b'Image [%s] shown.', image)
+    return
+
+
+class StaticSlideState(BaseState):
+    __slots__ = (b'_images', b'_image', b'_imageViewSettings')
+
+    def __init__(self, stateID, images, imageViewSettings, flags=StateFlags.UNDEFINED):
+        super(StaticSlideState, self).__init__(stateID=stateID, flags=flags)
+        self._images = images
+        self._image = None
+        self._imageViewSettings = imageViewSettings
+        return
+
+    @property
+    def lastShownImage(self):
+        return self._image
+
+    @property
+    def timeLeft(self):
+        return 0.0
+
+    def setImage(self, image):
+        self._image = image
+        _logger.debug(b'[%s] image [%s] set.', self, image)
+        return
+
+    def _onEntered(self, event):
+        super(StaticSlideState, self)._onEntered(event)
+        self._image = self._image or self._images.get()
+        _showImage(self._image, self._imageViewSettings)
+        return
+
+    def _onExited(self):
+        self._images.reset()
+        super(StaticSlideState, self)._onExited()
+        return
+
+
+class SlideState(BaseViewResourcesTickingState):
+    __slots__ = (b'_firstImageToShow', b'_firstShownImage', b'_lastShownImage', b'_imageViewSettings', b'_startFromFirstShownImage')
+
+    def __init__(self, stateID, images, imageViewSettings, flags=StateFlags.UNDEFINED, tickingMode=TickingMode.MANUAL, onCompleteEvent=None, startFromFirstShownImage=False):
+        super(SlideState, self).__init__(stateID=stateID, resources=images, flags=flags, tickingMode=tickingMode, minDurationEventTime=imageViewSettings.minimalDuration, onCompleteEvent=onCompleteEvent)
+        self._startFromFirstShownImage = startFromFirstShownImage
+        self._lastShownImage = None
+        self._firstShownImage = None
+        self._firstImageToShow = None
+        self._imageViewSettings = imageViewSettings
+        return
+
+    @property
+    def lastShownImage(self):
+        return self._lastShownImage
+
+    def setImage(self, image):
+        self._firstImageToShow = image
+        _logger.debug(b'[%s] image [%s] set.', self, image)
+        return
+
+    def _stop(self):
+        if self._startFromFirstShownImage:
+            self.setImage(self._firstShownImage)
+        super(SlideState, self)._stop()
+        return
+
+    def _selectResource(self):
+        if not self._firstImageToShow:
+            return super(SlideState, self)._selectResource()
+        else:
+            image = self._firstImageToShow
+            self._firstImageToShow = None
+            _logger.debug(b'[%s] first image to show selected <%s>.', self, image)
+            return image
+
+    def _beforeView(self):
+        self._resetWaiting()
+        super(SlideState, self)._beforeView()
+        return
+
+    def _view(self, image):
+        if not self._firstShownImage:
+            self._firstShownImage = image
+        self._lastShownImage = image
+        _showImage(image, self._imageViewSettings)
+        return
+
+    def _onMinDurationTimeReached(self):
+        self._releaseWaiting()
+        super(SlideState, self)._onMinDurationTimeReached()
+        return

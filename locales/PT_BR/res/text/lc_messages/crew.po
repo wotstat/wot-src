@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Aumentar"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Dispense os Não Treinados"
+
+msgid "barracks/bunks/title"
+msgstr "Beliches:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Especifique a quantidade de beliches para compra. Beliches disponíveis no Quartel: %(freeBunksCount)s / %(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Preço com Desconto"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Novo preço: %(currency)s por %(bunksCount)s beliche"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Preço anterior: %(currency)s por %(bunksCount)s beliche"
+
+msgid "barracks/enlarge/header"
+msgstr "Aumentar o Quartel?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "Os tripulantes sem treinamento que estão no seu Quartel e possuem menos de {whiteSpanish_Open}210.060{whiteSpanish_Close}{icon} XP necessária para treinar sua primeira habilidade em {whiteSpanish_Open}100%{whiteSpanish_Close} podem ser dispensados."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Tripulantes Não Treinados"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "Você não possui tripulantes não treinados"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Não haverá compensação por dispensar tripulantes não treinados. Eles não poderão ser recuperados assim que forem dispensados, e toda a XP deles será perdida."
+
+msgid "barracks/title"
+msgstr "QUARTEL"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Clique para aumentar o Quartel."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Aumentar Quartel"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Local"
+
+msgid "common/imageNotAvailable"
+msgstr "Imagem Não Disponível"
+
+msgid "common/inBarracks"
+msgstr "No Quartel"
+
+msgid "common/inBattle"
+msgstr "Em Batalha"
+
+msgid "common/inPrebattle"
+msgstr "Em Unidade Tática"
+
+msgid "common/navigation/aboutCrew"
+msgstr "SOBRE A TRIPULAÇÃO"
+
+msgid "common/navigation/toBarracks"
+msgstr "ACESSAR QUARTEL"
+
+msgid "common/navigation/toGarage"
+msgstr "ACESSAR GARAGEM"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "ACESSAR PERFIL"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Afirmativo!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Seus tripulantes foram convertidos em Livros da Tripulação"
+
+msgid "conversionAwards/title"
+msgstr "CONVERSÃO BEM SUCEDIDA"
+
+msgid "conversionAwards/underTitle"
+msgstr "Os itens a seguir foram adicionados na sua conta."
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Cancelar"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Dispensar"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Tripulantes para serem dispensados: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Dispensar tripulantes não treinados?"
+
+msgid "conversionConfirm/warning"
+msgstr "Não haverá compensação por dispensar tripulantes não treinados. Eles não poderão ser recuperados assim que forem dispensados, e toda a XP deles será perdida."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Selecionar Habilidades Automaticamente"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "Não existe tripulantes com habilidades não treinadas."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Falha ao Selecionar Habilidades Automaticamente"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Todas as habilidades não treinadas marcadas com um + serão substituídas por habilidades selecionadas automaticamente com uma lógica especial para todos os tripulantes."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Selecionar Habilidades Não Treinadas Automaticamente Para Todos"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Reiniciar Habilidades Para Todos"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "Não há tripulantes com habilidades treinadas."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Falha ao Reiniciar Habilidades"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Todas as habilidades serão reiniciadas para todos os tripulantes na sua conta. Esta operação não pode ser desfeita."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Reiniciar Habilidades Para Todos"
+
+msgid "crewBanner/infoText"
+msgstr "Redefinição gratuita das habilidades ou seleção automática das habilidades não treinadas para todos os tripulantes na sua conta"
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Acelera o Treinamento da Tripulação quando habilitado"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Bônus de Eficiência: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Eficiência da habilidade"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "As habilidades não estão disponíveis porque este tripulante não está treinado para este veículo."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Especialização:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Habilidades Indisponíveis"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Habilidades bônus:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Habilidades de qualificação principal:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(China)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Checoslováquia)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(França)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Alemanha)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Itália)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Japão)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Polônia)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Suécia)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Reino Unido)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(E.U.A.)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(U.R.S.S.)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Todos os caça-tanques Premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Todas as artilharias Premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Todos os tanques pesados Premium\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Todos os tanques leves Premium {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Todos os tanques médios Premium\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Detalhes"
+
+msgid "filter/group/details/title"
+msgstr "Detalhes"
+
+msgid "filter/group/nation/title"
+msgstr "Nação"
+
+msgid "filter/group/other/title"
+msgstr "Outro"
+
+msgid "filter/group/special/title"
+msgstr "Especial"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Qualificação"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Nível"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Nível"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Especialização"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Tipo do Veículo"
+
+msgid "filter/popup/button/title"
+msgstr "Filtro"
+
+msgid "filter/popup/default/title"
+msgstr "Filtro"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Filtrar por Nação "
+
+msgid "filter/popup/tankChange/title"
+msgstr "Filtrar por Veículos"
+
+msgid "filter/reset"
+msgstr "Resetar Filtro"
+
+msgid "filter/search/placeholder"
+msgstr "Buscar por nome"
+
+msgid "filter/search/tooltip/header"
+msgstr "Buscar por Nome"
+
+msgid "filter/title"
+msgstr "Exibido:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Exibir/ocultar tripulantes em veículos com todos os módulos disponíveis e ramos tecnológicos pesquisados."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Veículos Elite"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Exibir/ocultar tripulantes treinados para veículos Premium."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Veículos Premium"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Exibir/ocultar tripulantes em veículos primários."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Veículos Primários"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Exibir/ocultar tripulantes para este tipo de veículo."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Exibir/ocultar tripulantes desta nação."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Exibir/ocultar skins desta nação."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Exibir/ocultar veículos desta nação."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Exibir/ocultar dispensados."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Dispensados"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Exibir recrutas."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Recrutas"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Exibir tripulantes."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Tripulantes"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Exibir/ocultar tripulantes desta qualificação."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Exibir/ocultar veículos Premium."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Veículos Premium"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Exibir/ocultar veículos deste tipo."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "Caça-Tanques"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "Artilharias"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Tanques Pesados"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Tanques Leves"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Tanques Médios"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Nenhum veículo encontrado\ncom os critérios de busca"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Ordenar por nomes dos veículos."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Nome"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Ordenar por Níveis dos veículos."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Nível"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Ordenar por tipo de veículo."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Tipo"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Nome"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Clique para reiniciar as configurações do filtro."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Reiniciar Todos os Filtros"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Afirmativo!"
+
+msgid "junkTankmen/description"
+msgstr "Esses tripulantes possuem menos de {bond_Open}210.060{bond_Close}{icon} XP necessária para treinar sua primeira habilidade em {whiteSpanish_Open}100%{whiteSpanish_Close}.\nEles serão removidos da sua conta."
+
+msgid "junkTankmen/title"
+msgstr "Dispensar tripulantes não treinados?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Existe um limite de {whiteSpanish_Open}três{whiteSpanish_Close} habilidades para cada qualificação adicional. O acesso à uma nova habilidade bônus vai ficar disponível após alcançar a {whiteSpanish_Open}primeira{whiteSpanish_Close}, {whiteSpanish_Open}terceira{whiteSpanish_Close} e {whiteSpanish_Open}quinta{whiteSpanish_Close} qualificação principal das habilidades."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Habilidades Bônus"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "Ao retreinar um tripulante para outro veículo com um conjunto diferente de qualificações, você poderá escolher as habilidades para a sua nova qualificação adicional."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "As habilidades bônus demoram o dobro de tempo em comparação com as habilidades de qualificação principal."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "Não é necessário XP para treinar as habilidades bônus."
+
+msgid "matrix/freeResetButton"
+msgstr "Redefinição gratuita"
+
+msgid "matrix/increaseButton"
+msgstr "Acelerar Treinamento"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "O tripulante alcançou o limite de treinamento."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Não é possível acelerar o treinamento"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Treinar habilidades usando XP Livre e Livros da Tripulação."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Treinamento Rápido"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Qualificação Incompatível"
+
+msgid "matrix/qualification/1"
+msgstr "Qualificação Principal"
+
+msgid "matrix/qualification/2"
+msgstr "Segunda Qualificação"
+
+msgid "matrix/qualification/3"
+msgstr "Terceira Qualificação"
+
+msgid "matrix/qualification/4"
+msgstr "Quarta Qualificação"
+
+msgid "matrix/qualification/5"
+msgstr "Quinta Qualificação"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "Habilidades zero indisponíveis para segunda qualificação"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "Habilidades zero indisponíveis para terceira qualificação"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "Habilidades zero indisponíveis para quarta qualificação"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Segunda qualificação indisponível para este veículo"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Terceira qualificação indisponível para este veículo"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Quarta qualificação indisponível para este veículo"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Quinta qualificação indisponível para este veículo"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Existe um limite de {whiteSpanish_Open}três{whiteSpanish_Close} habilidades bônus para cada qualificação adicional. Apenas habilidades específicas desta qualificação podem ser selecionadas como habilidades bônus."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "Existe um limite de {whiteSpanish_Open}seis{whiteSpanish_Close} habilidades de qualificação principal (incluindo habilidades zero)."
+
+msgid "matrix/resetButton"
+msgstr "Reiniciar"
+
+msgid "matrix/resetButtonHint"
+msgstr "CLIQUE PARA REDEFINIR AS HABILIDADES"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "Você não possui habilidades treinadas."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Falha ao Reiniciar Habilidades"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Clique para reiniciar as habilidades."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Reiniciar Habilidades"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Habilidade Bônus Disponível Para Treinamento"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "A XP de Tripulação não é necessária para treinar habilidades bônus."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Indisponível"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Desbloqueado ao treinar a terceira habilidade de qualificação principal. Não requer XP."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Desbloqueado ao treinar a quinta habilidade de qualificação principal. Não requer XP."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Nível de treinamento"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "A quantidade total de XP necessária é descontada porque o tripulante possui uma habilidade zero."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "A quantidade total de XP necessária é descontada porque o tripulante possui duas habilidades zero."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Habilidade Disponível Para Treinamento"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Indisponível"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "A habilidade anterior precisa estar treinada em 100%."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "Habilidade Zero Disponível Para Treinamento"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "As habilidades zero sempre são treinadas primeiro, mesmo se várias habilidades forem selecionadas juntas. A XP de tripulação não é necessária para treina-las."
+
+msgid "matrix/skills/allSkills"
+msgstr "Todas as habilidades adicionais treinadas para este veículo"
+
+msgid "matrix/skills/available"
+msgstr "Habilidades disponíveis para treinamento:"
+
+msgid "matrix/skills/bonus"
+msgstr "Habilidades Bônus"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "As habilidades não estão disponíveis"
+
+msgid "matrix/skills/locked"
+msgstr "As habilidades não estão disponíveis"
+
+msgid "matrix/skills/main/disabled"
+msgstr "Todas as habilidades estão desabilitadas para este veículo"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Habilidades de Qualificação Principal"
+
+msgid "matrix/skills/reduced"
+msgstr "Eficiência da habilidade reduzida"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Habilidades do Comandante"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Habilidades do Piloto"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Habilidades do Comandante"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Habilidades do Piloto"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Habilidades do Artilheiro"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Habilidades do Municiador"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Habilidades do Operador de Rádio"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Habilidades do Artilheiro"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Habilidades do Municiador"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Habilidades do Operador de Rádio"
+
+msgid "matrix/skills/training"
+msgstr "Treinamento da habilidade"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Zero habilidades disponíveis para treinamento:"
+
+msgid "memberChange/action/recruit"
+msgstr "Recrutar {role}"
+
+msgid "memberChange/discount"
+msgstr "{discountAmount}% DE DESCONTO NA MUDANÇA DE QUALIFICAÇÃO"
+
+msgid "memberChange/title"
+msgstr "SELECIONAR {role}: {vehicle}"
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}No Depósito{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "Após a confirmação, o tripulante que transferir sua XP será removido da sua conta."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Uma Licença de Mentoria permite que você transfira XP de Tripulação de um tripulante para outro tripulante da mesma nação."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Licença de Mentoria"
+
+msgid "personalData/card/edit"
+msgstr "Editar"
+
+msgid "personalData/card/remove"
+msgstr "Remover"
+
+msgid "personalData/card/restrictions"
+msgstr "Restrições: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Clique para substituir o nome e aparência de um tripulante"
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Aparência"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "Este tripulante já possui um nome e aparência únicos."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Falha ao Substituir o Nome e Aparência"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Nada encontrado. Altere as configurações ou redefina o filtro."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Configure a exibição das skins por sua nação."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Filtrar por Parâmetros"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Exibir documentos."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Documentos"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Exibir skins compatíveis."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Skins Compatíveis"
+
+msgid "personalData/filter/type/title"
+msgstr "Tipo"
+
+msgid "personalData/title"
+msgstr "SUBSTITUIR NOME E APARÊNCIA"
+
+msgid "personalFile/changeVehicle"
+msgstr "Trocar"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Falha ao treinar este tripulante para um veículo diferente."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Operação Indisponível"
+
+msgid "personalFile/discount/full"
+msgstr "Desconto disponível para o retreinamento da tripulação"
+
+msgid "personalFile/discount/short"
+msgstr "Desconto disponível"
+
+msgid "personalFile/inVehicle"
+msgstr "No veículo: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Aumentar"
+
+msgid "personalFile/isUntrained"
+msgstr "Não treinado para este veículo"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Todos os {icon} Premium"
+
+msgid "personalFile/retrain"
+msgstr "Retreinar"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Eficiência da habilidade:"
+
+msgid "personalFile/specialization"
+msgstr "Especialização:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Especialização"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Clique para escutar a amostra de dublagem deste Comandante."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Dublagem Exclusiva"
+
+msgid "postProgression/button/claim"
+msgstr "Resgatar Recompensa"
+
+msgid "postProgression/description"
+msgstr "Os tripulantes que possuem todas as seis habilidades de qualificação principal treinadas ganham acesso a Pós-Progressão. A cada 100.000 XP recebida na Pós-Progressão Conjunta, você vai receber um Guia Universal que pode ser usado para treinar outros tripulantes."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "A Pós-Progressão é composta por uma escala unificada para todos os tripulantes com seis habilidades de qualificação principal treinadas por completo na conta de um jogador."
+
+msgid "postProgression/tips/2"
+msgstr "Apenas a XP de Combate é usada na Pós-Progressão. Metade da XP de Combate obtida em batalha por um tripulante é dividida pelo número total de tripulantes no veículo e será adicionada na escala de Pós-Progressão."
+
+msgid "postProgression/tips/3"
+msgstr "Perder XP das habilidades ou na eficiência das habilidades não afeta sua Pós-Progressão."
+
+msgid "postProgression/title"
+msgstr "PÓS-PROGRESSÃO DA TRIPULAÇÃO"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "Todos os tripulantes que tiveram acesso à Pós-Progressão possuem uma baixa eficiência da habilidade."
+
+msgid "postProgression/warning/retire"
+msgstr "Todos os tripulantes que tiveram acesso à Pós-Progressão foram dispensados ou perderam XP da(s) sua(s) última(s) habilidade(s)."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Todos os caça-tanques Premium"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Todas artilharias Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Caça-tanques Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Artilharias Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Tanques pesados Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Tanques leves Premium"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Tanques médio Premium"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Todos tanques pesados Premium"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Todos tanques leves Premium"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Todos tanques médios Premium"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "CONDECORAÇÕES"
+
+msgid "serviceRecord/averageXP"
+msgstr "Experiência Média por Batalha"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Batalhas Disputadas"
+
+msgid "serviceRecord/noAchievements"
+msgstr "Nenhuma realização ou feito heroico nas batalhas."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Taxa do total de pontos de experiência ganhos em relação ao número de batalhas jogadas no veículo ao qual o tripulante foi designado."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Experiência Média por Batalha"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "O rank de um tripulante depende de sua experiência e do número de habilidades treinadas."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Rank"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "O tripulante treinou todas as habilidades para este veículo."
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Habilidades disponíveis para treinamento:"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "Todas as habilidades desabilitadas para este veículo"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "A XP não é necessária para treinar habilidades de qualificação adicionais, que demoram o dobro de tempo em comparação com as de qualificação principal."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Cancelar"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Treinar"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "QUALIFICAÇÃO BÔNUS"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "QUALIFICAÇÃO PRINCIPAL"
+
+msgid "tankChange/title"
+msgstr "TREINAR PARA O VEÍCULO"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Exibir veículos na Garagem."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "Na Garagem"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Configure a exibição dos veículos por tipo e nação."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Filtrar por Parâmetros"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Você não precisa treinar tripulantes para veículos Premium. Você pode transferir tripulantes para um veículo Premium do mesmo tipo sem penalidade."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Veículo Premium"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "O nome do veículo deve conter até %(maxLength)s caracteres."
+
+msgid "tankman/action/dismiss/title"
+msgstr "DISPENSAR"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Dispensar este tripulante."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Falha ao dispensar este tripulante."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Operação Indisponível"
+
+msgid "tankman/action/recruit/title"
+msgstr "RECRUTAR"
+
+msgid "tankman/action/restore/title"
+msgstr "RECUPERAR"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Recuperar este tripulante."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Clique para escutar a amostra de dublagem deste Comandante."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Dublagem Exclusiva"
+
+msgid "tankman/recruit"
+msgstr "Recruta"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Aparência"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Perfil"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Registro de Serviços"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Recruta"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Resetar Filtro"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Nada encontrado. Altere as configurações ou redefina o filtro."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Nada encontrado. Recrute um tripulante."
+
+msgid "tankmanList/filter/title"
+msgstr "Tripulantes:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Beliches insuficientes no Quartel."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Exibir/ocultar apenas tripulantes dispensados."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Dispensados"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Exibir tripulantes no Quartel."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "No Quartel"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Exibir tripulantes em veículos."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "Em Veículos"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Exibir/ocultar skins desta nação."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Configure a exibição de tripulantes por sua qualificação, especialização e outros parâmetros."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Filtrar por Parâmetros"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Recrutar um novo tripulante."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "O nome deve conter até %(maxLength)s caracteres."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Passe o mouse por cima de uma habilidade para ver como ela afeta as características correspondentes, quando for treinada em 100%, em comparação com o nível atual da sua eficiência."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Afirmativo!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Foram introduzidas duas novas habilidades para cada qualificação, a Posicionamento Confiável foi reformulada e agora há uma nova opção para você esconder suas habilidades no HUD da batalha."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Agora uma nova operação conveniente permite que você dispense tripulantes não treinados com apenas um clique."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Agora as habilidades podem ser redefinidas usando apenas créditos, sem perder XP."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Foram adicionadas novas habilidades e recursos, e uma habilidade já existente foi atualizada."
+
+msgid "welcomeScreen/title"
+msgstr "ATUALIZAÇÕES NA TRIPULAÇÃO"

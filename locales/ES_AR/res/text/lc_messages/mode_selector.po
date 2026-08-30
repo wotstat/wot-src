@@ -1,0 +1,278 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "button/progression"
+msgstr "Mostrar progreso"
+
+msgid "button/select"
+msgstr "Configurar"
+
+msgid "event/battlePass/name"
+msgstr "Temporada %(seasonNum)s de Pase de Batalla"
+
+msgid "event/finished"
+msgstr "%(eventName)s\nha terminado"
+
+msgid "event/notStarted"
+msgstr "%(eventName)s\ncomenzará en %(date)s"
+
+msgid "event/paused"
+msgstr "%(eventName)s\nno está disponible temporalmente"
+
+msgid "event/ranked/name"
+msgstr "Temporada %(seasonNum)s"
+
+msgid "hint/showProgression"
+msgstr "VER EN MODO PROGRESO"
+
+msgid "mode/epicBattle/condition"
+msgstr "30 contra 30 &nbsp;{par_open}I{par_close}&nbsp;Niveles&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/conditionSingleLevel"
+msgstr "30 contra 30 &nbsp;{par_open}|{par_close}&nbsp;Nivel&nbsp;%(levels)s"
+
+msgid "mode/epicBattle/cycleNext"
+msgstr "El evento\ncomenzará el %(date)s"
+
+msgid "mode/epicBattle/cycleSoon"
+msgstr "Este modo\ncomenzará pronto"
+
+msgid "mode/epicBattle/description"
+msgstr "Modo con progreso y recompensas."
+
+msgid "mode/epicBattle/seasonEnd"
+msgstr "El evento ha terminado"
+
+msgid "mode/epicQueue/battlePassTooltip/body"
+msgstr "Al luchar en vehículos de niveles VIII en {whiteSpanish_open}Línea del Frente{whiteSpanish_close}, ganarán puntos para avanzar en el progreso de Pase de batalla."
+
+msgid "mode/epicQueue/battlePassTooltip/header"
+msgstr "Puntos de Pase de Batalla"
+
+msgid "mode/mapbox/battlePassTooltip/body"
+msgstr "Al luchar en vehículos de niveles VIII a X en {whiteSpanish_open}Misión de reconocimiento{whiteSpanish_close}, ganarás puntos que te permitirán avanzar en el progreso del Pase de batalla."
+
+msgid "mode/mapbox/battlePassTooltip/header"
+msgstr "Puntos del Pase de batalla"
+
+msgid "mode/mapbox/condition"
+msgstr "15 vs. 15 %(parSecondary_open)sI%(parSecondary_close)s Niveles&nbsp;VIII a X"
+
+msgid "mode/mapbox/description"
+msgstr "Nueva mecánica de mapa."
+
+msgid "mode/mapbox/performance/mediumRisk/description"
+msgstr "Los efectos visuales del clima varían según tu configuración gráfica. Con gráficos bajos, podrías experimentar artefactos y problemas visuales. Recomendamos usar la configuración gráfica más alta para tener una mejor experiencia, siempre y cuando la computadora cumpla los requisitos. El modo exige mucho el rendimiento de la computadora. Los FPS podrían decaer durante un enfrentamiento intenso."
+
+msgid "mode/mapbox/performance/mediumRisk/header"
+msgstr "Configuración gráfica más alta recomendada"
+
+msgid "mode/mapbox/performance/mediumRisk/headerIcon"
+msgstr "%(icon) Configuración gráfica más alta recomendada"
+
+msgid "mode/mapsTraining/callToAction"
+msgstr "Aprende los mapas"
+
+msgid "mode/mapsTraining/description"
+msgstr "Aprende los mapas"
+
+msgid "mode/random/battlePassTooltip/body"
+msgstr "Al luchar en vehículos de nivel IV-XI en {whiteSpanish_open}Batallas Aleatorias{whiteSpanish_close}, ganarás puntos para avanzar en el progreso del Pase de Batalla."
+
+msgid "mode/random/battlePassTooltip/header"
+msgstr "Puntos de Pase de Batalla"
+
+msgid "mode/random/condition"
+msgstr "15 contra 15 %(parSecondary_open)sI%(parSecondary_close)s Niveles&nbsp;I-XI"
+
+msgid "mode/random/description"
+msgstr "Batallas con emparejamiento automático."
+
+msgid "mode/random/setup"
+msgstr "Configurar"
+
+msgid "mode/ranked/battlePassTooltip/body"
+msgstr "Al luchar en vehículos de nivel X en {whiteSpanish_open}Batallas Clasificatorias{whiteSpanish_close}, ganarán puntos para avanzar en el progreso de Pase de Batalla."
+
+msgid "mode/ranked/battlePassTooltip/header"
+msgstr "Puntos de Pase de Batalla"
+
+msgid "mode/ranked/condition"
+msgstr "10 vs. 10 %(parSecondary_open)sI%(parSecondary_close)s Nivel &nbsp;X"
+
+msgid "mode/ranked/description"
+msgstr "Modo con progreso y recompensas."
+
+msgid "mode/specBattlesList/call/1"
+msgstr "Aplicar a torneo"
+
+msgid "mode/specBattlesList/call/2"
+msgstr "Siguiente batalla: %(date)s a las %(time)s"
+
+msgid "mode/specBattlesList/condition"
+msgstr "1 vs. 1 - 15 vs. 15 %(parSecondary_open)sI%(parSecondary_close)s Niveles&nbsp;I - X"
+
+msgid "mode/specBattlesList/description"
+msgstr "Mapa Global y torneos."
+
+msgid "mode/strongholdsBattlesList/call/1"
+msgstr "Luchar como legionario"
+
+msgid "mode/strongholdsBattlesList/call/2"
+msgstr "Luchar en un clan"
+
+msgid "mode/strongholdsBattlesList/condition"
+msgstr "7 vs. 7 - 15 vs. 15 %(parSecondary_open)sI%(parSecondary_close)s Niveles&nbsp;VI - X"
+
+msgid "mode/strongholdsBattlesList/description"
+msgstr "Batallas de clan por recursos industriales."
+
+msgid "mode/trainingsList/call/1"
+msgstr "Salas de entrenamiento: %(amount)s"
+
+msgid "mode/trainingsList/condition"
+msgstr "1 vs. 1 - 15 vs. 15 %(parSecondary_open)sI%(parSecondary_close)s Niveles&nbsp;I - X"
+
+msgid "mode/trainingsList/description"
+msgstr "Batallas introductorias."
+
+msgid "novelty"
+msgstr "NUEVO"
+
+msgid "ranked/widget/qualBattles"
+msgstr "Batallas en cualificación: %(current) %(par_open)s/ %(max)%(par_close)s"
+
+msgid "reward/attachment/description"
+msgstr "Puedes recibir accesorios 3D únicos por jugar en el modo."
+
+msgid "reward/attachment/name"
+msgstr "Accesorios 3D"
+
+msgid "reward/bones/description"
+msgstr "La recompensa está determinada según tu rendimiento en batalla."
+
+msgid "reward/bones/name"
+msgstr "Bonos"
+
+msgid "reward/bountyEquipment/description"
+msgstr "Puedes recibir el %(name)s por jugar en el modo."
+
+msgid "reward/bountyEquipment/name"
+msgstr "Equipamiento especial"
+
+msgid "reward/credits/description"
+msgstr "La recompensa está determinada según tu rendimiento en batalla."
+
+msgid "reward/credits/name"
+msgstr "Créditos"
+
+msgid "reward/crew/description"
+msgstr "Puedes recibir tripulantes únicos por jugar en el modo."
+
+msgid "reward/crew/name"
+msgstr "Tripulantes"
+
+msgid "reward/experience/description"
+msgstr "La recompensa está determinada según tu rendimiento en batalla."
+
+msgid "reward/experience/name"
+msgstr "Experiencia"
+
+msgid "reward/experimentalEquipment/description"
+msgstr "Puedes recibir equipamiento experimental por jugar en el modo."
+
+msgid "reward/experimentalEquipment/name"
+msgstr "Equipamiento especial"
+
+msgid "reward/improvedEquipment/description"
+msgstr "Puedes recibir el %(name)s por jugar en el modo."
+
+msgid "reward/improvedEquipment/name"
+msgstr "Equipamiento especial"
+
+msgid "reward/lootBoxes/description"
+msgstr "Puedes recibir cajas por jugar en el modo."
+
+msgid "reward/lootBoxes/name"
+msgstr "Cajas especiales"
+
+msgid "reward/other/description"
+msgstr "Puedes recibir muchas recompensas útiles por jugar en el modo."
+
+msgid "reward/other/name"
+msgstr "Recompensa especial"
+
+msgid "reward/progressionStyle/description"
+msgstr "Puedes recibir un estilo progresivo especial por jugar en este modo."
+
+msgid "reward/progressionStyle/name"
+msgstr "Estilo progresivo"
+
+msgid "reward/random/description"
+msgstr "Puedes recibir muchas recompensas útiles por jugar en el modo."
+
+msgid "reward/random/name"
+msgstr "Recompensa aleatoria"
+
+msgid "reward/style/description"
+msgstr "Puedes recibir un estilo 3D especial para el %(name)s por jugar en este modo."
+
+msgid "reward/style/name"
+msgstr "Estilo 3D"
+
+msgid "reward/vehicle/description"
+msgstr "Puedes recibir el %(name)s por jugar en el modo."
+
+msgid "reward/vehicle/name"
+msgstr "Vehículos de recompensa"
+
+msgid "selectMap"
+msgstr "Preconfiguraciones para Batallas Aleatorias"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h"
+
+msgid "status/timeLeft/lessMin"
+msgstr "menos de un minuto"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusSeparator"
+msgstr " %(parSecondary_open)sI%(parSecondary_close)s "
+
+msgid "title"
+msgstr "ELEGIR MODO DE BATALLA"
+
+msgid "window/battleSession/globalMap/button"
+msgstr "Mapa Global"
+
+msgid "window/battleSession/globalMap/description"
+msgstr "Captura provincias y lucha por la dominación global. Este modo solo está disponible para miembros de clan."
+
+msgid "window/battleSession/globalMap/enterClan"
+msgstr "Unirse a clan"
+
+msgid "window/battleSession/globalMap/title"
+msgstr "Batallas en el Mapa Global"
+
+msgid "window/battleSession/title"
+msgstr "BATALLA ESPECIAL"
+
+msgid "window/battleSession/tournaments/button"
+msgstr "Lista de torneo"
+
+msgid "window/battleSession/tournaments/china"
+msgstr "Esta función no está disponible temporalmente, pero sí lo estará en el futuro. Aguarda un tiempo."
+
+msgid "window/battleSession/tournaments/description"
+msgstr "Lucha solo o en un equipo, demuestra lo que eres capaz de hacer y recibe buenas recompensas."
+
+msgid "window/battleSession/tournaments/title"
+msgstr "Torneos"

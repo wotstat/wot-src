@@ -1,0 +1,284 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-03-16 10:00+0300\nPO-Revision-Date: 2023-03-16 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "LS_aoeDamageInstantShot/always"
+msgstr "?empty?"
+
+msgid "LS_aoeDamageInstantShot/descr"
+msgstr "O disparo causa dano no alvo e em veículos adversários próximos."
+
+msgid "LS_aoeDamageInstantShot/long_special"
+msgstr "Dispositivo Tático. Efetua um disparo que danifica o alvo e todos os veículos inimigos dentro de um alcance de 35 m. O dispositivo é gasto se for usado uma vez em batalha, podendo ser reabastecido usando créditos. Não há necessidade de reabastecimento se não for usado.<br/><br/>Disponível apenas durante o evento Última <font color='#cbac77'>Defesa: Terra Nord</font>.<br/><br/>Todos os dispositivos não usados serão removidos e compensados em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "LS_aoeDamageInstantShot/name"
+msgstr "Disparo de Energia"
+
+msgid "LS_aoeDamageInstantShot/onUse"
+msgstr "Um disparo que causa dano ao alvo e a todos os veículos inimigos em um raio de 35 m."
+
+msgid "LS_aoeDamageInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "LS_aoeDamageInstantShot/short_special"
+msgstr "O disparo causa dano no alvo e em veículos adversários próximos."
+
+msgid "LS_aoeDrainEnemyHpInstantShot/always"
+msgstr "?empty?"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/descr"
+msgstr "Um disparo que converte o dano causado ao alvo e aos inimigos próximos em pontos de vida."
+
+msgid "LS_aoeDrainEnemyHpInstantShot/long_special"
+msgstr "Dispositivo Tático. Efetua um disparo que restaura pontos de vida roubando-os do alvo e veículos inimigos dentro de um alcance de 35 m, além de reparar módulos danificados e remover o efeito de atordoamento. O dispositivo é gasto se for usado uma vez em batalha, podendo ser reabastecido usando créditos. Não há necessidade de reabastecimento se não for usado.<br/><br/>Disponível apenas durante o evento <font color='#cbac77'>Última Defesa: Terra Nord</font>.<br/><br/>Todos os dispositivos não usados serão removidos e compensados em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "LS_aoeDrainEnemyHpInstantShot/name"
+msgstr "Disparo Vampírico"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/onUse"
+msgstr "Um disparo que converte o dano causado do alvo e dos inimigos próximos em um raio de 35 m, repara módulos danificados e remove efeitos de atordoamento."
+
+msgid "LS_aoeDrainEnemyHpInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "LS_aoeDrainEnemyHpInstantShot/short_special"
+msgstr "Um disparo que converte o dano causado ao alvo e aos inimigos próximos em pontos de vida."
+
+msgid "LS_aoeStunInstantShot/always"
+msgstr "?empty?"
+
+msgid "LS_aoeStunInstantShot/descr"
+msgstr "O disparo atordoa o alvo e veículos adversários próximos."
+
+msgid "LS_aoeStunInstantShot/long_special"
+msgstr "Dispositivo Tático. Efetua um disparo que danifica o alvo e todos os veículos inimigos dentro de um alcance de 35 m. O dispositivo é gasto se for usado uma vez em batalha, podendo ser reabastecido usando créditos. Não há necessidade de reabastecimento se não for usado.<br/><br/>Disponível apenas durante o evento Última <font color='#cbac77'>Defesa: Terra Nord</font>.<br/><br/>Todos os dispositivos não usados serão removidos e compensados em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "LS_aoeStunInstantShot/name"
+msgstr "Disparo de Atordoamento"
+
+msgid "LS_aoeStunInstantShot/onUse"
+msgstr "Um disparo que atordoa o alvo e todos os veículos inimigos em um raio de 35 m."
+
+msgid "LS_aoeStunInstantShot/restriction"
+msgstr "?empty?"
+
+msgid "LS_aoeStunInstantShot/short_special"
+msgstr "O disparo atordoa o alvo e veículos adversários próximos."
+
+msgid "LS_damageShield/always"
+msgstr "?empty?"
+
+msgid "LS_damageShield/descr"
+msgstr "Fornece invulnerabilidade."
+
+msgid "LS_damageShield/long_special"
+msgstr "Dispositivo Tático. Cria um escudo de energia que protege seu veículo de qualquer tipo de dano, exceto por colisão, afogamento e impacto durante 10 s. O dispositivo é gasto se for usado uma vez em batalha, podendo ser reabastecido usando créditos. Não há necessidade de reabastecimento se não for usado.<br/><br/>Disponível apenas durante o evento <font color='#cbac77'>Última Defesa: Terra Nord</font>.<br/><br/>Todos os dispositivos não usados serão removidos e compensados em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "LS_damageShield/name"
+msgstr "Escudo de Energia"
+
+msgid "LS_damageShield/onUse"
+msgstr "Cria um escudo de energia que protege seu veículo de qualquer tipo de dano, exceto por impacto, afogamento e queda durante 10 s."
+
+msgid "LS_damageShield/restriction"
+msgstr "?empty?"
+
+msgid "LS_damageShield/short_special"
+msgstr "Fornece invulnerabilidade."
+
+msgid "LS_doubleDamage/always"
+msgstr "?empty?"
+
+msgid "LS_doubleDamage/descr"
+msgstr "Seu próximo disparo bem sucedido provoca o dobro de dano."
+
+msgid "LS_doubleDamage/long_special"
+msgstr "Dispositivo Tático. Se o seu próximo disparo atingir o alvo, ele causará o dobro de dano. O dispositivo é gasto se for usado uma vez em batalha, podendo ser reabastecido usando créditos. Não há necessidade de reabastecimento se não for usado.<br/><br/>Disponível apenas durante o evento <font color='#cbac77'>Última Defesa: Terra Nord</font>.<br/><br/>Todos os dispositivos não usados serão removidos e compensados em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "LS_doubleDamage/name"
+msgstr "Dano em Dobro"
+
+msgid "LS_doubleDamage/onUse"
+msgstr "Seu próximo disparo bem sucedido provoca o dobro de dano."
+
+msgid "LS_doubleDamage/restriction"
+msgstr "?empty?"
+
+msgid "LS_doubleDamage/short_special"
+msgstr "Seu próximo disparo bem sucedido provoca o dobro de dano."
+
+msgid "LS_extraDamageSituational/always"
+msgstr "?empty?"
+
+msgid "LS_extraDamageSituational/descr"
+msgstr "Fornece a chance de provocar mais dano a um veículo inimigo.\nChance de ativação: 50%."
+
+msgid "LS_extraDamageSituational/long_special"
+msgstr "Habilidade de Combate. Fornece a chance de provocar mais dano a um veículo inimigo. É ativada automaticamente dentro de 50% de chance ao efetuar um disparo, ao colidir ou ao usar outra habilidade, como por exemplo Disparo de Energia. Pode ser usada várias vezes em uma batalha. Após a batalha, é removida se for usada uma única vez. <br/><br/>Disponível apenas durante o evento <font color='#cbac77'>Última Defesa: Terra Nord</font>.<br/><br/>Todas as habilidades não usadas serão removidas e compensadas em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "LS_extraDamageSituational/name"
+msgstr "Dano Situacional"
+
+msgid "LS_extraDamageSituational/onUse"
+msgstr "Fornece a chance de provocar <font color='#feab34'>mais dano</font> em um veículo inimigo com um disparo, ao colidir ou ao usar outra habilidade, como por exemplo Disparo de Energia.\nChance de ativação: <font color='#e9e2bf'>50%</font>."
+
+msgid "LS_extraDamageSituational/restriction"
+msgstr "?empty?"
+
+msgid "LS_extraDamageSituational/short_special"
+msgstr "Fornece a chance de provocar mais dano a um veículo inimigo."
+
+msgid "LS_fastReload/always"
+msgstr "?empty?"
+
+msgid "LS_fastReload/descr"
+msgstr "Aumenta a taxa de disparo / recarga do carregador."
+
+msgid "LS_fastReload/long_special"
+msgstr "Dispositivo Tático. Acelera de forma significativa a recarga de um canhão cíclico por um período de tempo, ou recarrega os canhões com carregador de forma instantânea. O dispositivo é gasto se for usado uma vez em batalha, podendo ser reabastecido usando créditos. Não há necessidade de reabastecimento se não for usado.<br/><br/>Disponível apenas durante o evento <font color='#cbac77'>Última Defesa: Terra Nord</font>.<br/><br/>Todos os dispositivos não usados serão removidos e compensados em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "LS_fastReload/name"
+msgstr "Recarregamento Rápido"
+
+msgid "LS_fastReload/onUse"
+msgstr "Acelera significativamente o carregamento de um canhão cíclico por um período de tempo ou acelera o carregamento de projéteis no carregador."
+
+msgid "LS_fastReload/restriction"
+msgstr "?empty?"
+
+msgid "LS_fastReload/short_special"
+msgstr "Aumenta a taxa de disparo / recarga do carregador."
+
+msgid "LS_healSituational/always"
+msgstr "?empty?"
+
+msgid "LS_healSituational/descr"
+msgstr "Restaura alguns pontos de vida após destruir um veículo inimigo.\nChance de ativação: 50%."
+
+msgid "LS_healSituational/long_special"
+msgstr "Habilidade de Combate. Restaura instantaneamente 500 pontos de vida do seu veículo após destruir um veículo inimigo. Apaga incêndios, remove o efeito de atordoamento e repara módulos danificados. É ativada automaticamente dentro de 50% de chance no caso de dano, atordoamento ou módulos com danos críticos. Pode ser usada várias vezes em uma batalha. Após a batalha, é removida se for usada uma única vez. <br/><br/>Disponível apenas durante o evento Última <font color='#cbac77'>Defesa: Terra Nord</font>.<br/><br/>Todas as habilidades não usadas serão removidas e compensadas em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "LS_healSituational/name"
+msgstr "Reparos Situacionais"
+
+msgid "LS_healSituational/onUse"
+msgstr "• <font color='#FEAB34'>Restaura instantaneamente 500 pontos de vida</font> do seu veículo após destruir um veículo inimigo. \n• Apaga incêndios, remove o efeito de atordoamento e repara módulos danificados.\n• É ativada automaticamente no caso de dano, atordoamento ou módulos com danos críticos.\n• Chance de ativação: <font color='#E9E2BF'>50%</font>."
+
+msgid "LS_healSituational/restriction"
+msgstr "?empty?"
+
+msgid "LS_healSituational/short_special"
+msgstr "Restaura alguns pontos de vida após destruir um veículo inimigo."
+
+msgid "LS_invisibility/always"
+msgstr "?empty?"
+
+msgid "LS_invisibility/descr"
+msgstr "Impede que os inimigos mirem no seu veículo, restaura pontos de vida, repara módulos e apaga incêndios."
+
+msgid "LS_invisibility/long_special"
+msgstr "Dispositivo Tático. Impede que os inimigos mirem no seu veículo por 10 s. Restaura 32 HP por segundo, repara módulos, apaga incêndios, remove o efeito de atordoamento e cura todos os tripulantes feridos instantaneamente. Provocar ou receber dano de um veículo inimigo (por incêndio, dano por colisão ou com Dispositivos Táticos), irá revelar sua posição imediatamente. O dispositivo é gasto se for usado uma vez em batalha, podendo ser reabastecido usando créditos. Não há necessidade de reabastecimento se não for usado.<br/><br/>Disponível apenas durante o <font color='#cbac77'>evento Última Defesa: Invasão</font>.<br/><br/>Todos os dispositivos não usados serão removidos e compensados em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "LS_invisibility/name"
+msgstr "Curado Pelas Sombras"
+
+msgid "LS_invisibility/onUse"
+msgstr "Impede que os inimigos mirem no seu veículo por 10 s. Restaura 32 HP por segundo, repara módulos, apaga incêndios, remove o efeito de atordoamento e cura todos os tripulantes feridos instantaneamente. Provocar ou receber dano de um veículo inimigo (por incêndio, dano por colisão ou com Dispositivos Táticos), irá revelar sua posição imediatamente."
+
+msgid "LS_invisibility/restriction"
+msgstr "?empty?"
+
+msgid "LS_invisibility/short_special"
+msgstr "Impede temporariamente que os inimigos mirem no seu veículo, restaura pontos de vida, repara módulos, apaga incêndios, remove o efeito de atordoamento e cura todos os tripulantes feridos."
+
+msgid "LS_nitro/always"
+msgstr "?empty?"
+
+msgid "LS_nitro/descr"
+msgstr "Aumenta a mobilidade do seu veículo temporariamente."
+
+msgid "LS_nitro/long_special"
+msgstr "Dispositivo Tático. Aumenta temporariamente a mobilidade do seu veículo. O dispositivo é gasto se for usado uma vez em batalha, podendo ser reabastecido usando créditos. Não há necessidade de reabastecimento se não for usado.<br/><br/>Disponível apenas durante o <font color='#cbac77'>evento Última Defesa: Terra Nord</font>.<br/><br/>Todos os dispositivos não usados serão removidos e compensados em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "LS_nitro/name"
+msgstr "Turbocompressor"
+
+msgid "LS_nitro/onUse"
+msgstr "Aumenta a mobilidade do seu veículo temporariamente."
+
+msgid "LS_nitro/restriction"
+msgstr "?empty?"
+
+msgid "LS_nitro/short_special"
+msgstr "Aumenta a mobilidade do seu veículo temporariamente."
+
+msgid "LS_nitroSituational/always"
+msgstr "?empty?"
+
+msgid "LS_nitroSituational/descr"
+msgstr "Aumenta temporariamente a mobilidade do seu veículo após receber dano de um veículo inimigo.\nChance de ativação: 50%."
+
+msgid "LS_nitroSituational/long_special"
+msgstr "Habilidade de Combate. Aumenta temporariamente a mobilidade do seu veículo após receber dano de um veículo inimigo. Existe uma chance de 50% da sua ativação. A habilidade é gasta se for usada uma vez em batalha, podendo ser reabastecida usando créditos. Não há necessidade de reabastecimento se não for usada. <br/><br/>Disponível apenas durante o evento Última <font color='#cbac77'>Defesa: Terra Nord</font>.<br/><br/>Todas as habilidades não usadas serão removidas e compensadas em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "LS_nitroSituational/name"
+msgstr "Mobilidade Situacional"
+
+msgid "LS_nitroSituational/onUse"
+msgstr "<font color='#feab34'>Aumenta</font> temporariamente a <font color='#feab34'>mobilidade</font> do seu veículo após receber dano de um veículo inimigo. \nChance de ativação: <font color='#e9e2bf'>50%</font>."
+
+msgid "LS_nitroSituational/restriction"
+msgstr "?empty?"
+
+msgid "LS_nitroSituational/short_special"
+msgstr "Aumenta temporariamente a mobilidade do seu veículo após receber dano de um veículo inimigo."
+
+msgid "LS_selfRepair/always"
+msgstr "?empty?"
+
+msgid "LS_selfRepair/descr"
+msgstr "Restaura os pontos de vida, apaga incêndios, remove atordoamento e repara módulos danificados."
+
+msgid "LS_selfRepair/long_special"
+msgstr "Habilidade de Combate. Restaura pontos de vida, apaga incêndios e remove o efeito do atordoamento. Pode ser usada várias vezes em uma batalha. Removida após ser usada pelo menos uma vez em uma batalha.<br/><br/>Disponível apenas durante o evento <font color='#cbac77'>Last Stand '25</font>.<br/><br/>Todas as habilidades não utilizadas serão removidas e compensadas em créditos no valor de 50% do seu custo com o lançamento da próxima atualização."
+
+msgid "LS_selfRepair/name"
+msgstr "Reparos de Emergência"
+
+msgid "LS_selfRepair/onUse"
+msgstr "• Restaura instantaneamente 400 pontos de vida ao seu veículo.\n•Restaura 300 pontos de vida extras dentro de 30 s.\n•A restauração é interrompida se o veículo receber dano.\n•Apaga incêndios, remove o efeito do atordoamento e repara módulos danificados.\n•Só pode ser ativada após receber danos."
+
+msgid "LS_selfRepair/restriction"
+msgstr "?empty?"
+
+msgid "LS_selfRepair/short_special"
+msgstr "Restaura os pontos de vida, apaga incêndios, remove atordoamento e repara módulos danificados."
+
+msgid "LS_selfRepair/usageCost"
+msgstr "• Custo de Mirium para usar em batalha:"
+
+msgid "LS_teamRepair/always"
+msgstr "?empty?"
+
+msgid "LS_teamRepair/descr"
+msgstr "Repara e restaura pontos de vida de veículos aliados dentro de seu raio."
+
+msgid "LS_teamRepair/long_special"
+msgstr "Dispositivo Tático. Repara módulos, apaga incêndios, remove o efeito do atordoamento e restaura alguns pontos de vida dos veículos aliados instantaneamente dentro da sua área de efeito. O dispositivo é gasto se for usado uma vez em batalha, podendo ser reabastecido usando créditos. Não há necessidade de reabastecimento se não for usado.<br/><br/>Disponível apenas durante o <font color='#cbac77'>evento Última Defesa: Terra Nord</font>.<br/><br/>Todos os dispositivos não usados serão removidos e compensados em créditos equivalente a 50% do seu valor na próxima atualização."
+
+msgid "LS_teamRepair/name"
+msgstr "Reparos de Grupo"
+
+msgid "LS_teamRepair/onUse"
+msgstr "Repara módulos danificados, apaga incêndios, remove atordoamento e restaura parte dos pontos de vida dos veículos aliados dentro do raio de efeito."
+
+msgid "LS_teamRepair/restriction"
+msgstr "?empty?"
+
+msgid "LS_teamRepair/short_special"
+msgstr "Repara e restaura pontos de vida de veículos aliados dentro de seu raio."
+
+msgid "lsAbility/descr/usageCost"
+msgstr " \nCusto em Mirium: {whiteSpanish_open}%(cost)s{whiteSpanish_close}"
+
+msgid "lsAbility/usageCost/default"
+msgstr "Custo de Mirium para usar em batalha:"

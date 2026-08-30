@@ -1,0 +1,317 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n > 1);"
+
+msgid "alertMessage/button/changeServer"
+msgstr "Alterar servidor"
+
+msgid "alertMessage/button/moreInfo"
+msgstr "Detalhes"
+
+msgid "alertMessage/ceasefireAvailable"
+msgstr "O modo está indisponível neste servidor %(button)s"
+
+msgid "alertMessage/ceasefireUnavailable"
+msgstr "Este modo está indisponível em todos os servidores"
+
+msgid "alertMessage/modeOffline"
+msgstr "Erro no banco de dados. Modo de jogo indisponível."
+
+msgid "alertMessage/noVehicles"
+msgstr "Sem veículos adequados na sua Garagem %(button)s"
+
+msgid "battleQuestAwards/button"
+msgstr "Afirmativo!"
+
+msgid "battleQuestAwards/subTitle"
+msgstr "INVESTIDA LEVE"
+
+msgid "battleQuestAwards/title/completed"
+msgstr "ESTÁGIO FINAL CONCLUÍDO!"
+
+msgid "battleQuestAwards/title/inProgress"
+msgstr "ESTÁGIO %(level)s CONCLUÍDO!"
+
+msgid "battleQuestTooltips/allMissionsCompleted"
+msgstr "Todas as missões foram cumpridas!"
+
+msgid "battleQuestTooltips/completed"
+msgstr "Concluído"
+
+msgid "battleQuestTooltips/expiresIn"
+msgstr "Expira em: %(timeLeft)s"
+
+msgid "battleQuestTooltips/mission"
+msgstr "Missão do Investida Leve"
+
+msgid "battleQuestTooltips/newMissionsIn"
+msgstr "Nova Missão do Investida Leve em: %(timeLeft)s"
+
+msgid "battleQuestTooltips/rewards"
+msgid_plural "plural/battleQuestTooltips/rewards"
+msgstr[0] "Recompensa:"
+msgstr[1] "Recompensas:"
+msgstr[2] "Recompensas:"
+
+msgid "battleResult/header/deserter"
+msgstr "Você recebeu uma penalidade"
+
+msgid "battleResult/missionsProgress/progression/title"
+msgstr "PROGRESSÃO DO INVESTIDA LEVE"
+
+msgid "calendarDay/serverName"
+msgstr "%(server)s"
+
+msgid "calendarDay/time"
+msgstr "%(start)s–%(end)s"
+
+msgid "calendarDay/timeLeft"
+msgid_plural "plural/calendarDay/timeLeft"
+msgstr[0] "O Investida Leve vai durar %(days)d dia"
+msgstr[1] "O Investida Leve vai durar %(days)d dias"
+msgstr[2] "O Investida Leve vai durar %(days)d dias"
+
+msgid "calendarDay/title"
+msgstr "Cronograma"
+
+msgid "closeButtonLabel"
+msgstr "FECHAR"
+
+msgid "countDown/text"
+msgstr "O evento começa em:\n%(timeLeft)s"
+
+msgid "entryPointTooltip/description"
+msgstr "Um modo competitivo contendo batalhas 7x7 em veículos de Nível %(levels)s. Aproveite a jogabilidade do modo Investida original sem Qualificação, Ranks ou Registros de Serviço, além de ganhar recompensas com as missões diárias."
+
+msgid "entryPointTooltip/modeBtnText"
+msgstr "MODO"
+
+msgid "entryPointTooltip/modeDescription"
+msgstr "%(mode)s — Modo de jogo. Clique para explorar"
+
+msgid "entryPointTooltip/modeName"
+msgstr "Investida Leve"
+
+msgid "entryPointTooltip/status/active"
+msgstr "O modo está disponível por %(timer)s"
+
+msgid "entryPointTooltip/status/ceasefire"
+msgstr "Cessar-fogo%(timer)s"
+
+msgid "featureName"
+msgstr "Investida Leve"
+
+msgid "featureNameCapitalized"
+msgstr "INVESTIDA LEVE"
+
+msgid "intro/confirmButton"
+msgstr "Afirmativo!"
+
+msgid "intro/description/lightGameplay"
+msgstr "Divirta-se com a jogabilidade do Investida original, mas sem Qualificação, Ranks ou Registros de Sereviço."
+
+msgid "intro/description/onslaughtModifiers"
+msgstr "O modo possui modificadores que alteram certos parâmetros do veículo, como os pontos de vida, tempo de recarga dos consumíveis, tempo em que o veículo permanece visível, entre outros."
+
+msgid "intro/description/pointsOfInterest"
+msgstr "Após capturar certas áreas do mapa, você vai poder usar Habilidades Táticas. Existem dois tipos de Pontos de Interesse: o Quartel-General de Artilharia permitirá que você ordene um ataque de artilharia em uma determinada posição e o Centro de Comunicações vai detectar todos os veículos inimigos. Dependendo do mapa, a presença e localização desses Pontos de Interesse podem mudar."
+
+msgid "intro/description/roleSkills"
+msgstr "Dependendo da função, cada veículo tem uma habilidade especial com três níveis de carga. Quanto maior o nível de carga quando a habilidade for ativada, mais forte será o efeito. O nível de carga vai depender do número de Pontos de Prestígio que podem ser ganhos por desempenho impressionante em batalha, captura de Pontos de Interesse, uso de Habilidades Táticas, etc.\n\nConfira os regulamentos do evento para saber mais sobre as diferentes maneiras de ganhar Pontos de Prestígio."
+
+msgid "intro/description/vehiclesOnMap"
+msgstr "Apenas veículos %(levels)s podem ser usados no modo (com exceção das artilharias e tanques específicos). Prepare seus veículos na Garagem e escolha o que se encaixa melhor nas características do mapa quando entrar em batalha. Ao escolher seu veículo, lembre-se de conferir quais tanques seus aliados já escolheram."
+
+msgid "intro/title/lightGameplay"
+msgstr "RELAXE E JOGUE, COMANDANTE"
+
+msgid "intro/title/onslaughtModifiers"
+msgstr "MODIFICADORES DO INVESTIDA"
+
+msgid "intro/title/pointsOfInterest"
+msgstr "PONTOS DE INTERESSE"
+
+msgid "intro/title/roleSkills"
+msgstr "HABILIDADES DE FUNÇÃO"
+
+msgid "intro/title/vehiclesOnMap"
+msgstr "ESCOLHA UM VEÍCULO PARA UM MAPA ESPECÍFICO"
+
+msgid "leaderboardRewardTooltip/column/0"
+msgstr "?empty?"
+
+msgid "leaderboardRewardTooltip/column/1"
+msgstr "Vitória"
+
+msgid "leaderboardRewardTooltip/column/2"
+msgstr "Derrota/Empate"
+
+msgid "leaderboardRewardTooltip/description/completed"
+msgstr "Excelente trabalho, comandante, continue assim!"
+
+msgid "leaderboardRewardTooltip/description/inProgress"
+msgstr "Conclua missões e alcance as melhores colocações nas batalhas do Investida Leve para aumentar seu nível de Progressão."
+
+msgid "leaderboardRewardTooltip/description/simplified"
+msgstr "O número de Pontos de Progressão que você ganha depende da sua colocação em Pontos de Prestígio na batalha."
+
+msgid "leaderboardRewardTooltip/eventEnds"
+msgstr "O modo termina em %(countdown)s"
+
+msgid "leaderboardRewardTooltip/heading/completed"
+msgstr "Progressão Principal completa"
+
+msgid "leaderboardRewardTooltip/modeName"
+msgstr "Investida Leve"
+
+msgid "leaderboardRewardTooltip/top/0"
+msgstr "Entre os 2 melhores por Pontos de Prestígio"
+
+msgid "leaderboardRewardTooltip/top/1"
+msgstr "Entre os 5 melhores por Pontos de Prestígio"
+
+msgid "leaderboardRewardTooltip/top/2"
+msgstr "Entre os 7 melhores por Pontos de Prestígio"
+
+msgid "listSeparator"
+msgstr ", "
+
+msgid "noVehicles/howTo/premium"
+msgstr "Use Conta Premium WoT"
+
+msgid "noVehicles/howTo/reserves"
+msgstr "Ative Reservas Pessoais"
+
+msgid "noVehicles/howTo/tasks"
+msgstr "Complete as Missões"
+
+msgid "noVehicles/howTo/title"
+msgstr "Qual é a maneira mais rápida de pegar veículos de Nível %(levels)s?"
+
+msgid "noVehicles/text/vehicleAvailableForBuy"
+msgstr "Para participar do Investida Leve você precisa ter pelo menos um veículo de Nível %(levels)s na Garagem que seja adequado para o modo.\nVocê pode comprar veículos Premium de Nível %(levels)s na Árvore Tecnológica ou na Loja do jogo."
+
+msgid "noVehicles/text/vehicleAvailableForRestore"
+msgstr "Para participar do Investida Leve você precisa ter pelo menos um veículo de Nível %(levels)s na Garagem que seja adequado para o modo.\nVocê possui um veículo de Nível %(levels)s disponível para recuperação."
+
+msgid "noVehicles/text/vehicleUnavailable"
+msgstr "Para participar do Investida Leve, você precisa ter pelo menos um veículo de Nível %(levels)s na Garagem que é adequado para o modo."
+
+msgid "noVehicles/title"
+msgstr "Sem veículos adequados na sua Garagem"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/bullet"
+msgstr "•"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/footer"
+msgstr "Confira a página Sobre o Investida Leve para mais detalhes."
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/header"
+msgstr "Pontos de Prestígio"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listContent"
+msgstr "Provocar dano\nAssistência por detecção\nDestruir esteiras\nProvocar danos críticos\nDestruir veículos inimigos\nE mais"
+
+msgid "pbs/tooltip/prestige_points_info_tooltip/listHeader"
+msgstr "Os Pontos de Prestígio podem ser obtidos ao exercer ações de combate que incluem:"
+
+msgid "primeTimeView/status/seasonDisabled/first"
+msgstr "A Temporada terminou no servidor %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/second"
+msgstr "A Temporada terminou no servidor %(server)s."
+
+msgid "primeTimeView/status/seasonDisabled/third"
+msgstr "A Temporada terminou no servidor %(server)s."
+
+msgid "progressionEntryPoint/complete"
+msgstr "Progressão Principal completa!"
+
+msgid "progressionEntryPoint/counter"
+msgstr "%(current)s%(divider)s%(total)s"
+
+msgid "progressionEntryPoint/stage"
+msgstr "Estágio %(current)s"
+
+msgid "progressionView/battleQuests/multiConditions"
+msgstr "%(firstCondition)s ou %(secondCondition)s"
+
+msgid "progressionView/battleQuests/oneCondition"
+msgstr "%(firstCondition)s"
+
+msgid "progressionView/battleQuests/timer/completed/text"
+msgstr "Novas missões em:"
+
+msgid "progressionView/battleQuests/timer/eventEnds"
+msgstr "O evento termina em:"
+
+msgid "progressionView/battleQuests/timer/inProgress/text"
+msgstr "As missões vão ser atualizadas em"
+
+msgid "progressionView/battleQuests/timer/title"
+msgstr "Todas as missões diárias cumpridas."
+
+msgid "progressionView/card/points"
+msgstr "%(current)s/%(total)s"
+
+msgid "progressionView/subTitle/completed"
+msgstr "Progressão concluída. Jogue o Investida Leve para ganhar mais recompensas."
+
+msgid "progressionView/subTitle/inProgress"
+msgstr "Conclua missões e alcance as melhores colocações nas batalhas do Investida Leve\npara aumentar seu nível de Progressão. %(infotip)s"
+
+msgid "quests/bonuses/progressionToken/body"
+msgstr "Concedido por concluir missões especiais e disputar as batalhas do Investida Leve. Eles permitem que você avance pela Progressão."
+
+msgid "quests/bonuses/progressionToken/header"
+msgstr "Pontos de Progressão do Investida Leve"
+
+msgid "selectorTooltip/desc"
+msgstr "Modo não ranqueado. 7x7 | Nível %(tier)s"
+
+msgid "selectorTooltip/title"
+msgstr "Investida Leve"
+
+msgid "selectorTooltip/unavailable/finished"
+msgstr "Acompanhe as últimas notícias na página do jogo para ficar atualizado sobre o início da nova Temporada."
+
+msgid "selectorTooltip/unavailable/frozen"
+msgstr "Este modo está temporariamente indisponível por questões técnicas."
+
+msgid "selectorTooltip/unavailable/nextSeason"
+msgstr "Este modo estará disponível em %(time)s"
+
+msgid "serviceChannelMessages/battleResults/progressionPoints"
+msgstr "Pontos de Progresso recebidos"
+
+msgid "serviceChannelMessages/progressionButton"
+msgstr "Detalhes"
+
+msgid "serviceChannelMessages/progressionName"
+msgstr "Investida Leve"
+
+msgid "serviceChannelMessages/progressionSystem/awards"
+msgstr "Recompensas recebidas:"
+
+msgid "serviceChannelMessages/progressionSystem/body"
+msgstr "Você concluiu o Estágio de Progressão %(stage)s no modo %(progressionName)s."
+
+msgid "serviceChannelMessages/progressionSystem/header"
+msgstr "Parabéns!"
+
+msgid "system_messages/primeTime/end/body"
+msgstr "Cessar-fogo em vigor. As batalhas do Investida Leve estão temporariamente indisponíveis."
+
+msgid "system_messages/primeTime/end/title"
+msgstr "Cessar-fogo"
+
+msgid "system_messages/primeTime/start/body"
+msgstr "Cessar-fogo encerrado. As batalhas do Investida Leve estão disponíveis novamente."
+
+msgid "system_messages/primeTime/start/title"
+msgstr "Cessar-fogo"
+
+msgid "tooltip/infoPageButton/header"
+msgstr "Sobre o Investida Leve"

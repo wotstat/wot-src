@@ -1,0 +1,12 @@
+from messenger.gui.Scaleform.meta.BaseManageContactViewMeta import BaseManageContactViewMeta
+
+class ContactNoteManageViewMeta(BaseManageContactViewMeta):
+
+    def sendData(self, data):
+        self._printOverrideError(b'sendData')
+        return
+
+    def as_setUserPropsS(self, value):
+        if self._isDAAPIInited():
+            return self.flashObject.as_setUserProps(value)
+        return

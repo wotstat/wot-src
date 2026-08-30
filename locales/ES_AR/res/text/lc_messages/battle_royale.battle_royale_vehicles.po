@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: \n"
+
+msgid "abilities/adaptationHealthRestore"
+msgstr "Blindaje adaptable"
+
+msgid "abilities/adaptationHealthRestoreDescription"
+msgstr "Restaura una parte de los puntos de vida del vehículo de inmediato. Durante el tiempo que dure la habilidad, todo el daño recibido de proyectiles y habilidades de combate se acumulará y se convertirá en puntos de vida (más otros PV equivalentes a una parte del daño recibido) en cuanto la habilidad termine. La recuperación de PV convertidos también afecta a los vehículos aliados ubicados dentro de un radio de acción pequeño."
+
+msgid "abilities/airstrike"
+msgstr "Ataque aéreo"
+
+msgid "abilities/airstrikeDescription"
+msgstr "Aturde vehículos enemigos e inflige daño con bombas explosivas en la zona seleccionada."
+
+msgid "abilities/berserk"
+msgstr "Berserker"
+
+msgid "abilities/berserkDescription"
+msgstr "Mejora notablemente la penetración y las características de tu vehículo, pero le quita puntos de vida durante un período."
+
+msgid "abilities/brander"
+msgstr "Bola de fuego"
+
+msgid "abilities/branderDescription"
+msgstr "Despliega una mina autopropulsada que persigue al enemigo más cercano y causa daño dentro de un radio pequeño al explotar. Los enemigos pueden destruir la Bola de fuego con disparos o embestidas. La bola causará daño de embestida adicional cuando alcance a su objetivo."
+
+msgid "abilities/clingBrander"
+msgstr "Robot del campo de batalla"
+
+msgid "abilities/clingBranderDescription"
+msgstr "Invoca a un tanque autónomo con un sistema de identificación de amigo o enemigo que seguirá y atacará al enemigo más cercano. Este tanque puede destruirse."
+
+msgid "abilities/corrodingShot"
+msgstr "Proyectil ácido"
+
+msgid "abilities/corrodingShotDescription"
+msgstr "Añade propiedades corrosivas a un proyectil. Al infligirle daño a un vehículo enemigo, el proyectil causa un efecto temporal que inflige daño adicional progresivo. Kit de reparación elimina este efecto."
+
+msgid "abilities/extremeConcentration"
+msgstr "Rastreo de blancos"
+
+msgid "abilities/extremeConcentrationDescription"
+msgstr "Reduce la dispersión del cañón y el tiempo de apuntamiento temporalmente, además de mejorar la estabilización y la cadencia de fuego. No afecta a la demora entre disparar un proyectil y cargar el siguiente en el cargador, el cañón o el contenedor."
+
+msgid "abilities/fireCircle"
+msgstr "Anillo de fuego"
+
+msgid "abilities/fireCircleDescription"
+msgstr "Envuelve al vehículo enemigo en un aura ardiente que inflige daño y reduce su movilidad dentro del área de efecto de la habilidad."
+
+msgid "abilities/minefield"
+msgstr "Campo minado"
+
+msgid "abilities/minefieldDescription"
+msgstr "Despliega un campo minado activo en la zona seleccionada durante un período determinado. Los vehículos enemigos que entren en contacto con las minas quedarán aturdidos y recibirán daño explosivo. Las minas se pueden destruir con disparos. Las minas desplegadas bajo los vehículos enemigos NO explotarán."
+
+msgid "abilities/nitro"
+msgstr "Turbocargador"
+
+msgid "abilities/nitroDescription"
+msgstr "Aumenta temporalmente la potencia del motor, la velocidad máxima y la velocidad de giro de tu vehículo."
+
+msgid "abilities/recoveryDot"
+msgstr "Zona de reparación"
+
+msgid "abilities/recoveryDotDescription"
+msgstr "Crea un área estática temporal que repara todos los módulos dañados, elimina todos los efectos negativos y restaura puntos de vida. Los vehículos aliados ubicados dentro del área de efecto también recuperan PV."
+
+msgid "abilities/recoveryKit"
+msgstr "Restauración"
+
+msgid "abilities/recoveryKitDescription"
+msgstr "Restaura PV de los vehículos dañados."
+
+msgid "abilities/recoveryZone"
+msgstr "Zona de restauración"
+
+msgid "abilities/recoveryZoneDescription"
+msgstr "Crea un área alrededor del vehículo donde tanto el jugador como los miembros del pelotón recuperan cierto porcentaje de los puntos de vida de sus vehículos por segundo."
+
+msgid "abilities/repairKit"
+msgstr "Kit de reparación"
+
+msgid "abilities/repairKitDescription"
+msgstr "Repara los módulos y elimina los efectos negativos."
+
+msgid "abilities/rustCloud"
+msgstr "Niebla corrosiva"
+
+msgid "abilities/rustCloudDescription"
+msgstr "Brinda una bonificación de ocultamiento a todos los vehículos ubicados dentro del radio de acción de la habilidad. También daña a TODOS los vehículos ubicados dentro del radio de acción. No interrumpe la obtención de botín ni destruye los vehículos; los deja con al menos 1 PV."
+
+msgid "abilities/shotPassion"
+msgstr "Fervor emergente"
+
+msgid "abilities/shotPassionDescription"
+msgstr "Cuando el apuntamiento y la estabilización disminuyen durante un lapso de tiempo, cada impacto penetrante o cada Descarga eléctrica aumentan el daño que se inflige a los vehículos enemigos con los proyectiles. El daño puede aumentarse hasta cinco veces. Los disparos que no infligen daño o que fallan reinician el parámetro de daño."
+
+msgid "abilities/thunderStrike"
+msgstr "Descarga eléctrica"
+
+msgid "abilities/thunderStrikeDescription"
+msgstr "Crea una zona en la que se producen descargas eléctricas de alta frecuencia. Cada descarga daña y reduce temporalmente la movilidad de los vehículos enemigos ubicados dentro del radio de acción de la habilidad. Hay una demora entre la activación de la habilidad y la primera descarga. El efecto negativo se puede quitar con un kit de reparación."
+
+msgid "abilities/trap"
+msgstr "Trampa"
+
+msgid "abilities/trapDescription"
+msgstr "Crea una zona que reduce las características dinámicas de los vehículos enemigos."
+
+msgid "tanks/britain/description"
+msgstr "Los ingenieros británicos siguieron demostrando que podían construir tanques perfectos que atraían la atención de comandantes experimentados y aterrorizaban a los enemigos. Y este cazador no es la excepción. Su legendario acero británico está listo para demostrar la supremacía en el campo de batalla una vez más."
+
+msgid "tanks/britain/title"
+msgstr "Harbinger Mk. IV"
+
+msgid "tanks/china/description"
+msgstr "Los chinos tienen agentes especializados que los ayudan a adoptar las más modernas prácticas de ingeniería blindada. La oportunidad de poner a prueba sus nuevos equipos en las condiciones extremas de Cazador de acero es un regalo para sus ingenieros."
+
+msgid "tanks/china/title"
+msgstr "Bái Láng"
+
+msgid "tanks/france/description"
+msgstr "Ligereza, formas suaves y elegancia son los tres pilares que determinan la industria blindada francesa. Ni los diseños prestados ni las tecnologías obtenidas por medio del espionaje industrial se utilizaron como base para este vehículo; este tanque se creó usando soluciones e ideas originales y efectivas."
+
+msgid "tanks/france/title"
+msgstr "Arlequin"
+
+msgid "tanks/germany/description"
+msgstr "Los alemanes son perros viejos cuando se trata de ingeniería metalúrgica y ensamblaje de alta calidad. Este vehículo es un perfecto lobo solitario: independiente, versátil y capaz de adaptarse fácilmente a cualquier situación de batalla para garantizar su supervivencia."
+
+msgid "tanks/germany/title"
+msgstr "Walküre"
+
+msgid "tanks/poland/description"
+msgstr "Los ingenieros polacos saben que resaltar las fortalezas de un vehículo automáticamente tiene influencia negativa en otra característica. Por eso se enfocaron mucho en el armamento y en las capacidades de combate del vehículo para que el enemigo no busque sus puntos débiles. El tiempo demostró que fue la decisión correcta."
+
+msgid "tanks/poland/title"
+msgstr "Huragan"
+
+msgid "tanks/sweden/description"
+msgstr "Los suecos nunca pasaron por alto las tendencias en ingeniería blindada, y participar en Cazador de acero les dio rienda suelta a sus ingenieros. Este vehículo es la encarnación de las ideas más ingeniosas y riesgosas. Puede infligir mucho daño, pero también recibirlo, y parece que eso es una gran característica."
+
+msgid "tanks/sweden/title"
+msgstr "Beowulf"
+
+msgid "tanks/usa/description"
+msgstr "Este vehículo es el equilibrio perfecto entre lo moderno y lo clásico. La combinación entre tecnologías infalibles y avances recientes fue la base de este tanque. Es un placer conducir este vehículo, siempre y cuando no te moleste el metal oxidado, por supuesto."
+
+msgid "tanks/usa/title"
+msgstr "Raven"
+
+msgid "tanks/ussr/description"
+msgstr "Este tanque, creado a partir de piezas y componentes desechados por varias fábricas de tanques supone una amenaza seria para cualquier enemigo. Arrojando algunos planos y documentación técnica al viento, se puede crear un verdadero monstruo del campo de batalla."
+
+msgid "tanks/ussr/title"
+msgstr "Varyag"

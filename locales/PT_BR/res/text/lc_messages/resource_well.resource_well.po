@@ -1,0 +1,350 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "awardView/completedProgressionView/received"
+msgstr "Veículo recebido"
+
+msgid "awardView/end"
+msgstr "EVENTO ENCERRADO"
+
+msgid "awardView/info"
+msgstr "Estilo Numerado"
+
+msgid "awardView/toHangar"
+msgstr "Exibir na Garagem"
+
+msgid "awardView/vehicleNumberTitle"
+msgstr "%(vehicleInfo) com um estilo numerado"
+
+msgid "awardView/vehicleNumberedTitle"
+msgstr "VEÍCULO RECEBIDO"
+
+msgid "awardView/vehicleTitle"
+msgstr "VEÍCULO RECEBIDO"
+
+msgid "commonTexts/aboutButton"
+msgstr "SOBRE O EVENTO"
+
+msgid "commonTexts/closeBtn"
+msgstr "FECHAR"
+
+msgid "commonTexts/eventTitle"
+msgstr "LOJA DE MONTAGEM"
+
+msgid "commonTexts/percent"
+msgstr "%(percent)d%"
+
+msgid "confirm/NoSerialVehicles/buttonCancel/title"
+msgstr "Cancelar"
+
+msgid "confirm/NoSerialVehicles/buttonConfirm/title"
+msgstr "Investir"
+
+msgid "confirm/NoSerialVehicles/description"
+msgstr "Não há mais veículos com estilos numerados. Você ainda vai receber o %(vehicleName)s sem um número.\nTem certeza que quer investir os recursos?"
+
+msgid "confirm/NoSerialVehicles/title"
+msgstr "Você vai receber o %(vehicleName)s sem um número"
+
+msgid "confirm/NoVehicles/buttonCancel/title"
+msgstr "Voltar para a Garagem"
+
+msgid "confirm/NoVehicles/description"
+msgstr "Todos os recursos investidos serão devolvidos para a sua conta em breve."
+
+msgid "confirm/NoVehicles/title"
+msgstr "Infelizmente, Não Temos Mais Veículos"
+
+msgid "confirm/buttonCancel/title"
+msgstr "Cancelar"
+
+msgid "confirm/resourcesContribute/buttonConfirm/title"
+msgstr "Investir"
+
+msgid "confirm/resourcesContribute/description/text"
+msgstr "Progresso após investimento: %(percent)"
+
+msgid "confirm/resourcesContribute/title"
+msgstr "Investir recursos?"
+
+msgid "confirm/resourcesReturn/buttonConfirm/title"
+msgstr "Retorno de Recursos"
+
+msgid "confirm/resourcesReturn/description/text"
+msgstr "Todos os recursos investidos serão devolvidos à sua conta e o progresso da montagem será redefinido. Enquanto o evento estiver ativo, você poderá investir recursos novamente para obter um veículo."
+
+msgid "confirm/resourcesReturn/title"
+msgstr "Retornar todos os recursos investidos?"
+
+msgid "confirm/resourcesReturnOnSwitch/description/text"
+msgstr "Todos os recursos investidos serão devolvidos à sua conta e o progresso da montagem será redefinido. O %(vehicleName) será selecionado e você poderá investir recursos para obtê-lo."
+
+msgid "confirm/resourcesReturnOnSwitch/title"
+msgstr "Retornar todos os recursos investidos e selecionar o %(vehicleName)?"
+
+msgid "counterStates/activeState/selectVehicleButton"
+msgstr "Seleção de Veículo"
+
+msgid "eventInfo/description/inParallelEventMode"
+msgstr "Você pode comprar ambos veículos durante o evento."
+
+msgid "eventInfo/description/oneSerialEventMode"
+msgstr "Você poderá comprar um pacote contendo um veículo com um estilo 3D numerado durante o evento."
+
+msgid "eventInfo/description/sequentialEventMode"
+msgstr "Os primeiros %(styleTanksCount) jogadores vão receber um veículo com um estilo 3D numerado,{{@ class $br}}{{/}}e então %(withoutStyleTanksCount) veículos serão entregues sem o estilo 3D numerado."
+
+msgid "eventInfo/header/subTitle/eventOver"
+msgstr "EVENTO ENCERRADO"
+
+msgid "eventInfo/header/title/allVehiclesReceived"
+msgstr "VEÍCULOS RECEBIDOS"
+
+msgid "eventInfo/header/title/vehicleReceived"
+msgstr "VEÍCULO RECEBIDO"
+
+msgid "eventInfo/inParallelEventMode/tanksLeftText"
+msgstr "Veículos restantes"
+
+msgid "eventInfo/tanksAlreadyInGarage"
+msgstr "Este veículo já está na sua Garagem."
+
+msgid "eventInfo/tanksAlreadyReceived"
+msgstr "Veículo recebido"
+
+msgid "eventInfo/tanksOver"
+msgstr "NÃO SOBROU MAIS NENHUM"
+
+msgid "eventInfo/top/styleText"
+msgstr "Com um número"
+
+msgid "eventInfo/top/tanksLeftText"
+msgstr "Veículos com números restantes"
+
+msgid "eventInfo/withoutStyle/blocked/textInfo"
+msgstr "A entrega de %(regularRewardVehiclesCount) veículos em configuração padrão vai começar\nquando não houver mais veículos com números restantes."
+
+msgid "eventInfo/withoutStyle/styleText"
+msgstr "Em configuração padrão"
+
+msgid "eventInfo/withoutStyle/tanksLeftText"
+msgstr "Veículos restantes"
+
+msgid "mainView/affirmative/button"
+msgstr "Afirmativo"
+
+msgid "mainView/footer/activeState/buttonReturn/text"
+msgstr "Acessar Devolução de Recursos"
+
+msgid "mainView/footer/activeState/progression/title"
+msgstr "Recursos coletados:"
+
+msgid "mainView/footer/activeState/progressionFor/title"
+msgstr "Recursos coletados para:"
+
+msgid "mainView/footer/backToHangar/button/text"
+msgstr "Voltar para a Garagem"
+
+msgid "mainView/footer/buttonChoose/text"
+msgstr "Selecionar Recursos"
+
+msgid "mainView/footer/description/text"
+msgstr "Se não houver veículos restantes, todos os recursos investidos serão devolvidos."
+
+msgid "mainView/footer/forbidden/subTitle"
+msgstr "Seu tipo de conta não pode participar do evento."
+
+msgid "mainView/footer/forbidden/title"
+msgstr "Você Não Pode Participar"
+
+msgid "mainView/footer/noProgress/selectVehicle/description"
+msgstr "Você pode comprar ambos veículos, mas só poderá investir recursos em um deles de cada vez."
+
+msgid "mainView/footer/noProgress/selectVehicle/title"
+msgstr "Escolha um veículo e invista os recursos necessários para montá-lo — mas seja rápido!"
+
+msgid "mainView/footer/noProgress/title"
+msgstr "Corra para investir os recursos necessários para a montagem e conquiste o %(vehicleName)!"
+
+msgid "mainView/footer/noVehicles/subTitle"
+msgstr "Todos os recursos investidos serão devolvidos para a sua conta em breve."
+
+msgid "mainView/footer/noVehicles/title"
+msgstr "Infelizmente, Não Temos Mais Veículos"
+
+msgid "mainView/navbar/backBtn"
+msgstr "ACESSAR LOJA DE MONTAGEM"
+
+msgid "mainView/navbar/title"
+msgstr "LOJA DE MONTAGEM"
+
+msgid "mainView/preview/label"
+msgstr "Pré-Visualizar"
+
+msgid "mainView/timer/lastUntil"
+msgstr "Até"
+
+msgid "mainView/timer/leftTime"
+msgstr "Tempo restante:"
+
+msgid "resourcesLoadingView/buttons/close"
+msgstr "Fechar"
+
+msgid "resourcesLoadingView/buttons/load"
+msgstr "Investir Recursos"
+
+msgid "resourcesLoadingView/counter/currentWithDelta"
+msgstr "%(current)d %(delta)d"
+
+msgid "resourcesLoadingView/counter/delta"
+msgstr "+%(delta)d%"
+
+msgid "resourcesLoadingView/noVehicleData"
+msgstr "%(icon)s Informação temporariamente indisponível"
+
+msgid "resourcesLoadingView/noVehiclesRemains"
+msgstr "Não temos mais veículos"
+
+msgid "resourcesLoadingView/remainTopVehicles"
+msgstr "Veículos com estilos numerados restantes: %(counter)d"
+
+msgid "resourcesLoadingView/remainVehicles"
+msgstr "Veículos restantes: %(counter)d"
+
+msgid "resourcesLoadingView/resourceCard/intelligenceBlueprints"
+msgstr "Universal"
+
+msgid "resourcesLoadingView/resourceRate/maxReachedText"
+msgstr "Máximo de Recursos %(iconMax)"
+
+msgid "resourcesLoadingView/resourceRate/maxText"
+msgstr "Máximo %(maxValue)d %(iconInfo)"
+
+msgid "resourcesLoadingView/resourceRate/resourceLoadedText"
+msgstr "Recursos coletados %(iconLoaded)"
+
+msgid "resourcesLoadingView/resourceRate/text"
+msgstr "%(icon)%(rate)d %(equals) %(minValue)"
+
+msgid "resourcesLoadingView/resourcesHeader/blueprints"
+msgstr "Fragmentos de Projeto"
+
+msgid "resourcesLoadingView/resourcesHeader/currency"
+msgstr "Moedas"
+
+msgid "resourcesLoadingView/subtitle"
+msgstr "COLETA DE RECURSOS"
+
+msgid "tankPreview/button"
+msgstr "Selecionar Recursos"
+
+msgid "tankPreview/description/oneSerialProduct"
+msgstr "Você poderá comprar um pacote contendo um veículo com um estilo 3D numerado durante o evento."
+
+msgid "tankPreview/description/sequentialProduct"
+msgstr "Os primeiros %(topPlayers) jogadores vão receber um veículo com um estilo 3D numerado,\ne então %(basePlayers) veículos serão entregues sem o estilo 3D numerado."
+
+msgid "tankPreview/description/twoParallelProducts"
+msgstr "Você pode comprar ambos veículos durante o evento."
+
+msgid "tankPreview/title"
+msgstr "Colete e invista 100% dos recursos necessários e receba o %(vehicleInfo)!"
+
+msgid "tooltips/button/returnResources/description/text"
+msgstr "Você pode conferir os recursos investidos a qualquer momento, se necessário, além de retorná-los para sua conta clicando no botão \"Retornar Recursos\".\nO progresso da montagem será reiniciado, mas você poderá investir novamente estes ou outros recursos para obter um veículo."
+
+msgid "tooltips/button/returnResources/header/text"
+msgstr "Devolução de Recursos"
+
+msgid "tooltips/counter/error/text"
+msgstr "Dados temporariamente indisponíveis.\nEstamos trabalhando para resolver a situação."
+
+msgid "tooltips/counter/warning/text"
+msgstr "O número é exibido com atraso e pode ser diferente do número real de veículos."
+
+msgid "tooltips/eventBanner/description/severalVehicles"
+msgstr "Invista recursos e receba o %(vehicleName1) e %(vehicleName2). A quantidade de veículos é limitada."
+
+msgid "tooltips/eventBanner/description/singleVehicle"
+msgstr "Invista recursos e receba o %(vehicleName) com um estilo 3D numerado. A quantidade de veículos é limitada."
+
+msgid "tooltips/eventBanner/status/announce"
+msgstr "Ficará disponível: %(dateRange)"
+
+msgid "tooltips/eventBanner/status/dateRange"
+msgstr "%(startDate)s - %(endDate)s"
+
+msgid "tooltips/eventBanner/status/inProgress"
+msgstr "Disponível por %(timer)s"
+
+msgid "tooltips/eventBanner/status/inactive"
+msgstr "Disponível em:%(timer)s"
+
+msgid "tooltips/eventBanner/title"
+msgstr "Loja de Montagem"
+
+msgid "tooltips/mainView/info_tip/body"
+msgstr "Clique para saber mais sobre o evento"
+
+msgid "tooltips/mainView/selectVehicle/button"
+msgstr "Escolha um veículo para investir recursos nele.\nSe os recursos já foram investidos em outro veículo, eles serão retornados para sua conta."
+
+msgid "tooltips/mainView/timer/leftTime"
+msgstr "Tempo restante: %(leftTime)s"
+
+msgid "tooltips/progressbar/description"
+msgstr "Para montar um veículo, gaste 100% dos recursos necessários. A proporção de diferentes tipos de recursos pode ser alterada."
+
+msgid "tooltips/progressbar/moreInfo"
+msgstr "Se não houver veículos restantes, todos os recursos investidos serão devolvidos."
+
+msgid "tooltips/progressbar/resourcesChosen/label"
+msgstr "Selecionado"
+
+msgid "tooltips/progressbar/resourcesLoaded/label"
+msgstr "Investido"
+
+msgid "tooltips/progressbar/title"
+msgstr "Coleta de Recursos"
+
+msgid "tooltips/resourcesLoadingView/buttonDisabled/body"
+msgstr "O investimento de recursos está temporariamente indisponível. Por favor, tente novamente mais tarde."
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_description"
+msgstr "Fragmentos Universais e Nacionais"
+
+msgid "tooltips/resourcesLoadingView/header/blueprints_title"
+msgstr "Fragmentos de Projeto"
+
+msgid "tooltips/resourcesLoadingView/header/currency_description"
+msgstr "Recebido por ações ativas em batalha. Pode ser comprado com dinheiro real."
+
+msgid "tooltips/resourcesLoadingView/header/currency_title"
+msgstr "Moedas"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/amount"
+msgstr "%(icon)s %(amount)d / %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/body"
+msgstr "Investido:"
+
+msgid "tooltips/resourcesLoadingView/limitCounter/header"
+msgstr "O valor máximo deste recurso a ser investido: %(maxAmount)d"
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/body"
+msgstr "Você coletou os recursos necessários para obter um veículo. Você pode remover um tipo de recurso para selecionar outro."
+
+msgid "tooltips/resourcesLoadingView/resourcesLoaded/header"
+msgstr "Recursos Coletados"
+
+msgid "tooltips/uniq_style/description/firstPart"
+msgstr "Este é um veículo único com uma numeração própria e uma modificação visual especial."
+
+msgid "tooltips/uniq_style/description/secondPart"
+msgstr "O número é exibido nos lados do canhão e na parte traseira do casco. Números em veículos idênticos nunca são repetidos e são limitados."
+
+msgid "tooltips/uniq_style/moreInfo"
+msgstr "As características distintivas do seu veículo podem ser ocultadas. Remova seu estilo 3D numerado na tela Customização."
+
+msgid "tooltips/uniq_style/title"
+msgstr "Veículo Com Número"

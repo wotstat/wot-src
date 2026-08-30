@@ -1,0 +1,67 @@
+from PlayerEvents import g_playerEvents
+from frameworks.wulf import ViewFlags, ViewSettings, WindowFlags
+from gui.impl.gen import R
+from gui.impl.pub import WindowImpl, ViewImpl
+from helpers.time_utils import getTimestampFromUTC
+from story_mode.account_settings import setWelcomeScreenSeen
+from story_mode.gui.impl.gen.view_models.views.lobby.event_welcome_view_model import EventWelcomeViewModel
+from story_mode_common.configs.story_mode_settings import settingsSchema
+from story_mode.uilogging.story_mode.loggers import EventWelcomeViewLogger
+
+class EventWelcomeView(ViewImpl):
+    __slots__ = (b'_uiLogger',)
+    layoutID = R.views.story_mode.mono.lobby.event_welcome_view()
+
+    def __init__(self, layoutID=None):
+        settings = ViewSettings(layoutID or self.layoutID, ViewFlags.VIEW, EventWelcomeViewModel())
+        self._uiLogger = EventWelcomeViewLogger()
+        super(EventWelcomeView, self).__init__(settings)
+        return
+
+    @property
+    def viewModel(self):
+        return super(EventWelcomeView, self).getViewModel()
+
+    def _getEvents(self):
+        viewModel = self.getViewModel()
+        return (
+         (
+          viewModel.onClose, self.__onClose),
+         (
+          viewModel.onSubmit, self.__onClose),
+         (
+          g_playerEvents.onDisconnected, self.__onDisconnected))
+
+    def _onLoading(self, *args, **kwargs):
+        super(EventWelcomeView, self)._onLoading(*args, **kwargs)
+        self.__fillViewModel()
+        return
+
+    def _onLoaded(self, *args, **kwargs):
+        super(EventWelcomeView, self)._onLoaded(*args, **kwargs)
+        self._uiLogger.logOpen()
+        return
+
+    def __fillViewModel(self):
+        settings = settingsSchema.getModel()
+        if settings:
+            self.viewModel.setStartDate(getTimestampFromUTC(settings.entryPoint.eventStartAt.timetuple()))
+            self.viewModel.setEndDate(getTimestampFromUTC(settings.entryPoint.eventEndAt.timetuple()))
+        return
+
+    def __onClose(self):
+        self._uiLogger.logClose()
+        setWelcomeScreenSeen()
+        self.destroyWindow()
+        return
+
+    def __onDisconnected(self):
+        self.destroyWindow()
+        return
+
+
+class EventWelcomeWindow(WindowImpl):
+
+    def __init__(self, layoutID):
+        super(EventWelcomeWindow, self).__init__(wndFlags=WindowFlags.WINDOW | WindowFlags.WINDOW_FULLSCREEN, content=EventWelcomeView(layoutID=layoutID))
+        return

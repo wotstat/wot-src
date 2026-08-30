@@ -1,0 +1,122 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-10 22:04+0200\nLast-Translator: i_maliavko <i_maliavko@wargaming.net>\nLanguage-Team: Equipo de WoT <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "crewBooks/button/label"
+msgstr "Abrir"
+
+msgid "crewBooks/description"
+msgstr "Ir a estudiar libros de tripulación."
+
+msgid "crewBooks/error/locked"
+msgstr "Operación no disponible"
+
+msgid "crewBooks/title"
+msgstr "Libros de tripulación ({count})"
+
+msgid "crewBooks/tutorial/crewOperations"
+msgstr "YA PUEDESE\nESTUDIAR LIBROS DE TRIPULACIÓN"
+
+msgid "crewBooks/tutorial/readBook"
+msgstr "IR A ESTUDIAR\nLIBROS DE TRIPULACIÓN"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/body"
+msgstr "La tripulación está en batalla"
+
+msgid "crewBooks/warning/membersInBattle/tooltip/header"
+msgstr "Error"
+
+msgid "crewOperations/btn/tooltip/body"
+msgstr "Envía miembros de la tripulación al Cuartel, reentrena o devuelve a todos los tripulantes al vehículo inmediatamente y aplica libros de tripulación."
+
+msgid "crewOperations/btn/tooltip/header"
+msgstr "Operaciones de Tripulación"
+
+msgid "dropInBarrack/button/label"
+msgstr "Enviar"
+
+msgid "dropInBarrack/description"
+msgstr "Enviar todos los tripulantes al Cuartel."
+
+msgid "dropInBarrack/error/noCrew"
+msgstr "Sin tripulación"
+
+msgid "dropInBarrack/title"
+msgstr "Enviar tripulación al Cuartel"
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/body"
+msgstr "No puedes enviar todos los tripulantes al Cuartel."
+
+msgid "dropInBarrack/warning/crewIsLocked/tooltip/header"
+msgstr "Operación no disponible"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/body"
+msgstr "Tripulación en batalla"
+
+msgid "dropInBarrack/warning/inBattle/tooltip/header"
+msgstr "Error"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/body"
+msgstr "No hay suficientes literas en el Cuartel"
+
+msgid "dropInBarrack/warning/noSpace/tooltip/header"
+msgstr "Operación no disponible"
+
+msgid "retrain/button/label"
+msgstr "Reentrenar"
+
+msgid "retrain/description"
+msgstr "Reentrenar a todos los tripulantes para este vehículo."
+
+msgid "retrain/error/alreadyRetrained"
+msgstr "La tripulación ya está entrenada"
+
+msgid "retrain/error/locked"
+msgstr "Operación no disponible"
+
+msgid "retrain/error/noCrew"
+msgstr "Sin tripulación"
+
+msgid "retrain/title"
+msgstr "Reentrenar Tripulación"
+
+msgid "return/button/label"
+msgstr "Regresar"
+
+msgid "return/description"
+msgstr "Regresar la tripulación que luchó en este vehículo la batalla previa."
+
+msgid "return/error/allDemobilized"
+msgstr "Todos los tripulantes ya fueron despedidos"
+
+msgid "return/error/alreadyOnPlaces"
+msgstr "La tripulación ya está en el vehículo"
+
+msgid "return/error/noPrevious"
+msgstr "Luchar al menos una batalla\nen este vehículo"
+
+msgid "return/error/vehicleInBattle"
+msgstr "Este vehículo está en batalla"
+
+msgid "return/title"
+msgstr "Regresar tripulación al vehículo"
+
+msgid "return/toggle/description"
+msgstr "Regresar automáticamente a la tripulación que luchó en la batalla anterior en este vehículo."
+
+msgid "return/toggle/label"
+msgstr "Regreso automát."
+
+msgid "return/warning/memberDemobilized/tooltip/body"
+msgstr "Algunos miembros de la tripulación anterior se retiraron y ya no pueden volver al vehículo. Puedes recuperarlos en el Cuartel antes de que se acabe el tiempo. De otro modo, desaparecerán por completo de tu cuenta."
+
+msgid "return/warning/memberDemobilized/tooltip/header"
+msgstr "Advertencia"
+
+msgid "return/warning/membersInBattle/tooltip/body"
+msgstr "Algunos miembros de la tripulación previa están en batalla"
+
+msgid "return/warning/membersInBattle/tooltip/header"
+msgstr "Error"
+
+msgid "window/title"
+msgstr "Operaciones de Tripulación"
