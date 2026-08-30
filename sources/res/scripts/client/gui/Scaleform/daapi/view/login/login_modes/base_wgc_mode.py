@@ -1,0 +1,44 @@
+from __future__ import absolute_import
+import WGC
+from account_helpers.settings_core.settings_constants import GAME
+from gui.Scaleform.daapi.view.login.login_modes.base_mode import BaseMode
+_g_firstEntry = True
+
+class BaseWgcMode(BaseMode):
+
+    @property
+    def login(self):
+        return WGC.getUserName()
+
+    @property
+    def showRememberServerWarning(self):
+        return not self._loginManager.settingsCore.getSetting(GAME.LOGIN_SERVER_SELECTION) and self._loginManager.getPreference(b'server_select_was_set')
+
+    def onPopulate(self):
+        global _g_firstEntry
+        if self._loginManager.wgcAvailable:
+            self._loginManager.addOnWgcErrorListener(self._onWgcError)
+        autoLogin = _g_firstEntry and not self._loginManager.settingsCore.getSetting(GAME.LOGIN_SERVER_SELECTION) and not self._loginManager.getPreference(b'server_select_was_set')
+        if autoLogin:
+            self._loginManager.tryWgcLogin()
+        _g_firstEntry = False
+        return
+
+    def doLogin(self, userName, password, serverName, isSocialToken2Login):
+        self._loginManager.tryWgcLogin(serverName)
+        return
+
+    def skipRejectionError(self, loginStatus):
+        return self._loginManager.checkWgcCouldRetry(loginStatus)
+
+    def updateForm(self):
+        return
+
+    def destroy(self):
+        if self._loginManager.wgcAvailable:
+            self._loginManager.removeOnWgcErrorListener(self._onWgcError)
+        super(BaseWgcMode, self).destroy()
+        return
+
+    def _onWgcError(self):
+        return

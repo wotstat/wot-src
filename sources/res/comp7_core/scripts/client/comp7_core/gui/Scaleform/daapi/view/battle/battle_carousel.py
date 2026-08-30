@@ -1,0 +1,380 @@
+import logging
+from collections import namedtuple
+import BigWorld, typing, nations
+from account_helpers.AccountSettings import AccountSettings
+from comp7_core.gui.Scaleform.daapi.view.battle.common import getSavedRowCountValue, rowValueToRowCount
+from comp7_core.gui.Scaleform.daapi.view.meta.Comp7BattleTankCarouselMeta import Comp7BattleTankCarouselMeta
+from comp7_core.gui.comp7_core_constants import BATTLE_CTRL_ID
+from comp7_core_constants import ArenaPrebattlePhase
+from constants import REQUEST_COOLDOWN, ARENA_PERIOD
+from gui.impl import backport
+from gui.impl.gen import R
+from gui import GUI_NATIONS_ORDER_INDEX
+from gui.Scaleform.locale.RES_ICONS import RES_ICONS
+from gui.filters.carousel_filter import CarouselFilter, RoleCriteriesGroup
+from gui.Scaleform import getButtonsAssetPath
+from gui.Scaleform.daapi.view.common.filter_contexts import getFilterSetupContexts, FilterSetupContext
+from gui.Scaleform.daapi.view.common.vehicle_carousel.carousel_data_provider import CarouselDataProvider
+from gui.Scaleform.genConsts.BATTLE_VIEW_ALIASES import BATTLE_VIEW_ALIASES
+from gui.battle_control.controllers.period_ctrl import IAbstractPeriodView
+from gui.battle_control.gui_vehicle_builder import VehicleBuilder
+from gui.shared.gui_items.Vehicle import VEHICLE_TYPES_ORDER_INDICES
+from gui.shared.utils.functions import makeTooltip
+from gui.shared.utils.requesters import REQ_CRITERIA
+from helpers import dependency
+from helpers.i18n import makeString as _ms
+from items import vehicles
+from skeletons.gui.battle_session import IBattleSessionProvider
+from skeletons.gui.shared.gui_items import IGuiItemsFactory
+if typing.TYPE_CHECKING:
+    from gui.battle_control.arena_info.interfaces import IPrebattleSetupController
+_logger = logging.getLogger(__name__)
+_FLAG_ICON_TEMPLATE = b'../maps/icons/flags/160x100/%s.png'
+_FLAG_SMALL_ICON_TEMPLATE = b'../maps/icons/nations/155x31/%s.png'
+_TYPE_ICON_TEMPLATE = b'../maps/icons/vehicleTypes/big/%s.png'
+_TYPE_ICON_SMALL_TEMPLATE = b'../maps/icons/vehicleTypes/60x54/%s.png'
+
+class _InBattleRentedCriteriesGroup(RoleCriteriesGroup):
+
+    def __init__(self, rentedList):
+        super(_InBattleRentedCriteriesGroup, self).__init__()
+        self.__rentedList = rentedList
+        return
+
+    def update(self, filters):
+        self._criteria = REQ_CRITERIA.EMPTY
+        self._setNationsCriteria(filters)
+        self._setClassesCriteria(filters)
+        self._setRentedCriteria(filters)
+        self._setFavoriteVehicleCriteria(filters)
+        self._setVehicleNameCriteria(filters)
+        self._setRolesCriteria(filters)
+        return
+
+    def _setRentedCriteria(self, filters):
+        if not filters[b'rented']:
+            self._criteria |= ~REQ_CRITERIA.VEHICLE.SPECIFIC_BY_CD(self.__rentedList)
+        return
+
+
+class _PrebattleCarouselFilter(CarouselFilter):
+
+    def __init__(self, serverSections, clientSections):
+        self.__rentedList = []
+        super(_PrebattleCarouselFilter, self).__init__()
+        self._serverSections = serverSections
+        self._clientSections = clientSections
+        return
+
+    def save(self):
+        return
+
+    def load(self):
+        filters = AccountSettings.getFilterDefaults(self._serverSections)
+        for section in self._clientSections:
+            filters.update(AccountSettings.getFilterDefault(section))
+
+        self._filters = filters
+        self.update(filters, save=False)
+        return
+
+    def setRentedList(self, rentedList):
+        self.__rentedList = rentedList
+        self._setCriteriaGroups()
+        self._updateCriteriesGroups()
+        return
+
+    def _setCriteriaGroups(self):
+        self._criteriesGroups = (_InBattleRentedCriteriesGroup(self.__rentedList), RoleCriteriesGroup())
+        return
+
+
+def getComp7CarouselVehicleDataVO(vehicle):
+    return {b'vehicleName': (vehicle.shortUserName), 
+       b'flagIcon': (_FLAG_ICON_TEMPLATE % nations.NAMES[vehicle.nationID]), 
+       b'flagIconSmall': (_FLAG_SMALL_ICON_TEMPLATE % nations.NAMES[vehicle.nationID]), 
+       b'vehicleIcon': (vehicle.icon), 
+       b'vehicleIconSmall': (vehicle.iconSmall), 
+       b'vehicleTypeIcon': (_TYPE_ICON_TEMPLATE % vehicle.type), 
+       b'vehicleTypeIconSmall': (_TYPE_ICON_SMALL_TEMPLATE % vehicle.type), 
+       b'favorite': (vehicle.isFavorite), 
+       b'enabled': True, 
+       b'roleName': (b'' if vehicle.roleLabel in (b'NotDefined', b'role_SPG') else vehicle.roleLabel)}
+
+
+class _PrebattleCarouselDataProvider(CarouselDataProvider):
+    __itemsFactory = dependency.descriptor(IGuiItemsFactory)
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+    _RawVehicleData = namedtuple(b'_RawVehicleData', (b'strCD', b'settings', b'isElite', b'isRented'))
+
+    def __init__(self, carouselFilter, itemsCache):
+        super(_PrebattleCarouselDataProvider, self).__init__(carouselFilter, itemsCache)
+        self.__vehiclesData = {}
+        self.__selectedCD = None
+        self.__onBanPhaseUpdated()
+        banCtrl = self.__getVehicleBanCtrl()
+        if banCtrl is not None:
+            banCtrl.onBanPhaseUpdated += self.__onBanPhaseUpdated
+        return
+
+    def _dispose(self):
+        banCtrl = self.__getVehicleBanCtrl()
+        if banCtrl is not None:
+            banCtrl.onBanPhaseUpdated -= self.__onBanPhaseUpdated
+        super(_PrebattleCarouselDataProvider, self)._dispose()
+        return
+
+    def getSelectedCD(self):
+        return self.__selectedCD
+
+    def applyFilter(self, forceApply=False):
+        prevFilteredIndices = self._filteredIndices[:]
+        prevSelectedIdx = self._selectedIdx
+        self._filteredIndices = []
+        self._selectedIdx = -1
+        visibleVehiclesIntCDs = [vehicle.intCD for vehicle in self._getCurrentVehicles()]
+        for idx in self._getSortedIndices():
+            if idx >= len(self._vehicles):
+                _logger.debug(b'Could not find vehicle to apply filter')
+                continue
+            vehicle = self._vehicles[idx]
+            if vehicle.intCD in visibleVehiclesIntCDs:
+                self._filteredIndices.append(idx)
+                if self.__selectedCD == vehicle.intCD:
+                    self._selectedIdx = len(self._filteredIndices) - 1
+
+        needUpdate = forceApply or prevFilteredIndices != self._filteredIndices or prevSelectedIdx != self._selectedIdx
+        if needUpdate:
+            self._filterByIndices()
+        return
+
+    def getVehicleCDByIdx(self, filteredIdx):
+        realIdx = self._filteredIndices[filteredIdx]
+        vehicle = self._vehicles[realIdx]
+        return vehicle.intCD
+
+    def setVehicles(self, vehiclesList):
+        self.__vehiclesData = {}
+        rentedList = []
+        for v in vehiclesList:
+            vehData = self._RawVehicleData(v[b'compDescr'], v[b'settings'], bool(v[b'isElite']), bool(v[b'isRent']))
+            intCD = vehicles.getVehicleType(vehData.strCD).compactDescr
+            self.__vehiclesData[intCD] = vehData
+            if vehData.isRented:
+                rentedList.append(intCD)
+
+        self._filter.setRentedList(rentedList)
+        self.buildList()
+        return
+
+    def setCurrentVehicle(self, vehicleCD):
+        if vehicleCD is None:
+            return
+        else:
+            for vehicle in self._vehicles:
+                if vehicle.compactDescr == vehicleCD:
+                    self.__selectedCD = vehicleCD
+                    self.applyFilter()
+                    self.refresh()
+                    break
+
+            return
+
+    def _buildVehicleItems(self):
+        self._vehicles = []
+        self._vehicleItems = []
+        vehicleIcons = []
+        for vehicleData in self.__vehiclesData.values():
+            vehicle = self.__makeGuiVehicle(vehicleData)
+            vehicleIcons.append(vehicle.icon)
+            self._vehicles.append(vehicle)
+            self._vehicleItems.append(getComp7CarouselVehicleDataVO(vehicle))
+
+        self.app.imageManager.loadImages(vehicleIcons)
+        return
+
+    @classmethod
+    def _vehicleComparisonKey(cls, vehicle):
+        return (
+         not vehicle.isFavorite,
+         GUI_NATIONS_ORDER_INDEX[vehicle.nationName],
+         VEHICLE_TYPES_ORDER_INDICES[vehicle.type],
+         vehicle.userName)
+
+    def __onBanPhaseUpdated(self):
+        banCtrl = self.__getVehicleBanCtrl()
+        if banCtrl.getArenaPrebattlePhase() == ArenaPrebattlePhase.PICK:
+            bannedVehicleCDs = []
+            for banVehicleInfo in banCtrl.bannedVehicles.values():
+                vehicleCD = banVehicleInfo[b'vehicleCD']
+                vehicleCopies = banCtrl.getVehicleCopies(vehicleCD)
+                bannedVehicleCDs.append(vehicleCD)
+                bannedVehicleCDs.extend(vehicleCopies)
+
+            anyBanned = False
+            for i, vehicle in enumerate(self._vehicles):
+                if vehicle.compactDescr in bannedVehicleCDs:
+                    self._vehicleItems[i].update({b'enabled': False, 
+                       b'disableReasonIcon': (RES_ICONS.MAPS_ICONS_HANGAR_CAROUSEL_CARDS_ALERTS_NOTSUITABLE), 
+                       b'disableReasonMsg': (backport.text(R.strings.comp7_ext.carousel.banned()))})
+                    anyBanned = True
+
+            if anyBanned:
+                self.refresh()
+                self._filterByIndices()
+        return
+
+    def __getVehicleBanCtrl(self):
+        return self.__sessionProvider.dynamic.getControllerByID(BATTLE_CTRL_ID.COMP7_VEHICLE_BAN_CTRL)
+
+    @staticmethod
+    def __makeGuiVehicle(vehicleData):
+        builder = VehicleBuilder()
+        builder.setStrCD(vehicleData.strCD)
+        builder.setSettings(vehicleData.settings)
+        return builder.getResult()
+
+
+class PrebattleTankCarousel(Comp7BattleTankCarouselMeta, IAbstractPeriodView):
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+    _FILTER_SERVER_SECTIONS = ()
+    _FILTER_CLIENT_SECTIONS = ()
+
+    def __init__(self):
+        super(PrebattleTankCarousel, self).__init__()
+        self._carouselDPCls = _PrebattleCarouselDataProvider
+        self._carouselFilterCls = _PrebattleCarouselFilter
+        self.__cooldownCallback = None
+        return
+
+    def hasRoles(self):
+        return True
+
+    def setFilter(self, idx):
+        self.filter.switch(self._usedFilters[idx])
+        self.blinkCounter()
+        self.applyFilter()
+        return
+
+    def setRowCount(self, value):
+        self.as_rowCountS(value)
+        return
+
+    def onViewIsHidden(self):
+        self.destroy()
+        return
+
+    def selectVehicle(self, idx):
+        if self.__isSelectionInCooldown():
+            return
+        vehCD = self._carouselDP.getVehicleCDByIdx(idx)
+        self.__getPRBController().chooseVehicle(vehCD)
+        self.__startCooldown()
+        return
+
+    def setPeriod(self, period):
+        self.as_setEnabledS(period == ARENA_PERIOD.PREBATTLE)
+        return
+
+    def _populate(self):
+        super(PrebattleTankCarousel, self)._populate()
+        self.app.loaderManager.onViewLoaded += self.__onViewLoaded
+        self.as_initCarouselFilterS(self.__getInitialFilterVO(getFilterSetupContexts(1)))
+        prebattleCtrl = self.__getPRBController()
+        if prebattleCtrl is not None:
+            prebattleCtrl.onVehiclesListUpdated += self.__onAvailableVehiclesUpdated
+            prebattleCtrl.onVehicleChanged += self.__onSelectedVehicleChanged
+            prebattleCtrl.onSelectionConfirmed += self.__onSelectionConfirmed
+            prebattleCtrl.onBattleStarted += self.__onBattleStarted
+            self._carouselDP.setVehicles(prebattleCtrl.getVehiclesList())
+            currVehicle = prebattleCtrl.getCurrentVehicleInfo()
+            if currVehicle:
+                self._carouselDP.setCurrentVehicle(currVehicle[b'compDescr'])
+        savedRowValue, isSavedByPlayer = getSavedRowCountValue()
+        if isSavedByPlayer:
+            self.as_rowCountS(rowValueToRowCount(savedRowValue))
+        periodCtrl = self.__sessionProvider.shared.arenaPeriod
+        self.as_setEnabledS(periodCtrl is not None and periodCtrl.getPeriod() == ARENA_PERIOD.PREBATTLE)
+        return
+
+    def _dispose(self):
+        self.app.loaderManager.onViewLoaded -= self.__onViewLoaded
+        prebattleCtrl = self.__getPRBController()
+        if prebattleCtrl is not None:
+            prebattleCtrl.onVehiclesListUpdated -= self.__onAvailableVehiclesUpdated
+            prebattleCtrl.onVehicleChanged -= self.__onSelectedVehicleChanged
+            prebattleCtrl.onSelectionConfirmed -= self.__onSelectionConfirmed
+            prebattleCtrl.onBattleStarted -= self.__onBattleStarted
+        self.__resetCooldown()
+        super(PrebattleTankCarousel, self)._dispose()
+        return
+
+    def _initDataProvider(self):
+        filter = self._carouselFilterCls(self._FILTER_SERVER_SECTIONS, self._FILTER_CLIENT_SECTIONS)
+        self._carouselDP = self._carouselDPCls(filter, None)
+        return
+
+    def _getFilters(self):
+        return (b'rented', b'favorite')
+
+    def __isSelectionInCooldown(self):
+        return self.__cooldownCallback is not None
+
+    def __getPRBController(self):
+        return self.__sessionProvider.dynamic.prebattleSetup
+
+    def __getInitialFilterVO(self, contexts):
+        filters = self.filter.getFilters(self._usedFilters)
+        hotFilters = []
+        for entry in self._usedFilters:
+            filterCtx = contexts.get(entry, FilterSetupContext())
+            hotFilters.append({b'id': entry, 
+               b'value': (getButtonsAssetPath(filterCtx.asset or entry)), 
+               b'selected': (filters[entry]), 
+               b'enabled': True, 
+               b'tooltip': (makeTooltip((b'#tank_carousel_filter:tooltip/{}/header').format(entry), _ms((b'#tank_carousel_filter:tooltip/{}/body').format(entry), **filterCtx.ctx)))})
+
+        filtersVO = {b'mainBtn': {b'value': (getButtonsAssetPath(b'params')), 
+                        b'tooltip': b'#comp7.comp7_ext:battleCarousel/filterButtonTooltip'}, 
+           b'hotFilters': hotFilters, 
+           b'isVisible': True}
+        return filtersVO
+
+    def __onViewLoaded(self, view, *args):
+        if view.settings.alias == BATTLE_VIEW_ALIASES.COMP7_TANK_CAROUSEL_FILTER_POPOVER:
+            view.setTankCarousel(self)
+        return
+
+    def __onAvailableVehiclesUpdated(self, vehiclesList):
+        self._carouselDP.setVehicles(vehiclesList)
+        return
+
+    def __onSelectedVehicleChanged(self, vehicle):
+        if vehicle:
+            self._carouselDP.setCurrentVehicle(vehicle.intCD)
+        return
+
+    def __onSelectionConfirmed(self):
+        self.as_hideS(True)
+        return
+
+    def __onBattleStarted(self):
+        self.as_hideS(True)
+        return
+
+    def __startCooldown(self):
+        self.__resetCooldown()
+        self.__cooldownCallback = BigWorld.callback(REQUEST_COOLDOWN.VEHICLE_IN_BATTLE_SWITCH, self.__onCooldownExpired)
+        self.as_setEnabledS(False)
+        return
+
+    def __onCooldownExpired(self):
+        self.__resetCooldown()
+        self.as_setEnabledS(True)
+        return
+
+    def __resetCooldown(self):
+        if self.__cooldownCallback is not None:
+            BigWorld.cancelCallback(self.__cooldownCallback)
+            self.__cooldownCallback = None
+        return

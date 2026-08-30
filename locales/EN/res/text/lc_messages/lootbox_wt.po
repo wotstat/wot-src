@@ -1,0 +1,104 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "autoOpenView/boxCount"
+msgid_plural "plural/autoOpenView/boxCount"
+msgstr[0] "%(count) remaining module"
+msgstr[1] "%(count) remaining modules"
+msgstr[2] "%(count) remaining modules"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Back to Modules"
+
+msgid "boxTooltip/description/text/wt"
+msgstr "When opened, these modules may grant you Premium vehicles, in-game currencies, and other valuable rewards."
+
+msgid "boxTooltip/howGet/text/wt"
+msgstr "Paradoxmoduls can be obtained in the in-game Store or Premium Shop."
+
+msgid "common/boxCategory/lowerCase/wt"
+msgstr "Paradoxmodul"
+
+msgid "common/boxCategory/upperCase/wt"
+msgstr "PARADOXMODUL"
+
+msgid "common/getButton/lowerCase"
+msgstr "Get Modules"
+
+msgid "common/getButton/upperCase"
+msgstr "GET MODULES"
+
+msgid "common/loader"
+msgstr "Module opening..."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Open modules to view statistics."
+
+msgid "common/statistics/header"
+msgstr "Modules opened: %(count)"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "All information on opened modules will be deleted."
+
+msgid "entryPoint/boxes"
+msgstr "TO MODULES"
+
+msgid "entryPoint/tooltip/description"
+msgstr "These are special modules containing new and unique items, including Premium vehicles, customization elements, in-game currencies, and other valuable rewards.\nModules can be obtained from the in-game Store or Premium Shop."
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "Modules cannot currently be opened or obtained due to technical reasons. We apologize for the temporary inconvenience."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Modules Temporarily Unavailable"
+
+msgid "eventName/lowerCase"
+msgstr "Break the Paradox"
+
+msgid "eventName/upperCase"
+msgstr "BREAK THE PARADOX"
+
+msgid "guaranteedTitle/nextBox"
+msgstr "Guaranteed Reward in the next module!"
+
+msgid "guaranteedTitle/text"
+msgstr "Maximum modules before a Guaranteed Reward: %(count)"
+
+msgid "infoPage/footer/description/autoOpen"
+msgstr "If you do not open modules before the end of the event, they will be opened automatically."
+
+msgid "infoPage/footer/description/compensation"
+msgstr "If you already own all vehicles from the list of possible module contents, then all subsequent vehicles you receive from modules will be compensated in gold equal to their full value."
+
+msgid "infoPage/footer/description/guaranteed"
+msgstr "Every %(guaranteed0)s modules are guaranteed to contain a Premium vehicle. If you open them without one dropping such a vehicle, then a Premium vehicle you do not already own will drop when you open the %(guaranteed0)sth module. When it does, the counter is reset."
+
+msgid "infoPage/header/description"
+msgstr "Open the module for the chance to receive valuable in-game items! See more details below."
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "From the %(name) (%(boxesCount) modules opened)"
+
+msgid "noBoxesView/description/"
+msgstr "You do not have any modules. You can get them\nin the in-game Store or the Premium Shop."
+
+msgid "preview/backLabel"
+msgstr "TO MODULES"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Modules available: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "No modules available"
+
+msgid "singleRewardView/tooltip/description/"
+msgstr "If you already own all the vehicles from the list of possible module contents, then all subsequent vehicles you receive from modules will be compensated in gold."
+
+msgid "singleRewardView/tooltip/remainingCount"
+msgid_plural "plural/singleRewardView/tooltip/remainingCount"
+msgstr[0] "%(remainingCount) module"
+msgstr[1] "%(remainingCount) modules"
+msgstr[2] "%(remainingCount) modules"
+
+msgid "singleRewardView/tooltip/subtitle/"
+msgstr "The Guaranteed Reward is a vehicle from the list of possible module contents.\nIf you open %(remainingCount) without one dropping such a vehicle, it will drop when you open the %(count) module. When it does, the counter is reset."

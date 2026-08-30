@@ -1,0 +1,158 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2022-09-02 10:00+0300\nPO-Revision-Date: 2022-09-02 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "activation/ActivateConfirm"
+msgstr "Активировать"
+
+msgid "activation/BuyAndActivateConfirm"
+msgstr "Купить и активировать"
+
+msgid "activation/activateBonus"
+msgstr "Активировать резерв: %(bonusDescription)s"
+
+msgid "activation/activateButton"
+msgstr "Активировать резерв"
+
+msgid "activation/activateButtonClan"
+msgstr "К Укрепрайону"
+
+msgid "activation/battleXPDescription"
+msgstr "Бонус к боевому опыту на 1 ч"
+
+msgid "activation/battleXPTitle"
+msgstr "Боевой опыт"
+
+msgid "activation/bonus"
+msgstr "+%(bonus)%"
+
+msgid "activation/buyAndActivateBoosterTitle"
+msgstr "Приобрести и активировать улучшенный личный резерв, который даёт %(boosterBonus)s к %(boosterTerm)s?"
+
+msgid "activation/buyGoldConfirm"
+msgstr "Докупить золото"
+
+msgid "activation/buyGoldTitle"
+msgstr "Докупить золото, необходимое для приобретения улучшенного личного резерва, который даёт %(boosterBonus)s к %(boosterTerm)s?"
+
+msgid "activation/buyGoldWarning"
+msgstr "{orange_Open}На покупку улучшенного личного резерва не хватает золота:{orange_Close}"
+
+msgid "activation/clanBoostersDescription"
+msgstr "Кредиты и боевой опыт"
+
+msgid "activation/clanBoostersDescriptionCrewAndFree"
+msgstr "Комбинированный опыт"
+
+msgid "activation/clanBoostersTitle"
+msgstr "Клановые резервы"
+
+msgid "activation/clanLeaderActivateBonus"
+msgstr "Активировать резерв в Укрепрайоне"
+
+msgid "activation/clanMemberViewBonus"
+msgstr "Просмотреть в Укрепрайоне"
+
+msgid "activation/comboXPDescription"
+msgstr "Бонус к комбинированному опыту на 1 ч"
+
+msgid "activation/comboXPTitle"
+msgstr "Комбинированный опыт"
+
+msgid "activation/creditsDescription"
+msgstr "Бонус к кредитам на 1 ч"
+
+msgid "activation/creditsTitle"
+msgstr "Кредиты"
+
+msgid "activation/footer"
+msgstr "Активируйте личные резервы с ограниченным сроком: %(expirableAmount) в течение %(expirableTime)"
+
+msgid "activation/frontLineXPDescription"
+msgstr "Бонус к фронтовому опыту на 1 ч"
+
+msgid "activation/frontLineXPTitle"
+msgstr "Фронтовой опыт"
+
+msgid "activation/informationButton"
+msgstr "ИНФОРМАЦИЯ"
+
+msgid "activation/price"
+msgstr "Стоимость:"
+
+msgid "activation/subFooter/depot"
+msgstr "Складе"
+
+msgid "activation/subFooter/main"
+msgstr "Резервы, срок действия которых подходит к концу, активируются первыми. Свои резервы можно посмотреть на %(depot)"
+
+msgid "activation/subTitle/main"
+msgstr "Активируйте {whiteSpanish_Open}до трёх личных резервов{whiteSpanish_Close}, чтобы зарабатывать больше кредитов и опыта в бою. Вы можете приобрести больше личных резервов в %(store)s."
+
+msgid "activation/subTitle/store"
+msgstr "Магазине"
+
+msgid "activation/terms/booster_credits"
+msgstr "кредитам"
+
+msgid "activation/terms/booster_fl_xp"
+msgstr "фронтовому опыту"
+
+msgid "activation/terms/booster_free_xp_and_crew_xp"
+msgstr "комбинированному опыту"
+
+msgid "activation/terms/booster_xp"
+msgstr "боевому опыту"
+
+msgid "activation/title"
+msgstr "ЛИЧНЫЕ РЕЗЕРВЫ"
+
+msgid "activation/upgradeBoosterDescription"
+msgstr "{yellow_Open}Активированный стандартный личный резерв, который даёт %(previousBoosterBonus)s к %(previousBoosterTerm)s, будет списан.{yellow_Close}"
+
+msgid "activation/upgradeBoosterTitle"
+msgstr "Активировать улучшенный личный резерв, который даёт %(boosterBonus)s к %(boosterTerm)s, вместо активированного стандартного личного резерва?"
+
+msgid "battleView/notice"
+msgstr "Личные резервы можно активировать в бою в любой момент. Вы получите бонус, даже если срок действия резерва истекает во время боя."
+
+msgid "battleView/title"
+msgstr "Активация личных резервов"
+
+msgid "depot/buyButton"
+msgstr "К покупке"
+
+msgid "disabledReserveTooltip/text"
+msgstr "Другой резерв этого типа уже активирован."
+
+msgid "finishedReserveTooltip/text"
+msgstr "Срок действия этого личного резерва истёк во время боя, однако вы получите бонус по итогам сражения."
+
+msgid "hangarEntry/minute"
+msgstr "%(minutesLeft)мин"
+
+msgid "hangarEntryTooltip/bonus"
+msgstr "+%(bonus)%"
+
+msgid "hangarEntryTooltip/tooltipDisabled"
+msgstr "Активированные личные резервы недоступны в данном режиме."
+
+msgid "intro/buttons/close"
+msgstr "Так точно!"
+
+msgid "intro/buttons/details"
+msgstr "Подробнее"
+
+msgid "intro/description"
+msgstr "Личные резервы с ограниченным сроком действия доступны лишь некоторое время после получения. Если за это время их не активировать, они пропадут. Пока у вас есть резервы с ограниченным сроком, использовать бессрочные резервы того же типа нельзя."
+
+msgid "intro/title"
+msgstr "ЛИЧНЫЕ РЕЗЕРВЫ С ОГРАНИЧЕННЫМ СРОКОМ ДЕЙСТВИЯ"
+
+msgid "noPaidReserveTooltip/text"
+msgstr "У вас нет личных резервов данного типа на Складе. Вы можете докупить их позже или активировать в Ангаре."
+
+msgid "noReserveTooltip/infoText"
+msgstr "Выполняйте задачи и участвуйте в игровых событиях, чтобы получить личные резервы."
+
+msgid "noReserveTooltip/text"
+msgstr "У вас нет личных резервов данного типа на Складе."

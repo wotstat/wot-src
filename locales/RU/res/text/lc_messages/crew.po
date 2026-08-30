@@ -1,0 +1,932 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "barracks/action/enlarge"
+msgstr "Расширить"
+
+msgid "barracks/action/retireUndertrained"
+msgstr "Демобилизовать необученных"
+
+msgid "barracks/bunks/title"
+msgstr "Койки:"
+
+msgid "barracks/enlarge/contentLine"
+msgstr "Укажите количество коек для покупки. Свободных коек в Казарме: %(freeBunksCount)s/%(allBunksCount)s."
+
+msgid "barracks/enlarge/discountTooltip/header"
+msgstr "Стоимость со скидкой"
+
+msgid "barracks/enlarge/discountTooltip/newCost"
+msgstr "Новая стоимость: %(currency)s за %(bunksCount)s коек"
+
+msgid "barracks/enlarge/discountTooltip/previousCost"
+msgstr "Предыдущая стоимость: %(currency)s за %(bunksCount)s коек"
+
+msgid "barracks/enlarge/header"
+msgstr "Расширить Казарму?"
+
+msgid "barracks/retireUndertrainedTooltip/description"
+msgstr "В Казарме вы можете демобилизовать необученных членов экипажа, у которых нет {whiteSpanish_Open}210 060{whiteSpanish_Close}{icon}, необходимых для изучения первого навыка на {whiteSpanish_Open}100%{whiteSpanish_Close}."
+
+msgid "barracks/retireUndertrainedTooltip/header"
+msgstr "Необученные члены экипажа"
+
+msgid "barracks/retireUndertrainedTooltip/noUndertrainedMembers"
+msgstr "У вас нет необученных членов экипажа"
+
+msgid "barracks/retireUndertrainedTooltip/warning"
+msgstr "Вы не получите компенсации за демобилизацию необученных членов экипажа. Вы не сможете восстановить таких членов экипажа, а весь их опыт будет списан."
+
+msgid "barracks/title"
+msgstr "КАЗАРМА"
+
+msgid "barracks/tooltip/enlarge/body"
+msgstr "Нажмите, чтобы расширить Казарму."
+
+msgid "barracks/tooltip/enlarge/header"
+msgstr "Расширение Казармы"
+
+msgid "common/exclamationMark"
+msgstr "!"
+
+msgid "common/filter/location"
+msgstr "Расположение"
+
+msgid "common/imageNotAvailable"
+msgstr "Изображение недоступно"
+
+msgid "common/inBarracks"
+msgstr "Находится в Казарме"
+
+msgid "common/inBattle"
+msgstr "В бою"
+
+msgid "common/inPrebattle"
+msgstr "В составе формирования"
+
+msgid "common/navigation/aboutCrew"
+msgstr "ОБ ЭКИПАЖЕ"
+
+msgid "common/navigation/toBarracks"
+msgstr "В КАЗАРМУ"
+
+msgid "common/navigation/toGarage"
+msgstr "В АНГАР"
+
+msgid "common/navigation/toPersonalFile"
+msgstr "К ПРОФИЛЮ"
+
+msgid "confirmSkills/percent"
+msgstr "%(value)s%"
+
+msgid "conversionAwards/button/submit"
+msgstr "Так точно!"
+
+msgid "conversionAwards/buttonNote"
+msgstr "Вы обменяли членов экипажа на учебные материалы."
+
+msgid "conversionAwards/title"
+msgstr "УСПЕШНЫЙ ОБМЕН"
+
+msgid "conversionAwards/underTitle"
+msgstr "На ваш аккаунт добавлены следующие предметы:"
+
+msgid "conversionConfirm/button/cancel/label"
+msgstr "Отменить"
+
+msgid "conversionConfirm/button/retire/label"
+msgstr "Демобилизовать"
+
+msgid "conversionConfirm/button/showTankmen/label"
+msgstr "Будут демобилизованы: {amount}"
+
+msgid "conversionConfirm/title"
+msgstr "Демобилизовать необученных членов экипажа?"
+
+msgid "conversionConfirm/warning"
+msgstr "Вы не получите компенсации за демобилизацию необученных членов экипажа. Вы не сможете восстановить таких членов экипажа, а весь их опыт будет списан."
+
+msgid "crewBanner/button/fill/label"
+msgstr "Распределить навыки"
+
+msgid "crewBanner/button/fill/tooltip/disable/body"
+msgstr "У вас нет членов экипажа с нераспределёнными навыками."
+
+msgid "crewBanner/button/fill/tooltip/disable/header"
+msgstr "Невозможно распределить навыки"
+
+msgid "crewBanner/button/fill/tooltip/enable/body"
+msgstr "Неизученные навыки, отмеченные плюсом, будут распределены автоматически в соответствии с определённой логикой."
+
+msgid "crewBanner/button/fill/tooltip/enable/header"
+msgstr "Автораспределение всех навыков"
+
+msgid "crewBanner/button/reset/label"
+msgstr "Сбросить все навыки"
+
+msgid "crewBanner/button/reset/tooltip/disable/body"
+msgstr "У вас нет членов экипажа с изученными навыками."
+
+msgid "crewBanner/button/reset/tooltip/disable/header"
+msgstr "Невозможно сбросить навыки"
+
+msgid "crewBanner/button/reset/tooltip/enable/body"
+msgstr "Сброс всех навыков у всех членов экипажа на аккаунте. Операцию невозможно отменить."
+
+msgid "crewBanner/button/reset/tooltip/enable/header"
+msgstr "Сбросить все навыки"
+
+msgid "crewBanner/infoText"
+msgstr "Бесплатный сброс навыков или автоматическое распределение неизученных навыков у всех членов экипажа на аккаунте."
+
+msgid "crewInfoTooltip/accelerateTraining"
+msgstr "Обучение экипажа ускорено"
+
+msgid "crewInfoTooltip/efficiencyBonus/title"
+msgstr "Бонус к эффективности: {{@ style (color $color)}}+{{value}}%{{/}}"
+
+msgid "crewInfoTooltip/lowEfficiency/title"
+msgstr "Эффективность навыков"
+
+msgid "crewInfoTooltip/penalty/description"
+msgstr "Член экипажа не обучен на эту машину. Навыки недоступны."
+
+msgid "crewInfoTooltip/penalty/specialization"
+msgstr "Специализация:"
+
+msgid "crewInfoTooltip/penalty/title"
+msgstr "Навыки недоступны"
+
+msgid "crewInfoTooltip/perksBlock/bonus"
+msgstr "Дополнительные навыки:"
+
+msgid "crewInfoTooltip/perksBlock/major"
+msgstr "Навыки основной специальности:"
+
+msgid "crewInfoTooltip/specialization/nation/china"
+msgstr "(Китай)"
+
+msgid "crewInfoTooltip/specialization/nation/czech"
+msgstr "(Чехословакия)"
+
+msgid "crewInfoTooltip/specialization/nation/france"
+msgstr "(Франция)"
+
+msgid "crewInfoTooltip/specialization/nation/germany"
+msgstr "(Германия)"
+
+msgid "crewInfoTooltip/specialization/nation/italy"
+msgstr "(Италия)"
+
+msgid "crewInfoTooltip/specialization/nation/japan"
+msgstr "(Япония)"
+
+msgid "crewInfoTooltip/specialization/nation/poland"
+msgstr "(Польша)"
+
+msgid "crewInfoTooltip/specialization/nation/sweden"
+msgstr "(Швеция)"
+
+msgid "crewInfoTooltip/specialization/nation/uk"
+msgstr "(Великобритания)"
+
+msgid "crewInfoTooltip/specialization/nation/usa"
+msgstr "(США)"
+
+msgid "crewInfoTooltip/specialization/nation/ussr"
+msgstr "(СССР)"
+
+msgid "crewInfoTooltip/specialization/vehicleType/AT-SPG"
+msgstr "Все премиум ПТ-САУ {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/SPG"
+msgstr "Все премиум САУ {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/heavyTank"
+msgstr "Все тяжёлые премиум танки {{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/lightTank"
+msgstr "Все лёгкие премиум танки\n{{nation}}"
+
+msgid "crewInfoTooltip/specialization/vehicleType/mediumTank"
+msgstr "Все средние премиум танки\n{{nation}}"
+
+msgid "dogPawTooltip/details/body"
+msgstr "Подробнее"
+
+msgid "filter/group/details/title"
+msgstr "Подробнее"
+
+msgid "filter/group/nation/title"
+msgstr "Нация"
+
+msgid "filter/group/other/title"
+msgstr "Другое"
+
+msgid "filter/group/special/title"
+msgstr "Особые"
+
+msgid "filter/group/tankmanRole/title"
+msgstr "Специальность"
+
+msgid "filter/group/vehicleTier/longTitle"
+msgstr "Уровень техники"
+
+msgid "filter/group/vehicleTier/shortTitle"
+msgstr "Уровень"
+
+msgid "filter/group/vehicleType/barracks/title"
+msgstr "Специализация"
+
+msgid "filter/group/vehicleType/tankChange/title"
+msgstr "Тип техники"
+
+msgid "filter/popup/button/title"
+msgstr "Фильтр"
+
+msgid "filter/popup/default/title"
+msgstr "Фильтр"
+
+msgid "filter/popup/skinChange/title"
+msgstr "Фильтр по нации"
+
+msgid "filter/popup/tankChange/title"
+msgstr "Фильтр по технике"
+
+msgid "filter/reset"
+msgstr "Сбросить фильтр"
+
+msgid "filter/search/placeholder"
+msgstr "Поиск по названию"
+
+msgid "filter/search/tooltip/header"
+msgstr "Поиск по названию"
+
+msgid "filter/title"
+msgstr "Показано:"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/body"
+msgstr "Включить/отключить отображение членов экипажа техники, на которой исследованы все модули и следующие в ветке развития машины."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/elite/title"
+msgstr "Элитная техника"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/body"
+msgstr "Включить/отключить отображение членов экипажа, обученных на премиум технику."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/premium/title"
+msgstr "Премиум техника"
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/body"
+msgstr "Включить/отключить отображение членов экипажа в основной технике."
+
+msgid "filter/tooltip/crewMemberVehicleGrade/primary/title"
+msgstr "Основная техника"
+
+msgid "filter/tooltip/crewMemberVehicleType/body"
+msgstr "Включить/отключить отображение членов экипажа данного типа техники."
+
+msgid "filter/tooltip/nation/crewMember/body"
+msgstr "Включить/отключить отображение членов экипажа данной нации."
+
+msgid "filter/tooltip/nation/skins/body"
+msgstr "Включить/отключить отображение обликов данной нации."
+
+msgid "filter/tooltip/nation/vehicles/body"
+msgstr "Включить/отключить отображение техники данной нации."
+
+msgid "filter/tooltip/tankmanKind/dismissed/body"
+msgstr "Включить/отключить отображение демобилизованных членов экипажа."
+
+msgid "filter/tooltip/tankmanKind/dismissed/title"
+msgstr "Демобилизованные"
+
+msgid "filter/tooltip/tankmanKind/recruit/body"
+msgstr "Показать рекрутов."
+
+msgid "filter/tooltip/tankmanKind/recruit/title"
+msgstr "Новобранцы"
+
+msgid "filter/tooltip/tankmanKind/tankman/body"
+msgstr "Показать членов экипажа."
+
+msgid "filter/tooltip/tankmanKind/tankman/title"
+msgstr "Члены экипажа"
+
+msgid "filter/tooltip/tankmanRole/body"
+msgstr "Включить/отключить отображение членов экипажа данной специальности."
+
+msgid "filter/tooltip/vehicleGrade/premium/body"
+msgstr "Включить/отключить отображение премиум техники."
+
+msgid "filter/tooltip/vehicleGrade/premium/title"
+msgstr "Премиум техника"
+
+msgid "filter/tooltip/vehicleType/body"
+msgstr "Включить/отключить отображение техники данного типа."
+
+msgid "filter/tooltip/vehicleType/header/AT-SPG"
+msgstr "ПТ-САУ"
+
+msgid "filter/tooltip/vehicleType/header/SPG"
+msgstr "САУ"
+
+msgid "filter/tooltip/vehicleType/header/heavyTank"
+msgstr "Тяжёлые танки"
+
+msgid "filter/tooltip/vehicleType/header/lightTank"
+msgstr "Лёгкие танки"
+
+msgid "filter/tooltip/vehicleType/header/mediumTank"
+msgstr "Средние танки"
+
+msgid "filter/vehicles/noVehicles"
+msgstr "Не найдено техники, удовлетворяющей\nусловиям поиска"
+
+msgid "filter/vehicles/tooltip/name/body"
+msgstr "Сортировать по названию техники."
+
+msgid "filter/vehicles/tooltip/name/header"
+msgstr "Имя"
+
+msgid "filter/vehicles/tooltip/tier/body"
+msgstr "Сортировать по уровню техники."
+
+msgid "filter/vehicles/tooltip/tier/header"
+msgstr "Уровень"
+
+msgid "filter/vehicles/tooltip/type/body"
+msgstr "Сортировать по типу техники."
+
+msgid "filter/vehicles/tooltip/type/header"
+msgstr "Тип"
+
+msgid "filter/vehicles/vehicleName"
+msgstr "Имя"
+
+msgid "filterPanel/counter/reset/body"
+msgstr "Нажмите, чтобы сбросить фильтр."
+
+msgid "filterPanel/counter/reset/header"
+msgstr "Сбросить все фильтры"
+
+msgid "junkTankmen/confirmButton/title"
+msgstr "Так точно!"
+
+msgid "junkTankmen/description"
+msgstr "У этих членов экипажа менее {bond_Open}210 060{bond_Close}{icon}, необходимых для изучения первого навыка на {whiteSpanish_Open}100%{whiteSpanish_Close}.\nОни будут удалены с вашего аккаунта."
+
+msgid "junkTankmen/title"
+msgstr "Демобилизовать необученных членов экипажа?"
+
+msgid "matrix/bonusTooltip/description"
+msgstr "Для каждой дополнительной специальности можно изучить {whiteSpanish_Open}до трёх{whiteSpanish_Close} навыков. Доступ к новому дополнительному навыку открывается после изучения {whiteSpanish_Open}первого{whiteSpanish_Close}, {whiteSpanish_Open}третьего{whiteSpanish_Close} и {whiteSpanish_Open}пятого{whiteSpanish_Close} навыка основной специальности."
+
+msgid "matrix/bonusTooltip/header"
+msgstr "Дополнительные навыки"
+
+msgid "matrix/bonusTooltip/list/retrain"
+msgstr "При переобучении члена экипажа на технику с другим набором специальностей вы сможете заново выбрать навыки для новой дополнительной специальности."
+
+msgid "matrix/bonusTooltip/list/trainSpeed"
+msgstr "На изучение дополнительных навыков тратится в два раза больше времени, чем на изучение навыков основной специальности."
+
+msgid "matrix/bonusTooltip/list/xp"
+msgstr "При изучении дополнительных навыков опыт не тратится."
+
+msgid "matrix/freeResetButton"
+msgstr "Сбросить бесплатно"
+
+msgid "matrix/increaseButton"
+msgstr "Ускорить обучение"
+
+msgid "matrix/increaseTooltip/disable/body"
+msgstr "Достигнут лимит изученных навыков."
+
+msgid "matrix/increaseTooltip/disable/header"
+msgstr "Ускоренное обучение недоступно"
+
+msgid "matrix/increaseTooltip/enable/body"
+msgstr "Изучить навыки с помощью свободного опыта и учебных материалов."
+
+msgid "matrix/increaseTooltip/enable/header"
+msgstr "Ускоренное обучение"
+
+msgid "matrix/irrelevantQualification/header"
+msgstr "Несовместимая специальность"
+
+msgid "matrix/qualification/1"
+msgstr "Основная специальность"
+
+msgid "matrix/qualification/2"
+msgstr "Вторая специальность"
+
+msgid "matrix/qualification/3"
+msgstr "Третья специальность"
+
+msgid "matrix/qualification/4"
+msgstr "Четвёртая специальность"
+
+msgid "matrix/qualification/5"
+msgstr "Пятая специальность"
+
+msgid "matrix/qualification/lockByZeroPerks/2"
+msgstr "«Нулевые» навыки недоступны для второй специальности"
+
+msgid "matrix/qualification/lockByZeroPerks/3"
+msgstr "«Нулевые» навыки недоступны для третьей специальности"
+
+msgid "matrix/qualification/lockByZeroPerks/4"
+msgstr "«Нулевые» навыки недоступны для четвёртой специальности"
+
+msgid "matrix/qualification/unavailable/2"
+msgstr "Вторая специальность недоступна для этой машины"
+
+msgid "matrix/qualification/unavailable/3"
+msgstr "Третья специальность недоступна для этой машины"
+
+msgid "matrix/qualification/unavailable/4"
+msgstr "Четвёртая специальность недоступна для этой машины"
+
+msgid "matrix/qualification/unavailable/5"
+msgstr "Пятая специальность недоступна для этой машины"
+
+msgid "matrix/qualificationTooltip/bonusDescription"
+msgstr "Для каждой дополнительной специальности можно изучить {whiteSpanish_Open}до трёх{whiteSpanish_Close} навыков, относящихся только к ней."
+
+msgid "matrix/qualificationTooltip/majorDescription"
+msgstr "В рамках основной специальности можно изучить до {whiteSpanish_Open}шести{whiteSpanish_Close} навыков, включая «нулевые»."
+
+msgid "matrix/resetButton"
+msgstr "Сбросить"
+
+msgid "matrix/resetButtonHint"
+msgstr "НАЖМИТЕ, ЧТОБЫ СБРОСИТЬ НАВЫКИ"
+
+msgid "matrix/resetTooltip/disable/body"
+msgstr "У вас нет изученных навыков."
+
+msgid "matrix/resetTooltip/disable/header"
+msgstr "Невозможно сбросить навыки"
+
+msgid "matrix/resetTooltip/enable/body"
+msgstr "Нажмите, чтобы сбросить навыки."
+
+msgid "matrix/resetTooltip/enable/header"
+msgstr "Сбросить навыки"
+
+msgid "matrix/skillTooltip/bonus/available/header"
+msgstr "Дополнительный навык доступен для изучения"
+
+msgid "matrix/skillTooltip/bonus/available/text"
+msgstr "При изучении дополнительных навыков опыт не тратится."
+
+msgid "matrix/skillTooltip/bonus/unavailable/header"
+msgstr "Недоступно"
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/2"
+msgstr "Становится доступен при изучении третьего навыка основной специальности. Не требует опыта."
+
+msgid "matrix/skillTooltip/bonus/unavailable/text/3"
+msgstr "Становится доступен при изучении пятого навыка основной специальности. Не требует опыта."
+
+msgid "matrix/skillTooltip/main/additional/header"
+msgstr "Уровень владения"
+
+msgid "matrix/skillTooltip/main/available/discountLabel/1"
+msgstr "У этого члена экипажа есть «нулевой» навык. Количество требуемого опыта снижено."
+
+msgid "matrix/skillTooltip/main/available/discountLabel/2"
+msgstr "У этого члена экипажа есть два «нулевых» навыка. Количество требуемого опыта снижено."
+
+msgid "matrix/skillTooltip/main/available/header"
+msgstr "Навык доступен для изучения"
+
+msgid "matrix/skillTooltip/main/unavailable/header"
+msgstr "Недоступно"
+
+msgid "matrix/skillTooltip/main/unavailable/text"
+msgstr "Необходимо изучить предыдущий навык на 100%."
+
+msgid "matrix/skillTooltip/zero/header"
+msgstr "«Нулевой» навык доступен для изучения"
+
+msgid "matrix/skillTooltip/zero/text"
+msgstr "«Нулевые» навыки всегда изучаются первыми даже при выборе нескольких навыков одновременно. Для их изучения опыт не требуется."
+
+msgid "matrix/skills/allSkills"
+msgstr "Все дополнительные навыки для данной машины"
+
+msgid "matrix/skills/available"
+msgstr "Доступные для изучения навыки:"
+
+msgid "matrix/skills/bonus"
+msgstr "Дополнительные навыки"
+
+msgid "matrix/skills/counters"
+msgstr "{currentCount} / {totalCount}"
+
+msgid "matrix/skills/disabled"
+msgstr "Навыки недоступны"
+
+msgid "matrix/skills/locked"
+msgstr "Навыки недоступны"
+
+msgid "matrix/skills/main/disabled"
+msgstr "На этой машине навыки не действуют"
+
+msgid "matrix/skills/main/enabled"
+msgstr "Навыки основной специальности"
+
+msgid "matrix/skills/reduced"
+msgstr "Эффективность навыков снижена"
+
+msgid "matrix/skills/roles/commander"
+msgstr "Навыки командира"
+
+msgid "matrix/skills/roles/driver"
+msgstr "Навыки механика-водителя"
+
+msgid "matrix/skills/roles/female/commander"
+msgstr "Навыки командира"
+
+msgid "matrix/skills/roles/female/driver"
+msgstr "Навыки механика-водителя"
+
+msgid "matrix/skills/roles/female/gunner"
+msgstr "Навыки наводчика"
+
+msgid "matrix/skills/roles/female/loader"
+msgstr "Навыки заряжающего"
+
+msgid "matrix/skills/roles/female/radioman"
+msgstr "Навыки радиста"
+
+msgid "matrix/skills/roles/gunner"
+msgstr "Навыки наводчика"
+
+msgid "matrix/skills/roles/loader"
+msgstr "Навыки заряжающего"
+
+msgid "matrix/skills/roles/radioman"
+msgstr "Навыки радиста"
+
+msgid "matrix/skills/training"
+msgstr "Изучение навыков"
+
+msgid "matrix/skills/zeroSkills"
+msgstr "Доступные для изучения «нулевые» навыки:"
+
+msgid "memberChange/action/recruit"
+msgstr "Рекрутировать {role}"
+
+msgid "memberChange/discount"
+msgstr "СКИДКА В {discountAmount}% НА СМЕНУ СПЕЦИАЛЬНОСТИ"
+
+msgid "memberChange/title"
+msgstr "ВЫБРАТЬ {role}: {vehicle}"
+
+msgid "mentoringLicense/tooltip/amount"
+msgstr "{whiteSpanish_Open}%(value)s{whiteSpanish_Close} %(icon)s {par_Open}На Складе{par_Close}"
+
+msgid "mentoringLicense/tooltip/infoBlock"
+msgstr "После подтверждения член экипажа, опыт которого переводится, будет демобилизован."
+
+msgid "mentoringLicense/tooltip/mainDescription"
+msgstr "Сертификат наставника позволяет перевести опыт одного члена экипажа другому той же нации."
+
+msgid "mentoringLicense/tooltip/mainHeader"
+msgstr "Сертификат наставника"
+
+msgid "personalData/card/edit"
+msgstr "Редактировать"
+
+msgid "personalData/card/remove"
+msgstr "Снять"
+
+msgid "personalData/card/restrictions"
+msgstr "Ограничения: {restrictions}"
+
+msgid "personalData/card/tooltip/document/body"
+msgstr "Нажмите, чтобы сменить имя и внешность члена экипажа."
+
+msgid "personalData/card/tooltip/document/title"
+msgstr "Внешность"
+
+msgid "personalData/card/tooltip/locked/body"
+msgstr "У этого члена экипажа уже есть уникальное имя и внешность."
+
+msgid "personalData/card/tooltip/locked/title"
+msgstr "Невозможно сменить имя и облик"
+
+msgid "personalData/emptyState/noFilteredItems"
+msgstr "Ничего не найдено. Измените настройки или сбросьте фильтр."
+
+msgid "personalData/filter/tooltip/popoverButton/body"
+msgstr "Настройте отображение обликов по нации."
+
+msgid "personalData/filter/tooltip/popoverButton/title"
+msgstr "Фильтр по параметрам"
+
+msgid "personalData/filter/tooltip/type/document/body"
+msgstr "Показать документы."
+
+msgid "personalData/filter/tooltip/type/document/title"
+msgstr "Документы"
+
+msgid "personalData/filter/tooltip/type/suitableSkin/body"
+msgstr "Показать подходящие облики."
+
+msgid "personalData/filter/tooltip/type/suitableSkin/title"
+msgstr "Подходящие облики"
+
+msgid "personalData/filter/type/title"
+msgstr "Тип"
+
+msgid "personalData/title"
+msgstr "СМЕНИТЬ ИМЯ И ВНЕШНОСТЬ"
+
+msgid "personalFile/changeVehicle"
+msgstr "Сменить"
+
+msgid "personalFile/crewLockedTooltip/body"
+msgstr "Невозможно обучить этого члена экипажа на другую машину."
+
+msgid "personalFile/crewLockedTooltip/header"
+msgstr "Операция недоступна"
+
+msgid "personalFile/discount/full"
+msgstr "Доступна скидка на переобучение экипажа"
+
+msgid "personalFile/discount/short"
+msgstr "Доступна скидка"
+
+msgid "personalFile/inVehicle"
+msgstr "В машине: %(vehicle)s"
+
+msgid "personalFile/increase"
+msgstr "Повысить"
+
+msgid "personalFile/isUntrained"
+msgstr "Не обучен (-а) на эту машину"
+
+msgid "personalFile/premiumVehicle"
+msgstr "Вся {icon} премиум техника"
+
+msgid "personalFile/retrain"
+msgstr "Переобучить"
+
+msgid "personalFile/skillsEfficiency"
+msgstr "Эффективность навыков:"
+
+msgid "personalFile/specialization"
+msgstr "Специализация:"
+
+msgid "personalFile/vehicleTooltip/header"
+msgstr "Специализация"
+
+msgid "personalFile/voiceTooltip/body"
+msgstr "Нажмите, чтобы прослушать пример озвучки командира."
+
+msgid "personalFile/voiceTooltip/header"
+msgstr "Уникальная озвучка"
+
+msgid "postProgression/button/claim"
+msgstr "Получить награду"
+
+msgid "postProgression/description"
+msgstr "Члены экипажа, которые изучили шесть навыков основной специальности, получают доступ к единой постпрогрессии. За каждые 100 000 опыта, заработанные на этом этапе, вы получите универсальное руководство, которое можно использовать для обучения других экипажей."
+
+msgid "postProgression/progress"
+msgstr "{bond_Open}%(currentValue)s{bond_Close} {par_Open}/ %(maxValue)s{par_Close}%(icon)s"
+
+msgid "postProgression/tips/1"
+msgstr "Постпрогрессия включает единую шкалу для всех членов экипажа с шестью изученными навыками основной специальности на аккаунте."
+
+msgid "postProgression/tips/2"
+msgstr "В постпрогрессии учитывается только заработанный боевой опыт, половина которого делится между всеми членами экипажа на технике и добавляется в шкалу постпрогрессии."
+
+msgid "postProgression/tips/3"
+msgstr "Потеря опыта экипажа при переобучении или сбросе навыков не влияет на постпрогрессию."
+
+msgid "postProgression/title"
+msgstr "ПОСТПРОГРЕССИЯ ЭКИПАЖА"
+
+msgid "postProgression/warning/lowEfficiency"
+msgstr "У всех членов экипажа, достигших постпрогрессии, снижена эффективность навыков."
+
+msgid "postProgression/warning/retire"
+msgstr "Все члены экипажа, достигшие постпрогрессии, были демобилизованы или потеряли опыт из последнего изученного навыка."
+
+msgid "premiumVehType/plural/lowerCase/AT-SPG"
+msgstr "Все премиум ПТ-САУ"
+
+msgid "premiumVehType/plural/lowerCase/SPG"
+msgstr "Все премиум САУ"
+
+msgid "premiumVehType/plural/lowerCase/base/AT-SPG"
+msgstr "Премиум ПТ-САУ"
+
+msgid "premiumVehType/plural/lowerCase/base/SPG"
+msgstr "Премиум САУ"
+
+msgid "premiumVehType/plural/lowerCase/base/heavyTank"
+msgstr "Тяжёлые премиум танки"
+
+msgid "premiumVehType/plural/lowerCase/base/lightTank"
+msgstr "Лёгкие премиум танки"
+
+msgid "premiumVehType/plural/lowerCase/base/mediumTank"
+msgstr "Средние премиум танки"
+
+msgid "premiumVehType/plural/lowerCase/heavyTank"
+msgstr "Все тяжёлые премиум танки"
+
+msgid "premiumVehType/plural/lowerCase/lightTank"
+msgstr "Все лёгкие премиум танки"
+
+msgid "premiumVehType/plural/lowerCase/mediumTank"
+msgstr "Все средние премиум танки"
+
+msgid "serviceRecord/achievementsList/title"
+msgstr "МЕДАЛИ"
+
+msgid "serviceRecord/averageXP"
+msgstr "Средний опыт за бой"
+
+msgid "serviceRecord/battlesCounter"
+msgstr "Проведённые бои"
+
+msgid "serviceRecord/noAchievements"
+msgstr "В бою себя не проявил, наград не имеет."
+
+msgid "serviceRecord/tooltip/averageXP/body"
+msgstr "Отношение общего количества заработанного опыта к количеству боёв, проведённых на машине, на которую назначен этот член экипажа."
+
+msgid "serviceRecord/tooltip/averageXP/header"
+msgstr "Средний опыт за бой"
+
+msgid "serviceRecord/tooltip/rank/body"
+msgstr "Звание члена экипажа зависит от его опыта и количества изученных навыков."
+
+msgid "serviceRecord/tooltip/rank/header"
+msgstr "Звание"
+
+msgid "skillsTraining/availableSkillsTitle/allSkillsLearned"
+msgstr "У члена экипажа изучены все навыки, доступные на этой машине"
+
+msgid "skillsTraining/availableSkillsTitle/available"
+msgstr "Навыки доступны для изучения"
+
+msgid "skillsTraining/availableSkillsTitle/disabled"
+msgstr "На этой машине навыки не действуют"
+
+msgid "skillsTraining/bonusQualification/description"
+msgstr "Для изучения навыков дополнительных специальностей не требуется опыт, но они изучаются в два раза медленнее, чем навыки основной специальности."
+
+msgid "skillsTraining/btnCancel/label"
+msgstr "Отменить"
+
+msgid "skillsTraining/btnTrain/label"
+msgstr "Изучить"
+
+msgid "skillsTraining/title/bonusQualification"
+msgstr "ДОПОЛНИТЕЛЬНАЯ СПЕЦИАЛЬНОСТЬ"
+
+msgid "skillsTraining/title/majorQualification"
+msgstr "ОСНОВНАЯ СПЕЦИАЛЬНОСТЬ"
+
+msgid "tankChange/title"
+msgstr "ОБУЧЕНИЕ УПРАВЛЕНИЮ МАШИНОЙ"
+
+msgid "tankChange/tooltip/location/body"
+msgstr "Показать технику, которая есть в Ангаре."
+
+msgid "tankChange/tooltip/location/header"
+msgstr "В Ангаре"
+
+msgid "tankChange/tooltip/popover/body"
+msgstr "Настройка отображения техники с учётом уровня."
+
+msgid "tankChange/tooltip/popover/header"
+msgstr "Фильтр по параметрам"
+
+msgid "tankChange/tooltip/premium/body"
+msgstr "Членов экипажа не нужно обучать на премиум технику. Вы можете пересадить экипаж на премиум машину того же типа без штрафов."
+
+msgid "tankChange/tooltip/premium/header"
+msgstr "Премиум машина"
+
+msgid "tankChange/tooltip/searchInput/body"
+msgstr "Название машины должно содержать не более %(maxLength)s символов."
+
+msgid "tankman/action/dismiss/title"
+msgstr "ДЕМОБИЛИЗОВАТЬ"
+
+msgid "tankman/action/dismiss/tooltip/available/body"
+msgstr "Демобилизовать этого члена экипажа."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/body"
+msgstr "Невозможно демобилизовать члена экипажа."
+
+msgid "tankman/action/dismiss/tooltip/unavailable/title"
+msgstr "Операция недоступна"
+
+msgid "tankman/action/recruit/title"
+msgstr "РЕКРУТИРОВАТЬ"
+
+msgid "tankman/action/restore/title"
+msgstr "ВОССТАНОВИТЬ"
+
+msgid "tankman/action/restore/tooltip/body"
+msgstr "Восстановить данного члена экипажа."
+
+msgid "tankman/action/voiceover/tooltip/body"
+msgstr "Нажмите, чтобы прослушать пример озвучки командира."
+
+msgid "tankman/action/voiceover/tooltip/title"
+msgstr "Уникальная озвучка"
+
+msgid "tankman/recruit"
+msgstr "Рекрутировать"
+
+msgid "tankmanContainer/tab/personalData"
+msgstr "Внешность"
+
+msgid "tankmanContainer/tab/personalFile"
+msgstr "Профиль"
+
+msgid "tankmanContainer/tab/serviceRecord"
+msgstr "Послужной список"
+
+msgid "tankmanList/emptyState/button/recruit"
+msgstr "Рекрутировать"
+
+msgid "tankmanList/emptyState/button/resetFilers"
+msgstr "Сбросить фильтр"
+
+msgid "tankmanList/emptyState/noFilteredItems"
+msgstr "Ничего не найдено. Измените настройки или сбросьте фильтр."
+
+msgid "tankmanList/emptyState/noItems"
+msgstr "Ничего не найдено. Рекрутируйте члена экипажа."
+
+msgid "tankmanList/filter/title"
+msgstr "Членов экипажа:"
+
+msgid "tankmanList/tooltip/can_not_recruit/body"
+msgstr "Недостаточно места в Казарме."
+
+msgid "tankmanList/tooltip/location/dismissed/body"
+msgstr "Включить/отключить отображение только демобилизованных членов экипажа."
+
+msgid "tankmanList/tooltip/location/dismissed/title"
+msgstr "Демобилизованные"
+
+msgid "tankmanList/tooltip/location/in_barracks/body"
+msgstr "Показать членов экипажа, находящихся в Казарме."
+
+msgid "tankmanList/tooltip/location/in_barracks/title"
+msgstr "В Казарме"
+
+msgid "tankmanList/tooltip/location/in_tank/body"
+msgstr "Показать членов экипажа в технике."
+
+msgid "tankmanList/tooltip/location/in_tank/title"
+msgstr "В технике"
+
+msgid "tankmanList/tooltip/nation/body"
+msgstr "Включить/отключить отображение обликов данной нации."
+
+msgid "tankmanList/tooltip/popover/body"
+msgstr "Настройте отображение членов экипажа по специальности, специализации и другим параметрам."
+
+msgid "tankmanList/tooltip/popover/header"
+msgstr "Фильтр по параметрам"
+
+msgid "tankmanList/tooltip/recruit/body"
+msgstr "Рекрутировать новобранца."
+
+msgid "tankmanList/tooltip/searchInput/body"
+msgstr "Имя должно содержать не более %(maxLength)s символов."
+
+msgid "vehicleParamsDecorator/perkTip"
+msgstr "*Наведите курсор на навык, чтобы увидеть его влияние на соответствующие ТТХ при изучении на 100% с текущей эффективностью навыков."
+
+msgid "welcomeScreen/button/affirmative"
+msgstr "Так точно!"
+
+msgid "welcomeScreen/item1/description"
+msgstr "Добавлены по два новых навыка для каждой специальности, переработан навык «Практичность», а также добавлена возможность скрывать свои навыки в боевом интерфейсе."
+
+msgid "welcomeScreen/item2/description"
+msgstr "Добавлена новая удобная механика, позволяющая демобилизовать всех необученных членов экипажа за один клик."
+
+msgid "welcomeScreen/item3/description"
+msgstr "Теперь навыки можно сбрасывать только за кредиты без потери опыта."
+
+msgid "welcomeScreen/subTitle"
+msgstr "Добавлены новые навыки и механики, а также переработан один существующий."
+
+msgid "welcomeScreen/title"
+msgstr "ОБНОВЛЕНИЯ СИСТЕМЫ ЭКИПАЖА"

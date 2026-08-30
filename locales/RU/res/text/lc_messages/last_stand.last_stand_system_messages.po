@@ -1,0 +1,113 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "ls_equipment/title"
+msgstr "Тактическое устройство"
+
+msgid "open_artefact/server_error"
+msgstr "Операция временно недоступна. Попробуйте позже."
+
+msgid "serviceChannelMessages/autoEquipDisabledOption"
+msgstr "Не удалось пополнить запас тактических устройств для %s: технический сбой."
+
+msgid "serviceChannelMessages/autoEquipError"
+msgstr "Не удалось пополнить запас тактических устройств для %s: недостаточно средств."
+
+msgid "serviceChannelMessages/autoEquipSuccess"
+msgstr "Тактические устройства для %s пополнены. Потрачено "
+
+msgid "serviceChannelMessages/battleResults/artefacts"
+msgstr "Доступно записей для дешифровки"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName"
+msgstr "Режим: «Последний рубеж: Северные земли»"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/107"
+msgstr "«Последний рубеж: Северные земли» (Стандарт)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/108"
+msgstr "«Последний рубеж: Северные земли» (Продвинутый)"
+
+msgid "serviceChannelMessages/battleResults/battleTypeName/109"
+msgstr "«Последний рубеж: Северные земли» (Жесть)"
+
+msgid "serviceChannelMessages/battleResults/difficulty"
+msgstr "Сложность"
+
+msgid "serviceChannelMessages/battleResults/difficulty/107"
+msgstr "Стандарт"
+
+msgid "serviceChannelMessages/battleResults/difficulty/108"
+msgstr "Продвинутый"
+
+msgid "serviceChannelMessages/battleResults/difficulty/109"
+msgstr "Жесть"
+
+msgid "serviceChannelMessages/battleResults/progressPoints"
+msgstr "Данные"
+
+msgid "serviceChannelMessages/battleResults/questCompleted"
+msgstr "Задача выполнена!"
+
+msgid "serviceChannelMessages/battleResults/questsCompleted"
+msgstr "Задача выполнена!"
+
+msgid "serviceChannelMessages/battleResults/tank"
+msgstr "Машина"
+
+msgid "serviceChannelMessages/battleResults/wavesCompleted"
+msgstr "Волн отражено: %(curPhase)s из %(maxPhases)s"
+
+msgid "serviceChannelMessages/bundlePurchase/additionalText"
+msgstr "Потрачено: %(money)s"
+
+msgid "serviceChannelMessages/bundlePurchase/description"
+msgstr "%(bundle)s"
+
+msgid "serviceChannelMessages/bundlePurchase/title"
+msgstr "Финансовая операция"
+
+msgid "serviceChannelMessages/difficultyLevel_2/description"
+msgstr "Вы можете выбрать уровень сложности на панели сложности режима «Последний рубеж» в Ангаре."
+
+msgid "serviceChannelMessages/difficultyLevel_2/title"
+msgstr "Разблокирован уровень сложности «Продвинутый»"
+
+msgid "serviceChannelMessages/difficultyLevel_3/description"
+msgstr "Вы можете выбрать уровень сложности на панели сложности режима «Последний рубеж» в Ангаре."
+
+msgid "serviceChannelMessages/difficultyLevel_3/title"
+msgstr "Разблокирован уровень сложности «Жесть»"
+
+msgid "serviceChannelMessages/difficultyLevel_4/description"
+msgstr "Вы можете выбрать вариант боя на панели сложности в Ангаре режима «Последний рубеж: Операция \"Пандора\"»."
+
+msgid "serviceChannelMessages/difficultyLevel_4/title"
+msgstr "Разблокирован режим «Последний рубеж»"
+
+msgid "serviceChannelMessages/progressPoints/add/description"
+msgstr "Начислено ключей дешифровки: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/add/title"
+msgstr "Квитанция"
+
+msgid "serviceChannelMessages/progressPoints/draw/description"
+msgstr "Списано ключей: %(key)s"
+
+msgid "serviceChannelMessages/progressPoints/draw/title"
+msgstr "Запись расшифрована"
+
+msgid "serviceChannelMessages/switchedOff"
+msgstr "Бои события «Последний рубеж» временно недоступны.\nПопробуйте позже."
+
+msgid "serviceChannelMessages/switchedOffDifficulty"
+msgstr "Бои на сложности %(difficulty)s временно недоступны. Попробуйте позже."
+
+msgid "serviceChannelMessages/switchedOffFull"
+msgstr "Событие «Последний рубеж» временно недоступно. Следите за новостями на игровом портале."
+
+msgid "unit/notification/changedDifficultyLevel"
+msgstr "Командир взвода изменил уровень сложности на %(level)s."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr "У игрока %(userName)s заблокирован один из уровней сложности."

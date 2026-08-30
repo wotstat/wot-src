@@ -1,0 +1,79 @@
+from __future__ import absolute_import
+from collections import namedtuple
+from future.utils import viewitems
+import BigWorld
+from ItemRestore import RESTORE_VEHICLE_TYPE
+from gui.shared.utils.requesters.abstract import AbstractSyncDataRequester
+from helpers import time_utils
+from skeletons.gui.shared.utils.requesters import IRecycleBinRequester
+_VehicleRestoreInfo = namedtuple(b'_VehicleRestoreInfo', (b'restoreType', b'changedAt', b'restoreDuration', b'restoreCooldown'))
+
+class VehicleRestoreInfo(_VehicleRestoreInfo):
+
+    def getRestoreTimeLeft(self):
+        if self.changedAt:
+            return max(self.restoreDuration - self.__getTimeGone(), 0)
+        return 0
+
+    def getRestoreCooldownTimeLeft(self):
+        if self.changedAt:
+            return max(self.restoreCooldown - self.__getTimeGone(), 0)
+        return 0
+
+    def isLimited(self):
+        return self.restoreType == RESTORE_VEHICLE_TYPE.PREMIUM and self.changedAt != 0
+
+    def isInCooldown(self):
+        if self.changedAt:
+            return self.restoreType == RESTORE_VEHICLE_TYPE.ACTION and self.getRestoreCooldownTimeLeft() > 0
+        return False
+
+    def isUnlimited(self):
+        return self.restoreType == RESTORE_VEHICLE_TYPE.ACTION and self.changedAt == 0
+
+    def isRestorePossible(self):
+        return self.restoreType == RESTORE_VEHICLE_TYPE.ACTION or self.isLimited() and self.getRestoreTimeLeft() > 0
+
+    def __getTimeGone(self):
+        if self.changedAt:
+            return float(time_utils.getTimeDeltaTillNow(time_utils.makeLocalServerTime(self.changedAt)))
+        return 0
+
+
+class RecycleBinRequester(AbstractSyncDataRequester, IRecycleBinRequester):
+
+    @property
+    def recycleBin(self):
+        return self.getCacheValue(b'recycleBin', {})
+
+    @property
+    def vehiclesBuffer(self):
+        return self.recycleBin.get(b'vehicles', {}).get(b'buffer', {})
+
+    def getVehicleRestoreInfo(self, intCD, restoreDuration, restoreCooldown):
+        restoreData = self.vehiclesBuffer.get(intCD)
+        if restoreData:
+            restoreType, changedAt = restoreData
+            return VehicleRestoreInfo(restoreType, changedAt, restoreDuration, restoreCooldown)
+        else:
+            return
+
+    def getVehiclesIntCDs(self):
+        return list(self.vehiclesBuffer)
+
+    def getTankmen(self, maxDuration):
+        filteredBuffer = {}
+        tankmenBuffer = self.recycleBin.get(b'tankmen', {}).get(b'buffer', {})
+        for tankmanId, (strCD, dismissedAt) in viewitems(tankmenBuffer):
+            if time_utils.getTimeDeltaTillNow(dismissedAt) < maxDuration:
+                filteredBuffer[tankmanId] = (
+                 strCD, dismissedAt)
+
+        return filteredBuffer
+
+    def getTankman(self, invID, maxDuration):
+        return self.getTankmen(maxDuration).get(invID)
+
+    def _requestCache(self, callback=None):
+        BigWorld.player().recycleBin.getCache((lambda resID, value: self._response(resID, value, callback)))
+        return

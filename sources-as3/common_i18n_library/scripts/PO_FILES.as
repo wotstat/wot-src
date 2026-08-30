@@ -1,0 +1,353 @@
+package
+{
+   public class PO_FILES
+   {
+      
+      public static const TEXT_ACCOUNT_COMPLETION:String = "../text/account_completion.po";
+      
+      public static const TEXT_ACCOUNT_DASHBOARD:String = "../text/account_dashboard.po";
+      
+      public static const TEXT_ACHIEVEMENTS:String = "../text/achievements.po";
+      
+      public static const TEXT_ACHIEVEMENTS_PAGE:String = "../text/achievements_page.po";
+      
+      public static const TEXT_ADVANCED_ACHIEVEMENTS:String = "../text/advanced_achievements.po";
+      
+      public static const TEXT_AOGAS:String = "../text/aogas.po";
+      
+      public static const TEXT_ARENAS:String = "../text/arenas.po";
+      
+      public static const TEXT_ARMOR_INSPECTOR:String = "../text/armor_inspector.po";
+      
+      public static const TEXT_ARTEFACTS:String = "../text/artefacts.po";
+      
+      public static const TEXT_ATTACHMENTS_PREVIEW:String = "../text/attachments_preview.po";
+      
+      public static const TEXT_AWARDS:String = "../text/awards.po";
+      
+      public static const TEXT_BADGE:String = "../text/badge.po";
+      
+      public static const TEXT_BAN_REASON:String = "../text/ban_reason.po";
+      
+      public static const TEXT_BATTLE_HINTS:String = "../text/battle_hints.po";
+      
+      public static const TEXT_BATTLE_MATTERS:String = "../text/battle_matters.po";
+      
+      public static const TEXT_BATTLE_PASS:String = "../text/battle_pass.po";
+      
+      public static const TEXT_BATTLE_RESULTS:String = "../text/battle_results.po";
+      
+      public static const TEXT_BATTLE_ROYALE:String = "../text/battle_royale.po";
+      
+      public static const TEXT_BLUEPRINTS:String = "../text/blueprints.po";
+      
+      public static const TEXT_CAT:String = "../text/cat.po";
+      
+      public static const TEXT_CHALLENGES:String = "../text/challenges.po";
+      
+      public static const TEXT_CHAT:String = "../text/chat.po";
+      
+      public static const TEXT_CHINA_CREW:String = "../text/china_crew.po";
+      
+      public static const TEXT_CHINA_VEHICLES:String = "../text/china_vehicles.po";
+      
+      public static const TEXT_CLANS:String = "../text/clans.po";
+      
+      public static const TEXT_CLAN_SUPPLY:String = "../text/clan_supply.po";
+      
+      public static const TEXT_COLLECTIONS:String = "../text/collections.po";
+      
+      public static const TEXT_COLLECTION_BATTLE_PASS_10:String = "../text/collection_battle_pass_10.po";
+      
+      public static const TEXT_COLLECTION_BATTLE_PASS_11:String = "../text/collection_battle_pass_11.po";
+      
+      public static const TEXT_COLLECTION_BATTLE_PASS_12:String = "../text/collection_battle_pass_12.po";
+      
+      public static const TEXT_COMMON:String = "../text/common.po";
+      
+      public static const TEXT_CONTROLS:String = "../text/controls.po";
+      
+      public static const TEXT_CREW:String = "../text/crew.po";
+      
+      public static const TEXT_CREW_BOOKS:String = "../text/crew_books.po";
+      
+      public static const TEXT_CREW_HELP:String = "../text/crew_help.po";
+      
+      public static const TEXT_CREW_OPERATIONS:String = "../text/crew_operations.po";
+      
+      public static const TEXT_CREW_PERKS:String = "../text/crew_perks.po";
+      
+      public static const TEXT_CREW_SKINS:String = "../text/crew_skins.po";
+      
+      public static const TEXT_CREW_WIDGET:String = "../text/crew_widget.po";
+      
+      public static const TEXT_CURRENCY_RESERVES:String = "../text/currency_reserves.po";
+      
+      public static const TEXT_CYBERSPORT:String = "../text/cyberSport.po";
+      
+      public static const TEXT_CZECH_CREW:String = "../text/czech_crew.po";
+      
+      public static const TEXT_CZECH_VEHICLES:String = "../text/czech_vehicles.po";
+      
+      public static const TEXT_DATETIME_FORMATS:String = "../text/datetime_formats.po";
+      
+      public static const TEXT_DEATH_CAM:String = "../text/death_cam.po";
+      
+      public static const TEXT_DEMOUNT_KIT:String = "../text/demount_kit.po";
+      
+      public static const TEXT_DEVELOPMENT:String = "../text/development.po";
+      
+      public static const TEXT_DIALOGS:String = "../text/dialogs.po";
+      
+      public static const TEXT_DOGTAGS:String = "../text/dogtags.po";
+      
+      public static const TEXT_ELITE_WINDOW:String = "../text/elite_window.po";
+      
+      public static const TEXT_ENVIRONMENT_TOOLTIPS:String = "../text/environment_tooltips.po";
+      
+      public static const TEXT_EPIC_BATTLE:String = "../text/epic_battle.po";
+      
+      public static const TEXT_ERROR_DLG:String = "../text/error_dlg.po";
+      
+      public static const TEXT_EVENT:String = "../text/event.po";
+      
+      public static const TEXT_EVENT_BOARDS:String = "../text/event_boards.po";
+      
+      public static const TEXT_EXCLUDED_MAPS:String = "../text/excluded_maps.po";
+      
+      public static const TEXT_FALLOUT:String = "../text/fallout.po";
+      
+      public static const TEXT_FAQ:String = "../text/faq.po";
+      
+      public static const TEXT_FORTIFICATIONS:String = "../text/fortifications.po";
+      
+      public static const TEXT_FRANCE_CREW:String = "../text/france_crew.po";
+      
+      public static const TEXT_FRANCE_VEHICLES:String = "../text/france_vehicles.po";
+      
+      public static const TEXT_GAME_LOADING:String = "../text/game_loading.po";
+      
+      public static const TEXT_GB_CREW:String = "../text/gb_crew.po";
+      
+      public static const TEXT_GB_VEHICLES:String = "../text/gb_vehicles.po";
+      
+      public static const TEXT_GERMANY_CREW:String = "../text/germany_crew.po";
+      
+      public static const TEXT_GERMANY_VEHICLES:String = "../text/germany_vehicles.po";
+      
+      public static const TEXT_HANGAR:String = "../text/hangar.po";
+      
+      public static const TEXT_HANGAR_EVENT_BANNERS:String = "../text/hangar_event_banners.po";
+      
+      public static const TEXT_IGR_VEHICLES:String = "../text/igr_vehicles.po";
+      
+      public static const TEXT_INGAME_GUI:String = "../text/ingame_gui.po";
+      
+      public static const TEXT_INGAME_HELP:String = "../text/ingame_help.po";
+      
+      public static const TEXT_INVITES:String = "../text/invites.po";
+      
+      public static const TEXT_ITALY_CREW:String = "../text/italy_crew.po";
+      
+      public static const TEXT_ITALY_VEHICLES:String = "../text/italy_vehicles.po";
+      
+      public static const TEXT_ITEM_TYPES:String = "../text/item_types.po";
+      
+      public static const TEXT_JAPAN_CREW:String = "../text/japan_crew.po";
+      
+      public static const TEXT_JAPAN_VEHICLES:String = "../text/japan_vehicles.po";
+      
+      public static const TEXT_LOBBY_HELP:String = "../text/lobby_help.po";
+      
+      public static const TEXT_LOOTBOXES:String = "../text/lootboxes.po";
+      
+      public static const TEXT_LOOTBOX_ANNIVERSARYCN:String = "../text/lootbox_anniversaryCN.po";
+      
+      public static const TEXT_LOOTBOX_BATTLEPASS:String = "../text/lootbox_battlePass.po";
+      
+      public static const TEXT_LOOTBOX_CANTONE:String = "../text/lootbox_cantone.po";
+      
+      public static const TEXT_LOOTBOX_DRAGONBOAT:String = "../text/lootbox_dragonboat.po";
+      
+      public static const TEXT_LOOTBOX_LOOTBOXSYSTEM:String = "../text/lootbox_lootBoxSystem.po";
+      
+      public static const TEXT_LOOTBOX_LUNAR:String = "../text/lootbox_lunar.po";
+      
+      public static const TEXT_LOOTBOX_STPATRICK:String = "../text/lootbox_stPatrick.po";
+      
+      public static const TEXT_LOOTBOX_SYSTEM:String = "../text/lootbox_system.po";
+      
+      public static const TEXT_LOOTBOX_WT:String = "../text/lootbox_wt.po";
+      
+      public static const TEXT_LORE:String = "../text/lore.po";
+      
+      public static const TEXT_MANUAL:String = "../text/manual.po";
+      
+      public static const TEXT_MAPBOX:String = "../text/mapbox.po";
+      
+      public static const TEXT_MAPS_TRAINING:String = "../text/maps_training.po";
+      
+      public static const TEXT_MARATHON:String = "../text/marathon.po";
+      
+      public static const TEXT_MATCHMAKER:String = "../text/matchmaker.po";
+      
+      public static const TEXT_MENTORING_LICENSE:String = "../text/mentoring_license.po";
+      
+      public static const TEXT_MENU:String = "../text/menu.po";
+      
+      public static const TEXT_MESSENGER:String = "../text/messenger.po";
+      
+      public static const TEXT_MODE_SELECTOR:String = "../text/mode_selector.po";
+      
+      public static const TEXT_MOTIVATION_QUESTS:String = "../text/motivation_quests.po";
+      
+      public static const TEXT_MULTINATIONAL_VEHICLES:String = "../text/multinational_vehicles.po";
+      
+      public static const TEXT_NATIONS:String = "../text/nations.po";
+      
+      public static const TEXT_OFFERS:String = "../text/offers.po";
+      
+      public static const TEXT_PAGES:String = "../text/pages.po";
+      
+      public static const TEXT_PERSONAL_EXCHANGE_RATES:String = "../text/personal_exchange_rates.po";
+      
+      public static const TEXT_PERSONAL_MISSIONS:String = "../text/personal_missions.po";
+      
+      public static const TEXT_PERSONAL_MISSIONS_30:String = "../text/personal_missions_30.po";
+      
+      public static const TEXT_PERSONAL_MISSIONS_DETAILS:String = "../text/personal_missions_details.po";
+      
+      public static const TEXT_PERSONAL_RESERVES:String = "../text/personal_reserves.po";
+      
+      public static const TEXT_PET_EVENTS:String = "../text/pet_events.po";
+      
+      public static const TEXT_PET_NAMES:String = "../text/pet_names.po";
+      
+      public static const TEXT_PET_SYSTEM:String = "../text/pet_system.po";
+      
+      public static const TEXT_PLATOON:String = "../text/platoon.po";
+      
+      public static const TEXT_PLAYER_SATISFACTION:String = "../text/player_satisfaction.po";
+      
+      public static const TEXT_PLAYER_SUBSCRIPTIONS:String = "../text/player_subscriptions.po";
+      
+      public static const TEXT_PLAYLISTS:String = "../text/playlists.po";
+      
+      public static const TEXT_POINTS_OF_INTEREST:String = "../text/points_of_interest.po";
+      
+      public static const TEXT_POLAND_CREW:String = "../text/poland_crew.po";
+      
+      public static const TEXT_POLAND_VEHICLES:String = "../text/poland_vehicles.po";
+      
+      public static const TEXT_PREBATTLE:String = "../text/prebattle.po";
+      
+      public static const TEXT_PREBATTLE_HIGHLIGHTS:String = "../text/prebattle_highlights.po";
+      
+      public static const TEXT_PREMACC:String = "../text/premacc.po";
+      
+      public static const TEXT_PRESTIGE:String = "../text/prestige.po";
+      
+      public static const TEXT_PROFILE:String = "../text/profile.po";
+      
+      public static const TEXT_PROGRESSIVE_REWARD:String = "../text/progressive_reward.po";
+      
+      public static const TEXT_QUESTS:String = "../text/quests.po";
+      
+      public static const TEXT_RANKED_BATTLES:String = "../text/ranked_battles.po";
+      
+      public static const TEXT_READABLE_KEY_NAMES:String = "../text/readable_key_names.po";
+      
+      public static const TEXT_RECERTIFICATION_FORM:String = "../text/recertification_form.po";
+      
+      public static const TEXT_SELECTABLE_REWARD:String = "../text/selectable_reward.po";
+      
+      public static const TEXT_SENIORITY_AWARDS:String = "../text/seniority_awards.po";
+      
+      public static const TEXT_SESSION_STATS:String = "../text/session_stats.po";
+      
+      public static const TEXT_SETTINGS:String = "../text/settings.po";
+      
+      public static const TEXT_STATIC_QUESTS:String = "../text/static_quests.po";
+      
+      public static const TEXT_STORAGE:String = "../text/storage.po";
+      
+      public static const TEXT_STORE:String = "../text/store.po";
+      
+      public static const TEXT_STRONGHOLD_EVENT:String = "../text/stronghold_event.po";
+      
+      public static const TEXT_SUBSCRIPTION:String = "../text/subscription.po";
+      
+      public static const TEXT_SWEDEN_CREW:String = "../text/sweden_crew.po";
+      
+      public static const TEXT_SWEDEN_VEHICLES:String = "../text/sweden_vehicles.po";
+      
+      public static const TEXT_SYSTEM_MESSAGES:String = "../text/system_messages.po";
+      
+      public static const TEXT_TANK_CAROUSEL_FILTER:String = "../text/tank_carousel_filter.po";
+      
+      public static const TEXT_TANK_SETUP:String = "../text/tank_setup.po";
+      
+      public static const TEXT_TECH_TREE:String = "../text/tech_tree.po";
+      
+      public static const TEXT_TIPS:String = "../text/tips.po";
+      
+      public static const TEXT_TOOLTIPS:String = "../text/tooltips.po";
+      
+      public static const TEXT_TUTORIAL:String = "../text/tutorial.po";
+      
+      public static const TEXT_USA_CREW:String = "../text/usa_crew.po";
+      
+      public static const TEXT_USA_VEHICLES:String = "../text/usa_vehicles.po";
+      
+      public static const TEXT_USER_MISSIONS:String = "../text/user_missions.po";
+      
+      public static const TEXT_USSR_CREW:String = "../text/ussr_crew.po";
+      
+      public static const TEXT_USSR_CREW_EN:String = "../text/ussr_crew_en.po";
+      
+      public static const TEXT_USSR_VEHICLES:String = "../text/ussr_vehicles.po";
+      
+      public static const TEXT_VEHICLE_CUSTOMIZATION:String = "../text/vehicle_customization.po";
+      
+      public static const TEXT_VEHICLE_CUSTOMIZATION_CN:String = "../text/vehicle_customization_cn.po";
+      
+      public static const TEXT_VEHICLE_HUB:String = "../text/vehicle_hub.po";
+      
+      public static const TEXT_VEHICLE_PREVIEW:String = "../text/vehicle_preview.po";
+      
+      public static const TEXT_VEH_COMPARE:String = "../text/veh_compare.po";
+      
+      public static const TEXT_VEH_POST_PROGRESSION:String = "../text/veh_post_progression.po";
+      
+      public static const TEXT_VEH_SKILL_TREE:String = "../text/veh_skill_tree.po";
+      
+      public static const TEXT_W2C:String = "../text/w2c.po";
+      
+      public static const TEXT_WAITING:String = "../text/waiting.po";
+      
+      public static const TEXT_WEEKLY_QUESTS:String = "../text/weekly_quests.po";
+      
+      public static const TEXT_WINBACK:String = "../text/winback.po";
+      
+      public static const ALL_ENUM:Array = [TEXT_ACCOUNT_COMPLETION,TEXT_ACCOUNT_DASHBOARD,TEXT_ACHIEVEMENTS,TEXT_ACHIEVEMENTS_PAGE,TEXT_ADVANCED_ACHIEVEMENTS,TEXT_AOGAS,TEXT_ARENAS,TEXT_ARMOR_INSPECTOR,TEXT_ARTEFACTS,TEXT_ATTACHMENTS_PREVIEW,TEXT_AWARDS,TEXT_BADGE,TEXT_BAN_REASON,TEXT_BATTLE_HINTS,TEXT_BATTLE_MATTERS,TEXT_BATTLE_PASS,TEXT_BATTLE_RESULTS,TEXT_BATTLE_ROYALE,TEXT_BLUEPRINTS,TEXT_CAT,TEXT_CHALLENGES,TEXT_CHAT,TEXT_CHINA_CREW,TEXT_CHINA_VEHICLES,TEXT_CLANS,TEXT_CLAN_SUPPLY,TEXT_COLLECTIONS,TEXT_COLLECTION_BATTLE_PASS_10,TEXT_COLLECTION_BATTLE_PASS_11,TEXT_COLLECTION_BATTLE_PASS_12,TEXT_COMMON,TEXT_CONTROLS,TEXT_CREW,TEXT_CREW_BOOKS,TEXT_CREW_HELP,TEXT_CREW_OPERATIONS,TEXT_CREW_PERKS,TEXT_CREW_SKINS,TEXT_CREW_WIDGET,TEXT_CURRENCY_RESERVES,TEXT_CYBERSPORT,TEXT_CZECH_CREW,TEXT_CZECH_VEHICLES,TEXT_DATETIME_FORMATS,TEXT_DEATH_CAM,TEXT_DEMOUNT_KIT,TEXT_DEVELOPMENT,TEXT_DIALOGS,TEXT_DOGTAGS,TEXT_ELITE_WINDOW,TEXT_ENVIRONMENT_TOOLTIPS,TEXT_EPIC_BATTLE,TEXT_ERROR_DLG,TEXT_EVENT,TEXT_EVENT_BOARDS
+      ,TEXT_EXCLUDED_MAPS,TEXT_FALLOUT,TEXT_FAQ,TEXT_FORTIFICATIONS,TEXT_FRANCE_CREW,TEXT_FRANCE_VEHICLES,TEXT_GAME_LOADING,TEXT_GB_CREW,TEXT_GB_VEHICLES,TEXT_GERMANY_CREW,TEXT_GERMANY_VEHICLES,TEXT_HANGAR,TEXT_HANGAR_EVENT_BANNERS,TEXT_IGR_VEHICLES,TEXT_INGAME_GUI,TEXT_INGAME_HELP,TEXT_INVITES,TEXT_ITALY_CREW,TEXT_ITALY_VEHICLES,TEXT_ITEM_TYPES,TEXT_JAPAN_CREW,TEXT_JAPAN_VEHICLES,TEXT_LOBBY_HELP,TEXT_LOOTBOXES,TEXT_LOOTBOX_ANNIVERSARYCN,TEXT_LOOTBOX_BATTLEPASS,TEXT_LOOTBOX_CANTONE,TEXT_LOOTBOX_DRAGONBOAT,TEXT_LOOTBOX_LOOTBOXSYSTEM,TEXT_LOOTBOX_LUNAR,TEXT_LOOTBOX_STPATRICK,TEXT_LOOTBOX_SYSTEM,TEXT_LOOTBOX_WT,TEXT_LORE,TEXT_MANUAL,TEXT_MAPBOX,TEXT_MAPS_TRAINING,TEXT_MARATHON,TEXT_MATCHMAKER,TEXT_MENTORING_LICENSE,TEXT_MENU,TEXT_MESSENGER,TEXT_MODE_SELECTOR,TEXT_MOTIVATION_QUESTS,TEXT_MULTINATIONAL_VEHICLES,TEXT_NATIONS,TEXT_OFFERS,TEXT_PAGES,TEXT_PERSONAL_EXCHANGE_RATES,TEXT_PERSONAL_MISSIONS,TEXT_PERSONAL_MISSIONS_30,TEXT_PERSONAL_MISSIONS_DETAILS,TEXT_PERSONAL_RESERVES,TEXT_PET_EVENTS,TEXT_PET_NAMES
+      ,TEXT_PET_SYSTEM,TEXT_PLATOON,TEXT_PLAYER_SATISFACTION,TEXT_PLAYER_SUBSCRIPTIONS,TEXT_PLAYLISTS,TEXT_POINTS_OF_INTEREST,TEXT_POLAND_CREW,TEXT_POLAND_VEHICLES,TEXT_PREBATTLE,TEXT_PREBATTLE_HIGHLIGHTS,TEXT_PREMACC,TEXT_PRESTIGE,TEXT_PROFILE,TEXT_PROGRESSIVE_REWARD,TEXT_QUESTS,TEXT_RANKED_BATTLES,TEXT_READABLE_KEY_NAMES,TEXT_RECERTIFICATION_FORM,TEXT_SELECTABLE_REWARD,TEXT_SENIORITY_AWARDS,TEXT_SESSION_STATS,TEXT_SETTINGS,TEXT_STATIC_QUESTS,TEXT_STORAGE,TEXT_STORE,TEXT_STRONGHOLD_EVENT,TEXT_SUBSCRIPTION,TEXT_SWEDEN_CREW,TEXT_SWEDEN_VEHICLES,TEXT_SYSTEM_MESSAGES,TEXT_TANK_CAROUSEL_FILTER,TEXT_TANK_SETUP,TEXT_TECH_TREE,TEXT_TIPS,TEXT_TOOLTIPS,TEXT_TUTORIAL,TEXT_USA_CREW,TEXT_USA_VEHICLES,TEXT_USER_MISSIONS,TEXT_USSR_CREW,TEXT_USSR_CREW_EN,TEXT_USSR_VEHICLES,TEXT_VEHICLE_CUSTOMIZATION,TEXT_VEHICLE_CUSTOMIZATION_CN,TEXT_VEHICLE_HUB,TEXT_VEHICLE_PREVIEW,TEXT_VEH_COMPARE,TEXT_VEH_POST_PROGRESSION,TEXT_VEH_SKILL_TREE,TEXT_W2C,TEXT_WAITING,TEXT_WEEKLY_QUESTS,TEXT_WINBACK];
+      
+      public function PO_FILES()
+      {
+         super();
+      }
+      
+      public static function all(param1:String) : String
+      {
+         var _loc2_:String = "../" + param1;
+         if(ALL_ENUM.indexOf(_loc2_) == -1)
+         {
+            DebugUtils.LOG_WARNING("[all]:locale key \"" + _loc2_ + "\" was not found");
+            return null;
+         }
+         return _loc2_;
+      }
+   }
+}
+

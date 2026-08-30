@@ -1,0 +1,25 @@
+from frameworks.wulf import Array
+from gui.impl.gen.view_models.views.lobby.battle_results.simple_stats_parameter_model import SimpleStatsParameterModel
+
+class DetailedStatsParameterModel(SimpleStatsParameterModel):
+    __slots__ = ()
+
+    def __init__(self, properties=5, commands=0):
+        super(DetailedStatsParameterModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getDetails(self):
+        return self._getArray(4)
+
+    def setDetails(self, value):
+        self._setArray(4, value)
+        return
+
+    @staticmethod
+    def getDetailsType():
+        return SimpleStatsParameterModel
+
+    def _initialize(self):
+        super(DetailedStatsParameterModel, self)._initialize()
+        self._addArrayProperty(b'details', Array())
+        return

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xmlref="http://bwt/xmlref" xmlns:ussr="ussr" xmlns:germany="germany" xmlns:usa="usa" xmlns:china="china" xmlns:france="france" xmlns:uk="uk" xmlns:japan="japan" xmlns:czech="czech" xmlns:sweden="sweden" xmlns:poland="poland" xmlns:italy="italy">
+	<itemGroup>
+		<userString>#vehicle_customization:camouflage/opaque</userString>
+		<season>ALL</season>
+		<historical>0</historical>
+		<priceGroup>camouflages 50g notInShop</priceGroup>
+		<vehicleFilter>
+			<include>
+				<vehicles>germany:G98_Waffentrager_E100_TLXXL_S</vehicles>
+			</include>
+		</vehicleFilter>
+		<camouflage>
+			<id>899</id>
+			<texture>vehicles/german/Camouflage/Polylines.dds</texture>
+			<description>#vehicle_customization:camouflage/waffentrager_e100_tlxxl_s/description</description>
+			<scales>1.3 1 0.7</scales>
+			<userString>#vehicle_customization:camouflage/waffentrager_e100_tlxxl_s/label</userString>
+			<tags>hiddenInUI</tags>
+			<invisibilityFactor>0</invisibilityFactor>
+			<palettes>
+				<palette>
+					<c0>183 149 69 255</c0>
+					<c1>80 85 89 255</c1>
+					<c2>0 0 0 0</c2>
+					<c3>0 0 0 0</c3>
+				</palette>
+			</palettes>
+			<rotation>
+				<HULL>2.30174</HULL>
+				<TURRET>2.30174</TURRET>
+				<GUN>2.30174</GUN>
+			</rotation>
+			<tiling>
+				<germany:G98_Waffentrager_E100_TLXXL_S>1.84 1.84 1.65 0.2</germany:G98_Waffentrager_E100_TLXXL_S>
+			</tiling>
+			<tilingSettings>
+				<type>relative</type>
+				<factor>1.88487 1.88554</factor>
+				<offset>0 0</offset>
+			</tilingSettings>
+		</camouflage>
+	</itemGroup>
+</root>

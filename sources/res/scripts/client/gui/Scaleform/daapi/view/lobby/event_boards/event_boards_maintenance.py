@@ -1,0 +1,14 @@
+from __future__ import absolute_import
+from gui.Scaleform.daapi.view.meta.MaintenanceComponentMeta import MaintenanceComponentMeta
+import Event
+
+class EventBoardsMaintenance(MaintenanceComponentMeta):
+
+    def __init__(self):
+        super(EventBoardsMaintenance, self).__init__()
+        self.onRefresh = Event.Event()
+        return
+
+    def refresh(self):
+        self.onRefresh()
+        return

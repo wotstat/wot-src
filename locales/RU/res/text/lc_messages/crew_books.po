@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "ПРИОБРЕСТИ"
+
+msgid "buttons/cancel"
+msgstr "Отменить"
+
+msgid "buttons/learn"
+msgstr "Применить"
+
+msgid "buttons/postProgression/claim"
+msgstr "ЗАБРАТЬ"
+
+msgid "buttons/postProgression/hint"
+msgstr "К ПОСТПРОГРЕССИИ"
+
+msgid "buttons/postProgression/howTo"
+msgstr "КАК ПОЛУЧИТЬ"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Курс обмена:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Применяется к выбранному члену экипажа.\nУскоряет изучение текущего навыка с помощью свободного опыта."
+
+msgid "card/freeExp/title"
+msgstr "СВОБОДНЫЙ ОПЫТ"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Эффективность навыков: 100%\n• Специализация: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Применяется ко всему экипажу.\nИзучение даёт %(xp) каждому члену экипажа."
+
+msgid "card/nationBook/title/brochure"
+msgstr "УЧЕБНАЯ БРОШЮРА (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "УЧЕБНОЕ ПОСОБИЕ (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "УЧЕБНОЕ РУКОВОДСТВО (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Применяется без ограничений."
+
+msgid "card/personalBook/mainText"
+msgstr "Применяется к выбранному члену экипажа.\nИзучение даёт ему %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "ПЕРСОНАЛЬНОЕ УЧЕБНОЕ ПОСОБИЕ"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Эффективность навыков: 100%\n• Специализация: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Применяется ко всему экипажу.\nИзучение даёт %(xp) каждому члену экипажа."
+
+msgid "card/universalBook/title/universalBook"
+msgstr "УНИВЕРСАЛЬНОЕ ПОСОБИЕ"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "УНИВЕРСАЛЬНАЯ БРОШЮРА"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "УНИВЕРСАЛЬНОЕ РУКОВОДСТВО"
+
+msgid "confirm/crewLabel"
+msgstr "Каждый член экипажа получит %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Каждый член экипажа получит %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) получит дополнительно %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) получит %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Некоторые члены экипажа получат %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Учебная брошюра (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Учебная брошюра"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "УЧЕБНАЯ БРОШЮРА"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опыта каждому члену экипажа."
+
+msgid "items/crewBook/Name"
+msgstr "Учебное пособие (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Учебное пособие"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "УЧЕБНОЕ ПОСОБИЕ"
+
+msgid "items/guide/Name"
+msgstr "Учебное руководство (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Учебное руководство"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "УЧЕБНОЕ РУКОВОДСТВО"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опыта выбранному члену экипажа"
+
+msgid "items/personalBook/Name"
+msgstr "Персональное учебное пособие"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опыта каждому члену экипажа."
+
+msgid "items/universalBook/Name"
+msgstr "Универсальное пособие"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опыта каждому члену экипажа."
+
+msgid "items/universalBrochure/Name"
+msgstr "Универсальная брошюра"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} опыта каждому члену экипажа."
+
+msgid "items/universalGuide/Name"
+msgstr "Универсальное руководство"
+
+msgid "page/mentoringLicense/hint"
+msgstr "К СЕРТИФИКАТУ НАСТАВНИКА"
+
+msgid "page/mentoringLicense/title"
+msgstr "СЕРТИФИКАТ НАСТАВНИКА"
+
+msgid "page/title"
+msgstr "УСКОРЕННОЕ ОБУЧЕНИЕ"
+
+msgid "tooltip/buyManual"
+msgstr "Купить учебное пособие"
+
+msgid "tooltip/mouseWheel"
+msgstr "Используйте колесо мыши {mouseIcon}, чтобы увеличить/уменьшить количество учебных материалов."
+
+msgid "tooltip/outOfStock"
+msgstr "Учебные материалы отсутствуют"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "Учебные материалы отсутствуют. Вы можете купить их в Магазине"
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Применяется к выбранному члену экипажа. Изучение даёт ему %(xp)s опыта."
+
+msgid "tooltip/postProgression"
+msgstr "К постпрогрессии"
+
+msgid "tooltip/sale/header"
+msgstr "Выгодный курс обмена"
+
+msgid "tooltip/sale/newRate"
+msgstr "Новый курс обмена: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Предыдущий курс обмена: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Нажмите %(controlsImg), чтобы увеличить/уменьшить уровень изучения навыка на 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Нажмите %(pgupImg)/%(pgdownImg), чтобы увеличить уровень изучения навыка до&nbsp;100% / вернуться к&nbsp;предыдущему навыку."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Применяется ко всему экипажу. Изучение даёт %(xp)s опыта каждому члену экипажа."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Применяется ко всему экипажу. Изучение даёт %(xp)s опыта каждому члену экипажа."

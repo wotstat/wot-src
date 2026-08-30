@@ -1,0 +1,650 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleControls/casseteReload"
+msgstr "Reload Shell Container"
+
+msgid "battleControls/closeBtnLabel"
+msgstr "CLOSE"
+
+msgid "battleControls/cruiseCtrlBackward"
+msgstr "Move Backward in Cruise Control Mode"
+
+msgid "battleControls/cruiseCtrlForward"
+msgstr "Move Forward in Cruise Control Mode"
+
+msgid "battleControls/disableLockTarget"
+msgstr "Disable Auto-Aim"
+
+msgid "battleControls/fire"
+msgstr "Fire"
+
+msgid "battleControls/hideInterface"
+msgstr "Show/Hide Battle Interface"
+
+msgid "battleControls/hideMinimap"
+msgstr "Hide/Show Minimap"
+
+msgid "battleControls/makeScreenshort"
+msgstr "Capture Screen Image to Folder"
+
+msgid "battleControls/movementBackward"
+msgstr "Move Backward"
+
+msgid "battleControls/movementForward"
+msgstr "Move Forward"
+
+msgid "battleControls/movementLeft"
+msgstr "Turn/Move Left"
+
+msgid "battleControls/movementRight"
+msgstr "Turn/Move Right"
+
+msgid "battleControls/pageTitle"
+msgstr "GENERAL INFORMATION"
+
+msgid "battleControls/showCursor"
+msgstr "Display Cursor"
+
+msgid "battleControls/showCursor/ext"
+msgstr "(for minimap, list of players, etc.)"
+
+msgid "battleControls/showExPlayerInfo"
+msgstr "Display Alternative Marker"
+
+msgid "battleControls/stopFire"
+msgstr "Stop and Fire"
+
+msgid "battleControls/switchAutorotation"
+msgstr "Lock Hull / Switch Mode"
+
+msgid "battleControls/title"
+msgstr "Battle Mode"
+
+msgid "battleControls/toggleAFL"
+msgstr "Enable/Disable Armor Flashlight"
+
+msgid "battleControls/toggleAFL/ext"
+msgstr "only available in Sniper Mode"
+
+msgid "battleControls/toggleLockTarget"
+msgstr "Enable/Disable Auto-Aim"
+
+msgid "battleControls/toggleLockTarget/ext"
+msgstr "(with reticle on target)"
+
+msgid "battleControls/togglePlayerPanelModes"
+msgstr "Show/Hide Team Lists"
+
+msgid "battleControls/togglePlayerPanelModes/ext"
+msgstr "or commend back"
+
+msgid "battleControls/toggleSniperMode"
+msgstr "Enable/Disable Sniper Mode"
+
+msgid "battleControls/toggleSniperMode/ext"
+msgstr "or Artillery Mode"
+
+msgid "battleControls/voiceChatMute"
+msgstr "Enable Voice Chat"
+
+msgid "chatControls/change"
+msgstr "To Team / To Platoon"
+
+msgid "chatControls/enterToChatMode"
+msgstr "Enter Chat Mode"
+
+msgid "chatControls/exitFromChatMode"
+msgstr "Exit Chat Mode"
+
+msgid "chatControls/send"
+msgstr "Send Message"
+
+msgid "chatControls/title"
+msgstr "Chat Mode"
+
+msgid "crosshairControls/ammoNumber"
+msgstr "Shells Remaining"
+
+msgid "crosshairControls/damageIndicator"
+msgstr "Fire Direction"
+
+msgid "crosshairControls/dispercion"
+msgstr "Dispersion"
+
+msgid "crosshairControls/example/damage"
+msgstr "-248"
+
+msgid "crosshairControls/example/hp"
+msgstr "375/720"
+
+msgid "crosshairControls/example/name"
+msgstr "T-34-85"
+
+msgid "crosshairControls/gunMarker"
+msgstr "Gun Position"
+
+msgid "crosshairControls/healthPlayer"
+msgstr "Player Health"
+
+msgid "crosshairControls/hpIndicator"
+msgstr "Health Indicator"
+
+msgid "crosshairControls/hpValues"
+msgstr "Target Health (%/HP left/total)"
+
+msgid "crosshairControls/marker"
+msgstr "Point of Aim"
+
+msgid "crosshairControls/reloadIndicator"
+msgstr "Gun Loading"
+
+msgid "crosshairControls/reloadTimer"
+msgstr "Gun Reload Time (in seconds)"
+
+msgid "crosshairControls/targetClass"
+msgstr "Vehicle Type Marker"
+
+msgid "crosshairControls/targetDistance"
+msgstr "Range to Target"
+
+msgid "crosshairControls/targetIcon"
+msgstr "Vehicle Icon"
+
+msgid "crosshairControls/targetLevel"
+msgstr "Tier"
+
+msgid "crosshairControls/targetName"
+msgstr "Vehicle Model / Player Name"
+
+msgid "crosshairControls/title"
+msgstr "Gun and Reticle Indicators"
+
+msgid "detailsHelp/default/title"
+msgstr "Help"
+
+msgid "detailsHelp/devMaps/headerTitle"
+msgstr "Map Features"
+
+msgid "detailsHelp/devMaps/markers/description"
+msgstr "The random event location will be marked with\nsmoke on the map and a marker on the minimap.\nMaps with random events can be disabled via the settings in the Game tab."
+
+msgid "detailsHelp/devMaps/title"
+msgstr "Maps With Random Events"
+
+msgid "detailsHelp/devMaps/zone/description"
+msgstr "Your vehicle can be destroyed in a random event area (for example, during a plane crash).\nMaps with random events can be disabled via the settings in the Game tab."
+
+msgid "detailsHelp/dualGun/quick_fire"
+msgstr "Vehicles with this firing system switch guns upon firing. One fired gun starts reloading automatically, while the second loaded gun will have to wait a little."
+
+msgid "detailsHelp/dualGun/quick_fire/title"
+msgstr "Rapid Fire"
+
+msgid "detailsHelp/dualGun/volley_fire"
+msgstr "Vehicles with the double-barreled gun system are provided with a special salvo fire mechanic that is activated by holding down the assigned key. The fired shells fly parallel to each other. The button to control firing can be changed in Settings."
+
+msgid "detailsHelp/dualGun/volley_fire/title"
+msgstr "Salvo Fire"
+
+msgid "detailsHelp/engineMode/engineModePage1"
+msgstr "You can switch engine modes to suit the specific tactical situation. Changing engine modes requires a complete stop and takes a particular amount of time that does not depend on the state of the module."
+
+msgid "detailsHelp/engineMode/engineModePage1/title"
+msgstr "New Movement Mechanics"
+
+msgid "detailsHelp/engineMode/engineModePage2"
+msgstr "The charged turbine mode increases engine power, forward speed, and reverse speed. However, this mode makes your vehicle more visible, reduces gun stabilization, and increases aiming time."
+
+msgid "detailsHelp/engineMode/engineModePage2/title"
+msgstr "Advantages and Disadvantages"
+
+msgid "detailsHelp/mapbox/headerTitle"
+msgstr "Map Features"
+
+msgid "detailsHelp/mapbox/localWeather/description"
+msgstr "Vehicles within a local weather zone cannot spot vehicles outside the zone and vice versa, or exchange information on the positions of enemy vehicles outside the zone. Fire damages the vehicles."
+
+msgid "detailsHelp/mapbox/localWeather/title"
+msgstr "Local Weather"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/description"
+msgstr "Remaining stationary or moving below a certain speed allows your vehicle to calibrate its Analog Ballistic Computing Device and build accuracy levels.\nEach level increases the accuracy of your next shot and is removed upon firing."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page1/title"
+msgstr "Analog Ballistic Computing Device"
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/description"
+msgstr "At full calibration, your vehicle reaches the highest accuracy level and gains decent gun stabilization, with reduced dispersion during movement or turret/hull traverse.\nThe effect is removed upon firing."
+
+msgid "detailsHelp/mechanics/accuracyStacks/page2/title"
+msgstr "Full Calibration"
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/description"
+msgstr "A type of automatic firearm with an extremely high rate of fire. Firing effectiveness is shown by an indicator in the aiming circle."
+
+msgid "detailsHelp/mechanics/autoShootGun/page1/title"
+msgstr "Autogun"
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/description"
+msgstr "This gun can fire continuously without the need for reload. Each shot generates heat, and continuous firing will cause the gun to overheat, preventing further firing until it cools down."
+
+msgid "detailsHelp/mechanics/autoShootGun_overheatGun/page1/title"
+msgstr "Thermal Overheat Control Autocannon"
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/description"
+msgstr "The mechanism instantly reduces shell reload to a short fixed time. Each use consumes one charge per shell, and charges replenish over time—faster when the clip is full. A set number of charges is available at the start of battle."
+
+msgid "detailsHelp/mechanics/autoreloaderSurge/page1/title"
+msgstr "Forced Loading Mechanism"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/description"
+msgstr "This vehicle is equipped with a rocket launcher mounted in the gun mantlet. To switch to rocket aiming sight, press:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page1/title"
+msgstr "Coaxial Rocket Launcher"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/description"
+msgstr "While aiming with the rocket sight, press the fire button to launch a rocket:"
+
+msgid "detailsHelp/mechanics/auxiliaryRocketLauncher/page2/title"
+msgstr "Coaxial Rocket Launcher"
+
+msgid "detailsHelp/mechanics/battleFury/page1/description"
+msgstr "Every time you hit an enemy with a shell, you gain a reload efficiency level, temporarily boosting your gun's reload speed. Levels accumulate with each hit.\nDestroying an enemy vehicle with a shell grants additional reload efficiency levels."
+
+msgid "detailsHelp/mechanics/battleFury/page1/title"
+msgstr "Semi-Automatic Ammo Rack"
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/description"
+msgstr "This vehicle's External Ammunition Supply Module allows it to fire powerful high-charge unitary rounds that cause increased damage. While active, the module also reduces mobility and fire rate."
+
+msgid "detailsHelp/mechanics/bustleFeed/page1/title"
+msgstr "External Ammunition Feed mode"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/description"
+msgstr "If your gun is loaded, you can begin heating your next shot. The higher the heat level you reach, the greater the bonus to average damage will be.\nTo start the heating process, press:"
+
+msgid "detailsHelp/mechanics/chargeShot/page1/title"
+msgstr "Thermo-Ballistic Overcharge"
+
+msgid "detailsHelp/mechanics/chargeShot/page2/description"
+msgstr "When you reach maximum heat level, a countdown begins. If you do not fire before it ends, you will be unable to shoot or change shells for several seconds."
+
+msgid "detailsHelp/mechanics/chargeShot/page2/title"
+msgstr "Charge Overheating"
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/description"
+msgstr "Scoring two armor-penetrating hits on enemy vehicles activates Burst mode, loading a burst-fire cassette that allows two shells to be fired in quick succession with the next shot."
+
+msgid "detailsHelp/mechanics/chargeableBurst/page1/title"
+msgstr "Burst mode"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/description"
+msgstr "The Pneumatic Gyro-Stabilizer grants maximum stabilization during hull and turret traverse for a short time, allowing for more accurate firing on the move and quick reaction to sudden threats.\nTo activate it, press the hotkey:"
+
+msgid "detailsHelp/mechanics/concentrationMode/page1/title"
+msgstr "Pneumatic Gyro-Stabilizer"
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/description"
+msgstr "If a gun has cooled down sufficiently after firing, its dispersion will be reduced. A second aiming circle with a smaller diameter will appear, which will determine the area of shell impact. This effect lasts until the next shot is fired."
+
+msgid "detailsHelp/mechanics/dualAccuracy/page1/title"
+msgstr "Double Aiming"
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/description"
+msgstr "The system automatically starts loading a new cassette when one shell remains in the current one.\nFiring the final shell while the new cassette is being loaded adds several seconds to the remaining reload time."
+
+msgid "detailsHelp/mechanics/extraShotClip/page1/title"
+msgstr "Cassette Loading System"
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/description"
+msgstr "The system keeps the gun cooled, allowing for highly accurate firing. The gun heats up when fired, but begins cooling down and returns to improved parameters during reload. The higher its temperature, the more some of its parameters change."
+
+msgid "detailsHelp/mechanics/heatingZonesGun/page1/title"
+msgstr "Active Gun Cooling"
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/description"
+msgstr "This vehicle is specially configured for ramming attacks, with a series of design modifications that help it inflict more ramming damage."
+
+msgid "detailsHelp/mechanics/improvedRamming/page1/title"
+msgstr "Ramming Configuration"
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/description"
+msgstr "This vehicle's gun can fire early: single-charge shots, fired during reload, have reduced effectiveness, while regular full-charge shots fired after reloading have optimal ballistic parameters."
+
+msgid "detailsHelp/mechanics/lowChargeShot/page1/title"
+msgstr "Multi-Pack Charge System"
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/description"
+msgstr "Remaining stationary or moving below a certain speed generates preheat, which increases the average damage and accuracy of your next shot.\nExceeding the speed limit gradually reduces the bonus, while firing or changing shells instantly resets it."
+
+msgid "detailsHelp/mechanics/overheatStacks/page1/title"
+msgstr "Propellant Thermal Control System"
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/description"
+msgstr "At maximum preheat level, penetrating the armor of an enemy vehicle with fewer hit points than your average damage—including your accumulated preheat bonus—will cause its ammo rack to explode, instantly destroying the vehicle."
+
+msgid "detailsHelp/mechanics/overheatStacks/page2/title"
+msgstr "Decisive Damage"
+
+msgid "detailsHelp/mechanics/powerMode/page1/description"
+msgstr "Direct Drive mode provides a significant boost to engine power and top forward speed. The longer you drive forward, the more speed builds, allowing you to traverse the battlefield with ease."
+
+msgid "detailsHelp/mechanics/powerMode/page1/title"
+msgstr "Direct Drive"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/description"
+msgstr "Over time, the system automatically accumulates a charge, which is partially consumed to boost damage when firing. The higher the charge, the greater the bonus damage."
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page1/title"
+msgstr "Induction Propellant Afterburner"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/description"
+msgstr "By default, the system only stores the charge up to a certain limit. Disabling the limiter lets it accumulate an even higher charge, granting a much greater damage bonus but reducing gun handling. To toggle the limiter, press:"
+
+msgid "detailsHelp/mechanics/propellantAfterburnerGun/page2/title"
+msgstr "Limiter"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/description"
+msgstr "The Liquid Fuel Boosters grant a burst of engine power, allowing for rapid movement across the battlefield—but limiting reverse and traverse speed. They can be toggled on or off at any time, except at critical heat level.\nTo boost, press or hold:"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page1/title"
+msgstr "Liquid Fuel Boosters"
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/description"
+msgstr "The boosters overheat while active until they reach their critical heat limit, when they become unavailable for reactivation until cooled. Plan your moves carefully to avoid being caught off guard."
+
+msgid "detailsHelp/mechanics/rechargeableNitro/page2/title"
+msgstr "Critical Heat Level"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/description"
+msgstr "The use of jet boosters increases the vehicle's mobility. It allows you to take advantageous positions or cross dangerous areas faster. Jet boosters can be activated for a certain time and for a limited number of times per battle. They cannot be deactivated or destroyed."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page1/title"
+msgstr "Jet Boosters"
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/description"
+msgstr "Upon activation, jet boosters increase engine power and top forward speed. However, the vehicle becomes less maneuverable and loses reverse speed."
+
+msgid "detailsHelp/mechanics/rocketAcceleration/page2/title"
+msgstr "Advantages and Disadvantages"
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/description"
+msgstr "When you hit a visible enemy vehicle with a shell, the fuze setter on the next shell is adjusted. If the initial shot penetrated enemy armor, the next shot's damage is increased. If it did not, the next shot's penetration is increased."
+
+msgid "detailsHelp/mechanics/shellCalibration/page1/title"
+msgstr "Adjustable Fuze Setter"
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/description"
+msgstr "The vehicle's gun has special devices that allow some shell parameters to be modified before firing. Parameters for different shells vary based on the selected mode, and each mode lets you quickly adapt to different combat situations."
+
+msgid "detailsHelp/mechanics/shellParamsSwitcher/page1/title"
+msgstr "Shell Calibration System"
+
+msgid "detailsHelp/mechanics/sightPointer/page1/description"
+msgstr "An advanced optics device increases your view range and enhances detection of moving and foliage-hidden vehicles. When activated, it scans a narrow sector in front of your vehicle, revealing concealed targets before a cooldown period."
+
+msgid "detailsHelp/mechanics/sightPointer/page1/title"
+msgstr "Infrared Search and Track (IRST)"
+
+msgid "detailsHelp/mechanics/sightPointer/page2/description"
+msgstr "However, if it reveals an unspotted enemy, you also immediately become spotted for a set time, and both you and the enemies you spot are notified instantly. You can manually stop the scan and start the device's cooldown after a short delay."
+
+msgid "detailsHelp/mechanics/sightPointer/page2/title"
+msgstr "Infrared Search and Track (IRST)"
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/description"
+msgstr "Solid-fuel thrusters that boost acceleration, mobility, and maneuverability for several seconds. The left and right thrusters can work independently of each other for faster hull traverse, and do not restrict reverse capability."
+
+msgid "detailsHelp/mechanics/stagedJetBoosters/page1/title"
+msgstr "Sequential Rocket Thrusters"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/description"
+msgstr "This vehicle features two modes—Turbo and Engagement—which can be switched at any time. The Tactical Power Pack accumulates energy for the active mode.\nTo switch between modes, press:"
+
+msgid "detailsHelp/mechanics/stanceDance/page1/title"
+msgstr "Two Modes"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/description"
+msgstr "Once the Tactical Power Pack is fully charged, a mode-specific ability becomes available. Activating this ability consumes all accumulated energy and grants powerful bonuses for a short duration.\nTo activate the unique mode ability, press:"
+
+msgid "detailsHelp/mechanics/stanceDance/page2/title"
+msgstr "Mode Abilities"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/description"
+msgstr "The External Ammunition Supply Module allows you to interrupt reload and start firing at any time, as long as you still have one shell loaded. To interrupt or resume the reloading process, press the hotkey:"
+
+msgid "detailsHelp/mechanics/stationaryReload/page1/title"
+msgstr "External Ammunition Supply Module"
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/description"
+msgstr "During reload, the module locks the vehicle's turret and external ammo pods, temporarily preventing you from aiming or firing unless you interrupt it."
+
+msgid "detailsHelp/mechanics/stationaryReload/page2/title"
+msgstr "External Ammunition Supply Module"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/description"
+msgstr "This vehicle is equipped with a set of auxiliary weapons whose reload cycle is separate from the main gun, allowing you to cause additional damage in key moments. To activate auxiliary weapons, press the hotkey:"
+
+msgid "detailsHelp/mechanics/supportWeapon/page1/title"
+msgstr "Auxiliary Weapons"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/description"
+msgstr "The Laser Target Designator adds a special effect to your next shot, applied to any enemy you hit. The effect varies depending on whether the enemy was spotted at the moment of impact.\nTo activate Laser Target Designator, press:"
+
+msgid "detailsHelp/mechanics/targetDesignator/page1/title"
+msgstr "Laser Target Designator"
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/description"
+msgstr "Hitting a spotted enemy vehicle will mark it, extending the time it remains spotted and increasing the damage it receives from shells.\nHitting an unspotted enemy vehicle will highlight its location with a special marker."
+
+msgid "detailsHelp/mechanics/targetDesignator/page2/title"
+msgstr "Target Designation"
+
+msgid "detailsHelp/mechanics/twinGun/page1/description"
+msgstr "You can switch the fire mode from single fire mode to salvo fire mode depending on the tactical situation on the battlefield."
+
+msgid "detailsHelp/mechanics/twinGun/page1/title"
+msgstr "Fire Mode Switching Mechanic"
+
+msgid "detailsHelp/mechanics/twinGun/page2/description"
+msgstr "Salvo fire mode doubles both damage and reload time, and your vehicle loses dispersion at 100 m*."
+
+msgid "detailsHelp/mechanics/twinGun/page2/title"
+msgstr "Advantages and Disadvantages"
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/description"
+msgstr "This mechanical modification significantly boosts the vehicle's forward and reverse acceleration, engine power, and top forward and reverse speed for a short time. Maintaining a high movement speed accelerates its cooldown."
+
+msgid "detailsHelp/mechanics/wheeledDash/page1/title"
+msgstr "High-Pressure Turbocharger Assist"
+
+msgid "detailsHelp/noKeysWarning"
+msgstr "The core keys have not been assigned. Assign them in game settings."
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1"
+msgstr "In this mode, gun accuracy, reload speed, and elevation/depression angles are drastically increased, but mobility (forward/reverse speed and vertical/horizontal traverse speed) is severely limited. To activate the mode, %(pressAndHold)s the hotkey:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/pressAndHold"
+msgstr "press and hold"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page1/title"
+msgstr "Pillbox Mode"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2"
+msgstr "In this mode, gun accuracy, aiming speed, and elevation/depression angles are increased, but mobility (forward and reverse speed) is reduced. To activate the mode, press the hotkey:"
+
+msgid "detailsHelp/pillboxSiege/mechanics/page2/title"
+msgstr "Siege Mode"
+
+msgid "detailsHelp/role/description"
+msgstr "Receive a bonus to experience by performing role actions:"
+
+msgid "detailsHelp/role/title"
+msgstr "Vehicle Role in Battle"
+
+msgid "detailsHelp/trackWithinTrack/description"
+msgstr "Allows for partially maintaining mobility when the main track is destroyed."
+
+msgid "detailsHelp/trackWithinTrack/title"
+msgstr "Reserve Track"
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique"
+msgstr "French wheeled light vehicles demonstrate the highest speed and dynamics but have quite a mediocre view range. A stationary wheeled vehicle cannot turn on the spot."
+
+msgid "detailsHelp/wheeledVeh/aboutTechnique/title"
+msgstr "Overview"
+
+msgid "detailsHelp/wheeledVeh/burnout"
+msgstr "Press and hold %(key2)s and %(key1)s at the same time. The power bar's level affects the boost force. Release the %(key1)s key to activate the boost or release the %(key2)s key to cancel the boost. The boost provides fast acceleration that can be used for unexpected attacks and deceptive maneuvers. Attention! Boost can be used only after the vehicle has completely stopped. Activating boost damages your vehicle's engine."
+
+msgid "detailsHelp/wheeledVeh/burnout/title"
+msgstr "Boost"
+
+msgid "detailsHelp/wheeledVeh/stableChassis"
+msgstr "Wheeled vehicles receive reduced damage when landing on their wheels and do not stop with the destruction of one wheel. As more wheels are destroyed, the speed and handling of the vehicle are reduced. Wheeled vehicles are harder to immobilize—destroyed wheels are completely repaired after a certain period."
+
+msgid "detailsHelp/wheeledVeh/stableChassis/title"
+msgstr "Durable Suspension"
+
+msgid "detailsHelp/wheeledVeh/twoModes"
+msgstr "Press %(key1)s to switch mode. Vehicles demonstrate different speed, dynamics, and handling in each mode."
+
+msgid "detailsHelp/wheeledVeh/twoModes/title"
+msgstr "Two Movement Modes"
+
+msgid "markerColors/enemy"
+msgstr "Enemy"
+
+msgid "markerColors/friend"
+msgstr "Ally"
+
+msgid "markerColors/squadPlayer"
+msgstr "Platoon mate"
+
+msgid "markerColors/teamKiller"
+msgstr "Team killer"
+
+msgid "markerColors/title"
+msgstr "Marker Colors:"
+
+msgid "markerMarks/attack"
+msgstr "Attacking"
+
+msgid "markerMarks/follow"
+msgstr "Follow me!"
+
+msgid "markerMarks/help"
+msgstr "Help!"
+
+msgid "markerMarks/target/sau"
+msgstr "SPG's Target"
+
+msgid "markerMarks/target/tank"
+msgstr "Vehicle's Target"
+
+msgid "markerMarks/title"
+msgstr "Shortcuts on Minimap:"
+
+msgid "radialMenu/ally_hq_defend_command"
+msgstr "Defend!"
+
+msgid "radialMenu/ally_hq_defend_commit"
+msgstr "I'm defending!"
+
+msgid "radialMenu/attackAreaSPG"
+msgstr "Targeting here!"
+
+msgid "radialMenu/attack_enemy"
+msgstr "Requesting fire!"
+
+msgid "radialMenu/attack_enemy_with_SPG"
+msgstr "Attacking target!"
+
+msgid "radialMenu/attacking_base"
+msgstr "I'll capture!"
+
+msgid "radialMenu/attacking_enemy"
+msgstr "Attacking target!"
+
+msgid "radialMenu/attention_to_base_atk"
+msgstr "Capture!"
+
+msgid "radialMenu/attention_to_base_def"
+msgstr "Defend!"
+
+msgid "radialMenu/attention_to_position"
+msgstr "Attention to position!"
+
+msgid "radialMenu/cancel_reply"
+msgstr "Refuse"
+
+msgid "radialMenu/defending_base"
+msgstr "I'll defend!"
+
+msgid "radialMenu/enemy_hq_attack_command"
+msgstr "Attack!"
+
+msgid "radialMenu/enemy_hq_attack_commit"
+msgstr "I'm attacking!"
+
+msgid "radialMenu/going_there"
+msgstr "Driving to position!"
+
+msgid "radialMenu/helpMe"
+msgstr "Help!"
+
+msgid "radialMenu/helpMeEx"
+msgstr "I need help!"
+
+msgid "radialMenu/overheated_gun"
+msgstr "Overheated!"
+
+msgid "radialMenu/positive"
+msgstr "Affirmative!"
+
+msgid "radialMenu/reloadingGun"
+msgstr "Reloading!"
+
+msgid "radialMenu/reply_to_player"
+msgstr "Confirmed!"
+
+msgid "radialMenu/supporting_ally"
+msgstr "I'll help you!"
+
+msgid "radialMenu/thanks"
+msgstr "Thank you!"
+
+msgid "radialMenu/turn_back"
+msgstr "Retreat!"
+
+msgid "returnToGame"
+msgstr "Esc—Back to Battle"
+
+msgid "roleDescription/msg"
+msgstr "Receive a bonus to experience by performing role actions:"
+
+msgid "settings/button"
+msgstr "Settings"
+
+msgid "settings/help"
+msgstr "To view and customize game controls, click Settings."
+
+msgid "teamComm/highlightAsActiveTarget"
+msgstr "Indicate Active Target"
+
+msgid "teamComm/highlightLocation"
+msgstr "Indicate Position"
+
+msgid "teamComm/show"
+msgstr "Display Command Menu"
+
+msgid "teamComm/show/ext"
+msgstr "(list of commands depends on the target)"
+
+msgid "teamComm/title"
+msgstr "Team Communication"
+
+msgid "vehicleTypes/title"
+msgstr "Vehicle Markers"

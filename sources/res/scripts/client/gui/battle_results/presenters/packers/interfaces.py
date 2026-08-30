@@ -1,0 +1,41 @@
+import typing
+if typing.TYPE_CHECKING:
+    from frameworks.wulf import ViewModel, Array
+    from gui.battle_results.stats_ctrl import BattleResults
+    from gui.battle_results.reusable.shared import VehicleSummarizeInfo
+    from gui.impl.gen.view_models.views.lobby.battle_results.simple_stats_parameter_model import SimpleStatsParameterModel
+    BattleResultsComponentModelType = typing.TypeVar(b'BattleResultsComponentModelType', bound=ViewModel)
+    TooltipModelType = typing.TypeVar(b'TooltipModelType', bound=ViewModel)
+
+class IBattleResultsPacker(object):
+
+    @classmethod
+    def packModel(cls, model, battleResults):
+        raise NotImplementedError
+        return
+
+    @classmethod
+    def updateModel(cls, model, battleResults, ctx=None, isFullUpdate=True):
+        return
+
+
+class ICurrencyPacker(object):
+
+    @classmethod
+    def packModel(cls, model, currencyType, battleResults):
+        return
+
+
+class IStatisticsPacker(object):
+
+    @classmethod
+    def packModel(cls, model, info, battleResult):
+        return
+
+
+class ITooltipPacker(object):
+
+    @classmethod
+    def packTooltip(cls, model, battleResults, ctx=None):
+        raise NotImplementedError
+        return

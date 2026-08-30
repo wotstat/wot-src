@@ -1,0 +1,5 @@
+AUCTION_START_EVENT_TYPE = b'auctionStageStart'
+AUCTION_FINISH_EVENT_TYPE = b'auctionStageFinish'
+AUCTION_STAGE_START_SEEN = b'auctionStageStartNotification'
+AUCTION_FINISH_STAGE_SEEN = b'auctionStageFinishNotification'
+AUCTION_ENTRY_POINT_NAME = b'IntegratedAuctionEntryPont'

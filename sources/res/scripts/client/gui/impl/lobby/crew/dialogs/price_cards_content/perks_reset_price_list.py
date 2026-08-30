@@ -1,0 +1,158 @@
+import typing
+from frameworks.wulf import ViewSettings, Array
+from gui.Scaleform.genConsts.TOOLTIPS_CONSTANTS import TOOLTIPS_CONSTANTS
+from gui.goodies import IGoodiesCache
+from gui.impl.auxiliary.tankman_operations import packSkillReset
+from gui.impl.backport.backport_tooltip import createBackportTooltipContent
+from gui.impl.gen import R
+from gui.impl.gen.view_models.views.lobby.crew.dialogs.price_list_model import PriceListModel
+from gui.impl.lobby.crew.dialogs.price_cards_content.base_price_list import BasePriceList
+from gui.impl.lobby.crew.utils import convertMoneyToTuple
+from gui.shared.gui_items.Tankman import Tankman
+from gui.shared.gui_items.gui_item_economics import ItemPrice
+from gui.shared.money import Currency, DynamicMoney
+from helpers import dependency
+from items.tankmen import TankmanDescr, MIN_XP_REUSE_FRACTION, MAX_XP_REUSE_FRACTION
+from skeletons.gui.lobby_context import ILobbyContext
+from constants import SwitchState
+from gui.impl.lobby.crew.crew_helpers.tankman_helpers import getPerksResetGracePeriod
+if typing.TYPE_CHECKING:
+    from gui.shared.utils.requesters import ShopRequester
+    from gui.impl.gen.view_models.views.lobby.crew.dialogs.price_card_model import PriceCardModel
+
+class PerksResetPriceList(BasePriceList):
+    __slots__ = (b'_tankman', b'_selectedOptionIndex', b'_recertificationOptionIdx')
+    __goodiesCache = dependency.descriptor(IGoodiesCache)
+    __lobbyContext = dependency.descriptor(ILobbyContext)
+
+    def __init__(self, tankmanId):
+        self._selectedOptionIndex = 0
+        self._recertificationOptionIdx = None
+        self._tankman = self._itemsCache.items.getTankman(tankmanId)
+        settings = ViewSettings(R.views.lobby.crew.widgets.PriceList())
+        settings.model = PriceListModel()
+        super(PerksResetPriceList, self).__init__(settings)
+        return
+
+    @property
+    def viewModel(self):
+        return self.getViewModel()
+
+    @property
+    def selectedPriceData(self):
+        return self._getPriceData(self._selectedOptionIndex)
+
+    def createToolTipContent(self, event, contentID):
+        index = int(event.getArgument(b'index'))
+        if contentID == R.views.common.tooltip_window.backport_tooltip_content.BackportTooltipContent() and index == self._recertificationOptionIdx:
+            form = self.__goodiesCache.getRecertificationForm(currency=b'credits')
+            return createBackportTooltipContent(isSpecial=True, specialAlias=TOOLTIPS_CONSTANTS.EPIC_BATTLE_RECERTIFICATION_FORM_TOOLTIP, specialArgs=[
+             form.intCD])
+        else:
+            if contentID == R.views.dialogs.common.DialogTemplateGenericTooltip():
+                cardIndex = int(event.getArgument(b'index'))
+                optionIndex = int(event.getArgument(b'optionIndex'))
+                priceIndex = optionIndex if optionIndex >= 0 else cardIndex
+                if priceIndex == 2:
+                    priceIndex = 4
+                itemPrice, _, _ = self._getPriceData(priceIndex)
+                if not itemPrice:
+                    return
+                if itemPrice.isActionPrice():
+                    specialAlias = (
+                     None, None,
+                     convertMoneyToTuple(itemPrice.price),
+                     convertMoneyToTuple(itemPrice.defPrice),
+                     True, False, None, True)
+                    return createBackportTooltipContent(specialAlias=TOOLTIPS_CONSTANTS.ACTION_PRICE, specialArgs=specialAlias)
+                shortage = self._itemsCache.items.stats.money.getShortage(itemPrice.defPrice)
+                if bool(shortage):
+                    currency = shortage.getCurrency()
+                    return createBackportTooltipContent(TOOLTIPS_CONSTANTS.NOT_ENOUGH_MONEY, (
+                     shortage.get(currency), currency))
+            return super(PerksResetPriceList, self).createToolTipContent(event, contentID)
+
+    @property
+    def _priceListPacker(self):
+        return packSkillReset
+
+    def _getPriceData(self, index):
+        priceData = self._priceData.get(index)
+        if priceData is not None:
+            return priceData
+        else:
+            return (None, None, None)
+
+    def _onCardClick(self, args):
+        self._selectedOptionIndex = int(args.get(b'optionIndex', -1))
+        super(PerksResetPriceList, self)._onCardClick(args)
+        return
+
+    def _onPriceSelect(self, args):
+        selectedCardIndex = int(args.get(b'index', 0))
+        selectedPriceIndex = int(args.get(b'selectedPriceIndex', 0))
+        self._selectedCardIndex = selectedCardIndex
+        self._selectedOptionIndex = int(args.get(b'optionIndex', -1))
+        self.viewModel.getCardsList().getValue(selectedCardIndex).setSelectedOptionIdx(selectedPriceIndex)
+        return
+
+    def _getCallbacks(self):
+        callbacks = typing.cast(typing.Tuple, super(PerksResetPriceList, self)._getCallbacks())
+        return callbacks + ((b'goodies', self._onGoodiesUpdate),)
+
+    def _onGoodiesUpdate(self, *_):
+        self._updateViewModel()
+        return
+
+    def _fillPrices(self):
+        shopRequester = self._itemsCache.items.shop
+        dropSkillsCost = shopRequester.dropSkillsCost
+        defaultDropSkillsCost = shopRequester.defaults.dropSkillsCost
+        recertificationFormState = self.__lobbyContext.getServerSettings().recertificationFormState()
+        needRecertificationForm = recertificationFormState == SwitchState.ENABLED.value and self.__goodiesCache.getRecertificationForm(currency=b'credits')
+        self._priceData = {}
+        isFreeReset = getPerksResetGracePeriod() > 0 or not self._tankman.descriptor.firstSkillResetDisabled
+        if isFreeReset:
+            self._selectedCardIndex = next((idx for idx, cost in dropSkillsCost.items() if cost and cost[b'gold'] > 0), None)
+            self._selectedOptionIndex = self._selectedCardIndex
+        for key, cost in dropSkillsCost.iteritems():
+            if not needRecertificationForm and cost.get(b'recertificationForm') > 0:
+                continue
+            defCost = defaultDropSkillsCost.get(key, {})
+            priceArgs = {}
+            recertificationForms = cost.get(b'recertificationForm')
+            if recertificationForms:
+                self._recertificationOptionIdx = key
+                priceArgs[b'recertificationForm'] = recertificationForms
+            if isFreeReset:
+                priceArgs[b'isFreeReset'] = True
+            itemPrice = ItemPrice(price=DynamicMoney(credits=cost.get(Currency.CREDITS, 0), gold=cost.get(Currency.GOLD, 0), **priceArgs), defPrice=DynamicMoney(credits=defCost.get(Currency.CREDITS, 0), gold=defCost.get(Currency.GOLD, 0)))
+            self._priceData[key] = (
+             itemPrice, self.__getOperationData(cost), key)
+
+        return
+
+    def _onTankmanChanged(self, data):
+        tankmanId = self._tankman.invID
+        if tankmanId in data:
+            if data[tankmanId] is None:
+                self.destroyWindow()
+                return
+            self._fillPrices()
+            self._updateViewModel()
+        return
+
+    def __getOperationData(self, cost):
+        tmanDescr = TankmanDescr(self._tankman.strCD)
+        xpReuseFraction = cost.get(b'xpReuseFraction', MIN_XP_REUSE_FRACTION)
+        if xpReuseFraction < MAX_XP_REUSE_FRACTION:
+            prevTmanXP = tmanDescr.totalXP()
+            prevSkillsCount = tmanDescr.getFullSkillsCount()
+            maxAvailbleSkillsNum = self._tankman.maxSkillsCount
+            tmanDescr.dropSkills(xpReuseFraction)
+            if prevSkillsCount < maxAvailbleSkillsNum:
+                return (xpReuseFraction, prevTmanXP - tmanDescr.totalXP(),
+                 prevSkillsCount - tmanDescr.getFullSkillsCount())
+            return (xpReuseFraction, prevTmanXP - tmanDescr.totalXP(), 0)
+        return (
+         xpReuseFraction, 0, 0)

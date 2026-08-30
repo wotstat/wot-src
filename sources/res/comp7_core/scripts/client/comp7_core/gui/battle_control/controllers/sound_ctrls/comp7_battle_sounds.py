@@ -1,0 +1,488 @@
+import logging
+from collections import namedtuple
+from functools import partial
+import BigWorld, WWISE, typing
+from enum import Enum
+import SoundGroups
+from IlluminationFlareTargetController import IlluminationFlareTargetController
+from Vehicle import StunInfo
+from constants import EQUIPMENT_STAGES
+from gui.battle_control import avatar_getter
+from gui.battle_control.battle_constants import VEHICLE_VIEW_STATE
+from gui.battle_control.controllers.sound_ctrls.common import SoundPlayersBattleController, VehicleStateSoundPlayer, SoundPlayer
+from helpers import dependency
+from helpers_common import reprSlots
+from helpers.CallbackDelayer import CallbackDelayer
+from points_of_interest_shared import PoiStatus, ENEMY_VEHICLE_ID, PoiBlockReasons
+from skeletons.gui.battle_session import IBattleSessionProvider
+from sound_gui_manager import CommonSoundSpaceSettings
+from shared_utils import nextTick, CONST_CONTAINER
+from vehicle_systems.tankStructure import TankSoundObjectsIndexes
+_logger = logging.getLogger(__name__)
+_EQUIPMENT_ACTIVATED_SOUNDS = {}
+_EQUIPMENT_DEACTIVATED_SOUNDS = {}
+_EQUIPMENT_PREPARING_START_SOUNDS = {b'poi_artillery_aoe': b'comp_7_ability_arty_aim', 
+   b'poi_illumination_flare': b'comp_7_ability_flare_aim'}
+_EQUIPMENT_PREPARING_CANCEL_SOUNDS = {b'poi_artillery_aoe': b'comp_7_ability_arty_cancel', 
+   b'poi_illumination_flare': b'comp_7_ability_flare_cancel'}
+_EQUIPMENT_PRE_DEACTIVATION_SOUNDS = {}
+_EQUIPMENT_ARTILLERY_NAMES = [
+ b'poi_artillery_aoe']
+
+class Comp7BattleSoundController(SoundPlayersBattleController):
+
+    def startControl(self, *args):
+        WWISE.activateRemapping(b'comp7')
+        super(Comp7BattleSoundController, self).startControl()
+        return
+
+    def stopControl(self):
+        super(Comp7BattleSoundController, self).stopControl()
+        nextTick(partial(WWISE.deactivateRemapping, b'comp7'))()
+        return
+
+    def _initializeSoundPlayers(self):
+        return (
+         _EquipmentStateSoundPlayer(),
+         _EquipmentZoneSoundPlayer(),
+         _ArtillerySoundPlayer(),
+         _RoleSkillSoundPlayer(),
+         _PrebattleSoundPlayer(),
+         _PoiSNSoundPlayer(),
+         _BuffSNSoundPlayer())
+
+
+_PreDeactivationParams = namedtuple(b'_PreDeactivationParams', (b'soundName', b'timeDelta'))
+
+class SOUNDS(CONST_CONTAINER):
+    GENERAL_STATE = b'STATE_gameplay_overlay'
+    GENERAL_STATE_ON = b'STATE_gameplay_overlay_on'
+    GENERAL_STATE_OFF = b'STATE_gameplay_overlay_off'
+    PROGRESSBAR_START = b'comp_7_bans_progressbar_start'
+    PROGRESSBAR_STOP = b'comp_7_bans_progressbar_stop'
+
+
+BAN_VIEW_SOUND_SPACE = CommonSoundSpaceSettings(name=SOUNDS.GENERAL_STATE, entranceStates={(SOUNDS.GENERAL_STATE): (SOUNDS.GENERAL_STATE_ON)}, exitStates={(SOUNDS.GENERAL_STATE): (SOUNDS.GENERAL_STATE_OFF)}, persistentSounds=(), stoppableSounds=(), priorities=(), autoStart=True, enterEvent=b'', exitEvent=b'')
+BAN_PROGRESSION_SOUND_SPACE = CommonSoundSpaceSettings(name=b'ban_progression', entranceStates={}, exitStates={}, persistentSounds=(), stoppableSounds=(), priorities=(), autoStart=True, enterEvent=SOUNDS.PROGRESSBAR_START, exitEvent=SOUNDS.PROGRESSBAR_STOP)
+
+class _EquipmentStateSoundPlayer(VehicleStateSoundPlayer):
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+    __POI_EQUIPMENT_ACTIVATED = {b'poi_radar': b'comp_7_ability_poi_radar', 
+       b'poi_radar_ally': b'comp_7_ability_poi_radar_ally', 
+       b'poi_radar_enemy': b'comp_7_ability_poi_radar_enemy', 
+       b'poi_artillery_aoe': b'comp_7_ability_arty_apply', 
+       b'poi_artillery_aoe_ally': b'comp_7_ability_arty_ally', 
+       b'poi_artillery_aoe_enemy': b'comp_7_ability_arty_enemy'}
+
+    def __init__(self):
+        super(_EquipmentStateSoundPlayer, self).__init__()
+        self.__callbackDelayer = None
+        self.__activeEquipment = set()
+        return
+
+    def init(self):
+        super(_EquipmentStateSoundPlayer, self).init()
+        self.__callbackDelayer = CallbackDelayer()
+        self.__activeEquipment.clear()
+        return
+
+    def destroy(self):
+        super(_EquipmentStateSoundPlayer, self).destroy()
+        if self.__callbackDelayer is not None:
+            self.__callbackDelayer.destroy()
+            self.__callbackDelayer = None
+        self.__activeEquipment.clear()
+        return
+
+    def _subscribe(self):
+        super(_EquipmentStateSoundPlayer, self)._subscribe()
+        ctrl = self.__sessionProvider.shared.equipments
+        if ctrl is not None:
+            ctrl.onEquipmentUpdated += self.__onEquipmentUpdated
+        poiCtrl = self.__sessionProvider.dynamic.pointsOfInterest
+        if poiCtrl is not None:
+            poiCtrl.onPoiEquipmentUsed += self.__onPoiEquipmentUsed
+        return
+
+    def _unsubscribe(self):
+        super(_EquipmentStateSoundPlayer, self)._unsubscribe()
+        ctrl = self.__sessionProvider.shared.equipments
+        if ctrl is not None:
+            ctrl.onEquipmentUpdated -= self.__onEquipmentUpdated
+        poiCtrl = self.__sessionProvider.dynamic.pointsOfInterest
+        if poiCtrl is not None:
+            poiCtrl.onPoiEquipmentUsed -= self.__onPoiEquipmentUsed
+        return
+
+    def _onVehicleStateUpdated(self, state, value):
+        if state == VEHICLE_VIEW_STATE.DESTROYED:
+            self.__clearActiveEquipment()
+        return
+
+    def _onSwitchViewPoint(self):
+        self.__clearActiveEquipment()
+        return
+
+    def __onEquipmentUpdated(self, _, item):
+        if item.getPrevStage() == item.getStage():
+            return
+        prevStageIsReady = item.getPrevStage() in (EQUIPMENT_STAGES.READY, EQUIPMENT_STAGES.PREPARING)
+        prevStageIsActive = item.getPrevStage() in (EQUIPMENT_STAGES.ACTIVE,)
+        stageIsCooldown = item.getStage() in (
+         EQUIPMENT_STAGES.COOLDOWN, EQUIPMENT_STAGES.READY, EQUIPMENT_STAGES.UNAVAILABLE)
+        stageIsActive = item.getStage() in (
+         EQUIPMENT_STAGES.ACTIVE, EQUIPMENT_STAGES.COOLDOWN, EQUIPMENT_STAGES.EXHAUSTED)
+        if item.getPrevStage() == EQUIPMENT_STAGES.READY and item.getStage() == EQUIPMENT_STAGES.PREPARING:
+            self.__play2dFromMapping(_EQUIPMENT_PREPARING_START_SOUNDS, item)
+        elif item.getPrevStage() == EQUIPMENT_STAGES.PREPARING and item.getStage() == EQUIPMENT_STAGES.READY:
+            self.__play2dFromMapping(_EQUIPMENT_PREPARING_CANCEL_SOUNDS, item)
+        elif prevStageIsReady and stageIsActive:
+            self.__play2dFromMapping(_EQUIPMENT_ACTIVATED_SOUNDS, item)
+            self.__play2dFromMappingDelayed(_EQUIPMENT_PRE_DEACTIVATION_SOUNDS, item)
+            self.__activeEquipment.add(item.getDescriptor().name)
+        elif stageIsCooldown and prevStageIsActive:
+            self.__play2dFromMapping(_EQUIPMENT_DEACTIVATED_SOUNDS, item)
+            self.__activeEquipment.discard(item.getDescriptor().name)
+        return
+
+    def __onPoiEquipmentUsed(self, equipment, vehicleID):
+        equipmentName = equipment.name
+        ownVehicleID = self.__sessionProvider.shared.vehicleState.getControllingVehicleID()
+        if vehicleID == ENEMY_VEHICLE_ID:
+            equipmentName = (b'{}_enemy').format(equipmentName)
+        elif vehicleID != ownVehicleID:
+            equipmentName = (b'{}_ally').format(equipmentName)
+        self.__play2dFromMapping(self.__POI_EQUIPMENT_ACTIVATED, itemName=equipmentName)
+        return
+
+    def __play2dFromMapping(self, soundsMapping, item=None, itemName=None):
+        soundName = soundsMapping.get(itemName if itemName else item.getDescriptor().name)
+        _play2d(soundName)
+        return
+
+    def __play2dFromMappingDelayed(self, soundsMapping, item):
+        delayedSoundParams = soundsMapping.get(item.getDescriptor().name)
+        if delayedSoundParams is not None:
+            self.__callbackDelayer.delayCallback(item.getTimeRemaining() - delayedSoundParams.timeDelta, _play2d, delayedSoundParams.soundName)
+        return
+
+    def __clearActiveEquipment(self):
+        for equipment in self.__activeEquipment:
+            soundName = _EQUIPMENT_DEACTIVATED_SOUNDS.get(equipment)
+            if soundName is not None:
+                _play2d(soundName)
+
+        self.__activeEquipment.clear()
+        self.__callbackDelayer.clearCallbacks()
+        return
+
+
+class _EquipmentZoneSoundPlayer(VehicleStateSoundPlayer):
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+    __EQUIPMENT_ZONE_ENTER = {(VEHICLE_VIEW_STATE.AOE_HEAL): b'comp_7_ability_aoe_heal_enter', 
+       (VEHICLE_VIEW_STATE.STUN): b'artillery_stun_effect_start', 
+       (VEHICLE_VIEW_STATE.ILLUMINATION_FLARE_SPOTTED): b'comp_7_ability_flare_zone_enter'}
+    __EQUIPMENT_ZONE_EXIT = {(VEHICLE_VIEW_STATE.AOE_HEAL): b'comp_7_ability_aoe_heal_exit', 
+       (VEHICLE_VIEW_STATE.STUN): b'artillery_stun_effect_end', 
+       (VEHICLE_VIEW_STATE.ILLUMINATION_FLARE_SPOTTED): b'comp_7_ability_flare_zone_exit'}
+    __EQUIPMENT_ZONE_STATE = {(VEHICLE_VIEW_STATE.ILLUMINATION_FLARE_SPOTTED): (b'STATE_ext_ability_zone', b'STATE_ext_ability_zone_enter', b'STATE_ext_ability_zone_exit')}
+
+    def __init__(self):
+        super(_EquipmentZoneSoundPlayer, self).__init__()
+        self.__vehicleStates = set()
+        return
+
+    def destroy(self):
+        super(_EquipmentZoneSoundPlayer, self).destroy()
+        self.__vehicleStates = None
+        return
+
+    def _onVehicleStateUpdated(self, state, value):
+        if state == VEHICLE_VIEW_STATE.DESTROYED:
+            self.__clearActiveEquipment()
+        if state in self.__EQUIPMENT_ZONE_ENTER and self.__stateIsActive(value) and self.__checkSource(value):
+            if state not in self.__vehicleStates:
+                _play2d(self.__EQUIPMENT_ZONE_ENTER[state])
+                self.__setZoneState(state, True)
+                self.__vehicleStates.add(state)
+        elif state in self.__EQUIPMENT_ZONE_EXIT and not self.__stateIsActive(value) and state in self.__vehicleStates:
+            _play2d(self.__EQUIPMENT_ZONE_EXIT[state])
+            self.__setZoneState(state, False)
+            self.__vehicleStates.discard(state)
+        return
+
+    def _onSwitchViewPoint(self):
+        self.__clearActiveEquipment()
+        return
+
+    def __stateIsActive(self, value):
+        if isinstance(value, StunInfo):
+            return value.duration > 0.0
+        else:
+            if isinstance(value, IlluminationFlareTargetController):
+                marker = value.spottedMarker
+                return marker is not None and marker.inZone
+            return not value.get(b'finishing')
+
+    def __checkSource(self, value):
+        if isinstance(value, StunInfo):
+            return True
+        if isinstance(value, IlluminationFlareTargetController):
+            return True
+        return not value.get(b'isSourceVehicle')
+
+    def __setZoneState(self, state, enter):
+        stateParams = self.__EQUIPMENT_ZONE_STATE.get(state)
+        if stateParams is not None:
+            group, enterValue, exitValue = stateParams
+            SoundGroups.g_instance.setState(group, enterValue if enter else exitValue)
+        return
+
+    def __clearActiveEquipment(self):
+        for state in self.__vehicleStates:
+            _play2d(self.__EQUIPMENT_ZONE_EXIT[state])
+            self.__setZoneState(state, False)
+
+        self.__vehicleStates.clear()
+        return
+
+
+class _RoleSkillSoundPlayer(SoundPlayer):
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+    __EQUIPMENT_LEVEL_UP = b'comp_7_ability_levelup'
+
+    def _subscribe(self):
+        ctrl = self.__sessionProvider.shared.equipments
+        if ctrl is not None:
+            ctrl.onRoleEquipmentStateChanged += self.__onRoleEquipmentStateChanged
+        return
+
+    def _unsubscribe(self):
+        ctrl = self.__sessionProvider.shared.equipments
+        if ctrl is not None:
+            ctrl.onRoleEquipmentStateChanged -= self.__onRoleEquipmentStateChanged
+        return
+
+    def __onRoleEquipmentStateChanged(self, state, previousState):
+        if state is not None and previousState is not None:
+            if state.level > previousState.level:
+                _play2d(self.__EQUIPMENT_LEVEL_UP)
+        return
+
+
+class _ArtilleryAreaParams(object):
+    __slots__ = (b'position', b'radius', b'endTime', b'threatsCurrentVehicle')
+
+    def __init__(self, position, radius, endTime):
+        self.position = position
+        self.radius = radius
+        self.endTime = endTime
+        self.threatsCurrentVehicle = False
+        return
+
+    __repr__ = reprSlots
+
+
+class _ArtillerySoundPlayer(SoundPlayer):
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+    __ARTILLERY_ENTER = b'comp_7_ability_arty_enter'
+    __ARTILLERY_EXIT = b'comp_7_ability_arty_exit'
+    __ARTILLERY_DAMAGE_PC = b'imp_artillery_expl_huge_NPC_PC'
+
+    def __init__(self):
+        super(_ArtillerySoundPlayer, self).__init__()
+        self.__callbackDelayer = None
+        self.__artilleryAreas = []
+        return
+
+    def init(self):
+        super(_ArtillerySoundPlayer, self).init()
+        self.__callbackDelayer = CallbackDelayer()
+        return
+
+    def destroy(self):
+        super(_ArtillerySoundPlayer, self).destroy()
+        if self.__callbackDelayer is not None:
+            self.__callbackDelayer.destroy()
+            self.__callbackDelayer = None
+        self.__artilleryAreas = None
+        return
+
+    def _subscribe(self):
+        ctrl = self.__sessionProvider.shared.equipments
+        if ctrl is not None:
+            ctrl.onEquipmentAreaCreated += self.__onEquipmentAreaCreated
+        return
+
+    def _unsubscribe(self):
+        ctrl = self.__sessionProvider.shared.equipments
+        if ctrl is not None:
+            ctrl.onEquipmentAreaCreated -= self.__onEquipmentAreaCreated
+        return
+
+    def __onEquipmentAreaCreated(self, equipment, position, endTime, level=None):
+        if equipment.name in _EQUIPMENT_ARTILLERY_NAMES:
+            radius = equipment.getRadiusBasedOnSkillLevel(level) if level else equipment.radius
+            self.__artilleryAreas.append(_ArtilleryAreaParams(position, radius, endTime))
+            self.__updateAttack()
+        return
+
+    def __updateAttack(self):
+        aliveAreas, expiredAreas = [], []
+        srvTime = BigWorld.serverTime()
+        for area in self.__artilleryAreas:
+            if srvTime > area.endTime:
+                expiredAreas.append(area)
+            else:
+                aliveAreas.append(area)
+
+        vehicle = _getPlayerVehicle()
+        if vehicle is not None:
+            for area in aliveAreas:
+                vehicleIsInArea = vehicle.position.flatDistTo(area.position) <= area.radius
+                if not area.threatsCurrentVehicle and vehicleIsInArea:
+                    _play2d(self.__ARTILLERY_ENTER)
+                    area.threatsCurrentVehicle = True
+                elif area.threatsCurrentVehicle and not vehicleIsInArea:
+                    _play2d(self.__ARTILLERY_EXIT)
+                    area.threatsCurrentVehicle = False
+
+            for area in expiredAreas:
+                if area.threatsCurrentVehicle:
+                    _playVehiclePC(self.__ARTILLERY_DAMAGE_PC, TankSoundObjectsIndexes.ENGINE)
+
+        self.__artilleryAreas = aliveAreas
+        if self.__artilleryAreas:
+            self.__callbackDelayer.delayCallback(0.2, self.__updateAttack)
+        return
+
+
+class _PrebattleSoundPlayer(SoundPlayer):
+    __sessionProvider = dependency.descriptor(IBattleSessionProvider)
+    __CONFIRM_VEHICLE_SELECTION = b'comp_7_tank_confirm'
+
+    def _subscribe(self):
+        prebattleCtrl = self.__sessionProvider.dynamic.prebattleSetup
+        if prebattleCtrl is not None:
+            prebattleCtrl.onSelectionConfirmed += self.__onSelectionConfirmed
+            prebattleCtrl.onBattleStarted += self._onBattleStarted
+        return
+
+    def _unsubscribe(self):
+        prebattleCtrl = self.__sessionProvider.dynamic.prebattleSetup
+        if prebattleCtrl is not None:
+            prebattleCtrl.onSelectionConfirmed -= self.__onSelectionConfirmed
+            prebattleCtrl.onBattleStarted -= self._onBattleStarted
+        return
+
+    def __onSelectionConfirmed(self):
+        _play2d(self.__CONFIRM_VEHICLE_SELECTION)
+        return
+
+    def _onBattleStarted(self):
+        _play2d(SOUNDS.PROGRESSBAR_STOP)
+        return
+
+
+class _PoiVehicleState(Enum):
+    DEFAULT = 0
+    CAPTURING = 1
+    BLOCKED = 2
+
+
+class _PoiSNSoundPlayer(VehicleStateSoundPlayer):
+    __POI_CAPTURE_TIMER_SHOWN = b'comp_7_poi_timer_capture'
+    __POI_CAPTURE_BLOCKED = b'comp_7_poi_capture_blocked'
+
+    def __init__(self):
+        super(_PoiSNSoundPlayer, self).__init__()
+        self.__poiVehicleState = _PoiVehicleState.DEFAULT
+        return
+
+    def _onVehicleStateUpdated(self, state, value):
+        if value is None:
+            return
+        else:
+            if self.__isCapturing(state, value):
+                self.__setState(_PoiVehicleState.CAPTURING)
+            elif self.__isBlocked(state, value):
+                self.__setState(_PoiVehicleState.BLOCKED)
+            else:
+                self.__setState(_PoiVehicleState.DEFAULT)
+            return
+
+    def __isCapturing(self, state, value):
+        if state == VEHICLE_VIEW_STATE.POINT_OF_INTEREST_STATE:
+            if value.status.statusID is PoiStatus.CAPTURING:
+                return value.invader == self._sessionProvider.shared.vehicleState.getControllingVehicleID()
+        return False
+
+    def __isBlocked(self, state, value):
+        if state == VEHICLE_VIEW_STATE.POINT_OF_INTEREST_VEHICLE_STATE:
+            return any(reason for reason in value.blockReasons if reason.statusID is PoiBlockReasons.EQUIPMENT)
+        if state == VEHICLE_VIEW_STATE.POINT_OF_INTEREST_STATE:
+            if value.status.statusID is PoiStatus.CAPTURING:
+                return value.invader != self._sessionProvider.shared.vehicleState.getControllingVehicleID()
+            return value.status.statusID == PoiStatus.COOLDOWN
+        return False
+
+    def __setState(self, state):
+        if self.__poiVehicleState != state:
+            if state == _PoiVehicleState.CAPTURING:
+                _play2d(self.__POI_CAPTURE_TIMER_SHOWN)
+            elif state == _PoiVehicleState.BLOCKED:
+                _play2d(self.__POI_CAPTURE_BLOCKED)
+            self.__poiVehicleState = state
+        return
+
+
+class _BuffSNSoundPlayer(VehicleStateSoundPlayer):
+    __RESET_ABILITY = b'comp_7_ability_timer_reset'
+    __EQUIPMENT_STATE_ACTIVATED = {(VEHICLE_VIEW_STATE.AOE_INSPIRE): b'comp_7_ability_insp_start'}
+
+    def __init__(self):
+        super(_BuffSNSoundPlayer, self).__init__()
+        self.__vehicleStates = {}
+        return
+
+    def _onVehicleStateUpdated(self, state, value):
+        if VEHICLE_VIEW_STATE.AOE_INSPIRE <= state <= VEHICLE_VIEW_STATE.AGGRESSIVE_DETECTION and value is not None:
+            if value.get(b'finishing'):
+                self.__vehicleStates.pop(state, None)
+            else:
+                currentValue = self.__vehicleStates.get(state)
+                if currentValue is not None and value.get(b'endTime') > currentValue:
+                    _play2d(self.__RESET_ABILITY)
+                else:
+                    _play2d(self.__EQUIPMENT_STATE_ACTIVATED.get(state))
+                self.__vehicleStates[state] = value.get(b'endTime')
+        return
+
+
+def _getPlayerVehicle():
+    vehicle = avatar_getter.getPlayerVehicle()
+    if vehicle is not None and vehicle.isAlive():
+        return vehicle
+    else:
+        return
+
+
+def _play2d(soundName):
+    if soundName is None:
+        return
+    else:
+        SoundGroups.g_instance.playSound2D(soundName)
+        return
+
+
+def _playVehiclePC(soundName, soundObjectIndex):
+    vehicle = _getPlayerVehicle()
+    if vehicle is not None and vehicle.appearance is not None and vehicle.appearance.engineAudition:
+        soundObject = vehicle.appearance.engineAudition.getSoundObject(soundObjectIndex)
+        if soundObject is not None:
+            soundObject.play(soundName)
+        else:
+            _logger.debug(b'Could not find audition sound object for %s', soundName)
+    else:
+        _logger.debug(b'Vehicle for %s is destroyed or not loaded', soundName)
+    return

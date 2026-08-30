@@ -1,0 +1,13 @@
+class MINIMAPENTRIES_CONSTANTS(object):
+    MARKER_TYPE_POINT = b'points'
+    MARKER_TYPE_POI = b'poi'
+    MARKER_TYPE_BACKGROUND_MARKER = b'backgroundMarker'
+    POINT_TYPE_SPAWN = b'spawn'
+    POINT_TYPE_CONTROL = b'control'
+    POINT_TYPE_BASE = b'base'
+    POI_TYPE_RECON = b'recon'
+    POI_TYPE_ILLUMINATION_FLARE = b'illumination_flare'
+    POI_TYPE_ARTY = b'artillery'
+    COLOR_RED = b'red'
+    COLOR_BLUE = b'blue'
+    COLOR_EMPTY = b'empty'

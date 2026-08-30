@@ -1,0 +1,43 @@
+from gui.Scaleform.daapi.view.lobby.profile.ProfileSection import DropdownData
+COMP7_SEASON_NUMBERS = (1,)
+COMP7_ARCHIVE_NAMES = (b'Griffin', b'Pegasus', b'Manticore', b'Dragon')
+COMP7_ARCHIVE_DROPDOWN_KEY_PREFIX = b'comp7_archive_'
+COMP7_SEASON_DROPDOWN_KEY_PREFIX = b'comp7_season_'
+
+def isComp7Archive(battleType):
+    return battleType.startswith(COMP7_ARCHIVE_DROPDOWN_KEY_PREFIX)
+
+
+def isComp7Season(battleType):
+    return battleType.startswith(COMP7_SEASON_DROPDOWN_KEY_PREFIX)
+
+
+def getArchiveName(battleType):
+    _, __, archiveName = battleType.rpartition(COMP7_ARCHIVE_DROPDOWN_KEY_PREFIX)
+    return archiveName
+
+
+def getSeasonName(battleType):
+    _, __, seasonName = battleType.rpartition(COMP7_SEASON_DROPDOWN_KEY_PREFIX)
+    return seasonName
+
+
+def getDropdownKeyByArchiveName(archiveName):
+    return (b'{}{}').format(COMP7_ARCHIVE_DROPDOWN_KEY_PREFIX, archiveName)
+
+
+def getDropdownKeyBySeason(season):
+    return (b'{}{}').format(COMP7_SEASON_DROPDOWN_KEY_PREFIX, season)
+
+
+def getBattleHandlers():
+    result = {}
+    for archiveName in COMP7_ARCHIVE_NAMES:
+        dropdownKey = getDropdownKeyByArchiveName(archiveName)
+        result[dropdownKey] = DropdownData(False, b'getComp7Stats', {b'archive': archiveName})
+
+    for season in COMP7_SEASON_NUMBERS:
+        dropdownKey = getDropdownKeyBySeason(season)
+        result[dropdownKey] = DropdownData(False, b'getComp7Stats', {b'season': season})
+
+    return result

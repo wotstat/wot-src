@@ -1,0 +1,560 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "autoOpenView/rewardGroups/crewBooksAndCrew"
+msgstr "Экипаж и обучение"
+
+msgid "autoOpenView/rewardGroups/customizations"
+msgstr "Внешний вид"
+
+msgid "autoOpenView/rewardGroups/optionalDevicesAndBattleBoosters"
+msgstr "Оборудование и предбоевые инструкции"
+
+msgid "autoOpenView/rewardGroups/other"
+msgstr "Другое"
+
+msgid "autoOpenView/rewardGroups/vehicles"
+msgstr "Техника"
+
+msgid "autoOpenView/submitButtonText"
+msgstr "Так точно!"
+
+msgid "autoOpenView/title"
+msgstr "ПОЛУЧЕННЫЕ НАГРАДЫ"
+
+msgid "awardViews/footer/backButton/"
+msgstr "Так точно!"
+
+msgid "awardViews/footer/caption/attemptsLeft"
+msgstr "Ещё {{count}}"
+
+msgid "awardViews/footer/caption/noAttempts"
+msgstr "Повторные открытия закончились"
+
+msgid "awardViews/footer/caption/valuable"
+msgstr "Ценная награда"
+
+msgid "awardViews/footer/rerollButton/free"
+msgstr "Переоткрыть бесплатно"
+
+msgid "awardViews/footer/rerollButton/notEnoughBons"
+msgstr "Недостаточно бон"
+
+msgid "awardViews/footer/rerollButton/paid"
+msgstr "Переоткрыть за {{count}}"
+
+msgid "awardViews/footer/rerollButton/reopen"
+msgstr "Переоткрыть"
+
+msgid "awardViews/footer/tooltip/specialDropBody"
+msgstr "Ценные награды нельзя поменять при повторном открытии коробки."
+
+msgid "bonuses/description/battle_booster"
+msgstr "Предбоевая инструкция"
+
+msgid "bonuses/description/booster"
+msgstr "Личный резерв"
+
+msgid "bonuses/description/crewSkin"
+msgstr "Облик экипажа"
+
+msgid "bonuses/description/standard_equipment"
+msgstr "Штатное оборудование"
+
+msgid "bonuses/description/style"
+msgstr "2D-стиль"
+
+msgid "bonuses/description/style3D"
+msgstr "3D-стиль"
+
+msgid "bonuses/label/blueprints/nationalFragment/"
+msgstr "Фрагмент чертежа (%(nation)s)"
+
+msgid "bonuses/label/blueprints/universalFragment"
+msgstr "Универсальный фрагмент"
+
+msgid "bonuses/label/bpcoin"
+msgstr "Жетон Боевого пропуска"
+
+msgid "boxTooltip/description/text/default"
+msgstr "При открытии может выпасть техника, экономические ресурсы и другие игровые ценности.\nКоробки доступны во внутриигровом Магазине."
+
+msgid "boxTooltip/guaranteed/text/default"
+msgstr "открытий до гарантированной награды, если она не выпадет раньше."
+
+msgid "boxTooltip/howGet/text/default"
+msgstr "Коробки доступны во внутриигровом Магазине."
+
+msgid "common/backButton"
+msgstr "НАЗАД"
+
+msgid "common/boxCategory/lowerCase/default"
+msgstr "Тактическая коробка"
+
+msgid "common/boxCategory/upperCase/default"
+msgstr "ТАКТИЧЕСКАЯ КОРОБКА"
+
+msgid "common/closeButton"
+msgstr "ЗАКРЫТЬ"
+
+msgid "common/footer/checkbox"
+msgstr "Анимация открытия"
+
+msgid "common/getButton/lowerCase"
+msgstr "Получить больше"
+
+msgid "common/getButton/upperCase"
+msgstr "ПОЛУЧИТЬ БОЛЬШЕ"
+
+msgid "common/infoButton"
+msgstr "Что внутри?"
+
+msgid "common/loader"
+msgstr "Открытие коробки..."
+
+msgid "common/rewards/count"
+msgid_plural "plural/common/rewards/count"
+msgstr[0] "%(count) шт."
+msgstr[1] "%(count) шт."
+msgstr[2] "%(count) шт."
+
+msgid "common/rewards/multiplier"
+msgstr "×{count}"
+
+msgid "common/rewards/premiumDay"
+msgid_plural "plural/common/rewards/premiumDay"
+msgstr[0] "день"
+msgstr[1] "дня"
+msgstr[2] "дней"
+
+msgid "common/selectTooltip"
+msgstr "Недостаточно Коробок, чтобы открыть {{count}} за раз."
+
+msgid "common/statistics/emptyHeader"
+msgstr "Открывайте коробки, чтобы просмотреть статистику."
+
+msgid "common/statistics/header"
+msgstr "Открыто коробок: %(count)"
+
+msgid "common/statsButton"
+msgstr "Статистика"
+
+msgid "confirmRerollLootBox/cancel"
+msgstr "Отменить"
+
+msgid "confirmRerollLootBox/description/default"
+msgstr "Коробка будет открыта ещё раз с возможностью получить другие награды."
+
+msgid "confirmRerollLootBox/reopen"
+msgstr "Переоткрыть"
+
+msgid "confirmRerollLootBox/title"
+msgstr "Переоткрыть за {{cost}}?"
+
+msgid "confirmResetLootBoxStatistics/cancel"
+msgstr "Отменить"
+
+msgid "confirmResetLootBoxStatistics/description"
+msgstr "История наград будет удалена."
+
+msgid "confirmResetLootBoxStatistics/submit"
+msgstr "Сбросить"
+
+msgid "confirmResetLootBoxStatistics/title"
+msgstr "Сбросить статистику?"
+
+msgid "entryPoint/boxes"
+msgstr "К КОРОБКАМ"
+
+msgid "entryPoint/count"
+msgstr "×%(count)"
+
+msgid "entryPoint/maxBoxesCount"
+msgstr "×999+"
+
+msgid "entryPoint/tooltip/description"
+msgstr "Это специальные Коробки, которые содержат новые и уникальные предметы. Их можно получить во внутриигровом Магазине."
+
+msgid "entryPoint/tooltip/timerText"
+msgstr "Событие завершится через"
+
+msgid "entryPoint/tooltip/warningDescription"
+msgstr "По техническим причинам событие временно приостановлено."
+
+msgid "entryPoint/tooltip/warningTitle"
+msgstr "Временно недоступно"
+
+msgid "eventName/lowerCase"
+msgstr "Полевое снабжение"
+
+msgid "eventName/upperCase"
+msgstr "ПОЛЕВОЕ СНАБЖЕНИЕ"
+
+msgid "guaranteed/tooltip/count/first"
+msgstr "%(count)-е"
+
+msgid "guaranteed/tooltip/count/other"
+msgstr "%(count)-е"
+
+msgid "guaranteed/tooltip/count/second"
+msgstr "%(count)-е"
+
+msgid "guaranteed/tooltip/count/third"
+msgstr "%(count)-е"
+
+msgid "guaranteed/tooltip/description/count/"
+msgstr "каждое %(count) открытие"
+
+msgid "guaranteed/tooltip/description/item/"
+msgstr "Машина"
+
+msgid "guaranteed/tooltip/description0/"
+msgstr "%(item) гарантированно выпадает %(count). Счётчик сбрасывается, если техника будет получена раньше."
+
+msgid "guaranteed/tooltip/description1/"
+msgstr "Если у вас уже есть все машины, вы получите компенсацию золотом."
+
+msgid "guaranteedTitle/text"
+msgstr "%(name) через %(count) открытий"
+
+msgid "guaranteedTitle/textName"
+msgstr "Гарантированная награда"
+
+msgid "hasBoxesView/openButtonText"
+msgstr "Открыть"
+
+msgid "helpers/doubleBreakLine"
+msgstr "<br/><br/>"
+
+msgid "helpers/lootBoxBonus"
+msgstr "%(boxName)s: %(count)s"
+
+msgid "homeView/subtitle"
+msgstr "Событие завершится через %(time)"
+
+msgid "infoPage/footer/description/autoOpen/default"
+msgstr "Если вы не откроете коробки до окончания события, они будут открыты автоматически."
+
+msgid "infoPage/footer/description/compensation/default"
+msgstr "Если у вас уже есть вся техника из списка возможных наград, все последующие машины, которые вы получите из коробок, будут компенсированы золотом в размере их полной стоимости."
+
+msgid "infoPage/footer/description/guaranteed/default"
+msgstr "Каждые %(guaranteed)s коробок гарантированно содержат машину VIII–X уровней. Если при их открытии вам не выпадет такая техника, то в %(guaranteed)s&zwnbsp;-й коробке (в зависимости от её типа) вы обязательно найдёте машину VIII–X уровней, которой у вас ещё нет. После выпадения техники счётчик сбрасывается."
+
+msgid "infoPage/footer/description/reroll/default"
+msgstr "Если вам не нравится содержимое коробки, вы можете открыть её ещё раз с возможностью получить другие предметы из того же списка. Каждую коробку можно открыть повторно ограниченное количество раз:"
+
+msgid "infoPage/footer/title/autoOpen/default"
+msgstr "Автооткрытие"
+
+msgid "infoPage/footer/title/compensation/default"
+msgstr "Компенсация"
+
+msgid "infoPage/footer/title/guaranteed/default"
+msgstr "Гарантированная награда"
+
+msgid "infoPage/footer/title/reroll/default"
+msgstr "Повторное открытие"
+
+msgid "infoPage/header/lootListLink"
+msgstr "Смотреть список предметов на игровом портале"
+
+msgid "infoPage/header/probability/description"
+msgstr "Вероятность выпадения"
+
+msgid "infoPage/header/probability/title"
+msgstr "Группа"
+
+msgid "infoPage/header/rewards/description"
+msgstr "Может выпасть не более одной награды из группы"
+
+msgid "infoPage/header/rewards/title"
+msgstr "Награды"
+
+msgid "infoPage/rewards/divider"
+msgstr "|"
+
+msgid "infoPage/rewards/percent"
+msgstr "%"
+
+msgid "multipleRewardView/footer/openNextButton/"
+msgstr "Открыть больше"
+
+msgid "multipleRewardView/header/subTitle/"
+msgstr "Из %(name) (открыто %(boxesCount) коробок)"
+
+msgid "multipleRewardView/header/title/"
+msgstr "ПОЛУЧЕННЫЕ НАГРАДЫ"
+
+msgid "noBoxesView/description/"
+msgstr "Коробки доступны во внутриигровом Магазине"
+
+msgid "noBoxesView/getBoxes/"
+msgstr "В Магазин"
+
+msgid "noBoxesView/goToButton/"
+msgstr "К доступным Коробкам"
+
+msgid "preview/backLabel"
+msgstr "К КОРОБКАМ"
+
+msgid "quantityTitle/boxesAvailable"
+msgstr "Доступно: %(boxesCount)"
+
+msgid "quantityTitle/noBoxes"
+msgstr "Коробки закончились"
+
+msgid "rareRewardOverlay/rewardDescription/button/text"
+msgstr "Продолжить"
+
+msgid "rareRewardOverlay/rewardDescription/style/description/text"
+msgstr "для %(vehicleInfo)"
+
+msgid "rareRewardOverlay/rewardDescription/style/text"
+msgstr "3D-стиль «%(style)»"
+
+msgid "reroll/free"
+msgstr "Бесплатно"
+
+msgid "reroll/singleStep"
+msgstr "{{step}}"
+
+msgid "reroll/template"
+msgstr "{{start}}–{{end}}"
+
+msgid "serviceChannelMessages/financialTransaction"
+msgstr "Финансовая операция"
+
+msgid "serviceChannelMessages/financialTransaction/credits"
+msgstr "Списано кредитов: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/crystal"
+msgstr "Списано бон: %(amount)s"
+
+msgid "serviceChannelMessages/financialTransaction/date"
+msgstr "Дата: %(date)s"
+
+msgid "serviceChannelMessages/financialTransaction/gold"
+msgstr "Списано золота: %(amount)s"
+
+msgid "serviceChannelMessages/finish/header"
+msgstr "Событие «%(eventName)s» завершено"
+
+msgid "serviceChannelMessages/finish/text"
+msgstr "Все оставшиеся коробки будут открыты. Содержимое будет начислено на ваш аккаунт."
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "К наградам"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Получены награды"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr "Мы начислили награды, которые вы не получили во время события."
+
+msgid "serviceChannelMessages/lootBoxesDisabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesDisabled/text"
+msgstr "Событие временно недоступно: ведутся технические работы."
+
+msgid "serviceChannelMessages/lootBoxesEnabled/header"
+msgstr "%(eventName)s"
+
+msgid "serviceChannelMessages/lootBoxesEnabled/text"
+msgstr "Событие снова доступно. Приносим извинения за неудобства."
+
+msgid "serviceChannelMessages/multipleOpen"
+msgstr "%(boxName)s (%(count)s шт.)"
+
+msgid "serviceChannelMessages/open"
+msgstr "%(boxName)s"
+
+msgid "serviceChannelMessages/received"
+msgstr "Получены награды:"
+
+msgid "serviceChannelMessages/server_error"
+msgstr "Ошибка"
+
+msgid "serviceChannelMessages/server_error/COOLDOWN"
+msgstr "Дождитесь завершения предыдущей операции."
+
+msgid "serviceChannelMessages/server_error/DISABLED"
+msgstr "Операция временно недоступна. Попробуйте позже."
+
+msgid "serviceChannelMessages/start/button"
+msgstr "К событию"
+
+msgid "serviceChannelMessages/start/header"
+msgstr "Событие «%(eventName)s» началось"
+
+msgid "serviceChannelMessages/start/text"
+msgstr "Только до %(date)s: премиум техника и ценное игровое имущество!"
+
+msgid "serviceChannelMessages/statisticReset/server_error/text"
+msgstr "Не удалось сбросить статистику. Попробуйте позже."
+
+msgid "singleRewardView/extraReward/text/"
+msgstr "И ещё"
+
+msgid "singleRewardView/footer/openNextButton/"
+msgstr "Открыть больше"
+
+msgid "singleRewardView/header/title/"
+msgstr "ПОЛУЧЕННЫЕ НАГРАДЫ"
+
+msgid "singleRewardView/uniqueTankman"
+msgstr "Уникальный член экипажа"
+
+msgid "statisticsRewards/count/currency"
+msgstr "%(currency)"
+
+msgid "statisticsRewards/label/attachment"
+msgstr "3D-объекты"
+
+msgid "statisticsRewards/label/battle_bonus_x5"
+msgstr "Задачи на x5 опыта за бой"
+
+msgid "statisticsRewards/label/battle_booster_gift"
+msgstr "Предбоевые инструкции"
+
+msgid "statisticsRewards/label/blueprint_tube"
+msgstr "Фрагменты чертежей"
+
+msgid "statisticsRewards/label/brochure"
+msgstr "Брошюры"
+
+msgid "statisticsRewards/label/brochure_tooltip"
+msgstr "Учебные брошюры"
+
+msgid "statisticsRewards/label/consumables"
+msgstr "Снаряжение"
+
+msgid "statisticsRewards/label/credits"
+msgstr "Кредиты"
+
+msgid "statisticsRewards/label/crewBook"
+msgstr "Пособия"
+
+msgid "statisticsRewards/label/crewBook_tooltip"
+msgstr "Учебные пособия"
+
+msgid "statisticsRewards/label/crew_bonus_x3"
+msgstr "Задачи на x3 опыта экипажа"
+
+msgid "statisticsRewards/label/crystal"
+msgstr "Боны"
+
+msgid "statisticsRewards/label/customizations"
+msgstr "Внешний вид"
+
+msgid "statisticsRewards/label/deluxe_gift"
+msgstr "Усовершенствованное оборудование"
+
+msgid "statisticsRewards/label/equipCoin"
+msgstr "Компоненты"
+
+msgid "statisticsRewards/label/expequipments_gift"
+msgstr "Экспериментальное оборудование"
+
+msgid "statisticsRewards/label/freeXP"
+msgstr "Свободный опыт"
+
+msgid "statisticsRewards/label/gold"
+msgstr "Золото"
+
+msgid "statisticsRewards/label/guide"
+msgstr "Руководства"
+
+msgid "statisticsRewards/label/guide_tooltip"
+msgstr "Учебные руководства"
+
+msgid "statisticsRewards/label/mentoringLicense"
+msgstr "Сертификат наставника"
+
+msgid "statisticsRewards/label/new_device_mi_gift"
+msgstr "Штатное оборудование"
+
+msgid "statisticsRewards/label/personal_reserves"
+msgstr "Личные резервы"
+
+msgid "statisticsRewards/label/premium_plus_universal"
+msgstr "Танковый премиум аккаунт"
+
+msgid "statisticsRewards/label/rations"
+msgstr "Паёк"
+
+msgid "statisticsRewards/label/recertificationForm"
+msgstr "Бланки переподготовки"
+
+msgid "statisticsRewards/label/style"
+msgstr "2D-стили"
+
+msgid "statisticsRewards/label/style_3d"
+msgstr "3D-стили"
+
+msgid "statisticsRewards/label/tankman"
+msgstr "Члены экипажа"
+
+msgid "statisticsRewards/label/trophy_gift"
+msgstr "Трофейное оборудование"
+
+msgid "statisticsRewards/label/vehicles"
+msgstr "Техника"
+
+msgid "statisticsRewards/resetButton/text"
+msgstr "Сбросить статистику"
+
+msgid "statisticsRewards/resetButton/tooltipText"
+msgstr "Нажмите, чтобы сбросить статистику."
+
+msgid "statisticsRewards/tooltips/category/attachment"
+msgstr "%(num). %(label) %(count) %(rarity)"
+
+msgid "statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgid_plural "plural/statisticsRewards/tooltips/category/hiddenRewardsCount"
+msgstr[0] "И ещё %(count) награда."
+msgstr[1] "И ещё %(count) награды."
+msgstr[2] "И ещё %(count) наград."
+
+msgid "statisticsRewards/tooltips/category/label"
+msgstr "«%(label)»"
+
+msgid "statisticsRewards/tooltips/category/name"
+msgstr "%(num). %(name) %(count)"
+
+msgid "statisticsRewards/tooltips/category/nameCount"
+msgstr "×%(count)"
+
+msgid "statisticsRewards/tooltips/category/nationalBlueprint"
+msgstr "Национальный фрагмент"
+
+msgid "statisticsRewards/tooltips/category/style3D"
+msgstr "%(num). «%(label)» для %(vehicleInfo)"
+
+msgid "statisticsRewards/tooltips/category/styleCompensation"
+msgstr "Компенсировано стилей: %(count)"
+
+msgid "statisticsRewards/tooltips/category/vehicle"
+msgstr "%(num). %(vehicle)"
+
+msgid "statisticsRewards/tooltips/category/vehicleCompensation"
+msgstr "Компенсировано машин: %(count)"
+
+msgid "tooltip/compensation/notification"
+msgstr "Компенсация за машину, которая уже есть в Ангаре."
+
+msgid "tooltip/reroll/attempt"
+msgstr "Повторное открытие"
+
+msgid "tooltip/reroll/price"
+msgstr "Стоимость"
+
+msgid "tooltip/reroll/text/default"
+msgstr "При повторном открытии коробки у вас появляется возможность получить другие награды из того же списка."
+
+msgid "tooltip/reroll/title/default"
+msgstr "Повторное открытие"

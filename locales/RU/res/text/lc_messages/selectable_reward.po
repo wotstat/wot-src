@@ -1,0 +1,110 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "error/button"
+msgstr "Так точно!"
+
+msgid "error/description"
+msgstr "Приносим извинения за причинённые неудобства. Повторите попытку позже."
+
+msgid "error/title"
+msgstr "Страница временно недоступна."
+
+msgid "footer/closeBtn/label"
+msgstr "Выбрать позже"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Выберите награду из представленных категорий."
+msgstr[1] "Выберите награды из представленных категорий."
+msgstr[2] "Выберите награды из представленных категорий."
+
+msgid "footer/okBtn/label"
+msgstr "Забрать награды"
+
+msgid "footer/rewardsSelected"
+msgstr "Выбрано наград:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Выберите награду из представленной категории."
+msgstr[1] "Выберите награды из представленной категории."
+msgstr[2] "Выберите награды из представленной категории."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Достигнут максимум"
+
+msgid "reward/state_received"
+msgstr "Уже получено"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "Достигнуто максимальное количество предметов данной категории. Исключите один из них или выберите другой."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Достигнут максимум"
+
+msgid "tabs/counter"
+msgstr "%(count)s / %(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Инструкции\nк оборудованию"
+
+msgid "tabs/items/battle_booster"
+msgstr "Инструкции к оборудованию"
+
+msgid "tabs/items/blueprint"
+msgstr "Фрагменты чертежей"
+
+msgid "tabs/items/brochure"
+msgstr "Учебная брошюра"
+
+msgid "tabs/items/crewbook"
+msgstr "Учебное пособие"
+
+msgid "tabs/items/deluxe"
+msgstr "Усовершенствованное оборудование"
+
+msgid "tabs/items/expequipments"
+msgstr "Экспериментальное\nоборудование"
+
+msgid "tabs/items/guide"
+msgstr "Учебное руководство"
+
+msgid "tabs/items/modernized_device"
+msgstr "Экспериментальное оборудование"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Экспериментальное оборудование T1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Экспериментальное оборудование T2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Экспериментальное оборудование T3"
+
+msgid "tabs/items/new_device"
+msgstr "Штатное оборудование"
+
+msgid "tabs/items/trophy"
+msgstr "Трофейное оборудование"
+
+msgid "tooltips/footer/body"
+msgstr "Выберите награды для получения"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Нажмите «Забрать», чтобы получить выбранные награды."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Выбрано наград: %(white_open)s%(count)s%(white_close)s"

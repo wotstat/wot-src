@@ -1,0 +1,443 @@
+from __future__ import absolute_import
+import itertools, logging, typing, weakref
+from enum import IntEnum
+from WeakMethod import WeakMethodProxy
+from frameworks_common.state_machine import State, StateFlags
+from frameworks_common.state_machine.transitions import TransitionType
+from frameworks_common.state_machine.visitor import isDescendantOf, getLCA
+from frameworks.wulf import WindowStatus
+from gui.Scaleform.framework import ScopeTemplates
+from gui.Scaleform.framework.ScopeTemplates import SimpleScope
+from gui.Scaleform.framework.entities.View import View
+from gui.Scaleform.framework.entities.wulf_adapter import WulfPackageLayoutAdapter
+from gui.Scaleform.framework.managers.loaders import SFViewLoadParams, GuiImplViewLoadParams
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.lobby_state_machine.events import _NonViewClosingBackNavigationEvent, _BackNavigationEvent
+from gui.lobby_state_machine.transitions import GuardTransition, NavigationTransition, _StopTransition
+from gui.shared import g_eventBus, EVENT_BUS_SCOPE
+from gui.shared.events import NavigationEvent, LoadViewEvent, LoadGuiImplViewEvent
+from helpers import dependency
+from skeletons.gui.impl import IGuiLoader
+if typing.TYPE_CHECKING:
+    from gui.lobby_state_machine.lobby_state_machine import LobbyStateMachine
+    from gui.Scaleform.framework.entities.View import ViewKey
+    from gui.impl.pub import ViewImpl
+_logger = logging.getLogger(__name__)
+UNTRACKED_STATE_ID_ENDING = b'untracked'
+EMPTY_STATE_ID_ENDING = b'empty'
+
+class LobbyStateFlags(StateFlags):
+    HANGAR = StateFlags.MAX << 1
+    POST_BATTLE_RESULTS = HANGAR << 1
+    MAX = POST_BATTLE_RESULTS
+
+
+def isInHangarState():
+    from gui.Scaleform.lobby_entry import getLobbyStateMachine
+    lsm = getLobbyStateMachine()
+    if not lsm:
+        return False
+    inHangarState = any(s.getFlags() & LobbyStateFlags.HANGAR for s in lsm.getNonEmptyEnteredStates())
+    return inHangarState
+
+
+def isHangarState(state):
+    from gui.Scaleform.lobby_entry import getLobbyStateMachine
+    lsm = getLobbyStateMachine()
+    if not lsm:
+        return False
+    if state:
+        return state.getFlags() & LobbyStateFlags.HANGAR
+    return False
+
+
+class LobbyStateDescription(object):
+
+    class Info(object):
+
+        class Type(IntEnum):
+            INFO = 0
+            QUESTION = 1
+            VIDEO = 2
+            DROP_LIST = 3
+
+        def __init__(self, label=u'', tooltipHeader=u'', tooltipBody=u'', type=Type.INFO, onMoreInfoRequested=(lambda : None)):
+            self.label = label
+            self.tooltipHeader = tooltipHeader
+            self.tooltipBody = tooltipBody
+            self.type = type
+            self.onMoreInfoRequested = onMoreInfoRequested
+            return
+
+    def __init__(self, title=u'', infos=()):
+        self.title = title
+        self.infos = infos
+        return
+
+
+def getNavigationDescriptionSafe(state):
+    try:
+        return state.getNavigationDescription()
+    except Exception as e:
+        _logger.error(b'Unable to get a description for state: %r. Exception: %r', state, e)
+        return LobbyStateDescription()
+
+    return
+
+
+class LobbyState(State):
+    STATE_ID = b''
+    VIEW_KEY = None
+    _PARENT_CLS = None
+
+    def __init__(self, flags=StateFlags.UNDEFINED):
+        super(LobbyState, self).__init__(stateID=self.STATE_ID, flags=flags)
+        return
+
+    @classmethod
+    def parentOf(cls, childStateCls):
+        childStateCls.STATE_ID = cls.STATE_ID + b'/' + childStateCls.STATE_ID
+        setattr(childStateCls, b'_PARENT_CLS', weakref.ref(cls))
+        return childStateCls
+
+    @classmethod
+    def goTo(cls, **params):
+        g_eventBus.handleEvent(NavigationEvent(cls.STATE_ID, params), EVENT_BUS_SCOPE.LOBBY)
+        return
+
+    def goBack(self):
+        if self.isEntered():
+            g_eventBus.handleEvent(_BackNavigationEvent(self), EVENT_BUS_SCOPE.LOBBY)
+        else:
+            _logger.warning(b"State (%s) cannot navigate back, because it's not entered.", self.getStateID())
+        return
+
+    def getMachine(self):
+        return super(LobbyState, self).getMachine()
+
+    def getNavigationDescription(self):
+        return LobbyStateDescription()
+
+    def getBackNavigationDescription(self, params):
+        return self.getNavigationDescription().title
+
+    def serializeParams(self):
+        return {}
+
+    def getViewKey(self, params=None):
+        return self.VIEW_KEY
+
+    def addNavigationTransition(self, targetViewState, transitionType=TransitionType.INTERNAL, record=False):
+        self.addTransition(targetViewState.makeTransition(transitionType, record), targetViewState)
+        if record:
+            targetViewState.addTransition(self.makeTransition(transitionType, False), self)
+        return
+
+    def addGuardTransition(self, targetViewState, condition, transitionType=TransitionType.INTERNAL, record=False):
+        self.addTransition(GuardTransition(condition, transitionType, record), targetViewState)
+        if record:
+            targetViewState.addTransition(self.makeTransition(transitionType, False), target=self)
+        return
+
+    def registerStates(self):
+        return
+
+    def registerTransitions(self):
+        return
+
+    def makeTransition(self, transitionType, record):
+        return NavigationTransition(transitionType, record)
+
+    def compareParams(self, params, otherParams):
+        return params == otherParams
+
+    def _onEntered(self, event):
+        super(LobbyState, self)._onEntered(event)
+        self.__subscribeToWindowChanges()
+        return
+
+    def _onViewExternallyDestroyed(self):
+        self.__unsubscribeFromWindowChanges()
+        if self.isEntered():
+            _logger.info(b'View (%s) killed. Navigating back.', self)
+            g_eventBus.handleEvent(_NonViewClosingBackNavigationEvent(self), scope=EVENT_BUS_SCOPE.LOBBY)
+        else:
+            _logger.info(b'View (%s) killed. NOT navigating back -- state is not entered', self)
+        return
+
+    def __subscribeToWindowChanges(self):
+        if not self.getViewKey():
+            return
+        uiLoader = dependency.instance(IGuiLoader)
+        windowsManager = uiLoader.windowsManager
+        windowsManager.onWindowStatusChanged += self.__onWindowStatusChanged
+        return
+
+    def __unsubscribeFromWindowChanges(self):
+        if not self.getViewKey():
+            return
+        uiLoader = dependency.instance(IGuiLoader)
+        windowsManager = uiLoader.windowsManager
+        windowsManager.onWindowStatusChanged -= self.__onWindowStatusChanged
+        return
+
+    def __shouldDisposeView(self, _):
+        self._onViewExternallyDestroyed()
+        return
+
+    def __onWindowStatusChanged(self, uniqueWindowId, status):
+        if status != WindowStatus.DESTROYING:
+            return
+        uiLoader = dependency.instance(IGuiLoader)
+        window = uiLoader.windowsManager.getWindow(uniqueWindowId)
+        if not compareViewKeys(window.content, self.getViewKey()):
+            return
+        if isinstance(window.content, (View, WulfPackageLayoutAdapter)):
+            window.content.onDisposed += WeakMethodProxy(self.__shouldDisposeView)
+        else:
+            self._onViewExternallyDestroyed()
+        return
+
+
+class ViewLobbyState(LobbyState):
+
+    def __init__(self, flags=StateFlags.UNDEFINED):
+        super(ViewLobbyState, self).__init__(flags=flags)
+        return
+
+    def _getViewLoadCtx(self, event):
+        return event.params
+
+    def _onEntered(self, event):
+        super(ViewLobbyState, self)._onEntered(event)
+        viewKey = self.getViewKey()
+        g_eventBus.handleEvent(LoadViewEvent(SFViewLoadParams(viewKey.alias, viewKey.name), **self._getViewLoadCtx(event)), scope=EVENT_BUS_SCOPE.LOBBY)
+        return
+
+
+SFViewLobbyState = ViewLobbyState
+
+class GuiImplViewLobbyState(LobbyState):
+
+    def __init__(self, viewImplClass, scope, flags=StateFlags.UNDEFINED):
+        super(GuiImplViewLobbyState, self).__init__(flags=flags)
+        self._viewImplClass = viewImplClass
+        self._scope = scope
+        return
+
+    def _getViewLoadCtx(self, event):
+        return event.params
+
+    def _getViewLoadParams(self, event):
+        return GuiImplViewLoadParams(self.getViewKey().alias, self._viewImplClass, self._scope)
+
+    def _onEntered(self, event):
+        super(GuiImplViewLobbyState, self)._onEntered(event)
+        uiLoader = dependency.instance(IGuiLoader)
+        view = uiLoader.windowsManager.getViewByLayoutID(self.getViewKey().alias)
+        if view is None:
+            g_eventBus.handleEvent(LoadGuiImplViewEvent(self._getViewLoadParams(event), **self._getViewLoadCtx(event)), scope=EVENT_BUS_SCOPE.LOBBY)
+        else:
+            self._focusView(view, event)
+        return
+
+    def _focusView(self, view, event):
+        parentWindow = view.getParentWindow()
+        if not parentWindow.isFocused and not parentWindow.isHidden():
+            parentWindow.tryFocus()
+        return
+
+
+class EmptyState(LobbyState):
+    pass
+
+
+class UntrackedState(LobbyState):
+    LOAD_PARAMS_KEY = b'loadParams'
+
+    def __init__(self, flags=StateFlags.UNDEFINED):
+        super(UntrackedState, self).__init__(flags)
+        self._paramsEnteredWith = {}
+        self._paramsExitedWith = {}
+        return
+
+    def getViewKey(self, params=None):
+        if params:
+            return params[self.LOAD_PARAMS_KEY].loadParams.viewKey
+        else:
+            if self._paramsEnteredWith and self.LOAD_PARAMS_KEY in self._paramsEnteredWith:
+                return self._paramsEnteredWith[self.LOAD_PARAMS_KEY].loadParams.viewKey
+            return
+
+    def serializeParams(self):
+        return self._paramsEnteredWith
+
+    def getParamsExitedWith(self):
+        return dict(self._paramsExitedWith)
+
+    def _onEntered(self, event):
+        self._paramsEnteredWith = event.params
+        super(UntrackedState, self)._onEntered(event)
+        return
+
+    def _onExited(self):
+        super(UntrackedState, self)._onExited()
+        self._paramsExitedWith = self._paramsEnteredWith
+        return
+
+
+class _SubScopeState(LobbyState):
+    STATE_ID = b'subScope'
+
+    def __init__(self, flags=StateFlags.PARALLEL):
+        super(_SubScopeState, self).__init__(flags=flags)
+        return
+
+
+@_SubScopeState.parentOf
+class SubScopeSubLayerState(LobbyState):
+    STATE_ID = b'subLayer'
+
+    def __init__(self, flags=StateFlags.UNDEFINED):
+        super(SubScopeSubLayerState, self).__init__(flags=flags | LobbyStateFlags.HANGAR)
+        return
+
+    def registerStates(self):
+        self.addChildState(_SubScopeSubLayerEmptyState(StateFlags.INITIAL))
+        self.addChildState(_SubScopeSubLayerUntrackedState())
+        self.addChildState(_SubScopeSubLayerFinalState(StateFlags.FINAL))
+        return
+
+    def registerTransitions(self):
+        machine = self.getMachine()
+        self.addNavigationTransition(machine.getStateByCls(_SubScopeSubLayerUntrackedState), TransitionType.EXTERNAL)
+        self.addNavigationTransition(machine.getStateByCls(_SubScopeSubLayerEmptyState))
+        finalState = machine.getStateByCls(_SubScopeSubLayerFinalState)
+        self.addTransition(_StopTransition(), finalState)
+        self.addNavigationTransition(self, TransitionType.EXTERNAL)
+        return
+
+    def getNavigationDescription(self):
+        return LobbyStateDescription(title=backport.text(R.strings.menu.headerButtons.hangar()))
+
+
+@SubScopeSubLayerState.parentOf
+class _SubScopeSubLayerUntrackedState(UntrackedState):
+    STATE_ID = UNTRACKED_STATE_ID_ENDING
+
+    def getNavigationDescription(self):
+        from gui.Scaleform.daapi.settings.views import VIEW_ALIAS
+        if self.getViewKey().alias == VIEW_ALIAS.LOBBY_HANGAR:
+            return LobbyStateDescription(title=backport.text(R.strings.pages.titles.hangar()))
+        return super(_SubScopeSubLayerUntrackedState, self).getNavigationDescription()
+
+
+@SubScopeSubLayerState.parentOf
+class _SubScopeSubLayerEmptyState(EmptyState):
+    STATE_ID = EMPTY_STATE_ID_ENDING
+
+    def _onEntered(self, event):
+        if event is not None:
+            from gui.shared.event_dispatcher import showHangar
+            showHangar()
+        return
+
+
+@SubScopeSubLayerState.parentOf
+class _SubScopeSubLayerFinalState(LobbyState):
+    STATE_ID = b'FINAL'
+
+    def _onEntered(self, event):
+        return
+
+    def _onExited(self):
+        return
+
+    def _onViewExternallyDestroyed(self):
+        return
+
+
+@_SubScopeState.parentOf
+class SubScopeTopLayerState(LobbyState):
+    STATE_ID = b'topLayer'
+
+    def registerStates(self):
+        self.addChildState(_SubScopeTopLayerEmptyState(StateFlags.INITIAL))
+        self.addChildState(_SubScopeTopLayerUntrackedState())
+        return
+
+    def registerTransitions(self):
+        machine = self.getMachine()
+        untracked = machine.getStateByCls(_SubScopeTopLayerUntrackedState)
+        self.addNavigationTransition(untracked, TransitionType.EXTERNAL)
+        emptyState = machine.getStateByCls(_SubScopeTopLayerEmptyState)
+        self.addNavigationTransition(emptyState)
+        self.addTransition(_StopTransition(), emptyState)
+        untracked.addNavigationTransition(untracked, TransitionType.EXTERNAL, True)
+        self.addNavigationTransition(self, TransitionType.EXTERNAL)
+        for childA, childB in itertools.combinations(self.getRecursiveChildrenStates(), 2):
+            notInitial = not childA.isInitial() and not childB.isInitial()
+            notDescendants = not isDescendantOf(childA, childB) and not isDescendantOf(childB, childA)
+            notSiblingsOfSameParent = getLCA([childA, childB]) is self
+            if notInitial and notDescendants and notSiblingsOfSameParent:
+                childA.addTransition(NavigationTransition(record=True), childB)
+                childB.addTransition(NavigationTransition(record=True), childA)
+
+        return
+
+
+@SubScopeTopLayerState.parentOf
+class _SubScopeTopLayerUntrackedState(UntrackedState):
+    STATE_ID = UNTRACKED_STATE_ID_ENDING
+
+
+@SubScopeTopLayerState.parentOf
+class _SubScopeTopLayerEmptyState(EmptyState):
+    STATE_ID = EMPTY_STATE_ID_ENDING
+
+
+class _TopScopeState(LobbyState):
+    STATE_ID = b'topScope'
+    SCOPE = ScopeTemplates.LOBBY_TOP_SUB_SCOPE
+
+    def __init__(self, flags=StateFlags.PARALLEL):
+        super(_TopScopeState, self).__init__(flags=flags)
+        return
+
+
+@_TopScopeState.parentOf
+class TopScopeTopLayerState(LobbyState):
+    STATE_ID = b'topLayer'
+
+    def registerStates(self):
+        self.addChildState(_TopScopeTopLayerEmptyState(StateFlags.INITIAL))
+        self.addChildState(_TopScopeTopLayerUntrackedState())
+        return
+
+    def registerTransitions(self):
+        machine = self.getMachine()
+        self.addNavigationTransition(machine.getStateByCls(_TopScopeTopLayerUntrackedState), TransitionType.EXTERNAL)
+        emptyState = machine.getStateByCls(_TopScopeTopLayerEmptyState)
+        self.addNavigationTransition(emptyState)
+        self.addTransition(_StopTransition(), emptyState)
+        self.addNavigationTransition(self, TransitionType.EXTERNAL)
+        return
+
+
+@TopScopeTopLayerState.parentOf
+class _TopScopeTopLayerUntrackedState(UntrackedState):
+    STATE_ID = UNTRACKED_STATE_ID_ENDING
+
+
+@TopScopeTopLayerState.parentOf
+class _TopScopeTopLayerEmptyState(EmptyState):
+    STATE_ID = EMPTY_STATE_ID_ENDING
+
+
+def compareViewKeys(view, stateViewKey):
+    if hasattr(view, b'key'):
+        return stateViewKey == view.key
+    if hasattr(view, b'layoutID'):
+        return stateViewKey.alias == view.layoutID
+    return False

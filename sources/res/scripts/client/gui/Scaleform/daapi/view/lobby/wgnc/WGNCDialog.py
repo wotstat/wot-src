@@ -1,0 +1,35 @@
+from __future__ import absolute_import
+from gui.Scaleform.daapi.view.meta.WGNCDialogMeta import WGNCDialogMeta
+from gui.wgnc import g_wgncProvider
+
+class WGNCDialog(WGNCDialogMeta):
+
+    def __init__(self, ctx=None):
+        super(WGNCDialog, self).__init__()
+        self.__notID = ctx[b'notID']
+        self.__target = ctx[b'target']
+        return
+
+    def onWindowClose(self):
+        self.destroy()
+        return
+
+    def doAction(self, actionId, isButtonClicked):
+        g_wgncProvider.doAction(self.__notID, actionId, self.__target)
+        if isButtonClicked:
+            self.destroy()
+        return
+
+    def _populate(self):
+        super(WGNCDialog, self)._populate()
+        item = g_wgncProvider.getNotItemByName(self.__notID, self.__target)
+        self.as_setTextS(item.getBody())
+        self.as_setTitleS(item.getTopic())
+        self.as_setButtonsS(item.getButtonsMap())
+        return
+
+    def _dispose(self):
+        self.__notID = None
+        self.__target = None
+        super(WGNCDialogMeta, self)._dispose()
+        return

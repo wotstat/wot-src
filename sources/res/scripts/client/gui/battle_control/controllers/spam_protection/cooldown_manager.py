@@ -1,0 +1,23 @@
+from __future__ import absolute_import
+import typing, BigWorld
+from gui.battle_control.controllers.spam_protection.spam_constants import DEFAULT_COOLDOWN
+
+class SpamCooldownManager(object):
+
+    def __init__(self):
+        self.__cooldowns = {}
+        return
+
+    def destroy(self):
+        self.__cooldowns.clear()
+        return
+
+    def isInProcess(self, eventKey):
+        if eventKey in self.__cooldowns:
+            return self.__cooldowns[eventKey] > BigWorld.time()
+        return False
+
+    def process(self, eventKey, coolDown=None):
+        coolDown = coolDown or DEFAULT_COOLDOWN
+        self.__cooldowns[eventKey] = BigWorld.time() + coolDown
+        return

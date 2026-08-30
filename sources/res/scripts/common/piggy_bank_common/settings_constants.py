@@ -1,0 +1,5 @@
+PIGGY_BANK_PDATA_KEY = b'piggyBank'
+LAST_SMASH_TIMESTAMP_GOLD_KEY = b'lastSmashTimestampGold'
+LAST_SMASH_TIMESTAMP_CREDITS_KEY = b'lastSmashTimestamp'
+CREDITS_VALUE_KEY = b'credits'
+GOLD_VALUE_KEY = b'gold'

@@ -1,0 +1,671 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-07-20 10:00+0300\nPO-Revision-Date: 2023-07-20 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleResult/reason/1"
+msgstr "Вся техника противника уничтожена"
+
+msgid "battleResult/reason/11"
+msgstr "Все цели достигнуты"
+
+msgid "battleResult/reason/3"
+msgstr "Время боя истекло"
+
+msgid "battleResult/reason/5"
+msgstr "Техническое поражение"
+
+msgid "battleResult/reason/8"
+msgstr "Уничтожение союзника"
+
+msgid "battleResult/reason/9"
+msgstr "Ваша машина уничтожена"
+
+msgid "battleResult/reason/default"
+msgstr "Причина неизвестна"
+
+msgid "battleResult/resultLabel/tie"
+msgstr "БОЙ ЗАВЕРШЁН"
+
+msgid "battleResult/resultLabel/win"
+msgstr "ПОБЕДА!"
+
+msgid "berlin/hint01"
+msgstr "Уничтожьте гусеницы «Тигра», чтобы помочь «Буревестнику»"
+
+msgid "berlin/hint02"
+msgstr "Подождите и послушайте, что скажет сержант Брукс"
+
+msgid "berlin/objective01/header"
+msgstr "Найдите «Вундерваффе» противника"
+
+msgid "berlin/objective01/subheader"
+msgstr "Продвигайтесь с осторожностью"
+
+msgid "berlin/objective02/header"
+msgstr "Смирно!"
+
+msgid "berlin/objective02/subheader"
+msgstr "Следуйте указаниям командования"
+
+msgid "berlin/objective03/header"
+msgstr "Найдите «Вундерваффе» противника"
+
+msgid "berlin/objective03/subheader"
+msgstr "Продвигайтесь с осторожностью"
+
+msgid "berlin/objective03/success"
+msgstr "Руины зачищены!"
+
+msgid "berlin/objective04/header"
+msgstr "Пождите, пока сержант Брукс вызовет бомбардировщик"
+
+msgid "berlin/objective04/subheader"
+msgstr "Защищайте позицию!"
+
+msgid "berlin/objective05/header"
+msgstr "Уничтожьте оставшихся противников"
+
+msgid "berlin/objective05/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Уничтожьте оставшихся противников: %d"
+msgstr[1] "Уничтожьте оставшихся противников: %d"
+msgstr[2] "Уничтожьте оставшихся противников: %d"
+
+msgid "berlin/objective05/success"
+msgstr "Бомбардировщик на подходе! Приготовиться!"
+
+msgid "berlin/objective06/header"
+msgstr "Завершите миссию"
+
+msgid "berlin/objective06/subheader"
+msgstr "Уничтожьте гусеницы «Ягдтигра»"
+
+msgid "berlin/objective06/success"
+msgstr "«Ягдтигр» уничтожен"
+
+msgid "berlin/objective07/header"
+msgstr "Захватите «Вундерваффе»"
+
+msgid "berlin/objective07/subheader"
+msgstr "Уничтожьте гусеницы «Мышонка»"
+
+msgid "berlin/objective07/success"
+msgstr "«Мышонок» уничтожен и захвачен!"
+
+msgid "berlin/prebattle/header"
+msgstr "Продвигайтесь с осторожностью"
+
+msgid "berlin/prebattle/start"
+msgstr "Перейти"
+
+msgid "berlin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "berlin/respawn/header"
+msgstr "Будь наготове, солдат"
+
+msgid "berlin/respawn/subheader"
+msgstr "Подкрепление в пути"
+
+msgid "berlin/respawn_over/header"
+msgstr "Всё кончено"
+
+msgid "berlin/respawn_over/subheader"
+msgstr "Все доступные машины уничтожены"
+
+msgid "botNames/Brooks"
+msgstr "Сержант Брукс"
+
+msgid "botNames/Connolly"
+msgstr "Л-т Артур Коннолли"
+
+msgid "botNames/Dubois"
+msgstr "К-н Луи Дюбуа"
+
+msgid "botNames/McCormick"
+msgstr "К-н Джон Маккормик"
+
+msgid "botNames/McLaud"
+msgstr "Алистер МакЛауд"
+
+msgid "botNames/Murphy"
+msgstr "К-н Джек Мёрфи"
+
+msgid "botNames/Teddy"
+msgstr "К-н Мирослав Котва"
+
+msgid "botNames/Ulysses"
+msgstr "К-н Джеймс Корвин"
+
+msgid "bunker"
+msgstr "Береговой бункер"
+
+msgid "common/battleBtn"
+msgstr "В бой!"
+
+msgid "common/continueBtn"
+msgstr "Продолжить"
+
+msgid "common/loading"
+msgstr "Загрузка"
+
+msgid "common/skipBtn"
+msgstr "Пропустить"
+
+msgid "confirmExit/exit"
+msgstr "Пропустить"
+
+msgid "confirmExit/exitRegular"
+msgstr "Выйти"
+
+msgid "confirmExit/stay"
+msgstr "Отменить"
+
+msgid "confirmExit/title"
+msgstr "Пропустить историю «Охотник на Тигров»?"
+
+msgid "confirmExit/titleRegular"
+msgstr "Выйти из истории?"
+
+msgid "dday/hint01"
+msgstr "Найдите способ уничтожить береговые бункеры"
+
+msgid "dday/hint02"
+msgstr "Используйте дымовые сигналы, чтобы помочь линкору"
+
+msgid "dday/objective01/header"
+msgstr "Выживите на пляже"
+
+msgid "dday/objective01/subheader"
+msgstr "Избегайте огня противника любой ценой"
+
+msgid "dday/objective02/header"
+msgstr "Прорвите оборону противника"
+
+msgid "dday/objective02/subheader"
+msgid_plural "plural/dday/objective02/subheader"
+msgstr[0] "Уничтожьте береговых бункеров: %d"
+msgstr[1] "Уничтожьте береговых бункеров: %d"
+msgstr[2] "Уничтожьте береговых бункеров: %d"
+
+msgid "dday/objective02/success"
+msgstr "Все береговые бункеры уничтожены!"
+
+msgid "dday/objective03/header"
+msgstr "Заберитесь наверх"
+
+msgid "dday/objective03/subheader"
+msgstr "Доберитесь до позиций противника в квадрате B5 и уничтожьте их"
+
+msgid "dday/objective03/success"
+msgstr "Позиции противника уничтожены. Воспользуйтесь этим прорывом!"
+
+msgid "dday/objective04/header"
+msgstr "Помогите союзникам прорвать оборону"
+
+msgid "dday/objective04/subheader"
+msgstr "Нейтрализуйте оборону противника в секторе D6"
+
+msgid "dday/objective04/success"
+msgstr "Путь для капитана Мёрфи расчищен!"
+
+msgid "dday/objective05/header"
+msgstr "Помогите капитану Дюбуа"
+
+msgid "dday/objective05/subheader"
+msgstr "Нейтрализуйте оборону противника в секторе H6"
+
+msgid "dday/objective05/success"
+msgstr "Путь для капитана Дюбуа расчищен!"
+
+msgid "dday/objective06/header"
+msgstr "Защитите флот"
+
+msgid "dday/objective06/subheader"
+msgid_plural "plural/dday/objective06/subheader"
+msgstr[0] "Уничтожьте береговых пушек: %d"
+msgstr[1] "Уничтожьте береговых пушек: %d"
+msgstr[2] "Уничтожьте береговых пушек: %d"
+
+msgid "dday/objective06/success"
+msgstr "Все береговые пушки уничтожены!"
+
+msgid "dday/objective07/header"
+msgstr "Зачистите участок"
+
+msgid "dday/objective07/subheader"
+msgid_plural "plural/dday/objective07/subheader"
+msgstr[0] "Уничтожьте оставшихся противников: %d"
+msgstr[1] "Уничтожьте оставшихся противников: %d"
+msgstr[2] "Уничтожьте оставшихся противников: %d"
+
+msgid "dday/objective07/success"
+msgstr "Противник уничтожен!"
+
+msgid "dday/objective08/header"
+msgstr "Удерживайте позиции"
+
+msgid "dday/objective08/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "Уничтожьте машин противника: %d"
+msgstr[1] "Уничтожьте машин противника: %d"
+msgstr[2] "Уничтожьте машин противника: %d"
+
+msgid "dday/objective08/success"
+msgstr "Плацдарм защищён!"
+
+msgid "dday/prebattle/header"
+msgstr "Подготовка к наступлению"
+
+msgid "dday/prebattle/start"
+msgstr "В атаку!"
+
+msgid "dday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "dday/respawn/header"
+msgstr "Будь наготове, солдат"
+
+msgid "dday/respawn/subheader"
+msgstr "Подкрепление в пути"
+
+msgid "dday/respawn_over/header"
+msgstr "Всё кончено"
+
+msgid "dday/respawn_over/subheader"
+msgstr "Все доступные машины уничтожены"
+
+msgid "epilogue/text"
+msgstr "МакЛауд: «Живой! Брукс живой! Обгорел сильно. Но живой. Куда он денется. Он мне медаль обещал. Ты свою получил. Заслуженно. Ловко ты этого Королевского поджарил. Теперь мы квиты. Тот выстрел в «Тигра», когда мы тебя спасли, — чистая удача. Стрелял, почти не целясь. Видишь, как обернулось. Получается, я тогда себя спас. И Брукса.\n\nПару дней есть. Подлатаем танки. А там и на Берлин.\n\n7–4 в твою пользу. Но «Тигры» у немцев ещё не закончились. Так что посмотрим, чья возьмёт!»"
+
+msgid "epilogue/title"
+msgstr "ЭПИЛОГ"
+
+msgid "finish/reason/1"
+msgstr "ВСЯ ТЕХНИКА ПРОТИВНИКА УНИЧТОЖЕНА"
+
+msgid "finish/reason/11"
+msgstr "ВСЕ ЦЕЛИ ДОСТИГНУТЫ"
+
+msgid "finish/reason/3"
+msgstr "ВРЕМЯ БОЯ ИСТЕКЛО"
+
+msgid "finish/reason/5"
+msgstr "ТЕХНИЧЕСКОЕ ПОРАЖЕНИЕ"
+
+msgid "finish/reason/8"
+msgstr "УНИЧТОЖЕНИЕ СОЮЗНИКА"
+
+msgid "finish/reason/9"
+msgstr "ВАША МАШИНА УНИЧТОЖЕНА"
+
+msgid "finish/reason/default"
+msgstr "ПРИЧИНА НЕИЗВЕСТНА"
+
+msgid "hint_aim_weak_spots"
+msgstr "Зелёный маркер информирует о высоком шансе пробития брони"
+
+msgid "hint_move"
+msgstr "Управление машиной"
+
+msgid "hint_move_turret"
+msgstr "Управление башней и прицелом"
+
+msgid "hint_shoot"
+msgstr "Наведите прицел на противника и стреляйте"
+
+msgid "hint_sniper_enter"
+msgstr "Вход в снайперский режим: крутите колесо мыши"
+
+msgid "hint_sniper_on_distance_exit"
+msgstr "Выход из снайперского режима: крутите колесо мыши"
+
+msgid "hint_sniper_weak_spots_enter"
+msgstr "В снайперском режиме проще выцелить слабые места в броне"
+
+msgid "hint_target_unlock"
+msgstr "Автоприцел. Отмена правой кнопкой мыши"
+
+msgid "ingameMenu/buttons/quit"
+msgstr "Пропустить вступление"
+
+msgid "introVideo/loading"
+msgstr "Загружается..."
+
+msgid "lootCapturing/equipment"
+msgstr "Захват: карта минного поля"
+
+msgid "lootCapturing/plan"
+msgstr "Захват: фрагмент карты"
+
+msgid "lootCapturing/tank"
+msgstr "Захват техники противника"
+
+msgid "prebattle/mission/stage/1"
+msgstr "Операция 1"
+
+msgid "prebattle/mission/stage/2"
+msgstr "Операция 2"
+
+msgid "prebattle/mission/stage/3"
+msgstr "Операция 3"
+
+msgid "prebattle/mission/stage/4"
+msgstr "Операция 4"
+
+msgid "prebattle/mission/stage/5"
+msgstr "Операция 5"
+
+msgid "prebattle/mission/stage/6"
+msgstr "Операция 6"
+
+msgid "prebattle/mission/stage/7"
+msgstr "Операция 7"
+
+msgid "prebattle/mission/task/1"
+msgstr "Задача: атакуйте город и уничтожьте все машины противника."
+
+msgid "prebattle/mission/task/2"
+msgstr "Задача: атакуйте город и уничтожьте все машины противника."
+
+msgid "prebattle/mission/task/3"
+msgstr "Атакуйте город и уничтожьте все машины противника."
+
+msgid "prebattle/mission/task/4"
+msgstr "Найдите и уничтожьте «Вундерваффе» противника."
+
+msgid "prebattle/mission/task/5"
+msgstr "Прорвите оборону, уничтожьте береговые пушки и захватите плацдарм."
+
+msgid "prebattle/mission/task/6"
+msgstr "Доставьте союзникам приказ о прекращении огня."
+
+msgid "prebattle/mission/task/7"
+msgstr "Доберитесь до командного пункта и остановите запуск ракеты."
+
+msgid "prebattle/mission/text/1"
+msgstr "Брукс: «Ну, как? Пришёл в себя? Медикам потом покажешься. Сейчас каждое орудие на счету. Штурм уже начался. Из-за того, что мы опоздали, всё внимание противника сосредоточено на другом фланге. Это наш шанс. Атакуем сходу. Врываемся в город и зажимаем противника с двух сторон.\n\nЕдь за нами и не попадись на «зубы дракона». Этих бетонных «клыков» там всё поле в несколько рядов. Ничего. Прорвёмся. Главное, слушай меня и выполняй приказы быстро и чётко. Мы с МакЛаудом тебя прикроем.\n\nИ да, не обращай внимания на его шутки. У каждого свой способ справляться со стрессом. Вперёд!»"
+
+msgid "prebattle/mission/text/2"
+msgstr "МакЛауд: «\"Тигры\". Худшее, что можно встретить на поле боя. И если командование говорит, что у них проблема, значит это \"Тигры\". Первая штурмовая группа не выходит на связь. Вторая только что отправилась. Нас посылают за ними.\n\nА если посылают нас, это значит только одно — \"Тигры\". В штабе так и говорят, пошлите этих \"экспертов по Тиграм\". Девять штук на двоих. Неплохой у нас результат за полгода. 5–4 в твою пользу. У меня есть шанс вырваться вперёд. И получить, наконец, эту чёртову медаль!\n\nПойдём, Брукс не любит ждать. Охота начинается»."
+
+msgid "prebattle/mission/text/3"
+msgstr "МакЛауд: «Итак, парни и девушки, собираемся на операцию \"Молот и наковальня\". Простое название для не очень простой работёнки. Наша задача — очистить город от сил противника. Будет непросто, нас ждут хорошо бронированные железяки. Но у нас есть мозги, лошадиные силы и командная работа. Да, Счастливчик? Сделаем всё по-быстрому, парни. У меня запланировано свидание с чашкой \"чая\" в пять, если вы понимаете, о чём я!»"
+
+msgid "prebattle/mission/text/4"
+msgstr "МакЛауд: «Не спрашивай, Счастливчик. Я сам ничего не знаю.\n\nНе люблю я эту секретность. Я люблю, когда всё просто. Вот противник, с ним воюй. А тут какая-то неразбериха.\n\nВ городе будут танки союзников. Брукс просил быть аккуратнее. Что бы это значило?\nУ нас особая задача. Найти какую-то Вундерваффе. Что-то огромное и на гусеницах. Кроме нас некому, Счастливчик.\n\nГотов? Поехали»."
+
+msgid "prebattle/mission/text/5"
+msgstr "Капитан Джон Маккормик: «Ну что ж, парни, ваш день настал. С войной пора заканчивать. Этим мы сейчас и займёмся. Все мы заодно: американцы, британцы, французы, канадцы, австралийцы, бельгийцы, чехословаки, греки, голландцы, новозеландцы, норвежцы, поляки. И вместе мы покончим со злом раз и навсегда.\n\nМы прорвём Атлантический вал и закрепимся на нём.\n\nПриготовиться к высадке!»"
+
+msgid "prebattle/mission/text/6"
+msgstr "Капитан Смит: «Всё просто. Несколько часов назад Германия подписала капитуляцию. Завтра война закончится.\n\nНо мы потеряли радиосвязь с нашими парнями в горах, и они не знают, что мы уже победили. У них приказ атаковать эту чёртову крепость на рассвете. Немецкий гарнизон ещё не получил приказа сложить оружие. Это будет бессмысленная бойня.\n\nМы единственные, кто может это остановить. Наша задача: пройти через вражеские позиции и доставить приказ об отмене штурма. Это самоубийственная миссия, но каждая спасённая жизнь того стоит. С нами будет пленённый немецкий радист, он знает местность и хочет остановить эту мясорубку так же, как и мы.\n\nВыдвигаемся»."
+
+msgid "prebattle/mission/text/7"
+msgstr "Лени Шарф: «Ситуация критическая. Мы потеряли связь с нашей ракетной базой в Норвежском море. Разведывательный самолёт так и не вернулся, а первая десантная группа полностью уничтожена неизвестным противником.\n\nПо данным разведки, они готовятся к запуску баллистической ракеты. Цель нам не ясна, но в текущей обстановке даже один выстрел может привести к глобальному конфликту.\n\nКак в старые добрые... Очередное невыполнимое задание в тылу врага. Выдвигаемся!»"
+
+msgid "prebattle/mission/title/1"
+msgstr "Стальная лавина"
+
+msgid "prebattle/mission/title/2"
+msgstr "Зверолов"
+
+msgid "prebattle/mission/title/3"
+msgstr "Молот и наковальня"
+
+msgid "prebattle/mission/title/4"
+msgstr "Кот в мышеловке"
+
+msgid "prebattle/mission/title/5"
+msgstr "Операция «Оверлорд»"
+
+msgid "prebattle/mission/title/6"
+msgstr "Операция «Почтальон»"
+
+msgid "prebattle/mission/title/7"
+msgstr "Операция «Точка кипения»"
+
+msgid "ruinberg/hint01"
+msgstr "Найдите обходной путь и обойдите противника"
+
+msgid "ruinberg/objective01/header"
+msgstr "Вперёд!"
+
+msgid "ruinberg/objective01/subheader"
+msgstr "Продвигайтесь вперёд и уничтожьте силы противника"
+
+msgid "ruinberg/objective02/header"
+msgstr "Проберитесь во фланг"
+
+msgid "ruinberg/objective02/subheader"
+msgstr "Возьмите противника в «клещи»"
+
+msgid "ruinberg/objective02/success"
+msgstr "Уничтожен!"
+
+msgid "ruinberg/objective03/header"
+msgstr "Проберитесь во фланг"
+
+msgid "ruinberg/objective03/subheader"
+msgstr "Возьмите противника в «клещи»"
+
+msgid "ruinberg/objective03/success"
+msgstr "Уничтожен!"
+
+msgid "ruinberg/objective05/header"
+msgstr "Вперёд!"
+
+msgid "ruinberg/objective05/subheader"
+msgstr "Продвигайтесь вперёд и уничтожьте силы противника"
+
+msgid "ruinberg/objective07/header"
+msgstr "Приготовьтесь к контратаке!"
+
+msgid "ruinberg/objective07/subheader"
+msgstr "Защищайте позиции"
+
+msgid "ruinberg/objective07/success"
+msgstr "Противник уничтожен!"
+
+msgid "ruinberg/prebattle/header"
+msgstr "Приготовьтесь!"
+
+msgid "ruinberg/prebattle/start"
+msgstr "В атаку!"
+
+msgid "ruinberg/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "ruinberg/respawn/header"
+msgstr "Будь наготове, солдат"
+
+msgid "ruinberg/respawn/subheader"
+msgstr "Подкрепление в пути"
+
+msgid "ruinberg/respawn_over/header"
+msgstr "Всё кончено"
+
+msgid "ruinberg/respawn_over/subheader"
+msgstr "Все доступные машины уничтожены"
+
+msgid "settings/disabledTabsOverlay"
+msgstr "Завершите историю «Охотник на Тигров», чтобы разблокировать эти настройки."
+
+msgid "timersPanel/overturned"
+msgstr "Восстановление машины..."
+
+msgid "vday/hint01"
+msgstr "Быстро прячьтесь за углом"
+
+msgid "vday/hint02"
+msgstr "Подкрадитесь ближе"
+
+msgid "vday/hint03"
+msgstr "Отправьте капитана Дюбуа на разведку"
+
+msgid "vday/hint04"
+msgstr "Используйте трофейную радиостанцию, чтобы передать ложную информацию «Тигру»"
+
+msgid "vday/hint05"
+msgstr "Обследуйте немецкий командный пункт"
+
+msgid "vday/hint06"
+msgstr "Способности «Разведка» и «Дезинформация» помогут выполнить задание"
+
+msgid "vday/hint07"
+msgstr "Используйте способности «Разведка» и «Дезинформация», чтобы незаметно продвигаться мимо противника"
+
+msgid "vday/hint08"
+msgstr "Промедление может стоить жизни!"
+
+msgid "vday/hint09"
+msgstr "Элитную технику не получится отвлечь с помощью «Дезинформации»"
+
+msgid "vday/hint10"
+msgstr "Делайте, что говорит капитан Смит, и продвигайтесь с осторожностью"
+
+msgid "vday/hint11"
+msgstr "Вернитесь к выполнению задачи!"
+
+msgid "vday/objective01/header"
+msgstr "По машинам!"
+
+msgid "vday/objective01/subheader"
+msgstr "Доставьте союзникам приказ о прекращении огня"
+
+msgid "vday/objective02/header"
+msgstr "Доберитесь до немецкого командного пункта"
+
+msgid "vday/objective02/subheader"
+msgstr "Следуйте указаниям капитана Смита"
+
+msgid "vday/objective02/success"
+msgstr "Карты минного поля захвачены"
+
+msgid "vday/objective03/header"
+msgstr "Найдите фрагменты карты прохода"
+
+msgid "vday/objective03/subheader"
+msgid_plural "plural/dday/objective08/subheader"
+msgstr[0] "найден %d фрагмент карты"
+msgstr[1] "найдено %d фрагмента карты"
+msgstr[2] "найдено %d фрагментов карты"
+
+msgid "vday/objective03/success"
+msgstr "Карта прохода собрана"
+
+msgid "vday/objective04/header"
+msgstr "Доставьте союзникам приказ о прекращении огня"
+
+msgid "vday/objective04/subheader"
+msgstr "Продвигайтесь через минное поле"
+
+msgid "vday/objective04/success"
+msgstr "Приказ о прекращении огня доставлен!"
+
+msgid "vday/objective05/header"
+msgstr "Достигните минного поля"
+
+msgid "vday/objective05/subheader"
+msgstr "Пройдите минное поле"
+
+msgid "vday/objective05/success"
+msgstr "Минное поле достигнуто"
+
+msgid "vday/prebattle/header"
+msgstr "Пройдите минное поле"
+
+msgid "vday/prebattle/start"
+msgstr "Приступить"
+
+msgid "vday/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "vday/prebattleVeryHard/header"
+msgstr "Продвигайтесь через минное поле"
+
+msgid "vday/prebattleVeryHard/start"
+msgstr "Вперёд"
+
+msgid "vday/prebattleVeryHard/subheader"
+msgstr "?empty?"
+
+msgid "vday/respawn/header"
+msgstr "Будь наготове, солдат"
+
+msgid "vday/respawn/subheader"
+msgstr "Подкрепление в пути"
+
+msgid "vday/respawn_over/header"
+msgstr "Всё кончено"
+
+msgid "vday/respawn_over/subheader"
+msgstr "Все доступные машины уничтожены"
+
+msgid "zeppelin/hint01"
+msgstr "Зарядите орудие вашей машины, чтобы нанести увеличенный урон"
+
+msgid "zeppelin/hint02"
+msgstr "Нанесите урон с дальней дистанции, стреляя с максимальной точностью"
+
+msgid "zeppelin/hint03"
+msgstr "Узнайте, как стрелять из вспомогательного орудия этой машины"
+
+msgid "zeppelin/objective01/failure"
+msgstr "Задача провалена!"
+
+msgid "zeppelin/objective01/header"
+msgstr "Вперёд!"
+
+msgid "zeppelin/objective01/subheader"
+msgstr "Доберитесь до ракеты и остановите запуск"
+
+msgid "zeppelin/objective02/header"
+msgstr "Обнаружена станция техобслуживания противника!"
+
+msgid "zeppelin/objective02/subheader"
+msgstr "Захватите оставленную технику"
+
+msgid "zeppelin/objective02/success"
+msgstr "Техника захвачена!"
+
+msgid "zeppelin/objective03/header"
+msgstr "Получено новое задание!"
+
+msgid "zeppelin/objective03/subheader"
+msgstr "Захватите пусковую площадку и командный пункт"
+
+msgid "zeppelin/objective03/success"
+msgstr "Пусковая площадка захвачена"
+
+msgid "zeppelin/objective04/header"
+msgstr "Защищайте позицию"
+
+msgid "zeppelin/objective04/subheader"
+msgstr "Уничтожьте машин противника: %d"
+
+msgid "zeppelin/objective04/success"
+msgstr "Атака противника остановлена"
+
+msgid "zeppelin/prebattle/header"
+msgstr "Приготовьтесь!"
+
+msgid "zeppelin/prebattle/start"
+msgstr "Приступить!"
+
+msgid "zeppelin/prebattle/subheader"
+msgstr "?empty?"
+
+msgid "zeppelin/respawn/header"
+msgstr "Будьте наготове, командир"
+
+msgid "zeppelin/respawn/subheader"
+msgstr "Подкрепление в пути"
+
+msgid "zeppelin/respawn_over/header"
+msgstr "Всё кончено"
+
+msgid "zeppelin/respawn_over/subheader"
+msgstr "Все доступные машины уничтожены"

@@ -1,0 +1,191 @@
+msgid "armorValues/title/main"
+msgstr "Основная броня"
+
+msgid "armorValues/title/no_damage"
+msgstr "Без урона"
+
+msgid "armorValues/title/other"
+msgstr "Прочее"
+
+msgid "armorValues/title/penetration"
+msgstr "Шанс пробития"
+
+msgid "armorValues/title/percent"
+msgstr "(%)"
+
+msgid "armorValues/title/ricochet"
+msgstr "Рикошет"
+
+msgid "armorValues/title/spaced"
+msgstr "Разнесённая броня"
+
+msgid "armorValues/title/values"
+msgstr "(мм)"
+
+msgid "attackerTitle"
+msgstr "Комплектация атакующего"
+
+msgid "attackerTooltip/body"
+msgstr "Нажмите, чтобы сменить атакующую машину"
+
+msgid "attackerTooltip/header"
+msgstr "Атакующая машина"
+
+msgid "menu/header"
+msgstr "Тип оверлея"
+
+msgid "menu/no_armor"
+msgstr "Без оверлея"
+
+msgid "menu/nominal"
+msgstr "Номинальная броня"
+
+msgid "menu/penetration"
+msgstr "Шанс пробития"
+
+msgid "modules/current"
+msgstr "Текущая комплектация"
+
+msgid "modules/custom"
+msgstr "Своя комплектация"
+
+msgid "modules/standard"
+msgstr "Базовая комплектация"
+
+msgid "modules/title"
+msgstr "Модули машины"
+
+msgid "modules/top"
+msgstr "Максимальная комплектация"
+
+msgid "tooltip/angle/value"
+msgstr "{{value}}°"
+
+msgid "tooltip/armor/layer/multiple"
+msgstr "{{armor}} ({{part}}x{{count}})"
+
+msgid "tooltip/armor/layer/single"
+msgstr "{{armor}} ({{part}})"
+
+msgid "tooltip/armor/part/chassis"
+msgstr "Ходовая"
+
+msgid "tooltip/armor/part/gun"
+msgstr "Орудие"
+
+msgid "tooltip/armor/part/gunMask"
+msgstr "Маска орудия"
+
+msgid "tooltip/armor/part/hull"
+msgstr "Корпус"
+
+msgid "tooltip/armor/part/screen"
+msgstr "Экран"
+
+msgid "tooltip/armor/part/surveying"
+msgstr "Приборы наблюдения"
+
+msgid "tooltip/armor/part/turret"
+msgstr "Башня"
+
+msgid "tooltip/armor/part/wheels"
+msgstr "Колёса"
+
+msgid "tooltip/armor/reduction"
+msgstr "{{value}}x"
+
+msgid "tooltip/armor/value"
+msgstr "{{value}} мм"
+
+msgid "tooltip/dcc/no_damage"
+msgstr "Без урона"
+
+msgid "tooltip/dcc/penetration"
+msgstr "Пробитие"
+
+msgid "tooltip/dcc/percent"
+msgstr "{{value}}% "
+
+msgid "tooltip/dcc/ricochet"
+msgstr "Рикошет"
+
+msgid "tooltip/minor/angle/description"
+msgstr "Угол между траекторией полёта снаряда и линией, перпендикулярной листу брони.\n\nТраектория полёта снаряда просчитывается относительно движения по прямой линии из центра экрана."
+
+msgid "tooltip/minor/angle/header"
+msgstr "Угол попадания"
+
+msgid "tooltip/minor/damage/description"
+msgstr "Шанс пробить броню машины противника и нанести ей урон."
+
+msgid "tooltip/minor/damage/header"
+msgstr "Шанс пробития"
+
+msgid "tooltip/minor/effective/description"
+msgstr "Для однослойных бронелистов приведённая броня равна номинальной с учётом модификатора угла попадания и нормализации снаряда.\n\nЕсли в точке попадания несколько слоёв брони, результатом будет сумма приведённых значений для каждого из них."
+
+msgid "tooltip/minor/effective/header"
+msgstr "Приведённая броня"
+
+msgid "tooltip/minor/header"
+msgstr "Легенда"
+
+msgid "tooltip/minor/noDamage/description"
+msgstr "Попадание в разведённую броню не наносит вреда технике, если после этого снаряд не попадает и не пробивает основную броню."
+
+msgid "tooltip/minor/noDamage/header"
+msgstr "Без урона"
+
+msgid "tooltip/minor/nominal/description"
+msgstr "Фактическая толщина листа основной или разнесённой брони."
+
+msgid "tooltip/minor/nominal/header"
+msgstr "Номинальная броня"
+
+msgid "tooltip/minor/ricochet/description"
+msgstr "Попадание по броне противника под углом приводит к рикошету. После рикошета снаряд может попасть в другую или даже в ту же самую машину."
+
+msgid "tooltip/minor/ricochet/header"
+msgstr "Рикошет"
+
+msgid "tooltip/minorShort/attackingConfiguration/description"
+msgstr "Влияет на расчёт приведённой брони и шанс пробития.\n\nДля всех расчётов используется расстояние, равное 100 м (бронебойные и подкалиберные снаряды теряют бронепробитие с увеличением дистанции).\n\nНа расчёты не влияют изученные навыки экипажа и улучшения техники."
+
+msgid "tooltip/minorShort/attackingConfiguration/header"
+msgstr "Комплектация атакующего"
+
+msgid "tooltip/minorShort/damageChance/description"
+msgstr "Шанс пробить броню машины противника и нанести ей урон.\n\nПопадание в разведённую броню не наносит вреда технике, если после этого снаряд не попадает и не пробивает основную броню."
+
+msgid "tooltip/minorShort/damageChance/header"
+msgstr "Шанс пробития"
+
+msgid "tooltip/minorShort/mainArmor/description"
+msgstr "Урон машине наносится только при пробитии основной брони. Осколочно-фугасные снаряды могут нанести небольшой урон даже в случае непробития, но они всё равно должны попасть в основную броню."
+
+msgid "tooltip/minorShort/mainArmor/header"
+msgstr "Основная броня"
+
+msgid "tooltip/minorShort/noDamage/description"
+msgstr "Попадание в разнесённую броню не наносит вреда технике, если после этого снаряд не попадает и не пробивает основную броню.\n\nПопадание и пробитие внешних модулей наносит урон непосредственно этим модулям: стреляйте в гусеницу, чтобы обездвижить машину; в орудие — чтобы вывести его из строя; или в приборы наблюдения — чтобы уменьшить дальность обзора."
+
+msgid "tooltip/minorShort/noDamage/header"
+msgstr "Без урона"
+
+msgid "tooltip/minorShort/ricochet/description"
+msgstr "Угол рикошета для бронебойных и подкалиберных снарядов составляет 70 градусов, а для кумулятивных — 85 градусов.\n\nОсколочно-фугасные снаряды не рикошетят, а бронебойный и подкалиберные теряют 25% своего бронепробития при рикошете.\n\nРикошета не будет, если калибр снаряда в три раза превышает номинальную толщину брони в точке попадания (применимо только к бронебойным и подкалиберным снарядам)."
+
+msgid "tooltip/minorShort/ricochet/header"
+msgstr "Рикошет"
+
+msgid "tooltip/minorShort/spacedArmor/description"
+msgstr "Попадание в разведённую броню не наносит вреда технике, если после этого снаряд не попадает и не пробивает основную броню.\n\nПопадание и пробитие внешних модулей наносят урон непосредственно этим модулям: стреляйте в гусеницу, чтобы обездвижить машину; в орудие — чтобы вывести его из строя; или в приборы наблюдения — чтобы уменьшить дальность обзора.\n\nУгол попадания не влияет на пробитие внешних модулей (таких как гусеницы или орудие). В этом случае приведённая толщина брони равна номинальной."
+
+msgid "tooltip/minorShort/spacedArmor/header"
+msgstr "Разнесённая броня"
+
+msgid "tooltip/reductionAndArmor/value"
+msgstr "{{reduction}}{{value}} мм"
+
+msgid "videoTooltip"
+msgstr "Посмотрите видео о механике пробития"

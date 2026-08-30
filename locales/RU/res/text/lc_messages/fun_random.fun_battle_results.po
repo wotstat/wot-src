@@ -1,0 +1,251 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "continueBtn"
+msgstr "Продолжить"
+
+msgid "economy/double/credits"
+msgstr "Танковый премиум аккаунт увеличивает заработок кредитов на %(value)s%%."
+
+msgid "economy/double/free_xp"
+msgstr "Танковый премиум аккаунт увеличивает заработок свободного опыта на %(value)s%%."
+
+msgid "economy/double/tmen_xp"
+msgstr "Танковый премиум аккаунта увеличивает заработок опыта экипажа на %(value)s%%."
+
+msgid "economy/double/xp"
+msgstr "Танковый премиум аккаунт увеличивает заработок боевого опыта на %(value)s%%."
+
+msgid "economy/double/xp_and_free_xp"
+msgstr "Танковый премиум аккаунт увеличивает заработок боевого и свободного опыта на %(value)s%%."
+
+msgid "efficiency/capturePoints"
+msgstr "Захват базы"
+
+msgid "efficiency/damageAssisted"
+msgstr "Помощь в уничтожении"
+
+msgid "efficiency/damageAssistedStun"
+msgstr "Оглушение"
+
+msgid "efficiency/damageBlockedByArmor"
+msgstr "Заблокированный урон"
+
+msgid "efficiency/damageDealt"
+msgstr "Урон"
+
+msgid "efficiency/droppedCapturePoints"
+msgstr "Защита базы"
+
+msgid "efficiency/empty"
+msgstr "—"
+
+msgid "efficiency/kills"
+msgstr "Уничтожено"
+
+msgid "efficiency/spotted"
+msgstr "Обнаружение"
+
+msgid "efficiency/timeFormat"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "efficiencyTooltip/header/capturePoints"
+msgstr "Захват базы"
+
+msgid "efficiencyTooltip/header/damageAssisted"
+msgstr "Помощь в уничтожении"
+
+msgid "efficiencyTooltip/header/damageAssistedStun"
+msgstr "Оглушение"
+
+msgid "efficiencyTooltip/header/damageBlockedByArmor"
+msgstr "Использование брони"
+
+msgid "efficiencyTooltip/header/damageDealt"
+msgstr "Урон"
+
+msgid "efficiencyTooltip/header/droppedCapturePoints"
+msgstr "Защита базы"
+
+msgid "efficiencyTooltip/header/kills"
+msgstr "Противник уничтожен"
+
+msgid "efficiencyTooltip/header/spotted"
+msgstr "Обнаружение"
+
+msgid "finish"
+msgstr "Бой окончен"
+
+msgid "premiumBonus/DeprecatedResults"
+msgstr "Применяется к последнему бою на выбранной машине."
+
+msgid "premiumBonus/FasterEducationCrewActive"
+msgstr "Нельзя применить бонус: активно ускоренное обучение экипажа."
+
+msgid "premiumBonus/FasterEducationCrewNotActive"
+msgstr "Нельзя применить бонус: ускоренное обучение экипажа отключено."
+
+msgid "premiumBonus/IsNotVictory"
+msgstr "Бонус можно применить только в победном бою."
+
+msgid "premiumBonus/NoCrew"
+msgstr "Нельзя применить управляемый бонус: экипаж не найден."
+
+msgid "premiumBonus/NoVehicle"
+msgstr "Нельзя применить управляемый бонус: машина не найдена."
+
+msgid "progress/title"
+msgstr "%(modeName)s: специальная задача. Этап: %(done)s / %(total)s"
+
+msgid "progress/unlimitedProgression/title"
+msgstr "%(modeName)s: специальная задача"
+
+msgid "result/lose"
+msgstr "ПОРАЖЕНИЕ"
+
+msgid "result/tie"
+msgstr "НИЧЬЯ"
+
+msgid "result/win"
+msgstr "ПОБЕДА"
+
+msgid "resultRace/battleStatus/finished"
+msgstr "ТРАССА ПРОЙДЕНА"
+
+msgid "resultRace/battleStatus/inTop"
+msgstr "МЕСТО"
+
+msgid "resultRace/battleStatus/notFinished"
+msgstr "ТРАССА\nНЕ ПРОЙДЕНА"
+
+msgid "resultRace/finishReason/finished"
+msgstr "Финишная черта достигнута"
+
+msgid "resultRace/finishReason/notFinished"
+msgstr "Финишная черта не достигнута"
+
+msgid "resultRace/footerSubtitle/battleEnded"
+msgstr "Бой окончен: {{time}}"
+
+msgid "resultRace/footerSubtitle/finished"
+msgstr "Неплохо!"
+
+msgid "resultRace/footerSubtitle/inTop"
+msgstr "Топ-3!"
+
+msgid "resultRace/footerSubtitle/notFinished"
+msgstr "В следующий раз повезёт!"
+
+msgid "ribbon/applied"
+msgstr "Бонус успешно применён"
+
+msgid "ribbon/errorState"
+msgstr "Ошибка применения"
+
+msgid "ribbon/expBonus"
+msgstr "+%(count)s %(icon)s бонус к опыту"
+
+msgid "ribbon/timeLeft"
+msgstr "Обновление бонуса через:"
+
+msgid "ribbon/usesLeft"
+msgstr "Доступно применений: %(count)s"
+
+msgid "sub_modes/development/navigation/battleResults"
+msgstr "Dev ОБЗОР"
+
+msgid "sub_modes/development/navigation/teamEfficiency"
+msgstr "Dev КОМАНДНЫЙ СЧЁТ"
+
+msgid "sub_modes/development/team/singleTeam"
+msgstr "Игроки"
+
+msgid "sub_modes/fall_tanks/efficiency/checkpointsPassed"
+msgstr "Контрольные точки"
+
+msgid "sub_modes/fall_tanks/efficiency/deathCount"
+msgstr "Возрождения"
+
+msgid "sub_modes/fall_tanks/efficiency/finishPosition"
+msgstr "Место"
+
+msgid "sub_modes/fall_tanks/efficiency/finishTime"
+msgstr "Время"
+
+msgid "sub_modes/fall_tanks/efficiency/kills"
+msgstr "Разрушено"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/checkpointsPassed"
+msgstr "Пройденные контрольные точки"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/deathCount"
+msgstr "Количество возрождений после разрушения вашей машины"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/destroyed"
+msgstr "Количество разрушенной вами техники"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishPosition"
+msgstr "Ваша итоговая позиция в гонке"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/description/finishTime"
+msgstr "Время, за которое вы достигли финишной черты"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/checkpointsPassed"
+msgstr "Контрольные точки"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/deathCount"
+msgstr "Возрождения"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/destroyed"
+msgstr "Разрушено"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishPosition"
+msgstr "Место"
+
+msgid "sub_modes/fall_tanks/efficiencyTooltip/header/finishTime"
+msgstr "Время"
+
+msgid "sub_modes/fall_tanks/navigation/battleResults"
+msgstr "ЛИЧНЫЙ РЕЗУЛЬТАТ"
+
+msgid "sub_modes/fall_tanks/navigation/teamEfficiency"
+msgstr "РЕЗУЛЬТАТЫ УЧАСТНИКОВ"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/body"
+msgstr "Сортировать по месту"
+
+msgid "sub_modes/fall_tanks/team/finishPositionHeader/header"
+msgstr "Место"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/body"
+msgstr "Сортировать по времени"
+
+msgid "sub_modes/fall_tanks/team/finishTimeHeader/header"
+msgstr "Время"
+
+msgid "sub_modes/fall_tanks/team/singleTeam"
+msgstr "Игроки"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/body"
+msgstr "Сортировать по технике"
+
+msgid "sub_modes/fall_tanks/team/tankHeader/header"
+msgstr "Техника"
+
+msgid "sub_modes/undefined/navigation/battleResults"
+msgstr "ОБЗОР"
+
+msgid "sub_modes/undefined/navigation/teamEfficiency"
+msgstr "КОМАНДНЫЙ СЧЁТ"
+
+msgid "sub_modes/undefined/team/singleTeam"
+msgstr "Игроки"
+
+msgid "team/empty/finishTime"
+msgstr "-- : -- . --"
+
+msgid "team/format/finishTime"
+msgstr "{minutes}:{seconds}.{milliseconds}"
+
+msgid "title"
+msgstr "РЕЗУЛЬТАТЫ БОЯ"

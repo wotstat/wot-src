@@ -1,0 +1,68 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-04 11:55+0200\nLast-Translator: WoT Translator <<noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battleModifiers/subMode/modifierDescription/night_maps"
+msgstr "Только для ночных карт:"
+
+msgid "prebattleTimer/ban/additionalInfo"
+msgstr "Выберите машину, которую хотите исключить из этого боя"
+
+msgid "prebattleTimer/ban/header"
+msgstr "Этап голосования за исключение"
+
+msgid "prebattleTimer/info/readyBtn/label"
+msgstr "Подтвердить выбор"
+
+msgid "prebattleTimer/info/readyBtn/tooltip/body"
+msgstr "После подтверждения вы не сможете выбрать другую машину."
+
+msgid "prebattleTimer/pick/header"
+msgstr "Этап подтверждения"
+
+msgid "prebattleTimer/prepick/additionalInfo"
+msgstr "Выберите машину, наиболее подходящую для карты и состава вашей команды"
+
+msgid "prebattleTimer/prepick/header"
+msgstr "Этап предвыбора техники"
+
+msgid "prebattleTimer/wait/additionalInfo"
+msgstr "Выбирайте машину, наиболее подходящую для текущей карты и состава вашей команды."
+
+msgid "prebattleTimer/wait/header"
+msgstr "Ожидание игроков..."
+
+msgid "prebattleTimer/wait/selectVehicle"
+msgstr "Выбрать машину"
+
+msgid "primeTimeView/endOfCycle"
+msgstr "Этап на сервере %(server)s завершился"
+
+msgid "primeTimeView/server"
+msgstr "Доступный для игры сервер: %(server)s."
+
+msgid "primeTimeView/serverTooltip"
+msgstr "Сервер %(server)s\nБои будут доступны ещё %(time)s"
+
+msgid "primeTimeView/serverUnavailableTooltip"
+msgstr "Сервер %(server)s\nБои станут доступны через %(time)s"
+
+msgid "primeTimeView/servers"
+msgstr "Доступные для игры серверы:"
+
+msgid "primeTimeView/status/allServersDisabled"
+msgstr "Бои недоступны на всех серверах"
+
+msgid "primeTimeView/status/disableFirst"
+msgstr "Режим на сервере %(server)s недоступен"
+
+msgid "primeTimeView/status/primeIsAvailable"
+msgstr "Бои на сервере %(server)s будут доступны ещё %(time)s"
+
+msgid "primeTimeView/status/primeWillBeAvailable"
+msgstr "Начало боёв на сервере %(server)s через %(time)s"
+
+msgid "primeTimeView/status/untill"
+msgstr "Бои недоступны до %(startTime)s на сервере %(server)s"

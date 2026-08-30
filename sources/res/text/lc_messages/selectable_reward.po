@@ -1,0 +1,110 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "error/button"
+msgstr "Affirmative!"
+
+msgid "error/description"
+msgstr "We apologize for the inconvenience. Please try again later."
+
+msgid "error/title"
+msgstr "This page is temporarily unavailable"
+
+msgid "footer/closeBtn/label"
+msgstr "Select Later"
+
+msgid "footer/multipleCategories/selectRewards"
+msgid_plural "plural/footer/multipleCategories/selectRewards"
+msgstr[0] "Select reward from the categories provided."
+msgstr[1] "Select rewards from the categories provided."
+msgstr[2] "Select rewards from the categories provided."
+
+msgid "footer/okBtn/label"
+msgstr "Claim Rewards"
+
+msgid "footer/rewardsSelected"
+msgstr "Rewards selected:"
+
+msgid "footer/singleCategory/selectRewards"
+msgid_plural "plural/footer/singleCategory/selectRewards"
+msgstr[0] "Select reward from the category provided."
+msgstr[1] "Select rewards from the category provided."
+msgstr[2] "Select rewards from the category provided."
+
+msgid "reward/packSizeCount"
+msgstr "x{packSize}"
+
+msgid "reward/state_limited"
+msgstr "Limit reached"
+
+msgid "reward/state_received"
+msgstr "Already received"
+
+msgid "reward/tooltip/state_limited/body"
+msgstr "You have reached the maximum number of items allowed in this category. Deselect one item to choose another."
+
+msgid "reward/tooltip/state_limited/header"
+msgstr "Limit Reached"
+
+msgid "tabs/counter"
+msgstr "%(count)s / %(limit)s"
+
+msgid "tabs/items/battleBooster"
+msgstr "Directives\nfor equipment"
+
+msgid "tabs/items/battle_booster"
+msgstr "Equipment Directives"
+
+msgid "tabs/items/blueprint"
+msgstr "Blueprint Fragments"
+
+msgid "tabs/items/brochure"
+msgstr "Training Booklet"
+
+msgid "tabs/items/crewbook"
+msgstr "Training Manual"
+
+msgid "tabs/items/deluxe"
+msgstr "Improved Equipment"
+
+msgid "tabs/items/expequipments"
+msgstr "Experimental\nEquipment"
+
+msgid "tabs/items/guide"
+msgstr "Training Guide"
+
+msgid "tabs/items/modernized_device"
+msgstr "Experimental Equipment"
+
+msgid "tabs/items/modernized_devices_t1"
+msgstr "Experimental Equipment Tier 1"
+
+msgid "tabs/items/modernized_devices_t2"
+msgstr "Experimental Equipment Tier 2"
+
+msgid "tabs/items/modernized_devices_t3"
+msgstr "Experimental Equipment Tier 3"
+
+msgid "tabs/items/new_device"
+msgstr "Standard Equipment"
+
+msgid "tabs/items/trophy"
+msgstr "Bounty Equipment"
+
+msgid "tooltips/footer/body"
+msgstr "Select rewards to claim them"
+
+msgid "tooltips/selectedRewards/description"
+msgstr "Click the Claim button to receive the selected rewards."
+
+msgid "tooltips/selectedRewards/reward/counter"
+msgstr " x%(count)s"
+
+msgid "tooltips/selectedRewards/reward/separator"
+msgstr ", "
+
+msgid "tooltips/selectedRewards/title"
+msgstr "Rewards selected: %(white_open)s%(count)s%(white_close)s"

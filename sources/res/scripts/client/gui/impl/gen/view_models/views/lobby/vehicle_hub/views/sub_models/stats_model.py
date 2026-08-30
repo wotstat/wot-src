@@ -1,0 +1,48 @@
+from frameworks.wulf import Array, Map, ViewModel
+from gui.impl.gen.view_models.common.vehicle_mechanic_model import VehicleMechanicModel
+from gui.impl.gen.view_models.views.lobby.vehicle_hub.special_shell_param_model import SpecialShellParamModel
+from gui.impl.gen.view_models.views.lobby.vehicle_hub.special_vehicle_param_model import SpecialVehicleParamModel
+
+class StatsModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=3, commands=0):
+        super(StatsModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    @property
+    def specialMechanic(self):
+        return self._getViewModel(0)
+
+    @staticmethod
+    def getSpecialMechanicType():
+        return VehicleMechanicModel
+
+    def getSpecialMechanicParams(self):
+        return self._getArray(1)
+
+    def setSpecialMechanicParams(self, value):
+        self._setArray(1, value)
+        return
+
+    @staticmethod
+    def getSpecialMechanicParamsType():
+        return SpecialVehicleParamModel
+
+    def getShellParams(self):
+        return self._getMap(2)
+
+    def setShellParams(self, value):
+        self._setMap(2, value)
+        return
+
+    @staticmethod
+    def getShellParamsType():
+        return (unicode, SpecialShellParamModel)
+
+    def _initialize(self):
+        super(StatsModel, self)._initialize()
+        self._addViewModelProperty(b'specialMechanic', VehicleMechanicModel())
+        self._addArrayProperty(b'specialMechanicParams', Array())
+        self._addMapProperty(b'shellParams', Map(unicode, SpecialShellParamModel))
+        return

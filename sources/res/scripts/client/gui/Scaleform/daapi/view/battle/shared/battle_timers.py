@@ -1,0 +1,251 @@
+from __future__ import absolute_import
+import logging, SoundGroups, CommandMapping
+from constants import ARENA_GUI_TYPE
+from PlayerEvents import g_playerEvents
+from gui.Scaleform.daapi.view.meta.BattleTimerMeta import BattleTimerMeta
+from gui.Scaleform.daapi.view.meta.PrebattleTimerMeta import PrebattleTimerMeta
+from gui.Scaleform.genConsts.PREBATTLE_TIMER import PREBATTLE_TIMER
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.battle_control.battle_constants import COUNTDOWN_STATE
+from gui.battle_control.controllers.period_ctrl import IAbstractPeriodView
+from gui.shared import EVENT_BUS_SCOPE, events
+from helpers import dependency
+from skeletons.gameplay import IGameplayLogic, GameplayStateID
+from skeletons.gui.battle_session import IBattleSessionProvider
+from gui.shared.utils.key_mapping import getReadableKey
+
+class _WWISE_EVENTS(object):
+    BATTLE_ENDING_SOON = b'time_buzzer_02'
+    COUNTDOWN_TICKING = b'time_countdown'
+    STOP_TICKING = b'time_countdown_stop'
+    FLAG_APPEAR = b'pm_flag_appearance'
+    FLAG_DISAPPEAR = b'pm_flag_disappearance'
+
+
+_BATTLE_END_TIME = 0
+_logger = logging.getLogger(__name__)
+
+class PreBattleTimer(PrebattleTimerMeta):
+    __gameplayLogic = dependency.descriptor(IGameplayLogic)
+
+    def __init__(self):
+        self.__isPMBattleProgressEnabled = False
+        self.__isRankedBattle = False
+        self.__sounds = {}
+        self.__displayWinCondition = False
+        super(PreBattleTimer, self).__init__()
+        return
+
+    def _populate(self):
+        super(PreBattleTimer, self)._populate()
+        self.addListener(events.GameEvent.BATTLE_LOADING, self.__handleBattleLoading, EVENT_BUS_SCOPE.BATTLE)
+        self.__isRankedBattle = self.sessionProvider.arenaVisitor.getArenaGuiType() == ARENA_GUI_TYPE.RANKED
+        if not self.__isRankedBattle:
+            self.__isPMBattleProgressEnabled = self.lobbyContext.getServerSettings().isPMBattleProgressEnabled()
+            qProgressCtrl = self.sessionProvider.shared.questProgress
+            if qProgressCtrl is not None and self.__isPMBattleProgressEnabled:
+                qProgressCtrl.onFullConditionsUpdate += self._onPersonalQuestConditionsUpdate
+                qProgressCtrl.onQuestProgressInited += self._onPersonalQuestConditionsUpdate
+                if qProgressCtrl.isInited():
+                    self._onPersonalQuestConditionsUpdate()
+        CommandMapping.g_instance.onMappingChanged += self.__onMappingChanged
+        self.__onMappingChanged()
+        return
+
+    def onShowInfo(self):
+        self.__callWWISE(_WWISE_EVENTS.FLAG_APPEAR)
+        return
+
+    def onHideInfo(self):
+        self.__callWWISE(_WWISE_EVENTS.FLAG_DISAPPEAR)
+        return
+
+    def updateBattleCtx(self, battleCtx):
+        self._battleTypeStr = battleCtx.getArenaDescriptionString(isInBattle=False)
+        self.as_setMessageS(self._getMessage())
+        if self.__displayWinCondition:
+            self.as_setWinConditionTextS(self._getWinConditionText(battleCtx))
+        return
+
+    def _getWinConditionText(self, battleCtx):
+        return battleCtx.getArenaWinString()
+
+    def _onPersonalQuestConditionsUpdate(self, *args):
+        questProgress = self.sessionProvider.shared.questProgress
+        if questProgress.hasQuestsToPerform() and self.__displayWinCondition:
+            self.as_addInfoS(PREBATTLE_TIMER.QP_ANIM_FLAG_LINKAGE, questProgress.getQuestShortInfoData())
+        return
+
+    def __onMappingChanged(self, *args):
+        msg = b''
+        if self.__isPMBattleProgressEnabled and not self.__isRankedBattle:
+            msg = backport.text(R.strings.prebattle.battleProgress.hint(), hintKey=getReadableKey(CommandMapping.CMD_QUEST_PROGRESS_SHOW))
+        if msg:
+            self.as_setInfoHintS(msg)
+        return
+
+    def __callWWISE(self, wwiseEventName):
+        sound = SoundGroups.g_instance.getSound2D(wwiseEventName)
+        if sound is not None:
+            sound.play()
+            self.__sounds[wwiseEventName] = sound
+        return
+
+    def _dispose(self):
+        for sound in self.__sounds.values():
+            sound.stop()
+
+        self.__sounds.clear()
+        CommandMapping.g_instance.onMappingChanged -= self.__onMappingChanged
+        qProgressCtrl = self.sessionProvider.shared.questProgress
+        if qProgressCtrl is not None and self.__isPMBattleProgressEnabled:
+            qProgressCtrl.onFullConditionsUpdate -= self._onPersonalQuestConditionsUpdate
+            qProgressCtrl.onQuestProgressInited -= self._onPersonalQuestConditionsUpdate
+        self.removeListener(events.GameEvent.BATTLE_LOADING, self.__handleBattleLoading, scope=EVENT_BUS_SCOPE.BATTLE)
+        super(PreBattleTimer, self)._dispose()
+        return
+
+    def _onShowInfo(self, _=None, __=None):
+        pbhCtrl = self.sessionProvider.dynamic.prebattleHighlightsController
+        pbhShowing = pbhCtrl is not None and pbhCtrl.displayingHighlights
+        self.__displayWinCondition = not pbhShowing
+        battleCtx = self.sessionProvider.getCtx()
+        if battleCtx:
+            self.as_setWinConditionTextS(self._getWinConditionText(battleCtx))
+        self._onPersonalQuestConditionsUpdate()
+        self.__onMappingChanged()
+        self.as_showInfoS()
+        return
+
+    def _onPrebattleHighlightsStart(self, _=None):
+        super(PreBattleTimer, self)._onPrebattleHighlightsStart()
+        self.__displayWinCondition = False
+        self.as_setWinConditionTextS(b'')
+        self.as_setInfoHintS(b'')
+        self.__gameplayLogic.addOneshotObserver([
+         GameplayStateID.PREBATTLE], self, enterFn=PreBattleTimer._onShowInfo)
+        return
+
+    def __handleBattleLoading(self, event):
+        if not event.ctx[b'isShown']:
+            self._onShowInfo()
+        return
+
+
+class BattleTimer(BattleTimerMeta, IAbstractPeriodView):
+    sessionProvider = dependency.descriptor(IBattleSessionProvider)
+
+    def __init__(self):
+        super(BattleTimer, self).__init__()
+        self._isTicking = False
+        self.__state = COUNTDOWN_STATE.UNDEFINED
+        self.__roundLength = self.arenaVisitor.getRoundLength()
+        self.__endingSoonTime = self.arenaVisitor.type.getBattleEndingSoonTime()
+        self.__isDeathScreenShown = False
+        self.__endWarningIsEnabled = self.__checkEndWarningStatus()
+        self.__sounds = {}
+        return
+
+    def destroy(self):
+        for sound in self.__sounds.values():
+            sound.stop()
+
+        self.__sounds.clear()
+        super(BattleTimer, self).destroy()
+        return
+
+    @property
+    def arenaVisitor(self):
+        return self.sessionProvider.arenaVisitor
+
+    def getRoundLength(self):
+        return self.__roundLength
+
+    def setTotalTime(self, totalTime):
+        if self.__endWarningIsEnabled and self.__state == COUNTDOWN_STATE.STOP:
+            if _BATTLE_END_TIME < totalTime <= self.__endingSoonTime:
+                if not self._isTicking:
+                    self._startTicking()
+                if totalTime == self.__endingSoonTime:
+                    self._callWWISE(_WWISE_EVENTS.BATTLE_ENDING_SOON)
+            elif self._isTicking:
+                self.__stopTicking()
+        self._sendTime(totalTime)
+        return
+
+    def setState(self, state):
+        self.__state = state
+        return
+
+    def hideTotalTime(self):
+        self.as_showBattleTimerS(False)
+        return
+
+    def showTotalTime(self):
+        self.as_showBattleTimerS(True)
+        return
+
+    def _populate(self):
+        super(BattleTimer, self)._populate()
+        ctrl = self.sessionProvider.dynamic.deathScreen
+        if ctrl is not None:
+            ctrl.onShowDeathScreen += self.__onShowDeathScreen
+        g_playerEvents.onAvatarVehicleLeaveWorld += self.__onVehicleLeaveWorld
+        self._setColor()
+        self.showTotalTime()
+        return
+
+    def _dispose(self):
+        ctrl = self.sessionProvider.dynamic.deathScreen
+        if ctrl is not None:
+            ctrl.onShowDeathScreen -= self.__onShowDeathScreen
+        g_playerEvents.onAvatarVehicleLeaveWorld -= self.__onVehicleLeaveWorld
+        super(BattleTimer, self)._dispose()
+        return
+
+    def _sendTime(self, totalTime):
+        minutes, seconds = divmod(int(totalTime), 60)
+        self.as_setTotalTimeS((b'{:02d}').format(minutes), (b'{:02d}').format(seconds))
+        return
+
+    def _callWWISE(self, wwiseEventName):
+        sound = SoundGroups.g_instance.getSound2D(wwiseEventName)
+        if sound is not None:
+            sound.play()
+            self.__sounds[wwiseEventName] = sound
+        return
+
+    def _setColor(self):
+        self.as_setColorS(self._isTicking)
+        return
+
+    def _startTicking(self):
+        self._callWWISE(_WWISE_EVENTS.COUNTDOWN_TICKING)
+        self._isTicking = True
+        self._setColor()
+        return
+
+    def __stopTicking(self):
+        self._callWWISE(_WWISE_EVENTS.STOP_TICKING)
+        self._isTicking = False
+        self._setColor()
+        return
+
+    def __validateEndingSoonTime(self):
+        return 0 < self.__endingSoonTime < self.__roundLength
+
+    def __checkEndWarningStatus(self):
+        endingSoonTimeIsValid = self.__validateEndingSoonTime()
+        return self.arenaVisitor.isBattleEndWarningEnabled() and endingSoonTimeIsValid and not self.__isDeathScreenShown
+
+    def __onShowDeathScreen(self):
+        self.__isDeathScreenShown = True
+        self.__endWarningIsEnabled = self.__checkEndWarningStatus()
+        self.__stopTicking()
+        return
+
+    def __onVehicleLeaveWorld(self):
+        self.__isDeathScreenShown = False
+        self.__endWarningIsEnabled = self.__checkEndWarningStatus()
+        return

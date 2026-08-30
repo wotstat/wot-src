@@ -1,0 +1,188 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "buttons/buy"
+msgstr "PURCHASE"
+
+msgid "buttons/cancel"
+msgstr "Cancel"
+
+msgid "buttons/learn"
+msgstr "Study"
+
+msgid "buttons/postProgression/claim"
+msgstr "CLAIM"
+
+msgid "buttons/postProgression/hint"
+msgstr "GO TO POST-PROGRESSION"
+
+msgid "buttons/postProgression/howTo"
+msgstr "HOW TO GET"
+
+msgid "card/freeExp/additionalText"
+msgstr "{whiteSpanish_Start}Exchange rate:{whiteSpanish_End} %(freeXp) = %(xp)"
+
+msgid "card/freeExp/discountValue"
+msgstr "-%(discount)%"
+
+msgid "card/freeExp/mainText"
+msgstr "Applied to the selected crew member.\nAccelerates training of the current perk using Free XP."
+
+msgid "card/freeExp/title"
+msgstr "FREE EXPERIENCE"
+
+msgid "card/nationBook/additionalText"
+msgstr "• Perk efficiency: 100%\n• Specialization: %(vehicleName)."
+
+msgid "card/nationBook/mainText"
+msgstr "Applied to the whole crew.\nProvides each crew member with %(xp)"
+
+msgid "card/nationBook/title/brochure"
+msgstr "TRAINING BOOKLET (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/crewBook"
+msgstr "TRAINING MANUAL (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/nationBook/title/guide"
+msgstr "TRAINING GUIDE (&zwnbsp;%(nation)&zwnbsp;)"
+
+msgid "card/personalBook/additionalText"
+msgstr "Applied without restrictions."
+
+msgid "card/personalBook/mainText"
+msgstr "Applied to the selected crew member.\nProvides this crew member with %(xp)"
+
+msgid "card/personalBook/title"
+msgstr "PERSONAL TRAINING MANUAL"
+
+msgid "card/universalBook/additionalText"
+msgstr "• Perk efficiency: 100%\n• Specialization: %(vehicleName)."
+
+msgid "card/universalBook/mainText"
+msgstr "Applied to the whole crew.\nProvides each crew member with %(xp)"
+
+msgid "card/universalBook/title/universalBook"
+msgstr "UNIVERSAL MANUAL"
+
+msgid "card/universalBook/title/universalBrochure"
+msgstr "UNIVERSAL BOOKLET"
+
+msgid "card/universalBook/title/universalGuide"
+msgstr "UNIVERSAL GUIDE"
+
+msgid "confirm/crewLabel"
+msgstr "Each crew member will receive %(xpValue)"
+
+msgid "confirm/crewLabelSeparated"
+msgstr "Each crew member will receive %(xpValue), "
+
+msgid "confirm/personalExtraLabel"
+msgstr "%(memberName) will receive an additional %(xpValue)"
+
+msgid "confirm/personalLabel"
+msgstr "%(memberName) will receive %(xpValue)"
+
+msgid "confirm/postProgressionLabel"
+msgstr "Some crew members will receive %(xpValue)"
+
+msgid "items/brochure/Name"
+msgstr "Training Booklet (%(nation)s)"
+
+msgid "items/brochure/noNationName"
+msgstr "Training Booklet"
+
+msgid "items/brochure/noNationUppercaseName"
+msgstr "TRAINING BOOKLET"
+
+msgid "items/crewBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Crew XP to each crew member."
+
+msgid "items/crewBook/Name"
+msgstr "Training Manual (%(nation)s)"
+
+msgid "items/crewBook/noNationName"
+msgstr "Training Manual"
+
+msgid "items/crewBook/noNationUppercaseName"
+msgstr "TRAINING MANUAL"
+
+msgid "items/guide/Name"
+msgstr "Training Guide (%(nation)s)"
+
+msgid "items/guide/noNationName"
+msgstr "Training Guide"
+
+msgid "items/guide/noNationUppercaseName"
+msgstr "TRAINING GUIDE"
+
+msgid "items/personalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} experience to the selected crew member"
+
+msgid "items/personalBook/Name"
+msgstr "Personal Training Manual"
+
+msgid "items/universalBook/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} Crew XP to each crew member."
+
+msgid "items/universalBook/Name"
+msgstr "Universal Manual"
+
+msgid "items/universalBrochure/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} experience to each crew member."
+
+msgid "items/universalBrochure/Name"
+msgstr "Universal Booklet"
+
+msgid "items/universalGuide/Descr"
+msgstr "{expTagOpen}+%(exp)s{expTagClose} experience to each crew member."
+
+msgid "items/universalGuide/Name"
+msgstr "Universal Guide"
+
+msgid "page/mentoringLicense/hint"
+msgstr "GO TO MENTORING LICENSE"
+
+msgid "page/mentoringLicense/title"
+msgstr "MENTORING LICENSE"
+
+msgid "page/title"
+msgstr "QUICK TRAINING"
+
+msgid "tooltip/buyManual"
+msgstr "Purchase Training Manual"
+
+msgid "tooltip/mouseWheel"
+msgstr "Scroll {mouseIcon} to increase / decrease the number Crew Books."
+
+msgid "tooltip/outOfStock"
+msgstr "No Crew Books left"
+
+msgid "tooltip/outOfStockCanBuy"
+msgstr "No Crew Books left. Purchase these Crew Books in the Store."
+
+msgid "tooltip/personalBook/mainText"
+msgstr "Applied to the selected crew member. Provides this crew member with %(xp)s experience."
+
+msgid "tooltip/postProgression"
+msgstr "Go to Post-Progression"
+
+msgid "tooltip/sale/header"
+msgstr "Profitable Exchange Rate"
+
+msgid "tooltip/sale/newRate"
+msgstr "New exchange rate: %(freeXp) = %(xp)"
+
+msgid "tooltip/sale/oldRate"
+msgstr "Previous exchange rate: %(freeXp) = %(xp)"
+
+msgid "tooltip/stepper/levelUpdate"
+msgstr "Click %(controlsImg) to increase / decrease the perk training level by 1%."
+
+msgid "tooltip/stepper/perkUpdate"
+msgstr "Press %(pgupImg) / %(pgdownImg) to increase the perk training level to&nbsp;100% / go&nbsp;back to the previous perk."
+
+msgid "tooltip/universalBook/mainText"
+msgstr "Applied to the whole crew. Provides each crew member with %(xp)s experience."
+
+msgid "tooltip/universalGuide/mainText"
+msgstr "Applied to the whole crew. Provides each crew member with %(xp)s experience."

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<FeatureName>battle_modifiers</FeatureName>
+	<IsEnabled>true</IsEnabled>
+	<Personality>BattleModifiersPersonality</Personality>
+	<CommonPersonality>BattleModifiersPersonalityCommon</CommonPersonality>
+	<Entities></Entities>
+	<Components>
+		<StaticComponents></StaticComponents>
+		<DynamicComponents></DynamicComponents>
+	</Components>
+</root>

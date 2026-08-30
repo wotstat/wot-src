@@ -1,0 +1,356 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2013-05-07 15:00+0300\nPO-Revision-Date: 2013-05-07 15:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "battleProgress/hint"
+msgstr "Press %(hintKey)s to view active missions"
+
+msgid "buttons/battleSession/leave"
+msgstr "Leave"
+
+msgid "companyListView/filterButton/label"
+msgstr "Search"
+
+msgid "dialogs/buttons/notReady"
+msgstr "Not Ready"
+
+msgid "dialogs/buttons/ready"
+msgstr "Ready!"
+
+msgid "hints/confirmDialog/confirm"
+msgstr "Affirmative!"
+
+msgid "hints/confirmDialog/message"
+msgstr "You're on your way to pro tanker! From now on, battle loading screens will show team composition instead of beginner tips. You can always re-enable the tips in Settings in the Game Menu."
+
+msgid "hints/confirmDialog/title"
+msgstr "New Battle Loading Screens"
+
+msgid "hints/hint1/description"
+msgstr "Keep an eye on the penetration marker at the center of your gun reticle. Its color tells you where you can penetrate the enemy's armor."
+
+msgid "hints/hint1/green/description"
+msgstr "High penetration chance"
+
+msgid "hints/hint1/green/header"
+msgstr "Green marker"
+
+msgid "hints/hint1/header"
+msgstr "Armor Penetration"
+
+msgid "hints/hint1/red/description"
+msgstr "Low penetration chance"
+
+msgid "hints/hint1/red/header"
+msgstr "Red marker"
+
+msgid "hints/hint10/description"
+msgstr "Your vehicle's gun always traverses to the center of the screen, but its limited traverse speed means this can take some time."
+
+msgid "hints/hint10/header"
+msgstr "Gun Reticle"
+
+msgid "hints/hint10/penetration/description"
+msgstr "Green indicates weak spots in the enemy's armor"
+
+msgid "hints/hint10/penetration/header"
+msgstr "Penetration indicator"
+
+msgid "hints/hint10/reloading/description"
+msgstr "Green circle if fully loaded"
+
+msgid "hints/hint10/reloading/header"
+msgstr "Gun reloading progress"
+
+msgid "hints/hint10/spread/description"
+msgstr "Gun shots hit a random spot inside"
+
+msgid "hints/hint10/spread/header"
+msgstr "Gun dispersion circle"
+
+msgid "hints/hint12/description"
+msgstr "The amount of armor a shot must penetrate depends on the angle it hits at—the hit angle is a crucial factor affecting shot penetration!"
+
+msgid "hints/hint12/header"
+msgstr "Armor Angling"
+
+msgid "hints/hint12/notPenetrated/description"
+msgstr "Sliding angle—thicker armor"
+
+msgid "hints/hint12/notPenetrated/header"
+msgstr "Not penetrated"
+
+msgid "hints/hint12/penetrated/description"
+msgstr "Right angle—thinner armor"
+
+msgid "hints/hint12/penetrated/header"
+msgstr "Penetration"
+
+msgid "hints/hint13/description"
+msgstr "Radio communication between allies works automatically. If a vehicle is spotted by one enemy, it becomes visible to all enemies within their signal range."
+
+msgid "hints/hint13/header"
+msgstr "Communication"
+
+msgid "hints/hint13/invisible/description"
+msgstr "Hidden behind an object"
+
+msgid "hints/hint13/invisible/header"
+msgstr "Concealed"
+
+msgid "hints/hint13/visible/description"
+msgstr "Detected by an ally"
+
+msgid "hints/hint13/visible/header"
+msgstr "Spotted"
+
+msgid "hints/hint2/description"
+msgstr "You control a mighty vehicle, and its power comes at a cost. Your vehicle and turret traverse speeds are limited, so plan your movements carefully."
+
+msgid "hints/hint2/firing"
+msgstr "Firing"
+
+msgid "hints/hint2/freeCam"
+msgstr "Free camera"
+
+msgid "hints/hint2/header"
+msgstr "Vehicle Controls"
+
+msgid "hints/hint2/movement"
+msgstr "Movement"
+
+msgid "hints/hint2/turret"
+msgstr "Turret traverse"
+
+msgid "hints/hint3/description"
+msgstr "You can enter Sniper mode by scrolling your mouse wheel or pressing the Shift button."
+
+msgid "hints/hint3/header"
+msgstr "Sniper Mode"
+
+msgid "hints/hint3/orLabel"
+msgstr "or"
+
+msgid "hints/hint4/description"
+msgstr "Damaging external modules does not cause a vehicle to lose hit points, but does reduce its battle performance."
+
+msgid "hints/hint4/header"
+msgstr "Critical Damage"
+
+msgid "hints/hint4/immobilized/description"
+msgstr "Critical chassis damage"
+
+msgid "hints/hint4/immobilized/header"
+msgstr "Immobilized"
+
+msgid "hints/hint4/shooting/description"
+msgstr "Critical gun damage"
+
+msgid "hints/hint4/shooting/header"
+msgstr "Unable to fire"
+
+msgid "hints/hint4/view/description"
+msgstr "Critical damage to surveillance devices"
+
+msgid "hints/hint4/view/header"
+msgstr "Reduced view range"
+
+msgid "hints/hint5/aid/description"
+msgstr "Treats crew members"
+
+msgid "hints/hint5/aid/header"
+msgstr "First Aid Kit"
+
+msgid "hints/hint5/description"
+msgstr "Equip your vehicle before a battle to deal with critical module damage, crew injuries, and fire."
+
+msgid "hints/hint5/fire/description"
+msgstr "Extinguishes fire"
+
+msgid "hints/hint5/fire/header"
+msgstr "Fire Extinguisher"
+
+msgid "hints/hint5/header"
+msgstr "Consumables"
+
+msgid "hints/hint5/repair/description"
+msgstr "Repairs damaged modules"
+
+msgid "hints/hint5/repair/header"
+msgstr "Repair Kit"
+
+msgid "hints/hint6/area"
+msgstr "Moving across open terrain"
+
+msgid "hints/hint6/description"
+msgstr "A vehicle only becomes spotted if it stays within an enemy's view range. Foliage, terrain, and objects provide additional concealment."
+
+msgid "hints/hint6/header"
+msgstr "Concealment"
+
+msgid "hints/hint6/invisible"
+msgstr "Concealed"
+
+msgid "hints/hint6/object"
+msgstr "Hidden behind an object"
+
+msgid "hints/hint6/shot"
+msgstr "Spotted after firing"
+
+msgid "hints/hint6/vegetation"
+msgstr "Hidden by vegetation"
+
+msgid "hints/hint6/visible"
+msgstr "Spotted"
+
+msgid "hints/hint7/base"
+msgstr "Enemy base captured"
+
+msgid "hints/hint7/description"
+msgstr "There are multiple ways to victory. Act according to the situation."
+
+msgid "hints/hint7/header"
+msgstr "Victory Conditions"
+
+msgid "hints/hint7/orLabel"
+msgstr "OR"
+
+msgid "hints/hint7/vehicles"
+msgstr "All enemy vehicles destroyed"
+
+msgid "hints/hint7/victory"
+msgstr "Victory!"
+
+msgid "hints/hint8/description"
+msgstr "A vehicle's gun has higher dispersion on the move. Stay still, watch the gun dispersion circle around the reticle, and shoot when fully aimed."
+
+msgid "hints/hint8/header"
+msgstr "Gun Dispersion"
+
+msgid "hints/hint8/high"
+msgstr "35 km/h"
+
+msgid "hints/hint8/low"
+msgstr "0 km/h"
+
+msgid "hints/hint9/description"
+msgstr "In some positions, your gun's angle limitations may prevent you from aiming at the enemy."
+
+msgid "hints/hint9/header"
+msgstr "Gun Depression and Elevation Angles"
+
+msgid "hints/loading"
+msgstr "Loading"
+
+msgid "hints/manual"
+msgstr "More in the Training Center in the Game Menu"
+
+msgid "hints/skip"
+msgstr "Press any key to enter the battle"
+
+msgid "labels/company/queue"
+msgstr "Queue:"
+
+msgid "labels/level"
+msgstr "Tier"
+
+msgid "labels/members"
+msgstr "Members: %(openTag)s%(membersCount)d%(closeTag)s / %(maxMembersCount)d"
+
+msgid "labels/player"
+msgstr "Player"
+
+msgid "labels/sort/byName"
+msgstr "By name"
+
+msgid "labels/sort/byOrder"
+msgstr "By time added"
+
+msgid "labels/sort/byStatus"
+msgstr "By readiness"
+
+msgid "labels/sort/byVehicles"
+msgstr "By vehicle type"
+
+msgid "labels/stats/level"
+msgstr "Level:"
+
+msgid "labels/stats/maxPlayers"
+msgstr "Players:"
+
+msgid "labels/stats/sumLevel"
+msgstr "Total Tier:"
+
+msgid "labels/stats/totalLevel"
+msgstr "Total Tier: %(totalLevel)s"
+
+msgid "labels/stats/vehicleLevel"
+msgstr "Max vehicle Tier:"
+
+msgid "labels/stats/vehicleSPGLevel"
+msgstr "Max SPG Tier:"
+
+msgid "labels/vehicle"
+msgstr "Vehicle"
+
+msgid "memberList/empty/label"
+msgstr "Select players from the queue and transfer them to the regular team."
+
+msgid "stats/battleSession/commonLevel"
+msgstr "Tier:"
+
+msgid "stats/battleSession/required"
+msgstr "Required:"
+
+msgid "stats/battleSession/vehicleType"
+msgstr "Type:"
+
+msgid "switchPeripheryWindow/fort/applySwitchLabel"
+msgstr "To plan and engage in Skirmishes, transfer to the %(server)s server."
+
+msgid "switchPeripheryWindow/fort/description"
+msgstr "You are currently connected to the %(server)s server. Skirmish restrictions are currently active on this server."
+
+msgid "switchPeripheryWindow/fort/header"
+msgstr "Attention!"
+
+msgid "switchPeripheryWindow/fort/selectServerLabel"
+msgstr "To plan and engage in Skirmishes, transfer to another server:"
+
+msgid "switchPeripheryWindow/ranked/applySwitchLabel"
+msgstr "To play in the Ranked Battle mode, please select another server."
+
+msgid "switchPeripheryWindow/ranked/description"
+msgstr "Ceasefire is now in effect on the %(server)s server. Ranked Battles are unavailable."
+
+msgid "switchPeripheryWindow/ranked/header"
+msgstr "Attention!"
+
+msgid "switchPeripheryWindow/ranked/selectServerLabel"
+msgstr "To play in the Ranked Battle mode, please select another server:"
+
+msgid "title/battleSession/arenaType"
+msgstr "Map:"
+
+msgid "title/battleSession/battlesLimit"
+msgstr "Battles/Victories:"
+
+msgid "title/battleSession/clanBattle/startTime"
+msgstr "%(startTime)s, %(peripheryName)s, %(arenaName)s"
+
+msgid "title/battleSession/comment"
+msgstr "Description:"
+
+msgid "title/battleSession/header/battleSettings"
+msgstr "Battle Settings:"
+
+msgid "title/battleSession/header/startTime"
+msgstr "Battle starts in:"
+
+msgid "title/battleSession/startTime"
+msgstr "Starting time:"
+
+msgid "title/battleSession/unit"
+msgstr "Company"
+
+msgid "upButton/hint"
+msgstr "Click to join"

@@ -1,0 +1,133 @@
+from __future__ import absolute_import
+import binascii, logging, struct
+from collections import namedtuple
+from future.utils import viewitems
+from CurrentVehicle import g_currentVehicle
+from constants import EVENT_TYPE
+from gui.Scaleform.locale.TOOLTIPS import TOOLTIPS
+from gui.impl import backport
+from gui.impl.gen import R
+from gui.server_events import formatters
+from gui.server_events.events_helpers import MISSIONS_STATES
+from helpers import dependency
+from helpers import int2roman
+from helpers.i18n import makeString as _ms
+from gui.shared.system_factory import collectCustomizationHangarDecorator
+from skeletons.gui.shared import IItemsCache
+_logger = logging.getLogger(__name__)
+
+def makeEventID(itemIntCD, vehicleIntCD):
+    return binascii.hexlify(struct.pack(b'II', itemIntCD, vehicleIntCD))
+
+
+def parseEventID(eventID):
+    return struct.unpack(b'II', binascii.unhexlify(eventID))
+
+
+@dependency.replace_none_kwargs(itemsCache=IItemsCache)
+def getProgressionPostBattleInfo(itemIntCD, vehicleIntCD, progressionData, itemsCache=None):
+    vehicle = itemsCache.items.getItemByCD(vehicleIntCD)
+    item = itemsCache.items.getItemByCD(itemIntCD)
+    level = progressionData.get(b'level')
+    if level is None:
+        return
+    else:
+        progress = progressionData.get(b'progress')
+        inProgress = progress is not None
+        if level > 1:
+            statusTooltip = backport.text(R.strings.tooltips.quests.status.customizationProgression.done(), name=item.userName, level=int2roman(level))
+        else:
+            statusTooltip = backport.text(R.strings.tooltips.quests.status.customizationProgression.doneFirst(), name=item.userName)
+        questInfo = {b'questID': (makeEventID(itemIntCD, vehicleIntCD)), 
+           b'eventType': (EVENT_TYPE.C11N_PROGRESSION), 
+           b'status': (MISSIONS_STATES.IN_PROGRESS if inProgress else MISSIONS_STATES.COMPLETED), 
+           b'description': (backport.text(R.strings.battle_results.customizationProgress.descr(), level=int2roman(level + 1) if inProgress else int2roman(level), name=item.userName)), 
+           b'statusTooltip': statusTooltip}
+        isLinkEnabled, linkBtnTooltip = getC11nProgressionLinkBtnParams(vehicle)
+        info = {b'questInfo': questInfo, 
+           b'linkBtnEnabled': isLinkEnabled, 
+           b'linkBtnTooltip': (backport.text(linkBtnTooltip))}
+        if inProgress:
+            info[b'progressList'] = __makeProgressList(item, level, progressionData)
+        else:
+            info[b'awards'] = __makeAwardsVO(item, level, vehicleIntCD)
+        return info
+
+
+def getProgressiveCustomizationProgress(reusable):
+    items = []
+    for vehicleIntCD, c11nProgression in viewitems(reusable.personal.getC11nProgress()):
+        for intCD, progressionData in sorted(viewitems(c11nProgression), key=(lambda it: -it[1].get(b'level', 0))):
+            info = getProgressionPostBattleInfo(intCD, vehicleIntCD, progressionData)
+            if info is not None:
+                items.append(info)
+
+    return items
+
+
+C11nProgressionLinkBtnParams = namedtuple(b'C11nProgressionLinkBtnParams', (b'isLinkEnabled', b'linkBtnTooltip'))
+
+def getC11nProgressionLinkBtnParams(vehicle):
+    isLinkEnabled = vehicle.isCustomizationEnabled() if vehicle is not None else False
+    if any(handler() for handler in collectCustomizationHangarDecorator()):
+        isLinkEnabled = False
+    linkBtnTooltip = R.strings.tooltips.quests.linkBtn.customizationProgression
+    linkBtnTooltip = linkBtnTooltip.enabled() if isLinkEnabled else linkBtnTooltip.disabled()
+    return C11nProgressionLinkBtnParams(isLinkEnabled, linkBtnTooltip)
+
+
+def getC11n2dProgressionLinkBtnParams():
+    return getC11nProgressionLinkBtnParams(g_currentVehicle.item)
+
+
+def __makeAwardsVO(item, level, vehicleIntCD):
+    count = item.descriptor.progression.autoGrantCount
+    if count < 1:
+        return []
+    if level > 1:
+        bonusDesc = backport.text(R.strings.battle_results.customizationProgress.award.newLevel(), name=item.userName, level=level)
+    else:
+        bonusDesc = backport.text(R.strings.battle_results.customizationProgress.award.received(), name=item.userName, count=backport.text(R.strings.vehicle_customization.elementBonus.factor(), count=count))
+    award = {b'intCD': (item.intCD), 
+       b'texture': (item.icon), 
+       b'value': count, 
+       b'showPrice': False, 
+       b'description': bonusDesc, 
+       b'vehicleIntCD': vehicleIntCD}
+    return formatters.todict([formatters.packCustomizations([award])])
+
+
+def __makeProgressList(item, level, progressionData):
+    progressList = []
+    conditions = item.progressionConditions[level + 1].get(b'conditions', {})
+    for path, (diff, progress) in viewitems(progressionData[b'progress']):
+        idx = 1
+        condition = None
+        for c in conditions:
+            if c[b'path'] == path:
+                condition = c
+                break
+            idx += 1
+
+        if condition is None:
+            _logger.warning(b'Invalid condition path: %s for item: %s of level: %s', path, item, level)
+            continue
+        maxProgress = float(condition[b'value'])
+        diff -= max(0, progress - maxProgress)
+        if diff <= 0:
+            continue
+        progress = min(progress, maxProgress)
+        diff = min(diff, progress)
+        progressList.append(__makeProgressVO(conditionId=idx, description=condition[b'description'], maxProgress=condition[b'value'], currentProgress=progress, progressDiff=diff))
+
+    return progressList
+
+
+def __makeProgressVO(conditionId, description, maxProgress, currentProgress, progressDiff):
+    return {b'progrTooltip': None, 
+       b'progrBarType': (formatters.PROGRESS_BAR_TYPE.SIMPLE), 
+       b'maxProgrVal': (float(maxProgress)), 
+       b'currentProgrVal': (float(currentProgress)), 
+       b'description': ((b'{}. {}').format(conditionId, _ms(description))), 
+       b'progressDiff': ((b'+ {}').format(backport.getIntegralFormat(progressDiff))), 
+       b'progressDiffTooltip': (TOOLTIPS.QUESTS_PROGRESS_EARNEDINBATTLE)}

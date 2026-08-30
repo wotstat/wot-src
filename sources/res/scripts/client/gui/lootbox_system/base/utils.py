@@ -1,0 +1,235 @@
+from __future__ import absolute_import
+import logging, random
+from future.utils import viewitems, viewvalues
+from typing import TYPE_CHECKING
+import BigWorld
+from CurrentVehicle import g_currentVehicle
+from account_helpers.AccountSettings import LOOT_BOXES_OPEN_ANIMATION_ENABLED
+from adisp import adisp_async, adisp_process
+from constants import REROLL_STOP_TOKEN_PREFIX
+from gui import GUI_SETTINGS, SystemMessages
+from gui.Scaleform.daapi.view.lobby.store.browser.shop_helpers import getShopURL
+from gui.impl import backport
+from gui.lootbox_system.base.awards_manager import AwardsManager
+from gui.lootbox_system.base.common import COUNTRY_CODES_FOR_EXTERNAL_LOOT_LIST, REROLLABLE_BOX_OPEN_COUNT, getTextResource
+from gui.shared import EVENT_BUS_SCOPE, events, g_eventBus
+from gui.shared.gui_items.processors.loot_boxes import LootBoxSystemOpenProcessor, AcceptLootBoxRerollProcessor, RerollLootBoxProcessor
+from gui.shared.notifications import NotificationPriorityLevel
+from gui.shared.utils.requesters import REQ_CRITERIA
+from helpers import dependency
+from shared_utils import findFirst, first
+from skeletons.gui.game_control import ILootBoxSystemController
+from skeletons.gui.shared import IItemsCache
+if TYPE_CHECKING:
+    from typing import Callable, List, Tuple
+    from gui.shared.gui_items.customization.c11n_items import Style
+    from gui.shared.gui_items.loot_box import LootBox
+    from gui.server_events.bonuses import SimpleBonus
+    from gui.shared.gui_items.Vehicle import Vehicle
+_logger = logging.getLogger(__name__)
+
+@adisp_process
+@dependency.replace_none_kwargs(lootBoxes=ILootBoxSystemController)
+def openBoxes(eventName, category, count, processResult=None, lootBoxes=None, isReroll=False):
+    box = lootBoxes.getBox(eventName, category)
+    if box is not None:
+        if box.isRerollable():
+            if count != REROLLABLE_BOX_OPEN_COUNT:
+                _logger.error(b'Tried to open %d rerollable boxes at once', count)
+                _pushOpeningErrorEvent()
+                return
+            if not isReroll and lootBoxes.getPendingRerollRewards(eventName, category) is not None:
+                success = yield acceptRerollableBoxRewards(eventName, category)
+                if not success:
+                    _pushOpeningErrorEvent()
+                    return
+            _openRerollableBox(eventName, category, processResult)
+        else:
+            result = yield LootBoxSystemOpenProcessor(box, count).request()
+            if result is not None and result.success:
+                if callable(processResult):
+                    processResult([AwardsManager.composeBonuses(eventName, [slot]) for slot in result.auxData[b'bonus']])
+            else:
+                _logger.error(b'Failed to open loot box')
+                _pushOpeningErrorEvent()
+    else:
+        pathParts = [
+         b'serviceChannelMessages', b'server_error']
+        SystemMessages.pushMessage(text=backport.text(getTextResource(pathParts + [b'DISABLED'], eventName)()), type=SystemMessages.SM_TYPE.ErrorSimple, priority=NotificationPriorityLevel.MEDIUM)
+        _pushOpeningErrorEvent()
+    return
+
+
+@adisp_process
+def _openRerollableBox(eventName, category, processResult=None):
+    result = yield RerollLootBoxProcessor(eventName, category).request()
+    if result is None:
+        _pushOpeningErrorEvent()
+        return
+    else:
+        if not result.success or result.userMsg:
+            SystemMessages.pushMessage(result.userMsg, type=result.sysMsgType, priority=result.msgPriority, messageData=result.msgData)
+        if result.success:
+            rewardsResult = result.auxData.get(b'rewardsResult')
+            if rewardsResult is not None:
+                SystemMessages.pushMessagesFromResult(rewardsResult)
+            if callable(processResult):
+                processResult([
+                 AwardsManager.composeBonuses(eventName, [result.auxData[b'rewards']])])
+        else:
+            _pushOpeningErrorEvent()
+        return
+
+
+def _pushOpeningErrorEvent():
+    g_eventBus.handleEvent(events.LootBoxSystemEvent(events.LootBoxSystemEvent.OPENING_ERROR), scope=EVENT_BUS_SCOPE.LOBBY)
+    return
+
+
+@adisp_async
+@adisp_process
+def acceptRerollableBoxRewards(eventName, category, callback):
+    success = False
+    result = yield AcceptLootBoxRerollProcessor(eventName, category).request()
+    if result is not None:
+        if not result.success or result.userMsg:
+            SystemMessages.pushMessage(result.userMsg, type=result.sysMsgType, priority=result.msgPriority, messageData=result.msgData)
+        success = result.success
+    callback(success)
+    return
+
+
+@dependency.replace_none_kwargs(lootBoxes=ILootBoxSystemController)
+def getPreferredBox(eventName, category=b'', lootBoxes=None):
+    if category:
+        return first(lootBoxes.getBoxes(eventName, (lambda b: b.getCategory() == category)))
+    return first(lootBoxes.getActiveBoxes(eventName, (lambda b: b.getInventoryCount()))) or first(lootBoxes.getActiveBoxes(eventName))
+
+
+def getSystemSettings(setting):
+    return GUI_SETTINGS.lootboxSystem.get(setting) or {}
+
+
+def getInfoPageSettings(eventName, setting):
+    settings = getSystemSettings(b'infoPage').get(setting) or {}
+    eventSetting = settings.get(eventName)
+    if eventSetting is not None:
+        return eventSetting
+    else:
+        return settings.get(b'default')
+
+
+def getIsShowIntro(eventName):
+    visibilitySettings = getSystemSettings(b'intro').get(b'isShowIntro') or {}
+    if visibilitySettings.get(eventName) is None:
+        return visibilitySettings.get(b'default', True)
+    else:
+        return visibilitySettings.get(eventName)
+
+
+def getIntroVideoUrl(eventName):
+    urlSettings = getSystemSettings(b'intro').get(b'introUrl') or {}
+    urlPart = urlSettings.get(eventName) if urlSettings.get(eventName) is not None else urlSettings.get(b'default', b'')
+    if urlPart:
+        return (b'').join((GUI_SETTINGS.baseUrls[b'webBridgeRootURL'], urlPart))
+    else:
+        return b''
+
+
+def getIsStartFinishNotificationsVisible(eventName):
+    notificationSettings = getSystemSettings(b'isStartFinishNotificationsVisible') or {}
+    if notificationSettings.get(eventName) is None:
+        return notificationSettings.get(b'default', True)
+    else:
+        return notificationSettings.get(eventName)
+
+
+@dependency.replace_none_kwargs(lootBoxes=ILootBoxSystemController)
+def getOpeningOptions(eventName, category, lootBoxes=None):
+    box = lootBoxes.getBox(eventName, category)
+    if box is None or box.isRerollable():
+        return (REROLLABLE_BOX_OPEN_COUNT,)
+    else:
+        options = getSystemSettings(b'openingOptions').get(eventName)
+        return tuple(options if options is not None else getSystemSettings(b'openingOptions').get(b'default', [1, 5]))
+
+
+def getShopOverlayUrl(eventName):
+    urls = getSystemSettings(b'shop').get(b'overlayUrl') or {}
+    urlPart = urls.get(eventName) if urls.get(eventName) is not None else urls.get(b'default', b'')
+    return getShopURL() + urlPart
+
+
+def isShopVisible(eventName):
+    shopVisibility = getSystemSettings(b'shop').get(b'isShopVisible') or {}
+    if shopVisibility.get(eventName) is None:
+        return shopVisibility.get(b'default', True)
+    else:
+        return shopVisibility.get(eventName)
+
+
+def isCountryForShowingExternalLootList():
+    return BigWorld.player().spaFlags.getCountry() in COUNTRY_CODES_FOR_EXTERNAL_LOOT_LIST
+
+
+def openExternalLootList():
+    if isCountryForShowingExternalLootList():
+        g_eventBus.handleEvent(events.OpenLinkEvent(events.OpenLinkEvent.LOOT_BOXES_LIST))
+    return
+
+
+@dependency.replace_none_kwargs(lootBoxes=ILootBoxSystemController)
+def getIsAnimationActive(eventName, lootBoxes=None):
+    return lootBoxes.getSetting(eventName, LOOT_BOXES_OPEN_ANIMATION_ENABLED)
+
+
+@dependency.replace_none_kwargs(lootBoxes=ILootBoxSystemController)
+def setIsAnimationActive(eventName, value, lootBoxes=None):
+    lootBoxes.setSetting(eventName, LOOT_BOXES_OPEN_ANIMATION_ENABLED, value)
+    return
+
+
+@dependency.replace_none_kwargs(itemsCache=IItemsCache)
+def getLootboxStatisticsKey(eventName, boxID=None, itemsCache=None):
+    box = findFirst((lambda b: b.getID() == boxID), viewvalues(itemsCache.items.tokens.getLootBoxes()))
+    if box is not None:
+        return box.getStatsName() or str(boxID)
+    else:
+        return getPreferredBox(eventName).getStatsName()
+
+
+@dependency.replace_none_kwargs(itemsCache=IItemsCache)
+def getVehicleForStyle(style, itemsCache=None):
+    vehicle = g_currentVehicle.item if g_currentVehicle.isPresent() else None
+    if vehicle is not None and not vehicle.descriptor.type.isCustomizationLocked and style.mayInstall(vehicle):
+        return vehicle
+    else:
+        getVehicleByCD = itemsCache.items.getItemByCD
+        getVehiclesStats = itemsCache.items.getAccountDossier().getRandomStats().getVehicles
+        vehiclesStats = {vehicleCD: value for vehicleCD, value in viewitems(getVehiclesStats()) if not getVehicleByCD(vehicleCD).descriptor.type.isCustomizationLocked and style.mayInstall(getVehicleByCD(vehicleCD))}
+        if vehiclesStats:
+            sortedVehicles = sorted(vehiclesStats.items(), key=(lambda vStat: vStat[1].battlesCount), reverse=True)
+            if sortedVehicles:
+                return getVehicleByCD(sortedVehicles[0][0])
+        suitableVehicles = _getVehiclesForStylePreview(criteria=REQ_CRITERIA.INVENTORY | ~REQ_CRITERIA.VEHICLE.IS_OUTFIT_LOCKED | REQ_CRITERIA.VEHICLE.FOR_ITEM(style))
+        if suitableVehicles:
+            return first(suitableVehicles)
+        suitableVehicles = _getVehiclesForStylePreview(criteria=~REQ_CRITERIA.INVENTORY | ~REQ_CRITERIA.VEHICLE.IS_OUTFIT_LOCKED | REQ_CRITERIA.VEHICLE.FOR_ITEM(style) | ~REQ_CRITERIA.VEHICLE.EVENT)
+        if suitableVehicles:
+            return random.choice(suitableVehicles)
+        return first(_getVehiclesForStylePreview(criteria=REQ_CRITERIA.VEHICLE.FOR_ITEM(style)))
+
+
+@dependency.replace_none_kwargs(itemsCache=IItemsCache)
+def _getVehiclesForStylePreview(criteria=None, itemsCache=None):
+    return sorted(itemsCache.items.getVehicles(criteria=criteria).values(), key=(lambda item: item.level), reverse=True)
+
+
+def hasStopRerollToken(bonuses):
+    for bonus in bonuses:
+        if bonus.getName() == b'battleToken':
+            for tokenID in bonus.getTokens():
+                if tokenID.startswith(REROLL_STOP_TOKEN_PREFIX):
+                    return True
+
+    return False

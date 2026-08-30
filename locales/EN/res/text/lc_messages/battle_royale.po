@@ -1,0 +1,926 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=2; plural=(n != 1);"
+
+msgid "alertMessage/ceasefireAllServers"
+msgstr "Ceasefire is in effect on all available servers."
+
+msgid "alertMessage/ceasefireCurrentServer"
+msgstr "Ceasefire is in effect on this server."
+
+msgid "alertMessage/changeServerButton"
+msgstr "Change server"
+
+msgid "alertMessage/modeIsFinished"
+msgstr "Steel Hunter has ended"
+
+msgid "alertMessage/modeIsUnavailable"
+msgstr "Mode unavailable on this server"
+
+msgid "banner/info/disabled"
+msgstr "Ceasefire"
+
+msgid "banner/info/seasonActive"
+msgstr "Second chance and rewards"
+
+msgid "banner/seasonDate/seasonLasts"
+msgstr "Until %(month)s %(day)s"
+
+msgid "banner/subtitle"
+msgstr "Battle royale with valuable rewards"
+
+msgid "banner/timeLeft/hour"
+msgstr "%(hour)s h"
+
+msgid "banner/timeLeft/hours"
+msgstr "%(hours)s h %(minutes)s min"
+
+msgid "banner/timeLeft/minutes"
+msgstr "%(minutes)s min"
+
+msgid "banner/timer/lessOneMin"
+msgstr "<1"
+
+msgid "banner/title"
+msgstr "STEEL HUNTER"
+
+msgid "battle/respawnMessagePanel/respawnActivated/description"
+msgstr "The battle will continue from a new position."
+
+msgid "battle/respawnMessagePanel/respawnActivated/title"
+msgstr "You Will Respawn Soon"
+
+msgid "battle/respawnMessagePanel/respawnActivatedSquad/title"
+msgstr "Respawning"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/description"
+msgstr "There will not be a second chance."
+
+msgid "battle/respawnMessagePanel/respawnNotAvailable/title"
+msgstr "Respawn Is No Longer Available"
+
+msgid "battle/respawnMessagePanel/respawnNotAvailableSoon/title"
+msgstr "Respawn Will Soon Become Unavailable!"
+
+msgid "battle/respawnMessagePanel/respawned/description"
+msgstr "Be more careful this time."
+
+msgid "battle/respawnMessagePanel/respawned/title"
+msgstr "Your Vehicle Is Ready for Battle!"
+
+msgid "battle/respawnMessagePanel/returnToBattle/title"
+msgstr "Returning to Battle"
+
+msgid "battle/respawnMessagePanel/squad/inBattle/description"
+msgstr "Active fighting is underway."
+
+msgid "battle/respawnMessagePanel/squad/inBattle/title"
+msgstr "Respawn Unavailable"
+
+msgid "battle/respawnMessagePanel/squad/pickUp/description"
+msgstr "Find a Respawn charge to return it to action."
+
+msgid "battle/respawnMessagePanel/squad/pickUp/title"
+msgstr "Allied Vehicle Destroyed"
+
+msgid "battle/respawnMessagePanel/squad/respawning/title"
+msgstr "Respawning"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/description"
+msgstr "Two vehicles are better than one!"
+
+msgid "battle/respawnMessagePanel/squad/squadmanRespawned/title"
+msgstr "Allied Vehicle Respawned"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/description"
+msgstr "Stay out of combat!"
+
+msgid "battle/respawnMessagePanel/squad/stayInCover/title"
+msgstr "Respawning Ally"
+
+msgid "battle/winnerCongratulationsView/bonusActivated"
+msgstr "Bonus activated!"
+
+msgid "battle/winnerCongratulationsView/bonusForFirstPlace"
+msgstr "Reward for first place"
+
+msgid "battle/winnerCongratulationsView/colected"
+msgstr "Collected in battle"
+
+msgid "battle/winnerCongratulationsView/title"
+msgstr "VICTORY"
+
+msgid "battleResult/battlePassWidget/chapterNotChosen"
+msgstr "Chapter not selected. Unspent Battle Pass Points: %(points)s%(icon)s"
+
+msgid "battleResult/battlePassWidget/progressionCompleted"
+msgstr "All Chapters completed. Continue playing and accumulate Battle Pass Points."
+
+msgid "battleResult/battlePassWidget/submit"
+msgstr "Go to Battle Pass"
+
+msgid "battleResult/battlePassWidget/title"
+msgstr "Battle Pass"
+
+msgid "battleResult/battlePassWidget/tooltips/chapterNotChosen"
+msgstr "Select a Chapter"
+
+msgid "battleResult/battlePassWidget/tooltips/inProgress"
+msgstr "Go to the progression of the active Chapter"
+
+msgid "battleResult/battlePassWidget/tooltips/progressionCompleted"
+msgstr "Go to Battle Pass"
+
+msgid "battleResult/battleQuestsWidget/questsComplete"
+msgstr "Missions completed per battle: {count}"
+
+msgid "battleResult/battleQuestsWidget/title"
+msgstr "Missions"
+
+msgid "battleResult/battleReward/title"
+msgstr "RECEIVED FOR BATTLE"
+
+msgid "battleResult/button/hangar"
+msgstr "To Garage"
+
+msgid "battleResult/inBattle/rewardWarning"
+msgstr "Points and rewards will be distributed after all players finish this battle. Missions will also be evaluated based on battle results."
+
+msgid "battleResult/inBattle/skipAnim/esc"
+msgstr "[ESC]"
+
+msgid "battleResult/inBattle/skipAnim/text"
+msgstr "Press %(esc) to skip animation"
+
+msgid "battleResult/playerBattleTypeStatus/button/text"
+msgstr "Invite to Platoon"
+
+msgid "battleResult/playerBattleTypeStatus/clan/"
+msgstr "[%(clanAbbrev)s]"
+
+msgid "battleResult/playerBattleTypeStatus/header/platoon"
+msgstr "Ally"
+
+msgid "battleResult/playerBattleTypeStatus/header/randomPlatoon"
+msgstr "Random Ally"
+
+msgid "battleResult/playerBattleTypeStatus/header/solo"
+msgstr "Battle Type"
+
+msgid "battleResult/playerBattleTypeStatus/text/solo"
+msgstr "SOLO BATTLE"
+
+msgid "battleResult/premiumRewards/title"
+msgstr "With WoT Premium Account, you could receive:"
+
+msgid "battleResult/premiumRewards/tooltip"
+msgstr "Total values with WoT Premium Account"
+
+msgid "battleResult/progressStage"
+msgstr "Stage {stage} progress"
+
+msgid "battleResult/stats/anonymizer/body"
+msgstr "Player's actual nickname and clan tag are not displayed to other players in the battle."
+
+msgid "battleResult/stats/anonymizer/enemy/header"
+msgstr "Player's actual nickname: {name}"
+
+msgid "battleResult/stats/anonymizer/header"
+msgstr "Player's actual nickname was changed to {name}"
+
+msgid "battleResult/stats/body/damageBlockedByArmor"
+msgstr "The amount of damage blocked by your vehicle's armor."
+
+msgid "battleResult/stats/body/damageDealt"
+msgstr "The amount of damage caused by you."
+
+msgid "battleResult/stats/body/kills"
+msgstr "The number of enemy vehicles destroyed by you."
+
+msgid "battleResult/stats/body/place"
+msgstr "Your position based on battle results."
+
+msgid "battleResult/stats/body/squadKills"
+msgstr "The number of enemy vehicles destroyed by your Platoon."
+
+msgid "battleResult/stats/header/damageBlockedByArmor"
+msgstr "Blocked Damage"
+
+msgid "battleResult/stats/header/damageDealt"
+msgstr "Caused Damage"
+
+msgid "battleResult/stats/header/kills"
+msgstr "Destroyed by You"
+
+msgid "battleResult/stats/header/place"
+msgstr "Position"
+
+msgid "battleResult/stats/header/squadKills"
+msgstr "Destroyed by Platoon"
+
+msgid "battleResult/stats/title/damageBlockedByArmor"
+msgstr "Blocked Damage"
+
+msgid "battleResult/stats/title/damageDealt"
+msgstr "Caused Damage"
+
+msgid "battleResult/stats/title/kills"
+msgstr "Destroyed by You"
+
+msgid "battleResult/stats/title/place"
+msgstr "Position"
+
+msgid "battleResult/stats/title/squadKills"
+msgstr "Destroyed by Platoon"
+
+msgid "battleResult/tab/leaderboard"
+msgstr "Leaderboard"
+
+msgid "battleResult/tab/result"
+msgstr "Battle Results"
+
+msgid "battleResult/title/squadDestroyed"
+msgstr "PLATOON DESTROYED"
+
+msgid "battleResult/title/vehicleDestroyed"
+msgstr "VEHICLE DESTROYED"
+
+msgid "battleResult/title/victoryFirst"
+msgstr "VICTORY"
+
+msgid "battleResult/title/victoryOther"
+msgstr "PLACE OF HONOR"
+
+msgid "battleRoyaleCarousel/lockedToolTip/body"
+msgstr "Select one of the special vehicles for Steel Hunter."
+
+msgid "battleRoyaleCarousel/lockedToolTip/header"
+msgstr "Incompatible Vehicle"
+
+msgid "button/modules"
+msgstr "TECH TREE"
+
+msgid "button/repair"
+msgstr "Repair"
+
+msgid "ceasefire/header/ceasefireAllServers"
+msgstr "Battles Temporarily Unavailable"
+
+msgid "ceasefire/header/ceasefireCurrentServer"
+msgstr "Battles Temporarily Unavailable"
+
+msgid "ceasefire/header/modeIsUnavailable"
+msgstr "Mode Unavailable"
+
+msgid "ceasefire/header/schedule"
+msgstr "Battle Schedule"
+
+msgid "ceasefire/template/schedule"
+msgstr "{{start}}–{{end}}"
+
+msgid "ceasefire/text/ceasefireAllServers"
+msgstr "Ceasefire is in effect on all available servers. You can view the schedule below."
+
+msgid "ceasefire/text/ceasefireCurrentServer"
+msgstr "Ceasefire is in effect on this server. You can switch to another server to access the mode."
+
+msgid "ceasefire/text/modeIsUnavailable"
+msgstr "Steel Hunter is unavailable on this server. You can switch to another server to access it."
+
+msgid "commanderInfo/commonRank"
+msgstr "Commander"
+
+msgid "commanderInfo/description/china"
+msgstr "\"I've already won. You will realize it soon.\""
+
+msgid "commanderInfo/description/france"
+msgstr "\"I am the law!\""
+
+msgid "commanderInfo/description/germany"
+msgstr "\"Today is a glorious day that will go down in history.\""
+
+msgid "commanderInfo/description/poland"
+msgstr "\"There is no time for manners.\""
+
+msgid "commanderInfo/description/sweden"
+msgstr "\"Everything is going according to plan.\""
+
+msgid "commanderInfo/description/uk"
+msgstr "\"Whatever you are, be the best one.\""
+
+msgid "commanderInfo/description/usa"
+msgstr "\"The hatchet is dug up, freshly polished, and sharpened.\""
+
+msgid "commanderInfo/description/ussr"
+msgstr "\"The winner takes it all!\""
+
+msgid "commanderInfo/fullName/china"
+msgstr "Tao He"
+
+msgid "commanderInfo/fullName/france"
+msgstr "Villanelle Rapière"
+
+msgid "commanderInfo/fullName/germany"
+msgstr "Max von Hoffman"
+
+msgid "commanderInfo/fullName/poland"
+msgstr "Jan Mazur"
+
+msgid "commanderInfo/fullName/sweden"
+msgstr "Oliver Lund"
+
+msgid "commanderInfo/fullName/uk"
+msgstr "Walter Bussfender"
+
+msgid "commanderInfo/fullName/usa"
+msgstr "Reginald Berly"
+
+msgid "commanderInfo/fullName/ussr"
+msgstr "Pyotr Lopakhin"
+
+msgid "commanderTooltip/specialty_skills"
+msgstr "Perks"
+
+msgid "commanderTooltip/vehicleDescription"
+msgstr "%(vehicle)s\nSpecial vehicle for Steel Hunter"
+
+msgid "fragPanel/squadsCount"
+msgstr "Platoons: %(squadsCount)s"
+
+msgid "hangarResults/btns/score"
+msgstr "Leaderboard"
+
+msgid "hangarResults/btns/summary"
+msgstr "Battle Results"
+
+msgid "hangarVehicleInfo/closeBtn"
+msgstr "CLOSE"
+
+msgid "hangarVehicleInfo/moduleTreeTip"
+msgstr "Modules can be upgraded only in battle. To open the Upgrade Menu, press %(key)s in battle."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/note"
+msgstr "%(highlight1)s and %(highlight2)s to receive experience. Each tier reached allows the player to upgrade a module from the Upgrade Menu and significantly improve the vehicle's characteristics."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight1"
+msgstr "Cause damage to enemy vehicles"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/noteHighlight2"
+msgstr "collect Spoils of War on the map"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/title"
+msgstr "Vehicle Upgrade in Battle"
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/titleDescr"
+msgstr "You enter battle in a Tier I vehicle."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorial"
+msgstr "Modules can be upgraded both from the Upgrade Menu during the battle (the %(treeKey)s key by default) and by pressing the %(leftModuleKey)s and %(rightModuleKey)s key combination.\n\nModules can be upgraded only in battle."
+
+msgid "hangarVehicleInfo/tooltips/battleProgression/tutorialHighlight"
+msgstr "In battle:"
+
+msgid "hangarVehicleInfo/tutorialText"
+msgstr "Your Steel Hunter receives experience in battle for causing damage and collecting Spoils of War. Once the required amount of experience is accumulated, you can reach the next tier and select an upgrade for one of the modules."
+
+msgid "levelUp/severalTitles"
+msgstr "RECEIVED LEVELS: %(firstLevel)s–%(lastLevel)s!"
+
+msgid "levelUp/title"
+msgstr "LEVEL %(level)s RECEIVED!"
+
+msgid "levelUp/twoTitles"
+msgstr "RECEIVED LEVELS: %(firstLevel)s, %(secondLevel)s!"
+
+msgid "level_up/max_level_info/description"
+msgstr "Complete missions and receive valuable rewards."
+
+msgid "level_up/max_level_info/title"
+msgstr "New Daily Missions Available"
+
+msgid "modeSelector/cycleIsComing"
+msgstr "Season\nis starting soon"
+
+msgid "modeSelector/cycleNotStarted"
+msgstr "Season will start on %(date)s"
+
+msgid "playerStats/damageBlockedByArmorStat/name"
+msgstr "Blocked"
+
+msgid "playerStats/damageDealtStat/name"
+msgstr "Damage"
+
+msgid "playerStats/killsStat/name"
+msgstr "Destroyed"
+
+msgid "playerStats/killsStat/squad/name"
+msgstr "Destroyed"
+
+msgid "playerStats/placeStat/name"
+msgstr "Position"
+
+msgid "playerStats/title"
+msgstr "Personal Score"
+
+msgid "player_errors/radarInCooldown"
+msgstr "Radio Detection unavailable: preparation in progress"
+
+msgid "player_errors/vehicleIsNotDamaged"
+msgstr "The vehicle is fully operational. Recovery is not required."
+
+msgid "player_messages/Ch00_ClingeBot_SH_DESTROYED"
+msgstr "Battlefield Robot destroyed"
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ALLY"
+msgstr "%(attacker)s destroyed %(target)s."
+
+msgid "player_messages/DEATH_BY_BOT_ENEMY_ENEMY"
+msgstr "%(attacker)s destroyed enemy %(target)s."
+
+msgid "player_messages/G00_Bomber_SH_DESTROYED"
+msgstr "Fireball destroyed"
+
+msgid "player_messages/MINEFIELD_DESTROYED"
+msgstr "Mines expired"
+
+msgid "player_messages/MINEFIELD_INSTALLED"
+msgstr "Mines laid"
+
+msgid "player_messages/RADAR_IS_READY_TO_USE"
+msgstr "Radio Detection is ready to use"
+
+msgid "player_messages/VEHICLE_LEVEL_MAXED"
+msgstr "The vehicle has reached the maximum Tier"
+
+msgid "player_messages/VEHICLE_LEVEL_UP"
+msgstr "Tier %(level)s reached"
+
+msgid "player_messages/VEHICLE_UPGRADE"
+msgstr "Mounted: %(moduleType)s. Upgraded: %(module)s."
+
+msgid "player_messages/moduleType/hull"
+msgstr "Hull"
+
+msgid "player_messages/moduleType/vehicleChassis"
+msgstr "Suspension"
+
+msgid "player_messages/moduleType/vehicleEngine"
+msgstr "Engine"
+
+msgid "player_messages/moduleType/vehicleGun"
+msgstr "Gun"
+
+msgid "player_messages/moduleType/vehicleRadio"
+msgstr "Radio Detection"
+
+msgid "player_messages/moduleType/vehicleTurret"
+msgstr "Turret"
+
+msgid "playersPanel/title"
+msgstr "TEAM"
+
+msgid "postmortemPanel/firstTip/body"
+msgstr "Switch between Platoon vehicles."
+
+msgid "postmortemPanel/firstTip/title"
+msgstr "Spectator Mode"
+
+msgid "postmortemPanel/secondTip/body"
+msgstr "Esc > Back to Garage.\nEnter a battle in another vehicle."
+
+msgid "postmortemPanel/secondTip/title"
+msgstr "Back to Garage"
+
+msgid "preBattle/buttonTitle"
+msgstr "BATTLE!"
+
+msgid "preBattle/dropDownTitle"
+msgstr "Select a map"
+
+msgid "preBattle/listTitle"
+msgstr "PLAYER READINESS"
+
+msgid "preBattle/mapArzagir"
+msgstr "Arzagir 4.04"
+
+msgid "preBattle/mapDreamland"
+msgstr "Dreamland"
+
+msgid "preBattle/mapRandom"
+msgstr "Random map"
+
+msgid "preBattle/teamFooterTitle"
+msgstr "PLATOON VEHICLES"
+
+msgid "preBattle/title"
+msgstr "BIG HUNT"
+
+msgid "preBattle/userFooterTitle"
+msgstr "SELECTED VEHICLES"
+
+msgid "preBattle/userNotReady"
+msgstr "Not ready"
+
+msgid "preBattle/userReady"
+msgstr "Ready"
+
+msgid "primeTime/status/cycleFinishedOnThisServer"
+msgstr "Season %(cycleNo)s on the %(server)s server has finished"
+
+msgid "primeTime/tooltip/endOfCycleOnThisServer"
+msgstr "The Season on the %(server)s server has finished."
+
+msgid "proxyPanel/button"
+msgstr "Store"
+
+msgid "proxyPanel/label"
+msgstr "Steel\nSeals"
+
+msgid "proxyPanel/store"
+msgstr "STORE"
+
+msgid "questsTooltip/timeLeft"
+msgstr "Season ends in %(time)s"
+
+msgid "radar/hint/noBinding"
+msgstr "No key is assigned to Radio Detection"
+
+msgid "radar/hint/press"
+msgstr "Press"
+
+msgid "radar/hint/text"
+msgstr "to activate Radio Detection"
+
+msgid "season/202206/name"
+msgstr "2022"
+
+msgid "selectRespawn/btnDescription"
+msgstr "Land"
+
+msgid "selectRespawn/button/land"
+msgstr "Land"
+
+msgid "selectRespawn/description"
+msgstr "Click on one of the suggested points. If no point is selected, you will land at any of the suggested points."
+
+msgid "selectRespawn/header"
+msgstr "Select a Landing Point"
+
+msgid "selectRespawn/text/selectRespawn"
+msgstr "Click on one of the suggested points. If no point is selected, you will land at any of the suggested points."
+
+msgid "selectRespawn/text/startHere"
+msgstr "Your battle starts here"
+
+msgid "selectRespawn/title/selectRespawn"
+msgstr "Select a Landing Point"
+
+msgid "status/timeLeft/days"
+msgstr "%(day)s d"
+
+msgid "status/timeLeft/hours"
+msgstr "%(hour)s h %(min)s min"
+
+msgid "status/timeLeft/lessMin"
+msgstr "1 min"
+
+msgid "status/timeLeft/min"
+msgstr "%(min)s min"
+
+msgid "statusNotificationTimers/berserk/active"
+msgstr "RAMPAGE!"
+
+msgid "statusNotificationTimers/damagingCorrodingShot"
+msgstr "Acid corrodes the armor!"
+
+msgid "statusNotificationTimers/deathZone"
+msgstr "Zone is closed! Leave the zone or your vehicle will be destroyed!"
+
+msgid "statusNotificationTimers/deathZoneWarning"
+msgstr "The zone will turn red soon"
+
+msgid "statusNotificationTimers/fireCircle"
+msgstr "Mobility decreased!"
+
+msgid "statusNotificationTimers/halfOverturned"
+msgstr "Back on tracks..."
+
+msgid "statusNotificationTimers/healPoint/healed"
+msgstr "Restoring hit points"
+
+msgid "statusNotificationTimers/healPoint/healing"
+msgstr "Restoring hit points"
+
+msgid "statusNotificationTimers/hpRestoreOnDamage"
+msgstr "Converting damage"
+
+msgid "statusNotificationTimers/inspire/inspired"
+msgstr "Technical characteristics improved"
+
+msgid "statusNotificationTimers/loot/advanced"
+msgstr "Shells and Recovery"
+
+msgid "statusNotificationTimers/loot/airdrop"
+msgstr "Airdrop"
+
+msgid "statusNotificationTimers/loot/basic"
+msgstr "Repair Kit or Ability Charge"
+
+msgid "statusNotificationTimers/loot/corpse"
+msgstr "Spoils of War"
+
+msgid "statusNotificationTimers/loot/multiple"
+msgstr "Combined Spoils of War: %(count)s"
+
+msgid "statusNotificationTimers/loot/pickup"
+msgstr "Collecting: %(lootType)s"
+
+msgid "statusNotificationTimers/repairPoint"
+msgstr "Repair Zone"
+
+msgid "statusNotificationTimers/shotPassion"
+msgstr "Surging fervor!"
+
+msgid "statusNotificationTimers/smoke/ally"
+msgstr "In smoke"
+
+msgid "statusNotificationTimers/smoke/damaging"
+msgstr "Our armor is corroding!"
+
+msgid "statusNotificationTimers/thunderStrike"
+msgstr "Mobility decreased!"
+
+msgid "techParams/type/damage"
+msgstr "Damage"
+
+msgid "techParams/type/difficulty"
+msgstr "Difficulty"
+
+msgid "techParams/type/mobility"
+msgstr "Mobility"
+
+msgid "techParams/type/spotting"
+msgstr "Spotting"
+
+msgid "techParams/type/survivability"
+msgstr "Survivability"
+
+msgid "techtree/body_armor"
+msgstr "Armor"
+
+msgid "techtree/body_health"
+msgstr "Hit Points"
+
+msgid "techtree/body_mobility"
+msgstr "Mobility"
+
+msgid "techtree/engine_acceleration"
+msgstr "Dynamics"
+
+msgid "techtree/engine_speed"
+msgstr "Top Speed"
+
+msgid "techtree/gun_alpha"
+msgstr "Damage per Shot"
+
+msgid "techtree/gun_auto_loader"
+msgstr "Autoreloader"
+
+msgid "techtree/gun_clip"
+msgstr "Magazine Reloading"
+
+msgid "techtree/gun_dpm"
+msgstr "Loading Speed"
+
+msgid "techtree/gun_dualgun"
+msgstr "Double Gun"
+
+msgid "techtree/gun_he"
+msgstr "HE-shell Damage"
+
+msgid "techtree/gun_machinegun"
+msgstr "Anti-tank Machine Gun"
+
+msgid "techtree/gun_piercing"
+msgstr "Penetration"
+
+msgid "techtree/radar_cooldown"
+msgstr "Radio Detection Cooldown"
+
+msgid "techtree/radar_distance"
+msgstr "Detection Range"
+
+msgid "techtree/turret_armor"
+msgstr "Armor"
+
+msgid "techtree/turret_health"
+msgstr "Hit Points"
+
+msgid "techtree/turret_rotation_speed"
+msgstr "Rotation Speed"
+
+msgid "tooltip/battleTypeSelector/bonus"
+msgstr "+15%"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/credits"
+msgstr "Up to {{credits}} credits"
+
+msgid "tooltip/battleTypeSelector/bonusDescription/experience"
+msgstr "Up to {{experience}} XP"
+
+msgid "tooltip/battleTypeSelector/bonusTitle"
+msgstr "Platoon battle bonus"
+
+msgid "tooltip/battleTypeSelector/description/platoon"
+msgstr "Battle in a Platoon with a random ally. Play as a team against nine enemy Platoons. Platoon missions can be completed in this mode. The Platoon will be automatically disbanded after the battle."
+
+msgid "tooltip/battleTypeSelector/description/solo"
+msgstr "Classic Steel Hunter. Each player is fighting for themselves. Collect resources, upgrade your vehicle, and use its unique abilities to be the last one standing!"
+
+msgid "tooltip/battleTypeSelector/description/team"
+msgstr "Battle in a Platoon with a friend. Play as a team against nine enemy Platoons. Platoon missions can be completed in this mode."
+
+msgid "tooltip/battleTypeSelector/header/platoon"
+msgstr "Random Platoon"
+
+msgid "tooltip/battleTypeSelector/header/solo"
+msgstr "Solo Mode"
+
+msgid "tooltip/battleTypeSelector/header/team"
+msgstr "Platoon With Friend"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/29"
+msgstr "Solo"
+
+msgid "tooltip/progression/leaderboardReward/battleTypesHeader/30"
+msgstr "Platoon"
+
+msgid "tooltip/progression/leaderboardReward/header"
+msgstr "Rules for earning Points"
+
+msgid "tooltip/progression/leaderboardReward/text/place"
+msgstr "%(place)s place"
+
+msgid "tooltip/progression/leaderboardReward/text/places"
+msgstr "%(place)s places"
+
+msgid "tooltips/awards/achievement"
+msgstr "Medal"
+
+msgid "tooltips/awards/badge"
+msgstr "Badge"
+
+msgid "tooltips/awards/pattern"
+msgstr "%(typeName)s: \"%(userName)s\""
+
+msgid "tooltips/respawn/common/description"
+msgstr "Allows you to get back to battle after your vehicle has been destroyed. When this happens, the vehicle's upgrade level is not lost. It can only be used a limited number of times per battle."
+
+msgid "tooltips/respawn/footer/text"
+msgstr "Respawn charges can be received from an Airdrop."
+
+msgid "tooltips/respawn/platoon/description"
+msgstr "To respawn an ally, stay out of combat during {brown_Open}%(timeToResurrect)s s{brown_Close}. This mechanic works within the first {brown_Open}%(duration)s min{brown_Close} of a battle. Respawn charges are shared between Platoon members."
+
+msgid "tooltips/respawn/platoon/title"
+msgstr "When Playing in a Platoon"
+
+msgid "tooltips/respawn/solo/description"
+msgstr "Once destroyed, your vehicle respawns automatically. This mechanic works within the first {brown_Open}%(duration)s min{brown_Close} of a battle."
+
+msgid "tooltips/respawn/solo/title"
+msgstr "When Playing Solo"
+
+msgid "tooltips/respawn/subtitle"
+msgstr "Single-time use"
+
+msgid "tooltips/respawn/title"
+msgstr "Respawn"
+
+msgid "tooltips/vehicle/description"
+msgstr "Vehicle for Steel Hunter mode"
+
+msgid "tournament/description"
+msgstr "BIG HUNT"
+
+msgid "tournament/fightButton/notReady"
+msgstr "Not ready"
+
+msgid "tournament/fightButton/ready"
+msgstr "Ready!"
+
+msgid "tournament/notification/NO_PLACES"
+msgstr "Unable to enter tournament. Error code: %(errorString)s"
+
+msgid "tournament/notification/commonErrorMessage"
+msgstr "Big Hunt tournament error. Error code: %(errorString)s"
+
+msgid "tournament/title"
+msgstr "BIG HUNT"
+
+msgid "tournament/type/solo"
+msgstr "Type: Solo"
+
+msgid "tournament/type/squad"
+msgstr "Type: Platoon"
+
+msgid "upgradePanel/alert/0"
+msgstr "You cannot upgrade your vehicle!"
+
+msgid "upgradePanel/alert/1"
+msgstr "You cannot upgrade the vehicle during active fighting!"
+
+msgid "upgradePanel/alert/2"
+msgstr "You cannot upgrade your vehicle. The vehicle is drowning!"
+
+msgid "upgradePanel/alert/3"
+msgstr "You cannot upgrade your vehicle. The vehicle overturned!"
+
+msgid "upgradePanel/alert/4"
+msgstr " "
+
+msgid "upgradePanel/description"
+msgstr "Press %(key)s to open the Upgrade Menu"
+
+msgid "upgradePanel/title/default"
+msgstr "New Module Available"
+
+msgid "upgradePanel/title/hull"
+msgstr "New Hull Available"
+
+msgid "upgradePanel/title/vehicleChassis"
+msgstr "New Suspension Available"
+
+msgid "upgradePanel/title/vehicleEngine"
+msgstr "New Engine Available"
+
+msgid "upgradePanel/title/vehicleGun"
+msgstr "New Gun Available"
+
+msgid "upgradePanel/title/vehicleRadio"
+msgstr "New Radio Available"
+
+msgid "upgradePanel/title/vehicleTurret"
+msgstr "New Turret Available"
+
+msgid "vehModuleConfigurator/delimiter"
+msgstr "OR"
+
+msgid "vehicleFeatures/spec/armor"
+msgstr "Armor"
+
+msgid "vehicleFeatures/spec/damage"
+msgstr "Damage per Shot"
+
+msgid "vehicleFeatures/spec/dpm"
+msgstr "Loading Speed"
+
+msgid "vehicleFeatures/spec/hp"
+msgstr "Hit Points"
+
+msgid "vehicleFeatures/spec/penetration"
+msgstr "Penetration"
+
+msgid "vehicleFeatures/spec/radar"
+msgstr "Radio Detection Operation"
+
+msgid "vehicleFeatures/spec/revolver"
+msgstr "Magazine Loading System"
+
+msgid "vehicleFeatures/spec/speed"
+msgstr "Speed"
+
+msgid "vehicleFeatures/subTitle/description"
+msgstr "Vehicle features"
+
+msgid "vehicleFeatures/subTitle/force"
+msgstr "Advantages"
+
+msgid "vehicleFeatures/subTitle/weak"
+msgstr "Disadvantages"
+
+msgid "widgetAlertMessageBlock/allPeripheriesHalt"
+msgstr "Ceasefire is in effect on all servers. Battles will be available in %(time)s"
+
+msgid "widgetAlertMessageBlock/button"
+msgstr "Select Another Server"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/multi"
+msgstr "Episode %(cycle)s finished"
+
+msgid "widgetAlertMessageBlock/noCycleMessage/single"
+msgstr "Episode finished"
+
+msgid "widgetAlertMessageBlock/singleModeHalt"
+msgstr "Ceasefire is in effect on this server. Battles will be available in %(time)s"
+
+msgid "widgetAlertMessageBlock/somePeripheriesHalt"
+msgstr "Ceasefire is in effect on %(serverName)s"
+
+msgid "widgetAlertMessageBlock/startIn/multi"
+msgstr "Episode %(cycle)s will start in %(time)s"
+
+msgid "widgetAlertMessageBlock/startIn/single"
+msgstr "The first Episode will start in %(time)s"

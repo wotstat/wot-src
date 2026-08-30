@@ -1,0 +1,32 @@
+from Event import Event
+from script_component.DynamicScriptComponent import DynamicScriptComponent
+from story_mode_common.story_mode_constants import AwarenessState
+
+class SMDetectionDelayObservableComponent(DynamicScriptComponent):
+    onTimersChange = Event()
+    onAwarenessStateChanged = Event()
+
+    def __init__(self):
+        super(SMDetectionDelayObservableComponent, self).__init__()
+        self.timers = {}
+        self._state = AwarenessState.NOT_SPOTTED
+        return
+
+    def set_timers(self, prevValues):
+        self.onTimersChange(prevValues, self.timers)
+        if self.timers:
+            state = AwarenessState.SPOTTING
+        else:
+            state = AwarenessState.NOT_SPOTTED
+        for key, value in self.timers.iteritems():
+            if key not in prevValues:
+                if value[b'spotted']:
+                    state = AwarenessState.SPOTTED
+            elif not prevValues[key][b'spotted'] and value[b'spotted']:
+                state = AwarenessState.SPOTTED
+
+        if state != self._state:
+            if not (self._state == AwarenessState.SPOTTED and state == AwarenessState.SPOTTING):
+                self._state = state
+                self.onAwarenessStateChanged(self._state.value)
+        return

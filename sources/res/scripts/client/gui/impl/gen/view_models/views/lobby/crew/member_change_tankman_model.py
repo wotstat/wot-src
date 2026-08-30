@@ -1,0 +1,20 @@
+from gui.impl.gen.view_models.views.lobby.crew.tankman_model import TankmanModel
+
+class MemberChangeTankmanModel(TankmanModel):
+    __slots__ = ()
+
+    def __init__(self, properties=24, commands=0):
+        super(MemberChangeTankmanModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    def getIsInSameVehicle(self):
+        return self._getBool(23)
+
+    def setIsInSameVehicle(self, value):
+        self._setBool(23, value)
+        return
+
+    def _initialize(self):
+        super(MemberChangeTankmanModel, self)._initialize()
+        self._addBoolProperty(b'isInSameVehicle', False)
+        return

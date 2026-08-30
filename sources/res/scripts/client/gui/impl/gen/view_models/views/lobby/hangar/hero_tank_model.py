@@ -1,0 +1,38 @@
+from frameworks.wulf import ViewModel
+from gui.impl.gen.view_models.views.lobby.hangar.marker_position_model import MarkerPositionModel
+
+class HeroTankModel(ViewModel):
+    __slots__ = ()
+
+    def __init__(self, properties=3, commands=0):
+        super(HeroTankModel, self).__init__(properties=properties, commands=commands)
+        return
+
+    @property
+    def heroTankMarker(self):
+        return self._getViewModel(0)
+
+    @staticmethod
+    def getHeroTankMarkerType():
+        return MarkerPositionModel
+
+    def getName(self):
+        return self._getString(1)
+
+    def setName(self, value):
+        self._setString(1, value)
+        return
+
+    def getType(self):
+        return self._getString(2)
+
+    def setType(self, value):
+        self._setString(2, value)
+        return
+
+    def _initialize(self):
+        super(HeroTankModel, self)._initialize()
+        self._addViewModelProperty(b'heroTankMarker', MarkerPositionModel())
+        self._addStringProperty(b'name', b'')
+        self._addStringProperty(b'type', b'')
+        return

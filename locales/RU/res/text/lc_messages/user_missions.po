@@ -1,0 +1,518 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "battle_pass_widget/countdownSeparator"
+msgstr "|"
+
+msgid "battle_pass_widget/progress"
+msgstr "{{pointsEarned}}{{@ class $progressSeparatorClass}}/{{/}}{{levelPoints}}"
+
+msgid "battle_pass_widget/stage"
+msgstr "Этап {{level}}"
+
+msgid "battle_pass_widget/sub_title/activate_extra_chapter"
+msgstr "Специальная глава"
+
+msgid "battle_pass_widget/sub_title/completed"
+msgstr "Завершено"
+
+msgid "battle_pass_widget/sub_title/see_new_progression"
+msgstr "Новая прогрессия"
+
+msgid "battle_pass_widget/sub_title/select_chapter"
+msgstr "Выбрать главу"
+
+msgid "battle_pass_widget/sub_title/unavailable"
+msgstr "Временно недоступно"
+
+msgid "battle_pass_widget/title"
+msgstr "Боевой пропуск"
+
+msgid "challenge_missions/entrypoint/tooltip/challengeTitle"
+msgstr "Вызов: {{challengeName}}"
+
+msgid "common/daterange/divider"
+msgstr "{{startDate}} – {{endDate}}"
+
+msgid "common/duration/days"
+msgstr "{{days}} д"
+
+msgid "common/duration/days_hrs"
+msgstr "{{days}} д {{hours}} ч"
+
+msgid "common/duration/hrs"
+msgstr "{{hours}} ч"
+
+msgid "common/duration/hrs_mins"
+msgstr "{{hours}} ч {{minutes}} м"
+
+msgid "common/duration/mins"
+msgstr "{{minutes}} м"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_lock_info"
+msgstr "Бонусная задача\nДля получения доступа выполните 3 стандартные задачи"
+
+msgid "hub/basic_missions/daily/bonus_daily_missions_timer/tooltip"
+msgstr "Время, оставшееся для выполнения бонусной задачи"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/message"
+msgstr "Ежедневные задачи будут доступны через"
+
+msgid "hub/basic_missions/daily/new_daily_missions_timer/tooltip"
+msgstr "Задачи закончились. Новые ежедневные задачи скоро станут доступны."
+
+msgid "hub/basic_missions/daily/premium/locked_mission/tooltip"
+msgstr "Выполните предыдущую задачу для доступа к текущей"
+
+msgid "hub/basic_missions/daily/premium/not_available/generic"
+msgstr "Премиум задачи временно недоступны"
+
+msgid "hub/basic_missions/daily/purchase_premium/button"
+msgstr "Купить премиум дни"
+
+msgid "hub/basic_missions/daily/purchase_premium/message"
+msgstr "Необходим Танковый премиум аккаунт"
+
+msgid "hub/basic_missions/daily/purchase_premium/title"
+msgstr "Премиум задачи"
+
+msgid "hub/basic_missions/daily/regular/not_available/generic"
+msgstr "Ежедневные задачи временно недоступны"
+
+msgid "hub/basic_missions/daily/reroll_button"
+msgstr "Заменить"
+
+msgid "hub/basic_missions/daily/title"
+msgstr "ЕЖЕДНЕВНЫЕ"
+
+msgid "hub/basic_missions/personal/button/to_campaign"
+msgstr "К кампаниям"
+
+msgid "hub/basic_missions/personal/button/to_completed_operation"
+msgstr "Улучшить результат"
+
+msgid "hub/basic_missions/personal/button/to_operation"
+msgstr "К операции"
+
+msgid "hub/basic_missions/personal/description/campaignNotActivated"
+msgstr "Испытание для опытных бойцов с особой техникой в качестве награды."
+
+msgid "hub/basic_missions/personal/description/completed"
+msgstr "Операция «{{currentOperationName}}» выполнена! Вы можете улучшать ваш результат, чтобы выполнить её с отличием или перейти к новому испытанию в операции «{{nextOperationName}}»."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/allCompleted"
+msgstr "Вы можете улучшить свой результат в операции «{{nextOperationName}}»."
+
+msgid "hub/basic_missions/personal/description/completedWithHonors/default"
+msgstr "Операция «{{currentOperationName}}» выполнена с отличием! Доступна операция «{{nextOperationName}}»."
+
+msgid "hub/basic_missions/personal/description/inProgress"
+msgstr "Зарабатывайте очки кампании, выполняя ежедневные, еженедельные и личные боевые задачи."
+
+msgid "hub/basic_missions/personal/description/inProgressForHonors"
+msgstr "Выполните все {{totalProgress}} задач, чтобы выполнить операцию с отличием и заработать дополнительные награды."
+
+msgid "hub/basic_missions/personal/detail/tooltip/body"
+msgstr "Установите все модули, чтобы получить награду — {{vehicleName}}. Чтобы собрать все модули, зарабатывайте очки кампании, выполняя ежедневные, еженедельные и личные боевые задачи."
+
+msgid "hub/basic_missions/personal/detail_description"
+msgstr "Установите все модули, чтобы получить награду — {{vehicleName}}. Чтобы собрать все модули, зарабатывайте очки кампании, выполняя ежедневные, еженедельные и личные боевые задачи."
+
+msgid "hub/basic_missions/personal/progress/inProgressForHonors"
+msgstr "Выполнено задач: {{progress}}"
+
+msgid "hub/basic_missions/personal/title/campaignNotActivated"
+msgstr "Доступна новая кампания «Сектор 3»!"
+
+msgid "hub/basic_missions/personal/title/completed"
+msgstr "Операция «{{nextOperationName}}» доступна!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/allCompleted"
+msgstr "Операция «{{currentOperationName}}» выполнена с отличием!"
+
+msgid "hub/basic_missions/personal/title/completedWithHonors/default"
+msgstr "Операция «{{nextOperationName}}» доступна!"
+
+msgid "hub/basic_missions/personal/title/inProgress"
+msgstr "Операция «{{currentOperationName}}» | Этап {{stageNumber}}"
+
+msgid "hub/basic_missions/personal/title/inProgressForHonors"
+msgstr "Выполнение операции {{currentOperationName}} с отличием"
+
+msgid "hub/basic_missions/title"
+msgstr "ОБЫЧНЫЕ ЗАДАЧИ"
+
+msgid "hub/basic_missions/weekly/title"
+msgstr "ЕЖЕНЕДЕЛЬНО"
+
+msgid "hub/basic_missions/weekly/update_info"
+msgstr "Обновляется каждый {{weekDay}}"
+
+msgid "hub/challenge_missions/card/activeLabel"
+msgstr "Активная задача"
+
+msgid "hub/challenge_missions/card/or"
+msgstr "ИЛИ"
+
+msgid "hub/challenge_missions/challenges_empty/title"
+msgstr "Новые задачи скоро появятся"
+
+msgid "hub/challenge_missions/complexity/easy"
+msgstr "БОЕЦ"
+
+msgid "hub/challenge_missions/complexity/hard"
+msgstr "АС"
+
+msgid "hub/challenge_missions/complexity/medium"
+msgstr "ЭЛИТА"
+
+msgid "hub/challenge_missions/complexity/tooltip/body"
+msgstr "Задачи бывают трёх категорий: боец, элита и ас. В каждой категории уникальные испытания и ценные награды."
+
+msgid "hub/challenge_missions/header"
+msgstr "ВЫЗОВ"
+
+msgid "hub/challenge_missions/header/buttons/activate"
+msgstr "Активировать"
+
+msgid "hub/challenge_missions/header/buttons/freeRestart"
+msgstr "Перезапустить бесплатно"
+
+msgid "hub/challenge_missions/header/buttons/restart"
+msgstr "Перезапустить"
+
+msgid "hub/challenge_missions/header/buttons/surrender"
+msgstr "Отказаться"
+
+msgid "hub/challenge_missions/header/buttons/toChallenge"
+msgstr "К задачам"
+
+msgid "hub/challenge_missions/header/complete"
+msgstr "%(completeIcon) Задачи «Вызова» выполнены"
+
+msgid "hub/challenge_missions/header/multiplier"
+msgstr "×%(count)s"
+
+msgid "hub/challenge_missions/header/numberTemplate"
+msgstr "%(currentNumber)s / %(commonNumber)s"
+
+msgid "hub/challenge_missions/header/remaining"
+msgstr "щитов осталось"
+
+msgid "hub/challenge_missions/header/restart/text"
+msgstr "бесплатных перезапусков"
+
+msgid "hub/challenge_missions/header/restriction"
+msgstr "Выполните активные задачи «Вызова»"
+
+msgid "hub/challenge_missions/header/timer/text"
+msgstr "Закончится через %(timer)s"
+
+msgid "hub/challenge_missions/header/unavailable"
+msgstr "%(lockIcon)Недоступно: %(text)s"
+
+msgid "hub/challenge_missions/header/vehicleRestriction"
+msgstr "требуется машина VI уровня или выше"
+
+msgid "hub/challenge_missions/missionsActive"
+msgstr "АКТИВНА"
+
+msgid "hub/challenge_missions/missionsCompleted"
+msgstr "Выполнена"
+
+msgid "hub/challenge_missions/missionsCount"
+msgstr "{{currentMissions}} / {{totalMissions}} задач"
+
+msgid "hub/challenge_missions/name/default"
+msgstr "Задача испытания"
+
+msgid "hub/challenge_missions/new"
+msgstr "НОВОЕ"
+
+msgid "hub/challenge_missions/notification/challenge_complete/affirmative"
+msgstr "К Вызову"
+
+msgid "hub/challenge_missions/notification/challenge_complete/button"
+msgstr "К Вызову"
+
+msgid "hub/challenge_missions/notification/challenge_complete/title"
+msgstr "«ВЫЗОВ: {{ challengeName }}» ПРОЙДЕН!"
+
+msgid "hub/challenge_missions/notification/fail/button"
+msgstr "К Вызову"
+
+msgid "hub/challenge_missions/notification/fail/title"
+msgstr "«Вызов: {{ challenge }}» не пройден. Перезапустите его и попробуйте получить награды снова!"
+
+msgid "hub/challenge_missions/notification/mission_complete/button"
+msgstr "К Вызову"
+
+msgid "hub/challenge_missions/notification/mission_complete/title"
+msgstr "ЗАДАЧА {{ mission }} ВЫПОЛНЕНА!"
+
+msgid "hub/challenge_missions/notification/shield/button"
+msgstr "К Вызову"
+
+msgid "hub/challenge_missions/notification/shield/text"
+msgstr "Задача {{ mission }} провалена"
+
+msgid "hub/challenge_missions/notification/shield/title"
+msgstr "ЩИТОВ ОСТАЛОСЬ"
+
+msgid "hub/challenge_missions/notification/start/button"
+msgstr "К Вызову"
+
+msgid "hub/challenge_missions/notification/start/newChallengesText"
+msgstr "Примите Вызов и испытайте себя в сериях задач с ценными наградами для тех, кто с ними справится."
+
+msgid "hub/challenge_missions/notification/start/newChallengesTitle"
+msgstr "ДОСТУПНЫ НОВЫЕ ЗАДАЧИ «ВЫЗОВА»!"
+
+msgid "hub/challenge_missions/notification/start/text"
+msgstr "Примите Вызов и проложите собственный путь к славе: проверьте свои навыки в сериях сложных задач с ценными наградами для тех, кто с ними справится."
+
+msgid "hub/challenge_missions/notification/start/title"
+msgstr "ПРИМИТЕ ВЫЗОВ"
+
+msgid "hub/challenge_missions/replay/completed"
+msgstr "Выполнено"
+
+msgid "hub/challenge_missions/reward/attachmentsTitle"
+msgstr "Комплект 3D-объектов"
+
+msgid "hub/challenge_missions/reward/improvedEquipment"
+msgstr "Усовершенствованное оборудование"
+
+msgid "hub/challenge_missions/reward/multi"
+msgstr "×{{count}}"
+
+msgid "hub/challenge_missions/reward/style2DTitle"
+msgstr "2D-стиль"
+
+msgid "hub/challenge_missions/reward/tankmanTitle"
+msgstr "Член экипажа"
+
+msgid "hub/challenge_missions/reward/vehicleTitle"
+msgstr "Машина"
+
+msgid "hub/challenge_missions/title"
+msgstr "ЗАДАЧИ «ВЫЗОВА»"
+
+msgid "hub/challenge_missions/tooltip/info_button"
+msgstr "О Вызове"
+
+msgid "hub/common_missions/title"
+msgstr "ДОПОЛНИТЕЛЬНЫЕ ЗАДАЧИ"
+
+msgid "hub/reward_progress/epic_quest_progress/collect_win_back"
+msgstr "Забрать награды"
+
+msgid "hub/reward_progress/epic_quest_progress/disabled"
+msgstr "Особая награда временно недоступна"
+
+msgid "hub/reward_progress/epic_quest_progress/sub_title"
+msgstr "В зачёт пойдёт выполнение стандартных, премиум и бонусных задач."
+
+msgid "hub/reward_progress/epic_quest_progress/time_left"
+msgstr "Доступно"
+
+msgid "hub/reward_progress/epic_quest_progress/title"
+msgstr "Выполняйте ежедневные задачи, чтобы получить особую награду"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim"
+msgstr "Получить награду"
+
+msgid "hub/reward_progress/win_back_quest_progress/claim_main"
+msgstr "Забрать награды"
+
+msgid "hub/reward_progress/win_back_quest_progress/sub_title"
+msgstr "В зачёт пойдёт выполнение стандартных, премиум и бонусных задач."
+
+msgid "hub/reward_progress/win_back_quest_progress/time_left"
+msgstr "Доступно"
+
+msgid "hub/reward_progress/win_back_quest_progress/title"
+msgstr "Снова в строю! Выполняйте ежедневные задачи и получайте награды: {progres}"
+
+msgid "info_page/additional/bonus/description"
+msgstr "Выполнение трёх стандартных задач открывает доступ к бонусной, за выполнение которой вы получите ещё более ценные награды. Вы должны успеть выполнить бонусную задачу до конца дня, иначе она пропадёт."
+
+msgid "info_page/additional/bonus/title"
+msgstr "Бонусная задача"
+
+msgid "info_page/additional/conditions/description"
+msgstr "Некоторые задачи необходимо выполнить за один бой, в то время как другие (накопительные) — за любое количество сражений. Для накопительных задач предусмотрена шкала прогресса. Задачи доступны для выполнения в Случайных боях."
+
+msgid "info_page/additional/conditions/title"
+msgstr "Условия"
+
+msgid "info_page/additional/reroll/description"
+msgstr "Нежелательную стандартную задачу можно заменить на другую (случайную). После этого опция станет недоступна на {{time}}. Замена задачи может привести к потере прогресса, если в этот момент одна или несколько ваших машин находятся в бою."
+
+msgid "info_page/additional/reroll/title"
+msgstr "Замена задачи"
+
+msgid "info_page/additional/reward/description"
+msgstr "Для получения особой награды необходимо выполнить цепочку задач, выстроенную по принципу марафона. В зачёт идёт каждая выполненная стандартная, премиум и бонусная задача. После выполнения последней задачи цикл начинается заново. Цикл не ограничен по времени и может быть завершён в любой момент."
+
+msgid "info_page/additional/reward/title"
+msgstr "Особая награда"
+
+msgid "info_page/header"
+msgstr "О ЗАДАЧАХ"
+
+msgid "info_page/main/premium/description"
+msgstr "Танковый премиум аккаунт открывает доступ к цепочке из трёх премиум задач, которые необходимо выполнить последовательно в Случайных боях и сражениях «Натиска». Прогресс выполнения премиум задач обновляется после каждого боя. В течение игровых событий за выполнение премиум задач вы также будете получать награды соответствующего события."
+
+msgid "info_page/main/premium/title"
+msgstr "Премиум задачи"
+
+msgid "info_page/main/standard/description"
+msgstr "Стандартные задачи предполагают случайные условия каждый день. Прогресс их выполнения обновляется после каждого боя. Задачи лучше выполнять непосредственно в день получения. В противном случае они перенесутся на другой день, а следующая задача не будет выдана до выполнения предыдущей. За выполнение таких задач вы получите очки Боевого пропуска, если он активен, а также награды текущих событий."
+
+msgid "info_page/main/standard/title"
+msgstr "Стандартные задачи"
+
+msgid "info_page/main/weekly/description"
+msgstr "Еженедельные задачи — это набор заданий, которые обновляются каждую неделю. Прогресс выполнения актуализируется после каждого боя, а выполненные задачи сменяются новыми в начале каждого недельного цикла. Еженедельные задачи доступны для выполнения в Случайных боях и сражениях «Натиска». За их выполнение вы получите дополнительные бонусы."
+
+msgid "info_page/main/weekly/title"
+msgstr "Еженедельные задачи"
+
+msgid "pm/missionState/active"
+msgstr "Активна"
+
+msgid "pm/missionState/complete"
+msgstr "Задачи выполнены"
+
+msgid "pm/missionState/improve"
+msgstr "Улучшение результата"
+
+msgid "pm/missionState/wrongVehicle"
+msgstr "Смена техники"
+
+msgid "pm/no_missions"
+msgstr "Для выбранной машины нет подходящих задач"
+
+msgid "pm/tier"
+msgstr "Неподходящий уровень"
+
+msgid "pm/unavailable"
+msgstr "Задача временно недоступна"
+
+msgid "pm/warning/tooltip/body/no_missions_available"
+msgstr "Для выбранной машины нет активных задач. Выберите другую машину."
+
+msgid "pm/warning/tooltip/body/temporarily_unavailable"
+msgstr "По техническим причинам эта задача временно недоступна. Приносим свои извинения."
+
+msgid "pm/warning/tooltip/body/tier"
+msgstr "Выбранная техника не соответствует требованиям активной операции к уровню. Выберите другую машину."
+
+msgid "pm/warning/tooltip/header/no_missions_available"
+msgstr "Нет активных задач"
+
+msgid "pm/warning/tooltip/header/temporarily_unavailable"
+msgstr "Временно недоступна"
+
+msgid "pm/warning/tooltip/header/tier"
+msgstr "Неподходящий уровень"
+
+msgid "quests/daily_quests/all_completed"
+msgstr "Все задачи на сегодня выполнены"
+
+msgid "quests/daily_quests/completed"
+msgstr "Все ежедневные задачи выполнены"
+
+msgid "slider/title/missions"
+msgstr "Обычные боевые задачи"
+
+msgid "slider/title/personalMissions"
+msgstr "Личные боевые задачи"
+
+msgid "tooltip/common/timer"
+msgstr "Доступно через {{timeLeft}}"
+
+msgid "tooltip/daily_quests/all_quest_completed"
+msgstr "Все задачи на выполнены! Вы можете найти больше задач во вкладке «Дополнительные задачи»."
+
+msgid "tooltip/daily_quests/bonus_mission"
+msgstr "Бонусная задача"
+
+msgid "tooltip/daily_quests/completed"
+msgstr "Выполнено"
+
+msgid "tooltip/daily_quests/daily_mission"
+msgstr "Ежедневная задача"
+
+msgid "tooltip/daily_quests/expires"
+msgstr "Завершится через {{timeLeft}}"
+
+msgid "tooltip/daily_quests/new_daily_missions"
+msgstr "Новые задачи будут доступны через {{timeLeft}}"
+
+msgid "tooltip/daily_quests/premium_daily_mission"
+msgstr "Премиум задача"
+
+msgid "tooltip/daily_quests/rewards"
+msgstr "Награды:"
+
+msgid "tooltip/daily_reroll/description"
+msgstr "Вы можете заменять нежелательную задачу \nна другую каждые {time} ч."
+
+msgid "tooltip/daily_reroll/header"
+msgstr "Замена задачи"
+
+msgid "tooltip/hub/card/completed"
+msgstr "Задача выполнена, награда получена."
+
+msgid "tooltip/hub/card/disabled"
+msgstr "Выполните предыдущую задачу, чтобы открыть эту. Все задачи должны быть выполнены по порядку."
+
+msgid "tooltip/hub/info_button/body"
+msgstr "Нажмите, чтобы узнать подробности"
+
+msgid "tooltip/hub/info_button/header"
+msgstr "О задачах"
+
+msgid "tooltip/hub/replay/body"
+msgstr "Эту серию задач можно повторить. Ваш прогресс будет сброшен, щиты восстановятся, и вы снова сможете заработать награды."
+
+msgid "tooltip/hub/replay/header"
+msgstr "Повторение задач"
+
+msgid "tooltip/hub/restart/description"
+msgstr "Вы можете перезапустить серию задач после потери всех щитов. Прогресс задач будет сброшен, щиты восстановятся, и вы снова сможете заработать награды."
+
+msgid "tooltip/hub/restart/free_restarts_cost"
+msgstr "Стоимость последующих перезапусков: %(currency)s"
+
+msgid "tooltip/hub/restart/free_restarts_text"
+msgstr "Доступно бесплатных перезапусков: %(currentNumber)s %(commonNumber)s"
+
+msgid "tooltip/hub/restart/only_paid_restart"
+msgstr "Стоимость каждого перезапуска: %(currency)s"
+
+msgid "tooltip/hub/restart/title"
+msgstr "Перезапуски"
+
+msgid "tooltip/hub/shields/description"
+msgstr "Щиты защищают ваш прогресс. Каждая проваленная задача отнимает один щит. После потери всех щитов серия задач будет считаться проваленной. Если вы её перезапустите, щиты восстановятся."
+
+msgid "tooltip/hub/shields/title"
+msgstr "Щиты"
+
+msgid "tooltip/vehicle_restrictions"
+msgstr "Ограничения по технике:"
+
+msgid "tooltip/weekly_mission"
+msgstr "Еженедельная задача"
+
+msgid "tooltip/weekly_reroll/description"
+msgstr "Вы можете заменять эту еженедельную задачу каждые {{time}}."
+
+msgid "welcome/button"
+msgstr "Так точно!"

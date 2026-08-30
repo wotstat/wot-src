@@ -1,0 +1,218 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2010-06-01 10:00+0300\nPO-Revision-Date: 2010-06-01 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\n"
+
+msgid "dashboard/header/clanInfo/role"
+msgstr "{role} в клане"
+
+msgid "mapsBlacklist/backBtn/addLabel"
+msgstr "К СТАТУСУ АККАУНТА"
+
+msgid "mapsBlacklist/backBtn/label"
+msgstr "НАЗАД"
+
+msgid "mapsBlacklist/cooldown"
+msgstr "Смена карты станет доступна через {}."
+
+msgid "mapsBlacklist/filtersTooltip/desc"
+msgstr "Включить/отключить отображение карт данного типа."
+
+msgid "mapsBlacklist/filtersTooltip/header/desert"
+msgstr "Пустынные карты"
+
+msgid "mapsBlacklist/filtersTooltip/header/summer"
+msgstr "Летние карты"
+
+msgid "mapsBlacklist/filtersTooltip/header/winter"
+msgstr "Зимние карты"
+
+msgid "mapsBlacklist/header"
+msgstr "Исключённые карты"
+
+msgid "mapsBlacklist/infoTooltip/desc"
+msgstr "Вы можете исключить из ротации нежелательную карту. Танковый премиум аккаунт позволяет исключить из ротации дополнительную карту, а подписка WoT Plus ещё %(mapCount)s. Если ваша подписка или Танковый премиум истекут, карты вернутся в ротацию."
+
+msgid "mapsBlacklist/infoTooltip/header"
+msgstr "Исключённые карты"
+
+msgid "mapsBlacklist/infoTooltip/highlightDesc"
+msgstr "Эти карты исключаются только из Случайных боёв."
+
+msgid "mapsBlacklist/infoTooltip/rule1"
+msgstr "Исключённую карту можно заменить каждые %(maxCooldownTimeStr)s."
+
+msgid "mapsBlacklist/infoTooltip/rule2"
+msgstr "Механика доступна для техники IV уровня и выше."
+
+msgid "mapsBlacklist/infoTooltip/rule3"
+msgstr "При игре взводом из ротации исключаются только карты, выбранные командиром."
+
+msgid "mapsBlacklist/mapName"
+msgstr "«{mapName}»"
+
+msgid "mapsBlacklist/mapsFilter"
+msgstr "Показано карт: {count}"
+
+msgid "mapsBlacklist/mapsFilterSelected"
+msgstr "Показано карт: {count} / {total}"
+
+msgid "mapsBlacklist/mapsFiltersLabel"
+msgstr "Типы карт:"
+
+msgid "mapsBlacklist/replaceDialog/cancelButton"
+msgstr "Отмена"
+
+msgid "mapsBlacklist/replaceDialog/closeButton"
+msgstr "Закрыть"
+
+msgid "mapsBlacklist/replaceDialog/description"
+msgstr "Выбранная карта будет заменена на карту «{mapNameStr}». Изменить свой выбор можно будет через {cooldownStr}."
+
+msgid "mapsBlacklist/replaceDialog/header"
+msgstr "Какую из карт вы хотите заменить?"
+
+msgid "mapsBlacklist/replaceDialog/okButton"
+msgstr "Исключить"
+
+msgid "mapsBlacklist/replaceDialog/okButton/tooltip"
+msgstr "Необходимо выбрать карту, которую вы хотите заменить"
+
+msgid "mapsBlacklist/selectDialog/cancelButton"
+msgstr "Отмена"
+
+msgid "mapsBlacklist/selectDialog/closeButton"
+msgstr "Закрыть"
+
+msgid "mapsBlacklist/selectDialog/description"
+msgstr "Изменить свой выбор можно будет через {cooldownStr}."
+
+msgid "mapsBlacklist/selectDialog/header"
+msgstr "Исключить карту «{mapNameStr}» из Случайных боёв?"
+
+msgid "mapsBlacklist/selectDialog/okButton"
+msgstr "Исключить"
+
+msgid "mapsBlacklist/slot/active/hoverBtn"
+msgstr "Исключить"
+
+msgid "mapsBlacklist/slot/active/hoverStr"
+msgstr "Исключить карту {mapNameStr}?"
+
+msgid "mapsBlacklist/slot/change/hoverBtn"
+msgstr "Вернуть"
+
+msgid "mapsBlacklist/slot/change/hoverStr"
+msgstr "Вернуть карту {mapNameStr} в Случайные бои?"
+
+msgid "mapsBlacklist/slotTooltip/cooldown/body"
+msgstr "Заменить данную карту можно через {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/cooldown/header"
+msgstr "Замена карты недоступна"
+
+msgid "mapsBlacklist/slotTooltip/disabled/body"
+msgstr "Заменить данную карту можно через {cooldownStr}."
+
+msgid "mapsBlacklist/slotTooltip/disabled/header"
+msgstr "Замена карты недоступна"
+
+msgid "mapsBlacklist/smallSlot/active/label"
+msgstr "Не выбрана"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/body"
+msgstr "Нажмите, чтобы выбрать карту для исключения из Случайных боёв."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/active/header"
+msgstr "Карта не выбрана"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/body"
+msgstr "Исключённую карту «{mapName}» можно поменять на другую."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/change/header"
+msgstr "Доступна замена карты"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/body"
+msgstr "Заменить карту «{mapName}» можно через {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/cooldown/header"
+msgstr "Замена карты недоступна"
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/body"
+msgstr "Дополнительный слот доступен только при активном Танковом премиум аккаунте."
+
+msgid "mapsBlacklist/smallSlotCardTooltip/disabled/header"
+msgstr "Слот недоступен"
+
+msgid "mapsBlacklist/smallSlotTooltip/active/body"
+msgstr "Выберите карту из списка ниже, чтобы исключить её из Случайных боёв."
+
+msgid "mapsBlacklist/smallSlotTooltip/active/header"
+msgstr "Карта не выбрана"
+
+msgid "mapsBlacklist/smallSlotTooltip/change/body"
+msgstr "Выберите карту из списка ниже, чтобы исключить её из Случайных боёв."
+
+msgid "mapsBlacklist/smallSlotTooltip/change/header"
+msgstr "Доступна замена карты"
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/body"
+msgstr "Заменить данную карту можно через {cooldownStr}."
+
+msgid "mapsBlacklist/smallSlotTooltip/cooldown/header"
+msgstr "Замена карты недоступна"
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/body"
+msgstr "Слот для исключения дополнительной карты доступен только при активном Танковом премиум аккаунте."
+
+msgid "mapsBlacklist/smallSlotTooltip/disabled/header"
+msgstr "Слот недоступен"
+
+msgid "mapsBlacklistConfim/cancel"
+msgstr "Отмена"
+
+msgid "mapsBlacklistConfim/message"
+msgstr "Изменить свой выбор можно будет через {whiteSpanish_Open}%(cooldownTimeStr)s{whiteSpanish_Close}."
+
+msgid "mapsBlacklistConfim/replace"
+msgstr "Сменить"
+
+msgid "mapsBlacklistConfim/submit"
+msgstr "Исключить"
+
+msgid "mapsBlacklistConfim/title"
+msgstr "Исключить карту «%(mapName)s» из Случайных боёв?"
+
+msgid "mapsBlacklistReplace/message"
+msgstr "Выбранная карта будет заменена на карту «{whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}». Изменить свой выбор можно будет через %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplace/title"
+msgstr "Какую из карт вы хотите заменить?"
+
+msgid "mapsBlacklistReplaceOne/message"
+msgstr "Эта карта будет заменена на карту «{whiteSpanish_Open}%(mapName)s{whiteSpanish_Close}». Изменить свой выбор можно будет через %(cooldownTimeStr)s."
+
+msgid "mapsBlacklistReplaceOne/title"
+msgstr "Вы хотите заменить эту карту?"
+
+msgid "parentControlCard/infoPopover/body"
+msgstr "Ваш аккаунт находится под родительским контролем.\nПодробнее об ограничениях, связанных с родительским контролем, читайте {link}."
+
+msgid "parentControlCard/infoPopover/header"
+msgstr "Родительский контроль"
+
+msgid "parentControlCard/infoPopover/link"
+msgstr "на портале"
+
+msgid "piggyBank/reserveBank/title"
+msgstr "Хранилище кредитов"
+
+msgid "piggyBankCard/timeLeft/days"
+msgstr "%(day)s д"
+
+msgid "piggyBankCard/timeLeft/hours"
+msgstr "%(hour)s ч"
+
+msgid "piggyBankCard/timeLeft/lessMin"
+msgstr "1 мин"
+
+msgid "piggyBankCard/timeLeft/min"
+msgstr "%(min)s мин"

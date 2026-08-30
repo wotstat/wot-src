@@ -1,0 +1,310 @@
+from __future__ import absolute_import
+import BigWorld, Math, CGF
+from cgf_modules import game_events
+import constants, TriggersManager, helpers
+from TriggersManager import TRIGGER_TYPE
+import FlockManager
+from items.components.component_constants import INVALID_EFFECT_INDEX
+from vehicle_systems.tankStructure import TankPartNames, ColliderTypes
+from helpers import gEffectsDisabled
+from helpers.trajectory_drawer import TrajectoryDrawer
+from aih_constants import CTRL_MODE_NAME
+
+def ownVehicleGunShotPositionGetter():
+    ownVehicle = BigWorld.entities.get(BigWorld.player().playerVehicleID, None)
+    if not ownVehicle:
+        return Math.Vector3(0.0, 0.0, 0.0)
+    else:
+        if not ownVehicle.typeDescriptor:
+            return Math.Vector3(0.0, 0.0, 0.0)
+        return ownVehicle.typeDescriptor.activeGunShotPosition
+
+
+class ProjectileMover(object):
+    __START_POINT_MAX_DIFF = 20
+    __PROJECTILE_HIDING_TIME = 0.05
+    __PROJECTILE_TIME_AFTER_DEATH = 2.0
+    __AUTO_SCALE_DISTANCE = 180.0
+
+    def __init__(self):
+        self.__projectiles = {}
+        self.__isPaused = False
+        self.salvo = BigWorld.PySalvo(1000, 0, -100)
+        self.__ballistics = BigWorld.PyBallisticsSimulator((lambda start, end: BigWorld.player().arena.collideWithSpaceBB(start, end)[1]), self.__killProjectile, self.__deleteProjectile)
+        if self.__ballistics is not None:
+            self.__ballistics.setFixedBallisticsParams(self.__PROJECTILE_HIDING_TIME, self.__PROJECTILE_TIME_AFTER_DEATH, self.__AUTO_SCALE_DISTANCE, constants.SERVER_TICK_LENGTH)
+        player = BigWorld.player()
+        if player is not None and player.inputHandler is not None:
+            player.inputHandler.onCameraChanged += self.__onCameraChanged
+        self.__debugDrawer = None
+        return
+
+    def destroy(self):
+        player = BigWorld.player()
+        if player is not None and player.inputHandler is not None:
+            player.inputHandler.onCameraChanged -= self.__onCameraChanged
+        self.__ballistics = None
+        if self.__debugDrawer is not None:
+            self.__debugDrawer.destroy()
+        shotIDs = list(self.__projectiles)
+        for shotID in shotIDs:
+            self.__delProjectile(shotID)
+
+        return
+
+    def add(self, shotID, effectsDescr, prefabEffIndex, gravity, refStartPoint, refVelocity, startPoint, maxDistance, shellTypeIdx, shellCaliber, attackerID=0, tracerCameraPos=None, gunInstallationIndex=constants.DEFAULT_GUN_INSTALLATION_INDEX):
+        tracerCameraPos = tracerCameraPos or Math.Vector3(0, 0, 0)
+        import BattleReplay
+        if BattleReplay.g_replayCtrl.isTimeWarpInProgress or self.__isPaused:
+            return
+        if startPoint.distTo(refStartPoint) > ProjectileMover.__START_POINT_MAX_DIFF:
+            startPoint = refStartPoint
+        artID = effectsDescr.get(b'artilleryID')
+        if artID is not None:
+            if not helpers.isShowingKillCam():
+                self.salvo.addProjectile(artID, gravity, refStartPoint, refVelocity)
+            return
+        isOwnShoot = attackerID == BigWorld.player().playerVehicleID
+        rotationSpeed = effectsDescr.get(b'projectileRotationSpeed', 0.0)
+        projectileMotor, collisionTime, _ = self.__ballistics.addProjectile(shotID, gravity, refStartPoint, refVelocity, startPoint, maxDistance, isOwnShoot, attackerID, ownVehicleGunShotPositionGetter(), tracerCameraPos, rotationSpeed)
+        if self.__debugDrawer is not None:
+            self.__debugDrawer.addProjectile(shotID, attackerID, refStartPoint, refVelocity, Math.Vector3(0.0, -gravity, 0.0), maxDistance, isOwnShoot)
+        if projectileMotor is None:
+            return
+        else:
+            projModelName, projModelOwnShotName, projEffects = effectsDescr[b'projectile']
+            model = BigWorld.Model(projModelOwnShotName if isOwnShoot else projModelName)
+            proj = {b'model': model, 
+               b'motor': projectileMotor, 
+               b'effectsDescr': effectsDescr, 
+               b'prefabEffIndex': prefabEffIndex, 
+               b'shellType': shellTypeIdx, 
+               b'caliber': shellCaliber, 
+               b'showExplosion': False, 
+               b'fireMissedTrigger': isOwnShoot, 
+               b'autoScaleProjectile': isOwnShoot, 
+               b'gunInstallationIndex': gunInstallationIndex, 
+               b'attackerID': attackerID, 
+               b'effectsData': {}}
+            if not gEffectsDisabled():
+                BigWorld.player().addModel(model)
+                model.addMotor(projectileMotor)
+                model.visible = False
+                model.visibleAttachments = True
+                projEffects.attachTo(proj[b'model'], proj[b'effectsData'], b'flying', isPlayerVehicle=isOwnShoot, isArtillery=False, attackerID=attackerID, collisionTime=collisionTime)
+            self.__projectiles[shotID] = proj
+            FlockManager.getManager().onProjectile(startPoint)
+            return
+
+    def hide(self, shotID, endPoint):
+        proj = self.__projectiles.pop(shotID, None)
+        if proj is None:
+            return
+        else:
+            if -shotID in self.__projectiles:
+                self.__delProjectile(-shotID)
+            self.__projectiles[-shotID] = proj
+            proj[b'fireMissedTrigger'] = False
+            proj[b'showExplosion'] = False
+            self.__notifyProjectileHit(endPoint, proj)
+            self.__ballistics.hideProjectile(shotID, endPoint)
+            return
+
+    def explode(self, shotID, effectsDescr, prefabEffIndex, effectMaterial, shellType, caliber, endPoint, velocityDir, speed):
+        if effectsDescr.has_key(b'artilleryID') or self.__isPaused:
+            return
+        proj = self.__projectiles.get(shotID)
+        if proj is None:
+            __proj = {}
+            __proj[b'effectsDescr'] = effectsDescr
+            __proj[b'effectMaterial'] = effectMaterial
+            __proj[b'prefabEffIndex'] = prefabEffIndex
+            __proj[b'shellType'] = shellType
+            __proj[b'caliber'] = caliber
+            __proj[b'attackerID'] = 0
+            self.__addExplosionEffect(endPoint, __proj, velocityDir, speed)
+            return
+        else:
+            if proj[b'fireMissedTrigger']:
+                proj[b'fireMissedTrigger'] = False
+                TriggersManager.g_manager.fireTrigger(TRIGGER_TYPE.PLAYER_SHOT_MISSED, gunInstallationIndex=proj[b'gunInstallationIndex'])
+            params = self.__ballistics.explodeProjectile(shotID, endPoint)
+            if params is not None:
+                proj[b'shellType'] = shellType
+                proj[b'caliber'] = caliber
+                if not proj.has_key(b'effectMaterial'):
+                    proj[b'effectMaterial'] = effectMaterial
+                velocityVec = params[2]
+                self.__addExplosionEffect(params[0], proj, params[1], velocityVec.length)
+            else:
+                proj[b'showExplosion'] = True
+                proj[b'effectMaterial'] = effectMaterial
+            self.__notifyProjectileHit(endPoint, proj)
+            return
+
+    def hold(self, shotID):
+        self.__ballistics.holdProjectile(shotID)
+        return
+
+    def setSpaceID(self, spaceID):
+        if self.__ballistics:
+            self.__ballistics.setVariableBallisticsParams(spaceID)
+        self.__debugDrawer = TrajectoryDrawer(spaceID)
+        return
+
+    def setPause(self, isPause):
+        if isPause == self.__isPaused:
+            return
+        self.__isPaused = isPause
+        if not self.__isPaused:
+            return
+        shotIDs = list(self.__projectiles)
+        for shotID in shotIDs:
+            self.__delProjectile(shotID)
+
+        return
+
+    def __notifyProjectileHit(self, hitPosition, proj):
+        BigWorld.player().inputHandler.onProjectileHit(hitPosition, proj[b'effectsDescr'][b'caliber'], proj[b'effectsDescr'][b'targetCameraSensitivity'], proj[b'autoScaleProjectile'])
+        FlockManager.getManager().onProjectile(hitPosition)
+        return
+
+    def __addExplosionEffect(self, position, proj, velocityDir, speed):
+        if self.__isPaused:
+            return
+        else:
+            matKind = proj.get(b'effectMaterial', b'')
+            effectTypeStr = matKind + b'Hit'
+            p0 = Math.Vector3(position.x, 1000, position.z)
+            p1 = Math.Vector3(position.x, -1000, position.z)
+            waterDist = BigWorld.wg_collideWater(p0, p1, False)
+            if waterDist > 0:
+                waterY = p0.y - waterDist
+                testRes = BigWorld.wg_collideSegment(BigWorld.player().spaceID, p0, p1, 128)
+                staticY = testRes.closestPoint.y if testRes is not None else waterY
+                if staticY < waterY and position.y - waterY <= 0.1:
+                    shallowWaterDepth, rippleDiameter = proj[b'effectsDescr'][b'waterParams']
+                    if waterY - staticY < shallowWaterDepth:
+                        effectTypeStr = b'shallowWaterHit'
+                    else:
+                        effectTypeStr = b'deepWaterHit'
+                    position = Math.Vector3(position.x, waterY, position.z)
+                    self.__addWaterRipples(position, rippleDiameter, 5)
+            keyPoints, effects, _ = proj[b'effectsDescr'][effectTypeStr]
+            BigWorld.player().terrainEffects.addNew(position, effects, keyPoints, None, dir=velocityDir, start=position + velocityDir.scale(-1.0), end=position + velocityDir.scale(1.0), attackerID=proj[b'attackerID'])
+            prefabEffIndex = proj[b'prefabEffIndex']
+            if prefabEffIndex != INVALID_EFFECT_INDEX:
+                shellType = proj[b'shellType']
+                caliber = proj[b'caliber']
+                CGF.postEvent(BigWorld.player().spaceID, game_events.SceneHitEvent(position, game_events.GunShellInfo(caliber, shellType), speed, velocityDir, prefabEffIndex, effectTypeStr, matKind))
+            return
+
+    def __killProjectile(self, shotID, position, impactVelDir, velocity, deathType, explode):
+        proj = self.__projectiles.get(shotID)
+        if proj is None:
+            return
+        else:
+            effectsDescr = proj[b'effectsDescr']
+            projEffects = effectsDescr[b'projectile'][2]
+            projEffects.detachFrom(proj[b'effectsData'], b'stopFlying', deathType)
+            if proj[b'showExplosion'] and explode and not helpers.isShowingKillCam():
+                self.__addExplosionEffect(position, proj, impactVelDir, velocity.length)
+            return
+
+    def __deleteProjectile(self, shotID):
+        proj = self.__projectiles.get(shotID)
+        if proj is None:
+            return
+        else:
+            self.__delProjectile(shotID)
+            if proj[b'fireMissedTrigger']:
+                TriggersManager.g_manager.fireTrigger(TRIGGER_TYPE.PLAYER_SHOT_MISSED, gunInstallationIndex=proj[b'gunInstallationIndex'])
+            return
+
+    def __addWaterRipples(self, position, rippleDiameter, ripplesLeft):
+        BigWorld.wg_addWaterRipples(position, rippleDiameter)
+        if ripplesLeft > 0:
+            BigWorld.callback(0, (lambda : self.__addWaterRipples(position, rippleDiameter, ripplesLeft - 1)))
+        return
+
+    def __delProjectile(self, shotID):
+        proj = self.__projectiles.pop(shotID)
+        if self.__debugDrawer is not None:
+            self.__debugDrawer.removeProjectile(shotID if shotID > 0 else -shotID)
+        if proj is None:
+            return
+        else:
+            projEffects = proj[b'effectsDescr'][b'projectile'][2]
+            projEffects.detachAllFrom(proj[b'effectsData'])
+            proj[b'model'].delMotor(proj[b'motor'])
+            BigWorld.player().delModel(proj[b'model'])
+            return
+
+    def __onCameraChanged(self, controlModeName, currentVehicleId=None):
+        self.__ballistics.setBallisticsAutoScale(controlModeName != CTRL_MODE_NAME.SNIPER)
+        return
+
+
+class EntityCollisionData(object):
+    __slots__ = (b'hitAngleCos', b'armor', b'__isVehicle', b'entity')
+
+    def __init__(self, entityID, partIndex, matKind, isVehicle=True):
+        self.hitAngleCos = 0.0
+        self.__isVehicle = isVehicle
+        if isVehicle:
+            self.entity = BigWorld.entity(entityID)
+            if self.entity is None:
+                self.__isVehicle = False
+            else:
+                matInfo = self.entity.getMatinfo(partIndex, matKind)
+                self.armor = matInfo.armor if matInfo is not None and matInfo.armor is not None else 0.0
+        else:
+            self.entity = None
+        return
+
+    def isVehicle(self):
+        return self.__isVehicle
+
+
+def collideDynamicAndStatic(startPoint, endPoint, exceptIDs, collisionFlags=128, skipGun=False):
+    ignoreDynamicID = -1
+    if exceptIDs:
+        ignoreDynamicID = exceptIDs[0]
+    testRes = BigWorld.wg_collideDynamicStatic(BigWorld.player().spaceID, startPoint, endPoint, collisionFlags, ignoreDynamicID, -1 if not skipGun else TankPartNames.getIdx(TankPartNames.GUN), 0)
+    if testRes is not None:
+        if testRes[1]:
+            return (
+             testRes[0], EntityCollisionData(testRes[2], testRes[3], testRes[4], True))
+        return (testRes[0], None)
+    else:
+        return
+
+
+def collideDynamic(startPoint, endPoint, exceptIDs, skipGun=False):
+    ignoreID = 0
+    if exceptIDs:
+        ignoreID = exceptIDs[0]
+    res = BigWorld.wg_collideDynamic(BigWorld.player().spaceID, startPoint, endPoint, ignoreID, TankPartNames.getIdx(TankPartNames.GUN) if skipGun else -1)
+    if res is not None:
+        isVehicle = res[2] == ColliderTypes.VEHICLE_COLLIDER
+        res = (res[0], EntityCollisionData(res[3], res[4], res[5], isVehicle))
+    return res
+
+
+def collideVehiclesAndStaticScene(startPoint, endPoint, vehicles, collisionFlags=128, skipGun=False):
+    testResStatic = BigWorld.wg_collideSegment(BigWorld.player().spaceID, startPoint, endPoint, collisionFlags)
+    testResDynamic = collideDynamic(startPoint, endPoint if testResStatic is None else testResStatic.closestPoint, vehicles, skipGun)
+    if testResStatic is None and testResDynamic is None:
+        return
+    else:
+        distDynamic = 1000000.0
+        if testResDynamic is not None:
+            distDynamic = testResDynamic[0]
+        distStatic = 1000000.0
+        if testResStatic is not None:
+            distStatic = (testResStatic.closestPoint - startPoint).length
+        if distDynamic <= distStatic:
+            return (
+             startPoint + (endPoint - startPoint) * distDynamic,
+             testResDynamic[1])
+        return (testResStatic.closestPoint, None)

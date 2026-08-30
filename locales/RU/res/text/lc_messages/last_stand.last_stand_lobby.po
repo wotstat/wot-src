@@ -1,0 +1,488 @@
+msgid ""
+msgstr "Project-Id-Version: World Of Tanks\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2023-01-12 10:00+0300\nPO-Revision-Date: 2023-01-12 10:00+0300\nLast-Translator: WoT Translator <noreply@wargaming.net>\nLanguage-Team: WoT Team <noreply@wargaming.net>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "#PluralForms"
+msgstr "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+
+msgid "abilitiesIncomplete/cancel"
+msgstr "Выйти в бой"
+
+msgid "abilitiesIncomplete/submit"
+msgstr "Снарядить!"
+
+msgid "abilitiesIncomplete/title"
+msgstr "Тактические устройства не выбраны"
+
+msgid "abilitiesIncomplete/warning"
+msgstr "На выбранной машине не хватает тактических устройств. Это может негативно сказаться на боевой эффективности. Всё равно выйти в бой?"
+
+msgid "ammoSetup/changeHotKey/body"
+msgstr "Вы можете настроить горячие клавиши для типов снарядов и тактических устройств.\nЭти изменения затрагивают только игровые события и не влияют на стандартные режимы игры.\nВы также можете настроить горячие клавиши в меню настроек управления (категория «Снаряжение»)."
+
+msgid "ammoSetup/changeHotKey/header"
+msgstr "Изменить горячие клавиши для снаряжения"
+
+msgid "badgeWidget/round"
+msgstr "%(count)s K"
+
+msgid "badgeWidget/tooltipBody"
+msgstr "Выполните текущую задачу, чтобы получить уникальную нашивку «Последний рубеж: Операция \"Пандора\"»:"
+
+msgid "badgeWidget/tooltipHeader"
+msgstr "Задача на эпическую награду"
+
+msgid "booster/booster_ability_cost/description"
+msgstr "После исследования снижает {EDCB9E_Start}затраты мириума{EDCB9E_End} на использование всех тактических устройств на {EDCB9E_Start}%(ability_cost_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_cost/name"
+msgstr "Эффективность мириума"
+
+msgid "booster/booster_ability_duration/description"
+msgstr "После исследования увеличивает {EDCB9E_Start}продолжительность действия тактических устройств{EDCB9E_End} на {EDCB9E_Start}%(ability_duration_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_duration/name"
+msgstr "Время действия устройства"
+
+msgid "booster/booster_ability_radius/description"
+msgstr "После исследования увеличивает {EDCB9E_Start}радиус действия тактических устройств{EDCB9E_End} на {EDCB9E_Start}%(ability_radius_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_ability_radius/name"
+msgstr "Радиус эффекта устройства"
+
+msgid "booster/booster_heal/description"
+msgstr "После исследования усиливает {EDCB9E_Start}эффекты восстановления,{EDCB9E_End} применяемые к машине, на {EDCB9E_Start}%(heal_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_heal/name"
+msgstr "Эффекты восстановления"
+
+msgid "booster/booster_obelisk_translated_damage/description"
+msgstr "После исследования увеличивает количество урона, {EDCB9E_Start}передающегося от Обелисков{EDCB9E_End} технике противника на {EDCB9E_Start}%(obelisk_translated_damage_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_obelisk_translated_damage/name"
+msgstr "Транслируемый урон Обелиска"
+
+msgid "booster/booster_pick_up_radius/description"
+msgstr "После исследования увеличивает {EDCB9E_Start}радиус сбора мириума{EDCB9E_End} с техники противника на {EDCB9E_Start}%(pick_up_radius_add)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_radius/name"
+msgstr "Радиус сбора мириума"
+
+msgid "booster/booster_pick_up_souls/description"
+msgstr "После исследования увеличивает {EDCB9E_Start}количество мириума,{EDCB9E_End} собираемого с уничтоженной техники на {EDCB9E_Start}%(pick_up_souls_add_percent)s%%{EDCB9E_End}."
+
+msgid "booster/booster_pick_up_souls/name"
+msgstr "Сбор мириума"
+
+msgid "booster/booster_receive_souls_after_wave/description"
+msgstr "После исследования увеличивает {EDCB9E_Start}количество мириума,{EDCB9E_End} получаемого за уничтожение волны противника на {EDCB9E_Start}%(receive_souls_after_wave_add)s{EDCB9E_End}."
+
+msgid "booster/booster_receive_souls_after_wave/name"
+msgstr "Мириум за волну"
+
+msgid "booster/booster_restore_souls_on_respawn/description"
+msgstr "После исследования увеличивает {EDCB9E_Start}количество мириума,{EDCB9E_End} восстанавливаемого при возрождении на {EDCB9E_Start}%(restore_souls_on_respawn_add)s{EDCB9E_End}."
+
+msgid "booster/booster_restore_souls_on_respawn/name"
+msgstr "Мириум при возрождении"
+
+msgid "booster/booster_souls_capacity/description"
+msgstr "После исследования увеличивает {EDCB9E_Start}максимальный запас мириума{EDCB9E_End} на {EDCB9E_Start}%(souls_capacity_add)s{EDCB9E_End}."
+
+msgid "booster/booster_souls_capacity/name"
+msgstr "Максимальный запас мириума"
+
+msgid "bundle/name/bundleEventPack"
+msgstr "НАБОР ЗАЩИТНИКА"
+
+msgid "bundleView/bundle/serviceChannelMessages/ls2_0bundle_key"
+msgstr "Ключи куплены"
+
+msgid "bundleView/tooltip/expVehicleX5/body"
+msgstr "Возможность получать в пять раз больше опыта за бой, начиная со второй победы в день на любой машине."
+
+msgid "bundleView/tooltip/expVehicleX5/header"
+msgstr "Задача на ×5 опыта за бой"
+
+msgid "carousel/filters/tooltipBody"
+msgstr "Настройка отображения техники с учётом типа, нации и других параметров."
+
+msgid "carousel/filters/tooltipHeader"
+msgstr "Фильтр по параметрам"
+
+msgid "common/back"
+msgstr "НАЗАД"
+
+msgid "common/close"
+msgstr "ЗАКРЫТЬ"
+
+msgid "common/modifierInline"
+msgstr "×{value}"
+
+msgid "common/modifierInlineTimes"
+msgstr "×{value}"
+
+msgid "common/progress"
+msgstr "{value} / {maxValue}"
+
+msgid "common/toEvent"
+msgstr "К СОБЫТИЮ"
+
+msgid "common/toRewardPath"
+msgstr "К ПРОГРЕССИИ"
+
+msgid "common/yes"
+msgstr "Так точно!"
+
+msgid "difficult/daily"
+msgstr "ДОСТУПНЫ ЕЖЕДНЕВНЫЕ ЗАДАЧИ НА КЛЮЧИ"
+
+msgid "difficult/disabled/body"
+msgstr "Вы в составе взвода. Только командир взвода может изменять уровень сложности."
+
+msgid "difficult/disabled/header"
+msgstr "Смена уровня сложности недоступна"
+
+msgid "difficult/level_1"
+msgstr "Стандарт"
+
+msgid "difficult/level_2"
+msgstr "Продвинутый"
+
+msgid "difficult/level_3"
+msgstr "Жесть"
+
+msgid "difficult/new"
+msgstr "НОВОЕ"
+
+msgid "difficult/searching/body"
+msgstr "Недоступно во время поиска."
+
+msgid "difficult/tooltip/description/level1"
+msgstr "Снижены прочность и бронирование противников. Стандартное количество данных за бой."
+
+msgid "difficult/tooltip/description/level2"
+msgstr "Броня противников усилена. Количество данных за бой увеличено на {{modifier}}."
+
+msgid "difficult/tooltip/description/level3"
+msgstr "Ещё больше противников с прочной бронёй. Количество данных за бой увеличено на {{modifier}}."
+
+msgid "difficult/tooltip/description/reward"
+msgstr "Награды за уничтожение последней волны в первый раз:"
+
+msgid "difficult/tooltip/header/level1"
+msgstr "Сложность «Стандарт»"
+
+msgid "difficult/tooltip/header/level2"
+msgstr "Сложность «Продвинутый»"
+
+msgid "difficult/tooltip/header/level3"
+msgstr "Сложность «Жесть»"
+
+msgid "difficult/tooltip/locked"
+msgstr "Уровень сложности закрыт"
+
+msgid "difficult/tooltip/lockedDescr/level2"
+msgstr "Чтобы открыть этот уровень, победите в режиме на сложности «Стандарт»."
+
+msgid "difficult/tooltip/lockedDescr/level3"
+msgstr "Чтобы открыть этот уровень, победите в режиме на сложности «Продвинутый»."
+
+msgid "difficult/tooltip/state/default"
+msgstr "Уровень сложности доступен"
+
+msgid "difficult/tooltip/state/selected"
+msgstr "Уровень сложности выбран"
+
+msgid "difficult/tooltip/subHeader"
+msgstr "Волн уничтожено: {count}"
+
+msgid "difficult/uppercase/level_1"
+msgstr "СТАНДАРТ"
+
+msgid "difficult/uppercase/level_2"
+msgstr "ПРОДВИНУТЫЙ"
+
+msgid "difficult/uppercase/level_3"
+msgstr "ЖЕСТЬ"
+
+msgid "difficultyWindow/description/level_2"
+msgstr "Броня противников усилена. Больше кредитов и ×{{modifier}} данных за бой."
+
+msgid "difficultyWindow/description/level_3"
+msgstr "Ещё больше противников с прочной бронёй. Больше кредитов и ×{{modifier}} данных за бой."
+
+msgid "difficultyWindow/description/level_4"
+msgstr "Отражайте волны противников и занимайте почётные места в таблице лидеров. Вас ждут ценные награды и многое другое!"
+
+msgid "difficultyWindow/header/level_2"
+msgstr "УРОВЕНЬ СЛОЖНОСТИ: ПРОДВИНУТЫЙ"
+
+msgid "difficultyWindow/header/level_3"
+msgstr "УРОВЕНЬ СЛОЖНОСТИ: ЖЕСТЬ"
+
+msgid "difficultyWindow/header/level_4"
+msgstr "РЕЖИМ «ПОСЛЕДНИЙ РУБЕЖ»"
+
+msgid "difficultyWindow/headerShort/level_2"
+msgstr "ПРОДВИНУТЫЙ"
+
+msgid "difficultyWindow/headerShort/level_3"
+msgstr "ЖЕСТЬ"
+
+msgid "difficultyWindow/headerShort/level_4"
+msgstr "ПОСЛЕДНИЙ РУБЕЖ"
+
+msgid "difficultyWindow/rewards"
+msgstr "Награды за выполнение:"
+
+msgid "difficultyWindow/title"
+msgstr "ДОСТУПЕН"
+
+msgid "hangar/exit"
+msgstr "ПОКИНУТЬ СОБЫТИЕ"
+
+msgid "hangar/narration"
+msgstr "История"
+
+msgid "hangar/tooltip/about"
+msgstr "Узнать больше о событии «Последний рубеж: Северные земли»."
+
+msgid "hangar/tooltip/narration"
+msgstr "Узнать больше об истории события."
+
+msgid "hangarAmmunitionSetup/header"
+msgstr "ТАКТИЧЕСКИЕ УСТРОЙСТВА"
+
+msgid "hangarAmmunitionSetup/navigation"
+msgstr "ОСНАЩЕНИЕ"
+
+msgid "headerButtons/battle/types/last_stand"
+msgstr "Последний рубеж"
+
+msgid "iconButton/comparison/default"
+msgstr "Сравнение техники"
+
+msgid "iconButton/comparison/isDisabled"
+msgstr "Сравнение техники недоступно"
+
+msgid "iconButton/preview/default"
+msgstr "Предпросмотр машины"
+
+msgid "iconButton/preview/isDisabled"
+msgstr "Предпросмотр машины недоступен"
+
+msgid "keyCard/name"
+msgstr "Ключи дешифровки"
+
+msgid "meta/btn/decrypt"
+msgstr "ДЕШИФРОВАТЬ"
+
+msgid "meta/btn/skip"
+msgstr "ПРОПУСТИТЬ"
+
+msgid "meta/btn/view"
+msgstr "СМОТРЕТЬ"
+
+msgid "meta/receive/description"
+msgstr "Соберите %(keys) / %(decrypt) %(icon)\nдля дешифровки записи"
+
+msgid "metaIntro/description/fight"
+msgstr "Участвуйте в боях события и зарабатывайте данные, чтобы продвигаться по прогрессии."
+
+msgid "metaIntro/description/progress"
+msgstr "Собирайте данные, чтобы исследовать улучшения техники и выполнять более сложные задачи."
+
+msgid "metaIntro/description/reward"
+msgstr "Проходите этапы прогрессии, чтобы получить особые награды события. Подробности можно узнать на экране «Цепочка наград»."
+
+msgid "metaIntro/header/fight"
+msgstr "Бои события"
+
+msgid "metaIntro/header/progress"
+msgstr "Улучшения"
+
+msgid "metaIntro/header/reward"
+msgstr "Уникальные награды"
+
+msgid "metaIntro/title"
+msgstr "ПРОГРЕССИЯ"
+
+msgid "missionWidget/complete"
+msgstr "Задача выполнена.\nВозвращайтесь завтра."
+
+msgid "missionWidget/tooltipBody"
+msgstr "Выполните ежедневные задачи, которые доступны каждые 24 ч, чтобы получить награду. Сегодняшняя задача:"
+
+msgid "missionWidget/tooltipHeader"
+msgstr "Ежедневная задача"
+
+msgid "narration/actions/voiceover"
+msgstr "Озвучка"
+
+msgid "narration/narrationText/ls_narration_1"
+msgstr "{{@ class $highlightText}}СОВЕРШЕННО СЕКРЕТНО{{/}}{{titleParagraph}}{{@ class $highlightText}}СЕКТОР: N-07 (периметр «Аврора»){{/}}{{pargraphStart}}Наш прогноз подтвердился. Наблюдательные станции зафиксировали приближение аномалии за одиннадцать суток до события. Впервые мы знали заранее.{{pargraphStart}}За время затишья производство комплексов «АТЛАС» было стандартизировано: новые модули собираются быстрее, калибруются точнее. Мы провели учения, обкатали тактические схемы, подготовили резервные расчёты. Полная боевая готовность.{{pargraphStart}}Но аномалия внесла поправку.{{pargraphStart}}Воронка открылась не в расчётном секторе. Она появилась здесь: в удалённом северном районе, вдали от развёрнутой инфраструктуры. Причина выбора этой точки неясна. В моделях ничто не указывало на данный регион. Экстренная передислокация начата немедленно, однако рельеф и расстояния работают против нас. Часть техники и расчётов прибудет с опозданием.{{pargraphStart}}Каждый комплекс «АТЛАС», который мы успели доставить, теперь незаменим.{{pargraphStart}}На этот раз мы были готовы к бою. Но к бою в другом месте.{{pargraphStart}}ПОДПИСЬ: КУРАТОР (ПРОЕКТ «М»)"
+
+msgid "narration/narrationText/ls_narration_2"
+msgstr "{{@ class $highlightText}}Аналитическая записка 27/С «ВЫБОР ТОЧКИ ВТОРЖЕНИЯ»{{/}}{{titleParagraph}}Для внутреннего пользования. Гриф: ограниченный доступ.{{pargraphStart}}Я задаю вопрос, на который обязан ответить, но не могу: почему именно здесь?{{pargraphStart}}Этот район не имеет стратегического значения для Воронки. Здесь ничего нет. Ни инфраструктуры, ни населённых пунктов. Только нефункционирующая военная база на острове. Эхо-танки не могут переправляться через море. В чём смысл захвата точки, из которой невозможно наступление?{{pargraphStart}}Я запросил полную оперативную историю региона. Ответ пришёл сильно отредактированный. Целые разделы вычеркнуты. Повторный запрос вернулся с пометкой «доступ ограничен решением {{@ class $highlightSecondaryText}}[ДАННЫЕ УДАЛЕНЫ]{{/}}». Мне, руководителю научного направления, чьи рекомендации определяют тактику обороны этого сектора, отказывают в информации об этой территории!{{pargraphStart}}Вот что я могу установить по полевым данным: поведение Воронки не совпадает с тем, что мы наблюдали в секторе R-22. Появились новые типы эхо-танков, которых мы не встречали прежде. По функциям они соответствуют нашим дальнобойным ПТ-САУ и крайне эффективны в условиях такого рельефа. Противник выучил нашу тактику и принял меры. Теперь наша очередь адаптироваться.{{pargraphStart}}Может быть, это место ей нужно. А может быть, нужно то, что под ним.{{pargraphStart}}Я не знаю. И меня беспокоит, что кто-то знает, но молчит.{{pargraphStart}}ПОДПИСЬ: КУРАТОР (ПРОЕКТ «М»)"
+
+msgid "narration/narrationText/ls_narration_3"
+msgstr "{{@ class $highlightText}}ЛИЧНАЯ ЗАПИСЬ КУРАТОРА {{/}}{{pargraphStart}}Я пересмотрел собственные гипотезы. Все три.{{pargraphStart}}  1. Аномалия стремится уничтожить нас.{{pargraphStart}}  2. Аномалия экспериментирует. Исследует нашу тактику, изучает наш ответ, подстраивается и обучается.{{pargraphStart}}  3. Аномалия тренируется. Каждая волна как отработка новой тактики, каждый бой — учения в полевых условиях.{{pargraphStart}}Все три гипотезы объединяет одно допущение, в котором мы — цель этого вторжения.{{pargraphStart}}А что, если нет?{{pargraphStart}}Что, если аномалия делает нечто совершенно иное, а мы просто стоим на пути? Как муравейник, затопленный при строительстве дороги. Строитель не воюет с муравьями. Он их просто не замечает.{{pargraphStart}}Врага, который хочет тебя уничтожить, можно остановить. С ним можно договориться. Но того, что не признаёт твоё существование, невозможно запугать, невозможно переиграть. Оно не остановится. Потому что ты никогда не был частью его расчёта.{{pargraphStart}}Я думаю, мы задавали неверный вопрос. Нужно спрашивать не зачем оно нас атакует, а замечает ли оно нас вообще.{{pargraphStart}}ПОДПИСЬ: КУРАТОР (ПРОЕКТ «М»)"
+
+msgid "narration/narrationText/ls_narration_4"
+msgstr "{{@ class $highlightText}}ИТОГОВЫЙ РАПОРТ{{/}}{{titleParagraph}}{{@ class $highlightText}}СТАТУС: РАССЕКРЕЧЕНО (ЧАСТИЧНО){{/}}{{pargraphStart}}В 03:47 Воронка схлопнулась. Аномальная активность прекращена. Сектор зачищен.{{pargraphStart}}В последние секунды перед коллапсом датчики «АТЛАСА» зарегистрировали энергетический выброс, превышающий все ранее зафиксированные показатели. Экипажи наблюдали кратковременное физическое проявление в центре аномалии, которое продлилось не более двенадцати секунд. После этого Воронка закрылась.{{pargraphStart}}Официальное заключение: инцидент исчерпан. Оборона территории проведена успешно. Карантин с сектора снят.{{pargraphStart}}{{@ class $highlightText}}ЛИЧНАЯ ЗАМЕТКА КУРАТОРА (Только для спецрезерва){{/}}{{pargraphStart}}Мы не победили. Оно закончило.{{pargraphStart}}Это было не вторжение. Это было прикрытие. Защитный периметр вокруг того, что проявилось в центре Воронки за секунды до схлопывания.{{pargraphStart}}Десятки Обелисков появились одновременно. Что именно они делали, мы пока не знаем. «АТЛАС» зафиксировал все параметры, но на их интерпретацию уйдёт время. Одно мы знаем наверняка: аномалия завершила некий процесс.{{pargraphStart}}Но что бы оно ни делало, нам нужно готовиться к следующей атаке. Данных у нас теперь хватает. Наши инженеры уже разбирают записи и, честно говоря, я давно не видел их в таком возбуждении. Они считают, что мы сможем серьёзно усилить наши машины. Нужно успеть до того, как Воронка вернётся.{{pargraphStart}}Меня не отпускает одна мысль: если это произошло здесь и длилось недолго, сколько раз это происходило раньше? В местах, где не было «АТЛАСА», где некому было смотреть…{{pargraphStart}}ПОДПИСЬ: КУРАТОР (ПРОЕКТ «М»)"
+
+msgid "narration/narrationTitle/ls_artefact_1"
+msgstr "{{number}}. Мы были готовы"
+
+msgid "narration/narrationTitle/ls_artefact_2"
+msgstr "{{number}}. Почему здесь?"
+
+msgid "narration/narrationTitle/ls_artefact_3"
+msgstr "{{number}}. Неправильный вопрос"
+
+msgid "narration/narrationTitle/ls_artefact_4"
+msgstr "{{number}}. Оно закончило"
+
+msgid "narration/tooltips/disabledNextEpisode_1"
+msgstr "Победите в режиме на сложности «Стандарт», чтобы перейти к следующей части истории."
+
+msgid "narration/tooltips/disabledNextEpisode_2"
+msgstr "Победите в режиме на сложности «Продвинутый», чтобы перейти к следующей части истории."
+
+msgid "narration/tooltips/disabledNextEpisode_3"
+msgstr "Победите в режиме на сложности «Жесть», чтобы перейти к финальной части истории."
+
+msgid "narration/tooltips/nextStory"
+msgstr "Следующая история"
+
+msgid "preBattle/leave"
+msgstr "Выйти из боя"
+
+msgid "preBattle/searching"
+msgstr "ПОИСК СОЮЗНИКОВ..."
+
+msgid "preBattle/tip"
+msgstr "Долго не можете подобрать отряд для события? Попробуйте изменить уровень сложности."
+
+msgid "preBattle/uppercase/leave"
+msgstr "ВЫЙТИ ИЗ БОЯ"
+
+msgid "promoWindow/header"
+msgstr "К «ПОСЛЕДНЕМУ РУБЕЖУ»"
+
+msgid "promoWindow/subheader"
+msgstr "Опробуйте новую главу одиночного игрового режима «Последний рубеж» с {dateRange}.\nПолучите комплект {cream_open}3D-объектов{cream_close} события, экспериментальное оборудование и уникальные награды."
+
+msgid "questCard/allCompleted"
+msgstr "Все ежедневные задачи выполнены"
+
+msgid "questCard/completed"
+msgstr "Ежедневная задача выполнена.\nВозвращайтесь завтра."
+
+msgid "reward/rest"
+msgstr "И ещё: %(count)s"
+
+msgid "rewardPath/about"
+msgstr "О ЗАДАНИЯХ"
+
+msgid "rewardPath/aboutTooltip"
+msgstr "Узнать больше о прогрессии события."
+
+msgid "rewardPath/boostTitle"
+msgstr "Продвигайтесь быстрее в событии и получайте больше данных {icon}"
+
+msgid "rewardPath/btn/shop"
+msgstr "Смотреть в Магазине"
+
+msgid "rewardPath/completed"
+msgstr "Собраны все данные и получены все награды"
+
+msgid "rewardPath/completedTitle"
+msgstr "Загляните в Магазин за особыми тематическими элементами внешнего вида"
+
+msgid "rewardPath/intro"
+msgstr "ВСТУПЛЕНИЕ"
+
+msgid "rewardPath/introTooltip"
+msgstr "Посмотреть вступительное видео."
+
+msgid "rewardPath/progress"
+msgstr "Данные получены на ЭТАПЕ {artefactIndex}: {currentProgress} / {maxProgress} {icon}"
+
+msgid "rewardPath/title"
+msgstr "ПРОГРЕССИЯ"
+
+msgid "rewardPathCard/completed"
+msgstr "Выполнено"
+
+msgid "rewardPathCard/name"
+msgstr "Цепочка наград"
+
+msgid "rewardPathCard/progress"
+msgstr "{{value}} / {{maxValue}} {{storyPoint}}"
+
+msgid "shopCard/name"
+msgstr "Наборы события"
+
+msgid "squad/goToAnother/cancel"
+msgstr "Отменить"
+
+msgid "squad/goToAnother/message"
+msgstr "Взвод будет расформирован."
+
+msgid "squad/goToAnother/submit"
+msgstr "Выйти"
+
+msgid "squad/goToAnother/title"
+msgstr "Покинуть событие «Последний рубеж: Северные земли»?"
+
+msgid "squad/leave/cancel"
+msgstr "Отменить"
+
+msgid "squad/leave/disabledEvent/message"
+msgstr "Взвод будет расформирован."
+
+msgid "squad/leave/disabledEvent/submit"
+msgstr "Так точно!"
+
+msgid "squad/leave/disabledEvent/title"
+msgstr "Событие «Последний рубеж: Северные земли» завершено"
+
+msgid "squad/leave/message"
+msgstr "Взвод будет расформирован."
+
+msgid "squad/leave/submit"
+msgstr "Выйти"
+
+msgid "squad/leave/title"
+msgstr "Покинуть событие «Последний рубеж: Северные земли»?"
+
+msgid "squad/leaveDisabled/cancel"
+msgstr "Продолжить"
+
+msgid "squad/leaveDisabled/message"
+msgstr "Вы находитесь в основном составе и подтвердили готовность к бою."
+
+msgid "squad/leaveDisabled/title"
+msgstr "Невозможно покинуть взвод!"
+
+msgid "stageReward/rewards/received"
+msgstr "Также получено:"
+
+msgid "stageReward/special/header"
+msgstr "ПРОЙДЕН УРОВЕНЬ СЛОЖНОСТИ «ЖЕСТЬ»!"
+
+msgid "stageReward/special/subheader"
+msgstr "Получена особая награда"
+
+msgid "stageReward/stage/header"
+msgstr "ПОЛУЧЕНЫ НАГРАДЫ"
+
+msgid "stageReward/stage/subheader"
+msgstr "Последний рубеж: этап {{number}} пройден"
+
+msgid "stageReward/stageFinal/header"
+msgstr "ВСЕ НАГРАДЫ ПОЛУЧЕНЫ"
+
+msgid "stageReward/stageFinal/subheader"
+msgstr "Последний рубеж: последний этап пройден"
